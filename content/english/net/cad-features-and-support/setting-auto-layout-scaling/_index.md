@@ -1,6 +1,6 @@
 ---
 title: Setting Auto Layout Scaling in Aspose.CAD for .NET
-linktitle: Setting Auto Layout Scaling in Aspose.CAD for .NET
+linktitle: Setting Auto Layout Scaling
 second_title: Aspose.CAD .NET - CAD and BIM File Format
 description: 
 type: docs

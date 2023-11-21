@@ -1,6 +1,6 @@
 ---
 title: Adding Watermarks to CAD Drawings - Aspose.CAD Guide
-linktitle: Adding Watermarks to CAD Drawings - Aspose.CAD Guide
+linktitle: Adding Watermarks to CAD Drawings
 second_title: Aspose.CAD .NET - CAD and BIM File Format
 description: 
 type: docs

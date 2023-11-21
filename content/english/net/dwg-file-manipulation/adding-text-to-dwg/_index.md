@@ -1,6 +1,6 @@
 ---
 title: Adding Text to DWG Files in C# - Aspose.CAD Tutorial
-linktitle: Adding Text to DWG Files in C# - Aspose.CAD Tutorial
+linktitle: Adding Text to DWG Files in C#
 second_title: Aspose.CAD .NET - CAD and BIM File Format
 description: 
 type: docs

@@ -1,6 +1,6 @@
 ---
 title: Export DGN to Raster Image in Aspose.CAD for .NET
-linktitle: Export DGN to Raster Image in Aspose.CAD for .NET
+linktitle: Export DGN to Raster Image
 second_title: Aspose.CAD .NET - CAD and BIM File Format
 description: 
 type: docs

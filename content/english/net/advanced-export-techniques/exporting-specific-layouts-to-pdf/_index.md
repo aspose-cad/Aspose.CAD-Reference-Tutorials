@@ -1,6 +1,6 @@
 ---
 title: Exporting Specific Layouts to PDF - Aspose.CAD Guide
-linktitle: Exporting Specific Layouts to PDF - Aspose.CAD Guide
+linktitle: Exporting Specific Layouts to PDF
 second_title: Aspose.CAD .NET - CAD and BIM File Format
 description: 
 type: docs

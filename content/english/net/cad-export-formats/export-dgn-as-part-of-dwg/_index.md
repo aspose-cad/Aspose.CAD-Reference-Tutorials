@@ -1,6 +1,6 @@
 ---
 title: Export DGN as Part of DWG in Aspose.CAD for .NET
-linktitle: Export DGN as Part of DWG in Aspose.CAD for .NET
+linktitle: Export DGN as Part of DWG
 second_title: Aspose.CAD .NET - CAD and BIM File Format
 description: 
 type: docs

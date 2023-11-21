@@ -1,6 +1,6 @@
 ---
 title: Supporting Block Clipping in CAD - Aspose.CAD Tutorial
-linktitle: Supporting Block Clipping in CAD - Aspose.CAD Tutorial
+linktitle: Supporting Block Clipping in CAD
 second_title: Aspose.CAD .NET - CAD and BIM File Format
 description: 
 type: docs

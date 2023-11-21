@@ -1,6 +1,6 @@
 ---
 title: Exporting to BMP Format - Aspose.CAD Tutorial
-linktitle: Exporting to BMP Format - Aspose.CAD Tutorial
+linktitle: Exporting to BMP Format
 second_title: Aspose.CAD .NET - CAD and BIM File Format
 description: 
 type: docs

@@ -1,6 +1,6 @@
 ---
 title: Override Automatic Codepage Detection in DWG Files - Aspose.CAD Tutorial
-linktitle: Override Automatic Codepage Detection in DWG Files - Aspose.CAD Tutorial
+linktitle: Override Automatic Codepage Detection in DWG Files
 second_title: Aspose.CAD .NET - CAD and BIM File Format
 description: 
 type: docs

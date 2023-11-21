@@ -1,6 +1,6 @@
 ---
 title: Exploring Underlay Flags of DWG Files - Aspose.CAD Tutorial
-linktitle: Exploring Underlay Flags of DWG Files - Aspose.CAD Tutorial
+linktitle: Exploring Underlay Flags of DWG Files
 second_title: Aspose.CAD .NET - CAD and BIM File Format
 description: 
 type: docs

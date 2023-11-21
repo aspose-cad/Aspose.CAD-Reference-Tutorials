@@ -1,6 +1,6 @@
 ---
 title: Mesh Support in Aspose.CAD for .NET
-linktitle: Mesh Support in Aspose.CAD for .NET
+linktitle: Mesh Support
 second_title: Aspose.CAD .NET - CAD and BIM File Format
 description: 
 type: docs

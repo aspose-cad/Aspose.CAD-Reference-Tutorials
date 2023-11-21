@@ -1,6 +1,6 @@
 ---
 title: Exporting 3D Images to PDF - Aspose.CAD Tutorial
-linktitle: Exporting 3D Images to PDF - Aspose.CAD Tutorial
+linktitle: Exporting 3D Images to PDF
 second_title: Aspose.CAD .NET - CAD and BIM File Format
 description: 
 type: docs

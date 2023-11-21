@@ -1,6 +1,6 @@
 ---
 title: Exporting CAD Drawings to SVG Format - Aspose.CAD Guide
-linktitle: Exporting CAD Drawings to SVG Format - Aspose.CAD Guide
+linktitle: Exporting CAD Drawings to SVG Format
 second_title: Aspose.CAD .NET - CAD and BIM File Format
 description: 
 type: docs

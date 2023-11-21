@@ -1,6 +1,6 @@
 ---
 title: Rendering Colors in CAD Files - Aspose.CAD Guide
-linktitle: Rendering Colors in CAD Files - Aspose.CAD Guide
+linktitle: Rendering Colors in CAD Files
 second_title: Aspose.CAD .NET - CAD and BIM File Format
 description: 
 type: docs

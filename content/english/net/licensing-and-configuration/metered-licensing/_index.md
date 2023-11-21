@@ -1,6 +1,6 @@
 ---
 title: Metered Licensing in Aspose.CAD for .NET
-linktitle: Metered Licensing in Aspose.CAD for .NET
+linktitle: Metered Licensing
 second_title: Aspose.CAD .NET - CAD and BIM File Format
 description: 
 type: docs

@@ -1,6 +1,6 @@
 ---
 title: Enable Tracking for CAD Rendering in Aspose.CAD for .NET
-linktitle: Enable Tracking for CAD Rendering in Aspose.CAD for .NET
+linktitle: Enable Tracking for CAD Rendering
 second_title: Aspose.CAD .NET - CAD and BIM File Format
 description: 
 type: docs

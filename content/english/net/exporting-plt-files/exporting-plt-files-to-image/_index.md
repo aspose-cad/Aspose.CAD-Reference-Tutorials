@@ -1,6 +1,6 @@
 ---
 title: Exporting PLT Files to Image - Aspose.CAD Tutorial
-linktitle: Exporting PLT Files to Image - Aspose.CAD Tutorial
+linktitle: Exporting PLT Files to Image
 second_title: Aspose.CAD .NET - CAD and BIM File Format
 description: 
 type: docs

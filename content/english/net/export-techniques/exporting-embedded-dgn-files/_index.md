@@ -1,6 +1,6 @@
 ---
 title: Exporting Embedded DGN Files - Aspose.CAD Tutorial
-linktitle: Exporting Embedded DGN Files - Aspose.CAD Tutorial
+linktitle: Exporting Embedded DGN Files
 second_title: Aspose.CAD .NET - CAD and BIM File Format
 description: 
 type: docs

@@ -1,6 +1,6 @@
 ---
 title: Editing Hyperlinks in CAD Files - Aspose.CAD Tutorial
-linktitle: Editing Hyperlinks in CAD Files - Aspose.CAD Tutorial
+linktitle: Editing Hyperlinks in CAD Files
 second_title: Aspose.CAD .NET - CAD and BIM File Format
 description: 
 type: docs

@@ -1,6 +1,6 @@
 ---
 title: Exporting DWF to PDF - Aspose.CAD Guide
-linktitle: Exporting DWF to PDF - Aspose.CAD Guide
+linktitle: Exporting DWF to PDF
 second_title: Aspose.CAD .NET - CAD and BIM File Format
 description: 
 type: docs

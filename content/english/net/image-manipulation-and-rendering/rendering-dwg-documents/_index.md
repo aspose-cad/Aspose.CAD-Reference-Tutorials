@@ -1,6 +1,6 @@
 ---
 title: Rendering DWG Documents in C# - Aspose.CAD Guide
-linktitle: Rendering DWG Documents in C# - Aspose.CAD Guide
+linktitle: Rendering DWG Documents in C#
 second_title: Aspose.CAD .NET - CAD and BIM File Format
 description: 
 type: docs

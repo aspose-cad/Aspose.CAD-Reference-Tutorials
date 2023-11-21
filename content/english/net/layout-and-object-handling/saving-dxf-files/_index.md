@@ -1,6 +1,6 @@
 ---
 title: Saving DXF Files - Aspose.CAD Guide
-linktitle: Saving DXF Files - Aspose.CAD Guide
+linktitle: Saving DXF Files
 second_title: Aspose.CAD .NET - CAD and BIM File Format
 description: 
 type: docs

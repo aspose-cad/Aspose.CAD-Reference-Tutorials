@@ -1,6 +1,6 @@
 ---
 title: Exporting OLE Objects from DWG Files - Aspose.CAD Tutorial
-linktitle: Exporting OLE Objects from DWG Files - Aspose.CAD Tutorial
+linktitle: Exporting OLE Objects from DWG Files
 second_title: Aspose.CAD .NET - CAD and BIM File Format
 description: 
 type: docs

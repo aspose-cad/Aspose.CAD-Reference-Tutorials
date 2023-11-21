@@ -1,6 +1,6 @@
 ---
 title: Exporting DXF Specific Layer to PDF - Aspose.CAD Tutorial
-linktitle: Exporting DXF Specific Layer to PDF - Aspose.CAD Tutorial
+linktitle: Exporting DXF Specific Layer to PDF
 second_title: Aspose.CAD .NET - CAD and BIM File Format
 description: 
 type: docs

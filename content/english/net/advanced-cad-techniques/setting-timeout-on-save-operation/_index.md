@@ -1,6 +1,6 @@
 ---
 title: Setting Timeout on Save Operation - Aspose.CAD Tutorial
-linktitle: Setting Timeout on Save Operation - Aspose.CAD Tutorial
+linktitle: Setting Timeout on Save Operation
 second_title: Aspose.CAD .NET - CAD and BIM File Format
 description: 
 type: docs

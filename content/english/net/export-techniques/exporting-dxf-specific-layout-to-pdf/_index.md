@@ -1,6 +1,6 @@
 ---
 title: Exporting DXF Specific Layout to PDF - Aspose.CAD Guide
-linktitle: Exporting DXF Specific Layout to PDF - Aspose.CAD Guide
+linktitle: Exporting DXF Specific Layout to PDF
 second_title: Aspose.CAD .NET - CAD and BIM File Format
 description: 
 type: docs

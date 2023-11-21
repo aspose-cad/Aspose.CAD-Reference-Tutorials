@@ -1,6 +1,6 @@
 ---
 title: Converting DWG to DWF Format - Aspose.CAD Guide
-linktitle: Converting DWG to DWF Format - Aspose.CAD Guide
+linktitle: Converting DWG to DWF Format
 second_title: Aspose.CAD .NET - CAD and BIM File Format
 description: 
 type: docs

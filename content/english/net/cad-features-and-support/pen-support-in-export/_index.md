@@ -1,6 +1,6 @@
 ---
 title: Pen Support in Export in Aspose.CAD for .NET
-linktitle: Pen Support in Export in Aspose.CAD for .NET
+linktitle: Pen Support in Export
 second_title: Aspose.CAD .NET - CAD and BIM File Format
 description: 
 type: docs

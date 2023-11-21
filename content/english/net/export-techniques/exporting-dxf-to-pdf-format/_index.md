@@ -1,6 +1,6 @@
 ---
 title: Exporting DXF to PDF Format - Aspose.CAD Tutorial
-linktitle: Exporting DXF to PDF Format - Aspose.CAD Tutorial
+linktitle: Exporting DXF to PDF Format
 second_title: Aspose.CAD .NET - CAD and BIM File Format
 description: 
 type: docs

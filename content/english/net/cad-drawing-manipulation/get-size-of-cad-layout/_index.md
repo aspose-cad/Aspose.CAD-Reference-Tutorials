@@ -1,6 +1,6 @@
 ---
 title: Get Size of CAD Layout in Aspose.CAD for .NET
-linktitle: Get Size of CAD Layout in Aspose.CAD for .NET
+linktitle: Get Size of CAD Layout
 second_title: Aspose.CAD .NET - CAD and BIM File Format
 description: 
 type: docs

@@ -1,6 +1,6 @@
 ---
 title: Substituting Fonts in Aspose.CAD for .NET
-linktitle: Substituting Fonts in Aspose.CAD for .NET
+linktitle: Substituting Fonts
 second_title: Aspose.CAD .NET - CAD and BIM File Format
 description: 
 type: docs

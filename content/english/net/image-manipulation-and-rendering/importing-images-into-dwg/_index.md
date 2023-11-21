@@ -1,6 +1,6 @@
 ---
 title: Importing Images into DWG Files with C# - Aspose.CAD Guide
-linktitle: Importing Images into DWG Files with C# - Aspose.CAD Guide
+linktitle: Importing Images into DWG Files with C#
 second_title: Aspose.CAD .NET - CAD and BIM File Format
 description: 
 type: docs

@@ -1,6 +1,6 @@
 ---
 title: Creating Single PDF with Different Layouts - Aspose.CAD Guide
-linktitle: Creating Single PDF with Different Layouts - Aspose.CAD Guide
+linktitle: Creating Single PDF with Different Layouts
 second_title: Aspose.CAD .NET - CAD and BIM File Format
 description: 
 type: docs

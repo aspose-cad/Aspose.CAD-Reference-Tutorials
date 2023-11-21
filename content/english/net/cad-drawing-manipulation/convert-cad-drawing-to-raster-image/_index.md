@@ -1,6 +1,6 @@
 ---
 title: Convert CAD Drawing to Raster Image in Aspose.CAD for .NET
-linktitle: Convert CAD Drawing to Raster Image in Aspose.CAD for .NET
+linktitle: Convert CAD Drawing to Raster Image
 second_title: Aspose.CAD .NET - CAD and BIM File Format
 description: 
 type: docs

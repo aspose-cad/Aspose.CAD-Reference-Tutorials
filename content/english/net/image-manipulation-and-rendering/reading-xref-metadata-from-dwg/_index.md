@@ -1,6 +1,6 @@
 ---
 title: Reading XREF Metadata from DWG Files - Aspose.CAD Tutorial
-linktitle: Reading XREF Metadata from DWG Files - Aspose.CAD Tutorial
+linktitle: Reading XREF Metadata from DWG Files
 second_title: Aspose.CAD .NET - CAD and BIM File Format
 description: 
 type: docs

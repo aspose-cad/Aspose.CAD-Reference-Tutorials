@@ -1,6 +1,6 @@
 ---
 title: Exporting PLT Files to PDF - Aspose.CAD Guide
-linktitle: Exporting PLT Files to PDF - Aspose.CAD Guide
+linktitle: Exporting PLT Files to PDF
 second_title: Aspose.CAD .NET - CAD and BIM File Format
 description: 
 type: docs

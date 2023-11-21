@@ -1,6 +1,6 @@
 ---
 title: Opening and Accessing DWFX Files in C# - Aspose.CAD Guide
-linktitle: Opening and Accessing DWFX Files in C# - Aspose.CAD Guide
+linktitle: Opening and Accessing DWFX Files in C#
 second_title: Aspose.CAD .NET - CAD and BIM File Format
 description: 
 type: docs

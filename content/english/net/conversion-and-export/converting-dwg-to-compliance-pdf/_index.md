@@ -1,6 +1,6 @@
 ---
 title: Converting DWG to Compliance PDF - Aspose.CAD Tutorial
-linktitle: Converting DWG to Compliance PDF - Aspose.CAD Tutorial
+linktitle: Converting DWG to Compliance PDF
 second_title: Aspose.CAD .NET - CAD and BIM File Format
 description: 
 type: docs

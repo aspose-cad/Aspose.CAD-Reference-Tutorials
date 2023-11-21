@@ -1,6 +1,6 @@
 ---
 title: Working with ACAD Proxy Entities - Aspose.CAD Guide
-linktitle: Working with ACAD Proxy Entities - Aspose.CAD Guide
+linktitle: Working with ACAD Proxy Entities
 second_title: Aspose.CAD .NET - CAD and BIM File Format
 description: 
 type: docs

@@ -1,6 +1,6 @@
 ---
 title: Converting Large DWG Files to PDF - Aspose.CAD Tutorial
-linktitle: Converting Large DWG Files to PDF - Aspose.CAD Tutorial
+linktitle: Converting Large DWG Files to PDF
 second_title: Aspose.CAD .NET - CAD and BIM File Format
 description: 
 type: docs

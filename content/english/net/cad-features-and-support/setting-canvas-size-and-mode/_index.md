@@ -1,6 +1,6 @@
 ---
 title: Setting Canvas Size and Mode in Aspose.CAD for .NET
-linktitle: Setting Canvas Size and Mode in Aspose.CAD for .NET
+linktitle: Setting Canvas Size and Mode
 second_title: Aspose.CAD .NET - CAD and BIM File Format
 description: 
 type: docs

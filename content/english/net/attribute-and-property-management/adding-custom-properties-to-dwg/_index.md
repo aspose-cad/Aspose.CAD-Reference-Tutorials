@@ -1,6 +1,6 @@
 ---
 title: Adding Custom Properties to DWG Files - Aspose.CAD Guide
-linktitle: Adding Custom Properties to DWG Files - Aspose.CAD Guide
+linktitle: Adding Custom Properties to DWG Files
 second_title: Aspose.CAD .NET - CAD and BIM File Format
 description: 
 type: docs

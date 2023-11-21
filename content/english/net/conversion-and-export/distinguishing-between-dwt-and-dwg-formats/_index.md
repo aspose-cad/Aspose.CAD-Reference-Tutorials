@@ -1,6 +1,6 @@
 ---
 title: Distinguishing Between DWT and DWG Formats - Aspose.CAD Guide
-linktitle: Distinguishing Between DWT and DWG Formats - Aspose.CAD Guide
+linktitle: Distinguishing Between DWT and DWG Formats
 second_title: Aspose.CAD .NET - CAD and BIM File Format
 description: 
 type: docs

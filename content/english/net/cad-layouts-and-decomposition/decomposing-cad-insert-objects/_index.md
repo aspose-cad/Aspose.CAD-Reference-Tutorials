@@ -1,6 +1,6 @@
 ---
 title: Decomposing CAD Insert Objects - Aspose.CAD Guide
-linktitle: Decomposing CAD Insert Objects - Aspose.CAD Guide
+linktitle: Decomposing CAD Insert Objects
 second_title: Aspose.CAD .NET - CAD and BIM File Format
 description: 
 type: docs

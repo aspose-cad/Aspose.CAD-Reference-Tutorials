@@ -1,6 +1,6 @@
 ---
 title: Mesh Support for DWG Files - Aspose.CAD Guide
-linktitle: Mesh Support for DWG Files - Aspose.CAD Guide
+linktitle: Mesh Support for DWG Files
 second_title: Aspose.CAD .NET - CAD and BIM File Format
 description: 
 type: docs

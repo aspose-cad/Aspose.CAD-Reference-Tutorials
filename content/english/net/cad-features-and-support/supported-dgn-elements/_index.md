@@ -1,6 +1,6 @@
 ---
 title: Supported DGN Elements in Aspose.CAD for .NET
-linktitle: Supported DGN Elements in Aspose.CAD for .NET
+linktitle: Supported DGN Elements
 second_title: Aspose.CAD .NET - CAD and BIM File Format
 description: 
 type: docs

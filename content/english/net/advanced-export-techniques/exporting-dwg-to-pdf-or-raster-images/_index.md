@@ -1,6 +1,6 @@
 ---
 title: Exporting DWG to PDF or Raster Images - Aspose.CAD Guide
-linktitle: Exporting DWG to PDF or Raster Images - Aspose.CAD Guide
+linktitle: Exporting DWG to PDF or Raster Images
 second_title: Aspose.CAD .NET - CAD and BIM File Format
 description: 
 type: docs

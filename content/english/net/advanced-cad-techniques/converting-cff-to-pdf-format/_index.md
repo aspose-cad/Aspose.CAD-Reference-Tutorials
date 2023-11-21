@@ -1,6 +1,6 @@
 ---
 title: Converting CFF to PDF Format - Aspose.CAD Tutorial
-linktitle: Converting CFF to PDF Format - Aspose.CAD Tutorial
+linktitle: Converting CFF to PDF Format
 second_title: Aspose.CAD .NET - CAD and BIM File Format
 description: 
 type: docs

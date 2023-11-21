@@ -1,6 +1,6 @@
 ---
 title: Apply License using FileStream in Aspose.CAD for .NET
-linktitle: Apply License using FileStream in Aspose.CAD for .NET
+linktitle: Apply License using FileStream
 second_title: Aspose.CAD .NET - CAD and BIM File Format
 description: 
 type: docs

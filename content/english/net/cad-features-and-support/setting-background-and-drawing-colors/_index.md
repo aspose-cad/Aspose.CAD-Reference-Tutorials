@@ -1,6 +1,6 @@
 ---
 title: Setting Background and Drawing Colors in Aspose.CAD for .NET
-linktitle: Setting Background and Drawing Colors in Aspose.CAD for .NET
+linktitle: Setting Background and Drawing Colors
 second_title: Aspose.CAD .NET - CAD and BIM File Format
 description: 
 type: docs

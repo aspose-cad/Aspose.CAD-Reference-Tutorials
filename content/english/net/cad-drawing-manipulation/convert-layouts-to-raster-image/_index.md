@@ -1,6 +1,6 @@
 ---
 title: Convert Layouts to Raster Image in Aspose.CAD for .NET
-linktitle: Convert Layouts to Raster Image in Aspose.CAD for .NET
+linktitle: Convert Layouts to Raster Image
 second_title: Aspose.CAD .NET - CAD and BIM File Format
 description: 
 type: docs

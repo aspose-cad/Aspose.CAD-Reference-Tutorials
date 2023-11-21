@@ -1,6 +1,6 @@
 ---
 title: Searching Text in DWG Files with C# - Aspose.CAD Tutorial
-linktitle: Searching Text in DWG Files with C# - Aspose.CAD Tutorial
+linktitle: Searching Text in DWG Files with C#
 second_title: Aspose.CAD .NET - CAD and BIM File Format
 description: 
 type: docs

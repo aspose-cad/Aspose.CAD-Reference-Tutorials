@@ -1,6 +1,6 @@
 ---
 title: Getting Block Attributes from DWG Files - Aspose.CAD Tutorial
-linktitle: Getting Block Attributes from DWG Files - Aspose.CAD Tutorial
+linktitle: Getting Block Attributes from DWG Files
 second_title: Aspose.CAD .NET - CAD and BIM File Format
 description: 
 type: docs

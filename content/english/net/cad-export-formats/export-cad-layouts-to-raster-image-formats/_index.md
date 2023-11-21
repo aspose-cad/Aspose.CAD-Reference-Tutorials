@@ -1,6 +1,6 @@
 ---
 title: Export CAD Layouts to Raster Image Formats in Aspose.CAD for .NET
-linktitle: Export CAD Layouts to Raster Image Formats in Aspose.CAD for .NET
+linktitle: Export CAD Layouts to Raster Image Formats
 second_title: Aspose.CAD .NET - CAD and BIM File Format
 description: 
 type: docs

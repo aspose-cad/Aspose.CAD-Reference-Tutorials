@@ -1,6 +1,6 @@
 ---
 title: Exporting DXF to WMF Format - Aspose.CAD Guide
-linktitle: Exporting DXF to WMF Format - Aspose.CAD Guide
+linktitle: Exporting DXF to WMF Format
 second_title: Aspose.CAD .NET - CAD and BIM File Format
 description: 
 type: docs

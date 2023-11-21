@@ -1,6 +1,6 @@
 ---
 title: Export DGN to PDF in Aspose.CAD for .NET
-linktitle: Export DGN to PDF in Aspose.CAD for .NET
+linktitle: Export DGN to PDF
 second_title: Aspose.CAD .NET - CAD and BIM File Format
 description: 
 type: docs

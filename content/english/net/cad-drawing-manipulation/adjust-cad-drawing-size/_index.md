@@ -1,6 +1,6 @@
 ---
 title: Adjusting CAD Drawing Size in Aspose.CAD for .NET
-linktitle: Adjusting CAD Drawing Size in Aspose.CAD for .NET
+linktitle: Adjusting CAD Drawing Size
 second_title: Aspose.CAD .NET - CAD and BIM File Format
 description: 
 type: docs

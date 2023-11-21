@@ -1,6 +1,6 @@
 ---
 title: 3D Support for DGN V7 in Aspose.CAD for .NET
-linktitle: 3D Support for DGN V7 in Aspose.CAD for .NET
+linktitle: 3D Support for DGN V7
 second_title: Aspose.CAD .NET - CAD and BIM File Format
 description: 
 type: docs

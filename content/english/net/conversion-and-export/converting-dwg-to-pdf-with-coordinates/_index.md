@@ -1,6 +1,6 @@
 ---
 title: Converting DWG to PDF with Coordinates in C# - Aspose.CAD Tutorial
-linktitle: Converting DWG to PDF with Coordinates in C# - Aspose.CAD Tutorial
+linktitle: Converting DWG to PDF with Coordinates in C#
 second_title: Aspose.CAD .NET - CAD and BIM File Format
 description: 
 type: docs

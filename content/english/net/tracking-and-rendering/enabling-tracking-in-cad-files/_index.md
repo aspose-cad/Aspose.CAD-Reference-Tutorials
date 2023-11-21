@@ -1,6 +1,6 @@
 ---
 title: Enabling Tracking in CAD Files - Aspose.CAD Tutorial
-linktitle: Enabling Tracking in CAD Files - Aspose.CAD Tutorial
+linktitle: Enabling Tracking in CAD Files
 second_title: Aspose.CAD .NET - CAD and BIM File Format
 description: 
 type: docs

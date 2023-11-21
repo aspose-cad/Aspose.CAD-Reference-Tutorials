@@ -1,6 +1,6 @@
 ---
 title: Exporting STL Files to PNG - Aspose.CAD Tutorial
-linktitle: Exporting STL Files to PNG - Aspose.CAD Tutorial
+linktitle: Exporting STL Files to PNG
 second_title: Aspose.CAD .NET - CAD and BIM File Format
 description: 
 type: docs

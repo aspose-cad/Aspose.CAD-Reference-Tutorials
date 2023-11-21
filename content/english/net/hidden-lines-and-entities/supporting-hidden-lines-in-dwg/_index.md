@@ -1,6 +1,6 @@
 ---
 title: Supporting Hidden Lines in DWG Files - Aspose.CAD Tutorial
-linktitle: Supporting Hidden Lines in DWG Files - Aspose.CAD Tutorial
+linktitle: Supporting Hidden Lines in DWG Files
 second_title: Aspose.CAD .NET - CAD and BIM File Format
 description: 
 type: docs

@@ -1,6 +1,6 @@
 ---
 title: Rendering DXF Files as PDF - Aspose.CAD Guide
-linktitle: Rendering DXF Files as PDF - Aspose.CAD Guide
+linktitle: Rendering DXF Files as PDF
 second_title: Aspose.CAD .NET - CAD and BIM File Format
 description: 
 type: docs

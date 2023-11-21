@@ -1,6 +1,6 @@
 ---
 title: Reading DWT in Aspose.CAD for .NET
-linktitle: Reading DWT in Aspose.CAD for .NET
+linktitle: Reading DWT
 second_title: Aspose.CAD .NET - CAD and BIM File Format
 description: 
 type: docs

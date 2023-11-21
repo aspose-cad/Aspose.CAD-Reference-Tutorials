@@ -1,6 +1,6 @@
 ---
 title: Adding Attributes to CAD Drawings - Aspose.CAD Tutorial
-linktitle: Adding Attributes to CAD Drawings - Aspose.CAD Tutorial
+linktitle: Adding Attributes to CAD Drawings
 second_title: Aspose.CAD .NET - CAD and BIM File Format
 description: 
 type: docs

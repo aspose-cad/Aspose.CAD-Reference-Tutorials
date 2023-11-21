@@ -1,6 +1,6 @@
 ---
 title: Converting Particular DWG to Image in C# - Aspose.CAD Guide
-linktitle: Converting Particular DWG to Image in C# - Aspose.CAD Guide
+linktitle: Converting Particular DWG to Image in C#
 second_title: Aspose.CAD .NET - CAD and BIM File Format
 description: 
 type: docs

@@ -1,6 +1,6 @@
 ---
 title: Free Point of View in CAD Drawings - Aspose.CAD Guide
-linktitle: Free Point of View in CAD Drawings - Aspose.CAD Guide
+linktitle: Free Point of View in CAD Drawings
 second_title: Aspose.CAD .NET - CAD and BIM File Format
 description: 
 type: docs

@@ -1,6 +1,6 @@
 ---
 title: Exporting CAD Drawings to PDF - Aspose.CAD Tutorial
-linktitle: Exporting CAD Drawings to PDF - Aspose.CAD Tutorial
+linktitle: Exporting CAD Drawings to PDF
 second_title: Aspose.CAD .NET - CAD and BIM File Format
 description: 
 type: docs

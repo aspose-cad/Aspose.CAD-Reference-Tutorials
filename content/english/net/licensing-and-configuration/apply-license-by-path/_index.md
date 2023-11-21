@@ -1,6 +1,6 @@
 ---
 title: Apply License by Path in Aspose.CAD for .NET
-linktitle: Apply License by Path in Aspose.CAD for .NET
+linktitle: Apply License by Path
 second_title: Aspose.CAD .NET - CAD and BIM File Format
 description: 
 type: docs

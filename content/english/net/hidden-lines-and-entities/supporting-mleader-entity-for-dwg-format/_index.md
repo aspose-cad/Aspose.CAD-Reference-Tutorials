@@ -1,6 +1,6 @@
 ---
 title: Supporting MLeader Entity for DWG Format - Aspose.CAD Guide
-linktitle: Supporting MLeader Entity for DWG Format - Aspose.CAD Guide
+linktitle: Supporting MLeader Entity for DWG Format
 second_title: Aspose.CAD .NET - CAD and BIM File Format
 description: 
 type: docs
