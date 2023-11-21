@@ -28,7 +28,7 @@ namespace Aspose.CAD.Examples.CSharp.ConvertingCAD
         {
             //ExStart:ReadingDWT
             // The path to the documents directory.
-            string MyDir = RunExamples.GetDataDir_ConvertingCAD();
+            string MyDir = "Your Document Directory";
             using (CadImage image = (CadImage)Image.Load(MyDir+"example.dwt"))
           {
            foreach (CadBaseEntity entity in image.Entities)

@@ -27,7 +27,7 @@ namespace Aspose.CAD.Examples.CSharp.Export
 
 			//ExStart:DecomposeCADInsertObject
 
-			string MyDir = RunExamples.GetDataDir_ConvertingCAD();
+			string MyDir = "Your Document Directory";
 			string sourceFilePath = MyDir + "conic_pyramid.dxf";
 			using (CadImage cadImage = (CadImage)Image.Load(sourceFilePath))
 			{

@@ -25,7 +25,7 @@ namespace Aspose.CAD.Examples.CSharp.Export
         {
             //ExStart:ExportDWFToPDF
             // The path to the documents directory.
-            string MyDir = RunExamples.GetDataDir_ConvertingCAD();
+            string MyDir = "Your Document Directory";
             string fileName = MyDir + "18-12-11 9644 - site.dwf";
             using (Image image = Image.Load(fileName))
             {

@@ -29,7 +29,7 @@ namespace Aspose.CAD.Examples.CSharp.Export
         {
             //ExStart:FreePointOfView
             // The path to the documents directory.
-            string MyDir = RunExamples.GetDataDir_ConvertingCAD();
+            string MyDir = "Your Document Directory";
             string sourceFilePath = MyDir + "conic_pyramid.dxf";
             var outPath = Path.Combine(MyDir, "FreePointOfView_out.jpg");
             using (CadImage cadImage = (CadImage)Image.Load(sourceFilePath))

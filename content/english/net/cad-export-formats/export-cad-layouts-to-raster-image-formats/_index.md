@@ -25,7 +25,7 @@ namespace Aspose.CAD.Examples.CSharp.ConvertingCAD
         {
             //ExStart:CADLayersToRasterImageFormats
             // The path to the documents directory.
-            string MyDir = RunExamples.GetDataDir_ConvertingCAD();
+            string MyDir = "Your Document Directory";
             string sourceFilePath = MyDir + "conic_pyramid.dxf";
             // Load a CAD drawing in an instance of Image
             using (var image = Aspose.CAD.Image.Load(sourceFilePath))
@@ -55,7 +55,7 @@ namespace Aspose.CAD.Examples.CSharp.ConvertingCAD
         {
            
             // The path to the documents directory.
-            string MyDir = RunExamples.GetDataDir_ConvertingCAD();
+            string MyDir = "Your Document Directory";
             string sourceFilePath = MyDir + "conic_pyramid.dxf";
             // Load a CAD drawing in an instance of CadImage
             using (var image = (Aspose.CAD.FileFormats.Cad.CadImage)Aspose.CAD.Image.Load(sourceFilePath))

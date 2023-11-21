@@ -26,7 +26,7 @@ namespace Aspose.CAD.Examples.CSharp.ConvertingCAD
         {
             //ExStart:SubstitutingFonts
             // The path to the documents directory.
-            string MyDir = RunExamples.GetDataDir_ConvertingCAD();
+            string MyDir = "Your Document Directory";
             string sourceFilePath = MyDir + "conic_pyramid.dxf";
             // Load a CAD drawing  in an instance of CadImage
             using (Aspose.CAD.FileFormats.Cad.CadImage cadImage = (Aspose.CAD.FileFormats.Cad.CadImage)Aspose.CAD.Image.Load(sourceFilePath))
@@ -45,7 +45,7 @@ namespace Aspose.CAD.Examples.CSharp.ConvertingCAD
         {
             //ExStart:SubstitutingFontByName
             // The path to the documents directory.
-            string MyDir = RunExamples.GetDataDir_ConvertingCAD();
+            string MyDir = "Your Document Directory";
             string sourceFilePath = MyDir + "conic_pyramid.dxf";
             // Load a CAD drawing in an instance of CadImage
             using (Aspose.CAD.FileFormats.Cad.CadImage cadImage = (Aspose.CAD.FileFormats.Cad.CadImage)Aspose.CAD.Image.Load(sourceFilePath))

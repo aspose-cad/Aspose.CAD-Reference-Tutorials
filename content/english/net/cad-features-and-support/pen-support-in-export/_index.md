@@ -25,7 +25,7 @@ namespace Aspose.CAD.Examples.CSharp.ConvertingCAD
    public static void Run ()
    {
     //ExStart:PenSupportInExport 
-       string MyDir = RunExamples.GetDataDir_ConvertingCAD();
+       string MyDir = "Your Document Directory";
        string sourceFilePath = MyDir + "conic_pyramid.dxf";
        CadImage cadImage = (CadImage)Image.Load(sourceFilePath);
        CadRasterizationOptions rasterizationOptions = new CadRasterizationOptions();

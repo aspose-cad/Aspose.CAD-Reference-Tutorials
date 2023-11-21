@@ -30,7 +30,7 @@ namespace Aspose.CAD.Examples.CSharp.ConvertingCAD
         {
             //ExStart:GetSizeOfCADLayout
             // The path to the documents directory.
-            string MyDir = RunExamples.GetDataDir_ConvertingCAD();
+            string MyDir = "Your Document Directory";
             string[] sourceFilePaths = new[] 
             {
                 MyDir + "conic_pyramid.dxf",

@@ -24,7 +24,7 @@ namespace Aspose.CAD.Examples.CSharp.ConvertingCAD
         {
             //ExStart:SettingCanvasSizeAndMode
             // The path to the documents directory.
-            string MyDir = RunExamples.GetDataDir_ConvertingCAD();
+            string MyDir = "Your Document Directory";
             string sourceFilePath = MyDir + "conic_pyramid.dxf";
             using (Aspose.CAD.Image image = Aspose.CAD.Image.Load(sourceFilePath))
             {

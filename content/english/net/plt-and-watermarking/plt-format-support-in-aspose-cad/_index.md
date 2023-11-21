@@ -24,7 +24,7 @@ namespace Aspose.CAD.Examples.CSharp.Export
 		public static void Run()
 		{
 
-			string MyDir = RunExamples.GetDataDir_ConvertingCAD();
+			string MyDir = "Your Document Directory";
 			string sourceFilePath = MyDir + "themepark.plt";
 			Image image = Image.Load((sourceFilePath));
 			ImageOptionsBase imageOptions = new JpegOptions();

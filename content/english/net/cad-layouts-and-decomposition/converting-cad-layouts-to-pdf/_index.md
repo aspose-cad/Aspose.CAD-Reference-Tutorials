@@ -26,7 +26,7 @@ namespace Aspose.CAD.Examples.CSharp.Export
         {
             //ExStart:CADLayoutsToPDF
             // The path to the documents directory.
-            string MyDir = RunExamples.GetDataDir_ConvertingCAD();
+            string MyDir = "Your Document Directory";
             string sourceFilePath = MyDir + "conic_pyramid.dxf";
             // Create an instance of CadImage class and load the file.
             using (Aspose.CAD.Image cadImage = (Aspose.CAD.Image)Image.Load(sourceFilePath))
