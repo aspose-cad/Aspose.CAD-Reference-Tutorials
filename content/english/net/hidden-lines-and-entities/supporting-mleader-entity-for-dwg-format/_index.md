@@ -45,7 +45,7 @@ namespace Aspose.CAD.Examples.CSharp.DWG_Drawings
         {
             //ExStart:SupportMLeaderEntityForDWGFormat
             // The path to the documents directory.
-            string MyDir = RunExamples.GetDataDir_DWGDrawings();
+            string MyDir = "Your Document Directory";
             string file = MyDir + "Multileaders.dwg";
             using (Image image = Image.Load(file))
             {

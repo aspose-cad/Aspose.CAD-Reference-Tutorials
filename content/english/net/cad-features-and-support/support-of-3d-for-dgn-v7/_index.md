@@ -29,7 +29,7 @@ namespace Aspose.CAD.Examples.CSharp.Exporting_DGN
             {
             //ExStart:3DSupportForDGNV7
             // The path to the documents directory.
-            string MyDir = RunExamples.GetDataDir_ExportingDGN();
+            string MyDir = "Your Document Directory";
                 string sourceFilePath = MyDir + "Nikon_D90_Camera.dgn";
                 string outFile    = MyDir + "Nikon_D90_Camera.dgn";
                 // Load an existing DGN file as CadImage.

@@ -24,7 +24,7 @@ namespace Aspose.CAD.Examples.CSharp.DWG_Drawings
     {
         public static void Run()
         {
-            string MyDir = RunExamples.GetDataDir_DWGDrawings();
+            string MyDir = "Your Document Directory";
             //ExStart:ImportImageToDWG
             string dwgPathToFile = MyDir + "Drawing11.dwg";
 

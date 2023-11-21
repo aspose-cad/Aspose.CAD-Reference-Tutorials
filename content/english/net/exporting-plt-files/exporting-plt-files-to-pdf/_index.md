@@ -28,7 +28,7 @@ namespace Aspose.CAD.Examples.CSharp.PLT_Drawings
         {
             //ExStart:ExportPLTtoPDF
             // The path to the documents directory.
-            string MyDir = RunExamples.GetDataDir_PLTDrawings();
+            string MyDir = "Your Document Directory";
             string sourceFilePath = MyDir + "50states.plt";
            
             using (Image cadImage = Image.Load(sourceFilePath))

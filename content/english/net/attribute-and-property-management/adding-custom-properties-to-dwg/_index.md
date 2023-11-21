@@ -27,7 +27,7 @@ namespace Aspose.CAD.Examples.CSharp.DXF_Drawings
 		{
 			//ExStart:1
 			// The path to the documents directory.
-			string WorkingDir = RunExamples.GetDataDir_DXFDrawings();
+			string WorkingDir = "Your Document Directory";
 
 			string fileName = "conic_pyramid.dxf";
 			string inputFile = WorkingDir + fileName;

@@ -22,7 +22,7 @@ namespace Aspose.CAD.Examples.CSharp.DXF_Drawings
             //ExStart:ExportSpecificDXFLayoutToImage
 
             // The path to the documents directory.
-            string MyDir = RunExamples.GetDataDir_DXFDrawings();
+            string MyDir = "Your Document Directory";
             string sourceFilePath = MyDir + "for_layers_test.dwf";
 
             using (var image = (Aspose.CAD.FileFormats.Cad.CadImage)Aspose.CAD.Image.Load(sourceFilePath))

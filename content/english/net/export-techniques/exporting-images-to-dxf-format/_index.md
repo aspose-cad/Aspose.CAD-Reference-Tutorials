@@ -28,7 +28,7 @@ namespace Aspose.CAD.Examples.CSharp.DXF_Drawings
 
             //ExStart:ExportImagesToDXF
             // The path to the documents directory.
-            string MyDir = RunExamples.GetDataDir_DXFDrawings();
+            string MyDir = "Your Document Directory";
 
             foreach (var file in new DirectoryInfo(MyDir).EnumerateFiles("conic.dxf"))
             {

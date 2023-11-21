@@ -20,8 +20,8 @@ namespace Aspose.CAD.Examples.CSharp.DWFX_Drawings
         public static void Run()
         {
             //ExStart:1
-            string SourceDir = RunExamples.GetDataDir_DWFXDrawings();
-            string OutputDir = RunExamples.GetDataDir_Output();
+            string SourceDir = "Your Document Directory";
+            string OutputDir = "Your Document Directory";
 
             using (Image cadDrawing = Image.Load(SourceDir + "Tyrannosaurus.dwfx"))
             {

@@ -26,7 +26,7 @@ namespace Aspose.CAD.Examples.CSharp.DWG_Drawings
 
             //ExStart:LargeDWGToPDF
             // The path to the documents directory.
-            string MyDir = RunExamples.GetDataDir_DWGDrawings();
+            string MyDir = "Your Document Directory";
 
             string filePathDWG = MyDir + "TestBigFile.dwg";
             string filePathFinish = MyDir+ "TestBigFile.dwg.pdf";

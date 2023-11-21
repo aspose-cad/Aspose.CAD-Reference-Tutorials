@@ -26,7 +26,7 @@ namespace Aspose.CAD.Examples.CSharp.Features
             //ExStart:CFFToPDF
 
             // The path to the documents directory.
-            string MyDir = RunExamples.GetDataDir_ConvertingCFF();
+            string MyDir = "Your Document Directory";
 
             using (Image image = Image.Load(MyDir + "WineBottle_Die.cf2"))
             {

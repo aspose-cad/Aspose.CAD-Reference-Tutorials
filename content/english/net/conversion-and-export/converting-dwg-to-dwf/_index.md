@@ -23,7 +23,7 @@ namespace Aspose.CAD.Examples.CSharp.DWG_Drawings
         public static void Run()
         {
             //ExStart:DWGToDWF
-            string MyDir = RunExamples.GetDataDir_DWGDrawings();
+            string MyDir = "Your Document Directory";
 
             string inputFile = MyDir + "Line.dwg";
             string outFile = MyDir + "Line_20.1.dwf";

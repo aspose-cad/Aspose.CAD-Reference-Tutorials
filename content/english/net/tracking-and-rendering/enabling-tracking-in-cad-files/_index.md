@@ -25,7 +25,7 @@ namespace Aspose.CAD.Examples.CSharp.DXF_Drawings
 
             //ExStart:EnableTracking
             // The path to the documents directory.
-            string MyDir = RunExamples.GetDataDir_DXFDrawings();
+            string MyDir = "Your Document Directory";
             using (Image image = Image.Load(MyDir + "conic_pyramid.dxf"))
             {
                 using (FileStream stream = new FileStream(MyDir + "output_conic_pyramid.pdf", FileMode.Create))

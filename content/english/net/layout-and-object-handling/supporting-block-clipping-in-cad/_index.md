@@ -25,7 +25,7 @@ namespace Aspose.CAD.Examples.CSharp.DXF_Drawings
         {
             //ExStart:SupportOfBlockClipping
             // The path to the documents directory.
-            string MyDir = RunExamples.GetDataDir_DXFDrawings();
+            string MyDir = "Your Document Directory";
 
             string inputFile = MyDir + "SLS-CW-CD-CE001-R01_blockClip.dxf";
             string outputFile = MyDir + "SLS-CW-CD-CE001-R01_blockClip.pdf";

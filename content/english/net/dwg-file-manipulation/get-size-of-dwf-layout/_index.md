@@ -27,7 +27,7 @@ namespace Aspose.CAD.Examples.CSharp.DWF_Drawings
         {
             //ExStart:GetSizeOfDwfLayout
             // The path to the documents directory.
-            string MyDir = RunExamples.GetDataDir_DWFDrawings();
+            string MyDir = "Your Document Directory";
             string sourceFilePath = MyDir + "blocks_and_tables.dwf";
             string extension = Path.GetExtension(sourceFilePath);
             using (DwfImage image = (DwfImage)Aspose.CAD.Image.Load(sourceFilePath))

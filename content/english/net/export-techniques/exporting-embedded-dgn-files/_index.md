@@ -27,7 +27,7 @@ namespace Aspose.CAD.Examples.CSharp.DXF_Drawings
         {
             //ExStart:ExportEmbeddedDGN
             // The path to the documents directory.
-            string MyDir = RunExamples.GetDataDir_DXFDrawings();
+            string MyDir = "Your Document Directory";
             string sourceFilePath = MyDir + "conic_pyramid.dxf";
             using (CadImage cadImage = (CadImage)Image.Load(sourceFilePath))
             {

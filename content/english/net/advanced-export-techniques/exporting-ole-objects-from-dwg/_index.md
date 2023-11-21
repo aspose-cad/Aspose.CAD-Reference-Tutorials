@@ -26,7 +26,7 @@ namespace Aspose.CAD.Examples.CSharp.DWG_Drawings
             //ExStart:ExportOLEObjects
 
             // The path to the documents directory.
-            string MyDir = RunExamples.GetDataDir_DWGDrawings();
+            string MyDir = "Your Document Directory";
 
             string[] files = new string[] { "D ZD junior D10m H2m.dwg", "ZD - Senior D6m H2m45.dwg" };
 

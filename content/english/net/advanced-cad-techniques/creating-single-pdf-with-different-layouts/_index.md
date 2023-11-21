@@ -27,7 +27,7 @@ namespace Aspose.CAD.Examples.CSharp.Features
             //ExStart:SinglePDFWithDifferentLayouts
 
             // The path to the documents directory.
-            string MyDir = RunExamples.GetDataDir_DWGDrawings();
+            string MyDir = "Your Document Directory";
 
 
             using (CadImage cadImage = (CadImage)Image.Load(MyDir + "City skyway map.dwg"))

@@ -25,7 +25,7 @@ namespace Aspose.CAD.Examples.CSharp.DWF_Drawings
 		{
 			//ExStart:SupportOfLayers
 			// The path to the documents directory.
-			string MyDir = RunExamples.GetDataDir_DXFDrawings();
+			string MyDir = "Your Document Directory";
 			string sourceFilePath = MyDir + "for_layers_test.dwf";
 			using (Aspose.CAD.Image image = Aspose.CAD.Image.Load(sourceFilePath))
 			{

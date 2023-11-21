@@ -29,7 +29,7 @@ namespace Aspose.CAD.Examples.CSharp.DWG_Drawings
         {
             //ExStart:SearchText
             // The path to the documents directory.
-            string MyDir = RunExamples.GetDataDir_DWGDrawings();
+            string MyDir = "Your Document Directory";
             string sourceFilePath = MyDir + "search.dwg";
             // Load an existing DWG file as CadImage.
             using (Aspose.CAD.FileFormats.Cad.CadImage cadImage = (Aspose.CAD.FileFormats.Cad.CadImage)Aspose.CAD.Image.Load(sourceFilePath))
@@ -90,7 +90,7 @@ namespace Aspose.CAD.Examples.CSharp.DWG_Drawings
      public static void SearchTextInDWGAutoCADFile() 
        {
             // The path to the documents directory.
-            string MyDir = RunExamples.GetDataDir_DWGDrawings();
+            string MyDir = "Your Document Directory";
             string sourceFilePath = MyDir + "search.dwg";
             // Load an existing DWG file as CadImage. 
             CadImage cadImage = (CadImage) Image.Load(sourceFilePath); 

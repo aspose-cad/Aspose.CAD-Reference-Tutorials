@@ -26,7 +26,7 @@ namespace Aspose.CAD.Examples.CSharp.DWG_Drawings
             //ExStart:ColorRendering
 
             // The path to the documents directory.
-            string MyDir = RunExamples.GetDataDir_DWGDrawings();
+            string MyDir = "Your Document Directory";
             string inputFile = MyDir + "test1.dwg";
             string outputFile = MyDir + "test1.png";
             using (FileStream fs = new FileStream(inputFile, FileMode.Open))

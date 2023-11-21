@@ -25,7 +25,7 @@ namespace Aspose.CAD.Examples.CSharp.DWG_Drawings
 
             //ExStart:ExportToSVG
             // The path to the documents directory.
-            string MyDir = RunExamples.GetDataDir_DWGDrawings();
+            string MyDir = "Your Document Directory";
 
             using (Image image = Image.Load(MyDir + "sample.dwg"))
             {

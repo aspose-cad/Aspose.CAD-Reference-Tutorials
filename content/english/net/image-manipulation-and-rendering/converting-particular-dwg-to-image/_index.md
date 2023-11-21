@@ -25,7 +25,7 @@ namespace Aspose.CAD.Examples.CSharp.DWG_Drawings
         public static void Run() 
         {
             //ExStart:ParticularDWGToImage
-            string MyDir = RunExamples.GetDataDir_DWGDrawings();
+            string MyDir = "Your Document Directory";
             string sourceFilePath = MyDir + "visualization_-_conference_room.dwg";
             var cadImage = (CadImage)Aspose.CAD.Image.Load(sourceFilePath);
 

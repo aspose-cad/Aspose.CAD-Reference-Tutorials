@@ -28,7 +28,7 @@ namespace Aspose.CAD.Examples.CSharp.Hyperlinks
 
 
             // The path to the documents directory.
-            string MyDir = RunExamples.GetDataDir_DWGDrawings();
+            string MyDir = "Your Document Directory";
             string dwgPathToFile = MyDir + "AutoCad_Sample.dwg";
 
             using (CadImage cadImage = (CadImage)Image.Load(dwgPathToFile))

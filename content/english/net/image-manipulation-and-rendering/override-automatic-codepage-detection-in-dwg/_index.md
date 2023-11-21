@@ -19,7 +19,7 @@ namespace Aspose.CAD.Examples.CSharp.DWG_Drawings
         public static void Run()
         {
             //ExStart:1
-            string SourceDir = RunExamples.GetDataDir_DWGDrawings();
+            string SourceDir = "Your Document Directory";
             using (CadImage cadImage = (CadImage)Image.Load(SourceDir + "SimpleEntites.dwg",
             new LoadOptions()
             {

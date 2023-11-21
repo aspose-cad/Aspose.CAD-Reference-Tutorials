@@ -28,7 +28,7 @@ namespace Aspose.CAD.Examples.CSharp.DWG_Drawings
         public static void Run() {
 
             //ExStart:AddTextInDWG
-            string MyDir = RunExamples.GetDataDir_DWGDrawings();
+            string MyDir = "Your Document Directory";
             string dwgPathToFile = MyDir + "SimpleEntites.dwg";
             using (Image image = Image.Load(dwgPathToFile))
             {

@@ -26,7 +26,7 @@ namespace Aspose.CAD.Examples.CSharp.DXF_Drawings
         {
             //ExStart:SaveDXFFiles
             // The path to the documents directory.
-            string MyDir = RunExamples.GetDataDir_DXFDrawings();
+            string MyDir = "Your Document Directory";
             string sourceFilePath = MyDir + "conic_pyramid.dxf";
             using (CadImage cadImage = (CadImage)Image.Load(sourceFilePath))
             {

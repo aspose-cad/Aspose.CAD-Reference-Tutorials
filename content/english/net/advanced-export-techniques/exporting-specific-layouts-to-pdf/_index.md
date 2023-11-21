@@ -24,7 +24,7 @@ namespace Aspose.CAD.Examples.CSharp.DWG_Drawings
         {
             //ExStart:ExportSpecificLayoutToPDF
             // The path to the documents directory.
-            string MyDir = RunExamples.GetDataDir_DWGDrawings();
+            string MyDir = "Your Document Directory";
             string sourceFilePath = MyDir + "visualization_-_conference_room.dwg";
             using (Aspose.CAD.Image image = Aspose.CAD.Image.Load(sourceFilePath))
             {

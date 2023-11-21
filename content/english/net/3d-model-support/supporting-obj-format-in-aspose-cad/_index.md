@@ -23,7 +23,7 @@ namespace Aspose.CAD.Examples.CSharp.OBJ_Drawings
 
             //ExStart:SupportOfOBJ
 
-            string MyDir = RunExamples.GetDataDir_OBJDrawings();
+            string MyDir = "Your Document Directory";
 
             using (Aspose.CAD.Image CADDoc = Aspose.CAD.Image.Load(MyDir + "example-580-W.obj"))
             {

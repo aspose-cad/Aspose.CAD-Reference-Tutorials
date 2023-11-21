@@ -28,7 +28,7 @@ namespace Aspose.CAD.Examples.CSharp.IGES_Drawings
         {
             //ExStart:ExportIGEStoPDF
             // The path to the documents directory.
-            string MyDir = RunExamples.GetDataDir_IGESDrawings();
+            string MyDir = "Your Document Directory";
             string sourceFilePath = MyDir + "figa2.igs";
            
             using (Image cadImage = Image.Load(sourceFilePath))

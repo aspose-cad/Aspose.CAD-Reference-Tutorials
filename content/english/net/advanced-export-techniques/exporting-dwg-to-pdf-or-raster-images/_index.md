@@ -27,7 +27,7 @@ namespace Aspose.CAD.Examples.CSharp.DWG_Drawings
         {
             //ExStart:ExportDWGToPDFOrRaster
             // The path to the documents directory.
-            string MyDir = RunExamples.GetDataDir_DWGDrawings();
+            string MyDir = "Your Document Directory";
             string sourceFilePath = MyDir + "Bottom_plate.dwg";
             string outPath = MyDir + "Bottom_plate.pdf";
 

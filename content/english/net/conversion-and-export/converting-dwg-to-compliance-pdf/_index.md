@@ -26,7 +26,7 @@ namespace Aspose.CAD.Examples.CSharp.DWG_Drawings
         {
             //ExStart:DWGToCompliancePDF
             // The path to the documents directory.
-            string MyDir = RunExamples.GetDataDir_DWGDrawings();
+            string MyDir = "Your Document Directory";
             string sourceFilePath = MyDir + "Bottom_plate.dwg";
 
             Aspose.CAD.Image cadImage = Aspose.CAD.Image.Load(sourceFilePath);

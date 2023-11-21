@@ -29,7 +29,7 @@ namespace Aspose.CAD.Examples.CSharp.DWG_Drawings
         {
             //ExStart:1
             // The path to the documents directory.
-            string MyDir = RunExamples.GetDataDir_DWGDrawings();
+            string MyDir = "Your Document Directory";
             string sourceFilePath = MyDir + "visualization_-_conference_room.dwg";
             using (CadImage cadImage = (CadImage)Image.Load(sourceFilePath))
             {

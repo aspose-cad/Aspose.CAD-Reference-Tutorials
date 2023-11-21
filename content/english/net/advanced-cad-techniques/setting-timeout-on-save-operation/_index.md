@@ -22,8 +22,8 @@ namespace Aspose.CAD.Examples.CSharp.Features
         public static void Run() 
         {
             //ExStart:1
-            string SourceDir = RunExamples.GetDataDir_DWGDrawings();
-            string OutputDir = RunExamples.GetDataDir_Output();
+            string SourceDir = "Your Document Directory";
+            string OutputDir = "Your Document Directory";
 
             using (Image cadDrawing = Image.Load(SourceDir + "Drawing11.dwg"))
             {

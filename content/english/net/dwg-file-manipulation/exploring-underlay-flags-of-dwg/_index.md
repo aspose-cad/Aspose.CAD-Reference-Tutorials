@@ -27,7 +27,7 @@ namespace Aspose.CAD.Examples.CSharp.DWG_Drawings
             //ExStart:AccessingUnderlayFlagsofDWG
 
             // The path to the documents directory.
-            string MyDir = RunExamples.GetDataDir_DWGDrawings();
+            string MyDir = "Your Document Directory";
 
             // Input file name and path
             string fileName = MyDir + "BlockRefDgn.dwg";
