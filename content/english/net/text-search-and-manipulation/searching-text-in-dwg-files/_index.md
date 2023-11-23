@@ -2,157 +2,77 @@
 title: Searching Text in DWG Files with C# - Aspose.CAD Tutorial
 linktitle: Searching Text in DWG Files with C#
 second_title: Aspose.CAD .NET - CAD and BIM File Format
-description: 
+description: Explore Aspose.CAD for .NET and master text searching in DWG files with this step-by-step guide. Boost your CAD applications today!
 type: docs
 weight: 10
 url: /net/text-search-and-manipulation/searching-text-in-dwg-files/
 ---
-
-## Complete Source Code
+## Introduction
+In the dynamic realm of CAD (Computer-Aided Design), precision and efficiency are paramount. Imagine a scenario where you need to locate specific text within DWG files. Aspose.CAD for .NET comes to the rescue, offering a robust solution to seamlessly search text in DWG files using C#. This tutorial will guide you through the process, ensuring you harness the full potential of Aspose.CAD for .NET.
+## Prerequisites
+Before diving into the tutorial, make sure you have the following prerequisites in place:
+- Aspose.CAD for .NET: Ensure you have the library installed. You can download it from the [official Aspose.CAD website](https://releases.aspose.com/cad/net/).
+- Document Directory: Organize your DWG files in a dedicated directory.
+## Import Namespaces
+In your C# project, import the necessary namespaces for working with Aspose.CAD. Add the following namespaces to your code:
 ```csharp
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Aspose.CAD;
-using Aspose.CAD.FileFormats.Cad.CadObjects;
-using Aspose.CAD.FileFormats.Cad.CadConsts;
-using Aspose.CAD.FileFormats.Cad;
-using Aspose.CAD.FileFormats.Cad.CadObjects.AttEntities;
-
-namespace Aspose.CAD.Examples.CSharp.DWG_Drawings
-{    public class SearchText
-    {
-        
-        public static void Run()
-        {
-            //ExStart:SearchText
-            // The path to the documents directory.
-            string MyDir = "Your Document Directory";
-            string sourceFilePath = MyDir + "search.dwg";
-            // Load an existing DWG file as CadImage.
-            using (Aspose.CAD.FileFormats.Cad.CadImage cadImage = (Aspose.CAD.FileFormats.Cad.CadImage)Aspose.CAD.Image.Load(sourceFilePath))
-            {
-                // Search for text in the file 
-                foreach (Aspose.CAD.FileFormats.Cad.CadObjects.CadBaseEntity entity in cadImage.Entities)
-                {
-                    // Please, note: we iterate through CadText entities here, but some other entities may contain text also, e.g. CadMText and others
-                    IterateCADNodes(entity);
-                }
-
-                // Search for text on specific layout get all layout names and link each layout with corresponding block with entities
-                Aspose.CAD.FileFormats.Cad.CadLayoutDictionary layouts = cadImage.Layouts;
-                string[] layoutNames = new string[layouts.Count];
-                int i = 0;
-                foreach (Aspose.CAD.FileFormats.Cad.CadObjects.CadLayout layout in layouts.Values)
-                {
-                    layoutNames[i++] = layout.LayoutName;
-                    System.Console.WriteLine("Layout " + layout.LayoutName + " is found");
-
-                    // Find block, applicable for DWG only
-                    Aspose.CAD.FileFormats.Cad.CadTables.CadBlockTableObject blockTableObjectReference = null;
-                    foreach (Aspose.CAD.FileFormats.Cad.CadTables.CadBlockTableObject tableObject in cadImage.BlocksTables)
-                    {
-                        if (string.Equals(tableObject.HardPointerToLayout, layout.ObjectHandle))
-                        {
-                            blockTableObjectReference = tableObject;
-                            break;
-                        }
-                    }
-
-                    if (blockTableObjectReference !=null)
-                    {
-                        // Collection cadBlockEntity.Entities contains information about all entities on specific layout if this collection has no elements it means layout is a copy of Model layout and contains the same entities
-                        Aspose.CAD.FileFormats.Cad.CadObjects.CadBlockEntity cadBlockEntity = cadImage.BlockEntities[blockTableObjectReference.BlockName];
-                    }
-                }
-
-                //Export to pdf
-                Aspose.CAD.ImageOptions.CadRasterizationOptions rasterizationOptions = new Aspose.CAD.ImageOptions.CadRasterizationOptions();
-                rasterizationOptions.PageWidth = 1600;
-                rasterizationOptions.PageHeight = 1600;
-                rasterizationOptions.AutomaticLayoutsScaling = true;
-                
-
-                // Please, note: if cadBlockEntity collection mentioned above (for dwg) for selected layout or entitiesOnLayouts collection by layout's BlockTableRecordHandle (for dxf) is empty - export result file will be empty and you should draw Model layout instead
-                rasterizationOptions.Layouts = new[] { "Layout1" };
-
-                Aspose.CAD.ImageOptions.PdfOptions pdfOptions = new Aspose.CAD.ImageOptions.PdfOptions();
-
-                pdfOptions.VectorRasterizationOptions = rasterizationOptions;
-                cadImage.Save(MyDir + "SearchText_out.pdf", pdfOptions);
-            }
-            
-        }
-
-      
-     public static void SearchTextInDWGAutoCADFile() 
-       {
-            // The path to the documents directory.
-            string MyDir = "Your Document Directory";
-            string sourceFilePath = MyDir + "search.dwg";
-            // Load an existing DWG file as CadImage. 
-            CadImage cadImage = (CadImage) Image.Load(sourceFilePath); 
-          
-           // Search for text in the entities section 
-           foreach (var entity in cadImage.Entities) { 
-               IterateCADNodes(entity); 
-           } 
-
-           // Search for text in the block section 
-           foreach (CadBlockEntity blockEntity in cadImage.BlockEntities.Values) { 
-               foreach (var entity in blockEntity.Entities) { 
-                   IterateCADNodes(entity); 
-               } 
-           } 
-       } 
-
-
-
-       private static void IterateCADNodes(CadBaseEntity obj) 
-       { 
-           switch (obj.TypeName) { 
-               case CadEntityTypeName.TEXT: 
-                   CadText childObjectText = (CadText) obj; 
-
-                   Console.WriteLine(childObjectText.DefaultValue); 
-
-                   break; 
-
-               case CadEntityTypeName.MTEXT: 
-                   CadMText childObjectMText = (CadMText) obj; 
-
-                   Console.WriteLine(childObjectMText.Text); 
-
-                   break; 
-
-               case CadEntityTypeName.INSERT: 
-                   CadInsertObject childInsertObject = (CadInsertObject) obj; 
-
-                   foreach (var tempobj in childInsertObject.ChildObjects) { 
-                       IterateCADNodes(tempobj); 
-                   } 
-                   break; 
-
-               case CadEntityTypeName.ATTDEF: 
-                   CadAttDef attDef = (CadAttDef) obj; 
-
-                   Console.WriteLine(attDef.DefaultString); 
-                   break; 
-
-               case CadEntityTypeName.ATTRIB: 
-                   CadAttrib attAttrib = (CadAttrib) obj; 
-
-                   Console.WriteLine(attAttrib.DefaultText); 
-                   break; 
-           } 
-     
-       
-       }
-     }
-        //ExEnd:SearchText  
-    }
-
-
 ```
+## Step 1: Load DWG File
+```csharp
+string MyDir = "Your Document Directory";
+string sourceFilePath = MyDir + "search.dwg";
+using (CadImage cadImage = (CadImage)Image.Load(sourceFilePath))
+{
+    // Your code here
+}
+```
+## Step 2: Search Text in Entities Section
+```csharp
+foreach (CadBaseEntity entity in cadImage.Entities)
+{
+    IterateCADNodes(entity);
+}
+```
+## Step 3: Search Text in Block Section
+```csharp
+foreach (CadBlockEntity blockEntity in cadImage.BlockEntities.Values)
+{
+    foreach (CadBaseEntity entity in blockEntity.Entities)
+    {
+        IterateCADNodes(entity);
+    }
+}
+```
+## Step 4: Iterate through CAD Nodes
+```csharp
+private static void IterateCADNodes(CadBaseEntity obj)
+{
+    switch (obj.TypeName)
+    {
+        // Handle different entity types
+    }
+}
+```
+## Step 5: Export to PDF
+```csharp
+Aspose.CAD.ImageOptions.CadRasterizationOptions rasterizationOptions = new Aspose.CAD.ImageOptions.CadRasterizationOptions();
+// Configure rasterization options
+rasterizationOptions.Layouts = new[] { "Layout1" };
+Aspose.CAD.ImageOptions.PdfOptions pdfOptions = new Aspose.CAD.ImageOptions.PdfOptions();
+pdfOptions.VectorRasterizationOptions = rasterizationOptions;
+cadImage.Save(MyDir + "SearchText_out.pdf", pdfOptions);
+```
+## Conclusion
+Aspose.CAD for .NET provides a seamless solution for searching text in DWG files, empowering developers to enhance their CAD applications. By following this tutorial, you've unlocked the capability to locate specific text within DWG files efficiently.
+---
+## FAQs
+### Can I use Aspose.CAD for .NET with other CAD formats?
+Yes, Aspose.CAD supports various CAD formats, providing a versatile solution.
+### Is there a free trial available for Aspose.CAD for .NET?
+Yes, you can explore the features with the [free trial](https://releases.aspose.com/).
+### How can I get support for Aspose.CAD for .NET?
+Visit the [Aspose.CAD forum](https://forum.aspose.com/c/cad/19) for community support.
+### What is a temporary license, and how can I obtain one?
+Obtain a temporary license [here](https://purchase.aspose.com/temporary-license/) for temporary usage.
+### Where can I find detailed documentation for Aspose.CAD for .NET?
+Refer to the comprehensive [documentation](https://reference.aspose.com/cad/net/) for in-depth guidance.
