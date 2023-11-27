@@ -2,7 +2,7 @@
 title: Apply License using FileStream in Aspose.CAD for .NET
 linktitle: Apply License using FileStream
 second_title: Aspose.CAD .NET - CAD and BIM File Format
-description: Mastering Aspose.CAD for .NET: Apply licenses seamlessly using FileStream. Explore step-by-step guide and unlock the potential. Download now!
+description: Mastering Aspose.CAD for .NET - Apply licenses seamlessly using FileStream. Explore step-by-step guide and unlock the potential. Download now!
 type: docs
 weight: 11
 url: /net/licensing-and-configuration/apply-license-using-filestream/
