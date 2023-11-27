@@ -60,7 +60,8 @@ Specify the output path for the PNG file and save the CAD image in PNG format us
 Repeat these steps as needed for your specific use case, and you'll successfully export STL files to PNG with Aspose.CAD for .NET.
 ## Conclusion
 Aspose.CAD for .NET simplifies the intricate task of converting STL files to PNG, empowering developers with a reliable toolkit. By following this step-by-step guide, you can seamlessly integrate this functionality into your applications.
-## FAQs### Q: Can I customize the dimensions of the exported PNG?
+## FAQs
+### Q: Can I customize the dimensions of the exported PNG?
 Absolutely! In Step 3, adjust the `PageWidth` and `PageHeight` values to meet your specific requirements.
 ### Q: Is a temporary license available for testing purposes?
 Yes, you can obtain a temporary license [here](https://purchase.aspose.com/temporary-license/) for testing and evaluation.
