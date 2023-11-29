@@ -2,7 +2,7 @@
 title: Licensing and Configuration
 linktitle: Licensing and Configuration
 second_title: Aspose.CAD .NET - CAD and BIM File Format
-description: Elevate your CAD file manipulation game with Aspose.CAD for .NET! Apply licenses seamlessly using FileStream or by path with our step-by-step tutorials. Unlock the full potential now!
+description: Elevate your CAD file manipulation game with Aspose.CAD for .NET! Apply licenses seamlessly using FileStream or by path with our step-by-step tutorials. 
 type: docs
 weight: 20
 url: /net/licensing-and-configuration/
