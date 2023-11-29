@@ -30,36 +30,36 @@ using System.Linq;
 using System.Text;
 ```
 
-## 1. Determine DWT Format
+## Step 1: Determine DWT Format
 
 To distinguish the DWT format using Aspose.CAD, follow these steps:
 
-### 1.1 Load the DWT File
+### Step 1.1: Load the DWT File
 
 ```csharp
 // Load the DWT file
 var formatTypeDwt = Image.GetFileFormat(GetFileFromDesktop("sample.dwt"));
 ```
 
-### 1.2 Verify Format Type
+### Step 1.2: Verify Format Type
 
 ```csharp
 // Verify if the format is DWT
 Assert.IsTrue(formatTypeDwt.ToString().ToLower().Contains("dwt"));
 ```
 
-## 2. Determine DWG Format
+## Step 2: Determine DWG Format
 
 Similarly, to identify the DWG format, use the following steps:
 
-### 2.1 Load the DWG File
+### Step 2.1: Load the DWG File
 
 ```csharp
 // Load the DWG file
 var formatTypeDwg = Image.GetFileFormat(GetFileFromDesktop("sample.dwg"));
 ```
 
-### 2.2 Verify Format Type
+### Step 2.2: Verify Format Type
 
 ```csharp
 // Verify if the format is DWG
