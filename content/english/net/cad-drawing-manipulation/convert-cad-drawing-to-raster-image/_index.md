@@ -109,7 +109,7 @@ A2: Yes, Aspose.CAD allows extensive customization of rasterization options, ena
 
 ### Q3: Is there a free trial available for Aspose.CAD?
 
-A4: Yes, you can explore Aspose.CAD's features with a free trial. Visit [here](https://releases.aspose.com/) to get started.
+A3: Yes, you can explore Aspose.CAD's features with a free trial. Visit [here](https://releases.aspose.com/) to get started.
 
 ### Q4: How can I get support for Aspose.CAD?
 
