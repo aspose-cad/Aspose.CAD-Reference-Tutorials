@@ -89,7 +89,7 @@ A2: Yes, you can get a free trial from [here](https://releases.aspose.com/).
 
 ### Q3: Where can I find comprehensive documentation for Aspose.CAD for .NET?
 
-A3: Refer to the official documentation [here](https://reference.aspose.com/cad/net/).
+A3: Refer to the documentation [here](https://reference.aspose.com/cad/net/).
 
 ### Q4: How do I get temporary licensing for Aspose.CAD for .NET?
 

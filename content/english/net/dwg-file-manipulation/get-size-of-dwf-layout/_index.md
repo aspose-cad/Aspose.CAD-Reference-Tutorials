@@ -15,7 +15,7 @@ In the realm of computer-aided design (CAD) and .NET development, Aspose.CAD sta
 
 To follow this tutorial seamlessly, make sure you have the following prerequisites in place:
 
-- Aspose.CAD for .NET: Ensure that you have Aspose.CAD for .NET installed. You can download it from the official [Aspose.CAD for .NET download page](https://releases.aspose.com/cad/net/).
+- Aspose.CAD for .NET: Ensure that you have Aspose.CAD for .NET installed. You can download it from the [Aspose.CAD for .NET download page](https://releases.aspose.com/cad/net/).
 
 Now that you have the necessary tools, let's jump into the coding arena.
 
@@ -146,7 +146,7 @@ In this tutorial, we've walked through the process of working with DWG files in 
 
 ### Q1: Is Aspose.CAD compatible with the latest DWG file formats?
 
-A1: Aspose.CAD supports various DWG file formats, including the latest versions. Refer to the [official documentation](https://reference.aspose.com/cad/net/) for specific compatibility details.
+A1: Aspose.CAD supports various DWG file formats, including the latest versions. Refer to the [documentation](https://reference.aspose.com/cad/net/) for specific compatibility details.
 
 ### Q2: Can I use Aspose.CAD for both commercial and personal projects?
 

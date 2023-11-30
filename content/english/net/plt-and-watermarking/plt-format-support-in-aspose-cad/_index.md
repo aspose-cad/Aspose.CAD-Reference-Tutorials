@@ -35,7 +35,7 @@ Start by creating a new .NET project in your preferred development environment.
 
 ## Step 2: Add Aspose.CAD Reference
 
-Reference the Aspose.CAD library in your project. You can do this by either using NuGet Package Manager or downloading the library from the [official Aspose website](https://purchase.aspose.com/buy).
+Reference the Aspose.CAD library in your project. You can do this by either using NuGet Package Manager or downloading the library from the [Aspose website](https://purchase.aspose.com/buy).
 
 ## Step 3: Include Aspose.CAD Namespace
 
