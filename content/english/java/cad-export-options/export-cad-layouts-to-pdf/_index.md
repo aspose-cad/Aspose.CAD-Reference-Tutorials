@@ -27,7 +27,7 @@ public class ExportCADLayoutsToPDF {
 		
 		// The path to the resource directory.
 		String dataDir = "Your Document Directory" + "ExportingCAD/";
-		//ExStart:ExportCADLayoutsToPDF
+		
                 String srcFile = dataDir + "conic_pyramid.dxf";
 		
 		// Create an instance of CadImage class and load the file.
@@ -59,7 +59,7 @@ public class ExportCADLayoutsToPDF {
 
 		// Export to PDF by calling the Save method
 		cadImage.save(dataDir + "CADLayoutsToPDF_out_.pdf", pdfOptions);
-                //ExEnd:ExportCADLayoutsToPDF
+                
 	}
 }
 

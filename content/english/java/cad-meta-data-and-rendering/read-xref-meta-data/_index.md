@@ -26,7 +26,7 @@ public class ReadXREEFMetaData {
 		
             // The path to the resource directory.
             String dataDir = "Your Document Directory" + "DWGDrawings/";
-	    //ExStart:ReadXREEFMetaData
+	    
             CadImage image = (CadImage)Image.load(dataDir+"Bottom_plate.dwg");
             {
                 for (CadBaseEntity entity : image.getEntities())
@@ -39,7 +39,7 @@ public class ReadXREEFMetaData {
                     }
                 }
             }	
-	//ExEnd:ReadXREEFMetaData
+	
        }
 }
 

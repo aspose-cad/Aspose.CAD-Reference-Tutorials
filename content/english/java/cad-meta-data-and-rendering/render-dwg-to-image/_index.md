@@ -22,7 +22,7 @@ public class RenderDWGDocument {
 		
             // The path to the resource directory.
             String dataDir = "Your Document Directory" + "DWGDrawings/";
-	    //ExStart:RenderDWGDocument
+	    
             String srcFile = dataDir + "visualization_-_conference_room.dwg";
        		
             Image image = Image.load(srcFile);
@@ -42,7 +42,7 @@ public class RenderDWGDocument {
 	    // Export the DWG to PDF
 	    image.save(dataDir + "ExportSpecificLayoutToPDF_out_.pdf", pdfOptions);	
             
-            //ExEnd:RenderDWGDocument
+            
        }
 }
 

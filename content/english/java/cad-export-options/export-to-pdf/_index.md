@@ -28,7 +28,7 @@ public class ExportToPDF {
 		
                  // The path to the resource directory.
 		String dataDir = "Your Document Directory" + "ExportingCAD/";
-		//ExStart:ExportToPDF
+		
                 String fileName = (dataDir +"site.dwf");
                 com.aspose.cad.Image image = com.aspose.cad.Image.load(fileName);
                 {
@@ -44,7 +44,7 @@ public class ExportToPDF {
                     image.save(outPath, pdfOptions);
                 }		
 
-	 //ExEnd:ExportToPDF
+	 
 }
 }
 

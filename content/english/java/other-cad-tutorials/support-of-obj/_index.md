@@ -23,7 +23,7 @@ public class SupportOfOBJ {
     
      public static void main(String[] args)
     {
-        //ExStart:SupportOfOBJ
+        
         String dataDir = "Your Document Directory" + "OBJDrawings/";
         
         Image cadDoc = Image.load(dataDir + "example-580-W.obj");
@@ -34,7 +34,7 @@ public class SupportOfOBJ {
         CADf.setVectorRasterizationOptions(rasterizationOptions);
         cadDoc.save(dataDir + "example-580-W_custom.pdf", CADf);
         
-         //ExEnd:SupportOfOBJ
+         
     }
 
 }

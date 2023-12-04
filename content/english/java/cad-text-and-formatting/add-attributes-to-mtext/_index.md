@@ -30,7 +30,7 @@ public class AddAttribMText {
 		
             // The path to the resource directory.
             String dataDir = "Your Document Directory" + "DXFDrawings/";
-            //ExStart:AddAttribMText
+            
             String srcFile = dataDir + "conic_pyramid.dxf";
 
             CadImage cadImage =(CadImage) Image.load(srcFile);
@@ -66,7 +66,7 @@ public class AddAttribMText {
                 cadImage.dispose();
             }
       
-            //ExEnd:AddAttribMText
+            
       
 	
 	}

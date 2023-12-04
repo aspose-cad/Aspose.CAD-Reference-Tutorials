@@ -27,7 +27,7 @@ public class EnableTrackingForCADRenderingProcess {
 		
 		// The path to the resource directory.
 		String dataDir = "Your Document Directory" + "CADConversion/";
-	//ExStart:EnableTrackingForCADRenderingProcess
+	
                 String srcFile = dataDir + "conic_pyramid.dxf";
 		
 		Image image = Image.load(srcFile);
@@ -43,7 +43,7 @@ public class EnableTrackingForCADRenderingProcess {
 		image.save(stream, pdfOptions);
 		
 		System.out.println("Tracking enabled successfully for CAD rendering process.");
-	//ExEnd:EnableTrackingForCADRenderingProcess
+	
         }
 
 }

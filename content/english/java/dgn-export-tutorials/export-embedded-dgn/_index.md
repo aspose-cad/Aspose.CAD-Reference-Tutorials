@@ -30,7 +30,7 @@ public class ExportEmbeddedDGN
     public static void main(String[] args)
     {
         // Input and Output file paths
-       //ExStart:ExportEmbeddedDGN
+       
         
        	String dataDir = "Your Document Directory" + "ExportingDGN/";
 		String fileName = dataDir + "BlockRefDgn.dwg";
@@ -42,7 +42,7 @@ public class ExportEmbeddedDGN
            pdfOptions.setVectorRasterizationOptions(rasterizationOptions);
           objImage.save(dataDir + "BlockRefDgn.pdf", pdfOptions);
           }
-       //ExEnd:ExportEmbeddedDGN
+       
     }
 }
 ```

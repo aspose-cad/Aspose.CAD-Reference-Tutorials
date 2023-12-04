@@ -20,7 +20,7 @@ public class ExportDGNAsPartofDWG
 {
     public static void main(String[] args)
     {
-        //ExStart:ExportDGNAsPartofDWG
+        
         
         // Input and Output file paths
             String dataDir = "Your Document Directory" + "ExportingDGN/";
@@ -64,7 +64,7 @@ public class ExportDGNAsPartofDWG
         // Export the DWG to PDF by calling Save method
         cadImage.save(outPath, exportOptions);
 
-        //ExEnd:ExportDGNAsPartofDWG
+        
         
     }
 }

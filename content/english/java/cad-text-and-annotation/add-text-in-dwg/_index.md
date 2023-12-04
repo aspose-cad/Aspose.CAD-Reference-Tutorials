@@ -31,7 +31,7 @@ public class AddTextInDWG {
  
 
 public static void main(String[] args){ 
-   //ExStart:AddTextInDWG  
+   
     String dataDir = "Your Document Directory" + "DWGDrawings/";
     String dwgPathToFile = dataDir + "SimpleEntites.dwg";
     
@@ -64,7 +64,7 @@ public static void main(String[] args){
     cadRasterizationOptions.setLayouts(new String[] {"Model"});
     image.save(dataDir+"SimpleEntites_generated.dwg.pdf", pdfOptions);
 
-//ExEnd:AddTextInDWG
+
 }
 }
 ```

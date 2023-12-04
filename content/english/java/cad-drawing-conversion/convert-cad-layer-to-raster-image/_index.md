@@ -24,7 +24,7 @@ import java.util.List;
 public class ConvertCADLayerToRasterImageFormat {
 	
 	public static void main(String[] args) {
-		//ExStart:ConvertCADLayerToRasterImageFormat
+		
 		// The path to the resource directory.	        
                 String dataDir = "Your Document Directory" + "CADConversion/";
 	
@@ -51,7 +51,7 @@ public class ConvertCADLayerToRasterImageFormat {
 		options.setVectorRasterizationOptions(rasterizationOptions);
 		// Export each layer to JPEG format
 		image.save(dataDir + "CADLayersToRasterImageFormats_out_.jpg", options);
-                //ExEnd:ConvertCADLayerToRasterImageFormat
+                
 	}
 }
 

@@ -27,7 +27,7 @@ import com.aspose.cad.fileformats.cad.CadImage;
 
 public class OverrideAutomaticCodePageDetectionDwg {
     public static void main(String[] args) {
-        //ExStart:1
+        
         String SourceDir = Utils.getDataDir_DWGDrawings();
         String dwgPathToFile = SourceDir + "SimpleEntites.dwg";
 
@@ -41,7 +41,7 @@ public class OverrideAutomaticCodePageDetectionDwg {
 
         //do export or something else with cadImage
 
-        //ExEnd:1
+        
         System.out.println("OverrideAutomaticCodePageDetectionDwg executed successfully");
     }
 }

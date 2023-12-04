@@ -26,7 +26,7 @@ public class SupportForHiddenLines {
     
     public static void main(String[] args) 
         {
-	     //ExStart:SupportForHiddenLines
+	     
 	    // The path to the resource directory.
             String dataDir = "Your Document Directory" + "DWGDrawings/";
          
@@ -50,7 +50,7 @@ public class SupportForHiddenLines {
             cadImage.save(outPath, pdfOptions);
             
             System.out.println("\nThe DWG file exported successfully to PDF.\nFile saved at " + dataDir);
-                    //ExEnd:SupportForHiddenLines
+                    
             }
       
 }

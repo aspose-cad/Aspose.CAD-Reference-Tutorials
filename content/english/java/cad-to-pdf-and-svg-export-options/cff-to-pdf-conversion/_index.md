@@ -24,7 +24,7 @@ public class CFFToPDF {
     public static void main(String[] args) 
     {
         
-        //ExStart:CFFToPDF
+        
         String dataDir = "Your Document Directory" + "CFF/";
         // Path to source file
         String sourceFilePath = dataDir+"WineBottle_Die.cf2";
@@ -36,7 +36,7 @@ public class CFFToPDF {
         }
         
         
-        //ExEnd:CFFToPDF
+        
     }
     
 }

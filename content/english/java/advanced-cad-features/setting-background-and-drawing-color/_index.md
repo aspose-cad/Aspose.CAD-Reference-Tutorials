@@ -27,7 +27,7 @@ public class SetBackgroundAndDrawingColor {
 		
 		// The path to the resource directory.
 		String dataDir = "Your Document Directory" + "CADConversion/";
-		//ExStart:SetBackgroundAndDrawingColor
+		
                 String srcFile = dataDir + "conic_pyramid.dxf";
 		
 	//	Image image = Image.load(srcFile);
@@ -57,7 +57,7 @@ public class SetBackgroundAndDrawingColor {
 
 	    // Export CAD to TIFF
 	    objImage.save(dataDir + "result_out_.tiff", tiffOptions);
-		//ExEnd:SetBackgroundAndDrawingColor	
+		
 	}
 }
 

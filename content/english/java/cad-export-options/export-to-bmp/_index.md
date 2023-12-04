@@ -29,7 +29,7 @@ public class ExportToBMP {
 		
                  // The path to the resource directory.
 		String dataDir = "Your Document Directory" + "ExportingCAD/";
-                //ExStart:ExportToBMP
+                
                 String fileName = (dataDir + "site.dwf");
                
             com.aspose.cad.Image image = com.aspose.cad.Image.load(fileName);
@@ -46,7 +46,7 @@ public class ExportToBMP {
             String outPath = dataDir +"site.bmp";
             image.save(outPath, bmpOptions);
           		
-	 //ExEnd:ExportToBMP
+	 
 
 }
 }

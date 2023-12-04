@@ -25,7 +25,7 @@ public class SupportedDGNElements
     public static void main(String[] args)
     {
          String dataDir = "Your Document Directory" + "ExportingDGN/";
-        //ExStart:SupportedDGNElements
+        
         // Input and Output file paths
         String fileName = "BlockRefDgn.dwg";
         String outPath = "BlockRefDgn.dwg.pdf";
@@ -60,7 +60,7 @@ public class SupportedDGNElements
                         break;
                     }
                 }
-         //ExEnd:SupportedDGNElements
+         
          }
         }
     }

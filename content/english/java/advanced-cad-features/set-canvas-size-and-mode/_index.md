@@ -25,7 +25,7 @@ public class SetCanvasSizeAndMode {
 		
 		// The path to the resource directory.
 		String dataDir = "Your Document Directory" + "CADConversion/";
-		//ExStart:SetCanvasSizeAndMode	
+		
                 String srcFile = dataDir + "conic_pyramid.dxf";
 	    com.aspose.cad.Image objImage = com.aspose.cad.Image.load(srcFile);
 	    // Create an instance of CadRasterizationOptions and set its various properties
@@ -54,7 +54,7 @@ public class SetCanvasSizeAndMode {
 
 	    // Export CAD to TIFF
 	    objImage.save(dataDir + "result_out_.tiff", tiffOptions);
-		//ExEnd:SetCanvasSizeAndMode
+		
 	}
 
 }

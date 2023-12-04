@@ -33,7 +33,7 @@ public class MeshSupportForDWG {
     {
         // The path to the resource directory.
         String dataDir = "Your Document Directory" + "DWGDrawings/";
-        //ExStart:MeshSupportForDWG
+        
         String srcFile = dataDir + "meshes.dwg";
 
         // com.aspose.cad. objImage = com.aspose.cad.CImage.load(srcFile);
@@ -67,7 +67,7 @@ public class MeshSupportForDWG {
         {
             cadImage.dispose();
         }
-        //ExEnd:MeshSupportForDWG
+        
     }
 }
 

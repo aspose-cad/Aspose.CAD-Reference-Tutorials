@@ -22,7 +22,7 @@ import com.aspose.cad.imageoptions.PdfOptions;
 public class IntegrateIGESFormat {
 public static void main(String[] args) 
     {
-       //ExStart:IntegrateIGESFormat
+       
        String dataDir = "Your Document Directory" + "CADConversion/";
        
        String sourceFilePath = dataDir + "figa2.igs";
@@ -39,7 +39,7 @@ public static void main(String[] args)
         pdf.setVectorRasterizationOptions(vectorOptions);
         
         igesImage.save(outPath, pdf);
-       //ExEnd:IntegrateIGESFormat
+       
     }
 }
 

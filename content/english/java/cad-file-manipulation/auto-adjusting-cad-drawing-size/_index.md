@@ -23,7 +23,7 @@ public class AutoAdjustingCADDrawingSize
 
     public static void main(String[] args) 
     {
-//ExStart:AutoAdjustingCADDrawingSize
+
         String dataDir = "Your Document Directory" + "CADConversion/";
         // Path to source file
         String sourceFilePath = dataDir+"sample.dwg";
@@ -46,7 +46,7 @@ public class AutoAdjustingCADDrawingSize
         // Export layout to BMP format
         String outPath = sourceFilePath + ".bmp";
         objImage.save(outPath, bmpOptions);
-   //ExEnds:AutoAdjustingCADDrawingSize
+   
     }
 
 }

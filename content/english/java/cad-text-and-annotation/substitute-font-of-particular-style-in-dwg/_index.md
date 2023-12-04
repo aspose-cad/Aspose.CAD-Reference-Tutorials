@@ -22,7 +22,7 @@ public class SubstituteFontOfAParticularStyle {
 		
 		// The path to the resource directory.
 		String dataDir = "Your Document Directory" + "CADConversion/";
-		//ExStart:SubstituteFontOfAParticularStyle
+		
                 String srcFile = dataDir + "conic_pyramid.dxf";
 		
 		// Load a CAD drawing in an instance of CadImage
@@ -31,7 +31,7 @@ public class SubstituteFontOfAParticularStyle {
 		// Specify the font for one particular style
                  
                 ((com.aspose.cad.fileformats.cad.cadtables.CadStyleTableObject)cadImage.getStyles().get_Item(0)).setPrimaryFontName("Arial");
-	//ExEnd:SubstituteFontOfAParticularStyle
+	
         
         }
 }

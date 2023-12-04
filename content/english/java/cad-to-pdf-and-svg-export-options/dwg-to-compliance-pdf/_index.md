@@ -24,7 +24,7 @@ public class DWGToCompliancePDF {
 		
 		// The path to the resource directory.
 		String dataDir = "Your Document Directory" + "DWGDrawings/";
-	    //ExStart:DWGToCompliancePDF
+	    
          	String srcFile = dataDir + "Bottom_plate.dwg";
        		
 	
@@ -40,7 +40,7 @@ public class DWGToCompliancePDF {
 
                 pdfOptions.getCorePdfOptions().setCompliance(PdfCompliance.PdfA1b);
                 objImage.save(dataDir+"Saved.pdf", pdfOptions);
-	   //ExEnd:DWGToCompliancePDF
+	   
         }
 
     }

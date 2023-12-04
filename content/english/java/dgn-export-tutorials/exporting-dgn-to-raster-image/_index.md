@@ -30,7 +30,7 @@ public class ExportingDGNAutoCADFormatToRasterImageFormat {
         {
 		
             String dataDir = "Your Document Directory" + "ExportingDGN/";
-            //ExStart:ExportingDGNAutoCADFormatToRasterImageFormat
+            
             
             // Load an existing DGN file as DgnImage.
             DgnImage dgnImage = (DgnImage) Image.load(dataDir + "Nikon_D90_Camera.dgn");
@@ -53,7 +53,7 @@ public class ExportingDGNAutoCADFormatToRasterImageFormat {
             // Call the save method of the CadImage class object.
             dgnImage.save(outStream, options);
 	   
-            //ExEnd:ExportingDGNAutoCADFormatToRasterImageFormat
+            
         }
 }
 ```

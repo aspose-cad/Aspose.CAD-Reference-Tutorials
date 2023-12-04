@@ -27,7 +27,7 @@ import com.aspose.cad.fileformats.cad.cadtables.CadBlockTableObject;
 
 public class SearchTextInDWGAutoCADFile {
 
-      //ExStart:SearchTextInDWGAutoCADFile
+      
 	private static final String dataDir = "Your Document Directory" + "DWGDrawings/";
 
 	public static void main(String[] args) {
@@ -101,6 +101,6 @@ private static void IterateCADNodeEntities(CadBaseEntity obj)
 
    
 
-//ExEnd:SearchTextInDWGAutoCADFile
+
 }
 ```

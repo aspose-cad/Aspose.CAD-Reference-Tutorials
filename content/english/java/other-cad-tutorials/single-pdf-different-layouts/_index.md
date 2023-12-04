@@ -30,7 +30,7 @@ public class SinglePDFWithDifferentLayouts {
     public static void main(String[] args){ 
    
 
-    //ExStart:SinglePDFWithDifferentLayouts  
+    
     String dataDir = "Your Document Directory" + "DWGDrawings/"; 
     
     CadImage cadImage = (CadImage)Image.load(dataDir + "City skyway map.dwg");
@@ -50,7 +50,7 @@ public class SinglePDFWithDifferentLayouts {
 
     
     
-    //ExEnd:SinglePDFWithDifferentLayouts  
+    
     
     }
 }

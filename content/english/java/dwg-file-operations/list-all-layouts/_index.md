@@ -23,7 +23,7 @@ public class ListAllLayoutsInAnAutoCADDrawing {
 		
 		// The path to the resource directory.
             String dataDir = "Your Document Directory" + "DWGDrawings/";
-            //ExStart:ListAllLayoutsInAnAutoCADDrawing
+            
             String srcFile = dataDir + "conic_pyramid.dxf";
 
             Image image = Image.load(srcFile);
@@ -36,7 +36,7 @@ public class ListAllLayoutsInAnAutoCADDrawing {
 	        System.out.println("Layout " + layout.getLayoutName());
 	    }
             
-            //ExEnd:ListAllLayoutsInAnAutoCADDrawing
+            
 	}
 
 }

@@ -29,7 +29,7 @@ import com.aspose.cad.imageoptions.PngOptions;
 public class ExportSTLToPNG {
     public static void main(String[] args)
     {
-        //ExStart:ExportSTLToPNG
+        
         String dataDir = "Your Document Directory" + "ExportingSTL/";
         String fileName = dataDir + "example.stl";
 
@@ -43,7 +43,7 @@ public class ExportSTLToPNG {
         String outPath = dataDir + "galeon.stl.png";
         cadImage.save(outPath, pngOptions);
 
-        //ExEnd:ExportSTLToPNG
+        
     }
 }
 ```

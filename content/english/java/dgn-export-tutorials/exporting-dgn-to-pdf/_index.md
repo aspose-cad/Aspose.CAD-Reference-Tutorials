@@ -28,7 +28,7 @@ public class ExportingDGNAutoCADFormatToPDF {
 		
        // Input and Output file paths
             String dataDir = "Your Document Directory" + "ExportingDGN/";
-           //ExStart:SupportForDGNV7   
+           
             String fileName = dataDir + "Nikon_D90_Camera.dgn";
             String outFile  = dataDir + "Nikon_D90_Camera.dgn";
             

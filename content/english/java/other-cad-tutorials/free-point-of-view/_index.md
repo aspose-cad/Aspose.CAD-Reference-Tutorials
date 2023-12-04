@@ -23,7 +23,7 @@ public class FreePointOfView {
     public static void main(String[] args) 
     {
         
-        //ExStart:FreePointOfView
+        
         String dataDir = "Your Document Directory" + "CADConversion/";
         // Path to source file
         String sourceFilePath = dataDir+"conic_pyramid.dxf";
@@ -51,7 +51,7 @@ public class FreePointOfView {
         
         //Saving to Image
          objImage.save(dataDir+"FreePointOfView_out.jpeg", options);
-        //ExEnd:FreePointOfView
+        
     }
 }
 

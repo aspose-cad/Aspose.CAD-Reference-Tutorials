@@ -25,7 +25,7 @@ import com.aspose.cad.imageoptions.PdfOptions;
 
 public class OpenDwfxFile {
     public static void main(String[] args) {
-        //ExStart:1
+        
         String SourceDir = Utils.getDataDir_DWFXDrawings();
         String OutputDir = Utils.getDataDir_Output();
         String filePath = SourceDir + "Tyrannosaurus.dwfx";
@@ -41,7 +41,7 @@ public class OpenDwfxFile {
         CADf.setVectorRasterizationOptions(rasterizationOptions);
 
         cadImageDwf.save(OutputDir + "OpenDwfxFile_out.pdf", CADf);
-        //ExEnd:1
+        
         System.out.println("OpenDwfxFile executed successfully");
     }
 }

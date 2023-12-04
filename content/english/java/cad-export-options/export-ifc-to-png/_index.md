@@ -28,7 +28,7 @@ public class ExportIFCToPNG {
      public static void main(String[] args)
      {
         String dataDir = "Your Document Directory" + "ExportingIFC/";
-        //ExStart:ExportIFCToPNG
+        
         String fileName = dataDir +"example.ifc";
         IfcImage cadImage = (IfcImage)Image.load(fileName);
 
@@ -42,7 +42,7 @@ public class ExportIFCToPNG {
         cadImage.save(dataDir, pngOptions);
 
 
-        //ExEnd:ExportIFCToPNG
+        
     }
 }
 ```

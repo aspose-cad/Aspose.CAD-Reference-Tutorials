@@ -27,7 +27,7 @@ public class ExportOLEObjects {
     public static void main(String[] args){ 
    
 
-    //ExStart:ExportOLEObjects  
+    
     String dataDir = "Your Document Directory" + "DWGDrawings/";    
     
     String[] files = new String[] { "D ZD junior D10m H2m.dwg", "ZD - Senior D6m H2m45.dwg" };
@@ -46,7 +46,7 @@ public class ExportOLEObjects {
             }
     
     
-    //ExEnd:ExportOLEObjects  
+    
     
     }
 }

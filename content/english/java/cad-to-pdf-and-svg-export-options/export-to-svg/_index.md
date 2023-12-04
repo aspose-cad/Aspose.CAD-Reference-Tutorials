@@ -26,7 +26,7 @@ import com.aspose.cad.imageoptions.svgoptionsparameters.SvgColorMode;
 public class ExportToSVG {
     
     public static void main(String[] args){ 
-       //ExStart:ExportToSVG
+       
         // The path to the resource directory.
        String dataDir = "Your Document Directory" + "DWGDrawings/";
         Image image = Image.load(dataDir + "meshes.dwg");
@@ -36,7 +36,7 @@ public class ExportToSVG {
             options.setTextAsShapes(true);
             image.save(dataDir + "meshes.svg");
         }
-    //ExEnd:ExportToSVG
+    
     }
     
 }

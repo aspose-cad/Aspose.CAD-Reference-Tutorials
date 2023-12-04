@@ -35,7 +35,7 @@ public class ParticularDWGToImage {
     
 public static void main(String[] args) {
 
-    //ExStart:ParticularDWGToImage
+    
     // The path to the resource directory.
         String dataDir = "Your Document Directory" + "DWGDrawings/";
         String sourceFilePath = dataDir + "visualization_-_conference_room.dwg";
@@ -68,7 +68,7 @@ public static void main(String[] args) {
     String outFile = dataDir + "result_out_generated.pdf";
     // Export the CAD to PDF
     cadImage.save(outFile, pdfOptions);
-     //ExEnd:ParticularDWGToImage
+     
     }
 }
 ```

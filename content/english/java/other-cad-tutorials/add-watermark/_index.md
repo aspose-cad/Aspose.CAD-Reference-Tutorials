@@ -56,7 +56,7 @@ rasterizationOptions.setLayouts(new String[]{"Model"});
 PdfOptions pdfOptions = new PdfOptions();
 pdfOptions.setVectorRasterizationOptions(rasterizationOptions);
 cadImage.save(dataDir + "AddWatermark_out.pdf", pdfOptions);
-//ExEnd:AddWatermark
+
 ```
 ## Conclusion
 Congratulations! You've successfully added watermarks to your CAD drawings using Aspose.CAD for Java. This simple yet powerful process allows you to personalize your designs or protect them with branding.

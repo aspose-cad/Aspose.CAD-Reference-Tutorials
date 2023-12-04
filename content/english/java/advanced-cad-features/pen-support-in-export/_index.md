@@ -28,7 +28,7 @@ import com.aspose.cad.internal.imaging.LineCap;
 public class PenSupportInExport {
 
    public static void main(String[] args) {
-//ExStart:PenSupportInExport
+
     String dataDir = "Your Document Directory" + "CADConversion/";
     String srcFile = dataDir + "conic_pyramid.dxf";
     CadImage cadImage = ((CadImage)(Image.load(srcFile)));
@@ -46,7 +46,7 @@ public class PenSupportInExport {
     pdfOptions.setVectorRasterizationOptions(rasterizationOptions);
     cadImage.save((dataDir+"9LHATT-A56_generated.pdf"),pdfOptions);
 
-//ExEnd:PenSupportInExport
+
 }
 }
 ```

@@ -24,7 +24,7 @@ import java.util.concurrent.TimeUnit;
 public class PutTimeoutOnSave {
 
     public static void main(String[] args) throws InterruptedException {
-        //ExStart:1
+        
         final String SourceDir = Utils.getDataDir_DWGDrawings();
         final String OutputDir = Utils.getDataDir_Output();
         final InterruptionTokenSource source = new com.aspose.cad.InterruptionTokenSource();
@@ -60,7 +60,7 @@ public class PutTimeoutOnSave {
         } finally {
             source.dispose();
         }
-        //ExEnd:1
+        
     }
 }
 

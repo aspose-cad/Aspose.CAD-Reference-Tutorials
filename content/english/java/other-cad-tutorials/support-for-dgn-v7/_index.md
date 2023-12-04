@@ -29,7 +29,7 @@ public class SupportForDGNV7
     {
         // Input and Output file paths
             String dataDir = "Your Document Directory" + "ExportingDGN/";
-           //ExStart:SupportForDGNV7   
+           
             String fileName = dataDir + "Nikon_D90_Camera.dgn";
             String outFile  = dataDir + "Nikon_D90_Camera.dgn";
             
@@ -46,7 +46,7 @@ public class SupportForDGNV7
 
                 objImage.save(outFile, options);
             
-        //ExEnd:SupportForDGNV7
+        
     }
 }
 

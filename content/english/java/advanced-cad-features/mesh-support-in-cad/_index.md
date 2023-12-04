@@ -24,7 +24,7 @@ public class MeshSupport {
 
     public static void main(String[] args) 
     {
-       //ExStart:MeshSupport
+       
        String dataDir = "Your Document Directory" + "CADConversion/";
        
        String sourceFilePath = dataDir +"meshes.dwg";
@@ -42,7 +42,7 @@ public class MeshSupport {
         
         cadImage.save(outPath, pdfOptions);
         
-       //ExEnd:MeshSupport
+       
     }
 }
 

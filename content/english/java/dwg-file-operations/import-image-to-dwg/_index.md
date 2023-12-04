@@ -33,7 +33,7 @@ public static void main(String[] args) {
 
 
         String dataDir = "Your Document Directory" + "DWGDrawings/";
-        //ExStart:ImportImageToDWG
+        
         String srcFile = dataDir + "Drawing11.dwg";
 
         Image image = Image.load(srcFile);
@@ -76,7 +76,7 @@ public static void main(String[] args) {
         cadRasterizationOptions.setLayouts(new String[] {"Model"});
 
         image.save((srcFile + "_generated.pdf"), pdfOptions);
-        //ExEnd:ImportImageToDWG
+        
     }
 }
 ```

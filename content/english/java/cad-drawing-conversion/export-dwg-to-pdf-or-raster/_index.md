@@ -18,7 +18,7 @@ import com.aspose.cad.imageoptions.PdfOptions;
 import com.aspose.cad.imageoptions.UnitType;
 
 public class ExportDWGToPDFOrRaster {
-	    //ExStart:ExportDWGToPDFOrRaster
+	    
 
 	public static void main(String[] args) 
         {
@@ -149,7 +149,7 @@ private Double Coefficient(int unitType)
          return coefficient;
         }
 
-//ExEnd:ExportDWGToPDFOrRaster
+
         
 }
 

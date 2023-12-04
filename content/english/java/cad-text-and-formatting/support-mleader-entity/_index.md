@@ -29,7 +29,7 @@ public class SupportMLeaderEntityForDWGFormat {
 		// The path to the resource directory.
        
             String dataDir = "Your Document Directory" + "DWGDrawings/";
-	    //ExStart:SupportMLeaderEntityForDWGFormat
+	    
        
             String file = dataDir + "Multileaders.dwg";
             Image image = Image.load(file);
@@ -85,7 +85,7 @@ public class SupportMLeaderEntityForDWGFormat {
                 Assert.areEqual(cadMLeader.getLeaderLineColor(), 0);
                 Assert.areEqual(cadMLeader.getTextHeight(), 1.0, 0.01);
 
-//ExEnd:SupportMLeaderEntityForDWGFormat
+
     
 }
 }

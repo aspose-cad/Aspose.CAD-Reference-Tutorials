@@ -22,7 +22,7 @@ public class ExportSpecificDWGLayoutToPDF {
 		
             // The path to the resource directory.
             String dataDir = "Your Document Directory" + "DWGDrawings/";
-        //ExStart:ExportSpecificDWGLayoutToPDF
+        
             String srcFile = dataDir + "visualization_-_conference_room.dwg";
 
             Image image = Image.load(srcFile);
@@ -41,7 +41,7 @@ public class ExportSpecificDWGLayoutToPDF {
 
 	    // Export the DWG to PDF
 	    image.save(dataDir + "ExportSpecificLayoutToPDF_out_.pdf", pdfOptions);	
-	//ExEnd:ExportSpecificDWGLayoutToPDF
+	
         }
 }
 

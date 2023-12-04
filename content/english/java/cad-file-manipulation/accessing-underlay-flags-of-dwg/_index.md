@@ -26,7 +26,7 @@ public class AccessingUnderlayFlagsofDWG {
     
     public static void main(String[] args) {
 		
-         //ExStart:AccessingUnderlayFlagsofDWG
+         
             // The path to the resource directory.
             String dataDir = "Your Document Directory" + "DWGDrawings/";
 	   
@@ -59,7 +59,7 @@ public class AccessingUnderlayFlagsofDWG {
                     }
                 }
             
-	//ExEnd:AccessingUnderlayFlagsofDWG
+	
        }
 
 }

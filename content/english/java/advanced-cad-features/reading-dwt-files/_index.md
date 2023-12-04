@@ -24,7 +24,7 @@ public class ReadingDWT {
 	public static void main(String[] args) {
 		
 		// The path to the resource directory.
-                 //ExStart:ReadingDWT
+                 
 		String dataDir = "Your Document Directory" + "CADConversion/";
 		String srcFile = dataDir + "conic_pyramid.dxf";
 		
@@ -38,7 +38,7 @@ public class ReadingDWT {
                     ((com.aspose.cad.fileformats.cad.cadtables.CadStyleTableObject)style).setPrimaryFontName("Arial");
                 }
 
-                //ExEnd:ReadingDWT
+                
 	}
 }
 

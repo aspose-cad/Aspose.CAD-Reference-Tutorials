@@ -19,7 +19,7 @@ public class MeteredLicensing
 
 	public static void main(String[] args) 
         {
-		//ExStart:MeteredLicensing
+		
 
         // Access the setMeteredKey property and pass public and private keys as parameters
         com.aspose.cad.Metered.setMeteredKey("<valid pablic key>", "<valid private key>");
@@ -37,7 +37,7 @@ public class MeteredLicensing
             BigDecimal quantity = com.aspose.cad.Metered.getConsumptionQuantity();
         System.out.println("Consumption quantity" + quantity());
 		
-//ExEnd:MeteredLicensing
+
 	}
 
     private static String quantity() {

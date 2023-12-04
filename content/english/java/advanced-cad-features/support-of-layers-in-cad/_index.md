@@ -27,7 +27,7 @@ public class SupportOfLayers {
     public static void main(String[] args) {
         
         
-            //ExStart:SupportOfLayers
+            
             // The path to the resource directory.
             String dataDir = "Your Document Directory" + "DWFDrawings/";
             
@@ -51,7 +51,7 @@ public class SupportOfLayers {
             
             // Export the DXF to JPG
            image.save(outFile, jpegOptions);
-            //ExEnd:SupportOfLayers
+            
             
     }
 }

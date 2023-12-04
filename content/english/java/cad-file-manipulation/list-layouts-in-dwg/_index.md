@@ -24,7 +24,7 @@ public class ListLayouts {
 
     public static void main(String[] args) 
     {
-       //ExStart:ListLayouts
+       
        String dataDir = "Your Document Directory" + "CADConversion/";
        String sourceFilePath = dataDir + "conic_pyramid.dxf";
      
@@ -39,7 +39,7 @@ public class ListLayouts {
             System.out.println("Layout " +layout.getLayoutName());
         }
        
-       //ExEnd:ListLayouts
+       
     }
 }
 
