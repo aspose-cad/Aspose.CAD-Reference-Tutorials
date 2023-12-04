@@ -5,7 +5,7 @@ second_title: Aspose.CAD Java API
 description: 
 type: docs
 weight: 18
-url: /java/other-cad-tutorials/export-ifc-to-png/
+url: /java/cad-export-options/export-ifc-to-png/
 ---
 
 ## Complete Source Code

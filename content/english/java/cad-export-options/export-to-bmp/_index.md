@@ -5,7 +5,7 @@ second_title: Aspose.CAD Java API
 description: 
 type: docs
 weight: 12
-url: /java/cad-export-tutorials/export-to-bmp/
+url: /java/cad-export-options/export-to-bmp/
 ---
 
 ## Complete Source Code

@@ -28,7 +28,7 @@ is_root: true
 
 ### [Additional Features](./additional-features/)
 
-### [CAD Export Tutorials](./cad-export-tutorials/)
+### [CAD Export Tutorials](./cad-export-options/)
 
 ### [DGN Export Tutorials](./dgn-export-tutorials/)
 

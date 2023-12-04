@@ -5,7 +5,7 @@ second_title: Aspose.CAD Java API
 description: 
 type: docs
 weight: 13
-url: /java/other-cad-tutorials/cff-to-pdf-conversion/
+url: /java/cad-to-pdf-and-svg-export-options/cff-to-pdf-conversion/
 ---
 
 ## Complete Source Code

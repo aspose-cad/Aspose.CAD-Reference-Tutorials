@@ -12,11 +12,10 @@ url: /java/other-cad-tutorials/
 ### [Supported DGN Elements - Aspose.CAD for Java Tutorial](./supported-dgn-elements/)
 ### [Support for DGN V7 - Aspose.CAD for Java Tutorial](./support-for-dgn-v7/)
 ### [Add Watermark - Aspose.CAD for Java Tutorial](./add-watermark/)
-### [CFF to PDF Conversion - Aspose.CAD for Java Tutorial](./cff-to-pdf-conversion/)
+Enhance your CAD drawings with personalized watermarks using Aspose.CAD for Java. Follow our step-by-step guide for seamless integration.
 ### [Free Point of View - Aspose.CAD for Java Tutorial](./free-point-of-view/)
 ### [Put Timeout on Save - Aspose.CAD for Java Tutorial](./put-timeout-on-save/)
 ### [Single PDF with Different Layouts - Aspose.CAD for Java Tutorial](./single-pdf-different-layouts/)
 ### [Edit Hyperlink - Aspose.CAD for Java Tutorial](./edit-hyperlink/)
-### [Export IFC to PNG - Aspose.CAD for Java Tutorial](./export-ifc-to-png/)
+Enhance DWG drawing precision with Aspose.CAD for Java. Edit hyperlinks seamlessly, ensuring accurate references.
 ### [Support of OBJ - Aspose.CAD for Java Tutorial](./support-of-obj/)
-### [Export STL to PNG - Aspose.CAD for Java Tutorial](./export-stl-to-png/)

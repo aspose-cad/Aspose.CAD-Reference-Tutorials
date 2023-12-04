@@ -5,7 +5,7 @@ second_title: Aspose.CAD Java API
 description: 
 type: docs
 weight: 20
-url: /java/other-cad-tutorials/export-stl-to-png/
+url: /java/cad-export-options/export-stl-to-png/
 ---
 
 ## Complete Source Code

@@ -5,7 +5,7 @@ second_title: Aspose.CAD Java API
 description: 
 type: docs
 weight: 11
-url: /java/cad-export-tutorials/export-cad-layouts-to-pdf/
+url: /java/cad-export-options/export-cad-layouts-to-pdf/
 ---
 
 ## Complete Source Code
