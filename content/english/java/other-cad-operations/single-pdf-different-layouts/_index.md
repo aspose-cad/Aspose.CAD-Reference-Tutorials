@@ -5,7 +5,7 @@ second_title: Aspose.CAD Java API
 description: Create stunning PDFs with diverse layouts from CAD drawings using Aspose.CAD for Java. Easy integration and powerful features for Java developers.
 type: docs
 weight: 16
-url: /java/other-cad-tutorials/single-pdf-different-layouts/
+url: /java/other-cad-operations/single-pdf-different-layouts/
 ---
 ## Introduction
 

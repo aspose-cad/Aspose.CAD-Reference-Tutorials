@@ -5,7 +5,7 @@ second_title: Aspose.CAD Java API
 description: Explore the power of Aspose.CAD for Java in this tutorial on achieving a free point of view rendering for CAD drawings. Unleash the potential of Aspose.CAD.
 type: docs
 weight: 14
-url: /java/other-cad-tutorials/free-point-of-view/
+url: /java/other-cad-operations/free-point-of-view/
 ---
 ## Introduction
 

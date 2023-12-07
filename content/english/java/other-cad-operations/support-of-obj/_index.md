@@ -5,7 +5,7 @@ second_title: Aspose.CAD Java API
 description: Explore the potential of Aspose.CAD for Java in handling OBJ drawings seamlessly. Convert effortlessly to PDF with our step-by-step guide.
 type: docs
 weight: 19
-url: /java/other-cad-tutorials/support-of-obj/
+url: /java/other-cad-operations/support-of-obj/
 ---
 ## Introduction
 

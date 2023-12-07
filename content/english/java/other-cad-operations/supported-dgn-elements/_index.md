@@ -5,7 +5,7 @@ second_title: Aspose.CAD Java API
 description: Explore the power of Aspose.CAD for Java in handling DGN elements effortlessly. Our step-by-step guide ensures seamless integration for CAD file processing.
 type: docs
 weight: 10
-url: /java/other-cad-tutorials/supported-dgn-elements/
+url: /java/other-cad-operations/supported-dgn-elements/
 ---
 ## Introduction
 
