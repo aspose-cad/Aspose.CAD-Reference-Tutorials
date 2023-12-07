@@ -111,4 +111,4 @@ A4: Adjust the page width and height in the rasterization options to control the
 
 ### Q5: Where can I find additional support or community discussions?
 
-A5: Explore the Aspose.CAD community forum at [https://forum.aspose.com/c/cad/19](https://forum.aspose.com/c/cad/19) for support and discussions.
+A5: Explore the Aspose.CAD community forum at [here](https://forum.aspose.com/c/cad/19) for support and discussions.
