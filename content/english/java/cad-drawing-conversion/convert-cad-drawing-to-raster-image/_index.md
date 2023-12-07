@@ -86,7 +86,7 @@ A1: Aspose.CAD supports a wide range of CAD formats, including DWG, DXF, DWF, an
 
 A2: Yes, Aspose.CAD provides flexibility in setting rasterization options, allowing you to tailor the output according to your requirements.
 
-## Q3: Where can I find support for Aspose.CAD-related queries?
+### Q3: Where can I find support for Aspose.CAD-related queries?
 
 A3: Visit the [Aspose.CAD forum](https://forum.aspose.com/c/cad/19) to get assistance and engage with the community.
 
