@@ -5,7 +5,7 @@ second_title: Aspose.CAD Java API
 description: Unlock the power of Aspose.CAD for Java with our DGN Export Tutorials. Learn efficient CAD file manipulation, from exporting DGN as part of DWG to creating raster images effortlessly.
 type: docs
 weight: 31
-url: /java/dgn-export-tutorials/
+url: /java/dgn-export-options/
 ---
 ## Introduction
 

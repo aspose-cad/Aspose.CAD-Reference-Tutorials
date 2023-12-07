@@ -5,7 +5,7 @@ second_title: Aspose.CAD Java API
 description: Explore how to export DGN as part of DWG using Aspose.CAD for Java. Follow our step-by-step guide for efficient CAD file manipulation.
 type: docs
 weight: 10
-url: /java/dgn-export-tutorials/export-dgn-as-part-of-dwg/
+url: /java/dgn-export-options/export-dgn-as-part-of-dwg/
 ---
 ## Introduction
 
@@ -108,7 +108,7 @@ Congratulations! You've successfully learned how to export a DGN file as part of
 
 ### Q1: Where can I find the documentation for Aspose.CAD for Java?
 
-A1: The official documentation can be found [here](https://reference.aspose.com/cad/java/).
+A1: The   documentation can be found [here](https://reference.aspose.com/cad/java/).
 
 ### Q2: How can I download the Aspose.CAD library for Java?
 

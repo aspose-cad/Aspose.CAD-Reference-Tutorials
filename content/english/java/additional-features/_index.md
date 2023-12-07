@@ -2,11 +2,36 @@
 title: Additional Features
 linktitle: Additional Features
 second_title: Aspose.CAD Java API
-description: 
+description: Unlock the potential of Aspose.CAD in Java with our tutorials. Add custom properties, decompose CAD insert objects, enable tracking, and export DXF drawings seamlessly. Elevate your CAD workflow effortlessly.
 type: docs
 weight: 29
 url: /java/additional-features/
 ---
+
+
+## Introduction
+
+Welcome to our comprehensive guide on leveraging additional features in Aspose.CAD for Java. Whether you're a seasoned CAD professional or just starting, these tutorials will empower you to enhance your CAD workflow. Let's dive into the key aspects covered in our tutorials.
+
+## Add Custom Properties to DWG Files
+
+In this tutorial, we'll walk you through the process of adding custom properties to DWG files using Aspose.CAD in Java. Learn how this feature can significantly improve organization and information retrieval in your CAD drawings. Follow our step-by-step guide for a seamless integration.
+
+## Decompose CAD Insert Object
+
+Master the art of decomposing CAD insert objects in Java with Aspose.CAD. Our detailed tutorial provides a step-by-step guide for efficient handling. Gain insights into the intricacies of CAD manipulation and elevate your skills in the world of CAD design.
+
+## Enable Tracking in DWG Files
+
+Collaboration is key in CAD projects, and enabling tracking in DWG files can streamline the process. Explore our step-by-step guide on how to achieve this using Aspose.CAD in Java. Ensure seamless collaboration and enhance your efficiency in CAD projects.
+
+## Export DXF Drawing to PDF
+
+Effortlessly convert DXF drawings to PDF in Java using Aspose.CAD. Our tutorial guides you through the seamless conversion process, enhancing your CAD workflow. Elevate the presentation and sharing of your CAD designs with this valuable skill.
+
+## Export DXF to WMF Format
+
+Unlock the power of Aspose.CAD for Java as you learn to export DXF drawings to WMF format. Our detailed tutorial provides a step-by-step guide for this process. Download the library, follow the guide, and witness a new level of precision in your CAD file handling.
 
 ## Additional Features Tutorials
 ### [Add Custom Properties to DWG Files Using Aspose.CAD In Java](./add-custom-properties/)
@@ -31,3 +56,7 @@ Effortlessly export specific layers from DXF drawings to PDF using Aspose.CAD fo
 Convert DXF to PDF in Java effortlessly with Aspose.CAD. Follow our step-by-step guide for seamless rendering.
 ### [Save DXF Files with Aspose.CAD In Java](./save-dxf-files/)
 Learn how to save DXF files in Java using Aspose.CAD. Follow our step-by-step guide for efficient CAD file management.
+
+## Conclusion
+
+These tutorials cover a range of additional features in Aspose.CAD for Java, offering you valuable insights and skills to optimize your CAD workflow. Whether you're enhancing organization, mastering decomposing techniques, enabling tracking, or exploring various export options, these tutorials provide the knowledge you need. Elevate your CAD skills today with Aspose.CAD for Java.

@@ -5,7 +5,7 @@ second_title: Aspose.CAD Java API
 description: Explore the step-by-step guide on exporting DGN files to AutoCAD format in PDF using Aspose.CAD for Java. Elevate your Java application's CAD handling capabilities effortlessly.
 type: docs
 weight: 12
-url: /java/dgn-export-tutorials/exporting-dgn-to-pdf/
+url: /java/dgn-export-options/exporting-dgn-to-pdf/
 ---
 ## Introduction
 

@@ -1,11 +1,11 @@
 ---
-title: Other CAD Tutorials
-linktitle: Other CAD Tutorials
+title: Other CAD Operations
+linktitle: Other CAD Operations
 second_title: Aspose.CAD Java API
 description: Unlock the potential of Aspose.CAD for Java with our tutorials. From handling DGN elements to adding watermarks, boost your CAD skills effortlessly.
 type: docs
 weight: 32
-url: /java/other-cad-tutorials/
+url: /java/other-cad-operations/
 ---
 ## Introduction
 
