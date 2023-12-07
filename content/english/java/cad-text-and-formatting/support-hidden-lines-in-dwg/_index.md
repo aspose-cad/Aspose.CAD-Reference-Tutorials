@@ -96,7 +96,7 @@ Congratulations! You've successfully implemented hidden lines support for DWG fi
 
 This tutorial has walked you through the process of supporting hidden lines in DWG files using Aspose.CAD for Java. By following these steps, you can enhance your application's capabilities in handling CAD drawings with ease.
 
-## FAQ')
+## FAQ's
 
 ### Q1: Can I use Aspose.CAD for Java with other CAD file formats?
 
