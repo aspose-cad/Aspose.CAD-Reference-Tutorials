@@ -27,12 +27,6 @@ import com.aspose.cad.Image;
 import com.aspose.cad.fileformats.cad.CadImage;
 import com.aspose.cad.fileformats.cad.CadLayoutDictionary;
 import com.aspose.cad.fileformats.cad.cadobjects.CadLayout;
-// The path to the resource directory.
-String dataDir = "Your Document Directory" + "DWGDrawings/";
-String srcFile = dataDir + "conic_pyramid.dxf";
-Image image = Image.load(srcFile);
-CadImage cadImage = (CadImage)image;
-CadLayoutDictionary layouts = cadImage.getLayouts();
 ```
 
 ## Step 1: Load the AutoCAD Drawing
