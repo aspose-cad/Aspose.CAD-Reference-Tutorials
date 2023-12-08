@@ -1,6 +1,6 @@
 ---
 title: Export to PDF with Aspose.CAD for Java
-linktitle: Export to PDF - Aspose.CAD for Java Tutorial
+linktitle: Export to PDF
 second_title: Aspose.CAD Java API
 description: Learn how to export CAD files to PDF effortlessly with Aspose.CAD for Java. Follow our step-by-step guide for seamless integration.
 type: docs

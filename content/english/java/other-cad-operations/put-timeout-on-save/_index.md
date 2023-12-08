@@ -1,6 +1,6 @@
 ---
 title: Timeout on Save for CAD with Aspose.CAD
-linktitle: Put Timeout on Save - Aspose.CAD for Java Tutorial
+linktitle: Put Timeout on Save
 second_title: Aspose.CAD Java API
 description: Learn how to boost your Java application's performance with Aspose.CAD. Put a timeout on save for CAD drawings. Follow our step-by-step guide.
 type: docs

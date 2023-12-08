@@ -1,6 +1,6 @@
 ---
 title: Export AutoCAD Images to PDF - Aspose.CAD for Java Tutorial
-linktitle: Export AutoCAD Images to PDF - Aspose.CAD for Java Tutorial
+linktitle: Export AutoCAD Images to PDF
 second_title: Aspose.CAD Java API
 description: Effortlessly export AutoCAD images to PDF using Aspose.CAD for Java. Follow our step-by-step guide for seamless integration.
 type: docs

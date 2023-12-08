@@ -1,6 +1,6 @@
 ---
 title: CFF to PDF Conversion - Aspose.CAD for Java Tutorial
-linktitle: CFF to PDF Conversion - Aspose.CAD for Java Tutorial
+linktitle: CFF to PDF Conversion
 second_title: Aspose.CAD Java API
 description: Explore the seamless CFF to PDF conversion with Aspose.CAD for Java. Easy steps, reliable results.
 type: docs

@@ -1,6 +1,6 @@
 ---
 title: Crafting Dynamic PDFs with Aspose.CAD for Java
-linktitle: Single PDF with Different Layouts - Aspose.CAD for Java Tutorial
+linktitle: Single PDF with Different Layouts
 second_title: Aspose.CAD Java API
 description: Create stunning PDFs with diverse layouts from CAD drawings using Aspose.CAD for Java. Easy integration and powerful features for Java developers.
 type: docs

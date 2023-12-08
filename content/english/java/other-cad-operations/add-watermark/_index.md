@@ -1,6 +1,6 @@
 ---
 title: Add Watermarks to CAD Drawings - Aspose.CAD for Java Tutorial
-linktitle: Add Watermark - Aspose.CAD for Java Tutorial
+linktitle: Add Watermark
 second_title: Aspose.CAD Java API
 description: Enhance your CAD drawings with personalized watermarks using Aspose.CAD for Java. Follow our step-by-step guide for seamless integration.
 type: docs

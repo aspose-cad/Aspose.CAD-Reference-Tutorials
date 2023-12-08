@@ -1,6 +1,6 @@
 ---
 title: Effortless OBJ to PDF Conversion with Aspose.CAD for Java
-linktitle: Support of OBJ - Aspose.CAD for Java Tutorial
+linktitle: Support of OBJ
 second_title: Aspose.CAD Java API
 description: Explore the potential of Aspose.CAD for Java in handling OBJ drawings seamlessly. Convert effortlessly to PDF with our step-by-step guide.
 type: docs

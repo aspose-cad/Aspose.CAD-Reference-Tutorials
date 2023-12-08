@@ -1,6 +1,6 @@
 ---
 title: Export IFC to PNG with Aspose.CAD for Java
-linktitle: Export IFC to PNG - Aspose.CAD for Java Tutorial
+linktitle: Export IFC to PNG
 second_title: Aspose.CAD Java API
 description: Convert IFC to PNG effortlessly with Aspose.CAD for Java. Follow our step-by-step tutorial.
 type: docs

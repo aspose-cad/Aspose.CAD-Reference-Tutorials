@@ -1,6 +1,6 @@
 ---
 title: Edit DWG Hyperlinks - Aspose.CAD Java Tutorial
-linktitle: Edit Hyperlink - Aspose.CAD for Java Tutorial
+linktitle: Edit Hyperlink
 second_title: Aspose.CAD Java API
 description: Enhance DWG drawing precision with Aspose.CAD for Java. Edit hyperlinks seamlessly, ensuring accurate references. Try the free trial now!
 type: docs

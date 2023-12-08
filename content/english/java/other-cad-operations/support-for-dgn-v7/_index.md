@@ -1,6 +1,6 @@
 ---
 title: DGN to PDF Conversion Guide - Aspose.CAD for Java
-linktitle: Support for DGN V7 - Aspose.CAD for Java Tutorial
+linktitle: Support for DGN V7
 second_title: Aspose.CAD Java API
 description: Effortlessly convert DGN files to PDF using Aspose.CAD for Java. Follow our step-by-step guide for seamless integration and efficient workflow.
 type: docs

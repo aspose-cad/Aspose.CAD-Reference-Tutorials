@@ -1,6 +1,6 @@
 ---
 title: Export to BMP with Aspose.CAD for Java
-linktitle: Export to BMP - Aspose.CAD for Java Tutorial
+linktitle: Export to BMP
 second_title: Aspose.CAD Java API
 description: Explore seamless CAD to BMP conversion with Aspose.CAD for Java. Follow our step-by-step guide for efficient and precise exports.
 type: docs
