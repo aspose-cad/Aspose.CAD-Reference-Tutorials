@@ -1,6 +1,6 @@
 ---
 title: Override Automatic Code Page Detection in DWG Files with Java
-linktitle: Override Automatic Code Page Detection in DWG Files with Java
+linktitle: Override Automatic Code Page Detection in DWG Files
 second_title: Aspose.CAD Java API
 description: Discover how to override code page detection in DWG files with Aspose.CAD for Java. Efficiently handle encoding and recover malformed CIF/MIF.
 type: docs
