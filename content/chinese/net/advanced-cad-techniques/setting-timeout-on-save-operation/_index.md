@@ -15,7 +15,7 @@ url: /zh/net/advanced-cad-techniques/setting-timeout-on-save-operation/
 
 在开始本教程之前，请确保您具备以下先决条件：
 
-- Aspose.CAD for .NET：确保您已将 Aspose.CAD 库集成到您的 .NET 项目中。你可以下载它[这里](https://releases.aspose.com/cad/net/).
+-  Aspose.CAD for .NET：确保您已将 Aspose.CAD 库集成到您的 .NET 项目中。你可以下载它[这里](https://releases.aspose.com/cad/net/).
 
 - 文档目录：有一个存储 CAD 文档的指定目录。
 
@@ -97,7 +97,7 @@ Console.WriteLine("PutTimeoutOnSave executed successfully");
 
 ### Q1：我可以自定义超时时间吗？
 
- A1：当然！调整持续时间`Thread.Sleep`声明以满足您的特定要求。
+A1：当然！调整持续时间`Thread.Sleep`声明以满足您的特定要求。
 
 ### Q2：还有其他光栅化选项吗？
 
@@ -113,4 +113,4 @@ A4：当然！ Aspose.CAD 支持 2D 和 3D CAD 文件格式。
 
 ### 问题 5：我在哪里可以找到进一步的帮助或社区支持？
 
- A5：访问[Aspose.CAD论坛](https://forum.aspose.com/c/cad/19)以获得社区支持和讨论。
+A5：访问[Aspose.CAD论坛](https://forum.aspose.com/c/cad/19)以获得社区支持和讨论。

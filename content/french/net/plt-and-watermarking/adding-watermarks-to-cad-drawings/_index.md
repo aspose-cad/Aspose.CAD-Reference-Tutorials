@@ -81,7 +81,7 @@ Répétez ces étapes pour différents dessins et vous obtiendrez des fichiers C
 
 ## Conclusion
 
-Toutes nos félicitations! Vous avez appris avec succès comment ajouter des filigranes à vos dessins CAO à l'aide d'Aspose.CAD for .NET. Ce processus simple mais puissant vous permet de personnaliser vos conceptions tout en préservant l'intégrité de vos dessins techniques.
+Toutes nos félicitations! Vous avez appris avec succès comment ajouter des filigranes à vos dessins CAO à l'aide d'Aspose.CAD pour .NET. Ce processus simple mais puissant vous permet de personnaliser vos conceptions tout en préservant l'intégrité de vos dessins techniques.
 
 ## FAQ
 

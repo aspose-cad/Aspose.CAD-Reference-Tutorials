@@ -124,8 +124,8 @@ S3: Använd de medföljande alternativen för rastrering och grafik för att skr
 
 ### F4: Finns det en testversion tillgänglig för Aspose.CAD för .NET?
 
- S4: Ja, du kan utforska funktionerna med[gratis testversion](https://releases.aspose.com/).
+ A4: Ja, du kan utforska funktionerna med[gratis testversion](https://releases.aspose.com/).
 
 ### F5: Var kan jag söka support eller ställa frågor?
 
- A5: Besök[Aspose.CAD-forum](https://forum.aspose.com/c/cad/19) för hjälp och diskussioner.
+A5: Besök[Aspose.CAD-forum](https://forum.aspose.com/c/cad/19) för hjälp och diskussioner.

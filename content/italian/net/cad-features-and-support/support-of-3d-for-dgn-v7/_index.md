@@ -40,7 +40,7 @@ using Aspose.CAD.ImageOptions;
 
 ## Passaggio 1: imposta la directory dei documenti
 
- Assicurati di avere una directory dei documenti impostata nel tuo progetto. Sostituire`"Your Document Directory"`con il percorso effettivo della directory dei documenti.
+ Assicurati di avere una directory dei documenti impostata nel tuo progetto. Sostituire`"Your Document Directory"` con il percorso effettivo della directory dei documenti.
 
 ```csharp
 string MyDir = "Your Document Directory";
@@ -106,7 +106,7 @@ A2: racchiudi il codice in un blocco try-catch, come dimostrato nell'esempio for
 
 ### Q4: Posso provare Aspose.CAD per .NET prima dell'acquisto?
 
- A4: Certamente! Esplora la prova gratuita[Qui](https://releases.aspose.com/).
+A4: Certamente! Esplora la prova gratuita[Qui](https://releases.aspose.com/).
 
 ### Q5: Dove posso trovare il supporto della community per Aspose.CAD per .NET?
 

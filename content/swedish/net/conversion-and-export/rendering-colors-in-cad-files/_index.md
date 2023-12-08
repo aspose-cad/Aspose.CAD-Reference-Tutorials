@@ -15,7 +15,7 @@ Håller du på med utmaningen att återge färger i CAD-filer med .NET? Kolla in
 
 Innan vi dyker in i handledningen, se till att du har följande förutsättningar på plats:
 
-- Aspose.CAD Library: Ladda ner och installera Aspose.CAD-biblioteket från[här](https://releases.aspose.com/cad/net/).
+-  Aspose.CAD Library: Ladda ner och installera Aspose.CAD-biblioteket från[här](https://releases.aspose.com/cad/net/).
 
 - Utvecklingsmiljö: Se till att du har en .NET-utvecklingsmiljö inrättad.
 
@@ -23,7 +23,7 @@ Innan vi dyker in i handledningen, se till att du har följande förutsättninga
 
 ## Importera namnområden
 
-I ditt .NET-projekt, importera de nödvändiga namnområdena för att komma åt Aspose.CAD-funktionerna. Lägg till följande rader i början av din kod:
+ditt .NET-projekt, importera de nödvändiga namnområdena för att komma åt Aspose.CAD-funktionerna. Lägg till följande rader i början av din kod:
 
 ```csharp
 using Aspose.CAD.ImageOptions;
@@ -91,7 +91,7 @@ Grattis! Du har framgångsrikt återgett färger i CAD-filer med Aspose.CAD för
 
 ### F1: Kan jag använda Aspose.CAD gratis?
 
- A1: Aspose.CAD erbjuder en gratis testversion tillgänglig[här](https://releases.aspose.com/). Du kan utforska dess funktioner innan du gör ett köp.
+ A1: Aspose.CAD erbjuder en gratis testversion tillgänglig[här](https://releases.aspose.com/)Du kan utforska dess funktioner innan du gör ett köp.
 
 ### F2: Var kan jag hitta detaljerad dokumentation för Aspose.CAD?
 
@@ -99,7 +99,7 @@ Grattis! Du har framgångsrikt återgett färger i CAD-filer med Aspose.CAD för
 
 ### F3: Hur får jag tillfällig licens för Aspose.CAD?
 
- A3: Skaffa en tillfällig licens[här](https://purchase.aspose.com/temporary-license/)för teständamål.
+ A3: Skaffa en tillfällig licens[här](https://purchase.aspose.com/temporary-license/) för teständamål.
 
 ### F4: Behöver du hjälp eller har frågor?
 

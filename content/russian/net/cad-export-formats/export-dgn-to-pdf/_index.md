@@ -83,7 +83,7 @@ cadImage.Save(MyDir + "ExportDGNToPdf_out.pdf", pdfOptions);
 
 ### Вопрос 3: Существует ли бесплатная пробная версия Aspose.CAD?
 
- A3: Да, вы можете получить бесплатную пробную версию.[здесь](https://releases.aspose.com/).
+A3: Да, вы можете получить бесплатную пробную версию.[здесь](https://releases.aspose.com/).
 
 ### Вопрос 4: Как я могу получить временные лицензии для Aspose.CAD?
 
@@ -91,4 +91,4 @@ cadImage.Save(MyDir + "ExportDGNToPdf_out.pdf", pdfOptions);
 
 ### В5: Нужна помощь или есть вопросы?
 
- A5: Посетите[Форум Aspose.CAD](https://forum.aspose.com/c/cad/19) для поддержки сообщества.
+A5: Посетите[Форум Aspose.CAD](https://forum.aspose.com/c/cad/19) для поддержки сообщества.

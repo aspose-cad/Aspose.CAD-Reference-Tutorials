@@ -128,4 +128,4 @@ Cevap3: PDF çıktısını tercihlerinize göre uyarlamak için sağlanan raster
 
 ### S5: Nereden destek alabilirim veya soru sorabilirim?
 
- A5: ziyaret edin[Aspose.CAD forumu](https://forum.aspose.com/c/cad/19) Yardım ve tartışmalar için.
+A5: ziyaret edin[Aspose.CAD forumu](https://forum.aspose.com/c/cad/19) Yardım ve tartışmalar için.

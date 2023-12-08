@@ -109,4 +109,4 @@ Cevap2: Aspose.CAD for .NET, farklı boyut ve karmaşıklıktaki çizimleri veri
 
 ### S5: İşlem sırasında sorunlarla karşılaşırsam nereden yardım alabilirim?
 
- A5: ziyaret edin[Aspose.CAD forumu](https://forum.aspose.com/c/cad/19)özel destek ve topluluk işbirliği için.
+A5: ziyaret edin[Aspose.CAD forumu](https://forum.aspose.com/c/cad/19) özel destek ve topluluk işbirliği için.

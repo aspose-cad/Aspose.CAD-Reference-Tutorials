@@ -76,7 +76,7 @@ using (FileStream stream = new FileStream(MyDir + "output_conic_pyramid.pdf", Fi
 }
 ```
 
-Поздравляем! Вы успешно включили отслеживание в файлах САПР, используя Aspose.CAD для .NET. Не стесняйтесь исследовать[документация](https://reference.aspose.com/cad/net/) Больше подробностей.
+ Поздравляем! Вы успешно включили отслеживание в файлах САПР, используя Aspose.CAD для .NET. Не стесняйтесь исследовать[документация](https://reference.aspose.com/cad/net/) Больше подробностей.
 
 ## Заключение
 

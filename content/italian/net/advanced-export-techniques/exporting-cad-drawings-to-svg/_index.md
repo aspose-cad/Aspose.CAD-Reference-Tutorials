@@ -9,7 +9,7 @@ url: /it/net/advanced-export-techniques/exporting-cad-drawings-to-svg/
 ---
 ## introduzione
 
-Nel dinamico mondo del CAD (Computer-Aided Design), la capacità di esportare disegni in vari formati è una competenza cruciale. SVG (Scalable Vector Graphics) è uno di questi formati che ha guadagnato popolarità grazie alla sua scalabilità e versatilità. In questo tutorial esploreremo come esportare disegni CAD in SVG utilizzando la potente libreria Aspose.CAD per .NET.
+Nel dinamico mondo del CAD (Computer-Aided Design), la capacità di esportare disegni in vari formati è una competenza fondamentale. SVG (Scalable Vector Graphics) è uno di questi formati che ha guadagnato popolarità grazie alla sua scalabilità e versatilità. In questo tutorial esploreremo come esportare disegni CAD in SVG utilizzando la potente libreria Aspose.CAD per .NET.
 
 ## Prerequisiti
 

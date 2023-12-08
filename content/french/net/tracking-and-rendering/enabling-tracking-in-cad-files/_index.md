@@ -76,7 +76,7 @@ using (FileStream stream = new FileStream(MyDir + "output_conic_pyramid.pdf", Fi
 }
 ```
 
-Toutes nos félicitations! Vous avez activé avec succès le suivi dans les fichiers CAO à l'aide d'Aspose.CAD pour .NET. N'hésitez pas à explorer le[Documentation](https://reference.aspose.com/cad/net/) pour plus de détails.
+ Toutes nos félicitations! Vous avez activé avec succès le suivi dans les fichiers CAO à l'aide d'Aspose.CAD pour .NET. N'hésitez pas à explorer le[Documentation](https://reference.aspose.com/cad/net/) pour plus de détails.
 
 ## Conclusion
 

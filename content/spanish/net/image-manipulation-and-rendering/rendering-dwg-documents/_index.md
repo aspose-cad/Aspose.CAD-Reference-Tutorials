@@ -45,7 +45,7 @@ string MyDir = "Your Document Directory";
 string sourceFilePath = MyDir + "Bottom_plate.dwg";
 using (CadImage cadImage = (CadImage)Image.Load(sourceFilePath))
 {
-    //Su código para cargar el archivo DWG va aquí.
+    // Su código para cargar el archivo DWG va aquí.
 }
 ```
 
@@ -55,7 +55,7 @@ using (CadImage cadImage = (CadImage)Image.Load(sourceFilePath))
 CadRasterizationOptions rasterizationOptions = new CadRasterizationOptions();
 rasterizationOptions.Layouts = new string[] { "Model" };
 rasterizationOptions.NoScaling = true;
-// Aquí se pueden agregar configuraciones de rasterización adicionales.
+//Aquí se pueden agregar configuraciones de rasterización adicionales.
 ```
 
 ## Paso 3: definir la región a dibujar
@@ -129,4 +129,4 @@ R2: Sí, Aspose.CAD es compatible tanto con .NET Framework como con .NET Core.
 
 ### P5: ¿Dónde puedo encontrar soporte adicional?
 
- A5: Visita el[Foro Aspose.CAD](https://forum.aspose.com/c/cad/19) para apoyo y debates de la comunidad.
+A5: Visita el[Foro Aspose.CAD](https://forum.aspose.com/c/cad/19) para apoyo y debates de la comunidad.

@@ -58,7 +58,7 @@ rasterizationOptions.PageHeight = 1600;
 
 ## الخطوة 3: تحديد الطبقات
 
-أضف الطبقات المطلوبة إلى خيارات التنقيط. في هذا المثال، أضفنا "LayerA."
+أضف الطبقات المطلوبة إلى خيارات التنقيط. في هذا المثال، أضفنا "LayerA".
 
 ```csharp
 rasterizationOptions.Layers = new string[] { "LayerA" };

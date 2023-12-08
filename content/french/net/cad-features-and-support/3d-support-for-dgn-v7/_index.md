@@ -104,8 +104,8 @@ A3 : Oui, Aspose.CAD pour .NET est conçu pour être compatible avec les derniè
 
 ### Q4 : Puis-je personnaliser davantage les paramètres d’exportation en fonction de mes besoins spécifiques ?
 
-A4 : Absolument ! Le code fourni offre un point de départ. Vous pouvez explorer des options et des configurations supplémentaires dans le[Documentation Aspose.CAD](https://reference.aspose.com/cad/net/).
+ A4 : Absolument ! Le code fourni offre un point de départ. Vous pouvez explorer des options et des configurations supplémentaires dans le[Documentation Aspose.CAD](https://reference.aspose.com/cad/net/).
 
 ### Q5 : Où puis-je demander de l'aide ou partager mes expériences avec Aspose.CAD pour .NET ?
 
- A5 : Rejoignez la communauté Aspose.CAD sur le[forum](https://forum.aspose.com/c/cad/19) pour interagir avec d’autres développeurs et demander de l’aide.
+A5 : Rejoignez la communauté Aspose.CAD sur le[forum](https://forum.aspose.com/c/cad/19) pour interagir avec d’autres développeurs et demander de l’aide.

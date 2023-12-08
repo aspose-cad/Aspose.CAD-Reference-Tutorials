@@ -9,7 +9,7 @@ url: /zh/net/plt-and-watermarking/adding-watermarks-to-cad-drawings/
 ---
 ## 介绍
 
-您是否希望通过添加专业水印来增强您的 CAD 绘图？ Aspose.CAD for .NET 提供了一个强大的解决方案，可以将水印无缝集成到您的 CAD 文件中。在本分步指南中，我们将引导您完成使用 Aspose.CAD 添加水印的过程，确保您的绘图不仅传达关键信息，而且带有您独特的标记。
+您是否希望通过添加专业水印来增强您的 CAD 绘图？ Aspose.CAD for .NET 提供了一个强大的解决方案，可以将水印无缝集成到您的 CAD 文件中。在本分步指南中，我们将引导您完成使用 Aspose.CAD 添加水印的过程，确保您的绘图不仅传达关键信息，而且带有您的独特标记。
 
 ## 先决条件
 

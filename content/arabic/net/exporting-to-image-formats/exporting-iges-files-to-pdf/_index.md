@@ -117,4 +117,4 @@ cadImage.Save(MyDir + "figa2.pdf", pdfOptions);
 
 ### س5: هل تحتاج إلى مساعدة أو لديك أسئلة؟
 
- ج5: انضم إلى مجتمع Aspose.CAD على[منتدى الدعم](https://forum.aspose.com/c/cad/19) للمساعدة السريعة والمناقشات.
+ج5: انضم إلى مجتمع Aspose.CAD على[منتدى الدعم](https://forum.aspose.com/c/cad/19) للمساعدة السريعة والمناقشات.

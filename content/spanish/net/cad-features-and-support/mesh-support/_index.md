@@ -15,7 +15,7 @@ url: /es/net/cad-features-and-support/mesh-support/
 
 Antes de sumergirse en el tutorial de soporte de malla, asegúrese de cumplir con los siguientes requisitos previos:
 
-1. Instale Aspose.CAD para .NET: si aún no lo ha hecho, descargue e instale Aspose.CAD para .NET desde[pagina de descarga](https://releases.aspose.com/cad/net/).
+1.  Instale Aspose.CAD para .NET: si aún no lo ha hecho, descargue e instale Aspose.CAD para .NET desde[pagina de descarga](https://releases.aspose.com/cad/net/).
 
 2.  Obtenga una licencia: para utilizar Aspose.CAD en su proyecto, asegúrese de tener una licencia válida. Puedes adquirir uno de[aquí](https://purchase.aspose.com/buy) o explorar el[opción de licencia temporal](https://purchase.aspose.com/temporary-license/) por un período de prueba.
 

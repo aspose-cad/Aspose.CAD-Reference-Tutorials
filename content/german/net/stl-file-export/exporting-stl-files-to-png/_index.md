@@ -68,6 +68,6 @@ Aspose.CAD für .NET vereinfacht die komplizierte Aufgabe der Konvertierung von 
 ### F: Wo finde ich zusätzlichen Support oder Community-Diskussionen?
  Besuche den[Aspose.CAD-Forum](https://forum.aspose.com/c/cad/19) für Unterstützung und gemeinsame Diskussionen.
 ### F: Werden andere Dateiformate für die Konvertierung unterstützt?
-Ja, Aspose.CAD unterstützt verschiedene CAD-Formate über STL hinaus. Siehe die[Dokumentation](https://reference.aspose.com/cad/net/) für eine umfassende Liste.
+ Ja, Aspose.CAD unterstützt verschiedene CAD-Formate über STL hinaus. Siehe die[Dokumentation](https://reference.aspose.com/cad/net/) für eine umfassende Liste.
 ### F: Kann ich mehrere STL-Dateien stapelweise verarbeiten?
 Sicherlich! Implementieren Sie eine Schleife basierend auf den bereitgestellten Schritten, um mehrere STL-Dateien stapelweise zu verarbeiten.

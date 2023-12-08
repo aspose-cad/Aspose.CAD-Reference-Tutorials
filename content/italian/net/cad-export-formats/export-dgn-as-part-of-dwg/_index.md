@@ -116,7 +116,7 @@ Congratulazioni! Hai seguito con successo il processo di esportazione di un file
 A2: Aspose.CAD supporta la gestione di file DWG di grandi dimensioni, ma potrebbero essere applicate limitazioni hardware.
 
 ### Q3: È disponibile una versione di prova?
- R3: Sì, puoi ottenere una prova gratuita[Qui](https://releases.aspose.com/).
+R3: Sì, puoi ottenere una prova gratuita[Qui](https://releases.aspose.com/).
 
 ### Q4: Come posso ottenere licenze temporanee?
  A4: È possibile ottenere licenze temporanee[Qui](https://purchase.aspose.com/temporary-license/).

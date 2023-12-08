@@ -112,4 +112,4 @@ A4：是的，您可以获得免费试用[这里](https://releases.aspose.com/).
 
 ### Q5：我在哪里可以获得 Aspose.CAD 的支持？
 
- A5：访问[Aspose.CAD论坛](https://forum.aspose.com/c/cad/19)任何与支持相关的查询。
+A5：访问[Aspose.CAD论坛](https://forum.aspose.com/c/cad/19)任何与支持相关的查询。

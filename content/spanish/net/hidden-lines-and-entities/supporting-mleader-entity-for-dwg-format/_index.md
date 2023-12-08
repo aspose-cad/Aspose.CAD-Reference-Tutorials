@@ -113,7 +113,7 @@ R3: ¡Absolutamente! Aspose.CAD es una biblioteca sólida diseñada para desarro
 
 ### P4: ¿Dónde puedo encontrar soporte o asistencia adicional?
 
- R4: Para cualquier consulta o asistencia, visite el[Foro Aspose.CAD](https://forum.aspose.com/c/cad/19)para conectarse con la comunidad y los expertos.
+R4: Para cualquier consulta o asistencia, visite el[Foro Aspose.CAD](https://forum.aspose.com/c/cad/19)para conectarse con la comunidad y los expertos.
 
 ### P5: ¿Puedo probar Aspose.CAD antes de realizar una compra?
 

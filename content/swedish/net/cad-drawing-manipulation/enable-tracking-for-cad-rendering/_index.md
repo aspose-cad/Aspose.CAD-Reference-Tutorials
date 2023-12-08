@@ -9,7 +9,7 @@ url: /sv/net/cad-drawing-manipulation/enable-tracking-for-cad-rendering/
 ---
 ## Introduktion
 
-den dynamiska världen av mjukvaruutveckling framstår Aspose.CAD för .NET som en robust lösning för CAD-rendering (Computer Aided Design). Detta kraftfulla bibliotek ger utvecklare möjlighet att skapa, manipulera och rendera CAD-filer sömlöst i .NET-miljön. I den här handledningen kommer vi att fördjupa oss i en avgörande aspekt av Aspose.CAD för .NET – vilket möjliggör spårning för CAD-rendering.
+I den dynamiska världen av mjukvaruutveckling framstår Aspose.CAD för .NET som en robust lösning för CAD-rendering (Computer Aided Design). Detta kraftfulla bibliotek ger utvecklare möjlighet att skapa, manipulera och rendera CAD-filer sömlöst i .NET-miljön. I den här handledningen kommer vi att fördjupa oss i en avgörande aspekt av Aspose.CAD för .NET – vilket möjliggör spårning för CAD-rendering.
 
 ## Förutsättningar
 
@@ -23,7 +23,7 @@ Innan du dyker in i spårningsfunktionen, se till att du har följande förutsä
 
 ## Importera namnområden
 
-I ditt .NET-projekt, se till att importera de nödvändiga namnrymden för Aspose.CAD:
+ditt .NET-projekt, se till att importera de nödvändiga namnrymden för Aspose.CAD:
 
 ```csharp
 using System;

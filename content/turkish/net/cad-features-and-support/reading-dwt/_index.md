@@ -54,7 +54,7 @@ using (CadImage image = (CadImage)Image.Load(MyDir + "example.dwt"))
 {
 ```
 
- Kullanın`Image.Load` DWT dosyasını bir bilgisayara yükleme yöntemi`CadImage`nesne.
+ Kullanın`Image.Load`DWT dosyasını bir bilgisayara yükleme yöntemi`CadImage` nesne.
 
 ## Adım 3: Varlıklar Arasında Yineleme Yapın
 

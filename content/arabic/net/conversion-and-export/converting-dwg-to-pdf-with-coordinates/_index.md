@@ -15,7 +15,7 @@ url: /ar/net/conversion-and-export/converting-dwg-to-pdf-with-coordinates/
 
 قبل أن نبدأ، تأكد من توفر المتطلبات الأساسية التالية:
 
--  مكتبة Aspose.CAD: قم بتنزيل وتثبيت مكتبة Aspose.CAD لـ .NET. يمكنك العثور على المكتبة[هنا](https://releases.aspose.com/cad/net/).
+- مكتبة Aspose.CAD: قم بتنزيل وتثبيت مكتبة Aspose.CAD لـ .NET. يمكنك العثور على المكتبة[هنا](https://releases.aspose.com/cad/net/).
 
 - بيئة التطوير: تأكد من إعداد بيئة تطوير متوافقة، بما في ذلك Visual Studio أو أي بيئة تطوير متكاملة مفضلة أخرى.
 
@@ -133,4 +133,4 @@ Console.WriteLine("\nThe DWG file exported successfully to PDF.\nFile saved at "
 
 ### س5: أين يمكنني العثور على دعم إضافي أو مناقشات مجتمعية؟
 
- ج5: قم بزيارة[منتدى Aspose.CAD](https://forum.aspose.com/c/cad/19) لدعم المجتمع والمناقشات.
+ج5: قم بزيارة[منتدى Aspose.CAD](https://forum.aspose.com/c/cad/19) لدعم المجتمع والمناقشات.

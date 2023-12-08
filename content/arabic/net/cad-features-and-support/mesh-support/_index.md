@@ -15,7 +15,7 @@ url: /ar/net/cad-features-and-support/mesh-support/
 
 قبل الغوص في البرنامج التعليمي لدعم الشبكات، تأكد من توفر المتطلبات الأساسية التالية:
 
-1. قم بتثبيت Aspose.CAD for .NET: إذا لم تكن قد قمت بذلك بالفعل، فقم بتنزيل Aspose.CAD for .NET وتثبيته من[صفحة التحميل](https://releases.aspose.com/cad/net/).
+1.  قم بتثبيت Aspose.CAD for .NET: إذا لم تكن قد قمت بذلك بالفعل، فقم بتنزيل Aspose.CAD for .NET وتثبيته من[صفحة التحميل](https://releases.aspose.com/cad/net/).
 
 2.  الحصول على ترخيص: لاستخدام Aspose.CAD في مشروعك، تأكد من حصولك على ترخيص صالح. يمكنك الحصول على واحدة منها[هنا](https://purchase.aspose.com/buy) أو استكشاف[خيار الترخيص المؤقت](https://purchase.aspose.com/temporary-license/) لفترة تجريبية.
 

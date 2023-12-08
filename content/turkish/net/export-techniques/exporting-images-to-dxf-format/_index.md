@@ -40,7 +40,7 @@ using System.Text;
 ## 1. Adım: Her Belge için Yeni Yazı Tipi Ayarlayın
 
 ```csharp
-//Belge başına yeni yazı tipi ayarla
+// Belge başına yeni yazı tipi ayarla
 foreach (var file in new DirectoryInfo(MyDir).EnumerateFiles("conic.dxf"))
 {
     using (var cadImage = (CadImage)Image.Load(file.FullName))
@@ -112,7 +112,7 @@ Aspose.CAD for .NET, geliştiricilere CAD iş akışlarını kolaylaştıracak a
 
 ### S1: Aspose.CAD diğer CAD formatlarıyla uyumlu mudur?
 
-Cevap1: Evet, Aspose.CAD, DWG, DXF, DGN ve daha fazlası dahil olmak üzere çeşitli CAD formatlarını destekler. Bakın[dokümantasyon](https://reference.aspose.com/cad/net/) kapsamlı bir liste için.
+ Cevap1: Evet, Aspose.CAD, DWG, DXF, DGN ve daha fazlası dahil olmak üzere çeşitli CAD formatlarını destekler. Bakın[dokümantasyon](https://reference.aspose.com/cad/net/) kapsamlı bir liste için.
 
 ### S2: Bu işlemleri aynı anda birden fazla dosyaya uygulayabilir miyim?
 

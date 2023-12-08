@@ -19,7 +19,7 @@ Avant de vous plonger dans le didacticiel, assurez-vous d'avoir les éléments s
 
 - Exemple de fichier DXF : préparez un fichier DXF pour l’expérimentation. Dans ce didacticiel, nous utiliserons le fichier nommé "conic_pyramid.dxf" à titre d'illustration.
 
--  Répertoire de documents : créez un répertoire pour vos documents. Celui-ci sera référencé comme`MyDir` dans les exemples de code.
+-  Répertoire de documents : créez un répertoire pour vos documents. Celui-ci sera référencé comme`MyDir`dans les exemples de code.
 
 ## Importer des espaces de noms
 

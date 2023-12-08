@@ -19,7 +19,7 @@ Bevor Sie sich mit dem Tutorial befassen, stellen Sie sicher, dass Folgendes vor
 
 - Beispiel-DXF-Datei: Halten Sie eine DXF-Datei zum Experimentieren bereit. In diesem Tutorial verwenden wir zur Veranschaulichung die Datei mit dem Namen „conic_pyramid.dxf“.
 
--  Dokumentenverzeichnis: Richten Sie ein Verzeichnis für Ihre Dokumente ein. Dies wird als bezeichnet`MyDir` in den Codebeispielen.
+-  Dokumentenverzeichnis: Richten Sie ein Verzeichnis für Ihre Dokumente ein. Dies wird als bezeichnet`MyDir`in den Codebeispielen.
 
 ## Namespaces importieren
 

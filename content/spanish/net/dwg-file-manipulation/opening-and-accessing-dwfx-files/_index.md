@@ -45,7 +45,7 @@ Reemplace "Su directorio de documentos" con la ruta real a sus directorios de or
 using (Image cadDrawing = Image.Load(SourceDir + "Tyrannosaurus.dwfx"))
 ```
 
- Cargue el archivo DWFX usando el`Image.Load`método. Reemplace "Tyrannosaurus.dwfx" con el nombre real de su archivo DWFX.
+ Cargue el archivo DWFX usando el`Image.Load` método. Reemplace "Tyrannosaurus.dwfx" con el nombre real de su archivo DWFX.
 
 ## Paso 3: configurar las opciones de rasterización
 
@@ -99,4 +99,4 @@ R1: Aspose.CAD para .NET admite una amplia gama de formatos CAD, incluido DWFX. 
 
 ### P5: ¿Necesita ayuda o tiene más preguntas?
 
- A5: Visita el[Foro Aspose.CAD](https://forum.aspose.com/c/cad/19) para asistencia.
+A5: Visita el[Foro Aspose.CAD](https://forum.aspose.com/c/cad/19) para asistencia.

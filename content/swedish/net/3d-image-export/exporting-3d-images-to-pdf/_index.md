@@ -54,7 +54,7 @@ using (Image cadImage = Image.Load(sourceFilePath))
 CadRasterizationOptions rasterizationOptions = new CadRasterizationOptions();
 rasterizationOptions.PageWidth = 500;
 rasterizationOptions.PageHeight = 500;
-//rasterizationOptions.TypeOfEntities = TypeOfEntities.Entities3D;
+// rasterizationOptions.TypeOfEntities = TypeOfEntities.Entities3D;
 
 rasterizationOptions.Layouts = new string[] { "Model" };
 ```
@@ -93,7 +93,7 @@ A2: Absolut. Handledningen visar hur du konfigurerar sidbredd och höjd enligt d
 
 ### F3: Finns tillfälliga licenser tillgängliga för Aspose.CAD?
 
-S3: Ja, du kan få tillfälliga licenser för Aspose.CAD genom att besöka[Tillfällig licens](https://purchase.aspose.com/temporary-license/).
+ S3: Ja, du kan få tillfälliga licenser för Aspose.CAD genom att besöka[Tillfällig licens](https://purchase.aspose.com/temporary-license/).
 
 ### F4: Var kan jag hitta ytterligare stöd eller diskussioner i samhället?
 

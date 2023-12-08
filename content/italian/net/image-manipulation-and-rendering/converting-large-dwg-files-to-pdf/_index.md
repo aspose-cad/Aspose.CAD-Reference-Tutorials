@@ -109,4 +109,4 @@ A4: Sì, Aspose.CAD per .NET tiene il passo con gli aggiornamenti nei formati di
 
 ### Q5: Dove posso chiedere assistenza o condividere feedback?
 
- A5: Visita il[Forum Aspose.CAD](https://forum.aspose.com/c/cad/19) per interagire con la comunità, cercare supporto o fornire feedback.
+A5: Visita il[Forum Aspose.CAD](https://forum.aspose.com/c/cad/19) per interagire con la comunità, cercare supporto o fornire feedback.

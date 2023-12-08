@@ -15,7 +15,7 @@ CAD dosyalarını yönetmek için güçlü bir çözüm arayan bir .NET gelişti
 
 Eğiticiye dalmadan önce aşağıdaki önkoşulların mevcut olduğundan emin olun:
 
-1. Aspose.CAD Kütüphanesi: Aspose.CAD kütüphanesini şuradan indirip yükleyin:[bu bağlantı](https://releases.aspose.com/cad/net/).
+1.  Aspose.CAD Kütüphanesi: Aspose.CAD kütüphanesini şuradan indirip yükleyin:[bu bağlantı](https://releases.aspose.com/cad/net/).
 
 2. Geliştirme Ortamı: Visual Studio gibi bir C# geliştirme ortamı kurun.
 
@@ -42,7 +42,7 @@ string MyDir = "Your Document Directory";
 string inputFile = MyDir + "Line.dwg";
 using (var cadImage = (CadImage)Image.Load(inputFile))
 {
-    // Daha sonraki adımlara ilişkin kodunuz buraya gelecek
+    //Daha sonraki adımlara ilişkin kodunuz buraya gelecek
 }
 ```
 
@@ -79,4 +79,4 @@ Cevap1: Evet, Aspose.CAD, en son CAD dosya formatlarıyla uyumluluğun sağlanma
 
 ### S5: Yardıma mı ihtiyacınız var veya özel sorularınız mı var?
 
- Cevap5: Aspose.CAD topluluk forumunu ziyaret edin[Burada](https://forum.aspose.com/c/cad/19) uzman yardımı ve topluluk desteği için.
+ Cevap5: Aspose.CAD topluluk forumunu ziyaret edin[Burada](https://forum.aspose.com/c/cad/19)uzman yardımı ve topluluk desteği için.

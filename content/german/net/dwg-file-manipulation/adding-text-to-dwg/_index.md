@@ -124,4 +124,4 @@ A2: Ja, Sie können einer DWG-Datei mehrere Textelemente hinzufügen, indem Sie 
 
 ### F5: Wo kann ich Hilfe suchen oder Aspose.CAD-bezogene Fragen besprechen?
 
- A5: Besuchen Sie die[Aspose.CAD-Forum](https://forum.aspose.com/c/cad/19)um mit der Community in Kontakt zu treten und Unterstützung zu erhalten.
+A5: Besuchen Sie die[Aspose.CAD-Forum](https://forum.aspose.com/c/cad/19)um mit der Community in Kontakt zu treten und Unterstützung zu erhalten.

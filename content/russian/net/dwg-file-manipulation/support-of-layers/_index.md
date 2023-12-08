@@ -73,7 +73,7 @@ JpegOptions jpegOptions = new JpegOptions();
 jpegOptions.VectorRasterizationOptions = rasterizationOptions;
 ```
 
-## Шаг 5. Сохраните экспортированное изображение.
+## Шаг 5. Сохраните экспортированное изображение
 
 Укажите путь вывода и сохраните растровый файл DWG в формате JPEG.
 

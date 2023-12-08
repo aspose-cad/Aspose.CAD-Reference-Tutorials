@@ -113,7 +113,7 @@ A3：当然！ Aspose.CAD 是一个为 .NET 开发人员量身定制的强大库
 
 ### 问题 4：我在哪里可以找到额外的支持或帮助？
 
- A4：如有任何疑问或帮助，请访问[Aspose.CAD论坛](https://forum.aspose.com/c/cad/19)与社区和专家建立联系。
+A4：如有任何疑问或帮助，请访问[Aspose.CAD论坛](https://forum.aspose.com/c/cad/19)与社区和专家建立联系。
 
 ### Q5: 我可以在购买前试用 Aspose.CAD 吗？
 

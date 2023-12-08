@@ -124,4 +124,4 @@ R2: Sì, puoi aggiungere più entità di testo a un file DWG ripetendo il proces
 
 ### Q5: Dove posso cercare aiuto o discutere domande relative ad Aspose.CAD?
 
- A5: Visita il[Forum Aspose.CAD](https://forum.aspose.com/c/cad/19)per connettersi con la comunità e ottenere supporto.
+A5: Visita il[Forum Aspose.CAD](https://forum.aspose.com/c/cad/19)per connettersi con la comunità e ottenere supporto.

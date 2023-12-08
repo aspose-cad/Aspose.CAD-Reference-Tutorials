@@ -87,4 +87,4 @@ A1：是的，Aspose.CAD 支持 .NET Core，允许您将其功能集成到跨平
 
 ### Q5：Aspose.CAD 用户有支持社区吗？
 
-A5：是的，[Aspose.CAD论坛](https://forum.aspose.com/c/cad/19)是一个充满活力的社区，您可以在其中寻求帮助、分享知识并与其他用户联系。
+ A5：是的，[Aspose.CAD论坛](https://forum.aspose.com/c/cad/19)是一个充满活力的社区，您可以在其中寻求帮助、分享知识并与其他用户联系。

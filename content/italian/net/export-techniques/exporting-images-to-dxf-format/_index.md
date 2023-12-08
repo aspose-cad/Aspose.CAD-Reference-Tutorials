@@ -40,7 +40,7 @@ using System.Text;
 ## Passaggio 1: imposta un nuovo carattere per ciascun documento
 
 ```csharp
-//Imposta un nuovo carattere per documento
+// Imposta un nuovo carattere per documento
 foreach (var file in new DirectoryInfo(MyDir).EnumerateFiles("conic.dxf"))
 {
     using (var cadImage = (CadImage)Image.Load(file.FullName))
@@ -112,7 +112,7 @@ Aspose.CAD per .NET fornisce agli sviluppatori gli strumenti per semplificare i 
 
 ### Q1: Aspose.CAD è compatibile con altri formati CAD?
 
-A1: Sì, Aspose.CAD supporta vari formati CAD, inclusi DWG, DXF, DGN e altri. Fare riferimento al[documentazione](https://reference.aspose.com/cad/net/) per un elenco completo.
+ A1: Sì, Aspose.CAD supporta vari formati CAD, inclusi DWG, DXF, DGN e altri. Fare riferimento al[documentazione](https://reference.aspose.com/cad/net/) per un elenco completo.
 
 ### Q2: Posso applicare queste manipolazioni a più file contemporaneamente?
 

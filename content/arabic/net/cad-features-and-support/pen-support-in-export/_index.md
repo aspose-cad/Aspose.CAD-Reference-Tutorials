@@ -17,7 +17,7 @@ url: /ar/net/cad-features-and-support/pen-support-in-export/
 
 قبل أن نتعمق في البرنامج التعليمي، تأكد من توفر المتطلبات الأساسية التالية:
 
--  تم تثبيت Aspose.CAD for .NET في بيئة التطوير الخاصة بك. يمكنك تنزيله من[صفحة الإصدار](https://releases.aspose.com/cad/net/).
+- تم تثبيت Aspose.CAD for .NET في بيئة التطوير الخاصة بك. يمكنك تنزيله من[صفحة الإصدار](https://releases.aspose.com/cad/net/).
 
 - فهم أساسي لتنسيقات ملفات CAD، وخاصة DXF (تنسيق تبادل الرسم).
 

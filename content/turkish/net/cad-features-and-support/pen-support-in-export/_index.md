@@ -9,7 +9,7 @@ url: /tr/net/cad-features-and-support/pen-support-in-export/
 ---
 ## giriiş
 
-Aspose.CAD for .NET, Bilgisayar Destekli Tasarım (CAD) dosyalarıyla çalışmak için güçlü bir araç seti sağlayarak geliştiricilerin CAD görüntülerini sorunsuz bir şekilde değiştirmesine ve dışa aktarmasına olanak tanır. Dikkate değer özelliklerden biri, dışa aktarma sırasında kalem desteği olup, kullanıcıların CAD görüntülerini PDF, PNG, BMP, GIF, JPEG2000, JPEG, PSD, TIFF ve WMF gibi çeşitli formatlara dışa aktarırken kalemlerin başlangıç ve bitiş kapağı ayarlarını özelleştirmesine olanak tanır.
+Aspose.CAD for .NET, Bilgisayar Destekli Tasarım (CAD) dosyalarıyla çalışmak için güçlü bir araç seti sağlayarak geliştiricilerin CAD görüntülerini sorunsuz bir şekilde işlemesine ve dışa aktarmasına olanak tanır. Dikkate değer özelliklerden biri, dışa aktarma sırasında kalem desteği olup, kullanıcıların CAD görüntülerini PDF, PNG, BMP, GIF, JPEG2000, JPEG, PSD, TIFF ve WMF gibi çeşitli formatlara dışa aktarırken kalemlerin başlangıç ve bitiş kapağı ayarlarını özelleştirmesine olanak tanır.
 
 Bu eğitimde Aspose.CAD for .NET kullanarak dışa aktarmada kalem desteğinin ayrıntılarını inceleyeceğiz. Süreç boyunca size yol gösterecek net açıklamalar ve örnekler sunarak her adımı ayrıntılı olarak ele alacağız.
 
@@ -17,7 +17,7 @@ Bu eğitimde Aspose.CAD for .NET kullanarak dışa aktarmada kalem desteğinin a
 
 Eğiticiye dalmadan önce aşağıdaki önkoşulların yerine getirildiğinden emin olun:
 
--  Aspose.CAD for .NET, geliştirme ortamınızda kuruludur. adresinden indirebilirsiniz.[yayın sayfası](https://releases.aspose.com/cad/net/).
+- Aspose.CAD for .NET, geliştirme ortamınızda kuruludur. adresinden indirebilirsiniz.[yayın sayfası](https://releases.aspose.com/cad/net/).
 
 - CAD dosya formatları, özellikle DXF (Çizim Değişim Formatı) hakkında temel bilgi.
 
@@ -94,7 +94,7 @@ cadImage.Save(MyDir + "9LHATT-A56_generated.pdf", pdfOptions);
 
 ## Çözüm
 
-Bu eğitimde Aspose.CAD for .NET'in dışa aktarma özelliğinde kalem desteğini inceledik. Adım adım kılavuzu izleyerek kalemlerin başlangıç ve bitiş kapağı ayarlarını kolayca özelleştirerek CAD görüntü aktarımlarınızın esnekliğini artırabilirsiniz.
+Bu eğitimde Aspose.CAD for .NET'in dışa aktarma özelliğinde kalem desteğini inceledik. Adım adım kılavuzu takip ederek kalemlerin başlangıç ve bitiş kapağı ayarlarını kolayca özelleştirerek CAD görüntü aktarımlarınızın esnekliğini artırabilirsiniz.
 
 Dışa aktarılan görsellerinizde istediğiniz görsel efektleri elde etmek için farklı kalem seçeneklerini denemekten çekinmeyin.
 

@@ -117,4 +117,4 @@ C1: Evet, Aspose.CAD for .NET hem masaüstü hem de web uygulamaları için uygu
 
 ### S5: Yardıma mı ihtiyacınız var veya sorularınız mı var?
 
- Cevap5: Aspose.CAD topluluğuna katılın[destek Forumu](https://forum.aspose.com/c/cad/19) Hızlı yardım ve tartışmalar için.
+Cevap5: Aspose.CAD topluluğuna katılın[destek Forumu](https://forum.aspose.com/c/cad/19) Hızlı yardım ve tartışmalar için.

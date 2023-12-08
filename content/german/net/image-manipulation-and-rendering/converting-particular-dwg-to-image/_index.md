@@ -117,4 +117,4 @@ A2: Auf jeden Fall! Aspose.CAD bietet Flexibilität bei der Anpassung der Raster
 
 ### F5: Wie kann ich Unterstützung erhalten oder mich mit der Community in Verbindung setzen, um Hilfe zu erhalten?
 
- A5: Besuchen Sie die[Aspose.CAD-Forum](https://forum.aspose.com/c/cad/19) für Unterstützung, Diskussionen und Zusammenarbeit mit der Community.
+A5: Besuchen Sie die[Aspose.CAD-Forum](https://forum.aspose.com/c/cad/19) für Unterstützung, Diskussionen und Zusammenarbeit mit der Community.

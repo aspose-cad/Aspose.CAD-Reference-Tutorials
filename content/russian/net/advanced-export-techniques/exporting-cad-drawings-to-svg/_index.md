@@ -21,7 +21,7 @@ url: /ru/net/advanced-export-techniques/exporting-cad-drawings-to-svg/
 
 ## Импортировать пространства имен
 
-Для начала импортируйте необходимые пространства имен в свой проект:
+Для начала импортируйте необходимые пространства имен в ваш проект:
 
 ```csharp
 using Aspose.CAD.ImageOptions;

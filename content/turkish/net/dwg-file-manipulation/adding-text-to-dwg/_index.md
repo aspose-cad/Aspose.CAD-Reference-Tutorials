@@ -124,4 +124,4 @@ Cevap2: Evet, eğitimde özetlenen işlemi tekrarlayarak bir DWG dosyasına bird
 
 ### S5: Nereden yardım isteyebilirim veya Aspose.CAD ile ilgili soruları tartışabilirim?
 
- A5: ziyaret edin[Aspose.CAD forumu](https://forum.aspose.com/c/cad/19)toplulukla bağlantı kurmak ve destek almak için.
+A5: ziyaret edin[Aspose.CAD forumu](https://forum.aspose.com/c/cad/19)toplulukla bağlantı kurmak ve destek almak için.

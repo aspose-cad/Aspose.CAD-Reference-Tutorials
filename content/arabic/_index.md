@@ -43,3 +43,26 @@ is_root: true
 - [تصدير ملف STL](./net/stl-file-export/)
 
 
+## Aspose.CAD لدروس جافا
+{{% alert color="primary" %}}
+انطلق في رحلة لتحسين كفاءتك في تطوير التصميم بمساعدة الكمبيوتر (CAD) باستخدام Aspose.CAD لـ Java. انغمس في مجموعة من البرامج التعليمية الشاملة التي تتعمق في مجالات تحويل الرسم والتعليقات التوضيحية النصية ومعالجة الملفات والميزات المتقدمة والترخيص وما بعده. سواء كنت مبتدئًا أو مطورًا متمرسًا، فقد تم تصميم أدلتنا خطوة بخطوة المصممة بدقة لتمكينك. اكتشف الفروق الدقيقة في تعقيدات التصميم بمساعدة الكمبيوتر (CAD) دون عناء، مما يتيح لك إطلاق العنان للإمكانات الكاملة لمهاراتك وتحقيق مستوى جديد من الدقة والكفاءة لمشاريعك.
+{{% /alert %}}
+
+وهذه روابط لبعض الموارد المفيدة:
+ 
+- [تحويل رسم CAD](./java/cad-drawing-conversion/)
+- [نص CAD والتعليق التوضيحي](./java/cad-text-and-annotation/)
+- [خيارات تصدير CAD إلى PDF وSVG](./java/cad-to-pdf-and-svg-export-options/)
+- [معالجة ملف CAD](./java/cad-file-manipulation/)
+- [ميزات CAD المتقدمة](./java/advanced-cad-features/)
+- [الترخيص والتكوين](./java/licensing-and-configuration/)
+- [عمليات ملف DWG](./java/dwg-file-operations/)
+- [البيانات الوصفية والعرض CAD](./java/cad-meta-data-and-rendering/)
+- [نص وتنسيق CAD](./java/cad-text-and-formatting/)
+- [ميزات إضافية](./java/additional-features/)
+- [خيارات التصدير CAD](./java/cad-export-options/)
+- [خيارات التصدير DGN](./java/dgn-export-options/)
+- [عمليات CAD الأخرى](./java/other-cad-operations/)
+
+
+

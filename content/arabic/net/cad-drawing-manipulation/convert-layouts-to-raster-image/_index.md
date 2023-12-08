@@ -44,7 +44,7 @@ using Aspose.CAD;
 string sourceFilePath = MyDir + "conic_pyramid.dxf";
 using (Image image = Image.Load(sourceFilePath))
 {
-    // سيتم وضع الرمز الخاص بك لمزيد من الخطوات هنا
+    //سيتم وضع الرمز الخاص بك لمزيد من الخطوات هنا
 }
 ```
 
@@ -61,7 +61,7 @@ rasterizationOptions.Layouts = new string[] { "Model", "Layout1" };
 
 ## الخطوة 3: إعداد TiffOptions للصورة الناتجة
 
- إنشاء مثيل ل`TiffOptions` لتحديد تنسيق الصورة الناتجة.
+ إنشاء مثيل ل`TiffOptions`لتحديد تنسيق الصورة الناتجة.
 
 ```csharp
 ImageOptionsBase options = new TiffOptions(TiffExpectedFormat.Default);
@@ -83,13 +83,13 @@ image.Save(outputFilePath, options);
 
 ## الأسئلة الشائعة
 
-### س1: هل Aspose.CAD متوافق مع كافة تنسيقات CAD؟
+### س1: هل Aspose.CAD متوافق مع جميع تنسيقات CAD؟
 
  A1: يدعم Aspose.CAD نطاقًا واسعًا من تنسيقات CAD، بما في ذلك DWG وDXF وDWF وSTL والمزيد. افحص ال[توثيق](https://reference.aspose.com/cad/net/) للحصول على قائمة شاملة.
 
 ### س2: كيف يمكنني الحصول على ترخيص مؤقت لـ Aspose.CAD؟
 
- ج2: قم بزيارة[صفحة الترخيص المؤقتة](https://purchase.aspose.com/temporary-license/)للحصول على ترخيص مؤقت لأغراض الاختبار والتقييم.
+ ج2: قم بزيارة[صفحة الترخيص المؤقتة](https://purchase.aspose.com/temporary-license/) للحصول على ترخيص مؤقت لأغراض الاختبار والتقييم.
 
 ### س3: أين يمكنني العثور على الدعم لـ Aspose.CAD؟
 

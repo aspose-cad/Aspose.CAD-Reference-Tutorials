@@ -83,12 +83,12 @@ A1: Kesinlikle! Aspose.CAD, karmaşık CAD görevlerini basitleştirerek farklı
 
 ### S3: Aspose.CAD için ücretsiz deneme sürümü mevcut mu?
 
- A3: Evet, ücretsiz deneme sürümünden yararlanabilirsiniz[Burada](https://releases.aspose.com/).
+A3: Evet, ücretsiz deneme sürümünden yararlanabilirsiniz[Burada](https://releases.aspose.com/).
 
 ### S4: Aspose.CAD için nasıl geçici lisans alabilirim?
 
- Cevap4: Geçici lisanslar alın[Burada](https://purchase.aspose.com/temporary-license/).
+ Cevap4: Geçici lisanslar edinin[Burada](https://purchase.aspose.com/temporary-license/).
 
 ### S5: Yardıma mı ihtiyacınız var veya sorularınız mı var?
 
- A5: ziyaret edin[Aspose.CAD forumu](https://forum.aspose.com/c/cad/19) topluluk desteği için.
+A5: ziyaret edin[Aspose.CAD forumu](https://forum.aspose.com/c/cad/19) topluluk desteği için.

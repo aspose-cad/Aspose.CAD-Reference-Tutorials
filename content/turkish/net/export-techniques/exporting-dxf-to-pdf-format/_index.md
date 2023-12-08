@@ -15,7 +15,7 @@ Aspose.CAD for .NET kullanarak DXF dosyalarını PDF formatına aktarmaya ilişk
 
 Eğiticiye dalmadan önce aşağıdaki önkoşulların yerine getirildiğinden emin olun:
 
-- Aspose.CAD for .NET Library: Aspose.CAD kütüphanesinin .NET projenize entegre olduğundan emin olun. Değilse, adresinden indirebilirsiniz.[İnternet sitesi](https://releases.aspose.com/cad/net/).
+-  Aspose.CAD for .NET Library: Aspose.CAD kütüphanesinin .NET projenize entegre olduğundan emin olun. Değilse, adresinden indirebilirsiniz.[İnternet sitesi](https://releases.aspose.com/cad/net/).
 
 - DXF Dosyası: PDF'ye aktarmak istediğiniz bir DXF dosyası hazırlayın. Eğer elinizde yoksa eğitimde verilen "conic_pyramid.dxf" dosyasını kullanabilirsiniz.
 
@@ -104,7 +104,7 @@ Cevap1: Evet, Aspose.CAD for .NET çok çeşitli DXF dosyalarını destekler ve 
 
 ### S4: Aspose.CAD for .NET desteğini nasıl alabilirim?
 
- A4: Sorularınız veya yardım için şu adresi ziyaret edin:[Aspose.CAD Forumu](https://forum.aspose.com/c/cad/19).
+A4: Sorularınız veya yardım için şu adresi ziyaret edin:[Aspose.CAD Forumu](https://forum.aspose.com/c/cad/19).
 
 ### S5: Geçici bir lisans satın alabilir miyim?
 

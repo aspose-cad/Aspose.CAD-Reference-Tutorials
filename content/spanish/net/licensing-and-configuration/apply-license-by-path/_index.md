@@ -79,7 +79,7 @@ Si sigue estos pasos, habrá aplicado correctamente la licencia, desbloqueando t
 
 ### P3: ¿Hay una prueba gratuita disponible de Aspose.CAD para .NET?
 
- R3: Sí, puedes obtener una prueba gratuita[aquí](https://releases.aspose.com/).
+R3: Sí, puedes obtener una prueba gratuita[aquí](https://releases.aspose.com/).
 
 ### P:4 ¿Dónde puedo obtener una licencia temporal de Aspose.CAD para .NET?
 

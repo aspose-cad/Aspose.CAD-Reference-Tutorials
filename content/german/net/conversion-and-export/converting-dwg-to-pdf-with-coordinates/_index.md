@@ -9,13 +9,13 @@ url: /de/net/conversion-and-export/converting-dwg-to-pdf-with-coordinates/
 ---
 ## Einführung
 
-Willkommen zu diesem umfassenden Tutorial zum Konvertieren von DWG-Dateien in PDF mit angegebenen Koordinaten mithilfe von Aspose.CAD für .NET. Aspose.CAD ist eine leistungsstarke Bibliothek, die es Entwicklern ermöglicht, nahtlos mit CAD-Dateiformaten in ihren .NET-Anwendungen zu arbeiten. In diesem Tutorial führen wir Sie durch den Prozess der Konvertierung einer DWG-Datei in eine PDF-Datei und geben dabei bestimmte Koordinaten an, um die Präzision zu erhöhen.
+Willkommen zu diesem umfassenden Tutorial zum Konvertieren von DWG-Dateien in PDF mit angegebenen Koordinaten mithilfe von Aspose.CAD für .NET. Aspose.CAD ist eine leistungsstarke Bibliothek, die es Entwicklern ermöglicht, nahtlos mit CAD-Dateiformaten in ihren .NET-Anwendungen zu arbeiten. In diesem Tutorial führen wir Sie durch den Prozess der Konvertierung einer DWG-Datei in eine PDF-Datei und geben dabei bestimmte Koordinaten an, um die Präzision zu verbessern.
 
 ## Voraussetzungen
 
 Bevor wir beginnen, stellen Sie sicher, dass Sie die folgenden Voraussetzungen erfüllen:
 
--  Aspose.CAD-Bibliothek: Laden Sie die Aspose.CAD-Bibliothek für .NET herunter und installieren Sie sie. Sie finden die Bibliothek[Hier](https://releases.aspose.com/cad/net/).
+- Aspose.CAD-Bibliothek: Laden Sie die Aspose.CAD-Bibliothek für .NET herunter und installieren Sie sie. Sie finden die Bibliothek[Hier](https://releases.aspose.com/cad/net/).
 
 - Entwicklungsumgebung: Stellen Sie sicher, dass Sie eine kompatible Entwicklungsumgebung eingerichtet haben, einschließlich Visual Studio oder einer anderen bevorzugten IDE.
 
@@ -133,4 +133,4 @@ A4: Auf jeden Fall! Entdecken Sie die umfangreichen Möglichkeiten von Aspose.CA
 
 ### F5: Wo finde ich zusätzlichen Support oder Community-Diskussionen?
 
- A5: Besuchen Sie die[Aspose.CAD-Forum](https://forum.aspose.com/c/cad/19) für Community-Unterstützung und Diskussionen.
+A5: Besuchen Sie die[Aspose.CAD-Forum](https://forum.aspose.com/c/cad/19) für Community-Unterstützung und Diskussionen.

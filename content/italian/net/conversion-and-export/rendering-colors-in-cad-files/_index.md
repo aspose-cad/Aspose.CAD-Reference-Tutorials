@@ -15,7 +15,7 @@ Sei alle prese con la sfida del rendering dei colori nei file CAD utilizzando .N
 
 Prima di immergerci nel tutorial, assicurati di disporre dei seguenti prerequisiti:
 
-- Libreria Aspose.CAD: scarica e installa la libreria Aspose.CAD da[Qui](https://releases.aspose.com/cad/net/).
+-  Libreria Aspose.CAD: scarica e installa la libreria Aspose.CAD da[Qui](https://releases.aspose.com/cad/net/).
 
 - Ambiente di sviluppo: assicurati di avere un ambiente di sviluppo .NET configurato.
 
@@ -91,7 +91,7 @@ Congratulazioni! Hai eseguito con successo il rendering dei colori nei file CAD 
 
 ### Q1: Posso utilizzare Aspose.CAD gratuitamente?
 
- A1: Aspose.CAD offre una versione di prova gratuita disponibile[Qui](https://releases.aspose.com/). Puoi esplorare le sue funzionalità prima di effettuare un acquisto.
+ A1: Aspose.CAD offre una versione di prova gratuita disponibile[Qui](https://releases.aspose.com/)Puoi esplorare le sue funzionalità prima di effettuare un acquisto.
 
 ### Q2: Dove posso trovare la documentazione dettagliata per Aspose.CAD?
 
@@ -99,7 +99,7 @@ Congratulazioni! Hai eseguito con successo il rendering dei colori nei file CAD 
 
 ### Q3: Come posso ottenere una licenza temporanea per Aspose.CAD?
 
- A3: Ottieni una licenza temporanea[Qui](https://purchase.aspose.com/temporary-license/) scopo di test.
+ A3: Ottieni una licenza temporanea[Qui](https://purchase.aspose.com/temporary-license/) a scopo di test.
 
 ### Q4: Hai bisogno di aiuto o hai domande?
 

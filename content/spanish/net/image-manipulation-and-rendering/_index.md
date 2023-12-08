@@ -13,7 +13,7 @@ url: /es/net/image-manipulation-and-rendering/
 Libere el potencial de los archivos CAD y mejore sus capacidades de diseño con Aspose.CAD para .NET. En esta serie de tutoriales de renderizado y manipulación de imágenes, lo guiamos a través de varias técnicas esenciales para mejorar sus procesos CAD.
 
  ## Obtener atributos de bloque de archivos DWG 
-Aprenda cómo desbloquear todo el potencial de los archivos CAD usando Aspose.CAD para .NET. Nuestro tutorial sobre cómo extraer atributos de bloques sin esfuerzo le permitirá aprovechar la riqueza de los archivos DWG.
+Aprenda cómo desbloquear todo el potencial de los archivos CAD usando Aspose.CAD para .NET. Nuestro tutorial sobre cómo extraer atributos de bloques sin esfuerzo le permite aprovechar la riqueza de los archivos DWG.
 
  ## Importación de imágenes a archivos DWG con C# 
 Sumérgete en el mundo de la integración de imágenes con archivos DWG usando C# y Aspose.CAD para .NET. Nuestra guía paso a paso garantiza un proceso perfecto y le permite mejorar sus diseños con imágenes importadas.

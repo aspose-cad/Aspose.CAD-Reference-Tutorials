@@ -83,7 +83,7 @@ R1: Assolutamente! Aspose.CAD semplifica le attività CAD complesse, rendendolo 
 
 ### Q3: È disponibile una prova gratuita per Aspose.CAD?
 
- R3: Sì, puoi ottenere una prova gratuita[Qui](https://releases.aspose.com/).
+R3: Sì, puoi ottenere una prova gratuita[Qui](https://releases.aspose.com/).
 
 ### Q4: Come posso ottenere licenze temporanee per Aspose.CAD?
 
@@ -91,4 +91,4 @@ R1: Assolutamente! Aspose.CAD semplifica le attività CAD complesse, rendendolo 
 
 ### Q5: Hai bisogno di aiuto o hai domande?
 
- A5: Visita il[Forum Aspose.CAD](https://forum.aspose.com/c/cad/19) per il sostegno della comunità.
+A5: Visita il[Forum Aspose.CAD](https://forum.aspose.com/c/cad/19) per il sostegno della comunità.

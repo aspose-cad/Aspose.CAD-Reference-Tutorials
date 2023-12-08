@@ -109,7 +109,7 @@ S1: Aspose.CAD stöder olika CAD-format, inklusive DWG, DXF, DGN och mer. Se dok
 
 ### F4: Hur köper jag Aspose.CAD för .NET?
 
- A4: Köp biblioteket[här](https://purchase.aspose.com/buy).
+A4: Köp biblioteket[här](https://purchase.aspose.com/buy).
 
 ### F5: Finns det en gratis provperiod?
 

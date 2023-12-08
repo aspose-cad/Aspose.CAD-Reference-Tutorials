@@ -44,7 +44,7 @@ Börja med att ladda CAD-dokumentet med Aspose.CAD-biblioteket.
 string sourceFilePath = MyDir + "conic_pyramid.dxf";
 using (Image image = Image.Load(sourceFilePath))
 {
-    // Din kod för ytterligare steg kommer här
+    //Din kod för ytterligare steg kommer här
 }
 ```
 
@@ -61,7 +61,7 @@ rasterizationOptions.Layouts = new string[] { "Model", "Layout1" };
 
 ## Steg 3: Ställ in TiffOptions för den resulterande bilden
 
- Skapa en instans av`TiffOptions` för att definiera formatet för den resulterande bilden.
+ Skapa en instans av`TiffOptions`för att definiera formatet för den resulterande bilden.
 
 ```csharp
 ImageOptionsBase options = new TiffOptions(TiffExpectedFormat.Default);
@@ -89,7 +89,7 @@ Grattis! Du har framgångsrikt konverterat CAD-layouter till ett rasterbildsform
 
 ### F2: Hur kan jag få en tillfällig licens för Aspose.CAD?
 
- A2: Besök[sida för tillfällig licens](https://purchase.aspose.com/temporary-license/)att förvärva en tillfällig licens för test- och utvärderingsändamål.
+ A2: Besök[sida för tillfällig licens](https://purchase.aspose.com/temporary-license/) att förvärva en tillfällig licens för test- och utvärderingsändamål.
 
 ### F3: Var kan jag hitta support för Aspose.CAD?
 

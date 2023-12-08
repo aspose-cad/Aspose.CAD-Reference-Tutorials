@@ -74,7 +74,7 @@ options.VectorRasterizationOptions = rasterizationOptions;
 
 Cette étape implique de configurer les options de l'image résultante, en spécifiant les options de rastérisation précédemment définies.
 
-## Étape 5 : Enregistrer l'image résultante
+## Étape 5 : Enregistrer l'image résultante
 
 ```csharp
 MyDir = MyDir + "conic_pyramid_raster_image_out.png";
@@ -101,7 +101,7 @@ Dans ce didacticiel, nous avons exploré le processus étape par étape de conve
 
 ### Q1 : Aspose.CAD est-il compatible avec tous les formats de fichiers CAO ?
 
- A1 : Aspose.CAD prend en charge une large gamme de formats de fichiers CAO, notamment DWG, DXF, DGN, etc. Se référer au[Documentation](https://reference.aspose.com/cad/net/) pour une liste complète.
+A1 : Aspose.CAD prend en charge une large gamme de formats de fichiers CAO, notamment DWG, DXF, DGN, etc. Se référer au[Documentation](https://reference.aspose.com/cad/net/) pour une liste complète.
 
 ### Q2 : Puis-je personnaliser les options de rastérisation pour différents projets ?
 
@@ -117,4 +117,4 @@ A2 : Oui, Aspose.CAD permet une personnalisation étendue des options de rastér
 
 ### Q5 : Des licences temporaires sont-elles disponibles pour Aspose.CAD ?
  
-A5 : Oui, les développeurs peuvent obtenir des licences temporaires pour Aspose.CAD auprès de[ce lien](https://purchase.aspose.com/temporary-license/).
+ A5 : Oui, les développeurs peuvent obtenir des licences temporaires pour Aspose.CAD auprès de[ce lien](https://purchase.aspose.com/temporary-license/).

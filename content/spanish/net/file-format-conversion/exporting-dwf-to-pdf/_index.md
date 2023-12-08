@@ -91,7 +91,7 @@ En este tutorial, exploramos el proceso de exportar archivos DWF a PDF usando As
 
 ## Preguntas frecuentes
 
-### P1: ¿Puedo usar Aspose.CAD para .NET con otros formatos de archivos CAD?
+### P1: ¿Puedo utilizar Aspose.CAD para .NET con otros formatos de archivos CAD?
 
 R1: Sí, Aspose.CAD admite varios formatos de archivos CAD, incluidos DWG, DXF, DWF y más. Consulte la documentación para obtener una lista completa.
 

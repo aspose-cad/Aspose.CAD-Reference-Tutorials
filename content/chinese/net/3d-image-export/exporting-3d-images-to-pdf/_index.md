@@ -54,7 +54,7 @@ using (Image cadImage = Image.Load(sourceFilePath))
 CadRasterizationOptions rasterizationOptions = new CadRasterizationOptions();
 rasterizationOptions.PageWidth = 500;
 rasterizationOptions.PageHeight = 500;
-//rasterizationOptions.TypeOfEntities = TypeOfEntities.Entities3D;
+// rasterizationOptions.TypeOfEntities = TypeOfEntities.Entities3D;
 
 rasterizationOptions.Layouts = new string[] { "Model" };
 ```
@@ -93,11 +93,11 @@ A2：当然。本教程演示如何根据您的要求配置页面宽度和高度
 
 ### 问题 3：Aspose.CAD 是否提供临时许可证？
 
-A3：是的，您可以通过访问获取 Aspose.CAD 的临时许可证[临时牌照](https://purchase.aspose.com/temporary-license/).
+ A3：是的，您可以通过访问获取 Aspose.CAD 的临时许可证[临时牌照](https://purchase.aspose.com/temporary-license/).
 
 ### 问题 4：我在哪里可以找到其他支持或社区讨论？
 
- A4：前往[Aspose.CAD论坛](https://forum.aspose.com/c/cad/19)以寻求社区的支持和参与。
+A4：前往[Aspose.CAD论坛](https://forum.aspose.com/c/cad/19)以寻求社区的支持和参与。
 
 ### Q5：Aspose.CAD 有免费试用版吗？
 

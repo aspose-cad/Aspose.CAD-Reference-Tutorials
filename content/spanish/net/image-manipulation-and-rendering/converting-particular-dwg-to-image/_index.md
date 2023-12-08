@@ -117,4 +117,4 @@ R2: ¡Absolutamente! Aspose.CAD brinda flexibilidad para ajustar las opciones de
 
 ### P5: ¿Cómo puedo obtener soporte o conectarme con la comunidad para obtener ayuda?
 
- A5: Visita el[Foro Aspose.CAD](https://forum.aspose.com/c/cad/19) para apoyo, debates y colaboración con la comunidad.
+A5: Visita el[Foro Aspose.CAD](https://forum.aspose.com/c/cad/19) para apoyo, debates y colaboración con la comunidad.

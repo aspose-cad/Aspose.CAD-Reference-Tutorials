@@ -17,7 +17,7 @@ url: /ar/net/advanced-export-techniques/exporting-ole-objects-from-dwg/
 
 -  Aspose.CAD لـ .NET Library: تأكد من تثبيت المكتبة. يمكنك تنزيله من[صفحة تنزيل Aspose.CAD لـ .NET](https://releases.aspose.com/cad/net/).
 
--  دليل المستندات: قم بإعداد دليل حيث يتم تخزين ملفات DWG الخاصة بك. يستبدل`"Your Document Directory"`في مقتطف الشفرة المقدم بالمسار الفعلي.
+-  دليل المستندات: قم بإعداد دليل حيث يتم تخزين ملفات DWG الخاصة بك. يستبدل`"Your Document Directory"` في مقتطف الشفرة المقدم بالمسار الفعلي.
 
 ## استيراد مساحات الأسماء
 

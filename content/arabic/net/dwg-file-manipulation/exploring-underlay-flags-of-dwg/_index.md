@@ -109,7 +109,7 @@ A1: يدعم Aspose.CAD تنسيقات CAD المتنوعة، بما في ذلك
 
 ### س4: كيف يمكنني شراء Aspose.CAD لـ .NET؟
 
- ج4: شراء المكتبة[هنا](https://purchase.aspose.com/buy).
+ج4: شراء المكتبة[هنا](https://purchase.aspose.com/buy).
 
 ### س5: هل هناك نسخة تجريبية مجانية متاحة؟
 

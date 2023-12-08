@@ -79,7 +79,7 @@ Tebrikler! Aspose.CAD for .NET'te lisansı yola göre uygulama sanatında ustala
 
 ### S3: Aspose.CAD for .NET'in ücretsiz deneme sürümü mevcut mu?
 
- A3: Evet, ücretsiz deneme sürümünden yararlanabilirsiniz[Burada](https://releases.aspose.com/).
+A3: Evet, ücretsiz deneme sürümünden yararlanabilirsiniz[Burada](https://releases.aspose.com/).
 
 ### S:4 Aspose.CAD for .NET için nereden geçici lisans alabilirim?
 

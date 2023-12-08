@@ -45,7 +45,7 @@ string MyDir = "Your Document Directory";
 string sourceFilePath = MyDir + "Bottom_plate.dwg";
 using (CadImage cadImage = (CadImage)Image.Load(sourceFilePath))
 {
-    //الكود الخاص بك لتحميل ملف DWG موجود هنا.
+    // الكود الخاص بك لتحميل ملف DWG موجود هنا.
 }
 ```
 
@@ -55,7 +55,7 @@ using (CadImage cadImage = (CadImage)Image.Load(sourceFilePath))
 CadRasterizationOptions rasterizationOptions = new CadRasterizationOptions();
 rasterizationOptions.Layouts = new string[] { "Model" };
 rasterizationOptions.NoScaling = true;
-// يمكن إضافة تكوينات تنقيط إضافية هنا.
+//يمكن إضافة تكوينات تنقيط إضافية هنا.
 ```
 
 ## الخطوة 3: تحديد المنطقة المراد رسمها
@@ -129,4 +129,4 @@ cadImage.Save(MyDir, pdfOptions);
 
 ### س5: أين يمكنني العثور على دعم إضافي؟
 
- ج5: قم بزيارة[منتدى Aspose.CAD](https://forum.aspose.com/c/cad/19) لدعم المجتمع والمناقشات.
+ج5: قم بزيارة[منتدى Aspose.CAD](https://forum.aspose.com/c/cad/19) لدعم المجتمع والمناقشات.

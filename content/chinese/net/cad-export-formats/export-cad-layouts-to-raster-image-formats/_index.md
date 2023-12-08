@@ -15,7 +15,7 @@ url: /zh/net/cad-export-formats/export-cad-layouts-to-raster-image-formats/
 
 在深入学习本教程之前，请确保您具备以下条件：
 
--  Aspose.CAD for .NET 库：确保您已安装 Aspose.CAD 库。如果没有，您可以从以下位置下载[Aspose.CAD 网站](https://releases.aspose.com/cad/net/).
+- Aspose.CAD for .NET 库：确保您已安装 Aspose.CAD 库。如果没有，您可以从以下位置下载[Aspose.CAD 网站](https://releases.aspose.com/cad/net/).
 
 - CAD 绘图文件：准备要转换为光栅图像格式的 CAD 绘图文件（例如 conic_pyramid.dxf）。
 
@@ -99,7 +99,7 @@ ConvertAllLayersToRasterImageFormats();
 
 ### Q2：有试用版吗？
 
- A2：是的，您可以通过下载试用版来探索Aspose.CAD的功能[这里](https://releases.aspose.com/).
+A2：是的，您可以通过下载试用版来探索Aspose.CAD的功能[这里](https://releases.aspose.com/).
 
 ### Q3：如何获得 Aspose.CAD 的支持？
 

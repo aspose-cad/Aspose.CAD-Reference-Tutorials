@@ -150,7 +150,7 @@ En este tutorial, hemos recorrido el proceso de trabajar con archivos DWG en C# 
 
 ### P2: ¿Puedo utilizar Aspose.CAD para proyectos comerciales y personales?
 
-R2: Sí, Aspose.CAD ofrece opciones de licencia flexibles para uso comercial y personal. Visita el[pagina de compra](https://purchase.aspose.com/buy) para más detalles.
+ R2: Sí, Aspose.CAD ofrece opciones de licencia flexibles para uso comercial y personal. Visita el[pagina de compra](https://purchase.aspose.com/buy) para más detalles.
 
 ### P3: ¿Cómo puedo obtener una licencia temporal para Aspose.CAD?
 
@@ -158,7 +158,7 @@ R2: Sí, Aspose.CAD ofrece opciones de licencia flexibles para uso comercial y p
 
 ### P4: ¿Dónde puedo encontrar soporte para Aspose.CAD?
 
- R4: Para cualquier consulta o asistencia, visite el[Foro Aspose.CAD](https://forum.aspose.com/c/cad/19).
+R4: Para cualquier consulta o asistencia, visite el[Foro Aspose.CAD](https://forum.aspose.com/c/cad/19).
 
 ### P5: ¿Hay una prueba gratuita disponible para Aspose.CAD?
 

@@ -27,7 +27,7 @@ Inizia integrando Aspose.CAD per .NET nel tuo flusso di lavoro. Il nostro tutori
 
 ### Navigare nel layout CAD
 
-Comprendi le complessità del tuo layout CAD. Aspose.CAD per .NET ti consente di gestire progetti complessi senza sforzo. Naviga tra livelli, oggetti e annotazioni con precisione, gettando le basi per una conversione impeccabile.
+Comprendi le complessità del tuo layout CAD. Aspose.CAD per .NET ti consente di gestire progetti complessi senza sforzo. Naviga tra livelli, oggetti e annotazioni con precisione, ponendo le basi per una conversione impeccabile.
 
 ### Conversione senza sforzo
 

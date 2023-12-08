@@ -95,7 +95,7 @@ cadImage.Save(outFile, pdfOptions);
 
 ## 结论
 
-恭喜！您已使用 Aspose.CAD for .NET 成功将特定 DWG 文件转换为图像。本教程让您了解该库的强大功能，使开发人员能够在其应用程序中高效地使用 CAD 文件。
+恭喜！您已使用 Aspose.CAD for .NET 成功将特定 DWG 文件转换为图像。本教程让您一睹该库的强大功能，使开发人员能够在其应用程序中高效地使用 CAD 文件。
 
 ## 常见问题解答
 
@@ -117,4 +117,4 @@ A2：当然！ Aspose.CAD 提供了调整光栅化选项的灵活性，以满足
 
 ### Q5：我如何获得支持或联系社区寻求帮助？
 
- A5：访问[Aspose.CAD论坛](https://forum.aspose.com/c/cad/19)寻求与社区的支持、讨论和协作。
+A5：访问[Aspose.CAD论坛](https://forum.aspose.com/c/cad/19)寻求与社区的支持、讨论和协作。

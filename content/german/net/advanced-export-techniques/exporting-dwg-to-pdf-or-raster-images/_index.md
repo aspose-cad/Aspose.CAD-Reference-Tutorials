@@ -114,7 +114,7 @@ Glückwunsch! Sie haben erfolgreich gelernt, wie Sie mit Aspose.CAD für .NET DW
 
 ### F4: Kann ich zu Testzwecken eine temporäre Lizenz erhalten?
 
-A4: Ja, Sie können eine temporäre Lizenz erhalten[Hier](https://purchase.aspose.com/temporary-license/).
+ A4: Ja, Sie können eine temporäre Lizenz erhalten[Hier](https://purchase.aspose.com/temporary-license/).
 
 ### F5: Wo finde ich die ausführliche Dokumentation?
 

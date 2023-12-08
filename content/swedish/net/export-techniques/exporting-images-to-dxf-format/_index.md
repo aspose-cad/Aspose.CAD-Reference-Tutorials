@@ -40,7 +40,7 @@ using System.Text;
 ## Steg 1: Ställ in nytt teckensnitt för varje dokument
 
 ```csharp
-//Ställ in nytt typsnitt per dokument
+// Ställ in nytt typsnitt per dokument
 foreach (var file in new DirectoryInfo(MyDir).EnumerateFiles("conic.dxf"))
 {
     using (var cadImage = (CadImage)Image.Load(file.FullName))
@@ -55,7 +55,7 @@ foreach (var file in new DirectoryInfo(MyDir).EnumerateFiles("conic.dxf"))
 }
 ```
 
-I det här steget anpassar vi typsnittet för varje CAD-dokument, vilket ger en touch av unikhet till dina visuella representationer.
+det här steget anpassar vi typsnittet för varje CAD-dokument, vilket ger en touch av unikhet till dina visuella representationer.
 
 ## Steg 2: Göm alla "raka" linjer
 
@@ -112,7 +112,7 @@ Aspose.CAD för .NET ger utvecklare verktygen för att effektivisera CAD-arbetsf
 
 ### F1: Är Aspose.CAD kompatibel med andra CAD-format?
 
-S1: Ja, Aspose.CAD stöder olika CAD-format, inklusive DWG, DXF, DGN och mer. Referera till[dokumentation](https://reference.aspose.com/cad/net/) för en omfattande lista.
+ S1: Ja, Aspose.CAD stöder olika CAD-format, inklusive DWG, DXF, DGN och mer. Referera till[dokumentation](https://reference.aspose.com/cad/net/) för en omfattande lista.
 
 ### F2: Kan jag tillämpa dessa manipulationer på flera filer samtidigt?
 

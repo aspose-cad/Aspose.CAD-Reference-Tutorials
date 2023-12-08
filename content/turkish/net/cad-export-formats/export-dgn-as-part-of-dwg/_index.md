@@ -116,7 +116,7 @@ Tebrikler! Aspose.CAD for .NET'i kullanarak bir DGN dosyasını DWG dosyasının
 Cevap2: Aspose.CAD büyük DWG dosyalarının işlenmesini destekler ancak donanım sınırlamaları geçerli olabilir.
 
 ### S3: Deneme sürümü mevcut mu?
- A3: Evet, ücretsiz deneme sürümünden yararlanabilirsiniz[Burada](https://releases.aspose.com/).
+A3: Evet, ücretsiz deneme sürümünden yararlanabilirsiniz[Burada](https://releases.aspose.com/).
 
 ### S4: Geçici lisansları nasıl alabilirim?
  Cevap4: Geçici lisanslar alınabilir[Burada](https://purchase.aspose.com/temporary-license/).

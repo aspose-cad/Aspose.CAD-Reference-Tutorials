@@ -13,7 +13,7 @@ I den dynamiska sfären av datorstödd design (CAD) är möjligheten att sömlö
 
 Innan vi dyker in i handledningen, se till att du har följande förutsättningar på plats:
 
-1. Aspose.CAD för .NET Library: Se till att du har Aspose.CAD-biblioteket installerat. Du kan ladda ner den[här](https://releases.aspose.com/cad/net/).
+1.  Aspose.CAD för .NET Library: Se till att du har Aspose.CAD-biblioteket installerat. Du kan ladda ner den[här](https://releases.aspose.com/cad/net/).
 
 2. Utvecklingsmiljö: Ha en fungerande .NET-utvecklingsmiljö redo.
 

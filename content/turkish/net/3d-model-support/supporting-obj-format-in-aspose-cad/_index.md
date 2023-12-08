@@ -80,7 +80,7 @@ Tebrikler! Uygulamanızda OBJ formatını desteklemek için Aspose.CAD for .NET'
 
 ### S1: Aspose.CAD diğer CAD dosya formatlarıyla uyumlu mudur?
 
- Cevap1: Evet, Aspose.CAD, DWG, DXF, DGN ve daha fazlası dahil olmak üzere çeşitli CAD formatlarını destekler. Kontrol edin[dokümantasyon](https://reference.aspose.com/cad/net/) tam bir liste için.
+ Cevap1: Evet, Aspose.CAD, DWG, DXF, DGN ve daha fazlası dahil olmak üzere çeşitli CAD formatlarını destekler. Kontrol edin[dokümantasyon](https://reference.aspose.com/cad/net/)tam bir liste için.
 
 ### S2: Satın almadan önce Aspose.CAD'i deneyebilir miyim?
 

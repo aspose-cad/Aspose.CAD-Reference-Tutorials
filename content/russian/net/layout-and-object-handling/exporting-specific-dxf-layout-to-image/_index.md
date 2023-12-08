@@ -55,7 +55,7 @@ rasterizationOptions.PageWidth = 500;
 rasterizationOptions.PageHeight = 500;
 ```
 
-## Шаг 4. Перебор слоев
+## Шаг 4: Перебор слоев
 
 Извлеките слои из изображения САПР и просмотрите их:
 

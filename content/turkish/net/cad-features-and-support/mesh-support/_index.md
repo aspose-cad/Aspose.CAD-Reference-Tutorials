@@ -15,7 +15,7 @@ Aspose.CAD for .NET'te mesh desteğinden yararlanmaya ilişkin ayrıntılı eği
 
 Mesh desteği eğitimine dalmadan önce aşağıdaki önkoşulların yerine getirildiğinden emin olun:
 
-1. Aspose.CAD for .NET'i yükleyin: Henüz yapmadıysanız, Aspose.CAD for .NET'i aşağıdaki adresten indirip yükleyin.[indirme sayfası](https://releases.aspose.com/cad/net/).
+1.  Aspose.CAD for .NET'i yükleyin: Henüz yapmadıysanız, Aspose.CAD for .NET'i aşağıdaki adresten indirip yükleyin.[indirme sayfası](https://releases.aspose.com/cad/net/).
 
 2.  Lisans Alın: Aspose.CAD'i projenizde kullanmak için geçerli bir lisansa sahip olduğunuzdan emin olun. Şu adresten bir tane edinebilirsiniz:[Burada](https://purchase.aspose.com/buy) veya keşfedin[geçici lisans seçeneği](https://purchase.aspose.com/temporary-license/) deneme süresi için.
 

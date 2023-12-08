@@ -35,7 +35,7 @@ using Aspose.CAD.FileFormats.Cad.CadTables;
 
 ## Adım 1: CAD Çizimini Yükleyin
 
- CAD çizimini bir örneğine yükleyerek başlayın.`CadImage`Belge dizininize giden doğru yolu girdiğinizden emin olun.
+ CAD çizimini bir örneğine yükleyerek başlayın.`CadImage`. Belge dizininize giden doğru yolu girdiğinizden emin olun.
 
 ```csharp
 string MyDir = "Your Document Directory";
@@ -43,7 +43,7 @@ string sourceFilePath = MyDir + "conic_pyramid.dxf";
 
 using (CadImage cadImage = (CadImage)Aspose.CAD.Image.Load(sourceFilePath))
 {
-    // Diğer işlemler için kodunuz buraya gelecek
+    //Diğer işlemler için kodunuz buraya gelecek
 }
 ```
 
@@ -95,7 +95,7 @@ Cevap1: Evet, orijinal CAD çizimini yeniden yükleyerek veya bir yedeğini alar
 
 ### S2: Değiştirebileceğim başka yazı tipi özellikleri var mı?
 
- A2: Kesinlikle, ayrıca`PrimaryFontName`Aspose.CAD for .NET, gelişmiş özelleştirme için yazı tipiyle ilgili çeşitli özelliklere erişim sağlar.
+A2: Kesinlikle, ayrıca`PrimaryFontName`Aspose.CAD for .NET, gelişmiş özelleştirme için yazı tipiyle ilgili çeşitli özelliklere erişim sağlar.
 
 ### S3: Aspose.CAD farklı CAD formatlarıyla uyumlu mudur?
 

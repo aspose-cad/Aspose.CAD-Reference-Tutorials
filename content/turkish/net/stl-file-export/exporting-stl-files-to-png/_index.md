@@ -68,6 +68,6 @@ Aspose.CAD for .NET, STL dosyalarını PNG'ye dönüştürme gibi karmaşık bir
 ### S: Ek desteği veya topluluk tartışmalarını nerede bulabilirim?
  Ziyaret edin[Aspose.CAD forumu](https://forum.aspose.com/c/cad/19) Destek ve işbirlikçi tartışmalar için.
 ### S: Dönüştürme için desteklenen başka dosya biçimleri var mı?
-Evet, Aspose.CAD, STL'nin ötesinde çeşitli CAD formatlarını destekler. Bakın[dokümantasyon](https://reference.aspose.com/cad/net/) kapsamlı bir liste için.
+ Evet, Aspose.CAD, STL'nin ötesinde çeşitli CAD formatlarını destekler. Bakın[dokümantasyon](https://reference.aspose.com/cad/net/) kapsamlı bir liste için.
 ### S: Birden fazla STL dosyasını toplu olarak işleyebilir miyim?
 Kesinlikle! Birden çok STL dosyasını toplu olarak işlemek için sağlanan adımlara dayalı bir döngü uygulayın.

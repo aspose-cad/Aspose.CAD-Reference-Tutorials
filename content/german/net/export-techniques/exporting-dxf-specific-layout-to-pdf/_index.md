@@ -44,7 +44,7 @@ string sourceFilePath = MyDir + "conic_pyramid.dxf";
 
 using (Image image = Image.Load(sourceFilePath))
 {
-    // Ihren Code für weitere Schritte finden Sie hier
+    //Ihren Code für weitere Schritte finden Sie hier
 }
 ```
 
@@ -96,11 +96,11 @@ Glückwunsch! Sie haben erfolgreich gelernt, wie Sie mit Aspose.CAD für .NET ei
 
 ### F1: Ist Aspose.CAD mit allen Versionen von DXF-Dateien kompatibel?
 
- A1: Aspose.CAD unterstützt verschiedene Versionen von DXF-Dateien. Siehe die[Dokumentation](https://reference.aspose.com/cad/net/)für die Liste der unterstützten Versionen.
+ A1: Aspose.CAD unterstützt verschiedene Versionen von DXF-Dateien. Siehe die[Dokumentation](https://reference.aspose.com/cad/net/) für die Liste der unterstützten Versionen.
 
 ### F2: Kann ich die PDF-Ausgabeeinstellungen anpassen?
 
- A2: Ja, Sie können die PDF-Ausgabeeinstellungen anpassen, indem Sie die Eigenschaften von anpassen`CadRasterizationOptions` Und`PdfOptions` nach Ihren Anforderungen.
+A2: Ja, Sie können die PDF-Ausgabeeinstellungen anpassen, indem Sie die Eigenschaften von anpassen`CadRasterizationOptions` Und`PdfOptions` nach Ihren Anforderungen.
 
 ### F3: Gibt es eine kostenlose Testversion für Aspose.CAD?
 

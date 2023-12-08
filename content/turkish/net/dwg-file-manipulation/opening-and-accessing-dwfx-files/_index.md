@@ -45,7 +45,7 @@ string OutputDir = "Your Document Directory";
 using (Image cadDrawing = Image.Load(SourceDir + "Tyrannosaurus.dwfx"))
 ```
 
- DWFX dosyasını kullanarak yükleyin.`Image.Load`yöntem. "Tyrannosaurus.dwfx" ifadesini DWFX dosyanızın gerçek adıyla değiştirin.
+ DWFX dosyasını kullanarak yükleyin.`Image.Load` yöntem. "Tyrannosaurus.dwfx" ifadesini DWFX dosyanızın gerçek adıyla değiştirin.
 
 ## 3. Adım: Rasterleştirme Seçeneklerini Yapılandırın
 
@@ -99,4 +99,4 @@ Cevap1: Aspose.CAD for .NET, DWFX dahil çok çeşitli CAD formatlarını destek
 
 ### S5: Desteğe mi ihtiyacınız var veya daha fazla sorunuz mu var?
 
- A5: ziyaret edin[Aspose.CAD forumu](https://forum.aspose.com/c/cad/19) yardım için.
+A5: ziyaret edin[Aspose.CAD forumu](https://forum.aspose.com/c/cad/19) yardım için.

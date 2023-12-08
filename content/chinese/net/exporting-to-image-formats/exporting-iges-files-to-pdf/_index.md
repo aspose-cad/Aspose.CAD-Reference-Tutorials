@@ -117,4 +117,4 @@ A1：是的，Aspose.CAD for .NET 适用于桌面和 Web 应用程序，为 CAD 
 
 ### Q5：需要帮助或有疑问吗？
 
- A5：加入 Aspose.CAD 社区[支持论坛](https://forum.aspose.com/c/cad/19)以获得及时的帮助和讨论。
+A5：加入 Aspose.CAD 社区[支持论坛](https://forum.aspose.com/c/cad/19)以获得及时的帮助和讨论。

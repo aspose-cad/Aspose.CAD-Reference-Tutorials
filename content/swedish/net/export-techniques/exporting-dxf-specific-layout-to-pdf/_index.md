@@ -44,7 +44,7 @@ string sourceFilePath = MyDir + "conic_pyramid.dxf";
 
 using (Image image = Image.Load(sourceFilePath))
 {
-    // Din kod för ytterligare steg kommer här
+    //Din kod för ytterligare steg kommer här
 }
 ```
 
@@ -96,11 +96,11 @@ Grattis! Du har framgångsrikt lärt dig hur du exporterar en DXF-fil med en spe
 
 ### F1: Är Aspose.CAD kompatibel med alla versioner av DXF-filer?
 
- S1: Aspose.CAD stöder olika versioner av DXF-filer. Referera till[dokumentation](https://reference.aspose.com/cad/net/)för listan över versioner som stöds.
+ S1: Aspose.CAD stöder olika versioner av DXF-filer. Referera till[dokumentation](https://reference.aspose.com/cad/net/) för listan över versioner som stöds.
 
 ### F2: Kan jag anpassa PDF-utdatainställningarna?
 
- S2: Ja, du kan anpassa PDF-utdatainställningar genom att justera egenskaperna för`CadRasterizationOptions` och`PdfOptions` enligt dina krav.
+S2: Ja, du kan anpassa PDF-utdatainställningar genom att justera egenskaperna för`CadRasterizationOptions` och`PdfOptions` enligt dina krav.
 
 ### F3: Finns det en gratis testversion tillgänglig för Aspose.CAD?
 

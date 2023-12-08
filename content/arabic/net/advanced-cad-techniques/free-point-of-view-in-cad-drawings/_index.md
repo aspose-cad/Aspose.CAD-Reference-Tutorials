@@ -17,7 +17,7 @@ url: /ar/net/advanced-cad-techniques/free-point-of-view-in-cad-drawings/
  تأكد من تثبيت Aspose.CAD for .NET في بيئة التطوير لديك. إذا لم يكن الأمر كذلك، يمكنك تنزيله من[موقع Aspose.CAD](https://releases.aspose.com/cad/net/).
 
 2. ملف رسم CAD
-قم بإعداد ملف رسم CAD الذي تريد معالجته. في هذا الدليل، سنستخدم ملفًا نموذجيًا باسم "conic_pyramid.dxf."
+قم بإعداد ملف رسم CAD الذي تريد معالجته. في هذا الدليل، سنستخدم ملفًا نموذجيًا باسم "conic_pyramid.dxf".
 
 3. بيئة التطوير
 تمتع بإعداد بيئة تطوير .NET عاملة باستخدام Visual Studio أو أي بيئة تطوير متكاملة (IDE) مفضلة.

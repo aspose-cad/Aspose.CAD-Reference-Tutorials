@@ -101,7 +101,7 @@ Bu eğitimde, Aspose.CAD for .NET kütüphanesini kullanarak bir CAD çizimini r
 
 ### S1: Aspose.CAD tüm CAD dosya formatlarıyla uyumlu mudur?
 
- Cevap1: Aspose.CAD, DWG, DXF, DGN ve daha fazlasını içeren çok çeşitli CAD dosya formatlarını destekler. Bakın[dokümantasyon](https://reference.aspose.com/cad/net/) kapsamlı bir liste için.
+Cevap1: Aspose.CAD, DWG, DXF, DGN ve daha fazlasını içeren çok çeşitli CAD dosya formatlarını destekler. Bakın[dokümantasyon](https://reference.aspose.com/cad/net/) kapsamlı bir liste için.
 
 ### S2: Farklı projeler için rasterleştirme seçeneklerini özelleştirebilir miyim?
 
@@ -117,4 +117,4 @@ Cevap2: Evet, Aspose.CAD, rasterleştirme seçeneklerinin kapsamlı şekilde öz
 
 ### S5: Aspose.CAD için geçici lisanslar mevcut mu?
  
-Cevap5: Evet, geliştiriciler Aspose.CAD için geçici lisansları şuradan alabilirler:[bu bağlantı](https://purchase.aspose.com/temporary-license/).
+ Cevap5: Evet, geliştiriciler Aspose.CAD için geçici lisansları şuradan alabilirler:[bu bağlantı](https://purchase.aspose.com/temporary-license/).

@@ -15,7 +15,7 @@ url: /ar/net/export-techniques/exporting-dxf-to-wmf-format/
 
 قبل الغوص في البرنامج التعليمي، تأكد من توفر المتطلبات الأساسية التالية:
 
-- Aspose.CAD لمكتبة .NET: تأكد من دمج مكتبة Aspose.CAD في مشروع .NET الخاص بك. إذا لم يكن الأمر كذلك، يمكنك تنزيله من[موقع إلكتروني](https://releases.aspose.com/cad/net/).
+-  Aspose.CAD لمكتبة .NET: تأكد من دمج مكتبة Aspose.CAD في مشروع .NET الخاص بك. إذا لم يكن الأمر كذلك، يمكنك تنزيله من[موقع إلكتروني](https://releases.aspose.com/cad/net/).
 
 - ملف DXF: قم بإعداد ملف DXF الذي تريد تصديره إلى PDF. إذا لم يكن لديك واحد، يمكنك استخدام الملف "conic_pyramid.dxf" المتوفر في البرنامج التعليمي.
 
@@ -105,7 +105,7 @@ image.Save(MyDir, pdfOptions);
 
 ### س4: كيف يمكنني الحصول على دعم Aspose.CAD لـ .NET؟
 
- ج4: لأية استفسارات أو مساعدة، قم بزيارة[منتدى Aspose.CAD](https://forum.aspose.com/c/cad/19).
+ج4: لأية استفسارات أو مساعدة، قم بزيارة[منتدى Aspose.CAD](https://forum.aspose.com/c/cad/19).
 
 ### س5: هل يمكنني شراء ترخيص مؤقت؟
 

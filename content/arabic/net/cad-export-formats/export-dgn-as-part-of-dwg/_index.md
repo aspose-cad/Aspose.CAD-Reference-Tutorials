@@ -116,7 +116,7 @@ cadImage.Save(outPath, exportOptions);
 ج2: يدعم Aspose.CAD معالجة ملفات DWG الكبيرة، ولكن قد يتم تطبيق قيود على الأجهزة.
 
 ### س3: هل هناك نسخة تجريبية متاحة؟
- ج3: نعم، يمكنك الحصول على نسخة تجريبية مجانية[هنا](https://releases.aspose.com/).
+ج3: نعم، يمكنك الحصول على نسخة تجريبية مجانية[هنا](https://releases.aspose.com/).
 
 ### س4: كيف يمكنني الحصول على تراخيص مؤقتة؟
  ج4: يمكن الحصول على تراخيص مؤقتة[هنا](https://purchase.aspose.com/temporary-license/).

@@ -88,7 +88,7 @@ Glückwunsch! Sie haben erfolgreich gelernt, wie Sie Hyperlinks in CAD-Dateien m
 
 A1: Ja, Aspose.CAD unterstützt verschiedene CAD-Formate, einschließlich DWG, DXF, DGN und mehr.
 
-### F2: Kann ich Aspose.CAD vor dem Kauf testen?
+### F2: Kann ich Aspose.CAD vor dem Kauf ausprobieren?
 
  A2: Auf jeden Fall! Sie können auf eine kostenlose Testversion zugreifen[Hier](https://releases.aspose.com/).
 

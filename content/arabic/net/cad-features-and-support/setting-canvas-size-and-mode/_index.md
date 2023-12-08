@@ -44,7 +44,7 @@ string sourceFilePath = MyDir + "conic_pyramid.dxf";
 
 using (Image image = Image.Load(sourceFilePath))
 {
-    // سيتم وضع الرمز الخاص بك لمزيد من الخطوات هنا
+    //سيتم وضع الرمز الخاص بك لمزيد من الخطوات هنا
 }
 ```
 

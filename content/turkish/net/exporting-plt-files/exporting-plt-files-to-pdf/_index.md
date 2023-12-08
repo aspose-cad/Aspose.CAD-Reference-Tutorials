@@ -13,7 +13,7 @@ Bilgisayar destekli tasarımın (CAD) dinamik alanında, PLT dosyalarını sorun
 
 Eğiticiye dalmadan önce aşağıdaki önkoşulların mevcut olduğundan emin olun:
 
-1. Aspose.CAD for .NET Library: Aspose.CAD kütüphanesinin kurulu olduğundan emin olun. İndirebilirsin[Burada](https://releases.aspose.com/cad/net/).
+1.  Aspose.CAD for .NET Library: Aspose.CAD kütüphanesinin kurulu olduğundan emin olun. İndirebilirsin[Burada](https://releases.aspose.com/cad/net/).
 
 2. Geliştirme Ortamı: Çalışan bir .NET geliştirme ortamına hazır olun.
 

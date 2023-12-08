@@ -79,7 +79,7 @@ license.SetLicense(dataDir + "Aspose.CAD.lic");
 
 ### Вопрос 3. Существует ли бесплатная пробная версия Aspose.CAD для .NET?
 
- A3: Да, вы можете получить бесплатную пробную версию.[здесь](https://releases.aspose.com/).
+A3: Да, вы можете получить бесплатную пробную версию.[здесь](https://releases.aspose.com/).
 
 ### Вопрос:4 Где я могу получить временную лицензию на Aspose.CAD for .NET?
 

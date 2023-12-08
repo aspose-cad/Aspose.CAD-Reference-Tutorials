@@ -128,4 +128,4 @@ A3: Nutzen Sie die bereitgestellten Rasterungs- und Grafikoptionen, um die PDF-A
 
 ### F5: Wo kann ich Unterstützung suchen oder Fragen stellen?
 
- A5: Besuchen Sie die[Aspose.CAD-Forum](https://forum.aspose.com/c/cad/19) für Hilfe und Diskussionen.
+A5: Besuchen Sie die[Aspose.CAD-Forum](https://forum.aspose.com/c/cad/19) für Hilfe und Diskussionen.

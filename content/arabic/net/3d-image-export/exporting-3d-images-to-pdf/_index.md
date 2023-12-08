@@ -54,7 +54,7 @@ using (Image cadImage = Image.Load(sourceFilePath))
 CadRasterizationOptions rasterizationOptions = new CadRasterizationOptions();
 rasterizationOptions.PageWidth = 500;
 rasterizationOptions.PageHeight = 500;
-//rasterizationOptions.TypeOfEntities = TypeOfEntities.Entities3D;
+// rasterizationOptions.TypeOfEntities = TypeOfEntities.Entities3D;
 
 rasterizationOptions.Layouts = new string[] { "Model" };
 ```
@@ -93,7 +93,7 @@ cadImage.Save(MyDir, pdfOptions);
 
 ### س3: هل التراخيص المؤقتة متاحة لـ Aspose.CAD؟
 
-ج3: نعم، يمكنك الحصول على تراخيص مؤقتة لـ Aspose.CAD من خلال زيارة الموقع[ترخيص مؤقت](https://purchase.aspose.com/temporary-license/).
+ ج3: نعم، يمكنك الحصول على تراخيص مؤقتة لـ Aspose.CAD من خلال زيارة الموقع[ترخيص مؤقت](https://purchase.aspose.com/temporary-license/).
 
 ### س4: أين يمكنني العثور على دعم إضافي أو مناقشات مجتمعية؟
 

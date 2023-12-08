@@ -15,7 +15,7 @@ url: /zh/net/export-techniques/exporting-dxf-to-pdf-format/
 
 在深入学习本教程之前，请确保您具备以下先决条件：
 
-- Aspose.CAD for .NET 库：确保您已将 Aspose.CAD 库集成到您的 .NET 项目中。如果没有，您可以从以下位置下载[网站](https://releases.aspose.com/cad/net/).
+-  Aspose.CAD for .NET 库：确保您已将 Aspose.CAD 库集成到您的 .NET 项目中。如果没有，您可以从以下位置下载[网站](https://releases.aspose.com/cad/net/).
 
 - DXF 文件：准备要导出为 PDF 的 DXF 文件。如果您没有，可以使用教程中提供的“conic_pyramid.dxf”文件。
 
@@ -104,7 +104,7 @@ A3：是的，您可以免费试用 Aspose.CAD for .NET。访问[这里](https:/
 
 ### 问题 4：如何获得 Aspose.CAD for .NET 支持？
 
- A4：如有任何疑问或帮助，请访问[Aspose.CAD论坛](https://forum.aspose.com/c/cad/19).
+A4：如有任何疑问或帮助，请访问[Aspose.CAD论坛](https://forum.aspose.com/c/cad/19).
 
 ### Q5：我可以购买临时许可证吗？
 

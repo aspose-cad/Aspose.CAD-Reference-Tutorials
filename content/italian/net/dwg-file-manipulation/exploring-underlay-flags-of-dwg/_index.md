@@ -109,7 +109,7 @@ A1: Aspose.CAD supporta vari formati CAD, inclusi DWG, DXF, DGN e altri. Control
 
 ### Q4: Come posso acquistare Aspose.CAD per .NET?
 
- A4: Acquista la libreria[Qui](https://purchase.aspose.com/buy).
+A4: Acquista la libreria[Qui](https://purchase.aspose.com/buy).
 
 ### Q5: È disponibile una prova gratuita?
 

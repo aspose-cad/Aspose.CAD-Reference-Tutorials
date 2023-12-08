@@ -59,7 +59,7 @@ var options = new PdfOptions();
 image.Save(MyDir + "WineBottle_Die_out.pdf", options);
 ```
 
- Guarde la imagen cargada como un archivo PDF usando el`Save` método. Proporcionar la ruta de salida y la previamente definida.`PdfOptions`objeto.
+ Guarde la imagen cargada como un archivo PDF usando el`Save` método. Proporcionar la ruta de salida y la previamente definida.`PdfOptions` objeto.
 
 ## Conclusión
 
@@ -87,4 +87,4 @@ R1: Sí, Aspose.CAD es compatible con .NET Core, lo que le permite integrar sus 
 
 ### P5: ¿Existe una comunidad de soporte para los usuarios de Aspose.CAD?
 
-R5: Sí, el[Foro Aspose.CAD](https://forum.aspose.com/c/cad/19) es una comunidad vibrante donde puedes buscar ayuda, compartir conocimientos y conectarte con otros usuarios.
+ R5: Sí, el[Foro Aspose.CAD](https://forum.aspose.com/c/cad/19) es una comunidad vibrante donde puedes buscar ayuda, compartir conocimientos y conectarte con otros usuarios.

@@ -45,7 +45,7 @@ string MyDir = "Your Document Directory";
 string sourceFilePath = MyDir + "Bottom_plate.dwg";
 using (CadImage cadImage = (CadImage)Image.Load(sourceFilePath))
 {
-    //Здесь находится ваш код для загрузки файла DWG.
+    // Здесь находится ваш код для загрузки файла DWG.
 }
 ```
 
@@ -55,7 +55,7 @@ using (CadImage cadImage = (CadImage)Image.Load(sourceFilePath))
 CadRasterizationOptions rasterizationOptions = new CadRasterizationOptions();
 rasterizationOptions.Layouts = new string[] { "Model" };
 rasterizationOptions.NoScaling = true;
-// Здесь можно добавить дополнительные конфигурации растеризации.
+//Здесь можно добавить дополнительные конфигурации растеризации.
 ```
 
 ## Шаг 3: Определите область для рисования
@@ -129,4 +129,4 @@ cadImage.Save(MyDir, pdfOptions);
 
 ### В5: Где я могу найти дополнительную поддержку?
 
- A5: Посетите[Форум Aspose.CAD](https://forum.aspose.com/c/cad/19) за поддержку сообщества и обсуждения.
+A5: Посетите[Форум Aspose.CAD](https://forum.aspose.com/c/cad/19) за поддержку сообщества и обсуждения.

@@ -80,7 +80,7 @@ CADDoc.Save(MyDir + "example-580-W_custom.pdf", CADf);
 
 ### P1: ¿Aspose.CAD es compatible con otros formatos de archivos CAD?
 
- R1: Sí, Aspose.CAD admite varios formatos CAD, incluidos DWG, DXF, DGN y más. Comprobar el[documentación](https://reference.aspose.com/cad/net/) para obtener una lista completa.
+ R1: Sí, Aspose.CAD admite varios formatos CAD, incluidos DWG, DXF, DGN y más. Comprobar el[documentación](https://reference.aspose.com/cad/net/)para obtener una lista completa.
 
 ### P2: ¿Puedo probar Aspose.CAD antes de comprarlo?
 

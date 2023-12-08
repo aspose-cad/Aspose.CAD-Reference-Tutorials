@@ -72,7 +72,7 @@ ImageOptionsBase options = new Aspose.CAD.ImageOptions.PngOptions();
 options.VectorRasterizationOptions = rasterizationOptions;
 ```
 
-Dieser Schritt umfasst die Konfiguration von Optionen für das resultierende Bild und die Angabe der zuvor definierten Rasterisierungsoptionen.
+In diesem Schritt werden Optionen für das resultierende Bild konfiguriert und die zuvor definierten Rasterisierungsoptionen angegeben.
 
 ## Schritt 5: Resultierendes Bild speichern
 
@@ -101,7 +101,7 @@ In diesem Tutorial haben wir den Schritt-für-Schritt-Prozess der Konvertierung 
 
 ### F1: Ist Aspose.CAD mit allen CAD-Dateiformaten kompatibel?
 
- A1: Aspose.CAD unterstützt eine Vielzahl von CAD-Dateiformaten, darunter DWG, DXF, DGN und mehr. Siehe die[Dokumentation](https://reference.aspose.com/cad/net/) für eine umfassende Liste.
+A1: Aspose.CAD unterstützt eine Vielzahl von CAD-Dateiformaten, darunter DWG, DXF, DGN und mehr. Siehe die[Dokumentation](https://reference.aspose.com/cad/net/) für eine umfassende Liste.
 
 ### F2: Kann ich die Rasterisierungsoptionen für verschiedene Projekte anpassen?
 
@@ -117,4 +117,4 @@ A2: Ja, Aspose.CAD ermöglicht eine umfassende Anpassung der Rasterisierungsopti
 
 ### F5: Sind temporäre Lizenzen für Aspose.CAD verfügbar?
  
-A5: Ja, Entwickler können temporäre Lizenzen für Aspose.CAD erhalten von[dieser Link](https://purchase.aspose.com/temporary-license/).
+ A5: Ja, Entwickler können temporäre Lizenzen für Aspose.CAD erhalten von[dieser Link](https://purchase.aspose.com/temporary-license/).

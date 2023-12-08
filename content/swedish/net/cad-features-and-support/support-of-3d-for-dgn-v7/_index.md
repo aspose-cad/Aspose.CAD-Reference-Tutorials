@@ -40,7 +40,7 @@ using Aspose.CAD.ImageOptions;
 
 ## Steg 1: Konfigurera din dokumentkatalog
 
- Se till att du har en dokumentkatalog inrättad i ditt projekt. Byta ut`"Your Document Directory"`med den faktiska sökvägen till din dokumentkatalog.
+ Se till att du har en dokumentkatalog inrättad i ditt projekt. Byta ut`"Your Document Directory"` med den faktiska sökvägen till din dokumentkatalog.
 
 ```csharp
 string MyDir = "Your Document Directory";
@@ -106,7 +106,7 @@ S2: Slå in din kod i ett try-catch-block, som visas i exemplet, för att hanter
 
 ### F4: Kan jag prova Aspose.CAD för .NET innan jag köper?
 
- A4: Visst! Utforska den kostnadsfria provperioden[här](https://releases.aspose.com/).
+A4: Visst! Utforska den kostnadsfria provperioden[här](https://releases.aspose.com/).
 
 ### F5: Var kan jag hitta communitysupport för Aspose.CAD för .NET?
 

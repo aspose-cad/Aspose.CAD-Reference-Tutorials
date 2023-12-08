@@ -76,7 +76,7 @@ using (FileStream stream = new FileStream(MyDir + "output_conic_pyramid.pdf", Fi
 }
 ```
 
-Tebrikler! Aspose.CAD for .NET'i kullanarak CAD dosyalarında izlemeyi başarıyla etkinleştirdiniz. Keşfetmekten çekinmeyin[dokümantasyon](https://reference.aspose.com/cad/net/) daha fazla ayrıntı için.
+ Tebrikler! Aspose.CAD for .NET'i kullanarak CAD dosyalarında izlemeyi başarıyla etkinleştirdiniz. Keşfetmekten çekinmeyin[dokümantasyon](https://reference.aspose.com/cad/net/) daha fazla ayrıntı için.
 
 ## Çözüm
 

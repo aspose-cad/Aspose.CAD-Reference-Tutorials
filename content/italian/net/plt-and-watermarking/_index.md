@@ -14,7 +14,7 @@ Hai mai avuto difficoltà a integrare perfettamente i file PLT nelle tue applica
 
 ## Comprensione del formato PLT in Aspose.CAD
 
-file PLT (Hewlett-Packard Graphics Language) svolgono un ruolo cruciale nel mondo della progettazione assistita da computer (CAD). Con Aspose.CAD per .NET, sfruttare la potenza dei file PLT diventa un gioco da ragazzi. La nostra guida passo passo ti guida attraverso il processo, eliminando le complessità e garantendo un'esperienza di integrazione fluida.
+I file PLT (Hewlett-Packard Graphics Language) svolgono un ruolo cruciale nel mondo della progettazione assistita da computer (CAD). Con Aspose.CAD per .NET, sfruttare la potenza dei file PLT diventa un gioco da ragazzi. La nostra guida passo passo ti guida attraverso il processo, eliminando le complessità e garantendo un'esperienza di integrazione fluida.
 
 ### Perché scegliere Aspose.CAD?
 

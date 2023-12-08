@@ -59,7 +59,7 @@ var options = new PdfOptions();
 image.Save(MyDir + "WineBottle_Die_out.pdf", options);
 ```
 
- Enregistrez l'image chargée sous forme de fichier PDF à l'aide du`Save` méthode. Fournir le chemin de sortie et le chemin défini précédemment`PdfOptions`objet.
+ Enregistrez l'image chargée sous forme de fichier PDF à l'aide du`Save` méthode. Fournir le chemin de sortie et le chemin défini précédemment`PdfOptions` objet.
 
 ## Conclusion
 
@@ -87,4 +87,4 @@ A1 : Oui, Aspose.CAD prend en charge .NET Core, vous permettant d'intégrer ses 
 
 ### Q5 : Existe-t-il une communauté d'assistance pour les utilisateurs d'Aspose.CAD ?
 
-A5 : Oui, le[Forum Aspose.CAD](https://forum.aspose.com/c/cad/19) est une communauté dynamique où vous pouvez demander de l'aide, partager des connaissances et vous connecter avec d'autres utilisateurs.
+ A5 : Oui, le[Forum Aspose.CAD](https://forum.aspose.com/c/cad/19) est une communauté dynamique où vous pouvez demander de l'aide, partager des connaissances et vous connecter avec d'autres utilisateurs.

@@ -128,4 +128,4 @@ A3：使用提供的光栅化和图形选项根据您的喜好定制 PDF 输出�
 
 ### Q5：我可以在哪里寻求支持或提问？
 
- A5：访问[Aspose.CAD论坛](https://forum.aspose.com/c/cad/19)寻求帮助和讨论。
+A5：访问[Aspose.CAD论坛](https://forum.aspose.com/c/cad/19)寻求帮助和讨论。

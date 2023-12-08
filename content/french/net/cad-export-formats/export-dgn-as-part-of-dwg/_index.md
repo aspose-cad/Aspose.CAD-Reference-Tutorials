@@ -116,7 +116,7 @@ Toutes nos félicitations! Vous avez suivi avec succès le processus d'exportati
 A2 : Aspose.CAD prend en charge la gestion des fichiers DWG volumineux, mais des limitations matérielles peuvent s'appliquer.
 
 ### Q3 : Existe-t-il une version d'essai disponible ?
- A3 : Oui, vous pouvez bénéficier d'un essai gratuit[ici](https://releases.aspose.com/).
+A3 : Oui, vous pouvez bénéficier d'un essai gratuit[ici](https://releases.aspose.com/).
 
 ### Q4 : Comment puis-je obtenir des licences temporaires ?
  A4 : Des licences temporaires peuvent être obtenues[ici](https://purchase.aspose.com/temporary-license/).

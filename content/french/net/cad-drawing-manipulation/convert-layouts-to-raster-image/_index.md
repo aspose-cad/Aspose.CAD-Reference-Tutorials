@@ -44,7 +44,7 @@ Commencez par charger le document CAO à l'aide de la bibliothèque Aspose.CAD.
 string sourceFilePath = MyDir + "conic_pyramid.dxf";
 using (Image image = Image.Load(sourceFilePath))
 {
-    // Votre code pour les étapes ultérieures sera ici
+    //Votre code pour les étapes ultérieures sera ici
 }
 ```
 
@@ -61,7 +61,7 @@ rasterizationOptions.Layouts = new string[] { "Model", "Layout1" };
 
 ## Étape 3 : configurer TiffOptions pour l'image résultante
 
- Créer une instance de`TiffOptions` pour définir le format de l'image résultante.
+ Créer une instance de`TiffOptions`pour définir le format de l'image résultante.
 
 ```csharp
 ImageOptionsBase options = new TiffOptions(TiffExpectedFormat.Default);
@@ -89,7 +89,7 @@ Toutes nos félicitations! Vous avez réussi à convertir les mises en page CAO 
 
 ### Q2 : Comment puis-je obtenir une licence temporaire pour Aspose.CAD ?
 
- A2 : Visitez le[page de licence temporaire](https://purchase.aspose.com/temporary-license/)d'acquérir une licence temporaire à des fins de tests et d'évaluation.
+ A2 : Visitez le[page de licence temporaire](https://purchase.aspose.com/temporary-license/) d'acquérir une licence temporaire à des fins de tests et d'évaluation.
 
 ### Q3 : Où puis-je trouver de l'assistance pour Aspose.CAD ?
 

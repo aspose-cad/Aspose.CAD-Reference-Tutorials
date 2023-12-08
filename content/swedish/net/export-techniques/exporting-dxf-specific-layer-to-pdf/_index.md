@@ -19,7 +19,7 @@ Innan du fördjupar dig i handledningen, se till att du har följande på plats:
 
 - Exempel på DXF-fil: Ha en DXF-fil redo för experiment. I den här handledningen kommer vi att använda filen med namnet "conic_pyramid.dxf" som illustration.
 
--  Dokumentkatalog: Skapa en katalog för dina dokument. Detta kommer att hänvisas till som`MyDir` i kodexemplen.
+-  Dokumentkatalog: Skapa en katalog för dina dokument. Detta kommer att hänvisas till som`MyDir` kodexemplen.
 
 ## Importera namnområden
 

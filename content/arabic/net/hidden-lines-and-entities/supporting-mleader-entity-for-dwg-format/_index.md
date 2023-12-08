@@ -113,7 +113,7 @@ CadMLeaderLine leaderLine = mleaderNode.LeaderLine;
 
 ### س4: أين يمكنني العثور على دعم أو مساعدة إضافية؟
 
- ج4: لأية استفسارات أو مساعدة، قم بزيارة[منتدى Aspose.CAD](https://forum.aspose.com/c/cad/19)للتواصل مع المجتمع والخبراء.
+ج4: لأية استفسارات أو مساعدة، قم بزيارة[منتدى Aspose.CAD](https://forum.aspose.com/c/cad/19)للتواصل مع المجتمع والخبراء.
 
 ### س5: هل يمكنني تجربة Aspose.CAD قبل إجراء عملية الشراء؟
 

@@ -78,7 +78,7 @@ using (var cadImage = (CadImage)Image.Load(inputFile))
 
 ## الأسئلة الشائعة
 
-### س 1: هل Aspose.CAD متوافق مع كافة إصدارات ملفات DWG؟
+### س1: هل Aspose.CAD متوافق مع كافة إصدارات ملفات DWG؟
 
 ج1: يدعم Aspose.CAD إصدارات مختلفة من ملفات DWG، مما يضمن التوافق مع مجموعة واسعة من برامج CAD.
 
@@ -92,7 +92,7 @@ using (var cadImage = (CadImage)Image.Load(inputFile))
 
 ### س4: أين يمكنني العثور على الدعم لـ Aspose.CAD؟
 
- ج4: لأية استفسارات أو مساعدة، قم بزيارة منتدى دعم Aspose.CAD[هنا](https://forum.aspose.com/c/cad/19).
+ج4: لأية استفسارات أو مساعدة، قم بزيارة منتدى دعم Aspose.CAD[هنا](https://forum.aspose.com/c/cad/19).
 
 ### س5: هل يوجد مصدر توثيقي تفصيلي متاح؟
 

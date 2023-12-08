@@ -92,7 +92,7 @@ Cevap1: Aspose.CAD, DWG dosyalarının çeşitli versiyonlarını destekleyerek 
 
 ### S4: Aspose.CAD desteğini nerede bulabilirim?
 
- Cevap4: Sorularınız veya yardım için Aspose.CAD destek forumunu ziyaret edin[Burada](https://forum.aspose.com/c/cad/19).
+Cevap4: Sorularınız veya yardım için Aspose.CAD destek forumunu ziyaret edin[Burada](https://forum.aspose.com/c/cad/19).
 
 ### S5: Ayrıntılı bir dokümantasyon kaynağı mevcut mu?
 

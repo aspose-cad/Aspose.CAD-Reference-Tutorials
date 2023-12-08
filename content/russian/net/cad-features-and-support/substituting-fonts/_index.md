@@ -35,7 +35,7 @@ using Aspose.CAD.FileFormats.Cad.CadTables;
 
 ## Шаг 1. Загрузите чертеж САПР
 
- Начните с загрузки чертежа САПР в экземпляр`CadImage`Убедитесь, что вы указали правильный путь к каталогу документов.
+ Начните с загрузки чертежа САПР в экземпляр`CadImage`. Убедитесь, что вы указали правильный путь к каталогу документов.
 
 ```csharp
 string MyDir = "Your Document Directory";
@@ -43,7 +43,7 @@ string sourceFilePath = MyDir + "conic_pyramid.dxf";
 
 using (CadImage cadImage = (CadImage)Aspose.CAD.Image.Load(sourceFilePath))
 {
-    // Здесь находится ваш код для дальнейших действий
+    //Здесь находится ваш код для дальнейших действий
 }
 ```
 
@@ -95,7 +95,7 @@ foreach (CadStyleTableObject style in cadImage.Styles)
 
 ### Вопрос 2. Есть ли другие свойства шрифта, которые я могу изменить?
 
- A2: Абсолютно, кроме того`PrimaryFontName`, Aspose.CAD for .NET предоставляет доступ к различным свойствам шрифтов для расширенной настройки.
+A2: Абсолютно, кроме того`PrimaryFontName`, Aspose.CAD for .NET предоставляет доступ к различным свойствам шрифтов для расширенной настройки.
 
 ### Вопрос 3: Совместим ли Aspose.CAD с различными форматами САПР?
 

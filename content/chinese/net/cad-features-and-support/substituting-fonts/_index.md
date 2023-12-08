@@ -95,7 +95,7 @@ A1：是的，您可以通过重新加载原始 CAD 绘图或保留备份来恢�
 
 ### Q2：还有其他字体属性可以修改吗？
 
- A2：当然，此外`PrimaryFontName`、Aspose.CAD for .NET 提供对各种字体相关属性的访问以进行高级定制。
+A2：当然，此外`PrimaryFontName`、Aspose.CAD for .NET 提供对各种字体相关属性的访问以进行高级定制。
 
 ### Q3：Aspose.CAD 是否兼容不同的 CAD 格式？
 

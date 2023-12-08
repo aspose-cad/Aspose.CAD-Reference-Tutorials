@@ -129,4 +129,4 @@ A2：是的，Aspose.CAD 与 .NET Framework 和 .NET Core 兼容。
 
 ### Q5：我在哪里可以找到额外的支持？
 
- A5：访问[Aspose.CAD论坛](https://forum.aspose.com/c/cad/19)以获得社区支持和讨论。
+A5：访问[Aspose.CAD论坛](https://forum.aspose.com/c/cad/19)以获得社区支持和讨论。

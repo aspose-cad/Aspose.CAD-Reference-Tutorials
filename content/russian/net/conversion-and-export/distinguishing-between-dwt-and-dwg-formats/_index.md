@@ -80,7 +80,7 @@ Assert.IsTrue(formatTypeDwg.ToString().ToLower().Contains("dwg"));
 
 ### Вопрос 2. Доступна ли пробная версия Aspose.CAD для .NET?
 
- О2: Да, вы можете изучить функции и возможности Aspose.CAD for .NET с помощью[бесплатная пробная версия](https://releases.aspose.com/).
+ О2: Да, вы можете изучить функции и возможности Aspose.CAD для .NET с помощью[бесплатная пробная версия](https://releases.aspose.com/).
 
 ### Вопрос 3: Как я могу получить поддержку Aspose.CAD для .NET?
 

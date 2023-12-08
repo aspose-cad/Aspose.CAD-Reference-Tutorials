@@ -97,7 +97,7 @@ image.Save(outputFilePath, options);
 
 ### Q4：我可以免费试用Aspose.CAD吗？
 
- A4：当然！抓住你的[免费试用](https://releases.aspose.com/)探索 Aspose.CAD 的特性和功能。
+A4：当然！抓住你的[免费试用](https://releases.aspose.com/)探索 Aspose.CAD 的特性和功能。
 
 ### Q5：在哪里可以购买 Aspose.CAD 的许可证？
 

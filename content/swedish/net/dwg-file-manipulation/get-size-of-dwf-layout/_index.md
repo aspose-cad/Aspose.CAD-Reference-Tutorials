@@ -150,7 +150,7 @@ I den här handledningen har vi gått igenom processen att arbeta med DWG-filer 
 
 ### F2: Kan jag använda Aspose.CAD för både kommersiella och personliga projekt?
 
-S2: Ja, Aspose.CAD erbjuder flexibla licensalternativ för både kommersiellt och personligt bruk. Besök[köpsidan](https://purchase.aspose.com/buy) för mer detaljer.
+ S2: Ja, Aspose.CAD erbjuder flexibla licensalternativ för både kommersiellt och personligt bruk. Besök[köpsidan](https://purchase.aspose.com/buy) för mer detaljer.
 
 ### F3: Hur kan jag få en tillfällig licens för Aspose.CAD?
 
@@ -158,7 +158,7 @@ S2: Ja, Aspose.CAD erbjuder flexibla licensalternativ för både kommersiellt oc
 
 ### F4: Var kan jag hitta support för Aspose.CAD?
 
- S4: För eventuella frågor eller hjälp, besök[Aspose.CAD-forum](https://forum.aspose.com/c/cad/19).
+S4: För eventuella frågor eller hjälp, besök[Aspose.CAD-forum](https://forum.aspose.com/c/cad/19).
 
 ### F5: Finns det en gratis testversion tillgänglig för Aspose.CAD?
 

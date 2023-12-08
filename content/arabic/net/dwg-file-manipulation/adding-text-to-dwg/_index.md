@@ -106,7 +106,7 @@ image.Save(MyDir + "SimpleEntites_generated.pdf", pdfOptions);
 
 ## الأسئلة الشائعة
 
-### س 1: هل Aspose.CAD متوافق مع كافة إصدارات ملفات DWG؟
+### س1: هل Aspose.CAD متوافق مع كافة إصدارات ملفات DWG؟
 
 ج1: يدعم Aspose.CAD نطاقًا واسعًا من إصدارات ملفات DWG، مما يضمن التوافق مع برامج CAD المتنوعة.
 
@@ -124,4 +124,4 @@ image.Save(MyDir + "SimpleEntites_generated.pdf", pdfOptions);
 
 ### س5: أين يمكنني طلب المساعدة أو مناقشة الاستعلامات المتعلقة بـ Aspose.CAD؟
 
- ج5: قم بزيارة[منتدى Aspose.CAD](https://forum.aspose.com/c/cad/19)للتواصل مع المجتمع والحصول على الدعم.
+ج5: قم بزيارة[منتدى Aspose.CAD](https://forum.aspose.com/c/cad/19)للتواصل مع المجتمع والحصول على الدعم.

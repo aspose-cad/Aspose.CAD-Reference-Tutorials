@@ -13,7 +13,7 @@ En el ámbito dinámico del diseño asistido por computadora (CAD), la capacidad
 
 Antes de sumergirnos en el tutorial, asegúrese de cumplir con los siguientes requisitos previos:
 
-1. Aspose.CAD para la biblioteca .NET: asegúrese de tener instalada la biblioteca Aspose.CAD. Puedes descargarlo[aquí](https://releases.aspose.com/cad/net/).
+1.  Aspose.CAD para la biblioteca .NET: asegúrese de tener instalada la biblioteca Aspose.CAD. Puedes descargarlo[aquí](https://releases.aspose.com/cad/net/).
 
 2. Entorno de desarrollo: Tenga listo un entorno de desarrollo .NET que funcione.
 

@@ -15,7 +15,7 @@ En el ámbito dinámico del diseño asistido por computadora (CAD), la eficienci
 
 Antes de embarcarnos en este tutorial, asegúrese de tener implementados los siguientes requisitos previos:
 
-- Aspose.CAD para .NET: asegúrese de tener la biblioteca Aspose.CAD integrada en su proyecto .NET. Puedes descargarlo[aquí](https://releases.aspose.com/cad/net/).
+-  Aspose.CAD para .NET: asegúrese de tener la biblioteca Aspose.CAD integrada en su proyecto .NET. Puedes descargarlo[aquí](https://releases.aspose.com/cad/net/).
 
 - Directorio de documentos: tenga un directorio designado donde se almacenen sus documentos CAD.
 
@@ -97,7 +97,7 @@ En este tutorial, exploramos el proceso de establecer un tiempo de espera en las
 
 ### P1: ¿Puedo personalizar la duración del tiempo de espera?
 
- R1: ¡Por supuesto! Ajuste la duración en el`Thread.Sleep` declaración para cumplir con sus requisitos específicos.
+R1: ¡Por supuesto! Ajuste la duración en el`Thread.Sleep` declaración para cumplir con sus requisitos específicos.
 
 ### P2: ¿Existen otras opciones de rasterización?
 
@@ -113,4 +113,4 @@ R4: ¡Absolutamente! Aspose.CAD admite formatos de archivos CAD 2D y 3D.
 
 ### P5: ¿Dónde puedo encontrar más ayuda o apoyo comunitario?
 
- A5: Visita el[Foro Aspose.CAD](https://forum.aspose.com/c/cad/19) para apoyo y debates de la comunidad.
+A5: Visita el[Foro Aspose.CAD](https://forum.aspose.com/c/cad/19) para apoyo y debates de la comunidad.

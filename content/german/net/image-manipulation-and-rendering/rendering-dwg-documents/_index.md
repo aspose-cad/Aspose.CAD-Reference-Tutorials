@@ -45,7 +45,7 @@ string MyDir = "Your Document Directory";
 string sourceFilePath = MyDir + "Bottom_plate.dwg";
 using (CadImage cadImage = (CadImage)Image.Load(sourceFilePath))
 {
-    //Ihr Code zum Laden der DWG-Datei finden Sie hier.
+    // Ihr Code zum Laden der DWG-Datei finden Sie hier.
 }
 ```
 
@@ -55,7 +55,7 @@ using (CadImage cadImage = (CadImage)Image.Load(sourceFilePath))
 CadRasterizationOptions rasterizationOptions = new CadRasterizationOptions();
 rasterizationOptions.Layouts = new string[] { "Model" };
 rasterizationOptions.NoScaling = true;
-// Hier können zusätzliche Rasterisierungskonfigurationen hinzugefügt werden.
+//Hier können zusätzliche Rasterisierungskonfigurationen hinzugefügt werden.
 ```
 
 ## Schritt 3: Definieren Sie den zu zeichnenden Bereich
@@ -129,4 +129,4 @@ A2: Ja, Aspose.CAD ist sowohl mit .NET Framework als auch .NET Core kompatibel.
 
 ### F5: Wo finde ich zusätzliche Unterstützung?
 
- A5: Besuchen Sie die[Aspose.CAD-Forum](https://forum.aspose.com/c/cad/19) für Community-Unterstützung und Diskussionen.
+A5: Besuchen Sie die[Aspose.CAD-Forum](https://forum.aspose.com/c/cad/19) für Community-Unterstützung und Diskussionen.

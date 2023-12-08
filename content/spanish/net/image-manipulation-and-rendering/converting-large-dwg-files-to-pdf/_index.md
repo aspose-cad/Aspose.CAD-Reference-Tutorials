@@ -109,4 +109,4 @@ R4: Sí, Aspose.CAD para .NET sigue el ritmo de las actualizaciones en los forma
 
 ### P5: ¿Dónde puedo buscar ayuda o compartir comentarios?
 
- A5: Visita el[Foro Aspose.CAD](https://forum.aspose.com/c/cad/19) para interactuar con la comunidad, buscar apoyo o proporcionar comentarios.
+A5: Visita el[Foro Aspose.CAD](https://forum.aspose.com/c/cad/19) para interactuar con la comunidad, buscar apoyo o proporcionar comentarios.

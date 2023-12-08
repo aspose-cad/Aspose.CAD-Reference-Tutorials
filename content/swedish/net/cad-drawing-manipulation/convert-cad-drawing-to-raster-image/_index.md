@@ -95,13 +95,13 @@ Visa ett framgångsmeddelande som indikerar slutförandet av konverteringsproces
 
 ## Slutsats
 
-den här handledningen utforskade vi steg-för-steg-processen att konvertera en CAD-ritning till en rasterbild med hjälp av Aspose.CAD för .NET-biblioteket. Med sina kraftfulla funktioner och enkla integration ger Aspose.CAD utvecklare möjlighet att effektivisera sina CAD-arbetsflöden utan ansträngning.
+I den här handledningen utforskade vi steg-för-steg-processen att konvertera en CAD-ritning till en rasterbild med hjälp av Aspose.CAD för .NET-biblioteket. Med sina kraftfulla funktioner och enkla integration ger Aspose.CAD utvecklare möjlighet att effektivisera sina CAD-arbetsflöden utan ansträngning.
 
 ## FAQ's
 
 ### F1: Är Aspose.CAD kompatibel med alla CAD-filformat?
 
- S1: Aspose.CAD stöder ett brett utbud av CAD-filformat, inklusive DWG, DXF, DGN och mer. Referera till[dokumentation](https://reference.aspose.com/cad/net/) för en omfattande lista.
+S1: Aspose.CAD stöder ett brett utbud av CAD-filformat, inklusive DWG, DXF, DGN och mer. Referera till[dokumentation](https://reference.aspose.com/cad/net/) för en omfattande lista.
 
 ### F2: Kan jag anpassa rasteriseringsalternativen för olika projekt?
 
@@ -117,4 +117,4 @@ S2: Ja, Aspose.CAD tillåter omfattande anpassning av rasteriseringsalternativ, 
 
 ### F5: Finns tillfälliga licenser tillgängliga för Aspose.CAD?
  
-S5: Ja, utvecklare kan få tillfälliga licenser för Aspose.CAD från[den här länken](https://purchase.aspose.com/temporary-license/).
+ S5: Ja, utvecklare kan få tillfälliga licenser för Aspose.CAD från[den här länken](https://purchase.aspose.com/temporary-license/).

@@ -59,7 +59,7 @@ var options = new PdfOptions();
 image.Save(MyDir + "WineBottle_Die_out.pdf", options);
 ```
 
- Yüklenen görüntüyü PDF dosyası olarak kaydedin.`Save` yöntem. Çıkış yolunu ve önceden tanımlanmış olanı sağlayın`PdfOptions`nesne.
+ Yüklenen görüntüyü PDF dosyası olarak kaydedin.`Save` yöntem. Çıkış yolunu ve önceden tanımlanmış olanı sağlayın`PdfOptions` nesne.
 
 ## Çözüm
 
@@ -87,4 +87,4 @@ Cevap1: Evet, Aspose.CAD, .NET Core'u destekler ve özelliklerini platformlar ar
 
 ### S5: Aspose.CAD kullanıcıları için bir destek topluluğu var mı?
 
-A5: Evet,[Aspose.CAD forumu](https://forum.aspose.com/c/cad/19) yardım arayabileceğiniz, bilgi paylaşabileceğiniz ve diğer kullanıcılarla bağlantı kurabileceğiniz canlı bir topluluktur.
+ A5: Evet,[Aspose.CAD forumu](https://forum.aspose.com/c/cad/19) yardım arayabileceğiniz, bilgi paylaşabileceğiniz ve diğer kullanıcılarla bağlantı kurabileceğiniz canlı bir topluluktur.

@@ -15,7 +15,7 @@ url: /zh/net/conversion-and-export/rendering-colors-in-cad-files/
 
 在我们深入学习本教程之前，请确保您具备以下先决条件：
 
-- Aspose.CAD 库：从以下位置下载并安装 Aspose.CAD 库：[这里](https://releases.aspose.com/cad/net/).
+-  Aspose.CAD 库：从以下位置下载并安装 Aspose.CAD 库：[这里](https://releases.aspose.com/cad/net/).
 
 - 开发环境：确保您已设置 .NET 开发环境。
 
@@ -95,7 +95,7 @@ document.Save(output, saveOptions);
 
 ### Q2：哪里可以找到Aspose.CAD的详细文档？
 
- A2：参考文档[这里](https://reference.aspose.com/cad/net/)有关 Aspose.CAD 功能的深入信息。
+A2：参考文档[这里](https://reference.aspose.com/cad/net/)有关 Aspose.CAD 功能的深入信息。
 
 ### 问题 3：如何获得 Aspose.CAD 的临时许可？
 

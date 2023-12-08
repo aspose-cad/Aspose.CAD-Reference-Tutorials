@@ -100,7 +100,7 @@ Repita estos pasos para entidades adicionales según sea necesario, adaptando su
 
 ## Conclusión
 
-¡Felicidades! Ha navegado con éxito a través de las complejidades del soporte de malla para archivos DWG utilizando Aspose.CAD para .NET. Esta poderosa biblioteca le permite manipular datos de malla sin esfuerzo, abriendo nuevas posibilidades en sus aplicaciones CAD.
+¡Felicidades! Ha navegado con éxito a través de las complejidades del soporte de malla para archivos DWG usando Aspose.CAD para .NET. Esta poderosa biblioteca le permite manipular datos de malla sin esfuerzo, abriendo nuevas posibilidades en sus aplicaciones CAD.
 
 ## Preguntas frecuentes
 

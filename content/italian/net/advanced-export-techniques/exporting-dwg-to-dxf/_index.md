@@ -15,7 +15,7 @@ Se sei uno sviluppatore .NET alla ricerca di una potente soluzione per manipolar
 
 Prima di immergerti nel tutorial, assicurati di disporre dei seguenti prerequisiti:
 
-1. Libreria Aspose.CAD: scarica e installa la libreria Aspose.CAD da[questo link](https://releases.aspose.com/cad/net/).
+1.  Libreria Aspose.CAD: scarica e installa la libreria Aspose.CAD da[questo link](https://releases.aspose.com/cad/net/).
 
 2. Ambiente di sviluppo: configura un ambiente di sviluppo C#, come Visual Studio.
 
@@ -42,7 +42,7 @@ string MyDir = "Your Document Directory";
 string inputFile = MyDir + "Line.dwg";
 using (var cadImage = (CadImage)Image.Load(inputFile))
 {
-    // Il tuo codice per i passaggi successivi verrà inserito qui
+    //Il tuo codice per i passaggi successivi verrà inserito qui
 }
 ```
 
@@ -79,4 +79,4 @@ A1: Sì, Aspose.CAD viene regolarmente aggiornato per garantire la compatibilit�
 
 ### Q5: Hai bisogno di aiuto o hai domande specifiche?
 
- A5: visitare il forum della community Aspose.CAD[Qui](https://forum.aspose.com/c/cad/19) per l’assistenza di esperti e il sostegno della comunità.
+ A5: visitare il forum della community Aspose.CAD[Qui](https://forum.aspose.com/c/cad/19)per l’assistenza di esperti e il sostegno della comunità.

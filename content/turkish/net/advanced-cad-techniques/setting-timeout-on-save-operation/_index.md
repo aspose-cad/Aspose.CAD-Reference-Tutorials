@@ -15,7 +15,7 @@ Bilgisayar destekli tasarımın (CAD) dinamik alanında, operasyonlarınızın v
 
 Bu eğitime başlamadan önce aşağıdaki önkoşulların yerine getirildiğinden emin olun:
 
-- Aspose.CAD for .NET: Aspose.CAD kütüphanesinin .NET projenize entegre olduğundan emin olun. İndirebilirsin[Burada](https://releases.aspose.com/cad/net/).
+-  Aspose.CAD for .NET: Aspose.CAD kütüphanesinin .NET projenize entegre olduğundan emin olun. İndirebilirsin[Burada](https://releases.aspose.com/cad/net/).
 
 - Belge Dizini: CAD belgelerinizin saklandığı belirlenmiş bir dizine sahip olun.
 
@@ -97,7 +97,7 @@ Bu eğitimde Aspose.CAD for .NET kullanarak kaydetme işlemlerinde zaman aşım�
 
 ### S1: Zaman aşımı süresini özelleştirebilir miyim?
 
- A1: Kesinlikle! Süreyi şurada ayarlayın:`Thread.Sleep` özel gereksinimlerinizi karşılamak için beyan.
+A1: Kesinlikle! Süreyi şurada ayarlayın:`Thread.Sleep` özel gereksinimlerinizi karşılamak için beyan.
 
 ### S2: Rasterleştirme için başka seçenekler var mı?
 
@@ -113,4 +113,4 @@ Cevap4: Kesinlikle! Aspose.CAD hem 2D hem de 3D CAD dosya formatlarını destekl
 
 ### S5: Daha fazla yardımı veya topluluk desteğini nerede bulabilirim?
 
- A5: ziyaret edin[Aspose.CAD forumu](https://forum.aspose.com/c/cad/19) topluluk desteği ve tartışmalar için.
+A5: ziyaret edin[Aspose.CAD forumu](https://forum.aspose.com/c/cad/19) topluluk desteği ve tartışmalar için.

@@ -117,4 +117,4 @@ A2: Absolut! Aspose.CAD ger flexibilitet i att justera rastreringsalternativ fö
 
 ### F5: Hur kan jag få stöd eller få kontakt med samhället för hjälp?
 
- A5: Besök[Aspose.CAD-forum](https://forum.aspose.com/c/cad/19) för stöd, diskussioner och samarbete med samhället.
+A5: Besök[Aspose.CAD-forum](https://forum.aspose.com/c/cad/19) för stöd, diskussioner och samarbete med samhället.

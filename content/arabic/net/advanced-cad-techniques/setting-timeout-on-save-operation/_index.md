@@ -15,7 +15,7 @@ url: /ar/net/advanced-cad-techniques/setting-timeout-on-save-operation/
 
 قبل أن نبدأ في هذا البرنامج التعليمي، تأكد من أن لديك المتطلبات الأساسية التالية:
 
-- Aspose.CAD for .NET: تأكد من دمج مكتبة Aspose.CAD في مشروع .NET الخاص بك. يمكنك تنزيله[هنا](https://releases.aspose.com/cad/net/).
+-  Aspose.CAD for .NET: تأكد من دمج مكتبة Aspose.CAD في مشروع .NET الخاص بك. يمكنك تنزيله[هنا](https://releases.aspose.com/cad/net/).
 
 - دليل المستندات: احصل على دليل مخصص حيث يتم تخزين مستندات CAD الخاصة بك.
 
@@ -97,7 +97,7 @@ Console.WriteLine("PutTimeoutOnSave executed successfully");
 
 ### س1: هل يمكنني تخصيص مدة المهلة؟
 
- ج1: بالتأكيد! اضبط المدة في`Thread.Sleep` بيان لتلبية متطلباتك المحددة.
+ج1: بالتأكيد! اضبط المدة في`Thread.Sleep` بيان لتلبية متطلباتك المحددة.
 
 ### س2: هل هناك خيارات أخرى للتنقيط؟
 
@@ -113,4 +113,4 @@ Console.WriteLine("PutTimeoutOnSave executed successfully");
 
 ### س5: أين يمكنني العثور على المزيد من المساعدة أو الدعم المجتمعي؟
 
- ج5: قم بزيارة[منتدى Aspose.CAD](https://forum.aspose.com/c/cad/19) لدعم المجتمع والمناقشات.
+ج5: قم بزيارة[منتدى Aspose.CAD](https://forum.aspose.com/c/cad/19) لدعم المجتمع والمناقشات.

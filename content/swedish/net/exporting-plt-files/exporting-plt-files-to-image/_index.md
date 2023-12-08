@@ -17,7 +17,7 @@ Innan vi dyker in i handledningen, se till att du har följande förutsättninga
 
 -  Aspose.CAD för .NET: Se till att du har Aspose.CAD-biblioteket installerat. Du kan ladda ner den från[här](https://releases.aspose.com/cad/net/).
 
--  Dokumentkatalog: Skapa en katalog för dina dokument och anteckna dess sökväg. Detta kommer att kallas`MyDir` i kodexemplen.
+-  Dokumentkatalog: Skapa en katalog för dina dokument och anteckna dess sökväg. Detta kommer att kallas`MyDir` kodexemplen.
 
 Låt oss nu börja med handledningen.
 

@@ -13,7 +13,7 @@ Nel regno dinamico della progettazione assistita da computer (CAD), la capacità
 
 Prima di immergerci nel tutorial, assicurati di disporre dei seguenti prerequisiti:
 
-1. Libreria Aspose.CAD per .NET: assicurarsi di aver installato la libreria Aspose.CAD. Puoi scaricarlo[Qui](https://releases.aspose.com/cad/net/).
+1.  Libreria Aspose.CAD per .NET: assicurarsi di aver installato la libreria Aspose.CAD. Puoi scaricarlo[Qui](https://releases.aspose.com/cad/net/).
 
 2. Ambiente di sviluppo: tenere pronto un ambiente di sviluppo .NET funzionante.
 

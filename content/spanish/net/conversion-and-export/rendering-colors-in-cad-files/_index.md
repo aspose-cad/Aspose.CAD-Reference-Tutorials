@@ -15,7 +15,7 @@ url: /es/net/conversion-and-export/rendering-colors-in-cad-files/
 
 Antes de sumergirnos en el tutorial, asegúrese de cumplir con los siguientes requisitos previos:
 
-- Biblioteca Aspose.CAD: descargue e instale la biblioteca Aspose.CAD desde[aquí](https://releases.aspose.com/cad/net/).
+-  Biblioteca Aspose.CAD: descargue e instale la biblioteca Aspose.CAD desde[aquí](https://releases.aspose.com/cad/net/).
 
 - Entorno de desarrollo: asegúrese de tener configurado un entorno de desarrollo .NET.
 
@@ -91,7 +91,7 @@ document.Save(output, saveOptions);
 
 ### P1: ¿Puedo utilizar Aspose.CAD gratis?
 
- R1: Aspose.CAD ofrece una versión de prueba gratuita disponible[aquí](https://releases.aspose.com/). Puede explorar sus características antes de realizar una compra.
+ R1: Aspose.CAD ofrece una versión de prueba gratuita disponible[aquí](https://releases.aspose.com/)Puede explorar sus características antes de realizar una compra.
 
 ### P2: ¿Dónde puedo encontrar documentación detallada para Aspose.CAD?
 
@@ -99,7 +99,7 @@ document.Save(output, saveOptions);
 
 ### P3: ¿Cómo obtengo una licencia temporal para Aspose.CAD?
 
- A3: Obtener una licencia temporal[aquí](https://purchase.aspose.com/temporary-license/)con fines de prueba.
+ A3: Obtener una licencia temporal[aquí](https://purchase.aspose.com/temporary-license/) con fines de prueba.
 
 ### P4: ¿Necesita ayuda o tiene preguntas?
 

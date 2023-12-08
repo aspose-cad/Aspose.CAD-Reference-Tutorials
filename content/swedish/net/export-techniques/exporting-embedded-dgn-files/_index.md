@@ -9,7 +9,7 @@ url: /sv/net/export-techniques/exporting-embedded-dgn-files/
 ---
 ## Introduktion
 
-I den dynamiska världen av mjukvaruutveckling utmärker sig Aspose.CAD för .NET som ett kraftfullt verktyg för att hantera datorstödd design (CAD)-filer. Denna handledning guidar dig genom processen att exportera inbäddade DGN-filer med Aspose.CAD för .NET. Oavsett om du är en erfaren utvecklare eller en nyfiken nybörjare, kommer den här steg-för-steg-guiden att hjälpa dig att utnyttja funktionerna i Aspose.CAD effektivt.
+den dynamiska världen av mjukvaruutveckling utmärker sig Aspose.CAD för .NET som ett kraftfullt verktyg för att hantera datorstödd design (CAD)-filer. Denna handledning guidar dig genom processen att exportera inbäddade DGN-filer med Aspose.CAD för .NET. Oavsett om du är en erfaren utvecklare eller en nyfiken nybörjare, kommer den här steg-för-steg-guiden att hjälpa dig att utnyttja funktionerna i Aspose.CAD effektivt.
 
 ## Förutsättningar
 
@@ -43,7 +43,7 @@ string MyDir = "Your Document Directory";
 string sourceFilePath = MyDir + "conic_pyramid.dxf";
 using (CadImage cadImage = (CadImage)Image.Load(sourceFilePath))
 {
-    // Din kod för ytterligare steg kommer här
+    //Din kod för ytterligare steg kommer här
 }
 ```
 
@@ -97,4 +97,4 @@ S1: Aspose.CAD stöder i första hand .NET, men Aspose tillhandahåller bibliote
 
 ### F5: Behöver du hjälp eller vill engagera dig i samhället?
 
- A5: Besök[Aspose.CAD Forum](https://forum.aspose.com/c/cad/19) för stöd och diskussioner.
+A5: Besök[Aspose.CAD Forum](https://forum.aspose.com/c/cad/19) för stöd och diskussioner.

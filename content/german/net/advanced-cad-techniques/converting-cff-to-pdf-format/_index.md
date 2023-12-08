@@ -59,7 +59,7 @@ var options = new PdfOptions();
 image.Save(MyDir + "WineBottle_Die_out.pdf", options);
 ```
 
- Speichern Sie das geladene Bild als PDF-Datei mit`Save` Methode. Geben Sie den Ausgabepfad und die zuvor definierten Werte an`PdfOptions`Objekt.
+ Speichern Sie das geladene Bild als PDF-Datei mit`Save` Methode. Geben Sie den Ausgabepfad und die zuvor definierten Werte an`PdfOptions` Objekt.
 
 ## Abschluss
 
@@ -73,7 +73,7 @@ Mit nur wenigen Codezeilen haben Sie mit Aspose.CAD für .NET erfolgreich eine C
 
 A1: Ja, Aspose.CAD unterstützt .NET Core, sodass Sie dessen Funktionen in plattformübergreifende Anwendungen integrieren können.
 
-### F2: Kann ich Aspose.CAD vor dem Kauf testen?
+### F2: Kann ich Aspose.CAD vor dem Kauf ausprobieren?
 
  A2: Auf jeden Fall! Sie können eine bekommen[Kostenlose Testversion hier](https://releases.aspose.com/) um die Möglichkeiten von Aspose.CAD zu erkunden.
 
@@ -87,4 +87,4 @@ A1: Ja, Aspose.CAD unterstützt .NET Core, sodass Sie dessen Funktionen in platt
 
 ### F5: Gibt es eine Support-Community für Aspose.CAD-Benutzer?
 
-A5: Ja, das[Aspose.CAD-Forum](https://forum.aspose.com/c/cad/19) ist eine lebendige Community, in der Sie Hilfe suchen, Wissen teilen und sich mit anderen Benutzern vernetzen können.
+ A5: Ja, das[Aspose.CAD-Forum](https://forum.aspose.com/c/cad/19) ist eine lebendige Community, in der Sie Hilfe suchen, Wissen teilen und sich mit anderen Benutzern vernetzen können.

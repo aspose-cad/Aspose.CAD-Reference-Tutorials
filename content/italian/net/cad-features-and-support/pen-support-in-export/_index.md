@@ -17,7 +17,7 @@ In questo tutorial, approfondiremo le specifiche del supporto della penna nell'e
 
 Prima di immergerci nel tutorial, assicurati di disporre dei seguenti prerequisiti:
 
--  Aspose.CAD per .NET installato nel tuo ambiente di sviluppo. Puoi scaricarlo da[pagina di rilascio](https://releases.aspose.com/cad/net/).
+- Aspose.CAD per .NET installato nel tuo ambiente di sviluppo. Puoi scaricarlo da[pagina di rilascio](https://releases.aspose.com/cad/net/).
 
 - Una conoscenza di base dei formati di file CAD, in particolare DXF (Drawing Exchange Format).
 

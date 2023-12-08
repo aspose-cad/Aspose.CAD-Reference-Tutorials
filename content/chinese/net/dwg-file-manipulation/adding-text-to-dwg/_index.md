@@ -124,4 +124,4 @@ A2：是的，您可以通过重复教程中概述的过程将多个文本实体
 
 ### Q5：我可以在哪里寻求帮助或讨论与 Aspose.CAD 相关的问题？
 
- A5：访问[Aspose.CAD论坛](https://forum.aspose.com/c/cad/19)与社区联系并获得支持。
+A5：访问[Aspose.CAD论坛](https://forum.aspose.com/c/cad/19)与社区联系并获得支持。

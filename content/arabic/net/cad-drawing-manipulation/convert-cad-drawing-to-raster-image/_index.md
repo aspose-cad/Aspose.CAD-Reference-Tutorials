@@ -101,7 +101,7 @@ Console.WriteLine("\nCAD drawing converted successfully to raster image format.\
 
 ### س1: هل Aspose.CAD متوافق مع جميع تنسيقات ملفات CAD؟
 
- ج1: يدعم Aspose.CAD نطاقًا واسعًا من تنسيقات ملفات CAD، بما في ذلك DWG وDXF وDGN والمزيد. الرجوع إلى[توثيق](https://reference.aspose.com/cad/net/) للحصول على قائمة شاملة.
+ج1: يدعم Aspose.CAD نطاقًا واسعًا من تنسيقات ملفات CAD، بما في ذلك DWG وDXF وDGN والمزيد. الرجوع إلى[توثيق](https://reference.aspose.com/cad/net/) للحصول على قائمة شاملة.
 
 ### س2: هل يمكنني تخصيص خيارات التنقيط لمشاريع مختلفة؟
 
@@ -117,4 +117,4 @@ Console.WriteLine("\nCAD drawing converted successfully to raster image format.\
 
 ### س5: هل التراخيص المؤقتة متاحة لـ Aspose.CAD؟
  
-ج5: نعم، يمكن للمطورين الحصول على تراخيص مؤقتة لـ Aspose.CAD من[هذا الرابط](https://purchase.aspose.com/temporary-license/).
+ ج5: نعم، يمكن للمطورين الحصول على تراخيص مؤقتة لـ Aspose.CAD من[هذا الرابط](https://purchase.aspose.com/temporary-license/).
