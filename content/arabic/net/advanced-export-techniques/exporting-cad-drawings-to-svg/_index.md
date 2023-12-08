@@ -68,7 +68,7 @@ using (Image image = Image.Load(MyDir + "sample.dwg"))
 
 ## الأسئلة الشائعة
 
-### س1: هل Aspose.CAD متوافق مع كافة تنسيقات CAD؟
+### س1: هل Aspose.CAD متوافق مع جميع تنسيقات CAD؟
 
 ج1: يدعم Aspose.CAD تنسيقات CAD المتنوعة، بما في ذلك DWG وDXF، مما يضمن التوافق الواسع.
 

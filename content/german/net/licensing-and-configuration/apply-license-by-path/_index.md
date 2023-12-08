@@ -79,7 +79,7 @@ Glückwunsch! Sie haben gerade die Kunst gemeistert, eine Lizenz nach Pfad in As
 
 ### F3: Gibt es eine kostenlose Testversion für Aspose.CAD für .NET?
 
- A3: Ja, Sie können eine kostenlose Testversion erhalten[Hier](https://releases.aspose.com/).
+A3: Ja, Sie können eine kostenlose Testversion erhalten[Hier](https://releases.aspose.com/).
 
 ### F:4 Wo kann ich eine temporäre Lizenz für Aspose.CAD für .NET erhalten?
 

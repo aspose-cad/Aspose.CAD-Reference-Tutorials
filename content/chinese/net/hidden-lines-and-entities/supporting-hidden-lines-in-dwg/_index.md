@@ -101,4 +101,4 @@ A1：是的，Aspose.CAD 支持各种版本的 DWG 文件，确保与各种 CAD 
 
 ### Q5：我可以获得 Aspose.CAD 的临时许可证吗？
 
- A5：是的，您可以获得 Aspose.CAD 的临时许可证[这里](https://purchase.aspose.com/temporary-license/).
+A5：是的，您可以获得 Aspose.CAD 的临时许可证[这里](https://purchase.aspose.com/temporary-license/).

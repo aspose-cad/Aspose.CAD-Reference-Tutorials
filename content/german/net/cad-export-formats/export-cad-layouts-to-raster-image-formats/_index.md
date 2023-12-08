@@ -15,7 +15,7 @@ Möchten Sie CAD-Layouts mit Aspose.CAD für .NET effizient in Rasterbildformate
 
 Bevor Sie mit dem Tutorial beginnen, stellen Sie sicher, dass Sie über Folgendes verfügen:
 
--  Aspose.CAD für .NET-Bibliothek: Stellen Sie sicher, dass Sie die Aspose.CAD-Bibliothek installiert haben. Wenn nicht, können Sie es hier herunterladen[Aspose.CAD-Website](https://releases.aspose.com/cad/net/).
+- Aspose.CAD für .NET-Bibliothek: Stellen Sie sicher, dass Sie die Aspose.CAD-Bibliothek installiert haben. Wenn nicht, können Sie es hier herunterladen[Aspose.CAD-Website](https://releases.aspose.com/cad/net/).
 
 - CAD-Zeichnungsdatei: Bereiten Sie eine CAD-Zeichnungsdatei (z. B. conic_pyramid.dxf) vor, die Sie in Rasterbildformate konvertieren möchten.
 
@@ -41,7 +41,7 @@ string sourceFilePath = MyDir + "conic_pyramid.dxf";
 // Laden Sie eine CAD-Zeichnung in eine Instanz von Image
 using (var image = Image.Load(sourceFilePath))
 {
-    //Hier finden Sie Ihren Code zum Laden der CAD-Zeichnung
+    // Hier finden Sie Ihren Code zum Laden der CAD-Zeichnung
 }
 ```
 

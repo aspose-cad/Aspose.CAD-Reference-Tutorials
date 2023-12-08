@@ -15,7 +15,7 @@ Nel regno dinamico della progettazione assistita da computer (CAD), l'efficienza
 
 Prima di intraprendere questo tutorial, assicurati di disporre dei seguenti prerequisiti:
 
-- Aspose.CAD per .NET: assicurati di avere la libreria Aspose.CAD integrata nel tuo progetto .NET. Puoi scaricarlo[Qui](https://releases.aspose.com/cad/net/).
+-  Aspose.CAD per .NET: assicurati di avere la libreria Aspose.CAD integrata nel tuo progetto .NET. Puoi scaricarlo[Qui](https://releases.aspose.com/cad/net/).
 
 - Directory dei documenti: dispone di una directory designata in cui sono archiviati i documenti CAD.
 
@@ -97,7 +97,7 @@ In questo tutorial, abbiamo esplorato il processo di impostazione di un timeout 
 
 ### Q1: Posso personalizzare la durata del timeout?
 
- R1: Certamente! Regola la durata nel`Thread.Sleep` dichiarazione per soddisfare le vostre esigenze specifiche.
+R1: Certamente! Regola la durata nel`Thread.Sleep` dichiarazione per soddisfare le vostre esigenze specifiche.
 
 ### Q2: Esistono altre opzioni per la rasterizzazione?
 
@@ -113,4 +113,4 @@ A4: Assolutamente! Aspose.CAD supporta i formati di file CAD 2D e 3D.
 
 ### D5: Dove posso trovare ulteriore assistenza o supporto da parte della comunità?
 
- A5: Visita il[Forum Aspose.CAD](https://forum.aspose.com/c/cad/19) per il supporto e le discussioni della comunità.
+A5: Visita il[Forum Aspose.CAD](https://forum.aspose.com/c/cad/19) per il supporto e le discussioni della comunità.

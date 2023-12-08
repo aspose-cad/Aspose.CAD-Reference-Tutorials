@@ -150,7 +150,7 @@ Bu eğitimde Aspose.CAD kullanarak C#'ta DWG dosyalarıyla çalışma sürecini 
 
 ### S2: Aspose.CAD'i hem ticari hem de kişisel projeler için kullanabilir miyim?
 
-C2: Evet, Aspose.CAD hem ticari hem de kişisel kullanım için esnek lisanslama seçenekleri sunuyor. Ziyaret edin[satın alma sayfası](https://purchase.aspose.com/buy) daha fazla ayrıntı için.
+ C2: Evet, Aspose.CAD hem ticari hem de kişisel kullanım için esnek lisanslama seçenekleri sunuyor. Ziyaret edin[satın alma sayfası](https://purchase.aspose.com/buy) daha fazla ayrıntı için.
 
 ### S3: Aspose.CAD için nasıl geçici lisans alabilirim?
 
@@ -158,7 +158,7 @@ C2: Evet, Aspose.CAD hem ticari hem de kişisel kullanım için esnek lisanslama
 
 ### S4: Aspose.CAD desteğini nerede bulabilirim?
 
- A4: Sorularınız veya yardım için şu adresi ziyaret edin:[Aspose.CAD forumu](https://forum.aspose.com/c/cad/19).
+A4: Sorularınız veya yardım için şu adresi ziyaret edin:[Aspose.CAD forumu](https://forum.aspose.com/c/cad/19).
 
 ### S5: Aspose.CAD'in ücretsiz deneme sürümü mevcut mu?
 

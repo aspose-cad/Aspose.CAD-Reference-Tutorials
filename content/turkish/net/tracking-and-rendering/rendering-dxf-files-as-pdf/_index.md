@@ -41,7 +41,7 @@ string MyDir = "Your Document Directory";
 string sourceFilePath = MyDir + "conic_pyramid.dxf";
 string outPath = MyDir + "conic_pyramid.jpg";
 ```
-Değiştirdiğinizden emin olun`"Your Document Directory"` projenizin belgeler dizinine giden gerçek yolla.
+ Değiştirdiğinizden emin olun`"Your Document Directory"`projenizin belgeler dizinine giden gerçek yolla.
 
 ## Adım 2: DXF Dosyasını Yükleyin
 
@@ -89,7 +89,7 @@ Cevap1: Evet, Aspose.CAD çok çeşitli DXF dosyalarını destekleyerek çeşitl
 
 ### S4: Aspose.CAD için nasıl geçici lisans alabilirim?
 
- Cevap4: Geçici lisanslar alın[Burada](https://purchase.aspose.com/temporary-license/) test ve değerlendirme amaçlıdır.
+ Cevap4: Geçici lisanslar edinin[Burada](https://purchase.aspose.com/temporary-license/) test ve değerlendirme amaçlıdır.
 
 ### S5: Yardıma mı ihtiyacınız var veya özel sorularınız mı var?
 

@@ -15,7 +15,7 @@ Stehen Sie vor der Herausforderung, Farben in CAD-Dateien mithilfe von .NET wied
 
 Bevor wir uns mit dem Tutorial befassen, stellen Sie sicher, dass die folgenden Voraussetzungen erfüllt sind:
 
-- Aspose.CAD-Bibliothek: Laden Sie die Aspose.CAD-Bibliothek herunter und installieren Sie sie[Hier](https://releases.aspose.com/cad/net/).
+-  Aspose.CAD-Bibliothek: Laden Sie die Aspose.CAD-Bibliothek herunter und installieren Sie sie[Hier](https://releases.aspose.com/cad/net/).
 
 - Entwicklungsumgebung: Stellen Sie sicher, dass Sie eine .NET-Entwicklungsumgebung eingerichtet haben.
 
@@ -91,7 +91,7 @@ Glückwunsch! Sie haben mit Aspose.CAD für .NET erfolgreich Farben in CAD-Datei
 
 ### F1: Kann ich Aspose.CAD kostenlos nutzen?
 
- A1: Aspose.CAD bietet eine kostenlose Testversion an[Hier](https://releases.aspose.com/). Sie können die Funktionen erkunden, bevor Sie einen Kauf tätigen.
+ A1: Aspose.CAD bietet eine kostenlose Testversion an[Hier](https://releases.aspose.com/)Sie können die Funktionen erkunden, bevor Sie einen Kauf tätigen.
 
 ### F2: Wo finde ich eine ausführliche Dokumentation zu Aspose.CAD?
 
@@ -99,7 +99,7 @@ Glückwunsch! Sie haben mit Aspose.CAD für .NET erfolgreich Farben in CAD-Datei
 
 ### F3: Wie erhalte ich eine temporäre Lizenz für Aspose.CAD?
 
- A3: Besorgen Sie sich eine temporäre Lizenz[Hier](https://purchase.aspose.com/temporary-license/)zu Testzwecken.
+ A3: Besorgen Sie sich eine temporäre Lizenz[Hier](https://purchase.aspose.com/temporary-license/) zu Testzwecken.
 
 ### F4: Benötigen Sie Hilfe oder haben Sie Fragen?
 

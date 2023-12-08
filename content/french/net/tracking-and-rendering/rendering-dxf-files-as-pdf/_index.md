@@ -41,7 +41,7 @@ string MyDir = "Your Document Directory";
 string sourceFilePath = MyDir + "conic_pyramid.dxf";
 string outPath = MyDir + "conic_pyramid.jpg";
 ```
-Assurez-vous de remplacer`"Your Document Directory"` avec le chemin réel vers le répertoire des documents de votre projet.
+ Assurez-vous de remplacer`"Your Document Directory"`avec le chemin réel vers le répertoire des documents de votre projet.
 
 ## Étape 2 : Charger le fichier DXF
 

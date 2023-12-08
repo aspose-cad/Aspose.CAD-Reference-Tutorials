@@ -15,7 +15,7 @@ Bienvenue dans notre didacticiel complet sur l'exportation de fichiers DXF au fo
 
 Avant de plonger dans le didacticiel, assurez-vous que les conditions préalables suivantes sont remplies :
 
-- Bibliothèque Aspose.CAD pour .NET : assurez-vous que la bibliothèque Aspose.CAD est intégrée à votre projet .NET. Sinon, vous pouvez le télécharger depuis le[site web](https://releases.aspose.com/cad/net/).
+-  Bibliothèque Aspose.CAD pour .NET : assurez-vous que la bibliothèque Aspose.CAD est intégrée à votre projet .NET. Sinon, vous pouvez le télécharger depuis le[site web](https://releases.aspose.com/cad/net/).
 
 - Fichier DXF : préparez un fichier DXF que vous souhaitez exporter au format PDF. Si vous n'en avez pas, vous pouvez utiliser le fichier "conic_pyramid.dxf" fourni dans le tutoriel.
 
@@ -104,7 +104,7 @@ A1 : Oui, Aspose.CAD pour .NET prend en charge une large gamme de fichiers DXF, 
 
 ### Q4 : Comment puis-je obtenir une assistance pour Aspose.CAD pour .NET ?
 
- A4 : Pour toute question ou assistance, visitez le[Forum Aspose.CAD](https://forum.aspose.com/c/cad/19).
+A4 : Pour toute question ou assistance, visitez le[Forum Aspose.CAD](https://forum.aspose.com/c/cad/19).
 
 ### Q5 : Puis-je acheter une licence temporaire ?
 

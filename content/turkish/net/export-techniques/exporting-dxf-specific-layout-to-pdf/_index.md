@@ -44,7 +44,7 @@ string sourceFilePath = MyDir + "conic_pyramid.dxf";
 
 using (Image image = Image.Load(sourceFilePath))
 {
-    // Daha sonraki adımlara ilişkin kodunuz buraya gelecek
+    //Daha sonraki adımlara ilişkin kodunuz buraya gelecek
 }
 ```
 
@@ -96,11 +96,11 @@ Tebrikler! Aspose.CAD for .NET'i kullanarak belirli bir düzene sahip bir DXF do
 
 ### S1: Aspose.CAD, DXF dosyalarının tüm sürümleriyle uyumlu mudur?
 
- Cevap1: Aspose.CAD, DXF dosyalarının çeşitli sürümlerini destekler. Bakın[dokümantasyon](https://reference.aspose.com/cad/net/)desteklenen sürümlerin listesi için.
+ Cevap1: Aspose.CAD, DXF dosyalarının çeşitli sürümlerini destekler. Bakın[dokümantasyon](https://reference.aspose.com/cad/net/) desteklenen sürümlerin listesi için.
 
 ### S2: PDF çıktı ayarlarını özelleştirebilir miyim?
 
- C2: Evet, özelliklerini ayarlayarak PDF çıktı ayarlarını özelleştirebilirsiniz.`CadRasterizationOptions` Ve`PdfOptions` gereksinimlerinize göre.
+C2: Evet, özelliklerini ayarlayarak PDF çıktı ayarlarını özelleştirebilirsiniz.`CadRasterizationOptions` Ve`PdfOptions` gereksinimlerinize göre.
 
 ### S3: Aspose.CAD için ücretsiz deneme sürümü mevcut mu?
 

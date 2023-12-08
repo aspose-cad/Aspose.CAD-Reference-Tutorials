@@ -17,7 +17,7 @@ Eğiticiye dalmadan önce aşağıdaki önkoşulların mevcut olduğundan emin o
 
 -  Aspose.CAD for .NET: Aspose.CAD kütüphanesinin kurulu olduğundan emin olun. Şuradan indirebilirsiniz[Burada](https://releases.aspose.com/cad/net/).
 
--  Belge Dizini: Belgeleriniz için bir dizin oluşturun ve yolunu not edin. Bu şu şekilde anılacaktır:`MyDir` kod örneklerinde.
+-  Belge Dizini: Belgeleriniz için bir dizin oluşturun ve yolunu not edin. Bu şu şekilde anılacaktır:`MyDir`kod örneklerinde.
 
 Şimdi öğreticiye başlayalım.
 

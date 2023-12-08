@@ -13,7 +13,7 @@ url: /ar/net/exporting-plt-files/exporting-plt-files-to-pdf/
 
 قبل أن نتعمق في البرنامج التعليمي، تأكد من توفر المتطلبات الأساسية التالية:
 
-1. Aspose.CAD لمكتبة .NET: تأكد من تثبيت مكتبة Aspose.CAD. يمكنك تنزيله[هنا](https://releases.aspose.com/cad/net/).
+1.  Aspose.CAD لمكتبة .NET: تأكد من تثبيت مكتبة Aspose.CAD. يمكنك تنزيله[هنا](https://releases.aspose.com/cad/net/).
 
 2. بيئة التطوير: جهز بيئة تطوير .NET عاملة.
 
@@ -105,7 +105,7 @@ cadImage.Save(MyDir + "50states.pdf", pdfOptions);
 
 ### س3: كيف يمكنني الحصول على دعم Aspose.CAD لـ .NET؟
 
- ج3: قم بزيارة[منتدى Aspose.CAD](https://forum.aspose.com/c/cad/19) لدعم وتوجيه المجتمع.
+ ج3: قم بزيارة[منتدى Aspose.CAD](https://forum.aspose.com/c/cad/19) لدعم المجتمع وتوجيهه.
 
 ### س 4: ما هي تنسيقات الملفات التي يدعمها Aspose.CAD؟
 

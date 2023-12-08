@@ -40,7 +40,7 @@ using System.Text;
 ## Étape 1 : définir une nouvelle police pour chaque document
 
 ```csharp
-//Définir une nouvelle police par document
+// Définir une nouvelle police par document
 foreach (var file in new DirectoryInfo(MyDir).EnumerateFiles("conic.dxf"))
 {
     using (var cadImage = (CadImage)Image.Load(file.FullName))
@@ -112,7 +112,7 @@ Aspose.CAD for .NET offre aux développeurs les outils nécessaires pour rationa
 
 ### Q1 : Aspose.CAD est-il compatible avec d’autres formats de CAO ?
 
-A1 : Oui, Aspose.CAD prend en charge divers formats de CAO, notamment DWG, DXF, DGN, etc. Se référer au[Documentation](https://reference.aspose.com/cad/net/) pour une liste complète.
+ A1 : Oui, Aspose.CAD prend en charge divers formats de CAO, notamment DWG, DXF, DGN, etc. Se référer au[Documentation](https://reference.aspose.com/cad/net/) pour une liste complète.
 
 ### Q2 : Puis-je appliquer ces manipulations à plusieurs fichiers simultanément ?
 

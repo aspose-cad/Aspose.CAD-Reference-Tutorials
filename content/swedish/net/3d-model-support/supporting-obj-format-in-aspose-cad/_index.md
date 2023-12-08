@@ -80,7 +80,7 @@ Grattis! Du har framgångsrikt integrerat Aspose.CAD för .NET för att stödja 
 
 ### F1: Är Aspose.CAD kompatibel med andra CAD-filformat?
 
- S1: Ja, Aspose.CAD stöder olika CAD-format, inklusive DWG, DXF, DGN och mer. Kolla[dokumentation](https://reference.aspose.com/cad/net/) för en komplett lista.
+ S1: Ja, Aspose.CAD stöder olika CAD-format, inklusive DWG, DXF, DGN och mer. Kolla[dokumentation](https://reference.aspose.com/cad/net/)för en komplett lista.
 
 ### F2: Kan jag prova Aspose.CAD innan jag köper?
 

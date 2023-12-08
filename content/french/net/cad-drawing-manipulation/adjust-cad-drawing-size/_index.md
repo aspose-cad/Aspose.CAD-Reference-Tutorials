@@ -9,7 +9,7 @@ url: /fr/net/cad-drawing-manipulation/adjust-cad-drawing-size/
 ---
 ## Introduction
 
-Cherchez-vous à ajuster de manière transparente la taille des dessins CAO dans vos applications .NET ? Aspose.CAD pour .NET fournit une solution robuste, vous permettant de gérer sans effort le redimensionnement des dessins CAO. Dans ce didacticiel, nous vous guiderons tout au long du processus, en décomposant chaque étape pour vous assurer de comprendre les subtilités du redimensionnement des dessins CAO à l'aide d'Aspose.CAD.
+Cherchez-vous à ajuster de manière transparente la taille des dessins CAO dans vos applications .NET ? Aspose.CAD for .NET fournit une solution robuste, vous permettant de gérer sans effort le redimensionnement des dessins CAO. Dans ce didacticiel, nous vous guiderons tout au long du processus, en décomposant chaque étape pour vous assurer de comprendre les subtilités du redimensionnement des dessins CAO à l'aide d'Aspose.CAD.
 
 ## Conditions préalables
 
@@ -63,7 +63,7 @@ Aspose.CAD.ImageOptions.CadRasterizationOptions cadRasterizationOptions = new As
 bmpOptions.VectorRasterizationOptions = cadRasterizationOptions;
 ```
 
-## Étape 4 : Définir la propriété UnitType
+## Étape 4 : définir la propriété UnitType
 
 Définissez la propriété UnitType de CadRasterizationOptions pour spécifier le type d'unité à redimensionner. Dans cet exemple, il est défini sur Centimètre.
 

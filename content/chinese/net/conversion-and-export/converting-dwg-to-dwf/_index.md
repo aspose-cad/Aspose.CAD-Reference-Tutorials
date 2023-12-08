@@ -92,7 +92,7 @@ A1：Aspose.CAD支持各种版本的DWG文件，确保与各种CAD软件兼容�
 
 ### Q4：在哪里可以找到对 Aspose.CAD 的支持？
 
- A4：如有任何疑问或帮助，请访问 Aspose.CAD 支持论坛[这里](https://forum.aspose.com/c/cad/19).
+A4：如有任何疑问或帮助，请访问 Aspose.CAD 支持论坛[这里](https://forum.aspose.com/c/cad/19).
 
 ### Q5：有详细的文档资源吗？
 

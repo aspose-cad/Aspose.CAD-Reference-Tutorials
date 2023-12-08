@@ -15,7 +15,7 @@ Bienvenue dans ce didacticiel complet sur la conversion de fichiers DWG en PDF a
 
 Avant de commencer, assurez-vous d'avoir les prérequis suivants :
 
--  Bibliothèque Aspose.CAD : téléchargez et installez la bibliothèque Aspose.CAD pour .NET. Vous pouvez trouver la bibliothèque[ici](https://releases.aspose.com/cad/net/).
+- Bibliothèque Aspose.CAD : téléchargez et installez la bibliothèque Aspose.CAD pour .NET. Vous pouvez trouver la bibliothèque[ici](https://releases.aspose.com/cad/net/).
 
 - Environnement de développement : assurez-vous que vous disposez d'un environnement de développement compatible, y compris Visual Studio ou tout autre IDE préféré.
 
@@ -133,4 +133,4 @@ A4 : Certainement ! Explorez les nombreuses options fournies par Aspose.CAD pour
 
 ### Q5 : Où puis-je trouver une assistance supplémentaire ou des discussions communautaires ?
 
- A5 : Visitez le[Forum Aspose.CAD](https://forum.aspose.com/c/cad/19) pour le soutien et les discussions de la communauté.
+A5 : Visitez le[Forum Aspose.CAD](https://forum.aspose.com/c/cad/19) pour le soutien et les discussions de la communauté.

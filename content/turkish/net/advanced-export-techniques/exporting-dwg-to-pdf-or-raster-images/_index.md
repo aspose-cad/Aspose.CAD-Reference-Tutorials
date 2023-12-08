@@ -114,7 +114,7 @@ Tebrikler! DWG dosyalarını hem PDF hem de raster görüntülere aktarmak için
 
 ### S4: Test amacıyla geçici bir lisans alabilir miyim?
 
-Cevap4: Evet, geçici lisans alabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/).
+ Cevap4: Evet, geçici lisans alabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/).
 
 ### S5: Ayrıntılı belgeleri nerede bulabilirim?
 

@@ -17,7 +17,7 @@ Innan vi dyker in i handledningen, se till att du har följande förutsättninga
 
 -  Aspose.CAD för .NET Library: Se till att du har biblioteket installerat. Du kan ladda ner den från[Aspose.CAD för .NET nedladdningssida](https://releases.aspose.com/cad/net/).
 
--  Dokumentkatalog: Skapa en katalog där dina DWG-filer lagras. Byta ut`"Your Document Directory"` det medföljande kodavsnittet med den faktiska sökvägen.
+-  Dokumentkatalog: Skapa en katalog där dina DWG-filer lagras. Byta ut`"Your Document Directory"` i det medföljande kodavsnittet med den faktiska sökvägen.
 
 ## Importera namnområden
 

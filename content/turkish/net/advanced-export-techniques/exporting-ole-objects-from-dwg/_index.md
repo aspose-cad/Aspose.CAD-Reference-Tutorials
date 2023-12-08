@@ -17,7 +17,7 @@ Eğiticiye dalmadan önce aşağıdaki önkoşulların mevcut olduğundan emin o
 
 -  Aspose.CAD for .NET Library: Kütüphanenin kurulu olduğundan emin olun. adresinden indirebilirsiniz.[Aspose.CAD for .NET indirme sayfası](https://releases.aspose.com/cad/net/).
 
--  Belge Dizini: DWG dosyalarınızın depolandığı bir dizin ayarlayın. Yer değiştirmek`"Your Document Directory"`sağlanan kod pasajında gerçek yolla birlikte.
+-  Belge Dizini: DWG dosyalarınızın depolandığı bir dizin ayarlayın. Yer değiştirmek`"Your Document Directory"` sağlanan kod pasajında gerçek yolla birlikte.
 
 ## Ad Alanlarını İçe Aktar
 

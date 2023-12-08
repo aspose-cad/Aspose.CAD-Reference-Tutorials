@@ -9,7 +9,7 @@ url: /zh/net/exporting-to-image-formats/exporting-ifc-files-to-png/
 ---
 ## 介绍
 
-在计算机辅助设计 (CAD) 的动态世界中，高效的文件转换至关重要。 Aspose.CAD for .NET 成为一个强大的工具，提供将 IFC（工业基础类）文件导出为 PNG 格式的无缝功能。本分步教程将指导您完成整个过程，确保 Aspose.CAD 的流畅体验。
+在计算机辅助设计 (CAD) 的动态世界中，高效的文件转换至关重要。 Aspose.CAD for .NET 成为一款强大的工具，提供将 IFC（工业基础类）文件导出为 PNG 格式的无缝功能。本分步教程将指导您完成整个过程，确保 Aspose.CAD 的流畅体验。
 
 ## 先决条件
 

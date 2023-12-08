@@ -43,7 +43,7 @@ string MyDir = "Your Document Directory";
 string sourceFilePath = MyDir + "conic_pyramid.dxf";
 using (CadImage cadImage = (CadImage)Image.Load(sourceFilePath))
 {
-    // Daha sonraki adımlara ilişkin kodunuz buraya gelecek
+    //Daha sonraki adımlara ilişkin kodunuz buraya gelecek
 }
 ```
 
@@ -97,4 +97,4 @@ Cevap1: Aspose.CAD öncelikli olarak .NET'i destekler ancak Aspose, Java ve Pyth
 
 ### S5: Yardıma mı ihtiyacınız var veya toplulukla etkileşime geçmek mi istiyorsunuz?
 
- A5: ziyaret edin[Aspose.CAD Forumu](https://forum.aspose.com/c/cad/19) Destek ve tartışmalar için.
+A5: ziyaret edin[Aspose.CAD Forumu](https://forum.aspose.com/c/cad/19) Destek ve tartışmalar için.

@@ -15,7 +15,7 @@ Om du är en .NET-utvecklare som söker en kraftfull lösning för att manipuler
 
 Innan du dyker in i handledningen, se till att du har följande förutsättningar på plats:
 
-1. Aspose.CAD Library: Ladda ner och installera Aspose.CAD-biblioteket från[den här länken](https://releases.aspose.com/cad/net/).
+1.  Aspose.CAD Library: Ladda ner och installera Aspose.CAD-biblioteket från[den här länken](https://releases.aspose.com/cad/net/).
 
 2. Utvecklingsmiljö: Konfigurera en C#-utvecklingsmiljö, som Visual Studio.
 
@@ -42,7 +42,7 @@ string MyDir = "Your Document Directory";
 string inputFile = MyDir + "Line.dwg";
 using (var cadImage = (CadImage)Image.Load(inputFile))
 {
-    // Din kod för ytterligare steg kommer här
+    //Din kod för ytterligare steg kommer här
 }
 ```
 
@@ -79,4 +79,4 @@ S1: Ja, Aspose.CAD uppdateras regelbundet för att säkerställa kompatibilitet 
 
 ### F5: Behöver du hjälp eller har specifika frågor?
 
- S5: Besök Aspose.CAD-gemenskapsforumet[här](https://forum.aspose.com/c/cad/19) för experthjälp och samhällsstöd.
+ S5: Besök Aspose.CAD-gemenskapsforumet[här](https://forum.aspose.com/c/cad/19)för experthjälp och samhällsstöd.

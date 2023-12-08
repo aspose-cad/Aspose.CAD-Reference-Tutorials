@@ -17,7 +17,7 @@ Avant de plonger dans le didacticiel, assurez-vous que les conditions préalable
 
 -  Aspose.CAD pour .NET : assurez-vous que la bibliothèque Aspose.CAD est installée. Vous pouvez le télécharger depuis[ici](https://releases.aspose.com/cad/net/).
 
--  Répertoire de documents : créez un répertoire pour vos documents et notez son chemin. Ceci sera appelé`MyDir` dans les exemples de code.
+-  Répertoire de documents : créez un répertoire pour vos documents et notez son chemin. Ceci sera appelé`MyDir`dans les exemples de code.
 
 Maintenant, commençons par le didacticiel.
 

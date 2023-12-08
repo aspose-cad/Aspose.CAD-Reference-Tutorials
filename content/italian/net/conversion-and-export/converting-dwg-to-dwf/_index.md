@@ -92,7 +92,7 @@ R1: Aspose.CAD supporta varie versioni di file DWG, garantendo la compatibilità
 
 ### Q4: Dove posso trovare supporto per Aspose.CAD?
 
- A4: Per qualsiasi domanda o assistenza, visitare il forum di supporto Aspose.CAD[Qui](https://forum.aspose.com/c/cad/19).
+A4: Per qualsiasi domanda o assistenza, visitare il forum di supporto Aspose.CAD[Qui](https://forum.aspose.com/c/cad/19).
 
 ### Q5: È disponibile una risorsa di documentazione dettagliata?
 

@@ -21,7 +21,7 @@ Innan du dyker in i handledningen, se till att du har följande förutsättninga
 
 ## Importera namnområden
 
-I ditt C#-projekt, inkludera de nödvändiga namnrymden för att utnyttja funktionerna i Aspose.CAD för .NET:
+ditt C#-projekt, inkludera de nödvändiga namnrymden för att utnyttja funktionerna i Aspose.CAD för .NET:
 
 ```csharp
 using Aspose.CAD.FileFormats.Cad;

@@ -128,4 +128,4 @@ R3: Utilice las opciones de gráficos y rasterización proporcionadas para adapt
 
 ### P5: ¿Dónde puedo buscar ayuda o hacer preguntas?
 
- A5: Visita el[Foro Aspose.CAD](https://forum.aspose.com/c/cad/19) para ayuda y discusiones.
+A5: Visita el[Foro Aspose.CAD](https://forum.aspose.com/c/cad/19) para ayuda y discusiones.

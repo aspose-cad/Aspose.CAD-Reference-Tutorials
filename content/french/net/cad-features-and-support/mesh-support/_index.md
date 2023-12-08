@@ -15,7 +15,7 @@ Bienvenue dans notre didacticiel approfondi sur l'exploitation de la prise en ch
 
 Avant de plonger dans le didacticiel de prise en charge du maillage, assurez-vous que les conditions préalables suivantes sont remplies :
 
-1. Installez Aspose.CAD pour .NET : si vous ne l'avez pas déjà fait, téléchargez et installez Aspose.CAD pour .NET à partir du[page de téléchargement](https://releases.aspose.com/cad/net/).
+1.  Installez Aspose.CAD pour .NET : si vous ne l'avez pas déjà fait, téléchargez et installez Aspose.CAD pour .NET à partir du[page de téléchargement](https://releases.aspose.com/cad/net/).
 
 2.  Obtenir une licence : pour utiliser Aspose.CAD dans votre projet, assurez-vous de disposer d'une licence valide. Vous pouvez en acquérir un auprès de[ici](https://purchase.aspose.com/buy) ou explorez le[option de licence temporaire](https://purchase.aspose.com/temporary-license/) pour une période d'essai.
 

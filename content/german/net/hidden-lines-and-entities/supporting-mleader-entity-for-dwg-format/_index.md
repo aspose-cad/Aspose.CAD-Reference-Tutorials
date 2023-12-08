@@ -113,7 +113,7 @@ A3: Auf jeden Fall! Aspose.CAD ist eine robuste Bibliothek, die auf .NET-Entwick
 
 ### F4: Wo finde ich zusätzliche Unterstützung oder Unterstützung?
 
- A4: Bei Fragen oder Hilfe besuchen Sie bitte die[Aspose.CAD-Forum](https://forum.aspose.com/c/cad/19)um mit der Community und Experten in Kontakt zu treten.
+A4: Bei Fragen oder Hilfe besuchen Sie bitte die[Aspose.CAD-Forum](https://forum.aspose.com/c/cad/19)um mit der Community und Experten in Kontakt zu treten.
 
 ### F5: Kann ich Aspose.CAD testen, bevor ich einen Kauf tätige?
 

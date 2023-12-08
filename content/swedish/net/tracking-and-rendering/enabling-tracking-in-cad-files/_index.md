@@ -76,11 +76,11 @@ using (FileStream stream = new FileStream(MyDir + "output_conic_pyramid.pdf", Fi
 }
 ```
 
-Grattis! Du har framgångsrikt aktiverat spårning i CAD-filer med Aspose.CAD för .NET. Utforska gärna[dokumentation](https://reference.aspose.com/cad/net/) för mer detaljer.
+ Grattis! Du har framgångsrikt aktiverat spårning i CAD-filer med Aspose.CAD för .NET. Utforska gärna[dokumentation](https://reference.aspose.com/cad/net/) för mer detaljer.
 
 ## Slutsats
 
-I den här handledningen täckte vi de väsentliga stegen för att möjliggöra spårning i CAD-filer med Aspose.CAD för .NET. Genom att följa dessa steg säkerställer du exakt rendering och får insikter om potentiella problem under exportprocessen.
+den här handledningen täckte vi de väsentliga stegen för att möjliggöra spårning i CAD-filer med Aspose.CAD för .NET. Genom att följa dessa steg säkerställer du exakt rendering och får insikter om potentiella problem under exportprocessen.
 
 ## FAQ's
 

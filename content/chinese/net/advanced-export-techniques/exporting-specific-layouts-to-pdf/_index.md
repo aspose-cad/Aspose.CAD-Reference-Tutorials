@@ -81,7 +81,7 @@ image.Save(MyDir, pdfOptions);
 ## 第6步：显示成功消息
 
 ```csharp
-//显示成功消息
+//显示成功信息
 Console.WriteLine("\nThe DWG file with a specific layout exported successfully to PDF.\nFile saved at " + MyDir);
 ```
 

@@ -104,7 +104,7 @@ image.Save(MyDir, jpegOptions);
 
 ### Q4：如何获得 Aspose.CAD 支持？
 
- A4：您可以通过以下方式寻求支持[Aspose.CAD论坛](https://forum.aspose.com/c/cad/19).
+A4：您可以通过以下方式寻求支持[Aspose.CAD论坛](https://forum.aspose.com/c/cad/19).
 
 ### 问题 5：Aspose.CAD 有哪些许可选项？
 

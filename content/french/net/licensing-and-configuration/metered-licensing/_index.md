@@ -80,7 +80,7 @@ En conclusion, la maîtrise des licences limitées dans Aspose.CAD pour .NET per
 
 ### Q1 : Puis-je utiliser une licence limitée avec un essai gratuit ?
 
- R1 : Oui, les licences limitées sont compatibles avec le[version d'essai gratuite](https://releases.aspose.com/) d'Aspose.CAD pour .NET.
+ R1 : Oui, les licences limitées sont compatibles avec le[version d'essai gratuite](https://releases.aspose.com/) d'Aspose.CAD pour .NET.
 
 ### Q2 : À quelle fréquence dois-je vérifier les quantités consommées ?
 

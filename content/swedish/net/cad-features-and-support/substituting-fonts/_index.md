@@ -35,7 +35,7 @@ using Aspose.CAD.FileFormats.Cad.CadTables;
 
 ## Steg 1: Ladda CAD-ritning
 
- Börja med att ladda CAD-ritningen i en instans av`CadImage`Se till att du anger rätt sökväg till din dokumentkatalog.
+ Börja med att ladda CAD-ritningen i en instans av`CadImage`. Se till att du anger rätt sökväg till din dokumentkatalog.
 
 ```csharp
 string MyDir = "Your Document Directory";
@@ -43,7 +43,7 @@ string sourceFilePath = MyDir + "conic_pyramid.dxf";
 
 using (CadImage cadImage = (CadImage)Aspose.CAD.Image.Load(sourceFilePath))
 {
-    // Din kod för ytterligare åtgärder finns här
+    //Din kod för ytterligare åtgärder finns här
 }
 ```
 
@@ -95,7 +95,7 @@ S1: Ja, du kan återställa teckensnittsändringar genom att ladda om den urspru
 
 ### F2: Finns det andra teckensnittsegenskaper jag kan ändra?
 
- A2: Absolut, dessutom`PrimaryFontName`, Aspose.CAD för .NET ger tillgång till olika teckensnittsrelaterade egenskaper för avancerad anpassning.
+A2: Absolut, dessutom`PrimaryFontName`, Aspose.CAD för .NET ger tillgång till olika teckensnittsrelaterade egenskaper för avancerad anpassning.
 
 ### F3: Är Aspose.CAD kompatibel med olika CAD-format?
 

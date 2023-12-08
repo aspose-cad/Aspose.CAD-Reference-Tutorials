@@ -150,7 +150,7 @@ Dans ce didacticiel, nous avons expliqué le processus d'utilisation des fichier
 
 ### Q2 : Puis-je utiliser Aspose.CAD pour des projets commerciaux et personnels ?
 
-A2 : Oui, Aspose.CAD propose des options de licence flexibles pour un usage commercial et personnel. Visiter le[page d'achat](https://purchase.aspose.com/buy) pour plus de détails.
+ A2 : Oui, Aspose.CAD propose des options de licence flexibles pour un usage commercial et personnel. Visiter le[page d'achat](https://purchase.aspose.com/buy) pour plus de détails.
 
 ### Q3 : Comment puis-je obtenir une licence temporaire pour Aspose.CAD ?
 
@@ -158,7 +158,7 @@ A2 : Oui, Aspose.CAD propose des options de licence flexibles pour un usage comm
 
 ### Q4 : Où puis-je trouver de l'assistance pour Aspose.CAD ?
 
- A4 : Pour toute question ou assistance, visitez le[Forum Aspose.CAD](https://forum.aspose.com/c/cad/19).
+A4 : Pour toute question ou assistance, visitez le[Forum Aspose.CAD](https://forum.aspose.com/c/cad/19).
 
 ### Q5 : Existe-t-il un essai gratuit disponible pour Aspose.CAD ?
 

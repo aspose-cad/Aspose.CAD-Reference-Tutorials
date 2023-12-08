@@ -17,7 +17,7 @@ Prima di immergerci nel tutorial, assicurati di disporre dei seguenti prerequisi
 
 -  Aspose.CAD per .NET Library: assicurati di avere la libreria installata. Puoi scaricarlo da[Pagina di download di Aspose.CAD per .NET](https://releases.aspose.com/cad/net/).
 
--  Directory documenti: imposta una directory in cui sono archiviati i file DWG. Sostituire`"Your Document Directory"`nello snippet di codice fornito con il percorso effettivo.
+-  Directory documenti: imposta una directory in cui sono archiviati i file DWG. Sostituire`"Your Document Directory"` nello snippet di codice fornito con il percorso effettivo.
 
 ## Importa spazi dei nomi
 

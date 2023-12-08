@@ -40,7 +40,7 @@ using Aspose.CAD.ImageOptions;
 
 ## Paso 1: configure su directorio de documentos
 
- Asegúrese de tener un directorio de documentos configurado en su proyecto. Reemplazar`"Your Document Directory"`con la ruta real a su directorio de documentos.
+ Asegúrese de tener un directorio de documentos configurado en su proyecto. Reemplazar`"Your Document Directory"` con la ruta real a su directorio de documentos.
 
 ```csharp
 string MyDir = "Your Document Directory";
@@ -92,7 +92,7 @@ dgnImage.Save(outFile, options);
 
 ## Preguntas frecuentes
 
-### P1: ¿Puedo usar Aspose.CAD para .NET con otros formatos de archivos CAD?
+### P1: ¿Puedo utilizar Aspose.CAD para .NET con otros formatos de archivos CAD?
 
 R1: Sí, Aspose.CAD admite varios formatos de archivos CAD, incluidos DWG y DXF.
 
@@ -106,7 +106,7 @@ R2: Envuelva su código en un bloque try-catch, como se demuestra en el ejemplo 
 
 ### P4: ¿Puedo probar Aspose.CAD para .NET antes de comprarlo?
 
- R4: ¡Por supuesto! Explora la prueba gratuita[aquí](https://releases.aspose.com/).
+R4: ¡Por supuesto! Explora la prueba gratuita[aquí](https://releases.aspose.com/).
 
 ### P5: ¿Dónde puedo encontrar soporte comunitario para Aspose.CAD para .NET?
 

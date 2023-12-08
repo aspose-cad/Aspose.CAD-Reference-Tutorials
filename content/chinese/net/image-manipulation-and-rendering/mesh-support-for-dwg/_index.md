@@ -41,7 +41,7 @@ using Aspose.CAD.FileFormats.Cad.CadObjects.Polylines;
 
 ## 第 1 步：加载 DWG 文件
 
-首先加载现有的 DWG 文件作为`CadImage`:
+首先加载现有的 DWG 文件作为`CadImage`：
 
 ```csharp
 string MyDir = "Your Document Directory";

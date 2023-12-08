@@ -44,7 +44,7 @@ Aspose.CAD kütüphanesini kullanarak CAD belgesini yükleyerek başlayın.
 string sourceFilePath = MyDir + "conic_pyramid.dxf";
 using (Image image = Image.Load(sourceFilePath))
 {
-    // Daha sonraki adımlara ilişkin kodunuz buraya gelecek
+    //Daha sonraki adımlara ilişkin kodunuz buraya gelecek
 }
 ```
 
@@ -61,7 +61,7 @@ rasterizationOptions.Layouts = new string[] { "Model", "Layout1" };
 
 ## Adım 3: Ortaya Çıkan Görüntü için TiffOptions'ı Ayarlayın
 
- Bir örneğini oluşturun`TiffOptions` Ortaya çıkan görüntünün formatını tanımlamak için.
+ Bir örneğini oluşturun`TiffOptions`Ortaya çıkan görüntünün formatını tanımlamak için.
 
 ```csharp
 ImageOptionsBase options = new TiffOptions(TiffExpectedFormat.Default);
@@ -89,7 +89,7 @@ Tebrikler! Aspose.CAD for .NET'i kullanarak CAD düzenlerini başarıyla taramal
 
 ### S2: Aspose.CAD için nasıl geçici lisans alabilirim?
 
- A2: Ziyaret edin[geçici lisans sayfası](https://purchase.aspose.com/temporary-license/)Test ve değerlendirme amacıyla geçici bir lisans almak.
+ A2: Ziyaret edin[geçici lisans sayfası](https://purchase.aspose.com/temporary-license/) Test ve değerlendirme amacıyla geçici bir lisans almak.
 
 ### S3: Aspose.CAD desteğini nerede bulabilirim?
 
@@ -101,4 +101,4 @@ Tebrikler! Aspose.CAD for .NET'i kullanarak CAD düzenlerini başarıyla taramal
 
 ### S5: Aspose.CAD lisansını nereden satın alabilirim?
 
- A5: Şuraya gidin:[satın alma sayfası](https://purchase.aspose.com/buy) bir lisans satın almak ve Aspose.CAD'in tüm potansiyelini ortaya çıkarmak için.
+ A5: Şuraya gidin:[satın alma sayfası](https://purchase.aspose.com/buy) bir lisans satın almak ve Aspose.CAD'in tüm potansiyelini açığa çıkarmak için.

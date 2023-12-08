@@ -86,7 +86,7 @@ Repita estos pasos para cada capa de la imagen CAD.
 
 ## Preguntas frecuentes
 
-### P1: ¿Puedo usar Aspose.CAD con otros marcos .NET?
+### P1: ¿Puedo usar Aspose.CAD con otros frameworks .NET?
 
 R1: Sí, Aspose.CAD es compatible con varios marcos .NET, lo que brinda flexibilidad para sus necesidades de desarrollo.
 

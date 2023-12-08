@@ -93,7 +93,7 @@ A2：当然！如教程中所示，您可以定制导出选项（包括布局）
 
 ### Q4：有免费试用吗？
 
- A4：是的，您可以通过免费试用体验 Aspose.CAD for .NET 的功能。访问[这个链接](https://releases.aspose.com/)开始。
+A4：是的，您可以通过免费试用体验 Aspose.CAD for .NET 的功能。访问[这个链接](https://releases.aspose.com/)开始。
 
 ### Q5：我如何获得支持或与社区建立联系？
 

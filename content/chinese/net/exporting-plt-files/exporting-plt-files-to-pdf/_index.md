@@ -13,7 +13,7 @@ url: /zh/net/exporting-plt-files/exporting-plt-files-to-pdf/
 
 在我们深入学习本教程之前，请确保您具备以下先决条件：
 
-1. Aspose.CAD for .NET 库：确保您已安装 Aspose.CAD 库。你可以下载它[这里](https://releases.aspose.com/cad/net/).
+1.  Aspose.CAD for .NET 库：确保您已安装 Aspose.CAD 库。你可以下载它[这里](https://releases.aspose.com/cad/net/).
 
 2. 开发环境：准备好可用的.NET 开发环境。
 

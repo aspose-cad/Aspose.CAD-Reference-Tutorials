@@ -15,7 +15,7 @@ Wenn Sie als .NET-Entwickler eine leistungsstarke Lösung zum Bearbeiten von CAD
 
 Bevor Sie mit dem Tutorial beginnen, stellen Sie sicher, dass die folgenden Voraussetzungen erfüllt sind:
 
-1. Aspose.CAD-Bibliothek: Laden Sie die Aspose.CAD-Bibliothek herunter und installieren Sie sie[dieser Link](https://releases.aspose.com/cad/net/).
+1.  Aspose.CAD-Bibliothek: Laden Sie die Aspose.CAD-Bibliothek herunter und installieren Sie sie[dieser Link](https://releases.aspose.com/cad/net/).
 
 2. Entwicklungsumgebung: Richten Sie eine C#-Entwicklungsumgebung ein, z. B. Visual Studio.
 
@@ -42,7 +42,7 @@ string MyDir = "Your Document Directory";
 string inputFile = MyDir + "Line.dwg";
 using (var cadImage = (CadImage)Image.Load(inputFile))
 {
-    // Ihren Code für weitere Schritte finden Sie hier
+    //Ihren Code für weitere Schritte finden Sie hier
 }
 ```
 
@@ -79,4 +79,4 @@ A1: Ja, Aspose.CAD wird regelmäßig aktualisiert, um die Kompatibilität mit de
 
 ### F5: Benötigen Sie Hilfe oder haben Sie spezielle Fragen?
 
- A5: Besuchen Sie das Aspose.CAD-Community-Forum[Hier](https://forum.aspose.com/c/cad/19) für fachkundige Hilfe und Community-Unterstützung.
+ A5: Besuchen Sie das Aspose.CAD-Community-Forum[Hier](https://forum.aspose.com/c/cad/19)für fachkundige Hilfe und Community-Unterstützung.

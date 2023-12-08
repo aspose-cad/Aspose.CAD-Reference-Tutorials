@@ -17,7 +17,7 @@ En este tutorial, profundizaremos en los detalles de la compatibilidad con lápi
 
 Antes de sumergirnos en el tutorial, asegúrese de cumplir con los siguientes requisitos previos:
 
--  Aspose.CAD para .NET instalado en su entorno de desarrollo. Puedes descargarlo desde el[página de lanzamiento](https://releases.aspose.com/cad/net/).
+- Aspose.CAD para .NET instalado en su entorno de desarrollo. Puedes descargarlo desde el[página de lanzamiento](https://releases.aspose.com/cad/net/).
 
 - Un conocimiento básico de los formatos de archivos CAD, particularmente DXF (formato de intercambio de dibujos).
 

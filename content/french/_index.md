@@ -43,3 +43,26 @@ Voici des liens vers quelques ressources utiles :
 - [Exportation de fichiers STL](./net/stl-file-export/)
 
 
+## Aspose.CAD pour les didacticiels Java
+{{% alert color="primary" %}}
+Embarquez pour un voyage visant à améliorer vos compétences en développement CAO avec Aspose.CAD pour Java. Plongez-vous dans une gamme de didacticiels complets qui abordent les domaines de la conversion de dessins, de l'annotation de texte, de la manipulation de fichiers, des fonctionnalités avancées, des licences et bien plus encore. Que vous soyez débutant ou développeur chevronné, nos guides étape par étape méticuleusement conçus sont conçus pour vous responsabiliser. Découvrez les nuances des subtilités de la CAO sans effort, vous permettant ainsi de libérer tout le potentiel de vos compétences et d'apporter un nouveau niveau de précision et d'efficacité à vos projets.
+{{% /alert %}}
+
+Voici des liens vers quelques ressources utiles :
+ 
+- [Conversion de dessins CAO](./java/cad-drawing-conversion/)
+- [Texte CAO et annotations](./java/cad-text-and-annotation/)
+- [Options d'exportation CAO vers PDF et SVG](./java/cad-to-pdf-and-svg-export-options/)
+- [Manipulation de fichiers CAO](./java/cad-file-manipulation/)
+- [Fonctionnalités CAO avancées](./java/advanced-cad-features/)
+- [Licence et configuration](./java/licensing-and-configuration/)
+- [Opérations sur les fichiers DWG](./java/dwg-file-operations/)
+- [Métadonnées CAO et rendu](./java/cad-meta-data-and-rendering/)
+- [Texte CAO et formatage](./java/cad-text-and-formatting/)
+- [Caractéristiques supplémentaires](./java/additional-features/)
+- [Options d'exportation CAO](./java/cad-export-options/)
+- [Options d'exportation DGN](./java/dgn-export-options/)
+- [Autres opérations de CAO](./java/other-cad-operations/)
+
+
+

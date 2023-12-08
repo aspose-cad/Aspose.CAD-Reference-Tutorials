@@ -11,13 +11,13 @@ url: /sv/net/cad-features-and-support/pen-support-in-export/
 
 Aspose.CAD för .NET tillhandahåller en kraftfull uppsättning verktyg för att arbeta med CAD-filer (Computer Aided Design), vilket gör det möjligt för utvecklare att manipulera och exportera CAD-bilder sömlöst. En anmärkningsvärd funktion är pennstödet under export, vilket gör att användare kan anpassa start- och slutkapsinställningar för pennor när de exporterar CAD-bilder till olika format som PDF, PNG, BMP, GIF, JPEG2000, JPEG, PSD, TIFF och WMF.
 
-den här handledningen kommer vi att fördjupa oss i detaljerna för pennstöd vid export med Aspose.CAD för .NET. Vi delar upp varje steg och ger tydliga förklaringar och exempel som guidar dig genom processen.
+I den här handledningen kommer vi att fördjupa oss i detaljerna för pennstöd vid export med Aspose.CAD för .NET. Vi delar upp varje steg och ger tydliga förklaringar och exempel som guidar dig genom processen.
 
 ## Förutsättningar
 
 Innan vi dyker in i handledningen, se till att du har följande förutsättningar på plats:
 
--  Aspose.CAD för .NET installerat i din utvecklingsmiljö. Du kan ladda ner den från[släpp sida](https://releases.aspose.com/cad/net/).
+- Aspose.CAD för .NET installerat i din utvecklingsmiljö. Du kan ladda ner den från[släpp sida](https://releases.aspose.com/cad/net/).
 
 - En grundläggande förståelse för CAD-filformat, särskilt DXF (Drawing Exchange Format).
 

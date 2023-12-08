@@ -15,7 +15,7 @@ Välkommen till vår djupgående handledning om hur du använder mesh-stöd i As
 
 Innan du dyker in i handledningen för mesh-stöd, se till att du har följande förutsättningar på plats:
 
-1. Installera Aspose.CAD för .NET: Om du inte redan har gjort det, ladda ner och installera Aspose.CAD för .NET från[nedladdningssida](https://releases.aspose.com/cad/net/).
+1.  Installera Aspose.CAD för .NET: Om du inte redan har gjort det, ladda ner och installera Aspose.CAD för .NET från[nedladdningssida](https://releases.aspose.com/cad/net/).
 
 2.  Skaffa en licens: För att använda Aspose.CAD i ditt projekt, se till att du har en giltig licens. Du kan skaffa en från[här](https://purchase.aspose.com/buy) eller utforska[tillfälligt licensalternativ](https://purchase.aspose.com/temporary-license/) under en provperiod.
 

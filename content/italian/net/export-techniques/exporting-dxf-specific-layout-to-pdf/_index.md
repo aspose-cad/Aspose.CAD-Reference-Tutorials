@@ -44,7 +44,7 @@ string sourceFilePath = MyDir + "conic_pyramid.dxf";
 
 using (Image image = Image.Load(sourceFilePath))
 {
-    // Il tuo codice per i passaggi successivi verrà inserito qui
+    //Il tuo codice per i passaggi successivi verrà inserito qui
 }
 ```
 
@@ -96,11 +96,11 @@ Congratulazioni! Hai imparato con successo come esportare un file DXF con un lay
 
 ### Q1: Aspose.CAD è compatibile con tutte le versioni dei file DXF?
 
- A1: Aspose.CAD supporta varie versioni di file DXF. Fare riferimento al[documentazione](https://reference.aspose.com/cad/net/)per l'elenco delle versioni supportate.
+ A1: Aspose.CAD supporta varie versioni di file DXF. Fare riferimento al[documentazione](https://reference.aspose.com/cad/net/) per l'elenco delle versioni supportate.
 
 ### Q2: Posso personalizzare le impostazioni di output del PDF?
 
- R2: Sì, puoi personalizzare le impostazioni di output del PDF modificando le proprietà di`CadRasterizationOptions` E`PdfOptions` in base alle vostre esigenze.
+R2: Sì, puoi personalizzare le impostazioni di output del PDF modificando le proprietà di`CadRasterizationOptions` E`PdfOptions` in base alle vostre esigenze.
 
 ### Q3: È disponibile una prova gratuita per Aspose.CAD?
 

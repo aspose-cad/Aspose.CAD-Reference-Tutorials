@@ -117,4 +117,4 @@ A2: Kesinlikle! Aspose.CAD, farklı çıktı formatlarına yönelik özel gereks
 
 ### S5: Nasıl destek alabilirim veya yardım için toplulukla nasıl bağlantı kurabilirim?
 
- A5: ziyaret edin[Aspose.CAD forumu](https://forum.aspose.com/c/cad/19) Toplulukla destek, tartışmalar ve işbirliği için.
+A5: ziyaret edin[Aspose.CAD forumu](https://forum.aspose.com/c/cad/19) Toplulukla destek, tartışmalar ve işbirliği için.

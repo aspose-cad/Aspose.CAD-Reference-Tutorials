@@ -104,8 +104,8 @@ A3：是的，Aspose.CAD for .NET 旨在与最新的 .NET Core 版本兼容。�
 
 ### Q4：我可以根据我的具体要求进一步自定义导出设置吗？
 
-A4：当然！提供的代码提供了一个起点。您可以探索其他选项和配置[Aspose.CAD 文档](https://reference.aspose.com/cad/net/).
+ A4：当然！提供的代码提供了一个起点。您可以探索其他选项和配置[Aspose.CAD 文档](https://reference.aspose.com/cad/net/).
 
 ### 问题 5：我可以在哪里寻求帮助或分享我使用 Aspose.CAD for .NET 的经验？
 
- A5：加入 Aspose.CAD 社区[论坛](https://forum.aspose.com/c/cad/19)与其他开发人员互动并寻求帮助。
+A5：加入 Aspose.CAD 社区[论坛](https://forum.aspose.com/c/cad/19)与其他开发人员互动并寻求帮助。

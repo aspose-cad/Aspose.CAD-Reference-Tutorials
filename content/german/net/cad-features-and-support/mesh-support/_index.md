@@ -15,7 +15,7 @@ Willkommen zu unserem ausführlichen Tutorial zur Nutzung der Mesh-Unterstützun
 
 Bevor Sie sich mit dem Tutorial zur Mesh-Unterstützung befassen, stellen Sie sicher, dass die folgenden Voraussetzungen erfüllt sind:
 
-1. Installieren Sie Aspose.CAD für .NET: Falls Sie es noch nicht getan haben, laden Sie Aspose.CAD für .NET von herunter und installieren Sie es[Download-Seite](https://releases.aspose.com/cad/net/).
+1.  Installieren Sie Aspose.CAD für .NET: Falls Sie es noch nicht getan haben, laden Sie Aspose.CAD für .NET von herunter und installieren Sie es[Download-Seite](https://releases.aspose.com/cad/net/).
 
 2.  Besorgen Sie sich eine Lizenz: Um Aspose.CAD in Ihrem Projekt zu verwenden, stellen Sie sicher, dass Sie über eine gültige Lizenz verfügen. Sie können eines erwerben bei[Hier](https://purchase.aspose.com/buy) oder erkunden Sie die[temporäre Lizenzoption](https://purchase.aspose.com/temporary-license/) für eine Probezeit.
 

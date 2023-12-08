@@ -117,4 +117,4 @@ A1: Ja, Aspose.CAD für .NET eignet sich sowohl für Desktop- als auch für Weba
 
 ### F5: Benötigen Sie Hilfe oder haben Sie Fragen?
 
- A5: Treten Sie der Aspose.CAD-Community bei[Hilfeforum](https://forum.aspose.com/c/cad/19) für schnelle Hilfe und Diskussionen.
+A5: Treten Sie der Aspose.CAD-Community bei[Hilfeforum](https://forum.aspose.com/c/cad/19) für schnelle Hilfe und Diskussionen.

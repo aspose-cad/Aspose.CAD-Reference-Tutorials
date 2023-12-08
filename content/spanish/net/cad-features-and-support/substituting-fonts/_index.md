@@ -35,7 +35,7 @@ using Aspose.CAD.FileFormats.Cad.CadTables;
 
 ## Paso 1: cargar el dibujo CAD
 
- Comience cargando el dibujo CAD en una instancia de`CadImage`Asegúrese de proporcionar la ruta correcta a su directorio de documentos.
+ Comience cargando el dibujo CAD en una instancia de`CadImage`. Asegúrese de proporcionar la ruta correcta a su directorio de documentos.
 
 ```csharp
 string MyDir = "Your Document Directory";
@@ -43,7 +43,7 @@ string sourceFilePath = MyDir + "conic_pyramid.dxf";
 
 using (CadImage cadImage = (CadImage)Aspose.CAD.Image.Load(sourceFilePath))
 {
-    // Su código para acciones adicionales va aquí
+    //Su código para acciones adicionales va aquí
 }
 ```
 
@@ -95,7 +95,7 @@ R1: Sí, puede revertir los cambios de fuente recargando el dibujo CAD original 
 
 ### P2: ¿Hay otras propiedades de fuente que pueda modificar?
 
- R2: Absolutamente, además`PrimaryFontName`, Aspose.CAD para .NET proporciona acceso a varias propiedades relacionadas con fuentes para una personalización avanzada.
+R2: Absolutamente, además`PrimaryFontName`, Aspose.CAD para .NET proporciona acceso a varias propiedades relacionadas con fuentes para una personalización avanzada.
 
 ### P3: ¿Aspose.CAD es compatible con diferentes formatos CAD?
 

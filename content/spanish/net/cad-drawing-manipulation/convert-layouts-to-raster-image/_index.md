@@ -44,7 +44,7 @@ Comience cargando el documento CAD usando la biblioteca Aspose.CAD.
 string sourceFilePath = MyDir + "conic_pyramid.dxf";
 using (Image image = Image.Load(sourceFilePath))
 {
-    // Su código para pasos adicionales irá aquí
+    //Su código para pasos adicionales irá aquí
 }
 ```
 
@@ -61,7 +61,7 @@ rasterizationOptions.Layouts = new string[] { "Model", "Layout1" };
 
 ## Paso 3: configurar TiffOptions para la imagen resultante
 
- Crear una instancia de`TiffOptions` para definir el formato de la imagen resultante.
+ Crear una instancia de`TiffOptions`para definir el formato de la imagen resultante.
 
 ```csharp
 ImageOptionsBase options = new TiffOptions(TiffExpectedFormat.Default);
@@ -89,7 +89,7 @@ image.Save(outputFilePath, options);
 
 ### P2: ¿Cómo puedo obtener una licencia temporal para Aspose.CAD?
 
- A2: Visita el[página de licencia temporal](https://purchase.aspose.com/temporary-license/)adquirir una licencia temporal para fines de prueba y evaluación.
+ A2: Visita el[página de licencia temporal](https://purchase.aspose.com/temporary-license/) adquirir una licencia temporal para fines de prueba y evaluación.
 
 ### P3: ¿Dónde puedo encontrar soporte para Aspose.CAD?
 

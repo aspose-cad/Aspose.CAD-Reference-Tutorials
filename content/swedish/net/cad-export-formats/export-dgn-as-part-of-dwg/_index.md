@@ -116,7 +116,7 @@ Grattis! Du har framgångsrikt gått igenom processen att exportera en DGN-fil s
 S2: Aspose.CAD stöder hantering av stora DWG-filer, men hårdvarubegränsningar kan gälla.
 
 ### F3: Finns det en testversion tillgänglig?
- A3: Ja, du kan få en gratis provperiod[här](https://releases.aspose.com/).
+A3: Ja, du kan få en gratis provperiod[här](https://releases.aspose.com/).
 
 ### F4: Hur kan jag få tillfälliga licenser?
  A4: Tillfälliga licenser kan erhållas[här](https://purchase.aspose.com/temporary-license/).

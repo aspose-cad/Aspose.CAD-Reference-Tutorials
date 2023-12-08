@@ -10,7 +10,7 @@ url: /fr/net/cad-features-and-support/
 
 ## Introduction
 
-Êtes-vous prêt à élever votre jeu de CAO ? Plongez dans le monde des didacticiels Aspose.CAD pour .NET et débloquez un royaume de possibilités pour une intégration et une manipulation transparentes des fichiers CAO. Que vous soyez un professionnel chevronné ou débutant, nos guides étape par étape s'adressent à tous les niveaux d'expertise.
+Êtes-vous prêt à élever votre jeu de CAO ? Plongez dans le monde des didacticiels Aspose.CAD pour .NET et débloquez un éventail de possibilités pour une intégration et une manipulation transparentes des fichiers CAO. Que vous soyez un professionnel chevronné ou débutant, nos guides étape par étape s'adressent à tous les niveaux d'expertise.
 
 ## Explorez la puissance de la prise en charge 3D pour les fichiers DGN V7
 

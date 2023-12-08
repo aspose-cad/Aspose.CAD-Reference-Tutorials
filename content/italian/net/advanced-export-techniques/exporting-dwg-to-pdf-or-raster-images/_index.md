@@ -114,7 +114,7 @@ Congratulazioni! Hai imparato con successo come utilizzare Aspose.CAD per .NET p
 
 ### Q4: Posso ottenere una licenza temporanea a scopo di test?
 
-R4: Sì, puoi ottenere una licenza temporanea[Qui](https://purchase.aspose.com/temporary-license/).
+ R4: Sì, puoi ottenere una licenza temporanea[Qui](https://purchase.aspose.com/temporary-license/).
 
 ### Q5: Dove posso trovare la documentazione dettagliata?
 

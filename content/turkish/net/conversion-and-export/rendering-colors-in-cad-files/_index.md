@@ -15,7 +15,7 @@ url: /tr/net/conversion-and-export/rendering-colors-in-cad-files/
 
 Eğiticiye dalmadan önce aşağıdaki önkoşulların mevcut olduğundan emin olun:
 
-- Aspose.CAD Kütüphanesi: Aspose.CAD kütüphanesini şuradan indirip yükleyin:[Burada](https://releases.aspose.com/cad/net/).
+-  Aspose.CAD Kütüphanesi: Aspose.CAD kütüphanesini şuradan indirip yükleyin:[Burada](https://releases.aspose.com/cad/net/).
 
 - Geliştirme Ortamı: Bir .NET geliştirme ortamı kurduğunuzdan emin olun.
 
@@ -91,7 +91,7 @@ Tebrikler! Aspose.CAD for .NET'i kullanarak CAD dosyalarındaki renkleri başar�
 
 ### S1: Aspose.CAD'i ücretsiz kullanabilir miyim?
 
- Cevap1: Aspose.CAD ücretsiz deneme sürümünü sunuyor[Burada](https://releases.aspose.com/). Satın almadan önce özelliklerini keşfedebilirsiniz.
+ Cevap1: Aspose.CAD ücretsiz deneme sürümünü sunuyor[Burada](https://releases.aspose.com/)Satın almadan önce özelliklerini keşfedebilirsiniz.
 
 ### S2: Aspose.CAD için ayrıntılı belgeleri nerede bulabilirim?
 
@@ -99,7 +99,7 @@ Tebrikler! Aspose.CAD for .NET'i kullanarak CAD dosyalarındaki renkleri başar�
 
 ### S3: Aspose.CAD için nasıl geçici lisans alabilirim?
 
- Cevap 3: Geçici bir lisans edinin[Burada](https://purchase.aspose.com/temporary-license/)test amaçlı.
+ Cevap 3: Geçici bir lisans edinin[Burada](https://purchase.aspose.com/temporary-license/) test amaçlı.
 
 ### S4: Yardıma mı ihtiyacınız var veya sorularınız mı var?
 

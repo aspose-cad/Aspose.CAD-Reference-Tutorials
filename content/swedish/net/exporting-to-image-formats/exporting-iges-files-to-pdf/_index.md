@@ -94,7 +94,7 @@ Med dessa sex enkla steg har du framgångsrikt exporterat en IGES-fil till PDF m
 
 ## Slutsats
 
-I den här handledningen har vi utforskat ett sömlöst sätt att konvertera IGES-filer till PDF med Aspose.CAD för .NET. Steg-för-steg-guiden säkerställer en smidig och effektiv process, vilket ger dig möjlighet att hantera CAD-filer med precision.
+den här handledningen har vi utforskat ett sömlöst sätt att konvertera IGES-filer till PDF med Aspose.CAD för .NET. Steg-för-steg-guiden säkerställer en smidig och effektiv process, vilket ger dig möjlighet att hantera CAD-filer med precision.
 
 
 ## FAQ's
@@ -117,4 +117,4 @@ S1: Ja, Aspose.CAD för .NET är lämplig för både skrivbords- och webbapplika
 
 ### F5: Behöver du hjälp eller har frågor?
 
- S5: Gå med i Aspose.CAD-communityt på[supportforum](https://forum.aspose.com/c/cad/19) för snabb hjälp och diskussioner.
+S5: Gå med i Aspose.CAD-communityt på[supportforum](https://forum.aspose.com/c/cad/19) för snabb hjälp och diskussioner.

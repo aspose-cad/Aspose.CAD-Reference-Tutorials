@@ -45,7 +45,7 @@ string OutputDir = "Your Document Directory";
 using (Image cadDrawing = Image.Load(SourceDir + "Tyrannosaurus.dwfx"))
 ```
 
- قم بتحميل ملف DWFX باستخدام ملف`Image.Load`طريقة. استبدل "Tyrannosaurus.dwfx" بالاسم الفعلي لملف DWFX الخاص بك.
+ قم بتحميل ملف DWFX باستخدام ملف`Image.Load` طريقة. استبدل "Tyrannosaurus.dwfx" بالاسم الفعلي لملف DWFX الخاص بك.
 
 ## الخطوة 3: تكوين خيارات التنقيط
 
@@ -99,4 +99,4 @@ A1: يدعم Aspose.CAD for .NET نطاقًا واسعًا من تنسيقات C
 
 ### س5: هل تحتاج إلى دعم أو لديك المزيد من الأسئلة؟
 
- ج5: قم بزيارة[منتدى Aspose.CAD](https://forum.aspose.com/c/cad/19) للمساعدة.
+ج5: قم بزيارة[منتدى Aspose.CAD](https://forum.aspose.com/c/cad/19) للمساعدة.

@@ -44,7 +44,7 @@ Inizia caricando il documento CAD utilizzando la libreria Aspose.CAD.
 string sourceFilePath = MyDir + "conic_pyramid.dxf";
 using (Image image = Image.Load(sourceFilePath))
 {
-    // Il tuo codice per i passaggi successivi verrà inserito qui
+    //Il tuo codice per i passaggi successivi verrà inserito qui
 }
 ```
 
@@ -61,7 +61,7 @@ rasterizationOptions.Layouts = new string[] { "Model", "Layout1" };
 
 ## Passaggio 3: impostare le opzioni Tiff per l'immagine risultante
 
- Crea un'istanza di`TiffOptions` per definire il formato dell'immagine risultante.
+ Crea un'istanza di`TiffOptions`per definire il formato dell'immagine risultante.
 
 ```csharp
 ImageOptionsBase options = new TiffOptions(TiffExpectedFormat.Default);
@@ -89,7 +89,7 @@ Congratulazioni! Hai convertito con successo i layout CAD in un formato di immag
 
 ### Q2: Come posso ottenere una licenza temporanea per Aspose.CAD?
 
- A2: Visita il[pagina della licenza temporanea](https://purchase.aspose.com/temporary-license/)acquisire una licenza temporanea per scopi di test e valutazione.
+ A2: Visita il[pagina della licenza temporanea](https://purchase.aspose.com/temporary-license/) acquisire una licenza temporanea per scopi di test e valutazione.
 
 ### Q3: Dove posso trovare supporto per Aspose.CAD?
 

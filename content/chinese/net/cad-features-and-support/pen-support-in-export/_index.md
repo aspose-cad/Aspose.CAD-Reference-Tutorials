@@ -17,7 +17,7 @@ Aspose.CAD for .NET 提供了一套强大的工具来处理计算机辅助设计
 
 在我们深入学习本教程之前，请确保您具备以下先决条件：
 
--  Aspose.CAD for .NET 安装在您的开发环境中。您可以从[发布页面](https://releases.aspose.com/cad/net/).
+- Aspose.CAD for .NET 安装在您的开发环境中。您可以从[发布页面](https://releases.aspose.com/cad/net/).
 
 - 对 CAD 文件格式，特别是 DXF（绘图交换格式）有基本的了解。
 

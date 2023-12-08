@@ -86,7 +86,7 @@ Jetzt haben Sie erfolgreich Ebenen in einer DWG-Datei mit C# mit Aspose.CAD für
 
 ## Abschluss
 
-In diesem Tutorial haben wir den Prozess der Verarbeitung von Ebenen in DWG-Dateien mithilfe von C# und der Aspose.CAD-Bibliothek durchlaufen. Wenn Sie diese Schritte befolgen, können Sie effizient mit CAD-Dateien in Ihren .NET-Anwendungen arbeiten.
+In diesem Tutorial haben wir den Prozess der Verarbeitung von Ebenen in DWG-Dateien mithilfe von C# und der Aspose.CAD-Bibliothek erläutert. Wenn Sie diese Schritte befolgen, können Sie effizient mit CAD-Dateien in Ihren .NET-Anwendungen arbeiten.
 
 ## FAQs
 

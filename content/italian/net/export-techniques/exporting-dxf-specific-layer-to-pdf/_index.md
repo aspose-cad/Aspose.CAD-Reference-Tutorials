@@ -19,7 +19,7 @@ Prima di approfondire il tutorial, assicurati di avere a disposizione quanto seg
 
 - File DXF di esempio: tieni pronto un file DXF per la sperimentazione. In questo tutorial utilizzeremo il file denominato "conic_pyramid.dxf" a scopo illustrativo.
 
--  Directory dei documenti: crea una directory per i tuoi documenti. Questo sarà indicato come`MyDir` negli esempi di codice.
+-  Directory dei documenti: crea una directory per i tuoi documenti. Questo sarà indicato come`MyDir`negli esempi di codice.
 
 ## Importa spazi dei nomi
 

@@ -33,7 +33,7 @@ MLeader varlıkları tasarımlarınıza dinamik bir boyut getirerek karmaşık b
 
 Kılavuzumuz temel bilgilerin ötesine geçerek MLeader varlıklarından en iyi şekilde yararlanmanızı sağlayacak pratik ipuçları ve püf noktaları sunuyor. Aspose.CAD for .NET ile CAD projelerinizi geliştirin ve tasarım sürecinizde yeni bir hassasiyet ve verimlilik düzeyini keşfedin.
 
-Sonuç olarak, ister gizli hatların kilidini açmaya, ister MLeader varlıklarının gücünden yararlanmaya odaklanın, Aspose.CAD for .NET eğitimleri ihtiyacınız olan rehberliği sağlar. Adım adım talimatlarımızla CAD projelerinizi geliştirin ve DWG dosyalarınızın tüm potansiyelini zahmetsizce ortaya çıkarın.
+Sonuç olarak, ister gizli hatların kilidini açmaya, ister MLeader varlıklarının gücünden yararlanmaya odaklanıyor olun, Aspose.CAD for .NET eğitimleri ihtiyacınız olan rehberliği sağlayacaktır. Adım adım talimatlarımızla CAD projelerinizi geliştirin ve DWG dosyalarınızın tüm potansiyelini zahmetsizce ortaya çıkarın.
 ## Gizli Çizgiler ve Varlıklar Eğitimleri
 ### [DWG Dosyalarında Gizli Çizgileri Destekleme - Aspose.CAD Eğitimi](./supporting-hidden-lines-in-dwg/)
 Aspose.CAD for .NET ile DWG dosyalarındaki gizli satırların kilidini zahmetsizce açın. Sorunsuz entegrasyon için adım adım kılavuzumuzu izleyin.

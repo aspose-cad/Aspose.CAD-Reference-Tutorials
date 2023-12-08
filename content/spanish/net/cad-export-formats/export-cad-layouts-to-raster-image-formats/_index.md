@@ -15,7 +15,7 @@ url: /es/net/cad-export-formats/export-cad-layouts-to-raster-image-formats/
 
 Antes de sumergirse en el tutorial, asegúrese de tener lo siguiente:
 
--  Aspose.CAD para la biblioteca .NET: asegúrese de tener instalada la biblioteca Aspose.CAD. Si no, puedes descargarlo desde[Sitio web de Aspose.CAD](https://releases.aspose.com/cad/net/).
+- Aspose.CAD para la biblioteca .NET: asegúrese de tener instalada la biblioteca Aspose.CAD. Si no, puedes descargarlo desde[Sitio web de Aspose.CAD](https://releases.aspose.com/cad/net/).
 
 - Archivo de dibujo CAD: prepare un archivo de dibujo CAD (por ejemplo, conic_pyramid.dxf) que desee convertir a formatos de imagen rasterizada.
 
@@ -41,7 +41,7 @@ string sourceFilePath = MyDir + "conic_pyramid.dxf";
 // Cargar un dibujo CAD en una instancia de Imagen
 using (var image = Image.Load(sourceFilePath))
 {
-    //Su código para cargar el dibujo CAD va aquí
+    // Su código para cargar el dibujo CAD va aquí
 }
 ```
 

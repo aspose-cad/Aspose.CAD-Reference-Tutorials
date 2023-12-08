@@ -80,7 +80,7 @@ CADDoc.Save(MyDir + "example-580-W_custom.pdf", CADf);
 
 ### س1: هل Aspose.CAD متوافق مع تنسيقات ملفات CAD الأخرى؟
 
- ج1: نعم، يدعم Aspose.CAD تنسيقات CAD المتنوعة، بما في ذلك DWG وDXF وDGN والمزيد. افحص ال[توثيق](https://reference.aspose.com/cad/net/) للحصول على قائمة كاملة.
+ ج1: نعم، يدعم Aspose.CAD تنسيقات CAD المتنوعة، بما في ذلك DWG وDXF وDGN والمزيد. افحص ال[توثيق](https://reference.aspose.com/cad/net/)للحصول على قائمة كاملة.
 
 ### س2: هل يمكنني تجربة Aspose.CAD قبل الشراء؟
 

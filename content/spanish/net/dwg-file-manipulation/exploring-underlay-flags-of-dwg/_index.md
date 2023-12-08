@@ -95,7 +95,7 @@ Console.WriteLine((underlay.Flags & UnderlayFlags.Monochrome) != UnderlayFlags.M
 
 ## Preguntas frecuentes
 
-### P1: ¿Puedo usar Aspose.CAD para .NET con otros formatos de archivos CAD?
+### P1: ¿Puedo utilizar Aspose.CAD para .NET con otros formatos de archivos CAD?
 
 R1: Aspose.CAD admite varios formatos CAD, incluidos DWG, DXF, DGN y más. Consulte la documentación para obtener la lista completa.
 
@@ -109,7 +109,7 @@ R1: Aspose.CAD admite varios formatos CAD, incluidos DWG, DXF, DGN y más. Consu
 
 ### P4: ¿Cómo compro Aspose.CAD para .NET?
 
- A4: Compra la biblioteca[aquí](https://purchase.aspose.com/buy).
+A4: Compra la biblioteca[aquí](https://purchase.aspose.com/buy).
 
 ### P5: ¿Hay una prueba gratuita disponible?
 

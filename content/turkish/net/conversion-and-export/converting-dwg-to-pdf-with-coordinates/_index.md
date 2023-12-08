@@ -15,7 +15,7 @@ Aspose.CAD for .NET kullanarak DWG dosyalarını belirtilen koordinatlarla PDF'y
 
 Başlamadan önce aşağıdaki önkoşullara sahip olduğunuzdan emin olun:
 
--  Aspose.CAD Kütüphanesi: .NET için Aspose.CAD kütüphanesini indirip yükleyin. Kütüphaneyi bulabilirsiniz[Burada](https://releases.aspose.com/cad/net/).
+- Aspose.CAD Kütüphanesi: .NET için Aspose.CAD kütüphanesini indirip yükleyin. Kütüphaneyi bulabilirsiniz[Burada](https://releases.aspose.com/cad/net/).
 
 - Geliştirme Ortamı: Visual Studio veya tercih edilen herhangi bir IDE de dahil olmak üzere uyumlu bir geliştirme ortamı kurduğunuzdan emin olun.
 
@@ -133,4 +133,4 @@ A4: Kesinlikle! PDF çıktısını özel gereksinimlerinize göre uyarlamak içi
 
 ### S5: Ek desteği veya topluluk tartışmalarını nerede bulabilirim?
 
- A5: ziyaret edin[Aspose.CAD Forumu](https://forum.aspose.com/c/cad/19) topluluk desteği ve tartışmalar için.
+A5: ziyaret edin[Aspose.CAD Forumu](https://forum.aspose.com/c/cad/19) topluluk desteği ve tartışmalar için.

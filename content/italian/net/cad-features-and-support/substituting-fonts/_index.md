@@ -35,7 +35,7 @@ using Aspose.CAD.FileFormats.Cad.CadTables;
 
 ## Passaggio 1: caricare il disegno CAD
 
- Inizia caricando il disegno CAD in un'istanza di`CadImage`Assicurati di fornire il percorso corretto alla directory dei documenti.
+ Inizia caricando il disegno CAD in un'istanza di`CadImage`. Assicurati di fornire il percorso corretto alla directory dei documenti.
 
 ```csharp
 string MyDir = "Your Document Directory";
@@ -43,7 +43,7 @@ string sourceFilePath = MyDir + "conic_pyramid.dxf";
 
 using (CadImage cadImage = (CadImage)Aspose.CAD.Image.Load(sourceFilePath))
 {
-    // Il tuo codice per ulteriori azioni va qui
+    //Il tuo codice per ulteriori azioni va qui
 }
 ```
 
@@ -95,7 +95,7 @@ R1: Sì, puoi annullare le modifiche apportate ai caratteri ricaricando il diseg
 
 ### Q2: Ci sono altre proprietà dei caratteri che posso modificare?
 
- A2: Assolutamente, inoltre`PrimaryFontName`, Aspose.CAD per .NET fornisce l'accesso a varie proprietà relative ai caratteri per la personalizzazione avanzata.
+A2: Assolutamente, inoltre`PrimaryFontName`, Aspose.CAD per .NET fornisce l'accesso a varie proprietà relative ai caratteri per la personalizzazione avanzata.
 
 ### Q3: Aspose.CAD è compatibile con diversi formati CAD?
 
@@ -105,7 +105,7 @@ A3: Sì, Aspose.CAD supporta un'ampia gamma di formati CAD, garantendo flessibil
 
 R4: Certamente è possibile implementare l'elaborazione batch per automatizzare la sostituzione dei caratteri su più disegni CAD.
 
-### Q5: Dove posso trovare ulteriore supporto per Aspose.CAD per .NET?
+### Q5: Dove posso trovare supporto aggiuntivo per Aspose.CAD per .NET?
 
  R5: Per ulteriore supporto e discussioni nella community, visitare il sito[Forum Aspose.CAD](https://forum.aspose.com/c/cad/19).
 

@@ -83,7 +83,7 @@ cadImage.Save(MyDir + "ExportDGNToPdf_out.pdf", pdfOptions);
 
 ### س3: هل هناك نسخة تجريبية مجانية متاحة لـ Aspose.CAD؟
 
- ج3: نعم، يمكنك الحصول على نسخة تجريبية مجانية[هنا](https://releases.aspose.com/).
+ج3: نعم، يمكنك الحصول على نسخة تجريبية مجانية[هنا](https://releases.aspose.com/).
 
 ### س4: كيف يمكنني الحصول على تراخيص مؤقتة لـ Aspose.CAD؟
 
@@ -91,4 +91,4 @@ cadImage.Save(MyDir + "ExportDGNToPdf_out.pdf", pdfOptions);
 
 ### س5: هل تحتاج إلى مساعدة أو لديك أسئلة؟
 
- ج5: قم بزيارة[منتدى Aspose.CAD](https://forum.aspose.com/c/cad/19) لدعم المجتمع.
+ج5: قم بزيارة[منتدى Aspose.CAD](https://forum.aspose.com/c/cad/19) لدعم المجتمع.

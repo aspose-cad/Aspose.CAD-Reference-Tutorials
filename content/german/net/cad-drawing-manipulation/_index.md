@@ -14,7 +14,7 @@ Willkommen in der Welt der Tutorials zur Bearbeitung von CAD-Zeichnungen mit Asp
 
 ## Anpassen der CAD-Zeichnungsgröße in Aspose.CAD für .NET
 
-Passt Ihre CAD-Zeichnung nicht auf die Leinwand? Keine Angst! Unser Tutorial zum Anpassen der CAD-Zeichnungsgrößen mit Aspose.CAD für .NET hilft Ihnen dabei. Wir führen Sie mühelos durch den Prozess und stellen sicher, dass Ihre Zeichnungen die perfekte Größe für Ihr Projekt haben. Verabschieden Sie sich von den Herausforderungen bei der Größenänderung mit unserer ausführlichen Anleitung.
+Passt Ihre CAD-Zeichnung nicht auf die Leinwand? Keine Angst! Unser Tutorial zum Anpassen der CAD-Zeichnungsgrößen mit Aspose.CAD für .NET hilft Ihnen dabei. Wir führen Sie mühelos durch den Prozess und stellen sicher, dass Ihre Zeichnungen die perfekte Größe für Ihr Projekt haben. Verabschieden Sie sich von den Herausforderungen bei der Größenänderung mit unserer detaillierten Anleitung.
 
 ## Konvertieren Sie CAD-Zeichnungen in Rasterbilder in Aspose.CAD für .NET
 

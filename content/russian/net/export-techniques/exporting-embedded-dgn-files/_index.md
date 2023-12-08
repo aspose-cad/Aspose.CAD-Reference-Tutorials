@@ -43,7 +43,7 @@ string MyDir = "Your Document Directory";
 string sourceFilePath = MyDir + "conic_pyramid.dxf";
 using (CadImage cadImage = (CadImage)Image.Load(sourceFilePath))
 {
-    // Здесь будет ваш код для дальнейших действий.
+    //Здесь будет ваш код для дальнейших действий.
 }
 ```
 
@@ -97,4 +97,4 @@ Console.WriteLine("\nThe DXF drawing exported successfully to PDF.\nFile saved a
 
 ### Вопрос 5: Нужна помощь или вы хотите взаимодействовать с сообществом?
 
- A5: Посетите[Форум Aspose.CAD](https://forum.aspose.com/c/cad/19) за поддержку и обсуждения.
+A5: Посетите[Форум Aspose.CAD](https://forum.aspose.com/c/cad/19) за поддержку и обсуждения.

@@ -116,7 +116,7 @@ cadImage.Save(outPath, exportOptions);
 R2: Aspose.CAD admite el manejo de archivos DWG de gran tamaño, pero pueden aplicarse limitaciones de hardware.
 
 ### P3: ¿Hay una versión de prueba disponible?
- R3: Sí, puedes obtener una prueba gratuita[aquí](https://releases.aspose.com/).
+R3: Sí, puedes obtener una prueba gratuita[aquí](https://releases.aspose.com/).
 
 ### P4: ¿Cómo puedo obtener licencias temporales?
  R4: Se pueden obtener licencias temporales[aquí](https://purchase.aspose.com/temporary-license/).

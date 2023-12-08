@@ -68,6 +68,6 @@ Aspose.CAD para .NET simplifica la compleja tarea de convertir archivos STL a PN
 ### P: ¿Dónde puedo encontrar apoyo adicional o debates comunitarios?
  Visita el[Foro Aspose.CAD](https://forum.aspose.com/c/cad/19) para apoyo y discusiones colaborativas.
 ### P: ¿Se admiten otros formatos de archivo para la conversión?
-Sí, Aspose.CAD admite varios formatos CAD más allá de STL. Referirse a[documentación](https://reference.aspose.com/cad/net/) para obtener una lista completa.
+ Sí, Aspose.CAD admite varios formatos CAD más allá de STL. Referirse a[documentación](https://reference.aspose.com/cad/net/) para obtener una lista completa.
 ### P: ¿Puedo procesar por lotes varios archivos STL?
 ¡Ciertamente! Implemente un bucle basado en los pasos proporcionados para procesar por lotes varios archivos STL.

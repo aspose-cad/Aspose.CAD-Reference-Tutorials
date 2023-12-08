@@ -112,7 +112,7 @@ Aspose.CAD for .NET 为开发人员提供了简化 CAD 工作流程的工具。�
 
 ### Q1：Aspose.CAD 与其他 CAD 格式兼容吗？
 
-A1：是的，Aspose.CAD支持各种CAD格式，包括DWG、DXF、DGN等。请参阅[文档](https://reference.aspose.com/cad/net/)以获得完整的列表。
+ A1：是的，Aspose.CAD支持各种CAD格式，包括DWG、DXF、DGN等。请参阅[文档](https://reference.aspose.com/cad/net/)以获得完整的列表。
 
 ### 问题 2：我可以同时对多个文件应用这些操作吗？
 

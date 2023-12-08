@@ -101,7 +101,7 @@ Console.WriteLine("\nCAD drawing converted successfully to raster image format.\
 
 ### Q1：Aspose.CAD 是否兼容所有 CAD 文件格式？
 
- A1：Aspose.CAD支持多种CAD文件格式，包括DWG、DXF、DGN等。请参阅[文档](https://reference.aspose.com/cad/net/)以获得完整的列表。
+A1：Aspose.CAD支持多种CAD文件格式，包括DWG、DXF、DGN等。请参阅[文档](https://reference.aspose.com/cad/net/)以获得完整的列表。
 
 ### Q2：我可以为不同的项目定制光栅化选项吗？
 
@@ -113,8 +113,8 @@ A2：是的，Aspose.CAD 允许广泛自定义光栅化选项，使开发人员�
 
 ### Q4：如何获得 Aspose.CAD 的支持？
 
- A4：如需任何帮助或疑问，请访问 Aspose.CAD[支持论坛](https://forum.aspose.com/c/cad/19).
+A4：如需任何帮助或疑问，请访问 Aspose.CAD[支持论坛](https://forum.aspose.com/c/cad/19).
 
 ### Q5：Aspose.CAD 是否有临时许可证？
  
-A5：是的，开发人员可以从以下位置获取 Aspose.CAD 的临时许可证：[这个链接](https://purchase.aspose.com/temporary-license/).
+ A5：是的，开发人员可以从以下位置获取 Aspose.CAD 的临时许可证：[这个链接](https://purchase.aspose.com/temporary-license/).

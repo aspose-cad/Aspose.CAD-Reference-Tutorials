@@ -54,7 +54,7 @@ using (CadImage image = (CadImage)Image.Load(MyDir + "example.dwt"))
 {
 ```
 
- Utilice el`Image.Load` método para cargar el archivo DWT en un`CadImage`objeto.
+ Utilice el`Image.Load`método para cargar el archivo DWT en un`CadImage` objeto.
 
 ## Paso 3: iterar a través de entidades
 
@@ -69,7 +69,7 @@ foreach (CadBaseEntity entity in image.Entities)
 
 ## Conclusión
 
-Siguiendo estos sencillos pasos, puede integrar perfectamente Aspose.CAD para .NET en su proyecto y leer archivos DWT de manera eficiente. Libere todo el potencial de los datos CAD con esta potente biblioteca.
+Siguiendo estos sencillos pasos, puede integrar perfectamente Aspose.CAD para .NET en su proyecto y leer archivos DWT de manera eficiente. Libere todo el potencial de los datos CAD con esta poderosa biblioteca.
 
 ## Preguntas frecuentes
 

@@ -54,7 +54,7 @@ using (CadImage image = (CadImage)Image.Load(MyDir + "example.dwt"))
 {
 ```
 
- الاستفادة من`Image.Load` طريقة تحميل ملف DWT إلى ملف`CadImage`هدف.
+ الاستفادة من`Image.Load`طريقة تحميل ملف DWT إلى ملف`CadImage` هدف.
 
 ## الخطوة 3: التكرار من خلال الكيانات
 

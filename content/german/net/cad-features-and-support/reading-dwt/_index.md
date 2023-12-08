@@ -54,7 +54,7 @@ using (CadImage image = (CadImage)Image.Load(MyDir + "example.dwt"))
 {
 ```
 
- Nutzen Sie die`Image.Load` Methode zum Laden der DWT-Datei in eine`CadImage`Objekt.
+ Nutzen Sie die`Image.Load`Methode zum Laden der DWT-Datei in eine`CadImage` Objekt.
 
 ## Schritt 3: Durch Entitäten iterieren
 

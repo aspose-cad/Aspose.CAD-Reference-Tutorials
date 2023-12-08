@@ -150,16 +150,16 @@ image.Save(fs, jpegOptions);
 
 ### Q2：我可以将 Aspose.CAD 用于商业和个人项目吗？
 
-A2：是的，Aspose.CAD 为商业和个人用途提供灵活的许可选项。参观[购买页面](https://purchase.aspose.com/buy)更多细节。
+ A2：是的，Aspose.CAD 为商业和个人用途提供灵活的许可选项。参观[购买页面](https://purchase.aspose.com/buy)更多细节。
 
 ### Q3：如何获得 Aspose.CAD 的临时许可证？
 
- A3：您可以从以下地点获得临时许可证：[这里](https://purchase.aspose.com/temporary-license/)出于评估目的。
+A3：您可以从以下地点获得临时许可证：[这里](https://purchase.aspose.com/temporary-license/)出于评估目的。
 
 ### Q4：在哪里可以找到对 Aspose.CAD 的支持？
 
- A4：如有任何疑问或帮助，请访问[Aspose.CAD论坛](https://forum.aspose.com/c/cad/19).
+A4：如有任何疑问或帮助，请访问[Aspose.CAD论坛](https://forum.aspose.com/c/cad/19).
 
 ### Q5：Aspose.CAD 有免费试用版吗？
 
- A5：是的，您可以访问 Aspose.CAD 的免费试用版[这里](https://releases.aspose.com/).
+A5：是的，您可以访问 Aspose.CAD 的免费试用版[这里](https://releases.aspose.com/).

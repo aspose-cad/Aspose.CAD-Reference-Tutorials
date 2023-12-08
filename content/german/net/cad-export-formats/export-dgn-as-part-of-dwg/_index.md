@@ -116,7 +116,7 @@ Glückwunsch! Sie haben den Prozess des Exportierens einer DGN-Datei als Teil ei
 A2: Aspose.CAD unterstützt die Verarbeitung großer DWG-Dateien, es können jedoch Hardwareeinschränkungen gelten.
 
 ### F3: Gibt es eine Testversion?
- A3: Ja, Sie können eine kostenlose Testversion erhalten[Hier](https://releases.aspose.com/).
+A3: Ja, Sie können eine kostenlose Testversion erhalten[Hier](https://releases.aspose.com/).
 
 ### F4: Wie kann ich temporäre Lizenzen erhalten?
  A4: Es können temporäre Lizenzen erworben werden[Hier](https://purchase.aspose.com/temporary-license/).

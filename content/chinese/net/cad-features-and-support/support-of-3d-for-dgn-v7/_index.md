@@ -106,7 +106,7 @@ A2：将代码包装在 try-catch 块中，如提供的示例所示，以优雅�
 
 ### Q4：我可以在购买前试用 Aspose.CAD for .NET 吗？
 
- A4：当然！探索免费试用[这里](https://releases.aspose.com/).
+A4：当然！探索免费试用[这里](https://releases.aspose.com/).
 
 ### 问题 5：在哪里可以找到 Aspose.CAD for .NET 的社区支持？
 

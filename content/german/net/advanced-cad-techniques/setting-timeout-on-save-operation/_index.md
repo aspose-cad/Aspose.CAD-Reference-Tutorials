@@ -15,7 +15,7 @@ Im dynamischen Bereich des computergestützten Designs (CAD) hängen die Effizie
 
 Bevor wir mit diesem Tutorial beginnen, stellen Sie sicher, dass die folgenden Voraussetzungen erfüllt sind:
 
-- Aspose.CAD für .NET: Stellen Sie sicher, dass die Aspose.CAD-Bibliothek in Ihr .NET-Projekt integriert ist. Sie können es herunterladen[Hier](https://releases.aspose.com/cad/net/).
+-  Aspose.CAD für .NET: Stellen Sie sicher, dass die Aspose.CAD-Bibliothek in Ihr .NET-Projekt integriert ist. Sie können es herunterladen[Hier](https://releases.aspose.com/cad/net/).
 
 - Dokumentenverzeichnis: Legen Sie ein bestimmtes Verzeichnis fest, in dem Ihre CAD-Dokumente gespeichert werden.
 
@@ -97,7 +97,7 @@ In diesem Tutorial haben wir den Prozess des Festlegens eines Zeitlimits für Sp
 
 ### F1: Kann ich die Timeout-Dauer anpassen?
 
- A1: Auf jeden Fall! Passen Sie die Dauer im an`Thread.Sleep` Erklärung, um Ihren spezifischen Anforderungen gerecht zu werden.
+A1: Auf jeden Fall! Passen Sie die Dauer im an`Thread.Sleep` Erklärung, um Ihren spezifischen Anforderungen gerecht zu werden.
 
 ### F2: Gibt es andere Optionen für die Rasterung?
 
@@ -113,4 +113,4 @@ A4: Auf jeden Fall! Aspose.CAD unterstützt sowohl 2D- als auch 3D-CAD-Dateiform
 
 ### F5: Wo finde ich weitere Hilfe oder Community-Unterstützung?
 
- A5: Besuchen Sie die[Aspose.CAD-Forum](https://forum.aspose.com/c/cad/19) für Community-Unterstützung und Diskussionen.
+A5: Besuchen Sie die[Aspose.CAD-Forum](https://forum.aspose.com/c/cad/19) für Community-Unterstützung und Diskussionen.

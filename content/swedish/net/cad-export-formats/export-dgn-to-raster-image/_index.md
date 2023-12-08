@@ -23,7 +23,7 @@ Låt oss nu dyka in i steg-för-steg-guiden.
 
 ## Importera namnområden
 
-I ditt .NET-projekt börjar du med att importera de nödvändiga namnrymden för Aspose.CAD. Det här steget låter dig komma åt de klasser och metoder som krävs för konvertering av DGN till rasterbild.
+ditt .NET-projekt börjar du med att importera de nödvändiga namnrymden för Aspose.CAD. Det här steget låter dig komma åt de klasser och metoder som krävs för konvertering av DGN till rasterbild.
 
 ```csharp
 using System;

@@ -7,7 +7,7 @@ type: docs
 weight: 14
 url: /sv/net/cad-features-and-support/setting-auto-layout-scaling/
 ---
-den dynamiska sfären av .NET-utveckling är optimering av renderingen av CAD-filer (Computer Aided Design) en avgörande aspekt för att skapa effektiva och visuellt tilltalande applikationer. Aspose.CAD för .NET ger utvecklare möjlighet att förbättra sina CAD-bearbetningsmöjligheter, och i denna handledning kommer vi att fokusera på att ställa in automatisk layoutskalning med Aspose.CAD för .NET.
+I den dynamiska sfären av .NET-utveckling är optimering av renderingen av CAD-filer (Computer Aided Design) en avgörande aspekt för att skapa effektiva och visuellt tilltalande applikationer. Aspose.CAD för .NET ger utvecklare möjlighet att förbättra sina CAD-bearbetningsmöjligheter, och i denna handledning kommer vi att fokusera på att ställa in automatisk layoutskalning med Aspose.CAD för .NET.
 
 ## Förutsättningar
 

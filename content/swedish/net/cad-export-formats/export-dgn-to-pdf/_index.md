@@ -83,7 +83,7 @@ A1: Absolut! Aspose.CAD förenklar komplexa CAD-uppgifter, vilket gör det tillg
 
 ### F3: Finns det en gratis testversion tillgänglig för Aspose.CAD?
 
- A3: Ja, du kan få en gratis provperiod[här](https://releases.aspose.com/).
+A3: Ja, du kan få en gratis provperiod[här](https://releases.aspose.com/).
 
 ### F4: Hur kan jag få tillfälliga licenser för Aspose.CAD?
 
@@ -91,4 +91,4 @@ A1: Absolut! Aspose.CAD förenklar komplexa CAD-uppgifter, vilket gör det tillg
 
 ### F5: Behöver du hjälp eller har frågor?
 
- A5: Besök[Aspose.CAD-forum](https://forum.aspose.com/c/cad/19) för samhällsstöd.
+A5: Besök[Aspose.CAD-forum](https://forum.aspose.com/c/cad/19) för samhällsstöd.

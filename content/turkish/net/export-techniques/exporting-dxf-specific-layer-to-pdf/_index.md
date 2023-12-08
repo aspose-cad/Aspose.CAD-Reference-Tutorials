@@ -9,7 +9,7 @@ url: /tr/net/export-techniques/exporting-dxf-specific-layer-to-pdf/
 ---
 ## giriiş
 
-.NET için CAD geliştirme alanında Aspose.CAD, geliştiricilerin CAD dosyalarını verimli bir şekilde işlemesine olanak tanıyan güçlü bir kütüphane olarak öne çıkıyor. Dikkate değer özelliklerinden biri, belirli katmanları DXF dosyalarından PDF formatına aktarabilme yeteneğidir. Bu eğitim size süreç boyunca adım adım rehberlik edecek ve bu özel görev için Aspose.CAD'in gücünden nasıl yararlanabileceğinizi gösterecek.
+.NET için CAD geliştirme alanında Aspose.CAD, geliştiricilerin CAD dosyalarını verimli bir şekilde işlemesine olanak tanıyan güçlü bir kitaplık olarak öne çıkıyor. Dikkate değer özelliklerinden biri, belirli katmanları DXF dosyalarından PDF formatına aktarabilme yeteneğidir. Bu eğitim size süreç boyunca adım adım rehberlik edecek ve bu özel görev için Aspose.CAD'in gücünden nasıl yararlanabileceğinizi gösterecek.
 
 ## Önkoşullar
 
@@ -19,7 +19,7 @@ url: /tr/net/export-techniques/exporting-dxf-specific-layer-to-pdf/
 
 - Örnek DXF Dosyası: Deneme için bir DXF dosyasını hazır bulundurun. Bu eğitimde örnek olarak "conic_pyramid.dxf" adlı dosyayı kullanacağız.
 
--  Belge Dizini: Belgeleriniz için bir dizin oluşturun. Bu şu şekilde anılacaktır:`MyDir` kod örneklerinde.
+-  Belge Dizini: Belgeleriniz için bir dizin oluşturun. Bu şu şekilde anılacaktır:`MyDir`kod örneklerinde.
 
 ## Ad Alanlarını İçe Aktar
 

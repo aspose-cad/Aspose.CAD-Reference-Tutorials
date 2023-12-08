@@ -44,7 +44,7 @@ Beginnen Sie mit dem Laden des CAD-Dokuments mithilfe der Aspose.CAD-Bibliothek.
 string sourceFilePath = MyDir + "conic_pyramid.dxf";
 using (Image image = Image.Load(sourceFilePath))
 {
-    // Ihren Code für weitere Schritte finden Sie hier
+    //Ihren Code für weitere Schritte finden Sie hier
 }
 ```
 
@@ -61,7 +61,7 @@ rasterizationOptions.Layouts = new string[] { "Model", "Layout1" };
 
 ## Schritt 3: TiffOptions für das resultierende Bild einrichten
 
- Erstellen Sie eine Instanz von`TiffOptions` um das Format des resultierenden Bildes zu definieren.
+ Erstellen Sie eine Instanz von`TiffOptions`um das Format des resultierenden Bildes zu definieren.
 
 ```csharp
 ImageOptionsBase options = new TiffOptions(TiffExpectedFormat.Default);
@@ -89,7 +89,7 @@ Glückwunsch! Sie haben CAD-Layouts mit Aspose.CAD für .NET erfolgreich in ein 
 
 ### F2: Wie kann ich eine temporäre Lizenz für Aspose.CAD erhalten?
 
- A2: Besuchen Sie die[temporäre Lizenzseite](https://purchase.aspose.com/temporary-license/)eine temporäre Lizenz zu Test- und Evaluierungszwecken zu erwerben.
+ A2: Besuchen Sie die[temporäre Lizenzseite](https://purchase.aspose.com/temporary-license/) eine temporäre Lizenz zu Test- und Evaluierungszwecken zu erwerben.
 
 ### F3: Wo finde ich Unterstützung für Aspose.CAD?
 

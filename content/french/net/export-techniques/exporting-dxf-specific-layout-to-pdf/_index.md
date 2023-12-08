@@ -44,7 +44,7 @@ string sourceFilePath = MyDir + "conic_pyramid.dxf";
 
 using (Image image = Image.Load(sourceFilePath))
 {
-    // Votre code pour les étapes ultérieures sera ici
+    //Votre code pour les étapes ultérieures sera ici
 }
 ```
 
@@ -96,11 +96,11 @@ Toutes nos félicitations! Vous avez appris avec succès comment exporter un fic
 
 ### Q1 : Aspose.CAD est-il compatible avec toutes les versions de fichiers DXF ?
 
- A1 : Aspose.CAD prend en charge différentes versions de fichiers DXF. Se référer au[Documentation](https://reference.aspose.com/cad/net/)pour la liste des versions prises en charge.
+ A1 : Aspose.CAD prend en charge différentes versions de fichiers DXF. Se référer au[Documentation](https://reference.aspose.com/cad/net/) pour la liste des versions prises en charge.
 
 ### Q2 : Puis-je personnaliser les paramètres de sortie PDF ?
 
- A2 : Oui, vous pouvez personnaliser les paramètres de sortie PDF en ajustant les propriétés de`CadRasterizationOptions` et`PdfOptions` selon vos exigences.
+A2 : Oui, vous pouvez personnaliser les paramètres de sortie PDF en ajustant les propriétés de`CadRasterizationOptions` et`PdfOptions` selon vos exigences.
 
 ### Q3 : Existe-t-il un essai gratuit disponible pour Aspose.CAD ?
 

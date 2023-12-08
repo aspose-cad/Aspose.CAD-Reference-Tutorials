@@ -24,7 +24,7 @@ Ha en fungerande .NET-utvecklingsmiljö konfigurerad med Visual Studio eller nå
 
 ## Importera namnområden
 
-ditt .NET-projekt, importera de nödvändiga namnområdena för Aspose.CAD-funktionalitet. Lägg till följande kodavsnitt överst i filen:
+I ditt .NET-projekt, importera de nödvändiga namnområdena för Aspose.CAD-funktionalitet. Lägg till följande kodavsnitt överst i filen:
 
 ```csharp
 using System;

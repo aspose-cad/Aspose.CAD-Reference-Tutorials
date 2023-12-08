@@ -44,7 +44,7 @@ string sourceFilePath = MyDir + "Nikon_D90_Camera.dgn";
 
 using (CadImage cadImage = (CadImage)Image.Load(sourceFilePath))
 {
-    // El código para seguir los pasos va aquí...
+    // El código para pasos adicionales va aquí...
 }
 ```
 

@@ -43,3 +43,26 @@ Questi sono i link ad alcune risorse utili:
 - [Esportazione file STL](./net/stl-file-export/)
 
 
+## Aspose.CAD per tutorial Java
+{{% alert color="primary" %}}
+Intraprendi un viaggio per migliorare la tua competenza nello sviluppo CAD con Aspose.CAD per Java. Immergiti in una serie di tutorial completi che approfondiscono i regni della conversione dei disegni, dell'annotazione del testo, della manipolazione dei file, delle funzionalità avanzate, delle licenze e altro ancora. Che tu abbia appena iniziato o sia uno sviluppatore esperto, le nostre guide dettagliate, realizzate meticolosamente, sono progettate per potenziarti. Scopri facilmente le sfumature delle complessità del CAD, consentendoti di sbloccare tutto il potenziale delle tue capacità e portare un nuovo livello di precisione ed efficienza ai tuoi progetti.
+{{% /alert %}}
+
+Questi sono i link ad alcune risorse utili:
+ 
+- [Conversione di disegni CAD](./java/cad-drawing-conversion/)
+- [Testo CAD e annotazione](./java/cad-text-and-annotation/)
+- [Opzioni di esportazione da CAD a PDF e SVG](./java/cad-to-pdf-and-svg-export-options/)
+- [Manipolazione di file CAD](./java/cad-file-manipulation/)
+- [Funzionalità CAD avanzate](./java/advanced-cad-features/)
+- [Licenza e configurazione](./java/licensing-and-configuration/)
+- [Operazioni sui file DWG](./java/dwg-file-operations/)
+- [Metadati CAD e rendering](./java/cad-meta-data-and-rendering/)
+- [Testo CAD e formattazione](./java/cad-text-and-formatting/)
+- [Caratteristiche aggiuntive](./java/additional-features/)
+- [Opzioni di esportazione CAD](./java/cad-export-options/)
+- [Opzioni di esportazione DGN](./java/dgn-export-options/)
+- [Altre operazioni CAD](./java/other-cad-operations/)
+
+
+

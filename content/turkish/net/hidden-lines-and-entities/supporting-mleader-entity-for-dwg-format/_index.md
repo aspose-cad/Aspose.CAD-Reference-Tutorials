@@ -101,7 +101,7 @@ Tebrikler! Aspose.CAD for .NET'i kullanarak MLeader varlıklarını DWG formatı
 
 ### S1: MLeader varlıklarının CAD'deki önemi nedir?
 
-Cevap1: CAD'deki MLeader varlıkları, çok liderli açıklamaların işlenmesinde çok önemli bir rol oynar ve karmaşık bilgileri temsil etmek için kolaylaştırılmış bir yol sunar.
+Cevap1: CAD'deki MLeader varlıkları, çok liderli açıklamaların işlenmesinde önemli bir rol oynar ve karmaşık bilgileri temsil etmek için kolaylaştırılmış bir yol sunar.
 
 ### S2: MLeader varlıklarının görünümünü nasıl özelleştirebilirim?
 
@@ -113,7 +113,7 @@ A3: Kesinlikle! Aspose.CAD, .NET geliştiricileri için tasarlanmış sağlam bi
 
 ### S4: Nerede ek destek veya yardım bulabilirim?
 
- A4: Sorularınız veya yardım için şu adresi ziyaret edin:[Aspose.CAD Forumu](https://forum.aspose.com/c/cad/19)toplulukla ve uzmanlarla bağlantı kurmak.
+A4: Sorularınız veya yardım için şu adresi ziyaret edin:[Aspose.CAD Forumu](https://forum.aspose.com/c/cad/19)toplulukla ve uzmanlarla bağlantı kurmak.
 
 ### S5: Satın almadan önce Aspose.CAD'i deneyebilir miyim?
 

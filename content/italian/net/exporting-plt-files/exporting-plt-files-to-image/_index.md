@@ -17,7 +17,7 @@ Prima di immergerci nel tutorial, assicurati di disporre dei seguenti prerequisi
 
 -  Aspose.CAD per .NET: assicurati di avere la libreria Aspose.CAD installata. Puoi scaricarlo da[Qui](https://releases.aspose.com/cad/net/).
 
--  Directory dei documenti: imposta una directory per i tuoi documenti e annota il suo percorso. Questo verrà chiamato`MyDir` negli esempi di codice.
+-  Directory dei documenti: imposta una directory per i tuoi documenti e annota il suo percorso. Questo verrà chiamato`MyDir`negli esempi di codice.
 
 Ora iniziamo con il tutorial.
 

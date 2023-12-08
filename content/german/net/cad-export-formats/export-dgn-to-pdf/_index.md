@@ -83,7 +83,7 @@ A1: Auf jeden Fall! Aspose.CAD vereinfacht komplexe CAD-Aufgaben und macht es f�
 
 ### F3: Gibt es eine kostenlose Testversion für Aspose.CAD?
 
- A3: Ja, Sie können eine kostenlose Testversion erhalten[Hier](https://releases.aspose.com/).
+A3: Ja, Sie können eine kostenlose Testversion erhalten[Hier](https://releases.aspose.com/).
 
 ### F4: Wie kann ich temporäre Lizenzen für Aspose.CAD erhalten?
 
@@ -91,4 +91,4 @@ A1: Auf jeden Fall! Aspose.CAD vereinfacht komplexe CAD-Aufgaben und macht es f�
 
 ### F5: Benötigen Sie Hilfe oder haben Sie Fragen?
 
- A5: Besuchen Sie die[Aspose.CAD-Forum](https://forum.aspose.com/c/cad/19) für die Unterstützung der Gemeinschaft.
+A5: Besuchen Sie die[Aspose.CAD-Forum](https://forum.aspose.com/c/cad/19) für die Unterstützung der Gemeinschaft.

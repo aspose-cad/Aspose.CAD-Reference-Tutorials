@@ -17,7 +17,7 @@ Dans ce didacticiel, nous aborderons les spécificités de la prise en charge du
 
 Avant de plonger dans le didacticiel, assurez-vous que les conditions préalables suivantes sont remplies :
 
--  Aspose.CAD pour .NET installé dans votre environnement de développement. Vous pouvez le télécharger depuis le[page de sortie](https://releases.aspose.com/cad/net/).
+- Aspose.CAD pour .NET installé dans votre environnement de développement. Vous pouvez le télécharger depuis le[page de sortie](https://releases.aspose.com/cad/net/).
 
 - Une compréhension de base des formats de fichiers CAO, en particulier DXF (Drawing Exchange Format).
 

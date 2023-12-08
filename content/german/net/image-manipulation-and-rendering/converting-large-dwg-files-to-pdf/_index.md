@@ -109,4 +109,4 @@ A4: Ja, Aspose.CAD für .NET hält mit Aktualisierungen der CAD-Dateiformate Sch
 
 ### F5: Wo kann ich Hilfe suchen oder Feedback geben?
 
- A5: Besuchen Sie die[Aspose.CAD-Forum](https://forum.aspose.com/c/cad/19) um mit der Community in Kontakt zu treten, Unterstützung zu suchen oder Feedback zu geben.
+A5: Besuchen Sie die[Aspose.CAD-Forum](https://forum.aspose.com/c/cad/19) um mit der Community in Kontakt zu treten, Unterstützung zu suchen oder Feedback zu geben.

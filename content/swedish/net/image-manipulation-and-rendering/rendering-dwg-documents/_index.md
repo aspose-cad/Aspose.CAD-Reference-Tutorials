@@ -45,7 +45,7 @@ string MyDir = "Your Document Directory";
 string sourceFilePath = MyDir + "Bottom_plate.dwg";
 using (CadImage cadImage = (CadImage)Image.Load(sourceFilePath))
 {
-    //Din kod för att ladda DWG-filen finns här.
+    // Din kod för att ladda DWG-filen finns här.
 }
 ```
 
@@ -55,7 +55,7 @@ using (CadImage cadImage = (CadImage)Image.Load(sourceFilePath))
 CadRasterizationOptions rasterizationOptions = new CadRasterizationOptions();
 rasterizationOptions.Layouts = new string[] { "Model" };
 rasterizationOptions.NoScaling = true;
-// Ytterligare rastreringskonfigurationer kan läggas till här.
+//Ytterligare rastreringskonfigurationer kan läggas till här.
 ```
 
 ## Steg 3: Definiera region att rita
@@ -129,4 +129,4 @@ S2: Ja, Aspose.CAD är kompatibel med både .NET Framework och .NET Core.
 
 ### F5: Var kan jag hitta ytterligare support?
 
- A5: Besök[Aspose.CAD-forum](https://forum.aspose.com/c/cad/19) för samhällsstöd och diskussioner.
+A5: Besök[Aspose.CAD-forum](https://forum.aspose.com/c/cad/19) för samhällsstöd och diskussioner.

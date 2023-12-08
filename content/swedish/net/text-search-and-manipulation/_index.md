@@ -14,7 +14,7 @@ Välkommen till vår djupgående handledning om textsökning och manipulering i 
 
 ## Bemästra textsökning i DWG-filer med Aspose.CAD för .NET
 
-I sfären av CAD-applikationer är effektiv textsökning i DWG-filer en spelomvandlare. Aspose.CAD för .NET tillhandahåller en robust uppsättning verktyg, och i denna handledning guidar vi dig steg för steg om hur du använder dem.
+sfären av CAD-applikationer är effektiv textsökning i DWG-filer en spelomvandlare. Aspose.CAD för .NET tillhandahåller en robust uppsättning verktyg, och i denna handledning guidar vi dig steg för steg om hur du använder dem.
 
 ### Komma igång med Aspose.CAD för .NET
 

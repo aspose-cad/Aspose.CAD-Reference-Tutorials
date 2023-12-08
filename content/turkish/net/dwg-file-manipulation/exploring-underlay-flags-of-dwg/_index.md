@@ -109,7 +109,7 @@ Cevap1: Aspose.CAD, DWG, DXF, DGN ve daha fazlası dahil olmak üzere çeşitli 
 
 ### S4: Aspose.CAD for .NET'i nasıl satın alabilirim?
 
- Cevap4: Kütüphaneyi satın alın[Burada](https://purchase.aspose.com/buy).
+Cevap4: Kütüphaneyi satın alın[Burada](https://purchase.aspose.com/buy).
 
 ### S5: Ücretsiz deneme sürümü mevcut mu?
 

@@ -2,7 +2,7 @@
 title: Belirli Mizanpajları PDF'ye Aktarma - Aspose.CAD Guide
 linktitle: Belirli Düzenleri PDF'ye Aktarma
 second_title: Aspose.CAD .NET - CAD ve BIM Dosya Formatı
-description: Aspose.CAD for .NET'i kullanarak belirli düzenleri PDF'ye nasıl aktaracağınızı öğrenin. Kusursuz entegrasyon için adım adım kılavuz.
+description: Aspose.CAD for .NET'i kullanarak belirli düzenleri PDF'ye nasıl aktaracağınızı öğrenin. Sorunsuz entegrasyon için adım adım kılavuz.
 type: docs
 weight: 13
 url: /tr/net/advanced-export-techniques/exporting-specific-layouts-to-pdf/

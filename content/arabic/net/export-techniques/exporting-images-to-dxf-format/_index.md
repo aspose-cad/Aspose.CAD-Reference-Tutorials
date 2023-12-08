@@ -40,7 +40,7 @@ using System.Text;
 ## الخطوة 1: قم بتعيين خط جديد لكل مستند
 
 ```csharp
-//تعيين خط جديد لكل مستند
+// تعيين خط جديد لكل مستند
 foreach (var file in new DirectoryInfo(MyDir).EnumerateFiles("conic.dxf"))
 {
     using (var cadImage = (CadImage)Image.Load(file.FullName))
@@ -112,7 +112,7 @@ foreach (var file in new DirectoryInfo(MyDir).EnumerateFiles("conic.dxf"))
 
 ### س1: هل Aspose.CAD متوافق مع تنسيقات CAD الأخرى؟
 
-ج1: نعم، يدعم Aspose.CAD تنسيقات CAD المتنوعة، بما في ذلك DWG وDXF وDGN والمزيد. الرجوع إلى[توثيق](https://reference.aspose.com/cad/net/) للحصول على قائمة شاملة.
+ ج1: نعم، يدعم Aspose.CAD تنسيقات CAD المتنوعة، بما في ذلك DWG وDXF وDGN والمزيد. الرجوع إلى[توثيق](https://reference.aspose.com/cad/net/) للحصول على قائمة شاملة.
 
 ### س2: هل يمكنني تطبيق هذه المعالجات على ملفات متعددة في وقت واحد؟
 

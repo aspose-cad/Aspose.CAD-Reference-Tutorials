@@ -48,7 +48,7 @@ using (var cadImage = (CadImage)Image.Load(inputFile))
 }
 ```
 
-## Étape 2 : ajouter des propriétés personnalisées
+## Étape 2 : Ajouter des propriétés personnalisées
 
 Ajoutons maintenant des propriétés personnalisées au fichier DWG. Dans cet exemple, nous ajoutons trois propriétés personnalisées.
 

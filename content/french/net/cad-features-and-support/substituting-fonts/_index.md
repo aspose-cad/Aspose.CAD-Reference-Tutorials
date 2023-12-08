@@ -35,7 +35,7 @@ using Aspose.CAD.FileFormats.Cad.CadTables;
 
 ## Étape 1 : Charger le dessin CAO
 
- Commencez par charger le dessin CAO dans une instance de`CadImage`Assurez-vous de fournir le chemin correct vers votre répertoire de documents.
+ Commencez par charger le dessin CAO dans une instance de`CadImage`. Assurez-vous de fournir le chemin correct vers votre répertoire de documents.
 
 ```csharp
 string MyDir = "Your Document Directory";
@@ -43,7 +43,7 @@ string sourceFilePath = MyDir + "conic_pyramid.dxf";
 
 using (CadImage cadImage = (CadImage)Aspose.CAD.Image.Load(sourceFilePath))
 {
-    // Votre code pour d'autres actions va ici
+    //Votre code pour d'autres actions va ici
 }
 ```
 
@@ -95,7 +95,7 @@ A1 : Oui, vous pouvez annuler les modifications de police en rechargeant le dess
 
 ### Q2 : Existe-t-il d'autres propriétés de police que je peux modifier ?
 
- A2 : Absolument, d’ailleurs`PrimaryFontName`, Aspose.CAD pour .NET donne accès à diverses propriétés liées aux polices pour une personnalisation avancée.
+A2 : Absolument, d’ailleurs`PrimaryFontName`, Aspose.CAD pour .NET donne accès à diverses propriétés liées aux polices pour une personnalisation avancée.
 
 ### Q3 : Aspose.CAD est-il compatible avec différents formats de CAO ?
 

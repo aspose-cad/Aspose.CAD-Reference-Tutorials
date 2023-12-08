@@ -128,4 +128,4 @@ R3: Utilizza le opzioni grafiche e di rasterizzazione fornite per personalizzare
 
 ### Q5: Dove posso chiedere supporto o porre domande?
 
- A5: Visita il[Forum Aspose.CAD](https://forum.aspose.com/c/cad/19) per assistenza e discussioni.
+A5: Visita il[Forum Aspose.CAD](https://forum.aspose.com/c/cad/19) per assistenza e discussioni.

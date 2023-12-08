@@ -104,8 +104,8 @@ Cevap3: Evet, Aspose.CAD for .NET, en yeni .NET Core sürümleriyle uyumlu olaca
 
 ### S4: Dışa aktarma ayarlarını kendi özel gereksinimlerime göre daha da özelleştirebilir miyim?
 
-Cevap4: Kesinlikle! Sağlanan kod bir başlangıç noktası sunar. Ek seçenekleri ve yapılandırmaları şurada keşfedebilirsiniz:[Aspose.CAD belgeleri](https://reference.aspose.com/cad/net/).
+ Cevap4: Kesinlikle! Sağlanan kod bir başlangıç noktası sunar. Ek seçenekleri ve yapılandırmaları şurada keşfedebilirsiniz:[Aspose.CAD belgeleri](https://reference.aspose.com/cad/net/).
 
 ### S5: Aspose.CAD for .NET ile ilgili nereden yardım alabilirim veya deneyimlerimi paylaşabilirim?
 
- Cevap5: Aspose.CAD topluluğuna katılın[forum](https://forum.aspose.com/c/cad/19) diğer geliştiricilerle etkileşimde bulunmak ve yardım istemek.
+Cevap5: Aspose.CAD topluluğuna katılın[forum](https://forum.aspose.com/c/cad/19) diğer geliştiricilerle etkileşimde bulunmak ve yardım istemek.

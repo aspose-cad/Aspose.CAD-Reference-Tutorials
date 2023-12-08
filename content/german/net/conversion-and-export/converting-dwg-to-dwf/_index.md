@@ -82,7 +82,7 @@ In diesem Tutorial haben wir den Prozess der Konvertierung von DWG in DWF mithil
 
 A1: Aspose.CAD unterstützt verschiedene Versionen von DWG-Dateien und gewährleistet so die Kompatibilität mit einer Vielzahl von CAD-Software.
 
-### F2: Kann ich Aspose.CAD vor dem Kauf testen?
+### F2: Kann ich Aspose.CAD vor dem Kauf ausprobieren?
 
  A2: Ja, Sie können die Funktionen von Aspose.CAD erkunden, indem Sie auf die kostenlose Testversion zugreifen[Hier](https://releases.aspose.com/).
 
@@ -92,7 +92,7 @@ A1: Aspose.CAD unterstützt verschiedene Versionen von DWG-Dateien und gewährle
 
 ### F4: Wo finde ich Unterstützung für Aspose.CAD?
 
- A4: Bei Fragen oder Hilfe besuchen Sie das Aspose.CAD-Supportforum[Hier](https://forum.aspose.com/c/cad/19).
+A4: Bei Fragen oder Hilfe besuchen Sie das Aspose.CAD-Supportforum[Hier](https://forum.aspose.com/c/cad/19).
 
 ### F5: Gibt es eine detaillierte Dokumentationsressource?
 

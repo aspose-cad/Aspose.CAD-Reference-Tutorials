@@ -116,7 +116,7 @@ cadImage.Save(outPath, exportOptions);
 A2：Aspose.CAD 支持处理大型 DWG 文件，但可能存在硬件限制。
 
 ### Q3：有试用版吗？
- A3：是的，您可以获得免费试用[这里](https://releases.aspose.com/).
+A3：是的，您可以获得免费试用[这里](https://releases.aspose.com/).
 
 ### Q4：如何获得临时许可证？
  A4：可以获得临时许可证[这里](https://purchase.aspose.com/temporary-license/).

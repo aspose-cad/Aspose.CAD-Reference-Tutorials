@@ -109,4 +109,4 @@ S4: Ja, Aspose.CAD för .NET håller jämna steg med uppdateringar i CAD-filform
 
 ### F5: Var kan jag söka hjälp eller dela feedback?
 
- A5: Besök[Aspose.CAD Forum](https://forum.aspose.com/c/cad/19) att engagera sig i samhället, söka stöd eller ge feedback.
+A5: Besök[Aspose.CAD Forum](https://forum.aspose.com/c/cad/19) att engagera sig i samhället, söka stöd eller ge feedback.

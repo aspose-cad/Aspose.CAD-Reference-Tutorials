@@ -110,7 +110,7 @@ En este tutorial, cubrimos los pasos esenciales para agregar texto a archivos DW
 
 R1: Aspose.CAD admite una amplia gama de versiones de archivos DWG, lo que garantiza la compatibilidad con varios programas CAD.
 
-### P2: ¿Puedo agregar varias entidades de texto a un solo archivo DWG usando Aspose.CAD?
+### P2: ¿Puedo agregar varias entidades de texto a un único archivo DWG usando Aspose.CAD?
 
 R2: Sí, puede agregar varias entidades de texto a un archivo DWG repitiendo el proceso descrito en el tutorial.
 
@@ -124,4 +124,4 @@ R2: Sí, puede agregar varias entidades de texto a un archivo DWG repitiendo el 
 
 ### P5: ¿Dónde puedo buscar ayuda o discutir consultas relacionadas con Aspose.CAD?
 
- A5: Visita el[Foro Aspose.CAD](https://forum.aspose.com/c/cad/19)para conectarse con la comunidad y obtener apoyo.
+A5: Visita el[Foro Aspose.CAD](https://forum.aspose.com/c/cad/19)para conectarse con la comunidad y obtener apoyo.

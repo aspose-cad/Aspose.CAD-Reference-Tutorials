@@ -114,7 +114,7 @@ Grattis! Du har framgångsrikt lärt dig hur du använder Aspose.CAD för .NET f
 
 ### F4: Kan jag få en tillfällig licens för teständamål?
 
-A4: Ja, du kan få en tillfällig licens[här](https://purchase.aspose.com/temporary-license/).
+ A4: Ja, du kan få en tillfällig licens[här](https://purchase.aspose.com/temporary-license/).
 
 ### F5: Var kan jag hitta den detaljerade dokumentationen?
 

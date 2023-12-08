@@ -79,7 +79,7 @@ Congratulazioni! Hai appena imparato l'arte di applicare una licenza per percors
 
 ### Q3: È disponibile una prova gratuita per Aspose.CAD per .NET?
 
- R3: Sì, puoi ottenere una prova gratuita[Qui](https://releases.aspose.com/).
+R3: Sì, puoi ottenere una prova gratuita[Qui](https://releases.aspose.com/).
 
 ### D:4 Dove posso ottenere una licenza temporanea per Aspose.CAD per .NET?
 

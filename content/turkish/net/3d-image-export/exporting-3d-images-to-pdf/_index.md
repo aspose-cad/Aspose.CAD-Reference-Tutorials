@@ -54,7 +54,7 @@ using (Image cadImage = Image.Load(sourceFilePath))
 CadRasterizationOptions rasterizationOptions = new CadRasterizationOptions();
 rasterizationOptions.PageWidth = 500;
 rasterizationOptions.PageHeight = 500;
-//rasterizationOptions.TypeOfEntities = TypeOfEntities.Entities3D;
+// rasterizationOptions.TypeOfEntities = TypeOfEntities.Entities3D;
 
 rasterizationOptions.Layouts = new string[] { "Model" };
 ```
@@ -93,7 +93,7 @@ A2: Kesinlikle. Eğitimde, gereksinimlerinize göre sayfa genişliğini ve yüks
 
 ### S3: Aspose.CAD için geçici lisanslar mevcut mu?
 
-C3: Evet, adresini ziyaret ederek Aspose.CAD için geçici lisanslar alabilirsiniz.[Geçici Lisans](https://purchase.aspose.com/temporary-license/).
+ C3: Evet, adresini ziyaret ederek Aspose.CAD için geçici lisanslar alabilirsiniz.[Geçici Lisans](https://purchase.aspose.com/temporary-license/).
 
 ### S4: Ek desteği veya topluluk tartışmalarını nerede bulabilirim?
 

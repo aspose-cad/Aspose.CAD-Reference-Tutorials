@@ -117,4 +117,4 @@ R1: Sí, Aspose.CAD para .NET es adecuado tanto para aplicaciones web como de es
 
 ### P5: ¿Necesita ayuda o tiene preguntas?
 
- A5: Únase a la comunidad Aspose.CAD en el[Foro de soporte](https://forum.aspose.com/c/cad/19) para obtener ayuda y discusiones inmediatas.
+A5: Únase a la comunidad Aspose.CAD en el[Foro de soporte](https://forum.aspose.com/c/cad/19) para obtener ayuda y discusiones inmediatas.

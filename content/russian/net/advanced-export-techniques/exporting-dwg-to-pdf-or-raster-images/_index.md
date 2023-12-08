@@ -114,7 +114,7 @@ cadImage.Save(outPath.Replace("pdf", "png"), pngOptions);
 
 ### Вопрос 4: Могу ли я получить временную лицензию для целей тестирования?
 
-О4: Да, вы можете получить временную лицензию.[здесь](https://purchase.aspose.com/temporary-license/).
+ О4: Да, вы можете получить временную лицензию.[здесь](https://purchase.aspose.com/temporary-license/).
 
 ### В5: Где я могу найти подробную документацию?
 

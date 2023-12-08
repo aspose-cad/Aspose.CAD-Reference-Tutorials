@@ -35,7 +35,7 @@ using Aspose.CAD.FileFormats.Cad.CadTables;
 
 ## Schritt 1: CAD-Zeichnung laden
 
- Beginnen Sie mit dem Laden der CAD-Zeichnung in eine Instanz von`CadImage`Stellen Sie sicher, dass Sie den richtigen Pfad zu Ihrem Dokumentverzeichnis angeben.
+ Beginnen Sie mit dem Laden der CAD-Zeichnung in eine Instanz von`CadImage`. Stellen Sie sicher, dass Sie den richtigen Pfad zu Ihrem Dokumentverzeichnis angeben.
 
 ```csharp
 string MyDir = "Your Document Directory";
@@ -43,7 +43,7 @@ string sourceFilePath = MyDir + "conic_pyramid.dxf";
 
 using (CadImage cadImage = (CadImage)Aspose.CAD.Image.Load(sourceFilePath))
 {
-    // Hier finden Sie Ihren Code für weitere Aktionen
+    //Hier finden Sie Ihren Code für weitere Aktionen
 }
 ```
 
@@ -95,7 +95,7 @@ A1: Ja, Sie können Schriftartänderungen rückgängig machen, indem Sie die urs
 
 ### F2: Gibt es andere Schriftarteigenschaften, die ich ändern kann?
 
- A2: Auf jeden Fall`PrimaryFontName`Aspose.CAD für .NET bietet Zugriff auf verschiedene schriftartbezogene Eigenschaften für erweiterte Anpassungen.
+A2: Auf jeden Fall`PrimaryFontName`Aspose.CAD für .NET bietet Zugriff auf verschiedene schriftartbezogene Eigenschaften für erweiterte Anpassungen.
 
 ### F3: Ist Aspose.CAD mit verschiedenen CAD-Formaten kompatibel?
 

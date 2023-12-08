@@ -54,7 +54,7 @@ using (CadImage image = (CadImage)Image.Load(MyDir + "example.dwt"))
 {
 ```
 
- Используйте`Image.Load` метод загрузки файла DWT в`CadImage`объект.
+ Используйте`Image.Load`метод загрузки файла DWT в`CadImage` объект.
 
 ## Шаг 3. Перебор сущностей
 

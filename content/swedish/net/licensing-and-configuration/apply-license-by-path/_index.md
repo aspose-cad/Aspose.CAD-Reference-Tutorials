@@ -79,7 +79,7 @@ Grattis! Du har precis bemästrat konsten att ansöka om en licens via sökväg 
 
 ### F3: Finns det en gratis testversion tillgänglig för Aspose.CAD för .NET?
 
- A3: Ja, du kan få en gratis provperiod[här](https://releases.aspose.com/).
+A3: Ja, du kan få en gratis provperiod[här](https://releases.aspose.com/).
 
 ### F:4 Var kan jag få en tillfällig licens för Aspose.CAD för .NET?
 

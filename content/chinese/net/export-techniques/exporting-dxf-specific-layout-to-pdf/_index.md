@@ -84,7 +84,7 @@ image.Save(MyDir, pdfOptions);
 ## 第6步：显示成功消息
 
 ```csharp
-//显示成功消息
+//显示成功信息
 Console.WriteLine("\nThe DXF file with the specific layout exported successfully to PDF.\nFile saved at " + MyDir);
 ```
 
@@ -100,7 +100,7 @@ Console.WriteLine("\nThe DXF file with the specific layout exported successfully
 
 ### Q2: 我可以自定义 PDF 输出设置吗？
 
- A2：是的，您可以通过调整 PDF 的属性来自定义 PDF 输出设置`CadRasterizationOptions`和`PdfOptions`根据您的要求。
+A2：是的，您可以通过调整 PDF 的属性来自定义 PDF 输出设置`CadRasterizationOptions`和`PdfOptions`根据您的要求。
 
 ### Q3：Aspose.CAD 有免费试用版吗？
 

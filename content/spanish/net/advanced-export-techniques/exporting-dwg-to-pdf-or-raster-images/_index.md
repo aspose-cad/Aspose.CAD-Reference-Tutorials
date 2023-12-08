@@ -114,7 +114,7 @@ cadImage.Save(outPath.Replace("pdf", "png"), pngOptions);
 
 ### P4: ¿Puedo obtener una licencia temporal para realizar pruebas?
 
-R4: Sí, puedes obtener una licencia temporal[aquí](https://purchase.aspose.com/temporary-license/).
+ R4: Sí, puedes obtener una licencia temporal[aquí](https://purchase.aspose.com/temporary-license/).
 
 ### P5: ¿Dónde puedo encontrar la documentación detallada?
 

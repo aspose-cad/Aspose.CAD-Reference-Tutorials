@@ -65,7 +65,7 @@ foreach (CadBaseEntity entity in image.Entities)
 }
 ```
 
-使用循环遍历 DWT 文件中的实体`foreach`环形。自定义循环内的代码以对每个实体执行特定操作。
+使用以下命令循环遍历 DWT 文件中的实体`foreach`环形。自定义循环内的代码以对每个实体执行特定操作。
 
 ## 结论
 

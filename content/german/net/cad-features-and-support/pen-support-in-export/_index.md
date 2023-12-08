@@ -17,7 +17,7 @@ In diesem Tutorial befassen wir uns mit den Besonderheiten der Stiftunterstützu
 
 Bevor wir uns mit dem Tutorial befassen, stellen Sie sicher, dass die folgenden Voraussetzungen erfüllt sind:
 
--  Aspose.CAD für .NET ist in Ihrer Entwicklungsumgebung installiert. Sie können es hier herunterladen[Release-Seite](https://releases.aspose.com/cad/net/).
+- Aspose.CAD für .NET ist in Ihrer Entwicklungsumgebung installiert. Sie können es hier herunterladen[Release-Seite](https://releases.aspose.com/cad/net/).
 
 - Ein grundlegendes Verständnis der CAD-Dateiformate, insbesondere DXF (Drawing Exchange Format).
 

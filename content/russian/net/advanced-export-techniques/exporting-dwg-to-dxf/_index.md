@@ -15,7 +15,7 @@ url: /ru/net/advanced-export-techniques/exporting-dwg-to-dxf/
 
 Прежде чем приступить к изучению руководства, убедитесь, что у вас есть следующие предварительные условия:
 
-1. Библиотека Aspose.CAD: загрузите и установите библиотеку Aspose.CAD с сайта[эта ссылка](https://releases.aspose.com/cad/net/).
+1.  Библиотека Aspose.CAD: загрузите и установите библиотеку Aspose.CAD с сайта[эта ссылка](https://releases.aspose.com/cad/net/).
 
 2. Среда разработки: настройте среду разработки C#, например Visual Studio.
 
@@ -42,7 +42,7 @@ string MyDir = "Your Document Directory";
 string inputFile = MyDir + "Line.dwg";
 using (var cadImage = (CadImage)Image.Load(inputFile))
 {
-    // Здесь будет ваш код для дальнейших действий.
+    //Здесь будет ваш код для дальнейших действий.
 }
 ```
 
@@ -79,4 +79,4 @@ cadImage.Save(outFile);
 
 ### Q5: Нужна помощь или есть конкретные вопросы?
 
- A5: Посетите форум сообщества Aspose.CAD.[здесь](https://forum.aspose.com/c/cad/19) за экспертную помощь и поддержку сообщества.
+ A5: Посетите форум сообщества Aspose.CAD.[здесь](https://forum.aspose.com/c/cad/19)за экспертную помощь и поддержку сообщества.

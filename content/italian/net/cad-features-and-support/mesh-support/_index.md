@@ -15,7 +15,7 @@ Benvenuti nel nostro tutorial approfondito sull'utilizzo del supporto mesh in As
 
 Prima di immergerti nel tutorial sul supporto mesh, assicurati di disporre dei seguenti prerequisiti:
 
-1. Installa Aspose.CAD per .NET: se non lo hai già fatto, scarica e installa Aspose.CAD per .NET dal[pagina di download](https://releases.aspose.com/cad/net/).
+1.  Installa Aspose.CAD per .NET: se non lo hai già fatto, scarica e installa Aspose.CAD per .NET dal[pagina di download](https://releases.aspose.com/cad/net/).
 
 2.  Ottieni una licenza: per utilizzare Aspose.CAD nel tuo progetto, assicurati di avere una licenza valida. Puoi acquistarne uno da[Qui](https://purchase.aspose.com/buy) o esplora il[opzione di licenza temporanea](https://purchase.aspose.com/temporary-license/) per un periodo di prova.
 

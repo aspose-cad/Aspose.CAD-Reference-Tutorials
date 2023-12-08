@@ -15,7 +15,7 @@ Cherchez-vous à convertir efficacement des mises en page CAO en formats d'image
 
 Avant de plonger dans le didacticiel, assurez-vous d'avoir les éléments suivants :
 
--  Bibliothèque Aspose.CAD pour .NET : assurez-vous que la bibliothèque Aspose.CAD est installée. Sinon, vous pouvez le télécharger depuis le[Site Web Aspose.CAD](https://releases.aspose.com/cad/net/).
+- Bibliothèque Aspose.CAD pour .NET : assurez-vous que la bibliothèque Aspose.CAD est installée. Sinon, vous pouvez le télécharger depuis le[Site Web Aspose.CAD](https://releases.aspose.com/cad/net/).
 
 - Fichier de dessin CAO : préparez un fichier de dessin CAO (par exemple, conic_pyramid.dxf) que vous souhaitez convertir aux formats d'image raster.
 
@@ -41,7 +41,7 @@ string sourceFilePath = MyDir + "conic_pyramid.dxf";
 // Charger un dessin CAO dans une instance d'Image
 using (var image = Image.Load(sourceFilePath))
 {
-    //Votre code pour charger le dessin CAO va ici
+    // Votre code pour charger le dessin CAO va ici
 }
 ```
 

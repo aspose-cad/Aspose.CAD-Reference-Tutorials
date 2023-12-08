@@ -15,7 +15,7 @@ Stai cercando di convertire in modo efficiente i layout CAD in formati di immagi
 
 Prima di immergerti nel tutorial, assicurati di avere quanto segue:
 
--  Libreria Aspose.CAD per .NET: assicurarsi di avere installata la libreria Aspose.CAD. In caso contrario, puoi scaricarlo da[Sito web Aspose.CAD](https://releases.aspose.com/cad/net/).
+- Libreria Aspose.CAD per .NET: assicurarsi di avere installata la libreria Aspose.CAD. In caso contrario, puoi scaricarlo da[Sito web Aspose.CAD](https://releases.aspose.com/cad/net/).
 
 - File di disegno CAD: preparare un file di disegno CAD (ad esempio, conic_pyramid.dxf) che si desidera convertire in formati di immagine raster.
 
@@ -41,7 +41,7 @@ string sourceFilePath = MyDir + "conic_pyramid.dxf";
 // Carica un disegno CAD in un'istanza di Immagine
 using (var image = Image.Load(sourceFilePath))
 {
-    //Il tuo codice per caricare il disegno CAD va qui
+    // Il tuo codice per caricare il disegno CAD va qui
 }
 ```
 

@@ -45,7 +45,7 @@ Ersätt "Din dokumentkatalog" med den faktiska sökvägen till dina käll- och u
 using (Image cadDrawing = Image.Load(SourceDir + "Tyrannosaurus.dwfx"))
 ```
 
- Ladda DWFX-filen med hjälp av`Image.Load`metod. Ersätt "Tyrannosaurus.dwfx" med det faktiska namnet på din DWFX-fil.
+ Ladda DWFX-filen med hjälp av`Image.Load` metod. Ersätt "Tyrannosaurus.dwfx" med det faktiska namnet på din DWFX-fil.
 
 ## Steg 3: Konfigurera rasteriseringsalternativ
 
@@ -99,4 +99,4 @@ S1: Aspose.CAD för .NET stöder ett brett utbud av CAD-format, inklusive DWFX. 
 
 ### F5: Behöver du support eller har fler frågor?
 
- A5: Besök[Aspose.CAD-forum](https://forum.aspose.com/c/cad/19) för assistens.
+A5: Besök[Aspose.CAD-forum](https://forum.aspose.com/c/cad/19) för assistens.

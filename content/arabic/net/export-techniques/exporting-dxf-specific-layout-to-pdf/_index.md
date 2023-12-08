@@ -15,7 +15,7 @@ url: /ar/net/export-techniques/exporting-dxf-specific-layout-to-pdf/
 
 قبل الغوص في البرنامج التعليمي، تأكد من توفر المتطلبات الأساسية التالية:
 
-- Aspose.CAD for .NET: تأكد من تثبيت مكتبة Aspose.CAD في مشروع .NET الخاص بك. يمكنك تنزيله[هنا](https://releases.aspose.com/cad/net/) واتبع تعليمات التثبيت المتوفرة في الوثائق.
+- Aspose.CAD لـ .NET: تأكد من تثبيت مكتبة Aspose.CAD في مشروع .NET الخاص بك. يمكنك تنزيله[هنا](https://releases.aspose.com/cad/net/) واتبع تعليمات التثبيت المتوفرة في الوثائق.
 
 - بيئة التطوير: قم بإعداد بيئة تطوير .NET عاملة، بما في ذلك Visual Studio أو أي بيئة تطوير متكاملة مفضلة أخرى.
 
@@ -44,7 +44,7 @@ string sourceFilePath = MyDir + "conic_pyramid.dxf";
 
 using (Image image = Image.Load(sourceFilePath))
 {
-    // سيتم وضع الرمز الخاص بك لمزيد من الخطوات هنا
+    //سيتم وضع الرمز الخاص بك لمزيد من الخطوات هنا
 }
 ```
 
@@ -96,11 +96,11 @@ Console.WriteLine("\nThe DXF file with the specific layout exported successfully
 
 ### س 1: هل Aspose.CAD متوافق مع كافة إصدارات ملفات DXF؟
 
- A1: يدعم Aspose.CAD إصدارات مختلفة من ملفات DXF. الرجوع إلى[توثيق](https://reference.aspose.com/cad/net/)للحصول على قائمة الإصدارات المدعومة.
+ A1: يدعم Aspose.CAD إصدارات مختلفة من ملفات DXF. الرجوع إلى[توثيق](https://reference.aspose.com/cad/net/) للحصول على قائمة الإصدارات المدعومة.
 
 ### س2: هل يمكنني تخصيص إعدادات إخراج PDF؟
 
- ج2: نعم، يمكنك تخصيص إعدادات إخراج PDF عن طريق ضبط خصائص`CadRasterizationOptions` و`PdfOptions` وفقا لمتطلباتك.
+ج2: نعم، يمكنك تخصيص إعدادات إخراج PDF عن طريق ضبط خصائص`CadRasterizationOptions` و`PdfOptions` وفقا لمتطلباتك.
 
 ### س3: هل هناك نسخة تجريبية مجانية متاحة لـ Aspose.CAD؟
 

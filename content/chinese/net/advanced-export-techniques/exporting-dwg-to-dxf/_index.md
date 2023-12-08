@@ -15,7 +15,7 @@ url: /zh/net/advanced-export-techniques/exporting-dwg-to-dxf/
 
 在深入学习本教程之前，请确保您具备以下先决条件：
 
-1. Aspose.CAD 库：从以下位置下载并安装 Aspose.CAD 库：[这个链接](https://releases.aspose.com/cad/net/).
+1.  Aspose.CAD 库：从以下位置下载并安装 Aspose.CAD 库：[这个链接](https://releases.aspose.com/cad/net/).
 
 2. 开发环境：搭建C#开发环境，例如Visual Studio。
 
@@ -75,8 +75,8 @@ A1：是的，Aspose.CAD 会定期更新，以确保与最新的 CAD 文件格�
 
 ### Q4：哪里可以找到Aspose.CAD的详细文档？
 
- A4：请参阅文档[这个链接](https://reference.aspose.com/cad/net/)进行全面指导。
+A4：请参阅文档[这个链接](https://reference.aspose.com/cad/net/)进行全面指导。
 
 ### Q5：需要帮助或有具体问题？
 
- A5：访问 Aspose.CAD 社区论坛[这里](https://forum.aspose.com/c/cad/19)寻求专家帮助和社区支持。
+ A5：访问 Aspose.CAD 社区论坛[这里](https://forum.aspose.com/c/cad/19)寻求专家协助和社区支持。

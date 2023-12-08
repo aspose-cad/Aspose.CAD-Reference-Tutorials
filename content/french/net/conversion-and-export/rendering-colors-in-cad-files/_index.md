@@ -15,7 +15,7 @@ url: /fr/net/conversion-and-export/rendering-colors-in-cad-files/
 
 Avant de plonger dans le didacticiel, assurez-vous que les conditions préalables suivantes sont remplies :
 
-- Bibliothèque Aspose.CAD : téléchargez et installez la bibliothèque Aspose.CAD à partir de[ici](https://releases.aspose.com/cad/net/).
+-  Bibliothèque Aspose.CAD : téléchargez et installez la bibliothèque Aspose.CAD à partir de[ici](https://releases.aspose.com/cad/net/).
 
 - Environnement de développement : assurez-vous d'avoir configuré un environnement de développement .NET.
 
@@ -91,7 +91,7 @@ Toutes nos félicitations! Vous avez réussi à restituer les couleurs dans des 
 
 ### Q1 : Puis-je utiliser Aspose.CAD gratuitement ?
 
- A1 : Aspose.CAD propose une version d'essai gratuite disponible[ici](https://releases.aspose.com/). Vous pouvez explorer ses fonctionnalités avant de faire un achat.
+ A1 : Aspose.CAD propose une version d'essai gratuite disponible[ici](https://releases.aspose.com/)Vous pouvez explorer ses fonctionnalités avant de faire un achat.
 
 ### Q2 : Où puis-je trouver une documentation détaillée pour Aspose.CAD ?
 
@@ -99,7 +99,7 @@ Toutes nos félicitations! Vous avez réussi à restituer les couleurs dans des 
 
 ### Q3 : Comment puis-je obtenir une licence temporaire pour Aspose.CAD ?
 
- A3 : Obtenir un permis temporaire[ici](https://purchase.aspose.com/temporary-license/)à des fins de tests.
+ A3 : Obtenir un permis temporaire[ici](https://purchase.aspose.com/temporary-license/) à des fins de tests.
 
 ### Q4 : Vous avez besoin d'aide ou vous avez des questions ?
 

@@ -101,7 +101,7 @@ In questo tutorial, abbiamo esplorato il processo passo passo di conversione di 
 
 ### Q1: Aspose.CAD è compatibile con tutti i formati di file CAD?
 
- A1: Aspose.CAD supporta un'ampia gamma di formati di file CAD, inclusi DWG, DXF, DGN e altri. Fare riferimento al[documentazione](https://reference.aspose.com/cad/net/) per un elenco completo.
+A1: Aspose.CAD supporta un'ampia gamma di formati di file CAD, inclusi DWG, DXF, DGN e altri. Fare riferimento al[documentazione](https://reference.aspose.com/cad/net/) per un elenco completo.
 
 ### Q2: Posso personalizzare le opzioni di rasterizzazione per diversi progetti?
 
@@ -117,4 +117,4 @@ A2: Sì, Aspose.CAD consente un'ampia personalizzazione delle opzioni di rasteri
 
 ### Q5: Sono disponibili licenze temporanee per Aspose.CAD?
  
-A5: Sì, gli sviluppatori possono ottenere licenze temporanee per Aspose.CAD da[questo link](https://purchase.aspose.com/temporary-license/).
+ A5: Sì, gli sviluppatori possono ottenere licenze temporanee per Aspose.CAD da[questo link](https://purchase.aspose.com/temporary-license/).

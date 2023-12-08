@@ -15,7 +15,7 @@ Välkommen till denna omfattande handledning om att konvertera DWG-filer till PD
 
 Innan vi börjar, se till att du har följande förutsättningar:
 
--  Aspose.CAD Library: Ladda ner och installera Aspose.CAD-biblioteket för .NET. Du hittar biblioteket[här](https://releases.aspose.com/cad/net/).
+- Aspose.CAD Library: Ladda ner och installera Aspose.CAD-biblioteket för .NET. Du hittar biblioteket[här](https://releases.aspose.com/cad/net/).
 
 - Utvecklingsmiljö: Se till att du har en kompatibel utvecklingsmiljö inställd, inklusive Visual Studio eller någon annan föredragen IDE.
 
@@ -133,4 +133,4 @@ A4: Visst! Utforska de omfattande alternativen som tillhandahålls av Aspose.CAD
 
 ### F5: Var kan jag hitta ytterligare stöd eller diskussioner i samhället?
 
- A5: Besök[Aspose.CAD Forum](https://forum.aspose.com/c/cad/19) för samhällsstöd och diskussioner.
+A5: Besök[Aspose.CAD Forum](https://forum.aspose.com/c/cad/19) för samhällsstöd och diskussioner.

@@ -15,7 +15,7 @@ Inom den dynamiska sfären av datorstödd design (CAD) beror effektiviteten och 
 
 Innan vi börjar med den här handledningen, se till att du har följande förutsättningar på plats:
 
-- Aspose.CAD för .NET: Se till att du har Aspose.CAD-biblioteket integrerat i ditt .NET-projekt. Du kan ladda ner den[här](https://releases.aspose.com/cad/net/).
+-  Aspose.CAD för .NET: Se till att du har Aspose.CAD-biblioteket integrerat i ditt .NET-projekt. Du kan ladda ner den[här](https://releases.aspose.com/cad/net/).
 
 - Dokumentkatalog: Ha en utsedd katalog där dina CAD-dokument lagras.
 
@@ -91,13 +91,13 @@ Console.WriteLine("PutTimeoutOnSave executed successfully");
 
 ## Slutsats
 
-den här handledningen undersökte vi processen att ställa in en timeout för lagringsoperationer med Aspose.CAD för .NET. Genom att följa dessa steg kan du förbättra kontrollen och effektiviteten av dina CAD-relaterade uppgifter, vilket säkerställer optimal prestanda.
+I den här handledningen undersökte vi processen att ställa in en timeout för lagringsoperationer med Aspose.CAD för .NET. Genom att följa dessa steg kan du förbättra kontrollen och effektiviteten av dina CAD-relaterade uppgifter, vilket säkerställer optimal prestanda.
 
 ## FAQ's
 
 ### F1: Kan jag anpassa tidsgränsen?
 
- A1: Visst! Justera varaktigheten i`Thread.Sleep` uttalande för att uppfylla dina specifika krav.
+A1: Visst! Justera varaktigheten i`Thread.Sleep` uttalande för att uppfylla dina specifika krav.
 
 ### F2: Finns det andra alternativ för rasterisering?
 
@@ -113,4 +113,4 @@ A4: Absolut! Aspose.CAD stöder både 2D och 3D CAD-filformat.
 
 ### F5: Var kan jag hitta ytterligare hjälp eller samhällsstöd?
 
- A5: Besök[Aspose.CAD-forum](https://forum.aspose.com/c/cad/19) för samhällsstöd och diskussioner.
+A5: Besök[Aspose.CAD-forum](https://forum.aspose.com/c/cad/19) för samhällsstöd och diskussioner.

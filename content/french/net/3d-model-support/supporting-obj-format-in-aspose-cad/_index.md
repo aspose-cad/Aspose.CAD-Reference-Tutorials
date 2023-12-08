@@ -80,7 +80,7 @@ Toutes nos félicitations! Vous avez intégré avec succès Aspose.CAD pour .NET
 
 ### Q1 : Aspose.CAD est-il compatible avec d’autres formats de fichiers CAO ?
 
- A1 : Oui, Aspose.CAD prend en charge divers formats de CAO, notamment DWG, DXF, DGN, etc. Vérifier la[Documentation](https://reference.aspose.com/cad/net/) pour une liste complète.
+ A1 : Oui, Aspose.CAD prend en charge divers formats de CAO, notamment DWG, DXF, DGN, etc. Vérifier la[Documentation](https://reference.aspose.com/cad/net/)pour une liste complète.
 
 ### Q2 : Puis-je essayer Aspose.CAD avant d’acheter ?
 

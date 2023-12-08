@@ -124,4 +124,4 @@ A2 : Oui, vous pouvez ajouter plusieurs entités de texte à un fichier DWG en r
 
 ### Q5 : Où puis-je demander de l'aide ou discuter des requêtes liées à Aspose.CAD ?
 
- A5 : Visitez le[Forum Aspose.CAD](https://forum.aspose.com/c/cad/19)pour se connecter avec la communauté et obtenir du soutien.
+A5 : Visitez le[Forum Aspose.CAD](https://forum.aspose.com/c/cad/19)pour se connecter avec la communauté et obtenir du soutien.

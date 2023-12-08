@@ -26,7 +26,7 @@ Sfrutta tutto il potenziale della progettazione CAD padroneggiando il ritaglio d
 
  ## Utilizzo delle entità proxy ACAD
 
-Semplifica i tuoi flussi di lavoro CAD con Aspose.CAD per .NET mentre ti guidiamo attraverso la conversione, la modifica e la gestione delle entità proxy ACAD. Questo tutorial fornisce le conoscenze necessarie per affrontare senza problemi le complessità della gestione delle entità proxy ACAD. Migliora il tuo processo di progettazione e ottieni un'efficienza senza pari nella gestione delle entità proxy con Aspose.CAD.
+Semplifica i tuoi flussi di lavoro CAD con Aspose.CAD per .NET mentre ti guidiamo attraverso la conversione, la modifica e la gestione delle entità proxy ACAD. Questo tutorial fornisce le conoscenze necessarie per affrontare senza problemi le complessità della gestione delle entità proxy ACAD. Migliora il tuo processo di progettazione e ottieni un'efficienza senza precedenti nella gestione delle entità proxy con Aspose.CAD.
 
 In conclusione, i nostri tutorial Aspose.CAD per .NET sono progettati per fornire una comprensione completa della gestione del layout DXF, del salvataggio dei file, del ritaglio dei blocchi e della gestione delle entità proxy ACAD. Immergiti in questi tutorial, sblocca nuove funzionalità e rivoluziona il tuo approccio alla progettazione CAD con Aspose.CAD per .NET. Buon apprendimento e progettazione!
 ## Tutorial sulla gestione del layout e degli oggetti

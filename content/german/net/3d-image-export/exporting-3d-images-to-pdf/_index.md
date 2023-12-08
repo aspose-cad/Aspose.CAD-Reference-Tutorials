@@ -54,7 +54,7 @@ using (Image cadImage = Image.Load(sourceFilePath))
 CadRasterizationOptions rasterizationOptions = new CadRasterizationOptions();
 rasterizationOptions.PageWidth = 500;
 rasterizationOptions.PageHeight = 500;
-//rasterizationOptions.TypeOfEntities = TypeOfEntities.Entities3D;
+// rasterizationOptions.TypeOfEntities = TypeOfEntities.Entities3D;
 
 rasterizationOptions.Layouts = new string[] { "Model" };
 ```
@@ -93,7 +93,7 @@ A2: Absolut. Das Tutorial zeigt, wie Sie die Seitenbreite und -höhe entsprechen
 
 ### F3: Sind temporäre Lizenzen für Aspose.CAD verfügbar?
 
-A3: Ja, Sie können temporäre Lizenzen für Aspose.CAD erhalten, indem Sie hier besuchen[Temporäre Lizenz](https://purchase.aspose.com/temporary-license/).
+ A3: Ja, Sie können temporäre Lizenzen für Aspose.CAD erhalten, indem Sie hier besuchen[Temporäre Lizenz](https://purchase.aspose.com/temporary-license/).
 
 ### F4: Wo finde ich zusätzlichen Support oder Community-Diskussionen?
 

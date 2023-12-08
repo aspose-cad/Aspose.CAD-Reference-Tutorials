@@ -30,7 +30,7 @@ Entendemos la importancia de un enfoque práctico. Es por eso que proporcionamos
 
 ## ¡Mejore sus aplicaciones CAD hoy!
 
-Al final de este tutorial, no sólo será experto en buscar texto en archivos DWG con C#, sino que también tendrá una comprensión más profunda de la biblioteca Aspose.CAD para .NET. Eleve sus aplicaciones CAD a nuevas alturas, mejore la eficiencia e impresione a sus usuarios con capacidades perfectas de manipulación y búsqueda de texto.
+Al final de este tutorial, no solo será experto en buscar texto en archivos DWG con C#, sino que también tendrá una comprensión más profunda de la biblioteca Aspose.CAD para .NET. Eleve sus aplicaciones CAD a nuevas alturas, mejore la eficiencia e impresione a sus usuarios con capacidades perfectas de manipulación y búsqueda de texto.
 
 ¿Listo para mejorar tus habilidades CAD? ¡Sumérgete en nuestro tutorial ahora y desbloquea todo el potencial de Aspose.CAD para .NET!
 ## Tutoriales de búsqueda y manipulación de texto

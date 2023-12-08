@@ -124,4 +124,4 @@ S2: Ja, du kan lägga till flera textenheter till en DWG-fil genom att upprepa p
 
 ### F5: Var kan jag söka hjälp eller diskutera Aspose.CAD-relaterade frågor?
 
- A5: Besök[Aspose.CAD-forum](https://forum.aspose.com/c/cad/19)att få kontakt med samhället och få stöd.
+A5: Besök[Aspose.CAD-forum](https://forum.aspose.com/c/cad/19)att få kontakt med samhället och få stöd.

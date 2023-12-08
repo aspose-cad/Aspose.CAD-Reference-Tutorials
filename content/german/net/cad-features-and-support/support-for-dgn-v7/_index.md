@@ -9,7 +9,7 @@ url: /de/net/cad-features-and-support/support-for-dgn-v7/
 ---
 ## Einführung
 
-Im Bereich der .NET-Entwicklung zeichnet sich Aspose.CAD als leistungsstarke Bibliothek für die Verarbeitung von CAD-Dateien (Computer-Aided Design) aus. Dieses Tutorial befasst sich mit einer spezifischen Funktion von Aspose.CAD für .NET – der Unterstützung für DGN V7-Dateien. DGN, die Abkürzung für Design, ist ein weit verbreitetes Dateiformat im CAD-Bereich. Aspose.CAD vereinfacht die Arbeit mit DGN V7-Dateien und bietet Entwicklern ein nahtloses Erlebnis.
+Im Bereich der .NET-Entwicklung sticht Aspose.CAD als leistungsstarke Bibliothek für den Umgang mit CAD-Dateien (Computer-Aided Design) hervor. Dieses Tutorial befasst sich mit einer spezifischen Funktion von Aspose.CAD für .NET – der Unterstützung für DGN V7-Dateien. DGN, die Abkürzung für Design, ist ein weit verbreitetes Dateiformat im CAD-Bereich. Aspose.CAD vereinfacht die Arbeit mit DGN V7-Dateien und bietet Entwicklern ein nahtloses Erlebnis.
 
 ## Voraussetzungen
 

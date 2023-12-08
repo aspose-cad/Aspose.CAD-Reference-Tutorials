@@ -83,7 +83,7 @@ A1：当然！ Aspose.CAD 简化了复杂的 CAD 任务，使具有不同背景�
 
 ### Q3：Aspose.CAD 有免费试用版吗？
 
- A3：是的，您可以获得免费试用[这里](https://releases.aspose.com/).
+A3：是的，您可以获得免费试用[这里](https://releases.aspose.com/).
 
 ### Q4：如何获得 Aspose.CAD 的临时许可证？
 
@@ -91,4 +91,4 @@ A1：当然！ Aspose.CAD 简化了复杂的 CAD 任务，使具有不同背景�
 
 ### Q5: 需要帮助或有疑问吗？
 
- A5：访问[Aspose.CAD论坛](https://forum.aspose.com/c/cad/19)以获得社区支持。
+A5：访问[Aspose.CAD论坛](https://forum.aspose.com/c/cad/19)以获得社区支持。

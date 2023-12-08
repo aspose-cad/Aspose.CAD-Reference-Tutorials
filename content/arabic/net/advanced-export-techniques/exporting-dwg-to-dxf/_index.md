@@ -2,7 +2,7 @@
 title: تصدير DWG إلى تنسيق DXF في C# - البرنامج التعليمي Aspose.CAD
 linktitle: تصدير DWG إلى تنسيق DXF في C#
 second_title: Aspose.CAD .NET - تنسيق ملف CAD وBIM
-description: فتح معالجة ملفات CAD في C# باستخدام Aspose.CAD. تعلم كيفية تصدير DWG إلى DXF بسهولة. اتبع دليلنا خطوة بخطوة للتكامل السلس.
+description: فتح معالجة ملفات CAD في لغة C# باستخدام Aspose.CAD. تعلم كيفية تصدير DWG إلى DXF بسهولة. اتبع دليلنا خطوة بخطوة للتكامل السلس.
 type: docs
 weight: 10
 url: /ar/net/advanced-export-techniques/exporting-dwg-to-dxf/
@@ -15,7 +15,7 @@ url: /ar/net/advanced-export-techniques/exporting-dwg-to-dxf/
 
 قبل الغوص في البرنامج التعليمي، تأكد من توفر المتطلبات الأساسية التالية:
 
-1. مكتبة Aspose.CAD: قم بتنزيل وتثبيت مكتبة Aspose.CAD من[هذا الرابط](https://releases.aspose.com/cad/net/).
+1.  مكتبة Aspose.CAD: قم بتنزيل وتثبيت مكتبة Aspose.CAD من[هذا الرابط](https://releases.aspose.com/cad/net/).
 
 2. بيئة التطوير: قم بإعداد بيئة تطوير C#، مثل Visual Studio.
 
@@ -42,7 +42,7 @@ string MyDir = "Your Document Directory";
 string inputFile = MyDir + "Line.dwg";
 using (var cadImage = (CadImage)Image.Load(inputFile))
 {
-    // سيتم وضع الرمز الخاص بك لمزيد من الخطوات هنا
+    //سيتم وضع الرمز الخاص بك لمزيد من الخطوات هنا
 }
 ```
 
@@ -79,4 +79,4 @@ cadImage.Save(outFile);
 
 ### س5: هل تحتاج إلى مساعدة أو لديك أسئلة محددة؟
 
- ج5: قم بزيارة منتدى مجتمع Aspose.CAD[هنا](https://forum.aspose.com/c/cad/19) للحصول على مساعدة الخبراء ودعم المجتمع.
+ ج5: قم بزيارة منتدى مجتمع Aspose.CAD[هنا](https://forum.aspose.com/c/cad/19)للحصول على مساعدة الخبراء ودعم المجتمع.

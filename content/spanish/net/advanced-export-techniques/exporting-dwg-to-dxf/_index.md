@@ -9,13 +9,13 @@ url: /es/net/advanced-export-techniques/exporting-dwg-to-dxf/
 ---
 ## Introducción
 
-Si es un desarrollador .NET que busca una solución poderosa para manipular archivos CAD, Aspose.CAD es su herramienta preferida. En este tutorial paso a paso, lo guiaremos a través del proceso de exportar un archivo DWG al formato DXF usando C# con Aspose.CAD.
+Si es un desarrollador .NET que busca una solución potente para manipular archivos CAD, Aspose.CAD es su herramienta preferida. En este tutorial paso a paso, lo guiaremos a través del proceso de exportar un archivo DWG al formato DXF usando C# con Aspose.CAD.
 
 ## Requisitos previos
 
 Antes de sumergirse en el tutorial, asegúrese de cumplir con los siguientes requisitos previos:
 
-1. Biblioteca Aspose.CAD: descargue e instale la biblioteca Aspose.CAD desde[este enlace](https://releases.aspose.com/cad/net/).
+1.  Biblioteca Aspose.CAD: descargue e instale la biblioteca Aspose.CAD desde[este enlace](https://releases.aspose.com/cad/net/).
 
 2. Entorno de desarrollo: configure un entorno de desarrollo de C#, como Visual Studio.
 
@@ -42,7 +42,7 @@ string MyDir = "Your Document Directory";
 string inputFile = MyDir + "Line.dwg";
 using (var cadImage = (CadImage)Image.Load(inputFile))
 {
-    // Su código para pasos adicionales irá aquí
+    //Su código para pasos adicionales irá aquí
 }
 ```
 
@@ -79,4 +79,4 @@ R1: Sí, Aspose.CAD se actualiza periódicamente para garantizar la compatibilid
 
 ### P5: ¿Necesita ayuda o tiene preguntas específicas?
 
- A5: Visite el foro de la comunidad Aspose.CAD[aquí](https://forum.aspose.com/c/cad/19) para obtener asistencia de expertos y apoyo de la comunidad.
+ A5: Visite el foro de la comunidad Aspose.CAD[aquí](https://forum.aspose.com/c/cad/19)para obtener asistencia de expertos y apoyo de la comunidad.

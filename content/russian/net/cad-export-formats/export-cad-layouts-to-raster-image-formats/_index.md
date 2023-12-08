@@ -15,7 +15,7 @@ url: /ru/net/cad-export-formats/export-cad-layouts-to-raster-image-formats/
 
 Прежде чем приступить к изучению руководства, убедитесь, что у вас есть следующее:
 
--  Библиотека Aspose.CAD для .NET: убедитесь, что у вас установлена библиотека Aspose.CAD. Если нет, вы можете скачать его с сайта[Веб-сайт Aspose.CAD](https://releases.aspose.com/cad/net/).
+- Библиотека Aspose.CAD для .NET: убедитесь, что у вас установлена библиотека Aspose.CAD. Если нет, вы можете скачать его с сайта[Веб-сайт Aspose.CAD](https://releases.aspose.com/cad/net/).
 
 - Файл чертежа САПР: подготовьте файл чертежа САПР (например, conic_pyramid.dxf), который вы хотите преобразовать в форматы растровых изображений.
 
@@ -41,7 +41,7 @@ string sourceFilePath = MyDir + "conic_pyramid.dxf";
 // Загрузите чертеж САПР в экземпляр изображения.
 using (var image = Image.Load(sourceFilePath))
 {
-    //Здесь находится ваш код для загрузки чертежа САПР.
+    // Здесь находится ваш код для загрузки чертежа САПР.
 }
 ```
 

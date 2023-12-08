@@ -40,7 +40,7 @@ using Aspose.CAD.ImageOptions;
 
 ## 1. Adım: Belge Dizininizi Kurun
 
- Projenizde bir belge dizininin kurulu olduğundan emin olun. Yer değiştirmek`"Your Document Directory"`belge dizininizin gerçek yolu ile.
+ Projenizde bir belge dizininin kurulu olduğundan emin olun. Yer değiştirmek`"Your Document Directory"` belge dizininizin gerçek yolu ile.
 
 ```csharp
 string MyDir = "Your Document Directory";
@@ -106,7 +106,7 @@ Cevap 2: İstisnaları düzgün bir şekilde ele almak için kodunuzu, sağlanan
 
 ### S4: Satın almadan önce Aspose.CAD for .NET'i deneyebilir miyim?
 
- A4: Kesinlikle! Ücretsiz denemeyi keşfedin[Burada](https://releases.aspose.com/).
+A4: Kesinlikle! Ücretsiz denemeyi keşfedin[Burada](https://releases.aspose.com/).
 
 ### S5: Aspose.CAD for .NET için topluluk desteğini nerede bulabilirim?
 

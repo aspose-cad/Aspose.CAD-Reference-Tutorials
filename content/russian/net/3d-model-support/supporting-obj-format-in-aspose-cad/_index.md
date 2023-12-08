@@ -80,7 +80,7 @@ CADDoc.Save(MyDir + "example-580-W_custom.pdf", CADf);
 
 ### Вопрос 1: Совместим ли Aspose.CAD с другими форматами файлов САПР?
 
- О1: Да, Aspose.CAD поддерживает различные форматы САПР, включая DWG, DXF, DGN и другие. Проверить[документация](https://reference.aspose.com/cad/net/) для полного списка.
+ О1: Да, Aspose.CAD поддерживает различные форматы САПР, включая DWG, DXF, DGN и другие. Проверить[документация](https://reference.aspose.com/cad/net/)для полного списка.
 
 ### Вопрос 2: Могу ли я попробовать Aspose.CAD перед покупкой?
 

@@ -22,7 +22,7 @@ Embarquez pour un voyage de maîtrise en vous guidant à travers chaque étape d
 
 ## Libérer le potentiel d'Aspose.CAD pour .NET
 
-Aspose.CAD est un outil puissant, et apprendre à tirer parti de ses capacités peut vous distinguer dans le monde compétitif du développement CAO. Ce didacticiel va au-delà de la simple prise en charge du format OBJ : il dévoile le potentiel plus large d'Aspose.CAD pour .NET, vous permettant de créer des applications 3D qui se démarquent.
+Aspose.CAD est un outil puissant, et apprendre à tirer parti de ses capacités peut vous démarquer dans le monde compétitif du développement CAO. Ce didacticiel va au-delà de la simple prise en charge du format OBJ : il dévoile le potentiel plus large d'Aspose.CAD pour .NET, vous permettant de créer des applications 3D qui se démarquent.
 
 ## Conclusion
 

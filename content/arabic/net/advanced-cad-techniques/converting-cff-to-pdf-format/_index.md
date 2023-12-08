@@ -59,7 +59,7 @@ var options = new PdfOptions();
 image.Save(MyDir + "WineBottle_Die_out.pdf", options);
 ```
 
- احفظ الصورة المحملة كملف PDF باستخدام ملف`Save` طريقة. قم بتوفير مسار الإخراج والمحدد مسبقًا`PdfOptions`هدف.
+ احفظ الصورة المحملة كملف PDF باستخدام ملف`Save` طريقة. قم بتوفير مسار الإخراج والمحدد مسبقًا`PdfOptions` هدف.
 
 ## خاتمة
 
@@ -87,4 +87,4 @@ image.Save(MyDir + "WineBottle_Die_out.pdf", options);
 
 ### س5: هل يوجد مجتمع دعم لمستخدمي Aspose.CAD؟
 
-ج5: نعم[منتدى Aspose.CAD](https://forum.aspose.com/c/cad/19) هو مجتمع نابض بالحياة حيث يمكنك طلب المساعدة ومشاركة المعرفة والتواصل مع المستخدمين الآخرين.
+ ج5: نعم[منتدى Aspose.CAD](https://forum.aspose.com/c/cad/19) هو مجتمع نابض بالحياة حيث يمكنك طلب المساعدة ومشاركة المعرفة والتواصل مع المستخدمين الآخرين.

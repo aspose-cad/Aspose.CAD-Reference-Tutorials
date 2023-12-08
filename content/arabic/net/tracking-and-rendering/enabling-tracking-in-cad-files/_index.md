@@ -76,7 +76,7 @@ using (FileStream stream = new FileStream(MyDir + "output_conic_pyramid.pdf", Fi
 }
 ```
 
-تهانينا! لقد نجحت في تمكين التتبع في ملفات CAD باستخدام Aspose.CAD لـ .NET. لا تتردد في استكشاف[توثيق](https://reference.aspose.com/cad/net/) لمزيد من التفاصيل.
+ تهانينا! لقد نجحت في تمكين التتبع في ملفات CAD باستخدام Aspose.CAD لـ .NET. لا تتردد في استكشاف[توثيق](https://reference.aspose.com/cad/net/) لمزيد من التفاصيل.
 
 ## خاتمة
 

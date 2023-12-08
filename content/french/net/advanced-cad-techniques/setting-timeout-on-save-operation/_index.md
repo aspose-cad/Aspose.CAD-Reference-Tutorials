@@ -15,7 +15,7 @@ Dans le domaine dynamique de la conception assistée par ordinateur (CAO), l'eff
 
 Avant de nous lancer dans ce didacticiel, assurez-vous d'avoir les prérequis suivants en place :
 
-- Aspose.CAD pour .NET : assurez-vous que la bibliothèque Aspose.CAD est intégrée à votre projet .NET. Vous pouvez le télécharger[ici](https://releases.aspose.com/cad/net/).
+-  Aspose.CAD pour .NET : assurez-vous que la bibliothèque Aspose.CAD est intégrée à votre projet .NET. Vous pouvez le télécharger[ici](https://releases.aspose.com/cad/net/).
 
 - Répertoire de documents : disposez d'un répertoire désigné dans lequel vos documents CAO sont stockés.
 
@@ -97,7 +97,7 @@ Dans ce didacticiel, nous avons exploré le processus de définition d'un délai
 
 ### Q1 : Puis-je personnaliser la durée du délai d'attente ?
 
- A1 : Certainement ! Ajustez la durée dans le`Thread.Sleep` déclaration pour répondre à vos besoins spécifiques.
+A1 : Certainement ! Ajustez la durée dans le`Thread.Sleep` déclaration pour répondre à vos besoins spécifiques.
 
 ### Q2 : Existe-t-il d'autres options de rastérisation ?
 
@@ -113,4 +113,4 @@ A4 : Absolument ! Aspose.CAD prend en charge les formats de fichiers CAO 2D et 3
 
 ### Q5 : Où puis-je trouver une aide supplémentaire ou un soutien communautaire ?
 
- A5 : Visitez le[Forum Aspose.CAD](https://forum.aspose.com/c/cad/19) pour le soutien et les discussions de la communauté.
+A5 : Visitez le[Forum Aspose.CAD](https://forum.aspose.com/c/cad/19) pour le soutien et les discussions de la communauté.

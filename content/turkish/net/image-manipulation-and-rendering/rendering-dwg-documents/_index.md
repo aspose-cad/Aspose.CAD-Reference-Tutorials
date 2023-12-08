@@ -9,7 +9,7 @@ url: /tr/net/image-manipulation-and-rendering/rendering-dwg-documents/
 ---
 ## giriiş
 
-Aspose.CAD kullanarak DWG belgelerinin C#'ta işlenmesine ilişkin kapsamlı kılavuza hoş geldiniz. İster deneyimli bir geliştirici olun ister .NET'e yeni başlıyor olun, bu eğitim size DWG dosyalarını verimli bir şekilde işlemek için Aspose.CAD'den yararlanma sürecinde yol gösterecektir. Aspose.CAD, CAD dosya formatlarıyla çalışmak için güçlü işlevler sağlayan güçlü bir API'dir ve bu da onu DWG dosyalarıyla çalışan geliştiricilerin tercihi haline getirir.
+Aspose.CAD kullanarak DWG belgelerinin C#'ta işlenmesine ilişkin kapsamlı kılavuza hoş geldiniz. İster deneyimli bir geliştirici olun ister .NET'e yeni başlıyor olun, bu eğitim size DWG dosyalarını verimli bir şekilde işlemek için Aspose.CAD'den yararlanma sürecinde yol gösterecektir. Aspose.CAD, CAD dosya formatlarıyla çalışmak için güçlü işlevler sağlayan güçlü bir API'dir ve bu da onu DWG dosyalarıyla uğraşan geliştiricilerin tercihi haline getirir.
 
 ## Önkoşullar
 
@@ -45,7 +45,7 @@ string MyDir = "Your Document Directory";
 string sourceFilePath = MyDir + "Bottom_plate.dwg";
 using (CadImage cadImage = (CadImage)Image.Load(sourceFilePath))
 {
-    //DWG dosyasını yükleme kodunuz buraya gelecek.
+    // DWG dosyasını yükleme kodunuz buraya gelecek.
 }
 ```
 
@@ -55,7 +55,7 @@ using (CadImage cadImage = (CadImage)Image.Load(sourceFilePath))
 CadRasterizationOptions rasterizationOptions = new CadRasterizationOptions();
 rasterizationOptions.Layouts = new string[] { "Model" };
 rasterizationOptions.NoScaling = true;
-// Buraya ek rasterleştirme yapılandırmaları eklenebilir.
+//Buraya ek rasterleştirme yapılandırmaları eklenebilir.
 ```
 
 ## Adım 3: Çizilecek Bölgeyi Tanımlayın
@@ -129,4 +129,4 @@ Cevap2: Evet, Aspose.CAD hem .NET Framework hem de .NET Core ile uyumludur.
 
 ### S5: Ek desteği nerede bulabilirim?
 
- A5: ziyaret edin[Aspose.CAD forumu](https://forum.aspose.com/c/cad/19) topluluk desteği ve tartışmalar için.
+A5: ziyaret edin[Aspose.CAD forumu](https://forum.aspose.com/c/cad/19) topluluk desteği ve tartışmalar için.

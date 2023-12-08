@@ -13,7 +13,7 @@ Dans le domaine dynamique de la conception assistée par ordinateur (CAO), la ca
 
 Avant de plonger dans le didacticiel, assurez-vous que les conditions préalables suivantes sont remplies :
 
-1. Bibliothèque Aspose.CAD pour .NET : assurez-vous que la bibliothèque Aspose.CAD est installée. Vous pouvez le télécharger[ici](https://releases.aspose.com/cad/net/).
+1.  Bibliothèque Aspose.CAD pour .NET : assurez-vous que la bibliothèque Aspose.CAD est installée. Vous pouvez le télécharger[ici](https://releases.aspose.com/cad/net/).
 
 2. Environnement de développement : préparez un environnement de développement .NET fonctionnel.
 

@@ -13,7 +13,7 @@ Im dynamischen Bereich des computergestützten Designs (CAD) ist die Fähigkeit,
 
 Bevor wir uns mit dem Tutorial befassen, stellen Sie sicher, dass die folgenden Voraussetzungen erfüllt sind:
 
-1. Aspose.CAD für .NET-Bibliothek: Stellen Sie sicher, dass Sie die Aspose.CAD-Bibliothek installiert haben. Sie können es herunterladen[Hier](https://releases.aspose.com/cad/net/).
+1.  Aspose.CAD für .NET-Bibliothek: Stellen Sie sicher, dass Sie die Aspose.CAD-Bibliothek installiert haben. Sie können es herunterladen[Hier](https://releases.aspose.com/cad/net/).
 
 2. Entwicklungsumgebung: Halten Sie eine funktionierende .NET-Entwicklungsumgebung bereit.
 

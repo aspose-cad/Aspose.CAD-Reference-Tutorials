@@ -43,3 +43,26 @@ Bunlar bazı yararlı kaynaklara bağlantılar:
 - [STL Dosyasını Dışa Aktarma](./net/stl-file-export/)
 
 
+## Java Eğitimleri için Aspose.CAD
+{{% alert color="primary" %}}
+Aspose.CAD for Java ile CAD geliştirme yeterliliğinizi geliştirecek bir yolculuğa çıkın. Çizim dönüştürme, metin açıklaması, dosya işleme, gelişmiş özellikler, lisanslama ve daha fazlasını derinlemesine inceleyen bir dizi kapsamlı eğitime kendinizi kaptırın. İster yeni başlıyor olun ister deneyimli bir geliştirici olun, titizlikle hazırlanmış, adım adım kılavuzlarımız sizi güçlendirmek için tasarlanmıştır. CAD inceliklerinin nüanslarını zahmetsizce keşfederek becerilerinizin tüm potansiyelini ortaya çıkarmanıza ve projelerinize yeni bir hassasiyet ve verimlilik düzeyi getirmenize olanak tanır.
+{{% /alert %}}
+
+Bunlar bazı yararlı kaynaklara bağlantılar:
+ 
+- [CAD Çizim Dönüşümü](./java/cad-drawing-conversion/)
+- [CAD Metni ve Ek Açıklama](./java/cad-text-and-annotation/)
+- [CAD'den PDF'ye ve SVG'ye Dışa Aktarma Seçenekleri](./java/cad-to-pdf-and-svg-export-options/)
+- [CAD Dosyası İşleme](./java/cad-file-manipulation/)
+- [Gelişmiş CAD Özellikleri](./java/advanced-cad-features/)
+- [Lisanslama ve Yapılandırma](./java/licensing-and-configuration/)
+- [DWG Dosya İşlemleri](./java/dwg-file-operations/)
+- [CAD Meta Verileri ve İşleme](./java/cad-meta-data-and-rendering/)
+- [CAD Metni ve Biçimlendirme](./java/cad-text-and-formatting/)
+- [Ek özellikler](./java/additional-features/)
+- [CAD Dışa Aktarma Seçenekleri](./java/cad-export-options/)
+- [DGN Dışa Aktarma Seçenekleri](./java/dgn-export-options/)
+- [Diğer CAD İşlemleri](./java/other-cad-operations/)
+
+
+

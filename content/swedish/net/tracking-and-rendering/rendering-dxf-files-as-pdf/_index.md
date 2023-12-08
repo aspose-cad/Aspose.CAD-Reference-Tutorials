@@ -41,7 +41,7 @@ string MyDir = "Your Document Directory";
 string sourceFilePath = MyDir + "conic_pyramid.dxf";
 string outPath = MyDir + "conic_pyramid.jpg";
 ```
-Se till att byta ut`"Your Document Directory"` med den faktiska sökvägen till ditt projekts dokumentkatalog.
+ Se till att byta ut`"Your Document Directory"`med den faktiska sökvägen till ditt projekts dokumentkatalog.
 
 ## Steg 2: Ladda DXF-fil
 

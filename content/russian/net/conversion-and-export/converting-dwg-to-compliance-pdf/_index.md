@@ -112,4 +112,4 @@ cadImage.Save(MyDir + "PDFA1_B.pdf", pdfOptions);
 
 ### Вопрос 5: Где я могу получить поддержку для Aspose.CAD?
 
- A5: Посетите[Форум Aspose.CAD](https://forum.aspose.com/c/cad/19) по любым вопросам, связанным с поддержкой.
+A5: Посетите[Форум Aspose.CAD](https://forum.aspose.com/c/cad/19) по любым вопросам, связанным с поддержкой.

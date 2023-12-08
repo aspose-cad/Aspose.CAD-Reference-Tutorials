@@ -76,7 +76,7 @@ using (FileStream stream = new FileStream(MyDir + "output_conic_pyramid.pdf", Fi
 }
 ```
 
-Congratulazioni! Hai abilitato con successo il monitoraggio nei file CAD utilizzando Aspose.CAD per .NET. Sentiti libero di esplorare il[documentazione](https://reference.aspose.com/cad/net/) per ulteriori dettagli.
+ Congratulazioni! Hai abilitato con successo il monitoraggio nei file CAD utilizzando Aspose.CAD per .NET. Sentiti libero di esplorare il[documentazione](https://reference.aspose.com/cad/net/) per ulteriori dettagli.
 
 ## Conclusione
 

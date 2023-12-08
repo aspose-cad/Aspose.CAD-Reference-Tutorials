@@ -10,7 +10,7 @@ url: /tr/net/exporting-to-image-formats/
 
 ## giriiş
 
-Dijital tasarım alanında, çeşitli dosya formatlarını dışa aktarma ihtiyacı çok önemlidir. Bu eğitim serisi, IFC ve IGES dosyalarını PNG ve PDF gibi popüler görüntü formatlarına sorunsuz bir şekilde dönüştürmek için Aspose.CAD for .NET'in yeteneklerinden yararlanmaya odaklanıyor. Kendinizi dosya dönüştürmenin karmaşıklığıyla boğuşurken bulduysanız, doğru yerdesiniz.
+Dijital tasarım alanında, çeşitli dosya formatlarını dışa aktarma ihtiyacı çok önemlidir. Bu eğitim serisi, IFC ve IGES dosyalarını PNG ve PDF gibi popüler görüntü formatlarına sorunsuz bir şekilde dönüştürmek için Aspose.CAD for .NET'in özelliklerinden yararlanmaya odaklanıyor. Kendinizi dosya dönüştürmenin karmaşıklığıyla boğuşurken bulduysanız, doğru yerdesiniz.
 
 ## .NET için Aspose.CAD'in Gücünün Kilidini Açın
 

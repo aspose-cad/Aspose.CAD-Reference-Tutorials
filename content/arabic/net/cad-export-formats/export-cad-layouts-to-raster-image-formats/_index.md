@@ -15,7 +15,7 @@ url: /ar/net/cad-export-formats/export-cad-layouts-to-raster-image-formats/
 
 قبل الغوص في البرنامج التعليمي، تأكد من أن لديك ما يلي:
 
--  Aspose.CAD لمكتبة .NET: تأكد من تثبيت مكتبة Aspose.CAD. إذا لم يكن الأمر كذلك، يمكنك تنزيله من[موقع Aspose.CAD](https://releases.aspose.com/cad/net/).
+- Aspose.CAD لمكتبة .NET: تأكد من تثبيت مكتبة Aspose.CAD. إذا لم يكن الأمر كذلك، يمكنك تنزيله من[موقع Aspose.CAD](https://releases.aspose.com/cad/net/).
 
 - ملف رسم CAD: قم بإعداد ملف رسم CAD (على سبيل المثال، conic_pyramid.dxf) الذي تريد تحويله إلى تنسيقات صور نقطية.
 
@@ -41,7 +41,7 @@ string sourceFilePath = MyDir + "conic_pyramid.dxf";
 // قم بتحميل رسم CAD في مثيل الصورة
 using (var image = Image.Load(sourceFilePath))
 {
-    //الكود الخاص بك لتحميل رسم CAD موجود هنا
+    // الكود الخاص بك لتحميل رسم CAD موجود هنا
 }
 ```
 

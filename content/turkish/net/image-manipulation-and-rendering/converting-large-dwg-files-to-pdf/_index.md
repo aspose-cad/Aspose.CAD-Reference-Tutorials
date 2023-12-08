@@ -109,4 +109,4 @@ Cevap4: Evet, Aspose.CAD for .NET, CAD dosya formatlarındaki güncellemelere ay
 
 ### S5: Nereden yardım isteyebilirim veya geri bildirimi paylaşabilirim?
 
- A5: ziyaret edin[Aspose.CAD Forumu](https://forum.aspose.com/c/cad/19) toplulukla etkileşime geçmek, destek aramak veya geri bildirim sağlamak.
+A5: ziyaret edin[Aspose.CAD Forumu](https://forum.aspose.com/c/cad/19) toplulukla etkileşime geçmek, destek aramak veya geri bildirim sağlamak.

@@ -14,7 +14,7 @@ url: /ar/net/tracking-and-rendering/rendering-dxf-files-as-pdf/
 ## المتطلبات الأساسية
 
 قبل أن نتعمق في البرنامج التعليمي، تأكد من توفر المتطلبات الأساسية التالية:
-1.  Aspose.CAD لـ .NET: تأكد من تثبيت مكتبة Aspose.CAD في مشروع .NET الخاص بك. إذا لم تكن قد قمت بذلك، يمكنك تنزيله[هنا](https://releases.aspose.com/cad/net/) واتبع تعليمات التثبيت.
+1.  Aspose.CAD for .NET: تأكد من تثبيت مكتبة Aspose.CAD في مشروع .NET الخاص بك. إذا لم تكن قد قمت بذلك، يمكنك تنزيله[هنا](https://releases.aspose.com/cad/net/) واتبع تعليمات التثبيت.
 2.  نموذج ملف DXF: اجعل ملف DXF جاهزًا للتحويل. في مثالنا، سنستخدم ملفًا اسمه`conic_pyramid.dxf`. يمكنك استخدام ملف DXF الخاص بك عن طريق تعديل مسار الملف المصدر وفقًا لذلك.
 
 ## استيراد مساحات الأسماء
@@ -41,7 +41,7 @@ string MyDir = "Your Document Directory";
 string sourceFilePath = MyDir + "conic_pyramid.dxf";
 string outPath = MyDir + "conic_pyramid.jpg";
 ```
-تأكد من استبدال`"Your Document Directory"` بالمسار الفعلي إلى دليل مستندات مشروعك.
+ تأكد من استبدال`"Your Document Directory"`بالمسار الفعلي إلى دليل مستندات مشروعك.
 
 ## الخطوة 2: تحميل ملف DXF
 

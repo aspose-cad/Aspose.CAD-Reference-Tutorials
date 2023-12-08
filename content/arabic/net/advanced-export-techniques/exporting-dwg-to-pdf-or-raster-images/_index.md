@@ -114,7 +114,7 @@ cadImage.Save(outPath.Replace("pdf", "png"), pngOptions);
 
 ### س4: هل يمكنني الحصول على ترخيص مؤقت لأغراض الاختبار؟
 
-ج4: نعم، يمكنك الحصول على ترخيص مؤقت[هنا](https://purchase.aspose.com/temporary-license/).
+ ج4: نعم، يمكنك الحصول على ترخيص مؤقت[هنا](https://purchase.aspose.com/temporary-license/).
 
 ### س5: أين يمكنني العثور على الوثائق التفصيلية؟
 

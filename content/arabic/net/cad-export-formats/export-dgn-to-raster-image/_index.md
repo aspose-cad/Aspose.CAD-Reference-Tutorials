@@ -17,7 +17,7 @@ url: /ar/net/cad-export-formats/export-dgn-to-raster-image/
 
 -  Aspose.CAD لـ .NET: تأكد من تثبيت مكتبة Aspose.CAD في مشروع .NET الخاص بك. يمكنك العثور على المكتبة والوثائق ذات الصلة على[موقع إلكتروني](https://reference.aspose.com/cad/net/).
 
-- نموذج ملف DGN: احصل على ملف DGN جاهز للتحويل. في مثالنا، سنستخدم "Nikon_D90_Camera.dgn".
+- نموذج ملف DGN: احصل على ملف DGN جاهز للتحويل. في مثالنا، سنستخدم "Nikon_D90_Camera.dgn."
 
 الآن، دعنا نتعمق في الدليل خطوة بخطوة.
 

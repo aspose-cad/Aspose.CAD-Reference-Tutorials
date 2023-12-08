@@ -15,7 +15,7 @@ url: /zh/net/conversion-and-export/converting-dwg-to-pdf-with-coordinates/
 
 在我们开始之前，请确保您具备以下先决条件：
 
--  Aspose.CAD 库：下载并安装适用于 .NET 的 Aspose.CAD 库。你可以找到图书馆[这里](https://releases.aspose.com/cad/net/).
+- Aspose.CAD 库：下载并安装适用于 .NET 的 Aspose.CAD 库。你可以找到图书馆[这里](https://releases.aspose.com/cad/net/).
 
 - 开发环境：确保您设置了兼容的开发环境，包括 Visual Studio 或任何其他首选 IDE。
 
@@ -133,4 +133,4 @@ A4：当然！探索 Aspose.CAD 提供的广泛选项，根据您的特定要求
 
 ### 问题 5：我在哪里可以找到其他支持或社区讨论？
 
- A5：访问[Aspose.CAD论坛](https://forum.aspose.com/c/cad/19)以获得社区支持和讨论。
+A5：访问[Aspose.CAD论坛](https://forum.aspose.com/c/cad/19)以获得社区支持和讨论。
