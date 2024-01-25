@@ -9,7 +9,7 @@ url: /zh/net/exporting-to-image-formats/exporting-iges-files-to-pdf/
 ---
 ## 介绍
 
-在计算机辅助设计 (CAD) 的动态世界中，将 IGES 文件转换为 PDF 格式的需求是常见的要求。 Aspose.CAD for .NET 为这项任务提供了强大的解决方案，为处理 CAD 文件提供了灵活性和精确性。在本教程中，我们将引导您完成使用 Aspose.CAD for .NET 将 IGES 文件导出为 PDF 的过程。让我们深入了解吧！
+在计算机辅助设计 (CAD) 的动态世界中，将 IGES 文件转换为 PDF 格式的需求是常见的要求。 Aspose.CAD for .NET 为这项任务提供了强大的解决方案，为处理 CAD 文件提供了灵活性和精确度。在本教程中，我们将引导您完成使用 Aspose.CAD for .NET 将 IGES 文件导出为 PDF 的过程。让我们深入了解吧！
 
 ## 先决条件
 
@@ -84,7 +84,7 @@ pdfOptions.VectorRasterizationOptions = options;
 
 ## 第 6 步：另存为 PDF
 
-使用指定选项将 CAD 图像保存为 PDF 文件：
+使用指定选项将 CAD 图像另存为 PDF 文件：
 
 ```csharp
 cadImage.Save(MyDir + "figa2.pdf", pdfOptions);

@@ -9,7 +9,7 @@ url: /es/net/cad-features-and-support/setting-canvas-size-and-mode/
 ---
 ## Introducción
 
-¿Está listo para desbloquear todo el potencial de Aspose.CAD para .NET y revolucionar su experiencia de renderizado CAD? En este tutorial paso a paso, profundizaremos en las complejidades de configurar el tamaño y el modo del lienzo utilizando la potente biblioteca Aspose.CAD. Ya sea que sea un desarrollador experimentado o recién esté comenzando, esta guía lo guiará a través del proceso, asegurándole que aproveche las capacidades de Aspose.CAD de manera efectiva.
+¿Está listo para desbloquear todo el potencial de Aspose.CAD para .NET y revolucionar su experiencia de renderizado CAD? En este tutorial paso a paso, profundizaremos en las complejidades de configurar el tamaño y el modo del lienzo utilizando la poderosa biblioteca Aspose.CAD. Ya sea que sea un desarrollador experimentado o recién esté comenzando, esta guía lo guiará a través del proceso, asegurándole que aproveche las capacidades de Aspose.CAD de manera efectiva.
 
 ## Requisitos previos
 

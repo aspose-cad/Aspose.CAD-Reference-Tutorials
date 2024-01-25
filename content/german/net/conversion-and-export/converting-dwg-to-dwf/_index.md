@@ -21,7 +21,7 @@ Bevor Sie mit dem Konvertierungsprozess beginnen, stellen Sie sicher, dass die f
 
 - DWG-Datei: Halten Sie eine DWG-Datei zur Konvertierung bereit. Wenn Sie noch keins haben, können Sie das bereitgestellte Beispiel verwenden oder ein eigenes auswählen.
 
-- Grundkenntnisse in C#: Machen Sie sich mit den Grundlagen der Programmiersprache C# vertraut.
+- Grundkenntnisse von C#: Machen Sie sich mit den Grundlagen der Programmiersprache C# vertraut.
 
 ## Namespaces importieren
 
@@ -82,7 +82,7 @@ In diesem Tutorial haben wir den Prozess der Konvertierung von DWG in DWF mithil
 
 A1: Aspose.CAD unterstützt verschiedene Versionen von DWG-Dateien und gewährleistet so die Kompatibilität mit einer Vielzahl von CAD-Software.
 
-### F2: Kann ich Aspose.CAD vor dem Kauf ausprobieren?
+### F2: Kann ich Aspose.CAD vor dem Kauf testen?
 
  A2: Ja, Sie können die Funktionen von Aspose.CAD erkunden, indem Sie auf die kostenlose Testversion zugreifen[Hier](https://releases.aspose.com/).
 

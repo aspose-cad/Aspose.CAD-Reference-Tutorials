@@ -11,7 +11,7 @@ url: /es/net/hidden-lines-and-entities/
 
 ## Introducción
 
- Descubra el potencial oculto de sus archivos DWG con Aspose.CAD para .NET. En este tutorial completo, lo guiaremos a través del proceso de admitir líneas ocultas sin problemas. Ya sea que sea un profesional experimentado de CAD o un principiante, nuestras instrucciones paso a paso harán que el proceso de integración sea muy sencillo.|
+ Descubra el potencial oculto de sus archivos DWG con Aspose.CAD para .NET. En este completo tutorial, lo guiaremos a través del proceso de admitir líneas ocultas sin problemas. Ya sea que sea un profesional experimentado de CAD o un principiante, nuestras instrucciones paso a paso harán que el proceso de integración sea muy sencillo.|
 
 Las líneas ocultas en los archivos DWG suelen contener información crucial que mejora la calidad general de sus proyectos CAD. Con Aspose.CAD para .NET, ahora puede descubrir estas gemas ocultas sin esfuerzo. Nuestro tutorial garantiza un proceso de desbloqueo fluido y eficiente, permitiéndole aprovechar al máximo los detalles intrincados de sus diseños.
 

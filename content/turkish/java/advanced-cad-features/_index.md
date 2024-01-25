@@ -13,7 +13,7 @@ url: /tr/java/advanced-cad-features/
 CAD geliştirme becerilerinizi bir sonraki seviyeye taşımaya hazır mısınız? Aspose.CAD for Java, kesintisiz ve verimli bir iş akışı sağlayan gelişmiş özelliklerin kilidini açmanız için size bir dizi eğitim sunuyor. Bu eğitimlerde ele alınan temel konulara bakalım.
 
 ## CAD İşleme Süreci için Takibi Etkinleştir
-Aspose.CAD for Java ile CAD oluşturma deneyiminizi geliştirin. Adım adım kılavuzumuz izlemeyi etkinleştirmenize, içgörüler sağlamanıza ve oluşturma süreci üzerinde kontrol sahibi olmanıza olanak sağlar. PDF dönüştürme oyununuzu zahmetsizce yükseltin.
+Aspose.CAD for Java ile CAD oluşturma deneyiminizi geliştirin. Adım adım kılavuzumuz izlemeyi etkinleştirmenize, içgörüler sağlamanıza ve oluşturma süreci üzerinde kontrol sahibi olmanıza olanak tanır. PDF dönüştürme oyununuzu zahmetsizce yükseltin.
 
 ## IGES Formatını Entegre Edin
 IGES formatının Aspose.CAD for Java ile sorunsuz entegrasyonunu keşfedin. Bu eğitim, CAD geliştirme deneyiminizi geliştirmek için Aspose.CAD'in gücünden yararlanarak süreç boyunca size rehberlik eder. Dosya uyumluluğu ve işbirliğinde yeni olanakların kilidini açın.

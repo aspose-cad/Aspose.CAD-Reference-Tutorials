@@ -104,6 +104,6 @@ Tebrikler! Aspose.CAD for Java'yı kullanarak görüntüleri DXF formatına nas�
 
  Cevap4: Kitaplığı indirin[Burada](https://releases.aspose.com/cad/java/).
 
-### S5: Ücretsiz deneme sürümü mevcut mu?
+### S5: Ücretsiz deneme sürümü var mı?
 
  A5: Evet, ücretsiz deneme sürümünden yararlanabilirsiniz[Burada](https://releases.aspose.com/).

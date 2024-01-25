@@ -22,7 +22,7 @@ Aspose.CAD pour .NET s'intègre parfaitement à votre flux de travail existant. 
 
 ## Optimisation de la sortie PDF
 
-Au-delà de la conversion de base, le didacticiel aborde des techniques avancées pour optimiser votre sortie PDF. Découvrez comment améliorer la qualité de l'image, gérer la taille des fichiers et personnaliser les paramètres d'exportation pour répondre à vos besoins spécifiques. Aspose.CAD for .NET vous permet de prendre le contrôle de vos exportations d'images 3D, en garantissant que chaque détail est préservé dans le PDF final.
+Au-delà de la conversion de base, le didacticiel aborde les techniques avancées pour optimiser votre sortie PDF. Découvrez comment améliorer la qualité de l'image, gérer la taille des fichiers et personnaliser les paramètres d'exportation pour répondre à vos besoins spécifiques. Aspose.CAD for .NET vous permet de prendre le contrôle de vos exportations d'images 3D, en garantissant que chaque détail est préservé dans le PDF final.
 
 ## Maîtriser les fonctionnalités clés
 

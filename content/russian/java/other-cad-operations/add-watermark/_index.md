@@ -63,7 +63,7 @@ cadImage.getBlockEntities().get_Item("*Model_Space").addEntity(text);
 Экспортируйте чертеж САПР с добавленным водяным знаком в файл PDF:
 
 ```java
-// экспорт в pdf
+// экспортировать в pdf
 CadRasterizationOptions rasterizationOptions = new CadRasterizationOptions();
 rasterizationOptions.setPageWidth(1600);
 rasterizationOptions.setPageHeight(1600);

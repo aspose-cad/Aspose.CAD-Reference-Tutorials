@@ -7,7 +7,7 @@ type: docs
 weight: 11
 url: /tr/net/advanced-cad-techniques/free-point-of-view-in-cad-drawings/
 ---
-Bilgisayar Destekli Tasarım (CAD) alanında çizimlerde özgür bir bakış açısı kazanmak, karmaşık tasarımları görselleştirmenin ve sunmanın çok önemli bir yönüdür. Aspose.CAD for .NET, bu özgürlüğü elde etmek için güçlü bir çözüm sunarak kullanıcıların CAD çizimlerini kolaylıkla değiştirmesine ve optimize etmesine olanak tanır. Bu adım adım kılavuzda Aspose.CAD for .NET kullanarak CAD çizimlerinde özgür bir bakış açısı elde etme sürecini inceleyeceğiz.
+Bilgisayar Destekli Tasarım (CAD) alanında çizimlerde özgür bir bakış açısı kazanmak, karmaşık tasarımların görselleştirilmesi ve sunulması açısından çok önemli bir husustur. Aspose.CAD for .NET, bu özgürlüğü elde etmek için güçlü bir çözüm sunarak kullanıcıların CAD çizimlerini kolaylıkla değiştirmesine ve optimize etmesine olanak tanır. Bu adım adım kılavuzda Aspose.CAD for .NET kullanarak CAD çizimlerinde özgür bir bakış açısı elde etme sürecini inceleyeceğiz.
 
 ## Önkoşullar
 
@@ -118,7 +118,7 @@ Kullanıcıyı 3D görüntünün başarıyla dışa aktarıldığı konusunda bi
 
 ## Çözüm
 
-Bu eğitimde Aspose.CAD for .NET kullanarak CAD çizimlerinde özgür bir bakış açısı elde etme sürecini araştırdık. Bu adım adım talimatları izleyerek CAD görselleştirme yeteneklerinizi geliştirebilir ve tasarımlarınızı yeni keşfedilmiş bir perspektifle sunabilirsiniz.
+Bu eğitimde Aspose.CAD for .NET kullanarak CAD çizimlerinde özgür bir bakış açısı elde etme sürecini araştırdık. Bu adım adım talimatları izleyerek CAD görselleştirme yeteneklerinizi geliştirebilir ve tasarımlarınızı yeni keşfedilmiş bir bakış açısıyla sunabilirsiniz.
 
 
 ## SSS'ler

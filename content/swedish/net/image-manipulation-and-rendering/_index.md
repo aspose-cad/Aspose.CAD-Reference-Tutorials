@@ -37,7 +37,7 @@ Lås upp potentialen hos Aspose.CAD för .NET med vår steg-för-steg handlednin
 Lär dig konsten att rendera DWG-dokument i C# med Aspose.CAD. Vår steg-för-steg-guide täcker hela processen, från import och konfigurering till att spara, med kodexempel för att underlätta en sömlös upplevelse.
 
 Fördjupa dig i dessa handledningar och ta dina CAD-kunskaper till nya höjder med Aspose.CAD för .NET. Förhöj ditt designarbetsflöde och lås upp den fulla potentialen hos dina CAD-filer.
-## Självstudier för bildhantering och rendering
+## Självstudier för bildmanipulation och rendering
 ### [Få blockattribut från DWG-filer - Aspose.CAD Tutorial](./getting-block-attributes-from-dwg/)
 Lås upp potentialen för CAD-filer med Aspose.CAD för .NET. Extrahera blockattribut utan ansträngning.
 ### [Importera bilder till DWG-filer med C# - Aspose.CAD Guide](./importing-images-into-dwg/)

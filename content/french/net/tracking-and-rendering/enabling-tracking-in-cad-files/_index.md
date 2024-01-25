@@ -90,7 +90,7 @@ A1 : Oui, Aspose.CAD pour .NET prend en charge divers formats de CAO, notamment 
 
 ### Q2 : Comment puis-je obtenir une licence temporaire pour Aspose.CAD ?
 
- A2 : Visite[ici](https://purchase.aspose.com/temporary-license/) pour obtenir un permis temporaire.
+ A2 : Visite[ici](https://purchase.aspose.com/temporary-license/) pour obtenir un permis temporaire.
 
 ### Q3 : Quels sont les problèmes de rendu courants que je pourrais rencontrer ?
 

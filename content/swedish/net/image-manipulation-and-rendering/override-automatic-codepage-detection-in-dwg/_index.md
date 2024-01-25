@@ -74,7 +74,7 @@ S1: Aspose.CAD för .NET är främst designat för C#, men det kan användas i a
 
 ### F2: Är en gratis provperiod tillgänglig?
 
- A2: Ja, du kan få tillgång till en gratis provperiod[här](https://releases.aspose.com/).
+ S2: Ja, du kan få tillgång till en gratis provperiod[här](https://releases.aspose.com/).
 
 ### F3: Hur kan jag få support för Aspose.CAD för .NET?
 

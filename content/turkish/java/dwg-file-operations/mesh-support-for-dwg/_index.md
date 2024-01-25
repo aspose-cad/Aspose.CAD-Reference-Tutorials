@@ -93,7 +93,7 @@ Bu adımları takip ederek, Aspose.CAD kullanarak Java'daki DWG dosyaları için
 
 ## Çözüm
 
-Bu eğitimde Aspose.CAD kullanarak Java'da DWG dosyaları için mesh desteğini etkinleştirme sürecini araştırdık. Aspose.CAD, güçlü özellikleriyle karmaşık CAD dosyalarının işlenmesini basitleştirerek, onu 3D çizimlerle çalışan Java geliştiricileri için vazgeçilmez bir araç haline getiriyor.
+Bu eğitimde Aspose.CAD kullanarak Java'da DWG dosyaları için mesh desteğini etkinleştirme sürecini araştırdık. Güçlü özellikleriyle Aspose.CAD, karmaşık CAD dosyalarının işlenmesini basitleştirerek onu 3D çizimlerle çalışan Java geliştiricileri için vazgeçilmez bir araç haline getiriyor.
 
 ## SSS'ler
 

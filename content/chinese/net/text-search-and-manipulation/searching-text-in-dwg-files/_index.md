@@ -9,7 +9,7 @@ url: /zh/net/text-search-and-manipulation/searching-text-in-dwg-files/
 ---
 ## 介绍
 
-在 CAD（计算机辅助设计）的动态领域，精度和效率至关重要。想象一下您需要在 DWG 文件中查找特定文本的场景。 Aspose.CAD for .NET 来救援，提供了一个强大的解决方案，可以使用 C# 无缝搜索 DWG 文件中的文本。本教程将指导您完成整个过程，确保您充分利用 Aspose.CAD for .NET 的潜力。
+在 CAD（计算机辅助设计）的动态领域，精度和效率至关重要。想象一下您需要在 DWG 文件中查找特定文本的场景。 Aspose.CAD for .NET 来救援，提供了一个强大的解决方案，可以使用 C# 无缝搜索 DWG 文件中的文本。本教程将指导您完成整个过程，确保您充分利用 Aspose.CAD for .NET 的全部潜力。
 
 ## 先决条件
 

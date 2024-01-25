@@ -79,7 +79,7 @@ ObserverPoint obvPoint = new ObserverPoint(xAngle, yAngle, zAngle);
 cadRasterizationOptions.setObserverPoint(obvPoint);
 ```
 
-حدد زوايا التدوير على طول المحاور X وY وZ لعرض نقطة الرؤية الحرة.
+حدد زوايا الدوران على طول المحاور X وY وZ لعرض نقطة الرؤية الحرة.
 
 ## الخطوة 6: احفظ الصورة المقدمة
 

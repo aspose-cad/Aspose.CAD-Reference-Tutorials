@@ -59,5 +59,5 @@ is_root: true
 使用 Aspose.CAD for .NET 优化您的 CAD 应用程序！掌握无缝支持 OBJ 格式的艺术，释放 3D 模型的全部潜力。
 ### [导出 PLT 文件](./exporting-plt-files/)
 使用 Aspose.CAD for .NET 轻松将 PLT 文件转换为图像和 PDF。探索 CAD 文件操作的无缝集成和灵活选项。
-### [STL文件导出](./stl-file-export/)
+### [STL 文件导出](./stl-file-export/)
 使用 Aspose.CAD for .NET 轻松将 STL 文件导出为 PNG。我们的分步指南可确保无缝集成。通过 Aspose.CAD For .NET 教程进行学习。

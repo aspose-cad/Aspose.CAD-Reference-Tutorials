@@ -45,7 +45,7 @@ String fileName = (dataDir + "site.dwf");
 Image image = Image.load(fileName);
 ```
 
-## 步骤 2：配置 PDF 选项
+## 第 2 步：配置 PDF 选项
 
 设置 PDF 导出选项，包括矢量光栅化选项，例如页面高度、宽度和布局。
 

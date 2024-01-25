@@ -35,7 +35,7 @@ CAD düzeninizin boyutunu anlamak, hassas proje planlaması için çok önemlidi
 Sonuç olarak, bu Aspose.CAD for .NET eğitimleri, CAD çizimlerinizi etkili bir şekilde düzenlemeniz için size paha biçilmez bilgiler ve uygulamalı rehberlik sağlar. İster yeniden boyutlandırıyor, ister dönüştürüyor, ister CAD oluşturmayı izliyor olun, adım adım talimatlarımız kusursuz bir deneyimi garanti eder. Aspose.CAD'in güçlü özellikleriyle CAD projelerinizi geliştirin ve yaratıcılığınızın gelişmesine izin verin. Mutlu CAD çizim manipülasyonu!
 ## CAD Çizim Manipülasyon Eğitimleri
 ### [Aspose.CAD for .NET'te CAD Çizim Boyutunu Ayarlama](./adjust-cad-drawing-size/)
-Aspose.CAD'i kullanarak .NET'te CAD çizim boyutlarını zahmetsizce nasıl ayarlayacağınızı öğrenin. Sorunsuz yeniden boyutlandırma için adım adım kılavuzumuzu izleyin.
+Aspose.CAD'i kullanarak .NET'te CAD çizim boyutlarını zahmetsizce nasıl ayarlayabileceğinizi öğrenin. Sorunsuz yeniden boyutlandırma için adım adım kılavuzumuzu izleyin.
 ### [Aspose.CAD for .NET'te CAD Çizimini Raster Görüntüye Dönüştürün](./convert-cad-drawing-to-raster-image/)
 Aspose.CAD ile CAD çizimlerini .NET'te raster görüntülere dönüştürmenin kusursuz sürecini keşfedin. Verimli iş akışlarının kilidini açın ve CAD projelerinizi zahmetsizce geliştirin.
 ### [Aspose.CAD for .NET'te Düzenleri Raster Görüntüye Dönüştürme](./convert-layouts-to-raster-image/)

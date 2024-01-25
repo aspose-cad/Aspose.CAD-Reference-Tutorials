@@ -54,7 +54,7 @@ using (CadImage cadImage = (CadImage)Aspose.CAD.Image.Load(sourceFilePath))
 ```csharp
 foreach (CadStyleTableObject style in cadImage.Styles)
 {
-    // Din kod för stilmanipulation kommer här
+    // Din kod för stilmanipulation går här
 }
 ```
 

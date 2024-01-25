@@ -63,7 +63,7 @@ Ripeti questi passaggi e elencherai correttamente tutti i layout nel tuo disegno
 
 ## Conclusione
 
-Esplorare i disegni AutoCAD a livello di codice è ora a portata di mano con Aspose.CAD per Java. Questo tutorial ti ha fornito le conoscenze per integrare perfettamente la libreria nelle tue applicazioni Java ed estrarre preziose informazioni sul layout. Migliora le tue capacità di manipolazione CAD e rimani al passo con il tuo percorso di sviluppo!
+Esplorare i disegni AutoCAD a livello di codice è ora a portata di mano con Aspose.CAD per Java. Questo tutorial ti ha fornito le conoscenze necessarie per integrare perfettamente la libreria nelle tue applicazioni Java ed estrarre preziose informazioni sul layout. Migliora le tue capacità di manipolazione CAD e rimani al passo con il tuo percorso di sviluppo!
 
 ## Domande frequenti
 

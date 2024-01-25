@@ -45,7 +45,7 @@ using (IfcImage cadImage = (IfcImage)Image.Load(sourceFilePath))
 {
 ```
 
- I det här steget initierar vi Aspose.CAD`IfcImage` objekt och ladda IFC-filen i den.
+ I det här steget initierar vi Aspose.CAD`IfcImage` objekt och ladda in IFC-filen i den.
 
 ## Steg 2: Ställ in rasteriseringsalternativ
 

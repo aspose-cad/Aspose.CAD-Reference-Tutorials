@@ -94,6 +94,6 @@ A2：是的，Aspose.CAD 提供了广泛的自定义导出设置选项，允许�
 
  A4：加入 Aspose.CAD 社区：[论坛](https://forum.aspose.com/c/cad/19)寻求帮助并分享您的经验。
 
-### Q5：如何购买 Aspose.CAD 的许可证？
+### Q5: 如何购买 Aspose.CAD 的许可证？
 
 A5：访问[购买页面](https://purchase.aspose.com/buy)获取适合您的开发需求的许可证。

@@ -38,7 +38,7 @@ import com.aspose.cad.imageoptions.PdfOptions;
 
 Теперь давайте разобьем предоставленный фрагмент кода на несколько этапов:
 
-## Шаг 1. Настройте каталог документов и путь к файлу DWG.
+## Шаг 1. Настройте каталог документов и путь к файлу DWG.
 
 ```java
 String dataDir = "Your Document Directory" + "DWGDrawings/";

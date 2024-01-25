@@ -87,7 +87,7 @@ Befolgen Sie diese Schritte sorgfältig, um CAD-Dateien mit Netzen mit Aspose.CA
 
 ## Abschluss
 
-Zusammenfassend bietet Aspose.CAD für Java robuste Unterstützung für den Umgang mit CAD-Dateien, einschließlich Mesh-Unterstützung. Wenn Sie diesem Tutorial folgen, können Sie CAD-Dateien, die Netze enthalten, mühelos in das PDF-Format konvertieren und so Ihre Möglichkeiten zur Dokumentkonvertierung verbessern.
+Zusammenfassend bietet Aspose.CAD für Java eine robuste Unterstützung für die Verarbeitung von CAD-Dateien, einschließlich Mesh-Unterstützung. Wenn Sie diesem Tutorial folgen, können Sie CAD-Dateien, die Netze enthalten, mühelos in das PDF-Format konvertieren und so Ihre Möglichkeiten zur Dokumentkonvertierung verbessern.
 
 ## FAQs
 

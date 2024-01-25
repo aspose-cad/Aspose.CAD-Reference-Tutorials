@@ -45,7 +45,7 @@ Estos son enlaces a algunos recursos útiles:
 
 ## Tutoriales de Aspose.CAD para Java
 {{% alert color="primary" %}}
-Embárquese en un viaje para mejorar su competencia en el desarrollo de CAD con Aspose.CAD para Java. Sumérgete en una variedad de tutoriales completos que profundizan en los ámbitos de la conversión de dibujos, la anotación de texto, la manipulación de archivos, las funciones avanzadas, las licencias y más. Ya sea que esté comenzando o sea un desarrollador experimentado, nuestras guías paso a paso, meticulosamente elaboradas, están diseñadas para capacitarlo. Descubra los matices de las complejidades de CAD sin esfuerzo, lo que le permitirá desbloquear todo el potencial de sus habilidades y aportar un nuevo nivel de precisión y eficiencia a sus proyectos.
+Embárquese en un viaje para mejorar su competencia en el desarrollo de CAD con Aspose.CAD para Java. Sumérgete en una variedad de tutoriales completos que profundizan en los ámbitos de la conversión de dibujos, la anotación de texto, la manipulación de archivos, las funciones avanzadas, las licencias y más. Ya sea que esté comenzando o sea un desarrollador experimentado, nuestras guías paso a paso, meticulosamente elaboradas, están diseñadas para empoderarlo. Descubra los matices de las complejidades de CAD sin esfuerzo, lo que le permitirá desbloquear todo el potencial de sus habilidades y aportar un nuevo nivel de precisión y eficiencia a sus proyectos.
 {{% /alert %}}
 
 Estos son enlaces a algunos recursos útiles:

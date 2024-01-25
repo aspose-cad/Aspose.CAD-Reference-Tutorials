@@ -74,7 +74,7 @@ catch (Exception ex)
 }
 ```
 
-## Steg 4: Mät konverteringskörtid
+## Steg 4: Mät konverteringskörning
 
 ```csharp
 stopWatch.Stop();
@@ -95,7 +95,7 @@ Enkel konvertering av stora DWG-filer till PDF är möjlig med Aspose.CAD för .
 
 S1: Ja, Aspose.CAD för .NET stöder batchbearbetning, vilket gör att du kan konvertera flera filer samtidigt.
 
-### F2: Kan jag anpassa PDF-utdatainställningarna?
+### F2: Kan jag anpassa inställningarna för PDF-utdata?
 
 A2: Absolut. Handledningen visar grundläggande inställningar, men du kan utforska de omfattande alternativen som tillhandahålls av Aspose.CAD för .NET för skräddarsydda resultat.
 

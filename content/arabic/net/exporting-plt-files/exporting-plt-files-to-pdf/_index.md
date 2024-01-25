@@ -105,7 +105,7 @@ cadImage.Save(MyDir + "50states.pdf", pdfOptions);
 
 ### س3: كيف يمكنني الحصول على دعم Aspose.CAD لـ .NET؟
 
- ج3: قم بزيارة[منتدى Aspose.CAD](https://forum.aspose.com/c/cad/19) لدعم المجتمع وتوجيهه.
+ ج3: قم بزيارة[منتدى Aspose.CAD](https://forum.aspose.com/c/cad/19) لدعم وتوجيه المجتمع.
 
 ### س 4: ما هي تنسيقات الملفات التي يدعمها Aspose.CAD؟
 

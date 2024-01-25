@@ -74,7 +74,7 @@ options.VectorRasterizationOptions = rasterizationOptions;
 
 Cette étape implique de configurer les options de l'image résultante, en spécifiant les options de rastérisation précédemment définies.
 
-## Étape 5 : Enregistrer l'image résultante
+## Étape 5 : Enregistrer l'image résultante
 
 ```csharp
 MyDir = MyDir + "conic_pyramid_raster_image_out.png";

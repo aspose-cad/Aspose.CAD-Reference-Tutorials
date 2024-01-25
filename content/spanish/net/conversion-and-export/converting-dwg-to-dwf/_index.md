@@ -9,7 +9,7 @@ url: /es/net/conversion-and-export/converting-dwg-to-dwf/
 ---
 ## Introducción
 
-¿Está buscando convertir sin problemas archivos DWG al versátil formato DWF utilizando Aspose.CAD para .NET? Esta guía paso a paso está diseñada para usted. Aspose.CAD es una poderosa biblioteca que permite a los desarrolladores trabajar con archivos CAD sin esfuerzo. En este tutorial, exploraremos el proceso de conversión de DWG a DWF, desglosando cada paso para garantizar una experiencia fluida.
+¿Está buscando convertir sin problemas archivos DWG al versátil formato DWF usando Aspose.CAD para .NET? Esta guía paso a paso está diseñada para usted. Aspose.CAD es una potente biblioteca que permite a los desarrolladores trabajar con archivos CAD sin esfuerzo. En este tutorial, exploraremos el proceso de conversión de DWG a DWF, desglosando cada paso para garantizar una experiencia fluida.
 
 ## Requisitos previos
 

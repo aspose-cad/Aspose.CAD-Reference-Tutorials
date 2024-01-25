@@ -75,7 +75,7 @@ CadImage cadImage = (CadImage)Image.load(srcFile);
 cadImage.save(dataDir+"conic.dxf");
 ```
 
-احفظ صورة CAD المعدلة في الدليل المحدد باسم جديد، في هذه الحالة، "conic.dxf."
+احفظ صورة CAD المعدلة في الدليل المحدد باسم جديد، في هذه الحالة، "conic.dxf".
 
 كرر هذه الخطوات حسب الحاجة لتطبيقك المحدد، وستكون في طريقك لحفظ ملفات DXF بكفاءة باستخدام Aspose.CAD لـ Java.
 

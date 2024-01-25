@@ -9,7 +9,7 @@ url: /it/java/cad-file-manipulation/adjusting-cad-drawing-size-using-unit-type/
 ---
 ## introduzione
 
-Nel campo in continua evoluzione della progettazione assistita da computer (CAD), precisione e adattabilità sono fondamentali. Un requisito comune è la regolazione delle dimensioni dei disegni CAD in base a tipi di unità specifici. Aspose.CAD per Java emerge come un potente alleato, fornendo funzionalità continue per manipolare i file CAD a livello di programmazione.
+Nel campo in continua evoluzione della progettazione assistita da computer (CAD), precisione e adattabilità sono fondamentali. Un requisito comune è la regolazione delle dimensioni dei disegni CAD in base a tipi di unità specifici. Aspose.CAD per Java emerge come un potente alleato, fornendo funzionalità continue per manipolare i file CAD a livello di codice.
 
 ## Prerequisiti
 

@@ -95,7 +95,7 @@ CadMLeaderLine leaderLine = mleaderNode.LeaderLine;
 
 ## Çözüm
 
-Tebrikler! Aspose.CAD for .NET'i kullanarak MLeader varlıklarını DWG formatında destekleme sürecini başarıyla tamamladınız. Bu işlevsellik, CAD projelerinize yeni bir boyut katarak karmaşık tasarımları yönetme yeteneğinizi geliştirir.
+Tebrikler! Aspose.CAD for .NET'i kullanarak MLeader varlıklarını DWG formatında destekleme sürecini başarıyla tamamladınız. Bu işlevsellik, CAD projelerinize yeni bir boyut katarak karmaşık tasarımları yönetme yeteneğinizi artırır.
 
 ## SSS'ler
 

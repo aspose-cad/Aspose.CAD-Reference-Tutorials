@@ -69,7 +69,7 @@ cadText.ScaleX = 0.0;
 
 ## Paso 3: agregar texto a DWG
 
- Agregar lo creado`CadText` objeto al archivo DWG usando Aspose.CAD.
+ Agregar lo creado`CadText` objeto al archivo DWG utilizando Aspose.CAD.
 
 ```csharp
 CadImage cadImage = (CadImage)image;

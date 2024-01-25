@@ -11,7 +11,7 @@ url: /fr/java/dwg-file-operations/override-code-page-detection/
 
 Bienvenue dans ce guide complet sur la façon de remplacer la détection automatique des pages de codes dans les fichiers DWG à l'aide d'Aspose.CAD pour Java. Aspose.CAD est une bibliothèque puissante qui permet aux développeurs Java de travailler avec des formats de fichiers CAO, offrant un large éventail de fonctionnalités pour manipuler, convertir et exporter des fichiers CAO.
 
-Dans ce didacticiel, nous nous concentrerons sur une tâche spécifique : remplacer la détection automatique des pages de codes dans les fichiers DWG. Vous apprendrez à gérer l’encodage et à récupérer les CIF/MIF malformés étape par étape.
+Dans ce didacticiel, nous nous concentrerons sur une tâche spécifique : remplacer la détection automatique des pages de codes dans les fichiers DWG. Vous apprendrez étape par étape comment gérer l’encodage et récupérer les CIF/MIF mal formés.
 
 ## Conditions préalables
 

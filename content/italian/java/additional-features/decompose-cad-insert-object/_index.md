@@ -9,7 +9,7 @@ url: /it/java/additional-features/decompose-cad-insert-object/
 ---
 ## introduzione
 
-Benvenuti nella nostra guida completa sull'utilizzo di Aspose.CAD per Java per decomporre gli oggetti di inserimento CAD. In questo tutorial ti guideremo attraverso il processo di scomposizione degli oggetti di inserimento CAD nelle loro parti costituenti, fornendoti una guida passo passo per un'implementazione senza problemi. Che tu sia uno sviluppatore esperto o che tu abbia appena iniziato con Aspose.CAD, questo tutorial ti fornirà le conoscenze per gestire in modo efficiente gli oggetti di inserimento CAD nelle tue applicazioni Java.
+Benvenuti nella nostra guida completa sull'utilizzo di Aspose.CAD per Java per decomporre gli oggetti di inserimento CAD. In questo tutorial ti guideremo attraverso il processo di scomposizione degli oggetti di inserimento CAD nelle loro parti costitutive, fornendoti una guida passo passo per un'implementazione senza problemi. Che tu sia uno sviluppatore esperto o che tu abbia appena iniziato con Aspose.CAD, questo tutorial ti fornirà le conoscenze per gestire in modo efficiente gli oggetti di inserimento CAD nelle tue applicazioni Java.
 
 ## Prerequisiti
 

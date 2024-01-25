@@ -83,7 +83,7 @@ S1: Ja, Aspose.CAD stöder ett brett utbud av CAD-format, vilket säkerställer 
 
  A2: Ja, du kan köpa en licens från[här](https://purchase.aspose.com/buy) för kommersiellt bruk.
 
-### F3: Finns det några gratis testalternativ tillgängliga?
+### F3: Finns det några gratis provversioner tillgängliga?
 
  A3: Ja, du kan utforska den kostnadsfria testversionen[här](https://releases.aspose.com/) innan du gör ett köp.
 

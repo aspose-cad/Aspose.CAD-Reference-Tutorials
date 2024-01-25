@@ -131,7 +131,7 @@ Assert.areEqual(cadMLeader.getTextHeight(), 1.0, 0.01);
 
 R1: Sí, Aspose.CAD admite varios formatos CAD más allá de DWG, lo que brinda versatilidad en sus proyectos.
 
-### P2: ¿Dónde puedo encontrar documentación detallada de Aspose.CAD para Java?
+### P2: ¿Dónde puedo encontrar documentación detallada sobre Aspose.CAD para Java?
 
  A2: Consulte el[documentación](https://reference.aspose.com/cad/java/) para obtener información detallada sobre las capacidades de Aspose.CAD.
 

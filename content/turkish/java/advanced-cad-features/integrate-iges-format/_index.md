@@ -65,7 +65,7 @@ igesImage.save(outPath, pdf);
 
 ## Çözüm
 
-Aspose.CAD for Java kullanarak IGES formatını entegre etmek, CAD geliştirmede sayısız olasılığın önünü açar. Bu kılavuz, IGES dosyalarını uygulamalarınızla sorunsuz bir şekilde birleştirmek, verimlilik ve esneklik sağlamak için açık ve adım adım bir yaklaşım sunmuştur.
+Aspose.CAD for Java kullanarak IGES formatını entegre etmek, CAD geliştirmede sayısız olasılığın önünü açar. Bu kılavuz, IGES dosyalarını uygulamalarınız ile sorunsuz bir şekilde birleştirmek, verimlilik ve esneklik sağlamak için açık ve adım adım bir yaklaşım sunmuştur.
 
 ## SSS'ler
 

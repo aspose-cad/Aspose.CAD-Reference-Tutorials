@@ -18,7 +18,7 @@ Hızla gelişen tasarım dünyasında her ayrıntı önemlidir. Aspose.CAD for J
 
 ## DWG'de Yazı Tipi Değiştirme
 
-Yazı tipleri, CAD tasarımlarının görsel çekiciliğinde çok önemli bir rol oynar. Aspose.CAD for Java'yı kullanarak DWG dosyalarında yazı tipi değiştirme sanatını keşfedin. Adım adım eğitimimiz, CAD tasarımlarınızı zahmetsizce geliştirmenize olanak tanır. Yazı tipi özelleştirmesinde uzmanlaşarak yaratıcılığınızı ortaya çıkarın.
+Yazı tipleri, CAD tasarımlarının görsel çekiciliğinde çok önemli bir rol oynar. Aspose.CAD for Java'yı kullanarak DWG dosyalarında yazı tipi değiştirme sanatını keşfedin. Adım adım eğitimimiz, CAD tasarımlarınızı zahmetsizce geliştirmenize olanak sağlar. Yazı tipi özelleştirmesinde uzmanlaşarak yaratıcılığınızı ortaya çıkarın.
 
 ## DWG'de Belirli Bir Stilin Yerine Yazı Tipi
 

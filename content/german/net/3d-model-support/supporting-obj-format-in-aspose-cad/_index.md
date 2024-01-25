@@ -82,7 +82,7 @@ Glückwunsch! Sie haben Aspose.CAD für .NET erfolgreich integriert, um das OBJ-
 
  A1: Ja, Aspose.CAD unterstützt verschiedene CAD-Formate, einschließlich DWG, DXF, DGN und mehr. Überprüf den[Dokumentation](https://reference.aspose.com/cad/net/)für eine vollständige Liste.
 
-### F2: Kann ich Aspose.CAD vor dem Kauf ausprobieren?
+### F2: Kann ich Aspose.CAD vor dem Kauf testen?
 
  A2: Auf jeden Fall! Sie können eine kostenlose Testversion ausprobieren[Hier](https://releases.aspose.com/).
 

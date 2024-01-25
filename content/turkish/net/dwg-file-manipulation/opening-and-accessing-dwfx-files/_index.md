@@ -97,6 +97,6 @@ Cevap1: Aspose.CAD for .NET, DWFX dahil çok çeşitli CAD formatlarını destek
 
  Cevap4: Geçici lisanslar alınabilir[Burada](https://purchase.aspose.com/temporary-license/).
 
-### S5: Desteğe mi ihtiyacınız var veya daha fazla sorunuz mu var?
+### S5: Desteğe mi ihtiyacınız var veya başka sorularınız mı var?
 
 A5: ziyaret edin[Aspose.CAD forumu](https://forum.aspose.com/c/cad/19) yardım için.

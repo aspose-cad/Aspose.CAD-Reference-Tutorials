@@ -66,7 +66,7 @@ PdfOptions pdfOptions = new PdfOptions();
 
 ## Шаг 4. Настройте параметры пера
 
-Установите параметры начального и конечного колпачка для ручек:
+Установите параметры начала и конца для ручек:
 
 ```csharp
 rasterizationOptions.PenOptions = new PenOptions

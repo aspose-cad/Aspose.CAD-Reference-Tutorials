@@ -70,7 +70,7 @@ for (CadBlockEntity blockEntity : cadImage.getBlockEntities().getValues()) {
 
 Utöka sökningen till att blockera enheter i DWG-filen, vilket säkerställer en omfattande textsökning.
 
-## Steg 4: Rekursiv noditeration
+## Steg 4: Rekursiv Node Iteration
 
 ```java
 private static void IterateCADNodeEntities(CadBaseEntity obj) {

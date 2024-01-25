@@ -9,7 +9,7 @@ url: /sv/java/dwg-file-operations/list-all-layouts/
 ---
 ## Introduktion
 
-Vill du låsa upp den fulla potentialen hos AutoCAD-ritningar i dina Java-applikationer? Aspose.CAD för Java är din bästa lösning, och erbjuder en sömlös integration för att manipulera och extrahera värdefull information från DWG- och DXF-filer. I den här steg-för-steg-guiden går vi igenom processen att lista alla layouter i en AutoCAD-ritning med Aspose.CAD för Java.
+Vill du låsa upp den fulla potentialen hos AutoCAD-ritningar i dina Java-applikationer? Aspose.CAD för Java är din bästa lösning, som erbjuder en sömlös integration för att manipulera och extrahera värdefull information från DWG- och DXF-filer. I den här steg-för-steg-guiden går vi igenom processen att lista alla layouter i en AutoCAD-ritning med Aspose.CAD för Java.
 
 ## Förutsättningar
 

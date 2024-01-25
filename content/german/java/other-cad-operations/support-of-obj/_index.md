@@ -2,7 +2,7 @@
 title: Mühelose OBJ-zu-PDF-Konvertierung mit Aspose.CAD für Java
 linktitle: Unterstützung von OBJ
 second_title: Aspose.CAD Java API
-description: Entdecken Sie das Potenzial von Aspose.CAD für Java bei der nahtlosen Bearbeitung von OBJ-Zeichnungen. Konvertieren Sie mit unserer Schritt-für-Schritt-Anleitung mühelos in PDF.
+description: Entdecken Sie das Potenzial von Aspose.CAD für Java bei der nahtlosen Verarbeitung von OBJ-Zeichnungen. Konvertieren Sie mit unserer Schritt-für-Schritt-Anleitung mühelos in PDF.
 type: docs
 weight: 19
 url: /de/java/other-cad-operations/support-of-obj/

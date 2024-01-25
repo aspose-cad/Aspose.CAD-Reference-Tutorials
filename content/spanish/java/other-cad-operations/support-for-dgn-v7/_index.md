@@ -32,7 +32,7 @@ import com.aspose.cad.imageoptions.PdfOptions;
 import java.awt.Color;
 ```
 
-## Paso 2: establecer rutas de archivo
+## Paso 2: establecer rutas de archivos
 
 Defina las rutas para su archivo DGN de entrada y el archivo PDF de salida.
 

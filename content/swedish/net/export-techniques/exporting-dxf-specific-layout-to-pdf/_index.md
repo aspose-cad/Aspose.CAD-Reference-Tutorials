@@ -98,7 +98,7 @@ Grattis! Du har framgångsrikt lärt dig hur du exporterar en DXF-fil med en spe
 
  S1: Aspose.CAD stöder olika versioner av DXF-filer. Referera till[dokumentation](https://reference.aspose.com/cad/net/) för listan över versioner som stöds.
 
-### F2: Kan jag anpassa PDF-utdatainställningarna?
+### F2: Kan jag anpassa inställningarna för PDF-utdata?
 
 S2: Ja, du kan anpassa PDF-utdatainställningar genom att justera egenskaperna för`CadRasterizationOptions` och`PdfOptions` enligt dina krav.
 

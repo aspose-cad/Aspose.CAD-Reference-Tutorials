@@ -13,7 +13,7 @@ url: /ru/net/cad-features-and-support/setting-auto-layout-scaling/
 
 Прежде чем углубляться в руководство, убедитесь, что у вас есть следующие предварительные условия:
 
-1.  Библиотека Aspose.CAD for .NET: Загрузите и установите библиотеку Aspose.CAD for .NET с сайта[страница загрузки](https://releases.aspose.com/cad/net/).
+1.  Библиотека Aspose.CAD for .NET: загрузите и установите библиотеку Aspose.CAD for .NET с сайта[страница загрузки](https://releases.aspose.com/cad/net/).
 
 2. Среда разработки: наличие рабочей среды разработки с установленной Visual Studio или любым другим инструментом разработки .NET.
 

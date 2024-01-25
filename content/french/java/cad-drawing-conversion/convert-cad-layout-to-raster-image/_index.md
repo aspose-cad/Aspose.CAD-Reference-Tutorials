@@ -89,7 +89,7 @@ Aspose.CAD pour Java rationalise le processus de conversion des mises en page CA
 
 ### Q1 : Aspose.CAD est-il compatible avec différents formats de fichiers CAO ?
 
-A1 : Oui, Aspose.CAD prend en charge une variété de formats de CAO, notamment DWG, DXF et DGN.
+R1 : Oui, Aspose.CAD prend en charge une variété de formats de CAO, notamment DWG, DXF et DGN.
 
 ### Q2 : Puis-je personnaliser la résolution de l’image raster en sortie ?
 

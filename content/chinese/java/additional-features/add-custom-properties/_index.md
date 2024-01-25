@@ -34,7 +34,7 @@ import java.util.Map;
 
 ## 第 1 步：设置您的项目
 
-在您首选的 IDE 中创建一个新的 Java 项目，并将 Aspose.CAD for Java 添加到您的项目依赖项中。
+在您的首选 IDE 中创建一个新的 Java 项目，并将 Aspose.CAD for Java 添加到您的项目依赖项中。
 
 ## 第 2 步：定义文件路径
 

@@ -123,7 +123,7 @@ Console.WriteLine("\nThe DWG file exported successfully to PDF.\nFile saved at "
 
 A2: Внедрите механизмы обработки ошибок, используя блоки try-catch для захвата исключений и управления ими.
 
-### Вопрос 3: Подходит ли Aspose.CAD для сред Windows и Linux?
+### Вопрос 3. Подходит ли Aspose.CAD для сред Windows и Linux?
 
 О3: Да, Aspose.CAD совместим с платформами Windows и Linux.
 

@@ -79,4 +79,4 @@ A4：请参阅文档[这个链接](https://reference.aspose.com/cad/net/)进行�
 
 ### Q5：需要帮助或有具体问题？
 
- A5：访问 Aspose.CAD 社区论坛[这里](https://forum.aspose.com/c/cad/19)寻求专家协助和社区支持。
+ A5：访问 Aspose.CAD 社区论坛[这里](https://forum.aspose.com/c/cad/19)寻求专家帮助和社区支持。

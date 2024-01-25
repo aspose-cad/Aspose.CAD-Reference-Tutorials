@@ -109,7 +109,7 @@ objImage.save(dataDir + "result_out_.tiff", tiffOptions);
 
 ### س1: هل يمكنني استخدام Aspose.CAD لـ Java مع أطر عمل Java الأخرى؟
 
-ج1: نعم، تم تصميم Aspose.CAD للتكامل بسلاسة مع أطر عمل Java المختلفة.
+ج1: نعم، تم تصميم Aspose.CAD للتكامل بسلاسة مع أطر عمل Java المتنوعة.
 
 ### س2: هل يتوفر ترخيص مؤقت لـ Aspose.CAD؟
 

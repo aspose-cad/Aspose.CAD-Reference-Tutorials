@@ -23,7 +23,7 @@ url: /zh/java/advanced-cad-features/integrate-iges-format/
 
 ## 导入命名空间
 
-在教程示例中，几个命名空间对于集成 IGES 格式至关重要。确保在 Java 文件的开头导入必要的名称空间：
+在教程示例中，几个命名空间对于集成 IGES 格式至关重要。确保在 Java 文件的开头导入必要的命名空间：
 
 ```java
 import com.aspose.cad.Image;

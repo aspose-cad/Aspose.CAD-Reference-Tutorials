@@ -9,7 +9,7 @@ url: /de/net/image-manipulation-and-rendering/getting-block-attributes-from-dwg/
 ---
 ## Einführung
 
-In der dynamischen Welt des Computer-Aided Design (CAD) ist das Extrahieren wertvoller Informationen aus DWG-Dateien für viele Anwendungen von entscheidender Bedeutung. Aspose.CAD für .NET bietet eine leistungsstarke Lösung für die effiziente Arbeit mit CAD-Dateien. In diesem Tutorial werden wir Schritt für Schritt in den Prozess des Abrufens von Blockattributen aus DWG-Dateien mit Aspose.CAD eintauchen.
+In der dynamischen Welt des computergestützten Designs (CAD) ist das Extrahieren wertvoller Informationen aus DWG-Dateien für viele Anwendungen von entscheidender Bedeutung. Aspose.CAD für .NET bietet eine leistungsstarke Lösung für die effiziente Arbeit mit CAD-Dateien. In diesem Tutorial werden wir Schritt für Schritt in den Prozess des Abrufens von Blockattributen aus DWG-Dateien mit Aspose.CAD eintauchen.
 
 ## Voraussetzungen
 

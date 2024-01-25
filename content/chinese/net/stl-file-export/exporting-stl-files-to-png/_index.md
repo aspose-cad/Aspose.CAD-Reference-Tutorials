@@ -69,5 +69,5 @@ Aspose.CAD for .NET 简化了将 STL 文件转换为 PNG 的复杂任务，为�
 参观[Aspose.CAD论坛](https://forum.aspose.com/c/cad/19)支持和协作讨论。
 ### 问：是否支持转换其他文件格式？
 是的，Aspose.CAD 支持 STL 之外的各种 CAD 格式。请参阅[文档](https://reference.aspose.com/cad/net/)以获得完整的列表。
-### 问：我可以批量处理多个STL 文件吗？
+### 问：我可以批量处理多个STL文件吗？
 当然！根据提供的步骤实现循环来批量处理多个 STL 文件。

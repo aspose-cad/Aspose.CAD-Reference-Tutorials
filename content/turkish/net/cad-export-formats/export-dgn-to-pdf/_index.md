@@ -87,7 +87,7 @@ A3: Evet, ücretsiz deneme sürümünden yararlanabilirsiniz[Burada](https://rel
 
 ### S4: Aspose.CAD için nasıl geçici lisans alabilirim?
 
- Cevap4: Geçici lisanslar edinin[Burada](https://purchase.aspose.com/temporary-license/).
+ Cevap4: Geçici lisanslar alın[Burada](https://purchase.aspose.com/temporary-license/).
 
 ### S5: Yardıma mı ihtiyacınız var veya sorularınız mı var?
 

@@ -107,7 +107,7 @@ image.save((srcFile + "_generated.pdf"), pdfOptions);
 
 ## الأسئلة الشائعة
 
-### س1: هل يتوافق Aspose.CAD for Java مع جميع بيئات تطوير Java؟
+### س1: هل Aspose.CAD for Java متوافق مع جميع بيئات تطوير Java؟
 
 ج1: نعم، Aspose.CAD for Java متوافق مع معظم بيئات تطوير Java.
 

@@ -57,7 +57,7 @@ rasterizationOptions.setPageWidth(cadImageDwf.getSize().getWidth());
 rasterizationOptions.setPageHeight(cadImageDwf.getSize().getHeight());
 ```
 
-Configure las opciones de rasterización para el archivo CAD, asegurando el ancho y alto de página adecuados.
+Configure las opciones de rasterización para el archivo CAD, garantizando el ancho y alto de página adecuados.
 
 ### Paso 3: configurar las opciones de PDF
 

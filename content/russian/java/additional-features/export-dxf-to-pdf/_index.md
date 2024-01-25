@@ -95,7 +95,7 @@ image.save(dataDir + "conic_pyramid_out_.pdf", pdfOptions);
 
  A3: Посетите[Форум Aspose.CAD](https://forum.aspose.com/c/cad/19) за поддержку сообщества и обсуждения.
 
-### В4: Есть ли бесплатная пробная версия?
+### В4: Доступна ли бесплатная пробная версия?
 
  A4: Да, вы можете получить доступ к[бесплатная пробная версия](https://releases.aspose.com/) чтобы изучить возможности Aspose.CAD.
 

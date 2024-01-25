@@ -19,7 +19,7 @@ url: /ru/java/dwg-file-operations/import-image-to-dwg/
 
 ## Импортировать пакеты
 
-Для начала импортируйте необходимые пакеты Aspose.CAD в свой Java-проект:
+Для начала импортируйте необходимые пакеты Aspose.CAD в ваш Java-проект:
 
 ```java
 import com.aspose.cad.Image;

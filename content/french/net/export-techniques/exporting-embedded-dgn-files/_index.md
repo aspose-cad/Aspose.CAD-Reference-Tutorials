@@ -75,7 +75,7 @@ Console.WriteLine("\nThe DXF drawing exported successfully to PDF.\nFile saved a
 
 ## Conclusion
 
-Toutes nos félicitations! Vous avez exporté avec succès un fichier DGN incorporé au format PDF à l'aide d'Aspose.CAD pour .NET. Ce didacticiel a couvert les étapes essentielles, vous fournissant une base pour explorer les fonctionnalités plus avancées offertes par Aspose.CAD.
+Toutes nos félicitations! Vous avez exporté avec succès un fichier DGN intégré au format PDF à l'aide d'Aspose.CAD pour .NET. Ce didacticiel a couvert les étapes essentielles, vous fournissant une base pour explorer les fonctionnalités plus avancées offertes par Aspose.CAD.
 
 ## FAQ
 

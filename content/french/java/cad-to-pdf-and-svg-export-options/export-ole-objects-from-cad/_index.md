@@ -15,7 +15,7 @@ Dans le monde dynamique de la conception assistée par ordinateur (CAO), la gest
 
 Avant de plonger dans le didacticiel, assurez-vous que les conditions préalables suivantes sont remplies :
 
-- Environnement Java : assurez-vous d'avoir un environnement de développement Java configuré sur votre machine.
+- Environnement Java : assurez-vous d'avoir un environnement de développement Java configuré sur votre ordinateur.
 -  Aspose.CAD pour Java : téléchargez et installez la bibliothèque Aspose.CAD pour Java. Vous pouvez trouver la bibliothèque au[lien de téléchargement](https://releases.aspose.com/cad/java/).
 - Fichiers CAO : préparez les fichiers CAO contenant les objets OLE que vous souhaitez exporter.
 

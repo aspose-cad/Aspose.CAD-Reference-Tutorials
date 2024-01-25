@@ -9,7 +9,7 @@ url: /de/net/conversion-and-export/converting-dwg-to-pdf-with-coordinates/
 ---
 ## Einführung
 
-Willkommen zu diesem umfassenden Tutorial zum Konvertieren von DWG-Dateien in PDF mit angegebenen Koordinaten mithilfe von Aspose.CAD für .NET. Aspose.CAD ist eine leistungsstarke Bibliothek, die es Entwicklern ermöglicht, nahtlos mit CAD-Dateiformaten in ihren .NET-Anwendungen zu arbeiten. In diesem Tutorial führen wir Sie durch den Prozess der Konvertierung einer DWG-Datei in eine PDF-Datei und geben dabei bestimmte Koordinaten an, um die Präzision zu verbessern.
+Willkommen zu diesem umfassenden Tutorial zum Konvertieren von DWG-Dateien in PDF mit angegebenen Koordinaten mithilfe von Aspose.CAD für .NET. Aspose.CAD ist eine leistungsstarke Bibliothek, die es Entwicklern ermöglicht, nahtlos mit CAD-Dateiformaten in ihren .NET-Anwendungen zu arbeiten. In diesem Tutorial führen wir Sie durch den Prozess der Konvertierung einer DWG-Datei in eine PDF-Datei und geben dabei bestimmte Koordinaten an, um die Präzision zu erhöhen.
 
 ## Voraussetzungen
 

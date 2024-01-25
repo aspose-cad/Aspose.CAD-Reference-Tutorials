@@ -106,7 +106,7 @@ R1: Sí, Aspose.CAD para Java admite varios formatos CAD, incluidos DWG, DXF, DW
 
 R2: Absolutamente. Aspose.CAD para Java proporciona un conjunto versátil de funciones que se adaptan a operaciones CAD tanto básicas como avanzadas.
 
-### P3: ¿Dónde puedo encontrar documentación detallada de Aspose.CAD para Java?
+### P3: ¿Dónde puedo encontrar documentación detallada sobre Aspose.CAD para Java?
 
 A3: Puede consultar la documentación.[aquí](https://reference.aspose.com/cad/java/).
 

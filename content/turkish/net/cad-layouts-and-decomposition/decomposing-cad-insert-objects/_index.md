@@ -77,7 +77,7 @@ Bu döngü içerisinde, blok içindeki bireysel varlıkları işlemek için öze
 
 ## Çözüm
 
-Aspose.CAD for .NET, CAD ekleme nesnelerini ayrıştırma gibi karmaşık bir görevi basitleştirerek geliştiricilerin CAD dosya işleme yeteneklerini geliştirmelerine olanak tanır. Bu eğitimde, süreç boyunca size sorunsuz bir şekilde yol gösterecek kısa ve kapsamlı bir kılavuz sağlanmıştır.
+Aspose.CAD for .NET, CAD ekleme nesnelerini ayrıştırma gibi karmaşık bir görevi basitleştirerek geliştiricilerin CAD dosya işleme yeteneklerini geliştirmelerine olanak sağlar. Bu eğitimde, süreç boyunca size sorunsuz bir şekilde yol gösterecek kısa ve kapsamlı bir kılavuz sağlanmıştır.
 
 ## SSS'ler
 

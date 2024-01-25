@@ -102,7 +102,7 @@ cadImage.save(outPath, exportOptions);
 
 ## Slutsats
 
-Grattis! Du har framgångsrikt lärt dig hur du exporterar en DGN-fil som en del av en DWG-fil med Aspose.CAD för Java. Detta kraftfulla bibliotek ger omfattande möjligheter att arbeta med CAD-filer, vilket gör dina CAD-filmanipuleringsuppgifter effektiva och enkla.
+Grattis! Du har framgångsrikt lärt dig hur du exporterar en DGN-fil som en del av en DWG-fil med Aspose.CAD för Java. Detta kraftfulla bibliotek ger omfattande möjligheter för att arbeta med CAD-filer, vilket gör dina CAD-filmanipuleringsuppgifter effektiva och enkla.
 
 ## FAQ's
 

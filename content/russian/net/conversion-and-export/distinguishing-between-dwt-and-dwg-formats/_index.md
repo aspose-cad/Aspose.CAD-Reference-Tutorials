@@ -15,7 +15,7 @@ url: /ru/net/conversion-and-export/distinguishing-between-dwt-and-dwg-formats/
 
 Прежде чем приступить к изучению руководства, убедитесь, что у вас есть следующие предварительные условия:
 
-1.  Библиотека Aspose.CAD for .NET: Загрузите и установите библиотеку Aspose.CAD for .NET с сайта[страница релизов](https://releases.aspose.com/cad/net/).
+1.  Библиотека Aspose.CAD for .NET: загрузите и установите библиотеку Aspose.CAD for .NET с сайта[страница релизов](https://releases.aspose.com/cad/net/).
 
 2. Образцы файлов. Получите образцы файлов DWT и DWG для практического обучения. Вы можете найти их на своем рабочем столе или использовать файлы из своих проектов САПР.
 
@@ -80,7 +80,7 @@ Assert.IsTrue(formatTypeDwg.ToString().ToLower().Contains("dwg"));
 
 ### Вопрос 2. Доступна ли пробная версия Aspose.CAD для .NET?
 
- О2: Да, вы можете изучить функции и возможности Aspose.CAD для .NET с помощью[бесплатная пробная версия](https://releases.aspose.com/).
+ О2: Да, вы можете изучить функции и возможности Aspose.CAD for .NET с помощью[бесплатная пробная версия](https://releases.aspose.com/).
 
 ### Вопрос 3: Как я могу получить поддержку Aspose.CAD для .NET?
 

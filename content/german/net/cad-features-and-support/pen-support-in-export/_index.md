@@ -94,7 +94,7 @@ cadImage.Save(MyDir + "9LHATT-A56_generated.pdf", pdfOptions);
 
 ## Abschluss
 
-In diesem Tutorial haben wir die Stiftunterstützung in der Exportfunktion von Aspose.CAD für .NET untersucht. Indem Sie der Schritt-für-Schritt-Anleitung folgen, können Sie die Anfangs- und Endkappeneinstellungen für Stifte ganz einfach anpassen und so die Flexibilität Ihrer CAD-Bildexporte erhöhen.
+In diesem Tutorial haben wir die Stiftunterstützung in der Exportfunktion von Aspose.CAD für .NET untersucht. Wenn Sie der Schritt-für-Schritt-Anleitung folgen, können Sie die Anfangs- und Endkappeneinstellungen für Stifte ganz einfach anpassen und so die Flexibilität Ihrer CAD-Bildexporte erhöhen.
 
 Experimentieren Sie ruhig mit verschiedenen Stiftoptionen, um die gewünschten visuellen Effekte in Ihren exportierten Bildern zu erzielen.
 
