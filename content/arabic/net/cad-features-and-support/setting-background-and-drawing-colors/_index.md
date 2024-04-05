@@ -48,7 +48,7 @@ using (Image image = Image.Load(sourceFilePath))
 
 ## الخطوة 2: تكوين خيارات التنقيط
 
- إنشاء مثيل ل`CadRasterizationOptions` وقم بتعيين خصائصه لإعداد الخلفية ولون الرسم:
+ إنشاء مثيل ل`CadRasterizationOptions` وتعيين خصائصه لإعداد الخلفية ولون الرسم:
 
 ```csharp
 CadRasterizationOptions rasterizationOptions = new CadRasterizationOptions();

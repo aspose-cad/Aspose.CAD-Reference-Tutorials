@@ -80,7 +80,7 @@ dgnImage.save(outStream, options);
 
  О2: Да, вы можете получить доступ к бесплатной пробной версии.[здесь](https://releases.aspose.com/).
 
-### Вопрос 3: Где я могу найти документацию по Aspose.CAD для Java?
+### Вопрос 3. Где я могу найти документацию по Aspose.CAD для Java?
 
  A3: обратитесь к документации[здесь](https://reference.aspose.com/cad/java/).
 

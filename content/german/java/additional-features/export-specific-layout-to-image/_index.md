@@ -118,7 +118,7 @@ Mit diesen Schritten haben Sie mit Aspose.CAD für Java erfolgreich ein bestimmt
 
 ## Abschluss
 
-In diesem Tutorial haben wir den Prozess des Exportierens eines bestimmten DXF-Layouts in ein Bild mit Aspose.CAD für Java behandelt. Indem Sie die detaillierten Schritte befolgen und die bereitgestellten Codefragmente verwenden, können Sie diese Funktionalität nahtlos in Ihre Java-Projekte integrieren.
+In diesem Tutorial haben wir den Prozess des Exportierens eines bestimmten DXF-Layouts in ein Bild mit Aspose.CAD für Java behandelt. Indem Sie die detaillierten Schritte befolgen und die bereitgestellten Codeausschnitte verwenden, können Sie diese Funktionalität nahtlos in Ihre Java-Projekte integrieren.
 
 ## FAQs
 

@@ -84,11 +84,11 @@ cadImageText.save(file.getName() + "_text.dxf");
 
 ## 结论
 
-恭喜！您已成功学习如何使用 Aspose.CAD for Java 将图像导出为 DXF 格式。本教程涵盖了基本步骤，包括设置字体、隐藏线条和操作 CAD 图像中的文本。
+恭喜！您已经成功学习了如何使用 Aspose.CAD for Java 将图像导出为 DXF 格式。本教程涵盖了基本步骤，包括设置字体、隐藏线条和操作 CAD 图像中的文本。
 
 ## 常见问题解答
 
-### Q1：我可以在没有许可证的情况下使用Aspose.CAD for Java吗？
+### Q1：我可以在没有许可证的情况下使用 Aspose.CAD for Java 吗？
 
  A1：您可以使用可用的临时许可证[这里](https://purchase.aspose.com/temporary-license/).
 

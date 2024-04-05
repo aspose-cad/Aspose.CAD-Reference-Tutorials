@@ -1,5 +1,5 @@
 ---
-title: Работа с прокси-объектами ACAD — Руководство по Aspose.CAD
+title: Работа с прокси-объектами ACAD — Руководство Aspose.CAD
 linktitle: Работа с прокси-объектами ACAD
 second_title: Aspose.CAD .NET — формат файлов CAD и BIM
 description: Изучите Aspose.CAD для .NET и оптимизируйте рабочие процессы САПР. Легко конвертируйте, редактируйте и управляйте прокси-объектами ACAD.

@@ -16,7 +16,7 @@ Möchten Sie die Größe von CAD-Zeichnungen in Ihren .NET-Anwendungen nahtlos a
 Bevor wir uns mit dem Tutorial befassen, stellen Sie sicher, dass die folgenden Voraussetzungen erfüllt sind:
 
 - Aspose.CAD für .NET-Bibliothek: Laden Sie die Bibliothek von herunter und installieren Sie sie[Aspose.CAD für .NET-Downloadseite](https://releases.aspose.com/cad/net/).
-- Beispiel-CAD-Zeichnung: Stellen Sie sicher, dass Sie eine Beispiel-CAD-Zeichnungsdatei (z. B. „sample.dwg“) in Ihrem Dokumentverzeichnis haben.
+- Beispiel-CAD-Zeichnung: Stellen Sie sicher, dass Sie eine Beispiel-CAD-Zeichnungsdatei (z. B. „sample.dwg“) in Ihrem Dokumentenverzeichnis haben.
 
 ## Namespaces importieren
 

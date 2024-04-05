@@ -72,7 +72,7 @@ options.VectorRasterizationOptions = rasterizationOptions;
 ## Paso 5: exportar a formato Jpeg
 
 ```csharp
-// Exportar cada capa a formato Jpeg
+// Exporta cada capa a formato Jpeg
 MyDir = MyDir + "CADLayersToRasterImageFormats_out.jpg";
 image.Save(MyDir, options);
 ```

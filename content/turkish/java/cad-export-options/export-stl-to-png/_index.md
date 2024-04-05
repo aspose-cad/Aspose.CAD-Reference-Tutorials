@@ -66,7 +66,7 @@ vectorOptions.setPageWidth(1500);
 vectorOptions.setPageHeight(1500);
 ```
 
-## Adım 5: PNG Seçeneklerini Yapılandırın
+## 5. Adım: PNG Seçeneklerini Yapılandırın
 
 PNG dışa aktarma seçeneklerini belirtin:
 

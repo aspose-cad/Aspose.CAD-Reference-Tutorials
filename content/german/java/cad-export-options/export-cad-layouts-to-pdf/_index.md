@@ -9,7 +9,7 @@ url: /de/java/cad-export-options/export-cad-layouts-to-pdf/
 ---
 ## Einführung
 
-Im sich ständig weiterentwickelnden Bereich des computergestützten Designs (CAD) zeichnet sich Aspose.CAD für Java als leistungsstarkes Tool zum Bearbeiten und Konvertieren von CAD-Dateien aus. In diesem Tutorial führen wir Sie durch den Prozess des Exportierens von CAD-Layouts in PDF mit Aspose.CAD für Java. Egal, ob Sie ein erfahrener Entwickler sind oder gerade erst in die Welt des CAD eintauchen, diese Schritt-für-Schritt-Anleitung hilft Ihnen dabei, das volle Potenzial dieser vielseitigen Java-Bibliothek auszuschöpfen.
+Im sich ständig weiterentwickelnden Bereich des computergestützten Designs (CAD) sticht Aspose.CAD für Java als leistungsstarkes Werkzeug zum Bearbeiten und Konvertieren von CAD-Dateien hervor. In diesem Tutorial führen wir Sie durch den Prozess des Exportierens von CAD-Layouts in PDF mit Aspose.CAD für Java. Ganz gleich, ob Sie ein erfahrener Entwickler sind oder gerade erst in die CAD-Welt eintauchen, diese Schritt-für-Schritt-Anleitung hilft Ihnen dabei, das volle Potenzial dieser vielseitigen Java-Bibliothek auszuschöpfen.
 
 ## Voraussetzungen
 

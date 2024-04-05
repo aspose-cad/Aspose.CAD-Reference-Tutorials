@@ -111,7 +111,7 @@ S1: Ja, Aspose.CAD för Java integreras sömlöst med populära Java-ramverk.
 
 ### F4: Hur kan jag köpa en licens för Aspose.CAD för Java?
 
- A4: Du kan köpa en licens[här](https://purchase.aspose.com/buy).
+ S4: Du kan köpa en licens[här](https://purchase.aspose.com/buy).
 
 ### F5: Vilka enheter stöder Aspose.CAD för Java?
 

@@ -58,7 +58,7 @@ Rufen Sie die Menge der verbrauchten Messdaten ab, bevor Sie API-Aufrufe durchf�
 //Aspose.CAD.FileFormats.Cad.CadImage image = (Aspose.CAD.FileFormats.Cad.CadImage)Aspose.CAD.Image.load("BlockRefDgn.dwg");
 ```
 
-Führen Sie mit Aspose.CAD Ihre gewünschten Bearbeitungsaufgaben durch, z. B. das Laden von CAD-Bildern oder die Bearbeitung vorhandener Bilder.
+Führen Sie mit Aspose.CAD Ihre gewünschten Bearbeitungsaufgaben durch, wie z. B. das Laden von CAD-Bildern oder die Bearbeitung vorhandener Bilder.
 
 ## Schritt 4: Verbrauchsmenge nach API-Aufruf abrufen
 

@@ -71,7 +71,7 @@ for (CadBaseEntity baseEntity : cadImage.getEntities()) {
 
 ## Шаг 5: Определите параметры растеризации
 
- Определите настройки для`CadRasterizationOptions`объект, включая ширину и высоту страницы, макеты и цвет фона.
+ Определите настройки для`CadRasterizationOptions`объект, включая ширину, высоту страницы, макеты и цвет фона.
 
 ```java
 CadRasterizationOptions vectorRasterizationOptions = new CadRasterizationOptions();

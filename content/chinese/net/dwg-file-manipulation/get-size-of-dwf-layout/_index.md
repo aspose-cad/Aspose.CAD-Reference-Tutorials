@@ -96,7 +96,7 @@ using (FileStream fs = new FileStream(MyDir + "layout_" + layout + ".jpg", FileM
 
 ## 第 7 步：确定页面大小
 
-确定 DWF 布局的大小：
+确定 DWF 布局的尺寸：
 
 ```csharp
 double sizeExtX = page.MaxPoint.X - page.MinPoint.X;

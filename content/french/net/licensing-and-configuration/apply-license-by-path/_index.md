@@ -1,6 +1,6 @@
 ---
 title: Appliquer une licence par chemin dans Aspose.CAD pour .NET
-linktitle: Appliquer une licence par chemin
+linktitle: Appliquer la licence par chemin
 second_title: Aspose.CAD .NET - Format de fichier CAO et BIM
 description: Libérez tout le potentiel d’Aspose.CAD pour .NET ! Suivez notre guide étape par étape pour appliquer une licence en toute transparence. Améliorez votre jeu de manipulation de fichiers CAO dès maintenant !
 type: docs

@@ -32,7 +32,7 @@ import com.aspose.cad.fileformats.cad.cadparameters.CadStringParameter;
 
 现在，让我们将示例代码分解为多个步骤，以获得清晰详细的教程。
 
-## 步骤一：定义资源目录
+## 第 1 步：定义资源目录
 
 首先指定 DWG 工程图所在目录的路径。
 

@@ -78,7 +78,7 @@ image.save(dataDir + "conic_pyramid_raster_image_out.png", options);
 
 ## الأسئلة الشائعة
 
-### س1: هل Aspose.CAD متوافق مع جميع تنسيقات CAD؟
+### س1: هل Aspose.CAD متوافق مع كافة تنسيقات CAD؟
 
  A1: يدعم Aspose.CAD نطاقًا واسعًا من تنسيقات CAD، بما في ذلك DWG وDXF وDWF والمزيد. الرجوع إلى[توثيق](https://reference.aspose.com/cad/java/) للحصول على القائمة الكاملة.
 

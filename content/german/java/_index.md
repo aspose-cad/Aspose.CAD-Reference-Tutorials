@@ -10,7 +10,7 @@ is_root: true
 
 ## Einführung
 
-Schöpfen Sie das volle Potenzial von Aspose.CAD für Java aus, während wir Sie durch umfassende Tutorials und Beispiele führen und Ihre CAD-Entwicklungsfähigkeiten auf ein neues Niveau heben. Egal, ob Sie ein Anfänger oder ein erfahrener Entwickler sind, unsere Schritt-für-Schritt-Anleitungen decken eine Reihe von Themen ab, die Ihnen die effiziente Arbeit mit CAD-Dateien erleichtern.
+Schöpfen Sie das volle Potenzial von Aspose.CAD für Java aus, während wir Sie durch umfassende Tutorials und Beispiele führen und Ihre CAD-Entwicklungsfähigkeiten auf ein neues Niveau heben. Ganz gleich, ob Sie ein Anfänger oder ein erfahrener Entwickler sind, unsere Schritt-für-Schritt-Anleitungen decken eine Reihe von Themen ab, die Ihnen die effiziente Arbeit mit CAD-Dateien erleichtern.
 
 ## CAD-Zeichnungskonvertierung
 Transformieren Sie CAD-Zeichnungen nahtlos mit Aspose.CAD für Java. Tauchen Sie in unsere Tutorials ein, um die Kunst des präzisen Konvertierens, Exportierens und Optimierens von CAD-Dateien zu erlernen. Entdecken Sie die Geheimnisse einer effizienten Konvertierung von CAD-Zeichnungen und sorgen Sie dafür, dass Ihre Projekte glänzen.

@@ -68,7 +68,7 @@ using (FileStream stream = new FileStream(MyDir + "output_conic_pyramid.pdf", Fi
         });
 ```
 
-## Steg 4: Spara till PDF-format
+## Steg 4: Spara i PDF-format
 
 ```csharp
     Console.WriteLine("Exporting to pdf format");

@@ -113,7 +113,7 @@ A2: Sì, puoi personalizzare il carattere, lo stile e altre opzioni di formattaz
 
 ### Q3: È disponibile una prova gratuita per Aspose.CAD per Java?
 
- A3: Sì, puoi esplorare le funzionalità di Aspose.CAD ottenendo una prova gratuita da[Qui](https://releases.aspose.com/).
+ R3: Sì, puoi esplorare le funzionalità di Aspose.CAD ottenendo una prova gratuita da[Qui](https://releases.aspose.com/).
 
 ### Q4: Dove posso trovare la documentazione dettagliata per Aspose.CAD per Java?
 

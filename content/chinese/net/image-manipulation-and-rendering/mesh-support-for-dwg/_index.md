@@ -118,7 +118,7 @@ A2：当然。 Aspose.CAD 为读取和写入 DWG 文件提供全面支持，使�
 
 ### Q4：如何获得Aspose.CAD的技术支持？
 
- A4：访问 Aspose.CAD 论坛[这里](https://forum.aspose.com/c/cad/19)获得社区和 Aspose 支持人员的帮助。
+ A4：访问 Aspose.CAD 论坛[这里](https://forum.aspose.com/c/cad/19)从社区和 Aspose 支持人员那里获得帮助。
 
 ### Q5：Aspose.CAD 有免费试用版吗？
 

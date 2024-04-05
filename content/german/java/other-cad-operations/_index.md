@@ -9,7 +9,7 @@ url: /de/java/other-cad-operations/
 ---
 ## Einführung
 
-Willkommen im Aspose.CAD für Java-Tutorial-Hub, wo wir die Leistungsfähigkeit dieses vielseitigen Tools enthüllen und Java-Entwicklern die Möglichkeit geben, ihre CAD-Kenntnisse zu verbessern. Von der Handhabung komplizierter DGN-Elemente bis hin zum Hinzufügen einer persönlichen Note mit Wasserzeichen sorgen unsere Schritt-für-Schritt-Anleitungen für einen nahtlosen Integrationsprozess. Begeben wir uns auf eine Reise, um das volle Potenzial von Aspose.CAD für Java auszuschöpfen.
+Willkommen im Aspose.CAD für Java-Tutorial-Hub, wo wir die Leistungsfähigkeit dieses vielseitigen Tools enthüllen und Java-Entwicklern die Möglichkeit geben, ihre CAD-Kenntnisse zu verbessern. Von der Handhabung komplizierter DGN-Elemente bis hin zum Hinzufügen einer persönlichen Note mit Wasserzeichen – unsere Schritt-für-Schritt-Anleitungen sorgen für einen nahtlosen Integrationsprozess. Begeben wir uns auf eine Reise, um das volle Potenzial von Aspose.CAD für Java auszuschöpfen.
 
 ## Unterstützte DGN-Elemente – mühelose Handhabung
 
@@ -17,7 +17,7 @@ Tauchen Sie mit unserem Tutorial zu unterstützten DGN-Elementen in die Welt von
 
 ## Unterstützung für DGN V7 – Optimierte PDF-Konvertierung
 
-Konvertieren Sie DGN-Dateien effizient in PDF mit Aspose.CAD für Java. Unser Tutorial zur Unterstützung für DGN V7 führt Sie durch den Prozess und stellt sicher, dass Sie diese Funktionalität nahtlos in Ihren Workflow integrieren können. Erleben Sie einen effizienten und optimierten Konvertierungsprozess, der Ihre Produktivität bei CAD-Projekten steigert.
+Konvertieren Sie DGN-Dateien effizient in PDF mit Aspose.CAD für Java. Unser Tutorial zur Unterstützung von DGN V7 führt Sie durch den Prozess und stellt sicher, dass Sie diese Funktionalität nahtlos in Ihren Workflow integrieren können. Erleben Sie einen effizienten und optimierten Konvertierungsprozess, der Ihre Produktivität bei CAD-Projekten steigert.
 
 ## Wasserzeichen hinzufügen – Personalisieren Sie Ihre CAD-Zeichnungen
 
@@ -62,4 +62,4 @@ Erstellen Sie mit Aspose.CAD für Java beeindruckende PDFs mit verschiedenen Lay
 ### [Hyperlink bearbeiten – Aspose.CAD für Java-Tutorial](./edit-hyperlink/)
 Verbessern Sie die Präzision von DWG-Zeichnungen mit Aspose.CAD für Java. Bearbeiten Sie Hyperlinks nahtlos und stellen Sie so genaue Referenzen sicher.
 ### [Unterstützung von OBJ – Aspose.CAD für Java Tutorial](./support-of-obj/)
-Entdecken Sie das Potenzial von Aspose.CAD für Java bei der nahtlosen Bearbeitung von OBJ-Zeichnungen. Konvertieren Sie mit unserer Schritt-für-Schritt-Anleitung mühelos in PDF.
+Entdecken Sie das Potenzial von Aspose.CAD für Java bei der nahtlosen Verarbeitung von OBJ-Zeichnungen. Konvertieren Sie mit unserer Schritt-für-Schritt-Anleitung mühelos in PDF.

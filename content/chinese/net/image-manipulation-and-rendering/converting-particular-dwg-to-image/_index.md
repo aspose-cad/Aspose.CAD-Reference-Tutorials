@@ -95,7 +95,7 @@ cadImage.Save(outFile, pdfOptions);
 
 ## 结论
 
-恭喜！您已使用 Aspose.CAD for .NET 成功将特定 DWG 文件转换为图像。本教程让您一睹该库的强大功能，使开发人员能够在其应用程序中高效地使用 CAD 文件。
+恭喜！您已使用 Aspose.CAD for .NET 成功将特定 DWG 文件转换为图像。本教程让您了解该库的强大功能，使开发人员能够在其应用程序中高效地使用 CAD 文件。
 
 ## 常见问题解答
 

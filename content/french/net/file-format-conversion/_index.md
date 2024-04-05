@@ -40,7 +40,7 @@ Passons maintenant à un autre aspect essentiel de la gestion des fichiers CAO :
 
 ## En conclusion
 
-Que vous vous aventuriez à exporter DWF au format PDF ou que vous plongez dans le monde du format BMP, Aspose.CAD for .NET est votre compagnon fiable. Découvrez le mélange d'efficacité et de simplicité en élevant vos capacités de gestion de fichiers CAO. Profitez de la puissance des conversions transparentes de formats de fichiers avec Aspose.CAD !
+Que vous vous aventuriez à exporter des fichiers DWF au format PDF ou que vous plongez dans le monde du format BMP, Aspose.CAD for .NET est votre compagnon fiable. Découvrez le mélange d'efficacité et de simplicité en élevant vos capacités de gestion de fichiers CAO. Profitez de la puissance des conversions transparentes de formats de fichiers avec Aspose.CAD !
 ## Tutoriels de conversion de format de fichier
 ### [Exportation de DWF au format PDF - Guide Aspose.CAD](./exporting-dwf-to-pdf/)
 Découvrez un guide transparent sur l'exportation de DWF au format PDF à l'aide d'Aspose.CAD pour .NET. Améliorez vos capacités de gestion de fichiers CAO sans effort.

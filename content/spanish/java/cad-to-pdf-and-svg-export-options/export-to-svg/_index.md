@@ -9,7 +9,7 @@ url: /es/java/cad-to-pdf-and-svg-export-options/export-to-svg/
 ---
 ## Introducción
 
-Bienvenido al mundo de Aspose.CAD para Java, una poderosa biblioteca que permite a los desarrolladores manipular dibujos CAD con facilidad. Ya sea que sea un desarrollador experimentado o un recién llegado al ámbito CAD, esta guía completa lo guiará a través del proceso de exportación de dibujos CAD a formato SVG usando Aspose.CAD para Java.
+Bienvenido al mundo de Aspose.CAD para Java, una potente biblioteca que permite a los desarrolladores manipular dibujos CAD con facilidad. Ya sea que sea un desarrollador experimentado o un recién llegado al ámbito CAD, esta guía completa lo guiará a través del proceso de exportación de dibujos CAD a formato SVG usando Aspose.CAD para Java.
 
 ## Requisitos previos
 

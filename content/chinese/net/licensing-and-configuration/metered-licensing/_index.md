@@ -96,4 +96,4 @@ A3：是的，计量密钥可以在不同的项目中重复使用，从而提供
 
 ### Q5：我可以为特定项目临时许可 Aspose.CAD 吗？
 
- A5：是的，探索[临时许可选项](https://purchase.aspose.com/temporary-license/)以满足短期项目的需要。
+ A5：是的，探索[临时许可选项](https://purchase.aspose.com/temporary-license/)以满足短期项目的需求。

@@ -9,7 +9,7 @@ url: /de/java/advanced-cad-features/support-of-layers-in-cad/
 ---
 ## Einführung
 
-Schöpfen Sie das volle Potenzial von Aspose.CAD in Java aus, indem Sie die Unterstützung von Ebenen beherrschen. Ebenen spielen in CAD-Zeichnungen eine entscheidende Rolle und ermöglichen eine effiziente Organisation und Bearbeitung grafischer Elemente. In diesem umfassenden Tutorial befassen wir uns mit den Feinheiten der Ebenenunterstützung mit Aspose.CAD und bieten Ihnen eine Schritt-für-Schritt-Anleitung zur Nutzung dieser leistungsstarken Funktionalität.
+Schöpfen Sie das volle Potenzial von Aspose.CAD in Java aus, indem Sie die Unterstützung von Ebenen beherrschen. Ebenen spielen in CAD-Zeichnungen eine entscheidende Rolle und ermöglichen eine effiziente Organisation und Bearbeitung grafischer Elemente. In diesem umfassenden Tutorial befassen wir uns mit den Feinheiten der Ebenenunterstützung mit Aspose.CAD und geben Ihnen eine Schritt-für-Schritt-Anleitung zur Nutzung dieser leistungsstarken Funktionalität.
 
 ## Voraussetzungen
 

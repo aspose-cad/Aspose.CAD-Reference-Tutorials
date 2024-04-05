@@ -45,7 +45,7 @@ Bunlar bazı yararlı kaynaklara bağlantılar:
 
 ## Java Eğitimleri için Aspose.CAD
 {{% alert color="primary" %}}
-Aspose.CAD for Java ile CAD geliştirme yeterliliğinizi geliştirecek bir yolculuğa çıkın. Çizim dönüştürme, metin açıklaması, dosya işleme, gelişmiş özellikler, lisanslama ve daha fazlasını derinlemesine inceleyen bir dizi kapsamlı eğitime kendinizi kaptırın. İster yeni başlıyor olun ister deneyimli bir geliştirici olun, titizlikle hazırlanmış, adım adım kılavuzlarımız sizi güçlendirmek için tasarlanmıştır. CAD inceliklerinin nüanslarını zahmetsizce keşfederek becerilerinizin tüm potansiyelini ortaya çıkarmanıza ve projelerinize yeni bir hassasiyet ve verimlilik düzeyi getirmenize olanak tanır.
+Aspose.CAD for Java ile CAD geliştirme yeterliliğinizi geliştirecek bir yolculuğa çıkın. Çizim dönüştürme, metin açıklaması, dosya işleme, gelişmiş özellikler, lisanslama ve daha fazlasını derinlemesine inceleyen bir dizi kapsamlı eğitime kendinizi kaptırın. İster yeni başlıyor olun ister deneyimli bir geliştirici olun, titizlikle hazırlanmış, adım adım kılavuzlarımız sizi güçlendirmek için tasarlanmıştır. CAD inceliklerinin nüanslarını zahmetsizce keşfederek becerilerinizin tüm potansiyelini açığa çıkarmanıza ve projelerinize yeni bir hassasiyet ve verimlilik düzeyi getirmenize olanak tanır.
 {{% /alert %}}
 
 Bunlar bazı yararlı kaynaklara bağlantılar:

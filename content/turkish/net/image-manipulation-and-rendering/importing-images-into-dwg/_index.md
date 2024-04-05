@@ -99,7 +99,7 @@ cadImage1.Save(MyDir + "export2.pdf", pdfOptions);
 
 ## Çözüm
 
-Görüntüleri C# ve Aspose.CAD for .NET kullanarak DWG dosyalarına entegre etmek kusursuz bir süreçtir ve geliştiricilere CAD projelerini görsel öğelerle zahmetsizce geliştirme olanağı sağlar.
+Görüntüleri C# ve Aspose.CAD for .NET kullanarak DWG dosyalarına entegre etmek sorunsuz bir süreçtir ve geliştiricilere CAD projelerini görsel öğelerle zahmetsizce geliştirme olanağı sağlar.
 
 ## SSS'ler
 

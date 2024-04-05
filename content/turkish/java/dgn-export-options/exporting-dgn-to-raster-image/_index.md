@@ -57,7 +57,7 @@ vectorOptions.setAutomaticLayoutsScaling(false);
 options.setVectorRasterizationOptions(vectorOptions);
 ```
 
-## 4. Adım: Dönüştürülen Görüntüyü Kaydedin
+## Adım 4: Dönüştürülen Görüntüyü Kaydedin
 
 ```java
 OutputStream outStream = new FileOutputStream(dataDir + "ExportDGNToRasterImage_Out.jpg");

@@ -101,7 +101,7 @@ S1: Ja, Aspose.CAD stöder olika CAD-format, vilket ger en mångsidig lösning.
 
 ### F2: Finns det en gratis testversion tillgänglig för Aspose.CAD för .NET?
 
- A2: Ja, du kan utforska funktionerna med[gratis provperiod](https://releases.aspose.com/).
+ S2: Ja, du kan utforska funktionerna med[gratis provperiod](https://releases.aspose.com/).
 
 ### F3: Hur kan jag få support för Aspose.CAD för .NET?
 

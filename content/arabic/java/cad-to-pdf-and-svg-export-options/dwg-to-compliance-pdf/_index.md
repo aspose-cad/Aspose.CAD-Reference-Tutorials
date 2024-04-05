@@ -92,7 +92,7 @@ objImage.save(dataDir + "Saved.pdf", pdfOptions);
 
 ## الأسئلة الشائعة
 
-### س1: هل Aspose.CAD متوافق مع كافة إصدارات ملفات DWG؟
+### س 1: هل Aspose.CAD متوافق مع كافة إصدارات ملفات DWG؟
 
  A1: يدعم Aspose.CAD إصدارات مختلفة من ملفات DWG، بما في ذلك الإصدارات الأحدث. الرجوع إلى[توثيق](https://reference.aspose.com/cad/java/) للحصول على معلومات التوافق التفصيلية.
 

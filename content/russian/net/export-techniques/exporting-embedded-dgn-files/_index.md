@@ -83,7 +83,7 @@ Console.WriteLine("\nThe DXF drawing exported successfully to PDF.\nFile saved a
 
 О1: Aspose.CAD в основном поддерживает .NET, но Aspose предоставляет библиотеки для различных языков, включая Java и Python.
 
-### Вопрос 2: Существует ли бесплатная пробная версия Aspose.CAD для .NET?
+### Вопрос 2. Существует ли бесплатная пробная версия Aspose.CAD для .NET?
 
  О2: Да, вы можете получить бесплатную пробную версию на сайте[здесь](https://releases.aspose.com/).
 

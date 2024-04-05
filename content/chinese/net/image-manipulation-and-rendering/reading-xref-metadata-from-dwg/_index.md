@@ -100,7 +100,7 @@ A1：是的，Aspose.CAD for .NET 支持多种 CAD 格式，确保您的应用�
 
  A3：文档可用[这里](https://reference.aspose.com/cad/net/).
 
-### 问题 4：如何获取 Aspose.CAD for .NET 的临时许可证？
+### 问题 4：如何获得 Aspose.CAD for .NET 的临时许可证？
 
  A4：您可以获得临时许可证[这里](https://purchase.aspose.com/temporary-license/).
 

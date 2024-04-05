@@ -57,7 +57,7 @@ Image image = Image.load(srcFile);
 
 ## Шаг 3. Настройте параметры растеризации
 
- Создайте экземпляр`CadRasterizationOptions` и настройте его свойства в соответствии со своими потребностями.
+ Создайте экземпляр`CadRasterizationOptions` и настройте его свойства в соответствии с вашими потребностями.
 
 ```java
 CadRasterizationOptions rasterizationOptions = new CadRasterizationOptions();

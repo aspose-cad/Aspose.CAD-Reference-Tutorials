@@ -2,7 +2,7 @@
 title: Aspose.CAD for .NET'te CAD Çizim Boyutunu Ayarlama
 linktitle: CAD Çizim Boyutunu Ayarlama
 second_title: Aspose.CAD .NET - CAD ve BIM Dosya Formatı
-description: Aspose.CAD'i kullanarak .NET'te CAD çizim boyutlarını zahmetsizce nasıl ayarlayacağınızı öğrenin. Sorunsuz yeniden boyutlandırma için adım adım kılavuzumuzu izleyin.
+description: Aspose.CAD'i kullanarak .NET'te CAD çizim boyutlarını zahmetsizce nasıl ayarlayabileceğinizi öğrenin. Sorunsuz yeniden boyutlandırma için adım adım kılavuzumuzu izleyin.
 type: docs
 weight: 10
 url: /tr/net/cad-drawing-manipulation/adjust-cad-drawing-size/

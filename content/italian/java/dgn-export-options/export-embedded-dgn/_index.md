@@ -9,7 +9,7 @@ url: /it/java/dgn-export-options/export-embedded-dgn/
 ---
 ## introduzione
 
-Benvenuti in questo tutorial completo sull'esportazione di file DGN incorporati utilizzando Aspose.CAD per Java. Aspose.CAD è una potente libreria che consente agli sviluppatori Java di lavorare senza problemi con i file CAD. In questo tutorial ti guideremo attraverso il processo di esportazione di file DGN incorporati in PDF utilizzando istruzioni dettagliate. Che tu sia uno sviluppatore esperto o che tu abbia appena iniziato, questo tutorial ti aiuterà a sfruttare le funzionalità di Aspose.CAD per migliorare le tue applicazioni Java.
+Benvenuti in questo tutorial completo sull'esportazione di file DGN incorporati utilizzando Aspose.CAD per Java. Aspose.CAD è una potente libreria che consente agli sviluppatori Java di lavorare senza problemi con i file CAD. In questo tutorial ti guideremo attraverso il processo di esportazione di file DGN incorporati in PDF utilizzando istruzioni dettagliate. Che tu sia uno sviluppatore esperto o abbia appena iniziato, questo tutorial ti aiuterà a sfruttare le funzionalità di Aspose.CAD per migliorare le tue applicazioni Java.
 
 ## Prerequisiti
 

@@ -105,7 +105,7 @@ A3: Sì, Aspose.CAD supporta un'ampia gamma di formati CAD, garantendo flessibil
 
 R4: Certamente è possibile implementare l'elaborazione batch per automatizzare la sostituzione dei caratteri su più disegni CAD.
 
-### Q5: Dove posso trovare supporto aggiuntivo per Aspose.CAD per .NET?
+### Q5: Dove posso trovare ulteriore supporto per Aspose.CAD per .NET?
 
  R5: Per ulteriore supporto e discussioni nella community, visitare il sito[Forum Aspose.CAD](https://forum.aspose.com/c/cad/19).
 

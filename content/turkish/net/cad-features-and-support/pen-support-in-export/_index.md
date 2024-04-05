@@ -9,7 +9,7 @@ url: /tr/net/cad-features-and-support/pen-support-in-export/
 ---
 ## giriiş
 
-Aspose.CAD for .NET, Bilgisayar Destekli Tasarım (CAD) dosyalarıyla çalışmak için güçlü bir araç seti sağlayarak geliştiricilerin CAD görüntülerini sorunsuz bir şekilde işlemesine ve dışa aktarmasına olanak tanır. Dikkate değer özelliklerden biri, dışa aktarma sırasında kalem desteği olup, kullanıcıların CAD görüntülerini PDF, PNG, BMP, GIF, JPEG2000, JPEG, PSD, TIFF ve WMF gibi çeşitli formatlara dışa aktarırken kalemlerin başlangıç ve bitiş kapağı ayarlarını özelleştirmesine olanak tanır.
+Aspose.CAD for .NET, Bilgisayar Destekli Tasarım (CAD) dosyalarıyla çalışmak için güçlü bir araç seti sağlayarak geliştiricilerin CAD görüntülerini sorunsuz bir şekilde değiştirmesine ve dışa aktarmasına olanak tanır. Dikkate değer özelliklerden biri, dışa aktarma sırasında kalem desteği olup, kullanıcıların CAD görüntülerini PDF, PNG, BMP, GIF, JPEG2000, JPEG, PSD, TIFF ve WMF gibi çeşitli formatlara dışa aktarırken kalemlerin başlangıç ve bitiş kapağı ayarlarını özelleştirmesine olanak tanır.
 
 Bu eğitimde Aspose.CAD for .NET kullanarak dışa aktarmada kalem desteğinin ayrıntılarını inceleyeceğiz. Süreç boyunca size yol gösterecek net açıklamalar ve örnekler sunarak her adımı ayrıntılı olarak ele alacağız.
 

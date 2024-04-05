@@ -112,6 +112,6 @@ A3: Absolut. Aspose.CAD ermöglicht die Stapelverarbeitung, sodass Sie mehrere D
 
  A4: Besuchen Sie die[Aspose.CAD-Forum](https://forum.aspose.com/c/cad/19) für Unterstützung und Diskussionen.
 
-### F5: Kann ich Aspose.CAD vor dem Kauf testen?
+### F5: Kann ich Aspose.CAD vor dem Kauf ausprobieren?
 
  A5: Ja, entdecken Sie das Tool mit einer kostenlosen Testversion unter[dieser Link](https://releases.aspose.com/).

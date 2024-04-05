@@ -9,7 +9,7 @@ url: /tr/net/tracking-and-rendering/rendering-dxf-files-as-pdf/
 ---
 ## giriiş
 
-Aspose.CAD for .NET kullanarak DXF dosyalarını PDF olarak işlemeye ilişkin adım adım kılavuzumuza hoş geldiniz. Aspose.CAD, geliştiricilerin CAD formatlarıyla zahmetsizce çalışmasını sağlayan güçlü bir kütüphanedir. Bu eğitimde, DXF dosyalarını PDF'ye dönüştürme sürecinde size yol göstererek CAD ile ilgili görevleriniz için kusursuz ve etkili bir çözüm sunacağız.
+Aspose.CAD for .NET kullanarak DXF dosyalarını PDF olarak işlemeye ilişkin adım adım kılavuzumuza hoş geldiniz. Aspose.CAD, geliştiricilerin CAD formatlarıyla zahmetsizce çalışmasını sağlayan güçlü bir kütüphanedir. Bu eğitimde size DXF dosyalarını PDF'ye dönüştürme sürecinde yol göstererek CAD ile ilgili görevleriniz için kusursuz ve etkili bir çözüm sunacağız.
 
 ## Önkoşullar
 
@@ -89,7 +89,7 @@ Cevap1: Evet, Aspose.CAD çok çeşitli DXF dosyalarını destekleyerek çeşitl
 
 ### S4: Aspose.CAD için nasıl geçici lisans alabilirim?
 
- Cevap4: Geçici lisanslar edinin[Burada](https://purchase.aspose.com/temporary-license/) test ve değerlendirme amaçlıdır.
+ Cevap4: Geçici lisanslar alın[Burada](https://purchase.aspose.com/temporary-license/) test ve değerlendirme amaçlıdır.
 
 ### S5: Yardıma mı ihtiyacınız var veya özel sorularınız mı var?
 

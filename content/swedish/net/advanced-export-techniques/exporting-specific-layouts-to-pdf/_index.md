@@ -101,7 +101,7 @@ S2: Ja, Aspose.CAD stöder olika CAD-format, inklusive DWG, DXF, DWF och mer.
 
 ### F3: Hur kan jag justera inställningarna för PDF-utdata?
 
- A3: Utforska egenskaperna för`CadRasterizationOptions` i steg 2 för anpassningsalternativ.
+ A3: Utforska egenskaperna hos`CadRasterizationOptions` i steg 2 för anpassningsalternativ.
 
 ### F4: Var kan jag hitta ytterligare Aspose.CAD-dokumentation?
 

@@ -49,4 +49,4 @@ Explorez le processus transparent d'exportation de fichiers DWG au format PDF ou
 ### [Exporter une mise en page DWG spécifique au format PDF à l'aide d'Aspose.CAD pour Java](./export-specific-dwg-layout-to-pdf/)
 Explorez le guide étape par étape pour exporter des mises en page DWG spécifiques au format PDF à l'aide d'Aspose.CAD pour Java. Optimisez votre flux de travail CAO sans effort.
 ### [Convertir DWT au format DXF à l'aide d'Aspose.CAD pour Java](./convert-dwt-to-dxf/)
-Découvrez la conversion transparente de DWT en DXF avec Aspose.CAD pour Java. Suivez notre guide étape par étape pour une manipulation efficace des fichiers CAO.
+Explorez la conversion transparente de DWT en DXF avec Aspose.CAD pour Java. Suivez notre guide étape par étape pour une manipulation efficace des fichiers CAO.

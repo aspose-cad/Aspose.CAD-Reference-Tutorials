@@ -22,7 +22,7 @@ Comprendere i livelli è fondamentale per una manipolazione efficace dei file DW
  Sblocca il potenziale di Aspose.CAD per .NET mentre ti guidiamo attraverso l'apertura e l'accesso ai file DWFX in C#. Il nostro tutorial fornisce una guida all'integrazione perfetta, assicurandoti di poter sfruttare facilmente i file DWFX nelle tue applicazioni.[Per saperne di più](./opening-and-accessing-dwfx-files/)
 
 ## Esplorazione dei flag di underlay dei file DWG
- Scopri le funzionalità nascoste dei file DWG con Aspose.CAD per .NET. Il nostro tutorial sull'esplorazione dei flag dell'underlay ti guiderà a sfruttare al massimo questo potente strumento. Segui la nostra guida passo passo per sbloccare nuove possibilità.[Per saperne di più](./exploring-underlay-flags-of-dwg/)
+ Scopri le funzionalità nascoste dei file DWG con Aspose.CAD per .NET. Il nostro tutorial sull'esplorazione dei flag dell'underlay ti guiderà a sfruttare al meglio questo potente strumento. Segui la nostra guida passo passo per sbloccare nuove possibilità.[Per saperne di più](./exploring-underlay-flags-of-dwg/)
 
 ## Aggiunta di testo ai file DWG in C# 
 Migliora i tuoi file DWG imparando come aggiungere testo utilizzando C# e Aspose.CAD. Il nostro tutorial completo fornisce una guida passo passo, garantendoti la possibilità di integrare perfettamente il testo nei tuoi progetti CAD. Esplora la documentazione Aspose.CAD per una guida completa.[Per saperne di più](./adding-text-to-dwg/)

@@ -101,7 +101,7 @@ En este tutorial, exploramos el proceso de habilitar la compatibilidad con malla
 
 R1: Sí, Aspose.CAD admite varios formatos CAD, incluidos DWG, DXF, DGN y más.
 
-### P2: ¿Dónde puedo encontrar documentación detallada de Aspose.CAD para Java?
+### P2: ¿Dónde puedo encontrar documentación detallada sobre Aspose.CAD para Java?
 
  A2: Puede consultar la documentación.[aquí](https://reference.aspose.com/cad/java/).
 

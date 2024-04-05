@@ -75,7 +75,7 @@ if (baseEntity.TypeName == CadEntityTypeName.DGNUNDERLAY)
 ## Schritt 6: Holen Sie sich den Unterlagepfad
 
 ```csharp
-// Wenn es sich um eine Bilddefinition handelt, rufen Sie die externe Referenz auf das Objekt ab
+// Wenn es sich um eine Bilddefinition handelt, rufen Sie den externen Verweis auf das Objekt ab
 CadDgnUnderlay dgnFile = (CadDgnUnderlay)baseEntity;
 Console.WriteLine(dgnFile.UnderlayPath);
 ```
@@ -105,7 +105,7 @@ cadImage.Save(outPath, exportOptions);
 
 ## Abschluss
 
-Glückwunsch! Sie haben den Prozess des Exportierens einer DGN-Datei als Teil einer DWG-Datei mit Aspose.CAD für .NET erfolgreich durchlaufen. Dieses Tutorial hat Ihnen die grundlegenden Schritte und Codeausschnitte vermittelt, mit denen Sie diese spezielle Aufgabe nahtlos erledigen können.
+Glückwunsch! Sie haben den Prozess des Exportierens einer DGN-Datei als Teil einer DWG-Datei mit Aspose.CAD für .NET erfolgreich durchlaufen. Dieses Tutorial hat Ihnen die grundlegenden Schritte und Codeausschnitte vermittelt, um diese spezielle Aufgabe nahtlos zu erledigen.
 
 ## FAQs
 

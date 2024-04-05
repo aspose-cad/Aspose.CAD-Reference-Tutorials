@@ -58,7 +58,7 @@ for(Object style : cadImage.getStyles())
 
 ### 第 3 步：保存更改
 
-替换字体后，请确保将更改保存到 DWG 文件中。
+替换字体后，确保将更改保存到 DWG 文件中。
 
 ```java
 cadImage.save(dataDir + "output.dwg", new DwgOptions());

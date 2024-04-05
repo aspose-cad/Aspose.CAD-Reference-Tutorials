@@ -71,7 +71,7 @@ Gerektiğinde ek işlemler veya görevler için bu adımları tekrarlayın.
 
 ## Çözüm
 
-Tebrikler! Aspose.CAD for Java ile ölçülü lisanslama konusunda başarılı bir şekilde uzmanlaştınız. Bu kılavuzu takip ederek, ölçülü lisanslamayı Java projenize sorunsuz bir şekilde kurup entegre ederek Aspose.CAD özelliklerinin verimli kullanımını sağladınız.
+Tebrikler! Aspose.CAD for Java ile ölçülü lisanslama konusunda başarılı bir şekilde uzmanlaştınız. Bu kılavuzu takip ederek, ölçülü lisanslamayı Java projenize sorunsuz bir şekilde kurup entegre ederek Aspose.CAD yeteneklerinin verimli kullanımını sağladınız.
 
 ## SSS'ler
 

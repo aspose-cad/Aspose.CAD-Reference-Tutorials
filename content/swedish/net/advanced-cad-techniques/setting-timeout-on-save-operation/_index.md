@@ -85,7 +85,7 @@ using (var its = new InterruptionTokenSource())
 ## Steg 5: Slutför och bekräfta
 
 ```csharp
-// Exempel: Slutföra och bekräfta
+// Exempel: Avsluta och bekräfta
 Console.WriteLine("PutTimeoutOnSave executed successfully");
 ```
 

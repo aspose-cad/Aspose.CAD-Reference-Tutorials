@@ -38,7 +38,7 @@ Aspose.CAD lisans dosyanızın yolunu ayarlayarak başlayın. Bu örnekte "c:\te
 string dataDir = @"c:\temp\";
 ```
 
-## Adım 2: Lisans Dosyasını FileStream'e yükleyin
+## Adım 2: Lisans Dosyasını FileStream'e Yükleme
 
  Sonra bir tane oluşturun`FileStream` Lisans dosyasını yüklemek için. Aşağıdaki kod bunun nasıl yapılacağını gösterir:
 ```csharp

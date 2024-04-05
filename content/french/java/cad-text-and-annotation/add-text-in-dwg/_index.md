@@ -65,7 +65,7 @@ cadText.setTextHeight(0.8);
 cadText.setScaleX(0);
 ```
 
-## Étape 4 : Ajouter du texte à CadImage
+## Étape 4 : ajouter du texte à CadImage
 
 ```java
 CadImage cadImage = ((CadImage)(image));

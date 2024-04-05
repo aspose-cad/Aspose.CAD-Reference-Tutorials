@@ -10,7 +10,7 @@ is_root: true
 
 ## introduzione
 
-Sblocca tutto il potenziale di Aspose.CAD per Java mentre ti guidiamo attraverso tutorial ed esempi completi, elevando le tue capacità di sviluppo CAD a nuovi livelli. Che tu sia un principiante o uno sviluppatore esperto, le nostre guide dettagliate coprono una serie di argomenti per consentirti di lavorare in modo efficiente con i file CAD.
+Sblocca tutto il potenziale di Aspose.CAD per Java mentre ti guidiamo attraverso tutorial ed esempi completi, elevando le tue capacità di sviluppo CAD a nuovi livelli. Che tu sia un principiante o uno sviluppatore esperto, le nostre guide dettagliate coprono una vasta gamma di argomenti per consentirti di lavorare in modo efficiente con i file CAD.
 
 ## Conversione di disegni CAD
 Trasforma i disegni CAD senza problemi con Aspose.CAD per Java. Tuffati nei nostri tutorial per imparare l'arte di convertire, esportare e ottimizzare i file CAD con precisione. Scopri i segreti di una conversione efficiente dei disegni CAD, garantendo che i tuoi progetti brillino.
@@ -40,7 +40,7 @@ Sblocca la potenza di Aspose.CAD per Java con i nostri tutorial! Impara a legger
 Sblocca Aspose.CAD per il potenziale di Java con i tutorial. Scopri la ricerca di testo, le linee nascoste, le entità MLeader e gli attributi MText per migliorare la tua app CAD. Scopri le sfumature del testo CAD e della formattazione per un prodotto finale raffinato.
 
 ## Caratteristiche aggiuntive
-Sblocca Aspose.CAD in Java con i tutorial. Aggiungi proprietà personalizzate, decomponi il CAD, abilita il tracciamento ed esporta DXF senza problemi. Migliora facilmente il tuo flusso di lavoro CAD con funzionalità aggiuntive che apportano versatilità ai tuoi progetti.
+Sblocca Aspose.CAD in Java con tutorial. Aggiungi proprietà personalizzate, decomponi il CAD, abilita il tracciamento ed esporta DXF senza problemi. Migliora facilmente il tuo flusso di lavoro CAD con funzionalità aggiuntive che apportano versatilità ai tuoi progetti.
 
 ## Opzioni di esportazione CAD
 Esporta facilmente immagini AutoCAD, layout CAD, IFC, file STL in PDF, BMP, PNG utilizzando Aspose.CAD per Java. Semplifica il tuo flusso di lavoro con i nostri tutorial passo passo. Esplora le opzioni di esportazione CAD e rendi i tuoi progetti più accessibili e condivisibili.

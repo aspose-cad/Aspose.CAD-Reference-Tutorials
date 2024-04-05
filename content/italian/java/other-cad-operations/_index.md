@@ -9,7 +9,7 @@ url: /it/java/other-cad-operations/
 ---
 ## introduzione
 
-Benvenuti nell'hub tutorial Aspose.CAD per Java, in cui sveliamo la potenza di questo strumento versatile, consentendo agli sviluppatori Java di migliorare le proprie competenze CAD. Dalla gestione di complessi elementi DGN all'aggiunta di un tocco personale con le filigrane, le nostre guide dettagliate garantiscono un processo di integrazione senza soluzione di continuità. Partiamo per un viaggio per sbloccare tutto il potenziale di Aspose.CAD per Java.
+Benvenuti nell'hub tutorial Aspose.CAD per Java, dove sveliamo la potenza di questo strumento versatile, consentendo agli sviluppatori Java di migliorare le proprie competenze CAD. Dalla gestione di complessi elementi DGN all'aggiunta di un tocco personale con le filigrane, le nostre guide dettagliate garantiscono un processo di integrazione senza soluzione di continuità. Partiamo per un viaggio per sbloccare tutto il potenziale di Aspose.CAD per Java.
 
 ## Elementi DGN supportati: gestione semplice
 

@@ -16,7 +16,7 @@ Im Bereich CAD (Computer-Aided Design) sind Präzision und Nachverfolgung von gr
 Bevor Sie mit dem Tutorial beginnen, stellen Sie sicher, dass die folgenden Voraussetzungen erfüllt sind:
 -  Aspose.CAD für .NET: Stellen Sie sicher, dass Sie die Aspose.CAD-Bibliothek installiert haben. Sie können es herunterladen[Hier](https://releases.aspose.com/cad/net/).
 - Dokumentdatei: Halten Sie ein CAD-Dokument zur Nachverfolgung bereit. Für dieses Tutorial verwenden wir „conic_pyramid.dxf“.
-- Dokumentenverzeichnis: Richten Sie ein Verzeichnis für Ihre Dokumente ein. Ersetzen Sie „Ihr Dokumentverzeichnis“ im Code durch den tatsächlichen Pfad.
+- Dokumentenverzeichnis: Richten Sie ein Verzeichnis für Ihre Dokumente ein. Ersetzen Sie „Ihr Dokumentenverzeichnis“ im Code durch den tatsächlichen Pfad.
 Nachdem Sie nun alles eingerichtet haben, schauen wir uns die Schritt-für-Schritt-Anleitung an.
 
 ## Namespaces importieren

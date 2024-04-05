@@ -9,7 +9,7 @@ url: /es/net/cad-drawing-manipulation/convert-cad-drawing-to-raster-image/
 ---
 ## Introducción
 
-En el panorama en constante evolución del diseño asistido por computadora (CAD), la necesidad de convertir sin problemas dibujos CAD en imágenes rasterizadas es primordial. Esta guía paso a paso explora cómo lograr esto utilizando la potente biblioteca Aspose.CAD para .NET. Aspose.CAD simplifica el proceso y proporciona a los desarrolladores un sólido conjunto de herramientas para mejorar sus flujos de trabajo relacionados con CAD.
+En el panorama en constante evolución del diseño asistido por computadora (CAD), la necesidad de convertir sin problemas dibujos CAD en imágenes rasterizadas es primordial. Esta guía paso a paso explora cómo lograr esto utilizando la poderosa biblioteca Aspose.CAD para .NET. Aspose.CAD simplifica el proceso y proporciona a los desarrolladores un sólido conjunto de herramientas para mejorar sus flujos de trabajo relacionados con CAD.
 
 ## Requisitos previos
 

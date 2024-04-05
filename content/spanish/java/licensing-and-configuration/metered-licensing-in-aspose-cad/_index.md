@@ -79,7 +79,7 @@ Repita estos pasos para cualquier procesamiento o tarea adicional según sea nec
 
  R1: Sí, puede obtener una licencia de prueba gratuita[aquí](https://releases.aspose.com/).
 
-### P2: ¿Dónde puedo encontrar documentación detallada de Aspose.CAD para Java?
+### P2: ¿Dónde puedo encontrar documentación detallada sobre Aspose.CAD para Java?
 
  A2: consulte la documentación[aquí](https://reference.aspose.com/cad/java/).
 

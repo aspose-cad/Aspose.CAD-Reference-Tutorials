@@ -39,7 +39,7 @@ final String SourceDir = Utils.getDataDir_DWGDrawings();
 final String OutputDir = Utils.getDataDir_Output();
 ```
 
-Assurez-vous de disposer des répertoires source et de sortie corrects pour vos dessins CAO.
+Assurez-vous que vous disposez des répertoires source et de sortie corrects pour vos dessins CAO.
 
 ## Étape 2 : Créer une source de jeton d'interruption
 

@@ -16,7 +16,7 @@ Bienvenue dans ce didacticiel complet sur l'exportation de fichiers DGN (Design)
 Avant de plonger dans le didacticiel, assurez-vous que les conditions préalables suivantes sont remplies :
 1.  Bibliothèque Aspose.CAD : assurez-vous que la bibliothèque Aspose.CAD pour Java est installée. Vous pouvez le télécharger[ici](https://releases.aspose.com/cad/java/).
 2. Kit de développement Java (JDK) : assurez-vous que Java est installé sur votre ordinateur.
-3. Environnement de développement intégré (IDE) : utilisez un IDE compatible Java comme IntelliJ ou Eclipse.
+3. Environnement de développement intégré (IDE) : utilisez un IDE compatible Java comme IntelliJ ou Eclipse.
 
 ## Importer des packages
 
@@ -90,4 +90,4 @@ A1 : Oui, Aspose.CAD prend en charge différents formats de CAO, offrant ainsi u
 
 ### Q5 : Où puis-je acheter une licence pour Aspose.CAD pour Java ?
 
- A5 : Vous pouvez acheter une licence[ici](https://purchase.aspose.com/buy).
+ A5 : Vous pouvez acheter une licence[ici](https://purchase.aspose.com/buy).

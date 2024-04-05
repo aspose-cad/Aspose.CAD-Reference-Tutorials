@@ -92,7 +92,7 @@ A1 : Oui, Aspose.CAD prend en charge différents formats de CAO, offrant ainsi u
 
 ### Q2 : Comment puis-je obtenir une licence temporaire pour Aspose.CAD pour Java ?
 
- A2 : Visite[ici](https://purchase.aspose.com/temporary-license/) pour obtenir une licence temporaire d'évaluation.
+ A2 : Visite[ici](https://purchase.aspose.com/temporary-license/) pour obtenir une licence temporaire d'évaluation.
 
 ### Q3 : Existe-t-il des options de mise en page pour la rastérisation ?
 

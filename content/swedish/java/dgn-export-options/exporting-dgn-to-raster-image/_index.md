@@ -78,7 +78,7 @@ S1: Ja, Aspose.CAD stöder olika CAD-format, vilket ger en mångsidig lösning f
 
 ### F2: Finns det en gratis testversion tillgänglig för Aspose.CAD för Java?
 
- A2: Ja, du kan få tillgång till en gratis provperiod[här](https://releases.aspose.com/).
+ S2: Ja, du kan få tillgång till en gratis provperiod[här](https://releases.aspose.com/).
 
 ### F3: Var kan jag hitta dokumentation för Aspose.CAD för Java?
 

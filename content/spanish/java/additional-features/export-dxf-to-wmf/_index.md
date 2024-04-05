@@ -106,6 +106,6 @@ R3: Sí, puedes obtener una prueba gratuita[aquí](https://releases.aspose.com/)
 
  A4: Explore las licencias temporales[aquí](https://purchase.aspose.com/temporary-license/).
 
-### P5: ¿Dónde puedo obtener asistencia?
+### P5: ¿Dónde puedo obtener soporte?
 
  R5: Visite el foro de soporte de Aspose.CAD[aquí](https://forum.aspose.com/c/cad/19).

@@ -21,7 +21,7 @@ Innan vi börjar, se till att du har följande förutsättningar på plats:
 
 ## Importera namnområden
 
-Importera de nödvändiga namnrymden i ditt Java-projekt enligt nedan:
+I ditt Java-projekt, importera de nödvändiga namnrymden enligt nedan:
 
 ```java
 import com.aspose.cad.Image;
@@ -85,7 +85,7 @@ Grattis! Du har framgångsrikt konverterat en IFC-fil till PNG med Aspose.CAD f�
 
 ### F3: Finns det en testversion tillgänglig?
 
-S3: Ja, du kan komma åt den kostnadsfria testversionen[här](https://releases.aspose.com/).
+A3: Ja, du kan komma åt den kostnadsfria testversionen[här](https://releases.aspose.com/).
 
 ### F4: Hur kan jag få tillfällig licens för Aspose.CAD?
 

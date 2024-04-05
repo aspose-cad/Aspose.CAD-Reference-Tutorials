@@ -107,6 +107,6 @@ Cevap2: Evet, Aspose.CAD, DWG, DXF, DWF ve daha fazlası dahil olmak üzere çe�
 
  A4: Ziyaret edin[dokümantasyon](https://reference.aspose.com/cad/net/) derinlemesine bilgi için.
 
-### S5: Ücretsiz deneme sürümü mevcut mu?
+### S5: Ücretsiz deneme sürümü var mı?
 
  C5: Evet, ücretsiz deneme sürümüne erişebilirsiniz[Burada](https://releases.aspose.com/).

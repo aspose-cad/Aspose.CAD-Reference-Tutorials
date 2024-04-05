@@ -14,7 +14,7 @@ Dans le paysage en constante évolution de la conception numérique, la nécessi
 ## Conditions préalables
 
 Avant de plonger dans le didacticiel, assurez-vous d'avoir les prérequis suivants :
-1.  Kit de développement Java (JDK) : Aspose.CAD pour Java nécessite un JDK compatible installé sur votre système. Vous pouvez télécharger le dernier JDK depuis[Le site d'Oracle](https://www.oracle.com/java/technologies/javase-downloads.html).
+1.  Kit de développement Java (JDK) : Aspose.CAD pour Java nécessite un JDK compatible installé sur votre système. Vous pouvez télécharger le dernier JDK depuis[Le site Web d'Oracle](https://www.oracle.com/java/technologies/javase-downloads.html).
 2.  Bibliothèque Aspose.CAD pour Java : Téléchargez et installez la bibliothèque Aspose.CAD pour Java à partir du[Page de téléchargement d'Aspose.CAD](https://releases.aspose.com/cad/java/).
 3. Environnement de développement intégré (IDE) : choisissez un IDE de votre préférence pour le développement Java, tel qu'IntelliJ IDEA ou Eclipse.
 

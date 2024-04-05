@@ -37,7 +37,7 @@ import com.aspose.cad.imageoptions.PdfOptions;
 
 现在，让我们将使用 Aspose.CAD for Java 从 DWG 文件读取 XREF 元数据的过程分解为可管理的步骤。
 
-## 步骤一：定义资源目录
+## 第 1 步：定义资源目录
 
 ```java
 //资源目录的路径。

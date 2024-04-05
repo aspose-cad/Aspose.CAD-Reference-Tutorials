@@ -30,7 +30,7 @@ Domine el arte de exportar diseños específicos a PDF con Aspose.CAD para .NET.
 
 ## Exportar dibujos CAD a PDF
 
-Exporte eficientemente dibujos CAD a PDF usando Aspose.CAD para .NET. Siga nuestra guía fácil de usar, diseñada para simplificar el proceso de conversión. Mejore su desarrollo CAD con un conjunto de herramientas potente y confiable.
+Exporte eficientemente dibujos CAD a PDF usando Aspose.CAD para .NET. Siga nuestra guía fácil de usar, diseñada para simplificar el proceso de conversión. Mejore su desarrollo CAD con un conjunto de herramientas potente y fiable.
 
 ## Exportación de dibujos CAD a formato SVG
 
@@ -41,7 +41,7 @@ En conclusión, nuestros tutoriales de Aspose.CAD ofrecen una puerta de entrada 
 ### [Exportación de formato DWG a DXF en C# - Tutorial de Aspose.CAD](./exporting-dwg-to-dxf/)
 Desbloquee la manipulación de archivos CAD en C# con Aspose.CAD. Aprenda a exportar DWG a DXF sin esfuerzo. Siga nuestra guía paso a paso para una integración perfecta.
 ### [Exportación de DWG a PDF o imágenes rasterizadas - Guía Aspose.CAD](./exporting-dwg-to-pdf-or-raster-images/)
-Explore una guía completa sobre cómo exportar DWG a PDF o imágenes rasterizadas usando Aspose.CAD para .NET. Conozca los pasos, los requisitos previos y practique esta potente biblioteca.
+Explore una guía completa sobre cómo exportar DWG a PDF o imágenes rasterizadas usando Aspose.CAD para .NET. Conozca los pasos, los requisitos previos y practique esta poderosa biblioteca.
 ### [Exportación de objetos OLE desde archivos DWG - Tutorial de Aspose.CAD](./exporting-ole-objects-from-dwg/)
 Explore la guía paso a paso sobre cómo exportar objetos OLE desde archivos DWG usando Aspose.CAD para .NET. Mejore sus habilidades de manipulación de archivos CAD sin esfuerzo.
 ### [Exportación de diseños específicos a PDF - Guía Aspose.CAD](./exporting-specific-layouts-to-pdf/)

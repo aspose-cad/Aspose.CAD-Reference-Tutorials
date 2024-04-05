@@ -69,7 +69,7 @@ S1: Ja, Aspose.CAD stöder olika CAD-format, inklusive DWG och DWF.
 
 ### F2: Finns det en testversion tillgänglig?
 
- A2: Ja, du kan få tillgång till en gratis provperiod[här](https://releases.aspose.com/).
+ S2: Ja, du kan få tillgång till en gratis provperiod[här](https://releases.aspose.com/).
 
 ### F3: Hur kan jag få tillfällig licensiering?
 

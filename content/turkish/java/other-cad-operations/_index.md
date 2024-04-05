@@ -29,7 +29,7 @@ Aspose.CAD for Java eğitim merkezi, temel bilgilerin ötesine geçerek CAD dene
 
 ## Ücretsiz Bakış Açısı - CAD İşleme Özgürlüğünü Ortaya Çıkarın
 
-Aspose.CAD for Java ile CAD çizimlerinde özgür bakış açısı oluşturma özgürlüğünü keşfedin. Eğitmenimiz bu özelliğin gücünü keşfederek geleneksel bakış açılarından kurtulmanıza ve tasarımlarınızda yeni boyutlar keşfetmenize olanak tanır.
+Aspose.CAD for Java ile CAD çizimlerinde özgür bakış açısı oluşturma özgürlüğünü keşfedin. Eğitimimiz, geleneksel bakış açılarından kurtulmanıza ve tasarımlarınızda yeni boyutları keşfetmenize olanak tanıyan bu özelliğin gücünü araştırıyor.
 
 ## Kaydetmeye Zaman Aşımı Getirin - Uygulamanızın Performansını Artırın
 
@@ -56,7 +56,7 @@ Aspose.CAD for Java'yı kullanarak CAD çizimlerinizi kişiselleştirilmiş fili
 ### [Ücretsiz Bakış Açısı - Java Eğitimi için Aspose.CAD](./free-point-of-view/)
 CAD çizimleri için ücretsiz bakış açısı oluşturmayı sağlayan bu eğitimde Aspose.CAD for Java'nın gücünü keşfedin. Aspose.CAD'in potansiyelini ortaya çıkarın.
 ### [Kaydetmeye Zaman Aşımı Getir - Java Eğitimi için Aspose.CAD](./put-timeout-on-save/)
-Aspose.CAD ile Java uygulamanızın performansını nasıl artıracağınızı öğrenin. CAD çizimlerini kaydetmeye zaman aşımı koyun. Adım adım kılavuzumuzu takip edin.
+Aspose.CAD ile Java uygulamanızın performansını nasıl artıracağınızı öğrenin. CAD çizimleri için kaydetme işlemine zaman aşımı koyun. Adım adım kılavuzumuzu takip edin.
 ### [Farklı Düzenlere Sahip Tek PDF - Aspose.CAD for Java Eğitimi](./single-pdf-different-layouts/)
 Aspose.CAD for Java'yı kullanarak CAD çizimlerinden çeşitli düzenlerle etkileyici PDF'ler oluşturun. Java geliştiricileri için kolay entegrasyon ve güçlü özellikler.
 ### [Köprüyü Düzenle - Java Eğitimi için Aspose.CAD](./edit-hyperlink/)

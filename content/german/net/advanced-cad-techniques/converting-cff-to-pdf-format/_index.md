@@ -73,7 +73,7 @@ Mit nur wenigen Codezeilen haben Sie mit Aspose.CAD für .NET erfolgreich eine C
 
 A1: Ja, Aspose.CAD unterstützt .NET Core, sodass Sie dessen Funktionen in plattformübergreifende Anwendungen integrieren können.
 
-### F2: Kann ich Aspose.CAD vor dem Kauf ausprobieren?
+### F2: Kann ich Aspose.CAD vor dem Kauf testen?
 
  A2: Auf jeden Fall! Sie können eine bekommen[Kostenlose Testversion hier](https://releases.aspose.com/) um die Möglichkeiten von Aspose.CAD zu erkunden.
 

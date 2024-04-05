@@ -105,7 +105,7 @@ S2: Aspose.CAD för .NET är designat för att effektivt hantera ritningar av va
 
 ### F4: Finns det en testversion tillgänglig för Aspose.CAD för .NET?
 
- A4: Ja, du kan utforska funktionerna med[gratis testversion](https://releases.aspose.com/).
+ S4: Ja, du kan utforska funktionerna med[gratis testversion](https://releases.aspose.com/).
 
 ### F5: Var kan jag söka hjälp om jag stöter på problem under processen?
 

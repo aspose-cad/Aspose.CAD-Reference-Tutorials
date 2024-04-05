@@ -59,7 +59,7 @@ for (CadLayout layout : layouts.getValues()) {
 }
 ```
 
-Repita estos pasos y enumerará con éxito todos los diseños en su dibujo de AutoCAD usando Aspose.CAD para Java.
+Repita estos pasos y enumerará con éxito todos los diseños en su dibujo de AutoCAD utilizando Aspose.CAD para Java.
 
 ## Conclusión
 

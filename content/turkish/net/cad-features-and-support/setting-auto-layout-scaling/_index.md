@@ -7,7 +7,7 @@ type: docs
 weight: 14
 url: /tr/net/cad-features-and-support/setting-auto-layout-scaling/
 ---
-.NET geliştirmenin dinamik alanında, Bilgisayar Destekli Tasarım (CAD) dosyalarının işlenmesini optimize etmek, verimli ve görsel olarak çekici uygulamalar yaratmanın çok önemli bir yönüdür. Aspose.CAD for .NET, geliştiricilerin CAD işleme yeteneklerini geliştirmelerine olanak sağlar ve bu eğitimde Aspose.CAD for .NET kullanarak Otomatik Yerleşim Ölçeklendirmeyi ayarlamaya odaklanacağız.
+.NET geliştirmenin dinamik alanında, Bilgisayar Destekli Tasarım (CAD) dosyalarının işlenmesini optimize etmek, verimli ve görsel olarak çekici uygulamalar yaratmanın çok önemli bir yönüdür. Aspose.CAD for .NET, geliştiricilerin CAD işleme yeteneklerini geliştirmelerine yardımcı olur ve bu eğitimde Aspose.CAD for .NET kullanarak Otomatik Yerleşim Ölçeklendirmeyi ayarlamaya odaklanacağız.
 
 ## Önkoşullar
 

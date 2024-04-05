@@ -13,7 +13,7 @@ is_root: true
 
 ## Aspose.CAD for .NET 教程
 {{% alert color="primary" %}}
-借助 Aspose.CAD for .NET 教程踏上卓越图形设计之旅。该精选集专为寻求在 .NET 框架内充分利用 Aspose.CAD 潜力的开发人员量身定制。我们的教程提供富有洞察力的指导、分步说明和实际示例，使您能够将 Aspose.CAD 无缝集成到您的 .NET 应用程序中。无论您是要增强 CAD 功能还是深入研究复杂的图形设计，这些教程都是您在 .NET 开发的动态世界中掌握 Aspose.CAD 功能的指南针。
+借助 Aspose.CAD for .NET 教程踏上卓越图形设计之旅。该精选集专为寻求在 .NET 框架内充分利用 Aspose.CAD 潜力的开发人员量身定制。我们的教程提供了富有洞察力的指导、分步说明和实际示例，使您能够将 Aspose.CAD 无缝集成到您的 .NET 应用程序中。无论您是要增强 CAD 功能还是深入研究复杂的图形设计，这些教程都是您在 .NET 开发的动态世界中掌握 Aspose.CAD 功能的指南针。
 {{% /alert %}}
 
 这些是一些有用资源的链接：
@@ -40,7 +40,7 @@ is_root: true
 - [导出为图像格式](./net/exporting-to-image-formats/)
 - [3D模型支持](./net/3d-model-support/)
 - [导出 PLT 文件](./net/exporting-plt-files/)
-- [STL文件导出](./net/stl-file-export/)
+- [STL 文件导出](./net/stl-file-export/)
 
 
 ## Aspose.CAD Java 教程

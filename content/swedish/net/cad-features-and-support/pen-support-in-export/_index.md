@@ -94,7 +94,7 @@ cadImage.Save(MyDir + "9LHATT-A56_generated.pdf", pdfOptions);
 
 ## Slutsats
 
-I den här handledningen har vi utforskat funktionen för pennstöd i export av Aspose.CAD för .NET. Genom att följa den steg-för-steg-guiden kan du enkelt anpassa start- och slutkapslingsinställningarna för pennor, vilket ökar flexibiliteten i dina CAD-bildexporter.
+I den här handledningen har vi utforskat pennstödet vid export av Aspose.CAD för .NET. Genom att följa den steg-för-steg-guiden kan du enkelt anpassa start- och slutkapslingsinställningarna för pennor, vilket ökar flexibiliteten i dina CAD-bildexporter.
 
 Experimentera gärna med olika pennalternativ för att uppnå önskade visuella effekter i dina exporterade bilder.
 

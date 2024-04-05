@@ -80,7 +80,7 @@ I den här handledningen utforskade vi steg-för-steg-processen för att exporte
 
 S1: Ja, Aspose.CAD stöder ett brett utbud av CAD-format, vilket säkerställer kompatibilitet med olika designprogram.
 
-### F2: Kan jag anpassa PDF-utdatainställningarna?
+### F2: Kan jag anpassa inställningarna för PDF-utdata?
 
 A2: Absolut. Handledningen ger en glimt av anpassningsalternativen, men du kan utforska vidare för att skräddarsy resultatet efter dina behov.
 

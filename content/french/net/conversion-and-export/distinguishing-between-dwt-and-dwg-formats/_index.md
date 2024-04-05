@@ -9,7 +9,7 @@ url: /fr/net/conversion-and-export/distinguishing-between-dwt-and-dwg-formats/
 ---
 ## Introduction
 
-Dans le domaine de la conception assistée par ordinateur (CAO), la compréhension des formats de fichiers est cruciale pour une collaboration transparente et des flux de travail efficaces. Deux formats courants, DWT et DWG, prêtent souvent à confusion en raison de leurs similitudes. Ce tutoriel vise à démystifier ces formats à l'aide d'Aspose.CAD pour .NET, une puissante bibliothèque de manipulation de fichiers CAO.
+Dans le domaine de la conception assistée par ordinateur (CAO), la compréhension des formats de fichiers est cruciale pour une collaboration transparente et des flux de travail efficaces. Deux formats courants, DWT et DWG, prêtent souvent à confusion en raison de leurs similitudes. Ce tutoriel vise à démystifier ces formats à l'aide d'Aspose.CAD for .NET, une puissante bibliothèque de manipulation de fichiers CAO.
 
 ## Conditions préalables
 

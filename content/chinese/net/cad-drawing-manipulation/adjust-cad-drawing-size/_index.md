@@ -9,7 +9,7 @@ url: /zh/net/cad-drawing-manipulation/adjust-cad-drawing-size/
 ---
 ## 介绍
 
-您是否希望在 .NET 应用程序中无缝调整 CAD 绘图的尺寸？ Aspose.CAD for .NET 提供了强大的解决方案，使您可以轻松处理 CAD 绘图大小调整。在本教程中，我们将引导您完成整个过程，分解每个步骤，以确保您掌握使用 Aspose.CAD 调整 CAD 绘图大小的复杂性。
+您是否希望在 .NET 应用程序中无缝调整 CAD 绘图的尺寸？ Aspose.CAD for .NET 提供了强大的解决方案，使您可以轻松处理 CAD 绘图大小调整。在本教程中，我们将指导您完成整个过程，分解每个步骤，以确保您掌握使用 Aspose.CAD 调整 CAD 绘图大小的复杂性。
 
 ## 先决条件
 

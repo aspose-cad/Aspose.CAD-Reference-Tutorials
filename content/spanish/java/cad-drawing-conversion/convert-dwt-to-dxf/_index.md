@@ -71,7 +71,7 @@ Repita estos pasos según sea necesario para el procesamiento por lotes o para i
 
 ## Conclusión
 
-¡Felicidades! Ha convertido con éxito un dibujo DWT al formato DXF utilizando Aspose.CAD para Java. Esta poderosa biblioteca simplifica la manipulación de archivos CAD y brinda a los desarrolladores herramientas eficientes para sus proyectos Java.
+¡Felicidades! Ha convertido con éxito un dibujo DWT al formato DXF usando Aspose.CAD para Java. Esta poderosa biblioteca simplifica la manipulación de archivos CAD y brinda a los desarrolladores herramientas eficientes para sus proyectos Java.
 
 ## Preguntas frecuentes
 

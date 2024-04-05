@@ -26,7 +26,7 @@ OLE nesnelerini DWG dosyalarından dışa aktarmayı öğrenerek CAD dosyası i�
 
 ## Belirli Düzenleri PDF'ye Aktarma
 
-Aspose.CAD for .NET ile belirli düzenleri PDF'ye aktarma sanatında ustalaşın. Adım adım kılavuzumuz kusursuz entegrasyon sağlayarak CAD projelerinizi verimli bir şekilde özelleştirmenize olanak tanır. Karmaşıklıklara elveda, kesinliğe merhaba deyin.
+Aspose.CAD for .NET ile belirli düzenleri PDF'ye aktarma sanatında ustalaşın. Adım adım kılavuzumuz kusursuz entegrasyon sağlayarak CAD projelerinizi verimli bir şekilde özelleştirmenize olanak sağlar. Karmaşıklıklara elveda, kesinliğe merhaba deyin.
 
 ## CAD Çizimlerini PDF'ye Aktarma
 

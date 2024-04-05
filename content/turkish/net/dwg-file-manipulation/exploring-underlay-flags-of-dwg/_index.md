@@ -111,6 +111,6 @@ Cevap1: Aspose.CAD, DWG, DXF, DGN ve daha fazlası dahil olmak üzere çeşitli 
 
 Cevap4: Kütüphaneyi satın alın[Burada](https://purchase.aspose.com/buy).
 
-### S5: Ücretsiz deneme sürümü mevcut mu?
+### S5: Ücretsiz deneme sürümü var mı?
 
  C5: Evet, ücretsiz deneme sürümüne erişebilirsiniz[Burada](https://releases.aspose.com/).

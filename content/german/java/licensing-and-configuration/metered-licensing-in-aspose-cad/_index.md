@@ -9,7 +9,7 @@ url: /de/java/licensing-and-configuration/metered-licensing-in-aspose-cad/
 ---
 ## Einführung
 
-Schöpfen Sie das volle Potenzial von Aspose.CAD für Java mit getakteter Lizenzierung aus! Diese Schritt-für-Schritt-Anleitung führt Sie durch den Prozess der Einrichtung einer gebührenpflichtigen Lizenzierung und gewährleistet eine nahtlose Integration und optimale Nutzung dieser leistungsstarken Java-Bibliothek für Computer-Aided Design (CAD). Von den Voraussetzungen über das Importieren von Paketen bis hin zum Ausführen von Beispielen deckt dieses Tutorial alles ab.
+Schöpfen Sie das volle Potenzial von Aspose.CAD für Java mit getakteter Lizenzierung aus! Diese Schritt-für-Schritt-Anleitung führt Sie durch den Prozess der Einrichtung einer gebührenpflichtigen Lizenzierung und gewährleistet eine nahtlose Integration und optimale Nutzung dieser leistungsstarken Java-Bibliothek für computergestütztes Design (CAD). Von den Voraussetzungen über das Importieren von Paketen bis hin zum Ausführen von Beispielen deckt dieses Tutorial alles ab.
 
 ## Voraussetzungen
 
@@ -50,7 +50,7 @@ System.out.println("Consumption quantity before processing: " + quantityOld);
 
 ## Schritt 3: Verarbeitung
 
-Führen Sie Ihre gewünschte CAD-Bearbeitung mit den Aspose.CAD-Funktionalitäten durch. Kommentieren Sie den Codeausschnitt aus, der sich auf Ihre spezifische Aufgabe bezieht, z. B. das Laden eines CAD-Bilds.
+Führen Sie Ihre gewünschte CAD-Bearbeitung mit den Aspose.CAD-Funktionalitäten durch. Kommentieren Sie den Codeausschnitt aus, der sich auf Ihre spezifische Aufgabe bezieht, z. B. das Laden eines CAD-Bildes.
 
 ```java
 // Beispiel:

@@ -17,7 +17,7 @@ CAD geliştirme becerilerinizi yükseltmeye hazır mısınız? Aspose.CAD for Ja
 
 XREF meta verilerini anlamak ve çıkarmak, herhangi bir CAD geliştiricisi için çok önemli bir beceridir. Aspose.CAD for Java bu süreci basitleştirerek bu konuda zahmetsizce uzmanlaşmanıza olanak tanır. DWG dosyalarından XREF meta verilerini okumanın inceliklerini keşfetmek için adım adım eğitimimizi izleyin. Aspose.CAD for Java'nın nüansları hakkında bilgi sahibi olacak ve CAD projelerinizi güvenle geliştirmenize olanak tanıyacaksınız.
 
-CAD geliştirme karmaşık olabilir, ancak eğitimimizle, XREF meta verilerini okumanın özünü kavrayarak karmaşıklıkların arasında gezineceksiniz. Eğitim, bu bilgiyi doğrudan projelerinize uygulamanız için size sağlam bir temel sağlayacak şekilde net bir şekilde tasarlanmıştır.
+CAD geliştirme karmaşık olabilir, ancak eğitimimizle, XREF meta verilerini okumanın özünü kavrayacağınızdan emin olarak, karmaşıklıklar arasında gezineceksiniz. Eğitim, bu bilgiyi doğrudan projelerinize uygulamanız için size sağlam bir temel sağlayacak şekilde net bir şekilde tasarlanmıştır.
 
 ## DWG Belgesini Görüntüye Oluşturma
 

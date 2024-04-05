@@ -94,7 +94,7 @@ cadImageText.save(file.getName() + "_text.dxf");
 
 ### Вопрос 2: Где я могу найти документацию Aspose.CAD?
 
- A2: документация доступна.[здесь](https://reference.aspose.com/cad/java/).
+ A2: документация доступна[здесь](https://reference.aspose.com/cad/java/).
 
 ### Вопрос 3: Как мне получить поддержку Aspose.CAD?
 

@@ -69,7 +69,7 @@ if (entity is CadInsertObject)
 }
 ```
 
-## Шаг 4. Измените гиперссылки
+## Шаг 4. Измените гиперссылки
 
 ```csharp
 if (entity.Hyperlink == "https://продукты.aspose.com")

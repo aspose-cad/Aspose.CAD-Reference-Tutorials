@@ -97,7 +97,7 @@ float zAngle = 40; //Угол поворота по оси Z
 ((CadRasterizationOptions)(options.VectorRasterizationOptions)).ObserverPoint = new ObserverPoint(xAngle, yAngle, zAngle);
 ```
 
-Укажите углы поворота по осям X, Y и Z для достижения желаемой точки зрения.
+Укажите углы поворота по осям X, Y и Z для достижения желаемой точки обзора.
 
 ## Шаг 7. Сохраните обработанный чертеж САПР.
 

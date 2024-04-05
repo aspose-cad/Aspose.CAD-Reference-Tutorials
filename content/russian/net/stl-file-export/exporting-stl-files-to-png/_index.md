@@ -24,7 +24,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 ```
-## Шаг 1. Определите каталог и путь к исходному файлу.
+## Шаг 1. Определите каталог и путь к исходному файлу
 ```csharp
 string MyDir = "Your Document Directory";
 string sourceFilePath = MyDir + "galeon.stl";
