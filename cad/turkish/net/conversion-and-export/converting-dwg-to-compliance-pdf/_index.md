@@ -3,10 +3,16 @@ title: DWG'yi Uyumluluk PDF'sine Dönüştürme - Aspose.CAD Eğitimi
 linktitle: DWG'yi Uyumluluk PDF'sine Dönüştürme
 second_title: Aspose.CAD .NET - CAD ve BIM Dosya Formatı
 description: Aspose.CAD for .NET ile DWG'yi Uyumluluk PDF'sine dönüştürün. Adım adım rehberlik için eğitimimizi takip edin.
-type: docs
 weight: 13
 url: /tr/net/conversion-and-export/converting-dwg-to-compliance-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# DWG'yi Uyumluluk PDF'sine Dönüştürme - Aspose.CAD Eğitimi
+
 ## giriiş
 
 Aspose.CAD for .NET kullanarak DWG dosyalarını Uyumluluk PDF'sine dönüştürme hakkındaki adım adım eğitimimize hoş geldiniz. Aspose.CAD, geliştiricilerin CAD dosya formatlarıyla zahmetsizce çalışmasını sağlayan güçlü bir .NET API'sidir. Bu eğitimde, ayrıntılı örnekler ve açıklamalarla bir DWG dosyasını Uyumluluk PDF'sine dönüştürme sürecinde size rehberlik edeceğiz.
@@ -113,3 +119,9 @@ Cevap2: Evet, Aspose.CAD hem .NET Framework hem de .NET Core ile uyumludur.
 ### S5: Aspose.CAD için nereden destek alabilirim?
 
 A5: ziyaret edin[Aspose.CAD forumu](https://forum.aspose.com/c/cad/19) Destekle ilgili tüm sorularınız için.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

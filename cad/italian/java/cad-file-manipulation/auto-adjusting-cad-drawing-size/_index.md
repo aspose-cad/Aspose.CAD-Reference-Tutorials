@@ -3,10 +3,16 @@ title: Regolazione automatica delle dimensioni del disegno CAD utilizzando Aspos
 linktitle: Regolazione automatica delle dimensioni del disegno CAD
 second_title: API Java Aspose.CAD
 description: Esplora il processo continuo di regolazione automatica delle dimensioni dei disegni CAD in Java utilizzando Aspose.CAD. Segui la nostra guida passo passo per una manipolazione efficiente dei file CAD.
-type: docs
 weight: 13
 url: /it/java/cad-file-manipulation/auto-adjusting-cad-drawing-size/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Regolazione automatica delle dimensioni del disegno CAD utilizzando Aspose.CAD per Java
+
 ## introduzione
 
 Nel mondo del CAD (Computer-Aided Design), la regolazione delle dimensioni del disegno è un requisito comune e con Aspose.CAD per Java diventa un processo senza interruzioni. Questa potente libreria fornisce strumenti completi per la gestione dei file CAD nelle applicazioni Java. In questo tutorial, esploreremo il processo passo passo di regolazione automatica delle dimensioni del disegno CAD utilizzando Aspose.CAD.
@@ -107,3 +113,9 @@ A1: Sì, Aspose.CAD supporta vari formati CAD, inclusi DWG, DXF, DGN e altri.
 ### Q5: È disponibile una prova gratuita per Aspose.CAD per Java?
 
  R5: Sì, puoi accedere alla prova gratuita[Qui](https://releases.aspose.com/) per esplorare le capacità della biblioteca.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

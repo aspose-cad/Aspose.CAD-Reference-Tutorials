@@ -3,10 +3,16 @@ title: 추적 및 렌더링
 linktitle: 추적 및 렌더링
 second_title: Aspose.CAD .NET - CAD 및 BIM 파일 형식
 description: 튜토리얼을 통해 .NET용 Aspose.CAD의 강력한 기능을 활용해 보세요. CAD 파일에서 추적을 활성화하고 DXF 파일을 PDF로 원활하게 렌더링하는 방법을 알아보세요.
-type: docs
 weight: 31
 url: /ko/net/tracking-and-rendering/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 추적 및 렌더링
+
 
 ## 소개
 
@@ -30,3 +36,9 @@ CAD 영역에서 DXF 파일을 PDF로 렌더링하는 것은 미지의 영역을
 .NET용 Aspose.CAD를 사용한 마스터 CAD 파일 추적. 정확한 렌더링 및 오류 추적을 위한 단계별 가이드를 따르세요. 지금 다운로드하세요!
 ### [DXF 파일을 PDF로 렌더링 - Aspose.CAD 가이드](./rendering-dxf-files-as-pdf/)
 .NET용 Aspose.CAD를 사용하여 DXF 파일을 PDF로 렌더링하는 방법에 대한 최종 가이드를 살펴보세요. 단계별 튜토리얼을 통해 CAD 파일을 쉽게 변환하세요.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

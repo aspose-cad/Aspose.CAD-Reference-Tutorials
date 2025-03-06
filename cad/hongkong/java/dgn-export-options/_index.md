@@ -3,10 +3,16 @@ title: DGN 匯出教程
 linktitle: DGN 匯出教程
 second_title: Aspose.CAD Java API
 description: 透過我們的 DGN 匯出教學釋放 Aspose.CAD for Java 的強大功能。學習高效的 CAD 檔案操作，從將 DGN 作為 DWG 的一部分匯出到輕鬆建立光柵影像。
-type: docs
 weight: 31
 url: /zh-hant/java/dgn-export-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# DGN 匯出教程
+
 ## 介紹
 
 Aspose.CAD for Java 為 CAD 愛好者開啟了一個充滿可能性的世界，提供無縫的 DGN 匯出功能。在本教學系列中，我們將指導您了解增強 Java 應用程式 CAD 檔案操作能力的基本技術。
@@ -39,3 +45,9 @@ Aspose.CAD for Java 使開發人員能夠將 CAD 檔案操作提升到新的高�
 探索使用 Aspose.CAD for Java 將 DGN 檔案匯出為 PDF 中的 AutoCAD 格式的逐步指南。輕鬆提升 Java 應用程式的 CAD 處理能力。
 ### [將 AutoCAD 格式的 DGN 匯出為光柵影像格式](./exporting-dgn-to-raster-image/)
 了解如何使用 Aspose.CAD 將 DGN 檔案匯出為 Java 中的 JPEG 影像。本逐步教學將引導您輕鬆完成整個過程。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

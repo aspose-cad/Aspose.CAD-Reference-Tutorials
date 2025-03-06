@@ -3,10 +3,16 @@ title: Java용 Aspose.CAD를 사용하여 CAD에서 OLE 개체 내보내기
 linktitle: CAD에서 OLE 개체 내보내기
 second_title: Aspose.CAD 자바 API
 description: Java용 Aspose.CAD의 잠재력을 활용해 보세요. CAD 파일에서 OLE 개체를 쉽게 내보낼 수 있습니다. 원활한 CAD 데이터 관리를 위해 지금 다운로드하세요.
-type: docs
 weight: 10
 url: /ko/java/cad-to-pdf-and-svg-export-options/export-ole-objects-from-cad/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java용 Aspose.CAD를 사용하여 CAD에서 OLE 개체 내보내기
+
 ## 소개
 
 역동적인 CAD(Computer-Aided Design) 세계에서는 OLE(Object Linking and Embedding) 개체를 효율적으로 관리하고 추출하는 것이 중요합니다. Aspose.CAD for Java는 CAD 파일에서 OLE 개체를 내보내기 위한 강력한 솔루션을 제공합니다. 이 단계별 가이드는 프로세스를 안내하여 이 도구의 잠재력을 최대한 활용하도록 보장합니다.
@@ -97,3 +103,9 @@ A2: 예, Aspose.CAD는 내보내기 설정을 사용자 정의하기 위한 광�
 ### Q5: Aspose.CAD 라이선스는 어떻게 구매할 수 있나요?
 
 A5: 다음을 방문하세요.[구매 페이지](https://purchase.aspose.com/buy) 귀하의 개발 요구에 맞는 라이센스를 취득하십시오.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

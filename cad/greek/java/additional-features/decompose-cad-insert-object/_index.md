@@ -3,10 +3,16 @@ title: Αποσύνθεση αντικειμένου εισαγωγής CAD με
 linktitle: Αποσύνθεση αντικειμένου εισαγωγής CAD με Java
 second_title: Aspose.CAD Java API
 description: Κύρια εισαγωγή αντικειμένων αποσύνθεσης CAD σε Java με Aspose.CAD. Ακολουθήστε τον βήμα προς βήμα οδηγό μας για αποτελεσματικό χειρισμό. Βουτήξτε στον κόσμο της χειραγώγησης CAD.
-type: docs
 weight: 11
 url: /el/java/additional-features/decompose-cad-insert-object/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Αποσύνθεση αντικειμένου εισαγωγής CAD με Aspose.CAD σε Java
+
 ## Εισαγωγή
 
 Καλώς ήρθατε στον περιεκτικό μας οδηγό σχετικά με τη χρήση του Aspose.CAD για Java για την αποσύνθεση αντικειμένων εισαγωγής CAD. Σε αυτό το σεμινάριο, θα σας καθοδηγήσουμε στη διαδικασία διάσπασης των αντικειμένων ένθετων CAD στα συστατικά μέρη τους, παρέχοντάς σας έναν οδηγό βήμα προς βήμα για απρόσκοπτη εφαρμογή. Είτε είστε έμπειρος προγραμματιστής είτε μόλις ξεκινάτε με το Aspose.CAD, αυτό το σεμινάριο θα σας εξοπλίσει με τις γνώσεις για να χειρίζεστε αποτελεσματικά αντικείμενα εισαγωγής CAD στις εφαρμογές σας Java.
@@ -110,3 +116,9 @@ finally
 ### Ε5: Υπάρχουν δείγματα σχεδίων για εξάσκηση;
 
 A5: Ναι, μπορείτε να βρείτε δείγματα σχεδίων στον κατάλογο "DXFDrawings" στους πόρους Aspose.CAD.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

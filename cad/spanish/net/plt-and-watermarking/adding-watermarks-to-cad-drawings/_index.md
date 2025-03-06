@@ -3,10 +3,16 @@ title: Agregar marcas de agua a dibujos CAD - Guía Aspose.CAD
 linktitle: Agregar marcas de agua a dibujos CAD
 second_title: Aspose.CAD .NET - Formato de archivo CAD y BIM
 description: Mejore sus dibujos CAD con marcas de agua profesionales utilizando Aspose.CAD para .NET. Siga nuestra guía paso a paso para obtener diseños personalizados y atractivos.
-type: docs
 weight: 11
 url: /es/net/plt-and-watermarking/adding-watermarks-to-cad-drawings/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Agregar marcas de agua a dibujos CAD - Guía Aspose.CAD
+
 ## Introducción
 
 ¿Está buscando mejorar sus dibujos CAD agregando marcas de agua profesionales? Aspose.CAD para .NET proporciona una solución sólida para integrar perfectamente marcas de agua en sus archivos CAD. En esta guía paso a paso, lo guiaremos a través del proceso de agregar marcas de agua usando Aspose.CAD, asegurando que sus dibujos no solo transmitan información crítica sino que también lleven su marca única.
@@ -104,3 +110,9 @@ R4: Sí, puede explorar las funciones de Aspose.CAD con una prueba gratuita. Con
 ### P5: ¿Dónde puedo encontrar soporte para Aspose.CAD?
 
  R5: Para cualquier consulta o ayuda, visite el[Foro Aspose.CAD](https://forum.aspose.com/c/cad/19).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

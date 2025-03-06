@@ -3,10 +3,16 @@ title: Java ile AutoCAD Çizimindeki Tüm Düzenleri Listeleme
 linktitle: Java ile AutoCAD Çizimindeki Tüm Düzenleri Listeleme
 second_title: Aspose.CAD Java API'si
 description: Aspose.CAD ile AutoCAD çizimlerini Java'da zahmetsizce keşfedin. Tüm düzenleri listeleyin, değerli bilgileri çıkarın. Kusursuz entegrasyon için hemen indirin!
-type: docs
 weight: 11
 url: /tr/java/dwg-file-operations/list-all-layouts/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java ile AutoCAD Çizimindeki Tüm Düzenleri Listeleme
+
 ## giriiş
 
 Java uygulamalarınızda AutoCAD çizimlerinin tüm potansiyelini ortaya çıkarmak mı istiyorsunuz? Aspose.CAD for Java, DWG ve DXF dosyalarından değerli bilgileri işlemek ve çıkarmak için kusursuz bir entegrasyon sunan, başvurulacak çözümünüzdür. Bu adım adım kılavuzda, Aspose.CAD for Java kullanarak bir AutoCAD çizimindeki tüm düzenleri listeleme sürecinde size yol göstereceğiz.
@@ -86,3 +92,9 @@ Cevap3: Evet, örnek çizimleri Aspose.CAD for Java paketindeki "DWGDrawings" di
 ### S5: Satın almadan önce Aspose.CAD for Java'yı deneyebilir miyim?
 
  A5: Kesinlikle! Ücretsiz deneme sürümünü edinin[Burada](https://releases.aspose.com/)ve Aspose.CAD for Java'nın gücünü deneyimleyin.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

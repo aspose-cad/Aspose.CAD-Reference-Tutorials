@@ -3,10 +3,16 @@ title: Ajouter des attributs aux dessins CAO - Tutoriel Aspose.CAD
 linktitle: Ajout d'attributs aux dessins CAO
 second_title: Aspose.CAD .NET - Format de fichier CAO et BIM
 description: Améliorez vos dessins CAO avec des attributs à l'aide d'Aspose.CAD pour .NET. Suivez notre guide étape par étape pour une intégration transparente.
-type: docs
 weight: 10
 url: /fr/net/attribute-and-property-management/adding-attributes-to-cad-drawings/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ajouter des attributs aux dessins CAO - Tutoriel Aspose.CAD
+
 ## Introduction
 
 Dans le domaine de la conception assistée par ordinateur (CAO), l'enrichissement des dessins avec des attributs est une étape cruciale pour une documentation détaillée et une communication efficace. Aspose.CAD pour .NET fournit une solution robuste pour intégrer de manière transparente les attributs dans les dessins CAO. Ce didacticiel vous guidera tout au long du processus d'ajout d'attributs aux dessins CAO à l'aide d'Aspose.CAD, vous permettant d'améliorer les informations intégrées dans vos conceptions.
@@ -119,3 +125,9 @@ A1 : Aspose.CAD prend en charge divers formats de CAO, notamment DWG et DXF, gar
 ### Q5 : Comment puis-je obtenir une licence temporaire pour Aspose.CAD ?
 
  A5 : Pour les options de licence temporaire, visitez[ici](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

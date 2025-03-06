@@ -3,10 +3,16 @@ title: レイアウトとオブジェクトの処理
 linktitle: レイアウトとオブジェクトの処理
 second_title: Aspose.CAD .NET - CAD および BIM ファイル形式
 description: Aspose.CAD for .NET を使用して、DXF レイアウトのエクスポート、ファイル保存、ブロック クリッピング、ACAD プロキシ エンティティを簡単にマスターし、CAD 設計を強化します。
-type: docs
 weight: 33
 url: /ja/net/layout-and-object-handling/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# レイアウトとオブジェクトの処理
+
 
 ## 導入
 
@@ -38,3 +44,9 @@ Aspose.CAD for .NET の機能を試してください。ステップバイステ
 Aspose.CAD for .NET を使用して CAD でブロック クリッピングを実装する方法を学びます。このステップバイステップのチュートリアルで設計能力を強化してください。
 ### [ACAD プロキシ エンティティの使用 - Aspose.CAD ガイド](./working-with-acad-proxy-entities/)
 Aspose.CAD for .NET を探索し、CAD ワークフローを合理化します。 ACAD プロキシ エンティティを簡単に変換、編集、管理します。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

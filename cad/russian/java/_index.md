@@ -1,12 +1,17 @@
 ---
 title: Комплексные руководства и примеры Aspose.CAD для Java
 linktitle: Учебные пособия по Aspose.CAD для Java
-type: docs
 weight: 10
 url: /ru/java/
 description: Легко совершенствуйте навыки САПР с помощью Aspose.CAD для Java. Изучите руководства по преобразованию чертежей, текстовым аннотациям, манипуляциям с файлами, расширенным функциям, лицензированию и многому другому.
-is_root: true
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Комплексные руководства и примеры Aspose.CAD для Java
+
 
 ## Введение
 
@@ -77,3 +82,9 @@ is_root: true
 Раскройте возможности Aspose.CAD для Java с помощью наших руководств по экспорту в DGN. Научитесь эффективно манипулировать файлами САПР: от экспорта DGN как части DWG до легкого создания растровых изображений.
 ### [Другие операции САПР](./other-cad-operations/)
 Раскройте потенциал Aspose.CAD для Java с помощью наших руководств. От обработки элементов DGN до добавления водяных знаков — легко совершенствуйте свои навыки работы с САПР.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

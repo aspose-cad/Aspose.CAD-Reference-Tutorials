@@ -3,10 +3,16 @@ title: Conversion de mises en page CAO en PDF - Tutoriel Aspose.CAD
 linktitle: Conversion de mises en page CAO en PDF
 second_title: Aspose.CAD .NET - Format de fichier CAO et BIM
 description: Convertissez facilement des mises en page CAO en PDF avec Aspose.CAD pour .NET. Suivez notre guide étape par étape pour une intégration transparente.
-type: docs
 weight: 10
 url: /fr/net/cad-layouts-and-decomposition/converting-cad-layouts-to-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Conversion de mises en page CAO en PDF - Tutoriel Aspose.CAD
+
 ## Introduction
 
 Souhaitez-vous convertir vos mises en page CAO en PDF de manière transparente ? Aspose.CAD pour .NET fournit une solution robuste pour rendre ce processus efficace et simple. Dans ce didacticiel, nous vous guiderons à travers les étapes d'utilisation d'Aspose.CAD, une API puissante qui permet aux développeurs de travailler sans effort avec des fichiers CAO.
@@ -129,3 +135,9 @@ A3 : Utilisez les options de rastérisation et graphiques fournies pour adapter
 ### Q5 : Où puis-je demander de l’aide ou poser des questions ?
 
 A5 : Visitez le[Forum Aspose.CAD](https://forum.aspose.com/c/cad/19) pour de l'aide et des discussions.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Đặt kích thước và chế độ Canvas trong Aspose.CAD cho .NET
 linktitle: Đặt kích thước và chế độ canvas
 second_title: Aspose.CAD .NET - Định dạng tệp CAD và BIM
 description: Khám phá hướng dẫn từng bước về cách đặt kích thước và chế độ canvas trong Aspose.CAD cho .NET. Tối ưu hóa kết xuất CAD của bạn một cách dễ dàng bằng cách sử dụng hướng dẫn toàn diện này.
-type: docs
 weight: 16
 url: /vi/net/cad-features-and-support/setting-canvas-size-and-mode/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Đặt kích thước và chế độ Canvas trong Aspose.CAD cho .NET
+
 ## Giới thiệu
 
 Bạn đã sẵn sàng khám phá toàn bộ tiềm năng của Aspose.CAD cho .NET và cách mạng hóa trải nghiệm kết xuất CAD của mình chưa? Trong hướng dẫn từng bước này, chúng ta sẽ đi sâu vào sự phức tạp của việc thiết lập kích thước và chế độ canvas bằng thư viện Aspose.CAD mạnh mẽ. Cho dù bạn là nhà phát triển dày dạn kinh nghiệm hay mới bắt đầu, hướng dẫn này sẽ hướng dẫn bạn qua quy trình, đảm bảo bạn khai thác các khả năng của Aspose.CAD một cách hiệu quả.
@@ -119,3 +125,9 @@ Câu trả lời 1: Có, Aspose.CAD tích hợp liền mạch với các thư vi
 ### Câu hỏi 5: Làm cách nào để mua Aspose.CAD cho .NET?
 
  A5: Để mua Aspose.CAD, hãy truy cập[trang mua hàng](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

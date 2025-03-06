@@ -3,10 +3,16 @@ title: Поддержка обрезки блоков в САПР - Учебно
 linktitle: Поддержка обрезки блоков в САПР
 second_title: Aspose.CAD .NET — формат файлов CAD и BIM
 description: Узнайте, как реализовать обрезку блоков в САПР с помощью Aspose.CAD для .NET. Расширьте свои дизайнерские возможности с помощью этого пошагового руководства.
-type: docs
 weight: 12
 url: /ru/net/layout-and-object-handling/supporting-block-clipping-in-cad/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Поддержка обрезки блоков в САПР - Учебное пособие по Aspose.CAD
+
 ## Введение
 
 Добро пожаловать в подробное руководство по поддержке обрезки блоков в САПР с использованием Aspose.CAD для .NET. Aspose.CAD — это мощная библиотека, которая позволяет разработчикам беспрепятственно работать с файлами САПР в своих .NET-приложениях. В этом уроке мы сосредоточимся на реализации обрезки блоков, важной функции проектирования САПР.
@@ -122,3 +128,9 @@ cadImage.Save(outputFile, pdfOptions);
 ### В5: Могу ли я использовать Aspose.CAD без постоянной лицензии?
 
  О5: Да, вы можете получить временную лицензию.[здесь](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

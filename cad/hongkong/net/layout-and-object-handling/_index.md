@@ -3,10 +3,16 @@ title: 佈局和物件處理
 linktitle: 佈局和物件處理
 second_title: Aspose.CAD .NET - CAD 和 BIM 檔案格式
 description: 使用 Aspose.CAD for .NET 輕鬆掌握 DXF 佈局匯出、檔案儲存、區塊裁剪和 ACAD 代理實體以增強 CAD 設計。
-type: docs
 weight: 33
 url: /zh-hant/net/layout-and-object-handling/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 佈局和物件處理
+
 
 ## 介紹
 
@@ -38,3 +44,9 @@ url: /zh-hant/net/layout-and-object-handling/
 了解如何使用 Aspose.CAD for .NET 在 CAD 中實作區塊裁切。透過此逐步教學增強您的設計能力。
 ### [使用 ACAD 代理實體 - Aspose.CAD 指南](./working-with-acad-proxy-entities/)
 探索 Aspose.CAD for .NET 並簡化您的 CAD 工作流程。輕鬆轉換、編輯和管理 ACAD 代理實體。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

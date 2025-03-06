@@ -3,10 +3,16 @@ title: Obsługa pióra w eksporcie
 linktitle: Obsługa pióra w eksporcie
 second_title: Aspose.CAD API Java
 description: Opanuj personalizację pióra w eksporcie CAD za pomocą Aspose.CAD dla Java. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby zapewnić bezproblemową integrację.
-type: docs
 weight: 13
 url: /pl/java/advanced-cad-features/pen-support-in-export/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Obsługa pióra w eksporcie
+
 ## Wstęp
 
 stale rozwijającym się środowisku konwersji CAD (projektowanie wspomagane komputerowo), Aspose.CAD dla Java jawi się jako potężne narzędzie oferujące szerokie możliwości manipulowania plikami CAD. Wśród jego wszechstronnych funkcji wyróżnia się obsługa dostosowywania pióra podczas eksportu, umożliwiająca użytkownikom dostosowanie wyglądu eksportowanych obrazów. Ten samouczek przeprowadzi Cię przez proces wykorzystania obsługi pióra w funkcji eksportu, koncentrując się na praktycznej implementacji przy użyciu języka Java.
@@ -112,3 +118,9 @@ O4: Dostosuj szerokość i wysokość strony w opcjach rasteryzacji, aby kontrol
 ### P5: Gdzie mogę znaleźć dodatkowe wsparcie lub dyskusje społeczności?
 
  A5: Zapoznaj się z forum społeczności Aspose.CAD pod adresem[Tutaj](https://forum.aspose.com/c/cad/19) za wsparcie i dyskusje.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: CAD 导出格式
 linktitle: CAD 导出格式
 second_title: Aspose.CAD .NET - CAD 和 BIM 文件格式
 description: 使用 Aspose.CAD for .NET 轻松掌握 CAD 导出格式。通过教程学习如何转换 CAD 布局、将 DGN 文件导出为 PDF 和光栅图像。
-type: docs
 weight: 22
 url: /zh/net/cad-export-formats/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# CAD 导出格式
+
 
 ## 介绍
 
@@ -38,3 +44,9 @@ url: /zh/net/cad-export-formats/
 了解如何使用 Aspose.CAD for .NET 将 DGN 文件轻松导出为 PDF。无缝 CAD 文件操作的分步指南。
 ### [在 Aspose.CAD for .NET 中将 DGN 导出为光栅图像](./export-dgn-to-raster-image/)
 使用 Aspose.CAD for .NET 轻松将 DGN 转换为光栅图像。探索分步指南并释放 .NET 在 CAD 文件操作方面的强大功能。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

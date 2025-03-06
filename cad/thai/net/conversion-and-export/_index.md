@@ -3,10 +3,16 @@ title: การแปลงและการส่งออก
 linktitle: การแปลงและการส่งออก
 second_title: Aspose.CAD .NET - รูปแบบไฟล์ CAD และ BIM
 description: ปลดล็อกโลกแห่งการจัดการไฟล์ CAD ด้วย Aspose.CAD! เรียนรู้การแสดงสีสันที่สดใสและแปลงไฟล์ DWG เจาะลึกในรูปแบบ DWT และ DWG เพื่อผลลัพธ์ที่แม่นยำ
-type: docs
 weight: 25
 url: /th/net/conversion-and-export/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# การแปลงและการส่งออก
+
 
 
 ## การแนะนำ
@@ -45,3 +51,9 @@ url: /th/net/conversion-and-export/
 แปลง DWG เป็น PDF ตามมาตรฐานด้วย Aspose.CAD สำหรับ .NET ปฏิบัติตามบทช่วยสอนของเราเพื่อรับคำแนะนำทีละขั้นตอน
 ### [การแปลง DWG เป็นรูปแบบ DWF - คู่มือ Aspose.CAD](./converting-dwg-to-dwf/)
 สำรวจการแปลง DWG เป็น DWF อย่างราบรื่นโดยใช้ Aspose.CAD สำหรับ .NET ปฏิบัติตามคำแนะนำทีละขั้นตอนของเราเพื่อประสบการณ์ที่ไม่ยุ่งยาก
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

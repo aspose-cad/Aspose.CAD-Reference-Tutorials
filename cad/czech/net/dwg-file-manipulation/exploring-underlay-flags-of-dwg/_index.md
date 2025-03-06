@@ -3,10 +3,16 @@ title: Zkoumání podložních příznaků souborů DWG – výukový program As
 linktitle: Prozkoumání podložních příznaků souborů DWG
 second_title: Aspose.CAD .NET – formát souborů CAD a BIM
 description: Odemkněte sílu Aspose.CAD for .NET při zkoumání příznaků podložení souborů DWG. Postupujte podle našeho podrobného průvodce.
-type: docs
 weight: 13
 url: /cs/net/dwg-file-manipulation/exploring-underlay-flags-of-dwg/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Zkoumání podložních příznaků souborů DWG – výukový program Aspose.CAD
+
 ## Úvod
 
 Pokud se ponoříte do spletitého světa CAD souborů, konkrétně souborů DWG, a chcete odemknout tajemství podkladových vlajek, jste na správném místě. Tento tutoriál vás provede procesem zkoumání příznaků podložení v souborech DWG pomocí výkonné knihovny Aspose.CAD for .NET.
@@ -114,3 +120,10 @@ A4: Kupte si knihovnu[tady](https://purchase.aspose.com/buy).
 ### Q5: Je k dispozici bezplatná zkušební verze?
 
  A5: Ano, máte přístup k bezplatné zkušební verzi[tady](https://releases.aspose.com/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

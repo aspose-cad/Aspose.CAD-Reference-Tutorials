@@ -3,10 +3,16 @@ title: Modifier des hyperliens dans des fichiers CAO - Tutoriel Aspose.CAD
 linktitle: Modification des hyperliens dans les fichiers CAO
 second_title: Aspose.CAD .NET - Format de fichier CAO et BIM
 description: Explorez Aspose.CAD pour .NET et apprenez à modifier sans effort les hyperliens dans les fichiers CAO. Améliorez vos compétences en gestion de fichiers CAO avec ce didacticiel complet.
-type: docs
 weight: 14
 url: /fr/net/advanced-cad-techniques/editing-hyperlinks-in-cad-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Modifier des hyperliens dans des fichiers CAO - Tutoriel Aspose.CAD
+
 ## Introduction
 
 Bienvenue dans notre didacticiel étape par étape sur la modification des hyperliens dans les fichiers CAO à l'aide d'Aspose.CAD pour .NET. Aspose.CAD est une bibliothèque puissante qui permet aux développeurs de travailler de manière transparente avec des fichiers CAO. Dans ce didacticiel, nous nous concentrerons sur la tâche spécifique de modification des hyperliens dans les fichiers CAO, démontrant comment modifier et gérer efficacement les liens.
@@ -103,3 +109,9 @@ A1 : Oui, Aspose.CAD prend en charge divers formats de CAO, notamment DWG, DXF, 
 ### Q5 : Besoin d'aide ou avez des questions ?
 
  A5 : Visitez notre forum d'assistance[ici](https://forum.aspose.com/c/cad/19).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

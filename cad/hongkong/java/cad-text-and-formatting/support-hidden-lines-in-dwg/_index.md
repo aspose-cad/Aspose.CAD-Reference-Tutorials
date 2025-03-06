@@ -3,10 +3,16 @@ title: 使用 Aspose.CAD for Java 支援 DWG 檔案中的隱藏線
 linktitle: 使用 Java 支援 DWG 檔案中的隱藏線
 second_title: Aspose.CAD Java API
 description: 了解如何使用 Aspose.CAD 增強 Java 應用程式的 DWG 檔案操作功能。請按照我們的隱藏線支援逐步指南進行操作。輕鬆提升 CAD 繪圖處理能力。
-type: docs
 weight: 11
 url: /zh-hant/java/cad-text-and-formatting/support-hidden-lines-in-dwg/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.CAD for Java 支援 DWG 檔案中的隱藏線
+
 ## 介紹
 
 歡迎閱讀利用 Aspose.CAD for Java 增強 DWG 檔案操作功能的綜合指南。在本教程中，我們將重點放在一個特定方面：支援 DWG 檔案中的隱藏線。無論您是經驗豐富的開發人員還是新手，本指南都將透過逐步說明幫助您完成整個過程。
@@ -117,3 +123,10 @@ A4：參考文檔[這裡](https://reference.aspose.com/cad/java/).
 ### Q5：我可以購買 Aspose.CAD for Java 的臨時授權嗎？
 
  A5：是的，您可以獲得臨時許可證[這裡](https://purchase.aspose.com/temporary-license/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

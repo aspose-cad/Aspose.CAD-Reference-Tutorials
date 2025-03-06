@@ -3,10 +3,16 @@ title: 将 AutoCAD 图像导出为 PDF - Aspose.CAD for Java 教程
 linktitle: 将 AutoCAD 图像导出为 PDF
 second_title: Aspose.CAD Java API
 description: 使用 Aspose.CAD for Java 轻松将 AutoCAD 图像导出为 PDF。请按照我们的分步指南进行无缝集成。
-type: docs
 weight: 10
 url: /zh/java/cad-export-options/export-autocad-images-to-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 将 AutoCAD 图像导出为 PDF - Aspose.CAD for Java 教程
+
 ## 介绍
 
 您是否希望使用 Java 将 AutoCAD 图像无缝转换为 PDF？别再犹豫了！在本教程中，我们将指导您使用 Aspose.CAD for Java 完成整个过程，这是一个可以简化复杂任务的强大库。最后，您将掌握如何轻松地将 3D 图像导出为 PDF。
@@ -105,3 +111,9 @@ A4：当然！调整光栅化选项中的页面宽度和高度参数。
 ### Q5：我可以在哪里寻求帮助或讨论与 Aspose.CAD for Java 相关的问题？
 
  A5：前往[Aspose.CAD论坛](https://forum.aspose.com/c/cad/19)专门的支持和讨论。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

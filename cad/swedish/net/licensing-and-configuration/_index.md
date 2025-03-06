@@ -3,10 +3,16 @@ title: Licensiering och konfiguration
 linktitle: Licensiering och konfiguration
 second_title: Aspose.CAD .NET - CAD- och BIM-filformat
 description: Höj ditt CAD-filmanipuleringsspel med Aspose.CAD för .NET! Applicera licenser sömlöst med FileStream eller via sökväg med våra steg-för-steg handledningar.
-type: docs
 weight: 20
 url: /sv/net/licensing-and-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Licensiering och konfiguration
+
 
 ## Introduktion
 
@@ -32,3 +38,9 @@ Sammanfattningsvis, med våra steg-för-steg-guider kommer du inte bara att till
 Bemästra Aspose.CAD för .NET: Applicera licenser sömlöst med FileStream. Utforska steg-för-steg-guiden och lås upp potentialen. Ladda ner nu!
 ### [Metered Licensing i Aspose.CAD för .NET](./metered-licensing/)
 Lås upp Aspose.CAD-potential med uppmätt licensiering i .NET. Optimera resursanvändningen sömlöst. Utforska vår steg-för-steg-guide.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

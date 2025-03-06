@@ -3,10 +3,16 @@ title: CAD-invoegobjecten ontleden - Aspose.CAD-handleiding
 linktitle: CAD-invoegobjecten ontleden
 second_title: Aspose.CAD .NET - CAD- en BIM-bestandsindeling
 description: Ontdek de kracht van Aspose.CAD voor .NET met onze stapsgewijze handleiding voor het ontleden van CAD-invoegobjecten.
-type: docs
 weight: 11
 url: /nl/net/cad-layouts-and-decomposition/decomposing-cad-insert-objects/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# CAD-invoegobjecten ontleden - Aspose.CAD-handleiding
+
 ## Invoering
 
 In de dynamische wereld van computerondersteund ontwerp (CAD) zijn effectieve manipulatie en analyse van CAD-bestanden cruciaal voor professionals in verschillende sectoren. Aspose.CAD voor .NET komt naar voren als een krachtige oplossing die ontwikkelaars de tools biedt die nodig zijn om efficiënt met CAD-bestanden in de .NET-omgeving te werken.
@@ -100,3 +106,9 @@ Bezoek de aankooppagina om een licentie te verkrijgen die is afgestemd op uw beh
 ### V5: Hoe verkrijg ik een tijdelijke licentie voor Aspose.CAD voor .NET?
 
  Als u een tijdelijke licentie nodig heeft, vindt u hier de benodigde informatie[hier](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

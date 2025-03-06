@@ -3,10 +3,16 @@ title: ใช้ใบอนุญาตตามเส้นทางใน Asp
 linktitle: สมัครใบอนุญาตตามเส้นทาง
 second_title: Aspose.CAD .NET - รูปแบบไฟล์ CAD และ BIM
 description: ปลดล็อกศักยภาพเต็มรูปแบบของ Aspose.CAD สำหรับ .NET! ปฏิบัติตามคำแนะนำทีละขั้นตอนของเราเพื่อขอใบอนุญาตได้อย่างราบรื่น ยกระดับเกมการจัดการไฟล์ CAD ของคุณตอนนี้!
-type: docs
 weight: 10
 url: /th/net/licensing-and-configuration/apply-license-by-path/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# ใช้ใบอนุญาตตามเส้นทางใน Aspose.CAD สำหรับ .NET
+
 ## การแนะนำ
 
 คุณพร้อมที่จะยกระดับเกมการพัฒนา .NET ของคุณโดยใช้ประโยชน์จากความสามารถของ Aspose.CAD แล้วหรือยัง? ในบทช่วยสอนที่ครอบคลุมนี้ เราจะแนะนำคุณตลอดขั้นตอนการสมัครใบอนุญาตตามเส้นทางโดยใช้ Aspose.CAD สำหรับ .NET รัดเข็มขัดในขณะที่เราคลี่คลายขั้นตอนต่างๆ เพื่อรวมไลบรารีอันทรงพลังนี้เข้ากับโปรเจ็กต์ของคุณได้อย่างราบรื่น เพื่อให้มั่นใจว่าขั้นตอนการทำงานจะราบรื่นและมีประสิทธิภาพ
@@ -88,3 +94,9 @@ A3: ใช่ คุณสามารถทดลองใช้ฟรีได
 ### Q5: ต้องการความช่วยเหลือหรือมีคำถาม?
 
  A5: เข้าร่วมชุมชน Aspose.CAD ได้ที่[ฟอรั่ม Aspose.CAD](https://forum.aspose.com/c/cad/19).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

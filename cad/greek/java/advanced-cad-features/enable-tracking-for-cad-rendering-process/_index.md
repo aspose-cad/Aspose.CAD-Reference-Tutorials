@@ -3,10 +3,16 @@ title: Ενεργοποιήστε την παρακολούθηση για τη 
 linktitle: Ενεργοποιήστε την παρακολούθηση για τη διαδικασία απόδοσης CAD
 second_title: Aspose.CAD Java API
 description: Βελτιώστε την απόδοση CAD με το Aspose.CAD για Java. Ακολουθήστε τον βήμα προς βήμα οδηγό μας για να ενεργοποιήσετε την παρακολούθηση και να βελτιώσετε την εμπειρία μετατροπής PDF.
-type: docs
 weight: 10
 url: /el/java/advanced-cad-features/enable-tracking-for-cad-rendering-process/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ενεργοποιήστε την παρακολούθηση για τη διαδικασία απόδοσης CAD
+
 ## Εισαγωγή
 
 Στον τομέα της σχεδίασης με τη βοήθεια υπολογιστή (CAD), το Aspose.CAD για Java ξεχωρίζει ως ένα ισχυρό εργαλείο για την απόδοση και την επεξεργασία αρχείων CAD. Αυτό το σεμινάριο θα σας καθοδηγήσει στη διαδικασία ενεργοποίησης της παρακολούθησης για απόδοση CAD, ενισχύοντας τον έλεγχό σας στη μετατροπή από αρχεία CAD σε μορφή PDF.
@@ -114,3 +120,9 @@ A1: Το Aspose.CAD υποστηρίζει ένα ευρύ φάσμα μορφώ
 ### Ε5: Διατίθενται προσωρινές άδειες χρήσης για το Aspose.CAD;
 
  A5: Ναι, εάν χρειάζεστε προσωρινή άδεια, μπορείτε να αποκτήσετε μία[εδώ](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

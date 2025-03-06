@@ -3,10 +3,16 @@ title: Tracciamento e rendering
 linktitle: Tracciamento e rendering
 second_title: Aspose.CAD .NET - Formato file CAD e BIM
 description: Sblocca la potenza di Aspose.CAD per .NET con i nostri tutorial. Impara ad abilitare il tracciamento nei file CAD e a eseguire il rendering senza problemi dei file DXF come PDF.
-type: docs
 weight: 31
 url: /it/net/tracking-and-rendering/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tracciamento e rendering
+
 
 ## introduzione
 
@@ -30,3 +36,9 @@ Intraprendi un'avventura di apprendimento con il nostro elenco di tutorial Aspos
 Monitoraggio master dei file CAD con Aspose.CAD per .NET. Segui la nostra guida passo passo per un rendering preciso e il monitoraggio degli errori. Scarica ora!
 ### [Rendering di file DXF come PDF - Guida Aspose.CAD](./rendering-dxf-files-as-pdf/)
 Esplora la guida definitiva sul rendering di file DXF come PDF utilizzando Aspose.CAD per .NET. Converti facilmente file CAD con il nostro tutorial passo passo.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

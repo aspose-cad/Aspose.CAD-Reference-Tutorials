@@ -3,10 +3,16 @@ title: Formats d'exportation CAO
 linktitle: Formats d'exportation CAO
 second_title: Aspose.CAD .NET - Format de fichier CAO et BIM
 description: Maîtrisez sans effort les formats d’exportation CAO avec Aspose.CAD pour .NET. Apprenez à convertir des mises en page CAO, à exporter des fichiers DGN au format PDF et des images raster grâce à des didacticiels.
-type: docs
 weight: 22
 url: /fr/net/cad-export-formats/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Formats d'exportation CAO
+
 
 ## Introduction
 
@@ -38,3 +44,9 @@ Découvrez comment exporter du DGN dans le cadre de DWG dans Aspose.CAD pour .NE
 Apprenez à exporter des fichiers DGN au format PDF sans effort avec Aspose.CAD pour .NET. Un guide étape par étape pour une manipulation transparente des fichiers CAO.
 ### [Exporter DGN vers une image raster dans Aspose.CAD pour .NET](./export-dgn-to-raster-image/)
 Convertissez facilement des DGN en images raster à l'aide d'Aspose.CAD pour .NET. Explorez le guide étape par étape et libérez la puissance de .NET dans la manipulation de fichiers CAO.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

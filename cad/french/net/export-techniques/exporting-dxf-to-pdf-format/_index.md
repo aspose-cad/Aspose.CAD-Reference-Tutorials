@@ -3,10 +3,16 @@ title: Exporter un DXF au format PDF - Tutoriel Aspose.CAD
 linktitle: Exportation de DXF au format PDF
 second_title: Aspose.CAD .NET - Format de fichier CAO et BIM
 description: Découvrez l'intégration transparente d'Aspose.CAD pour .NET dans ce guide étape par étape pour exporter des fichiers DXF au format PDF sans effort.
-type: docs
 weight: 12
 url: /fr/net/export-techniques/exporting-dxf-to-pdf-format/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Exporter un DXF au format PDF - Tutoriel Aspose.CAD
+
 ## Introduction
 
 Bienvenue dans notre didacticiel complet sur l'exportation de fichiers DXF au format PDF à l'aide d'Aspose.CAD pour .NET ! Si vous êtes un développeur cherchant à intégrer de manière transparente cette fonctionnalité dans vos applications .NET, vous êtes au bon endroit. Dans ce guide, nous vous guiderons pas à pas tout au long du processus, en nous assurant que vous comprenez parfaitement chaque concept.
@@ -109,3 +115,9 @@ A4 : Pour toute question ou assistance, visitez le[Forum Aspose.CAD](https://fo
 ### Q5 : Puis-je acheter une licence temporaire ?
 
  A5 : Oui, vous pouvez obtenir une licence temporaire auprès de[ici](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

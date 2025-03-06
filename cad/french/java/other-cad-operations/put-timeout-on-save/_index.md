@@ -3,10 +3,16 @@ title: Délai d'expiration lors de l'enregistrement pour la CAO avec Aspose.CAD
 linktitle: Mettre le délai d'attente lors de l'enregistrement
 second_title: API Java Aspose.CAD
 description: Découvrez comment augmenter les performances de votre application Java avec Aspose.CAD. Mettez un délai d'attente pour l'enregistrement des dessins CAO. Suivez notre guide étape par étape.
-type: docs
 weight: 15
 url: /fr/java/other-cad-operations/put-timeout-on-save/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Délai d'expiration lors de l'enregistrement pour la CAO avec Aspose.CAD
+
 ## Introduction
 
 Bienvenue dans le didacticiel sur la mise en place d'un délai d'attente lors de l'enregistrement à l'aide d'Aspose.CAD pour Java. Dans ce guide, nous vous guiderons tout au long du processus de définition d'un délai d'expiration pour l'enregistrement des dessins CAO afin d'améliorer les performances de votre application. Aspose.CAD for Java est une bibliothèque puissante qui vous permet de travailler de manière transparente avec des fichiers CAO dans vos applications Java.
@@ -131,3 +137,9 @@ A3 : Oui, vous pouvez bénéficier d'un essai gratuit auprès de[ce lien](http
 ### Q5 : Besoin d'aide ou avez des questions ?
 
  A5 : Rendez-vous au[Forum Aspose.CAD](https://forum.aspose.com/c/cad/19) pour le soutien de la communauté.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

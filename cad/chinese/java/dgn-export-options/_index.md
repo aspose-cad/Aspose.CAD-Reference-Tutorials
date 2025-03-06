@@ -3,10 +3,16 @@ title: DGN 导出教程
 linktitle: DGN 导出教程
 second_title: Aspose.CAD Java API
 description: 通过我们的 DGN 导出教程释放 Aspose.CAD for Java 的强大功能。学习高效的 CAD 文件操作，从将 DGN 作为 DWG 的一部分导出到轻松创建光栅图像。
-type: docs
 weight: 31
 url: /zh/java/dgn-export-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# DGN 导出教程
+
 ## 介绍
 
 Aspose.CAD for Java 为 CAD 爱好者打开了一个充满可能性的世界，提供无缝的 DGN 导出功能。在本教程系列中，我们将指导您了解增强 Java 应用程序 CAD 文件操作能力的基本技术。
@@ -39,3 +45,9 @@ Aspose.CAD for Java 使开发人员能够将 CAD 文件操作提升到新的高�
 探索有关使用 Aspose.CAD for Java 将 DGN 文件导出为 PDF 中的 AutoCAD 格式的分步指南。轻松提升 Java 应用程序的 CAD 处理能力。
 ### [将 AutoCAD 格式的 DGN 导出为光栅图像格式](./exporting-dgn-to-raster-image/)
 了解如何使用 Aspose.CAD 将 DGN 文件导出为 Java 中的 JPEG 图像。本分步教程将指导您轻松完成整个过程。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

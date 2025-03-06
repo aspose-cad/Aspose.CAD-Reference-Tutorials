@@ -3,10 +3,16 @@ title: Aspose.CAD for Java を使用した動的 PDF の作成
 linktitle: 異なるレイアウトを持つ単一の PDF
 second_title: Aspose.CAD Java API
 description: Aspose.CAD for Java を使用して、CAD 図面から多様なレイアウトを備えた美しい PDF を作成します。 Java 開発者向けの簡単な統合と強力な機能。
-type: docs
 weight: 16
 url: /ja/java/other-cad-operations/single-pdf-different-layouts/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.CAD for Java を使用した動的 PDF の作成
+
 ## 導入
 
 Aspose.CAD for Java の世界へようこそ。これは、開発者が CAD 図面を簡単に操作できるようにする強力なライブラリです。このチュートリアルでは、Aspose.CAD for Java を使用して、さまざまなレイアウトを持つ単一の PDF を作成する方法について詳しく説明します。経験豊富な開発者でも、初心者でも、このステップバイステップのガイドでプロセスを説明します。
@@ -103,3 +109,9 @@ A1: はい。Aspose.CAD for Java は、他の Java ライブラリとシーム�
 ### Q5: フルバージョンはどこで購入できますか?
 
 A5: Aspose.CAD for Java のフルバージョンを購入してください[ここ](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

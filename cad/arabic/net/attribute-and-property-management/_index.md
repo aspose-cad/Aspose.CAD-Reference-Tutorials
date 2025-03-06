@@ -3,10 +3,16 @@ title: إدارة السمات والممتلكات
 linktitle: إدارة السمات والممتلكات
 second_title: Aspose.CAD .NET - تنسيق ملف CAD وBIM
 description: ارفع مستوى رسومات CAD الخاصة بك باستخدام Aspose.CAD لـ .NET! تعلم كيفية إضافة السمات والخصائص المخصصة بسلاسة من خلال البرامج التعليمية. تعزيز التصميمات الخاصة بك دون عناء.
-type: docs
 weight: 30
 url: /ar/net/attribute-and-property-management/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إدارة السمات والممتلكات
+
 
 
 ## مقدمة
@@ -47,3 +53,9 @@ url: /ar/net/attribute-and-property-management/
 قم بتحسين رسومات CAD الخاصة بك باستخدام السمات باستخدام Aspose.CAD لـ .NET. اتبع دليلنا خطوة بخطوة للتكامل السلس.
 ### [إضافة خصائص مخصصة إلى ملفات DWG - دليل Aspose.CAD](./adding-custom-properties-to-dwg/)
 قم بتحسين ملفات DWG الخاصة بك بخصائص مخصصة باستخدام Aspose.CAD لـ .NET. اتبع دليلنا خطوة بخطوة لإضافة بيانات وصفية ذات معنى دون عناء.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

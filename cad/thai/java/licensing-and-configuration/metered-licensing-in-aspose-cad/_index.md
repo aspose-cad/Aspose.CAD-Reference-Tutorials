@@ -3,10 +3,16 @@ title: ใบอนุญาตแบบมิเตอร์ใน Aspose.CAD
 linktitle: ใบอนุญาตแบบมิเตอร์ใน Aspose.CAD
 second_title: Aspose.CAD Java API
 description: เรียนรู้วิธีเชี่ยวชาญการใช้สิทธิ์การใช้งานแบบมิเตอร์ใน Aspose.CAD สำหรับ Java พร้อมคำแนะนำที่ครอบคลุมนี้ เพิ่มประสิทธิภาพการประมวลผล CAD ของคุณให้มีประสิทธิภาพและคุ้มค่า
-type: docs
 weight: 10
 url: /th/java/licensing-and-configuration/metered-licensing-in-aspose-cad/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# ใบอนุญาตแบบมิเตอร์ใน Aspose.CAD
+
 ## การแนะนำ
 
 ปลดล็อกศักยภาพเต็มรูปแบบของ Aspose.CAD สำหรับ Java ด้วยสิทธิ์ใช้งานแบบมิเตอร์! คำแนะนำทีละขั้นตอนนี้จะแนะนำคุณตลอดขั้นตอนการตั้งค่าสิทธิ์การใช้งานแบบมิเตอร์ เพื่อให้มั่นใจว่ามีการบูรณาการอย่างราบรื่นและใช้งานไลบรารี Java อันทรงพลังสำหรับการออกแบบโดยใช้คอมพิวเตอร์ช่วย (CAD) ได้อย่างเหมาะสมที่สุด ตั้งแต่ข้อกำหนดเบื้องต้นไปจนถึงการนำเข้าแพ็คเกจและการดำเนินการตัวอย่าง บทช่วยสอนนี้ครอบคลุมทั้งหมด
@@ -94,3 +100,9 @@ System.out.println("Consumption quantity after processing: " + quantity);
 ### คำถามที่ 5: ต้องการการสนับสนุนจากชุมชนหรือมีคำถามเฉพาะเจาะจง?
 
  A5: ไปที่ฟอรัม Aspose.CAD[ที่นี่](https://forum.aspose.com/c/cad/19).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

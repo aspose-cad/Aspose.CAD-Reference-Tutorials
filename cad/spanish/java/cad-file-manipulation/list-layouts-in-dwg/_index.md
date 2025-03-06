@@ -3,10 +3,16 @@ title: Listar diseños en DWG usando Aspose.CAD para Java
 linktitle: Listar diseños en DWG
 second_title: API de Java Aspose.CAD
 description: Explore Aspose.CAD para Java y enumere diseños en archivos DWG sin esfuerzo. Integre potentes funciones CAD en sus aplicaciones Java.
-type: docs
 weight: 12
 url: /es/java/cad-file-manipulation/list-layouts-in-dwg/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Listar diseños en DWG usando Aspose.CAD para Java
+
 ## Introducción
 
 Bienvenido a nuestra guía paso a paso sobre el uso de Aspose.CAD para Java para enumerar diseños en archivos DWG. Aspose.CAD es una potente biblioteca que permite a los desarrolladores trabajar con archivos CAD mediante programación. En este tutorial, nos centraremos en una tarea específica: enumerar diseños en un archivo DWG. Al final de esta guía, podrá integrar perfectamente esta funcionalidad en sus aplicaciones Java.
@@ -86,3 +92,9 @@ R1: Sí, Aspose.CAD admite varios formatos CAD, incluidos DWG, DXF, DWF y más.
 ### P5: ¿Puedo utilizar una licencia temporal con fines de prueba?
 
  R5: Sí, puedes obtener una licencia temporal[aquí](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

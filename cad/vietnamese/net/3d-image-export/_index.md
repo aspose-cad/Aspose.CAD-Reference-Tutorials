@@ -3,10 +3,16 @@ title: Xuất hình ảnh 3D
 linktitle: Xuất hình ảnh 3D
 second_title: Aspose.CAD .NET - Định dạng tệp CAD và BIM
 description: Dễ dàng xuất hình ảnh CAD 3D sang PDF bằng Aspose.CAD cho .NET. Làm theo hướng dẫn của chúng tôi để chuyển đổi PDF liền mạch. Tìm hiểu kỹ thuật xuất hình ảnh 3D hiệu quả.
-type: docs
 weight: 35
 url: /vi/net/3d-image-export/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Xuất hình ảnh 3D
+
 
 ## Giới thiệu
 
@@ -34,3 +40,9 @@ Tóm lại, Hướng dẫn xuất hình ảnh 3D với Aspose.CAD cho .NET cung 
 ## Hướng dẫn xuất hình ảnh 3D
 ### [Xuất hình ảnh 3D sang PDF - Hướng dẫn Aspose.CAD](./exporting-3d-images-to-pdf/)
 Dễ dàng chuyển đổi hình ảnh CAD 3D sang PDF bằng Aspose.CAD cho .NET. Hãy làm theo hướng dẫn từng bước của chúng tôi để xuất PDF liền mạch.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

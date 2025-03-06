@@ -3,10 +3,16 @@ title: Soporte de malla con Aspose.CAD para Java
 linktitle: Soporte de malla en CAD
 second_title: API de Java Aspose.CAD
 description: Explore el soporte de malla en aplicaciones Java con Aspose.CAD. Convierta archivos CAD a PDF sin esfuerzo.
-type: docs
 weight: 12
 url: /es/java/advanced-cad-features/mesh-support-in-cad/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Soporte de malla con Aspose.CAD para Java
+
 ## Introducción
 
 Aspose.CAD para Java es una potente biblioteca que permite a los desarrolladores trabajar sin problemas con archivos de diseño asistido por computadora (CAD) en aplicaciones Java. En este tutorial, exploraremos la función de compatibilidad con mallas en Aspose.CAD para Java, que le permitirá convertir archivos CAD con mallas a formato PDF. Siga la guía paso a paso a continuación para aprovechar las capacidades de esta biblioteca y mejorar el manejo de sus archivos CAD.
@@ -110,3 +116,9 @@ R4: Sí, Aspose.CAD para Java admite varios formatos de salida, incluidos PNG, J
 ### P5: ¿Puedo probar Aspose.CAD para Java de forma gratuita?
 
  R5: Sí, puede explorar una versión de prueba gratuita de Aspose.CAD para Java[aquí](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

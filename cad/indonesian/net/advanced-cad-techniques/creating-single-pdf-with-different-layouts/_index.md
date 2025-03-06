@@ -3,10 +3,16 @@ title: Membuat PDF Tunggal dengan Tata Letak Berbeda - Panduan Aspose.CAD
 linktitle: Membuat PDF Tunggal dengan Tata Letak Berbeda
 second_title: Aspose.CAD .NET - Format File CAD dan BIM
 description: Buat satu PDF dengan tata letak berbeda menggunakan Aspose.CAD untuk .NET. Ikuti panduan langkah demi langkah kami untuk integrasi yang lancar dan pembuatan PDF yang efisien.
-type: docs
 weight: 13
 url: /id/net/advanced-cad-techniques/creating-single-pdf-with-different-layouts/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Membuat PDF Tunggal dengan Tata Letak Berbeda - Panduan Aspose.CAD
+
 ## Perkenalan
 
 Apakah Anda ingin membuat satu dokumen PDF dari gambar CAD dengan tata letak berbeda menggunakan Aspose.CAD untuk .NET? Panduan langkah demi langkah ini akan memandu Anda melalui prosesnya, membantu Anda mencapai integrasi yang lancar dan pembuatan PDF yang efisien. Aspose.CAD untuk .NET menyediakan fitur canggih untuk memanipulasi gambar CAD secara terprogram, dan dalam tutorial ini, kita akan fokus pada pembuatan satu PDF dengan tata letak berbeda.
@@ -95,3 +101,9 @@ A1: Ya, Aspose.CAD untuk .NET mendukung berbagai format CAD seperti DWG, DXF, DG
 ### Q5: Dapatkah saya membeli lisensi Aspose.CAD untuk .NET?
 
  A5: Ya, Anda bisa membeli lisensinya[Di Sini](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

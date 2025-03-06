@@ -3,10 +3,16 @@ title: استيراد الصور إلى ملفات DWG باستخدام C# - د�
 linktitle: استيراد الصور إلى ملفات DWG باستخدام C#
 second_title: Aspose.CAD .NET - تنسيق ملف CAD وBIM
 description: تعلم كيفية استيراد الصور إلى ملفات DWG باستخدام لغة C# مع Aspose.CAD لـ .NET. اتبع دليلنا خطوة بخطوة للتكامل السلس.
-type: docs
 weight: 11
 url: /ar/net/image-manipulation-and-rendering/importing-images-into-dwg/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# استيراد الصور إلى ملفات DWG باستخدام C# - دليل Aspose.CAD
+
 ## مقدمة
 
 في عالم التصميم بمساعدة الكمبيوتر (CAD)، يعد دمج الصور في ملفات DWG مهمة شائعة وحاسمة. يوفر Aspose.CAD for .NET مجموعة قوية من الأدوات لتبسيط هذه العملية، مما يجعلها في متناول مطوري C#. في هذا البرنامج التعليمي، سنستكشف كيفية استيراد الصور إلى ملفات DWG خطوة بخطوة.
@@ -122,3 +128,9 @@ cadImage1.Save(MyDir + "export2.pdf", pdfOptions);
 ### س5: هل توجد منتديات مجتمعية لدعم Aspose.CAD؟
 
  ج5: نعم، يمكنك طلب الدعم والتفاعل مع المجتمع[هنا](https://forum.aspose.com/c/cad/19).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

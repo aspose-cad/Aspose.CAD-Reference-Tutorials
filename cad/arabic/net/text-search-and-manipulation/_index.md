@@ -3,10 +3,16 @@ title: البحث عن النص والتلاعب به
 linktitle: البحث عن النص والتلاعب به
 second_title: Aspose.CAD .NET - تنسيق ملف CAD وBIM
 description: أطلق العنان لقوة Aspose.CAD لـ .NET من خلال برامجنا التعليمية حول البحث عن نص في ملفات DWG باستخدام C#. ارفع مهاراتك في التصميم بمساعدة الكمبيوتر (CAD) وعزز تطبيقاتك.
-type: docs
 weight: 28
 url: /ar/net/text-search-and-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# البحث عن النص والتلاعب به
+
 
 ## مقدمة
 
@@ -36,3 +42,9 @@ url: /ar/net/text-search-and-manipulation/
 ## دروس البحث عن النص والتلاعب به
 ### [البحث عن نص في ملفات DWG باستخدام C# - البرنامج التعليمي Aspose.CAD](./searching-text-in-dwg-files/)
 استكشف Aspose.CAD لـ .NET والبحث الرئيسي عن النص في ملفات DWG باستخدام هذا الدليل التفصيلي خطوة بخطوة. عزز تطبيقات CAD الخاصة بك اليوم!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

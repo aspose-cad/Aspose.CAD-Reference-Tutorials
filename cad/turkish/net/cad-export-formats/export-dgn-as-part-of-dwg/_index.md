@@ -3,10 +3,16 @@ title: Aspose.CAD for .NET'te DGN'yi DWG'nin bir parçası olarak dışa aktarı
 linktitle: DGN'yi DWG'nin bir parçası olarak dışa aktarın
 second_title: Aspose.CAD .NET - CAD ve BIM Dosya Formatı
 description: Aspose.CAD for .NET'te DWG'nin bir parçası olarak DGN'yi nasıl dışa aktaracağınızı öğrenin. Sorunsuz entegrasyon için adım adım kılavuzumuzu izleyin.
-type: docs
 weight: 11
 url: /tr/net/cad-export-formats/export-dgn-as-part-of-dwg/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.CAD for .NET'te DGN'yi DWG'nin bir parçası olarak dışa aktarın
+
 ## giriiş
 
 .NET geliştirme dünyasında Aspose.CAD, Bilgisayar Destekli Tasarım (CAD) dosyalarıyla çalışmak için güçlü bir kütüphane olarak öne çıkıyor. Bu eğitim, Aspose.CAD for .NET kullanarak bir DGN (Tasarım) dosyasını bir DWG (Çizim) dosyasının parçası olarak dışa aktarma sürecinde size rehberlik edecektir. İster deneyimli bir geliştirici olun ister yeni başlıyor olun, bu adım adım kılavuz, bu özel görevi verimli bir şekilde gerçekleştirmek için Aspose.CAD'in yeteneklerinden yararlanmanıza yardımcı olacaktır.
@@ -123,3 +129,9 @@ A3: Evet, ücretsiz deneme sürümünden yararlanabilirsiniz[Burada](https://rel
 
 ### S5: Sorunla karşılaşırsam nereden yardım alabilirim?
  Cevap5: Aspose.CAD forumunu ziyaret edebilirsiniz[Burada](https://forum.aspose.com/c/cad/19) destek için.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Beágyazott DGN-fájlok exportálása – Aspose.CAD oktatóanyag
 linktitle: Beágyazott DGN-fájlok exportálása
 second_title: Aspose.CAD .NET - CAD és BIM fájlformátum
 description: Fedezze fel az Aspose.CAD for .NET erejét. Ezzel a lépésenkénti oktatóanyaggal megtudhatja, hogyan exportálhat könnyedén PDF-be beágyazott DGN fájlokat.
-type: docs
 weight: 14
 url: /hu/net/export-techniques/exporting-embedded-dgn-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Beágyazott DGN-fájlok exportálása – Aspose.CAD oktatóanyag
+
 ## Bevezetés
 
 szoftverfejlesztés dinamikus világában az Aspose.CAD for .NET kiemelkedik a számítógéppel segített tervezés (CAD) fájlok kezelésének hatékony eszközeként. Ez az oktatóanyag végigvezeti a beágyazott DGN-fájlok exportálásán az Aspose.CAD for .NET használatával. Akár tapasztalt fejlesztő, akár kíváncsi kezdő, ez a lépésről-lépésre útmutató segít az Aspose.CAD képességeinek hatékony kihasználásában.
@@ -98,3 +104,9 @@ Gratulálunk! Sikeresen exportált egy beágyazott DGN-fájlt PDF-be az Aspose.C
 ### 5. kérdés: Segítségre van szüksége, vagy szeretne kapcsolatba lépni a közösséggel?
 
 A5: Látogassa meg a[Aspose.CAD fórum](https://forum.aspose.com/c/cad/19) támogatásért és megbeszélésekért.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

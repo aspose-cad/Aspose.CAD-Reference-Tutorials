@@ -3,10 +3,16 @@ title: 將 DWG 轉換為Compliance PDF - Aspose.CAD 教學課程
 linktitle: 將 DWG 轉換為合規性 PDF
 second_title: Aspose.CAD .NET - CAD 和 BIM 檔案格式
 description: 使用 Aspose.CAD for .NET 將 DWG 轉換為合規性 PDF。請按照我們的教程獲取逐步指導。
-type: docs
 weight: 13
 url: /zh-hant/net/conversion-and-export/converting-dwg-to-compliance-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 將 DWG 轉換為Compliance PDF - Aspose.CAD 教學課程
+
 ## 介紹
 
 歡迎使用我們的逐步教學，了解如何使用 Aspose.CAD for .NET 將 DWG 檔案轉換為合規性 PDF。 Aspose.CAD 是一個功能強大的 .NET API，讓開發人員能夠輕鬆使用 CAD 檔案格式。在本教程中，我們將透過詳細的範例和說明來指導您完成將 DWG 檔案轉換為Compliance PDF 的過程。
@@ -113,3 +119,9 @@ A4：是的，您可以獲得免費試用[這裡](https://releases.aspose.com/).
 ### Q5：我可以在哪裡獲得 Aspose.CAD 的支援？
 
 A5：訪問[Aspose.CAD論壇](https://forum.aspose.com/c/cad/19)任何與支援相關的查詢。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

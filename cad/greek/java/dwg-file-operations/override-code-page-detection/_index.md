@@ -3,10 +3,16 @@ title: Παράκαμψη της αυτόματης ανίχνευσης σελ�
 linktitle: Παράκαμψη της αυτόματης ανίχνευσης σελίδων κώδικα σε αρχεία DWG
 second_title: Aspose.CAD Java API
 description: Ανακαλύψτε πώς μπορείτε να παρακάμψετε τον εντοπισμό κωδικοσελίδων σε αρχεία DWG με το Aspose.CAD για Java. Χειριστείτε αποτελεσματικά την κωδικοποίηση και ανακτήστε το CIF/MIF με κακή μορφή.
-type: docs
 weight: 13
 url: /el/java/dwg-file-operations/override-code-page-detection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Παράκαμψη της αυτόματης ανίχνευσης σελίδας κώδικα σε αρχεία DWG με Java
+
 ## Εισαγωγή
 
 Καλώς ήρθατε σε αυτόν τον περιεκτικό οδηγό σχετικά με τον τρόπο παράκαμψης του αυτόματου εντοπισμού σελίδας κώδικα σε αρχεία DWG χρησιμοποιώντας το Aspose.CAD για Java. Το Aspose.CAD είναι μια ισχυρή βιβλιοθήκη που επιτρέπει στους προγραμματιστές Java να εργαστούν με μορφές αρχείων CAD, παρέχοντας ένα ευρύ φάσμα δυνατοτήτων για χειρισμό, μετατροπή και εξαγωγή αρχείων CAD.
@@ -101,3 +107,9 @@ A3: Η δωρεάν δοκιμαστική έκδοση έχει ορισμέν�
 ### Ε5: Υπάρχει διαθέσιμη προσωρινή άδεια για δοκιμαστικούς σκοπούς;
 
  A5: Ναι, μπορείτε να αποκτήσετε προσωρινή άδεια[εδώ](https://purchase.aspose.com/temporary-license/) για δοκιμή.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

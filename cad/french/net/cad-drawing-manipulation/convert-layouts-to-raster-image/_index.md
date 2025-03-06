@@ -3,10 +3,16 @@ title: Convertir des mises en page en image raster dans Aspose.CAD pour .NET
 linktitle: Convertir des mises en page en image raster
 second_title: Aspose.CAD .NET - Format de fichier CAO et BIM
 description: Convertissez sans effort les mises en page CAO en images raster à l'aide d'Aspose.CAD pour .NET. Améliorez votre développement grâce à de puissantes capacités de manipulation CAO.
-type: docs
 weight: 12
 url: /fr/net/cad-drawing-manipulation/convert-layouts-to-raster-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Convertir des mises en page en image raster dans Aspose.CAD pour .NET
+
 ## Introduction
 
 Cherchez-vous à convertir sans effort des mises en page en images raster dans vos applications .NET ? Cherchez pas plus loin! Ce guide étape par étape vous guidera tout au long du processus d'utilisation d'Aspose.CAD pour .NET, une bibliothèque puissante qui simplifie les tâches de conception assistée par ordinateur (CAO).
@@ -102,3 +108,9 @@ Toutes nos félicitations! Vous avez réussi à convertir les mises en page CAO 
 ### Q5 : Où puis-je acheter une licence pour Aspose.CAD ?
 
  A5 : Accédez au[page d'achat](https://purchase.aspose.com/buy) pour acheter une licence et libérer tout le potentiel d'Aspose.CAD.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

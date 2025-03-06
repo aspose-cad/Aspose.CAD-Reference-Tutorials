@@ -3,10 +3,16 @@ title: CAD 내보내기 형식
 linktitle: CAD 내보내기 형식
 second_title: Aspose.CAD .NET - CAD 및 BIM 파일 형식
 description: .NET용 Aspose.CAD를 사용하여 CAD 내보내기 형식을 쉽게 마스터하세요. 튜토리얼을 통해 CAD 레이아웃을 변환하고 DGN 파일을 PDF 및 래스터 이미지로 내보내는 방법을 알아보세요.
-type: docs
 weight: 22
 url: /ko/net/cad-export-formats/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# CAD 내보내기 형식
+
 
 ## 소개
 
@@ -38,3 +44,9 @@ CAD 레이아웃을 래스터 이미지로 내보내는 과정을 안내하면�
 .NET용 Aspose.CAD를 사용하여 DGN 파일을 PDF로 쉽게 내보내는 방법을 알아보세요. 원활한 CAD 파일 조작을 위한 단계별 가이드입니다.
 ### [.NET용 Aspose.CAD에서 DGN을 래스터 이미지로 내보내기](./export-dgn-to-raster-image/)
 .NET용 Aspose.CAD를 사용하여 DGN을 래스터 이미지로 손쉽게 변환하세요. 단계별 가이드를 살펴보고 CAD 파일 조작에서 .NET의 강력한 기능을 활용해 보세요.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

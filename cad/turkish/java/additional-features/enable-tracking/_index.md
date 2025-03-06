@@ -3,10 +3,16 @@ title: Java'da Aspose.CAD Kullanarak DWG Dosyalarında İzlemeyi Etkinleştirin
 linktitle: Java Kullanarak DWG Dosyalarında İzlemeyi Etkinleştirme
 second_title: Aspose.CAD Java API'si
 description: Aspose.CAD kullanarak Java'da DWG dosya takibini etkinleştirmeye ve CAD projelerinde kusursuz işbirliği sağlamaya yönelik adım adım kılavuzu keşfedin.
-type: docs
 weight: 12
 url: /tr/java/additional-features/enable-tracking/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java'da Aspose.CAD Kullanarak DWG Dosyalarında İzlemeyi Etkinleştirin
+
 ## giriiş
 
 Bilgisayar destekli tasarım (CAD) alanında Aspose.CAD for Java, geliştiricilerin CAD dosyalarını kolaylıkla işlemesine ve dönüştürmesine olanak tanıyan güçlü bir araç olarak öne çıkıyor. Bu eğitimde Aspose.CAD for Java'nın DWG dosyalarında izlemeyi etkinleştiren belirli bir işlevi ele alınmaktadır. DWG dosyalarındaki değişiklikleri takip etmek, işbirliğine dayalı tasarım projeleri için çok önemlidir; kesintisiz iletişim ve verimli iş akışı sağlar. Bu kılavuzda, Aspose.CAD'in özelliklerinden yararlanarak Java kullanarak izlemeyi etkinleştirme adımlarını inceleyeceğiz.
@@ -123,3 +129,9 @@ Cevap1: Aspose.CAD öncelikle izleme için DWG dosyalarını destekler. Diğer f
 ### S5: Aspose.CAD for Java için geçici lisansı nasıl edinebilirim?
 
  A5: adresinde özetlenen süreci izleyin.[Geçici Lisans](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

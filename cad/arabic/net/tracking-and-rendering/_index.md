@@ -3,10 +3,16 @@ title: التتبع والعرض
 linktitle: التتبع والعرض
 second_title: Aspose.CAD .NET - تنسيق ملف CAD وBIM
 description: أطلق العنان لقوة Aspose.CAD لـ .NET من خلال برامجنا التعليمية. تعلم كيفية تمكين التتبع في ملفات CAD وعرض ملفات DXF بتنسيق PDF بسلاسة.
-type: docs
 weight: 31
 url: /ar/net/tracking-and-rendering/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# التتبع والعرض
+
 
 ## مقدمة
 
@@ -30,3 +36,9 @@ url: /ar/net/tracking-and-rendering/
 تتبع ملفات CAD الرئيسية باستخدام Aspose.CAD لـ .NET. اتبع دليلنا خطوة بخطوة للحصول على عرض دقيق وتتبع الأخطاء. التحميل الان!
 ### [عرض ملفات DXF بصيغة PDF - دليل Aspose.CAD](./rendering-dxf-files-as-pdf/)
 استكشف الدليل النهائي حول عرض ملفات DXF بصيغة PDF باستخدام Aspose.CAD لـ .NET. قم بتحويل ملفات CAD بسهولة من خلال برنامجنا التعليمي خطوة بخطوة.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

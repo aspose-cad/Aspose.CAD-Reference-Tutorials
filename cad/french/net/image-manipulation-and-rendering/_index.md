@@ -3,10 +3,16 @@ title: Manipulation et rendu d'images
 linktitle: Manipulation et rendu d'images
 second_title: Aspose.CAD .NET - Format de fichier CAO et BIM
 description: Libérez le potentiel des fichiers CAO avec Aspose.CAD pour .NET. Apprenez l'extraction d'attributs de bloc, l'importation d'images, la conversion DWG en PDF, la prise en charge du maillage et bien plus encore, sans effort.
-type: docs
 weight: 27
 url: /fr/net/image-manipulation-and-rendering/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Manipulation et rendu d'images
+
 
 ## Introduction
 
@@ -54,3 +60,9 @@ Explorez Aspose.CAD pour .NET. Convertissez facilement un DWG en image en C#. Gu
 Libérez le potentiel d'Aspose.CAD pour .NET avec notre didacticiel étape par étape sur la lecture des métadonnées XREF à partir de fichiers DWG.
 ### [Rendu de documents DWG en C# - Guide Aspose.CAD](./rendering-dwg-documents/)
 Découvrez comment restituer des documents DWG en C# à l'aide d'Aspose.CAD. Ce guide étape par étape couvre l'importation, la configuration et l'enregistrement avec des exemples de code.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

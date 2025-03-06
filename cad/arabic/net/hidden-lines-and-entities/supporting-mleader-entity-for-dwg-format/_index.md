@@ -3,10 +3,16 @@ title: دعم كيان MLeader لتنسيق DWG - دليل Aspose.CAD
 linktitle: دعم كيان MLeader لتنسيق DWG
 second_title: Aspose.CAD .NET - تنسيق ملف CAD وBIM
 description: أطلق العنان لقوة كيانات MLeader بتنسيق DWG باستخدام Aspose.CAD لـ .NET. ارفع مستوى مشروعات CAD الخاصة بك دون عناء.
-type: docs
 weight: 11
 url: /ar/net/hidden-lines-and-entities/supporting-mleader-entity-for-dwg-format/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# دعم كيان MLeader لتنسيق DWG - دليل Aspose.CAD
+
 ## مقدمة
 
 في العالم الديناميكي للتصميم بمساعدة الكمبيوتر (CAD)، يعد البقاء في صدارة أحدث الميزات والوظائف أمرًا بالغ الأهمية. إحدى هذه الميزات هي دعم كيانات MLeader بتنسيق DWG. يوفر Aspose.CAD for .NET مجموعة قوية من الأدوات للتعامل مع هذا بكفاءة.
@@ -118,3 +124,9 @@ CadMLeaderLine leaderLine = mleaderNode.LeaderLine;
 ### س5: هل يمكنني تجربة Aspose.CAD قبل إجراء عملية الشراء؟
 
  ج5: نعم، يمكنك استكشاف أ[تجربة مجانية](https://releases.aspose.com/) من Aspose.CAD لتجربة قدراته قبل اتخاذ القرار.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: دعم الخطوط المخفية في ملفات DWG باستخدام A
 linktitle: دعم الخطوط المخفية في ملفات DWG باستخدام Java
 second_title: Aspose.CAD جافا API
 description: تعرف على كيفية تحسين إمكانيات معالجة ملفات DWG لتطبيق Java الخاص بك باستخدام Aspose.CAD. اتبع دليلنا خطوة بخطوة لدعم الخطوط المخفية. تعزيز التعامل مع رسم CAD الخاص بك بسهولة.
-type: docs
 weight: 11
 url: /ar/java/cad-text-and-formatting/support-hidden-lines-in-dwg/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# دعم الخطوط المخفية في ملفات DWG باستخدام Aspose.CAD لـ Java
+
 ## مقدمة
 
 مرحبًا بك في الدليل الشامل حول الاستفادة من Aspose.CAD لـ Java لتحسين قدرات معالجة ملفات DWG لديك. في هذا البرنامج التعليمي، سنركز على جانب محدد: دعم الخطوط المخفية في ملفات DWG. سواء كنت مطورًا متمرسًا أو بدأت للتو، سيساعدك هذا الدليل على التنقل خلال العملية من خلال تعليمات خطوة بخطوة.
@@ -117,3 +123,10 @@ System.out.println("\nThe DWG file exported successfully to PDF.\nFile saved at 
 ### س5: هل يمكنني شراء ترخيص مؤقت لـ Aspose.CAD لـ Java؟
 
  ج5: نعم، يمكنك الحصول على ترخيص مؤقت[هنا](https://purchase.aspose.com/temporary-license/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Eksportuj do BMP za pomocą Aspose.CAD dla Java
 linktitle: Eksport do BMP
 second_title: Aspose.CAD API Java
 description: Poznaj płynną konwersję CAD do BMP za pomocą Aspose.CAD dla Java. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby uzyskać wydajny i precyzyjny eksport.
-type: docs
 weight: 12
 url: /pl/java/cad-export-options/export-to-bmp/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Eksportuj do BMP za pomocą Aspose.CAD dla Java
+
 ## Wstęp
 
 stale zmieniającym się środowisku projektowania cyfrowego kluczowa jest możliwość płynnego eksportowania plików projektowania wspomaganego komputerowo (CAD) do różnych formatów. Aspose.CAD for Java wyróżnia się jako potężne rozwiązanie, zapewniające programistom narzędzia potrzebne do wydajnego eksportu plików CAD do formatu BMP. Ten samouczek przeprowadzi Cię przez proces krok po kroku, zapewniając za każdym razem płynny i pomyślny eksport.
@@ -110,3 +116,9 @@ Odpowiedź 2: Tak, możesz dostosować opcje rasteryzacji, takie jak wymiary i u
 ### P5: Jak mogę uzyskać licencję tymczasową?
 
  A5: Uzyskaj tymczasową licencję na Aspose.CAD dla Java[Tutaj](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

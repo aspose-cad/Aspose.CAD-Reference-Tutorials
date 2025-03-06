@@ -3,10 +3,16 @@ title: CAD'den PDF'ye ve SVG'ye Dışa Aktarma Seçenekleri
 linktitle: CAD'den PDF'ye ve SVG'ye Dışa Aktarma Seçenekleri
 second_title: Aspose.CAD Java API'si
 description: Aspose.CAD for Java'nın gücünü, CAD'den PDF'ye ve SVG'ye aktarma seçenekleriyle ilgili eğitimlerimizle ortaya çıkarın. CAD verilerini zahmetsizce, hassas ve kolay bir şekilde yönetin.
-type: docs
 weight: 22
 url: /tr/java/cad-to-pdf-and-svg-export-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# CAD'den PDF'ye ve SVG'ye Dışa Aktarma Seçenekleri
+
 
 
 ## giriiş
@@ -38,3 +44,9 @@ Aspose.CAD for Java'yı kullanarak DWG çizimlerini zahmetsizce PDF/A1a ve PDF/A
 CAD çizimlerini SVG'ye aktarmaya ilişkin adım adım kılavuzumuzla Aspose.CAD for Java'nın potansiyelini ortaya çıkarın. Ad alanlarını nasıl içe aktaracağınızı, seçenekleri nasıl yapılandıracağınızı ve Aspose.CAD'i Java projenize sorunsuzca nasıl entegre edeceğinizi öğrenin.
 ### [CFF'den PDF'ye Dönüştürme - Java Eğitimi için Aspose.CAD](./cff-to-pdf-conversion/)
 Aspose.CAD for Java ile CFF'den PDF'ye kusursuz dönüşümü keşfedin. Kolay adımlar, güvenilir sonuçlar.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

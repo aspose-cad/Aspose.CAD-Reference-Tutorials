@@ -3,10 +3,16 @@ title: जावा के लिए Aspose.CAD के साथ एंबेड
 linktitle: एंबेडेड डीजीएन निर्यात करें
 second_title: Aspose.CAD जावा एपीआई
 description: जावा के लिए Aspose.CAD का उपयोग करके एम्बेडेड DGN फ़ाइलों को पीडीएफ में निर्यात करने पर चरण-दर-चरण मार्गदर्शिका देखें। निर्बाध सीएडी फ़ाइल हेरफेर के साथ अपने जावा एप्लिकेशन को बेहतर बनाएं।
-type: docs
 weight: 11
 url: /hi/java/dgn-export-options/export-embedded-dgn/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# जावा के लिए Aspose.CAD के साथ एंबेडेड DGN को पीडीएफ में निर्यात करें
+
 ## परिचय
 
 जावा के लिए Aspose.CAD का उपयोग करके एम्बेडेड DGN फ़ाइलों को निर्यात करने पर इस व्यापक ट्यूटोरियल में आपका स्वागत है। Aspose.CAD एक शक्तिशाली लाइब्रेरी है जो जावा डेवलपर्स को CAD फ़ाइलों के साथ निर्बाध रूप से काम करने में सक्षम बनाती है। इस ट्यूटोरियल में, हम चरण-दर-चरण निर्देशों का उपयोग करके एम्बेडेड डीजीएन फ़ाइलों को पीडीएफ में निर्यात करने की प्रक्रिया में आपका मार्गदर्शन करेंगे। चाहे आप एक अनुभवी डेवलपर हों या अभी शुरुआत कर रहे हों, यह ट्यूटोरियल आपके जावा अनुप्रयोगों को बढ़ाने के लिए Aspose.CAD की क्षमताओं का उपयोग करने में आपकी सहायता करेगा।
@@ -103,3 +109,9 @@ objImage.save(dataDir + "BlockRefDgn.pdf", pdfOptions);
 ### Q5: मुझे दस्तावेज़ कहां मिल सकते हैं?
 
  A5: दस्तावेज़ उपलब्ध है[यहाँ](https://reference.aspose.com/cad/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

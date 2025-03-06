@@ -3,10 +3,16 @@ title: Добавление водяных знаков в чертежи САП
 linktitle: Добавление водяных знаков в чертежи САПР
 second_title: Aspose.CAD .NET — формат файлов CAD и BIM
 description: Улучшите свои чертежи САПР с помощью профессиональных водяных знаков с помощью Aspose.CAD для .NET. Следуйте нашему пошаговому руководству для создания персонализированного и привлекательного дизайна.
-type: docs
 weight: 11
 url: /ru/net/plt-and-watermarking/adding-watermarks-to-cad-drawings/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Добавление водяных знаков в чертежи САПР — Руководство Aspose.CAD
+
 ## Введение
 
 Хотите улучшить свои чертежи САПР, добавив профессиональные водяные знаки? Aspose.CAD for .NET предоставляет надежное решение для простой интеграции водяных знаков в ваши файлы САПР. В этом пошаговом руководстве мы покажем вам процесс добавления водяных знаков с помощью Aspose.CAD, гарантируя, что ваши рисунки не только передают важную информацию, но и несут ваш уникальный знак.
@@ -104,3 +110,9 @@ A2: Aspose.CAD поддерживает различные форматы фай
 ### Вопрос 5: Где я могу найти поддержку Aspose.CAD?
 
  A5: По любым вопросам или помощи посетите[Форум Aspose.CAD](https://forum.aspose.com/c/cad/19).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: 특정 레이아웃을 PDF로 내보내기 - Aspose.CAD 가이드
 linktitle: 특정 레이아웃을 PDF로 내보내기
 second_title: Aspose.CAD .NET - CAD 및 BIM 파일 형식
 description: .NET용 Aspose.CAD를 사용하여 특정 레이아웃을 PDF로 내보내는 방법을 알아보세요. 원활한 통합을 위한 단계별 가이드입니다.
-type: docs
 weight: 13
 url: /ko/net/advanced-export-techniques/exporting-specific-layouts-to-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 특정 레이아웃을 PDF로 내보내기 - Aspose.CAD 가이드
+
 ## 소개
 
 .NET용 Aspose.CAD를 사용하여 특정 레이아웃을 PDF로 내보내는 방법에 대한 단계별 가이드에 오신 것을 환영합니다. Aspose.CAD는 개발자가 CAD 파일 형식을 원활하게 사용할 수 있게 해주는 강력한 라이브러리입니다. 이 튜토리얼에서는 .NET 환경에서 Aspose.CAD를 사용하여 DWG 파일의 특정 레이아웃을 PDF로 내보내는 데 중점을 둘 것입니다.
@@ -110,3 +116,9 @@ A2: 예, Aspose.CAD는 DWG, DXF, DWF 등을 포함한 다양한 CAD 형식을 �
 ### Q5: 무료 평가판이 제공됩니까?
 
  A5: 예, 무료 평가판에 액세스할 수 있습니다.[여기](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

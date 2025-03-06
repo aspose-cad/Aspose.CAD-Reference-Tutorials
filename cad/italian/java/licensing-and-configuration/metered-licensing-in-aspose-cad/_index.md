@@ -3,10 +3,16 @@ title: Licenze misurate in Aspose.CAD
 linktitle: Licenze misurate in Aspose.CAD
 second_title: API Java Aspose.CAD
 description: Scopri come padroneggiare le licenze a consumo in Aspose.CAD per Java con questa guida completa. Ottimizza l'elaborazione CAD per efficienza ed efficienza dei costi.
-type: docs
 weight: 10
 url: /it/java/licensing-and-configuration/metered-licensing-in-aspose-cad/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Licenze misurate in Aspose.CAD
+
 ## introduzione
 
 Sblocca tutto il potenziale di Aspose.CAD per Java con licenze a consumo! Questa guida passo passo ti guiderà attraverso il processo di impostazione delle licenze a consumo, garantendo un'integrazione perfetta e un utilizzo ottimale di questa potente libreria Java per la progettazione assistita da computer (CAD). Dai prerequisiti all'importazione di pacchetti e all'esecuzione di esempi, questo tutorial copre tutto.
@@ -94,3 +100,9 @@ Congratulazioni! Hai padroneggiato con successo le licenze a consumo con Aspose.
 ### Q5: Hai bisogno del supporto della comunità o hai domande specifiche?
 
  A5: vai al forum Aspose.CAD[Qui](https://forum.aspose.com/c/cad/19).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

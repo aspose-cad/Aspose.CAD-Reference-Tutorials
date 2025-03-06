@@ -3,10 +3,16 @@ title: CAD Düzenleri ve Ayrıştırma
 linktitle: CAD Düzenleri ve Ayrıştırma
 second_title: Aspose.CAD .NET - CAD ve BIM Dosya Formatı
 description: Aspose.CAD for .NET ile CAD düzenlerinin potansiyelini ortaya çıkarın! Kılavuzumuzu kullanarak tasarımları kolayca PDF'ye dönüştürün. Eklenen nesnelerin zahmetsizce ayrıştırılmasında ustalaşın.
-type: docs
 weight: 34
 url: /tr/net/cad-layouts-and-decomposition/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# CAD Düzenleri ve Ayrıştırma
+
 
 
 
@@ -59,3 +65,9 @@ Sonuç olarak Aspose.CAD for .NET, CAD dünyasında ezber bozan bir özellik ta�
 Aspose.CAD for .NET ile CAD düzenlerini zahmetsizce PDF'ye dönüştürün. Sorunsuz entegrasyon için adım adım kılavuzumuzu izleyin.
 ### [CAD Insert Nesnelerini Ayrıştırma - Aspose.CAD Guide](./decomposing-cad-insert-objects/)
 Aspose.CAD for .NET'in gücünü, CAD ekleme nesnelerini ayrıştırmaya yönelik adım adım kılavuzumuzla keşfedin.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

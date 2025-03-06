@@ -1,12 +1,17 @@
 ---
 title: Kompleksowe samouczki i przykłady Aspose.CAD dla Java
 linktitle: Aspose.CAD dla samouczków Java
-type: docs
 weight: 10
 url: /pl/java/
 description: Bez wysiłku podnoś umiejętności CAD dzięki Aspose.CAD dla Java. Zapoznaj się z samouczkami dotyczącymi konwersji rysunków, adnotacji tekstowych, manipulacji plikami, zaawansowanych funkcji, licencjonowania i nie tylko.
-is_root: true
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Kompleksowe samouczki i przykłady Aspose.CAD dla Java
+
 
 ## Wstęp
 
@@ -77,3 +82,9 @@ Bez wysiłku eksportuj obrazy AutoCAD, układy CAD, IFC, pliki STL do formatu PD
 Odblokuj moc Aspose.CAD dla Java dzięki naszym samouczkom dotyczącym eksportu DGN. Naucz się efektywnej manipulacji plikami CAD, od eksportowania DGN jako części DWG po łatwe tworzenie obrazów rastrowych.
 ### [Inne operacje CAD](./other-cad-operations/)
 Odblokuj potencjał Aspose.CAD dla Java dzięki naszym tutorialom. Od obsługi elementów DGN po dodawanie znaków wodnych – bez wysiłku rozwijaj swoje umiejętności CAD.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

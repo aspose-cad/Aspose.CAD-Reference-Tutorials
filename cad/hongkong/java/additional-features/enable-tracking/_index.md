@@ -3,10 +3,16 @@ title: 在 Java 中使用 Aspose.CAD 在 DWG 檔案中啟用追蹤
 linktitle: 使用 Java 在 DWG 檔案中啟用跟踪
 second_title: Aspose.CAD Java API
 description: 探索使用 Aspose.CAD 在 Java 中啟用 DWG 檔案追蹤的逐步指南，確保 CAD 專案中的無縫協作。
-type: docs
 weight: 12
 url: /zh-hant/java/additional-features/enable-tracking/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Java 中使用 Aspose.CAD 在 DWG 檔案中啟用追蹤
+
 ## 介紹
 
 在電腦輔助設計 (CAD) 領域，Aspose.CAD for Java 是一款功能強大的工具，可讓開發人員輕鬆操作和轉換 CAD 檔案。本教學深入研究 Aspose.CAD for Java 的特定功能 - 在 DWG 檔案中啟用追蹤。追蹤 DWG 檔案中的變更對於協作設計專案至關重要，可確保無縫通訊和高效的工作流程。在本指南中，我們將逐步介紹使用 Java 並利用 Aspose.CAD 功能啟用追蹤的步驟。
@@ -123,3 +129,9 @@ A1：Aspose.CAD 主要支援 DWG 檔案進行追蹤。其他格式，請參閱�
 ### Q5：如何取得 Aspose.CAD for Java 的臨時授權？
 
  A5：遵循以下連結中列出的流程：[臨時執照](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

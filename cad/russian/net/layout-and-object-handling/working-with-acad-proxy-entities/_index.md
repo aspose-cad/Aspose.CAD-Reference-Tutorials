@@ -3,10 +3,16 @@ title: Работа с прокси-объектами ACAD — Руководс
 linktitle: Работа с прокси-объектами ACAD
 second_title: Aspose.CAD .NET — формат файлов CAD и BIM
 description: Изучите Aspose.CAD для .NET и оптимизируйте рабочие процессы САПР. Легко конвертируйте, редактируйте и управляйте прокси-объектами ACAD.
-type: docs
 weight: 13
 url: /ru/net/layout-and-object-handling/working-with-acad-proxy-entities/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Работа с прокси-объектами ACAD — Руководство Aspose.CAD
+
 ## Введение
 
 В динамичном мире разработки .NET создание чертежей САПР и управление ими является критически важной задачей. Aspose.CAD for .NET предлагает надежное решение для работы с прокси-объектами AutoCAD. Это руководство проведет вас через основные шаги по использованию возможностей Aspose.CAD и оптимизации рабочих процессов, связанных с САПР.
@@ -98,3 +104,9 @@ cadImage.Save(MyDir + "output.pdf", pdfOptions);
 ### Вопрос 5: Где я могу приобрести полную лицензию на Aspose.CAD для .NET?
 
  A5: Вы можете купить лицензию на сайте[страница покупки](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

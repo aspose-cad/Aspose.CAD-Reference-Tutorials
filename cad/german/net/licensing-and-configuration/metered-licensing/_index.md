@@ -3,10 +3,16 @@ title: Gemessene Lizenzierung in Aspose.CAD für .NET
 linktitle: Gemessene Lizenzierung
 second_title: Aspose.CAD .NET – CAD- und BIM-Dateiformat
 description: Schöpfen Sie das Potenzial von Aspose.CAD mit der getakteten Lizenzierung in .NET frei. Optimieren Sie die Ressourcennutzung nahtlos. Entdecken Sie unsere Schritt-für-Schritt-Anleitung.
-type: docs
 weight: 12
 url: /de/net/licensing-and-configuration/metered-licensing/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Gemessene Lizenzierung in Aspose.CAD für .NET
+
 ## Einführung
 
 Um das volle Potenzial von Aspose.CAD für .NET auszuschöpfen, müssen Sie die Feinheiten der gebührenpflichtigen Lizenzierung verstehen. Mit dieser leistungsstarken Funktion können Entwickler den Ressourcenverbrauch effizient verwalten und gleichzeitig die Funktionen von Aspose.CAD nutzen. In dieser Schritt-für-Schritt-Anleitung befassen wir uns mit dem Prozess der Implementierung einer gebührenpflichtigen Lizenzierung und schlüsseln jeden entscheidenden Schritt auf, um eine nahtlose Integration in Ihre .NET-Projekte sicherzustellen.
@@ -97,3 +103,9 @@ A3: Ja, gemessene Schlüssel sind projektübergreifend wiederverwendbar und biet
 ### F5: Kann ich Aspose.CAD vorübergehend für bestimmte Projekte lizenzieren?
 
  A5: Ja, erkunden[temporäre Lizenzoptionen](https://purchase.aspose.com/temporary-license/) für kurzfristige Projektanforderungen.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

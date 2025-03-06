@@ -3,10 +3,16 @@ title: Методы экспорта
 linktitle: Методы экспорта
 second_title: Aspose.CAD .NET — формат файлов CAD и BIM
 description: Изучите учебные пособия по Aspose.CAD для беспрепятственной разработки САПР. Изучите эффективные методы легкого экспорта файлов DXF в различные форматы.
-type: docs
 weight: 32
 url: /ru/net/export-techniques/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Методы экспорта
+
 
 
 ## Введение
@@ -49,3 +55,9 @@ url: /ru/net/export-techniques/
 Откройте для себя возможности Aspose.CAD для .NET. Научитесь легко экспортировать встроенные файлы DGN в PDF с помощью этого пошагового руководства.
 ### [Экспорт изображений в формат DXF — Руководство Aspose.CAD](./exporting-images-to-dxf-format/)
 Откройте для себя возможности Aspose.CAD для .NET! Научитесь легко экспортировать изображения в формат DXF. Повысьте точность и эффективность разработки САПР.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: CAD-Zeichnungsmanipulation
 linktitle: CAD-Zeichnungsmanipulation
 second_title: Aspose.CAD .NET – CAD- und BIM-Dateiformat
 description: Erweitern Sie Ihre CAD-Projekte mühelos mit Aspose.CAD für .NET-Tutorials. Mit unseren Schritt-für-Schritt-Anleitungen können Sie CAD-Zeichnungen nahtlos in der Größe ändern, konvertieren und optimieren.
-type: docs
 weight: 21
 url: /de/net/cad-drawing-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# CAD-Zeichnungsmanipulation
+
 
 ## Einführung
 
@@ -44,3 +50,9 @@ Konvertieren Sie CAD-Layouts mühelos in Rasterbilder mit Aspose.CAD für .NET. 
 Entdecken Sie die Leistungsfähigkeit von Aspose.CAD für .NET. Aktivieren Sie die Nachverfolgung für CAD-Rendering nahtlos. Befolgen Sie unsere Schritt-für-Schritt-Anleitung für mehr Kontrolle und Effizienz.
 ### [Ermitteln Sie die Größe des CAD-Layouts in Aspose.CAD für .NET](./get-size-of-cad-layout/)
 Erfahren Sie, wie Sie mit Aspose.CAD die CAD-Layoutgröße in .NET abrufen. Befolgen Sie unsere Schritt-für-Schritt-Anleitung für eine effiziente Bearbeitung von CAD-Dateien.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

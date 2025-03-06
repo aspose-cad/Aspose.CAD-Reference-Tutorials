@@ -3,10 +3,16 @@ title: 在 Aspose.CAD for .NET 中啟用 CAD 渲染追蹤
 linktitle: 啟用 CAD 渲染追蹤
 second_title: Aspose.CAD .NET - CAD 和 BIM 檔案格式
 description: 探索 Aspose.CAD for .NET 的強大功能。無縫追蹤 CAD 渲染。請遵循我們的逐步指南以增強控制和效率。
-type: docs
 weight: 13
 url: /zh-hant/net/cad-drawing-manipulation/enable-tracking-for-cad-rendering/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.CAD for .NET 中啟用 CAD 渲染追蹤
+
 ## 介紹
 
 在軟體開發的動態世界中，Aspose.CAD for .NET 作為電腦輔助設計 (CAD) 渲染的強大解決方案脫穎而出。這個功能強大的程式庫使開發人員能夠在 .NET 環境中無縫地建立、操作和渲染 CAD 檔案。在本教程中，我們將深入研究 Aspose.CAD for .NET 的一個重要面向—啟用 CAD 渲染追蹤。
@@ -110,3 +116,9 @@ A2：當然！ Aspose.CAD for .NET 與各種 .NET 框架無縫集成，確保靈
 ### 問題 5：在 CAD 渲染中啟用追蹤有什麼好處？
 
 A5：啟用追蹤可以增強渲染過程中的可追溯性和控制力，確保工作流程更加透明和有效率。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

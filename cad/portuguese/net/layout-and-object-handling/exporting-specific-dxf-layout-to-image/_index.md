@@ -3,10 +3,16 @@ title: Exportando layout DXF específico para imagem - Tutorial Aspose.CAD
 linktitle: Exportando layout DXF específico para imagem
 second_title: Aspose.CAD .NET - Formato de arquivo CAD e BIM
 description: Explore o guia passo a passo sobre como usar Aspose.CAD for .NET para exportar layouts DXF específicos para imagens. Maximize a eficiência do seu desenvolvimento .NET com este tutorial poderoso.
-type: docs
 weight: 10
 url: /pt/net/layout-and-object-handling/exporting-specific-dxf-layout-to-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Exportando layout DXF específico para imagem - Tutorial Aspose.CAD
+
 ## Introdução
 
 No domínio do desenvolvimento .NET, Aspose.CAD se destaca como uma ferramenta poderosa para lidar com arquivos de Design Auxiliado por Computador (CAD). Especificamente, ele fornece funcionalidade abrangente para exportar layouts DXF específicos para imagens. Este tutorial irá guiá-lo passo a passo pelo processo, permitindo que você aproveite os recursos do Aspose.CAD com facilidade.
@@ -105,3 +111,9 @@ A1: Sim, o Aspose.CAD é compatível com vários frameworks .NET, proporcionando
 ### Q5: Onde posso encontrar documentação detalhada para Aspose.CAD?
 
  A5: Consulte o abrangente[Documentação Aspose.CAD](https://reference.aspose.com/cad/net/) para obter informações detalhadas.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

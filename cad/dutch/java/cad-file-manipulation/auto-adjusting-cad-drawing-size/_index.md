@@ -3,10 +3,16 @@ title: Automatisch aanpassen van de CAD-tekeninggrootte met Aspose.CAD voor Java
 linktitle: Automatische aanpassing van de CAD-tekeninggrootte
 second_title: Aspose.CAD Java-API
 description: Ontdek het naadloze proces van het automatisch aanpassen van CAD-tekeningformaten in Java met behulp van Aspose.CAD. Volg onze stapsgewijze handleiding voor efficiënte manipulatie van CAD-bestanden.
-type: docs
 weight: 13
 url: /nl/java/cad-file-manipulation/auto-adjusting-cad-drawing-size/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Automatisch aanpassen van de CAD-tekeninggrootte met Aspose.CAD voor Java
+
 ## Invoering
 
 In de wereld van CAD (Computer-Aided Design) is het aanpassen van tekeningformaten een veel voorkomende vereiste, en met Aspose.CAD voor Java wordt het een naadloos proces. Deze krachtige bibliotheek biedt uitgebreide tools voor het verwerken van CAD-bestanden in Java-toepassingen. In deze zelfstudie verkennen we het stapsgewijze proces van het automatisch aanpassen van CAD-tekeningformaten met Aspose.CAD.
@@ -107,3 +113,9 @@ A1: Ja, Aspose.CAD ondersteunt verschillende CAD-formaten, waaronder DWG, DXF, D
 ### V5: Is er een gratis proefversie beschikbaar voor Aspose.CAD voor Java?
 
  A5: Ja, u heeft toegang tot de gratis proefperiode[hier](https://releases.aspose.com/) om de mogelijkheden van de bibliotheek te verkennen.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

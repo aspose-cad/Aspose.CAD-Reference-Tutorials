@@ -3,10 +3,16 @@ title: Zerlegen von CAD-Einfügeobjekten – Aspose.CAD-Handbuch
 linktitle: Zerlegen von CAD-Einfügeobjekten
 second_title: Aspose.CAD .NET – CAD- und BIM-Dateiformat
 description: Entdecken Sie die Leistungsfähigkeit von Aspose.CAD für .NET mit unserer Schritt-für-Schritt-Anleitung zum Zerlegen von CAD-Einfügeobjekten.
-type: docs
 weight: 11
 url: /de/net/cad-layouts-and-decomposition/decomposing-cad-insert-objects/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Zerlegen von CAD-Einfügeobjekten – Aspose.CAD-Handbuch
+
 ## Einführung
 
 In der dynamischen Welt des computergestützten Designs (CAD) ist eine effektive Bearbeitung und Analyse von CAD-Dateien für Fachleute aus verschiedenen Branchen von entscheidender Bedeutung. Aspose.CAD für .NET erweist sich als leistungsstarke Lösung, die Entwicklern die Tools an die Hand gibt, die sie für die effiziente Arbeit mit CAD-Dateien in der .NET-Umgebung benötigen.
@@ -100,3 +106,9 @@ Um eine auf Ihre Bedürfnisse zugeschnittene Lizenz zu erwerben, besuchen Sie di
 ### F5: Wie erhalte ich eine temporäre Lizenz für Aspose.CAD für .NET?
 
  Wenn Sie eine temporäre Lizenz benötigen, finden Sie hier die notwendigen Informationen[Hier](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

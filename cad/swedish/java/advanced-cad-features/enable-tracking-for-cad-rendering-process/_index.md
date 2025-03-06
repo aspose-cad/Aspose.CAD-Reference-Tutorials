@@ -3,10 +3,16 @@ title: Aktivera spårning för CAD-renderingsprocessen
 linktitle: Aktivera spårning för CAD-renderingsprocessen
 second_title: Aspose.CAD Java API
 description: Förbättra din CAD-rendering med Aspose.CAD för Java. Följ vår steg-för-steg-guide för att möjliggöra spårning och höja din PDF-konverteringsupplevelse.
-type: docs
 weight: 10
 url: /sv/java/advanced-cad-features/enable-tracking-for-cad-rendering-process/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aktivera spårning för CAD-renderingsprocessen
+
 ## Introduktion
 
 Inom datorstödd design (CAD) framstår Aspose.CAD för Java som ett kraftfullt verktyg för att rendera och bearbeta CAD-filer. Denna handledning guidar dig genom processen för att aktivera spårning för CAD-rendering, vilket förbättrar din kontroll över omvandlingen från CAD-filer till PDF-format.
@@ -114,3 +120,9 @@ S1: Aspose.CAD stöder ett brett utbud av CAD-format, inklusive DWG, DXF, DGN oc
 ### F5: Finns tillfälliga licenser tillgängliga för Aspose.CAD?
 
  A5: Ja, om du behöver en tillfällig licens kan du skaffa en[här](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

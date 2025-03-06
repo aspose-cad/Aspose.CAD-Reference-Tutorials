@@ -3,10 +3,16 @@ title: 在 Aspose.CAD for .NET 中将 DGN 导出为 PDF
 linktitle: 将 DGN 导出为 PDF
 second_title: Aspose.CAD .NET - CAD 和 BIM 文件格式
 description: 了解如何使用 Aspose.CAD for .NET 将 DGN 文件轻松导出为 PDF。无缝 CAD 文件操作的分步指南。
-type: docs
 weight: 12
 url: /zh/net/cad-export-formats/export-dgn-to-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.CAD for .NET 中将 DGN 导出为 PDF
+
 ## 介绍
 
 在 .NET 开发领域，Aspose.CAD 是一个功能强大的库，可促进 CAD 文件的操作和转换。开发人员经常遇到的一项常见任务是将 DGN 文件导出为 PDF 格式。在本教程中，我们将使用 Aspose.CAD for .NET 逐步完成该过程。
@@ -92,3 +98,9 @@ A3：是的，您可以获得免费试用[这里](https://releases.aspose.com/).
 ### Q5: 需要帮助或有疑问吗？
 
 A5：访问[Aspose.CAD论坛](https://forum.aspose.com/c/cad/19)以获得社区支持。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

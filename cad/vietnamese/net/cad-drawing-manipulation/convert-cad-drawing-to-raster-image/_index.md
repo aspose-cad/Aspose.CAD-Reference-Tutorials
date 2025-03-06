@@ -3,10 +3,16 @@ title: Chuyển đổi bản vẽ CAD thành hình ảnh raster trong Aspose.CAD
 linktitle: Chuyển đổi bản vẽ CAD sang hình ảnh raster
 second_title: Aspose.CAD .NET - Định dạng tệp CAD và BIM
 description: Khám phá quy trình chuyển đổi liền mạch bản vẽ CAD sang hình ảnh raster trong .NET với Aspose.CAD. Mở khóa quy trình làm việc hiệu quả và nâng cao các dự án CAD của bạn một cách dễ dàng.
-type: docs
 weight: 11
 url: /vi/net/cad-drawing-manipulation/convert-cad-drawing-to-raster-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Chuyển đổi bản vẽ CAD thành hình ảnh raster trong Aspose.CAD cho .NET
+
 ## Giới thiệu
 
 Trong bối cảnh ngày càng phát triển của thiết kế có sự hỗ trợ của máy tính (CAD), nhu cầu chuyển đổi liền mạch các bản vẽ CAD sang hình ảnh raster là điều tối quan trọng. Hướng dẫn từng bước này khám phá cách đạt được điều này bằng cách sử dụng thư viện Aspose.CAD cho .NET mạnh mẽ. Aspose.CAD đơn giản hóa quy trình, cung cấp cho các nhà phát triển một bộ công cụ mạnh mẽ để nâng cao quy trình công việc liên quan đến CAD của họ.
@@ -118,3 +124,9 @@ Câu trả lời 2: Có, Aspose.CAD cho phép tùy chỉnh rộng rãi các tùy
 ### Câu hỏi 5: Aspose.CAD có giấy phép tạm thời không?
  
  Câu trả lời 5: Có, nhà phát triển có thể nhận giấy phép tạm thời cho Aspose.CAD từ[liên kết này](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

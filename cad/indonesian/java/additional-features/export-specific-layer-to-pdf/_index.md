@@ -3,10 +3,16 @@ title: Ekspor Lapisan Tertentu Gambar DXF ke PDF dengan Aspose.CAD untuk Java
 linktitle: Ekspor Lapisan Tertentu Gambar DXF ke PDF dengan Java
 second_title: Aspose.CAD Java API
 description: Ekspor lapisan tertentu dengan mudah dari gambar DXF ke PDF menggunakan Aspose.CAD untuk Java. Ikuti panduan langkah demi langkah ini untuk integrasi yang lancar.
-type: docs
 weight: 18
 url: /id/java/additional-features/export-specific-layer-to-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ekspor Lapisan Tertentu Gambar DXF ke PDF dengan Aspose.CAD untuk Java
+
 ## Perkenalan
 
 Dalam bidang pengembangan Java, Aspose.CAD menonjol sebagai alat yang ampuh untuk bekerja dengan file Computer-Aided Design (CAD). Di antara fitur-fiturnya yang serbaguna, kemampuan untuk mengekspor lapisan tertentu dari gambar DXF ke file PDF adalah kemampuan yang berharga. Tutorial ini akan memandu Anda melalui proses tersebut, menawarkan petunjuk langkah demi langkah untuk memanfaatkan potensi penuh Aspose.CAD untuk Java.
@@ -104,3 +110,9 @@ A4: Ya, pastikan Anda memiliki lisensi yang valid atau gunakan lisensi sementara
 ### Q5: Di mana saya dapat mencari dukungan atau bantuan tambahan?
 
 A5: Kunjungi[Forum Aspose.CAD](https://forum.aspose.com/c/cad/19) untuk dukungan dan diskusi komunitas.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

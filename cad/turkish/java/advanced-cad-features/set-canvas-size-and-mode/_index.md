@@ -3,10 +3,16 @@ title: Kanvas Boyutunu ve Modunu Ayarlama
 linktitle: Kanvas Boyutunu ve Modunu Ayarlama
 second_title: Aspose.CAD Java API'si
 description: Aspose.CAD for Java'nın gücünü tuval boyutunu ve modunu ayarlamaya ilişkin adım adım kılavuzumuzla keşfedin. CAD dosyalarını zahmetsizce PDF ve TIFF formatlarına dönüştürün.
-type: docs
 weight: 16
 url: /tr/java/advanced-cad-features/set-canvas-size-and-mode/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Kanvas Boyutunu ve Modunu Ayarlama
+
 ## giriiş
 
 CAD dönüştürme sürecinizi geliştirmek için Aspose.CAD for Java'nın gücünden yararlanmak mı istiyorsunuz? Bu kapsamlı kılavuz, Aspose.CAD for Java'yı kullanarak tuval boyutunu ve modunu ayarlama adımlarında size yol gösterecektir. İster deneyimli bir geliştirici olun ister yeni başlıyor olun, bu eğitim size ihtiyacınız olan bilgileri sağlayacaktır.
@@ -126,3 +132,9 @@ Cevap1: Evet, Aspose.CAD çeşitli Java çerçeveleriyle sorunsuz bir şekilde e
 ### S5: Aspose.CAD for Java'yı nasıl satın alabilirim?
 
  A5: Ürünü satın alın[Burada](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

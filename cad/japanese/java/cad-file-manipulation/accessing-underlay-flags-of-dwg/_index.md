@@ -3,10 +3,16 @@ title: Aspose.CAD for Java を使用した DWG のアンダーレイ フラグ�
 linktitle: DWG のアンダーレイ フラグへのアクセス
 second_title: Aspose.CAD Java API
 description: Aspose.CAD for Java で CAD マジックの世界を探索してください。 Java アプリケーションで DWG ファイルを簡単に処理できます。
-type: docs
 weight: 11
 url: /ja/java/cad-file-manipulation/accessing-underlay-flags-of-dwg/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.CAD for Java を使用した DWG のアンダーレイ フラグへのアクセス
+
 ## 導入
 
 コンピュータ支援設計 (CAD) の分野では、精度と効率が最も重要です。 Aspose.CAD for Java は強力な味方として登場し、Java アプリケーションと CAD 機能の間にシームレスなブリッジを提供します。このステップバイステップ ガイドでは、DWG ファイルの処理と Java を使用した貴重な情報の抽出に焦点を当てて、Aspose.CAD の魅力を詳しく説明します。
@@ -112,3 +118,9 @@ A1: Aspose.CAD は主に DWG 形式に重点を置いていますが、DXF、DWF
 ### Q5: Aspose.CAD for Java の包括的なドキュメントはどこで見つけられますか?
 
  A5: を参照してください。[ドキュメンテーション](https://reference.aspose.com/cad/java/)詳細については。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

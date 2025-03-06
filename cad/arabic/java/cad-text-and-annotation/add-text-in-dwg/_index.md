@@ -3,10 +3,16 @@ title: إضافة نص في DWG باستخدام Aspose.CAD لـ Java
 linktitle: إضافة نص في DWG
 second_title: Aspose.CAD جافا API
 description: قم بتحسين رسومات DWG الخاصة بك بسهولة باستخدام Aspose.CAD لـ Java. أضف نصًا بسلاسة باستخدام دليلنا المفصّل خطوة بخطوة.
-type: docs
 weight: 10
 url: /ar/java/cad-text-and-annotation/add-text-in-dwg/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إضافة نص في DWG باستخدام Aspose.CAD لـ Java
+
 ## مقدمة
 
 في عالم التصميم بمساعدة الكمبيوتر (CAD)، يبرز Aspose.CAD for Java كأداة قوية لمعالجة وتحويل رسومات DWG. إحدى ميزاته المفيدة هي القدرة على إضافة نص إلى ملفات DWG بسلاسة. في هذا البرنامج التعليمي، سنرشدك خلال عملية إضافة نص إلى رسومات DWG باستخدام Aspose.CAD لـ Java.
@@ -122,3 +128,9 @@ image.save(dataDir + "SimpleEntites_generated.dwg.pdf", pdfOptions);
 ### س5: كيف يمكنني الحصول على الدعم أو طلب المساعدة فيما يتعلق بـ Aspose.CAD؟
 
 ج5: قم بزيارة[منتدى Aspose.CAD](https://forum.aspose.com/c/cad/19) للحصول على المساعدة والتواصل مع المجتمع.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

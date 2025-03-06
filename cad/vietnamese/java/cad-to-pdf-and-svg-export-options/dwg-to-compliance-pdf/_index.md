@@ -3,10 +3,16 @@ title: DWG sang PDF tuân thủ bằng Aspose.CAD cho Java
 linktitle: DWG sang PDF tuân thủ
 second_title: API Java Aspose.CAD
 description: Dễ dàng chuyển đổi các bản vẽ DWG thành các tệp tương thích PDF/A1a và PDF/A1b bằng Aspose.CAD cho Java. Hợp lý hóa quy trình làm việc của bạn một cách chính xác và dễ dàng.
-type: docs
 weight: 11
 url: /vi/java/cad-to-pdf-and-svg-export-options/dwg-to-compliance-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# DWG sang PDF tuân thủ bằng Aspose.CAD cho Java
+
 ## Giới thiệu
 
 Trong thế giới thiết kế kỹ thuật số ngày càng phát triển, nhu cầu chuyển đổi bản vẽ DWG sang định dạng PDF tuân thủ là rất quan trọng để cộng tác liền mạch và tài liệu được tiêu chuẩn hóa. Aspose.CAD cho Java nổi lên như một công cụ mạnh mẽ, mang lại hiệu quả và độ chính xác trong quy trình này. Trong hướng dẫn này, chúng ta sẽ khám phá cách sử dụng Aspose.CAD cho Java để dễ dàng chuyển đổi các tệp DWG thành các tệp PDF tuân thủ, đảm bảo tuân thủ các tiêu chuẩn PDF/A1a và PDF/A1b.
@@ -111,3 +117,9 @@ A2: Chắc chắn rồi! Aspose.CAD cung cấp nhiều tùy chọn để tùy ch
 ### Câu hỏi 5: Tôi có thể dùng thử Aspose.CAD miễn phí trước khi mua hàng không?
 
  A5: Chắc chắn rồi! Tải xuống phiên bản dùng thử miễn phí từ[đây](https://releases.aspose.com/) để tìm hiểu khả năng trước khi đưa ra quyết định.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

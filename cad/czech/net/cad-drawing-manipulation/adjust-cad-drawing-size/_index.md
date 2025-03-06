@@ -3,10 +3,16 @@ title: Úprava velikosti výkresu CAD v Aspose.CAD pro .NET
 linktitle: Úprava velikosti výkresu CAD
 second_title: Aspose.CAD .NET – formát souborů CAD a BIM
 description: Naučte se, jak snadno upravit velikosti výkresů CAD v .NET pomocí Aspose.CAD. Postupujte podle našeho podrobného průvodce pro bezproblémovou změnu velikosti.
-type: docs
 weight: 10
 url: /cs/net/cad-drawing-manipulation/adjust-cad-drawing-size/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Úprava velikosti výkresu CAD v Aspose.CAD pro .NET
+
 ## Úvod
 
 Chcete plynule upravit velikost výkresů CAD ve svých aplikacích .NET? Aspose.CAD for .NET poskytuje robustní řešení, které vám umožní bez námahy zvládnout změnu velikosti výkresů CAD. V tomto tutoriálu vás provedeme celým procesem a rozebereme každý krok, abyste měli jistotu, že pochopíte složitost změny velikosti výkresů CAD pomocí Aspose.CAD.
@@ -115,3 +121,9 @@ A2: Ano, můžete změnit velikost více rozložení úpravou pole rozložení v
 ### Q5: Jak mohu získat dočasnou licenci pro Aspose.CAD for .NET?
 
  A5: Získejte dočasnou licenci pro testovací účely[tady](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

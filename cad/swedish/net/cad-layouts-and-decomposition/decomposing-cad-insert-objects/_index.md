@@ -3,10 +3,16 @@ title: Nedbrytande CAD Insert Objects - Aspose.CAD Guide
 linktitle: Nedbrytande CAD-insättningsobjekt
 second_title: Aspose.CAD .NET - CAD- och BIM-filformat
 description: Utforska kraften i Aspose.CAD för .NET med vår steg-för-steg-guide om nedbrytning av CAD-insättningsobjekt.
-type: docs
 weight: 11
 url: /sv/net/cad-layouts-and-decomposition/decomposing-cad-insert-objects/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Nedbrytande CAD Insert Objects - Aspose.CAD Guide
+
 ## Introduktion
 
 den dynamiska världen av datorstödd design (CAD) är effektiv manipulation och analys av CAD-filer avgörande för yrkesverksamma inom olika branscher. Aspose.CAD för .NET framstår som en kraftfull lösning som ger utvecklare de verktyg som behövs för att effektivt arbeta med CAD-filer i .NET-miljön.
@@ -100,3 +106,9 @@ Besök köpsidan för att skaffa en licens anpassad efter dina behov[här](https
 ### F5: Hur får jag en tillfällig licens för Aspose.CAD för .NET?
 
  Om du behöver en tillfällig licens kan du hitta nödvändig information[här](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

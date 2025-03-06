@@ -3,10 +3,16 @@ title: Időtúllépés a CAD-mentésnél az Aspose.CAD segítségével
 linktitle: Állítsa be az időtúllépést a Mentés lehetőségre
 second_title: Aspose.CAD Java API
 description: Ismerje meg, hogyan javíthatja Java-alkalmazása teljesítményét az Aspose.CAD segítségével. Tegyen időtúllépést a CAD-rajzok mentésére. Kövesse lépésenkénti útmutatónkat.
-type: docs
 weight: 15
 url: /hu/java/other-cad-operations/put-timeout-on-save/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Időtúllépés a CAD-mentésnél az Aspose.CAD segítségével
+
 ## Bevezetés
 
 Üdvözöljük az Aspose.CAD for Java használatával történő mentés időtúllépésének oktatóanyagában. Ebben az útmutatóban végigvezetjük a CAD-rajzok mentéséhez szükséges időtúllépés beállításának folyamatán, hogy javítsa alkalmazása teljesítményét. Az Aspose.CAD for Java egy hatékony könyvtár, amely lehetővé teszi, hogy zökkenőmentesen dolgozzon a Java-alkalmazásokban lévő CAD-fájlokkal.
@@ -131,3 +137,9 @@ Gratulálunk! Sikeresen megtanulta, hogyan állíthat be időtúllépést a ment
 ### 5. kérdés: Segítségre van szüksége, vagy kérdései vannak?
 
  A5: Menjen át a[Aspose.CAD fórum](https://forum.aspose.com/c/cad/19) közösségi támogatásért.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

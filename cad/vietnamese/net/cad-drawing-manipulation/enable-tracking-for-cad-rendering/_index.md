@@ -3,10 +3,16 @@ title: Bật theo dõi kết xuất CAD trong Aspose.CAD cho .NET
 linktitle: Bật theo dõi để kết xuất CAD
 second_title: Aspose.CAD .NET - Định dạng tệp CAD và BIM
 description: Khám phá sức mạnh của Aspose.CAD cho .NET. Cho phép theo dõi để hiển thị CAD một cách liền mạch. Hãy làm theo hướng dẫn từng bước của chúng tôi để nâng cao khả năng kiểm soát và hiệu quả.
-type: docs
 weight: 13
 url: /vi/net/cad-drawing-manipulation/enable-tracking-for-cad-rendering/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Bật theo dõi kết xuất CAD trong Aspose.CAD cho .NET
+
 ## Giới thiệu
 
 Trong thế giới phát triển phần mềm năng động, Aspose.CAD cho .NET nổi bật như một giải pháp mạnh mẽ để kết xuất Thiết kế hỗ trợ máy tính (CAD). Thư viện mạnh mẽ này trao quyền cho các nhà phát triển tạo, thao tác và hiển thị các tệp CAD một cách liền mạch trong môi trường .NET. Trong hướng dẫn này, chúng ta sẽ đi sâu vào một khía cạnh quan trọng của Aspose.CAD dành cho .NET—cho phép theo dõi kết xuất CAD.
@@ -110,3 +116,9 @@ A2: Chắc chắn rồi! Aspose.CAD cho .NET tích hợp liền mạch với nhi
 ### Câu hỏi 5: Lợi ích của việc bật theo dõi trong kết xuất CAD là gì?
 
 Câu trả lời 5: Việc bật tính năng theo dõi giúp tăng cường khả năng truy nguyên và kiểm soát trong quá trình kết xuất, đảm bảo quy trình làm việc minh bạch và hiệu quả hơn.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

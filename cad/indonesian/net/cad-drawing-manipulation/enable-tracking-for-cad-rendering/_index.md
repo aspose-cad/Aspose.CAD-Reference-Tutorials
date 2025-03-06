@@ -3,10 +3,16 @@ title: Aktifkan Pelacakan untuk Rendering CAD di Aspose.CAD untuk .NET
 linktitle: Aktifkan Pelacakan untuk Rendering CAD
 second_title: Aspose.CAD .NET - Format File CAD dan BIM
 description: Temukan kekuatan Aspose.CAD untuk .NET. Aktifkan pelacakan untuk rendering CAD dengan lancar. Ikuti panduan langkah demi langkah kami untuk meningkatkan kontrol dan efisiensi.
-type: docs
 weight: 13
 url: /id/net/cad-drawing-manipulation/enable-tracking-for-cad-rendering/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aktifkan Pelacakan untuk Rendering CAD di Aspose.CAD untuk .NET
+
 ## Perkenalan
 
 Dalam dunia pengembangan perangkat lunak yang dinamis, Aspose.CAD untuk .NET menonjol sebagai solusi tangguh untuk rendering Computer-Aided Design (CAD). Pustaka canggih ini memberdayakan pengembang untuk membuat, memanipulasi, dan merender file CAD dengan lancar di lingkungan .NET. Dalam tutorial ini, kita akan mempelajari aspek penting Aspose.CAD untuk .NET—mengaktifkan pelacakan untuk rendering CAD.
@@ -110,3 +116,9 @@ A2: Tentu saja! Aspose.CAD untuk .NET terintegrasi secara mulus dengan berbagai 
 ### Q5: Apa manfaat mengaktifkan pelacakan dalam rendering CAD?
 
 A5: Mengaktifkan pelacakan akan meningkatkan kemampuan penelusuran dan kontrol selama proses rendering, memastikan alur kerja yang lebih transparan dan efisien.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

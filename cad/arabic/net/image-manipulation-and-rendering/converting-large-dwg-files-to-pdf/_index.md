@@ -3,10 +3,16 @@ title: تحويل ملفات DWG الكبيرة إلى PDF - البرنامج ا
 linktitle: تحويل ملفات DWG الكبيرة إلى PDF
 second_title: Aspose.CAD .NET - تنسيق ملف CAD وBIM
 description: قم بتحويل ملفات DWG الكبيرة بسهولة إلى PDF باستخدام Aspose.CAD لـ .NET. قم بتبسيط عمليات CAD الخاصة بك من خلال هذا البرنامج التعليمي خطوة بخطوة.
-type: docs
 weight: 12
 url: /ar/net/image-manipulation-and-rendering/converting-large-dwg-files-to-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تحويل ملفات DWG الكبيرة إلى PDF - البرنامج التعليمي Aspose.CAD
+
 ## مقدمة
 
 في المجال الديناميكي لمعالجة ملفات CAD، يمثل Aspose.CAD for .NET أداة قوية تقدم حلولاً سلسة لتحويل ملفات DWG الكبيرة إلى PDF. سيرشدك هذا البرنامج التعليمي خلال العملية، مع تفصيل كل خطوة لضمان الانتقال السلس من هياكل CAD المعقدة إلى مستندات PDF التي يمكن الوصول إليها عالميًا.
@@ -110,3 +116,9 @@ A1: نعم، يدعم Aspose.CAD for .NET المعالجة المجمعة، مم
 ### س5: أين يمكنني طلب المساعدة أو مشاركة الملاحظات؟
 
 ج5: قم بزيارة[منتدى Aspose.CAD](https://forum.aspose.com/c/cad/19) للتواصل مع المجتمع أو طلب الدعم أو تقديم الملاحظات.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

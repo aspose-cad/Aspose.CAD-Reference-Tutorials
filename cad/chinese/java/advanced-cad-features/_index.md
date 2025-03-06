@@ -3,10 +3,16 @@ title: 高级 CAD 功能
 linktitle: 高级 CAD 功能
 second_title: Aspose.CAD Java API
 description: 使用 Aspose.CAD for Java 教程提升您的 CAD 开发水平。了解启用跟踪、集成 IGES 格式、主网格支持、自定义笔导出、读取 DWT 文件等。
-type: docs
 weight: 24
 url: /zh/java/advanced-cad-features/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 高级 CAD 功能
+
 
 ## 介绍
 
@@ -66,3 +72,9 @@ Java CAD 开发中的主控层支持。轻松组织和导出工程图，增强 C
 使用 Aspose.CAD 进行 Java CAD 开发的主控层支持。轻松组织和导出图纸。
 ### [在 Java 中使用 Aspose.CAD 从外部引用中提取块属性值](./extract-block-attribute-value/)
 探索有关使用 Aspose.CAD 从 Java 中的 DWG 外部引用中提取块属性值的教程。轻松增强您的 CAD 开发工作流程。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Lecture de DWT dans Aspose.CAD pour .NET
 linktitle: Lecture du DWT
 second_title: Aspose.CAD .NET - Format de fichier CAO et BIM
 description: Explorez Aspose.CAD pour .NET. Un outil puissant pour lire les fichiers DWT sans effort. Améliorez l’intégration de vos données CAO avec notre didacticiel convivial.
-type: docs
 weight: 13
 url: /fr/net/cad-features-and-support/reading-dwt/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Lecture de DWT dans Aspose.CAD pour .NET
+
 ## Introduction
 
 Libérez la puissance d'Aspose.CAD pour .NET pour lire efficacement les fichiers DWT et exploiter le potentiel des données CAO dans vos applications. Dans ce didacticiel complet, nous vous guiderons étape par étape tout au long du processus, garantissant une intégration fluide d'Aspose.CAD dans vos projets .NET.
@@ -92,3 +98,9 @@ A1 : Aspose.CAD prend en charge une large gamme de formats CAO, y compris divers
 ### Q5 : Des licences temporaires sont-elles disponibles ?
 
  A5 : Oui, des licences temporaires peuvent être obtenues[ici](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

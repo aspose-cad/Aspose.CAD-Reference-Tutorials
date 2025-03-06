@@ -3,10 +3,16 @@ title: Vervang het lettertype van een bepaalde stijl in DWG met Aspose.CAD voor 
 linktitle: Vervang het lettertype van een bepaalde stijl in DWG
 second_title: Aspose.CAD Java-API
 description: Leer hoe u lettertypen in DWG-bestanden vervangt met Aspose.CAD voor Java. Stapsgewijze handleiding voor het nauwkeurig aanpassen van stijlen.
-type: docs
 weight: 12
 url: /nl/java/cad-text-and-annotation/substitute-font-of-particular-style-in-dwg/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Vervang het lettertype van een bepaalde stijl in DWG met Aspose.CAD voor Java
+
 ## Invoering
 
 In de wereld van CAD (Computer-Aided Design) staan precisie en detail voorop. Aspose.CAD voor Java komt naar voren als een krachtig hulpmiddel voor het manipuleren van CAD-tekeningen en biedt uitgebreide functionaliteiten voor ontwikkelaars. Eén van deze essentiële functies is de mogelijkheid om lettertypen binnen een DWG-bestand te vervangen, waardoor consistentie en maatwerk worden gegarandeerd.
@@ -92,3 +98,9 @@ A4: Hoewel het voorbeeld zich richt op DWG, kunnen vergelijkbare principes worde
 ### V5: Hoe kan ik ondersteuning krijgen voor Aspose.CAD voor Java?
 
 A5: Bezoek de[Aspose.CAD-forum](https://forum.aspose.com/c/cad/19) voor gemeenschapsondersteuning en discussies.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

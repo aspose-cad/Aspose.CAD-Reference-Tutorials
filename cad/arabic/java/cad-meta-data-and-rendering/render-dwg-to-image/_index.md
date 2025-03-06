@@ -3,10 +3,16 @@ title: تحويل مستند DWG إلى صورة باستخدام Aspose.CAD ل�
 linktitle: تقديم مستند DWG إلى صورة باستخدام Java
 second_title: Aspose.CAD جافا API
 description: استكشف التكامل السلس لـ Aspose.CAD لـ Java في تحويل مستندات DWG إلى صور. اتبع دليلنا خطوة بخطوة للحصول على نتائج فعالة.
-type: docs
 weight: 11
 url: /ar/java/cad-meta-data-and-rendering/render-dwg-to-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تحويل مستند DWG إلى صورة باستخدام Aspose.CAD لـ Java
+
 ## مقدمة
 
 في عالم تطوير Java الديناميكي، يبرز Aspose.CAD كأداة قوية للتعامل مع ملفات التصميم بمساعدة الكمبيوتر (CAD). في هذا البرنامج التعليمي، سنستكشف عملية عرض مستند DWG على صورة باستخدام Aspose.CAD لـ Java. سواء كنت مطورًا متمرسًا أو بدأت للتو رحلة البرمجة، فسيرشدك هذا الدليل خطوة بخطوة خلال العملية بوضوح وسهولة.
@@ -105,3 +111,9 @@ image.save(dataDir + "ExportSpecificLayoutToPDF_out_.pdf", pdfOptions);
 ### س5: هل هناك المزيد من خيارات العرض المتاحة في Aspose.CAD؟
 
  ج5: بالتأكيد، استكشاف واسعة النطاق[توثيق](https://reference.aspose.com/cad/java/) للحصول على معلومات مفصلة.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

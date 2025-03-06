@@ -3,10 +3,16 @@ title: Χρονικό όριο στην Αποθήκευση για CAD με Asp
 linktitle: Βάλτε το Timeout στην Αποθήκευση
 second_title: Aspose.CAD Java API
 description: Μάθετε πώς να ενισχύσετε την απόδοση της εφαρμογής Java με το Aspose.CAD. Βάλτε ένα χρονικό όριο αποθήκευσης για σχέδια CAD. Ακολουθήστε τον βήμα προς βήμα οδηγό μας.
-type: docs
 weight: 15
 url: /el/java/other-cad-operations/put-timeout-on-save/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Χρονικό όριο στην Αποθήκευση για CAD με Aspose.CAD
+
 ## Εισαγωγή
 
 Καλώς ήρθατε στο σεμινάριο σχετικά με την τοποθέτηση χρονικού ορίου κατά την αποθήκευση χρησιμοποιώντας το Aspose.CAD για Java. Σε αυτόν τον οδηγό, θα σας καθοδηγήσουμε στη διαδικασία ορισμού ενός χρονικού ορίου για την αποθήκευση σχεδίων CAD για τη βελτίωση της απόδοσης της εφαρμογής σας. Το Aspose.CAD για Java είναι μια ισχυρή βιβλιοθήκη που σας επιτρέπει να εργάζεστε με αρχεία CAD στις εφαρμογές σας Java χωρίς προβλήματα.
@@ -131,3 +137,9 @@ A3: Ναι, μπορείτε να λάβετε δωρεάν δοκιμή από[
 ### Ε5: Χρειάζεστε βοήθεια ή έχετε ερωτήσεις;
 
  Α5: Κατευθυνθείτε προς το[Φόρουμ Aspose.CAD](https://forum.aspose.com/c/cad/19) για κοινοτική υποστήριξη.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

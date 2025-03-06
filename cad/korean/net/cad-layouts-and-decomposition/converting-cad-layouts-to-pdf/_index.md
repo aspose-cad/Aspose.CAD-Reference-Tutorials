@@ -3,10 +3,16 @@ title: CAD 레이아웃을 PDF로 변환 - Aspose.CAD 튜토리얼
 linktitle: CAD 레이아웃을 PDF로 변환
 second_title: Aspose.CAD .NET - CAD 및 BIM 파일 형식
 description: Aspose.CAD for .NET을 사용하여 CAD 레이아웃을 PDF로 손쉽게 변환하세요. 원활한 통합을 위한 단계별 가이드를 따르세요.
-type: docs
 weight: 10
 url: /ko/net/cad-layouts-and-decomposition/converting-cad-layouts-to-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# CAD 레이아웃을 PDF로 변환 - Aspose.CAD 튜토리얼
+
 ## 소개
 
 CAD 레이아웃을 PDF로 원활하게 변환하고 싶으십니까? .NET용 Aspose.CAD는 이 프로세스를 효율적이고 간단하게 만드는 강력한 솔루션을 제공합니다. 이 튜토리얼에서는 개발자가 CAD 파일을 쉽게 작업할 수 있도록 지원하는 강력한 API인 Aspose.CAD를 사용하는 단계를 안내합니다.
@@ -129,3 +135,9 @@ A3: 제공된 래스터화 및 그래픽 옵션을 사용하여 PDF 출력을 �
 ### Q5: 어디서 지원을 받거나 질문을 할 수 있나요?
 
 A5: 다음을 방문하세요.[Aspose.CAD 포럼](https://forum.aspose.com/c/cad/19) 도움과 토론을 위해.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

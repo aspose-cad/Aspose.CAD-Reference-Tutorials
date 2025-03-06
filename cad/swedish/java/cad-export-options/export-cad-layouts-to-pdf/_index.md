@@ -3,10 +3,16 @@ title: Exportera CAD-layouter till PDF med Aspose.CAD för Java
 linktitle: Exportera CAD-layouter till PDF
 second_title: Aspose.CAD Java API
 description: Utforska Aspose.CAD för Java för att enkelt exportera CAD-layouter till PDF. Effektiv, pålitlig och utvecklarvänlig.
-type: docs
 weight: 11
 url: /sv/java/cad-export-options/export-cad-layouts-to-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Exportera CAD-layouter till PDF med Aspose.CAD för Java
+
 ## Introduktion
 
 Inom det ständigt utvecklande området datorstödd design (CAD) framstår Aspose.CAD för Java som ett kraftfullt verktyg för att manipulera och konvertera CAD-filer. I den här handledningen kommer vi att guida dig genom processen att exportera CAD-layouter till PDF med Aspose.CAD för Java. Oavsett om du är en erfaren utvecklare eller bara dyker in i CAD-världen, hjälper den här steg-för-steg-guiden dig att utnyttja hela potentialen i detta mångsidiga Java-bibliotek.
@@ -107,3 +113,9 @@ S4: Automatisk layoutskalning justerar layoutstorleken baserat på de angivna si
 ### F5: Kan jag anpassa utseendet på exporterade PDF-filer?
 
 S5: Ja, du kan anpassa grafikalternativen i koden för att kontrollera kvaliteten och utseendet på den exporterade PDF-filen.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

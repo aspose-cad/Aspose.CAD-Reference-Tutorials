@@ -3,10 +3,16 @@ title: Υποστήριξη αποκοπής μπλοκ σε CAD - Εκμάθη�
 linktitle: Υποστήριξη αποκοπής μπλοκ σε CAD
 second_title: Aspose.CAD .NET - Μορφή αρχείου CAD και BIM
 description: Μάθετε πώς μπορείτε να εφαρμόσετε την αποκοπή μπλοκ σε CAD χρησιμοποιώντας το Aspose.CAD για .NET. Βελτιώστε τις σχεδιαστικές σας δυνατότητες με αυτό το βήμα προς βήμα σεμινάριο.
-type: docs
 weight: 12
 url: /el/net/layout-and-object-handling/supporting-block-clipping-in-cad/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Υποστήριξη αποκοπής μπλοκ σε CAD - Εκμάθηση Aspose.CAD
+
 ## Εισαγωγή
 
 Καλώς ήρθατε σε ένα ολοκληρωμένο σεμινάριο για την υποστήριξη αποκοπής μπλοκ σε CAD χρησιμοποιώντας το Aspose.CAD για .NET. Το Aspose.CAD είναι μια ισχυρή βιβλιοθήκη που επιτρέπει στους προγραμματιστές να εργάζονται απρόσκοπτα με αρχεία CAD στις εφαρμογές τους .NET. Σε αυτό το σεμινάριο, θα επικεντρωθούμε στην εφαρμογή αποκοπής μπλοκ, ένα βασικό χαρακτηριστικό στο σχεδιασμό CAD.
@@ -122,3 +128,9 @@ A1: Το Aspose.CAD έχει σχεδιαστεί κυρίως για εφαρμ
 ### Ε5: Μπορώ να χρησιμοποιήσω το Aspose.CAD χωρίς μόνιμη άδεια χρήσης;
 
  A5: Ναι, μπορείτε να αποκτήσετε προσωρινή άδεια[εδώ](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

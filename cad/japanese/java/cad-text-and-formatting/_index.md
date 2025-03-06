@@ -3,10 +3,16 @@ title: CAD テキストと書式設定
 linktitle: CAD テキストと書式設定
 second_title: Aspose.CAD Java API
 description: チュートリアルで Aspose.CAD for Java の可能性を解き放ちます。テキスト検索、隠線、MLleader エンティティ、および MText 属性を学習して、CAD アプリを強化します。
-type: docs
 weight: 28
 url: /ja/java/cad-text-and-formatting/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# CAD テキストと書式設定
+
 ## はじめに
 Aspose.CAD for Java を使用した CAD テキストと書式設定チュートリアルに関する包括的なガイドへようこそ。経験豊富な開発者であっても、CAD アプリケーションを使い始めたばかりであっても、これらのチュートリアルはスキルを次のレベルに引き上げるのに役立ちます。
 
@@ -37,3 +43,9 @@ Aspose.CAD を使用して Java アプリケーションの DWG ファイル操�
 DWG 形式の MLeader エンティティのサポートに関するステップバイステップのチュートリアルで、Aspose.CAD for Java の機能を最大限に活用してください。
 ### [Aspose.CAD for Java を使用して DWG ファイルの MText に属性を追加する](./add-attributes-to-mtext/)
 Aspose.CAD for Java を使用して DWG ファイルの MText に属性を追加する方法を学習します。このステップバイステップのガイドを使用して、CAD 図面を向上させます。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

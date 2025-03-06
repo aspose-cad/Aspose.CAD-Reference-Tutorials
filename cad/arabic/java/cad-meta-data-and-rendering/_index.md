@@ -3,10 +3,16 @@ title: البيانات الوصفية والعرض CAD
 linktitle: البيانات الوصفية والعرض CAD
 second_title: Aspose.CAD جافا API
 description: أطلق العنان لقوة Aspose.CAD لـ Java من خلال برامجنا التعليمية! تعلم كيفية قراءة بيانات تعريف XREF بسهولة وتقديم مستندات DWG إلى صور لتحسين تطوير CAD.
-type: docs
 weight: 27
 url: /ar/java/cad-meta-data-and-rendering/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# البيانات الوصفية والعرض CAD
+
 
 
 ## مقدمة
@@ -33,3 +39,9 @@ url: /ar/java/cad-meta-data-and-rendering/
 استكشف Aspose.CAD لـ Java وأتقن قراءة بيانات تعريف XREF من ملفات DWG دون عناء. عزز تطوير التصميم بمساعدة الكمبيوتر لديك باستخدام مكتبة Java القوية هذه.
 ### [تحويل مستند DWG إلى صورة باستخدام Aspose.CAD لـ Java](./render-dwg-to-image/)
 استكشف التكامل السلس لـ Aspose.CAD لـ Java في تحويل مستندات DWG إلى صور. اتبع دليلنا خطوة بخطوة للحصول على نتائج فعالة.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

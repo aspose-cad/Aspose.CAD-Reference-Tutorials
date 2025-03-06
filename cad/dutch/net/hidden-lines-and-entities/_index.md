@@ -3,10 +3,16 @@ title: Verborgen lijnen en entiteiten
 linktitle: Verborgen lijnen en entiteiten
 second_title: Aspose.CAD .NET - CAD- en BIM-bestandsindeling
 description: Ontgrendel moeiteloos verborgen lijnen in DWG-bestanden met Aspose.CAD voor .NET. Verbeter uw CAD-projecten met onze stapsgewijze handleiding.
-type: docs
 weight: 29
 url: /nl/net/hidden-lines-and-entities/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Verborgen lijnen en entiteiten
+
 
 
 ## Invoering
@@ -39,3 +45,9 @@ Kortom, of u zich nu richt op het ontsluiten van verborgen lijnen of het benutte
 Ontgrendel moeiteloos verborgen lijnen in DWG-bestanden met Aspose.CAD voor .NET. Volg onze stapsgewijze handleiding voor een naadloze integratie.
 ### [Ondersteuning van MLeader-entiteit voor DWG-formaat - Aspose.CAD-handleiding](./supporting-mleader-entity-for-dwg-format/)
 Ontgrendel de kracht van MLeader-entiteiten in DWG-formaat met Aspose.CAD voor .NET. Verbeter uw CAD-projecten moeiteloos.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Obtendo atributos de bloco de arquivos DWG - Tutorial Aspose.CAD
 linktitle: Obtendo atributos de bloco de arquivos DWG
 second_title: Aspose.CAD .NET - Formato de arquivo CAD e BIM
 description: Libere o potencial dos arquivos CAD com Aspose.CAD for .NET. Extraia atributos de bloco sem esforço.
-type: docs
 weight: 10
 url: /pt/net/image-manipulation-and-rendering/getting-block-attributes-from-dwg/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Obtendo atributos de bloco de arquivos DWG - Tutorial Aspose.CAD
+
 ## Introdução
 
 No mundo dinâmico do Computer-Aided Design (CAD), extrair informações valiosas de arquivos DWG é crucial para muitas aplicações. Aspose.CAD for .NET fornece uma solução poderosa para trabalhar com arquivos CAD de forma eficiente. Neste tutorial, nos aprofundaremos no processo de recuperação de atributos de bloco de arquivos DWG usando Aspose.CAD, passo a passo.
@@ -93,3 +99,9 @@ A1: Sim, Aspose.CAD suporta vários formatos CAD, incluindo DWG, DXF, DWT e DGN.
 ### Q5: Onde posso encontrar a documentação do Aspose.CAD for .NET?
 
  A5: Consulte o abrangente[documentação](https://reference.aspose.com/cad/net/) para obter informações detalhadas e exemplos.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

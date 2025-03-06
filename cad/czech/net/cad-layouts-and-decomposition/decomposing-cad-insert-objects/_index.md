@@ -3,10 +3,16 @@ title: Rozkládání objektů vložení CAD - Průvodce Aspose.CAD
 linktitle: Rozkládání CAD objektů
 second_title: Aspose.CAD .NET – formát souborů CAD a BIM
 description: Prozkoumejte sílu Aspose.CAD pro .NET pomocí našeho podrobného průvodce rozkladem objektů CAD vkládání.
-type: docs
 weight: 11
 url: /cs/net/cad-layouts-and-decomposition/decomposing-cad-insert-objects/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Rozkládání objektů vložení CAD - Průvodce Aspose.CAD
+
 ## Úvod
 
 dynamickém světě počítačově podporovaného navrhování (CAD) je efektivní manipulace a analýza souborů CAD zásadní pro profesionály v různých odvětvích. Aspose.CAD for .NET se ukazuje jako výkonné řešení, které poskytuje vývojářům nástroje potřebné pro efektivní práci se soubory CAD v prostředí .NET.
@@ -100,3 +106,9 @@ Chcete-li získat licenci přizpůsobenou vašim potřebám, navštivte stránku
 ### Q5: Jak získám dočasnou licenci pro Aspose.CAD for .NET?
 
  Pokud potřebujete dočasnou licenci, najdete potřebné informace[tady](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

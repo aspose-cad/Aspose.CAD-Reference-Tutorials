@@ -3,10 +3,16 @@ title: Ajustement automatique de la taille du dessin CAO à l'aide d'Aspose.CAD 
 linktitle: Ajustement automatique de la taille du dessin CAO
 second_title: API Java Aspose.CAD
 description: Explorez le processus transparent d'ajustement automatique des tailles de dessin CAO en Java à l'aide d'Aspose.CAD. Suivez notre guide étape par étape pour une manipulation efficace des fichiers CAO.
-type: docs
 weight: 13
 url: /fr/java/cad-file-manipulation/auto-adjusting-cad-drawing-size/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ajustement automatique de la taille du dessin CAO à l'aide d'Aspose.CAD pour Java
+
 ## Introduction
 
 Dans le monde de la CAO (Conception Assistée par Ordinateur), l'ajustement de la taille des dessins est une exigence courante, et avec Aspose.CAD pour Java, cela devient un processus transparent. Cette puissante bibliothèque fournit des outils complets pour gérer les fichiers CAO dans les applications Java. Dans ce didacticiel, nous explorerons le processus étape par étape d'ajustement automatique des tailles de dessin CAO à l'aide d'Aspose.CAD.
@@ -107,3 +113,9 @@ A1 : Oui, Aspose.CAD prend en charge divers formats de CAO, notamment DWG, DXF, 
 ### Q5 : Existe-t-il un essai gratuit disponible pour Aspose.CAD pour Java ?
 
  A5 : Oui, vous pouvez accéder à l'essai gratuit[ici](https://releases.aspose.com/) pour explorer les capacités de la bibliothèque.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

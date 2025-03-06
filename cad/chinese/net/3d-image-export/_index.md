@@ -3,10 +3,16 @@ title: 3D 图像导出
 linktitle: 3D 图像导出
 second_title: Aspose.CAD .NET - CAD 和 BIM 文件格式
 description: 使用 Aspose.CAD for .NET 轻松将 3D CAD 图像导出为 PDF。请按照我们的教程进行无缝 PDF 转换。学习高效的 3D 图像导出技术。
-type: docs
 weight: 35
 url: /zh/net/3d-image-export/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 3D 图像导出
+
 
 ## 介绍
 
@@ -34,3 +40,9 @@ Aspose.CAD for .NET 无缝集成到您现有的工作流程中。本教程深入
 ## 3D 图像导出教程
 ### [将 3D 图像导出为 PDF - Aspose.CAD 教程](./exporting-3d-images-to-pdf/)
 使用 Aspose.CAD for .NET 轻松将 3D CAD 图像转换为 PDF。按照我们的分步教程进行无缝 PDF 导出。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

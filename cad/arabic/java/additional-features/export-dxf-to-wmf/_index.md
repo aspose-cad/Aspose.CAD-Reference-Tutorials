@@ -3,10 +3,16 @@ title: تصدير DXF إلى تنسيق WMF باستخدام Aspose.CAD في Jav
 linktitle: تصدير DXF إلى تنسيق WMF باستخدام Java
 second_title: Aspose.CAD جافا API
 description: أطلق العنان لقوة Aspose.CAD لـ Java. تعرف على كيفية تصدير رسومات DXF إلى تنسيق WMF بسهولة من خلال برنامجنا التعليمي التفصيلي. قم بتنزيل المكتبة، واتبع دليلنا خطوة بخطوة، وقم برفع مستوى التعامل مع ملفات CAD.
-type: docs
 weight: 14
 url: /ar/java/additional-features/export-dxf-to-wmf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تصدير DXF إلى تنسيق WMF باستخدام Aspose.CAD في Java
+
 ## مقدمة
 
 مرحبًا بك في دليلنا خطوة بخطوة حول استخدام Aspose.CAD لـ Java لتصدير رسومات DXF إلى تنسيق WMF. Aspose.CAD هي مكتبة Java قوية توفر إمكانيات واسعة للعمل مع ملفات CAD. في هذا البرنامج التعليمي، سنرشدك خلال عملية تحويل ملفات DXF إلى تنسيق WMF باستخدام Aspose.CAD.
@@ -109,3 +115,9 @@ image.save(dataDir + "conic_pyramid_out_.pdf");
 ### س5: أين يمكنني الحصول على الدعم؟
 
  ج5: قم بزيارة منتدى دعم Aspose.CAD[هنا](https://forum.aspose.com/c/cad/19).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

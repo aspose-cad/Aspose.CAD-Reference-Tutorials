@@ -3,10 +3,16 @@ title: Configuración de escala de diseño automático en Aspose.CAD para .NET
 linktitle: Configuración de escala de diseño automático
 second_title: Aspose.CAD .NET - Formato de archivo CAD y BIM
 description: Mejore la representación CAD con Aspose.CAD para .NET. Aprenda a configurar la escala de diseño automática para una representación de archivos precisa y adaptable.
-type: docs
 weight: 14
 url: /es/net/cad-features-and-support/setting-auto-layout-scaling/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Configuración de escala de diseño automático en Aspose.CAD para .NET
+
 En el ámbito dinámico del desarrollo .NET, optimizar la representación de archivos de diseño asistido por computadora (CAD) es un aspecto crucial para crear aplicaciones eficientes y visualmente atractivas. Aspose.CAD para .NET permite a los desarrolladores mejorar sus capacidades de procesamiento CAD y, en este tutorial, nos centraremos en configurar la escala de diseño automática utilizando Aspose.CAD para .NET.
 
 ## Requisitos previos
@@ -107,3 +113,9 @@ R4: Por supuesto, Aspose.CAD proporciona una amplia gama de opciones para person
 ### P5: ¿Dónde puedo encontrar recursos adicionales y soporte para Aspose.CAD?
 
  A5: Explora el[Foro Aspose.CAD](https://forum.aspose.com/c/cad/19) para obtener apoyo de la comunidad y consulte la[documentación](https://reference.aspose.com/cad/net/) para obtener información detallada.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

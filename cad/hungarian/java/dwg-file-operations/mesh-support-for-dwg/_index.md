@@ -3,10 +3,16 @@ title: Engedélyezze a Mesh-támogatást a DWG-fájlokhoz Java-ban
 linktitle: Engedélyezze a Mesh-támogatást a DWG-fájlokhoz Java-ban
 second_title: Aspose.CAD Java API
 description: Ismerje meg a DWG-fájlok mesh-támogatásának engedélyezését Java nyelven az Aspose.CAD segítségével. Lépésről lépésre útmutató a zökkenőmentes 3D-s rajzkezeléshez. #Javaprogramozás #CADFiles
-type: docs
 weight: 12
 url: /hu/java/dwg-file-operations/mesh-support-for-dwg/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Engedélyezze a Mesh-támogatást a DWG-fájlokhoz Java-ban
+
 ## Bevezetés
 
 A Java programozás dinamikus világában a CAD-fájlok hatékony kezelése kulcsfontosságú. Aspose.CAD for Java jön a segítségre, hatékony eszközöket biztosítva a DWG-fájlok kezelésére. Ebben az oktatóanyagban a DWG-fájlok mesh-támogatásának engedélyezésével foglalkozunk az Aspose.CAD használatával, amely lehetővé teszi a bonyolult 3D-s rajzok zökkenőmentes munkáját.
@@ -116,3 +122,9 @@ Ebben az oktatóanyagban megvizsgáltuk a DWG-fájlok mesh-támogatásának enge
 ### 5. kérdés: Segítségre van szüksége, vagy kérdései vannak?
 
 A5: Látogassa meg a[Aspose.CAD fórum](https://forum.aspose.com/c/cad/19) dedikált támogatásért.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

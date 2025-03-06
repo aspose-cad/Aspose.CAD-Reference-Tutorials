@@ -3,10 +3,16 @@ title: Ukryte linie i elementy
 linktitle: Ukryte linie i elementy
 second_title: Aspose.CAD .NET - Format plików CAD i BIM
 description: Odblokuj ukryte linie w plikach DWG bez wysiłku dzięki Aspose.CAD dla .NET. Ulepsz swoje projekty CAD dzięki naszemu przewodnikowi krok po kroku.
-type: docs
 weight: 29
 url: /pl/net/hidden-lines-and-entities/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ukryte linie i elementy
+
 
 
 ## Wstęp
@@ -39,3 +45,9 @@ Podsumowując, niezależnie od tego, czy koncentrujesz się na odkrywaniu ukryty
 Odblokuj ukryte linie w plikach DWG bez wysiłku dzięki Aspose.CAD dla .NET. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby zapewnić bezproblemową integrację.
 ### [Obsługa encji MLeader dla formatu DWG - Przewodnik Aspose.CAD](./supporting-mleader-entity-for-dwg-format/)
 Odblokuj moc jednostek MLeader w formacie DWG z Aspose.CAD dla .NET. Ulepsz swoje projekty CAD bez wysiłku.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

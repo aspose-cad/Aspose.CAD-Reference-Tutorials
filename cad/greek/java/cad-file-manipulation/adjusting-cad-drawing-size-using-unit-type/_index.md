@@ -3,10 +3,16 @@ title: Προσαρμογή μεγέθους σχεδίου CAD με χρήση 
 linktitle: Προσαρμογή μεγέθους σχεδίου CAD με χρήση του τύπου μονάδας
 second_title: Aspose.CAD Java API
 description: Εξερευνήστε τη δύναμη του Aspose.CAD για Java στην προσαρμογή των μεγεθών σχεδίασης CAD χωρίς κόπο. Ακολουθήστε τον βήμα προς βήμα οδηγό μας για ακρίβεια και προσαρμοστικότητα.
-type: docs
 weight: 14
 url: /el/java/cad-file-manipulation/adjusting-cad-drawing-size-using-unit-type/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Προσαρμογή μεγέθους σχεδίου CAD με χρήση Unit Type με Aspose.CAD για Java
+
 ## Εισαγωγή
 
 Στη συνεχώς εξελισσόμενη σφαίρα του Computer-Aided Design (CAD), η ακρίβεια και η προσαρμοστικότητα είναι πρωταρχικής σημασίας. Μια κοινή απαίτηση είναι η προσαρμογή του μεγέθους των σχεδίων CAD με βάση συγκεκριμένους τύπους μονάδων. Το Aspose.CAD για Java αναδεικνύεται ως ένας ισχυρός σύμμαχος, παρέχοντας απρόσκοπτες δυνατότητες χειρισμού αρχείων CAD μέσω προγραμματισμού.
@@ -117,3 +123,9 @@ A1: Το Aspose.CAD υποστηρίζει κυρίως Java, αλλά υπάρ�
 ### Ε5: Μπορώ να αποκτήσω μια προσωρινή άδεια για το Aspose.CAD;
 
  A5: Ναι, μπορείτε να αποκτήσετε μια προσωρινή άδεια[εδώ](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Aggiunta di filigrane ai disegni CAD - Guida Aspose.CAD
 linktitle: Aggiunta di filigrane ai disegni CAD
 second_title: Aspose.CAD .NET - Formato file CAD e BIM
 description: Migliora i tuoi disegni CAD con filigrane professionali utilizzando Aspose.CAD per .NET. Segui la nostra guida passo passo per progetti personalizzati e accattivanti.
-type: docs
 weight: 11
 url: /it/net/plt-and-watermarking/adding-watermarks-to-cad-drawings/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aggiunta di filigrane ai disegni CAD - Guida Aspose.CAD
+
 ## introduzione
 
 Stai cercando di migliorare i tuoi disegni CAD aggiungendo filigrane professionali? Aspose.CAD per .NET fornisce una soluzione solida per integrare perfettamente le filigrane nei file CAD. In questa guida passo passo, ti guideremo attraverso il processo di aggiunta di filigrane utilizzando Aspose.CAD, assicurandoti che i tuoi disegni non solo trasmettano informazioni critiche ma portino anche il tuo segno unico.
@@ -104,3 +110,9 @@ A4: Sì, puoi esplorare le funzionalità di Aspose.CAD con una prova gratuita. P
 ### Q5: Dove posso trovare supporto per Aspose.CAD?
 
  R5: Per qualsiasi domanda o assistenza, visitare il[Forum Aspose.CAD](https://forum.aspose.com/c/cad/19).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

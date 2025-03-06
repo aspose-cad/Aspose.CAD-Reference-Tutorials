@@ -3,10 +3,16 @@ title: Текст САПР и форматирование
 linktitle: Текст САПР и форматирование
 second_title: API Aspose.CAD Java
 description: Раскройте потенциал Aspose.CAD для Java с помощью учебных пособий. Изучите текстовый поиск, скрытые линии, объекты MLeader и атрибуты MText, чтобы улучшить свое приложение САПР.
-type: docs
 weight: 28
 url: /ru/java/cad-text-and-formatting/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Текст САПР и форматирование
+
 ## Введение
 Добро пожаловать в наше подробное руководство по урокам САПР-текста и форматирования с использованием Aspose.CAD для Java. Независимо от того, являетесь ли вы опытным разработчиком или только начинаете работать с приложениями САПР, эти учебные пособия помогут вам поднять свои навыки на новый уровень.
 
@@ -37,3 +43,9 @@ url: /ru/java/cad-text-and-formatting/
 Раскройте возможности Aspose.CAD для Java с помощью нашего пошагового руководства по поддержке объектов MLeader в формате DWG.
 ### [Добавление атрибутов в MText в файлах DWG с помощью Aspose.CAD для Java](./add-attributes-to-mtext/)
 Узнайте, как добавлять атрибуты в MText в файлах DWG с помощью Aspose.CAD для Java. Улучшите свои чертежи САПР с помощью этого пошагового руководства.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

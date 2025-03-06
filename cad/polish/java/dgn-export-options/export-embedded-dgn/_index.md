@@ -3,10 +3,16 @@ title: Eksportuj osadzone DGN do formatu PDF za pomocą Aspose.CAD dla Java
 linktitle: Eksportuj osadzone DGN
 second_title: Aspose.CAD API Java
 description: Zapoznaj się z przewodnikiem krok po kroku dotyczącym eksportowania osadzonych plików DGN do formatu PDF przy użyciu Aspose.CAD dla Java. Ulepsz swoje aplikacje Java dzięki płynnej manipulacji plikami CAD.
-type: docs
 weight: 11
 url: /pl/java/dgn-export-options/export-embedded-dgn/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Eksportuj osadzone DGN do formatu PDF za pomocą Aspose.CAD dla Java
+
 ## Wstęp
 
 Witamy w tym kompleksowym samouczku na temat eksportowania osadzonych plików DGN przy użyciu Aspose.CAD dla Java. Aspose.CAD to potężna biblioteka, która umożliwia programistom Java płynną pracę z plikami CAD. W tym samouczku poprowadzimy Cię przez proces eksportowania osadzonych plików DGN do formatu PDF, korzystając z instrukcji krok po kroku. Niezależnie od tego, czy jesteś doświadczonym programistą, czy dopiero zaczynasz, ten samouczek pomoże Ci wykorzystać możliwości Aspose.CAD w celu ulepszenia aplikacji Java.
@@ -103,3 +109,9 @@ A3: Możesz szukać pomocy w społeczności Aspose.CAD na stronie[forum](https:/
 ### P5: Gdzie mogę znaleźć dokumentację?
 
  Odpowiedź 5: Dokumentacja jest dostępna[Tutaj](https://reference.aspose.com/cad/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

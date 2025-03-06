@@ -3,10 +3,16 @@ title: 在 Aspose.CAD for .NET 中取得 CAD 佈局的大小
 linktitle: 取得 CAD 佈局的尺寸
 second_title: Aspose.CAD .NET - CAD 和 BIM 檔案格式
 description: 了解如何使用 Aspose.CAD 在 .NET 中擷取 CAD 佈局尺寸。請按照我們的逐步指南進行高效率的 CAD 檔案操作。
-type: docs
 weight: 14
 url: /zh-hant/net/cad-drawing-manipulation/get-size-of-cad-layout/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.CAD for .NET 中取得 CAD 佈局的大小
+
 ## 介紹
 
 歡迎閱讀這份關於使用 Aspose.CAD for .NET 取得 CAD 佈局尺寸的綜合指南。 Aspose.CAD 是一個功能強大的程式庫，可讓開發人員無縫地使用 CAD 檔案。在本教學中，我們將使用實際範例和逐步說明引導您完成檢索 CAD 佈局尺寸的過程。
@@ -143,3 +149,9 @@ A4：是的，您可以使用[免費試用](https://releases.aspose.com/).
 ### Q5；我如何獲得技術支援？
 
  A5：如需技術支持，請訪問[Aspose.CAD論壇](https://forum.aspose.com/c/cad/19).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

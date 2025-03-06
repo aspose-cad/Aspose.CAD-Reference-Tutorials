@@ -3,10 +3,16 @@ title: تصدير DWF إلى PDF - دليل Aspose.CAD
 linktitle: تصدير DWF إلى PDF
 second_title: Aspose.CAD .NET - تنسيق ملف CAD وBIM
 description: استكشف دليلاً سلسًا حول تصدير DWF إلى PDF باستخدام Aspose.CAD لـ .NET. قم بتحسين قدرات التعامل مع ملفات CAD الخاصة بك دون عناء.
-type: docs
 weight: 10
 url: /ar/net/file-format-conversion/exporting-dwf-to-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تصدير DWF إلى PDF - دليل Aspose.CAD
+
 ## مقدمة
 
 في عالم تطوير .NET، يبرز Aspose.CAD كمكتبة قوية للتعامل مع ملفات التصميم بمساعدة الكمبيوتر (CAD). في هذا البرنامج التعليمي، سنركز على مهمة محددة: تصدير ملفات DWF (تنسيق ويب التصميم) إلى PDF باستخدام Aspose.CAD لـ .NET. سواء كنت مطورًا متمرسًا أو بدأت للتو، تابع لدمج هذه الوظيفة بسلاسة في تطبيقاتك.
@@ -110,3 +116,9 @@ Console.WriteLine("\n3D images exported successfully to PDF.\nFile saved at " + 
 ### س5: أين يمكنني شراء الإصدار الكامل من Aspose.CAD لـ .NET؟
 
  ج5: يمكنك شراء الإصدار الكامل من Aspose.CAD لـ .NET من[هنا](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

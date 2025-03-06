@@ -3,10 +3,16 @@ title: Adding Attributes to CAD Drawings - Aspose.CAD Tutorial
 linktitle: Adding Attributes to CAD Drawings
 second_title: Aspose.CAD .NET - CAD and BIM File Format
 description: Enhance your CAD drawings with attributes using Aspose.CAD for .NET. Follow our step-by-step guide for seamless integration.
-type: docs
 weight: 10
 url: /net/attribute-and-property-management/adding-attributes-to-cad-drawings/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Adding Attributes to CAD Drawings - Aspose.CAD Tutorial
+
 ## Introduction
 
 In the realm of Computer-Aided Design (CAD), enriching drawings with attributes is a crucial step for detailed documentation and effective communication. Aspose.CAD for .NET provides a robust solution to seamlessly integrate attributes into CAD drawings. This tutorial will guide you through the process of adding attributes to CAD drawings using Aspose.CAD, allowing you to enhance the information embedded in your designs.
@@ -119,3 +125,10 @@ A4: Visit the Aspose.CAD forum [here](https://forum.aspose.com/c/cad/19) to conn
 ### Q5: How can I obtain a temporary license for Aspose.CAD?
 
 A5: For temporary licensing options, visit [here](https://purchase.aspose.com/temporary-license/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

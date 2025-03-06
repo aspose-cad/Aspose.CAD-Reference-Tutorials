@@ -3,10 +3,16 @@ title: Aspose.CAD for .NET'te DGN'yi Raster Görüntüye Aktar
 linktitle: DGN'yi Raster Görüntüye Aktar
 second_title: Aspose.CAD .NET - CAD ve BIM Dosya Formatı
 description: Aspose.CAD for .NET'i kullanarak DGN'yi taramalı görüntülere zahmetsizce dönüştürün. Adım adım kılavuzu keşfedin ve CAD dosya işlemede .NET'in gücünü açığa çıkarın.
-type: docs
 weight: 13
 url: /tr/net/cad-export-formats/export-dgn-to-raster-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.CAD for .NET'te DGN'yi Raster Görüntüye Aktar
+
 ## giriiş
 
 .NET geliştirmenin dinamik alanında Aspose.CAD, Bilgisayar Destekli Tasarım (CAD) dosyalarını işlemek için güçlü bir araç olarak ortaya çıkıyor. Bu eğitimde Aspose.CAD for .NET kullanarak DGN dosyalarını raster görüntülere aktarma süreci ayrıntılı olarak ele alınmaktadır. DGN dosyalarınızı görsel olarak ilgi çekici raster görüntülere sorunsuz bir şekilde dönüştürme konusunda istekliyseniz, doğru yerdesiniz.
@@ -102,3 +108,9 @@ C2: Olası sorunları çözmek için, sağlanan kodda gösterildiği gibi, uygun
 ### S5: Aspose.CAD for .NET için geçici lisansı nasıl edinebilirim?
 
  A5: Ziyaret edin[bu bağlantı](https://purchase.aspose.com/temporary-license/)Geliştirme ihtiyaçlarınız için geçici bir lisans almak için.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

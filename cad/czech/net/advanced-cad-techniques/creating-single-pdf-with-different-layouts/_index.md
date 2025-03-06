@@ -3,10 +3,16 @@ title: Vytváření jednoho PDF s různými rozvrženími - Průvodce Aspose.CAD
 linktitle: Vytváření jednoho PDF s různými rozvrženími
 second_title: Aspose.CAD .NET – formát souborů CAD a BIM
 description: Vytvořte jedno PDF s různými rozvrženími pomocí Aspose.CAD for .NET. Postupujte podle našeho podrobného průvodce pro bezproblémovou integraci a efektivní generování PDF.
-type: docs
 weight: 13
 url: /cs/net/advanced-cad-techniques/creating-single-pdf-with-different-layouts/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Vytváření jednoho PDF s různými rozvrženími - Průvodce Aspose.CAD
+
 ## Úvod
 
 Chcete vygenerovat jeden dokument PDF z výkresu CAD s různými rozvrženími pomocí Aspose.CAD pro .NET? Tento průvodce vás krok za krokem provede celým procesem a pomůže vám dosáhnout bezproblémové integrace a efektivního vytváření PDF. Aspose.CAD for .NET poskytuje výkonné funkce pro programovou manipulaci s výkresy CAD a v tomto tutoriálu se zaměříme na vytvoření jednoho PDF s různými rozvrženími.
@@ -95,3 +101,9 @@ Odpověď 1: Ano, Aspose.CAD for .NET podporuje různé formáty CAD, jako je DW
 ### Q5: Mohu si zakoupit licenci pro Aspose.CAD pro .NET?
 
  A5: Ano, můžete si koupit licenci[tady](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

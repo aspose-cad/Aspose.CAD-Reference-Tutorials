@@ -3,10 +3,16 @@ title: Povolit sledování v souborech DWG pomocí Aspose.CAD v Javě
 linktitle: Povolte sledování v souborech DWG pomocí Java
 second_title: Aspose.CAD Java API
 description: Prozkoumejte podrobného průvodce povolením sledování souborů DWG v Javě pomocí Aspose.CAD, který zajistí bezproblémovou spolupráci na projektech CAD.
-type: docs
 weight: 12
 url: /cs/java/additional-features/enable-tracking/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Povolit sledování v souborech DWG pomocí Aspose.CAD v Javě
+
 ## Úvod
 
 V oblasti počítačově podporovaného navrhování (CAD) vyniká Aspose.CAD for Java jako výkonný nástroj, který umožňuje vývojářům snadno manipulovat a převádět soubory CAD. Tento tutoriál se ponoří do specifické funkce Aspose.CAD pro Java – umožňuje sledování v souborech DWG. Sledování změn v souborech DWG je zásadní pro projekty společného návrhu, zajišťuje bezproblémovou komunikaci a efektivní pracovní postup. V této příručce si projdeme kroky, jak povolit sledování pomocí Javy s využitím možností Aspose.CAD.
@@ -123,3 +129,9 @@ A1: Aspose.CAD primárně podporuje soubory DWG pro sledování. Další formát
 ### Q5: Jak získám dočasnou licenci pro Aspose.CAD for Java?
 
  A5: Postupujte podle postupu popsaného na[Dočasná licence](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

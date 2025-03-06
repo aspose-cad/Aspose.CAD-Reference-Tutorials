@@ -3,10 +3,16 @@ title: Méretes licencelés az Aspose.CAD-ben .NET-hez
 linktitle: Mérős engedélyezés
 second_title: Aspose.CAD .NET - CAD és BIM fájlformátum
 description: Az Aspose.CAD potenciál felszabadítása a .NET-ben mért licenccel. Az erőforrás-felhasználás zökkenőmentes optimalizálása. Fedezze fel lépésenkénti útmutatónkat.
-type: docs
 weight: 12
 url: /hu/net/licensing-and-configuration/metered-licensing/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Méretes licencelés az Aspose.CAD-ben .NET-hez
+
 ## Bevezetés
 
 Az Aspose.CAD .NET-hez való teljes potenciáljának kiaknázásához meg kell érteni a mérsékelt licencelés bonyolultságát. Ez a hatékony funkció lehetővé teszi a fejlesztők számára, hogy hatékonyan kezeljék az erőforrás-felhasználást, miközben kihasználják az Aspose.CAD képességeit. Ebben a lépésről-lépésre szóló útmutatóban a mérőszámos licencelés megvalósításának folyamatába fogunk beleásni, lebontva az egyes kulcsfontosságú lépéseket a .NET-projektekbe való zökkenőmentes integráció biztosítása érdekében.
@@ -97,3 +103,9 @@ Az API-hívások végrehajtása után kérje le a frissített mért adatmennyis�
 ### 5. kérdés: Lehet-e ideiglenesen licencelni az Aspose.CAD-t bizonyos projektekhez?
 
  A5: Igen, fedezze fel[ideiglenes engedélyezési lehetőségek](https://purchase.aspose.com/temporary-license/) rövid távú projektkövetelményekhez.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

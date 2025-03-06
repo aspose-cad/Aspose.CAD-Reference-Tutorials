@@ -3,10 +3,16 @@ title: Экспортируйте определенный макет DXF в PDF
 linktitle: Экспорт определенного макета DXF в PDF с помощью Java
 second_title: API Aspose.CAD Java
 description: Исследуйте плавное преобразование DXF в PDF с помощью Aspose.CAD для Java. Легко и точно экспортируйте определенные макеты.
-type: docs
 weight: 17
 url: /ru/java/additional-features/export-specific-layout-to-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Экспортируйте определенный макет DXF в PDF с помощью Aspose.CAD для Java
+
 ## Введение
 
 Если вы разработчик Java и работаете с чертежами САПР, вы понимаете важность эффективного и точного преобразования между различными форматами. Aspose.CAD for Java — это мощная библиотека, которая позволяет разработчикам легко манипулировать файлами САПР. В этом руководстве мы покажем вам процесс экспорта определенного макета DXF в PDF с помощью Aspose.CAD для Java.
@@ -105,3 +111,9 @@ image.save(dataDir + "conic_pyramid_layout_out_.pdf", pdfOptions);
 ### Вопрос 5: Как я могу получить поддержку Aspose.CAD для Java?
 
  A5: Посетите форум поддержки.[здесь](https://forum.aspose.com/c/cad/19)за помощь от сообщества Aspose.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

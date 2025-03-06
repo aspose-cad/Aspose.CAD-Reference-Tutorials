@@ -3,10 +3,16 @@ title: คุณสมบัติและการสนับสนุน CAD
 linktitle: คุณสมบัติและการสนับสนุน CAD
 second_title: Aspose.CAD .NET - รูปแบบไฟล์ CAD และ BIM
 description: ปลดล็อกศักยภาพเต็มรูปแบบของคุณสมบัติ CAD ด้วย Aspose.CAD สำหรับบทช่วยสอน .NET เรียนรู้การสนับสนุน 3D สำหรับ DGN V7, การจัดการแบบตาข่าย, การปรับแต่งปากกา และอื่นๆ ได้อย่างง่ายดาย
-type: docs
 weight: 23
 url: /th/net/cad-features-and-support/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# คุณสมบัติและการสนับสนุน CAD
+
 
 ## การแนะนำ
 
@@ -80,3 +86,9 @@ Aspose.CAD สำหรับ .NET นำเสนอบทช่วยสอน
 สำรวจการสนับสนุนอย่างราบรื่นของ Aspose.CAD สำหรับ .NET สำหรับไฟล์ DGN VConvert DGN เพื่อภาพแรสเตอร์ได้อย่างง่ายดายพร้อมคำแนะนำทีละขั้นตอน
 ### [รองรับ 3D สำหรับ DGN V7 ใน Aspose.CAD สำหรับ .NET](./support-of-3d-for-dgn-v7/)
 ปลดล็อกพลังของการรองรับ 3D สำหรับ DGN V7 ใน Aspose.CAD สำหรับ .NET ปฏิบัติตามบทช่วยสอนทีละขั้นตอนของเรา
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

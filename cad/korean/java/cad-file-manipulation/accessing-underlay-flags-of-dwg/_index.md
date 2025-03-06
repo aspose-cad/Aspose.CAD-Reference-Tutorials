@@ -3,10 +3,16 @@ title: Java용 Aspose.CAD를 사용하여 DWG의 언더레이 플래그에 액�
 linktitle: DWG의 언더레이 플래그에 액세스
 second_title: Aspose.CAD 자바 API
 description: Aspose.CAD for Java로 CAD 마법의 세계를 탐험해보세요! Java 애플리케이션에서 DWG 파일을 손쉽게 처리할 수 있습니다.
-type: docs
 weight: 11
 url: /ko/java/cad-file-manipulation/accessing-underlay-flags-of-dwg/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java용 Aspose.CAD를 사용하여 DWG의 언더레이 플래그에 액세스
+
 ## 소개
 
 CAD(Computer-Aided Design) 영역에서는 정확성과 효율성이 가장 중요합니다. Aspose.CAD for Java는 강력한 동맹으로 등장하여 Java 애플리케이션과 CAD 기능 간의 원활한 연결을 제공합니다. 이 단계별 가이드에서는 DWG 파일을 처리하고 Java를 사용하여 귀중한 정보를 추출하는 데 중점을 두고 Aspose.CAD의 마법을 탐구합니다.
@@ -112,3 +118,9 @@ A1: Aspose.CAD는 주로 DWG 형식에 중점을 두고 있지만 DXF, DWF 및 �
 ### Q5: Aspose.CAD for Java에 대한 종합 문서는 어디서 찾을 수 있나요?
 
  A5: 다음을 참조하세요.[선적 서류 비치](https://reference.aspose.com/cad/java/) 자세한 정보를 보려면.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

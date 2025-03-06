@@ -3,10 +3,16 @@ title: Ajustement de la taille du dessin CAO à l'aide du type d'unité avec Asp
 linktitle: Ajustement de la taille du dessin CAO à l'aide du type d'unité
 second_title: API Java Aspose.CAD
 description: Découvrez la puissance d'Aspose.CAD pour Java pour ajuster facilement la taille des dessins CAO. Suivez notre guide étape par étape pour plus de précision et d’adaptabilité.
-type: docs
 weight: 14
 url: /fr/java/cad-file-manipulation/adjusting-cad-drawing-size-using-unit-type/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ajustement de la taille du dessin CAO à l'aide du type d'unité avec Aspose.CAD pour Java
+
 ## Introduction
 
 Dans le domaine en constante évolution de la conception assistée par ordinateur (CAO), la précision et l’adaptabilité sont primordiales. Une exigence courante consiste à ajuster la taille des dessins CAO en fonction de types d'unités spécifiques. Aspose.CAD pour Java apparaît comme un allié puissant, offrant des capacités transparentes pour manipuler les fichiers CAO par programme.
@@ -117,3 +123,9 @@ A1 : Aspose.CAD prend principalement en charge Java, mais des versions sont disp
 ### Q5 : Puis-je obtenir une licence temporaire pour Aspose.CAD ?
 
  A5 : Oui, vous pouvez acquérir une licence temporaire[ici](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

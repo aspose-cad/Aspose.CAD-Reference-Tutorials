@@ -3,10 +3,16 @@ title: Configuración del color de fondo y dibujo usando Aspose.CAD para Java
 linktitle: Configuración de fondo y color de dibujo
 second_title: API de Java Aspose.CAD
 description: Convierta archivos CAD a PDF y TIFF sin esfuerzo utilizando Aspose.CAD para Java. Establezca colores de fondo y de dibujo personalizados para obtener resultados visualmente impresionantes.
-type: docs
 weight: 15
 url: /es/java/advanced-cad-features/setting-background-and-drawing-color/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Configuración del color de fondo y dibujo usando Aspose.CAD para Java
+
 ## Introducción
 
 En el dinámico mundo del diseño asistido por computadora (CAD), la conversión eficiente de archivos es crucial para una colaboración y comunicación fluidas. Aspose.CAD para Java surge como una herramienta poderosa que ofrece capacidades sólidas para convertir archivos CAD a formatos PDF y TIFF. En este tutorial, profundizaremos en el proceso de configuración de fondo y color de dibujo usando Aspose.CAD para Java, brindándole una guía paso a paso para obtener resultados óptimos.
@@ -98,3 +104,10 @@ R2: Sí, el tutorial muestra cómo configurar colores de fondo personalizados pa
 ### P5: ¿Cómo puedo obtener soporte para Aspose.CAD para Java?
 
 A5: Visita el[Foro Aspose.CAD](https://forum.aspose.com/c/cad/19) buscar ayuda y relacionarse con la comunidad.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

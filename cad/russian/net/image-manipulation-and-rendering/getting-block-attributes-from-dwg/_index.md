@@ -3,10 +3,16 @@ title: Получение атрибутов блока из файлов DWG - 
 linktitle: Получение атрибутов блока из файлов DWG
 second_title: Aspose.CAD .NET — формат файлов CAD и BIM
 description: Раскройте потенциал файлов САПР с помощью Aspose.CAD для .NET. Извлекайте атрибуты блоков без особых усилий.
-type: docs
 weight: 10
 url: /ru/net/image-manipulation-and-rendering/getting-block-attributes-from-dwg/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Получение атрибутов блока из файлов DWG - Учебное пособие по Aspose.CAD
+
 ## Введение
 
 В динамичном мире автоматизированного проектирования (САПР) извлечение ценной информации из файлов DWG имеет решающее значение для многих приложений. Aspose.CAD for .NET предоставляет мощное решение для эффективной работы с файлами САПР. В этом уроке мы шаг за шагом углубимся в процесс извлечения атрибутов блоков из файлов DWG с помощью Aspose.CAD.
@@ -93,3 +99,9 @@ System.Console.WriteLine(cadImage.BlockEntities["*MODEL_SPACE"].XRefPathName);
 ### Вопрос 5: Где я могу найти документацию по Aspose.CAD для .NET?
 
  A5: обратитесь к подробному[документация](https://reference.aspose.com/cad/net/) для получения подробной информации и примеров.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

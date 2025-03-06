@@ -3,10 +3,16 @@ title: Dukungan Mesh di Aspose.CAD untuk .NET
 linktitle: Dukungan Jaring
 second_title: Aspose.CAD .NET - Format File CAD dan BIM
 description: Jelajahi dukungan mesh di Aspose.CAD untuk .NET dengan tutorial langkah demi langkah kami. Konversikan file CAD ke PDF dengan mudah.
-type: docs
 weight: 11
 url: /id/net/cad-features-and-support/mesh-support/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Dukungan Mesh di Aspose.CAD untuk .NET
+
 ## Perkenalan
 
 Selamat datang di tutorial mendalam kami tentang memanfaatkan dukungan mesh di Aspose.CAD untuk .NET! Aspose.CAD adalah perpustakaan canggih yang menyediakan fungsionalitas tangguh untuk bekerja dengan file Computer-Aided Design (CAD) dalam aplikasi .NET. Dalam tutorial ini, kami secara khusus akan fokus pada pemanfaatan fitur dukungan mesh untuk meningkatkan kemampuan pemrosesan file CAD Anda.
@@ -100,3 +106,9 @@ A2: Meskipun lisensi direkomendasikan untuk penggunaan produksi, Anda dapat menj
 ### Q5: Di mana saya dapat mengunduh Aspose.CAD versi terbaru untuk .NET?
 
  A5: Unduh perpustakaan dari[halaman rilis](https://releases.aspose.com/cad/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: 使用 Aspose.CAD for Java 將 DXF 繪圖的特定圖層匯出為 PDF
 linktitle: 使用 Java 將 DXF 繪圖的特定圖層匯出為 PDF
 second_title: Aspose.CAD Java API
 description: 使用 Aspose.CAD for Java 輕鬆將特定圖層從 DXF 繪圖匯出為 PDF。請遵循此逐步指南以實現無縫整合。
-type: docs
 weight: 18
 url: /zh-hant/java/additional-features/export-specific-layer-to-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.CAD for Java 將 DXF 繪圖的特定圖層匯出為 PDF
+
 ## 介紹
 
 在 Java 開發領域，Aspose.CAD 作為處理電腦輔助設計 (CAD) 檔案的強大工具脫穎而出。在其多功能功能中，將特定圖層從 DXF 繪圖匯出到 PDF 檔案的能力是一項有價值的功能。本教學將引導您完成整個過程，提供逐步說明，以充分發揮 Aspose.CAD for Java 的潛力。
@@ -104,3 +110,9 @@ A4：是的，請確保您擁有有效的許可證或使用臨時許可證進行
 ### Q5：我可以在哪裡尋求額外的支持或協助？
 
 A5：訪問[Aspose.CAD論壇](https://forum.aspose.com/c/cad/19)以獲得社區支持和討論。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

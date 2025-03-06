@@ -3,10 +3,16 @@ title: Рендеринг цветов в файлах САПР — Руково
 linktitle: Рендеринг цветов в файлах САПР
 second_title: Aspose.CAD .NET — формат файлов CAD и BIM
 description: Рендеринг мастер-файлов CAD в .NET с помощью Aspose.CAD. Следуйте нашему пошаговому руководству, чтобы получить яркие цвета.
-type: docs
 weight: 10
 url: /ru/net/conversion-and-export/rendering-colors-in-cad-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Рендеринг цветов в файлах САПР — Руководство Aspose.CAD
+
 ## Введение
 
 Вы решаете задачу передачи цветов в файлах САПР с помощью .NET? Не смотрите дальше! В этом подробном руководстве мы шаг за шагом проведем вас через весь процесс с использованием мощной библиотеки Aspose.CAD. К концу этого руководства вы будете обладать знаниями, позволяющими легко отображать цвета в файлах САПР.
@@ -108,3 +114,9 @@ document.Save(output, saveOptions);
 ### Вопрос 5: Где я могу приобрести библиотеку Aspose.CAD?
 
  A5: Приобретите Aspose.CAD[здесь](https://purchase.aspose.com/buy) раскрыть весь свой потенциал.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

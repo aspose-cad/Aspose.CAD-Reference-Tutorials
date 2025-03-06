@@ -3,10 +3,16 @@ title: C# を使用した DWG ファイル内のレイヤーの処理 - Aspose.C
 linktitle: C# を使用した DWG ファイル内のレイヤーの処理
 second_title: Aspose.CAD .NET - CAD および BIM ファイル形式
 description: Aspose.CAD for .NET で C# を使用して DWG ファイル内のレイヤーを処理する方法を学びます。 CAD ファイルを効率的に操作するためのステップバイステップのガイド。
-type: docs
 weight: 11
 url: /ja/net/dwg-file-manipulation/support-of-layers/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# C# を使用した DWG ファイル内のレイヤーの処理 - Aspose.CAD チュートリアル
+
 ## 導入
 
 Aspose.CAD for .NET で C# を使用して DWG ファイル内のレイヤーを処理するための詳細なチュートリアルへようこそ。 Aspose.CAD は、開発者が CAD ファイル形式をシームレスに操作できるようにする強力なライブラリです。このチュートリアルでは、DWG ファイル内のレイヤーを処理するプロセスを段階的に説明します。
@@ -109,3 +115,9 @@ image.Save(MyDir, jpegOptions);
 ### Q5: Aspose.CAD のライセンス オプションは何ですか?
 
  A5: ライセンス オプションを調べて詳細を購入できます。[ここ](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

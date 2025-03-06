@@ -3,10 +3,16 @@ title: تصدير طبقة معينة من رسم DXF إلى PDF باستخدا�
 linktitle: تصدير طبقة محددة من رسم DXF إلى PDF باستخدام Java
 second_title: Aspose.CAD جافا API
 description: قم بتصدير طبقات محددة بسهولة من رسومات DXF إلى PDF باستخدام Aspose.CAD لـ Java. اتبع هذا الدليل خطوة بخطوة لتحقيق التكامل السلس.
-type: docs
 weight: 18
 url: /ar/java/additional-features/export-specific-layer-to-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تصدير طبقة معينة من رسم DXF إلى PDF باستخدام Aspose.CAD لـ Java
+
 ## مقدمة
 
 في مجال تطوير Java، يبرز Aspose.CAD كأداة قوية للعمل مع ملفات التصميم بمساعدة الكمبيوتر (CAD). من بين ميزاته متعددة الاستخدامات، تعد القدرة على تصدير طبقات معينة من رسم DXF إلى ملف PDF قدرة قيمة. سيرشدك هذا البرنامج التعليمي خلال العملية، ويقدم إرشادات خطوة بخطوة لتسخير الإمكانات الكاملة لـ Aspose.CAD لـ Java.
@@ -104,3 +110,9 @@ image.save(dataDir + "conic_pyramid_layer_out_.pdf", pdfOptions);
 ### س5: أين يمكنني الحصول على دعم أو مساعدة إضافية؟
 
 ج5: قم بزيارة[منتدى Aspose.CAD](https://forum.aspose.com/c/cad/19) لدعم المجتمع والمناقشات.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

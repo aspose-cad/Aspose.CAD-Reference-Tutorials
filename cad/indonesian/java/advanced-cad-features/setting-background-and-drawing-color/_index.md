@@ -3,10 +3,16 @@ title: Mengatur Latar Belakang dan Warna Gambar Menggunakan Aspose.CAD untuk Jav
 linktitle: Mengatur Latar Belakang dan Warna Gambar
 second_title: Aspose.CAD Java API
 description: Konversi file CAD ke PDF dan TIFF dengan mudah menggunakan Aspose.CAD untuk Java. Atur latar belakang khusus dan warna gambar untuk hasil visual yang menakjubkan.
-type: docs
 weight: 15
 url: /id/java/advanced-cad-features/setting-background-and-drawing-color/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Mengatur Latar Belakang dan Warna Gambar Menggunakan Aspose.CAD untuk Java
+
 ## Perkenalan
 
 Dalam dunia Computer-Aided Design (CAD) yang dinamis, konversi file yang efisien sangat penting untuk kolaborasi dan komunikasi yang lancar. Aspose.CAD untuk Java muncul sebagai alat yang ampuh, menawarkan kemampuan yang kuat untuk mengkonversi file CAD ke format PDF dan TIFF. Dalam tutorial ini, kita akan mempelajari proses pengaturan latar belakang dan warna gambar menggunakan Aspose.CAD untuk Java, memberi Anda panduan langkah demi langkah untuk hasil yang optimal.
@@ -98,3 +104,10 @@ A2: Ya, tutorial ini menunjukkan cara mengatur warna latar belakang khusus untuk
 ### Q5: Bagaimana saya bisa mendapatkan dukungan untuk Aspose.CAD untuk Java?
 
 A5: Kunjungi[Forum Aspose.CAD](https://forum.aspose.com/c/cad/19) untuk mencari bantuan dan terlibat dengan masyarakat.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

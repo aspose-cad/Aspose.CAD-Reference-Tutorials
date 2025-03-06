@@ -3,10 +3,16 @@ title: 使用 Aspose.CAD for Java 将 CAD 布局导出为 PDF
 linktitle: 将 CAD 布局导出为 PDF
 second_title: Aspose.CAD Java API
 description: 探索 Aspose.CAD for Java，轻松将 CAD 布局导出为 PDF。高效、可靠且对开发人员友好。
-type: docs
 weight: 11
 url: /zh/java/cad-export-options/export-cad-layouts-to-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.CAD for Java 将 CAD 布局导出为 PDF
+
 ## 介绍
 
 在不断发展的计算机辅助设计 (CAD) 领域，Aspose.CAD for Java 作为操作和转换 CAD 文件的强大工具脱颖而出。在本教程中，我们将指导您完成使用 Aspose.CAD for Java 将 CAD 布局导出为 PDF 的过程。无论您是经验丰富的开发人员还是刚刚进入 CAD 世界，本分步指南都将帮助您充分利用这个多功能 Java 库的潜力。
@@ -107,3 +113,9 @@ A4：自动布局缩放会根据指定的页面尺寸调整布局大小，而手
 ### Q5：我可以自定义导出的PDF文件的外观吗？
 
 A5：是的，您可以自定义代码中的图形选项来控制导出的 PDF 的质量和外观。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

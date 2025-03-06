@@ -3,10 +3,16 @@ title: Exportation de fichiers PLT
 linktitle: Exportation de fichiers PLT
 second_title: Aspose.CAD .NET - Format de fichier CAO et BIM
 description: Convertissez sans effort des fichiers PLT en images et PDF avec Aspose.CAD pour .NET. Découvrez une intégration transparente et des options flexibles pour la manipulation des fichiers CAO.
-type: docs
 weight: 41
 url: /fr/net/exporting-plt-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Exportation de fichiers PLT
+
 
 ## Introduction
 
@@ -38,3 +44,9 @@ En conclusion, exporter des fichiers PLT vers des images et des PDF n'a jamais �
 Convertissez sans effort des fichiers PLT en images à l'aide d'Aspose.CAD pour .NET. Explorez des options flexibles et une intégration transparente pour vos besoins en matière de manipulation de fichiers CAO.
 ### [Exportation de fichiers PLT au format PDF - Guide Aspose.CAD](./exporting-plt-files-to-pdf/)
 Convertissez sans effort des fichiers PLT en PDF à l'aide d'Aspose.CAD pour .NET. Suivez notre guide étape par étape pour une intégration transparente et des résultats fiables.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

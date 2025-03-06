@@ -3,10 +3,16 @@ title: Podpora pro skryté čáry v souborech DWG pomocí Aspose.CAD pro Javu
 linktitle: Podpora pro skryté čáry v souborech DWG pomocí Java
 second_title: Aspose.CAD Java API
 description: Naučte se, jak vylepšit možnosti manipulace se soubory DWG vaší aplikace Java pomocí Aspose.CAD. Postupujte podle našeho podrobného průvodce pro podporu skrytých čar. Zvyšte snadnou manipulaci s výkresy CAD.
-type: docs
 weight: 11
 url: /cs/java/cad-text-and-formatting/support-hidden-lines-in-dwg/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Podpora pro skryté čáry v souborech DWG pomocí Aspose.CAD pro Javu
+
 ## Úvod
 
 Vítejte v obsáhlém průvodci o využití Aspose.CAD pro Java k vylepšení vašich možností manipulace se soubory DWG. V tomto tutoriálu se zaměříme na konkrétní aspekt: podpora skrytých čar v souborech DWG. Ať už jste zkušený vývojář nebo teprve začínáte, tento průvodce vám pomůže procházet procesem pomocí podrobných pokynů.
@@ -117,3 +123,10 @@ Odpověď 1: Ano, Aspose.CAD podporuje různé formáty CAD, jako je DWG, DXF, D
 ### Q5: Mohu si zakoupit dočasnou licenci pro Aspose.CAD pro Java?
 
  A5: Ano, můžete získat dočasnou licenci[tady](https://purchase.aspose.com/temporary-license/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

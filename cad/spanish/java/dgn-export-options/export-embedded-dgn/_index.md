@@ -3,10 +3,16 @@ title: Exporte DGN incrustado a PDF con Aspose.CAD para Java
 linktitle: Exportar DGN integrado
 second_title: API de Java Aspose.CAD
 description: Explore la guía paso a paso sobre cómo exportar archivos DGN incrustados a PDF usando Aspose.CAD para Java. Mejore sus aplicaciones Java con una manipulación perfecta de archivos CAD.
-type: docs
 weight: 11
 url: /es/java/dgn-export-options/export-embedded-dgn/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Exporte DGN incrustado a PDF con Aspose.CAD para Java
+
 ## Introducción
 
 Bienvenido a este tutorial completo sobre cómo exportar archivos DGN incrustados usando Aspose.CAD para Java. Aspose.CAD es una potente biblioteca que permite a los desarrolladores de Java trabajar con archivos CAD sin problemas. En este tutorial, lo guiaremos a través del proceso de exportar archivos DGN incrustados a PDF siguiendo instrucciones paso a paso. Si es un desarrollador experimentado o recién comienza, este tutorial lo ayudará a aprovechar las capacidades de Aspose.CAD para mejorar sus aplicaciones Java.
@@ -103,3 +109,9 @@ R3: Puede buscar ayuda de la comunidad Aspose.CAD en el[foro](https://forum.aspo
 ### P5: ¿Dónde puedo encontrar la documentación?
 
  A5: La documentación está disponible.[aquí](https://reference.aspose.com/cad/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

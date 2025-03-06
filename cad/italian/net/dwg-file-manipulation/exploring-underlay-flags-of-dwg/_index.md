@@ -3,10 +3,16 @@ title: Esplorazione dei flag underlay dei file DWG - Tutorial Aspose.CAD
 linktitle: Esplorazione dei flag di underlay dei file DWG
 second_title: Aspose.CAD .NET - Formato file CAD e BIM
 description: Sblocca la potenza di Aspose.CAD per .NET nell'esplorazione dei flag di sottoposizione dei file DWG. Segui la nostra guida passo passo.
-type: docs
 weight: 13
 url: /it/net/dwg-file-manipulation/exploring-underlay-flags-of-dwg/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Esplorazione dei flag underlay dei file DWG - Tutorial Aspose.CAD
+
 ## introduzione
 
 Se stai addentrandoti nell'intricato mondo dei file CAD, in particolare dei file DWG, e desideri svelare i misteri delle bandiere del underlay, sei nel posto giusto. Questo tutorial ti guiderà attraverso il processo di esplorazione dei flag di underlay nei file DWG utilizzando la potente libreria Aspose.CAD per .NET.
@@ -114,3 +120,10 @@ A4: Acquista la libreria[Qui](https://purchase.aspose.com/buy).
 ### Q5: È disponibile una prova gratuita?
 
  R5: Sì, puoi accedere alla prova gratuita[Qui](https://releases.aspose.com/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

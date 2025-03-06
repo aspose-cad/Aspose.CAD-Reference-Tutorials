@@ -3,10 +3,16 @@ title: إضافة سمات إلى MText في ملفات DWG باستخدام Asp
 linktitle: أضف سمات إلى MText في ملفات DWG باستخدام Java
 second_title: Aspose.CAD جافا API
 description: تعرف على كيفية إضافة سمات إلى MText في ملفات DWG باستخدام Aspose.CAD لـ Java. ارتقِ برسومات CAD الخاصة بك باستخدام هذا الدليل المفصّل خطوة بخطوة.
-type: docs
 weight: 13
 url: /ar/java/cad-text-and-formatting/add-attributes-to-mtext/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إضافة سمات إلى MText في ملفات DWG باستخدام Aspose.CAD لـ Java
+
 ## مقدمة
 
 في عالم برمجة Java، تعد معالجة ملفات CAD مهمة شائعة. Aspose.CAD for Java هي مكتبة قوية تسهل التعامل مع ملفات CAD، مما يجعلها خيارًا مفضلاً للمطورين. في هذا البرنامج التعليمي، سوف نتعمق في حالة استخدام محددة: إضافة سمات إلى MText في ملفات DWG. يمكن أن يكون هذا أمرًا بالغ الأهمية لتعزيز ثراء رسومات CAD الخاصة بك.
@@ -117,3 +123,9 @@ finally
 ### س5: هل يمكنني تجربة Aspose.CAD لـ Java قبل شراء الترخيص؟
 
  ج5: نعم، يمكنك استكشاف النسخة التجريبية المجانية[هنا](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

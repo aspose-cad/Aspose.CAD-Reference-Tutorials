@@ -3,10 +3,16 @@ title: C# ile DWG Dosyalarında Metin Arama - Aspose.CAD Eğitimi
 linktitle: C# ile DWG Dosyalarında Metin Arama
 second_title: Aspose.CAD .NET - CAD ve BIM Dosya Formatı
 description: Bu adım adım kılavuzla Aspose.CAD for .NET'i keşfedin ve DWG dosyalarında ana metin aramayı yapın. CAD uygulamalarınızı bugün güçlendirin!
-type: docs
 weight: 10
 url: /tr/net/text-search-and-manipulation/searching-text-in-dwg-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# C# ile DWG Dosyalarında Metin Arama - Aspose.CAD Eğitimi
+
 ## giriiş
 
 CAD'nin (Bilgisayar Destekli Tasarım) dinamik alanında hassasiyet ve verimlilik çok önemlidir. DWG dosyalarında belirli bir metni bulmanız gereken bir senaryo düşünün. Aspose.CAD for .NET imdadınıza yetişiyor ve C# kullanarak DWG dosyalarındaki metni sorunsuz bir şekilde aramak için sağlam bir çözüm sunuyor. Bu eğitim size süreç boyunca rehberlik edecek ve Aspose.CAD for .NET'in tüm potansiyelinden yararlanmanızı sağlayacaktır.
@@ -114,3 +120,9 @@ Cevap1: Evet, Aspose.CAD çeşitli CAD formatlarını destekleyerek çok yönlü
 ### S5: Aspose.CAD for .NET'in ayrıntılı belgelerini nerede bulabilirim?
 
  A5: Kapsamlı bölüme bakın[dokümantasyon](https://reference.aspose.com/cad/net/) derinlemesine rehberlik için.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

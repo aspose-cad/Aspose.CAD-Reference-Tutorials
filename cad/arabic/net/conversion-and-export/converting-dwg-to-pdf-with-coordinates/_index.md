@@ -3,10 +3,16 @@ title: تحويل DWG إلى PDF مع الإحداثيات في C# - البرن�
 linktitle: تحويل DWG إلى PDF مع الإحداثيات في C#
 second_title: Aspose.CAD .NET - تنسيق ملف CAD وBIM
 description: تعرف على كيفية تحويل DWG إلى PDF بإحداثيات محددة في لغة C# باستخدام Aspose.CAD. اتبع دليلنا خطوة بخطوة للحصول على تحويلات ملفات CAD دقيقة وفعالة.
-type: docs
 weight: 11
 url: /ar/net/conversion-and-export/converting-dwg-to-pdf-with-coordinates/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تحويل DWG إلى PDF مع الإحداثيات في C# - البرنامج التعليمي Aspose.CAD
+
 ## مقدمة
 
 مرحبًا بك في هذا البرنامج التعليمي الشامل حول تحويل ملفات DWG إلى PDF بإحداثيات محددة باستخدام Aspose.CAD لـ .NET. Aspose.CAD هي مكتبة قوية تتيح للمطورين العمل مع تنسيقات ملفات CAD في تطبيقات .NET الخاصة بهم بسلاسة. في هذا البرنامج التعليمي، سنرشدك خلال عملية تحويل ملف DWG إلى PDF مع توفير إحداثيات محددة لتحسين الدقة.
@@ -134,3 +140,9 @@ Console.WriteLine("\nThe DWG file exported successfully to PDF.\nFile saved at "
 ### س5: أين يمكنني العثور على دعم إضافي أو مناقشات مجتمعية؟
 
 ج5: قم بزيارة[منتدى Aspose.CAD](https://forum.aspose.com/c/cad/19) لدعم المجتمع والمناقشات.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

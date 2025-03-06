@@ -3,10 +3,16 @@ title: Manipulace s CAD výkresy
 linktitle: Manipulace s CAD výkresy
 second_title: Aspose.CAD .NET – formát souborů CAD a BIM
 description: Vylepšete své CAD projekty bez námahy pomocí výukových programů Aspose.CAD for .NET. Pomocí našich podrobných průvodců můžete hladce měnit velikost, převádět a optimalizovat výkresy CAD.
-type: docs
 weight: 21
 url: /cs/net/cad-drawing-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Manipulace s CAD výkresy
+
 
 ## Úvod
 
@@ -44,3 +50,9 @@ Bez námahy převádějte rozvržení CAD na rastrové obrázky pomocí Aspose.C
 Objevte sílu Aspose.CAD pro .NET. Povolte bezproblémové sledování pro vykreslování CAD. Postupujte podle našeho podrobného průvodce pro lepší ovládání a efektivitu.
 ### [Získejte velikost rozložení CAD v Aspose.CAD pro .NET](./get-size-of-cad-layout/)
 Naučte se, jak načíst velikost rozvržení CAD v .NET pomocí Aspose.CAD. Postupujte podle našeho podrobného průvodce pro efektivní manipulaci se soubory CAD.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

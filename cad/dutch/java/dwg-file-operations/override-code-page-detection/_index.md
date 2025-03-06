@@ -3,10 +3,16 @@ title: Negeer automatische codepaginadetectie in DWG-bestanden met Java
 linktitle: Automatische codepaginadetectie in DWG-bestanden negeren
 second_title: Aspose.CAD Java-API
 description: Ontdek hoe u codepaginadetectie in DWG-bestanden kunt overschrijven met Aspose.CAD voor Java. Verwerk de codering efficiënt en herstel verkeerd opgemaakte CIF/MIF.
-type: docs
 weight: 13
 url: /nl/java/dwg-file-operations/override-code-page-detection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Negeer automatische codepaginadetectie in DWG-bestanden met Java
+
 ## Invoering
 
 Welkom bij deze uitgebreide handleiding over het overschrijven van automatische codepaginadetectie in DWG-bestanden met Aspose.CAD voor Java. Aspose.CAD is een krachtige bibliotheek waarmee Java-ontwikkelaars met CAD-bestandsindelingen kunnen werken en biedt een breed scala aan functies voor het manipuleren, converteren en exporteren van CAD-bestanden.
@@ -101,3 +107,9 @@ A3: De gratis proefversie heeft enkele beperkingen en het wordt aanbevolen om de
 ### Vraag 5: Is er een tijdelijke licentie beschikbaar voor testdoeleinden?
 
  A5: Ja, u kunt een tijdelijke licentie verkrijgen[hier](https://purchase.aspose.com/temporary-license/) om uit te proberen.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: 使用 Aspose.CAD for Java 的单位类型调整 CAD 绘图尺寸
 linktitle: 使用单位类型调整 CAD 绘图尺寸
 second_title: Aspose.CAD Java API
 description: 探索 Aspose.CAD for Java 轻松调整 CAD 绘图尺寸的强大功能。请遵循我们的分步指南，以实现精确性和适应性。
-type: docs
 weight: 14
 url: /zh/java/cad-file-manipulation/adjusting-cad-drawing-size-using-unit-type/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.CAD for Java 的单位类型调整 CAD 绘图尺寸
+
 ## 介绍
 
 在不断发展的计算机辅助设计 (CAD) 领域，精度和适应性至关重要。一项常见的要求是根据特定的单元类型调整 CAD 图纸的尺寸。 Aspose.CAD for Java 成为一个强大的盟友，提供以编程方式操作 CAD 文件的无缝功能。
@@ -117,3 +123,9 @@ A1：Aspose.CAD 主要支持 Java，但也有适用于其他语言（例如 .NET
 ### Q5：我可以获得 Aspose.CAD 的临时许可证吗？
 
  A5：是的，您可以获得临时许可证[这里](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

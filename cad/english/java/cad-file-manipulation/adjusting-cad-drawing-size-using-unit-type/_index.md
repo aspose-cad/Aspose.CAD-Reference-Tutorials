@@ -3,10 +3,16 @@ title: Adjusting CAD Drawing Size Using Unit Type with Aspose.CAD for Java
 linktitle: Adjusting CAD Drawing Size Using Unit Type
 second_title: Aspose.CAD Java API
 description: Explore the power of Aspose.CAD for Java in adjusting CAD drawing sizes effortlessly. Follow our step-by-step guide for precision and adaptability.
-type: docs
 weight: 14
 url: /java/cad-file-manipulation/adjusting-cad-drawing-size-using-unit-type/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Adjusting CAD Drawing Size Using Unit Type with Aspose.CAD for Java
+
 ## Introduction
 
 In the ever-evolving realm of Computer-Aided Design (CAD), precision and adaptability are paramount. One common requirement is adjusting the size of CAD drawings based on specific unit types. Aspose.CAD for Java emerges as a powerful ally, providing seamless capabilities for manipulating CAD files programmatically.
@@ -117,3 +123,10 @@ A4: Visit the Aspose.CAD forum [here](https://forum.aspose.com/c/cad/19) for com
 ### Q5: Can I obtain a temporary license for Aspose.CAD?
 
 A5: Yes, you can acquire a temporary license [here](https://purchase.aspose.com/temporary-license/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Chuyển đổi và xuất khẩu
 linktitle: Chuyển đổi và xuất khẩu
 second_title: Aspose.CAD .NET - Định dạng tệp CAD và BIM
 description: Mở khóa thế giới thao tác tệp CAD với Aspose.CAD! Tìm hiểu cách hiển thị màu sắc rực rỡ và chuyển đổi tệp DWG. Đi sâu vào các định dạng DWT và DWG để có kết quả chính xác.
-type: docs
 weight: 25
 url: /vi/net/conversion-and-export/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Chuyển đổi và xuất khẩu
+
 
 
 ## Giới thiệu
@@ -45,3 +51,9 @@ Khám phá các sắc thái của định dạng DWT và DWG với Aspose.CAD ch
 Chuyển đổi DWG sang PDF tuân thủ bằng Aspose.CAD cho .NET. Thực hiện theo hướng dẫn của chúng tôi để được hướng dẫn từng bước.
 ### [Chuyển đổi định dạng DWG sang DWF - Hướng dẫn Aspose.CAD](./converting-dwg-to-dwf/)
 Khám phá khả năng chuyển đổi liền mạch từ DWG sang DWF bằng Aspose.CAD cho .NET. Hãy làm theo hướng dẫn từng bước của chúng tôi để có trải nghiệm không rắc rối.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

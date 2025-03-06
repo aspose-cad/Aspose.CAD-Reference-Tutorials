@@ -3,10 +3,16 @@ title: Mesh Support for DWG Files - Aspose.CAD Guide
 linktitle: Mesh Support for DWG Files
 second_title: Aspose.CAD .NET - CAD and BIM File Format
 description: Explore mesh support for DWG files with Aspose.CAD for .NET. Enhance your CAD applications with powerful mesh manipulation capabilities.
-type: docs
 weight: 13
 url: /net/image-manipulation-and-rendering/mesh-support-for-dwg/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Mesh Support for DWG Files - Aspose.CAD Guide
+
 ## Introduction
 
 Unlock the potential of Aspose.CAD for .NET as we delve into the exciting world of mesh support for DWG files. In this step-by-step guide, we will walk you through the process of harnessing the power of Aspose.CAD to work with DWG files containing mesh data. Whether you're a seasoned developer or just starting with Aspose.CAD, this tutorial will equip you with the knowledge to manipulate and extract valuable information from DWG files with mesh entities.
@@ -123,3 +129,10 @@ A4: Visit the Aspose.CAD forums [here](https://forum.aspose.com/c/cad/19) to get
 ### Q5: Is there a free trial version of Aspose.CAD available?
 
 A5: Yes, you can access a free trial version [here](https://releases.aspose.com/) to explore Aspose.CAD's capabilities before making a purchase.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

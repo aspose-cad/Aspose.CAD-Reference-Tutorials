@@ -3,10 +3,16 @@ title: Teknik Ekspor
 linktitle: Teknik Ekspor
 second_title: Aspose.CAD .NET - Format File CAD dan BIM
 description: Jelajahi tutorial Aspose.CAD untuk pengembangan CAD yang lancar. Pelajari teknik efisien untuk mengekspor file DXF ke berbagai format dengan mudah.
-type: docs
 weight: 32
 url: /id/net/export-techniques/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Teknik Ekspor
+
 
 
 ## Perkenalan
@@ -49,3 +55,9 @@ Jelajahi integrasi Aspose.CAD untuk .NET yang mulus dalam panduan langkah demi l
 Jelajahi kekuatan Aspose.CAD untuk .NET. Pelajari cara mengekspor file DGN yang disematkan ke PDF dengan mudah dengan tutorial langkah demi langkah ini.
 ### [Mengekspor Gambar ke Format DXF - Panduan Aspose.CAD](./exporting-images-to-dxf-format/)
 Jelajahi kekuatan Aspose.CAD untuk .NET! Pelajari cara mengekspor gambar ke format DXF dengan mudah. Tingkatkan pengembangan CAD Anda dengan presisi dan efisiensi.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

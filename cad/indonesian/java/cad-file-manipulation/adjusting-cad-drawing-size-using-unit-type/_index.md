@@ -3,10 +3,16 @@ title: Menyesuaikan Ukuran Gambar CAD Menggunakan Tipe Unit dengan Aspose.CAD un
 linktitle: Menyesuaikan Ukuran Gambar CAD Menggunakan Tipe Unit
 second_title: Aspose.CAD Java API
 description: Jelajahi kekuatan Aspose.CAD untuk Java dalam menyesuaikan ukuran gambar CAD dengan mudah. Ikuti panduan langkah demi langkah kami untuk presisi dan kemampuan beradaptasi.
-type: docs
 weight: 14
 url: /id/java/cad-file-manipulation/adjusting-cad-drawing-size-using-unit-type/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Menyesuaikan Ukuran Gambar CAD Menggunakan Tipe Unit dengan Aspose.CAD untuk Java
+
 ## Perkenalan
 
 Dalam bidang Computer-Aided Design (CAD) yang terus berkembang, presisi dan kemampuan beradaptasi adalah hal yang terpenting. Salah satu persyaratan umum adalah menyesuaikan ukuran gambar CAD berdasarkan jenis unit tertentu. Aspose.CAD untuk Java muncul sebagai sekutu yang kuat, memberikan kemampuan tanpa batas untuk memanipulasi file CAD secara terprogram.
@@ -117,3 +123,9 @@ A1: Aspose.CAD terutama mendukung Java, tetapi ada versi yang tersedia untuk bah
 ### Q5: Bisakah saya mendapatkan lisensi sementara untuk Aspose.CAD?
 
  A5: Ya, Anda bisa mendapatkan lisensi sementara[Di Sini](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Замените шрифт в DWG с помощью Aspose.CAD для Ja
 linktitle: Заменить шрифт в DWG
 second_title: API Aspose.CAD Java
 description: Улучшайте свои проекты САПР без особых усилий. Научитесь заменять шрифты в файлах DWG с помощью Aspose.CAD для Java. Пошаговое руководство для визуального совершенства.
-type: docs
 weight: 11
 url: /ru/java/cad-text-and-annotation/substitute-font-in-dwg/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Замените шрифт в DWG с помощью Aspose.CAD для Java
+
 ## Введение
 
 В динамичной сфере компьютерного проектирования (САПР) повышение визуальной привлекательности чертежей часто имеет решающее значение. Один из эффективных способов добиться этого — заменить шрифты в файлах DWG. Aspose.CAD for Java выступает в качестве мощного инструмента в этой области, предоставляя простое решение для замены шрифтов. В этом уроке мы шаг за шагом рассмотрим этот процесс, демонстрируя, как заменить шрифты в файле DWG с помощью Aspose.CAD для Java.
@@ -91,3 +97,9 @@ A3: Регулировку размера шрифта можно выполни
 ### Вопрос 5. Совместим ли Aspose.CAD for Java с новейшими форматами файлов САПР?
 
 О5: Да, Aspose.CAD для Java регулярно обновляется для поддержки новейших форматов файлов САПР, обеспечивая совместимость с отраслевыми стандартами.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

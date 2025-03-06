@@ -3,10 +3,16 @@ title: Dukungan untuk Garis Tersembunyi di File DWG Menggunakan Aspose.CAD untuk
 linktitle: Dukungan untuk Garis Tersembunyi di File DWG Menggunakan Java
 second_title: Aspose.CAD Java API
 description: Pelajari cara meningkatkan kemampuan manipulasi file DWG aplikasi Java Anda menggunakan Aspose.CAD. Ikuti panduan langkah demi langkah kami untuk dukungan jalur tersembunyi. Tingkatkan penanganan gambar CAD Anda dengan mudah.
-type: docs
 weight: 11
 url: /id/java/cad-text-and-formatting/support-hidden-lines-in-dwg/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Dukungan untuk Garis Tersembunyi di File DWG Menggunakan Aspose.CAD untuk Java
+
 ## Perkenalan
 
 Selamat datang di panduan komprehensif tentang memanfaatkan Aspose.CAD untuk Java guna meningkatkan kemampuan manipulasi file DWG Anda. Dalam tutorial ini, kami akan fokus pada aspek tertentu: mendukung garis tersembunyi di file DWG. Baik Anda seorang pengembang berpengalaman atau baru memulai, panduan ini akan membantu Anda menavigasi proses dengan petunjuk langkah demi langkah.
@@ -117,3 +123,10 @@ A1: Ya, Aspose.CAD mendukung berbagai format CAD seperti DWG, DXF, DWF, dan lain
 ### Q5: Bisakah saya membeli lisensi sementara Aspose.CAD untuk Java?
 
  A5: Ya, Anda bisa mendapatkan lisensi sementara[Di Sini](https://purchase.aspose.com/temporary-license/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

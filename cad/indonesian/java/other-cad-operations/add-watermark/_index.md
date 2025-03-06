@@ -3,10 +3,16 @@ title: Tambahkan Tanda Air ke Gambar CAD - Aspose.CAD untuk Tutorial Java
 linktitle: Tambahkan Tanda Air
 second_title: Aspose.CAD Java API
 description: Sempurnakan gambar CAD Anda dengan tanda air yang dipersonalisasi menggunakan Aspose.CAD untuk Java. Ikuti panduan langkah demi langkah kami untuk integrasi yang lancar.
-type: docs
 weight: 12
 url: /id/java/other-cad-operations/add-watermark/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tambahkan Tanda Air ke Gambar CAD - Aspose.CAD untuk Tutorial Java
+
 ## Perkenalan
 
 Selamat datang di panduan komprehensif tentang menambahkan tanda air ke gambar CAD menggunakan Aspose.CAD untuk Java. Dalam tutorial ini, Anda akan mempelajari cara mengintegrasikan tanda air secara efisien, menyempurnakan dokumen CAD Anda dengan pesan atau pencitraan merek yang dipersonalisasi. Aspose.CAD untuk Java menyediakan serangkaian fitur canggih, membuat proses penambahan tanda air menjadi mudah.
@@ -99,3 +105,9 @@ A2: Ya, Anda memiliki kendali penuh atas tampilan tanda air, termasuk ukuran tek
 ### Q5: Di mana saya dapat menemukan dokumentasi lengkap Aspose.CAD untuk Java?
 
  A5: Lihat[dokumentasi](https://reference.aspose.com/cad/java/) untuk informasi rinci.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

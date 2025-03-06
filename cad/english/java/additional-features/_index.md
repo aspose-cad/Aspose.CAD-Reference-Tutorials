@@ -3,10 +3,16 @@ title: Additional Features
 linktitle: Additional Features
 second_title: Aspose.CAD Java API
 description: Unlock the potential of Aspose.CAD in Java with our tutorials. Add custom properties, decompose CAD insert objects, enable tracking, and export DXF drawings seamlessly. Elevate your CAD workflow effortlessly.
-type: docs
 weight: 29
 url: /java/additional-features/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Additional Features
+
 
 
 ## Introduction
@@ -60,3 +66,10 @@ Learn how to save DXF files in Java using Aspose.CAD. Follow our step-by-step gu
 ## Conclusion
 
 These tutorials cover a range of additional features in Aspose.CAD for Java, offering you valuable insights and skills to optimize your CAD workflow. Whether you're enhancing organization, mastering decomposing techniques, enabling tracking, or exploring various export options, these tutorials provide the knowledge you need. Elevate your CAD skills today with Aspose.CAD for Java.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

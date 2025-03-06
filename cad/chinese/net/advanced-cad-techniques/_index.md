@@ -3,10 +3,16 @@ title: 先进的 CAD 技术
 linktitle: 先进的 CAD 技术
 second_title: Aspose.CAD .NET - CAD 和 BIM 文件格式
 description: 轻松将 CFF 转换为 PDF、探索 CAD 绘图中的自由视角、设置保存操作超时、使用 Aspose.CAD for .NET 教程创建 PDF。
-type: docs
 weight: 38
 url: /zh/net/advanced-cad-techniques/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 先进的 CAD 技术
+
 ## 介绍
 
 随着技术的进步，掌握先进的计算机辅助设计 (CAD) 技术的需求也在不断增长。在本文中，我们将深入研究 CAD 世界，重点介绍 Aspose.CAD for .NET 提供的教程。无论您是经验丰富的 CAD 专业人士还是希望扩展技能的新手，这些教程都可以为增强您的 CAD 体验提供宝贵的见解。
@@ -43,3 +49,9 @@ CAD 绘图通常需要独特的视角才能真正掌握其复杂性。 Aspose.CA
 使用 Aspose.CAD for .NET 创建具有不同布局的单个 PDF。按照我们的分步指南进行无缝集成和高效 PDF 生成。
 ### [编辑 CAD 文件中的超链接 - Aspose.CAD 教程](./editing-hyperlinks-in-cad-files/)
 探索 Aspose.CAD for .NET 并学习轻松编辑 CAD 文件中的超链接。通过这个综合教程增强您的 CAD 文件管理技能。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

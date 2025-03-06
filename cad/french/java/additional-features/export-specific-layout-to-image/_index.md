@@ -3,10 +3,16 @@ title: Exporter une mise en page DXF spécifique vers une image avec Aspose.CAD 
 linktitle: Exporter une mise en page DXF spécifique vers une image avec Java
 second_title: API Java Aspose.CAD
 description: Découvrez comment exporter une mise en page DXF spécifique vers une image à l'aide d'Aspose.CAD pour Java. Suivez notre guide étape par étape pour une intégration transparente.
-type: docs
 weight: 16
 url: /fr/java/additional-features/export-specific-layout-to-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Exporter une mise en page DXF spécifique vers une image avec Aspose.CAD en Java
+
 ## Introduction
 
 Cherchez-vous à convertir une mise en page DXF spécifique en image à l’aide de Java ? Avec Aspose.CAD pour Java, vous pouvez réaliser cette tâche en toute transparence. Dans ce guide étape par étape, nous vous guiderons tout au long du processus d'exportation d'une mise en page DXF spécifique vers une image, en fournissant des instructions claires et des exemples pour chaque étape.
@@ -141,3 +147,9 @@ A4 : Oui, Aspose.CAD pour Java prend en charge divers formats de sortie, notamme
 ### Q5 : Puis-je personnaliser davantage les options de rastérisation ?
 
  A5 : Certes, le`CadRasterizationOptions` La classe fournit diverses propriétés pour la personnalisation. Explorez la documentation pour des options supplémentaires.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

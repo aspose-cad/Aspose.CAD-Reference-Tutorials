@@ -3,10 +3,16 @@ title: Set Canvas Size and Mode
 linktitle: Set Canvas Size and Mode
 second_title: Aspose.CAD Java API
 description: Explore the power of Aspose.CAD for Java with our step-by-step guide on setting canvas size and mode. Effortlessly convert CAD files to PDF and TIFF formats.
-type: docs
 weight: 16
 url: /java/advanced-cad-features/set-canvas-size-and-mode/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Set Canvas Size and Mode
+
 ## Introduction
 
 Are you looking to harness the power of Aspose.CAD for Java to enhance your CAD conversion process? This comprehensive guide will walk you through the steps of setting canvas size and mode using Aspose.CAD for Java. Whether you're a seasoned developer or just getting started, this tutorial will provide you with the insights you need.
@@ -126,3 +132,10 @@ A4: Absolutely! Get a free trial [here](https://releases.aspose.com/).
 ### Q5: How do I purchase Aspose.CAD for Java?
 
 A5: Purchase the product [here](https://purchase.aspose.com/buy).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

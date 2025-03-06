@@ -3,10 +3,16 @@ title: Aspose.CAD for Java を使用した DWG 内のリスト レイアウト
 linktitle: DWG のリスト レイアウト
 second_title: Aspose.CAD Java API
 description: Aspose.CAD for Java を探索し、DWG ファイル内のレイアウトを簡単にリストします。強力な CAD 機能を Java アプリケーションに統合します。
-type: docs
 weight: 12
 url: /ja/java/cad-file-manipulation/list-layouts-in-dwg/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.CAD for Java を使用した DWG 内のリスト レイアウト
+
 ## 導入
 
 Aspose.CAD for Java を使用して DWG ファイル内のレイアウトを一覧表示するためのステップバイステップ ガイドへようこそ。 Aspose.CAD は、開発者がプログラムで CAD ファイルを操作できるようにする強力なライブラリです。このチュートリアルでは、DWG ファイル内のレイアウトをリストするという特定のタスクに焦点を当てます。このガイドを終えるまでに、この機能を Java アプリケーションにシームレスに統合できるようになります。
@@ -86,3 +92,9 @@ A1: はい、Aspose.CAD は、DWG、DXF、DWF などを含むさまざまな CAD
 ### Q5: テスト目的で一時ライセンスを使用できますか?
 
  A5: はい、一時ライセンスを取得できます。[ここ](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Tempo limite ao salvar para CAD com Aspose.CAD
 linktitle: Colocar tempo limite para salvar
 second_title: API Java Aspose.CAD
 description: Aprenda como aumentar o desempenho do seu aplicativo Java com Aspose.CAD. Defina um tempo limite para salvar desenhos CAD. Siga nosso guia passo a passo.
-type: docs
 weight: 15
 url: /pt/java/other-cad-operations/put-timeout-on-save/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tempo limite ao salvar para CAD com Aspose.CAD
+
 ## Introdução
 
 Bem-vindo ao tutorial sobre como definir um tempo limite para salvar usando Aspose.CAD para Java. Neste guia, orientaremos você no processo de configuração de um tempo limite para salvar desenhos CAD para melhorar o desempenho do seu aplicativo. Aspose.CAD for Java é uma biblioteca poderosa que permite trabalhar perfeitamente com arquivos CAD em seus aplicativos Java.
@@ -131,3 +137,9 @@ A3: Sim, você pode obter uma avaliação gratuita em[esse link](https://release
 ### Q5: Precisa de ajuda ou tem dúvidas?
 
  A5: Vá para o[Fórum Aspose.CAD](https://forum.aspose.com/c/cad/19) para apoio comunitário.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

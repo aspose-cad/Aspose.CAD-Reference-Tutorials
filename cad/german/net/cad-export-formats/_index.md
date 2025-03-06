@@ -3,10 +3,16 @@ title: CAD-Exportformate
 linktitle: CAD-Exportformate
 second_title: Aspose.CAD .NET – CAD- und BIM-Dateiformat
 description: Beherrschen Sie mühelos CAD-Exportformate mit Aspose.CAD für .NET. Erfahren Sie in Tutorials, wie Sie CAD-Layouts konvertieren, DGN-Dateien in PDF und Rasterbilder exportieren.
-type: docs
 weight: 22
 url: /de/net/cad-export-formats/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# CAD-Exportformate
+
 
 ## Einführung
 
@@ -38,3 +44,9 @@ Erfahren Sie, wie Sie DGN als Teil von DWG in Aspose.CAD für .NET exportieren. 
 Erfahren Sie, wie Sie DGN-Dateien mit Aspose.CAD für .NET mühelos in PDF exportieren. Eine Schritt-für-Schritt-Anleitung für die nahtlose Bearbeitung von CAD-Dateien.
 ### [Exportieren Sie DGN in ein Rasterbild in Aspose.CAD für .NET](./export-dgn-to-raster-image/)
 Konvertieren Sie DGN mühelos in Rasterbilder mit Aspose.CAD für .NET. Entdecken Sie die Schritt-für-Schritt-Anleitung und nutzen Sie die Leistungsfähigkeit von .NET bei der Bearbeitung von CAD-Dateien.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

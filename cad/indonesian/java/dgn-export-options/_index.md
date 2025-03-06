@@ -3,10 +3,16 @@ title: Tutorial Ekspor DGN
 linktitle: Tutorial Ekspor DGN
 second_title: Aspose.CAD Java API
 description: Buka kekuatan Aspose.CAD untuk Java dengan Tutorial Ekspor DGN kami. Pelajari manipulasi file CAD yang efisien, mulai dari mengekspor DGN sebagai bagian dari DWG hingga membuat gambar raster dengan mudah.
-type: docs
 weight: 31
 url: /id/java/dgn-export-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tutorial Ekspor DGN
+
 ## Perkenalan
 
 Aspose.CAD untuk Java membuka banyak kemungkinan bagi para penggemar CAD, menawarkan kemampuan ekspor DGN yang lancar. Dalam seri tutorial ini, kami akan memandu Anda melalui teknik-teknik penting untuk meningkatkan kemampuan manipulasi file CAD aplikasi Java Anda.
@@ -39,3 +45,9 @@ Jelajahi panduan langkah demi langkah tentang mengekspor file DGN yang disematka
 Jelajahi panduan langkah demi langkah tentang mengekspor file DGN ke format AutoCAD dalam PDF menggunakan Aspose.CAD untuk Java. Tingkatkan kemampuan penanganan CAD aplikasi Java Anda dengan mudah.
 ### [Mengekspor DGN dalam Format AutoCAD ke Format Gambar Raster](./exporting-dgn-to-raster-image/)
 Pelajari cara mengekspor file DGN ke gambar JPEG di Java menggunakan Aspose.CAD. Tutorial langkah demi langkah ini memandu Anda melalui proses dengan mudah.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

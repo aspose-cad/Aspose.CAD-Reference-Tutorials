@@ -3,10 +3,16 @@ title: Substituting Fonts in Aspose.CAD for .NET
 linktitle: Substituting Fonts
 second_title: Aspose.CAD .NET - CAD and BIM File Format
 description: Learn to substitute fonts in Aspose.CAD for .NET effortlessly. Follow our step-by-step guide for efficient font customization in your CAD drawings.
-type: docs
 weight: 17
 url: /net/cad-features-and-support/substituting-fonts/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Substituting Fonts in Aspose.CAD for .NET
+
 ## Introduction
 
 In the realm of CAD development using .NET, the ability to manipulate fonts is a crucial skill. Aspose.CAD for .NET provides a robust set of tools for this purpose, allowing developers to seamlessly substitute fonts within their CAD drawings. In this tutorial, we'll explore the process step by step, demonstrating how to achieve font substitution efficiently.
@@ -110,3 +116,10 @@ A4: Certainly, you can implement batch processing to automate font substitution 
 A5: For additional support and community discussions, visit the [Aspose.CAD forum](https://forum.aspose.com/c/cad/19).
 
 
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

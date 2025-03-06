@@ -3,10 +3,16 @@ title: Vytváření dynamických PDF pomocí Aspose.CAD pro Java
 linktitle: Jeden PDF s různými rozvrženími
 second_title: Aspose.CAD Java API
 description: Vytvářejte úžasné soubory PDF s různými rozvrženími z výkresů CAD pomocí Aspose.CAD pro Java. Snadná integrace a výkonné funkce pro vývojáře Java.
-type: docs
 weight: 16
 url: /cs/java/other-cad-operations/single-pdf-different-layouts/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Vytváření dynamických PDF pomocí Aspose.CAD pro Java
+
 ## Úvod
 
 Vítejte ve světě Aspose.CAD for Java, výkonné knihovny, která umožňuje vývojářům bez námahy manipulovat s CAD výkresy. V tomto tutoriálu se ponoříme do vytváření jednotlivých PDF s různými rozvrženími pomocí Aspose.CAD pro Java. Ať už jste zkušený vývojář nebo teprve začínáte, tento podrobný průvodce vás provede celým procesem.
@@ -103,3 +109,9 @@ Odpověď 1: Ano, Aspose.CAD for Java je navržen tak, aby se hladce integroval 
 ### Q5: Kde mohu zakoupit plnou verzi?
 
 A5: Kupte si plnou verzi Aspose.CAD pro Java[tady](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

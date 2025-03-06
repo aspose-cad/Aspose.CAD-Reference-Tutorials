@@ -3,10 +3,16 @@ title: เค้าโครง CAD และการสลายตัว
 linktitle: เค้าโครง CAD และการสลายตัว
 second_title: Aspose.CAD .NET - รูปแบบไฟล์ CAD และ BIM
 description: ปลดล็อกศักยภาพของเค้าโครง CAD ด้วย Aspose.CAD สำหรับ .NET! แปลงการออกแบบเป็น PDF ได้อย่างง่ายดายโดยใช้คำแนะนำของเรา การสลายตัวหลักของวัตถุแทรกได้อย่างง่ายดาย
-type: docs
 weight: 34
 url: /th/net/cad-layouts-and-decomposition/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# เค้าโครง CAD และการสลายตัว
+
 
 
 
@@ -59,3 +65,9 @@ Aspose.CAD โดดเด่นด้วยอินเทอร์เฟซท
 แปลงเค้าโครง CAD เป็น PDF ได้อย่างง่ายดายด้วย Aspose.CAD สำหรับ .NET ปฏิบัติตามคำแนะนำทีละขั้นตอนของเราเพื่อการบูรณาการที่ราบรื่น
 ### [การแยกวัตถุแทรก CAD - คู่มือ Aspose.CAD](./decomposing-cad-insert-objects/)
 สำรวจประสิทธิภาพของ Aspose.CAD สำหรับ .NET ด้วยคำแนะนำทีละขั้นตอนของเราเกี่ยวกับการแยกย่อยวัตถุแทรก CAD
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

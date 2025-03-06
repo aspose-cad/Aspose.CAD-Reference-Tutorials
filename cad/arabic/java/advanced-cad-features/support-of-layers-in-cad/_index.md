@@ -3,10 +3,16 @@ title: دعم الطبقات باستخدام Aspose.CAD في Java
 linktitle: دعم الطبقات في CAD
 second_title: Aspose.CAD جافا API
 description: دعم الطبقة الرئيسية في تطوير Java CAD باستخدام Aspose.CAD. تنظيم وتصدير الرسومات دون عناء.
-type: docs
 weight: 18
 url: /ar/java/advanced-cad-features/support-of-layers-in-cad/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# دعم الطبقات باستخدام Aspose.CAD في Java
+
 ## مقدمة
 
 أطلق العنان للإمكانات الكاملة لـ Aspose.CAD في Java من خلال إتقان دعم الطبقات. تلعب الطبقات دورًا حاسمًا في رسومات CAD، مما يسمح بالتنظيم والتلاعب الفعالين بالعناصر الرسومية. في هذا البرنامج التعليمي الشامل، سوف نتعمق في تعقيدات دعم الطبقة باستخدام Aspose.CAD، مما يوفر لك دليلًا خطوة بخطوة للاستفادة من هذه الوظيفة القوية.
@@ -118,3 +124,9 @@ image.save(outFile, jpegOptions);
 ### س5: أين يمكنني طلب المساعدة أو مشاركة تجاربي مع Aspose.CAD؟
 
 ج5: انضم إلى مجتمع Aspose.CAD على[المنتدى](https://forum.aspose.com/c/cad/19) للحصول على الدعم والمناقشات التعاونية.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

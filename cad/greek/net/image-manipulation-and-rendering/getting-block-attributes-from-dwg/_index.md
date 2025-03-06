@@ -3,10 +3,16 @@ title: Λήψη χαρακτηριστικών μπλοκ από αρχεία DW
 linktitle: Λήψη χαρακτηριστικών αποκλεισμού από αρχεία DWG
 second_title: Aspose.CAD .NET - Μορφή αρχείου CAD και BIM
 description: Ξεκλειδώστε τις δυνατότητες των αρχείων CAD με το Aspose.CAD για .NET. Εξαγωγή χαρακτηριστικών μπλοκ χωρίς κόπο.
-type: docs
 weight: 10
 url: /el/net/image-manipulation-and-rendering/getting-block-attributes-from-dwg/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Λήψη χαρακτηριστικών μπλοκ από αρχεία DWG - Εκμάθηση Aspose.CAD
+
 ## Εισαγωγή
 
 Στον δυναμικό κόσμο του Computer-Aided Design (CAD), η εξαγωγή πολύτιμων πληροφοριών από αρχεία DWG είναι ζωτικής σημασίας για πολλές εφαρμογές. Το Aspose.CAD για .NET παρέχει μια ισχυρή λύση για αποτελεσματική εργασία με αρχεία CAD. Σε αυτό το σεμινάριο, θα εμβαθύνουμε στη διαδικασία ανάκτησης χαρακτηριστικών μπλοκ από αρχεία DWG χρησιμοποιώντας το Aspose.CAD, βήμα προς βήμα.
@@ -93,3 +99,9 @@ A1: Ναι, το Aspose.CAD υποστηρίζει διάφορες μορφές
 ### Ε5: Πού μπορώ να βρω την τεκμηρίωση για το Aspose.CAD για .NET;
 
  A5: Ανατρέξτε στην περιεκτική[τεκμηρίωση](https://reference.aspose.com/cad/net/) για λεπτομερείς πληροφορίες και παραδείγματα.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

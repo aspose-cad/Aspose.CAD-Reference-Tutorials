@@ -3,10 +3,16 @@ title: Elrendezés és objektumkezelés
 linktitle: Elrendezés és objektumkezelés
 second_title: Aspose.CAD .NET - CAD és BIM fájlformátum
 description: Master DXF elrendezés exportálás, fájlmentés, blokkkivágás és ACAD proxy entitások könnyedén a továbbfejlesztett CAD-tervezés érdekében az Aspose.CAD for .NET használatával.
-type: docs
 weight: 33
 url: /hu/net/layout-and-object-handling/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Elrendezés és objektumkezelés
+
 
 ## Bevezetés
 
@@ -38,3 +44,9 @@ Fedezze fel az Aspose.CAD for .NET erejét. Ismerje meg a DXF fájlok könnyű m
 Ismerje meg, hogyan valósíthat meg blokkvágást CAD-ben az Aspose.CAD for .NET használatával. Növelje tervezési képességeit ezzel a lépésről lépésre mutató oktatóanyaggal.
 ### [Munka ACAD proxy entitásokkal – Aspose.CAD útmutató](./working-with-acad-proxy-entities/)
 Fedezze fel az Aspose.CAD for .NET-et, és egyszerűsítse CAD-munkafolyamatait. Könnyedén konvertálhat, szerkeszthet és kezelhet ACAD proxy entitásokat.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

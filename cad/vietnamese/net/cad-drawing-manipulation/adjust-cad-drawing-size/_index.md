@@ -3,10 +3,16 @@ title: Điều chỉnh kích thước bản vẽ CAD trong Aspose.CAD cho .NET
 linktitle: Điều chỉnh kích thước bản vẽ CAD
 second_title: Aspose.CAD .NET - Định dạng tệp CAD và BIM
 description: Tìm hiểu cách dễ dàng điều chỉnh kích thước bản vẽ CAD trong .NET bằng Aspose.CAD. Hãy làm theo hướng dẫn từng bước của chúng tôi để thay đổi kích thước liền mạch.
-type: docs
 weight: 10
 url: /vi/net/cad-drawing-manipulation/adjust-cad-drawing-size/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Điều chỉnh kích thước bản vẽ CAD trong Aspose.CAD cho .NET
+
 ## Giới thiệu
 
 Bạn đang tìm cách điều chỉnh liền mạch kích thước của bản vẽ CAD trong các ứng dụng .NET của mình? Aspose.CAD cho .NET cung cấp một giải pháp mạnh mẽ, cho phép bạn dễ dàng xử lý việc thay đổi kích thước bản vẽ CAD. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn thực hiện quy trình, chia nhỏ từng bước để đảm bảo bạn nắm bắt được sự phức tạp của việc thay đổi kích thước bản vẽ CAD bằng Aspose.CAD.
@@ -115,3 +121,9 @@ Câu trả lời 2: Có, bạn có thể thay đổi kích thước nhiều bố
 ### Câu hỏi 5: Làm cách nào tôi có thể nhận được giấy phép tạm thời cho Aspose.CAD cho .NET?
 
  A5: Xin giấy phép tạm thời cho mục đích thử nghiệm[đây](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: 属性とプロパティの管理
 linktitle: 属性とプロパティの管理
 second_title: Aspose.CAD .NET - CAD および BIM ファイル形式
 description: Aspose.CAD for .NET を使用して CAD 図面を強化しましょう!チュートリアルを通じて、属性とカスタム プロパティをシームレスに追加する方法を学びます。デザインを簡単に強化できます。
-type: docs
 weight: 30
 url: /ja/net/attribute-and-property-management/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 属性とプロパティの管理
+
 
 
 ## 導入
@@ -47,3 +53,9 @@ DWG ファイルに意味のあるメタデータが不足していませんか?
 Aspose.CAD for .NET を使用して、CAD 図面を属性で強化します。シームレスな統合については、ステップバイステップのガイドに従ってください。
 ### [DWG ファイルへのカスタム プロパティの追加 - Aspose.CAD ガイド](./adding-custom-properties-to-dwg/)
 Aspose.CAD for .NET を使用して、カスタム プロパティで DWG ファイルを強化します。ステップバイステップのガイドに従って、意味のあるメタデータを簡単に追加します。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

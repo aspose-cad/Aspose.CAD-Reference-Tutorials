@@ -3,10 +3,16 @@ title: Licencjonowanie licznikowe w Aspose.CAD dla .NET
 linktitle: Licencjonowanie licznikowe
 second_title: Aspose.CAD .NET - Format plików CAD i BIM
 description: Odblokuj potencjał Aspose.CAD dzięki licencjonowaniu licznikowemu w .NET. Bezproblemowo optymalizuj wykorzystanie zasobów. Zapoznaj się z naszym przewodnikiem krok po kroku.
-type: docs
 weight: 12
 url: /pl/net/licensing-and-configuration/metered-licensing/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Licencjonowanie licznikowe w Aspose.CAD dla .NET
+
 ## Wstęp
 
 Uwolnienie pełnego potencjału Aspose.CAD dla .NET wymaga zrozumienia zawiłości licencjonowania licznikowego. Ta potężna funkcja pozwala programistom efektywnie zarządzać zużyciem zasobów, jednocześnie wykorzystując możliwości Aspose.CAD. W tym przewodniku krok po kroku zagłębimy się w proces wdrażania licencjonowania licznikowego, dzieląc się szczegółami na każdy kluczowy krok, aby zapewnić bezproblemową integrację z projektami .NET.
@@ -97,3 +103,9 @@ Odpowiedź 3: Tak, klucze mierzone można ponownie wykorzystać w różnych proj
 ### P5: Czy mogę tymczasowo licencjonować Aspose.CAD dla określonych projektów?
 
  A5: Tak, eksploruj[opcje licencjonowania tymczasowego](https://purchase.aspose.com/temporary-license/) dla krótkoterminowych wymagań projektowych.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

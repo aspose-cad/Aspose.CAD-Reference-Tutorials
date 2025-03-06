@@ -3,10 +3,16 @@ title: 使用 Aspose.CAD for Java 自动调整 CAD 绘图尺寸
 linktitle: 自动调整 CAD 图纸尺寸
 second_title: Aspose.CAD Java API
 description: 探索使用 Aspose.CAD 在 Java 中自动调整 CAD 绘图尺寸的无缝过程。请按照我们的分步指南进行高效的 CAD 文件操作。
-type: docs
 weight: 13
 url: /zh/java/cad-file-manipulation/auto-adjusting-cad-drawing-size/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.CAD for Java 自动调整 CAD 绘图尺寸
+
 ## 介绍
 
 在 CAD（计算机辅助设计）领域，调整绘图尺寸是一项常见要求，而使用 Aspose.CAD for Java，它成为一个无缝过程。这个功能强大的库提供了用于在 Java 应用程序中处理 CAD 文件的综合工具。在本教程中，我们将探索使用 Aspose.CAD 自动调整 CAD 绘图尺寸的分步过程。
@@ -107,3 +113,9 @@ A4：加入 Aspose.CAD 社区[论坛](https://forum.aspose.com/c/cad/19)寻求�
 ### Q5：Aspose.CAD for Java 有免费试用版吗？
 
  A5：是的，您可以免费试用[这里](https://releases.aspose.com/)探索图书馆的能力。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

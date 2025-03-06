@@ -3,10 +3,16 @@ title: CAD-object ontleden met Aspose.CAD in Java
 linktitle: Ontleed CAD-invoegobject met Java
 second_title: Aspose.CAD Java-API
 description: Beheers het ontbinden van CAD-invoegobjecten in Java met Aspose.CAD. Volg onze stapsgewijze handleiding voor een efficiënte afhandeling. Duik in de wereld van CAD-manipulatie.
-type: docs
 weight: 11
 url: /nl/java/additional-features/decompose-cad-insert-object/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# CAD-object ontleden met Aspose.CAD in Java
+
 ## Invoering
 
 Welkom bij onze uitgebreide handleiding over het gebruik van Aspose.CAD voor Java om CAD-invoegobjecten te ontleden. In deze zelfstudie leiden we u door het proces van het opsplitsen van CAD-invoegobjecten in hun samenstellende delen, zodat u stapsgewijze handleiding krijgt voor een naadloze implementatie. Of u nu een doorgewinterde ontwikkelaar bent of net begint met Aspose.CAD, deze tutorial geeft u de kennis om efficiënt met CAD-invoegobjecten in uw Java-toepassingen om te gaan.
@@ -110,3 +116,9 @@ In deze zelfstudie hebben we het proces van het ontleden van CAD-invoegobjecten 
 ### Vraag 5: Zijn er voorbeeldtekeningen om mee te oefenen?
 
 A5: Ja, u kunt voorbeeldtekeningen vinden in de map "DXFDrawings" binnen de Aspose.CAD-bronnen.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

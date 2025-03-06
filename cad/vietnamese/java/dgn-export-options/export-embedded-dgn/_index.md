@@ -3,10 +3,16 @@ title: Xuất DGN nhúng sang PDF bằng Aspose.CAD cho Java
 linktitle: Xuất DGN nhúng
 second_title: API Java Aspose.CAD
 description: Khám phá hướng dẫn từng bước về cách xuất tệp DGN được nhúng sang PDF bằng Aspose.CAD cho Java. Nâng cao các ứng dụng Java của bạn bằng thao tác liền mạch với tệp CAD.
-type: docs
 weight: 11
 url: /vi/java/dgn-export-options/export-embedded-dgn/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Xuất DGN nhúng sang PDF bằng Aspose.CAD cho Java
+
 ## Giới thiệu
 
 Chào mừng bạn đến với hướng dẫn toàn diện này về cách xuất tệp DGN nhúng bằng Aspose.CAD cho Java. Aspose.CAD là một thư viện mạnh mẽ cho phép các nhà phát triển Java làm việc liền mạch với các tệp CAD. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn quy trình xuất tệp DGN được nhúng sang PDF bằng hướng dẫn từng bước. Cho dù bạn là nhà phát triển dày dạn kinh nghiệm hay mới bắt đầu, hướng dẫn này sẽ giúp bạn khai thác các khả năng của Aspose.CAD để nâng cao các ứng dụng Java của bạn.
@@ -103,3 +109,9 @@ Câu trả lời 3: Bạn có thể tìm kiếm sự hỗ trợ từ cộng đ�
 ### Câu 5: Tôi có thể tìm tài liệu ở đâu?
 
  A5: Tài liệu có sẵn[đây](https://reference.aspose.com/cad/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: تصدير كائنات OLE من CAD باستخدام Aspose.CAD لـ Jav
 linktitle: تصدير كائنات OLE من CAD
 second_title: Aspose.CAD جافا API
 description: أطلق العنان لإمكانات Aspose.CAD لـ Java. قم بتصدير كائنات OLE من ملفات CAD بسهولة. قم بالتنزيل الآن لإدارة بيانات CAD بشكل سلس.
-type: docs
 weight: 10
 url: /ar/java/cad-to-pdf-and-svg-export-options/export-ole-objects-from-cad/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تصدير كائنات OLE من CAD باستخدام Aspose.CAD لـ Java
+
 ## مقدمة
 
 في العالم الديناميكي للتصميم بمساعدة الكمبيوتر (CAD)، تعد إدارة واستخراج كائنات OLE (ربط الكائنات وتضمينها) بكفاءة أمرًا بالغ الأهمية. يوفر Aspose.CAD for Java حلاً قويًا لتصدير كائنات OLE من ملفات CAD. سيرشدك هذا الدليل المفصّل خطوة بخطوة خلال العملية، مما يضمن لك الاستفادة من الإمكانات الكاملة لهذه الأداة.
@@ -97,3 +103,9 @@ for(String file : files)
 ### س5: كيف يمكنني شراء ترخيص Aspose.CAD؟
 
 ج5: قم بزيارة[صفحة الشراء](https://purchase.aspose.com/buy) للحصول على ترخيص يناسب احتياجات التطوير الخاصة بك.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Aspose.CAD for Java ile DWG Alt Katman Bayraklarına Erişim
 linktitle: DWG Alt Katman Bayraklarına Erişim
 second_title: Aspose.CAD Java API'si
 description: Aspose.CAD for Java ile CAD büyüsü dünyasını keşfedin! Java uygulamalarınızda DWG dosyalarını zahmetsizce kullanın.
-type: docs
 weight: 11
 url: /tr/java/cad-file-manipulation/accessing-underlay-flags-of-dwg/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.CAD for Java ile DWG Alt Katman Bayraklarına Erişim
+
 ## giriiş
 
 Bilgisayar Destekli Tasarım (CAD) alanında hassasiyet ve verimlilik çok önemlidir. Aspose.CAD for Java, Java uygulamalarınız ve CAD işlevleriniz arasında kusursuz bir köprü sağlayan güçlü bir müttefik olarak ortaya çıkıyor. Bu adım adım kılavuzda Aspose.CAD'in büyüsünü derinlemesine inceleyerek DWG dosyalarını işlemeye ve Java kullanarak değerli bilgileri çıkarmaya odaklanacağız.
@@ -112,3 +118,9 @@ Cevap1: Aspose.CAD öncelikli olarak DWG formatına odaklanır ancak aynı zaman
 ### S5: Aspose.CAD for Java'nın kapsamlı belgelerini nerede bulabilirim?
 
  A5: Bkz.[dokümantasyon](https://reference.aspose.com/cad/java/) detaylı bilgi için.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: BMP 형식으로 내보내기 - Aspose.CAD 튜토리얼
 linktitle: BMP 형식으로 내보내기
 second_title: Aspose.CAD .NET - CAD 및 BIM 파일 형식
 description: .NET용 Aspose.CAD를 사용하여 BMP로 3D 이미지를 원활하게 내보내는 세계를 탐험해보세요. 번거롭지 않은 경험을 위해 튜토리얼을 따르십시오.
-type: docs
 weight: 11
 url: /ko/net/file-format-conversion/exporting-to-bmp-format/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# BMP 형식으로 내보내기 - Aspose.CAD 튜토리얼
+
 ## 소개
 
 역동적인 소프트웨어 개발 세계에서 .NET용 Aspose.CAD는 CAD(Computer-Aided Design) 파일을 처리하기 위한 강력한 도구로 돋보입니다. CAD 이미지를 널리 사용되는 BMP 형식으로 내보내려는 경우 이 튜토리얼이 가장 적합한 가이드입니다. 이 단계별 연습에서는 .NET용 Aspose.CAD를 사용하여 3D 이미지를 BMP로 내보내는 과정을 살펴보겠습니다. 뛰어들어보자!
@@ -94,3 +100,10 @@ A1: 예, Aspose.CAD는 다양한 CAD 파일 형식을 지원하여 프로젝트�
 ### Q5: .NET용 Aspose.CAD를 구입할 수 있나요?
 
  A5: 예, Aspose.CAD를 구입할 수 있습니다.[여기](https://purchase.aspose.com/buy) 귀하의 프로젝트에 대한 잠재력을 최대한 발휘할 수 있습니다.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

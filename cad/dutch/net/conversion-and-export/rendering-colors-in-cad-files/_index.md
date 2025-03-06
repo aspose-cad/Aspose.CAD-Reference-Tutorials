@@ -3,10 +3,16 @@ title: Kleuren weergeven in CAD-bestanden - Aspose.CAD-handleiding
 linktitle: Kleuren weergeven in CAD-bestanden
 second_title: Aspose.CAD .NET - CAD- en BIM-bestandsindeling
 description: Beheers de weergave van CAD-bestanden in .NET met Aspose.CAD. Volg onze stapsgewijze handleiding voor levendige kleuren.
-type: docs
 weight: 10
 url: /nl/net/conversion-and-export/rendering-colors-in-cad-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Kleuren weergeven in CAD-bestanden - Aspose.CAD-handleiding
+
 ## Invoering
 
 Worstelt u met de uitdaging om kleuren in CAD-bestanden weer te geven met behulp van .NET? Zoek niet verder! In deze uitgebreide handleiding leiden we u stap voor stap door het proces met behulp van de krachtige Aspose.CAD-bibliotheek. Aan het einde van deze tutorial beschikt u over de kennis om moeiteloos kleuren in uw CAD-bestanden weer te geven.
@@ -108,3 +114,9 @@ Gefeliciteerd! U hebt met succes kleuren in CAD-bestanden weergegeven met Aspose
 ### V5: Waar kan ik de Aspose.CAD-bibliotheek kopen?
 
  A5: Koop Aspose.CAD[hier](https://purchase.aspose.com/buy) om zijn volledige potentieel te ontsluiten.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

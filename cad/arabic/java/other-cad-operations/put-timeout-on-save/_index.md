@@ -3,10 +3,16 @@ title: انتهت مهلة الحفظ لـ CAD باستخدام Aspose.CAD
 linktitle: ضع المهلة على الحفظ
 second_title: Aspose.CAD جافا API
 description: تعرف على كيفية تعزيز أداء تطبيق Java الخاص بك باستخدام Aspose.CAD. ضع مهلة لحفظ رسومات CAD. اتبع دليلنا خطوة بخطوة.
-type: docs
 weight: 15
 url: /ar/java/other-cad-operations/put-timeout-on-save/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# انتهت مهلة الحفظ لـ CAD باستخدام Aspose.CAD
+
 ## مقدمة
 
 مرحبًا بك في البرنامج التعليمي حول وضع مهلة للحفظ باستخدام Aspose.CAD لـ Java. في هذا الدليل، سنرشدك خلال عملية تحديد مهلة لحفظ رسومات CAD لتحسين أداء التطبيق الخاص بك. Aspose.CAD for Java هي مكتبة قوية تتيح لك العمل مع ملفات CAD في تطبيقات Java الخاصة بك بسلاسة.
@@ -131,3 +137,9 @@ thread.join();
 ### س5: هل تحتاج إلى مساعدة أو لديك أسئلة؟
 
  ج5: توجه إلى[منتدى Aspose.CAD](https://forum.aspose.com/c/cad/19) لدعم المجتمع.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

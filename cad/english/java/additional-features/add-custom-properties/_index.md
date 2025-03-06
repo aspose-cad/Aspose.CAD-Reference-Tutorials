@@ -3,10 +3,16 @@ title: Add Custom Properties to DWG Files Using Aspose.CAD In Java
 linktitle: Add Custom Properties to DWG Files Using Java
 second_title: Aspose.CAD Java API
 description: Learn how to add custom properties to DWG files in Java using Aspose.CAD. Enhance organization and information retrieval in CAD drawings effortlessly.
-type: docs
 weight: 10
 url: /java/additional-features/add-custom-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Add Custom Properties to DWG Files Using Aspose.CAD In Java
+
 In the world of Java programming, manipulating DWG files with custom properties is a common task. Aspose.CAD for Java provides a powerful set of tools to seamlessly integrate this functionality into your projects. In this step-by-step tutorial, we'll guide you through the process of adding custom properties to DWG files using Aspose.CAD for Java.
 
 ## Introduction
@@ -105,3 +111,10 @@ A4: Yes, you can [download a free trial](https://releases.aspose.com/) to evalua
 ### Q5: How can I get support or ask questions?
 
 A5: Visit the [Aspose.CAD forum](https://forum.aspose.com/c/cad/19) to get support, ask questions, and connect with the Aspose.CAD community.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

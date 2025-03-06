@@ -3,10 +3,16 @@ title: CAD 导出选项
 linktitle: CAD 导出选项
 second_title: Aspose.CAD Java API
 description: 使用 Aspose.CAD for Java 轻松将 AutoCAD 图像、CAD 布局、IFC、STL 文件导出为 PDF、BMP、PNG。通过我们的分步教程简化您的工作流程。
-type: docs
 weight: 30
 url: /zh/java/cad-export-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# CAD 导出选项
+
 
 ## 介绍
 
@@ -50,3 +56,9 @@ url: /zh/java/cad-export-options/
 使用 Aspose.CAD for Java 轻松将 IFC 转换为 PNG。请按照我们的分步教程进行操作。
 ### [使用 Aspose.CAD for Java 将 STL 导出为 PNG](./export-stl-to-png/)
 探索使用 Aspose.CAD 在 Java 中将 STL 文件导出为 PNG 的无缝过程。简化您的工作流程并轻松增强您的 Java 项目。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

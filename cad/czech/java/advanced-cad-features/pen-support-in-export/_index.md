@@ -3,10 +3,16 @@ title: Podpora pera v exportu
 linktitle: Podpora pera v exportu
 second_title: Aspose.CAD Java API
 description: Ovládněte přizpůsobení pera v exportu CAD pomocí Aspose.CAD pro Java. Postupujte podle našeho podrobného průvodce pro bezproblémovou integraci.
-type: docs
 weight: 13
 url: /cs/java/advanced-cad-features/pen-support-in-export/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Podpora pera v exportu
+
 ## Úvod
 
 neustále se vyvíjejícím prostředí převodů CAD (Computer-Aided Design) se Aspose.CAD for Java ukazuje jako výkonný nástroj, který nabízí rozsáhlé možnosti pro manipulaci se soubory CAD. Mezi jeho všestrannými funkcemi vyniká podpora přizpůsobení pera během exportu, která uživatelům umožňuje přizpůsobit vzhled exportovaných obrázků. Tento tutoriál vás provede procesem využití podpory pera ve funkci exportu se zaměřením na praktickou implementaci pomocí Javy.
@@ -112,3 +118,9 @@ A4: Upravte šířku a výšku stránky v možnostech rastrování, abyste říd
 ### Q5: Kde najdu další podporu nebo komunitní diskuse?
 
  A5: Prozkoumejte fórum komunity Aspose.CAD na adrese[tady](https://forum.aspose.com/c/cad/19) za podporu a diskuze.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

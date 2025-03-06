@@ -3,10 +3,16 @@ title: Java에서 Aspose.CAD를 사용하여 특정 DXF 레이아웃을 이미�
 linktitle: Java를 사용하여 특정 DXF 레이아웃을 이미지로 내보내기
 second_title: Aspose.CAD 자바 API
 description: Aspose.CAD for Java를 사용하여 특정 DXF 레이아웃을 이미지로 내보내는 방법을 알아보세요. 원활한 통합을 위한 단계별 가이드를 따르세요.
-type: docs
 weight: 16
 url: /ko/java/additional-features/export-specific-layout-to-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java에서 Aspose.CAD를 사용하여 특정 DXF 레이아웃을 이미지로 내보내기
+
 ## 소개
 
 Java를 사용하여 특정 DXF 레이아웃을 이미지로 변환하려고 하시나요? Aspose.CAD for Java를 사용하면 이 작업을 원활하게 수행할 수 있습니다. 이 단계별 가이드에서는 특정 DXF 레이아웃을 이미지로 내보내는 과정을 안내하고 각 단계에 대한 명확한 지침과 예를 제공합니다.
@@ -141,3 +147,9 @@ A4: 예, Java용 Aspose.CAD는 PNG, BMP, TIFF 등을 포함한 다양한 출력 
 ### Q5: 래스터화 옵션을 추가로 사용자 정의할 수 있나요?
 
  A5: 확실히,`CadRasterizationOptions` 클래스는 사용자 정의를 위한 다양한 속성을 제공합니다. 추가 옵션에 대해서는 설명서를 살펴보세요.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

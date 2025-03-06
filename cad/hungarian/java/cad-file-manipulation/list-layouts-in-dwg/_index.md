@@ -3,10 +3,16 @@ title: A DWG elrendezések listázása az Aspose.CAD for Java használatával
 linktitle: Elrendezések listázása a DWG-ben
 second_title: Aspose.CAD Java API
 description: Fedezze fel az Aspose.CAD for Java alkalmazást, és könnyedén listázza ki az elrendezéseket DWG-fájlokba. Integráljon hatékony CAD-funkciókat Java-alkalmazásaiba.
-type: docs
 weight: 12
 url: /hu/java/cad-file-manipulation/list-layouts-in-dwg/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# A DWG elrendezések listázása az Aspose.CAD for Java használatával
+
 ## Bevezetés
 
 Üdvözöljük az Aspose.CAD for Java használatáról szóló, lépésenkénti útmutatónkban a DWG-fájlok elrendezéseinek listázásához. Az Aspose.CAD egy hatékony könyvtár, amely lehetővé teszi a fejlesztők számára, hogy programozottan dolgozzanak CAD fájlokkal. Ebben az oktatóanyagban egy konkrét feladatra összpontosítunk: az elrendezések listázására egy DWG-fájlban. Az útmutató végére zökkenőmentesen integrálhatja ezt a funkciót Java-alkalmazásaiba.
@@ -86,3 +92,9 @@ Töltse le az elrendezéseket a DWG fájlból, és nyomtassa ki a nevüket a kon
 ### 5. kérdés: Használhatok ideiglenes licencet tesztelési célokra?
 
  V5: Igen, beszerezhet ideiglenes engedélyt[itt](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

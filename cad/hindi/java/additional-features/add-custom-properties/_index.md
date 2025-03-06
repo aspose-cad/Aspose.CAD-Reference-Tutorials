@@ -3,10 +3,16 @@ title: जावा में Aspose.CAD का उपयोग करके DWG
 linktitle: जावा का उपयोग करके DWG फ़ाइलों में कस्टम गुण जोड़ें
 second_title: Aspose.CAD जावा एपीआई
 description: Aspose.CAD का उपयोग करके जावा में DWG फ़ाइलों में कस्टम गुण जोड़ने का तरीका जानें। सीएडी चित्रों में संगठन और सूचना पुनर्प्राप्ति को सहजता से बढ़ाएं।
-type: docs
 weight: 10
 url: /hi/java/additional-features/add-custom-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# जावा में Aspose.CAD का उपयोग करके DWG फ़ाइलों में कस्टम गुण जोड़ें
+
 जावा प्रोग्रामिंग की दुनिया में, कस्टम गुणों के साथ DWG फ़ाइलों में हेरफेर करना एक सामान्य कार्य है। जावा के लिए Aspose.CAD इस कार्यक्षमता को आपकी परियोजनाओं में निर्बाध रूप से एकीकृत करने के लिए उपकरणों का एक शक्तिशाली सेट प्रदान करता है। इस चरण-दर-चरण ट्यूटोरियल में, हम जावा के लिए Aspose.CAD का उपयोग करके DWG फ़ाइलों में कस्टम गुण जोड़ने की प्रक्रिया में आपका मार्गदर्शन करेंगे।
 
 ## परिचय
@@ -105,3 +111,9 @@ A2: Java के लिए Aspose.CAD लोकप्रिय Java IDE जैस
 ### Q5: मैं समर्थन कैसे प्राप्त कर सकता हूं या प्रश्न कैसे पूछ सकता हूं?
 
 A5: पर जाएँ[Aspose.CAD फोरम](https://forum.aspose.com/c/cad/19) समर्थन प्राप्त करने, प्रश्न पूछने और Aspose.CAD समुदाय से जुड़ने के लिए।
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

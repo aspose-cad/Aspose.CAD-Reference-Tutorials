@@ -3,10 +3,16 @@ title: الترخيص والتكوين
 linktitle: الترخيص والتكوين
 second_title: Aspose.CAD .NET - تنسيق ملف CAD وBIM
 description: ارفع مستوى لعبة معالجة ملفات CAD الخاصة بك باستخدام Aspose.CAD لـ .NET! قم بتطبيق التراخيص بسلاسة باستخدام FileStream أو عن طريق البرامج التعليمية خطوة بخطوة.
-type: docs
 weight: 20
 url: /ar/net/licensing-and-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# الترخيص والتكوين
+
 
 ## مقدمة
 
@@ -32,3 +38,9 @@ url: /ar/net/licensing-and-configuration/
 إتقان Aspose.CAD لـ .NET: تطبيق التراخيص بسلاسة باستخدام FileStream. استكشف الدليل المفصّل خطوة بخطوة واطلق العنان للإمكانات. التحميل الان!
 ### [الترخيص المقنن في Aspose.CAD لـ .NET](./metered-licensing/)
 أطلق العنان لإمكانات Aspose.CAD من خلال الترخيص المقنن في .NET. تحسين استخدام الموارد بسلاسة. استكشف دليلنا خطوة بخطوة.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

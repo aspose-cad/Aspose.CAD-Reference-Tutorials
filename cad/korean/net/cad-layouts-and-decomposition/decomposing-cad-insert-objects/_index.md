@@ -3,10 +3,16 @@ title: CAD 삽입 개체 분해 - Aspose.CAD 가이드
 linktitle: CAD 삽입 개체 분해
 second_title: Aspose.CAD .NET - CAD 및 BIM 파일 형식
 description: CAD 삽입 개체 분해에 대한 단계별 가이드를 통해 .NET용 Aspose.CAD의 강력한 기능을 살펴보세요.
-type: docs
 weight: 11
 url: /ko/net/cad-layouts-and-decomposition/decomposing-cad-insert-objects/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# CAD 삽입 개체 분해 - Aspose.CAD 가이드
+
 ## 소개
 
 역동적인 CAD(컴퓨터 지원 설계) 세계에서 CAD 파일을 효과적으로 조작하고 분석하는 것은 다양한 산업 분야의 전문가에게 매우 중요합니다. .NET용 Aspose.CAD는 개발자에게 .NET 환경에서 CAD 파일을 효율적으로 작업하는 데 필요한 도구를 제공하는 강력한 솔루션으로 등장합니다.
@@ -100,3 +106,9 @@ for (int i = 0; i < cadImage.Entities.Length; i++)
 ### Q5: .NET용 Aspose.CAD의 임시 라이선스를 어떻게 얻나요?
 
  임시면허증이 필요하신 경우 필요한 정보를 확인하실 수 있습니다[여기](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

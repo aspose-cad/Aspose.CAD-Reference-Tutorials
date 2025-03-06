@@ -3,10 +3,16 @@ title: Aktivera spårning i DWG-filer med Aspose.CAD i Java
 linktitle: Aktivera spårning i DWG-filer med Java
 second_title: Aspose.CAD Java API
 description: Utforska steg-för-steg-guiden för att aktivera DWG-filspårning i Java med Aspose.CAD, vilket säkerställer sömlöst samarbete i CAD-projekt.
-type: docs
 weight: 12
 url: /sv/java/additional-features/enable-tracking/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aktivera spårning i DWG-filer med Aspose.CAD i Java
+
 ## Introduktion
 
 Inom datorstödd design (CAD) framstår Aspose.CAD för Java som ett kraftfullt verktyg som ger utvecklare möjlighet att manipulera och konvertera CAD-filer med lätthet. Denna handledning fördjupar sig i en specifik funktionalitet hos Aspose.CAD för Java – som möjliggör spårning i DWG-filer. Att spåra ändringar i DWG-filer är avgörande för samarbetsprojekt, vilket säkerställer sömlös kommunikation och effektivt arbetsflöde. I den här guiden går vi igenom stegen för att aktivera spårning med Java, och utnyttja funktionerna i Aspose.CAD.
@@ -123,3 +129,9 @@ S1: Aspose.CAD stöder främst DWG-filer för spårning. För andra format, se d
 ### F5: Hur får jag en tillfällig licens för Aspose.CAD för Java?
 
  S5: Följ processen som beskrivs på[Tillfällig licens](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

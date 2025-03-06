@@ -3,10 +3,16 @@ title: Bearbeiten Sie DWG-Hyperlinks – Aspose.CAD Java Tutorial
 linktitle: Hyperlink bearbeiten
 second_title: Aspose.CAD Java API
 description: Verbessern Sie die Präzision von DWG-Zeichnungen mit Aspose.CAD für Java. Bearbeiten Sie Hyperlinks nahtlos und stellen Sie so genaue Referenzen sicher. Probieren Sie jetzt die kostenlose Testversion aus!
-type: docs
 weight: 17
 url: /de/java/other-cad-operations/edit-hyperlink/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Bearbeiten Sie DWG-Hyperlinks – Aspose.CAD Java Tutorial
+
 Im heutigen digitalen Zeitalter ist der effiziente Umgang mit DWG-Zeichnungen für Fachleute in verschiedenen Branchen von entscheidender Bedeutung. Aspose.CAD für Java bietet eine leistungsstarke Lösung zum Bearbeiten von Hyperlinks in DWG-Zeichnungen und gewährleistet so eine nahtlose Integration und Anpassung. Diese Schritt-für-Schritt-Anleitung führt Sie durch den Prozess der Bearbeitung von Hyperlinks mit Aspose.CAD für Java.
 
 ## Einführung
@@ -99,3 +105,9 @@ A1: Aspose.CAD für Java unterstützt verschiedene DWG-Zeichnungsversionen und s
 ### F5: Kann ich zu Testzwecken eine temporäre Lizenz erhalten?
 
  A5: Ja, Sie können eine temporäre Lizenz erhalten[Hier](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

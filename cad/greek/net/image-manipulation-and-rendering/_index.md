@@ -3,10 +3,16 @@ title: Χειρισμός και απόδοση εικόνας
 linktitle: Χειρισμός και απόδοση εικόνας
 second_title: Aspose.CAD .NET - Μορφή αρχείου CAD και BIM
 description: Ξεκλειδώστε το δυναμικό αρχείου CAD με το Aspose.CAD για .NET. Μάθετε την εξαγωγή χαρακτηριστικών μπλοκ, την εισαγωγή εικόνας, τη μετατροπή DWG σε PDF, την υποστήριξη πλέγματος και πιο εύκολα.
-type: docs
 weight: 27
 url: /el/net/image-manipulation-and-rendering/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Χειρισμός και απόδοση εικόνας
+
 
 ## Εισαγωγή
 
@@ -54,3 +60,9 @@ url: /el/net/image-manipulation-and-rendering/
 Ξεκλειδώστε τις δυνατότητες του Aspose.CAD για .NET με το βήμα προς βήμα εκμάθησή μας σχετικά με την ανάγνωση μεταδεδομένων XREF από αρχεία DWG.
 ### [Απόδοση εγγράφων DWG σε C# - Οδηγός Aspose.CAD](./rendering-dwg-documents/)
 Μάθετε πώς να αποδίδετε έγγραφα DWG σε C# χρησιμοποιώντας το Aspose.CAD. Αυτός ο οδηγός βήμα προς βήμα καλύπτει την εισαγωγή, τη διαμόρφωση και την αποθήκευση με παραδείγματα κώδικα.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Kích hoạt tính năng theo dõi trong tệp CAD - Hướng dẫn Aspos
 linktitle: Kích hoạt tính năng theo dõi trong tệp CAD
 second_title: Aspose.CAD .NET - Định dạng tệp CAD và BIM
 description: Theo dõi tệp CAD thành thạo với Aspose.CAD cho .NET. Hãy làm theo hướng dẫn từng bước của chúng tôi để hiển thị chính xác và theo dõi lỗi. Tải ngay!
-type: docs
 weight: 10
 url: /vi/net/tracking-and-rendering/enabling-tracking-in-cad-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Kích hoạt tính năng theo dõi trong tệp CAD - Hướng dẫn Aspose.CAD
+
 ## Giới thiệu
 
 Trong lĩnh vực CAD (Thiết kế hỗ trợ máy tính), độ chính xác và khả năng theo dõi là điều tối quan trọng. Aspose.CAD cho .NET cung cấp một giải pháp mạnh mẽ để cho phép theo dõi trong các tệp CAD. Hướng dẫn này sẽ hướng dẫn bạn thực hiện quy trình, đảm bảo bạn khai thác hết tiềm năng của tính năng này.
@@ -103,3 +109,9 @@ Câu trả lời 3: Các vấn đề như thiếu phông chữ hoặc các thự
 ### Q5: Tôi có thể tùy chỉnh các thông báo lỗi theo dõi không?
 
 A5: Chắc chắn rồi. Bạn có thể sửa đổi mã để điều chỉnh thông báo lỗi theo yêu cầu của mình.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

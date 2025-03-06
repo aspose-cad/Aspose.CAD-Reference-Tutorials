@@ -3,10 +3,16 @@ title: Licenc és konfigurálás
 linktitle: Licenc és konfigurálás
 second_title: Aspose.CAD Java API
 description: Fedezze fel az Aspose.CAD for Java erejét mérsékelt licencelési oktatóanyagunkkal. Optimalizálja a CAD-feldolgozást hatékonyan és költséghatékonyan a fokozott termelékenység érdekében.
-type: docs
 weight: 25
 url: /hu/java/licensing-and-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Licenc és konfigurálás
+
 ## Bevezetés
 
 Az Aspose.CAD for Java programban a mérőszámos licencelés elsajátításának útja utat nyit a CAD-feldolgozás páratlan hatékonyságának és költséghatékonyságának. Ebben az átfogó útmutatóban elmélyülünk a bonyodalmakban, lehetővé téve Önnek a munkafolyamat zökkenőmentes optimalizálását.
@@ -25,3 +31,9 @@ Tanulási útja iránti elkötelezettségünk túlmutat ezen az útmutatón. Fed
 ## Licencelési és konfigurációs oktatóanyagok
 ### [Mért licencelés az Aspose.CAD-ben](./metered-licensing-in-aspose-cad/)
 Ebből az átfogó útmutatóból megtudhatja, hogyan sajátíthatja el a mérőszámos licencelést az Aspose.CAD for Java programban. Optimalizálja CAD-feldolgozását a hatékonyság és a költséghatékonyság érdekében.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

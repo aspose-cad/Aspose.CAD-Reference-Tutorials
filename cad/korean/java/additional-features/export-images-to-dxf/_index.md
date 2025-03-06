@@ -3,10 +3,16 @@ title: Java용 Aspose.CAD를 사용하여 이미지를 DXF 형식으로 내보�
 linktitle: Java를 사용하여 이미지를 DXF 형식으로 내보내기
 second_title: Aspose.CAD 자바 API
 description: Aspose.CAD for Java를 사용하여 이미지를 DXF 형식으로 내보내는 원활한 프로세스를 살펴보세요. 단계별 가이드, FAQ 등.
-type: docs
 weight: 15
 url: /ko/java/additional-features/export-images-to-dxf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java용 Aspose.CAD를 사용하여 이미지를 DXF 형식으로 내보내기
+
 ## 소개
 
 Aspose.CAD for Java를 사용하여 이미지를 DXF 형식으로 내보내는 방법에 대한 포괄적인 튜토리얼에 오신 것을 환영합니다. Aspose.CAD는 개발자가 프로그래밍 방식으로 CAD 도면을 작업할 수 있게 해주는 강력한 Java 라이브러리입니다. 이 튜토리얼에서는 이미지를 DXF 형식으로 내보내는 과정을 안내하고 이 작업을 수행하기 위한 다양한 단계와 기술을 보여줍니다.
@@ -107,3 +113,9 @@ cadImageText.save(file.getName() + "_text.dxf");
 ### Q5: 무료 평가판이 제공됩니까?
 
  A5: 예, 무료 평가판을 받을 수 있습니다.[여기](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

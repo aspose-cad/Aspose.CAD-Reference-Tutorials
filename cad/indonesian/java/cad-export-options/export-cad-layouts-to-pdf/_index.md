@@ -3,10 +3,16 @@ title: Ekspor Tata Letak CAD ke PDF dengan Aspose.CAD untuk Java
 linktitle: Ekspor Tata Letak CAD ke PDF
 second_title: Aspose.CAD Java API
 description: Jelajahi Aspose.CAD untuk Java untuk mengekspor tata letak CAD ke PDF dengan mudah. Efisien, andal, dan ramah pengembang.
-type: docs
 weight: 11
 url: /id/java/cad-export-options/export-cad-layouts-to-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ekspor Tata Letak CAD ke PDF dengan Aspose.CAD untuk Java
+
 ## Perkenalan
 
 Dalam bidang desain berbantuan komputer (CAD) yang terus berkembang, Aspose.CAD untuk Java menonjol sebagai alat yang ampuh untuk memanipulasi dan mengonversi file CAD. Dalam tutorial ini, kami akan memandu Anda melalui proses mengekspor tata letak CAD ke PDF menggunakan Aspose.CAD untuk Java. Baik Anda seorang pengembang berpengalaman atau baru saja terjun ke dunia CAD, panduan langkah demi langkah ini akan membantu Anda memanfaatkan potensi penuh dari perpustakaan Java serbaguna ini.
@@ -107,3 +113,9 @@ A4: Penskalaan tata letak otomatis menyesuaikan ukuran tata letak berdasarkan di
 ### Q5: Dapatkah saya menyesuaikan tampilan file PDF yang diekspor?
 
 A5: Ya, Anda dapat menyesuaikan opsi grafik dalam kode untuk mengontrol kualitas dan tampilan PDF yang diekspor.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Exportieren einer DXF-spezifischen Ebene in PDF – Aspose.CAD-Tutorial
 linktitle: Exportieren einer DXF-spezifischen Ebene in PDF
 second_title: Aspose.CAD .NET – CAD- und BIM-Dateiformat
 description: Erfahren Sie, wie Sie mit Aspose.CAD für .NET bestimmte Ebenen aus DXF-Dateien in PDF exportieren. Befolgen Sie diese Schritt-für-Schritt-Anleitung für eine nahtlose Integration.
-type: docs
 weight: 10
 url: /de/net/export-techniques/exporting-dxf-specific-layer-to-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Exportieren einer DXF-spezifischen Ebene in PDF – Aspose.CAD-Tutorial
+
 ## Einführung
 
 Im Bereich der CAD-Entwicklung für .NET zeichnet sich Aspose.CAD als robuste Bibliothek aus, die Entwickler in die Lage versetzt, CAD-Dateien effizient zu bearbeiten. Eine seiner bemerkenswerten Funktionen ist die Möglichkeit, bestimmte Ebenen aus DXF-Dateien in das PDF-Format zu exportieren. Dieses Tutorial führt Sie Schritt für Schritt durch den Prozess und zeigt, wie Sie die Leistungsfähigkeit von Aspose.CAD für diese spezielle Aufgabe nutzen können.
@@ -101,3 +107,10 @@ A4: Ja, Aspose.CAD unterstützt verschiedene Exportformate und bietet Entwickler
 ### F5: Kann ich die PDF-Ausgabe weiter anpassen?
 
 A5: Auf jeden Fall. Weitere Optionen und Konfigurationen finden Sie in der Aspose.CAD-Dokumentation.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

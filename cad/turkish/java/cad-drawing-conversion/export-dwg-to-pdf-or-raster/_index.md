@@ -3,10 +3,16 @@ title: Aspose.CAD for Java'yı kullanarak DWG'yi PDF'ye veya Raster'a aktarın
 linktitle: DWG'yi PDF'ye veya Raster'a aktarın
 second_title: Aspose.CAD Java API'si
 description: Aspose.CAD'i kullanarak DWG dosyalarını PDF'ye veya Java'daki raster görüntülere aktarmanın kusursuz sürecini keşfedin. Bu adım adım kılavuz, hassasiyet ve verimlilik sağlar.
-type: docs
 weight: 13
 url: /tr/java/cad-drawing-conversion/export-dwg-to-pdf-or-raster/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.CAD for Java'yı kullanarak DWG'yi PDF'ye veya Raster'a aktarın
+
 ## giriiş
 
 Bilgisayar destekli tasarımın (CAD) dinamik dünyasında, çizimlerin verimli şekilde işlenmesi çok önemlidir. Aspose.CAD for Java, DWG dosyalarını PDF'ye veya taramalı görüntülere aktarmak için güçlü bir çözüm sunar. Bu eğitim size süreç boyunca rehberlik edecek ve Aspose.CAD for Java'nın tüm potansiyelinden yararlanmanızı sağlayacaktır.
@@ -116,3 +122,9 @@ Cevap1: Evet, Aspose.CAD for Java, popüler Java çerçeveleriyle sorunsuz bir �
 ### S5: Aspose.CAD for Java hangi birimleri destekliyor?
 
 Cevap5: Aspose.CAD for Java hem metrik hem de İngiliz ölçü birimlerini destekler.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

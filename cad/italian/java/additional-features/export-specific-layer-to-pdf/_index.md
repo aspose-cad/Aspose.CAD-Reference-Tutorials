@@ -3,10 +3,16 @@ title: Esporta livello specifico del disegno DXF in PDF con Aspose.CAD per Java
 linktitle: Esporta livello specifico del disegno DXF in PDF con Java
 second_title: API Java Aspose.CAD
 description: Esporta senza sforzo livelli specifici dai disegni DXF in PDF utilizzando Aspose.CAD per Java. Segui questa guida passo passo per un'integrazione perfetta.
-type: docs
 weight: 18
 url: /it/java/additional-features/export-specific-layer-to-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Esporta livello specifico del disegno DXF in PDF con Aspose.CAD per Java
+
 ## introduzione
 
 Nel regno dello sviluppo Java, Aspose.CAD si distingue come un potente strumento per lavorare con file CAD (Computer-Aided Design). Tra le sue funzionalità versatili, la possibilità di esportare livelli specifici da un disegno DXF a un file PDF è una funzionalità preziosa. Questo tutorial ti guiderà attraverso il processo, offrendo istruzioni passo passo per sfruttare tutto il potenziale di Aspose.CAD per Java.
@@ -104,3 +110,9 @@ R4: Sì, assicurati di avere una licenza valida o utilizza una licenza temporane
 ### Q5: Dove posso cercare ulteriore supporto o assistenza?
 
 A5: Visita il[Forum Aspose.CAD](https://forum.aspose.com/c/cad/19) per il supporto e le discussioni della comunità.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

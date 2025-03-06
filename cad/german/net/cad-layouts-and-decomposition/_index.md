@@ -3,10 +3,16 @@ title: CAD-Layouts und -Zerlegung
 linktitle: CAD-Layouts und -Zerlegung
 second_title: Aspose.CAD .NET – CAD- und BIM-Dateiformat
 description: Erschließen Sie das Potenzial von CAD-Layouts mit Aspose.CAD für .NET! Konvertieren Sie Designs ganz einfach mit unserem Leitfaden in PDF. Meistern Sie mühelos die Zerlegung eingefügter Objekte.
-type: docs
 weight: 34
 url: /de/net/cad-layouts-and-decomposition/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# CAD-Layouts und -Zerlegung
+
 
 
 
@@ -59,3 +65,9 @@ Zusammenfassend lässt sich sagen, dass Aspose.CAD für .NET ein Game-Changer im
 Konvertieren Sie CAD-Layouts mühelos in PDF mit Aspose.CAD für .NET. Befolgen Sie unsere Schritt-für-Schritt-Anleitung für eine nahtlose Integration.
 ### [Zerlegen von CAD-Einfügeobjekten – Aspose.CAD-Handbuch](./decomposing-cad-insert-objects/)
 Entdecken Sie die Leistungsfähigkeit von Aspose.CAD für .NET mit unserer Schritt-für-Schritt-Anleitung zum Zerlegen von CAD-Einfügeobjekten.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

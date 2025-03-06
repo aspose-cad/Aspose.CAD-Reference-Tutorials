@@ -3,10 +3,16 @@ title: Aspose.CAD for .NET'te CAD Düzeninin Boyutunu Alın
 linktitle: CAD Düzeninin Boyutunu Alın
 second_title: Aspose.CAD .NET - CAD ve BIM Dosya Formatı
 description: Aspose.CAD kullanarak .NET'te CAD düzen boyutunu nasıl alacağınızı öğrenin. Verimli CAD dosyası manipülasyonu için adım adım kılavuzumuzu izleyin.
-type: docs
 weight: 14
 url: /tr/net/cad-drawing-manipulation/get-size-of-cad-layout/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.CAD for .NET'te CAD Düzeninin Boyutunu Alın
+
 ## giriiş
 
 Aspose.CAD for .NET kullanarak CAD düzenlerinin boyutunu elde etmeye yönelik bu kapsamlı kılavuza hoş geldiniz. Aspose.CAD, geliştiricilerin CAD dosyalarıyla sorunsuz bir şekilde çalışmasını sağlayan güçlü bir kütüphanedir. Bu eğitimde, pratik örnekler ve adım adım talimatlar kullanarak CAD düzenlerinin boyutunu alma sürecinde size yol göstereceğiz.
@@ -143,3 +149,9 @@ A2: Kesinlikle! Özel gereksinimlerinizi karşılamak için format ve çözünü
 ### S5; Nasıl teknik destek alabilirim?
 
  Cevap5: Teknik destek için şu adresi ziyaret edin:[Aspose.CAD forumu](https://forum.aspose.com/c/cad/19).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

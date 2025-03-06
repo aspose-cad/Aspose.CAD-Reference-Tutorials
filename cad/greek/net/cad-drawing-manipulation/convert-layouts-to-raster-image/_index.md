@@ -3,10 +3,16 @@ title: Μετατροπή Layouts σε Raster Image στο Aspose.CAD για .NE
 linktitle: Μετατροπή Layouts σε Raster Image
 second_title: Aspose.CAD .NET - Μορφή αρχείου CAD και BIM
 description: Μετατρέψτε εύκολα τις διατάξεις CAD σε εικόνες ράστερ χρησιμοποιώντας το Aspose.CAD για .NET. Βελτιώστε την ανάπτυξή σας με ισχυρές δυνατότητες χειρισμού CAD.
-type: docs
 weight: 12
 url: /el/net/cad-drawing-manipulation/convert-layouts-to-raster-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Μετατροπή Layouts σε Raster Image στο Aspose.CAD για .NET
+
 ## Εισαγωγή
 
 Ψάχνετε να μετατρέψετε αβίαστα διατάξεις σε εικόνες ράστερ στις εφαρμογές σας .NET; Μην ψάχνετε άλλο! Αυτός ο οδηγός βήμα προς βήμα θα σας καθοδηγήσει στη διαδικασία χρησιμοποιώντας το Aspose.CAD για .NET, μια ισχυρή βιβλιοθήκη που απλοποιεί τις εργασίες σχεδίασης με τη βοήθεια υπολογιστή (CAD).
@@ -102,3 +108,9 @@ image.Save(outputFilePath, options);
 ### Ε5: Πού μπορώ να αγοράσω άδεια χρήσης για το Aspose.CAD;
 
  A5: Πλοηγηθείτε στο[σελίδα αγοράς](https://purchase.aspose.com/buy) για να αγοράσετε μια άδεια και να ξεκλειδώσετε το πλήρες δυναμικό του Aspose.CAD.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

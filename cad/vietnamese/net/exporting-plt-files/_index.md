@@ -3,10 +3,16 @@ title: Xuất tệp PLT
 linktitle: Xuất tệp PLT
 second_title: Aspose.CAD .NET - Định dạng tệp CAD và BIM
 description: Dễ dàng chuyển đổi tệp PLT thành hình ảnh và PDF bằng Aspose.CAD cho .NET. Khám phá sự tích hợp liền mạch và các tùy chọn linh hoạt để thao tác với tệp CAD.
-type: docs
 weight: 41
 url: /vi/net/exporting-plt-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Xuất tệp PLT
+
 
 ## Giới thiệu
 
@@ -38,3 +44,9 @@ Tóm lại, việc xuất tệp PLT sang hình ảnh và PDF chưa bao giờ d�
 Dễ dàng chuyển đổi tệp PLT thành hình ảnh bằng Aspose.CAD cho .NET. Khám phá các tùy chọn linh hoạt và tích hợp liền mạch cho nhu cầu thao tác tệp CAD của bạn.
 ### [Xuất tệp PLT sang PDF - Hướng dẫn Aspose.CAD](./exporting-plt-files-to-pdf/)
 Dễ dàng chuyển đổi tệp PLT sang PDF bằng Aspose.CAD cho .NET. Hãy làm theo hướng dẫn từng bước của chúng tôi để tích hợp liền mạch và có kết quả đáng tin cậy.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

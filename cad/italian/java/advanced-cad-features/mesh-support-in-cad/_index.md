@@ -3,10 +3,16 @@ title: Supporto mesh con Aspose.CAD per Java
 linktitle: Supporto mesh in CAD
 second_title: API Java Aspose.CAD
 description: Esplora il supporto mesh nelle applicazioni Java con Aspose.CAD. Converti file CAD in PDF senza sforzo.
-type: docs
 weight: 12
 url: /it/java/advanced-cad-features/mesh-support-in-cad/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Supporto mesh con Aspose.CAD per Java
+
 ## introduzione
 
 Aspose.CAD per Java è una potente libreria che consente agli sviluppatori di lavorare senza problemi con i file CAD (Computer-Aided Design) nelle applicazioni Java. In questo tutorial esploreremo la funzionalità di supporto mesh in Aspose.CAD per Java, che consente di convertire file CAD con mesh in formato PDF. Segui la guida passo passo riportata di seguito per sfruttare le funzionalità di questa libreria e migliorare la gestione dei file CAD.
@@ -110,3 +116,9 @@ A4: Sì, Aspose.CAD per Java supporta vari formati di output, inclusi PNG, JPEG,
 ### Q5: Posso provare Aspose.CAD per Java gratuitamente?
 
  A5: Sì, puoi esplorare una versione di prova gratuita di Aspose.CAD per Java[Qui](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

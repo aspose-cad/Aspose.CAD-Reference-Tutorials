@@ -3,10 +3,16 @@ title: CAD Layouts and Decomposition
 linktitle: CAD Layouts and Decomposition
 second_title: Aspose.CAD .NET - CAD and BIM File Format
 description: Unlock the potential of CAD layouts with Aspose.CAD for .NET! Easily convert designs to PDF using our guide. Master decomposition of insert objects effortlessly.
-type: docs
 weight: 34
 url: /net/cad-layouts-and-decomposition/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# CAD Layouts and Decomposition
+
 
 
 
@@ -59,3 +65,9 @@ In conclusion, Aspose.CAD for .NET stands as a game-changer in the CAD realm. Wi
 Convert CAD layouts to PDF effortlessly with Aspose.CAD for .NET. Follow our step-by-step guide for seamless integration.
 ### [Decomposing CAD Insert Objects - Aspose.CAD Guide](./decomposing-cad-insert-objects/)
 Explore the power of Aspose.CAD for .NET with our step-by-step guide on decomposing CAD insert objects.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

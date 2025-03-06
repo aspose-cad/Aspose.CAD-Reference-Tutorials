@@ -3,10 +3,16 @@ title: Nyomon követés engedélyezése CAD rendering folyamathoz
 linktitle: Nyomon követés engedélyezése CAD rendering folyamathoz
 second_title: Aspose.CAD Java API
 description: Javítsa ki CAD-megjelenítését az Aspose.CAD for Java segítségével. Kövesse lépésenkénti útmutatónkat a nyomon követés engedélyezéséhez és a PDF-konverziós élmény fokozásához.
-type: docs
 weight: 10
 url: /hu/java/advanced-cad-features/enable-tracking-for-cad-rendering-process/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Nyomon követés engedélyezése CAD rendering folyamathoz
+
 ## Bevezetés
 
 A számítógéppel segített tervezés (CAD) területén az Aspose.CAD for Java a CAD-fájlok renderelésének és feldolgozásának hatékony eszköze. Ez az oktatóanyag végigvezeti Önt a CAD-megjelenítési nyomon követés engedélyezésének folyamatán, javítva a CAD-fájlokból PDF-formátumba való átalakítás feletti irányítást.
@@ -114,3 +120,9 @@ Gratulálunk! Sikeresen engedélyezte a CAD-megjelenítés nyomon követését a
 ### 5. kérdés: Rendelkezésre állnak-e ideiglenes licencek az Aspose.CAD számára?
 
  V5: Igen, ha ideiglenes engedélyre van szüksége, beszerezhet egyet[itt](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

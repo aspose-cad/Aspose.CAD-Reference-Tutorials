@@ -3,10 +3,16 @@ title: Список всех макетов в AutoCAD Drawing с помощью
 linktitle: Список всех макетов в AutoCAD Drawing с помощью Java
 second_title: API Aspose.CAD Java
 description: С легкостью изучайте чертежи AutoCAD на Java с помощью Aspose.CAD. Перечислите все раскладки, извлеките ценную информацию. Загрузите сейчас для полной интеграции!
-type: docs
 weight: 11
 url: /ru/java/dwg-file-operations/list-all-layouts/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Список всех макетов в AutoCAD Drawing с помощью Java
+
 ## Введение
 
 Вы хотите раскрыть весь потенциал чертежей AutoCAD в своих Java-приложениях? Aspose.CAD for Java — это идеальное решение, предлагающее бесшовную интеграцию для управления и извлечения ценной информации из файлов DWG и DXF. В этом пошаговом руководстве мы покажем вам процесс составления списка всех макетов в чертеже AutoCAD с использованием Aspose.CAD для Java.
@@ -86,3 +92,9 @@ for (CadLayout layout : layouts.getValues()) {
 ### Вопрос 5: Могу ли я попробовать Aspose.CAD для Java перед покупкой?
 
  А5: Конечно! Получите бесплатную пробную версию от[здесь](https://releases.aspose.com/)и испытайте возможности Aspose.CAD для Java.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

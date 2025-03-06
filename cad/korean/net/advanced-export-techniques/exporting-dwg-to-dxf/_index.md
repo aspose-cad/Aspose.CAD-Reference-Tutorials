@@ -3,10 +3,16 @@ title: C#에서 DWG를 DXF 형식으로 내보내기 - Aspose.CAD Tutorial
 linktitle: C#에서 DWG를 DXF 형식으로 내보내기
 second_title: Aspose.CAD .NET - CAD 및 BIM 파일 형식
 description: Aspose.CAD를 사용하여 C#에서 CAD 파일 조작을 잠금 해제합니다. DWG를 DXF로 쉽게 내보내는 방법을 알아보세요. 원활한 통합을 위한 단계별 가이드를 따르세요.
-type: docs
 weight: 10
 url: /ko/net/advanced-export-techniques/exporting-dwg-to-dxf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# C#에서 DWG를 DXF 형식으로 내보내기 - Aspose.CAD Tutorial
+
 ## 소개
 
 CAD 파일 조작을 위한 강력한 솔루션을 찾고 있는 .NET 개발자라면 Aspose.CAD가 가장 적합한 도구입니다. 이 단계별 튜토리얼에서는 Aspose.CAD와 함께 C#을 사용하여 DWG 파일을 DXF 형식으로 내보내는 과정을 안내합니다.
@@ -80,3 +86,9 @@ A1: 예, Aspose.CAD는 최신 CAD 파일 형식과의 호환성을 보장하기 
 ### Q5: 도움이 필요하거나 구체적인 질문이 있습니까?
 
  A5: Aspose.CAD 커뮤니티 포럼을 방문하세요.[여기](https://forum.aspose.com/c/cad/19)전문가 지원 및 지역 사회 지원을 위해.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

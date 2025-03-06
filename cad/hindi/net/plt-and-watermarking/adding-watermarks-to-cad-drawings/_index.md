@@ -3,10 +3,16 @@ title: CAD ड्रॉइंग में वॉटरमार्क जोड
 linktitle: CAD ड्रॉइंग में वॉटरमार्क जोड़ना
 second_title: Aspose.CAD .NET - CAD और BIM फ़ाइल स्वरूप
 description: .NET के लिए Aspose.CAD का उपयोग करके पेशेवर वॉटरमार्क के साथ अपने CAD चित्रों को बेहतर बनाएं। वैयक्तिकृत और आकर्षक डिज़ाइन के लिए हमारी चरण-दर-चरण मार्गदर्शिका का पालन करें।
-type: docs
 weight: 11
 url: /hi/net/plt-and-watermarking/adding-watermarks-to-cad-drawings/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# CAD ड्रॉइंग में वॉटरमार्क जोड़ना - Aspose.CAD गाइड
+
 ## परिचय
 
 क्या आप पेशेवर वॉटरमार्क जोड़कर अपने सीएडी चित्रों को बेहतर बनाना चाहते हैं? .NET के लिए Aspose.CAD आपकी CAD फ़ाइलों में वॉटरमार्क को निर्बाध रूप से एकीकृत करने के लिए एक मजबूत समाधान प्रदान करता है। इस चरण-दर-चरण मार्गदर्शिका में, हम आपको Aspose.CAD का उपयोग करके वॉटरमार्क जोड़ने की प्रक्रिया के बारे में बताएंगे, यह सुनिश्चित करते हुए कि आपके चित्र न केवल महत्वपूर्ण जानकारी देंगे बल्कि आपका अद्वितीय चिह्न भी रखेंगे।
@@ -104,3 +110,9 @@ A2: Aspose.CAD व्यापक अनुकूलता सुनिश्च
 ### Q5: मुझे Aspose.CAD के लिए समर्थन कहां मिल सकता है?
 
  A5: किसी भी प्रश्न या सहायता के लिए, पर जाएँ[Aspose.CAD फोरम](https://forum.aspose.com/c/cad/19).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Καταχωρίστε όλες τις διατάξεις στο σχέδ
 linktitle: Καταχωρίστε όλες τις διατάξεις στο σχέδιο AutoCAD με Java
 second_title: Aspose.CAD Java API
 description: Εξερευνήστε σχέδια AutoCAD χωρίς κόπο σε Java με το Aspose.CAD. Καταχωρίστε όλες τις διατάξεις, εξάγετε πολύτιμες πληροφορίες. Κάντε λήψη τώρα για απρόσκοπτη ενσωμάτωση!
-type: docs
 weight: 11
 url: /el/java/dwg-file-operations/list-all-layouts/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Καταχωρίστε όλες τις διατάξεις στο σχέδιο AutoCAD με Java
+
 ## Εισαγωγή
 
 Ψάχνετε να ξεκλειδώσετε πλήρως τις δυνατότητες των σχεδίων AutoCAD στις εφαρμογές σας Java; Το Aspose.CAD για Java είναι η ιδανική λύση, που προσφέρει μια απρόσκοπτη ενοποίηση για τον χειρισμό και την εξαγωγή πολύτιμων πληροφοριών από αρχεία DWG και DXF. Σε αυτόν τον οδηγό βήμα προς βήμα, θα σας καθοδηγήσουμε στη διαδικασία καταχώρισης όλων των διατάξεων σε ένα σχέδιο AutoCAD χρησιμοποιώντας το Aspose.CAD για Java.
@@ -86,3 +92,9 @@ A3: Ναι, μπορείτε να βρείτε δείγματα σχεδίων �
 ### Ε5: Μπορώ να δοκιμάσω το Aspose.CAD για Java πριν το αγοράσω;
 
  Α5: Σίγουρα! Αποκτήστε μια δωρεάν δοκιμή από[εδώ](https://releases.aspose.com/)και βιώστε τη δύναμη του Aspose.CAD για Java.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

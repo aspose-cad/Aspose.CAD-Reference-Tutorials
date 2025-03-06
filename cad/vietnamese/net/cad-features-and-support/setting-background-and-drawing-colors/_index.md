@@ -3,10 +3,16 @@ title: Đặt màu nền và màu vẽ trong Aspose.CAD cho .NET
 linktitle: Đặt màu nền và màu vẽ
 second_title: Aspose.CAD .NET - Định dạng tệp CAD và BIM
 description: Làm chủ Aspose.CAD cho .NET. Đặt màu nền và màu vẽ dễ dàng. Thực hiện theo hướng dẫn từng bước của chúng tôi.
-type: docs
 weight: 15
 url: /vi/net/cad-features-and-support/setting-background-and-drawing-colors/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Đặt màu nền và màu vẽ trong Aspose.CAD cho .NET
+
 ## Giới thiệu
 
 Trong thế giới phát triển .NET năng động, Aspose.CAD nổi lên như một công cụ mạnh mẽ để xử lý các tệp Thiết kế hỗ trợ máy tính (CAD). Nếu bạn mong muốn nâng cao kỹ năng thao tác các bản vẽ CAD của mình thì hướng dẫn này chính là cánh cổng dành cho bạn. Chúng tôi sẽ đi sâu vào sự phức tạp của việc thiết lập nền và vẽ màu bằng Aspose.CAD cho .NET, cung cấp cho bạn hướng dẫn từng bước để đảm bảo sự rõ ràng và hiệu quả.
@@ -108,3 +114,10 @@ Câu trả lời 1: Có, Aspose.CAD hỗ trợ nhiều định dạng CAD khác 
 ### Q5: Cần hỗ trợ hoặc muốn kết nối với cộng đồng?
 
  A5: Truy cập diễn đàn hỗ trợ[đây](https://forum.aspose.com/c/cad/19).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Háttér és rajzszín beállítása Aspose.CAD for Java segítségével
 linktitle: A háttér és a rajz színének beállítása
 second_title: Aspose.CAD Java API
 description: Könnyedén konvertálhat CAD fájlokat PDF és TIFF formátumba az Aspose.CAD for Java segítségével. Állítson be egyéni hátteret és rajzszíneket a lenyűgöző vizuális eredmények érdekében.
-type: docs
 weight: 15
 url: /hu/java/advanced-cad-features/setting-background-and-drawing-color/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Háttér és rajzszín beállítása Aspose.CAD for Java segítségével
+
 ## Bevezetés
 
 számítógéppel segített tervezés (CAD) dinamikus világában a hatékony fájlkonverzió kulcsfontosságú a zökkenőmentes együttműködéshez és kommunikációhoz. Az Aspose.CAD for Java hatékony eszközként jelenik meg, amely robusztus képességeket kínál a CAD-fájlok PDF és TIFF formátumokká konvertálására. Ebben az oktatóanyagban a háttér és a rajzszín beállításának folyamatát mutatjuk be az Aspose.CAD for Java használatával, amely lépésenkénti útmutatót nyújt az optimális eredmény eléréséhez.
@@ -98,3 +104,10 @@ A1: Abszolút! Az Aspose.CAD for Java kiválóan teljesít a tömeges konverzió
 ### 5. kérdés: Hogyan kaphatok támogatást az Aspose.CAD for Java számára?
 
 A5: Látogassa meg a[Aspose.CAD fórum](https://forum.aspose.com/c/cad/19) segítséget kérni és kapcsolatba lépni a közösséggel.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Editando hiperlinks em arquivos CAD - Tutorial Aspose.CAD
 linktitle: Editando hiperlinks em arquivos CAD
 second_title: Aspose.CAD .NET - Formato de arquivo CAD e BIM
 description: Explore o Aspose.CAD for .NET e aprenda a editar hiperlinks em arquivos CAD sem esforço. Aprimore suas habilidades de gerenciamento de arquivos CAD com este tutorial abrangente.
-type: docs
 weight: 14
 url: /pt/net/advanced-cad-techniques/editing-hyperlinks-in-cad-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Editando hiperlinks em arquivos CAD - Tutorial Aspose.CAD
+
 ## Introdução
 
 Bem-vindo ao nosso tutorial passo a passo sobre edição de hiperlinks em arquivos CAD usando Aspose.CAD for .NET. Aspose.CAD é uma biblioteca poderosa que permite aos desenvolvedores trabalhar com arquivos CAD perfeitamente. Neste tutorial, focaremos na tarefa específica de edição de hiperlinks em arquivos CAD, demonstrando como modificar e gerenciar links de forma eficiente.
@@ -103,3 +109,9 @@ A1: Sim, Aspose.CAD suporta vários formatos CAD, incluindo DWG, DXF, DGN e muit
 ### Q5: Precisa de ajuda ou tem dúvidas?
 
  A5: Visite nosso fórum de suporte[aqui](https://forum.aspose.com/c/cad/19).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

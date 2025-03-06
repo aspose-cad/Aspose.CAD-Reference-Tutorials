@@ -3,10 +3,16 @@ title: إنشاء ملف PDF واحد بتخطيطات مختلفة - دليل A
 linktitle: إنشاء ملف PDF واحد بتخطيطات مختلفة
 second_title: Aspose.CAD .NET - تنسيق ملف CAD وBIM
 description: قم بإنشاء ملف PDF واحد بتخطيطات مختلفة باستخدام Aspose.CAD لـ .NET. اتبع دليلنا خطوة بخطوة للتكامل السلس وإنشاء ملفات PDF بكفاءة.
-type: docs
 weight: 13
 url: /ar/net/advanced-cad-techniques/creating-single-pdf-with-different-layouts/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إنشاء ملف PDF واحد بتخطيطات مختلفة - دليل Aspose.CAD
+
 ## مقدمة
 
 هل تتطلع إلى إنشاء مستند PDF واحد من رسم CAD بتخطيطات مختلفة باستخدام Aspose.CAD لـ .NET؟ سيرشدك هذا الدليل خطوة بخطوة خلال العملية، مما يساعدك على تحقيق التكامل السلس وإنشاء ملفات PDF بكفاءة. يوفر Aspose.CAD for .NET ميزات قوية لمعالجة رسومات CAD برمجيًا، وفي هذا البرنامج التعليمي، سنركز على إنشاء ملف PDF واحد بتخطيطات مختلفة.
@@ -95,3 +101,9 @@ cadImage.Save(MyDir + "singlePDF_out.pdf", pdfOptions);
 ### س5: هل يمكنني شراء ترخيص Aspose.CAD لـ .NET؟
 
  ج5: نعم، يمكنك شراء ترخيص[هنا](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

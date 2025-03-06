@@ -3,10 +3,16 @@ title: 使用 Aspose.CAD Java 輕鬆將影像匯入 DWG 檔案中
 linktitle: 使用 Java 將圖像匯入到 DWG 文件
 second_title: Aspose.CAD Java API
 description: 探索使用 Aspose.CAD for Java 將影像無縫整合到 DWG 檔案中。遵循我們的逐步指南以實現高效開發。
-type: docs
 weight: 10
 url: /zh-hant/java/dwg-file-operations/import-image-to-dwg/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.CAD Java 輕鬆將影像匯入 DWG 檔案中
+
 ## 介紹
 
 在 Java 開發的動態世界中，將影像合併到 DWG 檔案中已成為許多應用程式的重要方面。 Aspose.CAD for Java 為尋求將圖像匯入 DWG 檔案的有效方法的開發人員提供了強大的解決方案。在本教學中，我們將逐步引導您完成整個過程，確保使用 Aspose.CAD for Java 無縫整合影像。
@@ -126,3 +132,9 @@ A4：您可以透過以下方式尋求支持[Aspose.CAD論壇](https://forum.asp
 ### Q5：我可以獲得 Aspose.CAD for Java 的臨時授權嗎？
 
  A5：是的，您可以獲得臨時許可證[這裡](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Maak een lijst van alle lay-outs in AutoCAD-tekenen met Java
 linktitle: Maak een lijst van alle lay-outs in AutoCAD-tekenen met Java
 second_title: Aspose.CAD Java-API
 description: Verken AutoCAD-tekeningen moeiteloos in Java met Aspose.CAD. Maak een lijst van alle lay-outs en extraheer waardevolle informatie. Download nu voor naadloze integratie!
-type: docs
 weight: 11
 url: /nl/java/dwg-file-operations/list-all-layouts/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Maak een lijst van alle lay-outs in AutoCAD-tekenen met Java
+
 ## Invoering
 
 Wilt u het volledige potentieel van AutoCAD-tekeningen in uw Java-toepassingen benutten? Aspose.CAD voor Java is uw go-to-oplossing en biedt een naadloze integratie voor het manipuleren en extraheren van waardevolle informatie uit DWG- en DXF-bestanden. In deze stapsgewijze handleiding begeleiden we u bij het weergeven van alle lay-outs in een AutoCAD-tekening met behulp van Aspose.CAD voor Java.
@@ -86,3 +92,9 @@ A3: Ja, u kunt voorbeeldtekeningen vinden in de map "DWGDrawings" in het Aspose.
 ### V5: Kan ik Aspose.CAD voor Java uitproberen voordat ik een aankoop doe?
 
  A5: Zeker! Neem een gratis proefperiode van[hier](https://releases.aspose.com/)en ervaar de kracht van Aspose.CAD voor Java.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

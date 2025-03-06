@@ -3,10 +3,16 @@ title: Convertir la mise en page CAO au format d'image raster à l'aide d'Aspose
 linktitle: Convertir la mise en page CAO au format d'image raster
 second_title: API Java Aspose.CAD
 description: Convertissez sans effort les mises en page CAO en images raster à l'aide d'Aspose.CAD pour Java. Visualisation de haute qualité pour une collaboration améliorée.
-type: docs
 weight: 12
 url: /fr/java/cad-drawing-conversion/convert-cad-layout-to-raster-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Convertir la mise en page CAO au format d'image raster à l'aide d'Aspose.CAD pour Java
+
 ## Introduction
 
 Dans le monde dynamique de la conception assistée par ordinateur (CAO), la capacité de convertir de manière transparente des mises en page CAO en formats d'images raster est une compétence précieuse. Aspose.CAD pour Java apparaît comme une solution robuste pour réaliser cette tâche efficacement. Dans ce didacticiel, nous vous guiderons étape par étape tout au long du processus de conversion d'une mise en page CAO en image raster, à l'aide d'Aspose.CAD pour Java.
@@ -106,3 +112,9 @@ A4 : Oui, Aspose.CAD prend en charge divers formats de sortie, tels que PNG, JPG
 ### Q5 : Où puis-je demander de l'aide ou partager mes expériences avec Aspose.CAD ?
 
 A5 : Visitez le[Forum Aspose.CAD](https://forum.aspose.com/c/cad/19) pour s'engager avec la communauté et obtenir du soutien.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

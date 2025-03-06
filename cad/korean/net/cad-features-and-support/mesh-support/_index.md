@@ -3,10 +3,16 @@ title: .NET용 Aspose.CAD의 메시 지원
 linktitle: 메시 지원
 second_title: Aspose.CAD .NET - CAD 및 BIM 파일 형식
 description: 단계별 튜토리얼을 통해 .NET용 Aspose.CAD의 메시 지원을 살펴보세요. CAD 파일을 PDF로 손쉽게 변환하세요.
-type: docs
 weight: 11
 url: /ko/net/cad-features-and-support/mesh-support/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# .NET용 Aspose.CAD의 메시 지원
+
 ## 소개
 
 .NET용 Aspose.CAD의 메시 지원 활용에 대한 심층 튜토리얼에 오신 것을 환영합니다! Aspose.CAD는 .NET 애플리케이션에서 CAD(Computer-Aided Design) 파일 작업을 위한 강력한 기능을 제공하는 강력한 라이브러리입니다. 이 튜토리얼에서는 메쉬 지원 기능을 활용하여 CAD 파일 처리 기능을 향상시키는 데 특히 중점을 둘 것입니다.
@@ -100,3 +106,9 @@ A2: 프로덕션 용도에는 라이선스가 권장되지만 개발 중에는 �
 ### Q5: .NET용 Aspose.CAD의 최신 버전은 어디서 다운로드할 수 있나요?
 
  A5: 다음에서 라이브러리를 다운로드하세요.[릴리스 페이지](https://releases.aspose.com/cad/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

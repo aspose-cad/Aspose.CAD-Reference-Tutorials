@@ -3,10 +3,16 @@ title: CAD 元数据和渲染
 linktitle: CAD 元数据和渲染
 second_title: Aspose.CAD Java API
 description: 通过我们的教程释放 Aspose.CAD for Java 的强大功能！了解如何轻松读取 XREF 元数据并将 DWG 文档渲染为图像以增强 CAD 开发。
-type: docs
 weight: 27
 url: /zh/java/cad-meta-data-and-rendering/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# CAD 元数据和渲染
+
 
 
 ## 介绍
@@ -33,3 +39,9 @@ CAD 开发可能很复杂，但通过我们的教程，您将了解其中的复�
 探索 Aspose.CAD for Java 并轻松掌握从 DWG 文件读取 XREF 元数据。利用这个强大的 Java 库促进您的 CAD 开发。
 ### [使用 Aspose.CAD for Java 将 DWG 文档渲染为图像](./render-dwg-to-image/)
 探索 Aspose.CAD for Java 将 DWG 文档渲染为图像的无缝集成。请遵循我们的分步指南以获得高效的结果。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

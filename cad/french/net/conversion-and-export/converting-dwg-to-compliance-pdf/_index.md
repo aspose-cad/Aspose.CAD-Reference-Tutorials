@@ -3,10 +3,16 @@ title: Conversion d'un fichier DWG en PDF conforme - Tutoriel Aspose.CAD
 linktitle: Conversion de DWG en PDF de conformité
 second_title: Aspose.CAD .NET - Format de fichier CAO et BIM
 description: Convertissez DWG en PDF conforme avec Aspose.CAD pour .NET. Suivez notre tutoriel pour des conseils étape par étape.
-type: docs
 weight: 13
 url: /fr/net/conversion-and-export/converting-dwg-to-compliance-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Conversion d'un fichier DWG en PDF conforme - Tutoriel Aspose.CAD
+
 ## Introduction
 
 Bienvenue dans notre didacticiel étape par étape sur la conversion de fichiers DWG en PDF de conformité à l'aide d'Aspose.CAD pour .NET. Aspose.CAD est une puissante API .NET qui permet aux développeurs de travailler sans effort avec les formats de fichiers CAO. Dans ce didacticiel, nous vous guiderons tout au long du processus de conversion d'un fichier DWG en PDF de conformité avec des exemples et des explications détaillés.
@@ -113,3 +119,9 @@ A2 : Oui, Aspose.CAD est compatible avec .NET Framework et .NET Core.
 ### Q5 : Où puis-je obtenir de l'aide pour Aspose.CAD ?
 
 A5 : Visitez le[Forum Aspose.CAD](https://forum.aspose.com/c/cad/19) pour toute question relative au support.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

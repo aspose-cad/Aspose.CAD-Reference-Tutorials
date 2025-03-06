@@ -3,10 +3,16 @@ title: Speciális exporttechnikák
 linktitle: Speciális exporttechnikák
 second_title: Aspose.CAD .NET - CAD és BIM fájlformátum
 description: Fedezze fel az Aspose.CAD erejét C# nyelven fejlett exporttechnikai oktatóanyagainkkal. Könnyedén exportálhat DWG-t DXF-be, PDF-be, raszterképekbe, OLE-objektumokba stb.
-type: docs
 weight: 26
 url: /hu/net/advanced-export-techniques/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Speciális exporttechnikák
+
 
 ## Bevezetés
 
@@ -50,3 +56,9 @@ Ismerje meg, hogyan exportálhat meghatározott elrendezéseket PDF-be az Aspose
 Az Aspose.CAD for .NET segítségével zökkenőmentesen exportálhatja a CAD-rajzokat PDF-be. Kövesse lépésenkénti útmutatónkat a hatékony átalakítás érdekében.
 ### [CAD-rajzok exportálása SVG formátumba – Aspose.CAD útmutató](./exporting-cad-drawings-to-svg/)
 Fedezze fel a CAD-rajzok SVG-be való exportálásának zökkenőmentes folyamatát az Aspose.CAD for .NET használatával. Fokozza CAD-fejlesztését rugalmassággal és testreszabással.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

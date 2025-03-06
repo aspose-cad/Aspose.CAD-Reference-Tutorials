@@ -3,10 +3,16 @@ title: Ytterligare egenskaper
 linktitle: Ytterligare egenskaper
 second_title: Aspose.CAD Java API
 description: Lås upp potentialen hos Aspose.CAD i Java med våra tutorials. Lägg till anpassade egenskaper, dekomponera CAD-infogningsobjekt, aktivera spårning och exportera DXF-ritningar sömlöst. Höj ditt CAD-arbetsflöde utan ansträngning.
-type: docs
 weight: 29
 url: /sv/java/additional-features/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ytterligare egenskaper
+
 
 
 ## Introduktion
@@ -60,3 +66,9 @@ Lär dig hur du sparar DXF-filer i Java med Aspose.CAD. Följ vår steg-för-ste
 ## Slutsats
 
 Dessa handledningar täcker en rad ytterligare funktioner i Aspose.CAD för Java, och erbjuder dig värdefulla insikter och färdigheter för att optimera ditt CAD-arbetsflöde. Oavsett om du förbättrar organisationen, behärskar nedbrytningstekniker, aktiverar spårning eller utforskar olika exportalternativ, ger dessa handledningar den kunskap du behöver. Lyft dina CAD-kunskaper idag med Aspose.CAD för Java.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

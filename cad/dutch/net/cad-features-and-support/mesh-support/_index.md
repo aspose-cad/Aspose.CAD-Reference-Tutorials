@@ -3,10 +3,16 @@ title: Mesh-ondersteuning in Aspose.CAD voor .NET
 linktitle: Mesh-ondersteuning
 second_title: Aspose.CAD .NET - CAD- en BIM-bestandsindeling
 description: Ontdek mesh-ondersteuning in Aspose.CAD voor .NET met onze stapsgewijze zelfstudie. Converteer CAD-bestanden moeiteloos naar PDF.
-type: docs
 weight: 11
 url: /nl/net/cad-features-and-support/mesh-support/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Mesh-ondersteuning in Aspose.CAD voor .NET
+
 ## Invoering
 
 Welkom bij onze uitgebreide tutorial over het gebruik van mesh-ondersteuning in Aspose.CAD voor .NET! Aspose.CAD is een krachtige bibliotheek die robuuste functionaliteit biedt voor het werken met Computer-Aided Design (CAD)-bestanden in .NET-toepassingen. In deze zelfstudie concentreren we ons specifiek op het gebruik van de mesh-ondersteuningsfunctie om de verwerkingsmogelijkheden van uw CAD-bestanden te verbeteren.
@@ -100,3 +106,9 @@ A2: Hoewel een licentie wordt aanbevolen voor productiegebruik, kunt u tijdens d
 ### V5: Waar kan ik de nieuwste versie van Aspose.CAD voor .NET downloaden?
 
  A5: Download de bibliotheek van de[pagina vrijgeven](https://releases.aspose.com/cad/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: CAD 文件操作
 linktitle: CAD 文件操作
 second_title: Aspose.CAD Java API
 description: 使用 Aspose.CAD for Java 解锁 CAD 文件功能！通过我们的教程将 DWFX 转换为 PDF、访问 DWG 标志、列表布局和自动调整尺寸。
-type: docs
 weight: 23
 url: /zh/java/cad-file-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# CAD 文件操作
+
 
 ## 介绍
 
@@ -44,3 +50,9 @@ CAD 文件操作是现代设计和工程工作流程的一个重要方面。随�
 探索使用 Aspose.CAD 在 Java 中自动调整 CAD 绘图尺寸的无缝过程。请按照我们的分步指南进行高效的 CAD 文件操作。
 ### [使用 Aspose.CAD for Java 的单位类型调整 CAD 绘图尺寸](./adjusting-cad-drawing-size-using-unit-type/)
 探索 Aspose.CAD for Java 轻松调整 CAD 绘图尺寸的强大功能。请遵循我们的分步指南，以实现精确性和适应性。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

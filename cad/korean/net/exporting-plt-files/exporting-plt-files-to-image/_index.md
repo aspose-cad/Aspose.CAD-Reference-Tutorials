@@ -3,10 +3,16 @@ title: PLT 파일을 이미지로 내보내기 - Aspose.CAD Tutorial
 linktitle: PLT 파일을 이미지로 내보내기
 second_title: Aspose.CAD .NET - CAD 및 BIM 파일 형식
 description: Aspose.CAD for .NET을 사용하여 PLT 파일을 이미지로 손쉽게 변환하세요. CAD 파일 조작 요구 사항에 맞는 유연한 옵션과 원활한 통합을 살펴보세요.
-type: docs
 weight: 10
 url: /ko/net/exporting-plt-files/exporting-plt-files-to-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# PLT 파일을 이미지로 내보내기 - Aspose.CAD Tutorial
+
 ## 소개
 
 .NET용 Aspose.CAD를 사용하여 PLT 파일을 이미지로 내보내는 방법에 대한 포괄적인 튜토리얼에 오신 것을 환영합니다! PLT 파일을 다양한 이미지 형식으로 원활하게 변환하려는 경우 올바른 위치에 오셨습니다. Aspose.CAD for .NET은 효율적인 CAD 파일 조작을 위한 강력한 기능과 유연성을 제공하며, 이 튜토리얼에서는 프로세스를 단계별로 안내합니다.
@@ -100,3 +106,10 @@ A1: 물론이죠! PNG, GIF, BMP 등과 같이 Aspose.CAD에서 지원하는 다�
 ### Q5: 도움이 필요하거나 질문이 있나요?
 
  A5: 커뮤니티를 방문하세요[법정](https://forum.aspose.com/c/cad/19) 지원과 토론을 위해.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

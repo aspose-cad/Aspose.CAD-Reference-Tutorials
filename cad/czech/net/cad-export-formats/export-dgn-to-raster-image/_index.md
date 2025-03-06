@@ -3,10 +3,16 @@ title: Export DGN do rastrového obrázku v Aspose.CAD pro .NET
 linktitle: Export DGN do rastrového obrázku
 second_title: Aspose.CAD .NET – formát souborů CAD a BIM
 description: Převeďte DGN na rastrové obrázky bez námahy pomocí Aspose.CAD pro .NET. Prozkoumejte průvodce krok za krokem a uvolněte sílu .NET při manipulaci se soubory CAD.
-type: docs
 weight: 13
 url: /cs/net/cad-export-formats/export-dgn-to-raster-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Export DGN do rastrového obrázku v Aspose.CAD pro .NET
+
 ## Úvod
 
 V dynamické sféře vývoje .NET se Aspose.CAD ukazuje jako výkonný nástroj pro práci se soubory CAD (Computer-Aided Design). Tento tutoriál se ponoří do procesu exportu souborů DGN do rastrových obrázků pomocí Aspose.CAD for .NET. Pokud máte zájem o bezproblémovou transformaci souborů DGN na vizuálně působivé rastrové obrázky, jste na správném místě.
@@ -102,3 +108,9 @@ A2: Ujistěte se, že máte správné zpracování výjimek, jak je ukázáno v 
 ### Q5: Jak získám dočasnou licenci pro Aspose.CAD for .NET?
 
  A5: Návštěva[tento odkaz](https://purchase.aspose.com/temporary-license/)získat dočasnou licenci pro vaše vývojové potřeby.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

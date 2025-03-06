@@ -3,10 +3,16 @@ title: Aspose.CAD for Java を使用した自由な視点レンダリング
 linktitle: 自由な視点
 second_title: Aspose.CAD Java API
 description: CAD 図面の自由な視点レンダリングの実現に関するこのチュートリアルで、Aspose.CAD for Java の威力を探ってください。 Aspose.CAD の可能性を解き放ちます。
-type: docs
 weight: 14
 url: /ja/java/other-cad-operations/free-point-of-view/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.CAD for Java を使用した自由な視点レンダリング
+
 ## 導入
 
 「無料の視点 - Aspose.CAD for Java チュートリアル」へようこそ。この包括的なガイドでは、Aspose.CAD for Java を活用して CAD 図面を自由に視点でレンダリングするプロセスを説明します。 Aspose.CAD は、コンピュータ支援設計 (CAD) ファイルを操作するための幅広い機能を提供する強力な Java ライブラリです。このチュートリアルでは、必要な前提条件、重要なパッケージのインポート、各例を段階的なガイドに分けて説明します。
@@ -116,3 +122,9 @@ A1: はい、Aspose.CAD for Java はプラットフォームに依存せず、�
 ### Q5: 仮免許はどうやって取得できますか?
 
  A5: 仮免許を取得する[ここ](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

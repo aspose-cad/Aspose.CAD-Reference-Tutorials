@@ -3,10 +3,16 @@ title: Manipulação de arquivo DWG
 linktitle: Manipulação de arquivo DWG
 second_title: Aspose.CAD .NET - Formato de arquivo CAD e BIM
 description: Desbloqueie o poder do Aspose.CAD em .NET com nossos tutoriais DWG. Domine C# para manuseio eficiente de CAD, extraindo tamanhos de layout DWF perfeitamente.
-type: docs
 weight: 24
 url: /pt/net/dwg-file-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Manipulação de arquivo DWG
+
 
 ## Introdução
 
@@ -39,3 +45,9 @@ Aprenda como abrir e acessar arquivos DWFX em C# usando Aspose.CAD for .NET. Gui
 Desbloqueie o poder do Aspose.CAD for .NET ao explorar sinalizadores de subjacência de arquivos DWG. Siga nosso guia passo a passo.
 ### [Adicionando texto a arquivos DWG em C# - Tutorial Aspose.CAD](./adding-text-to-dwg/)
 Aprenda como adicionar texto a arquivos DWG usando C# e Aspose.CAD. Siga este tutorial passo a passo para uma integração perfeita. Explore a documentação do Aspose.CAD para obter orientação abrangente.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

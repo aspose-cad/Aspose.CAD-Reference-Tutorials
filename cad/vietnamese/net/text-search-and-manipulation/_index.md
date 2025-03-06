@@ -3,10 +3,16 @@ title: Tìm kiếm và thao tác văn bản
 linktitle: Tìm kiếm và thao tác văn bản
 second_title: Aspose.CAD .NET - Định dạng tệp CAD và BIM
 description: Khai phá sức mạnh của Aspose.CAD cho .NET bằng hướng dẫn của chúng tôi về tìm kiếm văn bản trong tệp DWG bằng C#. Nâng cao kỹ năng CAD của bạn và nâng cao ứng dụng của bạn.
-type: docs
 weight: 28
 url: /vi/net/text-search-and-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tìm kiếm và thao tác văn bản
+
 
 ## Giới thiệu
 
@@ -36,3 +42,9 @@ Sẵn sàng để nâng cao kỹ năng CAD của bạn? Hãy đi sâu vào hư�
 ## Hướng dẫn thao tác và tìm kiếm văn bản
 ### [Tìm kiếm văn bản trong tệp DWG bằng C# - Hướng dẫn Aspose.CAD](./searching-text-in-dwg-files/)
 Khám phá Aspose.CAD cho .NET và tìm kiếm văn bản chính trong tệp DWG với hướng dẫn từng bước này. Hãy tăng cường các ứng dụng CAD của bạn ngay hôm nay!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

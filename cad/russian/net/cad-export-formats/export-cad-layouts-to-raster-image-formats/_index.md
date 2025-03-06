@@ -3,10 +3,16 @@ title: Экспорт макетов САПР в форматы растровы
 linktitle: Экспорт макетов САПР в форматы растровых изображений
 second_title: Aspose.CAD .NET — формат файлов CAD и BIM
 description: Узнайте, как экспортировать макеты САПР в растровые изображения с помощью Aspose.CAD для .NET. Следуйте нашему пошаговому руководству для плавного преобразования.
-type: docs
 weight: 10
 url: /ru/net/cad-export-formats/export-cad-layouts-to-raster-image-formats/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Экспорт макетов САПР в форматы растровых изображений в Aspose.CAD для .NET
+
 ## Введение
 
 Вы хотите эффективно конвертировать макеты САПР в форматы растровых изображений с помощью Aspose.CAD для .NET? Это пошаговое руководство проведет вас через весь процесс, предоставив подробные инструкции и фрагменты кода, которые помогут упростить задачу. Независимо от того, являетесь ли вы опытным разработчиком или новичком в Aspose.CAD, это руководство подойдет любому уровню знаний.
@@ -112,3 +118,9 @@ ConvertAllLayersToRasterImageFormats();
 ### В5: Где я могу найти документацию?
 
  A5: обратитесь к подробной документации.[здесь](https://reference.aspose.com/cad/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

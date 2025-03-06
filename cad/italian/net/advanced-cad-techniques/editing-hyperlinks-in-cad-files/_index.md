@@ -3,10 +3,16 @@ title: Modifica dei collegamenti ipertestuali nei file CAD - Tutorial Aspose.CAD
 linktitle: Modifica dei collegamenti ipertestuali nei file CAD
 second_title: Aspose.CAD .NET - Formato file CAD e BIM
 description: Esplora Aspose.CAD per .NET e impara a modificare i collegamenti ipertestuali nei file CAD senza sforzo. Migliora le tue capacità di gestione dei file CAD con questo tutorial completo.
-type: docs
 weight: 14
 url: /it/net/advanced-cad-techniques/editing-hyperlinks-in-cad-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Modifica dei collegamenti ipertestuali nei file CAD - Tutorial Aspose.CAD
+
 ## introduzione
 
 Benvenuti nel nostro tutorial passo passo sulla modifica dei collegamenti ipertestuali nei file CAD utilizzando Aspose.CAD per .NET. Aspose.CAD è una potente libreria che consente agli sviluppatori di lavorare con file CAD senza problemi. In questo tutorial ci concentreremo sull'attività specifica di modifica dei collegamenti ipertestuali all'interno dei file CAD, dimostrando come modificare e gestire i collegamenti in modo efficiente.
@@ -103,3 +109,9 @@ A1: Sì, Aspose.CAD supporta vari formati CAD, inclusi DWG, DXF, DGN e altri.
 ### Q5: Hai bisogno di assistenza o hai domande?
 
  R5: Visita il nostro forum di supporto[Qui](https://forum.aspose.com/c/cad/19).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

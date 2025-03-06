@@ -3,10 +3,16 @@ title: Mise en page et gestion des objets
 linktitle: Mise en page et gestion des objets
 second_title: Aspose.CAD .NET - Format de fichier CAO et BIM
 description: Maîtrisez l'exportation de mises en page DXF, l'enregistrement de fichiers, le découpage de blocs et les entités proxy ACAD sans effort pour une conception CAO améliorée à l'aide d'Aspose.CAD pour .NET.
-type: docs
 weight: 33
 url: /fr/net/layout-and-object-handling/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Mise en page et gestion des objets
+
 
 ## Introduction
 
@@ -38,3 +44,9 @@ Découvrez la puissance d'Aspose.CAD pour .NET. Apprenez à enregistrer des fich
 Découvrez comment implémenter le découpage de blocs en CAO à l'aide d'Aspose.CAD pour .NET. Améliorez vos capacités de conception avec ce didacticiel étape par étape.
 ### [Travailler avec des entités proxy ACAD - Guide Aspose.CAD](./working-with-acad-proxy-entities/)
 Explorez Aspose.CAD pour .NET et rationalisez vos flux de travail CAO. Convertissez, modifiez et gérez les entités proxy ACAD sans effort.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

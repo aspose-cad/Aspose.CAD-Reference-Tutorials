@@ -3,10 +3,16 @@ title: DWG ファイルへのカスタム プロパティの追加 - Aspose.CAD 
 linktitle: DWG ファイルへのカスタム プロパティの追加
 second_title: Aspose.CAD .NET - CAD および BIM ファイル形式
 description: Aspose.CAD for .NET を使用して、カスタム プロパティで DWG ファイルを強化します。ステップバイステップのガイドに従って、意味のあるメタデータを簡単に追加します。
-type: docs
 weight: 11
 url: /ja/net/attribute-and-property-management/adding-custom-properties-to-dwg/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# DWG ファイルへのカスタム プロパティの追加 - Aspose.CAD ガイド
+
 ## 導入
 
 Aspose.CAD for .NET を使用してカスタム プロパティを DWG ファイルに追加するためのこの包括的なガイドへようこそ。 Aspose.CAD は、開発者が CAD ファイルをシームレスに操作できるようにする強力なライブラリです。このチュートリアルでは、カスタム プロパティの理解を深め、Aspose.CAD を使用してカスタム プロパティを DWG ファイルに追加する方法に焦点を当てます。
@@ -92,3 +98,9 @@ A4: 厳密な制限はありませんが、カスタム プロパティには意
 ### Q5: 問題が発生した場合、Aspose.CAD はサポートを提供しますか?
 
  A5: はい、次の点についてサポートを求めることができます。[Aspose.CAD フォーラム](https://forum.aspose.com/c/cad/19)技術的な質問や問題について。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: استخراج قيمة سمة الكتلة من مرجع خارجي با
 linktitle: استخراج قيمة سمة الكتلة من مرجع خارجي
 second_title: Aspose.CAD جافا API
 description: استكشف برنامجنا التعليمي حول استخراج قيم سمات الكتلة من مراجع DWG الخارجية في Java باستخدام Aspose.CAD. قم بتحسين سير عمل تطوير CAD الخاص بك دون عناء.
-type: docs
 weight: 19
 url: /ar/java/advanced-cad-features/extract-block-attribute-value/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# استخراج قيمة سمة الكتلة من مرجع خارجي باستخدام Aspose.CAD في Java
+
 ## مقدمة
 
 مرحبًا بك في دليلنا الشامل حول استخراج قيم سمات الكتلة من المراجع الخارجية في Java باستخدام Aspose.CAD. إذا كنت مطورًا يعمل باستخدام رسومات CAD وتتطلع إلى تبسيط سير العمل لديك، فأنت في المكان الصحيح. في هذا البرنامج التعليمي، سنرشدك خلال العملية خطوة بخطوة، مع الاستفادة من الميزات القوية لبرنامج Aspose.CAD لـ Java.
@@ -89,3 +95,9 @@ System.out.println(sXternalRef);
 ### س5: ما هي عملية الحصول على ترخيص مؤقت لـ Aspose.CAD؟
 
  ج5: للحصول على ترخيص مؤقت يرجى زيارة[هذا الرابط](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

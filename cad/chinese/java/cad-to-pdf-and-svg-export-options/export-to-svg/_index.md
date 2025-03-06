@@ -3,10 +3,16 @@ title: 使用 Aspose.CAD for Java 导出到 SVG
 linktitle: 导出为 SVG
 second_title: Aspose.CAD Java API
 description: 通过我们有关将 CAD 绘图导出为 SVG 的分步指南，释放 Aspose.CAD for Java 的潜力。了解如何导入命名空间、配置选项以及将 Aspose.CAD 无缝集成到您的 Java 项目中。
-type: docs
 weight: 12
 url: /zh/java/cad-to-pdf-and-svg-export-options/export-to-svg/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.CAD for Java 导出到 SVG
+
 ## 介绍
 
 欢迎来到 Aspose.CAD for Java 的世界，这是一个功能强大的库，使开发人员能够轻松操作 CAD 绘图。无论您是经验丰富的开发人员还是 CAD 领域的新手，本综合指南都将引导您完成使用 Aspose.CAD for Java 将 CAD 绘图导出为 SVG 格式的过程。
@@ -103,3 +109,9 @@ A4：是的，您可以使用[免费试用](https://releases.aspose.com/).
 ### Q5：如何购买 Aspose.CAD for Java 的许可证？
 
 A5：您可以从[购买页面](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

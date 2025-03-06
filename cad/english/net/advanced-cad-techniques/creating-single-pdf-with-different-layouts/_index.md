@@ -3,10 +3,16 @@ title: Creating Single PDF with Different Layouts - Aspose.CAD Guide
 linktitle: Creating Single PDF with Different Layouts
 second_title: Aspose.CAD .NET - CAD and BIM File Format
 description: Create a single PDF with different layouts using Aspose.CAD for .NET. Follow our step-by-step guide for seamless integration and efficient PDF generation.
-type: docs
 weight: 13
 url: /net/advanced-cad-techniques/creating-single-pdf-with-different-layouts/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Creating Single PDF with Different Layouts - Aspose.CAD Guide
+
 ## Introduction
 
 Are you looking to generate a single PDF document from a CAD drawing with different layouts using Aspose.CAD for .NET? This step-by-step guide will walk you through the process, helping you achieve seamless integration and efficient PDF creation. Aspose.CAD for .NET provides powerful features to manipulate CAD drawings programmatically, and in this tutorial, we will focus on creating a single PDF with different layouts.
@@ -95,3 +101,10 @@ A4: Refer to the documentation [here](https://reference.aspose.com/cad/net/).
 ### Q5: Can I purchase a license for Aspose.CAD for .NET?
 
 A5: Yes, you can buy a license [here](https://purchase.aspose.com/buy).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

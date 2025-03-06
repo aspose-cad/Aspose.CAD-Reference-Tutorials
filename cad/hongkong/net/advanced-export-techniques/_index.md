@@ -3,10 +3,16 @@ title: 先進的導出技術
 linktitle: 先進的導出技術
 second_title: Aspose.CAD .NET - CAD 和 BIM 檔案格式
 description: 透過我們的進階導出技術教程，釋放 C# 中 Aspose.CAD 的強大功能。輕鬆將 DWG 匯出為 DXF、PDF、光柵影像、OLE 物件等。
-type: docs
 weight: 26
 url: /zh-hant/net/advanced-export-techniques/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 先進的導出技術
+
 
 ## 介紹
 
@@ -50,3 +56,9 @@ url: /zh-hant/net/advanced-export-techniques/
 使用 Aspose.CAD for .NET 將 CAD 繪圖無縫匯出為 PDF。請按照我們的逐步指南進行高效率轉換。
 ### [將 CAD 繪圖匯出為 SVG 格式 - Aspose.CAD Guide](./exporting-cad-drawings-to-svg/)
 探索使用 Aspose.CAD for .NET 將 CAD 繪圖匯出為 SVG 的無縫流程。透過靈活性和自訂增強您的 CAD 開發。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

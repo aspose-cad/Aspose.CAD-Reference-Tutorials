@@ -3,10 +3,16 @@ title: 图像处理和渲染
 linktitle: 图像处理和渲染
 second_title: Aspose.CAD .NET - CAD 和 BIM 文件格式
 description: 使用 Aspose.CAD for .NET 释放 CAD 文件潜力。轻松学习块属性提取、图像导入、DWG 到 PDF 转换、网格支持等。
-type: docs
 weight: 27
 url: /zh/net/image-manipulation-and-rendering/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 图像处理和渲染
+
 
 ## 介绍
 
@@ -54,3 +60,9 @@ url: /zh/net/image-manipulation-and-rendering/
 通过我们关于从 DWG 文件读取 XREF 元数据的分步教程，释放 Aspose.CAD for .NET 的潜力。
 ### [在 C# 中渲染 DWG 文档 - Aspose.CAD 指南](./rendering-dwg-documents/)
 了解如何使用 Aspose.CAD 在 C# 中渲染 DWG 文档。本分步指南涵盖了导入、配置和保存代码示例。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

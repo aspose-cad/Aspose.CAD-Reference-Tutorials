@@ -3,10 +3,16 @@ title: Ajouter des filigranes aux dessins CAO - Tutoriel Aspose.CAD for Java
 linktitle: Ajouter un filigrane
 second_title: API Java Aspose.CAD
 description: Améliorez vos dessins CAO avec des filigranes personnalisés à l'aide d'Aspose.CAD pour Java. Suivez notre guide étape par étape pour une intégration transparente.
-type: docs
 weight: 12
 url: /fr/java/other-cad-operations/add-watermark/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ajouter des filigranes aux dessins CAO - Tutoriel Aspose.CAD for Java
+
 ## Introduction
 
 Bienvenue dans ce guide complet sur l'ajout de filigranes aux dessins CAO à l'aide d'Aspose.CAD pour Java. Dans ce didacticiel, vous apprendrez à intégrer efficacement des filigranes, en améliorant vos documents CAO avec des messages personnalisés ou une image de marque. Aspose.CAD pour Java fournit un ensemble puissant de fonctionnalités, simplifiant le processus d'ajout de filigrane.
@@ -99,3 +105,9 @@ A2 : Oui, vous avez un contrôle total sur l’apparence du filigrane, y compris
 ### Q5 : Où puis-je trouver la documentation complète d'Aspose.CAD pour Java ?
 
  A5 : Reportez-vous au[Documentation](https://reference.aspose.com/cad/java/) pour des informations détaillées.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

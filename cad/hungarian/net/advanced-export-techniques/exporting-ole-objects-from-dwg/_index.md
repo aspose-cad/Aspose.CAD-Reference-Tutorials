@@ -3,10 +3,16 @@ title: OLE-objektumok exportálása DWG-fájlokból – Aspose.CAD oktatóanyag
 linktitle: OLE-objektumok exportálása DWG-fájlokból
 second_title: Aspose.CAD .NET - CAD és BIM fájlformátum
 description: Tekintse meg az OLE-objektumok DWG-fájlokból történő exportálásáról szóló, lépésről lépésre szóló útmutatót az Aspose.CAD for .NET használatával. Fejlessze könnyedén CAD-fájlkezelési készségeit.
-type: docs
 weight: 12
 url: /hu/net/advanced-export-techniques/exporting-ole-objects-from-dwg/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OLE-objektumok exportálása DWG-fájlokból – Aspose.CAD oktatóanyag
+
 ## Bevezetés
 
 Egyszerűen szeretne OLE objektumokat kivonni DWG-fájlokból? Az Aspose.CAD for .NET azért van itt, hogy egyszerűsítse a folyamatot. Ebben az oktatóanyagban lépésről lépésre végigvezetjük az OLE-objektumok exportálásán, így biztosítva, hogy a legtöbbet hozza ki ebből a hatékony .NET-könyvtárból. 
@@ -98,3 +104,9 @@ A2: Abszolút! Ahogy az oktatóanyagban is látható, az exportálási lehetős�
 ### 5. kérdés: Hogyan kaphatok támogatást, vagy hogyan léphetek kapcsolatba a közösséggel?
 
  5. válasz: Támogatásért és közösségi szerepvállalásért látogassa meg a[Aspose.CAD fórum](https://forum.aspose.com/c/cad/19).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

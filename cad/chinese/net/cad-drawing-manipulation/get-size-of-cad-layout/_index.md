@@ -3,10 +3,16 @@ title: 在 Aspose.CAD for .NET 中获取 CAD 布局的大小
 linktitle: 获取 CAD 布局的尺寸
 second_title: Aspose.CAD .NET - CAD 和 BIM 文件格式
 description: 了解如何使用 Aspose.CAD 在 .NET 中检索 CAD 布局尺寸。请按照我们的分步指南进行高效的 CAD 文件操作。
-type: docs
 weight: 14
 url: /zh/net/cad-drawing-manipulation/get-size-of-cad-layout/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.CAD for .NET 中获取 CAD 布局的大小
+
 ## 介绍
 
 欢迎阅读这份有关使用 Aspose.CAD for .NET 获取 CAD 布局尺寸的综合指南。 Aspose.CAD 是一个功能强大的库，使开发人员能够无缝地使用 CAD 文件。在本教程中，我们将使用实际示例和分步说明引导您完成检索 CAD 布局尺寸的过程。
@@ -143,3 +149,9 @@ A4：是的，您可以使用[免费试用](https://releases.aspose.com/).
 ### Q5；我如何获得技术支持？
 
  A5：如需技术支持，请访问[Aspose.CAD论坛](https://forum.aspose.com/c/cad/19).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

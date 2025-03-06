@@ -3,10 +3,16 @@ title: Egy adott stílus betűtípusának helyettesítése a DWG-ben az Aspose.C
 linktitle: Egy adott stílus betűtípusának helyettesítése a DWG-ben
 second_title: Aspose.CAD Java API
 description: Ismerje meg, hogyan helyettesíthet betűtípusokat DWG-fájlokban az Aspose.CAD for Java használatával. Lépésről lépésre útmutató a stílusok pontos testreszabásához.
-type: docs
 weight: 12
 url: /hu/java/cad-text-and-annotation/substitute-font-of-particular-style-in-dwg/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Egy adott stílus betűtípusának helyettesítése a DWG-ben az Aspose.CAD for Java használatával
+
 ## Bevezetés
 
 A CAD (Computer-Aided Design) világában a precizitás és a részletesség a legfontosabb. Az Aspose.CAD for Java a CAD-rajzok kezelésének hatékony eszközeként jelenik meg, amely kiterjedt funkciókat biztosít a fejlesztők számára. Az egyik ilyen alapvető funkció a betűtípusok helyettesítése a DWG-fájlon belül, biztosítva a konzisztenciát és a testreszabhatóságot.
@@ -92,3 +98,9 @@ A3: Az Aspose.CAD rugalmasságot biztosít; visszavonhatja a módosításokat va
 ### 5. kérdés: Hogyan kaphatok támogatást az Aspose.CAD for Java számára?
 
 A5: Látogassa meg a[Aspose.CAD fórum](https://forum.aspose.com/c/cad/19) közösségi támogatásra és beszélgetésekre.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

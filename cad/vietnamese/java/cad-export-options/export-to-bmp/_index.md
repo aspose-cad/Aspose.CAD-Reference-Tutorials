@@ -3,10 +3,16 @@ title: Xuất sang BMP bằng Aspose.CAD cho Java
 linktitle: Xuất sang BMP
 second_title: API Java Aspose.CAD
 description: Khám phá chuyển đổi CAD sang BMP liền mạch với Aspose.CAD cho Java. Hãy làm theo hướng dẫn từng bước của chúng tôi để xuất khẩu hiệu quả và chính xác.
-type: docs
 weight: 12
 url: /vi/java/cad-export-options/export-to-bmp/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Xuất sang BMP bằng Aspose.CAD cho Java
+
 ## Giới thiệu
 
 Trong bối cảnh thiết kế kỹ thuật số ngày càng phát triển, khả năng xuất liền mạch các tệp Thiết kế có sự hỗ trợ của Máy tính (CAD) sang các định dạng khác nhau là rất quan trọng. Aspose.CAD cho Java nổi bật như một giải pháp mạnh mẽ, cung cấp cho các nhà phát triển những công cụ cần thiết để xuất các tệp CAD sang định dạng BMP một cách hiệu quả. Hướng dẫn này sẽ hướng dẫn bạn từng bước thực hiện quy trình, đảm bảo quá trình xuất diễn ra suôn sẻ và thành công.
@@ -110,3 +116,9 @@ Câu trả lời 2: Có, bạn có thể tùy chỉnh các tùy chọn tạo đi
 ### Câu hỏi 5: Làm cách nào để có được giấy phép tạm thời?
 
  Câu trả lời 5: Nhận giấy phép tạm thời cho Aspose.CAD cho Java[đây](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: ACAD プロキシ エンティティの使用 - Aspose.CAD ガイド
 linktitle: ACAD プロキシ エンティティの操作
 second_title: Aspose.CAD .NET - CAD および BIM ファイル形式
 description: Aspose.CAD for .NET を探索し、CAD ワークフローを合理化します。 ACAD プロキシ エンティティを簡単に変換、編集、管理します。
-type: docs
 weight: 13
 url: /ja/net/layout-and-object-handling/working-with-acad-proxy-entities/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# ACAD プロキシ エンティティの使用 - Aspose.CAD ガイド
+
 ## 導入
 
 .NET 開発の動的な世界では、CAD 図面の作成と管理は重要なタスクです。 Aspose.CAD for .NET は、AutoCAD プロキシ エンティティを操作するための堅牢なソリューションを提供します。このガイドでは、Aspose.CAD の機能を活用し、CAD 関連のワークフローを合理化するための重要な手順を説明します。
@@ -98,3 +104,9 @@ A1: はい、Aspose.CAD は、DWG や DXF などのさまざまな CAD 形式を
 ### Q5: Aspose.CAD for .NET のフル ライセンスはどこで購入できますか?
 
  A5: ライセンスは以下から購入できます。[購入ページ](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

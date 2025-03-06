@@ -3,10 +3,16 @@ title: CAD Dışa Aktarma Formatları
 linktitle: CAD Dışa Aktarma Formatları
 second_title: Aspose.CAD .NET - CAD ve BIM Dosya Formatı
 description: Aspose.CAD for .NET ile CAD dışa aktarma formatlarında zahmetsizce ustalaşın. Öğreticilerle CAD düzenlerini dönüştürmeyi, DGN dosyalarını PDF'ye aktarmayı ve taramalı görüntüleri öğrenmeyi öğrenin.
-type: docs
 weight: 22
 url: /tr/net/cad-export-formats/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# CAD Dışa Aktarma Formatları
+
 
 ## giriiş
 
@@ -38,3 +44,9 @@ Aspose.CAD for .NET'te DWG'nin bir parçası olarak DGN'yi nasıl dışa aktarac
 Aspose.CAD for .NET ile DGN dosyalarını zahmetsizce PDF'ye nasıl aktaracağınızı öğrenin. Kusursuz CAD dosyası manipülasyonu için adım adım kılavuz.
 ### [Aspose.CAD for .NET'te DGN'yi Raster Görüntüye Aktar](./export-dgn-to-raster-image/)
 Aspose.CAD for .NET'i kullanarak DGN'yi taramalı görüntülere zahmetsizce dönüştürün. Adım adım kılavuzu keşfedin ve CAD dosya işlemede .NET'in gücünü açığa çıkarın.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Mengekspor File DGN Tertanam - Tutorial Aspose.CAD
 linktitle: Mengekspor File DGN Tersemat
 second_title: Aspose.CAD .NET - Format File CAD dan BIM
 description: Jelajahi kekuatan Aspose.CAD untuk .NET. Pelajari cara mengekspor file DGN yang disematkan ke PDF dengan mudah dengan tutorial langkah demi langkah ini.
-type: docs
 weight: 14
 url: /id/net/export-techniques/exporting-embedded-dgn-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Mengekspor File DGN Tertanam - Tutorial Aspose.CAD
+
 ## Perkenalan
 
 Dalam dunia pengembangan perangkat lunak yang dinamis, Aspose.CAD untuk .NET menonjol sebagai alat yang ampuh untuk menangani file Computer-Aided Design (CAD). Tutorial ini akan memandu Anda melalui proses mengekspor file DGN yang disematkan menggunakan Aspose.CAD untuk .NET. Baik Anda seorang pengembang berpengalaman atau pemula yang penasaran, panduan langkah demi langkah ini akan membantu Anda memanfaatkan kemampuan Aspose.CAD secara efektif.
@@ -98,3 +104,9 @@ A1: Aspose.CAD terutama mendukung .NET, namun Aspose menyediakan perpustakaan un
 ### Q5: Butuh bantuan atau ingin terlibat dengan komunitas?
 
 A5: Kunjungi[Forum Aspose.CAD](https://forum.aspose.com/c/cad/19) untuk dukungan dan diskusi.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

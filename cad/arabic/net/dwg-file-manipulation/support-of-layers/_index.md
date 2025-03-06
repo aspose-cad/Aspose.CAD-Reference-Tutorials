@@ -3,10 +3,16 @@ title: التعامل مع الطبقات في ملفات DWG باستخدام C
 linktitle: التعامل مع الطبقات في ملفات DWG باستخدام C#
 second_title: Aspose.CAD .NET - تنسيق ملف CAD وBIM
 description: تعرف على كيفية التعامل مع الطبقات في ملفات DWG باستخدام لغة C# مع Aspose.CAD لـ .NET. دليل خطوة بخطوة لمعالجة ملفات CAD بكفاءة.
-type: docs
 weight: 11
 url: /ar/net/dwg-file-manipulation/support-of-layers/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# التعامل مع الطبقات في ملفات DWG باستخدام C# - البرنامج التعليمي Aspose.CAD
+
 ## مقدمة
 
 مرحبًا بك في برنامجنا التعليمي المتعمق حول التعامل مع الطبقات في ملفات DWG باستخدام لغة C# مع Aspose.CAD لـ .NET. Aspose.CAD هي مكتبة قوية تمكن المطورين من العمل مع تنسيقات ملفات CAD بسلاسة. في هذا البرنامج التعليمي، سنرشدك خلال عملية التعامل مع الطبقات في ملفات DWG خطوة بخطوة.
@@ -109,3 +115,9 @@ image.Save(MyDir, jpegOptions);
 ### س5: ما هي خيارات الترخيص لـ Aspose.CAD؟
 
  ج5: يمكنك استكشاف خيارات الترخيص وتفاصيل الشراء[هنا](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

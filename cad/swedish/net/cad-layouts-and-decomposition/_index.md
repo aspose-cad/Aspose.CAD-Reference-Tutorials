@@ -3,10 +3,16 @@ title: CAD-layouter och nedbrytning
 linktitle: CAD-layouter och nedbrytning
 second_title: Aspose.CAD .NET - CAD- och BIM-filformat
 description: Lås upp potentialen för CAD-layouter med Aspose.CAD för .NET! Konvertera enkelt design till PDF med vår guide. Bemästra nedbrytningen av insatsobjekt utan ansträngning.
-type: docs
 weight: 34
 url: /sv/net/cad-layouts-and-decomposition/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# CAD-layouter och nedbrytning
+
 
 
 
@@ -59,3 +65,9 @@ Sammanfattningsvis står Aspose.CAD för .NET som en spelväxlare i CAD-sfären.
 Konvertera CAD-layouter till PDF utan ansträngning med Aspose.CAD för .NET. Följ vår steg-för-steg-guide för sömlös integration.
 ### [Nedbrytande CAD Insert Objects - Aspose.CAD Guide](./decomposing-cad-insert-objects/)
 Utforska kraften i Aspose.CAD för .NET med vår steg-för-steg-guide om nedbrytning av CAD-insättningsobjekt.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

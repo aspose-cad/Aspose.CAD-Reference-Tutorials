@@ -3,10 +3,16 @@ title: 使用 Aspose.CAD for Java 設定自動佈局縮放
 linktitle: 設定自動佈局縮放
 second_title: Aspose.CAD Java API
 description: 使用 Aspose.CAD for Java 增強您的 CAD 工作流程。本逐步指南介紹了自動佈局縮放，以確保最佳顯示和效率。下載該庫，按照教學進行操作，徹底改變您的 CAD 專案。
-type: docs
 weight: 17
 url: /zh-hant/java/advanced-cad-features/setting-auto-layout-scaling/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.CAD for Java 設定自動佈局縮放
+
 ## 介紹
 
 在電腦輔助設計 (CAD) 的動態世界中，效率是關鍵。 Aspose.CAD for Java 提供了一組強大的工具來增強您的 CAD 工作流程。其中一個突出的功能是自動佈局縮放，該功能可確保您的佈局無縫調整以獲得最佳顯示效果。在本教程中，我們將探索如何使用 Aspose.CAD for Java 逐步實作自動佈局縮放。
@@ -93,3 +99,9 @@ A1：Aspose.CAD for Java 支援多種 CAD 格式，包括 DWG、DXF 和 DWF。
 ### 問題 5：我該如何尋求 Aspose.CAD for Java 的協助或參與討論？
 
 A5：訪問[Aspose.CAD論壇](https://forum.aspose.com/c/cad/19)與社區聯繫並尋求支持。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

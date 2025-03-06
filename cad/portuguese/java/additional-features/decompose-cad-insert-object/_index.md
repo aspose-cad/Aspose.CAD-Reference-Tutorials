@@ -3,10 +3,16 @@ title: Decompor objeto de inserção CAD com Aspose.CAD em Java
 linktitle: Decompor objeto de inserção CAD com Java
 second_title: API Java Aspose.CAD
 description: Domine a decomposição de objetos de inserção CAD em Java com Aspose.CAD. Siga nosso guia passo a passo para um manuseio eficiente. Mergulhe no mundo da manipulação CAD.
-type: docs
 weight: 11
 url: /pt/java/additional-features/decompose-cad-insert-object/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Decompor objeto de inserção CAD com Aspose.CAD em Java
+
 ## Introdução
 
 Bem-vindo ao nosso guia completo sobre como usar Aspose.CAD for Java para decompor objetos de inserção CAD. Neste tutorial, orientaremos você no processo de divisão de objetos de inserção CAD em suas partes constituintes, fornecendo um guia passo a passo para uma implementação perfeita. Quer você seja um desenvolvedor experiente ou esteja apenas começando com Aspose.CAD, este tutorial irá equipá-lo com o conhecimento para lidar com eficiência com objetos de inserção CAD em seus aplicativos Java.
@@ -110,3 +116,9 @@ Neste tutorial, exploramos o processo de decomposição de objetos de inserção
 ### Q5: Há algum desenho de amostra para praticar?
 
 A5: Sim, você pode encontrar desenhos de amostra no diretório "DXFDrawings" nos recursos Aspose.CAD.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

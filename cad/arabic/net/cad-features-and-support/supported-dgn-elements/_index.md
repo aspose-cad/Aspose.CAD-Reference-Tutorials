@@ -3,10 +3,16 @@ title: عناصر DGN المدعومة في Aspose.CAD لـ .NET
 linktitle: عناصر DGN المدعومة
 second_title: Aspose.CAD .NET - تنسيق ملف CAD وBIM
 description: استكشف ميزات Aspose.CAD لـ .NET القوية للتعامل مع ملفات DGN. اتبع دليلنا خطوة بخطوة للعمل بسلاسة مع العناصر ثنائية وثلاثية الأبعاد.
-type: docs
 weight: 18
 url: /ar/net/cad-features-and-support/supported-dgn-elements/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# عناصر DGN المدعومة في Aspose.CAD لـ .NET
+
 ## مقدمة
 
 هل أنت مطور .NET وتتطلع إلى العمل مع ملفات DGN بسلاسة؟ يوفر Aspose.CAD for .NET حلاً قويًا للتعامل مع ملفات DGN بكفاءة. في هذا البرنامج التعليمي، سوف نتعمق في عناصر DGN المدعومة، ونرشدك خلال عملية العمل مع Aspose.CAD لـ .NET.
@@ -127,3 +133,9 @@ Console.WriteLine("\nThe DGN file exported successfully to raster image.\nFile s
 ### س5: هل تحتاج إلى مساعدة أو لديك أسئلة؟
 
  ج5: قم بزيارة مجتمع Aspose.CAD لـ .NET[منتدى الدعم](https://forum.aspose.com/c/cad/19).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

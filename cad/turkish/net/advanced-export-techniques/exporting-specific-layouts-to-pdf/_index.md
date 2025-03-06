@@ -3,10 +3,16 @@ title: Belirli Mizanpajları PDF'ye Aktarma - Aspose.CAD Guide
 linktitle: Belirli Düzenleri PDF'ye Aktarma
 second_title: Aspose.CAD .NET - CAD ve BIM Dosya Formatı
 description: Aspose.CAD for .NET'i kullanarak belirli düzenleri PDF'ye nasıl aktaracağınızı öğrenin. Sorunsuz entegrasyon için adım adım kılavuz.
-type: docs
 weight: 13
 url: /tr/net/advanced-export-techniques/exporting-specific-layouts-to-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Belirli Mizanpajları PDF'ye Aktarma - Aspose.CAD Guide
+
 ## giriiş
 
 Aspose.CAD for .NET kullanarak belirli mizanpajları PDF'ye aktarmaya ilişkin adım adım kılavuzumuza hoş geldiniz. Aspose.CAD, geliştiricilerin CAD dosya formatlarıyla sorunsuz bir şekilde çalışmasına olanak tanıyan güçlü bir kütüphanedir. Bu eğitimde, belirli düzenleri bir DWG dosyasından Aspose.CAD'i .NET ortamında kullanarak PDF'ye aktarmaya odaklanacağız.
@@ -110,3 +116,9 @@ Cevap2: Evet, Aspose.CAD, DWG, DXF, DWF ve daha fazlası dahil olmak üzere çe�
 ### S5: Ücretsiz deneme sürümü var mı?
 
  C5: Evet, ücretsiz deneme sürümüne erişebilirsiniz[Burada](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

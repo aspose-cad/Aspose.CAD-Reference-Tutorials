@@ -3,10 +3,16 @@ title: تصدير طبقة DXF محددة إلى PDF - البرنامج التع
 linktitle: تصدير طبقة محددة DXF إلى PDF
 second_title: Aspose.CAD .NET - تنسيق ملف CAD وBIM
 description: تعرف على كيفية تصدير طبقات محددة من ملفات DXF إلى PDF باستخدام Aspose.CAD لـ .NET. اتبع هذا الدليل خطوة بخطوة لتحقيق التكامل السلس.
-type: docs
 weight: 10
 url: /ar/net/export-techniques/exporting-dxf-specific-layer-to-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تصدير طبقة DXF محددة إلى PDF - البرنامج التعليمي Aspose.CAD
+
 ## مقدمة
 
 في مجال تطوير CAD لـ .NET، تبرز Aspose.CAD كمكتبة قوية تمكن المطورين من التعامل مع ملفات CAD بكفاءة. إحدى ميزاته البارزة هي القدرة على تصدير طبقات محددة من ملفات DXF إلى تنسيق PDF. سيرشدك هذا البرنامج التعليمي خلال العملية خطوة بخطوة، موضحًا كيفية تسخير قوة Aspose.CAD لهذه المهمة المحددة.
@@ -101,3 +107,10 @@ image.Save(MyDir, pdfOptions);
 ### س5: هل يمكنني تخصيص مخرجات PDF بشكل أكبر؟
 
 ج5: بالتأكيد. استكشف وثائق Aspose.CAD للحصول على خيارات وتكوينات إضافية.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

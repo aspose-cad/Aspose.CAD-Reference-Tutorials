@@ -3,10 +3,16 @@ title: 向 CAD 绘图添加水印 - Aspose.CAD for Java 教程
 linktitle: 加水印
 second_title: Aspose.CAD Java API
 description: 使用 Aspose.CAD for Java 通过个性化水印增强您的 CAD 绘图。请按照我们的分步指南进行无缝集成。
-type: docs
 weight: 12
 url: /zh/java/other-cad-operations/add-watermark/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 向 CAD 绘图添加水印 - Aspose.CAD for Java 教程
+
 ## 介绍
 
 欢迎阅读这份有关使用 Aspose.CAD for Java 向 CAD 绘图添加水印的综合指南。在本教程中，您将学习如何有效地集成水印，通过个性化消息或品牌增强您的 CAD 文档。 Aspose.CAD for Java 提供了一组强大的功能，使水印添加过程变得简单。
@@ -99,3 +105,9 @@ A2：是的，您可以完全控制水印的外观，包括文本大小、颜色
 ### Q5：在哪里可以找到 Aspose.CAD for Java 的完整文档？
 
  A5：请参阅[文档](https://reference.aspose.com/cad/java/)获取详细信息。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

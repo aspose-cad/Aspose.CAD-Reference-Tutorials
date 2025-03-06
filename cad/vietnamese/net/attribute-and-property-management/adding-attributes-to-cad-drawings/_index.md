@@ -3,10 +3,16 @@ title: Thêm thuộc tính vào bản vẽ CAD - Hướng dẫn Aspose.CAD
 linktitle: Thêm thuộc tính vào bản vẽ CAD
 second_title: Aspose.CAD .NET - Định dạng tệp CAD và BIM
 description: Nâng cao bản vẽ CAD của bạn bằng các thuộc tính bằng Aspose.CAD cho .NET. Hãy làm theo hướng dẫn từng bước của chúng tôi để tích hợp liền mạch.
-type: docs
 weight: 10
 url: /vi/net/attribute-and-property-management/adding-attributes-to-cad-drawings/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Thêm thuộc tính vào bản vẽ CAD - Hướng dẫn Aspose.CAD
+
 ## Giới thiệu
 
 Trong lĩnh vực Thiết kế có sự hỗ trợ của máy tính (CAD), việc làm phong phú các bản vẽ bằng các thuộc tính là một bước quan trọng để có tài liệu chi tiết và giao tiếp hiệu quả. Aspose.CAD cho .NET cung cấp một giải pháp mạnh mẽ để tích hợp liền mạch các thuộc tính vào bản vẽ CAD. Hướng dẫn này sẽ hướng dẫn bạn quy trình thêm thuộc tính vào bản vẽ CAD bằng Aspose.CAD, cho phép bạn nâng cao thông tin được nhúng trong thiết kế của mình.
@@ -119,3 +125,9 @@ Trả lời 1: Aspose.CAD hỗ trợ nhiều định dạng CAD khác nhau, bao 
 ### Câu hỏi 5: Làm cách nào tôi có thể nhận được giấy phép tạm thời cho Aspose.CAD?
 
  Câu trả lời 5: Để biết các tùy chọn cấp phép tạm thời, hãy truy cập[đây](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

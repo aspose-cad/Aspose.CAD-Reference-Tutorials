@@ -3,10 +3,16 @@ title: Daftar Tata Letak di DWG Menggunakan Aspose.CAD untuk Java
 linktitle: Daftar Tata Letak di DWG
 second_title: Aspose.CAD Java API
 description: Jelajahi Aspose.CAD untuk Java dan buat daftar tata letak dengan mudah di file DWG. Integrasikan fungsionalitas CAD yang kuat ke dalam aplikasi Java Anda.
-type: docs
 weight: 12
 url: /id/java/cad-file-manipulation/list-layouts-in-dwg/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Daftar Tata Letak di DWG Menggunakan Aspose.CAD untuk Java
+
 ## Perkenalan
 
 Selamat datang di panduan langkah demi langkah kami tentang penggunaan Aspose.CAD untuk Java untuk membuat daftar tata letak dalam file DWG. Aspose.CAD adalah perpustakaan canggih yang memungkinkan pengembang bekerja dengan file CAD secara terprogram. Dalam tutorial ini, kita akan fokus pada tugas tertentu: membuat daftar tata letak dalam file DWG. Di akhir panduan ini, Anda akan dapat mengintegrasikan fungsi ini dengan lancar ke dalam aplikasi Java Anda.
@@ -86,3 +92,9 @@ A1: Ya, Aspose.CAD mendukung berbagai format CAD, termasuk DWG, DXF, DWF, dan ba
 ### Q5: Dapatkah saya menggunakan lisensi sementara untuk tujuan pengujian?
 
  A5: Ya, Anda bisa mendapatkan lisensi sementara[Di Sini](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

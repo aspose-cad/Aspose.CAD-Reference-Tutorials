@@ -3,10 +3,16 @@ title: Eksportuj układy CAD do formatu PDF za pomocą Aspose.CAD dla Java
 linktitle: Eksportuj układy CAD do formatu PDF
 second_title: Aspose.CAD API Java
 description: Przeglądaj Aspose.CAD dla Java, aby bez wysiłku eksportować układy CAD do formatu PDF. Wydajny, niezawodny i przyjazny dla programistów.
-type: docs
 weight: 11
 url: /pl/java/cad-export-options/export-cad-layouts-to-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Eksportuj układy CAD do formatu PDF za pomocą Aspose.CAD dla Java
+
 ## Wstęp
 
 W stale rozwijającej się dziedzinie projektowania wspomaganego komputerowo (CAD), Aspose.CAD dla Java wyróżnia się jako potężne narzędzie do manipulowania i konwertowania plików CAD. W tym samouczku przeprowadzimy Cię przez proces eksportowania układów CAD do formatu PDF przy użyciu Aspose.CAD dla Java. Niezależnie od tego, czy jesteś doświadczonym programistą, czy po prostu nurkujesz w świecie CAD, ten przewodnik krok po kroku pomoże Ci wykorzystać pełny potencjał tej wszechstronnej biblioteki Java.
@@ -107,3 +113,9 @@ O4: Automatyczne skalowanie układu dostosowuje rozmiar układu na podstawie okr
 ### P5: Czy mogę dostosować wygląd eksportowanych plików PDF?
 
 O5: Tak, możesz dostosować opcje graficzne w kodzie, aby kontrolować jakość i wygląd eksportowanego pliku PDF.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

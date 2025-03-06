@@ -3,10 +3,16 @@ title: Habilitación del seguimiento en archivos CAD - Tutorial de Aspose.CAD
 linktitle: Habilitar el seguimiento en archivos CAD
 second_title: Aspose.CAD .NET - Formato de archivo CAD y BIM
 description: Domine el seguimiento de archivos CAD con Aspose.CAD para .NET. Siga nuestra guía paso a paso para una representación precisa y un seguimiento de errores. ¡Descargar ahora!
-type: docs
 weight: 10
 url: /es/net/tracking-and-rendering/enabling-tracking-in-cad-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Habilitación del seguimiento en archivos CAD - Tutorial de Aspose.CAD
+
 ## Introducción
 
 En el ámbito del CAD (diseño asistido por computadora), la precisión y el seguimiento son primordiales. Aspose.CAD para .NET proporciona una solución sólida para permitir el seguimiento en archivos CAD. Este tutorial lo guiará a través del proceso, asegurándose de que aproveche todo el potencial de esta función.
@@ -103,3 +109,9 @@ R3: Pueden surgir problemas como fuentes faltantes o entidades no compatibles. C
 ### P5: ¿Puedo personalizar los mensajes de error de seguimiento?
 
 R5: Absolutamente. Puede modificar el código para adaptar los mensajes de error a sus necesidades.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

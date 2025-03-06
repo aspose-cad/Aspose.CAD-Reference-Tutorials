@@ -3,10 +3,16 @@ title: Đọc tập tin DWT
 linktitle: Đọc tập tin DWT
 second_title: API Java Aspose.CAD
 description: Đọc thành thạo các tệp DWT trong Java với Aspose.CAD. Hãy làm theo hướng dẫn từng bước của chúng tôi để tích hợp liền mạch.
-type: docs
 weight: 14
 url: /vi/java/advanced-cad-features/reading-dwt-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Đọc tập tin DWT
+
 ## Giới thiệu
 
 Trong lĩnh vực phát triển Java năng động, Aspose.CAD là một công cụ mạnh mẽ, cho phép thao tác liền mạch các tệp Thiết kế hỗ trợ máy tính (CAD). Cụ thể, hướng dẫn này sẽ hướng dẫn bạn quy trình đọc tệp DWT bằng Aspose.CAD cho Java. Cuối cùng, bạn sẽ hiểu toàn diện về các bước liên quan, giúp bạn dễ dàng tích hợp chức năng này vào các dự án của mình.
@@ -95,3 +101,9 @@ Câu trả lời 1: Có, Aspose.CAD cho Java được thiết kế để tương
 ### Câu hỏi 5: Làm cách nào để mua Aspose.CAD cho Java?
 
  A5: Để mua phiên bản đầy đủ, hãy truy cập[liên kết mua hàng](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

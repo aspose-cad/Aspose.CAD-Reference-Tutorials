@@ -3,10 +3,16 @@ title: تصدير تخطيط DWG محدد إلى PDF باستخدام Aspose.CAD
 linktitle: تصدير تخطيط DWG محدد إلى PDF
 second_title: Aspose.CAD جافا API
 description: استكشف الدليل التفصيلي خطوة بخطوة لتصدير تخطيطات DWG محددة إلى PDF باستخدام Aspose.CAD لـ Java. قم بتحسين سير عمل CAD الخاص بك دون عناء.
-type: docs
 weight: 14
 url: /ar/java/cad-drawing-conversion/export-specific-dwg-layout-to-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تصدير تخطيط DWG محدد إلى PDF باستخدام Aspose.CAD لـ Java
+
 ## مقدمة
 
 في العالم الديناميكي للتصميم بمساعدة الكمبيوتر (CAD)، يظهر Aspose.CAD for Java كأداة قوية لمعالجة وتحويل رسومات DWG. في هذا البرنامج التعليمي، سنستكشف سيناريو محددًا: تصدير تخطيط DWG معين إلى ملف PDF. تضمن هذه العملية الدقة والمرونة في مشاريع CAD الخاصة بك.
@@ -100,3 +106,9 @@ Aspose.CAD for Java هي مكتبة مستقلة ولكن يمكن دمجها م
 ### س5: هل هناك نسخة تجريبية مجانية متاحة لـ Aspose.CAD؟
 
  نعم، يمكنك الوصول إلى النسخة التجريبية المجانية[هنا](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

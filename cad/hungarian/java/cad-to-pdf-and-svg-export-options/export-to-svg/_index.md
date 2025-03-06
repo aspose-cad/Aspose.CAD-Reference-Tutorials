@@ -3,10 +3,16 @@ title: Exportálás SVG-be az Aspose.CAD for Java használatával
 linktitle: Exportálás SVG-be
 second_title: Aspose.CAD Java API
 description: Használja ki az Aspose.CAD for Java-ban rejlő lehetőségeket a CAD-rajzok SVG-be exportálásáról szóló, lépésenkénti útmutatónkkal. Ismerje meg, hogyan importálhat névtereket, konfigurálhat beállításokat, és hogyan integrálhatja zökkenőmentesen az Aspose.CAD fájlt Java-projektjébe.
-type: docs
 weight: 12
 url: /hu/java/cad-to-pdf-and-svg-export-options/export-to-svg/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Exportálás SVG-be az Aspose.CAD for Java használatával
+
 ## Bevezetés
 
 Üdvözöljük az Aspose.CAD for Java világában, egy hatékony könyvtár, amely lehetővé teszi a fejlesztők számára a CAD-rajzok egyszerű kezelését. Akár tapasztalt fejlesztő, akár újonc a CAD birodalmában, ez az átfogó útmutató végigvezeti Önt a CAD-rajzok SVG formátumba történő exportálásán az Aspose.CAD for Java használatával.
@@ -103,3 +109,9 @@ A2: Abszolút! Az Aspose.CAD felhasználóbarát API-t kínál, amely elérhető
 ### 5. kérdés: Hogyan vásárolhatok licencet az Aspose.CAD for Java számára?
 
  V5: Licenc vásárolható a[vásárlási oldal](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

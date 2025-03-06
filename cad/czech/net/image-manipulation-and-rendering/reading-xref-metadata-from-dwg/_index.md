@@ -3,10 +3,16 @@ title: Čtení metadat XREF ze souborů DWG – výukový program Aspose.CAD
 linktitle: Čtení metadat XREF ze souborů DWG
 second_title: Aspose.CAD .NET – formát souborů CAD a BIM
 description: Odemkněte potenciál Aspose.CAD pro .NET pomocí našeho podrobného návodu na čtení metadat XREF ze souborů DWG.
-type: docs
 weight: 16
 url: /cs/net/image-manipulation-and-rendering/reading-xref-metadata-from-dwg/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Čtení metadat XREF ze souborů DWG – výukový program Aspose.CAD
+
 ## Úvod
 
 Jste připraveni vylepšit své možnosti manipulace se soubory CAD pomocí Aspose.CAD for .NET? V tomto podrobném průvodci se ponoříme do konkrétního aspektu této výkonné knihovny – čtení metadat XREF ze souborů DWG. Ať už jste zkušený vývojář nebo teprve začínáte svou cestu kódování, tento tutoriál rozdělí proces do snadno stravitelných kroků.
@@ -107,3 +113,9 @@ Odpověď 1: Ano, Aspose.CAD for .NET podporuje širokou škálu formátů CAD, 
 ### Q5: Potřebujete pomoc nebo máte konkrétní dotazy?
 
  A5: Připojte se ke komunitě Aspose.CAD na[Fórum Aspose.CAD](https://forum.aspose.com/c/cad/19) za odbornou podporu a diskusi.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

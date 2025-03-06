@@ -3,10 +3,16 @@ title: 在 Aspose.CAD for .NET 中将 CAD 布局导出为光栅图像格式
 linktitle: 将 CAD 布局导出为光栅图像格式
 second_title: Aspose.CAD .NET - CAD 和 BIM 文件格式
 description: 了解如何使用 Aspose.CAD for .NET 将 CAD 布局导出为光栅图像。请按照我们的分步指南进行无缝转换。
-type: docs
 weight: 10
 url: /zh/net/cad-export-formats/export-cad-layouts-to-raster-image-formats/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.CAD for .NET 中将 CAD 布局导出为光栅图像格式
+
 ## 介绍
 
 您是否希望使用 Aspose.CAD for .NET 高效地将 CAD 布局转换为光栅图像格式？本分步指南将引导您完成整个过程，提供详细的说明和代码片段，使任务顺利进行。无论您是经验丰富的开发人员还是 Aspose.CAD 新手，本教程都适合各个级别的专业知识。
@@ -112,3 +118,9 @@ A3：访问Aspose.CAD[论坛](https://forum.aspose.com/c/cad/19)以获得社区�
 ### Q5：在哪里可以找到文档？
 
  A5：参考详细文档[这里](https://reference.aspose.com/cad/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

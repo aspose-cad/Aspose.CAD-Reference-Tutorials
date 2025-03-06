@@ -3,10 +3,16 @@ title: Suporte de malha em Aspose.CAD para .NET
 linktitle: Suporte de malha
 second_title: Aspose.CAD .NET - Formato de arquivo CAD e BIM
 description: Explore o suporte de malha no Aspose.CAD for .NET com nosso tutorial passo a passo. Converta arquivos CAD em PDF sem esforço.
-type: docs
 weight: 11
 url: /pt/net/cad-features-and-support/mesh-support/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Suporte de malha em Aspose.CAD para .NET
+
 ## Introdução
 
 Bem-vindo ao nosso tutorial detalhado sobre como aproveitar o suporte de malha no Aspose.CAD for .NET! Aspose.CAD é uma biblioteca poderosa que fornece funcionalidade robusta para trabalhar com arquivos Computer-Aided Design (CAD) em aplicativos .NET. Neste tutorial, focaremos especificamente na utilização do recurso de suporte de malha para aprimorar seus recursos de processamento de arquivos CAD.
@@ -100,3 +106,9 @@ R2: Embora uma licença seja recomendada para uso em produção, você pode expl
 ### Q5: Onde posso baixar a versão mais recente do Aspose.CAD for .NET?
 
  A5: Baixe a biblioteca do[página de lançamento](https://releases.aspose.com/cad/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

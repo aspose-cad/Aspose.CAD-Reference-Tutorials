@@ -3,10 +3,16 @@ title: Fitur tambahan
 linktitle: Fitur tambahan
 second_title: Aspose.CAD Java API
 description: Buka potensi Aspose.CAD di Java dengan tutorial kami. Tambahkan properti khusus, dekomposisi objek sisipan CAD, aktifkan pelacakan, dan ekspor gambar DXF dengan lancar. Tingkatkan alur kerja CAD Anda dengan mudah.
-type: docs
 weight: 29
 url: /id/java/additional-features/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Fitur tambahan
+
 
 
 ## Perkenalan
@@ -60,3 +66,9 @@ Pelajari cara menyimpan file DXF di Java menggunakan Aspose.CAD. Ikuti panduan l
 ## Kesimpulan
 
 Tutorial ini mencakup serangkaian fitur tambahan di Aspose.CAD untuk Java, menawarkan wawasan dan keterampilan berharga untuk mengoptimalkan alur kerja CAD Anda. Baik Anda meningkatkan pengorganisasian, menguasai teknik dekomposisi, mengaktifkan pelacakan, atau menjelajahi berbagai opsi ekspor, tutorial ini memberikan pengetahuan yang Anda perlukan. Tingkatkan keterampilan CAD Anda hari ini dengan Aspose.CAD untuk Java.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

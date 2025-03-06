@@ -3,10 +3,16 @@ title: 使用 Aspose.CAD for Java 將 STL 匯出為 PNG
 linktitle: 將 STL 導出為 PNG
 second_title: Aspose.CAD Java API
 description: 探索使用 Aspose.CAD 在 Java 中將 STL 檔案匯出為 PNG 的無縫過程。簡化您的工作流程並輕鬆增強您的 Java 專案。
-type: docs
 weight: 20
 url: /zh-hant/java/cad-export-options/export-stl-to-png/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.CAD for Java 將 STL 匯出為 PNG
+
 ## 介紹
 
 您是否希望使用 Java 將 STL 檔案匯出為 PNG？ Aspose.CAD for Java 是您需要的解決方案！在本教程中，我們將逐步指導您完成流程。作為一名熟練的 SEO 作家，我將確保內容不僅內容豐富，而且針對搜尋引擎進行了優化。
@@ -112,3 +118,9 @@ A1：Aspose.CAD for Java支援各種STL檔案版本，確保與大多數常見�
 ### Q5：有完整的文檔嗎？
 
  A5：是的，可以找到文檔[這裡](https://reference.aspose.com/cad/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Mengekspor Gambar CAD ke PDF - Tutorial Aspose.CAD
 linktitle: Mengekspor Gambar CAD ke PDF
 second_title: Aspose.CAD .NET - Format File CAD dan BIM
 description: Ekspor gambar CAD ke PDF secara lancar dengan Aspose.CAD untuk .NET. Ikuti panduan langkah demi langkah kami untuk konversi yang efisien.
-type: docs
 weight: 14
 url: /id/net/advanced-export-techniques/exporting-cad-drawings-to-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Mengekspor Gambar CAD ke PDF - Tutorial Aspose.CAD
+
 ## Perkenalan
 
 Dalam dunia desain berbantuan komputer (CAD) yang terus berkembang, kebutuhan untuk mengekspor gambar rumit ke berbagai format adalah hal yang sangat penting. Aspose.CAD untuk .NET hadir untuk menyelamatkan, menyediakan seperangkat alat canggih untuk mengonversi gambar CAD ke PDF dengan lancar. Dalam tutorial ini, kita akan mempelajari proses mengekspor gambar CAD ke PDF menggunakan Aspose.CAD untuk .NET, menguraikan setiap langkah untuk memastikan pengalaman belajar yang lancar dan komprehensif.
@@ -110,3 +116,9 @@ A2: Aspose.CAD untuk .NET dirancang untuk menangani gambar dengan berbagai ukura
 ### Q5: Di mana saya bisa mencari bantuan jika saya menemui masalah selama proses tersebut?
 
 A5: Kunjungi[Forum Aspose.CAD](https://forum.aspose.com/c/cad/19) untuk dukungan khusus dan kolaborasi komunitas.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

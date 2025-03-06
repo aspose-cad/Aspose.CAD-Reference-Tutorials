@@ -3,10 +3,16 @@ title: Activation du suivi dans les fichiers CAO - Tutoriel Aspose.CAD
 linktitle: Activation du suivi dans les fichiers CAO
 second_title: Aspose.CAD .NET - Format de fichier CAO et BIM
 description: Maîtrisez le suivi des fichiers CAO avec Aspose.CAD pour .NET. Suivez notre guide étape par étape pour un rendu précis et un suivi des erreurs. Télécharger maintenant!
-type: docs
 weight: 10
 url: /fr/net/tracking-and-rendering/enabling-tracking-in-cad-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Activation du suivi dans les fichiers CAO - Tutoriel Aspose.CAD
+
 ## Introduction
 
 Dans le domaine de la CAO (Conception Assistée par Ordinateur), la précision et le suivi sont primordiaux. Aspose.CAD pour .NET fournit une solution robuste pour permettre le suivi dans les fichiers CAO. Ce didacticiel vous guidera tout au long du processus, vous assurant d'exploiter tout le potentiel de cette fonctionnalité.
@@ -103,3 +109,9 @@ A3 : Des problèmes tels que des polices manquantes ou des entités non prises e
 ### Q5 : Puis-je personnaliser les messages d'erreur de suivi ?
 
 A5 : Absolument. Vous pouvez modifier le code pour adapter les messages d'erreur en fonction de vos besoins.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

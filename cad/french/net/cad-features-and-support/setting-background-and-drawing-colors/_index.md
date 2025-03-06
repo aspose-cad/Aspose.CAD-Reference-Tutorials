@@ -3,10 +3,16 @@ title: Définition des couleurs d'arrière-plan et de dessin dans Aspose.CAD pou
 linktitle: Définition des couleurs d'arrière-plan et de dessin
 second_title: Aspose.CAD .NET - Format de fichier CAO et BIM
 description: Maîtrisez Aspose.CAD pour .NET. Définissez les couleurs d’arrière-plan et de dessin sans effort. Suivez notre guide étape par étape.
-type: docs
 weight: 15
 url: /fr/net/cad-features-and-support/setting-background-and-drawing-colors/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Définition des couleurs d'arrière-plan et de dessin dans Aspose.CAD pour .NET
+
 ## Introduction
 
 Dans le monde dynamique du développement .NET, Aspose.CAD apparaît comme un outil puissant pour gérer les fichiers de conception assistée par ordinateur (CAO). Si vous souhaitez améliorer vos compétences dans la manipulation des dessins CAO, ce didacticiel est votre passerelle. Nous approfondirons les subtilités de la définition des couleurs d'arrière-plan et de dessin à l'aide d'Aspose.CAD pour .NET, en vous fournissant un guide étape par étape qui garantit clarté et efficacité.
@@ -108,3 +114,10 @@ A1 : Oui, Aspose.CAD prend en charge divers formats de CAO, notamment DWG, DXF e
 ### Q5 : Besoin d'aide ou souhaitez-vous vous connecter avec la communauté ?
 
  A5 : Visitez le forum d'assistance[ici](https://forum.aspose.com/c/cad/19).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

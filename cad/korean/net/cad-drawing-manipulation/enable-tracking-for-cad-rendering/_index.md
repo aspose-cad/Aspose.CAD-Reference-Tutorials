@@ -3,10 +3,16 @@ title: .NET용 Aspose.CAD에서 CAD 렌더링 추적 활성화
 linktitle: CAD 렌더링에 대한 추적 활성화
 second_title: Aspose.CAD .NET - CAD 및 BIM 파일 형식
 description: .NET용 Aspose.CAD의 강력한 기능을 알아보세요. CAD 렌더링에 대한 추적을 원활하게 활성화합니다. 향상된 제어 및 효율성을 위한 단계별 가이드를 따르세요.
-type: docs
 weight: 13
 url: /ko/net/cad-drawing-manipulation/enable-tracking-for-cad-rendering/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# .NET용 Aspose.CAD에서 CAD 렌더링 추적 활성화
+
 ## 소개
 
 역동적인 소프트웨어 개발 세계에서 .NET용 Aspose.CAD는 CAD(Computer-Aided Design) 렌더링을 위한 강력한 솔루션으로 돋보입니다. 이 강력한 라이브러리를 통해 개발자는 .NET 환경에서 원활하게 CAD 파일을 생성, 조작 및 렌더링할 수 있습니다. 이 튜토리얼에서는 CAD 렌더링 추적을 활성화하는 .NET용 Aspose.CAD의 중요한 측면을 자세히 살펴보겠습니다.
@@ -110,3 +116,9 @@ A2: 물론이죠! Aspose.CAD for .NET은 다양한 .NET 프레임워크와 원�
 ### Q5: CAD 렌더링에서 추적을 활성화하면 어떤 이점이 있습니까?
 
 A5: 추적을 활성화하면 렌더링 프로세스 중 추적성과 제어가 향상되어 보다 투명하고 효율적인 작업 흐름이 보장됩니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

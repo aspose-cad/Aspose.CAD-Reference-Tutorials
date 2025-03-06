@@ -3,10 +3,16 @@ title: Java용 Aspose.CAD를 사용하여 DWG를 PDF 또는 래스터로 내보�
 linktitle: DWG를 PDF 또는 래스터로 내보내기
 second_title: Aspose.CAD 자바 API
 description: Aspose.CAD를 사용하여 DWG 파일을 PDF 또는 Java의 래스터 이미지로 내보내는 원활한 프로세스를 살펴보세요. 이 단계별 가이드는 정확성과 효율성을 보장합니다.
-type: docs
 weight: 13
 url: /ko/java/cad-drawing-conversion/export-dwg-to-pdf-or-raster/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java용 Aspose.CAD를 사용하여 DWG를 PDF 또는 래스터로 내보내기
+
 ## 소개
 
 CAD(컴퓨터 지원 설계)의 역동적인 세계에서는 도면을 효율적으로 처리하는 것이 중요합니다. Aspose.CAD for Java는 DWG 파일을 PDF 또는 래스터 이미지로 내보내기 위한 강력한 솔루션을 제공합니다. 이 튜토리얼은 프로세스를 안내하여 Java용 Aspose.CAD의 잠재력을 최대한 활용하도록 보장합니다.
@@ -116,3 +122,9 @@ A1: 예, Aspose.CAD for Java는 널리 사용되는 Java 프레임워크와 완�
 ### Q5: Aspose.CAD for Java는 어떤 단위를 지원합니까?
 
 A5: Java용 Aspose.CAD는 미터법과 영국식 단위를 모두 지원합니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

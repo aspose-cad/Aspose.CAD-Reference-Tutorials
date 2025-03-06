@@ -3,10 +3,16 @@ title: DWG 파일에 사용자 정의 속성 추가 - Aspose.CAD 가이드
 linktitle: DWG 파일에 사용자 정의 속성 추가
 second_title: Aspose.CAD .NET - CAD 및 BIM 파일 형식
 description: .NET용 Aspose.CAD를 사용하여 사용자 정의 속성으로 DWG 파일을 향상하세요. 단계별 가이드에 따라 의미 있는 메타데이터를 쉽게 추가하세요.
-type: docs
 weight: 11
 url: /ko/net/attribute-and-property-management/adding-custom-properties-to-dwg/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# DWG 파일에 사용자 정의 속성 추가 - Aspose.CAD 가이드
+
 ## 소개
 
 .NET용 Aspose.CAD를 사용하여 DWG 파일에 사용자 정의 속성을 추가하는 방법에 대한 포괄적인 가이드에 오신 것을 환영합니다. Aspose.CAD는 개발자가 CAD 파일을 원활하게 사용할 수 있게 해주는 강력한 라이브러리입니다. 이 튜토리얼에서는 사용자 정의 속성에 대한 이해를 높이고 Aspose.CAD를 사용하여 DWG 파일에 추가하는 방법에 중점을 둘 것입니다.
@@ -92,3 +98,9 @@ A2: 엄격한 제한은 없지만 많은 수의 사용자 정의 속성을 추�
 ### Q5: 문제가 발생하면 Aspose.CAD가 지원을 제공합니까?
 
  답변 5: 예, 다음과 같은 방법으로 도움을 요청할 수 있습니다.[Aspose.CAD 포럼](https://forum.aspose.com/c/cad/19) 기술적 문의사항이나 문제가 있는 경우
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

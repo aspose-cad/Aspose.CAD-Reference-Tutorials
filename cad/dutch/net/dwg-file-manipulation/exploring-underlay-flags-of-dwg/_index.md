@@ -3,10 +3,16 @@ title: Underlay-vlaggen van DWG-bestanden verkennen - Aspose.CAD-zelfstudie
 linktitle: Underlay-vlaggen van DWG-bestanden verkennen
 second_title: Aspose.CAD .NET - CAD- en BIM-bestandsindeling
 description: Ontgrendel de kracht van Aspose.CAD voor .NET bij het verkennen van underlay-vlaggen voor DWG-bestanden. Volg onze stapsgewijze handleiding.
-type: docs
 weight: 13
 url: /nl/net/dwg-file-manipulation/exploring-underlay-flags-of-dwg/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Underlay-vlaggen van DWG-bestanden verkennen - Aspose.CAD-zelfstudie
+
 ## Invoering
 
 Als u zich verdiept in de ingewikkelde wereld van CAD-bestanden, met name DWG-bestanden, en u de mysteries van onderlegvlaggen wilt ontrafelen, bent u hier op de juiste plek. Deze tutorial begeleidt u bij het verkennen van underlay-vlaggen in DWG-bestanden met behulp van de krachtige Aspose.CAD voor .NET-bibliotheek.
@@ -114,3 +120,10 @@ A4: Koop de bibliotheek[hier](https://purchase.aspose.com/buy).
 ### Vraag 5: Is er een gratis proefversie beschikbaar?
 
  A5: Ja, u heeft toegang tot de gratis proefperiode[hier](https://releases.aspose.com/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

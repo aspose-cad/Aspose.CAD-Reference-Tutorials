@@ -3,10 +3,16 @@ title: Trích xuất giá trị thuộc tính khối từ tham chiếu bên ngo�
 linktitle: Trích xuất giá trị thuộc tính khối từ tham chiếu bên ngoài
 second_title: API Java Aspose.CAD
 description: Khám phá hướng dẫn của chúng tôi về cách trích xuất các giá trị thuộc tính khối từ các tham chiếu bên ngoài DWG trong Java bằng Aspose.CAD. Nâng cao quy trình phát triển CAD của bạn một cách dễ dàng.
-type: docs
 weight: 19
 url: /vi/java/advanced-cad-features/extract-block-attribute-value/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Trích xuất giá trị thuộc tính khối từ tham chiếu bên ngoài bằng Aspose.CAD trong Java
+
 ## Giới thiệu
 
 Chào mừng bạn đến với hướng dẫn toàn diện của chúng tôi về cách trích xuất các giá trị thuộc tính khối từ các tham chiếu bên ngoài trong Java bằng Aspose.CAD. Nếu bạn là nhà phát triển làm việc với các bản vẽ CAD và đang tìm cách hợp lý hóa quy trình làm việc của mình thì bạn đã đến đúng nơi. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn từng bước thực hiện quy trình, tận dụng các tính năng mạnh mẽ của Aspose.CAD cho Java.
@@ -89,3 +95,9 @@ Trả lời 1: Aspose.CAD hỗ trợ nhiều phiên bản khác nhau của tệp
 ### Câu hỏi 5: Quy trình xin giấy phép tạm thời cho Aspose.CAD là gì?
 
  A5: Để có được giấy phép tạm thời, vui lòng truy cập[liên kết này](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

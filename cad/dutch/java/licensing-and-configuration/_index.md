@@ -3,10 +3,16 @@ title: Licenties en configuratie
 linktitle: Licenties en configuratie
 second_title: Aspose.CAD Java-API
 description: Ontgrendel de kracht van Aspose.CAD voor Java met onze gemeten licentie-tutorial. Optimaliseer de CAD-verwerking efficiënt en kosteneffectief voor verbeterde productiviteit.
-type: docs
 weight: 25
 url: /nl/java/licensing-and-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Licenties en configuratie
+
 ## Invoering
 
 Door deel te nemen aan de reis naar het beheersen van gemeten licenties in Aspose.CAD voor Java, worden deuren geopend naar ongeëvenaarde efficiëntie en kosteneffectiviteit in CAD-verwerking. In deze uitgebreide gids duiken we in de fijne kneepjes, zodat u uw workflow naadloos kunt optimaliseren.
@@ -25,3 +31,9 @@ Kortom, gemeten licenties in Aspose.CAD voor Java gaan niet alleen over het begr
 ## Licentie- en configuratie-tutorials
 ### [Gemeten licenties in Aspose.CAD](./metered-licensing-in-aspose-cad/)
 Leer hoe u met behulp van deze uitgebreide handleiding beheerde licentieverlening in Aspose.CAD voor Java onder de knie krijgt. Optimaliseer uw CAD-verwerking voor efficiëntie en kosteneffectiviteit.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

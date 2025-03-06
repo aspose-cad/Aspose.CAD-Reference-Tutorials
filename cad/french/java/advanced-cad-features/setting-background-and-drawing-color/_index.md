@@ -3,10 +3,16 @@ title: Définition de la couleur d'arrière-plan et de dessin à l'aide d'Aspose
 linktitle: Définition de la couleur de l'arrière-plan et du dessin
 second_title: API Java Aspose.CAD
 description: Convertissez sans effort des fichiers CAO en PDF et TIFF à l'aide d'Aspose.CAD pour Java. Définissez des couleurs d’arrière-plan et de dessin personnalisées pour des résultats visuellement époustouflants.
-type: docs
 weight: 15
 url: /fr/java/advanced-cad-features/setting-background-and-drawing-color/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Définition de la couleur d'arrière-plan et de dessin à l'aide d'Aspose.CAD pour Java
+
 ## Introduction
 
 Dans le monde dynamique de la conception assistée par ordinateur (CAO), une conversion efficace des fichiers est cruciale pour une collaboration et une communication transparentes. Aspose.CAD pour Java apparaît comme un outil puissant, offrant des capacités robustes pour convertir des fichiers CAO aux formats PDF et TIFF. Dans ce didacticiel, nous aborderons le processus de définition de la couleur d'arrière-plan et de dessin à l'aide d'Aspose.CAD pour Java, en vous fournissant un guide étape par étape pour des résultats optimaux.
@@ -98,3 +104,10 @@ A2 : Oui, le didacticiel montre comment définir des couleurs d'arrière-plan pe
 ### Q5 : Comment puis-je obtenir une assistance pour Aspose.CAD pour Java ?
 
 A5 : Visitez le[Forum Aspose.CAD](https://forum.aspose.com/c/cad/19) demander de l’aide et s’engager auprès de la communauté.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Thay thế Phông chữ của một Kiểu Cụ thể trong DWG bằng As
 linktitle: Thay thế phông chữ của một kiểu cụ thể trong DWG
 second_title: API Java Aspose.CAD
 description: Tìm hiểu cách thay thế phông chữ trong tệp DWG bằng Aspose.CAD cho Java. Hướng dẫn từng bước để tùy chỉnh kiểu một cách chính xác.
-type: docs
 weight: 12
 url: /vi/java/cad-text-and-annotation/substitute-font-of-particular-style-in-dwg/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Thay thế Phông chữ của một Kiểu Cụ thể trong DWG bằng Aspose.CAD cho Java
+
 ## Giới thiệu
 
 Trong thế giới CAD (Thiết kế hỗ trợ máy tính), độ chính xác và chi tiết là điều tối quan trọng. Aspose.CAD cho Java nổi lên như một công cụ mạnh mẽ để thao tác các bản vẽ CAD, cung cấp các chức năng mở rộng cho các nhà phát triển. Một tính năng thiết yếu như vậy là khả năng thay thế phông chữ trong tệp DWG, đảm bảo tính nhất quán và tùy chỉnh.
@@ -92,3 +98,9 @@ Câu trả lời 4: Mặc dù ví dụ này tập trung vào DWG nhưng các ngu
 ### Câu hỏi 5: Làm cách nào tôi có thể nhận được hỗ trợ cho Aspose.CAD cho Java?
 
 A5: Tham quan[Diễn đàn Aspose.CAD](https://forum.aspose.com/c/cad/19) để được cộng đồng hỗ trợ và thảo luận.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

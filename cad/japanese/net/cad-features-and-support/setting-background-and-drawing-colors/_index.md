@@ -3,10 +3,16 @@ title: Aspose.CAD for .NET での背景と描画色の設定
 linktitle: 背景と描画色の設定
 second_title: Aspose.CAD .NET - CAD および BIM ファイル形式
 description: Aspose.CAD for .NET をマスターします。背景と描画色を簡単に設定できます。ステップバイステップのガイドに従ってください。
-type: docs
 weight: 15
 url: /ja/net/cad-features-and-support/setting-background-and-drawing-colors/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.CAD for .NET での背景と描画色の設定
+
 ## 導入
 
 .NET 開発の動的な世界では、Aspose.CAD がコンピュータ支援設計 (CAD) ファイルを処理するための強力なツールとして登場します。 CAD 図面の操作スキルを向上させたい場合は、このチュートリアルが入り口となります。 Aspose.CAD for .NET を使用した背景の設定と描画色の複雑さを詳しく掘り下げ、明確さと有効性を保証するステップバイステップのガイドを提供します。
@@ -108,3 +114,10 @@ A1: はい、Aspose.CAD は、DWG、DXF、DGN などのさまざまな CAD 形�
 ### Q5: サポートが必要ですか、それともコミュニティとつながりたいですか?
 
  A5: サポート フォーラムにアクセスしてください。[ここ](https://forum.aspose.com/c/cad/19).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

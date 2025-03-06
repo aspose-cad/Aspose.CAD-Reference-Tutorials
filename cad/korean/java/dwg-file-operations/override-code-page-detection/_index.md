@@ -3,10 +3,16 @@ title: Java를 사용하여 DWG 파일의 자동 코드 페이지 감지 재정�
 linktitle: DWG 파일의 자동 코드 페이지 감지 무시
 second_title: Aspose.CAD 자바 API
 description: Java용 Aspose.CAD를 사용하여 DWG 파일의 코드 페이지 감지를 재정의하는 방법을 알아보세요. 인코딩을 효율적으로 처리하고 잘못된 CIF/MIF를 복구합니다.
-type: docs
 weight: 13
 url: /ko/java/dwg-file-operations/override-code-page-detection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java를 사용하여 DWG 파일의 자동 코드 페이지 감지 재정의
+
 ## 소개
 
 Java용 Aspose.CAD를 사용하여 DWG 파일에서 자동 코드 페이지 감지를 재정의하는 방법에 대한 포괄적인 가이드에 오신 것을 환영합니다. Aspose.CAD는 Java 개발자가 CAD 파일 형식으로 작업할 수 있도록 지원하는 강력한 라이브러리로, CAD 파일을 조작, 변환 및 내보내기 위한 광범위한 기능을 제공합니다.
@@ -101,3 +107,9 @@ A3: 무료 평가판에는 몇 가지 제한 사항이 있으므로 자세한 �
 ### Q5: 테스트 목적으로 사용할 수 있는 임시 라이센스가 있습니까?
 
  A5: 예, 임시 라이센스를 얻을 수 있습니다.[여기](https://purchase.aspose.com/temporary-license/) 시험용.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

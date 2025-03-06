@@ -3,10 +3,16 @@ title: Eleve a exportação de CAD com opções de caneta personalizadas no Aspo
 linktitle: Suporte para caneta na exportação
 second_title: Aspose.CAD .NET - Formato de arquivo CAD e BIM
 description: Aprenda como aprimorar suas exportações de imagens CAD usando Aspose.CAD for .NET. Personalize as opções de caneta para obter visuais impressionantes em PDF, PNG, BMP e muito mais.
-type: docs
 weight: 12
 url: /pt/net/cad-features-and-support/pen-support-in-export/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Eleve a exportação de CAD com opções de caneta personalizadas no Aspose.CAD para .NET
+
 ## Introdução
 
 Aspose.CAD for .NET fornece um poderoso conjunto de ferramentas para trabalhar com arquivos Computer-Aided Design (CAD), permitindo que os desenvolvedores manipulem e exportem imagens CAD perfeitamente. Um recurso notável é o suporte à caneta durante a exportação, permitindo aos usuários personalizar as configurações de início e final das canetas ao exportar imagens CAD para vários formatos como PDF, PNG, BMP, GIF, JPEG2000, JPEG, PSD, TIFF e WMF.
@@ -119,3 +125,9 @@ R1: Sim, as opções de caneta podem ser aplicadas a vários formatos de imagem,
 ### Q5: Onde posso buscar suporte da comunidade para Aspose.CAD for .NET?
 
  A5: Envolva-se com a comunidade no[Fórum Aspose.CAD](https://forum.aspose.com/c/cad/19).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

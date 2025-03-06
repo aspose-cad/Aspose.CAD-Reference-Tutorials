@@ -3,10 +3,16 @@ title: AutoCAD 이미지를 PDF로 내보내기 - Java 튜토리얼용 Aspose.CA
 linktitle: AutoCAD 이미지를 PDF로 내보내기
 second_title: Aspose.CAD 자바 API
 description: Java용 Aspose.CAD를 사용하여 AutoCAD 이미지를 PDF로 쉽게 내보낼 수 있습니다. 원활한 통합을 위한 단계별 가이드를 따르세요.
-type: docs
 weight: 10
 url: /ko/java/cad-export-options/export-autocad-images-to-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# AutoCAD 이미지를 PDF로 내보내기 - Java 튜토리얼용 Aspose.CAD
+
 ## 소개
 
 Java를 사용하여 AutoCAD 이미지를 PDF로 원활하게 변환하고 싶으십니까? 더 이상 보지 마세요! 이 튜토리얼에서는 복잡한 작업을 단순화하는 강력한 라이브러리인 Aspose.CAD for Java를 사용하는 프로세스를 안내합니다. 마지막에는 3D 이미지를 PDF로 쉽게 내보내는 방법을 이해하게 될 것입니다.
@@ -105,3 +111,9 @@ A4: 물론이죠! 래스터화 옵션에서 페이지 너비 및 높이 매개�
 ### Q5: Aspose.CAD for Java와 관련된 문제에 대해 도움을 구하거나 논의할 수 있는 곳은 어디입니까?
 
  A5: 다음으로 가세요.[Aspose.CAD 포럼](https://forum.aspose.com/c/cad/19) 전담 지원 및 토론을 위해.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

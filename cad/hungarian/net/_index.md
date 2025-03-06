@@ -1,12 +1,17 @@
 ---
 title: Átfogó oktatóanyagok és példák az Aspose.CAD-re .NET-hez
 linktitle: Aspose.CAD for .NET Tutorials
-type: docs
 weight: 10
 url: /hu/net/
 description: Master Aspose.CAD for .NET átfogó oktatóanyaggal. Növelje CAD-készségeit az engedélyezéstől a fejlett exporttechnikákig. Könnyedén feloldhatja a rejtett funkciókat.
-is_root: true
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Átfogó oktatóanyagok és példák az Aspose.CAD-re .NET-hez
+
 
 ## Bevezetés
 
@@ -61,3 +66,9 @@ Optimalizálja CAD-alkalmazásait az Aspose.CAD for .NET segítségével! Saját
 Könnyedén konvertálhat PLT-fájlokat képekké és PDF-fájlokká az Aspose.CAD for .NET segítségével. Fedezze fel a zökkenőmentes integrációt és a CAD-fájlkezelés rugalmas lehetőségeit.
 ### [STL fájl exportálása](./stl-file-export/)
 Könnyedén exportálhat STL fájlokat PNG formátumba az Aspose.CAD for .NET segítségével. Lépésről lépésre bemutatott útmutatónk biztosítja a zökkenőmentes integrációt. Tanuljon az Aspose.CAD For .NET oktatóanyagain keresztül.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Aspose.CAD for .NET'te Kanvas Boyutunu ve Modunu Ayarlama
 linktitle: Kanvas Boyutunu ve Modunu Ayarlama
 second_title: Aspose.CAD .NET - CAD ve BIM Dosya Formatı
 description: Aspose.CAD for .NET'te tuval boyutunu ve modunu ayarlamaya ilişkin adım adım kılavuzu keşfedin. Bu kapsamlı eğitimi kullanarak CAD oluşturma işleminizi kolaylıkla optimize edin.
-type: docs
 weight: 16
 url: /tr/net/cad-features-and-support/setting-canvas-size-and-mode/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.CAD for .NET'te Kanvas Boyutunu ve Modunu Ayarlama
+
 ## giriiş
 
 Aspose.CAD for .NET'in tüm potansiyelini ortaya çıkarmaya ve CAD işleme deneyiminizde devrim yaratmaya hazır mısınız? Bu adım adım eğitimde, güçlü Aspose.CAD kütüphanesini kullanarak tuval boyutunu ve modunu ayarlamanın inceliklerini inceleyeceğiz. İster deneyimli bir geliştirici olun ister yeni başlıyor olun, bu kılavuz süreç boyunca size yol gösterecek ve Aspose.CAD'in yeteneklerinden etkili bir şekilde yararlanmanızı sağlayacaktır.
@@ -119,3 +125,9 @@ Cevap1: Evet, Aspose.CAD diğer .NET kitaplıklarıyla sorunsuz bir şekilde bü
 ### S5: Aspose.CAD for .NET'i nasıl satın alabilirim?
 
  Cevap5: Aspose.CAD'i satın almak için şu adresi ziyaret edin:[satın alma sayfası](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

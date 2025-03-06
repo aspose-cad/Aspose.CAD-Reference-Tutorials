@@ -3,10 +3,16 @@ title: CAD 텍스트 및 주석
 linktitle: CAD 텍스트 및 주석
 second_title: Aspose.CAD 자바 API
 description: Java용 Aspose.CAD를 사용하여 DWG 도면을 손쉽게 향상하세요. DWG 파일에 글꼴을 추가하고 대체하는 방법을 마스터하세요. 시각적 완벽함을 위한 단계별 가이드입니다.
-type: docs
 weight: 21
 url: /ko/java/cad-text-and-annotation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# CAD 텍스트 및 주석
+
 
 ## 소개 
 
@@ -36,3 +42,9 @@ Java용 Aspose.CAD를 사용하여 DWG 도면을 손쉽게 향상하세요. 단�
 CAD 디자인을 손쉽게 향상시키세요. Java용 Aspose.CAD를 사용하여 DWG 파일의 글꼴을 대체하는 방법을 알아보세요. 시각적 완벽함을 위한 단계별 가이드입니다.
 ### [Java용 Aspose.CAD를 사용하여 DWG에서 특정 스타일의 글꼴 대체](./substitute-font-of-particular-style-in-dwg/)
 Java용 Aspose.CAD를 사용하여 DWG 파일의 글꼴을 대체하는 방법을 알아보세요. 정밀하게 스타일을 맞춤설정하기 위한 단계별 가이드입니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

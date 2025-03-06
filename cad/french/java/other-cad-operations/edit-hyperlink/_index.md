@@ -3,10 +3,16 @@ title: Modifier les hyperliens DWG - Tutoriel Java Aspose.CAD
 linktitle: Modifier le lien hypertexte
 second_title: API Java Aspose.CAD
 description: Améliorez la précision des dessins DWG avec Aspose.CAD pour Java. Modifiez les hyperliens de manière transparente, garantissant des références précises. Essayez l'essai gratuit maintenant !
-type: docs
 weight: 17
 url: /fr/java/other-cad-operations/edit-hyperlink/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Modifier les hyperliens DWG - Tutoriel Java Aspose.CAD
+
 À l'ère numérique d'aujourd'hui, une gestion efficace des dessins DWG est cruciale pour les professionnels de divers secteurs. Aspose.CAD pour Java fournit une solution puissante pour modifier les hyperliens dans les dessins DWG, garantissant une intégration et une personnalisation transparentes. Ce guide étape par étape vous guidera tout au long du processus de modification des hyperliens à l'aide d'Aspose.CAD pour Java.
 
 ## Introduction
@@ -99,3 +105,9 @@ A1 : Aspose.CAD pour Java prend en charge différentes versions de dessins DWG,
 ### Q5 : Puis-je obtenir une licence temporaire à des fins de test ?
 
  A5 : Oui, vous pouvez obtenir une licence temporaire[ici](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

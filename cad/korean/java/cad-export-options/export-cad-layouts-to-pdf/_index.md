@@ -3,10 +3,16 @@ title: Aspose.CAD for Java를 사용하여 CAD 레이아웃을 PDF로 내보내�
 linktitle: CAD 레이아웃을 PDF로 내보내기
 second_title: Aspose.CAD 자바 API
 description: CAD 레이아웃을 PDF로 쉽게 내보내려면 Java용 Aspose.CAD를 탐색하세요. 효율적이고 안정적이며 개발자 친화적입니다.
-type: docs
 weight: 11
 url: /ko/java/cad-export-options/export-cad-layouts-to-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.CAD for Java를 사용하여 CAD 레이아웃을 PDF로 내보내기
+
 ## 소개
 
 끊임없이 진화하는 CAD(컴퓨터 지원 설계) 분야에서 Java용 Aspose.CAD는 CAD 파일을 조작하고 변환하는 강력한 도구로 돋보입니다. 이 튜토리얼에서는 Aspose.CAD for Java를 사용하여 CAD 레이아웃을 PDF로 내보내는 과정을 안내합니다. 숙련된 개발자이거나 CAD 세계에 뛰어든 이 단계별 가이드는 이 다용도 Java 라이브러리의 잠재력을 최대한 활용하는 데 도움이 될 것입니다.
@@ -107,3 +113,9 @@ A4: 자동 레이아웃 크기 조정은 지정된 페이지 크기를 기준으
 ### Q5: 내보낸 PDF 파일의 모양을 사용자 정의할 수 있습니까?
 
 A5: 예, 코드의 그래픽 옵션을 사용자 정의하여 내보낸 PDF의 품질과 모양을 제어할 수 있습니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

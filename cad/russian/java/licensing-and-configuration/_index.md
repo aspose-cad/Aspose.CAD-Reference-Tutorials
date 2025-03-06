@@ -3,10 +3,16 @@ title: Лицензирование и настройка
 linktitle: Лицензирование и настройка
 second_title: API Aspose.CAD Java
 description: Раскройте возможности Aspose.CAD для Java с помощью нашего руководства по дозированному лицензированию. Эффективно и экономично оптимизируйте обработку САПР для повышения производительности.
-type: docs
 weight: 25
 url: /ru/java/licensing-and-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Лицензирование и настройка
+
 ## Введение
 
 Начало освоения лимитного лицензирования в Aspose.CAD для Java открывает двери к беспрецедентной эффективности и экономичности обработки САПР. В этом подробном руководстве мы углубимся в тонкости, что позволит вам легко оптимизировать рабочий процесс.
@@ -25,3 +31,9 @@ url: /ru/java/licensing-and-configuration/
 ## Учебные пособия по лицензированию и настройке
 ### [Лимитное лицензирование в Aspose.CAD](./metered-licensing-in-aspose-cad/)
 Узнайте, как освоить лимитное лицензирование в Aspose.CAD для Java, с помощью этого подробного руководства. Оптимизируйте обработку САПР для повышения эффективности и экономичности.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

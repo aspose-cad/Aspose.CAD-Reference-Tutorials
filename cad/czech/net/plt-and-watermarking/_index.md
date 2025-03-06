@@ -3,10 +3,16 @@ title: PLT a vodoznaky
 linktitle: PLT a vodoznaky
 second_title: Aspose.CAD .NET – formát souborů CAD a BIM
 description: Odemkněte potenciál formátu PLT s Aspose.CAD pro .NET. Bez námahy integrujte soubory PLT do svých aplikací pomocí našich výukových programů krok za krokem.
-type: docs
 weight: 37
 url: /cs/net/plt-and-watermarking/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# PLT a vodoznaky
+
 
 ## Úvod
 
@@ -46,3 +52,9 @@ Závěrem lze říci, že s Aspose.CAD for .NET máte na dosah zvládnutí podpo
 Objevte bezproblémovou podporu formátu PLT v Aspose.CAD pro .NET. Postupujte podle našeho podrobného průvodce pro snadnou integraci souborů PLT do aplikací .NET.
 ### [Přidání vodoznaků do výkresů CAD - Průvodce Aspose.CAD](./adding-watermarks-to-cad-drawings/)
 Vylepšete své CAD výkresy profesionálními vodoznaky pomocí Aspose.CAD for .NET. Postupujte podle našeho podrobného průvodce pro personalizované a poutavé návrhy.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

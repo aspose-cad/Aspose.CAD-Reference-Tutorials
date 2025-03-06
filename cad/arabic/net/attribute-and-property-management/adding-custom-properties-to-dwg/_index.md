@@ -3,10 +3,16 @@ title: إضافة خصائص مخصصة إلى ملفات DWG - دليل Aspose.
 linktitle: إضافة خصائص مخصصة إلى ملفات DWG
 second_title: Aspose.CAD .NET - تنسيق ملف CAD وBIM
 description: قم بتحسين ملفات DWG الخاصة بك بخصائص مخصصة باستخدام Aspose.CAD لـ .NET. اتبع دليلنا خطوة بخطوة لإضافة بيانات وصفية ذات معنى دون عناء.
-type: docs
 weight: 11
 url: /ar/net/attribute-and-property-management/adding-custom-properties-to-dwg/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إضافة خصائص مخصصة إلى ملفات DWG - دليل Aspose.CAD
+
 ## مقدمة
 
 مرحبًا بك في هذا الدليل الشامل حول إضافة خصائص مخصصة إلى ملفات DWG باستخدام Aspose.CAD لـ .NET. Aspose.CAD هي مكتبة قوية تمكن المطورين من العمل مع ملفات CAD بسلاسة. سنركز في هذا البرنامج التعليمي على تحسين فهمك للخصائص المخصصة وكيفية إضافتها إلى ملفات DWG باستخدام Aspose.CAD.
@@ -92,3 +98,9 @@ cadImage.Save(outFile);
 ### س5: هل يوفر Aspose.CAD الدعم إذا واجهت أية مشكلات؟
 
  ج5: نعم، يمكنك طلب المساعدة على[منتدى Aspose.CAD](https://forum.aspose.com/c/cad/19) لأية استفسارات أو مشاكل فنية.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

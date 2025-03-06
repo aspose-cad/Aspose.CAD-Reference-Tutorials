@@ -3,10 +3,16 @@ title: Sudut Pandang Gratis dalam Gambar CAD - Panduan Aspose.CAD
 linktitle: Sudut Pandang Gratis dalam Gambar CAD
 second_title: Aspose.CAD .NET - Format File CAD dan BIM
 description: Jelajahi kebebasan visualisasi CAD dengan Aspose.CAD untuk .NET. Ikuti panduan langkah demi langkah kami untuk mendapatkan sudut pandang unik.
-type: docs
 weight: 11
 url: /id/net/advanced-cad-techniques/free-point-of-view-in-cad-drawings/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Sudut Pandang Gratis dalam Gambar CAD - Panduan Aspose.CAD
+
 Dalam bidang Computer-Aided Design (CAD), mendapatkan sudut pandang bebas dalam gambar adalah aspek penting dalam memvisualisasikan dan menyajikan desain yang rumit. Aspose.CAD untuk .NET memberikan solusi tangguh untuk mencapai kebebasan ini, memungkinkan pengguna memanipulasi dan mengoptimalkan gambar CAD dengan mudah. Dalam panduan langkah demi langkah ini, kita akan menjelajahi proses mendapatkan sudut pandang bebas dalam gambar CAD menggunakan Aspose.CAD untuk .NET.
 
 ## Prasyarat
@@ -142,3 +148,9 @@ A1: Ya, Aspose.CAD untuk .NET mendukung berbagai format file CAD, termasuk DWG d
 ### Q5: Dapatkah saya menyesuaikan opsi ekspor untuk format gambar yang berbeda?
 
 A5: Tentu saja! Aspose.CAD menyediakan berbagai opsi penyesuaian, memungkinkan Anda menyesuaikan proses ekspor dengan kebutuhan spesifik Anda.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

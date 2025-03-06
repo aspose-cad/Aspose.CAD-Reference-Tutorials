@@ -3,10 +3,16 @@ title: 使用 Aspose.CAD for Java 從 DWG 檔案讀取 XREF 元數據
 linktitle: 使用 Java 從 DWG 檔案讀取 XREF 元數據
 second_title: Aspose.CAD Java API
 description: 探索 Aspose.CAD for Java 並輕鬆掌握從 DWG 檔案讀取 XREF 元資料。利用這個強大的 Java 程式庫促進您的 CAD 開發。
-type: docs
 weight: 10
 url: /zh-hant/java/cad-meta-data-and-rendering/read-xref-meta-data/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.CAD for Java 從 DWG 檔案讀取 XREF 元數據
+
 ## 介紹
 
 如果您正在使用 Java 深入研究電腦輔助設計 (CAD) 領域，那麼了解如何從 DWG 檔案中提取外部參考 (XREF) 元資料是一項寶貴的技能。 Aspose.CAD for Java 為開發人員提供了強大的 CAD 檔案操作工具，在本教程中，我們將專注於從 DWG 檔案中讀取 XREF 元資料。
@@ -90,3 +96,9 @@ A1：當然！ Aspose.CAD for Java 是一個功能強大的函式庫，深受開
 ### Q5：如何購買 Aspose.CAD for Java 的授權？
 
 A5：訪問[購買頁面](https://purchase.aspose.com/buy)探索適合您需求的授權選項。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Thao tác vẽ CAD
 linktitle: Thao tác vẽ CAD
 second_title: Aspose.CAD .NET - Định dạng tệp CAD và BIM
 description: Dễ dàng nâng cao các dự án CAD của bạn với hướng dẫn Aspose.CAD cho .NET. Thay đổi kích thước, chuyển đổi và tối ưu hóa bản vẽ CAD một cách liền mạch với hướng dẫn từng bước của chúng tôi.
-type: docs
 weight: 21
 url: /vi/net/cad-drawing-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Thao tác vẽ CAD
+
 
 ## Giới thiệu
 
@@ -44,3 +50,9 @@ Dễ dàng chuyển đổi bố cục CAD thành hình ảnh raster bằng Aspos
 Khám phá sức mạnh của Aspose.CAD cho .NET. Cho phép theo dõi để hiển thị CAD một cách liền mạch. Hãy làm theo hướng dẫn từng bước của chúng tôi để nâng cao khả năng kiểm soát và hiệu quả.
 ### [Nhận kích thước bố cục CAD trong Aspose.CAD cho .NET](./get-size-of-cad-layout/)
 Tìm hiểu cách truy xuất kích thước bố cục CAD trong .NET bằng Aspose.CAD. Thực hiện theo hướng dẫn từng bước của chúng tôi để thao tác tệp CAD hiệu quả.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

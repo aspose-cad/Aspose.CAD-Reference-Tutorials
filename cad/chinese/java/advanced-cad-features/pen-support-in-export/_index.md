@@ -3,10 +3,16 @@ title: 导出中的笔支持
 linktitle: 导出中的笔支持
 second_title: Aspose.CAD Java API
 description: 使用 Aspose.CAD for Java 掌握 CAD 导出中的笔自定义。请按照我们的分步指南进行无缝集成。
-type: docs
 weight: 13
 url: /zh/java/advanced-cad-features/pen-support-in-export/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 导出中的笔支持
+
 ## 介绍
 
 在不断发展的 CAD（计算机辅助设计）转换领域，Aspose.CAD for Java 成为一种强大的工具，提供了操作 CAD 文件的广泛功能。在其多功能功能中，导出期间对笔自定义的支持非常突出，允许用户定制导出图像的外观。本教程将引导您完成在导出功能中利用笔支持的过程，重点关注使用 Java 的实际实现。
@@ -112,3 +118,9 @@ A4：在光栅化选项中调整页面宽度和高度，以控制导出图像的
 ### 问题 5：我在哪里可以找到其他支持或社区讨论？
 
  A5：探索 Aspose.CAD 社区论坛：[这里](https://forum.aspose.com/c/cad/19)以寻求支持和讨论。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

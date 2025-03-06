@@ -3,10 +3,16 @@ title: Gemessene Lizenzierung in Aspose.CAD
 linktitle: Gemessene Lizenzierung in Aspose.CAD
 second_title: Aspose.CAD Java API
 description: Erfahren Sie in diesem umfassenden Leitfaden, wie Sie die getaktete Lizenzierung in Aspose.CAD für Java beherrschen. Optimieren Sie Ihre CAD-Verarbeitung für Effizienz und Kosteneffizienz.
-type: docs
 weight: 10
 url: /de/java/licensing-and-configuration/metered-licensing-in-aspose-cad/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Gemessene Lizenzierung in Aspose.CAD
+
 ## Einführung
 
 Schöpfen Sie das volle Potenzial von Aspose.CAD für Java mit getakteter Lizenzierung aus! Diese Schritt-für-Schritt-Anleitung führt Sie durch den Prozess der Einrichtung einer gebührenpflichtigen Lizenzierung und gewährleistet eine nahtlose Integration und optimale Nutzung dieser leistungsstarken Java-Bibliothek für computergestütztes Design (CAD). Von den Voraussetzungen über das Importieren von Paketen bis hin zum Ausführen von Beispielen deckt dieses Tutorial alles ab.
@@ -94,3 +100,9 @@ Glückwunsch! Sie haben die getaktete Lizenzierung mit Aspose.CAD für Java erfo
 ### F5: Benötigen Sie Community-Unterstützung oder haben Sie spezielle Fragen?
 
  A5: Besuchen Sie das Aspose.CAD-Forum[Hier](https://forum.aspose.com/c/cad/19).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

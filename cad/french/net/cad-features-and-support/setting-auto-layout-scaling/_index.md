@@ -3,10 +3,16 @@ title: Définition de la mise à l'échelle automatique de la mise en page dans 
 linktitle: Définition de la mise à l'échelle automatique de la mise en page
 second_title: Aspose.CAD .NET - Format de fichier CAO et BIM
 description: Améliorez le rendu CAO avec Aspose.CAD pour .NET. Apprenez à configurer Auto Layout Scaling pour un rendu de fichier précis et adaptable.
-type: docs
 weight: 14
 url: /fr/net/cad-features-and-support/setting-auto-layout-scaling/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Définition de la mise à l'échelle automatique de la mise en page dans Aspose.CAD pour .NET
+
 Dans le domaine dynamique du développement .NET, l'optimisation du rendu des fichiers de conception assistée par ordinateur (CAO) est un aspect crucial de la création d'applications efficaces et visuellement attrayantes. Aspose.CAD pour .NET permet aux développeurs d'améliorer leurs capacités de traitement CAO. Dans ce didacticiel, nous nous concentrerons sur la configuration de la mise à l'échelle automatique de la mise en page à l'aide d'Aspose.CAD pour .NET.
 
 ## Conditions préalables
@@ -107,3 +113,9 @@ A4 : Absolument, Aspose.CAD offre une large gamme d'options pour personnaliser l
 ### Q5 : Où puis-je trouver des ressources supplémentaires et une assistance pour Aspose.CAD ?
 
  A5 : Explorez le[Forum Aspose.CAD](https://forum.aspose.com/c/cad/19) pour obtenir le soutien de la communauté et consulter le[Documentation](https://reference.aspose.com/cad/net/) pour des informations détaillées.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

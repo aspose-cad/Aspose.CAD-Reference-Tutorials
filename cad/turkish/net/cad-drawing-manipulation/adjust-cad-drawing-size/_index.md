@@ -3,10 +3,16 @@ title: Aspose.CAD for .NET'te CAD Çizim Boyutunu Ayarlama
 linktitle: CAD Çizim Boyutunu Ayarlama
 second_title: Aspose.CAD .NET - CAD ve BIM Dosya Formatı
 description: Aspose.CAD'i kullanarak .NET'te CAD çizim boyutlarını zahmetsizce nasıl ayarlayabileceğinizi öğrenin. Sorunsuz yeniden boyutlandırma için adım adım kılavuzumuzu izleyin.
-type: docs
 weight: 10
 url: /tr/net/cad-drawing-manipulation/adjust-cad-drawing-size/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.CAD for .NET'te CAD Çizim Boyutunu Ayarlama
+
 ## giriiş
 
 .NET uygulamalarınızda CAD çizimlerinin boyutunu sorunsuz bir şekilde ayarlamak mı istiyorsunuz? Aspose.CAD for .NET, CAD çiziminin yeniden boyutlandırılmasını zahmetsizce gerçekleştirmenize olanak tanıyan sağlam bir çözüm sunar. Bu eğitimde, Aspose.CAD kullanarak CAD çizimlerini yeniden boyutlandırmanın inceliklerini kavramanızı sağlamak için her adımı ayrıntılı olarak anlatarak süreç boyunca size rehberlik edeceğiz.
@@ -115,3 +121,9 @@ C2: Evet, CadRasterizationOptions'taki düzenler dizisini ayarlayarak birden ço
 ### S5: Aspose.CAD for .NET için nasıl geçici lisans alabilirim?
 
  Cevap5: Test amaçlı geçici bir lisans edinin[Burada](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

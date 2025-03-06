@@ -3,10 +3,16 @@ title: Макеты списков в DWG с использованием Aspose
 linktitle: Макеты списков в DWG
 second_title: API Aspose.CAD Java
 description: Изучите Aspose.CAD для Java и без труда составьте список макетов в файлах DWG. Интегрируйте мощные функции САПР в свои приложения Java.
-type: docs
 weight: 12
 url: /ru/java/cad-file-manipulation/list-layouts-in-dwg/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Макеты списков в DWG с использованием Aspose.CAD для Java
+
 ## Введение
 
 Добро пожаловать в наше пошаговое руководство по использованию Aspose.CAD для Java для составления списка макетов в файлах DWG. Aspose.CAD — это мощная библиотека, которая позволяет разработчикам программно работать с файлами САПР. В этом уроке мы сосредоточимся на конкретной задаче: перечислении макетов в файле DWG. К концу этого руководства вы сможете легко интегрировать эту функциональность в свои приложения Java.
@@ -86,3 +92,9 @@ for (CadLayout layout : layouts.getValues())
 ### Вопрос 5. Могу ли я использовать временную лицензию в целях тестирования?
 
  О5: Да, вы можете получить временную лицензию.[здесь](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

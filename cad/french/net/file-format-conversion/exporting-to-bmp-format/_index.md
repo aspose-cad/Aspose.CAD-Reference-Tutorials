@@ -3,10 +3,16 @@ title: Exporter au format BMP - Tutoriel Aspose.CAD
 linktitle: Exportation au format BMP
 second_title: Aspose.CAD .NET - Format de fichier CAO et BIM
 description: Explorez le monde transparent de l'exportation d'images 3D vers BMP à l'aide d'Aspose.CAD pour .NET. Suivez notre tutoriel pour une expérience sans tracas.
-type: docs
 weight: 11
 url: /fr/net/file-format-conversion/exporting-to-bmp-format/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Exporter au format BMP - Tutoriel Aspose.CAD
+
 ## Introduction
 
 Dans le monde dynamique du développement de logiciels, Aspose.CAD for .NET s'impose comme un outil puissant pour gérer les fichiers de conception assistée par ordinateur (CAO). Si vous souhaitez exporter des images CAO au format BMP largement utilisé, ce didacticiel est votre guide incontournable. Dans cette procédure pas à pas, nous explorerons le processus d'exportation d'images 3D au format BMP à l'aide d'Aspose.CAD pour .NET. Allons-y !
@@ -94,3 +100,10 @@ A1 : Oui, Aspose.CAD prend en charge différents formats de fichiers CAO, offran
 ### Q5 : Puis-je acheter Aspose.CAD pour .NET ?
 
  A5 : Oui, vous pouvez acheter Aspose.CAD[ici](https://purchase.aspose.com/buy) pour libérer tout son potentiel pour vos projets.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

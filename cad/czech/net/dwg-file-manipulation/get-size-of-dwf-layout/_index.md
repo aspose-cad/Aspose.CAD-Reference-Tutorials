@@ -3,10 +3,16 @@ title: Práce se soubory DWG v C# – Získejte velikost rozvržení DWF
 linktitle: Práce se soubory DWG v C# – Získejte velikost rozvržení DWF
 second_title: Aspose.CAD .NET – formát souborů CAD a BIM
 description: Prozkoumejte sílu Aspose.CAD for .NET při práci se soubory DWG. Naučte se bez námahy extrahovat velikosti rozvržení DWF pomocí C#.
-type: docs
 weight: 10
 url: /cs/net/dwg-file-manipulation/get-size-of-dwf-layout/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Práce se soubory DWG v C# – Získejte velikost rozvržení DWF
+
 ## Úvod
 
 V oblasti počítačově podporovaného navrhování (CAD) a vývoje .NET představuje Aspose.CAD výkonný nástroj pro práci se soubory DWG. Tento tutoriál vás provede procesem práce se soubory DWG v C# a extrahováním velikosti rozvržení DWF. Než se ponoříme do kódu, ujistěte se, že máte vše nastaveno, abyste se mohli vydat na tuto cestu.
@@ -163,3 +169,9 @@ A4: Máte-li jakékoli dotazy nebo pomoc, navštivte[Fórum Aspose.CAD](https://
 ### Q5: Je k dispozici bezplatná zkušební verze pro Aspose.CAD?
 
  A5: Ano, máte přístup k bezplatné zkušební verzi Aspose.CAD[tady](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Przekroczono limit czasu zapisu dla CAD za pomocą Aspose.CAD
 linktitle: Ustaw limit czasu na zapisywanie
 second_title: Aspose.CAD API Java
 description: Dowiedz się, jak zwiększyć wydajność aplikacji Java za pomocą Aspose.CAD. Ustaw limit czasu zapisu rysunków CAD. Postępuj zgodnie z naszym przewodnikiem krok po kroku.
-type: docs
 weight: 15
 url: /pl/java/other-cad-operations/put-timeout-on-save/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Przekroczono limit czasu zapisu dla CAD za pomocą Aspose.CAD
+
 ## Wstęp
 
 Witamy w samouczku dotyczącym ustawiania limitu czasu zapisu przy użyciu Aspose.CAD dla Java. W tym przewodniku przeprowadzimy Cię przez proces ustawiania limitu czasu zapisywania rysunków CAD w celu zwiększenia wydajności aplikacji. Aspose.CAD for Java to potężna biblioteka, która umożliwia płynną pracę z plikami CAD w aplikacjach Java.
@@ -131,3 +137,9 @@ A3: Tak, możesz uzyskać bezpłatną wersję próbną[ten link](https://release
 ### P5: Potrzebujesz pomocy lub masz pytania?
 
  A5: Udaj się do[Forum Aspose.CAD](https://forum.aspose.com/c/cad/19) za wsparcie społeczności.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: 在 Aspose.CAD for .NET 中設定背景和繪圖顏色
 linktitle: 設定背景和繪圖顏色
 second_title: Aspose.CAD .NET - CAD 和 BIM 檔案格式
 description: 掌握適用於.NET 的 Aspose.CAD。輕鬆設定背景和繪圖顏色。請遵循我們的逐步指南。
-type: docs
 weight: 15
 url: /zh-hant/net/cad-features-and-support/setting-background-and-drawing-colors/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.CAD for .NET 中設定背景和繪圖顏色
+
 ## 介紹
 
 在 .NET 開發的動態世界中，Aspose.CAD 成為處理電腦輔助設計 (CAD) 檔案的強大工具。如果您渴望提升 CAD 繪圖操作技能，本教學就是您的入門選擇。我們將深入研究使用 Aspose.CAD for .NET 設定背景和繪圖顏色的複雜性，為您提供確保清晰度和有效性的逐步指南。
@@ -108,3 +114,10 @@ A1：是的，Aspose.CAD支援各種CAD格式，包括DWG、DXF和DGN。
 ### Q5：需要協助或想與社區建立聯繫？
 
  A5：造訪支援論壇[這裡](https://forum.aspose.com/c/cad/19).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

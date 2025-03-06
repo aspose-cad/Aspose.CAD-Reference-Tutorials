@@ -3,10 +3,16 @@ title: Xuất tệp STL
 linktitle: Xuất tệp STL
 second_title: Aspose.CAD .NET - Định dạng tệp CAD và BIM
 description: Dễ dàng xuất tệp STL sang PNG bằng Aspose.CAD cho .NET. Hướng dẫn từng bước của chúng tôi đảm bảo tích hợp liền mạch. Tìm hiểu qua các hướng dẫn Aspose.CAD For .NET.
-type: docs
 weight: 42
 url: /vi/net/stl-file-export/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Xuất tệp STL
+
 
 ## Hướng dẫn xuất tệp STL
 
@@ -29,3 +35,9 @@ Dễ dàng chuyển đổi tệp STL sang PNG bằng Aspose.CAD cho .NET. Hãy l
 Để nâng cao kỹ năng của bạn hơn nữa, hãy khám phá danh sách hướng dẫn Aspose.CAD cho .NET toàn diện của chúng tôi. Ngoài việc xuất tệp STL, hãy khám phá vô số chức năng và mẹo để khiến hành trình thiết kế của bạn trở nên thú vị hơn. Cho dù bạn là người mới bắt đầu hay người dùng nâng cao, các hướng dẫn của chúng tôi bao gồm nhiều chủ đề khác nhau, đảm bảo bạn luôn đi đầu trong quá trình phát triển CAD.
 
 Tóm lại, việc mở khóa tiềm năng xuất tệp STL chưa bao giờ dễ dàng hơn thế. Với Aspose.CAD cho .NET, quy trình phức tạp trở nên dễ dàng. Hòa mình vào thế giới thiết kế 3D, được trang bị kiến thức để dễ dàng chuyển đổi các tệp STL sang PNG. Khám phá, tạo và nâng cao thiết kế của bạn với Aspose.CAD cho .NET - cửa ngõ dẫn đến trải nghiệm thiết kế liền mạch của bạn.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

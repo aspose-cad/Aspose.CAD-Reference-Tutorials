@@ -3,10 +3,16 @@ title: Volgen en weergeven
 linktitle: Volgen en weergeven
 second_title: Aspose.CAD .NET - CAD- en BIM-bestandsindeling
 description: Ontgrendel de kracht van Aspose.CAD voor .NET met onze tutorials. Leer hoe u tracking in CAD-bestanden kunt inschakelen en DXF-bestanden naadloos kunt weergeven als PDF.
-type: docs
 weight: 31
 url: /nl/net/tracking-and-rendering/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Volgen en weergeven
+
 
 ## Invoering
 
@@ -30,3 +36,9 @@ Ga op een leeravontuur met onze Aspose.CAD voor .NET Tutorials Listing. De werel
 Beheers het volgen van CAD-bestanden met Aspose.CAD voor .NET. Volg onze stapsgewijze handleiding voor nauwkeurige weergave en foutopsporing. Download nu!
 ### [DXF-bestanden weergeven als PDF - Aspose.CAD-handleiding](./rendering-dxf-files-as-pdf/)
 Ontdek de ultieme gids over het renderen van DXF-bestanden als PDF met Aspose.CAD voor .NET. Converteer moeiteloos CAD-bestanden met onze stapsgewijze zelfstudie.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

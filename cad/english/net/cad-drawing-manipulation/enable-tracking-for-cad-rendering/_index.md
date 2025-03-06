@@ -3,10 +3,16 @@ title: Enable Tracking for CAD Rendering in Aspose.CAD for .NET
 linktitle: Enable Tracking for CAD Rendering
 second_title: Aspose.CAD .NET - CAD and BIM File Format
 description: Discover the power of Aspose.CAD for .NET. Enable tracking for CAD rendering seamlessly. Follow our step-by-step guide for enhanced control and efficiency.
-type: docs
 weight: 13
 url: /net/cad-drawing-manipulation/enable-tracking-for-cad-rendering/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Enable Tracking for CAD Rendering in Aspose.CAD for .NET
+
 ## Introduction
 
 In the dynamic world of software development, Aspose.CAD for .NET stands out as a robust solution for Computer-Aided Design (CAD) rendering. This powerful library empowers developers to create, manipulate, and render CAD files seamlessly in the .NET environment. In this tutorial, we'll delve into a crucial aspect of Aspose.CAD for .NET—enabling tracking for CAD rendering.
@@ -110,3 +116,10 @@ A4: For any assistance or queries, visit the [Aspose.CAD forum](https://forum.as
 ### Q5: What are the benefits of enabling tracking in CAD rendering?
 
 A5: Enabling tracking enhances traceability and control during the rendering process, ensuring a more transparent and efficient workflow.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

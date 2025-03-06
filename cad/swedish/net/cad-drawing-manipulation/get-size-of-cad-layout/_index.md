@@ -3,10 +3,16 @@ title: Få storlek på CAD-layout i Aspose.CAD för .NET
 linktitle: Få storlek på CAD-layout
 second_title: Aspose.CAD .NET - CAD- och BIM-filformat
 description: Lär dig hur du hämtar CAD-layoutstorlek i .NET med Aspose.CAD. Följ vår steg-för-steg-guide för effektiv CAD-filmanipulation.
-type: docs
 weight: 14
 url: /sv/net/cad-drawing-manipulation/get-size-of-cad-layout/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Få storlek på CAD-layout i Aspose.CAD för .NET
+
 ## Introduktion
 
 Välkommen till denna omfattande guide för att få storleken på CAD-layouter med Aspose.CAD för .NET. Aspose.CAD är ett kraftfullt bibliotek som gör det möjligt för utvecklare att arbeta med CAD-filer sömlöst. I den här handledningen går vi igenom processen för att hämta storleken på CAD-layouter med hjälp av praktiska exempel och steg-för-steg-instruktioner.
@@ -143,3 +149,9 @@ A2: Absolut! Du kan justera bildalternativ, såsom format och upplösning, för 
 ### Q5; Hur kan jag få teknisk support?
 
  S5: För teknisk support, besök[Aspose.CAD-forum](https://forum.aspose.com/c/cad/19).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: 將 CAD 繪圖匯出為 SVG 格式 - Aspose.CAD Guide
 linktitle: 將 CAD 繪圖匯出為 SVG 格式
 second_title: Aspose.CAD .NET - CAD 和 BIM 檔案格式
 description: 探索使用 Aspose.CAD for .NET 將 CAD 繪圖匯出為 SVG 的無縫流程。透過靈活性和自訂增強您的 CAD 開發。
-type: docs
 weight: 15
 url: /zh-hant/net/advanced-export-techniques/exporting-cad-drawings-to-svg/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 將 CAD 繪圖匯出為 SVG 格式 - Aspose.CAD Guide
+
 ## 介紹
 
 在 CAD（電腦輔助設計）的動態世界中，將圖面匯出為各種格式的能力是一項至關重要的技能。 SVG（可擴展向量圖形）就是這樣一種格式，由於其可擴展性和多功能性而廣受歡迎。在本教學中，我們將探討如何使用強大的 Aspose.CAD for .NET 函式庫將 CAD 繪圖匯出為 SVG。
@@ -87,3 +93,9 @@ A2：是的，Aspose.CAD允許您選擇顏色模式，提供輸出的靈活性�
 ### Q5：我如何獲得與 Aspose.CAD 相關的支援或提出問題？
 
  A5：造訪社群論壇[這裡](https://forum.aspose.com/c/cad/19)以尋求支持和討論。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: PLT ve Filigranlama
 linktitle: PLT ve Filigranlama
 second_title: Aspose.CAD .NET - CAD ve BIM Dosya Formatı
 description: Aspose.CAD for .NET ile PLT formatının potansiyelini ortaya çıkarın. Adım adım eğitimlerimizle PLT dosyalarını uygulamalarınıza zahmetsizce entegre edin.
-type: docs
 weight: 37
 url: /tr/net/plt-and-watermarking/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# PLT ve Filigranlama
+
 
 ## giriiş
 
@@ -46,3 +52,9 @@ Sonuç olarak, Aspose.CAD for .NET ile PLT format desteğinde uzmanlaşmak ve ç
 Aspose.CAD for .NET'te kesintisiz PLT formatı desteğini keşfedin. PLT dosyalarını .NET uygulamalarınıza zahmetsizce entegre etmek için adım adım kılavuzumuzu izleyin.
 ### [CAD Çizimlerine Filigran Ekleme - Aspose.CAD Guide](./adding-watermarks-to-cad-drawings/)
 Aspose.CAD for .NET'i kullanarak CAD çizimlerinizi profesyonel filigranlarla geliştirin. Kişiselleştirilmiş ve ilgi çekici tasarımlar için adım adım kılavuzumuzu izleyin.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

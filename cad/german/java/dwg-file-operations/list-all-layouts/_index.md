@@ -3,10 +3,16 @@ title: Listen Sie alle Layouts in AutoCAD Drawing mit Java auf
 linktitle: Listen Sie alle Layouts in AutoCAD Drawing mit Java auf
 second_title: Aspose.CAD Java API
 description: Entdecken Sie AutoCAD-Zeichnungen mühelos in Java mit Aspose.CAD. Listen Sie alle Layouts auf und extrahieren Sie wertvolle Informationen. Jetzt herunterladen für eine nahtlose Integration!
-type: docs
 weight: 11
 url: /de/java/dwg-file-operations/list-all-layouts/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Listen Sie alle Layouts in AutoCAD Drawing mit Java auf
+
 ## Einführung
 
 Möchten Sie das volle Potenzial von AutoCAD-Zeichnungen in Ihren Java-Anwendungen ausschöpfen? Aspose.CAD für Java ist Ihre Lösung der Wahl und bietet eine nahtlose Integration zum Bearbeiten und Extrahieren wertvoller Informationen aus DWG- und DXF-Dateien. In dieser Schritt-für-Schritt-Anleitung führen wir Sie durch den Prozess der Auflistung aller Layouts in einer AutoCAD-Zeichnung mit Aspose.CAD für Java.
@@ -86,3 +92,9 @@ A3: Ja, Beispielzeichnungen finden Sie im Verzeichnis „DWGDrawings“ im Aspos
 ### F5: Kann ich Aspose.CAD für Java vor dem Kauf testen?
 
  A5: Auf jeden Fall! Holen Sie sich eine kostenlose Testversion von[Hier](https://releases.aspose.com/)und erleben Sie die Leistungsfähigkeit von Aspose.CAD für Java.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

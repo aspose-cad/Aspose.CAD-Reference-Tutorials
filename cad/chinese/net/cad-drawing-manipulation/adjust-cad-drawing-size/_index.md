@@ -3,10 +3,16 @@ title: 在 Aspose.CAD for .NET 中调整 CAD 绘图尺寸
 linktitle: 调整 CAD 绘图尺寸
 second_title: Aspose.CAD .NET - CAD 和 BIM 文件格式
 description: 了解如何使用 Aspose.CAD 在 .NET 中轻松调整 CAD 绘图尺寸。请按照我们的分步指南进行无缝调整大小。
-type: docs
 weight: 10
 url: /zh/net/cad-drawing-manipulation/adjust-cad-drawing-size/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.CAD for .NET 中调整 CAD 绘图尺寸
+
 ## 介绍
 
 您是否希望在 .NET 应用程序中无缝调整 CAD 绘图的尺寸？ Aspose.CAD for .NET 提供了强大的解决方案，使您可以轻松处理 CAD 绘图大小调整。在本教程中，我们将指导您完成整个过程，分解每个步骤，以确保您掌握使用 Aspose.CAD 调整 CAD 绘图大小的复杂性。
@@ -115,3 +121,9 @@ A2：是的，您可以通过调整 CadRasterizationOptions 中的布局数组�
 ### 问题 5：如何获得 Aspose.CAD for .NET 的临时许可证？
 
  A5：获取用于测试目的的临时许可证[这里](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

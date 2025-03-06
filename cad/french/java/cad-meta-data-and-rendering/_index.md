@@ -3,10 +3,16 @@ title: Métadonnées CAO et rendu
 linktitle: Métadonnées CAO et rendu
 second_title: API Java Aspose.CAD
 description: Libérez la puissance d’Aspose.CAD pour Java avec nos tutoriels ! Apprenez à lire sans effort les métadonnées XREF et à convertir des documents DWG en images pour un développement CAO amélioré.
-type: docs
 weight: 27
 url: /fr/java/cad-meta-data-and-rendering/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Métadonnées CAO et rendu
+
 
 
 ## Introduction
@@ -33,3 +39,9 @@ En conclusion, profitez de la puissance d'Aspose.CAD pour Java avec nos didactic
 Explorez Aspose.CAD pour Java et maîtrisez la lecture sans effort des métadonnées XREF à partir de fichiers DWG. Boostez votre développement CAO avec cette puissante bibliothèque Java.
 ### [Rendre un document DWG en image avec Aspose.CAD pour Java](./render-dwg-to-image/)
 Découvrez l'intégration transparente d'Aspose.CAD pour Java dans le rendu des documents DWG en images. Suivez notre guide étape par étape pour des résultats efficaces.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

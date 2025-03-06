@@ -3,10 +3,16 @@ title: Nhập hình ảnh vào tệp DWG bằng C# - Hướng dẫn Aspose.CAD
 linktitle: Nhập hình ảnh vào tệp DWG bằng C#
 second_title: Aspose.CAD .NET - Định dạng tệp CAD và BIM
 description: Tìm hiểu cách nhập hình ảnh vào tệp DWG bằng C# với Aspose.CAD cho .NET. Hãy làm theo hướng dẫn từng bước của chúng tôi để tích hợp liền mạch.
-type: docs
 weight: 11
 url: /vi/net/image-manipulation-and-rendering/importing-images-into-dwg/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Nhập hình ảnh vào tệp DWG bằng C# - Hướng dẫn Aspose.CAD
+
 ## Giới thiệu
 
 Trong lĩnh vực thiết kế có sự hỗ trợ của máy tính (CAD), việc kết hợp hình ảnh vào tệp DWG là một nhiệm vụ phổ biến và quan trọng. Aspose.CAD cho .NET cung cấp một bộ công cụ mạnh mẽ để hợp lý hóa quy trình này, giúp các nhà phát triển C# có thể truy cập được. Trong hướng dẫn này, chúng ta sẽ khám phá cách nhập hình ảnh vào tệp DWG theo từng bước.
@@ -122,3 +128,9 @@ Câu trả lời 1: Aspose.CAD được thiết kế chủ yếu cho .NET, nhưn
 ### Câu hỏi 5: Có diễn đàn cộng đồng nào hỗ trợ Aspose.CAD không?
 
  Câu trả lời 5: Có, bạn có thể tìm kiếm sự hỗ trợ và tương tác với cộng đồng[đây](https://forum.aspose.com/c/cad/19).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

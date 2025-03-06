@@ -3,10 +3,16 @@ title: Aspose.CAD for .NET での CAD 図面サイズの調整
 linktitle: CAD 図面のサイズを調整する
 second_title: Aspose.CAD .NET - CAD および BIM ファイル形式
 description: Aspose.CAD を使用して .NET で CAD 図面のサイズを簡単に調整する方法を学びます。シームレスにサイズを変更するには、ステップバイステップのガイドに従ってください。
-type: docs
 weight: 10
 url: /ja/net/cad-drawing-manipulation/adjust-cad-drawing-size/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.CAD for .NET での CAD 図面サイズの調整
+
 ## 導入
 
 .NET アプリケーションで CAD 図面のサイズをシームレスに調整したいと考えていますか? Aspose.CAD for .NET は堅牢なソリューションを提供し、CAD 図面のサイズ変更を簡単に処理できるようにします。このチュートリアルでは、Aspose.CAD を使用して CAD 図面のサイズを変更する複雑さを確実に理解できるように、プロセスを各ステップに分けて説明します。
@@ -115,3 +121,9 @@ A2: はい、CadRasterizationOptions のレイアウト配列を調整するこ�
 ### Q5: Aspose.CAD for .NET の一時ライセンスを取得するにはどうすればよいですか?
 
  A5: テスト目的で一時ライセンスを取得します。[ここ](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

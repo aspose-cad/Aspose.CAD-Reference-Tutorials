@@ -3,10 +3,16 @@ title: Bật theo dõi quá trình kết xuất CAD
 linktitle: Bật theo dõi quá trình kết xuất CAD
 second_title: API Java Aspose.CAD
 description: Nâng cao kết xuất CAD của bạn với Aspose.CAD cho Java. Làm theo hướng dẫn từng bước của chúng tôi để bật theo dõi và nâng cao trải nghiệm chuyển đổi PDF của bạn.
-type: docs
 weight: 10
 url: /vi/java/advanced-cad-features/enable-tracking-for-cad-rendering-process/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Bật theo dõi quá trình kết xuất CAD
+
 ## Giới thiệu
 
 Trong lĩnh vực Thiết kế hỗ trợ máy tính (CAD), Aspose.CAD cho Java nổi bật như một công cụ mạnh mẽ để hiển thị và xử lý các tệp CAD. Hướng dẫn này sẽ hướng dẫn bạn quy trình kích hoạt theo dõi kết xuất CAD, nâng cao khả năng kiểm soát của bạn đối với việc chuyển đổi từ tệp CAD sang định dạng PDF.
@@ -114,3 +120,9 @@ Trả lời 1: Aspose.CAD hỗ trợ nhiều định dạng CAD, bao gồm DWG, 
 ### Câu hỏi 5: Aspose.CAD có giấy phép tạm thời không?
 
  Câu trả lời 5: Có, nếu bạn cần giấy phép tạm thời, bạn có thể lấy một giấy phép[đây](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

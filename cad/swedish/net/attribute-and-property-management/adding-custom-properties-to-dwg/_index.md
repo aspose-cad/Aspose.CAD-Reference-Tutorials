@@ -3,10 +3,16 @@ title: Lägga till anpassade egenskaper till DWG-filer - Aspose.CAD Guide
 linktitle: Lägga till anpassade egenskaper till DWG-filer
 second_title: Aspose.CAD .NET - CAD- och BIM-filformat
 description: Förbättra dina DWG-filer med anpassade egenskaper med Aspose.CAD för .NET. Följ vår steg-för-steg-guide för att lägga till meningsfull metadata utan ansträngning.
-type: docs
 weight: 11
 url: /sv/net/attribute-and-property-management/adding-custom-properties-to-dwg/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Lägga till anpassade egenskaper till DWG-filer - Aspose.CAD Guide
+
 ## Introduktion
 
 Välkommen till den här omfattande guiden om att lägga till anpassade egenskaper till DWG-filer med Aspose.CAD för .NET. Aspose.CAD är ett kraftfullt bibliotek som gör det möjligt för utvecklare att arbeta med CAD-filer sömlöst. I den här handledningen kommer vi att fokusera på att förbättra din förståelse för anpassade egenskaper och hur du lägger till dem i DWG-filer med Aspose.CAD.
@@ -92,3 +98,9 @@ S4: Även om det inte finns några strikta begränsningar, är det bra att anvä
 ### F5: Ger Aspose.CAD support om jag stöter på några problem?
 
  A5: Ja, du kan söka hjälp med[Aspose.CAD-forum](https://forum.aspose.com/c/cad/19) för eventuella tekniska frågor eller problem.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

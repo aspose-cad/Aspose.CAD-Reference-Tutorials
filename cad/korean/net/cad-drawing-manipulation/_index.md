@@ -3,10 +3,16 @@ title: CAD 도면 조작
 linktitle: CAD 도면 조작
 second_title: Aspose.CAD .NET - CAD 및 BIM 파일 형식
 description: .NET용 Aspose.CAD 튜토리얼을 사용하여 CAD 프로젝트를 손쉽게 향상하세요. 단계별 가이드를 통해 원활하게 CAD 도면의 크기를 조정하고 변환하고 최적화하세요.
-type: docs
 weight: 21
 url: /ko/net/cad-drawing-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# CAD 도면 조작
+
 
 ## 소개
 
@@ -44,3 +50,9 @@ Aspose.CAD for .NET을 사용하여 CAD 레이아웃을 래스터 이미지로 �
 .NET용 Aspose.CAD의 강력한 기능을 알아보세요. CAD 렌더링에 대한 추적을 원활하게 활성화합니다. 향상된 제어 및 효율성을 위한 단계별 가이드를 따르세요.
 ### [.NET용 Aspose.CAD에서 CAD 레이아웃 크기 가져오기](./get-size-of-cad-layout/)
 Aspose.CAD를 사용하여 .NET에서 CAD 레이아웃 크기를 검색하는 방법을 알아보세요. 효율적인 CAD 파일 조작을 위한 단계별 가이드를 따르십시오.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

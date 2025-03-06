@@ -3,10 +3,16 @@ title: Åsidosätt automatisk kodsidadetektering i DWG-filer med Java
 linktitle: Åsidosätt automatisk kodsidasdetektering i DWG-filer
 second_title: Aspose.CAD Java API
 description: Upptäck hur man åsidosätter teckentabellsdetektering i DWG-filer med Aspose.CAD för Java. Hantera kodning effektivt och återställ felaktig CIF/MIF.
-type: docs
 weight: 13
 url: /sv/java/dwg-file-operations/override-code-page-detection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Åsidosätt automatisk kodsidadetektering i DWG-filer med Java
+
 ## Introduktion
 
 Välkommen till den här omfattande guiden om hur man åsidosätter automatisk teckentabellsdetektering i DWG-filer med Aspose.CAD för Java. Aspose.CAD är ett kraftfullt bibliotek som gör det möjligt för Java-utvecklare att arbeta med CAD-filformat, vilket ger ett brett utbud av funktioner för att manipulera, konvertera och exportera CAD-filer.
@@ -101,3 +107,9 @@ S3: Den kostnadsfria testversionen har vissa begränsningar, och det rekommender
 ### F5: Finns det en tillfällig licens tillgänglig för teständamål?
 
  A5: Ja, du kan få en tillfällig licens[här](https://purchase.aspose.com/temporary-license/) för provning.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Wyświetl listę wszystkich układów w programie AutoCAD do rysowania w 
 linktitle: Wyświetl listę wszystkich układów w programie AutoCAD do rysowania w języku Java
 second_title: Aspose.CAD API Java
 description: Przeglądaj rysunki AutoCAD bez wysiłku w Javie dzięki Aspose.CAD. Wypisz wszystkie układy, wydobądź cenne informacje. Pobierz teraz, aby zapewnić bezproblemową integrację!
-type: docs
 weight: 11
 url: /pl/java/dwg-file-operations/list-all-layouts/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Wyświetl listę wszystkich układów w programie AutoCAD do rysowania w języku Java
+
 ## Wstęp
 
 Czy chcesz uwolnić pełny potencjał rysunków AutoCAD w swoich aplikacjach Java? Aspose.CAD dla Java to rozwiązanie, do którego warto się udać, oferujące bezproblemową integrację w celu manipulowania i wydobywania cennych informacji z plików DWG i DXF. W tym przewodniku krok po kroku przeprowadzimy Cię przez proces tworzenia listy wszystkich układów na rysunku AutoCAD przy użyciu Aspose.CAD dla Java.
@@ -86,3 +92,9 @@ O3: Tak, przykładowe rysunki można znaleźć w katalogu „DWGDrawings” w pa
 ### P5: Czy mogę wypróbować Aspose.CAD dla Java przed zakupem?
 
  A5: Oczywiście! Skorzystaj z bezpłatnej wersji próbnej[Tutaj](https://releases.aspose.com/) poznaj moc Aspose.CAD dla Java.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

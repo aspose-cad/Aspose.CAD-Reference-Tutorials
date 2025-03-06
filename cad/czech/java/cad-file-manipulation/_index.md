@@ -3,10 +3,16 @@ title: Manipulace se soubory CAD
 linktitle: Manipulace se soubory CAD
 second_title: Aspose.CAD Java API
 description: Odemkněte výkon souborů CAD s Aspose.CAD pro Java! Převádějte DWFX do PDF, získejte přístup k příznakům DWG, rozvržení seznamu a automatické úpravě velikostí pomocí našich výukových programů.
-type: docs
 weight: 23
 url: /cs/java/cad-file-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Manipulace se soubory CAD
+
 
 ## Úvod
 
@@ -44,3 +50,9 @@ Prozkoumejte Aspose.CAD for Java a bez námahy vypisujte rozvržení v souborech
 Prozkoumejte bezproblémový proces automatického přizpůsobení velikostí výkresů CAD v Javě pomocí Aspose.CAD. Postupujte podle našeho podrobného průvodce pro efektivní manipulaci se soubory CAD.
 ### [Úprava velikosti výkresu CAD pomocí typu jednotky s Aspose.CAD for Java](./adjusting-cad-drawing-size-using-unit-type/)
 Prozkoumejte sílu Aspose.CAD pro Java při úpravě velikosti výkresů CAD bez námahy. Postupujte podle našeho podrobného průvodce pro přesnost a přizpůsobivost.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

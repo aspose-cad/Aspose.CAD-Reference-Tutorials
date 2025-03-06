@@ -3,10 +3,16 @@ title: Поддержка сеток с помощью Aspose.CAD для Java
 linktitle: Поддержка сетки в САПР
 second_title: API Aspose.CAD Java
 description: Изучите поддержку сеток в приложениях Java с помощью Aspose.CAD. Легко конвертируйте файлы CAD в PDF.
-type: docs
 weight: 12
 url: /ru/java/advanced-cad-features/mesh-support-in-cad/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Поддержка сеток с помощью Aspose.CAD для Java
+
 ## Введение
 
 Aspose.CAD for Java — это мощная библиотека, которая позволяет разработчикам беспрепятственно работать с файлами автоматизированного проектирования (САПР) в приложениях Java. В этом уроке мы рассмотрим функцию поддержки сеток в Aspose.CAD для Java, позволяющую конвертировать файлы САПР с сетками в формат PDF. Следуйте приведенному ниже пошаговому руководству, чтобы использовать возможности этой библиотеки и улучшить обработку файлов САПР.
@@ -110,3 +116,9 @@ cadImage.save(outPath, pdfOptions);
 ### Вопрос 5: Могу ли я попробовать Aspose.CAD для Java бесплатно?
 
  О5: Да, вы можете изучить бесплатную пробную версию Aspose.CAD для Java.[здесь](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

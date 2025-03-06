@@ -3,10 +3,16 @@ title: Hiển thị tài liệu DWG trong C# - Hướng dẫn Aspose.CAD
 linktitle: Hiển thị tài liệu DWG trong C#
 second_title: Aspose.CAD .NET - Định dạng tệp CAD và BIM
 description: Tìm hiểu cách hiển thị tài liệu DWG trong C# bằng Aspose.CAD. Hướng dẫn từng bước này bao gồm việc nhập, định cấu hình và lưu bằng các ví dụ về mã.
-type: docs
 weight: 17
 url: /vi/net/image-manipulation-and-rendering/rendering-dwg-documents/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Hiển thị tài liệu DWG trong C# - Hướng dẫn Aspose.CAD
+
 ## Giới thiệu
 
 Chào mừng bạn đến với hướng dẫn toàn diện về cách hiển thị tài liệu DWG trong C# bằng Aspose.CAD. Cho dù bạn là nhà phát triển dày dạn kinh nghiệm hay mới bắt đầu với .NET, hướng dẫn này sẽ hướng dẫn bạn quy trình tận dụng Aspose.CAD để hiển thị các tệp DWG một cách hiệu quả. Aspose.CAD là một API mạnh mẽ cung cấp các chức năng mạnh mẽ để làm việc với các định dạng tệp CAD, khiến nó trở thành lựa chọn phù hợp cho các nhà phát triển xử lý tệp DWG.
@@ -130,3 +136,9 @@ Câu trả lời 2: Có, Aspose.CAD tương thích với cả .NET Framework và
 ### Câu hỏi 5: Tôi có thể tìm thêm hỗ trợ ở đâu?
 
 A5: Tham quan[Diễn đàn Aspose.CAD](https://forum.aspose.com/c/cad/19) để được cộng đồng hỗ trợ và thảo luận.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

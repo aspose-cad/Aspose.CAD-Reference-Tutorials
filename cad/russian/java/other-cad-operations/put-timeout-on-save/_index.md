@@ -3,10 +3,16 @@ title: Тайм-аут сохранения для САПР с помощью As
 linktitle: Поставьте таймаут на сохранение
 second_title: API Aspose.CAD Java
 description: Узнайте, как повысить производительность вашего Java-приложения с помощью Aspose.CAD. Установите тайм-аут для сохранения чертежей САПР. Следуйте нашему пошаговому руководству.
-type: docs
 weight: 15
 url: /ru/java/other-cad-operations/put-timeout-on-save/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Тайм-аут сохранения для САПР с помощью Aspose.CAD
+
 ## Введение
 
 Добро пожаловать в руководство по установке тайм-аута при сохранении с использованием Aspose.CAD для Java. В этом руководстве мы покажем вам процесс установки времени ожидания для сохранения чертежей САПР, чтобы повысить производительность вашего приложения. Aspose.CAD for Java — это мощная библиотека, которая позволяет вам легко работать с файлами САПР в ваших приложениях Java.
@@ -131,3 +137,9 @@ thread.join();
 ### В5: Нужна помощь или есть вопросы?
 
  A5: Отправляйтесь в[Форум Aspose.CAD](https://forum.aspose.com/c/cad/19) для поддержки сообщества.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Hỗ trợ Thực thể MLeader cho Định dạng DWG với Aspose.CAD c
 linktitle: Hỗ trợ Thực thể MLeader cho Định dạng DWG bằng Java
 second_title: API Java Aspose.CAD
 description: Khai phá sức mạnh của Aspose.CAD cho Java bằng hướng dẫn từng bước của chúng tôi về cách hỗ trợ các thực thể MLeader ở định dạng DWG.
-type: docs
 weight: 12
 url: /vi/java/cad-text-and-formatting/support-mleader-entity/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Hỗ trợ Thực thể MLeader cho Định dạng DWG với Aspose.CAD cho Java
+
 ## Giới thiệu
 
 Trong lĩnh vực thiết kế có sự hỗ trợ của máy tính (CAD) với Java, việc hiểu và triển khai hỗ trợ cho các thực thể MLeader ở định dạng DWG là một kỹ năng có giá trị. Aspose.CAD cho Java cung cấp một giải pháp mạnh mẽ cho những tác vụ như vậy, cung cấp một bộ công cụ và chức năng mạnh mẽ. Hướng dẫn này sẽ hướng dẫn bạn quy trình hỗ trợ các thực thể MLeader trong tệp DWG bằng Java với Aspose.CAD.
@@ -146,3 +152,9 @@ A4: Xin giấy phép tạm thời thông qua[liên kết này](https://purchase.
 ### Câu hỏi 5: Tôi có thể tìm kiếm sự hỗ trợ và giúp đỡ của cộng đồng ở đâu?
 
 A5: Tham quan[Diễn đàn Aspose.CAD](https://forum.aspose.com/c/cad/19) để kết nối với cộng đồng và nhận trợ giúp.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

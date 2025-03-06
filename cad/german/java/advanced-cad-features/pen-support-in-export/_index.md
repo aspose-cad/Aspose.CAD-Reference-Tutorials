@@ -3,10 +3,16 @@ title: Stiftunterstützung beim Export
 linktitle: Stiftunterstützung beim Export
 second_title: Aspose.CAD Java API
 description: Master-Stiftanpassung im CAD-Export mit Aspose.CAD für Java. Befolgen Sie unsere Schritt-für-Schritt-Anleitung für eine nahtlose Integration.
-type: docs
 weight: 13
 url: /de/java/advanced-cad-features/pen-support-in-export/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Stiftunterstützung beim Export
+
 ## Einführung
 
 In der sich ständig weiterentwickelnden Landschaft der CAD-Konvertierungen (Computer-Aided Design) erweist sich Aspose.CAD für Java als leistungsstarkes Tool, das umfangreiche Funktionen zur Bearbeitung von CAD-Dateien bietet. Unter den vielseitigen Funktionen sticht die Unterstützung der Stiftanpassung während des Exports hervor, sodass Benutzer das Erscheinungsbild exportierter Bilder individuell anpassen können. Dieses Tutorial führt Sie durch den Prozess der Nutzung der Stiftunterstützung in der Exportfunktionalität und konzentriert sich dabei auf die praktische Implementierung mit Java.
@@ -112,3 +118,9 @@ A4: Passen Sie die Seitenbreite und -höhe in den Rasterungsoptionen an, um die 
 ### F5: Wo finde ich zusätzlichen Support oder Community-Diskussionen?
 
  A5: Entdecken Sie das Aspose.CAD-Community-Forum unter[Hier](https://forum.aspose.com/c/cad/19) für Unterstützung und Diskussionen.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

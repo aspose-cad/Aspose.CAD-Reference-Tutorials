@@ -3,10 +3,16 @@ title: Festlegen von Hintergrund- und Zeichenfarben in Aspose.CAD für .NET
 linktitle: Hintergrund- und Zeichenfarben festlegen
 second_title: Aspose.CAD .NET – CAD- und BIM-Dateiformat
 description: Beherrschen Sie Aspose.CAD für .NET. Legen Sie Hintergrund- und Zeichenfarben mühelos fest. Folgen Sie unserer Schritt-für-Schritt-Anleitung.
-type: docs
 weight: 15
 url: /de/net/cad-features-and-support/setting-background-and-drawing-colors/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Festlegen von Hintergrund- und Zeichenfarben in Aspose.CAD für .NET
+
 ## Einführung
 
 In der dynamischen Welt der .NET-Entwicklung erweist sich Aspose.CAD als leistungsstarkes Werkzeug für den Umgang mit CAD-Dateien (Computer-Aided Design). Wenn Sie Ihre Fähigkeiten im Umgang mit CAD-Zeichnungen verbessern möchten, ist dieses Tutorial Ihr Einstieg. Wir befassen uns mit den Feinheiten des Festlegens von Hintergrund- und Zeichnungsfarben mit Aspose.CAD für .NET und stellen Ihnen eine Schritt-für-Schritt-Anleitung zur Verfügung, die Klarheit und Effektivität gewährleistet.
@@ -108,3 +114,10 @@ A1: Ja, Aspose.CAD unterstützt verschiedene CAD-Formate, einschließlich DWG, D
 ### F5: Benötigen Sie Hilfe oder möchten Sie mit der Community in Kontakt treten?
 
  A5: Besuchen Sie das Support-Forum[Hier](https://forum.aspose.com/c/cad/19).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

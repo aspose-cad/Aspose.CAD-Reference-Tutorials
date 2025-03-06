@@ -3,10 +3,16 @@ title: Ondersteuning van blokknippen in CAD - Aspose.CAD-zelfstudie
 linktitle: Ondersteuning van blokknippen in CAD
 second_title: Aspose.CAD .NET - CAD- en BIM-bestandsindeling
 description: Leer hoe u block clipping in CAD implementeert met Aspose.CAD voor .NET. Verbeter uw ontwerpmogelijkheden met deze stapsgewijze zelfstudie.
-type: docs
 weight: 12
 url: /nl/net/layout-and-object-handling/supporting-block-clipping-in-cad/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ondersteuning van blokknippen in CAD - Aspose.CAD-zelfstudie
+
 ## Invoering
 
 Welkom bij een uitgebreide tutorial over het ondersteunen van block clipping in CAD met behulp van Aspose.CAD voor .NET. Aspose.CAD is een krachtige bibliotheek waarmee ontwikkelaars naadloos kunnen werken met CAD-bestanden in hun .NET-applicaties. In deze tutorial concentreren we ons op het implementeren van block clipping, een essentiële functie in CAD-ontwerp.
@@ -122,3 +128,9 @@ A1: Aspose.CAD is voornamelijk ontworpen voor .NET-toepassingen. Als u met ander
 ### V5: Kan ik Aspose.CAD gebruiken zonder een permanente licentie?
 
  A5: Ja, u kunt een tijdelijke licentie verkrijgen[hier](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

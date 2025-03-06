@@ -3,10 +3,16 @@ title: Exporte imagens para formato DXF usando Aspose.CAD para Java
 linktitle: Exportar imagens para formato DXF usando Java
 second_title: API Java Aspose.CAD
 description: Explore o processo contínuo de exportação de imagens para o formato DXF usando Aspose.CAD for Java. Guia passo a passo, perguntas frequentes e muito mais.
-type: docs
 weight: 15
 url: /pt/java/additional-features/export-images-to-dxf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Exporte imagens para formato DXF usando Aspose.CAD para Java
+
 ## Introdução
 
 Bem-vindo a um tutorial abrangente sobre como exportar imagens para o formato DXF usando Aspose.CAD for Java. Aspose.CAD é uma poderosa biblioteca Java que permite aos desenvolvedores trabalhar com desenhos CAD de forma programática. Neste tutorial, orientaremos você no processo de exportação de imagens para o formato DXF, demonstrando várias etapas e técnicas para realizar esta tarefa.
@@ -107,3 +113,9 @@ Parabéns! Você aprendeu com sucesso como exportar imagens para o formato DXF u
 ### Q5: Existe um teste gratuito disponível?
 
  A5: Sim, você pode obter uma avaliação gratuita[aqui](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

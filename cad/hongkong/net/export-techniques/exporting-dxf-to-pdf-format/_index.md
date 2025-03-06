@@ -3,10 +3,16 @@ title: 將 DXF 匯出為 PDF 格式 - Aspose.CAD 教學課程
 linktitle: 將 DXF 匯出為 PDF 格式
 second_title: Aspose.CAD .NET - CAD 和 BIM 檔案格式
 description: 在本逐步指南中探索 Aspose.CAD for .NET 的無縫集成，輕鬆將 DXF 檔案匯出為 PDF。
-type: docs
 weight: 12
 url: /zh-hant/net/export-techniques/exporting-dxf-to-pdf-format/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 將 DXF 匯出為 PDF 格式 - Aspose.CAD 教學課程
+
 ## 介紹
 
 歡迎來到我們關於使用 Aspose.CAD for .NET 將 DXF 檔案匯出為 PDF 格式的綜合教學！如果您是開發人員，希望將此功能無縫整合到您的 .NET 應用程式中，那麼您來對地方了。在本指南中，我們將逐步引導您完成整個過程，確保您徹底掌握每個概念。
@@ -109,3 +115,9 @@ A4：如有任何疑問或幫助，請訪問[Aspose.CAD論壇](https://forum.asp
 ### Q5：我可以購買臨時許可證嗎？
 
  A5：是的，您可以從以下機構獲得臨時許可證：[這裡](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

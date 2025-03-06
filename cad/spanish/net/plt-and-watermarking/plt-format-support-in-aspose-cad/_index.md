@@ -3,10 +3,16 @@ title: Compatibilidad con el formato PLT en Aspose.CAD un tutorial completo
 linktitle: Soporte de formato PLT en Aspose.CAD - Tutorial
 second_title: Aspose.CAD .NET - Formato de archivo CAD y BIM
 description: Descubra la compatibilidad perfecta con el formato PLT en Aspose.CAD para .NET. Siga nuestra guía paso a paso para integrar archivos PLT en sus aplicaciones .NET sin esfuerzo.
-type: docs
 weight: 10
 url: /es/net/plt-and-watermarking/plt-format-support-in-aspose-cad/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Compatibilidad con el formato PLT en Aspose.CAD un tutorial completo
+
 ## Introducción
 
 ¡Bienvenido a nuestro tutorial detallado sobre la compatibilidad con el formato PLT en Aspose.CAD para .NET! Si es un desarrollador que busca trabajar con archivos PLT y aprovechar el poder de Aspose.CAD, está en el lugar correcto. En esta guía, lo guiaremos a través de los pasos esenciales, los requisitos previos y le brindaremos ejemplos detallados para garantizar que pueda integrar sin problemas el soporte PLT en sus aplicaciones .NET.
@@ -118,3 +124,9 @@ R2: ¡Absolutamente! Como se muestra en el tutorial, puede personalizar las opci
 ### P5: ¿Cómo obtengo una licencia temporal?
 
  R5: Para licencias temporales, diríjase a[este enlace](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Szöveg hozzáadása DWG-fájlokhoz C#-ban - Aspose.CAD oktatóanyag
 linktitle: Szöveg hozzáadása DWG-fájlokhoz C#-ban
 second_title: Aspose.CAD .NET - CAD és BIM fájlformátum
 description: Ismerje meg, hogyan adhat hozzá szöveget DWG-fájlokhoz C# és Aspose.CAD használatával. Kövesse ezt a lépésenkénti oktatóanyagot a zökkenőmentes integráció érdekében. Fedezze fel az Aspose.CAD dokumentációt átfogó útmutatásért.
-type: docs
 weight: 14
 url: /hu/net/dwg-file-manipulation/adding-text-to-dwg/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Szöveg hozzáadása DWG-fájlokhoz C#-ban - Aspose.CAD oktatóanyag
+
 ## Bevezetés
 
 A számítógéppel segített tervezés (CAD) és .NET-fejlesztés dinamikus birodalmában az Aspose.CAD a DWG-fájlok kezelésének hatékony eszközeként tűnik ki. Szöveg hozzáadása a DWG-fájlokhoz gyakori követelmény, és ebben az oktatóanyagban megvizsgáljuk, hogyan érhetjük el ezt a C# és az Aspose.CAD használatával.
@@ -125,3 +131,9 @@ Ebben az oktatóanyagban bemutattuk azokat a lényeges lépéseket, amelyekkel s
 ### 5. kérdés: Hol kérhetek segítséget vagy vitathatom meg az Aspose.CAD-vel kapcsolatos lekérdezéseket?
 
 A5: Látogassa meg a[Aspose.CAD fórum](https://forum.aspose.com/c/cad/19)kapcsolatba lépni a közösséggel és támogatást kapni.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

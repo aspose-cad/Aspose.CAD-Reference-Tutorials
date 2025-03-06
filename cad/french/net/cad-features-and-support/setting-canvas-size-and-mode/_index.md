@@ -3,10 +3,16 @@ title: Définition de la taille et du mode du canevas dans Aspose.CAD pour .NET
 linktitle: Définition de la taille et du mode du canevas
 second_title: Aspose.CAD .NET - Format de fichier CAO et BIM
 description: Explorez le guide étape par étape sur la définition de la taille et du mode du canevas dans Aspose.CAD pour .NET. Optimisez facilement votre rendu CAO à l’aide de ce didacticiel complet.
-type: docs
 weight: 16
 url: /fr/net/cad-features-and-support/setting-canvas-size-and-mode/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Définition de la taille et du mode du canevas dans Aspose.CAD pour .NET
+
 ## Introduction
 
 Êtes-vous prêt à libérer tout le potentiel d'Aspose.CAD pour .NET et à révolutionner votre expérience de rendu CAO ? Dans ce didacticiel étape par étape, nous aborderons les subtilités de la définition de la taille et du mode du canevas à l'aide de la puissante bibliothèque Aspose.CAD. Que vous soyez un développeur chevronné ou débutant, ce guide vous guidera tout au long du processus, vous assurant d'exploiter efficacement les capacités d'Aspose.CAD.
@@ -119,3 +125,9 @@ A1 : Oui, Aspose.CAD s'intègre de manière transparente à d'autres bibliothèq
 ### Q5 : Comment puis-je acheter Aspose.CAD pour .NET ?
 
  A5 : Pour acheter Aspose.CAD, visitez le[page d'achat](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

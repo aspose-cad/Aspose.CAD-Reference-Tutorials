@@ -3,10 +3,16 @@ title: دعم تنسيق OBJ في Aspose.CAD - البرنامج التعليمي
 linktitle: دعم تنسيق OBJ في Aspose.CAD - البرنامج التعليمي
 second_title: Aspose.CAD .NET - تنسيق ملف CAD وBIM
 description: أطلق العنان لإمكانات Aspose.CAD لـ .NET. تعرف على كيفية دعم تنسيق OBJ بسلاسة في تطبيقات CAD الخاصة بك من خلال هذا البرنامج التعليمي خطوة بخطوة.
-type: docs
 weight: 10
 url: /ar/net/3d-model-support/supporting-obj-format-in-aspose-cad/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# دعم تنسيق OBJ في Aspose.CAD - البرنامج التعليمي
+
 ## مقدمة
 
 إذا كنت تتعمق في عالم التصميم بمساعدة الكمبيوتر (CAD) في تطوير .NET، فقد تواجه الحاجة إلى العمل مع ملفات OBJ. يعد Aspose.CAD for .NET حلاً قويًا يمكّن المطورين من دعم تنسيق OBJ بسلاسة داخل تطبيقاتهم. في هذا البرنامج التعليمي، سنرشدك خلال عملية دمج Aspose.CAD في مشروعك للعمل مع ملفات OBJ بشكل فعال.
@@ -97,3 +103,9 @@ CADDoc.Save(MyDir + "example-580-W_custom.pdf", CADf);
 ### س5: أين يمكنني شراء Aspose.CAD؟
 
  A5: يمكنك شراء Aspose.CAD[هنا](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

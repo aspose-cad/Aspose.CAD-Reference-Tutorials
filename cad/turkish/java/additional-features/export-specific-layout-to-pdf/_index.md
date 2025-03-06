@@ -3,10 +3,16 @@ title: Aspose.CAD for Java ile Belirli DXF Düzenini PDF'ye Aktarın
 linktitle: Belirli DXF Düzenini Java ile PDF'ye Aktarın
 second_title: Aspose.CAD Java API'si
 description: Aspose.CAD for Java ile DXF'den PDF'ye kusursuz dönüştürmeyi keşfedin. Belirli düzenleri zahmetsizce ve hassas bir şekilde dışa aktarın.
-type: docs
 weight: 17
 url: /tr/java/additional-features/export-specific-layout-to-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.CAD for Java ile Belirli DXF Düzenini PDF'ye Aktarın
+
 ## giriiş
 
 CAD çizimleriyle çalışan bir Java geliştiricisiyseniz, farklı formatlar arasında verimli ve hassas dönüşümün önemini anlayacaksınız. Aspose.CAD for Java, geliştiricilerin CAD dosyalarını sorunsuz bir şekilde işlemesine olanak tanıyan güçlü bir kütüphanedir. Bu eğitimde, Aspose.CAD for Java kullanarak belirli bir DXF düzenini PDF'ye aktarma sürecinde size rehberlik edeceğiz.
@@ -105,3 +111,9 @@ C2: Evet, özel düzen gereksinimlerinize göre rasterleştirme seçeneklerini k
 ### S5: Aspose.CAD for Java desteğini nasıl alabilirim?
 
  Cevap5: Destek forumunu ziyaret edin[Burada](https://forum.aspose.com/c/cad/19)Aspose topluluğundan yardım için.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

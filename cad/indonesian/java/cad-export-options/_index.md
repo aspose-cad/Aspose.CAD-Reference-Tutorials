@@ -3,10 +3,16 @@ title: Opsi Ekspor CAD
 linktitle: Opsi Ekspor CAD
 second_title: Aspose.CAD Java API
 description: Ekspor gambar AutoCAD, tata letak CAD, IFC, file STL dengan mudah ke PDF, BMP, PNG menggunakan Aspose.CAD untuk Java. Sederhanakan alur kerja Anda dengan tutorial langkah demi langkah kami.
-type: docs
 weight: 30
 url: /id/java/cad-export-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Opsi Ekspor CAD
+
 
 ## Perkenalan
 
@@ -50,3 +56,9 @@ Pelajari cara mengekspor file CAD ke PDF dengan mudah menggunakan Aspose.CAD unt
 Konversikan IFC ke PNG dengan mudah menggunakan Aspose.CAD untuk Java. Ikuti tutorial langkah demi langkah kami.
 ### [Ekspor STL ke PNG dengan Aspose.CAD untuk Java](./export-stl-to-png/)
 Jelajahi proses mulus mengekspor file STL ke PNG di Java dengan Aspose.CAD. Sederhanakan alur kerja Anda dan tingkatkan proyek Java Anda dengan mudah.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

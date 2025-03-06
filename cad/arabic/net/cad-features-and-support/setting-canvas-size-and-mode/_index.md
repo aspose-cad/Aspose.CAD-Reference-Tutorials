@@ -3,10 +3,16 @@ title: ضبط حجم القماش ووضعه في Aspose.CAD لـ .NET
 linktitle: ضبط حجم القماش ووضعه
 second_title: Aspose.CAD .NET - تنسيق ملف CAD وBIM
 description: استكشف الدليل التفصيلي خطوة بخطوة حول تعيين حجم اللوحة القماشية ووضعها في Aspose.CAD لـ .NET. قم بتحسين عرض CAD الخاص بك بسهولة باستخدام هذا البرنامج التعليمي الشامل.
-type: docs
 weight: 16
 url: /ar/net/cad-features-and-support/setting-canvas-size-and-mode/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# ضبط حجم القماش ووضعه في Aspose.CAD لـ .NET
+
 ## مقدمة
 
 هل أنت مستعد لإطلاق الإمكانات الكاملة لـ Aspose.CAD لـ .NET وإحداث ثورة في تجربة عرض CAD لديك؟ في هذا البرنامج التعليمي خطوة بخطوة، سنتعمق في تعقيدات تحديد حجم اللوحة ووضعها باستخدام مكتبة Aspose.CAD القوية. سواء كنت مطورًا متمرسًا أو بدأت للتو، سيرشدك هذا الدليل خلال العملية، مما يضمن لك الاستفادة من إمكانات Aspose.CAD بشكل فعال.
@@ -119,3 +125,9 @@ image.Save(MyDir + "result_out.tiff", tiffOptions);
 ### س5: كيف يمكنني شراء Aspose.CAD لـ .NET؟
 
  ج5: لشراء Aspose.CAD، قم بزيارة[صفحة الشراء](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

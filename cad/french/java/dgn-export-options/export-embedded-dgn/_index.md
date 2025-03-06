@@ -3,10 +3,16 @@ title: Exporter le DGN intégré au format PDF avec Aspose.CAD pour Java
 linktitle: Exporter le DGN intégré
 second_title: API Java Aspose.CAD
 description: Explorez le guide étape par étape sur l'exportation de fichiers DGN intégrés au format PDF à l'aide d'Aspose.CAD pour Java. Améliorez vos applications Java grâce à une manipulation transparente des fichiers CAO.
-type: docs
 weight: 11
 url: /fr/java/dgn-export-options/export-embedded-dgn/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Exporter le DGN intégré au format PDF avec Aspose.CAD pour Java
+
 ## Introduction
 
 Bienvenue dans ce didacticiel complet sur l'exportation de fichiers DGN intégrés à l'aide d'Aspose.CAD pour Java. Aspose.CAD est une bibliothèque puissante qui permet aux développeurs Java de travailler de manière transparente avec des fichiers CAO. Dans ce didacticiel, nous vous guiderons tout au long du processus d'exportation de fichiers DGN intégrés au format PDF à l'aide d'instructions étape par étape. Que vous soyez un développeur chevronné ou débutant, ce didacticiel vous aidera à exploiter les capacités d'Aspose.CAD pour améliorer vos applications Java.
@@ -103,3 +109,9 @@ A3 : Vous pouvez demander l'aide de la communauté Aspose.CAD sur le[forum](htt
 ### Q5 : Où puis-je trouver la documentation ?
 
  A5 : La documentation est disponible[ici](https://reference.aspose.com/cad/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

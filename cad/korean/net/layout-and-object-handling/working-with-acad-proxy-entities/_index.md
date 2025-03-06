@@ -3,10 +3,16 @@ title: ACAD 프록시 엔터티 작업 - Aspose.CAD 가이드
 linktitle: ACAD 프록시 엔터티 작업
 second_title: Aspose.CAD .NET - CAD 및 BIM 파일 형식
 description: .NET용 Aspose.CAD를 탐색하고 CAD 워크플로우를 간소화하세요. ACAD 프록시 엔터티를 쉽게 변환, 편집 및 관리할 수 있습니다.
-type: docs
 weight: 13
 url: /ko/net/layout-and-object-handling/working-with-acad-proxy-entities/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# ACAD 프록시 엔터티 작업 - Aspose.CAD 가이드
+
 ## 소개
 
 .NET 개발이라는 역동적인 세계에서 CAD 도면을 생성하고 관리하는 것은 중요한 작업입니다. .NET용 Aspose.CAD는 AutoCAD 프록시 엔터티 작업을 위한 강력한 솔루션을 제공합니다. 이 가이드는 Aspose.CAD의 기능을 활용하고 CAD 관련 워크플로를 간소화하는 필수 단계를 안내합니다.
@@ -98,3 +104,9 @@ A1: 예, Aspose.CAD는 DWG 및 DXF를 포함한 다양한 CAD 형식을 지원�
 ### Q5: Aspose.CAD for .NET의 정식 라이센스는 어디서 구입할 수 있나요?
 
  A5: 다음에서 라이센스를 구입할 수 있습니다.[구매 페이지](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

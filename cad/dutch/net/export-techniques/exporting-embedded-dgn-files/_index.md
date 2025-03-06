@@ -3,10 +3,16 @@ title: Ingebedde DGN-bestanden exporteren - Aspose.CAD-zelfstudie
 linktitle: Ingesloten DGN-bestanden exporteren
 second_title: Aspose.CAD .NET - CAD- en BIM-bestandsindeling
 description: Ontdek de kracht van Aspose.CAD voor .NET. Leer hoe u ingesloten DGN-bestanden moeiteloos naar PDF kunt exporteren met deze stapsgewijze zelfstudie.
-type: docs
 weight: 14
 url: /nl/net/export-techniques/exporting-embedded-dgn-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ingebedde DGN-bestanden exporteren - Aspose.CAD-zelfstudie
+
 ## Invoering
 
 In de dynamische wereld van softwareontwikkeling onderscheidt Aspose.CAD voor .NET zich als een krachtig hulpmiddel voor het verwerken van Computer-Aided Design (CAD)-bestanden. Deze tutorial leidt u door het proces van het exporteren van ingesloten DGN-bestanden met Aspose.CAD voor .NET. Of u nu een doorgewinterde ontwikkelaar of een nieuwsgierige beginner bent, deze stapsgewijze handleiding helpt u de mogelijkheden van Aspose.CAD effectief te benutten.
@@ -98,3 +104,9 @@ A1: Aspose.CAD ondersteunt voornamelijk .NET, maar Aspose biedt bibliotheken voo
 ### Vraag 5: Heb je hulp nodig of wil je betrokken raken bij de gemeenschap?
 
 A5: Bezoek de[Aspose.CAD-forum](https://forum.aspose.com/c/cad/19) voor ondersteuning en discussies.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: DWT 形式と DWG 形式の区別 - Aspose.CAD ガイド
 linktitle: DWT 形式と DWG 形式の区別
 second_title: Aspose.CAD .NET - CAD および BIM ファイル形式
 description: Aspose.CAD for .NET を使用して、DWT 形式と DWG 形式の微妙な違いを調べてください。これらの CAD ファイル タイプを簡単に区別できます。
-type: docs
 weight: 12
 url: /ja/net/conversion-and-export/distinguishing-between-dwt-and-dwg-formats/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# DWT 形式と DWG 形式の区別 - Aspose.CAD ガイド
+
 ## 導入
 
 コンピュータ支援設計 (CAD) の分野では、ファイル形式を理解することがシームレスなコラボレーションと効率的なワークフローにとって重要です。 DWT と DWG という 2 つの一般的な形式は、類似しているため、混乱を招くことがよくあります。このチュートリアルは、CAD ファイル操作用の強力なライブラリである Aspose.CAD for .NET を使用して、これらの形式をわかりやすく理解することを目的としています。
@@ -93,3 +99,9 @@ A1: Aspose.CAD for .NET は、他の .NET ライブラリとシームレスに�
 ### Q5: Aspose.CAD for .NET を商用プロジェクトで使用できますか?
 
  A5: はい、次の方法で Aspose.CAD for .NET を商用プロジェクトに統合できます。[ライセンスを購入する](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

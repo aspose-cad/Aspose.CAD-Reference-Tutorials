@@ -3,10 +3,16 @@ title: Vízjelek hozzáadása a CAD-rajzokhoz – Aspose.CAD for Java Tutorial
 linktitle: Vízjel hozzáadása
 second_title: Aspose.CAD Java API
 description: Az Aspose.CAD for Java segítségével személyre szabott vízjelekkel javíthatja CAD-rajzait. Kövesse lépésenkénti útmutatónkat a zökkenőmentes integráció érdekében.
-type: docs
 weight: 12
 url: /hu/java/other-cad-operations/add-watermark/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Vízjelek hozzáadása a CAD-rajzokhoz – Aspose.CAD for Java Tutorial
+
 ## Bevezetés
 
 Üdvözöljük ebben az átfogó útmutatóban, amely az Aspose.CAD for Java használatával vízjelek CAD-rajzokhoz való hozzáadásával foglalkozik. Ebből az oktatóanyagból megtudhatja, hogyan integrálhatja hatékonyan a vízjeleket, személyre szabott üzenetekkel vagy márkajelzéssel javítva CAD-dokumentumait. Az Aspose.CAD for Java hatékony funkciókat kínál, amelyek egyszerűvé teszik a vízjel hozzáadásának folyamatát.
@@ -99,3 +105,9 @@ Gratulálunk! Sikeresen hozzáadott vízjeleket CAD-rajzaihoz az Aspose.CAD for 
 ### 5. kérdés: Hol találom az Aspose.CAD for Java teljes dokumentációját?
 
  A5: Lásd a[dokumentáció](https://reference.aspose.com/cad/java/) részletes információkért.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

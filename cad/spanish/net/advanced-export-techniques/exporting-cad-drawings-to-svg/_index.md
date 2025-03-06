@@ -3,10 +3,16 @@ title: Exportación de dibujos CAD a formato SVG - Guía Aspose.CAD
 linktitle: Exportación de dibujos CAD a formato SVG
 second_title: Aspose.CAD .NET - Formato de archivo CAD y BIM
 description: Explore el proceso fluido de exportar dibujos CAD a SVG usando Aspose.CAD para .NET. Mejore su desarrollo CAD con flexibilidad y personalización.
-type: docs
 weight: 15
 url: /es/net/advanced-export-techniques/exporting-cad-drawings-to-svg/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Exportación de dibujos CAD a formato SVG - Guía Aspose.CAD
+
 ## Introducción
 
 En el dinámico mundo del CAD (diseño asistido por computadora), la capacidad de exportar dibujos a varios formatos es una habilidad crucial. SVG (Scalable Vector Graphics) es uno de esos formatos que ha ganado popularidad debido a su escalabilidad y versatilidad. En este tutorial, exploraremos cómo exportar dibujos CAD a SVG utilizando la potente biblioteca Aspose.CAD para .NET.
@@ -87,3 +93,9 @@ R2: Sí, Aspose.CAD le permite elegir el modo de color, brindando flexibilidad e
 ### P5: ¿Cómo puedo obtener soporte o hacer preguntas relacionadas con Aspose.CAD?
 
  A5: Visita el foro de la comunidad[aquí](https://forum.aspose.com/c/cad/19) para apoyo y discusiones.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

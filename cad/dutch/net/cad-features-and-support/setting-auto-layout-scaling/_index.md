@@ -3,10 +3,16 @@ title: Automatische lay-outschaling instellen in Aspose.CAD voor .NET
 linktitle: Automatische lay-outschaling instellen
 second_title: Aspose.CAD .NET - CAD- en BIM-bestandsindeling
 description: Verbeter de CAD-weergave met Aspose.CAD voor .NET. Leer hoe u Auto Layout Scaling instelt voor nauwkeurige en aanpasbare bestandsweergave.
-type: docs
 weight: 14
 url: /nl/net/cad-features-and-support/setting-auto-layout-scaling/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Automatische lay-outschaling instellen in Aspose.CAD voor .NET
+
 In de dynamische wereld van .NET-ontwikkeling is het optimaliseren van de weergave van Computer-Aided Design (CAD)-bestanden een cruciaal aspect bij het creëren van efficiënte en visueel aantrekkelijke applicaties. Aspose.CAD voor .NET stelt ontwikkelaars in staat hun CAD-verwerkingsmogelijkheden te verbeteren, en in deze tutorial zullen we ons concentreren op het instellen van Auto Layout Scaling met behulp van Aspose.CAD voor .NET.
 
 ## Vereisten
@@ -107,3 +113,9 @@ A4: Absoluut, Aspose.CAD biedt een breed scala aan opties voor het aanpassen van
 ### V5: Waar kan ik aanvullende bronnen en ondersteuning voor Aspose.CAD vinden?
 
  A5: Ontdek de[Aspose.CAD-forum](https://forum.aspose.com/c/cad/19) voor gemeenschapsondersteuning, en raadpleeg de[documentatie](https://reference.aspose.com/cad/net/) voor gedetailleerde informatie.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

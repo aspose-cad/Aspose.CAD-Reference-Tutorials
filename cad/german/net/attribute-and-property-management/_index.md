@@ -3,10 +3,16 @@ title: Attribut- und Eigenschaftsverwaltung
 linktitle: Attribut- und Eigenschaftsverwaltung
 second_title: Aspose.CAD .NET – CAD- und BIM-Dateiformat
 description: Werten Sie Ihre CAD-Zeichnungen mit Aspose.CAD für .NET auf! Erfahren Sie in den Tutorials, wie Sie Attribute und benutzerdefinierte Eigenschaften nahtlos hinzufügen. Verbessern Sie Ihre Designs mühelos.
-type: docs
 weight: 30
 url: /de/net/attribute-and-property-management/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Attribut- und Eigenschaftsverwaltung
+
 
 
 ## Einführung
@@ -47,3 +53,9 @@ Zusammenfassend lässt sich sagen, dass Aspose.CAD für .NET die Türen zu einer
 Erweitern Sie Ihre CAD-Zeichnungen mit Attributen mithilfe von Aspose.CAD für .NET. Befolgen Sie unsere Schritt-für-Schritt-Anleitung für eine nahtlose Integration.
 ### [Hinzufügen benutzerdefinierter Eigenschaften zu DWG-Dateien – Aspose.CAD-Handbuch](./adding-custom-properties-to-dwg/)
 Erweitern Sie Ihre DWG-Dateien mit benutzerdefinierten Eigenschaften mit Aspose.CAD für .NET. Befolgen Sie unsere Schritt-für-Schritt-Anleitung, um mühelos aussagekräftige Metadaten hinzuzufügen.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

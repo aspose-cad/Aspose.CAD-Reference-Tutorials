@@ -3,10 +3,16 @@ title: 集成 IGES 格式
 linktitle: 集成 IGES 格式
 second_title: Aspose.CAD Java API
 description: 探索 IGES 格式与 Aspose.CAD for Java 的无缝集成。遵循我们的分步指南，利用 Aspose.CAD 的强大功能来提升您的 CAD 开发体验。
-type: docs
 weight: 11
 url: /zh/java/advanced-cad-features/integrate-iges-format/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 集成 IGES 格式
+
 ## 介绍
 
 在 CAD（计算机辅助设计）的动态世界中，集成各种文件格式的需求至关重要。本指南深入探讨使用 Aspose.CAD for Java 无缝集成 IGES（初始图形交换规范）格式。 Aspose.CAD 使开发人员能够轻松操作和转换 CAD 文件，为应用程序开发开辟了一个充满可能性的世界。
@@ -88,3 +94,9 @@ A2：当然！如教程中所示，您可以定制矢量光栅化选项以满足
 ### Q5：如何购买Aspose.CAD许可证？
 
  A5：您可以购买Aspose.CAD许可证[这里](https://purchase.aspose.com/buy)释放图书馆的全部潜力。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Manipulation de fichiers CAO
 linktitle: Manipulation de fichiers CAO
 second_title: API Java Aspose.CAD
 description: Libérez la puissance des fichiers CAO avec Aspose.CAD pour Java ! Convertissez DWFX en PDF, accédez aux indicateurs DWG, aux mises en page de listes et à l'ajustement automatique des tailles avec nos didacticiels.
-type: docs
 weight: 23
 url: /fr/java/cad-file-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Manipulation de fichiers CAO
+
 
 ## Introduction
 
@@ -44,3 +50,9 @@ Explorez Aspose.CAD pour Java et répertoriez facilement les mises en page dans 
 Explorez le processus transparent d'ajustement automatique des tailles de dessin CAO en Java à l'aide d'Aspose.CAD. Suivez notre guide étape par étape pour une manipulation efficace des fichiers CAO.
 ### [Ajustement de la taille du dessin CAO à l'aide du type d'unité avec Aspose.CAD pour Java](./adjusting-cad-drawing-size-using-unit-type/)
 Découvrez la puissance d'Aspose.CAD pour Java pour ajuster facilement la taille des dessins CAO. Suivez notre guide étape par étape pour plus de précision et d’adaptabilité.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: 在 Aspose.CAD for .NET 中設定自動佈局縮放
 linktitle: 設定自動佈局縮放
 second_title: Aspose.CAD .NET - CAD 和 BIM 檔案格式
 description: 使用 Aspose.CAD for .NET 增強 CAD 渲染。了解如何設定自動佈局縮放以實現精確且適應性強的檔案渲染。
-type: docs
 weight: 14
 url: /zh-hant/net/cad-features-and-support/setting-auto-layout-scaling/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.CAD for .NET 中設定自動佈局縮放
+
 在 .NET 開發的動態領域中，優化電腦輔助設計 (CAD) 檔案的渲染是創建高效且具有視覺吸引力的應用程式的重要方面。 Aspose.CAD for .NET 使開發人員能夠增強其 CAD 處理能力，在本教程中，我們將重點放在使用 Aspose.CAD for .NET 設定自動佈局縮放。
 
 ## 先決條件
@@ -107,3 +113,9 @@ A4：當然，Aspose.CAD 提供了多種自訂輸出的選項，包括顏色設�
 ### 問題 5：在哪裡可以找到 Aspose.CAD 的其他資源和支援？
 
  A5：探索[Aspose.CAD論壇](https://forum.aspose.com/c/cad/19)尋求社區支持，並參考[文件](https://reference.aspose.com/cad/net/)獲取詳細資訊。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

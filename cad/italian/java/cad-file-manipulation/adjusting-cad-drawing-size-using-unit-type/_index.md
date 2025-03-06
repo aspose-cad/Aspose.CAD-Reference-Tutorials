@@ -3,10 +3,16 @@ title: Regolazione delle dimensioni del disegno CAD utilizzando il tipo di unit�
 linktitle: Regolazione delle dimensioni del disegno CAD utilizzando il tipo di unità
 second_title: API Java Aspose.CAD
 description: Esplora la potenza di Aspose.CAD per Java nella regolazione delle dimensioni dei disegni CAD senza sforzo. Segui la nostra guida passo passo per precisione e adattabilità.
-type: docs
 weight: 14
 url: /it/java/cad-file-manipulation/adjusting-cad-drawing-size-using-unit-type/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Regolazione delle dimensioni del disegno CAD utilizzando il tipo di unità con Aspose.CAD per Java
+
 ## introduzione
 
 Nel campo in continua evoluzione della progettazione assistita da computer (CAD), precisione e adattabilità sono fondamentali. Un requisito comune è la regolazione delle dimensioni dei disegni CAD in base a tipi di unità specifici. Aspose.CAD per Java emerge come un potente alleato, fornendo funzionalità continue per manipolare i file CAD a livello di codice.
@@ -117,3 +123,9 @@ A1: Aspose.CAD supporta principalmente Java, ma sono disponibili versioni per al
 ### Q5: Posso ottenere una licenza temporanea per Aspose.CAD?
 
  R5: Sì, puoi acquisire una licenza temporanea[Qui](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

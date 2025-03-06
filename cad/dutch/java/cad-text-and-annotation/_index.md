@@ -3,10 +3,16 @@ title: CAD-tekst en annotatie
 linktitle: CAD-tekst en annotatie
 second_title: Aspose.CAD Java-API
 description: Verbeter uw DWG-tekeningen moeiteloos met Aspose.CAD voor Java. Beheers het toevoegen en vervangen van lettertypen in DWG-bestanden. Stapsgewijze handleidingen voor visuele perfectie.
-type: docs
 weight: 21
 url: /nl/java/cad-text-and-annotation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# CAD-tekst en annotatie
+
 
 ## Invoering 
 
@@ -36,3 +42,9 @@ Verbeter uw DWG-tekeningen moeiteloos met Aspose.CAD voor Java. Voeg naadloos te
 Verbeter uw CAD-ontwerpen moeiteloos. Leer lettertypen vervangen in DWG-bestanden met Aspose.CAD voor Java. Stap-voor-stap handleiding voor visuele perfectie.
 ### [Vervang het lettertype van een bepaalde stijl in DWG met Aspose.CAD voor Java](./substitute-font-of-particular-style-in-dwg/)
 Leer hoe u lettertypen in DWG-bestanden vervangt met Aspose.CAD voor Java. Stapsgewijze handleiding voor het nauwkeurig aanpassen van stijlen.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

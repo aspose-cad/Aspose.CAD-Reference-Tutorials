@@ -3,10 +3,16 @@ title: عرض الألوان في ملفات CAD - دليل Aspose.CAD
 linktitle: تقديم الألوان في ملفات CAD
 second_title: Aspose.CAD .NET - تنسيق ملف CAD وBIM
 description: عرض ملف CAD الرئيسي في .NET باستخدام Aspose.CAD. اتبع دليلنا خطوة بخطوة للحصول على ألوان زاهية.
-type: docs
 weight: 10
 url: /ar/net/conversion-and-export/rendering-colors-in-cad-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# عرض الألوان في ملفات CAD - دليل Aspose.CAD
+
 ## مقدمة
 
 هل تواجه التحدي المتمثل في عرض الألوان في ملفات CAD باستخدام .NET؟ لا مزيد من البحث! في هذا الدليل الشامل، سنرشدك خلال العملية خطوة بخطوة باستخدام مكتبة Aspose.CAD القوية. بحلول نهاية هذا البرنامج التعليمي، ستكون مجهزًا بالمعرفة اللازمة لعرض الألوان في ملفات CAD الخاصة بك دون عناء.
@@ -108,3 +114,9 @@ document.Save(output, saveOptions);
 ### س5: أين يمكنني شراء مكتبة Aspose.CAD؟
 
  A5: شراء Aspose.CAD[هنا](https://purchase.aspose.com/buy) لإطلاق العنان لإمكاناته الكاملة.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

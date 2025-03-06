@@ -3,10 +3,16 @@ title: Add Attributes to MText in DWG Files Using Aspose.CAD for Java
 linktitle: Add Attributes to MText in DWG Files with Java
 second_title: Aspose.CAD Java API
 description: Learn how to add attributes to MText in DWG files using Aspose.CAD for Java. Elevate your CAD drawings with this step-by-step guide.
-type: docs
 weight: 13
 url: /java/cad-text-and-formatting/add-attributes-to-mtext/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Add Attributes to MText in DWG Files Using Aspose.CAD for Java
+
 ## Introduction
 
 In the world of Java programming, manipulating CAD files is a common task. Aspose.CAD for Java is a powerful library that facilitates the handling of CAD files, making it a go-to choice for developers. In this tutorial, we'll delve into a specific use case: adding attributes to MText in DWG files. This can be crucial for enhancing the richness of your CAD drawings.
@@ -117,3 +123,10 @@ A4: Visit the Aspose.CAD for Java forum [here](https://forum.aspose.com/c/cad/19
 ### Q5: Can I try Aspose.CAD for Java before purchasing a license?
 
 A5: Yes, you can explore a free trial [here](https://releases.aspose.com/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: PLT és vízjel
 linktitle: PLT és vízjel
 second_title: Aspose.CAD .NET - CAD és BIM fájlformátum
 description: Használja ki a PLT formátumban rejlő lehetőségeket az Aspose.CAD for .NET segítségével. Könnyedén integrálhatja a PLT fájlokat alkalmazásaiba lépésenkénti oktatóanyagaink segítségével.
-type: docs
 weight: 37
 url: /hu/net/plt-and-watermarking/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# PLT és vízjel
+
 
 ## Bevezetés
 
@@ -46,3 +52,9 @@ Fedezze fel a lehetőségek teljes spektrumát az Aspose.CAD for .NET segítség
 Fedezze fel a zökkenőmentes PLT formátum támogatást az Aspose.CAD for .NET-ben. Kövesse lépésenkénti útmutatónkat a PLT-fájlok .NET-alkalmazásaiba való erőfeszítés nélküli integrálásához.
 ### [Vízjelek hozzáadása CAD-rajzokhoz – Aspose.CAD útmutató](./adding-watermarks-to-cad-drawings/)
 Fejlessze CAD-rajzait professzionális vízjelekkel az Aspose.CAD for .NET segítségével. Kövesse lépésről lépésre szóló útmutatónkat a személyre szabott és megnyerő tervekhez.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

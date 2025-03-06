@@ -3,10 +3,16 @@ title: 저장 작업 시 시간 초과 설정 - Aspose.CAD Tutorial
 linktitle: 저장 작업 시 시간 초과 설정
 second_title: Aspose.CAD .NET - CAD 및 BIM 파일 형식
 description: Aspose.CAD for .NET을 사용하여 시간 초과 설정으로 CAD 저장 작업을 향상시키는 방법을 알아보세요. .NET 애플리케이션의 효율성과 제어력을 높이세요.
-type: docs
 weight: 12
 url: /ko/net/advanced-cad-techniques/setting-timeout-on-save-operation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 저장 작업 시 시간 초과 설정 - Aspose.CAD Tutorial
+
 ## 소개
 
 CAD(컴퓨터 지원 설계)의 동적 영역에서 작업의 효율성과 유연성은 저장 작업을 효과적으로 관리하는 능력에 달려 있는 경우가 많습니다. 이 튜토리얼에서는 이 프로세스의 중요한 측면, 즉 .NET용 Aspose.CAD를 사용하여 저장 작업에 대한 시간 제한을 설정하는 방법을 자세히 살펴보겠습니다. Aspose.CAD는 개발자가 .NET 애플리케이션에서 CAD 파일 형식으로 원활하게 작업할 수 있도록 지원하는 강력한 라이브러리입니다.
@@ -114,3 +120,9 @@ A4: 물론이죠! Aspose.CAD는 2D 및 3D CAD 파일 형식을 모두 지원합�
 ### Q5: 추가 지원이나 커뮤니티 지원은 어디서 찾을 수 있나요?
 
 A5: 다음을 방문하세요.[Aspose.CAD 포럼](https://forum.aspose.com/c/cad/19) 커뮤니티 지원 및 토론을 위해.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

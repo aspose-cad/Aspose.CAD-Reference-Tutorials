@@ -3,10 +3,16 @@ title: 在 C# 中使用坐标将 DWG 转换为 PDF - Aspose.CAD 教程
 linktitle: 在 C# 中使用坐标将 DWG 转换为 PDF
 second_title: Aspose.CAD .NET - CAD 和 BIM 文件格式
 description: 了解如何使用 Aspose.CAD 在 C# 中将 DWG 转换为具有特定坐标的 PDF。按照我们的分步指南进行精确高效的 CAD 文件转换。
-type: docs
 weight: 11
 url: /zh/net/conversion-and-export/converting-dwg-to-pdf-with-coordinates/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 C# 中使用坐标将 DWG 转换为 PDF - Aspose.CAD 教程
+
 ## 介绍
 
 欢迎阅读这个关于使用 Aspose.CAD for .NET 将 DWG 文件转换为具有指定坐标的 PDF 的综合教程。 Aspose.CAD 是一个功能强大的库，允许开发人员在其 .NET 应用程序中无缝地使用 CAD 文件格式。在本教程中，我们将引导您完成将 DWG 文件转换为 PDF 的过程，同时提供特定坐标以提高精度。
@@ -134,3 +140,9 @@ A4：当然！探索 Aspose.CAD 提供的广泛选项，根据您的特定要求
 ### 问题 5：我在哪里可以找到其他支持或社区讨论？
 
 A5：访问[Aspose.CAD论坛](https://forum.aspose.com/c/cad/19)以获得社区支持和讨论。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

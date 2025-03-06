@@ -3,10 +3,16 @@ title: Mengekspor Objek OLE dari File DWG - Tutorial Aspose.CAD
 linktitle: Mengekspor Objek OLE dari File DWG
 second_title: Aspose.CAD .NET - Format File CAD dan BIM
 description: Jelajahi panduan langkah demi langkah tentang mengekspor objek OLE dari file DWG menggunakan Aspose.CAD untuk .NET. Tingkatkan keterampilan manipulasi file CAD Anda dengan mudah.
-type: docs
 weight: 12
 url: /id/net/advanced-export-techniques/exporting-ole-objects-from-dwg/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Mengekspor Objek OLE dari File DWG - Tutorial Aspose.CAD
+
 ## Perkenalan
 
 Apakah Anda ingin mengekstrak objek OLE dari file DWG dengan mudah? Aspose.CAD untuk .NET hadir untuk menyederhanakan proses untuk Anda. Dalam tutorial ini, kami akan memandu Anda mengekspor objek OLE langkah demi langkah, memastikan Anda memanfaatkan perpustakaan .NET yang kuat ini. 
@@ -98,3 +104,9 @@ A2: Tentu saja! Seperti yang ditunjukkan dalam tutorial, Anda dapat menyesuaikan
 ### Q5: Bagaimana saya bisa mendapatkan dukungan atau terhubung dengan komunitas?
 
  A5: Untuk dukungan dan keterlibatan komunitas, kunjungi[Forum Aspose.CAD](https://forum.aspose.com/c/cad/19).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

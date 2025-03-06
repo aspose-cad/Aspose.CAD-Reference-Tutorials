@@ -3,10 +3,16 @@ title: Prise en charge du modèle 3D
 linktitle: Prise en charge du modèle 3D
 second_title: Aspose.CAD .NET - Format de fichier CAO et BIM
 description: Optimisez vos applications CAO avec Aspose.CAD pour .NET ! Maîtrisez l’art de prendre en charge de manière transparente le format OBJ, libérant ainsi tout le potentiel de vos modèles 3D.
-type: docs
 weight: 40
 url: /fr/net/3d-model-support/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Prise en charge du modèle 3D
+
 
 ## Introduction
 
@@ -32,3 +38,9 @@ Ne manquez pas l'opportunité de rester à la pointe du développement CAO. Plon
 ## Tutoriels de prise en charge des modèles 3D
 ### [Prise en charge du format OBJ dans Aspose.CAD - Tutoriel](./supporting-obj-format-in-aspose-cad/)
 Libérez le potentiel d’Aspose.CAD pour .NET. Apprenez à prendre en charge de manière transparente le format OBJ dans vos applications de CAO grâce à ce didacticiel étape par étape.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

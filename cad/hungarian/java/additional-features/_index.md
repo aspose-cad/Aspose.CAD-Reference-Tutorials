@@ -3,10 +3,16 @@ title: További jellemzők
 linktitle: További jellemzők
 second_title: Aspose.CAD Java API
 description: Ismerje meg az Aspose.CAD-ben rejlő lehetőségeket Java nyelven oktatóanyagainkkal. Adjon hozzá egyéni tulajdonságokat, bontsa fel a CAD-beszúrási objektumokat, engedélyezze a követést, és zökkenőmentesen exportálja a DXF-rajzokat. Fokozza fel a CAD-munkafolyamatot könnyedén.
-type: docs
 weight: 29
 url: /hu/java/additional-features/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# További jellemzők
+
 
 
 ## Bevezetés
@@ -60,3 +66,9 @@ Ismerje meg, hogyan menthet DXF fájlokat Java nyelven az Aspose.CAD használat�
 ## Következtetés
 
 Ezek az oktatóanyagok az Aspose.CAD for Java további funkcióit fedik le, amelyek értékes betekintést és készségeket kínálnak a CAD-munkafolyamat optimalizálásához. Legyen szó a szervezés fejlesztéséről, a bontási technikák elsajátításáról, a nyomon követés engedélyezéséről vagy a különféle exportálási lehetőségek felfedezéséről, ezek az oktatóanyagok megadják a szükséges ismereteket. Növelje CAD-készségeit még ma az Aspose.CAD for Java segítségével.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: DXF exportálása PDF formátumba – Aspose.CAD oktatóanyag
 linktitle: DXF exportálása PDF formátumba
 second_title: Aspose.CAD .NET - CAD és BIM fájlformátum
 description: Fedezze fel az Aspose.CAD for .NET zökkenőmentes integrációját ebben a lépésenkénti útmutatóban, amellyel könnyedén exportálhat DXF fájlokat PDF formátumba.
-type: docs
 weight: 12
 url: /hu/net/export-techniques/exporting-dxf-to-pdf-format/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# DXF exportálása PDF formátumba – Aspose.CAD oktatóanyag
+
 ## Bevezetés
 
 Üdvözöljük átfogó oktatóanyagunkban a DXF fájlok PDF formátumba történő exportálásával kapcsolatban az Aspose.CAD for .NET használatával! Ha Ön fejlesztő, aki zökkenőmentesen szeretné integrálni ezt a funkciót .NET-alkalmazásaiba, akkor jó helyen jár. Ebben az útmutatóban lépésről lépésre végigvezetjük a folyamaton, biztosítva, hogy minden koncepciót alaposan megértsen.
@@ -109,3 +115,9 @@ Gratulálunk! Sikeresen exportált egy DXF-fájlt PDF-be az Aspose.CAD for .NET 
 ### 5. kérdés: Vásárolhatok ideiglenes licencet?
 
  V5: Igen, ideiglenes engedélyt szerezhet be[itt](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: जावा के लिए Aspose.CAD के साथ DGN को DWG 
 linktitle: DWG के भाग के रूप में DGN निर्यात करें
 second_title: Aspose.CAD जावा एपीआई
 description: जावा के लिए Aspose.CAD का उपयोग करके DWG के हिस्से के रूप में DGN को निर्यात करने का तरीका जानें। कुशल सीएडी फ़ाइल हेरफेर के लिए हमारी चरण-दर-चरण मार्गदर्शिका का पालन करें।
-type: docs
 weight: 10
 url: /hi/java/dgn-export-options/export-dgn-as-part-of-dwg/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# जावा के लिए Aspose.CAD के साथ DGN को DWG में निर्यात करें
+
 ## परिचय
 
 इस ट्यूटोरियल में, हम जानेंगे कि DWG (ऑटोकैड ड्रॉइंग) फ़ाइल के हिस्से के रूप में DGN (माइक्रोस्टेशन डिज़ाइन) फ़ाइल को निर्यात करने के लिए जावा के लिए Aspose.CAD का उपयोग कैसे करें। Aspose.CAD एक शक्तिशाली लाइब्रेरी है जो CAD फ़ाइल स्वरूपों के साथ काम करने के लिए व्यापक कार्यक्षमता प्रदान करती है। यह चरण-दर-चरण मार्गदर्शिका आपको जावा का उपयोग करके DWG के भाग के रूप में DGN निर्यात करने की प्रक्रिया को समझने में मदद करेगी।
@@ -125,3 +131,9 @@ cadImage.save(outPath, exportOptions);
 ### Q5: सहायता चाहिए या कोई प्रश्न हैं?
 
  A5: Aspose.CAD समुदाय सहायता फ़ोरम पर जाएँ[यहाँ](https://forum.aspose.com/c/cad/19).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

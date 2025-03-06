@@ -3,10 +3,16 @@ title: Ekspor Gambar AutoCAD ke PDF - Aspose.CAD untuk Tutorial Java
 linktitle: Ekspor Gambar AutoCAD ke PDF
 second_title: Aspose.CAD Java API
 description: Ekspor gambar AutoCAD ke PDF dengan mudah menggunakan Aspose.CAD untuk Java. Ikuti panduan langkah demi langkah kami untuk integrasi yang lancar.
-type: docs
 weight: 10
 url: /id/java/cad-export-options/export-autocad-images-to-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ekspor Gambar AutoCAD ke PDF - Aspose.CAD untuk Tutorial Java
+
 ## Perkenalan
 
 Apakah Anda ingin mengonversi gambar AutoCAD ke PDF dengan lancar menggunakan Java? Tidak perlu mencari lagi! Dalam tutorial ini, kami akan memandu Anda melalui proses menggunakan Aspose.CAD untuk Java, perpustakaan canggih yang menyederhanakan tugas-tugas kompleks. Pada akhirnya, Anda akan memahami cara mengekspor gambar 3D ke PDF dengan mudah.
@@ -105,3 +111,9 @@ A4: Tentu saja! Sesuaikan parameter lebar dan tinggi halaman dalam opsi rasteris
 ### Q5: Di mana saya dapat mencari bantuan atau mendiskusikan masalah terkait Aspose.CAD untuk Java?
 
  A5: Pergilah ke[Forum Aspose.CAD](https://forum.aspose.com/c/cad/19) untuk dukungan dan diskusi khusus.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

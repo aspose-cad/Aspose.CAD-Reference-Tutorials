@@ -3,10 +3,16 @@ title: Chỉnh sửa siêu liên kết DWG - Hướng dẫn Java Aspose.CAD
 linktitle: Chỉnh sửa siêu liên kết
 second_title: API Java Aspose.CAD
 description: Nâng cao độ chính xác của bản vẽ DWG với Aspose.CAD cho Java. Chỉnh sửa liên kết liền mạch, đảm bảo tài liệu tham khảo chính xác. Hãy thử dùng thử miễn phí ngay bây giờ!
-type: docs
 weight: 17
 url: /vi/java/other-cad-operations/edit-hyperlink/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Chỉnh sửa siêu liên kết DWG - Hướng dẫn Java Aspose.CAD
+
 Trong kỷ nguyên kỹ thuật số ngày nay, việc xử lý hiệu quả các bản vẽ DWG là rất quan trọng đối với các chuyên gia trong các ngành khác nhau. Aspose.CAD cho Java cung cấp một giải pháp mạnh mẽ để chỉnh sửa các siêu liên kết trong bản vẽ DWG, đảm bảo tích hợp và tùy chỉnh liền mạch. Hướng dẫn từng bước này sẽ hướng dẫn bạn quy trình chỉnh sửa siêu liên kết bằng Aspose.CAD cho Java.
 
 ## Giới thiệu
@@ -99,3 +105,9 @@ Câu trả lời 1: Aspose.CAD cho Java hỗ trợ nhiều phiên bản vẽ DWG
 ### Câu hỏi 5: Tôi có thể xin giấy phép tạm thời cho mục đích thử nghiệm không?
 
  Câu trả lời 5: Có, bạn có thể xin giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

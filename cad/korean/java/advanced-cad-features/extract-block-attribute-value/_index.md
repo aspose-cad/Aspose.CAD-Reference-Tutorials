@@ -3,10 +3,16 @@ title: Java에서 Aspose.CAD를 사용하여 외부 참조에서 블록 속성 �
 linktitle: 외부 참조에서 블록 속성 값 추출
 second_title: Aspose.CAD 자바 API
 description: Aspose.CAD를 사용하여 Java의 DWG 외부 참조에서 블록 속성 값을 추출하는 방법에 대한 튜토리얼을 살펴보세요. CAD 개발 워크플로우를 손쉽게 향상시키십시오.
-type: docs
 weight: 19
 url: /ko/java/advanced-cad-features/extract-block-attribute-value/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java에서 Aspose.CAD를 사용하여 외부 참조에서 블록 속성 값 추출
+
 ## 소개
 
 Aspose.CAD를 사용하여 Java의 외부 참조에서 블록 속성 값을 추출하는 방법에 대한 포괄적인 가이드에 오신 것을 환영합니다. CAD 도면으로 작업하고 작업 흐름을 간소화하려는 개발자라면 잘 찾아오셨습니다. 이 튜토리얼에서는 Java용 Aspose.CAD의 강력한 기능을 활용하여 프로세스를 단계별로 안내합니다.
@@ -89,3 +95,9 @@ A1: Aspose.CAD는 다양한 버전의 DWG 파일을 지원하여 광범위한 CA
 ### Q5: Aspose.CAD 임시 라이선스를 취득하는 절차는 어떻게 되나요?
 
  A5: 임시 라이센스를 얻으려면 다음을 방문하십시오.[이 링크](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

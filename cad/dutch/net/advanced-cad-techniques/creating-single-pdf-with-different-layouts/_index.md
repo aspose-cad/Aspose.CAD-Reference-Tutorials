@@ -3,10 +3,16 @@ title: Eén PDF maken met verschillende lay-outs - Aspose.CAD-handleiding
 linktitle: Eén PDF maken met verschillende lay-outs
 second_title: Aspose.CAD .NET - CAD- en BIM-bestandsindeling
 description: Maak één PDF met verschillende lay-outs met Aspose.CAD voor .NET. Volg onze stapsgewijze handleiding voor naadloze integratie en efficiënte PDF-generatie.
-type: docs
 weight: 13
 url: /nl/net/advanced-cad-techniques/creating-single-pdf-with-different-layouts/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Eén PDF maken met verschillende lay-outs - Aspose.CAD-handleiding
+
 ## Invoering
 
 Wilt u één PDF-document genereren op basis van een CAD-tekening met verschillende lay-outs met behulp van Aspose.CAD voor .NET? Deze stapsgewijze handleiding leidt u door het proces en helpt u een naadloze integratie en efficiënte PDF-creatie te realiseren. Aspose.CAD voor .NET biedt krachtige functies om CAD-tekeningen programmatisch te manipuleren, en in deze tutorial zullen we ons concentreren op het maken van één PDF met verschillende lay-outs.
@@ -95,3 +101,9 @@ A1: Ja, Aspose.CAD voor .NET ondersteunt verschillende CAD-formaten zoals DWG, D
 ### V5: Kan ik een licentie kopen voor Aspose.CAD voor .NET?
 
  A5: Ja, u kunt een licentie kopen[hier](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

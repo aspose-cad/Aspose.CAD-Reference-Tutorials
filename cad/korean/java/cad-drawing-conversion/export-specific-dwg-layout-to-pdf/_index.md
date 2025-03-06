@@ -3,10 +3,16 @@ title: Java용 Aspose.CAD를 사용하여 특정 DWG 레이아웃을 PDF로 내�
 linktitle: 특정 DWG 레이아웃을 PDF로 내보내기
 second_title: Aspose.CAD 자바 API
 description: Java용 Aspose.CAD를 사용하여 특정 DWG 레이아웃을 PDF로 내보내는 단계별 가이드를 살펴보세요. CAD 워크플로를 손쉽게 최적화하세요.
-type: docs
 weight: 14
 url: /ko/java/cad-drawing-conversion/export-specific-dwg-layout-to-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java용 Aspose.CAD를 사용하여 특정 DWG 레이아웃을 PDF로 내보내기
+
 ## 소개
 
 CAD(Computer-Aided Design)의 역동적인 세계에서 Java용 Aspose.CAD는 DWG 도면을 조작하고 변환하는 강력한 도구로 등장합니다. 이 튜토리얼에서는 지정된 DWG 레이아웃을 PDF 파일로 내보내는 특정 시나리오를 살펴보겠습니다. 이 프로세스는 CAD 프로젝트의 정확성과 유연성을 보장합니다.
@@ -100,3 +106,9 @@ Aspose.CAD for Java는 독립형 라이브러리이지만 확장된 기능을 �
 ### Q5: Aspose.CAD에 대한 무료 평가판이 있습니까?
 
  예, 무료 평가판에 액세스할 수 있습니다[여기](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

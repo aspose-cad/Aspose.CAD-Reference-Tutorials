@@ -3,10 +3,16 @@ title: Xuất các đối tượng OLE từ tệp DWG - Hướng dẫn Aspose.CA
 linktitle: Xuất đối tượng OLE từ tệp DWG
 second_title: Aspose.CAD .NET - Định dạng tệp CAD và BIM
 description: Khám phá hướng dẫn từng bước về cách xuất đối tượng OLE từ tệp DWG bằng Aspose.CAD cho .NET. Nâng cao kỹ năng thao tác tệp CAD của bạn một cách dễ dàng.
-type: docs
 weight: 12
 url: /vi/net/advanced-export-techniques/exporting-ole-objects-from-dwg/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Xuất các đối tượng OLE từ tệp DWG - Hướng dẫn Aspose.CAD
+
 ## Giới thiệu
 
 Bạn đang tìm cách trích xuất các đối tượng OLE từ tệp DWG một cách dễ dàng? Aspose.CAD cho .NET sẵn sàng hợp lý hóa quy trình cho bạn. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn xuất các đối tượng OLE từng bước, đảm bảo bạn tận dụng tối đa thư viện .NET mạnh mẽ này. 
@@ -98,3 +104,9 @@ A2: Chắc chắn rồi! Như được hiển thị trong hướng dẫn, bạn 
 ### Câu hỏi 5: Làm cách nào tôi có thể nhận được hỗ trợ hoặc kết nối với cộng đồng?
 
  Câu trả lời 5: Để được hỗ trợ và tham gia cộng đồng, hãy truy cập[Diễn đàn Aspose.CAD](https://forum.aspose.com/c/cad/19).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

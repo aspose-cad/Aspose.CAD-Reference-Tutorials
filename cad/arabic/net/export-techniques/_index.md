@@ -3,10 +3,16 @@ title: تقنيات التصدير
 linktitle: تقنيات التصدير
 second_title: Aspose.CAD .NET - تنسيق ملف CAD وBIM
 description: استكشف دروس Aspose.CAD لتطوير التصميم بمساعدة الكمبيوتر (CAD) بشكل سلس. تعلم تقنيات فعالة لتصدير ملفات DXF إلى تنسيقات مختلفة دون عناء.
-type: docs
 weight: 32
 url: /ar/net/export-techniques/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تقنيات التصدير
+
 
 
 ## مقدمة
@@ -49,3 +55,9 @@ url: /ar/net/export-techniques/
 اكتشف قوة Aspose.CAD لـ .NET. تعلم كيفية تصدير ملفات DGN المضمنة إلى PDF بسهولة من خلال هذا البرنامج التعليمي خطوة بخطوة.
 ### [تصدير الصور إلى تنسيق DXF - دليل Aspose.CAD](./exporting-images-to-dxf-format/)
 اكتشف قوة Aspose.CAD لـ .NET! تعلم كيفية تصدير الصور إلى تنسيق DXF بسهولة. تعزيز تطوير CAD الخاص بك بدقة وكفاءة.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

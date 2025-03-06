@@ -3,10 +3,16 @@ title: Текстовый поиск и манипулирование
 linktitle: Текстовый поиск и манипулирование
 second_title: Aspose.CAD .NET — формат файлов CAD и BIM
 description: Раскройте возможности Aspose.CAD для .NET с помощью наших руководств по поиску текста в файлах DWG с использованием C#. Повышайте свои навыки работы с САПР и улучшайте свои приложения.
-type: docs
 weight: 28
 url: /ru/net/text-search-and-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Текстовый поиск и манипулирование
+
 
 ## Введение
 
@@ -36,3 +42,9 @@ url: /ru/net/text-search-and-manipulation/
 ## Учебные пособия по текстовому поиску и манипулированию
 ### [Поиск текста в файлах DWG с помощью C# - Учебное пособие по Aspose.CAD](./searching-text-in-dwg-files/)
 Изучите Aspose.CAD для .NET и освойте поиск текста в файлах DWG с помощью этого пошагового руководства. Улучшите свои CAD-приложения уже сегодня!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

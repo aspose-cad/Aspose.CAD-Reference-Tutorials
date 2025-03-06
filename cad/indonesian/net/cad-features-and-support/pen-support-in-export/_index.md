@@ -3,10 +3,16 @@ title: Tingkatkan Ekspor CAD dengan Opsi Pena Kustom di Aspose.CAD untuk .NET
 linktitle: Dukungan Pena dalam Ekspor
 second_title: Aspose.CAD .NET - Format File CAD dan BIM
 description: Pelajari cara meningkatkan ekspor gambar CAD Anda menggunakan Aspose.CAD untuk .NET. Sesuaikan opsi pena untuk visual menakjubkan dalam PDF, PNG, BMP, dan lainnya.
-type: docs
 weight: 12
 url: /id/net/cad-features-and-support/pen-support-in-export/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tingkatkan Ekspor CAD dengan Opsi Pena Kustom di Aspose.CAD untuk .NET
+
 ## Perkenalan
 
 Aspose.CAD untuk .NET menyediakan seperangkat alat canggih untuk bekerja dengan file Computer-Aided Design (CAD), memungkinkan pengembang memanipulasi dan mengekspor gambar CAD dengan lancar. Salah satu fitur penting adalah dukungan pena selama ekspor, memungkinkan pengguna untuk menyesuaikan pengaturan batas awal dan akhir pena saat mengekspor gambar CAD ke berbagai format seperti PDF, PNG, BMP, GIF, JPEG2000, JPEG, PSD, TIFF, dan WMF.
@@ -119,3 +125,9 @@ A1: Ya, opsi pena dapat diterapkan ke berbagai format gambar seperti PNG, BMP, G
 ### Q5: Di mana saya dapat mencari dukungan komunitas untuk Aspose.CAD untuk .NET?
 
  A5: Terlibat dengan komunitas di[Forum Aspose.CAD](https://forum.aspose.com/c/cad/19).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

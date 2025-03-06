@@ -3,10 +3,16 @@ title: เทคนิคการส่งออก
 linktitle: เทคนิคการส่งออก
 second_title: Aspose.CAD .NET - รูปแบบไฟล์ CAD และ BIM
 description: สำรวจบทช่วยสอน Aspose.CAD เพื่อการพัฒนา CAD ที่ราบรื่น เรียนรู้เทคนิคที่มีประสิทธิภาพในการส่งออกไฟล์ DXF ไปยังรูปแบบต่างๆ ได้อย่างง่ายดาย
-type: docs
 weight: 32
 url: /th/net/export-techniques/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# เทคนิคการส่งออก
+
 
 
 ## การแนะนำ
@@ -49,3 +55,9 @@ url: /th/net/export-techniques/
 สำรวจพลังของ Aspose.CAD สำหรับ .NET เรียนรู้การส่งออกไฟล์ DGN ที่ฝังไว้เป็น PDF ได้อย่างง่ายดายด้วยบทช่วยสอนทีละขั้นตอนนี้
 ### [การส่งออกรูปภาพเป็นรูปแบบ DXF - คู่มือ Aspose.CAD](./exporting-images-to-dxf-format/)
 สำรวจพลังของ Aspose.CAD สำหรับ .NET! เรียนรู้การส่งออกรูปภาพเป็นรูปแบบ DXF ได้อย่างง่ายดาย ปรับปรุงการพัฒนา CAD ของคุณด้วยความแม่นยำและมีประสิทธิภาพ
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

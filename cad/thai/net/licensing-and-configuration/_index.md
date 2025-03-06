@@ -3,10 +3,16 @@ title: ใบอนุญาตและการกำหนดค่า
 linktitle: ใบอนุญาตและการกำหนดค่า
 second_title: Aspose.CAD .NET - รูปแบบไฟล์ CAD และ BIM
 description: ยกระดับเกมจัดการไฟล์ CAD ของคุณด้วย Aspose.CAD สำหรับ .NET! ใช้สิทธิ์การใช้งานได้อย่างราบรื่นโดยใช้ FileStream หรือตามเส้นทางด้วยบทช่วยสอนทีละขั้นตอนของเรา
-type: docs
 weight: 20
 url: /th/net/licensing-and-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# ใบอนุญาตและการกำหนดค่า
+
 
 ## การแนะนำ
 
@@ -32,3 +38,9 @@ url: /th/net/licensing-and-configuration/
 การเรียนรู้ Aspose.CAD สำหรับ .NET: ใช้สิทธิ์การใช้งานได้อย่างราบรื่นโดยใช้ FileStream สำรวจคำแนะนำทีละขั้นตอนและปลดล็อกศักยภาพ ดาวน์โหลดเดี๋ยวนี้!
 ### [ใบอนุญาตแบบมิเตอร์ใน Aspose.CAD สำหรับ .NET](./metered-licensing/)
 ปลดล็อกศักยภาพของ Aspose.CAD ด้วยสิทธิ์ใช้งานแบบมิเตอร์ใน .NET เพิ่มประสิทธิภาพการใช้ทรัพยากรได้อย่างราบรื่น สำรวจคำแนะนำทีละขั้นตอนของเรา
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Pelacakan dan Rendering
 linktitle: Pelacakan dan Rendering
 second_title: Aspose.CAD .NET - Format File CAD dan BIM
 description: Buka kekuatan Aspose.CAD untuk .NET dengan tutorial kami. Pelajari cara mengaktifkan pelacakan dalam file CAD dan merender file DXF sebagai PDF dengan lancar.
-type: docs
 weight: 31
 url: /id/net/tracking-and-rendering/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Pelacakan dan Rendering
+
 
 ## Perkenalan
 
@@ -30,3 +36,9 @@ Mulailah petualangan belajar dengan Daftar Tutorial Aspose.CAD untuk .NET kami. 
 Pelacakan file CAD master dengan Aspose.CAD untuk .NET. Ikuti panduan langkah demi langkah kami untuk rendering dan pelacakan kesalahan yang tepat. Unduh sekarang!
 ### [Merender File DXF sebagai PDF - Panduan Aspose.CAD](./rendering-dxf-files-as-pdf/)
 Jelajahi panduan utama dalam merender file DXF sebagai PDF menggunakan Aspose.CAD untuk .NET. Konversikan file CAD dengan mudah menggunakan tutorial langkah demi langkah kami.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

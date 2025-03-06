@@ -3,10 +3,16 @@ title: Správa atributů a majetku
 linktitle: Správa atributů a majetku
 second_title: Aspose.CAD .NET – formát souborů CAD a BIM
 description: Pozvedněte své CAD výkresy pomocí Aspose.CAD pro .NET! Naučte se plynule přidávat atributy a uživatelské vlastnosti prostřednictvím výukových programů. Vylepšete své návrhy bez námahy.
-type: docs
 weight: 30
 url: /cs/net/attribute-and-property-management/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Správa atributů a majetku
+
 
 
 ## Úvod
@@ -47,3 +53,9 @@ Na závěr, Aspose.CAD for .NET otevírá dveře do světa možností v oblasti 
 Vylepšete své CAD výkresy pomocí atributů pomocí Aspose.CAD for .NET. Postupujte podle našeho podrobného průvodce pro bezproblémovou integraci.
 ### [Přidání uživatelských vlastností do souborů DWG - Průvodce Aspose.CAD](./adding-custom-properties-to-dwg/)
 Vylepšete své soubory DWG pomocí uživatelských vlastností pomocí Aspose.CAD for .NET. Postupujte podle našeho podrobného průvodce a bez námahy přidejte smysluplná metadata.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

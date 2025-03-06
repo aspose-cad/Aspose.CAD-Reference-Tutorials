@@ -3,10 +3,16 @@ title: 屬性和財產管理
 linktitle: 屬性和財產管理
 second_title: Aspose.CAD .NET - CAD 和 BIM 檔案格式
 description: 使用 Aspose.CAD for .NET 提升您的 CAD 圖面！透過教程學習如何無縫添加屬性和自訂屬性。毫不費力地增強您的設計。
-type: docs
 weight: 30
 url: /zh-hant/net/attribute-and-property-management/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 屬性和財產管理
+
 
 
 ## 介紹
@@ -47,3 +53,9 @@ url: /zh-hant/net/attribute-and-property-management/
 使用 Aspose.CAD for .NET 透過屬性增強 CAD 繪圖。請按照我們的逐步指南進行無縫整合。
 ### [將自訂屬性新增至 DWG 檔案 - Aspose.CAD 指南](./adding-custom-properties-to-dwg/)
 使用 Aspose.CAD for .NET 透過自訂屬性增強您的 DWG 檔案。按照我們的逐步指南輕鬆添加有意義的元資料。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

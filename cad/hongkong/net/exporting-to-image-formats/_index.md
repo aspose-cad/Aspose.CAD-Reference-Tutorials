@@ -3,10 +3,16 @@ title: 導出為圖像格式
 linktitle: 導出為圖像格式
 second_title: Aspose.CAD .NET - CAD 和 BIM 檔案格式
 description: 使用 Aspose.CAD for .NET 輕鬆將 IFC 檔案轉換為 PNG。探索無縫 CAD 檔案處理和下載，以實現高效的文件操作。
-type: docs
 weight: 39
 url: /zh-hant/net/exporting-to-image-formats/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 導出為圖像格式
+
 
 ## 介紹
 
@@ -30,3 +36,9 @@ Aspose.CAD for .NET 成為 CAD 檔案處理領域的遊戲規則改變者。其�
 探索 Aspose.CAD for .NET，這是一個用於無縫 IFC 到 PNG 轉換的強大解決方案。立即下載以進行高效的 CAD 檔案處理。
 ### [將 IGES 檔案匯出為 PDF - Aspose.CAD 指南](./exporting-iges-files-to-pdf/)
 了解如何使用 Aspose.CAD for .NET 輕鬆將 IGES 檔案匯出為 PDF。按照我們的逐步指南進行精確的 CAD 檔案操作。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

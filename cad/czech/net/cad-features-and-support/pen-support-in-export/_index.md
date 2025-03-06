@@ -3,10 +3,16 @@ title: Vylepšete export CAD pomocí vlastních možností pera v Aspose.CAD pro
 linktitle: Podpora pera v exportu
 second_title: Aspose.CAD .NET – formát souborů CAD a BIM
 description: Naučte se, jak vylepšit exporty obrázků CAD pomocí Aspose.CAD for .NET. Přizpůsobte si možnosti pera pro ohromující vizuály v PDF, PNG, BMP a dalších.
-type: docs
 weight: 12
 url: /cs/net/cad-features-and-support/pen-support-in-export/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Vylepšete export CAD pomocí vlastních možností pera v Aspose.CAD pro .NET
+
 ## Úvod
 
 Aspose.CAD for .NET poskytuje výkonnou sadu nástrojů pro práci se soubory CAD (Computer-Aided Design), která umožňuje vývojářům bezproblémově manipulovat a exportovat obrázky CAD. Jednou z pozoruhodných funkcí je podpora pera během exportu, která uživatelům umožňuje přizpůsobit nastavení začátku a konce pera při exportu obrázků CAD do různých formátů, jako je PDF, PNG, BMP, GIF, JPEG2000, JPEG, PSD, TIFF a WMF.
@@ -119,3 +125,9 @@ Odpověď 1: Ano, možnosti pera lze použít na různé formáty obrázků, jak
 ### Q5: Kde mohu hledat podporu komunity pro Aspose.CAD pro .NET?
 
  A5: Zapojte se do komunity na[Fórum Aspose.CAD](https://forum.aspose.com/c/cad/19).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

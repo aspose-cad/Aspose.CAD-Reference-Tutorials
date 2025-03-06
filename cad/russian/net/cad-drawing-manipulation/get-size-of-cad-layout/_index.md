@@ -3,10 +3,16 @@ title: Получить размер макета САПР в Aspose.CAD для 
 linktitle: Получить размер макета САПР
 second_title: Aspose.CAD .NET — формат файлов CAD и BIM
 description: Узнайте, как получить размер макета САПР в .NET с помощью Aspose.CAD. Следуйте нашему пошаговому руководству для эффективного манипулирования файлами САПР.
-type: docs
 weight: 14
 url: /ru/net/cad-drawing-manipulation/get-size-of-cad-layout/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Получить размер макета САПР в Aspose.CAD для .NET
+
 ## Введение
 
 Добро пожаловать в это подробное руководство по получению размера макетов САПР с помощью Aspose.CAD для .NET. Aspose.CAD — это мощная библиотека, которая позволяет разработчикам беспрепятственно работать с файлами САПР. В этом уроке мы покажем вам процесс получения размера макетов САПР, используя практические примеры и пошаговые инструкции.
@@ -143,3 +149,9 @@ foreach (string layout in layouts)
 ### Q5; Как я могу получить техническую поддержку?
 
  A5: Для получения технической поддержки посетите[Форум Aspose.CAD](https://forum.aspose.com/c/cad/19).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

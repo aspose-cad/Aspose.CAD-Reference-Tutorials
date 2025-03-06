@@ -3,10 +3,16 @@ title: Habilitar rastreamento para processo de renderização CAD
 linktitle: Habilitar rastreamento para processo de renderização CAD
 second_title: API Java Aspose.CAD
 description: Aprimore sua renderização CAD com Aspose.CAD para Java. Siga nosso guia passo a passo para ativar o rastreamento e elevar sua experiência de conversão de PDF.
-type: docs
 weight: 10
 url: /pt/java/advanced-cad-features/enable-tracking-for-cad-rendering-process/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Habilitar rastreamento para processo de renderização CAD
+
 ## Introdução
 
 No domínio do Computer-Aided Design (CAD), Aspose.CAD for Java se destaca como uma ferramenta poderosa para renderizar e processar arquivos CAD. Este tutorial irá guiá-lo através do processo de ativação do rastreamento para renderização CAD, aprimorando seu controle sobre a transformação de arquivos CAD para o formato PDF.
@@ -114,3 +120,9 @@ A1: Aspose.CAD suporta uma ampla variedade de formatos CAD, incluindo DWG, DXF, 
 ### Q5: As licenças temporárias estão disponíveis para Aspose.CAD?
 
  A5: Sim, se precisar de uma licença temporária, você pode adquirir uma[aqui](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

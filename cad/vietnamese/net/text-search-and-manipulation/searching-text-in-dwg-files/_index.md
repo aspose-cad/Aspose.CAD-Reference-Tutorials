@@ -3,10 +3,16 @@ title: Tìm kiếm văn bản trong tệp DWG bằng C# - Hướng dẫn Aspose.
 linktitle: Tìm kiếm văn bản trong tệp DWG bằng C#
 second_title: Aspose.CAD .NET - Định dạng tệp CAD và BIM
 description: Khám phá Aspose.CAD cho .NET và tìm kiếm văn bản chính trong tệp DWG với hướng dẫn từng bước này. Hãy tăng cường các ứng dụng CAD của bạn ngay hôm nay!
-type: docs
 weight: 10
 url: /vi/net/text-search-and-manipulation/searching-text-in-dwg-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tìm kiếm văn bản trong tệp DWG bằng C# - Hướng dẫn Aspose.CAD
+
 ## Giới thiệu
 
 Trong lĩnh vực năng động của CAD (Thiết kế hỗ trợ máy tính), độ chính xác và hiệu quả là điều tối quan trọng. Hãy tưởng tượng một tình huống mà bạn cần định vị văn bản cụ thể trong tệp DWG. Aspose.CAD cho .NET ra đời, cung cấp giải pháp mạnh mẽ để tìm kiếm văn bản trong tệp DWG một cách liền mạch bằng C#. Hướng dẫn này sẽ hướng dẫn bạn trong suốt quy trình, đảm bảo bạn khai thác toàn bộ tiềm năng của Aspose.CAD cho .NET.
@@ -114,3 +120,9 @@ Câu trả lời 1: Có, Aspose.CAD hỗ trợ nhiều định dạng CAD khác 
 ### Câu hỏi 5: Tôi có thể tìm tài liệu chi tiết về Aspose.CAD cho .NET ở đâu?
 
  A5: Tham khảo toàn diện[tài liệu](https://reference.aspose.com/cad/net/) để được hướng dẫn chuyên sâu.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

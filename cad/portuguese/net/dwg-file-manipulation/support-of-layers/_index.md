@@ -3,10 +3,16 @@ title: Manipulação de camadas em arquivos DWG com C# - Tutorial Aspose.CAD
 linktitle: Manipulação de camadas em arquivos DWG com C#
 second_title: Aspose.CAD .NET - Formato de arquivo CAD e BIM
 description: Aprenda como lidar com camadas em arquivos DWG usando C# com Aspose.CAD for .NET. Guia passo a passo para manipulação eficiente de arquivos CAD.
-type: docs
 weight: 11
 url: /pt/net/dwg-file-manipulation/support-of-layers/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Manipulação de camadas em arquivos DWG com C# - Tutorial Aspose.CAD
+
 ## Introdução
 
 Bem-vindo ao nosso tutorial detalhado sobre como lidar com camadas em arquivos DWG usando C# com Aspose.CAD para .NET. Aspose.CAD é uma biblioteca poderosa que permite aos desenvolvedores trabalhar perfeitamente com formatos de arquivo CAD. Neste tutorial, guiaremos você passo a passo pelo processo de manipulação de camadas em arquivos DWG.
@@ -109,3 +115,9 @@ Neste tutorial, percorremos o processo de manipulação de camadas em arquivos D
 ### Q5: Quais são as opções de licenciamento do Aspose.CAD?
 
  A5: Você pode explorar opções de licenciamento e detalhes de compra[aqui](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

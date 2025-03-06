@@ -3,10 +3,16 @@ title: Các tính năng và hỗ trợ CAD
 linktitle: Các tính năng và hỗ trợ CAD
 second_title: Aspose.CAD .NET - Định dạng tệp CAD và BIM
 description: Mở khóa toàn bộ tiềm năng của các tính năng CAD với hướng dẫn Aspose.CAD cho .NET. Tìm hiểu hỗ trợ 3D cho DGN V7, xử lý lưới, tùy chỉnh bút và dễ dàng hơn.
-type: docs
 weight: 23
 url: /vi/net/cad-features-and-support/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Các tính năng và hỗ trợ CAD
+
 
 ## Giới thiệu
 
@@ -80,3 +86,9 @@ Khám phá Aspose.CAD để biết các tính năng mạnh mẽ của .NET để
 Khám phá Aspose.CAD để biết sự hỗ trợ liền mạch của .NET dành cho DGN VChuyển đổi các tệp DGN thành hình ảnh raster một cách dễ dàng với hướng dẫn từng bước.
 ### [Hỗ trợ 3D cho DGN V7 trong Aspose.CAD cho .NET](./support-of-3d-for-dgn-v7/)
 Mở khóa sức mạnh hỗ trợ 3D cho DGN V7 trong Aspose.CAD for .NET. Thực hiện theo hướng dẫn từng bước của chúng tôi.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

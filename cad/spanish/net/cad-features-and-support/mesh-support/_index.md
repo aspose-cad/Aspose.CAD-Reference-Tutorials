@@ -3,10 +3,16 @@ title: Soporte de malla en Aspose.CAD para .NET
 linktitle: Soporte de malla
 second_title: Aspose.CAD .NET - Formato de archivo CAD y BIM
 description: Explore el soporte de malla en Aspose.CAD para .NET con nuestro tutorial paso a paso. Convierta archivos CAD a PDF sin esfuerzo.
-type: docs
 weight: 11
 url: /es/net/cad-features-and-support/mesh-support/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Soporte de malla en Aspose.CAD para .NET
+
 ## Introducción
 
 ¡Bienvenido a nuestro tutorial detallado sobre cómo aprovechar el soporte de malla en Aspose.CAD para .NET! Aspose.CAD es una potente biblioteca que proporciona una sólida funcionalidad para trabajar con archivos de diseño asistido por computadora (CAD) en aplicaciones .NET. En este tutorial, nos centraremos específicamente en utilizar la función de soporte de malla para mejorar sus capacidades de procesamiento de archivos CAD.
@@ -100,3 +106,9 @@ R2: Si bien se recomienda una licencia para uso en producción, puede explorar l
 ### P5: ¿Dónde puedo descargar la última versión de Aspose.CAD para .NET?
 
  A5: Descargue la biblioteca desde[página de lanzamiento](https://releases.aspose.com/cad/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

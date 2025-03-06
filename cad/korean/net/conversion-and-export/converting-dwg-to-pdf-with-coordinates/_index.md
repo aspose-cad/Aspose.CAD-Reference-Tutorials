@@ -3,10 +3,16 @@ title: C#에서 좌표를 사용하여 DWG를 PDF로 변환 - Aspose.CAD Tutoria
 linktitle: C#에서 좌표를 사용하여 DWG를 PDF로 변환
 second_title: Aspose.CAD .NET - CAD 및 BIM 파일 형식
 description: Aspose.CAD를 사용하여 C#에서 특정 좌표를 사용하여 DWG를 PDF로 변환하는 방법을 알아보세요. 정확하고 효율적인 CAD 파일 변환을 위한 단계별 가이드를 따르십시오.
-type: docs
 weight: 11
 url: /ko/net/conversion-and-export/converting-dwg-to-pdf-with-coordinates/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# C#에서 좌표를 사용하여 DWG를 PDF로 변환 - Aspose.CAD Tutorial
+
 ## 소개
 
 .NET용 Aspose.CAD를 사용하여 지정된 좌표를 사용하여 DWG 파일을 PDF로 변환하는 방법에 대한 포괄적인 튜토리얼에 오신 것을 환영합니다. Aspose.CAD는 개발자가 .NET 애플리케이션에서 CAD 파일 형식을 원활하게 사용할 수 있게 해주는 강력한 라이브러리입니다. 이 튜토리얼에서는 정밀도를 높이기 위해 특정 좌표를 제공하면서 DWG 파일을 PDF로 변환하는 과정을 안내합니다.
@@ -134,3 +140,9 @@ A4: 물론이죠! Aspose.CAD에서 제공하는 광범위한 옵션을 탐색하
 ### Q5: 추가 지원이나 커뮤니티 토론은 어디서 찾을 수 있나요?
 
 A5: 다음을 방문하세요.[Aspose.CAD 포럼](https://forum.aspose.com/c/cad/19) 커뮤니티 지원 및 토론을 위해.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

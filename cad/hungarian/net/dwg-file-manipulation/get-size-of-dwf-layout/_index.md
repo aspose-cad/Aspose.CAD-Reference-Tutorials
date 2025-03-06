@@ -3,10 +3,16 @@ title: DWG-fájlok használata C#-ban – DWF-elrendezés méretének lekérése
 linktitle: DWG-fájlok használata C#-ban – DWF-elrendezés méretének lekérése
 second_title: Aspose.CAD .NET - CAD és BIM fájlformátum
 description: Fedezze fel az Aspose.CAD for .NET erejét a DWG-fájlok kezelésében. Tanulja meg a DWF-elrendezési méretek könnyed kibontását a C# használatával.
-type: docs
 weight: 10
 url: /hu/net/dwg-file-manipulation/get-size-of-dwf-layout/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# DWG-fájlok használata C#-ban – DWF-elrendezés méretének lekérése
+
 ## Bevezetés
 
 A számítógéppel segített tervezés (CAD) és .NET-fejlesztés területén az Aspose.CAD hatékony eszköz a DWG-fájlok kezelésére. Ez az oktatóanyag végigvezeti Önt a DWG-fájlok C#-ban történő kezelésén és a DWF-elrendezés méretének kibontásán. Mielőtt belemerülnénk a kódba, győződjünk meg arról, hogy mindent beállítottunk ahhoz, hogy elinduljunk ezen az úton.
@@ -163,3 +169,9 @@ Ebben az oktatóanyagban végigjártuk a DWG-fájlok C# nyelven történő kezel
 ### 5. kérdés: Elérhető az Aspose.CAD ingyenes próbaverziója?
 
  5. válasz: Igen, hozzáférhet az Aspose.CAD ingyenes próbaverziójához[itt](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: خيارات تصدير CAD إلى PDF وSVG
 linktitle: خيارات تصدير CAD إلى PDF وSVG
 second_title: Aspose.CAD جافا API
 description: أطلق العنان لقوة Aspose.CAD لـ Java من خلال برامجنا التعليمية حول خيارات تصدير CAD إلى PDF وSVG. قم بإدارة بيانات CAD بدقة وسهولة دون عناء.
-type: docs
 weight: 22
 url: /ar/java/cad-to-pdf-and-svg-export-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# خيارات تصدير CAD إلى PDF وSVG
+
 
 
 ## مقدمة
@@ -38,3 +44,9 @@ url: /ar/java/cad-to-pdf-and-svg-export-options/
 أطلق العنان لإمكانات Aspose.CAD لـ Java من خلال دليلنا خطوة بخطوة حول تصدير رسومات CAD إلى SVG. تعرف على كيفية استيراد مساحات الأسماء وتكوين الخيارات ودمج Aspose.CAD بسلاسة في مشروع Java الخاص بك.
 ### [تحويل CFF إلى PDF - Aspose.CAD لبرنامج Java التعليمي](./cff-to-pdf-conversion/)
 استكشف التحويل السلس من CFF إلى PDF باستخدام Aspose.CAD لـ Java. خطوات سهلة ونتائج موثوقة.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

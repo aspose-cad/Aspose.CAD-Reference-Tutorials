@@ -3,10 +3,16 @@ title: إعداد مقياس التخطيط التلقائي في Aspose.CAD ل�
 linktitle: ضبط مقياس التخطيط التلقائي
 second_title: Aspose.CAD .NET - تنسيق ملف CAD وBIM
 description: تحسين عرض CAD باستخدام Aspose.CAD لـ .NET. تعلم كيفية إعداد Auto Layout Scaling لعرض الملفات بشكل دقيق وقابل للتكيف.
-type: docs
 weight: 14
 url: /ar/net/cad-features-and-support/setting-auto-layout-scaling/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إعداد مقياس التخطيط التلقائي في Aspose.CAD لـ .NET
+
 في المجال الديناميكي لتطوير .NET، يعد تحسين عرض ملفات التصميم بمساعدة الكمبيوتر (CAD) جانبًا مهمًا لإنشاء تطبيقات فعالة وجذابة بصريًا. يعمل Aspose.CAD for .NET على تمكين المطورين من تحسين قدرات معالجة CAD الخاصة بهم، وفي هذا البرنامج التعليمي، سنركز على إعداد Auto Layout Scaling باستخدام Aspose.CAD for .NET.
 
 ## المتطلبات الأساسية
@@ -107,3 +113,9 @@ A1: نعم، يدعم Aspose.CAD for .NET تنسيقات CAD المتنوعة ل
 ### س5: أين يمكنني العثور على موارد ودعم إضافيين لـ Aspose.CAD؟
 
  ج5: اكتشف[منتدى Aspose.CAD](https://forum.aspose.com/c/cad/19) لدعم المجتمع، والرجوع إلى[توثيق](https://reference.aspose.com/cad/net/) للحصول على معلومات مفصلة.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: إضافة سمات إلى رسومات CAD - البرنامج التعل
 linktitle: إضافة سمات إلى رسومات CAD
 second_title: Aspose.CAD .NET - تنسيق ملف CAD وBIM
 description: قم بتحسين رسومات CAD الخاصة بك باستخدام السمات باستخدام Aspose.CAD لـ .NET. اتبع دليلنا خطوة بخطوة للتكامل السلس.
-type: docs
 weight: 10
 url: /ar/net/attribute-and-property-management/adding-attributes-to-cad-drawings/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إضافة سمات إلى رسومات CAD - البرنامج التعليمي Aspose.CAD
+
 ## مقدمة
 
 في عالم التصميم بمساعدة الكمبيوتر (CAD)، يعد إثراء الرسومات بالسمات خطوة حاسمة للتوثيق التفصيلي والتواصل الفعال. يوفر Aspose.CAD for .NET حلاً قويًا لدمج السمات بسلاسة في رسومات CAD. سيرشدك هذا البرنامج التعليمي خلال عملية إضافة السمات إلى رسومات CAD باستخدام Aspose.CAD، مما يسمح لك بتحسين المعلومات المضمنة في تصميماتك.
@@ -119,3 +125,9 @@ Assert.AreEqual(34, attribList.Count);
 ### س5: كيف يمكنني الحصول على ترخيص مؤقت لـ Aspose.CAD؟
 
  ج5: للحصول على خيارات الترخيص المؤقت، قم بزيارة[هنا](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

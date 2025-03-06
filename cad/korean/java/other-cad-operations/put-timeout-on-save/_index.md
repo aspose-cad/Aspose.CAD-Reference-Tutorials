@@ -3,10 +3,16 @@ title: Aspose.CAD를 사용한 CAD 저장 시 시간 초과
 linktitle: 저장 시 시간 초과 설정
 second_title: Aspose.CAD 자바 API
 description: Aspose.CAD를 사용하여 Java 애플리케이션의 성능을 향상시키는 방법을 알아보세요. CAD 도면 저장 시 시간 초과를 설정합니다. 단계별 가이드를 따르세요.
-type: docs
 weight: 15
 url: /ko/java/other-cad-operations/put-timeout-on-save/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.CAD를 사용한 CAD 저장 시 시간 초과
+
 ## 소개
 
 Aspose.CAD for Java를 사용하여 저장 시 시간 초과를 설정하는 방법에 대한 튜토리얼에 오신 것을 환영합니다. 이 가이드에서는 애플리케이션 성능을 향상시키기 위해 CAD 도면 저장 시간 제한을 설정하는 과정을 안내합니다. Aspose.CAD for Java는 Java 애플리케이션에서 CAD 파일을 원활하게 사용할 수 있게 해주는 강력한 라이브러리입니다.
@@ -131,3 +137,9 @@ A3: 예, 다음에서 무료 평가판을 받을 수 있습니다.[이 링크](h
 ### Q5: 도움이 필요하거나 질문이 있나요?
 
  A5: 다음으로 가세요.[Aspose.CAD 포럼](https://forum.aspose.com/c/cad/19) 지역 사회 지원을 위해.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

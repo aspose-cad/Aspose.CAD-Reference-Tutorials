@@ -3,10 +3,16 @@ title: Exportación de diseños específicos a PDF - Guía Aspose.CAD
 linktitle: Exportar diseños específicos a PDF
 second_title: Aspose.CAD .NET - Formato de archivo CAD y BIM
 description: Aprenda a exportar diseños específicos a PDF usando Aspose.CAD para .NET. Guía paso a paso para una integración perfecta.
-type: docs
 weight: 13
 url: /es/net/advanced-export-techniques/exporting-specific-layouts-to-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Exportación de diseños específicos a PDF - Guía Aspose.CAD
+
 ## Introducción
 
 Bienvenido a nuestra guía paso a paso sobre cómo exportar diseños específicos a PDF usando Aspose.CAD para .NET. Aspose.CAD es una potente biblioteca que permite a los desarrolladores trabajar con formatos de archivos CAD sin problemas. En este tutorial, nos centraremos en exportar diseños específicos de un archivo DWG a PDF usando Aspose.CAD en un entorno .NET.
@@ -110,3 +116,9 @@ R2: Sí, Aspose.CAD admite varios formatos CAD, incluidos DWG, DXF, DWF y más.
 ### P5: ¿Hay una prueba gratuita disponible?
 
  R5: Sí, puedes acceder a la prueba gratuita[aquí](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

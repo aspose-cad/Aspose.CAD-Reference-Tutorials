@@ -3,10 +3,16 @@ title: Tạo một tệp PDF với các bố cục khác nhau - Hướng dẫn A
 linktitle: Tạo một tệp PDF với các bố cục khác nhau
 second_title: Aspose.CAD .NET - Định dạng tệp CAD và BIM
 description: Tạo một tệp PDF với các bố cục khác nhau bằng Aspose.CAD cho .NET. Hãy làm theo hướng dẫn từng bước của chúng tôi để tích hợp liền mạch và tạo PDF hiệu quả.
-type: docs
 weight: 13
 url: /vi/net/advanced-cad-techniques/creating-single-pdf-with-different-layouts/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tạo một tệp PDF với các bố cục khác nhau - Hướng dẫn Aspose.CAD
+
 ## Giới thiệu
 
 Bạn đang muốn tạo một tài liệu PDF từ bản vẽ CAD với các bố cục khác nhau bằng Aspose.CAD cho .NET? Hướng dẫn từng bước này sẽ hướng dẫn bạn thực hiện quy trình, giúp bạn đạt được sự tích hợp liền mạch và tạo PDF hiệu quả. Aspose.CAD cho .NET cung cấp các tính năng mạnh mẽ để thao tác các bản vẽ CAD theo chương trình và trong hướng dẫn này, chúng tôi sẽ tập trung vào việc tạo một tệp PDF duy nhất với các bố cục khác nhau.
@@ -95,3 +101,9 @@ Câu trả lời 1: Có, Aspose.CAD cho .NET hỗ trợ nhiều định dạng C
 ### Câu hỏi 5: Tôi có thể mua giấy phép Aspose.CAD cho .NET không?
 
  A5: Có, bạn có thể mua giấy phép[đây](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

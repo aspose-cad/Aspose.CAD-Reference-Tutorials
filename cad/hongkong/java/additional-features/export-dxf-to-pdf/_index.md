@@ -3,10 +3,16 @@ title: 使用 Aspose.CAD for Java 將 DXF 繪圖匯出為 PDF
 linktitle: 使用 Java 將 DXF 繪圖匯出為 PDF
 second_title: Aspose.CAD Java API
 description: 探索使用 Aspose.CAD 在 Java 中將 DXF 繪圖無縫轉換為 PDF。輕鬆增強您的 CAD 工作流程。
-type: docs
 weight: 13
 url: /zh-hant/java/additional-features/export-dxf-to-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.CAD for Java 將 DXF 繪圖匯出為 PDF
+
 ## 介紹
 
 在 Java 開發領域，Aspose.CAD 是一款功能強大的工具，可實現 CAD 繪圖的無縫操作和轉換。在本教程中，我們將深入研究使用 Aspose.CAD for Java 將 DXF 繪圖匯出為 PDF 的過程。本逐步指南將引導您完成整個過程，確保您徹底掌握每個概念。
@@ -102,3 +108,9 @@ image.save(dataDir + "conic_pyramid_out_.pdf", pdfOptions);
 ### Q5：如何取得臨時駕照？
 
  A5：得到一個[臨時執照](https://purchase.aspose.com/temporary-license/)用於測試和評估目的。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

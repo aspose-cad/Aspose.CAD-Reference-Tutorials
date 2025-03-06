@@ -3,10 +3,16 @@ title: Mengatur Latar Belakang dan Warna Gambar di Aspose.CAD untuk .NET
 linktitle: Mengatur Latar Belakang dan Warna Gambar
 second_title: Aspose.CAD .NET - Format File CAD dan BIM
 description: Kuasai Aspose.CAD untuk .NET. Atur latar belakang dan warna gambar dengan mudah. Ikuti panduan langkah demi langkah kami.
-type: docs
 weight: 15
 url: /id/net/cad-features-and-support/setting-background-and-drawing-colors/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Mengatur Latar Belakang dan Warna Gambar di Aspose.CAD untuk .NET
+
 ## Perkenalan
 
 Dalam dunia pengembangan .NET yang dinamis, Aspose.CAD muncul sebagai alat yang ampuh untuk menangani file Computer-Aided Design (CAD). Jika Anda ingin meningkatkan keterampilan Anda dalam memanipulasi gambar CAD, tutorial ini adalah pintu gerbang Anda. Kami akan mempelajari seluk-beluk pengaturan latar belakang dan warna gambar menggunakan Aspose.CAD untuk .NET, memberi Anda panduan langkah demi langkah yang memastikan kejelasan dan efektivitas.
@@ -108,3 +114,10 @@ A1: Ya, Aspose.CAD mendukung berbagai format CAD, termasuk DWG, DXF, dan DGN.
 ### Q5: Butuh bantuan atau ingin terhubung dengan komunitas?
 
  A5: Kunjungi forum dukungan[Di Sini](https://forum.aspose.com/c/cad/19).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Kỹ thuật xuất khẩu nâng cao
 linktitle: Kỹ thuật xuất khẩu nâng cao
 second_title: Aspose.CAD .NET - Định dạng tệp CAD và BIM
 description: Khai phá sức mạnh của Aspose.CAD trong C# bằng các hướng dẫn kỹ thuật xuất nâng cao của chúng tôi. Dễ dàng xuất DWG sang DXF, PDF, hình ảnh raster, đối tượng OLE, v.v.
-type: docs
 weight: 26
 url: /vi/net/advanced-export-techniques/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Kỹ thuật xuất khẩu nâng cao
+
 
 ## Giới thiệu
 
@@ -50,3 +56,9 @@ Tìm hiểu cách xuất bố cục cụ thể sang PDF bằng Aspose.CAD cho .N
 Xuất bản vẽ CAD sang PDF một cách liền mạch với Aspose.CAD cho .NET. Hãy làm theo hướng dẫn từng bước của chúng tôi để chuyển đổi hiệu quả.
 ### [Xuất bản vẽ CAD sang định dạng SVG - Hướng dẫn Aspose.CAD](./exporting-cad-drawings-to-svg/)
 Khám phá quy trình liền mạch xuất bản vẽ CAD sang SVG bằng Aspose.CAD cho .NET. Nâng cao khả năng phát triển CAD của bạn với tính linh hoạt và khả năng tùy chỉnh.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

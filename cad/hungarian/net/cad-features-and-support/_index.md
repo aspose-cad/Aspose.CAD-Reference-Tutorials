@@ -3,10 +3,16 @@ title: CAD szolgáltatások és támogatás
 linktitle: CAD szolgáltatások és támogatás
 second_title: Aspose.CAD .NET - CAD és BIM fájlformátum
 description: Használja ki a CAD-szolgáltatások teljes potenciálját az Aspose.CAD for .NET oktatóanyaggal. Könnyedén megtanulhatja a DGN V7 3D-s támogatását, a hálókezelést, a toll testreszabását és még sok mást.
-type: docs
 weight: 23
 url: /hu/net/cad-features-and-support/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# CAD szolgáltatások és támogatás
+
 
 ## Bevezetés
 
@@ -80,3 +86,9 @@ Fedezze fel az Aspose.CAD-et a .NET DGN-fájlok kezelésére szolgáló hatékon
 Fedezze fel az Aspose.CAD for .NET DGN zökkenőmentes támogatását. A DGN-fájlokat lépésről lépésre történő útmutatás segítségével könnyedén raszterképekké alakíthatja.
 ### [3D támogatása DGN V7-hez az Aspose.CAD for .NET-ben](./support-of-3d-for-dgn-v7/)
 Fedezze fel a DGN V7 3D támogatásának erejét az Aspose.CAD for .NET-ben. Kövesse lépésről lépésre bemutató oktatóanyagunkat.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

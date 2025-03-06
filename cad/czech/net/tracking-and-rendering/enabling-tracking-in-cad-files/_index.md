@@ -3,10 +3,16 @@ title: Povolení sledování v souborech CAD – výukový program Aspose.CAD
 linktitle: Povolení sledování v souborech CAD
 second_title: Aspose.CAD .NET – formát souborů CAD a BIM
 description: Ovládněte sledování souborů CAD pomocí Aspose.CAD pro .NET. Postupujte podle našeho podrobného průvodce pro přesné vykreslování a sledování chyb. Stáhnout teď!
-type: docs
 weight: 10
 url: /cs/net/tracking-and-rendering/enabling-tracking-in-cad-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Povolení sledování v souborech CAD – výukový program Aspose.CAD
+
 ## Úvod
 
 oblasti CAD (Computer-Aided Design) je přesnost a sledování prvořadé. Aspose.CAD for .NET poskytuje robustní řešení umožňující sledování v souborech CAD. Tento tutoriál vás provede celým procesem a zajistí, že využijete plný potenciál této funkce.
@@ -103,3 +109,9 @@ A3: Mohou nastat problémy, jako jsou chybějící písma nebo nepodporované en
 ### Q5: Mohu přizpůsobit chybové zprávy sledování?
 
 A5: Rozhodně. Kód můžete upravit tak, aby se chybové zprávy přizpůsobily vašim požadavkům.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

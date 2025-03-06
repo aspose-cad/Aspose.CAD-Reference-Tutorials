@@ -3,10 +3,16 @@ title: عمليات ملف DWG
 linktitle: عمليات ملف DWG
 second_title: Aspose.CAD جافا API
 description: عزز مهاراتك في Java من خلال دروس Aspose.CAD. تعلم استيراد الصور، وقائمة التخطيط، ودعم الشبكة، وتجاوز صفحة التعليمات البرمجية، وتحويل DWG إلى صورة دون عناء.
-type: docs
 weight: 26
 url: /ar/java/dwg-file-operations/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# عمليات ملف DWG
+
 ## مقدمة
 
 هل أنت من عشاق Java وتتطلع إلى رفع مهاراتك في عمليات ملفات DWG؟ لا مزيد من البحث! برامجنا التعليمية الشاملة باستخدام Aspose.CAD لـ Java مصممة خصيصًا لك. دعونا نتعمق في عالم رائع من التطوير الفعال والتكامل السلس.
@@ -44,3 +50,10 @@ url: /ar/java/dwg-file-operations/
 اكتشف كيفية تجاوز اكتشاف صفحة الرموز في ملفات DWG باستخدام Aspose.CAD لـ Java. التعامل بكفاءة مع الترميز واستعادة CIF/MIF التالف.
 ### [تحويل DWG معين إلى صورة باستخدام Java](./convert-dwg-to-image/)
 استكشف التحويل السلس لملفات DWG إلى صور باستخدام Aspose.CAD لـ Java. اتبع دليلنا خطوة بخطوة لإجراء تحويلات فعالة لتنسيقات الملفات.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

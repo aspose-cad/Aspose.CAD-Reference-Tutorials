@@ -3,10 +3,16 @@ title: Aspose.CAD for .NET 支持 DGN V7
 linktitle: 支持 DGN V7
 second_title: Aspose.CAD .NET - CAD 和 BIM 文件格式
 description: 探索 Aspose.CAD for .NET 对 DGN V7 的无缝支持。通过分步指导，轻松将 DGN 文件转换为光栅图像。
-type: docs
 weight: 19
 url: /zh/net/cad-features-and-support/support-for-dgn-v7/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.CAD for .NET 支持 DGN V7
+
 ## 介绍
 
 在 .NET 开发领域，Aspose.CAD 作为处理计算机辅助设计 (CAD) 文件的强大库脱颖而出。本教程深入探讨 Aspose.CAD for .NET 的特定功能 — 对 DGN V7 文件的支持。 DGN 是 Design 的缩写，是 CAD 领域广泛使用的文件格式。 Aspose.CAD 简化了使用 DGN V7 文件的过程，为开发人员提供无缝体验。
@@ -108,3 +114,9 @@ A3：是的，Aspose.CAD支持各种输出格式。您可以浏览文档以获�
 ### 问题 5：Aspose.CAD for .NET 是否有免费试用版？
 
  A5：是的，您可以免费试用[这里](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: DWG를 규정 준수 PDF로 변환 - Aspose.CAD 튜토리얼
 linktitle: DWG를 규정 준수 PDF로 변환
 second_title: Aspose.CAD .NET - CAD 및 BIM 파일 형식
 description: .NET용 Aspose.CAD를 사용하여 DWG를 규정 준수 PDF로 변환합니다. 단계별 안내를 보려면 튜토리얼을 따르세요.
-type: docs
 weight: 13
 url: /ko/net/conversion-and-export/converting-dwg-to-compliance-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# DWG를 규정 준수 PDF로 변환 - Aspose.CAD 튜토리얼
+
 ## 소개
 
 .NET용 Aspose.CAD를 사용하여 DWG 파일을 규정 준수 PDF로 변환하는 방법에 대한 단계별 튜토리얼에 오신 것을 환영합니다. Aspose.CAD는 개발자가 CAD 파일 형식으로 쉽게 작업할 수 있게 해주는 강력한 .NET API입니다. 이 튜토리얼에서는 자세한 예와 설명을 통해 DWG 파일을 규정 준수 PDF로 변환하는 과정을 안내합니다.
@@ -113,3 +119,9 @@ A2: 예, Aspose.CAD는 .NET Framework 및 .NET Core와 모두 호환됩니다.
 ### Q5: Aspose.CAD에 대한 지원은 어디서 받을 수 있나요?
 
 A5: 다음을 방문하세요.[Aspose.CAD 포럼](https://forum.aspose.com/c/cad/19) 지원 관련 문의사항이 있는 경우
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

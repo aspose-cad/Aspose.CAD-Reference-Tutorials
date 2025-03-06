@@ -3,10 +3,16 @@ title: Извлечение значения атрибута блока из в
 linktitle: Извлечь значение атрибута блока из внешней ссылки
 second_title: API Aspose.CAD Java
 description: Изучите наше руководство по извлечению значений атрибутов блоков из внешних ссылок DWG в Java с помощью Aspose.CAD. Улучшите свой рабочий процесс разработки САПР без особых усилий.
-type: docs
 weight: 19
 url: /ru/java/advanced-cad-features/extract-block-attribute-value/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Извлечение значения атрибута блока из внешней ссылки с помощью Aspose.CAD в Java
+
 ## Введение
 
 Добро пожаловать в наше подробное руководство по извлечению значений атрибутов блоков из внешних ссылок в Java с использованием Aspose.CAD. Если вы разработчик, работающий с чертежами САПР и стремящийся оптимизировать свой рабочий процесс, вы попали по адресу. В этом руководстве мы шаг за шагом проведем вас через весь процесс, используя мощные функции Aspose.CAD для Java.
@@ -89,3 +95,9 @@ A1: Aspose.CAD поддерживает различные версии файл
 ### Вопрос 5: Каков процесс получения временной лицензии на Aspose.CAD?
 
  A5: Чтобы получить временную лицензию, посетите[эта ссылка](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

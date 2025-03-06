@@ -3,10 +3,16 @@ title: Hỗ trợ lưới với Aspose.CAD cho Java
 linktitle: Hỗ trợ lưới trong CAD
 second_title: API Java Aspose.CAD
 description: Khám phá hỗ trợ lưới trong các ứng dụng Java với Aspose.CAD. Chuyển đổi tập tin CAD sang PDF dễ dàng.
-type: docs
 weight: 12
 url: /vi/java/advanced-cad-features/mesh-support-in-cad/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Hỗ trợ lưới với Aspose.CAD cho Java
+
 ## Giới thiệu
 
 Aspose.CAD cho Java là một thư viện mạnh mẽ cho phép các nhà phát triển làm việc liền mạch với các tệp Thiết kế hỗ trợ máy tính (CAD) trong các ứng dụng Java. Trong hướng dẫn này, chúng ta sẽ khám phá tính năng hỗ trợ lưới trong Aspose.CAD cho Java, cho phép bạn chuyển đổi các tệp CAD có lưới sang định dạng PDF. Hãy làm theo hướng dẫn từng bước bên dưới để khai thác các khả năng của thư viện này và nâng cao khả năng xử lý tệp CAD của bạn.
@@ -110,3 +116,9 @@ Câu trả lời 4: Có, Aspose.CAD cho Java hỗ trợ nhiều định dạng �
 ### Câu hỏi 5: Tôi có thể dùng thử Aspose.CAD cho Java miễn phí không?
 
  Câu trả lời 5: Có, bạn có thể khám phá phiên bản dùng thử miễn phí của Aspose.CAD cho Java[đây](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

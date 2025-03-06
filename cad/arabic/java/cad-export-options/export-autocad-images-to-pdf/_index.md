@@ -3,10 +3,16 @@ title: تصدير صور AutoCAD إلى PDF - البرنامج التعليمي 
 linktitle: تصدير صور أوتوكاد إلى PDF
 second_title: Aspose.CAD جافا API
 description: قم بتصدير صور AutoCAD إلى PDF بسهولة باستخدام Aspose.CAD لـ Java. اتبع دليلنا خطوة بخطوة للتكامل السلس.
-type: docs
 weight: 10
 url: /ar/java/cad-export-options/export-autocad-images-to-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تصدير صور AutoCAD إلى PDF - البرنامج التعليمي Aspose.CAD لـ Java
+
 ## مقدمة
 
 هل تتطلع إلى تحويل صور AutoCAD إلى PDF بسهولة باستخدام Java؟ لا مزيد من البحث! في هذا البرنامج التعليمي، سنرشدك خلال العملية باستخدام Aspose.CAD for Java، وهي مكتبة قوية تعمل على تبسيط المهام المعقدة. وفي النهاية، سيكون لديك القدرة على تصدير الصور ثلاثية الأبعاد إلى PDF دون عناء.
@@ -105,3 +111,9 @@ cadImage.save(dataDir + "Export3DImagestoPDF_out_.pdf", pdfOptions);
 ### س5: أين يمكنني طلب المساعدة أو مناقشة المشكلات المتعلقة بـ Aspose.CAD لـ Java؟
 
  ج5: توجه إلى[منتدى Aspose.CAD](https://forum.aspose.com/c/cad/19) للحصول على الدعم المخصص والمناقشات.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

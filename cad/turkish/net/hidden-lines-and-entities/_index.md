@@ -3,10 +3,16 @@ title: Gizli Çizgiler ve Varlıklar
 linktitle: Gizli Çizgiler ve Varlıklar
 second_title: Aspose.CAD .NET - CAD ve BIM Dosya Formatı
 description: Aspose.CAD for .NET ile DWG dosyalarındaki gizli satırların kilidini zahmetsizce açın. Adım adım kılavuzumuzla CAD projelerinizi geliştirin.
-type: docs
 weight: 29
 url: /tr/net/hidden-lines-and-entities/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Gizli Çizgiler ve Varlıklar
+
 
 
 ## giriiş
@@ -39,3 +45,9 @@ Sonuç olarak, ister gizli hatların kilidini açmaya, ister MLeader varlıklar�
 Aspose.CAD for .NET ile DWG dosyalarındaki gizli satırların kilidini zahmetsizce açın. Sorunsuz entegrasyon için adım adım kılavuzumuzu izleyin.
 ### [DWG Formatı için MLeader Varlığını Destekleme - Aspose.CAD Guide](./supporting-mleader-entity-for-dwg-format/)
 Aspose.CAD for .NET ile DWG formatında MLeader varlıklarının gücünün kilidini açın. CAD projelerinizi zahmetsizce yükseltin.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

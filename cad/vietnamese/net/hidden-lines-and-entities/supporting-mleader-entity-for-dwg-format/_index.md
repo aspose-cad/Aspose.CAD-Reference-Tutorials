@@ -3,10 +3,16 @@ title: Hỗ trợ Thực thể MLeader cho Định dạng DWG - Hướng dẫn A
 linktitle: Hỗ trợ thực thể MLeader cho định dạng DWG
 second_title: Aspose.CAD .NET - Định dạng tệp CAD và BIM
 description: Khai phá sức mạnh của các thực thể MLeader ở định dạng DWG với Aspose.CAD cho .NET. Nâng cao các dự án CAD của bạn một cách dễ dàng.
-type: docs
 weight: 11
 url: /vi/net/hidden-lines-and-entities/supporting-mleader-entity-for-dwg-format/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Hỗ trợ Thực thể MLeader cho Định dạng DWG - Hướng dẫn Aspose.CAD
+
 ## Giới thiệu
 
 Trong thế giới năng động của thiết kế có sự hỗ trợ của máy tính (CAD), việc luôn cập nhật các tính năng và chức năng mới nhất là rất quan trọng. Một tính năng như vậy là hỗ trợ các thực thể MLeader ở định dạng DWG. Aspose.CAD cho .NET cung cấp một bộ công cụ mạnh mẽ để xử lý việc này một cách hiệu quả.
@@ -118,3 +124,9 @@ A4: Nếu có bất kỳ thắc mắc hoặc trợ giúp nào, hãy truy cập[D
 ### Câu hỏi 5: Tôi có thể dùng thử Aspose.CAD trước khi mua hàng không?
 
  Câu trả lời 5: Có, bạn có thể khám phá một[dùng thử miễn phí](https://releases.aspose.com/) của Aspose.CAD để trải nghiệm khả năng của nó trước khi đưa ra quyết định.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Omgaan met lagen in DWG-bestanden met C# - Aspose.CAD-zelfstudie
 linktitle: Omgaan met lagen in DWG-bestanden met C#
 second_title: Aspose.CAD .NET - CAD- en BIM-bestandsindeling
 description: Leer hoe u met lagen in DWG-bestanden kunt omgaan met C# met Aspose.CAD voor .NET. Stapsgewijze handleiding voor efficiënte manipulatie van CAD-bestanden.
-type: docs
 weight: 11
 url: /nl/net/dwg-file-manipulation/support-of-layers/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Omgaan met lagen in DWG-bestanden met C# - Aspose.CAD-zelfstudie
+
 ## Invoering
 
 Welkom bij onze uitgebreide tutorial over het omgaan met lagen in DWG-bestanden met behulp van C# met Aspose.CAD voor .NET. Aspose.CAD is een krachtige bibliotheek waarmee ontwikkelaars naadloos met CAD-bestandsindelingen kunnen werken. In deze zelfstudie begeleiden we u stap voor stap bij het omgaan met lagen in DWG-bestanden.
@@ -109,3 +115,9 @@ In deze zelfstudie hebben we het proces doorlopen van het omgaan met lagen in DW
 ### V5: Wat zijn de licentieopties voor Aspose.CAD?
 
  A5: U kunt licentieopties en aankoopdetails verkennen[hier](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

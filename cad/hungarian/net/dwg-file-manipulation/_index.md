@@ -3,10 +3,16 @@ title: DWG fájlkezelés
 linktitle: DWG fájlkezelés
 second_title: Aspose.CAD .NET - CAD és BIM fájlformátum
 description: DWG oktatóanyagaink segítségével felszabadíthatja az Aspose.CAD erejét a .NET-ben. Master C# a hatékony CAD-kezeléshez, a DWF-elrendezési méretek zökkenőmentes kinyeréséhez.
-type: docs
 weight: 24
 url: /hu/net/dwg-file-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# DWG fájlkezelés
+
 
 ## Bevezetés
 
@@ -39,3 +45,9 @@ Ismerje meg, hogyan nyithat meg és érhet el DWFX fájlokat C# nyelven az Aspos
 Fedezze fel az Aspose.CAD for .NET erejét a DWG fájlok alátétjelzőinek felfedezésében. Kövesse lépésenkénti útmutatónkat.
 ### [Szöveg hozzáadása DWG-fájlokhoz C#-ban - Aspose.CAD oktatóanyag](./adding-text-to-dwg/)
 Ismerje meg, hogyan adhat hozzá szöveget DWG-fájlokhoz C# és Aspose.CAD használatával. Kövesse ezt a lépésenkénti oktatóanyagot a zökkenőmentes integráció érdekében. Fedezze fel az Aspose.CAD dokumentációt átfogó útmutatásért.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

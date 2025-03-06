@@ -3,10 +3,16 @@ title: 在 Aspose.CAD for .NET 中将 CAD 绘图转换为光栅图像
 linktitle: 将 CAD 绘图转换为光栅图像
 second_title: Aspose.CAD .NET - CAD 和 BIM 文件格式
 description: 探索使用 Aspose.CAD 将 CAD 绘图转换为 .NET 中的光栅图像的无缝过程。解锁高效的工作流程并轻松增强您的 CAD 项目。
-type: docs
 weight: 11
 url: /zh/net/cad-drawing-manipulation/convert-cad-drawing-to-raster-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.CAD for .NET 中将 CAD 绘图转换为光栅图像
+
 ## 介绍
 
 在不断发展的计算机辅助设计 (CAD) 领域，将 CAD 绘图无缝转换为光栅图像的需求至关重要。本分步指南探讨了如何使用强大的 Aspose.CAD for .NET 库来实现这一目标。 Aspose.CAD 简化了流程，为开发人员提供了一套强大的工具来增强他们的 CAD 相关工作流程。
@@ -118,3 +124,9 @@ A4：如需任何帮助或疑问，请访问 Aspose.CAD[支持论坛](https://fo
 ### Q5：Aspose.CAD 是否有临时许可证？
  
  A5：是的，开发人员可以从以下位置获取 Aspose.CAD 的临时许可证：[这个链接](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

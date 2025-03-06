@@ -3,10 +3,16 @@ title: Exportar a PDF con Aspose.CAD para Java
 linktitle: Exportar a PDF
 second_title: API de Java Aspose.CAD
 description: Aprenda a exportar archivos CAD a PDF sin esfuerzo con Aspose.CAD para Java. Siga nuestra guía paso a paso para una integración perfecta.
-type: docs
 weight: 13
 url: /es/java/cad-export-options/export-to-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Exportar a PDF con Aspose.CAD para Java
+
 ## Introducción
 
 Bienvenido a este completo tutorial sobre cómo exportar archivos CAD a PDF usando Aspose.CAD para Java. Si está buscando convertir sin problemas sus dibujos CAD al formato PDF ampliamente admitido, está en el lugar correcto. En esta guía paso a paso, desglosaremos el proceso, asegurándonos de que comprenda cada paso para lograr una exportación de PDF exitosa.
@@ -95,3 +101,9 @@ R2: Absolutamente. El tutorial ofrece una idea de las opciones de personalizaci�
 ### P5: ¿Cómo puedo obtener una licencia temporal para Aspose.CAD?
 
  R5: Para obtener una licencia temporal, visite[este enlace](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

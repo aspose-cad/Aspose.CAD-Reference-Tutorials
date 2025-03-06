@@ -3,10 +3,16 @@ title: 3D模型支持
 linktitle: 3D模型支持
 second_title: Aspose.CAD .NET - CAD 和 BIM 文件格式
 description: 使用 Aspose.CAD for .NET 优化您的 CAD 应用程序！掌握无缝支持 OBJ 格式的艺术，释放 3D 模型的全部潜力。
-type: docs
 weight: 40
 url: /zh/net/3d-model-support/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 3D模型支持
+
 
 ## 介绍
 
@@ -32,3 +38,9 @@ Aspose.CAD 是一个强大的工具，学习如何利用其功能可以让您在
 ## 3D 模型支持教程
 ### [在 Aspose.CAD 中支持 OBJ 格式 - 教程](./supporting-obj-format-in-aspose-cad/)
 释放 Aspose.CAD for .NET 的潜力。通过此分步教程，了解如何在 CAD 应用程序中无缝支持 OBJ 格式。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

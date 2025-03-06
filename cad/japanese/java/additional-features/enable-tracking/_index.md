@@ -3,10 +3,16 @@ title: Java で Aspose.CAD を使用して DWG ファイルのトラッキング
 linktitle: Java を使用して DWG ファイルの追跡を有効にする
 second_title: Aspose.CAD Java API
 description: Aspose.CAD を使用して Java で DWG ファイル追跡を有効にし、CAD プロジェクトでのシームレスなコラボレーションを確保するためのステップバイステップ ガイドをご覧ください。
-type: docs
 weight: 12
 url: /ja/java/additional-features/enable-tracking/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java で Aspose.CAD を使用して DWG ファイルのトラッキングを有効にする
+
 ## 導入
 
 コンピュータ支援設計 (CAD) の分野では、Aspose.CAD for Java は、開発者が CAD ファイルを簡単に操作および変換できる強力なツールとして際立っています。このチュートリアルでは、Aspose.CAD for Java の特定の機能、つまり DWG ファイルでの追跡を可能にする機能について詳しく説明します。 DWG ファイルの変更を追跡することは、共同設計プロジェクトにとって非常に重要であり、シームレスなコミュニケーションと効率的なワークフローを確保します。このガイドでは、Aspose.CAD の機能を活用して、Java を使用した追跡を有効にする手順を説明します。
@@ -123,3 +129,9 @@ A1: Aspose.CAD は主に追跡用の DWG ファイルをサポートしていま
 ### Q5: Aspose.CAD for Java の一時ライセンスを取得するにはどうすればよいですか?
 
  A5: 次の手順に従ってください。[仮免許](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

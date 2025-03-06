@@ -3,10 +3,16 @@ title: การส่งออก DWG เป็น PDF หรือรูปภ
 linktitle: ส่งออก DWG เป็น PDF หรือรูปภาพแรสเตอร์
 second_title: Aspose.CAD .NET - รูปแบบไฟล์ CAD และ BIM
 description: สำรวจคำแนะนำที่ครอบคลุมเกี่ยวกับการส่งออก DWG เป็น PDF หรือรูปภาพแรสเตอร์โดยใช้ Aspose.CAD สำหรับ .NET เรียนรู้ขั้นตอน ข้อกำหนดเบื้องต้น และลงมือปฏิบัติจริงด้วยไลบรารีที่มีประสิทธิภาพนี้
-type: docs
 weight: 11
 url: /th/net/advanced-export-techniques/exporting-dwg-to-pdf-or-raster-images/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# การส่งออก DWG เป็น PDF หรือรูปภาพแรสเตอร์ - คู่มือ Aspose.CAD
+
 ## การแนะนำ
 
 คุณต้องการแปลงไฟล์ DWG เป็น PDF หรือรูปภาพแรสเตอร์ในแอปพลิเคชัน .NET ของคุณได้อย่างราบรื่นหรือไม่? ไม่ต้องมองอีกต่อไป! คำแนะนำทีละขั้นตอนนี้จะแนะนำคุณตลอดกระบวนการโดยใช้ไลบรารี Aspose.CAD สำหรับ .NET อันทรงพลัง ไม่ว่าคุณจะเป็นนักพัฒนาที่มีประสบการณ์หรือเพิ่งเริ่มต้น บทช่วยสอนนี้เหมาะสำหรับทุกระดับทักษะ
@@ -119,3 +125,9 @@ cadImage.Save(outPath.Replace("pdf", "png"), pngOptions);
 ### Q5: ฉันจะหาเอกสารโดยละเอียดได้ที่ไหน?
 
  A5: เอกสารมีอยู่ที่[Aspose.CAD](https://reference.aspose.com/cad/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

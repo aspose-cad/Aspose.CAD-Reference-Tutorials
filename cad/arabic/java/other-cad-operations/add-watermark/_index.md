@@ -3,10 +3,16 @@ title: إضافة علامات مائية إلى رسومات CAD - البرنا
 linktitle: أضف علامة مائية
 second_title: Aspose.CAD جافا API
 description: قم بتحسين رسومات CAD الخاصة بك باستخدام علامات مائية مخصصة باستخدام Aspose.CAD لـ Java. اتبع دليلنا خطوة بخطوة للتكامل السلس.
-type: docs
 weight: 12
 url: /ar/java/other-cad-operations/add-watermark/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إضافة علامات مائية إلى رسومات CAD - البرنامج التعليمي Aspose.CAD لـ Java
+
 ## مقدمة
 
 مرحبًا بك في هذا الدليل الشامل حول إضافة علامات مائية إلى رسومات CAD باستخدام Aspose.CAD لـ Java. في هذا البرنامج التعليمي، ستتعلم كيفية دمج العلامات المائية بكفاءة، وتعزيز مستندات CAD الخاصة بك برسائل مخصصة أو علامات تجارية. يوفر Aspose.CAD for Java مجموعة قوية من الميزات، مما يجعل عملية إضافة العلامة المائية واضحة ومباشرة.
@@ -99,3 +105,9 @@ A1: يدعم Aspose.CAD تنسيقات CAD المتنوعة، بما في ذلك
 ### س5: أين يمكنني العثور على الوثائق الكاملة لـ Aspose.CAD لـ Java؟
 
  ج5: راجع[توثيق](https://reference.aspose.com/cad/java/) للحصول على معلومات مفصلة.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

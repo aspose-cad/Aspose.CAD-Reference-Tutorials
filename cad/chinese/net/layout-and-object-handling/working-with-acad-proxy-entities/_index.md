@@ -3,10 +3,16 @@ title: 使用 ACAD 代理实体 - Aspose.CAD 指南
 linktitle: 使用 ACAD 代理实体
 second_title: Aspose.CAD .NET - CAD 和 BIM 文件格式
 description: 探索 Aspose.CAD for .NET 并简化您的 CAD 工作流程。轻松转换、编辑和管理 ACAD 代理实体。
-type: docs
 weight: 13
 url: /zh/net/layout-and-object-handling/working-with-acad-proxy-entities/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 ACAD 代理实体 - Aspose.CAD 指南
+
 ## 介绍
 
 在 .NET 开发的动态世界中，创建和管理 CAD 绘图是一项关键任务。 Aspose.CAD for .NET 为使用 AutoCAD 代理实体提供了强大的解决方案。本指南将引导您完成利用 Aspose.CAD 的强大功能并简化 CAD 相关工作流程的基本步骤。
@@ -98,3 +104,9 @@ A1：是的，Aspose.CAD支持各种CAD格式，包括DWG和DXF。
 ### 问题 5：在哪里可以购买 Aspose.CAD for .NET 的完整许可证？
 
 A5：您可以从[购买页面](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

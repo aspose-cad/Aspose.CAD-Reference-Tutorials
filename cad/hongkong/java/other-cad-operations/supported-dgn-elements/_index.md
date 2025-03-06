@@ -3,10 +3,16 @@ title: 輕鬆掌握 DGN 元素處理 - Aspose.CAD for Java
 linktitle: 支持的 DGN 元素
 second_title: Aspose.CAD Java API
 description: 探索 Aspose.CAD for Java 在輕鬆處理 DGN 元素方面的強大功能。我們的逐步指南可確保 CAD 檔案處理的無縫整合。
-type: docs
 weight: 10
 url: /zh-hant/java/other-cad-operations/supported-dgn-elements/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 輕鬆掌握 DGN 元素處理 - Aspose.CAD for Java
+
 ## 介紹
 
 歡迎來到我們關於使用 Aspose.CAD for Java 處理 DGN（設計）元素的逐步教學。 Aspose.CAD 是一個功能強大的 Java 程式庫，可讓您有效率地處理 CAD 檔案。在本教程中，我們將專注於受支援的 DGN 元素，並引導您完成使用 Aspose.CAD 處理它們的過程。
@@ -118,3 +124,9 @@ A1：Aspose.CAD是一個獨立的函式庫，但您可以根據您的專案需�
 ### Q5：Aspose.CAD 是否有臨時授權？
 
  A5：是的，您可以獲得臨時許可證[這裡](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

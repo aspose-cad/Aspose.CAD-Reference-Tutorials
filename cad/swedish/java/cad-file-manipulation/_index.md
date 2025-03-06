@@ -3,10 +3,16 @@ title: CAD-filhantering
 linktitle: CAD-filhantering
 second_title: Aspose.CAD Java API
 description: Lås upp CAD-filkraft med Aspose.CAD för Java! Konvertera DWFX till PDF, få tillgång till DWG-flaggor, listlayouter och autojustera storlekar med våra handledningar.
-type: docs
 weight: 23
 url: /sv/java/cad-file-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# CAD-filhantering
+
 
 ## Introduktion
 
@@ -44,3 +50,9 @@ Utforska Aspose.CAD för Java och lista layouter enkelt i DWG-filer. Integrera k
 Utforska den sömlösa processen att automatiskt justera CAD-ritningsstorlekar i Java med Aspose.CAD. Följ vår steg-för-steg-guide för effektiv CAD-filmanipulation.
 ### [Justera CAD-ritningsstorlek med hjälp av enhetstyp med Aspose.CAD för Java](./adjusting-cad-drawing-size-using-unit-type/)
 Utforska kraften i Aspose.CAD för Java för att enkelt justera CAD-ritningsstorlekar. Följ vår steg-för-steg-guide för precision och anpassningsförmåga.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

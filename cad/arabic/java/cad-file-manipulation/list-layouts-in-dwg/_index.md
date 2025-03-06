@@ -3,10 +3,16 @@ title: قائمة التخطيطات في DWG باستخدام Aspose.CAD لـ J
 linktitle: قائمة التخطيطات في DWG
 second_title: Aspose.CAD جافا API
 description: استكشف Aspose.CAD لـ Java وأدرج التخطيطات في ملفات DWG بسهولة. دمج وظائف CAD القوية في تطبيقات Java الخاصة بك.
-type: docs
 weight: 12
 url: /ar/java/cad-file-manipulation/list-layouts-in-dwg/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# قائمة التخطيطات في DWG باستخدام Aspose.CAD لـ Java
+
 ## مقدمة
 
 مرحبًا بك في دليلنا خطوة بخطوة حول استخدام Aspose.CAD لـ Java لسرد التخطيطات في ملفات DWG. Aspose.CAD هي مكتبة قوية تمكن المطورين من العمل مع ملفات CAD برمجيًا. في هذا البرنامج التعليمي، سنركز على مهمة محددة: إدراج التخطيطات في ملف DWG. بحلول نهاية هذا الدليل، ستتمكن من دمج هذه الوظيفة بسلاسة في تطبيقات Java الخاصة بك.
@@ -86,3 +92,9 @@ for (CadLayout layout : layouts.getValues())
 ### س5: هل يمكنني استخدام ترخيص مؤقت لأغراض الاختبار؟
 
  ج5: نعم، يمكنك الحصول على ترخيص مؤقت[هنا](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

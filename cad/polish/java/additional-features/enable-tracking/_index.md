@@ -3,10 +3,16 @@ title: Włącz śledzenie w plikach DWG za pomocą Aspose.CAD w Javie
 linktitle: Włącz śledzenie w plikach DWG przy użyciu języka Java
 second_title: Aspose.CAD API Java
 description: Zapoznaj się z przewodnikiem krok po kroku dotyczącym włączania śledzenia plików DWG w Javie przy użyciu Aspose.CAD, zapewniając bezproblemową współpracę w projektach CAD.
-type: docs
 weight: 12
 url: /pl/java/additional-features/enable-tracking/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Włącz śledzenie w plikach DWG za pomocą Aspose.CAD w Javie
+
 ## Wstęp
 
 W dziedzinie projektowania wspomaganego komputerowo (CAD) Aspose.CAD dla Java wyróżnia się jako potężne narzędzie, które umożliwia programistom łatwe manipulowanie i konwertowanie plików CAD. Ten samouczek omawia specyficzną funkcjonalność Aspose.CAD dla Java – umożliwiając śledzenie w plikach DWG. Śledzenie zmian w plikach DWG ma kluczowe znaczenie dla wspólnych projektów projektowych, zapewniając płynną komunikację i efektywny przepływ pracy. W tym przewodniku omówimy kroki umożliwiające śledzenie przy użyciu języka Java, wykorzystując możliwości Aspose.CAD.
@@ -123,3 +129,9 @@ O1: Aspose.CAD obsługuje przede wszystkim pliki DWG do śledzenia. Informacje o
 ### P5: Jak uzyskać tymczasową licencję na Aspose.CAD dla Java?
 
  Odpowiedź 5: Postępuj zgodnie z procesem opisanym na stronie[Licencja tymczasowa](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

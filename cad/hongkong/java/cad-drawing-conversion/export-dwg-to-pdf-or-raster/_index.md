@@ -3,10 +3,16 @@ title: 使用 Aspose.CAD for Java 將 DWG 匯出為 PDF 或光柵
 linktitle: 將 DWG 匯出為 PDF 或光柵
 second_title: Aspose.CAD Java API
 description: 探索使用 Aspose.CAD 將 DWG 檔案匯出為 PDF 或 Java 光柵影像的無縫過程。本逐步指南可確保精度和效率。
-type: docs
 weight: 13
 url: /zh-hant/java/cad-drawing-conversion/export-dwg-to-pdf-or-raster/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.CAD for Java 將 DWG 匯出為 PDF 或光柵
+
 ## 介紹
 
 在電腦輔助設計 (CAD) 的動態世界中，高效處理圖面至關重要。 Aspose.CAD for Java 提供了將 DWG 檔案匯出為 PDF 或光柵影像的強大解決方案。本教學將引導您完成整個過程，確保您充分利用 Aspose.CAD for Java 的潛力。
@@ -116,3 +122,9 @@ A1：是的，Aspose.CAD for Java 與流行的 Java 框架無縫整合。
 ### Q5：Aspose.CAD for Java 支援哪些單位？
 
 A5：Aspose.CAD for Java 支援公制和英制單位。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

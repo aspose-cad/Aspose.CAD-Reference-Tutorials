@@ -3,10 +3,16 @@ title: Importera bilder till DWG-filer med C# - Aspose.CAD Guide
 linktitle: Importera bilder till DWG-filer med C#
 second_title: Aspose.CAD .NET - CAD- och BIM-filformat
 description: Lär dig att importera bilder till DWG-filer med C# med Aspose.CAD för .NET. Följ vår steg-för-steg-guide för sömlös integration.
-type: docs
 weight: 11
 url: /sv/net/image-manipulation-and-rendering/importing-images-into-dwg/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Importera bilder till DWG-filer med C# - Aspose.CAD Guide
+
 ## Introduktion
 
 Inom datorstödd design (CAD) är det en vanlig och avgörande uppgift att införliva bilder i DWG-filer. Aspose.CAD för .NET tillhandahåller en kraftfull uppsättning verktyg för att effektivisera denna process, vilket gör den tillgänglig för C#-utvecklare. I den här handledningen kommer vi att utforska hur man importerar bilder till DWG-filer steg för steg.
@@ -122,3 +128,9 @@ S1: Aspose.CAD är främst designat för .NET, men Aspose tillhandahåller bibli
 ### F5: Finns det gemenskapsforum för Aspose.CAD-stöd?
 
  S5: Ja, du kan söka stöd och engagera dig i samhället[här](https://forum.aspose.com/c/cad/19).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

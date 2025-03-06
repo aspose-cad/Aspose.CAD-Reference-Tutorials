@@ -3,10 +3,16 @@ title: 探索 DWG 文件的底层标志 - Aspose.CAD 教程
 linktitle: 探索 DWG 文件的参考底图标记
 second_title: Aspose.CAD .NET - CAD 和 BIM 文件格式
 description: 释放 Aspose.CAD for .NET 在探索 DWG 文件底层标记方面的强大功能。请遵循我们的分步指南。
-type: docs
 weight: 13
 url: /zh/net/dwg-file-manipulation/exploring-underlay-flags-of-dwg/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 探索 DWG 文件的底层标志 - Aspose.CAD 教程
+
 ## 介绍
 
 如果您正在深入研究 CAD 文件（特别是 DWG 文件）的复杂世界，并且想要解开底层标志的神秘面纱，那么您来对地方了。本教程将引导您完成使用强大的 Aspose.CAD for .NET 库探索 DWG 文件中的底层标志的过程。
@@ -114,3 +120,10 @@ A4：购买图书馆[这里](https://purchase.aspose.com/buy).
 ### Q5: 有免费试用吗？
 
  A5：是的，您可以免费试用[这里](https://releases.aspose.com/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

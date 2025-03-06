@@ -3,10 +3,16 @@ title: 在 Java 中使用 Aspose.CAD 將特定 DXF 佈局匯出到影像
 linktitle: 使用 Java 將特定 DXF 佈局匯出到影像
 second_title: Aspose.CAD Java API
 description: 了解如何使用 Aspose.CAD for Java 將特定 DXF 佈局匯出到影像。請按照我們的逐步指南進行無縫整合。
-type: docs
 weight: 16
 url: /zh-hant/java/additional-features/export-specific-layout-to-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Java 中使用 Aspose.CAD 將特定 DXF 佈局匯出到影像
+
 ## 介紹
 
 您是否希望使用 Java 將特定 DXF 佈局轉換為映像？使用Aspose.CAD for Java，您可以無縫地完成此任務。在本逐步指南中，我們將引導您完成將特定 DXF 佈局匯出到影像的過程，並為每個階段提供清晰的說明和範例。
@@ -141,3 +147,9 @@ A4：是的，Aspose.CAD for Java 支援各種輸出格式，包括 PNG、BMP、
 ### Q5：我可以進一步自訂光柵化選項嗎？
 
  A5：當然，`CadRasterizationOptions`類別提供了各種自訂屬性。瀏覽文件以取得其他選項。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

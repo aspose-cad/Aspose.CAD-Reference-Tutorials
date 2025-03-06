@@ -3,10 +3,16 @@ title: .NET용 Aspose.CAD에서 DWT 읽기
 linktitle: DWT 읽기
 second_title: Aspose.CAD .NET - CAD 및 BIM 파일 형식
 description: .NET용 Aspose.CAD를 살펴보세요. DWT 파일을 쉽게 읽을 수 있는 강력한 도구입니다. 사용자 친화적인 튜토리얼을 통해 CAD 데이터 통합을 강화하세요.
-type: docs
 weight: 13
 url: /ko/net/cad-features-and-support/reading-dwt/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# .NET용 Aspose.CAD에서 DWT 읽기
+
 ## 소개
 
 .NET용 Aspose.CAD의 강력한 기능을 활용하여 DWT 파일을 효율적으로 읽고 애플리케이션에서 CAD 데이터의 잠재력을 활용하세요. 이 포괄적인 튜토리얼에서는 Aspose.CAD를 .NET 프로젝트에 원활하게 통합할 수 있도록 프로세스를 단계별로 안내합니다.
@@ -92,3 +98,9 @@ A1: Aspose.CAD는 다양한 버전의 DWT 파일을 포함하여 광범위한 CA
 ### Q5: 임시 라이센스를 사용할 수 있습니까?
 
  A5: 예, 임시 라이센스를 얻을 수 있습니다.[여기](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: 在 C# 中將 DWG 匯出為 DXF 格式 - Aspose.CAD 教學課程
 linktitle: 在 C# 中將 DWG 匯出為 DXF 格式
 second_title: Aspose.CAD .NET - CAD 和 BIM 檔案格式
 description: 使用 Aspose.CAD 解鎖 C# 中的 CAD 檔案操作。了解如何輕鬆將 DWG 匯出為 DXF。請按照我們的逐步指南進行無縫整合。
-type: docs
 weight: 10
 url: /zh-hant/net/advanced-export-techniques/exporting-dwg-to-dxf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 C# 中將 DWG 匯出為 DXF 格式 - Aspose.CAD 教學課程
+
 ## 介紹
 
 如果您是 .NET 開發人員，並且正在尋求強大的 CAD 檔案操作解決方案，那麼 Aspose.CAD 是您的首選工具。在本逐步教學中，我們將引導您完成使用 C# 和 Aspose.CAD 將 DWG 檔案匯出為 DXF 格式的過程。
@@ -80,3 +86,9 @@ A4：請參閱文檔[這個連結](https://reference.aspose.com/cad/net/)進行�
 ### Q5：需要幫助或有具體問題？
 
  A5：造訪 Aspose.CAD 社群論壇[這裡](https://forum.aspose.com/c/cad/19)尋求專家協助和社區支持。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

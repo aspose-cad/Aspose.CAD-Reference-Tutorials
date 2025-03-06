@@ -3,10 +3,16 @@ title: Lisanslama ve Yapılandırma
 linktitle: Lisanslama ve Yapılandırma
 second_title: Aspose.CAD .NET - CAD ve BIM Dosya Formatı
 description: Aspose.CAD for .NET ile CAD dosya işleme oyununuzu bir üst seviyeye taşıyın! FileStream'i kullanarak veya adım adım eğitimlerimiz aracılığıyla lisansları sorunsuz bir şekilde uygulayın.
-type: docs
 weight: 20
 url: /tr/net/licensing-and-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Lisanslama ve Yapılandırma
+
 
 ## giriiş
 
@@ -32,3 +38,9 @@ Sonuç olarak, adım adım kılavuzlarımızla yalnızca lisansları zahmetsizce
 Aspose.CAD for .NET'e hakim olma: FileStream'i kullanarak lisansları sorunsuz bir şekilde uygulayın. Adım adım kılavuzu keşfedin ve potansiyelin kilidini açın. Şimdi İndirin!
 ### [Aspose.CAD for .NET'te Ölçülü Lisanslama](./metered-licensing/)
 .NET'te ölçülü lisanslama ile Aspose.CAD potansiyelinin kilidini açın. Kaynak kullanımını sorunsuz bir şekilde optimize edin. Adım adım kılavuzumuzu keşfedin.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

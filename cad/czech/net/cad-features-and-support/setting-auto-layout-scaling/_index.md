@@ -3,10 +3,16 @@ title: Nastavení Auto Layout Scaling v Aspose.CAD pro .NET
 linktitle: Nastavení Auto Layout Scaling
 second_title: Aspose.CAD .NET – formát souborů CAD a BIM
 description: Vylepšete vykreslování CAD pomocí Aspose.CAD pro .NET. Naučte se nastavit automatické škálování rozložení pro přesné a přizpůsobivé vykreslování souborů.
-type: docs
 weight: 14
 url: /cs/net/cad-features-and-support/setting-auto-layout-scaling/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Nastavení Auto Layout Scaling v Aspose.CAD pro .NET
+
 V dynamické sféře vývoje .NET je optimalizace vykreslování souborů CAD (Computer-Aided Design) klíčovým aspektem vytváření efektivních a vizuálně přitažlivých aplikací. Aspose.CAD for .NET umožňuje vývojářům vylepšit jejich možnosti zpracování CAD a v tomto tutoriálu se zaměříme na nastavení automatického škálování rozložení pomocí Aspose.CAD for .NET.
 
 ## Předpoklady
@@ -107,3 +113,9 @@ A4: Aspose.CAD rozhodně poskytuje širokou škálu možností pro přizpůsoben
 ### Q5: Kde najdu další zdroje a podporu pro Aspose.CAD?
 
  A5: Prozkoumejte[Fórum Aspose.CAD](https://forum.aspose.com/c/cad/19) pro podporu komunity a viz[dokumentace](https://reference.aspose.com/cad/net/) pro podrobné informace.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Öka CAD-exporten med anpassade pennalternativ i Aspose.CAD för .NET
 linktitle: Pennstöd vid export
 second_title: Aspose.CAD .NET - CAD- och BIM-filformat
 description: Lär dig hur du förbättrar din CAD-bildexport med Aspose.CAD för .NET. Anpassa pennalternativ för fantastiska bilder i PDF, PNG, BMP och mer.
-type: docs
 weight: 12
 url: /sv/net/cad-features-and-support/pen-support-in-export/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Öka CAD-exporten med anpassade pennalternativ i Aspose.CAD för .NET
+
 ## Introduktion
 
 Aspose.CAD för .NET tillhandahåller en kraftfull uppsättning verktyg för att arbeta med CAD-filer (Computer Aided Design), vilket gör det möjligt för utvecklare att manipulera och exportera CAD-bilder sömlöst. En anmärkningsvärd funktion är pennstödet under export, vilket gör att användare kan anpassa start- och slutkapsinställningar för pennor när de exporterar CAD-bilder till olika format som PDF, PNG, BMP, GIF, JPEG2000, JPEG, PSD, TIFF och WMF.
@@ -119,3 +125,9 @@ S1: Ja, pennalternativen kan tillämpas på olika bildformat som PNG, BMP, GIF, 
 ### F5: Var kan jag söka communitysupport för Aspose.CAD för .NET?
 
  S5: Engagera dig i samhället på[Aspose.CAD-forum](https://forum.aspose.com/c/cad/19).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

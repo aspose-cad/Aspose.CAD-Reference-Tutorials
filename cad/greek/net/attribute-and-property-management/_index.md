@@ -3,10 +3,16 @@ title: Διαχείριση Ιδιοτήτων και Ιδιοκτησίας
 linktitle: Διαχείριση Ιδιοτήτων και Ιδιοκτησίας
 second_title: Aspose.CAD .NET - Μορφή αρχείου CAD και BIM
 description: Αναβαθμίστε τα σχέδια CAD με το Aspose.CAD για .NET! Μάθετε να προσθέτετε χαρακτηριστικά και προσαρμοσμένες ιδιότητες απρόσκοπτα μέσω οδηγών. Βελτιώστε τα σχέδιά σας χωρίς κόπο.
-type: docs
 weight: 30
 url: /el/net/attribute-and-property-management/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Διαχείριση Ιδιοτήτων και Ιδιοκτησίας
+
 
 
 ## Εισαγωγή
@@ -47,3 +53,9 @@ url: /el/net/attribute-and-property-management/
 Βελτιώστε τα σχέδιά σας CAD με χαρακτηριστικά χρησιμοποιώντας το Aspose.CAD για .NET. Ακολουθήστε τον βήμα προς βήμα οδηγό μας για απρόσκοπτη ενσωμάτωση.
 ### [Προσθήκη προσαρμοσμένων ιδιοτήτων σε αρχεία DWG - Οδηγός Aspose.CAD](./adding-custom-properties-to-dwg/)
 Βελτιώστε τα αρχεία DWG με προσαρμοσμένες ιδιότητες χρησιμοποιώντας το Aspose.CAD για .NET. Ακολουθήστε τον οδηγό βήμα προς βήμα για να προσθέσετε ουσιαστικά μεταδεδομένα χωρίς κόπο.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

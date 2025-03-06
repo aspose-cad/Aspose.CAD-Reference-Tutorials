@@ -3,10 +3,16 @@ title: 使用 Aspose.CAD for .NET 中的自訂筆選項提升 CAD 匯出功能
 linktitle: 匯出中的筆支持
 second_title: Aspose.CAD .NET - CAD 和 BIM 檔案格式
 description: 了解如何使用 Aspose.CAD for .NET 增強 CAD 影像匯出功能。自訂筆選項，以 PDF、PNG、BMP 等格式呈現令人驚嘆的視覺效果。
-type: docs
 weight: 12
 url: /zh-hant/net/cad-features-and-support/pen-support-in-export/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.CAD for .NET 中的自訂筆選項提升 CAD 匯出功能
+
 ## 介紹
 
 Aspose.CAD for .NET 提供了一套強大的工具來處理電腦輔助設計 (CAD) 文件，使開發人員能夠無縫地操作和匯出 CAD 影像。一項值得注意的功能是匯出過程中的筆支持，允許用戶在將CAD 影像匯出為PDF、PNG、BMP、GIF、JPEG2000、JPEG、PSD、TIFF 和WMF 等各種格式時自訂筆的起始和結束設定。
@@ -119,3 +125,9 @@ A1：是的，筆選項可以應用於各種影像格式，例如 PNG、BMP、GI
 ### 問題 5：我可以在哪裡尋求 Aspose.CAD for .NET 的社群支援？
 
  A5：與社區互動[Aspose.CAD論壇](https://forum.aspose.com/c/cad/19).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

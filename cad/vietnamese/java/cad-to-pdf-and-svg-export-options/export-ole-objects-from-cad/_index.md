@@ -3,10 +3,16 @@ title: Xuất các đối tượng OLE từ CAD bằng Aspose.CAD cho Java
 linktitle: Xuất đối tượng OLE từ CAD
 second_title: API Java Aspose.CAD
 description: Khai phá tiềm năng của Aspose.CAD cho Java. Dễ dàng xuất các đối tượng OLE từ tệp CAD. Tải xuống ngay để quản lý dữ liệu CAD liền mạch.
-type: docs
 weight: 10
 url: /vi/java/cad-to-pdf-and-svg-export-options/export-ole-objects-from-cad/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Xuất các đối tượng OLE từ CAD bằng Aspose.CAD cho Java
+
 ## Giới thiệu
 
 Trong thế giới năng động của Thiết kế hỗ trợ máy tính (CAD), việc quản lý và trích xuất các đối tượng OLE (Liên kết và nhúng đối tượng) một cách hiệu quả là rất quan trọng. Aspose.CAD cho Java cung cấp giải pháp mạnh mẽ để xuất các đối tượng OLE từ tệp CAD. Hướng dẫn từng bước này sẽ hướng dẫn bạn thực hiện quy trình, đảm bảo bạn khai thác tối đa tiềm năng của công cụ này.
@@ -97,3 +103,9 @@ Câu trả lời 2: Có, Aspose.CAD cung cấp các tùy chọn mở rộng đ�
 ### Câu hỏi 5: Làm cách nào tôi có thể mua giấy phép cho Aspose.CAD?
 
 A5: Tham quan[trang mua hàng](https://purchase.aspose.com/buy) để có được giấy phép phù hợp với nhu cầu phát triển của bạn.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

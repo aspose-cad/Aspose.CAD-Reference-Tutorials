@@ -3,10 +3,16 @@ title: Seznam rozvržení v DWG pomocí Aspose.CAD pro Java
 linktitle: Seznam rozložení v DWG
 second_title: Aspose.CAD Java API
 description: Prozkoumejte Aspose.CAD for Java a bez námahy vypisujte rozvržení v souborech DWG. Integrujte výkonné funkce CAD do svých aplikací Java.
-type: docs
 weight: 12
 url: /cs/java/cad-file-manipulation/list-layouts-in-dwg/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Seznam rozvržení v DWG pomocí Aspose.CAD pro Java
+
 ## Úvod
 
 Vítejte v našem podrobném průvodci používáním Aspose.CAD for Java k zobrazení rozvržení v souborech DWG. Aspose.CAD je výkonná knihovna, která umožňuje vývojářům pracovat se soubory CAD programově. V tomto tutoriálu se zaměříme na konkrétní úkol: výpis rozvržení v souboru DWG. Na konci této příručky budete schopni bezproblémově integrovat tuto funkci do vašich aplikací Java.
@@ -86,3 +92,9 @@ Odpověď 1: Ano, Aspose.CAD podporuje různé formáty CAD, včetně DWG, DXF, 
 ### Q5: Mohu použít dočasnou licenci pro testovací účely?
 
  A5: Ano, můžete získat dočasnou licenci[tady](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

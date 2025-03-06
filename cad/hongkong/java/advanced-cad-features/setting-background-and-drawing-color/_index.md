@@ -3,10 +3,16 @@ title: 使用 Aspose.CAD for Java 設定背景和繪圖顏色
 linktitle: 設定背景和繪圖顏色
 second_title: Aspose.CAD Java API
 description: 使用 Aspose.CAD for Java 輕鬆將 CAD 檔案轉換為 PDF 和 TIFF。設定自訂背景和繪圖顏色以獲得令人驚嘆的視覺效果。
-type: docs
 weight: 15
 url: /zh-hant/java/advanced-cad-features/setting-background-and-drawing-color/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.CAD for Java 設定背景和繪圖顏色
+
 ## 介紹
 
 在電腦輔助設計 (CAD) 的動態世界中，高效的文件轉換對於無縫協作和通訊至關重要。 Aspose.CAD for Java 成為一個強大的工具，提供將 CAD 檔案轉換為 PDF 和 TIFF 格式的強大功能。在本教程中，我們將深入研究使用 Aspose.CAD for Java 設定背景和繪製顏色的過程，為您提供最佳結果的逐步指南。
@@ -98,3 +104,10 @@ A2：是的，本教學示範如何為 PDF 和 TIFF 輸出設定自訂背景顏�
 ### Q5：如何獲得 Aspose.CAD for Java 的支援？
 
 A5：訪問[Aspose.CAD論壇](https://forum.aspose.com/c/cad/19)尋求協助並與社區互動。
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

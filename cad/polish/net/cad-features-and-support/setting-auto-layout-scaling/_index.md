@@ -3,10 +3,16 @@ title: Ustawianie automatycznego skalowania układu w Aspose.CAD dla .NET
 linktitle: Ustawianie automatycznego skalowania układu
 second_title: Aspose.CAD .NET - Format plików CAD i BIM
 description: Ulepsz renderowanie CAD za pomocą Aspose.CAD dla .NET. Dowiedz się, jak skonfigurować automatyczne skalowanie układu, aby zapewnić precyzyjne i elastyczne renderowanie plików.
-type: docs
 weight: 14
 url: /pl/net/cad-features-and-support/setting-auto-layout-scaling/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ustawianie automatycznego skalowania układu w Aspose.CAD dla .NET
+
 W dynamicznym środowisku rozwoju .NET optymalizacja renderowania plików projektowania wspomaganego komputerowo (CAD) jest kluczowym aspektem tworzenia wydajnych i atrakcyjnych wizualnie aplikacji. Aspose.CAD dla .NET umożliwia programistom zwiększenie możliwości przetwarzania CAD, a w tym samouczku skupimy się na konfiguracji automatycznego skalowania układu przy użyciu Aspose.CAD dla .NET.
 
 ## Warunki wstępne
@@ -107,3 +113,9 @@ Odpowiedź 4: Oczywiście, Aspose.CAD zapewnia szeroką gamę opcji dostosowywan
 ### P5: Gdzie mogę znaleźć dodatkowe zasoby i wsparcie dla Aspose.CAD?
 
  A5: Poznaj[Forum Aspose.CAD](https://forum.aspose.com/c/cad/19) w celu uzyskania wsparcia społeczności i zapoznaj się z sekcją[dokumentacja](https://reference.aspose.com/cad/net/) aby uzyskać szczegółowe informacje.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

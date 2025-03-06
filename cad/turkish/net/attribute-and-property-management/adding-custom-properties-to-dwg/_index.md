@@ -3,10 +3,16 @@ title: DWG Dosyalarına Özel Özellikler Ekleme - Aspose.CAD Guide
 linktitle: DWG Dosyalarına Özel Özellikler Ekleme
 second_title: Aspose.CAD .NET - CAD ve BIM Dosya Formatı
 description: Aspose.CAD for .NET'i kullanarak DWG dosyalarınızı özel özelliklerle geliştirin. Anlamlı meta verileri zahmetsizce eklemek için adım adım kılavuzumuzu izleyin.
-type: docs
 weight: 11
 url: /tr/net/attribute-and-property-management/adding-custom-properties-to-dwg/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# DWG Dosyalarına Özel Özellikler Ekleme - Aspose.CAD Guide
+
 ## giriiş
 
 Aspose.CAD for .NET kullanarak DWG dosyalarına özel özellikler eklemeye ilişkin bu kapsamlı kılavuza hoş geldiniz. Aspose.CAD, geliştiricilerin CAD dosyalarıyla sorunsuz bir şekilde çalışmasını sağlayan güçlü bir kütüphanedir. Bu eğitimde, özel özellikler hakkındaki anlayışınızı geliştirmeye ve bunları Aspose.CAD kullanarak DWG dosyalarına nasıl ekleyeceğinize odaklanacağız.
@@ -92,3 +98,9 @@ C4: Kesin kısıtlamalar olmasa da, özel özellikler için anlamlı ve benzersi
 ### S5: Herhangi bir sorunla karşılaştığımda Aspose.CAD destek sağlıyor mu?
 
  A5: Evet, şu konuda yardım isteyebilirsiniz:[Aspose.CAD forumu](https://forum.aspose.com/c/cad/19) Her türlü teknik soru veya sorun için.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

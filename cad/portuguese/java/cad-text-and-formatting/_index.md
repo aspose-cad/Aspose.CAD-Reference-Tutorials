@@ -3,10 +3,16 @@ title: Texto e formatação CAD
 linktitle: Texto e formatação CAD
 second_title: API Java Aspose.CAD
 description: Desbloqueie o potencial do Aspose.CAD para Java com tutoriais. Aprenda pesquisa de texto, linhas ocultas, entidades MLeader e atributos MText para aprimorar seu aplicativo CAD.
-type: docs
 weight: 28
 url: /pt/java/cad-text-and-formatting/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Texto e formatação CAD
+
 ## Introdução
 Bem-vindo ao nosso guia completo sobre texto CAD e tutoriais de formatação usando Aspose.CAD para Java. Quer você seja um desenvolvedor experiente ou esteja apenas começando com aplicativos CAD, esses tutoriais irão capacitá-lo a levar suas habilidades para o próximo nível.
 
@@ -37,3 +43,9 @@ Aprenda como aprimorar os recursos de manipulação de arquivos DWG do seu aplic
 Desbloqueie o poder do Aspose.CAD para Java com nosso tutorial passo a passo sobre suporte a entidades MLeader no formato DWG.
 ### [Adicionar atributos ao MText em arquivos DWG usando Aspose.CAD para Java](./add-attributes-to-mtext/)
 Aprenda como adicionar atributos ao MText em arquivos DWG usando Aspose.CAD para Java. Eleve seus desenhos CAD com este guia passo a passo.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

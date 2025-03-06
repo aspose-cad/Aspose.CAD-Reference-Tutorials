@@ -3,10 +3,16 @@ title: دعم القلم في التصدير
 linktitle: دعم القلم في التصدير
 second_title: Aspose.CAD جافا API
 description: التخصيص الرئيسي للقلم في تصدير CAD باستخدام Aspose.CAD لـ Java. اتبع دليلنا خطوة بخطوة للتكامل السلس.
-type: docs
 weight: 13
 url: /ar/java/advanced-cad-features/pen-support-in-export/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# دعم القلم في التصدير
+
 ## مقدمة
 
 في المشهد المتطور باستمرار لتحويلات CAD (التصميم بمساعدة الكمبيوتر)، يظهر Aspose.CAD for Java كأداة قوية توفر إمكانات واسعة النطاق لمعالجة ملفات CAD. ومن بين ميزاته المتعددة الاستخدامات، يبرز دعم تخصيص القلم أثناء التصدير، مما يسمح للمستخدمين بتخصيص مظهر الصور المصدرة. سيرشدك هذا البرنامج التعليمي خلال عملية الاستفادة من دعم القلم في وظيفة التصدير، مع التركيز على التنفيذ العملي باستخدام Java.
@@ -112,3 +118,9 @@ A4: اضبط عرض الصفحة وارتفاعها في خيارات التنق
 ### س5: أين يمكنني العثور على دعم إضافي أو مناقشات مجتمعية؟
 
  ج5: استكشف منتدى مجتمع Aspose.CAD على[هنا](https://forum.aspose.com/c/cad/19) للدعم والمناقشات.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

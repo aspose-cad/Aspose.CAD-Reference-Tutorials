@@ -3,10 +3,16 @@ title: Autojustering av CAD-ritningsstorlek med Aspose.CAD för Java
 linktitle: Autojustering av CAD-ritningsstorlek
 second_title: Aspose.CAD Java API
 description: Utforska den sömlösa processen att automatiskt justera CAD-ritningsstorlekar i Java med Aspose.CAD. Följ vår steg-för-steg-guide för effektiv CAD-filmanipulation.
-type: docs
 weight: 13
 url: /sv/java/cad-file-manipulation/auto-adjusting-cad-drawing-size/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Autojustering av CAD-ritningsstorlek med Aspose.CAD för Java
+
 ## Introduktion
 
 I CAD-världen (Computer Aided Design) är justering av ritstorlekar ett vanligt krav, och med Aspose.CAD för Java blir det en sömlös process. Detta kraftfulla bibliotek tillhandahåller omfattande verktyg för att hantera CAD-filer i Java-applikationer. I den här handledningen kommer vi att utforska steg-för-steg-processen för att automatiskt justera CAD-ritningsstorlekar med Aspose.CAD.
@@ -107,3 +113,9 @@ S1: Ja, Aspose.CAD stöder olika CAD-format, inklusive DWG, DXF, DGN och mer.
 ### F5: Finns det en gratis testversion tillgänglig för Aspose.CAD för Java?
 
  A5: Ja, du kan komma åt den kostnadsfria provperioden[här](https://releases.aspose.com/) att utforska bibliotekets möjligheter.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

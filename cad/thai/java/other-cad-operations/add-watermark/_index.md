@@ -3,10 +3,16 @@ title: เพิ่มลายน้ำให้กับแบบร่าง 
 linktitle: ใส่ลายน้ำ
 second_title: Aspose.CAD Java API
 description: ปรับปรุงภาพวาด CAD ของคุณด้วยลายน้ำส่วนตัวโดยใช้ Aspose.CAD สำหรับ Java ปฏิบัติตามคำแนะนำทีละขั้นตอนของเราเพื่อการบูรณาการที่ราบรื่น
-type: docs
 weight: 12
 url: /th/java/other-cad-operations/add-watermark/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# เพิ่มลายน้ำให้กับแบบร่าง CAD - Aspose.CAD สำหรับการสอน Java
+
 ## การแนะนำ
 
 ยินดีต้อนรับสู่คู่มือที่ครอบคลุมเกี่ยวกับการเพิ่มลายน้ำให้กับแบบร่าง CAD โดยใช้ Aspose.CAD สำหรับ Java ในบทช่วยสอนนี้ คุณจะได้เรียนรู้วิธีรวมลายน้ำอย่างมีประสิทธิภาพ ปรับปรุงเอกสาร CAD ของคุณด้วยข้อความส่วนตัวหรือการสร้างแบรนด์ Aspose.CAD สำหรับ Java มีชุดคุณสมบัติอันทรงพลัง ทำให้กระบวนการเพิ่มลายน้ำตรงไปตรงมา
@@ -99,3 +105,9 @@ A2: ได้ คุณสามารถควบคุมลักษณะท
 ### คำถามที่ 5: ฉันจะหาเอกสารฉบับสมบูรณ์สำหรับ Aspose.CAD สำหรับ Java ได้ที่ไหน
 
  A5: โปรดดูที่[เอกสารประกอบ](https://reference.aspose.com/cad/java/) สำหรับข้อมูลโดยละเอียด
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

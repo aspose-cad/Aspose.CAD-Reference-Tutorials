@@ -3,10 +3,16 @@ title: Εργασία με οντότητες μεσολάβησης ACAD - Οδ
 linktitle: Εργασία με οντότητες μεσολάβησης ACAD
 second_title: Aspose.CAD .NET - Μορφή αρχείου CAD και BIM
 description: Εξερευνήστε το Aspose.CAD για .NET και βελτιστοποιήστε τις ροές εργασίας σας CAD. Μετατρέψτε, επεξεργαστείτε και διαχειριστείτε τις οντότητες διακομιστή μεσολάβησης ACAD χωρίς κόπο.
-type: docs
 weight: 13
 url: /el/net/layout-and-object-handling/working-with-acad-proxy-entities/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Εργασία με οντότητες μεσολάβησης ACAD - Οδηγός Aspose.CAD
+
 ## Εισαγωγή
 
 Στον δυναμικό κόσμο της ανάπτυξης .NET, η δημιουργία και η διαχείριση σχεδίων CAD είναι ένα κρίσιμο έργο. Το Aspose.CAD για .NET προσφέρει μια ισχυρή λύση για εργασία με οντότητες διακομιστή μεσολάβησης AutoCAD. Αυτός ο οδηγός θα σας καθοδηγήσει στα βασικά βήματα για να αξιοποιήσετε τη δύναμη του Aspose.CAD και να βελτιώσετε τις ροές εργασιών σας που σχετίζονται με το CAD.
@@ -98,3 +104,9 @@ A1: Ναι, το Aspose.CAD υποστηρίζει διάφορες μορφές
 ### Ε5: Πού μπορώ να αγοράσω μια πλήρη άδεια χρήσης για το Aspose.CAD για .NET;
 
  A5: Μπορείτε να αγοράσετε μια άδεια από το[σελίδα αγοράς](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Utforska underläggsflaggor för DWG-filer - Aspose.CAD Tutorial
 linktitle: Utforska underläggsflaggor för DWG-filer
 second_title: Aspose.CAD .NET - CAD- och BIM-filformat
 description: Lås upp kraften i Aspose.CAD för .NET när du utforskar DWG-filunderlagsflaggor. Följ vår steg-för-steg-guide.
-type: docs
 weight: 13
 url: /sv/net/dwg-file-manipulation/exploring-underlay-flags-of-dwg/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Utforska underläggsflaggor för DWG-filer - Aspose.CAD Tutorial
+
 ## Introduktion
 
 Om du fördjupar dig i den intrikata världen av CAD-filer, speciellt DWG-filer, och du vill låsa upp mysterierna med underläggsflaggor, är du på rätt plats. Denna handledning guidar dig genom processen att utforska underläggsflaggor i DWG-filer med hjälp av det kraftfulla Aspose.CAD for .NET-biblioteket.
@@ -114,3 +120,10 @@ A4: Köp biblioteket[här](https://purchase.aspose.com/buy).
 ### F5: Finns det en gratis provperiod?
 
  A5: Ja, du kan komma åt den kostnadsfria provperioden[här](https://releases.aspose.com/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

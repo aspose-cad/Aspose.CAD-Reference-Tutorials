@@ -3,10 +3,16 @@ title: Ekspor DGN ke AutoCAD PDF yang mudah dengan Aspose.CAD untuk Java
 linktitle: Mengekspor DGN dalam Format AutoCAD ke PDF
 second_title: Aspose.CAD Java API
 description: Jelajahi panduan langkah demi langkah tentang mengekspor file DGN ke format AutoCAD dalam PDF menggunakan Aspose.CAD untuk Java. Tingkatkan kemampuan penanganan CAD aplikasi Java Anda dengan mudah.
-type: docs
 weight: 12
 url: /id/java/dgn-export-options/exporting-dgn-to-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ekspor DGN ke AutoCAD PDF yang mudah dengan Aspose.CAD untuk Java
+
 ## Perkenalan
 
 Selamat datang di tutorial komprehensif tentang penggunaan Aspose.CAD untuk Java untuk mengekspor file DGN dalam format AutoCAD ke PDF. Jika Anda ingin meningkatkan kemampuan aplikasi Java Anda dalam menangani file CAD, Aspose.CAD adalah pilihan yang sangat baik. Dalam tutorial ini, kami akan memandu Anda melalui proses mengekspor file DGN langkah demi langkah.
@@ -100,3 +106,9 @@ A2: Tentu saja. Seperti yang ditunjukkan dalam tutorial, Anda dapat menyesuaikan
 ### Q5: Bagaimana cara mendapatkan lisensi sementara?
 
  A5: Dapatkan lisensi sementara[Di Sini](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

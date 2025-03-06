@@ -3,10 +3,16 @@ title: الخطوط والكيانات المخفية
 linktitle: الخطوط والكيانات المخفية
 second_title: Aspose.CAD .NET - تنسيق ملف CAD وBIM
 description: افتح الخطوط المخفية في ملفات DWG بسهولة باستخدام Aspose.CAD لـ .NET. ارفع مستوى مشروعات التصميم بمساعدة الكمبيوتر الخاصة بك من خلال دليلنا المفصّل خطوة بخطوة.
-type: docs
 weight: 29
 url: /ar/net/hidden-lines-and-entities/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# الخطوط والكيانات المخفية
+
 
 
 ## مقدمة
@@ -39,3 +45,9 @@ url: /ar/net/hidden-lines-and-entities/
 افتح الخطوط المخفية في ملفات DWG بسهولة باستخدام Aspose.CAD لـ .NET. اتبع دليلنا خطوة بخطوة للتكامل السلس.
 ### [دعم كيان MLeader لتنسيق DWG - دليل Aspose.CAD](./supporting-mleader-entity-for-dwg-format/)
 أطلق العنان لقوة كيانات MLeader بتنسيق DWG باستخدام Aspose.CAD لـ .NET. ارفع مستوى مشروعات CAD الخاصة بك دون عناء.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

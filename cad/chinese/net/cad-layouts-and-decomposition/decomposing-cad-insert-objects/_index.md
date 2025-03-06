@@ -3,10 +3,16 @@ title: 分解 CAD 插入对象 - Aspose.CAD 指南
 linktitle: 分解 CAD 插入对象
 second_title: Aspose.CAD .NET - CAD 和 BIM 文件格式
 description: 通过我们有关分解 CAD 插入对象的分步指南，探索 Aspose.CAD for .NET 的强大功能。
-type: docs
 weight: 11
 url: /zh/net/cad-layouts-and-decomposition/decomposing-cad-insert-objects/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 分解 CAD 插入对象 - Aspose.CAD 指南
+
 ## 介绍
 
 在计算机辅助设计 (CAD) 的动态世界中，有效操作和分析 CAD 文件对于各行业的专业人士至关重要。 Aspose.CAD for .NET 作为一个强大的解决方案出现，为开发人员提供了在 .NET 环境中高效处理 CAD 文件所需的工具。
@@ -100,3 +106,9 @@ Aspose.CAD for .NET 简化了分解 CAD 插入对象的复杂任务，使开发�
 ### 问题 5：如何获得 Aspose.CAD for .NET 的临时许可证？
 
 如果您需要临时许可证，您可以找到必要的信息[这里](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

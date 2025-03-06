@@ -3,10 +3,16 @@ title: जावा के लिए Aspose.CAD का उपयोग करक
 linktitle: विशिष्ट DWG लेआउट को पीडीएफ में निर्यात करें
 second_title: Aspose.CAD जावा एपीआई
 description: Java के लिए Aspose.CAD का उपयोग करके विशिष्ट DWG लेआउट को PDF में निर्यात करने के लिए चरण-दर-चरण मार्गदर्शिका देखें। अपने CAD वर्कफ़्लो को सहजता से अनुकूलित करें।
-type: docs
 weight: 14
 url: /hi/java/cad-drawing-conversion/export-specific-dwg-layout-to-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# जावा के लिए Aspose.CAD का उपयोग करके विशिष्ट DWG लेआउट को पीडीएफ में निर्यात करें
+
 ## परिचय
 
 कंप्यूटर-एडेड डिज़ाइन (सीएडी) की गतिशील दुनिया में, जावा के लिए Aspose.CAD DWG चित्रों में हेरफेर और परिवर्तित करने के लिए एक शक्तिशाली उपकरण के रूप में उभरता है। इस ट्यूटोरियल में, हम एक विशिष्ट परिदृश्य का पता लगाएंगे: एक निर्दिष्ट DWG लेआउट को एक पीडीएफ फ़ाइल में निर्यात करना। यह प्रक्रिया आपके CAD प्रोजेक्टों में सटीकता और लचीलापन सुनिश्चित करती है।
@@ -100,3 +106,9 @@ image.save(dataDir + "ExportSpecificLayoutToPDF_out_.pdf", pdfOptions);
 ### Q5: क्या Aspose.CAD के लिए कोई निःशुल्क परीक्षण उपलब्ध है?
 
  हाँ, आप निःशुल्क परीक्षण का उपयोग कर सकते हैं[यहाँ](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

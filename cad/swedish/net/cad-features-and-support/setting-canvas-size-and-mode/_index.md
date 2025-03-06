@@ -3,10 +3,16 @@ title: Ställa in dukstorlek och läge i Aspose.CAD för .NET
 linktitle: Ställa in dukstorlek och läge
 second_title: Aspose.CAD .NET - CAD- och BIM-filformat
 description: Utforska steg-för-steg-guiden om hur du ställer in dukens storlek och läge i Aspose.CAD för .NET. Optimera din CAD-rendering med lätthet med denna omfattande handledning.
-type: docs
 weight: 16
 url: /sv/net/cad-features-and-support/setting-canvas-size-and-mode/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ställa in dukstorlek och läge i Aspose.CAD för .NET
+
 ## Introduktion
 
 Är du redo att låsa upp den fulla potentialen hos Aspose.CAD för .NET och revolutionera din CAD-renderingsupplevelse? I denna steg-för-steg handledning kommer vi att fördjupa oss i krångligheterna med att ställa in storlek och läge på duken med hjälp av det kraftfulla Aspose.CAD-biblioteket. Oavsett om du är en erfaren utvecklare eller precis har börjat, kommer den här guiden att leda dig genom processen, vilket säkerställer att du utnyttjar funktionerna i Aspose.CAD effektivt.
@@ -119,3 +125,9 @@ S1: Ja, Aspose.CAD integreras sömlöst med andra .NET-bibliotek, vilket ger fö
 ### F5: Hur köper jag Aspose.CAD för .NET?
 
  S5: För att köpa Aspose.CAD, besök[köpsidan](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

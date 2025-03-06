@@ -3,10 +3,16 @@ title: Konvertera DWG till PDF med koordinater i C# - Aspose.CAD Tutorial
 linktitle: Konvertera DWG till PDF med koordinater i C#
 second_title: Aspose.CAD .NET - CAD- och BIM-filformat
 description: Lär dig hur du konverterar DWG till PDF med specifika koordinater i C# med Aspose.CAD. Följ vår steg-för-steg-guide för exakta och effektiva CAD-filkonverteringar.
-type: docs
 weight: 11
 url: /sv/net/conversion-and-export/converting-dwg-to-pdf-with-coordinates/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Konvertera DWG till PDF med koordinater i C# - Aspose.CAD Tutorial
+
 ## Introduktion
 
 Välkommen till denna omfattande handledning om att konvertera DWG-filer till PDF med specificerade koordinater med Aspose.CAD för .NET. Aspose.CAD är ett kraftfullt bibliotek som låter utvecklare arbeta med CAD-filformat i sina .NET-applikationer sömlöst. I den här handledningen går vi igenom processen att konvertera en DWG-fil till PDF samtidigt som vi tillhandahåller specifika koordinater för att förbättra precisionen.
@@ -134,3 +140,9 @@ A4: Visst! Utforska de omfattande alternativen som tillhandahålls av Aspose.CAD
 ### F5: Var kan jag hitta ytterligare stöd eller diskussioner i samhället?
 
 A5: Besök[Aspose.CAD Forum](https://forum.aspose.com/c/cad/19) för samhällsstöd och diskussioner.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

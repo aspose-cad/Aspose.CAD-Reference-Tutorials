@@ -3,10 +3,16 @@ title: Conversione di disegni CAD
 linktitle: Conversione di disegni CAD
 second_title: API Java Aspose.CAD
 description: Trasforma facilmente i disegni CAD con Aspose.CAD per Java. Impara a convertire, esportare e ottimizzare i tuoi file CAD con precisione utilizzando i nostri tutorial passo passo.
-type: docs
 weight: 20
 url: /it/java/cad-drawing-conversion/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Conversione di disegni CAD
+
 
 ## introduzione
 
@@ -50,3 +56,9 @@ Esplora il processo continuo di esportazione di file DWG in PDF o immagini raste
 Esplora la guida passo passo per esportare layout DWG specifici in PDF utilizzando Aspose.CAD per Java. Ottimizza il tuo flusso di lavoro CAD senza sforzo.
 ### [Converti DWT in formato DXF utilizzando Aspose.CAD per Java](./convert-dwt-to-dxf/)
 Esplora la conversione perfetta di DWT in DXF con Aspose.CAD per Java. Segui la nostra guida passo passo per una manipolazione efficiente dei file CAD.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

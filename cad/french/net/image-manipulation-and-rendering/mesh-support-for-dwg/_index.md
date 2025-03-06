@@ -3,10 +3,16 @@ title: Prise en charge du maillage pour les fichiers DWG - Guide Aspose.CAD
 linktitle: Prise en charge du maillage pour les fichiers DWG
 second_title: Aspose.CAD .NET - Format de fichier CAO et BIM
 description: Explorez la prise en charge du maillage pour les fichiers DWG avec Aspose.CAD pour .NET. Améliorez vos applications de CAO avec de puissantes capacités de manipulation de maillage.
-type: docs
 weight: 13
 url: /fr/net/image-manipulation-and-rendering/mesh-support-for-dwg/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Prise en charge du maillage pour les fichiers DWG - Guide Aspose.CAD
+
 ## Introduction
 
 Libérez le potentiel d'Aspose.CAD pour .NET en plongeant dans le monde passionnant de la prise en charge du maillage pour les fichiers DWG. Dans ce guide étape par étape, nous vous guiderons tout au long du processus d'exploitation de la puissance d'Aspose.CAD pour travailler avec des fichiers DWG contenant des données de maillage. Que vous soyez un développeur chevronné ou que vous débutiez tout juste avec Aspose.CAD, ce didacticiel vous fournira les connaissances nécessaires pour manipuler et extraire des informations précieuses à partir de fichiers DWG contenant des entités de maillage.
@@ -123,3 +129,9 @@ A2 : Absolument. Aspose.CAD offre une prise en charge complète de la lecture et
 ### Q5 : Existe-t-il une version d’essai gratuite d’Aspose.CAD disponible ?
 
  A5 : Oui, vous pouvez accéder à une version d'essai gratuite[ici](https://releases.aspose.com/) pour explorer les capacités d'Aspose.CAD avant de faire un achat.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

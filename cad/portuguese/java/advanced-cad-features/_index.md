@@ -3,10 +3,16 @@ title: Recursos avançados de CAD
 linktitle: Recursos avançados de CAD
 second_title: API Java Aspose.CAD
 description: Eleve seu desenvolvimento CAD com tutoriais Aspose.CAD para Java. Aprenda a ativar o rastreamento, integrar o formato IGES, dominar o suporte de malha, personalizar a exportação de caneta, ler arquivos DWT e muito mais.
-type: docs
 weight: 24
 url: /pt/java/advanced-cad-features/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Recursos avançados de CAD
+
 
 ## Introdução
 
@@ -66,3 +72,9 @@ Aprimore seu fluxo de trabalho CAD com Aspose.CAD para Java. Este guia passo a p
 Suporte de camada mestre no desenvolvimento Java CAD com Aspose.CAD. Organize e exporte desenhos sem esforço.
 ### [Extraia o valor do atributo do bloco da referência externa usando Aspose.CAD em Java](./extract-block-attribute-value/)
 Explore nosso tutorial sobre como extrair valores de atributos de bloco de referências externas DWG em Java usando Aspose.CAD. Aprimore seu fluxo de trabalho de desenvolvimento CAD sem esforço.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

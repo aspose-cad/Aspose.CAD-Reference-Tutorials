@@ -3,10 +3,16 @@ title: Tata Letak dan Dekomposisi CAD
 linktitle: Tata Letak dan Dekomposisi CAD
 second_title: Aspose.CAD .NET - Format File CAD dan BIM
 description: Buka potensi tata letak CAD dengan Aspose.CAD untuk .NET! Konversikan desain ke PDF dengan mudah menggunakan panduan kami. Kuasai dekomposisi objek sisipan dengan mudah.
-type: docs
 weight: 34
 url: /id/net/cad-layouts-and-decomposition/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tata Letak dan Dekomposisi CAD
+
 
 
 
@@ -59,3 +65,9 @@ Kesimpulannya, Aspose.CAD untuk .NET berdiri sebagai pengubah permainan di dunia
 Konversikan tata letak CAD ke PDF dengan mudah menggunakan Aspose.CAD untuk .NET. Ikuti panduan langkah demi langkah kami untuk integrasi yang lancar.
 ### [Mengurai Objek Sisipkan CAD - Panduan Aspose.CAD](./decomposing-cad-insert-objects/)
 Jelajahi kekuatan Aspose.CAD untuk .NET dengan panduan langkah demi langkah kami dalam mendekomposisi objek sisipan CAD.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

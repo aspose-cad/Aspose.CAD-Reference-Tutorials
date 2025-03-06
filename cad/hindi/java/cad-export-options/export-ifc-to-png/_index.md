@@ -3,10 +3,16 @@ title: जावा के लिए Aspose.CAD के साथ IFC को PNG 
 linktitle: आईएफसी को पीएनजी में निर्यात करें
 second_title: Aspose.CAD जावा एपीआई
 description: जावा के लिए Aspose.CAD के साथ IFC को आसानी से PNG में बदलें। हमारे चरण-दर-चरण ट्यूटोरियल का अनुसरण करें।
-type: docs
 weight: 18
 url: /hi/java/cad-export-options/export-ifc-to-png/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# जावा के लिए Aspose.CAD के साथ IFC को PNG में निर्यात करें
+
 ## परिचय
 
 जावा के लिए Aspose.CAD का उपयोग करके IFC (इंडस्ट्री फाउंडेशन क्लासेस) को PNG में निर्यात करने पर इस चरण-दर-चरण ट्यूटोरियल में आपका स्वागत है। Aspose.CAD एक शक्तिशाली जावा लाइब्रेरी है जो IFC प्रारूप सहित CAD फ़ाइलों के साथ काम करने के लिए व्यापक क्षमताएं प्रदान करती है। इस ट्यूटोरियल में, हम प्रत्येक चरण पर विस्तृत स्पष्टीकरण के साथ एक आईएफसी फ़ाइल को पीएनजी छवि में परिवर्तित करने की प्रक्रिया में आपका मार्गदर्शन करेंगे।
@@ -94,3 +100,10 @@ cadImage.save(outPath, pngOptions);
 ### Q5: मैं कहां सहायता मांग सकता हूं या मुद्दों पर चर्चा कर सकता हूं?
 
 A5: पर जाएँ[Aspose.CAD फोरम](https://forum.aspose.com/c/cad/19) सामुदायिक समर्थन के लिए.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: CAD Çizim Manipülasyonu
 linktitle: CAD Çizim Manipülasyonu
 second_title: Aspose.CAD .NET - CAD ve BIM Dosya Formatı
 description: Aspose.CAD for .NET eğitimleriyle CAD projelerinizi zahmetsizce geliştirin. Adım adım kılavuzlarımızla CAD çizimlerini sorunsuz bir şekilde yeniden boyutlandırın, dönüştürün ve optimize edin.
-type: docs
 weight: 21
 url: /tr/net/cad-drawing-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# CAD Çizim Manipülasyonu
+
 
 ## giriiş
 
@@ -44,3 +50,9 @@ Aspose.CAD for .NET'i kullanarak CAD düzenlerini zahmetsizce raster görüntül
 Aspose.CAD for .NET'in gücünü keşfedin. CAD oluşturma için izlemeyi sorunsuz bir şekilde etkinleştirin. Gelişmiş kontrol ve verimlilik için adım adım kılavuzumuzu izleyin.
 ### [Aspose.CAD for .NET'te CAD Düzeninin Boyutunu Alın](./get-size-of-cad-layout/)
 Aspose.CAD kullanarak .NET'te CAD düzen boyutunu nasıl alacağınızı öğrenin. Verimli CAD dosyası manipülasyonu için adım adım kılavuzumuzu izleyin.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

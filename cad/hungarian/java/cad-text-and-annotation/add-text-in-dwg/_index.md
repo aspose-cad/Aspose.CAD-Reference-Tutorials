@@ -3,10 +3,16 @@ title: Szöveg hozzáadása a DWG-ben az Aspose.CAD for Java használatával
 linktitle: Szöveg hozzáadása a DWG-ben
 second_title: Aspose.CAD Java API
 description: Fokozza könnyedén DWG-rajzait az Aspose.CAD for Java segítségével. Adjon hozzá szöveget zökkenőmentesen lépésenkénti útmutatónkkal.
-type: docs
 weight: 10
 url: /hu/java/cad-text-and-annotation/add-text-in-dwg/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Szöveg hozzáadása a DWG-ben az Aspose.CAD for Java használatával
+
 ## Bevezetés
 
 A számítógéppel segített tervezés (CAD) területén az Aspose.CAD for Java hatékony eszköz a DWG-rajzok manipulálására és konvertálására. Egyik praktikus funkciója, hogy zökkenőmentesen adhat hozzá szöveget a DWG-fájlokhoz. Ebben az oktatóanyagban végigvezetjük a DWG-rajzokhoz szöveg hozzáadásának folyamatán az Aspose.CAD for Java segítségével.
@@ -122,3 +128,9 @@ Az Aspose.CAD for Java feljogosítja a fejlesztőket a DWG rajzok programozott f
 ### 5. kérdés: Hogyan kaphatok támogatást vagy kérhetek segítséget az Aspose.CAD-hez?
 
 A5: Látogassa meg a[Aspose.CAD fórum](https://forum.aspose.com/c/cad/19) segítséget kapni és kapcsolatba lépni a közösséggel.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

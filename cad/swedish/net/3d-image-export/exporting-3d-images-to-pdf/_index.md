@@ -3,10 +3,16 @@ title: Exportera 3D-bilder till PDF - Aspose.CAD Tutorial
 linktitle: Exportera 3D-bilder till PDF
 second_title: Aspose.CAD .NET - CAD- och BIM-filformat
 description: Konvertera enkelt 3D CAD-bilder till PDF med Aspose.CAD för .NET. Följ vår steg-för-steg handledning för sömlös PDF-export.
-type: docs
 weight: 10
 url: /sv/net/3d-image-export/exporting-3d-images-to-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Exportera 3D-bilder till PDF - Aspose.CAD Tutorial
+
 ## Introduktion
 
 Vill du sömlöst exportera 3D-bilder till PDF med Aspose.CAD för .NET? Denna steg-för-steg handledning guidar dig genom processen och säkerställer att du utnyttjar kraften i Aspose.CAD för att enkelt konvertera dina 3D-bilder till PDF-format.
@@ -102,3 +108,9 @@ A2: Absolut. Handledningen visar hur du konfigurerar sidbredd och höjd enligt d
 ### F5: Finns det en gratis testversion av Aspose.CAD tillgänglig?
 
  S5: Ja, du kan utforska funktionerna i Aspose.CAD genom att komma åt[gratis provperiod](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

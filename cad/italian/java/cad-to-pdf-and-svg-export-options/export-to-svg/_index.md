@@ -3,10 +3,16 @@ title: Esporta in SVG utilizzando Aspose.CAD per Java
 linktitle: Esporta in SVG
 second_title: API Java Aspose.CAD
 description: Sblocca il potenziale di Aspose.CAD per Java con la nostra guida passo passo sull'esportazione di disegni CAD in SVG. Scopri come importare spazi dei nomi, configurare opzioni e integrare perfettamente Aspose.CAD nel tuo progetto Java.
-type: docs
 weight: 12
 url: /it/java/cad-to-pdf-and-svg-export-options/export-to-svg/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Esporta in SVG utilizzando Aspose.CAD per Java
+
 ## introduzione
 
 Benvenuti nel mondo di Aspose.CAD per Java, una potente libreria che consente agli sviluppatori di manipolare facilmente i disegni CAD. Che tu sia uno sviluppatore esperto o un nuovo arrivato nel regno CAD, questa guida completa ti guiderà attraverso il processo di esportazione dei disegni CAD in formato SVG utilizzando Aspose.CAD per Java.
@@ -103,3 +109,9 @@ A2: Assolutamente! Aspose.CAD offre un'API intuitiva, rendendola accessibile ai 
 ### Q5: Come posso acquistare una licenza per Aspose.CAD per Java?
 
  A5: È possibile acquistare una licenza da[pagina di acquisto](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

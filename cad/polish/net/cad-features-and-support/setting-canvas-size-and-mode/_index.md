@@ -3,10 +3,16 @@ title: Ustawianie rozmiaru i trybu płótna w Aspose.CAD dla .NET
 linktitle: Ustawianie rozmiaru i trybu płótna
 second_title: Aspose.CAD .NET - Format plików CAD i BIM
 description: Zapoznaj się z przewodnikiem krok po kroku dotyczącym ustawiania rozmiaru i trybu płótna w Aspose.CAD dla .NET. Z łatwością zoptymalizuj renderowanie CAD, korzystając z tego obszernego samouczka.
-type: docs
 weight: 16
 url: /pl/net/cad-features-and-support/setting-canvas-size-and-mode/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ustawianie rozmiaru i trybu płótna w Aspose.CAD dla .NET
+
 ## Wstęp
 
 Czy jesteś gotowy, aby odblokować pełny potencjał Aspose.CAD dla .NET i zrewolucjonizować swoje doświadczenie w renderowaniu CAD? W tym samouczku krok po kroku zagłębimy się w zawiłości ustawiania rozmiaru i trybu płótna przy użyciu potężnej biblioteki Aspose.CAD. Niezależnie od tego, czy jesteś doświadczonym programistą, czy dopiero zaczynasz, ten przewodnik przeprowadzi Cię przez proces, zapewniając efektywne wykorzystanie możliwości Aspose.CAD.
@@ -119,3 +125,9 @@ Odpowiedź 1: Tak, Aspose.CAD bezproblemowo integruje się z innymi bibliotekami
 ### P5: Jak kupić Aspose.CAD dla .NET?
 
  O5: Aby kupić Aspose.CAD, odwiedź stronę[strona zakupu](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

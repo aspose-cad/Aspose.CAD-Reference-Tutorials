@@ -3,10 +3,16 @@ title: تحلل كائنات إدراج CAD - دليل Aspose.CAD
 linktitle: تحلل كائنات إدراج CAD
 second_title: Aspose.CAD .NET - تنسيق ملف CAD وBIM
 description: اكتشف قوة Aspose.CAD لـ .NET من خلال دليلنا خطوة بخطوة حول تحليل كائنات إدراج CAD.
-type: docs
 weight: 11
 url: /ar/net/cad-layouts-and-decomposition/decomposing-cad-insert-objects/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تحلل كائنات إدراج CAD - دليل Aspose.CAD
+
 ## مقدمة
 
 في عالم التصميم بمساعدة الكمبيوتر (CAD) الديناميكي، يعد التعامل والتحليل الفعال لملفات CAD أمرًا بالغ الأهمية للمحترفين في مختلف الصناعات. يظهر Aspose.CAD for .NET كحل قوي، حيث يوفر للمطورين الأدوات اللازمة للعمل بكفاءة مع ملفات CAD في بيئة .NET.
@@ -100,3 +106,9 @@ for (int i = 0; i < cadImage.Entities.Length; i++)
 ### س5: كيف يمكنني الحصول على ترخيص مؤقت لـ Aspose.CAD لـ .NET؟
 
  إذا كنت بحاجة إلى ترخيص مؤقت، يمكنك العثور على المعلومات اللازمة[هنا](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

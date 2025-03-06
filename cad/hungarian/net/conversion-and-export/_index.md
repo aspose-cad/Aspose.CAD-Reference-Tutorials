@@ -3,10 +3,16 @@ title: Konverzió és exportálás
 linktitle: Konverzió és exportálás
 second_title: Aspose.CAD .NET - CAD és BIM fájlformátum
 description: Nyisd meg a CAD-fájlkezelés világát az Aspose.CAD segítségével! Tanulja meg az élénk színek megjelenítését és a DWG-fájlok konvertálását. Merüljön el a DWT és DWG formátumokban a pontos eredményekért.
-type: docs
 weight: 25
 url: /hu/net/conversion-and-export/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Konverzió és exportálás
+
 
 
 ## Bevezetés
@@ -45,3 +51,9 @@ Fedezze fel a DWT és DWG formátumok árnyalatait az Aspose.CAD for .NET segít
 A DWG konvertálása megfelelőségi PDF-formátumba az Aspose.CAD segítségével .NET-hez. Kövesse oktatóanyagunkat a lépésenkénti útmutatásért.
 ### [DWG konvertálása DWF formátumba – Aspose.CAD útmutató](./converting-dwg-to-dwf/)
 Fedezze fel a DWG zökkenőmentes konvertálását DWF-vé az Aspose.CAD for .NET segítségével. Kövesse lépésről lépésre útmutatónkat a problémamentes élmény érdekében.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

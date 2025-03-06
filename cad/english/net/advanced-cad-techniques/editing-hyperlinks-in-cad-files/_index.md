@@ -3,10 +3,16 @@ title: Editing Hyperlinks in CAD Files - Aspose.CAD Tutorial
 linktitle: Editing Hyperlinks in CAD Files
 second_title: Aspose.CAD .NET - CAD and BIM File Format
 description: Explore Aspose.CAD for .NET and learn to edit hyperlinks in CAD files effortlessly. Enhance your CAD file management skills with this comprehensive tutorial.
-type: docs
 weight: 14
 url: /net/advanced-cad-techniques/editing-hyperlinks-in-cad-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Editing Hyperlinks in CAD Files - Aspose.CAD Tutorial
+
 ## Introduction
 
 Welcome to our step-by-step tutorial on editing hyperlinks in CAD files using Aspose.CAD for .NET. Aspose.CAD is a powerful library that enables developers to work with CAD files seamlessly. In this tutorial, we will focus on the specific task of editing hyperlinks within CAD files, demonstrating how to modify and manage links efficiently.
@@ -103,3 +109,10 @@ A4: Obtain a temporary license [here](https://purchase.aspose.com/temporary-lice
 ### Q5: Need assistance or have questions?
 
 A5: Visit our support forum [here](https://forum.aspose.com/c/cad/19).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

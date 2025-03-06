@@ -3,10 +3,16 @@ title: Manajemen Atribut dan Properti
 linktitle: Manajemen Atribut dan Properti
 second_title: Aspose.CAD .NET - Format File CAD dan BIM
 description: Tingkatkan gambar CAD Anda dengan Aspose.CAD untuk .NET! Pelajari cara menambahkan atribut dan properti khusus dengan lancar melalui tutorial. Sempurnakan desain Anda dengan mudah.
-type: docs
 weight: 30
 url: /id/net/attribute-and-property-management/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Manajemen Atribut dan Properti
+
 
 
 ## Perkenalan
@@ -47,3 +53,9 @@ Kesimpulannya, Aspose.CAD untuk .NET membuka pintu ke berbagai kemungkinan dalam
 Sempurnakan gambar CAD Anda dengan atribut menggunakan Aspose.CAD untuk .NET. Ikuti panduan langkah demi langkah kami untuk integrasi yang lancar.
 ### [Menambahkan Properti Kustom ke File DWG - Panduan Aspose.CAD](./adding-custom-properties-to-dwg/)
 Sempurnakan file DWG Anda dengan properti khusus menggunakan Aspose.CAD untuk .NET. Ikuti panduan langkah demi langkah kami untuk menambahkan metadata yang bermakna dengan mudah.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

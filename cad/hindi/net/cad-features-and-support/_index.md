@@ -3,10 +3,16 @@ title: सीएडी सुविधाएँ और समर्थन
 linktitle: सीएडी सुविधाएँ और समर्थन
 second_title: Aspose.CAD .NET - CAD और BIM फ़ाइल स्वरूप
 description: .NET ट्यूटोरियल के लिए Aspose.CAD के साथ CAD सुविधाओं की पूरी क्षमता को अनलॉक करें। DGN V7 के लिए 3D समर्थन, मेश हैंडलिंग, पेन अनुकूलन और बहुत कुछ आसानी से सीखें।
-type: docs
 weight: 23
 url: /hi/net/cad-features-and-support/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# सीएडी सुविधाएँ और समर्थन
+
 
 ## परिचय
 
@@ -80,3 +86,9 @@ DGN फ़ाइलों को संभालने के लिए .NET क
 चरण-दर-चरण मार्गदर्शन के साथ आसानी से छवियों को रेखापुंज करने के लिए DGN VConvert DGN फ़ाइलों के लिए .NET के निर्बाध समर्थन के लिए Aspose.CAD का अन्वेषण करें।
 ### [.NET के लिए Aspose.CAD में DGN V7 के लिए 3D का समर्थन](./support-of-3d-for-dgn-v7/)
 .NET के लिए Aspose.CAD में DGN V7 के लिए 3D समर्थन की शक्ति को अनलॉक करें। हमारे चरण-दर-चरण ट्यूटोरियल का अनुसरण करें।
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Mért licencelés az Aspose.CAD-ben
 linktitle: Mért licencelés az Aspose.CAD-ben
 second_title: Aspose.CAD Java API
 description: Ebből az átfogó útmutatóból megtudhatja, hogyan sajátíthatja el a mérőszámos licencelést az Aspose.CAD for Java programban. Optimalizálja CAD-feldolgozását a hatékonyság és a költséghatékonyság érdekében.
-type: docs
 weight: 10
 url: /hu/java/licensing-and-configuration/metered-licensing-in-aspose-cad/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Mért licencelés az Aspose.CAD-ben
+
 ## Bevezetés
 
 Használja ki az Aspose.CAD for Java teljes potenciálját a mérsékelt licenceléssel! Ez a részletes útmutató végigvezeti a mérőszámos licencelés beállításának folyamatán, biztosítva a zökkenőmentes integrációt és ennek a hatékony Java-könyvtárnak a számítógéppel segített tervezéshez (CAD) való optimális kihasználását. Az előfeltételektől a csomagok importálásáig és a példák végrehajtásáig ez az oktatóanyag mindent lefed.
@@ -94,3 +100,9 @@ Gratulálunk! Sikeresen elsajátította a mért licencelést az Aspose.CAD for J
 ### 5. kérdés: Közösségi támogatásra van szüksége, vagy konkrét kérdései vannak?
 
  5. válasz: Irány az Aspose.CAD fórum[itt](https://forum.aspose.com/c/cad/19).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

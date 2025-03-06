@@ -3,10 +3,16 @@ title: XREF-metaadatok olvasása DWG-fájlokból – Aspose.CAD oktatóanyag
 linktitle: XREF metaadatok olvasása DWG fájlokból
 second_title: Aspose.CAD .NET - CAD és BIM fájlformátum
 description: A DWG-fájlokból származó XREF-metaadatok kiolvasásáról szóló, lépésenkénti oktatóanyagunk segítségével tárja fel az Aspose.CAD-ben rejlő lehetőségeket .NET-hez.
-type: docs
 weight: 16
 url: /hu/net/image-manipulation-and-rendering/reading-xref-metadata-from-dwg/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# XREF-metaadatok olvasása DWG-fájlokból – Aspose.CAD oktatóanyag
+
 ## Bevezetés
 
 Készen áll arra, hogy növelje CAD-fájlkezelési képességeit az Aspose.CAD for .NET használatával? Ebben a lépésről lépésre szóló útmutatóban ennek a nagy teljesítményű könyvtárnak egy sajátos aspektusába ásunk bele – az XREF-metaadatok olvasásába a DWG-fájlokból. Akár tapasztalt fejlesztő, akár csak most kezdi a kódolási utat, ez az oktatóanyag könnyen emészthető lépésekre bontja a folyamatot.
@@ -107,3 +113,9 @@ Gratulálunk! Sikeresen navigált az XREF metaadatok DWG-fájlokból történő 
 ### 5. kérdés: Segítségre van szüksége, vagy konkrét kérdései vannak?
 
  5. válasz: Csatlakozzon az Aspose.CAD közösséghez a címen[Aspose.CAD fórum](https://forum.aspose.com/c/cad/19) szakértői támogatásért és megbeszélésekért.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

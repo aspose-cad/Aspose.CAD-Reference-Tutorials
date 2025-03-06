@@ -3,10 +3,16 @@ title: دعم الشبكة في Aspose.CAD لـ .NET
 linktitle: دعم الشبكة
 second_title: Aspose.CAD .NET - تنسيق ملف CAD وBIM
 description: اكتشف الدعم الشبكي في Aspose.CAD لـ .NET من خلال برنامجنا التعليمي خطوة بخطوة. تحويل ملفات CAD إلى PDF بسهولة.
-type: docs
 weight: 11
 url: /ar/net/cad-features-and-support/mesh-support/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# دعم الشبكة في Aspose.CAD لـ .NET
+
 ## مقدمة
 
 مرحبًا بك في برنامجنا التعليمي المتعمق حول الاستفادة من دعم الشبكات في Aspose.CAD لـ .NET! Aspose.CAD هي مكتبة قوية توفر وظائف قوية للعمل مع ملفات التصميم بمساعدة الكمبيوتر (CAD) في تطبيقات .NET. في هذا البرنامج التعليمي، سنركز بشكل خاص على استخدام ميزة دعم الشبكة لتعزيز قدرات معالجة ملفات CAD لديك.
@@ -100,3 +106,9 @@ using (CadImage cadImage = (CadImage)Image.Load(sourceFilePath))
 ### س5: أين يمكنني تنزيل أحدث إصدار من Aspose.CAD لـ .NET؟
 
  ج5: قم بتنزيل المكتبة من[صفحة الإصدار](https://releases.aspose.com/cad/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

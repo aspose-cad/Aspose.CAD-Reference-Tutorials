@@ -3,10 +3,16 @@ title: Suporte de malha com Aspose.CAD para Java
 linktitle: Suporte de malha em CAD
 second_title: API Java Aspose.CAD
 description: Explore o suporte mesh em aplicativos Java com Aspose.CAD. Converta arquivos CAD em PDF sem esforço.
-type: docs
 weight: 12
 url: /pt/java/advanced-cad-features/mesh-support-in-cad/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Suporte de malha com Aspose.CAD para Java
+
 ## Introdução
 
 Aspose.CAD for Java é uma biblioteca poderosa que permite aos desenvolvedores trabalhar perfeitamente com arquivos Computer-Aided Design (CAD) em aplicativos Java. Neste tutorial, exploraremos o recurso de suporte de malha no Aspose.CAD for Java, permitindo converter arquivos CAD com malhas para o formato PDF. Siga o guia passo a passo abaixo para aproveitar os recursos desta biblioteca e aprimorar o manuseio de arquivos CAD.
@@ -110,3 +116,9 @@ A4: Sim, Aspose.CAD for Java suporta vários formatos de saída, incluindo PNG, 
 ### Q5: Posso experimentar o Aspose.CAD para Java gratuitamente?
 
  A5: Sim, você pode explorar uma versão de teste gratuita do Aspose.CAD para Java[aqui](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

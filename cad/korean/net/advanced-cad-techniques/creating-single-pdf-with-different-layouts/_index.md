@@ -3,10 +3,16 @@ title: 다양한 레이아웃으로 단일 PDF 만들기 - Aspose.CAD 가이드
 linktitle: 다양한 레이아웃으로 단일 PDF 만들기
 second_title: Aspose.CAD .NET - CAD 및 BIM 파일 형식
 description: .NET용 Aspose.CAD를 사용하여 다양한 레이아웃으로 단일 PDF를 만듭니다. 원활한 통합과 효율적인 PDF 생성을 위한 단계별 가이드를 따르세요.
-type: docs
 weight: 13
 url: /ko/net/advanced-cad-techniques/creating-single-pdf-with-different-layouts/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 다양한 레이아웃으로 단일 PDF 만들기 - Aspose.CAD 가이드
+
 ## 소개
 
 Aspose.CAD for .NET을 사용하여 다양한 레이아웃의 CAD 도면에서 단일 PDF 문서를 생성하려고 하시나요? 이 단계별 가이드는 원활한 통합과 효율적인 PDF 생성을 달성하는 데 도움이 되는 프로세스를 안내합니다. .NET용 Aspose.CAD는 프로그래밍 방식으로 CAD 도면을 조작할 수 있는 강력한 기능을 제공하며, 이 튜토리얼에서는 다양한 레이아웃으로 단일 PDF를 만드는 데 중점을 둘 것입니다.
@@ -95,3 +101,9 @@ A1: 예, .NET용 Aspose.CAD는 DWG, DXF, DGN 등과 같은 다양한 CAD 형식�
 ### Q5: .NET용 Aspose.CAD 라이선스를 구입할 수 있나요?
 
  A5: 예, 라이센스를 구입할 수 있습니다.[여기](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

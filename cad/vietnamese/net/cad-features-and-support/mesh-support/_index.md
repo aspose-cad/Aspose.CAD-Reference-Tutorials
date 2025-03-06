@@ -3,10 +3,16 @@ title: Hỗ trợ lưới trong Aspose.CAD cho .NET
 linktitle: Hỗ trợ lưới
 second_title: Aspose.CAD .NET - Định dạng tệp CAD và BIM
 description: Khám phá hỗ trợ lưới trong Aspose.CAD cho .NET với hướng dẫn từng bước của chúng tôi. Chuyển đổi tập tin CAD sang PDF dễ dàng.
-type: docs
 weight: 11
 url: /vi/net/cad-features-and-support/mesh-support/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Hỗ trợ lưới trong Aspose.CAD cho .NET
+
 ## Giới thiệu
 
 Chào mừng bạn đến với hướng dẫn chuyên sâu của chúng tôi về cách tận dụng hỗ trợ lưới trong Aspose.CAD cho .NET! Aspose.CAD là một thư viện mạnh mẽ cung cấp chức năng mạnh mẽ để làm việc với các tệp Thiết kế hỗ trợ máy tính (CAD) trong các ứng dụng .NET. Trong hướng dẫn này, chúng tôi sẽ đặc biệt tập trung vào việc sử dụng tính năng hỗ trợ lưới để nâng cao khả năng xử lý tệp CAD của bạn.
@@ -100,3 +106,9 @@ Câu trả lời 2: Mặc dù giấy phép được khuyến nghị sử dụng 
 ### Câu hỏi 5: Tôi có thể tải xuống phiên bản Aspose.CAD mới nhất cho .NET ở đâu?
 
  A5: Tải xuống thư viện từ[trang phát hành](https://releases.aspose.com/cad/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Manipulação de desenho CAD
 linktitle: Manipulação de desenho CAD
 second_title: Aspose.CAD .NET - Formato de arquivo CAD e BIM
 description: Aprimore facilmente seus projetos CAD com os tutoriais Aspose.CAD for .NET. Redimensione, converta e otimize desenhos CAD facilmente com nossos guias passo a passo.
-type: docs
 weight: 21
 url: /pt/net/cad-drawing-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Manipulação de desenho CAD
+
 
 ## Introdução
 
@@ -44,3 +50,9 @@ Converta facilmente layouts CAD em imagens raster usando Aspose.CAD for .NET. Ap
 Descubra o poder do Aspose.CAD para .NET. Ative o rastreamento para renderização CAD perfeitamente. Siga nosso guia passo a passo para maior controle e eficiência.
 ### [Obtenha o tamanho do layout CAD no Aspose.CAD para .NET](./get-size-of-cad-layout/)
 Aprenda como recuperar o tamanho do layout CAD em .NET usando Aspose.CAD. Siga nosso guia passo a passo para manipulação eficiente de arquivos CAD.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

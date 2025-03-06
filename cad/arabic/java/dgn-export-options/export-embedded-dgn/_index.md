@@ -3,10 +3,16 @@ title: قم بتصدير DGN المضمن إلى PDF باستخدام Aspose.CAD
 linktitle: تصدير DGN المضمنة
 second_title: Aspose.CAD جافا API
 description: استكشف الدليل التفصيلي خطوة بخطوة حول تصدير ملفات DGN المضمنة إلى PDF باستخدام Aspose.CAD لـ Java. قم بتحسين تطبيقات Java الخاصة بك من خلال معالجة ملفات CAD بسلاسة.
-type: docs
 weight: 11
 url: /ar/java/dgn-export-options/export-embedded-dgn/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# قم بتصدير DGN المضمن إلى PDF باستخدام Aspose.CAD لـ Java
+
 ## مقدمة
 
 مرحبًا بك في هذا البرنامج التعليمي الشامل حول تصدير ملفات DGN المضمنة باستخدام Aspose.CAD لـ Java. Aspose.CAD هي مكتبة قوية تمكن مطوري Java من العمل مع ملفات CAD بسلاسة. في هذا البرنامج التعليمي، سنرشدك خلال عملية تصدير ملفات DGN المضمنة إلى PDF باستخدام تعليمات خطوة بخطوة. سواء كنت مطورًا متمرسًا أو بدأت للتو، سيساعدك هذا البرنامج التعليمي على الاستفادة من إمكانيات Aspose.CAD لتحسين تطبيقات Java الخاصة بك.
@@ -103,3 +109,9 @@ objImage.save(dataDir + "BlockRefDgn.pdf", pdfOptions);
 ### س5: أين يمكنني العثور على الوثائق؟
 
  ج5: الوثائق متاحة[هنا](https://reference.aspose.com/cad/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

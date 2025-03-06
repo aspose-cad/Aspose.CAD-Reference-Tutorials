@@ -1,12 +1,17 @@
 ---
 title: Aspose.CAD for .NET 的综合教程和示例
 linktitle: Aspose.CAD for .NET 教程
-type: docs
 weight: 10
 url: /zh/net/
 description: 通过全面的教程掌握 Aspose.CAD for .NET。提升您的 CAD 技能，从许可到高级导出技术。轻松解锁隐藏功能。
-is_root: true
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.CAD for .NET 的综合教程和示例
+
 
 ## 介绍
 
@@ -61,3 +66,9 @@ is_root: true
 使用 Aspose.CAD for .NET 轻松将 PLT 文件转换为图像和 PDF。探索 CAD 文件操作的无缝集成和灵活选项。
 ### [STL 文件导出](./stl-file-export/)
 使用 Aspose.CAD for .NET 轻松将 STL 文件导出为 PNG。我们的分步指南可确保无缝集成。通过 Aspose.CAD For .NET 教程进行学习。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Tecniche di esportazione
 linktitle: Tecniche di esportazione
 second_title: Aspose.CAD .NET - Formato file CAD e BIM
 description: Esplora i tutorial Aspose.CAD per uno sviluppo CAD senza interruzioni. Impara tecniche efficaci per esportare file DXF in vari formati senza sforzo.
-type: docs
 weight: 32
 url: /it/net/export-techniques/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tecniche di esportazione
+
 
 
 ## introduzione
@@ -49,3 +55,9 @@ Esplora la perfetta integrazione di Aspose.CAD per .NET in questa guida passo pa
 Esplora la potenza di Aspose.CAD per .NET. Impara a esportare facilmente file DGN incorporati in PDF con questo tutorial passo passo.
 ### [Esportazione di immagini in formato DXF - Guida Aspose.CAD](./exporting-images-to-dxf-format/)
 Esplora la potenza di Aspose.CAD per .NET! Impara a esportare immagini in formato DXF senza sforzo. Migliora il tuo sviluppo CAD con precisione ed efficienza.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

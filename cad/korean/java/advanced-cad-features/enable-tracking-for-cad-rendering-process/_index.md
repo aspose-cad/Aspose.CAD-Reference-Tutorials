@@ -3,10 +3,16 @@ title: CAD 렌더링 프로세스에 대한 추적 활성화
 linktitle: CAD 렌더링 프로세스에 대한 추적 활성화
 second_title: Aspose.CAD 자바 API
 description: Java용 Aspose.CAD를 사용하여 CAD 렌더링을 향상하세요. PDF 변환 경험을 추적하고 향상하려면 단계별 가이드를 따르십시오.
-type: docs
 weight: 10
 url: /ko/java/advanced-cad-features/enable-tracking-for-cad-rendering-process/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# CAD 렌더링 프로세스에 대한 추적 활성화
+
 ## 소개
 
 CAD(Computer-Aided Design) 영역에서 Java용 Aspose.CAD는 CAD 파일을 렌더링하고 처리하는 강력한 도구로 돋보입니다. 이 튜토리얼은 CAD 렌더링 추적을 활성화하는 프로세스를 안내하여 CAD 파일에서 PDF 형식으로의 변환에 대한 제어력을 향상시킵니다.
@@ -114,3 +120,9 @@ A1: Aspose.CAD는 DWG, DXF, DGN 등을 포함한 광범위한 CAD 형식을 지�
 ### Q5: Aspose.CAD에 임시 라이선스를 사용할 수 있나요?
 
  A5: 예, 임시 라이센스가 필요하면 취득할 수 있습니다.[여기](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Prise en charge des calques avec Aspose.CAD en Java
 linktitle: Prise en charge des calques en CAO
 second_title: API Java Aspose.CAD
 description: Prise en charge de la couche principale dans le développement Java CAD avec Aspose.CAD. Organisez et exportez des dessins sans effort.
-type: docs
 weight: 18
 url: /fr/java/advanced-cad-features/support-of-layers-in-cad/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Prise en charge des calques avec Aspose.CAD en Java
+
 ## Introduction
 
 Libérez tout le potentiel d’Aspose.CAD en Java en maîtrisant le support des calques. Les calques jouent un rôle crucial dans les dessins CAO, permettant une organisation et une manipulation efficaces des éléments graphiques. Dans ce didacticiel complet, nous aborderons les subtilités de la prise en charge des calques à l'aide d'Aspose.CAD, en vous fournissant un guide étape par étape pour exploiter cette puissante fonctionnalité.
@@ -118,3 +124,9 @@ A2 : Oui, Aspose.CAD prend en charge une large gamme de formats de CAO, garantis
 ### Q5 : Où puis-je demander de l'aide ou partager mes expériences avec Aspose.CAD ?
 
 A5 : Rejoignez la communauté Aspose.CAD sur le[forum](https://forum.aspose.com/c/cad/19) pour du soutien et des discussions collaboratives.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: الترخيص والتكوين
 linktitle: الترخيص والتكوين
 second_title: Aspose.CAD جافا API
 description: أطلق العنان لقوة Aspose.CAD لـ Java من خلال البرنامج التعليمي للترخيص المحدود. قم بتحسين معالجة CAD بكفاءة وفعالية من حيث التكلفة لتعزيز الإنتاجية.
-type: docs
 weight: 25
 url: /ar/java/licensing-and-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# الترخيص والتكوين
+
 ## مقدمة
 
 الشروع في رحلة إتقان الترخيص المقنن في Aspose.CAD لـ Java يفتح الأبواب أمام كفاءة لا مثيل لها وفعالية من حيث التكلفة في معالجة CAD. في هذا الدليل الشامل، نتعمق في التعقيدات، مما يتيح لك تحسين سير عملك بسلاسة.
@@ -25,3 +31,9 @@ url: /ar/java/licensing-and-configuration/
 ## دروس الترخيص والتكوين
 ### [الترخيص المقنن في Aspose.CAD](./metered-licensing-in-aspose-cad/)
 تعرف على كيفية إتقان الترخيص المقنن في Aspose.CAD لـ Java باستخدام هذا الدليل الشامل. قم بتحسين معالجة CAD لديك لتحقيق الكفاءة والفعالية من حيث التكلفة.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

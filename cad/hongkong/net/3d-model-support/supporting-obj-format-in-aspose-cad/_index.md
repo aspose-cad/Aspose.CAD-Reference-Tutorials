@@ -3,10 +3,16 @@ title: 在 Aspose.CAD 中支援 OBJ 格式 - 教學課程
 linktitle: 在 Aspose.CAD 中支援 OBJ 格式 - 教學課程
 second_title: Aspose.CAD .NET - CAD 和 BIM 檔案格式
 description: 釋放 Aspose.CAD for .NET 的潛力。透過此逐步教程，了解如何在 CAD 應用程式中無縫支援 OBJ 格式。
-type: docs
 weight: 10
 url: /zh-hant/net/3d-model-support/supporting-obj-format-in-aspose-cad/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.CAD 中支援 OBJ 格式 - 教學課程
+
 ## 介紹
 
 如果您正在深入研究 .NET 開發中的電腦輔助設計 (CAD) 世界，您可能會遇到使用 OBJ 檔案的需要。 Aspose.CAD for .NET 是一個強大的解決方案，使開發人員能夠在其應用程式中無縫支援 OBJ 格式。在本教程中，我們將指導您完成將 Aspose.CAD 合併到專案中以有效處理 OBJ 檔案的過程。
@@ -97,3 +103,9 @@ CADDoc.Save(MyDir + "example-580-W_custom.pdf", CADf);
 ### Q5：哪裡可以購買Aspose.CAD？
 
  A5：您可以購買Aspose.CAD[這裡](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

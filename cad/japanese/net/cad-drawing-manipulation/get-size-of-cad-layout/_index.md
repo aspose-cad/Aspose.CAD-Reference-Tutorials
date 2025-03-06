@@ -3,10 +3,16 @@ title: Aspose.CAD for .NET で CAD レイアウトのサイズを取得する
 linktitle: CADレイアウトのサイズを取得
 second_title: Aspose.CAD .NET - CAD および BIM ファイル形式
 description: Aspose.CAD を使用して .NET で CAD レイアウト サイズを取得する方法を学習します。 CAD ファイルを効率的に操作するには、ステップバイステップのガイドに従ってください。
-type: docs
 weight: 14
 url: /ja/net/cad-drawing-manipulation/get-size-of-cad-layout/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.CAD for .NET で CAD レイアウトのサイズを取得する
+
 ## 導入
 
 Aspose.CAD for .NET を使用して CAD レイアウトのサイズを取得するためのこの包括的なガイドへようこそ。 Aspose.CAD は、開発者が CAD ファイルをシームレスに操作できるようにする強力なライブラリです。このチュートリアルでは、実際の例と段階的な手順を使用して、CAD レイアウトのサイズを取得するプロセスを説明します。
@@ -143,3 +149,9 @@ A4: はい、Aspose.CAD を使用して探索できます。[無料トライア�
 ### Q5;技術サポートを受けるにはどうすればよいですか?
 
  A5: 技術サポートについては、次のサイトにアクセスしてください。[Aspose.CAD フォーラム](https://forum.aspose.com/c/cad/19).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

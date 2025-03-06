@@ -3,10 +3,16 @@ title: تحويل DWG إلى تنسيق PDF - البرنامج التعليمي 
 linktitle: تحويل DWG إلى PDF متوافق
 second_title: Aspose.CAD .NET - تنسيق ملف CAD وBIM
 description: تحويل DWG إلى PDF متوافق باستخدام Aspose.CAD لـ .NET. اتبع البرنامج التعليمي لدينا للحصول على إرشادات خطوة بخطوة.
-type: docs
 weight: 13
 url: /ar/net/conversion-and-export/converting-dwg-to-compliance-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تحويل DWG إلى تنسيق PDF - البرنامج التعليمي Aspose.CAD
+
 ## مقدمة
 
 مرحبًا بك في برنامجنا التعليمي خطوة بخطوة حول تحويل ملفات DWG إلى PDF متوافق باستخدام Aspose.CAD لـ .NET. Aspose.CAD عبارة عن واجهة برمجة تطبيقات .NET قوية تمكن المطورين من العمل مع تنسيقات ملفات CAD دون عناء. في هذا البرنامج التعليمي، سنرشدك خلال عملية تحويل ملف DWG إلى ملف PDF متوافق مع أمثلة وشروحات مفصلة.
@@ -113,3 +119,9 @@ cadImage.Save(MyDir + "PDFA1_B.pdf", pdfOptions);
 ### س5: أين يمكنني الحصول على الدعم لـ Aspose.CAD؟
 
 ج5: قم بزيارة[منتدى Aspose.CAD](https://forum.aspose.com/c/cad/19) لأية استفسارات متعلقة بالدعم.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

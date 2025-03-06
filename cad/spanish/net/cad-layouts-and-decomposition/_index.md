@@ -3,10 +3,16 @@ title: Diseños CAD y descomposición
 linktitle: Diseños CAD y descomposición
 second_title: Aspose.CAD .NET - Formato de archivo CAD y BIM
 description: ¡Desbloquee el potencial de los diseños CAD con Aspose.CAD para .NET! Convierta fácilmente diseños a PDF usando nuestra guía. Domine la descomposición de objetos insertados sin esfuerzo.
-type: docs
 weight: 34
 url: /es/net/cad-layouts-and-decomposition/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Diseños CAD y descomposición
+
 
 
 
@@ -59,3 +65,9 @@ En conclusión, Aspose.CAD para .NET representa un punto de inflexión en el ám
 Convierta diseños CAD a PDF sin esfuerzo con Aspose.CAD para .NET. Siga nuestra guía paso a paso para una integración perfecta.
 ### [Descomponer objetos de inserción CAD - Guía Aspose.CAD](./decomposing-cad-insert-objects/)
 Explore el poder de Aspose.CAD para .NET con nuestra guía paso a paso sobre cómo descomponer objetos de inserción CAD.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

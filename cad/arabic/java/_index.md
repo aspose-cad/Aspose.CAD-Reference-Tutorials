@@ -1,12 +1,17 @@
 ---
 title: دروس وأمثلة شاملة لـ Aspose.CAD لـ Java
 linktitle: Aspose.CAD لدروس جافا
-type: docs
 weight: 10
 url: /ar/java/
 description: ارفع مهارات التصميم بمساعدة الكمبيوتر بسهولة باستخدام Aspose.CAD لـ Java. استكشف البرامج التعليمية حول تحويل الرسم والتعليقات التوضيحية النصية ومعالجة الملفات والميزات المتقدمة والترخيص والمزيد.
-is_root: true
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# دروس وأمثلة شاملة لـ Aspose.CAD لـ Java
+
 
 ## مقدمة
 
@@ -77,3 +82,9 @@ is_root: true
 أطلق العنان لقوة Aspose.CAD لـ Java من خلال برامجنا التعليمية الخاصة بتصدير DGN. تعرّف على المعالجة الفعالة لملفات CAD، بدءًا من تصدير DGN كجزء من DWG إلى إنشاء صور نقطية دون عناء.
 ### [عمليات CAD الأخرى](./other-cad-operations/)
 أطلق العنان لإمكانات Aspose.CAD لـ Java من خلال برامجنا التعليمية. بدءًا من التعامل مع عناصر DGN وحتى إضافة العلامات المائية، يمكنك تعزيز مهاراتك في التصميم بمساعدة الكمبيوتر (CAD) دون عناء.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

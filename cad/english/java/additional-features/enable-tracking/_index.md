@@ -3,10 +3,16 @@ title: Enable Tracking in DWG Files Using Aspose.CAD In Java
 linktitle: Enable Tracking in DWG Files Using Java
 second_title: Aspose.CAD Java API
 description: Explore the step-by-step guide on enabling DWG file tracking in Java using Aspose.CAD, ensuring seamless collaboration in CAD projects.
-type: docs
 weight: 12
 url: /java/additional-features/enable-tracking/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Enable Tracking in DWG Files Using Aspose.CAD In Java
+
 ## Introduction
 
 In the realm of computer-aided design (CAD), Aspose.CAD for Java stands out as a powerful tool that empowers developers to manipulate and convert CAD files with ease. This tutorial delves into a specific functionality of Aspose.CAD for Java – enabling tracking in DWG files. Tracking changes in DWG files is crucial for collaborative design projects, ensuring seamless communication and efficient workflow. In this guide, we'll walk through the steps to enable tracking using Java, leveraging the capabilities of Aspose.CAD.
@@ -123,3 +129,10 @@ A4: Visit the [Aspose.CAD forum](https://forum.aspose.com/c/cad/19) for communit
 ### Q5: How do I obtain a temporary license for Aspose.CAD for Java?
 
 A5: Follow the process outlined at [Temporary License](https://purchase.aspose.com/temporary-license/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

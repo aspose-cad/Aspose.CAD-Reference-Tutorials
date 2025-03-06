@@ -3,10 +3,16 @@ title: 編輯 CAD 檔案中的超連結 - Aspose.CAD 教學課程
 linktitle: 編輯 CAD 檔案中的超鏈接
 second_title: Aspose.CAD .NET - CAD 和 BIM 檔案格式
 description: 探索 Aspose.CAD for .NET 並學習輕鬆編輯 CAD 檔案中的超連結。透過這個綜合教程增強您的 CAD 檔案管理技能。
-type: docs
 weight: 14
 url: /zh-hant/net/advanced-cad-techniques/editing-hyperlinks-in-cad-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 編輯 CAD 檔案中的超連結 - Aspose.CAD 教學課程
+
 ## 介紹
 
 歡迎來到我們關於使用 Aspose.CAD for .NET 編輯 CAD 檔案中的超連結的逐步教學。 Aspose.CAD 是一個功能強大的程式庫，可讓開發人員無縫地使用 CAD 檔案。在本教程中，我們將重點放在在 CAD 檔案中編輯超連結的具體任務，示範如何有效地修改和管理連結。
@@ -103,3 +109,9 @@ A1：是的，Aspose.CAD支援各種CAD格式，包括DWG、DXF、DGN等。
 ### Q5：需要協助或有疑問嗎？
 
  A5：造訪我們的支援論壇[這裡](https://forum.aspose.com/c/cad/19).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

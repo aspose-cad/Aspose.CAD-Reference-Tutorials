@@ -3,10 +3,16 @@ title: หมดเวลาในการบันทึกสำหรับ 
 linktitle: ใส่การหมดเวลาในการบันทึก
 second_title: Aspose.CAD Java API
 description: เรียนรู้วิธีเพิ่มประสิทธิภาพแอปพลิเคชัน Java ของคุณด้วย Aspose.CAD ตั้งเวลาบันทึกสำหรับแบบร่าง CAD ปฏิบัติตามคำแนะนำทีละขั้นตอนของเรา
-type: docs
 weight: 15
 url: /th/java/other-cad-operations/put-timeout-on-save/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# หมดเวลาในการบันทึกสำหรับ CAD ด้วย Aspose.CAD
+
 ## การแนะนำ
 
 ยินดีต้อนรับสู่บทช่วยสอนเกี่ยวกับการหมดเวลาในการบันทึกโดยใช้ Aspose.CAD สำหรับ Java ในคู่มือนี้ เราจะแนะนำคุณตลอดขั้นตอนการตั้งค่าการหมดเวลาสำหรับการบันทึกแบบ CAD เพื่อปรับปรุงประสิทธิภาพของแอปพลิเคชันของคุณ Aspose.CAD สำหรับ Java เป็นไลบรารีอันทรงพลังที่ช่วยให้คุณทำงานกับไฟล์ CAD ในแอปพลิเคชัน Java ของคุณได้อย่างราบรื่น
@@ -131,3 +137,9 @@ A3: ได้ คุณสามารถทดลองใช้งานฟร
 ### Q5: ต้องการความช่วยเหลือหรือมีคำถาม?
 
  A5: ตรงไปที่[ฟอรั่ม Aspose.CAD](https://forum.aspose.com/c/cad/19) เพื่อสนับสนุนชุมชน
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

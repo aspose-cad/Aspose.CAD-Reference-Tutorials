@@ -3,10 +3,16 @@ title: Lizenzierung und Konfiguration
 linktitle: Lizenzierung und Konfiguration
 second_title: Aspose.CAD Java API
 description: Nutzen Sie die Leistungsfähigkeit von Aspose.CAD für Java mit unserem Tutorial zur getakteten Lizenzierung. Optimieren Sie die CAD-Verarbeitung effizient und kostengünstig für eine höhere Produktivität.
-type: docs
 weight: 25
 url: /de/java/licensing-and-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Lizenzierung und Konfiguration
+
 ## Einführung
 
 Wenn Sie sich auf den Weg machen, die gebührenpflichtige Lizenzierung in Aspose.CAD für Java zu meistern, eröffnen sich Ihnen Türen zu beispielloser Effizienz und Kosteneffizienz bei der CAD-Verarbeitung. In diesem umfassenden Leitfaden gehen wir auf die Feinheiten ein und ermöglichen Ihnen, Ihren Arbeitsablauf nahtlos zu optimieren.
@@ -25,3 +31,9 @@ Zusammenfassend lässt sich sagen, dass es bei der dosierten Lizenzierung in Asp
 ## Lizenzierungs- und Konfigurations-Tutorials
 ### [Gemessene Lizenzierung in Aspose.CAD](./metered-licensing-in-aspose-cad/)
 Erfahren Sie in diesem umfassenden Leitfaden, wie Sie die getaktete Lizenzierung in Aspose.CAD für Java beherrschen. Optimieren Sie Ihre CAD-Verarbeitung für Effizienz und Kosteneffizienz.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Exportujte specifické rozvržení DXF do obrázku pomocí Aspose.CAD v J
 linktitle: Exportujte specifické rozvržení DXF do obrázku pomocí Java
 second_title: Aspose.CAD Java API
 description: Naučte se exportovat konkrétní rozvržení DXF do obrázku pomocí Aspose.CAD for Java. Postupujte podle našeho podrobného průvodce pro bezproblémovou integraci.
-type: docs
 weight: 16
 url: /cs/java/additional-features/export-specific-layout-to-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Exportujte specifické rozvržení DXF do obrázku pomocí Aspose.CAD v Javě
+
 ## Úvod
 
 Hledáte převést konkrétní rozvržení DXF na obrázek pomocí Javy? S Aspose.CAD for Java můžete tento úkol bez problémů splnit. V tomto podrobném průvodci vás provedeme procesem exportu konkrétního rozvržení DXF do obrázku a poskytneme jasné pokyny a příklady pro každou fázi.
@@ -141,3 +147,9 @@ Odpověď 4: Ano, Aspose.CAD for Java podporuje různé výstupní formáty, vč
 ### Q5: Mohu dále přizpůsobit možnosti rasterizace?
 
  A5: Určitě`CadRasterizationOptions` třída poskytuje různé vlastnosti pro přizpůsobení. Další možnosti naleznete v dokumentaci.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -1,12 +1,17 @@
 ---
 title: บทช่วยสอนที่ครอบคลุมและตัวอย่าง Aspose.CAD สำหรับ .NET
 linktitle: Aspose.CAD สำหรับบทช่วยสอน .NET
-type: docs
 weight: 10
 url: /th/net/
 description: Master Aspose.CAD สำหรับ .NET พร้อมบทช่วยสอนที่ครอบคลุม ยกระดับทักษะ CAD ของคุณจากใบอนุญาตไปจนถึงเทคนิคการส่งออกขั้นสูง ปลดล็อคคุณสมบัติที่ซ่อนอยู่ได้อย่างง่ายดาย
-is_root: true
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# บทช่วยสอนที่ครอบคลุมและตัวอย่าง Aspose.CAD สำหรับ .NET
+
 
 ## การแนะนำ
 
@@ -61,3 +66,9 @@ is_root: true
 แปลงไฟล์ PLT เป็นรูปภาพและ PDF ได้อย่างง่ายดายด้วย Aspose.CAD สำหรับ .NET สำรวจการผสานรวมที่ราบรื่นและตัวเลือกที่ยืดหยุ่นสำหรับการจัดการไฟล์ CAD
 ### [ส่งออกไฟล์ STL](./stl-file-export/)
 ส่งออกไฟล์ STL เป็น PNG ได้อย่างง่ายดายด้วย Aspose.CAD สำหรับ .NET คำแนะนำทีละขั้นตอนของเราช่วยให้มั่นใจได้ถึงการบูรณาการที่ราบรื่น เรียนรู้ผ่าน Aspose.CAD สำหรับบทช่วยสอน .NET
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

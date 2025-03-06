@@ -3,10 +3,16 @@ title: Képek importálása DWG-fájlokba C# segítségével - Aspose.CAD útmut
 linktitle: Képek importálása DWG fájlokba C# segítségével
 second_title: Aspose.CAD .NET - CAD és BIM fájlformátum
 description: Ismerje meg, hogyan importálhat képeket DWG-fájlokba C# használatával az Aspose.CAD for .NET segítségével. Kövesse lépésenkénti útmutatónkat a zökkenőmentes integráció érdekében.
-type: docs
 weight: 11
 url: /hu/net/image-manipulation-and-rendering/importing-images-into-dwg/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Képek importálása DWG-fájlokba C# segítségével - Aspose.CAD útmutató
+
 ## Bevezetés
 
 A számítógéppel segített tervezés (CAD) területén a képek DWG-fájlokba való beépítése gyakori és kulcsfontosságú feladat. Az Aspose.CAD for .NET hatékony eszközkészletet biztosít ennek a folyamatnak a leegyszerűsítésére, így elérhetővé teszi a C# fejlesztők számára. Ebben az oktatóanyagban lépésről lépésre megvizsgáljuk, hogyan importálhatunk képeket DWG-fájlokba.
@@ -122,3 +128,9 @@ képek integrálása DWG-fájlokba a C# és Aspose.CAD for .NET használatával 
 ### 5. kérdés: Vannak közösségi fórumok az Aspose.CAD támogatására?
 
  V5: Igen, kérhetsz támogatást és kapcsolatba léphetsz a közösséggel[itt](https://forum.aspose.com/c/cad/19).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

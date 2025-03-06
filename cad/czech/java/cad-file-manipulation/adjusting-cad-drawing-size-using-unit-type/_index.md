@@ -3,10 +3,16 @@ title: Úprava velikosti výkresu CAD pomocí typu jednotky s Aspose.CAD for Jav
 linktitle: Úprava velikosti výkresu CAD pomocí typu jednotky
 second_title: Aspose.CAD Java API
 description: Prozkoumejte sílu Aspose.CAD pro Java při úpravě velikosti výkresů CAD bez námahy. Postupujte podle našeho podrobného průvodce pro přesnost a přizpůsobivost.
-type: docs
 weight: 14
 url: /cs/java/cad-file-manipulation/adjusting-cad-drawing-size-using-unit-type/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Úprava velikosti výkresu CAD pomocí typu jednotky s Aspose.CAD for Java
+
 ## Úvod
 
 neustále se vyvíjející oblasti počítačově podporovaného navrhování (CAD) je přesnost a přizpůsobivost prvořadá. Jedním z běžných požadavků je úprava velikosti výkresů CAD na základě konkrétních typů jednotek. Aspose.CAD for Java se ukazuje jako mocný spojenec, který poskytuje bezproblémové možnosti pro programovou manipulaci se soubory CAD.
@@ -117,3 +123,9 @@ A1: Aspose.CAD primárně podporuje Javu, ale jsou dostupné verze pro jiné jaz
 ### Q5: Mohu získat dočasnou licenci pro Aspose.CAD?
 
  A5: Ano, můžete získat dočasnou licenci[tady](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

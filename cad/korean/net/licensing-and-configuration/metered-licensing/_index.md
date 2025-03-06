@@ -3,10 +3,16 @@ title: .NET용 Aspose.CAD의 계량 라이선스
 linktitle: 종량제 라이선스
 second_title: Aspose.CAD .NET - CAD 및 BIM 파일 형식
 description: .NET의 계량 라이선스를 통해 Aspose.CAD의 잠재력을 활용하세요. 리소스 사용량을 원활하게 최적화하세요. 단계별 가이드를 살펴보세요.
-type: docs
 weight: 12
 url: /ko/net/licensing-and-configuration/metered-licensing/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# .NET용 Aspose.CAD의 계량 라이선스
+
 ## 소개
 
 .NET용 Aspose.CAD의 잠재력을 최대한 활용하려면 계량 라이선스의 복잡성을 이해해야 합니다. 이 강력한 기능을 통해 개발자는 Aspose.CAD의 기능을 활용하면서 리소스 소비를 효율적으로 관리할 수 있습니다. 이 단계별 가이드에서는 측정된 라이선스를 구현하는 프로세스를 자세히 살펴보고 .NET 프로젝트에 원활하게 통합될 수 있도록 중요한 각 단계를 세분화합니다.
@@ -97,3 +103,9 @@ A3: 예, 측정된 키는 다양한 프로젝트에서 재사용이 가능하므
 ### Q5: 특정 프로젝트에 대해 Aspose.CAD 라이선스를 임시로 부여할 수 있나요?
 
  A5: 예, 살펴보세요.[임시 라이센스 옵션](https://purchase.aspose.com/temporary-license/) 단기 프로젝트 요구 사항.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

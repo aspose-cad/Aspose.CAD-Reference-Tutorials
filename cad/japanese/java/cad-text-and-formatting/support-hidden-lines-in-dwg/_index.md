@@ -3,10 +3,16 @@ title: Aspose.CAD for Java を使用した DWG ファイル内の隠線のサポ
 linktitle: Java を使用した DWG ファイル内の隠線のサポート
 second_title: Aspose.CAD Java API
 description: Aspose.CAD を使用して Java アプリケーションの DWG ファイル操作機能を強化する方法を学びます。隠線のサポートについては、ステップバイステップのガイドに従ってください。 CAD 図面の処理を簡単に強化します。
-type: docs
 weight: 11
 url: /ja/java/cad-text-and-formatting/support-hidden-lines-in-dwg/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.CAD for Java を使用した DWG ファイル内の隠線のサポート
+
 ## 導入
 
 Aspose.CAD for Java を活用して DWG ファイル操作機能を強化するための包括的なガイドへようこそ。このチュートリアルでは、DWG ファイルの隠線のサポートという特定の側面に焦点を当てます。経験豊富な開発者でも、初心者でも、このガイドは段階的な手順でプロセスをナビゲートするのに役立ちます。
@@ -117,3 +123,10 @@ A1: はい、Aspose.CAD は、DWG、DXF、DWF などのさまざまな CAD 形�
 ### Q5: Aspose.CAD for Java の一時ライセンスを購入できますか?
 
  A5: はい、一時ライセンスを取得できます。[ここ](https://purchase.aspose.com/temporary-license/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

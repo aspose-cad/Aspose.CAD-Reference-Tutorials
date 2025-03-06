@@ -3,10 +3,16 @@ title: Dönüştürme ve Dışa Aktarma
 linktitle: Dönüştürme ve Dışa Aktarma
 second_title: Aspose.CAD .NET - CAD ve BIM Dosya Formatı
 description: Aspose.CAD ile CAD dosya manipülasyonu dünyasının kilidini açın! Canlı renkler oluşturmayı ve DWG dosyalarını dönüştürmeyi öğrenin. Kesin sonuçlar için DWT ve DWG formatlarına dalın.
-type: docs
 weight: 25
 url: /tr/net/conversion-and-export/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Dönüştürme ve Dışa Aktarma
+
 
 
 ## giriiş
@@ -45,3 +51,9 @@ Aspose.CAD for .NET ile DWT ve DWG formatlarının inceliklerini keşfedin. Bu C
 Aspose.CAD for .NET ile DWG'yi Uyumluluk PDF'sine dönüştürün. Adım adım rehberlik için eğitimimizi takip edin.
 ### [DWG'yi DWF Formatına Dönüştürme - Aspose.CAD Guide](./converting-dwg-to-dwf/)
 Aspose.CAD for .NET'i kullanarak DWG'nin DWF'ye kusursuz dönüşümünü keşfedin. Sorunsuz bir deneyim için adım adım kılavuzumuzu izleyin.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

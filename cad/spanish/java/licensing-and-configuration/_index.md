@@ -3,10 +3,16 @@ title: Licencia y configuración
 linktitle: Licencia y configuración
 second_title: API de Java Aspose.CAD
 description: Desbloquee el poder de Aspose.CAD para Java con nuestro tutorial de licencia medida. Optimice el procesamiento CAD de manera eficiente y rentable para mejorar la productividad.
-type: docs
 weight: 25
 url: /es/java/licensing-and-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Licencia y configuración
+
 ## Introducción
 
 Embarcarse en el viaje para dominar las licencias medidas en Aspose.CAD para Java abre las puertas a una eficiencia y rentabilidad incomparables en el procesamiento CAD. En esta guía completa, profundizamos en las complejidades, permitiéndole optimizar su flujo de trabajo sin problemas.
@@ -25,3 +31,9 @@ En conclusión, la concesión de licencias medidas en Aspose.CAD para Java no se
 ## Tutoriales de licencia y configuración
 ### [Licencias medidas en Aspose.CAD](./metered-licensing-in-aspose-cad/)
 Aprenda a dominar las licencias medidas en Aspose.CAD para Java con esta guía completa. Optimice su procesamiento CAD para lograr eficiencia y rentabilidad.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: 3D Görüntü Dışa Aktarma
 linktitle: 3D Görüntü Dışa Aktarma
 second_title: Aspose.CAD .NET - CAD ve BIM Dosya Formatı
 description: Aspose.CAD for .NET'i kullanarak 3D CAD görüntülerini zahmetsizce PDF'ye aktarın. Kusursuz PDF dönüşümü için eğitimlerimizi takip edin. Verimli 3D görüntü dışa aktarma tekniklerini öğrenin.
-type: docs
 weight: 35
 url: /tr/net/3d-image-export/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 3D Görüntü Dışa Aktarma
+
 
 ## giriiş
 
@@ -34,3 +40,9 @@ Sonuç olarak, Aspose.CAD for .NET ile 3D Görüntü Dışa Aktarma Eğitimleri,
 ## 3D Görüntü Dışa Aktarma Eğitimleri
 ### [3D Görüntüleri PDF'ye Aktarma - Aspose.CAD Eğitimi](./exporting-3d-images-to-pdf/)
 Aspose.CAD for .NET ile 3D CAD görüntülerini zahmetsizce PDF'ye dönüştürün. Kusursuz PDF dışa aktarımı için adım adım eğitimimizi izleyin.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

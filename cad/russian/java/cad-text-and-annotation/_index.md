@@ -3,10 +3,16 @@ title: Текст и аннотации САПР
 linktitle: Текст и аннотации САПР
 second_title: API Aspose.CAD Java
 description: Улучшите качество своих DWG-чертежей без особых усилий с помощью Aspose.CAD для Java. Освойте добавление и замену шрифтов в файлах DWG. Пошаговые руководства для визуального совершенства.
-type: docs
 weight: 21
 url: /ru/java/cad-text-and-annotation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Текст и аннотации САПР
+
 
 ## Введение 
 
@@ -36,3 +42,9 @@ url: /ru/java/cad-text-and-annotation/
 Улучшайте свои проекты САПР без особых усилий. Научитесь заменять шрифты в файлах DWG с помощью Aspose.CAD для Java. Пошаговое руководство для визуального совершенства.
 ### [Замена шрифта определенного стиля в DWG с помощью Aspose.CAD для Java](./substitute-font-of-particular-style-in-dwg/)
 Узнайте, как заменять шрифты в файлах DWG с помощью Aspose.CAD для Java. Пошаговое руководство по точной настройке стилей.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

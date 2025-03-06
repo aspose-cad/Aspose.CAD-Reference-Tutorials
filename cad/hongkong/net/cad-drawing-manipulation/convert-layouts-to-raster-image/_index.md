@@ -3,10 +3,16 @@ title: 在 Aspose.CAD for .NET 中將佈局轉換為光柵影像
 linktitle: 將佈局轉換為光柵影像
 second_title: Aspose.CAD .NET - CAD 和 BIM 檔案格式
 description: 使用 Aspose.CAD for .NET 輕鬆將 CAD 佈局轉換為光柵影像。利用強大的 CAD 操作功能增強您的開發。
-type: docs
 weight: 12
 url: /zh-hant/net/cad-drawing-manipulation/convert-layouts-to-raster-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.CAD for .NET 中將佈局轉換為光柵影像
+
 ## 介紹
 
 您是否希望在 .NET 應用程式中輕鬆地將佈局轉換為光柵圖像？別再猶豫了！本逐步指南將引導您完成使用 Aspose.CAD for .NET 的流程，這是一個功能強大的程式庫，可簡化電腦輔助設計 (CAD) 任務。
@@ -102,3 +108,9 @@ A4：當然！抓住你的[免費試用](https://releases.aspose.com/)探索 Asp
 ### Q5：哪裡可以購買 Aspose.CAD 的授權？
 
  A5：導航至[購買頁面](https://purchase.aspose.com/buy)購買許可證並釋放 Aspose.CAD 的全部潛力。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

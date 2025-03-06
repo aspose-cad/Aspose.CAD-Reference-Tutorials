@@ -3,10 +3,16 @@ title: الوصول إلى العلامات الأساسية لـ DWG باستخ
 linktitle: الوصول إلى العلامات الأساسية لـ DWG
 second_title: Aspose.CAD جافا API
 description: اكتشف عالم سحر التصميم بمساعدة الكمبيوتر (CAD) باستخدام Aspose.CAD لـ Java! تعامل بسهولة مع ملفات DWG في تطبيقات Java الخاصة بك.
-type: docs
 weight: 11
 url: /ar/java/cad-file-manipulation/accessing-underlay-flags-of-dwg/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# الوصول إلى العلامات الأساسية لـ DWG باستخدام Aspose.CAD لـ Java
+
 ## مقدمة
 
 في عالم التصميم بمساعدة الكمبيوتر (CAD)، تعد الدقة والكفاءة أمرًا بالغ الأهمية. يظهر Aspose.CAD for Java كحليف قوي، حيث يوفر جسرًا سلسًا بين تطبيقات Java ووظائف CAD. في هذا الدليل التفصيلي، سنتعمق في سحر Aspose.CAD، مع التركيز على التعامل مع ملفات DWG واستخراج المعلومات القيمة باستخدام Java.
@@ -112,3 +118,9 @@ A1: يركز Aspose.CAD بشكل أساسي على تنسيق DWG، ولكنه �
 ### س5: أين يمكنني العثور على الوثائق الشاملة لـ Aspose.CAD لـ Java؟
 
  ج5: راجع[توثيق](https://reference.aspose.com/cad/java/) للحصول على معلومات مفصلة.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

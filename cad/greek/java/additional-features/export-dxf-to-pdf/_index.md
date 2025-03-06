@@ -3,10 +3,16 @@ title: Εξαγωγή σχεδίου DXF σε PDF με το Aspose.CAD για Ja
 linktitle: Εξαγωγή σχεδίου DXF σε PDF με Java
 second_title: Aspose.CAD Java API
 description: Εξερευνήστε την απρόσκοπτη μετατροπή των σχεδίων DXF σε PDF σε Java με το Aspose.CAD. Βελτιώστε τη ροή εργασιών CAD χωρίς κόπο.
-type: docs
 weight: 13
 url: /el/java/additional-features/export-dxf-to-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Εξαγωγή σχεδίου DXF σε PDF με το Aspose.CAD για Java
+
 ## Εισαγωγή
 
 Στον κόσμο της ανάπτυξης Java, το Aspose.CAD είναι ένα ισχυρό εργαλείο που επιτρέπει τον απρόσκοπτο χειρισμό και τη μετατροπή των σχεδίων CAD. Σε αυτό το σεμινάριο, θα εμβαθύνουμε στη διαδικασία εξαγωγής σχεδίων DXF σε PDF χρησιμοποιώντας το Aspose.CAD για Java. Αυτός ο οδηγός βήμα προς βήμα θα σας καθοδηγήσει σε όλη τη διαδικασία, διασφαλίζοντας ότι κατανοείτε κάθε έννοια πλήρως.
@@ -102,3 +108,9 @@ image.save(dataDir + "conic_pyramid_out_.pdf", pdfOptions);
 ### Ε5: Πώς μπορώ να αποκτήσω προσωρινή άδεια;
 
  A5: Πάρτε ένα[προσωρινή άδεια](https://purchase.aspose.com/temporary-license/) για σκοπούς δοκιμών και αξιολόγησης.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Создание одного PDF-файла с разными макет
 linktitle: Создание одного PDF-файла с разными макетами
 second_title: Aspose.CAD .NET — формат файлов CAD и BIM
 description: Создайте один PDF-файл с разными макетами, используя Aspose.CAD для .NET. Следуйте нашему пошаговому руководству для плавной интеграции и эффективного создания PDF-файлов.
-type: docs
 weight: 13
 url: /ru/net/advanced-cad-techniques/creating-single-pdf-with-different-layouts/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Создание одного PDF-файла с разными макетами — Руководство Aspose.CAD
+
 ## Введение
 
 Вы хотите создать один PDF-документ из чертежа САПР с различными макетами, используя Aspose.CAD для .NET? Это пошаговое руководство проведет вас через весь процесс, поможет добиться плавной интеграции и эффективного создания PDF-файлов. Aspose.CAD для .NET предоставляет мощные функции для программного управления чертежами САПР, и в этом руководстве мы сосредоточимся на создании одного PDF-файла с различными макетами.
@@ -95,3 +101,9 @@ cadImage.Save(MyDir + "singlePDF_out.pdf", pdfOptions);
 ### Вопрос 5: Могу ли я приобрести лицензию на Aspose.CAD для .NET?
 
  A5: Да, вы можете купить лицензию.[здесь](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

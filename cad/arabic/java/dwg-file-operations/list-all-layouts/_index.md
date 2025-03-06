@@ -3,10 +3,16 @@ title: قائمة بجميع التخطيطات في رسم أوتوكاد مع 
 linktitle: قائمة بجميع التخطيطات في رسم أوتوكاد مع جافا
 second_title: Aspose.CAD جافا API
 description: استكشف رسومات AutoCAD بسهولة في Java باستخدام Aspose.CAD. قم بإدراج جميع التخطيطات، واستخرج المعلومات القيمة. قم بالتنزيل الآن للتكامل السلس!
-type: docs
 weight: 11
 url: /ar/java/dwg-file-operations/list-all-layouts/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# قائمة بجميع التخطيطات في رسم أوتوكاد مع جافا
+
 ## مقدمة
 
 هل تتطلع إلى إطلاق الإمكانات الكاملة لرسومات AutoCAD في تطبيقات Java الخاصة بك؟ يعد Aspose.CAD for Java هو الحل المفضل لديك، حيث يوفر تكاملًا سلسًا لمعالجة المعلومات القيمة واستخراجها من ملفات DWG وDXF. في هذا الدليل خطوة بخطوة، سنرشدك خلال عملية إدراج جميع التخطيطات في رسم AutoCAD باستخدام Aspose.CAD لـ Java.
@@ -86,3 +92,9 @@ for (CadLayout layout : layouts.getValues()) {
 ### س5: هل يمكنني تجربة Aspose.CAD لـ Java قبل الشراء؟
 
  ج5: بالتأكيد! احصل على نسخة تجريبية مجانية من[هنا](https://releases.aspose.com/)واختبر قوة Aspose.CAD لـ Java.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

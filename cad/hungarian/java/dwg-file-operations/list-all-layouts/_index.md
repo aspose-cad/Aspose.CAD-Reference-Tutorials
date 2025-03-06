@@ -3,10 +3,16 @@ title: Listázza ki az összes elrendezést az AutoCAD Drawing programban Java-v
 linktitle: Listázza ki az összes elrendezést az AutoCAD Drawing programban Java-val
 second_title: Aspose.CAD Java API
 description: Fedezze fel az AutoCAD rajzokat könnyedén Java nyelven az Aspose.CAD segítségével. Sorolja fel az összes elrendezést, nyerjen ki értékes információkat. Töltse le most a zökkenőmentes integráció érdekében!
-type: docs
 weight: 11
 url: /hu/java/dwg-file-operations/list-all-layouts/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Listázza ki az összes elrendezést az AutoCAD Drawing programban Java-val
+
 ## Bevezetés
 
 Szeretné kiaknázni az AutoCAD rajzok teljes potenciálját Java alkalmazásaiban? Az Aspose.CAD for Java a legjobb megoldás, amely zökkenőmentes integrációt kínál a DWG- és DXF-fájlok értékes információinak manipulálásához és kinyeréséhez. Ebben a lépésenkénti útmutatóban végigvezetjük az összes elrendezés listázásán az AutoCAD-rajzon az Aspose.CAD for Java segítségével.
@@ -86,3 +92,9 @@ Az Aspose.CAD for Java segítségével most könnyedén felfedezheti az AutoCAD 
 ### 5. kérdés: Kipróbálhatom az Aspose.CAD for Java programot vásárlás előtt?
 
  A5: Természetesen! Kérjen ingyenes próbaverziót innen[itt](https://releases.aspose.com/)és tapasztalja meg az Aspose.CAD for Java erejét.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: 使用 Aspose.CAD for Java 轻松将 DGN 导出为 AutoCAD PDF
 linktitle: 将 AutoCAD 格式的 DGN 导出为 PDF
 second_title: Aspose.CAD Java API
 description: 探索有关使用 Aspose.CAD for Java 将 DGN 文件导出为 PDF 中的 AutoCAD 格式的分步指南。轻松提升 Java 应用程序的 CAD 处理能力。
-type: docs
 weight: 12
 url: /zh/java/dgn-export-options/exporting-dgn-to-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.CAD for Java 轻松将 DGN 导出为 AutoCAD PDF
+
 ## 介绍
 
 欢迎阅读这个关于使用 Aspose.CAD for Java 将 AutoCAD 格式的 DGN 文件导出为 PDF 的综合教程。如果您希望增强 Java 应用程序处理 CAD 文件的能力，Aspose.CAD 是一个很好的选择。在本教程中，我们将指导您逐步完成导出 DGN 文件的过程。
@@ -100,3 +106,9 @@ A2：当然。如教程中所示，您可以调整页面尺寸和布局等选项
 ### Q5：如何获得临时驾照？
 
  A5：获得临时许可证[这里](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

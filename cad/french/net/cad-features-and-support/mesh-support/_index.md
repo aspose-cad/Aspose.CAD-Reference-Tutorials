@@ -3,10 +3,16 @@ title: Prise en charge du maillage dans Aspose.CAD pour .NET
 linktitle: Prise en charge du maillage
 second_title: Aspose.CAD .NET - Format de fichier CAO et BIM
 description: Explorez la prise en charge du maillage dans Aspose.CAD pour .NET avec notre didacticiel étape par étape. Convertissez des fichiers CAO en PDF sans effort.
-type: docs
 weight: 11
 url: /fr/net/cad-features-and-support/mesh-support/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Prise en charge du maillage dans Aspose.CAD pour .NET
+
 ## Introduction
 
 Bienvenue dans notre didacticiel approfondi sur l'exploitation de la prise en charge du maillage dans Aspose.CAD pour .NET ! Aspose.CAD est une bibliothèque puissante qui offre des fonctionnalités robustes pour travailler avec des fichiers de conception assistée par ordinateur (CAO) dans les applications .NET. Dans ce didacticiel, nous nous concentrerons spécifiquement sur l'utilisation de la fonctionnalité de prise en charge du maillage pour améliorer vos capacités de traitement de fichiers CAO.
@@ -100,3 +106,9 @@ A2 : Bien qu'une licence soit recommandée pour une utilisation en production,
 ### Q5 : Où puis-je télécharger la dernière version d'Aspose.CAD pour .NET ?
 
  A5 : Téléchargez la bibliothèque depuis le[page de sortie](https://releases.aspose.com/cad/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

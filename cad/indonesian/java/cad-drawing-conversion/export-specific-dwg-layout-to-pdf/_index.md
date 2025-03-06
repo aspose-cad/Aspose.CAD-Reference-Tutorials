@@ -3,10 +3,16 @@ title: Ekspor Tata Letak DWG Tertentu ke PDF Menggunakan Aspose.CAD untuk Java
 linktitle: Ekspor Tata Letak DWG Tertentu ke PDF
 second_title: Aspose.CAD Java API
 description: Jelajahi panduan langkah demi langkah untuk mengekspor tata letak DWG tertentu ke PDF menggunakan Aspose.CAD untuk Java. Optimalkan alur kerja CAD Anda dengan mudah.
-type: docs
 weight: 14
 url: /id/java/cad-drawing-conversion/export-specific-dwg-layout-to-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ekspor Tata Letak DWG Tertentu ke PDF Menggunakan Aspose.CAD untuk Java
+
 ## Perkenalan
 
 Dalam dunia Computer-Aided Design (CAD) yang dinamis, Aspose.CAD untuk Java muncul sebagai alat yang ampuh untuk memanipulasi dan mengonversi gambar DWG. Dalam tutorial ini, kita akan menjelajahi skenario spesifik: mengekspor tata letak DWG yang ditentukan ke file PDF. Proses ini memastikan presisi dan fleksibilitas dalam proyek CAD Anda.
@@ -100,3 +106,9 @@ Aspose.CAD untuk Java adalah perpustakaan mandiri tetapi dapat diintegrasikan de
 ### Q5: Apakah ada uji coba gratis yang tersedia untuk Aspose.CAD?
 
  Ya, Anda dapat mengakses uji coba gratis[Di Sini](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

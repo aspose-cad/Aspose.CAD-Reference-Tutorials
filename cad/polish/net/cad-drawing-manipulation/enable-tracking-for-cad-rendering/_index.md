@@ -3,10 +3,16 @@ title: Włącz śledzenie renderowania CAD w Aspose.CAD dla .NET
 linktitle: Włącz śledzenie renderowania CAD
 second_title: Aspose.CAD .NET - Format plików CAD i BIM
 description: Odkryj moc Aspose.CAD dla .NET. Włącz płynne śledzenie renderowania CAD. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby uzyskać większą kontrolę i wydajność.
-type: docs
 weight: 13
 url: /pl/net/cad-drawing-manipulation/enable-tracking-for-cad-rendering/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Włącz śledzenie renderowania CAD w Aspose.CAD dla .NET
+
 ## Wstęp
 
 W dynamicznym świecie tworzenia oprogramowania, Aspose.CAD dla .NET wyróżnia się jako solidne rozwiązanie do renderowania w ramach projektowania wspomaganego komputerowo (CAD). Ta potężna biblioteka umożliwia programistom płynne tworzenie, manipulowanie i renderowanie plików CAD w środowisku .NET. W tym samouczku zagłębimy się w kluczowy aspekt Aspose.CAD dla .NET — umożliwienie śledzenia renderowania CAD.
@@ -110,3 +116,9 @@ A2: Absolutnie! Aspose.CAD dla .NET płynnie integruje się z różnymi framewor
 ### P5: Jakie są korzyści z włączenia śledzenia w renderowaniu CAD?
 
 Odpowiedź 5: Włączenie śledzenia zwiększa identyfikowalność i kontrolę podczas procesu renderowania, zapewniając bardziej przejrzysty i wydajny przepływ pracy.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

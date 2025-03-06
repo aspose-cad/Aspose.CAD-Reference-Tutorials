@@ -3,10 +3,16 @@ title: Aspose.CAD for Java를 사용하여 배경 및 도면 색상 설정
 linktitle: 배경 및 그리기 색상 설정
 second_title: Aspose.CAD 자바 API
 description: Java용 Aspose.CAD를 사용하여 CAD 파일을 PDF 및 TIFF로 쉽게 변환하세요. 시각적으로 놀라운 결과를 얻으려면 사용자 정의 배경 및 그리기 색상을 설정하세요.
-type: docs
 weight: 15
 url: /ko/java/advanced-cad-features/setting-background-and-drawing-color/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.CAD for Java를 사용하여 배경 및 도면 색상 설정
+
 ## 소개
 
 CAD(Computer-Aided Design)의 역동적인 세계에서 원활한 협업과 커뮤니케이션을 위해서는 효율적인 파일 변환이 매우 중요합니다. Aspose.CAD for Java는 CAD 파일을 PDF 및 TIFF 형식으로 변환하는 강력한 기능을 제공하는 강력한 도구로 등장합니다. 이 튜토리얼에서는 Aspose.CAD for Java를 사용하여 배경을 설정하고 색상을 그리는 과정을 자세히 살펴보고 최적의 결과를 위한 단계별 가이드를 제공합니다.
@@ -98,3 +104,10 @@ A2: 예, 이 튜토리얼에서는 PDF 및 TIFF 출력 모두에 대해 사용�
 ### Q5: Java용 Aspose.CAD에 대한 지원을 어떻게 받을 수 있나요?
 
 A5: 다음을 방문하세요.[Aspose.CAD 포럼](https://forum.aspose.com/c/cad/19) 도움을 구하고 지역사회에 참여하기 위해.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

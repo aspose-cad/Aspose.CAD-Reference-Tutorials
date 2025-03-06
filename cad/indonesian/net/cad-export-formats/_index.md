@@ -3,10 +3,16 @@ title: Format Ekspor CAD
 linktitle: Format Ekspor CAD
 second_title: Aspose.CAD .NET - Format File CAD dan BIM
 description: Kuasai format ekspor CAD dengan mudah dengan Aspose.CAD untuk .NET. Pelajari cara mengonversi tata letak CAD, mengekspor file DGN ke PDF, dan gambar raster melalui tutorial.
-type: docs
 weight: 22
 url: /id/net/cad-export-formats/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Format Ekspor CAD
+
 
 ## Perkenalan
 
@@ -38,3 +44,9 @@ Pelajari cara mengekspor DGN sebagai bagian dari DWG di Aspose.CAD untuk .NET. I
 Pelajari cara mengekspor file DGN ke PDF dengan mudah menggunakan Aspose.CAD untuk .NET. Panduan langkah demi langkah untuk manipulasi file CAD yang lancar.
 ### [Ekspor DGN ke Gambar Raster di Aspose.CAD untuk .NET](./export-dgn-to-raster-image/)
 Konversikan DGN ke gambar raster dengan mudah menggunakan Aspose.CAD untuk .NET. Jelajahi panduan langkah demi langkah dan manfaatkan kekuatan .NET dalam manipulasi file CAD.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

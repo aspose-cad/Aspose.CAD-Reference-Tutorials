@@ -3,10 +3,16 @@ title: Egyetlen PDF készítése különböző elrendezésekkel – Aspose.CAD �
 linktitle: Egyetlen PDF készítése különböző elrendezésekkel
 second_title: Aspose.CAD .NET - CAD és BIM fájlformátum
 description: Hozzon létre egyetlen PDF-t különböző elrendezésekkel az Aspose.CAD for .NET segítségével. Kövesse lépésről lépésre útmutatónkat a zökkenőmentes integráció és a hatékony PDF-generálás érdekében.
-type: docs
 weight: 13
 url: /hu/net/advanced-cad-techniques/creating-single-pdf-with-different-layouts/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Egyetlen PDF készítése különböző elrendezésekkel – Aspose.CAD útmutató
+
 ## Bevezetés
 
 Egyetlen PDF-dokumentumot szeretne létrehozni egy különböző elrendezésű CAD-rajzból az Aspose.CAD for .NET használatával? Ez a lépésenkénti útmutató végigvezeti Önt a folyamaton, segíti a zökkenőmentes integrációt és a hatékony PDF-készítést. Az Aspose.CAD for .NET hatékony funkciókat kínál a CAD-rajzok programozott kezeléséhez, és ebben az oktatóanyagban egyetlen PDF létrehozására összpontosítunk különböző elrendezésekkel.
@@ -95,3 +101,9 @@ Ebben az oktatóanyagban az Aspose.CAD for .NET használatával egyetlen PDF lé
 ### 5. kérdés: Vásárolhatok licencet az Aspose.CAD for .NET számára?
 
  V5: Igen, vásárolhat licencet[itt](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

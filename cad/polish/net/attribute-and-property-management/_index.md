@@ -3,10 +3,16 @@ title: Zarządzanie atrybutami i właściwościami
 linktitle: Zarządzanie atrybutami i właściwościami
 second_title: Aspose.CAD .NET - Format plików CAD i BIM
 description: Podnieś poziom swoich rysunków CAD dzięki Aspose.CAD dla .NET! Naucz się płynnie dodawać atrybuty i właściwości niestandardowe dzięki samouczkom. Ulepsz swoje projekty bez wysiłku.
-type: docs
 weight: 30
 url: /pl/net/attribute-and-property-management/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Zarządzanie atrybutami i właściwościami
+
 
 
 ## Wstęp
@@ -47,3 +53,9 @@ Podsumowując, Aspose.CAD dla .NET otwiera drzwi do świata możliwości w zarz�
 Wzbogacaj swoje rysunki CAD o atrybuty, korzystając z Aspose.CAD dla .NET. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby zapewnić bezproblemową integrację.
 ### [Dodawanie niestandardowych właściwości do plików DWG - Przewodnik Aspose.CAD](./adding-custom-properties-to-dwg/)
 Wzbogać swoje pliki DWG o niestandardowe właściwości za pomocą Aspose.CAD dla .NET. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby bez wysiłku dodawać istotne metadane.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Dukungan Mesh dengan Aspose.CAD untuk Java
 linktitle: Dukungan Mesh di CAD
 second_title: Aspose.CAD Java API
 description: Jelajahi dukungan mesh dalam aplikasi Java dengan Aspose.CAD. Konversikan file CAD ke PDF dengan mudah.
-type: docs
 weight: 12
 url: /id/java/advanced-cad-features/mesh-support-in-cad/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Dukungan Mesh dengan Aspose.CAD untuk Java
+
 ## Perkenalan
 
 Aspose.CAD untuk Java adalah perpustakaan canggih yang memungkinkan pengembang bekerja secara lancar dengan file Computer-Aided Design (CAD) dalam aplikasi Java. Dalam tutorial ini, kita akan menjelajahi fitur dukungan mesh di Aspose.CAD untuk Java, memungkinkan Anda mengonversi file CAD dengan mesh ke format PDF. Ikuti panduan langkah demi langkah di bawah ini untuk memanfaatkan kemampuan perpustakaan ini dan meningkatkan penanganan file CAD Anda.
@@ -110,3 +116,9 @@ A4: Ya, Aspose.CAD untuk Java mendukung berbagai format output, termasuk PNG, JP
 ### Q5: Bisakah saya mencoba Aspose.CAD untuk Java secara gratis?
 
  A5: Ya, Anda dapat menjelajahi versi uji coba gratis Aspose.CAD untuk Java[Di Sini](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

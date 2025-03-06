@@ -3,10 +3,16 @@ title: Pen Support in Export
 linktitle: Pen Support in Export
 second_title: Aspose.CAD Java API
 description: Master pen customization in CAD export with Aspose.CAD for Java. Follow our step-by-step guide for seamless integration.
-type: docs
 weight: 13
 url: /java/advanced-cad-features/pen-support-in-export/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Pen Support in Export
+
 ## Introduction
 
 In the ever-evolving landscape of CAD (Computer-Aided Design) conversions, Aspose.CAD for Java emerges as a powerful tool, offering extensive capabilities for manipulating CAD files. Among its versatile features, the support for pen customization during export stands out, allowing users to tailor the appearance of exported images. This tutorial will walk you through the process of leveraging pen support in the export functionality, focusing on practical implementation using Java.
@@ -112,3 +118,10 @@ A4: Adjust the page width and height in the rasterization options to control the
 ### Q5: Where can I find additional support or community discussions?
 
 A5: Explore the Aspose.CAD community forum at [here](https://forum.aspose.com/c/cad/19) for support and discussions.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

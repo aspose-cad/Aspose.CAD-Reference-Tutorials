@@ -3,10 +3,16 @@ title: Applicare la licenza per percorso in Aspose.CAD per .NET
 linktitle: Applica la licenza per percorso
 second_title: Aspose.CAD .NET - Formato file CAD e BIM
 description: Sblocca tutto il potenziale di Aspose.CAD per .NET! Segui la nostra guida passo passo per applicare una licenza senza problemi. Migliora subito il tuo gioco di manipolazione di file CAD!
-type: docs
 weight: 10
 url: /it/net/licensing-and-configuration/apply-license-by-path/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Applicare la licenza per percorso in Aspose.CAD per .NET
+
 ## introduzione
 
 Sei pronto a migliorare il tuo gioco di sviluppo .NET sfruttando le funzionalità di Aspose.CAD? In questo tutorial completo, ti guideremo attraverso il processo di applicazione di una licenza per percorso utilizzando Aspose.CAD per .NET. Allaccia le cinture mentre sveliamo i passaggi per integrare perfettamente questa potente libreria nei tuoi progetti, garantendo un flusso di lavoro fluido ed efficiente.
@@ -88,3 +94,9 @@ R3: Sì, puoi ottenere una prova gratuita[Qui](https://releases.aspose.com/).
 ### Q5: Hai bisogno di assistenza o hai domande?
 
  A5: Unisciti alla comunità Aspose.CAD su[Forum Aspose.CAD](https://forum.aspose.com/c/cad/19).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

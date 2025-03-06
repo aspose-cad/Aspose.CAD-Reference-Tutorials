@@ -3,10 +3,16 @@ title: Xuất bố cục cụ thể sang PDF - Hướng dẫn Aspose.CAD
 linktitle: Xuất bố cục cụ thể sang PDF
 second_title: Aspose.CAD .NET - Định dạng tệp CAD và BIM
 description: Tìm hiểu cách xuất bố cục cụ thể sang PDF bằng Aspose.CAD cho .NET. Hướng dẫn từng bước để tích hợp liền mạch.
-type: docs
 weight: 13
 url: /vi/net/advanced-export-techniques/exporting-specific-layouts-to-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Xuất bố cục cụ thể sang PDF - Hướng dẫn Aspose.CAD
+
 ## Giới thiệu
 
 Chào mừng bạn đến với hướng dẫn từng bước của chúng tôi về cách xuất bố cục cụ thể sang PDF bằng Aspose.CAD cho .NET. Aspose.CAD là một thư viện mạnh mẽ cho phép các nhà phát triển làm việc liền mạch với các định dạng tệp CAD. Trong hướng dẫn này, chúng tôi sẽ tập trung vào việc xuất các bố cục cụ thể từ tệp DWG sang PDF bằng Aspose.CAD trong môi trường .NET.
@@ -110,3 +116,9 @@ Câu trả lời 2: Có, Aspose.CAD hỗ trợ nhiều định dạng CAD khác 
 ### Câu 5: Có bản dùng thử miễn phí không?
 
  Câu trả lời 5: Có, bạn có thể truy cập bản dùng thử miễn phí[đây](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

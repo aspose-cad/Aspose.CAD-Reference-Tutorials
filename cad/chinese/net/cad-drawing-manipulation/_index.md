@@ -3,10 +3,16 @@ title: CAD绘图操作
 linktitle: CAD绘图操作
 second_title: Aspose.CAD .NET - CAD 和 BIM 文件格式
 description: 使用 Aspose.CAD for .NET 教程轻松增强您的 CAD 项目。使用我们的分步指南无缝调整 CAD 工程图大小、转换和优化。
-type: docs
 weight: 21
 url: /zh/net/cad-drawing-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# CAD绘图操作
+
 
 ## 介绍
 
@@ -44,3 +50,9 @@ url: /zh/net/cad-drawing-manipulation/
 探索 Aspose.CAD for .NET 的强大功能。无缝跟踪 CAD 渲染。请遵循我们的分步指南以增强控制和效率。
 ### [在 Aspose.CAD for .NET 中获取 CAD 布局的大小](./get-size-of-cad-layout/)
 了解如何使用 Aspose.CAD 在 .NET 中检索 CAD 布局尺寸。请按照我们的分步指南进行高效的 CAD 文件操作。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

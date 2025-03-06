@@ -3,10 +3,16 @@ title: 使用 Aspose.CAD for .NET 中的自定义笔选项提升 CAD 导出功�
 linktitle: 导出中的笔支持
 second_title: Aspose.CAD .NET - CAD 和 BIM 文件格式
 description: 了解如何使用 Aspose.CAD for .NET 增强 CAD 图像导出功能。自定义笔选项，以 PDF、PNG、BMP 等格式呈现令人惊叹的视觉效果。
-type: docs
 weight: 12
 url: /zh/net/cad-features-and-support/pen-support-in-export/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.CAD for .NET 中的自定义笔选项提升 CAD 导出功能
+
 ## 介绍
 
 Aspose.CAD for .NET 提供了一套强大的工具来处理计算机辅助设计 (CAD) 文件，使开发人员能够无缝地操作和导出 CAD 图像。一项值得注意的功能是导出过程中的笔支持，允许用户在将 CAD 图像导出为 PDF、PNG、BMP、GIF、JPEG2000、JPEG、PSD、TIFF 和 WMF 等各种格式时自定义笔的起始和结束设置。
@@ -119,3 +125,9 @@ A1：是的，笔选项可以应用于各种图像格式，例如 PNG、BMP、GI
 ### 问题 5：我在哪里可以寻求 Aspose.CAD for .NET 的社区支持？
 
  A5：与社区互动[Aspose.CAD论坛](https://forum.aspose.com/c/cad/19).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

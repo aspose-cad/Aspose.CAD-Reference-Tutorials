@@ -3,10 +3,16 @@ title: Java で Aspose.CAD を使用して外部参照からブロック属性�
 linktitle: 外部参照からのブロック属性値の抽出
 second_title: Aspose.CAD Java API
 description: Aspose.CAD を使用して Java で DWG 外部参照からブロック属性値を抽出するチュートリアルをご覧ください。 CAD 開発ワークフローを簡単に強化します。
-type: docs
 weight: 19
 url: /ja/java/advanced-cad-features/extract-block-attribute-value/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java で Aspose.CAD を使用して外部参照からブロック属性値を抽出する
+
 ## 導入
 
 Aspose.CAD を使用して Java の外部参照からブロック属性値を抽出するための包括的なガイドへようこそ。 CAD 図面を扱う開発者で、ワークフローの合理化を検討している場合は、ここが正しい場所です。このチュートリアルでは、Aspose.CAD for Java の強力な機能を活用して、プロセスを段階的に説明します。
@@ -89,3 +95,9 @@ A1: Aspose.CAD はさまざまなバージョンの DWG ファイルをサポー
 ### Q5: Aspose.CAD の一時ライセンスを取得するプロセスはどのようなものですか?
 
  A5: 一時ライセンスを取得するには、次のサイトにアクセスしてください。[このリンク](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

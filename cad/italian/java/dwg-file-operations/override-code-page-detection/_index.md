@@ -3,10 +3,16 @@ title: Sostituisci il rilevamento automatico della code page nei file DWG con Ja
 linktitle: Sostituisci il rilevamento automatico della tabella codici nei file DWG
 second_title: API Java Aspose.CAD
 description: Scopri come sovrascrivere il rilevamento della tabella codici nei file DWG con Aspose.CAD per Java. Gestisci in modo efficiente la codifica e recupera CIF/MIF non validi.
-type: docs
 weight: 13
 url: /it/java/dwg-file-operations/override-code-page-detection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Sostituisci il rilevamento automatico della code page nei file DWG con Java
+
 ## introduzione
 
 Benvenuti in questa guida completa su come sovrascrivere il rilevamento automatico della code page nei file DWG utilizzando Aspose.CAD per Java. Aspose.CAD è una potente libreria che consente agli sviluppatori Java di lavorare con formati di file CAD, fornendo un'ampia gamma di funzionalità per manipolare, convertire ed esportare file CAD.
@@ -101,3 +107,9 @@ R3: La versione di prova gratuita presenta alcune limitazioni e si consiglia di 
 ### Q5: È disponibile una licenza temporanea a scopo di test?
 
  R5: Sì, puoi ottenere una licenza temporanea[Qui](https://purchase.aspose.com/temporary-license/) per i test.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

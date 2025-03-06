@@ -3,10 +3,16 @@ title: Tata Letak dan Penanganan Objek
 linktitle: Tata Letak dan Penanganan Objek
 second_title: Aspose.CAD .NET - Format File CAD dan BIM
 description: Ekspor tata letak DXF master, penyimpanan file, kliping blok, dan Entitas Proksi ACAD dengan mudah untuk menyempurnakan desain CAD menggunakan Aspose.CAD untuk .NET.
-type: docs
 weight: 33
 url: /id/net/layout-and-object-handling/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tata Letak dan Penanganan Objek
+
 
 ## Perkenalan
 
@@ -38,3 +44,9 @@ Jelajahi kekuatan Aspose.CAD untuk .NET. Pelajari cara menyimpan file DXF dengan
 Pelajari cara menerapkan kliping blok di CAD menggunakan Aspose.CAD untuk .NET. Tingkatkan kemampuan desain Anda dengan tutorial langkah demi langkah ini.
 ### [Bekerja dengan Entitas Proxy ACAD - Panduan Aspose.CAD](./working-with-acad-proxy-entities/)
 Jelajahi Aspose.CAD untuk .NET dan sederhanakan alur kerja CAD Anda. Konversi, edit, dan kelola Entitas Proxy ACAD dengan mudah.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

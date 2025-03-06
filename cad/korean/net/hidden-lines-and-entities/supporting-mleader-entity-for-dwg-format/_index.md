@@ -3,10 +3,16 @@ title: DWG 형식에 대한 MLeader 엔터티 지원 - Aspose.CAD 가이드
 linktitle: DWG 형식에 대한 MLeader 엔터티 지원
 second_title: Aspose.CAD .NET - CAD 및 BIM 파일 형식
 description: .NET용 Aspose.CAD를 사용하여 DWG 형식의 MLeader 엔터티의 강력한 기능을 활용하세요. CAD 프로젝트를 쉽게 향상시키세요.
-type: docs
 weight: 11
 url: /ko/net/hidden-lines-and-entities/supporting-mleader-entity-for-dwg-format/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# DWG 형식에 대한 MLeader 엔터티 지원 - Aspose.CAD 가이드
+
 ## 소개
 
 역동적인 CAD(Computer-Aided Design)의 세계에서는 최신 기능을 앞서가는 것이 중요합니다. 이러한 기능 중 하나는 DWG 형식의 MLeader 엔터티를 지원하는 것입니다. .NET용 Aspose.CAD는 이를 효율적으로 처리할 수 있는 강력한 도구 세트를 제공합니다.
@@ -118,3 +124,9 @@ A3: 물론이죠! Aspose.CAD는 .NET 개발자를 위해 맞춤화된 강력한 
 ### Q5: 구매하기 전에 Aspose.CAD를 사용해 볼 수 있나요?
 
  A5: 예, 다음을 탐색할 수 있습니다.[무료 시험판](https://releases.aspose.com/) 결정을 내리기 전에 Aspose.CAD의 기능을 경험해보세요.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

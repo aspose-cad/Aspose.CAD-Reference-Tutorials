@@ -3,10 +3,16 @@ title: A CAD rajz méretének beállítása az egységtípus használatával az 
 linktitle: A CAD rajz méretének beállítása az egységtípus használatával
 second_title: Aspose.CAD Java API
 description: Fedezze fel az Aspose.CAD for Java erejét a CAD rajzméretek könnyed beállításában. Kövesse lépésenkénti útmutatónkat a pontosság és az alkalmazkodóképesség érdekében.
-type: docs
 weight: 14
 url: /hu/java/cad-file-manipulation/adjusting-cad-drawing-size-using-unit-type/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# A CAD rajz méretének beállítása az egységtípus használatával az Aspose.CAD for Java segítségével
+
 ## Bevezetés
 
 számítógéppel segített tervezés (CAD) folyamatosan fejlődő birodalmában a precizitás és az alkalmazkodóképesség a legfontosabb. Az egyik általános követelmény a CAD-rajzok méretének beállítása az egyes egységtípusok alapján. Az Aspose.CAD for Java hatékony szövetségesként jelenik meg, amely zökkenőmentes képességeket biztosít a CAD-fájlok programozott kezeléséhez.
@@ -117,3 +123,9 @@ Az Aspose.CAD for Java segítségével a CAD rajzméretek beállítása gyerekj�
 ### 5. kérdés: Kaphatok ideiglenes licencet az Aspose.CAD számára?
 
  V5: Igen, szerezhet ideiglenes engedélyt[itt](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

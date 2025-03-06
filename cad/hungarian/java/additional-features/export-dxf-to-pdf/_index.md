@@ -3,10 +3,16 @@ title: DXF rajz exportálása PDF-be az Aspose.CAD for Java segítségével
 linktitle: DXF rajz exportálása PDF-be Java segítségével
 second_title: Aspose.CAD Java API
 description: Fedezze fel a DXF-rajzok zökkenőmentes konvertálását PDF-be Java nyelven az Aspose.CAD segítségével. Fokozza könnyedén CAD-munkafolyamatát.
-type: docs
 weight: 13
 url: /hu/java/additional-features/export-dxf-to-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# DXF rajz exportálása PDF-be az Aspose.CAD for Java segítségével
+
 ## Bevezetés
 
 A Java fejlesztés világában az Aspose.CAD egy hatékony eszköz, amely lehetővé teszi a CAD-rajzok zökkenőmentes kezelését és konvertálását. Ebben az oktatóanyagban a DXF-rajzok PDF-formátumba történő exportálásának folyamatát mutatjuk be az Aspose.CAD for Java használatával. Ez a lépésenkénti útmutató végigvezeti Önt a teljes eljáráson, biztosítva, hogy minden koncepciót alaposan megértsen.
@@ -102,3 +108,9 @@ Gratulálunk! Sikeresen megtanulta, hogyan exportálhat DXF-rajzokat PDF-be az A
 ### 5. kérdés: Hogyan szerezhetek ideiglenes engedélyt?
 
  A5: Szerezz be a[ideiglenes engedély](https://purchase.aspose.com/temporary-license/) tesztelési és értékelési célokra.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

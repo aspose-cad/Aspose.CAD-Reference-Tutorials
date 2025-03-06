@@ -3,10 +3,16 @@ title: CAD ファイルの操作
 linktitle: CAD ファイルの操作
 second_title: Aspose.CAD Java API
 description: Aspose.CAD for Java で CAD ファイルのパワーを解放しましょう!チュートリアルを使用して、DWFX を PDF に変換し、DWG フラグにアクセスし、レイアウトをリストし、サイズを自動調整します。
-type: docs
 weight: 23
 url: /ja/java/cad-file-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# CAD ファイルの操作
+
 
 ## 導入
 
@@ -44,3 +50,9 @@ Aspose.CAD for Java を探索し、DWG ファイル内のレイアウトを簡�
 Aspose.CAD を使用して Java で CAD 図面サイズを自動調整するシームレスなプロセスを確認してください。 CAD ファイルを効率的に操作するには、ステップバイステップのガイドに従ってください。
 ### [Aspose.CAD for Java でユニット タイプを使用して CAD 図面のサイズを調整する](./adjusting-cad-drawing-size-using-unit-type/)
 CAD 図面のサイズを簡単に調整できる Aspose.CAD for Java の機能を試してください。精度と適応性については、ステップバイステップのガイドに従ってください。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

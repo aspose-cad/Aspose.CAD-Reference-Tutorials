@@ -3,10 +3,16 @@ title: 在 CAD 繪圖中新增浮水印 - Aspose.CAD 指南
 linktitle: 在 CAD 工程圖添加浮水印
 second_title: Aspose.CAD .NET - CAD 和 BIM 檔案格式
 description: 使用 Aspose.CAD for .NET 使用專業浮水印增強您的 CAD 繪圖。按照我們的逐步指南進行個性化和引人入勝的設計。
-type: docs
 weight: 11
 url: /zh-hant/net/plt-and-watermarking/adding-watermarks-to-cad-drawings/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 CAD 繪圖中新增浮水印 - Aspose.CAD 指南
+
 ## 介紹
 
 您是否希望透過添加專業浮水印來增強您的 CAD 繪圖？ Aspose.CAD for .NET 提供了一個強大的解決方案，可以將浮水印無縫整合到您的 CAD 檔案中。在本逐步指南中，我們將引導您完成使用 Aspose.CAD 新增浮水印的過程，確保您的繪圖不僅傳達關鍵訊息，而且帶有您獨特的標記。
@@ -104,3 +110,9 @@ A4：是的，您可以透過免費試用來探索 Aspose.CAD 的功能。得到
 ### Q5：在哪裡可以找到對 Aspose.CAD 的支援？
 
  A5：如有任何疑問或幫助，請訪問[Aspose.CAD論壇](https://forum.aspose.com/c/cad/19).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

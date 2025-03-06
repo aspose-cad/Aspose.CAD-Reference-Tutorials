@@ -3,10 +3,16 @@ title: Aspose.CAD for Java ile DWG'deki Fontu Değiştirin
 linktitle: DWG'de Yazı Tipi Değiştirme
 second_title: Aspose.CAD Java API'si
 description: CAD tasarımlarınızı zahmetsizce geliştirin. Aspose.CAD for Java'yı kullanarak DWG dosyalarındaki yazı tiplerini değiştirmeyi öğrenin. Görsel mükemmellik için adım adım kılavuz.
-type: docs
 weight: 11
 url: /tr/java/cad-text-and-annotation/substitute-font-in-dwg/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.CAD for Java ile DWG'deki Fontu Değiştirin
+
 ## giriiş
 
 Bilgisayar Destekli Tasarımın (CAD) dinamik alanında, çizimlerin görsel çekiciliğini artırmak genellikle çok önemlidir. Bunu başarmanın etkili bir yolu, DWG dosyalarındaki yazı tiplerini değiştirmektir. Aspose.CAD for Java, bu alanda güçlü bir araç olarak ortaya çıkıyor ve yazı tipi değişimine kusursuz bir çözüm sağlıyor. Bu eğitimde, Aspose.CAD for Java kullanarak bir DWG dosyasındaki yazı tiplerinin nasıl değiştirileceğini göstererek süreci adım adım anlatacağız.
@@ -91,3 +97,9 @@ Cevap4: Evet, Aspose.CAD for Java toplu işlemeyi destekler. Komut dosyası olu�
 ### S5: Aspose.CAD for Java en yeni CAD dosya formatlarıyla uyumlu mu?
 
 Cevap5: Evet, Aspose.CAD for Java, en son CAD dosya formatlarını destekleyecek şekilde düzenli olarak güncellenerek endüstri standartlarıyla uyumluluk sağlanır.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

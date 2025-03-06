@@ -3,10 +3,16 @@ title: Licences mesurées dans Aspose.CAD
 linktitle: Licences mesurées dans Aspose.CAD
 second_title: API Java Aspose.CAD
 description: Apprenez à maîtriser les licences limitées dans Aspose.CAD pour Java avec ce guide complet. Optimisez votre traitement CAO pour plus d’efficacité et de rentabilité.
-type: docs
 weight: 10
 url: /fr/java/licensing-and-configuration/metered-licensing-in-aspose-cad/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Licences mesurées dans Aspose.CAD
+
 ## Introduction
 
 Libérez tout le potentiel d’Aspose.CAD pour Java avec des licences limitées ! Ce guide étape par étape vous guidera tout au long du processus de configuration des licences limitées, garantissant une intégration transparente et une utilisation optimale de cette puissante bibliothèque Java pour la conception assistée par ordinateur (CAO). Des prérequis à l’importation de packages et à l’exécution d’exemples, ce didacticiel couvre tout.
@@ -94,3 +100,9 @@ Toutes nos félicitations! Vous maîtrisez avec succès les licences limitées a
 ### Q5 : Vous avez besoin du soutien de la communauté ou vous avez des questions spécifiques ?
 
  A5 : Rendez-vous sur le forum Aspose.CAD[ici](https://forum.aspose.com/c/cad/19).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

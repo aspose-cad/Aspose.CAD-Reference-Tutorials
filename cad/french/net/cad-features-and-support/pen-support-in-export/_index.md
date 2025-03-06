@@ -3,10 +3,16 @@ title: Améliorez l'exportation CAO avec les options de stylet personnalisées d
 linktitle: Prise en charge du stylet lors de l'exportation
 second_title: Aspose.CAD .NET - Format de fichier CAO et BIM
 description: Découvrez comment améliorer vos exportations d'images CAO à l'aide d'Aspose.CAD pour .NET. Personnalisez les options de stylet pour obtenir des visuels époustouflants au format PDF, PNG, BMP et bien plus encore.
-type: docs
 weight: 12
 url: /fr/net/cad-features-and-support/pen-support-in-export/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Améliorez l'exportation CAO avec les options de stylet personnalisées dans Aspose.CAD pour .NET
+
 ## Introduction
 
 Aspose.CAD pour .NET fournit un ensemble d'outils puissants pour travailler avec des fichiers de conception assistée par ordinateur (CAO), permettant aux développeurs de manipuler et d'exporter des images CAO de manière transparente. Une fonctionnalité notable est la prise en charge du stylet lors de l'exportation, permettant aux utilisateurs de personnaliser les paramètres de début et de fin des stylets lors de l'exportation d'images CAO vers divers formats tels que PDF, PNG, BMP, GIF, JPEG2000, JPEG, PSD, TIFF et WMF.
@@ -119,3 +125,9 @@ R1 : Oui, les options du stylet peuvent être appliquées à différents formats
 ### Q5 : Où puis-je demander l'assistance de la communauté pour Aspose.CAD for .NET ?
 
  A5 : S'engager avec la communauté sur le[Forum Aspose.CAD](https://forum.aspose.com/c/cad/19).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: تصدير تخطيطات محددة إلى PDF - دليل Aspose.CAD
 linktitle: تصدير تخطيطات محددة إلى PDF
 second_title: Aspose.CAD .NET - تنسيق ملف CAD وBIM
 description: تعرف على كيفية تصدير تخطيطات محددة إلى PDF باستخدام Aspose.CAD لـ .NET. دليل خطوة بخطوة للتكامل السلس.
-type: docs
 weight: 13
 url: /ar/net/advanced-export-techniques/exporting-specific-layouts-to-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تصدير تخطيطات محددة إلى PDF - دليل Aspose.CAD
+
 ## مقدمة
 
 مرحبًا بك في دليلنا خطوة بخطوة حول تصدير تخطيطات محددة إلى PDF باستخدام Aspose.CAD لـ .NET. Aspose.CAD هي مكتبة قوية تتيح للمطورين العمل مع تنسيقات ملفات CAD بسلاسة. في هذا البرنامج التعليمي، سنركز على تصدير تخطيطات محددة من ملف DWG إلى PDF باستخدام Aspose.CAD في بيئة .NET.
@@ -110,3 +116,9 @@ Console.WriteLine("\nThe DWG file with a specific layout exported successfully t
 ### س5: هل هناك نسخة تجريبية مجانية متاحة؟
 
  ج5: نعم، يمكنك الوصول إلى النسخة التجريبية المجانية[هنا](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

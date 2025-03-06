@@ -3,10 +3,16 @@ title: Đặt tỷ lệ bố cục tự động trong Aspose.CAD cho .NET
 linktitle: Cài đặt tự động chia tỷ lệ bố cục
 second_title: Aspose.CAD .NET - Định dạng tệp CAD và BIM
 description: Nâng cao kết xuất CAD với Aspose.CAD cho .NET. Tìm hiểu cách thiết lập Tự động chia tỷ lệ bố cục để hiển thị tệp chính xác và có khả năng thích ứng.
-type: docs
 weight: 14
 url: /vi/net/cad-features-and-support/setting-auto-layout-scaling/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Đặt tỷ lệ bố cục tự động trong Aspose.CAD cho .NET
+
 Trong lĩnh vực phát triển .NET năng động, việc tối ưu hóa hiển thị các tệp Thiết kế hỗ trợ máy tính (CAD) là một khía cạnh quan trọng trong việc tạo ra các ứng dụng hiệu quả và hấp dẫn về mặt hình ảnh. Aspose.CAD cho .NET trao quyền cho các nhà phát triển nâng cao khả năng xử lý CAD của họ và trong hướng dẫn này, chúng tôi sẽ tập trung vào việc thiết lập Auto Layout Scaling bằng Aspose.CAD cho .NET.
 
 ## Điều kiện tiên quyết
@@ -107,3 +113,9 @@ Trả lời 4: Hoàn toàn có thể, Aspose.CAD cung cấp nhiều tùy chọn 
 ### Câu hỏi 5: Tôi có thể tìm thêm tài nguyên và hỗ trợ cho Aspose.CAD ở đâu?
 
  A5: Khám phá[Diễn đàn Aspose.CAD](https://forum.aspose.com/c/cad/19) để được cộng đồng hỗ trợ và tham khảo[tài liệu](https://reference.aspose.com/cad/net/) để biết thông tin chi tiết.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

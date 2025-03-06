@@ -3,10 +3,16 @@ title: Edición de hipervínculos en archivos CAD - Tutorial de Aspose.CAD
 linktitle: Edición de hipervínculos en archivos CAD
 second_title: Aspose.CAD .NET - Formato de archivo CAD y BIM
 description: Explore Aspose.CAD para .NET y aprenda a editar hipervínculos en archivos CAD sin esfuerzo. Mejore sus habilidades de administración de archivos CAD con este completo tutorial.
-type: docs
 weight: 14
 url: /es/net/advanced-cad-techniques/editing-hyperlinks-in-cad-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Edición de hipervínculos en archivos CAD - Tutorial de Aspose.CAD
+
 ## Introducción
 
 Bienvenido a nuestro tutorial paso a paso sobre cómo editar hipervínculos en archivos CAD usando Aspose.CAD para .NET. Aspose.CAD es una potente biblioteca que permite a los desarrolladores trabajar con archivos CAD sin problemas. En este tutorial, nos centraremos en la tarea específica de editar hipervínculos dentro de archivos CAD, demostrando cómo modificar y administrar enlaces de manera eficiente.
@@ -103,3 +109,9 @@ R1: Sí, Aspose.CAD admite varios formatos CAD, incluidos DWG, DXF, DGN y más.
 ### P5: ¿Necesita ayuda o tiene preguntas?
 
  A5: Visite nuestro foro de soporte[aquí](https://forum.aspose.com/c/cad/19).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

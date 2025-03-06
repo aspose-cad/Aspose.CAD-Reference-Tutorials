@@ -3,10 +3,16 @@ title: تحرير الارتباطات التشعبية في ملفات CAD - ا
 linktitle: تحرير الارتباطات التشعبية في ملفات CAD
 second_title: Aspose.CAD .NET - تنسيق ملف CAD وBIM
 description: استكشف Aspose.CAD for .NET وتعلم كيفية تحرير الارتباطات التشعبية في ملفات CAD دون عناء. عزز مهاراتك في إدارة ملفات CAD من خلال هذا البرنامج التعليمي الشامل.
-type: docs
 weight: 14
 url: /ar/net/advanced-cad-techniques/editing-hyperlinks-in-cad-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تحرير الارتباطات التشعبية في ملفات CAD - البرنامج التعليمي Aspose.CAD
+
 ## مقدمة
 
 مرحبًا بك في برنامجنا التعليمي خطوة بخطوة حول تحرير الارتباطات التشعبية في ملفات CAD باستخدام Aspose.CAD لـ .NET. Aspose.CAD هي مكتبة قوية تمكن المطورين من العمل مع ملفات CAD بسلاسة. في هذا البرنامج التعليمي، سنركز على المهمة المحددة المتمثلة في تحرير الارتباطات التشعبية داخل ملفات CAD، مع توضيح كيفية تعديل الروابط وإدارتها بكفاءة.
@@ -103,3 +109,9 @@ if (entity.Hyperlink == "https://Products.aspose.com")
 ### س5: هل تحتاج إلى مساعدة أو لديك أسئلة؟
 
  ج5: تفضل بزيارة منتدى الدعم الخاص بنا[هنا](https://forum.aspose.com/c/cad/19).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

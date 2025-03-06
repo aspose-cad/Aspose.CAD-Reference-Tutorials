@@ -3,10 +3,16 @@ title: 使用 Java 将特定 DWG 转换为图像
 linktitle: 使用 Java 将特定 DWG 转换为图像
 second_title: Aspose.CAD Java API
 description: 探索使用 Aspose.CAD for Java 将 DWG 无缝转换为图像。请按照我们的分步指南进行高效的文件格式转换。
-type: docs
 weight: 14
 url: /zh/java/dwg-file-operations/convert-dwg-to-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Java 将特定 DWG 转换为图像
+
 ## 介绍
 
 在不断发展的数字设计领域，将 DWG 图纸转换为图像是一种常见的需求。 Aspose.CAD for Java 成为无缝完成此任务的强大工具。在本教程中，我们将指导您完成使用 Aspose.CAD for Java 将特定 DWG 文件转换为图像的过程。
@@ -115,3 +121,9 @@ A3：当然。 Aspose.CAD 允许批处理，使您能够同时转换多个 DWG �
 ### Q5: 我可以在购买前试用Aspose.CAD吗？
 
  A5：是的，可以通过以下地址免费试用该工具：[这个链接](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

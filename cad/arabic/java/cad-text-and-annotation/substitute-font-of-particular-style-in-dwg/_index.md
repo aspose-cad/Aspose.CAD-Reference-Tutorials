@@ -3,10 +3,16 @@ title: استبدل الخط بنمط معين في DWG باستخدام Aspose.
 linktitle: استبدال الخط بنمط معين في DWG
 second_title: Aspose.CAD جافا API
 description: تعرف على كيفية استبدال الخطوط في ملفات DWG باستخدام Aspose.CAD لـ Java. دليل خطوة بخطوة لتخصيص الأنماط بدقة.
-type: docs
 weight: 12
 url: /ar/java/cad-text-and-annotation/substitute-font-of-particular-style-in-dwg/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# استبدل الخط بنمط معين في DWG باستخدام Aspose.CAD لـ Java
+
 ## مقدمة
 
 في عالم CAD (التصميم بمساعدة الكمبيوتر)، تعد الدقة والتفاصيل أمرًا بالغ الأهمية. يظهر Aspose.CAD for Java كأداة قوية للتعامل مع رسومات CAD، مما يوفر وظائف واسعة النطاق للمطورين. إحدى هذه الميزات الأساسية هي القدرة على استبدال الخطوط داخل ملف DWG، مما يضمن الاتساق والتخصيص.
@@ -92,3 +98,9 @@ A3: يوفر Aspose.CAD المرونة؛ يمكنك التراجع عن التغ
 ### س5: كيف يمكنني الحصول على دعم Aspose.CAD لـ Java؟
 
 ج5: قم بزيارة[منتدى Aspose.CAD](https://forum.aspose.com/c/cad/19) لدعم المجتمع والمناقشات.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

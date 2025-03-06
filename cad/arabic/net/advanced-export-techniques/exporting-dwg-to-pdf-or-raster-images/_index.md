@@ -3,10 +3,16 @@ title: تصدير DWG إلى PDF أو صور نقطية - دليل Aspose.CAD
 linktitle: تصدير DWG إلى PDF أو الصور النقطية
 second_title: Aspose.CAD .NET - تنسيق ملف CAD وBIM
 description: استكشف دليلاً شاملاً حول تصدير DWG إلى PDF أو الصور النقطية باستخدام Aspose.CAD لـ .NET. تعرف على الخطوات والمتطلبات الأساسية وتدرب على هذه المكتبة القوية.
-type: docs
 weight: 11
 url: /ar/net/advanced-export-techniques/exporting-dwg-to-pdf-or-raster-images/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تصدير DWG إلى PDF أو صور نقطية - دليل Aspose.CAD
+
 ## مقدمة
 
 هل تتطلع إلى تحويل ملفات DWG بسلاسة إلى PDF أو صور نقطية في تطبيق .NET الخاص بك؟ لا مزيد من البحث! سيرشدك هذا الدليل خطوة بخطوة خلال العملية باستخدام مكتبة Aspose.CAD لـ .NET القوية. سواء كنت مطورًا متمرسًا أو بدأت للتو، فإن هذا البرنامج التعليمي يلبي جميع مستويات المهارة.
@@ -119,3 +125,9 @@ cadImage.Save(outPath.Replace("pdf", "png"), pngOptions);
 ### س5: أين يمكنني العثور على الوثائق التفصيلية؟
 
  ج5: الوثائق متاحة على[Aspose.CAD](https://reference.aspose.com/cad/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

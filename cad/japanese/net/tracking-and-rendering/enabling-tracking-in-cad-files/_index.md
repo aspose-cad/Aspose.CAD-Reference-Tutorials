@@ -3,10 +3,16 @@ title: CAD ファイルでのトラッキングの有効化 - Aspose.CAD チュ�
 linktitle: CAD ファイルでのトラッキングの有効化
 second_title: Aspose.CAD .NET - CAD および BIM ファイル形式
 description: Aspose.CAD for .NET を使用したマスター CAD ファイル追跡。正確なレンダリングとエラー追跡については、ステップバイステップのガイドに従ってください。ダウンロード中！
-type: docs
 weight: 10
 url: /ja/net/tracking-and-rendering/enabling-tracking-in-cad-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# CAD ファイルでのトラッキングの有効化 - Aspose.CAD チュートリアル
+
 ## 導入
 
 CAD (コンピュータ支援設計) の領域では、精度と追跡が最も重要です。 Aspose.CAD for .NET は、CAD ファイルでの追跡を可能にする堅牢なソリューションを提供します。このチュートリアルではプロセスをガイドし、この機能の可能性を最大限に活用できるようにします。
@@ -103,3 +109,9 @@ A3: フォントが見つからない、エンティティがサポートされ�
 ### Q5: 追跡エラー メッセージをカスタマイズできますか?
 
 A5: もちろんです。コードを変更して、要件に応じてエラー メッセージを調整できます。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

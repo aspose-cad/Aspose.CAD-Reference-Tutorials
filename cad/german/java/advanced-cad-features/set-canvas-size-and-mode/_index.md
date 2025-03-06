@@ -3,10 +3,16 @@ title: Legen Sie die Leinwandgröße und den Modus fest
 linktitle: Legen Sie die Leinwandgröße und den Modus fest
 second_title: Aspose.CAD Java API
 description: Entdecken Sie die Leistungsfähigkeit von Aspose.CAD für Java mit unserer Schritt-für-Schritt-Anleitung zum Festlegen von Leinwandgröße und -modus. Konvertieren Sie CAD-Dateien mühelos in die Formate PDF und TIFF.
-type: docs
 weight: 16
 url: /de/java/advanced-cad-features/set-canvas-size-and-mode/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Legen Sie die Leinwandgröße und den Modus fest
+
 ## Einführung
 
 Möchten Sie die Leistungsfähigkeit von Aspose.CAD für Java nutzen, um Ihren CAD-Konvertierungsprozess zu verbessern? Diese umfassende Anleitung führt Sie durch die Schritte zum Festlegen der Leinwandgröße und des Leinwandmodus mit Aspose.CAD für Java. Egal, ob Sie ein erfahrener Entwickler sind oder gerade erst anfangen, dieses Tutorial liefert Ihnen die Einblicke, die Sie brauchen.
@@ -126,3 +132,9 @@ A1: Ja, Aspose.CAD ist für die nahtlose Integration in verschiedene Java-Framew
 ### F5: Wie kaufe ich Aspose.CAD für Java?
 
  A5: Kaufen Sie das Produkt[Hier](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

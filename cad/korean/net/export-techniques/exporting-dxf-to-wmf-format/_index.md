@@ -3,10 +3,16 @@ title: DXF를 WMF 형식으로 내보내기 - Aspose.CAD 가이드
 linktitle: DXF를 WMF 형식으로 내보내기
 second_title: Aspose.CAD .NET - CAD 및 BIM 파일 형식
 description: 이 단계별 가이드에서 .NET용 Aspose.CAD의 원활한 통합을 탐색하여 DXF 파일을 PDF로 쉽게 내보낼 수 있습니다.
-type: docs
 weight: 13
 url: /ko/net/export-techniques/exporting-dxf-to-wmf-format/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# DXF를 WMF 형식으로 내보내기 - Aspose.CAD 가이드
+
 ## 소개
 
 .NET용 Aspose.CAD를 사용하여 DXF 파일을 PDF 형식으로 내보내는 방법에 대한 포괄적인 튜토리얼에 오신 것을 환영합니다! 이 기능을 .NET 애플리케이션에 원활하게 통합하려는 개발자라면 잘 찾아오셨습니다. 이 가이드에서는 각 개념을 철저하게 이해할 수 있도록 프로세스를 단계별로 안내합니다.
@@ -110,3 +116,9 @@ A1: 예, .NET용 Aspose.CAD는 광범위한 DXF 파일을 지원하여 대부분
 ### Q5: 임시 라이센스를 구매할 수 있나요?
 
  A5: 예, 다음에서 임시 라이센스를 얻을 수 있습니다.[여기](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

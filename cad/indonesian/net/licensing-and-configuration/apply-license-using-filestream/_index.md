@@ -3,10 +3,16 @@ title: Terapkan Lisensi menggunakan FileStream di Aspose.CAD untuk .NET
 linktitle: Terapkan Lisensi menggunakan FileStream
 second_title: Aspose.CAD .NET - Format File CAD dan BIM
 description: Menguasai Aspose.CAD untuk .NET - Terapkan lisensi dengan lancar menggunakan FileStream. Jelajahi panduan langkah demi langkah dan buka potensinya. Unduh sekarang!
-type: docs
 weight: 11
 url: /id/net/licensing-and-configuration/apply-license-using-filestream/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Terapkan Lisensi menggunakan FileStream di Aspose.CAD untuk .NET
+
 ## Perkenalan
 
 Selamat datang di dunia Aspose.CAD untuk .NET – alat canggih yang memberdayakan pengembang untuk memanipulasi file CAD dengan lancar. Dalam tutorial ini, kami akan memandu Anda melalui proses penerapan lisensi menggunakan FileStream, memastikan Anda memanfaatkan potensi penuh Aspose.CAD dalam proyek .NET Anda.
@@ -80,3 +86,9 @@ Dalam tutorial ini, kita telah mempelajari proses penerapan lisensi menggunakan 
 ### Q5: Butuh bantuan atau punya pertanyaan? Di mana saya bisa mendapatkan dukungan?
 
  A5: Kunjungi forum Aspose.CAD[Di Sini](https://forum.aspose.com/c/cad/19) untuk pertanyaan terkait dukungan apa pun.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

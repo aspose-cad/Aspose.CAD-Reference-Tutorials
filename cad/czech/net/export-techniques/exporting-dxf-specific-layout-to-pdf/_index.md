@@ -3,10 +3,16 @@ title: Export DXF specifického rozvržení do PDF - Aspose.CAD Guide
 linktitle: Export DXF specifického rozvržení do PDF
 second_title: Aspose.CAD .NET – formát souborů CAD a BIM
 description: Naučte se exportovat specifická rozvržení DXF do PDF pomocí Aspose.CAD pro .NET. Postupujte podle našeho podrobného průvodce pro efektivní a vysoce kvalitní převody.
-type: docs
 weight: 11
 url: /cs/net/export-techniques/exporting-dxf-specific-layout-to-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Export DXF specifického rozvržení do PDF - Aspose.CAD Guide
+
 ## Úvod
 
 Vítejte ve výukovém programu Aspose.CAD o exportu rozvržení specifických pro DXF do PDF pomocí výkonných funkcí Aspose.CAD pro .NET. Tento podrobný průvodce vás provede procesem převodu souborů DXF do formátu PDF se zaměřením na konkrétní rozvržení s názvem „Model“. Aspose.CAD poskytuje účinné nástroje a funkce pro zefektivnění procesu převodu a zajišťuje vysoce kvalitní výstup pro vaše CAD výkresy.
@@ -113,3 +119,9 @@ A2: Ano, můžete upravit nastavení výstupu PDF úpravou vlastností`CadRaster
 ### Q5: Kde mohu zakoupit licenci pro Aspose.CAD?
 
  A5: Můžete si zakoupit licenci pro Aspose.CAD[tady](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

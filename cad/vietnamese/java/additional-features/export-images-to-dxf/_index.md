@@ -3,10 +3,16 @@ title: Xuất hình ảnh sang định dạng DXF bằng Aspose.CAD cho Java
 linktitle: Xuất hình ảnh sang định dạng DXF bằng Java
 second_title: API Java Aspose.CAD
 description: Khám phá quy trình xuất hình ảnh sang định dạng DXF liền mạch bằng Aspose.CAD cho Java. Hướng dẫn từng bước, Câu hỏi thường gặp và hơn thế nữa.
-type: docs
 weight: 15
 url: /vi/java/additional-features/export-images-to-dxf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Xuất hình ảnh sang định dạng DXF bằng Aspose.CAD cho Java
+
 ## Giới thiệu
 
 Chào mừng bạn đến với hướng dẫn toàn diện về cách xuất hình ảnh sang định dạng DXF bằng Aspose.CAD cho Java. Aspose.CAD là một thư viện Java mạnh mẽ cho phép các nhà phát triển làm việc với các bản vẽ CAD theo chương trình. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn quy trình xuất hình ảnh sang định dạng DXF, trình bày các bước và kỹ thuật khác nhau để đạt được nhiệm vụ này.
@@ -107,3 +113,9 @@ Chúc mừng! Bạn đã học thành công cách xuất hình ảnh sang địn
 ### Câu 5: Có bản dùng thử miễn phí không?
 
  Câu trả lời 5: Có, bạn có thể dùng thử miễn phí[đây](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

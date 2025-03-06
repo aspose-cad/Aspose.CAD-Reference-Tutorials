@@ -3,10 +3,16 @@ title: Conversión de formato de archivo
 linktitle: Conversión de formato de archivo
 second_title: Aspose.CAD .NET - Formato de archivo CAD y BIM
 description: Mejore sin esfuerzo sus capacidades de manejo de archivos CAD con Aspose.CAD para .NET. Explore tutoriales sobre cómo exportar DWF a PDF y exportar imágenes 3D a formato BMP.
-type: docs
 weight: 36
 url: /es/net/file-format-conversion/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Conversión de formato de archivo
+
 
 ## Introducción
 
@@ -46,3 +52,9 @@ Ya sea que se esté aventurando a exportar DWF a PDF o sumergirse en el mundo de
 Explore una guía perfecta sobre cómo exportar DWF a PDF usando Aspose.CAD para .NET. Mejore sus capacidades de manejo de archivos CAD sin esfuerzo.
 ### [Exportación a formato BMP - Tutorial de Aspose.CAD](./exporting-to-bmp-format/)
 Explore el perfecto mundo de la exportación de imágenes 3D a BMP utilizando Aspose.CAD para .NET. Siga nuestro tutorial para disfrutar de una experiencia sin complicaciones.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

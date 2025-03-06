@@ -3,10 +3,16 @@ title: تحويل رسم CAD إلى صورة نقطية في Aspose.CAD لـ .NE
 linktitle: تحويل رسم CAD إلى صورة نقطية
 second_title: Aspose.CAD .NET - تنسيق ملف CAD وBIM
 description: استكشف العملية السلسة لتحويل رسومات CAD إلى صور نقطية في .NET باستخدام Aspose.CAD. أطلق العنان لسير العمل الفعال وحسّن مشاريع التصميم بمساعدة الكمبيوتر الخاصة بك دون عناء.
-type: docs
 weight: 11
 url: /ar/net/cad-drawing-manipulation/convert-cad-drawing-to-raster-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تحويل رسم CAD إلى صورة نقطية في Aspose.CAD لـ .NET
+
 ## مقدمة
 
 في مشهد التصميم بمساعدة الكمبيوتر (CAD) المتطور باستمرار، تعد الحاجة إلى تحويل رسومات CAD بسلاسة إلى صور نقطية أمرًا بالغ الأهمية. يستكشف هذا الدليل خطوة بخطوة كيفية تحقيق ذلك باستخدام مكتبة Aspose.CAD لـ .NET القوية. يعمل Aspose.CAD على تبسيط العملية، حيث يوفر للمطورين مجموعة قوية من الأدوات لتحسين سير العمل المتعلق بالتصميم بمساعدة الكمبيوتر (CAD).
@@ -118,3 +124,9 @@ Console.WriteLine("\nCAD drawing converted successfully to raster image format.\
 ### س5: هل التراخيص المؤقتة متاحة لـ Aspose.CAD؟
  
  ج5: نعم، يمكن للمطورين الحصول على تراخيص مؤقتة لـ Aspose.CAD من[هذا الرابط](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

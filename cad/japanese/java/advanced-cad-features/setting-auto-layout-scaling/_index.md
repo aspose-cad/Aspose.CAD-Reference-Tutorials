@@ -3,10 +3,16 @@ title: Aspose.CAD for Java を使用した自動レイアウト スケーリン�
 linktitle: 自動レイアウト拡大縮小の設定
 second_title: Aspose.CAD Java API
 description: Aspose.CAD for Java を使用して CAD ワークフローを強化します。このステップバイステップのガイドでは、自動レイアウト スケーリングを紹介し、最適な表示と効率を確保します。ライブラリをダウンロードしてチュートリアルに従い、CAD プロジェクトに革命を起こしてください。
-type: docs
 weight: 17
 url: /ja/java/advanced-cad-features/setting-auto-layout-scaling/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.CAD for Java を使用した自動レイアウト スケーリングの設定
+
 ## 導入
 
 コンピュータ支援設計 (CAD) のダイナミックな世界では、効率が重要です。 Aspose.CAD for Java は、CAD ワークフローを強化するための強力なツール セットを提供します。傑出した機能の 1 つは、自動レイアウト スケーリングです。これは、最適な表示が得られるようにレイアウトをシームレスに調整する機能です。このチュートリアルでは、Aspose.CAD for Java を使用して自動レイアウト スケーリングを実装する方法を段階的に説明します。
@@ -93,3 +99,9 @@ A1: Aspose.CAD for Java は、DWG、DXF、DWF などのさまざまな CAD 形�
 ### Q5: Aspose.CAD for Java について支援を求めたり、ディスカッションに参加したりするにはどうすればよいですか?
 
 A5: にアクセスしてください。[Aspose.CAD フォーラム](https://forum.aspose.com/c/cad/19)コミュニティとつながり、サポートを求めます。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

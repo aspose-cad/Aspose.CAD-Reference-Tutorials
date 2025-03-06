@@ -3,10 +3,16 @@ title: Eleva l'esportazione CAD con opzioni penna personalizzate in Aspose.CAD p
 linktitle: Supporto penna nell'esportazione
 second_title: Aspose.CAD .NET - Formato file CAD e BIM
 description: Scopri come migliorare le esportazioni di immagini CAD utilizzando Aspose.CAD per .NET. Personalizza le opzioni della penna per ottenere immagini straordinarie in PDF, PNG, BMP e altro ancora.
-type: docs
 weight: 12
 url: /it/net/cad-features-and-support/pen-support-in-export/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Eleva l'esportazione CAD con opzioni penna personalizzate in Aspose.CAD per .NET
+
 ## introduzione
 
 Aspose.CAD per .NET fornisce un potente set di strumenti per lavorare con file CAD (Computer-Aided Design), consentendo agli sviluppatori di manipolare ed esportare immagini CAD senza problemi. Una caratteristica degna di nota è il supporto della penna durante l'esportazione, che consente agli utenti di personalizzare le impostazioni del cappuccio iniziale e finale per le penne durante l'esportazione di immagini CAD in vari formati come PDF, PNG, BMP, GIF, JPEG2000, JPEG, PSD, TIFF e WMF.
@@ -119,3 +125,9 @@ R1: Sì, le opzioni penna possono essere applicate a vari formati di immagine co
 ### Q5: Dove posso cercare il supporto della community per Aspose.CAD per .NET?
 
  A5: Interagire con la comunità sul[Forum Aspose.CAD](https://forum.aspose.com/c/cad/19).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

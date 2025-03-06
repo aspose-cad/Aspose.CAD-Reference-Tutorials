@@ -3,10 +3,16 @@ title: Xuất bản vẽ CAD sang định dạng SVG - Hướng dẫn Aspose.CAD
 linktitle: Xuất bản vẽ CAD sang định dạng SVG
 second_title: Aspose.CAD .NET - Định dạng tệp CAD và BIM
 description: Khám phá quy trình liền mạch xuất bản vẽ CAD sang SVG bằng Aspose.CAD cho .NET. Nâng cao khả năng phát triển CAD của bạn với tính linh hoạt và khả năng tùy chỉnh.
-type: docs
 weight: 15
 url: /vi/net/advanced-export-techniques/exporting-cad-drawings-to-svg/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Xuất bản vẽ CAD sang định dạng SVG - Hướng dẫn Aspose.CAD
+
 ## Giới thiệu
 
 Trong thế giới năng động của CAD (Thiết kế hỗ trợ máy tính), khả năng xuất bản vẽ sang nhiều định dạng khác nhau là một kỹ năng quan trọng. SVG (Đồ họa vectơ có thể mở rộng) là một trong những định dạng đã trở nên phổ biến nhờ khả năng mở rộng và tính linh hoạt của nó. Trong hướng dẫn này, chúng ta sẽ khám phá cách xuất bản vẽ CAD sang SVG bằng thư viện Aspose.CAD cho .NET mạnh mẽ.
@@ -87,3 +93,9 @@ Câu trả lời 2: Có, Aspose.CAD cho phép bạn chọn chế độ màu, man
 ### Câu hỏi 5: Làm cách nào tôi có thể nhận được hỗ trợ hoặc đặt câu hỏi liên quan đến Aspose.CAD?
 
  A5: Truy cập diễn đàn cộng đồng[đây](https://forum.aspose.com/c/cad/19) để được hỗ trợ và thảo luận.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

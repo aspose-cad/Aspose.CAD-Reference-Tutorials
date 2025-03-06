@@ -3,10 +3,16 @@ title: Манипуляции с чертежами САПР
 linktitle: Манипуляции с чертежами САПР
 second_title: Aspose.CAD .NET — формат файлов CAD и BIM
 description: Легко улучшайте свои проекты САПР с помощью учебных пособий Aspose.CAD for .NET. С легкостью изменяйте размер, конвертируйте и оптимизируйте чертежи САПР с помощью наших пошаговых руководств.
-type: docs
 weight: 21
 url: /ru/net/cad-drawing-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Манипуляции с чертежами САПР
+
 
 ## Введение
 
@@ -44,3 +50,9 @@ url: /ru/net/cad-drawing-manipulation/
 Откройте для себя возможности Aspose.CAD для .NET. Включите отслеживание для рендеринга САПР. Следуйте нашему пошаговому руководству, чтобы улучшить контроль и эффективность.
 ### [Получить размер макета САПР в Aspose.CAD для .NET](./get-size-of-cad-layout/)
 Узнайте, как получить размер макета САПР в .NET с помощью Aspose.CAD. Следуйте нашему пошаговому руководству для эффективного манипулирования файлами САПР.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

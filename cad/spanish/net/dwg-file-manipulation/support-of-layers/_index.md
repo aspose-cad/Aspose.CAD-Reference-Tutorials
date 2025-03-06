@@ -3,10 +3,16 @@ title: Manejo de capas en archivos DWG con C# - Tutorial de Aspose.CAD
 linktitle: Manejo de capas en archivos DWG con C#
 second_title: Aspose.CAD .NET - Formato de archivo CAD y BIM
 description: Aprenda a manejar capas en archivos DWG usando C# con Aspose.CAD para .NET. Guía paso a paso para una manipulación eficiente de archivos CAD.
-type: docs
 weight: 11
 url: /es/net/dwg-file-manipulation/support-of-layers/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Manejo de capas en archivos DWG con C# - Tutorial de Aspose.CAD
+
 ## Introducción
 
 Bienvenido a nuestro tutorial detallado sobre el manejo de capas en archivos DWG usando C# con Aspose.CAD para .NET. Aspose.CAD es una potente biblioteca que permite a los desarrolladores trabajar con formatos de archivos CAD sin problemas. En este tutorial, lo guiaremos paso a paso a través del proceso de manejo de capas en archivos DWG.
@@ -109,3 +115,9 @@ En este tutorial, recorrimos el proceso de manejo de capas en archivos DWG usand
 ### P5: ¿Cuáles son las opciones de licencia para Aspose.CAD?
 
  R5: Puede explorar opciones de licencia y detalles de compra[aquí](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

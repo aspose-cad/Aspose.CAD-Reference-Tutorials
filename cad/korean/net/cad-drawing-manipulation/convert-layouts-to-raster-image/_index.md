@@ -3,10 +3,16 @@ title: .NET용 Aspose.CAD에서 레이아웃을 래스터 이미지로 변환
 linktitle: 레이아웃을 래스터 이미지로 변환
 second_title: Aspose.CAD .NET - CAD 및 BIM 파일 형식
 description: Aspose.CAD for .NET을 사용하여 CAD 레이아웃을 래스터 이미지로 쉽게 변환하세요. 강력한 CAD 조작 기능으로 개발을 강화하세요.
-type: docs
 weight: 12
 url: /ko/net/cad-drawing-manipulation/convert-layouts-to-raster-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# .NET용 Aspose.CAD에서 레이아웃을 래스터 이미지로 변환
+
 ## 소개
 
 .NET 애플리케이션에서 레이아웃을 래스터 이미지로 쉽게 변환하고 싶으십니까? 더 이상 보지 마세요! 이 단계별 가이드는 CAD(Computer-Aided Design) 작업을 단순화하는 강력한 라이브러리인 Aspose.CAD for .NET을 사용하는 프로세스를 안내합니다.
@@ -102,3 +108,9 @@ image.Save(outputFilePath, options);
 ### Q5: Aspose.CAD 라이선스는 어디서 구입할 수 있나요?
 
  A5: 다음으로 이동하세요.[구매 페이지](https://purchase.aspose.com/buy) 라이센스를 구매하고 Aspose.CAD의 잠재력을 최대한 활용하세요.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

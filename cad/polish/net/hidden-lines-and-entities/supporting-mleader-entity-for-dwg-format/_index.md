@@ -3,10 +3,16 @@ title: Obsługa encji MLeader dla formatu DWG - Przewodnik Aspose.CAD
 linktitle: Obsługa encji MLeader dla formatu DWG
 second_title: Aspose.CAD .NET - Format plików CAD i BIM
 description: Odblokuj moc jednostek MLeader w formacie DWG z Aspose.CAD dla .NET. Ulepsz swoje projekty CAD bez wysiłku.
-type: docs
 weight: 11
 url: /pl/net/hidden-lines-and-entities/supporting-mleader-entity-for-dwg-format/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Obsługa encji MLeader dla formatu DWG - Przewodnik Aspose.CAD
+
 ## Wstęp
 
 dynamicznym świecie projektowania wspomaganego komputerowo (CAD) kluczowe znaczenie ma wyprzedzanie dzięki najnowszym funkcjom i funkcjom. Jedną z takich funkcji jest obsługa obiektów MLeader w formacie DWG. Aspose.CAD dla .NET zapewnia potężny zestaw narzędzi do efektywnej obsługi tego problemu.
@@ -118,3 +124,9 @@ A4: W przypadku jakichkolwiek pytań lub pomocy odwiedź stronę[Forum Aspose.CA
 ### P5: Czy mogę wypróbować Aspose.CAD przed dokonaniem zakupu?
 
  A5: Tak, możesz eksplorować[bezpłatna wersja próbna](https://releases.aspose.com/) Aspose.CAD, aby poznać jego możliwości przed podjęciem decyzji.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Schakel tracking in DWG-bestanden in met Aspose.CAD in Java
 linktitle: Schakel tracking in DWG-bestanden in met behulp van Java
 second_title: Aspose.CAD Java-API
 description: Ontdek de stapsgewijze handleiding voor het inschakelen van het volgen van DWG-bestanden in Java met behulp van Aspose.CAD, waardoor een naadloze samenwerking in CAD-projecten wordt gegarandeerd.
-type: docs
 weight: 12
 url: /nl/java/additional-features/enable-tracking/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Schakel tracking in DWG-bestanden in met Aspose.CAD in Java
+
 ## Invoering
 
 Op het gebied van computerondersteund ontwerp (CAD) onderscheidt Aspose.CAD voor Java zich als een krachtig hulpmiddel waarmee ontwikkelaars gemakkelijk CAD-bestanden kunnen manipuleren en converteren. Deze tutorial gaat dieper in op een specifieke functionaliteit van Aspose.CAD voor Java, waardoor tracking in DWG-bestanden mogelijk wordt gemaakt. Het bijhouden van wijzigingen in DWG-bestanden is van cruciaal belang voor gezamenlijke ontwerpprojecten, waardoor naadloze communicatie en een efficiënte workflow worden gegarandeerd. In deze handleiding doorlopen we de stappen om tracking met Java in te schakelen, waarbij we gebruik maken van de mogelijkheden van Aspose.CAD.
@@ -123,3 +129,9 @@ A1: Aspose.CAD ondersteunt voornamelijk DWG-bestanden voor tracking. Raadpleeg d
 ### V5: Hoe verkrijg ik een tijdelijke licentie voor Aspose.CAD voor Java?
 
  A5: Volg het proces beschreven op[Tijdelijke licentie](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

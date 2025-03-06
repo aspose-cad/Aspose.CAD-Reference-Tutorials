@@ -3,10 +3,16 @@ title: Dodatkowe funkcje
 linktitle: Dodatkowe funkcje
 second_title: Aspose.CAD API Java
 description: Odblokuj potencjał Aspose.CAD w Javie dzięki naszym tutorialom. Dodawaj niestandardowe właściwości, rozkładaj wstawiane obiekty CAD, włączaj śledzenie i płynnie eksportuj rysunki DXF. Ulepsz swój przepływ pracy CAD bez wysiłku.
-type: docs
 weight: 29
 url: /pl/java/additional-features/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Dodatkowe funkcje
+
 
 
 ## Wstęp
@@ -60,3 +66,9 @@ Dowiedz się, jak zapisywać pliki DXF w Javie przy użyciu Aspose.CAD. Postępu
 ## Wniosek
 
 Te samouczki omawiają szereg dodatkowych funkcji Aspose.CAD dla Java, oferując cenne spostrzeżenia i umiejętności w celu optymalizacji przepływu pracy CAD. Niezależnie od tego, czy ulepszasz organizację, opanowujesz techniki dekomponowania, umożliwiasz śledzenie, czy badasz różne opcje eksportu, te samouczki zapewnią potrzebną wiedzę. Podnieś swoje umiejętności CAD już dziś dzięki Aspose.CAD dla Java.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

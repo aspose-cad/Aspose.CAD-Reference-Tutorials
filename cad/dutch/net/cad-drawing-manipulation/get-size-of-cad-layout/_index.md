@@ -3,10 +3,16 @@ title: Verkrijg de grootte van de CAD-lay-out in Aspose.CAD voor .NET
 linktitle: Verkrijg de grootte van de CAD-lay-out
 second_title: Aspose.CAD .NET - CAD- en BIM-bestandsindeling
 description: Leer hoe u de CAD-lay-outgrootte kunt ophalen in .NET met behulp van Aspose.CAD. Volg onze stapsgewijze handleiding voor efficiënte manipulatie van CAD-bestanden.
-type: docs
 weight: 14
 url: /nl/net/cad-drawing-manipulation/get-size-of-cad-layout/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Verkrijg de grootte van de CAD-lay-out in Aspose.CAD voor .NET
+
 ## Invoering
 
 Welkom bij deze uitgebreide handleiding over het verkrijgen van de grootte van CAD-lay-outs met Aspose.CAD voor .NET. Aspose.CAD is een krachtige bibliotheek waarmee ontwikkelaars naadloos met CAD-bestanden kunnen werken. In deze tutorial begeleiden we u door het proces van het ophalen van de grootte van CAD-lay-outs aan de hand van praktische voorbeelden en stapsgewijze instructies.
@@ -143,3 +149,9 @@ A2: Absoluut! U kunt afbeeldingsopties, zoals formaat en resolutie, aanpassen aa
 ### Q5; Hoe kan ik technische ondersteuning krijgen?
 
  A5: Bezoek voor technische ondersteuning de[Aspose.CAD-forum](https://forum.aspose.com/c/cad/19).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

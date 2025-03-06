@@ -3,10 +3,16 @@ title: Manipulasi Gambar CAD
 linktitle: Manipulasi Gambar CAD
 second_title: Aspose.CAD .NET - Format File CAD dan BIM
 description: Tingkatkan proyek CAD Anda dengan mudah dengan tutorial Aspose.CAD untuk .NET. Ubah ukuran, konversi, dan optimalkan gambar CAD secara lancar dengan panduan langkah demi langkah kami.
-type: docs
 weight: 21
 url: /id/net/cad-drawing-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Manipulasi Gambar CAD
+
 
 ## Perkenalan
 
@@ -44,3 +50,9 @@ Konversi tata letak CAD ke gambar raster dengan mudah menggunakan Aspose.CAD unt
 Temukan kekuatan Aspose.CAD untuk .NET. Aktifkan pelacakan untuk rendering CAD dengan lancar. Ikuti panduan langkah demi langkah kami untuk meningkatkan kontrol dan efisiensi.
 ### [Dapatkan Ukuran Tata Letak CAD di Aspose.CAD untuk .NET](./get-size-of-cad-layout/)
 Pelajari cara mengambil ukuran tata letak CAD di .NET menggunakan Aspose.CAD. Ikuti panduan langkah demi langkah kami untuk manipulasi file CAD yang efisien.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

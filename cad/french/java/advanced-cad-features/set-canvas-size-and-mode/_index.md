@@ -3,10 +3,16 @@ title: Définir la taille et le mode du canevas
 linktitle: Définir la taille et le mode du canevas
 second_title: API Java Aspose.CAD
 description: Découvrez la puissance d'Aspose.CAD pour Java avec notre guide étape par étape sur la définition de la taille et du mode du canevas. Convertissez sans effort les fichiers CAO aux formats PDF et TIFF.
-type: docs
 weight: 16
 url: /fr/java/advanced-cad-features/set-canvas-size-and-mode/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Définir la taille et le mode du canevas
+
 ## Introduction
 
 Cherchez-vous à exploiter la puissance d’Aspose.CAD pour Java pour améliorer votre processus de conversion CAO ? Ce guide complet vous guidera à travers les étapes de définition de la taille et du mode du canevas à l'aide d'Aspose.CAD pour Java. Que vous soyez un développeur chevronné ou que vous débutiez tout juste, ce didacticiel vous fournira les informations dont vous avez besoin.
@@ -126,3 +132,9 @@ A1 : Oui, Aspose.CAD est conçu pour s'intégrer de manière transparente à div
 ### Q5 : Comment puis-je acheter Aspose.CAD pour Java ?
 
  A5 : Acheter le produit[ici](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

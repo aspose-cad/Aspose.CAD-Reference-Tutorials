@@ -3,10 +3,16 @@ title: Aspose.CAD for Java を使用して特定の DWG レイアウトを PDF �
 linktitle: 特定の DWG レイアウトを PDF にエクスポート
 second_title: Aspose.CAD Java API
 description: Aspose.CAD for Java を使用して特定の DWG レイアウトを PDF にエクスポートするためのステップバイステップ ガイドを参照してください。 CAD ワークフローを簡単に最適化します。
-type: docs
 weight: 14
 url: /ja/java/cad-drawing-conversion/export-specific-dwg-layout-to-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.CAD for Java を使用して特定の DWG レイアウトを PDF にエクスポート
+
 ## 導入
 
 コンピュータ支援設計 (CAD) のダイナミックな世界では、Aspose.CAD for Java が DWG 図面の操作と変換のための強力なツールとして登場します。このチュートリアルでは、指定された DWG レイアウトを PDF ファイルにエクスポートするという特定のシナリオを検討します。このプロセスにより、CAD プロジェクトの精度と柔軟性が保証されます。
@@ -100,3 +106,9 @@ Aspose.CAD for Java はスタンドアロン ライブラリですが、他の J
 ### Q5: Aspose.CAD の無料トライアルはありますか?
 
 はい、無料トライアルにアクセスできます[ここ](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

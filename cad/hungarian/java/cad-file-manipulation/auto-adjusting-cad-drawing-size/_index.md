@@ -3,10 +3,16 @@ title: CAD rajz méretének automatikus beállítása az Aspose.CAD for Java seg
 linktitle: A CAD rajzméret automatikus beállítása
 second_title: Aspose.CAD Java API
 description: Fedezze fel a CAD rajzméretek automatikus beállításának zökkenőmentes folyamatát Java nyelven az Aspose.CAD segítségével. Kövesse lépésről lépésre útmutatónkat a hatékony CAD-fájlok kezeléséhez.
-type: docs
 weight: 13
 url: /hu/java/cad-file-manipulation/auto-adjusting-cad-drawing-size/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# CAD rajz méretének automatikus beállítása az Aspose.CAD for Java segítségével
+
 ## Bevezetés
 
 A CAD (Computer-Aided Design) világában a rajzméretek beállítása általános követelmény, az Aspose.CAD for Java segítségével pedig zökkenőmentes folyamattá válik. Ez a hatékony könyvtár átfogó eszközöket biztosít a CAD-fájlok kezelésére Java alkalmazásokban. Ebben az oktatóanyagban lépésről lépésre megvizsgáljuk a CAD rajzméretek automatikus beállításának folyamatát az Aspose.CAD használatával.
@@ -107,3 +113,9 @@ Ebben az oktatóanyagban végigvezettük a CAD-rajzméretek automatikus beállí
 ### 5. kérdés: Elérhető ingyenes próbaverzió az Aspose.CAD for Java számára?
 
  5. válasz: Igen, hozzáférhet az ingyenes próbaverzióhoz[itt](https://releases.aspose.com/) hogy feltárja a könyvtár lehetőségeit.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

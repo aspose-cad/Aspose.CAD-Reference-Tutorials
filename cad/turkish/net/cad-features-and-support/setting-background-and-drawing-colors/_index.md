@@ -3,10 +3,16 @@ title: Aspose.CAD for .NET'te Arka Plan Ayarlama ve Çizim Renkleri
 linktitle: Arka Plan ve Çizim Renklerini Ayarlama
 second_title: Aspose.CAD .NET - CAD ve BIM Dosya Formatı
 description: .NET için Aspose.CAD'de uzmanlaşın. Arka planı ve çizim renklerini zahmetsizce ayarlayın. Adım adım kılavuzumuzu takip edin.
-type: docs
 weight: 15
 url: /tr/net/cad-features-and-support/setting-background-and-drawing-colors/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.CAD for .NET'te Arka Plan Ayarlama ve Çizim Renkleri
+
 ## giriiş
 
 .NET geliştirmenin dinamik dünyasında Aspose.CAD, Bilgisayar Destekli Tasarım (CAD) dosyalarını işlemek için güçlü bir araç olarak ortaya çıkıyor. CAD çizimlerini yönetme becerilerinizi geliştirmek istiyorsanız bu eğitim sizin kapınızdır. Aspose.CAD for .NET'i kullanarak arka plan ayarlama ve çizim renklerinin inceliklerini inceleyerek size netlik ve etkililik sağlayan adım adım bir kılavuz sunacağız.
@@ -108,3 +114,10 @@ Cevap1: Evet, Aspose.CAD, DWG, DXF ve DGN dahil olmak üzere çeşitli CAD forma
 ### S5: Yardıma mı ihtiyacınız var veya toplulukla bağlantı kurmak mı istiyorsunuz?
 
  Cevap5: Destek forumunu ziyaret edin[Burada](https://forum.aspose.com/c/cad/19).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

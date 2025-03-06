@@ -3,10 +3,16 @@ title: CAD Dışa Aktarma Seçenekleri
 linktitle: CAD Dışa Aktarma Seçenekleri
 second_title: Aspose.CAD Java API'si
 description: Aspose.CAD for Java'yı kullanarak AutoCAD görüntülerini, CAD düzenlerini, IFC, STL dosyalarını zahmetsizce PDF, BMP, PNG'ye aktarın. Adım adım eğitimlerimizle iş akışınızı basitleştirin.
-type: docs
 weight: 30
 url: /tr/java/cad-export-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# CAD Dışa Aktarma Seçenekleri
+
 
 ## giriiş
 
@@ -50,3 +56,9 @@ Aspose.CAD for Java ile CAD dosyalarını zahmetsizce PDF'ye nasıl aktaracağı
 Aspose.CAD for Java ile IFC'yi zahmetsizce PNG'ye dönüştürün. Adım adım eğitimimizi takip edin.
 ### [Aspose.CAD for Java ile STL'yi PNG'ye aktarın](./export-stl-to-png/)
 Aspose.CAD ile STL dosyalarını Java'da PNG'ye aktarmanın kusursuz sürecini keşfedin. İş akışınızı basitleştirin ve Java projelerinizi zahmetsizce geliştirin.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

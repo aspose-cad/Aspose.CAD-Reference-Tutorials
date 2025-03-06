@@ -3,10 +3,16 @@ title: Exporting DXF Specific Layer to PDF - Aspose.CAD Tutorial
 linktitle: Exporting DXF Specific Layer to PDF
 second_title: Aspose.CAD .NET - CAD and BIM File Format
 description: Learn how to export specific layers from DXF files to PDF using Aspose.CAD for .NET. Follow this step-by-step guide for seamless integration.
-type: docs
 weight: 10
 url: /net/export-techniques/exporting-dxf-specific-layer-to-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Exporting DXF Specific Layer to PDF - Aspose.CAD Tutorial
+
 ## Introduction
 
 In the realm of CAD development for .NET, Aspose.CAD stands out as a robust library that empowers developers to manipulate CAD files efficiently. One of its notable features is the ability to export specific layers from DXF files to PDF format. This tutorial will guide you through the process step by step, demonstrating how to harness the power of Aspose.CAD for this specific task.
@@ -102,3 +108,10 @@ A4: Yes, Aspose.CAD supports various export formats, providing developers with f
 
 A5: Absolutely. Explore the Aspose.CAD documentation for additional options and configurations.
 
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

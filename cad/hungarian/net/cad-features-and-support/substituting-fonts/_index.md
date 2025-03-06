@@ -3,10 +3,16 @@ title: Betűtípusok helyettesítése az Aspose.CAD-ben .NET helyett
 linktitle: Betűtípusok helyettesítése
 second_title: Aspose.CAD .NET - CAD és BIM fájlformátum
 description: Tanulja meg, hogyan helyettesítheti könnyedén a .NET betűtípusokat az Aspose.CAD-ben. Kövesse lépésenkénti útmutatónkat a betűtípusok hatékony testreszabásához CAD-rajzaiban.
-type: docs
 weight: 17
 url: /hu/net/cad-features-and-support/substituting-fonts/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Betűtípusok helyettesítése az Aspose.CAD-ben .NET helyett
+
 ## Bevezetés
 
 A .NET-t használó CAD-fejlesztés területén a betűtípusok kezelésének képessége kulcsfontosságú készség. Az Aspose.CAD for .NET robusztus eszközkészletet biztosít erre a célra, lehetővé téve a fejlesztők számára, hogy zökkenőmentesen helyettesítsék a betűtípusokat CAD-rajzaikon. Ebben az oktatóanyagban lépésről lépésre vizsgáljuk meg a folyamatot, bemutatva, hogyan lehet hatékonyan elérni a betűtípus-helyettesítést.
@@ -109,3 +115,10 @@ A2: Abszolút, ráadásul`PrimaryFontName`, Az Aspose.CAD for .NET hozzáférés
 
  5. válasz: További támogatásért és közösségi megbeszélésekért keresse fel a[Aspose.CAD fórum](https://forum.aspose.com/c/cad/19).
 
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

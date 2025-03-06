@@ -3,10 +3,16 @@ title: Konversi dan Ekspor
 linktitle: Konversi dan Ekspor
 second_title: Aspose.CAD .NET - Format File CAD dan BIM
 description: Buka kunci dunia manipulasi file CAD dengan Aspose.CAD! Pelajari cara merender warna-warna cerah dan mengonversi file DWG. Selami format DWT dan DWG untuk hasil yang presisi.
-type: docs
 weight: 25
 url: /id/net/conversion-and-export/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Konversi dan Ekspor
+
 
 
 ## Perkenalan
@@ -45,3 +51,9 @@ Jelajahi nuansa format DWT dan DWG dengan Aspose.CAD untuk .NET. Bedakan antara 
 Konversikan DWG ke PDF Kepatuhan dengan Aspose.CAD untuk .NET. Ikuti tutorial kami untuk panduan langkah demi langkah.
 ### [Mengonversi Format DWG ke DWF - Panduan Aspose.CAD](./converting-dwg-to-dwf/)
 Jelajahi konversi DWG ke DWF yang lancar menggunakan Aspose.CAD untuk .NET. Ikuti panduan langkah demi langkah kami untuk pengalaman yang bebas repot.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

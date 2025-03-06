@@ -3,10 +3,16 @@ title: Dodaj atrybuty do tekstu wieloznacznego w plikach DWG za pomocą Aspose.C
 linktitle: Dodaj atrybuty do tekstu wielowierszowego w plikach DWG za pomocą języka Java
 second_title: Aspose.CAD API Java
 description: Dowiedz się, jak dodawać atrybuty do tekstu wielowierszowego w plikach DWG przy użyciu Aspose.CAD dla Java. Ulepsz swoje rysunki CAD dzięki temu przewodnikowi krok po kroku.
-type: docs
 weight: 13
 url: /pl/java/cad-text-and-formatting/add-attributes-to-mtext/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Dodaj atrybuty do tekstu wieloznacznego w plikach DWG za pomocą Aspose.CAD dla Java
+
 ## Wstęp
 
 W świecie programowania w języku Java manipulowanie plikami CAD jest częstym zadaniem. Aspose.CAD dla Java to potężna biblioteka, która ułatwia obsługę plików CAD, dzięki czemu jest chętnie wybieranym wyborem dla programistów. W tym samouczku zajmiemy się konkretnym przypadkiem użycia: dodawaniem atrybutów do tekstu wielowierszowego w plikach DWG. Może to mieć kluczowe znaczenie dla zwiększenia bogactwa rysunków CAD.
@@ -117,3 +123,9 @@ Odpowiedź 3: Możesz zapoznać się z dokumentacją[Tutaj](https://reference.as
 ### P5: Czy mogę wypróbować Aspose.CAD dla Java przed zakupem licencji?
 
  Odpowiedź 5: Tak, możesz skorzystać z bezpłatnego okresu próbnego[Tutaj](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

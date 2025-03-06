@@ -3,10 +3,16 @@ title: Dodaj znaki wodne do rysunków CAD - samouczek Aspose.CAD dla Java
 linktitle: Dodaj znak wodny
 second_title: Aspose.CAD API Java
 description: Ulepsz swoje rysunki CAD za pomocą spersonalizowanych znaków wodnych za pomocą Aspose.CAD dla Java. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby zapewnić bezproblemową integrację.
-type: docs
 weight: 12
 url: /pl/java/other-cad-operations/add-watermark/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Dodaj znaki wodne do rysunków CAD - samouczek Aspose.CAD dla Java
+
 ## Wstęp
 
 Witamy w tym obszernym przewodniku na temat dodawania znaków wodnych do rysunków CAD przy użyciu Aspose.CAD dla Java. W tym samouczku dowiesz się, jak efektywnie integrować znaki wodne, wzbogacając dokumenty CAD o spersonalizowane komunikaty lub branding. Aspose.CAD dla Java zapewnia potężny zestaw funkcji, dzięki którym proces dodawania znaku wodnego jest prosty.
@@ -99,3 +105,9 @@ Odpowiedź 2: Tak, masz pełną kontrolę nad wyglądem znaku wodnego, w tym nad
 ### P5: Gdzie mogę znaleźć pełną dokumentację Aspose.CAD dla Java?
 
  Odpowiedź 5: Patrz[dokumentacja](https://reference.aspose.com/cad/java/) aby uzyskać szczegółowe informacje.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

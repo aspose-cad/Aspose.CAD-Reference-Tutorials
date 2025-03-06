@@ -3,10 +3,16 @@ title: ميزات إضافية
 linktitle: ميزات إضافية
 second_title: Aspose.CAD جافا API
 description: أطلق العنان لإمكانيات Aspose.CAD في Java من خلال برامجنا التعليمية. قم بإضافة خصائص مخصصة، وتفكيك كائنات إدراج CAD، وتمكين التتبع، وتصدير رسومات DXF بسلاسة. ارفع مستوى سير عمل CAD الخاص بك دون عناء.
-type: docs
 weight: 29
 url: /ar/java/additional-features/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# ميزات إضافية
+
 
 
 ## مقدمة
@@ -60,3 +66,9 @@ url: /ar/java/additional-features/
 ## خاتمة
 
 تغطي هذه البرامج التعليمية مجموعة من الميزات الإضافية في Aspose.CAD لـ Java، مما يوفر لك رؤى ومهارات قيمة لتحسين سير عمل CAD لديك. سواء كنت تعمل على تحسين التنظيم، أو إتقان تقنيات التحلل، أو تمكين التتبع، أو استكشاف خيارات التصدير المتنوعة، فإن هذه البرامج التعليمية توفر المعرفة التي تحتاج إليها. ارفع مهاراتك في التصميم بمساعدة الكمبيوتر (CAD) اليوم باستخدام Aspose.CAD لـ Java.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Hledání textu v souboru DWG aplikace AutoCAD pomocí Aspose.CAD for Jav
 linktitle: Vyhledejte text v souboru DWG AutoCAD pomocí Java
 second_title: Aspose.CAD Java API
 description: Prozkoumejte sílu Aspose.CAD for Java! Efektivně prohledávejte text v souborech AutoCAD DWG. Stáhněte si knihovnu a vylepšete svou CAD aplikaci.
-type: docs
 weight: 10
 url: /cs/java/cad-text-and-formatting/search-text-in-dwg/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Hledání textu v souboru DWG aplikace AutoCAD pomocí Aspose.CAD for Java
+
 ## Úvod
 
 Jste vývojář Java, který pracuje se soubory AutoCAD DWG a chcete do svých aplikací integrovat výkonnou funkci vyhledávání textu? Už nehledejte! Tento podrobný tutoriál vás provede procesem vyhledávání textu v souboru DWG aplikace AutoCAD pomocí Aspose.CAD for Java. Aspose.CAD je robustní knihovna s bohatými funkcemi, která poskytuje rozsáhlou podporu pro práci se soubory CAD, což z ní činí vynikající volbu pro vaše vývojové potřeby.
@@ -107,3 +113,9 @@ Odpověď 1: Ano, Aspose.CAD podporuje širokou škálu verzí souborů AutoCAD 
 ### Q5: Mohu použít dočasnou licenci pro Aspose.CAD pro Java?
 
  A5: Ano, můžete získat dočasnou licenci pro účely testování a hodnocení od[tady](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

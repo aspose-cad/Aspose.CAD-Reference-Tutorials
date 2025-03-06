@@ -3,10 +3,16 @@ title: Manipulacja i renderowanie obrazu
 linktitle: Manipulacja i renderowanie obrazu
 second_title: Aspose.CAD .NET - Format plików CAD i BIM
 description: Odblokuj potencjał plików CAD dzięki Aspose.CAD dla .NET. Dowiedz się, jak wyodrębniać atrybuty bloków, importować obrazy, konwertować pliki DWG do formatu PDF, obsługiwać siatki i wiele więcej.
-type: docs
 weight: 27
 url: /pl/net/image-manipulation-and-rendering/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Manipulacja i renderowanie obrazu
+
 
 ## Wstęp
 
@@ -54,3 +60,9 @@ Przeglądaj Aspose.CAD dla .NET. Konwertuj plik DWG na obraz w języku C# bez wy
 Odblokuj potencjał Aspose.CAD dla .NET dzięki naszemu samouczkowi krok po kroku na temat odczytywania metadanych XREF z plików DWG.
 ### [Renderowanie dokumentów DWG w C# - Przewodnik Aspose.CAD](./rendering-dwg-documents/)
 Dowiedz się, jak renderować dokumenty DWG w języku C# przy użyciu Aspose.CAD. Ten przewodnik krok po kroku obejmuje importowanie, konfigurowanie i zapisywanie z przykładami kodu.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

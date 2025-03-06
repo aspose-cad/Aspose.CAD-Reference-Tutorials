@@ -3,10 +3,16 @@ title: C# での座標を含む DWG から PDF への変換 - Aspose.CAD チュ�
 linktitle: C# で座標を含む DWG を PDF に変換する
 second_title: Aspose.CAD .NET - CAD および BIM ファイル形式
 description: Aspose.CAD を使用して、C# で特定の座標を含む DWG を PDF に変換する方法を学習します。正確かつ効率的に CAD ファイルを変換するには、ステップバイステップのガイドに従ってください。
-type: docs
 weight: 11
 url: /ja/net/conversion-and-export/converting-dwg-to-pdf-with-coordinates/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# C# での座標を含む DWG から PDF への変換 - Aspose.CAD チュートリアル
+
 ## 導入
 
 Aspose.CAD for .NET を使用して、指定された座標を持つ DWG ファイルを PDF に変換するためのこの包括的なチュートリアルへようこそ。 Aspose.CAD は、開発者が .NET アプリケーションで CAD ファイル形式をシームレスに操作できるようにする強力なライブラリです。このチュートリアルでは、精度を高めるために特定の座標を指定しながら、DWG ファイルを PDF に変換するプロセスを説明します。
@@ -134,3 +140,9 @@ A4：確かに！ Aspose.CAD が提供する広範なオプションを調べて
 ### Q5: 追加のサポートやコミュニティのディスカッションはどこで見つけられますか?
 
 A5: にアクセスしてください。[Aspose.CAD フォーラム](https://forum.aspose.com/c/cad/19)コミュニティのサポートとディスカッションのために。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

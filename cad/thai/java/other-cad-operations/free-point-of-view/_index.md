@@ -3,10 +3,16 @@ title: การเรนเดอร์มุมมองฟรีด้วย 
 linktitle: มุมมองฟรี
 second_title: Aspose.CAD Java API
 description: สำรวจพลังของ Aspose.CAD สำหรับ Java ในบทช่วยสอนนี้เกี่ยวกับการเรนเดอร์มุมมองฟรีสำหรับภาพวาด CAD ปลดปล่อยศักยภาพของ Aspose.CAD
-type: docs
 weight: 14
 url: /th/java/other-cad-operations/free-point-of-view/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# การเรนเดอร์มุมมองฟรีด้วย Aspose.CAD สำหรับ Java
+
 ## การแนะนำ
 
 ยินดีต้อนรับสู่ "มุมมองฟรี - Aspose.CAD สำหรับการสอน Java" ในคู่มือที่ครอบคลุมนี้ เราจะแนะนำคุณตลอดกระบวนการใช้ประโยชน์จาก Aspose.CAD สำหรับ Java เพื่อให้ได้การเรนเดอร์มุมมองฟรีสำหรับแบบร่าง CAD Aspose.CAD เป็นไลบรารี Java ที่ทรงพลังซึ่งมีฟีเจอร์มากมายสำหรับการทำงานกับไฟล์ Computer-Aided Design (CAD) บทช่วยสอนจะครอบคลุมถึงข้อกำหนดเบื้องต้นที่จำเป็น การนำเข้าแพ็คเกจที่จำเป็น และแยกย่อยแต่ละตัวอย่างออกเป็นคำแนะนำทีละขั้นตอน
@@ -116,3 +122,9 @@ objImage.save(dataDir + "FreePointOfView_out.jpeg", options);
 ### คำถามที่ 5: ฉันจะขอรับใบอนุญาตชั่วคราวได้อย่างไร
 
  A5: รับใบอนุญาตชั่วคราว[ที่นี่](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

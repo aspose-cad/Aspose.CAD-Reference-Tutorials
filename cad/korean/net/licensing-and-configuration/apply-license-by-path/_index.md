@@ -3,10 +3,16 @@ title: .NET용 Aspose.CAD에서 경로별로 라이선스 적용
 linktitle: 경로별 라이선스 적용
 second_title: Aspose.CAD .NET - CAD 및 BIM 파일 형식
 description: .NET용 Aspose.CAD의 잠재력을 최대한 활용해보세요! 라이센스를 원활하게 적용하려면 단계별 가이드를 따르십시오. 지금 CAD 파일 조작 게임을 한 단계 더 발전시키세요!
-type: docs
 weight: 10
 url: /ko/net/licensing-and-configuration/apply-license-by-path/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# .NET용 Aspose.CAD에서 경로별로 라이선스 적용
+
 ## 소개
 
 Aspose.CAD의 기능을 활용하여 .NET 개발 게임을 향상시킬 준비가 되셨습니까? 이 종합 튜토리얼에서는 Aspose.CAD for .NET을 사용하여 경로별로 라이선스를 적용하는 과정을 안내합니다. 이 강력한 라이브러리를 프로젝트에 원활하게 통합하여 원활하고 효율적인 작업 흐름을 보장하는 단계를 설명하는 과정을 준비하세요.
@@ -88,3 +94,9 @@ A3: 예, 무료 평가판을 받을 수 있습니다.[여기](https://releases.a
 ### Q5: 도움이 필요하거나 질문이 있나요?
 
  A5: Aspose.CAD 커뮤니티에 가입하세요.[Aspose.CAD 포럼](https://forum.aspose.com/c/cad/19).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

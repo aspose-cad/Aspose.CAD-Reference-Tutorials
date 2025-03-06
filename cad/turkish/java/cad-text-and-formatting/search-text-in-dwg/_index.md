@@ -3,10 +3,16 @@ title: Aspose.CAD for Java Kullanarak AutoCAD DWG Dosyasında Metin Arama
 linktitle: AutoCAD DWG Dosyasında Java ile Metin Arama
 second_title: Aspose.CAD Java API'si
 description: Aspose.CAD for Java'nın gücünü keşfedin! AutoCAD DWG dosyalarındaki metni etkili bir şekilde arayın. Kitaplığı indirin ve CAD uygulamanızı geliştirin.
-type: docs
 weight: 10
 url: /tr/java/cad-text-and-formatting/search-text-in-dwg/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.CAD for Java Kullanarak AutoCAD DWG Dosyasında Metin Arama
+
 ## giriiş
 
 AutoCAD DWG dosyalarıyla çalışan ve güçlü bir metin arama işlevini uygulamalarınıza entegre etmek isteyen bir Java geliştiricisi misiniz? Başka yerde arama! Bu adım adım eğitim, Aspose.CAD for Java'yı kullanarak bir AutoCAD DWG dosyasında metin arama sürecinde size rehberlik edecektir. Aspose.CAD, CAD dosyalarıyla çalışmak için kapsamlı destek sağlayan sağlam ve zengin özelliklere sahip bir kütüphanedir ve bu da onu geliştirme ihtiyaçlarınız için mükemmel bir seçim haline getirir.
@@ -107,3 +113,9 @@ Cevap1: Evet, Aspose.CAD, çok çeşitli AutoCAD DWG dosya sürümlerini destekl
 ### S5: Aspose.CAD for Java için geçici bir lisans kullanabilir miyim?
 
  C5: Evet, test ve değerlendirme amacıyla geçici lisansı şu adresten alabilirsiniz:[Burada](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

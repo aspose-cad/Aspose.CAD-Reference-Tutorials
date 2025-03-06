@@ -3,10 +3,16 @@ title: 캔버스 크기 및 모드 설정
 linktitle: 캔버스 크기 및 모드 설정
 second_title: Aspose.CAD 자바 API
 description: 캔버스 크기 및 모드 설정에 대한 단계별 가이드를 통해 Java용 Aspose.CAD의 강력한 기능을 살펴보세요. CAD 파일을 PDF 및 TIFF 형식으로 쉽게 변환하세요.
-type: docs
 weight: 16
 url: /ko/java/advanced-cad-features/set-canvas-size-and-mode/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 캔버스 크기 및 모드 설정
+
 ## 소개
 
 CAD 변환 프로세스를 향상시키기 위해 Java용 Aspose.CAD의 기능을 활용하고 싶으십니까? 이 포괄적인 가이드는 Aspose.CAD for Java를 사용하여 캔버스 크기와 모드를 설정하는 단계를 안내합니다. 숙련된 개발자이든 이제 막 시작하는 개발자이든 이 튜토리얼은 필요한 통찰력을 제공할 것입니다.
@@ -126,3 +132,9 @@ A1: 예, Aspose.CAD는 다양한 Java 프레임워크와 원활하게 통합되�
 ### Q5: Java용 Aspose.CAD를 어떻게 구매하나요?
 
  A5: 제품 구매[여기](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

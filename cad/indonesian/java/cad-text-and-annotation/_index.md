@@ -3,10 +3,16 @@ title: Teks dan Anotasi CAD
 linktitle: Teks dan Anotasi CAD
 second_title: Aspose.CAD Java API
 description: Tingkatkan gambar DWG Anda dengan mudah dengan Aspose.CAD untuk Java. Kuasai menambahkan dan mengganti font dalam file DWG. Panduan langkah demi langkah untuk kesempurnaan visual.
-type: docs
 weight: 21
 url: /id/java/cad-text-and-annotation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Teks dan Anotasi CAD
+
 
 ## Perkenalan 
 
@@ -36,3 +42,9 @@ Sempurnakan gambar DWG Anda dengan mudah dengan Aspose.CAD untuk Java. Tambahkan
 Sempurnakan desain CAD Anda dengan mudah. Pelajari cara mengganti font di file DWG menggunakan Aspose.CAD untuk Java. Panduan langkah demi langkah untuk kesempurnaan visual.
 ### [Ganti Font Gaya Tertentu di DWG Menggunakan Aspose.CAD untuk Java](./substitute-font-of-particular-style-in-dwg/)
 Pelajari cara mengganti font di file DWG menggunakan Aspose.CAD untuk Java. Panduan langkah demi langkah untuk menyesuaikan gaya dengan presisi.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

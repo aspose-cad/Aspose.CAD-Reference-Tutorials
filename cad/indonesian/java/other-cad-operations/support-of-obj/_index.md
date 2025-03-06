@@ -3,10 +3,16 @@ title: Konversi OBJ ke PDF yang mudah dengan Aspose.CAD untuk Java
 linktitle: Dukungan OBJ
 second_title: Aspose.CAD Java API
 description: Jelajahi potensi Aspose.CAD untuk Java dalam menangani gambar OBJ dengan lancar. Konversikan ke PDF dengan mudah menggunakan panduan langkah demi langkah kami.
-type: docs
 weight: 19
 url: /id/java/other-cad-operations/support-of-obj/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Konversi OBJ ke PDF yang mudah dengan Aspose.CAD untuk Java
+
 ## Perkenalan
 
 Selamat datang di tutorial komprehensif tentang memanfaatkan kekuatan Aspose.CAD untuk Java untuk menangani gambar OBJ dengan mudah. Dalam panduan langkah demi langkah ini, kita akan mempelajari cara bekerja dengan file OBJ, mengimpor paket, dan mengonversinya ke format PDF menggunakan perpustakaan Aspose.CAD. Baik Anda seorang pengembang berpengalaman atau baru memulai, tutorial ini akan memandu Anda melalui prosesnya, memastikan Anda memanfaatkan potensi penuh Aspose.CAD untuk Java.
@@ -99,3 +105,9 @@ A2: Ya, Anda dapat menjelajahi kemampuan Aspose.CAD untuk Java dengan uji coba g
 ### Q5: Di mana saya bisa membeli Aspose.CAD untuk Java?
 
 A5: Anda dapat membeli Aspose.CAD untuk Java dari[halaman pembelian](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

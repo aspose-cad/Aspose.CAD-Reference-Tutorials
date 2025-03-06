@@ -3,10 +3,16 @@ title: Dodaj niestandardowe właściwości do plików DWG za pomocą Aspose.CAD 
 linktitle: Dodaj właściwości niestandardowe do plików DWG przy użyciu języka Java
 second_title: Aspose.CAD API Java
 description: Dowiedz się, jak dodawać niestandardowe właściwości do plików DWG w Javie przy użyciu Aspose.CAD. Ulepsz organizację i wyszukiwanie informacji w rysunkach CAD bez wysiłku.
-type: docs
 weight: 10
 url: /pl/java/additional-features/add-custom-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Dodaj niestandardowe właściwości do plików DWG za pomocą Aspose.CAD w Javie
+
 W świecie programowania w języku Java manipulowanie plikami DWG za pomocą niestandardowych właściwości jest częstym zadaniem. Aspose.CAD dla Java zapewnia potężny zestaw narzędzi do płynnej integracji tej funkcjonalności z Twoimi projektami. W tym samouczku krok po kroku przeprowadzimy Cię przez proces dodawania niestandardowych właściwości do plików DWG przy użyciu Aspose.CAD dla Java.
 
 ## Wstęp
@@ -105,3 +111,9 @@ O2: Aspose.CAD dla Java jest kompatybilny z popularnymi środowiskami Java IDE, 
 ### P5: Jak mogę uzyskać wsparcie lub zadać pytania?
 
 A5: Odwiedź[Forum Aspose.CAD](https://forum.aspose.com/c/cad/19) aby uzyskać wsparcie, zadawać pytania i łączyć się ze społecznością Aspose.CAD.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

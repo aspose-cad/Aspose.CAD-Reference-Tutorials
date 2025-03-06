@@ -3,10 +3,16 @@ title: ضبط الخلفية ولون الرسم باستخدام Aspose.CAD ل�
 linktitle: ضبط الخلفية ولون الرسم
 second_title: Aspose.CAD جافا API
 description: قم بتحويل ملفات CAD إلى PDF وTIFF بسهولة باستخدام Aspose.CAD لـ Java. قم بتعيين خلفية مخصصة وألوان رسم للحصول على نتائج مذهلة بصريًا.
-type: docs
 weight: 15
 url: /ar/java/advanced-cad-features/setting-background-and-drawing-color/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# ضبط الخلفية ولون الرسم باستخدام Aspose.CAD لـ Java
+
 ## مقدمة
 
 في عالم التصميم بمساعدة الكمبيوتر (CAD) الديناميكي، يعد التحويل الفعال للملفات أمرًا ضروريًا للتعاون والتواصل السلس. يظهر Aspose.CAD for Java كأداة قوية توفر إمكانات قوية لتحويل ملفات CAD إلى تنسيقات PDF وTIFF. في هذا البرنامج التعليمي، سنتعمق في عملية تعيين الخلفية ولون الرسم باستخدام Aspose.CAD لـ Java، مما يوفر لك دليلًا خطوة بخطوة للحصول على أفضل النتائج.
@@ -98,3 +104,10 @@ objImage.save(dataDir + "result_out_.tiff", tiffOptions);
 ### س5: كيف يمكنني الحصول على دعم Aspose.CAD لـ Java؟
 
 ج5: قم بزيارة[منتدى Aspose.CAD](https://forum.aspose.com/c/cad/19) لطلب المساعدة والتفاعل مع المجتمع.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

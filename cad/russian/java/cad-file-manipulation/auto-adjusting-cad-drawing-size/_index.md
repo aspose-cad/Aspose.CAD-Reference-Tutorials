@@ -3,10 +3,16 @@ title: Автоматическая настройка размера черте
 linktitle: Автоматическая настройка размера чертежа САПР
 second_title: API Aspose.CAD Java
 description: Изучите простой процесс автоматической настройки размеров чертежей САПР на Java с помощью Aspose.CAD. Следуйте нашему пошаговому руководству для эффективного манипулирования файлами САПР.
-type: docs
 weight: 13
 url: /ru/java/cad-file-manipulation/auto-adjusting-cad-drawing-size/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Автоматическая настройка размера чертежа САПР с использованием Aspose.CAD для Java
+
 ## Введение
 
 В мире САПР (компьютерного проектирования) регулировка размеров чертежей является обычным требованием, а с Aspose.CAD для Java это становится несложным процессом. Эта мощная библиотека предоставляет комплексные инструменты для обработки файлов САПР в приложениях Java. В этом уроке мы рассмотрим пошаговый процесс автоматической настройки размеров чертежей САПР с помощью Aspose.CAD.
@@ -107,3 +113,9 @@ objImage.save(outPath, bmpOptions);
 ### Вопрос 5: Существует ли бесплатная пробная версия Aspose.CAD для Java?
 
  О5: Да, вы можете получить доступ к бесплатной пробной версии.[здесь](https://releases.aspose.com/) изучить возможности библиотеки.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

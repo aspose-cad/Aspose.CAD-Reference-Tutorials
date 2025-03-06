@@ -3,10 +3,16 @@ title: Manipulation de dessins CAO
 linktitle: Manipulation de dessins CAO
 second_title: Aspose.CAD .NET - Format de fichier CAO et BIM
 description: Améliorez sans effort vos projets de CAO avec les didacticiels Aspose.CAD pour .NET. Redimensionnez, convertissez et optimisez les dessins CAO en toute transparence grâce à nos guides étape par étape.
-type: docs
 weight: 21
 url: /fr/net/cad-drawing-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Manipulation de dessins CAO
+
 
 ## Introduction
 
@@ -44,3 +50,9 @@ Convertissez sans effort les mises en page CAO en images raster à l'aide d'Aspo
 Découvrez la puissance d'Aspose.CAD pour .NET. Activez le suivi du rendu CAO de manière transparente. Suivez notre guide étape par étape pour un contrôle et une efficacité améliorés.
 ### [Obtenir la taille de la mise en page CAO dans Aspose.CAD pour .NET](./get-size-of-cad-layout/)
 Découvrez comment récupérer la taille de la mise en page CAO dans .NET à l'aide d'Aspose.CAD. Suivez notre guide étape par étape pour une manipulation efficace des fichiers CAO.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

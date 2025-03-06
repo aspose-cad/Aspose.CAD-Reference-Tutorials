@@ -3,10 +3,16 @@ title: Linhas e entidades ocultas
 linktitle: Linhas e entidades ocultas
 second_title: Aspose.CAD .NET - Formato de arquivo CAD e BIM
 description: Desbloqueie linhas ocultas em arquivos DWG sem esforço com Aspose.CAD for .NET. Eleve seus projetos CAD com nosso guia passo a passo.
-type: docs
 weight: 29
 url: /pt/net/hidden-lines-and-entities/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Linhas e entidades ocultas
+
 
 
 ## Introdução
@@ -39,3 +45,9 @@ Concluindo, quer você esteja se concentrando em desbloquear linhas ocultas ou a
 Desbloqueie linhas ocultas em arquivos DWG sem esforço com Aspose.CAD for .NET. Siga nosso guia passo a passo para uma integração perfeita.
 ### [Suporte à entidade MLeader para formato DWG - Guia Aspose.CAD](./supporting-mleader-entity-for-dwg-format/)
 Desbloqueie o poder das entidades MLeader no formato DWG com Aspose.CAD for .NET. Eleve seus projetos CAD sem esforço.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Texto e anotação CAD
 linktitle: Texto e anotação CAD
 second_title: API Java Aspose.CAD
 description: Eleve seus desenhos DWG sem esforço com Aspose.CAD para Java. Domine a adição e substituição de fontes em arquivos DWG. Guias passo a passo para perfeição visual.
-type: docs
 weight: 21
 url: /pt/java/cad-text-and-annotation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Texto e anotação CAD
+
 
 ## Introdução 
 
@@ -36,3 +42,9 @@ Aprimore seus desenhos DWG sem esforço com Aspose.CAD para Java. Adicione texto
 Aprimore seus projetos CAD sem esforço. Aprenda a substituir fontes em arquivos DWG usando Aspose.CAD para Java. Guia passo a passo para perfeição visual.
 ### [Substitua a fonte de um estilo específico em DWG usando Aspose.CAD para Java](./substitute-font-of-particular-style-in-dwg/)
 Aprenda como substituir fontes em arquivos DWG usando Aspose.CAD para Java. Guia passo a passo para personalizar estilos com precisão.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

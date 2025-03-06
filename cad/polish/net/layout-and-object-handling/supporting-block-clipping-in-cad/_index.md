@@ -3,10 +3,16 @@ title: Wsparcie przycinania bloków w CAD - samouczek Aspose.CAD
 linktitle: Wspieranie przycinania bloków w CAD
 second_title: Aspose.CAD .NET - Format plików CAD i BIM
 description: Dowiedz się, jak zaimplementować przycinanie bloków w CAD przy użyciu Aspose.CAD dla .NET. Zwiększ swoje możliwości projektowania dzięki temu samouczkowi krok po kroku.
-type: docs
 weight: 12
 url: /pl/net/layout-and-object-handling/supporting-block-clipping-in-cad/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Wsparcie przycinania bloków w CAD - samouczek Aspose.CAD
+
 ## Wstęp
 
 Witamy w kompleksowym samouczku na temat obsługi wycinania bloków w CAD przy użyciu Aspose.CAD dla .NET. Aspose.CAD to potężna biblioteka, która umożliwia programistom bezproblemową pracę z plikami CAD w aplikacjach .NET. W tym samouczku skupimy się na implementacji przycinania bloków, istotnej funkcji w projektowaniu CAD.
@@ -122,3 +128,9 @@ Odpowiedź 1: Aspose.CAD jest przeznaczony głównie dla aplikacji .NET. Jeśli 
 ### P5: Czy mogę używać Aspose.CAD bez stałej licencji?
 
  Odpowiedź 5: Tak, możesz uzyskać licencję tymczasową[Tutaj](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

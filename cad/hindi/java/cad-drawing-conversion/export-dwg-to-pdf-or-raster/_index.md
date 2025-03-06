@@ -3,10 +3,16 @@ title: जावा के लिए Aspose.CAD का उपयोग करक
 linktitle: DWG को PDF या Raster में निर्यात करें
 second_title: Aspose.CAD जावा एपीआई
 description: Aspose.CAD का उपयोग करके जावा में DWG फ़ाइलों को PDF या रेखापुंज छवियों में निर्यात करने की निर्बाध प्रक्रिया का अन्वेषण करें। यह चरण-दर-चरण मार्गदर्शिका सटीकता और दक्षता सुनिश्चित करती है।
-type: docs
 weight: 13
 url: /hi/java/cad-drawing-conversion/export-dwg-to-pdf-or-raster/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# जावा के लिए Aspose.CAD का उपयोग करके DWG को PDF या Raster में निर्यात करें
+
 ## परिचय
 
 कंप्यूटर-एडेड डिज़ाइन (सीएडी) की गतिशील दुनिया में, चित्रों का कुशल संचालन महत्वपूर्ण है। जावा के लिए Aspose.CAD DWG फ़ाइलों को पीडीएफ या रैस्टर छवियों में निर्यात करने के लिए एक शक्तिशाली समाधान प्रदान करता है। यह ट्यूटोरियल आपको प्रक्रिया के माध्यम से मार्गदर्शन करेगा, यह सुनिश्चित करते हुए कि आप जावा के लिए Aspose.CAD की पूरी क्षमता का उपयोग करेंगे।
@@ -116,3 +122,9 @@ A1: हां, जावा के लिए Aspose.CAD लोकप्रिय
 ### Q5: जावा के लिए Aspose.CAD किन इकाइयों का समर्थन करता है?
 
 A5: Java के लिए Aspose.CAD मीट्रिक और इंपीरियल दोनों इकाइयों का समर्थन करता है।
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

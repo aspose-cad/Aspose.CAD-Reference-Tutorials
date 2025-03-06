@@ -3,10 +3,16 @@ title: Aspose.CAD for Java ile Otomatik Mizanpaj Ölçeklendirmesini Ayarlama
 linktitle: Otomatik Düzen Ölçeklendirmeyi Ayarlama
 second_title: Aspose.CAD Java API'si
 description: Aspose.CAD for Java ile CAD iş akışınızı geliştirin. Bu adım adım kılavuzda, optimum görüntü ve verimlilik sağlayan Otomatik Düzen Ölçeklendirme tanıtılmaktadır. Kütüphaneyi indirin, öğreticiyi takip edin ve CAD projelerinizde devrim yaratın.
-type: docs
 weight: 17
 url: /tr/java/advanced-cad-features/setting-auto-layout-scaling/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.CAD for Java ile Otomatik Mizanpaj Ölçeklendirmesini Ayarlama
+
 ## giriiş
 
 Bilgisayar destekli tasarımın (CAD) dinamik dünyasında verimlilik çok önemlidir. Aspose.CAD for Java, CAD iş akışınızı geliştirmek için güçlü bir araç seti sağlar. Öne çıkan özelliklerden biri, düzenlerinizin en iyi görüntü için kusursuz bir şekilde ayarlanmasını sağlayan bir işlevsellik olan Otomatik Düzen Ölçeklendirme'dir. Bu eğitimde, Aspose.CAD for Java'yı kullanarak Otomatik Mizanpaj Ölçeklendirmenin adım adım nasıl uygulanacağını keşfedeceğiz.
@@ -93,3 +99,9 @@ Cevap1: Aspose.CAD for Java, DWG, DXF ve DWF dahil olmak üzere çeşitli CAD fo
 ### S5: Aspose.CAD for Java hakkında nasıl yardım isteyebilirim veya tartışmalara nasıl katılabilirim?
 
 A5: ziyaret edin[Aspose.CAD forumu](https://forum.aspose.com/c/cad/19) toplulukla bağlantı kurmak ve destek aramak.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: ميزات CAD المتقدمة
 linktitle: ميزات CAD المتقدمة
 second_title: Aspose.CAD جافا API
 description: ارفع مستوى تطوير التصميم بمساعدة الكمبيوتر لديك باستخدام Aspose.CAD لبرامج Java التعليمية. تعلم كيفية تمكين التتبع ودمج تنسيق IGES ودعم الشبكة الرئيسية وتخصيص تصدير القلم وقراءة ملفات DWT والمزيد.
-type: docs
 weight: 24
 url: /ar/java/advanced-cad-features/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# ميزات CAD المتقدمة
+
 
 ## مقدمة
 
@@ -66,3 +72,9 @@ url: /ar/java/advanced-cad-features/
 دعم الطبقة الرئيسية في تطوير Java CAD باستخدام Aspose.CAD. تنظيم وتصدير الرسومات دون عناء.
 ### [استخراج قيمة سمة الكتلة من مرجع خارجي باستخدام Aspose.CAD في Java](./extract-block-attribute-value/)
 استكشف برنامجنا التعليمي حول استخراج قيم سمات الكتلة من مراجع DWG الخارجية في Java باستخدام Aspose.CAD. قم بتحسين سير عمل تطوير CAD الخاص بك دون عناء.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

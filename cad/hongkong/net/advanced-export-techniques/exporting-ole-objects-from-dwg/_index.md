@@ -3,10 +3,16 @@ title: 從 DWG 檔案匯出 OLE 物件 - Aspose.CAD 教學課程
 linktitle: 從 DWG 檔案匯出 OLE 對象
 second_title: Aspose.CAD .NET - CAD 和 BIM 檔案格式
 description: 探索使用 Aspose.CAD for .NET 從 DWG 檔案匯出 OLE 物件的逐步指南。輕鬆提升您的 CAD 檔案操作技能。
-type: docs
 weight: 12
 url: /zh-hant/net/advanced-export-techniques/exporting-ole-objects-from-dwg/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 從 DWG 檔案匯出 OLE 物件 - Aspose.CAD 教學課程
+
 ## 介紹
 
 您是否希望輕鬆從 DWG 檔案中提取 OLE 物件？ Aspose.CAD for .NET 旨在為您簡化流程。在本教程中，我們將引導您逐步匯出 OLE 對象，確保您充分利用這個強大的 .NET 程式庫。 
@@ -98,3 +104,9 @@ A4：是的，您可以透過免費試用體驗 Aspose.CAD for .NET 的功能。
 ### Q5：我如何獲得支持或與社群建立連結？
 
  A5：如需支持和社區參與，請訪問[Aspose.CAD論壇](https://forum.aspose.com/c/cad/19).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

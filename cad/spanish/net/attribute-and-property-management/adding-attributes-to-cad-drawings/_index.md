@@ -3,10 +3,16 @@ title: Agregar atributos a dibujos CAD - Tutorial de Aspose.CAD
 linktitle: Agregar atributos a dibujos CAD
 second_title: Aspose.CAD .NET - Formato de archivo CAD y BIM
 description: Mejore sus dibujos CAD con atributos utilizando Aspose.CAD para .NET. Siga nuestra guía paso a paso para una integración perfecta.
-type: docs
 weight: 10
 url: /es/net/attribute-and-property-management/adding-attributes-to-cad-drawings/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Agregar atributos a dibujos CAD - Tutorial de Aspose.CAD
+
 ## Introducción
 
 En el ámbito del diseño asistido por computadora (CAD), enriquecer los dibujos con atributos es un paso crucial para una documentación detallada y una comunicación efectiva. Aspose.CAD para .NET proporciona una solución sólida para integrar perfectamente atributos en dibujos CAD. Este tutorial lo guiará a través del proceso de agregar atributos a dibujos CAD usando Aspose.CAD, permitiéndole mejorar la información incorporada en sus diseños.
@@ -119,3 +125,9 @@ R1: Aspose.CAD admite varios formatos CAD, incluidos DWG y DXF, lo que garantiza
 ### P5: ¿Cómo puedo obtener una licencia temporal para Aspose.CAD?
 
  R5: Para opciones de licencia temporal, visite[aquí](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

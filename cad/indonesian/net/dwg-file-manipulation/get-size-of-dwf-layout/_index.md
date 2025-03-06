@@ -3,10 +3,16 @@ title: Bekerja dengan File DWG di C# - Dapatkan Ukuran Tata Letak DWF
 linktitle: Bekerja dengan File DWG di C# - Dapatkan Ukuran Tata Letak DWF
 second_title: Aspose.CAD .NET - Format File CAD dan BIM
 description: Jelajahi kekuatan Aspose.CAD untuk .NET dalam menangani file DWG. Pelajari cara mengekstrak ukuran tata letak DWF dengan mudah menggunakan C#.
-type: docs
 weight: 10
 url: /id/net/dwg-file-manipulation/get-size-of-dwf-layout/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Bekerja dengan File DWG di C# - Dapatkan Ukuran Tata Letak DWF
+
 ## Perkenalan
 
 Di bidang desain berbantuan komputer (CAD) dan pengembangan .NET, Aspose.CAD berdiri sebagai alat yang ampuh untuk menangani file DWG. Tutorial ini akan memandu Anda melalui proses bekerja dengan file DWG di C# dan mengekstrak ukuran tata letak DWF. Sebelum kita mendalami kodenya, pastikan Anda sudah menyiapkan segalanya untuk memulai perjalanan ini.
@@ -163,3 +169,9 @@ A4: Untuk pertanyaan atau bantuan apa pun, kunjungi[Forum Aspose.CAD](https://fo
 ### Q5: Apakah ada uji coba gratis yang tersedia untuk Aspose.CAD?
 
  A5: Ya, Anda dapat mengakses Aspose.CAD versi uji coba gratis[Di Sini](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

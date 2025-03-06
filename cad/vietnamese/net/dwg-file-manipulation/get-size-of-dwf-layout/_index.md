@@ -3,10 +3,16 @@ title: Làm việc với tệp DWG trong C# - Nhận kích thước bố cục D
 linktitle: Làm việc với tệp DWG trong C# - Nhận kích thước bố cục DWF
 second_title: Aspose.CAD .NET - Định dạng tệp CAD và BIM
 description: Khám phá sức mạnh của Aspose.CAD cho .NET trong việc xử lý các tệp DWG. Tìm hiểu cách trích xuất kích thước bố cục DWF một cách dễ dàng bằng C#.
-type: docs
 weight: 10
 url: /vi/net/dwg-file-manipulation/get-size-of-dwf-layout/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Làm việc với tệp DWG trong C# - Nhận kích thước bố cục DWF
+
 ## Giới thiệu
 
 Trong lĩnh vực thiết kế có sự hỗ trợ của máy tính (CAD) và phát triển .NET, Aspose.CAD là một công cụ mạnh mẽ để xử lý các tệp DWG. Hướng dẫn này sẽ hướng dẫn bạn trong quá trình làm việc với các tệp DWG trong C# và trích xuất kích thước của bố cục DWF. Trước khi đi sâu vào mã, hãy đảm bảo bạn đã thiết lập mọi thứ để bắt đầu hành trình này.
@@ -163,3 +169,9 @@ A4: Nếu có bất kỳ thắc mắc hoặc trợ giúp nào, hãy truy cập[D
 ### Câu hỏi 5: Aspose.CAD có bản dùng thử miễn phí không?
 
  Câu trả lời 5: Có, bạn có thể truy cập phiên bản dùng thử miễn phí của Aspose.CAD[đây](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

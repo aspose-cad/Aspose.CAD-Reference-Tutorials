@@ -3,10 +3,16 @@ title: Exporter au format PDF avec Aspose.CAD pour Java
 linktitle: Exporter au format PDF
 second_title: API Java Aspose.CAD
 description: Apprenez à exporter des fichiers CAO au format PDF sans effort avec Aspose.CAD pour Java. Suivez notre guide étape par étape pour une intégration transparente.
-type: docs
 weight: 13
 url: /fr/java/cad-export-options/export-to-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Exporter au format PDF avec Aspose.CAD pour Java
+
 ## Introduction
 
 Bienvenue dans ce didacticiel complet sur l'exportation de fichiers CAO au format PDF à l'aide d'Aspose.CAD pour Java. Si vous souhaitez convertir en toute transparence vos dessins CAO au format PDF largement pris en charge, vous êtes au bon endroit. Dans ce guide étape par étape, nous détaillerons le processus, en veillant à ce que vous compreniez chaque étape pour réussir votre exportation PDF.
@@ -95,3 +101,9 @@ A2 : Absolument. Le didacticiel donne un aperçu des options de personnalisation
 ### Q5 : Comment puis-je obtenir une licence temporaire pour Aspose.CAD ?
 
  A5 : Pour obtenir une licence temporaire, visitez[ce lien](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

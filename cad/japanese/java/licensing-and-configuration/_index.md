@@ -3,10 +3,16 @@ title: ライセンスと構成
 linktitle: ライセンスと構成
 second_title: Aspose.CAD Java API
 description: 従量制ライセンス チュートリアルを使用して、Aspose.CAD for Java の機能を最大限に活用してください。 CAD 処理を効率的かつコスト効率よく最適化し、生産性を向上します。
-type: docs
 weight: 25
 url: /ja/java/licensing-and-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# ライセンスと構成
+
 ## 導入
 
 Aspose.CAD for Java の従量制ライセンスをマスターする旅に乗り出すと、CAD 処理における比類のない効率と費用対効果への扉が開かれます。この包括的なガイドでは、複雑な点を詳しく説明し、ワークフローをシームレスに最適化できるようにします。
@@ -25,3 +31,9 @@ Aspose.CAD for Java の従量制ライセンスをマスターする旅に乗り
 ## ライセンスと構成のチュートリアル
 ### [Aspose.CAD の従量制ライセンス](./metered-licensing-in-aspose-cad/)
 この包括的なガイドで、Aspose.CAD for Java の従量制ライセンスをマスターする方法を学びましょう。効率と費用対効果を高めるために CAD 処理を最適化します。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

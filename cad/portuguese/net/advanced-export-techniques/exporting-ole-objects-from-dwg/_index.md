@@ -3,10 +3,16 @@ title: Exportando objetos OLE de arquivos DWG - Tutorial Aspose.CAD
 linktitle: Exportando objetos OLE de arquivos DWG
 second_title: Aspose.CAD .NET - Formato de arquivo CAD e BIM
 description: Explore o guia passo a passo sobre como exportar objetos OLE de arquivos DWG usando Aspose.CAD for .NET. Aprimore suas habilidades de manipulação de arquivos CAD sem esforço.
-type: docs
 weight: 12
 url: /pt/net/advanced-export-techniques/exporting-ole-objects-from-dwg/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Exportando objetos OLE de arquivos DWG - Tutorial Aspose.CAD
+
 ## Introdução
 
 Você deseja extrair objetos OLE de arquivos DWG com facilidade? Aspose.CAD for .NET está aqui para agilizar o processo para você. Neste tutorial, orientaremos você na exportação de objetos OLE passo a passo, garantindo que você aproveite ao máximo esta poderosa biblioteca .NET. 
@@ -98,3 +104,9 @@ A2: Com certeza! Conforme mostrado no tutorial, você pode personalizar as opç�
 ### P5: Como posso obter suporte ou me conectar com a comunidade?
 
  A5: Para apoio e envolvimento da comunidade, visite o[Fórum Aspose.CAD](https://forum.aspose.com/c/cad/19).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Tiempo de espera al guardar para CAD con Aspose.CAD
 linktitle: Poner tiempo de espera al guardar
 second_title: API de Java Aspose.CAD
 description: Aprenda cómo aumentar el rendimiento de su aplicación Java con Aspose.CAD. Establezca un tiempo de espera para guardar dibujos CAD. Sigue nuestra guía paso a paso.
-type: docs
 weight: 15
 url: /es/java/other-cad-operations/put-timeout-on-save/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tiempo de espera al guardar para CAD con Aspose.CAD
+
 ## Introducción
 
 Bienvenido al tutorial sobre cómo poner un tiempo de espera al guardar usando Aspose.CAD para Java. En esta guía, lo guiaremos a través del proceso de establecer un tiempo de espera para guardar dibujos CAD para mejorar el rendimiento de su aplicación. Aspose.CAD para Java es una potente biblioteca que le permite trabajar con archivos CAD en sus aplicaciones Java sin problemas.
@@ -131,3 +137,9 @@ R3: Sí, puedes obtener una prueba gratuita desde[este enlace](https://releases.
 ### P5: ¿Necesita ayuda o tiene preguntas?
 
  A5: Dirígete al[Foro Aspose.CAD](https://forum.aspose.com/c/cad/19) para el apoyo de la comunidad.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

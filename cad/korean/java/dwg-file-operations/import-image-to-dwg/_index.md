@@ -3,10 +3,16 @@ title: Aspose.CAD Java를 사용하여 DWG 파일로 손쉽게 이미지 가져�
 linktitle: Java를 사용하여 이미지를 DWG 파일로 가져오기
 second_title: Aspose.CAD 자바 API
 description: Java용 Aspose.CAD를 사용하여 이미지를 DWG 파일에 완벽하게 통합하는 방법을 살펴보세요. 효율적인 개발을 위해 단계별 가이드를 따르세요.
-type: docs
 weight: 10
 url: /ko/java/dwg-file-operations/import-image-to-dwg/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.CAD Java를 사용하여 DWG 파일로 손쉽게 이미지 가져오기
+
 ## 소개
 
 Java 개발의 역동적인 세계에서 이미지를 DWG 파일에 통합하는 것은 많은 응용 프로그램의 중요한 측면이 되었습니다. Aspose.CAD for Java는 이미지를 DWG 파일로 가져오는 효율적인 방법을 찾는 개발자에게 강력한 솔루션을 제공합니다. 이 튜토리얼에서는 Aspose.CAD for Java를 사용하여 이미지의 원활한 통합을 보장하는 프로세스를 단계별로 안내합니다.
@@ -126,3 +132,9 @@ A1: 예, Aspose.CAD for Java는 대부분의 Java 개발 환경과 호환됩니�
 ### Q5: Aspose.CAD for Java의 임시 라이선스를 얻을 수 있나요?
 
  A5: 예, 임시 라이센스를 얻을 수 있습니다.[여기](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

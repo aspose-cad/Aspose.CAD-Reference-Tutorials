@@ -3,10 +3,16 @@ title: Mengatur Ukuran dan Mode Kanvas di Aspose.CAD untuk .NET
 linktitle: Mengatur Ukuran dan Mode Kanvas
 second_title: Aspose.CAD .NET - Format File CAD dan BIM
 description: Jelajahi panduan langkah demi langkah tentang pengaturan ukuran dan mode kanvas di Aspose.CAD untuk .NET. Optimalkan rendering CAD Anda dengan mudah menggunakan tutorial komprehensif ini.
-type: docs
 weight: 16
 url: /id/net/cad-features-and-support/setting-canvas-size-and-mode/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Mengatur Ukuran dan Mode Kanvas di Aspose.CAD untuk .NET
+
 ## Perkenalan
 
 Apakah Anda siap untuk membuka potensi penuh Aspose.CAD untuk .NET dan merevolusi pengalaman rendering CAD Anda? Dalam tutorial langkah demi langkah ini, kita akan mempelajari seluk-beluk pengaturan ukuran dan mode kanvas menggunakan pustaka Aspose.CAD yang canggih. Baik Anda seorang pengembang berpengalaman atau baru memulai, panduan ini akan memandu Anda melalui prosesnya, memastikan Anda memanfaatkan kemampuan Aspose.CAD secara efektif.
@@ -119,3 +125,9 @@ A1: Ya, Aspose.CAD terintegrasi secara mulus dengan perpustakaan .NET lainnya, m
 ### Q5: Bagaimana cara membeli Aspose.CAD untuk .NET?
 
  A5: Untuk membeli Aspose.CAD, kunjungi[halaman pembelian](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

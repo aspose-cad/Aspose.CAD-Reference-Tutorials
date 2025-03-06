@@ -3,10 +3,16 @@ title: Thêm hình mờ vào bản vẽ CAD - Hướng dẫn Aspose.CAD cho Java
 linktitle: Thêm hình mờ
 second_title: API Java Aspose.CAD
 description: Nâng cao bản vẽ CAD của bạn bằng hình mờ được cá nhân hóa bằng Aspose.CAD cho Java. Hãy làm theo hướng dẫn từng bước của chúng tôi để tích hợp liền mạch.
-type: docs
 weight: 12
 url: /vi/java/other-cad-operations/add-watermark/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Thêm hình mờ vào bản vẽ CAD - Hướng dẫn Aspose.CAD cho Java
+
 ## Giới thiệu
 
 Chào mừng bạn đến với hướng dẫn toàn diện về cách thêm hình mờ vào bản vẽ CAD bằng Aspose.CAD cho Java. Trong hướng dẫn này, bạn sẽ tìm hiểu cách tích hợp hình mờ một cách hiệu quả, cải thiện tài liệu CAD của bạn bằng các thông điệp hoặc nhãn hiệu được cá nhân hóa. Aspose.CAD cho Java cung cấp một bộ tính năng mạnh mẽ, giúp quá trình thêm hình mờ trở nên đơn giản.
@@ -99,3 +105,9 @@ Câu trả lời 2: Có, bạn có toàn quyền kiểm soát hình thức của
 ### Câu hỏi 5: Tôi có thể tìm tài liệu đầy đủ về Aspose.CAD cho Java ở đâu?
 
  A5: Hãy tham khảo[tài liệu](https://reference.aspose.com/cad/java/) để biết thông tin chi tiết.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

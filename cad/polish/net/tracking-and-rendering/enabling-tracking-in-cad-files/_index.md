@@ -3,10 +3,16 @@ title: Włączanie śledzenia w plikach CAD - samouczek Aspose.CAD
 linktitle: Włączanie śledzenia w plikach CAD
 second_title: Aspose.CAD .NET - Format plików CAD i BIM
 description: Opanuj śledzenie plików CAD za pomocą Aspose.CAD dla .NET. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby uzyskać precyzyjne renderowanie i śledzenie błędów. Pobierz teraz!
-type: docs
 weight: 10
 url: /pl/net/tracking-and-rendering/enabling-tracking-in-cad-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Włączanie śledzenia w plikach CAD - samouczek Aspose.CAD
+
 ## Wstęp
 
 dziedzinie CAD (projektowanie wspomagane komputerowo) precyzja i śledzenie są najważniejsze. Aspose.CAD dla .NET zapewnia solidne rozwiązanie umożliwiające śledzenie w plikach CAD. Ten samouczek przeprowadzi Cię przez cały proces, upewniając się, że wykorzystasz pełny potencjał tej funkcji.
@@ -103,3 +109,9 @@ O3: Mogą pojawić się problemy, takie jak brakujące czcionki lub nieobsługiw
 ### P5: Czy mogę dostosować komunikaty o błędach śledzenia?
 
 Odpowiedź 5: Absolutnie. Możesz zmodyfikować kod, aby dostosować komunikaty o błędach do swoich wymagań.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

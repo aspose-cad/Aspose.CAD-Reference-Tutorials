@@ -3,10 +3,16 @@ title: Extract Block Attribute Value from External Reference Using Aspose.CAD In
 linktitle: Extract Block Attribute Value from External Reference
 second_title: Aspose.CAD Java API
 description: Explore our tutorial on extracting block attribute values from DWG external references in Java using Aspose.CAD. Enhance your CAD development workflow effortlessly.
-type: docs
 weight: 19
 url: /java/advanced-cad-features/extract-block-attribute-value/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Extract Block Attribute Value from External Reference Using Aspose.CAD In Java
+
 ## Introduction
 
 Welcome to our comprehensive guide on extracting block attribute values from external references in Java using Aspose.CAD. If you're a developer working with CAD drawings and looking to streamline your workflow, you're in the right place. In this tutorial, we'll walk you through the process step by step, leveraging the powerful features of Aspose.CAD for Java.
@@ -89,3 +95,10 @@ A4: For any technical assistance or queries, you can visit the [Aspose.CAD forum
 ### Q5: What is the process for obtaining a temporary license for Aspose.CAD?
 
 A5: To obtain a temporary license, please visit [this link](https://purchase.aspose.com/temporary-license/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

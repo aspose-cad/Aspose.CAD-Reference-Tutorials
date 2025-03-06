@@ -3,10 +3,16 @@ title: Tích hợp định dạng IGES
 linktitle: Tích hợp định dạng IGES
 second_title: API Java Aspose.CAD
 description: Khám phá sự tích hợp liền mạch của định dạng IGES với Aspose.CAD cho Java. Làm theo hướng dẫn từng bước của chúng tôi, khai thác sức mạnh của Aspose.CAD để nâng cao trải nghiệm phát triển CAD của bạn.
-type: docs
 weight: 11
 url: /vi/java/advanced-cad-features/integrate-iges-format/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tích hợp định dạng IGES
+
 ## Giới thiệu
 
 Trong thế giới năng động của CAD (Thiết kế hỗ trợ máy tính), nhu cầu tích hợp các định dạng tệp khác nhau là điều tối quan trọng. Hướng dẫn này đi sâu vào việc tích hợp liền mạch định dạng IGES (Đặc tả trao đổi đồ họa ban đầu) bằng Aspose.CAD cho Java. Aspose.CAD trao quyền cho các nhà phát triển thao tác và chuyển đổi các tệp CAD một cách dễ dàng, mở ra một thế giới khả năng phát triển ứng dụng.
@@ -88,3 +94,9 @@ A2: Chắc chắn rồi! Như được hiển thị trong hướng dẫn, bạn 
 ### Câu hỏi 5: Làm cách nào để mua giấy phép Aspose.CAD?
 
  Câu trả lời 5: Bạn có thể mua giấy phép Aspose.CAD[đây](https://purchase.aspose.com/buy) để khai thác toàn bộ tiềm năng của thư viện.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

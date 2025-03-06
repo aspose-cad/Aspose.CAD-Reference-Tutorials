@@ -3,10 +3,16 @@ title: Xuất tệp DGN nhúng - Hướng dẫn Aspose.CAD
 linktitle: Xuất tệp DGN nhúng
 second_title: Aspose.CAD .NET - Định dạng tệp CAD và BIM
 description: Khám phá sức mạnh của Aspose.CAD cho .NET. Tìm hiểu cách xuất các tệp DGN được nhúng sang PDF một cách dễ dàng với hướng dẫn từng bước này.
-type: docs
 weight: 14
 url: /vi/net/export-techniques/exporting-embedded-dgn-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Xuất tệp DGN nhúng - Hướng dẫn Aspose.CAD
+
 ## Giới thiệu
 
 Trong thế giới phát triển phần mềm năng động, Aspose.CAD cho .NET nổi bật như một công cụ mạnh mẽ để xử lý các tệp Thiết kế hỗ trợ máy tính (CAD). Hướng dẫn này sẽ hướng dẫn bạn quy trình xuất tệp DGN được nhúng bằng Aspose.CAD cho .NET. Cho dù bạn là nhà phát triển dày dạn kinh nghiệm hay người mới bắt đầu tò mò, hướng dẫn từng bước này sẽ giúp bạn khai thác các khả năng của Aspose.CAD một cách hiệu quả.
@@ -98,3 +104,9 @@ Câu trả lời 1: Aspose.CAD chủ yếu hỗ trợ .NET, nhưng Aspose cung c
 ### Câu hỏi 5: Cần hỗ trợ hoặc muốn tham gia với cộng đồng?
 
 A5: Tham quan[Diễn đàn Aspose.CAD](https://forum.aspose.com/c/cad/19) để được hỗ trợ và thảo luận.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

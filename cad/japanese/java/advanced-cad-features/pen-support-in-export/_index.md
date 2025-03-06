@@ -3,10 +3,16 @@ title: エクスポート時のペンのサポート
 linktitle: エクスポート時のペンのサポート
 second_title: Aspose.CAD Java API
 description: Aspose.CAD for Java を使用して、CAD エクスポートでペンのカスタマイズをマスターします。シームレスな統合については、ステップバイステップのガイドに従ってください。
-type: docs
 weight: 13
 url: /ja/java/advanced-cad-features/pen-support-in-export/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# エクスポート時のペンのサポート
+
 ## 導入
 
 進化し続ける CAD (コンピューター支援設計) 変換の状況において、Aspose.CAD for Java は、CAD ファイルを操作するための広範な機能を提供する強力なツールとして浮上しています。多機能な機能の中でも、エクスポート時のペンのカスタマイズのサポートが際立っており、ユーザーはエクスポートされた画像の外観を調整できます。このチュートリアルでは、Java を使用した実際の実装に焦点を当てて、エクスポート機能でペン サポートを活用するプロセスを説明します。
@@ -112,3 +118,9 @@ A4: ラスタライズ オプションでページの幅と高さを調整して
 ### Q5: 追加のサポートやコミュニティのディスカッションはどこで見つけられますか?
 
  A5: Aspose.CAD コミュニティ フォーラムを参照してください。[ここ](https://forum.aspose.com/c/cad/19)サポートとディスカッションのため。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

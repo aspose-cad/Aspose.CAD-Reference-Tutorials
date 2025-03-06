@@ -3,10 +3,16 @@ title: CAD 図面に属性を追加する - Aspose.CAD チュートリアル
 linktitle: CAD 図面への属性の追加
 second_title: Aspose.CAD .NET - CAD および BIM ファイル形式
 description: Aspose.CAD for .NET を使用して、CAD 図面を属性で強化します。シームレスな統合については、ステップバイステップのガイドに従ってください。
-type: docs
 weight: 10
 url: /ja/net/attribute-and-property-management/adding-attributes-to-cad-drawings/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# CAD 図面に属性を追加する - Aspose.CAD チュートリアル
+
 ## 導入
 
 コンピュータ支援設計 (CAD) の分野では、図面に属性を付加することは、詳細な文書化と効果的なコミュニケーションにとって重要なステップです。 Aspose.CAD for .NET は、属性を CAD 図面にシームレスに統合するための堅牢なソリューションを提供します。このチュートリアルでは、Aspose.CAD を使用して CAD 図面に属性を追加するプロセスを説明し、設計に埋め込まれた情報を強化できるようにします。
@@ -119,3 +125,9 @@ A1: Aspose.CAD は、DWG や DXF を含むさまざまな CAD 形式をサポー
 ### Q5: Aspose.CAD の一時ライセンスを取得するにはどうすればよいですか?
 
  A5: 一時的なライセンスのオプションについては、次のサイトをご覧ください。[ここ](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

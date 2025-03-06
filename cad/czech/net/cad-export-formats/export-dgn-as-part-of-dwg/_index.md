@@ -3,10 +3,16 @@ title: Exportujte DGN jako součást DWG v Aspose.CAD pro .NET
 linktitle: Export DGN jako součást DWG
 second_title: Aspose.CAD .NET – formát souborů CAD a BIM
 description: Přečtěte si, jak exportovat DGN jako součást DWG v Aspose.CAD pro .NET. Postupujte podle našeho podrobného průvodce pro bezproblémovou integraci.
-type: docs
 weight: 11
 url: /cs/net/cad-export-formats/export-dgn-as-part-of-dwg/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Exportujte DGN jako součást DWG v Aspose.CAD pro .NET
+
 ## Úvod
 
 Ve světě vývoje .NET vyniká Aspose.CAD jako výkonná knihovna pro práci se soubory CAD (Computer-Aided Design). Tento tutoriál vás provede procesem exportu souboru DGN (Design) jako součásti souboru DWG (Drawing) pomocí Aspose.CAD for .NET. Ať už jste zkušený vývojář nebo teprve začínáte, tento podrobný průvodce vám pomůže využít možnosti Aspose.CAD k efektivnímu dosažení tohoto konkrétního úkolu.
@@ -123,3 +129,9 @@ A3: Ano, můžete získat bezplatnou zkušební verzi[tady](https://releases.asp
 
 ### Q5: Kde mohu vyhledat pomoc, pokud narazím na problémy?
  A5: Můžete navštívit fórum Aspose.CAD[tady](https://forum.aspose.com/c/cad/19) pro podporu.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

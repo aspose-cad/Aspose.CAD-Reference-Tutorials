@@ -3,10 +3,16 @@ title: DGN 내보내기 튜토리얼
 linktitle: DGN 내보내기 튜토리얼
 second_title: Aspose.CAD 자바 API
 description: DGN 내보내기 튜토리얼을 통해 Java용 Aspose.CAD의 강력한 기능을 활용해 보세요. DWG의 일부로 DGN을 내보내는 것부터 래스터 이미지를 손쉽게 생성하는 것까지 효율적인 CAD 파일 조작 방법을 알아보세요.
-type: docs
 weight: 31
 url: /ko/java/dgn-export-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# DGN 내보내기 튜토리얼
+
 ## 소개
 
 Aspose.CAD for Java는 원활한 DGN 내보내기 기능을 제공하여 CAD 애호가에게 가능성의 세계를 열어줍니다. 이 튜토리얼 시리즈에서는 Java 애플리케이션의 CAD 파일 조작 능력을 향상시키는 필수 기술을 안내합니다.
@@ -39,3 +45,9 @@ Java용 Aspose.CAD를 사용하여 포함된 DGN 파일을 PDF로 내보내는 �
 Java용 Aspose.CAD를 사용하여 DGN 파일을 PDF의 AutoCAD 형식으로 내보내는 방법에 대한 단계별 가이드를 살펴보세요. Java 애플리케이션의 CAD 처리 기능을 손쉽게 향상시키십시오.
 ### [AutoCAD 형식의 DGN을 래스터 이미지 형식으로 내보내기](./exporting-dgn-to-raster-image/)
 Aspose.CAD를 사용하여 Java에서 DGN 파일을 JPEG 이미지로 내보내는 방법을 알아보세요. 이 단계별 튜토리얼은 프로세스를 쉽게 안내합니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

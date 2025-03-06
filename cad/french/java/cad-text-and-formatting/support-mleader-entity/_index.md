@@ -3,10 +3,16 @@ title: Prise en charge de l'entité MLeader pour le format DWG avec Aspose.CAD p
 linktitle: Prise en charge de l'entité MLeader pour le format DWG avec Java
 second_title: API Java Aspose.CAD
 description: Libérez la puissance d'Aspose.CAD pour Java avec notre didacticiel étape par étape sur la prise en charge des entités MLeader au format DWG.
-type: docs
 weight: 12
 url: /fr/java/cad-text-and-formatting/support-mleader-entity/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Prise en charge de l'entité MLeader pour le format DWG avec Aspose.CAD pour Java
+
 ## Introduction
 
 Dans le domaine de la conception assistée par ordinateur (CAO) avec Java, comprendre et mettre en œuvre la prise en charge des entités MLeader au format DWG est une compétence précieuse. Aspose.CAD pour Java fournit une solution robuste pour de telles tâches, offrant un ensemble d'outils et de fonctionnalités puissants. Ce didacticiel vous guidera tout au long du processus de prise en charge des entités MLeader dans les fichiers DWG à l'aide de Java avec Aspose.CAD.
@@ -146,3 +152,9 @@ A4 : Obtenez une licence temporaire via[ce lien](https://purchase.aspose.com/t
 ### Q5 : Où puis-je demander le soutien et l’assistance de la communauté ?
 
 A5 : Visitez le[Forum Aspose.CAD](https://forum.aspose.com/c/cad/19) pour se connecter avec la communauté et obtenir de l'aide.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

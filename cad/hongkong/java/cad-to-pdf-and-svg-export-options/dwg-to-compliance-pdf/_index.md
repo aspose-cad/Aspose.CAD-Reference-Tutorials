@@ -3,10 +3,16 @@ title: 使用 Aspose.CAD for Java 將 DWG 轉換為合規性 PDF
 linktitle: DWG 到合規性 PDF
 second_title: Aspose.CAD Java API
 description: 使用 Aspose.CAD for Java 輕鬆將 DWG 繪圖轉換為 PDF/A1a 和 PDF/A1b 相容檔案。精確輕鬆地簡化您的工作流程。
-type: docs
 weight: 11
 url: /zh-hant/java/cad-to-pdf-and-svg-export-options/dwg-to-compliance-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.CAD for Java 將 DWG 轉換為合規性 PDF
+
 ## 介紹
 
 在不斷發展的數位設計世界中，將 DWG 工程圖轉換為合規的 PDF 格式對於無縫協作和標準化文件至關重要。 Aspose.CAD for Java 成為了一個強大的工具，在此過程中提供了效率和精確度。在本教學中，我們將探討如何利用 Aspose.CAD for Java 輕鬆將 DWG 檔案轉換為相容的 PDF，確保遵守 PDF/A1a 和 PDF/A1b 標準。
@@ -111,3 +117,9 @@ A2：當然！ Aspose.CAD 提供了一系列自訂選項，可讓您根據您的
 ### Q5：我可以在購買前免費試用 Aspose.CAD 嗎？
 
  A5：當然！從以下位置下載免費試用版[這裡](https://releases.aspose.com/)在做出決定之前探索能力。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

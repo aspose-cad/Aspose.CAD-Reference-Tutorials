@@ -3,10 +3,16 @@ title: Export konkrétních rozvržení do PDF - Průvodce Aspose.CAD
 linktitle: Export konkrétních rozvržení do PDF
 second_title: Aspose.CAD .NET – formát souborů CAD a BIM
 description: Naučte se exportovat konkrétní rozvržení do PDF pomocí Aspose.CAD for .NET. Podrobný průvodce pro bezproblémovou integraci.
-type: docs
 weight: 13
 url: /cs/net/advanced-export-techniques/exporting-specific-layouts-to-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Export konkrétních rozvržení do PDF - Průvodce Aspose.CAD
+
 ## Úvod
 
 Vítejte v našem podrobném průvodci exportem konkrétních rozvržení do PDF pomocí Aspose.CAD pro .NET. Aspose.CAD je výkonná knihovna, která umožňuje vývojářům bezproblémově pracovat s formáty souborů CAD. V tomto tutoriálu se zaměříme na export konkrétních rozvržení ze souboru DWG do PDF pomocí Aspose.CAD v prostředí .NET.
@@ -110,3 +116,9 @@ Odpověď 2: Ano, Aspose.CAD podporuje různé formáty CAD, včetně DWG, DXF, 
 ### Q5: Je k dispozici bezplatná zkušební verze?
 
  A5: Ano, máte přístup k bezplatné zkušební verzi[tady](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

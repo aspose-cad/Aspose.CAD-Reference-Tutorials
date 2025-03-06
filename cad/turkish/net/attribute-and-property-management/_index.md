@@ -3,10 +3,16 @@ title: Özellik ve Mülk Yönetimi
 linktitle: Özellik ve Mülk Yönetimi
 second_title: Aspose.CAD .NET - CAD ve BIM Dosya Formatı
 description: Aspose.CAD for .NET ile CAD çizimlerinizi geliştirin! Öğreticilerle öznitelikleri ve özel özellikleri sorunsuz bir şekilde eklemeyi öğrenin. Tasarımlarınızı zahmetsizce geliştirin.
-type: docs
 weight: 30
 url: /tr/net/attribute-and-property-management/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Özellik ve Mülk Yönetimi
+
 
 
 ## giriiş
@@ -47,3 +53,9 @@ Sonuç olarak Aspose.CAD for .NET, özellik ve özellik yönetiminde olasılıkl
 Aspose.CAD for .NET'i kullanarak CAD çizimlerinizi niteliklerle geliştirin. Sorunsuz entegrasyon için adım adım kılavuzumuzu izleyin.
 ### [DWG Dosyalarına Özel Özellikler Ekleme - Aspose.CAD Guide](./adding-custom-properties-to-dwg/)
 Aspose.CAD for .NET'i kullanarak DWG dosyalarınızı özel özelliklerle geliştirin. Anlamlı meta verileri zahmetsizce eklemek için adım adım kılavuzumuzu izleyin.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: عرض ملفات DXF بصيغة PDF - دليل Aspose.CAD
 linktitle: تقديم ملفات DXF بصيغة PDF
 second_title: Aspose.CAD .NET - تنسيق ملف CAD وBIM
 description: استكشف الدليل النهائي حول عرض ملفات DXF بصيغة PDF باستخدام Aspose.CAD لـ .NET. قم بتحويل ملفات CAD بسهولة من خلال برنامجنا التعليمي خطوة بخطوة.
-type: docs
 weight: 11
 url: /ar/net/tracking-and-rendering/rendering-dxf-files-as-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# عرض ملفات DXF بصيغة PDF - دليل Aspose.CAD
+
 ## مقدمة
 
 مرحبًا بك في دليلنا خطوة بخطوة حول عرض ملفات DXF بتنسيق PDF باستخدام Aspose.CAD لـ .NET. Aspose.CAD هي مكتبة قوية تمكن المطورين من العمل مع تنسيقات CAD دون عناء. في هذا البرنامج التعليمي، سنرشدك خلال عملية تحويل ملفات DXF إلى PDF، مما يوفر لك حلاً سلسًا وفعالاً للمهام المتعلقة بـ CAD.
@@ -94,3 +100,9 @@ image.Save(outPath, options);
 ### س5: هل تحتاج إلى مساعدة أو لديك أسئلة محددة؟
 
  ج5: قم بزيارة مجتمع Aspose.CAD[المنتدى](https://forum.aspose.com/c/cad/19) للدعم والمناقشات.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

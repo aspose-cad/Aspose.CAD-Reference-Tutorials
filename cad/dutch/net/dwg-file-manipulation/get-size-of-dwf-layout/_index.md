@@ -3,10 +3,16 @@ title: Werken met DWG-bestanden in C# - Verkrijg de grootte van de DWF-indeling
 linktitle: Werken met DWG-bestanden in C# - Verkrijg de grootte van de DWF-indeling
 second_title: Aspose.CAD .NET - CAD- en BIM-bestandsindeling
 description: Ontdek de kracht van Aspose.CAD voor .NET bij het verwerken van DWG-bestanden. Leer moeiteloos DWF-lay-outformaten extraheren met C#.
-type: docs
 weight: 10
 url: /nl/net/dwg-file-manipulation/get-size-of-dwf-layout/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Werken met DWG-bestanden in C# - Verkrijg de grootte van de DWF-indeling
+
 ## Invoering
 
 Op het gebied van computerondersteund ontwerp (CAD) en .NET-ontwikkeling is Aspose.CAD een krachtig hulpmiddel voor het verwerken van DWG-bestanden. Deze tutorial leidt u door het proces van het werken met DWG-bestanden in C# en het extraheren van de grootte van een DWF-lay-out. Voordat we in de code duiken, moeten we ervoor zorgen dat je alles hebt ingesteld om aan deze reis te beginnen.
@@ -163,3 +169,9 @@ A4: Ga voor vragen of hulp naar de[Aspose.CAD-forum](https://forum.aspose.com/c/
 ### V5: Is er een gratis proefversie beschikbaar voor Aspose.CAD?
 
  A5: Ja, u heeft toegang tot een gratis proefversie van Aspose.CAD[hier](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

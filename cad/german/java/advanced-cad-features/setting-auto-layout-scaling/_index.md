@@ -3,10 +3,16 @@ title: Festlegen der automatischen Layoutskalierung mit Aspose.CAD für Java
 linktitle: Einstellen der automatischen Layoutskalierung
 second_title: Aspose.CAD Java API
 description: Verbessern Sie Ihren CAD-Workflow mit Aspose.CAD für Java. In dieser Schritt-für-Schritt-Anleitung wird die automatische Layoutskalierung vorgestellt, die eine optimale Anzeige und Effizienz gewährleistet. Laden Sie die Bibliothek herunter, folgen Sie dem Tutorial und revolutionieren Sie Ihre CAD-Projekte.
-type: docs
 weight: 17
 url: /de/java/advanced-cad-features/setting-auto-layout-scaling/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Festlegen der automatischen Layoutskalierung mit Aspose.CAD für Java
+
 ## Einführung
 
 In der dynamischen Welt des computergestützten Designs (CAD) ist Effizienz der Schlüssel zum Erfolg. Aspose.CAD für Java bietet eine Reihe robuster Tools zur Verbesserung Ihres CAD-Workflows. Eine der herausragenden Funktionen ist die automatische Layoutskalierung, eine Funktion, die sicherstellt, dass Ihre Layouts nahtlos für eine optimale Anzeige angepasst werden. In diesem Tutorial erfahren Sie Schritt für Schritt, wie Sie die automatische Layoutskalierung mit Aspose.CAD für Java implementieren.
@@ -93,3 +99,9 @@ A1: Aspose.CAD für Java unterstützt verschiedene CAD-Formate, einschließlich 
 ### F5: Wie kann ich Hilfe suchen oder mich an Diskussionen über Aspose.CAD für Java beteiligen?
 
 A5: Besuchen Sie die[Aspose.CAD-Forum](https://forum.aspose.com/c/cad/19) um mit der Community in Kontakt zu treten und Unterstützung zu suchen.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

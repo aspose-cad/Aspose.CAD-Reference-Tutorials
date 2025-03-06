@@ -3,10 +3,16 @@ title: 将图像导出为 DXF 格式 - Aspose.CAD 指南
 linktitle: 将图像导出为 DXF 格式
 second_title: Aspose.CAD .NET - CAD 和 BIM 文件格式
 description: 探索 Aspose.CAD for .NET 的强大功能！了解如何轻松地将图像导出为 DXF 格式。提高 CAD 开发的精度和效率。
-type: docs
 weight: 15
 url: /zh/net/export-techniques/exporting-images-to-dxf-format/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 将图像导出为 DXF 格式 - Aspose.CAD 指南
+
 ## 介绍
 
 在软件开发的动态世界中，效率和精度至关重要。 Aspose.CAD for .NET 成为一种强大的工具，为开发人员提供无缝操作 CAD 绘图的能力。在本教程中，我们将深入研究在 .NET 环境中使用 Aspose.CAD 将图像导出为 DXF 格式的过程。按照此分步指南来释放该工具的潜力并增强您的 CAD 相关工作流程。
@@ -129,3 +135,9 @@ A2：当然！提供的代码旨在迭代指定目录中的多个 CAD 文件。
 ### Q5：Aspose.CAD 提供免费试用吗？
 
  A5：是的，您可以探索免费试用[这里](https://releases.aspose.com/)体验 Aspose.CAD 的功能。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

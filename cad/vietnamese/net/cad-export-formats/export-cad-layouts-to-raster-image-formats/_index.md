@@ -3,10 +3,16 @@ title: Xuất bố cục CAD sang định dạng hình ảnh raster trong Aspose
 linktitle: Xuất bố cục CAD sang định dạng hình ảnh raster
 second_title: Aspose.CAD .NET - Định dạng tệp CAD và BIM
 description: Tìm hiểu cách xuất bố cục CAD sang hình ảnh raster bằng Aspose.CAD cho .NET. Hãy làm theo hướng dẫn từng bước của chúng tôi để chuyển đổi liền mạch.
-type: docs
 weight: 10
 url: /vi/net/cad-export-formats/export-cad-layouts-to-raster-image-formats/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Xuất bố cục CAD sang định dạng hình ảnh raster trong Aspose.CAD cho .NET
+
 ## Giới thiệu
 
 Bạn đang tìm cách chuyển đổi hiệu quả bố cục CAD sang định dạng hình ảnh raster bằng Aspose.CAD cho .NET? Hướng dẫn từng bước này sẽ hướng dẫn bạn thực hiện quy trình, cung cấp hướng dẫn chi tiết và đoạn mã để thực hiện công việc một cách liền mạch. Cho dù bạn là nhà phát triển dày dạn kinh nghiệm hay người mới làm quen với Aspose.CAD, hướng dẫn này sẽ đáp ứng mọi cấp độ chuyên môn.
@@ -112,3 +118,9 @@ Chúc mừng! Bạn đã học thành công cách xuất bố cục CAD sang đ�
 ### Câu 5: Tôi có thể tìm tài liệu ở đâu?
 
  A5: Tham khảo tài liệu chi tiết[đây](https://reference.aspose.com/cad/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

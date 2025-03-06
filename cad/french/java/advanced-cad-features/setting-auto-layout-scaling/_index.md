@@ -3,10 +3,16 @@ title: Configuration de la mise à l'échelle automatique de la mise en page ave
 linktitle: Définition de la mise à l'échelle automatique de la mise en page
 second_title: API Java Aspose.CAD
 description: Améliorez votre flux de travail CAO avec Aspose.CAD pour Java. Ce guide étape par étape présente la mise à l'échelle automatique de la mise en page, garantissant un affichage et une efficacité optimaux. Téléchargez la bibliothèque, suivez le tutoriel et révolutionnez vos projets CAO.
-type: docs
 weight: 17
 url: /fr/java/advanced-cad-features/setting-auto-layout-scaling/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Configuration de la mise à l'échelle automatique de la mise en page avec Aspose.CAD pour Java
+
 ## Introduction
 
 Dans le monde dynamique de la conception assistée par ordinateur (CAO), l’efficacité est essentielle. Aspose.CAD pour Java fournit un ensemble d'outils robustes pour améliorer votre flux de travail de CAO. L'une des fonctionnalités les plus remarquables est la mise à l'échelle automatique de la mise en page, une fonctionnalité qui garantit que vos mises en page sont parfaitement ajustées pour un affichage optimal. Dans ce didacticiel, nous explorerons comment implémenter étape par étape Auto Layout Scaling à l'aide d'Aspose.CAD pour Java.
@@ -93,3 +99,9 @@ A1 : Aspose.CAD pour Java prend en charge divers formats de CAO, notamment DWG, 
 ### Q5 : Comment puis-je demander de l'aide ou participer à des discussions sur Aspose.CAD pour Java ?
 
 A5 : Visitez le[Forum Aspose.CAD](https://forum.aspose.com/c/cad/19) pour se connecter avec la communauté et chercher du soutien.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Hết thời gian lưu cho CAD với Aspose.CAD
 linktitle: Đặt thời gian chờ để lưu
 second_title: API Java Aspose.CAD
 description: Tìm hiểu cách tăng hiệu suất ứng dụng Java của bạn với Aspose.CAD. Đặt thời gian chờ để lưu bản vẽ CAD. Thực hiện theo hướng dẫn từng bước của chúng tôi.
-type: docs
 weight: 15
 url: /vi/java/other-cad-operations/put-timeout-on-save/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Hết thời gian lưu cho CAD với Aspose.CAD
+
 ## Giới thiệu
 
 Chào mừng bạn đến với hướng dẫn về cách đặt thời gian chờ khi lưu bằng Aspose.CAD cho Java. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn quy trình đặt thời gian chờ để lưu bản vẽ CAD nhằm nâng cao hiệu suất ứng dụng của bạn. Aspose.CAD cho Java là một thư viện mạnh mẽ cho phép bạn làm việc liền mạch với các tệp CAD trong ứng dụng Java của mình.
@@ -131,3 +137,9 @@ Câu trả lời 3: Có, bạn có thể dùng thử miễn phí từ[liên kế
 ### Câu 5: Cần trợ giúp hoặc có thắc mắc?
 
  A5: Đi tới[Diễn đàn Aspose.CAD](https://forum.aspose.com/c/cad/19) để hỗ trợ cộng đồng.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

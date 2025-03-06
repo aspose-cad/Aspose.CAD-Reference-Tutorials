@@ -3,10 +3,16 @@ title: Justera CAD-ritningsstorlek med hjälp av enhetstyp med Aspose.CAD för J
 linktitle: Justera CAD-ritningsstorlek med hjälp av enhetstyp
 second_title: Aspose.CAD Java API
 description: Utforska kraften i Aspose.CAD för Java för att enkelt justera CAD-ritningsstorlekar. Följ vår steg-för-steg-guide för precision och anpassningsförmåga.
-type: docs
 weight: 14
 url: /sv/java/cad-file-manipulation/adjusting-cad-drawing-size-using-unit-type/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Justera CAD-ritningsstorlek med hjälp av enhetstyp med Aspose.CAD för Java
+
 ## Introduktion
 
 den ständigt föränderliga sfären av datorstödd design (CAD) är precision och anpassningsförmåga avgörande. Ett vanligt krav är att anpassa storleken på CAD-ritningar utifrån specifika enhetstyper. Aspose.CAD för Java framstår som en kraftfull allierad, vilket ger sömlösa möjligheter att manipulera CAD-filer programmatiskt.
@@ -117,3 +123,9 @@ S1: Aspose.CAD stöder i första hand Java, men det finns versioner tillgänglig
 ### F5: Kan jag få en tillfällig licens för Aspose.CAD?
 
  S5: Ja, du kan skaffa en tillfällig licens[här](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

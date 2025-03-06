@@ -3,10 +3,16 @@ title: إضافة نص إلى ملفات DWG في C# - البرنامج التع
 linktitle: إضافة نص إلى ملفات DWG في C#
 second_title: Aspose.CAD .NET - تنسيق ملف CAD وBIM
 description: تعرف على كيفية إضافة نص إلى ملفات DWG باستخدام C# وAspose.CAD. اتبع هذا البرنامج التعليمي خطوة بخطوة لتحقيق التكامل السلس. استكشف وثائق Aspose.CAD للحصول على إرشادات شاملة.
-type: docs
 weight: 14
 url: /ar/net/dwg-file-manipulation/adding-text-to-dwg/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إضافة نص إلى ملفات DWG في C# - البرنامج التعليمي Aspose.CAD
+
 ## مقدمة
 
 في المجال الديناميكي للتصميم بمساعدة الكمبيوتر (CAD) وتطوير .NET، يبرز Aspose.CAD كأداة قوية لمعالجة ملفات DWG. تعد إضافة نص إلى ملفات DWG مطلبًا شائعًا، وفي هذا البرنامج التعليمي، سنستكشف كيفية تحقيق ذلك باستخدام C# وAspose.CAD.
@@ -125,3 +131,9 @@ image.Save(MyDir + "SimpleEntites_generated.pdf", pdfOptions);
 ### س5: أين يمكنني طلب المساعدة أو مناقشة الاستعلامات المتعلقة بـ Aspose.CAD؟
 
 ج5: قم بزيارة[منتدى Aspose.CAD](https://forum.aspose.com/c/cad/19)للتواصل مع المجتمع والحصول على الدعم.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Работа с файлами DWG
 linktitle: Работа с файлами DWG
 second_title: Aspose.CAD .NET — формат файлов CAD и BIM
 description: Раскройте возможности Aspose.CAD в .NET с помощью наших руководств по DWG. Освойте C# для эффективной работы с САПР и беспрепятственного извлечения размеров макетов DWF.
-type: docs
 weight: 24
 url: /ru/net/dwg-file-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Работа с файлами DWG
+
 
 ## Введение
 
@@ -39,3 +45,9 @@ url: /ru/net/dwg-file-manipulation/
 Раскройте возможности Aspose.CAD для .NET при изучении флагов подложки файлов DWG. Следуйте нашему пошаговому руководству.
 ### [Добавление текста в файлы DWG на C# - Учебное пособие по Aspose.CAD](./adding-text-to-dwg/)
 Узнайте, как добавлять текст в файлы DWG с помощью C# и Aspose.CAD. Следуйте этому пошаговому руководству для бесшовной интеграции. Изучите документацию Aspose.CAD для получения подробных рекомендаций.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

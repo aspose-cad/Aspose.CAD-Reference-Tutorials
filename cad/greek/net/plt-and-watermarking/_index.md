@@ -3,10 +3,16 @@ title: PLT και Watermarking
 linktitle: PLT και Watermarking
 second_title: Aspose.CAD .NET - Μορφή αρχείου CAD και BIM
 description: Ξεκλειδώστε τις δυνατότητες της μορφής PLT με το Aspose.CAD για .NET. Ενσωματώστε αβίαστα αρχεία PLT στις εφαρμογές σας με τα βήμα προς βήμα σεμινάρια μας.
-type: docs
 weight: 37
 url: /el/net/plt-and-watermarking/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# PLT και Watermarking
+
 
 ## Εισαγωγή
 
@@ -46,3 +52,9 @@ url: /el/net/plt-and-watermarking/
 Ανακαλύψτε την απρόσκοπτη υποστήριξη μορφής PLT στο Aspose.CAD για .NET. Ακολουθήστε τον οδηγό βήμα προς βήμα για την ενσωμάτωση αρχείων PLT στις εφαρμογές σας .NET χωρίς κόπο.
 ### [Προσθήκη υδατογραφημάτων σε σχέδια CAD - Οδηγός Aspose.CAD](./adding-watermarks-to-cad-drawings/)
 Βελτιώστε τα σχέδιά σας CAD με επαγγελματικά υδατογραφήματα χρησιμοποιώντας το Aspose.CAD για .NET. Ακολουθήστε τον βήμα προς βήμα οδηγό μας για εξατομικευμένα και ελκυστικά σχέδια.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

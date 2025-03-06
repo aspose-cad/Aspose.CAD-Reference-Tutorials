@@ -1,12 +1,17 @@
 ---
 title: Comprehensive Tutorials and Examples of Aspose.CAD for .NET 
 linktitle: Aspose.CAD for .NET Tutorials
-type: docs
 weight: 10
 url: /net/
 description: Master Aspose.CAD for .NET with comprehensive tutorials. Elevate your CAD skills from licensing to advanced export techniques. Unlock hidden features effortlessly.
-is_root: true
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Comprehensive Tutorials and Examples of Aspose.CAD for .NET
+
 
 ## Introduction
 
@@ -61,3 +66,9 @@ Optimize your CAD applications with Aspose.CAD for .NET! Master the art of seaml
 Effortlessly convert PLT files to images and PDFs with Aspose.CAD for .NET. Explore seamless integration and flexible options for CAD file manipulation.
 ### [STL File Export](./stl-file-export/)
 Effortlessly export STL files to PNG with Aspose.CAD for .NET. Our step-by-step guide ensures seamless integration. Learn through Aspose.CAD For .NET tutorials.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

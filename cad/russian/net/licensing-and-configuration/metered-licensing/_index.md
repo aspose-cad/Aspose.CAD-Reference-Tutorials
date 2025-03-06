@@ -3,10 +3,16 @@ title: Лимитное лицензирование в Aspose.CAD для .NET
 linktitle: Лимитное лицензирование
 second_title: Aspose.CAD .NET — формат файлов CAD и BIM
 description: Раскройте потенциал Aspose.CAD с помощью дозированного лицензирования в .NET. Беспрепятственно оптимизируйте использование ресурсов. Ознакомьтесь с нашим пошаговым руководством.
-type: docs
 weight: 12
 url: /ru/net/licensing-and-configuration/metered-licensing/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Лимитное лицензирование в Aspose.CAD для .NET
+
 ## Введение
 
 Чтобы раскрыть весь потенциал Aspose.CAD для .NET, необходимо понять тонкости дозированного лицензирования. Эта мощная функция позволяет разработчикам эффективно управлять потреблением ресурсов, используя при этом возможности Aspose.CAD. В этом пошаговом руководстве мы углубимся в процесс внедрения дозированного лицензирования, разбив каждый важный шаг, чтобы обеспечить плавную интеграцию в ваши проекты .NET.
@@ -97,3 +103,9 @@ Console.WriteLine("Amount Consumed After: " + amountafter.ToString());
 ### Вопрос 5: Могу ли я временно лицензировать Aspose.CAD для конкретных проектов?
 
  A5: Да, изучите[варианты временного лицензирования](https://purchase.aspose.com/temporary-license/) для краткосрочных требований проекта.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

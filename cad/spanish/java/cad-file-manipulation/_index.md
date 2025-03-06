@@ -3,10 +3,16 @@ title: Manipulación de archivos CAD
 linktitle: Manipulación de archivos CAD
 second_title: API de Java Aspose.CAD
 description: ¡Desbloquee el poder de los archivos CAD con Aspose.CAD para Java! Convierta DWFX a PDF, acceda a indicadores DWG, diseños de listas y ajuste automático de tamaños con nuestros tutoriales.
-type: docs
 weight: 23
 url: /es/java/cad-file-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Manipulación de archivos CAD
+
 
 ## Introducción
 
@@ -44,3 +50,9 @@ Explore Aspose.CAD para Java y enumere diseños en archivos DWG sin esfuerzo. In
 Explore el proceso fluido de ajuste automático de tamaños de dibujos CAD en Java utilizando Aspose.CAD. Siga nuestra guía paso a paso para una manipulación eficiente de archivos CAD.
 ### [Ajustar el tamaño del dibujo CAD usando el tipo de unidad con Aspose.CAD para Java](./adjusting-cad-drawing-size-using-unit-type/)
 Explore el poder de Aspose.CAD para Java para ajustar los tamaños de los dibujos CAD sin esfuerzo. Siga nuestra guía paso a paso para obtener precisión y adaptabilidad.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

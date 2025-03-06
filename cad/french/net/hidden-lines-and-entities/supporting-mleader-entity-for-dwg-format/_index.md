@@ -3,10 +3,16 @@ title: Prise en charge de l'entité MLeader pour le format DWG - Guide Aspose.CA
 linktitle: Prise en charge de l'entité MLeader pour le format DWG
 second_title: Aspose.CAD .NET - Format de fichier CAO et BIM
 description: Libérez la puissance des entités MLeader au format DWG avec Aspose.CAD pour .NET. Élevez vos projets CAO sans effort.
-type: docs
 weight: 11
 url: /fr/net/hidden-lines-and-entities/supporting-mleader-entity-for-dwg-format/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Prise en charge de l'entité MLeader pour le format DWG - Guide Aspose.CAD
+
 ## Introduction
 
 Dans le monde dynamique de la conception assistée par ordinateur (CAO), il est crucial de rester en avance avec les dernières caractéristiques et fonctionnalités. L'une de ces fonctionnalités prend en charge les entités MLeader au format DWG. Aspose.CAD for .NET fournit un ensemble d'outils puissants pour gérer cela efficacement.
@@ -118,3 +124,9 @@ A4 : Pour toute question ou assistance, visitez le[Forum Aspose.CAD](https://fo
 ### Q5 : Puis-je essayer Aspose.CAD avant de faire un achat ?
 
  A5 : Oui, vous pouvez explorer un[essai gratuit](https://releases.aspose.com/) d'Aspose.CAD pour découvrir ses capacités avant de prendre une décision.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

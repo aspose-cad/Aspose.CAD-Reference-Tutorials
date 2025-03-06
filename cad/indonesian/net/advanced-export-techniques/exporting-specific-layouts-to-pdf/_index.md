@@ -3,10 +3,16 @@ title: Mengekspor Tata Letak Tertentu ke PDF - Panduan Aspose.CAD
 linktitle: Mengekspor Tata Letak Tertentu ke PDF
 second_title: Aspose.CAD .NET - Format File CAD dan BIM
 description: Pelajari cara mengekspor tata letak tertentu ke PDF menggunakan Aspose.CAD untuk .NET. Panduan langkah demi langkah untuk integrasi yang lancar.
-type: docs
 weight: 13
 url: /id/net/advanced-export-techniques/exporting-specific-layouts-to-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Mengekspor Tata Letak Tertentu ke PDF - Panduan Aspose.CAD
+
 ## Perkenalan
 
 Selamat datang di panduan langkah demi langkah kami tentang mengekspor tata letak tertentu ke PDF menggunakan Aspose.CAD untuk .NET. Aspose.CAD adalah perpustakaan canggih yang memungkinkan pengembang bekerja dengan format file CAD dengan lancar. Dalam tutorial ini, kami akan fokus mengekspor tata letak tertentu dari file DWG ke PDF menggunakan Aspose.CAD di lingkungan .NET.
@@ -110,3 +116,9 @@ A2: Ya, Aspose.CAD mendukung berbagai format CAD, termasuk DWG, DXF, DWF, dan ba
 ### Q5: Apakah tersedia uji coba gratis?
 
  A5: Ya, Anda dapat mengakses uji coba gratis[Di Sini](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

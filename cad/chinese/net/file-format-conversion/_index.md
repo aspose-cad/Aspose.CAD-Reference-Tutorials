@@ -3,10 +3,16 @@ title: 文件格式转换
 linktitle: 文件格式转换
 second_title: Aspose.CAD .NET - CAD 和 BIM 文件格式
 description: 使用 Aspose.CAD for .NET 轻松增强您的 CAD 文件处理能力。探索有关将 DWF 导出为 PDF 以及将 3D 图像导出为 BMP 格式的教程。
-type: docs
 weight: 36
 url: /zh/net/file-format-conversion/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 文件格式转换
+
 
 ## 介绍
 
@@ -46,3 +52,9 @@ url: /zh/net/file-format-conversion/
 探索有关使用 Aspose.CAD for .NET 将 DWF 导出为 PDF 的无缝指南。轻松增强您的 CAD 文件处理能力。
 ### [导出为 BMP 格式 - Aspose.CAD 教程](./exporting-to-bmp-format/)
 使用 Aspose.CAD for .NET 探索将 3D 图像导出为 BMP 的无缝世界。按照我们的教程获得无忧的体验。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

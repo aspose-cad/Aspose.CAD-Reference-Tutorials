@@ -3,10 +3,16 @@ title: Освоение работы с элементами DGN с легкос
 linktitle: Поддерживаемые элементы DGN
 second_title: API Aspose.CAD Java
 description: Исследуйте возможности Aspose.CAD для Java, позволяющие легко обрабатывать элементы DGN. Наше пошаговое руководство обеспечивает плавную интеграцию обработки файлов САПР.
-type: docs
 weight: 10
 url: /ru/java/other-cad-operations/supported-dgn-elements/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Освоение работы с элементами DGN с легкостью — Aspose.CAD для Java
+
 ## Введение
 
 Добро пожаловать в наше пошаговое руководство по работе с элементами DGN (Design) с использованием Aspose.CAD для Java. Aspose.CAD — это мощная библиотека Java, позволяющая эффективно работать с файлами САПР. В этом руководстве мы сосредоточимся на поддерживаемых элементах DGN и проведем вас через процесс их обработки с помощью Aspose.CAD.
@@ -118,3 +124,9 @@ case DgnElementType.CellHeader:
 ### Вопрос 5: Доступны ли временные лицензии для Aspose.CAD?
 
  О5: Да, вы можете получить временные лицензии.[здесь](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

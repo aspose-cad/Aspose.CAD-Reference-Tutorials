@@ -3,10 +3,16 @@ title: Преобразование документа DWG в изображен
 linktitle: Преобразование документа DWG в изображение с помощью Java
 second_title: API Aspose.CAD Java
 description: Изучите плавную интеграцию Aspose.CAD для Java при преобразовании документов DWG в изображения. Следуйте нашему пошаговому руководству для достижения эффективных результатов.
-type: docs
 weight: 11
 url: /ru/java/cad-meta-data-and-rendering/render-dwg-to-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Преобразование документа DWG в изображение с помощью Aspose.CAD для Java
+
 ## Введение
 
 В динамичном мире разработки Java Aspose.CAD выделяется как мощный инструмент для работы с файлами автоматизированного проектирования (САПР). В этом уроке мы рассмотрим процесс рендеринга документа DWG в изображение с помощью Aspose.CAD для Java. Независимо от того, являетесь ли вы опытным разработчиком или только начинаете свой путь программирования, это пошаговое руководство проведет вас через этот процесс ясно и легко.
@@ -105,3 +111,9 @@ image.save(dataDir + "ExportSpecificLayoutToPDF_out_.pdf", pdfOptions);
 ### Вопрос 5: Доступны ли в Aspose.CAD дополнительные параметры рендеринга?
 
  A5: Конечно, изучите обширную[документация](https://reference.aspose.com/cad/java/) для получения подробной информации.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

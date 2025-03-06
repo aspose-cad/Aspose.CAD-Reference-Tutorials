@@ -3,10 +3,16 @@ title: Ekspor Gambar DXF ke PDF dengan Aspose.CAD untuk Java
 linktitle: Ekspor Gambar DXF ke PDF dengan Java
 second_title: Aspose.CAD Java API
 description: Jelajahi konversi gambar DXF ke PDF yang mulus di Java dengan Aspose.CAD. Tingkatkan alur kerja CAD Anda dengan mudah.
-type: docs
 weight: 13
 url: /id/java/additional-features/export-dxf-to-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ekspor Gambar DXF ke PDF dengan Aspose.CAD untuk Java
+
 ## Perkenalan
 
 Dalam dunia pengembangan Java, Aspose.CAD adalah alat canggih yang memungkinkan manipulasi dan konversi gambar CAD dengan lancar. Dalam tutorial ini, kita akan mempelajari proses mengekspor gambar DXF ke PDF menggunakan Aspose.CAD untuk Java. Panduan langkah demi langkah ini akan memandu Anda melalui keseluruhan prosedur, memastikan Anda memahami setiap konsep secara menyeluruh.
@@ -102,3 +108,9 @@ Selamat! Anda telah berhasil mempelajari cara mengekspor gambar DXF ke PDF mengg
 ### Q5: Bagaimana cara mendapatkan lisensi sementara?
 
  A5: Dapatkan a[izin sementara](https://purchase.aspose.com/temporary-license/) untuk tujuan pengujian dan evaluasi.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

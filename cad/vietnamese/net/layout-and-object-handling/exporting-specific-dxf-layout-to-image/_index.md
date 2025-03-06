@@ -3,10 +3,16 @@ title: Xuất bố cục DXF cụ thể sang hình ảnh - Hướng dẫn Aspose
 linktitle: Xuất bố cục DXF cụ thể sang hình ảnh
 second_title: Aspose.CAD .NET - Định dạng tệp CAD và BIM
 description: Khám phá hướng dẫn từng bước về cách sử dụng Aspose.CAD cho .NET để xuất bố cục DXF cụ thể sang hình ảnh. Tối đa hóa hiệu quả phát triển .NET của bạn với hướng dẫn mạnh mẽ này.
-type: docs
 weight: 10
 url: /vi/net/layout-and-object-handling/exporting-specific-dxf-layout-to-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Xuất bố cục DXF cụ thể sang hình ảnh - Hướng dẫn Aspose.CAD
+
 ## Giới thiệu
 
 Trong lĩnh vực phát triển .NET, Aspose.CAD nổi bật như một công cụ mạnh mẽ để xử lý các tệp Thiết kế hỗ trợ máy tính (CAD). Cụ thể, nó cung cấp chức năng toàn diện để xuất bố cục DXF cụ thể sang hình ảnh. Hướng dẫn này sẽ hướng dẫn bạn từng bước thực hiện quy trình, cho phép bạn khai thác các khả năng của Aspose.CAD một cách dễ dàng.
@@ -105,3 +111,9 @@ Câu trả lời 1: Có, Aspose.CAD tương thích với nhiều khung .NET khá
 ### Câu hỏi 5: Tôi có thể tìm tài liệu chi tiết về Aspose.CAD ở đâu?
 
  A5: Tham khảo toàn diện[Tài liệu Aspose.CAD](https://reference.aspose.com/cad/net/) để biết thông tin chuyên sâu.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

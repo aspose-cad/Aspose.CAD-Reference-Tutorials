@@ -3,10 +3,16 @@ title: Exportation de fichiers STL
 linktitle: Exportation de fichiers STL
 second_title: Aspose.CAD .NET - Format de fichier CAO et BIM
 description: Exportez sans effort des fichiers STL au format PNG avec Aspose.CAD pour .NET. Notre guide étape par étape garantit une intégration transparente. Apprenez grâce aux didacticiels Aspose.CAD For .NET.
-type: docs
 weight: 42
 url: /fr/net/stl-file-export/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Exportation de fichiers STL
+
 
 ## Tutoriels d'exportation de fichiers STL
 
@@ -29,3 +35,9 @@ Convertissez sans effort des fichiers STL en PNG à l'aide d'Aspose.CAD pour .NE
 Pour améliorer davantage vos compétences, explorez notre liste complète de didacticiels Aspose.CAD pour .NET. Au-delà des exportations de fichiers STL, découvrez une myriade de fonctionnalités et de conseils pour rendre votre parcours de conception encore plus passionnant. Que vous soyez un utilisateur débutant ou avancé, nos didacticiels couvrent un large éventail de sujets, vous garantissant de rester à la pointe du développement CAO.
 
 En conclusion, libérer le potentiel des exportations de fichiers STL n’a jamais été aussi simple. Avec Aspose.CAD pour .NET, le processus complexe devient un jeu d'enfant. Plongez dans le monde de la conception 3D, armé des connaissances nécessaires pour convertir sans effort des fichiers STL en PNG. Explorez, créez et améliorez vos conceptions avec Aspose.CAD for .NET - votre passerelle vers une expérience de conception transparente.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

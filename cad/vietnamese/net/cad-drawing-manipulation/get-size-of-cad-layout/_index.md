@@ -3,10 +3,16 @@ title: Nhận kích thước bố cục CAD trong Aspose.CAD cho .NET
 linktitle: Nhận kích thước của bố cục CAD
 second_title: Aspose.CAD .NET - Định dạng tệp CAD và BIM
 description: Tìm hiểu cách truy xuất kích thước bố cục CAD trong .NET bằng Aspose.CAD. Thực hiện theo hướng dẫn từng bước của chúng tôi để thao tác tệp CAD hiệu quả.
-type: docs
 weight: 14
 url: /vi/net/cad-drawing-manipulation/get-size-of-cad-layout/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Nhận kích thước bố cục CAD trong Aspose.CAD cho .NET
+
 ## Giới thiệu
 
 Chào mừng bạn đến với hướng dẫn toàn diện này về cách lấy kích thước bố cục CAD bằng Aspose.CAD cho .NET. Aspose.CAD là một thư viện mạnh mẽ cho phép các nhà phát triển làm việc với các tệp CAD một cách liền mạch. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn quy trình truy xuất kích thước của bố cục CAD bằng các ví dụ thực tế và hướng dẫn từng bước.
@@ -143,3 +149,9 @@ A2: Chắc chắn rồi! Bạn có thể điều chỉnh các tùy chọn hình 
 ### Q5; Làm cách nào tôi có thể nhận được hỗ trợ kỹ thuật?
 
  Câu trả lời 5: Để được hỗ trợ kỹ thuật, hãy truy cập[Diễn đàn Aspose.CAD](https://forum.aspose.com/c/cad/19).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

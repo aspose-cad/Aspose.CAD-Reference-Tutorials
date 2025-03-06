@@ -3,10 +3,16 @@ title: Timeout vid Spara för CAD med Aspose.CAD
 linktitle: Sätt Timeout på Spara
 second_title: Aspose.CAD Java API
 description: Lär dig hur du förbättrar din Java-applikations prestanda med Aspose.CAD. Sätt en timeout på spara för CAD-ritningar. Följ vår steg-för-steg-guide.
-type: docs
 weight: 15
 url: /sv/java/other-cad-operations/put-timeout-on-save/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Timeout vid Spara för CAD med Aspose.CAD
+
 ## Introduktion
 
 Välkommen till handledningen om hur du sätter en timeout för att spara med Aspose.CAD för Java. I den här guiden går vi igenom processen att ställa in en timeout för att spara CAD-ritningar för att förbättra din applikations prestanda. Aspose.CAD för Java är ett kraftfullt bibliotek som låter dig arbeta med CAD-filer i dina Java-applikationer sömlöst.
@@ -131,3 +137,9 @@ A3: Ja, du kan få en gratis provperiod från[den här länken](https://releases
 ### F5: Behöver du hjälp eller har frågor?
 
  A5: Gå över till[Aspose.CAD-forum](https://forum.aspose.com/c/cad/19) för samhällsstöd.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

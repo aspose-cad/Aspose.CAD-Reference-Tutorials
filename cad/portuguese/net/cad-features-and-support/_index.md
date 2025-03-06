@@ -3,10 +3,16 @@ title: Recursos e suporte CAD
 linktitle: Recursos e suporte CAD
 second_title: Aspose.CAD .NET - Formato de arquivo CAD e BIM
 description: Desbloqueie todo o potencial dos recursos CAD com os tutoriais do Aspose.CAD for .NET. Aprenda suporte 3D para DGN V7, manipulação de malha, personalização de caneta e muito mais, sem esforço.
-type: docs
 weight: 23
 url: /pt/net/cad-features-and-support/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Recursos e suporte CAD
+
 
 ## Introdução
 
@@ -80,3 +86,9 @@ Explore os recursos poderosos do Aspose.CAD for .NET para lidar com arquivos DGN
 Explore o suporte perfeito do Aspose.CAD for .NET para arquivos DGN VConvert DGN para imagens rasterizadas sem esforço com orientação passo a passo.
 ### [Suporte de 3D para DGN V7 em Aspose.CAD para .NET](./support-of-3d-for-dgn-v7/)
 Desbloqueie o poder do suporte 3D para DGN V7 no Aspose.CAD for .NET. Siga nosso tutorial passo a passo.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

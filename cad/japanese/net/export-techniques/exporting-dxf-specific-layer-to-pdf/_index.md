@@ -3,10 +3,16 @@ title: DXF 特定のレイヤーを PDF にエクスポート - Aspose.CAD チ�
 linktitle: DXF 特定のレイヤーを PDF にエクスポートする
 second_title: Aspose.CAD .NET - CAD および BIM ファイル形式
 description: Aspose.CAD for .NET を使用して、特定のレイヤーを DXF ファイルから PDF にエクスポートする方法を学びます。シームレスな統合については、このステップバイステップ ガイドに従ってください。
-type: docs
 weight: 10
 url: /ja/net/export-techniques/exporting-dxf-specific-layer-to-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# DXF 特定のレイヤーを PDF にエクスポート - Aspose.CAD チュートリアル
+
 ## 導入
 
 .NET の CAD 開発の分野では、Aspose.CAD は、開発者が CAD ファイルを効率的に操作できるようにする堅牢なライブラリとして際立っています。その注目すべき機能の 1 つは、特定のレイヤーを DXF ファイルから PDF 形式にエクスポートできることです。このチュートリアルでは、プロセスを段階的にガイドし、この特定のタスクで Aspose.CAD の機能を活用する方法を示します。
@@ -101,3 +107,10 @@ A4: はい、Aspose.CAD はさまざまなエクスポート形式をサポー�
 ### Q5: PDF 出力をさらにカスタマイズできますか?
 
 A5: もちろんです。追加のオプションと構成については、Aspose.CAD ドキュメントを参照してください。
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

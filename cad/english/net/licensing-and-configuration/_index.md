@@ -3,10 +3,16 @@ title: Licensing and Configuration
 linktitle: Licensing and Configuration
 second_title: Aspose.CAD .NET - CAD and BIM File Format
 description: Elevate your CAD file manipulation game with Aspose.CAD for .NET! Apply licenses seamlessly using FileStream or by path with our step-by-step tutorials. 
-type: docs
 weight: 20
 url: /net/licensing-and-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Licensing and Configuration
+
 
 ## Introduction
 
@@ -32,3 +38,9 @@ In conclusion, with our step-by-step guides, you'll not only apply licenses effo
 Mastering Aspose.CAD for .NET: Apply licenses seamlessly using FileStream. Explore step-by-step guide and unlock the potential. Download now!
 ### [Metered Licensing in Aspose.CAD for .NET](./metered-licensing/)
 Unlock Aspose.CAD potential with metered licensing in .NET. Optimize resource usage seamlessly. Explore our step-by-step guide.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

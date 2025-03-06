@@ -3,10 +3,16 @@ title: تصدير DGN إلى DWG باستخدام Aspose.CAD لـ Java
 linktitle: تصدير DGN كجزء من DWG
 second_title: Aspose.CAD جافا API
 description: اكتشف كيفية تصدير DGN كجزء من DWG باستخدام Aspose.CAD لـ Java. اتبع دليلنا خطوة بخطوة لمعالجة ملفات CAD بكفاءة.
-type: docs
 weight: 10
 url: /ar/java/dgn-export-options/export-dgn-as-part-of-dwg/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تصدير DGN إلى DWG باستخدام Aspose.CAD لـ Java
+
 ## مقدمة
 
 في هذا البرنامج التعليمي، سنستكشف كيفية استخدام Aspose.CAD لـ Java لتصدير ملف DGN (MicroStation Design) كجزء من ملف DWG (رسم AutoCAD). Aspose.CAD هي مكتبة قوية توفر وظائف شاملة للعمل مع تنسيقات ملفات CAD. سيساعدك هذا الدليل التفصيلي خطوة بخطوة على فهم عملية تصدير DGN كجزء من DWG باستخدام Java.
@@ -125,3 +131,9 @@ cadImage.save(outPath, exportOptions);
 ### س5: هل تحتاج إلى مساعدة أو لديك أسئلة؟
 
  ج5: قم بزيارة منتدى دعم مجتمع Aspose.CAD[هنا](https://forum.aspose.com/c/cad/19).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

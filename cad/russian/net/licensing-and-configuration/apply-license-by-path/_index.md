@@ -3,10 +3,16 @@ title: Применить лицензию по пути в Aspose.CAD для .N
 linktitle: Применить лицензию по пути
 second_title: Aspose.CAD .NET — формат файлов CAD и BIM
 description: Раскройте весь потенциал Aspose.CAD для .NET! Следуйте нашему пошаговому руководству, чтобы легко применить лицензию. Улучшите свою игру по манипулированию файлами САПР прямо сейчас!
-type: docs
 weight: 10
 url: /ru/net/licensing-and-configuration/apply-license-by-path/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Применить лицензию по пути в Aspose.CAD для .NET
+
 ## Введение
 
 Готовы ли вы улучшить свою игру в области разработки .NET, используя возможности Aspose.CAD? В этом подробном руководстве мы проведем вас через процесс применения лицензии по пути с использованием Aspose.CAD для .NET. Пристегнитесь, пока мы разбираем шаги по плавной интеграции этой мощной библиотеки в ваши проекты, обеспечивая плавный и эффективный рабочий процесс.
@@ -88,3 +94,9 @@ A3: Да, вы можете получить бесплатную пробную
 ### В5: Нужна помощь или есть вопросы?
 
  A5: Присоединяйтесь к сообществу Aspose.CAD по адресу[Форум Aspose.CAD](https://forum.aspose.com/c/cad/19).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

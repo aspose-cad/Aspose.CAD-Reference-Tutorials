@@ -3,10 +3,16 @@ title: Dopasowywanie rozmiaru rysunku CAD w Aspose.CAD dla .NET
 linktitle: Dopasowywanie rozmiaru rysunku CAD
 second_title: Aspose.CAD .NET - Format plików CAD i BIM
 description: Dowiedz się, jak bez wysiłku dostosować rozmiary rysunków CAD w .NET przy użyciu Aspose.CAD. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby bezproblemowo zmieniać rozmiar.
-type: docs
 weight: 10
 url: /pl/net/cad-drawing-manipulation/adjust-cad-drawing-size/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Dopasowywanie rozmiaru rysunku CAD w Aspose.CAD dla .NET
+
 ## Wstęp
 
 Czy chcesz płynnie dostosować rozmiar rysunków CAD w aplikacjach .NET? Aspose.CAD dla .NET zapewnia solidne rozwiązanie, umożliwiające bezproblemową obsługę zmiany rozmiaru rysunków CAD. W tym samouczku przeprowadzimy Cię przez proces, dzieląc każdy krok, aby upewnić się, że zrozumiesz zawiłości zmiany rozmiaru rysunków CAD za pomocą Aspose.CAD.
@@ -115,3 +121,9 @@ Odpowiedź 2: Tak, możesz zmienić rozmiar wielu układów, dostosowując tabli
 ### P5: Jak mogę uzyskać tymczasową licencję na Aspose.CAD dla .NET?
 
  A5: Uzyskaj tymczasową licencję do celów testowych[Tutaj](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Werken met ACAD-proxy-entiteiten - Aspose.CAD-handleiding
 linktitle: Werken met ACAD-proxy-entiteiten
 second_title: Aspose.CAD .NET - CAD- en BIM-bestandsindeling
 description: Ontdek Aspose.CAD voor .NET en stroomlijn uw CAD-workflows. Converteer, bewerk en beheer ACAD-proxy-entiteiten moeiteloos.
-type: docs
 weight: 13
 url: /nl/net/layout-and-object-handling/working-with-acad-proxy-entities/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Werken met ACAD-proxy-entiteiten - Aspose.CAD-handleiding
+
 ## Invoering
 
 In de dynamische wereld van .NET-ontwikkeling is het maken en beheren van CAD-tekeningen een cruciale taak. Aspose.CAD voor .NET biedt een robuuste oplossing voor het werken met AutoCAD Proxy Entities. Deze gids leidt u door de essentiële stappen om de kracht van Aspose.CAD te benutten en uw CAD-gerelateerde workflows te stroomlijnen.
@@ -98,3 +104,9 @@ A1: Ja, Aspose.CAD ondersteunt verschillende CAD-formaten, waaronder DWG en DXF.
 ### V5: Waar kan ik een volledige licentie kopen voor Aspose.CAD voor .NET?
 
  A5: U kunt een licentie kopen bij de[aankooppagina](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

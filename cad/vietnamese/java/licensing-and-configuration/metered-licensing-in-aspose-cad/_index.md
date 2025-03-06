@@ -3,10 +3,16 @@ title: Cấp phép đo lường trong Aspose.CAD
 linktitle: Cấp phép đo lường trong Aspose.CAD
 second_title: API Java Aspose.CAD
 description: Tìm hiểu cách nắm vững cách cấp phép theo đồng hồ đo trong Aspose.CAD cho Java với hướng dẫn toàn diện này. Tối ưu hóa quá trình xử lý CAD của bạn để đạt hiệu quả và tiết kiệm chi phí.
-type: docs
 weight: 10
 url: /vi/java/licensing-and-configuration/metered-licensing-in-aspose-cad/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Cấp phép đo lường trong Aspose.CAD
+
 ## Giới thiệu
 
 Khai thác toàn bộ tiềm năng của Aspose.CAD cho Java với giấy phép có đồng hồ đo! Hướng dẫn từng bước này sẽ hướng dẫn bạn qua quy trình thiết lập cấp phép theo đồng hồ đo, đảm bảo tích hợp liền mạch và sử dụng tối ưu thư viện Java mạnh mẽ này cho Thiết kế có sự hỗ trợ của máy tính (CAD). Từ các điều kiện tiên quyết đến nhập gói và thực thi các ví dụ, hướng dẫn này đề cập đến tất cả.
@@ -94,3 +100,9 @@ Chúc mừng! Bạn đã thành thạo thành công việc cấp phép theo đ�
 ### Câu hỏi 5: Cần sự hỗ trợ của cộng đồng hoặc có câu hỏi cụ thể?
 
  Câu 5: Đi tới diễn đàn Aspose.CAD[đây](https://forum.aspose.com/c/cad/19).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

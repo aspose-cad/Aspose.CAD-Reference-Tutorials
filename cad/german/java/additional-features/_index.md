@@ -3,10 +3,16 @@ title: Zusatzfunktionen
 linktitle: Zusatzfunktionen
 second_title: Aspose.CAD Java API
 description: Nutzen Sie mit unseren Tutorials das Potenzial von Aspose.CAD in Java. Fügen Sie benutzerdefinierte Eigenschaften hinzu, zerlegen Sie CAD-Einfügeobjekte, aktivieren Sie die Nachverfolgung und exportieren Sie DXF-Zeichnungen nahtlos. Verbessern Sie Ihren CAD-Workflow mühelos.
-type: docs
 weight: 29
 url: /de/java/additional-features/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Zusatzfunktionen
+
 
 
 ## Einführung
@@ -60,3 +66,9 @@ Erfahren Sie, wie Sie DXF-Dateien in Java mit Aspose.CAD speichern. Befolgen Sie
 ## Abschluss
 
 Diese Tutorials decken eine Reihe zusätzlicher Funktionen in Aspose.CAD für Java ab und bieten Ihnen wertvolle Einblicke und Fähigkeiten zur Optimierung Ihres CAD-Workflows. Ganz gleich, ob Sie die Organisation verbessern, Zerlegungstechniken beherrschen, die Nachverfolgung aktivieren oder verschiedene Exportoptionen erkunden möchten – diese Tutorials vermitteln das Wissen, das Sie benötigen. Erweitern Sie noch heute Ihre CAD-Kenntnisse mit Aspose.CAD für Java.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

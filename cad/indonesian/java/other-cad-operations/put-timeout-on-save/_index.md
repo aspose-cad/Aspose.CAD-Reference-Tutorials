@@ -3,10 +3,16 @@ title: Batas waktu Simpan untuk CAD dengan Aspose.CAD
 linktitle: Letakkan Batas Waktu pada Simpan
 second_title: Aspose.CAD Java API
 description: Pelajari cara meningkatkan kinerja aplikasi Java Anda dengan Aspose.CAD. Beri batas waktu untuk menyimpan gambar CAD. Ikuti panduan langkah demi langkah kami.
-type: docs
 weight: 15
 url: /id/java/other-cad-operations/put-timeout-on-save/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Batas waktu Simpan untuk CAD dengan Aspose.CAD
+
 ## Perkenalan
 
 Selamat datang di tutorial tentang memberi batas waktu penyimpanan menggunakan Aspose.CAD untuk Java. Dalam panduan ini, kami akan memandu Anda melalui proses pengaturan waktu tunggu untuk menyimpan gambar CAD guna meningkatkan kinerja aplikasi Anda. Aspose.CAD untuk Java adalah perpustakaan canggih yang memungkinkan Anda bekerja dengan file CAD di aplikasi Java Anda dengan lancar.
@@ -131,3 +137,9 @@ A3: Ya, Anda bisa mendapatkan uji coba gratis[Link ini](https://releases.aspose.
 ### Q5: Butuh bantuan atau punya pertanyaan?
 
  A5: Pergilah ke[Forum Aspose.CAD](https://forum.aspose.com/c/cad/19) untuk dukungan masyarakat.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

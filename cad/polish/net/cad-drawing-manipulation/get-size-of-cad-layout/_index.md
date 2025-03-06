@@ -3,10 +3,16 @@ title: Uzyskaj rozmiar układu CAD w Aspose.CAD dla .NET
 linktitle: Uzyskaj rozmiar układu CAD
 second_title: Aspose.CAD .NET - Format plików CAD i BIM
 description: Dowiedz się, jak pobrać rozmiar układu CAD w .NET przy użyciu Aspose.CAD. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby efektywnie manipulować plikami CAD.
-type: docs
 weight: 14
 url: /pl/net/cad-drawing-manipulation/get-size-of-cad-layout/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Uzyskaj rozmiar układu CAD w Aspose.CAD dla .NET
+
 ## Wstęp
 
 Witamy w tym kompleksowym przewodniku na temat uzyskiwania rozmiaru układów CAD przy użyciu Aspose.CAD dla .NET. Aspose.CAD to potężna biblioteka, która umożliwia programistom płynną pracę z plikami CAD. W tym samouczku przeprowadzimy Cię przez proces pobierania rozmiaru układów CAD, korzystając z praktycznych przykładów i instrukcji krok po kroku.
@@ -143,3 +149,9 @@ A2: Absolutnie! Możesz dostosować opcje obrazu, takie jak format i rozdzielczo
 ### Pytanie 5; Jak mogę uzyskać wsparcie techniczne?
 
  O5: Aby uzyskać pomoc techniczną, odwiedź stronę[Forum Aspose.CAD](https://forum.aspose.com/c/cad/19).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

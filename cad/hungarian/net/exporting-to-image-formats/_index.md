@@ -3,10 +3,16 @@ title: Exportálás képformátumokba
 linktitle: Exportálás képformátumokba
 second_title: Aspose.CAD .NET - CAD és BIM fájlformátum
 description: Könnyedén konvertálhat IFC fájlokat PNG formátumba az Aspose.CAD for .NET segítségével. Fedezze fel a zökkenőmentes CAD-fájlfeldolgozást és letöltést a hatékony fájlkezeléshez.
-type: docs
 weight: 39
 url: /hu/net/exporting-to-image-formats/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Exportálás képformátumokba
+
 
 ## Bevezetés
 
@@ -30,3 +36,9 @@ Egy olyan világban, ahol a digitális tervezés pontosságot és hatékonyságo
 Fedezze fel az Aspose.CAD for .NET-et, amely egy robusztus megoldás a zökkenőmentes IFC-PNG konvertáláshoz. Töltse le most a hatékony CAD-fájlfeldolgozás érdekében.
 ### [IGES-fájlok exportálása PDF-be – Aspose.CAD útmutató](./exporting-iges-files-to-pdf/)
 Tanulja meg, hogyan exportálhat könnyedén IGES fájlokat PDF formátumba az Aspose.CAD for .NET segítségével. Kövesse lépésről lépésre útmutatónkat a pontos CAD-fájlok kezeléséhez.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

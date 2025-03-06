@@ -3,10 +3,16 @@ title: Exportieren Sie mit Aspose.CAD für Java eine bestimmte Ebene einer DXF-Z
 linktitle: Exportieren Sie eine bestimmte Ebene einer DXF-Zeichnung mit Java in PDF
 second_title: Aspose.CAD Java API
 description: Exportieren Sie mit Aspose.CAD für Java mühelos bestimmte Ebenen aus DXF-Zeichnungen in PDF. Befolgen Sie diese Schritt-für-Schritt-Anleitung für eine nahtlose Integration.
-type: docs
 weight: 18
 url: /de/java/additional-features/export-specific-layer-to-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Exportieren Sie mit Aspose.CAD für Java eine bestimmte Ebene einer DXF-Zeichnung in PDF
+
 ## Einführung
 
 Im Bereich der Java-Entwicklung sticht Aspose.CAD als leistungsstarkes Werkzeug für die Arbeit mit CAD-Dateien (Computer-Aided Design) hervor. Zu den vielseitigen Funktionen gehört die Möglichkeit, bestimmte Ebenen aus einer DXF-Zeichnung in eine PDF-Datei zu exportieren. Dieses Tutorial führt Sie durch den Prozess und bietet Schritt-für-Schritt-Anleitungen, um das volle Potenzial von Aspose.CAD für Java auszuschöpfen.
@@ -104,3 +110,9 @@ A4: Ja, stellen Sie sicher, dass Sie über eine gültige Lizenz verfügen oder v
 ### F5: Wo kann ich zusätzliche Unterstützung oder Unterstützung suchen?
 
 A5: Besuchen Sie die[Aspose.CAD-Forum](https://forum.aspose.com/c/cad/19) für Community-Unterstützung und Diskussionen.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

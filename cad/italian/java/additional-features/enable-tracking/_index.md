@@ -3,10 +3,16 @@ title: Abilita il tracciamento nei file DWG utilizzando Aspose.CAD in Java
 linktitle: Abilita il tracciamento nei file DWG utilizzando Java
 second_title: API Java Aspose.CAD
 description: Esplora la guida passo passo sull'abilitazione del tracciamento dei file DWG in Java utilizzando Aspose.CAD, garantendo una collaborazione perfetta nei progetti CAD.
-type: docs
 weight: 12
 url: /it/java/additional-features/enable-tracking/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Abilita il tracciamento nei file DWG utilizzando Aspose.CAD in Java
+
 ## introduzione
 
 Nel regno della progettazione assistita da computer (CAD), Aspose.CAD per Java si distingue come un potente strumento che consente agli sviluppatori di manipolare e convertire facilmente i file CAD. Questo tutorial approfondisce una funzionalità specifica di Aspose.CAD per Java: abilitare il tracciamento nei file DWG. Tenere traccia delle modifiche nei file DWG è fondamentale per i progetti di progettazione collaborativa, garantendo una comunicazione fluida e un flusso di lavoro efficiente. In questa guida, esamineremo i passaggi per abilitare il tracciamento utilizzando Java, sfruttando le funzionalità di Aspose.CAD.
@@ -123,3 +129,9 @@ A1: Aspose.CAD supporta principalmente i file DWG per il tracciamento. Per altri
 ### Q5: Come posso ottenere una licenza temporanea per Aspose.CAD per Java?
 
  A5: Seguire il processo descritto a[Licenza temporanea](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

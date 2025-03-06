@@ -3,10 +3,16 @@ title: C# में निर्देशांक के साथ DWG को P
 linktitle: C# में निर्देशांक के साथ DWG को PDF में परिवर्तित करना
 second_title: Aspose.CAD .NET - CAD और BIM फ़ाइल स्वरूप
 description: Aspose.CAD का उपयोग करके C# में विशिष्ट निर्देशांक के साथ DWG को PDF में परिवर्तित करना सीखें। सटीक और कुशल सीएडी फ़ाइल रूपांतरण के लिए हमारी चरण-दर-चरण मार्गदर्शिका का पालन करें।
-type: docs
 weight: 11
 url: /hi/net/conversion-and-export/converting-dwg-to-pdf-with-coordinates/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# C# में निर्देशांक के साथ DWG को PDF में परिवर्तित करना - Aspose.CAD ट्यूटोरियल
+
 ## परिचय
 
 .NET के लिए Aspose.CAD का उपयोग करके निर्दिष्ट निर्देशांक के साथ DWG फ़ाइलों को पीडीएफ में परिवर्तित करने पर इस व्यापक ट्यूटोरियल में आपका स्वागत है। Aspose.CAD एक शक्तिशाली लाइब्रेरी है जो डेवलपर्स को उनके .NET अनुप्रयोगों में CAD फ़ाइल स्वरूपों के साथ निर्बाध रूप से काम करने की अनुमति देती है। इस ट्यूटोरियल में, हम आपको सटीकता बढ़ाने के लिए विशिष्ट निर्देशांक प्रदान करते हुए DWG फ़ाइल को पीडीएफ में परिवर्तित करने की प्रक्रिया के बारे में बताएंगे।
@@ -134,3 +140,9 @@ A3: हां, Aspose.CAD विंडोज और लिनक्स दोन
 ### Q5: मुझे अतिरिक्त सहायता या सामुदायिक चर्चाएँ कहाँ मिल सकती हैं?
 
 A5: पर जाएँ[Aspose.CAD फोरम](https://forum.aspose.com/c/cad/19) सामुदायिक समर्थन और चर्चा के लिए।
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

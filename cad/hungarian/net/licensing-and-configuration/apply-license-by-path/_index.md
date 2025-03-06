@@ -3,10 +3,16 @@ title: Alkalmazzon elérési út szerinti licencet az Aspose.CAD-ben .NET-hez
 linktitle: Licenc alkalmazása útvonal szerint
 second_title: Aspose.CAD .NET - CAD és BIM fájlformátum
 description: Használja ki az Aspose.CAD teljes potenciálját .NET-hez! Kövesse lépésenkénti útmutatónkat a licenc zökkenőmentes igényléséhez. Emelje fel a CAD fájl manipulációs játékot most!
-type: docs
 weight: 10
 url: /hu/net/licensing-and-configuration/apply-license-by-path/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Alkalmazzon elérési út szerinti licencet az Aspose.CAD-ben .NET-hez
+
 ## Bevezetés
 
 Készen áll a .NET fejlesztőjáték fejlesztésére az Aspose.CAD képességeinek kihasználásával? Ebben az átfogó oktatóanyagban végigvezetjük az Aspose.CAD for .NET használatával történő licencelérési folyamaton. Kapaszkodjon, miközben feltárjuk a lépéseket, hogy ezt a nagy teljesítményű könyvtárat zökkenőmentesen integrálhassuk projektjeibe, biztosítva a zökkenőmentes és hatékony munkafolyamatot.
@@ -88,3 +94,9 @@ V3: Igen, ingyenes próbaverziót kaphat[itt](https://releases.aspose.com/).
 ### 5. kérdés: Segítségre van szüksége, vagy kérdései vannak?
 
  5. válasz: Csatlakozzon az Aspose.CAD közösséghez a címen[Aspose.CAD fórum](https://forum.aspose.com/c/cad/19).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

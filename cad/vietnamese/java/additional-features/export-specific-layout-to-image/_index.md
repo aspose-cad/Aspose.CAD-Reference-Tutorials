@@ -3,10 +3,16 @@ title: Xuất bố cục DXF cụ thể sang hình ảnh bằng Aspose.CAD trong
 linktitle: Xuất bố cục DXF cụ thể sang hình ảnh bằng Java
 second_title: API Java Aspose.CAD
 description: Tìm hiểu cách xuất bố cục DXF cụ thể sang hình ảnh bằng Aspose.CAD cho Java. Hãy làm theo hướng dẫn từng bước của chúng tôi để tích hợp liền mạch.
-type: docs
 weight: 16
 url: /vi/java/additional-features/export-specific-layout-to-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Xuất bố cục DXF cụ thể sang hình ảnh bằng Aspose.CAD trong Java
+
 ## Giới thiệu
 
 Bạn đang muốn chuyển đổi bố cục DXF cụ thể thành hình ảnh bằng Java? Với Aspose.CAD cho Java, bạn có thể hoàn thành nhiệm vụ này một cách liền mạch. Trong hướng dẫn từng bước này, chúng tôi sẽ hướng dẫn bạn quy trình xuất bố cục DXF cụ thể sang hình ảnh, cung cấp hướng dẫn và ví dụ rõ ràng cho từng giai đoạn.
@@ -141,3 +147,9 @@ Câu trả lời 4: Có, Aspose.CAD cho Java hỗ trợ nhiều định dạng �
 ### Câu hỏi 5: Tôi có thể tùy chỉnh thêm các tùy chọn tạo điểm ảnh không?
 
  A5: Chắc chắn rồi,`CadRasterizationOptions` lớp cung cấp các thuộc tính khác nhau để tùy chỉnh. Khám phá tài liệu để có các tùy chọn bổ sung.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

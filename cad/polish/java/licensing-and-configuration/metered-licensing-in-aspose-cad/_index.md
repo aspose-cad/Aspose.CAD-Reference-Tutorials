@@ -3,10 +3,16 @@ title: Licencjonowanie licznikowe w Aspose.CAD
 linktitle: Licencjonowanie licznikowe w Aspose.CAD
 second_title: Aspose.CAD API Java
 description: Dzięki temu obszernemu przewodnikowi dowiesz się, jak opanować licencjonowanie odmierzone w Aspose.CAD dla Java. Zoptymalizuj przetwarzanie CAD pod kątem wydajności i opłacalności.
-type: docs
 weight: 10
 url: /pl/java/licensing-and-configuration/metered-licensing-in-aspose-cad/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Licencjonowanie licznikowe w Aspose.CAD
+
 ## Wstęp
 
 Odblokuj pełny potencjał Aspose.CAD dla Java dzięki licencjonowaniu odmierzonemu! Ten przewodnik krok po kroku przeprowadzi Cię przez proces konfigurowania licencjonowania odmierzonego, zapewniając bezproblemową integrację i optymalne wykorzystanie tej potężnej biblioteki Java do projektowania wspomaganego komputerowo (CAD). Od wymagań wstępnych po importowanie pakietów i wykonywanie przykładów – w tym samouczku znajdziesz wszystko.
@@ -94,3 +100,9 @@ Gratulacje! Pomyślnie opanowałeś licencjonowanie odmierzone w Aspose.CAD dla 
 ### P5: Potrzebujesz wsparcia społeczności lub masz konkretne pytania?
 
  A5: Udaj się na forum Aspose.CAD[Tutaj](https://forum.aspose.com/c/cad/19).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

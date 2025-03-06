@@ -3,10 +3,16 @@ title: Java 中 Aspose.CAD 对图层的支持
 linktitle: CAD 中图层的支持
 second_title: Aspose.CAD Java API
 description: 使用 Aspose.CAD 进行 Java CAD 开发的主控层支持。轻松组织和导出图纸。
-type: docs
 weight: 18
 url: /zh/java/advanced-cad-features/support-of-layers-in-cad/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java 中 Aspose.CAD 对图层的支持
+
 ## 介绍
 
 通过掌握图层的支持，释放 Java 中 Aspose.CAD 的全部潜力。图层在 CAD 绘图中起着至关重要的作用，可以有效地组织和操作图形元素。在这个综合教程中，我们将深入研究使用 Aspose.CAD 的图层支持的复杂性，为您提供利用这一强大功能的分步指南。
@@ -118,3 +124,9 @@ A2：是的，Aspose.CAD支持多种CAD格式，确保处理各种类型绘图�
 ### Q5：我可以在哪里寻求帮助或分享我使用 Aspose.CAD 的经验？
 
 A5：加入 Aspose.CAD 社区[论坛](https://forum.aspose.com/c/cad/19)支持和协作讨论。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

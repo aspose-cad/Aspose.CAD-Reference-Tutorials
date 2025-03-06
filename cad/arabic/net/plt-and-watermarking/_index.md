@@ -3,10 +3,16 @@ title: PLT والعلامات المائية
 linktitle: PLT والعلامات المائية
 second_title: Aspose.CAD .NET - تنسيق ملف CAD وBIM
 description: أطلق العنان لإمكانات تنسيق PLT باستخدام Aspose.CAD لـ .NET. يمكنك دمج ملفات PLT بسهولة في تطبيقاتك من خلال برامجنا التعليمية خطوة بخطوة.
-type: docs
 weight: 37
 url: /ar/net/plt-and-watermarking/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# PLT والعلامات المائية
+
 
 ## مقدمة
 
@@ -46,3 +52,9 @@ url: /ar/net/plt-and-watermarking/
 اكتشف الدعم السلس لتنسيق PLT في Aspose.CAD لـ .NET. اتبع دليلنا خطوة بخطوة لدمج ملفات PLT في تطبيقات .NET الخاصة بك دون عناء.
 ### [إضافة علامات مائية إلى رسومات CAD - دليل Aspose.CAD](./adding-watermarks-to-cad-drawings/)
 قم بتحسين رسومات CAD الخاصة بك باستخدام علامات مائية احترافية باستخدام Aspose.CAD لـ .NET. اتبع دليلنا خطوة بخطوة للحصول على تصميمات مخصصة وجذابة.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

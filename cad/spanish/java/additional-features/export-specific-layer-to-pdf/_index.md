@@ -3,10 +3,16 @@ title: Exporte una capa específica de dibujo DXF a PDF con Aspose.CAD para Java
 linktitle: Exporte una capa específica de dibujo DXF a PDF con Java
 second_title: API de Java Aspose.CAD
 description: Exporte sin esfuerzo capas específicas de dibujos DXF a PDF usando Aspose.CAD para Java. Siga esta guía paso a paso para una integración perfecta.
-type: docs
 weight: 18
 url: /es/java/additional-features/export-specific-layer-to-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Exporte una capa específica de dibujo DXF a PDF con Aspose.CAD para Java
+
 ## Introducción
 
 En el ámbito del desarrollo de Java, Aspose.CAD se destaca como una poderosa herramienta para trabajar con archivos de diseño asistido por computadora (CAD). Entre sus características versátiles, la capacidad de exportar capas específicas de un dibujo DXF a un archivo PDF es una capacidad valiosa. Este tutorial lo guiará a través del proceso y le ofrecerá instrucciones paso a paso para aprovechar todo el potencial de Aspose.CAD para Java.
@@ -104,3 +110,9 @@ R4: Sí, asegúrese de tener una licencia válida o utilice una licencia tempora
 ### P5: ¿Dónde puedo buscar apoyo o asistencia adicional?
 
 A5: Visita el[Foro Aspose.CAD](https://forum.aspose.com/c/cad/19) para apoyo y debates de la comunidad.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

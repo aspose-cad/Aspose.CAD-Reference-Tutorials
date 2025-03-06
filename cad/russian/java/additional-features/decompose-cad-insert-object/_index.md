@@ -3,10 +3,16 @@ title: Разложение объекта вставки САПР с помощ
 linktitle: Разложение объекта вставки САПР с помощью Java
 second_title: API Aspose.CAD Java
 description: Освойте декомпозицию вставных объектов САПР в Java с помощью Aspose.CAD. Следуйте нашему пошаговому руководству для эффективного управления. Погрузитесь в мир манипуляций с САПР.
-type: docs
 weight: 11
 url: /ru/java/additional-features/decompose-cad-insert-object/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Разложение объекта вставки САПР с помощью Aspose.CAD в Java
+
 ## Введение
 
 Добро пожаловать в наше подробное руководство по использованию Aspose.CAD для Java для декомпозиции вставляемых объектов САПР. В этом руководстве мы покажем вам процесс разделения объектов вставки САПР на составные части, предоставив вам пошаговое руководство для плавной реализации. Независимо от того, являетесь ли вы опытным разработчиком или только начинаете работать с Aspose.CAD, это руководство предоставит вам знания для эффективной обработки объектов вставки САПР в ваши приложения Java.
@@ -110,3 +116,9 @@ finally
 ### В5: Есть ли образцы рисунков для практики?
 
 О5: Да, вы можете найти образцы чертежей в каталоге «DXFDrawings» ресурсов Aspose.CAD.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

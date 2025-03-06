@@ -3,10 +3,16 @@ title: Экспорт чертежей САПР в формат SVG — Руко
 linktitle: Экспорт чертежей САПР в формат SVG
 second_title: Aspose.CAD .NET — формат файлов CAD и BIM
 description: Изучите простой процесс экспорта чертежей САПР в SVG с помощью Aspose.CAD для .NET. Улучшите свою разработку САПР за счет гибкости и настройки.
-type: docs
 weight: 15
 url: /ru/net/advanced-export-techniques/exporting-cad-drawings-to-svg/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Экспорт чертежей САПР в формат SVG — Руководство Aspose.CAD
+
 ## Введение
 
 В динамичном мире САПР (компьютерного проектирования) способность экспортировать чертежи в различные форматы является важнейшим навыком. SVG (масштабируемая векторная графика) — один из таких форматов, который приобрел популярность благодаря своей масштабируемости и универсальности. В этом уроке мы рассмотрим, как экспортировать чертежи САПР в SVG с помощью мощной библиотеки Aspose.CAD для .NET.
@@ -87,3 +93,9 @@ A1: Aspose.CAD поддерживает различные форматы САП
 ### Вопрос 5: Как я могу получить поддержку или задать вопросы, связанные с Aspose.CAD?
 
  A5: Посетите форум сообщества.[здесь](https://forum.aspose.com/c/cad/19) за поддержку и обсуждения.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

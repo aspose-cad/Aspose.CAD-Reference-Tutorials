@@ -3,10 +3,16 @@ title: Aspose.CAD for .NET'te Mesh Desteği
 linktitle: Örgü Desteği
 second_title: Aspose.CAD .NET - CAD ve BIM Dosya Formatı
 description: Adım adım eğitimimizle Aspose.CAD for .NET'teki mesh desteğini keşfedin. CAD dosyalarını zahmetsizce PDF'ye dönüştürün.
-type: docs
 weight: 11
 url: /tr/net/cad-features-and-support/mesh-support/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.CAD for .NET'te Mesh Desteği
+
 ## giriiş
 
 Aspose.CAD for .NET'te mesh desteğinden yararlanmaya ilişkin ayrıntılı eğitimimize hoş geldiniz! Aspose.CAD, .NET uygulamalarında Bilgisayar Destekli Tasarım (CAD) dosyalarıyla çalışmak için sağlam işlevsellik sağlayan güçlü bir kütüphanedir. Bu eğitimde, CAD dosya işleme yeteneklerinizi geliştirmek için özellikle ağ desteği özelliğini kullanmaya odaklanacağız.
@@ -100,3 +106,9 @@ Cevap2: Üretimde kullanım için bir lisans önerilirken, geliştirme sırasın
 ### S5: Aspose.CAD for .NET'in en son sürümünü nereden indirebilirim?
 
  Cevap5: Kitaplığı şuradan indirin:[yayın sayfası](https://releases.aspose.com/cad/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

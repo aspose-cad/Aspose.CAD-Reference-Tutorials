@@ -3,10 +3,16 @@ title: Aspose.CAD 中的計量許可
 linktitle: Aspose.CAD 中的計量許可
 second_title: Aspose.CAD Java API
 description: 透過這份綜合指南了解如何掌握 Aspose.CAD for Java 中的計量許可。優化 CAD 處理以提高效率和成本效益。
-type: docs
 weight: 10
 url: /zh-hant/java/licensing-and-configuration/metered-licensing-in-aspose-cad/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.CAD 中的計量許可
+
 ## 介紹
 
 透過計量許可釋放 Aspose.CAD for Java 的全部潛力！本逐步指南將引導您完成設定計量許可的過程，確保無縫整合和最佳利用這個強大的電腦輔助設計 (CAD) Java 程式庫。從先決條件到匯入套件和執行範例，本教學涵蓋了所有內容。
@@ -94,3 +100,9 @@ A2：參考文檔[這裡](https://reference.aspose.com/cad/java/).
 ### Q5：需要社區支持或有具體問題嗎？
 
  A5：前往 Aspose.CAD 論壇[這裡](https://forum.aspose.com/c/cad/19).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

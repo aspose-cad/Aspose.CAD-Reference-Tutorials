@@ -3,10 +3,16 @@ title: Ustawianie koloru tła i rysunku za pomocą Aspose.CAD dla Java
 linktitle: Ustawianie koloru tła i rysunku
 second_title: Aspose.CAD API Java
 description: Bez wysiłku konwertuj pliki CAD do formatu PDF i TIFF za pomocą Aspose.CAD dla Java. Ustaw niestandardowe kolory tła i rysunku, aby uzyskać oszałamiające wizualnie rezultaty.
-type: docs
 weight: 15
 url: /pl/java/advanced-cad-features/setting-background-and-drawing-color/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ustawianie koloru tła i rysunku za pomocą Aspose.CAD dla Java
+
 ## Wstęp
 
 dynamicznym świecie projektowania wspomaganego komputerowo (CAD) wydajna konwersja plików ma kluczowe znaczenie dla płynnej współpracy i komunikacji. Aspose.CAD dla Java jawi się jako potężne narzędzie oferujące solidne możliwości konwersji plików CAD do formatów PDF i TIFF. W tym samouczku zagłębimy się w proces ustawiania tła i koloru rysowania za pomocą Aspose.CAD dla Java, dostarczając przewodnik krok po kroku zapewniający optymalne rezultaty.
@@ -98,3 +104,10 @@ Odpowiedź 2: Tak, samouczek pokazuje, jak ustawić niestandardowe kolory tła d
 ### P5: Jak mogę uzyskać wsparcie dla Aspose.CAD dla Java?
 
 A5: Odwiedź[Forum Aspose.CAD](https://forum.aspose.com/c/cad/19) szukać pomocy i współpracować ze społecznością.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

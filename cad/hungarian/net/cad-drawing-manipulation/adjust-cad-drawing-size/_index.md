@@ -3,10 +3,16 @@ title: A CAD-rajzméret beállítása az Aspose.CAD-ben .NET-hez
 linktitle: A CAD rajz méretének beállítása
 second_title: Aspose.CAD .NET - CAD és BIM fájlformátum
 description: Ismerje meg, hogyan állíthatja be könnyedén a CAD-rajzméreteket .NET-ben az Aspose.CAD használatával. Kövesse lépésenkénti útmutatónkat a zökkenőmentes átméretezéshez.
-type: docs
 weight: 10
 url: /hu/net/cad-drawing-manipulation/adjust-cad-drawing-size/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# A CAD-rajzméret beállítása az Aspose.CAD-ben .NET-hez
+
 ## Bevezetés
 
 Zökkenőmentesen szeretné beállítani a CAD-rajzok méretét .NET-alkalmazásaiban? Az Aspose.CAD for .NET robusztus megoldást kínál, amellyel könnyedén kezelheti a CAD-rajzok átméretezését. Ebben az oktatóanyagban végigvezetjük a folyamaton, lebontva az egyes lépéseket, hogy biztosan megértse a CAD-rajzok Aspose.CAD használatával történő átméretezésének bonyolultságát.
@@ -115,3 +121,9 @@ Ebben az oktatóanyagban végigjártuk a CAD-rajzok átméretezését .NET-ben a
 ### 5. kérdés: Hogyan szerezhetek ideiglenes licencet az Aspose.CAD for .NET számára?
 
  5. válasz: Szerezzen be ideiglenes licencet tesztelési célokra[itt](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

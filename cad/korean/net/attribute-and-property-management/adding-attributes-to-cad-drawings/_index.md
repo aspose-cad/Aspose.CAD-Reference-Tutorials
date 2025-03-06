@@ -3,10 +3,16 @@ title: CAD 도면에 속성 추가 - Aspose.CAD Tutorial
 linktitle: CAD 도면에 속성 추가
 second_title: Aspose.CAD .NET - CAD 및 BIM 파일 형식
 description: .NET용 Aspose.CAD를 사용하여 속성으로 CAD 도면을 향상하세요. 원활한 통합을 위한 단계별 가이드를 따르세요.
-type: docs
 weight: 10
 url: /ko/net/attribute-and-property-management/adding-attributes-to-cad-drawings/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# CAD 도면에 속성 추가 - Aspose.CAD Tutorial
+
 ## 소개
 
 CAD(Computer-Aided Design) 영역에서 도면에 속성을 추가하는 것은 상세한 문서화와 효과적인 의사소통을 위한 중요한 단계입니다. .NET용 Aspose.CAD는 속성을 CAD 도면에 원활하게 통합하는 강력한 솔루션을 제공합니다. 이 튜토리얼은 Aspose.CAD를 사용하여 CAD 도면에 속성을 추가하는 과정을 안내하여 디자인에 포함된 정보를 향상시킬 수 있습니다.
@@ -119,3 +125,9 @@ A1: Aspose.CAD는 DWG 및 DXF를 포함한 다양한 CAD 형식을 지원하므�
 ### Q5: Aspose.CAD의 임시 라이선스는 어떻게 얻을 수 있나요?
 
  A5: 임시 라이선스 옵션을 보려면 다음을 방문하세요.[여기](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

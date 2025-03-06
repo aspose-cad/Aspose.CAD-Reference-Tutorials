@@ -3,10 +3,16 @@ title: 異なるレイアウトで単一の PDF を作成する - Aspose.CAD ガ
 linktitle: 異なるレイアウトで単一の PDF を作成する
 second_title: Aspose.CAD .NET - CAD および BIM ファイル形式
 description: Aspose.CAD for .NET を使用して、異なるレイアウトを持つ単一の PDF を作成します。シームレスな統合と効率的な PDF 生成については、ステップバイステップのガイドに従ってください。
-type: docs
 weight: 13
 url: /ja/net/advanced-cad-techniques/creating-single-pdf-with-different-layouts/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 異なるレイアウトで単一の PDF を作成する - Aspose.CAD ガイド
+
 ## 導入
 
 Aspose.CAD for .NET を使用して、さまざまなレイアウトを持つ CAD 図面から単一の PDF ドキュメントを生成したいと考えていますか?このステップバイステップのガイドでは、プロセスを順を追って説明し、シームレスな統合と効率的な PDF 作成を実現するのに役立ちます。 Aspose.CAD for .NET は、CAD 図面をプログラムで操作するための強力な機能を提供します。このチュートリアルでは、異なるレイアウトを持つ単一の PDF を作成することに焦点を当てます。
@@ -95,3 +101,9 @@ A1: はい、Aspose.CAD for .NET は、DWG、DXF、DGN などのさまざまな 
 ### Q5: Aspose.CAD for .NET のライセンスを購入できますか?
 
  A5: はい、ライセンスを購入できます。[ここ](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

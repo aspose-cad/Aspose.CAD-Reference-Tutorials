@@ -3,10 +3,16 @@ title: Export Embedded DGN do PDF pomocí Aspose.CAD for Java
 linktitle: Export Embedded DGN
 second_title: Aspose.CAD Java API
 description: Prozkoumejte podrobného průvodce exportem vložených souborů DGN do PDF pomocí Aspose.CAD for Java. Vylepšete své aplikace Java bezproblémovou manipulací se soubory CAD.
-type: docs
 weight: 11
 url: /cs/java/dgn-export-options/export-embedded-dgn/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Export Embedded DGN do PDF pomocí Aspose.CAD for Java
+
 ## Úvod
 
 Vítejte v tomto komplexním tutoriálu o exportu vložených souborů DGN pomocí Aspose.CAD pro Java. Aspose.CAD je výkonná knihovna, která umožňuje vývojářům v Javě bezproblémově pracovat se soubory CAD. V tomto tutoriálu vás provedeme procesem exportu vložených souborů DGN do PDF pomocí podrobných pokynů. Ať už jste zkušený vývojář nebo teprve začínáte, tento tutoriál vám pomůže využít možnosti Aspose.CAD k vylepšení vašich aplikací Java.
@@ -103,3 +109,9 @@ A3: Můžete vyhledat podporu od komunity Aspose.CAD na[Fórum](https://forum.as
 ### Q5: Kde najdu dokumentaci?
 
  A5: Dokumentace je k dispozici[tady](https://reference.aspose.com/cad/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

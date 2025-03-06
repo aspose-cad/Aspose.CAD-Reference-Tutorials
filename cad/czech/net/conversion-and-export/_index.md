@@ -3,10 +3,16 @@ title: Konverze a export
 linktitle: Konverze a export
 second_title: Aspose.CAD .NET – formát souborů CAD a BIM
 description: Odemkněte svět manipulace se soubory CAD s Aspose.CAD! Naučte se vykreslovat živé barvy a převádět soubory DWG. Ponořte se do formátů DWT a DWG pro přesné výsledky.
-type: docs
 weight: 25
 url: /cs/net/conversion-and-export/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Konverze a export
+
 
 
 ## Úvod
@@ -45,3 +51,9 @@ Prozkoumejte nuance formátů DWT a DWG s Aspose.CAD pro .NET. Rozlišujte mezi 
 Převeďte DWG na vyhovující PDF pomocí Aspose.CAD pro .NET. Postupujte podle našeho návodu, kde najdete podrobné pokyny.
 ### [Převod DWG do formátu DWF - Aspose.CAD Guide](./converting-dwg-to-dwf/)
 Prozkoumejte bezproblémový převod DWG do DWF pomocí Aspose.CAD for .NET. Postupujte podle našeho podrobného průvodce pro bezproblémový zážitek.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

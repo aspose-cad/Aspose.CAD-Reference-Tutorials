@@ -3,10 +3,16 @@ title: تصدير STL إلى PNG باستخدام Aspose.CAD لـ Java
 linktitle: تصدير STL إلى PNG
 second_title: Aspose.CAD جافا API
 description: استكشف العملية السلسة لتصدير ملفات STL إلى PNG في Java باستخدام Aspose.CAD. قم بتبسيط سير عملك وتحسين مشاريع Java الخاصة بك دون عناء.
-type: docs
 weight: 20
 url: /ar/java/cad-export-options/export-stl-to-png/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تصدير STL إلى PNG باستخدام Aspose.CAD لـ Java
+
 ## مقدمة
 
 هل تتطلع إلى تصدير ملفات STL إلى PNG باستخدام Java؟ Aspose.CAD لـ Java هو الحل الذي تحتاجه! في هذا البرنامج التعليمي، سنرشدك خلال العملية خطوة بخطوة. باعتباري كاتبًا ماهرًا في مجال تحسين محركات البحث (SEO)، سأتأكد من أن المحتوى ليس مفيدًا فحسب، بل مُحسّن أيضًا لمحركات البحث.
@@ -112,3 +118,9 @@ cadImage.save(outPath, pngOptions);
 ### س5: هل هناك أي وثائق شاملة متاحة؟
 
  ج5: نعم، يمكن العثور على الوثائق[هنا](https://reference.aspose.com/cad/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

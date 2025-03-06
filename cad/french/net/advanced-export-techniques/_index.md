@@ -3,10 +3,16 @@ title: Techniques d'exportation avancées
 linktitle: Techniques d'exportation avancées
 second_title: Aspose.CAD .NET - Format de fichier CAO et BIM
 description: Libérez la puissance d’Aspose.CAD en C# avec nos didacticiels sur les techniques d’exportation avancées. Exportez sans effort des fichiers DWG au format DXF, PDF, images raster, objets OLE, etc.
-type: docs
 weight: 26
 url: /fr/net/advanced-export-techniques/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Techniques d'exportation avancées
+
 
 ## Introduction
 
@@ -50,3 +56,9 @@ Découvrez comment exporter des mises en page spécifiques au format PDF à l'ai
 Exportez des dessins CAO au format PDF en toute transparence avec Aspose.CAD pour .NET. Suivez notre guide étape par étape pour une conversion efficace.
 ### [Exportation de dessins CAO au format SVG - Guide Aspose.CAD](./exporting-cad-drawings-to-svg/)
 Explorez le processus transparent d'exportation de dessins CAO vers SVG à l'aide d'Aspose.CAD pour .NET. Améliorez votre développement CAO avec flexibilité et personnalisation.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

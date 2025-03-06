@@ -3,10 +3,16 @@ title: Dapatkan Ukuran Tata Letak CAD di Aspose.CAD untuk .NET
 linktitle: Dapatkan Ukuran Tata Letak CAD
 second_title: Aspose.CAD .NET - Format File CAD dan BIM
 description: Pelajari cara mengambil ukuran tata letak CAD di .NET menggunakan Aspose.CAD. Ikuti panduan langkah demi langkah kami untuk manipulasi file CAD yang efisien.
-type: docs
 weight: 14
 url: /id/net/cad-drawing-manipulation/get-size-of-cad-layout/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Dapatkan Ukuran Tata Letak CAD di Aspose.CAD untuk .NET
+
 ## Perkenalan
 
 Selamat datang di panduan komprehensif tentang cara mendapatkan ukuran tata letak CAD menggunakan Aspose.CAD untuk .NET. Aspose.CAD adalah perpustakaan canggih yang memungkinkan pengembang bekerja dengan file CAD dengan lancar. Dalam tutorial ini, kami akan memandu Anda melalui proses mengambil ukuran tata letak CAD menggunakan contoh praktis dan petunjuk langkah demi langkah.
@@ -143,3 +149,9 @@ A2: Tentu saja! Anda dapat menyesuaikan pilihan gambar, seperti format dan resol
 ### Q5; Bagaimana saya bisa mendapatkan dukungan teknis?
 
  A5: Untuk dukungan teknis, kunjungi[Forum Aspose.CAD](https://forum.aspose.com/c/cad/19).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: تصدير كائنات OLE من ملفات DWG - البرنامج الت
 linktitle: تصدير كائنات OLE من ملفات DWG
 second_title: Aspose.CAD .NET - تنسيق ملف CAD وBIM
 description: استكشف الدليل التفصيلي خطوة بخطوة حول تصدير كائنات OLE من ملفات DWG باستخدام Aspose.CAD لـ .NET. عزز مهاراتك في التعامل مع ملفات CAD دون عناء.
-type: docs
 weight: 12
 url: /ar/net/advanced-export-techniques/exporting-ole-objects-from-dwg/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تصدير كائنات OLE من ملفات DWG - البرنامج التعليمي Aspose.CAD
+
 ## مقدمة
 
 هل تتطلع إلى استخراج كائنات OLE من ملفات DWG بسهولة؟ Aspose.CAD for .NET موجود هنا لتبسيط العملية بالنسبة لك. في هذا البرنامج التعليمي، سنرشدك خلال تصدير كائنات OLE خطوة بخطوة، مما يضمن تحقيق أقصى استفادة من مكتبة .NET القوية هذه. 
@@ -98,3 +104,9 @@ foreach (string file in files)
 ### س5: كيف يمكنني الحصول على الدعم أو التواصل مع المجتمع؟
 
  ج5: للحصول على الدعم والمشاركة المجتمعية، قم بزيارة[منتدى Aspose.CAD](https://forum.aspose.com/c/cad/19).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

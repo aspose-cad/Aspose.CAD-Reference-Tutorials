@@ -3,10 +3,16 @@ title: Cấp phép và cấu hình
 linktitle: Cấp phép và cấu hình
 second_title: Aspose.CAD .NET - Định dạng tệp CAD và BIM
 description: Nâng cao trò chơi thao tác tệp CAD của bạn với Aspose.CAD cho .NET! Áp dụng giấy phép một cách liền mạch bằng FileStream hoặc theo đường dẫn với hướng dẫn từng bước của chúng tôi.
-type: docs
 weight: 20
 url: /vi/net/licensing-and-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Cấp phép và cấu hình
+
 
 ## Giới thiệu
 
@@ -32,3 +38,9 @@ Tóm lại, với hướng dẫn từng bước của chúng tôi, bạn sẽ kh
 Làm chủ Aspose.CAD cho .NET: Áp dụng giấy phép một cách liền mạch bằng FileStream. Khám phá hướng dẫn từng bước và mở khóa tiềm năng. Tải ngay!
 ### [Cấp phép đo lường trong Aspose.CAD cho .NET](./metered-licensing/)
 Khai phá tiềm năng của Aspose.CAD với giấy phép đo lường trong .NET. Tối ưu hóa việc sử dụng tài nguyên một cách liền mạch. Khám phá hướng dẫn từng bước của chúng tôi.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

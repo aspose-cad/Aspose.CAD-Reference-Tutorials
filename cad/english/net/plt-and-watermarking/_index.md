@@ -3,10 +3,16 @@ title: PLT and Watermarking
 linktitle: PLT and Watermarking
 second_title: Aspose.CAD .NET - CAD and BIM File Format
 description: Unlock the potential of PLT format with Aspose.CAD for .NET. Effortlessly integrate PLT files into your applications with our step-by-step tutorials.
-type: docs
 weight: 37
 url: /net/plt-and-watermarking/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# PLT and Watermarking
+
 
 ## Introduction
 
@@ -46,3 +52,9 @@ In conclusion, with Aspose.CAD for .NET, mastering PLT format support and creati
 Discover seamless PLT format support in Aspose.CAD for .NET. Follow our step-by-step guide for integrating PLT files into your .NET applications effortlessly.
 ### [Adding Watermarks to CAD Drawings - Aspose.CAD Guide](./adding-watermarks-to-cad-drawings/)
 Enhance your CAD drawings with professional watermarks using Aspose.CAD for .NET. Follow our step-by-step guide for personalized and engaging designs.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

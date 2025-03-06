@@ -3,10 +3,16 @@ title: Đặt thời gian chờ khi lưu thao tác - Hướng dẫn Aspose.CAD
 linktitle: Đặt thời gian chờ khi lưu thao tác
 second_title: Aspose.CAD .NET - Định dạng tệp CAD và BIM
 description: Khám phá cách nâng cao hoạt động lưu CAD bằng cài đặt thời gian chờ bằng Aspose.CAD cho .NET. Tăng cường hiệu quả và khả năng kiểm soát trong các ứng dụng .NET của bạn.
-type: docs
 weight: 12
 url: /vi/net/advanced-cad-techniques/setting-timeout-on-save-operation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Đặt thời gian chờ khi lưu thao tác - Hướng dẫn Aspose.CAD
+
 ## Giới thiệu
 
 Trong lĩnh vực năng động của thiết kế có sự hỗ trợ của máy tính (CAD), hiệu quả và tính linh hoạt trong các hoạt động của bạn thường phụ thuộc vào khả năng quản lý các hoạt động lưu một cách hiệu quả. Hướng dẫn này sẽ đi sâu vào một khía cạnh quan trọng của quy trình này: đặt thời gian chờ cho các thao tác lưu bằng Aspose.CAD cho .NET. Aspose.CAD là một thư viện mạnh mẽ cho phép các nhà phát triển làm việc liền mạch với các định dạng tệp CAD trong các ứng dụng .NET của họ.
@@ -114,3 +120,9 @@ A4: Chắc chắn rồi! Aspose.CAD hỗ trợ cả định dạng tệp CAD 2D 
 ### Câu hỏi 5: Tôi có thể tìm thêm sự hỗ trợ hoặc hỗ trợ của cộng đồng ở đâu?
 
 A5: Tham quan[Diễn đàn Aspose.CAD](https://forum.aspose.com/c/cad/19) để được cộng đồng hỗ trợ và thảo luận.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

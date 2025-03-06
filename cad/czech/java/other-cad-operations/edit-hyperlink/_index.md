@@ -3,10 +3,16 @@ title: Edit DWG Hyperlinks - Aspose.CAD Java Tutorial
 linktitle: Upravit hypertextový odkaz
 second_title: Aspose.CAD Java API
 description: Vylepšete přesnost kreslení DWG pomocí Aspose.CAD pro Java. Upravujte hypertextové odkazy hladce a zajistěte přesné odkazy. Vyzkoušejte bezplatnou zkušební verzi nyní!
-type: docs
 weight: 17
 url: /cs/java/other-cad-operations/edit-hyperlink/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Edit DWG Hyperlinks - Aspose.CAD Java Tutorial
+
 dnešní digitální době je efektivní zpracování DWG výkresů zásadní pro profesionály v různých průmyslových odvětvích. Aspose.CAD for Java poskytuje výkonné řešení pro úpravu hypertextových odkazů ve výkresech DWG, což zajišťuje bezproblémovou integraci a přizpůsobení. Tento podrobný průvodce vás provede procesem úpravy hypertextových odkazů pomocí Aspose.CAD for Java.
 
 ## Úvod
@@ -99,3 +105,9 @@ Odpověď 1: Aspose.CAD for Java podporuje různé verze výkresů DWG a poskytu
 ### Q5: Mohu získat dočasnou licenci pro testovací účely?
 
  A5: Ano, můžete získat dočasnou licenci[tady](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

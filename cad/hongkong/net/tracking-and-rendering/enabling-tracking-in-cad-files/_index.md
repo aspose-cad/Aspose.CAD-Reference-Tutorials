@@ -3,10 +3,16 @@ title: 在 CAD 檔案中啟用追蹤 - Aspose.CAD 教學課程
 linktitle: 在 CAD 檔案中啟用追蹤
 second_title: Aspose.CAD .NET - CAD 和 BIM 檔案格式
 description: 使用 Aspose.CAD for .NET 掌握 CAD 檔案追蹤。請按照我們的逐步指南進行精確渲染和錯誤追蹤。現在下載！
-type: docs
 weight: 10
 url: /zh-hant/net/tracking-and-rendering/enabling-tracking-in-cad-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 CAD 檔案中啟用追蹤 - Aspose.CAD 教學課程
+
 ## 介紹
 
 在 CAD（電腦輔助設計）領域，精確度和追蹤至關重要。 Aspose.CAD for .NET 提供了一個強大的解決方案來啟用 CAD 檔案中的追蹤。本教學將引導您完成整個過程，確保您充分利用此功能的潛力。
@@ -103,3 +109,9 @@ A3：可能會出現缺少字體或不支援的實體等問題。檢查文件以
 ### Q5: 我可以自訂追蹤錯誤訊息嗎？
 
 A5：當然。您可以修改程式碼以根據您的要求自訂錯誤訊息。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

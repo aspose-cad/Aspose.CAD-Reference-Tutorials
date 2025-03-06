@@ -3,10 +3,16 @@ title: CAD-rajzok exportálása SVG formátumba – Aspose.CAD útmutató
 linktitle: CAD-rajzok exportálása SVG formátumba
 second_title: Aspose.CAD .NET - CAD és BIM fájlformátum
 description: Fedezze fel a CAD-rajzok SVG-be való exportálásának zökkenőmentes folyamatát az Aspose.CAD for .NET használatával. Fokozza CAD-fejlesztését rugalmassággal és testreszabással.
-type: docs
 weight: 15
 url: /hu/net/advanced-export-techniques/exporting-cad-drawings-to-svg/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# CAD-rajzok exportálása SVG formátumba – Aspose.CAD útmutató
+
 ## Bevezetés
 
 CAD (számítógéppel segített tervezés) dinamikus világában a rajzok különféle formátumokba történő exportálása kulcsfontosságú készség. Az SVG (Scalable Vector Graphics) az egyik ilyen formátum, amely skálázhatósága és sokoldalúsága miatt vált népszerűvé. Ebben az oktatóanyagban megvizsgáljuk, hogyan exportálhatunk CAD-rajzokat SVG-be a hatékony Aspose.CAD for .NET könyvtár használatával.
@@ -87,3 +93,9 @@ Ezeket az egyszerű lépéseket követve zökkenőmentesen exportálhatja a CAD-
 ### 5. kérdés: Hogyan kaphatok támogatást vagy tehetek fel kérdéseket az Aspose.CAD-hez kapcsolódóan?
 
  5. válasz: Látogassa meg a közösségi fórumot[itt](https://forum.aspose.com/c/cad/19) támogatásért és megbeszélésekért.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

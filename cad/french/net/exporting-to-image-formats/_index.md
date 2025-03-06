@@ -3,10 +3,16 @@ title: Exportation vers des formats d'image
 linktitle: Exportation vers des formats d'image
 second_title: Aspose.CAD .NET - Format de fichier CAO et BIM
 description: Convertissez sans effort des fichiers IFC en PNG avec Aspose.CAD pour .NET. Découvrez le traitement et le téléchargement transparents des fichiers CAO pour une manipulation efficace des fichiers.
-type: docs
 weight: 39
 url: /fr/net/exporting-to-image-formats/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Exportation vers des formats d'image
+
 
 ## Introduction
 
@@ -30,3 +36,9 @@ Dans un monde où la conception numérique exige précision et efficacité, maî
 Explorez Aspose.CAD pour .NET, une solution robuste pour une conversion transparente IFC vers PNG. Téléchargez-le maintenant pour un traitement efficace des fichiers CAO.
 ### [Exportation de fichiers IGES au format PDF - Guide Aspose.CAD](./exporting-iges-files-to-pdf/)
 Découvrez comment exporter sans effort des fichiers IGES au format PDF à l'aide d'Aspose.CAD pour .NET. Suivez notre guide étape par étape pour une manipulation précise des fichiers CAO.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

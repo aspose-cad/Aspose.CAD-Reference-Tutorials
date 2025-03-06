@@ -3,10 +3,16 @@ title: Εξαγωγή συγκεκριμένων διατάξεων σε PDF - �
 linktitle: Εξαγωγή συγκεκριμένων διατάξεων σε PDF
 second_title: Aspose.CAD .NET - Μορφή αρχείου CAD και BIM
 description: Μάθετε πώς να εξάγετε συγκεκριμένες διατάξεις σε PDF χρησιμοποιώντας το Aspose.CAD για .NET. Οδηγός βήμα προς βήμα για απρόσκοπτη ενσωμάτωση.
-type: docs
 weight: 13
 url: /el/net/advanced-export-techniques/exporting-specific-layouts-to-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Εξαγωγή συγκεκριμένων διατάξεων σε PDF - Οδηγός Aspose.CAD
+
 ## Εισαγωγή
 
 Καλώς ήρθατε στον αναλυτικό οδηγό μας για την εξαγωγή συγκεκριμένων διατάξεων σε PDF χρησιμοποιώντας το Aspose.CAD για .NET. Το Aspose.CAD είναι μια ισχυρή βιβλιοθήκη που επιτρέπει στους προγραμματιστές να εργάζονται με μορφές αρχείων CAD απρόσκοπτα. Σε αυτό το σεμινάριο, θα επικεντρωθούμε στην εξαγωγή συγκεκριμένων διατάξεων από ένα αρχείο DWG σε PDF χρησιμοποιώντας το Aspose.CAD σε περιβάλλον .NET.
@@ -110,3 +116,9 @@ A2: Ναι, το Aspose.CAD υποστηρίζει διάφορες μορφές
 ### Ε5: Υπάρχει δωρεάν δοκιμή διαθέσιμη;
 
  A5: Ναι, μπορείτε να έχετε πρόσβαση στη δωρεάν δοκιμή[εδώ](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

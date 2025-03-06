@@ -3,10 +3,16 @@ title: Thêm văn bản trong DWG bằng Aspose.CAD cho Java
 linktitle: Thêm văn bản trong DWG
 second_title: API Java Aspose.CAD
 description: Nâng cao bản vẽ DWG của bạn một cách dễ dàng với Aspose.CAD cho Java. Thêm văn bản liền mạch với hướng dẫn từng bước của chúng tôi.
-type: docs
 weight: 10
 url: /vi/java/cad-text-and-annotation/add-text-in-dwg/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Thêm văn bản trong DWG bằng Aspose.CAD cho Java
+
 ## Giới thiệu
 
 Trong lĩnh vực thiết kế có sự hỗ trợ của máy tính (CAD), Aspose.CAD cho Java nổi bật như một công cụ mạnh mẽ để thao tác và chuyển đổi các bản vẽ DWG. Một trong những tính năng tiện dụng của nó là khả năng thêm văn bản vào tệp DWG một cách liền mạch. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn quy trình thêm văn bản vào bản vẽ DWG của bạn bằng Aspose.CAD cho Java.
@@ -122,3 +128,9 @@ Câu trả lời 2: Có, bạn có thể tùy chỉnh phông chữ, kiểu và c
 ### Câu hỏi 5: Làm cách nào tôi có thể nhận được hỗ trợ hoặc tìm kiếm trợ giúp với Aspose.CAD?
 
 A5: Tham quan[Diễn đàn Aspose.CAD](https://forum.aspose.com/c/cad/19) để được hỗ trợ và kết nối với cộng đồng.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

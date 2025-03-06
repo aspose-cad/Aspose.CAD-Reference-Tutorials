@@ -3,10 +3,16 @@ title: Hỗ trợ mô hình 3D
 linktitle: Hỗ trợ mô hình 3D
 second_title: Aspose.CAD .NET - Định dạng tệp CAD và BIM
 description: Tối ưu hóa các ứng dụng CAD của bạn với Aspose.CAD cho .NET! Nắm vững nghệ thuật hỗ trợ liền mạch định dạng OBJ, khai thác toàn bộ tiềm năng của các mô hình 3D của bạn.
-type: docs
 weight: 40
 url: /vi/net/3d-model-support/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Hỗ trợ mô hình 3D
+
 
 ## Giới thiệu
 
@@ -32,3 +38,9 @@ Tóm lại, hướng dẫn này đóng vai trò là cửa ngõ để bạn nắm
 ## Hướng dẫn hỗ trợ mô hình 3D
 ### [Hỗ trợ định dạng OBJ trong Aspose.CAD - Hướng dẫn](./supporting-obj-format-in-aspose-cad/)
 Khai phá tiềm năng của Aspose.CAD cho .NET. Tìm hiểu cách hỗ trợ liền mạch định dạng OBJ trong các ứng dụng CAD của bạn với hướng dẫn từng bước này.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

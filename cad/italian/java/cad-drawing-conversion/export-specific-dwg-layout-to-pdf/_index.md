@@ -3,10 +3,16 @@ title: Esporta layout DWG specifico in PDF utilizzando Aspose.CAD per Java
 linktitle: Esporta layout DWG specifico in PDF
 second_title: API Java Aspose.CAD
 description: Esplora la guida passo passo per esportare layout DWG specifici in PDF utilizzando Aspose.CAD per Java. Ottimizza il tuo flusso di lavoro CAD senza sforzo.
-type: docs
 weight: 14
 url: /it/java/cad-drawing-conversion/export-specific-dwg-layout-to-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Esporta layout DWG specifico in PDF utilizzando Aspose.CAD per Java
+
 ## introduzione
 
 Nel dinamico mondo della progettazione assistita da computer (CAD), Aspose.CAD per Java emerge come un potente strumento per manipolare e convertire disegni DWG. In questo tutorial esploreremo uno scenario specifico: esportare un layout DWG designato in un file PDF. Questo processo garantisce precisione e flessibilità nei tuoi progetti CAD.
@@ -100,3 +106,9 @@ Aspose.CAD per Java è una libreria autonoma ma può essere integrata con altre 
 ### Q5: È disponibile una prova gratuita per Aspose.CAD?
 
  Sì, puoi accedere a una prova gratuita[Qui](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

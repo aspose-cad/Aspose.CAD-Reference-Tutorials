@@ -3,10 +3,16 @@ title: 在 Aspose.CAD for .NET 中按路徑套用許可證
 linktitle: 按路徑申請許可證
 second_title: Aspose.CAD .NET - CAD 和 BIM 檔案格式
 description: 釋放 Aspose.CAD for .NET 的全部潛能！按照我們的逐步指南無縫應用許可證。立即提升您的 CAD 檔案操作能力！
-type: docs
 weight: 10
 url: /zh-hant/net/licensing-and-configuration/apply-license-by-path/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.CAD for .NET 中按路徑套用許可證
+
 ## 介紹
 
 您準備好利用 Aspose.CAD 的功能來提升您的 .NET 開發等級了嗎？在這個綜合教學中，我們將引導您完成使用 Aspose.CAD for .NET 依路徑套用授權的過程。請繫好安全帶，讓我們解開將這個強大的庫無縫整合到您的專案中的步驟，確保工作流程順利且有效率。
@@ -88,3 +94,9 @@ A3：是的，您可以獲得免費試用[這裡](https://releases.aspose.com/).
 ### Q5：需要協助或有疑問嗎？
 
  A5：加入 Aspose.CAD 社群：[Aspose.CAD論壇](https://forum.aspose.com/c/cad/19).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

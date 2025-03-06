@@ -3,10 +3,16 @@ title: تصدير DXF إلى تنسيق PDF - البرنامج التعليمي 
 linktitle: تصدير DXF إلى تنسيق PDF
 second_title: Aspose.CAD .NET - تنسيق ملف CAD وBIM
 description: استكشف التكامل السلس لـ Aspose.CAD لـ .NET في هذا الدليل المفصّل خطوة بخطوة لتصدير ملفات DXF إلى PDF بسهولة.
-type: docs
 weight: 12
 url: /ar/net/export-techniques/exporting-dxf-to-pdf-format/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تصدير DXF إلى تنسيق PDF - البرنامج التعليمي Aspose.CAD
+
 ## مقدمة
 
 مرحبًا بك في برنامجنا التعليمي الشامل حول تصدير ملفات DXF إلى تنسيق PDF باستخدام Aspose.CAD لـ .NET! إذا كنت مطورًا يتطلع إلى دمج هذه الوظيفة بسلاسة في تطبيقات .NET الخاصة بك، فأنت في المكان الصحيح. في هذا الدليل، سنرشدك خلال العملية خطوة بخطوة، مما يضمن أنك تفهم كل مفهوم جيدًا.
@@ -109,3 +115,9 @@ image.Save(MyDir, pdfOptions);
 ### س5: هل يمكنني شراء ترخيص مؤقت؟
 
  ج5: نعم، يمكنك الحصول على ترخيص مؤقت من[هنا](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

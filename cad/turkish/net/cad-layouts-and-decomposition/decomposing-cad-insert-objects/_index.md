@@ -3,10 +3,16 @@ title: CAD Insert Nesnelerini Ayrıştırma - Aspose.CAD Guide
 linktitle: CAD Ekleme Nesnelerini Ayrıştırma
 second_title: Aspose.CAD .NET - CAD ve BIM Dosya Formatı
 description: Aspose.CAD for .NET'in gücünü, CAD ekleme nesnelerini ayrıştırmaya yönelik adım adım kılavuzumuzla keşfedin.
-type: docs
 weight: 11
 url: /tr/net/cad-layouts-and-decomposition/decomposing-cad-insert-objects/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# CAD Insert Nesnelerini Ayrıştırma - Aspose.CAD Guide
+
 ## giriiş
 
 Bilgisayar destekli tasarımın (CAD) dinamik dünyasında, CAD dosyalarının etkili şekilde işlenmesi ve analizi, çeşitli sektörlerdeki profesyoneller için çok önemlidir. Aspose.CAD for .NET, geliştiricilere .NET ortamında CAD dosyalarıyla verimli bir şekilde çalışmak için gereken araçları sağlayan güçlü bir çözüm olarak ortaya çıkıyor.
@@ -100,3 +106,9 @@ Aspose.CAD for .NET, CAD ekleme nesnelerini ayrıştırma gibi karmaşık bir g�
 ### S5: Aspose.CAD for .NET için geçici lisansı nasıl edinebilirim?
 
  Geçici bir lisansa ihtiyacınız varsa gerekli bilgileri bulabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

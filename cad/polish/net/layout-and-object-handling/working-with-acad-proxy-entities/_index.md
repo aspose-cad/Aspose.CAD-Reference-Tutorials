@@ -3,10 +3,16 @@ title: Praca z jednostkami proxy ACAD - Przewodnik Aspose.CAD
 linktitle: Praca z podmiotami proxy ACAD
 second_title: Aspose.CAD .NET - Format plików CAD i BIM
 description: Poznaj Aspose.CAD dla .NET i usprawnij przepływ pracy CAD. Konwertuj, edytuj i zarządzaj jednostkami proxy ACAD bez wysiłku.
-type: docs
 weight: 13
 url: /pl/net/layout-and-object-handling/working-with-acad-proxy-entities/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Praca z jednostkami proxy ACAD - Przewodnik Aspose.CAD
+
 ## Wstęp
 
 dynamicznym świecie rozwoju .NET tworzenie rysunków CAD i zarządzanie nimi jest zadaniem krytycznym. Aspose.CAD dla .NET oferuje solidne rozwiązanie do pracy z obiektami proxy AutoCAD. Ten przewodnik przeprowadzi Cię przez najważniejsze kroki, aby wykorzystać moc Aspose.CAD i usprawnić przepływy pracy związane z CAD.
@@ -98,3 +104,9 @@ Odpowiedź 1: Tak, Aspose.CAD obsługuje różne formaty CAD, w tym DWG i DXF.
 ### P5: Gdzie mogę kupić pełną licencję na Aspose.CAD dla .NET?
 
  Odpowiedź 5: Możesz kupić licencję w witrynie[strona zakupu](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

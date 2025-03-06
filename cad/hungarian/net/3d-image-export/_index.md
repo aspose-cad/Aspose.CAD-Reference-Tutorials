@@ -3,10 +3,16 @@ title: 3D képexportálás
 linktitle: 3D képexportálás
 second_title: Aspose.CAD .NET - CAD és BIM fájlformátum
 description: Könnyedén exportálhat 3D CAD képeket PDF formátumba az Aspose.CAD for .NET segítségével. Kövesse oktatóanyagainkat a zökkenőmentes PDF konvertáláshoz. Ismerje meg a hatékony 3D képexportálási technikákat.
-type: docs
 weight: 35
 url: /hu/net/3d-image-export/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 3D képexportálás
+
 
 ## Bevezetés
 
@@ -34,3 +40,9 @@ Fedezze fel az Aspose.CAD teljes potenciálját .NET-hez a főbb jellemzőinek e
 ## 3D képexportálási útmutatók
 ### [3D képek exportálása PDF-be – Aspose.CAD oktatóanyag](./exporting-3d-images-to-pdf/)
 Könnyedén konvertálhat 3D CAD képeket PDF-be az Aspose.CAD for .NET segítségével. Kövesse lépésről lépésre bemutató oktatóanyagunkat a zökkenőmentes PDF-exportáláshoz.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

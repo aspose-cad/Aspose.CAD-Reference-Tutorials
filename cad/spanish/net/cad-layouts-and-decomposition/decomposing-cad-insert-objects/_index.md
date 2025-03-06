@@ -3,10 +3,16 @@ title: Descomponer objetos de inserción CAD - Guía Aspose.CAD
 linktitle: Descomponer objetos de inserción CAD
 second_title: Aspose.CAD .NET - Formato de archivo CAD y BIM
 description: Explore el poder de Aspose.CAD para .NET con nuestra guía paso a paso sobre cómo descomponer objetos de inserción CAD.
-type: docs
 weight: 11
 url: /es/net/cad-layouts-and-decomposition/decomposing-cad-insert-objects/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Descomponer objetos de inserción CAD - Guía Aspose.CAD
+
 ## Introducción
 
 En el dinámico mundo del diseño asistido por computadora (CAD), la manipulación y el análisis efectivos de los archivos CAD son cruciales para los profesionales de diversas industrias. Aspose.CAD para .NET surge como una solución poderosa que brinda a los desarrolladores las herramientas necesarias para trabajar de manera eficiente con archivos CAD en el entorno .NET.
@@ -100,3 +106,9 @@ Para adquirir una licencia adaptada a sus necesidades, visite la página de comp
 ### P5: ¿Cómo obtengo una licencia temporal de Aspose.CAD para .NET?
 
  Si necesita una licencia temporal, puede encontrar la información necesaria[aquí](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

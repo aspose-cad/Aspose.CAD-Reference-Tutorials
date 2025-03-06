@@ -3,10 +3,16 @@ title: Explorando sinalizadores de subposição de arquivos DWG - Tutorial Aspos
 linktitle: Explorando sinalizadores subjacentes de arquivos DWG
 second_title: Aspose.CAD .NET - Formato de arquivo CAD e BIM
 description: Desbloqueie o poder do Aspose.CAD for .NET ao explorar sinalizadores de subjacência de arquivos DWG. Siga nosso guia passo a passo.
-type: docs
 weight: 13
 url: /pt/net/dwg-file-manipulation/exploring-underlay-flags-of-dwg/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Explorando sinalizadores de subposição de arquivos DWG - Tutorial Aspose.CAD
+
 ## Introdução
 
 Se você está mergulhando no intrincado mundo dos arquivos CAD, especificamente dos arquivos DWG, e deseja desvendar os mistérios das bandeiras subjacentes, você está no lugar certo. Este tutorial irá guiá-lo através do processo de exploração de sinalizadores de subjacência em arquivos DWG usando a poderosa biblioteca Aspose.CAD for .NET.
@@ -114,3 +120,10 @@ A4: Compre a biblioteca[aqui](https://purchase.aspose.com/buy).
 ### Q5: Existe um teste gratuito disponível?
 
  A5: Sim, você pode acessar a avaliação gratuita[aqui](https://releases.aspose.com/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

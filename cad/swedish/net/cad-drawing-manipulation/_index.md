@@ -3,10 +3,16 @@ title: CAD-ritningsmanipulation
 linktitle: CAD-ritningsmanipulation
 second_title: Aspose.CAD .NET - CAD- och BIM-filformat
 description: Förbättra dina CAD-projekt utan ansträngning med Aspose.CAD för .NET tutorials. Ändra storlek, konvertera och optimera CAD-ritningar sömlöst med våra steg-för-steg-guider.
-type: docs
 weight: 21
 url: /sv/net/cad-drawing-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# CAD-ritningsmanipulation
+
 
 ## Introduktion
 
@@ -44,3 +50,9 @@ Konvertera enkelt CAD-layouter till rasterbilder med Aspose.CAD för .NET. Förb
 Upptäck kraften i Aspose.CAD för .NET. Aktivera spårning för CAD-rendering sömlöst. Följ vår steg-för-steg-guide för förbättrad kontroll och effektivitet.
 ### [Få storlek på CAD-layout i Aspose.CAD för .NET](./get-size-of-cad-layout/)
 Lär dig hur du hämtar CAD-layoutstorlek i .NET med Aspose.CAD. Följ vår steg-för-steg-guide för effektiv CAD-filmanipulation.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Макеты и декомпозиция САПР
 linktitle: Макеты и декомпозиция САПР
 second_title: Aspose.CAD .NET — формат файлов CAD и BIM
 description: Раскройте потенциал макетов САПР с помощью Aspose.CAD для .NET! Легко конвертируйте проекты в PDF с помощью нашего руководства. Освойте декомпозицию вставленных объектов без особых усилий.
-type: docs
 weight: 34
 url: /ru/net/cad-layouts-and-decomposition/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Макеты и декомпозиция САПР
+
 
 
 
@@ -59,3 +65,9 @@ Aspose.CAD выделяется своим удобным интерфейсом
 Легко конвертируйте макеты САПР в PDF с помощью Aspose.CAD для .NET. Следуйте нашему пошаговому руководству для бесшовной интеграции.
 ### [Разложение вставленных объектов САПР — Руководство Aspose.CAD](./decomposing-cad-insert-objects/)
 Изучите возможности Aspose.CAD для .NET с помощью нашего пошагового руководства по декомпозиции вставных объектов САПР.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

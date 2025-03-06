@@ -3,10 +3,16 @@ title: Enumerar todos los diseños en AutoCAD Drawing con Java
 linktitle: Enumerar todos los diseños en AutoCAD Drawing con Java
 second_title: API de Java Aspose.CAD
 description: Explore dibujos de AutoCAD sin esfuerzo en Java con Aspose.CAD. Enumere todos los diseños, extraiga información valiosa. ¡Descárgalo ahora para una integración perfecta!
-type: docs
 weight: 11
 url: /es/java/dwg-file-operations/list-all-layouts/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Enumerar todos los diseños en AutoCAD Drawing con Java
+
 ## Introducción
 
 ¿Está buscando desbloquear todo el potencial de los dibujos de AutoCAD en sus aplicaciones Java? Aspose.CAD para Java es su solución preferida, que ofrece una integración perfecta para manipular y extraer información valiosa de archivos DWG y DXF. En esta guía paso a paso, lo guiaremos a través del proceso de enumerar todos los diseños en un dibujo de AutoCAD usando Aspose.CAD para Java.
@@ -86,3 +92,9 @@ R3: Sí, puede encontrar dibujos de muestra en el directorio "DWGDrawings" dentr
 ### P5: ¿Puedo probar Aspose.CAD para Java antes de comprarlo?
 
  R5: ¡Por supuesto! Obtenga una prueba gratuita de[aquí](https://releases.aspose.com/) experimente el poder de Aspose.CAD para Java.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

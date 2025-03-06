@@ -3,10 +3,16 @@ title: Hiperhivatkozások szerkesztése CAD-fájlokban - Aspose.CAD oktatóanyag
 linktitle: Hiperhivatkozások szerkesztése CAD-fájlokban
 second_title: Aspose.CAD .NET - CAD és BIM fájlformátum
 description: Fedezze fel az Aspose.CAD for .NET-et, és tanulja meg könnyedén szerkeszteni a hiperhivatkozásokat CAD-fájlokban. Fejlessze CAD-fájlkezelési készségeit ezzel az átfogó oktatóanyaggal.
-type: docs
 weight: 14
 url: /hu/net/advanced-cad-techniques/editing-hyperlinks-in-cad-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Hiperhivatkozások szerkesztése CAD-fájlokban - Aspose.CAD oktatóanyag
+
 ## Bevezetés
 
 Üdvözöljük a CAD-fájlok hiperhivatkozásainak Aspose.CAD for .NET használatával történő szerkesztéséről szóló, lépésről lépésre bemutatott oktatóanyagunkban. Az Aspose.CAD egy hatékony könyvtár, amely lehetővé teszi a fejlesztők számára, hogy zökkenőmentesen dolgozzanak CAD fájlokkal. Ebben az oktatóanyagban a hiperhivatkozások CAD-fájlokon belüli szerkesztésének konkrét feladatára összpontosítunk, bemutatva, hogyan lehet hatékonyan módosítani és kezelni a hivatkozásokat.
@@ -103,3 +109,9 @@ Gratulálunk! Sikeresen megtanulta, hogyan szerkeszthet hiperhivatkozásokat CAD
 ### 5. kérdés: Segítségre van szüksége, vagy kérdései vannak?
 
  5. válasz: Látogassa meg támogatási fórumunkat[itt](https://forum.aspose.com/c/cad/19).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

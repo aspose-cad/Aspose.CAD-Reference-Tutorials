@@ -3,10 +3,16 @@ title: Java용 Aspose.CAD를 사용하여 BMP로 내보내기
 linktitle: BMP로 내보내기
 second_title: Aspose.CAD 자바 API
 description: Java용 Aspose.CAD를 사용하여 원활한 CAD에서 BMP로의 변환을 살펴보세요. 효율적이고 정확한 내보내기를 위한 단계별 가이드를 따르세요.
-type: docs
 weight: 12
 url: /ko/java/cad-export-options/export-to-bmp/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java용 Aspose.CAD를 사용하여 BMP로 내보내기
+
 ## 소개
 
 끊임없이 진화하는 디지털 디자인 환경에서는 CAD(Computer-Aided Design) 파일을 다양한 형식으로 원활하게 내보내는 기능이 중요합니다. Aspose.CAD for Java는 개발자에게 CAD 파일을 BMP 형식으로 효율적으로 내보내는 데 필요한 도구를 제공하는 강력한 솔루션으로 돋보입니다. 이 튜토리얼에서는 프로세스를 단계별로 안내하여 매번 원활하고 성공적인 내보내기를 보장합니다.
@@ -110,3 +116,9 @@ A2: 예, 특정 요구 사항에 따라 페이지 크기 및 레이아웃과 같
 ### Q5: 임시 라이센스는 어떻게 얻을 수 있나요?
 
  A5: Java용 Aspose.CAD에 대한 임시 라이센스를 얻습니다.[여기](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

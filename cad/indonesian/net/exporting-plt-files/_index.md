@@ -3,10 +3,16 @@ title: Mengekspor File PLT
 linktitle: Mengekspor File PLT
 second_title: Aspose.CAD .NET - Format File CAD dan BIM
 description: Konversikan file PLT ke gambar dan PDF dengan mudah menggunakan Aspose.CAD untuk .NET. Jelajahi integrasi tanpa hambatan dan opsi fleksibel untuk manipulasi file CAD.
-type: docs
 weight: 41
 url: /id/net/exporting-plt-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Mengekspor File PLT
+
 
 ## Perkenalan
 
@@ -38,3 +44,9 @@ Kesimpulannya, mengekspor file PLT ke gambar dan PDF tidak pernah semudah ini. A
 Konversi file PLT menjadi gambar dengan mudah menggunakan Aspose.CAD untuk .NET. Jelajahi opsi fleksibel dan integrasi sempurna untuk kebutuhan manipulasi file CAD Anda.
 ### [Mengekspor File PLT ke PDF - Panduan Aspose.CAD](./exporting-plt-files-to-pdf/)
 Konversi file PLT ke PDF dengan mudah menggunakan Aspose.CAD untuk .NET. Ikuti panduan langkah demi langkah kami untuk integrasi yang lancar dan hasil yang andal.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

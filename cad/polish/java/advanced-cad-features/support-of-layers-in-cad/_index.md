@@ -3,10 +3,16 @@ title: Obsługa warstw za pomocą Aspose.CAD w Javie
 linktitle: Obsługa warstw w CAD
 second_title: Aspose.CAD API Java
 description: Obsługa warstwy głównej w programowaniu Java CAD za pomocą Aspose.CAD. Porządkuj i eksportuj rysunki bez wysiłku.
-type: docs
 weight: 18
 url: /pl/java/advanced-cad-features/support-of-layers-in-cad/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Obsługa warstw za pomocą Aspose.CAD w Javie
+
 ## Wstęp
 
 Odblokuj pełny potencjał Aspose.CAD w Javie, opanowując obsługę warstw. Warstwy odgrywają kluczową rolę w rysunkach CAD, umożliwiając sprawną organizację i manipulację elementami graficznymi. W tym obszernym samouczku zagłębimy się w zawiłości obsługi warstw przy użyciu Aspose.CAD, dostarczając przewodnik krok po kroku, jak wykorzystać tę potężną funkcjonalność.
@@ -118,3 +124,9 @@ Odpowiedź 2: Tak, Aspose.CAD obsługuje szeroką gamę formatów CAD, zapewniaj
 ### P5: Gdzie mogę szukać pomocy lub podzielić się swoimi doświadczeniami z Aspose.CAD?
 
 A5: Dołącz do społeczności Aspose.CAD na[forum](https://forum.aspose.com/c/cad/19) za wsparcie i wspólne dyskusje.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

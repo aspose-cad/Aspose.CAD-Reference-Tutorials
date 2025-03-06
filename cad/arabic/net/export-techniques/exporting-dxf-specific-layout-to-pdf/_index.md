@@ -3,10 +3,16 @@ title: تصدير تخطيط DXF المحدد إلى PDF - دليل Aspose.CAD
 linktitle: تصدير تخطيط DXF المحدد إلى PDF
 second_title: Aspose.CAD .NET - تنسيق ملف CAD وBIM
 description: تعرف على كيفية تصدير تخطيطات DXF محددة إلى PDF باستخدام Aspose.CAD لـ .NET. اتبع دليلنا خطوة بخطوة للحصول على تحويلات فعالة وعالية الجودة.
-type: docs
 weight: 11
 url: /ar/net/export-techniques/exporting-dxf-specific-layout-to-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تصدير تخطيط DXF المحدد إلى PDF - دليل Aspose.CAD
+
 ## مقدمة
 
 مرحبًا بك في البرنامج التعليمي Aspose.CAD حول تصدير تخطيطات DXF المحددة إلى PDF باستخدام الميزات القوية لـ Aspose.CAD لـ .NET. سيرشدك هذا الدليل خطوة بخطوة خلال عملية تحويل ملفات DXF إلى PDF، مع التركيز على تخطيط محدد يسمى "النموذج". يوفر Aspose.CAD أدوات ووظائف فعالة لتبسيط عملية التحويل، مما يضمن مخرجات عالية الجودة لرسومات CAD الخاصة بك.
@@ -113,3 +119,9 @@ Console.WriteLine("\nThe DXF file with the specific layout exported successfully
 ### س5: أين يمكنني شراء ترخيص Aspose.CAD؟
 
  ج5: يمكنك شراء ترخيص Aspose.CAD[هنا](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

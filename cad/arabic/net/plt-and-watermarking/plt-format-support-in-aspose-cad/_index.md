@@ -3,10 +3,16 @@ title: دعم تنسيق PLT في Aspose.CAD - برنامج تعليمي شام�
 linktitle: دعم تنسيق PLT في Aspose.CAD - البرنامج التعليمي
 second_title: Aspose.CAD .NET - تنسيق ملف CAD وBIM
 description: اكتشف الدعم السلس لتنسيق PLT في Aspose.CAD لـ .NET. اتبع دليلنا خطوة بخطوة لدمج ملفات PLT في تطبيقات .NET الخاصة بك دون عناء.
-type: docs
 weight: 10
 url: /ar/net/plt-and-watermarking/plt-format-support-in-aspose-cad/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# دعم تنسيق PLT في Aspose.CAD - برنامج تعليمي شامل
+
 ## مقدمة
 
 مرحبًا بك في برنامجنا التعليمي المتعمق حول دعم تنسيق PLT في Aspose.CAD لـ .NET! إذا كنت مطورًا وتتطلع إلى العمل مع ملفات PLT والاستفادة من قوة Aspose.CAD، فأنت في المكان الصحيح. في هذا الدليل، سنوجهك عبر الخطوات الأساسية والمتطلبات الأساسية ونقدم أمثلة تفصيلية لضمان قدرتك على دمج دعم PLT بسلاسة في تطبيقات .NET الخاصة بك.
@@ -118,3 +124,9 @@ image.Save((MyDir+"themepark.jpg"), imageOptions);
 ### س5: كيف يمكنني الحصول على ترخيص مؤقت؟
 
  ج5: للتراخيص المؤقتة توجه إلى[هذا الرابط](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

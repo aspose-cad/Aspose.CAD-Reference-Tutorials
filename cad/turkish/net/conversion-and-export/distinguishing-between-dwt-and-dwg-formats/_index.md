@@ -3,10 +3,16 @@ title: DWT ve DWG Formatlarını Ayırmak - Aspose.CAD Guide
 linktitle: DWT ve DWG Formatlarını Ayırmak
 second_title: Aspose.CAD .NET - CAD ve BIM Dosya Formatı
 description: Aspose.CAD for .NET ile DWT ve DWG formatlarının inceliklerini keşfedin. Bu CAD dosya türlerini zahmetsizce ayırt edin.
-type: docs
 weight: 12
 url: /tr/net/conversion-and-export/distinguishing-between-dwt-and-dwg-formats/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# DWT ve DWG Formatlarını Ayırmak - Aspose.CAD Guide
+
 ## giriiş
 
 Bilgisayar destekli tasarım (CAD) alanında, dosya formatlarını anlamak kusursuz işbirliği ve verimli iş akışları için çok önemlidir. İki yaygın format olan DWT ve DWG, benzerliklerinden dolayı çoğu zaman kafa karışıklığına yol açmaktadır. Bu eğitim, CAD dosya işleme için güçlü bir kütüphane olan Aspose.CAD for .NET'i kullanarak bu formatların gizemini açığa çıkarmayı amaçlamaktadır.
@@ -93,3 +99,9 @@ Cevap1: Aspose.CAD for .NET, diğer .NET kitaplıklarıyla sorunsuz bir şekilde
 ### S5: Aspose.CAD for .NET'i ticari projelerde kullanabilir miyim?
 
  C5: Evet, Aspose.CAD for .NET'i ticari projelerinize şu şekilde entegre edebilirsiniz:[lisans satın alma](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

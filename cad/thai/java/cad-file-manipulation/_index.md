@@ -3,10 +3,16 @@ title: การจัดการไฟล์ CAD
 linktitle: การจัดการไฟล์ CAD
 second_title: Aspose.CAD Java API
 description: ปลดล็อกพลังของไฟล์ CAD ด้วย Aspose.CAD สำหรับ Java! แปลง DWFX เป็น PDF เข้าถึงแฟล็ก DWG เค้าโครงรายการ และปรับขนาดอัตโนมัติด้วยบทช่วยสอนของเรา
-type: docs
 weight: 23
 url: /th/java/cad-file-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# การจัดการไฟล์ CAD
+
 
 ## การแนะนำ
 
@@ -44,3 +50,9 @@ url: /th/java/cad-file-manipulation/
 สำรวจกระบวนการที่ไร้รอยต่อของการปรับขนาดการวาด CAD อัตโนมัติใน Java โดยใช้ Aspose.CAD ปฏิบัติตามคำแนะนำทีละขั้นตอนของเราเพื่อการจัดการไฟล์ CAD ที่มีประสิทธิภาพ
 ### [การปรับขนาดการเขียนแบบ CAD โดยใช้ประเภทหน่วยด้วย Aspose.CAD สำหรับ Java](./adjusting-cad-drawing-size-using-unit-type/)
 สำรวจพลังของ Aspose.CAD สำหรับ Java ในการปรับขนาดการวาด CAD ได้อย่างง่ายดาย ปฏิบัติตามคำแนะนำทีละขั้นตอนของเราเพื่อความแม่นยำและความสามารถในการปรับเปลี่ยน
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

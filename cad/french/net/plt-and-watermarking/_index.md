@@ -3,10 +3,16 @@ title: PLT et filigrane
 linktitle: PLT et filigrane
 second_title: Aspose.CAD .NET - Format de fichier CAO et BIM
 description: Libérez le potentiel du format PLT avec Aspose.CAD pour .NET. Intégrez sans effort des fichiers PLT dans vos applications grâce à nos didacticiels étape par étape.
-type: docs
 weight: 37
 url: /fr/net/plt-and-watermarking/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# PLT et filigrane
+
 
 ## Introduction
 
@@ -46,3 +52,9 @@ En conclusion, avec Aspose.CAD pour .NET, maîtriser la prise en charge du forma
 Découvrez la prise en charge transparente du format PLT dans Aspose.CAD pour .NET. Suivez notre guide étape par étape pour intégrer sans effort des fichiers PLT dans vos applications .NET.
 ### [Ajout de filigranes aux dessins CAO - Guide Aspose.CAD](./adding-watermarks-to-cad-drawings/)
 Améliorez vos dessins CAO avec des filigranes professionnels à l'aide d'Aspose.CAD pour .NET. Suivez notre guide étape par étape pour des conceptions personnalisées et attrayantes.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

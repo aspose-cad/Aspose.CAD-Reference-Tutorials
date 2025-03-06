@@ -3,10 +3,16 @@ title: Aspose.CAD for Java ile Dinamik PDF'ler Oluşturma
 linktitle: Farklı Düzenlere Sahip Tek PDF
 second_title: Aspose.CAD Java API'si
 description: Aspose.CAD for Java'yı kullanarak CAD çizimlerinden çeşitli düzenlerle etkileyici PDF'ler oluşturun. Java geliştiricileri için kolay entegrasyon ve güçlü özellikler.
-type: docs
 weight: 16
 url: /tr/java/other-cad-operations/single-pdf-different-layouts/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.CAD for Java ile Dinamik PDF'ler Oluşturma
+
 ## giriiş
 
 Geliştiricilerin CAD çizimlerini zahmetsizce değiştirmesine olanak tanıyan güçlü bir kütüphane olan Aspose.CAD for Java dünyasına hoş geldiniz. Bu eğitimde Aspose.CAD for Java'yı kullanarak farklı düzenlere sahip tek PDF'ler oluşturmayı ele alacağız. İster deneyimli bir geliştirici olun ister yeni başlıyor olun, bu adım adım kılavuz süreç boyunca size yol gösterecektir.
@@ -103,3 +109,9 @@ C1: Evet, Aspose.CAD for Java, diğer Java kitaplıklarıyla sorunsuz bir şekil
 ### S5: Tam sürümü nereden satın alabilirim?
 
 Cevap5: Aspose.CAD for Java'nın tam sürümünü satın alın[Burada](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

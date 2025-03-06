@@ -3,10 +3,16 @@ title: Ondersteuning voor PLT-indeling in Aspose.CAD - een uitgebreide zelfstudi
 linktitle: Ondersteuning voor PLT-indeling in Aspose.CAD - zelfstudie
 second_title: Aspose.CAD .NET - CAD- en BIM-bestandsindeling
 description: Ontdek naadloze ondersteuning voor PLT-indelingen in Aspose.CAD voor .NET. Volg onze stapsgewijze handleiding om PLT-bestanden moeiteloos in uw .NET-applicaties te integreren.
-type: docs
 weight: 10
 url: /nl/net/plt-and-watermarking/plt-format-support-in-aspose-cad/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ondersteuning voor PLT-indeling in Aspose.CAD - een uitgebreide zelfstudie
+
 ## Invoering
 
 Welkom bij onze uitgebreide tutorial over ondersteuning voor PLT-indelingen in Aspose.CAD voor .NET! Als u een ontwikkelaar bent die met PLT-bestanden wil werken en de kracht van Aspose.CAD wil benutten, bent u hier op de juiste plek. In deze handleiding leiden we u door de essentiële stappen en vereisten en geven we gedetailleerde voorbeelden om ervoor te zorgen dat u PLT-ondersteuning naadloos kunt integreren in uw .NET-applicaties.
@@ -118,3 +124,9 @@ A2: Absoluut! Zoals u in de zelfstudie ziet, kunt u de rasterisatieopties aanpas
 ### Vraag 5: Hoe verkrijg ik een tijdelijke licentie?
 
  A5: Ga voor tijdelijke licenties naar[deze link](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

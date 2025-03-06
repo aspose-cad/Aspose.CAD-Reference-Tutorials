@@ -3,10 +3,16 @@ title: 在 C# 中處理 DWG 檔案 - 取得 DWF 佈局的大小
 linktitle: 在 C# 中處理 DWG 檔案 - 取得 DWF 佈局的大小
 second_title: Aspose.CAD .NET - CAD 和 BIM 檔案格式
 description: 探索 Aspose.CAD for .NET 在處理 DWG 檔案方面的強大功能。了解使用 C# 輕鬆擷取 DWF 佈局尺寸。
-type: docs
 weight: 10
 url: /zh-hant/net/dwg-file-manipulation/get-size-of-dwf-layout/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 C# 中處理 DWG 檔案 - 取得 DWF 佈局的大小
+
 ## 介紹
 
 在電腦輔助設計 (CAD) 和 .NET 開發領域，Aspose.CAD 是處理 DWG 檔案的強大工具。本教學將引導您完成在 C# 中處理 DWG 檔案並提取 DWF 佈局大小的過程。在我們深入研究程式碼之前，讓我們確保您已做好開始此旅程的一切準備。
@@ -163,3 +169,9 @@ A4：如有任何疑問或幫助，請訪問[Aspose.CAD論壇](https://forum.asp
 ### Q5：Aspose.CAD 有免費試用版嗎？
 
 A5：是的，您可以存取 Aspose.CAD 的免費試用版[這裡](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

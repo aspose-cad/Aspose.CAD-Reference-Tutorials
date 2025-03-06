@@ -3,10 +3,16 @@ title: Exportera PLT-filer
 linktitle: Exportera PLT-filer
 second_title: Aspose.CAD .NET - CAD- och BIM-filformat
 description: Konvertera enkelt PLT-filer till bilder och PDF-filer med Aspose.CAD för .NET. Utforska sömlös integration och flexibla alternativ för CAD-filmanipulering.
-type: docs
 weight: 41
 url: /sv/net/exporting-plt-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Exportera PLT-filer
+
 
 ## Introduktion
 
@@ -38,3 +44,9 @@ Sammanfattningsvis har det aldrig varit så enkelt att exportera PLT-filer till 
 Konvertera enkelt PLT-filer till bilder med Aspose.CAD för .NET. Utforska flexibla alternativ och sömlös integration för dina CAD-filhanteringsbehov.
 ### [Exportera PLT-filer till PDF - Aspose.CAD Guide](./exporting-plt-files-to-pdf/)
 Konvertera enkelt PLT-filer till PDF med Aspose.CAD för .NET. Följ vår steg-för-steg-guide för sömlös integration och pålitliga resultat.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

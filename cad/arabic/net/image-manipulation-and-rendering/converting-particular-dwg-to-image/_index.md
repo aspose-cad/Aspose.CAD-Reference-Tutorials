@@ -3,10 +3,16 @@ title: تحويل DWG معين إلى صورة في C# - دليل Aspose.CAD
 linktitle: تحويل DWG معين إلى صورة في C#
 second_title: Aspose.CAD .NET - تنسيق ملف CAD وBIM
 description: استكشف Aspose.CAD لـ .NET. تحويل DWG إلى صورة في C# دون عناء. دليل شامل مع أمثلة التعليمات البرمجية.
-type: docs
 weight: 15
 url: /ar/net/image-manipulation-and-rendering/converting-particular-dwg-to-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تحويل DWG معين إلى صورة في C# - دليل Aspose.CAD
+
 ## مقدمة
 
 في عالم تطوير البرمجيات الديناميكي، يعد التعامل الفعال مع ملفات CAD أمرًا بالغ الأهمية. يظهر Aspose.CAD for .NET كحل قوي، حيث يوفر للمطورين مجموعة قوية من الأدوات لمعالجة ملفات CAD وتحويلها بسلاسة. في هذا البرنامج التعليمي، سنتعمق في عملية تحويل ملف DWG محدد إلى صورة باستخدام لغة C#.
@@ -118,3 +124,9 @@ cadImage.Save(outFile, pdfOptions);
 ### س5: كيف يمكنني الحصول على الدعم أو التواصل مع المجتمع للحصول على المساعدة؟
 
 ج5: قم بزيارة[منتدى Aspose.CAD](https://forum.aspose.com/c/cad/19) للحصول على الدعم والمناقشات والتعاون مع المجتمع.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

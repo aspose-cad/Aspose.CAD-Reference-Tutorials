@@ -3,10 +3,16 @@ title: Xuất hình ảnh sang định dạng DXF - Hướng dẫn Aspose.CAD
 linktitle: Xuất hình ảnh sang định dạng DXF
 second_title: Aspose.CAD .NET - Định dạng tệp CAD và BIM
 description: Khám phá sức mạnh của Aspose.CAD cho .NET! Tìm hiểu cách xuất hình ảnh sang định dạng DXF một cách dễ dàng. Nâng cao khả năng phát triển CAD của bạn với độ chính xác và hiệu quả.
-type: docs
 weight: 15
 url: /vi/net/export-techniques/exporting-images-to-dxf-format/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Xuất hình ảnh sang định dạng DXF - Hướng dẫn Aspose.CAD
+
 ## Giới thiệu
 
 Trong thế giới phát triển phần mềm năng động, hiệu quả và độ chính xác là điều tối quan trọng. Aspose.CAD cho .NET nổi lên như một công cụ mạnh mẽ, cung cấp cho các nhà phát triển khả năng thao tác các bản vẽ CAD một cách liền mạch. Trong hướng dẫn này, chúng ta sẽ đi sâu vào quy trình xuất hình ảnh sang định dạng DXF bằng Aspose.CAD trong môi trường .NET. Hãy làm theo hướng dẫn từng bước này để khám phá tiềm năng của công cụ này và nâng cao quy trình công việc liên quan đến CAD của bạn.
@@ -129,3 +135,9 @@ A2: Chắc chắn rồi! Mã được cung cấp được thiết kế để l�
 ### Câu hỏi 5: Aspose.CAD có cung cấp bản dùng thử miễn phí không?
 
  Câu trả lời 5: Có, bạn có thể khám phá bản dùng thử miễn phí[đây](https://releases.aspose.com/) để trải nghiệm các khả năng của Aspose.CAD.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

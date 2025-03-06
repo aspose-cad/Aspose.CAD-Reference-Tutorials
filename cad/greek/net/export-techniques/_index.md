@@ -3,10 +3,16 @@ title: Τεχνικές εξαγωγής
 linktitle: Τεχνικές εξαγωγής
 second_title: Aspose.CAD .NET - Μορφή αρχείου CAD και BIM
 description: Εξερευνήστε τα μαθήματα Aspose.CAD για απρόσκοπτη ανάπτυξη CAD. Μάθετε αποτελεσματικές τεχνικές για να εξάγετε αρχεία DXF σε διάφορες μορφές χωρίς κόπο.
-type: docs
 weight: 32
 url: /el/net/export-techniques/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Τεχνικές εξαγωγής
+
 
 
 ## Εισαγωγή
@@ -49,3 +55,9 @@ url: /el/net/export-techniques/
 Εξερευνήστε τη δύναμη του Aspose.CAD για .NET. Μάθετε να εξάγετε ενσωματωμένα αρχεία DGN σε PDF χωρίς κόπο με αυτό το βήμα προς βήμα σεμινάριο.
 ### [Εξαγωγή εικόνων σε μορφή DXF - Οδηγός Aspose.CAD](./exporting-images-to-dxf-format/)
 Εξερευνήστε τη δύναμη του Aspose.CAD για .NET! Μάθετε να εξάγετε εικόνες σε μορφή DXF χωρίς κόπο. Βελτιώστε την ανάπτυξη CAD σας με ακρίβεια και αποτελεσματικότητα.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

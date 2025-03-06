@@ -1,12 +1,17 @@
 ---
 title: Uitgebreide tutorials en voorbeelden van Aspose.CAD voor Java
 linktitle: Aspose.CAD voor Java-zelfstudies
-type: docs
 weight: 10
 url: /nl/java/
 description: Verbeter uw CAD-vaardigheden moeiteloos met Aspose.CAD voor Java. Ontdek tutorials over tekenconversie, tekstannotatie, bestandsmanipulatie, geavanceerde functies, licenties en meer.
-is_root: true
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Uitgebreide tutorials en voorbeelden van Aspose.CAD voor Java
+
 
 ## Invoering
 
@@ -77,3 +82,9 @@ Exporteer moeiteloos AutoCAD-afbeeldingen, CAD-lay-outs, IFC- en STL-bestanden n
 Ontgrendel de kracht van Aspose.CAD voor Java met onze DGN Export Tutorials. Leer efficiënt CAD-bestandsmanipuleren, van het exporteren van DGN als onderdeel van DWG tot het moeiteloos maken van rasterafbeeldingen.
 ### [Andere CAD-bewerkingen](./other-cad-operations/)
 Ontgrendel het potentieel van Aspose.CAD voor Java met onze tutorials. Van het omgaan met DGN-elementen tot het toevoegen van watermerken: vergroot uw CAD-vaardigheden moeiteloos.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

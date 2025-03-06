@@ -3,10 +3,16 @@ title: Gömülü DGN Dosyalarını Dışa Aktarma - Aspose.CAD Eğitimi
 linktitle: Gömülü DGN Dosyalarını Dışa Aktarma
 second_title: Aspose.CAD .NET - CAD ve BIM Dosya Formatı
 description: Aspose.CAD for .NET'in gücünü keşfedin. Bu adım adım eğitimle gömülü DGN dosyalarını zahmetsizce PDF'ye aktarmayı öğrenin.
-type: docs
 weight: 14
 url: /tr/net/export-techniques/exporting-embedded-dgn-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Gömülü DGN Dosyalarını Dışa Aktarma - Aspose.CAD Eğitimi
+
 ## giriiş
 
 Yazılım geliştirmenin dinamik dünyasında Aspose.CAD for .NET, Bilgisayar Destekli Tasarım (CAD) dosyalarını işlemek için güçlü bir araç olarak öne çıkıyor. Bu eğitim, Aspose.CAD for .NET kullanarak gömülü DGN dosyalarını dışa aktarma sürecinde size rehberlik edecektir. İster deneyimli bir geliştirici olun ister meraklı bir başlangıç seviyesinde olun, bu adım adım kılavuz Aspose.CAD'in özelliklerinden etkili bir şekilde yararlanmanıza yardımcı olacaktır.
@@ -98,3 +104,9 @@ Cevap1: Aspose.CAD öncelikli olarak .NET'i destekler ancak Aspose, Java ve Pyth
 ### S5: Yardıma mı ihtiyacınız var veya toplulukla etkileşime geçmek mi istiyorsunuz?
 
 A5: ziyaret edin[Aspose.CAD Forumu](https://forum.aspose.com/c/cad/19) Destek ve tartışmalar için.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

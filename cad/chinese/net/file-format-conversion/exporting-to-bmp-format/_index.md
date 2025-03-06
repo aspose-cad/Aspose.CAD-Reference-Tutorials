@@ -3,10 +3,16 @@ title: 导出为 BMP 格式 - Aspose.CAD 教程
 linktitle: 导出为 BMP 格式
 second_title: Aspose.CAD .NET - CAD 和 BIM 文件格式
 description: 使用 Aspose.CAD for .NET 探索将 3D 图像导出为 BMP 的无缝世界。按照我们的教程获得无忧的体验。
-type: docs
 weight: 11
 url: /zh/net/file-format-conversion/exporting-to-bmp-format/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 导出为 BMP 格式 - Aspose.CAD 教程
+
 ## 介绍
 
 在软件开发的动态世界中，Aspose.CAD for .NET 作为处理计算机辅助设计 (CAD) 文件的强大工具脱颖而出。如果您希望将 CAD 图像导出为广泛使用的 BMP 格式，本教程是您的首选指南。在本分步演练中，我们将探索使用 Aspose.CAD for .NET 将 3D 图像导出为 BMP 的过程。让我们深入了解吧！
@@ -94,3 +100,10 @@ A1：是的，Aspose.CAD 支持各种 CAD 文件格式，为您的项目提供�
 ### Q5：我可以购买 Aspose.CAD for .NET 吗？
 
  A5: 是的，您可以购买Aspose.CAD[这里](https://purchase.aspose.com/buy)为您的项目释放其全部潜力。
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

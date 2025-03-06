@@ -3,10 +3,16 @@ title: Licenc és konfigurálás
 linktitle: Licenc és konfigurálás
 second_title: Aspose.CAD .NET - CAD és BIM fájlformátum
 description: Emelje fel CAD fájlkezelő játékát az Aspose.CAD for .NET segítségével! Alkalmazza a licenceket zökkenőmentesen a FileStream segítségével vagy útvonalon keresztül lépésről lépésre bemutatott oktatóanyagaink segítségével.
-type: docs
 weight: 20
 url: /hu/net/licensing-and-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Licenc és konfigurálás
+
 
 ## Bevezetés
 
@@ -32,3 +38,9 @@ Végezetül, lépésről lépésre szóló útmutatóink segítségével nem csa
 Az Aspose.CAD elsajátítása .NET-hez: A licencek zökkenőmentes alkalmazása a FileStream segítségével. Fedezze fel a lépésről lépésre bemutatott útmutatót, és tárja fel a lehetőségeket. Letöltés most!
 ### [Méretes licencelés az Aspose.CAD-ben .NET-hez](./metered-licensing/)
 Az Aspose.CAD potenciál felszabadítása a .NET-ben mért licenccel. Az erőforrás-felhasználás zökkenőmentes optimalizálása. Fedezze fel lépésenkénti útmutatónkat.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

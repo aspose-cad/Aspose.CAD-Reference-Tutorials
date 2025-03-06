@@ -3,10 +3,16 @@ title: เทคนิคการส่งออกขั้นสูง
 linktitle: เทคนิคการส่งออกขั้นสูง
 second_title: Aspose.CAD .NET - รูปแบบไฟล์ CAD และ BIM
 description: ปลดล็อกพลังของ Aspose.CAD ใน C# ด้วยบทช่วยสอนเทคนิคการส่งออกขั้นสูงของเรา ส่งออก DWG ไปยัง DXF, PDF, รูปภาพแรสเตอร์, วัตถุ OLE และอื่นๆ ได้อย่างง่ายดาย
-type: docs
 weight: 26
 url: /th/net/advanced-export-techniques/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# เทคนิคการส่งออกขั้นสูง
+
 
 ## การแนะนำ
 
@@ -50,3 +56,9 @@ url: /th/net/advanced-export-techniques/
 ส่งออกแบบร่าง CAD เป็น PDF ได้อย่างราบรื่นด้วย Aspose.CAD สำหรับ .NET ปฏิบัติตามคำแนะนำทีละขั้นตอนของเราเพื่อการแปลงที่มีประสิทธิภาพ
 ### [การส่งออกแบบร่าง CAD เป็นรูปแบบ SVG - คู่มือ Aspose.CAD](./exporting-cad-drawings-to-svg/)
 สำรวจกระบวนการที่ราบรื่นในการส่งออกแบบร่าง CAD ไปยัง SVG โดยใช้ Aspose.CAD สำหรับ .NET ปรับปรุงการพัฒนา CAD ของคุณด้วยความยืดหยุ่นและการปรับแต่ง
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

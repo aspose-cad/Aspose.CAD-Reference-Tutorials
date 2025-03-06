@@ -3,10 +3,16 @@ title: Décomposition d'objets d'insertion CAO - Guide Aspose.CAD
 linktitle: Décomposition d'objets d'insertion CAO
 second_title: Aspose.CAD .NET - Format de fichier CAO et BIM
 description: Explorez la puissance d'Aspose.CAD pour .NET avec notre guide étape par étape sur la décomposition des objets d'insertion CAO.
-type: docs
 weight: 11
 url: /fr/net/cad-layouts-and-decomposition/decomposing-cad-insert-objects/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Décomposition d'objets d'insertion CAO - Guide Aspose.CAD
+
 ## Introduction
 
 Dans le monde dynamique de la conception assistée par ordinateur (CAO), une manipulation et une analyse efficaces des fichiers CAO sont cruciales pour les professionnels de divers secteurs. Aspose.CAD for .NET apparaît comme une solution puissante, fournissant aux développeurs les outils nécessaires pour travailler efficacement avec des fichiers CAO dans l'environnement .NET.
@@ -100,3 +106,9 @@ Pour acquérir une licence adaptée à vos besoins, visitez la page d'achat[ici]
 ### Q5 : Comment puis-je obtenir une licence temporaire pour Aspose.CAD pour .NET ?
 
  Si vous avez besoin d'une licence temporaire, vous pouvez trouver les informations nécessaires[ici](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

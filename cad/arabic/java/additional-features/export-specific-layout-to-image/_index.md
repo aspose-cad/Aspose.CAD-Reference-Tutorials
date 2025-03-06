@@ -3,10 +3,16 @@ title: تصدير تخطيط DXF محدد إلى صورة باستخدام Aspos
 linktitle: تصدير تخطيط DXF محدد إلى صورة باستخدام Java
 second_title: Aspose.CAD جافا API
 description: تعرف على كيفية تصدير تخطيط DXF محدد إلى صورة باستخدام Aspose.CAD لـ Java. اتبع دليلنا خطوة بخطوة للتكامل السلس.
-type: docs
 weight: 16
 url: /ar/java/additional-features/export-specific-layout-to-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تصدير تخطيط DXF محدد إلى صورة باستخدام Aspose.CAD في Java
+
 ## مقدمة
 
 هل تتطلع إلى تحويل تخطيط DXF محدد إلى صورة باستخدام Java؟ باستخدام Aspose.CAD لـ Java، يمكنك تحقيق هذه المهمة بسلاسة. في هذا الدليل المفصّل خطوة بخطوة، سنرشدك خلال عملية تصدير تخطيط DXF محدد إلى صورة، مع توفير تعليمات وأمثلة واضحة لكل مرحلة.
@@ -141,3 +147,9 @@ image.save(output, jpegOptions);
 ### س5: هل يمكنني تخصيص خيارات التنقيط بشكل أكبر؟
 
  ج5: بالتأكيد`CadRasterizationOptions` توفر الفئة خصائص مختلفة للتخصيص. استكشف الوثائق للحصول على خيارات إضافية.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

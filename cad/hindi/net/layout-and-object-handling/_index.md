@@ -3,10 +3,16 @@ title: लेआउट और ऑब्जेक्ट हैंडलिंग
 linktitle: लेआउट और ऑब्जेक्ट हैंडलिंग
 second_title: Aspose.CAD .NET - CAD और BIM फ़ाइल स्वरूप
 description: .NET के लिए Aspose.CAD का उपयोग करके उन्नत CAD डिज़ाइन के लिए सहजता से मास्टर DXF लेआउट निर्यात, फ़ाइल सेविंग, ब्लॉक क्लिपिंग और ACAD प्रॉक्सी एंटिटीज़।
-type: docs
 weight: 33
 url: /hi/net/layout-and-object-handling/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# लेआउट और ऑब्जेक्ट हैंडलिंग
+
 
 ## परिचय
 
@@ -38,3 +44,9 @@ url: /hi/net/layout-and-object-handling/
 जानें कि .NET के लिए Aspose.CAD का उपयोग करके CAD में ब्लॉक क्लिपिंग कैसे लागू करें। इस चरण-दर-चरण ट्यूटोरियल के साथ अपनी डिज़ाइन क्षमताओं को बढ़ाएं।
 ### [ACAD प्रॉक्सी संस्थाओं के साथ कार्य करना - Aspose.CAD गाइड](./working-with-acad-proxy-entities/)
 .NET के लिए Aspose.CAD का अन्वेषण करें और अपने CAD वर्कफ़्लो को सुव्यवस्थित करें। ACAD प्रॉक्सी संस्थाओं को आसानी से रूपांतरित करें, संपादित करें और प्रबंधित करें।
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

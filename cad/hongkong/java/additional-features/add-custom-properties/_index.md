@@ -3,10 +3,16 @@ title: 在 Java 中使用 Aspose.CAD 將自訂屬性新增至 DWG 文件
 linktitle: 使用 Java 將自訂屬性新增至 DWG 文件
 second_title: Aspose.CAD Java API
 description: 了解如何使用 Aspose.CAD 將自訂屬性新增至 Java 中的 DWG 檔案。輕鬆增強 CAD 工程圖中的組織和資訊檢索。
-type: docs
 weight: 10
 url: /zh-hant/java/additional-features/add-custom-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Java 中使用 Aspose.CAD 將自訂屬性新增至 DWG 文件
+
 在 Java 程式設計領域，使用自訂屬性操作 DWG 檔案是一項常見任務。 Aspose.CAD for Java 提供了一組強大的工具，可以將此功能無縫整合到您的專案中。在本逐步教學中，我們將引導您完成使用 Aspose.CAD for Java 將自訂屬性新增至 DWG 檔案的過程。
 
 ## 介紹
@@ -105,3 +111,9 @@ A2：Aspose.CAD for Java 與流行的 Java IDE 相容，例如 Eclipse、Intelli
 ### Q5：我如何獲得支持或提出問題？
 
 A5：訪問[Aspose.CAD論壇](https://forum.aspose.com/c/cad/19)取得支援、提出問題以及與 Aspose.CAD 社群聯繫。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

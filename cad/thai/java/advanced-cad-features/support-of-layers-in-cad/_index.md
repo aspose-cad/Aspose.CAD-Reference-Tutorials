@@ -3,10 +3,16 @@ title: รองรับเลเยอร์ด้วย Aspose.CAD ใน Jav
 linktitle: รองรับเลเยอร์ใน CAD
 second_title: Aspose.CAD Java API
 description: การสนับสนุนเลเยอร์หลักในการพัฒนา Java CAD ด้วย Aspose.CAD จัดระเบียบและส่งออกภาพวาดได้อย่างง่ายดาย
-type: docs
 weight: 18
 url: /th/java/advanced-cad-features/support-of-layers-in-cad/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# รองรับเลเยอร์ด้วย Aspose.CAD ใน Java
+
 ## การแนะนำ
 
 ปลดล็อกศักยภาพสูงสุดของ Aspose.CAD ใน Java โดยการเรียนรู้การรองรับเลเยอร์ต่างๆ เลเยอร์มีบทบาทสำคัญในการเขียนแบบ CAD ช่วยให้สามารถจัดระเบียบและจัดการองค์ประกอบกราฟิกได้อย่างมีประสิทธิภาพ ในบทช่วยสอนที่ครอบคลุมนี้ เราจะเจาะลึกความซับซ้อนของการรองรับเลเยอร์โดยใช้ Aspose.CAD ซึ่งจะให้คำแนะนำทีละขั้นตอนเพื่อควบคุมฟังก์ชันการทำงานอันทรงพลังนี้
@@ -118,3 +124,9 @@ image.save(outFile, jpegOptions);
 ### คำถามที่ 5: ฉันจะขอความช่วยเหลือหรือแบ่งปันประสบการณ์ของฉันกับ Aspose.CAD ได้ที่ไหน
 
 A5: เข้าร่วมชุมชน Aspose.CAD บน[ฟอรั่ม](https://forum.aspose.com/c/cad/19) เพื่อสนับสนุนและหารือร่วมกัน
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

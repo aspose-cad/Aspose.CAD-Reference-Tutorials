@@ -3,10 +3,16 @@ title: सीएडी लेआउट और अपघटन
 linktitle: सीएडी लेआउट और अपघटन
 second_title: Aspose.CAD .NET - CAD और BIM फ़ाइल स्वरूप
 description: .NET के लिए Aspose.CAD के साथ CAD लेआउट की क्षमता को अनलॉक करें! हमारे गाइड का उपयोग करके आसानी से डिज़ाइन को पीडीएफ में बदलें। सम्मिलित वस्तुओं को आसानी से विघटित करने में महारत हासिल करें।
-type: docs
 weight: 34
 url: /hi/net/cad-layouts-and-decomposition/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# सीएडी लेआउट और अपघटन
+
 
 
 
@@ -59,3 +65,9 @@ Aspose.CAD अपने उपयोगकर्ता-अनुकूल इं
 .NET के लिए Aspose.CAD के साथ CAD लेआउट को आसानी से PDF में बदलें। निर्बाध एकीकरण के लिए हमारी चरण-दर-चरण मार्गदर्शिका का पालन करें।
 ### [सीएडी सम्मिलित वस्तुओं को विघटित करना - Aspose.CAD गाइड](./decomposing-cad-insert-objects/)
 CAD सम्मिलित वस्तुओं को विघटित करने पर हमारी चरण-दर-चरण मार्गदर्शिका के साथ .NET के लिए Aspose.CAD की शक्ति का अन्वेषण करें।
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

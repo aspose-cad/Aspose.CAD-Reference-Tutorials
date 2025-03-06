@@ -3,10 +3,16 @@ title: Ajustar el tamaño del dibujo CAD en Aspose.CAD para .NET
 linktitle: Ajustar el tamaño del dibujo CAD
 second_title: Aspose.CAD .NET - Formato de archivo CAD y BIM
 description: Aprenda cómo ajustar sin esfuerzo los tamaños de los dibujos CAD en .NET usando Aspose.CAD. Siga nuestra guía paso a paso para cambiar el tamaño sin problemas.
-type: docs
 weight: 10
 url: /es/net/cad-drawing-manipulation/adjust-cad-drawing-size/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ajustar el tamaño del dibujo CAD en Aspose.CAD para .NET
+
 ## Introducción
 
 ¿Está buscando ajustar sin problemas el tamaño de los dibujos CAD en sus aplicaciones .NET? Aspose.CAD para .NET proporciona una solución sólida que le permite manejar sin esfuerzo el cambio de tamaño de los dibujos CAD. En este tutorial, lo guiaremos a través del proceso, desglosando cada paso para asegurarnos de que comprenda las complejidades de cambiar el tamaño de los dibujos CAD usando Aspose.CAD.
@@ -115,3 +121,9 @@ R2: Sí, puede cambiar el tamaño de varios diseños ajustando la matriz de dise
 ### P5: ¿Cómo puedo obtener una licencia temporal de Aspose.CAD para .NET?
 
  R5: Obtener una licencia temporal para realizar pruebas[aquí](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

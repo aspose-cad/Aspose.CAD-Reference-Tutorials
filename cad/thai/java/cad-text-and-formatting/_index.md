@@ -3,10 +3,16 @@ title: ข้อความ CAD และการจัดรูปแบบ
 linktitle: ข้อความ CAD และการจัดรูปแบบ
 second_title: Aspose.CAD Java API
 description: ปลดล็อก Aspose.CAD เพื่อศักยภาพของ Java ด้วยบทช่วยสอน เรียนรู้การค้นหาข้อความ เส้นที่ซ่อนอยู่ เอนทิตี MLeader และแอตทริบิวต์ MText เพื่อปรับปรุงแอป CAD ของคุณ
-type: docs
 weight: 28
 url: /th/java/cad-text-and-formatting/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# ข้อความ CAD และการจัดรูปแบบ
+
 ## บทนำ
 ยินดีต้อนรับสู่คำแนะนำที่ครอบคลุมของเราเกี่ยวกับข้อความ CAD และบทช่วยสอนการจัดรูปแบบโดยใช้ Aspose.CAD สำหรับ Java ไม่ว่าคุณจะเป็นนักพัฒนาที่มีประสบการณ์หรือเพิ่งเริ่มต้นใช้งานแอปพลิเคชัน CAD บทช่วยสอนเหล่านี้จะช่วยให้คุณพัฒนาทักษะของคุณไปอีกระดับ
 
@@ -37,3 +43,9 @@ url: /th/java/cad-text-and-formatting/
 ปลดล็อกพลังของ Aspose.CAD สำหรับ Java ด้วยบทช่วยสอนทีละขั้นตอนของเราเกี่ยวกับการสนับสนุนเอนทิตี MLeader ในรูปแบบ DWG
 ### [เพิ่มคุณสมบัติให้กับ MText ในไฟล์ DWG โดยใช้ Aspose.CAD สำหรับ Java](./add-attributes-to-mtext/)
 เรียนรู้วิธีเพิ่มคุณลักษณะให้กับ MText ในไฟล์ DWG โดยใช้ Aspose.CAD สำหรับ Java ยกระดับภาพวาด CAD ของคุณด้วยคำแนะนำทีละขั้นตอนนี้
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

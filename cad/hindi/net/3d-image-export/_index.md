@@ -3,10 +3,16 @@ title: 3डी छवि निर्यात
 linktitle: 3डी छवि निर्यात
 second_title: Aspose.CAD .NET - CAD और BIM फ़ाइल स्वरूप
 description: .NET के लिए Aspose.CAD का उपयोग करके आसानी से 3D CAD छवियों को PDF में निर्यात करें। निर्बाध पीडीएफ रूपांतरण के लिए हमारे ट्यूटोरियल का अनुसरण करें। कुशल 3डी छवि निर्यात तकनीक सीखें।
-type: docs
 weight: 35
 url: /hi/net/3d-image-export/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 3डी छवि निर्यात
+
 
 ## परिचय
 
@@ -34,3 +40,9 @@ url: /hi/net/3d-image-export/
 ## 3डी छवि निर्यात ट्यूटोरियल
 ### [3डी छवियों को पीडीएफ में निर्यात करना - Aspose.CAD ट्यूटोरियल](./exporting-3d-images-to-pdf/)
 .NET के लिए Aspose.CAD के साथ 3D CAD छवियों को आसानी से PDF में बदलें। निर्बाध पीडीएफ निर्यात के लिए हमारे चरण-दर-चरण ट्यूटोरियल का पालन करें।
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

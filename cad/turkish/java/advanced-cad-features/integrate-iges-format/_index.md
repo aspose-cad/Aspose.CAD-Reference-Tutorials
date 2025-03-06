@@ -3,10 +3,16 @@ title: IGES Formatını Entegre Edin
 linktitle: IGES Formatını Entegre Edin
 second_title: Aspose.CAD Java API'si
 description: Aspose.CAD for Java ile IGES formatının entegrasyonunu sorunsuz bir şekilde keşfedin. CAD geliştirme deneyiminizi geliştirmek için Aspose.CAD'in gücünden yararlanarak adım adım kılavuzumuzu izleyin.
-type: docs
 weight: 11
 url: /tr/java/advanced-cad-features/integrate-iges-format/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# IGES Formatını Entegre Edin
+
 ## giriiş
 
 CAD'nin (Bilgisayar Destekli Tasarım) dinamik dünyasında, çeşitli dosya formatlarını entegre etme ihtiyacı çok önemlidir. Bu kılavuz, Aspose.CAD for Java kullanılarak IGES (İlk Grafik Değişim Belirtimi) formatının kusursuz entegrasyonunu ele almaktadır. Aspose.CAD, geliştiricilerin CAD dosyalarını zahmetsizce işlemesine ve dönüştürmesine olanak tanır ve uygulama geliştirme için bir fırsatlar dünyasının kapılarını açar.
@@ -88,3 +94,9 @@ A2: Kesinlikle! Öğreticide gösterildiği gibi, vektör rasterleştirme seçen
 ### S5: Aspose.CAD lisansını nasıl satın alabilirim?
 
  Cevap5: Aspose.CAD lisansını satın alabilirsiniz[Burada](https://purchase.aspose.com/buy) Kütüphanenin tüm potansiyelini ortaya çıkarmak için.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

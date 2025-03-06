@@ -3,10 +3,16 @@ title: التحويل والتصدير
 linktitle: التحويل والتصدير
 second_title: Aspose.CAD .NET - تنسيق ملف CAD وBIM
 description: افتح عالم معالجة ملفات CAD باستخدام Aspose.CAD! تعلم كيفية تقديم ألوان نابضة بالحياة وتحويل ملفات DWG. انغمس في تنسيقات DWT وDWG للحصول على نتائج دقيقة.
-type: docs
 weight: 25
 url: /ar/net/conversion-and-export/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# التحويل والتصدير
+
 
 
 ## مقدمة
@@ -45,3 +51,9 @@ url: /ar/net/conversion-and-export/
 تحويل DWG إلى PDF متوافق باستخدام Aspose.CAD لـ .NET. اتبع البرنامج التعليمي لدينا للحصول على إرشادات خطوة بخطوة.
 ### [تحويل تنسيق DWG إلى تنسيق DWF - دليل Aspose.CAD](./converting-dwg-to-dwf/)
 استكشف التحويل السلس لملف DWG إلى DWF باستخدام Aspose.CAD لـ .NET. اتبع دليلنا خطوة بخطوة للحصول على تجربة خالية من المتاعب.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

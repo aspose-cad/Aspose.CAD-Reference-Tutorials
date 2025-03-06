@@ -3,10 +3,16 @@ title: Converti layout in immagini raster in Aspose.CAD per .NET
 linktitle: Converti layout in immagini raster
 second_title: Aspose.CAD .NET - Formato file CAD e BIM
 description: Converti facilmente layout CAD in immagini raster utilizzando Aspose.CAD per .NET. Migliora il tuo sviluppo con potenti funzionalità di manipolazione CAD.
-type: docs
 weight: 12
 url: /it/net/cad-drawing-manipulation/convert-layouts-to-raster-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Converti layout in immagini raster in Aspose.CAD per .NET
+
 ## introduzione
 
 Stai cercando di convertire facilmente i layout in immagini raster nelle tue applicazioni .NET? Non guardare oltre! Questa guida passo passo ti guiderà attraverso il processo utilizzando Aspose.CAD per .NET, una potente libreria che semplifica le attività di progettazione assistita da computer (CAD).
@@ -102,3 +108,9 @@ Congratulazioni! Hai convertito con successo i layout CAD in un formato di immag
 ### Q5: Dove posso acquistare una licenza per Aspose.CAD?
 
  A5: Passare a[pagina di acquisto](https://purchase.aspose.com/buy) per acquistare una licenza e sbloccare tutto il potenziale di Aspose.CAD.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: استيراد الصور بسهولة إلى ملفات DWG باستخد
 linktitle: استيراد صورة إلى ملف DWG باستخدام Java
 second_title: Aspose.CAD جافا API
 description: استكشف التكامل السلس للصور في ملفات DWG باستخدام Aspose.CAD لـ Java. اتبع دليلنا خطوة بخطوة للتطوير الفعال.
-type: docs
 weight: 10
 url: /ar/java/dwg-file-operations/import-image-to-dwg/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# استيراد الصور بسهولة إلى ملفات DWG باستخدام Aspose.CAD Java
+
 ## مقدمة
 
 في عالم تطوير Java الديناميكي، أصبح دمج الصور في ملفات DWG جانبًا حاسمًا في العديد من التطبيقات. يوفر Aspose.CAD for Java حلاً قويًا للمطورين الذين يبحثون عن طرق فعالة لاستيراد الصور إلى ملفات DWG. في هذا البرنامج التعليمي، سنرشدك خلال العملية خطوة بخطوة، مما يضمن التكامل السلس للصور باستخدام Aspose.CAD لـ Java.
@@ -126,3 +132,9 @@ image.save((srcFile + "_generated.pdf"), pdfOptions);
 ### س5: هل يمكنني الحصول على ترخيص مؤقت لـ Aspose.CAD لـ Java؟
 
  ج5: نعم، يمكنك الحصول على ترخيص مؤقت[هنا](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

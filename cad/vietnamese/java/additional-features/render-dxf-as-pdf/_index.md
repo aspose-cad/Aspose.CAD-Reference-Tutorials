@@ -3,10 +3,16 @@ title: Kết xuất DXF dưới dạng PDF bằng Aspose.CAD cho Java
 linktitle: Kết xuất DXF dưới dạng PDF bằng Java
 second_title: API Java Aspose.CAD
 description: Chuyển đổi DXF sang PDF trong Java dễ dàng với Aspose.CAD. Hãy làm theo hướng dẫn từng bước của chúng tôi để hiển thị liền mạch.
-type: docs
 weight: 19
 url: /vi/java/additional-features/render-dxf-as-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Kết xuất DXF dưới dạng PDF bằng Aspose.CAD cho Java
+
 ## Giới thiệu
 
 Trong thế giới lập trình Java, nhu cầu hiển thị các tệp DXF (Định dạng trao đổi bản vẽ) thành tệp PDF là một yêu cầu phổ biến. Aspose.CAD cho Java ra đời, cung cấp giải pháp mạnh mẽ để dễ dàng chuyển đổi các bản vẽ DXF thành tệp PDF chất lượng cao. Trong hướng dẫn từng bước này, chúng ta sẽ khám phá cách đạt được điều này bằng Aspose.CAD cho Java, chia nhỏ từng ví dụ thành nhiều bước để hiểu toàn diện.
@@ -103,3 +109,9 @@ Câu trả lời 2: Có, bạn có thể điều chỉnh đầu ra bằng cách 
 ### Câu hỏi 5: Tôi có cần giấy phép tạm thời để thử nghiệm không?
 
  Câu trả lời 5: Có, bạn có thể xin giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/) cho mục đích thử nghiệm.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Hỗ trợ định dạng OBJ trong Aspose.CAD - Hướng dẫn
 linktitle: Hỗ trợ định dạng OBJ trong Aspose.CAD - Hướng dẫn
 second_title: Aspose.CAD .NET - Định dạng tệp CAD và BIM
 description: Khai phá tiềm năng của Aspose.CAD cho .NET. Tìm hiểu cách hỗ trợ liền mạch định dạng OBJ trong các ứng dụng CAD của bạn với hướng dẫn từng bước này.
-type: docs
 weight: 10
 url: /vi/net/3d-model-support/supporting-obj-format-in-aspose-cad/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Hỗ trợ định dạng OBJ trong Aspose.CAD - Hướng dẫn
+
 ## Giới thiệu
 
 Nếu bạn đang tìm hiểu sâu về thế giới của Thiết kế hỗ trợ máy tính (CAD) trong phát triển .NET, bạn có thể cần phải làm việc với các tệp OBJ. Aspose.CAD cho .NET là một giải pháp mạnh mẽ cho phép các nhà phát triển hỗ trợ liền mạch định dạng OBJ trong ứng dụng của họ. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn quy trình kết hợp Aspose.CAD vào dự án của bạn để làm việc với các tệp OBJ một cách hiệu quả.
@@ -97,3 +103,9 @@ Chúc mừng! Bạn đã tích hợp thành công Aspose.CAD cho .NET để hỗ
 ### Câu 5: Tôi có thể mua Aspose.CAD ở đâu?
 
  A5: Bạn có thể mua Aspose.CAD[đây](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

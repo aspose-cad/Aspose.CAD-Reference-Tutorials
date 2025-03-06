@@ -3,10 +3,16 @@ title: DWG-filhantering
 linktitle: DWG-filhantering
 second_title: Aspose.CAD .NET - CAD- och BIM-filformat
 description: Lås upp Aspose.CADs kraft i .NET med våra DWG-handledningar. Master C# för effektiv CAD-hantering, extraherar DWF-layoutstorlekar sömlöst.
-type: docs
 weight: 24
 url: /sv/net/dwg-file-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# DWG-filhantering
+
 
 ## Introduktion
 
@@ -39,3 +45,9 @@ Lär dig hur du öppnar och får åtkomst till DWFX-filer i C# med Aspose.CAD f�
 Lås upp kraften i Aspose.CAD för .NET när du utforskar DWG-filunderlagsflaggor. Följ vår steg-för-steg-guide.
 ### [Lägga till text till DWG-filer i C# - Aspose.CAD Tutorial](./adding-text-to-dwg/)
 Lär dig hur du lägger till text i DWG-filer med C# och Aspose.CAD. Följ denna steg-för-steg handledning för sömlös integration. Utforska Aspose.CAD-dokumentationen för omfattande vägledning.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

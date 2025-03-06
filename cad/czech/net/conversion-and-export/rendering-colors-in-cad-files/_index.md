@@ -3,10 +3,16 @@ title: Vykreslování barev v souborech CAD - Průvodce Aspose.CAD
 linktitle: Vykreslování barev v souborech CAD
 second_title: Aspose.CAD .NET – formát souborů CAD a BIM
 description: Master vykreslování souborů CAD v .NET s Aspose.CAD. Postupujte podle našeho podrobného průvodce pro živé barvy.
-type: docs
 weight: 10
 url: /cs/net/conversion-and-export/rendering-colors-in-cad-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Vykreslování barev v souborech CAD - Průvodce Aspose.CAD
+
 ## Úvod
 
 Potýkáte se s výzvou vykreslování barev v souborech CAD pomocí .NET? Už nehledejte! V tomto komplexním průvodci vás provedeme procesem krok za krokem pomocí výkonné knihovny Aspose.CAD. Na konci tohoto tutoriálu budete vybaveni znalostmi pro snadné vykreslování barev ve vašich CAD souborech.
@@ -108,3 +114,9 @@ Gratulujeme! Úspěšně jste vykreslili barvy v souborech CAD pomocí Aspose.CA
 ### Q5: Kde mohu zakoupit knihovnu Aspose.CAD?
 
  A5: Nákup Aspose.CAD[tady](https://purchase.aspose.com/buy) odemknout svůj plný potenciál.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

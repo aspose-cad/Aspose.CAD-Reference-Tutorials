@@ -3,10 +3,16 @@ title: CFF를 PDF 형식으로 변환 - Aspose.CAD 튜토리얼
 linktitle: CFF를 PDF 형식으로 변환
 second_title: Aspose.CAD .NET - CAD 및 BIM 파일 형식
 description: .NET용 Aspose.CAD를 사용하여 손쉽게 CFF를 PDF로 변환할 수 있습니다. 단계별 가이드를 따르세요.
-type: docs
 weight: 10
 url: /ko/net/advanced-cad-techniques/converting-cff-to-pdf-format/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# CFF를 PDF 형식으로 변환 - Aspose.CAD 튜토리얼
+
 ## 소개
 
 CFF(Compact Font Format) 파일을 PDF 형식으로 원활하게 변환하려는 .NET 개발자라면 잘 찾아오셨습니다. .NET용 Aspose.CAD는 이 작업을 위한 강력하고 사용자 친화적인 솔루션을 제공합니다. 이 튜토리얼에서는 프로세스를 단계별로 안내하므로 초보자도 쉽게 따라할 수 있습니다.
@@ -88,3 +94,9 @@ A1: 예, Aspose.CAD는 .NET Core를 지원하므로 해당 기능을 크로스 �
 ### Q5: Aspose.CAD 사용자를 위한 지원 커뮤니티가 있습니까?
 
  A5: 그렇습니다,[Aspose.CAD 포럼](https://forum.aspose.com/c/cad/19) 도움을 구하고, 지식을 공유하고, 다른 사용자와 소통할 수 있는 활발한 커뮤니티입니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

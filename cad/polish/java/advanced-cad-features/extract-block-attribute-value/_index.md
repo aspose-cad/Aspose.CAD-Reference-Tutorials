@@ -3,10 +3,16 @@ title: Wyodrębnij wartość atrybutu bloku z odniesienia zewnętrznego za pomoc
 linktitle: Wyodrębnij wartość atrybutu bloku z odniesienia zewnętrznego
 second_title: Aspose.CAD API Java
 description: Zapoznaj się z naszym samouczkiem na temat wyodrębniania wartości atrybutów bloków z zewnętrznych odniesień DWG w Javie przy użyciu Aspose.CAD. Usprawnij bez wysiłku swój przepływ prac programistycznych CAD.
-type: docs
 weight: 19
 url: /pl/java/advanced-cad-features/extract-block-attribute-value/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Wyodrębnij wartość atrybutu bloku z odniesienia zewnętrznego za pomocą Aspose.CAD w Javie
+
 ## Wstęp
 
 Witamy w naszym obszernym przewodniku na temat wyodrębniania wartości atrybutów bloków z odnośników zewnętrznych w Javie przy użyciu Aspose.CAD. Jeśli jesteś programistą pracującym z rysunkami CAD i chcesz usprawnić swój przepływ pracy, jesteś we właściwym miejscu. W tym samouczku przeprowadzimy Cię krok po kroku przez proces, wykorzystując zaawansowane funkcje Aspose.CAD dla Java.
@@ -89,3 +95,9 @@ Odpowiedź 1: Aspose.CAD obsługuje różne wersje plików DWG, zapewniając kom
 ### P5: Jaki jest proces uzyskiwania tymczasowej licencji na Aspose.CAD?
 
  A5: Aby uzyskać licencję tymczasową, odwiedź stronę[ten link](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Obsługa siatki w Aspose.CAD dla .NET
 linktitle: Wsparcie siatki
 second_title: Aspose.CAD .NET - Format plików CAD i BIM
 description: Poznaj obsługę siatki w Aspose.CAD dla .NET dzięki naszemu samouczkowi krok po kroku. Konwertuj pliki CAD na format PDF bez wysiłku.
-type: docs
 weight: 11
 url: /pl/net/cad-features-and-support/mesh-support/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Obsługa siatki w Aspose.CAD dla .NET
+
 ## Wstęp
 
 Witamy w naszym szczegółowym samouczku na temat wykorzystania obsługi siatki w Aspose.CAD dla .NET! Aspose.CAD to potężna biblioteka zapewniająca solidną funkcjonalność do pracy z plikami projektowania wspomaganego komputerowo (CAD) w aplikacjach .NET. W tym samouczku skupimy się szczególnie na wykorzystaniu funkcji obsługi siatki w celu zwiększenia możliwości przetwarzania plików CAD.
@@ -100,3 +106,9 @@ Odpowiedź 2: Chociaż do użytku produkcyjnego zalecana jest licencja, podczas 
 ### P5: Gdzie mogę pobrać najnowszą wersję Aspose.CAD dla .NET?
 
  O5: Pobierz bibliotekę z[strona wydania](https://releases.aspose.com/cad/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

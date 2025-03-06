@@ -3,10 +3,16 @@ title: जावा के लिए Aspose.CAD का उपयोग करक
 linktitle: जावा का उपयोग करके छवियों को डीएक्सएफ प्रारूप में निर्यात करें
 second_title: Aspose.CAD जावा एपीआई
 description: जावा के लिए Aspose.CAD का उपयोग करके छवियों को DXF प्रारूप में निर्यात करने की निर्बाध प्रक्रिया का अन्वेषण करें। चरण-दर-चरण मार्गदर्शिका, अक्सर पूछे जाने वाले प्रश्न और बहुत कुछ।
-type: docs
 weight: 15
 url: /hi/java/additional-features/export-images-to-dxf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# जावा के लिए Aspose.CAD का उपयोग करके छवियों को DXF प्रारूप में निर्यात करें
+
 ## परिचय
 
 जावा के लिए Aspose.CAD का उपयोग करके छवियों को DXF प्रारूप में निर्यात करने पर एक व्यापक ट्यूटोरियल में आपका स्वागत है। Aspose.CAD एक शक्तिशाली जावा लाइब्रेरी है जो डेवलपर्स को CAD चित्रों के साथ प्रोग्रामेटिक रूप से काम करने की अनुमति देती है। इस ट्यूटोरियल में, हम आपको छवियों को डीएक्सएफ प्रारूप में निर्यात करने की प्रक्रिया के बारे में बताएंगे, इस कार्य को प्राप्त करने के लिए विभिन्न चरणों और तकनीकों का प्रदर्शन करेंगे।
@@ -107,3 +113,9 @@ cadImageText.save(file.getName() + "_text.dxf");
 ### Q5: क्या कोई निःशुल्क परीक्षण उपलब्ध है?
 
  A5: हाँ, आप निःशुल्क परीक्षण प्राप्त कर सकते हैं[यहाँ](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

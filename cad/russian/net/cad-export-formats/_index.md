@@ -3,10 +3,16 @@ title: Форматы экспорта САПР
 linktitle: Форматы экспорта САПР
 second_title: Aspose.CAD .NET — формат файлов CAD и BIM
 description: С легкостью осваивайте форматы экспорта САПР с помощью Aspose.CAD для .NET. Научитесь конвертировать макеты САПР, экспортировать файлы DGN в PDF и растровые изображения с помощью учебных пособий.
-type: docs
 weight: 22
 url: /ru/net/cad-export-formats/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Форматы экспорта САПР
+
 
 ## Введение
 
@@ -38,3 +44,9 @@ url: /ru/net/cad-export-formats/
 Узнайте, как легко экспортировать файлы DGN в PDF с помощью Aspose.CAD для .NET. Пошаговое руководство по беспрепятственному манипулированию файлами САПР.
 ### [Экспорт DGN в растровое изображение в Aspose.CAD для .NET](./export-dgn-to-raster-image/)
 Легко конвертируйте DGN в растровые изображения с помощью Aspose.CAD для .NET. Изучите пошаговое руководство и раскройте возможности .NET при работе с файлами САПР.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

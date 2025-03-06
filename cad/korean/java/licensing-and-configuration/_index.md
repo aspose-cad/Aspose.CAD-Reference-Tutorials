@@ -3,10 +3,16 @@ title: 라이선스 및 구성
 linktitle: 라이선스 및 구성
 second_title: Aspose.CAD 자바 API
 description: 계량 라이선스 튜토리얼을 통해 Java용 Aspose.CAD의 강력한 기능을 활용해 보세요. 생산성 향상을 위해 효율적이고 비용 효율적으로 CAD 처리를 최적화합니다.
-type: docs
 weight: 25
 url: /ko/java/licensing-and-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 라이선스 및 구성
+
 ## 소개
 
 Aspose.CAD for Java에서 계량 라이선스를 마스터하는 여정을 시작하면 CAD 처리에서 비교할 수 없는 효율성과 비용 효율성을 누릴 수 있습니다. 이 포괄적인 가이드에서는 복잡한 사항을 자세히 조사하여 워크플로를 원활하게 최적화할 수 있도록 지원합니다.
@@ -25,3 +31,9 @@ Aspose.CAD for Java에서 계량 라이선스를 마스터하는 여정을 시�
 ## 라이센스 및 구성 튜토리얼
 ### [Aspose.CAD의 계량 라이센스](./metered-licensing-in-aspose-cad/)
 이 포괄적인 가이드를 통해 Java용 Aspose.CAD에서 계량 라이선스를 마스터하는 방법을 알아보세요. 효율성과 비용 효율성을 위해 CAD 처리를 최적화하십시오.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

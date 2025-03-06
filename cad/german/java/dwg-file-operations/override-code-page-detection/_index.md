@@ -3,10 +3,16 @@ title: Überschreiben Sie die automatische Codepage-Erkennung in DWG-Dateien mit
 linktitle: Überschreiben Sie die automatische Codepage-Erkennung in DWG-Dateien
 second_title: Aspose.CAD Java API
 description: Entdecken Sie, wie Sie die Codepage-Erkennung in DWG-Dateien mit Aspose.CAD für Java überschreiben. Behandeln Sie die Codierung effizient und stellen Sie fehlerhafte CIF/MIF wieder her.
-type: docs
 weight: 13
 url: /de/java/dwg-file-operations/override-code-page-detection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Überschreiben Sie die automatische Codepage-Erkennung in DWG-Dateien mit Java
+
 ## Einführung
 
 Willkommen zu dieser umfassenden Anleitung zum Überschreiben der automatischen Codepage-Erkennung in DWG-Dateien mit Aspose.CAD für Java. Aspose.CAD ist eine leistungsstarke Bibliothek, die Java-Entwicklern die Arbeit mit CAD-Dateiformaten ermöglicht und eine breite Palette von Funktionen zum Bearbeiten, Konvertieren und Exportieren von CAD-Dateien bietet.
@@ -101,3 +107,9 @@ A3: Die kostenlose Testversion weist einige Einschränkungen auf. Es wird empfoh
 ### F5: Gibt es eine temporäre Lizenz für Testzwecke?
 
  A5: Ja, Sie können eine temporäre Lizenz erhalten[Hier](https://purchase.aspose.com/temporary-license/) zum Prüfen.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

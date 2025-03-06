@@ -3,10 +3,16 @@ title: 隠線とエンティティ
 linktitle: 隠線とエンティティ
 second_title: Aspose.CAD .NET - CAD および BIM ファイル形式
 description: Aspose.CAD for .NET を使用すると、DWG ファイル内の隠線のロックを簡単に解除できます。ステップバイステップのガイドを使用して、CAD プロジェクトをレベルアップしましょう。
-type: docs
 weight: 29
 url: /ja/net/hidden-lines-and-entities/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 隠線とエンティティ
+
 
 
 ## 導入
@@ -39,3 +45,9 @@ MLeader エンティティは、デザインに動的な次元をもたらし、
 Aspose.CAD for .NET を使用すると、DWG ファイル内の隠線のロックを簡単に解除できます。シームレスな統合については、ステップバイステップのガイドに従ってください。
 ### [DWG 形式の MLleader エンティティのサポート - Aspose.CAD ガイド](./supporting-mleader-entity-for-dwg-format/)
 Aspose.CAD for .NET を使用して、DWG 形式の MLeader エンティティの機能を解放します。 CAD プロジェクトを簡単にレベルアップします。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: CAD text a anotace
 linktitle: CAD text a anotace
 second_title: Aspose.CAD Java API
 description: Zvyšte své DWG výkresy bez námahy pomocí Aspose.CAD pro Java. Zvládněte přidávání a nahrazování písem v souborech DWG. Návody krok za krokem pro vizuální dokonalost.
-type: docs
 weight: 21
 url: /cs/java/cad-text-and-annotation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# CAD text a anotace
+
 
 ## Úvod 
 
@@ -36,3 +42,9 @@ Vylepšete své DWG výkresy bez námahy pomocí Aspose.CAD pro Java. Přidejte 
 Vylepšete své CAD návrhy bez námahy. Naučte se nahrazovat písma v souborech DWG pomocí Aspose.CAD for Java. Průvodce pro vizuální dokonalost krok za krokem.
 ### [Nahraďte písmo určitého stylu v DWG pomocí Aspose.CAD for Java](./substitute-font-of-particular-style-in-dwg/)
 Naučte se nahrazovat písma v souborech DWG pomocí Aspose.CAD for Java. Podrobný průvodce pro přesné přizpůsobení stylů.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

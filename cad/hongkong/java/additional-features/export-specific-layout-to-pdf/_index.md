@@ -3,10 +3,16 @@ title: 使用 Aspose.CAD for Java 將特定 DXF 佈局匯出為 PDF
 linktitle: 使用 Java 將特定 DXF 版面配置匯出為 PDF
 second_title: Aspose.CAD Java API
 description: 使用 Aspose.CAD for Java 探索 DXF 到 PDF 的無縫轉換。輕鬆精確地匯出特定佈局。
-type: docs
 weight: 17
 url: /zh-hant/java/additional-features/export-specific-layout-to-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.CAD for Java 將特定 DXF 佈局匯出為 PDF
+
 ## 介紹
 
 如果您是處理 CAD 繪圖的 Java 開發人員，您將了解不同格式之間高效、精確轉換的重要性。 Aspose.CAD for Java 是一個功能強大的函式庫，可讓開發人員無縫操作 CAD 檔案。在本教學中，我們將引導您完成使用 Aspose.CAD for Java 將特定 DXF 佈局匯出為 PDF 的過程。
@@ -105,3 +111,9 @@ A2：是的，您可以根據您的特定佈局要求輕鬆配置光柵化選項
 ### Q5：如何獲得 Aspose.CAD for Java 的支援？
 
  A5：造訪支援論壇[這裡](https://forum.aspose.com/c/cad/19)尋求 Aspose 社區的幫助。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

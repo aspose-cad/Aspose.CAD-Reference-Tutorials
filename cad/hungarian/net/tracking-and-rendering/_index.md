@@ -3,10 +3,16 @@ title: Nyomon követés és renderelés
 linktitle: Nyomon követés és renderelés
 second_title: Aspose.CAD .NET - CAD és BIM fájlformátum
 description: Fedezze fel az Aspose.CAD for .NET erejét oktatóanyagainkkal. Ismerje meg, hogyan engedélyezheti a nyomkövetést CAD-fájlokban, és zökkenőmentesen jelenítheti meg a DXF-fájlokat PDF-ként.
-type: docs
 weight: 31
 url: /hu/net/tracking-and-rendering/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Nyomon követés és renderelés
+
 
 ## Bevezetés
 
@@ -30,3 +36,9 @@ Vágjon bele egy tanulási kalandba az Aspose.CAD for .NET Tutorials listával. 
 Fő CAD-fájlkövetés az Aspose.CAD-vel .NET-hez. Kövesse lépésről lépésre útmutatónkat a pontos megjelenítéshez és a hibakövetéshez. Letöltés most!
 ### [DXF fájlok renderelése PDF formátumban – Aspose.CAD útmutató](./rendering-dxf-files-as-pdf/)
 Fedezze fel a DXF-fájlok PDF-formátumú renderelésének végső útmutatóját az Aspose.CAD for .NET használatával. Könnyedén konvertálhat CAD fájlokat lépésről lépésre bemutató oktatóanyagunkkal.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

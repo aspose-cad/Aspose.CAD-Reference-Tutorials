@@ -3,10 +3,16 @@ title: Поддержка слоев с помощью Aspose.CAD в Java
 linktitle: Поддержка слоев в САПР
 second_title: API Aspose.CAD Java
 description: Поддержка основного уровня при разработке Java CAD с помощью Aspose.CAD. Организуйте и экспортируйте рисунки без особых усилий.
-type: docs
 weight: 18
 url: /ru/java/advanced-cad-features/support-of-layers-in-cad/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Поддержка слоев с помощью Aspose.CAD в Java
+
 ## Введение
 
 Раскройте весь потенциал Aspose.CAD на Java, освоив поддержку слоев. Слои играют решающую роль в чертежах САПР, обеспечивая эффективную организацию графических элементов и манипулирование ими. В этом подробном руководстве мы углубимся в тонкости поддержки слоев с помощью Aspose.CAD, предоставив вам пошаговое руководство по использованию этой мощной функциональности.
@@ -118,3 +124,9 @@ image.save(outFile, jpegOptions);
 ### Вопрос 5: Куда я могу обратиться за помощью или поделиться своим опытом работы с Aspose.CAD?
 
 A5: Присоединяйтесь к сообществу Aspose.CAD на[Форум](https://forum.aspose.com/c/cad/19) за поддержку и совместное обсуждение.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

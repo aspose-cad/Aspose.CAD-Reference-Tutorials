@@ -3,10 +3,16 @@ title: Aspose.CAD for Java を使用して DWG を PDF またはラスターに�
 linktitle: DWG を PDF またはラスターにエクスポート
 second_title: Aspose.CAD Java API
 description: Aspose.CAD を使用して Java で DWG ファイルを PDF またはラスター イメージにエクスポートするシームレスなプロセスを確認してください。このステップバイステップのガイドは、正確さと効率性を保証します。
-type: docs
 weight: 13
 url: /ja/java/cad-drawing-conversion/export-dwg-to-pdf-or-raster/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.CAD for Java を使用して DWG を PDF またはラスターにエクスポート
+
 ## 導入
 
 コンピューター支援設計 (CAD) のダイナミックな世界では、図面を効率的に処理することが非常に重要です。 Aspose.CAD for Java は、DWG ファイルを PDF またはラスター イメージにエクスポートするための強力なソリューションを提供します。このチュートリアルでは、Aspose.CAD for Java の可能性を最大限に活用できるように、プロセスをガイドします。
@@ -116,3 +122,9 @@ A1: はい、Aspose.CAD for Java は、一般的な Java フレームワーク�
 ### Q5: Aspose.CAD for Java はどの単位をサポートしていますか?
 
 A5: Aspose.CAD for Java は、メートル単位とインペリアル単位の両方をサポートしています。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

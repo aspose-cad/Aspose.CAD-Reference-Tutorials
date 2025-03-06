@@ -3,10 +3,16 @@ title: Gelişmiş CAD Özellikleri
 linktitle: Gelişmiş CAD Özellikleri
 second_title: Aspose.CAD Java API'si
 description: Aspose.CAD for Java eğitimleriyle CAD gelişiminizi geliştirin. İzlemeyi etkinleştirmeyi, IGES formatını entegre etmeyi, ana ağ desteğini, kalem dışa aktarımını özelleştirmeyi, DWT dosyalarını okumayı ve daha fazlasını öğrenin.
-type: docs
 weight: 24
 url: /tr/java/advanced-cad-features/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Gelişmiş CAD Özellikleri
+
 
 ## giriiş
 
@@ -66,3 +72,9 @@ Aspose.CAD for Java ile CAD iş akışınızı geliştirin. Bu adım adım kıla
 Aspose.CAD ile Java CAD geliştirmede ana katman desteği. Çizimleri zahmetsizce düzenleyin ve dışa aktarın.
 ### [Java'da Aspose.CAD Kullanarak Blok Öznitelik Değerini Harici Referanstan Çıkarma](./extract-block-attribute-value/)
 Aspose.CAD kullanarak Java'daki DWG harici referanslarından blok öznitelik değerlerinin çıkarılmasıyla ilgili eğitimimizi keşfedin. CAD geliştirme iş akışınızı zahmetsizce geliştirin.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

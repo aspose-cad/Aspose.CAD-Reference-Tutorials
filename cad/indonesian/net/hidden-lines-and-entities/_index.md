@@ -3,10 +3,16 @@ title: Garis dan Entitas Tersembunyi
 linktitle: Garis dan Entitas Tersembunyi
 second_title: Aspose.CAD .NET - Format File CAD dan BIM
 description: Buka kunci baris tersembunyi di file DWG dengan mudah menggunakan Aspose.CAD untuk .NET. Tingkatkan proyek CAD Anda dengan panduan langkah demi langkah kami.
-type: docs
 weight: 29
 url: /id/net/hidden-lines-and-entities/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Garis dan Entitas Tersembunyi
+
 
 
 ## Perkenalan
@@ -39,3 +45,9 @@ Kesimpulannya, apakah Anda berfokus untuk membuka jalur tersembunyi atau memanfa
 Buka kunci baris tersembunyi di file DWG dengan mudah menggunakan Aspose.CAD untuk .NET. Ikuti panduan langkah demi langkah kami untuk integrasi yang lancar.
 ### [Mendukung Entitas MLeader untuk Format DWG - Panduan Aspose.CAD](./supporting-mleader-entity-for-dwg-format/)
 Buka kekuatan entitas MLeader dalam format DWG dengan Aspose.CAD untuk .NET. Tingkatkan proyek CAD Anda dengan mudah.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

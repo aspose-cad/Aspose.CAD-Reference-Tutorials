@@ -3,10 +3,16 @@ title: ميزات ودعم CAD
 linktitle: ميزات ودعم CAD
 second_title: Aspose.CAD .NET - تنسيق ملف CAD وBIM
 description: أطلق العنان للإمكانات الكاملة لميزات CAD مع دروس Aspose.CAD لـ .NET. تعرف على الدعم ثلاثي الأبعاد لـ DGN V7، والتعامل مع الشبكة، وتخصيص القلم، والمزيد دون عناء.
-type: docs
 weight: 23
 url: /ar/net/cad-features-and-support/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# ميزات ودعم CAD
+
 
 ## مقدمة
 
@@ -80,3 +86,9 @@ url: /ar/net/cad-features-and-support/
 استكشف الدعم السلس الذي يقدمه Aspose.CAD لـ .NET لملفات DGN VConvert DGN لتحويل الصور النقطية بسهولة من خلال إرشادات خطوة بخطوة.
 ### [دعم 3D لـ DGN V7 في Aspose.CAD لـ .NET](./support-of-3d-for-dgn-v7/)
 أطلق العنان لقوة الدعم ثلاثي الأبعاد لـ DGN V7 في Aspose.CAD لـ .NET. اتبع البرنامج التعليمي خطوة بخطوة.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

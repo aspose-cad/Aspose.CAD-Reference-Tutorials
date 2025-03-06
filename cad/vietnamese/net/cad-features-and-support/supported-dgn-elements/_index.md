@@ -3,10 +3,16 @@ title: Các phần tử DGN được hỗ trợ trong Aspose.CAD cho .NET
 linktitle: Các phần tử DGN được hỗ trợ
 second_title: Aspose.CAD .NET - Định dạng tệp CAD và BIM
 description: Khám phá Aspose.CAD để biết các tính năng mạnh mẽ của .NET để xử lý tệp DGN. Làm theo hướng dẫn từng bước của chúng tôi để làm việc liền mạch với các phần tử 2D và 3D.
-type: docs
 weight: 18
 url: /vi/net/cad-features-and-support/supported-dgn-elements/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Các phần tử DGN được hỗ trợ trong Aspose.CAD cho .NET
+
 ## Giới thiệu
 
 Bạn có phải là nhà phát triển .NET muốn làm việc liền mạch với các tệp DGN không? Aspose.CAD cho .NET cung cấp một giải pháp mạnh mẽ để xử lý các tệp DGN một cách hiệu quả. Trong hướng dẫn này, chúng tôi sẽ đi sâu vào các phần tử DGN được hỗ trợ, hướng dẫn bạn trong quá trình làm việc với Aspose.CAD cho .NET.
@@ -127,3 +133,9 @@ Trong hướng dẫn này, chúng tôi đã khám phá các khả năng của As
 ### Câu 5: Cần trợ giúp hoặc có thắc mắc?
 
  Câu trả lời 5: Truy cập cộng đồng Aspose.CAD cho .NET[diễn đàn hỗ trợ](https://forum.aspose.com/c/cad/19).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

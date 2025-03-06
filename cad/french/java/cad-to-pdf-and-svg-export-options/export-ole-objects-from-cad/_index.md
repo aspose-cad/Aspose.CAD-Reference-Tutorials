@@ -3,10 +3,16 @@ title: Exporter des objets OLE depuis la CAO à l'aide d'Aspose.CAD pour Java
 linktitle: Exporter des objets OLE depuis la CAO
 second_title: API Java Aspose.CAD
 description: Libérez le potentiel d’Aspose.CAD pour Java. Exportez sans effort des objets OLE à partir de fichiers CAO. Téléchargez-le dès maintenant pour une gestion transparente des données CAO.
-type: docs
 weight: 10
 url: /fr/java/cad-to-pdf-and-svg-export-options/export-ole-objects-from-cad/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Exporter des objets OLE depuis la CAO à l'aide d'Aspose.CAD pour Java
+
 ## Introduction
 
 Dans le monde dynamique de la conception assistée par ordinateur (CAO), la gestion et l'extraction efficaces des objets OLE (Object Linking and Embedding) sont cruciales. Aspose.CAD pour Java fournit une solution puissante pour exporter des objets OLE à partir de fichiers CAO. Ce guide étape par étape vous guidera tout au long du processus, vous assurant d'exploiter tout le potentiel de cet outil.
@@ -97,3 +103,9 @@ A2 : Oui, Aspose.CAD propose des options étendues pour personnaliser les param�
 ### Q5 : Comment puis-je acheter une licence pour Aspose.CAD ?
 
 A5 : Visitez le[page d'achat](https://purchase.aspose.com/buy) pour acquérir une licence adaptée à vos besoins de développement.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

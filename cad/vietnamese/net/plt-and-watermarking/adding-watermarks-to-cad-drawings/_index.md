@@ -3,10 +3,16 @@ title: Thêm hình mờ vào bản vẽ CAD - Hướng dẫn Aspose.CAD
 linktitle: Thêm hình mờ vào bản vẽ CAD
 second_title: Aspose.CAD .NET - Định dạng tệp CAD và BIM
 description: Nâng cao bản vẽ CAD của bạn bằng hình mờ chuyên nghiệp bằng Aspose.CAD cho .NET. Hãy làm theo hướng dẫn từng bước của chúng tôi để có các thiết kế được cá nhân hóa và hấp dẫn.
-type: docs
 weight: 11
 url: /vi/net/plt-and-watermarking/adding-watermarks-to-cad-drawings/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Thêm hình mờ vào bản vẽ CAD - Hướng dẫn Aspose.CAD
+
 ## Giới thiệu
 
 Bạn đang muốn nâng cao bản vẽ CAD của mình bằng cách thêm hình mờ chuyên nghiệp? Aspose.CAD cho .NET cung cấp một giải pháp mạnh mẽ để tích hợp liền mạch hình mờ vào tệp CAD của bạn. Trong hướng dẫn từng bước này, chúng tôi sẽ hướng dẫn bạn quy trình thêm hình mờ bằng Aspose.CAD, đảm bảo bản vẽ của bạn không chỉ truyền tải thông tin quan trọng mà còn mang dấu ấn độc đáo của bạn.
@@ -104,3 +110,9 @@ Câu trả lời 4: Có, bạn có thể khám phá các tính năng của Aspos
 ### Câu hỏi 5: Tôi có thể tìm hỗ trợ cho Aspose.CAD ở đâu?
 
  Câu trả lời 5: Nếu có bất kỳ thắc mắc hoặc trợ giúp nào, hãy truy cập[Diễn đàn Aspose.CAD](https://forum.aspose.com/c/cad/19).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: التلاعب في رسم CAD
 linktitle: التلاعب في رسم CAD
 second_title: Aspose.CAD .NET - تنسيق ملف CAD وBIM
 description: قم بتحسين مشاريع CAD الخاصة بك بسهولة من خلال دروس Aspose.CAD لـ .NET. يمكنك تغيير حجم رسومات CAD وتحويلها وتحسينها بسلاسة باستخدام أدلتنا خطوة بخطوة.
-type: docs
 weight: 21
 url: /ar/net/cad-drawing-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# التلاعب في رسم CAD
+
 
 ## مقدمة
 
@@ -44,3 +50,9 @@ url: /ar/net/cad-drawing-manipulation/
 اكتشف قوة Aspose.CAD لـ .NET. تمكين تتبع عرض CAD بسلاسة. اتبع دليلنا خطوة بخطوة لتحسين التحكم والكفاءة.
 ### [احصل على حجم تخطيط CAD في Aspose.CAD لـ .NET](./get-size-of-cad-layout/)
 تعرف على كيفية استرداد حجم تخطيط CAD في .NET باستخدام Aspose.CAD. اتبع دليلنا خطوة بخطوة لمعالجة ملفات CAD بكفاءة.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

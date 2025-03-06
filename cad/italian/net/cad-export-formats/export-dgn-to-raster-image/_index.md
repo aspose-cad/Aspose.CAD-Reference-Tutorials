@@ -3,10 +3,16 @@ title: Esporta DGN in immagine raster in Aspose.CAD per .NET
 linktitle: Esporta DGN in immagine raster
 second_title: Aspose.CAD .NET - Formato file CAD e BIM
 description: Converti DGN in immagini raster senza sforzo utilizzando Aspose.CAD per .NET. Esplora la guida passo passo e libera la potenza di .NET nella manipolazione dei file CAD.
-type: docs
 weight: 13
 url: /it/net/cad-export-formats/export-dgn-to-raster-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Esporta DGN in immagine raster in Aspose.CAD per .NET
+
 ## introduzione
 
 Nel regno dinamico dello sviluppo .NET, Aspose.CAD emerge come un potente strumento per la gestione di file CAD (Computer-Aided Design). Questo tutorial approfondisce il processo di esportazione di file DGN in immagini raster utilizzando Aspose.CAD per .NET. Se desideri trasformare senza problemi i tuoi file DGN in immagini raster visivamente accattivanti, sei nel posto giusto.
@@ -102,3 +108,9 @@ R2: Assicurati di avere una corretta gestione delle eccezioni, come dimostrato n
 ### Q5: Come posso ottenere una licenza temporanea per Aspose.CAD per .NET?
 
  A5: Visita[questo link](https://purchase.aspose.com/temporary-license/)per acquisire una licenza temporanea per le tue esigenze di sviluppo.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

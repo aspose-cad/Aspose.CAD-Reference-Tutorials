@@ -3,10 +3,16 @@ title: Técnicas avançadas de CAD
 linktitle: Técnicas avançadas de CAD
 second_title: Aspose.CAD .NET - Formato de arquivo CAD e BIM
 description: Converta CFF em PDF sem esforço, explore o ponto de vista livre em desenhos CAD, defina tempos limite em operações de salvamento, crie PDFs com tutoriais do Aspose.CAD para .NET.
-type: docs
 weight: 38
 url: /pt/net/advanced-cad-techniques/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Técnicas avançadas de CAD
+
 ## Introdução
 
 À medida que a tecnologia avança, aumenta também a necessidade de dominar técnicas avançadas de Design Auxiliado por Computador (CAD). Neste artigo, nos aprofundamos no mundo do CAD, com foco nos tutoriais fornecidos pelo Aspose.CAD for .NET. Quer você seja um profissional de CAD experiente ou um novato em busca de expandir suas habilidades, esses tutoriais oferecem informações valiosas para aprimorar sua experiência em CAD.
@@ -43,3 +49,9 @@ Explore como aprimorar as operações de salvamento de CAD com configurações d
 Crie um único PDF com diferentes layouts usando Aspose.CAD for .NET. Siga nosso guia passo a passo para integração perfeita e geração eficiente de PDF.
 ### [Editando hiperlinks em arquivos CAD - Tutorial Aspose.CAD](./editing-hyperlinks-in-cad-files/)
 Explore o Aspose.CAD for .NET e aprenda a editar hiperlinks em arquivos CAD sem esforço. Aprimore suas habilidades de gerenciamento de arquivos CAD com este tutorial abrangente.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

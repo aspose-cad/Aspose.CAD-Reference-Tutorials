@@ -3,10 +3,16 @@ title: Exporter une mise en page DXF spécifique vers une image - Tutoriel Aspos
 linktitle: Exportation d'une mise en page DXF spécifique vers une image
 second_title: Aspose.CAD .NET - Format de fichier CAO et BIM
 description: Explorez le guide étape par étape sur l'utilisation d'Aspose.CAD pour .NET pour exporter des mises en page DXF spécifiques vers des images. Maximisez l'efficacité de votre développement .NET avec ce puissant didacticiel.
-type: docs
 weight: 10
 url: /fr/net/layout-and-object-handling/exporting-specific-dxf-layout-to-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Exporter une mise en page DXF spécifique vers une image - Tutoriel Aspose.CAD
+
 ## Introduction
 
 Dans le domaine du développement .NET, Aspose.CAD se distingue comme un outil puissant pour gérer les fichiers de conception assistée par ordinateur (CAO). Plus précisément, il fournit des fonctionnalités complètes pour exporter des mises en page DXF spécifiques vers des images. Ce didacticiel vous guidera étape par étape tout au long du processus, vous permettant d'exploiter facilement les capacités d'Aspose.CAD.
@@ -105,3 +111,9 @@ A1 : Oui, Aspose.CAD est compatible avec divers frameworks .NET, offrant une fle
 ### Q5 : Où puis-je trouver une documentation détaillée pour Aspose.CAD ?
 
  A5 : Reportez-vous au document complet[Documentation Aspose.CAD](https://reference.aspose.com/cad/net/) pour des informations détaillées.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

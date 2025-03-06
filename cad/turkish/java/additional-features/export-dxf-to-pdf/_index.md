@@ -3,10 +3,16 @@ title: Aspose.CAD for Java ile DXF Çizimini PDF'ye aktarın
 linktitle: DXF Çizimini Java ile PDF'ye Aktarın
 second_title: Aspose.CAD Java API'si
 description: Aspose.CAD ile DXF çizimlerinin Java'da PDF'ye kusursuz dönüşümünü keşfedin. CAD iş akışınızı zahmetsizce geliştirin.
-type: docs
 weight: 13
 url: /tr/java/additional-features/export-dxf-to-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.CAD for Java ile DXF Çizimini PDF'ye aktarın
+
 ## giriiş
 
 Java geliştirme dünyasında Aspose.CAD, CAD çizimlerinin kesintisiz olarak işlenmesini ve dönüştürülmesini sağlayan güçlü bir araçtır. Bu eğitimde, Aspose.CAD for Java kullanarak DXF çizimlerini PDF'ye aktarma sürecini ayrıntılı olarak ele alacağız. Bu adım adım kılavuz, tüm prosedür boyunca size yol gösterecek ve her konsepti iyice kavramanızı sağlayacaktır.
@@ -102,3 +108,9 @@ Tebrikler! Aspose.CAD for Java'yı kullanarak DXF çizimlerini PDF'ye nasıl akt
 ### S5: Geçici lisansı nasıl alabilirim?
 
  A5: Bir tane alın[geçici lisans](https://purchase.aspose.com/temporary-license/) test ve değerlendirme amaçlıdır.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

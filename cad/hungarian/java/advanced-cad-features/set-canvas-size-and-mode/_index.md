@@ -3,10 +3,16 @@ title: Állítsa be a vászon méretét és módját
 linktitle: Állítsa be a vászon méretét és módját
 second_title: Aspose.CAD Java API
 description: Fedezze fel az Aspose.CAD for Java erejét a vászon méretének és módjának beállításáról szóló, lépésről lépésre bemutatott útmutatónkkal. Könnyedén konvertálhat CAD fájlokat PDF és TIFF formátumokká.
-type: docs
 weight: 16
 url: /hu/java/advanced-cad-features/set-canvas-size-and-mode/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Állítsa be a vászon méretét és módját
+
 ## Bevezetés
 
 Szeretné kihasználni az Aspose.CAD for Java erejét a CAD-konverziós folyamat javítása érdekében? Ez az átfogó útmutató végigvezeti a vászonméret és -mód beállításának lépésein az Aspose.CAD for Java használatával. Akár tapasztalt fejlesztő, akár csak most kezdi, ez az oktatóanyag a szükséges betekintést nyújtja.
@@ -126,3 +132,9 @@ Végül a CAD-képet TIFF-fájlba mentjük a megadott beállításokkal.
 ### 5. kérdés: Hogyan vásárolhatom meg az Aspose.CAD for Java-t?
 
  A5: Vásárolja meg a terméket[itt](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

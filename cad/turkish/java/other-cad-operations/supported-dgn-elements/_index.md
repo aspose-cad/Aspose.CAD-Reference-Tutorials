@@ -3,10 +3,16 @@ title: DGN Elemanlarının Kullanımında Kolaylıkla Ustalaşın - Aspose.CAD f
 linktitle: Desteklenen DGN Öğeleri
 second_title: Aspose.CAD Java API'si
 description: DGN öğelerini zahmetsizce kullanma konusunda Aspose.CAD for Java'nın gücünü keşfedin. Adım adım kılavuzumuz CAD dosya işleme için kusursuz entegrasyon sağlar.
-type: docs
 weight: 10
 url: /tr/java/other-cad-operations/supported-dgn-elements/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# DGN Elemanlarının Kullanımında Kolaylıkla Ustalaşın - Aspose.CAD for Java
+
 ## giriiş
 
 Aspose.CAD for Java'yı kullanarak DGN (Tasarım) öğelerini işlemeye ilişkin adım adım eğitimimize hoş geldiniz. Aspose.CAD, CAD dosyalarıyla verimli bir şekilde çalışmanıza olanak tanıyan güçlü bir Java kütüphanesidir. Bu eğitimde desteklenen DGN öğelerine odaklanacağız ve bunları Aspose.CAD ile kullanma sürecinde size rehberlik edeceğiz.
@@ -118,3 +124,9 @@ Cevap1: Aspose.CAD bağımsız bir kütüphanedir ancak proje gereksinimlerinize
 ### S5: Aspose.CAD için geçici lisanslar mevcut mu?
 
  Cevap5: Evet, geçici lisanslar alabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

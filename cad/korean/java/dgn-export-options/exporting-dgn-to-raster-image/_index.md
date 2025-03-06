@@ -3,10 +3,16 @@ title: Aspose.CAD 튜토리얼을 사용하여 Java DGN에서 JPEG로 변환
 linktitle: AutoCAD 형식의 DGN을 래스터 이미지 형식으로 내보내기
 second_title: Aspose.CAD 자바 API
 description: Aspose.CAD를 사용하여 Java에서 DGN 파일을 JPEG 이미지로 내보내는 방법을 알아보세요. 이 단계별 튜토리얼은 프로세스를 쉽게 안내합니다.
-type: docs
 weight: 13
 url: /ko/java/dgn-export-options/exporting-dgn-to-raster-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.CAD 튜토리얼을 사용하여 Java DGN에서 JPEG로 변환
+
 ## 소개
 
 Java용 Aspose.CAD를 사용하여 DGN(디자인) 파일을 래스터 이미지 형식으로 내보내는 방법에 대한 포괄적인 튜토리얼에 오신 것을 환영합니다. Aspose.CAD는 Java 개발자가 CAD 파일을 원활하게 사용할 수 있게 해주는 강력한 라이브러리입니다. 이 튜토리얼에서는 DGN 파일을 JPEG 이미지로 변환하는 과정을 안내하고 단계별 지침과 코드 예제를 제공합니다.
@@ -91,3 +97,9 @@ A1: 예, Aspose.CAD는 다양한 CAD 형식을 지원하여 Java 개발자에게
 ### Q5: Aspose.CAD for Java 라이선스는 어디서 구입할 수 있나요?
 
  A5: 라이센스를 구매할 수 있습니다[여기](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

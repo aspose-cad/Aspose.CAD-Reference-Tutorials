@@ -3,10 +3,16 @@ title: Exportar objetos OLE desde CAD usando Aspose.CAD para Java
 linktitle: Exportar objetos OLE desde CAD
 second_title: API de Java Aspose.CAD
 description: Libere el potencial de Aspose.CAD para Java. Exporte sin esfuerzo objetos OLE desde archivos CAD. Descárguelo ahora para una gestión perfecta de los datos CAD.
-type: docs
 weight: 10
 url: /es/java/cad-to-pdf-and-svg-export-options/export-ole-objects-from-cad/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Exportar objetos OLE desde CAD usando Aspose.CAD para Java
+
 ## Introducción
 
 En el dinámico mundo del diseño asistido por computadora (CAD), administrar y extraer objetos OLE (vinculación e incrustación de objetos) de manera eficiente es crucial. Aspose.CAD para Java proporciona una potente solución para exportar objetos OLE desde archivos CAD. Esta guía paso a paso lo guiará a través del proceso, asegurándose de que aproveche todo el potencial de esta herramienta.
@@ -97,3 +103,9 @@ R2: Sí, Aspose.CAD ofrece amplias opciones para personalizar la configuración 
 ### P5: ¿Cómo puedo comprar una licencia para Aspose.CAD?
 
 A5: Visita el[pagina de compra](https://purchase.aspose.com/buy) para adquirir una licencia que se adapte a sus necesidades de desarrollo.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

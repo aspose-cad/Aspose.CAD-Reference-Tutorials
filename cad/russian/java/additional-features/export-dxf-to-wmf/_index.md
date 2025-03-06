@@ -3,10 +3,16 @@ title: Экспорт DXF в формат WMF с помощью Aspose.CAD в Ja
 linktitle: Экспорт DXF в формат WMF с использованием Java
 second_title: API Aspose.CAD Java
 description: Раскройте возможности Aspose.CAD для Java. Узнайте, как легко экспортировать рисунки DXF в формат WMF, с помощью нашего подробного руководства. Загрузите библиотеку, следуйте нашему пошаговому руководству и улучшите качество обработки файлов САПР.
-type: docs
 weight: 14
 url: /ru/java/additional-features/export-dxf-to-wmf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Экспорт DXF в формат WMF с помощью Aspose.CAD в Java
+
 ## Введение
 
 Добро пожаловать в наше пошаговое руководство по использованию Aspose.CAD для Java для экспорта чертежей DXF в формат WMF. Aspose.CAD — мощная библиотека Java, предоставляющая широкие возможности для работы с файлами САПР. В этом уроке мы познакомим вас с процессом преобразования файлов DXF в формат WMF с помощью Aspose.CAD.
@@ -109,3 +115,9 @@ A3: Да, вы можете получить бесплатную пробную
 ### В5: Где я могу получить поддержку?
 
  A5: Посетите форум поддержки Aspose.CAD.[здесь](https://forum.aspose.com/c/cad/19).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Afbeeldingen exporteren naar DXF-formaat met Aspose.CAD voor Java
 linktitle: Afbeeldingen exporteren naar DXF-formaat met behulp van Java
 second_title: Aspose.CAD Java-API
 description: Ontdek het naadloze proces van het exporteren van afbeeldingen naar DXF-formaat met Aspose.CAD voor Java. Stapsgewijze handleiding, veelgestelde vragen en meer.
-type: docs
 weight: 15
 url: /nl/java/additional-features/export-images-to-dxf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Afbeeldingen exporteren naar DXF-formaat met Aspose.CAD voor Java
+
 ## Invoering
 
 Welkom bij een uitgebreide tutorial over het exporteren van afbeeldingen naar DXF-indeling met behulp van Aspose.CAD voor Java. Aspose.CAD is een krachtige Java-bibliotheek waarmee ontwikkelaars programmatisch met CAD-tekeningen kunnen werken. In deze zelfstudie leiden we u door het proces van het exporteren van afbeeldingen naar DXF-indeling, waarbij we verschillende stappen en technieken demonstreren om deze taak te volbrengen.
@@ -107,3 +113,9 @@ Gefeliciteerd! U hebt met succes geleerd hoe u afbeeldingen naar DXF-indeling ku
 ### Vraag 5: Is er een gratis proefversie beschikbaar?
 
  A5: Ja, u kunt een gratis proefperiode krijgen[hier](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

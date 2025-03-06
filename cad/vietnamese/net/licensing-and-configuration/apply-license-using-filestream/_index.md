@@ -3,10 +3,16 @@ title: Áp dụng Giấy phép sử dụng FileStream trong Aspose.CAD cho .NET
 linktitle: Xin giấy phép sử dụng FileStream
 second_title: Aspose.CAD .NET - Định dạng tệp CAD và BIM
 description: Làm chủ Aspose.CAD cho .NET - Áp dụng giấy phép một cách liền mạch bằng FileStream. Khám phá hướng dẫn từng bước và mở khóa tiềm năng. Tải ngay!
-type: docs
 weight: 11
 url: /vi/net/licensing-and-configuration/apply-license-using-filestream/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Áp dụng Giấy phép sử dụng FileStream trong Aspose.CAD cho .NET
+
 ## Giới thiệu
 
 Chào mừng bạn đến với thế giới của Aspose.CAD cho .NET - một công cụ mạnh mẽ cho phép các nhà phát triển thao tác các tệp CAD một cách liền mạch. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn quy trình đăng ký giấy phép bằng FileStream, đảm bảo bạn khai thác toàn bộ tiềm năng của Aspose.CAD trong các dự án .NET của mình.
@@ -80,3 +86,9 @@ Trong hướng dẫn này, chúng tôi đã hướng dẫn quy trình áp dụng
 ### Câu 5: Cần hỗ trợ hoặc có thắc mắc? Tôi có thể nhận hỗ trợ ở đâu?
 
  Câu trả lời 5: Truy cập diễn đàn Aspose.CAD[đây](https://forum.aspose.com/c/cad/19) cho bất kỳ truy vấn liên quan đến hỗ trợ.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

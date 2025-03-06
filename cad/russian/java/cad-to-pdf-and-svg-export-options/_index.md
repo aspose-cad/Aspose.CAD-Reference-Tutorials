@@ -3,10 +3,16 @@ title: Параметры экспорта CAD в PDF и SVG
 linktitle: Параметры экспорта CAD в PDF и SVG
 second_title: API Aspose.CAD Java
 description: Раскройте возможности Aspose.CAD для Java с помощью наших руководств по экспорту CAD в PDF и SVG. Легко и точно управляйте данными САПР.
-type: docs
 weight: 22
 url: /ru/java/cad-to-pdf-and-svg-export-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Параметры экспорта CAD в PDF и SVG
+
 
 
 ## Введение
@@ -38,3 +44,9 @@ url: /ru/java/cad-to-pdf-and-svg-export-options/
 Раскройте потенциал Aspose.CAD для Java с помощью нашего пошагового руководства по экспорту чертежей САПР в SVG. Узнайте, как импортировать пространства имен, настраивать параметры и легко интегрировать Aspose.CAD в ваш проект Java.
 ### [Преобразование CFF в PDF - Учебное пособие по Aspose.CAD для Java](./cff-to-pdf-conversion/)
 Узнайте о простом преобразовании CFF в PDF с помощью Aspose.CAD для Java. Простые шаги, надежные результаты.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

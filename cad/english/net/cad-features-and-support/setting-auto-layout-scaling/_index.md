@@ -3,10 +3,16 @@ title: Setting Auto Layout Scaling in Aspose.CAD for .NET
 linktitle: Setting Auto Layout Scaling
 second_title: Aspose.CAD .NET - CAD and BIM File Format
 description: Enhance CAD rendering with Aspose.CAD for .NET. Learn to set up Auto Layout Scaling for precise and adaptable file rendering.
-type: docs
 weight: 14
 url: /net/cad-features-and-support/setting-auto-layout-scaling/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Setting Auto Layout Scaling in Aspose.CAD for .NET
+
 In the dynamic realm of .NET development, optimizing the rendering of Computer-Aided Design (CAD) files is a crucial aspect of creating efficient and visually appealing applications. Aspose.CAD for .NET empowers developers to enhance their CAD processing capabilities, and in this tutorial, we will focus on setting up Auto Layout Scaling using Aspose.CAD for .NET.
 
 ## Prerequisites
@@ -107,3 +113,10 @@ A4: Absolutely, Aspose.CAD provides a wide range of options for customizing the 
 ### Q5: Where can I find additional resources and support for Aspose.CAD?
 
 A5: Explore the [Aspose.CAD forum](https://forum.aspose.com/c/cad/19) for community support, and refer to the [documentation](https://reference.aspose.com/cad/net/) for detailed information.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

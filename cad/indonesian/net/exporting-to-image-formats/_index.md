@@ -3,10 +3,16 @@ title: Mengekspor ke Format Gambar
 linktitle: Mengekspor ke Format Gambar
 second_title: Aspose.CAD .NET - Format File CAD dan BIM
 description: Konversikan file IFC ke PNG dengan mudah dengan Aspose.CAD untuk .NET. Temukan pemrosesan dan pengunduhan file CAD yang lancar untuk manipulasi file yang efisien.
-type: docs
 weight: 39
 url: /id/net/exporting-to-image-formats/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Mengekspor ke Format Gambar
+
 
 ## Perkenalan
 
@@ -30,3 +36,9 @@ Di dunia di mana desain digital menuntut presisi dan efisiensi, menguasai seni k
 Jelajahi Aspose.CAD untuk .NET, solusi tangguh untuk konversi IFC ke PNG yang lancar. Unduh sekarang untuk pemrosesan file CAD yang efisien.
 ### [Mengekspor File IGES ke PDF - Panduan Aspose.CAD](./exporting-iges-files-to-pdf/)
 Pelajari cara mengekspor file IGES ke PDF dengan mudah menggunakan Aspose.CAD untuk .NET. Ikuti panduan langkah demi langkah kami untuk manipulasi file CAD yang tepat.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

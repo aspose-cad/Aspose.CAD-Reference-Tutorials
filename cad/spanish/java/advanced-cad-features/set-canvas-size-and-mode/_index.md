@@ -3,10 +3,16 @@ title: Establecer tamaño y modo del lienzo
 linktitle: Establecer tamaño y modo del lienzo
 second_title: API de Java Aspose.CAD
 description: Explore el poder de Aspose.CAD para Java con nuestra guía paso a paso sobre cómo configurar el tamaño y el modo del lienzo. Convierta archivos CAD a formatos PDF y TIFF sin esfuerzo.
-type: docs
 weight: 16
 url: /es/java/advanced-cad-features/set-canvas-size-and-mode/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Establecer tamaño y modo del lienzo
+
 ## Introducción
 
 ¿Está buscando aprovechar el poder de Aspose.CAD para Java para mejorar su proceso de conversión de CAD? Esta guía completa lo guiará a través de los pasos para configurar el tamaño y el modo del lienzo usando Aspose.CAD para Java. Si es un desarrollador experimentado o recién está comenzando, este tutorial le brindará la información que necesita.
@@ -126,3 +132,9 @@ R1: Sí, Aspose.CAD está diseñado para integrarse perfectamente con varios mar
 ### P5: ¿Cómo compro Aspose.CAD para Java?
 
  A5: comprar el producto[aquí](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Exportieren bestimmter Layouts in PDF – Aspose.CAD-Handbuch
 linktitle: Exportieren bestimmter Layouts in PDF
 second_title: Aspose.CAD .NET – CAD- und BIM-Dateiformat
 description: Erfahren Sie, wie Sie mit Aspose.CAD für .NET bestimmte Layouts in PDF exportieren. Schritt-für-Schritt-Anleitung für eine nahtlose Integration.
-type: docs
 weight: 13
 url: /de/net/advanced-export-techniques/exporting-specific-layouts-to-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Exportieren bestimmter Layouts in PDF – Aspose.CAD-Handbuch
+
 ## Einführung
 
 Willkommen zu unserer Schritt-für-Schritt-Anleitung zum Exportieren bestimmter Layouts in PDF mit Aspose.CAD für .NET. Aspose.CAD ist eine leistungsstarke Bibliothek, die Entwicklern die nahtlose Arbeit mit CAD-Dateiformaten ermöglicht. In diesem Tutorial konzentrieren wir uns auf den Export bestimmter Layouts aus einer DWG-Datei in eine PDF-Datei mithilfe von Aspose.CAD in einer .NET-Umgebung.
@@ -110,3 +116,9 @@ A2: Ja, Aspose.CAD unterstützt verschiedene CAD-Formate, darunter DWG, DXF, DWF
 ### F5: Gibt es eine kostenlose Testversion?
 
  A5: Ja, Sie können auf die kostenlose Testversion zugreifen[Hier](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Aspose.CAD for Java で DWG 形式の MLeader エンティティをサポ
 linktitle: Java を使用した DWG 形式の MLeader エンティティのサポート
 second_title: Aspose.CAD Java API
 description: DWG 形式の MLeader エンティティのサポートに関するステップバイステップのチュートリアルで、Aspose.CAD for Java の機能を最大限に活用してください。
-type: docs
 weight: 12
 url: /ja/java/cad-text-and-formatting/support-mleader-entity/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.CAD for Java で DWG 形式の MLeader エンティティをサポート
+
 ## 導入
 
 Java を使用したコンピュータ支援設計 (CAD) の領域では、DWG 形式の MLeader エンティティのサポートを理解して実装することは貴重なスキルです。 Aspose.CAD for Java は、そのようなタスクに堅牢なソリューションを提供し、一連の強力なツールと機能を提供します。このチュートリアルでは、Java と Aspose.CAD を使用して DWG ファイル内の MLeader エンティティをサポートするプロセスを説明します。
@@ -146,3 +152,9 @@ A4: から一時ライセンスを取得します。[このリンク](https://pu
 ### Q5: コミュニティのサポートや援助はどこで求められますか?
 
 A5: にアクセスしてください。[Aspose.CAD フォーラム](https://forum.aspose.com/c/cad/19)コミュニティとつながり、助けを得ることができます。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

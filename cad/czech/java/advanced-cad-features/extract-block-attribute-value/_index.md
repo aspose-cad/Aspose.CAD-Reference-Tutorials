@@ -3,10 +3,16 @@ title: Extrahujte hodnotu atributu bloku z externí reference pomocí Aspose.CAD
 linktitle: Extrahujte hodnotu atributu bloku z externí reference
 second_title: Aspose.CAD Java API
 description: Prozkoumejte náš tutoriál o extrahování hodnot atributů bloku z externích referencí DWG v Javě pomocí Aspose.CAD. Vylepšete svůj pracovní postup vývoje CAD bez námahy.
-type: docs
 weight: 19
 url: /cs/java/advanced-cad-features/extract-block-attribute-value/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Extrahujte hodnotu atributu bloku z externí reference pomocí Aspose.CAD v Javě
+
 ## Úvod
 
 Vítejte v našem komplexním průvodci extrahováním hodnot atributů bloku z externích referencí v Javě pomocí Aspose.CAD. Pokud jste vývojář pracující s výkresy CAD a chcete zefektivnit svůj pracovní postup, jste na správném místě. V tomto tutoriálu vás provedeme procesem krok za krokem s využitím výkonných funkcí Aspose.CAD for Java.
@@ -89,3 +95,9 @@ A1: Aspose.CAD podporuje různé verze souborů DWG, což zajišťuje kompatibil
 ### Q5: Jaký je proces získání dočasné licence pro Aspose.CAD?
 
  A5: Chcete-li získat dočasnou licenci, navštivte[tento odkaz](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

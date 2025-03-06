@@ -3,10 +3,16 @@ title: تصدير الصور ثلاثية الأبعاد إلى PDF - البرن
 linktitle: تصدير الصور ثلاثية الأبعاد إلى PDF
 second_title: Aspose.CAD .NET - تنسيق ملف CAD وBIM
 description: قم بتحويل صور CAD ثلاثية الأبعاد بسهولة إلى PDF باستخدام Aspose.CAD لـ .NET. اتبع برنامجنا التعليمي خطوة بخطوة لتصدير ملفات PDF بسلاسة.
-type: docs
 weight: 10
 url: /ar/net/3d-image-export/exporting-3d-images-to-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تصدير الصور ثلاثية الأبعاد إلى PDF - البرنامج التعليمي Aspose.CAD
+
 ## مقدمة
 
 هل تتطلع إلى تصدير الصور ثلاثية الأبعاد إلى PDF بسلاسة باستخدام Aspose.CAD لـ .NET؟ سيرشدك هذا البرنامج التعليمي خطوة بخطوة خلال العملية، مما يضمن الاستفادة من قوة Aspose.CAD لتحويل صورك ثلاثية الأبعاد إلى تنسيق PDF بسهولة.
@@ -102,3 +108,9 @@ cadImage.Save(MyDir, pdfOptions);
 ### س5: هل تتوفر نسخة تجريبية مجانية من Aspose.CAD؟
 
  ج5: نعم، يمكنك استكشاف ميزات Aspose.CAD عن طريق الوصول إلى ملف[تجربة مجانية](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

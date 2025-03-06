@@ -3,10 +3,16 @@ title: Aspose.CAD の従量制ライセンス
 linktitle: Aspose.CAD の従量制ライセンス
 second_title: Aspose.CAD Java API
 description: この包括的なガイドで、Aspose.CAD for Java の従量制ライセンスをマスターする方法を学びましょう。効率と費用対効果を高めるために CAD 処理を最適化します。
-type: docs
 weight: 10
 url: /ja/java/licensing-and-configuration/metered-licensing-in-aspose-cad/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.CAD の従量制ライセンス
+
 ## 導入
 
 従量制ライセンスで Aspose.CAD for Java の可能性を最大限に引き出します。このステップバイステップのガイドでは、従量制ライセンスを設定し、コンピュータ支援設計 (CAD) 用のこの強力な Java ライブラリをシームレスに統合して最適に利用するプロセスを説明します。このチュートリアルでは、前提条件からパッケージのインポート、例の実行まで、すべてを説明します。
@@ -94,3 +100,9 @@ System.out.println("Consumption quantity after processing: " + quantity);
 ### Q5: コミュニティのサポートが必要ですか、それとも具体的な質問がありますか?
 
  A5: Aspose.CAD フォーラムにアクセスしてください。[ここ](https://forum.aspose.com/c/cad/19).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Экспорт 3D-изображений
 linktitle: Экспорт 3D-изображений
 second_title: Aspose.CAD .NET — формат файлов CAD и BIM
 description: Легко экспортируйте 3D-изображения CAD в PDF с помощью Aspose.CAD для .NET. Следуйте нашим руководствам для плавного преобразования PDF. Изучите эффективные методы экспорта 3D-изображений.
-type: docs
 weight: 35
 url: /ru/net/3d-image-export/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Экспорт 3D-изображений
+
 
 ## Введение
 
@@ -34,3 +40,9 @@ Aspose.CAD for .NET легко интегрируется в ваш сущест
 ## Учебные пособия по экспорту 3D-изображений
 ### [Экспорт 3D-изображений в PDF - Учебное пособие по Aspose.CAD](./exporting-3d-images-to-pdf/)
 Легко конвертируйте 3D-изображения CAD в PDF с помощью Aspose.CAD для .NET. Следуйте нашему пошаговому руководству для беспрепятственного экспорта PDF.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

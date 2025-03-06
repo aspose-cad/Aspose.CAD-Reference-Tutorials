@@ -3,10 +3,16 @@ title: Tạo các tệp PDF động bằng Aspose.CAD cho Java
 linktitle: Một bản PDF với các bố cục khác nhau
 second_title: API Java Aspose.CAD
 description: Tạo các tệp PDF tuyệt đẹp với bố cục đa dạng từ bản vẽ CAD bằng Aspose.CAD cho Java. Tích hợp dễ dàng và các tính năng mạnh mẽ dành cho nhà phát triển Java.
-type: docs
 weight: 16
 url: /vi/java/other-cad-operations/single-pdf-different-layouts/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tạo các tệp PDF động bằng Aspose.CAD cho Java
+
 ## Giới thiệu
 
 Chào mừng bạn đến với thế giới của Aspose.CAD cho Java, một thư viện mạnh mẽ cho phép các nhà phát triển thao tác các bản vẽ CAD một cách dễ dàng. Trong hướng dẫn này, chúng ta sẽ đi sâu vào việc tạo các tệp PDF đơn lẻ với các bố cục khác nhau bằng Aspose.CAD cho Java. Cho dù bạn là nhà phát triển dày dạn kinh nghiệm hay mới bắt đầu, hướng dẫn từng bước này sẽ hướng dẫn bạn thực hiện quy trình.
@@ -103,3 +109,9 @@ Câu trả lời 1: Có, Aspose.CAD cho Java được thiết kế để tích h
 ### Q5: Tôi có thể mua phiên bản đầy đủ ở đâu?
 
 Câu trả lời 5: Mua phiên bản đầy đủ của Aspose.CAD cho Java[đây](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

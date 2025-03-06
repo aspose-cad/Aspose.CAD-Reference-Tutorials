@@ -3,10 +3,16 @@ title: Impostazione del ridimensionamento automatico del layout con Aspose.CAD p
 linktitle: Impostazione del ridimensionamento automatico del layout
 second_title: API Java Aspose.CAD
 description: Migliora il tuo flusso di lavoro CAD con Aspose.CAD per Java. Questa guida passo passo introduce il ridimensionamento automatico del layout, garantendo visualizzazione ed efficienza ottimali. Scarica la libreria, segui il tutorial e rivoluziona i tuoi progetti CAD.
-type: docs
 weight: 17
 url: /it/java/advanced-cad-features/setting-auto-layout-scaling/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Impostazione del ridimensionamento automatico del layout con Aspose.CAD per Java
+
 ## introduzione
 
 Nel mondo dinamico della progettazione assistita da computer (CAD), l’efficienza è fondamentale. Aspose.CAD per Java fornisce un robusto set di strumenti per migliorare il flusso di lavoro CAD. Una delle caratteristiche più straordinarie è il ridimensionamento automatico del layout, una funzionalità che garantisce che i layout vengano adattati perfettamente per una visualizzazione ottimale. In questo tutorial, esploreremo come implementare il ridimensionamento automatico del layout passo dopo passo utilizzando Aspose.CAD per Java.
@@ -93,3 +99,9 @@ A1: Aspose.CAD per Java supporta vari formati CAD, inclusi DWG, DXF e DWF.
 ### Q5: Come posso chiedere assistenza o partecipare a discussioni su Aspose.CAD per Java?
 
 A5: Visita il[Forum Aspose.CAD](https://forum.aspose.com/c/cad/19) connettersi con la comunità e cercare supporto.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

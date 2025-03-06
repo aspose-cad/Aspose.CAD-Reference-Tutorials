@@ -3,10 +3,16 @@ title: Rejtett vonalak és entitások
 linktitle: Rejtett vonalak és entitások
 second_title: Aspose.CAD .NET - CAD és BIM fájlformátum
 description: Az Aspose.CAD for .NET segítségével könnyedén oldja fel a rejtett sorokat a DWG-fájlokban. Emelje fel CAD-projektjeit lépésenkénti útmutatónkkal.
-type: docs
 weight: 29
 url: /hu/net/hidden-lines-and-entities/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Rejtett vonalak és entitások
+
 
 
 ## Bevezetés
@@ -39,3 +45,9 @@ Az MLeader entitások dinamikus dimenziót hoznak a tervekbe, lehetővé téve a
 Az Aspose.CAD for .NET segítségével könnyedén oldja fel a rejtett sorokat a DWG-fájlokban. Kövesse lépésenkénti útmutatónkat a zökkenőmentes integráció érdekében.
 ### [MLeader entitás támogatása DWG formátumhoz – Aspose.CAD útmutató](./supporting-mleader-entity-for-dwg-format/)
 Fedezze fel az MLeader entitások erejét DWG formátumban az Aspose.CAD for .NET segítségével. Emelje fel CAD-projektjeit könnyedén.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

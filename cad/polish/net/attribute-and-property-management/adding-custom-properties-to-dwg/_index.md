@@ -3,10 +3,16 @@ title: Dodawanie niestandardowych właściwości do plików DWG - Przewodnik Asp
 linktitle: Dodawanie właściwości niestandardowych do plików DWG
 second_title: Aspose.CAD .NET - Format plików CAD i BIM
 description: Wzbogać swoje pliki DWG o niestandardowe właściwości za pomocą Aspose.CAD dla .NET. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby bez wysiłku dodawać istotne metadane.
-type: docs
 weight: 11
 url: /pl/net/attribute-and-property-management/adding-custom-properties-to-dwg/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Dodawanie niestandardowych właściwości do plików DWG - Przewodnik Aspose.CAD
+
 ## Wstęp
 
 Witamy w tym kompleksowym przewodniku na temat dodawania niestandardowych właściwości do plików DWG przy użyciu Aspose.CAD dla .NET. Aspose.CAD to potężna biblioteka, która umożliwia programistom płynną pracę z plikami CAD. W tym samouczku skupimy się na lepszym zrozumieniu niestandardowych właściwości i sposobach dodawania ich do plików DWG przy użyciu Aspose.CAD.
@@ -92,3 +98,9 @@ O4: Chociaż nie ma ścisłych ograniczeń, dobrą praktyką jest używanie znac
 ### P5: Czy Aspose.CAD zapewnia wsparcie, jeśli napotkam jakiekolwiek problemy?
 
  Odpowiedź 5: Tak, możesz szukać pomocy na[Forum Aspose.CAD](https://forum.aspose.com/c/cad/19) w przypadku jakichkolwiek pytań lub problemów technicznych.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

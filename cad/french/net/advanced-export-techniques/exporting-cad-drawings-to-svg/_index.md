@@ -3,10 +3,16 @@ title: Exportation de dessins CAO au format SVG - Guide Aspose.CAD
 linktitle: Exportation de dessins CAO au format SVG
 second_title: Aspose.CAD .NET - Format de fichier CAO et BIM
 description: Explorez le processus transparent d'exportation de dessins CAO vers SVG à l'aide d'Aspose.CAD pour .NET. Améliorez votre développement CAO avec flexibilité et personnalisation.
-type: docs
 weight: 15
 url: /fr/net/advanced-export-techniques/exporting-cad-drawings-to-svg/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Exportation de dessins CAO au format SVG - Guide Aspose.CAD
+
 ## Introduction
 
 Dans le monde dynamique de la CAO (Conception Assistée par Ordinateur), la capacité d'exporter des dessins dans différents formats est une compétence cruciale. SVG (Scalable Vector Graphics) est l'un de ces formats qui a gagné en popularité en raison de son évolutivité et de sa polyvalence. Dans ce didacticiel, nous explorerons comment exporter des dessins CAO au format SVG à l'aide de la puissante bibliothèque Aspose.CAD pour .NET.
@@ -87,3 +93,9 @@ A2 : Oui, Aspose.CAD vous permet de choisir le mode couleur, offrant ainsi une f
 ### Q5 : Comment puis-je obtenir de l'aide ou poser des questions relatives à Aspose.CAD ?
 
  A5 : Visitez le forum de la communauté[ici](https://forum.aspose.com/c/cad/19) pour du soutien et des discussions.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

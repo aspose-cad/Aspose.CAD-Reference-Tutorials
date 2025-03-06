@@ -3,10 +3,16 @@ title: Attribut- och fastighetsförvaltning
 linktitle: Attribut- och fastighetsförvaltning
 second_title: Aspose.CAD .NET - CAD- och BIM-filformat
 description: Förhöj dina CAD-ritningar med Aspose.CAD för .NET! Lär dig att lägga till attribut och anpassade egenskaper sömlöst genom självstudier. Förbättra dina mönster utan ansträngning.
-type: docs
 weight: 30
 url: /sv/net/attribute-and-property-management/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Attribut- och fastighetsförvaltning
+
 
 
 ## Introduktion
@@ -47,3 +53,9 @@ Sammanfattningsvis öppnar Aspose.CAD för .NET dörrar till en värld av möjli
 Förbättra dina CAD-ritningar med attribut med Aspose.CAD för .NET. Följ vår steg-för-steg-guide för sömlös integration.
 ### [Lägga till anpassade egenskaper till DWG-filer - Aspose.CAD Guide](./adding-custom-properties-to-dwg/)
 Förbättra dina DWG-filer med anpassade egenskaper med Aspose.CAD för .NET. Följ vår steg-för-steg-guide för att lägga till meningsfull metadata utan ansträngning.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

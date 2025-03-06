@@ -3,10 +3,16 @@ title: 使用 Aspose.CAD for Java 匯出為 PDF
 linktitle: 匯出為 PDF
 second_title: Aspose.CAD Java API
 description: 了解如何使用 Aspose.CAD for Java 輕鬆將 CAD 檔案匯出為 PDF。請按照我們的逐步指南進行無縫整合。
-type: docs
 weight: 13
 url: /zh-hant/java/cad-export-options/export-to-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.CAD for Java 匯出為 PDF
+
 ## 介紹
 
 歡迎閱讀使用 Aspose.CAD for Java 將 CAD 檔案匯出為 PDF 的綜合教學課程。如果您希望將 CAD 繪圖無縫轉換為廣泛支援的 PDF 格式，那麼您來對地方了。在本逐步指南中，我們將分解該過程，確保您了解成功匯出 PDF 的每個步驟。
@@ -95,3 +101,9 @@ A2：當然。本教程簡要介紹了自訂選項，但您可以進一步探索
 ### Q5：如何取得Aspose.CAD的臨時授權？
 
  A5：如需臨時許可，請訪問[這個連結](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

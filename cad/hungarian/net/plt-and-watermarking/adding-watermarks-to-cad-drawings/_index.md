@@ -3,10 +3,16 @@ title: Vízjelek hozzáadása CAD-rajzokhoz – Aspose.CAD útmutató
 linktitle: Vízjelek hozzáadása CAD-rajzokhoz
 second_title: Aspose.CAD .NET - CAD és BIM fájlformátum
 description: Fejlessze CAD-rajzait professzionális vízjelekkel az Aspose.CAD for .NET segítségével. Kövesse lépésről lépésre szóló útmutatónkat a személyre szabott és megnyerő tervekhez.
-type: docs
 weight: 11
 url: /hu/net/plt-and-watermarking/adding-watermarks-to-cad-drawings/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Vízjelek hozzáadása CAD-rajzokhoz – Aspose.CAD útmutató
+
 ## Bevezetés
 
 Professzionális vízjelek hozzáadásával javítani szeretné CAD-rajzait? Az Aspose.CAD for .NET robusztus megoldást kínál a vízjelek zökkenőmentes integrálására a CAD-fájlokba. Ebben a lépésenkénti útmutatóban végigvezetjük a vízjelek Aspose.CAD használatával történő hozzáadásának folyamatán, így biztosítva, hogy rajzai ne csak kritikus információkat közvetítsenek, hanem az Ön egyedi jelét is hordozzák.
@@ -104,3 +110,9 @@ A3: Abszolút! Tetszőleges számú vízjelet adhat hozzá, rugalmasságot bizto
 ### 5. kérdés: Hol találok támogatást az Aspose.CAD számára?
 
  5. válasz: Ha kérdése vagy segítsége van, keresse fel a[Aspose.CAD fórum](https://forum.aspose.com/c/cad/19).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: .NET용 Aspose.CAD를 사용하면 STL에서 PNG로 쉽게 변환할 수 
 linktitle: STL 파일을 PNG로 내보내기
 second_title: Aspose.CAD .NET - CAD 및 BIM 파일 형식
 description: .NET용 Aspose.CAD를 사용하여 STL 파일을 PNG로 쉽게 변환할 수 있습니다. 원활한 통합을 위한 단계별 가이드를 따르세요. 지금 다운로드하세요!
-type: docs
 weight: 10
 url: /ko/net/stl-file-export/exporting-stl-files-to-png/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# .NET용 Aspose.CAD를 사용하면 STL에서 PNG로 쉽게 변환할 수 있습니다.
+
 ## 소개
 CAD(컴퓨터 지원 설계)의 역동적인 세계에서는 효율적인 파일 변환이 매우 중요합니다. .NET용 Aspose.CAD는 STL 파일을 PNG로 내보내는 프로세스를 단순화하여 개발자에게 필요한 유연성과 기능을 제공하는 강력한 도구 키트입니다. 이 튜토리얼은 Aspose.CAD를 사용하여 STL에서 PNG로 원활하게 전환하는 과정을 단계별로 안내합니다.
 ## 전제 조건
@@ -71,3 +77,9 @@ PNG 파일의 출력 경로를 지정하고 제공된 옵션을 사용하여 CAD
  네, Aspose.CAD는 STL 이외의 다양한 CAD 형식을 지원합니다. 다음을 참조하세요.[선적 서류 비치](https://reference.aspose.com/cad/net/) 포괄적인 목록을 보려면
 ### Q: 여러 STL 파일을 일괄 처리할 수 있나요?
 틀림없이! 여러 STL 파일을 일괄 처리하기 위해 제공된 단계를 기반으로 루프를 구현합니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

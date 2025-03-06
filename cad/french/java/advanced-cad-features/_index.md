@@ -3,10 +3,16 @@ title: Fonctionnalités CAO avancées
 linktitle: Fonctionnalités CAO avancées
 second_title: API Java Aspose.CAD
 description: Améliorez votre développement CAO avec les didacticiels Aspose.CAD pour Java. Apprenez à activer le suivi, à intégrer le format IGES, à prendre en charge le maillage principal, à personnaliser l'exportation du stylet, à lire les fichiers DWT, etc.
-type: docs
 weight: 24
 url: /fr/java/advanced-cad-features/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Fonctionnalités CAO avancées
+
 
 ## Introduction
 
@@ -66,3 +72,9 @@ Améliorez votre flux de travail CAO avec Aspose.CAD pour Java. Ce guide étape 
 Prise en charge de la couche principale dans le développement Java CAD avec Aspose.CAD. Organisez et exportez des dessins sans effort.
 ### [Extraire la valeur d'attribut de bloc d'une référence externe à l'aide d'Aspose.CAD en Java](./extract-block-attribute-value/)
 Découvrez notre didacticiel sur l'extraction de valeurs d'attributs de bloc à partir de références externes DWG en Java à l'aide d'Aspose.CAD. Améliorez votre flux de travail de développement CAO sans effort.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

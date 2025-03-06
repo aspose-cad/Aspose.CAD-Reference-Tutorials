@@ -3,10 +3,16 @@ title: Układ i obsługa obiektów
 linktitle: Układ i obsługa obiektów
 second_title: Aspose.CAD .NET - Format plików CAD i BIM
 description: Opanuj eksport układu DXF, zapisywanie plików, przycinanie bloków i jednostki proxy ACAD bez wysiłku w celu ulepszenia projektowania CAD przy użyciu Aspose.CAD dla .NET.
-type: docs
 weight: 33
 url: /pl/net/layout-and-object-handling/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Układ i obsługa obiektów
+
 
 ## Wstęp
 
@@ -38,3 +44,9 @@ Poznaj moc Aspose.CAD dla .NET. Dowiedz się, jak łatwo zapisywać pliki DXF, k
 Dowiedz się, jak zaimplementować przycinanie bloków w CAD przy użyciu Aspose.CAD dla .NET. Zwiększ swoje możliwości projektowania dzięki temu samouczkowi krok po kroku.
 ### [Praca z jednostkami proxy ACAD - Przewodnik Aspose.CAD](./working-with-acad-proxy-entities/)
 Poznaj Aspose.CAD dla .NET i usprawnij przepływ pracy CAD. Konwertuj, edytuj i zarządzaj jednostkami proxy ACAD bez wysiłku.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

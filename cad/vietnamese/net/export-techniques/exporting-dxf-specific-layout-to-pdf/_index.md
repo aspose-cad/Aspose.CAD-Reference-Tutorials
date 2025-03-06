@@ -3,10 +3,16 @@ title: Xuất bố cục cụ thể DXF sang PDF - Hướng dẫn Aspose.CAD
 linktitle: Xuất bố cục cụ thể DXF sang PDF
 second_title: Aspose.CAD .NET - Định dạng tệp CAD và BIM
 description: Tìm hiểu cách xuất bố cục cụ thể DXF sang PDF bằng Aspose.CAD cho .NET. Hãy làm theo hướng dẫn từng bước của chúng tôi để có chuyển đổi hiệu quả và chất lượng cao.
-type: docs
 weight: 11
 url: /vi/net/export-techniques/exporting-dxf-specific-layout-to-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Xuất bố cục cụ thể DXF sang PDF - Hướng dẫn Aspose.CAD
+
 ## Giới thiệu
 
 Chào mừng bạn đến với hướng dẫn Aspose.CAD về xuất bố cục cụ thể DXF sang PDF bằng cách sử dụng các tính năng mạnh mẽ của Aspose.CAD cho .NET. Hướng dẫn từng bước này sẽ hướng dẫn bạn qua quá trình chuyển đổi tệp DXF sang PDF, tập trung vào bố cục cụ thể có tên "Mô hình". Aspose.CAD cung cấp các công cụ và chức năng hiệu quả để hợp lý hóa quá trình chuyển đổi, đảm bảo đầu ra chất lượng cao cho bản vẽ CAD của bạn.
@@ -113,3 +119,9 @@ Chúc mừng! Bạn đã học thành công cách xuất tệp DXF có bố cụ
 ### Câu hỏi 5: Tôi có thể mua giấy phép cho Aspose.CAD ở đâu?
 
  Câu trả lời 5: Bạn có thể mua giấy phép cho Aspose.CAD[đây](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

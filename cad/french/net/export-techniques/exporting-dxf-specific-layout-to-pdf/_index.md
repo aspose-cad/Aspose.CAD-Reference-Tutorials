@@ -3,10 +3,16 @@ title: Exportation d'une mise en page spécifique DXF au format PDF - Guide Aspo
 linktitle: Exportation d'une mise en page spécifique DXF au format PDF
 second_title: Aspose.CAD .NET - Format de fichier CAO et BIM
 description: Découvrez comment exporter des mises en page spécifiques DXF au format PDF à l'aide d'Aspose.CAD pour .NET. Suivez notre guide étape par étape pour des conversions efficaces et de haute qualité.
-type: docs
 weight: 11
 url: /fr/net/export-techniques/exporting-dxf-specific-layout-to-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Exportation d'une mise en page spécifique DXF au format PDF - Guide Aspose.CAD
+
 ## Introduction
 
 Bienvenue dans le didacticiel Aspose.CAD sur l'exportation de mises en page spécifiques DXF au format PDF à l'aide des puissantes fonctionnalités d'Aspose.CAD pour .NET. Ce guide étape par étape vous guidera tout au long du processus de conversion de fichiers DXF en PDF, en vous concentrant sur une mise en page spécifique nommée « Modèle ». Aspose.CAD fournit des outils et des fonctionnalités efficaces pour rationaliser le processus de conversion, garantissant ainsi une sortie de haute qualité pour vos dessins CAO.
@@ -113,3 +119,9 @@ A2 : Oui, vous pouvez personnaliser les paramètres de sortie PDF en ajustant l
 ### Q5 : Où puis-je acheter une licence pour Aspose.CAD ?
 
  A5 : Vous pouvez acheter une licence pour Aspose.CAD[ici](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

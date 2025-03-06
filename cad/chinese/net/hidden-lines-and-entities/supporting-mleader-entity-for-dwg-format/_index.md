@@ -3,10 +3,16 @@ title: 支持 DWG 格式的 MLeader 实体 - Aspose.CAD 指南
 linktitle: 支持 DWG 格式的 MLeader 实体
 second_title: Aspose.CAD .NET - CAD 和 BIM 文件格式
 description: 使用 Aspose.CAD for .NET 释放 DWG 格式的 MLeader 实体的强大功能。轻松提升您的 CAD 项目。
-type: docs
 weight: 11
 url: /zh/net/hidden-lines-and-entities/supporting-mleader-entity-for-dwg-format/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 支持 DWG 格式的 MLeader 实体 - Aspose.CAD 指南
+
 ## 介绍
 
 在计算机辅助设计 (CAD) 的动态世界中，保持最新特性和功能的领先地位至关重要。其中一项功能是支持 DWG 格式的 MLeader 实体。 Aspose.CAD for .NET 提供了一套强大的工具来有效地处理这个问题。
@@ -118,3 +124,9 @@ A4：如有任何疑问或帮助，请访问[Aspose.CAD论坛](https://forum.asp
 ### Q5: 我可以在购买前试用 Aspose.CAD 吗？
 
  A5：是的，您可以探索[免费试用](https://releases.aspose.com/)在做出决定之前体验一下 Aspose.CAD 的功能。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

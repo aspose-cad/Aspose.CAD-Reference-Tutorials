@@ -3,10 +3,16 @@ title: CAD-text och anteckningar
 linktitle: CAD-text och anteckningar
 second_title: Aspose.CAD Java API
 description: Förhöj dina DWG-ritningar utan ansträngning med Aspose.CAD för Java. Master lägga till och ersätta teckensnitt i DWG-filer. Steg-för-steg-guider för visuell perfektion.
-type: docs
 weight: 21
 url: /sv/java/cad-text-and-annotation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# CAD-text och anteckningar
+
 
 ## Introduktion 
 
@@ -36,3 +42,9 @@ Förbättra dina DWG-ritningar utan ansträngning med Aspose.CAD för Java. Läg
 Förbättra dina CAD-designer utan ansträngning. Lär dig att ersätta teckensnitt i DWG-filer med Aspose.CAD för Java. Steg-för-steg-guide för visuell perfektion.
 ### [Ersätt teckensnitt för en viss stil i DWG med Aspose.CAD för Java](./substitute-font-of-particular-style-in-dwg/)
 Lär dig hur du byter teckensnitt i DWG-filer med Aspose.CAD för Java. Steg-för-steg-guide för att anpassa stilar med precision.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

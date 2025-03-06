@@ -3,10 +3,16 @@ title: Χειρισμός επιπέδων σε αρχεία DWG με C# - Εκ�
 linktitle: Χειρισμός επιπέδων σε αρχεία DWG με C#
 second_title: Aspose.CAD .NET - Μορφή αρχείου CAD και BIM
 description: Μάθετε πώς να χειρίζεστε επίπεδα σε αρχεία DWG χρησιμοποιώντας C# με το Aspose.CAD για .NET. Οδηγός βήμα προς βήμα για αποτελεσματική διαχείριση αρχείων CAD.
-type: docs
 weight: 11
 url: /el/net/dwg-file-manipulation/support-of-layers/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Χειρισμός επιπέδων σε αρχεία DWG με C# - Εκμάθηση Aspose.CAD
+
 ## Εισαγωγή
 
 Καλώς ήρθατε στο σε βάθος εκμάθησή μας σχετικά με το χειρισμό επιπέδων σε αρχεία DWG χρησιμοποιώντας C# με Aspose.CAD για .NET. Το Aspose.CAD είναι μια ισχυρή βιβλιοθήκη που επιτρέπει στους προγραμματιστές να εργάζονται με μορφές αρχείων CAD απρόσκοπτα. Σε αυτό το σεμινάριο, θα σας καθοδηγήσουμε στη διαδικασία χειρισμού επιπέδων στα αρχεία DWG βήμα προς βήμα.
@@ -109,3 +115,9 @@ image.Save(MyDir, jpegOptions);
 ### Ε5: Ποιες είναι οι επιλογές αδειοδότησης για το Aspose.CAD;
 
  A5: Μπορείτε να εξερευνήσετε επιλογές αδειοδότησης και λεπτομέρειες αγοράς[εδώ](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

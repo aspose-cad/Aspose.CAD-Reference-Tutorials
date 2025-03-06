@@ -3,10 +3,16 @@ title: Exportez des mises en page CAO au format PDF avec Aspose.CAD pour Java
 linktitle: Exporter des mises en page CAO au format PDF
 second_title: API Java Aspose.CAD
 description: Explorez Aspose.CAD pour Java pour exporter sans effort des mises en page CAO au format PDF. Efficace, fiable et convivial pour les développeurs.
-type: docs
 weight: 11
 url: /fr/java/cad-export-options/export-cad-layouts-to-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Exportez des mises en page CAO au format PDF avec Aspose.CAD pour Java
+
 ## Introduction
 
 Dans le domaine en constante évolution de la conception assistée par ordinateur (CAO), Aspose.CAD pour Java se distingue comme un outil puissant pour manipuler et convertir des fichiers CAO. Dans ce didacticiel, nous vous guiderons tout au long du processus d'exportation de mises en page CAO au format PDF à l'aide d'Aspose.CAD pour Java. Que vous soyez un développeur chevronné ou que vous plongez simplement dans le monde de la CAO, ce guide étape par étape vous aidera à exploiter tout le potentiel de cette bibliothèque Java polyvalente.
@@ -107,3 +113,9 @@ A4 : La mise à l'échelle automatique de la mise en page ajuste la taille de l
 ### Q5 : Puis-je personnaliser l’apparence des fichiers PDF exportés ?
 
 A5 : Oui, vous pouvez personnaliser les options graphiques dans le code pour contrôler la qualité et l'apparence du PDF exporté.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

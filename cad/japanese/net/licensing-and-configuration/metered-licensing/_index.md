@@ -3,10 +3,16 @@ title: Aspose.CAD for .NET の従量制ライセンス
 linktitle: 従量制ライセンス
 second_title: Aspose.CAD .NET - CAD および BIM ファイル形式
 description: .NET の従量制ライセンスで Aspose.CAD の可能性を解き放ちます。リソースの使用をシームレスに最適化します。ステップバイステップのガイドをご覧ください。
-type: docs
 weight: 12
 url: /ja/net/licensing-and-configuration/metered-licensing/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.CAD for .NET の従量制ライセンス
+
 ## 導入
 
 Aspose.CAD for .NET の可能性を最大限に引き出すには、従量制ライセンスの複雑さを理解する必要があります。この強力な機能により、開発者は Aspose.CAD の機能を活用しながら、リソースの消費を効率的に管理できます。このステップバイステップ ガイドでは、従量制ライセンスの実装プロセスを詳しく説明し、.NET プロジェクトへのシームレスな統合を確保するための重要な各ステップを詳しく説明します。
@@ -97,3 +103,9 @@ A3: はい、従量制キーはさまざまなプロジェクト間で再利用�
 ### Q5: 特定のプロジェクトに対して一時的に Aspose.CAD のライセンスを取得できますか?
 
  A5: はい、調べてください[一時ライセンスオプション](https://purchase.aspose.com/temporary-license/)短期プロジェクトの要件に対応します。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

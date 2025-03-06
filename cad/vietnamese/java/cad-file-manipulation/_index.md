@@ -3,10 +3,16 @@ title: Thao tác với tệp CAD
 linktitle: Thao tác với tệp CAD
 second_title: API Java Aspose.CAD
 description: Mở khóa sức mạnh tệp CAD bằng Aspose.CAD cho Java! Chuyển đổi DWFX sang PDF, truy cập cờ DWG, bố cục danh sách và tự động điều chỉnh kích thước bằng hướng dẫn của chúng tôi.
-type: docs
 weight: 23
 url: /vi/java/cad-file-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Thao tác với tệp CAD
+
 
 ## Giới thiệu
 
@@ -44,3 +50,9 @@ Khám phá Aspose.CAD cho Java và dễ dàng liệt kê các bố cục trong t
 Khám phá quy trình liền mạch tự động điều chỉnh kích thước bản vẽ CAD trong Java bằng Aspose.CAD. Thực hiện theo hướng dẫn từng bước của chúng tôi để thao tác tệp CAD hiệu quả.
 ### [Điều chỉnh kích thước bản vẽ CAD bằng loại đơn vị với Aspose.CAD cho Java](./adjusting-cad-drawing-size-using-unit-type/)
 Khám phá sức mạnh của Aspose.CAD cho Java trong việc điều chỉnh kích thước bản vẽ CAD một cách dễ dàng. Hãy làm theo hướng dẫn từng bước của chúng tôi để có được độ chính xác và khả năng thích ứng.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: العمل مع كيانات وكيل ACAD - دليل Aspose.CAD
 linktitle: العمل مع كيانات وكيل ACAD
 second_title: Aspose.CAD .NET - تنسيق ملف CAD وBIM
 description: استكشف Aspose.CAD لـ .NET وقم بتبسيط سير عمل CAD لديك. تحويل وتحرير وإدارة كيانات وكيل ACAD دون عناء.
-type: docs
 weight: 13
 url: /ar/net/layout-and-object-handling/working-with-acad-proxy-entities/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# العمل مع كيانات وكيل ACAD - دليل Aspose.CAD
+
 ## مقدمة
 
 في العالم الديناميكي لتطوير .NET، يعد إنشاء رسومات CAD وإدارتها مهمة بالغة الأهمية. يقدم Aspose.CAD for .NET حلاً قويًا للعمل مع AutoCAD Proxy Entities. سيرشدك هذا الدليل عبر الخطوات الأساسية للاستفادة من قوة Aspose.CAD وتبسيط سير العمل المتعلق بالتصميم بمساعدة الكمبيوتر (CAD).
@@ -98,3 +104,9 @@ cadImage.Save(MyDir + "output.pdf", pdfOptions);
 ### س5: أين يمكنني شراء ترخيص كامل لـ Aspose.CAD لـ .NET؟
 
  ج5: يمكنك شراء ترخيص من[صفحة الشراء](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

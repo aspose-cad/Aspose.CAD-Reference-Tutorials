@@ -1,12 +1,17 @@
 ---
 title: Omfattande handledning och exempel på Aspose.CAD för Java
 linktitle: Aspose.CAD för Java Tutorials
-type: docs
 weight: 10
 url: /sv/java/
 description: Förhöj CAD-färdigheter utan ansträngning med Aspose.CAD för Java. Utforska självstudier om ritkonvertering, textkommentarer, filmanipulering, avancerade funktioner, licensiering och mer.
-is_root: true
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Omfattande handledning och exempel på Aspose.CAD för Java
+
 
 ## Introduktion
 
@@ -77,3 +82,9 @@ Exportera enkelt AutoCAD-bilder, CAD-layouter, IFC, STL-filer till PDF, BMP, PNG
 Lås upp kraften i Aspose.CAD för Java med våra DGN Export Tutorials. Lär dig effektiv CAD-filhantering, från att exportera DGN som en del av DWG till att skapa rasterbilder utan ansträngning.
 ### [Övriga CAD-operationer](./other-cad-operations/)
 Lås upp potentialen hos Aspose.CAD för Java med våra tutorials. Från att hantera DGN-element till att lägga till vattenstämplar, öka dina CAD-kunskaper utan ansträngning.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Caractéristiques supplémentaires
 linktitle: Caractéristiques supplémentaires
 second_title: API Java Aspose.CAD
 description: Libérez le potentiel d’Aspose.CAD en Java avec nos tutoriels. Ajoutez des propriétés personnalisées, décomposez les objets d'insertion CAO, activez le suivi et exportez des dessins DXF en toute transparence. Améliorez votre flux de travail CAO sans effort.
-type: docs
 weight: 29
 url: /fr/java/additional-features/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Caractéristiques supplémentaires
+
 
 
 ## Introduction
@@ -60,3 +66,9 @@ Découvrez comment enregistrer des fichiers DXF en Java à l'aide d'Aspose.CAD. 
 ## Conclusion
 
 Ces didacticiels couvrent une gamme de fonctionnalités supplémentaires d'Aspose.CAD pour Java, vous offrant des informations et des compétences précieuses pour optimiser votre flux de travail de CAO. Que vous souhaitiez améliorer votre organisation, maîtriser les techniques de décomposition, activer le suivi ou explorer diverses options d'exportation, ces didacticiels vous fournissent les connaissances dont vous avez besoin. Améliorez vos compétences en CAO dès aujourd'hui avec Aspose.CAD pour Java.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: DGN exportálása raszterképbe az Aspose.CAD for .NET-ben
 linktitle: DGN exportálása raszterképbe
 second_title: Aspose.CAD .NET - CAD és BIM fájlformátum
 description: Könnyedén konvertálja a DGN-t raszterképekké az Aspose.CAD for .NET segítségével. Fedezze fel a lépésenkénti útmutatót, és engedje szabadjára a .NET erejét a CAD-fájlok kezelésében.
-type: docs
 weight: 13
 url: /hu/net/cad-export-formats/export-dgn-to-raster-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# DGN exportálása raszterképbe az Aspose.CAD for .NET-ben
+
 ## Bevezetés
 
 A .NET fejlesztés dinamikus birodalmában az Aspose.CAD hatékony eszközként jelenik meg a számítógéppel segített tervezési (CAD) fájlok kezelésében. Ez az oktatóanyag a DGN-fájlok raszterképekké történő exportálásának folyamatát mutatja be az Aspose.CAD for .NET használatával. Ha szeretné DGN-fájljait zökkenőmentesen látványos raszterképekké alakítani, akkor jó helyen jár.
@@ -102,3 +108,9 @@ Gratulálunk! Sikeresen végighaladt a DGN-fájl raszterképbe történő export
 ### 5. kérdés: Hogyan szerezhetek ideiglenes licencet az Aspose.CAD for .NET számára?
 
  A5: Látogassa meg[ez a link](https://purchase.aspose.com/temporary-license/)hogy ideiglenes licencet szerezzen fejlesztési igényeihez.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

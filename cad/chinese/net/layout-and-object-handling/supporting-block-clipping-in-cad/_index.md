@@ -3,10 +3,16 @@ title: 在 CAD 中支持块剪切 - Aspose.CAD 教程
 linktitle: 支持 CAD 中的块剪切
 second_title: Aspose.CAD .NET - CAD 和 BIM 文件格式
 description: 了解如何使用 Aspose.CAD for .NET 在 CAD 中实现块裁剪。通过此分步教程增强您的设计能力。
-type: docs
 weight: 12
 url: /zh/net/layout-and-object-handling/supporting-block-clipping-in-cad/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 CAD 中支持块剪切 - Aspose.CAD 教程
+
 ## 介绍
 
 欢迎阅读有关使用 Aspose.CAD for .NET 在 CAD 中支持块裁剪的综合教程。 Aspose.CAD 是一个功能强大的库，使开发人员能够在其 .NET 应用程序中无缝地使用 CAD 文件。在本教程中，我们将重点介绍块裁剪的实现，这是 CAD 设计中的一项基本功能。
@@ -122,3 +128,9 @@ A3：是的，您可以免费试用[这里](https://releases.aspose.com/).
 ### Q5：没有永久许可证我可以使用Aspose.CAD吗？
 
  A5：是的，您可以获得临时许可证[这里](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

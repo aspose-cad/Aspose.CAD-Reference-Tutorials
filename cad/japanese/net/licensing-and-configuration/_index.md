@@ -3,10 +3,16 @@ title: ライセンスと構成
 linktitle: ライセンスと構成
 second_title: Aspose.CAD .NET - CAD および BIM ファイル形式
 description: Aspose.CAD for .NET を使用して CAD ファイル操作ゲームを強化しましょう! FileStream を使用するか、ステップバイステップのチュートリアルを使用してパスによってライセンスをシームレスに適用します。
-type: docs
 weight: 20
 url: /ja/net/licensing-and-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# ライセンスと構成
+
 
 ## 導入
 
@@ -32,3 +38,9 @@ Aspose.CAD for .NET をマスターするには、FileStream を使用してラ�
 Aspose.CAD for .NET をマスターする: FileStream を使用してライセンスをシームレスに適用します。ステップバイステップのガイドを参照して、可能性を解き放ちましょう。ダウンロード中！
 ### [Aspose.CAD for .NET の従量制ライセンス](./metered-licensing/)
 .NET の従量制ライセンスで Aspose.CAD の可能性を解き放ちます。リソースの使用をシームレスに最適化します。ステップバイステップのガイドをご覧ください。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

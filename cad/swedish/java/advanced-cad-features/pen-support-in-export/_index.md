@@ -3,10 +3,16 @@ title: Pennstöd vid export
 linktitle: Pennstöd vid export
 second_title: Aspose.CAD Java API
 description: Masterpenna anpassning i CAD-export med Aspose.CAD för Java. Följ vår steg-för-steg-guide för sömlös integration.
-type: docs
 weight: 13
 url: /sv/java/advanced-cad-features/pen-support-in-export/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Pennstöd vid export
+
 ## Introduktion
 
 det ständigt föränderliga landskapet av CAD-konverteringar (Computer-Aided Design) framstår Aspose.CAD för Java som ett kraftfullt verktyg som erbjuder omfattande möjligheter för att manipulera CAD-filer. Bland dess mångsidiga funktioner sticker stödet för pennanpassning under export ut, vilket gör att användarna kan skräddarsy utseendet på exporterade bilder. Den här handledningen går igenom processen att utnyttja pennstödet i exportfunktionen, med fokus på praktisk implementering med Java.
@@ -112,3 +118,9 @@ A4: Justera sidbredden och höjden i rastreringsalternativen för att kontroller
 ### F5: Var kan jag hitta ytterligare stöd eller diskussioner i samhället?
 
  S5: Utforska Aspose.CAD-gemenskapsforumet på[här](https://forum.aspose.com/c/cad/19) för stöd och diskussioner.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

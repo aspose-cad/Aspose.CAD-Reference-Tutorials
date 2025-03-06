@@ -3,10 +3,16 @@ title: Converteer lay-outs naar rasterafbeelding in Aspose.CAD voor .NET
 linktitle: Converteer lay-outs naar rasterafbeelding
 second_title: Aspose.CAD .NET - CAD- en BIM-bestandsindeling
 description: Converteer CAD-lay-outs moeiteloos naar rasterafbeeldingen met Aspose.CAD voor .NET. Verbeter uw ontwikkeling met krachtige CAD-manipulatiemogelijkheden.
-type: docs
 weight: 12
 url: /nl/net/cad-drawing-manipulation/convert-layouts-to-raster-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Converteer lay-outs naar rasterafbeelding in Aspose.CAD voor .NET
+
 ## Invoering
 
 Wilt u lay-outs moeiteloos omzetten naar rasterafbeeldingen in uw .NET-applicaties? Zoek niet verder! Deze stapsgewijze handleiding leidt u door het proces met Aspose.CAD voor .NET, een krachtige bibliotheek die Computer-Aided Design (CAD)-taken vereenvoudigt.
@@ -102,3 +108,9 @@ Gefeliciteerd! U hebt CAD-lay-outs met succes geconverteerd naar een rasterafbee
 ### V5: Waar kan ik een licentie voor Aspose.CAD kopen?
 
  A5: Navigeer naar de[aankooppagina](https://purchase.aspose.com/buy) om een licentie te kopen en het volledige potentieel van Aspose.CAD te ontsluiten.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

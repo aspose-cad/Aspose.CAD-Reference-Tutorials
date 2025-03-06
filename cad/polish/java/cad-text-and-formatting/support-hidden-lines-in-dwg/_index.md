@@ -3,10 +3,16 @@ title: Obsługa ukrytych linii w plikach DWG przy użyciu Aspose.CAD dla Java
 linktitle: Obsługa ukrytych linii w plikach DWG przy użyciu języka Java
 second_title: Aspose.CAD API Java
 description: Dowiedz się, jak zwiększyć możliwości manipulacji plikami DWG w aplikacji Java za pomocą Aspose.CAD. Postępuj zgodnie z naszym przewodnikiem krok po kroku dotyczącym obsługi ukrytych linii. Z łatwością usprawnij obsługę rysunków CAD.
-type: docs
 weight: 11
 url: /pl/java/cad-text-and-formatting/support-hidden-lines-in-dwg/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Obsługa ukrytych linii w plikach DWG przy użyciu Aspose.CAD dla Java
+
 ## Wstęp
 
 Witamy w obszernym przewodniku na temat wykorzystania Aspose.CAD dla Java w celu zwiększenia możliwości manipulacji plikami DWG. W tym samouczku skupimy się na konkretnym aspekcie: obsłudze ukrytych linii w plikach DWG. Niezależnie od tego, czy jesteś doświadczonym programistą, czy dopiero zaczynasz, ten przewodnik pomoże Ci przejść przez proces dzięki instrukcjom krok po kroku.
@@ -117,3 +123,10 @@ Odpowiedź 1: Tak, Aspose.CAD obsługuje różne formaty CAD, takie jak DWG, DXF
 ### P5: Czy mogę kupić tymczasową licencję na Aspose.CAD dla Java?
 
  Odpowiedź 5: Tak, możesz uzyskać licencję tymczasową[Tutaj](https://purchase.aspose.com/temporary-license/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

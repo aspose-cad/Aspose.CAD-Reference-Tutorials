@@ -3,10 +3,16 @@ title: Nhập hình ảnh dễ dàng vào tệp DWG bằng Aspose.CAD Java
 linktitle: Nhập hình ảnh vào tệp DWG bằng Java
 second_title: API Java Aspose.CAD
 description: Khám phá khả năng tích hợp liền mạch của hình ảnh vào tệp DWG bằng Aspose.CAD cho Java. Hãy làm theo hướng dẫn từng bước của chúng tôi để phát triển hiệu quả.
-type: docs
 weight: 10
 url: /vi/java/dwg-file-operations/import-image-to-dwg/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Nhập hình ảnh dễ dàng vào tệp DWG bằng Aspose.CAD Java
+
 ## Giới thiệu
 
 Trong thế giới phát triển Java năng động, việc kết hợp hình ảnh vào tệp DWG đã trở thành một khía cạnh quan trọng của nhiều ứng dụng. Aspose.CAD cho Java cung cấp một giải pháp mạnh mẽ cho các nhà phát triển đang tìm kiếm các phương pháp hiệu quả để nhập hình ảnh vào tệp DWG. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn từng bước thực hiện quy trình, đảm bảo tích hợp liền mạch các hình ảnh bằng Aspose.CAD cho Java.
@@ -126,3 +132,9 @@ Câu trả lời 1: Có, Aspose.CAD cho Java tương thích với hầu hết c�
 ### Câu hỏi 5: Tôi có thể xin giấy phép tạm thời cho Aspose.CAD cho Java không?
 
  A5: Có, bạn có thể nhận được giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

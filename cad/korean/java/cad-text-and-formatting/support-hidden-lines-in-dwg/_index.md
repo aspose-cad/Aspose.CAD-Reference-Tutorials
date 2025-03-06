@@ -3,10 +3,16 @@ title: Java용 Aspose.CAD를 사용하여 DWG 파일의 은선 지원
 linktitle: Java를 사용하여 DWG 파일의 은선 지원
 second_title: Aspose.CAD 자바 API
 description: Aspose.CAD를 사용하여 Java 애플리케이션의 DWG 파일 조작 기능을 향상시키는 방법을 알아보세요. 은선 지원에 대한 단계별 가이드를 따르세요. CAD 도면 처리를 쉽게 향상시키십시오.
-type: docs
 weight: 11
 url: /ko/java/cad-text-and-formatting/support-hidden-lines-in-dwg/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java용 Aspose.CAD를 사용하여 DWG 파일의 은선 지원
+
 ## 소개
 
 DWG 파일 조작 기능을 향상시키기 위해 Java용 Aspose.CAD를 활용하는 포괄적인 가이드에 오신 것을 환영합니다. 이 튜토리얼에서는 DWG 파일의 은선 지원이라는 특정 측면에 중점을 둡니다. 숙련된 개발자이든 이제 막 시작하는 개발자이든 이 가이드는 단계별 지침을 통해 프로세스를 탐색하는 데 도움이 될 것입니다.
@@ -117,3 +123,10 @@ A1: 예, Aspose.CAD는 DWG, DXF, DWF 등과 같은 다양한 CAD 형식을 지�
 ### Q5: Aspose.CAD for Java의 임시 라이선스를 구입할 수 있나요?
 
  A5: 예, 임시 라이센스를 얻을 수 있습니다.[여기](https://purchase.aspose.com/temporary-license/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

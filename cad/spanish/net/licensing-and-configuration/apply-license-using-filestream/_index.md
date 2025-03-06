@@ -3,10 +3,16 @@ title: Aplicar licencia usando FileStream en Aspose.CAD para .NET
 linktitle: Aplicar licencia usando FileStream
 second_title: Aspose.CAD .NET - Formato de archivo CAD y BIM
 description: Dominar Aspose.CAD para .NET aplique licencias sin problemas utilizando FileStream. Explore la guía paso a paso y libere el potencial. ¡Descargar ahora!
-type: docs
 weight: 11
 url: /es/net/licensing-and-configuration/apply-license-using-filestream/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aplicar licencia usando FileStream en Aspose.CAD para .NET
+
 ## Introducción
 
 Bienvenido al mundo de Aspose.CAD para .NET, una poderosa herramienta que permite a los desarrolladores manipular archivos CAD sin problemas. En este tutorial, lo guiaremos a través del proceso de solicitud de una licencia usando FileStream, asegurándonos de que aproveche todo el potencial de Aspose.CAD en sus proyectos .NET.
@@ -80,3 +86,9 @@ En este tutorial, hemos recorrido el proceso de solicitud de una licencia utiliz
 ### P5: ¿Necesita ayuda o tiene preguntas? ¿Dónde puedo obtener soporte?
 
  A5: Visite los foros de Aspose.CAD[aquí](https://forum.aspose.com/c/cad/19) para cualquier consulta relacionada con el soporte.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

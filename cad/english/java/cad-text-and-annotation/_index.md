@@ -3,10 +3,16 @@ title: CAD Text and Annotation
 linktitle: CAD Text and Annotation
 second_title: Aspose.CAD Java API
 description: Elevate your DWG drawings effortlessly with Aspose.CAD for Java. Master adding and substituting fonts in DWG files. Step-by-step guides for visual perfection.
-type: docs
 weight: 21
 url: /java/cad-text-and-annotation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# CAD Text and Annotation
+
 
 ## Introduction 
 
@@ -36,3 +42,9 @@ Enhance your DWG drawings effortlessly with Aspose.CAD for Java. Add text seamle
 Enhance your CAD designs effortlessly. Learn to substitute fonts in DWG files using Aspose.CAD for Java. Step-by-step guide for visual perfection.
 ### [Substitute Font of a Particular Style in DWG Using Aspose.CAD for Java](./substitute-font-of-particular-style-in-dwg/)
 Learn how to substitute fonts in DWG files using Aspose.CAD for Java. Step-by-step guide for customizing styles with precision.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

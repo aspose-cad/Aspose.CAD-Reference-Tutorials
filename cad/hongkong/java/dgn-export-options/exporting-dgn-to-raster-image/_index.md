@@ -3,10 +3,16 @@ title: 使用 Aspose.CAD 教學將 Java DGN 轉換為 JPEG
 linktitle: 將 AutoCAD 格式的 DGN 匯出為光柵影像格式
 second_title: Aspose.CAD Java API
 description: 了解如何使用 Aspose.CAD 將 DGN 檔案匯出為 Java 中的 JPEG 影像。本逐步教學將引導您輕鬆完成整個過程。
-type: docs
 weight: 13
 url: /zh-hant/java/dgn-export-options/exporting-dgn-to-raster-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.CAD 教學將 Java DGN 轉換為 JPEG
+
 ## 介紹
 
 歡迎閱讀使用 Aspose.CAD for Java 將 DGN（設計）檔案匯出為光柵圖像格式的綜合教學。 Aspose.CAD 是一個功能強大的函式庫，可讓 Java 開發人員無縫地處理 CAD 檔案。在本教程中，我們將引導您完成將 DGN 檔案轉換為 JPEG 影像的過程，並為您提供逐步說明和程式碼範例。
@@ -91,3 +97,9 @@ A1：是的，Aspose.CAD支援各種CAD格式，為Java開發人員提供了多�
 ### Q5：在哪裡可以購買 Aspose.CAD for Java 的授權？
 
  A5：您可以購買許可證[這裡](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

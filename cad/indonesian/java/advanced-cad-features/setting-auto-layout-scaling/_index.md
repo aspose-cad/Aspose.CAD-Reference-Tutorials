@@ -3,10 +3,16 @@ title: Mengatur Penskalaan Tata Letak Otomatis dengan Aspose.CAD untuk Java
 linktitle: Mengatur Penskalaan Tata Letak Otomatis
 second_title: Aspose.CAD Java API
 description: Tingkatkan alur kerja CAD Anda dengan Aspose.CAD untuk Java. Panduan langkah demi langkah ini memperkenalkan Penskalaan Tata Letak Otomatis, yang memastikan tampilan dan efisiensi optimal. Unduh perpustakaannya, ikuti tutorialnya, dan revolusi proyek CAD Anda.
-type: docs
 weight: 17
 url: /id/java/advanced-cad-features/setting-auto-layout-scaling/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Mengatur Penskalaan Tata Letak Otomatis dengan Aspose.CAD untuk Java
+
 ## Perkenalan
 
 Dalam dunia desain berbantuan komputer (CAD) yang dinamis, efisiensi adalah kuncinya. Aspose.CAD untuk Java menyediakan seperangkat alat canggih untuk meningkatkan alur kerja CAD Anda. Salah satu fitur yang menonjol adalah Auto Layout Scaling, sebuah fungsi yang memastikan tata letak Anda disesuaikan dengan mulus untuk tampilan optimal. Dalam tutorial ini, kita akan mempelajari cara mengimplementasikan Auto Layout Scaling langkah demi langkah menggunakan Aspose.CAD untuk Java.
@@ -93,3 +99,9 @@ A1: Aspose.CAD untuk Java mendukung berbagai format CAD, termasuk DWG, DXF, dan 
 ### Q5: Bagaimana cara mencari bantuan atau terlibat dalam diskusi tentang Aspose.CAD untuk Java?
 
 A5: Kunjungi[Forum Aspose.CAD](https://forum.aspose.com/c/cad/19) untuk terhubung dengan komunitas dan mencari dukungan.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

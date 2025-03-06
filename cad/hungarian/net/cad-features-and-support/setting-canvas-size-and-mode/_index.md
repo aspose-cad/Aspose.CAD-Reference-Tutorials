@@ -3,10 +3,16 @@ title: A vászon méretének és módjának beállítása az Aspose.CAD for .NET
 linktitle: A vászon méretének és módjának beállítása
 second_title: Aspose.CAD .NET - CAD és BIM fájlformátum
 description: Tekintse meg az Aspose.CAD for .NET programban a vászon méretének és módjának beállításáról szóló, lépésről lépésre szóló útmutatót. Ezzel az átfogó oktatóanyaggal könnyedén optimalizálhatja CAD-megjelenítését.
-type: docs
 weight: 16
 url: /hu/net/cad-features-and-support/setting-canvas-size-and-mode/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# A vászon méretének és módjának beállítása az Aspose.CAD for .NET-ben
+
 ## Bevezetés
 
 Készen áll arra, hogy kiaknázza az Aspose.CAD .NET-hez való teljes potenciálját, és forradalmasítsa CAD-megjelenítési élményét? Ebben a lépésről lépésre bemutatott oktatóanyagban a vászon méretének és módjának a nagy teljesítményű Aspose.CAD könyvtár használatával történő beállításának bonyolultságába fogunk elmélyülni. Akár tapasztalt fejlesztő, akár csak kezdő, ez az útmutató végigvezeti Önt a folyamaton, biztosítva, hogy hatékonyan használja ki az Aspose.CAD képességeit.
@@ -119,3 +125,9 @@ Gratulálunk! Sikeresen beállította a vászon méretét és módját az Aspose
 ### 5. kérdés: Hogyan vásárolhatom meg az Aspose.CAD-et .NET-hez?
 
  5. válasz: Az Aspose.CAD megvásárlásához látogassa meg a[vásárlási oldal](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

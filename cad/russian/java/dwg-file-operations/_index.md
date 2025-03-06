@@ -3,10 +3,16 @@ title: Операции с файлами DWG
 linktitle: Операции с файлами DWG
 second_title: API Aspose.CAD Java
 description: Улучшите свои навыки работы с Java с помощью учебных пособий по Aspose.CAD. Изучите импорт изображений, составление списка макетов, поддержку сетки, переопределение кодовой страницы и преобразование DWG в изображения без особых усилий.
-type: docs
 weight: 26
 url: /ru/java/dwg-file-operations/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Операции с файлами DWG
+
 ## Введение
 
 Вы энтузиаст Java и хотите улучшить свои навыки работы с файлами DWG? Не смотрите дальше! Наши подробные руководства по использованию Aspose.CAD для Java созданы специально для вас. Давайте окунемся в увлекательный мир эффективной разработки и бесшовной интеграции.
@@ -44,3 +50,10 @@ url: /ru/java/dwg-file-operations/
 Узнайте, как переопределить определение кодовой страницы в файлах DWG с помощью Aspose.CAD для Java. Эффективно обрабатывайте кодирование и восстанавливайте искаженные файлы CIF/MIF.
 ### [Преобразование определенного DWG в изображение с помощью Java](./convert-dwg-to-image/)
 Узнайте о плавном преобразовании DWG в изображения с помощью Aspose.CAD для Java. Следуйте нашему пошаговому руководству для эффективного преобразования формата файлов.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

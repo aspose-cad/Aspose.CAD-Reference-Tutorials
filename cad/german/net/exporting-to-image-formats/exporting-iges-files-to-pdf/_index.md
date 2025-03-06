@@ -3,10 +3,16 @@ title: IGES-Dateien in PDF exportieren – Aspose.CAD-Handbuch
 linktitle: Exportieren von IGES-Dateien in PDF
 second_title: Aspose.CAD .NET – CAD- und BIM-Dateiformat
 description: Erfahren Sie, wie Sie IGES-Dateien mit Aspose.CAD für .NET mühelos in PDF exportieren. Befolgen Sie unsere Schritt-für-Schritt-Anleitung für die präzise Bearbeitung von CAD-Dateien.
-type: docs
 weight: 11
 url: /de/net/exporting-to-image-formats/exporting-iges-files-to-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# IGES-Dateien in PDF exportieren – Aspose.CAD-Handbuch
+
 ## Einführung
 
 In der dynamischen Welt des computergestützten Designs (CAD) ist die Konvertierung von IGES-Dateien in das PDF-Format eine häufige Anforderung. Aspose.CAD für .NET bietet eine leistungsstarke Lösung für diese Aufgabe und bietet Flexibilität und Präzision bei der Handhabung von CAD-Dateien. In diesem Tutorial führen wir Sie durch den Prozess des Exportierens von IGES-Dateien in PDF mit Aspose.CAD für .NET. Lass uns eintauchen!
@@ -118,3 +124,9 @@ A1: Ja, Aspose.CAD für .NET eignet sich sowohl für Desktop- als auch für Weba
 ### F5: Benötigen Sie Hilfe oder haben Sie Fragen?
 
 A5: Treten Sie der Aspose.CAD-Community bei[Hilfeforum](https://forum.aspose.com/c/cad/19) für schnelle Hilfe und Diskussionen.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

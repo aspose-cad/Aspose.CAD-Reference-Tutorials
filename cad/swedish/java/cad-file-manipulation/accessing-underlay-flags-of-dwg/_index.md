@@ -3,10 +3,16 @@ title: Åtkomst till Underlay Flags of DWG med Aspose.CAD för Java
 linktitle: Åtkomst till underläggsflaggor för DWG
 second_title: Aspose.CAD Java API
 description: Utforska en värld av CAD-magi med Aspose.CAD för Java! Hantera DWG-filer enkelt i dina Java-applikationer.
-type: docs
 weight: 11
 url: /sv/java/cad-file-manipulation/accessing-underlay-flags-of-dwg/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Åtkomst till Underlay Flags of DWG med Aspose.CAD för Java
+
 ## Introduktion
 
 Inom området datorstödd design (CAD) är precision och effektivitet av största vikt. Aspose.CAD för Java framstår som en kraftfull allierad, som ger en sömlös brygga mellan dina Java-applikationer och CAD-funktioner. I denna steg-för-steg-guide kommer vi att fördjupa oss i magin med Aspose.CAD, med fokus på att hantera DWG-filer och extrahera värdefull information med hjälp av Java.
@@ -112,3 +118,9 @@ S1: Aspose.CAD fokuserar främst på DWG-formatet, men det stöder även DXF, DW
 ### F5: Var kan jag hitta den omfattande dokumentationen för Aspose.CAD för Java?
 
  A5: Se[dokumentation](https://reference.aspose.com/cad/java/) för detaljerad information.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

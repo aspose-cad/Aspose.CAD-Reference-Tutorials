@@ -3,10 +3,16 @@ title: Εξαγωγή εικόνων σε μορφή DXF χρησιμοποιώ�
 linktitle: Εξαγωγή εικόνων σε μορφή DXF χρησιμοποιώντας Java
 second_title: Aspose.CAD Java API
 description: Εξερευνήστε την απρόσκοπτη διαδικασία εξαγωγής εικόνων σε μορφή DXF χρησιμοποιώντας το Aspose.CAD για Java. Οδηγός βήμα προς βήμα, συχνές ερωτήσεις και πολλά άλλα.
-type: docs
 weight: 15
 url: /el/java/additional-features/export-images-to-dxf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Εξαγωγή εικόνων σε μορφή DXF χρησιμοποιώντας Aspose.CAD για Java
+
 ## Εισαγωγή
 
 Καλώς ήρθατε σε ένα ολοκληρωμένο σεμινάριο εξαγωγής εικόνων σε μορφή DXF χρησιμοποιώντας το Aspose.CAD για Java. Το Aspose.CAD είναι μια ισχυρή βιβλιοθήκη Java που επιτρέπει στους προγραμματιστές να εργάζονται με σχέδια CAD μέσω προγραμματισμού. Σε αυτό το σεμινάριο, θα σας καθοδηγήσουμε στη διαδικασία εξαγωγής εικόνων σε μορφή DXF, παρουσιάζοντας διάφορα βήματα και τεχνικές για την επίτευξη αυτού του στόχου.
@@ -107,3 +113,9 @@ cadImageText.save(file.getName() + "_text.dxf");
 ### Ε5: Υπάρχει δωρεάν δοκιμή διαθέσιμη;
 
  A5: Ναι, μπορείτε να λάβετε δωρεάν δοκιμή[εδώ](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

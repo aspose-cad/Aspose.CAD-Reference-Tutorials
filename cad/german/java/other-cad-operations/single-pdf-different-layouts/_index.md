@@ -3,10 +3,16 @@ title: Erstellen dynamischer PDFs mit Aspose.CAD für Java
 linktitle: Einzelnes PDF mit verschiedenen Layouts
 second_title: Aspose.CAD Java API
 description: Erstellen Sie mit Aspose.CAD für Java beeindruckende PDFs mit verschiedenen Layouts aus CAD-Zeichnungen. Einfache Integration und leistungsstarke Funktionen für Java-Entwickler.
-type: docs
 weight: 16
 url: /de/java/other-cad-operations/single-pdf-different-layouts/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Erstellen dynamischer PDFs mit Aspose.CAD für Java
+
 ## Einführung
 
 Willkommen in der Welt von Aspose.CAD für Java, einer leistungsstarken Bibliothek, die Entwicklern die mühelose Bearbeitung von CAD-Zeichnungen ermöglicht. In diesem Tutorial befassen wir uns mit der Erstellung einzelner PDFs mit unterschiedlichen Layouts mit Aspose.CAD für Java. Egal, ob Sie ein erfahrener Entwickler sind oder gerade erst anfangen, diese Schritt-für-Schritt-Anleitung führt Sie durch den Prozess.
@@ -103,3 +109,9 @@ A1: Ja, Aspose.CAD für Java ist für die nahtlose Integration mit anderen Java-
 ### F5: Wo kann ich die Vollversion kaufen?
 
 A5: Kaufen Sie die Vollversion von Aspose.CAD für Java[Hier](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

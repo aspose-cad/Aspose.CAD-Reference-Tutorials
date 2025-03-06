@@ -3,10 +3,16 @@ title: Menambahkan Properti Kustom ke File DWG - Panduan Aspose.CAD
 linktitle: Menambahkan Properti Kustom ke File DWG
 second_title: Aspose.CAD .NET - Format File CAD dan BIM
 description: Sempurnakan file DWG Anda dengan properti khusus menggunakan Aspose.CAD untuk .NET. Ikuti panduan langkah demi langkah kami untuk menambahkan metadata yang bermakna dengan mudah.
-type: docs
 weight: 11
 url: /id/net/attribute-and-property-management/adding-custom-properties-to-dwg/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Menambahkan Properti Kustom ke File DWG - Panduan Aspose.CAD
+
 ## Perkenalan
 
 Selamat datang di panduan komprehensif tentang menambahkan properti khusus ke file DWG menggunakan Aspose.CAD untuk .NET. Aspose.CAD adalah perpustakaan canggih yang memungkinkan pengembang bekerja dengan file CAD dengan lancar. Dalam tutorial ini, kami akan fokus untuk meningkatkan pemahaman Anda tentang properti khusus dan cara menambahkannya ke file DWG menggunakan Aspose.CAD.
@@ -92,3 +98,9 @@ A4: Meskipun tidak ada batasan ketat, sebaiknya gunakan nama yang bermakna dan u
 ### Q5: Apakah Aspose.CAD memberikan dukungan jika saya mengalami masalah?
 
  A5: Ya, Anda dapat meminta bantuan di[Forum Aspose.CAD](https://forum.aspose.com/c/cad/19) untuk pertanyaan atau masalah teknis apa pun.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: نص وتنسيق CAD
 linktitle: نص وتنسيق CAD
 second_title: Aspose.CAD جافا API
 description: قم بفتح Aspose.CAD للاستفادة من إمكانات Java من خلال البرامج التعليمية. تعرف على البحث عن النص والخطوط المخفية وكيانات MLeader وسمات MText لتحسين تطبيق CAD الخاص بك.
-type: docs
 weight: 28
 url: /ar/java/cad-text-and-formatting/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# نص وتنسيق CAD
+
 ## مقدمة
 مرحبًا بك في دليلنا الشامل حول البرامج التعليمية لنصوص CAD والتنسيق باستخدام Aspose.CAD لـ Java. سواء كنت مطورًا متمرسًا أو بدأت للتو في استخدام تطبيقات CAD، ستمكنك هذه البرامج التعليمية من الارتقاء بمهاراتك إلى المستوى التالي.
 
@@ -37,3 +43,9 @@ url: /ar/java/cad-text-and-formatting/
 أطلق العنان لقوة Aspose.CAD لـ Java من خلال برنامجنا التعليمي خطوة بخطوة حول دعم كيانات MLeader بتنسيق DWG.
 ### [إضافة سمات إلى MText في ملفات DWG باستخدام Aspose.CAD لـ Java](./add-attributes-to-mtext/)
 تعرف على كيفية إضافة سمات إلى MText في ملفات DWG باستخدام Aspose.CAD لـ Java. ارتقِ برسومات CAD الخاصة بك باستخدام هذا الدليل المفصّل خطوة بخطوة.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

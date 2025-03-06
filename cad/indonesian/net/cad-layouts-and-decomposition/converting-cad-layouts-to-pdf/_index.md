@@ -3,10 +3,16 @@ title: Mengonversi Tata Letak CAD ke PDF - Tutorial Aspose.CAD
 linktitle: Mengonversi Tata Letak CAD ke PDF
 second_title: Aspose.CAD .NET - Format File CAD dan BIM
 description: Konversikan tata letak CAD ke PDF dengan mudah menggunakan Aspose.CAD untuk .NET. Ikuti panduan langkah demi langkah kami untuk integrasi yang lancar.
-type: docs
 weight: 10
 url: /id/net/cad-layouts-and-decomposition/converting-cad-layouts-to-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Mengonversi Tata Letak CAD ke PDF - Tutorial Aspose.CAD
+
 ## Perkenalan
 
 Apakah Anda ingin mengonversi tata letak CAD ke PDF dengan lancar? Aspose.CAD untuk .NET memberikan solusi tangguh untuk membuat proses ini efisien dan mudah. Dalam tutorial ini, kami akan memandu Anda melalui langkah-langkah menggunakan Aspose.CAD, API canggih yang memberdayakan pengembang untuk bekerja dengan file CAD dengan mudah.
@@ -129,3 +135,9 @@ A3: Gunakan opsi rasterisasi dan grafik yang disediakan untuk menyesuaikan kelua
 ### Q5: Di mana saya dapat mencari dukungan atau mengajukan pertanyaan?
 
 A5: Kunjungi[Forum Aspose.CAD](https://forum.aspose.com/c/cad/19) untuk bantuan dan diskusi.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

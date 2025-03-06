@@ -3,10 +3,16 @@ title: Création d'un seul PDF avec différentes mises en page - Guide Aspose.CA
 linktitle: Création d'un seul PDF avec différentes mises en page
 second_title: Aspose.CAD .NET - Format de fichier CAO et BIM
 description: Créez un seul PDF avec différentes mises en page à l'aide d'Aspose.CAD pour .NET. Suivez notre guide étape par étape pour une intégration transparente et une génération efficace de PDF.
-type: docs
 weight: 13
 url: /fr/net/advanced-cad-techniques/creating-single-pdf-with-different-layouts/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Création d'un seul PDF avec différentes mises en page - Guide Aspose.CAD
+
 ## Introduction
 
 Cherchez-vous à générer un seul document PDF à partir d'un dessin CAO avec différentes mises en page à l'aide d'Aspose.CAD pour .NET ? Ce guide étape par étape vous guidera tout au long du processus, vous aidant à réaliser une intégration transparente et une création PDF efficace. Aspose.CAD pour .NET fournit des fonctionnalités puissantes pour manipuler les dessins CAO par programme, et dans ce didacticiel, nous nous concentrerons sur la création d'un seul PDF avec différentes mises en page.
@@ -95,3 +101,9 @@ A1 : Oui, Aspose.CAD pour .NET prend en charge divers formats de CAO tels que DW
 ### Q5 : Puis-je acheter une licence pour Aspose.CAD pour .NET ?
 
  A5 : Oui, vous pouvez acheter une licence[ici](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

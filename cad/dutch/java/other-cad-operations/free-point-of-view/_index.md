@@ -3,10 +3,16 @@ title: Gratis Point of View-weergave met Aspose.CAD voor Java
 linktitle: Gratis standpunt
 second_title: Aspose.CAD Java-API
 description: Ontdek de kracht van Aspose.CAD voor Java in deze tutorial over het bereiken van een gratis point-of-view-weergave voor CAD-tekeningen. Ontketen het potentieel van Aspose.CAD.
-type: docs
 weight: 14
 url: /nl/java/other-cad-operations/free-point-of-view/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Gratis Point of View-weergave met Aspose.CAD voor Java
+
 ## Invoering
 
 Welkom bij de "Gratis Point of View - Aspose.CAD voor Java-zelfstudie." In deze uitgebreide handleiding leiden we u door het proces van het gebruik van Aspose.CAD voor Java om een gratis point-of-view-weergave voor CAD-tekeningen te bereiken. Aspose.CAD is een krachtige Java-bibliotheek die een breed scala aan functies biedt voor het werken met Computer-Aided Design (CAD)-bestanden. De tutorial behandelt de noodzakelijke vereisten, importeert essentiële pakketten en splitst elk voorbeeld op in stapsgewijze handleidingen.
@@ -116,3 +122,9 @@ A1: Ja, Aspose.CAD voor Java is platformonafhankelijk en kan op verschillende be
 ### Vraag 5: Hoe kan ik een tijdelijke licentie verkrijgen?
 
  A5: Verkrijg een tijdelijke licentie[hier](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

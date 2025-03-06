@@ -3,10 +3,16 @@ title: Activer le suivi pour le processus de rendu CAO
 linktitle: Activer le suivi pour le processus de rendu CAO
 second_title: API Java Aspose.CAD
 description: Améliorez votre rendu CAO avec Aspose.CAD pour Java. Suivez notre guide étape par étape pour activer le suivi et améliorer votre expérience de conversion PDF.
-type: docs
 weight: 10
 url: /fr/java/advanced-cad-features/enable-tracking-for-cad-rendering-process/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Activer le suivi pour le processus de rendu CAO
+
 ## Introduction
 
 Dans le domaine de la conception assistée par ordinateur (CAO), Aspose.CAD pour Java s'impose comme un outil puissant de rendu et de traitement de fichiers CAO. Ce didacticiel vous guidera tout au long du processus d'activation du suivi du rendu CAO, améliorant ainsi votre contrôle sur la transformation des fichiers CAO au format PDF.
@@ -114,3 +120,9 @@ A1 : Aspose.CAD prend en charge une large gamme de formats de CAO, notamment DWG
 ### Q5 : Des licences temporaires sont-elles disponibles pour Aspose.CAD ?
 
  A5 : Oui, si vous avez besoin d'une licence temporaire, vous pouvez en acquérir une[ici](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

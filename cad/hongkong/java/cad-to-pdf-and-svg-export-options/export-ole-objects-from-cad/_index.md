@@ -3,10 +3,16 @@ title: 使用 Aspose.CAD for Java 從 CAD 匯出 OLE 對象
 linktitle: 從 CAD 匯出 OLE 對象
 second_title: Aspose.CAD Java API
 description: 釋放 Aspose.CAD for Java 的潛力。輕鬆從 CAD 檔案匯出 OLE 物件。立即下載以實現無縫 CAD 資料管理。
-type: docs
 weight: 10
 url: /zh-hant/java/cad-to-pdf-and-svg-export-options/export-ole-objects-from-cad/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.CAD for Java 從 CAD 匯出 OLE 對象
+
 ## 介紹
 
 在電腦輔助設計 (CAD) 的動態世界中，有效管理和提取 OLE（物件連結和嵌入）物件至關重要。 Aspose.CAD for Java 提供了從 CAD 檔案匯出 OLE 物件的強大解決方案。本逐步指南將引導您完成整個過程，確保您充分利用工具的潛力。
@@ -97,3 +103,9 @@ A2：是的，Aspose.CAD 提供了廣泛的自訂匯出設定選項，可讓您�
 ### Q5: 如何購買 Aspose.CAD 的授權？
 
 A5：訪問[購買頁面](https://purchase.aspose.com/buy)取得適合您的開發需求的授權。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

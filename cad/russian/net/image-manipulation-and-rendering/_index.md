@@ -3,10 +3,16 @@ title: Манипулирование изображениями и рендер
 linktitle: Манипулирование изображениями и рендеринг
 second_title: Aspose.CAD .NET — формат файлов CAD и BIM
 description: Раскройте потенциал файлов САПР с помощью Aspose.CAD для .NET. Изучите извлечение атрибутов блоков, импорт изображений, преобразование DWG в PDF, поддержку сеток и многое другое без особых усилий.
-type: docs
 weight: 27
 url: /ru/net/image-manipulation-and-rendering/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Манипулирование изображениями и рендеринг
+
 
 ## Введение
 
@@ -54,3 +60,9 @@ url: /ru/net/image-manipulation-and-rendering/
 Раскройте потенциал Aspose.CAD для .NET с помощью нашего пошагового руководства по чтению метаданных XREF из файлов DWG.
 ### [Рендеринг документов DWG на C# — Руководство Aspose.CAD](./rendering-dwg-documents/)
 Узнайте, как визуализировать документы DWG на C# с помощью Aspose.CAD. В этом пошаговом руководстве описываются импорт, настройка и сохранение с примерами кода.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: มุมมองฟรีในแบบร่าง CAD - คู่ม
 linktitle: มุมมองฟรีในแบบร่าง CAD
 second_title: Aspose.CAD .NET - รูปแบบไฟล์ CAD และ BIM
 description: สำรวจอิสรภาพของการแสดงภาพ CAD ด้วย Aspose.CAD สำหรับ .NET ปฏิบัติตามคำแนะนำทีละขั้นตอนของเราเพื่อรับมุมมองที่ไม่เหมือนใคร
-type: docs
 weight: 11
 url: /th/net/advanced-cad-techniques/free-point-of-view-in-cad-drawings/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# มุมมองฟรีในแบบร่าง CAD - คู่มือ Aspose.CAD
+
 ในขอบเขตของการออกแบบโดยใช้คอมพิวเตอร์ช่วย (CAD) การได้รับมุมมองอิสระในการวาดภาพเป็นส่วนสำคัญในการแสดงภาพและนำเสนอการออกแบบที่ซับซ้อน Aspose.CAD สำหรับ .NET มอบโซลูชันที่แข็งแกร่งเพื่อให้บรรลุอิสรภาพนี้ ทำให้ผู้ใช้สามารถจัดการและปรับแต่งแบบร่าง CAD ได้อย่างง่ายดาย ในคำแนะนำทีละขั้นตอนนี้ เราจะสำรวจกระบวนการรับมุมมองฟรีในแบบร่าง CAD โดยใช้ Aspose.CAD สำหรับ .NET
 
 ## ข้อกำหนดเบื้องต้น
@@ -142,3 +148,9 @@ A1: ใช่ Aspose.CAD สำหรับ .NET รองรับไฟล์ 
 ### คำถามที่ 5: ฉันสามารถปรับแต่งตัวเลือกการส่งออกสำหรับรูปแบบรูปภาพต่างๆ ได้หรือไม่
 
 A5: แน่นอน! Aspose.CAD มีตัวเลือกมากมายสำหรับการปรับแต่ง ซึ่งช่วยให้คุณปรับแต่งกระบวนการส่งออกให้ตรงกับความต้องการเฉพาะของคุณได้
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

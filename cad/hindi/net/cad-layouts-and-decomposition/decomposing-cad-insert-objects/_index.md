@@ -3,10 +3,16 @@ title: सीएडी सम्मिलित वस्तुओं को व
 linktitle: सीएडी सम्मिलित वस्तुओं को विघटित करना
 second_title: Aspose.CAD .NET - CAD और BIM फ़ाइल स्वरूप
 description: CAD सम्मिलित वस्तुओं को विघटित करने पर हमारी चरण-दर-चरण मार्गदर्शिका के साथ .NET के लिए Aspose.CAD की शक्ति का अन्वेषण करें।
-type: docs
 weight: 11
 url: /hi/net/cad-layouts-and-decomposition/decomposing-cad-insert-objects/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# सीएडी सम्मिलित वस्तुओं को विघटित करना - Aspose.CAD गाइड
+
 ## परिचय
 
 कंप्यूटर-एडेड डिज़ाइन (सीएडी) की गतिशील दुनिया में, सीएडी फ़ाइलों का प्रभावी हेरफेर और विश्लेषण विभिन्न उद्योगों के पेशेवरों के लिए महत्वपूर्ण है। .NET के लिए Aspose.CAD एक शक्तिशाली समाधान के रूप में उभरता है, जो डेवलपर्स को .NET वातावरण में CAD फ़ाइलों के साथ कुशलतापूर्वक काम करने के लिए आवश्यक उपकरण प्रदान करता है।
@@ -100,3 +106,9 @@ for (int i = 0; i < cadImage.Entities.Length; i++)
 ### Q5: मैं .NET के लिए Aspose.CAD के लिए अस्थायी लाइसेंस कैसे प्राप्त करूं?
 
  यदि आपको अस्थायी लाइसेंस की आवश्यकता है, तो आप आवश्यक जानकारी प्राप्त कर सकते हैं[यहाँ](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Převod DWG do PDF se souřadnicemi v C# - Aspose.CAD Tutorial
 linktitle: Převod DWG do PDF se souřadnicemi v C#
 second_title: Aspose.CAD .NET – formát souborů CAD a BIM
 description: Naučte se, jak převést DWG do PDF s konkrétními souřadnicemi v C# pomocí Aspose.CAD. Postupujte podle našeho podrobného průvodce pro přesné a efektivní převody souborů CAD.
-type: docs
 weight: 11
 url: /cs/net/conversion-and-export/converting-dwg-to-pdf-with-coordinates/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Převod DWG do PDF se souřadnicemi v C# - Aspose.CAD Tutorial
+
 ## Úvod
 
 Vítejte v tomto komplexním tutoriálu o převodu souborů DWG do PDF s určenými souřadnicemi pomocí Aspose.CAD for .NET. Aspose.CAD je výkonná knihovna, která umožňuje vývojářům bezproblémově pracovat s formáty souborů CAD v jejich aplikacích .NET. V tomto tutoriálu vás provedeme procesem převodu souboru DWG do PDF a zároveň poskytneme konkrétní souřadnice pro zvýšení přesnosti.
@@ -134,3 +140,9 @@ A4: Určitě! Prozkoumejte rozsáhlé možnosti poskytované Aspose.CAD a přizp
 ### Q5: Kde najdu další podporu nebo komunitní diskuse?
 
 A5: Navštivte[Fórum Aspose.CAD](https://forum.aspose.com/c/cad/19) za podporu komunity a diskuze.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

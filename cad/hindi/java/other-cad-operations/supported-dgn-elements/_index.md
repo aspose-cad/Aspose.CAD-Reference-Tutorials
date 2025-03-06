@@ -3,10 +3,16 @@ title: आसानी से डीजीएन एलिमेंट हैं
 linktitle: समर्थित डीजीएन तत्व
 second_title: Aspose.CAD जावा एपीआई
 description: DGN तत्वों को सहजता से संभालने में Java के लिए Aspose.CAD की शक्ति का अन्वेषण करें। हमारी चरण-दर-चरण मार्गदर्शिका CAD फ़ाइल प्रसंस्करण के लिए निर्बाध एकीकरण सुनिश्चित करती है।
-type: docs
 weight: 10
 url: /hi/java/other-cad-operations/supported-dgn-elements/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# आसानी से डीजीएन एलिमेंट हैंडलिंग में महारत हासिल करना - जावा के लिए Aspose.CAD
+
 ## परिचय
 
 जावा के लिए Aspose.CAD का उपयोग करके DGN (डिज़ाइन) तत्वों को संभालने पर हमारे चरण-दर-चरण ट्यूटोरियल में आपका स्वागत है। Aspose.CAD एक शक्तिशाली जावा लाइब्रेरी है जो आपको CAD फ़ाइलों के साथ कुशलतापूर्वक काम करने की अनुमति देती है। इस ट्यूटोरियल में, हम समर्थित DGN तत्वों पर ध्यान केंद्रित करेंगे और Aspose.CAD के साथ उन्हें संभालने की प्रक्रिया में आपका मार्गदर्शन करेंगे।
@@ -118,3 +124,9 @@ A1: Aspose.CAD एक स्टैंडअलोन लाइब्रेरी
 ### Q5: क्या Aspose.CAD के लिए अस्थायी लाइसेंस उपलब्ध हैं?
 
  A5: हाँ, आप अस्थायी लाइसेंस प्राप्त कर सकते हैं[यहाँ](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

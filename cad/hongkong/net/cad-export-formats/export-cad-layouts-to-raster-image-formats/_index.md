@@ -3,10 +3,16 @@ title: 在 Aspose.CAD for .NET 中將 CAD 佈局匯出為光柵影像格式
 linktitle: 將 CAD 佈局匯出為光柵影像格式
 second_title: Aspose.CAD .NET - CAD 和 BIM 檔案格式
 description: 了解如何使用 Aspose.CAD for .NET 將 CAD 佈局匯出為光柵影像。請按照我們的逐步指南進行無縫轉換。
-type: docs
 weight: 10
 url: /zh-hant/net/cad-export-formats/export-cad-layouts-to-raster-image-formats/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.CAD for .NET 中將 CAD 佈局匯出為光柵影像格式
+
 ## 介紹
 
 您是否希望使用 Aspose.CAD for .NET 有效率地將 CAD 佈局轉換為光柵影像格式？本逐步指南將引導您完成整個過程，提供詳細的說明和程式碼片段，使任務順利進行。無論您是經驗豐富的開發人員還是 Aspose.CAD 新手，本教學都適合各個層面的專業知識。
@@ -112,3 +118,9 @@ A3：訪問Aspose.CAD[論壇](https://forum.aspose.com/c/cad/19)以獲得社區�
 ### Q5：在哪裡可以找到文件？
 
  A5：參考詳細文檔[這裡](https://reference.aspose.com/cad/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

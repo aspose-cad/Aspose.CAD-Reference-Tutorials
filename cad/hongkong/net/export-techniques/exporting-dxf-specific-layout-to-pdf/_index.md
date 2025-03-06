@@ -3,10 +3,16 @@ title: 將 DXF 特定佈局匯出為 PDF - Aspose.CAD 指南
 linktitle: 將 DXF 特定佈局匯出為 PDF
 second_title: Aspose.CAD .NET - CAD 和 BIM 檔案格式
 description: 了解如何使用 Aspose.CAD for .NET 將 DXF 特定佈局匯出為 PDF。請遵循我們的逐步指南，實現高效、高品質的轉換。
-type: docs
 weight: 11
 url: /zh-hant/net/export-techniques/exporting-dxf-specific-layout-to-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 將 DXF 特定佈局匯出為 PDF - Aspose.CAD 指南
+
 ## 介紹
 
 歡迎來到 Aspose.CAD 教學課程，了解如何使用 Aspose.CAD for .NET 的強大功能將 DXF 特定佈局匯出為 PDF。本逐步指南將引導您完成將 DXF 檔案轉換為 PDF 的過程，並專注於名為「模型」的特定佈局。 Aspose.CAD 提供高效率的工具和功能來簡化轉換過程，確保 CAD 繪圖的高品質輸出。
@@ -113,3 +119,9 @@ A4：如需任何支援或疑問，請訪問[Aspose.CAD論壇](https://forum.asp
 ### Q5：哪裡可以購買 Aspose.CAD 的授權？
 
 A5：您可以購買 Aspose.CAD 的許可證[這裡](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

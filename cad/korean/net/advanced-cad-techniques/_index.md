@@ -3,10 +3,16 @@ title: 고급 CAD 기술
 linktitle: 고급 CAD 기술
 second_title: Aspose.CAD .NET - CAD 및 BIM 파일 형식
 description: CFF를 PDF로 쉽게 변환하고, CAD 도면에서 자유로운 관점을 탐색하고, 저장 작업에 대한 시간 제한을 설정하고, Aspose.CAD for .NET 튜토리얼을 사용하여 PDF를 생성하세요.
-type: docs
 weight: 38
 url: /ko/net/advanced-cad-techniques/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 고급 CAD 기술
+
 ## 소개
 
 기술이 발전함에 따라 고급 CAD(Computer-Aided Design) 기술을 숙달해야 할 필요성도 커지고 있습니다. 이 기사에서는 Aspose.CAD for .NET에서 제공하는 튜토리얼을 중심으로 CAD의 세계를 탐구합니다. 노련한 CAD 전문가이든 기술을 확장하려는 초보자이든 관계없이 이 튜토리얼은 CAD 경험을 향상시키는 데 귀중한 통찰력을 제공합니다.
@@ -43,3 +49,9 @@ Aspose.CAD for .NET을 사용하여 시간 초과 설정으로 CAD 저장 작업
 .NET용 Aspose.CAD를 사용하여 다양한 레이아웃으로 단일 PDF를 만듭니다. 원활한 통합과 효율적인 PDF 생성을 위한 단계별 가이드를 따르세요.
 ### [CAD 파일의 하이퍼링크 편집 - Aspose.CAD Tutorial](./editing-hyperlinks-in-cad-files/)
 .NET용 Aspose.CAD를 탐색하고 CAD 파일의 하이퍼링크를 손쉽게 편집하는 방법을 알아보세요. 이 포괄적인 튜토리얼을 통해 CAD 파일 관리 기술을 향상시키십시오.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

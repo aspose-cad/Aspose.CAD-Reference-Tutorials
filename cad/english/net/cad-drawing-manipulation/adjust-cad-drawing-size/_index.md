@@ -3,10 +3,16 @@ title: Adjusting CAD Drawing Size in Aspose.CAD for .NET
 linktitle: Adjusting CAD Drawing Size
 second_title: Aspose.CAD .NET - CAD and BIM File Format
 description: Learn how to effortlessly adjust CAD drawing sizes in .NET using Aspose.CAD. Follow our step-by-step guide for seamless resizing.
-type: docs
 weight: 10
 url: /net/cad-drawing-manipulation/adjust-cad-drawing-size/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Adjusting CAD Drawing Size in Aspose.CAD for .NET
+
 ## Introduction
 
 Are you looking to seamlessly adjust the size of CAD drawings in your .NET applications? Aspose.CAD for .NET provides a robust solution, allowing you to effortlessly handle CAD drawing resizing. In this tutorial, we'll guide you through the process, breaking down each step to ensure you grasp the intricacies of resizing CAD drawings using Aspose.CAD.
@@ -115,3 +121,10 @@ A4: Yes, you can explore a [free trial](https://releases.aspose.com/) to evaluat
 ### Q5: How can I obtain a temporary license for Aspose.CAD for .NET?
 
 A5: Obtain a temporary license for testing purposes [here](https://purchase.aspose.com/temporary-license/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

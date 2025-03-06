@@ -3,10 +3,16 @@ title: Lectura de metadatos XREF de archivos DWG - Tutorial de Aspose.CAD
 linktitle: Lectura de metadatos XREF de archivos DWG
 second_title: Aspose.CAD .NET - Formato de archivo CAD y BIM
 description: Descubra el potencial de Aspose.CAD para .NET con nuestro tutorial paso a paso sobre cómo leer metadatos XREF de archivos DWG.
-type: docs
 weight: 16
 url: /es/net/image-manipulation-and-rendering/reading-xref-metadata-from-dwg/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Lectura de metadatos XREF de archivos DWG - Tutorial de Aspose.CAD
+
 ## Introducción
 
 ¿Está listo para mejorar sus capacidades de manipulación de archivos CAD utilizando Aspose.CAD para .NET? En esta guía paso a paso, profundizaremos en un aspecto específico de esta poderosa biblioteca: la lectura de metadatos XREF de archivos DWG. Ya sea que sea un desarrollador experimentado o esté comenzando su viaje en codificación, este tutorial dividirá el proceso en pasos fácilmente digeribles.
@@ -107,3 +113,9 @@ R1: Sí, Aspose.CAD para .NET admite una amplia gama de formatos CAD, lo que gar
 ### P5: ¿Necesita ayuda o tiene consultas específicas?
 
  R5: Únase a la comunidad Aspose.CAD en[Foro Aspose.CAD](https://forum.aspose.com/c/cad/19) para obtener apoyo y debates de expertos.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

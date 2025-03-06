@@ -3,10 +3,16 @@ title: Java ile DWG Dosyalarında Otomatik Kod Sayfası Algılamayı Geçersiz K
 linktitle: DWG Dosyalarında Otomatik Kod Sayfası Algılamayı Geçersiz Kıl
 second_title: Aspose.CAD Java API'si
 description: Aspose.CAD for Java ile DWG dosyalarındaki kod sayfası tespitini nasıl geçersiz kılacağınızı keşfedin. Kodlamayı verimli bir şekilde işleyin ve hatalı biçimlendirilmiş CIF/MIF'yi kurtarın.
-type: docs
 weight: 13
 url: /tr/java/dwg-file-operations/override-code-page-detection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java ile DWG Dosyalarında Otomatik Kod Sayfası Algılamayı Geçersiz Kıl
+
 ## giriiş
 
 Aspose.CAD for Java kullanılarak DWG dosyalarında otomatik kod sayfası tespitinin nasıl geçersiz kılınacağıyla ilgili bu kapsamlı kılavuza hoş geldiniz. Aspose.CAD, Java geliştiricilerinin CAD dosya formatlarıyla çalışmasına olanak tanıyan, CAD dosyalarını işlemek, dönüştürmek ve dışa aktarmak için çok çeşitli özellikler sağlayan güçlü bir kütüphanedir.
@@ -101,3 +107,9 @@ Cevap 3: Ücretsiz deneme sürümünün bazı sınırlamaları vardır ve ayrın
 ### S5: Test amaçlı geçici bir lisans mevcut mu?
 
  Cevap5: Evet, geçici lisans alabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/) test için.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

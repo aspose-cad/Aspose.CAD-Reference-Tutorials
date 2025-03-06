@@ -3,10 +3,16 @@ title: Pas licentie toe met FileStream in Aspose.CAD voor .NET
 linktitle: Licentie toepassen met FileStream
 second_title: Aspose.CAD .NET - CAD- en BIM-bestandsindeling
 description: Beheersing van Aspose.CAD voor .NET - Pas licenties naadloos toe met FileStream. Ontdek de stapsgewijze handleiding en ontgrendel het potentieel. Download nu!
-type: docs
 weight: 11
 url: /nl/net/licensing-and-configuration/apply-license-using-filestream/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Pas licentie toe met FileStream in Aspose.CAD voor .NET
+
 ## Invoering
 
 Welkom in de wereld van Aspose.CAD voor .NET – een krachtige tool waarmee ontwikkelaars CAD-bestanden naadloos kunnen manipuleren. In deze zelfstudie begeleiden we u bij het proces van het aanvragen van een licentie met FileStream, zodat u het volledige potentieel van Aspose.CAD in uw .NET-projecten kunt benutten.
@@ -80,3 +86,9 @@ In deze zelfstudie hebben we het proces doorlopen van het aanvragen van een lice
 ### Vraag 5: Heeft u hulp nodig of heeft u vragen? Waar kan ik ondersteuning krijgen?
 
  A5: Bezoek de Aspose.CAD-forums[hier](https://forum.aspose.com/c/cad/19) voor alle ondersteuningsgerelateerde vragen.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

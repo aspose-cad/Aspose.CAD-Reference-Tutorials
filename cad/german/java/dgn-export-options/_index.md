@@ -3,10 +3,16 @@ title: DGN-Export-Tutorials
 linktitle: DGN-Export-Tutorials
 second_title: Aspose.CAD Java API
 description: Nutzen Sie die Leistungsfähigkeit von Aspose.CAD für Java mit unseren DGN-Export-Tutorials. Lernen Sie die effiziente Bearbeitung von CAD-Dateien kennen, vom Export von DGN als Teil von DWG bis hin zur mühelosen Erstellung von Rasterbildern.
-type: docs
 weight: 31
 url: /de/java/dgn-export-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# DGN-Export-Tutorials
+
 ## Einführung
 
 Aspose.CAD für Java eröffnet CAD-Enthusiasten eine Welt voller Möglichkeiten und bietet nahtlose DGN-Exportfunktionen. In dieser Tutorialreihe führen wir Sie durch wesentliche Techniken, um die Fähigkeiten Ihrer Java-Anwendungen bei der Bearbeitung von CAD-Dateien zu verbessern.
@@ -39,3 +45,9 @@ Entdecken Sie die Schritt-für-Schritt-Anleitung zum Exportieren eingebetteter D
 Entdecken Sie die Schritt-für-Schritt-Anleitung zum Exportieren von DGN-Dateien in das AutoCAD-Format im PDF-Format mit Aspose.CAD für Java. Erweitern Sie mühelos die CAD-Verarbeitungsmöglichkeiten Ihrer Java-Anwendung.
 ### [Exportieren von DGN im AutoCAD-Format in das Rasterbildformat](./exporting-dgn-to-raster-image/)
 Erfahren Sie, wie Sie DGN-Dateien mit Aspose.CAD in Java in JPEG-Bilder exportieren. Dieses Schritt-für-Schritt-Tutorial führt Sie mühelos durch den Prozess.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

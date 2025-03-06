@@ -3,10 +3,16 @@ title: Aspose.CAD for .NET 中的計量許可
 linktitle: 計量許可
 second_title: Aspose.CAD .NET - CAD 和 BIM 檔案格式
 description: 透過 .NET 中的計量許可釋放 Aspose.CAD 的潛力。無縫優化資源使用。探索我們的逐步指南。
-type: docs
 weight: 12
 url: /zh-hant/net/licensing-and-configuration/metered-licensing/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.CAD for .NET 中的計量許可
+
 ## 介紹
 
 釋放 Aspose.CAD for .NET 的全部潛力需要了解計量許可的複雜性。這項強大的功能使開發人員能夠有效地管理資源消耗，同時利用 Aspose.CAD 的功能。在本逐步指南中，我們將深入研究實施計量許可的流程，分解每個關鍵步驟，以確保無縫整合到您的 .NET 專案中。
@@ -97,3 +103,9 @@ A3：是的，計量金鑰可以在不同的專案中重複使用，從而提供
 ### Q5：我可以為特定專案臨時許可 Aspose.CAD 嗎？
 
  A5：是的，探索[臨時許可選項](https://purchase.aspose.com/temporary-license/)以滿足短期專案的需求。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: A DWT és DWG formátumok megkülönböztetése – Aspose.CAD útmutató
 linktitle: A DWT és DWG formátumok megkülönböztetése
 second_title: Aspose.CAD .NET - CAD és BIM fájlformátum
 description: Fedezze fel a DWT és DWG formátumok árnyalatait az Aspose.CAD for .NET segítségével. Könnyedén megkülönböztetheti ezeket a CAD-fájltípusokat.
-type: docs
 weight: 12
 url: /hu/net/conversion-and-export/distinguishing-between-dwt-and-dwg-formats/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# A DWT és DWG formátumok megkülönböztetése – Aspose.CAD útmutató
+
 ## Bevezetés
 
 számítógéppel segített tervezés (CAD) területén a fájlformátumok megértése elengedhetetlen a zökkenőmentes együttműködéshez és a hatékony munkafolyamatokhoz. A két gyakori formátum, a DWT és a DWG, hasonlóságaik miatt gyakran zavart okoz. Ennek az oktatóanyagnak az a célja, hogy megszüntesse ezeket a formátumokat az Aspose.CAD for .NET segítségével, amely egy hatékony könyvtár a CAD-fájlok kezeléséhez.
@@ -93,3 +99,9 @@ A CAD-fájlformátumok közötti navigációt az Aspose.CAD for .NET teszi egysz
 ### 5. kérdés: Használhatom az Aspose.CAD for .NET-et kereskedelmi projektekben?
 
  5. válasz: Igen, integrálhatja az Aspose.CAD for .NET-et kereskedelmi projektjeibe, ha[licenc vásárlása](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

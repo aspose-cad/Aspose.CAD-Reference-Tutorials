@@ -3,10 +3,16 @@ title: Szövegkeresés és -manipuláció
 linktitle: Szövegkeresés és -manipuláció
 second_title: Aspose.CAD .NET - CAD és BIM fájlformátum
 description: Fedezze fel az Aspose.CAD for .NET erejét a DWG-fájlokban a C# használatával történő szövegkeresésről szóló oktatóanyagainkkal. Növelje CAD-készségeit és javítsa alkalmazásait.
-type: docs
 weight: 28
 url: /hu/net/text-search-and-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Szövegkeresés és -manipuláció
+
 
 ## Bevezetés
 
@@ -36,3 +42,9 @@ Készen állsz CAD-készségeid fejlesztésére? Merüljön el oktatóanyagunkba
 ## Szövegkeresési és manipulációs oktatóanyagok
 ### [Szöveg keresése DWG fájlokban C# segítségével - Aspose.CAD oktatóanyag](./searching-text-in-dwg-files/)
 Fedezze fel az Aspose.CAD for .NET-et és a mesterszöveg keresést DWG-fájlokban ezzel a lépésről-lépésre szóló útmutatóval. Növelje CAD-alkalmazásait még ma!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

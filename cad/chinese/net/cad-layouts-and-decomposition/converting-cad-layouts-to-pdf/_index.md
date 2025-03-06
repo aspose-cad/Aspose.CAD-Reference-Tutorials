@@ -3,10 +3,16 @@ title: 将 CAD 布局转换为 PDF - Aspose.CAD 教程
 linktitle: 将 CAD 布局转换为 PDF
 second_title: Aspose.CAD .NET - CAD 和 BIM 文件格式
 description: 使用 Aspose.CAD for .NET 轻松将 CAD 布局转换为 PDF。请按照我们的分步指南进行无缝集成。
-type: docs
 weight: 10
 url: /zh/net/cad-layouts-and-decomposition/converting-cad-layouts-to-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 将 CAD 布局转换为 PDF - Aspose.CAD 教程
+
 ## 介绍
 
 您是否希望将 CAD 布局无缝转换为 PDF？ Aspose.CAD for .NET 提供了一个强大的解决方案，使该过程高效且简单。在本教程中，我们将指导您完成使用 Aspose.CAD 的步骤，这是一个功能强大的 API，使开发人员能够轻松地使用 CAD 文件。
@@ -129,3 +135,9 @@ A3：使用提供的光栅化和图形选项根据您的喜好定制 PDF 输出�
 ### Q5：我可以在哪里寻求支持或提问？
 
 A5：访问[Aspose.CAD论坛](https://forum.aspose.com/c/cad/19)寻求帮助和讨论。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

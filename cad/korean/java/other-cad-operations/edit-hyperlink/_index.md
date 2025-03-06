@@ -3,10 +3,16 @@ title: DWG 하이퍼링크 편집 - Aspose.CAD Java Tutorial
 linktitle: 하이퍼링크 편집
 second_title: Aspose.CAD 자바 API
 description: Java용 Aspose.CAD를 사용하여 DWG 도면 정밀도를 향상하세요. 하이퍼링크를 원활하게 편집하여 정확한 참조를 보장합니다. 지금 무료 평가판을 사용해 보세요!
-type: docs
 weight: 17
 url: /ko/java/other-cad-operations/edit-hyperlink/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# DWG 하이퍼링크 편집 - Aspose.CAD Java Tutorial
+
 오늘날 디지털 시대에 DWG 도면을 효율적으로 처리하는 것은 다양한 산업 분야의 전문가에게 매우 중요합니다. Aspose.CAD for Java는 DWG 도면 내의 하이퍼링크를 편집할 수 있는 강력한 솔루션을 제공하여 원활한 통합과 사용자 정의를 보장합니다. 이 단계별 가이드는 Aspose.CAD for Java를 사용하여 하이퍼링크를 편집하는 과정을 안내합니다.
 
 ## 소개
@@ -99,3 +105,9 @@ A1: Java용 Aspose.CAD는 다양한 DWG 도면 버전을 지원하여 다양한 
 ### Q5: 테스트 목적으로 임시 라이선스를 얻을 수 있나요?
 
  A5: 예, 임시 라이센스를 얻을 수 있습니다.[여기](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

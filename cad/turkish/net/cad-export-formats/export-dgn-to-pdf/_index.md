@@ -3,10 +3,16 @@ title: Aspose.CAD for .NET'te DGN'yi PDF'ye aktarın
 linktitle: DGN'yi PDF'ye aktar
 second_title: Aspose.CAD .NET - CAD ve BIM Dosya Formatı
 description: Aspose.CAD for .NET ile DGN dosyalarını zahmetsizce PDF'ye nasıl aktaracağınızı öğrenin. Kusursuz CAD dosyası manipülasyonu için adım adım kılavuz.
-type: docs
 weight: 12
 url: /tr/net/cad-export-formats/export-dgn-to-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.CAD for .NET'te DGN'yi PDF'ye aktarın
+
 ## giriiş
 
 .NET geliştirme dünyasında Aspose.CAD, CAD dosyalarının işlenmesini ve dönüştürülmesini kolaylaştıran güçlü bir kütüphanedir. Geliştiricilerin sıklıkla karşılaştığı ortak görevlerden biri, DGN dosyalarını PDF formatına aktarmaktır. Bu eğitimde Aspose.CAD for .NET'i kullanarak süreci adım adım anlatacağız.
@@ -92,3 +98,9 @@ A3: Evet, ücretsiz deneme sürümünden yararlanabilirsiniz[Burada](https://rel
 ### S5: Yardıma mı ihtiyacınız var veya sorularınız mı var?
 
 A5: ziyaret edin[Aspose.CAD forumu](https://forum.aspose.com/c/cad/19) topluluk desteği için.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

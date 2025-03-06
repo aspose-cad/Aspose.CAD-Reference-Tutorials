@@ -3,10 +3,16 @@ title: Configurando cores de fundo e de desenho no Aspose.CAD para .NET
 linktitle: Definir cores de fundo e de desenho
 second_title: Aspose.CAD .NET - Formato de arquivo CAD e BIM
 description: Domine Aspose.CAD para .NET. Defina as cores do plano de fundo e do desenho sem esforço. Siga nosso guia passo a passo.
-type: docs
 weight: 15
 url: /pt/net/cad-features-and-support/setting-background-and-drawing-colors/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Configurando cores de fundo e de desenho no Aspose.CAD para .NET
+
 ## Introdução
 
 No mundo dinâmico do desenvolvimento .NET, o Aspose.CAD surge como uma ferramenta poderosa para lidar com arquivos de Design Auxiliado por Computador (CAD). Se você deseja aprimorar suas habilidades na manipulação de desenhos CAD, este tutorial é a sua porta de entrada. Iremos nos aprofundar nos meandros da configuração de cores de fundo e desenho usando Aspose.CAD for .NET, fornecendo um guia passo a passo que garante clareza e eficácia.
@@ -108,3 +114,10 @@ A1: Sim, Aspose.CAD suporta vários formatos CAD, incluindo DWG, DXF e DGN.
 ### P5: Precisa de ajuda ou deseja se conectar com a comunidade?
 
  A5: Visite o fórum de suporte[aqui](https://forum.aspose.com/c/cad/19).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

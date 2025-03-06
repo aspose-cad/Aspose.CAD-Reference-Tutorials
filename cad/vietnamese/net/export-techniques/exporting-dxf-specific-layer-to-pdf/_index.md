@@ -3,10 +3,16 @@ title: Xuất lớp cụ thể DXF sang PDF - Hướng dẫn Aspose.CAD
 linktitle: Xuất lớp cụ thể DXF sang PDF
 second_title: Aspose.CAD .NET - Định dạng tệp CAD và BIM
 description: Tìm hiểu cách xuất các lớp cụ thể từ tệp DXF sang PDF bằng Aspose.CAD cho .NET. Hãy làm theo hướng dẫn từng bước này để tích hợp liền mạch.
-type: docs
 weight: 10
 url: /vi/net/export-techniques/exporting-dxf-specific-layer-to-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Xuất lớp cụ thể DXF sang PDF - Hướng dẫn Aspose.CAD
+
 ## Giới thiệu
 
 Trong lĩnh vực phát triển CAD cho .NET, Aspose.CAD nổi bật như một thư viện mạnh mẽ cho phép các nhà phát triển thao tác các tệp CAD một cách hiệu quả. Một trong những tính năng đáng chú ý của nó là khả năng xuất các lớp cụ thể từ tệp DXF sang định dạng PDF. Hướng dẫn này sẽ hướng dẫn bạn từng bước thực hiện quy trình, trình bày cách khai thác sức mạnh của Aspose.CAD cho nhiệm vụ cụ thể này.
@@ -101,3 +107,10 @@ Câu trả lời 4: Có, Aspose.CAD hỗ trợ nhiều định dạng xuất kh�
 ### Câu hỏi 5: Tôi có thể tùy chỉnh thêm đầu ra PDF không?
 
 A5: Chắc chắn rồi. Khám phá tài liệu Aspose.CAD để biết các tùy chọn và cấu hình bổ sung.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

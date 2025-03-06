@@ -3,10 +3,16 @@ title: 將 DWG 匯出為 PDF 或光柵影像 - Aspose.CAD 指南
 linktitle: 將 DWG 匯出為 PDF 或光柵影像
 second_title: Aspose.CAD .NET - CAD 和 BIM 檔案格式
 description: 探索使用 Aspose.CAD for .NET 將 DWG 匯出為 PDF 或光柵影像的綜合指南。了解步驟、先決條件，並親身體驗這個強大的函式庫。
-type: docs
 weight: 11
 url: /zh-hant/net/advanced-export-techniques/exporting-dwg-to-pdf-or-raster-images/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 將 DWG 匯出為 PDF 或光柵影像 - Aspose.CAD 指南
+
 ## 介紹
 
 您是否希望在 .NET 應用程式中將 DWG 檔案無縫轉換為 PDF 或光柵影像？別再猶豫了！本逐步指南將引導您完成使用強大的 Aspose.CAD for .NET 程式庫的過程。無論您是經驗豐富的開發人員還是新手，本教學都適合所有技能水平。
@@ -119,3 +125,9 @@ A3：前往[Aspose.CAD論壇](https://forum.aspose.com/c/cad/19)以獲得社區�
 ### Q5：在哪裡可以找到詳細的文件？
 
  A5：該文件可在以下位置取得：[CAD軟體](https://reference.aspose.com/cad/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

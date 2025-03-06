@@ -3,10 +3,16 @@ title: Creación de un PDF único con diferentes diseños - Guía Aspose.CAD
 linktitle: Crear un PDF único con diferentes diseños
 second_title: Aspose.CAD .NET - Formato de archivo CAD y BIM
 description: Cree un único PDF con diferentes diseños utilizando Aspose.CAD para .NET. Siga nuestra guía paso a paso para una integración perfecta y una generación de PDF eficiente.
-type: docs
 weight: 13
 url: /es/net/advanced-cad-techniques/creating-single-pdf-with-different-layouts/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Creación de un PDF único con diferentes diseños - Guía Aspose.CAD
+
 ## Introducción
 
 ¿Está buscando generar un único documento PDF a partir de un dibujo CAD con diferentes diseños utilizando Aspose.CAD para .NET? Esta guía paso a paso lo guiará a través del proceso y lo ayudará a lograr una integración perfecta y una creación de PDF eficiente. Aspose.CAD para .NET proporciona potentes funciones para manipular dibujos CAD mediante programación y, en este tutorial, nos centraremos en crear un único PDF con diferentes diseños.
@@ -95,3 +101,9 @@ R1: Sí, Aspose.CAD para .NET admite varios formatos CAD como DWG, DXF, DGN y m�
 ### P5: ¿Puedo comprar una licencia de Aspose.CAD para .NET?
 
  R5: Sí, puedes comprar una licencia[aquí](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

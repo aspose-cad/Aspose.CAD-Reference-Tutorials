@@ -3,10 +3,16 @@ title: Αυξήστε την εξαγωγή CAD με προσαρμοσμένε�
 linktitle: Υποστήριξη στυλό στην εξαγωγή
 second_title: Aspose.CAD .NET - Μορφή αρχείου CAD και BIM
 description: Μάθετε πώς να βελτιώσετε τις εξαγωγές εικόνων CAD χρησιμοποιώντας το Aspose.CAD για .NET. Προσαρμόστε τις επιλογές στυλό για εντυπωσιακά γραφικά σε PDF, PNG, BMP και άλλα.
-type: docs
 weight: 12
 url: /el/net/cad-features-and-support/pen-support-in-export/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Αυξήστε την εξαγωγή CAD με προσαρμοσμένες επιλογές στυλό στο Aspose.CAD για .NET
+
 ## Εισαγωγή
 
 Το Aspose.CAD για .NET παρέχει ένα ισχυρό σύνολο εργαλείων για εργασία με αρχεία σχεδίασης με τη βοήθεια υπολογιστή (CAD), επιτρέποντας στους προγραμματιστές να χειρίζονται και να εξάγουν εικόνες CAD απρόσκοπτα. Ένα αξιοσημείωτο χαρακτηριστικό είναι η υποστήριξη πένας κατά την εξαγωγή, επιτρέποντας στους χρήστες να προσαρμόζουν τις ρυθμίσεις αρχικού και τέλους καλύμματος για στυλό κατά την εξαγωγή εικόνων CAD σε διάφορες μορφές όπως PDF, PNG, BMP, GIF, JPEG2000, JPEG, PSD, TIFF και WMF.
@@ -119,3 +125,9 @@ A1: Ναι, οι επιλογές στυλό μπορούν να εφαρμοσ�
 ### Ε5: Πού μπορώ να αναζητήσω υποστήριξη κοινότητας για το Aspose.CAD για .NET;
 
  A5: Αλληλεπίδραση με την κοινότητα στο[Φόρουμ Aspose.CAD](https://forum.aspose.com/c/cad/19).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

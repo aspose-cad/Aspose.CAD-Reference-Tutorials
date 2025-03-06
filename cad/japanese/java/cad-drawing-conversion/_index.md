@@ -3,10 +3,16 @@ title: CAD図面変換
 linktitle: CAD図面変換
 second_title: Aspose.CAD Java API
 description: Aspose.CAD for Java を使用して CAD 図面を簡単に変換します。ステップバイステップのチュートリアルを使用して、CAD ファイルを正確に変換、エクスポート、最適化する方法を学びます。
-type: docs
 weight: 20
 url: /ja/java/cad-drawing-conversion/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# CAD図面変換
+
 
 ## 導入
 
@@ -50,3 +56,9 @@ Aspose.CAD を使用して Java で DWG ファイルを PDF またはラスタ�
 Aspose.CAD for Java を使用して特定の DWG レイアウトを PDF にエクスポートするためのステップバイステップ ガイドをご覧ください。 CAD ワークフローを簡単に最適化します。
 ### [Aspose.CAD for Java を使用して DWT を DXF 形式に変換する](./convert-dwt-to-dxf/)
 Aspose.CAD for Java を使用して、DWT から DXF へのシームレスな変換を試してください。 CAD ファイルを効率的に操作するには、ステップバイステップのガイドに従ってください。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Xuất bố cục DWG cụ thể sang PDF bằng Aspose.CAD cho Java
 linktitle: Xuất bố cục DWG cụ thể sang PDF
 second_title: API Java Aspose.CAD
 description: Khám phá hướng dẫn từng bước để xuất bố cục DWG cụ thể sang PDF bằng Aspose.CAD cho Java. Tối ưu hóa quy trình làm việc CAD của bạn một cách dễ dàng.
-type: docs
 weight: 14
 url: /vi/java/cad-drawing-conversion/export-specific-dwg-layout-to-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Xuất bố cục DWG cụ thể sang PDF bằng Aspose.CAD cho Java
+
 ## Giới thiệu
 
 Trong thế giới năng động của Thiết kế hỗ trợ máy tính (CAD), Aspose.CAD cho Java nổi lên như một công cụ mạnh mẽ để thao tác và chuyển đổi các bản vẽ DWG. Trong hướng dẫn này, chúng ta sẽ khám phá một tình huống cụ thể: xuất bố cục DWG được chỉ định sang tệp PDF. Quá trình này đảm bảo độ chính xác và linh hoạt trong các dự án CAD của bạn.
@@ -100,3 +106,9 @@ Aspose.CAD cho Java là một thư viện độc lập nhưng có thể được
 ### Câu hỏi 5: Aspose.CAD có bản dùng thử miễn phí không?
 
  Có, bạn có thể truy cập bản dùng thử miễn phí[đây](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

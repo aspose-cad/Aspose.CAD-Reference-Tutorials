@@ -3,10 +3,16 @@ title: ضبط حجم رسم CAD باستخدام نوع الوحدة مع Aspose
 linktitle: ضبط حجم رسم CAD باستخدام نوع الوحدة
 second_title: Aspose.CAD جافا API
 description: اكتشف قوة Aspose.CAD لـ Java في ضبط أحجام رسم CAD دون عناء. اتبع دليلنا خطوة بخطوة للحصول على الدقة والقدرة على التكيف.
-type: docs
 weight: 14
 url: /ar/java/cad-file-manipulation/adjusting-cad-drawing-size-using-unit-type/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# ضبط حجم رسم CAD باستخدام نوع الوحدة مع Aspose.CAD لـ Java
+
 ## مقدمة
 
 في عالم التصميم بمساعدة الكمبيوتر (CAD) المتطور باستمرار، تعد الدقة والقدرة على التكيف أمرًا بالغ الأهمية. أحد المتطلبات الشائعة هو ضبط حجم رسومات CAD بناءً على أنواع الوحدات المحددة. يظهر Aspose.CAD for Java كحليف قوي، حيث يوفر إمكانات سلسة لمعالجة ملفات CAD برمجيًا.
@@ -117,3 +123,9 @@ image.save(outPath, bmpOptions);
 ### س5: هل يمكنني الحصول على ترخيص مؤقت لـ Aspose.CAD؟
 
  ج5: نعم، يمكنك الحصول على ترخيص مؤقت[هنا](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

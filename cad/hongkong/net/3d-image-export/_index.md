@@ -3,10 +3,16 @@ title: 3D 影像導出
 linktitle: 3D 影像導出
 second_title: Aspose.CAD .NET - CAD 和 BIM 檔案格式
 description: 使用 Aspose.CAD for .NET 輕鬆將 3D CAD 影像匯出為 PDF。請按照我們的教學進行無縫 PDF 轉換。學習高效的 3D 影像導出技術。
-type: docs
 weight: 35
 url: /zh-hant/net/3d-image-export/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 3D 影像導出
+
 
 ## 介紹
 
@@ -34,3 +40,9 @@ Aspose.CAD for .NET 無縫整合到您現有的工作流程中。本教學深入
 ## 3D 影像導出教學課程
 ### [將 3D 影像匯出為 PDF - Aspose.CAD 教學課程](./exporting-3d-images-to-pdf/)
 使用 Aspose.CAD for .NET 輕鬆將 3D CAD 影像轉換為 PDF。請按照我們的逐步教學進行無縫 PDF 匯出。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

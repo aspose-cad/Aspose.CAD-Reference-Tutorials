@@ -3,10 +3,16 @@ title: Maîtriser facilement la gestion des éléments DGN - Aspose.CAD pour Jav
 linktitle: Éléments DGN pris en charge
 second_title: API Java Aspose.CAD
 description: Découvrez la puissance d'Aspose.CAD pour Java pour gérer les éléments DGN sans effort. Notre guide étape par étape garantit une intégration transparente pour le traitement des fichiers CAO.
-type: docs
 weight: 10
 url: /fr/java/other-cad-operations/supported-dgn-elements/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Maîtriser facilement la gestion des éléments DGN - Aspose.CAD pour Java
+
 ## Introduction
 
 Bienvenue dans notre didacticiel étape par étape sur la gestion des éléments DGN (Design) à l'aide d'Aspose.CAD pour Java. Aspose.CAD est une puissante bibliothèque Java qui vous permet de travailler efficacement avec des fichiers CAO. Dans ce didacticiel, nous nous concentrerons sur les éléments DGN pris en charge et vous guiderons tout au long du processus de gestion de ceux-ci avec Aspose.CAD.
@@ -118,3 +124,9 @@ A1 : Aspose.CAD est une bibliothèque autonome, mais vous pouvez l'intégrer à 
 ### Q5 : Des licences temporaires sont-elles disponibles pour Aspose.CAD ?
 
  A5 : Oui, vous pouvez obtenir des licences temporaires[ici](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

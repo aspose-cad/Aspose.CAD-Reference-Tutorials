@@ -3,10 +3,16 @@ title: Exportní techniky
 linktitle: Exportní techniky
 second_title: Aspose.CAD .NET – formát souborů CAD a BIM
 description: Prozkoumejte výukové programy Aspose.CAD pro bezproblémový vývoj CAD. Naučte se efektivní techniky exportu souborů DXF do různých formátů bez námahy.
-type: docs
 weight: 32
 url: /cs/net/export-techniques/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Exportní techniky
+
 
 
 ## Úvod
@@ -49,3 +55,9 @@ Prozkoumejte bezproblémovou integraci Aspose.CAD pro .NET v tomto podrobném pr
 Prozkoumejte sílu Aspose.CAD pro .NET. Naučte se snadno exportovat vložené soubory DGN do PDF pomocí tohoto podrobného návodu.
 ### [Export obrázků do formátu DXF - Aspose.CAD Guide](./exporting-images-to-dxf-format/)
 Prozkoumejte sílu Aspose.CAD pro .NET! Naučte se bez námahy exportovat obrázky do formátu DXF. Vylepšete svůj vývoj CAD s přesností a efektivitou.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

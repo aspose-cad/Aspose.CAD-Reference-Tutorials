@@ -3,10 +3,16 @@ title: Obtenga el tamaño del diseño CAD en Aspose.CAD para .NET
 linktitle: Obtener el tamaño del diseño CAD
 second_title: Aspose.CAD .NET - Formato de archivo CAD y BIM
 description: Aprenda cómo recuperar el tamaño del diseño CAD en .NET usando Aspose.CAD. Siga nuestra guía paso a paso para una manipulación eficiente de archivos CAD.
-type: docs
 weight: 14
 url: /es/net/cad-drawing-manipulation/get-size-of-cad-layout/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Obtenga el tamaño del diseño CAD en Aspose.CAD para .NET
+
 ## Introducción
 
 Bienvenido a esta guía completa sobre cómo obtener el tamaño de diseños CAD usando Aspose.CAD para .NET. Aspose.CAD es una potente biblioteca que permite a los desarrolladores trabajar con archivos CAD sin problemas. En este tutorial, lo guiaremos a través del proceso de recuperar el tamaño de los diseños CAD utilizando ejemplos prácticos e instrucciones paso a paso.
@@ -143,3 +149,9 @@ R2: ¡Absolutamente! Puede ajustar las opciones de imagen, como el formato y la 
 ### Q5; ¿Cómo puedo obtener soporte técnico?
 
  R5: Para soporte técnico, visite el[Foro Aspose.CAD](https://forum.aspose.com/c/cad/19).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

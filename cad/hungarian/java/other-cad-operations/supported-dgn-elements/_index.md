@@ -3,10 +3,16 @@ title: A DGN elemkezelés egyszerű elsajátítása – Aspose.CAD for Java
 linktitle: Támogatott DGN elemek
 second_title: Aspose.CAD Java API
 description: Fedezze fel az Aspose.CAD for Java erejét a DGN elemek egyszerű kezelésében. Lépésről lépésre haladó útmutatónk biztosítja a zökkenőmentes integrációt a CAD fájlfeldolgozáshoz.
-type: docs
 weight: 10
 url: /hu/java/other-cad-operations/supported-dgn-elements/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# A DGN elemkezelés egyszerű elsajátítása – Aspose.CAD for Java
+
 ## Bevezetés
 
 Üdvözöljük a DGN (Design) elemek kezeléséről szóló, lépésenkénti oktatóanyagunkban az Aspose.CAD for Java használatával. Az Aspose.CAD egy hatékony Java-könyvtár, amely lehetővé teszi a CAD-fájlok hatékony kezelését. Ebben az oktatóanyagban a támogatott DGN-elemekre fogunk összpontosítani, és végigvezetjük az Aspose.CAD használatával történő kezelésük folyamatán.
@@ -118,3 +124,9 @@ Gratulálunk! Sikeresen megtanulta a támogatott DGN-elemek kezelését az Aspos
 ### 5. kérdés: Rendelkezésre állnak-e ideiglenes licencek az Aspose.CAD számára?
 
  V5: Igen, beszerezhet ideiglenes engedélyeket[itt](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

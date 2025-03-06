@@ -3,10 +3,16 @@ title: Manipulace s vrstvami v souborech DWG v jazyce C# – výukový program A
 linktitle: Manipulace s vrstvami v souborech DWG pomocí C#
 second_title: Aspose.CAD .NET – formát souborů CAD a BIM
 description: Naučte se, jak zacházet s vrstvami v souborech DWG pomocí C# s Aspose.CAD for .NET. Podrobný průvodce pro efektivní manipulaci se soubory CAD.
-type: docs
 weight: 11
 url: /cs/net/dwg-file-manipulation/support-of-layers/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Manipulace s vrstvami v souborech DWG v jazyce C# – výukový program Aspose.CAD
+
 ## Úvod
 
 Vítejte v našem podrobném tutoriálu o práci s vrstvami v souborech DWG pomocí C# s Aspose.CAD pro .NET. Aspose.CAD je výkonná knihovna, která umožňuje vývojářům bezproblémově pracovat s formáty souborů CAD. V tomto tutoriálu vás krok za krokem provedeme procesem práce s vrstvami v souborech DWG.
@@ -109,3 +115,9 @@ V tomto tutoriálu jsme prošli procesem zpracování vrstev v souborech DWG pom
 ### Q5: Jaké jsou možnosti licencování pro Aspose.CAD?
 
  A5: Můžete prozkoumat možnosti licencování a podrobnosti o nákupu[tady](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

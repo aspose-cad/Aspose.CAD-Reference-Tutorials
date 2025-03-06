@@ -3,10 +3,16 @@ title: Quản lý thuộc tính và tài sản
 linktitle: Quản lý thuộc tính và tài sản
 second_title: Aspose.CAD .NET - Định dạng tệp CAD và BIM
 description: Nâng cao bản vẽ CAD của bạn với Aspose.CAD cho .NET! Tìm hiểu cách thêm thuộc tính và thuộc tính tùy chỉnh một cách liền mạch thông qua hướng dẫn. Nâng cao thiết kế của bạn một cách dễ dàng.
-type: docs
 weight: 30
 url: /vi/net/attribute-and-property-management/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Quản lý thuộc tính và tài sản
+
 
 
 ## Giới thiệu
@@ -47,3 +53,9 @@ Tóm lại, Aspose.CAD cho .NET mở ra cánh cửa dẫn đến một thế gi�
 Nâng cao bản vẽ CAD của bạn bằng các thuộc tính bằng Aspose.CAD cho .NET. Hãy làm theo hướng dẫn từng bước của chúng tôi để tích hợp liền mạch.
 ### [Thêm thuộc tính tùy chỉnh vào tệp DWG - Hướng dẫn Aspose.CAD](./adding-custom-properties-to-dwg/)
 Nâng cao tệp DWG của bạn bằng các thuộc tính tùy chỉnh bằng Aspose.CAD cho .NET. Hãy làm theo hướng dẫn từng bước của chúng tôi để thêm siêu dữ liệu có ý nghĩa một cách dễ dàng.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

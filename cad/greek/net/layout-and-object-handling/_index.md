@@ -3,10 +3,16 @@ title: Διάταξη και χειρισμός αντικειμένων
 linktitle: Διάταξη και χειρισμός αντικειμένων
 second_title: Aspose.CAD .NET - Μορφή αρχείου CAD και BIM
 description: Κύρια εξαγωγή διάταξης DXF, αποθήκευση αρχείων, αποκοπή μπλοκ και οντότητες διακομιστή μεσολάβησης ACAD χωρίς κόπο για βελτιωμένο σχεδιασμό CAD χρησιμοποιώντας το Aspose.CAD για .NET.
-type: docs
 weight: 33
 url: /el/net/layout-and-object-handling/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Διάταξη και χειρισμός αντικειμένων
+
 
 ## Εισαγωγή
 
@@ -38,3 +44,9 @@ url: /el/net/layout-and-object-handling/
 Μάθετε πώς μπορείτε να εφαρμόσετε την αποκοπή μπλοκ σε CAD χρησιμοποιώντας το Aspose.CAD για .NET. Βελτιώστε τις σχεδιαστικές σας δυνατότητες με αυτό το βήμα προς βήμα σεμινάριο.
 ### [Εργασία με οντότητες μεσολάβησης ACAD - Οδηγός Aspose.CAD](./working-with-acad-proxy-entities/)
 Εξερευνήστε το Aspose.CAD για .NET και βελτιστοποιήστε τις ροές εργασίας σας CAD. Μετατρέψτε, επεξεργαστείτε και διαχειριστείτε τις οντότητες διακομιστή μεσολάβησης ACAD χωρίς κόπο.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

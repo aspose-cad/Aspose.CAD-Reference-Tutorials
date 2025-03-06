@@ -3,10 +3,16 @@ title: Metered Licensing in Aspose.CAD for .NET
 linktitle: Metered Licensing
 second_title: Aspose.CAD .NET - CAD and BIM File Format
 description: Unlock Aspose.CAD potential with metered licensing in .NET. Optimize resource usage seamlessly. Explore our step-by-step guide.
-type: docs
 weight: 12
 url: /net/licensing-and-configuration/metered-licensing/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Metered Licensing in Aspose.CAD for .NET
+
 ## Introduction
 
 Unlocking the full potential of Aspose.CAD for .NET requires understanding the intricacies of metered licensing. This powerful feature allows developers to efficiently manage resource consumption while harnessing the capabilities of Aspose.CAD. In this step-by-step guide, we will delve into the process of implementing metered licensing, breaking down each crucial step to ensure seamless integration into your .NET projects.
@@ -97,3 +103,9 @@ A4: If you surpass your allocated metered limit, consider upgrading your license
 ### Q5: Can I temporarily license Aspose.CAD for specific projects?
 
 A5: Yes, explore [temporary licensing options](https://purchase.aspose.com/temporary-license/) for short-term project requirements.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

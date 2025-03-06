@@ -3,10 +3,16 @@ title: Exportez une mise en page DXF spécifique au format PDF avec Aspose.CAD p
 linktitle: Exporter une mise en page DXF spécifique au format PDF avec Java
 second_title: API Java Aspose.CAD
 description: Explorez la conversion transparente de DXF en PDF avec Aspose.CAD pour Java. Exportez sans effort des mises en page spécifiques avec précision.
-type: docs
 weight: 17
 url: /fr/java/additional-features/export-specific-layout-to-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Exportez une mise en page DXF spécifique au format PDF avec Aspose.CAD pour Java
+
 ## Introduction
 
 Si vous êtes un développeur Java travaillant avec des dessins CAO, vous comprendrez l'importance d'une conversion efficace et précise entre différents formats. Aspose.CAD pour Java est une bibliothèque puissante qui permet aux développeurs de manipuler les fichiers CAO de manière transparente. Dans ce didacticiel, nous vous guiderons tout au long du processus d'exportation d'une mise en page DXF spécifique vers un PDF à l'aide d'Aspose.CAD pour Java.
@@ -105,3 +111,9 @@ A2 : Oui, vous pouvez facilement configurer les options de rastérisation en fon
 ### Q5 : Comment puis-je obtenir une assistance pour Aspose.CAD pour Java ?
 
  A5 : Visitez le forum d'assistance[ici](https://forum.aspose.com/c/cad/19)pour obtenir l'aide de la communauté Aspose.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

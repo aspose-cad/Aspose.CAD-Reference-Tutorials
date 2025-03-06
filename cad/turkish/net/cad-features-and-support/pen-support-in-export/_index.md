@@ -3,10 +3,16 @@ title: Aspose.CAD for .NET'teki Özel Kalem Seçenekleri ile CAD Dışa Aktarmay
 linktitle: İhracatta Kalem Desteği
 second_title: Aspose.CAD .NET - CAD ve BIM Dosya Formatı
 description: Aspose.CAD for .NET'i kullanarak CAD görüntü aktarımlarınızı nasıl geliştireceğinizi öğrenin. PDF, PNG, BMP ve daha fazlasında çarpıcı görseller için kalem seçeneklerini özelleştirin.
-type: docs
 weight: 12
 url: /tr/net/cad-features-and-support/pen-support-in-export/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.CAD for .NET'teki Özel Kalem Seçenekleri ile CAD Dışa Aktarmayı Geliştirin
+
 ## giriiş
 
 Aspose.CAD for .NET, Bilgisayar Destekli Tasarım (CAD) dosyalarıyla çalışmak için güçlü bir araç seti sağlayarak geliştiricilerin CAD görüntülerini sorunsuz bir şekilde değiştirmesine ve dışa aktarmasına olanak tanır. Dikkate değer özelliklerden biri, dışa aktarma sırasında kalem desteği olup, kullanıcıların CAD görüntülerini PDF, PNG, BMP, GIF, JPEG2000, JPEG, PSD, TIFF ve WMF gibi çeşitli formatlara dışa aktarırken kalemlerin başlangıç ve bitiş kapağı ayarlarını özelleştirmesine olanak tanır.
@@ -119,3 +125,9 @@ Cevap1: Evet, kalem seçenekleri PNG, BMP, GIF, JPEG ve daha fazlası gibi çeş
 ### S5: Aspose.CAD for .NET için topluluk desteğini nereden alabilirim?
 
  A5: Toplulukla etkileşime geçin[Aspose.CAD forumu](https://forum.aspose.com/c/cad/19).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

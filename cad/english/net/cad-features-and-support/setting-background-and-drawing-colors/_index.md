@@ -3,10 +3,16 @@ title: Setting Background and Drawing Colors in Aspose.CAD for .NET
 linktitle: Setting Background and Drawing Colors
 second_title: Aspose.CAD .NET - CAD and BIM File Format
 description: Master Aspose.CAD for .NET. Set background and drawing colors effortlessly. Follow our step-by-step guide.
-type: docs
 weight: 15
 url: /net/cad-features-and-support/setting-background-and-drawing-colors/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Setting Background and Drawing Colors in Aspose.CAD for .NET
+
 ## Introduction
 
 In the dynamic world of .NET development, Aspose.CAD emerges as a powerful tool for handling Computer-Aided Design (CAD) files. If you're eager to enhance your skills in manipulating CAD drawings, this tutorial is your gateway. We'll delve into the intricacies of setting background and drawing colors using Aspose.CAD for .NET, providing you with a step-by-step guide that ensures clarity and effectiveness.
@@ -109,3 +115,10 @@ A4: Temporary licenses can be obtained [here](https://purchase.aspose.com/tempor
 
 A5: Visit the support forum [here](https://forum.aspose.com/c/cad/19).
 
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

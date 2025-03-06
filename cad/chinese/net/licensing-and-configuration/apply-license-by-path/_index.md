@@ -3,10 +3,16 @@ title: 在 Aspose.CAD for .NET 中按路径应用许可证
 linktitle: 按路径申请许可证
 second_title: Aspose.CAD .NET - CAD 和 BIM 文件格式
 description: 释放 Aspose.CAD for .NET 的全部潜力！按照我们的分步指南无缝应用许可证。立即提升您的 CAD 文件操作能力！
-type: docs
 weight: 10
 url: /zh/net/licensing-and-configuration/apply-license-by-path/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.CAD for .NET 中按路径应用许可证
+
 ## 介绍
 
 您准备好利用 Aspose.CAD 的功能来提升您的 .NET 开发水平了吗？在这个综合教程中，我们将指导您完成使用 Aspose.CAD for .NET 按路径应用许可证的过程。请系好安全带，让我们解开将这个强大的库无缝集成到您的项目中的步骤，确保工作流程顺利高效。
@@ -88,3 +94,9 @@ A3：是的，您可以获得免费试用[这里](https://releases.aspose.com/).
 ### Q5：需要帮助或有疑问吗？
 
  A5：加入 Aspose.CAD 社区：[Aspose.CAD论坛](https://forum.aspose.com/c/cad/19).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

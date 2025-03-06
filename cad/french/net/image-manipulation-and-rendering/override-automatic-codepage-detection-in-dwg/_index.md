@@ -3,10 +3,16 @@ title: Remplacer la détection automatique des pages de codes dans les fichiers 
 linktitle: Remplacer la détection automatique des pages de codes dans les fichiers DWG
 second_title: Aspose.CAD .NET - Format de fichier CAO et BIM
 description: Découvrez comment remplacer la détection automatique des pages de codes dans les fichiers DWG à l'aide d'Aspose.CAD pour .NET. Améliorez vos capacités de traitement de fichiers CAO sans effort.
-type: docs
 weight: 14
 url: /fr/net/image-manipulation-and-rendering/override-automatic-codepage-detection-in-dwg/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Remplacer la détection automatique des pages de codes dans les fichiers DWG - Tutoriel Aspose.CAD
+
 ## Introduction
 
 Exploiter tout le potentiel d'Aspose.CAD pour .NET ouvre un monde de possibilités aux développeurs travaillant avec des fichiers DWG. Dans ce didacticiel, nous aborderons un aspect spécifique : remplacer la détection automatique des pages de codes. Comprendre et mettre en œuvre cette fonctionnalité peut améliorer considérablement vos capacités de traitement de fichiers CAO.
@@ -87,3 +93,9 @@ A1 : Aspose.CAD pour .NET est principalement conçu pour C#, mais il peut être 
 ### Q5 : Où puis-je trouver une documentation détaillée ?
 
  A5 : Reportez-vous au document complet[Documentation Aspose.CAD](https://reference.aspose.com/cad/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

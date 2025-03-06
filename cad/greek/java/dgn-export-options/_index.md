@@ -3,10 +3,16 @@ title: Οδηγίες εξαγωγής DGN
 linktitle: Οδηγίες εξαγωγής DGN
 second_title: Aspose.CAD Java API
 description: Ξεκλειδώστε τη δύναμη του Aspose.CAD για Java με τα σεμινάρια εξαγωγής DGN. Μάθετε αποτελεσματικό χειρισμό αρχείων CAD, από την εξαγωγή DGN ως μέρος του DWG έως τη δημιουργία εικόνων ράστερ χωρίς κόπο.
-type: docs
 weight: 31
 url: /el/java/dgn-export-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Οδηγίες εξαγωγής DGN
+
 ## Εισαγωγή
 
 Το Aspose.CAD για Java ανοίγει έναν κόσμο δυνατοτήτων για τους λάτρεις του CAD, προσφέροντας απρόσκοπτες δυνατότητες εξαγωγής DGN. Σε αυτήν τη σειρά εκμάθησης, θα σας καθοδηγήσουμε σε βασικές τεχνικές για να βελτιώσετε την ικανότητα χειρισμού αρχείων CAD των εφαρμογών Java σας.
@@ -39,3 +45,9 @@ url: /el/java/dgn-export-options/
 Εξερευνήστε τον οδηγό βήμα προς βήμα για την εξαγωγή αρχείων DGN σε μορφή AutoCAD σε PDF χρησιμοποιώντας το Aspose.CAD για Java. Αυξήστε τις δυνατότητες χειρισμού CAD της εφαρμογής Java σας χωρίς κόπο.
 ### [Εξαγωγή DGN σε μορφή AutoCAD σε μορφή εικόνας ράστερ](./exporting-dgn-to-raster-image/)
 Μάθετε πώς να εξάγετε αρχεία DGN σε εικόνες JPEG σε Java χρησιμοποιώντας το Aspose.CAD. Αυτό το σεμινάριο βήμα προς βήμα σας καθοδηγεί στη διαδικασία χωρίς κόπο.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

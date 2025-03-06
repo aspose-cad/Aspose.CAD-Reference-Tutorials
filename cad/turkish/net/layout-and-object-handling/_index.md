@@ -3,10 +3,16 @@ title: Düzen ve Nesne İşleme
 linktitle: Düzen ve Nesne İşleme
 second_title: Aspose.CAD .NET - CAD ve BIM Dosya Formatı
 description: Aspose.CAD for .NET kullanarak gelişmiş CAD tasarımı için DXF düzenini dışa aktarma, dosya kaydetme, blok kırpma ve ACAD Proxy Varlıklarında zahmetsizce ustalaşın.
-type: docs
 weight: 33
 url: /tr/net/layout-and-object-handling/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Düzen ve Nesne İşleme
+
 
 ## giriiş
 
@@ -38,3 +44,9 @@ Aspose.CAD for .NET'in gücünü keşfedin. Adım adım kılavuzumuzla DXF dosya
 Aspose.CAD for .NET kullanarak CAD'de blok kırpmanın nasıl uygulanacağını öğrenin. Bu adım adım eğitimle tasarım yeteneklerinizi geliştirin.
 ### [ACAD Proxy Varlıklarıyla Çalışmak - Aspose.CAD Guide](./working-with-acad-proxy-entities/)
 Aspose.CAD for .NET'i keşfedin ve CAD iş akışlarınızı kolaylaştırın. ACAD Proxy Varlıklarını zahmetsizce dönüştürün, düzenleyin ve yönetin.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

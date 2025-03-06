@@ -3,10 +3,16 @@ title: ตั้งค่าขนาดและโหมดแคนวาส
 linktitle: ตั้งค่าขนาดและโหมดแคนวาส
 second_title: Aspose.CAD Java API
 description: สำรวจประสิทธิภาพของ Aspose.CAD สำหรับ Java ด้วยคำแนะนำทีละขั้นตอนเกี่ยวกับการตั้งค่าขนาดและโหมดแคนวาส แปลงไฟล์ CAD เป็นรูปแบบ PDF และ TIFF ได้อย่างง่ายดาย
-type: docs
 weight: 16
 url: /th/java/advanced-cad-features/set-canvas-size-and-mode/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# ตั้งค่าขนาดและโหมดแคนวาส
+
 ## การแนะนำ
 
 คุณต้องการควบคุมพลังของ Aspose.CAD สำหรับ Java เพื่อปรับปรุงกระบวนการแปลง CAD ของคุณหรือไม่? คู่มือที่ครอบคลุมนี้จะแนะนำคุณตลอดขั้นตอนการตั้งค่าขนาดและโหมดแคนวาสโดยใช้ Aspose.CAD สำหรับ Java ไม่ว่าคุณจะเป็นนักพัฒนาที่มีประสบการณ์หรือเพิ่งเริ่มต้น บทช่วยสอนนี้จะให้ข้อมูลเชิงลึกที่คุณต้องการ
@@ -126,3 +132,9 @@ objImage.save(dataDir + "result_out_.tiff", tiffOptions);
 ### คำถามที่ 5: ฉันจะซื้อ Aspose.CAD สำหรับ Java ได้อย่างไร
 
  A5: ซื้อสินค้า[ที่นี่](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

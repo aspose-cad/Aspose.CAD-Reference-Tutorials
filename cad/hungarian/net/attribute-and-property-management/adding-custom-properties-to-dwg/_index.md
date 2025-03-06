@@ -3,10 +3,16 @@ title: Egyéni tulajdonságok hozzáadása DWG-fájlokhoz – Aspose.CAD útmuta
 linktitle: Egyéni tulajdonságok hozzáadása a DWG-fájlokhoz
 second_title: Aspose.CAD .NET - CAD és BIM fájlformátum
 description: Bővítse DWG-fájljait egyéni tulajdonságokkal az Aspose.CAD for .NET segítségével. Kövesse lépésenkénti útmutatónkat, hogy könnyedén hozzáadhasson értelmes metaadatokat.
-type: docs
 weight: 11
 url: /hu/net/attribute-and-property-management/adding-custom-properties-to-dwg/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Egyéni tulajdonságok hozzáadása DWG-fájlokhoz – Aspose.CAD útmutató
+
 ## Bevezetés
 
 Üdvözöljük ebben az átfogó útmutatóban arról, hogyan adhat egyéni tulajdonságokat DWG-fájlokhoz az Aspose.CAD for .NET használatával. Az Aspose.CAD egy hatékony könyvtár, amely lehetővé teszi a fejlesztők számára, hogy zökkenőmentesen dolgozzanak CAD fájlokkal. Ebben az oktatóanyagban arra összpontosítunk, hogy jobban megértse az egyéni tulajdonságokat, és hogyan adja hozzá azokat DWG-fájlokhoz az Aspose.CAD használatával.
@@ -92,3 +98,9 @@ Gratulálunk! Sikeresen hozzáadott egyéni tulajdonságokat egy DWG-fájlhoz az
 ### 5. kérdés: Az Aspose.CAD támogatást nyújt, ha bármilyen problémám támad?
 
  V5: Igen, kérhet segítséget a[Aspose.CAD fórum](https://forum.aspose.com/c/cad/19) bármilyen műszaki kérdés vagy probléma esetén.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

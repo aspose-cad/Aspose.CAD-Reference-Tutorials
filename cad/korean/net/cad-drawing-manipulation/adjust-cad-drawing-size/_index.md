@@ -3,10 +3,16 @@ title: .NET용 Aspose.CAD에서 CAD 도면 크기 조정
 linktitle: CAD 도면 크기 조정
 second_title: Aspose.CAD .NET - CAD 및 BIM 파일 형식
 description: Aspose.CAD를 사용하여 .NET에서 CAD 도면 크기를 쉽게 조정하는 방법을 알아보세요. 원활한 크기 조정을 위해 단계별 가이드를 따르세요.
-type: docs
 weight: 10
 url: /ko/net/cad-drawing-manipulation/adjust-cad-drawing-size/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# .NET용 Aspose.CAD에서 CAD 도면 크기 조정
+
 ## 소개
 
 .NET 애플리케이션에서 CAD 도면의 크기를 원활하게 조정하고 싶으십니까? .NET용 Aspose.CAD는 CAD 도면 크기 조정을 쉽게 처리할 수 있는 강력한 솔루션을 제공합니다. 이 튜토리얼에서는 Aspose.CAD를 사용하여 CAD 도면 크기 조정의 복잡성을 이해할 수 있도록 각 단계를 세분화하여 프로세스를 안내합니다.
@@ -115,3 +121,9 @@ A2: 예, CadRasterizationOptions에서 레이아웃 배열을 조정하여 여�
 ### Q5: Aspose.CAD for .NET의 임시 라이선스를 어떻게 얻을 수 있나요?
 
  A5: 테스트 목적으로 임시 라이선스를 얻습니다.[여기](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Exportera specifik DXF-layout till bild med Aspose.CAD i Java
 linktitle: Exportera specifik DXF-layout till bild med Java
 second_title: Aspose.CAD Java API
 description: Lär dig hur du exporterar en specifik DXF-layout till en bild med Aspose.CAD för Java. Följ vår steg-för-steg-guide för sömlös integration.
-type: docs
 weight: 16
 url: /sv/java/additional-features/export-specific-layout-to-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Exportera specifik DXF-layout till bild med Aspose.CAD i Java
+
 ## Introduktion
 
 Vill du konvertera en specifik DXF-layout till en bild med Java? Med Aspose.CAD för Java kan du sömlöst utföra denna uppgift. I den här steg-för-steg-guiden går vi igenom processen att exportera en specifik DXF-layout till en bild, och ger tydliga instruktioner och exempel för varje steg.
@@ -141,3 +147,9 @@ S4: Ja, Aspose.CAD för Java stöder olika utdataformat, inklusive PNG, BMP, TIF
 ### F5: Kan jag anpassa rastreringsalternativen ytterligare?
 
  A5: Visst, den`CadRasterizationOptions` klass tillhandahåller olika egenskaper för anpassning. Utforska dokumentationen för ytterligare alternativ.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

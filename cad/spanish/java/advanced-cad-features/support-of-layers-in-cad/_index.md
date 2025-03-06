@@ -3,10 +3,16 @@ title: Soporte de Capas con Aspose.CAD en Java
 linktitle: Soporte de Capas en CAD
 second_title: API de Java Aspose.CAD
 description: Soporte de capa maestra en desarrollo Java CAD con Aspose.CAD. Organice y exporte dibujos sin esfuerzo.
-type: docs
 weight: 18
 url: /es/java/advanced-cad-features/support-of-layers-in-cad/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Soporte de Capas con Aspose.CAD en Java
+
 ## Introducción
 
 Libere todo el potencial de Aspose.CAD en Java dominando el soporte de capas. Las capas desempeñan un papel crucial en los dibujos CAD, ya que permiten una organización y manipulación eficiente de elementos gráficos. En este completo tutorial, profundizaremos en las complejidades del soporte de capas usando Aspose.CAD, brindándole una guía paso a paso para aprovechar esta poderosa funcionalidad.
@@ -118,3 +124,9 @@ R2: Sí, Aspose.CAD admite una amplia gama de formatos CAD, lo que garantiza ver
 ### P5: ¿Dónde puedo buscar ayuda o compartir mis experiencias con Aspose.CAD?
 
 A5: Únase a la comunidad Aspose.CAD en el[foro](https://forum.aspose.com/c/cad/19) para apoyo y discusiones colaborativas.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

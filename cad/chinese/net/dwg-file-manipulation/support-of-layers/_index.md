@@ -3,10 +3,16 @@ title: 使用 C# 处理 DWG 文件中的图层 - Aspose.CAD 教程
 linktitle: 使用 C# 处理 DWG 文件中的图层
 second_title: Aspose.CAD .NET - CAD 和 BIM 文件格式
 description: 了解如何使用 C# 和 Aspose.CAD for .NET 处理 DWG 文件中的图层。高效 CAD 文件操作的分步指南。
-type: docs
 weight: 11
 url: /zh/net/dwg-file-manipulation/support-of-layers/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 C# 处理 DWG 文件中的图层 - Aspose.CAD 教程
+
 ## 介绍
 
 欢迎来到我们关于使用 C# 和 Aspose.CAD for .NET 处理 DWG 文件中的图层的深入教程。 Aspose.CAD 是一个功能强大的库，使开发人员能够无缝地使用 CAD 文件格式。在本教程中，我们将指导您逐步完成处理 DWG 文件中的图层的过程。
@@ -109,3 +115,9 @@ A4：您可以通过以下方式寻求支持[Aspose.CAD论坛](https://forum.asp
 ### 问题 5：Aspose.CAD 有哪些许可选项？
 
  A5：您可以探索许可选项和购买详细信息[这里](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Rozłóż obiekt CAD za pomocą Aspose.CAD w Javie
 linktitle: Rozłóż obiekt wstawiania CAD za pomocą Java
 second_title: Aspose.CAD API Java
 description: Opanuj rozkładanie wstawianych obiektów CAD w Javie za pomocą Aspose.CAD. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby uzyskać efektywną obsługę. Zanurz się w świat manipulacji CAD.
-type: docs
 weight: 11
 url: /pl/java/additional-features/decompose-cad-insert-object/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Rozłóż obiekt CAD za pomocą Aspose.CAD w Javie
+
 ## Wstęp
 
 Witamy w naszym obszernym przewodniku na temat używania Aspose.CAD dla Java do rozkładania wstawianych obiektów CAD. W tym samouczku przeprowadzimy Cię przez proces rozkładania wstawianych obiektów CAD na części składowe, zapewniając krok po kroku bezproblemową implementację. Niezależnie od tego, czy jesteś doświadczonym programistą, czy dopiero zaczynasz pracę z Aspose.CAD, ten samouczek wyposaży Cię w wiedzę niezbędną do wydajnej obsługi wstawianych obiektów CAD w aplikacjach Java.
@@ -110,3 +116,9 @@ tym samouczku zbadaliśmy proces rozkładania obiektów wstawianych CAD przy uż
 ### P5: Czy są jakieś przykładowe rysunki do ćwiczeń?
 
 O5: Tak, przykładowe rysunki można znaleźć w katalogu „DXFDrawings” w zasobach Aspose.CAD.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: C# での DWG ファイルの操作 - DWF レイアウトのサイズの�
 linktitle: C# での DWG ファイルの操作 - DWF レイアウトのサイズの取得
 second_title: Aspose.CAD .NET - CAD および BIM ファイル形式
 description: DWG ファイルの処理における Aspose.CAD for .NET の機能を試してください。 C# を使用して DWF レイアウト サイズを簡単に抽出する方法を学びます。
-type: docs
 weight: 10
 url: /ja/net/dwg-file-manipulation/get-size-of-dwf-layout/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# C# での DWG ファイルの操作 - DWF レイアウトのサイズの取得
+
 ## 導入
 
 コンピュータ支援設計 (CAD) および .NET 開発の分野では、Aspose.CAD は DWG ファイルを処理するための強力なツールとして機能します。このチュートリアルでは、C# で DWG ファイルを操作し、DWF レイアウトのサイズを抽出するプロセスを説明します。コードに入る前に、この旅に乗り出すためのすべての設定が完了していることを確認してください。
@@ -163,3 +169,9 @@ A4: ご質問やサポートが必要な場合は、次のサイトにアクセ�
 ### Q5: Aspose.CAD の無料トライアルはありますか?
 
  A5: はい、Aspose.CAD の無料試用版にアクセスできます。[ここ](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

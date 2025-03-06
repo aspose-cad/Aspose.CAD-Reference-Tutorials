@@ -3,10 +3,16 @@ title: Licenciamento medido em Aspose.CAD para .NET
 linktitle: Licenciamento medido
 second_title: Aspose.CAD .NET - Formato de arquivo CAD e BIM
 description: Desbloqueie o potencial do Aspose.CAD com licenciamento medido em .NET. Otimize o uso de recursos perfeitamente. Explore nosso guia passo a passo.
-type: docs
 weight: 12
 url: /pt/net/licensing-and-configuration/metered-licensing/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Licenciamento medido em Aspose.CAD para .NET
+
 ## Introdução
 
 Desbloquear todo o potencial do Aspose.CAD for .NET requer a compreensão das complexidades do licenciamento medido. Este poderoso recurso permite que os desenvolvedores gerenciem com eficiência o consumo de recursos enquanto aproveitam os recursos do Aspose.CAD. Neste guia passo a passo, nos aprofundaremos no processo de implementação do licenciamento medido, detalhando cada etapa crucial para garantir a integração perfeita em seus projetos .NET.
@@ -97,3 +103,9 @@ R3: Sim, as chaves medidas são reutilizáveis em diferentes projetos, oferecend
 ### Q5: Posso licenciar temporariamente o Aspose.CAD para projetos específicos?
 
  A5: Sim, explore[opções de licenciamento temporário](https://purchase.aspose.com/temporary-license/) para requisitos de projetos de curto prazo.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

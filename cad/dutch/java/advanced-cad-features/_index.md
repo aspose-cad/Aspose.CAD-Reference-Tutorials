@@ -3,10 +3,16 @@ title: Geavanceerde CAD-functies
 linktitle: Geavanceerde CAD-functies
 second_title: Aspose.CAD Java-API
 description: Verbeter uw CAD-ontwikkeling met Aspose.CAD voor Java-tutorials. Leer hoe u tracking kunt inschakelen, het IGES-formaat kunt integreren, mesh-ondersteuning kunt beheersen, de penexport kunt aanpassen, DWT-bestanden kunt lezen en meer.
-type: docs
 weight: 24
 url: /nl/java/advanced-cad-features/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Geavanceerde CAD-functies
+
 
 ## Invoering
 
@@ -66,3 +72,9 @@ Verbeter uw CAD-workflow met Aspose.CAD voor Java. Deze stapsgewijze handleiding
 Ondersteuning van masterlagen bij Java CAD-ontwikkeling met Aspose.CAD. Organiseer en exporteer tekeningen moeiteloos.
 ### [Extraheer blokkenmerkwaarde uit externe referentie met Aspose.CAD in Java](./extract-block-attribute-value/)
 Ontdek onze tutorial over het extraheren van blokattribuutwaarden uit externe DWG-referenties in Java met behulp van Aspose.CAD. Verbeter moeiteloos uw CAD-ontwikkelingsworkflow.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

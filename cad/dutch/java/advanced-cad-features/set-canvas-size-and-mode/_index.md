@@ -3,10 +3,16 @@ title: Stel het canvasformaat en de modus in
 linktitle: Stel het canvasformaat en de modus in
 second_title: Aspose.CAD Java-API
 description: Ontdek de kracht van Aspose.CAD voor Java met onze stapsgewijze handleiding voor het instellen van de canvasgrootte en -modus. Converteer CAD-bestanden moeiteloos naar PDF- en TIFF-formaten.
-type: docs
 weight: 16
 url: /nl/java/advanced-cad-features/set-canvas-size-and-mode/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Stel het canvasformaat en de modus in
+
 ## Invoering
 
 Wilt u de kracht van Aspose.CAD voor Java benutten om uw CAD-conversieproces te verbeteren? Deze uitgebreide handleiding leidt u door de stappen voor het instellen van de canvasgrootte en -modus met behulp van Aspose.CAD voor Java. Of je nu een doorgewinterde ontwikkelaar bent of net begint, deze tutorial geeft je de inzichten die je nodig hebt.
@@ -126,3 +132,9 @@ A1: Ja, Aspose.CAD is ontworpen om naadloos te integreren met verschillende Java
 ### V5: Hoe koop ik Aspose.CAD voor Java?
 
  A5: Koop het product[hier](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: CAD 메타데이터 및 렌더링
 linktitle: CAD 메타데이터 및 렌더링
 second_title: Aspose.CAD 자바 API
 description: 튜토리얼을 통해 Java용 Aspose.CAD의 강력한 기능을 활용해보세요! 향상된 CAD 개발을 위해 XREF 메타데이터를 쉽게 읽고 DWG 문서를 이미지로 렌더링하는 방법을 알아보세요.
-type: docs
 weight: 27
 url: /ko/java/cad-meta-data-and-rendering/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# CAD 메타데이터 및 렌더링
+
 
 
 ## 소개
@@ -33,3 +39,9 @@ CAD 디자인을 시각화하는 것이 가장 중요하며, Aspose.CAD for Java
 Java용 Aspose.CAD를 탐색하고 DWG 파일에서 XREF 메타데이터를 쉽게 읽을 수 있습니다. 이 강력한 Java 라이브러리를 사용하여 CAD 개발을 강화하십시오.
 ### [Java용 Aspose.CAD를 사용하여 DWG 문서를 이미지로 렌더링](./render-dwg-to-image/)
 DWG 문서를 이미지로 렌더링할 때 Java용 Aspose.CAD의 원활한 통합을 살펴보세요. 효율적인 결과를 얻으려면 단계별 가이드를 따르십시오.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

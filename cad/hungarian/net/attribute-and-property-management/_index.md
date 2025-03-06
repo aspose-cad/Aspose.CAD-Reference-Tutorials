@@ -3,10 +3,16 @@ title: Attribútum- és ingatlankezelés
 linktitle: Attribútum- és ingatlankezelés
 second_title: Aspose.CAD .NET - CAD és BIM fájlformátum
 description: Emelje fel CAD-rajzait az Aspose.CAD for .NET segítségével! Tanuljon meg attribútumokat és egyéni tulajdonságokat zökkenőmentesen hozzáadni az oktatóanyagokon keresztül. Tökéletesítse a terveket könnyedén.
-type: docs
 weight: 30
 url: /hu/net/attribute-and-property-management/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Attribútum- és ingatlankezelés
+
 
 
 ## Bevezetés
@@ -47,3 +53,9 @@ DWG-fájlból hiányoznak az értelmes metaadatok? Ne félj! Az Aspose.CAD útmu
 Javítsa ki CAD-rajzait attribútumokkal az Aspose.CAD for .NET segítségével. Kövesse lépésenkénti útmutatónkat a zökkenőmentes integráció érdekében.
 ### [Egyéni tulajdonságok hozzáadása DWG-fájlokhoz – Aspose.CAD útmutató](./adding-custom-properties-to-dwg/)
 Bővítse DWG-fájljait egyéni tulajdonságokkal az Aspose.CAD for .NET segítségével. Kövesse lépésenkénti útmutatónkat, hogy könnyedén hozzáadhasson értelmes metaadatokat.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

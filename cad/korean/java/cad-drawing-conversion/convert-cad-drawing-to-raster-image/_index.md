@@ -3,10 +3,16 @@ title: Java용 Aspose.CAD를 사용하여 CAD 도면을 래스터 이미지 형�
 linktitle: CAD 도면을 래스터 이미지 형식으로 변환
 second_title: Aspose.CAD 자바 API
 description: Aspose.CAD for Java를 사용하여 CAD 도면을 래스터 이미지로 원활하게 변환하는 방법을 살펴보세요. 효율적인 통합을 위한 단계별 가이드를 따르세요.
-type: docs
 weight: 10
 url: /ko/java/cad-drawing-conversion/convert-cad-drawing-to-raster-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java용 Aspose.CAD를 사용하여 CAD 도면을 래스터 이미지 형식으로 변환
+
 ## 소개
 
 역동적인 CAD(컴퓨터 지원 설계) 세계에서는 CAD 도면을 래스터 이미지 형식으로 원활하게 변환하는 것이 일반적인 요구 사항입니다. 이 튜토리얼에서는 CAD 파일 조작을 위해 설계된 강력하고 다재다능한 라이브러리인 Aspose.CAD for Java를 사용하여 CAD 도면을 래스터 이미지로 변환하는 과정을 살펴봅니다. Aspose.CAD는 다양한 CAD 형식을 처리하고 향후 사용을 위해 이를 래스터 이미지로 변환하는 효율적인 방법을 제공합니다.
@@ -97,3 +103,9 @@ A2: 예, Aspose.CAD는 래스터화 옵션 설정에 유연성을 제공하므�
 ### Q5: Java용 Aspose.CAD를 어떻게 구매할 수 있나요?
 
  A5: Java용 Aspose.CAD를 구입하려면 다음을 방문하세요.[구매 페이지](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

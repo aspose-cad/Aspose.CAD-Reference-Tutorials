@@ -3,10 +3,16 @@ title: Ondersteuning van MLeader-entiteit voor DWG-formaat - Aspose.CAD-handleid
 linktitle: Ondersteuning van MLeader-entiteit voor DWG-indeling
 second_title: Aspose.CAD .NET - CAD- en BIM-bestandsindeling
 description: Ontgrendel de kracht van MLeader-entiteiten in DWG-formaat met Aspose.CAD voor .NET. Verbeter uw CAD-projecten moeiteloos.
-type: docs
 weight: 11
 url: /nl/net/hidden-lines-and-entities/supporting-mleader-entity-for-dwg-format/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ondersteuning van MLeader-entiteit voor DWG-formaat - Aspose.CAD-handleiding
+
 ## Invoering
 
 In de dynamische wereld van computerondersteund ontwerp (CAD) is het cruciaal om voorop te blijven lopen met de nieuwste features en functionaliteiten. Eén zo'n functie ondersteunt MLeader-entiteiten in het DWG-formaat. Aspose.CAD voor .NET biedt een krachtige set tools om dit efficiënt aan te pakken.
@@ -118,3 +124,9 @@ A4: Ga voor vragen of hulp naar de[Aspose.CAD-forum](https://forum.aspose.com/c/
 ### V5: Kan ik Aspose.CAD uitproberen voordat ik een aankoop doe?
 
  A5: Ja, u kunt een[gratis proefperiode](https://releases.aspose.com/) van Aspose.CAD om de mogelijkheden ervan te ervaren voordat u een beslissing neemt.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

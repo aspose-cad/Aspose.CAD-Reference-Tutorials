@@ -3,10 +3,16 @@ title: Options d'exportation CAO
 linktitle: Options d'exportation CAO
 second_title: API Java Aspose.CAD
 description: Exportez sans effort des images AutoCAD, des mises en page CAO, des fichiers IFC et STL au format PDF, BMP, PNG à l'aide d'Aspose.CAD pour Java. Simplifiez votre flux de travail avec nos didacticiels étape par étape.
-type: docs
 weight: 30
 url: /fr/java/cad-export-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Options d'exportation CAO
+
 
 ## Introduction
 
@@ -50,3 +56,9 @@ Apprenez à exporter des fichiers CAO au format PDF sans effort avec Aspose.CAD 
 Convertissez facilement IFC en PNG avec Aspose.CAD pour Java. Suivez notre tutoriel étape par étape.
 ### [Exporter STL vers PNG avec Aspose.CAD pour Java](./export-stl-to-png/)
 Explorez le processus transparent d'exportation de fichiers STL vers PNG en Java avec Aspose.CAD. Simplifiez votre flux de travail et améliorez vos projets Java sans effort.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

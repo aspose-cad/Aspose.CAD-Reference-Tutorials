@@ -3,10 +3,16 @@ title: معالجة ملفات DWG
 linktitle: معالجة ملفات DWG
 second_title: Aspose.CAD .NET - تنسيق ملف CAD وBIM
 description: اكتشف قوة Aspose.CAD في .NET من خلال دروس DWG الخاصة بنا. Master C# للتعامل بكفاءة مع CAD، واستخراج أحجام تخطيطات DWF بسلاسة.
-type: docs
 weight: 24
 url: /ar/net/dwg-file-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# معالجة ملفات DWG
+
 
 ## مقدمة
 
@@ -39,3 +45,9 @@ url: /ar/net/dwg-file-manipulation/
 أطلق العنان لقوة Aspose.CAD لـ .NET في استكشاف العلامات الأساسية لملف DWG. اتبع دليلنا خطوة بخطوة.
 ### [إضافة نص إلى ملفات DWG في C# - البرنامج التعليمي Aspose.CAD](./adding-text-to-dwg/)
 تعرف على كيفية إضافة نص إلى ملفات DWG باستخدام C# وAspose.CAD. اتبع هذا البرنامج التعليمي خطوة بخطوة لتحقيق التكامل السلس. استكشف وثائق Aspose.CAD للحصول على إرشادات شاملة.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

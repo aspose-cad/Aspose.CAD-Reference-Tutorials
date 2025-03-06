@@ -3,10 +3,16 @@ title: CAD 도면에 워터마크 추가 - Java 튜토리얼용 Aspose.CAD
 linktitle: 워터 마크를 추가
 second_title: Aspose.CAD 자바 API
 description: Aspose.CAD for Java를 사용하여 개인화된 워터마크로 CAD 도면을 향상하세요. 원활한 통합을 위한 단계별 가이드를 따르세요.
-type: docs
 weight: 12
 url: /ko/java/other-cad-operations/add-watermark/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# CAD 도면에 워터마크 추가 - Java 튜토리얼용 Aspose.CAD
+
 ## 소개
 
 Aspose.CAD for Java를 사용하여 CAD 도면에 워터마크를 추가하는 방법에 대한 포괄적인 가이드에 오신 것을 환영합니다. 이 튜토리얼에서는 워터마크를 효율적으로 통합하여 개인화된 메시지나 브랜딩으로 CAD 문서를 향상시키는 방법을 배우게 됩니다. Aspose.CAD for Java는 강력한 기능 세트를 제공하여 워터마크 추가 프로세스를 간단하게 만듭니다.
@@ -99,3 +105,9 @@ A2: 예, 텍스트 크기, 색상, 위치를 포함하여 워터마크의 모양
 ### Q5: Aspose.CAD for Java에 대한 전체 문서는 어디에서 찾을 수 있나요?
 
  A5: 다음을 참조하세요.[선적 서류 비치](https://reference.aspose.com/cad/java/) 자세한 정보를 보려면.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Добавление атрибутов к чертежам САПР - У
 linktitle: Добавление атрибутов к чертежам САПР
 second_title: Aspose.CAD .NET — формат файлов CAD и BIM
 description: Улучшите свои чертежи САПР с помощью атрибутов, используя Aspose.CAD для .NET. Следуйте нашему пошаговому руководству для бесшовной интеграции.
-type: docs
 weight: 10
 url: /ru/net/attribute-and-property-management/adding-attributes-to-cad-drawings/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Добавление атрибутов к чертежам САПР - Учебное пособие по Aspose.CAD
+
 ## Введение
 
 В сфере автоматизированного проектирования (САПР) обогащение чертежей атрибутами является важным шагом для создания подробной документации и эффективной коммуникации. Aspose.CAD для .NET предоставляет надежное решение для плавной интеграции атрибутов в чертежи САПР. Это руководство проведет вас через процесс добавления атрибутов к чертежам САПР с помощью Aspose.CAD, что позволит вам улучшить информацию, встроенную в ваши проекты.
@@ -119,3 +125,9 @@ A1: Aspose.CAD поддерживает различные форматы САП
 ### Вопрос 5: Как я могу получить временную лицензию на Aspose.CAD?
 
  A5. Чтобы узнать о вариантах временного лицензирования, посетите[здесь](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

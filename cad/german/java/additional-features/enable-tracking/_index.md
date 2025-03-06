@@ -3,10 +3,16 @@ title: Aktivieren Sie die Nachverfolgung in DWG-Dateien mit Aspose.CAD in Java
 linktitle: Aktivieren Sie die Nachverfolgung in DWG-Dateien mit Java
 second_title: Aspose.CAD Java API
 description: Entdecken Sie die Schritt-für-Schritt-Anleitung zur Aktivierung der DWG-Dateiverfolgung in Java mit Aspose.CAD, um eine nahtlose Zusammenarbeit bei CAD-Projekten sicherzustellen.
-type: docs
 weight: 12
 url: /de/java/additional-features/enable-tracking/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aktivieren Sie die Nachverfolgung in DWG-Dateien mit Aspose.CAD in Java
+
 ## Einführung
 
 Im Bereich des computergestützten Designs (CAD) zeichnet sich Aspose.CAD für Java als leistungsstarkes Tool aus, das Entwicklern die einfache Bearbeitung und Konvertierung von CAD-Dateien ermöglicht. Dieses Tutorial befasst sich mit einer spezifischen Funktionalität von Aspose.CAD für Java – der Aktivierung der Nachverfolgung in DWG-Dateien. Die Verfolgung von Änderungen in DWG-Dateien ist für kollaborative Designprojekte von entscheidender Bedeutung und gewährleistet eine nahtlose Kommunikation und einen effizienten Arbeitsablauf. In diesem Leitfaden gehen wir die Schritte durch, um die Nachverfolgung mit Java zu aktivieren und dabei die Funktionen von Aspose.CAD zu nutzen.
@@ -123,3 +129,9 @@ A1: Aspose.CAD unterstützt hauptsächlich DWG-Dateien für die Nachverfolgung. 
 ### F5: Wie erhalte ich eine temporäre Lizenz für Aspose.CAD für Java?
 
  A5: Befolgen Sie den unter beschriebenen Prozess[Temporäre Lizenz](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

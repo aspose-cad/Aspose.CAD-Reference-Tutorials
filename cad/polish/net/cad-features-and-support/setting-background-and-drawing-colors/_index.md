@@ -3,10 +3,16 @@ title: Ustawianie kolorów tła i rysunków w Aspose.CAD dla .NET
 linktitle: Ustawianie kolorów tła i rysunku
 second_title: Aspose.CAD .NET - Format plików CAD i BIM
 description: Opanuj Aspose.CAD dla .NET. Ustawiaj kolory tła i rysowania bez wysiłku. Postępuj zgodnie z naszym przewodnikiem krok po kroku.
-type: docs
 weight: 15
 url: /pl/net/cad-features-and-support/setting-background-and-drawing-colors/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ustawianie kolorów tła i rysunków w Aspose.CAD dla .NET
+
 ## Wstęp
 
 dynamicznym świecie rozwoju .NET Aspose.CAD jawi się jako potężne narzędzie do obsługi plików CAD. Jeśli chcesz udoskonalić swoje umiejętności manipulowania rysunkami CAD, ten samouczek będzie dla Ciebie bramą. Zagłębimy się w zawiłości ustawiania tła i rysowania kolorów za pomocą Aspose.CAD dla .NET, dostarczając przewodnik krok po kroku, który zapewni przejrzystość i skuteczność.
@@ -108,3 +114,10 @@ Odpowiedź 1: Tak, Aspose.CAD obsługuje różne formaty CAD, w tym DWG, DXF i D
 ### P5: Potrzebujesz pomocy lub chcesz nawiązać kontakt ze społecznością?
 
  Odpowiedź 5: Odwiedź forum pomocy technicznej[Tutaj](https://forum.aspose.com/c/cad/19).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

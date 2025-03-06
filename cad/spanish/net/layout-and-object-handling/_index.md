@@ -3,10 +3,16 @@ title: Diseño y manejo de objetos
 linktitle: Diseño y manejo de objetos
 second_title: Aspose.CAD .NET - Formato de archivo CAD y BIM
 description: Domine la exportación de diseños DXF, el guardado de archivos, el recorte de bloques y las entidades proxy ACAD sin esfuerzo para mejorar el diseño CAD utilizando Aspose.CAD para .NET.
-type: docs
 weight: 33
 url: /es/net/layout-and-object-handling/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Diseño y manejo de objetos
+
 
 ## Introducción
 
@@ -38,3 +44,9 @@ Explore el poder de Aspose.CAD para .NET. Aprenda a guardar archivos DXF sin esf
 Aprenda a implementar el recorte de bloques en CAD usando Aspose.CAD para .NET. Mejore sus capacidades de diseño con este tutorial paso a paso.
 ### [Trabajar con entidades proxy ACAD - Guía Aspose.CAD](./working-with-acad-proxy-entities/)
 Explore Aspose.CAD para .NET y optimice sus flujos de trabajo CAD. Convierta, edite y administre entidades proxy de ACAD sin esfuerzo.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

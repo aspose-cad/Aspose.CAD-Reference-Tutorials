@@ -3,10 +3,16 @@ title: CAD 功能和支持
 linktitle: CAD 功能和支持
 second_title: Aspose.CAD .NET - CAD 和 BIM 文件格式
 description: 使用 Aspose.CAD for .NET 教程释放 CAD 功能的全部潜力。轻松了解 DGN V7、网格处理、笔自定义等 3D 支持。
-type: docs
 weight: 23
 url: /zh/net/cad-features-and-support/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# CAD 功能和支持
+
 
 ## 介绍
 
@@ -80,3 +86,9 @@ Aspose.CAD for .NET 为您提供了可简化 CAD 功能复杂性的教程，确�
 探索 Aspose.CAD for .NET 对 DGN 的无缝支持，通过分步指导轻松将 DGN 文件转换为光栅图像。
 ### [Aspose.CAD for .NET 中对 DGN V7 的 3D 支持](./support-of-3d-for-dgn-v7/)
 释放 Aspose.CAD for .NET 中对 DGN V7 的 3D 支持的强大功能。请按照我们的分步教程进行操作。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

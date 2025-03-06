@@ -3,10 +3,16 @@ title: 將 3D 影像匯出為 PDF - Aspose.CAD 教學課程
 linktitle: 將 3D 影像匯出為 PDF
 second_title: Aspose.CAD .NET - CAD 和 BIM 檔案格式
 description: 使用 Aspose.CAD for .NET 輕鬆將 3D CAD 影像轉換為 PDF。請按照我們的逐步教學進行無縫 PDF 匯出。
-type: docs
 weight: 10
 url: /zh-hant/net/3d-image-export/exporting-3d-images-to-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 將 3D 影像匯出為 PDF - Aspose.CAD 教學課程
+
 ## 介紹
 
 您是否希望使用 Aspose.CAD for .NET 將 3D 影像無縫匯出為 PDF？本逐步教學將引導您完成整個過程，確保您利用 Aspose.CAD 的強大功能輕鬆將 3D 影像轉換為 PDF 格式。
@@ -102,3 +108,9 @@ A4：前往[Aspose.CAD論壇](https://forum.aspose.com/c/cad/19)以尋求社區�
 ### Q5：Aspose.CAD 有免費試用版嗎？
 
  A5：是的，您可以透過存取 Aspose.CAD 的功能來探索[免費試用](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

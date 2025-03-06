@@ -3,10 +3,16 @@ title: Manipulatie van CAD-tekeningen
 linktitle: Manipulatie van CAD-tekeningen
 second_title: Aspose.CAD .NET - CAD- en BIM-bestandsindeling
 description: Verbeter uw CAD-projecten moeiteloos met Aspose.CAD voor .NET-tutorials. Wijzig het formaat, converteer en optimaliseer CAD-tekeningen naadloos met onze stapsgewijze handleidingen.
-type: docs
 weight: 21
 url: /nl/net/cad-drawing-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Manipulatie van CAD-tekeningen
+
 
 ## Invoering
 
@@ -44,3 +50,9 @@ Converteer CAD-lay-outs moeiteloos naar rasterafbeeldingen met Aspose.CAD voor .
 Ontdek de kracht van Aspose.CAD voor .NET. Schakel tracking in voor naadloze CAD-weergave. Volg onze stapsgewijze handleiding voor verbeterde controle en efficiëntie.
 ### [Verkrijg de grootte van de CAD-lay-out in Aspose.CAD voor .NET](./get-size-of-cad-layout/)
 Leer hoe u de CAD-lay-outgrootte kunt ophalen in .NET met behulp van Aspose.CAD. Volg onze stapsgewijze handleiding voor efficiënte manipulatie van CAD-bestanden.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

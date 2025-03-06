@@ -3,10 +3,16 @@ title: Szöveg keresése DWG fájlokban C# segítségével - Aspose.CAD oktatóa
 linktitle: Szöveg keresése DWG fájlokban a C# segítségével
 second_title: Aspose.CAD .NET - CAD és BIM fájlformátum
 description: Fedezze fel az Aspose.CAD for .NET-et és a mesterszöveg keresést DWG-fájlokban ezzel a lépésről-lépésre szóló útmutatóval. Növelje CAD-alkalmazásait még ma!
-type: docs
 weight: 10
 url: /hu/net/text-search-and-manipulation/searching-text-in-dwg-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Szöveg keresése DWG fájlokban C# segítségével - Aspose.CAD oktatóanyag
+
 ## Bevezetés
 
 A CAD (Computer-Aided Design) dinamikus területén a precizitás és a hatékonyság a legfontosabb. Képzeljen el egy forgatókönyvet, amelyben meg kell találnia egy adott szöveget a DWG-fájlokban. Az Aspose.CAD for .NET jön a segítségre, és robusztus megoldást kínál a szöveg zökkenőmentes keresésére DWG-fájlokban C# használatával. Ez az oktatóanyag végigvezeti Önt a folyamaton, és biztosítja, hogy az Aspose.CAD for .NET teljes potenciálját kihasználja.
@@ -114,3 +120,9 @@ Az Aspose.CAD for .NET zökkenőmentes megoldást kínál a DWG-fájlokban talá
 ### 5. kérdés: Hol találom az Aspose.CAD for .NET részletes dokumentációját?
 
  A5: Lásd az átfogó[dokumentáció](https://reference.aspose.com/cad/net/) mélyreható útmutatásért.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

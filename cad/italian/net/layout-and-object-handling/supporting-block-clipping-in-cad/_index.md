@@ -3,10 +3,16 @@ title: Supporto del ritaglio dei blocchi in CAD - Tutorial Aspose.CAD
 linktitle: Supporto del ritaglio dei blocchi in CAD
 second_title: Aspose.CAD .NET - Formato file CAD e BIM
 description: Scopri come implementare il ritaglio dei blocchi in CAD utilizzando Aspose.CAD per .NET. Migliora le tue capacità di progettazione con questo tutorial passo passo.
-type: docs
 weight: 12
 url: /it/net/layout-and-object-handling/supporting-block-clipping-in-cad/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Supporto del ritaglio dei blocchi in CAD - Tutorial Aspose.CAD
+
 ## introduzione
 
 Benvenuti in un tutorial completo sul supporto del ritaglio dei blocchi in CAD utilizzando Aspose.CAD per .NET. Aspose.CAD è una potente libreria che consente agli sviluppatori di lavorare senza problemi con i file CAD nelle loro applicazioni .NET. In questo tutorial ci concentreremo sull'implementazione del ritaglio dei blocchi, una funzionalità essenziale nella progettazione CAD.
@@ -122,3 +128,9 @@ A1: Aspose.CAD è progettato principalmente per applicazioni .NET. Se lavori con
 ### Q5: Posso utilizzare Aspose.CAD senza una licenza permanente?
 
  R5: Sì, puoi ottenere una licenza temporanea[Qui](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

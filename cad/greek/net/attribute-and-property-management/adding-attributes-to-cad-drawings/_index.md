@@ -3,10 +3,16 @@ title: Προσθήκη χαρακτηριστικών σε σχέδια CAD - �
 linktitle: Προσθήκη χαρακτηριστικών σε σχέδια CAD
 second_title: Aspose.CAD .NET - Μορφή αρχείου CAD και BIM
 description: Βελτιώστε τα σχέδιά σας CAD με χαρακτηριστικά χρησιμοποιώντας το Aspose.CAD για .NET. Ακολουθήστε τον βήμα προς βήμα οδηγό μας για απρόσκοπτη ενσωμάτωση.
-type: docs
 weight: 10
 url: /el/net/attribute-and-property-management/adding-attributes-to-cad-drawings/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Προσθήκη χαρακτηριστικών σε σχέδια CAD - Εκμάθηση Aspose.CAD
+
 ## Εισαγωγή
 
 Στον τομέα του Computer-Aided Design (CAD), ο εμπλουτισμός των σχεδίων με χαρακτηριστικά είναι ένα κρίσιμο βήμα για λεπτομερή τεκμηρίωση και αποτελεσματική επικοινωνία. Το Aspose.CAD για .NET παρέχει μια ισχυρή λύση για την απρόσκοπτη ενσωμάτωση χαρακτηριστικών σε σχέδια CAD. Αυτό το σεμινάριο θα σας καθοδηγήσει στη διαδικασία προσθήκης χαρακτηριστικών σε σχέδια CAD χρησιμοποιώντας το Aspose.CAD, επιτρέποντάς σας να βελτιώσετε τις πληροφορίες που είναι ενσωματωμένες στα σχέδιά σας.
@@ -119,3 +125,9 @@ A1: Το Aspose.CAD υποστηρίζει διάφορες μορφές CAD, σ
 ### Ε5: Πώς μπορώ να αποκτήσω μια προσωρινή άδεια για το Aspose.CAD;
 
  A5: Για προσωρινές επιλογές αδειοδότησης, επισκεφθείτε[εδώ](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

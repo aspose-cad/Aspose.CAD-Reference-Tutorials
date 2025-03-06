@@ -3,10 +3,16 @@ title: عرض مستندات DWG في C# - دليل Aspose.CAD
 linktitle: عرض مستندات DWG بلغة C#
 second_title: Aspose.CAD .NET - تنسيق ملف CAD وBIM
 description: تعرف على كيفية عرض مستندات DWG في لغة C# باستخدام Aspose.CAD. يغطي هذا الدليل خطوة بخطوة الاستيراد والتكوين والحفظ باستخدام أمثلة التعليمات البرمجية.
-type: docs
 weight: 17
 url: /ar/net/image-manipulation-and-rendering/rendering-dwg-documents/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# عرض مستندات DWG في C# - دليل Aspose.CAD
+
 ## مقدمة
 
 مرحبًا بك في الدليل الشامل حول عرض مستندات DWG بلغة C# باستخدام Aspose.CAD. سواء كنت مطورًا متمرسًا أو بدأت للتو في استخدام .NET، فسيرشدك هذا البرنامج التعليمي خلال عملية الاستفادة من Aspose.CAD لعرض ملفات DWG بكفاءة. Aspose.CAD عبارة عن واجهة برمجة تطبيقات قوية توفر وظائف قوية للعمل مع تنسيقات ملفات CAD، مما يجعلها خيارًا مفضلاً للمطورين الذين يتعاملون مع ملفات DWG.
@@ -130,3 +136,9 @@ cadImage.Save(MyDir, pdfOptions);
 ### س5: أين يمكنني العثور على دعم إضافي؟
 
 ج5: قم بزيارة[منتدى Aspose.CAD](https://forum.aspose.com/c/cad/19) لدعم المجتمع والمناقشات.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

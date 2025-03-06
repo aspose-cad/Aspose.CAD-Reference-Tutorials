@@ -3,10 +3,16 @@ title: .NET용 Aspose.CAD의 사용자 정의 펜 옵션을 사용하여 CAD 내
 linktitle: 내보내기 시 펜 지원
 second_title: Aspose.CAD .NET - CAD 및 BIM 파일 형식
 description: .NET용 Aspose.CAD를 사용하여 CAD 이미지 내보내기를 향상시키는 방법을 알아보세요. PDF, PNG, BMP 등의 멋진 시각적 개체를 위해 펜 옵션을 사용자 정의하세요.
-type: docs
 weight: 12
 url: /ko/net/cad-features-and-support/pen-support-in-export/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# .NET용 Aspose.CAD의 사용자 정의 펜 옵션을 사용하여 CAD 내보내기 향상
+
 ## 소개
 
 .NET용 Aspose.CAD는 CAD(Computer-Aided Design) 파일 작업을 위한 강력한 도구 세트를 제공하여 개발자가 CAD 이미지를 원활하게 조작하고 내보낼 수 있도록 합니다. 주목할만한 기능 중 하나는 내보내기 중 펜 지원으로, 사용자는 CAD 이미지를 PDF, PNG, BMP, GIF, JPEG2000, JPEG, PSD, TIFF 및 WMF와 같은 다양한 형식으로 내보낼 때 펜의 시작 및 끝 캡 설정을 사용자 정의할 수 있습니다.
@@ -119,3 +125,9 @@ A1: 예, 펜 옵션은 PNG, BMP, GIF, JPEG 등과 같은 다양한 이미지 형
 ### Q5: Aspose.CAD for .NET에 대한 커뮤니티 지원은 어디서 찾을 수 있나요?
 
  A5: 커뮤니티에 참여하세요.[Aspose.CAD 포럼](https://forum.aspose.com/c/cad/19).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

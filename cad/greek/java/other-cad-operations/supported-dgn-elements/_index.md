@@ -3,10 +3,16 @@ title: Κατακτήστε τον χειρισμό στοιχείων DGN με 
 linktitle: Υποστηριζόμενα στοιχεία DGN
 second_title: Aspose.CAD Java API
 description: Εξερευνήστε τη δύναμη του Aspose.CAD για Java στον αβίαστο χειρισμό στοιχείων DGN. Ο βήμα προς βήμα οδηγός μας διασφαλίζει την απρόσκοπτη ενσωμάτωση για την επεξεργασία αρχείων CAD.
-type: docs
 weight: 10
 url: /el/java/other-cad-operations/supported-dgn-elements/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Κατακτήστε τον χειρισμό στοιχείων DGN με ευκολία - Aspose.CAD για Java
+
 ## Εισαγωγή
 
 Καλώς ήρθατε στο βήμα προς βήμα εκμάθησή μας σχετικά με το χειρισμό στοιχείων DGN (Design) χρησιμοποιώντας το Aspose.CAD για Java. Το Aspose.CAD είναι μια ισχυρή βιβλιοθήκη Java που σας επιτρέπει να εργάζεστε αποτελεσματικά με αρχεία CAD. Σε αυτό το σεμινάριο, θα επικεντρωθούμε σε υποστηριζόμενα στοιχεία DGN και θα σας καθοδηγήσουμε στη διαδικασία χειρισμού τους με το Aspose.CAD.
@@ -118,3 +124,9 @@ A1: Το Aspose.CAD είναι μια αυτόνομη βιβλιοθήκη, α�
 ### Ε5: Διατίθενται προσωρινές άδειες χρήσης για το Aspose.CAD;
 
  A5: Ναι, μπορείτε να αποκτήσετε προσωρινές άδειες[εδώ](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

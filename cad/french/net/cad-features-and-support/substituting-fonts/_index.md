@@ -3,10 +3,16 @@ title: Remplacement des polices dans Aspose.CAD pour .NET
 linktitle: Remplacement des polices
 second_title: Aspose.CAD .NET - Format de fichier CAO et BIM
 description: Apprenez à remplacer les polices dans Aspose.CAD par .NET sans effort. Suivez notre guide étape par étape pour une personnalisation efficace des polices dans vos dessins CAO.
-type: docs
 weight: 17
 url: /fr/net/cad-features-and-support/substituting-fonts/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Remplacement des polices dans Aspose.CAD pour .NET
+
 ## Introduction
 
 Dans le domaine du développement CAO utilisant .NET, la capacité à manipuler les polices est une compétence cruciale. Aspose.CAD for .NET fournit à cet effet un ensemble d'outils robustes, permettant aux développeurs de remplacer de manière transparente les polices dans leurs dessins CAO. Dans ce didacticiel, nous explorerons le processus étape par étape, démontrant comment réaliser efficacement la substitution de polices.
@@ -109,3 +115,10 @@ A4 : Vous pouvez certainement mettre en œuvre un traitement par lots pour auto
 
  A5 : Pour obtenir un soutien supplémentaire et des discussions communautaires, visitez le[Forum Aspose.CAD](https://forum.aspose.com/c/cad/19).
 
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

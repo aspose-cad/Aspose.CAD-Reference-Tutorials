@@ -3,10 +3,16 @@ title: Hỗ trợ cắt khối trong CAD - Hướng dẫn Aspose.CAD
 linktitle: Hỗ trợ cắt khối trong CAD
 second_title: Aspose.CAD .NET - Định dạng tệp CAD và BIM
 description: Tìm hiểu cách triển khai cắt khối trong CAD bằng Aspose.CAD cho .NET. Nâng cao khả năng thiết kế của bạn với hướng dẫn từng bước này.
-type: docs
 weight: 12
 url: /vi/net/layout-and-object-handling/supporting-block-clipping-in-cad/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Hỗ trợ cắt khối trong CAD - Hướng dẫn Aspose.CAD
+
 ## Giới thiệu
 
 Chào mừng bạn đến với hướng dẫn toàn diện về cách hỗ trợ cắt khối trong CAD bằng Aspose.CAD cho .NET. Aspose.CAD là một thư viện mạnh mẽ cho phép các nhà phát triển làm việc liền mạch với các tệp CAD trong ứng dụng .NET của họ. Trong hướng dẫn này, chúng ta sẽ tập trung vào việc triển khai cắt khối, một tính năng thiết yếu trong thiết kế CAD.
@@ -122,3 +128,9 @@ Trả lời 1: Aspose.CAD được thiết kế chủ yếu cho các ứng dụn
 ### Câu hỏi 5: Tôi có thể sử dụng Aspose.CAD mà không có giấy phép vĩnh viễn không?
 
  Câu trả lời 5: Có, bạn có thể xin giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

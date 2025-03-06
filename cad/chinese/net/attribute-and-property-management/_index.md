@@ -3,10 +3,16 @@ title: 属性和财产管理
 linktitle: 属性和财产管理
 second_title: Aspose.CAD .NET - CAD 和 BIM 文件格式
 description: 使用 Aspose.CAD for .NET 提升您的 CAD 绘图！通过教程学习如何无缝添加属性和自定义属性。毫不费力地增强您的设计。
-type: docs
 weight: 30
 url: /zh/net/attribute-and-property-management/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 属性和财产管理
+
 
 
 ## 介绍
@@ -47,3 +53,9 @@ url: /zh/net/attribute-and-property-management/
 使用 Aspose.CAD for .NET 通过属性增强 CAD 绘图。请按照我们的分步指南进行无缝集成。
 ### [将自定义属性添加到 DWG 文件 - Aspose.CAD 指南](./adding-custom-properties-to-dwg/)
 使用 Aspose.CAD for .NET 通过自定义属性增强您的 DWG 文件。按照我们的分步指南轻松添加有意义的元数据。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

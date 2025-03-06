@@ -3,10 +3,16 @@ title: बीएमपी प्रारूप में निर्यात 
 linktitle: बीएमपी प्रारूप में निर्यात करना
 second_title: Aspose.CAD .NET - CAD और BIM फ़ाइल स्वरूप
 description: .NET के लिए Aspose.CAD का उपयोग करके BMP में 3D छवि निर्यात की निर्बाध दुनिया का अन्वेषण करें। परेशानी मुक्त अनुभव के लिए हमारे ट्यूटोरियल का अनुसरण करें।
-type: docs
 weight: 11
 url: /hi/net/file-format-conversion/exporting-to-bmp-format/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# बीएमपी प्रारूप में निर्यात करना - Aspose.CAD ट्यूटोरियल
+
 ## परिचय
 
 सॉफ़्टवेयर विकास की गतिशील दुनिया में, .NET के लिए Aspose.CAD कंप्यूटर-एडेड डिज़ाइन (CAD) फ़ाइलों को संभालने के लिए एक शक्तिशाली उपकरण के रूप में सामने आता है। यदि आप सीएडी छवियों को व्यापक रूप से उपयोग किए जाने वाले बीएमपी प्रारूप में निर्यात करना चाहते हैं, तो यह ट्यूटोरियल आपके लिए मार्गदर्शक है। इस चरण-दर-चरण वॉकथ्रू में, हम .NET के लिए Aspose.CAD का उपयोग करके BMP में 3D छवियों को निर्यात करने की प्रक्रिया का पता लगाएंगे। आइए गोता लगाएँ!
@@ -94,3 +100,10 @@ A1: हाँ, Aspose.CAD विभिन्न CAD फ़ाइल स्वर
 ### Q5: क्या मैं .NET के लिए Aspose.CAD खरीद सकता हूँ?
 
  A5: हाँ, आप Aspose.CAD खरीद सकते हैं[यहाँ](https://purchase.aspose.com/buy) अपनी परियोजनाओं के लिए इसकी पूरी क्षमता को अनलॉक करने के लिए।
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

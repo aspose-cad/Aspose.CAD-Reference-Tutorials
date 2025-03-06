@@ -3,10 +3,16 @@ title: 使用 C# 搜尋 DWG 檔案中的文字 - Aspose.CAD 教學課程
 linktitle: 使用 C# 在 DWG 檔案中搜尋文本
 second_title: Aspose.CAD .NET - CAD 和 BIM 檔案格式
 description: 透過此逐步指南探索 Aspose.CAD for .NET 並掌握 DWG 檔案中的文字搜尋。立即增強您的 CAD 應用程式！
-type: docs
 weight: 10
 url: /zh-hant/net/text-search-and-manipulation/searching-text-in-dwg-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 C# 搜尋 DWG 檔案中的文字 - Aspose.CAD 教學課程
+
 ## 介紹
 
 在 CAD（電腦輔助設計）的動態領域，精確度和效率至關重要。想像一下您需要在 DWG 檔案中尋找特定文字的場景。 Aspose.CAD for .NET 來救援，提供了一個強大的解決方案，可以使用 C# 無縫搜尋 DWG 檔案中的文字。本教學將引導您完成整個過程，確保您充分利用 Aspose.CAD for .NET 的全部潛力。
@@ -114,3 +120,9 @@ A1：是的，Aspose.CAD 支援各種 CAD 格式，提供通用的解決方案�
 ### Q5：在哪裡可以找到 Aspose.CAD for .NET 的詳細文件？
 
  A5：參考綜合[文件](https://reference.aspose.com/cad/net/)以獲得深入指導。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

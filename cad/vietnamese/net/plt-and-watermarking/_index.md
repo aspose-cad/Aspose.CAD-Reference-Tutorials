@@ -3,10 +3,16 @@ title: PLT và hình mờ
 linktitle: PLT và hình mờ
 second_title: Aspose.CAD .NET - Định dạng tệp CAD và BIM
 description: Khai phá tiềm năng của định dạng PLT với Aspose.CAD cho .NET. Tích hợp dễ dàng các tệp PLT vào ứng dụng của bạn bằng hướng dẫn từng bước của chúng tôi.
-type: docs
 weight: 37
 url: /vi/net/plt-and-watermarking/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# PLT và hình mờ
+
 
 ## Giới thiệu
 
@@ -46,3 +52,9 @@ Tóm lại, với Aspose.CAD cho .NET, việc thành thạo hỗ trợ định d
 Khám phá hỗ trợ định dạng PLT liền mạch trong Aspose.CAD cho .NET. Làm theo hướng dẫn từng bước của chúng tôi để tích hợp tệp PLT vào ứng dụng .NET của bạn một cách dễ dàng.
 ### [Thêm hình mờ vào bản vẽ CAD - Hướng dẫn Aspose.CAD](./adding-watermarks-to-cad-drawings/)
 Nâng cao bản vẽ CAD của bạn bằng hình mờ chuyên nghiệp bằng Aspose.CAD cho .NET. Hãy làm theo hướng dẫn từng bước của chúng tôi để có các thiết kế được cá nhân hóa và hấp dẫn.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

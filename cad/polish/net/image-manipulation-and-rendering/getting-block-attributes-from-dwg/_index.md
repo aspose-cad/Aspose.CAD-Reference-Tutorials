@@ -3,10 +3,16 @@ title: Pobieranie atrybutów bloków z plików DWG - samouczek Aspose.CAD
 linktitle: Pobieranie atrybutów bloków z plików DWG
 second_title: Aspose.CAD .NET - Format plików CAD i BIM
 description: Odblokuj potencjał plików CAD za pomocą Aspose.CAD dla .NET. Wyodrębnij atrybuty bloku bez wysiłku.
-type: docs
 weight: 10
 url: /pl/net/image-manipulation-and-rendering/getting-block-attributes-from-dwg/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Pobieranie atrybutów bloków z plików DWG - samouczek Aspose.CAD
+
 ## Wstęp
 
 dynamicznym świecie projektowania wspomaganego komputerowo (CAD) wyodrębnianie cennych informacji z plików DWG ma kluczowe znaczenie dla wielu zastosowań. Aspose.CAD dla .NET zapewnia potężne rozwiązanie do wydajnej pracy z plikami CAD. W tym samouczku zagłębimy się krok po kroku w proces odzyskiwania atrybutów bloków z plików DWG za pomocą Aspose.CAD.
@@ -93,3 +99,9 @@ Odpowiedź 1: Tak, Aspose.CAD obsługuje różne formaty CAD, w tym DWG, DXF, DW
 ### P5: Gdzie mogę znaleźć dokumentację Aspose.CAD dla .NET?
 
  A5: Zapoznaj się z kompleksowym[dokumentacja](https://reference.aspose.com/cad/net/) szczegółowe informacje i przykłady.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

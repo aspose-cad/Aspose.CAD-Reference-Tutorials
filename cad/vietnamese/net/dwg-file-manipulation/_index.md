@@ -3,10 +3,16 @@ title: Thao tác với tệp DWG
 linktitle: Thao tác với tệp DWG
 second_title: Aspose.CAD .NET - Định dạng tệp CAD và BIM
 description: Khai phá sức mạnh của Aspose.CAD trong .NET bằng Hướng dẫn DWG của chúng tôi. Master C# để xử lý CAD hiệu quả, trích xuất kích thước bố cục DWF một cách liền mạch.
-type: docs
 weight: 24
 url: /vi/net/dwg-file-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Thao tác với tệp DWG
+
 
 ## Giới thiệu
 
@@ -39,3 +45,9 @@ Tìm hiểu cách mở và truy cập tệp DWFX trong C# bằng Aspose.CAD cho 
 Khai phá sức mạnh của Aspose.CAD cho .NET trong việc khám phá các cờ lót tệp DWG. Thực hiện theo hướng dẫn từng bước của chúng tôi.
 ### [Thêm văn bản vào tệp DWG trong C# - Hướng dẫn Aspose.CAD](./adding-text-to-dwg/)
 Tìm hiểu cách thêm văn bản vào tệp DWG bằng C# và Aspose.CAD. Hãy làm theo hướng dẫn từng bước này để tích hợp liền mạch. Khám phá tài liệu Aspose.CAD để được hướng dẫn toàn diện.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

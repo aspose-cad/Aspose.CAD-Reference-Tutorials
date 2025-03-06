@@ -3,10 +3,16 @@ title: 将特定布局导出为 PDF - Aspose.CAD 指南
 linktitle: 将特定布局导出为 PDF
 second_title: Aspose.CAD .NET - CAD 和 BIM 文件格式
 description: 了解如何使用 Aspose.CAD for .NET 将特定布局导出为 PDF。无缝集成的分步指南。
-type: docs
 weight: 13
 url: /zh/net/advanced-export-techniques/exporting-specific-layouts-to-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 将特定布局导出为 PDF - Aspose.CAD 指南
+
 ## 介绍
 
 欢迎阅读我们有关使用 Aspose.CAD for .NET 将特定布局导出为 PDF 的分步指南。 Aspose.CAD 是一个功能强大的库，允许开发人员无缝地使用 CAD 文件格式。在本教程中，我们将重点介绍在 .NET 环境中使用 Aspose.CAD 将特定布局从 DWG 文件导出为 PDF。
@@ -110,3 +116,9 @@ A2：是的，Aspose.CAD支持各种CAD格式，包括DWG、DXF、DWF等。
 ### Q5: 有免费试用吗？
 
  A5：是的，您可以免费试用[这里](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

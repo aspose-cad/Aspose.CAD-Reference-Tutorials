@@ -3,10 +3,16 @@ title: Chuyển đổi DWG sang PDF tuân thủ - Hướng dẫn Aspose.CAD
 linktitle: Chuyển đổi DWG sang PDF tuân thủ
 second_title: Aspose.CAD .NET - Định dạng tệp CAD và BIM
 description: Chuyển đổi DWG sang PDF tuân thủ bằng Aspose.CAD cho .NET. Thực hiện theo hướng dẫn của chúng tôi để được hướng dẫn từng bước.
-type: docs
 weight: 13
 url: /vi/net/conversion-and-export/converting-dwg-to-compliance-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Chuyển đổi DWG sang PDF tuân thủ - Hướng dẫn Aspose.CAD
+
 ## Giới thiệu
 
 Chào mừng bạn đến với hướng dẫn từng bước của chúng tôi về cách chuyển đổi tệp DWG sang PDF tuân thủ bằng Aspose.CAD cho .NET. Aspose.CAD là một API .NET mạnh mẽ cho phép các nhà phát triển làm việc với các định dạng tệp CAD một cách dễ dàng. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn quy trình chuyển đổi tệp DWG sang PDF tuân thủ bằng các ví dụ và giải thích chi tiết.
@@ -113,3 +119,9 @@ Câu trả lời 2: Có, Aspose.CAD tương thích với cả .NET Framework và
 ### Câu hỏi 5: Tôi có thể nhận hỗ trợ cho Aspose.CAD ở đâu?
 
 A5: Tham quan[Diễn đàn Aspose.CAD](https://forum.aspose.com/c/cad/19) cho bất kỳ truy vấn liên quan đến hỗ trợ.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Προσθήκη υδατογραφημάτων σε σχέδια CAD - �
 linktitle: Προσθέστε υδατογράφημα
 second_title: Aspose.CAD Java API
 description: Βελτιώστε τα σχέδιά σας CAD με εξατομικευμένα υδατογραφήματα χρησιμοποιώντας το Aspose.CAD για Java. Ακολουθήστε τον βήμα προς βήμα οδηγό μας για απρόσκοπτη ενσωμάτωση.
-type: docs
 weight: 12
 url: /el/java/other-cad-operations/add-watermark/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Προσθήκη υδατογραφημάτων σε σχέδια CAD - Εκμάθηση Aspose.CAD για Java
+
 ## Εισαγωγή
 
 Καλώς ήρθατε σε αυτόν τον περιεκτικό οδηγό για την προσθήκη υδατογραφημάτων σε σχέδια CAD χρησιμοποιώντας το Aspose.CAD για Java. Σε αυτό το σεμινάριο, θα μάθετε πώς να ενσωματώνετε αποτελεσματικά τα υδατογραφήματα, ενισχύοντας τα έγγραφά σας CAD με εξατομικευμένα μηνύματα ή επωνυμία. Το Aspose.CAD για Java παρέχει ένα ισχυρό σύνολο δυνατοτήτων, καθιστώντας τη διαδικασία προσθήκης υδατογραφήματος απλή.
@@ -99,3 +105,9 @@ A2: Ναι, έχετε τον πλήρη έλεγχο της εμφάνισης 
 ### Ε5: Πού μπορώ να βρω την πλήρη τεκμηρίωση για το Aspose.CAD για Java;
 
  A5: Ανατρέξτε στο[τεκμηρίωση](https://reference.aspose.com/cad/java/) για αναλυτικές πληροφορίες.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

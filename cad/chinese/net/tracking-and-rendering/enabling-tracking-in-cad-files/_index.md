@@ -3,10 +3,16 @@ title: 在 CAD 文件中启用跟踪 - Aspose.CAD 教程
 linktitle: 在 CAD 文件中启用跟踪
 second_title: Aspose.CAD .NET - CAD 和 BIM 文件格式
 description: 使用 Aspose.CAD for .NET 掌握 CAD 文件跟踪。请按照我们的分步指南进行精确渲染和错误跟踪。现在下载！
-type: docs
 weight: 10
 url: /zh/net/tracking-and-rendering/enabling-tracking-in-cad-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 CAD 文件中启用跟踪 - Aspose.CAD 教程
+
 ## 介绍
 
 在 CAD（计算机辅助设计）领域，精度和跟踪至关重要。 Aspose.CAD for .NET 提供了一个强大的解决方案来启用 CAD 文件中的跟踪。本教程将指导您完成整个过程，确保您充分利用此功能的潜力。
@@ -103,3 +109,9 @@ A3：可能会出现缺少字体或不受支持的实体等问题。检查文档
 ### Q5: 我可以自定义跟踪错误消息吗？
 
 A5：当然。您可以修改代码以根据您的要求定制错误消息。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

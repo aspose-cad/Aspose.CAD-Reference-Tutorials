@@ -3,10 +3,16 @@ title: 向 CAD 绘图添加属性 - Aspose.CAD 教程
 linktitle: 向 CAD 工程图添加属性
 second_title: Aspose.CAD .NET - CAD 和 BIM 文件格式
 description: 使用 Aspose.CAD for .NET 通过属性增强 CAD 绘图。请按照我们的分步指南进行无缝集成。
-type: docs
 weight: 10
 url: /zh/net/attribute-and-property-management/adding-attributes-to-cad-drawings/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 向 CAD 绘图添加属性 - Aspose.CAD 教程
+
 ## 介绍
 
 在计算机辅助设计 (CAD) 领域，利用属性丰富图纸是详细文档和有效沟通的关键步骤。 Aspose.CAD for .NET 提供了一个强大的解决方案，可以将属性无缝集成到 CAD 绘图中。本教程将指导您完成使用 Aspose.CAD 向 CAD 绘图添加属性的过程，从而增强设计中嵌入的信息。
@@ -119,3 +125,9 @@ A1：Aspose.CAD支持各种CAD格式，包括DWG和DXF，确保与各种文件�
 ### Q5：如何获得Aspose.CAD的临时许可证？
 
  A5：有关临时许可选项，请访问[这里](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

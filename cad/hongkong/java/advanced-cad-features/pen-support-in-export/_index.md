@@ -3,10 +3,16 @@ title: 匯出中的筆支持
 linktitle: 匯出中的筆支持
 second_title: Aspose.CAD Java API
 description: 使用 Aspose.CAD for Java 掌握 CAD 匯出中的筆自訂。請按照我們的逐步指南進行無縫整合。
-type: docs
 weight: 13
 url: /zh-hant/java/advanced-cad-features/pen-support-in-export/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 匯出中的筆支持
+
 ## 介紹
 
 在不斷發展的 CAD（電腦輔助設計）轉換領域，Aspose.CAD for Java 成為一個強大的工具，提供了操作 CAD 檔案的廣泛功能。在其多功能功能中，匯出期間對筆自訂的支援非常突出，允許使用者自訂匯出影像的外觀。本教學將引導您完成在匯出功能中利用筆支援的過程，並專注於使用 Java 的實際實作。
@@ -112,3 +118,9 @@ A4：在光柵化選項中調整頁面寬度和高度，以控制匯出影像的
 ### 問題 5：我可以在哪裡找到其他支持或社區討論？
 
  A5：探索 Aspose.CAD 社群論壇：[這裡](https://forum.aspose.com/c/cad/19)以尋求支持和討論。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

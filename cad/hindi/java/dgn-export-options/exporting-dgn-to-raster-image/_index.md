@@ -3,10 +3,16 @@ title: Aspose.CAD ट्यूटोरियल के साथ जावा D
 linktitle: डीजीएन को ऑटोकैड फॉर्मेट में रैस्टर इमेज फॉर्मेट में निर्यात करना
 second_title: Aspose.CAD जावा एपीआई
 description: Aspose.CAD का उपयोग करके जावा में DGN फ़ाइलों को JPEG छवियों में निर्यात करना सीखें। यह चरण-दर-चरण ट्यूटोरियल आपको प्रक्रिया में सहजता से मार्गदर्शन करता है।
-type: docs
 weight: 13
 url: /hi/java/dgn-export-options/exporting-dgn-to-raster-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.CAD ट्यूटोरियल के साथ जावा DGN से JPEG रूपांतरण
+
 ## परिचय
 
 जावा के लिए Aspose.CAD का उपयोग करके डीजीएन (डिज़ाइन) फ़ाइलों को रैस्टर इमेज फॉर्मेट में निर्यात करने पर इस व्यापक ट्यूटोरियल में आपका स्वागत है। Aspose.CAD एक शक्तिशाली लाइब्रेरी है जो जावा डेवलपर्स को CAD फ़ाइलों के साथ निर्बाध रूप से काम करने में सक्षम बनाती है। इस ट्यूटोरियल में, हम आपको चरण-दर-चरण निर्देश और कोड उदाहरण प्रदान करते हुए डीजीएन फ़ाइलों को जेपीईजी छवियों में परिवर्तित करने की प्रक्रिया में मार्गदर्शन करेंगे।
@@ -91,3 +97,9 @@ A1: हां, Aspose.CAD विभिन्न CAD प्रारूपों 
 ### Q5: मैं जावा के लिए Aspose.CAD का लाइसेंस कहां से खरीद सकता हूं?
 
  A5: आप लाइसेंस खरीद सकते हैं[यहाँ](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Преобразование чертежей САПР
 linktitle: Преобразование чертежей САПР
 second_title: API Aspose.CAD Java
 description: Легко преобразуйте чертежи САПР с помощью Aspose.CAD для Java. Научитесь точно конвертировать, экспортировать и оптимизировать файлы САПР, используя наши пошаговые руководства.
-type: docs
 weight: 20
 url: /ru/java/cad-drawing-conversion/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Преобразование чертежей САПР
+
 
 ## Введение
 
@@ -50,3 +56,9 @@ url: /ru/java/cad-drawing-conversion/
 Изучите пошаговое руководство по экспорту определенных макетов DWG в PDF с помощью Aspose.CAD для Java. Оптимизируйте рабочий процесс САПР без особых усилий.
 ### [Преобразование формата DWT в формат DXF с помощью Aspose.CAD для Java](./convert-dwt-to-dxf/)
 Узнайте о плавном преобразовании DWT в DXF с помощью Aspose.CAD для Java. Следуйте нашему пошаговому руководству для эффективного манипулирования файлами САПР.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: 将 Aspose.CAD 中的字体替换为 .NET
 linktitle: 替换字体
 second_title: Aspose.CAD .NET - CAD 和 BIM 文件格式
 description: 学习轻松替换 Aspose.CAD for .NET 中的字体。请按照我们的分步指南在 CAD 绘图中进行高效的字体自定义。
-type: docs
 weight: 17
 url: /zh/net/cad-features-and-support/substituting-fonts/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 将 Aspose.CAD 中的字体替换为 .NET
+
 ## 介绍
 
 在使用 .NET 进行 CAD 开发领域，操作字体的能力是一项至关重要的技能。 Aspose.CAD for .NET 为此提供了一套强大的工具，允许开发人员无缝替换其 CAD 绘图中的字体。在本教程中，我们将逐步探索该过程，演示如何有效地实现字体替换。
@@ -109,3 +115,10 @@ A4：当然，您可以实施批处理来自动跨多个 CAD 图纸进行字体�
 
  A5：如需更多支持和社区讨论，请访问[Aspose.CAD论坛](https://forum.aspose.com/c/cad/19).
 
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

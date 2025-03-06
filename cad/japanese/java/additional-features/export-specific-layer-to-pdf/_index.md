@@ -3,10 +3,16 @@ title: Aspose.CAD for Java を使用して DXF 図面の特定のレイヤーを
 linktitle: Java を使用して DXF 図面の特定のレイヤーを PDF にエクスポート
 second_title: Aspose.CAD Java API
 description: Aspose.CAD for Java を使用して、特定のレイヤーを DXF 図面から PDF に簡単にエクスポートします。シームレスな統合については、このステップバイステップ ガイドに従ってください。
-type: docs
 weight: 18
 url: /ja/java/additional-features/export-specific-layer-to-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.CAD for Java を使用して DXF 図面の特定のレイヤーを PDF にエクスポート
+
 ## 導入
 
 Java 開発の分野では、Aspose.CAD はコンピュータ支援設計 (CAD) ファイルを操作するための強力なツールとして際立っています。多機能な機能の中でも、特定のレイヤーを DXF 図面から PDF ファイルにエクスポートする機能は貴重な機能です。このチュートリアルでは、Aspose.CAD for Java の可能性を最大限に活用するための段階的な手順を示し、プロセスをガイドします。
@@ -104,3 +110,9 @@ A4: はい、有効なライセンスを持っていることを確認するか�
 ### Q5: 追加のサポートや援助はどこに求めればよいですか?
 
 A5: にアクセスしてください。[Aspose.CAD フォーラム](https://forum.aspose.com/c/cad/19)コミュニティのサポートとディスカッションのために。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

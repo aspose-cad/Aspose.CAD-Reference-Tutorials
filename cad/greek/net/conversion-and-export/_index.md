@@ -3,10 +3,16 @@ title: Μετατροπή και εξαγωγή
 linktitle: Μετατροπή και εξαγωγή
 second_title: Aspose.CAD .NET - Μορφή αρχείου CAD και BIM
 description: Ξεκλειδώστε τον κόσμο της χειραγώγησης αρχείων CAD με το Aspose.CAD! Μάθετε να αποδίδετε ζωντανά χρώματα και να μετατρέπετε αρχεία DWG. Βουτήξτε σε μορφές DWT και DWG για ακριβή αποτελέσματα.
-type: docs
 weight: 25
 url: /el/net/conversion-and-export/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Μετατροπή και εξαγωγή
+
 
 
 ## Εισαγωγή
@@ -45,3 +51,9 @@ url: /el/net/conversion-and-export/
 Μετατροπή DWG σε PDF Συμμόρφωσης με το Aspose.CAD για .NET. Ακολουθήστε το σεμινάριο μας για καθοδήγηση βήμα προς βήμα.
 ### [Μετατροπή DWG σε μορφή DWF - Οδηγός Aspose.CAD](./converting-dwg-to-dwf/)
 Εξερευνήστε την απρόσκοπτη μετατροπή του DWG σε DWF χρησιμοποιώντας το Aspose.CAD για .NET. Ακολουθήστε τον βήμα προς βήμα οδηγό μας για μια εμπειρία χωρίς προβλήματα.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

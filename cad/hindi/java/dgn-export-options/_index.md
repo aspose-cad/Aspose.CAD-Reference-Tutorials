@@ -3,10 +3,16 @@ title: डीजीएन निर्यात ट्यूटोरियल
 linktitle: डीजीएन निर्यात ट्यूटोरियल
 second_title: Aspose.CAD जावा एपीआई
 description: हमारे DGN निर्यात ट्यूटोरियल के साथ जावा के लिए Aspose.CAD की शक्ति को अनलॉक करें। डीडब्ल्यूजी के हिस्से के रूप में डीजीएन को निर्यात करने से लेकर आसानी से रेखापुंज छवियां बनाने तक, कुशल सीएडी फ़ाइल हेरफेर सीखें।
-type: docs
 weight: 31
 url: /hi/java/dgn-export-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# डीजीएन निर्यात ट्यूटोरियल
+
 ## परिचय
 
 जावा के लिए Aspose.CAD, CAD उत्साही लोगों के लिए संभावनाओं की दुनिया खोलता है, जो निर्बाध DGN निर्यात क्षमताओं की पेशकश करता है। इस ट्यूटोरियल श्रृंखला में, हम आपके जावा अनुप्रयोगों की सीएडी फ़ाइल हेरफेर क्षमता को बढ़ाने के लिए आवश्यक तकनीकों के माध्यम से आपका मार्गदर्शन करेंगे।
@@ -39,3 +45,9 @@ url: /hi/java/dgn-export-options/
 जावा के लिए Aspose.CAD का उपयोग करके DGN फ़ाइलों को पीडीएफ में ऑटोकैड प्रारूप में निर्यात करने पर चरण-दर-चरण मार्गदर्शिका देखें। अपने जावा एप्लिकेशन की CAD हैंडलिंग क्षमताओं को सहजता से बढ़ाएं।
 ### [डीजीएन को ऑटोकैड फॉर्मेट में रैस्टर इमेज फॉर्मेट में निर्यात करना](./exporting-dgn-to-raster-image/)
 Aspose.CAD का उपयोग करके जावा में DGN फ़ाइलों को JPEG छवियों में निर्यात करना सीखें। यह चरण-दर-चरण ट्यूटोरियल आपको प्रक्रिया में सहजता से मार्गदर्शन करता है।
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

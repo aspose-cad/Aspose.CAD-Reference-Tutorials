@@ -3,10 +3,16 @@ title: Converter layout CAD em formato de imagem raster usando Aspose.CAD para J
 linktitle: Converter layout CAD em formato de imagem raster
 second_title: API Java Aspose.CAD
 description: Converta facilmente layouts CAD em imagens raster usando Aspose.CAD para Java. Visualização de alta qualidade para colaboração aprimorada.
-type: docs
 weight: 12
 url: /pt/java/cad-drawing-conversion/convert-cad-layout-to-raster-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Converter layout CAD em formato de imagem raster usando Aspose.CAD para Java
+
 ## Introdução
 
 No mundo dinâmico do design auxiliado por computador (CAD), a capacidade de converter perfeitamente layouts CAD em formatos de imagem raster é uma habilidade valiosa. Aspose.CAD for Java surge como uma solução robusta para realizar esta tarefa de forma eficiente. Neste tutorial, iremos guiá-lo passo a passo pelo processo de conversão de um layout CAD em uma imagem raster, usando Aspose.CAD para Java.
@@ -106,3 +112,9 @@ A4: Sim, Aspose.CAD suporta vários formatos de saída, como PNG, JPG e PDF.
 ### Q5: Onde posso procurar assistência ou compartilhar minhas experiências com Aspose.CAD?
 
 A5: Visite o[Fórum Aspose.CAD](https://forum.aspose.com/c/cad/19) para se envolver com a comunidade e obter apoio.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

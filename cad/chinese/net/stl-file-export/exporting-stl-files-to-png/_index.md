@@ -3,10 +3,16 @@ title: 使用 Aspose.CAD for .NET 轻松实现 STL 到 PNG 的转换
 linktitle: 将 STL 文件导出为 PNG
 second_title: Aspose.CAD .NET - CAD 和 BIM 文件格式
 description: 使用 Aspose.CAD for .NET 轻松将 STL 文件转换为 PNG。请按照我们的分步指南进行无缝集成。现在下载！
-type: docs
 weight: 10
 url: /zh/net/stl-file-export/exporting-stl-files-to-png/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.CAD for .NET 轻松实现 STL 到 PNG 的转换
+
 ## 介绍
 在计算机辅助设计 (CAD) 的动态世界中，高效的文件转换至关重要。 Aspose.CAD for .NET 是一个功能强大的工具包，它简化了将 STL 文件导出为 PNG 的过程，为开发人员提供了他们所需的灵活性和功能。本教程将逐步指导您完成整个过程，确保使用 Aspose.CAD 从 STL 顺利过渡到 PNG。
 ## 先决条件
@@ -71,3 +77,9 @@ Aspose.CAD for .NET 简化了将 STL 文件转换为 PNG 的复杂任务，为�
 是的，Aspose.CAD 支持 STL 之外的各种 CAD 格式。请参阅[文档](https://reference.aspose.com/cad/net/)以获得完整的列表。
 ### 问：我可以批量处理多个STL文件吗？
 当然！根据提供的步骤实现循环来批量处理多个 STL 文件。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

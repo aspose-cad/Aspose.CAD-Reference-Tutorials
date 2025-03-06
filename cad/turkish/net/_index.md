@@ -1,12 +1,17 @@
 ---
 title: Aspose.CAD for .NET ile ilgili Kapsamlı Eğitimler ve Örnekler
 linktitle: .NET için Aspose.CAD Eğitimleri
-type: docs
 weight: 10
 url: /tr/net/
 description: Kapsamlı eğitimlerle Aspose.CAD for .NET'te ustalaşın. CAD becerilerinizi lisanslamadan gelişmiş dışa aktarma tekniklerine kadar yükseltin. Gizli özelliklerin kilidini zahmetsizce açın.
-is_root: true
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.CAD for .NET ile ilgili Kapsamlı Eğitimler ve Örnekler
+
 
 ## giriiş
 
@@ -61,3 +66,9 @@ Aspose.CAD for .NET ile CAD uygulamalarınızı optimize edin! OBJ formatını s
 Aspose.CAD for .NET ile PLT dosyalarını zahmetsizce görüntülere ve PDF'lere dönüştürün. CAD dosyası manipülasyonuna yönelik kusursuz entegrasyonu ve esnek seçenekleri keşfedin.
 ### [STL Dosyasını Dışa Aktarma](./stl-file-export/)
 Aspose.CAD for .NET ile STL dosyalarını zahmetsizce PNG'ye aktarın. Adım adım kılavuzumuz kusursuz entegrasyon sağlar. Aspose.CAD For .NET eğitimlerini kullanarak öğrenin.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

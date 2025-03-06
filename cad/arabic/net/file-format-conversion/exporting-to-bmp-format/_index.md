@@ -3,10 +3,16 @@ title: التصدير إلى تنسيق BMP - البرنامج التعليمي 
 linktitle: التصدير إلى تنسيق BMP
 second_title: Aspose.CAD .NET - تنسيق ملف CAD وBIM
 description: استكشف العالم السلس لتصدير الصور ثلاثية الأبعاد إلى BMP باستخدام Aspose.CAD لـ .NET. اتبع البرنامج التعليمي لدينا لتجربة خالية من المتاعب.
-type: docs
 weight: 11
 url: /ar/net/file-format-conversion/exporting-to-bmp-format/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# التصدير إلى تنسيق BMP - البرنامج التعليمي Aspose.CAD
+
 ## مقدمة
 
 في العالم الديناميكي لتطوير البرمجيات، يبرز Aspose.CAD for .NET كأداة قوية للتعامل مع ملفات التصميم بمساعدة الكمبيوتر (CAD). إذا كنت تتطلع إلى تصدير صور CAD إلى تنسيق BMP المستخدم على نطاق واسع، فإن هذا البرنامج التعليمي هو دليلك الأمثل. في هذه الإرشادات التفصيلية خطوة بخطوة، سوف نستكشف عملية تصدير الصور ثلاثية الأبعاد إلى BMP باستخدام Aspose.CAD for .NET. دعونا الغوص في!
@@ -94,3 +100,10 @@ image.Save(outPath, bmpOptions);
 ### س5: هل يمكنني شراء Aspose.CAD لـ .NET؟
 
  ج5: نعم، يمكنك شراء Aspose.CAD[هنا](https://purchase.aspose.com/buy) لإطلاق العنان لإمكاناته الكاملة لمشاريعك.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

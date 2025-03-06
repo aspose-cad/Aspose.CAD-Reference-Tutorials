@@ -3,10 +3,16 @@ title: Bố cục và phân tách CAD
 linktitle: Bố cục và phân tách CAD
 second_title: Aspose.CAD .NET - Định dạng tệp CAD và BIM
 description: Khai phá tiềm năng của bố cục CAD với Aspose.CAD cho .NET! Dễ dàng chuyển đổi thiết kế sang PDF bằng hướng dẫn của chúng tôi. Làm chủ việc phân tách các đối tượng chèn một cách dễ dàng.
-type: docs
 weight: 34
 url: /vi/net/cad-layouts-and-decomposition/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Bố cục và phân tách CAD
+
 
 
 
@@ -59,3 +65,9 @@ Tóm lại, Aspose.CAD cho .NET đóng vai trò là người thay đổi cuộc 
 Chuyển đổi bố cục CAD sang PDF dễ dàng với Aspose.CAD cho .NET. Hãy làm theo hướng dẫn từng bước của chúng tôi để tích hợp liền mạch.
 ### [Phân tách các đối tượng chèn CAD - Hướng dẫn Aspose.CAD](./decomposing-cad-insert-objects/)
 Khám phá sức mạnh của Aspose.CAD cho .NET với hướng dẫn từng bước của chúng tôi về cách phân tách các đối tượng chèn CAD.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

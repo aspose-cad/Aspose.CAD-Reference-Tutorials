@@ -3,10 +3,16 @@ title: Ekspor Gambar 3D
 linktitle: Ekspor Gambar 3D
 second_title: Aspose.CAD .NET - Format File CAD dan BIM
 description: Ekspor gambar CAD 3D ke PDF dengan mudah menggunakan Aspose.CAD untuk .NET. Ikuti tutorial kami untuk konversi PDF yang lancar. Pelajari teknik ekspor gambar 3D yang efisien.
-type: docs
 weight: 35
 url: /id/net/3d-image-export/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ekspor Gambar 3D
+
 
 ## Perkenalan
 
@@ -34,3 +40,9 @@ Kesimpulannya, Tutorial Ekspor Gambar 3D dengan Aspose.CAD untuk .NET memberikan
 ## Tutorial Ekspor Gambar 3D
 ### [Mengekspor Gambar 3D ke PDF - Tutorial Aspose.CAD](./exporting-3d-images-to-pdf/)
 Konversi gambar CAD 3D ke PDF dengan mudah menggunakan Aspose.CAD untuk .NET. Ikuti tutorial langkah demi langkah kami untuk ekspor PDF yang lancar.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

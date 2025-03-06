@@ -3,10 +3,16 @@ title: 3D Görüntüleri PDF'ye Aktarma - Aspose.CAD Eğitimi
 linktitle: 3D Görüntüleri PDF'ye Aktarma
 second_title: Aspose.CAD .NET - CAD ve BIM Dosya Formatı
 description: Aspose.CAD for .NET ile 3D CAD görüntülerini zahmetsizce PDF'ye dönüştürün. Kusursuz PDF dışa aktarımı için adım adım eğitimimizi izleyin.
-type: docs
 weight: 10
 url: /tr/net/3d-image-export/exporting-3d-images-to-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 3D Görüntüleri PDF'ye Aktarma - Aspose.CAD Eğitimi
+
 ## giriiş
 
 Aspose.CAD for .NET'i kullanarak 3D görüntüleri sorunsuz bir şekilde PDF'ye aktarmayı mı istiyorsunuz? Bu adım adım eğitim, süreç boyunca size rehberlik edecek ve 3D görüntülerinizi zahmetsizce PDF formatına dönüştürmek için Aspose.CAD'in gücünden yararlanmanızı sağlayacaktır.
@@ -102,3 +108,9 @@ A2: Kesinlikle. Eğitimde, gereksinimlerinize göre sayfa genişliğini ve yüks
 ### S5: Aspose.CAD'in ücretsiz deneme sürümü mevcut mu?
 
  Cevap5: Evet, Aspose.CAD'in özelliklerini şu adrese erişerek keşfedebilirsiniz:[ücretsiz deneme](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

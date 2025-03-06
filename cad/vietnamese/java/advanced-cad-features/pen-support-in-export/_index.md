@@ -3,10 +3,16 @@ title: Hỗ trợ bút trong xuất khẩu
 linktitle: Hỗ trợ bút trong xuất khẩu
 second_title: API Java Aspose.CAD
 description: Tùy chỉnh bút thành thạo trong xuất CAD với Aspose.CAD cho Java. Hãy làm theo hướng dẫn từng bước của chúng tôi để tích hợp liền mạch.
-type: docs
 weight: 13
 url: /vi/java/advanced-cad-features/pen-support-in-export/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Hỗ trợ bút trong xuất khẩu
+
 ## Giới thiệu
 
 Trong bối cảnh chuyển đổi CAD (Thiết kế hỗ trợ máy tính) ngày càng phát triển, Aspose.CAD cho Java nổi lên như một công cụ mạnh mẽ, cung cấp khả năng mở rộng để thao tác các tệp CAD. Trong số các tính năng linh hoạt của nó, nổi bật là hỗ trợ tùy chỉnh bút trong quá trình xuất, cho phép người dùng điều chỉnh giao diện của hình ảnh được xuất. Hướng dẫn này sẽ hướng dẫn bạn quy trình tận dụng hỗ trợ bút trong chức năng xuất, tập trung vào việc triển khai thực tế bằng cách sử dụng Java.
@@ -112,3 +118,9 @@ A4: Điều chỉnh chiều rộng và chiều cao của trang trong tùy chọn
 ### Câu hỏi 5: Tôi có thể tìm thêm hỗ trợ hoặc thảo luận cộng đồng ở đâu?
 
  A5: Khám phá diễn đàn cộng đồng Aspose.CAD tại[đây](https://forum.aspose.com/c/cad/19) để được hỗ trợ và thảo luận.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Suivi et rendu
 linktitle: Suivi et rendu
 second_title: Aspose.CAD .NET - Format de fichier CAO et BIM
 description: Libérez la puissance d’Aspose.CAD pour .NET avec nos didacticiels. Apprenez à activer le suivi dans les fichiers CAO et à restituer de manière transparente les fichiers DXF au format PDF.
-type: docs
 weight: 31
 url: /fr/net/tracking-and-rendering/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Suivi et rendu
+
 
 ## Introduction
 
@@ -30,3 +36,9 @@ Embarquez pour une aventure d'apprentissage avec notre liste de didacticiels Asp
 Maîtrisez le suivi des fichiers CAO avec Aspose.CAD pour .NET. Suivez notre guide étape par étape pour un rendu précis et un suivi des erreurs. Télécharger maintenant!
 ### [Rendu de fichiers DXF au format PDF - Guide Aspose.CAD](./rendering-dxf-files-as-pdf/)
 Explorez le guide ultime sur le rendu des fichiers DXF au format PDF à l'aide d'Aspose.CAD pour .NET. Convertissez sans effort des fichiers CAO avec notre didacticiel étape par étape.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

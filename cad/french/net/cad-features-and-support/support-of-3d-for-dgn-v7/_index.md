@@ -3,10 +3,16 @@ title: Prise en charge de la 3D pour DGN V7 dans Aspose.CAD pour .NET
 linktitle: Prise en charge de la 3D pour DGN V7
 second_title: Aspose.CAD .NET - Format de fichier CAO et BIM
 description: Libérez la puissance de la prise en charge 3D pour DGN V7 dans Aspose.CAD pour .NET. Suivez notre tutoriel étape par étape.
-type: docs
 weight: 20
 url: /fr/net/cad-features-and-support/support-of-3d-for-dgn-v7/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Prise en charge de la 3D pour DGN V7 dans Aspose.CAD pour .NET
+
 ## Introduction
 
 Bienvenue dans notre didacticiel complet sur l'exploitation de la prise en charge de la 3D pour DGN V7 dans Aspose.CAD pour .NET ! Aspose.CAD est une bibliothèque puissante qui permet aux développeurs de travailler de manière transparente avec des fichiers CAO dans leurs applications .NET. Dans ce didacticiel, nous explorerons les étapes d'utilisation de la prise en charge 3D pour DGN V7, vous fournissant ainsi les connaissances nécessaires pour améliorer vos projets liés à la CAO.
@@ -111,3 +117,9 @@ A4 : Certainement ! Découvrez l'essai gratuit[ici](https://releases.aspose.com/
 ### Q5 : Où puis-je trouver une assistance communautaire pour Aspose.CAD for .NET ?
 
  A5 : Visitez le forum de la communauté[ici](https://forum.aspose.com/c/cad/19).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

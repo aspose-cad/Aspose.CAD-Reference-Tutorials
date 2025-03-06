@@ -3,10 +3,16 @@ title: Licensing and Configuration
 linktitle: Licensing and Configuration
 second_title: Aspose.CAD Java API
 description: Unlock the power of Aspose.CAD for Java with our metered licensing tutorial. Optimize CAD processing efficiently and cost-effectively for enhanced productivity.
-type: docs
 weight: 25
 url: /java/licensing-and-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Licensing and Configuration
+
 ## Introduction
 
 Embarking on the journey of mastering metered licensing in Aspose.CAD for Java opens doors to unparalleled efficiency and cost-effectiveness in CAD processing. In this comprehensive guide, we delve into the intricacies, empowering you to optimize your workflow seamlessly.
@@ -25,3 +31,9 @@ In conclusion, metered licensing in Aspose.CAD for Java is not just about unders
 ## Licensing and Configuration Tutorials
 ### [Metered Licensing in Aspose.CAD](./metered-licensing-in-aspose-cad/)
 Learn how to master metered licensing in Aspose.CAD for Java with this comprehensive guide. Optimize your CAD processing for efficiency and cost-effectiveness.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

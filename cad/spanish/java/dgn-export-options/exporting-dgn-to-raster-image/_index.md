@@ -3,10 +3,16 @@ title: Conversión de Java DGN a JPEG con el tutorial Aspose.CAD
 linktitle: Exportación de DGN en formato AutoCAD a formato de imagen rasterizada
 second_title: API de Java Aspose.CAD
 description: Aprenda a exportar archivos DGN a imágenes JPEG en Java usando Aspose.CAD. Este tutorial paso a paso lo guiará a través del proceso sin esfuerzo.
-type: docs
 weight: 13
 url: /es/java/dgn-export-options/exporting-dgn-to-raster-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Conversión de Java DGN a JPEG con el tutorial Aspose.CAD
+
 ## Introducción
 
 Bienvenido a este completo tutorial sobre cómo exportar archivos DGN (diseño) a formato de imagen rasterizada utilizando Aspose.CAD para Java. Aspose.CAD es una potente biblioteca que permite a los desarrolladores de Java trabajar con archivos CAD sin problemas. En este tutorial, lo guiaremos a través del proceso de conversión de archivos DGN a imágenes JPEG, brindándole instrucciones paso a paso y ejemplos de código.
@@ -91,3 +97,9 @@ R1: Sí, Aspose.CAD admite varios formatos CAD, lo que proporciona una solución
 ### P5: ¿Dónde puedo comprar una licencia de Aspose.CAD para Java?
 
  R5: Puedes comprar una licencia[aquí](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

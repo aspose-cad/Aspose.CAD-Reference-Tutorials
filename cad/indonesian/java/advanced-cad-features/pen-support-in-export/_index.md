@@ -3,10 +3,16 @@ title: Dukungan Pena dalam Ekspor
 linktitle: Dukungan Pena dalam Ekspor
 second_title: Aspose.CAD Java API
 description: Kustomisasi pena master dalam ekspor CAD dengan Aspose.CAD untuk Java. Ikuti panduan langkah demi langkah kami untuk integrasi yang lancar.
-type: docs
 weight: 13
 url: /id/java/advanced-cad-features/pen-support-in-export/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Dukungan Pena dalam Ekspor
+
 ## Perkenalan
 
 Dalam lanskap konversi CAD (Computer-Aided Design) yang terus berkembang, Aspose.CAD untuk Java muncul sebagai alat yang ampuh, menawarkan kemampuan ekstensif untuk memanipulasi file CAD. Di antara fitur-fitur serbagunanya, dukungan untuk penyesuaian pena selama ekspor menonjol, memungkinkan pengguna menyesuaikan tampilan gambar yang diekspor. Tutorial ini akan memandu Anda melalui proses memanfaatkan dukungan pena dalam fungsi ekspor, dengan fokus pada implementasi praktis menggunakan Java.
@@ -112,3 +118,9 @@ A4: Sesuaikan lebar dan tinggi halaman dalam opsi rasterisasi untuk mengontrol d
 ### Q5: Di mana saya bisa mendapatkan dukungan tambahan atau diskusi komunitas?
 
  A5: Jelajahi forum komunitas Aspose.CAD di[Di Sini](https://forum.aspose.com/c/cad/19) untuk dukungan dan diskusi.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

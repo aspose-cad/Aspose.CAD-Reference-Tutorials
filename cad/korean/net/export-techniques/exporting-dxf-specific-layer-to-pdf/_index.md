@@ -3,10 +3,16 @@ title: DXF 특정 레이어를 PDF로 내보내기 - Aspose.CAD Tutorial
 linktitle: DXF 특정 레이어를 PDF로 내보내기
 second_title: Aspose.CAD .NET - CAD 및 BIM 파일 형식
 description: .NET용 Aspose.CAD를 사용하여 DXF 파일의 특정 레이어를 PDF로 내보내는 방법을 알아보세요. 원활한 통합을 위해 이 단계별 가이드를 따르세요.
-type: docs
 weight: 10
 url: /ko/net/export-techniques/exporting-dxf-specific-layer-to-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# DXF 특정 레이어를 PDF로 내보내기 - Aspose.CAD Tutorial
+
 ## 소개
 
 .NET용 CAD 개발 영역에서 Aspose.CAD는 개발자가 CAD 파일을 효율적으로 조작할 수 있도록 지원하는 강력한 라이브러리로 돋보입니다. 주목할만한 기능 중 하나는 DXF 파일의 특정 레이어를 PDF 형식으로 내보내는 기능입니다. 이 튜토리얼은 프로세스를 단계별로 안내하고 이 특정 작업에 Aspose.CAD의 기능을 활용하는 방법을 보여줍니다.
@@ -101,3 +107,10 @@ A4: 예, Aspose.CAD는 다양한 내보내기 형식을 지원하여 개발자�
 ### Q5: PDF 출력을 추가로 사용자 정의할 수 있습니까?
 
 A5: 물론이죠. 추가 옵션 및 구성에 대해서는 Aspose.CAD 문서를 살펴보세요.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

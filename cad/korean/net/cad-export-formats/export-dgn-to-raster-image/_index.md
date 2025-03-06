@@ -3,10 +3,16 @@ title: .NET용 Aspose.CAD에서 DGN을 래스터 이미지로 내보내기
 linktitle: DGN을 래스터 이미지로 내보내기
 second_title: Aspose.CAD .NET - CAD 및 BIM 파일 형식
 description: .NET용 Aspose.CAD를 사용하여 DGN을 래스터 이미지로 손쉽게 변환하세요. 단계별 가이드를 살펴보고 CAD 파일 조작에서 .NET의 강력한 기능을 활용해 보세요.
-type: docs
 weight: 13
 url: /ko/net/cad-export-formats/export-dgn-to-raster-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# .NET용 Aspose.CAD에서 DGN을 래스터 이미지로 내보내기
+
 ## 소개
 
 .NET 개발의 동적 영역에서 Aspose.CAD는 CAD(Computer-Aided Design) 파일을 처리하기 위한 강력한 도구로 등장합니다. 이 튜토리얼에서는 .NET용 Aspose.CAD를 사용하여 DGN 파일을 래스터 이미지로 내보내는 과정을 자세히 설명합니다. DGN 파일을 시각적으로 매력적인 래스터 이미지로 원활하게 변환하고 싶다면 잘 찾아오셨습니다.
@@ -102,3 +108,9 @@ A2: 잠재적인 문제를 해결하려면 제공된 코드에 설명된 대로 
 ### Q5: .NET용 Aspose.CAD의 임시 라이선스를 어떻게 얻나요?
 
  A5: 방문[이 링크](https://purchase.aspose.com/temporary-license/)귀하의 개발 요구에 맞는 임시 라이센스를 취득하십시오.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

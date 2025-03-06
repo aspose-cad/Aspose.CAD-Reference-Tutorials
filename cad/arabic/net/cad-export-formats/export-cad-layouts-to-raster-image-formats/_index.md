@@ -3,10 +3,16 @@ title: تصدير تخطيطات CAD إلى تنسيقات الصور النقط
 linktitle: تصدير تخطيطات CAD إلى تنسيقات الصور النقطية
 second_title: Aspose.CAD .NET - تنسيق ملف CAD وBIM
 description: تعرف على كيفية تصدير تخطيطات CAD إلى صور نقطية باستخدام Aspose.CAD لـ .NET. اتبع دليلنا خطوة بخطوة للتحويل السلس.
-type: docs
 weight: 10
 url: /ar/net/cad-export-formats/export-cad-layouts-to-raster-image-formats/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تصدير تخطيطات CAD إلى تنسيقات الصور النقطية في Aspose.CAD لـ .NET
+
 ## مقدمة
 
 هل تتطلع إلى تحويل تخطيطات CAD بكفاءة إلى تنسيقات صور نقطية باستخدام Aspose.CAD لـ .NET؟ سيرشدك هذا الدليل خطوة بخطوة خلال العملية، ويقدم لك تعليمات مفصلة ومقتطفات من التعليمات البرمجية لتسهيل المهمة. سواء كنت مطورًا متمرسًا أو وافدًا جديدًا إلى Aspose.CAD، فإن هذا البرنامج التعليمي يلبي جميع مستويات الخبرة.
@@ -112,3 +118,9 @@ ConvertAllLayersToRasterImageFormats();
 ### س5: أين يمكنني العثور على الوثائق؟
 
  ج5: ارجع إلى الوثائق التفصيلية[هنا](https://reference.aspose.com/cad/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

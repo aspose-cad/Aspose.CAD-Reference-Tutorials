@@ -1,12 +1,17 @@
 ---
 title: Комплексные руководства и примеры Aspose.CAD для .NET
 linktitle: Учебные пособия по Aspose.CAD для .NET
-type: docs
 weight: 10
 url: /ru/net/
 description: Освойте Aspose.CAD для .NET с помощью подробных учебных пособий. Повысьте свои навыки САПР от лицензирования до передовых методов экспорта. Разблокируйте скрытые функции без особых усилий.
-is_root: true
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Комплексные руководства и примеры Aspose.CAD для .NET
+
 
 ## Введение
 
@@ -61,3 +66,9 @@ is_root: true
 Легко конвертируйте файлы PLT в изображения и PDF-файлы с помощью Aspose.CAD для .NET. Ознакомьтесь с бесшовной интеграцией и гибкими возможностями манипулирования файлами САПР.
 ### [Экспорт файлов STL](./stl-file-export/)
 Легко экспортируйте файлы STL в PNG с помощью Aspose.CAD для .NET. Наше пошаговое руководство обеспечивает плавную интеграцию. Изучите учебные пособия по Aspose.CAD For .NET.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

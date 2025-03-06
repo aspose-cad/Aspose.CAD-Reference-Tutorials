@@ -3,10 +3,16 @@ title: Xuất sang PDF bằng Aspose.CAD cho Java
 linktitle: Xuất sang PDF
 second_title: API Java Aspose.CAD
 description: Tìm hiểu cách xuất tệp CAD sang PDF dễ dàng với Aspose.CAD cho Java. Hãy làm theo hướng dẫn từng bước của chúng tôi để tích hợp liền mạch.
-type: docs
 weight: 13
 url: /vi/java/cad-export-options/export-to-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Xuất sang PDF bằng Aspose.CAD cho Java
+
 ## Giới thiệu
 
 Chào mừng bạn đến với hướng dẫn toàn diện này về cách xuất tệp CAD sang PDF bằng Aspose.CAD cho Java. Nếu bạn đang muốn chuyển đổi liền mạch các bản vẽ CAD của mình sang định dạng PDF được hỗ trợ rộng rãi thì bạn đã đến đúng nơi. Trong hướng dẫn từng bước này, chúng tôi sẽ chia nhỏ quy trình, đảm bảo bạn hiểu từng bước để xuất PDF thành công.
@@ -95,3 +101,9 @@ A2: Chắc chắn rồi. Hướng dẫn này cung cấp cái nhìn thoáng qua v
 ### Câu hỏi 5: Làm cách nào tôi có thể nhận được giấy phép tạm thời cho Aspose.CAD?
 
  Câu trả lời 5: Để được cấp phép tạm thời, hãy truy cập[liên kết này](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

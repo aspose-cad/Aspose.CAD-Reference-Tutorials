@@ -3,10 +3,16 @@ title: DWG 파일의 언더레이 플래그 탐색 - Aspose.CAD Tutorial
 linktitle: DWG 파일의 언더레이 플래그 탐색
 second_title: Aspose.CAD .NET - CAD 및 BIM 파일 형식
 description: DWG 파일 언더레이 플래그를 탐색하면서 .NET용 Aspose.CAD의 강력한 기능을 활용해 보세요. 단계별 가이드를 따르세요.
-type: docs
 weight: 13
 url: /ko/net/dwg-file-manipulation/exploring-underlay-flags-of-dwg/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# DWG 파일의 언더레이 플래그 탐색 - Aspose.CAD Tutorial
+
 ## 소개
 
 CAD 파일, 특히 DWG 파일의 복잡한 세계를 탐구하고 언더레이 플래그의 신비를 풀고 싶다면 바로 이곳에 오셨습니다. 이 튜토리얼은 강력한 .NET용 Aspose.CAD 라이브러리를 사용하여 DWG 파일의 언더레이 플래그를 탐색하는 과정을 안내합니다.
@@ -114,3 +120,10 @@ A4: 도서관 구입[여기](https://purchase.aspose.com/buy).
 ### Q5: 무료 평가판이 제공됩니까?
 
  A5: 예, 무료 평가판에 액세스할 수 있습니다.[여기](https://releases.aspose.com/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

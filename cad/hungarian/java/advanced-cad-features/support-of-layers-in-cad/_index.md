@@ -3,10 +3,16 @@ title: Rétegek támogatása Aspose.CAD-vel Java nyelven
 linktitle: Rétegek támogatása CAD-ban
 second_title: Aspose.CAD Java API
 description: Master réteg támogatása a Java CAD fejlesztésben az Aspose.CAD segítségével. Könnyedén rendezheti és exportálhatja a rajzokat.
-type: docs
 weight: 18
 url: /hu/java/advanced-cad-features/support-of-layers-in-cad/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Rétegek támogatása Aspose.CAD-vel Java nyelven
+
 ## Bevezetés
 
 Használja ki az Aspose.CAD teljes potenciálját a Java nyelven a rétegek támogatásának elsajátításával. A rétegek döntő szerepet játszanak a CAD-rajzokban, lehetővé téve a grafikus elemek hatékony szervezését és kezelését. Ebben az átfogó oktatóanyagban elmélyülünk az Aspose.CAD használatával nyújtott rétegtámogatás bonyolultságában, és lépésről lépésre nyújtunk útmutatót ennek a hatékony funkciónak a kihasználásához.
@@ -118,3 +124,9 @@ Gratulálunk! Elsajátította a rétegtámogatás művészetét a Java Aspose.CA
 ### 5. kérdés: Hol kérhetek segítséget vagy oszthatok meg tapasztalataimat az Aspose.CAD-vel kapcsolatban?
 
 5. válasz: Csatlakozzon az Aspose.CAD közösséghez a[fórum](https://forum.aspose.com/c/cad/19) támogatásért és együttműködési megbeszélésekért.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

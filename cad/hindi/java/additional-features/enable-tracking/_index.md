@@ -3,10 +3,16 @@ title: जावा में Aspose.CAD का उपयोग करके DWG
 linktitle: जावा का उपयोग करके DWG फ़ाइलों में ट्रैकिंग सक्षम करें
 second_title: Aspose.CAD जावा एपीआई
 description: Aspose.CAD का उपयोग करके जावा में DWG फ़ाइल ट्रैकिंग को सक्षम करने पर चरण-दर-चरण मार्गदर्शिका देखें, जिससे CAD परियोजनाओं में निर्बाध सहयोग सुनिश्चित हो सके।
-type: docs
 weight: 12
 url: /hi/java/additional-features/enable-tracking/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# जावा में Aspose.CAD का उपयोग करके DWG फ़ाइलों में ट्रैकिंग सक्षम करें
+
 ## परिचय
 
 कंप्यूटर-एडेड डिज़ाइन (CAD) के क्षेत्र में, Java के लिए Aspose.CAD एक शक्तिशाली उपकरण के रूप में सामने आता है जो डेवलपर्स को CAD फ़ाइलों में आसानी से हेरफेर करने और परिवर्तित करने का अधिकार देता है। यह ट्यूटोरियल जावा के लिए Aspose.CAD की एक विशिष्ट कार्यक्षमता पर प्रकाश डालता है - जो DWG फ़ाइलों में ट्रैकिंग को सक्षम करता है। निर्बाध संचार और कुशल वर्कफ़्लो सुनिश्चित करने, सहयोगी डिज़ाइन परियोजनाओं के लिए DWG फ़ाइलों में परिवर्तनों को ट्रैक करना महत्वपूर्ण है। इस गाइड में, हम Aspose.CAD की क्षमताओं का लाभ उठाते हुए, जावा का उपयोग करके ट्रैकिंग को सक्षम करने के चरणों के बारे में जानेंगे।
@@ -123,3 +129,9 @@ A1: Aspose.CAD मुख्य रूप से ट्रैकिंग के 
 ### Q5: मैं जावा के लिए Aspose.CAD के लिए अस्थायी लाइसेंस कैसे प्राप्त करूं?
 
  A5: यहां बताई गई प्रक्रिया का पालन करें[अस्थायी लाइसेंस](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

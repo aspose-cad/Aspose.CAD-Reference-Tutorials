@@ -3,10 +3,16 @@ title: Exploring Underlay Flags of DWG Files - Aspose.CAD Tutorial
 linktitle: Exploring Underlay Flags of DWG Files
 second_title: Aspose.CAD .NET - CAD and BIM File Format
 description: Unlock the power of Aspose.CAD for .NET in exploring DWG file underlay flags. Follow our step-by-step guide.
-type: docs
 weight: 13
 url: /net/dwg-file-manipulation/exploring-underlay-flags-of-dwg/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Exploring Underlay Flags of DWG Files - Aspose.CAD Tutorial
+
 ## Introduction
 
 If you're delving into the intricate world of CAD files, specifically DWG files, and you want to unlock the mysteries of underlay flags, you're in the right place. This tutorial will guide you through the process of exploring underlay flags in DWG files using the powerful Aspose.CAD for .NET library.
@@ -115,3 +121,10 @@ A4: Purchase the library [here](https://purchase.aspose.com/buy).
 
 A5: Yes, you can access the free trial [here](https://releases.aspose.com/).
 
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

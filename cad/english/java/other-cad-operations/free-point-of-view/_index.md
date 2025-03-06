@@ -3,10 +3,16 @@ title: Free Point of View Rendering with Aspose.CAD for Java
 linktitle: Free Point of View
 second_title: Aspose.CAD Java API
 description: Explore the power of Aspose.CAD for Java in this tutorial on achieving a free point of view rendering for CAD drawings. Unleash the potential of Aspose.CAD.
-type: docs
 weight: 14
 url: /java/other-cad-operations/free-point-of-view/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Free Point of View Rendering with Aspose.CAD for Java
+
 ## Introduction
 
 Welcome to the "Free Point of View - Aspose.CAD for Java Tutorial." In this comprehensive guide, we will walk you through the process of leveraging Aspose.CAD for Java to achieve a free point of view rendering for CAD drawings. Aspose.CAD is a powerful Java library that provides a wide range of features for working with Computer-Aided Design (CAD) files. The tutorial will cover the necessary prerequisites, importing essential packages, and breaking down each example into step-by-step guides.
@@ -116,3 +122,10 @@ A4: Visit the [Aspose.CAD forum](https://forum.aspose.com/c/cad/19) for communit
 ### Q5: How can I obtain a temporary license?
 
 A5: Obtain a temporary license [here](https://purchase.aspose.com/temporary-license/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

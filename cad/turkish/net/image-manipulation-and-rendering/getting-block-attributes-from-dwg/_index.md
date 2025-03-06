@@ -3,10 +3,16 @@ title: DWG Dosyalarından Blok Niteliklerini Alma - Aspose.CAD Eğitimi
 linktitle: DWG Dosyalarından Blok Niteliklerini Alma
 second_title: Aspose.CAD .NET - CAD ve BIM Dosya Formatı
 description: Aspose.CAD for .NET ile CAD dosyalarının potansiyelini ortaya çıkarın. Blok niteliklerini zahmetsizce çıkarın.
-type: docs
 weight: 10
 url: /tr/net/image-manipulation-and-rendering/getting-block-attributes-from-dwg/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# DWG Dosyalarından Blok Niteliklerini Alma - Aspose.CAD Eğitimi
+
 ## giriiş
 
 Bilgisayar Destekli Tasarımın (CAD) dinamik dünyasında, DWG dosyalarından değerli bilgilerin çıkarılması birçok uygulama için çok önemlidir. Aspose.CAD for .NET, CAD dosyalarıyla verimli bir şekilde çalışmak için güçlü bir çözüm sunar. Bu eğitimde, Aspose.CAD kullanarak DWG dosyalarından blok niteliklerini alma sürecini adım adım ele alacağız.
@@ -93,3 +99,9 @@ Cevap1: Evet, Aspose.CAD, DWG, DXF, DWT ve DGN dahil olmak üzere çeşitli CAD 
 ### S5: Aspose.CAD for .NET belgelerini nerede bulabilirim?
 
  A5: Kapsamlı bölüme bakın[dokümantasyon](https://reference.aspose.com/cad/net/) detaylı bilgi ve örnekler için.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

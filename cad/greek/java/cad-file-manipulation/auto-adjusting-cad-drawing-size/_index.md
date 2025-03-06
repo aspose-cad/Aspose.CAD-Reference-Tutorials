@@ -3,10 +3,16 @@ title: Αυτόματη προσαρμογή του μεγέθους σχεδί�
 linktitle: Αυτόματη προσαρμογή μεγέθους σχεδίασης CAD
 second_title: Aspose.CAD Java API
 description: Εξερευνήστε την απρόσκοπτη διαδικασία αυτόματης προσαρμογής των μεγεθών σχεδίασης CAD σε Java χρησιμοποιώντας το Aspose.CAD. Ακολουθήστε τον βήμα προς βήμα οδηγό μας για αποτελεσματική διαχείριση αρχείων CAD.
-type: docs
 weight: 13
 url: /el/java/cad-file-manipulation/auto-adjusting-cad-drawing-size/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Αυτόματη προσαρμογή του μεγέθους σχεδίασης CAD με χρήση του Aspose.CAD για Java
+
 ## Εισαγωγή
 
 Στον κόσμο του CAD (Computer-Aided Design), η προσαρμογή των μεγεθών σχεδίασης είναι μια κοινή απαίτηση και με το Aspose.CAD για Java, γίνεται μια απρόσκοπτη διαδικασία. Αυτή η ισχυρή βιβλιοθήκη παρέχει ολοκληρωμένα εργαλεία για το χειρισμό αρχείων CAD σε εφαρμογές Java. Σε αυτό το σεμινάριο, θα εξερευνήσουμε τη διαδικασία βήμα προς βήμα της αυτόματης προσαρμογής των μεγεθών σχεδίασης CAD χρησιμοποιώντας το Aspose.CAD.
@@ -107,3 +113,9 @@ A1: Ναι, το Aspose.CAD υποστηρίζει διάφορες μορφές
 ### Ε5: Υπάρχει διαθέσιμη δωρεάν δοκιμή για το Aspose.CAD για Java;
 
  A5: Ναι, μπορείτε να έχετε πρόσβαση στη δωρεάν δοκιμή[εδώ](https://releases.aspose.com/) να διερευνήσει τις δυνατότητες της βιβλιοθήκης.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

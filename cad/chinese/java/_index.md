@@ -1,12 +1,17 @@
 ---
 title: Aspose.CAD for Java 综合教程和示例
 linktitle: Aspose.CAD Java 教程
-type: docs
 weight: 10
 url: /zh/java/
 description: 使用 Aspose.CAD for Java 轻松提升 CAD 技能。探索有关绘图转换、文本注释、文件操作、高级功能、许可等的教程。
-is_root: true
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.CAD for Java 综合教程和示例
+
 
 ## 介绍
 
@@ -77,3 +82,9 @@ is_root: true
 通过我们的 DGN 导出教程释放 Aspose.CAD for Java 的强大功能。学习高效的 CAD 文件操作，从将 DGN 作为 DWG 的一部分导出到轻松创建光栅图像。
 ### [其他 CAD 操作](./other-cad-operations/)
 通过我们的教程释放 Aspose.CAD for Java 的潜力。从处理 DGN 元素到添加水印，轻松提高您的 CAD 技能。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

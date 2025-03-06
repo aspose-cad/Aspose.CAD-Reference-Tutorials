@@ -3,10 +3,16 @@ title: İzleme ve İşleme
 linktitle: İzleme ve İşleme
 second_title: Aspose.CAD .NET - CAD ve BIM Dosya Formatı
 description: Eğitimlerimizle Aspose.CAD for .NET'in gücünü ortaya çıkarın. CAD dosyalarında izlemeyi etkinleştirmeyi ve DXF dosyalarını sorunsuz bir şekilde PDF olarak oluşturmayı öğrenin.
-type: docs
 weight: 31
 url: /tr/net/tracking-and-rendering/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# İzleme ve İşleme
+
 
 ## giriiş
 
@@ -30,3 +36,9 @@ Aspose.CAD for .NET Eğitimleri Listemizle bir öğrenme macerasına atılın. C
 Aspose.CAD for .NET ile CAD dosyası takibinde ustalaşın. Hassas işleme ve hata takibi için adım adım kılavuzumuzu izleyin. Şimdi İndirin!
 ### [DXF Dosyalarını PDF Olarak İşleme - Aspose.CAD Guide](./rendering-dxf-files-as-pdf/)
 Aspose.CAD for .NET kullanarak DXF dosyalarını PDF olarak işlemeye ilişkin nihai kılavuzu keşfedin. Adım adım eğitimimizle CAD dosyalarını zahmetsizce dönüştürün.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

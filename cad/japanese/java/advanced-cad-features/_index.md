@@ -3,10 +3,16 @@ title: 高度な CAD 機能
 linktitle: 高度な CAD 機能
 second_title: Aspose.CAD Java API
 description: Aspose.CAD for Java チュートリアルを使用して CAD 開発を強化します。トラッキングの有効化、IGES 形式の統合、マスター メッシュのサポート、ペンのエクスポートのカスタマイズ、DWT ファイルの読み取りなどについて学びます。
-type: docs
 weight: 24
 url: /ja/java/advanced-cad-features/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 高度な CAD 機能
+
 
 ## 導入
 
@@ -66,3 +72,9 @@ Aspose.CAD for Java を使用して CAD ワークフローを強化します。�
 Aspose.CAD を使用した Java CAD 開発におけるマスター層のサポート。図面を簡単に整理してエクスポートできます。
 ### [Java で Aspose.CAD を使用して外部参照からブロック属性値を抽出する](./extract-block-attribute-value/)
 Aspose.CAD を使用して Java で DWG 外部参照からブロック属性値を抽出するチュートリアルをご覧ください。 CAD 開発ワークフローを簡単に強化します。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: जावा के लिए Aspose.CAD का उपयोग करक
 linktitle: पीडीएफ का अनुपालन करने के लिए डीडब्ल्यूजी
 second_title: Aspose.CAD जावा एपीआई
 description: जावा के लिए Aspose.CAD का उपयोग करके DWG चित्रों को आसानी से PDF/A1a और PDF/A1b अनुरूप फ़ाइलों में परिवर्तित करें। अपने वर्कफ़्लो को सटीकता और आसानी से सुव्यवस्थित करें।
-type: docs
 weight: 11
 url: /hi/java/cad-to-pdf-and-svg-export-options/dwg-to-compliance-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# जावा के लिए Aspose.CAD का उपयोग करके DWG पीडीएफ का अनुपालन करेगा
+
 ## परिचय
 
 डिजिटल डिज़ाइन की लगातार विकसित हो रही दुनिया में, निर्बाध सहयोग और मानकीकृत दस्तावेज़ीकरण के लिए DWG चित्रों को अनुपालन पीडीएफ प्रारूपों में परिवर्तित करने की आवश्यकता महत्वपूर्ण है। जावा के लिए Aspose.CAD एक शक्तिशाली उपकरण के रूप में उभरता है, जो इस प्रक्रिया में दक्षता और सटीकता प्रदान करता है। इस ट्यूटोरियल में, हम जानेंगे कि पीडीएफ/ए1ए और पीडीएफ/ए1बी मानकों का पालन सुनिश्चित करते हुए डीडब्ल्यूजी फाइलों को आसानी से अनुरूप पीडीएफ में बदलने के लिए जावा के लिए Aspose.CAD का उपयोग कैसे किया जाए।
@@ -111,3 +117,9 @@ objImage.save(dataDir + "Saved.pdf", pdfOptions);
 ### Q5: क्या मैं खरीदारी करने से पहले Aspose.CAD को निःशुल्क आज़मा सकता हूँ?
 
  ए5: निश्चित रूप से! से नि:शुल्क परीक्षण संस्करण डाउनलोड करें[यहाँ](https://releases.aspose.com/) निर्णय लेने से पहले क्षमताओं का पता लगाना।
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

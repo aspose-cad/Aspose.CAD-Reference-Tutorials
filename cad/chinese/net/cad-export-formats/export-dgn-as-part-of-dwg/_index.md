@@ -3,10 +3,16 @@ title: 在 Aspose.CAD for .NET 中将 DGN 导出为 DWG 的一部分
 linktitle: 将 DGN 导出为 DWG 的一部分
 second_title: Aspose.CAD .NET - CAD 和 BIM 文件格式
 description: 了解如何在 Aspose.CAD for .NET 中将 DGN 导出为 DWG 的一部分。请按照我们的分步指南进行无缝集成。
-type: docs
 weight: 11
 url: /zh/net/cad-export-formats/export-dgn-as-part-of-dwg/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.CAD for .NET 中将 DGN 导出为 DWG 的一部分
+
 ## 介绍
 
 在 .NET 开发领域，Aspose.CAD 作为处理计算机辅助设计 (CAD) 文件的强大库而脱颖而出。本教程将指导您完成使用 Aspose.CAD for .NET 将 DGN（设计）文件导出为 DWG（绘图）文件的一部分的过程。无论您是经验丰富的开发人员还是新手，本分步指南都将帮助您利用 Aspose.CAD 的功能高效地完成此特定任务。
@@ -123,3 +129,9 @@ A3：是的，您可以获得免费试用[这里](https://releases.aspose.com/).
 
 ### Q5：如果遇到问题，我可以到哪里寻求帮助？
  A5：您可以访问Aspose.CAD论坛[这里](https://forum.aspose.com/c/cad/19)为了支持。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: CAD 파일에서 추적 활성화 - Aspose.CAD 튜토리얼
 linktitle: CAD 파일에서 추적 활성화
 second_title: Aspose.CAD .NET - CAD 및 BIM 파일 형식
 description: .NET용 Aspose.CAD를 사용한 마스터 CAD 파일 추적. 정확한 렌더링 및 오류 추적을 위한 단계별 가이드를 따르세요. 지금 다운로드하세요!
-type: docs
 weight: 10
 url: /ko/net/tracking-and-rendering/enabling-tracking-in-cad-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# CAD 파일에서 추적 활성화 - Aspose.CAD 튜토리얼
+
 ## 소개
 
 CAD(Computer-Aided Design) 영역에서는 정밀도와 추적이 가장 중요합니다. .NET용 Aspose.CAD는 CAD 파일 추적을 활성화하는 강력한 솔루션을 제공합니다. 이 튜토리얼은 프로세스를 안내하여 이 기능의 잠재력을 최대한 활용하도록 보장합니다.
@@ -103,3 +109,9 @@ A3: 누락된 글꼴이나 지원되지 않는 엔터티와 같은 문제가 발
 ### Q5: 추적 오류 메시지를 맞춤 설정할 수 있나요?
 
 A5: 물론이죠. 요구 사항에 따라 오류 메시지를 맞춤화하도록 코드를 수정할 수 있습니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

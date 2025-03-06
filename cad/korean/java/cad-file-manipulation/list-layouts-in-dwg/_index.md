@@ -3,10 +3,16 @@ title: Java용 Aspose.CAD를 사용하여 DWG의 레이아웃 나열
 linktitle: DWG의 레이아웃 나열
 second_title: Aspose.CAD 자바 API
 description: Java용 Aspose.CAD를 탐색하고 DWG 파일의 레이아웃을 손쉽게 나열하세요. 강력한 CAD 기능을 Java 애플리케이션에 통합하세요.
-type: docs
 weight: 12
 url: /ko/java/cad-file-manipulation/list-layouts-in-dwg/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java용 Aspose.CAD를 사용하여 DWG의 레이아웃 나열
+
 ## 소개
 
 DWG 파일의 레이아웃을 나열하기 위해 Java용 Aspose.CAD를 사용하는 방법에 대한 단계별 가이드에 오신 것을 환영합니다. Aspose.CAD는 개발자가 프로그래밍 방식으로 CAD 파일을 작업할 수 있게 해주는 강력한 라이브러리입니다. 이 튜토리얼에서는 DWG 파일에 레이아웃을 나열하는 특정 작업에 중점을 둡니다. 이 가이드가 끝나면 이 기능을 Java 애플리케이션에 원활하게 통합할 수 있게 됩니다.
@@ -86,3 +92,9 @@ A1: 예, Aspose.CAD는 DWG, DXF, DWF 등을 포함한 다양한 CAD 형식을 �
 ### Q5: 테스트 목적으로 임시 라이센스를 사용할 수 있습니까?
 
  A5: 예, 임시 라이센스를 얻을 수 있습니다.[여기](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

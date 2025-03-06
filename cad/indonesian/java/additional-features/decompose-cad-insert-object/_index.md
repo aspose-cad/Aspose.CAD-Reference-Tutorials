@@ -3,10 +3,16 @@ title: Dekomposisi Objek Sisipkan CAD dengan Aspose.CAD Di Java
 linktitle: Dekomposisi Objek Sisipkan CAD dengan Java
 second_title: Aspose.CAD Java API
 description: Kuasai dekomposisi objek sisipan CAD di Java dengan Aspose.CAD. Ikuti panduan langkah demi langkah kami untuk penanganan yang efisien. Selami dunia manipulasi CAD.
-type: docs
 weight: 11
 url: /id/java/additional-features/decompose-cad-insert-object/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Dekomposisi Objek Sisipkan CAD dengan Aspose.CAD Di Java
+
 ## Perkenalan
 
 Selamat datang di panduan komprehensif kami tentang penggunaan Aspose.CAD untuk Java untuk menguraikan objek sisipan CAD. Dalam tutorial ini, kami akan memandu Anda melalui proses memecah objek sisipan CAD menjadi bagian-bagian penyusunnya, memberi Anda panduan langkah demi langkah untuk implementasi yang lancar. Baik Anda seorang pengembang berpengalaman atau baru memulai dengan Aspose.CAD, tutorial ini akan membekali Anda dengan pengetahuan untuk menangani objek penyisipan CAD secara efisien dalam aplikasi Java Anda.
@@ -110,3 +116,9 @@ Dalam tutorial ini, kita telah menjelajahi proses penguraian objek sisipan CAD m
 ### Q5: Apakah ada contoh gambar untuk latihan?
 
 A5: Ya, Anda dapat menemukan contoh gambar di direktori "DXFDrawings" dalam sumber daya Aspose.CAD.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

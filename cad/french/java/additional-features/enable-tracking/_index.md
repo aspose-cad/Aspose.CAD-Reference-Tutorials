@@ -3,10 +3,16 @@ title: Activer le suivi dans les fichiers DWG à l'aide d'Aspose.CAD en Java
 linktitle: Activer le suivi dans les fichiers DWG à l'aide de Java
 second_title: API Java Aspose.CAD
 description: Découvrez le guide étape par étape sur l'activation du suivi des fichiers DWG en Java à l'aide d'Aspose.CAD, garantissant ainsi une collaboration transparente dans les projets de CAO.
-type: docs
 weight: 12
 url: /fr/java/additional-features/enable-tracking/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Activer le suivi dans les fichiers DWG à l'aide d'Aspose.CAD en Java
+
 ## Introduction
 
 Dans le domaine de la conception assistée par ordinateur (CAO), Aspose.CAD pour Java se distingue comme un outil puissant qui permet aux développeurs de manipuler et de convertir facilement des fichiers CAO. Ce didacticiel explore une fonctionnalité spécifique d'Aspose.CAD pour Java : permettre le suivi dans les fichiers DWG. Le suivi des modifications dans les fichiers DWG est crucial pour les projets de conception collaborative, garantissant une communication transparente et un flux de travail efficace. Dans ce guide, nous passerons en revue les étapes permettant d'activer le suivi à l'aide de Java, en tirant parti des capacités d'Aspose.CAD.
@@ -123,3 +129,9 @@ A1 : Aspose.CAD prend principalement en charge les fichiers DWG pour le suivi. P
 ### Q5 : Comment puis-je obtenir une licence temporaire pour Aspose.CAD pour Java ?
 
  A5 : Suivez le processus décrit à[Permis temporaire](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Tworzenie pojedynczego pliku PDF z różnymi układami - Przewodnik Aspos
 linktitle: Tworzenie pojedynczego pliku PDF z różnymi układami
 second_title: Aspose.CAD .NET - Format plików CAD i BIM
 description: Utwórz pojedynczy plik PDF z różnymi układami za pomocą Aspose.CAD dla .NET. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby uzyskać bezproblemową integrację i wydajne generowanie plików PDF.
-type: docs
 weight: 13
 url: /pl/net/advanced-cad-techniques/creating-single-pdf-with-different-layouts/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tworzenie pojedynczego pliku PDF z różnymi układami - Przewodnik Aspose.CAD
+
 ## Wstęp
 
 Czy chcesz wygenerować pojedynczy dokument PDF z rysunku CAD o różnych układach przy użyciu Aspose.CAD dla .NET? Ten przewodnik krok po kroku przeprowadzi Cię przez cały proces, pomagając w osiągnięciu bezproblemowej integracji i wydajnego tworzenia plików PDF. Aspose.CAD dla .NET zapewnia zaawansowane funkcje do programowego manipulowania rysunkami CAD, a w tym samouczku skupimy się na tworzeniu pojedynczego pliku PDF z różnymi układami.
@@ -95,3 +101,9 @@ O1: Tak, Aspose.CAD dla .NET obsługuje różne formaty CAD, takie jak DWG, DXF,
 ### P5: Czy mogę kupić licencję na Aspose.CAD dla .NET?
 
  Odpowiedź 5: Tak, możesz kupić licencję[Tutaj](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

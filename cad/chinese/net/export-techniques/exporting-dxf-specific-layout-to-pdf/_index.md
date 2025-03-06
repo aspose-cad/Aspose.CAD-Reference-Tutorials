@@ -3,10 +3,16 @@ title: 将 DXF 特定布局导出为 PDF - Aspose.CAD 指南
 linktitle: 将 DXF 特定布局导出为 PDF
 second_title: Aspose.CAD .NET - CAD 和 BIM 文件格式
 description: 了解如何使用 Aspose.CAD for .NET 将 DXF 特定布局导出为 PDF。请遵循我们的分步指南，实现高效、高质量的转换。
-type: docs
 weight: 11
 url: /zh/net/export-techniques/exporting-dxf-specific-layout-to-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 将 DXF 特定布局导出为 PDF - Aspose.CAD 指南
+
 ## 介绍
 
 欢迎来到 Aspose.CAD 教程，了解如何使用 Aspose.CAD for .NET 的强大功能将 DXF 特定布局导出为 PDF。本分步指南将引导您完成将 DXF 文件转换为 PDF 的过程，重点关注名为“模型”的特定布局。 Aspose.CAD 提供高效的工具和功能来简化转换过程，确保 CAD 绘图的高质量输出。
@@ -113,3 +119,9 @@ A4：如需任何支持或疑问，请访问[Aspose.CAD论坛](https://forum.asp
 ### Q5：在哪里可以购买 Aspose.CAD 的许可证？
 
 A5：您可以购买 Aspose.CAD 的许可证[这里](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

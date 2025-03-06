@@ -3,10 +3,16 @@ title: Automatické nastavení velikosti výkresu CAD pomocí Aspose.CAD pro Jav
 linktitle: Automatické nastavení velikosti výkresu CAD
 second_title: Aspose.CAD Java API
 description: Prozkoumejte bezproblémový proces automatického přizpůsobení velikostí výkresů CAD v Javě pomocí Aspose.CAD. Postupujte podle našeho podrobného průvodce pro efektivní manipulaci se soubory CAD.
-type: docs
 weight: 13
 url: /cs/java/cad-file-manipulation/auto-adjusting-cad-drawing-size/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Automatické nastavení velikosti výkresu CAD pomocí Aspose.CAD pro Java
+
 ## Úvod
 
 Ve světě CAD (Computer-Aided Design) je úprava velikostí výkresů běžným požadavkem a s Aspose.CAD pro Javu se to stává bezproblémovým procesem. Tato výkonná knihovna poskytuje komplexní nástroje pro práci se soubory CAD v aplikacích Java. V tomto tutoriálu prozkoumáme krok za krokem proces automatického přizpůsobení velikostí výkresů CAD pomocí Aspose.CAD.
@@ -107,3 +113,9 @@ Odpověď 1: Ano, Aspose.CAD podporuje různé formáty CAD, včetně DWG, DXF, 
 ### Q5: Je k dispozici bezplatná zkušební verze pro Aspose.CAD pro Javu?
 
  A5: Ano, máte přístup k bezplatné zkušební verzi[tady](https://releases.aspose.com/) prozkoumat možnosti knihovny.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: تحويل تخطيطات CAD إلى PDF - البرنامج التعلي�
 linktitle: تحويل تخطيطات CAD إلى PDF
 second_title: Aspose.CAD .NET - تنسيق ملف CAD وBIM
 description: قم بتحويل تخطيطات CAD إلى PDF بسهولة باستخدام Aspose.CAD لـ .NET. اتبع دليلنا خطوة بخطوة للتكامل السلس.
-type: docs
 weight: 10
 url: /ar/net/cad-layouts-and-decomposition/converting-cad-layouts-to-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تحويل تخطيطات CAD إلى PDF - البرنامج التعليمي Aspose.CAD
+
 ## مقدمة
 
 هل تتطلع إلى تحويل تخطيطات CAD الخاصة بك إلى PDF بسلاسة؟ يوفر Aspose.CAD for .NET حلاً قويًا لجعل هذه العملية فعالة ومباشرة. في هذا البرنامج التعليمي، سنرشدك خلال خطوات استخدام Aspose.CAD، وهي واجهة برمجة تطبيقات قوية تمكن المطورين من العمل مع ملفات CAD دون عناء.
@@ -129,3 +135,9 @@ A3: استخدم خيارات التنقيط والرسومات المتوفرة
 ### س5: أين يمكنني طلب الدعم أو طرح الأسئلة؟
 
 ج5: قم بزيارة[منتدى Aspose.CAD](https://forum.aspose.com/c/cad/19) للمساعدة والمناقشات.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

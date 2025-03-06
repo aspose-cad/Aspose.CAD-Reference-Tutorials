@@ -3,10 +3,16 @@ title: Scomposizione di oggetti di inserimento CAD - Guida Aspose.CAD
 linktitle: Scomposizione degli oggetti di inserimento CAD
 second_title: Aspose.CAD .NET - Formato file CAD e BIM
 description: Esplora la potenza di Aspose.CAD per .NET con la nostra guida passo passo sulla scomposizione degli oggetti di inserimento CAD.
-type: docs
 weight: 11
 url: /it/net/cad-layouts-and-decomposition/decomposing-cad-insert-objects/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Scomposizione di oggetti di inserimento CAD - Guida Aspose.CAD
+
 ## introduzione
 
 Nel dinamico mondo della progettazione assistita da computer (CAD), la manipolazione e l'analisi efficaci dei file CAD sono cruciali per i professionisti di vari settori. Aspose.CAD per .NET emerge come una soluzione potente, fornendo agli sviluppatori gli strumenti necessari per lavorare in modo efficiente con i file CAD nell'ambiente .NET.
@@ -100,3 +106,9 @@ Per acquisire una licenza su misura per le tue esigenze, visita la pagina di acq
 ### Q5: Come posso ottenere una licenza temporanea per Aspose.CAD per .NET?
 
  Se hai bisogno di una licenza temporanea, puoi trovare le informazioni necessarie[Qui](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

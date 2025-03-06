@@ -3,10 +3,16 @@ title: Aspose.CAD for .NET でのキャンバス サイズとモードの設定
 linktitle: キャンバスのサイズとモードの設定
 second_title: Aspose.CAD .NET - CAD および BIM ファイル形式
 description: Aspose.CAD for .NET でのキャンバス サイズとモードの設定に関するステップバイステップ ガイドをご覧ください。この包括的なチュートリアルを使用して、CAD レンダリングを簡単に最適化します。
-type: docs
 weight: 16
 url: /ja/net/cad-features-and-support/setting-canvas-size-and-mode/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.CAD for .NET でのキャンバス サイズとモードの設定
+
 ## 導入
 
 Aspose.CAD for .NET の可能性を最大限に引き出し、CAD レンダリング エクスペリエンスに革命を起こす準備はできていますか?このステップバイステップのチュートリアルでは、強力な Aspose.CAD ライブラリを使用してキャンバスのサイズとモードを設定する複雑な手順を詳しく説明します。経験豊富な開発者でも、初心者でも、このガイドではプロセスを順を追って説明し、Aspose.CAD の機能を効果的に活用できるようにします。
@@ -119,3 +125,9 @@ A3: サポートとディスカッションについては、次のサイトに�
 ### Q5: Aspose.CAD for .NET を購入するにはどうすればよいですか?
 
  A5: Aspose.CAD を購入するには、次のサイトにアクセスしてください。[購入ページ](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

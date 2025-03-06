@@ -3,10 +3,16 @@ title: Xuất bản vẽ CAD sang PDF - Hướng dẫn Aspose.CAD
 linktitle: Xuất bản vẽ CAD sang PDF
 second_title: Aspose.CAD .NET - Định dạng tệp CAD và BIM
 description: Xuất bản vẽ CAD sang PDF một cách liền mạch với Aspose.CAD cho .NET. Hãy làm theo hướng dẫn từng bước của chúng tôi để chuyển đổi hiệu quả.
-type: docs
 weight: 14
 url: /vi/net/advanced-export-techniques/exporting-cad-drawings-to-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Xuất bản vẽ CAD sang PDF - Hướng dẫn Aspose.CAD
+
 ## Giới thiệu
 
 Trong thế giới ngày càng phát triển của thiết kế có sự hỗ trợ của máy tính (CAD), nhu cầu xuất các bản vẽ phức tạp sang nhiều định dạng khác nhau là điều tối quan trọng. Aspose.CAD cho .NET đã ra tay giải cứu, cung cấp một bộ công cụ mạnh mẽ để chuyển đổi liền mạch các bản vẽ CAD sang PDF. Trong hướng dẫn này, chúng ta sẽ đi sâu vào quy trình xuất bản vẽ CAD sang PDF bằng Aspose.CAD cho .NET, chia nhỏ từng bước để đảm bảo trải nghiệm học tập suôn sẻ và toàn diện.
@@ -110,3 +116,9 @@ Câu trả lời 2: Aspose.CAD cho .NET được thiết kế để xử lý cá
 ### Câu hỏi 5: Tôi có thể tìm kiếm sự hỗ trợ ở đâu nếu gặp vấn đề trong quá trình này?
 
 A5: Tham quan[Diễn đàn Aspose.CAD](https://forum.aspose.com/c/cad/19) để được hỗ trợ tận tình và hợp tác cộng đồng.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

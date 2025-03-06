@@ -3,10 +3,16 @@ title: Aspose.CAD for Java を使用して DXF 図面を PDF にエクスポー�
 linktitle: Java を使用して DXF 図面を PDF にエクスポート
 second_title: Aspose.CAD Java API
 description: Aspose.CAD を使用して、Java で DXF 図面を PDF にシームレスに変換してみましょう。 CAD ワークフローを簡単に強化します。
-type: docs
 weight: 13
 url: /ja/java/additional-features/export-dxf-to-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.CAD for Java を使用して DXF 図面を PDF にエクスポート
+
 ## 導入
 
 Java 開発の世界では、Aspose.CAD は CAD 図面のシームレスな操作と変換を可能にする強力なツールです。このチュートリアルでは、Aspose.CAD for Java を使用して DXF 図面を PDF にエクスポートするプロセスを詳しく説明します。このステップバイステップのガイドでは手順全体を説明し、各概念を完全に理解できるようにします。
@@ -102,3 +108,9 @@ image.save(dataDir + "conic_pyramid_out_.pdf", pdfOptions);
 ### Q5: 仮免許はどうやって取得できますか?
 
  A5: を取得します。[仮免許](https://purchase.aspose.com/temporary-license/)テストと評価の目的で。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

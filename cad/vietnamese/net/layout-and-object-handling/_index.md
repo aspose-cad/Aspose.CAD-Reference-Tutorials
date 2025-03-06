@@ -3,10 +3,16 @@ title: Bố cục và xử lý đối tượng
 linktitle: Bố cục và xử lý đối tượng
 second_title: Aspose.CAD .NET - Định dạng tệp CAD và BIM
 description: Dễ dàng xuất bố cục DXF, lưu tệp, cắt khối và Thực thể proxy ACAD để thiết kế CAD nâng cao bằng Aspose.CAD cho .NET.
-type: docs
 weight: 33
 url: /vi/net/layout-and-object-handling/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Bố cục và xử lý đối tượng
+
 
 ## Giới thiệu
 
@@ -38,3 +44,9 @@ Khám phá sức mạnh của Aspose.CAD cho .NET. Tìm hiểu cách lưu tệp 
 Tìm hiểu cách triển khai cắt khối trong CAD bằng Aspose.CAD cho .NET. Nâng cao khả năng thiết kế của bạn với hướng dẫn từng bước này.
 ### [Làm việc với các thực thể proxy ACAD - Hướng dẫn Aspose.CAD](./working-with-acad-proxy-entities/)
 Khám phá Aspose.CAD cho .NET và hợp lý hóa quy trình làm việc CAD của bạn. Chuyển đổi, chỉnh sửa và quản lý các Thực thể proxy ACAD một cách dễ dàng.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

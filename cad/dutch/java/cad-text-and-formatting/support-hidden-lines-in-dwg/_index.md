@@ -3,10 +3,16 @@ title: Ondersteuning voor verborgen lijnen in DWG-bestanden met Aspose.CAD voor 
 linktitle: Ondersteuning voor verborgen lijnen in DWG-bestanden met Java
 second_title: Aspose.CAD Java-API
 description: Leer hoe u de mogelijkheden voor het manipuleren van DWG-bestanden van uw Java-toepassing kunt verbeteren met Aspose.CAD. Volg onze stapsgewijze handleiding voor ondersteuning voor verborgen lijnen. Verbeter de verwerking van uw CAD-tekeningen met gemak.
-type: docs
 weight: 11
 url: /nl/java/cad-text-and-formatting/support-hidden-lines-in-dwg/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ondersteuning voor verborgen lijnen in DWG-bestanden met Aspose.CAD voor Java
+
 ## Invoering
 
 Welkom bij een uitgebreide handleiding over het gebruik van Aspose.CAD voor Java om uw mogelijkheden voor het manipuleren van DWG-bestanden te verbeteren. In deze tutorial concentreren we ons op een specifiek aspect: het ondersteunen van verborgen lijnen in DWG-bestanden. Of u nu een doorgewinterde ontwikkelaar bent of net begint, deze handleiding helpt u met stapsgewijze instructies door het proces te navigeren.
@@ -117,3 +123,10 @@ A1: Ja, Aspose.CAD ondersteunt verschillende CAD-formaten zoals DWG, DXF, DWF en
 ### V5: Kan ik een tijdelijke licentie kopen voor Aspose.CAD voor Java?
 
  A5: Ja, u kunt een tijdelijke licentie verkrijgen[hier](https://purchase.aspose.com/temporary-license/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

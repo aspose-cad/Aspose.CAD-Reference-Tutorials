@@ -3,10 +3,16 @@ title: CAD-tekeninggrootte aanpassen in Aspose.CAD voor .NET
 linktitle: De grootte van de CAD-tekening aanpassen
 second_title: Aspose.CAD .NET - CAD- en BIM-bestandsindeling
 description: Leer hoe u moeiteloos CAD-tekeningformaten in .NET kunt aanpassen met Aspose.CAD. Volg onze stapsgewijze handleiding voor het naadloos aanpassen van het formaat.
-type: docs
 weight: 10
 url: /nl/net/cad-drawing-manipulation/adjust-cad-drawing-size/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# CAD-tekeninggrootte aanpassen in Aspose.CAD voor .NET
+
 ## Invoering
 
 Wilt u de grootte van CAD-tekeningen naadloos aanpassen in uw .NET-applicaties? Aspose.CAD voor .NET biedt een robuuste oplossing waarmee u moeiteloos het formaat van CAD-tekeningen kunt wijzigen. In deze zelfstudie begeleiden we u door het proces, waarbij we elke stap opsplitsen, zodat u de fijne kneepjes van het formaat van CAD-tekeningen met Aspose.CAD begrijpt.
@@ -115,3 +121,9 @@ A2: Ja, u kunt het formaat van meerdere lay-outs wijzigen door de lay-outmatrix 
 ### V5: Hoe kan ik een tijdelijke licentie verkrijgen voor Aspose.CAD voor .NET?
 
  A5: Verkrijg een tijdelijke licentie voor testdoeleinden[hier](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

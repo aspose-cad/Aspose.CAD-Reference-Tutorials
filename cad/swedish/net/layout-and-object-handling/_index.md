@@ -3,10 +3,16 @@ title: Layout och objekthantering
 linktitle: Layout och objekthantering
 second_title: Aspose.CAD .NET - CAD- och BIM-filformat
 description: Master DXF-layoutexport, filsparande, blockklippning och ACAD Proxy Entities utan ansträngning för förbättrad CAD-design med Aspose.CAD för .NET.
-type: docs
 weight: 33
 url: /sv/net/layout-and-object-handling/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Layout och objekthantering
+
 
 ## Introduktion
 
@@ -38,3 +44,9 @@ Utforska kraften i Aspose.CAD för .NET. Lär dig att spara DXF-filer utan anstr
 Lär dig hur du implementerar blockklippning i CAD med Aspose.CAD för .NET. Förbättra dina designmöjligheter med denna steg-för-steg handledning.
 ### [Arbeta med ACAD Proxy Entities - Aspose.CAD Guide](./working-with-acad-proxy-entities/)
 Utforska Aspose.CAD för .NET och effektivisera dina CAD-arbetsflöden. Konvertera, redigera och hantera ACAD Proxy Entities utan ansträngning.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

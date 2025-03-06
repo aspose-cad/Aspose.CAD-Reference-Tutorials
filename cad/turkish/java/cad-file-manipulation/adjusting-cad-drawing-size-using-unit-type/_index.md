@@ -3,10 +3,16 @@ title: Aspose.CAD for Java ile Birim Tipini Kullanarak CAD Çizim Boyutunu Ayarl
 linktitle: Birim Tipini Kullanarak CAD Çizim Boyutunu Ayarlama
 second_title: Aspose.CAD Java API'si
 description: Aspose.CAD for Java'nın CAD çizim boyutlarını zahmetsizce ayarlama konusundaki gücünü keşfedin. Hassasiyet ve uyarlanabilirlik için adım adım kılavuzumuzu izleyin.
-type: docs
 weight: 14
 url: /tr/java/cad-file-manipulation/adjusting-cad-drawing-size-using-unit-type/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.CAD for Java ile Birim Tipini Kullanarak CAD Çizim Boyutunu Ayarlama
+
 ## giriiş
 
 Sürekli gelişen Bilgisayar Destekli Tasarım (CAD) alanında hassasiyet ve uyarlanabilirlik çok önemlidir. Yaygın gereksinimlerden biri, CAD çizimlerinin boyutunun belirli birim türlerine göre ayarlanmasıdır. Aspose.CAD for Java, CAD dosyalarının programlı olarak işlenmesi için kusursuz yetenekler sağlayan güçlü bir müttefik olarak ortaya çıkıyor.
@@ -117,3 +123,9 @@ Cevap1: Aspose.CAD öncelikle Java'yı destekler ancak .NET gibi diğer diller i
 ### S5: Aspose.CAD için geçici bir lisans alabilir miyim?
 
  Cevap5: Evet, geçici lisans alabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

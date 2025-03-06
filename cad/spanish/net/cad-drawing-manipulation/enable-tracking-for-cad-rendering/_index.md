@@ -3,10 +3,16 @@ title: Habilite el seguimiento para la representación CAD en Aspose.CAD para .N
 linktitle: Habilitar seguimiento para renderizado CAD
 second_title: Aspose.CAD .NET - Formato de archivo CAD y BIM
 description: Descubra el poder de Aspose.CAD para .NET. Habilite el seguimiento para la renderización CAD sin problemas. Siga nuestra guía paso a paso para mejorar el control y la eficiencia.
-type: docs
 weight: 13
 url: /es/net/cad-drawing-manipulation/enable-tracking-for-cad-rendering/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Habilite el seguimiento para la representación CAD en Aspose.CAD para .NET
+
 ## Introducción
 
 En el dinámico mundo del desarrollo de software, Aspose.CAD para .NET se destaca como una solución sólida para la renderización de diseño asistido por computadora (CAD). Esta potente biblioteca permite a los desarrolladores crear, manipular y renderizar archivos CAD sin problemas en el entorno .NET. En este tutorial, profundizaremos en un aspecto crucial de Aspose.CAD para .NET: permitir el seguimiento para la renderización CAD.
@@ -110,3 +116,9 @@ R2: ¡Absolutamente! Aspose.CAD para .NET se integra perfectamente con varios ma
 ### P5: ¿Cuáles son los beneficios de habilitar el seguimiento en el renderizado CAD?
 
 R5: Habilitar el seguimiento mejora la trazabilidad y el control durante el proceso de renderizado, lo que garantiza un flujo de trabajo más transparente y eficiente.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Включение отслеживания в файлах САПР - У
 linktitle: Включение отслеживания в файлах САПР
 second_title: Aspose.CAD .NET — формат файлов CAD и BIM
 description: Отслеживание файлов Master CAD с помощью Aspose.CAD для .NET. Следуйте нашему пошаговому руководству для точного рендеринга и отслеживания ошибок. Скачать сейчас!
-type: docs
 weight: 10
 url: /ru/net/tracking-and-rendering/enabling-tracking-in-cad-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Включение отслеживания в файлах САПР - Учебное пособие по Aspose.CAD
+
 ## Введение
 
 В сфере САПР (компьютерного проектирования) точность и отслеживание имеют первостепенное значение. Aspose.CAD for .NET предоставляет надежное решение для отслеживания файлов САПР. Это руководство проведет вас через весь процесс, гарантируя, что вы сможете использовать весь потенциал этой функции.
@@ -103,3 +109,9 @@ using (FileStream stream = new FileStream(MyDir + "output_conic_pyramid.pdf", Fi
 ### В5: Могу ли я настроить сообщения об ошибках отслеживания?
 
 А5: Абсолютно. Вы можете изменить код, чтобы адаптировать сообщения об ошибках в соответствии с вашими требованиями.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

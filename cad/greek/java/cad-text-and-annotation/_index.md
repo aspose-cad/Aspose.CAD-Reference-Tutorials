@@ -3,10 +3,16 @@ title: Κείμενο και σχολιασμός CAD
 linktitle: Κείμενο και σχολιασμός CAD
 second_title: Aspose.CAD Java API
 description: Αναβαθμίστε τα σχέδιά σας DWG χωρίς κόπο με το Aspose.CAD για Java. Κύρια προσθήκη και αντικατάσταση γραμματοσειρών σε αρχεία DWG. Οδηγοί βήμα προς βήμα για οπτική τελειότητα.
-type: docs
 weight: 21
 url: /el/java/cad-text-and-annotation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Κείμενο και σχολιασμός CAD
+
 
 ## Εισαγωγή 
 
@@ -36,3 +42,9 @@ url: /el/java/cad-text-and-annotation/
 Βελτιώστε τα σχέδια CAD σας χωρίς κόπο. Μάθετε να αντικαθιστάτε τις γραμματοσειρές σε αρχεία DWG χρησιμοποιώντας το Aspose.CAD για Java. Οδηγός βήμα προς βήμα για οπτική τελειότητα.
 ### [Αντικαταστήστε τη γραμματοσειρά ενός συγκεκριμένου στυλ στο DWG χρησιμοποιώντας το Aspose.CAD για Java](./substitute-font-of-particular-style-in-dwg/)
 Μάθετε πώς να αντικαθιστάτε τις γραμματοσειρές σε αρχεία DWG χρησιμοποιώντας το Aspose.CAD για Java. Οδηγός βήμα προς βήμα για την προσαρμογή στυλ με ακρίβεια.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

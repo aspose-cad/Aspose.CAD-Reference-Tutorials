@@ -3,10 +3,16 @@ title: Kết xuất tài liệu DWG thành hình ảnh bằng Aspose.CAD cho Jav
 linktitle: Kết xuất tài liệu DWG thành hình ảnh bằng Java
 second_title: API Java Aspose.CAD
 description: Khám phá sự tích hợp liền mạch của Aspose.CAD cho Java trong việc hiển thị tài liệu DWG thành hình ảnh. Hãy làm theo hướng dẫn từng bước của chúng tôi để có kết quả hiệu quả.
-type: docs
 weight: 11
 url: /vi/java/cad-meta-data-and-rendering/render-dwg-to-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Kết xuất tài liệu DWG thành hình ảnh bằng Aspose.CAD cho Java
+
 ## Giới thiệu
 
 Trong thế giới phát triển Java năng động, Aspose.CAD nổi bật như một công cụ mạnh mẽ để xử lý các tệp Thiết kế hỗ trợ máy tính (CAD). Trong hướng dẫn này, chúng ta sẽ khám phá quy trình hiển thị tài liệu DWG thành hình ảnh bằng Aspose.CAD cho Java. Cho dù bạn là nhà phát triển dày dạn kinh nghiệm hay mới bắt đầu hành trình viết mã, hướng dẫn từng bước này sẽ hướng dẫn bạn thực hiện quy trình một cách rõ ràng và dễ dàng.
@@ -105,3 +111,9 @@ Câu trả lời 2: Có, Aspose.CAD tương thích với các IDE Java phổ bi�
 ### Câu hỏi 5: Có nhiều tùy chọn kết xuất hơn trong Aspose.CAD không?
 
  A5: Chắc chắn rồi, hãy khám phá những điều sâu rộng[tài liệu](https://reference.aspose.com/cad/java/) để biết thông tin chi tiết.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

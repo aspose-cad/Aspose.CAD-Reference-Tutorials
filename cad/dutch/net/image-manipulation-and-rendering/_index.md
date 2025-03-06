@@ -3,10 +3,16 @@ title: Beeldmanipulatie en weergave
 linktitle: Beeldmanipulatie en weergave
 second_title: Aspose.CAD .NET - CAD- en BIM-bestandsindeling
 description: Ontgrendel het potentieel van CAD-bestanden met Aspose.CAD voor .NET. Leer moeiteloos blokkenmerken extraheren, afbeeldingen importeren, DWG naar PDF-conversie, mesh-ondersteuning en nog veel meer.
-type: docs
 weight: 27
 url: /nl/net/image-manipulation-and-rendering/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Beeldmanipulatie en weergave
+
 
 ## Invoering
 
@@ -54,3 +60,9 @@ Ontdek Aspose.CAD voor .NET. Converteer moeiteloos DWG naar afbeelding in C#. Ui
 Ontgrendel het potentieel van Aspose.CAD voor .NET met onze stapsgewijze zelfstudie over het lezen van XREF-metagegevens uit DWG-bestanden.
 ### [DWG-documenten renderen in C# - Aspose.CAD-handleiding](./rendering-dwg-documents/)
 Leer hoe u DWG-documenten in C# kunt renderen met Aspose.CAD. Deze stapsgewijze handleiding behandelt het importeren, configureren en opslaan met codevoorbeelden.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

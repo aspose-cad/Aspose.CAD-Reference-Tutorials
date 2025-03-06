@@ -3,10 +3,16 @@ title: معالجة ملف CAD
 linktitle: معالجة ملف CAD
 second_title: Aspose.CAD جافا API
 description: أطلق العنان لطاقة ملف CAD باستخدام Aspose.CAD لـ Java! قم بتحويل DWFX إلى PDF، والوصول إلى علامات DWG، وتخطيطات القائمة، وضبط الأحجام تلقائيًا من خلال برامجنا التعليمية.
-type: docs
 weight: 23
 url: /ar/java/cad-file-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# معالجة ملف CAD
+
 
 ## مقدمة
 
@@ -44,3 +50,9 @@ url: /ar/java/cad-file-manipulation/
 استكشف العملية السلسة للضبط التلقائي لأحجام رسم CAD في Java باستخدام Aspose.CAD. اتبع دليلنا خطوة بخطوة لمعالجة ملفات CAD بكفاءة.
 ### [ضبط حجم رسم CAD باستخدام نوع الوحدة مع Aspose.CAD لـ Java](./adjusting-cad-drawing-size-using-unit-type/)
 اكتشف قوة Aspose.CAD لـ Java في ضبط أحجام رسم CAD دون عناء. اتبع دليلنا خطوة بخطوة للحصول على الدقة والقدرة على التكيف.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

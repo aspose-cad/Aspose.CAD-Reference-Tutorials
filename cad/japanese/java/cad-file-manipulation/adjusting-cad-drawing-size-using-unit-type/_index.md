@@ -3,10 +3,16 @@ title: Aspose.CAD for Java でユニット タイプを使用して CAD 図面�
 linktitle: ユニットタイプを使用したCAD図面サイズの調整
 second_title: Aspose.CAD Java API
 description: CAD 図面のサイズを簡単に調整できる Aspose.CAD for Java の機能を試してください。精度と適応性については、ステップバイステップのガイドに従ってください。
-type: docs
 weight: 14
 url: /ja/java/cad-file-manipulation/adjusting-cad-drawing-size-using-unit-type/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.CAD for Java でユニット タイプを使用して CAD 図面のサイズを調整する
+
 ## 導入
 
 進化し続けるコンピュータ支援設計 (CAD) の分野では、精度と適応性が最も重要です。一般的な要件の 1 つは、特定のユニット タイプに基づいて CAD 図面のサイズを調整することです。 Aspose.CAD for Java は強力な味方として登場し、CAD ファイルをプログラムで操作するためのシームレスな機能を提供します。
@@ -117,3 +123,9 @@ A1: Aspose.CAD は主に Java をサポートしていますが、.NET などの
 ### Q5: Aspose.CAD の一時ライセンスを取得できますか?
 
  A5: はい、仮ライセンスを取得できます。[ここ](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

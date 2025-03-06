@@ -3,10 +3,16 @@ title: Java용 Aspose.CAD를 사용하여 SVG로 내보내기
 linktitle: SVG로 내보내기
 second_title: Aspose.CAD 자바 API
 description: CAD 도면을 SVG로 내보내는 단계별 가이드를 통해 Java용 Aspose.CAD의 잠재력을 활용해 보세요. 네임스페이스를 가져오고, 옵션을 구성하고, Aspose.CAD를 Java 프로젝트에 원활하게 통합하는 방법을 알아보세요.
-type: docs
 weight: 12
 url: /ko/java/cad-to-pdf-and-svg-export-options/export-to-svg/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java용 Aspose.CAD를 사용하여 SVG로 내보내기
+
 ## 소개
 
 개발자가 CAD 도면을 쉽게 조작할 수 있도록 지원하는 강력한 라이브러리인 Aspose.CAD for Java의 세계에 오신 것을 환영합니다. 숙련된 개발자이든 CAD 영역을 처음 접하는 사람이든 관계없이 이 포괄적인 가이드는 Aspose.CAD for Java를 사용하여 CAD 도면을 SVG 형식으로 내보내는 과정을 안내합니다.
@@ -103,3 +109,9 @@ A2: 물론이죠! Aspose.CAD는 사용자 친화적인 API를 제공하여 초�
 ### Q5: Aspose.CAD for Java 라이선스는 어떻게 구매할 수 있나요?
 
  A5: 다음에서 라이센스를 구입할 수 있습니다.[구매 페이지](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

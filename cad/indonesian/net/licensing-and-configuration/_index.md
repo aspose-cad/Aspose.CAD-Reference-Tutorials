@@ -3,10 +3,16 @@ title: Lisensi dan Konfigurasi
 linktitle: Lisensi dan Konfigurasi
 second_title: Aspose.CAD .NET - Format File CAD dan BIM
 description: Tingkatkan permainan manipulasi file CAD Anda dengan Aspose.CAD untuk .NET! Terapkan lisensi dengan lancar menggunakan FileStream atau melalui tutorial langkah demi langkah kami.
-type: docs
 weight: 20
 url: /id/net/licensing-and-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Lisensi dan Konfigurasi
+
 
 ## Perkenalan
 
@@ -32,3 +38,9 @@ Kesimpulannya, dengan panduan langkah demi langkah kami, Anda tidak hanya akan m
 Menguasai Aspose.CAD untuk .NET: Terapkan lisensi dengan lancar menggunakan FileStream. Jelajahi panduan langkah demi langkah dan buka potensinya. Unduh sekarang!
 ### [Lisensi Terukur di Aspose.CAD untuk .NET](./metered-licensing/)
 Buka potensi Aspose.CAD dengan lisensi terukur di .NET. Optimalkan penggunaan sumber daya dengan lancar. Jelajahi panduan langkah demi langkah kami.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

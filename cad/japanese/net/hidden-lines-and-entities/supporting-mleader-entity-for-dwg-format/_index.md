@@ -3,10 +3,16 @@ title: DWG 形式の MLleader エンティティのサポート - Aspose.CAD ガ
 linktitle: DWG 形式の MLeader エンティティのサポート
 second_title: Aspose.CAD .NET - CAD および BIM ファイル形式
 description: Aspose.CAD for .NET を使用して、DWG 形式の MLeader エンティティの機能を解放します。 CAD プロジェクトを簡単にレベルアップします。
-type: docs
 weight: 11
 url: /ja/net/hidden-lines-and-entities/supporting-mleader-entity-for-dwg-format/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# DWG 形式の MLleader エンティティのサポート - Aspose.CAD ガイド
+
 ## 導入
 
 コンピュータ支援設計 (CAD) のダイナミックな世界では、最新の機能を常に先を行くことが重要です。そのような機能の 1 つは、DWG 形式の MLeader エンティティのサポートです。 Aspose.CAD for .NET は、これを効率的に処理するための強力なツール セットを提供します。
@@ -118,3 +124,9 @@ A4: ご質問やサポートが必要な場合は、次のサイトにアクセ�
 ### Q5: 購入する前に Aspose.CAD を試すことはできますか?
 
  A5: はい、探索できます。[無料トライアル](https://releases.aspose.com/)決定を下す前に、Aspose.CAD の機能を体験してください。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

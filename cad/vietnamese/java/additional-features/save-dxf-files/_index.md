@@ -3,10 +3,16 @@ title: Lưu tệp DXF bằng Aspose.CAD trong Java
 linktitle: Lưu tệp DXF bằng Java
 second_title: API Java Aspose.CAD
 description: Tìm hiểu cách lưu tệp DXF trong Java bằng Aspose.CAD. Hãy làm theo hướng dẫn từng bước của chúng tôi để quản lý tệp CAD hiệu quả.
-type: docs
 weight: 20
 url: /vi/java/additional-features/save-dxf-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Lưu tệp DXF bằng Aspose.CAD trong Java
+
 ## Giới thiệu
 
 Chào mừng bạn đến với hướng dẫn toàn diện của chúng tôi về cách lưu tệp DXF bằng Aspose.CAD cho Java. Nếu bạn đang tìm cách quản lý hiệu quả các tệp DXF trong ứng dụng Java của mình thì bạn đã đến đúng nơi. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn từng bước thực hiện quy trình, đảm bảo rằng bạn nắm bắt kỹ từng khái niệm.
@@ -104,3 +110,9 @@ Câu trả lời 1: Có, Aspose.CAD cho Java rất linh hoạt và có thể đ�
 ### Câu hỏi 5: Tôi có thể tìm tài liệu toàn diện về Aspose.CAD cho Java ở đâu?
 
  A5: Hãy tham khảo[tài liệu](https://reference.aspose.com/cad/java/) để biết thông tin chi tiết và ví dụ.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

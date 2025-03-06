@@ -3,10 +3,16 @@ title: Nyomon követés engedélyezése CAD-fájlokban – Aspose.CAD oktatóany
 linktitle: Nyomon követés engedélyezése CAD-fájlokban
 second_title: Aspose.CAD .NET - CAD és BIM fájlformátum
 description: Fő CAD-fájlkövetés az Aspose.CAD-vel .NET-hez. Kövesse lépésről lépésre útmutatónkat a pontos megjelenítéshez és a hibakövetéshez. Letöltés most!
-type: docs
 weight: 10
 url: /hu/net/tracking-and-rendering/enabling-tracking-in-cad-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Nyomon követés engedélyezése CAD-fájlokban – Aspose.CAD oktatóanyag
+
 ## Bevezetés
 
 CAD (Computer-Aided Design) területén a precizitás és a követés a legfontosabb. Az Aspose.CAD for .NET robusztus megoldást kínál a CAD-fájlok nyomon követésére. Ez az oktatóanyag végigvezeti Önt a folyamaton, és biztosítja, hogy a funkcióban rejlő lehetőségeket teljes mértékben kihasználja.
@@ -103,3 +109,9 @@ Ebben az oktatóanyagban az Aspose.CAD for .NET használatával történő nyomo
 ### 5. kérdés: Testreszabhatom a követési hibaüzeneteket?
 
 A5: Abszolút. Módosíthatja a kódot, hogy a hibaüzeneteket igényei szerint szabja.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

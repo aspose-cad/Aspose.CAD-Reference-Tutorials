@@ -3,10 +3,16 @@ title: การแสดงสีในไฟล์ CAD - คู่มือ As
 linktitle: การแสดงสีในไฟล์ CAD
 second_title: Aspose.CAD .NET - รูปแบบไฟล์ CAD และ BIM
 description: การเรนเดอร์ไฟล์ Master CAD ใน .NET ด้วย Aspose.CAD ปฏิบัติตามคำแนะนำทีละขั้นตอนของเราเพื่อสีสันสดใส
-type: docs
 weight: 10
 url: /th/net/conversion-and-export/rendering-colors-in-cad-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# การแสดงสีในไฟล์ CAD - คู่มือ Aspose.CAD
+
 ## การแนะนำ
 
 คุณกำลังเผชิญกับความท้าทายในการเรนเดอร์สีในไฟล์ CAD โดยใช้ .NET หรือไม่? ไม่ต้องมองอีกต่อไป! ในคู่มือที่ครอบคลุมนี้ เราจะแนะนำคุณตลอดกระบวนการทีละขั้นตอนโดยใช้ไลบรารี Aspose.CAD อันทรงพลัง เมื่อสิ้นสุดบทช่วยสอนนี้ คุณจะได้รับความรู้ในการเรนเดอร์สีในไฟล์ CAD ของคุณอย่างง่ายดาย
@@ -108,3 +114,9 @@ document.Save(output, saveOptions);
 ### คำถามที่ 5: ฉันจะซื้อไลบรารี Aspose.CAD ได้ที่ไหน
 
  A5: ซื้อ Aspose.CAD[ที่นี่](https://purchase.aspose.com/buy) เพื่อปลดล็อกศักยภาพอันเต็มเปี่ยม
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

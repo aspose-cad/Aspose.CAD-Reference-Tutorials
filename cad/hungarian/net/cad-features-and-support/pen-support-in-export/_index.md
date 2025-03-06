@@ -3,10 +3,16 @@ title: Növelje a CAD-exportálást egyéni tollbeállításokkal az Aspose.CAD 
 linktitle: Toll támogatás az exportálásban
 second_title: Aspose.CAD .NET - CAD és BIM fájlformátum
 description: Ismerje meg, hogyan javíthatja a CAD-képek exportálását az Aspose.CAD for .NET használatával. Testreszabhatja a tollbeállításokat a lenyűgöző látványokhoz PDF, PNG, BMP és sok más formátumban.
-type: docs
 weight: 12
 url: /hu/net/cad-features-and-support/pen-support-in-export/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Növelje a CAD-exportálást egyéni tollbeállításokkal az Aspose.CAD for .NET-ben
+
 ## Bevezetés
 
 Az Aspose.CAD for .NET hatékony eszközkészletet biztosít a számítógéppel segített tervezési (CAD) fájlokkal való munkavégzéshez, lehetővé téve a fejlesztők számára a CAD-képek zökkenőmentes kezelését és exportálását. Az egyik figyelemre méltó funkció a toll támogatása az exportálás során, amely lehetővé teszi a felhasználók számára, hogy testreszabják a tollak kezdő- és végzáró beállításait, amikor CAD-képeket exportálnak különféle formátumokba, például PDF, PNG, BMP, GIF, JPEG2000, JPEG, PSD, TIFF és WMF.
@@ -119,3 +125,9 @@ Nyugodtan kísérletezzen a különböző tollbeállításokkal, hogy elérje a 
 ### 5. kérdés: Hol kérhetek közösségi támogatást az Aspose.CAD for .NET-hez?
 
  V5: Vegyen részt a közösséggel a[Aspose.CAD fórum](https://forum.aspose.com/c/cad/19).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

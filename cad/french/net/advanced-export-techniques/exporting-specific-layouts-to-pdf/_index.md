@@ -3,10 +3,16 @@ title: Exportation de mises en page spécifiques au format PDF - Guide Aspose.CA
 linktitle: Exportation de mises en page spécifiques au format PDF
 second_title: Aspose.CAD .NET - Format de fichier CAO et BIM
 description: Découvrez comment exporter des mises en page spécifiques au format PDF à l'aide d'Aspose.CAD pour .NET. Guide étape par étape pour une intégration transparente.
-type: docs
 weight: 13
 url: /fr/net/advanced-export-techniques/exporting-specific-layouts-to-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Exportation de mises en page spécifiques au format PDF - Guide Aspose.CAD
+
 ## Introduction
 
 Bienvenue dans notre guide étape par étape sur l'exportation de mises en page spécifiques au format PDF à l'aide d'Aspose.CAD pour .NET. Aspose.CAD est une bibliothèque puissante qui permet aux développeurs de travailler de manière transparente avec les formats de fichiers CAO. Dans ce didacticiel, nous nous concentrerons sur l'exportation de mises en page spécifiques d'un fichier DWG vers un PDF à l'aide d'Aspose.CAD dans un environnement .NET.
@@ -110,3 +116,9 @@ A2 : Oui, Aspose.CAD prend en charge divers formats de CAO, notamment DWG, DXF, 
 ### Q5 : Existe-t-il un essai gratuit ?
 
  A5 : Oui, vous pouvez accéder à l'essai gratuit[ici](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

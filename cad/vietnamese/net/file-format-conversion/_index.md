@@ -3,10 +3,16 @@ title: Chuyển đổi định dạng tệp
 linktitle: Chuyển đổi định dạng tệp
 second_title: Aspose.CAD .NET - Định dạng tệp CAD và BIM
 description: Dễ dàng nâng cao khả năng xử lý tệp CAD của bạn với Aspose.CAD cho .NET. Khám phá các hướng dẫn về xuất DWF sang PDF và xuất hình ảnh 3D sang định dạng BMP.
-type: docs
 weight: 36
 url: /vi/net/file-format-conversion/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Chuyển đổi định dạng tệp
+
 
 ## Giới thiệu
 
@@ -46,3 +52,9 @@ Cho dù bạn đang mạo hiểm xuất DWF sang PDF hay đi sâu vào thế gi�
 Khám phá hướng dẫn liền mạch về cách xuất DWF sang PDF bằng Aspose.CAD cho .NET. Nâng cao khả năng xử lý tệp CAD của bạn một cách dễ dàng.
 ### [Xuất sang định dạng BMP - Hướng dẫn Aspose.CAD](./exporting-to-bmp-format/)
 Khám phá thế giới liền mạch của việc xuất hình ảnh 3D sang BMP bằng Aspose.CAD cho .NET. Hãy làm theo hướng dẫn của chúng tôi để có trải nghiệm không rắc rối.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

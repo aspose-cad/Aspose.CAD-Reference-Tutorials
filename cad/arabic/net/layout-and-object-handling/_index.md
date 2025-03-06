@@ -3,10 +3,16 @@ title: التخطيط والتعامل مع الكائنات
 linktitle: التخطيط والتعامل مع الكائنات
 second_title: Aspose.CAD .NET - تنسيق ملف CAD وBIM
 description: تصدير تخطيط DXF الرئيسي، وحفظ الملفات، وتقطيع الكتل، وكيانات وكيل ACAD دون عناء لتحسين تصميم CAD باستخدام Aspose.CAD لـ .NET.
-type: docs
 weight: 33
 url: /ar/net/layout-and-object-handling/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# التخطيط والتعامل مع الكائنات
+
 
 ## مقدمة
 
@@ -38,3 +44,9 @@ url: /ar/net/layout-and-object-handling/
 تعرف على كيفية تنفيذ قطع الكتل في CAD باستخدام Aspose.CAD لـ .NET. عزز قدرات التصميم لديك من خلال هذا البرنامج التعليمي خطوة بخطوة.
 ### [العمل مع كيانات وكيل ACAD - دليل Aspose.CAD](./working-with-acad-proxy-entities/)
 استكشف Aspose.CAD لـ .NET وقم بتبسيط سير عمل CAD لديك. تحويل وتحرير وإدارة كيانات وكيل ACAD دون عناء.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

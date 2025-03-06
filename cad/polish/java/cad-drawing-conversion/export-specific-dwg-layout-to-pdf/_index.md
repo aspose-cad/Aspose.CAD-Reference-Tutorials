@@ -3,10 +3,16 @@ title: Eksportuj określony układ DWG do pliku PDF za pomocą Aspose.CAD dla Ja
 linktitle: Eksportuj określony układ DWG do pliku PDF
 second_title: Aspose.CAD API Java
 description: Zapoznaj się z przewodnikiem krok po kroku dotyczącym eksportowania określonych układów DWG do formatu PDF przy użyciu Aspose.CAD dla Java. Zoptymalizuj przepływ pracy CAD bez wysiłku.
-type: docs
 weight: 14
 url: /pl/java/cad-drawing-conversion/export-specific-dwg-layout-to-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Eksportuj określony układ DWG do pliku PDF za pomocą Aspose.CAD dla Java
+
 ## Wstęp
 
 W dynamicznym świecie projektowania wspomaganego komputerowo (CAD), Aspose.CAD dla Java jawi się jako potężne narzędzie do manipulowania i konwertowania rysunków DWG. W tym samouczku omówimy konkretny scenariusz: eksportowanie wyznaczonego układu DWG do pliku PDF. Proces ten zapewnia precyzję i elastyczność projektów CAD.
@@ -100,3 +106,9 @@ Aspose.CAD dla Java jest samodzielną biblioteką, ale można ją zintegrować z
 ### P5: Czy dostępna jest bezpłatna wersja próbna Aspose.CAD?
 
  Tak, możesz uzyskać dostęp do bezpłatnego okresu próbnego[Tutaj](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

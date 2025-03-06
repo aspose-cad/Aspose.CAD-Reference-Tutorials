@@ -3,10 +3,16 @@ title: Specifieke lay-outs exporteren naar PDF - Aspose.CAD-handleiding
 linktitle: Specifieke lay-outs exporteren naar PDF
 second_title: Aspose.CAD .NET - CAD- en BIM-bestandsindeling
 description: Leer hoe u specifieke lay-outs naar PDF kunt exporteren met Aspose.CAD voor .NET. Stapsgewijze handleiding voor naadloze integratie.
-type: docs
 weight: 13
 url: /nl/net/advanced-export-techniques/exporting-specific-layouts-to-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Specifieke lay-outs exporteren naar PDF - Aspose.CAD-handleiding
+
 ## Invoering
 
 Welkom bij onze stapsgewijze handleiding voor het exporteren van specifieke lay-outs naar PDF met Aspose.CAD voor .NET. Aspose.CAD is een krachtige bibliotheek waarmee ontwikkelaars naadloos met CAD-bestandsindelingen kunnen werken. In deze zelfstudie concentreren we ons op het exporteren van specifieke lay-outs van een DWG-bestand naar PDF met behulp van Aspose.CAD in een .NET-omgeving.
@@ -110,3 +116,9 @@ A2: Ja, Aspose.CAD ondersteunt verschillende CAD-formaten, waaronder DWG, DXF, D
 ### Vraag 5: Is er een gratis proefversie beschikbaar?
 
  A5: Ja, u heeft toegang tot de gratis proefperiode[hier](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

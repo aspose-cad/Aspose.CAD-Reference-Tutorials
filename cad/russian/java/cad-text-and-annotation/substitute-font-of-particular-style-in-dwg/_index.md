@@ -3,10 +3,16 @@ title: Замена шрифта определенного стиля в DWG с
 linktitle: Замена шрифта определенного стиля в DWG
 second_title: API Aspose.CAD Java
 description: Узнайте, как заменять шрифты в файлах DWG с помощью Aspose.CAD для Java. Пошаговое руководство по точной настройке стилей.
-type: docs
 weight: 12
 url: /ru/java/cad-text-and-annotation/substitute-font-of-particular-style-in-dwg/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Замена шрифта определенного стиля в DWG с помощью Aspose.CAD для Java
+
 ## Введение
 
 В мире САПР (компьютерного проектирования) точность и детализация имеют первостепенное значение. Aspose.CAD for Java представляет собой мощный инструмент для управления чертежами САПР, предоставляющий разработчикам обширные функциональные возможности. Одной из таких важных функций является возможность заменять шрифты в файле DWG, обеспечивая согласованность и настройку.
@@ -92,3 +98,9 @@ A4: Хотя в примере рассматривается формат DWG, 
 ### Вопрос 5: Как я могу получить поддержку Aspose.CAD для Java?
 
 A5: Посетите[Форум Aspose.CAD](https://forum.aspose.com/c/cad/19) за поддержку сообщества и обсуждения.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

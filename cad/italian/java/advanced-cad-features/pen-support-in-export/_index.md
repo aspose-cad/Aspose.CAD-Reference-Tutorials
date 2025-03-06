@@ -3,10 +3,16 @@ title: Supporto penna nell'esportazione
 linktitle: Supporto penna nell'esportazione
 second_title: API Java Aspose.CAD
 description: Masterizza la personalizzazione della penna nell'esportazione CAD con Aspose.CAD per Java. Segui la nostra guida passo passo per un'integrazione perfetta.
-type: docs
 weight: 13
 url: /it/java/advanced-cad-features/pen-support-in-export/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Supporto penna nell'esportazione
+
 ## introduzione
 
 Nel panorama in continua evoluzione delle conversioni CAD (Computer-Aided Design), Aspose.CAD per Java emerge come uno strumento potente, offrendo ampie funzionalità per la manipolazione dei file CAD. Tra le sue funzionalità versatili spicca il supporto per la personalizzazione della penna durante l'esportazione, che consente agli utenti di personalizzare l'aspetto delle immagini esportate. Questo tutorial ti guiderà attraverso il processo di utilizzo del supporto penna nella funzionalità di esportazione, concentrandosi sull'implementazione pratica utilizzando Java.
@@ -112,3 +118,9 @@ A4: regola la larghezza e l'altezza della pagina nelle opzioni di rasterizzazion
 ### Q5: Dove posso trovare ulteriore supporto o discussioni nella community?
 
  A5: Esplora il forum della community Aspose.CAD all'indirizzo[Qui](https://forum.aspose.com/c/cad/19) per supporto e discussioni.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

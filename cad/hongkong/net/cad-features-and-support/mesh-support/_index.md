@@ -3,10 +3,16 @@ title: Aspose.CAD for .NET 中的網格支持
 linktitle: 網格支撐
 second_title: Aspose.CAD .NET - CAD 和 BIM 檔案格式
 description: 透過我們的逐步教學來探索 Aspose.CAD for .NET 中的網格支援。輕鬆將 CAD 檔案轉換為 PDF。
-type: docs
 weight: 11
 url: /zh-hant/net/cad-features-and-support/mesh-support/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.CAD for .NET 中的網格支持
+
 ## 介紹
 
 歡迎來到我們利用 Aspose.CAD for .NET 中的網格支援的深入教學！ Aspose.CAD 是一個功能強大的程式庫，為在 .NET 應用程式中處理電腦輔助設計 (CAD) 檔案提供了強大的功能。在本教程中，我們將特別關注利用網格支援功能來增強您的 CAD 檔案處理能力。
@@ -100,3 +106,9 @@ A2：雖然建議將許可證用於生產用途，但您可以在開發過程中
 ### Q5：哪裡可以下載最新版本的 Aspose.CAD for .NET？
 
  A5：從以下位置下載庫[發布頁面](https://releases.aspose.com/cad/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

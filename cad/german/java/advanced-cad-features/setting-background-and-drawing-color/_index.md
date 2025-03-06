@@ -3,10 +3,16 @@ title: Hintergrund- und Zeichnungsfarbe mit Aspose.CAD für Java festlegen
 linktitle: Hintergrund und Zeichenfarbe festlegen
 second_title: Aspose.CAD Java API
 description: Konvertieren Sie CAD-Dateien mühelos in PDF und TIFF mit Aspose.CAD für Java. Legen Sie benutzerdefinierte Hintergrund- und Zeichenfarben fest, um optisch beeindruckende Ergebnisse zu erzielen.
-type: docs
 weight: 15
 url: /de/java/advanced-cad-features/setting-background-and-drawing-color/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Hintergrund- und Zeichnungsfarbe mit Aspose.CAD für Java festlegen
+
 ## Einführung
 
 In der dynamischen Welt des Computer-Aided Design (CAD) ist eine effiziente Dateikonvertierung für eine reibungslose Zusammenarbeit und Kommunikation von entscheidender Bedeutung. Aspose.CAD für Java erweist sich als leistungsstarkes Tool, das robuste Funktionen zum Konvertieren von CAD-Dateien in die Formate PDF und TIFF bietet. In diesem Tutorial befassen wir uns mit dem Festlegen von Hintergrund- und Zeichnungsfarben mit Aspose.CAD für Java und geben Ihnen eine Schritt-für-Schritt-Anleitung für optimale Ergebnisse.
@@ -98,3 +104,10 @@ A2: Ja, das Tutorial zeigt, wie Sie benutzerdefinierte Hintergrundfarben für PD
 ### F5: Wie erhalte ich Unterstützung für Aspose.CAD für Java?
 
 A5: Besuchen Sie die[Aspose.CAD-Forum](https://forum.aspose.com/c/cad/19) um Hilfe zu bitten und mit der Gemeinschaft in Kontakt zu treten.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

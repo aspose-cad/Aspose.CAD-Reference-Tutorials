@@ -3,10 +3,16 @@ title: A DXF rajz meghatározott rétegének exportálása PDF-be az Aspose.CAD 
 linktitle: Exportálja a DXF rajz meghatározott rétegét PDF-be Java segítségével
 second_title: Aspose.CAD Java API
 description: Könnyedén exportálhat meghatározott rétegeket DXF-rajzokból PDF-be az Aspose.CAD for Java segítségével. Kövesse ezt a lépésről lépésre szóló útmutatót a zökkenőmentes integráció érdekében.
-type: docs
 weight: 18
 url: /hu/java/additional-features/export-specific-layer-to-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# A DXF rajz meghatározott rétegének exportálása PDF-be az Aspose.CAD for Java segítségével
+
 ## Bevezetés
 
 A Java fejlesztés területén az Aspose.CAD hatékony eszköz a számítógéppel segített tervezési (CAD) fájlokkal való munkavégzéshez. Sokoldalú szolgáltatásai közül értékes lehetőség, hogy adott rétegeket DXF-rajzból PDF-fájlba exportálhat. Ez az oktatóanyag végigvezeti Önt a folyamaton, és lépésenkénti utasításokat kínál az Aspose.CAD for Java teljes potenciáljának kiaknázásához.
@@ -104,3 +110,9 @@ Gratulálunk! Sikeresen exportálta a DXF-rajz egy meghatározott rétegét PDF-
 ### 5. kérdés: Hol kérhetek további támogatást vagy segítséget?
 
 A5: Látogassa meg a[Aspose.CAD fórum](https://forum.aspose.com/c/cad/19) közösségi támogatásra és beszélgetésekre.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

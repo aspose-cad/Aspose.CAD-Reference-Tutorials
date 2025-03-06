@@ -3,10 +3,16 @@ title: تمكين التتبع لعملية عرض CAD
 linktitle: تمكين التتبع لعملية عرض CAD
 second_title: Aspose.CAD جافا API
 description: قم بتحسين عرض CAD الخاص بك باستخدام Aspose.CAD لـ Java. اتبع دليلنا خطوة بخطوة لتمكين التتبع والارتقاء بتجربة تحويل PDF الخاصة بك.
-type: docs
 weight: 10
 url: /ar/java/advanced-cad-features/enable-tracking-for-cad-rendering-process/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تمكين التتبع لعملية عرض CAD
+
 ## مقدمة
 
 في عالم التصميم بمساعدة الكمبيوتر (CAD)، يبرز Aspose.CAD for Java كأداة قوية لعرض ملفات CAD ومعالجتها. سيرشدك هذا البرنامج التعليمي خلال عملية تمكين تتبع عرض CAD، مما يعزز تحكمك في التحويل من ملفات CAD إلى تنسيق PDF.
@@ -114,3 +120,9 @@ A1: يدعم Aspose.CAD نطاقًا واسعًا من تنسيقات CAD، بم
 ### س5: هل التراخيص المؤقتة متاحة لـ Aspose.CAD؟
 
  ج5: نعم، إذا كنت بحاجة إلى ترخيص مؤقت، يمكنك الحصول عليه[هنا](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

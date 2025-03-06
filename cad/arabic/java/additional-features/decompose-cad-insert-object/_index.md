@@ -3,10 +3,16 @@ title: تحليل كائن إدراج CAD باستخدام Aspose.CAD في Java
 linktitle: تحلل كائن إدراج CAD باستخدام Java
 second_title: Aspose.CAD جافا API
 description: إتقان تحلل كائنات CAD المُدرجة في Java باستخدام Aspose.CAD. اتبع دليلنا خطوة بخطوة للتعامل الفعال. انغمس في عالم التلاعب بالتصميم بمساعدة الكمبيوتر (CAD).
-type: docs
 weight: 11
 url: /ar/java/additional-features/decompose-cad-insert-object/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تحليل كائن إدراج CAD باستخدام Aspose.CAD في Java
+
 ## مقدمة
 
 مرحبًا بك في دليلنا الشامل حول استخدام Aspose.CAD لـ Java لتحليل كائنات إدراج CAD. في هذا البرنامج التعليمي، سنرشدك خلال عملية تقسيم كائنات إدراج CAD إلى الأجزاء المكونة لها، مما يوفر لك دليلًا خطوة بخطوة للتنفيذ السلس. سواء كنت مطورًا متمرسًا أو بدأت للتو في استخدام Aspose.CAD، فسيزودك هذا البرنامج التعليمي بالمعرفة اللازمة للتعامل بكفاءة مع كائنات إدراج CAD في تطبيقات Java الخاصة بك.
@@ -110,3 +116,9 @@ finally
 ### س5: هل هناك أي نماذج للرسومات للتدرب عليها؟
 
 ج5: نعم، يمكنك العثور على نماذج للرسومات في دليل "DXFDrawings" ضمن موارد Aspose.CAD.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: CAD-elrendezések és bontás
 linktitle: CAD-elrendezések és bontás
 second_title: Aspose.CAD .NET - CAD és BIM fájlformátum
 description: Használja ki a CAD-elrendezésekben rejlő lehetőségeket az Aspose.CAD for .NET segítségével! Útmutatónk segítségével könnyedén konvertálhatja a terveket PDF formátumba. A beszúrt objektumok könnyed lebontásának elsajátítása.
-type: docs
 weight: 34
 url: /hu/net/cad-layouts-and-decomposition/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# CAD-elrendezések és bontás
+
 
 
 
@@ -59,3 +65,9 @@ A felbontás után fedezze fel a beszúrt objektumok egyes összetevőit. Ez uta
 Az Aspose.CAD for .NET segítségével könnyedén konvertálhat CAD-elrendezéseket PDF-be. Kövesse lépésenkénti útmutatónkat a zökkenőmentes integráció érdekében.
 ### [CAD beszúrási objektumok bontása - Aspose.CAD útmutató](./decomposing-cad-insert-objects/)
 Fedezze fel az Aspose.CAD for .NET erejét a CAD-beszúró objektumok bontásáról szóló lépésről lépésre szóló útmutatónkkal.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: जावा के लिए Aspose.CAD का उपयोग करक
 linktitle: जावा का उपयोग करके DWG फ़ाइलों में छिपी हुई रेखाओं के लिए समर्थन
 second_title: Aspose.CAD जावा एपीआई
 description: जानें कि Aspose.CAD का उपयोग करके अपने जावा एप्लिकेशन की DWG फ़ाइल हेरफेर क्षमताओं को कैसे बढ़ाया जाए। छुपी हुई लाइनों के समर्थन के लिए हमारी चरण-दर-चरण मार्गदर्शिका का पालन करें। आसानी से अपने CAD ड्राइंग प्रबंधन को बढ़ावा दें।
-type: docs
 weight: 11
 url: /hi/java/cad-text-and-formatting/support-hidden-lines-in-dwg/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# जावा के लिए Aspose.CAD का उपयोग करके DWG फ़ाइलों में छिपी हुई रेखाओं के लिए समर्थन
+
 ## परिचय
 
 आपकी DWG फ़ाइल हेरफेर क्षमताओं को बढ़ाने के लिए जावा के लिए Aspose.CAD का लाभ उठाने पर एक व्यापक मार्गदर्शिका में आपका स्वागत है। इस ट्यूटोरियल में, हम एक विशिष्ट पहलू पर ध्यान केंद्रित करेंगे: DWG फ़ाइलों में छिपी हुई लाइनों का समर्थन करना। चाहे आप एक अनुभवी डेवलपर हों या अभी शुरुआत कर रहे हों, यह मार्गदर्शिका आपको चरण-दर-चरण निर्देशों के साथ प्रक्रिया में नेविगेट करने में मदद करेगी।
@@ -117,3 +123,10 @@ A1: हां, Aspose.CAD विभिन्न CAD प्रारूपों 
 ### Q5: क्या मैं जावा के लिए Aspose.CAD के लिए एक अस्थायी लाइसेंस खरीद सकता हूँ?
 
  A5: हाँ, आप अस्थायी लाइसेंस प्राप्त कर सकते हैं[यहाँ](https://purchase.aspose.com/temporary-license/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

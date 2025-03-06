@@ -3,10 +3,16 @@ title: Eksportuj określony układ DXF do obrazu za pomocą Aspose.CAD w Javie
 linktitle: Eksportuj określony układ DXF do obrazu za pomocą języka Java
 second_title: Aspose.CAD API Java
 description: Dowiedz się, jak wyeksportować określony układ DXF do obrazu za pomocą Aspose.CAD dla Java. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby zapewnić bezproblemową integrację.
-type: docs
 weight: 16
 url: /pl/java/additional-features/export-specific-layout-to-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Eksportuj określony układ DXF do obrazu za pomocą Aspose.CAD w Javie
+
 ## Wstęp
 
 Czy chcesz przekonwertować określony układ DXF na obraz przy użyciu języka Java? Dzięki Aspose.CAD dla Java możesz bezproblemowo wykonać to zadanie. W tym przewodniku krok po kroku przeprowadzimy Cię przez proces eksportowania określonego układu DXF do obrazu, podając jasne instrukcje i przykłady dla każdego etapu.
@@ -141,3 +147,9 @@ O4: Tak, Aspose.CAD dla Java obsługuje różne formaty wyjściowe, w tym PNG, B
 ### P5: Czy mogę bardziej dostosować opcje rasteryzacji?
 
  A5: Z pewnością`CadRasterizationOptions` class zapewnia różne właściwości dostosowywania. Zapoznaj się z dokumentacją, aby poznać dodatkowe opcje.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

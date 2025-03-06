@@ -1,12 +1,17 @@
 ---
 title: Java용 Aspose.CAD의 종합 튜토리얼 및 예
 linktitle: Java 튜토리얼용 Aspose.CAD
-type: docs
 weight: 10
 url: /ko/java/
 description: Aspose.CAD for Java를 사용하여 CAD 기술을 손쉽게 향상하세요. 도면 변환, 텍스트 주석, 파일 조작, 고급 기능, 라이선스 등에 대한 튜토리얼을 살펴보세요.
-is_root: true
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java용 Aspose.CAD의 종합 튜토리얼 및 예
+
 
 ## 소개
 
@@ -77,3 +82,9 @@ Java용 Aspose.CAD를 사용하여 AutoCAD 이미지, CAD 레이아웃, IFC, STL
 DGN 내보내기 튜토리얼을 통해 Java용 Aspose.CAD의 강력한 기능을 활용해 보세요. DWG의 일부로 DGN을 내보내는 것부터 래스터 이미지를 손쉽게 생성하는 것까지 효율적인 CAD 파일 조작 방법을 알아보세요.
 ### [기타 CAD 작업](./other-cad-operations/)
 튜토리얼을 통해 Java용 Aspose.CAD의 잠재력을 활용해 보세요. DGN 요소 처리부터 워터마크 추가까지 CAD 기술을 손쉽게 향상시켜 보세요.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

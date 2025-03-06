@@ -3,10 +3,16 @@ title: CAD में सहायक ब्लॉक क्लिपिंग - 
 linktitle: सीएडी में ब्लॉक क्लिपिंग का समर्थन
 second_title: Aspose.CAD .NET - CAD और BIM फ़ाइल स्वरूप
 description: जानें कि .NET के लिए Aspose.CAD का उपयोग करके CAD में ब्लॉक क्लिपिंग कैसे लागू करें। इस चरण-दर-चरण ट्यूटोरियल के साथ अपनी डिज़ाइन क्षमताओं को बढ़ाएं।
-type: docs
 weight: 12
 url: /hi/net/layout-and-object-handling/supporting-block-clipping-in-cad/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# CAD में सहायक ब्लॉक क्लिपिंग - Aspose.CAD ट्यूटोरियल
+
 ## परिचय
 
 .NET के लिए Aspose.CAD का उपयोग करके CAD में ब्लॉक क्लिपिंग का समर्थन करने पर एक व्यापक ट्यूटोरियल में आपका स्वागत है। Aspose.CAD एक शक्तिशाली लाइब्रेरी है जो डेवलपर्स को उनके .NET अनुप्रयोगों में CAD फ़ाइलों के साथ निर्बाध रूप से काम करने में सक्षम बनाती है। इस ट्यूटोरियल में, हम ब्लॉक क्लिपिंग को लागू करने पर ध्यान केंद्रित करेंगे, जो सीएडी डिज़ाइन में एक आवश्यक सुविधा है।
@@ -122,3 +128,9 @@ A1: Aspose.CAD मुख्य रूप से .NET अनुप्रयोग
 ### Q5: क्या मैं Aspose.CAD का उपयोग स्थायी लाइसेंस के बिना कर सकता हूँ?
 
  A5: हाँ, आप अस्थायी लाइसेंस प्राप्त कर सकते हैं[यहाँ](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

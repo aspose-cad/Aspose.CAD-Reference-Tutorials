@@ -3,10 +3,16 @@ title: CAD 내보내기 옵션
 linktitle: CAD 내보내기 옵션
 second_title: Aspose.CAD 자바 API
 description: Java용 Aspose.CAD를 사용하여 AutoCAD 이미지, CAD 레이아웃, IFC, STL 파일을 PDF, BMP, PNG로 쉽게 내보낼 수 있습니다. 단계별 튜토리얼을 통해 작업 흐름을 단순화하세요.
-type: docs
 weight: 30
 url: /ko/java/cad-export-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# CAD 내보내기 옵션
+
 
 ## 소개
 
@@ -50,3 +56,9 @@ Aspose.CAD for Java를 사용하여 CAD 파일을 PDF로 쉽게 내보내는 방
 Java용 Aspose.CAD를 사용하여 IFC를 PNG로 손쉽게 변환하세요. 단계별 튜토리얼을 따라해보세요.
 ### [Java용 Aspose.CAD를 사용하여 STL을 PNG로 내보내기](./export-stl-to-png/)
 Aspose.CAD를 사용하여 Java에서 STL 파일을 PNG로 내보내는 원활한 프로세스를 살펴보세요. 작업 흐름을 단순화하고 Java 프로젝트를 손쉽게 향상하세요.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

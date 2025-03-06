@@ -3,10 +3,16 @@ title: CAD를 PDF로 및 SVG로 내보내기 옵션
 linktitle: CAD를 PDF로 및 SVG로 내보내기 옵션
 second_title: Aspose.CAD 자바 API
 description: CAD에서 PDF로, SVG로 내보내기 옵션에 대한 튜토리얼을 통해 Java용 Aspose.CAD의 강력한 기능을 활용해 보세요. CAD 데이터를 정확하고 쉽게 관리하세요.
-type: docs
 weight: 22
 url: /ko/java/cad-to-pdf-and-svg-export-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# CAD를 PDF로 및 SVG로 내보내기 옵션
+
 
 
 ## 소개
@@ -38,3 +44,9 @@ Java용 Aspose.CAD를 사용하여 DWG 도면을 PDF/A1a 및 PDF/A1b 호환 파�
 CAD 도면을 SVG로 내보내는 단계별 가이드를 통해 Java용 Aspose.CAD의 잠재력을 활용해 보세요. 네임스페이스를 가져오고, 옵션을 구성하고, Aspose.CAD를 Java 프로젝트에 원활하게 통합하는 방법을 알아보세요.
 ### [CFF를 PDF로 변환 - Java 튜토리얼용 Aspose.CAD](./cff-to-pdf-conversion/)
 Aspose.CAD for Java를 사용하여 CFF에서 PDF로의 원활한 변환을 살펴보세요. 쉬운 단계, 신뢰할 수 있는 결과.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

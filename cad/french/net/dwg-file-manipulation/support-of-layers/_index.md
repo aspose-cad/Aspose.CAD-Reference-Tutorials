@@ -3,10 +3,16 @@ title: Gestion des calques dans des fichiers DWG avec C# - Tutoriel Aspose.CAD
 linktitle: Gestion des calques dans les fichiers DWG avec C#
 second_title: Aspose.CAD .NET - Format de fichier CAO et BIM
 description: Apprenez à gérer les calques dans les fichiers DWG à l'aide de C# avec Aspose.CAD pour .NET. Guide étape par étape pour une manipulation efficace des fichiers CAO.
-type: docs
 weight: 11
 url: /fr/net/dwg-file-manipulation/support-of-layers/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Gestion des calques dans des fichiers DWG avec C# - Tutoriel Aspose.CAD
+
 ## Introduction
 
 Bienvenue dans notre didacticiel approfondi sur la gestion des calques dans les fichiers DWG à l'aide de C# avec Aspose.CAD pour .NET. Aspose.CAD est une bibliothèque puissante qui permet aux développeurs de travailler de manière transparente avec les formats de fichiers CAO. Dans ce didacticiel, nous vous guiderons étape par étape tout au long du processus de gestion des calques dans les fichiers DWG.
@@ -109,3 +115,9 @@ Dans ce didacticiel, nous avons parcouru le processus de gestion des calques dan
 ### Q5 : Quelles sont les options de licence pour Aspose.CAD ?
 
  A5 : Vous pouvez explorer les options de licence et acheter les détails[ici](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

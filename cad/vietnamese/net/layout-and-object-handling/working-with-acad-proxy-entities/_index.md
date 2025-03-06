@@ -3,10 +3,16 @@ title: Làm việc với các thực thể proxy ACAD - Hướng dẫn Aspose.CA
 linktitle: Làm việc với các thực thể proxy ACAD
 second_title: Aspose.CAD .NET - Định dạng tệp CAD và BIM
 description: Khám phá Aspose.CAD cho .NET và hợp lý hóa quy trình làm việc CAD của bạn. Chuyển đổi, chỉnh sửa và quản lý các Thực thể proxy ACAD một cách dễ dàng.
-type: docs
 weight: 13
 url: /vi/net/layout-and-object-handling/working-with-acad-proxy-entities/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Làm việc với các thực thể proxy ACAD - Hướng dẫn Aspose.CAD
+
 ## Giới thiệu
 
 Trong thế giới phát triển .NET năng động, việc tạo và quản lý các bản vẽ CAD là một nhiệm vụ quan trọng. Aspose.CAD for .NET cung cấp một giải pháp mạnh mẽ để làm việc với các Thực thể Proxy AutoCAD. Hướng dẫn này sẽ hướng dẫn bạn các bước cần thiết để khai thác sức mạnh của Aspose.CAD và hợp lý hóa quy trình công việc liên quan đến CAD của bạn.
@@ -98,3 +104,9 @@ Câu trả lời 1: Có, Aspose.CAD hỗ trợ nhiều định dạng CAD khác 
 ### Câu hỏi 5: Tôi có thể mua giấy phép đầy đủ cho Aspose.CAD cho .NET ở đâu?
 
  Câu trả lời 5: Bạn có thể mua giấy phép từ[trang mua hàng](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

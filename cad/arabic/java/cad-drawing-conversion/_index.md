@@ -3,10 +3,16 @@ title: تحويل رسم CAD
 linktitle: تحويل رسم CAD
 second_title: Aspose.CAD جافا API
 description: قم بتحويل رسومات CAD بسهولة باستخدام Aspose.CAD لـ Java. تعلم كيفية تحويل ملفات CAD وتصديرها وتحسينها بدقة باستخدام برامجنا التعليمية خطوة بخطوة.
-type: docs
 weight: 20
 url: /ar/java/cad-drawing-conversion/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تحويل رسم CAD
+
 
 ## مقدمة
 
@@ -50,3 +56,9 @@ url: /ar/java/cad-drawing-conversion/
 استكشف الدليل التفصيلي خطوة بخطوة لتصدير تخطيطات DWG محددة إلى PDF باستخدام Aspose.CAD لـ Java. قم بتحسين سير عمل CAD الخاص بك دون عناء.
 ### [تحويل تنسيق DWT إلى تنسيق DXF باستخدام Aspose.CAD لـ Java](./convert-dwt-to-dxf/)
 اكتشف التحويل السلس لـ DWT إلى DXF باستخدام Aspose.CAD لـ Java. اتبع دليلنا خطوة بخطوة لمعالجة ملفات CAD بكفاءة.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

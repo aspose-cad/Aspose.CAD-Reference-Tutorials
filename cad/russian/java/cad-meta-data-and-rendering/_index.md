@@ -3,10 +3,16 @@ title: Метаданные САПР и рендеринг
 linktitle: Метаданные САПР и рендеринг
 second_title: API Aspose.CAD Java
 description: Раскройте возможности Aspose.CAD для Java с помощью наших руководств! Научитесь легко читать метаданные XREF и преобразовывать документы DWG в изображения для более эффективной разработки САПР.
-type: docs
 weight: 27
 url: /ru/java/cad-meta-data-and-rendering/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Метаданные САПР и рендеринг
+
 
 
 ## Введение
@@ -33,3 +39,9 @@ url: /ru/java/cad-meta-data-and-rendering/
 Изучите Aspose.CAD для Java и освойте чтение метаданных XREF из файлов DWG без особых усилий. Ускорьте разработку САПР с помощью этой мощной библиотеки Java.
 ### [Преобразование документа DWG в изображение с помощью Aspose.CAD для Java](./render-dwg-to-image/)
 Изучите плавную интеграцию Aspose.CAD для Java при преобразовании документов DWG в изображения. Следуйте нашему пошаговому руководству для достижения эффективных результатов.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Ställ in dukstorlek och läge
 linktitle: Ställ in dukstorlek och läge
 second_title: Aspose.CAD Java API
 description: Utforska kraften i Aspose.CAD för Java med vår steg-för-steg-guide om hur du ställer in dukens storlek och läge. Konvertera enkelt CAD-filer till PDF- och TIFF-format.
-type: docs
 weight: 16
 url: /sv/java/advanced-cad-features/set-canvas-size-and-mode/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ställ in dukstorlek och läge
+
 ## Introduktion
 
 Vill du utnyttja kraften i Aspose.CAD för Java för att förbättra din CAD-konverteringsprocess? Denna omfattande guide kommer att leda dig genom stegen för att ställa in dukens storlek och läge med Aspose.CAD för Java. Oavsett om du är en erfaren utvecklare eller precis har börjat, kommer den här handledningen att ge dig de insikter du behöver.
@@ -126,3 +132,9 @@ S1: Ja, Aspose.CAD är designat för att sömlöst integreras med olika Java-ram
 ### F5: Hur köper jag Aspose.CAD för Java?
 
  A5: Köp produkten[här](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

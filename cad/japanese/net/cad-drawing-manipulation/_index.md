@@ -3,10 +3,16 @@ title: CAD図面の操作
 linktitle: CAD図面の操作
 second_title: Aspose.CAD .NET - CAD および BIM ファイル形式
 description: Aspose.CAD for .NET チュートリアルを使用して、CAD プロジェクトを簡単に強化します。ステップバイステップのガイドを使用して、CAD 図面のサイズ変更、変換、最適化をシームレスに行います。
-type: docs
 weight: 21
 url: /ja/net/cad-drawing-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# CAD図面の操作
+
 
 ## 導入
 
@@ -44,3 +50,9 @@ Aspose.CAD for .NET を使用して、CAD レイアウトをラスター イメ�
 Aspose.CAD for .NET の威力を実感してください。 CAD レンダリングの追跡をシームレスに有効にします。制御と効率を強化するには、ステップバイステップのガイドに従ってください。
 ### [Aspose.CAD for .NET で CAD レイアウトのサイズを取得する](./get-size-of-cad-layout/)
 Aspose.CAD を使用して .NET で CAD レイアウト サイズを取得する方法を学習します。 CAD ファイルを効率的に操作するには、ステップバイステップのガイドに従ってください。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

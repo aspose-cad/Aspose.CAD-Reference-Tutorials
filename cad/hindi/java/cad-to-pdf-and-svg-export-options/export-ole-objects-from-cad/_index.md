@@ -3,10 +3,16 @@ title: जावा के लिए Aspose.CAD का उपयोग करक
 linktitle: CAD से OLE ऑब्जेक्ट निर्यात करें
 second_title: Aspose.CAD जावा एपीआई
 description: जावा के लिए Aspose.CAD की क्षमता को अनलॉक करें। CAD फ़ाइलों से OLE ऑब्जेक्ट को आसानी से निर्यात करें। निर्बाध सीएडी डेटा प्रबंधन के लिए अभी डाउनलोड करें।
-type: docs
 weight: 10
 url: /hi/java/cad-to-pdf-and-svg-export-options/export-ole-objects-from-cad/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# जावा के लिए Aspose.CAD का उपयोग करके CAD से OLE ऑब्जेक्ट निर्यात करें
+
 ## परिचय
 
 कंप्यूटर-एडेड डिज़ाइन (CAD) की गतिशील दुनिया में, OLE (ऑब्जेक्ट लिंकिंग और एंबेडिंग) ऑब्जेक्ट को कुशलतापूर्वक प्रबंधित करना और निकालना महत्वपूर्ण है। जावा के लिए Aspose.CAD, CAD फ़ाइलों से OLE ऑब्जेक्ट निर्यात करने के लिए एक शक्तिशाली समाधान प्रदान करता है। यह चरण-दर-चरण मार्गदर्शिका आपको प्रक्रिया के बारे में बताएगी, यह सुनिश्चित करते हुए कि आप इस उपकरण की पूरी क्षमता का उपयोग करें।
@@ -97,3 +103,9 @@ A2: हां, Aspose.CAD निर्यात सेटिंग्स को 
 ### Q5: मैं Aspose.CAD के लिए लाइसेंस कैसे खरीद सकता हूं?
 
 A5: पर जाएँ[खरीद पृष्ठ](https://purchase.aspose.com/buy) ऐसा लाइसेंस प्राप्त करना जो आपकी विकास आवश्यकताओं के अनुरूप हो।
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: PLT och vattenmärkning
 linktitle: PLT och vattenmärkning
 second_title: Aspose.CAD .NET - CAD- och BIM-filformat
 description: Lås upp potentialen för PLT-format med Aspose.CAD för .NET. Integrera enkelt PLT-filer i dina applikationer med våra steg-för-steg tutorials.
-type: docs
 weight: 37
 url: /sv/net/plt-and-watermarking/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# PLT och vattenmärkning
+
 
 ## Introduktion
 
@@ -46,3 +52,9 @@ Sammanfattningsvis, med Aspose.CAD för .NET är det inom räckhåll att behärs
 Upptäck sömlöst stöd för PLT-format i Aspose.CAD för .NET. Följ vår steg-för-steg-guide för att enkelt integrera PLT-filer i dina .NET-applikationer.
 ### [Lägga till vattenstämplar till CAD-ritningar - Aspose.CAD Guide](./adding-watermarks-to-cad-drawings/)
 Förbättra dina CAD-ritningar med professionella vattenstämplar med Aspose.CAD för .NET. Följ vår steg-för-steg-guide för personliga och engagerande design.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

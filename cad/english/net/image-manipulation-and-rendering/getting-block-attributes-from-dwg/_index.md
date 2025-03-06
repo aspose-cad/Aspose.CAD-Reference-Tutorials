@@ -3,10 +3,16 @@ title: Getting Block Attributes from DWG Files - Aspose.CAD Tutorial
 linktitle: Getting Block Attributes from DWG Files
 second_title: Aspose.CAD .NET - CAD and BIM File Format
 description: Unlock the potential of CAD files with Aspose.CAD for .NET. Extract block attributes effortlessly.
-type: docs
 weight: 10
 url: /net/image-manipulation-and-rendering/getting-block-attributes-from-dwg/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Getting Block Attributes from DWG Files - Aspose.CAD Tutorial
+
 ## Introduction
 
 In the dynamic world of Computer-Aided Design (CAD), extracting valuable information from DWG files is crucial for many applications. Aspose.CAD for .NET provides a powerful solution to work with CAD files efficiently. In this tutorial, we will delve into the process of retrieving block attributes from DWG files using Aspose.CAD, step by step.
@@ -93,3 +99,10 @@ A4: Yes, you can obtain temporary licenses [here](https://purchase.aspose.com/te
 ### Q5: Where can I find the documentation for Aspose.CAD for .NET?
 
 A5: Refer to the comprehensive [documentation](https://reference.aspose.com/cad/net/) for detailed information and examples.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

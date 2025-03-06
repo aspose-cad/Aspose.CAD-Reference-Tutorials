@@ -3,10 +3,16 @@ title: تحويل تنسيق DWG إلى تنسيق DWF - دليل Aspose.CAD
 linktitle: تحويل تنسيق DWG إلى DWF
 second_title: Aspose.CAD .NET - تنسيق ملف CAD وBIM
 description: استكشف التحويل السلس لملف DWG إلى DWF باستخدام Aspose.CAD لـ .NET. اتبع دليلنا خطوة بخطوة للحصول على تجربة خالية من المتاعب.
-type: docs
 weight: 14
 url: /ar/net/conversion-and-export/converting-dwg-to-dwf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تحويل تنسيق DWG إلى تنسيق DWF - دليل Aspose.CAD
+
 ## مقدمة
 
 هل تتطلع إلى تحويل ملفات DWG بسلاسة إلى تنسيق DWF متعدد الاستخدامات باستخدام Aspose.CAD لـ .NET؟ تم تصميم هذا الدليل خطوة بخطوة خصيصًا لك. Aspose.CAD هي مكتبة قوية تمكن المطورين من العمل مع ملفات CAD دون عناء. في هذا البرنامج التعليمي، سنستكشف عملية تحويل DWG إلى DWF، مع تفصيل كل خطوة لضمان تجربة سلسة.
@@ -97,3 +103,9 @@ using (var cadImage = (CadImage)Image.Load(inputFile))
 ### س5: هل يوجد مصدر توثيقي تفصيلي متاح؟
 
  ج5: بالتأكيد! الرجوع إلى الوثائق الشاملة[هنا](https://reference.aspose.com/cad/net/) للحصول على معلومات متعمقة.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: 轉換和導出
 linktitle: 轉換和導出
 second_title: Aspose.CAD .NET - CAD 和 BIM 檔案格式
 description: 使用 Aspose.CAD 解鎖 CAD 檔案操作的世界！了解渲染鮮豔的色彩並轉換 DWG 檔案。深入研究 DWT 和 DWG 格式以獲得精確的結果。
-type: docs
 weight: 25
 url: /zh-hant/net/conversion-and-export/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 轉換和導出
+
 
 
 ## 介紹
@@ -45,3 +51,9 @@ url: /zh-hant/net/conversion-and-export/
 使用 Aspose.CAD for .NET 將 DWG 轉換為合規性 PDF。請按照我們的教程獲取逐步指導。
 ### [將 DWG 轉換為 DWF 格式 - Aspose.CAD 指南](./converting-dwg-to-dwf/)
 探索使用 Aspose.CAD for .NET 將 DWG 無縫轉換為 DWF。請按照我們的分步指南獲得無憂體驗。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

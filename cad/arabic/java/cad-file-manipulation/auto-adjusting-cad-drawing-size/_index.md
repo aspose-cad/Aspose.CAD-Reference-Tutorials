@@ -3,10 +3,16 @@ title: الضبط التلقائي لحجم رسم CAD باستخدام Aspose.C
 linktitle: الضبط التلقائي لحجم رسم CAD
 second_title: Aspose.CAD جافا API
 description: استكشف العملية السلسة للضبط التلقائي لأحجام رسم CAD في Java باستخدام Aspose.CAD. اتبع دليلنا خطوة بخطوة لمعالجة ملفات CAD بكفاءة.
-type: docs
 weight: 13
 url: /ar/java/cad-file-manipulation/auto-adjusting-cad-drawing-size/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# الضبط التلقائي لحجم رسم CAD باستخدام Aspose.CAD لـ Java
+
 ## مقدمة
 
 في عالم CAD (التصميم بمساعدة الكمبيوتر)، يعد ضبط أحجام الرسم مطلبًا شائعًا، ومع Aspose.CAD لـ Java، تصبح عملية سلسة. توفر هذه المكتبة القوية أدوات شاملة للتعامل مع ملفات CAD في تطبيقات Java. في هذا البرنامج التعليمي، سوف نستكشف عملية الضبط التلقائي لأحجام رسم CAD خطوة بخطوة باستخدام Aspose.CAD.
@@ -107,3 +113,9 @@ objImage.save(outPath, bmpOptions);
 ### س5: هل هناك نسخة تجريبية مجانية متاحة لـ Aspose.CAD لـ Java؟
 
  ج5: نعم، يمكنك الوصول إلى النسخة التجريبية المجانية[هنا](https://releases.aspose.com/) لاستكشاف إمكانيات المكتبة.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

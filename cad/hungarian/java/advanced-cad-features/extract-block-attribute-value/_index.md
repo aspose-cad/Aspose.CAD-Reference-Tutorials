@@ -3,10 +3,16 @@ title: Kivonja a blokk attribútum értékét a külső hivatkozásból az Aspos
 linktitle: Kivonja a blokk attribútum értékét a külső hivatkozásból
 second_title: Aspose.CAD Java API
 description: Tekintse meg oktatóanyagunkat a blokkattribútumértékek kinyerésére DWG külső hivatkozásokból Java nyelven az Aspose.CAD segítségével. Fokozza a CAD-fejlesztési munkafolyamatot könnyedén.
-type: docs
 weight: 19
 url: /hu/java/advanced-cad-features/extract-block-attribute-value/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Kivonja a blokk attribútum értékét a külső hivatkozásból az Aspose.CAD használatával Java nyelven
+
 ## Bevezetés
 
 Üdvözöljük átfogó útmutatónkban a blokkattribútumértékek külső hivatkozásokból Java nyelven történő kinyeréséhez az Aspose.CAD használatával. Ha Ön CAD-rajzokkal dolgozó fejlesztő, és egyszerűsíteni szeretné munkafolyamatát, akkor jó helyen jár. Ebben az oktatóanyagban lépésről lépésre végigvezetjük a folyamaton, kihasználva az Aspose.CAD for Java hatékony funkcióit.
@@ -89,3 +95,9 @@ Ebben az oktatóanyagban megvizsgáltuk a blokk attribútumértékek kinyerésé
 ### 5. kérdés: Mi a folyamat az Aspose.CAD ideiglenes licencének megszerzéséhez?
 
  V5: Ideiglenes engedély megszerzéséhez látogasson el ide[ez a link](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Khám phá cờ lót của tệp DWG - Hướng dẫn Aspose.CAD
 linktitle: Khám phá cờ lót của tệp DWG
 second_title: Aspose.CAD .NET - Định dạng tệp CAD và BIM
 description: Khai phá sức mạnh của Aspose.CAD cho .NET trong việc khám phá các cờ lót tệp DWG. Thực hiện theo hướng dẫn từng bước của chúng tôi.
-type: docs
 weight: 13
 url: /vi/net/dwg-file-manipulation/exploring-underlay-flags-of-dwg/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Khám phá cờ lót của tệp DWG - Hướng dẫn Aspose.CAD
+
 ## Giới thiệu
 
 Nếu bạn đang tìm hiểu sâu về thế giới phức tạp của các tệp CAD, cụ thể là các tệp DWG và bạn muốn khám phá những bí ẩn về cờ lót, thì bạn đã đến đúng nơi. Hướng dẫn này sẽ hướng dẫn bạn qua quá trình khám phá các cờ lót trong tệp DWG bằng thư viện Aspose.CAD cho .NET mạnh mẽ.
@@ -114,3 +120,10 @@ A4: Mua thư viện[đây](https://purchase.aspose.com/buy).
 ### Câu 5: Có bản dùng thử miễn phí không?
 
  Câu trả lời 5: Có, bạn có thể truy cập bản dùng thử miễn phí[đây](https://releases.aspose.com/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Modifica collegamenti ipertestuali DWG - Tutorial Java Aspose.CAD
 linktitle: Modifica collegamento ipertestuale
 second_title: API Java Aspose.CAD
 description: Migliora la precisione del disegno DWG con Aspose.CAD per Java. Modifica i collegamenti ipertestuali senza problemi, garantendo riferimenti accurati. Prova subito la prova gratuita!
-type: docs
 weight: 17
 url: /it/java/other-cad-operations/edit-hyperlink/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Modifica collegamenti ipertestuali DWG - Tutorial Java Aspose.CAD
+
 Nell'era digitale di oggi, la gestione efficiente dei disegni DWG è fondamentale per i professionisti di vari settori. Aspose.CAD per Java fornisce una potente soluzione per modificare i collegamenti ipertestuali all'interno dei disegni DWG, garantendo integrazione e personalizzazione senza soluzione di continuità. Questa guida passo passo ti guiderà attraverso il processo di modifica dei collegamenti ipertestuali utilizzando Aspose.CAD per Java.
 
 ## introduzione
@@ -99,3 +105,9 @@ A1: Aspose.CAD per Java supporta varie versioni di disegni DWG, fornendo compati
 ### Q5: Posso ottenere una licenza temporanea a scopo di test?
 
  R5: Sì, puoi ottenere una licenza temporanea[Qui](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

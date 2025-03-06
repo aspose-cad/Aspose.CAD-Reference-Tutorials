@@ -3,10 +3,16 @@ title: Chuyển đổi DWG sang PDF bằng tọa độ trong C# - Hướng dẫn
 linktitle: Chuyển đổi DWG sang PDF bằng tọa độ trong C#
 second_title: Aspose.CAD .NET - Định dạng tệp CAD và BIM
 description: Tìm hiểu cách chuyển đổi DWG sang PDF với tọa độ cụ thể trong C# bằng Aspose.CAD. Hãy làm theo hướng dẫn từng bước của chúng tôi để chuyển đổi tệp CAD chính xác và hiệu quả.
-type: docs
 weight: 11
 url: /vi/net/conversion-and-export/converting-dwg-to-pdf-with-coordinates/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Chuyển đổi DWG sang PDF bằng tọa độ trong C# - Hướng dẫn Aspose.CAD
+
 ## Giới thiệu
 
 Chào mừng bạn đến với hướng dẫn toàn diện này về cách chuyển đổi tệp DWG sang PDF với tọa độ được chỉ định bằng Aspose.CAD cho .NET. Aspose.CAD là một thư viện mạnh mẽ cho phép các nhà phát triển làm việc liền mạch với các định dạng tệp CAD trong các ứng dụng .NET của họ. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn quy trình chuyển đổi tệp DWG sang PDF đồng thời cung cấp tọa độ cụ thể để nâng cao độ chính xác.
@@ -134,3 +140,9 @@ A4: Chắc chắn rồi! Khám phá các tùy chọn mở rộng do Aspose.CAD c
 ### Câu hỏi 5: Tôi có thể tìm thêm hỗ trợ hoặc thảo luận cộng đồng ở đâu?
 
 A5: Tham quan[Diễn đàn Aspose.CAD](https://forum.aspose.com/c/cad/19) để được cộng đồng hỗ trợ và thảo luận.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

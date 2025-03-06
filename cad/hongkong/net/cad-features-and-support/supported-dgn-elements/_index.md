@@ -3,10 +3,16 @@ title: Aspose.CAD for .NET 支援的 DGN 元素
 linktitle: 支持的 DGN 元素
 second_title: Aspose.CAD .NET - CAD 和 BIM 檔案格式
 description: 探索 Aspose.CAD for .NET 處理 DGN 檔案的強大功能。按照我們的逐步指南無縫處理 2D 和 3D 元素。
-type: docs
 weight: 18
 url: /zh-hant/net/cad-features-and-support/supported-dgn-elements/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.CAD for .NET 支援的 DGN 元素
+
 ## 介紹
 
 您是一位希望無縫使用 DGN 檔案的 .NET 開發人員嗎？ Aspose.CAD for .NET 提供了一個強大的解決方案來有效處理 DGN 檔案。在本教學中，我們將深入研究支援的 DGN 元素，引導您完成使用 Aspose.CAD for .NET 的流程。
@@ -127,3 +133,9 @@ A3：是的，您可以免費試用[這裡](https://releases.aspose.com/).
 ### Q5: 需要協助或有疑問嗎？
 
 A5：造訪 Aspose.CAD for .NET 社區[支援論壇](https://forum.aspose.com/c/cad/19).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

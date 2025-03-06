@@ -3,10 +3,16 @@ title: Licencování a konfigurace
 linktitle: Licencování a konfigurace
 second_title: Aspose.CAD .NET – formát souborů CAD a BIM
 description: Pozvedněte svou hru pro manipulaci se soubory CAD s Aspose.CAD pro .NET! Aplikujte licence hladce pomocí FileStream nebo cestou pomocí našich podrobných výukových programů.
-type: docs
 weight: 20
 url: /cs/net/licensing-and-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Licencování a konfigurace
+
 
 ## Úvod
 
@@ -32,3 +38,9 @@ Závěrem lze říci, že s našimi podrobnými průvodci nejenže bez námahy p
 Zvládnutí Aspose.CAD for .NET: Aplikujte licence hladce pomocí FileStream. Prozkoumejte průvodce krok za krokem a odemkněte potenciál. Stáhnout teď!
 ### [Měřené licencování v Aspose.CAD pro .NET](./metered-licensing/)
 Odemkněte potenciál Aspose.CAD s odměřeným licencováním v .NET. Plynule optimalizujte využití zdrojů. Prozkoumejte našeho podrobného průvodce.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

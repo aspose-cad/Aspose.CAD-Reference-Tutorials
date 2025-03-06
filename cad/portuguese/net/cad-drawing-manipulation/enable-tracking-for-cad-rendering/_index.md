@@ -3,10 +3,16 @@ title: Habilite o rastreamento para renderização de CAD no Aspose.CAD for .NET
 linktitle: Ativar rastreamento para renderização CAD
 second_title: Aspose.CAD .NET - Formato de arquivo CAD e BIM
 description: Descubra o poder do Aspose.CAD para .NET. Ative o rastreamento para renderização CAD perfeitamente. Siga nosso guia passo a passo para maior controle e eficiência.
-type: docs
 weight: 13
 url: /pt/net/cad-drawing-manipulation/enable-tracking-for-cad-rendering/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Habilite o rastreamento para renderização de CAD no Aspose.CAD for .NET
+
 ## Introdução
 
 No mundo dinâmico do desenvolvimento de software, o Aspose.CAD for .NET se destaca como uma solução robusta para renderização de Design Auxiliado por Computador (CAD). Esta poderosa biblioteca permite que os desenvolvedores criem, manipulem e renderizem arquivos CAD perfeitamente no ambiente .NET. Neste tutorial, nos aprofundaremos em um aspecto crucial do Aspose.CAD for .NET – permitindo o rastreamento para renderização de CAD.
@@ -110,3 +116,9 @@ A2: Com certeza! Aspose.CAD for .NET integra-se perfeitamente com vários framew
 ### P5: Quais são os benefícios de ativar o rastreamento na renderização de CAD?
 
 R5: A ativação do rastreamento melhora a rastreabilidade e o controle durante o processo de renderização, garantindo um fluxo de trabalho mais transparente e eficiente.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

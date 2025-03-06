@@ -3,10 +3,16 @@ title: Java용 Aspose.CAD를 사용하여 특정 DXF 레이아웃을 PDF로 내�
 linktitle: Java를 사용하여 특정 DXF 레이아웃을 PDF로 내보내기
 second_title: Aspose.CAD 자바 API
 description: Java용 Aspose.CAD를 사용하여 원활한 DXF에서 PDF로의 변환을 살펴보세요. 특정 레이아웃을 정밀하게 쉽게 내보낼 수 있습니다.
-type: docs
 weight: 17
 url: /ko/java/additional-features/export-specific-layout-to-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java용 Aspose.CAD를 사용하여 특정 DXF 레이아웃을 PDF로 내보내기
+
 ## 소개
 
 CAD 도면으로 작업하는 Java 개발자라면 다양한 형식 간의 효율적이고 정확한 변환의 중요성을 이해하게 될 것입니다. Aspose.CAD for Java는 개발자가 CAD 파일을 원활하게 조작할 수 있도록 지원하는 강력한 라이브러리입니다. 이 튜토리얼에서는 Aspose.CAD for Java를 사용하여 특정 DXF 레이아웃을 PDF로 내보내는 과정을 안내합니다.
@@ -105,3 +111,9 @@ A2: 예, 특정 레이아웃 요구 사항에 따라 래스터화 옵션을 쉽�
 ### Q5: Java용 Aspose.CAD에 대한 지원을 어떻게 받을 수 있나요?
 
  A5: 지원 포럼을 방문하세요.[여기](https://forum.aspose.com/c/cad/19)Aspose 커뮤니티의 도움을 받으세요.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

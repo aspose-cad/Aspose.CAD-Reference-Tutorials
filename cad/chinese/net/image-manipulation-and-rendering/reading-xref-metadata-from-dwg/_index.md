@@ -3,10 +3,16 @@ title: 从 DWG 文件读取 XREF 元数据 - Aspose.CAD 教程
 linktitle: 从 DWG 文件读取 XREF 元数据
 second_title: Aspose.CAD .NET - CAD 和 BIM 文件格式
 description: 通过我们关于从 DWG 文件读取 XREF 元数据的分步教程，释放 Aspose.CAD for .NET 的潜力。
-type: docs
 weight: 16
 url: /zh/net/image-manipulation-and-rendering/reading-xref-metadata-from-dwg/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 从 DWG 文件读取 XREF 元数据 - Aspose.CAD 教程
+
 ## 介绍
 
 您准备好使用 Aspose.CAD for .NET 提升您的 CAD 文件操作能力了吗？在本分步指南中，我们将深入研究这个强大库的一个特定方面 - 从 DWG 文件读取 XREF 元数据。无论您是经验丰富的开发人员还是刚刚开始编码之旅，本教程都会将该过程分解为易于理解的步骤。
@@ -107,3 +113,9 @@ A1：是的，Aspose.CAD for .NET 支持多种 CAD 格式，确保您的应用�
 ### Q5：需要帮助或有具体疑问？
 
  A5：加入 Aspose.CAD 社区：[Aspose.CAD论坛](https://forum.aspose.com/c/cad/19)以获得专家支持和讨论。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

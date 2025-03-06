@@ -3,10 +3,16 @@ title: 在 Aspose.CAD for .NET 中设置画布大小和模式
 linktitle: 设置画布大小和模式
 second_title: Aspose.CAD .NET - CAD 和 BIM 文件格式
 description: 探索有关在 Aspose.CAD for .NET 中设置画布大小和模式的分步指南。使用此综合教程轻松优化您的 CAD 渲染。
-type: docs
 weight: 16
 url: /zh/net/cad-features-and-support/setting-canvas-size-and-mode/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.CAD for .NET 中设置画布大小和模式
+
 ## 介绍
 
 您准备好释放 Aspose.CAD for .NET 的全部潜力并彻底改变您的 CAD 渲染体验了吗？在本分步教程中，我们将深入研究使用强大的 Aspose.CAD 库设置画布大小和模式的复杂性。无论您是经验丰富的开发人员还是新手，本指南都将引导您完成整个过程，确保您有效地利用 Aspose.CAD 的功能。
@@ -119,3 +125,9 @@ A3： 如需支持和讨论，请访问[Aspose.CAD论坛](https://forum.aspose.c
 ### Q5：如何购买 Aspose.CAD for .NET？
 
  A5：要购买 Aspose.CAD，请访问[购买页面](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

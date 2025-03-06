@@ -3,10 +3,16 @@ title: Rejtett sorok támogatása DWG-fájlokban az Aspose.CAD for Java használ
 linktitle: Rejtett sorok támogatása DWG-fájlokban Java használatával
 second_title: Aspose.CAD Java API
 description: Ismerje meg, hogyan javíthatja Java-alkalmazása DWG-fájlkezelési képességeit az Aspose.CAD használatával. Kövesse lépésenkénti útmutatónkat a rejtett vonalak támogatásához. Fokozza könnyedén CAD-rajzkezelését.
-type: docs
 weight: 11
 url: /hu/java/cad-text-and-formatting/support-hidden-lines-in-dwg/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Rejtett sorok támogatása DWG-fájlokban az Aspose.CAD for Java használatával
+
 ## Bevezetés
 
 Üdvözöljük az Aspose.CAD for Java kihasználásáról szóló átfogó útmutatóban, amely javítja DWG-fájlkezelési képességeit. Ebben az oktatóanyagban egy konkrét szempontra összpontosítunk: a rejtett sorok támogatására a DWG-fájlokban. Akár tapasztalt fejlesztő, akár csak most kezdő, ez az útmutató lépésről lépésre segít eligazodni a folyamaton.
@@ -117,3 +123,10 @@ Ez az oktatóanyag végigvezeti a rejtett sorok DWG-fájlokban való támogatás
 ### 5. kérdés: Vásárolhatok ideiglenes licencet az Aspose.CAD for Java számára?
 
  V5: Igen, beszerezhet ideiglenes engedélyt[itt](https://purchase.aspose.com/temporary-license/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

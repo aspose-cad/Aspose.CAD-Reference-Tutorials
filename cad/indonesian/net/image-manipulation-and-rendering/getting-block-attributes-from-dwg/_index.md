@@ -3,10 +3,16 @@ title: Mendapatkan Atribut Blok dari File DWG - Tutorial Aspose.CAD
 linktitle: Mendapatkan Atribut Blokir dari File DWG
 second_title: Aspose.CAD .NET - Format File CAD dan BIM
 description: Buka potensi file CAD dengan Aspose.CAD untuk .NET. Ekstrak atribut blok dengan mudah.
-type: docs
 weight: 10
 url: /id/net/image-manipulation-and-rendering/getting-block-attributes-from-dwg/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Mendapatkan Atribut Blok dari File DWG - Tutorial Aspose.CAD
+
 ## Perkenalan
 
 Dalam dunia Computer-Aided Design (CAD) yang dinamis, mengekstraksi informasi berharga dari file DWG sangat penting untuk banyak aplikasi. Aspose.CAD untuk .NET memberikan solusi ampuh untuk bekerja dengan file CAD secara efisien. Dalam tutorial ini, kita akan mempelajari proses mengambil atribut blok dari file DWG menggunakan Aspose.CAD, langkah demi langkah.
@@ -93,3 +99,9 @@ A1: Ya, Aspose.CAD mendukung berbagai format CAD, termasuk DWG, DXF, DWT, dan DG
 ### Q5: Di mana saya dapat menemukan dokumentasi Aspose.CAD untuk .NET?
 
  A5: Lihat secara komprehensif[dokumentasi](https://reference.aspose.com/cad/net/) untuk informasi rinci dan contoh.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

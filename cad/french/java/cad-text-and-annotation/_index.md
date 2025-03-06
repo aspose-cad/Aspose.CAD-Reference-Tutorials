@@ -3,10 +3,16 @@ title: Texte CAO et annotations
 linktitle: Texte CAO et annotations
 second_title: API Java Aspose.CAD
 description: Améliorez vos dessins DWG sans effort avec Aspose.CAD pour Java. Maîtrisez l'ajout et le remplacement de polices dans les fichiers DWG. Guides étape par étape pour la perfection visuelle.
-type: docs
 weight: 21
 url: /fr/java/cad-text-and-annotation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Texte CAO et annotations
+
 
 ## Introduction 
 
@@ -36,3 +42,9 @@ Améliorez vos dessins DWG sans effort avec Aspose.CAD pour Java. Ajoutez du tex
 Améliorez vos conceptions CAO sans effort. Apprenez à remplacer les polices dans les fichiers DWG à l'aide d'Aspose.CAD pour Java. Guide étape par étape pour la perfection visuelle.
 ### [Remplacer la police d'un style particulier dans DWG à l'aide d'Aspose.CAD pour Java](./substitute-font-of-particular-style-in-dwg/)
 Découvrez comment remplacer les polices dans les fichiers DWG à l'aide d'Aspose.CAD pour Java. Guide étape par étape pour personnaliser les styles avec précision.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

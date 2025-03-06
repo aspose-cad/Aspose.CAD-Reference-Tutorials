@@ -3,10 +3,16 @@ title: تصدير رسومات CAD إلى تنسيق SVG - دليل Aspose.CAD
 linktitle: تصدير رسومات CAD إلى تنسيق SVG
 second_title: Aspose.CAD .NET - تنسيق ملف CAD وBIM
 description: استكشف العملية السلسة لتصدير رسومات CAD إلى SVG باستخدام Aspose.CAD لـ .NET. عزز تطوير CAD الخاص بك بالمرونة والتخصيص.
-type: docs
 weight: 15
 url: /ar/net/advanced-export-techniques/exporting-cad-drawings-to-svg/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تصدير رسومات CAD إلى تنسيق SVG - دليل Aspose.CAD
+
 ## مقدمة
 
 في عالم CAD (التصميم بمساعدة الكمبيوتر) الديناميكي، تعد القدرة على تصدير الرسومات بتنسيقات مختلفة مهارة بالغة الأهمية. يعد SVG (Scalable Vector Graphics) أحد هذه التنسيقات التي اكتسبت شعبية بسبب قابليتها للتوسع وتعدد استخداماتها. في هذا البرنامج التعليمي، سنستكشف كيفية تصدير رسومات CAD إلى SVG باستخدام مكتبة Aspose.CAD for .NET القوية.
@@ -87,3 +93,9 @@ using (Image image = Image.Load(MyDir + "sample.dwg"))
 ### س5: كيف يمكنني الحصول على الدعم أو طرح الأسئلة المتعلقة بـ Aspose.CAD؟
 
  ج5: قم بزيارة منتدى المجتمع[هنا](https://forum.aspose.com/c/cad/19) للدعم والمناقشات.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

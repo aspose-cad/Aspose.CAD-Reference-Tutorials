@@ -3,10 +3,16 @@ title: Включить отслеживание процесса рендери
 linktitle: Включить отслеживание процесса рендеринга САПР
 second_title: API Aspose.CAD Java
 description: Улучшите визуализацию САПР с помощью Aspose.CAD для Java. Следуйте нашему пошаговому руководству, чтобы включить отслеживание и улучшить качество преобразования PDF-файлов.
-type: docs
 weight: 10
 url: /ru/java/advanced-cad-features/enable-tracking-for-cad-rendering-process/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Включить отслеживание процесса рендеринга САПР
+
 ## Введение
 
 В области компьютерного проектирования (САПР) Aspose.CAD for Java выделяется как мощный инструмент для рендеринга и обработки файлов САПР. Это руководство проведет вас через процесс включения отслеживания рендеринга САПР, улучшая ваш контроль над преобразованием файлов САПР в формат PDF.
@@ -114,3 +120,9 @@ A1: Aspose.CAD поддерживает широкий спектр формат
 ### Вопрос 5: Доступны ли временные лицензии для Aspose.CAD?
 
  О5: Да, если вам нужна временная лицензия, вы можете ее приобрести.[здесь](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

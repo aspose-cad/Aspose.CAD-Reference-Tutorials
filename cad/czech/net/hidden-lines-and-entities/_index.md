@@ -3,10 +3,16 @@ title: Skryté linie a entity
 linktitle: Skryté linie a entity
 second_title: Aspose.CAD .NET – formát souborů CAD a BIM
 description: Odemkněte skryté čáry v souborech DWG bez námahy s Aspose.CAD pro .NET. Pozvedněte své CAD projekty pomocí našeho podrobného průvodce.
-type: docs
 weight: 29
 url: /cs/net/hidden-lines-and-entities/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Skryté linie a entity
+
 
 
 ## Úvod
@@ -39,3 +45,9 @@ Na závěr, ať už se zaměřujete na odemykání skrytých čar nebo využív�
 Odemkněte skryté čáry v souborech DWG bez námahy s Aspose.CAD pro .NET. Postupujte podle našeho podrobného průvodce pro bezproblémovou integraci.
 ### [Podpora entity MLeader pro formát DWG - Průvodce Aspose.CAD](./supporting-mleader-entity-for-dwg-format/)
 Odemkněte sílu entit MLeader ve formátu DWG s Aspose.CAD pro .NET. Zvyšte své CAD projekty bez námahy.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

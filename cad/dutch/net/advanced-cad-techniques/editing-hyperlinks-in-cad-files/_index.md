@@ -3,10 +3,16 @@ title: Hyperlinks in CAD-bestanden bewerken - Aspose.CAD Tutorial
 linktitle: Hyperlinks in CAD-bestanden bewerken
 second_title: Aspose.CAD .NET - CAD- en BIM-bestandsindeling
 description: Verken Aspose.CAD voor .NET en leer moeiteloos hyperlinks in CAD-bestanden bewerken. Verbeter uw vaardigheden op het gebied van CAD-bestandsbeheer met deze uitgebreide tutorial.
-type: docs
 weight: 14
 url: /nl/net/advanced-cad-techniques/editing-hyperlinks-in-cad-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Hyperlinks in CAD-bestanden bewerken - Aspose.CAD Tutorial
+
 ## Invoering
 
 Welkom bij onze stapsgewijze zelfstudie over het bewerken van hyperlinks in CAD-bestanden met Aspose.CAD voor .NET. Aspose.CAD is een krachtige bibliotheek waarmee ontwikkelaars naadloos met CAD-bestanden kunnen werken. In deze zelfstudie concentreren we ons op de specifieke taak van het bewerken van hyperlinks in CAD-bestanden, waarbij we laten zien hoe u koppelingen efficiënt kunt wijzigen en beheren.
@@ -103,3 +109,9 @@ A1: Ja, Aspose.CAD ondersteunt verschillende CAD-formaten, waaronder DWG, DXF, D
 ### Vraag 5: Heeft u hulp nodig of heeft u vragen?
 
  A5: Bezoek ons ondersteuningsforum[hier](https://forum.aspose.com/c/cad/19).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

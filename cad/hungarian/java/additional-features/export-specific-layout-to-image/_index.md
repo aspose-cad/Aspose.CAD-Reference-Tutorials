@@ -3,10 +3,16 @@ title: Adott DXF-elrendezés exportálása képbe az Aspose.CAD segítségével 
 linktitle: Adott DXF elrendezés exportálása képbe Java segítségével
 second_title: Aspose.CAD Java API
 description: Ismerje meg, hogyan exportálhat egy adott DXF-elrendezést képbe az Aspose.CAD for Java segítségével. Kövesse lépésenkénti útmutatónkat a zökkenőmentes integráció érdekében.
-type: docs
 weight: 16
 url: /hu/java/additional-features/export-specific-layout-to-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Adott DXF-elrendezés exportálása képbe az Aspose.CAD segítségével Java nyelven
+
 ## Bevezetés
 
 Egy adott DXF-elrendezést szeretne képpé konvertálni Java használatával? Az Aspose.CAD for Java segítségével zökkenőmentesen elvégezheti ezt a feladatot. Ebben a lépésenkénti útmutatóban végigvezetjük egy adott DXF-elrendezés képké történő exportálásának folyamatán, világos utasításokat és példákat adva az egyes szakaszokhoz.
@@ -141,3 +147,9 @@ Ebben az oktatóanyagban az Aspose.CAD for Java segítségével egy adott DXF-el
 ### 5. kérdés: Testreszabhatom a raszterezési beállításokat?
 
  A5: Természetesen a`CadRasterizationOptions` osztály különféle tulajdonságokat biztosít a testreszabáshoz. További lehetőségekért tekintse meg a dokumentációt.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

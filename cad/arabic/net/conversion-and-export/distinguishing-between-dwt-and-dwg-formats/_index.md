@@ -3,10 +3,16 @@ title: التمييز بين تنسيقات DWT وDWG - دليل Aspose.CAD
 linktitle: التمييز بين تنسيقات DWT وDWG
 second_title: Aspose.CAD .NET - تنسيق ملف CAD وBIM
 description: استكشف الفروق الدقيقة بين تنسيقات DWT وDWG باستخدام Aspose.CAD لـ .NET. يمكنك التمييز بين أنواع ملفات CAD هذه بسهولة.
-type: docs
 weight: 12
 url: /ar/net/conversion-and-export/distinguishing-between-dwt-and-dwg-formats/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# التمييز بين تنسيقات DWT وDWG - دليل Aspose.CAD
+
 ## مقدمة
 
 في عالم التصميم بمساعدة الكمبيوتر (CAD)، يعد فهم تنسيقات الملفات أمرًا بالغ الأهمية للتعاون السلس وسير العمل الفعال. غالبًا ما يؤدي التنسيقان الشائعان، DWT وDWG، إلى حدوث ارتباك بسبب أوجه التشابه بينهما. يهدف هذا البرنامج التعليمي إلى إزالة الغموض عن هذه التنسيقات باستخدام Aspose.CAD for .NET، وهي مكتبة قوية لمعالجة ملفات CAD.
@@ -93,3 +99,9 @@ Assert.IsTrue(formatTypeDwg.ToString().ToLower().Contains("dwg"));
 ### س5: هل يمكنني استخدام Aspose.CAD لـ .NET في المشاريع التجارية؟
 
  ج5: نعم، يمكنك دمج Aspose.CAD for .NET في مشاريعك التجارية عن طريق[شراء ترخيص](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

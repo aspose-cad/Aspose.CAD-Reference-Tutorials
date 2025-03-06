@@ -3,10 +3,16 @@ title: 使用 Aspose.CAD for Java 将特定 DWG 布局导出为 PDF
 linktitle: 将特定 DWG 布局导出为 PDF
 second_title: Aspose.CAD Java API
 description: 探索使用 Aspose.CAD for Java 将特定 DWG 布局导出为 PDF 的分步指南。轻松优化您的 CAD 工作流程。
-type: docs
 weight: 14
 url: /zh/java/cad-drawing-conversion/export-specific-dwg-layout-to-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.CAD for Java 将特定 DWG 布局导出为 PDF
+
 ## 介绍
 
 在计算机辅助设计 (CAD) 的动态世界中，Aspose.CAD for Java 成为操作和转换 DWG 绘图的强大工具。在本教程中，我们将探讨一个特定场景：将指定的 DWG 布局导出到 PDF 文件。此过程可确保 CAD 项目的精度和灵活性。
@@ -100,3 +106,9 @@ Aspose.CAD for Java 是一个独立的库，但可以与其他基于 Java 的库
 ### Q5：Aspose.CAD 有免费试用版吗？
 
 是的，您可以免费试用[这里](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

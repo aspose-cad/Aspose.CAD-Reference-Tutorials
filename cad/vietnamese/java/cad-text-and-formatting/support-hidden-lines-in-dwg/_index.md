@@ -3,10 +3,16 @@ title: Hỗ trợ các dòng ẩn trong tệp DWG bằng Aspose.CAD cho Java
 linktitle: Hỗ trợ các dòng ẩn trong tệp DWG bằng Java
 second_title: API Java Aspose.CAD
 description: Tìm hiểu cách nâng cao khả năng thao tác tệp DWG của ứng dụng Java của bạn bằng Aspose.CAD. Hãy làm theo hướng dẫn từng bước của chúng tôi để được hỗ trợ về dòng ẩn. Tăng cường khả năng xử lý bản vẽ CAD của bạn một cách dễ dàng.
-type: docs
 weight: 11
 url: /vi/java/cad-text-and-formatting/support-hidden-lines-in-dwg/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Hỗ trợ các dòng ẩn trong tệp DWG bằng Aspose.CAD cho Java
+
 ## Giới thiệu
 
 Chào mừng bạn đến với hướng dẫn toàn diện về cách tận dụng Aspose.CAD cho Java để nâng cao khả năng thao tác tệp DWG của bạn. Trong hướng dẫn này, chúng tôi sẽ tập trung vào một khía cạnh cụ thể: hỗ trợ các dòng ẩn trong tệp DWG. Cho dù bạn là nhà phát triển dày dạn kinh nghiệm hay mới bắt đầu, hướng dẫn này sẽ giúp bạn điều hướng trong suốt quy trình bằng hướng dẫn từng bước.
@@ -117,3 +123,10 @@ Câu trả lời 1: Có, Aspose.CAD hỗ trợ nhiều định dạng CAD khác 
 ### Câu hỏi 5: Tôi có thể mua giấy phép tạm thời cho Aspose.CAD cho Java không?
 
  Câu trả lời 5: Có, bạn có thể xin giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

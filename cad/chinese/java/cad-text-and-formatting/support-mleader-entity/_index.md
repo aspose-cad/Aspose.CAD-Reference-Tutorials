@@ -3,10 +3,16 @@ title: 使用 Aspose.CAD for Java 支持 DWG 格式的 MLeader 实体
 linktitle: 使用 Java 支持 DWG 格式的 MLeader 实体
 second_title: Aspose.CAD Java API
 description: 通过我们有关支持 DWG 格式的 MLeader 实体的分步教程，释放 Aspose.CAD for Java 的强大功能。
-type: docs
 weight: 12
 url: /zh/java/cad-text-and-formatting/support-mleader-entity/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.CAD for Java 支持 DWG 格式的 MLeader 实体
+
 ## 介绍
 
 在使用 Java 的计算机辅助设计 (CAD) 领域，理解和实现对 DWG 格式的 MLeader 实体的支持是一项宝贵的技能。 Aspose.CAD for Java 为此类任务提供了强大的解决方案，提供了一组强大的工具和功能。本教程将指导您完成使用 Java 和 Aspose.CAD 支持 DWG 文件中的 MLeader 实体的过程。
@@ -146,3 +152,9 @@ A4：通过以下方式获得临时许可证[这个链接](https://purchase.aspo
 ### Q5：我可以在哪里寻求社区支持和帮助？
 
 A5：访问[Aspose.CAD论坛](https://forum.aspose.com/c/cad/19)与社区联系并获得帮助。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

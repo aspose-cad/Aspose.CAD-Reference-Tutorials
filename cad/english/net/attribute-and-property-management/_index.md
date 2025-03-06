@@ -3,10 +3,16 @@ title: Attribute and Property Management
 linktitle: Attribute and Property Management
 second_title: Aspose.CAD .NET - CAD and BIM File Format
 description: Elevate your CAD drawings with Aspose.CAD for .NET! Learn to add attributes and custom properties seamlessly through tutorials. Enhance your designs effortlessly.
-type: docs
 weight: 30
 url: /net/attribute-and-property-management/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Attribute and Property Management
+
 
 
 ## Introduction
@@ -47,3 +53,9 @@ In conclusion, Aspose.CAD for .NET opens doors to a world of possibilities in at
 Enhance your CAD drawings with attributes using Aspose.CAD for .NET. Follow our step-by-step guide for seamless integration.
 ### [Adding Custom Properties to DWG Files - Aspose.CAD Guide](./adding-custom-properties-to-dwg/)
 Enhance your DWG files with custom properties using Aspose.CAD for .NET. Follow our step-by-step guide to add meaningful metadata effortlessly.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

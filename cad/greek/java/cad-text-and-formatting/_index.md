@@ -3,10 +3,16 @@ title: Κείμενο και μορφοποίηση CAD
 linktitle: Κείμενο και μορφοποίηση CAD
 second_title: Aspose.CAD Java API
 description: Ξεκλειδώστε το Aspose.CAD για τις δυνατότητες της Java με σεμινάρια. Μάθετε αναζήτηση κειμένου, κρυφές γραμμές, οντότητες MLeader και χαρακτηριστικά MText για να βελτιώσετε την εφαρμογή CAD σας.
-type: docs
 weight: 28
 url: /el/java/cad-text-and-formatting/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Κείμενο και μορφοποίηση CAD
+
 ## Εισαγωγή
 Καλώς ήρθατε στον περιεκτικό μας οδηγό σχετικά με τα σεμινάρια κειμένου και μορφοποίησης CAD χρησιμοποιώντας το Aspose.CAD για Java. Είτε είστε έμπειρος προγραμματιστής είτε μόλις ξεκινάτε με εφαρμογές CAD, αυτά τα σεμινάρια θα σας δώσουν τη δυνατότητα να ανεβάσετε τις δεξιότητές σας στο επόμενο επίπεδο.
 
@@ -37,3 +43,9 @@ url: /el/java/cad-text-and-formatting/
 Ξεκλειδώστε τη δύναμη του Aspose.CAD για Java με το βήμα προς βήμα εκμάθησή μας για την υποστήριξη οντοτήτων MLeader σε μορφή DWG.
 ### [Προσθέστε χαρακτηριστικά στο MText σε αρχεία DWG χρησιμοποιώντας το Aspose.CAD για Java](./add-attributes-to-mtext/)
 Μάθετε πώς να προσθέτετε χαρακτηριστικά στο MText σε αρχεία DWG χρησιμοποιώντας το Aspose.CAD για Java. Αναβαθμίστε τα σχέδιά σας CAD με αυτόν τον οδηγό βήμα προς βήμα.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

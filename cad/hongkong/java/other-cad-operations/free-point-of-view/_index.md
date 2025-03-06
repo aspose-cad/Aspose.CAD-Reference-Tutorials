@@ -3,10 +3,16 @@ title: 使用 Aspose.CAD for Java 進行自由視點渲染
 linktitle: 自由的觀點
 second_title: Aspose.CAD Java API
 description: 在本教學中探索 Aspose.CAD for Java 的強大功能，實現 CAD 繪圖的自由視點渲染。釋放 Aspose.CAD 的潛力。
-type: docs
 weight: 14
 url: /zh-hant/java/other-cad-operations/free-point-of-view/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.CAD for Java 進行自由視點渲染
+
 ## 介紹
 
 歡迎來到「自由觀點 - Aspose.CAD for Java 教學」。在這份綜合指南中，我們將引導您完成利用 Aspose.CAD for Java 實作 CAD 繪圖的自由視點渲染的過程。 Aspose.CAD 是一個功能強大的 Java 函式庫，為處理電腦輔助設計 (CAD) 檔案提供了廣泛的功能。本教程將涵蓋必要的先決條件、匯入基本套件以及將每個範例分解為逐步指南。
@@ -116,3 +122,9 @@ A3：是的，您可以存取免費試用版[這裡](https://releases.aspose.com
 ### Q5：如何取得臨時駕照？
 
  A5：獲得臨時許可證[這裡](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

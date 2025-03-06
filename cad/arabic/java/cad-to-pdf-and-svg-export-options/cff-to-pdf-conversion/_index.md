@@ -3,10 +3,16 @@ title: تحويل CFF إلى PDF - Aspose.CAD لبرنامج Java التعليم
 linktitle: تحويل CFF إلى PDF
 second_title: Aspose.CAD جافا API
 description: استكشف التحويل السلس من CFF إلى PDF باستخدام Aspose.CAD لـ Java. خطوات سهلة ونتائج موثوقة.
-type: docs
 weight: 13
 url: /ar/java/cad-to-pdf-and-svg-export-options/cff-to-pdf-conversion/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تحويل CFF إلى PDF - Aspose.CAD لبرنامج Java التعليمي
+
 ## مقدمة
 
 مرحبًا بك في برنامجنا التعليمي خطوة بخطوة حول تحويل ملفات تنسيق الخط المضغوط (CFF) إلى تنسيق المستندات المحمولة (PDF) باستخدام Aspose.CAD لـ Java. Aspose.CAD هي مكتبة قوية تسمح لمطوري Java بالعمل مع ملفات CAD بسلاسة. في هذا البرنامج التعليمي، سنرشدك خلال عملية تحويل CFF إلى PDF باستخدام أمثلة عملية وشروحات واضحة.
@@ -87,3 +93,9 @@ image.save(dataDir + "WineBottle_Die_out.pdf", options);
 ### س5: أين يمكنني شراء مكتبة Aspose.CAD؟
 
  ج5: شراء المكتبة[هنا](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: 追加機能
 linktitle: 追加機能
 second_title: Aspose.CAD Java API
 description: チュートリアルを使用して、Java での Aspose.CAD の可能性を解き放ってください。カスタム プロパティの追加、CAD 挿入オブジェクトの分解、追跡の有効化、DXF 図面のエクスポートをシームレスに行います。 CAD ワークフローを簡単に向上させます。
-type: docs
 weight: 29
 url: /ja/java/additional-features/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 追加機能
+
 
 
 ## 導入
@@ -60,3 +66,9 @@ Aspose.CAD を使用して Java で DXF ファイルを保存する方法を学�
 ## 結論
 
 これらのチュートリアルでは、Aspose.CAD for Java のさまざまな追加機能について説明し、CAD ワークフローを最適化するための貴重な洞察とスキルを提供します。組織の強化、分解テクニックの習得、追跡の有効化、さまざまなエクスポート オプションの探索など、これらのチュートリアルは必要な知識を提供します。 Aspose.CAD for Java を使用して、CAD スキルを今すぐ向上させましょう。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

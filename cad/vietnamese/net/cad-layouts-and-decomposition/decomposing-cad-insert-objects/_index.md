@@ -3,10 +3,16 @@ title: Phân tách các đối tượng chèn CAD - Hướng dẫn Aspose.CAD
 linktitle: Phân tách các đối tượng chèn CAD
 second_title: Aspose.CAD .NET - Định dạng tệp CAD và BIM
 description: Khám phá sức mạnh của Aspose.CAD cho .NET với hướng dẫn từng bước của chúng tôi về cách phân tách các đối tượng chèn CAD.
-type: docs
 weight: 11
 url: /vi/net/cad-layouts-and-decomposition/decomposing-cad-insert-objects/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Phân tách các đối tượng chèn CAD - Hướng dẫn Aspose.CAD
+
 ## Giới thiệu
 
 Trong thế giới năng động của thiết kế có sự hỗ trợ của máy tính (CAD), việc thao tác và phân tích hiệu quả các tệp CAD là rất quan trọng đối với các chuyên gia trong nhiều ngành khác nhau. Aspose.CAD cho .NET nổi lên như một giải pháp mạnh mẽ, cung cấp cho các nhà phát triển những công cụ cần thiết để làm việc hiệu quả với các tệp CAD trong môi trường .NET.
@@ -100,3 +106,9 @@ Aspose.CAD cho .NET đơn giản hóa nhiệm vụ phức tạp là phân tách 
 ### Câu hỏi 5: Làm cách nào để có được giấy phép tạm thời cho Aspose.CAD cho .NET?
 
  Nếu bạn cần giấy phép tạm thời, bạn có thể tìm thấy thông tin cần thiết[đây](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

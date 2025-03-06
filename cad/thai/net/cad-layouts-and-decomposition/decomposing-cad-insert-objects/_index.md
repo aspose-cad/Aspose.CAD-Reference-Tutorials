@@ -3,10 +3,16 @@ title: การแยกวัตถุแทรก CAD - คู่มือ As
 linktitle: การสลายตัวของวัตถุแทรก CAD
 second_title: Aspose.CAD .NET - รูปแบบไฟล์ CAD และ BIM
 description: สำรวจประสิทธิภาพของ Aspose.CAD สำหรับ .NET ด้วยคำแนะนำทีละขั้นตอนของเราเกี่ยวกับการแยกย่อยวัตถุแทรก CAD
-type: docs
 weight: 11
 url: /th/net/cad-layouts-and-decomposition/decomposing-cad-insert-objects/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# การแยกวัตถุแทรก CAD - คู่มือ Aspose.CAD
+
 ## การแนะนำ
 
 ในโลกแบบไดนามิกของการออกแบบโดยใช้คอมพิวเตอร์ช่วย (CAD) การจัดการและการวิเคราะห์ไฟล์ CAD อย่างมีประสิทธิภาพถือเป็นสิ่งสำคัญสำหรับมืออาชีพในอุตสาหกรรมต่างๆ Aspose.CAD สำหรับ .NET กลายเป็นโซลูชันที่ทรงพลัง โดยมอบเครื่องมือที่จำเป็นสำหรับนักพัฒนาในการทำงานกับไฟล์ CAD ในสภาพแวดล้อม .NET ได้อย่างมีประสิทธิภาพ
@@ -100,3 +106,9 @@ Aspose.CAD สำหรับ .NET ช่วยให้งานที่ซั
 ### คำถามที่ 5: ฉันจะขอรับใบอนุญาตชั่วคราวสำหรับ Aspose.CAD สำหรับ .NET ได้อย่างไร
 
  หากคุณต้องการใบอนุญาตชั่วคราว คุณสามารถค้นหาข้อมูลที่จำเป็นได้[ที่นี่](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

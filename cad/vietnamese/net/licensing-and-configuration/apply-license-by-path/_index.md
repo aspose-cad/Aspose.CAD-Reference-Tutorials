@@ -3,10 +3,16 @@ title: Áp dụng Giấy phép theo Đường dẫn trong Aspose.CAD cho .NET
 linktitle: Áp dụng giấy phép theo đường dẫn
 second_title: Aspose.CAD .NET - Định dạng tệp CAD và BIM
 description: Khai phá toàn bộ tiềm năng của Aspose.CAD cho .NET! Hãy làm theo hướng dẫn từng bước của chúng tôi để áp dụng giấy phép một cách liền mạch. Hãy nâng tầm trò chơi thao tác tệp CAD của bạn ngay bây giờ!
-type: docs
 weight: 10
 url: /vi/net/licensing-and-configuration/apply-license-by-path/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Áp dụng Giấy phép theo Đường dẫn trong Aspose.CAD cho .NET
+
 ## Giới thiệu
 
 Bạn đã sẵn sàng nâng tầm trò chơi phát triển .NET của mình bằng cách khai thác các khả năng của Aspose.CAD chưa? Trong hướng dẫn toàn diện này, chúng tôi sẽ hướng dẫn bạn quy trình đăng ký giấy phép theo đường dẫn bằng Aspose.CAD cho .NET. Hãy cố gắng khi chúng tôi làm sáng tỏ các bước để tích hợp liền mạch thư viện mạnh mẽ này vào các dự án của bạn, đảm bảo quy trình làm việc suôn sẻ và hiệu quả.
@@ -88,3 +94,9 @@ A3: Có, bạn có thể dùng thử miễn phí[đây](https://releases.aspose.
 ### Câu 5: Cần hỗ trợ hoặc có thắc mắc?
 
  A5: Tham gia cộng đồng Aspose.CAD tại[Diễn đàn Aspose.CAD](https://forum.aspose.com/c/cad/19).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

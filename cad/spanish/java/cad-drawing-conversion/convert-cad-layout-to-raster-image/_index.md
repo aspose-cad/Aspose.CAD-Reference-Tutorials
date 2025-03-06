@@ -3,10 +3,16 @@ title: Convierta el diseño CAD a formato de imagen rasterizada utilizando Aspos
 linktitle: Convertir diseño CAD a formato de imagen rasterizada
 second_title: API de Java Aspose.CAD
 description: Convierta sin esfuerzo diseños CAD en imágenes rasterizadas utilizando Aspose.CAD para Java. Visualización de alta calidad para una colaboración mejorada.
-type: docs
 weight: 12
 url: /es/java/cad-drawing-conversion/convert-cad-layout-to-raster-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Convierta el diseño CAD a formato de imagen rasterizada utilizando Aspose.CAD para Java
+
 ## Introducción
 
 En el dinámico mundo del diseño asistido por computadora (CAD), la capacidad de convertir sin problemas diseños CAD a formatos de imágenes rasterizadas es una habilidad valiosa. Aspose.CAD para Java surge como una solución sólida para realizar esta tarea de manera eficiente. En este tutorial, lo guiaremos a través del proceso de convertir un diseño CAD en una imagen rasterizada paso a paso, utilizando Aspose.CAD para Java.
@@ -106,3 +112,9 @@ R4: Sí, Aspose.CAD admite varios formatos de salida, como PNG, JPG y PDF.
 ### P5: ¿Dónde puedo buscar ayuda o compartir mis experiencias con Aspose.CAD?
 
 A5: Visita el[Foro Aspose.CAD](https://forum.aspose.com/c/cad/19) para interactuar con la comunidad y obtener apoyo.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

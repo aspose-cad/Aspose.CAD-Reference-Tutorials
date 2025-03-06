@@ -3,10 +3,16 @@ title: Υποστήριξη στυλό στην εξαγωγή
 linktitle: Υποστήριξη στυλό στην εξαγωγή
 second_title: Aspose.CAD Java API
 description: Κύρια προσαρμογή στυλό στην εξαγωγή CAD με Aspose.CAD για Java. Ακολουθήστε τον βήμα προς βήμα οδηγό μας για απρόσκοπτη ενσωμάτωση.
-type: docs
 weight: 13
 url: /el/java/advanced-cad-features/pen-support-in-export/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Υποστήριξη στυλό στην εξαγωγή
+
 ## Εισαγωγή
 
 Στο συνεχώς εξελισσόμενο τοπίο των μετατροπών CAD (Computer-Aided Design), το Aspose.CAD για Java αναδεικνύεται ως ένα ισχυρό εργαλείο, προσφέροντας εκτεταμένες δυνατότητες χειρισμού αρχείων CAD. Μεταξύ των ευέλικτων χαρακτηριστικών του, ξεχωρίζει η υποστήριξη για προσαρμογή στυλό κατά την εξαγωγή, επιτρέποντας στους χρήστες να προσαρμόσουν την εμφάνιση των εξαγόμενων εικόνων. Αυτό το σεμινάριο θα σας καθοδηγήσει στη διαδικασία αξιοποίησης της υποστήριξης στυλό στη λειτουργικότητα εξαγωγής, εστιάζοντας στην πρακτική εφαρμογή χρησιμοποιώντας Java.
@@ -112,3 +118,9 @@ A4: Προσαρμόστε το πλάτος και το ύψος της σελ�
 ### Ε5: Πού μπορώ να βρω πρόσθετη υποστήριξη ή συζητήσεις στην κοινότητα;
 
  A5: Εξερευνήστε το φόρουμ κοινότητας Aspose.CAD στη διεύθυνση[εδώ](https://forum.aspose.com/c/cad/19) για υποστήριξη και συζητήσεις.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: 导出 PLT 文件
 linktitle: 导出 PLT 文件
 second_title: Aspose.CAD .NET - CAD 和 BIM 文件格式
 description: 使用 Aspose.CAD for .NET 轻松将 PLT 文件转换为图像和 PDF。探索 CAD 文件操作的无缝集成和灵活选项。
-type: docs
 weight: 41
 url: /zh/net/exporting-plt-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 导出 PLT 文件
+
 
 ## 介绍
 
@@ -38,3 +44,9 @@ Aspose.CAD for .NET 将其能力扩展到 PDF 转换，为您的文档需求提�
 使用 Aspose.CAD for .NET 轻松将 PLT 文件转换为图像。探索灵活的选项和无缝集成，以满足您的 CAD 文件操作需求。
 ### [将 PLT 文件导出为 PDF - Aspose.CAD 指南](./exporting-plt-files-to-pdf/)
 使用 Aspose.CAD for .NET 轻松将 PLT 文件转换为 PDF。请遵循我们的分步指南，以获得无缝集成和可靠的结果。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

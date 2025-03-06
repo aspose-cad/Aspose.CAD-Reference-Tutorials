@@ -3,10 +3,16 @@ title: Lägga till attribut till CAD-ritningar - Aspose.CAD Tutorial
 linktitle: Lägga till attribut till CAD-ritningar
 second_title: Aspose.CAD .NET - CAD- och BIM-filformat
 description: Förbättra dina CAD-ritningar med attribut med Aspose.CAD för .NET. Följ vår steg-för-steg-guide för sömlös integration.
-type: docs
 weight: 10
 url: /sv/net/attribute-and-property-management/adding-attributes-to-cad-drawings/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Lägga till attribut till CAD-ritningar - Aspose.CAD Tutorial
+
 ## Introduktion
 
 Inom området datorstödd design (CAD) är berikande av ritningar med attribut ett avgörande steg för detaljerad dokumentation och effektiv kommunikation. Aspose.CAD för .NET ger en robust lösning för att sömlöst integrera attribut i CAD-ritningar. Denna handledning guidar dig genom processen att lägga till attribut till CAD-ritningar med Aspose.CAD, så att du kan förbättra informationen som är inbäddad i dina mönster.
@@ -119,3 +125,9 @@ S1: Aspose.CAD stöder olika CAD-format, inklusive DWG och DXF, vilket säkerst�
 ### F5: Hur kan jag få en tillfällig licens för Aspose.CAD?
 
  S5: För tillfälliga licensalternativ, besök[här](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

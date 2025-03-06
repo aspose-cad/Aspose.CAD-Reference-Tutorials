@@ -3,10 +3,16 @@ title: Aspose.CAD for Java를 사용하여 CAD 도면 크기 자동 조정
 linktitle: CAD 도면 크기 자동 조정
 second_title: Aspose.CAD 자바 API
 description: Aspose.CAD를 사용하여 Java에서 CAD 도면 크기를 자동 조정하는 원활한 프로세스를 살펴보세요. 효율적인 CAD 파일 조작을 위한 단계별 가이드를 따르십시오.
-type: docs
 weight: 13
 url: /ko/java/cad-file-manipulation/auto-adjusting-cad-drawing-size/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.CAD for Java를 사용하여 CAD 도면 크기 자동 조정
+
 ## 소개
 
 CAD(Computer-Aided Design) 세계에서는 도면 크기 조정이 일반적인 요구 사항이며 Aspose.CAD for Java를 사용하면 원활한 프로세스가 됩니다. 이 강력한 라이브러리는 Java 애플리케이션에서 CAD 파일을 처리하기 위한 포괄적인 도구를 제공합니다. 이 튜토리얼에서는 Aspose.CAD를 사용하여 CAD 도면 크기를 자동 조정하는 단계별 프로세스를 살펴보겠습니다.
@@ -107,3 +113,9 @@ A1: 예, Aspose.CAD는 DWG, DXF, DGN 등을 포함한 다양한 CAD 형식을 �
 ### Q5: Aspose.CAD for Java에 대한 무료 평가판이 있습니까?
 
  A5: 예, 무료 평가판에 액세스할 수 있습니다.[여기](https://releases.aspose.com/) 도서관의 기능을 탐색합니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

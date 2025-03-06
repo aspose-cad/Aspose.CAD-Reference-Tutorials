@@ -3,10 +3,16 @@ title: Mengekspor Lapisan Tertentu DXF ke PDF - Tutorial Aspose.CAD
 linktitle: Mengekspor Lapisan Khusus DXF ke PDF
 second_title: Aspose.CAD .NET - Format File CAD dan BIM
 description: Pelajari cara mengekspor lapisan tertentu dari file DXF ke PDF menggunakan Aspose.CAD untuk .NET. Ikuti panduan langkah demi langkah ini untuk integrasi yang lancar.
-type: docs
 weight: 10
 url: /id/net/export-techniques/exporting-dxf-specific-layer-to-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Mengekspor Lapisan Tertentu DXF ke PDF - Tutorial Aspose.CAD
+
 ## Perkenalan
 
 Dalam bidang pengembangan CAD untuk .NET, Aspose.CAD menonjol sebagai perpustakaan tangguh yang memberdayakan pengembang untuk memanipulasi file CAD secara efisien. Salah satu fitur utamanya adalah kemampuan untuk mengekspor lapisan tertentu dari file DXF ke format PDF. Tutorial ini akan memandu Anda melalui proses langkah demi langkah, menunjukkan cara memanfaatkan kekuatan Aspose.CAD untuk tugas khusus ini.
@@ -101,3 +107,10 @@ A4: Ya, Aspose.CAD mendukung berbagai format ekspor, memberikan fleksibilitas ke
 ### Q5: Dapatkah saya menyesuaikan keluaran PDF lebih lanjut?
 
 A5: Tentu saja. Jelajahi dokumentasi Aspose.CAD untuk opsi dan konfigurasi tambahan.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Spårning och rendering
 linktitle: Spårning och rendering
 second_title: Aspose.CAD .NET - CAD- och BIM-filformat
 description: Lås upp kraften i Aspose.CAD för .NET med våra tutorials. Lär dig att aktivera spårning i CAD-filer och sömlöst rendera DXF-filer som PDF.
-type: docs
 weight: 31
 url: /sv/net/tracking-and-rendering/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Spårning och rendering
+
 
 ## Introduktion
 
@@ -30,3 +36,9 @@ Ge dig ut på ett läroäventyr med vår lista över Aspose.CAD för .NET Tutori
 Master CAD-filspårning med Aspose.CAD för .NET. Följ vår steg-för-steg-guide för exakt rendering och felspårning. Ladda ner nu!
 ### [Rendering av DXF-filer som PDF - Aspose.CAD Guide](./rendering-dxf-files-as-pdf/)
 Utforska den ultimata guiden för att rendera DXF-filer som PDF med Aspose.CAD för .NET. Konvertera enkelt CAD-filer med vår steg-för-steg handledning.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

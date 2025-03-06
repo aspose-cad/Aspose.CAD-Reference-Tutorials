@@ -3,10 +3,16 @@ title: Преобразование формата DWT в формат DXF с п
 linktitle: Преобразование DWT в формат DXF с помощью Java
 second_title: API Aspose.CAD Java
 description: Узнайте о плавном преобразовании DWT в DXF с помощью Aspose.CAD для Java. Следуйте нашему пошаговому руководству для эффективного манипулирования файлами САПР.
-type: docs
 weight: 15
 url: /ru/java/cad-drawing-conversion/convert-dwt-to-dxf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Преобразование формата DWT в формат DXF с помощью Aspose.CAD для Java
+
 ## Введение
 
 Добро пожаловать в это подробное руководство по преобразованию формата DWT в формат DXF с помощью Aspose.CAD для Java. Aspose.CAD — мощная библиотека, позволяющая разработчикам работать с чертежами САПР в различных форматах. В этом уроке мы познакомим вас с процессом преобразования чертежей DWT в формат DXF, предоставив подробные шаги и пояснения.
@@ -94,3 +100,9 @@ cadImage.save(outFile);
 ### Вопрос 5: Могу ли я получить временную лицензию для целей тестирования?
 
  О5: Да, вы можете запросить временную лицензию.[здесь](https://purchase.aspose.com/temporary-license/) для тестирования и оценки.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

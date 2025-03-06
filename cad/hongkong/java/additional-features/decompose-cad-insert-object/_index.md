@@ -3,10 +3,16 @@ title: 在 Java 中使用 Aspose.CAD 分解 CAD 插入對象
 linktitle: 用Java分解CAD插入對象
 second_title: Aspose.CAD Java API
 description: 掌握使用 Aspose.CAD 在 Java 中分解 CAD 插入物件。請遵循我們的逐步指南以實現高效處理。深入 CAD 操作的世界。
-type: docs
 weight: 11
 url: /zh-hant/java/additional-features/decompose-cad-insert-object/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Java 中使用 Aspose.CAD 分解 CAD 插入對象
+
 ## 介紹
 
 歡迎閱讀我們使用 Aspose.CAD for Java 分解 CAD 插入物件的綜合指南。在本教程中，我們將引導您完成將 CAD 插入物件分解為其組成部分的流程，為您提供無縫實施的逐步指南。無論您是經驗豐富的開發人員還是剛開始使用 Aspose.CAD，本教學都將為您提供在 Java 應用程式中有效處理 CAD 插入物件的知識。
@@ -110,3 +116,9 @@ finally
 ### Q5: 有沒有樣圖可以練習？
 
 A5：是的，您可以在 Aspose.CAD 資源的「DXFDrawings」目錄中找到範例圖形。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

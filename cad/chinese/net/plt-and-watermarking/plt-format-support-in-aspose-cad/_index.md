@@ -3,10 +3,16 @@ title: Aspose.CAD 中的 PLT 格式支持 - 综合教程
 linktitle: Aspose.CAD 中的 PLT 格式支持 - 教程
 second_title: Aspose.CAD .NET - CAD 和 BIM 文件格式
 description: 探索 Aspose.CAD for .NET 中的无缝 PLT 格式支持。按照我们的分步指南轻松将 PLT 文件集成到您的 .NET 应用程序中。
-type: docs
 weight: 10
 url: /zh/net/plt-and-watermarking/plt-format-support-in-aspose-cad/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.CAD 中的 PLT 格式支持 - 综合教程
+
 ## 介绍
 
 欢迎来到我们关于 Aspose.CAD for .NET 中 PLT 格式支持的深入教程！如果您是一名开发人员，希望使用 PLT 文件并利用 Aspose.CAD 的强大功能，那么您来对地方了。在本指南中，我们将引导您完成基本步骤、先决条件，并提供详细示例，以确保您可以将 PLT 支持无缝集成到您的 .NET 应用程序中。
@@ -118,3 +124,9 @@ A2：当然！如教程中所示，您可以根据您的具体要求定制光栅
 ### Q5：如何获得临时驾照？
 
  A5：要获得临时许可证，请前往[这个链接](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

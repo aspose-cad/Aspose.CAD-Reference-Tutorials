@@ -1,12 +1,17 @@
 ---
 title: Aspose.CAD for .NET の包括的なチュートリアルと例
 linktitle: Aspose.CAD for .NET チュートリアル
-type: docs
 weight: 10
 url: /ja/net/
 description: 包括的なチュートリアルで Aspose.CAD for .NET をマスターします。 CAD スキルをライセンスから高度なエクスポート技術まで高めます。隠れた機能を簡単にロック解除できます。
-is_root: true
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.CAD for .NET の包括的なチュートリアルと例
+
 
 ## 導入
 
@@ -61,3 +66,9 @@ Aspose.CAD for .NET を使用して CAD アプリケーションを最適化し�
 Aspose.CAD for .NET を使用して、PLT ファイルを画像や PDF に簡単に変換します。 CAD ファイル操作のためのシームレスな統合と柔軟なオプションを検討してください。
 ### [STLファイルのエクスポート](./stl-file-export/)
 Aspose.CAD for .NET を使用すると、STL ファイルを PNG に簡単にエクスポートできます。ステップバイステップのガイドにより、シームレスな統合が保証されます。 Aspose.CAD For .NET チュートリアルを通じて学習します。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

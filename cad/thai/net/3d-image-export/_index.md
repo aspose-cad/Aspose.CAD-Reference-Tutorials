@@ -3,10 +3,16 @@ title: ส่งออกภาพ 3 มิติ
 linktitle: ส่งออกภาพ 3 มิติ
 second_title: Aspose.CAD .NET - รูปแบบไฟล์ CAD และ BIM
 description: ส่งออกรูปภาพ 3D CAD เป็น PDF ได้อย่างง่ายดายโดยใช้ Aspose.CAD สำหรับ .NET ปฏิบัติตามบทช่วยสอนของเราเพื่อการแปลง PDF ได้อย่างราบรื่น เรียนรู้เทคนิคการส่งออกภาพ 3 มิติที่มีประสิทธิภาพ
-type: docs
 weight: 35
 url: /th/net/3d-image-export/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# ส่งออกภาพ 3 มิติ
+
 
 ## การแนะนำ
 
@@ -34,3 +40,9 @@ Aspose.CAD สำหรับ .NET ผสานรวมเข้ากับข
 ## บทช่วยสอนการส่งออกรูปภาพ 3 มิติ
 ### [การส่งออกรูปภาพ 3 มิติเป็น PDF - บทช่วยสอน Aspose.CAD](./exporting-3d-images-to-pdf/)
 แปลงรูปภาพ 3D CAD เป็น PDF ได้อย่างง่ายดายด้วย Aspose.CAD สำหรับ .NET ปฏิบัติตามบทช่วยสอนทีละขั้นตอนของเราเพื่อการส่งออก PDF ได้อย่างราบรื่น
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

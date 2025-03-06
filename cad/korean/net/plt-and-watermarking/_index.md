@@ -3,10 +3,16 @@ title: PLT 및 워터마킹
 linktitle: PLT 및 워터마킹
 second_title: Aspose.CAD .NET - CAD 및 BIM 파일 형식
 description: .NET용 Aspose.CAD를 사용하여 PLT 형식의 잠재력을 활용해 보세요. 단계별 튜토리얼을 통해 PLT 파일을 귀하의 응용 프로그램에 쉽게 통합하십시오.
-type: docs
 weight: 37
 url: /ko/net/plt-and-watermarking/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# PLT 및 워터마킹
+
 
 ## 소개
 
@@ -46,3 +52,9 @@ Aspose.CAD는 단순히 기능만 제공하는 것이 아닙니다. 창의성의
 .NET용 Aspose.CAD에서 완벽한 PLT 형식 지원을 알아보세요. PLT 파일을 .NET 애플리케이션에 쉽게 통합하기 위한 단계별 가이드를 따르십시오.
 ### [CAD 도면에 워터마크 추가 - Aspose.CAD 가이드](./adding-watermarks-to-cad-drawings/)
 .NET용 Aspose.CAD를 사용하여 전문적인 워터마크로 CAD 도면을 향상하세요. 개인화되고 매력적인 디자인을 위한 단계별 가이드를 따르십시오.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

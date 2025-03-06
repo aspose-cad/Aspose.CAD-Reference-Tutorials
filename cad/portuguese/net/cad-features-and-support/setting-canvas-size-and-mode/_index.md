@@ -3,10 +3,16 @@ title: Configurando o tamanho e o modo da tela no Aspose.CAD para .NET
 linktitle: Configurando o tamanho e o modo da tela
 second_title: Aspose.CAD .NET - Formato de arquivo CAD e BIM
 description: Explore o guia passo a passo sobre como definir o tamanho e o modo da tela no Aspose.CAD for .NET. Otimize sua renderização CAD com facilidade usando este tutorial abrangente.
-type: docs
 weight: 16
 url: /pt/net/cad-features-and-support/setting-canvas-size-and-mode/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Configurando o tamanho e o modo da tela no Aspose.CAD para .NET
+
 ## Introdução
 
 Você está pronto para desbloquear todo o potencial do Aspose.CAD for .NET e revolucionar sua experiência de renderização CAD? Neste tutorial passo a passo, nos aprofundaremos nas complexidades da configuração do tamanho e modo da tela usando a poderosa biblioteca Aspose.CAD. Quer você seja um desenvolvedor experiente ou esteja apenas começando, este guia irá orientá-lo durante o processo, garantindo que você aproveite os recursos do Aspose.CAD de maneira eficaz.
@@ -119,3 +125,9 @@ A1: Sim, o Aspose.CAD integra-se perfeitamente com outras bibliotecas .NET, forn
 ### Q5: Como faço para adquirir o Aspose.CAD para .NET?
 
  A5: Para adquirir o Aspose.CAD, visite o[página de compra](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

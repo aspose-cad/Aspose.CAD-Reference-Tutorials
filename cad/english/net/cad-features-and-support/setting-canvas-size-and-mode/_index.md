@@ -3,10 +3,16 @@ title: Setting Canvas Size and Mode in Aspose.CAD for .NET
 linktitle: Setting Canvas Size and Mode
 second_title: Aspose.CAD .NET - CAD and BIM File Format
 description: Explore the step-by-step guide on setting canvas size and mode in Aspose.CAD for .NET. Optimize your CAD rendering with ease using this comprehensive tutorial.
-type: docs
 weight: 16
 url: /net/cad-features-and-support/setting-canvas-size-and-mode/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Setting Canvas Size and Mode in Aspose.CAD for .NET
+
 ## Introduction
 
 Are you ready to unlock the full potential of Aspose.CAD for .NET and revolutionize your CAD rendering experience? In this step-by-step tutorial, we'll delve into the intricacies of setting canvas size and mode using the powerful Aspose.CAD library. Whether you're a seasoned developer or just starting, this guide will walk you through the process, ensuring you harness the capabilities of Aspose.CAD effectively.
@@ -119,3 +125,10 @@ A4: Refer to the [Aspose.CAD documentation](https://reference.aspose.com/cad/net
 ### Q5: How do I purchase Aspose.CAD for .NET?
 
 A5: To purchase Aspose.CAD, visit the [purchase page](https://purchase.aspose.com/buy).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

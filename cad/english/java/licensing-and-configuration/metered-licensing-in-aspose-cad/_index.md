@@ -3,10 +3,16 @@ title: Metered Licensing in Aspose.CAD
 linktitle: Metered Licensing in Aspose.CAD
 second_title: Aspose.CAD Java API
 description: Learn how to master metered licensing in Aspose.CAD for Java with this comprehensive guide. Optimize your CAD processing for efficiency and cost-effectiveness.
-type: docs
 weight: 10
 url: /java/licensing-and-configuration/metered-licensing-in-aspose-cad/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Metered Licensing in Aspose.CAD
+
 ## Introduction
 
 Unlock the full potential of Aspose.CAD for Java with metered licensing! This step-by-step guide will walk you through the process of setting up metered licensing, ensuring seamless integration and optimal utilization of this powerful Java library for Computer-Aided Design (CAD). From prerequisites to importing packages and executing examples, this tutorial covers it all.
@@ -94,3 +100,10 @@ A4: Yes, you can explore temporary licenses [here](https://purchase.aspose.com/t
 ### Q5: Need community support or have specific questions?
 
 A5: Head to the Aspose.CAD forum [here](https://forum.aspose.com/c/cad/19).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

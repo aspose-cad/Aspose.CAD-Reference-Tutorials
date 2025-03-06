@@ -3,10 +3,16 @@ title: Mesh Support in Aspose.CAD for .NET
 linktitle: Mesh Support
 second_title: Aspose.CAD .NET - CAD and BIM File Format
 description: Explore mesh support in Aspose.CAD for .NET with our step-by-step tutorial. Convert CAD files to PDF effortlessly.
-type: docs
 weight: 11
 url: /net/cad-features-and-support/mesh-support/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Mesh Support in Aspose.CAD for .NET
+
 ## Introduction
 
 Welcome to our in-depth tutorial on leveraging mesh support in Aspose.CAD for .NET! Aspose.CAD is a powerful library that provides robust functionality for working with Computer-Aided Design (CAD) files in .NET applications. In this tutorial, we'll specifically focus on utilizing the mesh support feature to enhance your CAD file processing capabilities.
@@ -100,3 +106,10 @@ A4: Refer to the detailed [documentation](https://reference.aspose.com/cad/net/)
 ### Q5: Where can I download the latest version of Aspose.CAD for .NET?
 
 A5: Download the library from the [release page](https://releases.aspose.com/cad/net/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

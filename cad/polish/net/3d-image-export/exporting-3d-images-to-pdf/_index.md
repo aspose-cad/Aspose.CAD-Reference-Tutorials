@@ -3,10 +3,16 @@ title: Eksportowanie obrazów 3D do formatu PDF - samouczek Aspose.CAD
 linktitle: Eksportowanie obrazów 3D do formatu PDF
 second_title: Aspose.CAD .NET - Format plików CAD i BIM
 description: Bez wysiłku konwertuj obrazy 3D CAD do formatu PDF za pomocą Aspose.CAD dla .NET. Postępuj zgodnie z naszym samouczkiem krok po kroku, aby bezproblemowo eksportować pliki PDF.
-type: docs
 weight: 10
 url: /pl/net/3d-image-export/exporting-3d-images-to-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Eksportowanie obrazów 3D do formatu PDF - samouczek Aspose.CAD
+
 ## Wstęp
 
 Czy chcesz bezproblemowo eksportować obrazy 3D do formatu PDF za pomocą Aspose.CAD dla .NET? Ten samouczek krok po kroku poprowadzi Cię przez proces, upewniając się, że wykorzystasz moc Aspose.CAD do bezproblemowej konwersji obrazów 3D do formatu PDF.
@@ -102,3 +108,9 @@ A2: Absolutnie. W samouczku pokazano, jak skonfigurować szerokość i wysokoś�
 ### P5: Czy dostępna jest bezpłatna wersja próbna Aspose.CAD?
 
  O5: Tak, możesz poznać funkcje Aspose.CAD, uzyskując dostęp do[bezpłatna wersja próbna](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

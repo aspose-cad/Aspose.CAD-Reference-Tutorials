@@ -3,10 +3,16 @@ title: 導出技術
 linktitle: 導出技術
 second_title: Aspose.CAD .NET - CAD 和 BIM 檔案格式
 description: 探索 Aspose.CAD 教學課程以實現無縫 CAD 開發。了解輕鬆將 DXF 檔案匯出為各種格式的有效技術。
-type: docs
 weight: 32
 url: /zh-hant/net/export-techniques/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 導出技術
+
 
 
 ## 介紹
@@ -49,3 +55,9 @@ url: /zh-hant/net/export-techniques/
 探索 Aspose.CAD for .NET 的強大功能。透過此逐步教程，學習如何輕鬆地將嵌入的 DGN 檔案匯出為 PDF。
 ### [將影像匯出為 DXF 格式 - Aspose.CAD 指南](./exporting-images-to-dxf-format/)
 探索 Aspose.CAD for .NET 的強大功能！了解如何輕鬆地將影像匯出為 DXF 格式。提高 CAD 開發的精度和效率。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

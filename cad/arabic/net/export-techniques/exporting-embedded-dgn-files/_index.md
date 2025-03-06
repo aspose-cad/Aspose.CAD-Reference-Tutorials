@@ -3,10 +3,16 @@ title: تصدير ملفات DGN المضمنة - البرنامج التعلي�
 linktitle: تصدير ملفات DGN المدمجة
 second_title: Aspose.CAD .NET - تنسيق ملف CAD وBIM
 description: اكتشف قوة Aspose.CAD لـ .NET. تعلم كيفية تصدير ملفات DGN المضمنة إلى PDF بسهولة من خلال هذا البرنامج التعليمي خطوة بخطوة.
-type: docs
 weight: 14
 url: /ar/net/export-techniques/exporting-embedded-dgn-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تصدير ملفات DGN المضمنة - البرنامج التعليمي Aspose.CAD
+
 ## مقدمة
 
 في العالم الديناميكي لتطوير البرمجيات، يبرز Aspose.CAD for .NET كأداة قوية للتعامل مع ملفات التصميم بمساعدة الكمبيوتر (CAD). سيرشدك هذا البرنامج التعليمي خلال عملية تصدير ملفات DGN المضمنة باستخدام Aspose.CAD لـ .NET. سواء كنت مطورًا متمرسًا أو مبتدئًا فضوليًا، سيساعدك هذا الدليل التفصيلي خطوة بخطوة على الاستفادة من إمكانات Aspose.CAD بشكل فعال.
@@ -98,3 +104,9 @@ Console.WriteLine("\nThe DXF drawing exported successfully to PDF.\nFile saved a
 ### س5: هل تحتاج إلى المساعدة أو تريد التواصل مع المجتمع؟
 
 ج5: قم بزيارة[منتدى Aspose.CAD](https://forum.aspose.com/c/cad/19) للدعم والمناقشات.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Ottieni la dimensione del layout CAD in Aspose.CAD per .NET
 linktitle: Ottieni la dimensione del layout CAD
 second_title: Aspose.CAD .NET - Formato file CAD e BIM
 description: Scopri come recuperare le dimensioni del layout CAD in .NET utilizzando Aspose.CAD. Segui la nostra guida passo passo per una manipolazione efficiente dei file CAD.
-type: docs
 weight: 14
 url: /it/net/cad-drawing-manipulation/get-size-of-cad-layout/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ottieni la dimensione del layout CAD in Aspose.CAD per .NET
+
 ## introduzione
 
 Benvenuti in questa guida completa su come ottenere le dimensioni dei layout CAD utilizzando Aspose.CAD per .NET. Aspose.CAD è una potente libreria che consente agli sviluppatori di lavorare con file CAD senza problemi. In questo tutorial ti guideremo attraverso il processo di recupero delle dimensioni dei layout CAD utilizzando esempi pratici e istruzioni passo passo.
@@ -143,3 +149,9 @@ A2: Assolutamente! Puoi regolare le opzioni dell'immagine, come formato e risolu
 ### Q5; Come posso ottenere supporto tecnico?
 
  R5: Per supporto tecnico, visitare il[Forum Aspose.CAD](https://forum.aspose.com/c/cad/19).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

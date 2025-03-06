@@ -3,10 +3,16 @@ title: Đọc siêu dữ liệu XREF từ tệp DWG - Hướng dẫn Aspose.CAD
 linktitle: Đọc siêu dữ liệu XREF từ tệp DWG
 second_title: Aspose.CAD .NET - Định dạng tệp CAD và BIM
 description: Khai phá tiềm năng của Aspose.CAD cho .NET bằng hướng dẫn từng bước của chúng tôi về cách đọc siêu dữ liệu XREF từ tệp DWG.
-type: docs
 weight: 16
 url: /vi/net/image-manipulation-and-rendering/reading-xref-metadata-from-dwg/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Đọc siêu dữ liệu XREF từ tệp DWG - Hướng dẫn Aspose.CAD
+
 ## Giới thiệu
 
 Bạn đã sẵn sàng nâng cao khả năng thao tác tệp CAD của mình bằng Aspose.CAD cho .NET chưa? Trong hướng dẫn từng bước này, chúng ta sẽ đi sâu vào một khía cạnh cụ thể của thư viện mạnh mẽ này – Đọc siêu dữ liệu XREF từ tệp DWG. Cho dù bạn là một nhà phát triển dày dạn kinh nghiệm hay mới bắt đầu hành trình viết mã, hướng dẫn này sẽ chia nhỏ quy trình thành các bước dễ hiểu.
@@ -107,3 +113,9 @@ Câu trả lời 1: Có, Aspose.CAD cho .NET hỗ trợ nhiều định dạng C
 ### Câu 5: Cần hỗ trợ hoặc có thắc mắc cụ thể?
 
  A5: Tham gia cộng đồng Aspose.CAD tại[Diễn đàn Aspose.CAD](https://forum.aspose.com/c/cad/19) để được hỗ trợ và thảo luận chuyên môn.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

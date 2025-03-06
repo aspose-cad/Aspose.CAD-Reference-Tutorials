@@ -3,10 +3,16 @@ title: Exportera specifikt lager av DXF-ritning till PDF med Aspose.CAD för Jav
 linktitle: Exportera specifikt lager av DXF-ritning till PDF med Java
 second_title: Aspose.CAD Java API
 description: Exportera enkelt specifika lager från DXF-ritningar till PDF med Aspose.CAD för Java. Följ denna steg-för-steg-guide för sömlös integration.
-type: docs
 weight: 18
 url: /sv/java/additional-features/export-specific-layer-to-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Exportera specifikt lager av DXF-ritning till PDF med Aspose.CAD för Java
+
 ## Introduktion
 
 Inom Java-utvecklingen framstår Aspose.CAD som ett kraftfullt verktyg för att arbeta med CAD-filer (Computer-Aided Design). Bland dess mångsidiga funktioner är möjligheten att exportera specifika lager från en DXF-ritning till en PDF-fil en värdefull förmåga. Denna handledning guidar dig genom processen och ger dig steg-för-steg-instruktioner för att utnyttja den fulla potentialen hos Aspose.CAD för Java.
@@ -104,3 +110,9 @@ S4: Ja, se till att du har en giltig licens eller använd en tillfällig licens 
 ### F5: Var kan jag söka ytterligare stöd eller hjälp?
 
 A5: Besök[Aspose.CAD-forum](https://forum.aspose.com/c/cad/19) för samhällsstöd och diskussioner.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

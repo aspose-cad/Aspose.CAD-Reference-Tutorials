@@ -3,10 +3,16 @@ title: Attributen- en vastgoedbeheer
 linktitle: Attributen- en vastgoedbeheer
 second_title: Aspose.CAD .NET - CAD- en BIM-bestandsindeling
 description: Verbeter uw CAD-tekeningen met Aspose.CAD voor .NET! Leer hoe u naadloos attributen en aangepaste eigenschappen kunt toevoegen via zelfstudies. Verbeter uw ontwerpen moeiteloos.
-type: docs
 weight: 30
 url: /nl/net/attribute-and-property-management/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Attributen- en vastgoedbeheer
+
 
 
 ## Invoering
@@ -47,3 +53,9 @@ Kortom, Aspose.CAD voor .NET opent deuren naar een wereld van mogelijkheden op h
 Verbeter uw CAD-tekeningen met attributen met Aspose.CAD voor .NET. Volg onze stapsgewijze handleiding voor een naadloze integratie.
 ### [Aangepaste eigenschappen toevoegen aan DWG-bestanden - Aspose.CAD-handleiding](./adding-custom-properties-to-dwg/)
 Verbeter uw DWG-bestanden met aangepaste eigenschappen met Aspose.CAD voor .NET. Volg onze stapsgewijze handleiding om moeiteloos betekenisvolle metadata toe te voegen.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

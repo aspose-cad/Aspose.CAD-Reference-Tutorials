@@ -3,10 +3,16 @@ title: CAD Features and Support
 linktitle: CAD Features and Support
 second_title: Aspose.CAD .NET - CAD and BIM File Format
 description: Unlock the full potential of CAD features with Aspose.CAD for .NET tutorials. Learn 3D support for DGN V7, mesh handling, pen customization, and more effortlessly.
-type: docs
 weight: 23
 url: /net/cad-features-and-support/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# CAD Features and Support
+
 
 ## Introduction
 
@@ -80,3 +86,9 @@ Explore Aspose.CAD for .NET's powerful features for handling DGN files. Follow o
 Explore Aspose.CAD for .NET's seamless support for DGN VConvert DGN files to raster images effortlessly with step-by-step guidance.
 ### [Support of 3D for DGN V7 in Aspose.CAD for .NET](./support-of-3d-for-dgn-v7/)
 Unlock the power of 3D support for DGN V7 in Aspose.CAD for .NET. Follow our step-by-step tutorial.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Použít licenci podle cesty v Aspose.CAD pro .NET
 linktitle: Použít licenci podle cesty
 second_title: Aspose.CAD .NET – formát souborů CAD a BIM
 description: Odemkněte plný potenciál Aspose.CAD pro .NET! Postupujte podle našeho podrobného průvodce pro bezproblémové použití licence. Pozvedněte nyní svou hru pro manipulaci se soubory CAD!
-type: docs
 weight: 10
 url: /cs/net/licensing-and-configuration/apply-license-by-path/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Použít licenci podle cesty v Aspose.CAD pro .NET
+
 ## Úvod
 
 Jste připraveni pozvednout svou vývojovou hru .NET využitím možností Aspose.CAD? V tomto komplexním tutoriálu vás provedeme procesem použití licence podle cesty pomocí Aspose.CAD for .NET. Připoutejte se, když odhalíme kroky k bezproblémové integraci této výkonné knihovny do vašich projektů, což zajistí hladký a efektivní pracovní postup.
@@ -88,3 +94,9 @@ A3: Ano, můžete získat bezplatnou zkušební verzi[tady](https://releases.asp
 ### Q5: Potřebujete pomoc nebo máte otázky?
 
  A5: Připojte se ke komunitě Aspose.CAD na[Fórum Aspose.CAD](https://forum.aspose.com/c/cad/19).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

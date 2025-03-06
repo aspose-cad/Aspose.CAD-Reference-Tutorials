@@ -3,10 +3,16 @@ title: Hỗ trợ lưới cho tệp DWG - Hướng dẫn Aspose.CAD
 linktitle: Hỗ trợ lưới cho tệp DWG
 second_title: Aspose.CAD .NET - Định dạng tệp CAD và BIM
 description: Khám phá hỗ trợ lưới cho các tệp DWG với Aspose.CAD cho .NET. Nâng cao các ứng dụng CAD của bạn với khả năng thao tác lưới mạnh mẽ.
-type: docs
 weight: 13
 url: /vi/net/image-manipulation-and-rendering/mesh-support-for-dwg/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Hỗ trợ lưới cho tệp DWG - Hướng dẫn Aspose.CAD
+
 ## Giới thiệu
 
 Mở khóa tiềm năng của Aspose.CAD cho .NET khi chúng ta đi sâu vào thế giới thú vị về hỗ trợ lưới cho các tệp DWG. Trong hướng dẫn từng bước này, chúng tôi sẽ hướng dẫn bạn quy trình khai thác sức mạnh của Aspose.CAD để làm việc với các tệp DWG chứa dữ liệu lưới. Cho dù bạn là nhà phát triển dày dạn kinh nghiệm hay mới bắt đầu với Aspose.CAD, hướng dẫn này sẽ trang bị cho bạn kiến thức để thao tác và trích xuất thông tin có giá trị từ các tệp DWG với các thực thể lưới.
@@ -123,3 +129,9 @@ A2: Chắc chắn rồi. Aspose.CAD cung cấp hỗ trợ toàn diện cho cả 
 ### Câu hỏi 5: Có phiên bản dùng thử miễn phí của Aspose.CAD không?
 
  Câu trả lời 5: Có, bạn có thể truy cập phiên bản dùng thử miễn phí[đây](https://releases.aspose.com/) để khám phá các khả năng của Aspose.CAD trước khi mua hàng.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

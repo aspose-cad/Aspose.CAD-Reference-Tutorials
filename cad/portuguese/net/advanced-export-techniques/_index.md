@@ -3,10 +3,16 @@ title: Técnicas Avançadas de Exportação
 linktitle: Técnicas Avançadas de Exportação
 second_title: Aspose.CAD .NET - Formato de arquivo CAD e BIM
 description: Desbloqueie o poder do Aspose.CAD em C# com nossos tutoriais de técnicas avançadas de exportação. Exporte facilmente DWG para DXF, PDF, imagens raster, objetos OLE e muito mais.
-type: docs
 weight: 26
 url: /pt/net/advanced-export-techniques/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Técnicas Avançadas de Exportação
+
 
 ## Introdução
 
@@ -50,3 +56,9 @@ Aprenda como exportar layouts específicos para PDF usando Aspose.CAD for .NET. 
 Exporte desenhos CAD para PDF perfeitamente com Aspose.CAD for .NET. Siga nosso guia passo a passo para uma conversão eficiente.
 ### [Exportando desenhos CAD para formato SVG - Guia Aspose.CAD](./exporting-cad-drawings-to-svg/)
 Explore o processo contínuo de exportação de desenhos CAD para SVG usando Aspose.CAD for .NET. Aprimore seu desenvolvimento CAD com flexibilidade e personalização.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

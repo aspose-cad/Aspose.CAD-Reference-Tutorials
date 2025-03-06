@@ -3,10 +3,16 @@ title: Aggiungi filigrane ai disegni CAD - Aspose.CAD per Java Tutorial
 linktitle: Aggiungi filigrana
 second_title: API Java Aspose.CAD
 description: Migliora i tuoi disegni CAD con filigrane personalizzate utilizzando Aspose.CAD per Java. Segui la nostra guida passo passo per un'integrazione perfetta.
-type: docs
 weight: 12
 url: /it/java/other-cad-operations/add-watermark/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aggiungi filigrane ai disegni CAD - Aspose.CAD per Java Tutorial
+
 ## introduzione
 
 Benvenuti in questa guida completa sull'aggiunta di filigrane ai disegni CAD utilizzando Aspose.CAD per Java. In questo tutorial imparerai come integrare le filigrane in modo efficiente, migliorando i tuoi documenti CAD con messaggi o marchi personalizzati. Aspose.CAD per Java fornisce un potente set di funzionalità, rendendo semplice il processo di aggiunta della filigrana.
@@ -99,3 +105,9 @@ R2: Sì, hai il pieno controllo sull'aspetto della filigrana, comprese le dimens
 ### Q5: Dove posso trovare la documentazione completa per Aspose.CAD per Java?
 
  A5: Fare riferimento a[documentazione](https://reference.aspose.com/cad/java/) per informazioni dettagliate.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

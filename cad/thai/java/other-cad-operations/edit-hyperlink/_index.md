@@ -3,10 +3,16 @@ title: แก้ไขไฮเปอร์ลิงก์ DWG - บทช่ว
 linktitle: แก้ไขไฮเปอร์ลิงก์
 second_title: Aspose.CAD Java API
 description: เพิ่มความแม่นยำในการวาด DWG ด้วย Aspose.CAD สำหรับ Java แก้ไขไฮเปอร์ลิงก์ได้อย่างราบรื่น ทำให้มั่นใจได้ถึงการอ้างอิงที่แม่นยำ ลองทดลองใช้ฟรีทันที!
-type: docs
 weight: 17
 url: /th/java/other-cad-operations/edit-hyperlink/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# แก้ไขไฮเปอร์ลิงก์ DWG - บทช่วยสอน Java Aspose.CAD
+
 ในยุคดิจิทัลปัจจุบัน การจัดการแบบร่าง DWG อย่างมีประสิทธิภาพถือเป็นสิ่งสำคัญสำหรับมืออาชีพในอุตสาหกรรมต่างๆ Aspose.CAD สำหรับ Java มอบโซลูชันอันทรงพลังในการแก้ไขไฮเปอร์ลิงก์ภายในภาพวาด DWG ช่วยให้มั่นใจได้ถึงการผสานรวมและการปรับแต่งที่ราบรื่น คำแนะนำทีละขั้นตอนนี้จะแนะนำคุณตลอดขั้นตอนการแก้ไขไฮเปอร์ลิงก์โดยใช้ Aspose.CAD สำหรับ Java
 
 ## การแนะนำ
@@ -99,3 +105,9 @@ A1: Aspose.CAD สำหรับ Java รองรับการวาด DWG 
 ### คำถามที่ 5: ฉันสามารถขอรับใบอนุญาตชั่วคราวเพื่อการทดสอบได้หรือไม่
 
  A5: ได้ คุณสามารถขอรับใบอนุญาตชั่วคราวได้[ที่นี่](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

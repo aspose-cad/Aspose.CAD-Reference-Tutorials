@@ -3,10 +3,16 @@ title: Thay thế Phông chữ trong Aspose.CAD cho .NET
 linktitle: Thay thế phông chữ
 second_title: Aspose.CAD .NET - Định dạng tệp CAD và BIM
 description: Tìm hiểu cách thay thế phông chữ trong Aspose.CAD cho .NET một cách dễ dàng. Làm theo hướng dẫn từng bước của chúng tôi để tùy chỉnh phông chữ hiệu quả trong bản vẽ CAD của bạn.
-type: docs
 weight: 17
 url: /vi/net/cad-features-and-support/substituting-fonts/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Thay thế Phông chữ trong Aspose.CAD cho .NET
+
 ## Giới thiệu
 
 Trong lĩnh vực phát triển CAD bằng .NET, khả năng thao tác phông chữ là một kỹ năng quan trọng. Aspose.CAD cho .NET cung cấp một bộ công cụ mạnh mẽ cho mục đích này, cho phép các nhà phát triển thay thế phông chữ một cách liền mạch trong bản vẽ CAD của họ. Trong hướng dẫn này, chúng ta sẽ khám phá quy trình từng bước một, trình bày cách thực hiện thay thế phông chữ một cách hiệu quả.
@@ -109,3 +115,10 @@ Trả lời 4: Chắc chắn, bạn có thể triển khai xử lý hàng loạt
 
  Câu trả lời 5: Để được hỗ trợ thêm và thảo luận trong cộng đồng, hãy truy cập[Diễn đàn Aspose.CAD](https://forum.aspose.com/c/cad/19).
 
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

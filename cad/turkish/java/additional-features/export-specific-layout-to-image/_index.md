@@ -3,10 +3,16 @@ title: Java'da Aspose.CAD ile Belirli DXF Düzenini Görüntüye Aktarın
 linktitle: Belirli DXF Düzenini Java ile Görüntüye Aktarma
 second_title: Aspose.CAD Java API'si
 description: Aspose.CAD for Java kullanarak belirli bir DXF düzenini bir görüntüye nasıl aktaracağınızı öğrenin. Sorunsuz entegrasyon için adım adım kılavuzumuzu izleyin.
-type: docs
 weight: 16
 url: /tr/java/additional-features/export-specific-layout-to-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java'da Aspose.CAD ile Belirli DXF Düzenini Görüntüye Aktarın
+
 ## giriiş
 
 Belirli bir DXF düzenini Java kullanarak bir görüntüye dönüştürmek mi istiyorsunuz? Aspose.CAD for Java ile bu görevi sorunsuz bir şekilde gerçekleştirebilirsiniz. Bu adım adım kılavuzda, her aşama için net talimatlar ve örnekler sunarak belirli bir DXF düzenini bir görüntüye aktarma sürecinde size yol göstereceğiz.
@@ -141,3 +147,9 @@ Cevap4: Evet, Aspose.CAD for Java PNG, BMP, TIFF ve daha fazlası dahil olmak ü
 ### S5: Rasterleştirme seçeneklerini daha da özelleştirebilir miyim?
 
  A5: Kesinlikle,`CadRasterizationOptions` sınıf özelleştirme için çeşitli özellikler sağlar. Ek seçenekler için belgeleri inceleyin.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

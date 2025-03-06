@@ -3,10 +3,16 @@ title: Xuất DWG sang PDF hoặc hình ảnh Raster - Hướng dẫn Aspose.CAD
 linktitle: Xuất DWG sang PDF hoặc hình ảnh Raster
 second_title: Aspose.CAD .NET - Định dạng tệp CAD và BIM
 description: Khám phá hướng dẫn toàn diện về cách xuất DWG sang PDF hoặc hình ảnh raster bằng Aspose.CAD cho .NET. Tìm hiểu các bước, điều kiện tiên quyết và bắt tay thực hành với thư viện mạnh mẽ này.
-type: docs
 weight: 11
 url: /vi/net/advanced-export-techniques/exporting-dwg-to-pdf-or-raster-images/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Xuất DWG sang PDF hoặc hình ảnh Raster - Hướng dẫn Aspose.CAD
+
 ## Giới thiệu
 
 Bạn đang tìm cách chuyển đổi liền mạch các tệp DWG thành PDF hoặc hình ảnh raster trong ứng dụng .NET của mình? Đừng tìm đâu xa! Hướng dẫn từng bước này sẽ hướng dẫn bạn qua quy trình sử dụng thư viện Aspose.CAD cho .NET mạnh mẽ. Cho dù bạn là nhà phát triển dày dạn kinh nghiệm hay mới bắt đầu, hướng dẫn này sẽ đáp ứng mọi cấp độ kỹ năng.
@@ -119,3 +125,9 @@ Chúc mừng! Bạn đã học thành công cách sử dụng Aspose.CAD cho .NE
 ### Câu hỏi 5: Tôi có thể tìm tài liệu chi tiết ở đâu?
 
  A5: Tài liệu có sẵn tại[Aspose.CAD](https://reference.aspose.com/cad/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

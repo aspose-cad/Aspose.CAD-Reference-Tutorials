@@ -3,10 +3,16 @@ title: Conversión de diseños CAD a PDF - Tutorial de Aspose.CAD
 linktitle: Conversión de diseños CAD a PDF
 second_title: Aspose.CAD .NET - Formato de archivo CAD y BIM
 description: Convierta diseños CAD a PDF sin esfuerzo con Aspose.CAD para .NET. Siga nuestra guía paso a paso para una integración perfecta.
-type: docs
 weight: 10
 url: /es/net/cad-layouts-and-decomposition/converting-cad-layouts-to-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Conversión de diseños CAD a PDF - Tutorial de Aspose.CAD
+
 ## Introducción
 
 ¿Está buscando convertir sus diseños CAD a PDF sin problemas? Aspose.CAD para .NET proporciona una solución sólida para que este proceso sea eficiente y sencillo. En este tutorial, lo guiaremos a través de los pasos para usar Aspose.CAD, una poderosa API que permite a los desarrolladores trabajar con archivos CAD sin esfuerzo.
@@ -129,3 +135,9 @@ R3: Utilice las opciones de gráficos y rasterización proporcionadas para adapt
 ### P5: ¿Dónde puedo buscar ayuda o hacer preguntas?
 
 A5: Visita el[Foro Aspose.CAD](https://forum.aspose.com/c/cad/19) para ayuda y discusiones.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

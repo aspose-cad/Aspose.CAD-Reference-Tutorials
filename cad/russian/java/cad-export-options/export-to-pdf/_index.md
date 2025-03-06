@@ -3,10 +3,16 @@ title: Экспорт в PDF с помощью Aspose.CAD для Java
 linktitle: Экспорт в PDF
 second_title: API Aspose.CAD Java
 description: Узнайте, как легко экспортировать файлы САПР в PDF с помощью Aspose.CAD для Java. Следуйте нашему пошаговому руководству для бесшовной интеграции.
-type: docs
 weight: 13
 url: /ru/java/cad-export-options/export-to-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Экспорт в PDF с помощью Aspose.CAD для Java
+
 ## Введение
 
 Добро пожаловать в это подробное руководство по экспорту файлов САПР в PDF с помощью Aspose.CAD для Java. Если вы хотите легко преобразовать чертежи САПР в широко поддерживаемый формат PDF, вы попали по адресу. В этом пошаговом руководстве мы разберем этот процесс, чтобы вы поняли каждый шаг для успешного экспорта PDF.
@@ -95,3 +101,9 @@ image.save(outPath, pdfOptions);
 ### Вопрос 5: Как я могу получить временную лицензию на Aspose.CAD?
 
  A5: Для временного лицензирования посетите[эта ссылка](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

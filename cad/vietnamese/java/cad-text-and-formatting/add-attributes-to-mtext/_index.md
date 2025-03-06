@@ -3,10 +3,16 @@ title: Thêm thuộc tính vào MText trong tệp DWG bằng Aspose.CAD cho Java
 linktitle: Thêm thuộc tính vào MText trong tệp DWG bằng Java
 second_title: API Java Aspose.CAD
 description: Tìm hiểu cách thêm thuộc tính vào MText trong tệp DWG bằng Aspose.CAD cho Java. Nâng cao bản vẽ CAD của bạn với hướng dẫn từng bước này.
-type: docs
 weight: 13
 url: /vi/java/cad-text-and-formatting/add-attributes-to-mtext/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Thêm thuộc tính vào MText trong tệp DWG bằng Aspose.CAD cho Java
+
 ## Giới thiệu
 
 Trong thế giới lập trình Java, thao tác với file CAD là một công việc phổ biến. Aspose.CAD cho Java là một thư viện mạnh mẽ tạo điều kiện thuận lợi cho việc xử lý các tệp CAD, khiến nó trở thành lựa chọn hàng đầu của các nhà phát triển. Trong hướng dẫn này, chúng ta sẽ đi sâu vào trường hợp sử dụng cụ thể: thêm thuộc tính vào MText trong tệp DWG. Điều này có thể rất quan trọng để nâng cao sự phong phú cho bản vẽ CAD của bạn.
@@ -117,3 +123,9 @@ A3: Bạn có thể tham khảo tài liệu[đây](https://reference.aspose.com/
 ### Câu hỏi 5: Tôi có thể dùng thử Aspose.CAD cho Java trước khi mua giấy phép không?
 
  Câu trả lời 5: Có, bạn có thể khám phá bản dùng thử miễn phí[đây](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

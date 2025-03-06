@@ -3,10 +3,16 @@ title: Linee nascoste ed entità
 linktitle: Linee nascoste ed entità
 second_title: Aspose.CAD .NET - Formato file CAD e BIM
 description: Sblocca facilmente le linee nascoste nei file DWG con Aspose.CAD per .NET. Migliora i tuoi progetti CAD con la nostra guida passo passo.
-type: docs
 weight: 29
 url: /it/net/hidden-lines-and-entities/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Linee nascoste ed entità
+
 
 
 ## introduzione
@@ -39,3 +45,9 @@ In conclusione, sia che ti concentri sullo sblocco delle linee nascoste o sullo 
 Sblocca facilmente le linee nascoste nei file DWG con Aspose.CAD per .NET. Segui la nostra guida passo passo per un'integrazione perfetta.
 ### [Supporto dell'entità MLeader per il formato DWG - Guida Aspose.CAD](./supporting-mleader-entity-for-dwg-format/)
 Sblocca la potenza delle entità MLeader in formato DWG con Aspose.CAD per .NET. Migliora i tuoi progetti CAD senza sforzo.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

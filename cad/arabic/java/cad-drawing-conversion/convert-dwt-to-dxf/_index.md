@@ -3,10 +3,16 @@ title: تحويل تنسيق DWT إلى تنسيق DXF باستخدام Aspose.C
 linktitle: تحويل DWT إلى تنسيق DXF باستخدام جافا
 second_title: Aspose.CAD جافا API
 description: اكتشف التحويل السلس لـ DWT إلى DXF باستخدام Aspose.CAD لـ Java. اتبع دليلنا خطوة بخطوة لمعالجة ملفات CAD بكفاءة.
-type: docs
 weight: 15
 url: /ar/java/cad-drawing-conversion/convert-dwt-to-dxf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تحويل تنسيق DWT إلى تنسيق DXF باستخدام Aspose.CAD لـ Java
+
 ## مقدمة
 
 مرحبًا بك في هذا الدليل الشامل حول تحويل تنسيق DWT إلى تنسيق DXF باستخدام Aspose.CAD لـ Java. Aspose.CAD هي مكتبة قوية تتيح للمطورين العمل مع رسومات CAD بتنسيقات مختلفة. في هذا البرنامج التعليمي، سنرشدك خلال عملية تحويل رسومات DWT إلى تنسيق DXF، مع تقديم خطوات وشروحات مفصلة.
@@ -94,3 +100,9 @@ cadImage.save(outFile);
 ### س5: هل يمكنني الحصول على ترخيص مؤقت لأغراض الاختبار؟
 
  ج5: نعم، يمكنك طلب ترخيص مؤقت[هنا](https://purchase.aspose.com/temporary-license/) للاختبار والتقييم.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

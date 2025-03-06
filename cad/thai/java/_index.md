@@ -1,12 +1,17 @@
 ---
 title: บทช่วยสอนที่ครอบคลุมและตัวอย่าง Aspose.CAD สำหรับ Java
 linktitle: Aspose.CAD สำหรับการสอน Java
-type: docs
 weight: 10
 url: /th/java/
 description: ยกระดับทักษะ CAD ได้อย่างง่ายดายด้วย Aspose.CAD สำหรับ Java สำรวจบทช่วยสอนเกี่ยวกับการแปลงรูปวาด คำอธิบายประกอบข้อความ การจัดการไฟล์ คุณสมบัติขั้นสูง การให้สิทธิ์การใช้งาน และอื่นๆ
-is_root: true
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# บทช่วยสอนที่ครอบคลุมและตัวอย่าง Aspose.CAD สำหรับ Java
+
 
 ## การแนะนำ
 
@@ -77,3 +82,9 @@ is_root: true
 ปลดล็อกพลังของ Aspose.CAD สำหรับ Java ด้วยบทช่วยสอนการส่งออก DGN ของเรา เรียนรู้การจัดการไฟล์ CAD ที่มีประสิทธิภาพ ตั้งแต่การส่งออก DGN โดยเป็นส่วนหนึ่งของ DWG ไปจนถึงการสร้างภาพแรสเตอร์ได้อย่างง่ายดาย
 ### [การดำเนินงาน CAD อื่น ๆ](./other-cad-operations/)
 ปลดล็อกศักยภาพของ Aspose.CAD สำหรับ Java ด้วยบทช่วยสอนของเรา ตั้งแต่การจัดการองค์ประกอบ DGN ไปจนถึงการเพิ่มลายน้ำ เพิ่มทักษะ CAD ของคุณได้อย่างง่ายดาย
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

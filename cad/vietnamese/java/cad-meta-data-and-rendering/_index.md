@@ -3,10 +3,16 @@ title: Dữ liệu Meta CAD và kết xuất
 linktitle: Dữ liệu Meta CAD và kết xuất
 second_title: API Java Aspose.CAD
 description: Khai phá sức mạnh của Aspose.CAD cho Java bằng các hướng dẫn của chúng tôi! Tìm hiểu cách dễ dàng đọc dữ liệu meta XREF và hiển thị tài liệu DWG thành hình ảnh để phát triển CAD nâng cao.
-type: docs
 weight: 27
 url: /vi/java/cad-meta-data-and-rendering/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Dữ liệu Meta CAD và kết xuất
+
 
 
 ## Giới thiệu
@@ -33,3 +39,9 @@ Tóm lại, hãy tận dụng sức mạnh của Aspose.CAD cho Java bằng các
 Khám phá Aspose.CAD cho Java và đọc thành thạo dữ liệu meta XREF từ các tệp DWG một cách dễ dàng. Thúc đẩy sự phát triển CAD của bạn với thư viện Java mạnh mẽ này.
 ### [Kết xuất tài liệu DWG thành hình ảnh bằng Aspose.CAD cho Java](./render-dwg-to-image/)
 Khám phá sự tích hợp liền mạch của Aspose.CAD cho Java trong việc hiển thị tài liệu DWG thành hình ảnh. Hãy làm theo hướng dẫn từng bước của chúng tôi để có kết quả hiệu quả.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

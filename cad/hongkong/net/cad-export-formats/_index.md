@@ -3,10 +3,16 @@ title: CAD 匯出格式
 linktitle: CAD 匯出格式
 second_title: Aspose.CAD .NET - CAD 和 BIM 檔案格式
 description: 使用 Aspose.CAD for .NET 輕鬆掌握 CAD 匯出格式。透過教學學習如何轉換 CAD 佈局、將 DGN 檔案匯出為 PDF 和光柵影像。
-type: docs
 weight: 22
 url: /zh-hant/net/cad-export-formats/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# CAD 匯出格式
+
 
 ## 介紹
 
@@ -38,3 +44,9 @@ url: /zh-hant/net/cad-export-formats/
 了解如何使用 Aspose.CAD for .NET 將 DGN 檔案輕鬆匯出為 PDF。無縫 CAD 檔案操作的逐步指南。
 ### [在 Aspose.CAD for .NET 中將 DGN 匯出為光柵影像](./export-dgn-to-raster-image/)
 使用 Aspose.CAD for .NET 輕鬆將 DGN 轉換為光柵影像。探索逐步指南並釋放 .NET 在 CAD 檔案操作方面的強大功能。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

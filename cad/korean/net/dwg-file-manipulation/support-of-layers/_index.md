@@ -3,10 +3,16 @@ title: C#을 사용하여 DWG 파일의 레이어 처리 - Aspose.CAD Tutorial
 linktitle: C#을 사용하여 DWG 파일의 레이어 처리
 second_title: Aspose.CAD .NET - CAD 및 BIM 파일 형식
 description: .NET용 Aspose.CAD와 C#을 사용하여 DWG 파일의 레이어를 처리하는 방법을 알아보세요. 효율적인 CAD 파일 조작을 위한 단계별 가이드입니다.
-type: docs
 weight: 11
 url: /ko/net/dwg-file-manipulation/support-of-layers/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# C#을 사용하여 DWG 파일의 레이어 처리 - Aspose.CAD Tutorial
+
 ## 소개
 
 .NET용 Aspose.CAD와 C#을 사용하여 DWG 파일의 레이어를 처리하는 방법에 대한 심층 튜토리얼에 오신 것을 환영합니다. Aspose.CAD는 개발자가 CAD 파일 형식을 원활하게 사용할 수 있게 해주는 강력한 라이브러리입니다. 이 튜토리얼에서는 DWG 파일의 레이어를 처리하는 과정을 단계별로 안내합니다.
@@ -109,3 +115,9 @@ image.Save(MyDir, jpegOptions);
 ### Q5: Aspose.CAD의 라이선스 옵션은 무엇입니까?
 
  A5: 라이선스 옵션과 구매 세부정보를 살펴볼 수 있습니다.[여기](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

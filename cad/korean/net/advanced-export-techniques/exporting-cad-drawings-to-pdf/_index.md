@@ -3,10 +3,16 @@ title: CAD 도면을 PDF로 내보내기 - Aspose.CAD 튜토리얼
 linktitle: CAD 도면을 PDF로 내보내기
 second_title: Aspose.CAD .NET - CAD 및 BIM 파일 형식
 description: .NET용 Aspose.CAD를 사용하여 CAD 도면을 PDF로 원활하게 내보냅니다. 효율적인 변환을 위해 단계별 가이드를 따르세요.
-type: docs
 weight: 14
 url: /ko/net/advanced-export-techniques/exporting-cad-drawings-to-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# CAD 도면을 PDF로 내보내기 - Aspose.CAD 튜토리얼
+
 ## 소개
 
 끊임없이 진화하는 CAD(컴퓨터 지원 설계) 세계에서는 복잡한 도면을 다양한 형식으로 내보내는 것이 무엇보다 중요합니다. .NET용 Aspose.CAD가 구출되어 CAD 도면을 PDF로 원활하게 변환할 수 있는 강력한 도구 세트를 제공합니다. 이 튜토리얼에서는 Aspose.CAD for .NET을 사용하여 CAD 도면을 PDF로 내보내는 과정을 자세히 살펴보고 원활하고 포괄적인 학습 경험을 보장하기 위해 각 단계를 세분화합니다.
@@ -110,3 +116,9 @@ A2: Aspose.CAD for .NET은 다양한 크기와 복잡성의 도면을 효율적�
 ### Q5: 프로세스 중에 문제가 발생하면 어디서 도움을 받을 수 있나요?
 
 A5: 다음을 방문하세요.[Aspose.CAD 포럼](https://forum.aspose.com/c/cad/19) 전담 지원 및 지역 사회 협력을 위해.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

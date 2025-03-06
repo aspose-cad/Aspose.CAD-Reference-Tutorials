@@ -3,10 +3,16 @@ title: Προσθέστε προσαρμοσμένες ιδιότητες σε �
 linktitle: Προσθέστε προσαρμοσμένες ιδιότητες σε αρχεία DWG χρησιμοποιώντας Java
 second_title: Aspose.CAD Java API
 description: Μάθετε πώς να προσθέτετε προσαρμοσμένες ιδιότητες σε αρχεία DWG σε Java χρησιμοποιώντας το Aspose.CAD. Βελτιώστε την οργάνωση και την ανάκτηση πληροφοριών στα σχέδια CAD χωρίς κόπο.
-type: docs
 weight: 10
 url: /el/java/additional-features/add-custom-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Προσθέστε προσαρμοσμένες ιδιότητες σε αρχεία DWG χρησιμοποιώντας το Aspose.CAD σε Java
+
 Στον κόσμο του προγραμματισμού Java, ο χειρισμός αρχείων DWG με προσαρμοσμένες ιδιότητες είναι μια συνηθισμένη εργασία. Το Aspose.CAD για Java παρέχει ένα ισχυρό σύνολο εργαλείων για την απρόσκοπτη ενσωμάτωση αυτής της λειτουργικότητας στα έργα σας. Σε αυτό το βήμα προς βήμα σεμινάριο, θα σας καθοδηγήσουμε στη διαδικασία προσθήκης προσαρμοσμένων ιδιοτήτων σε αρχεία DWG χρησιμοποιώντας το Aspose.CAD για Java.
 
 ## Εισαγωγή
@@ -105,3 +111,9 @@ A2: Το Aspose.CAD για Java είναι συμβατό με δημοφιλή 
 ### Ε5: Πώς μπορώ να λάβω υποστήριξη ή να κάνω ερωτήσεις;
 
 A5: Επισκεφθείτε το[Φόρουμ Aspose.CAD](https://forum.aspose.com/c/cad/19) για να λάβετε υποστήριξη, να κάνετε ερωτήσεις και να συνδεθείτε με την κοινότητα Aspose.CAD.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: تصدير DGN إلى صورة نقطية في Aspose.CAD لـ .NET
 linktitle: تصدير DGN إلى الصورة النقطية
 second_title: Aspose.CAD .NET - تنسيق ملف CAD وBIM
 description: قم بتحويل DGN إلى صور نقطية بسهولة باستخدام Aspose.CAD لـ .NET. استكشف الدليل التفصيلي خطوة بخطوة وأطلق العنان لقوة .NET في معالجة ملفات CAD.
-type: docs
 weight: 13
 url: /ar/net/cad-export-formats/export-dgn-to-raster-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تصدير DGN إلى صورة نقطية في Aspose.CAD لـ .NET
+
 ## مقدمة
 
 في المجال الديناميكي لتطوير .NET، يظهر Aspose.CAD كأداة قوية للتعامل مع ملفات التصميم بمساعدة الكمبيوتر (CAD). يتعمق هذا البرنامج التعليمي في عملية تصدير ملفات DGN إلى صور نقطية باستخدام Aspose.CAD لـ .NET. إذا كنت حريصًا على تحويل ملفات DGN الخاصة بك إلى صور نقطية جذابة بصريًا بسلاسة، فأنت في المكان الصحيح.
@@ -102,3 +108,9 @@ A1: نعم، يدعم Aspose.CAD for .NET تنسيقات الإخراج المخ
 ### س5: كيف يمكنني الحصول على ترخيص مؤقت لـ Aspose.CAD لـ .NET؟
 
  ج5: زيارة[هذا الرابط](https://purchase.aspose.com/temporary-license/)للحصول على ترخيص مؤقت لاحتياجات التطوير الخاصة بك.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Convertir un dessin CAO en image raster dans Aspose.CAD pour .NET
 linktitle: Convertir un dessin CAO en image raster
 second_title: Aspose.CAD .NET - Format de fichier CAO et BIM
 description: Explorez le processus transparent de conversion de dessins CAO en images raster dans .NET avec Aspose.CAD. Débloquez des flux de travail efficaces et améliorez vos projets CAO sans effort.
-type: docs
 weight: 11
 url: /fr/net/cad-drawing-manipulation/convert-cad-drawing-to-raster-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Convertir un dessin CAO en image raster dans Aspose.CAD pour .NET
+
 ## Introduction
 
 Dans le paysage en constante évolution de la conception assistée par ordinateur (CAO), la nécessité de convertir de manière transparente les dessins CAO en images raster est primordiale. Ce guide étape par étape explique comment y parvenir à l'aide de la puissante bibliothèque Aspose.CAD pour .NET. Aspose.CAD simplifie le processus, en fournissant aux développeurs un ensemble d'outils robustes pour améliorer leurs flux de travail liés à la CAO.
@@ -118,3 +124,9 @@ A2 : Oui, Aspose.CAD permet une personnalisation étendue des options de rastér
 ### Q5 : Des licences temporaires sont-elles disponibles pour Aspose.CAD ?
  
  A5 : Oui, les développeurs peuvent obtenir des licences temporaires pour Aspose.CAD auprès de[ce lien](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

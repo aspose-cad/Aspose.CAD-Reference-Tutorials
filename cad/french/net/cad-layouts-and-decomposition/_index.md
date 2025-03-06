@@ -3,10 +3,16 @@ title: Dispositions et décomposition CAO
 linktitle: Dispositions et décomposition CAO
 second_title: Aspose.CAD .NET - Format de fichier CAO et BIM
 description: Libérez le potentiel des mises en page CAO avec Aspose.CAD pour .NET ! Convertissez facilement des conceptions en PDF à l'aide de notre guide. Maîtrisez la décomposition des objets insérés sans effort.
-type: docs
 weight: 34
 url: /fr/net/cad-layouts-and-decomposition/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Dispositions et décomposition CAO
+
 
 
 
@@ -59,3 +65,9 @@ En conclusion, Aspose.CAD pour .NET change la donne dans le domaine de la CAO. G
 Convertissez facilement des mises en page CAO en PDF avec Aspose.CAD pour .NET. Suivez notre guide étape par étape pour une intégration transparente.
 ### [Décomposition d'objets d'insertion CAO - Guide Aspose.CAD](./decomposing-cad-insert-objects/)
 Explorez la puissance d'Aspose.CAD pour .NET avec notre guide étape par étape sur la décomposition des objets d'insertion CAO.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

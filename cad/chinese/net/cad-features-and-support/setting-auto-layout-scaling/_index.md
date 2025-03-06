@@ -3,10 +3,16 @@ title: 在 Aspose.CAD for .NET 中设置自动布局缩放
 linktitle: 设置自动布局缩放
 second_title: Aspose.CAD .NET - CAD 和 BIM 文件格式
 description: 使用 Aspose.CAD for .NET 增强 CAD 渲染。了解如何设置自动布局缩放以实现精确且适应性强的文件渲染。
-type: docs
 weight: 14
 url: /zh/net/cad-features-and-support/setting-auto-layout-scaling/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.CAD for .NET 中设置自动布局缩放
+
 在 .NET 开发的动态领域中，优化计算机辅助设计 (CAD) 文件的渲染是创建高效且具有视觉吸引力的应用程序的一个重要方面。 Aspose.CAD for .NET 使开发人员能够增强其 CAD 处理能力，在本教程中，我们将重点介绍使用 Aspose.CAD for .NET 设置自动布局缩放。
 
 ## 先决条件
@@ -107,3 +113,9 @@ A4：当然，Aspose.CAD 提供了多种用于自定义输出的选项，包括�
 ### 问题 5：在哪里可以找到 Aspose.CAD 的其他资源和支持？
 
  A5：探索[Aspose.CAD论坛](https://forum.aspose.com/c/cad/19)寻求社区支持，并参考[文档](https://reference.aspose.com/cad/net/)获取详细信息。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

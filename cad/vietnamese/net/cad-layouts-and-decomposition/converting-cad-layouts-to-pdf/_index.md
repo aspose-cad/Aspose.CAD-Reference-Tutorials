@@ -3,10 +3,16 @@ title: Chuyển đổi bố cục CAD sang PDF - Hướng dẫn Aspose.CAD
 linktitle: Chuyển đổi bố cục CAD sang PDF
 second_title: Aspose.CAD .NET - Định dạng tệp CAD và BIM
 description: Chuyển đổi bố cục CAD sang PDF dễ dàng với Aspose.CAD cho .NET. Hãy làm theo hướng dẫn từng bước của chúng tôi để tích hợp liền mạch.
-type: docs
 weight: 10
 url: /vi/net/cad-layouts-and-decomposition/converting-cad-layouts-to-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Chuyển đổi bố cục CAD sang PDF - Hướng dẫn Aspose.CAD
+
 ## Giới thiệu
 
 Bạn đang muốn chuyển đổi bố cục CAD của mình sang PDF một cách liền mạch? Aspose.CAD cho .NET cung cấp một giải pháp mạnh mẽ để làm cho quá trình này trở nên hiệu quả và đơn giản. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn các bước sử dụng Aspose.CAD, một API mạnh mẽ cho phép các nhà phát triển làm việc với các tệp CAD một cách dễ dàng.
@@ -129,3 +135,9 @@ Câu trả lời 3: Sử dụng các tùy chọn đồ họa và rasterization �
 ### Câu hỏi 5: Tôi có thể tìm kiếm sự hỗ trợ hoặc đặt câu hỏi ở đâu?
 
 A5: Tham quan[Diễn đàn Aspose.CAD](https://forum.aspose.com/c/cad/19) để được hỗ trợ và thảo luận.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

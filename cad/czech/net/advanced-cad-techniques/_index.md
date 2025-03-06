@@ -3,10 +3,16 @@ title: Pokročilé CAD techniky
 linktitle: Pokročilé CAD techniky
 second_title: Aspose.CAD .NET – formát souborů CAD a BIM
 description: Bez námahy převádějte CFF do PDF, prozkoumejte volný úhel pohledu ve výkresech CAD, nastavte časové limity operací ukládání, vytvářejte soubory PDF pomocí výukových programů Aspose.CAD for .NET.
-type: docs
 weight: 38
 url: /cs/net/advanced-cad-techniques/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Pokročilé CAD techniky
+
 ## Úvod
 
 S pokrokem technologie roste i potřeba zvládnout pokročilé techniky počítačově podporovaného navrhování (CAD). V tomto článku se ponoříme do světa CAD a zaměříme se na výukové programy poskytované Aspose.CAD pro .NET. Ať už jste ostřílený CAD profesionál nebo nováček, který chce rozšířit své dovednosti, tyto výukové programy nabízejí neocenitelné informace o vylepšení vašich zkušeností s CAD.
@@ -43,3 +49,9 @@ Prozkoumejte, jak vylepšit operace ukládání CAD pomocí nastavení časovéh
 Vytvořte jedno PDF s různými rozvrženími pomocí Aspose.CAD for .NET. Postupujte podle našeho podrobného průvodce pro bezproblémovou integraci a efektivní generování PDF.
 ### [Úpravy hypertextových odkazů v souborech CAD - Výukový program Aspose.CAD](./editing-hyperlinks-in-cad-files/)
 Prozkoumejte Aspose.CAD for .NET a naučte se bez námahy upravovat hypertextové odkazy v souborech CAD. Vylepšete své dovednosti v oblasti správy souborů CAD pomocí tohoto komplexního návodu.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

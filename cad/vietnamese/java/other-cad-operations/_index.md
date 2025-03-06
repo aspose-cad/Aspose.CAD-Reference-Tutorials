@@ -3,10 +3,16 @@ title: Các hoạt động CAD khác
 linktitle: Các hoạt động CAD khác
 second_title: API Java Aspose.CAD
 description: Khai phá tiềm năng của Aspose.CAD cho Java bằng các hướng dẫn của chúng tôi. Từ việc xử lý các phần tử DGN đến thêm hình mờ, hãy nâng cao kỹ năng CAD của bạn một cách dễ dàng.
-type: docs
 weight: 32
 url: /vi/java/other-cad-operations/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Các hoạt động CAD khác
+
 ## Giới thiệu
 
 Chào mừng bạn đến với trung tâm hướng dẫn Aspose.CAD dành cho Java, nơi chúng tôi làm sáng tỏ sức mạnh của công cụ đa năng này, trao quyền cho các nhà phát triển Java nâng cao kỹ năng CAD của họ. Từ việc xử lý các phần tử DGN phức tạp đến việc thêm dấu ấn cá nhân bằng hình mờ, hướng dẫn từng bước của chúng tôi đảm bảo quá trình tích hợp liền mạch. Hãy bắt đầu hành trình khai thác toàn bộ tiềm năng của Aspose.CAD cho Java.
@@ -63,3 +69,9 @@ Tạo các tệp PDF tuyệt đẹp với bố cục đa dạng từ bản vẽ 
 Nâng cao độ chính xác của bản vẽ DWG với Aspose.CAD cho Java. Chỉnh sửa liên kết liền mạch, đảm bảo tài liệu tham khảo chính xác.
 ### [Hỗ trợ OBJ - Hướng dẫn Aspose.CAD cho Java](./support-of-obj/)
 Khám phá tiềm năng của Aspose.CAD cho Java trong việc xử lý các bản vẽ OBJ một cách liền mạch. Chuyển đổi dễ dàng sang PDF với hướng dẫn từng bước của chúng tôi.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

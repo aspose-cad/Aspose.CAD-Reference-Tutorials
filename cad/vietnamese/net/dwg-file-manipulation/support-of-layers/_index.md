@@ -3,10 +3,16 @@ title: Xử lý các lớp trong tệp DWG bằng C# - Hướng dẫn Aspose.CAD
 linktitle: Xử lý các lớp trong tệp DWG bằng C#
 second_title: Aspose.CAD .NET - Định dạng tệp CAD và BIM
 description: Tìm hiểu cách xử lý các lớp trong tệp DWG bằng C# với Aspose.CAD cho .NET. Hướng dẫn từng bước để thao tác tệp CAD hiệu quả.
-type: docs
 weight: 11
 url: /vi/net/dwg-file-manipulation/support-of-layers/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Xử lý các lớp trong tệp DWG bằng C# - Hướng dẫn Aspose.CAD
+
 ## Giới thiệu
 
 Chào mừng bạn đến với hướng dẫn chuyên sâu của chúng tôi về cách xử lý các lớp trong tệp DWG bằng C# với Aspose.CAD cho .NET. Aspose.CAD là một thư viện mạnh mẽ cho phép các nhà phát triển làm việc liền mạch với các định dạng tệp CAD. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn từng bước quy trình xử lý các lớp trong tệp DWG.
@@ -109,3 +115,9 @@ Trong hướng dẫn này, chúng tôi đã hướng dẫn quy trình xử lý c
 ### Câu hỏi 5: Các tùy chọn cấp phép cho Aspose.CAD là gì?
 
  Câu trả lời 5: Bạn có thể khám phá các tùy chọn cấp phép và chi tiết mua hàng[đây](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

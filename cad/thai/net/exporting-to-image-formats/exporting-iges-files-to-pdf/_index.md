@@ -3,10 +3,16 @@ title: การส่งออกไฟล์ IGES เป็น PDF - คู่
 linktitle: การส่งออกไฟล์ IGES เป็น PDF
 second_title: Aspose.CAD .NET - รูปแบบไฟล์ CAD และ BIM
 description: เรียนรู้วิธีส่งออกไฟล์ IGES เป็น PDF ได้อย่างง่ายดายโดยใช้ Aspose.CAD สำหรับ .NET ปฏิบัติตามคำแนะนำทีละขั้นตอนของเราเพื่อการจัดการไฟล์ CAD ที่แม่นยำ
-type: docs
 weight: 11
 url: /th/net/exporting-to-image-formats/exporting-iges-files-to-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# การส่งออกไฟล์ IGES เป็น PDF - คู่มือ Aspose.CAD
+
 ## การแนะนำ
 
 ในโลกแบบไดนามิกของการออกแบบโดยใช้คอมพิวเตอร์ช่วย (CAD) ความจำเป็นในการแปลงไฟล์ IGES เป็นรูปแบบ PDF ถือเป็นข้อกำหนดทั่วไป Aspose.CAD สำหรับ .NET มอบโซลูชันอันทรงพลังสำหรับงานนี้ โดยให้ความยืดหยุ่นและความแม่นยำในการจัดการไฟล์ CAD ในบทช่วยสอนนี้ เราจะแนะนำคุณตลอดขั้นตอนการส่งออกไฟล์ IGES เป็น PDF โดยใช้ Aspose.CAD สำหรับ .NET มาดำน้ำกันเถอะ!
@@ -118,3 +124,9 @@ cadImage.Save(MyDir + "figa2.pdf", pdfOptions);
 ### Q5: ต้องการความช่วยเหลือหรือมีคำถาม?
 
 A5: เข้าร่วมชุมชน Aspose.CAD บน[ฟอรั่มการสนับสนุน](https://forum.aspose.com/c/cad/19) เพื่อขอความช่วยเหลือและการอภิปรายทันที
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

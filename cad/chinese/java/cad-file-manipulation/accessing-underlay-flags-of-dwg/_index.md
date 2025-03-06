@@ -3,10 +3,16 @@ title: 使用 Aspose.CAD for Java 访问 DWG 的底层标志
 linktitle: 访问 DWG 的底层标志
 second_title: Aspose.CAD Java API
 description: 使用 Aspose.CAD for Java 探索 CAD 魔法世界！在 Java 应用程序中轻松处理 DWG 文件。
-type: docs
 weight: 11
 url: /zh/java/cad-file-manipulation/accessing-underlay-flags-of-dwg/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.CAD for Java 访问 DWG 的底层标志
+
 ## 介绍
 
 在计算机辅助设计 (CAD) 领域，精度和效率至关重要。 Aspose.CAD for Java 成为一个强大的盟友，在 Java 应用程序和 CAD 功能之间提供无缝桥梁。在本分步指南中，我们将深入研究 Aspose.CAD 的魔力，重点关注使用 Java 处理 DWG 文件和提取有价值的信息。
@@ -112,3 +118,9 @@ A1：Aspose.CAD主要关注DWG格式，但也支持DXF、DWF和其他CAD格式�
 ### Q5：在哪里可以找到 Aspose.CAD for Java 的综合文档？
 
  A5：请参阅[文档](https://reference.aspose.com/cad/java/)获取详细信息。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

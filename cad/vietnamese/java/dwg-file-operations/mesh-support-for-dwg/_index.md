@@ -3,10 +3,16 @@ title: Kích hoạt hỗ trợ lưới cho tệp DWG trong Java
 linktitle: Kích hoạt hỗ trợ lưới cho tệp DWG trong Java
 second_title: API Java Aspose.CAD
 description: Tìm hiểu cách bật hỗ trợ lưới cho các tệp DWG trong Java bằng Aspose.CAD. Hướng dẫn từng bước để thao tác vẽ 3D liền mạch. #JavaLập trình #CADFiles
-type: docs
 weight: 12
 url: /vi/java/dwg-file-operations/mesh-support-for-dwg/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Kích hoạt hỗ trợ lưới cho tệp DWG trong Java
+
 ## Giới thiệu
 
 Trong thế giới năng động của lập trình Java, việc thao tác các tệp CAD một cách hiệu quả là rất quan trọng. Aspose.CAD cho Java ra đời để giải cứu, cung cấp các công cụ mạnh mẽ để xử lý các tệp DWG. Trong hướng dẫn này, chúng tôi sẽ đi sâu vào việc kích hoạt hỗ trợ lưới cho các tệp DWG bằng Aspose.CAD, cho phép bạn làm việc liền mạch với các bản vẽ 3D phức tạp.
@@ -116,3 +122,9 @@ Câu trả lời 1: Có, Aspose.CAD hỗ trợ nhiều định dạng CAD khác 
 ### Câu 5: Cần hỗ trợ hoặc có thắc mắc?
 
 A5: Tham quan[Diễn đàn Aspose.CAD](https://forum.aspose.com/c/cad/19) để được hỗ trợ tận tình.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Kỹ thuật xuất khẩu
 linktitle: Kỹ thuật xuất khẩu
 second_title: Aspose.CAD .NET - Định dạng tệp CAD và BIM
 description: Khám phá các hướng dẫn của Aspose.CAD để phát triển CAD liền mạch. Tìm hiểu các kỹ thuật hiệu quả để xuất tệp DXF sang nhiều định dạng khác nhau một cách dễ dàng.
-type: docs
 weight: 32
 url: /vi/net/export-techniques/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Kỹ thuật xuất khẩu
+
 
 
 ## Giới thiệu
@@ -49,3 +55,9 @@ Khám phá khả năng tích hợp liền mạch của Aspose.CAD cho .NET trong
 Khám phá sức mạnh của Aspose.CAD cho .NET. Tìm hiểu cách xuất các tệp DGN được nhúng sang PDF một cách dễ dàng với hướng dẫn từng bước này.
 ### [Xuất hình ảnh sang định dạng DXF - Hướng dẫn Aspose.CAD](./exporting-images-to-dxf-format/)
 Khám phá sức mạnh của Aspose.CAD cho .NET! Tìm hiểu cách xuất hình ảnh sang định dạng DXF một cách dễ dàng. Nâng cao khả năng phát triển CAD của bạn với độ chính xác và hiệu quả.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

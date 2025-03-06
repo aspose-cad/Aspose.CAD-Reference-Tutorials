@@ -3,10 +3,16 @@ title: Fonctionnalités et prise en charge de la CAO
 linktitle: Fonctionnalités et prise en charge de la CAO
 second_title: Aspose.CAD .NET - Format de fichier CAO et BIM
 description: Libérez tout le potentiel des fonctionnalités de CAO avec les didacticiels Aspose.CAD pour .NET. Apprenez la prise en charge 3D de DGN V7, la gestion du maillage, la personnalisation du stylet et bien plus encore, sans effort.
-type: docs
 weight: 23
 url: /fr/net/cad-features-and-support/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Fonctionnalités et prise en charge de la CAO
+
 
 ## Introduction
 
@@ -80,3 +86,9 @@ Explorez les puissantes fonctionnalités d'Aspose.CAD for .NET pour la gestion d
 Découvrez la prise en charge transparente d'Aspose.CAD pour .NET pour DGN VConvertissez les fichiers DGN en images raster sans effort avec des conseils étape par étape.
 ### [Prise en charge de la 3D pour DGN V7 dans Aspose.CAD pour .NET](./support-of-3d-for-dgn-v7/)
 Libérez la puissance de la prise en charge 3D pour DGN V7 dans Aspose.CAD pour .NET. Suivez notre tutoriel étape par étape.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

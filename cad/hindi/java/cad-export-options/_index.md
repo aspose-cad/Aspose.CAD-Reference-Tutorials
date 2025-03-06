@@ -3,10 +3,16 @@ title: सीएडी निर्यात विकल्प
 linktitle: सीएडी निर्यात विकल्प
 second_title: Aspose.CAD जावा एपीआई
 description: जावा के लिए Aspose.CAD का उपयोग करके आसानी से ऑटोकैड छवियां, सीएडी लेआउट, आईएफसी, एसटीएल फाइलों को पीडीएफ, बीएमपी, पीएनजी में निर्यात करें। हमारे चरण-दर-चरण ट्यूटोरियल के साथ अपने वर्कफ़्लो को सरल बनाएं।
-type: docs
 weight: 30
 url: /hi/java/cad-export-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# सीएडी निर्यात विकल्प
+
 
 ## परिचय
 
@@ -50,3 +56,9 @@ Aspose.CAD के साथ जावा में STL फ़ाइलों क
 जावा के लिए Aspose.CAD के साथ IFC को आसानी से PNG में बदलें। हमारे चरण-दर-चरण ट्यूटोरियल का अनुसरण करें।
 ### [जावा के लिए Aspose.CAD के साथ STL को PNG में निर्यात करें](./export-stl-to-png/)
 Aspose.CAD के साथ जावा में STL फ़ाइलों को PNG में निर्यात करने की निर्बाध प्रक्रिया का अन्वेषण करें। अपने वर्कफ़्लो को सरल बनाएं और अपने जावा प्रोजेक्ट्स को सहजता से बढ़ाएं।
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

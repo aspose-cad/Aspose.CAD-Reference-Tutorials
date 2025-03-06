@@ -3,10 +3,16 @@ title: Travailler avec des fichiers DWG en C# - Obtenir la taille de la mise en 
 linktitle: Travailler avec des fichiers DWG en C# - Obtenir la taille de la mise en page DWF
 second_title: Aspose.CAD .NET - Format de fichier CAO et BIM
 description: Découvrez la puissance d'Aspose.CAD pour .NET dans la gestion des fichiers DWG. Apprenez à extraire facilement les tailles de mise en page DWF à l’aide de C#.
-type: docs
 weight: 10
 url: /fr/net/dwg-file-manipulation/get-size-of-dwf-layout/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Travailler avec des fichiers DWG en C# - Obtenir la taille de la mise en page DWF
+
 ## Introduction
 
 Dans le domaine de la conception assistée par ordinateur (CAO) et du développement .NET, Aspose.CAD se présente comme un outil puissant pour gérer les fichiers DWG. Ce didacticiel vous guidera tout au long du processus d'utilisation des fichiers DWG en C# et d'extraction de la taille d'une mise en page DWF. Avant de plonger dans le code, assurons-nous que vous avez tout mis en place pour vous lancer dans ce voyage.
@@ -163,3 +169,9 @@ A4 : Pour toute question ou assistance, visitez le[Forum Aspose.CAD](https://fo
 ### Q5 : Existe-t-il un essai gratuit disponible pour Aspose.CAD ?
 
  A5 : Oui, vous pouvez accéder à une version d'essai gratuite d'Aspose.CAD[ici](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

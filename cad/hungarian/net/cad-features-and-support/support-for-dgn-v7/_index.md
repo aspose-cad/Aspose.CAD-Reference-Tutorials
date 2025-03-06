@@ -3,10 +3,16 @@ title: A DGN V7 támogatása az Aspose.CAD for .NET-ben
 linktitle: DGN V7 támogatása
 second_title: Aspose.CAD .NET - CAD és BIM fájlformátum
 description: Fedezze fel az Aspose.CAD-et a .NET DGN V7 zökkenőmentes támogatásához. Konvertálja a DGN fájlokat raszterképekké a lépésenkénti útmutatás segítségével.
-type: docs
 weight: 19
 url: /hu/net/cad-features-and-support/support-for-dgn-v7/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# A DGN V7 támogatása az Aspose.CAD for .NET-ben
+
 ## Bevezetés
 
 .NET fejlesztés területén az Aspose.CAD a számítógéppel segített tervezésű (CAD) fájlok kezelésére szolgáló hatékony könyvtárként tűnik ki. Ez az oktatóanyag az Aspose.CAD for .NET egy speciális funkciójával foglalkozik – a DGN V7 fájlok támogatásával. A DGN, a Design rövidítése, egy széles körben használt fájlformátum a CAD tartományban. Az Aspose.CAD leegyszerűsíti a DGN V7 fájlokkal való munkafolyamatot, és zökkenőmentes élményt kínál a fejlesztőknek.
@@ -108,3 +114,9 @@ Ebben az oktatóanyagban megvizsgáltuk a DGN V7 zökkenőmentes támogatását 
 ### 5. kérdés: Elérhető ingyenes próbaverzió az Aspose.CAD for .NET számára?
 
  5. válasz: Igen, hozzáférhet az ingyenes próbaverzióhoz[itt](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

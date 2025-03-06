@@ -3,10 +3,16 @@ title: الترخيص المقنن في Aspose.CAD
 linktitle: الترخيص المقنن في Aspose.CAD
 second_title: Aspose.CAD جافا API
 description: تعرف على كيفية إتقان الترخيص المقنن في Aspose.CAD لـ Java باستخدام هذا الدليل الشامل. قم بتحسين معالجة CAD لديك لتحقيق الكفاءة والفعالية من حيث التكلفة.
-type: docs
 weight: 10
 url: /ar/java/licensing-and-configuration/metered-licensing-in-aspose-cad/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# الترخيص المقنن في Aspose.CAD
+
 ## مقدمة
 
 أطلق العنان للإمكانات الكاملة لـ Aspose.CAD لـ Java من خلال الترخيص المقنن! سيرشدك هذا الدليل خطوة بخطوة خلال عملية إعداد الترخيص المقنن، مما يضمن التكامل السلس والاستخدام الأمثل لمكتبة Java القوية للتصميم بمساعدة الكمبيوتر (CAD). بدءًا من المتطلبات الأساسية وحتى استيراد الحزم وتنفيذ الأمثلة، يغطي هذا البرنامج التعليمي كل شيء.
@@ -94,3 +100,9 @@ System.out.println("Consumption quantity after processing: " + quantity);
 ### س5: هل تحتاج إلى دعم المجتمع أو لديك أسئلة محددة؟
 
  ج5: توجه إلى منتدى Aspose.CAD[هنا](https://forum.aspose.com/c/cad/19).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

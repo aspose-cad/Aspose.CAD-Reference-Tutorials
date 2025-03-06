@@ -3,10 +3,16 @@ title: Phân tách đối tượng chèn CAD bằng Aspose.CAD trong Java
 linktitle: Phân tách đối tượng chèn CAD bằng Java
 second_title: API Java Aspose.CAD
 description: Làm chủ việc phân tách các đối tượng chèn CAD trong Java bằng Aspose.CAD. Hãy làm theo hướng dẫn từng bước của chúng tôi để xử lý hiệu quả. Đi sâu vào thế giới thao tác CAD.
-type: docs
 weight: 11
 url: /vi/java/additional-features/decompose-cad-insert-object/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Phân tách đối tượng chèn CAD bằng Aspose.CAD trong Java
+
 ## Giới thiệu
 
 Chào mừng bạn đến với hướng dẫn toàn diện của chúng tôi về cách sử dụng Aspose.CAD cho Java để phân tách các đối tượng chèn CAD. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn quy trình chia nhỏ các đối tượng chèn CAD thành các phần cấu thành của chúng, cung cấp cho bạn hướng dẫn từng bước để triển khai liền mạch. Cho dù bạn là nhà phát triển dày dạn kinh nghiệm hay mới bắt đầu với Aspose.CAD, hướng dẫn này sẽ trang bị cho bạn kiến thức để xử lý hiệu quả các đối tượng chèn CAD trong ứng dụng Java của bạn.
@@ -110,3 +116,9 @@ Trong hướng dẫn này, chúng ta đã khám phá quá trình phân tách cá
 ### Câu hỏi 5: Có bản vẽ mẫu nào để thực hành không?
 
 Câu trả lời 5: Có, bạn có thể tìm thấy các bản vẽ mẫu trong thư mục "DXFBản vẽ" trong tài nguyên Aspose.CAD.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

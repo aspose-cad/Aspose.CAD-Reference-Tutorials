@@ -3,10 +3,16 @@ title: Vyhledávání a manipulace s textem
 linktitle: Vyhledávání a manipulace s textem
 second_title: Aspose.CAD .NET – formát souborů CAD a BIM
 description: Odemkněte sílu Aspose.CAD pro .NET pomocí našich výukových programů pro vyhledávání textu v souborech DWG pomocí C#. Zvyšte své dovednosti CAD a vylepšete své aplikace.
-type: docs
 weight: 28
 url: /cs/net/text-search-and-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Vyhledávání a manipulace s textem
+
 
 ## Úvod
 
@@ -36,3 +42,9 @@ Jste připraveni zlepšit své CAD dovednosti? Ponořte se do našeho tutoriálu
 ## Výukové programy pro vyhledávání a manipulaci s textem
 ### [Hledání textu v souborech DWG pomocí jazyka C# - výukový program Aspose.CAD](./searching-text-in-dwg-files/)
 Prozkoumejte Aspose.CAD for .NET a ovládejte vyhledávání textu v souborech DWG pomocí tohoto podrobného průvodce. Vylepšete své CAD aplikace ještě dnes!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

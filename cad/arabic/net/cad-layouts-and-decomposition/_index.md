@@ -3,10 +3,16 @@ title: تخطيطات CAD والتحلل
 linktitle: تخطيطات CAD والتحلل
 second_title: Aspose.CAD .NET - تنسيق ملف CAD وBIM
 description: أطلق العنان لإمكانات تخطيطات CAD باستخدام Aspose.CAD لـ .NET! قم بتحويل التصميمات إلى PDF بسهولة باستخدام دليلنا. إتقان تحليل الكائنات المدرجة دون عناء.
-type: docs
 weight: 34
 url: /ar/net/cad-layouts-and-decomposition/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تخطيطات CAD والتحلل
+
 
 
 
@@ -59,3 +65,9 @@ url: /ar/net/cad-layouts-and-decomposition/
 قم بتحويل تخطيطات CAD إلى PDF بسهولة باستخدام Aspose.CAD لـ .NET. اتبع دليلنا خطوة بخطوة للتكامل السلس.
 ### [تحلل كائنات إدراج CAD - دليل Aspose.CAD](./decomposing-cad-insert-objects/)
 اكتشف قوة Aspose.CAD لـ .NET من خلال دليلنا خطوة بخطوة حول تحليل كائنات إدراج CAD.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

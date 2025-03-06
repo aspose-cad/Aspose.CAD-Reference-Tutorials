@@ -3,10 +3,16 @@ title: دعم النماذج ثلاثية الأبعاد
 linktitle: دعم النماذج ثلاثية الأبعاد
 second_title: Aspose.CAD .NET - تنسيق ملف CAD وBIM
 description: قم بتحسين تطبيقات CAD الخاصة بك باستخدام Aspose.CAD لـ .NET! أتقن فن دعم تنسيق OBJ بسلاسة، مما يفتح الإمكانات الكاملة لنماذجك ثلاثية الأبعاد.
-type: docs
 weight: 40
 url: /ar/net/3d-model-support/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# دعم النماذج ثلاثية الأبعاد
+
 
 ## مقدمة
 
@@ -32,3 +38,9 @@ url: /ar/net/3d-model-support/
 ## دروس دعم النماذج ثلاثية الأبعاد
 ### [دعم تنسيق OBJ في Aspose.CAD - البرنامج التعليمي](./supporting-obj-format-in-aspose-cad/)
 أطلق العنان لإمكانات Aspose.CAD لـ .NET. تعرف على كيفية دعم تنسيق OBJ بسلاسة في تطبيقات CAD الخاصة بك من خلال هذا البرنامج التعليمي خطوة بخطوة.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

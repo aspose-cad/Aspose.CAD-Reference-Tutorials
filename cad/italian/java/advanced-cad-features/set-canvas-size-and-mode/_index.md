@@ -3,10 +3,16 @@ title: Imposta le dimensioni e la modalità della tela
 linktitle: Imposta le dimensioni e la modalità della tela
 second_title: API Java Aspose.CAD
 description: Esplora la potenza di Aspose.CAD per Java con la nostra guida passo passo sull'impostazione delle dimensioni e della modalità della tela. Converti facilmente file CAD nei formati PDF e TIFF.
-type: docs
 weight: 16
 url: /it/java/advanced-cad-features/set-canvas-size-and-mode/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Imposta le dimensioni e la modalità della tela
+
 ## introduzione
 
 Stai cercando di sfruttare la potenza di Aspose.CAD per Java per migliorare il tuo processo di conversione CAD? Questa guida completa ti guiderà attraverso i passaggi per impostare le dimensioni e la modalità della tela utilizzando Aspose.CAD per Java. Che tu sia uno sviluppatore esperto o che tu abbia appena iniziato, questo tutorial ti fornirà le informazioni di cui hai bisogno.
@@ -126,3 +132,9 @@ A1: Sì, Aspose.CAD è progettato per integrarsi perfettamente con vari framewor
 ### Q5: Come posso acquistare Aspose.CAD per Java?
 
  A5: Acquista il prodotto[Qui](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Konwertuj układy na obraz rastrowy w Aspose.CAD dla .NET
 linktitle: Konwertuj układy na obraz rastrowy
 second_title: Aspose.CAD .NET - Format plików CAD i BIM
 description: Bez wysiłku konwertuj układy CAD na obrazy rastrowe za pomocą Aspose.CAD dla .NET. Usprawnij swój rozwój dzięki potężnym możliwościom manipulacji CAD.
-type: docs
 weight: 12
 url: /pl/net/cad-drawing-manipulation/convert-layouts-to-raster-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Konwertuj układy na obraz rastrowy w Aspose.CAD dla .NET
+
 ## Wstęp
 
 Czy chcesz bez wysiłku konwertować układy na obrazy rastrowe w aplikacjach .NET? Nie szukaj dalej! Ten przewodnik krok po kroku przeprowadzi Cię przez proces korzystania z Aspose.CAD dla .NET, potężnej biblioteki, która upraszcza zadania projektowania wspomaganego komputerowo (CAD).
@@ -102,3 +108,9 @@ Gratulacje! Pomyślnie przekonwertowałeś układy CAD do formatu obrazu rastrow
 ### P5: Gdzie mogę kupić licencję na Aspose.CAD?
 
  A5: Przejdź do[strona zakupu](https://purchase.aspose.com/buy) kupić licencję i odblokować pełny potencjał Aspose.CAD.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

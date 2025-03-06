@@ -3,10 +3,16 @@ title: Java용 Aspose.CAD를 사용하여 PDF로 내보내기
 linktitle: PDF로 내보내기
 second_title: Aspose.CAD 자바 API
 description: Aspose.CAD for Java를 사용하여 CAD 파일을 PDF로 쉽게 내보내는 방법을 알아보세요. 원활한 통합을 위한 단계별 가이드를 따르세요.
-type: docs
 weight: 13
 url: /ko/java/cad-export-options/export-to-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java용 Aspose.CAD를 사용하여 PDF로 내보내기
+
 ## 소개
 
 Aspose.CAD for Java를 사용하여 CAD 파일을 PDF로 내보내는 방법에 대한 포괄적인 튜토리얼에 오신 것을 환영합니다. CAD 도면을 널리 지원되는 PDF 형식으로 원활하게 변환하려는 경우 올바른 위치에 있습니다. 이 단계별 가이드에서는 성공적인 PDF 내보내기를 위한 각 단계를 이해할 수 있도록 프로세스를 세분화합니다.
@@ -95,3 +101,9 @@ A2: 물론이죠. 튜토리얼에서는 사용자 정의 옵션을 간략하게 
 ### Q5: Aspose.CAD의 임시 라이선스는 어떻게 얻을 수 있나요?
 
  A5: 임시 라이선스를 받으려면 다음을 방문하세요.[이 링크](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

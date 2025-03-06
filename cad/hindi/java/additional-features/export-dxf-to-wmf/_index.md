@@ -3,10 +3,16 @@ title: जावा में Aspose.CAD का उपयोग करके DXF
 linktitle: जावा का उपयोग करके DXF को WMF प्रारूप में निर्यात करें
 second_title: Aspose.CAD जावा एपीआई
 description: जावा के लिए Aspose.CAD की शक्ति को अनलॉक करें। हमारे विस्तृत ट्यूटोरियल से जानें कि डीएक्सएफ ड्राइंग को आसानी से डब्लूएमएफ प्रारूप में कैसे निर्यात किया जाए। लाइब्रेरी डाउनलोड करें, हमारे चरण-दर-चरण मार्गदर्शिका का पालन करें, और अपनी CAD फ़ाइल प्रबंधन को उन्नत करें।
-type: docs
 weight: 14
 url: /hi/java/additional-features/export-dxf-to-wmf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# जावा में Aspose.CAD का उपयोग करके DXF को WMF प्रारूप में निर्यात करें
+
 ## परिचय
 
 DXF ड्राइंग को WMF प्रारूप में निर्यात करने के लिए जावा के लिए Aspose.CAD का उपयोग करने पर हमारी चरण-दर-चरण मार्गदर्शिका में आपका स्वागत है। Aspose.CAD एक शक्तिशाली जावा लाइब्रेरी है जो CAD फ़ाइलों के साथ काम करने के लिए व्यापक क्षमताएं प्रदान करती है। इस ट्यूटोरियल में, हम आपको Aspose.CAD का उपयोग करके DXF फ़ाइलों को WMF प्रारूप में परिवर्तित करने की प्रक्रिया के बारे में बताएंगे।
@@ -109,3 +115,9 @@ image.save(dataDir + "conic_pyramid_out_.pdf");
 ### Q5: मुझे सहायता कहाँ से मिल सकती है?
 
  A5: Aspose.CAD सहायता फ़ोरम पर जाएँ[यहाँ](https://forum.aspose.com/c/cad/19).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: 고급 CAD 기능
 linktitle: 고급 CAD 기능
 second_title: Aspose.CAD 자바 API
 description: Java 튜토리얼용 Aspose.CAD를 사용하여 CAD 개발 수준을 높이세요. 추적 활성화, IGES 형식 통합, 메시 지원 마스터, 펜 내보내기 사용자 정의, DWT 파일 읽기 등에 대해 알아보세요.
-type: docs
 weight: 24
 url: /ko/java/advanced-cad-features/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 고급 CAD 기능
+
 
 ## 소개
 
@@ -66,3 +72,9 @@ Aspose.CAD for Java로 CAD 워크플로우를 향상하세요. 이 단계별 가
 Aspose.CAD를 사용한 Java CAD 개발의 마스터 레이어 지원. 손쉽게 도면을 구성하고 내보낼 수 있습니다.
 ### [Java에서 Aspose.CAD를 사용하여 외부 참조에서 블록 속성 값 추출](./extract-block-attribute-value/)
 Aspose.CAD를 사용하여 Java의 DWG 외부 참조에서 블록 속성 값을 추출하는 방법에 대한 튜토리얼을 살펴보세요. CAD 개발 워크플로우를 손쉽게 향상시키십시오.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

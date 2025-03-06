@@ -3,10 +3,16 @@ title: قم بتطبيق الترخيص باستخدام FileStream في Aspose.
 linktitle: تطبيق الترخيص باستخدام FileStream
 second_title: Aspose.CAD .NET - تنسيق ملف CAD وBIM
 description: Mastering Aspose.CAD for .NET - تطبيق التراخيص بسلاسة باستخدام FileStream. استكشف الدليل المفصّل خطوة بخطوة واطلق العنان للإمكانات. التحميل الان!
-type: docs
 weight: 11
 url: /ar/net/licensing-and-configuration/apply-license-using-filestream/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# قم بتطبيق الترخيص باستخدام FileStream في Aspose.CAD لـ .NET
+
 ## مقدمة
 
 مرحبًا بك في عالم Aspose.CAD for .NET - وهي أداة قوية تمكّن المطورين من التعامل مع ملفات CAD بسلاسة. في هذا البرنامج التعليمي، سنرشدك خلال عملية تطبيق الترخيص باستخدام FileStream، مما يضمن لك الاستفادة الكاملة من إمكانات Aspose.CAD في مشاريع .NET الخاصة بك.
@@ -80,3 +86,9 @@ license.SetLicense(LicStream);
 ### س5: هل تحتاج إلى مساعدة أو لديك أسئلة؟ أين يمكنني الحصول على الدعم؟
 
  ج5: قم بزيارة منتديات Aspose.CAD[هنا](https://forum.aspose.com/c/cad/19) لأية استفسارات متعلقة بالدعم.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Exporter une mise en page DWG spécifique au format PDF à l'aide d'Aspos
 linktitle: Exporter une mise en page DWG spécifique au format PDF
 second_title: API Java Aspose.CAD
 description: Explorez le guide étape par étape pour exporter des mises en page DWG spécifiques au format PDF à l'aide d'Aspose.CAD pour Java. Optimisez votre flux de travail CAO sans effort.
-type: docs
 weight: 14
 url: /fr/java/cad-drawing-conversion/export-specific-dwg-layout-to-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Exporter une mise en page DWG spécifique au format PDF à l'aide d'Aspose.CAD pour Java
+
 ## Introduction
 
 Dans le monde dynamique de la conception assistée par ordinateur (CAO), Aspose.CAD pour Java apparaît comme un outil puissant pour manipuler et convertir des dessins DWG. Dans ce didacticiel, nous explorerons un scénario spécifique : l'exportation d'une mise en page DWG désignée vers un fichier PDF. Ce processus garantit précision et flexibilité dans vos projets CAO.
@@ -100,3 +106,9 @@ Aspose.CAD pour Java est une bibliothèque autonome mais peut être intégrée �
 ### Q5 : Existe-t-il un essai gratuit disponible pour Aspose.CAD ?
 
  Oui, vous pouvez accéder à un essai gratuit[ici](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

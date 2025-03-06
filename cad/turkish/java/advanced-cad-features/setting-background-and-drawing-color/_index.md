@@ -3,10 +3,16 @@ title: Aspose.CAD for Java Kullanarak Arka Planı Ayarlama ve Çizim Rengi
 linktitle: Arka Plan ve Çizim Rengini Ayarlama
 second_title: Aspose.CAD Java API'si
 description: Aspose.CAD for Java'yı kullanarak CAD dosyalarını zahmetsizce PDF ve TIFF'e dönüştürün. Görsel olarak etkileyici sonuçlar için özel arka plan ve çizim renkleri ayarlayın.
-type: docs
 weight: 15
 url: /tr/java/advanced-cad-features/setting-background-and-drawing-color/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.CAD for Java Kullanarak Arka Planı Ayarlama ve Çizim Rengi
+
 ## giriiş
 
 Bilgisayar Destekli Tasarımın (CAD) dinamik dünyasında, verimli dosya dönüştürme, kusursuz işbirliği ve iletişim için çok önemlidir. Aspose.CAD for Java, CAD dosyalarını PDF ve TIFF formatlarına dönüştürmek için güçlü yetenekler sunan güçlü bir araç olarak ortaya çıkıyor. Bu eğitimde, Aspose.CAD for Java'yı kullanarak arka planı ayarlama ve çizim rengini oluşturma sürecini derinlemesine inceleyeceğiz ve size en iyi sonuçları elde etmek için adım adım bir kılavuz sunacağız.
@@ -98,3 +104,10 @@ Cevap2: Evet, eğitimde hem PDF hem de TIFF çıktıları için özel arka plan 
 ### S5: Aspose.CAD for Java desteğini nasıl alabilirim?
 
 A5: ziyaret edin[Aspose.CAD forumu](https://forum.aspose.com/c/cad/19) yardım istemek ve toplulukla etkileşime geçmek.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

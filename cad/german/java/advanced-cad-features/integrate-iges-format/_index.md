@@ -3,10 +3,16 @@ title: Integrieren Sie das IGES-Format
 linktitle: Integrieren Sie das IGES-Format
 second_title: Aspose.CAD Java API
 description: Entdecken Sie die nahtlose Integration des IGES-Formats mit Aspose.CAD für Java. Befolgen Sie unsere Schritt-für-Schritt-Anleitung und nutzen Sie die Leistungsfähigkeit von Aspose.CAD, um Ihre CAD-Entwicklungserfahrung zu verbessern.
-type: docs
 weight: 11
 url: /de/java/advanced-cad-features/integrate-iges-format/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Integrieren Sie das IGES-Format
+
 ## Einführung
 
 In der dynamischen Welt des CAD (Computer-Aided Design) ist die Notwendigkeit, verschiedene Dateiformate zu integrieren, von größter Bedeutung. Dieser Leitfaden befasst sich mit der nahtlosen Integration des IGES-Formats (Initial Graphics Exchange Specification) mit Aspose.CAD für Java. Aspose.CAD ermöglicht Entwicklern die mühelose Bearbeitung und Konvertierung von CAD-Dateien und eröffnet so eine Welt voller Möglichkeiten für die Anwendungsentwicklung.
@@ -88,3 +94,9 @@ A2: Auf jeden Fall! Wie im Tutorial gezeigt, können Sie die Vektor-Rasterisieru
 ### F5: Wie kaufe ich die Aspose.CAD-Lizenz?
 
  A5: Sie können die Aspose.CAD-Lizenz erwerben[Hier](https://purchase.aspose.com/buy) um das volle Potenzial der Bibliothek auszuschöpfen.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

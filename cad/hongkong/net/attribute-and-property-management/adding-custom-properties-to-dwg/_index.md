@@ -3,10 +3,16 @@ title: 將自訂屬性新增至 DWG 檔案 - Aspose.CAD 指南
 linktitle: 將自訂屬性新增至 DWG 文件
 second_title: Aspose.CAD .NET - CAD 和 BIM 檔案格式
 description: 使用 Aspose.CAD for .NET 透過自訂屬性增強您的 DWG 檔案。按照我們的逐步指南輕鬆添加有意義的元資料。
-type: docs
 weight: 11
 url: /zh-hant/net/attribute-and-property-management/adding-custom-properties-to-dwg/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 將自訂屬性新增至 DWG 檔案 - Aspose.CAD 指南
+
 ## 介紹
 
 歡迎閱讀使用 Aspose.CAD for .NET 將自訂屬性新增至 DWG 檔案的綜合指南。 Aspose.CAD 是一個功能強大的程式庫，可讓開發人員無縫地使用 CAD 檔案。在本教程中，我們將重點加強您對自訂屬性以及如何使用 Aspose.CAD 將它們新增至 DWG 檔案的理解。
@@ -92,3 +98,9 @@ A4：雖然沒有嚴格的限制，但最好為自訂屬性使用有意義且唯
 ### Q5：如果我遇到任何問題，Aspose.CAD 是否提供支援？
 
  A5：是的，您可以尋求以下方面的協助：[Aspose.CAD論壇](https://forum.aspose.com/c/cad/19)如有任何技術疑問或問題。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

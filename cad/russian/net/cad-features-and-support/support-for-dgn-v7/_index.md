@@ -3,10 +3,16 @@ title: Поддержка DGN V7 в Aspose.CAD для .NET
 linktitle: Поддержка DGN V7
 second_title: Aspose.CAD .NET — формат файлов CAD и BIM
 description: Ознакомьтесь с полной поддержкой Aspose.CAD for .NET DGN V7. Легко конвертируйте файлы DGN в растровые изображения с помощью пошаговых инструкций.
-type: docs
 weight: 19
 url: /ru/net/cad-features-and-support/support-for-dgn-v7/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Поддержка DGN V7 в Aspose.CAD для .NET
+
 ## Введение
 
 В сфере .NET-разработки Aspose.CAD выделяется как мощная библиотека для работы с файлами автоматизированного проектирования (САПР). В этом руководстве рассматривается особая функция Aspose.CAD для .NET — поддержка файлов DGN V7. DGN, сокращение от Design, представляет собой широко используемый формат файлов в области САПР. Aspose.CAD упрощает процесс работы с файлами DGN V7, предоставляя разработчикам удобство работы.
@@ -108,3 +114,9 @@ cadImage.Save(MyDir + "ExportDGNToRasterImage_out.jpeg", options);
 ### Вопрос 5: Существует ли бесплатная пробная версия Aspose.CAD для .NET?
 
  О5: Да, вы можете получить доступ к бесплатной пробной версии.[здесь](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

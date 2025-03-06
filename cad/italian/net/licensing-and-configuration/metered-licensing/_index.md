@@ -3,10 +3,16 @@ title: Licenze misurate in Aspose.CAD per .NET
 linktitle: Licenza a consumo
 second_title: Aspose.CAD .NET - Formato file CAD e BIM
 description: Sblocca il potenziale di Aspose.CAD con licenze a consumo in .NET. Ottimizza l'utilizzo delle risorse senza problemi. Esplora la nostra guida passo passo.
-type: docs
 weight: 12
 url: /it/net/licensing-and-configuration/metered-licensing/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Licenze misurate in Aspose.CAD per .NET
+
 ## introduzione
 
 Per sfruttare appieno il potenziale di Aspose.CAD per .NET è necessario comprendere le complessità delle licenze a consumo. Questa potente funzionalità consente agli sviluppatori di gestire in modo efficiente il consumo di risorse sfruttando le funzionalità di Aspose.CAD. In questa guida passo passo, approfondiremo il processo di implementazione delle licenze misurate, analizzando ogni passaggio cruciale per garantire un'integrazione perfetta nei tuoi progetti .NET.
@@ -97,3 +103,9 @@ R3: Sì, le chiavi misurate sono riutilizzabili in diversi progetti, offrendo fl
 ### Q5: Posso concedere in licenza temporaneamente Aspose.CAD per progetti specifici?
 
  A5: Sì, esplora[opzioni di licenza temporanee](https://purchase.aspose.com/temporary-license/) per esigenze di progetto a breve termine.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

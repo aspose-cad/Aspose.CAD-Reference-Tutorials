@@ -3,10 +3,16 @@ title: Управление атрибутами и недвижимостью
 linktitle: Управление атрибутами и недвижимостью
 second_title: Aspose.CAD .NET — формат файлов CAD и BIM
 description: Улучшите свои CAD-чертежи с помощью Aspose.CAD для .NET! Научитесь легко добавлять атрибуты и пользовательские свойства с помощью учебных пособий. Улучшайте свои проекты без особых усилий.
-type: docs
 weight: 30
 url: /ru/net/attribute-and-property-management/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Управление атрибутами и недвижимостью
+
 
 
 ## Введение
@@ -47,3 +53,9 @@ url: /ru/net/attribute-and-property-management/
 Улучшите свои чертежи САПР с помощью атрибутов, используя Aspose.CAD для .NET. Следуйте нашему пошаговому руководству для бесшовной интеграции.
 ### [Добавление пользовательских свойств в файлы DWG — Руководство Aspose.CAD](./adding-custom-properties-to-dwg/)
 Улучшите свои файлы DWG с помощью пользовательских свойств с помощью Aspose.CAD для .NET. Следуйте нашему пошаговому руководству, чтобы легко добавлять значимые метаданные.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

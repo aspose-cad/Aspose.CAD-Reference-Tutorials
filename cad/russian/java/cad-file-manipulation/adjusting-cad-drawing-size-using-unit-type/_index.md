@@ -3,10 +3,16 @@ title: Настройка размера чертежа САПР с исполь
 linktitle: Настройка размера чертежа САПР с использованием типа единицы измерения
 second_title: API Aspose.CAD Java
 description: Исследуйте возможности Aspose.CAD для Java, позволяющие легко регулировать размеры чертежей САПР. Следуйте нашему пошаговому руководству для точности и адаптируемости.
-type: docs
 weight: 14
 url: /ru/java/cad-file-manipulation/adjusting-cad-drawing-size-using-unit-type/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Настройка размера чертежа САПР с использованием типа единицы измерения в Aspose.CAD для Java
+
 ## Введение
 
 В постоянно развивающейся сфере компьютерного проектирования (САПР) точность и адаптируемость имеют первостепенное значение. Одним из распространенных требований является настройка размера чертежей САПР в зависимости от конкретных типов единиц измерения. Aspose.CAD for Java становится мощным союзником, предоставляющим широкие возможности для программного управления файлами САПР.
@@ -117,3 +123,9 @@ image.save(outPath, bmpOptions);
 ### Вопрос 5: Могу ли я получить временную лицензию на Aspose.CAD?
 
  О5: Да, вы можете приобрести временную лицензию.[здесь](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

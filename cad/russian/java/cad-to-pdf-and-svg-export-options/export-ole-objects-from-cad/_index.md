@@ -3,10 +3,16 @@ title: Экспорт объектов OLE из САПР с помощью Aspos
 linktitle: Экспорт объектов OLE из САПР
 second_title: API Aspose.CAD Java
 description: Раскройте потенциал Aspose.CAD для Java. Легко экспортируйте объекты OLE из файлов CAD. Загрузите сейчас и получите беспрепятственное управление данными САПР.
-type: docs
 weight: 10
 url: /ru/java/cad-to-pdf-and-svg-export-options/export-ole-objects-from-cad/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Экспорт объектов OLE из САПР с помощью Aspose.CAD для Java
+
 ## Введение
 
 В динамичном мире автоматизированного проектирования (САПР) эффективное управление и извлечение объектов OLE (связывание и внедрение объектов) имеет решающее значение. Aspose.CAD for Java предоставляет мощное решение для экспорта объектов OLE из файлов CAD. Это пошаговое руководство проведет вас через весь процесс, гарантируя, что вы сможете использовать весь потенциал этого инструмента.
@@ -97,3 +103,9 @@ for(String file : files)
 ### Вопрос 5: Как я могу приобрести лицензию на Aspose.CAD?
 
 A5: Посетите[страница покупки](https://purchase.aspose.com/buy) чтобы приобрести лицензию, которая соответствует вашим потребностям в разработке.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

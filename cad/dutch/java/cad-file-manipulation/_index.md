@@ -3,10 +3,16 @@ title: Manipulatie van CAD-bestanden
 linktitle: Manipulatie van CAD-bestanden
 second_title: Aspose.CAD Java-API
 description: Ontgrendel de kracht van CAD-bestanden met Aspose.CAD voor Java! Converteer DWFX naar PDF, krijg toegang tot DWG-vlaggen, lijstlay-outs en pas formaten automatisch aan met onze tutorials.
-type: docs
 weight: 23
 url: /nl/java/cad-file-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Manipulatie van CAD-bestanden
+
 
 ## Invoering
 
@@ -44,3 +50,9 @@ Verken Aspose.CAD voor Java en geef moeiteloos lay-outs weer in DWG-bestanden. I
 Ontdek het naadloze proces van het automatisch aanpassen van CAD-tekeningformaten in Java met behulp van Aspose.CAD. Volg onze stapsgewijze handleiding voor efficiënte manipulatie van CAD-bestanden.
 ### [De CAD-tekeninggrootte aanpassen met behulp van Unit Type met Aspose.CAD voor Java](./adjusting-cad-drawing-size-using-unit-type/)
 Ontdek de kracht van Aspose.CAD voor Java bij het moeiteloos aanpassen van CAD-tekeningformaten. Volg onze stapsgewijze handleiding voor precisie en aanpassingsvermogen.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

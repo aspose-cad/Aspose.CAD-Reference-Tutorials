@@ -3,10 +3,16 @@ title: 附加功能
 linktitle: 附加功能
 second_title: Aspose.CAD Java API
 description: 透過我們的教程釋放 Java 中 Aspose.CAD 的潛力。新增自訂屬性、分解 CAD 插入物件、啟用追蹤以及無縫導出 DXF 工程圖。輕鬆提升您的 CAD 工作流程。
-type: docs
 weight: 29
 url: /zh-hant/java/additional-features/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 附加功能
+
 
 
 ## 介紹
@@ -60,3 +66,9 @@ url: /zh-hant/java/additional-features/
 ## 結論
 
 這些教學涵蓋了 Aspose.CAD for Java 中的一系列附加功能，為您提供寶貴的見解和技能來優化您的 CAD 工作流程。無論您是要增強組織、掌握分解技術、啟用追蹤還是探索各種匯出選項，這些教學課程都可以提供您所需的知識。立即使用 Aspose.CAD for Java 提升您的 CAD 技能。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

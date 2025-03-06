@@ -3,10 +3,16 @@ title: Aspose.CAD for Java を使用して DWG 内の特定のスタイルのフ
 linktitle: DWG 内の特定のスタイルのフォントを置換する
 second_title: Aspose.CAD Java API
 description: Aspose.CAD for Java を使用して DWG ファイル内のフォントを置換する方法を学びます。スタイルを正確にカスタマイズするためのステップバイステップのガイド。
-type: docs
 weight: 12
 url: /ja/java/cad-text-and-annotation/substitute-font-of-particular-style-in-dwg/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.CAD for Java を使用して DWG 内の特定のスタイルのフォントを置換する
+
 ## 導入
 
 CAD (コンピューター支援設計) の世界では、精度と詳細が最も重要です。 Aspose.CAD for Java は、CAD 図面を操作するための強力なツールとして登場し、開発者に広範な機能を提供します。そのような重要な機能の 1 つは、DWG ファイル内のフォントを置き換えて、一貫性とカスタマイズを確保する機能です。
@@ -92,3 +98,9 @@ A4: この例は DWG に焦点を当てていますが、同様の原則はサ�
 ### Q5: Aspose.CAD for Java のサポートを受けるにはどうすればよいですか?
 
 A5: にアクセスしてください。[Aspose.CAD フォーラム](https://forum.aspose.com/c/cad/19)コミュニティのサポートとディスカッションのために。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

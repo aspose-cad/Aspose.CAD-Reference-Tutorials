@@ -3,10 +3,16 @@ title: Παρακολούθηση και απόδοση
 linktitle: Παρακολούθηση και απόδοση
 second_title: Aspose.CAD .NET - Μορφή αρχείου CAD και BIM
 description: Ξεκλειδώστε τη δύναμη του Aspose.CAD για .NET με τα σεμινάρια μας. Μάθετε να ενεργοποιείτε την παρακολούθηση σε αρχεία CAD και να αποδίδετε απρόσκοπτα τα αρχεία DXF ως PDF.
-type: docs
 weight: 31
 url: /el/net/tracking-and-rendering/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Παρακολούθηση και απόδοση
+
 
 ## Εισαγωγή
 
@@ -30,3 +36,9 @@ url: /el/net/tracking-and-rendering/
 Κύρια παρακολούθηση αρχείων CAD με το Aspose.CAD για .NET. Ακολουθήστε τον οδηγό βήμα προς βήμα για ακριβή απόδοση και παρακολούθηση σφαλμάτων. Κατεβάστε τώρα!
 ### [Απόδοση αρχείων DXF ως PDF - Οδηγός Aspose.CAD](./rendering-dxf-files-as-pdf/)
 Εξερευνήστε τον απόλυτο οδηγό για την απόδοση αρχείων DXF ως PDF χρησιμοποιώντας το Aspose.CAD για .NET. Μετατρέψτε εύκολα αρχεία CAD με το βήμα προς βήμα εκμάθησή μας.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

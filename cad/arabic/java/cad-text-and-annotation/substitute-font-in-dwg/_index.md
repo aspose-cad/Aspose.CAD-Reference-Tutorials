@@ -3,10 +3,16 @@ title: استبدل الخط في DWG باستخدام Aspose.CAD لـ Java
 linktitle: الخط البديل في DWG
 second_title: Aspose.CAD جافا API
 description: قم بتحسين تصميمات CAD الخاصة بك دون عناء. تعلم كيفية استبدال الخطوط في ملفات DWG باستخدام Aspose.CAD لـ Java. دليل خطوة بخطوة لتحقيق الكمال البصري.
-type: docs
 weight: 11
 url: /ar/java/cad-text-and-annotation/substitute-font-in-dwg/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# استبدل الخط في DWG باستخدام Aspose.CAD لـ Java
+
 ## مقدمة
 
 في المجال الديناميكي للتصميم بمساعدة الكمبيوتر (CAD)، غالبًا ما يكون تعزيز المظهر البصري للرسومات أمرًا بالغ الأهمية. إحدى الطرق الفعالة لتحقيق ذلك هي استبدال الخطوط داخل ملفات DWG. يظهر Aspose.CAD for Java كأداة قوية في هذا المجال، مما يوفر حلاً سلسًا لاستبدال الخطوط. في هذا البرنامج التعليمي، سنتعرف على العملية خطوة بخطوة، ونوضح كيفية استبدال الخطوط في ملف DWG باستخدام Aspose.CAD لـ Java.
@@ -91,3 +97,9 @@ A2: تعتمد إمكانيات استبدال الخط على الخطوط ال
 ### س 5: هل يتوافق Aspose.CAD for Java مع أحدث تنسيقات ملفات CAD؟
 
 ج5: نعم، يتم تحديث Aspose.CAD for Java بانتظام لدعم أحدث تنسيقات ملفات CAD، مما يضمن التوافق مع معايير الصناعة.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

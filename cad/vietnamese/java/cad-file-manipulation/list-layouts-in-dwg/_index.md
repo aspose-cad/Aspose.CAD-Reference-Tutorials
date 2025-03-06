@@ -3,10 +3,16 @@ title: Liệt kê bố cục trong DWG bằng Aspose.CAD cho Java
 linktitle: Liệt kê bố cục trong DWG
 second_title: API Java Aspose.CAD
 description: Khám phá Aspose.CAD cho Java và dễ dàng liệt kê các bố cục trong tệp DWG. Tích hợp chức năng CAD mạnh mẽ vào các ứng dụng Java của bạn.
-type: docs
 weight: 12
 url: /vi/java/cad-file-manipulation/list-layouts-in-dwg/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Liệt kê bố cục trong DWG bằng Aspose.CAD cho Java
+
 ## Giới thiệu
 
 Chào mừng bạn đến với hướng dẫn từng bước của chúng tôi về cách sử dụng Aspose.CAD cho Java để liệt kê các bố cục trong tệp DWG. Aspose.CAD là một thư viện mạnh mẽ cho phép các nhà phát triển làm việc với các tệp CAD theo chương trình. Trong hướng dẫn này, chúng ta sẽ tập trung vào một nhiệm vụ cụ thể: liệt kê các bố cục trong tệp DWG. Đến cuối hướng dẫn này, bạn sẽ có thể tích hợp liền mạch chức năng này vào các ứng dụng Java của mình.
@@ -86,3 +92,9 @@ Câu trả lời 1: Có, Aspose.CAD hỗ trợ nhiều định dạng CAD khác 
 ### Câu hỏi 5: Tôi có thể sử dụng giấy phép tạm thời cho mục đích thử nghiệm không?
 
  Câu trả lời 5: Có, bạn có thể xin giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

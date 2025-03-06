@@ -3,10 +3,16 @@ title: Zapisywanie plików DXF - Przewodnik Aspose.CAD
 linktitle: Zapisywanie plików DXF
 second_title: Aspose.CAD .NET - Format plików CAD i BIM
 description: Poznaj moc Aspose.CAD dla .NET. Dowiedz się, jak łatwo zapisywać pliki DXF, korzystając z naszego przewodnika krok po kroku.
-type: docs
 weight: 11
 url: /pl/net/layout-and-object-handling/saving-dxf-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Zapisywanie plików DXF - Przewodnik Aspose.CAD
+
 ## Wstęp
 
 Witamy w naszym przewodniku krok po kroku dotyczącym zapisywania plików DXF przy użyciu Aspose.CAD dla .NET! Jeśli jesteś programistą i chcesz bezproblemowo manipulować plikami CAD, jesteś we właściwym miejscu. Aspose.CAD dla .NET zapewnia potężne narzędzia do pracy z formatami CAD, a w tym samouczku skupimy się na zapisywaniu plików DXF. Zatem zanurzmy się!
@@ -82,3 +88,9 @@ Odpowiedź 1: Tak, Aspose.CAD obsługuje różne formaty CAD, w tym DWG i DWF.
 ### P5: Czy mogę kupić Aspose.CAD dla .NET?
 
  A5: Oczywiście! Przeglądaj opcje zakupu[Tutaj](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

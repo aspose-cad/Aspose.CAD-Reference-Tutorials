@@ -3,10 +3,16 @@ title: 레이아웃 및 개체 처리
 linktitle: 레이아웃 및 개체 처리
 second_title: Aspose.CAD .NET - CAD 및 BIM 파일 형식
 description: .NET용 Aspose.CAD를 사용하여 향상된 CAD 설계를 위한 DXF 레이아웃 내보내기, 파일 저장, 블록 클리핑 및 ACAD 프록시 엔터티를 쉽게 마스터할 수 있습니다.
-type: docs
 weight: 33
 url: /ko/net/layout-and-object-handling/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 레이아웃 및 개체 처리
+
 
 ## 소개
 
@@ -38,3 +44,9 @@ ACAD 프록시 엔터티의 변환, 편집 및 관리를 안내하는 Aspose.CAD
 .NET용 Aspose.CAD를 사용하여 CAD에서 블록 클리핑을 구현하는 방법을 알아보세요. 이 단계별 튜토리얼을 통해 디자인 역량을 강화해보세요.
 ### [ACAD 프록시 엔터티 작업 - Aspose.CAD 가이드](./working-with-acad-proxy-entities/)
 .NET용 Aspose.CAD를 탐색하고 CAD 워크플로우를 간소화하세요. ACAD 프록시 엔터티를 쉽게 변환, 편집 및 관리할 수 있습니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

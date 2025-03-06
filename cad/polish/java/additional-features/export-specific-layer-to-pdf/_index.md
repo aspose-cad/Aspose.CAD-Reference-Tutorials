@@ -3,10 +3,16 @@ title: Eksportuj określoną warstwę rysunku DXF do pliku PDF za pomocą Aspose
 linktitle: Eksportuj określoną warstwę rysunku DXF do pliku PDF za pomocą Java
 second_title: Aspose.CAD API Java
 description: Bezproblemowo eksportuj określone warstwy z rysunków DXF do formatu PDF za pomocą Aspose.CAD dla Java. Postępuj zgodnie z tym przewodnikiem krok po kroku, aby zapewnić bezproblemową integrację.
-type: docs
 weight: 18
 url: /pl/java/additional-features/export-specific-layer-to-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Eksportuj określoną warstwę rysunku DXF do pliku PDF za pomocą Aspose.CAD dla Java
+
 ## Wstęp
 
 W dziedzinie programowania w języku Java Aspose.CAD wyróżnia się jako potężne narzędzie do pracy z plikami projektowania wspomaganego komputerowo (CAD). Wśród jego wszechstronnych funkcji cenną możliwością jest możliwość eksportowania określonych warstw z rysunku DXF do pliku PDF. Ten samouczek poprowadzi Cię przez proces, oferując instrukcje krok po kroku, jak wykorzystać pełny potencjał Aspose.CAD dla Java.
@@ -104,3 +110,9 @@ Odpowiedź 4: Tak, upewnij się, że masz ważną licencję lub użyj licencji t
 ### P5: Gdzie mogę szukać dodatkowego wsparcia lub pomocy?
 
 A5: Odwiedź[Forum Aspose.CAD](https://forum.aspose.com/c/cad/19) za wsparcie społeczności i dyskusje.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

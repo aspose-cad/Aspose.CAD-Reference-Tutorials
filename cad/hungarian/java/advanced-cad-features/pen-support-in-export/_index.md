@@ -3,10 +3,16 @@ title: Toll támogatás az exportálásban
 linktitle: Toll támogatás az exportálásban
 second_title: Aspose.CAD Java API
 description: Mester toll-testreszabás a CAD-exportban az Aspose.CAD for Java segítségével. Kövesse lépésenkénti útmutatónkat a zökkenőmentes integráció érdekében.
-type: docs
 weight: 13
 url: /hu/java/advanced-cad-features/pen-support-in-export/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Toll támogatás az exportálásban
+
 ## Bevezetés
 
 CAD (Computer-Aided Design) konverziók folyamatosan fejlődő környezetében az Aspose.CAD for Java hatékony eszközként jelenik meg, amely széleskörű lehetőségeket kínál a CAD-fájlok kezeléséhez. Sokoldalú funkciói közül kiemelkedik a toll exportálás közbeni testreszabásának támogatása, amely lehetővé teszi a felhasználók számára, hogy személyre szabják az exportált képek megjelenését. Ez az oktatóanyag végigvezeti Önt a toll támogatásának az exportálási funkcióban való kihasználásán, a Java használatával való gyakorlati megvalósításra összpontosítva.
@@ -112,3 +118,9 @@ A4: Állítsa be az oldal szélességét és magasságát a raszterezési beáll
 ### 5. kérdés: Hol találhatok további támogatást vagy közösségi megbeszéléseket?
 
  5. válasz: Fedezze fel az Aspose.CAD közösségi fórumot a címen[itt](https://forum.aspose.com/c/cad/19) támogatásért és megbeszélésekért.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

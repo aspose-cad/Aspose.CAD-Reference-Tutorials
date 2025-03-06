@@ -3,10 +3,16 @@ title: تجاوز الكشف التلقائي عن صفحة الرموز في م
 linktitle: تجاوز الكشف التلقائي عن صفحة التعليمات البرمجية في ملفات DWG
 second_title: Aspose.CAD جافا API
 description: اكتشف كيفية تجاوز اكتشاف صفحة الرموز في ملفات DWG باستخدام Aspose.CAD لـ Java. التعامل بكفاءة مع الترميز واستعادة CIF/MIF التالف.
-type: docs
 weight: 13
 url: /ar/java/dwg-file-operations/override-code-page-detection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تجاوز الكشف التلقائي عن صفحة الرموز في ملفات DWG باستخدام Java
+
 ## مقدمة
 
 مرحبًا بك في هذا الدليل الشامل حول كيفية تجاوز الكشف التلقائي عن صفحة الرموز في ملفات DWG باستخدام Aspose.CAD لـ Java. Aspose.CAD هي مكتبة قوية تمكن مطوري Java من العمل مع تنسيقات ملفات CAD، مما يوفر نطاقًا واسعًا من الميزات لمعالجة ملفات CAD وتحويلها وتصديرها.
@@ -101,3 +107,9 @@ System.out.println("OverrideAutomaticCodePageDetectionDwg executed successfully"
 ### س5: هل هناك ترخيص مؤقت متاح لأغراض الاختبار؟
 
  ج5: نعم، يمكنك الحصول على ترخيص مؤقت[هنا](https://purchase.aspose.com/temporary-license/) للاختبار.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

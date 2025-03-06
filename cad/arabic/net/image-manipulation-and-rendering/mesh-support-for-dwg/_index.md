@@ -3,10 +3,16 @@ title: دعم الشبكة لملفات DWG - دليل Aspose.CAD
 linktitle: دعم الشبكة لملفات DWG
 second_title: Aspose.CAD .NET - تنسيق ملف CAD وBIM
 description: اكتشف الدعم الشبكي لملفات DWG باستخدام Aspose.CAD لـ .NET. قم بتحسين تطبيقات CAD الخاصة بك من خلال إمكانيات معالجة الشبكات القوية.
-type: docs
 weight: 13
 url: /ar/net/image-manipulation-and-rendering/mesh-support-for-dwg/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# دعم الشبكة لملفات DWG - دليل Aspose.CAD
+
 ## مقدمة
 
 أطلق العنان لإمكانات Aspose.CAD لـ .NET بينما نتعمق في عالم الدعم الشبكي المثير لملفات DWG. في هذا الدليل المفصّل خطوة بخطوة، سنرشدك خلال عملية تسخير قوة Aspose.CAD للعمل مع ملفات DWG التي تحتوي على بيانات شبكية. سواء كنت مطورًا متمرسًا أو بدأت للتو في استخدام Aspose.CAD، فسيزودك هذا البرنامج التعليمي بالمعرفة اللازمة لمعالجة واستخراج المعلومات القيمة من ملفات DWG ذات الكيانات الشبكية.
@@ -123,3 +129,9 @@ else if (entity is CadPolygonMesh)
 ### س5: هل تتوفر نسخة تجريبية مجانية من Aspose.CAD؟
 
  ج5: نعم، يمكنك الوصول إلى نسخة تجريبية مجانية[هنا](https://releases.aspose.com/) لاستكشاف إمكانيات Aspose.CAD قبل إجراء عملية الشراء.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

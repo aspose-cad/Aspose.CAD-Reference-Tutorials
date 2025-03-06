@@ -3,10 +3,16 @@ title: دعم كيان MLeader لتنسيق DWG مع Aspose.CAD لـ Java
 linktitle: دعم كيان MLeader لتنسيق DWG مع Java
 second_title: Aspose.CAD جافا API
 description: أطلق العنان لقوة Aspose.CAD لـ Java من خلال برنامجنا التعليمي خطوة بخطوة حول دعم كيانات MLeader بتنسيق DWG.
-type: docs
 weight: 12
 url: /ar/java/cad-text-and-formatting/support-mleader-entity/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# دعم كيان MLeader لتنسيق DWG مع Aspose.CAD لـ Java
+
 ## مقدمة
 
 في مجال التصميم بمساعدة الكمبيوتر (CAD) باستخدام Java، يعد فهم وتنفيذ الدعم لكيانات MLeader بتنسيق DWG مهارة قيمة. يوفر Aspose.CAD for Java حلاً قويًا لمثل هذه المهام، حيث يقدم مجموعة من الأدوات والوظائف القوية. سيرشدك هذا البرنامج التعليمي خلال عملية دعم كيانات MLeader داخل ملفات DWG باستخدام Java مع Aspose.CAD.
@@ -146,3 +152,9 @@ Assert.areEqual(cadMLeader.getTextHeight(), 1.0, 0.01);
 ### س5: أين يمكنني طلب الدعم والمساعدة المجتمعية؟
 
 ج5: قم بزيارة[منتدى Aspose.CAD](https://forum.aspose.com/c/cad/19) للتواصل مع المجتمع والحصول على المساعدة.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

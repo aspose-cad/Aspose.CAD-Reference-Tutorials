@@ -3,10 +3,16 @@ title: دمج تنسيق IGES
 linktitle: دمج تنسيق IGES
 second_title: Aspose.CAD جافا API
 description: استكشف تكامل تنسيق IGES بسلاسة مع Aspose.CAD لـ Java. اتبع دليلنا خطوة بخطوة، لتسخير قوة Aspose.CAD للارتقاء بتجربة تطوير CAD لديك.
-type: docs
 weight: 11
 url: /ar/java/advanced-cad-features/integrate-iges-format/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# دمج تنسيق IGES
+
 ## مقدمة
 
 في عالم CAD (التصميم بمساعدة الكمبيوتر) الديناميكي، تعد الحاجة إلى دمج تنسيقات الملفات المختلفة أمرًا بالغ الأهمية. يتعمق هذا الدليل في التكامل السلس لتنسيق IGES (مواصفات تبادل الرسومات الأولية) باستخدام Aspose.CAD لـ Java. يعمل Aspose.CAD على تمكين المطورين من التعامل مع ملفات CAD وتحويلها بسهولة، مما يفتح عالمًا من الإمكانيات لتطوير التطبيقات.
@@ -88,3 +94,9 @@ igesImage.save(outPath, pdf);
 ### س5: كيف يمكنني شراء ترخيص Aspose.CAD؟
 
  ج5: يمكنك شراء ترخيص Aspose.CAD[هنا](https://purchase.aspose.com/buy) لفتح الإمكانات الكاملة للمكتبة.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

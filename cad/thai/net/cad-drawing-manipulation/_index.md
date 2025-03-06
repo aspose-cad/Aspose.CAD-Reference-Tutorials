@@ -3,10 +3,16 @@ title: การจัดการเขียนแบบ CAD
 linktitle: การจัดการเขียนแบบ CAD
 second_title: Aspose.CAD .NET - รูปแบบไฟล์ CAD และ BIM
 description: ปรับปรุงโครงการ CAD ของคุณอย่างง่ายดายด้วย Aspose.CAD สำหรับบทช่วยสอน .NET ปรับขนาด แปลง และเพิ่มประสิทธิภาพภาพวาด CAD ได้อย่างราบรื่นด้วยคำแนะนำทีละขั้นตอนของเรา
-type: docs
 weight: 21
 url: /th/net/cad-drawing-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# การจัดการเขียนแบบ CAD
+
 
 ## การแนะนำ
 
@@ -44,3 +50,9 @@ url: /th/net/cad-drawing-manipulation/
 ค้นพบพลังของ Aspose.CAD สำหรับ .NET เปิดใช้งานการติดตามการเรนเดอร์ CAD ได้อย่างราบรื่น ปฏิบัติตามคำแนะนำทีละขั้นตอนของเราเพื่อการควบคุมและประสิทธิภาพที่ดียิ่งขึ้น
 ### [รับขนาดของเค้าโครง CAD ใน Aspose.CAD สำหรับ .NET](./get-size-of-cad-layout/)
 เรียนรู้วิธีดึงข้อมูลขนาดเค้าโครง CAD ใน .NET โดยใช้ Aspose.CAD ปฏิบัติตามคำแนะนำทีละขั้นตอนของเราเพื่อการจัดการไฟล์ CAD ที่มีประสิทธิภาพ
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

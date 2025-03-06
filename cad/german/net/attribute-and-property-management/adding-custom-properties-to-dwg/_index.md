@@ -3,10 +3,16 @@ title: Hinzufügen benutzerdefinierter Eigenschaften zu DWG-Dateien – Aspose.C
 linktitle: Hinzufügen benutzerdefinierter Eigenschaften zu DWG-Dateien
 second_title: Aspose.CAD .NET – CAD- und BIM-Dateiformat
 description: Erweitern Sie Ihre DWG-Dateien mit benutzerdefinierten Eigenschaften mit Aspose.CAD für .NET. Befolgen Sie unsere Schritt-für-Schritt-Anleitung, um mühelos aussagekräftige Metadaten hinzuzufügen.
-type: docs
 weight: 11
 url: /de/net/attribute-and-property-management/adding-custom-properties-to-dwg/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Hinzufügen benutzerdefinierter Eigenschaften zu DWG-Dateien – Aspose.CAD-Handbuch
+
 ## Einführung
 
 Willkommen zu dieser umfassenden Anleitung zum Hinzufügen benutzerdefinierter Eigenschaften zu DWG-Dateien mit Aspose.CAD für .NET. Aspose.CAD ist eine leistungsstarke Bibliothek, die Entwicklern die nahtlose Arbeit mit CAD-Dateien ermöglicht. In diesem Tutorial konzentrieren wir uns darauf, Ihr Verständnis für benutzerdefinierte Eigenschaften zu verbessern und sie mit Aspose.CAD zu DWG-Dateien hinzuzufügen.
@@ -92,3 +98,9 @@ A4: Obwohl es keine strengen Einschränkungen gibt, empfiehlt es sich, aussagekr
 ### F5: Bietet Aspose.CAD Support, wenn ich auf Probleme stoße?
 
  A5: Ja, Sie können Hilfe in Anspruch nehmen[Aspose.CAD-Forum](https://forum.aspose.com/c/cad/19) für technische Fragen oder Probleme.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Activer la prise en charge du maillage pour les fichiers DWG en Java
 linktitle: Activer la prise en charge du maillage pour les fichiers DWG en Java
 second_title: API Java Aspose.CAD
 description: Apprenez à activer la prise en charge du maillage pour les fichiers DWG en Java avec Aspose.CAD. Guide étape par étape pour une manipulation fluide des dessins 3D. #JavaProgrammation #CADFiles
-type: docs
 weight: 12
 url: /fr/java/dwg-file-operations/mesh-support-for-dwg/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Activer la prise en charge du maillage pour les fichiers DWG en Java
+
 ## Introduction
 
 Dans le monde dynamique de la programmation Java, la manipulation efficace des fichiers CAO est cruciale. Aspose.CAD pour Java vient à la rescousse en fournissant des outils puissants pour gérer les fichiers DWG. Dans ce didacticiel, nous verrons comment activer la prise en charge du maillage pour les fichiers DWG à l'aide d'Aspose.CAD, vous permettant ainsi de travailler de manière transparente avec des dessins 3D complexes.
@@ -116,3 +122,9 @@ A1 : Oui, Aspose.CAD prend en charge divers formats de CAO, notamment DWG, DXF, 
 ### Q5 : Besoin d'aide ou avez des questions ?
 
 A5 : Visitez le[Forum Aspose.CAD](https://forum.aspose.com/c/cad/19) pour un soutien dédié.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

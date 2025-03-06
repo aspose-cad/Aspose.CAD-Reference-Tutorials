@@ -3,10 +3,16 @@ title: قم بتطبيق الترخيص حسب المسار في Aspose.CAD لـ
 linktitle: تطبيق الترخيص عن طريق المسار
 second_title: Aspose.CAD .NET - تنسيق ملف CAD وBIM
 description: أطلق العنان للإمكانات الكاملة لـ Aspose.CAD لـ .NET! اتبع دليلنا خطوة بخطوة لتطبيق الترخيص بسلاسة. ارفع مستوى لعبة معالجة ملفات CAD الخاصة بك الآن!
-type: docs
 weight: 10
 url: /ar/net/licensing-and-configuration/apply-license-by-path/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# قم بتطبيق الترخيص حسب المسار في Aspose.CAD لـ .NET
+
 ## مقدمة
 
 هل أنت مستعد للارتقاء بلعبة تطوير .NET الخاصة بك من خلال تسخير إمكانات Aspose.CAD؟ في هذا البرنامج التعليمي الشامل، سنرشدك خلال عملية تطبيق الترخيص حسب المسار باستخدام Aspose.CAD لـ .NET. استعد بينما نكشف عن الخطوات اللازمة لدمج هذه المكتبة القوية في مشاريعك بسلاسة، مما يضمن سير عمل سلسًا وفعالًا.
@@ -88,3 +94,9 @@ license.SetLicense(dataDir + "Aspose.CAD.lic");
 ### س5: هل تحتاج إلى مساعدة أو لديك أسئلة؟
 
  ج5: انضم إلى مجتمع Aspose.CAD على[منتدى Aspose.CAD](https://forum.aspose.com/c/cad/19).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

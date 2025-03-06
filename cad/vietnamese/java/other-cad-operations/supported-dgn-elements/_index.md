@@ -3,10 +3,16 @@ title: Làm chủ việc xử lý phần tử DGN một cách dễ dàng - Aspos
 linktitle: Các phần tử DGN được hỗ trợ
 second_title: API Java Aspose.CAD
 description: Khám phá sức mạnh của Aspose.CAD cho Java trong việc xử lý các phần tử DGN một cách dễ dàng. Hướng dẫn từng bước của chúng tôi đảm bảo tích hợp liền mạch để xử lý tệp CAD.
-type: docs
 weight: 10
 url: /vi/java/other-cad-operations/supported-dgn-elements/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Làm chủ việc xử lý phần tử DGN một cách dễ dàng - Aspose.CAD cho Java
+
 ## Giới thiệu
 
 Chào mừng bạn đến với hướng dẫn từng bước của chúng tôi về cách xử lý các phần tử DGN (Thiết kế) bằng Aspose.CAD cho Java. Aspose.CAD là một thư viện Java mạnh mẽ cho phép bạn làm việc với các tệp CAD một cách hiệu quả. Trong hướng dẫn này, chúng tôi sẽ tập trung vào các phần tử DGN được hỗ trợ và hướng dẫn bạn quy trình xử lý chúng bằng Aspose.CAD.
@@ -118,3 +124,9 @@ Câu trả lời 1: Aspose.CAD là một thư viện độc lập nhưng bạn c
 ### Câu hỏi 5: Aspose.CAD có giấy phép tạm thời không?
 
  Câu trả lời 5: Có, bạn có thể xin giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

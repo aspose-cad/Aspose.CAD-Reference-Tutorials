@@ -3,10 +3,16 @@ title: छवि प्रारूपों में निर्यात क
 linktitle: छवि प्रारूपों में निर्यात करना
 second_title: Aspose.CAD .NET - CAD और BIM फ़ाइल स्वरूप
 description: .NET के लिए Aspose.CAD के साथ IFC फ़ाइलों को आसानी से PNG में कनवर्ट करें। निर्बाध सीएडी फ़ाइल प्रसंस्करण की खोज करें और कुशल फ़ाइल हेरफेर के लिए डाउनलोड करें।
-type: docs
 weight: 39
 url: /hi/net/exporting-to-image-formats/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# छवि प्रारूपों में निर्यात करना
+
 
 ## परिचय
 
@@ -30,3 +36,9 @@ url: /hi/net/exporting-to-image-formats/
 .NET के लिए Aspose.CAD का अन्वेषण करें, जो निर्बाध IFC से PNG रूपांतरण के लिए एक मजबूत समाधान है। कुशल CAD फ़ाइल प्रोसेसिंग के लिए अभी डाउनलोड करें।
 ### [आईजीईएस फाइलों को पीडीएफ में निर्यात करना - Aspose.CAD गाइड](./exporting-iges-files-to-pdf/)
 .NET के लिए Aspose.CAD का उपयोग करके आसानी से IGES फ़ाइलों को PDF में निर्यात करना सीखें। सटीक सीएडी फ़ाइल हेरफेर के लिए हमारी चरण-दर-चरण मार्गदर्शिका का पालन करें।
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

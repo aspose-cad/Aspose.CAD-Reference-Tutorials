@@ -3,10 +3,16 @@ title: Renderowanie kolorów w plikach CAD - Przewodnik Aspose.CAD
 linktitle: Renderowanie kolorów w plikach CAD
 second_title: Aspose.CAD .NET - Format plików CAD i BIM
 description: Opanuj renderowanie plików CAD w .NET za pomocą Aspose.CAD. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby uzyskać żywe kolory.
-type: docs
 weight: 10
 url: /pl/net/conversion-and-export/rendering-colors-in-cad-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Renderowanie kolorów w plikach CAD - Przewodnik Aspose.CAD
+
 ## Wstęp
 
 Czy zmagasz się z wyzwaniem renderowania kolorów w plikach CAD przy użyciu platformy .NET? Nie szukaj dalej! W tym obszernym przewodniku przeprowadzimy Cię krok po kroku przez proces, korzystając z potężnej biblioteki Aspose.CAD. Pod koniec tego samouczka będziesz wyposażony w wiedzę niezbędną do łatwego renderowania kolorów w plikach CAD.
@@ -108,3 +114,9 @@ Gratulacje! Udało Ci się wyrenderować kolory w plikach CAD przy użyciu Aspos
 ### P5: Gdzie mogę kupić bibliotekę Aspose.CAD?
 
  A5: Kup Aspose.CAD[Tutaj](https://purchase.aspose.com/buy) aby uwolnić jego pełny potencjał.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

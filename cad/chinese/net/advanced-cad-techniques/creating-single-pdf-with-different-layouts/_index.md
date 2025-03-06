@@ -3,10 +3,16 @@ title: 创建具有不同布局的单个 PDF - Aspose.CAD 指南
 linktitle: 创建具有不同布局的单个 PDF
 second_title: Aspose.CAD .NET - CAD 和 BIM 文件格式
 description: 使用 Aspose.CAD for .NET 创建具有不同布局的单个 PDF。按照我们的分步指南进行无缝集成和高效 PDF 生成。
-type: docs
 weight: 13
 url: /zh/net/advanced-cad-techniques/creating-single-pdf-with-different-layouts/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 创建具有不同布局的单个 PDF - Aspose.CAD 指南
+
 ## 介绍
 
 您是否希望使用 Aspose.CAD for .NET 从具有不同布局的 CAD 绘图生成单个 PDF 文档？本分步指南将引导您完成整个过程，帮助您实现无缝集成和高效的 PDF 创建。 Aspose.CAD for .NET 提供了强大的功能来以编程方式操作 CAD 绘图，在本教程中，我们将重点关注创建具有不同布局的单个 PDF。
@@ -95,3 +101,9 @@ A4：参考文档[这里](https://reference.aspose.com/cad/net/).
 ### Q5：我可以购买 Aspose.CAD for .NET 的许可证吗？
 
  A5：是的，您可以购买许可证[这里](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

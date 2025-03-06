@@ -3,10 +3,16 @@ title: Lisensi dan Konfigurasi
 linktitle: Lisensi dan Konfigurasi
 second_title: Aspose.CAD Java API
 description: Buka kekuatan Aspose.CAD untuk Java dengan tutorial lisensi terukur kami. Optimalkan pemrosesan CAD secara efisien dan hemat biaya untuk meningkatkan produktivitas.
-type: docs
 weight: 25
 url: /id/java/licensing-and-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Lisensi dan Konfigurasi
+
 ## Perkenalan
 
 Memulai perjalanan penguasaan lisensi terukur di Aspose.CAD untuk Java membuka pintu menuju efisiensi dan efektivitas biaya yang tak tertandingi dalam pemrosesan CAD. Dalam panduan komprehensif ini, kami mempelajari seluk-beluknya, memberdayakan Anda untuk mengoptimalkan alur kerja Anda dengan lancar.
@@ -25,3 +31,9 @@ Kesimpulannya, lisensi terukur di Aspose.CAD untuk Java bukan hanya tentang mema
 ## Tutorial Perizinan dan Konfigurasi
 ### [Lisensi Terukur di Aspose.CAD](./metered-licensing-in-aspose-cad/)
 Pelajari cara menguasai lisensi terukur di Aspose.CAD untuk Java dengan panduan komprehensif ini. Optimalkan pemrosesan CAD Anda untuk efisiensi dan efektivitas biaya.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

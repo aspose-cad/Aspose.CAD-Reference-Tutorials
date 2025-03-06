@@ -3,10 +3,16 @@ title: Tự động điều chỉnh kích thước bản vẽ CAD bằng Aspose.
 linktitle: Tự động điều chỉnh kích thước bản vẽ CAD
 second_title: API Java Aspose.CAD
 description: Khám phá quy trình liền mạch tự động điều chỉnh kích thước bản vẽ CAD trong Java bằng Aspose.CAD. Thực hiện theo hướng dẫn từng bước của chúng tôi để thao tác tệp CAD hiệu quả.
-type: docs
 weight: 13
 url: /vi/java/cad-file-manipulation/auto-adjusting-cad-drawing-size/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tự động điều chỉnh kích thước bản vẽ CAD bằng Aspose.CAD cho Java
+
 ## Giới thiệu
 
 Trong thế giới CAD (Thiết kế hỗ trợ máy tính), việc điều chỉnh kích thước bản vẽ là một yêu cầu phổ biến và với Aspose.CAD cho Java, việc này trở thành một quy trình liền mạch. Thư viện mạnh mẽ này cung cấp các công cụ toàn diện để xử lý các tệp CAD trong các ứng dụng Java. Trong hướng dẫn này, chúng ta sẽ khám phá quy trình từng bước tự động điều chỉnh kích thước bản vẽ CAD bằng Aspose.CAD.
@@ -107,3 +113,9 @@ Câu trả lời 1: Có, Aspose.CAD hỗ trợ nhiều định dạng CAD khác 
 ### Câu hỏi 5: Có bản dùng thử miễn phí dành cho Aspose.CAD cho Java không?
 
  Câu trả lời 5: Có, bạn có thể truy cập bản dùng thử miễn phí[đây](https://releases.aspose.com/) để khám phá các khả năng của thư viện.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

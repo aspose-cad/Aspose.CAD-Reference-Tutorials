@@ -3,10 +3,16 @@ title: Nâng cao khả năng xuất CAD bằng tùy chọn bút tùy chỉnh tro
 linktitle: Hỗ trợ bút trong xuất khẩu
 second_title: Aspose.CAD .NET - Định dạng tệp CAD và BIM
 description: Tìm hiểu cách nâng cao khả năng xuất hình ảnh CAD của bạn bằng Aspose.CAD cho .NET. Tùy chỉnh các tùy chọn bút để có hình ảnh tuyệt đẹp ở định dạng PDF, PNG, BMP, v.v.
-type: docs
 weight: 12
 url: /vi/net/cad-features-and-support/pen-support-in-export/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Nâng cao khả năng xuất CAD bằng tùy chọn bút tùy chỉnh trong Aspose.CAD cho .NET
+
 ## Giới thiệu
 
 Aspose.CAD cho .NET cung cấp một bộ công cụ mạnh mẽ để làm việc với các tệp Thiết kế hỗ trợ máy tính (CAD), cho phép các nhà phát triển thao tác và xuất hình ảnh CAD một cách liền mạch. Một tính năng đáng chú ý là hỗ trợ bút trong quá trình xuất, cho phép người dùng tùy chỉnh cài đặt giới hạn bắt đầu và kết thúc cho bút khi xuất hình ảnh CAD sang nhiều định dạng khác nhau như PDF, PNG, BMP, GIF, JPEG2000, JPEG, PSD, TIFF và WMF.
@@ -119,3 +125,9 @@ Trả lời 1: Có, các tùy chọn bút có thể được áp dụng cho nhi�
 ### Câu hỏi 5: Tôi có thể tìm kiếm sự hỗ trợ của cộng đồng cho Aspose.CAD cho .NET ở đâu?
 
  Câu trả lời 5: Tương tác với cộng đồng trên[Diễn đàn Aspose.CAD](https://forum.aspose.com/c/cad/19).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

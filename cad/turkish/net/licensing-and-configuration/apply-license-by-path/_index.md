@@ -3,10 +3,16 @@ title: Aspose.CAD for .NET'te Lisansı Yola Göre Uygulayın
 linktitle: Lisansı Yola Göre Uygula
 second_title: Aspose.CAD .NET - CAD ve BIM Dosya Formatı
 description: Aspose.CAD for .NET'in tüm potansiyelini ortaya çıkarın! Lisansı sorunsuz bir şekilde uygulamak için adım adım kılavuzumuzu izleyin. CAD dosya işleme oyununuzu şimdi yükseltin!
-type: docs
 weight: 10
 url: /tr/net/licensing-and-configuration/apply-license-by-path/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.CAD for .NET'te Lisansı Yola Göre Uygulayın
+
 ## giriiş
 
 Aspose.CAD'in yeteneklerinden yararlanarak .NET geliştirme oyununuzu geliştirmeye hazır mısınız? Bu kapsamlı eğitimde, Aspose.CAD for .NET'i kullanarak lisans başvurusu yapma sürecinde size yol göstereceğiz. Sorunsuz ve verimli bir iş akışı sağlayacak şekilde bu güçlü kitaplığı projelerinize sorunsuz bir şekilde entegre etmenin adımlarını çözerken kemerlerinizi bağlayın.
@@ -88,3 +94,9 @@ A3: Evet, ücretsiz deneme sürümünden yararlanabilirsiniz[Burada](https://rel
 ### S5: Yardıma mı ihtiyacınız var veya sorularınız mı var?
 
  Cevap5: Aspose.CAD topluluğuna şu adresten katılın:[Aspose.CAD Forumu](https://forum.aspose.com/c/cad/19).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

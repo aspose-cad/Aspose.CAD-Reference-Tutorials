@@ -3,10 +3,16 @@ title: Mengurai Objek Sisipkan CAD - Panduan Aspose.CAD
 linktitle: Mengurai Objek Sisipkan CAD
 second_title: Aspose.CAD .NET - Format File CAD dan BIM
 description: Jelajahi kekuatan Aspose.CAD untuk .NET dengan panduan langkah demi langkah kami dalam mendekomposisi objek sisipan CAD.
-type: docs
 weight: 11
 url: /id/net/cad-layouts-and-decomposition/decomposing-cad-insert-objects/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Mengurai Objek Sisipkan CAD - Panduan Aspose.CAD
+
 ## Perkenalan
 
 Dalam dunia desain berbantuan komputer (CAD) yang dinamis, manipulasi dan analisis file CAD yang efektif sangat penting bagi para profesional di berbagai industri. Aspose.CAD untuk .NET muncul sebagai solusi ampuh, menyediakan alat yang dibutuhkan pengembang untuk bekerja secara efisien dengan file CAD di lingkungan .NET.
@@ -100,3 +106,9 @@ Untuk mendapatkan lisensi yang disesuaikan dengan kebutuhan Anda, kunjungi halam
 ### Q5: Bagaimana cara mendapatkan lisensi sementara Aspose.CAD untuk .NET?
 
  Jika Anda memerlukan lisensi sementara, Anda dapat menemukan informasi yang diperlukan[Di Sini](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

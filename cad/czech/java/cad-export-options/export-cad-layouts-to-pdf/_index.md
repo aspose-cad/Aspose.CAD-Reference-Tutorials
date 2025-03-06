@@ -3,10 +3,16 @@ title: Export CAD rozložení do PDF pomocí Aspose.CAD pro Java
 linktitle: Export CAD rozložení do PDF
 second_title: Aspose.CAD Java API
 description: Prozkoumejte Aspose.CAD for Java a snadno exportujte rozvržení CAD do PDF. Efektivní, spolehlivý a přívětivý pro vývojáře.
-type: docs
 weight: 11
 url: /cs/java/cad-export-options/export-cad-layouts-to-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Export CAD rozložení do PDF pomocí Aspose.CAD pro Java
+
 ## Úvod
 
 V neustále se vyvíjející oblasti počítačově podporovaného navrhování (CAD) vyniká Aspose.CAD for Java jako výkonný nástroj pro manipulaci a konverzi souborů CAD. V tomto tutoriálu vás provedeme procesem exportu rozvržení CAD do PDF pomocí Aspose.CAD for Java. Ať už jste zkušený vývojář nebo se jen ponoříte do světa CAD, tento podrobný průvodce vám pomůže využít plný potenciál této všestranné Java knihovny.
@@ -107,3 +113,9 @@ Odpověď 4: Automatické měřítko rozvržení upravuje velikost rozvržení n
 ### Q5: Mohu přizpůsobit vzhled exportovaných souborů PDF?
 
 Odpověď 5: Ano, můžete upravit možnosti grafiky v kódu a řídit tak kvalitu a vzhled exportovaného PDF.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

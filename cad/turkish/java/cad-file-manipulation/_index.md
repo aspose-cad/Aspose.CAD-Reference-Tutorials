@@ -3,10 +3,16 @@ title: CAD Dosyası İşleme
 linktitle: CAD Dosyası İşleme
 second_title: Aspose.CAD Java API'si
 description: Aspose.CAD for Java ile CAD dosya gücünün kilidini açın! Eğitimlerimizle DWFX'i PDF'ye dönüştürün, DWG bayraklarına, liste düzenlerine erişin ve boyutları otomatik olarak ayarlayın.
-type: docs
 weight: 23
 url: /tr/java/cad-file-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# CAD Dosyası İşleme
+
 
 ## giriiş
 
@@ -44,3 +50,9 @@ Aspose.CAD for Java'yı keşfedin ve DWG dosyalarındaki düzenleri zahmetsizce 
 Aspose.CAD'i kullanarak Java'da CAD çizim boyutlarını otomatik olarak ayarlamanın kusursuz sürecini keşfedin. Verimli CAD dosyası manipülasyonu için adım adım kılavuzumuzu izleyin.
 ### [Aspose.CAD for Java ile Birim Tipini Kullanarak CAD Çizim Boyutunu Ayarlama](./adjusting-cad-drawing-size-using-unit-type/)
 Aspose.CAD for Java'nın CAD çizim boyutlarını zahmetsizce ayarlama konusundaki gücünü keşfedin. Hassasiyet ve uyarlanabilirlik için adım adım kılavuzumuzu izleyin.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

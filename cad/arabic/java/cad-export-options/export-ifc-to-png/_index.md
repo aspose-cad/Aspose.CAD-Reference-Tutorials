@@ -3,10 +3,16 @@ title: قم بتصدير IFC إلى PNG باستخدام Aspose.CAD لـ Java
 linktitle: تصدير مؤسسة التمويل الدولية إلى PNG
 second_title: Aspose.CAD جافا API
 description: قم بتحويل IFC إلى PNG بسهولة باستخدام Aspose.CAD لـ Java. اتبع البرنامج التعليمي خطوة بخطوة.
-type: docs
 weight: 18
 url: /ar/java/cad-export-options/export-ifc-to-png/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# قم بتصدير IFC إلى PNG باستخدام Aspose.CAD لـ Java
+
 ## مقدمة
 
 مرحبًا بك في هذا البرنامج التعليمي خطوة بخطوة حول تصدير IFC (فئات مؤسسة الصناعة) إلى PNG باستخدام Aspose.CAD لـ Java. Aspose.CAD هي مكتبة Java قوية توفر إمكانات واسعة النطاق للعمل مع ملفات CAD، بما في ذلك تنسيق IFC. سنرشدك في هذا البرنامج التعليمي خلال عملية تحويل ملف IFC إلى صورة PNG مع شرح مفصل في كل خطوة.
@@ -94,3 +100,10 @@ cadImage.save(outPath, pngOptions);
 ### س5: أين يمكنني طلب المساعدة أو مناقشة القضايا؟
 
 ج5: قم بزيارة[منتدى Aspose.CAD](https://forum.aspose.com/c/cad/19) لدعم المجتمع.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

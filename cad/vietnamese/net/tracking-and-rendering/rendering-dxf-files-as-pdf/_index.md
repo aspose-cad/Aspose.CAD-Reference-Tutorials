@@ -3,10 +3,16 @@ title: Hiển thị tệp DXF dưới dạng PDF - Hướng dẫn Aspose.CAD
 linktitle: Hiển thị tệp DXF dưới dạng PDF
 second_title: Aspose.CAD .NET - Định dạng tệp CAD và BIM
 description: Khám phá hướng dẫn cơ bản về cách hiển thị tệp DXF dưới dạng PDF bằng Aspose.CAD cho .NET. Chuyển đổi tệp CAD dễ dàng bằng hướng dẫn từng bước của chúng tôi.
-type: docs
 weight: 11
 url: /vi/net/tracking-and-rendering/rendering-dxf-files-as-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Hiển thị tệp DXF dưới dạng PDF - Hướng dẫn Aspose.CAD
+
 ## Giới thiệu
 
 Chào mừng bạn đến với hướng dẫn từng bước của chúng tôi về cách hiển thị tệp DXF dưới dạng PDF bằng Aspose.CAD cho .NET. Aspose.CAD là một thư viện mạnh mẽ cho phép các nhà phát triển làm việc với các định dạng CAD một cách dễ dàng. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn quy trình chuyển đổi tệp DXF sang PDF, cung cấp cho bạn giải pháp liền mạch và hiệu quả cho các tác vụ liên quan đến CAD của bạn.
@@ -94,3 +100,9 @@ Câu trả lời 1: Có, Aspose.CAD hỗ trợ nhiều loại tệp DXF, đảm 
 ### Câu 5: Cần trợ giúp hoặc có câu hỏi cụ thể?
 
  Câu trả lời 5: Truy cập cộng đồng Aspose.CAD[diễn đàn](https://forum.aspose.com/c/cad/19) để được hỗ trợ và thảo luận.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

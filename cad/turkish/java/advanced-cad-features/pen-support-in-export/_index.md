@@ -3,10 +3,16 @@ title: İhracatta Kalem Desteği
 linktitle: İhracatta Kalem Desteği
 second_title: Aspose.CAD Java API'si
 description: Aspose.CAD for Java ile CAD dışa aktarımında kalem özelleştirmesinde uzmanlaşın. Sorunsuz entegrasyon için adım adım kılavuzumuzu izleyin.
-type: docs
 weight: 13
 url: /tr/java/advanced-cad-features/pen-support-in-export/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# İhracatta Kalem Desteği
+
 ## giriiş
 
 Sürekli gelişen CAD (Bilgisayar Destekli Tasarım) dönüşüm ortamında Aspose.CAD for Java, CAD dosyalarını işlemek için kapsamlı yetenekler sunan güçlü bir araç olarak ortaya çıkıyor. Çok yönlü özellikleri arasında, dışa aktarma sırasında kalem özelleştirme desteği öne çıkıyor ve kullanıcıların dışa aktarılan görüntülerin görünümünü uyarlamasına olanak tanıyor. Bu eğitim, Java kullanarak pratik uygulamaya odaklanarak dışa aktarma işlevinde kalem desteğinden yararlanma sürecinde size yol gösterecektir.
@@ -112,3 +118,9 @@ Cevap4: Dışa aktarılan görüntünün boyutlarını kontrol etmek için raste
 ### S5: Ek desteği veya topluluk tartışmalarını nerede bulabilirim?
 
  Cevap5: Aspose.CAD topluluk forumunu şu adreste keşfedin:[Burada](https://forum.aspose.com/c/cad/19) Destek ve tartışmalar için.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

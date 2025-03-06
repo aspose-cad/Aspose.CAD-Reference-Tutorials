@@ -3,10 +3,16 @@ title: Aspose.CAD for .NET'te Otomatik Mizanpaj Ölçeklendirmesini Ayarlama
 linktitle: Otomatik Düzen Ölçeklendirmeyi Ayarlama
 second_title: Aspose.CAD .NET - CAD ve BIM Dosya Formatı
 description: Aspose.CAD for .NET ile CAD görüntülemeyi geliştirin. Hassas ve uyarlanabilir dosya işleme için Otomatik Düzen Ölçeklendirmeyi ayarlamayı öğrenin.
-type: docs
 weight: 14
 url: /tr/net/cad-features-and-support/setting-auto-layout-scaling/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.CAD for .NET'te Otomatik Mizanpaj Ölçeklendirmesini Ayarlama
+
 .NET geliştirmenin dinamik alanında, Bilgisayar Destekli Tasarım (CAD) dosyalarının işlenmesini optimize etmek, verimli ve görsel olarak çekici uygulamalar yaratmanın çok önemli bir yönüdür. Aspose.CAD for .NET, geliştiricilerin CAD işleme yeteneklerini geliştirmelerine yardımcı olur ve bu eğitimde Aspose.CAD for .NET kullanarak Otomatik Yerleşim Ölçeklendirmeyi ayarlamaya odaklanacağız.
 
 ## Önkoşullar
@@ -107,3 +113,9 @@ Cevap4: Aspose.CAD kesinlikle çıktıyı özelleştirmek için renk ayarları v
 ### S5: Aspose.CAD için ek kaynakları ve desteği nerede bulabilirim?
 
  A5: Keşfedin[Aspose.CAD forumu](https://forum.aspose.com/c/cad/19) topluluk desteği için ve bkz.[dokümantasyon](https://reference.aspose.com/cad/net/) detaylı bilgi için.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

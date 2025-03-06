@@ -3,10 +3,16 @@ title: जावा के लिए Aspose.CAD का उपयोग करक
 linktitle: पृष्ठभूमि और ड्राइंग रंग सेट करना
 second_title: Aspose.CAD जावा एपीआई
 description: Java के लिए Aspose.CAD का उपयोग करके आसानी से CAD फ़ाइलों को PDF और TIFF में बदलें। दृश्यमान आश्चर्यजनक परिणामों के लिए कस्टम पृष्ठभूमि और ड्राइंग रंग सेट करें।
-type: docs
 weight: 15
 url: /hi/java/advanced-cad-features/setting-background-and-drawing-color/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# जावा के लिए Aspose.CAD का उपयोग करके पृष्ठभूमि और ड्राइंग रंग सेट करना
+
 ## परिचय
 
 कंप्यूटर-एडेड डिज़ाइन (सीएडी) की गतिशील दुनिया में, निर्बाध सहयोग और संचार के लिए कुशल फ़ाइल रूपांतरण महत्वपूर्ण है। जावा के लिए Aspose.CAD एक शक्तिशाली उपकरण के रूप में उभरा है, जो CAD फ़ाइलों को पीडीएफ और टीआईएफएफ प्रारूपों में परिवर्तित करने के लिए मजबूत क्षमताएं प्रदान करता है। इस ट्यूटोरियल में, हम जावा के लिए Aspose.CAD का उपयोग करके पृष्ठभूमि सेट करने और रंग खींचने की प्रक्रिया में गहराई से उतरेंगे, जो आपको इष्टतम परिणामों के लिए चरण-दर-चरण मार्गदर्शिका प्रदान करेगा।
@@ -98,3 +104,10 @@ A1: बिल्कुल! जावा के लिए Aspose.CAD बड़े
 ### Q5: मैं जावा के लिए Aspose.CAD के लिए समर्थन कैसे प्राप्त कर सकता हूं?
 
 A5: पर जाएँ[Aspose.CAD फोरम](https://forum.aspose.com/c/cad/19) सहायता प्राप्त करना और समुदाय के साथ जुड़ना।
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

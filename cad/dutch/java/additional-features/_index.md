@@ -3,10 +3,16 @@ title: Extra functies
 linktitle: Extra functies
 second_title: Aspose.CAD Java-API
 description: Ontgrendel het potentieel van Aspose.CAD in Java met onze tutorials. Voeg aangepaste eigenschappen toe, ontleed CAD-invoegobjecten, schakel tracking in en exporteer DXF-tekeningen naadloos. Verbeter uw CAD-workflow moeiteloos.
-type: docs
 weight: 29
 url: /nl/java/additional-features/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Extra functies
+
 
 
 ## Invoering
@@ -60,3 +66,9 @@ Leer hoe u DXF-bestanden in Java kunt opslaan met Aspose.CAD. Volg onze stapsgew
 ## Conclusie
 
 Deze tutorials behandelen een reeks extra functies in Aspose.CAD voor Java en bieden u waardevolle inzichten en vaardigheden om uw CAD-workflow te optimaliseren. Of u nu de organisatie wilt verbeteren, ontledingstechnieken onder de knie wilt krijgen, tracking mogelijk wilt maken of verschillende exportopties wilt verkennen, deze tutorials bieden de kennis die u nodig heeft. Verbeter vandaag nog uw CAD-vaardigheden met Aspose.CAD voor Java.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

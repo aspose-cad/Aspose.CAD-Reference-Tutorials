@@ -3,10 +3,16 @@ title: Adjon hozzá attribútumokat az MTexthez a DWG-fájlokban az Aspose.CAD f
 linktitle: Attribútumok hozzáadása az MTexthez a DWG-fájlokban Java segítségével
 second_title: Aspose.CAD Java API
 description: Ismerje meg, hogyan adhat attribútumokat a DWG-fájlokban található MTexthez az Aspose.CAD for Java segítségével. Emelje fel CAD-rajzait ezzel a lépésről-lépésre szóló útmutatóval.
-type: docs
 weight: 13
 url: /hu/java/cad-text-and-formatting/add-attributes-to-mtext/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Adjon hozzá attribútumokat az MTexthez a DWG-fájlokban az Aspose.CAD for Java segítségével
+
 ## Bevezetés
 
 A Java programozás világában a CAD-fájlok kezelése gyakori feladat. Az Aspose.CAD for Java egy nagy teljesítményű könyvtár, amely megkönnyíti a CAD-fájlok kezelését, így a fejlesztők számára ideális választás. Ebben az oktatóanyagban egy konkrét használati esettel foglalkozunk: attribútumok hozzáadása az MTexthez DWG-fájlokban. Ez döntő fontosságú lehet a CAD-rajzok gazdagságának növelése szempontjából.
@@ -117,3 +123,9 @@ V3: Olvassa el a dokumentációt[itt](https://reference.aspose.com/cad/java/).
 ### 5. kérdés: Kipróbálhatom az Aspose.CAD for Java programot a licenc megvásárlása előtt?
 
  5. válasz: Igen, felfedezheti az ingyenes próbaverziót[itt](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

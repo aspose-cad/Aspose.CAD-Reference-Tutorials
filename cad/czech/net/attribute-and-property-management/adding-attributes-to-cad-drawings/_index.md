@@ -3,10 +3,16 @@ title: Přidání atributů do výkresů CAD - Výukový program Aspose.CAD
 linktitle: Přidání atributů do výkresů CAD
 second_title: Aspose.CAD .NET – formát souborů CAD a BIM
 description: Vylepšete své CAD výkresy pomocí atributů pomocí Aspose.CAD for .NET. Postupujte podle našeho podrobného průvodce pro bezproblémovou integraci.
-type: docs
 weight: 10
 url: /cs/net/attribute-and-property-management/adding-attributes-to-cad-drawings/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Přidání atributů do výkresů CAD - Výukový program Aspose.CAD
+
 ## Úvod
 
 V oblasti Computer-Aided Design (CAD) je obohacení výkresů o atributy zásadním krokem pro podrobnou dokumentaci a efektivní komunikaci. Aspose.CAD for .NET poskytuje robustní řešení pro bezproblémovou integraci atributů do výkresů CAD. Tento tutoriál vás provede procesem přidávání atributů do výkresů CAD pomocí Aspose.CAD, což vám umožní vylepšit informace vložené do vašich návrhů.
@@ -119,3 +125,9 @@ A1: Aspose.CAD podporuje různé formáty CAD, včetně DWG a DXF, což zajišť
 ### Q5: Jak mohu získat dočasnou licenci pro Aspose.CAD?
 
  A5: Pro dočasné licenční možnosti navštivte[tady](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

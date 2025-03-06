@@ -3,10 +3,16 @@ title: 使用 C# 將圖像匯入 DWG 檔案 - Aspose.CAD 指南
 linktitle: 使用 C# 將圖像導入 DWG 文件
 second_title: Aspose.CAD .NET - CAD 和 BIM 檔案格式
 description: 了解使用 C# 和 Aspose.CAD for .NET 將圖片匯入 DWG 檔案。請按照我們的逐步指南進行無縫整合。
-type: docs
 weight: 11
 url: /zh-hant/net/image-manipulation-and-rendering/importing-images-into-dwg/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 C# 將圖像匯入 DWG 檔案 - Aspose.CAD 指南
+
 ## 介紹
 
 在電腦輔助設計 (CAD) 領域，將影像合併到 DWG 檔案中是一項常見且關鍵的任務。 Aspose.CAD for .NET 提供了一組強大的工具來簡化此流程，使其可供 C# 開發人員使用。在本教程中，我們將逐步探索如何將圖像匯入 DWG 檔案。
@@ -122,3 +128,9 @@ A1：Aspose.CAD 主要是為.NET 設計的，但Aspose 提供了各種程式語�
 ### Q5：有 Aspose.CAD 支援的社群論壇嗎？
 
  A5：是的，您可以尋求支持並參與社區[這裡](https://forum.aspose.com/c/cad/19).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

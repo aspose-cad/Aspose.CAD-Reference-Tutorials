@@ -3,10 +3,16 @@ title: Java'da Aspose.CAD Kullanarak Blok Öznitelik Değerini Harici Referansta
 linktitle: Blok Öznitelik Değerini Dış Referanstan Çıkarma
 second_title: Aspose.CAD Java API'si
 description: Aspose.CAD kullanarak Java'daki DWG harici referanslarından blok öznitelik değerlerinin çıkarılmasıyla ilgili eğitimimizi keşfedin. CAD geliştirme iş akışınızı zahmetsizce geliştirin.
-type: docs
 weight: 19
 url: /tr/java/advanced-cad-features/extract-block-attribute-value/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java'da Aspose.CAD Kullanarak Blok Öznitelik Değerini Harici Referanstan Çıkarma
+
 ## giriiş
 
 Aspose.CAD kullanarak Java'daki harici referanslardan blok öznitelik değerlerinin çıkarılmasıyla ilgili kapsamlı kılavuzumuza hoş geldiniz. CAD çizimleriyle çalışan ve iş akışınızı kolaylaştırmak isteyen bir geliştiriciyseniz doğru yerdesiniz. Bu eğitimde Aspose.CAD for Java'nın güçlü özelliklerinden yararlanarak süreç boyunca size adım adım yol göstereceğiz.
@@ -89,3 +95,9 @@ Cevap1: Aspose.CAD, DWG dosyalarının çeşitli versiyonlarını destekleyerek 
 ### S5: Aspose.CAD için geçici lisans alma süreci nedir?
 
  Cevap5: Geçici bir lisans almak için lütfen şu adresi ziyaret edin:[bu bağlantı](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

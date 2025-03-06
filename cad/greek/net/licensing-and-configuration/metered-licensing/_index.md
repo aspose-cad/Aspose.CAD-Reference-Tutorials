@@ -3,10 +3,16 @@ title: Μετρημένη άδεια χρήσης στο Aspose.CAD για .NET
 linktitle: Μετρημένη Άδεια
 second_title: Aspose.CAD .NET - Μορφή αρχείου CAD και BIM
 description: Ξεκλειδώστε το δυναμικό Aspose.CAD με μετρημένη άδεια χρήσης στο .NET. Βελτιστοποιήστε τη χρήση των πόρων απρόσκοπτα. Εξερευνήστε τον βήμα προς βήμα οδηγό μας.
-type: docs
 weight: 12
 url: /el/net/licensing-and-configuration/metered-licensing/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Μετρημένη άδεια χρήσης στο Aspose.CAD για .NET
+
 ## Εισαγωγή
 
 Το ξεκλείδωμα του πλήρους δυναμικού του Aspose.CAD για .NET απαιτεί κατανόηση των περιπλοκών της μετρημένης άδειας χρήσης. Αυτή η ισχυρή δυνατότητα επιτρέπει στους προγραμματιστές να διαχειρίζονται αποτελεσματικά την κατανάλωση πόρων, ενώ εκμεταλλεύονται τις δυνατότητες του Aspose.CAD. Σε αυτόν τον οδηγό βήμα προς βήμα, θα εμβαθύνουμε στη διαδικασία εφαρμογής μετρημένης άδειας χρήσης, αναλύοντας κάθε κρίσιμο βήμα για να διασφαλίσουμε την απρόσκοπτη ενσωμάτωση στα έργα σας .NET.
@@ -97,3 +103,9 @@ A3: Ναι, τα μετρημένα κλειδιά είναι επαναχρησ
 ### Ε5: Μπορώ να λάβω προσωρινή άδεια χρήσης του Aspose.CAD για συγκεκριμένα έργα;
 
  Α5: Ναι, εξερευνήστε[προσωρινές επιλογές αδειοδότησης](https://purchase.aspose.com/temporary-license/) για βραχυπρόθεσμες απαιτήσεις έργου.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

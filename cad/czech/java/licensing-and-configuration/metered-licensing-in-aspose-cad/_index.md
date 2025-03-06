@@ -3,10 +3,16 @@ title: Měřené licencování v Aspose.CAD
 linktitle: Měřené licencování v Aspose.CAD
 second_title: Aspose.CAD Java API
 description: Naučte se, jak zvládnout měřené licencování v Aspose.CAD pro Java, pomocí tohoto komplexního průvodce. Optimalizujte své CAD zpracování pro efektivitu a nákladovou efektivitu.
-type: docs
 weight: 10
 url: /cs/java/licensing-and-configuration/metered-licensing-in-aspose-cad/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Měřené licencování v Aspose.CAD
+
 ## Úvod
 
 Odemkněte plný potenciál Aspose.CAD pro Javu s měřeným licencováním! Tento podrobný průvodce vás provede procesem nastavení měřeného licencování, zajistí bezproblémovou integraci a optimální využití této výkonné knihovny Java pro počítačově podporované navrhování (CAD). Od předpokladů až po import balíčků a spouštění příkladů, tento výukový program pokrývá vše.
@@ -94,3 +100,9 @@ Gratulujeme! Úspěšně jste zvládli měřené licencování s Aspose.CAD for 
 ### Q5: Potřebujete podporu komunity nebo máte konkrétní otázky?
 
  A5: Přejděte na fórum Aspose.CAD[tady](https://forum.aspose.com/c/cad/19).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

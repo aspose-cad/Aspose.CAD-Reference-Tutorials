@@ -3,10 +3,16 @@ title: Export technikák
 linktitle: Export technikák
 second_title: Aspose.CAD .NET - CAD és BIM fájlformátum
 description: Fedezze fel az Aspose.CAD oktatóanyagokat a zökkenőmentes CAD-fejlesztéshez. Tanuljon meg hatékony technikákat a DXF fájlok különféle formátumokba történő exportálására.
-type: docs
 weight: 32
 url: /hu/net/export-techniques/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Export technikák
+
 
 
 ## Bevezetés
@@ -49,3 +55,9 @@ Fedezze fel az Aspose.CAD for .NET zökkenőmentes integrációját ebben a lép
 Fedezze fel az Aspose.CAD for .NET erejét. Ezzel a lépésenkénti oktatóanyaggal megtudhatja, hogyan exportálhat könnyedén PDF-be beágyazott DGN fájlokat.
 ### [Képek exportálása DXF formátumba – Aspose.CAD útmutató](./exporting-images-to-dxf-format/)
 Fedezze fel az Aspose.CAD erejét .NET-hez! Tanuljon meg könnyedén exportálni képeket DXF formátumba. Fokozza CAD-fejlesztését pontossággal és hatékonysággal.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

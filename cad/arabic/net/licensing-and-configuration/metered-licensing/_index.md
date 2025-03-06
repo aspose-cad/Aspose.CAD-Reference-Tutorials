@@ -3,10 +3,16 @@ title: الترخيص المقنن في Aspose.CAD لـ .NET
 linktitle: الترخيص المقنن
 second_title: Aspose.CAD .NET - تنسيق ملف CAD وBIM
 description: أطلق العنان لإمكانات Aspose.CAD من خلال الترخيص المقنن في .NET. تحسين استخدام الموارد بسلاسة. استكشف دليلنا خطوة بخطوة.
-type: docs
 weight: 12
 url: /ar/net/licensing-and-configuration/metered-licensing/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# الترخيص المقنن في Aspose.CAD لـ .NET
+
 ## مقدمة
 
 يتطلب إطلاق الإمكانات الكاملة لـ Aspose.CAD لـ .NET فهم تعقيدات الترخيص المقنن. تتيح هذه الميزة القوية للمطورين إدارة استهلاك الموارد بكفاءة مع الاستفادة من إمكانات Aspose.CAD. في هذا الدليل المفصّل خطوة بخطوة، سنتعمق في عملية تنفيذ الترخيص المقنن، مع تفصيل كل خطوة حاسمة لضمان التكامل السلس في مشاريع .NET الخاصة بك.
@@ -97,3 +103,9 @@ Console.WriteLine("Amount Consumed After: " + amountafter.ToString());
 ### س5: هل يمكنني ترخيص Aspose.CAD مؤقتًا لمشاريع محددة؟
 
  ج5: نعم، استكشف[خيارات الترخيص المؤقت](https://purchase.aspose.com/temporary-license/) لمتطلبات المشروع على المدى القصير.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

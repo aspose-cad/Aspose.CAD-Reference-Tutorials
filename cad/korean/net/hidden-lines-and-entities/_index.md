@@ -3,10 +3,16 @@ title: 은선 및 요소
 linktitle: 은선 및 요소
 second_title: Aspose.CAD .NET - CAD 및 BIM 파일 형식
 description: .NET용 Aspose.CAD를 사용하여 DWG 파일의 숨겨진 선을 손쉽게 잠금해제하세요. 단계별 가이드를 통해 CAD 프로젝트의 수준을 높이세요.
-type: docs
 weight: 29
 url: /ko/net/hidden-lines-and-entities/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 은선 및 요소
+
 
 
 ## 소개
@@ -39,3 +45,9 @@ MLeader 엔터티는 설계에 동적 차원을 추가하여 복잡한 정보를
 .NET용 Aspose.CAD를 사용하여 DWG 파일의 숨겨진 선을 손쉽게 잠금해제하세요. 원활한 통합을 위한 단계별 가이드를 따르세요.
 ### [DWG 형식에 대한 MLeader 엔터티 지원 - Aspose.CAD 가이드](./supporting-mleader-entity-for-dwg-format/)
 .NET용 Aspose.CAD를 사용하여 DWG 형식의 MLeader 엔터티의 강력한 기능을 활용하세요. CAD 프로젝트를 쉽게 향상시키세요.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

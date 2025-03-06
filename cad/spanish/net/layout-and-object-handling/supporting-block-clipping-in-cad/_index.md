@@ -3,10 +3,16 @@ title: Soporte de recorte de bloques en CAD - Tutorial de Aspose.CAD
 linktitle: Soporte de recorte de bloques en CAD
 second_title: Aspose.CAD .NET - Formato de archivo CAD y BIM
 description: Aprenda a implementar el recorte de bloques en CAD usando Aspose.CAD para .NET. Mejore sus capacidades de diseño con este tutorial paso a paso.
-type: docs
 weight: 12
 url: /es/net/layout-and-object-handling/supporting-block-clipping-in-cad/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Soporte de recorte de bloques en CAD - Tutorial de Aspose.CAD
+
 ## Introducción
 
 Bienvenido a un tutorial completo sobre cómo admitir el recorte de bloques en CAD usando Aspose.CAD para .NET. Aspose.CAD es una potente biblioteca que permite a los desarrolladores trabajar sin problemas con archivos CAD en sus aplicaciones .NET. En este tutorial, nos centraremos en implementar el recorte de bloques, una característica esencial en el diseño CAD.
@@ -122,3 +128,9 @@ R1: Aspose.CAD está diseñado principalmente para aplicaciones .NET. Si está t
 ### P5: ¿Puedo utilizar Aspose.CAD sin una licencia permanente?
 
  R5: Sí, puedes obtener una licencia temporal[aquí](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

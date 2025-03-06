@@ -3,10 +3,16 @@ title: 编辑 DWG 超链接 - Aspose.CAD Java 教程
 linktitle: 编辑超链接
 second_title: Aspose.CAD Java API
 description: 使用 Aspose.CAD for Java 提高 DWG 绘图精度。无缝编辑超链接，确保准确的引用。立即免费试用！
-type: docs
 weight: 17
 url: /zh/java/other-cad-operations/edit-hyperlink/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 编辑 DWG 超链接 - Aspose.CAD Java 教程
+
 在当今的数字时代，高效处理 DWG 图纸对于各行业的专业人士至关重要。 Aspose.CAD for Java 提供了强大的解决方案来编辑 DWG 绘图中的超链接，确保无缝集成和自定义。本分步指南将引导您完成使用 Aspose.CAD for Java 编辑超链接的过程。
 
 ## 介绍
@@ -99,3 +105,9 @@ A4： 如需任何技术帮助，请访问 Aspose.CAD 论坛[这里](https://for
 ### Q5：我可以获得临时许可证用于测试目的吗？
 
  A5：是的，您可以获得临时许可证[这里](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

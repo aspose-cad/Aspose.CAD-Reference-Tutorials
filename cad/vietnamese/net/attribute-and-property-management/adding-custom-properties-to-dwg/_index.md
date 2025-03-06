@@ -3,10 +3,16 @@ title: Thêm thuộc tính tùy chỉnh vào tệp DWG - Hướng dẫn Aspose.C
 linktitle: Thêm thuộc tính tùy chỉnh vào tệp DWG
 second_title: Aspose.CAD .NET - Định dạng tệp CAD và BIM
 description: Nâng cao tệp DWG của bạn bằng các thuộc tính tùy chỉnh bằng Aspose.CAD cho .NET. Hãy làm theo hướng dẫn từng bước của chúng tôi để thêm siêu dữ liệu có ý nghĩa một cách dễ dàng.
-type: docs
 weight: 11
 url: /vi/net/attribute-and-property-management/adding-custom-properties-to-dwg/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Thêm thuộc tính tùy chỉnh vào tệp DWG - Hướng dẫn Aspose.CAD
+
 ## Giới thiệu
 
 Chào mừng bạn đến với hướng dẫn toàn diện này về cách thêm thuộc tính tùy chỉnh vào tệp DWG bằng Aspose.CAD cho .NET. Aspose.CAD là một thư viện mạnh mẽ cho phép các nhà phát triển làm việc với các tệp CAD một cách liền mạch. Trong hướng dẫn này, chúng tôi sẽ tập trung vào việc nâng cao hiểu biết của bạn về các thuộc tính tùy chỉnh và cách thêm chúng vào tệp DWG bằng Aspose.CAD.
@@ -92,3 +98,9 @@ Câu trả lời 4: Mặc dù không có hạn chế nghiêm ngặt nhưng bạn
 ### Câu hỏi 5: Aspose.CAD có cung cấp hỗ trợ nếu tôi gặp bất kỳ vấn đề nào không?
 
  Câu trả lời 5: Có, bạn có thể tìm kiếm sự trợ giúp trên[Diễn đàn Aspose.CAD](https://forum.aspose.com/c/cad/19) cho bất kỳ câu hỏi hoặc vấn đề kỹ thuật nào.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

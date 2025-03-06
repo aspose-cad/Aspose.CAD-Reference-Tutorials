@@ -3,10 +3,16 @@ title: Aspose.CAD for .NET 中的计量许可
 linktitle: 计量许可
 second_title: Aspose.CAD .NET - CAD 和 BIM 文件格式
 description: 通过 .NET 中的计量许可释放 Aspose.CAD 的潜力。无缝优化资源使用。探索我们的分步指南。
-type: docs
 weight: 12
 url: /zh/net/licensing-and-configuration/metered-licensing/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.CAD for .NET 中的计量许可
+
 ## 介绍
 
 释放 Aspose.CAD for .NET 的全部潜力需要了解计量许可的复杂性。这一强大的功能使开发人员能够有效地管理资源消耗，同时利用 Aspose.CAD 的功能。在本分步指南中，我们将深入研究实施计量许可的过程，分解每个关键步骤，以确保无缝集成到您的 .NET 项目中。
@@ -97,3 +103,9 @@ A3：是的，计量密钥可以在不同的项目中重复使用，从而提供
 ### Q5：我可以为特定项目临时许可 Aspose.CAD 吗？
 
  A5：是的，探索[临时许可选项](https://purchase.aspose.com/temporary-license/)以满足短期项目的需求。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

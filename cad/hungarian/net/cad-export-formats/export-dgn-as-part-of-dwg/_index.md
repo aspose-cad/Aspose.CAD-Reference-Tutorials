@@ -3,10 +3,16 @@ title: Exportálja a DGN-t a DWG részeként az Aspose.CAD-ben .NET-hez
 linktitle: DGN exportálása a DWG részeként
 second_title: Aspose.CAD .NET - CAD és BIM fájlformátum
 description: Ismerje meg, hogyan exportálhat DGN-t a DWG részeként az Aspose.CAD for .NET-ben. Kövesse lépésenkénti útmutatónkat a zökkenőmentes integráció érdekében.
-type: docs
 weight: 11
 url: /hu/net/cad-export-formats/export-dgn-as-part-of-dwg/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Exportálja a DGN-t a DWG részeként az Aspose.CAD-ben .NET-hez
+
 ## Bevezetés
 
 .NET-fejlesztés világában az Aspose.CAD a számítógéppel segített tervezésű (CAD) fájlokkal való munkavégzés hatékony könyvtáraként tűnik ki. Ez az oktatóanyag végigvezeti Önt a DGN (Design) fájl DWG (rajz) fájl részeként történő exportálásán az Aspose.CAD for .NET használatával. Akár tapasztalt fejlesztő, akár csak most kezdi, ez a lépésről lépésre bemutató útmutató segít az Aspose.CAD képességeinek kihasználásában ennek a konkrét feladatnak a hatékony végrehajtásában.
@@ -123,3 +129,9 @@ V3: Igen, ingyenes próbaverziót kaphat[itt](https://releases.aspose.com/).
 
 ### 5. kérdés: Hol kérhetek segítséget, ha problémákba ütközöm?
  5. válasz: Látogassa meg az Aspose.CAD fórumot[itt](https://forum.aspose.com/c/cad/19) támogatásért.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

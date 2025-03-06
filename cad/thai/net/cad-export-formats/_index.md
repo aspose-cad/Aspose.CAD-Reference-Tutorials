@@ -3,10 +3,16 @@ title: รูปแบบการส่งออก CAD
 linktitle: รูปแบบการส่งออก CAD
 second_title: Aspose.CAD .NET - รูปแบบไฟล์ CAD และ BIM
 description: เชี่ยวชาญรูปแบบการส่งออก CAD ได้อย่างง่ายดายด้วย Aspose.CAD สำหรับ .NET เรียนรู้การแปลงเค้าโครง CAD ส่งออกไฟล์ DGN เป็น PDF และภาพแรสเตอร์ผ่านบทช่วยสอน
-type: docs
 weight: 22
 url: /th/net/cad-export-formats/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# รูปแบบการส่งออก CAD
+
 
 ## การแนะนำ
 
@@ -38,3 +44,9 @@ url: /th/net/cad-export-formats/
 เรียนรู้วิธีส่งออกไฟล์ DGN เป็น PDF ได้อย่างง่ายดายด้วย Aspose.CAD สำหรับ .NET คำแนะนำทีละขั้นตอนสำหรับการจัดการไฟล์ CAD ได้อย่างราบรื่น
 ### [ส่งออก DGN เป็นภาพแรสเตอร์ใน Aspose.CAD สำหรับ .NET](./export-dgn-to-raster-image/)
 แปลง DGN เป็นภาพแรสเตอร์ได้อย่างง่ายดายโดยใช้ Aspose.CAD สำหรับ .NET สำรวจคำแนะนำทีละขั้นตอนและปลดปล่อยพลังของ .NET ในการจัดการไฟล์ CAD
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

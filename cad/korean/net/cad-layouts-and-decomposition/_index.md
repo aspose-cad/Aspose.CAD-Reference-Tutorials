@@ -3,10 +3,16 @@ title: CAD 레이아웃 및 분해
 linktitle: CAD 레이아웃 및 분해
 second_title: Aspose.CAD .NET - CAD 및 BIM 파일 형식
 description: .NET용 Aspose.CAD를 사용하여 CAD 레이아웃의 잠재력을 활용해 보세요! 가이드를 사용하여 디자인을 PDF로 쉽게 변환하세요. 삽입 개체의 분해를 손쉽게 마스터하세요.
-type: docs
 weight: 34
 url: /ko/net/cad-layouts-and-decomposition/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# CAD 레이아웃 및 분해
+
 
 
 
@@ -59,3 +65,9 @@ CAD 설계를 탐색하고 분해가 필요한 삽입물을 식별하세요. .NE
 Aspose.CAD for .NET을 사용하여 CAD 레이아웃을 PDF로 손쉽게 변환하세요. 원활한 통합을 위한 단계별 가이드를 따르세요.
 ### [CAD 삽입 개체 분해 - Aspose.CAD 가이드](./decomposing-cad-insert-objects/)
 CAD 삽입 개체 분해에 대한 단계별 가이드를 통해 .NET용 Aspose.CAD의 강력한 기능을 살펴보세요.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

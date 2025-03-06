@@ -3,10 +3,16 @@ title: Aspose.CAD for Java Kullanarak Belirli DWG Düzenini PDF'ye Aktarın
 linktitle: Belirli DWG Düzenini PDF'ye Aktar
 second_title: Aspose.CAD Java API'si
 description: Aspose.CAD for Java kullanarak belirli DWG düzenlerini PDF'ye aktarmak için adım adım kılavuzu keşfedin. CAD iş akışınızı zahmetsizce optimize edin.
-type: docs
 weight: 14
 url: /tr/java/cad-drawing-conversion/export-specific-dwg-layout-to-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.CAD for Java Kullanarak Belirli DWG Düzenini PDF'ye Aktarın
+
 ## giriiş
 
 Bilgisayar Destekli Tasarımın (CAD) dinamik dünyasında Aspose.CAD for Java, DWG çizimlerini değiştirmek ve dönüştürmek için güçlü bir araç olarak ortaya çıkıyor. Bu eğitimde belirli bir senaryoyu inceleyeceğiz: belirlenmiş bir DWG düzeninin PDF dosyasına aktarılması. Bu süreç CAD projelerinizde hassasiyet ve esneklik sağlar.
@@ -100,3 +106,9 @@ Aspose.CAD for Java bağımsız bir kütüphanedir ancak genişletilmiş işlevl
 ### S5: Aspose.CAD'in ücretsiz deneme sürümü mevcut mu?
 
  Evet, ücretsiz deneme sürümüne erişebilirsiniz[Burada](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

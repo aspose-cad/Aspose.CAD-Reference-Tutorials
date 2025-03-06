@@ -3,10 +3,16 @@ title: 画像の操作とレンダリング
 linktitle: 画像の操作とレンダリング
 second_title: Aspose.CAD .NET - CAD および BIM ファイル形式
 description: Aspose.CAD for .NET で CAD ファイルの可能性を解き放ちます。ブロック属性の抽出、イメージのインポート、DWG から PDF への変換、メッシュのサポートなどを簡単に学習できます。
-type: docs
 weight: 27
 url: /ja/net/image-manipulation-and-rendering/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 画像の操作とレンダリング
+
 
 ## 導入
 
@@ -54,3 +60,9 @@ Aspose.CAD for .NET を探索してください。 C# で DWG を画像に簡単
 DWG ファイルから XREF メタデータを読み取るためのステップバイステップのチュートリアルで、Aspose.CAD for .NET の可能性を解き放ちます。
 ### [C# での DWG ドキュメントのレンダリング - Aspose.CAD ガイド](./rendering-dwg-documents/)
 Aspose.CAD を使用して C# で DWG ドキュメントをレンダリングする方法を学びます。このステップバイステップのガイドでは、コード例を使用してインポート、構成、保存について説明します。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: 在 CAD 中支援區塊剪切 - Aspose.CAD 教學課程
 linktitle: 支援 CAD 中的區塊剪切
 second_title: Aspose.CAD .NET - CAD 和 BIM 檔案格式
 description: 了解如何使用 Aspose.CAD for .NET 在 CAD 中實作區塊裁切。透過此逐步教學增強您的設計能力。
-type: docs
 weight: 12
 url: /zh-hant/net/layout-and-object-handling/supporting-block-clipping-in-cad/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 CAD 中支援區塊剪切 - Aspose.CAD 教學課程
+
 ## 介紹
 
 歡迎閱讀使用 Aspose.CAD for .NET 在 CAD 中支援區塊裁剪的綜合教學。 Aspose.CAD 是一個功能強大的程式庫，使開發人員能夠在其 .NET 應用程式中無縫地使用 CAD 檔案。在本教程中，我們將重點介紹區塊裁剪的實現，這是 CAD 設計中的一項基本功能。
@@ -122,3 +128,9 @@ A3：是的，您可以免費試用[這裡](https://releases.aspose.com/).
 ### Q5：沒有永久授權我可以使用Aspose.CAD嗎？
 
  A5：是的，您可以獲得臨時許可證[這裡](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Сохранение файлов DXF — Руководство Aspose.C
 linktitle: Сохранение файлов DXF
 second_title: Aspose.CAD .NET — формат файлов CAD и BIM
 description: Откройте для себя возможности Aspose.CAD для .NET. Научитесь легко сохранять файлы DXF с помощью нашего пошагового руководства.
-type: docs
 weight: 11
 url: /ru/net/layout-and-object-handling/saving-dxf-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Сохранение файлов DXF — Руководство Aspose.CAD
+
 ## Введение
 
 Добро пожаловать в наше пошаговое руководство по сохранению файлов DXF с помощью Aspose.CAD для .NET! Если вы разработчик, желающий беспрепятственно манипулировать файлами САПР, вы попали по адресу. Aspose.CAD for .NET предоставляет мощные инструменты для работы с форматами САПР, и в этом руководстве мы сосредоточимся на сохранении файлов DXF. Итак, давайте погрузимся!
@@ -82,3 +88,9 @@ cadImage.Save(MyDir + "conic.dxf");
 ### Вопрос 5: Могу ли я приобрести Aspose.CAD для .NET?
 
  А5: Конечно! Изучите варианты покупки[здесь](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: تحويل تنسيق الملف
 linktitle: تحويل تنسيق الملف
 second_title: Aspose.CAD .NET - تنسيق ملف CAD وBIM
 description: قم بتحسين قدرات معالجة ملفات CAD الخاصة بك دون عناء باستخدام Aspose.CAD لـ .NET. استكشف البرامج التعليمية حول تصدير DWF إلى PDF وتصدير الصور ثلاثية الأبعاد إلى تنسيق BMP.
-type: docs
 weight: 36
 url: /ar/net/file-format-conversion/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تحويل تنسيق الملف
+
 
 ## مقدمة
 
@@ -46,3 +52,9 @@ url: /ar/net/file-format-conversion/
 استكشف دليلاً سلسًا حول تصدير DWF إلى PDF باستخدام Aspose.CAD لـ .NET. قم بتحسين قدرات التعامل مع ملفات CAD الخاصة بك دون عناء.
 ### [التصدير إلى تنسيق BMP - البرنامج التعليمي Aspose.CAD](./exporting-to-bmp-format/)
 استكشف العالم السلس لتصدير الصور ثلاثية الأبعاد إلى BMP باستخدام Aspose.CAD لـ .NET. اتبع البرنامج التعليمي لدينا لتجربة خالية من المتاعب.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

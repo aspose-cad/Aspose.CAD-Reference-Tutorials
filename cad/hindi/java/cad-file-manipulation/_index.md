@@ -3,10 +3,16 @@ title: सीएडी फ़ाइल हेरफेर
 linktitle: सीएडी फ़ाइल हेरफेर
 second_title: Aspose.CAD जावा एपीआई
 description: जावा के लिए Aspose.CAD के साथ CAD फ़ाइल पावर अनलॉक करें! हमारे ट्यूटोरियल के साथ DWFX को पीडीएफ में बदलें, DWG झंडे, सूची लेआउट और ऑटो-एडजस्ट आकार तक पहुंचें।
-type: docs
 weight: 23
 url: /hi/java/cad-file-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# सीएडी फ़ाइल हेरफेर
+
 
 ## परिचय
 
@@ -44,3 +50,9 @@ Aspose.CAD के साथ जावा में CAD ड्राइंग आ
 Aspose.CAD का उपयोग करके जावा में CAD ड्राइंग आकारों को स्वतः समायोजित करने की निर्बाध प्रक्रिया का अन्वेषण करें। कुशल सीएडी फ़ाइल हेरफेर के लिए हमारी चरण-दर-चरण मार्गदर्शिका का पालन करें।
 ### [जावा के लिए Aspose.CAD के साथ यूनिट प्रकार का उपयोग करके CAD ड्राइंग आकार को समायोजित करना](./adjusting-cad-drawing-size-using-unit-type/)
 आसानी से CAD ड्राइंग आकार समायोजित करने में Java के लिए Aspose.CAD की शक्ति का अन्वेषण करें। सटीकता और अनुकूलनशीलता के लिए हमारे चरण-दर-चरण मार्गदर्शिका का पालन करें।
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

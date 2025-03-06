@@ -3,10 +3,16 @@ title: Podpora sítě v Aspose.CAD pro .NET
 linktitle: Podpora sítě
 second_title: Aspose.CAD .NET – formát souborů CAD a BIM
 description: Prozkoumejte podporu sítě v Aspose.CAD pro .NET pomocí našeho podrobného tutoriálu. Převeďte soubory CAD do PDF bez námahy.
-type: docs
 weight: 11
 url: /cs/net/cad-features-and-support/mesh-support/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Podpora sítě v Aspose.CAD pro .NET
+
 ## Úvod
 
 Vítejte v našem podrobném tutoriálu o využití podpory sítě v Aspose.CAD pro .NET! Aspose.CAD je výkonná knihovna, která poskytuje robustní funkce pro práci se soubory CAD (Computer-Aided Design) v aplikacích .NET. V tomto tutoriálu se konkrétně zaměříme na využití funkce podpory sítě pro vylepšení možností zpracování souborů CAD.
@@ -100,3 +106,9 @@ Odpověď 2: I když je licence doporučena pro produkční použití, můžete 
 ### Q5: Kde si mohu stáhnout nejnovější verzi Aspose.CAD pro .NET?
 
  A5: Stáhněte si knihovnu z[stránka vydání](https://releases.aspose.com/cad/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

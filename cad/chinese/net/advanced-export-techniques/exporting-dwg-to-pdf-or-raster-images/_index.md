@@ -3,10 +3,16 @@ title: 将 DWG 导出为 PDF 或光栅图像 - Aspose.CAD 指南
 linktitle: 将 DWG 导出为 PDF 或光栅图像
 second_title: Aspose.CAD .NET - CAD 和 BIM 文件格式
 description: 探索有关使用 Aspose.CAD for .NET 将 DWG 导出为 PDF 或光栅图像的综合指南。了解步骤、先决条件，并亲身体验这个强大的库。
-type: docs
 weight: 11
 url: /zh/net/advanced-export-techniques/exporting-dwg-to-pdf-or-raster-images/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 将 DWG 导出为 PDF 或光栅图像 - Aspose.CAD 指南
+
 ## 介绍
 
 您是否希望在 .NET 应用程序中将 DWG 文件无缝转换为 PDF 或光栅图像？别再犹豫了！本分步指南将引导您完成使用强大的 Aspose.CAD for .NET 库的过程。无论您是经验丰富的开发人员还是新手，本教程都适合所有技能水平。
@@ -119,3 +125,9 @@ A3：前往[Aspose.CAD论坛](https://forum.aspose.com/c/cad/19)以获得社区�
 ### Q5：在哪里可以找到详细的文档？
 
  A5：该文档可在以下位置获取：[CAD软件](https://reference.aspose.com/cad/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

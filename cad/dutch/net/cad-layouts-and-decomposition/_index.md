@@ -3,10 +3,16 @@ title: CAD-lay-outs en decompositie
 linktitle: CAD-lay-outs en decompositie
 second_title: Aspose.CAD .NET - CAD- en BIM-bestandsindeling
 description: Ontgrendel het potentieel van CAD-lay-outs met Aspose.CAD voor .NET! Converteer ontwerpen eenvoudig naar PDF met behulp van onze gids. Beheers de ontleding van invoegobjecten moeiteloos.
-type: docs
 weight: 34
 url: /nl/net/cad-layouts-and-decomposition/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# CAD-lay-outs en decompositie
+
 
 
 
@@ -59,3 +65,9 @@ Kortom, Aspose.CAD voor .NET is een game-changer op CAD-gebied. Met onze tutoria
 Converteer CAD-lay-outs moeiteloos naar PDF met Aspose.CAD voor .NET. Volg onze stapsgewijze handleiding voor een naadloze integratie.
 ### [CAD-invoegobjecten ontleden - Aspose.CAD-handleiding](./decomposing-cad-insert-objects/)
 Ontdek de kracht van Aspose.CAD voor .NET met onze stapsgewijze handleiding voor het ontleden van CAD-invoegobjecten.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Hidden Lines and Entities
 linktitle: Hidden Lines and Entities
 second_title: Aspose.CAD .NET - CAD and BIM File Format
 description: Unlock hidden lines in DWG files effortlessly with Aspose.CAD for .NET. Elevate your CAD projects with our step-by-step guide.
-type: docs
 weight: 29
 url: /net/hidden-lines-and-entities/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Hidden Lines and Entities
+
 
 
 ## Introduction
@@ -39,3 +45,9 @@ In conclusion, whether you're focusing on unlocking hidden lines or harnessing t
 Unlock hidden lines in DWG files effortlessly with Aspose.CAD for .NET. Follow our step-by-step guide for seamless integration.
 ### [Supporting MLeader Entity for DWG Format - Aspose.CAD Guide](./supporting-mleader-entity-for-dwg-format/)
 Unlock the power of MLeader entities in DWG format with Aspose.CAD for .NET. Elevate your CAD projects effortlessly.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

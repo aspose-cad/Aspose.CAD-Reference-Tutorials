@@ -3,10 +3,16 @@ title: CAD Özellikleri ve Desteği
 linktitle: CAD Özellikleri ve Desteği
 second_title: Aspose.CAD .NET - CAD ve BIM Dosya Formatı
 description: Aspose.CAD for .NET eğitimleriyle CAD özelliklerinin tüm potansiyelini ortaya çıkarın. DGN V7 için 3D desteğini, ağ işlemeyi, kalem özelleştirmeyi ve daha fazlasını zahmetsizce öğrenin.
-type: docs
 weight: 23
 url: /tr/net/cad-features-and-support/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# CAD Özellikleri ve Desteği
+
 
 ## giriiş
 
@@ -80,3 +86,9 @@ Aspose.CAD for .NET'in DGN dosyalarını işlemeye yönelik güçlü özellikler
 Aspose.CAD for .NET'in, adım adım rehberlikle görüntüleri zahmetsizce taramak için DGN VConvert DGN dosyalarına yönelik kusursuz desteğini keşfedin.
 ### [Aspose.CAD for .NET'te DGN V7 için 3D desteği](./support-of-3d-for-dgn-v7/)
 Aspose.CAD for .NET'te DGN V7 için 3D desteğinin gücünü ortaya çıkarın. Adım adım eğitimimizi takip edin.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

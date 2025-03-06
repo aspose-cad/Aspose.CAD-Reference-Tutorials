@@ -3,10 +3,16 @@ title: Tracking in CAD-bestanden inschakelen - Aspose.CAD Tutorial
 linktitle: Tracking in CAD-bestanden inschakelen
 second_title: Aspose.CAD .NET - CAD- en BIM-bestandsindeling
 description: Beheers het volgen van CAD-bestanden met Aspose.CAD voor .NET. Volg onze stapsgewijze handleiding voor nauwkeurige weergave en foutopsporing. Download nu!
-type: docs
 weight: 10
 url: /nl/net/tracking-and-rendering/enabling-tracking-in-cad-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tracking in CAD-bestanden inschakelen - Aspose.CAD Tutorial
+
 ## Invoering
 
 Op het gebied van CAD (Computer-Aided Design) zijn precisie en tracking van het grootste belang. Aspose.CAD voor .NET biedt een robuuste oplossing voor het mogelijk maken van tracking in CAD-bestanden. Deze tutorial leidt u door het proces en zorgt ervoor dat u het volledige potentieel van deze functie kunt benutten.
@@ -103,3 +109,9 @@ A3: Er kunnen problemen optreden zoals ontbrekende lettertypen of niet-ondersteu
 ### Vraag 5: Kan ik de trackingfoutmeldingen aanpassen?
 
 A5: Absoluut. U kunt de code aanpassen om foutmeldingen aan uw vereisten aan te passen.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

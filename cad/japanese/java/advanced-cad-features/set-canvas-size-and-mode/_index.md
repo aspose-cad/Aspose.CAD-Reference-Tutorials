@@ -3,10 +3,16 @@ title: キャンバスのサイズとモードを設定する
 linktitle: キャンバスのサイズとモードを設定する
 second_title: Aspose.CAD Java API
 description: キャンバスのサイズとモードの設定に関するステップバイステップのガイドを使用して、Aspose.CAD for Java の威力を体験してください。 CAD ファイルを PDF および TIFF 形式に簡単に変換します。
-type: docs
 weight: 16
 url: /ja/java/advanced-cad-features/set-canvas-size-and-mode/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# キャンバスのサイズとモードを設定する
+
 ## 導入
 
 Aspose.CAD for Java の機能を活用して、CAD 変換プロセスを強化したいと考えていますか?この包括的なガイドでは、Aspose.CAD for Java を使用してキャンバスのサイズとモードを設定する手順を説明します。経験豊富な開発者であっても、初心者であっても、このチュートリアルは必要な洞察を提供します。
@@ -126,3 +132,9 @@ A1: はい、Aspose.CAD はさまざまな Java フレームワークとシー�
 ### Q5: Aspose.CAD for Java を購入するにはどうすればよいですか?
 
 A5: 製品を購入してください[ここ](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

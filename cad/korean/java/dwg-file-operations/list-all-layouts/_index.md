@@ -3,10 +3,16 @@ title: Java를 사용하여 AutoCAD 도면의 모든 레이아웃 나열
 linktitle: Java를 사용하여 AutoCAD 도면의 모든 레이아웃 나열
 second_title: Aspose.CAD 자바 API
 description: Aspose.CAD를 사용하여 Java에서 손쉽게 AutoCAD 도면을 탐색해 보세요. 모든 레이아웃을 나열하고 중요한 정보를 추출합니다. 원활한 통합을 위해 지금 다운로드하세요!
-type: docs
 weight: 11
 url: /ko/java/dwg-file-operations/list-all-layouts/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java를 사용하여 AutoCAD 도면의 모든 레이아웃 나열
+
 ## 소개
 
 Java 응용프로그램에서 AutoCAD 도면의 잠재력을 최대한 활용하고 싶으십니까? Aspose.CAD for Java는 DWG 및 DXF 파일에서 귀중한 정보를 조작하고 추출하기 위한 완벽한 통합을 제공하는 최고의 솔루션입니다. 이 단계별 가이드에서는 Aspose.CAD for Java를 사용하여 AutoCAD 도면의 모든 레이아웃을 나열하는 과정을 안내합니다.
@@ -86,3 +92,9 @@ A3: 예, Aspose.CAD for Java 패키지 내의 "DWG Drawings" 디렉토리에서 
 ### Q5: 구매하기 전에 Java용 Aspose.CAD를 사용해 볼 수 있나요?
 
  A5: 물론이죠! 다음에서 무료 평가판을 받으세요.[여기](https://releases.aspose.com/)Java용 Aspose.CAD의 강력한 기능을 경험해보세요.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

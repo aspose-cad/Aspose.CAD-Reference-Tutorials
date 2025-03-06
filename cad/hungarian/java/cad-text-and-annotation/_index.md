@@ -3,10 +3,16 @@ title: CAD szöveg és megjegyzés
 linktitle: CAD szöveg és megjegyzés
 second_title: Aspose.CAD Java API
 description: Emelje fel DWG-rajzait könnyedén az Aspose.CAD for Java segítségével. Elsajátítja a betűtípusok hozzáadását és helyettesítését a DWG-fájlokban. Lépésről lépésre útmutatók a vizuális tökéletesség érdekében.
-type: docs
 weight: 21
 url: /hu/java/cad-text-and-annotation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# CAD szöveg és megjegyzés
+
 
 ## Bevezetés 
 
@@ -36,3 +42,9 @@ Fokozza könnyedén DWG-rajzait az Aspose.CAD for Java segítségével. Adjon ho
 Fokozza könnyedén CAD-terveit. Tanuljon meg betűtípusokat helyettesíteni a DWG-fájlokban az Aspose.CAD for Java használatával. Lépésről lépésre útmutató a vizuális tökéletességért.
 ### [Egy adott stílus betűtípusának helyettesítése a DWG-ben az Aspose.CAD for Java használatával](./substitute-font-of-particular-style-in-dwg/)
 Ismerje meg, hogyan helyettesíthet betűtípusokat DWG-fájlokban az Aspose.CAD for Java használatával. Lépésről lépésre útmutató a stílusok pontos testreszabásához.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: DWG ファイルからブロック属性を取得する - Aspose.CAD チ�
 linktitle: DWG ファイルからブロック属性を取得する
 second_title: Aspose.CAD .NET - CAD および BIM ファイル形式
 description: Aspose.CAD for .NET で CAD ファイルの可能性を解き放ちます。ブロック属性を簡単に抽出します。
-type: docs
 weight: 10
 url: /ja/net/image-manipulation-and-rendering/getting-block-attributes-from-dwg/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# DWG ファイルからブロック属性を取得する - Aspose.CAD チュートリアル
+
 ## 導入
 
 コンピュータ支援設計 (CAD) の動的な世界では、DWG ファイルから貴重な情報を抽出することが多くのアプリケーションにとって重要です。 Aspose.CAD for .NET は、CAD ファイルを効率的に操作するための強力なソリューションを提供します。このチュートリアルでは、Aspose.CAD を使用して DWG ファイルからブロック属性を取得するプロセスを段階的に詳しく説明します。
@@ -93,3 +99,9 @@ A1: はい、Aspose.CAD は、DWG、DXF、DWT、DGN などのさまざまな CAD
 ### Q5: Aspose.CAD for .NET のドキュメントはどこで見つけられますか?
 
  A5: 総合を参照してください。[ドキュメンテーション](https://reference.aspose.com/cad/net/)詳細な情報と例については、
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

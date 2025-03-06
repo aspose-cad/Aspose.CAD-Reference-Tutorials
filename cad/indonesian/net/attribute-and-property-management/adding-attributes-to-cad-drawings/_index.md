@@ -3,10 +3,16 @@ title: Menambahkan Atribut ke Gambar CAD - Tutorial Aspose.CAD
 linktitle: Menambahkan Atribut ke Gambar CAD
 second_title: Aspose.CAD .NET - Format File CAD dan BIM
 description: Sempurnakan gambar CAD Anda dengan atribut menggunakan Aspose.CAD untuk .NET. Ikuti panduan langkah demi langkah kami untuk integrasi yang lancar.
-type: docs
 weight: 10
 url: /id/net/attribute-and-property-management/adding-attributes-to-cad-drawings/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Menambahkan Atribut ke Gambar CAD - Tutorial Aspose.CAD
+
 ## Perkenalan
 
 Dalam bidang Computer-Aided Design (CAD), memperkaya gambar dengan atribut merupakan langkah penting untuk dokumentasi terperinci dan komunikasi yang efektif. Aspose.CAD untuk .NET memberikan solusi tangguh untuk mengintegrasikan atribut ke dalam gambar CAD dengan lancar. Tutorial ini akan memandu Anda melalui proses penambahan atribut ke gambar CAD menggunakan Aspose.CAD, memungkinkan Anda menyempurnakan informasi yang tertanam dalam desain Anda.
@@ -119,3 +125,9 @@ A1: Aspose.CAD mendukung berbagai format CAD, termasuk DWG dan DXF, memastikan k
 ### Q5: Bagaimana cara mendapatkan lisensi sementara untuk Aspose.CAD?
 
  A5: Untuk opsi lisensi sementara, kunjungi[Di Sini](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

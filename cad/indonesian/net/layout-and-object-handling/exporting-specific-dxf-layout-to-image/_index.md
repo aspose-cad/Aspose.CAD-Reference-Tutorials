@@ -3,10 +3,16 @@ title: Mengekspor Tata Letak DXF Tertentu ke Gambar - Tutorial Aspose.CAD
 linktitle: Mengekspor Tata Letak DXF Tertentu ke Gambar
 second_title: Aspose.CAD .NET - Format File CAD dan BIM
 description: Jelajahi panduan langkah demi langkah tentang penggunaan Aspose.CAD untuk .NET guna mengekspor tata letak DXF tertentu ke gambar. Maksimalkan efisiensi pengembangan .NET Anda dengan tutorial hebat ini.
-type: docs
 weight: 10
 url: /id/net/layout-and-object-handling/exporting-specific-dxf-layout-to-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Mengekspor Tata Letak DXF Tertentu ke Gambar - Tutorial Aspose.CAD
+
 ## Perkenalan
 
 Dalam bidang pengembangan .NET, Aspose.CAD menonjol sebagai alat yang ampuh untuk menangani file Computer-Aided Design (CAD). Secara khusus, ini menyediakan fungsionalitas komprehensif untuk mengekspor tata letak DXF tertentu ke gambar. Tutorial ini akan memandu Anda melalui proses langkah demi langkah, memungkinkan Anda memanfaatkan kemampuan Aspose.CAD dengan mudah.
@@ -105,3 +111,9 @@ A1: Ya, Aspose.CAD kompatibel dengan berbagai kerangka .NET, memberikan fleksibi
 ### Q5: Di mana saya dapat menemukan dokumentasi terperinci untuk Aspose.CAD?
 
  A5: Lihat secara komprehensif[Dokumentasi Aspose.CAD](https://reference.aspose.com/cad/net/) untuk informasi mendalam.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -1,12 +1,17 @@
 ---
 title: Ολοκληρωμένα σεμινάρια & παραδείγματα Aspose.CAD για Java
 linktitle: Aspose.CAD για Java Tutorials
-type: docs
 weight: 10
 url: /el/java/
 description: Αναβαθμίστε εύκολα τις δεξιότητες CAD με το Aspose.CAD για Java. Εξερευνήστε μαθήματα για τη μετατροπή σχεδίων, τον σχολιασμό κειμένου, τη διαχείριση αρχείων, τις προηγμένες λειτουργίες, την αδειοδότηση και πολλά άλλα.
-is_root: true
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ολοκληρωμένα σεμινάρια & παραδείγματα Aspose.CAD για Java
+
 
 ## Εισαγωγή
 
@@ -77,3 +82,9 @@ is_root: true
 Ξεκλειδώστε τη δύναμη του Aspose.CAD για Java με τα σεμινάρια εξαγωγής DGN. Μάθετε αποτελεσματικό χειρισμό αρχείων CAD, από την εξαγωγή DGN ως μέρος του DWG έως τη δημιουργία εικόνων ράστερ χωρίς κόπο.
 ### [Άλλες λειτουργίες CAD](./other-cad-operations/)
 Ξεκλειδώστε τις δυνατότητες του Aspose.CAD για Java με τα σεμινάρια μας. Από το χειρισμό στοιχείων DGN έως την προσθήκη υδατογραφημάτων, ενισχύστε τις δεξιότητές σας στο CAD χωρίς κόπο.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

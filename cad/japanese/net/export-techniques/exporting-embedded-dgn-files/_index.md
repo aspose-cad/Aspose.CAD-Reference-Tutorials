@@ -3,10 +3,16 @@ title: 埋め込み DGN ファイルのエクスポート - Aspose.CAD チュー
 linktitle: 埋め込みDGNファイルのエクスポート
 second_title: Aspose.CAD .NET - CAD および BIM ファイル形式
 description: Aspose.CAD for .NET の機能を試してください。このステップバイステップのチュートリアルで、埋め込まれた DGN ファイルを PDF に簡単にエクスポートする方法を学びましょう。
-type: docs
 weight: 14
 url: /ja/net/export-techniques/exporting-embedded-dgn-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 埋め込み DGN ファイルのエクスポート - Aspose.CAD チュートリアル
+
 ## 導入
 
 ソフトウェア開発のダイナミックな世界では、Aspose.CAD for .NET はコンピュータ支援設計 (CAD) ファイルを処理するための強力なツールとして際立っています。このチュートリアルでは、Aspose.CAD for .NET を使用して埋め込み DGN ファイルをエクスポートするプロセスについて説明します。経験豊富な開発者であっても、好奇心旺盛な初心者であっても、このステップバイステップのガイドは、Aspose.CAD の機能を効果的に活用するのに役立ちます。
@@ -98,3 +104,9 @@ A1: Aspose.CAD は主に .NET をサポートしますが、Aspose は Java や 
 ### Q5: サポートが必要ですか、それともコミュニティと関わりたいですか?
 
 A5: にアクセスしてください。[Aspose.CAD フォーラム](https://forum.aspose.com/c/cad/19)サポートとディスカッションのため。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

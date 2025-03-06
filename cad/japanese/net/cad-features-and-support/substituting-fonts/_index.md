@@ -3,10 +3,16 @@ title: Aspose.CAD for .NET でのフォントの置換
 linktitle: フォントの置換
 second_title: Aspose.CAD .NET - CAD および BIM ファイル形式
 description: Aspose.CAD for .NET のフォントを簡単に置き換える方法を学びましょう。 CAD 図面のフォントを効率的にカスタマイズするには、ステップバイステップのガイドに従ってください。
-type: docs
 weight: 17
 url: /ja/net/cad-features-and-support/substituting-fonts/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.CAD for .NET でのフォントの置換
+
 ## 導入
 
 .NET を使用した CAD 開発の分野では、フォントを操作する能力は重要なスキルです。 Aspose.CAD for .NET は、この目的のための強力なツール セットを提供し、開発者が CAD 図面内のフォントをシームレスに置き換えることができます。このチュートリアルでは、フォントの置換を効率的に行う方法を示しながら、プロセスを段階的に説明します。
@@ -109,3 +115,10 @@ A4: 確かに、バッチ処理を実装して、複数の CAD 図面にわた�
 
  A5: 追加のサポートやコミュニティでのディスカッションについては、次のサイトにアクセスしてください。[Aspose.CAD フォーラム](https://forum.aspose.com/c/cad/19).
 
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

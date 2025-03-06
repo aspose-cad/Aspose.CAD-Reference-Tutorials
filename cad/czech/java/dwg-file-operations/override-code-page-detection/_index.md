@@ -3,10 +3,16 @@ title: Přepište automatickou detekci kódových stránek v souborech DWG pomoc
 linktitle: Přepište automatickou detekci kódové stránky v souborech DWG
 second_title: Aspose.CAD Java API
 description: Objevte, jak přepsat detekci kódové stránky v souborech DWG pomocí Aspose.CAD for Java. Efektivně zpracujte kódování a obnovte chybně formátovaný CIF/MIF.
-type: docs
 weight: 13
 url: /cs/java/dwg-file-operations/override-code-page-detection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Přepište automatickou detekci kódových stránek v souborech DWG pomocí Java
+
 ## Úvod
 
 Vítejte v tomto komplexním průvodci, jak přepsat automatickou detekci kódové stránky v souborech DWG pomocí Aspose.CAD for Java. Aspose.CAD je výkonná knihovna, která vývojářům v Javě umožňuje pracovat s formáty souborů CAD a poskytuje širokou škálu funkcí pro manipulaci, převod a export souborů CAD.
@@ -101,3 +107,9 @@ Odpověď 3: Bezplatná zkušební verze má určitá omezení a doporučuje se 
 ### Q5: Je k dispozici dočasná licence pro testovací účely?
 
  A5: Ano, můžete získat dočasnou licenci[tady](https://purchase.aspose.com/temporary-license/) pro testování.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

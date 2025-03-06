@@ -3,10 +3,16 @@ title: DXF 固有のレイアウトを PDF にエクスポート - Aspose.CAD �
 linktitle: DXF 固有のレイアウトを PDF にエクスポートする
 second_title: Aspose.CAD .NET - CAD および BIM ファイル形式
 description: Aspose.CAD for .NET を使用して DXF 固有のレイアウトを PDF にエクスポートする方法を学びます。効率的で高品質な変換を行うには、ステップバイステップのガイドに従ってください。
-type: docs
 weight: 11
 url: /ja/net/export-techniques/exporting-dxf-specific-layout-to-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# DXF 固有のレイアウトを PDF にエクスポート - Aspose.CAD ガイド
+
 ## 導入
 
 Aspose.CAD for .NET の強力な機能を使用して DXF 固有のレイアウトを PDF にエクスポートする Aspose.CAD チュートリアルへようこそ。このステップバイステップのガイドでは、「モデル」という名前の特定のレイアウトに焦点を当てて、DXF ファイルを PDF に変換するプロセスを説明します。 Aspose.CAD は、変換プロセスを合理化するための効率的なツールと機能を提供し、CAD 図面の高品質な出力を保証します。
@@ -113,3 +119,9 @@ A2: はい、プロパティを調整することで PDF 出力設定をカス�
 ### Q5: Aspose.CAD のライセンスはどこで購入できますか?
 
  A5: Aspose.CAD のライセンスを購入できます。[ここ](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

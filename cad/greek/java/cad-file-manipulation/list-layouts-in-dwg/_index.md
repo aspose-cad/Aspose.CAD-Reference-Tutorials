@@ -3,10 +3,16 @@ title: Διατάξεις λίστας στο DWG χρησιμοποιώντας
 linktitle: Διατάξεις λίστας στο DWG
 second_title: Aspose.CAD Java API
 description: Εξερευνήστε το Aspose.CAD για Java και απαριθμήστε αβίαστα διατάξεις σε αρχεία DWG. Ενσωματώστε ισχυρή λειτουργικότητα CAD στις εφαρμογές σας Java.
-type: docs
 weight: 12
 url: /el/java/cad-file-manipulation/list-layouts-in-dwg/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Διατάξεις λίστας στο DWG χρησιμοποιώντας Aspose.CAD για Java
+
 ## Εισαγωγή
 
 Καλώς ήρθατε στον αναλυτικό οδηγό μας σχετικά με τη χρήση του Aspose.CAD για Java για τη λίστα διατάξεων σε αρχεία DWG. Το Aspose.CAD είναι μια ισχυρή βιβλιοθήκη που επιτρέπει στους προγραμματιστές να εργάζονται με αρχεία CAD μέσω προγραμματισμού. Σε αυτό το σεμινάριο, θα επικεντρωθούμε σε μια συγκεκριμένη εργασία: την καταχώριση διατάξεων σε ένα αρχείο DWG. Μέχρι το τέλος αυτού του οδηγού, θα μπορείτε να ενσωματώσετε απρόσκοπτα αυτή τη λειτουργία στις εφαρμογές σας Java.
@@ -86,3 +92,9 @@ A1: Ναι, το Aspose.CAD υποστηρίζει διάφορες μορφές
 ### Ε5: Μπορώ να χρησιμοποιήσω μια προσωρινή άδεια για δοκιμαστικούς σκοπούς;
 
  A5: Ναι, μπορείτε να αποκτήσετε προσωρινή άδεια[εδώ](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

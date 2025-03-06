@@ -3,10 +3,16 @@ title: Thêm thuộc tính tùy chỉnh vào tệp DWG bằng Aspose.CAD trong J
 linktitle: Thêm thuộc tính tùy chỉnh vào tệp DWG bằng Java
 second_title: API Java Aspose.CAD
 description: Tìm hiểu cách thêm thuộc tính tùy chỉnh vào tệp DWG trong Java bằng Aspose.CAD. Tăng cường tổ chức và truy xuất thông tin trong bản vẽ CAD một cách dễ dàng.
-type: docs
 weight: 10
 url: /vi/java/additional-features/add-custom-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Thêm thuộc tính tùy chỉnh vào tệp DWG bằng Aspose.CAD trong Java
+
 Trong thế giới lập trình Java, việc thao tác với file DWG với các thuộc tính tùy chỉnh là một công việc thường xuyên. Aspose.CAD cho Java cung cấp một bộ công cụ mạnh mẽ để tích hợp liền mạch chức năng này vào các dự án của bạn. Trong hướng dẫn từng bước này, chúng tôi sẽ hướng dẫn bạn quy trình thêm thuộc tính tùy chỉnh vào tệp DWG bằng Aspose.CAD cho Java.
 
 ## Giới thiệu
@@ -105,3 +111,9 @@ Câu trả lời 2: Aspose.CAD cho Java tương thích với các IDE Java phổ
 ### Câu hỏi 5: Làm cách nào tôi có thể nhận được hỗ trợ hoặc đặt câu hỏi?
 
 A5: Tham quan[Diễn đàn Aspose.CAD](https://forum.aspose.com/c/cad/19) để nhận hỗ trợ, đặt câu hỏi và kết nối với cộng đồng Aspose.CAD.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

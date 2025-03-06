@@ -3,10 +3,16 @@ title: 將 DWF 匯出為 PDF - Aspose.CAD 指南
 linktitle: 將 DWF 匯出為 PDF
 second_title: Aspose.CAD .NET - CAD 和 BIM 檔案格式
 description: 探索使用 Aspose.CAD for .NET 將 DWF 匯出為 PDF 的無縫指南。輕鬆增強您的 CAD 檔案處理能力。
-type: docs
 weight: 10
 url: /zh-hant/net/file-format-conversion/exporting-dwf-to-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 將 DWF 匯出為 PDF - Aspose.CAD 指南
+
 ## 介紹
 
 在 .NET 開發領域，Aspose.CAD 作為處理電腦輔助設計 (CAD) 檔案的強大函式庫脫穎而出。在本教程中，我們將重點放在一項特定任務：使用 Aspose.CAD for .NET 將 DWF（設計 Web 格式）檔案匯出為 PDF。無論您是經驗豐富的開發人員還是新手，都可以按照以下步驟將此功能無縫整合到您的應用程式中。
@@ -110,3 +116,9 @@ A1：是的，Aspose.CAD支援各種CAD檔案格式，包括DWG、DXF、DWF等�
 ### Q5：哪裡可以購買完整版的 Aspose.CAD for .NET？
 
  A5：您可以從以下位置購買完整版的 Aspose.CAD for .NET：[這裡](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: إضافة خصائص مخصصة إلى ملفات DWG باستخدام A
 linktitle: إضافة خصائص مخصصة إلى ملفات DWG باستخدام Java
 second_title: Aspose.CAD جافا API
 description: تعرف على كيفية إضافة خصائص مخصصة إلى ملفات DWG في Java باستخدام Aspose.CAD. تعزيز التنظيم واسترجاع المعلومات في رسومات CAD دون عناء.
-type: docs
 weight: 10
 url: /ar/java/additional-features/add-custom-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إضافة خصائص مخصصة إلى ملفات DWG باستخدام Aspose.CAD في Java
+
 في عالم برمجة Java، تعد معالجة ملفات DWG ذات الخصائص المخصصة مهمة شائعة. يوفر Aspose.CAD for Java مجموعة قوية من الأدوات لدمج هذه الوظيفة بسلاسة في مشاريعك. في هذا البرنامج التعليمي خطوة بخطوة، سنرشدك خلال عملية إضافة خصائص مخصصة إلى ملفات DWG باستخدام Aspose.CAD لـ Java.
 
 ## مقدمة
@@ -105,3 +111,9 @@ System.out.println("\nAddCustomProperties executed successfully.");
 ### س5: كيف يمكنني الحصول على الدعم أو طرح الأسئلة؟
 
 ج5: قم بزيارة[منتدى Aspose.CAD](https://forum.aspose.com/c/cad/19) للحصول على الدعم وطرح الأسئلة والتواصل مع مجتمع Aspose.CAD.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Metered Licensing i Aspose.CAD för .NET
 linktitle: Uppmätta licenser
 second_title: Aspose.CAD .NET - CAD- och BIM-filformat
 description: Lås upp Aspose.CAD-potential med uppmätt licensiering i .NET. Optimera resursanvändningen sömlöst. Utforska vår steg-för-steg-guide.
-type: docs
 weight: 12
 url: /sv/net/licensing-and-configuration/metered-licensing/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Metered Licensing i Aspose.CAD för .NET
+
 ## Introduktion
 
 För att kunna låsa upp den fulla potentialen hos Aspose.CAD för .NET krävs förståelse för krångligheterna med mätlicenser. Denna kraftfulla funktion gör det möjligt för utvecklare att effektivt hantera resursförbrukningen samtidigt som de utnyttjar funktionerna i Aspose.CAD. I den här steg-för-steg-guiden kommer vi att fördjupa oss i processen för att implementera mätlicenser, och dela upp varje avgörande steg för att säkerställa sömlös integrering i dina .NET-projekt.
@@ -97,3 +103,9 @@ S3: Ja, mätnycklar kan återanvändas i olika projekt, vilket erbjuder flexibil
 ### F5: Kan jag tillfälligt licensiera Aspose.CAD för specifika projekt?
 
  A5: Ja, utforska[tillfälliga licensalternativ](https://purchase.aspose.com/temporary-license/) för kortsiktiga projektkrav.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Conversion de dessins CAO
 linktitle: Conversion de dessins CAO
 second_title: API Java Aspose.CAD
 description: Transformez sans effort les dessins CAO avec Aspose.CAD pour Java. Apprenez à convertir, exporter et optimiser vos fichiers CAO avec précision à l'aide de nos didacticiels étape par étape.
-type: docs
 weight: 20
 url: /fr/java/cad-drawing-conversion/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Conversion de dessins CAO
+
 
 ## Introduction
 
@@ -50,3 +56,9 @@ Explorez le processus transparent d'exportation de fichiers DWG au format PDF ou
 Explorez le guide étape par étape pour exporter des mises en page DWG spécifiques au format PDF à l'aide d'Aspose.CAD pour Java. Optimisez votre flux de travail CAO sans effort.
 ### [Convertir DWT au format DXF à l'aide d'Aspose.CAD pour Java](./convert-dwt-to-dxf/)
 Explorez la conversion transparente de DWT en DXF avec Aspose.CAD pour Java. Suivez notre guide étape par étape pour une manipulation efficace des fichiers CAO.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

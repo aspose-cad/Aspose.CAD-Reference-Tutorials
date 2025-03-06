@@ -3,10 +3,16 @@ title: Xuất DXF sang định dạng WMF - Hướng dẫn Aspose.CAD
 linktitle: Xuất DXF sang định dạng WMF
 second_title: Aspose.CAD .NET - Định dạng tệp CAD và BIM
 description: Khám phá khả năng tích hợp liền mạch của Aspose.CAD cho .NET trong hướng dẫn từng bước này để xuất tệp DXF sang PDF một cách dễ dàng.
-type: docs
 weight: 13
 url: /vi/net/export-techniques/exporting-dxf-to-wmf-format/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Xuất DXF sang định dạng WMF - Hướng dẫn Aspose.CAD
+
 ## Giới thiệu
 
 Chào mừng bạn đến với hướng dẫn toàn diện của chúng tôi về cách xuất tệp DXF sang định dạng PDF bằng Aspose.CAD cho .NET! Nếu bạn là nhà phát triển đang tìm cách tích hợp liền mạch chức năng này vào các ứng dụng .NET của mình thì bạn đã đến đúng nơi. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn từng bước thực hiện quy trình, đảm bảo bạn nắm bắt kỹ từng khái niệm.
@@ -110,3 +116,9 @@ A4: Nếu có bất kỳ thắc mắc hoặc trợ giúp nào, hãy truy cập[D
 ### Câu hỏi 5: Tôi có thể mua giấy phép tạm thời không?
 
  Câu trả lời 5: Có, bạn có thể xin giấy phép tạm thời từ[đây](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

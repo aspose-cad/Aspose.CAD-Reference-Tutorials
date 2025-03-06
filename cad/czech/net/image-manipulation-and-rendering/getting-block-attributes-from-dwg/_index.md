@@ -3,10 +3,16 @@ title: Získání atributů bloku ze souborů DWG - Výukový program Aspose.CAD
 linktitle: Získávání atributů bloku ze souborů DWG
 second_title: Aspose.CAD .NET – formát souborů CAD a BIM
 description: Odemkněte potenciál souborů CAD s Aspose.CAD pro .NET. Extrahujte atributy bloku bez námahy.
-type: docs
 weight: 10
 url: /cs/net/image-manipulation-and-rendering/getting-block-attributes-from-dwg/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Získání atributů bloku ze souborů DWG - Výukový program Aspose.CAD
+
 ## Úvod
 
 dynamickém světě Computer-Aided Design (CAD) je extrahování cenných informací ze souborů DWG pro mnoho aplikací zásadní. Aspose.CAD for .NET poskytuje výkonné řešení pro efektivní práci se soubory CAD. V tomto tutoriálu se krok za krokem ponoříme do procesu získávání atributů bloku ze souborů DWG pomocí Aspose.CAD.
@@ -93,3 +99,9 @@ Odpověď 1: Ano, Aspose.CAD podporuje různé formáty CAD, včetně DWG, DXF, 
 ### Q5: Kde najdu dokumentaci k Aspose.CAD pro .NET?
 
  A5: Viz komplexní[dokumentace](https://reference.aspose.com/cad/net/) pro podrobné informace a příklady.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

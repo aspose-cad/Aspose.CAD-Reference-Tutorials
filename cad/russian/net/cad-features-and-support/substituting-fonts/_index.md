@@ -3,10 +3,16 @@ title: Замена шрифтов в Aspose.CAD на .NET
 linktitle: Замена шрифтов
 second_title: Aspose.CAD .NET — формат файлов CAD и BIM
 description: Научитесь легко заменять шрифты в Aspose.CAD на .NET. Следуйте нашему пошаговому руководству для эффективной настройки шрифтов в чертежах САПР.
-type: docs
 weight: 17
 url: /ru/net/cad-features-and-support/substituting-fonts/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Замена шрифтов в Aspose.CAD на .NET
+
 ## Введение
 
 В сфере разработки САПР с использованием .NET умение манипулировать шрифтами является важнейшим навыком. Aspose.CAD for .NET предоставляет для этой цели надежный набор инструментов, позволяющий разработчикам легко заменять шрифты в своих CAD-чертежах. В этом уроке мы шаг за шагом рассмотрим этот процесс, демонстрируя, как эффективно добиться замены шрифтов.
@@ -109,3 +115,10 @@ A2: Абсолютно, кроме того`PrimaryFontName`, Aspose.CAD for .NE
 
  О5: Для получения дополнительной поддержки и обсуждений в сообществе посетите[Форум Aspose.CAD](https://forum.aspose.com/c/cad/19).
 
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

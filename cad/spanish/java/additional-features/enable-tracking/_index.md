@@ -3,10 +3,16 @@ title: Habilite el seguimiento en archivos DWG usando Aspose.CAD en Java
 linktitle: Habilite el seguimiento en archivos DWG usando Java
 second_title: API de Java Aspose.CAD
 description: Explore la guía paso a paso sobre cómo habilitar el seguimiento de archivos DWG en Java usando Aspose.CAD, garantizando una colaboración perfecta en proyectos CAD.
-type: docs
 weight: 12
 url: /es/java/additional-features/enable-tracking/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Habilite el seguimiento en archivos DWG usando Aspose.CAD en Java
+
 ## Introducción
 
 En el ámbito del diseño asistido por computadora (CAD), Aspose.CAD para Java se destaca como una poderosa herramienta que permite a los desarrolladores manipular y convertir archivos CAD con facilidad. Este tutorial profundiza en una funcionalidad específica de Aspose.CAD para Java: permitir el seguimiento en archivos DWG. El seguimiento de los cambios en los archivos DWG es crucial para los proyectos de diseño colaborativo, ya que garantiza una comunicación fluida y un flujo de trabajo eficiente. En esta guía, recorreremos los pasos para habilitar el seguimiento utilizando Java, aprovechando las capacidades de Aspose.CAD.
@@ -123,3 +129,9 @@ R1: Aspose.CAD admite principalmente archivos DWG para seguimiento. Para otros f
 ### P5: ¿Cómo obtengo una licencia temporal de Aspose.CAD para Java?
 
  R5: Siga el proceso descrito en[Licencia Temporal](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

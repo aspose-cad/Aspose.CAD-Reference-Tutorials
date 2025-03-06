@@ -3,10 +3,16 @@ title: 授權和配置
 linktitle: 授權和配置
 second_title: Aspose.CAD .NET - CAD 和 BIM 檔案格式
 description: 使用 Aspose.CAD for .NET 提升您的 CAD 檔案操作能力！使用 FileStream 或按照我們的逐步教學的路徑無縫應用授權。
-type: docs
 weight: 20
 url: /zh-hant/net/licensing-and-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 授權和配置
+
 
 ## 介紹
 
@@ -32,3 +38,9 @@ url: /zh-hant/net/licensing-and-configuration/
 掌握 Aspose.CAD for .NET：使用 FileStream 無縫應用程式授權。探索逐步指南並釋放潛力。現在下載！
 ### [Aspose.CAD for .NET 中的計量許可](./metered-licensing/)
 透過 .NET 中的計量許可釋放 Aspose.CAD 的潛力。無縫優化資源使用。探索我們的逐步指南。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

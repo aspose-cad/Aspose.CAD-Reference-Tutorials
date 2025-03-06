@@ -3,10 +3,16 @@ title: DGN에서 PDF로 변환 가이드 - Java용 Aspose.CAD
 linktitle: DGN V7 지원
 second_title: Aspose.CAD 자바 API
 description: Java용 Aspose.CAD를 사용하여 DGN 파일을 PDF로 쉽게 변환하세요. 원활한 통합과 효율적인 작업 흐름을 위한 단계별 가이드를 따르세요.
-type: docs
 weight: 11
 url: /ko/java/other-cad-operations/support-for-dgn-v7/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# DGN에서 PDF로 변환 가이드 - Java용 Aspose.CAD
+
 ## 소개
 
 역동적인 CAD(Computer-Aided Design) 세계에서는 DGN(Design) 파일을 PDF(Portable Document Format)로 효율적으로 변환하는 것이 중요한 요구 사항입니다. Aspose.CAD for Java는 원활한 통합과 강력한 기능을 제공하는 강력한 솔루션으로 등장합니다. 이 단계별 가이드는 원활하고 효율적인 작업 흐름을 보장하기 위해 Java용 Aspose.CAD를 사용하여 DGN 파일을 PDF로 내보내는 과정을 안내하는 것을 목표로 합니다.
@@ -100,3 +106,9 @@ A1: 예, Aspose.CAD는 다양한 CAD 형식을 지원하여 DGN을 넘어 PDF로
 ### Q5: Aspose.CAD for Java에 대한 포괄적인 문서는 어디서 찾을 수 있나요?
 
  A5: 다음을 참조하세요.[Java 문서용 Aspose.CAD](https://reference.aspose.com/cad/java/) 자세한 정보를 보려면.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

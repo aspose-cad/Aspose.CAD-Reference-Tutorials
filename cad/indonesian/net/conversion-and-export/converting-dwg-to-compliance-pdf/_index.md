@@ -3,10 +3,16 @@ title: Mengonversi DWG ke PDF Kepatuhan - Tutorial Aspose.CAD
 linktitle: Mengonversi DWG ke PDF Kepatuhan
 second_title: Aspose.CAD .NET - Format File CAD dan BIM
 description: Konversikan DWG ke PDF Kepatuhan dengan Aspose.CAD untuk .NET. Ikuti tutorial kami untuk panduan langkah demi langkah.
-type: docs
 weight: 13
 url: /id/net/conversion-and-export/converting-dwg-to-compliance-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Mengonversi DWG ke PDF Kepatuhan - Tutorial Aspose.CAD
+
 ## Perkenalan
 
 Selamat datang di tutorial langkah demi langkah kami tentang mengonversi file DWG ke PDF Kepatuhan menggunakan Aspose.CAD untuk .NET. Aspose.CAD adalah .NET API yang kuat yang memungkinkan pengembang bekerja dengan format file CAD dengan mudah. Dalam tutorial ini, kami akan memandu Anda melalui proses mengonversi file DWG ke PDF Kepatuhan dengan contoh dan penjelasan mendetail.
@@ -113,3 +119,9 @@ A2: Ya, Aspose.CAD kompatibel dengan .NET Framework dan .NET Core.
 ### Q5: Di mana saya bisa mendapatkan dukungan untuk Aspose.CAD?
 
 A5: Kunjungi[Forum Aspose.CAD](https://forum.aspose.com/c/cad/19) untuk pertanyaan terkait dukungan apa pun.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

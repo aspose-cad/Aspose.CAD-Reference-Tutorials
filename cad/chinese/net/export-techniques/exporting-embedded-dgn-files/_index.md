@@ -3,10 +3,16 @@ title: 导出嵌入的 DGN 文件 - Aspose.CAD 教程
 linktitle: 导出嵌入的 DGN 文件
 second_title: Aspose.CAD .NET - CAD 和 BIM 文件格式
 description: 探索 Aspose.CAD for .NET 的强大功能。通过此分步教程，学习如何轻松地将嵌入的 DGN 文件导出为 PDF。
-type: docs
 weight: 14
 url: /zh/net/export-techniques/exporting-embedded-dgn-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 导出嵌入的 DGN 文件 - Aspose.CAD 教程
+
 ## 介绍
 
 在软件开发的动态世界中，Aspose.CAD for .NET 作为处理计算机辅助设计 (CAD) 文件的强大工具脱颖而出。本教程将指导您完成使用 Aspose.CAD for .NET 导出嵌入式 DGN 文件的过程。无论您是经验丰富的开发人员还是好奇的初学者，本分步指南都将帮助您有效地利用 Aspose.CAD 的功能。
@@ -98,3 +104,9 @@ A1：Aspose.CAD主要支持.NET，但Aspose提供了各种语言的库，包括J
 ### Q5：需要帮助或想与社区互动？
 
 A5：访问[Aspose.CAD论坛](https://forum.aspose.com/c/cad/19)以寻求支持和讨论。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

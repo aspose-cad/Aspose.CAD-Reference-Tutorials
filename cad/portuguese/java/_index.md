@@ -1,12 +1,17 @@
 ---
 title: Tutoriais abrangentes e exemplos de Aspose.CAD para Java
 linktitle: Aspose.CAD para tutoriais Java
-type: docs
 weight: 10
 url: /pt/java/
 description: Eleve facilmente as habilidades de CAD com Aspose.CAD para Java. Explore tutoriais sobre conversão de desenhos, anotação de texto, manipulação de arquivos, recursos avançados, licenciamento e muito mais.
-is_root: true
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tutoriais abrangentes e exemplos de Aspose.CAD para Java
+
 
 ## Introdução
 
@@ -77,3 +82,9 @@ Exporte facilmente imagens AutoCAD, layouts CAD, arquivos IFC, STL para PDF, BMP
 Desbloqueie o poder do Aspose.CAD para Java com nossos tutoriais de exportação DGN. Aprenda a manipulação eficiente de arquivos CAD, desde a exportação de DGN como parte de DWG até a criação de imagens rasterizadas sem esforço.
 ### [Outras operações CAD](./other-cad-operations/)
 Desbloqueie o potencial do Aspose.CAD para Java com nossos tutoriais. Desde o manuseio de elementos DGN até a adição de marcas d'água, aprimore suas habilidades em CAD sem esforço.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

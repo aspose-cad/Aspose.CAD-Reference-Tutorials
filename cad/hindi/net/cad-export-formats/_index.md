@@ -3,10 +3,16 @@ title: सीएडी निर्यात प्रारूप
 linktitle: सीएडी निर्यात प्रारूप
 second_title: Aspose.CAD .NET - CAD और BIM फ़ाइल स्वरूप
 description: .NET के लिए Aspose.CAD के साथ आसानी से CAD निर्यात प्रारूपों में महारत हासिल करें। ट्यूटोरियल के माध्यम से सीएडी लेआउट को परिवर्तित करना, डीजीएन फ़ाइलों को पीडीएफ में निर्यात करना और छवियों को रेखापुंज करना सीखें।
-type: docs
 weight: 22
 url: /hi/net/cad-export-formats/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# सीएडी निर्यात प्रारूप
+
 
 ## परिचय
 
@@ -38,3 +44,9 @@ url: /hi/net/cad-export-formats/
 .NET के लिए Aspose.CAD के साथ आसानी से DGN फ़ाइलों को PDF में निर्यात करना सीखें। निर्बाध सीएडी फ़ाइल हेरफेर के लिए चरण-दर-चरण मार्गदर्शिका।
 ### [.NET के लिए Aspose.CAD में DGN को रैस्टर इमेज में निर्यात करें](./export-dgn-to-raster-image/)
 .NET के लिए Aspose.CAD का उपयोग करके आसानी से DGN को रेखापुंज छवियों में परिवर्तित करें। चरण-दर-चरण मार्गदर्शिका का अन्वेषण करें और CAD फ़ाइल हेरफेर में .NET की शक्ति को उजागर करें।
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

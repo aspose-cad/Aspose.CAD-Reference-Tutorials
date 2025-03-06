@@ -3,10 +3,16 @@ title: Xuất sang định dạng BMP - Hướng dẫn Aspose.CAD
 linktitle: Xuất sang định dạng BMP
 second_title: Aspose.CAD .NET - Định dạng tệp CAD và BIM
 description: Khám phá thế giới liền mạch của việc xuất hình ảnh 3D sang BMP bằng Aspose.CAD cho .NET. Hãy làm theo hướng dẫn của chúng tôi để có trải nghiệm không rắc rối.
-type: docs
 weight: 11
 url: /vi/net/file-format-conversion/exporting-to-bmp-format/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Xuất sang định dạng BMP - Hướng dẫn Aspose.CAD
+
 ## Giới thiệu
 
 Trong thế giới phát triển phần mềm năng động, Aspose.CAD cho .NET nổi bật như một công cụ mạnh mẽ để xử lý các tệp Thiết kế hỗ trợ máy tính (CAD). Nếu bạn đang muốn xuất hình ảnh CAD sang định dạng BMP được sử dụng rộng rãi thì hướng dẫn này là hướng dẫn cần thiết dành cho bạn. Trong hướng dẫn từng bước này, chúng ta sẽ khám phá quy trình xuất hình ảnh 3D sang BMP bằng Aspose.CAD cho .NET. Hãy đi sâu vào!
@@ -94,3 +100,10 @@ Câu trả lời 1: Có, Aspose.CAD hỗ trợ nhiều định dạng tệp CAD 
 ### Câu 5: Tôi có thể mua Aspose.CAD cho .NET không?
 
  Câu trả lời 5: Có, bạn có thể mua Aspose.CAD[đây](https://purchase.aspose.com/buy) để mở khóa toàn bộ tiềm năng của nó cho các dự án của bạn.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

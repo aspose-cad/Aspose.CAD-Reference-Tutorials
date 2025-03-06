@@ -3,10 +3,16 @@ title: Προσθήκη προσαρμοσμένων ιδιοτήτων σε α�
 linktitle: Προσθήκη προσαρμοσμένων ιδιοτήτων σε αρχεία DWG
 second_title: Aspose.CAD .NET - Μορφή αρχείου CAD και BIM
 description: Βελτιώστε τα αρχεία DWG με προσαρμοσμένες ιδιότητες χρησιμοποιώντας το Aspose.CAD για .NET. Ακολουθήστε τον οδηγό βήμα προς βήμα για να προσθέσετε ουσιαστικά μεταδεδομένα χωρίς κόπο.
-type: docs
 weight: 11
 url: /el/net/attribute-and-property-management/adding-custom-properties-to-dwg/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Προσθήκη προσαρμοσμένων ιδιοτήτων σε αρχεία DWG - Οδηγός Aspose.CAD
+
 ## Εισαγωγή
 
 Καλώς ήρθατε σε αυτόν τον περιεκτικό οδηγό για την προσθήκη προσαρμοσμένων ιδιοτήτων σε αρχεία DWG χρησιμοποιώντας το Aspose.CAD για .NET. Το Aspose.CAD είναι μια ισχυρή βιβλιοθήκη που επιτρέπει στους προγραμματιστές να εργάζονται με αρχεία CAD απρόσκοπτα. Σε αυτό το σεμινάριο, θα επικεντρωθούμε στη βελτίωση της κατανόησης των προσαρμοσμένων ιδιοτήτων και στον τρόπο προσθήκης τους σε αρχεία DWG χρησιμοποιώντας το Aspose.CAD.
@@ -92,3 +98,9 @@ A4: Αν και δεν υπάρχουν αυστηροί περιορισμοί,
 ### Ε5: Το Aspose.CAD παρέχει υποστήριξη σε περίπτωση που αντιμετωπίσω προβλήματα;
 
  A5: Ναι, μπορείτε να ζητήσετε βοήθεια για το[Φόρουμ Aspose.CAD](https://forum.aspose.com/c/cad/19) για τυχόν τεχνικές απορίες ή προβλήματα.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

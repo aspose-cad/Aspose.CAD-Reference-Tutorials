@@ -3,10 +3,16 @@ title: التلاعب بالصور وتقديمها
 linktitle: التلاعب بالصور وتقديمها
 second_title: Aspose.CAD .NET - تنسيق ملف CAD وBIM
 description: أطلق العنان لإمكانات ملفات CAD باستخدام Aspose.CAD لـ .NET. تعلم استخراج سمات الكتلة واستيراد الصور وتحويل DWG إلى PDF ودعم الشبكة والمزيد دون عناء.
-type: docs
 weight: 27
 url: /ar/net/image-manipulation-and-rendering/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# التلاعب بالصور وتقديمها
+
 
 ## مقدمة
 
@@ -54,3 +60,9 @@ url: /ar/net/image-manipulation-and-rendering/
 أطلق العنان لإمكانات Aspose.CAD لـ .NET من خلال برنامجنا التعليمي خطوة بخطوة حول قراءة بيانات تعريف XREF من ملفات DWG.
 ### [عرض مستندات DWG في C# - دليل Aspose.CAD](./rendering-dwg-documents/)
 تعرف على كيفية عرض مستندات DWG في لغة C# باستخدام Aspose.CAD. يغطي هذا الدليل خطوة بخطوة الاستيراد والتكوين والحفظ باستخدام أمثلة التعليمات البرمجية.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

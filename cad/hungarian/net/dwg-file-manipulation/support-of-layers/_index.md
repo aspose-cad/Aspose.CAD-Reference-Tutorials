@@ -3,10 +3,16 @@ title: Rétegek kezelése DWG-fájlokban C# segítségével - Aspose.CAD oktató
 linktitle: Rétegek kezelése DWG-fájlokban C#-val
 second_title: Aspose.CAD .NET - CAD és BIM fájlformátum
 description: Ismerje meg, hogyan kezelheti a DWG-fájlok rétegeit C# használatával az Aspose.CAD for .NET segítségével. Lépésről lépésre útmutató a hatékony CAD-fájlkezeléshez.
-type: docs
 weight: 11
 url: /hu/net/dwg-file-manipulation/support-of-layers/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Rétegek kezelése DWG-fájlokban C# segítségével - Aspose.CAD oktatóanyag
+
 ## Bevezetés
 
 Üdvözöljük a DWG-fájlok fóliáinak kezeléséről szóló részletes oktatóanyagunkban a C# és Aspose.CAD for .NET használatával. Az Aspose.CAD egy hatékony könyvtár, amely lehetővé teszi a fejlesztők számára, hogy zökkenőmentesen dolgozzanak CAD fájlformátumokkal. Ebben az oktatóanyagban lépésről lépésre végigvezetjük a DWG-fájlok rétegeinek kezelésén.
@@ -109,3 +115,9 @@ Ebben az oktatóanyagban végigjártuk a DWG-fájlok rétegeinek kezelését a C
 ### 5. kérdés: Melyek az Aspose.CAD licencelési lehetőségei?
 
  5. válasz: Megtekintheti a licencelési lehetőségeket és a vásárlás részleteit[itt](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Atur Ukuran dan Mode Kanvas
 linktitle: Atur Ukuran dan Mode Kanvas
 second_title: Aspose.CAD Java API
 description: Jelajahi kekuatan Aspose.CAD untuk Java dengan panduan langkah demi langkah kami dalam mengatur ukuran dan mode kanvas. Konversi file CAD ke format PDF dan TIFF dengan mudah.
-type: docs
 weight: 16
 url: /id/java/advanced-cad-features/set-canvas-size-and-mode/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Atur Ukuran dan Mode Kanvas
+
 ## Perkenalan
 
 Apakah Anda ingin memanfaatkan kekuatan Aspose.CAD untuk Java untuk meningkatkan proses konversi CAD Anda? Panduan komprehensif ini akan memandu Anda melalui langkah-langkah mengatur ukuran dan mode kanvas menggunakan Aspose.CAD untuk Java. Baik Anda seorang pengembang berpengalaman atau baru memulai, tutorial ini akan memberi Anda wawasan yang Anda perlukan.
@@ -126,3 +132,9 @@ A1: Ya, Aspose.CAD dirancang untuk berintegrasi secara mulus dengan berbagai ker
 ### Q5: Bagaimana cara membeli Aspose.CAD untuk Java?
 
  A5: Beli produknya[Di Sini](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

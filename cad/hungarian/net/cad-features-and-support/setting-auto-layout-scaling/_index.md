@@ -3,10 +3,16 @@ title: Automatikus elrendezési méretezés beállítása az Aspose.CAD-ben .NET
 linktitle: Az automatikus elrendezési méretezés beállítása
 second_title: Aspose.CAD .NET - CAD és BIM fájlformátum
 description: Javítsa a CAD-megjelenítést az Aspose.CAD for .NET segítségével. Ismerje meg az automatikus elrendezési méretezés beállítását a precíz és adaptálható fájlmegjelenítés érdekében.
-type: docs
 weight: 14
 url: /hu/net/cad-features-and-support/setting-auto-layout-scaling/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Automatikus elrendezési méretezés beállítása az Aspose.CAD-ben .NET-hez
+
 A .NET fejlesztés dinamikus területén a számítógéppel segített tervezésű (CAD) fájlok megjelenítésének optimalizálása kulcsfontosságú szempont a hatékony és tetszetős alkalmazások létrehozásában. Az Aspose.CAD for .NET lehetővé teszi a fejlesztők számára, hogy javítsák CAD-feldolgozási képességeiket, és ebben az oktatóanyagban az automatikus elrendezési méretezés beállítására összpontosítunk az Aspose.CAD for .NET használatával.
 
 ## Előfeltételek
@@ -107,3 +113,9 @@ A4: Természetesen az Aspose.CAD a lehetőségek széles skáláját kínálja a
 ### 5. kérdés: Hol találhatok további forrásokat és támogatást az Aspose.CAD-hez?
 
  A5: Fedezze fel a[Aspose.CAD fórum](https://forum.aspose.com/c/cad/19) közösségi támogatásért, és tekintse meg a[dokumentáció](https://reference.aspose.com/cad/net/) részletes információkért.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

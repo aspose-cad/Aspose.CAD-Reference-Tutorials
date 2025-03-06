@@ -3,10 +3,16 @@ title: Thao tác và kết xuất hình ảnh
 linktitle: Thao tác và kết xuất hình ảnh
 second_title: Aspose.CAD .NET - Định dạng tệp CAD và BIM
 description: Khai phá tiềm năng của tệp CAD bằng Aspose.CAD cho .NET. Tìm hiểu cách trích xuất thuộc tính khối, nhập hình ảnh, chuyển đổi DWG sang PDF, hỗ trợ lưới và hơn thế nữa một cách dễ dàng.
-type: docs
 weight: 27
 url: /vi/net/image-manipulation-and-rendering/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Thao tác và kết xuất hình ảnh
+
 
 ## Giới thiệu
 
@@ -54,3 +60,9 @@ Khám phá Aspose.CAD cho .NET. Chuyển đổi DWG thành hình ảnh trong C# 
 Khai phá tiềm năng của Aspose.CAD cho .NET bằng hướng dẫn từng bước của chúng tôi về cách đọc siêu dữ liệu XREF từ tệp DWG.
 ### [Hiển thị tài liệu DWG trong C# - Hướng dẫn Aspose.CAD](./rendering-dwg-documents/)
 Tìm hiểu cách hiển thị tài liệu DWG trong C# bằng Aspose.CAD. Hướng dẫn từng bước này bao gồm việc nhập, định cấu hình và lưu bằng các ví dụ về mã.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

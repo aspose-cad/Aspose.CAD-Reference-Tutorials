@@ -3,10 +3,16 @@ title: Adjon hozzá egyéni tulajdonságokat DWG-fájlokhoz az Aspose.CAD haszn�
 linktitle: Adjon hozzá egyéni tulajdonságokat DWG-fájlokhoz Java használatával
 second_title: Aspose.CAD Java API
 description: Ismerje meg, hogyan adhat egyéni tulajdonságokat DWG-fájlokhoz Java nyelven az Aspose.CAD használatával. Fokozza a rendszerezést és az információkeresést a CAD-rajzokban könnyedén.
-type: docs
 weight: 10
 url: /hu/java/additional-features/add-custom-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Adjon hozzá egyéni tulajdonságokat DWG-fájlokhoz az Aspose.CAD használatával Java nyelven
+
 A Java programozás világában gyakori feladat az egyéni tulajdonságokkal rendelkező DWG-fájlok kezelése. Az Aspose.CAD for Java hatékony eszközkészletet biztosít ennek a funkciónak a projektekbe való zökkenőmentes integrálásához. Ebben a lépésről lépésre bemutatott oktatóanyagban végigvezetjük az Aspose.CAD for Java segítségével egyéni tulajdonságok DWG-fájlokhoz való hozzáadásának folyamatán.
 
 ## Bevezetés
@@ -105,3 +111,9 @@ Gratulálunk! Megtanulta, hogyan javíthat DWG-fájlokat egyéni tulajdonságok 
 ### 5. kérdés: Hogyan kaphatok támogatást vagy tehetek fel kérdéseket?
 
 A5: Látogassa meg a[Aspose.CAD fórum](https://forum.aspose.com/c/cad/19) támogatást kaphat, kérdéseket tehet fel, és kapcsolatba léphet az Aspose.CAD közösséggel.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

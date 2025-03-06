@@ -3,10 +3,16 @@ title: Časový limit při ukládání pro CAD s Aspose.CAD
 linktitle: Nastavte Timeout na Uložit
 second_title: Aspose.CAD Java API
 description: Naučte se, jak zvýšit výkon vaší Java aplikace pomocí Aspose.CAD. Nastavte časový limit pro ukládání výkresů CAD. Postupujte podle našeho podrobného průvodce.
-type: docs
 weight: 15
 url: /cs/java/other-cad-operations/put-timeout-on-save/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Časový limit při ukládání pro CAD s Aspose.CAD
+
 ## Úvod
 
 Vítejte v tutoriálu o nastavení časového limitu při ukládání pomocí Aspose.CAD pro Java. V této příručce vás provedeme procesem nastavení časového limitu pro ukládání výkresů CAD, abyste zvýšili výkon vaší aplikace. Aspose.CAD for Java je výkonná knihovna, která vám umožní bezproblémově pracovat se soubory CAD ve vašich aplikacích Java.
@@ -131,3 +137,9 @@ A3: Ano, můžete získat bezplatnou zkušební verzi[tento odkaz](https://relea
 ### Q5: Potřebujete pomoc nebo máte otázky?
 
  A5: Přejděte na[Fórum Aspose.CAD](https://forum.aspose.com/c/cad/19) za podporu komunity.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

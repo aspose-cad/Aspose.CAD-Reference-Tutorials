@@ -3,10 +3,16 @@ title: Aspose.CAD for Java Kullanarak DWG'deki Düzenleri Listeleme
 linktitle: DWG'deki Düzenleri Listeleme
 second_title: Aspose.CAD Java API'si
 description: Aspose.CAD for Java'yı keşfedin ve DWG dosyalarındaki düzenleri zahmetsizce listeleyin. Güçlü CAD işlevselliğini Java uygulamalarınıza entegre edin.
-type: docs
 weight: 12
 url: /tr/java/cad-file-manipulation/list-layouts-in-dwg/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.CAD for Java Kullanarak DWG'deki Düzenleri Listeleme
+
 ## giriiş
 
 DWG dosyalarındaki düzenleri listelemek için Aspose.CAD for Java'yı kullanmayla ilgili adım adım kılavuzumuza hoş geldiniz. Aspose.CAD, geliştiricilerin CAD dosyalarıyla programlı olarak çalışmasını sağlayan güçlü bir kütüphanedir. Bu eğitimde belirli bir göreve odaklanacağız: Bir DWG dosyasındaki düzenleri listelemek. Bu kılavuzun sonunda, bu işlevselliği Java uygulamalarınıza sorunsuz bir şekilde entegre edebileceksiniz.
@@ -86,3 +92,9 @@ Cevap1: Evet, Aspose.CAD, DWG, DXF, DWF ve daha fazlası dahil olmak üzere çe�
 ### S5: Geçici lisansı test amacıyla kullanabilir miyim?
 
  Cevap5: Evet, geçici lisans alabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

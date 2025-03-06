@@ -3,10 +3,16 @@ title: Exportation de fichiers IGES au format PDF - Guide Aspose.CAD
 linktitle: Exportation de fichiers IGES au format PDF
 second_title: Aspose.CAD .NET - Format de fichier CAO et BIM
 description: Découvrez comment exporter sans effort des fichiers IGES au format PDF à l'aide d'Aspose.CAD pour .NET. Suivez notre guide étape par étape pour une manipulation précise des fichiers CAO.
-type: docs
 weight: 11
 url: /fr/net/exporting-to-image-formats/exporting-iges-files-to-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Exportation de fichiers IGES au format PDF - Guide Aspose.CAD
+
 ## Introduction
 
 Dans le monde dynamique de la conception assistée par ordinateur (CAO), la nécessité de convertir les fichiers IGES au format PDF est une exigence courante. Aspose.CAD for .NET fournit une solution puissante pour cette tâche, offrant flexibilité et précision dans la gestion des fichiers CAO. Dans ce didacticiel, nous vous guiderons tout au long du processus d'exportation de fichiers IGES au format PDF à l'aide d'Aspose.CAD pour .NET. Allons-y !
@@ -118,3 +124,9 @@ A1 : Oui, Aspose.CAD pour .NET convient aux applications de bureau et Web, offra
 ### Q5 : Besoin d'aide ou avez des questions ?
 
 A5 : Rejoignez la communauté Aspose.CAD sur le[forum d'entraide](https://forum.aspose.com/c/cad/19) pour une aide et des discussions rapides.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

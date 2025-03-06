@@ -3,10 +3,16 @@ title: نص CAD والتعليق التوضيحي
 linktitle: نص CAD والتعليق التوضيحي
 second_title: Aspose.CAD جافا API
 description: ارفع مستوى رسومات DWG الخاصة بك بسهولة باستخدام Aspose.CAD لـ Java. إتقان إضافة الخطوط واستبدالها في ملفات DWG. أدلة خطوة بخطوة لتحقيق الكمال البصري.
-type: docs
 weight: 21
 url: /ar/java/cad-text-and-annotation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# نص CAD والتعليق التوضيحي
+
 
 ## مقدمة 
 
@@ -36,3 +42,9 @@ url: /ar/java/cad-text-and-annotation/
 قم بتحسين تصميمات CAD الخاصة بك دون عناء. تعلم كيفية استبدال الخطوط في ملفات DWG باستخدام Aspose.CAD لـ Java. دليل خطوة بخطوة لتحقيق الكمال البصري.
 ### [استبدل الخط بنمط معين في DWG باستخدام Aspose.CAD لـ Java](./substitute-font-of-particular-style-in-dwg/)
 تعرف على كيفية استبدال الخطوط في ملفات DWG باستخدام Aspose.CAD لـ Java. دليل خطوة بخطوة لتخصيص الأنماط بدقة.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

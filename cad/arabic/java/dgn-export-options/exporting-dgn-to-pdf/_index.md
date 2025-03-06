@@ -3,10 +3,16 @@ title: تصدير DGN بسهولة إلى AutoCAD PDF باستخدام Aspose.CA
 linktitle: تصدير DGN بتنسيق AutoCAD إلى PDF
 second_title: Aspose.CAD جافا API
 description: استكشف الدليل التفصيلي خطوة بخطوة حول تصدير ملفات DGN إلى تنسيق AutoCAD في PDF باستخدام Aspose.CAD لـ Java. قم برفع قدرات التعامل مع CAD الخاصة بتطبيق Java الخاص بك دون عناء.
-type: docs
 weight: 12
 url: /ar/java/dgn-export-options/exporting-dgn-to-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تصدير DGN بسهولة إلى AutoCAD PDF باستخدام Aspose.CAD لـ Java
+
 ## مقدمة
 
 مرحبًا بك في هذا البرنامج التعليمي الشامل حول استخدام Aspose.CAD لـ Java لتصدير ملفات DGN بتنسيق AutoCAD إلى PDF. إذا كنت تتطلع إلى تحسين قدرة تطبيق Java الخاص بك على التعامل مع ملفات CAD، فإن Aspose.CAD يعد خيارًا ممتازًا. سنرشدك في هذا البرنامج التعليمي خلال عملية تصدير ملفات DGN خطوة بخطوة.
@@ -100,3 +106,9 @@ objImage.save(outFile, options);
 ### س5: كيف يمكنني الحصول على ترخيص مؤقت؟
 
  ج5: الحصول على ترخيص مؤقت[هنا](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

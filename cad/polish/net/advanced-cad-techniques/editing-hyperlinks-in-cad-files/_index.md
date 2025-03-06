@@ -3,10 +3,16 @@ title: Edycja hiperłączy w plikach CAD - samouczek Aspose.CAD
 linktitle: Edycja hiperłączy w plikach CAD
 second_title: Aspose.CAD .NET - Format plików CAD i BIM
 description: Poznaj Aspose.CAD dla .NET i naucz się bez wysiłku edytować hiperłącza w plikach CAD. Zwiększ swoje umiejętności zarządzania plikami CAD dzięki temu obszernemu samouczkowi.
-type: docs
 weight: 14
 url: /pl/net/advanced-cad-techniques/editing-hyperlinks-in-cad-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Edycja hiperłączy w plikach CAD - samouczek Aspose.CAD
+
 ## Wstęp
 
 Witamy w naszym samouczku krok po kroku dotyczącym edycji hiperłączy w plikach CAD przy użyciu Aspose.CAD dla .NET. Aspose.CAD to potężna biblioteka, która umożliwia programistom płynną pracę z plikami CAD. W tym samouczku skupimy się na konkretnym zadaniu edycji hiperłączy w plikach CAD, pokazując, jak efektywnie modyfikować łącza i zarządzać nimi.
@@ -103,3 +109,9 @@ Odpowiedź 1: Tak, Aspose.CAD obsługuje różne formaty CAD, w tym DWG, DXF, DG
 ### P5: Potrzebujesz pomocy lub masz pytania?
 
  Odpowiedź 5: Odwiedź nasze forum wsparcia[Tutaj](https://forum.aspose.com/c/cad/19).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

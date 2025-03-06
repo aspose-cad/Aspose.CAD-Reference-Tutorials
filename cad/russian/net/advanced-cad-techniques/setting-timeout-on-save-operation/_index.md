@@ -3,10 +3,16 @@ title: Установка тайм-аута при операции сохран
 linktitle: Установка тайм-аута при операции сохранения
 second_title: Aspose.CAD .NET — формат файлов CAD и BIM
 description: Узнайте, как улучшить операции сохранения САПР с помощью настроек тайм-аута с помощью Aspose.CAD для .NET. Повысьте эффективность и контроль в своих приложениях .NET.
-type: docs
 weight: 12
 url: /ru/net/advanced-cad-techniques/setting-timeout-on-save-operation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Установка тайм-аута при операции сохранения - Учебное пособие по Aspose.CAD
+
 ## Введение
 
 В динамичной сфере автоматизированного проектирования (САПР) эффективность и гибкость ваших операций часто зависят от способности эффективно управлять операциями сохранения. В этом руководстве будет рассмотрен важнейший аспект этого процесса: установка тайм-аута операций сохранения с использованием Aspose.CAD для .NET. Aspose.CAD — это мощная библиотека, которая позволяет разработчикам беспрепятственно работать с форматами файлов САПР в своих .NET-приложениях.
@@ -114,3 +120,9 @@ Console.WriteLine("PutTimeoutOnSave executed successfully");
 ### Вопрос 5. Где я могу найти дополнительную помощь или поддержку сообщества?
 
 A5: Посетите[Форум Aspose.CAD](https://forum.aspose.com/c/cad/19) за поддержку сообщества и обсуждения.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

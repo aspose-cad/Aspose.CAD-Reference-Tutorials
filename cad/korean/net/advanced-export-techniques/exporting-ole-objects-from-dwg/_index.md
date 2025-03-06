@@ -3,10 +3,16 @@ title: DWG 파일에서 OLE 객체 내보내기 - Aspose.CAD Tutorial
 linktitle: DWG 파일에서 OLE 객체 내보내기
 second_title: Aspose.CAD .NET - CAD 및 BIM 파일 형식
 description: .NET용 Aspose.CAD를 사용하여 DWG 파일에서 OLE 개체를 내보내는 방법에 대한 단계별 가이드를 살펴보세요. CAD 파일 조작 기술을 쉽게 향상시키십시오.
-type: docs
 weight: 12
 url: /ko/net/advanced-export-techniques/exporting-ole-objects-from-dwg/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# DWG 파일에서 OLE 객체 내보내기 - Aspose.CAD Tutorial
+
 ## 소개
 
 DWG 파일에서 OLE 객체를 쉽게 추출하고 싶으십니까? .NET용 Aspose.CAD는 프로세스를 간소화하기 위해 여기에 있습니다. 이 자습서에서는 OLE 개체를 내보내는 과정을 단계별로 안내하여 이 강력한 .NET 라이브러리를 최대한 활용할 수 있도록 합니다. 
@@ -98,3 +104,9 @@ A2: 물론이죠! 튜토리얼에 표시된 대로 특정 요구 사항에 맞�
 ### Q5: 어떻게 지원을 받거나 커뮤니티에 연결할 수 있나요?
 
  A5: 지원 및 커뮤니티 참여를 원하시면 다음을 방문하세요.[Aspose.CAD 포럼](https://forum.aspose.com/c/cad/19).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

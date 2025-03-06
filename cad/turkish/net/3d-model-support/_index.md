@@ -3,10 +3,16 @@ title: 3D Model Desteği
 linktitle: 3D Model Desteği
 second_title: Aspose.CAD .NET - CAD ve BIM Dosya Formatı
 description: Aspose.CAD for .NET ile CAD uygulamalarınızı optimize edin! OBJ formatını sorunsuz bir şekilde destekleme sanatında ustalaşarak 3D modellerinizin tüm potansiyelini ortaya çıkarın.
-type: docs
 weight: 40
 url: /tr/net/3d-model-support/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 3D Model Desteği
+
 
 ## giriiş
 
@@ -32,3 +38,9 @@ CAD geliştirmede ön sıralarda yer alma fırsatını kaçırmayın. Şimdi ö�
 ## 3D Model Desteği Eğitimleri
 ### [Aspose.CAD'de OBJ Formatını Destekleme - Eğitim](./supporting-obj-format-in-aspose-cad/)
 Aspose.CAD for .NET'in potansiyelini ortaya çıkarın. Bu adım adım eğitimle CAD uygulamalarınızda OBJ formatını sorunsuz bir şekilde nasıl destekleyeceğinizi öğrenin.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

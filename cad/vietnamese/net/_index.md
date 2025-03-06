@@ -1,12 +1,17 @@
 ---
 title: Hướng dẫn toàn diện và ví dụ về Aspose.CAD cho .NET
 linktitle: Hướng dẫn Aspose.CAD cho .NET
-type: docs
 weight: 10
 url: /vi/net/
 description: Làm chủ Aspose.CAD cho .NET với các hướng dẫn toàn diện. Nâng cao kỹ năng CAD của bạn từ cấp phép đến kỹ thuật xuất khẩu nâng cao. Mở khóa các tính năng ẩn một cách dễ dàng.
-is_root: true
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Hướng dẫn toàn diện và ví dụ về Aspose.CAD cho .NET
+
 
 ## Giới thiệu
 
@@ -61,3 +66,9 @@ Tối ưu hóa các ứng dụng CAD của bạn với Aspose.CAD cho .NET! Nắ
 Dễ dàng chuyển đổi tệp PLT thành hình ảnh và PDF bằng Aspose.CAD cho .NET. Khám phá sự tích hợp liền mạch và các tùy chọn linh hoạt để thao tác với tệp CAD.
 ### [Xuất tệp STL](./stl-file-export/)
 Dễ dàng xuất tệp STL sang PNG bằng Aspose.CAD cho .NET. Hướng dẫn từng bước của chúng tôi đảm bảo tích hợp liền mạch. Tìm hiểu qua các hướng dẫn Aspose.CAD For .NET.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

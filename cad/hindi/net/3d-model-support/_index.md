@@ -3,10 +3,16 @@ title: 3डी मॉडल समर्थन
 linktitle: 3डी मॉडल समर्थन
 second_title: Aspose.CAD .NET - CAD और BIM फ़ाइल स्वरूप
 description: .NET के लिए Aspose.CAD के साथ अपने CAD अनुप्रयोगों को अनुकूलित करें! अपने 3डी मॉडल की पूरी क्षमता को अनलॉक करते हुए, ओबीजे प्रारूप का निर्बाध रूप से समर्थन करने की कला में महारत हासिल करें।
-type: docs
 weight: 40
 url: /hi/net/3d-model-support/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 3डी मॉडल समर्थन
+
 
 ## परिचय
 
@@ -32,3 +38,9 @@ Aspose.CAD एक शक्तिशाली उपकरण है, और इ
 ## 3डी मॉडल समर्थन ट्यूटोरियल
 ### [Aspose.CAD में OBJ प्रारूप का समर्थन - ट्यूटोरियल](./supporting-obj-format-in-aspose-cad/)
 .NET के लिए Aspose.CAD की क्षमता को अनलॉक करें। इस चरण-दर-चरण ट्यूटोरियल के साथ जानें कि अपने सीएडी अनुप्रयोगों में ओबीजे प्रारूप का निर्बाध रूप से समर्थन कैसे करें।
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

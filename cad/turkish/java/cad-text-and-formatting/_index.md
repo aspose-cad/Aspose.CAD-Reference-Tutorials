@@ -3,10 +3,16 @@ title: CAD Metni ve Biçimlendirme
 linktitle: CAD Metni ve Biçimlendirme
 second_title: Aspose.CAD Java API'si
 description: Eğitimlerle Aspose.CAD for Java'nın potansiyelini ortaya çıkarın. CAD uygulamanızı geliştirmek için metin aramayı, gizli çizgileri, MLeader varlıklarını ve MTEXt niteliklerini öğrenin.
-type: docs
 weight: 28
 url: /tr/java/cad-text-and-formatting/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# CAD Metni ve Biçimlendirme
+
 ## Giriş
 Aspose.CAD for Java'yı kullanarak CAD metni ve biçimlendirme eğitimlerini içeren kapsamlı kılavuzumuza hoş geldiniz. İster deneyimli bir geliştirici olun ister CAD uygulamalarına yeni başlıyor olun, bu eğitimler becerilerinizi bir sonraki seviyeye taşımanız için size güç verecektir.
 
@@ -37,3 +43,9 @@ Aspose.CAD'i kullanarak Java uygulamanızın DWG dosya işleme yeteneklerini nas
 DWG formatında MLeader varlıklarını desteklemeye yönelik adım adım eğitimimizle Aspose.CAD for Java'nın gücünün kilidini açın.
 ### [Aspose.CAD for Java Kullanarak DWG Dosyalarındaki MText'e Nitelikler Ekleme](./add-attributes-to-mtext/)
 Aspose.CAD for Java kullanarak DWG dosyalarındaki MText'e nasıl öznitelikler ekleyeceğinizi öğrenin. Bu adım adım kılavuzla CAD çizimlerinizi geliştirin.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

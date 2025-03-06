@@ -3,10 +3,16 @@ title: Travailler avec des entités proxy ACAD - Guide Aspose.CAD
 linktitle: Utilisation des entités proxy ACAD
 second_title: Aspose.CAD .NET - Format de fichier CAO et BIM
 description: Explorez Aspose.CAD pour .NET et rationalisez vos flux de travail CAO. Convertissez, modifiez et gérez les entités proxy ACAD sans effort.
-type: docs
 weight: 13
 url: /fr/net/layout-and-object-handling/working-with-acad-proxy-entities/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Travailler avec des entités proxy ACAD - Guide Aspose.CAD
+
 ## Introduction
 
 Dans le monde dynamique du développement .NET, la création et la gestion de dessins CAO constituent une tâche essentielle. Aspose.CAD for .NET offre une solution robuste pour travailler avec les entités proxy AutoCAD. Ce guide vous guidera à travers les étapes essentielles pour exploiter la puissance d'Aspose.CAD et rationaliser vos flux de travail liés à la CAO.
@@ -98,3 +104,9 @@ A1 : Oui, Aspose.CAD prend en charge divers formats de CAO, notamment DWG et DXF
 ### Q5 : Où puis-je acheter une licence complète pour Aspose.CAD pour .NET ?
 
  A5 : Vous pouvez acheter une licence auprès du[page d'achat](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

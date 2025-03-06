@@ -3,10 +3,16 @@ title: Aspose.CAD for Java Kullanarak DWG'ye Metin Ekleme
 linktitle: DWG'ye Metin Ekle
 second_title: Aspose.CAD Java API'si
 description: Aspose.CAD for Java ile DWG çizimlerinizi zahmetsizce geliştirin. Adım adım kılavuzumuzla sorunsuz bir şekilde metin ekleyin.
-type: docs
 weight: 10
 url: /tr/java/cad-text-and-annotation/add-text-in-dwg/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.CAD for Java Kullanarak DWG'ye Metin Ekleme
+
 ## giriiş
 
 Bilgisayar destekli tasarım (CAD) alanında Aspose.CAD for Java, DWG çizimlerini değiştirmek ve dönüştürmek için güçlü bir araç olarak öne çıkıyor. Kullanışlı özelliklerinden biri, DWG dosyalarına sorunsuz bir şekilde metin ekleyebilme yeteneğidir. Bu eğitimde, Aspose.CAD for Java'yı kullanarak DWG çizimlerinize metin ekleme sürecinde size rehberlik edeceğiz.
@@ -122,3 +128,9 @@ Cevap2: Evet, Aspose.CAD'i kullanarak DWG dosyalarına eklenen metnin yazı tipi
 ### S5: Aspose.CAD ile nasıl destek alabilirim veya yardım alabilirim?
 
 A5: ziyaret edin[Aspose.CAD forumu](https://forum.aspose.com/c/cad/19) yardım almak ve toplulukla bağlantı kurmak için.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

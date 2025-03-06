@@ -3,10 +3,16 @@ title: Agregar propiedades personalizadas a archivos DWG - Guía Aspose.CAD
 linktitle: Agregar propiedades personalizadas a archivos DWG
 second_title: Aspose.CAD .NET - Formato de archivo CAD y BIM
 description: Mejore sus archivos DWG con propiedades personalizadas utilizando Aspose.CAD para .NET. Siga nuestra guía paso a paso para agregar metadatos significativos sin esfuerzo.
-type: docs
 weight: 11
 url: /es/net/attribute-and-property-management/adding-custom-properties-to-dwg/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Agregar propiedades personalizadas a archivos DWG - Guía Aspose.CAD
+
 ## Introducción
 
 Bienvenido a esta guía completa sobre cómo agregar propiedades personalizadas a archivos DWG usando Aspose.CAD para .NET. Aspose.CAD es una potente biblioteca que permite a los desarrolladores trabajar con archivos CAD sin problemas. En este tutorial, nos centraremos en mejorar su comprensión de las propiedades personalizadas y cómo agregarlas a archivos DWG usando Aspose.CAD.
@@ -92,3 +98,9 @@ R4: Si bien no existen restricciones estrictas, es una buena práctica utilizar 
 ### P5: ¿Aspose.CAD brinda soporte si tengo algún problema?
 
  R5: Sí, puede buscar ayuda en el[Foro Aspose.CAD](https://forum.aspose.com/c/cad/19) para cualquier consulta o problema técnico.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

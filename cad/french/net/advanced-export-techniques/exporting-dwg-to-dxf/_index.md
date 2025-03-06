@@ -3,10 +3,16 @@ title: Exporter un DWG au format DXF en C# - Tutoriel Aspose.CAD
 linktitle: Exportation de DWG au format DXF en C#
 second_title: Aspose.CAD .NET - Format de fichier CAO et BIM
 description: Débloquez la manipulation de fichiers CAO en C# avec Aspose.CAD. Apprenez à exporter DWG vers DXF sans effort. Suivez notre guide étape par étape pour une intégration transparente.
-type: docs
 weight: 10
 url: /fr/net/advanced-export-techniques/exporting-dwg-to-dxf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Exporter un DWG au format DXF en C# - Tutoriel Aspose.CAD
+
 ## Introduction
 
 Si vous êtes un développeur .NET à la recherche d'une solution puissante pour manipuler des fichiers CAO, Aspose.CAD est votre outil incontournable. Dans ce didacticiel étape par étape, nous vous guiderons tout au long du processus d'exportation d'un fichier DWG au format DXF à l'aide de C# avec Aspose.CAD.
@@ -80,3 +86,9 @@ A1 : Oui, Aspose.CAD est régulièrement mis à jour pour garantir la compatibil
 ### Q5 : Besoin d'aide ou avez des questions spécifiques ?
 
  A5 : Visitez le forum de la communauté Aspose.CAD[ici](https://forum.aspose.com/c/cad/19)pour l’assistance d’experts et le soutien de la communauté.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

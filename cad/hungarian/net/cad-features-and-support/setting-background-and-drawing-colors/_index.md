@@ -3,10 +3,16 @@ title: Háttér- és rajzszínek beállítása az Aspose.CAD for .NET-ben
 linktitle: Háttér és rajzszínek beállítása
 second_title: Aspose.CAD .NET - CAD és BIM fájlformátum
 description: Master Aspose.CAD .NET-hez. Könnyedén állítsa be a hátteret és a rajzszíneket. Kövesse lépésenkénti útmutatónkat.
-type: docs
 weight: 15
 url: /hu/net/cad-features-and-support/setting-background-and-drawing-colors/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Háttér- és rajzszínek beállítása az Aspose.CAD for .NET-ben
+
 ## Bevezetés
 
 .NET fejlesztés dinamikus világában az Aspose.CAD hatékony eszközként jelenik meg a számítógéppel segített tervezési (CAD) fájlok kezelésében. Ha szeretné fejleszteni a CAD-rajzok kezelésében szerzett készségeit, ez az oktatóanyag az Ön átjárója. Elmélyülünk a háttér- és rajzszínek beállításának bonyolultságában az Aspose.CAD for .NET használatával, és lépésről lépésre nyújtunk Önnek egy útmutatót, amely biztosítja az egyértelműséget és a hatékonyságot.
@@ -108,3 +114,10 @@ Gratulálunk! Sikeresen megtanulta a háttér- és rajzszínek beállítását a
 ### 5. kérdés: Segítségre van szüksége, vagy szeretne kapcsolatba lépni a közösséggel?
 
  5. válasz: Látogassa meg a támogatási fórumot[itt](https://forum.aspose.com/c/cad/19).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Aspose.CAD for Java ile PDF'ye aktarın
 linktitle: PDF'ye aktar
 second_title: Aspose.CAD Java API'si
 description: Aspose.CAD for Java ile CAD dosyalarını zahmetsizce PDF'ye nasıl aktaracağınızı öğrenin. Sorunsuz entegrasyon için adım adım kılavuzumuzu izleyin.
-type: docs
 weight: 13
 url: /tr/java/cad-export-options/export-to-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.CAD for Java ile PDF'ye aktarın
+
 ## giriiş
 
 Aspose.CAD for Java kullanarak CAD dosyalarını PDF'ye aktarmaya ilişkin bu kapsamlı eğitime hoş geldiniz. CAD çizimlerinizi sorunsuz bir şekilde yaygın olarak desteklenen PDF formatına dönüştürmek istiyorsanız doğru yerdesiniz. Bu adım adım kılavuzda, başarılı bir PDF dışa aktarımı elde etmek için her adımı anlamanızı sağlayacak şekilde süreci ayrıntılı olarak anlatacağız.
@@ -95,3 +101,9 @@ A2: Kesinlikle. Öğretici, özelleştirme seçeneklerine kısa bir bakış sağ
 ### S5: Aspose.CAD için nasıl geçici lisans alabilirim?
 
  Cevap5: Geçici lisanslama için şu adresi ziyaret edin:[bu bağlantı](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

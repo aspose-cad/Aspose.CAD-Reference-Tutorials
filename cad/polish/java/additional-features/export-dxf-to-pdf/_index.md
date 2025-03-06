@@ -3,10 +3,16 @@ title: Eksportuj rysunek DXF do formatu PDF za pomocą Aspose.CAD dla Java
 linktitle: Eksportuj rysunek DXF do formatu PDF za pomocą Java
 second_title: Aspose.CAD API Java
 description: Poznaj płynną konwersję rysunków DXF do formatu PDF w Javie za pomocą Aspose.CAD. Ulepsz swój przepływ pracy CAD bez wysiłku.
-type: docs
 weight: 13
 url: /pl/java/additional-features/export-dxf-to-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Eksportuj rysunek DXF do formatu PDF za pomocą Aspose.CAD dla Java
+
 ## Wstęp
 
 W świecie programowania Java Aspose.CAD jest potężnym narzędziem, które umożliwia płynną manipulację i konwersję rysunków CAD. W tym samouczku zagłębimy się w proces eksportowania rysunków DXF do formatu PDF przy użyciu Aspose.CAD dla Java. Ten przewodnik krok po kroku przeprowadzi Cię przez całą procedurę, zapewniając dokładne zrozumienie każdej koncepcji.
@@ -102,3 +108,9 @@ Gratulacje! Pomyślnie nauczyłeś się eksportować rysunki DXF do formatu PDF 
 ### P5: Jak mogę uzyskać licencję tymczasową?
 
  A5: Zdobądź[licencja tymczasowa](https://purchase.aspose.com/temporary-license/) do celów testowania i oceny.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

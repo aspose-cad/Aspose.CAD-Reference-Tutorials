@@ -3,10 +3,16 @@ title: 布局和对象处理
 linktitle: 布局和对象处理
 second_title: Aspose.CAD .NET - CAD 和 BIM 文件格式
 description: 使用 Aspose.CAD for .NET 轻松掌握 DXF 布局导出、文件保存、块裁剪和 ACAD 代理实体以增强 CAD 设计。
-type: docs
 weight: 33
 url: /zh/net/layout-and-object-handling/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 布局和对象处理
+
 
 ## 介绍
 
@@ -38,3 +44,9 @@ url: /zh/net/layout-and-object-handling/
 了解如何使用 Aspose.CAD for .NET 在 CAD 中实现块裁剪。通过此分步教程增强您的设计能力。
 ### [使用 ACAD 代理实体 - Aspose.CAD 指南](./working-with-acad-proxy-entities/)
 探索 Aspose.CAD for .NET 并简化您的 CAD 工作流程。轻松转换、编辑和管理 ACAD 代理实体。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

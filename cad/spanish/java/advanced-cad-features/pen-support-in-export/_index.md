@@ -3,10 +3,16 @@ title: Soporte de lápiz en exportación
 linktitle: Soporte de lápiz en exportación
 second_title: API de Java Aspose.CAD
 description: Personalización maestra del lápiz en exportación CAD con Aspose.CAD para Java. Siga nuestra guía paso a paso para una integración perfecta.
-type: docs
 weight: 13
 url: /es/java/advanced-cad-features/pen-support-in-export/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Soporte de lápiz en exportación
+
 ## Introducción
 
 En el panorama en constante evolución de las conversiones CAD (diseño asistido por computadora), Aspose.CAD para Java emerge como una herramienta poderosa que ofrece amplias capacidades para manipular archivos CAD. Entre sus funciones versátiles destaca la compatibilidad con la personalización del lápiz durante la exportación, lo que permite a los usuarios personalizar la apariencia de las imágenes exportadas. Este tutorial lo guiará a través del proceso de aprovechar la compatibilidad con lápiz en la funcionalidad de exportación, enfocándose en la implementación práctica usando Java.
@@ -112,3 +118,9 @@ A4: Ajuste el ancho y alto de la página en las opciones de rasterización para 
 ### P5: ¿Dónde puedo encontrar apoyo adicional o debates comunitarios?
 
  R5: Explore el foro de la comunidad Aspose.CAD en[aquí](https://forum.aspose.com/c/cad/19) para apoyo y discusiones.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

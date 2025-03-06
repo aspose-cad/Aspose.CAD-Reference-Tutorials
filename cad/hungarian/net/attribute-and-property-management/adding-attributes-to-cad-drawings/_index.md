@@ -3,10 +3,16 @@ title: Attribútumok hozzáadása CAD-rajzokhoz – Aspose.CAD oktatóanyag
 linktitle: Attribútumok hozzáadása CAD-rajzokhoz
 second_title: Aspose.CAD .NET - CAD és BIM fájlformátum
 description: Javítsa ki CAD-rajzait attribútumokkal az Aspose.CAD for .NET segítségével. Kövesse lépésenkénti útmutatónkat a zökkenőmentes integráció érdekében.
-type: docs
 weight: 10
 url: /hu/net/attribute-and-property-management/adding-attributes-to-cad-drawings/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Attribútumok hozzáadása CAD-rajzokhoz – Aspose.CAD oktatóanyag
+
 ## Bevezetés
 
 A számítógéppel segített tervezés (CAD) területén a rajzok attribútumokkal való gazdagítása a részletes dokumentáció és a hatékony kommunikáció kulcsfontosságú lépése. Az Aspose.CAD for .NET robusztus megoldást kínál az attribútumok zökkenőmentes integrálására a CAD-rajzokba. Ez az oktatóanyag végigvezeti Önt az Aspose.CAD segítségével CAD-rajzokhoz attribútumok hozzáadásának folyamatán, lehetővé téve a tervekbe ágyazott információk bővítését.
@@ -119,3 +125,9 @@ Gratulálunk! Sikeresen hozzáadott attribútumokat a CAD-rajzokhoz az Aspose.CA
 ### 5. kérdés: Hogyan szerezhetek ideiglenes licencet az Aspose.CAD számára?
 
  5. válasz: Ideiglenes licencelési lehetőségekért látogasson el a webhelyre[itt](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

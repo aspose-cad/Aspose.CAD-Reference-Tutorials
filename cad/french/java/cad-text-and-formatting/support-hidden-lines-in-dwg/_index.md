@@ -3,10 +3,16 @@ title: Prise en charge des lignes cachées dans les fichiers DWG à l'aide d'Asp
 linktitle: Prise en charge des lignes cachées dans les fichiers DWG à l'aide de Java
 second_title: API Java Aspose.CAD
 description: Découvrez comment améliorer les capacités de manipulation de fichiers DWG de votre application Java à l'aide d'Aspose.CAD. Suivez notre guide étape par étape pour la prise en charge des lignes cachées. Améliorez facilement la gestion de vos dessins CAO.
-type: docs
 weight: 11
 url: /fr/java/cad-text-and-formatting/support-hidden-lines-in-dwg/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Prise en charge des lignes cachées dans les fichiers DWG à l'aide d'Aspose.CAD pour Java
+
 ## Introduction
 
 Bienvenue dans un guide complet sur l'utilisation d'Aspose.CAD pour Java pour améliorer vos capacités de manipulation de fichiers DWG. Dans ce didacticiel, nous nous concentrerons sur un aspect spécifique : la prise en charge des lignes cachées dans les fichiers DWG. Que vous soyez un développeur chevronné ou débutant, ce guide vous aidera à naviguer dans le processus avec des instructions étape par étape.
@@ -117,3 +123,10 @@ A1 : Oui, Aspose.CAD prend en charge divers formats de CAO tels que DWG, DXF, DW
 ### Q5 : Puis-je acheter une licence temporaire pour Aspose.CAD pour Java ?
 
  A5 : Oui, vous pouvez obtenir une licence temporaire[ici](https://purchase.aspose.com/temporary-license/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

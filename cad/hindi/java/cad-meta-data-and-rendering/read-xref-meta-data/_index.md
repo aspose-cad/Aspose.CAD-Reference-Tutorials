@@ -3,10 +3,16 @@ title: जावा के लिए Aspose.CAD का उपयोग करक
 linktitle: जावा का उपयोग करके DWG फ़ाइलों से XREF मेटा डेटा पढ़ें
 second_title: Aspose.CAD जावा एपीआई
 description: जावा के लिए Aspose.CAD का अन्वेषण करें और DWG फ़ाइलों से XREF मेटा डेटा को आसानी से पढ़ने में महारत हासिल करें। इस शक्तिशाली जावा लाइब्रेरी के साथ अपने सीएडी विकास को बढ़ावा दें।
-type: docs
 weight: 10
 url: /hi/java/cad-meta-data-and-rendering/read-xref-meta-data/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# जावा के लिए Aspose.CAD का उपयोग करके DWG फ़ाइलों से XREF मेटा डेटा पढ़ें
+
 ## परिचय
 
 यदि आप जावा का उपयोग करके कंप्यूटर-एडेड डिज़ाइन (सीएडी) की दुनिया में गहराई से उतर रहे हैं, तो यह समझना कि डीडब्ल्यूजी फ़ाइलों से बाहरी संदर्भ (एक्सआरईएफ) मेटा डेटा कैसे निकाला जाए, एक मूल्यवान कौशल है। जावा के लिए Aspose.CAD डेवलपर्स को CAD फ़ाइल हेरफेर के लिए मजबूत टूल के साथ सशक्त बनाता है, और इस ट्यूटोरियल में, हम DWG फ़ाइलों से XREF मेटा डेटा पढ़ने पर ध्यान केंद्रित करेंगे।
@@ -90,3 +96,9 @@ A1: बिल्कुल! जावा के लिए Aspose.CAD मजबू
 ### Q5: मैं जावा के लिए Aspose.CAD का लाइसेंस कैसे खरीद सकता हूं?
 
 A5: पर जाएँ[खरीद पृष्ठ](https://purchase.aspose.com/buy) अपनी आवश्यकताओं के अनुरूप लाइसेंसिंग विकल्पों का पता लगाने के लिए।
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

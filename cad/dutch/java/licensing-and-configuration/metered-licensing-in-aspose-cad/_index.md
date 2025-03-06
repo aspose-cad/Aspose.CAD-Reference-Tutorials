@@ -3,10 +3,16 @@ title: Gemeten licenties in Aspose.CAD
 linktitle: Gemeten licenties in Aspose.CAD
 second_title: Aspose.CAD Java-API
 description: Leer hoe u met behulp van deze uitgebreide handleiding beheerde licentieverlening in Aspose.CAD voor Java onder de knie krijgt. Optimaliseer uw CAD-verwerking voor efficiëntie en kosteneffectiviteit.
-type: docs
 weight: 10
 url: /nl/java/licensing-and-configuration/metered-licensing-in-aspose-cad/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Gemeten licenties in Aspose.CAD
+
 ## Invoering
 
 Ontgrendel het volledige potentieel van Aspose.CAD voor Java met gemeten licenties! Deze stapsgewijze handleiding leidt u door het proces van het instellen van licentielicenties, waardoor een naadloze integratie en optimaal gebruik van deze krachtige Java-bibliotheek voor Computer-Aided Design (CAD) wordt gegarandeerd. Van vereisten tot het importeren van pakketten en het uitvoeren van voorbeelden, deze tutorial behandelt het allemaal.
@@ -94,3 +100,9 @@ Gefeliciteerd! U beheerst met succes gemeten licenties met Aspose.CAD voor Java.
 ### Vraag 5: Heeft u community-ondersteuning nodig of heeft u specifieke vragen?
 
  A5: Ga naar het Aspose.CAD-forum[hier](https://forum.aspose.com/c/cad/19).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

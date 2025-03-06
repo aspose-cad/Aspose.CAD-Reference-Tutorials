@@ -3,10 +3,16 @@ title: Ορίστε το μέγεθος και τη λειτουργία καμ�
 linktitle: Ορίστε το μέγεθος και τη λειτουργία καμβά
 second_title: Aspose.CAD Java API
 description: Εξερευνήστε τη δύναμη του Aspose.CAD για Java με τον αναλυτικό οδηγό μας για τη ρύθμιση του μεγέθους και της λειτουργίας καμβά. Μετατρέψτε εύκολα αρχεία CAD σε μορφές PDF και TIFF.
-type: docs
 weight: 16
 url: /el/java/advanced-cad-features/set-canvas-size-and-mode/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ορίστε το μέγεθος και τη λειτουργία καμβά
+
 ## Εισαγωγή
 
 Θέλετε να αξιοποιήσετε τη δύναμη του Aspose.CAD για Java για να βελτιώσετε τη διαδικασία μετατροπής CAD; Αυτός ο περιεκτικός οδηγός θα σας καθοδηγήσει στα βήματα ρύθμισης του μεγέθους και της λειτουργίας καμβά χρησιμοποιώντας το Aspose.CAD για Java. Είτε είστε έμπειρος προγραμματιστής είτε μόλις ξεκινάτε, αυτός ο οδηγός θα σας παρέχει τις πληροφορίες που χρειάζεστε.
@@ -126,3 +132,9 @@ A1: Ναι, το Aspose.CAD έχει σχεδιαστεί για να ενσωμ
 ### Ε5: Πώς μπορώ να αγοράσω Aspose.CAD για Java;
 
  A5: Αγοράστε το προϊόν[εδώ](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

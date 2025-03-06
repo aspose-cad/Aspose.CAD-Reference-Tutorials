@@ -3,10 +3,16 @@ title: エクスポートテクニック
 linktitle: エクスポートテクニック
 second_title: Aspose.CAD .NET - CAD および BIM ファイル形式
 description: シームレスな CAD 開発のための Aspose.CAD チュートリアルをご覧ください。 DXF ファイルをさまざまな形式に簡単にエクスポートする効率的なテクニックを学びます。
-type: docs
 weight: 32
 url: /ja/net/export-techniques/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# エクスポートテクニック
+
 
 
 ## 導入
@@ -49,3 +55,9 @@ Aspose.CAD for .NET を使用して DXF 固有のレイアウトを PDF にエ�
 Aspose.CAD for .NET の機能を試してください。このステップバイステップのチュートリアルで、埋め込まれた DGN ファイルを PDF に簡単にエクスポートする方法を学びましょう。
 ### [画像を DXF 形式にエクスポートする - Aspose.CAD ガイド](./exporting-images-to-dxf-format/)
 Aspose.CAD for .NET のパワーを試してください!画像を DXF 形式に簡単にエクスポートする方法を学びましょう。 CAD 開発を正確かつ効率的に強化します。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

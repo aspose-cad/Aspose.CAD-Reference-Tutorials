@@ -3,10 +3,16 @@ title: 整合 IGES 格式
 linktitle: 整合 IGES 格式
 second_title: Aspose.CAD Java API
 description: 探索 IGES 格式與 Aspose.CAD for Java 的無縫整合。遵循我們的逐步指南，利用 Aspose.CAD 的強大功能來提升您的 CAD 開發體驗。
-type: docs
 weight: 11
 url: /zh-hant/java/advanced-cad-features/integrate-iges-format/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 整合 IGES 格式
+
 ## 介紹
 
 在 CAD（電腦輔助設計）的動態世界中，整合各種文件格式的需求至關重要。本指南深入探討使用 Aspose.CAD for Java 無縫整合 IGES（初始圖形交換規格）格式。 Aspose.CAD 使開發人員能夠輕鬆操作和轉換 CAD 文件，為應用程式開發開闢了一個充滿可能性的世界。
@@ -88,3 +94,9 @@ A2：當然！如教程中所示，您可以自訂向量光柵化選項以滿足
 ### Q5：如何購買Aspose.CAD許可證？
 
  A5：您可以購買Aspose.CAD許可證[這裡](https://purchase.aspose.com/buy)釋放圖書館的全部潛能。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

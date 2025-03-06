@@ -3,10 +3,16 @@ title: 设置画布大小和模式
 linktitle: 设置画布大小和模式
 second_title: Aspose.CAD Java API
 description: 通过我们有关设置画布大小和模式的分步指南，探索 Aspose.CAD for Java 的强大功能。轻松将 CAD 文件转换为 PDF 和 TIFF 格式。
-type: docs
 weight: 16
 url: /zh/java/advanced-cad-features/set-canvas-size-and-mode/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 设置画布大小和模式
+
 ## 介绍
 
 您是否希望利用 Aspose.CAD for Java 的强大功能来增强您的 CAD 转换过程？本综合指南将引导您完成使用 Aspose.CAD for Java 设置画布大小和模式的步骤。无论您是经验丰富的开发人员还是刚刚入门，本教程都将为您提供所需的见解。
@@ -126,3 +132,9 @@ A1：是的，Aspose.CAD 旨在与各种 Java 框架无缝集成。
 ### Q5: 如何购买 Aspose.CAD for Java？
 
 A5：购买产品[这里](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

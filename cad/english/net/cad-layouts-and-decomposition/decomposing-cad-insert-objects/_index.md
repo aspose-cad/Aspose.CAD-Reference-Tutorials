@@ -3,10 +3,16 @@ title: Decomposing CAD Insert Objects - Aspose.CAD Guide
 linktitle: Decomposing CAD Insert Objects
 second_title: Aspose.CAD .NET - CAD and BIM File Format
 description: Explore the power of Aspose.CAD for .NET with our step-by-step guide on decomposing CAD insert objects.
-type: docs
 weight: 11
 url: /net/cad-layouts-and-decomposition/decomposing-cad-insert-objects/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Decomposing CAD Insert Objects - Aspose.CAD Guide
+
 ## Introduction
 
 In the dynamic world of computer-aided design (CAD), effective manipulation and analysis of CAD files are crucial for professionals across various industries. Aspose.CAD for .NET emerges as a powerful solution, providing developers with the tools needed to efficiently work with CAD files in the .NET environment.
@@ -100,3 +106,10 @@ To acquire a license tailored to your needs, visit the purchase page [here](http
 ### Q5: How do I obtain a temporary license for Aspose.CAD for .NET?
 
 If you need a temporary license, you can find the necessary information [here](https://purchase.aspose.com/temporary-license/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

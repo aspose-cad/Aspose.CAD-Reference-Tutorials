@@ -3,10 +3,16 @@ title: Rendu des couleurs dans les fichiers CAO - Guide Aspose.CAD
 linktitle: Rendu des couleurs dans les fichiers CAO
 second_title: Aspose.CAD .NET - Format de fichier CAO et BIM
 description: Maîtrisez le rendu des fichiers CAO dans .NET avec Aspose.CAD. Suivez notre guide étape par étape pour des couleurs vives.
-type: docs
 weight: 10
 url: /fr/net/conversion-and-export/rendering-colors-in-cad-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Rendu des couleurs dans les fichiers CAO - Guide Aspose.CAD
+
 ## Introduction
 
 Êtes-vous aux prises avec le défi du rendu des couleurs dans des fichiers CAO à l'aide de .NET ? Cherchez pas plus loin! Dans ce guide complet, nous vous guiderons pas à pas tout au long du processus à l'aide de la puissante bibliothèque Aspose.CAD. À la fin de ce didacticiel, vous disposerez des connaissances nécessaires pour restituer sans effort les couleurs dans vos fichiers CAO.
@@ -108,3 +114,9 @@ Toutes nos félicitations! Vous avez réussi à restituer les couleurs dans des 
 ### Q5 : Où puis-je acheter la bibliothèque Aspose.CAD ?
 
  A5 : Acheter Aspose.CAD[ici](https://purchase.aspose.com/buy) pour libérer tout son potentiel.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

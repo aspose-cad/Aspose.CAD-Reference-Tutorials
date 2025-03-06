@@ -3,10 +3,16 @@ title: Konwersja DWG do formatu PDF ze współrzędnymi w języku C# - samouczek
 linktitle: Konwersja DWG na PDF ze współrzędnymi w C#
 second_title: Aspose.CAD .NET - Format plików CAD i BIM
 description: Dowiedz się, jak przekonwertować plik DWG na format PDF z określonymi współrzędnymi w języku C# przy użyciu Aspose.CAD. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby uzyskać precyzyjną i wydajną konwersję plików CAD.
-type: docs
 weight: 11
 url: /pl/net/conversion-and-export/converting-dwg-to-pdf-with-coordinates/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Konwersja DWG do formatu PDF ze współrzędnymi w języku C# - samouczek Aspose.CAD
+
 ## Wstęp
 
 Witamy w tym kompleksowym samouczku dotyczącym konwersji plików DWG do formatu PDF z określonymi współrzędnymi przy użyciu Aspose.CAD dla .NET. Aspose.CAD to potężna biblioteka, która umożliwia programistom płynną pracę z formatami plików CAD w aplikacjach .NET. W tym samouczku przeprowadzimy Cię przez proces konwersji pliku DWG do formatu PDF, podając jednocześnie określone współrzędne w celu zwiększenia precyzji.
@@ -134,3 +140,9 @@ A4: Oczywiście! Zapoznaj się z rozbudowanymi opcjami Aspose.CAD, aby dostosowa
 ### P5: Gdzie mogę znaleźć dodatkowe wsparcie lub dyskusje społeczności?
 
 A5: Odwiedź[Forum Aspose.CAD](https://forum.aspose.com/c/cad/19) za wsparcie społeczności i dyskusje.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

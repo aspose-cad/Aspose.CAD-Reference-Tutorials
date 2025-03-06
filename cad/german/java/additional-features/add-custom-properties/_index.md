@@ -3,10 +3,16 @@ title: Fügen Sie benutzerdefinierte Eigenschaften zu DWG-Dateien mit Aspose.CAD
 linktitle: Fügen Sie benutzerdefinierte Eigenschaften zu DWG-Dateien mit Java hinzu
 second_title: Aspose.CAD Java API
 description: Erfahren Sie, wie Sie mit Aspose.CAD benutzerdefinierte Eigenschaften zu DWG-Dateien in Java hinzufügen. Verbessern Sie mühelos die Organisation und den Informationsabruf in CAD-Zeichnungen.
-type: docs
 weight: 10
 url: /de/java/additional-features/add-custom-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Fügen Sie benutzerdefinierte Eigenschaften zu DWG-Dateien mit Aspose.CAD in Java hinzu
+
 In der Welt der Java-Programmierung ist die Bearbeitung von DWG-Dateien mit benutzerdefinierten Eigenschaften eine häufige Aufgabe. Aspose.CAD für Java bietet leistungsstarke Tools zur nahtlosen Integration dieser Funktionalität in Ihre Projekte. In dieser Schritt-für-Schritt-Anleitung führen wir Sie durch den Prozess des Hinzufügens benutzerdefinierter Eigenschaften zu DWG-Dateien mit Aspose.CAD für Java.
 
 ## Einführung
@@ -105,3 +111,9 @@ A2: Aspose.CAD für Java ist mit gängigen Java-IDEs wie Eclipse, IntelliJ IDEA 
 ### F5: Wie kann ich Unterstützung erhalten oder Fragen stellen?
 
 A5: Besuchen Sie die[Aspose.CAD-Forum](https://forum.aspose.com/c/cad/19) um Unterstützung zu erhalten, Fragen zu stellen und mit der Aspose.CAD-Community in Kontakt zu treten.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

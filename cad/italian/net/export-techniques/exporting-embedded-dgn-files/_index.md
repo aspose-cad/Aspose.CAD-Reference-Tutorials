@@ -3,10 +3,16 @@ title: Esportazione di file DGN incorporati - Tutorial Aspose.CAD
 linktitle: Esportazione di file DGN incorporati
 second_title: Aspose.CAD .NET - Formato file CAD e BIM
 description: Esplora la potenza di Aspose.CAD per .NET. Impara a esportare facilmente file DGN incorporati in PDF con questo tutorial passo passo.
-type: docs
 weight: 14
 url: /it/net/export-techniques/exporting-embedded-dgn-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Esportazione di file DGN incorporati - Tutorial Aspose.CAD
+
 ## introduzione
 
 Nel dinamico mondo dello sviluppo software, Aspose.CAD per .NET si distingue come un potente strumento per la gestione di file CAD (Computer-Aided Design). Questo tutorial ti guiderà attraverso il processo di esportazione di file DGN incorporati utilizzando Aspose.CAD per .NET. Che tu sia uno sviluppatore esperto o un principiante curioso, questa guida passo passo ti aiuterà a sfruttare le funzionalità di Aspose.CAD in modo efficace.
@@ -98,3 +104,9 @@ A1: Aspose.CAD supporta principalmente .NET, ma Aspose fornisce librerie per var
 ### Q5: Hai bisogno di assistenza o vuoi interagire con la comunità?
 
 A5: Visita il[Forum Aspose.CAD](https://forum.aspose.com/c/cad/19) per supporto e discussioni.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

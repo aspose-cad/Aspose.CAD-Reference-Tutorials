@@ -3,10 +3,16 @@ title: Eksportowanie osadzonych plików DGN - samouczek Aspose.CAD
 linktitle: Eksportowanie osadzonych plików DGN
 second_title: Aspose.CAD .NET - Format plików CAD i BIM
 description: Poznaj moc Aspose.CAD dla .NET. Dzięki temu samouczkowi krok po kroku nauczysz się bez wysiłku eksportować osadzone pliki DGN do formatu PDF.
-type: docs
 weight: 14
 url: /pl/net/export-techniques/exporting-embedded-dgn-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Eksportowanie osadzonych plików DGN - samouczek Aspose.CAD
+
 ## Wstęp
 
 dynamicznym świecie tworzenia oprogramowania Aspose.CAD dla .NET wyróżnia się jako potężne narzędzie do obsługi plików CAD. Ten samouczek poprowadzi Cię przez proces eksportowania osadzonych plików DGN przy użyciu Aspose.CAD dla .NET. Niezależnie od tego, czy jesteś doświadczonym programistą, czy ciekawskim początkującym, ten przewodnik krok po kroku pomoże Ci skutecznie wykorzystać możliwości Aspose.CAD.
@@ -98,3 +104,9 @@ Odpowiedź 1: Aspose.CAD obsługuje przede wszystkim .NET, ale Aspose udostępni
 ### P5: Potrzebujesz pomocy lub chcesz nawiązać kontakt ze społecznością?
 
 A5: Odwiedź[Forum Aspose.CAD](https://forum.aspose.com/c/cad/19) za wsparcie i dyskusje.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

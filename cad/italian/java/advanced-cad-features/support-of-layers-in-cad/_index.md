@@ -3,10 +3,16 @@ title: Supporto di livelli con Aspose.CAD in Java
 linktitle: Supporto di livelli in CAD
 second_title: API Java Aspose.CAD
 description: Supporto del livello master nello sviluppo CAD Java con Aspose.CAD. Organizza ed esporta i disegni senza sforzo.
-type: docs
 weight: 18
 url: /it/java/advanced-cad-features/support-of-layers-in-cad/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Supporto di livelli con Aspose.CAD in Java
+
 ## introduzione
 
 Sblocca tutto il potenziale di Aspose.CAD in Java padroneggiando il supporto dei livelli. I livelli svolgono un ruolo cruciale nei disegni CAD, consentendo un'organizzazione e una manipolazione efficienti degli elementi grafici. In questo tutorial completo, approfondiremo le complessità del supporto dei livelli utilizzando Aspose.CAD, fornendoti una guida passo passo per sfruttare questa potente funzionalità.
@@ -118,3 +124,9 @@ A2: Sì, Aspose.CAD supporta un'ampia gamma di formati CAD, garantendo versatili
 ### Q5: Dove posso chiedere assistenza o condividere le mie esperienze con Aspose.CAD?
 
 A5: Unisciti alla comunità Aspose.CAD su[Forum](https://forum.aspose.com/c/cad/19) per supporto e discussioni collaborative.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: CAD rajz manipuláció
 linktitle: CAD rajz manipuláció
 second_title: Aspose.CAD .NET - CAD és BIM fájlformátum
 description: Könnyedén javíthatja CAD-projektjeit az Aspose.CAD for .NET oktatóanyagaival. CAD-rajzok zökkenőmentes átméretezése, konvertálása és optimalizálása lépésenkénti útmutatóink segítségével.
-type: docs
 weight: 21
 url: /hu/net/cad-drawing-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# CAD rajz manipuláció
+
 
 ## Bevezetés
 
@@ -44,3 +50,9 @@ Könnyedén konvertálja a CAD-elrendezéseket raszterképekké az Aspose.CAD fo
 Fedezze fel az Aspose.CAD for .NET erejét. Engedélyezze a nyomon követést a CAD-megjelenítéshez zökkenőmentesen. Kövesse lépésenkénti útmutatónkat a jobb vezérlés és hatékonyság érdekében.
 ### [Szerezze be a CAD-elrendezés méretét az Aspose.CAD-ben .NET-hez](./get-size-of-cad-layout/)
 Ismerje meg, hogyan kérheti le a CAD-elrendezés méretét .NET-ben az Aspose.CAD használatával. Kövesse lépésről lépésre útmutatónkat a hatékony CAD-fájlok kezeléséhez.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

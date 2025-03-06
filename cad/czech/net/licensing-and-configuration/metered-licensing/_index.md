@@ -3,10 +3,16 @@ title: Měřené licencování v Aspose.CAD pro .NET
 linktitle: Měřená licence
 second_title: Aspose.CAD .NET – formát souborů CAD a BIM
 description: Odemkněte potenciál Aspose.CAD s odměřeným licencováním v .NET. Plynule optimalizujte využití zdrojů. Prozkoumejte našeho podrobného průvodce.
-type: docs
 weight: 12
 url: /cs/net/licensing-and-configuration/metered-licensing/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Měřené licencování v Aspose.CAD pro .NET
+
 ## Úvod
 
 Odemknutí plného potenciálu Aspose.CAD pro .NET vyžaduje pochopení složitosti licencování s měřením. Tato výkonná funkce umožňuje vývojářům efektivně řídit spotřebu zdrojů a zároveň využívat možnosti Aspose.CAD. V tomto podrobném průvodci se ponoříme do procesu implementace měřeného licencování a rozebereme každý zásadní krok, abychom zajistili bezproblémovou integraci do vašich projektů .NET.
@@ -97,3 +103,9 @@ Odpověď 3: Ano, měřené klíče jsou opakovaně použitelné v různých pro
 ### Q5: Mohu dočasně licencovat Aspose.CAD pro konkrétní projekty?
 
  A5: Ano, prozkoumat[dočasné licenční možnosti](https://purchase.aspose.com/temporary-license/) pro požadavky na krátkodobé projekty.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

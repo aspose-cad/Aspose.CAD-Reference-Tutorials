@@ -3,10 +3,16 @@ title: CAD 도면에 워터마크 추가 - Aspose.CAD 가이드
 linktitle: CAD 도면에 워터마크 추가
 second_title: Aspose.CAD .NET - CAD 및 BIM 파일 형식
 description: .NET용 Aspose.CAD를 사용하여 전문적인 워터마크로 CAD 도면을 향상하세요. 개인화되고 매력적인 디자인을 위한 단계별 가이드를 따르십시오.
-type: docs
 weight: 11
 url: /ko/net/plt-and-watermarking/adding-watermarks-to-cad-drawings/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# CAD 도면에 워터마크 추가 - Aspose.CAD 가이드
+
 ## 소개
 
 전문적인 워터마크를 추가하여 CAD 도면을 향상시키고 싶으십니까? .NET용 Aspose.CAD는 워터마크를 CAD 파일에 원활하게 통합할 수 있는 강력한 솔루션을 제공합니다. 이 단계별 가이드에서는 Aspose.CAD를 사용하여 워터마크를 추가하는 과정을 안내하여 도면에 중요한 정보를 전달할 뿐만 아니라 고유한 마크도 포함되도록 합니다.
@@ -104,3 +110,9 @@ A4: 예, 무료 평가판을 통해 Aspose.CAD의 기능을 탐색할 수 있습
 ### Q5: Aspose.CAD에 대한 지원은 어디서 찾을 수 있나요?
 
  A5: 질문이나 도움이 필요하면 다음을 방문하세요.[Aspose.CAD 포럼](https://forum.aspose.com/c/cad/19).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

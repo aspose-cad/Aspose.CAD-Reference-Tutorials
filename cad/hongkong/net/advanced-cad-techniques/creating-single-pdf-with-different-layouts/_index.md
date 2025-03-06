@@ -3,10 +3,16 @@ title: 建立具有不同佈局的單一 PDF - Aspose.CAD 指南
 linktitle: 建立具有不同佈局的單一 PDF
 second_title: Aspose.CAD .NET - CAD 和 BIM 檔案格式
 description: 使用 Aspose.CAD for .NET 建立具有不同佈局的單一 PDF。請按照我們的逐步指南進行無縫整合和高效 PDF 生成。
-type: docs
 weight: 13
 url: /zh-hant/net/advanced-cad-techniques/creating-single-pdf-with-different-layouts/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 建立具有不同佈局的單一 PDF - Aspose.CAD 指南
+
 ## 介紹
 
 您是否希望使用 Aspose.CAD for .NET 從具有不同佈局的 CAD 繪圖產生單一 PDF 文件？本逐步指南將引導您完成整個過程，幫助您實現無縫整合和高效的 PDF 創建。 Aspose.CAD for .NET 提供了強大的功能來以程式設計方式操作 CAD 繪圖，在本教程中，我們將專注於建立具有不同佈局的單一 PDF。
@@ -95,3 +101,9 @@ A4：參考文檔[這裡](https://reference.aspose.com/cad/net/).
 ### Q5：我可以購買 Aspose.CAD for .NET 的授權嗎？
 
  A5：是的，您可以購買許可證[這裡](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

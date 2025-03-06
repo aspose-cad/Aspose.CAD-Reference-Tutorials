@@ -3,10 +3,16 @@ title: Ställa in bakgrunds- och ritfärger i Aspose.CAD för .NET
 linktitle: Ställa in bakgrunds- och ritfärger
 second_title: Aspose.CAD .NET - CAD- och BIM-filformat
 description: Master Aspose.CAD för .NET. Ange bakgrund och rita färger utan ansträngning. Följ vår steg-för-steg-guide.
-type: docs
 weight: 15
 url: /sv/net/cad-features-and-support/setting-background-and-drawing-colors/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ställa in bakgrunds- och ritfärger i Aspose.CAD för .NET
+
 ## Introduktion
 
 den dynamiska världen av .NET-utveckling framstår Aspose.CAD som ett kraftfullt verktyg för att hantera datorstödd design (CAD)-filer. Om du är ivrig att förbättra dina färdigheter i att manipulera CAD-ritningar, är den här handledningen din inkörsport. Vi kommer att fördjupa oss i krångligheterna med att ställa in bakgrund och rita färger med Aspose.CAD för .NET, vilket ger dig en steg-för-steg-guide som säkerställer tydlighet och effektivitet.
@@ -108,3 +114,10 @@ S1: Ja, Aspose.CAD stöder olika CAD-format, inklusive DWG, DXF och DGN.
 ### F5: Behöver du hjälp eller vill få kontakt med samhället?
 
  S5: Besök supportforumet[här](https://forum.aspose.com/c/cad/19).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

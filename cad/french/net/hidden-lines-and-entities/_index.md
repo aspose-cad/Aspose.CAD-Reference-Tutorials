@@ -3,10 +3,16 @@ title: Lignes et entités cachées
 linktitle: Lignes et entités cachées
 second_title: Aspose.CAD .NET - Format de fichier CAO et BIM
 description: Déverrouillez sans effort les lignes cachées dans les fichiers DWG avec Aspose.CAD pour .NET. Élevez vos projets CAO avec notre guide étape par étape.
-type: docs
 weight: 29
 url: /fr/net/hidden-lines-and-entities/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Lignes et entités cachées
+
 
 
 ## Introduction
@@ -39,3 +45,9 @@ En conclusion, que vous vous concentriez sur le déverrouillage des lignes cach�
 Déverrouillez sans effort les lignes cachées dans les fichiers DWG avec Aspose.CAD pour .NET. Suivez notre guide étape par étape pour une intégration transparente.
 ### [Prise en charge de l'entité MLeader pour le format DWG - Guide Aspose.CAD](./supporting-mleader-entity-for-dwg-format/)
 Libérez la puissance des entités MLeader au format DWG avec Aspose.CAD pour .NET. Élevez vos projets CAO sans effort.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

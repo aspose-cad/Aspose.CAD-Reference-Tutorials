@@ -3,10 +3,16 @@ title: Edit DWG Hyperlinks - Aspose.CAD Java Tutorial
 linktitle: Edit Hyperlink
 second_title: Aspose.CAD Java API
 description: Enhance DWG drawing precision with Aspose.CAD for Java. Edit hyperlinks seamlessly, ensuring accurate references. Try the free trial now!
-type: docs
 weight: 17
 url: /java/other-cad-operations/edit-hyperlink/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Edit DWG Hyperlinks - Aspose.CAD Java Tutorial
+
 In today's digital era, efficient handling of DWG drawings is crucial for professionals in various industries. Aspose.CAD for Java provides a powerful solution to edit hyperlinks within DWG drawings, ensuring seamless integration and customization. This step-by-step guide will walk you through the process of editing hyperlinks using Aspose.CAD for Java.
 
 ## Introduction
@@ -99,3 +105,10 @@ A4: For any technical assistance, visit the Aspose.CAD forum [here](https://foru
 ### Q5: Can I obtain a temporary license for testing purposes?
 
 A5: Yes, you can obtain a temporary license [here](https://purchase.aspose.com/temporary-license/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

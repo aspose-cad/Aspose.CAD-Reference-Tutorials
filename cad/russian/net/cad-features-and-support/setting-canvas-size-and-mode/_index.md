@@ -3,10 +3,16 @@ title: Настройка размера и режима холста в Aspose.
 linktitle: Настройка размера и режима холста
 second_title: Aspose.CAD .NET — формат файлов CAD и BIM
 description: Изучите пошаговое руководство по настройке размера и режима холста в Aspose.CAD для .NET. С легкостью оптимизируйте рендеринг САПР с помощью этого подробного руководства.
-type: docs
 weight: 16
 url: /ru/net/cad-features-and-support/setting-canvas-size-and-mode/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Настройка размера и режима холста в Aspose.CAD для .NET
+
 ## Введение
 
 Готовы ли вы раскрыть весь потенциал Aspose.CAD для .NET и произвести революцию в своем опыте CAD-рендеринга? В этом пошаговом руководстве мы углубимся в тонкости настройки размера и режима холста с помощью мощной библиотеки Aspose.CAD. Независимо от того, являетесь ли вы опытным разработчиком или только начинаете, это руководство проведет вас через весь процесс, гарантируя, что вы эффективно используете возможности Aspose.CAD.
@@ -119,3 +125,9 @@ image.Save(MyDir + "result_out.tiff", tiffOptions);
 ### Вопрос 5: Как мне приобрести Aspose.CAD для .NET?
 
  A5: Чтобы приобрести Aspose.CAD, посетите[страница покупки](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

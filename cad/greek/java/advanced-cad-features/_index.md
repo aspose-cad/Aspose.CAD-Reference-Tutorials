@@ -3,10 +3,16 @@ title: Προηγμένες δυνατότητες CAD
 linktitle: Προηγμένες δυνατότητες CAD
 second_title: Aspose.CAD Java API
 description: Αυξήστε την ανάπτυξη CAD με τα μαθήματα Aspose.CAD για Java. Μάθετε να ενεργοποιείτε την παρακολούθηση, να ενσωματώνετε τη μορφή IGES, να υποστηρίζετε κύριο πλέγμα, να προσαρμόζετε την εξαγωγή στυλό, να διαβάζετε αρχεία DWT και πολλά άλλα.
-type: docs
 weight: 24
 url: /el/java/advanced-cad-features/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Προηγμένες δυνατότητες CAD
+
 
 ## Εισαγωγή
 
@@ -66,3 +72,9 @@ url: /el/java/advanced-cad-features/
 Υποστήριξη Master layer στην ανάπτυξη Java CAD με Aspose.CAD. Οργανώστε και εξάγετε σχέδια χωρίς κόπο.
 ### [Εξαγωγή τιμής χαρακτηριστικού μπλοκ από εξωτερική αναφορά χρησιμοποιώντας Aspose.CAD σε Java](./extract-block-attribute-value/)
 Εξερευνήστε το σεμινάριο μας σχετικά με την εξαγωγή τιμών χαρακτηριστικών μπλοκ από εξωτερικές αναφορές DWG σε Java χρησιμοποιώντας το Aspose.CAD. Βελτιώστε τη ροή εργασιών ανάπτυξης CAD χωρίς κόπο.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

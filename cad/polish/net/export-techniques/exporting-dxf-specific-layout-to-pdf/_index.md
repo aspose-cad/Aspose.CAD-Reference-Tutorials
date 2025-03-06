@@ -3,10 +3,16 @@ title: Eksportowanie układu specyficznego dla DXF do pliku PDF - Przewodnik Asp
 linktitle: Eksportowanie układu specyficznego dla DXF do pliku PDF
 second_title: Aspose.CAD .NET - Format plików CAD i BIM
 description: Dowiedz się, jak eksportować określone układy DXF do formatu PDF przy użyciu Aspose.CAD dla .NET. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby uzyskać wydajne i wysokiej jakości konwersje.
-type: docs
 weight: 11
 url: /pl/net/export-techniques/exporting-dxf-specific-layout-to-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Eksportowanie układu specyficznego dla DXF do pliku PDF - Przewodnik Aspose.CAD
+
 ## Wstęp
 
 Witamy w samouczku Aspose.CAD na temat eksportowania układów specyficznych dla DXF do formatu PDF przy użyciu zaawansowanych funkcji Aspose.CAD dla .NET. Ten przewodnik krok po kroku przeprowadzi Cię przez proces konwersji plików DXF do formatu PDF, koncentrując się na konkretnym układzie o nazwie „Model”. Aspose.CAD zapewnia wydajne narzędzia i funkcjonalności usprawniające proces konwersji, zapewniając wysoką jakość wyników dla rysunków CAD.
@@ -113,3 +119,9 @@ O2: Tak, możesz dostosować ustawienia wyjściowe PDF, dostosowując właściwo
 ### P5: Gdzie mogę kupić licencję na Aspose.CAD?
 
  A5: Możesz kupić licencję na Aspose.CAD[Tutaj](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

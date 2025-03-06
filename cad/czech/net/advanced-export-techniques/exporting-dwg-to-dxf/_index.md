@@ -3,10 +3,16 @@ title: Export DWG do formátu DXF v C# - Aspose.CAD Tutorial
 linktitle: Export DWG do formátu DXF v C#
 second_title: Aspose.CAD .NET – formát souborů CAD a BIM
 description: Odemkněte manipulaci se soubory CAD v C# pomocí Aspose.CAD. Naučte se bez námahy exportovat DWG do DXF. Postupujte podle našeho podrobného průvodce pro bezproblémovou integraci.
-type: docs
 weight: 10
 url: /cs/net/advanced-export-techniques/exporting-dwg-to-dxf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Export DWG do formátu DXF v C# - Aspose.CAD Tutorial
+
 ## Úvod
 
 Pokud jste vývojář .NET, který hledá výkonné řešení pro manipulaci se soubory CAD, Aspose.CAD je váš oblíbený nástroj. V tomto tutoriálu krok za krokem vás provedeme procesem exportu souboru DWG do formátu DXF pomocí C# s Aspose.CAD.
@@ -80,3 +86,9 @@ Odpověď 1: Ano, Aspose.CAD je pravidelně aktualizován, aby byla zajištěna 
 ### Q5: Potřebujete pomoc nebo máte konkrétní otázky?
 
  A5: Navštivte fórum komunity Aspose.CAD[tady](https://forum.aspose.com/c/cad/19)za odbornou pomoc a podporu komunity.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

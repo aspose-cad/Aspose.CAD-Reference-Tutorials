@@ -3,10 +3,16 @@ title: Convierta un dibujo CAD en una imagen rasterizada en Aspose.CAD para .NET
 linktitle: Convertir dibujo CAD a imagen rasterizada
 second_title: Aspose.CAD .NET - Formato de archivo CAD y BIM
 description: Explore el proceso fluido de convertir dibujos CAD a imágenes rasterizadas en .NET con Aspose.CAD. Desbloquee flujos de trabajo eficientes y mejore sus proyectos CAD sin esfuerzo.
-type: docs
 weight: 11
 url: /es/net/cad-drawing-manipulation/convert-cad-drawing-to-raster-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Convierta un dibujo CAD en una imagen rasterizada en Aspose.CAD para .NET
+
 ## Introducción
 
 En el panorama en constante evolución del diseño asistido por computadora (CAD), la necesidad de convertir sin problemas dibujos CAD en imágenes rasterizadas es primordial. Esta guía paso a paso explora cómo lograr esto utilizando la poderosa biblioteca Aspose.CAD para .NET. Aspose.CAD simplifica el proceso y proporciona a los desarrolladores un sólido conjunto de herramientas para mejorar sus flujos de trabajo relacionados con CAD.
@@ -118,3 +124,9 @@ R2: Sí, Aspose.CAD permite una amplia personalización de las opciones de raste
 ### P5: ¿Hay licencias temporales disponibles para Aspose.CAD?
  
  R5: Sí, los desarrolladores pueden obtener licencias temporales para Aspose.CAD desde[este enlace](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

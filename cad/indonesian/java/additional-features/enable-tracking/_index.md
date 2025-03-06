@@ -3,10 +3,16 @@ title: Aktifkan Pelacakan di File DWG Menggunakan Aspose.CAD Di Java
 linktitle: Aktifkan Pelacakan di File DWG Menggunakan Java
 second_title: Aspose.CAD Java API
 description: Jelajahi panduan langkah demi langkah tentang mengaktifkan pelacakan file DWG di Java menggunakan Aspose.CAD, memastikan kolaborasi yang lancar dalam proyek CAD.
-type: docs
 weight: 12
 url: /id/java/additional-features/enable-tracking/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aktifkan Pelacakan di File DWG Menggunakan Aspose.CAD Di Java
+
 ## Perkenalan
 
 Di bidang desain berbantuan komputer (CAD), Aspose.CAD untuk Java menonjol sebagai alat canggih yang memberdayakan pengembang untuk memanipulasi dan mengonversi file CAD dengan mudah. Tutorial ini mempelajari fungsionalitas spesifik Aspose.CAD untuk Java – mengaktifkan pelacakan dalam file DWG. Melacak perubahan dalam file DWG sangat penting untuk proyek desain kolaboratif, memastikan komunikasi yang lancar dan alur kerja yang efisien. Dalam panduan ini, kami akan memandu langkah-langkah untuk mengaktifkan pelacakan menggunakan Java, memanfaatkan kemampuan Aspose.CAD.
@@ -123,3 +129,9 @@ A1: Aspose.CAD terutama mendukung file DWG untuk pelacakan. Untuk format lain, l
 ### Q5: Bagaimana cara mendapatkan lisensi sementara Aspose.CAD untuk Java?
 
  A5: Ikuti proses yang diuraikan di[Lisensi Sementara](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

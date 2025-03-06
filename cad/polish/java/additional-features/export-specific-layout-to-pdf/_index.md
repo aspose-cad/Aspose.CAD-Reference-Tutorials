@@ -3,10 +3,16 @@ title: Eksportuj określony układ DXF do pliku PDF za pomocą Aspose.CAD dla Ja
 linktitle: Eksportuj określony układ DXF do pliku PDF za pomocą języka Java
 second_title: Aspose.CAD API Java
 description: Poznaj płynną konwersję DXF do PDF za pomocą Aspose.CAD dla Java. Bez wysiłku i z dużą precyzją eksportuj określone układy.
-type: docs
 weight: 17
 url: /pl/java/additional-features/export-specific-layout-to-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Eksportuj określony układ DXF do pliku PDF za pomocą Aspose.CAD dla Java
+
 ## Wstęp
 
 Jeśli jesteś programistą Java pracującym z rysunkami CAD, zrozumiesz znaczenie wydajnej i precyzyjnej konwersji pomiędzy różnymi formatami. Aspose.CAD dla Java to potężna biblioteka, która umożliwia programistom płynne manipulowanie plikami CAD. W tym samouczku przeprowadzimy Cię przez proces eksportowania określonego układu DXF do pliku PDF przy użyciu Aspose.CAD dla Java.
@@ -105,3 +111,9 @@ Odpowiedź 2: Tak, możesz łatwo skonfigurować opcje rasteryzacji w oparciu o 
 ### P5: Jak mogę uzyskać wsparcie dla Aspose.CAD dla Java?
 
  Odpowiedź 5: Odwiedź forum pomocy technicznej[Tutaj](https://forum.aspose.com/c/cad/19) pomoc od społeczności Aspose.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

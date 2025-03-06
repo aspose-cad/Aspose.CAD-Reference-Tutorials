@@ -3,10 +3,16 @@ title: รองรับรูปแบบ OBJ ใน Aspose.CAD - บทช่
 linktitle: รองรับรูปแบบ OBJ ใน Aspose.CAD - บทช่วยสอน
 second_title: Aspose.CAD .NET - รูปแบบไฟล์ CAD และ BIM
 description: ปลดล็อกศักยภาพของ Aspose.CAD สำหรับ .NET เรียนรู้วิธีการสนับสนุนรูปแบบ OBJ ในแอปพลิเคชัน CAD ของคุณอย่างราบรื่นด้วยบทช่วยสอนทีละขั้นตอนนี้
-type: docs
 weight: 10
 url: /th/net/3d-model-support/supporting-obj-format-in-aspose-cad/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# รองรับรูปแบบ OBJ ใน Aspose.CAD - บทช่วยสอน
+
 ## การแนะนำ
 
 หากคุณกำลังเจาะลึกโลกของการออกแบบโดยใช้คอมพิวเตอร์ช่วย (CAD) ในการพัฒนา .NET คุณอาจพบว่าจำเป็นต้องทำงานกับไฟล์ OBJ Aspose.CAD สำหรับ .NET เป็นโซลูชันที่มีประสิทธิภาพซึ่งช่วยให้นักพัฒนาสามารถรองรับรูปแบบ OBJ ภายในแอปพลิเคชันของตนได้อย่างราบรื่น ในบทช่วยสอนนี้ เราจะแนะนำคุณตลอดกระบวนการรวม Aspose.CAD เข้ากับโปรเจ็กต์ของคุณเพื่อให้ทำงานกับไฟล์ OBJ ได้อย่างมีประสิทธิภาพ
@@ -97,3 +103,9 @@ CADDoc.Save(MyDir + "example-580-W_custom.pdf", CADf);
 ### คำถามที่ 5: ฉันจะซื้อ Aspose.CAD ได้ที่ไหน
 
  A5: คุณสามารถซื้อ Aspose.CAD ได้[ที่นี่](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

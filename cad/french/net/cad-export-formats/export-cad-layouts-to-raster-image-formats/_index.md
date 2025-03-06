@@ -3,10 +3,16 @@ title: Exporter des mises en page CAO vers des formats d'image raster dans Aspos
 linktitle: Exporter des mises en page CAO vers des formats d'image raster
 second_title: Aspose.CAD .NET - Format de fichier CAO et BIM
 description: Découvrez comment exporter des mises en page CAO vers des images raster à l'aide d'Aspose.CAD pour .NET. Suivez notre guide étape par étape pour une conversion transparente.
-type: docs
 weight: 10
 url: /fr/net/cad-export-formats/export-cad-layouts-to-raster-image-formats/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Exporter des mises en page CAO vers des formats d'image raster dans Aspose.CAD pour .NET
+
 ## Introduction
 
 Cherchez-vous à convertir efficacement des mises en page CAO en formats d'image raster à l'aide d'Aspose.CAD pour .NET ? Ce guide étape par étape vous guidera tout au long du processus, en fournissant des instructions détaillées et des extraits de code pour rendre la tâche transparente. Que vous soyez un développeur chevronné ou un nouveau venu sur Aspose.CAD, ce tutoriel s'adresse à tous les niveaux d'expertise.
@@ -112,3 +118,9 @@ Toutes nos félicitations! Vous avez appris avec succès comment exporter des mi
 ### Q5 : Où puis-je trouver la documentation ?
 
  A5 : Reportez-vous à la documentation détaillée[ici](https://reference.aspose.com/cad/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

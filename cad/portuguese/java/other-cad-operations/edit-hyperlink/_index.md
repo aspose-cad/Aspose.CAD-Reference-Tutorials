@@ -3,10 +3,16 @@ title: Editar hiperlinks DWG - Tutorial Java Aspose.CAD
 linktitle: Editar hiperlink
 second_title: API Java Aspose.CAD
 description: Aumente a precisão do desenho DWG com Aspose.CAD para Java. Edite hiperlinks perfeitamente, garantindo referências precisas. Experimente o teste gratuito agora!
-type: docs
 weight: 17
 url: /pt/java/other-cad-operations/edit-hyperlink/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Editar hiperlinks DWG - Tutorial Java Aspose.CAD
+
 Na era digital de hoje, o manuseio eficiente de desenhos DWG é crucial para profissionais de diversos setores. Aspose.CAD for Java fornece uma solução poderosa para editar hiperlinks em desenhos DWG, garantindo integração e personalização perfeitas. Este guia passo a passo orientará você no processo de edição de hiperlinks usando Aspose.CAD for Java.
 
 ## Introdução
@@ -99,3 +105,9 @@ A1: Aspose.CAD for Java suporta várias versões de desenho DWG, fornecendo comp
 ### P5: Posso obter uma licença temporária para fins de teste?
 
  A5: Sim, você pode obter uma licença temporária[aqui](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

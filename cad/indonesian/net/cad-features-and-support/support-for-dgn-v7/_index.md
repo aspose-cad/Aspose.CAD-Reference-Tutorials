@@ -3,10 +3,16 @@ title: Dukungan untuk DGN V7 di Aspose.CAD untuk .NET
 linktitle: Dukungan untuk DGN V7
 second_title: Aspose.CAD .NET - Format File CAD dan BIM
 description: Jelajahi Aspose.CAD untuk dukungan .NET yang lancar untuk DGN V7. Konversikan file DGN menjadi gambar raster dengan mudah dengan panduan langkah demi langkah.
-type: docs
 weight: 19
 url: /id/net/cad-features-and-support/support-for-dgn-v7/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Dukungan untuk DGN V7 di Aspose.CAD untuk .NET
+
 ## Perkenalan
 
 Dalam bidang pengembangan .NET, Aspose.CAD menonjol sebagai perpustakaan yang kuat untuk menangani file Computer-Aided Design (CAD). Tutorial ini mempelajari fitur spesifik Aspose.CAD untuk .NET—dukungan untuk file DGN V7. DGN, kependekan dari Design, adalah format file yang banyak digunakan dalam domain CAD. Aspose.CAD menyederhanakan proses bekerja dengan file DGN V7, menawarkan pengalaman yang mulus kepada pengembang.
@@ -108,3 +114,9 @@ A3: Ya, Aspose.CAD mendukung berbagai format keluaran. Anda dapat menjelajahi do
 ### Q5: Apakah ada uji coba gratis yang tersedia untuk Aspose.CAD untuk .NET?
 
  A5: Ya, Anda dapat mengakses uji coba gratis[Di Sini](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

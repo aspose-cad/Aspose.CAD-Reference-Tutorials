@@ -3,10 +3,16 @@ title: Aspose.CAD for Java Kullanarak OLE Nesnelerini CAD'den Dışa Aktarma
 linktitle: OLE Nesnelerini CAD'den Dışa Aktarma
 second_title: Aspose.CAD Java API'si
 description: Aspose.CAD for Java'nın potansiyelini ortaya çıkarın. OLE nesnelerini CAD dosyalarından zahmetsizce dışa aktarın. Kusursuz CAD veri yönetimi için hemen indirin.
-type: docs
 weight: 10
 url: /tr/java/cad-to-pdf-and-svg-export-options/export-ole-objects-from-cad/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.CAD for Java Kullanarak OLE Nesnelerini CAD'den Dışa Aktarma
+
 ## giriiş
 
 Bilgisayar Destekli Tasarımın (CAD) dinamik dünyasında, OLE (Nesne Bağlama ve Gömme) nesnelerini verimli bir şekilde yönetmek ve çıkarmak çok önemlidir. Aspose.CAD for Java, OLE nesnelerini CAD dosyalarından dışa aktarmak için güçlü bir çözüm sunar. Bu adım adım kılavuz, süreç boyunca size yol gösterecek ve bu aracın tüm potansiyelinden yararlanmanızı sağlayacaktır.
@@ -97,3 +103,9 @@ Cevap2: Evet, Aspose.CAD, dışa aktarma ayarlarını özelleştirmek için kaps
 ### S5: Aspose.CAD lisansını nasıl satın alabilirim?
 
 A5: ziyaret edin[satın alma sayfası](https://purchase.aspose.com/buy) Geliştirme ihtiyaçlarınıza uygun bir lisans almak için.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

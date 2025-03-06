@@ -3,10 +3,16 @@ title: Eleve la exportación CAD con opciones de lápiz personalizadas en Aspose
 linktitle: Soporte de lápiz en exportación
 second_title: Aspose.CAD .NET - Formato de archivo CAD y BIM
 description: Aprenda cómo mejorar sus exportaciones de imágenes CAD utilizando Aspose.CAD para .NET. Personalice las opciones de lápiz para obtener imágenes impresionantes en PDF, PNG, BMP y más.
-type: docs
 weight: 12
 url: /es/net/cad-features-and-support/pen-support-in-export/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Eleve la exportación CAD con opciones de lápiz personalizadas en Aspose.CAD para .NET
+
 ## Introducción
 
 Aspose.CAD para .NET proporciona un potente conjunto de herramientas para trabajar con archivos de diseño asistido por computadora (CAD), lo que permite a los desarrolladores manipular y exportar imágenes CAD sin problemas. Una característica notable es la compatibilidad con bolígrafos durante la exportación, lo que permite a los usuarios personalizar la configuración de las tapas iniciales y finales de los bolígrafos al exportar imágenes CAD a varios formatos como PDF, PNG, BMP, GIF, JPEG2000, JPEG, PSD, TIFF y WMF.
@@ -119,3 +125,9 @@ R1: Sí, las opciones del lápiz se pueden aplicar a varios formatos de imagen c
 ### P5: ¿Dónde puedo buscar soporte comunitario para Aspose.CAD para .NET?
 
  A5: Interactuar con la comunidad en el[Foro Aspose.CAD](https://forum.aspose.com/c/cad/19).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

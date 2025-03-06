@@ -3,10 +3,16 @@ title: Přidání textu do souborů DWG v C# - Výukový program Aspose.CAD
 linktitle: Přidání textu do souborů DWG v C#
 second_title: Aspose.CAD .NET – formát souborů CAD a BIM
 description: Naučte se přidávat text do souborů DWG pomocí C# a Aspose.CAD. Pro bezproblémovou integraci postupujte podle tohoto podrobného návodu. Prozkoumejte dokumentaci Aspose.CAD pro komplexní návod.
-type: docs
 weight: 14
 url: /cs/net/dwg-file-manipulation/adding-text-to-dwg/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Přidání textu do souborů DWG v C# - Výukový program Aspose.CAD
+
 ## Úvod
 
 V dynamické oblasti počítačově podporovaného navrhování (CAD) a vývoje .NET vyniká Aspose.CAD jako výkonný nástroj pro manipulaci se soubory DWG. Přidávání textu do souborů DWG je běžným požadavkem a v tomto tutoriálu prozkoumáme, jak toho dosáhnout pomocí C# a Aspose.CAD.
@@ -125,3 +131,9 @@ Odpověď 2: Ano, do souboru DWG můžete přidat více textových entit opakov�
 ### Q5: Kde mohu vyhledat pomoc nebo prodiskutovat dotazy související s Aspose.CAD?
 
 A5: Navštivte[Fórum Aspose.CAD](https://forum.aspose.com/c/cad/19)spojit se s komunitou a získat podporu.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

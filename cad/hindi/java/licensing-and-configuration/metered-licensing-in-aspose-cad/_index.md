@@ -3,10 +3,16 @@ title: Aspose.CAD में मीटरयुक्त लाइसेंसि
 linktitle: Aspose.CAD में मीटरयुक्त लाइसेंसिंग
 second_title: Aspose.CAD जावा एपीआई
 description: इस व्यापक गाइड के साथ सीखें कि जावा के लिए Aspose.CAD में मीटर्ड लाइसेंसिंग में कैसे महारत हासिल करें। दक्षता और लागत-प्रभावशीलता के लिए अपने सीएडी प्रसंस्करण को अनुकूलित करें।
-type: docs
 weight: 10
 url: /hi/java/licensing-and-configuration/metered-licensing-in-aspose-cad/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.CAD में मीटरयुक्त लाइसेंसिंग
+
 ## परिचय
 
 मीटर्ड लाइसेंसिंग के साथ जावा के लिए Aspose.CAD की पूरी क्षमता को अनलॉक करें! यह चरण-दर-चरण मार्गदर्शिका आपको कंप्यूटर-एडेड डिज़ाइन (सीएडी) के लिए इस शक्तिशाली जावा लाइब्रेरी के निर्बाध एकीकरण और इष्टतम उपयोग को सुनिश्चित करने, मीटर्ड लाइसेंसिंग स्थापित करने की प्रक्रिया के बारे में बताएगी। पूर्वापेक्षाओं से लेकर पैकेजों को आयात करने और उदाहरणों को निष्पादित करने तक, यह ट्यूटोरियल यह सब कवर करता है।
@@ -94,3 +100,9 @@ System.out.println("Consumption quantity after processing: " + quantity);
 ### Q5: सामुदायिक समर्थन की आवश्यकता है या आपके पास विशिष्ट प्रश्न हैं?
 
  A5: Aspose.CAD फोरम पर जाएं[यहाँ](https://forum.aspose.com/c/cad/19).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

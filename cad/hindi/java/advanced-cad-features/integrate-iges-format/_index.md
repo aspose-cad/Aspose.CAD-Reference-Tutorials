@@ -3,10 +3,16 @@ title: आईजीईएस प्रारूप को एकीकृत क
 linktitle: आईजीईएस प्रारूप को एकीकृत करें
 second_title: Aspose.CAD जावा एपीआई
 description: जावा के लिए Aspose.CAD के साथ IGES प्रारूप के एकीकरण का सहजता से अन्वेषण करें। अपने CAD विकास अनुभव को बेहतर बनाने के लिए Aspose.CAD की शक्ति का उपयोग करते हुए, हमारे चरण-दर-चरण मार्गदर्शिका का पालन करें।
-type: docs
 weight: 11
 url: /hi/java/advanced-cad-features/integrate-iges-format/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# आईजीईएस प्रारूप को एकीकृत करें
+
 ## परिचय
 
 सीएडी (कंप्यूटर-एडेड डिज़ाइन) की गतिशील दुनिया में, विभिन्न फ़ाइल स्वरूपों को एकीकृत करने की आवश्यकता सर्वोपरि है। यह मार्गदर्शिका जावा के लिए Aspose.CAD का उपयोग करके IGES (प्रारंभिक ग्राफ़िक्स एक्सचेंज विशिष्टता) प्रारूप के सहज एकीकरण पर प्रकाश डालती है। Aspose.CAD डेवलपर्स को आसानी से CAD फ़ाइलों में हेरफेर करने और परिवर्तित करने का अधिकार देता है, जिससे एप्लिकेशन विकास के लिए संभावनाओं की दुनिया खुल जाती है।
@@ -88,3 +94,9 @@ A1: हां, Aspose.CAD विभिन्न CAD प्रारूपों 
 ### Q5: मैं Aspose.CAD लाइसेंस कैसे खरीदूं?
 
  A5: आप Aspose.CAD लाइसेंस खरीद सकते हैं[यहाँ](https://purchase.aspose.com/buy) पुस्तकालय की पूरी क्षमता को उजागर करने के लिए।
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

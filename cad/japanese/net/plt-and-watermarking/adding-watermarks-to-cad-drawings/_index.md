@@ -3,10 +3,16 @@ title: CAD 図面に透かしを追加する - Aspose.CAD ガイド
 linktitle: CAD 図面に透かしを追加する
 second_title: Aspose.CAD .NET - CAD および BIM ファイル形式
 description: Aspose.CAD for .NET を使用して、プロフェッショナルなウォーターマークで CAD 図面を強化します。パーソナライズされた魅力的なデザインについては、ステップバイステップのガイドに従ってください。
-type: docs
 weight: 11
 url: /ja/net/plt-and-watermarking/adding-watermarks-to-cad-drawings/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# CAD 図面に透かしを追加する - Aspose.CAD ガイド
+
 ## 導入
 
 プロの透かしを追加して CAD 図面を強化したいと考えていますか? Aspose.CAD for .NET は、透かしを CAD ファイルにシームレスに統合するための堅牢なソリューションを提供します。このステップバイステップのガイドでは、Aspose.CAD を使用して透かしを追加するプロセスを説明し、図面に重要な情報を伝えるだけでなく、独自のマークも確実に伝えることができます。
@@ -104,3 +110,9 @@ A4: はい、無料トライアルで Aspose.CAD の機能を試すことがで�
 ### Q5: Aspose.CAD のサポートはどこで見つけられますか?
 
  A5: ご質問やサポートが必要な場合は、次のサイトにアクセスしてください。[Aspose.CAD フォーラム](https://forum.aspose.com/c/cad/19).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

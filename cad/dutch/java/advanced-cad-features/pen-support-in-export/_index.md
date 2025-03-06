@@ -3,10 +3,16 @@ title: Penondersteuning bij exporteren
 linktitle: Penondersteuning bij exporteren
 second_title: Aspose.CAD Java-API
 description: Master-penaanpassing in CAD-export met Aspose.CAD voor Java. Volg onze stapsgewijze handleiding voor een naadloze integratie.
-type: docs
 weight: 13
 url: /nl/java/advanced-cad-features/pen-support-in-export/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Penondersteuning bij exporteren
+
 ## Invoering
 
 In het steeds evoluerende landschap van CAD-conversies (Computer-Aided Design) komt Aspose.CAD voor Java naar voren als een krachtig hulpmiddel, dat uitgebreide mogelijkheden biedt voor het manipuleren van CAD-bestanden. Onder de veelzijdige functies valt de ondersteuning voor het aanpassen van de pen tijdens het exporteren op, waardoor gebruikers het uiterlijk van geëxporteerde afbeeldingen kunnen aanpassen. Deze tutorial begeleidt u bij het gebruik van penondersteuning in de exportfunctionaliteit, waarbij de nadruk ligt op de praktische implementatie met behulp van Java.
@@ -112,3 +118,9 @@ A4: Pas de paginabreedte en -hoogte aan in de rasteropties om de afmetingen van 
 ### Vraag 5: Waar kan ik aanvullende ondersteuning of communitydiscussies vinden?
 
  A5: Ontdek het Aspose.CAD-communityforum op[hier](https://forum.aspose.com/c/cad/19) voor ondersteuning en discussies.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

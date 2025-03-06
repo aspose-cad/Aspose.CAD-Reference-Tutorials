@@ -3,10 +3,16 @@ title: تصدير DWG إلى تنسيق DXF في C# - البرنامج التع�
 linktitle: تصدير DWG إلى تنسيق DXF في C#
 second_title: Aspose.CAD .NET - تنسيق ملف CAD وBIM
 description: فتح معالجة ملفات CAD في لغة C# باستخدام Aspose.CAD. تعلم كيفية تصدير DWG إلى DXF بسهولة. اتبع دليلنا خطوة بخطوة للتكامل السلس.
-type: docs
 weight: 10
 url: /ar/net/advanced-export-techniques/exporting-dwg-to-dxf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تصدير DWG إلى تنسيق DXF في C# - البرنامج التعليمي Aspose.CAD
+
 ## مقدمة
 
 إذا كنت أحد مطوري برامج .NET وتبحث عن حل فعال لمعالجة ملفات CAD، فإن Aspose.CAD هو الأداة المفضلة لديك. في هذا البرنامج التعليمي خطوة بخطوة، سنرشدك خلال عملية تصدير ملف DWG إلى تنسيق DXF باستخدام C# مع Aspose.CAD.
@@ -80,3 +86,9 @@ cadImage.Save(outFile);
 ### س5: هل تحتاج إلى مساعدة أو لديك أسئلة محددة؟
 
  ج5: قم بزيارة منتدى مجتمع Aspose.CAD[هنا](https://forum.aspose.com/c/cad/19)للحصول على مساعدة الخبراء ودعم المجتمع.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

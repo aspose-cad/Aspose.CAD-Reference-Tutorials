@@ -1,12 +1,17 @@
 ---
 title: Περιεκτικά σεμινάρια και παραδείγματα Aspose.CAD για .NET
 linktitle: Aspose.CAD για .NET Tutorials
-type: docs
 weight: 10
 url: /el/net/
 description: Master Aspose.CAD για .NET με ολοκληρωμένα σεμινάρια. Αναβαθμίστε τις δεξιότητές σας στο CAD από την αδειοδότηση σε προηγμένες τεχνικές εξαγωγής. Ξεκλειδώστε τις κρυφές λειτουργίες χωρίς κόπο.
-is_root: true
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Περιεκτικά σεμινάρια και παραδείγματα Aspose.CAD για .NET
+
 
 ## Εισαγωγή
 
@@ -61,3 +66,9 @@ is_root: true
 Μετατρέψτε εύκολα αρχεία PLT σε εικόνες και PDF με το Aspose.CAD για .NET. Εξερευνήστε την απρόσκοπτη ενσωμάτωση και τις ευέλικτες επιλογές για χειρισμό αρχείων CAD.
 ### [Εξαγωγή αρχείου STL](./stl-file-export/)
 Εξάγετε εύκολα αρχεία STL σε PNG με το Aspose.CAD για .NET. Ο βήμα προς βήμα οδηγός μας εξασφαλίζει απρόσκοπτη ενσωμάτωση. Μάθετε μέσω του Aspose.CAD For .NET tutorials.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

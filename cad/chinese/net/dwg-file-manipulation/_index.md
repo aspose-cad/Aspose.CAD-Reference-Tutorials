@@ -3,10 +3,16 @@ title: DWG 文件操作
 linktitle: DWG 文件操作
 second_title: Aspose.CAD .NET - CAD 和 BIM 文件格式
 description: 通过我们的 DWG 教程释放 Aspose.CAD 在 .NET 中的强大功能。掌握 C# 以实现高效的 CAD 处理，无缝提取 DWF 布局尺寸。
-type: docs
 weight: 24
 url: /zh/net/dwg-file-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# DWG 文件操作
+
 
 ## 介绍
 
@@ -39,3 +45,9 @@ url: /zh/net/dwg-file-manipulation/
 释放 Aspose.CAD for .NET 在探索 DWG 文件底层标记方面的强大功能。请遵循我们的分步指南。
 ### [在 C# 中将文本添加到 DWG 文件 - Aspose.CAD 教程](./adding-text-to-dwg/)
 了解如何使用 C# 和 Aspose.CAD 将文本添加到 DWG 文件。请按照此分步教程进行无缝集成。浏览 Aspose.CAD 文档以获得全面的指导。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

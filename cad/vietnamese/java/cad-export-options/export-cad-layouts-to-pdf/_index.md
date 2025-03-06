@@ -3,10 +3,16 @@ title: Xuất bố cục CAD sang PDF bằng Aspose.CAD cho Java
 linktitle: Xuất bố cục CAD sang PDF
 second_title: API Java Aspose.CAD
 description: Khám phá Aspose.CAD cho Java để dễ dàng xuất bố cục CAD sang PDF. Hiệu quả, đáng tin cậy và thân thiện với nhà phát triển.
-type: docs
 weight: 11
 url: /vi/java/cad-export-options/export-cad-layouts-to-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Xuất bố cục CAD sang PDF bằng Aspose.CAD cho Java
+
 ## Giới thiệu
 
 Trong lĩnh vực thiết kế có sự hỗ trợ của máy tính (CAD) ngày càng phát triển, Aspose.CAD cho Java nổi bật như một công cụ mạnh mẽ để thao tác và chuyển đổi các tệp CAD. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn quy trình xuất bố cục CAD sang PDF bằng Aspose.CAD cho Java. Cho dù bạn là nhà phát triển dày dạn kinh nghiệm hay chỉ mới bước chân vào thế giới CAD, hướng dẫn từng bước này sẽ giúp bạn khai thác toàn bộ tiềm năng của thư viện Java linh hoạt này.
@@ -107,3 +113,9 @@ Câu trả lời 4: Tự động chia tỷ lệ bố cục sẽ điều chỉnh 
 ### Câu hỏi 5: Tôi có thể tùy chỉnh hình thức của tệp PDF đã xuất không?
 
 Câu trả lời 5: Có, bạn có thể tùy chỉnh các tùy chọn đồ họa trong mã để kiểm soát chất lượng và hình thức của tệp PDF đã xuất.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

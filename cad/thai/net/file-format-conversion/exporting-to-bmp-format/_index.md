@@ -3,10 +3,16 @@ title: การส่งออกเป็นรูปแบบ BMP - บทช
 linktitle: ส่งออกเป็นรูปแบบ BMP
 second_title: Aspose.CAD .NET - รูปแบบไฟล์ CAD และ BIM
 description: สำรวจโลกที่ไร้รอยต่อของการส่งออกภาพ 3 มิติไปยัง BMP โดยใช้ Aspose.CAD สำหรับ .NET ปฏิบัติตามบทช่วยสอนของเราเพื่อรับประสบการณ์ที่ไม่ยุ่งยาก
-type: docs
 weight: 11
 url: /th/net/file-format-conversion/exporting-to-bmp-format/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# การส่งออกเป็นรูปแบบ BMP - บทช่วยสอน Aspose.CAD
+
 ## การแนะนำ
 
 ในโลกแบบไดนามิกของการพัฒนาซอฟต์แวร์ Aspose.CAD สำหรับ .NET มีความโดดเด่นในฐานะเครื่องมืออันทรงพลังสำหรับการจัดการไฟล์ Computer-Aided Design (CAD) หากคุณต้องการส่งออกรูปภาพ CAD เป็นรูปแบบ BMP ที่ใช้กันอย่างแพร่หลาย บทช่วยสอนนี้คือแนวทางปฏิบัติของคุณ ในคำแนะนำแบบทีละขั้นตอนนี้ เราจะสำรวจกระบวนการส่งออกรูปภาพ 3 มิติไปยัง BMP โดยใช้ Aspose.CAD สำหรับ .NET มาดำน้ำกันเถอะ!
@@ -94,3 +100,10 @@ image.Save(outPath, bmpOptions);
 ### คำถามที่ 5: ฉันสามารถซื้อ Aspose.CAD สำหรับ .NET ได้หรือไม่
 
  A5: ได้ คุณสามารถซื้อ Aspose.CAD ได้[ที่นี่](https://purchase.aspose.com/buy) เพื่อปลดล็อกศักยภาพสูงสุดสำหรับโครงการของคุณ
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Экспорт определенного слоя чертежа DXF в 
 linktitle: Экспорт определенного слоя рисунка DXF в PDF с помощью Java
 second_title: API Aspose.CAD Java
 description: Легко экспортируйте определенные слои из чертежей DXF в PDF с помощью Aspose.CAD для Java. Следуйте этому пошаговому руководству для бесшовной интеграции.
-type: docs
 weight: 18
 url: /ru/java/additional-features/export-specific-layer-to-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Экспорт определенного слоя чертежа DXF в PDF с помощью Aspose.CAD для Java
+
 ## Введение
 
 В области разработки Java Aspose.CAD выделяется как мощный инструмент для работы с файлами автоматизированного проектирования (САПР). Среди его универсальных функций ценной возможностью является возможность экспорта определенных слоев из чертежа DXF в файл PDF. Это руководство проведет вас через этот процесс, предлагая пошаговые инструкции по использованию всего потенциала Aspose.CAD для Java.
@@ -104,3 +110,9 @@ A2: Aspose.CAD поддерживает различные версии файл
 ### Вопрос 5: Где я могу получить дополнительную поддержку или помощь?
 
 A5: Посетите[Форум Aspose.CAD](https://forum.aspose.com/c/cad/19) за поддержку сообщества и обсуждения.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

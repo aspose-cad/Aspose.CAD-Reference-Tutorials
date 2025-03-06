@@ -3,10 +3,16 @@ title: Eksportowanie określonych układów do formatu PDF - Przewodnik Aspose.C
 linktitle: Eksportowanie określonych układów do pliku PDF
 second_title: Aspose.CAD .NET - Format plików CAD i BIM
 description: Dowiedz się, jak eksportować określone układy do formatu PDF za pomocą Aspose.CAD dla .NET. Przewodnik krok po kroku dotyczący bezproblemowej integracji.
-type: docs
 weight: 13
 url: /pl/net/advanced-export-techniques/exporting-specific-layouts-to-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Eksportowanie określonych układów do formatu PDF - Przewodnik Aspose.CAD
+
 ## Wstęp
 
 Witamy w naszym przewodniku krok po kroku dotyczącym eksportowania określonych układów do formatu PDF przy użyciu Aspose.CAD dla .NET. Aspose.CAD to potężna biblioteka, która umożliwia programistom płynną pracę z formatami plików CAD. W tym samouczku skupimy się na eksportowaniu określonych układów z pliku DWG do formatu PDF przy użyciu Aspose.CAD w środowisku .NET.
@@ -110,3 +116,9 @@ Odpowiedź 2: Tak, Aspose.CAD obsługuje różne formaty CAD, w tym DWG, DXF, DW
 ### P5: Czy dostępny jest bezpłatny okres próbny?
 
  Odpowiedź 5: Tak, możesz uzyskać dostęp do bezpłatnego okresu próbnego[Tutaj](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

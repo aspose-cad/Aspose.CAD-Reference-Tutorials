@@ -3,10 +3,16 @@ title: IFC ファイルを PNG にエクスポートする - Aspose.CAD チュ�
 linktitle: IFC ファイルを PNG にエクスポートする
 second_title: Aspose.CAD .NET - CAD および BIM ファイル形式
 description: IFC から PNG へのシームレスな変換のための堅牢なソリューションである Aspose.CAD for .NET を探索してください。 CAD ファイルを効率的に処理するには、今すぐダウンロードしてください。
-type: docs
 weight: 10
 url: /ja/net/exporting-to-image-formats/exporting-ifc-files-to-png/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# IFC ファイルを PNG にエクスポートする - Aspose.CAD チュートリアル
+
 ## 導入
 
 コンピュータ支援設計 (CAD) のダイナミックな世界では、効率的なファイル変換が非常に重要です。 Aspose.CAD for .NET は、IFC (Industry Foundation Classes) ファイルを PNG 形式にエクスポートするためのシームレスな機能を提供する強力なツールとして登場しました。このステップバイステップのチュートリアルでは、Aspose.CAD をスムーズに操作できるようにプロセスをガイドします。
@@ -103,3 +109,9 @@ A1: いいえ、Aspose.CAD for .NET は Windows 環境向けに特別に設計�
 ### Q5: インストール中に問題が発生した場合はどうすればよいですか?
 
  A5: ドキュメントを確認するか、サポートを求めてください。[Aspose.CAD フォーラム](https://forum.aspose.com/c/cad/19).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

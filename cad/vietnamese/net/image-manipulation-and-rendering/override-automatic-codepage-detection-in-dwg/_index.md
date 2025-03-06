@@ -3,10 +3,16 @@ title: Ghi đè phát hiện trang mã tự động trong tệp DWG - Hướng d
 linktitle: Ghi đè phát hiện trang mã tự động trong tệp DWG
 second_title: Aspose.CAD .NET - Định dạng tệp CAD và BIM
 description: Khám phá cách ghi đè tính năng phát hiện trang mã tự động trong tệp DWG bằng Aspose.CAD cho .NET. Nâng cao khả năng xử lý tệp CAD của bạn một cách dễ dàng.
-type: docs
 weight: 14
 url: /vi/net/image-manipulation-and-rendering/override-automatic-codepage-detection-in-dwg/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ghi đè phát hiện trang mã tự động trong tệp DWG - Hướng dẫn Aspose.CAD
+
 ## Giới thiệu
 
 Khai thác toàn bộ tiềm năng của Aspose.CAD cho .NET sẽ mở ra một thế giới khả năng cho các nhà phát triển làm việc với các tệp DWG. Trong hướng dẫn này, chúng ta sẽ đi sâu vào một khía cạnh cụ thể: ghi đè tính năng phát hiện trang mã tự động. Hiểu và triển khai tính năng này có thể nâng cao đáng kể khả năng xử lý tệp CAD của bạn.
@@ -87,3 +93,9 @@ Câu trả lời 1: Aspose.CAD cho .NET được thiết kế chủ yếu cho C#
 ### Câu hỏi 5: Tôi có thể tìm tài liệu chi tiết ở đâu?
 
  A5: Tham khảo toàn diện[Tài liệu Aspose.CAD](https://reference.aspose.com/cad/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

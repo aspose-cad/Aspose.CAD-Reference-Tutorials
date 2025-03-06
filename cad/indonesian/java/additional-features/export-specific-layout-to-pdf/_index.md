@@ -3,10 +3,16 @@ title: Ekspor Tata Letak DXF Tertentu ke PDF dengan Aspose.CAD untuk Java
 linktitle: Ekspor Tata Letak DXF Tertentu ke PDF dengan Java
 second_title: Aspose.CAD Java API
 description: Jelajahi konversi DXF ke PDF yang lancar dengan Aspose.CAD untuk Java. Ekspor tata letak tertentu dengan mudah dan presisi.
-type: docs
 weight: 17
 url: /id/java/additional-features/export-specific-layout-to-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ekspor Tata Letak DXF Tertentu ke PDF dengan Aspose.CAD untuk Java
+
 ## Perkenalan
 
 Jika Anda seorang pengembang Java yang bekerja dengan gambar CAD, Anda akan memahami pentingnya konversi yang efisien dan tepat antara berbagai format. Aspose.CAD untuk Java adalah perpustakaan canggih yang memberdayakan pengembang untuk memanipulasi file CAD dengan lancar. Dalam tutorial ini, kami akan memandu Anda melalui proses mengekspor tata letak DXF tertentu ke PDF menggunakan Aspose.CAD untuk Java.
@@ -105,3 +111,9 @@ A2: Ya, Anda dapat dengan mudah mengonfigurasi opsi rasterisasi berdasarkan kebu
 ### Q5: Bagaimana saya bisa mendapatkan dukungan untuk Aspose.CAD untuk Java?
 
  A5: Kunjungi forum dukungan[Di Sini](https://forum.aspose.com/c/cad/19)untuk bantuan dari komunitas Aspose.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

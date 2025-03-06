@@ -3,10 +3,16 @@ title: Export DWG to PDF or Raster Using Aspose.CAD for Java
 linktitle: Export DWG to PDF or Raster
 second_title: Aspose.CAD Java API
 description: Explore the seamless process of exporting DWG files to PDF or raster images in Java using Aspose.CAD. This step-by-step guide ensures precision and efficiency.
-type: docs
 weight: 13
 url: /java/cad-drawing-conversion/export-dwg-to-pdf-or-raster/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Export DWG to PDF or Raster Using Aspose.CAD for Java
+
 ## Introduction
 
 In the dynamic world of computer-aided design (CAD), efficient handling of drawings is crucial. Aspose.CAD for Java provides a powerful solution for exporting DWG files to PDF or raster images. This tutorial will guide you through the process, ensuring you harness the full potential of Aspose.CAD for Java.
@@ -116,3 +122,10 @@ A4: You can purchase a license [here](https://purchase.aspose.com/buy).
 ### Q5: What units does Aspose.CAD for Java support?
 
 A5: Aspose.CAD for Java supports both metric and imperial units.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

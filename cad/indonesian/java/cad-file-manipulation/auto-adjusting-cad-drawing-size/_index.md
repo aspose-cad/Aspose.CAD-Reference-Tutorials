@@ -3,10 +3,16 @@ title: Menyesuaikan Ukuran Gambar CAD Secara Otomatis Menggunakan Aspose.CAD unt
 linktitle: Menyesuaikan Ukuran Gambar CAD Secara Otomatis
 second_title: Aspose.CAD Java API
 description: Jelajahi proses penyesuaian otomatis ukuran gambar CAD yang mulus di Java menggunakan Aspose.CAD. Ikuti panduan langkah demi langkah kami untuk manipulasi file CAD yang efisien.
-type: docs
 weight: 13
 url: /id/java/cad-file-manipulation/auto-adjusting-cad-drawing-size/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Menyesuaikan Ukuran Gambar CAD Secara Otomatis Menggunakan Aspose.CAD untuk Java
+
 ## Perkenalan
 
 Dalam dunia CAD (Computer-Aided Design), menyesuaikan ukuran gambar adalah persyaratan umum, dan dengan Aspose.CAD untuk Java, prosesnya menjadi lancar. Pustaka canggih ini menyediakan alat komprehensif untuk menangani file CAD dalam aplikasi Java. Dalam tutorial ini, kita akan menjelajahi proses langkah demi langkah penyesuaian otomatis ukuran gambar CAD menggunakan Aspose.CAD.
@@ -107,3 +113,9 @@ A1: Ya, Aspose.CAD mendukung berbagai format CAD, termasuk DWG, DXF, DGN, dan ba
 ### Q5: Apakah tersedia uji coba gratis untuk Aspose.CAD untuk Java?
 
  A5: Ya, Anda dapat mengakses uji coba gratis[Di Sini](https://releases.aspose.com/) untuk mengeksplorasi kemampuan perpustakaan.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

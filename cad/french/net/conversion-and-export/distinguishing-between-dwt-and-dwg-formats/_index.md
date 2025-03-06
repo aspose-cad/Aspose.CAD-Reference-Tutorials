@@ -3,10 +3,16 @@ title: Distinguer les formats DWT et DWG - Guide Aspose.CAD
 linktitle: Distinction entre les formats DWT et DWG
 second_title: Aspose.CAD .NET - Format de fichier CAO et BIM
 description: Explorez les nuances des formats DWT et DWG avec Aspose.CAD pour .NET. Faites la distinction entre ces types de fichiers CAO sans effort.
-type: docs
 weight: 12
 url: /fr/net/conversion-and-export/distinguishing-between-dwt-and-dwg-formats/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Distinguer les formats DWT et DWG - Guide Aspose.CAD
+
 ## Introduction
 
 Dans le domaine de la conception assistée par ordinateur (CAO), la compréhension des formats de fichiers est cruciale pour une collaboration transparente et des flux de travail efficaces. Deux formats courants, DWT et DWG, prêtent souvent à confusion en raison de leurs similitudes. Ce tutoriel vise à démystifier ces formats à l'aide d'Aspose.CAD for .NET, une puissante bibliothèque de manipulation de fichiers CAO.
@@ -93,3 +99,9 @@ A1 : Aspose.CAD pour .NET est conçu pour s'intégrer de manière transparente �
 ### Q5 : Puis-je utiliser Aspose.CAD pour .NET dans des projets commerciaux ?
 
  A5 : Oui, vous pouvez intégrer Aspose.CAD for .NET dans vos projets commerciaux en[acheter une licence](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Apply License by Path in Aspose.CAD for .NET
 linktitle: Apply License by Path
 second_title: Aspose.CAD .NET - CAD and BIM File Format
 description: Unlock the full potential of Aspose.CAD for .NET! Follow our step-by-step guide to apply a license seamlessly. Elevate your CAD file manipulation game now!
-type: docs
 weight: 10
 url: /net/licensing-and-configuration/apply-license-by-path/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Apply License by Path in Aspose.CAD for .NET
+
 ## Introduction
 
 Are you ready to elevate your .NET development game by harnessing the capabilities of Aspose.CAD? In this comprehensive tutorial, we'll guide you through the process of applying a license by path using Aspose.CAD for .NET. Buckle up as we unravel the steps to seamlessly integrate this powerful library into your projects, ensuring a smooth and efficient workflow.
@@ -88,3 +94,10 @@ A4: Obtain a temporary license [here](https://purchase.aspose.com/temporary-lice
 ### Q5: Need assistance or have questions?
 
 A5: Join the Aspose.CAD community at [Aspose.CAD Forum](https://forum.aspose.com/c/cad/19).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

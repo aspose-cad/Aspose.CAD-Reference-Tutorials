@@ -3,10 +3,16 @@ title: DXF-specifieke lay-out exporteren naar PDF - Aspose.CAD-handleiding
 linktitle: DXF-specifieke lay-out exporteren naar PDF
 second_title: Aspose.CAD .NET - CAD- en BIM-bestandsindeling
 description: Leer hoe u DXF-specifieke lay-outs naar PDF kunt exporteren met Aspose.CAD voor .NET. Volg onze stapsgewijze handleiding voor efficiënte en hoogwaardige conversies.
-type: docs
 weight: 11
 url: /nl/net/export-techniques/exporting-dxf-specific-layout-to-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# DXF-specifieke lay-out exporteren naar PDF - Aspose.CAD-handleiding
+
 ## Invoering
 
 Welkom bij de Aspose.CAD-tutorial over het exporteren van DXF-specifieke lay-outs naar PDF met behulp van de krachtige functies van Aspose.CAD voor .NET. Deze stapsgewijze handleiding leidt u door het proces van het converteren van DXF-bestanden naar PDF, waarbij de nadruk ligt op een specifieke lay-out met de naam 'Model'. Aspose.CAD biedt efficiënte tools en functionaliteiten om het conversieproces te stroomlijnen, waardoor hoogwaardige uitvoer voor uw CAD-tekeningen wordt gegarandeerd.
@@ -113,3 +119,9 @@ A2: Ja, u kunt de PDF-uitvoerinstellingen aanpassen door de eigenschappen van`Ca
 ### V5: Waar kan ik een licentie voor Aspose.CAD kopen?
 
  A5: U kunt een licentie kopen voor Aspose.CAD[hier](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

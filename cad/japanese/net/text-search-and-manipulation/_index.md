@@ -3,10 +3,16 @@ title: テキストの検索と操作
 linktitle: テキストの検索と操作
 second_title: Aspose.CAD .NET - CAD および BIM ファイル形式
 description: C# を使用して DWG ファイル内のテキストを検索するチュートリアルで、Aspose.CAD for .NET の機能を最大限に活用してください。 CAD スキルを向上させ、アプリケーションを強化します。
-type: docs
 weight: 28
 url: /ja/net/text-search-and-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# テキストの検索と操作
+
 
 ## 導入
 
@@ -36,3 +42,9 @@ CAD スキルを向上させる準備はできていますか?今すぐチュー
 ## テキストの検索と操作のチュートリアル
 ### [C# を使用した DWG ファイル内のテキストの検索 - Aspose.CAD チュートリアル](./searching-text-in-dwg-files/)
 このステップバイステップ ガイドを使用して、Aspose.CAD for .NET を探索し、DWG ファイル内のテキスト検索をマスターしてください。今すぐ CAD アプリケーションを強化しましょう!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

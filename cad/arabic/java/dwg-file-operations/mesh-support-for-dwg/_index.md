@@ -3,10 +3,16 @@ title: تمكين دعم الشبكة لملفات DWG في Java
 linktitle: تمكين دعم الشبكة لملفات DWG في Java
 second_title: Aspose.CAD جافا API
 description: تعرف على كيفية تمكين دعم الشبكة لملفات DWG في Java باستخدام Aspose.CAD. دليل خطوة بخطوة للتلاعب بالرسم ثلاثي الأبعاد بسلاسة. #برمجة_جافا #CADFiles
-type: docs
 weight: 12
 url: /ar/java/dwg-file-operations/mesh-support-for-dwg/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تمكين دعم الشبكة لملفات DWG في Java
+
 ## مقدمة
 
 في عالم برمجة Java الديناميكي، يعد التعامل مع ملفات CAD بكفاءة أمرًا بالغ الأهمية. يأتي Aspose.CAD for Java للإنقاذ، حيث يوفر أدوات قوية للتعامل مع ملفات DWG. في هذا البرنامج التعليمي، سوف نتعمق في تمكين دعم الشبكة لملفات DWG باستخدام Aspose.CAD، مما يسمح لك بالعمل بسلاسة مع الرسومات ثلاثية الأبعاد المعقدة.
@@ -116,3 +122,9 @@ finally
 ### س5: هل تحتاج إلى مساعدة أو لديك أسئلة؟
 
 ج5: قم بزيارة[منتدى Aspose.CAD](https://forum.aspose.com/c/cad/19) للحصول على الدعم المخصص.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Exportáljon beágyazott DGN-t PDF-be az Aspose.CAD for Java segítségé
 linktitle: Beágyazott DGN exportálása
 second_title: Aspose.CAD Java API
 description: Tekintse meg a beágyazott DGN-fájlok PDF-formátumba exportálásáról szóló, lépésről lépésre szóló útmutatót az Aspose.CAD for Java használatával. Bővítse Java-alkalmazásait a zökkenőmentes CAD-fájlkezeléssel.
-type: docs
 weight: 11
 url: /hu/java/dgn-export-options/export-embedded-dgn/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Exportáljon beágyazott DGN-t PDF-be az Aspose.CAD for Java segítségével
+
 ## Bevezetés
 
 Üdvözöljük ebben az átfogó oktatóanyagban a beágyazott DGN-fájlok Aspose.CAD for Java használatával történő exportálásával kapcsolatban. Az Aspose.CAD egy hatékony könyvtár, amely lehetővé teszi a Java fejlesztők számára, hogy zökkenőmentesen dolgozzanak CAD fájlokkal. Ebben az oktatóanyagban lépésről lépésre végigvezetjük a beágyazott DGN-fájlok PDF-formátumba exportálásának folyamatán. Akár tapasztalt fejlesztő, akár most kezdő, ez az oktatóanyag segít az Aspose.CAD képességeinek kihasználásában Java-alkalmazásai fejlesztéséhez.
@@ -103,3 +109,9 @@ Gratulálunk! Sikeresen exportált egy beágyazott DGN-fájlt PDF-be az Aspose.C
 ### 5. kérdés: Hol találom a dokumentációt?
 
  V5: A dokumentáció elérhető[itt](https://reference.aspose.com/cad/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

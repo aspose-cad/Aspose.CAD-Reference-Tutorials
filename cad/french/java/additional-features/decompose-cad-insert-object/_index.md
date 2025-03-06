@@ -3,10 +3,16 @@ title: Décomposer un objet d'insertion CAO avec Aspose.CAD en Java
 linktitle: Décomposer un objet d'insertion CAO avec Java
 second_title: API Java Aspose.CAD
 description: Maîtrisez la décomposition d'objets d'insertion CAO en Java avec Aspose.CAD. Suivez notre guide étape par étape pour une manipulation efficace. Plongez dans le monde de la manipulation CAO.
-type: docs
 weight: 11
 url: /fr/java/additional-features/decompose-cad-insert-object/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Décomposer un objet d'insertion CAO avec Aspose.CAD en Java
+
 ## Introduction
 
 Bienvenue dans notre guide complet sur l'utilisation d'Aspose.CAD pour Java pour décomposer des objets d'insertion CAO. Dans ce didacticiel, nous vous guiderons tout au long du processus de décomposition des objets d'insertion CAO en leurs éléments constitutifs, en vous fournissant un guide étape par étape pour une mise en œuvre transparente. Que vous soyez un développeur chevronné ou que vous débutiez tout juste avec Aspose.CAD, ce didacticiel vous fournira les connaissances nécessaires pour gérer efficacement les objets d'insertion CAO dans vos applications Java.
@@ -110,3 +116,9 @@ Dans ce didacticiel, nous avons exploré le processus de décomposition des obje
 ### Q5 : Existe-t-il des exemples de dessins avec lesquels s’entraîner ?
 
 A5 : Oui, vous pouvez trouver des exemples de dessins dans le répertoire « DXFDrawings » des ressources Aspose.CAD.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

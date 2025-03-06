@@ -3,10 +3,16 @@ title: CAD Export Options
 linktitle: CAD Export Options
 second_title: Aspose.CAD Java API
 description: Effortlessly export AutoCAD images, CAD layouts, IFC, STL files to PDF, BMP, PNG using Aspose.CAD for Java. Simplify your workflow with our step-by-step tutorials. 
-type: docs
 weight: 30
 url: /java/cad-export-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# CAD Export Options
+
 
 ## Introduction
 
@@ -50,3 +56,9 @@ Learn how to export CAD files to PDF effortlessly with Aspose.CAD for Java. Foll
 Convert IFC to PNG effortlessly with Aspose.CAD for Java. Follow our step-by-step tutorial.
 ### [Export STL to PNG with Aspose.CAD for Java](./export-stl-to-png/)
 Explore the seamless process of exporting STL files to PNG in Java with Aspose.CAD. Simplify your workflow and enhance your Java projects effortlessly.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

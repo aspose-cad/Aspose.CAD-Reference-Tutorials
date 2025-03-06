@@ -3,10 +3,16 @@ title: Другие операции САПР
 linktitle: Другие операции САПР
 second_title: API Aspose.CAD Java
 description: Раскройте потенциал Aspose.CAD для Java с помощью наших руководств. От обработки элементов DGN до добавления водяных знаков — легко совершенствуйте свои навыки работы с САПР.
-type: docs
 weight: 32
 url: /ru/java/other-cad-operations/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Другие операции САПР
+
 ## Введение
 
 Добро пожаловать в учебный центр Aspose.CAD для Java, где мы раскрываем возможности этого универсального инструмента, позволяющего разработчикам Java совершенствовать свои навыки САПР. Наши пошаговые руководства обеспечивают плавный процесс интеграции: от обработки сложных элементов DGN до добавления индивидуальности с помощью водяных знаков. Давайте отправимся в путешествие, чтобы раскрыть весь потенциал Aspose.CAD для Java.
@@ -63,3 +69,9 @@ Aspose.CAD for Java открывает перед разработчиками J
 Повысьте точность рисования DWG с помощью Aspose.CAD для Java. Легко редактируйте гиперссылки, обеспечивая точные ссылки.
 ### [Поддержка OBJ - Учебное пособие по Aspose.CAD для Java](./support-of-obj/)
 Изучите потенциал Aspose.CAD для Java в беспрепятственной обработке чертежей OBJ. Легко конвертируйте в PDF с помощью нашего пошагового руководства.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

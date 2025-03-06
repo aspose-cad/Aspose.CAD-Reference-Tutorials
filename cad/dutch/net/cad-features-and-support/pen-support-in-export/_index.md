@@ -3,10 +3,16 @@ title: Verbeter CAD-export met aangepaste penopties in Aspose.CAD voor .NET
 linktitle: Penondersteuning bij exporteren
 second_title: Aspose.CAD .NET - CAD- en BIM-bestandsindeling
 description: Leer hoe u de export van uw CAD-afbeeldingen kunt verbeteren met Aspose.CAD voor .NET. Pas penopties aan voor verbluffende beelden in PDF, PNG, BMP en meer.
-type: docs
 weight: 12
 url: /nl/net/cad-features-and-support/pen-support-in-export/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Verbeter CAD-export met aangepaste penopties in Aspose.CAD voor .NET
+
 ## Invoering
 
 Aspose.CAD voor .NET biedt een krachtige set tools voor het werken met Computer-Aided Design (CAD)-bestanden, waardoor ontwikkelaars CAD-afbeeldingen naadloos kunnen manipuleren en exporteren. Een opvallend kenmerk is de penondersteuning tijdens het exporteren, waardoor gebruikers de start- en eindkapinstellingen voor pennen kunnen aanpassen bij het exporteren van CAD-afbeeldingen naar verschillende formaten zoals PDF, PNG, BMP, GIF, JPEG2000, JPEG, PSD, TIFF en WMF.
@@ -119,3 +125,9 @@ A1: Ja, de penopties kunnen worden toegepast op verschillende afbeeldingsformate
 ### V5: Waar kan ik community-ondersteuning zoeken voor Aspose.CAD voor .NET?
 
  A5: Communiceer met de gemeenschap op de[Aspose.CAD-forum](https://forum.aspose.com/c/cad/19).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

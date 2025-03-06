@@ -3,10 +3,16 @@ title: PLT 和浮水印
 linktitle: PLT 和浮水印
 second_title: Aspose.CAD .NET - CAD 和 BIM 檔案格式
 description: 使用 Aspose.CAD for .NET 釋放 PLT 格式的潛力。透過我們的逐步教程，輕鬆將 PLT 檔案整合到您的應用程式中。
-type: docs
 weight: 37
 url: /zh-hant/net/plt-and-watermarking/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# PLT 和浮水印
+
 
 ## 介紹
 
@@ -46,3 +52,9 @@ Aspose.CAD 不僅提供功能；還提供功能。它打開了創造力之門。
 探索 Aspose.CAD for .NET 中的無縫 PLT 格式支援。按照我們的逐步指南輕鬆將 PLT 檔案整合到您的 .NET 應用程式中。
 ### [在 CAD 繪圖中新增浮水印 - Aspose.CAD 指南](./adding-watermarks-to-cad-drawings/)
 使用 Aspose.CAD for .NET 使用專業浮水印增強您的 CAD 繪圖。按照我們的逐步指南進行個性化和引人入勝的設計。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

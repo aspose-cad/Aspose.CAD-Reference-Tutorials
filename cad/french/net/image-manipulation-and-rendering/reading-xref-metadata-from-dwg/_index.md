@@ -3,10 +3,16 @@ title: Lire des métadonnées XREF à partir de fichiers DWG - Tutoriel Aspose.C
 linktitle: Lecture des métadonnées XREF à partir de fichiers DWG
 second_title: Aspose.CAD .NET - Format de fichier CAO et BIM
 description: Libérez le potentiel d'Aspose.CAD pour .NET avec notre didacticiel étape par étape sur la lecture des métadonnées XREF à partir de fichiers DWG.
-type: docs
 weight: 16
 url: /fr/net/image-manipulation-and-rendering/reading-xref-metadata-from-dwg/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Lire des métadonnées XREF à partir de fichiers DWG - Tutoriel Aspose.CAD
+
 ## Introduction
 
 Êtes-vous prêt à élever vos capacités de manipulation de fichiers CAO à l'aide d'Aspose.CAD pour .NET ? Dans ce guide étape par étape, nous aborderons un aspect spécifique de cette puissante bibliothèque : la lecture des métadonnées XREF à partir de fichiers DWG. Que vous soyez un développeur chevronné ou que vous commenciez tout juste votre parcours de codage, ce didacticiel décomposera le processus en étapes faciles à digérer.
@@ -107,3 +113,9 @@ A1 : Oui, Aspose.CAD pour .NET prend en charge une large gamme de formats de CA
 ### Q5 : Besoin d'aide ou avez des questions spécifiques ?
 
  A5 : Rejoignez la communauté Aspose.CAD sur[Forum Aspose.CAD](https://forum.aspose.com/c/cad/19) pour le soutien d’experts et les discussions.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

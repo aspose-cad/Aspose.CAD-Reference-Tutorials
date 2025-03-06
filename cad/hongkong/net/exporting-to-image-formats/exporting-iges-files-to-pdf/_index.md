@@ -3,10 +3,16 @@ title: 將 IGES 檔案匯出為 PDF - Aspose.CAD 指南
 linktitle: 將 IGES 檔案匯出為 PDF
 second_title: Aspose.CAD .NET - CAD 和 BIM 檔案格式
 description: 了解如何使用 Aspose.CAD for .NET 輕鬆將 IGES 檔案匯出為 PDF。按照我們的逐步指南進行精確的 CAD 檔案操作。
-type: docs
 weight: 11
 url: /zh-hant/net/exporting-to-image-formats/exporting-iges-files-to-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 將 IGES 檔案匯出為 PDF - Aspose.CAD 指南
+
 ## 介紹
 
 在電腦輔助設計 (CAD) 的動態世界中，將 IGES 檔案轉換為 PDF 格式的需求是常見的要求。 Aspose.CAD for .NET 為這項任務提供了強大的解決方案，為處理 CAD 檔案提供了靈活性和精確度。在本教學中，我們將引導您完成使用 Aspose.CAD for .NET 將 IGES 檔案匯出為 PDF 的過程。讓我們深入了解吧！
@@ -118,3 +124,9 @@ A1：是的，Aspose.CAD for .NET 適用於桌面和 Web 應用程序，為 CAD 
 ### Q5：需要協助或有疑問嗎？
 
 A5：加入 Aspose.CAD 社區[支援論壇](https://forum.aspose.com/c/cad/19)以獲得及時的幫助和討論。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

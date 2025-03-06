@@ -3,10 +3,16 @@ title: التصدير إلى تنسيقات الصور
 linktitle: التصدير إلى تنسيقات الصور
 second_title: Aspose.CAD .NET - تنسيق ملف CAD وBIM
 description: يمكنك بسهولة تحويل ملفات IFC إلى PNG باستخدام Aspose.CAD لـ .NET. اكتشف المعالجة السلسة لملفات CAD وتنزيلها لمعالجة الملفات بكفاءة.
-type: docs
 weight: 39
 url: /ar/net/exporting-to-image-formats/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# التصدير إلى تنسيقات الصور
+
 
 ## مقدمة
 
@@ -30,3 +36,9 @@ url: /ar/net/exporting-to-image-formats/
 استكشف Aspose.CAD for .NET، وهو حل قوي للتحويل السلس من IFC إلى PNG. قم بالتنزيل الآن لمعالجة ملفات CAD بكفاءة.
 ### [تصدير ملفات IGES إلى PDF - دليل Aspose.CAD](./exporting-iges-files-to-pdf/)
 تعرف على كيفية تصدير ملفات IGES إلى PDF بسهولة باستخدام Aspose.CAD لـ .NET. اتبع دليلنا خطوة بخطوة للتعامل الدقيق مع ملفات CAD.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

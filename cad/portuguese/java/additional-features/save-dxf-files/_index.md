@@ -3,10 +3,16 @@ title: Salve arquivos DXF com Aspose.CAD em Java
 linktitle: Salvar arquivos DXF com Java
 second_title: API Java Aspose.CAD
 description: Aprenda como salvar arquivos DXF em Java usando Aspose.CAD. Siga nosso guia passo a passo para um gerenciamento eficiente de arquivos CAD.
-type: docs
 weight: 20
 url: /pt/java/additional-features/save-dxf-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Salve arquivos DXF com Aspose.CAD em Java
+
 ## Introdução
 
 Bem-vindo ao nosso tutorial abrangente sobre como salvar arquivos DXF usando Aspose.CAD para Java. Se você deseja gerenciar com eficiência arquivos DXF em seus aplicativos Java, você veio ao lugar certo. Neste guia, orientaremos você passo a passo no processo, garantindo que você compreenda cada conceito completamente.
@@ -104,3 +110,9 @@ A1: Sim, o Aspose.CAD for Java é versátil e pode ser usado em aplicativos desk
 ### Q5: Onde posso encontrar documentação abrangente para Aspose.CAD for Java?
 
  A5: Consulte o[documentação](https://reference.aspose.com/cad/java/) para obter informações detalhadas e exemplos.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

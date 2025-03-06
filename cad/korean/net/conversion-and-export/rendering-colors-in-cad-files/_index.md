@@ -3,10 +3,16 @@ title: CAD 파일의 색상 렌더링 - Aspose.CAD 가이드
 linktitle: CAD 파일의 색상 렌더링
 second_title: Aspose.CAD .NET - CAD 및 BIM 파일 형식
 description: Aspose.CAD를 사용하여 .NET에서 마스터 CAD 파일 렌더링. 생생한 색상을 위한 단계별 가이드를 따르세요.
-type: docs
 weight: 10
 url: /ko/net/conversion-and-export/rendering-colors-in-cad-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# CAD 파일의 색상 렌더링 - Aspose.CAD 가이드
+
 ## 소개
 
 .NET을 사용하여 CAD 파일의 색상을 렌더링하는 데 어려움을 겪고 계십니까? 더 이상 보지 마세요! 이 종합 가이드에서는 강력한 Aspose.CAD 라이브러리를 사용하여 프로세스를 단계별로 안내합니다. 이 튜토리얼을 마치면 CAD 파일에서 색상을 쉽게 렌더링할 수 있는 지식을 갖추게 될 것입니다.
@@ -108,3 +114,9 @@ document.Save(output, saveOptions);
 ### Q5: Aspose.CAD 라이브러리는 어디서 구입할 수 있나요?
 
  A5: Aspose.CAD 구매[여기](https://purchase.aspose.com/buy) 잠재력을 최대한 발휘할 수 있습니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

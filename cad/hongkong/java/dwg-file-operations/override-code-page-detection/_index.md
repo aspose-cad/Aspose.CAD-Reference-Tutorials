@@ -3,10 +3,16 @@ title: 使用 Java 覆蓋 DWG 檔案中的自動程式碼頁偵測
 linktitle: 覆蓋 DWG 檔案中的自動代碼頁偵測
 second_title: Aspose.CAD Java API
 description: 了解如何使用 Aspose.CAD for Java 覆寫 DWG 檔案中的程式碼頁偵測。有效率處理編碼並恢復格式錯誤的 CIF/MIF。
-type: docs
 weight: 13
 url: /zh-hant/java/dwg-file-operations/override-code-page-detection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Java 覆蓋 DWG 檔案中的自動程式碼頁偵測
+
 ## 介紹
 
 歡迎閱讀這份關於如何使用 Aspose.CAD for Java 覆寫 DWG 檔案中的自動程式碼頁偵測的綜合指南。 Aspose.CAD 是一個功能強大的函式庫，使 Java 開發人員能夠使用 CAD 檔案格式，提供廣泛的功能來操作、轉換和匯出 CAD 檔案。
@@ -101,3 +107,9 @@ A3：免費試用版有一些限制，建議查看文件以了解詳細資訊。
 ### Q5：是否有可用於測試目的的臨時許可證？
 
  A5：是的，您可以獲得臨時許可證[這裡](https://purchase.aspose.com/temporary-license/)供測試用。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

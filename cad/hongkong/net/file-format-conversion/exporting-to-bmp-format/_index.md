@@ -3,10 +3,16 @@ title: 匯出為 BMP 格式 - Aspose.CAD 教學課程
 linktitle: 匯出為 BMP 格式
 second_title: Aspose.CAD .NET - CAD 和 BIM 檔案格式
 description: 使用 Aspose.CAD for .NET 探索將 3D 影像匯出為 BMP 的無縫世界。按照我們的教程獲得無憂的體驗。
-type: docs
 weight: 11
 url: /zh-hant/net/file-format-conversion/exporting-to-bmp-format/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 匯出為 BMP 格式 - Aspose.CAD 教學課程
+
 ## 介紹
 
 在軟體開發的動態世界中，Aspose.CAD for .NET 作為處理電腦輔助設計 (CAD) 檔案的強大工具脫穎而出。如果您希望將 CAD 影像匯出為廣泛使用的 BMP 格式，本教學是您的首選指南。在本逐步演練中，我們將探索使用 Aspose.CAD for .NET 將 3D 影像匯出為 BMP 的過程。讓我們深入了解吧！
@@ -94,3 +100,10 @@ A1：是的，Aspose.CAD 支援各種 CAD 檔案格式，為您的專案提供�
 ### Q5：我可以購買 Aspose.CAD for .NET 嗎？
 
  A5: 是的，您可以購買Aspose.CAD[這裡](https://purchase.aspose.com/buy)為您的專案釋放其全部潛力。
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

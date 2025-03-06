@@ -3,10 +3,16 @@ title: Blockattribute aus DWG-Dateien abrufen – Aspose.CAD-Tutorial
 linktitle: Blockattribute aus DWG-Dateien abrufen
 second_title: Aspose.CAD .NET – CAD- und BIM-Dateiformat
 description: Nutzen Sie das Potenzial von CAD-Dateien mit Aspose.CAD für .NET. Blockattribute mühelos extrahieren.
-type: docs
 weight: 10
 url: /de/net/image-manipulation-and-rendering/getting-block-attributes-from-dwg/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Blockattribute aus DWG-Dateien abrufen – Aspose.CAD-Tutorial
+
 ## Einführung
 
 In der dynamischen Welt des computergestützten Designs (CAD) ist das Extrahieren wertvoller Informationen aus DWG-Dateien für viele Anwendungen von entscheidender Bedeutung. Aspose.CAD für .NET bietet eine leistungsstarke Lösung für die effiziente Arbeit mit CAD-Dateien. In diesem Tutorial werden wir Schritt für Schritt in den Prozess des Abrufens von Blockattributen aus DWG-Dateien mit Aspose.CAD eintauchen.
@@ -93,3 +99,9 @@ A1: Ja, Aspose.CAD unterstützt verschiedene CAD-Formate, einschließlich DWG, D
 ### F5: Wo finde ich die Dokumentation für Aspose.CAD für .NET?
 
  A5: Sehen Sie sich die umfassende Übersicht an[Dokumentation](https://reference.aspose.com/cad/net/) Ausführliche Informationen und Beispiele finden Sie hier.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Zastąp czcionkę określonego stylu w formacie DWG za pomocą Aspose.CAD
 linktitle: Zastąp czcionkę określonego stylu w formacie DWG
 second_title: Aspose.CAD API Java
 description: Dowiedz się, jak zastępować czcionki w plikach DWG przy użyciu Aspose.CAD dla Java. Przewodnik krok po kroku dotyczący precyzyjnego dostosowywania stylów.
-type: docs
 weight: 12
 url: /pl/java/cad-text-and-annotation/substitute-font-of-particular-style-in-dwg/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Zastąp czcionkę określonego stylu w formacie DWG za pomocą Aspose.CAD dla Java
+
 ## Wstęp
 
 W świecie CAD (projektowanie wspomagane komputerowo) precyzja i szczegółowość są najważniejsze. Aspose.CAD dla Java jawi się jako potężne narzędzie do manipulowania rysunkami CAD, zapewniające programistom rozbudowane funkcjonalności. Jedną z takich istotnych funkcji jest możliwość zastępowania czcionek w pliku DWG, zapewniając spójność i dostosowanie.
@@ -92,3 +98,9 @@ O4: Chociaż przykład skupia się na formacie DWG, podobne zasady można zastos
 ### P5: Jak mogę uzyskać wsparcie dla Aspose.CAD dla Java?
 
 A5: Odwiedź[Forum Aspose.CAD](https://forum.aspose.com/c/cad/19) za wsparcie społeczności i dyskusje.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

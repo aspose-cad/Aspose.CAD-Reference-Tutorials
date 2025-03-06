@@ -3,10 +3,16 @@ title: Định dạng xuất CAD
 linktitle: Định dạng xuất CAD
 second_title: Aspose.CAD .NET - Định dạng tệp CAD và BIM
 description: Dễ dàng làm chủ các định dạng xuất CAD với Aspose.CAD cho .NET. Tìm hiểu cách chuyển đổi bố cục CAD, xuất tệp DGN sang PDF và hình ảnh raster thông qua các hướng dẫn.
-type: docs
 weight: 22
 url: /vi/net/cad-export-formats/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Định dạng xuất CAD
+
 
 ## Giới thiệu
 
@@ -38,3 +44,9 @@ Tìm hiểu cách xuất DGN như một phần của DWG trong Aspose.CAD cho .N
 Tìm hiểu cách xuất tệp DGN sang PDF dễ dàng với Aspose.CAD cho .NET. Hướng dẫn từng bước để thao tác liền mạch với tệp CAD.
 ### [Xuất DGN sang hình ảnh raster trong Aspose.CAD cho .NET](./export-dgn-to-raster-image/)
 Chuyển đổi DGN sang hình ảnh raster dễ dàng bằng Aspose.CAD cho .NET. Khám phá hướng dẫn từng bước và giải phóng sức mạnh của .NET trong thao tác tệp CAD.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

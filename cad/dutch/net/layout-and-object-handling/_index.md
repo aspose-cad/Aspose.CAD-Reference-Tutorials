@@ -3,10 +3,16 @@ title: Lay-out en objectbehandeling
 linktitle: Lay-out en objectbehandeling
 second_title: Aspose.CAD .NET - CAD- en BIM-bestandsindeling
 description: Beheers moeiteloos de export van DXF-lay-outs, het opslaan van bestanden, blokknippen en ACAD-proxy-entiteiten voor verbeterd CAD-ontwerp met Aspose.CAD voor .NET.
-type: docs
 weight: 33
 url: /nl/net/layout-and-object-handling/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Lay-out en objectbehandeling
+
 
 ## Invoering
 
@@ -38,3 +44,9 @@ Ontdek de kracht van Aspose.CAD voor .NET. Leer moeiteloos DXF-bestanden opslaan
 Leer hoe u block clipping in CAD implementeert met Aspose.CAD voor .NET. Verbeter uw ontwerpmogelijkheden met deze stapsgewijze zelfstudie.
 ### [Werken met ACAD-proxy-entiteiten - Aspose.CAD-handleiding](./working-with-acad-proxy-entities/)
 Ontdek Aspose.CAD voor .NET en stroomlijn uw CAD-workflows. Converteer, bewerk en beheer ACAD-proxy-entiteiten moeiteloos.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

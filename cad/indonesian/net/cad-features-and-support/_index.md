@@ -3,10 +3,16 @@ title: Fitur dan Dukungan CAD
 linktitle: Fitur dan Dukungan CAD
 second_title: Aspose.CAD .NET - Format File CAD dan BIM
 description: Buka potensi penuh fitur CAD dengan tutorial Aspose.CAD untuk .NET. Pelajari dukungan 3D untuk DGN V7, penanganan mesh, penyesuaian pena, dan banyak lagi dengan mudah.
-type: docs
 weight: 23
 url: /id/net/cad-features-and-support/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Fitur dan Dukungan CAD
+
 
 ## Perkenalan
 
@@ -80,3 +86,9 @@ Jelajahi Aspose.CAD untuk fitur canggih .NET untuk menangani file DGN. Ikuti pan
 Jelajahi Aspose.CAD untuk dukungan .NET yang lancar untuk DGN VKonversi file DGN menjadi gambar raster dengan mudah dengan panduan langkah demi langkah.
 ### [Dukungan 3D untuk DGN V7 di Aspose.CAD untuk .NET](./support-of-3d-for-dgn-v7/)
 Buka kekuatan dukungan 3D untuk DGN V7 di Aspose.CAD untuk .NET. Ikuti tutorial langkah demi langkah kami.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

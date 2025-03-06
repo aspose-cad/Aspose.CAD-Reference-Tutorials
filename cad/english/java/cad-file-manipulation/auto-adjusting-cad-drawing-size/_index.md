@@ -3,10 +3,16 @@ title: Auto Adjusting CAD Drawing Size Using Aspose.CAD for Java
 linktitle: Auto Adjusting CAD Drawing Size
 second_title: Aspose.CAD Java API
 description: Explore the seamless process of auto-adjusting CAD drawing sizes in Java using Aspose.CAD. Follow our step-by-step guide for efficient CAD file manipulation.
-type: docs
 weight: 13
 url: /java/cad-file-manipulation/auto-adjusting-cad-drawing-size/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Auto Adjusting CAD Drawing Size Using Aspose.CAD for Java
+
 ## Introduction
 
 In the world of CAD (Computer-Aided Design), adjusting drawing sizes is a common requirement, and with Aspose.CAD for Java, it becomes a seamless process. This powerful library provides comprehensive tools for handling CAD files in Java applications. In this tutorial, we will explore the step-by-step process of auto-adjusting CAD drawing sizes using Aspose.CAD.
@@ -107,3 +113,10 @@ A4: Join the Aspose.CAD community [forum](https://forum.aspose.com/c/cad/19) for
 ### Q5: Is there a free trial available for Aspose.CAD for Java?
 
 A5: Yes, you can access the free trial [here](https://releases.aspose.com/) to explore the library's capabilities.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

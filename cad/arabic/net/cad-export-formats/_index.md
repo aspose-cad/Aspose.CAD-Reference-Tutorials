@@ -3,10 +3,16 @@ title: تنسيقات تصدير CAD
 linktitle: تنسيقات تصدير CAD
 second_title: Aspose.CAD .NET - تنسيق ملف CAD وBIM
 description: إتقان تنسيقات تصدير CAD بسهولة باستخدام Aspose.CAD لـ .NET. تعلم كيفية تحويل تخطيطات CAD، وتصدير ملفات DGN إلى PDF والصور النقطية من خلال البرامج التعليمية.
-type: docs
 weight: 22
 url: /ar/net/cad-export-formats/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تنسيقات تصدير CAD
+
 
 ## مقدمة
 
@@ -38,3 +44,9 @@ url: /ar/net/cad-export-formats/
 تعرف على كيفية تصدير ملفات DGN إلى PDF بسهولة باستخدام Aspose.CAD لـ .NET. دليل خطوة بخطوة للتعامل السلس مع ملفات CAD.
 ### [تصدير DGN إلى صورة نقطية في Aspose.CAD لـ .NET](./export-dgn-to-raster-image/)
 قم بتحويل DGN إلى صور نقطية بسهولة باستخدام Aspose.CAD لـ .NET. استكشف الدليل التفصيلي خطوة بخطوة وأطلق العنان لقوة .NET في معالجة ملفات CAD.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

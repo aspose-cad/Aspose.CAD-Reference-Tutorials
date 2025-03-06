@@ -3,10 +3,16 @@ title: Ajout de filigranes aux dessins CAO - Guide Aspose.CAD
 linktitle: Ajout de filigranes aux dessins CAO
 second_title: Aspose.CAD .NET - Format de fichier CAO et BIM
 description: Améliorez vos dessins CAO avec des filigranes professionnels à l'aide d'Aspose.CAD pour .NET. Suivez notre guide étape par étape pour des conceptions personnalisées et attrayantes.
-type: docs
 weight: 11
 url: /fr/net/plt-and-watermarking/adding-watermarks-to-cad-drawings/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ajout de filigranes aux dessins CAO - Guide Aspose.CAD
+
 ## Introduction
 
 Cherchez-vous à améliorer vos dessins CAO en ajoutant des filigranes professionnels ? Aspose.CAD pour .NET fournit une solution robuste pour intégrer de manière transparente des filigranes dans vos fichiers CAO. Dans ce guide étape par étape, nous vous guiderons tout au long du processus d'ajout de filigranes à l'aide d'Aspose.CAD, garantissant que vos dessins transmettent non seulement des informations critiques, mais portent également votre marque unique.
@@ -104,3 +110,9 @@ A4 : Oui, vous pouvez explorer les fonctionnalités d'Aspose.CAD avec un essai g
 ### Q5 : Où puis-je trouver de l'assistance pour Aspose.CAD ?
 
  A5 : Pour toute question ou assistance, visitez le[Forum Aspose.CAD](https://forum.aspose.com/c/cad/19).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Ekspor DGN Tersemat ke PDF dengan Aspose.CAD untuk Java
 linktitle: Ekspor Tertanam DGN
 second_title: Aspose.CAD Java API
 description: Jelajahi panduan langkah demi langkah tentang mengekspor file DGN yang disematkan ke PDF menggunakan Aspose.CAD untuk Java. Sempurnakan aplikasi Java Anda dengan manipulasi file CAD yang lancar.
-type: docs
 weight: 11
 url: /id/java/dgn-export-options/export-embedded-dgn/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ekspor DGN Tersemat ke PDF dengan Aspose.CAD untuk Java
+
 ## Perkenalan
 
 Selamat datang di tutorial komprehensif tentang mengekspor file DGN yang disematkan menggunakan Aspose.CAD untuk Java. Aspose.CAD adalah perpustakaan canggih yang memungkinkan pengembang Java bekerja dengan file CAD dengan lancar. Dalam tutorial ini, kami akan memandu Anda melalui proses mengekspor file DGN yang disematkan ke PDF menggunakan petunjuk langkah demi langkah. Baik Anda seorang pengembang berpengalaman atau baru memulai, tutorial ini akan membantu Anda memanfaatkan kemampuan Aspose.CAD untuk menyempurnakan aplikasi Java Anda.
@@ -103,3 +109,9 @@ A3: Anda dapat mencari dukungan dari komunitas Aspose.CAD di[forum](https://foru
 ### Q5: Di mana saya dapat menemukan dokumentasinya?
 
  A5: Dokumentasi tersedia[Di Sini](https://reference.aspose.com/cad/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

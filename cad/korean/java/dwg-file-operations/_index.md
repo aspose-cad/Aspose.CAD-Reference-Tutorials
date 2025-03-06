@@ -3,10 +3,16 @@ title: DWG 파일 작업
 linktitle: DWG 파일 작업
 second_title: Aspose.CAD 자바 API
 description: Aspose.CAD 튜토리얼을 통해 Java 기술을 향상하세요. 이미지 가져오기, 레이아웃 목록, 메시 지원, 코드 페이지 재정의 및 DWG에서 이미지로 쉽게 변환하는 방법을 알아보세요.
-type: docs
 weight: 26
 url: /ko/java/dwg-file-operations/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# DWG 파일 작업
+
 ## 소개
 
 DWG 파일 작업 기술을 향상시키고 싶은 Java 팬이신가요? 더 이상 보지 마세요! Aspose.CAD for Java를 사용하는 포괄적인 튜토리얼은 귀하에게 맞춰져 있습니다. 효율적인 개발과 원활한 통합의 매혹적인 세계를 살펴보겠습니다.
@@ -44,3 +50,10 @@ Aspose.CAD를 사용하여 Java에서 DWG 파일에 대한 메시 지원을 활�
 Java용 Aspose.CAD를 사용하여 DWG 파일의 코드 페이지 감지를 재정의하는 방법을 알아보세요. 인코딩을 효율적으로 처리하고 잘못된 CIF/MIF를 복구합니다.
 ### [Java를 사용하여 특정 DWG를 이미지로 변환](./convert-dwg-to-image/)
 Java용 Aspose.CAD를 사용하여 DWG를 이미지로 원활하게 변환하는 방법을 살펴보세요. 효율적인 파일 형식 변환을 위한 단계별 가이드를 따르세요.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

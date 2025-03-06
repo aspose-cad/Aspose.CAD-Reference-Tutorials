@@ -3,10 +3,16 @@ title: Μετρημένη άδεια χρήσης στο Aspose.CAD
 linktitle: Μετρημένη άδεια χρήσης στο Aspose.CAD
 second_title: Aspose.CAD Java API
 description: Μάθετε πώς να κατακτήσετε τη μετρημένη άδεια χρήσης στο Aspose.CAD για Java με αυτόν τον περιεκτικό οδηγό. Βελτιστοποιήστε την επεξεργασία CAD για αποτελεσματικότητα και οικονομική απόδοση.
-type: docs
 weight: 10
 url: /el/java/licensing-and-configuration/metered-licensing-in-aspose-cad/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Μετρημένη άδεια χρήσης στο Aspose.CAD
+
 ## Εισαγωγή
 
 Ξεκλειδώστε πλήρως τις δυνατότητες του Aspose.CAD για Java με μετρημένη άδεια χρήσης! Αυτός ο οδηγός βήμα προς βήμα θα σας καθοδηγήσει στη διαδικασία ρύθμισης της μετρημένης άδειας χρήσης, διασφαλίζοντας την απρόσκοπτη ενσωμάτωση και τη βέλτιστη χρήση αυτής της πανίσχυρης βιβλιοθήκης Java για Σχεδιασμό με Υποβοήθηση Υπολογιστή (CAD). Από τις προϋποθέσεις μέχρι την εισαγωγή πακέτων και την εκτέλεση παραδειγμάτων, αυτό το σεμινάριο τα καλύπτει όλα.
@@ -94,3 +100,9 @@ System.out.println("Consumption quantity after processing: " + quantity);
 ### Ε5: Χρειάζεστε υποστήριξη της κοινότητας ή έχετε συγκεκριμένες ερωτήσεις;
 
  A5: Μεταβείτε στο φόρουμ Aspose.CAD[εδώ](https://forum.aspose.com/c/cad/19).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Stöd för lager med Aspose.CAD i Java
 linktitle: Stöd för lager i CAD
 second_title: Aspose.CAD Java API
 description: Stöd för masterlager i Java CAD-utveckling med Aspose.CAD. Organisera och exportera ritningar utan ansträngning.
-type: docs
 weight: 18
 url: /sv/java/advanced-cad-features/support-of-layers-in-cad/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Stöd för lager med Aspose.CAD i Java
+
 ## Introduktion
 
 Lås upp den fulla potentialen hos Aspose.CAD i Java genom att bemästra stödet för lager. Lager spelar en avgörande roll i CAD-ritningar, vilket möjliggör effektiv organisation och manipulation av grafiska element. I den här omfattande handledningen kommer vi att fördjupa oss i krångligheterna med lagerstöd med Aspose.CAD, vilket ger dig en steg-för-steg-guide för att utnyttja denna kraftfulla funktionalitet.
@@ -118,3 +124,9 @@ S2: Ja, Aspose.CAD stöder ett brett utbud av CAD-format, vilket säkerställer 
 ### F5: Var kan jag söka hjälp eller dela med mig av mina erfarenheter med Aspose.CAD?
 
 S5: Gå med i Aspose.CAD-communityt på[forum](https://forum.aspose.com/c/cad/19) för stöd och samarbetsdiskussioner.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

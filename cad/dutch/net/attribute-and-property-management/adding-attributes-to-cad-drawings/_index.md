@@ -3,10 +3,16 @@ title: Attributen toevoegen aan CAD-tekeningen - Aspose.CAD Tutorial
 linktitle: Attributen toevoegen aan CAD-tekeningen
 second_title: Aspose.CAD .NET - CAD- en BIM-bestandsindeling
 description: Verbeter uw CAD-tekeningen met attributen met Aspose.CAD voor .NET. Volg onze stapsgewijze handleiding voor een naadloze integratie.
-type: docs
 weight: 10
 url: /nl/net/attribute-and-property-management/adding-attributes-to-cad-drawings/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Attributen toevoegen aan CAD-tekeningen - Aspose.CAD Tutorial
+
 ## Invoering
 
 Op het gebied van Computer-Aided Design (CAD) is het verrijken van tekeningen met attributen een cruciale stap voor gedetailleerde documentatie en effectieve communicatie. Aspose.CAD voor .NET biedt een robuuste oplossing om attributen naadloos in CAD-tekeningen te integreren. Deze tutorial leidt u door het proces van het toevoegen van attributen aan CAD-tekeningen met behulp van Aspose.CAD, waardoor u de informatie die in uw ontwerpen is ingebed, kunt verbeteren.
@@ -119,3 +125,9 @@ A1: Aspose.CAD ondersteunt verschillende CAD-formaten, waaronder DWG en DXF, waa
 ### V5: Hoe kan ik een tijdelijke licentie voor Aspose.CAD verkrijgen?
 
  A5: Ga voor tijdelijke licentieopties naar[hier](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

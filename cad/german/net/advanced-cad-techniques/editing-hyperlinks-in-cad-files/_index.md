@@ -3,10 +3,16 @@ title: Bearbeiten von Hyperlinks in CAD-Dateien – Aspose.CAD-Tutorial
 linktitle: Bearbeiten von Hyperlinks in CAD-Dateien
 second_title: Aspose.CAD .NET – CAD- und BIM-Dateiformat
 description: Entdecken Sie Aspose.CAD für .NET und lernen Sie, Hyperlinks in CAD-Dateien mühelos zu bearbeiten. Verbessern Sie Ihre CAD-Dateiverwaltungsfähigkeiten mit diesem umfassenden Tutorial.
-type: docs
 weight: 14
 url: /de/net/advanced-cad-techniques/editing-hyperlinks-in-cad-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Bearbeiten von Hyperlinks in CAD-Dateien – Aspose.CAD-Tutorial
+
 ## Einführung
 
 Willkommen zu unserem Schritt-für-Schritt-Tutorial zum Bearbeiten von Hyperlinks in CAD-Dateien mit Aspose.CAD für .NET. Aspose.CAD ist eine leistungsstarke Bibliothek, die Entwicklern die nahtlose Arbeit mit CAD-Dateien ermöglicht. In diesem Tutorial konzentrieren wir uns auf die spezifische Aufgabe der Bearbeitung von Hyperlinks in CAD-Dateien und zeigen, wie man Links effizient ändert und verwaltet.
@@ -103,3 +109,9 @@ A1: Ja, Aspose.CAD unterstützt verschiedene CAD-Formate, einschließlich DWG, D
 ### F5: Benötigen Sie Hilfe oder haben Sie Fragen?
 
  A5: Besuchen Sie unser Support-Forum[Hier](https://forum.aspose.com/c/cad/19).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

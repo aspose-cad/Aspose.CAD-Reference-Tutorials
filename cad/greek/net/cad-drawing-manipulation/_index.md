@@ -3,10 +3,16 @@ title: CAD Drawing Manipulation
 linktitle: CAD Drawing Manipulation
 second_title: Aspose.CAD .NET - Μορφή αρχείου CAD και BIM
 description: Βελτιώστε αβίαστα τα έργα σας CAD με τα μαθήματα Aspose.CAD για .NET. Αλλάξτε το μέγεθος, μετατρέψτε και βελτιστοποιήστε τα σχέδια CAD απρόσκοπτα με τους οδηγούς βήμα προς βήμα.
-type: docs
 weight: 21
 url: /el/net/cad-drawing-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# CAD Drawing Manipulation
+
 
 ## Εισαγωγή
 
@@ -44,3 +50,9 @@ url: /el/net/cad-drawing-manipulation/
 Ανακαλύψτε τη δύναμη του Aspose.CAD για .NET. Ενεργοποιήστε την παρακολούθηση για απρόσκοπτη απόδοση CAD. Ακολουθήστε τον βήμα προς βήμα οδηγό μας για βελτιωμένο έλεγχο και αποτελεσματικότητα.
 ### [Λάβετε το μέγεθος της διάταξης CAD στο Aspose.CAD για .NET](./get-size-of-cad-layout/)
 Μάθετε πώς να ανακτάτε το μέγεθος διάταξης CAD στο .NET χρησιμοποιώντας το Aspose.CAD. Ακολουθήστε τον βήμα προς βήμα οδηγό μας για αποτελεσματική διαχείριση αρχείων CAD.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

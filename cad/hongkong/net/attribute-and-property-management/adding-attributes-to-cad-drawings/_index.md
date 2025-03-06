@@ -3,10 +3,16 @@ title: 在 CAD 繪圖中新增屬性 - Aspose.CAD 教學課程
 linktitle: 為 CAD 工程圖新增屬性
 second_title: Aspose.CAD .NET - CAD 和 BIM 檔案格式
 description: 使用 Aspose.CAD for .NET 透過屬性增強 CAD 繪圖。請按照我們的逐步指南進行無縫整合。
-type: docs
 weight: 10
 url: /zh-hant/net/attribute-and-property-management/adding-attributes-to-cad-drawings/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 CAD 繪圖中新增屬性 - Aspose.CAD 教學課程
+
 ## 介紹
 
 在電腦輔助設計 (CAD) 領域，利用屬性豐富圖面是詳細文件和有效溝通的關鍵步驟。 Aspose.CAD for .NET 提供了一個強大的解決方案，可以將屬性無縫整合到 CAD 繪圖中。本教學將引導您完成使用 Aspose.CAD 在 CAD 繪圖中新增屬性的過程，從而增強設計中嵌入的資訊。
@@ -119,3 +125,9 @@ A1：Aspose.CAD支援各種CAD格式，包括DWG和DXF，確保與各種檔案�
 ### Q5：如何取得Aspose.CAD的臨時授權？
 
  A5：有關臨時許可選項，請訪問[這裡](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

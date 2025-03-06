@@ -3,10 +3,16 @@ title: Χαρακτηριστικά και υποστήριξη CAD
 linktitle: Χαρακτηριστικά και υποστήριξη CAD
 second_title: Aspose.CAD .NET - Μορφή αρχείου CAD και BIM
 description: Ξεκλειδώστε το πλήρες δυναμικό των δυνατοτήτων CAD με τα μαθήματα Aspose.CAD για .NET. Μάθετε υποστήριξη 3D για το DGN V7, χειρισμό πλέγματος, προσαρμογή στυλό και πιο εύκολα.
-type: docs
 weight: 23
 url: /el/net/cad-features-and-support/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Χαρακτηριστικά και υποστήριξη CAD
+
 
 ## Εισαγωγή
 
@@ -80,3 +86,9 @@ Master Aspose.CAD για .NET. Ρυθμίστε φόντο και σχεδιάσ
 Εξερευνήστε το Aspose.CAD για την απρόσκοπτη υποστήριξη του .NET για DGN VConvert files DGN σε εικόνες ράστερ χωρίς κόπο με καθοδήγηση βήμα προς βήμα.
 ### [Υποστήριξη 3D για DGN V7 στο Aspose.CAD για .NET](./support-of-3d-for-dgn-v7/)
 Ξεκλειδώστε τη δύναμη της υποστήριξης 3D για το DGN V7 στο Aspose.CAD για .NET. Ακολουθήστε το βήμα προς βήμα σεμινάριο μας.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

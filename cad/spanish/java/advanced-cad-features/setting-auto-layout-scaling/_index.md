@@ -3,10 +3,16 @@ title: Configuración de la escala de diseño automática con Aspose.CAD para Ja
 linktitle: Configuración de escala de diseño automático
 second_title: API de Java Aspose.CAD
 description: Mejore su flujo de trabajo CAD con Aspose.CAD para Java. Esta guía paso a paso presenta la escala de diseño automática, lo que garantiza una visualización y eficiencia óptimas. Descargue la biblioteca, siga el tutorial y revolucione sus proyectos CAD.
-type: docs
 weight: 17
 url: /es/java/advanced-cad-features/setting-auto-layout-scaling/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Configuración de la escala de diseño automática con Aspose.CAD para Java
+
 ## Introducción
 
 En el dinámico mundo del diseño asistido por computadora (CAD), la eficiencia es clave. Aspose.CAD para Java proporciona un sólido conjunto de herramientas para mejorar su flujo de trabajo CAD. Una de las características destacadas es la escala automática de diseño, una funcionalidad que garantiza que sus diseños se ajusten perfectamente para una visualización óptima. En este tutorial, exploraremos cómo implementar Auto Layout Scaling paso a paso usando Aspose.CAD para Java.
@@ -93,3 +99,9 @@ R1: Aspose.CAD para Java admite varios formatos CAD, incluidos DWG, DXF y DWF.
 ### P5: ¿Cómo puedo buscar ayuda o participar en debates sobre Aspose.CAD para Java?
 
 A5: Visita el[Foro Aspose.CAD](https://forum.aspose.com/c/cad/19) para conectarse con la comunidad y buscar apoyo.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

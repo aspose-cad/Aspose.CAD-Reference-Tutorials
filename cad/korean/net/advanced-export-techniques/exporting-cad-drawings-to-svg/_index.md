@@ -3,10 +3,16 @@ title: CAD 도면을 SVG 형식으로 내보내기 - Aspose.CAD 가이드
 linktitle: CAD 도면을 SVG 형식으로 내보내기
 second_title: Aspose.CAD .NET - CAD 및 BIM 파일 형식
 description: .NET용 Aspose.CAD를 사용하여 CAD 도면을 SVG로 내보내는 원활한 프로세스를 살펴보세요. 유연성과 사용자 정의를 통해 CAD 개발을 강화하세요.
-type: docs
 weight: 15
 url: /ko/net/advanced-export-techniques/exporting-cad-drawings-to-svg/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# CAD 도면을 SVG 형식으로 내보내기 - Aspose.CAD 가이드
+
 ## 소개
 
 역동적인 CAD(컴퓨터 지원 설계) 세계에서 도면을 다양한 형식으로 내보내는 능력은 중요한 기술입니다. SVG(Scalable Vector Graphics)는 확장성과 다양성으로 인해 인기를 얻은 형식 중 하나입니다. 이 튜토리얼에서는 강력한 .NET용 Aspose.CAD 라이브러리를 사용하여 CAD 도면을 SVG로 내보내는 방법을 살펴보겠습니다.
@@ -87,3 +93,9 @@ A2: 예, Aspose.CAD를 사용하면 색상 모드를 선택하여 출력에 유�
 ### Q5: Aspose.CAD와 관련된 지원을 받거나 질문을 하려면 어떻게 해야 합니까?
 
  A5: 커뮤니티 포럼을 방문하세요.[여기](https://forum.aspose.com/c/cad/19) 지원과 토론을 위해.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

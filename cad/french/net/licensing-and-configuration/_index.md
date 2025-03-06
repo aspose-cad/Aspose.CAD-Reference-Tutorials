@@ -3,10 +3,16 @@ title: Licence et configuration
 linktitle: Licence et configuration
 second_title: Aspose.CAD .NET - Format de fichier CAO et BIM
 description: Améliorez votre jeu de manipulation de fichiers CAO avec Aspose.CAD pour .NET ! Appliquez des licences de manière transparente à l'aide de FileStream ou par chemin avec nos didacticiels étape par étape.
-type: docs
 weight: 20
 url: /fr/net/licensing-and-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Licence et configuration
+
 
 ## Introduction
 
@@ -32,3 +38,9 @@ En conclusion, grâce à nos guides étape par étape, vous appliquerez non seul
 Maîtriser Aspose.CAD pour .NET : appliquez des licences de manière transparente à l'aide de FileStream. Explorez le guide étape par étape et libérez le potentiel. Télécharger maintenant!
 ### [Licences limitées dans Aspose.CAD pour .NET](./metered-licensing/)
 Libérez le potentiel d’Aspose.CAD avec des licences limitées dans .NET. Optimisez l’utilisation des ressources en toute transparence. Découvrez notre guide étape par étape.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

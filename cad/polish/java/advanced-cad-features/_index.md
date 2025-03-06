@@ -3,10 +3,16 @@ title: Zaawansowane funkcje CAD
 linktitle: Zaawansowane funkcje CAD
 second_title: Aspose.CAD API Java
 description: Ulepsz swój rozwój CAD dzięki samouczkom Aspose.CAD for Java. Dowiedz się, jak włączać śledzenie, integrować format IGES, obsługiwać siatkę wzorcową, dostosowywać eksport piór, czytać pliki DWT i nie tylko.
-type: docs
 weight: 24
 url: /pl/java/advanced-cad-features/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Zaawansowane funkcje CAD
+
 
 ## Wstęp
 
@@ -66,3 +72,9 @@ Ulepsz swój przepływ pracy CAD dzięki Aspose.CAD dla Java. Ten przewodnik kro
 Obsługa warstwy głównej w programowaniu Java CAD za pomocą Aspose.CAD. Porządkuj i eksportuj rysunki bez wysiłku.
 ### [Wyodrębnij wartość atrybutu bloku z odniesienia zewnętrznego za pomocą Aspose.CAD w Javie](./extract-block-attribute-value/)
 Zapoznaj się z naszym samouczkiem na temat wyodrębniania wartości atrybutów bloków z zewnętrznych odniesień DWG w Javie przy użyciu Aspose.CAD. Usprawnij bez wysiłku swój przepływ prac programistycznych CAD.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

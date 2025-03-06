@@ -3,10 +3,16 @@ title: CAD Dosyalarındaki Köprüleri Düzenleme - Aspose.CAD Eğitimi
 linktitle: CAD Dosyalarındaki Köprüleri Düzenleme
 second_title: Aspose.CAD .NET - CAD ve BIM Dosya Formatı
 description: Aspose.CAD for .NET'i keşfedin ve CAD dosyalarındaki köprüleri zahmetsizce düzenlemeyi öğrenin. Bu kapsamlı eğitimle CAD dosya yönetimi becerilerinizi geliştirin.
-type: docs
 weight: 14
 url: /tr/net/advanced-cad-techniques/editing-hyperlinks-in-cad-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# CAD Dosyalarındaki Köprüleri Düzenleme - Aspose.CAD Eğitimi
+
 ## giriiş
 
 Aspose.CAD for .NET kullanarak CAD dosyalarındaki köprüleri düzenlemeye ilişkin adım adım eğitimimize hoş geldiniz. Aspose.CAD, geliştiricilerin CAD dosyalarıyla sorunsuz bir şekilde çalışmasını sağlayan güçlü bir kütüphanedir. Bu eğitimde, CAD dosyalarındaki köprüleri düzenleme gibi özel bir göreve odaklanacağız ve bağlantıların verimli bir şekilde nasıl değiştirileceğini ve yönetileceğini göstereceğiz.
@@ -103,3 +109,9 @@ Cevap1: Evet, Aspose.CAD, DWG, DXF, DGN ve daha fazlası dahil olmak üzere çe�
 ### S5: Yardıma mı ihtiyacınız var veya sorularınız mı var?
 
  A5: Destek forumumuzu ziyaret edin[Burada](https://forum.aspose.com/c/cad/19).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

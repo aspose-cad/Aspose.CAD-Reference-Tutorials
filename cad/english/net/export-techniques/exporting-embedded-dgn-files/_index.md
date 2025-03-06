@@ -3,10 +3,16 @@ title: Exporting Embedded DGN Files - Aspose.CAD Tutorial
 linktitle: Exporting Embedded DGN Files
 second_title: Aspose.CAD .NET - CAD and BIM File Format
 description: Explore the power of Aspose.CAD for .NET. Learn to export embedded DGN files to PDF effortlessly with this step-by-step tutorial.
-type: docs
 weight: 14
 url: /net/export-techniques/exporting-embedded-dgn-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Exporting Embedded DGN Files - Aspose.CAD Tutorial
+
 ## Introduction
 
 In the dynamic world of software development, Aspose.CAD for .NET stands out as a powerful tool for handling Computer-Aided Design (CAD) files. This tutorial will guide you through the process of exporting embedded DGN files using Aspose.CAD for .NET. Whether you're a seasoned developer or a curious beginner, this step-by-step guide will help you harness the capabilities of Aspose.CAD effectively.
@@ -98,3 +104,10 @@ A4: Obtain a temporary license [here](https://purchase.aspose.com/temporary-lice
 ### Q5: Need assistance or want to engage with the community?
 
 A5: Visit the [Aspose.CAD Forum](https://forum.aspose.com/c/cad/19) for support and discussions.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

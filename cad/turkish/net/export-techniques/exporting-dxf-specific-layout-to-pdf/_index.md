@@ -3,10 +3,16 @@ title: DXF'ye Özel Mizanpajı PDF'ye Aktarma - Aspose.CAD Guide
 linktitle: DXF'ye Özel Düzeni PDF'ye Aktarma
 second_title: Aspose.CAD .NET - CAD ve BIM Dosya Formatı
 description: Aspose.CAD for .NET kullanarak DXF'ye özel mizanpajları PDF'ye nasıl aktaracağınızı öğrenin. Verimli ve kaliteli dönüşümler için adım adım kılavuzumuzu izleyin.
-type: docs
 weight: 11
 url: /tr/net/export-techniques/exporting-dxf-specific-layout-to-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# DXF'ye Özel Mizanpajı PDF'ye Aktarma - Aspose.CAD Guide
+
 ## giriiş
 
 Aspose.CAD for .NET'in güçlü özelliklerini kullanarak DXF'ye özel mizanpajları PDF'ye aktarmayı konu alan Aspose.CAD eğitimine hoş geldiniz. Bu adım adım kılavuz, "Model" adlı belirli bir düzene odaklanarak DXF dosyalarını PDF'ye dönüştürme sürecinde size yol gösterecektir. Aspose.CAD, dönüştürme sürecini kolaylaştırmak için etkili araçlar ve işlevler sağlayarak CAD çizimleriniz için yüksek kaliteli çıktılar sağlar.
@@ -113,3 +119,9 @@ C2: Evet, özelliklerini ayarlayarak PDF çıktı ayarlarını özelleştirebili
 ### S5: Aspose.CAD lisansını nereden satın alabilirim?
 
  Cevap5: Aspose.CAD için lisans satın alabilirsiniz[Burada](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

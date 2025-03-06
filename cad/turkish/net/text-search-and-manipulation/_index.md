@@ -3,10 +3,16 @@ title: Metin Arama ve Manipülasyon
 linktitle: Metin Arama ve Manipülasyon
 second_title: Aspose.CAD .NET - CAD ve BIM Dosya Formatı
 description: Aspose.CAD for .NET'in gücünü, C# kullanarak DWG dosyalarında metin arama konusundaki eğitimlerimizle ortaya çıkarın. CAD becerilerinizi geliştirin ve uygulamalarınızı geliştirin.
-type: docs
 weight: 28
 url: /tr/net/text-search-and-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Metin Arama ve Manipülasyon
+
 
 ## giriiş
 
@@ -36,3 +42,9 @@ CAD becerilerinizi geliştirmeye hazır mısınız? Şimdi eğitimimize dalın v
 ## Metin Arama ve İşleme Eğitimleri
 ### [C# ile DWG Dosyalarında Metin Arama - Aspose.CAD Eğitimi](./searching-text-in-dwg-files/)
 Bu adım adım kılavuzla Aspose.CAD for .NET'i keşfedin ve DWG dosyalarında ana metin aramayı yapın. CAD uygulamalarınızı bugün güçlendirin!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

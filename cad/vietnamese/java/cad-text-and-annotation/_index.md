@@ -3,10 +3,16 @@ title: Văn bản và chú thích CAD
 linktitle: Văn bản và chú thích CAD
 second_title: API Java Aspose.CAD
 description: Nâng cao bản vẽ DWG của bạn một cách dễ dàng với Aspose.CAD cho Java. Làm chủ việc thêm và thay thế phông chữ trong tệp DWG. Hướng dẫn từng bước để hoàn thiện hình ảnh.
-type: docs
 weight: 21
 url: /vi/java/cad-text-and-annotation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Văn bản và chú thích CAD
+
 
 ## Giới thiệu 
 
@@ -36,3 +42,9 @@ Nâng cao bản vẽ DWG của bạn một cách dễ dàng với Aspose.CAD cho
 Nâng cao thiết kế CAD của bạn một cách dễ dàng. Tìm hiểu cách thay thế phông chữ trong tệp DWG bằng Aspose.CAD cho Java. Hướng dẫn từng bước để hoàn thiện hình ảnh.
 ### [Thay thế Phông chữ của một Kiểu Cụ thể trong DWG bằng Aspose.CAD cho Java](./substitute-font-of-particular-style-in-dwg/)
 Tìm hiểu cách thay thế phông chữ trong tệp DWG bằng Aspose.CAD cho Java. Hướng dẫn từng bước để tùy chỉnh kiểu một cách chính xác.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

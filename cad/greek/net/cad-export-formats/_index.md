@@ -3,10 +3,16 @@ title: Μορφές εξαγωγής CAD
 linktitle: Μορφές εξαγωγής CAD
 second_title: Aspose.CAD .NET - Μορφή αρχείου CAD και BIM
 description: Κατακτήστε εύκολα τις μορφές εξαγωγής CAD με το Aspose.CAD για .NET. Μάθετε να μετατρέπετε διατάξεις CAD, να εξάγετε αρχεία DGN σε PDF και εικόνες ράστερ μέσω σεμιναρίων.
-type: docs
 weight: 22
 url: /el/net/cad-export-formats/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Μορφές εξαγωγής CAD
+
 
 ## Εισαγωγή
 
@@ -38,3 +44,9 @@ url: /el/net/cad-export-formats/
 Μάθετε πώς να εξάγετε αρχεία DGN σε PDF χωρίς κόπο με το Aspose.CAD για .NET. Ένας βήμα προς βήμα οδηγός για απρόσκοπτη διαχείριση αρχείων CAD.
 ### [Εξαγωγή DGN σε Εικόνα Raster στο Aspose.CAD για .NET](./export-dgn-to-raster-image/)
 Μετατρέψτε το DGN σε εικόνες ράστερ χωρίς κόπο χρησιμοποιώντας το Aspose.CAD για .NET. Εξερευνήστε τον οδηγό βήμα προς βήμα και απελευθερώστε τη δύναμη του .NET στη διαχείριση αρχείων CAD.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

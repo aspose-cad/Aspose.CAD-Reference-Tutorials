@@ -3,10 +3,16 @@ title: CAD-metagegevens en weergave
 linktitle: CAD-metagegevens en weergave
 second_title: Aspose.CAD Java-API
 description: Ontgrendel de kracht van Aspose.CAD voor Java met onze tutorials! Leer moeiteloos XREF-metagegevens lezen en DWG-documenten omzetten in afbeeldingen voor verbeterde CAD-ontwikkeling.
-type: docs
 weight: 27
 url: /nl/java/cad-meta-data-and-rendering/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# CAD-metagegevens en weergave
+
 
 
 ## Invoering
@@ -33,3 +39,9 @@ Kortom, omarm de kracht van Aspose.CAD voor Java met onze tutorials. Ontgrendel 
 Verken Aspose.CAD voor Java en leer moeiteloos XREF-metagegevens uit DWG-bestanden lezen. Geef uw CAD-ontwikkeling een boost met deze krachtige Java-bibliotheek.
 ### [Render DWG-document naar afbeelding met Aspose.CAD voor Java](./render-dwg-to-image/)
 Ontdek de naadloze integratie van Aspose.CAD voor Java bij het renderen van DWG-documenten naar afbeeldingen. Volg onze stapsgewijze handleiding voor efficiënte resultaten.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

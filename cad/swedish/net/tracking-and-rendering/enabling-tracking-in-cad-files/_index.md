@@ -3,10 +3,16 @@ title: Aktivera spårning i CAD-filer - Aspose.CAD Tutorial
 linktitle: Aktivera spårning i CAD-filer
 second_title: Aspose.CAD .NET - CAD- och BIM-filformat
 description: Master CAD-filspårning med Aspose.CAD för .NET. Följ vår steg-för-steg-guide för exakt rendering och felspårning. Ladda ner nu!
-type: docs
 weight: 10
 url: /sv/net/tracking-and-rendering/enabling-tracking-in-cad-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aktivera spårning i CAD-filer - Aspose.CAD Tutorial
+
 ## Introduktion
 
 Inom CAD-området (Computer-Aided Design) är precision och spårning av största vikt. Aspose.CAD för .NET tillhandahåller en robust lösning för att möjliggöra spårning i CAD-filer. Denna handledning guidar dig genom processen och säkerställer att du utnyttjar den här funktionens fulla potential.
@@ -103,3 +109,9 @@ S3: Problem som saknade teckensnitt eller enheter som inte stöds kan uppstå. K
 ### F5: Kan jag anpassa spårningsfelmeddelandena?
 
 A5: Absolut. Du kan ändra koden för att skräddarsy felmeddelanden efter dina krav.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Répertorier toutes les mises en page dans le dessin AutoCAD avec Java
 linktitle: Répertorier toutes les mises en page dans le dessin AutoCAD avec Java
 second_title: API Java Aspose.CAD
 description: Explorez les dessins AutoCAD sans effort en Java avec Aspose.CAD. Répertoriez toutes les mises en page, extrayez des informations précieuses. Téléchargez-le maintenant pour une intégration transparente !
-type: docs
 weight: 11
 url: /fr/java/dwg-file-operations/list-all-layouts/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Répertorier toutes les mises en page dans le dessin AutoCAD avec Java
+
 ## Introduction
 
 Cherchez-vous à libérer tout le potentiel des dessins AutoCAD dans vos applications Java ? Aspose.CAD pour Java est votre solution incontournable, offrant une intégration transparente pour manipuler et extraire des informations précieuses à partir de fichiers DWG et DXF. Dans ce guide étape par étape, nous vous guiderons tout au long du processus de liste de toutes les mises en page dans un dessin AutoCAD à l'aide d'Aspose.CAD for Java.
@@ -86,3 +92,9 @@ A3 : Oui, vous pouvez trouver des exemples de dessins dans le répertoire « DWG
 ### Q5 : Puis-je essayer Aspose.CAD pour Java avant d'acheter ?
 
  A5 : Certainement ! Profitez d'un essai gratuit auprès de[ici](https://releases.aspose.com/)et découvrez la puissance d'Aspose.CAD pour Java.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

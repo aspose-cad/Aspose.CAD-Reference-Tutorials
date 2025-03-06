@@ -3,10 +3,16 @@ title: Java용 Aspose.CAD를 통한 메시 지원
 linktitle: CAD의 메시 지원
 second_title: Aspose.CAD 자바 API
 description: Aspose.CAD를 사용하여 Java 애플리케이션의 메시 지원을 살펴보세요. CAD 파일을 PDF로 손쉽게 변환하세요.
-type: docs
 weight: 12
 url: /ko/java/advanced-cad-features/mesh-support-in-cad/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java용 Aspose.CAD를 통한 메시 지원
+
 ## 소개
 
 Aspose.CAD for Java는 개발자가 Java 애플리케이션에서 CAD(Computer-Aided Design) 파일을 원활하게 사용할 수 있도록 지원하는 강력한 라이브러리입니다. 이 튜토리얼에서는 메쉬가 포함된 CAD 파일을 PDF 형식으로 변환할 수 있는 Aspose.CAD for Java의 메쉬 지원 기능을 살펴보겠습니다. 아래의 단계별 가이드에 따라 이 라이브러리의 기능을 활용하고 CAD 파일 처리 기능을 향상시키십시오.
@@ -110,3 +116,9 @@ A4: 예, Java용 Aspose.CAD는 PNG, JPEG, BMP 등을 포함한 다양한 출력 
 ### Q5: Java용 Aspose.CAD를 무료로 사용해 볼 수 있나요?
 
  A5: 예, Aspose.CAD for Java의 무료 평가판을 탐색할 수 있습니다.[여기](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

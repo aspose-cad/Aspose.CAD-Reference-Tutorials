@@ -3,10 +3,16 @@ title: Điều chỉnh kích thước bản vẽ CAD bằng loại đơn vị v�
 linktitle: Điều chỉnh kích thước bản vẽ CAD bằng loại đơn vị
 second_title: API Java Aspose.CAD
 description: Khám phá sức mạnh của Aspose.CAD cho Java trong việc điều chỉnh kích thước bản vẽ CAD một cách dễ dàng. Hãy làm theo hướng dẫn từng bước của chúng tôi để có được độ chính xác và khả năng thích ứng.
-type: docs
 weight: 14
 url: /vi/java/cad-file-manipulation/adjusting-cad-drawing-size-using-unit-type/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Điều chỉnh kích thước bản vẽ CAD bằng loại đơn vị với Aspose.CAD cho Java
+
 ## Giới thiệu
 
 Trong lĩnh vực Thiết kế có sự hỗ trợ của máy tính (CAD) ngày càng phát triển, độ chính xác và khả năng thích ứng là điều tối quan trọng. Một yêu cầu chung là điều chỉnh kích thước bản vẽ CAD dựa trên các loại đơn vị cụ thể. Aspose.CAD cho Java nổi lên như một đồng minh mạnh mẽ, cung cấp khả năng liền mạch để thao tác các tệp CAD theo chương trình.
@@ -117,3 +123,9 @@ Câu trả lời 1: Aspose.CAD chủ yếu hỗ trợ Java, nhưng cũng có phi
 ### Câu hỏi 5: Tôi có thể xin giấy phép tạm thời cho Aspose.CAD không?
 
  Câu trả lời 5: Có, bạn có thể lấy giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

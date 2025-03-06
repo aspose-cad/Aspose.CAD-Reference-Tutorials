@@ -3,10 +3,16 @@ title: Xuất bố cục DXF cụ thể sang PDF bằng Aspose.CAD cho Java
 linktitle: Xuất bố cục DXF cụ thể sang PDF bằng Java
 second_title: API Java Aspose.CAD
 description: Khám phá chuyển đổi DXF sang PDF liền mạch với Aspose.CAD cho Java. Dễ dàng xuất bố cục cụ thể với độ chính xác.
-type: docs
 weight: 17
 url: /vi/java/additional-features/export-specific-layout-to-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Xuất bố cục DXF cụ thể sang PDF bằng Aspose.CAD cho Java
+
 ## Giới thiệu
 
 Nếu bạn là nhà phát triển Java làm việc với các bản vẽ CAD, bạn sẽ hiểu tầm quan trọng của việc chuyển đổi hiệu quả và chính xác giữa các định dạng khác nhau. Aspose.CAD cho Java là một thư viện mạnh mẽ cho phép các nhà phát triển thao tác các tệp CAD một cách liền mạch. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn quy trình xuất bố cục DXF cụ thể sang PDF bằng Aspose.CAD cho Java.
@@ -105,3 +111,9 @@ Câu trả lời 2: Có, bạn có thể dễ dàng định cấu hình các tù
 ### Câu hỏi 5: Làm cách nào tôi có thể nhận được hỗ trợ cho Aspose.CAD cho Java?
 
  A5: Truy cập diễn đàn hỗ trợ[đây](https://forum.aspose.com/c/cad/19)để được hỗ trợ từ cộng đồng Aspose.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

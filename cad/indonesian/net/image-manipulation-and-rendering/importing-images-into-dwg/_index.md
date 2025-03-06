@@ -3,10 +3,16 @@ title: Mengimpor Gambar ke File DWG dengan C# - Panduan Aspose.CAD
 linktitle: Mengimpor Gambar ke File DWG dengan C#
 second_title: Aspose.CAD .NET - Format File CAD dan BIM
 description: Pelajari cara mengimpor gambar ke file DWG menggunakan C# dengan Aspose.CAD untuk .NET. Ikuti panduan langkah demi langkah kami untuk integrasi yang lancar.
-type: docs
 weight: 11
 url: /id/net/image-manipulation-and-rendering/importing-images-into-dwg/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Mengimpor Gambar ke File DWG dengan C# - Panduan Aspose.CAD
+
 ## Perkenalan
 
 Dalam bidang desain berbantuan komputer (CAD), memasukkan gambar ke dalam file DWG adalah tugas yang umum dan penting. Aspose.CAD untuk .NET menyediakan seperangkat alat canggih untuk menyederhanakan proses ini, sehingga dapat diakses oleh pengembang C#. Dalam tutorial ini, kita akan mempelajari cara mengimpor gambar ke file DWG langkah demi langkah.
@@ -122,3 +128,9 @@ A1: Aspose.CAD terutama dirancang untuk .NET, tetapi Aspose menyediakan perpusta
 ### Q5: Apakah ada forum komunitas untuk dukungan Aspose.CAD?
 
  A5: Ya, Anda dapat mencari dukungan dan terlibat dengan komunitas[Di Sini](https://forum.aspose.com/c/cad/19).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

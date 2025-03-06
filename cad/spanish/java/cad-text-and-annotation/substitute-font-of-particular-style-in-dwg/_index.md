@@ -3,10 +3,16 @@ title: Sustituir fuente de un estilo particular en DWG usando Aspose.CAD para Ja
 linktitle: Sustituir fuente de un estilo particular en DWG
 second_title: API de Java Aspose.CAD
 description: Aprenda a sustituir fuentes en archivos DWG usando Aspose.CAD para Java. Guía paso a paso para personalizar estilos con precisión.
-type: docs
 weight: 12
 url: /es/java/cad-text-and-annotation/substitute-font-of-particular-style-in-dwg/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Sustituir fuente de un estilo particular en DWG usando Aspose.CAD para Java
+
 ## Introducción
 
 En el mundo del CAD (diseño asistido por computadora), la precisión y el detalle son primordiales. Aspose.CAD para Java surge como una poderosa herramienta para manipular dibujos CAD, proporcionando amplias funcionalidades para los desarrolladores. Una de esas características esenciales es la capacidad de sustituir fuentes dentro de un archivo DWG, lo que garantiza coherencia y personalización.
@@ -92,3 +98,9 @@ R4: Si bien el ejemplo se centra en DWG, se pueden aplicar principios similares 
 ### P5: ¿Cómo puedo obtener soporte para Aspose.CAD para Java?
 
 A5: Visita el[Foro Aspose.CAD](https://forum.aspose.com/c/cad/19) para apoyo y debates de la comunidad.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

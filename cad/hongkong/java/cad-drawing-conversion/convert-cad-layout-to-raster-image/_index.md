@@ -3,10 +3,16 @@ title: 使用 Aspose.CAD for Java 將 CAD 佈局轉換為光柵影像格式
 linktitle: 將 CAD 佈局轉換為光柵影像格式
 second_title: Aspose.CAD Java API
 description: 使用 Aspose.CAD for Java 輕鬆將 CAD 佈局轉換為光柵影像。高品質視覺化可增強協作。
-type: docs
 weight: 12
 url: /zh-hant/java/cad-drawing-conversion/convert-cad-layout-to-raster-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.CAD for Java 將 CAD 佈局轉換為光柵影像格式
+
 ## 介紹
 
 在電腦輔助設計 (CAD) 的動態世界中，將 CAD 佈局無縫轉換為光柵影像格式的能力是一項寶貴的技能。 Aspose.CAD for Java 成為高效能完成此任務的強大解決方案。在本教學中，我們將指導您使用 Aspose.CAD for Java 逐步將 CAD 佈局轉換為光柵影像。
@@ -106,3 +112,9 @@ A4：是的，Aspose.CAD支援多種輸出格式，例如PNG、JPG和PDF。
 ### Q5：我可以在哪裡尋求協助或分享我使用 Aspose.CAD 的經驗？
 
 A5：訪問[Aspose.CAD論壇](https://forum.aspose.com/c/cad/19)與社區互動並獲得支持。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

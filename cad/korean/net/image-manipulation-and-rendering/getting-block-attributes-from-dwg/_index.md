@@ -3,10 +3,16 @@ title: DWG 파일에서 블록 속성 가져오기 - Aspose.CAD Tutorial
 linktitle: DWG 파일에서 블록 속성 가져오기
 second_title: Aspose.CAD .NET - CAD 및 BIM 파일 형식
 description: .NET용 Aspose.CAD를 사용하여 CAD 파일의 잠재력을 활용하세요. 쉽게 블록 속성을 추출합니다.
-type: docs
 weight: 10
 url: /ko/net/image-manipulation-and-rendering/getting-block-attributes-from-dwg/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# DWG 파일에서 블록 속성 가져오기 - Aspose.CAD Tutorial
+
 ## 소개
 
 CAD(Computer-Aided Design)의 역동적인 세계에서는 DWG 파일에서 귀중한 정보를 추출하는 것이 많은 응용 프로그램에 매우 중요합니다. Aspose.CAD for .NET은 CAD 파일을 효율적으로 작업할 수 있는 강력한 솔루션을 제공합니다. 이 튜토리얼에서는 Aspose.CAD를 사용하여 DWG 파일에서 블록 속성을 검색하는 프로세스를 단계별로 살펴보겠습니다.
@@ -93,3 +99,9 @@ A1: 예, Aspose.CAD는 DWG, DXF, DWT 및 DGN을 포함한 다양한 CAD 형식�
 ### Q5: .NET용 Aspose.CAD에 대한 설명서는 어디에서 찾을 수 있습니까?
 
  A5: 포괄적인 내용을 참조하세요.[선적 서류 비치](https://reference.aspose.com/cad/net/) 자세한 정보와 예시를 확인하세요.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

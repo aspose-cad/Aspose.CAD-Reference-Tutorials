@@ -3,10 +3,16 @@ title: .NET용 Aspose.CAD에서 글꼴 대체
 linktitle: 글꼴 대체
 second_title: Aspose.CAD .NET - CAD 및 BIM 파일 형식
 description: Aspose.CAD에서 .NET용 글꼴을 손쉽게 대체하는 방법을 알아보세요. CAD 도면에서 효율적인 글꼴 사용자 정의를 위한 단계별 가이드를 따르십시오.
-type: docs
 weight: 17
 url: /ko/net/cad-features-and-support/substituting-fonts/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# .NET용 Aspose.CAD에서 글꼴 대체
+
 ## 소개
 
 .NET을 사용한 CAD 개발 영역에서 글꼴을 조작하는 능력은 중요한 기술입니다. .NET용 Aspose.CAD는 이러한 목적을 위한 강력한 도구 세트를 제공하여 개발자가 CAD 도면 내에서 글꼴을 원활하게 대체할 수 있도록 합니다. 이 튜토리얼에서는 프로세스를 단계별로 살펴보고 글꼴 대체를 효율적으로 수행하는 방법을 보여줍니다.
@@ -109,3 +115,10 @@ A4: 물론 일괄 처리를 구현하여 여러 CAD 도면에서 글꼴 대체�
 
  A5: 추가 지원 및 커뮤니티 토론을 보려면 다음을 방문하세요.[Aspose.CAD 포럼](https://forum.aspose.com/c/cad/19).
 
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

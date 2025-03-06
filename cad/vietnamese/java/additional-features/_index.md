@@ -3,10 +3,16 @@ title: Tính năng bổ sung
 linktitle: Tính năng bổ sung
 second_title: API Java Aspose.CAD
 description: Khai phá tiềm năng của Aspose.CAD trong Java bằng các hướng dẫn của chúng tôi. Thêm các thuộc tính tùy chỉnh, phân tách các đối tượng chèn CAD, cho phép theo dõi và xuất các bản vẽ DXF một cách liền mạch. Nâng cao quy trình làm việc CAD của bạn một cách dễ dàng.
-type: docs
 weight: 29
 url: /vi/java/additional-features/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tính năng bổ sung
+
 
 
 ## Giới thiệu
@@ -60,3 +66,9 @@ Tìm hiểu cách lưu tệp DXF trong Java bằng Aspose.CAD. Hãy làm theo h�
 ## Phần kết luận
 
 Các hướng dẫn này bao gồm một loạt các tính năng bổ sung trong Aspose.CAD cho Java, cung cấp cho bạn những hiểu biết và kỹ năng có giá trị để tối ưu hóa quy trình làm việc CAD của bạn. Cho dù bạn đang nâng cao tổ chức, nắm vững các kỹ thuật phân tách, bật theo dõi hay khám phá các tùy chọn xuất khác nhau, những hướng dẫn này đều cung cấp kiến thức bạn cần. Nâng cao kỹ năng CAD của bạn ngay hôm nay với Aspose.CAD cho Java.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

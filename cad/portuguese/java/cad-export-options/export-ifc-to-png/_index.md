@@ -3,10 +3,16 @@ title: Exporte IFC para PNG com Aspose.CAD para Java
 linktitle: Exportar IFC para PNG
 second_title: API Java Aspose.CAD
 description: Converta IFC para PNG sem esforço com Aspose.CAD para Java. Siga nosso tutorial passo a passo.
-type: docs
 weight: 18
 url: /pt/java/cad-export-options/export-ifc-to-png/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Exporte IFC para PNG com Aspose.CAD para Java
+
 ## Introdução
 
 Bem-vindo a este tutorial passo a passo sobre como exportar IFC (Industry Foundation Classes) para PNG usando Aspose.CAD para Java. Aspose.CAD é uma biblioteca Java poderosa que oferece amplos recursos para trabalhar com arquivos CAD, incluindo o formato IFC. Neste tutorial, orientaremos você no processo de conversão de um arquivo IFC em uma imagem PNG com explicações detalhadas em cada etapa.
@@ -94,3 +100,10 @@ A3: Sim, você pode acessar a versão de avaliação gratuita[aqui](https://rele
 ### P5: Onde posso procurar ajuda ou discutir problemas?
 
 A5: Visite o[Fórum Aspose.CAD](https://forum.aspose.com/c/cad/19) para apoio comunitário.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

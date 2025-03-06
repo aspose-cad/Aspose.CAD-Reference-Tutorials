@@ -3,10 +3,16 @@ title: CAD 佈局和分解
 linktitle: CAD 佈局和分解
 second_title: Aspose.CAD .NET - CAD 和 BIM 檔案格式
 description: 使用 Aspose.CAD for .NET 釋放 CAD 佈局的潛力！使用我們的指南輕鬆將設計轉換為 PDF。輕鬆掌握插入物件的分解。
-type: docs
 weight: 34
 url: /zh-hant/net/cad-layouts-and-decomposition/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# CAD 佈局和分解
+
 
 
 
@@ -59,3 +65,9 @@ Aspose.CAD 以其用戶友好的介面和強大的功能而脫穎而出。無需
 使用 Aspose.CAD for .NET 輕鬆將 CAD 版面配置轉換為 PDF。請按照我們的逐步指南進行無縫整合。
 ### [分解 CAD 插入物件 - Aspose.CAD 指南](./decomposing-cad-insert-objects/)
 透過我們分解 CAD 插入物件的逐步指南，探索 Aspose.CAD for .NET 的強大功能。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

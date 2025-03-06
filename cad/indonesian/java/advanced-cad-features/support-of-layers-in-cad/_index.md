@@ -3,10 +3,16 @@ title: Dukungan Lapisan dengan Aspose.CAD di Java
 linktitle: Dukungan Lapisan di CAD
 second_title: Aspose.CAD Java API
 description: Dukungan lapisan master dalam pengembangan Java CAD dengan Aspose.CAD. Atur dan ekspor gambar dengan mudah.
-type: docs
 weight: 18
 url: /id/java/advanced-cad-features/support-of-layers-in-cad/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Dukungan Lapisan dengan Aspose.CAD di Java
+
 ## Perkenalan
 
 Buka potensi penuh Aspose.CAD di Java dengan menguasai dukungan lapisan. Lapisan memainkan peran penting dalam gambar CAD, memungkinkan pengorganisasian dan manipulasi elemen grafis secara efisien. Dalam tutorial komprehensif ini, kami akan mempelajari seluk-beluk dukungan lapisan menggunakan Aspose.CAD, memberi Anda panduan langkah demi langkah untuk memanfaatkan fungsionalitas canggih ini.
@@ -118,3 +124,9 @@ A2: Ya, Aspose.CAD mendukung berbagai format CAD, memastikan keserbagunaan dalam
 ### Q5: Di mana saya bisa mencari bantuan atau berbagi pengalaman saya dengan Aspose.CAD?
 
 A5: Bergabunglah dengan komunitas Aspose.CAD di[forum](https://forum.aspose.com/c/cad/19) untuk dukungan dan diskusi kolaboratif.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

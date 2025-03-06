@@ -3,10 +3,16 @@ title: Java에서 Aspose.CAD를 사용하여 CAD 삽입 개체 분해
 linktitle: Java로 CAD 삽입 객체 분해
 second_title: Aspose.CAD 자바 API
 description: Aspose.CAD를 사용하여 Java에서 CAD 삽입 개체 분해를 마스터하세요. 효율적인 처리를 위해 단계별 가이드를 따르세요. CAD 조작의 세계에 빠져보세요.
-type: docs
 weight: 11
 url: /ko/java/additional-features/decompose-cad-insert-object/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java에서 Aspose.CAD를 사용하여 CAD 삽입 개체 분해
+
 ## 소개
 
 Java용 Aspose.CAD를 사용하여 CAD 삽입 개체를 분해하는 방법에 대한 포괄적인 가이드에 오신 것을 환영합니다. 이 튜토리얼에서는 CAD 인서트 객체를 구성 요소로 분해하는 과정을 안내하고 원활한 구현을 위한 단계별 가이드를 제공합니다. 숙련된 개발자이든 Aspose.CAD를 처음 시작하든 이 튜토리얼은 Java 애플리케이션에서 CAD 삽입 개체를 효율적으로 처리하는 데 필요한 지식을 제공합니다.
@@ -110,3 +116,9 @@ finally
 ### Q5: 연습할 수 있는 샘플 도면이 있나요?
 
 A5: 예, Aspose.CAD 리소스 내의 "DXF Drawings" 디렉터리에서 샘플 도면을 찾을 수 있습니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: รองรับโมเดล 3 มิติ
 linktitle: รองรับโมเดล 3 มิติ
 second_title: Aspose.CAD .NET - รูปแบบไฟล์ CAD และ BIM
 description: เพิ่มประสิทธิภาพแอปพลิเคชัน CAD ของคุณด้วย Aspose.CAD สำหรับ .NET! ฝึกฝนศิลปะแห่งการรองรับรูปแบบ OBJ ได้อย่างราบรื่น ปลดล็อกศักยภาพสูงสุดของโมเดล 3 มิติของคุณ
-type: docs
 weight: 40
 url: /th/net/3d-model-support/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# รองรับโมเดล 3 มิติ
+
 
 ## การแนะนำ
 
@@ -32,3 +38,9 @@ Aspose.CAD เป็นเครื่องมืออันทรงพลั
 ## บทช่วยสอนการสนับสนุนโมเดล 3 มิติ
 ### [รองรับรูปแบบ OBJ ใน Aspose.CAD - บทช่วยสอน](./supporting-obj-format-in-aspose-cad/)
 ปลดล็อกศักยภาพของ Aspose.CAD สำหรับ .NET เรียนรู้วิธีการสนับสนุนรูปแบบ OBJ ในแอปพลิเคชัน CAD ของคุณอย่างราบรื่นด้วยบทช่วยสอนทีละขั้นตอนนี้
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

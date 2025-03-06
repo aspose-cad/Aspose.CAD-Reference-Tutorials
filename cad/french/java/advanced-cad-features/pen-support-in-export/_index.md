@@ -3,10 +3,16 @@ title: Prise en charge du stylet lors de l'exportation
 linktitle: Prise en charge du stylet lors de l'exportation
 second_title: API Java Aspose.CAD
 description: Maîtrisez la personnalisation du stylo lors de l'exportation CAO avec Aspose.CAD pour Java. Suivez notre guide étape par étape pour une intégration transparente.
-type: docs
 weight: 13
 url: /fr/java/advanced-cad-features/pen-support-in-export/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Prise en charge du stylet lors de l'exportation
+
 ## Introduction
 
 Dans le paysage en constante évolution des conversions CAO (Conception assistée par ordinateur), Aspose.CAD pour Java apparaît comme un outil puissant, offrant des fonctionnalités étendues pour manipuler les fichiers CAO. Parmi ses fonctionnalités polyvalentes, la prise en charge de la personnalisation du stylet lors de l'exportation se démarque, permettant aux utilisateurs de personnaliser l'apparence des images exportées. Ce didacticiel vous guidera tout au long du processus d'exploitation de la prise en charge du stylet dans la fonctionnalité d'exportation, en vous concentrant sur la mise en œuvre pratique à l'aide de Java.
@@ -112,3 +118,9 @@ A4 : Ajustez la largeur et la hauteur de la page dans les options de rastérisa
 ### Q5 : Où puis-je trouver une assistance supplémentaire ou des discussions communautaires ?
 
  A5 : Explorez le forum de la communauté Aspose.CAD sur[ici](https://forum.aspose.com/c/cad/19) pour du soutien et des discussions.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Aspose.CAD for .NET'te Ölçülü Lisanslama
 linktitle: Ölçülü Lisanslama
 second_title: Aspose.CAD .NET - CAD ve BIM Dosya Formatı
 description: .NET'te ölçülü lisanslama ile Aspose.CAD potansiyelinin kilidini açın. Kaynak kullanımını sorunsuz bir şekilde optimize edin. Adım adım kılavuzumuzu keşfedin.
-type: docs
 weight: 12
 url: /tr/net/licensing-and-configuration/metered-licensing/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.CAD for .NET'te Ölçülü Lisanslama
+
 ## giriiş
 
 Aspose.CAD for .NET'in tüm potansiyelini açığa çıkarmak, ölçülü lisanslamanın inceliklerini anlamayı gerektirir. Bu güçlü özellik, geliştiricilerin Aspose.CAD'in yeteneklerinden yararlanırken kaynak tüketimini verimli bir şekilde yönetmelerine olanak tanır. Bu adım adım kılavuzda, .NET projelerinizle kusursuz entegrasyon sağlamak için her önemli adımı parçalara ayırarak ölçülü lisanslama uygulama sürecini derinlemesine inceleyeceğiz.
@@ -97,3 +103,9 @@ C3: Evet, ölçülü anahtarlar farklı projelerde yeniden kullanılabilir ve bu
 ### S5: Aspose.CAD'i belirli projeler için geçici olarak lisanslayabilir miyim?
 
  A5: Evet, keşfedin[geçici lisanslama seçenekleri](https://purchase.aspose.com/temporary-license/) Kısa vadeli proje gereksinimleri için.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

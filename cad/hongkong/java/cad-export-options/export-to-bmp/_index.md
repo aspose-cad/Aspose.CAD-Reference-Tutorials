@@ -3,10 +3,16 @@ title: 使用 Aspose.CAD for Java 匯出為 BMP
 linktitle: 匯出為 BMP
 second_title: Aspose.CAD Java API
 description: 使用 Aspose.CAD for Java 探索 CAD 到 BMP 的無縫轉換。遵循我們的逐步指南，實現高效、精確的導出。
-type: docs
 weight: 12
 url: /zh-hant/java/cad-export-options/export-to-bmp/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.CAD for Java 匯出為 BMP
+
 ## 介紹
 
 在不斷發展的數位設計領域，將電腦輔助設計 (CAD) 檔案無縫匯出為各種格式的能力至關重要。 Aspose.CAD for Java 是一款功能強大的解決方案，為開發人員提供了將 CAD 檔案高效匯出為 BMP 格式所需的工具。本教學將逐步引導您完成整個過程，確保每次匯出順利成功。
@@ -110,3 +116,9 @@ A2：是的，您可以根據您的特定要求自訂光柵化選項，例如頁
 ### Q5：如何取得臨時駕照？
 
 A5：取得 Aspose.CAD for Java 的臨時許可證[這裡](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

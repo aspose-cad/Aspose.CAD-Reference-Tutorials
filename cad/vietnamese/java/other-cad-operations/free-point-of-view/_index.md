@@ -3,10 +3,16 @@ title: Kết xuất quan điểm miễn phí với Aspose.CAD cho Java
 linktitle: Quan điểm miễn phí
 second_title: API Java Aspose.CAD
 description: Khám phá sức mạnh của Aspose.CAD cho Java trong hướng dẫn này để đạt được khả năng hiển thị quan điểm miễn phí cho các bản vẽ CAD. Giải phóng tiềm năng của Aspose.CAD.
-type: docs
 weight: 14
 url: /vi/java/other-cad-operations/free-point-of-view/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Kết xuất quan điểm miễn phí với Aspose.CAD cho Java
+
 ## Giới thiệu
 
 Chào mừng bạn đến với "Hướng dẫn quan điểm miễn phí - Aspose.CAD cho Java." Trong hướng dẫn toàn diện này, chúng tôi sẽ hướng dẫn bạn quy trình tận dụng Aspose.CAD cho Java để đạt được khả năng hiển thị quan điểm miễn phí cho các bản vẽ CAD. Aspose.CAD là một thư viện Java mạnh mẽ cung cấp nhiều tính năng để làm việc với các tệp Thiết kế hỗ trợ máy tính (CAD). Hướng dẫn sẽ bao gồm các điều kiện tiên quyết cần thiết, nhập các gói thiết yếu và chia nhỏ từng ví dụ thành hướng dẫn từng bước.
@@ -116,3 +122,9 @@ Câu trả lời 1: Có, Aspose.CAD cho Java độc lập với nền tảng và
 ### Câu hỏi 5: Làm cách nào để có được giấy phép tạm thời?
 
  A5: Xin giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

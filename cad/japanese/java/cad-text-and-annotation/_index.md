@@ -3,10 +3,16 @@ title: CAD テキストと注釈
 linktitle: CAD テキストと注釈
 second_title: Aspose.CAD Java API
 description: Aspose.CAD for Java を使用すると、DWG 図面を簡単にレベルアップできます。 DWG ファイル内のフォントの追加と置換をマスターします。完璧なビジュアルを実現するためのステップバイステップのガイド。
-type: docs
 weight: 21
 url: /ja/java/cad-text-and-annotation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# CAD テキストと注釈
+
 
 ## 導入 
 
@@ -36,3 +42,9 @@ Aspose.CAD for Java を使用して、DWG 図面を簡単に強化できます�
 CAD 設計を簡単に強化します。 Aspose.CAD for Java を使用して DWG ファイル内のフォントを置換する方法を学びます。ビジュアルを完璧にするためのステップバイステップのガイド。
 ### [Aspose.CAD for Java を使用して DWG 内の特定のスタイルのフォントを置換する](./substitute-font-of-particular-style-in-dwg/)
 Aspose.CAD for Java を使用して DWG ファイル内のフォントを置換する方法を学びます。スタイルを正確にカスタマイズするためのステップバイステップのガイド。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

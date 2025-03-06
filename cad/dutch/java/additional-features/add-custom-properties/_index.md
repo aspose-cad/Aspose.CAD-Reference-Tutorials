@@ -3,10 +3,16 @@ title: Voeg aangepaste eigenschappen toe aan DWG-bestanden met Aspose.CAD in Jav
 linktitle: Voeg aangepaste eigenschappen toe aan DWG-bestanden met behulp van Java
 second_title: Aspose.CAD Java-API
 description: Leer hoe u aangepaste eigenschappen kunt toevoegen aan DWG-bestanden in Java met behulp van Aspose.CAD. Verbeter moeiteloos de organisatie en het ophalen van informatie in CAD-tekeningen.
-type: docs
 weight: 10
 url: /nl/java/additional-features/add-custom-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Voeg aangepaste eigenschappen toe aan DWG-bestanden met Aspose.CAD in Java
+
 In de wereld van Java-programmeren is het manipuleren van DWG-bestanden met aangepaste eigenschappen een veel voorkomende taak. Aspose.CAD voor Java biedt een krachtige set tools om deze functionaliteit naadloos in uw projecten te integreren. In deze stapsgewijze zelfstudie begeleiden we u bij het toevoegen van aangepaste eigenschappen aan DWG-bestanden met behulp van Aspose.CAD voor Java.
 
 ## Invoering
@@ -105,3 +111,9 @@ A2: Aspose.CAD voor Java is compatibel met populaire Java IDE's zoals Eclipse, I
 ### Vraag 5: Hoe kan ik ondersteuning krijgen of vragen stellen?
 
 A5: Bezoek de[Aspose.CAD-forum](https://forum.aspose.com/c/cad/19) om ondersteuning te krijgen, vragen te stellen en verbinding te maken met de Aspose.CAD-gemeenschap.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

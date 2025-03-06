@@ -3,10 +3,16 @@ title: Exporting DXF Specific Layout to PDF - Aspose.CAD Guide
 linktitle: Exporting DXF Specific Layout to PDF
 second_title: Aspose.CAD .NET - CAD and BIM File Format
 description: Learn how to export DXF specific layouts to PDF using Aspose.CAD for .NET. Follow our step-by-step guide for efficient and high-quality conversions.
-type: docs
 weight: 11
 url: /net/export-techniques/exporting-dxf-specific-layout-to-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Exporting DXF Specific Layout to PDF - Aspose.CAD Guide
+
 ## Introduction
 
 Welcome to the Aspose.CAD tutorial on exporting DXF specific layouts to PDF using the powerful features of Aspose.CAD for .NET. This step-by-step guide will walk you through the process of converting DXF files to PDF, focusing on a specific layout named "Model." Aspose.CAD provides efficient tools and functionalities to streamline the conversion process, ensuring high-quality output for your CAD drawings.
@@ -113,3 +119,10 @@ A4: For any support or queries, visit the [Aspose.CAD forum](https://forum.aspos
 ### Q5: Where can I purchase a license for Aspose.CAD?
 
 A5: You can purchase a license for Aspose.CAD [here](https://purchase.aspose.com/buy).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

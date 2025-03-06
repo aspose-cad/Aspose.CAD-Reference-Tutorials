@@ -3,10 +3,16 @@ title: 在 Java 中使用 Aspose.CAD 将特定 DXF 布局导出到图像
 linktitle: 使用 Java 将特定 DXF 布局导出到图像
 second_title: Aspose.CAD Java API
 description: 了解如何使用 Aspose.CAD for Java 将特定 DXF 布局导出到图像。请按照我们的分步指南进行无缝集成。
-type: docs
 weight: 16
 url: /zh/java/additional-features/export-specific-layout-to-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Java 中使用 Aspose.CAD 将特定 DXF 布局导出到图像
+
 ## 介绍
 
 您是否希望使用 Java 将特定 DXF 布局转换为图像？使用Aspose.CAD for Java，您可以无缝地完成此任务。在本分步指南中，我们将引导您完成将特定 DXF 布局导出到图像的过程，并为每个阶段提供清晰的说明和示例。
@@ -141,3 +147,9 @@ A4：是的，Aspose.CAD for Java 支持各种输出格式，包括 PNG、BMP、
 ### Q5：我可以进一步自定义光栅化选项吗？
 
  A5：当然，`CadRasterizationOptions`类提供了各种自定义属性。浏览文档以获取其他选项。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

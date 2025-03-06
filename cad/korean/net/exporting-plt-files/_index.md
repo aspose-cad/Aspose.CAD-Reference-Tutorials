@@ -3,10 +3,16 @@ title: PLT 파일 내보내기
 linktitle: PLT 파일 내보내기
 second_title: Aspose.CAD .NET - CAD 및 BIM 파일 형식
 description: Aspose.CAD for .NET을 사용하여 PLT 파일을 이미지 및 PDF로 쉽게 변환하세요. CAD 파일 조작을 위한 원활한 통합과 유연한 옵션을 살펴보세요.
-type: docs
 weight: 41
 url: /ko/net/exporting-plt-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# PLT 파일 내보내기
+
 
 ## 소개
 
@@ -38,3 +44,9 @@ Aspose.CAD for .NET은 PLT 파일 처리에 있어서 획기적인 전환점을 
 Aspose.CAD for .NET을 사용하여 PLT 파일을 이미지로 손쉽게 변환하세요. CAD 파일 조작 요구 사항에 맞는 유연한 옵션과 원활한 통합을 살펴보세요.
 ### [PLT 파일을 PDF로 내보내기 - Aspose.CAD 가이드](./exporting-plt-files-to-pdf/)
 .NET용 Aspose.CAD를 사용하여 PLT 파일을 PDF로 쉽게 변환하세요. 원활한 통합과 안정적인 결과를 얻으려면 단계별 가이드를 따르세요.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

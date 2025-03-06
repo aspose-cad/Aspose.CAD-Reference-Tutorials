@@ -3,10 +3,16 @@ title: Rozvržení a manipulace s objekty
 linktitle: Rozvržení a manipulace s objekty
 second_title: Aspose.CAD .NET – formát souborů CAD a BIM
 description: Ovládněte export rozvržení DXF, ukládání souborů, ořezávání bloků a proxy entity ACAD pro vylepšený návrh CAD pomocí Aspose.CAD pro .NET.
-type: docs
 weight: 33
 url: /cs/net/layout-and-object-handling/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Rozvržení a manipulace s objekty
+
 
 ## Úvod
 
@@ -38,3 +44,9 @@ Prozkoumejte sílu Aspose.CAD pro .NET. Naučte se ukládat soubory DXF bez nám
 Naučte se implementovat ořezávání bloků v CAD pomocí Aspose.CAD for .NET. Vylepšete své možnosti návrhu pomocí tohoto podrobného návodu.
 ### [Práce s ACAD proxy entitami - Aspose.CAD Guide](./working-with-acad-proxy-entities/)
 Prozkoumejte Aspose.CAD for .NET a zefektivněte své pracovní postupy CAD. Převádějte, upravujte a spravujte ACAD Proxy entity bez námahy.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

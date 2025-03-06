@@ -3,10 +3,16 @@ title: Unterstützung für 3D-Modelle
 linktitle: Unterstützung für 3D-Modelle
 second_title: Aspose.CAD .NET – CAD- und BIM-Dateiformat
 description: Optimieren Sie Ihre CAD-Anwendungen mit Aspose.CAD für .NET! Meistern Sie die Kunst, das OBJ-Format nahtlos zu unterstützen und das volle Potenzial Ihrer 3D-Modelle auszuschöpfen.
-type: docs
 weight: 40
 url: /de/net/3d-model-support/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Unterstützung für 3D-Modelle
+
 
 ## Einführung
 
@@ -32,3 +38,9 @@ Verpassen Sie nicht die Gelegenheit, an der Spitze der CAD-Entwicklung zu bleibe
 ## Tutorials zur 3D-Modellunterstützung
 ### [Unterstützung des OBJ-Formats in Aspose.CAD – Tutorial](./supporting-obj-format-in-aspose-cad/)
 Nutzen Sie das Potenzial von Aspose.CAD für .NET. Erfahren Sie in diesem Schritt-für-Schritt-Tutorial, wie Sie das OBJ-Format in Ihren CAD-Anwendungen nahtlos unterstützen.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

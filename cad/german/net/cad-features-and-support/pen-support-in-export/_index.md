@@ -3,10 +3,16 @@ title: Optimieren Sie den CAD-Export mit benutzerdefinierten Stiftoptionen in As
 linktitle: Stiftunterstützung beim Export
 second_title: Aspose.CAD .NET – CAD- und BIM-Dateiformat
 description: Erfahren Sie, wie Sie Ihre CAD-Bildexporte mit Aspose.CAD für .NET verbessern. Passen Sie die Stiftoptionen an, um atemberaubende Grafiken in PDF, PNG, BMP und mehr zu erhalten.
-type: docs
 weight: 12
 url: /de/net/cad-features-and-support/pen-support-in-export/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Optimieren Sie den CAD-Export mit benutzerdefinierten Stiftoptionen in Aspose.CAD für .NET
+
 ## Einführung
 
 Aspose.CAD für .NET bietet leistungsstarke Tools für die Arbeit mit CAD-Dateien (Computer-Aided Design), mit denen Entwickler CAD-Bilder nahtlos bearbeiten und exportieren können. Eine bemerkenswerte Funktion ist die Stiftunterstützung während des Exports, die es Benutzern ermöglicht, die Anfangs- und Endkappeneinstellungen für Stifte anzupassen, wenn sie CAD-Bilder in verschiedene Formate wie PDF, PNG, BMP, GIF, JPEG2000, JPEG, PSD, TIFF und WMF exportieren.
@@ -119,3 +125,9 @@ A1: Ja, die Stiftoptionen können auf verschiedene Bildformate wie PNG, BMP, GIF
 ### F5: Wo kann ich Community-Unterstützung für Aspose.CAD für .NET suchen?
 
  A5: Interagieren Sie mit der Community auf der[Aspose.CAD-Forum](https://forum.aspose.com/c/cad/19).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

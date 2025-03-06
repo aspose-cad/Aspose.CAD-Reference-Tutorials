@@ -3,10 +3,16 @@ title: Renderice un documento DWG en una imagen con Aspose.CAD para Java
 linktitle: Renderizar documento DWG a imagen con Java
 second_title: API de Java Aspose.CAD
 description: Explore la perfecta integración de Aspose.CAD para Java en la representación de documentos DWG en imágenes. Siga nuestra guía paso a paso para obtener resultados eficientes.
-type: docs
 weight: 11
 url: /es/java/cad-meta-data-and-rendering/render-dwg-to-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Renderice un documento DWG en una imagen con Aspose.CAD para Java
+
 ## Introducción
 
 En el dinámico mundo del desarrollo de Java, Aspose.CAD se destaca como una poderosa herramienta para manejar archivos de diseño asistido por computadora (CAD). En este tutorial, exploraremos el proceso de renderizar un documento DWG en una imagen usando Aspose.CAD para Java. Ya sea que sea un desarrollador experimentado o recién esté comenzando su viaje en codificación, esta guía paso a paso lo guiará a través del proceso con claridad y facilidad.
@@ -105,3 +111,9 @@ R2: Sí, Aspose.CAD es compatible con IDE de Java populares como Eclipse, Intell
 ### P5: ¿Hay más opciones de renderizado disponibles en Aspose.CAD?
 
  R5: Por supuesto, explora la extensa[documentación](https://reference.aspose.com/cad/java/) para obtener información detallada.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

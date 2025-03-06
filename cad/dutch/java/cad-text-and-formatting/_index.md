@@ -3,10 +3,16 @@ title: CAD-tekst en opmaak
 linktitle: CAD-tekst en opmaak
 second_title: Aspose.CAD Java-API
 description: Ontgrendel Aspose.CAD voor het potentieel van Java met tutorials. Leer tekstzoeken, verborgen lijnen, MLeader-entiteiten en MText-attributen om uw CAD-app te verbeteren.
-type: docs
 weight: 28
 url: /nl/java/cad-text-and-formatting/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# CAD-tekst en opmaak
+
 ## Inleiding
 Welkom bij onze uitgebreide handleiding over CAD-tekst- en opmaaktutorials met behulp van Aspose.CAD voor Java. Of u nu een doorgewinterde ontwikkelaar bent of net begint met CAD-toepassingen, deze tutorials stellen u in staat uw vaardigheden naar een hoger niveau te tillen.
 
@@ -37,3 +43,9 @@ Leer hoe u de mogelijkheden voor het manipuleren van DWG-bestanden van uw Java-t
 Ontgrendel de kracht van Aspose.CAD voor Java met onze stapsgewijze zelfstudie over het ondersteunen van MLeader-entiteiten in DWG-indeling.
 ### [Voeg attributen toe aan MText in DWG-bestanden met Aspose.CAD voor Java](./add-attributes-to-mtext/)
 Leer hoe u attributen kunt toevoegen aan MText in DWG-bestanden met behulp van Aspose.CAD voor Java. Verbeter uw CAD-tekeningen met deze stapsgewijze handleiding.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

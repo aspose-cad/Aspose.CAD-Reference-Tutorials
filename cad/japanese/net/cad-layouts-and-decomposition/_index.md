@@ -3,10 +3,16 @@ title: CAD のレイアウトと分解
 linktitle: CAD のレイアウトと分解
 second_title: Aspose.CAD .NET - CAD および BIM ファイル形式
 description: Aspose.CAD for .NET で CAD レイアウトの可能性を解き放ちましょう!私たちのガイドを使用して、デザインを PDF に簡単に変換できます。挿入オブジェクトの分解を簡単にマスターします。
-type: docs
 weight: 34
 url: /ja/net/cad-layouts-and-decomposition/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# CAD のレイアウトと分解
+
 
 
 
@@ -59,3 +65,9 @@ CAD 設計をナビゲートし、分解が必要な挿入オブジェクトを�
 Aspose.CAD for .NET を使用して、CAD レイアウトを PDF に簡単に変換します。シームレスな統合については、ステップバイステップのガイドに従ってください。
 ### [CAD 挿入オブジェクトの分解 - Aspose.CAD ガイド](./decomposing-cad-insert-objects/)
 CAD 挿入オブジェクトの分解に関するステップバイステップ ガイドを使用して、Aspose.CAD for .NET の威力を体験してください。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

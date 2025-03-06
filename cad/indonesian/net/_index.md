@@ -1,12 +1,17 @@
 ---
 title: Tutorial Komprehensif dan Contoh Aspose.CAD untuk .NET
 linktitle: Aspose.CAD untuk Tutorial .NET
-type: docs
 weight: 10
 url: /id/net/
 description: Kuasai Aspose.CAD untuk .NET dengan tutorial komprehensif. Tingkatkan keterampilan CAD Anda mulai dari perizinan hingga teknik ekspor tingkat lanjut. Buka kunci fitur tersembunyi dengan mudah.
-is_root: true
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tutorial Komprehensif dan Contoh Aspose.CAD untuk .NET
+
 
 ## Perkenalan
 
@@ -61,3 +66,9 @@ Optimalkan aplikasi CAD Anda dengan Aspose.CAD untuk .NET! Kuasai seni mendukung
 Konversikan file PLT ke gambar dan PDF dengan mudah menggunakan Aspose.CAD untuk .NET. Jelajahi integrasi tanpa hambatan dan opsi fleksibel untuk manipulasi file CAD.
 ### [Ekspor Berkas STL](./stl-file-export/)
 Ekspor file STL ke PNG dengan mudah dengan Aspose.CAD untuk .NET. Panduan langkah demi langkah kami memastikan integrasi yang lancar. Pelajari melalui tutorial Aspose.CAD Untuk .NET.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

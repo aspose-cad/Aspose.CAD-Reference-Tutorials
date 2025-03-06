@@ -3,10 +3,16 @@ title: Přidání vodoznaků do výkresů CAD - Výukový program Aspose.CAD for
 linktitle: Přidat vodoznak
 second_title: Aspose.CAD Java API
 description: Vylepšete své CAD výkresy pomocí personalizovaných vodoznaků pomocí Aspose.CAD for Java. Postupujte podle našeho podrobného průvodce pro bezproblémovou integraci.
-type: docs
 weight: 12
 url: /cs/java/other-cad-operations/add-watermark/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Přidání vodoznaků do výkresů CAD - Výukový program Aspose.CAD for Java
+
 ## Úvod
 
 Vítejte v této komplexní příručce o přidávání vodoznaků do výkresů CAD pomocí Aspose.CAD pro Java. V tomto tutoriálu se naučíte, jak efektivně integrovat vodoznaky, vylepšit vaše CAD dokumenty pomocí personalizovaných zpráv nebo brandingu. Aspose.CAD for Java poskytuje výkonnou sadu funkcí, díky nimž je proces přidávání vodoznaku přímočarý.
@@ -99,3 +105,9 @@ Odpověď 2: Ano, máte plnou kontrolu nad vzhledem vodoznaku, včetně velikost
 ### Otázka 5: Kde najdu kompletní dokumentaci k Aspose.CAD for Java?
 
  A5: Viz[dokumentace](https://reference.aspose.com/cad/java/) pro podrobné informace.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Konvertering och export
 linktitle: Konvertering och export
 second_title: Aspose.CAD .NET - CAD- och BIM-filformat
 description: Lås upp världen av CAD-filmanipulation med Aspose.CAD! Lär dig att återge levande färger och konvertera DWG-filer. Dyk in i DWT- och DWG-format för exakta resultat.
-type: docs
 weight: 25
 url: /sv/net/conversion-and-export/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Konvertering och export
+
 
 
 ## Introduktion
@@ -45,3 +51,9 @@ Utforska nyanserna i DWT- och DWG-format med Aspose.CAD för .NET. Skilj mellan 
 Konvertera DWG till Compliance PDF med Aspose.CAD för .NET. Följ vår handledning för steg-för-steg-vägledning.
 ### [Konvertera DWG till DWF-format - Aspose.CAD Guide](./converting-dwg-to-dwf/)
 Utforska den sömlösa konverteringen av DWG till DWF med Aspose.CAD för .NET. Följ vår steg-för-steg-guide för en problemfri upplevelse.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

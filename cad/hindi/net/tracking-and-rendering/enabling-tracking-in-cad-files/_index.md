@@ -3,10 +3,16 @@ title: CAD फ़ाइलों में ट्रैकिंग सक्ष
 linktitle: CAD फ़ाइलों में ट्रैकिंग सक्षम करना
 second_title: Aspose.CAD .NET - CAD और BIM फ़ाइल स्वरूप
 description: .NET के लिए Aspose.CAD के साथ मास्टर CAD फ़ाइल ट्रैकिंग। सटीक प्रतिपादन और त्रुटि ट्रैकिंग के लिए हमारे चरण-दर-चरण मार्गदर्शिका का पालन करें। अब डाउनलोड करो!
-type: docs
 weight: 10
 url: /hi/net/tracking-and-rendering/enabling-tracking-in-cad-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# CAD फ़ाइलों में ट्रैकिंग सक्षम करना - Aspose.CAD ट्यूटोरियल
+
 ## परिचय
 
 सीएडी (कंप्यूटर-एडेड डिज़ाइन) के क्षेत्र में, सटीकता और ट्रैकिंग सर्वोपरि है। .NET के लिए Aspose.CAD CAD फ़ाइलों में ट्रैकिंग सक्षम करने के लिए एक मजबूत समाधान प्रदान करता है। यह ट्यूटोरियल प्रक्रिया के दौरान आपका मार्गदर्शन करेगा, यह सुनिश्चित करते हुए कि आप इस सुविधा की पूरी क्षमता का उपयोग करेंगे।
@@ -103,3 +109,9 @@ A3: गुम फ़ॉन्ट या असमर्थित इकाइय
 ### Q5: क्या मैं ट्रैकिंग त्रुटि संदेशों को अनुकूलित कर सकता हूँ?
 
 A5: बिल्कुल. आप अपनी आवश्यकताओं के अनुसार त्रुटि संदेशों को अनुकूलित करने के लिए कोड को संशोधित कर सकते हैं।
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

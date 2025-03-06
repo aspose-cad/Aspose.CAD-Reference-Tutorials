@@ -3,10 +3,16 @@ title: Εξαγωγή συγκεκριμένης διάταξης DXF σε ει�
 linktitle: Εξαγωγή συγκεκριμένης διάταξης DXF σε εικόνα με Java
 second_title: Aspose.CAD Java API
 description: Μάθετε πώς να εξάγετε μια συγκεκριμένη διάταξη DXF σε μια εικόνα χρησιμοποιώντας το Aspose.CAD για Java. Ακολουθήστε τον βήμα προς βήμα οδηγό μας για απρόσκοπτη ενσωμάτωση.
-type: docs
 weight: 16
 url: /el/java/additional-features/export-specific-layout-to-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Εξαγωγή συγκεκριμένης διάταξης DXF σε εικόνα με Aspose.CAD σε Java
+
 ## Εισαγωγή
 
 Ψάχνετε να μετατρέψετε μια συγκεκριμένη διάταξη DXF σε εικόνα χρησιμοποιώντας Java; Με το Aspose.CAD για Java, μπορείτε να επιτύχετε απρόσκοπτα αυτήν την εργασία. Σε αυτόν τον οδηγό βήμα προς βήμα, θα σας καθοδηγήσουμε στη διαδικασία εξαγωγής μιας συγκεκριμένης διάταξης DXF σε μια εικόνα, παρέχοντας σαφείς οδηγίες και παραδείγματα για κάθε στάδιο.
@@ -141,3 +147,9 @@ A4: Ναι, το Aspose.CAD για Java υποστηρίζει διάφορες 
 ### Ε5: Μπορώ να προσαρμόσω περαιτέρω τις επιλογές ραστεροποίησης;
 
  Α5: Σίγουρα, το`CadRasterizationOptions` Η class παρέχει διάφορες ιδιότητες για προσαρμογή. Εξερευνήστε την τεκμηρίωση για πρόσθετες επιλογές.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

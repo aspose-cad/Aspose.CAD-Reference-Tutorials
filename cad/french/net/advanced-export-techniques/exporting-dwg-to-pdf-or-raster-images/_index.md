@@ -3,10 +3,16 @@ title: Exportation de DWG vers des images PDF ou raster - Guide Aspose.CAD
 linktitle: Exportation de DWG au format PDF ou images raster
 second_title: Aspose.CAD .NET - Format de fichier CAO et BIM
 description: Découvrez un guide complet sur l'exportation d'images DWG au format PDF ou raster à l'aide d'Aspose.CAD pour .NET. Apprenez les étapes, les prérequis et familiarisez-vous avec cette puissante bibliothèque.
-type: docs
 weight: 11
 url: /fr/net/advanced-export-techniques/exporting-dwg-to-pdf-or-raster-images/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Exportation de DWG vers des images PDF ou raster - Guide Aspose.CAD
+
 ## Introduction
 
 Souhaitez-vous convertir de manière transparente des fichiers DWG en images PDF ou raster dans votre application .NET ? Cherchez pas plus loin! Ce guide étape par étape vous guidera tout au long du processus à l'aide de la puissante bibliothèque Aspose.CAD pour .NET. Que vous soyez un développeur chevronné ou débutant, ce tutoriel s'adresse à tous les niveaux de compétence.
@@ -119,3 +125,9 @@ Toutes nos félicitations! Vous avez appris avec succès à utiliser Aspose.CAD 
 ### Q5 : Où puis-je trouver la documentation détaillée ?
 
  A5 : La documentation est disponible sur[Aspose.CAD](https://reference.aspose.com/cad/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

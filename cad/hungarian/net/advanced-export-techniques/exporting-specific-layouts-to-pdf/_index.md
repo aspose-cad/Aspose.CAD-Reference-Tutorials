@@ -3,10 +3,16 @@ title: Adott elrendezések exportálása PDF-be – Aspose.CAD útmutató
 linktitle: Adott elrendezések exportálása PDF-be
 second_title: Aspose.CAD .NET - CAD és BIM fájlformátum
 description: Ismerje meg, hogyan exportálhat meghatározott elrendezéseket PDF-be az Aspose.CAD for .NET segítségével. Lépésről lépésre útmutató a zökkenőmentes integrációhoz.
-type: docs
 weight: 13
 url: /hu/net/advanced-export-techniques/exporting-specific-layouts-to-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Adott elrendezések exportálása PDF-be – Aspose.CAD útmutató
+
 ## Bevezetés
 
 Üdvözöljük lépésről lépésre szóló útmutatónkban, amely az Aspose.CAD for .NET segítségével PDF-formátumba exportál bizonyos elrendezéseket. Az Aspose.CAD egy hatékony könyvtár, amely lehetővé teszi a fejlesztők számára, hogy zökkenőmentesen dolgozzanak CAD fájlformátumokkal. Ebben az oktatóanyagban konkrét elrendezések DWG-fájlból PDF-be történő exportálására összpontosítunk az Aspose.CAD használatával .NET-környezetben.
@@ -110,3 +116,9 @@ Gratulálunk! Sikeresen megtanulta, hogyan exportálhat meghatározott elrendez�
 ### 5. kérdés: Van ingyenes próbaverzió?
 
  5. válasz: Igen, hozzáférhet az ingyenes próbaverzióhoz[itt](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

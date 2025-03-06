@@ -3,10 +3,16 @@ title: DWG naar PDF converteren met coördinaten in C# - Aspose.CAD Tutorial
 linktitle: DWG naar PDF converteren met coördinaten in C#
 second_title: Aspose.CAD .NET - CAD- en BIM-bestandsindeling
 description: Leer hoe u DWG naar PDF kunt converteren met specifieke coördinaten in C# met behulp van Aspose.CAD. Volg onze stapsgewijze handleiding voor nauwkeurige en efficiënte CAD-bestandsconversies.
-type: docs
 weight: 11
 url: /nl/net/conversion-and-export/converting-dwg-to-pdf-with-coordinates/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# DWG naar PDF converteren met coördinaten in C# - Aspose.CAD Tutorial
+
 ## Invoering
 
 Welkom bij deze uitgebreide tutorial over het converteren van DWG-bestanden naar PDF met gespecificeerde coördinaten met behulp van Aspose.CAD voor .NET. Aspose.CAD is een krachtige bibliotheek waarmee ontwikkelaars naadloos met CAD-bestandsindelingen in hun .NET-applicaties kunnen werken. In deze zelfstudie leiden we u door het proces van het converteren van een DWG-bestand naar PDF, waarbij we specifieke coördinaten opgeven om de precisie te verbeteren.
@@ -134,3 +140,9 @@ A4: Zeker! Ontdek de uitgebreide mogelijkheden van Aspose.CAD om de PDF-uitvoer 
 ### Vraag 5: Waar kan ik aanvullende ondersteuning of communitydiscussies vinden?
 
 A5: Bezoek de[Aspose.CAD-forum](https://forum.aspose.com/c/cad/19) voor gemeenschapsondersteuning en discussies.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

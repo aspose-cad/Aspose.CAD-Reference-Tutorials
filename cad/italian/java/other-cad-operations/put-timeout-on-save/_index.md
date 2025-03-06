@@ -3,10 +3,16 @@ title: Timeout su salvataggio per CAD con Aspose.CAD
 linktitle: Metti Timeout su Salva
 second_title: API Java Aspose.CAD
 description: Scopri come migliorare le prestazioni della tua applicazione Java con Aspose.CAD. Imposta un timeout per il salvataggio dei disegni CAD. Segui la nostra guida passo passo.
-type: docs
 weight: 15
 url: /it/java/other-cad-operations/put-timeout-on-save/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Timeout su salvataggio per CAD con Aspose.CAD
+
 ## introduzione
 
 Benvenuti nel tutorial su come impostare un timeout durante il salvataggio utilizzando Aspose.CAD per Java. In questa guida ti guideremo attraverso il processo di impostazione di un timeout per il salvataggio dei disegni CAD per migliorare le prestazioni della tua applicazione. Aspose.CAD per Java è una potente libreria che ti consente di lavorare senza problemi con i file CAD nelle tue applicazioni Java.
@@ -131,3 +137,9 @@ R3: Sì, puoi ottenere una prova gratuita da[questo link](https://releases.aspos
 ### Q5: Hai bisogno di aiuto o hai domande?
 
  A5: Vai al[Forum Aspose.CAD](https://forum.aspose.com/c/cad/19) per il sostegno della comunità.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

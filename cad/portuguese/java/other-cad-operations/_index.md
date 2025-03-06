@@ -3,10 +3,16 @@ title: Outras operações CAD
 linktitle: Outras operações CAD
 second_title: API Java Aspose.CAD
 description: Desbloqueie o potencial do Aspose.CAD para Java com nossos tutoriais. Desde o manuseio de elementos DGN até a adição de marcas d'água, aprimore suas habilidades em CAD sem esforço.
-type: docs
 weight: 32
 url: /pt/java/other-cad-operations/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Outras operações CAD
+
 ## Introdução
 
 Bem-vindo ao hub do tutorial Aspose.CAD for Java, onde desvendamos o poder desta ferramenta versátil, capacitando os desenvolvedores Java a aprimorar suas habilidades em CAD. Desde o manuseio de elementos DGN complexos até a adição de um toque pessoal com marcas d’água, nossos guias passo a passo garantem um processo de integração perfeito. Vamos embarcar em uma jornada para desbloquear todo o potencial do Aspose.CAD para Java.
@@ -63,3 +69,9 @@ Crie PDFs impressionantes com diversos layouts de desenhos CAD usando Aspose.CAD
 Aumente a precisão do desenho DWG com Aspose.CAD para Java. Edite hiperlinks perfeitamente, garantindo referências precisas.
 ### [Suporte de OBJ - Tutorial Aspose.CAD para Java](./support-of-obj/)
 Explore o potencial do Aspose.CAD para Java no manuseio perfeito de desenhos OBJ. Converta facilmente para PDF com nosso guia passo a passo.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: CAD 文本和格式
 linktitle: CAD 文本和格式
 second_title: Aspose.CAD Java API
 description: 通过教程释放 Aspose.CAD for Java 的潜力。了解文本搜索、隐藏线、MLeader 实体和 MText 属性以增强您的 CAD 应用程序。
-type: docs
 weight: 28
 url: /zh/java/cad-text-and-formatting/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# CAD 文本和格式
+
 ## 简介
 欢迎来到我们关于使用 Aspose.CAD for Java 的 CAD 文本和格式设置教程的综合指南。无论您是经验丰富的开发人员还是刚刚开始使用 CAD 应用程序，这些教程都将使您的技能更上一层楼。
 
@@ -37,3 +43,9 @@ DWG 格式的 MLeader 实体可以向您的 CAD 项目添加新尺寸。我们�
 通过我们有关支持 DWG 格式的 MLeader 实体的分步教程，释放 Aspose.CAD for Java 的强大功能。
 ### [使用 Aspose.CAD for Java 将属性添加到 DWG 文件中的 MText](./add-attributes-to-mtext/)
 了解如何使用 Aspose.CAD for Java 将属性添加到 DWG 文件中的 MText。通过此分步指南提升您的 CAD 绘图水平。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

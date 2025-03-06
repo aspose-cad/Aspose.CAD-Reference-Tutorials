@@ -3,10 +3,16 @@ title: Anpassen der CAD-Zeichnungsgröße mithilfe des Einheitentyps mit Aspose.
 linktitle: Anpassen der CAD-Zeichnungsgröße mithilfe des Einheitentyps
 second_title: Aspose.CAD Java API
 description: Entdecken Sie die Leistungsfähigkeit von Aspose.CAD für Java bei der mühelosen Anpassung der CAD-Zeichnungsgrößen. Befolgen Sie unsere Schritt-für-Schritt-Anleitung für Präzision und Anpassungsfähigkeit.
-type: docs
 weight: 14
 url: /de/java/cad-file-manipulation/adjusting-cad-drawing-size-using-unit-type/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Anpassen der CAD-Zeichnungsgröße mithilfe des Einheitentyps mit Aspose.CAD für Java
+
 ## Einführung
 
 Im sich ständig weiterentwickelnden Bereich des computergestützten Designs (CAD) sind Präzision und Anpassungsfähigkeit von größter Bedeutung. Eine häufige Anforderung besteht darin, die Größe von CAD-Zeichnungen basierend auf bestimmten Einheitentypen anzupassen. Aspose.CAD für Java erweist sich als leistungsstarker Verbündeter und bietet nahtlose Funktionen für die programmgesteuerte Bearbeitung von CAD-Dateien.
@@ -117,3 +123,9 @@ A1: Aspose.CAD unterstützt hauptsächlich Java, es sind jedoch Versionen für a
 ### F5: Kann ich eine temporäre Lizenz für Aspose.CAD erhalten?
 
  A5: Ja, Sie können eine temporäre Lizenz erwerben[Hier](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

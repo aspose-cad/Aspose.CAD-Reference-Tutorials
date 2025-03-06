@@ -3,10 +3,16 @@ title: 수출 기술
 linktitle: 수출 기술
 second_title: Aspose.CAD .NET - CAD 및 BIM 파일 형식
 description: 원활한 CAD 개발을 위한 Aspose.CAD 튜토리얼을 살펴보세요. DXF 파일을 다양한 형식으로 손쉽게 내보내는 효율적인 기술을 알아보세요.
-type: docs
 weight: 32
 url: /ko/net/export-techniques/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 수출 기술
+
 
 
 ## 소개
@@ -49,3 +55,9 @@ DXF 특정 레이아웃을 PDF로 내보내는 과정을 안내하면서 .NET용
 .NET용 Aspose.CAD의 강력한 기능을 살펴보세요. 이 단계별 튜토리얼을 통해 포함된 DGN 파일을 PDF로 쉽게 내보내는 방법을 알아보세요.
 ### [이미지를 DXF 형식으로 내보내기 - Aspose.CAD 가이드](./exporting-images-to-dxf-format/)
 .NET용 Aspose.CAD의 강력한 기능을 살펴보세요! 이미지를 DXF 형식으로 쉽게 내보내는 방법을 알아보세요. 정확성과 효율성으로 CAD 개발을 강화하세요.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Autres opérations de CAO
 linktitle: Autres opérations de CAO
 second_title: API Java Aspose.CAD
 description: Libérez le potentiel d’Aspose.CAD pour Java avec nos tutoriels. De la gestion des éléments DGN à l'ajout de filigranes, améliorez vos compétences en CAO sans effort.
-type: docs
 weight: 32
 url: /fr/java/other-cad-operations/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Autres opérations de CAO
+
 ## Introduction
 
 Bienvenue dans le hub de didacticiels Aspose.CAD pour Java, où nous découvrons la puissance de cet outil polyvalent, permettant aux développeurs Java d'améliorer leurs compétences en CAO. De la gestion d'éléments DGN complexes à l'ajout d'une touche personnelle avec des filigranes, nos guides étape par étape garantissent un processus d'intégration transparent. Embarquons pour un voyage pour libérer tout le potentiel d'Aspose.CAD pour Java.
@@ -63,3 +69,9 @@ Créez de superbes PDF avec diverses mises en page à partir de dessins CAO à l
 Améliorez la précision des dessins DWG avec Aspose.CAD pour Java. Modifiez les hyperliens de manière transparente, garantissant des références précises.
 ### [Prise en charge d'OBJ - Tutoriel Aspose.CAD pour Java](./support-of-obj/)
 Explorez le potentiel d'Aspose.CAD pour Java dans la gestion transparente des dessins OBJ. Convertissez sans effort en PDF avec notre guide étape par étape.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

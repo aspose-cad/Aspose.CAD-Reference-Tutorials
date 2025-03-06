@@ -3,10 +3,16 @@ title: Elenca tutti i layout nel disegno AutoCAD con Java
 linktitle: Elenca tutti i layout nel disegno AutoCAD con Java
 second_title: API Java Aspose.CAD
 description: Esplora i disegni AutoCAD senza sforzo in Java con Aspose.CAD. Elenca tutti i layout, estrai informazioni preziose. Scaricalo ora per un'integrazione perfetta!
-type: docs
 weight: 11
 url: /it/java/dwg-file-operations/list-all-layouts/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Elenca tutti i layout nel disegno AutoCAD con Java
+
 ## introduzione
 
 Desideri sfruttare tutto il potenziale dei disegni AutoCAD nelle tue applicazioni Java? Aspose.CAD per Java è la soluzione di riferimento, che offre una perfetta integrazione per manipolare ed estrarre informazioni preziose dai file DWG e DXF. In questa guida passo passo ti guideremo attraverso il processo di elenco di tutti i layout in un disegno AutoCAD utilizzando Aspose.CAD per Java.
@@ -86,3 +92,9 @@ A3: Sì, è possibile trovare disegni di esempio nella directory "DWGDrawings" a
 ### Q5: Posso provare Aspose.CAD per Java prima dell'acquisto?
 
  A5: Certamente! Ottieni una prova gratuita da[Qui](https://releases.aspose.com/) sperimenta la potenza di Aspose.CAD per Java.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

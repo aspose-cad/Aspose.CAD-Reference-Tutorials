@@ -3,10 +3,16 @@ title: CFF 到 PDF 转换 - Aspose.CAD for Java 教程
 linktitle: CFF 到 PDF 转换
 second_title: Aspose.CAD Java API
 description: 探索使用 Aspose.CAD for Java 实现 CFF 到 PDF 的无缝转换。步骤简单，结果可靠。
-type: docs
 weight: 13
 url: /zh/java/cad-to-pdf-and-svg-export-options/cff-to-pdf-conversion/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# CFF 到 PDF 转换 - Aspose.CAD for Java 教程
+
 ## 介绍
 
 欢迎来到我们关于使用 Aspose.CAD for Java 将紧凑字体格式 (CFF) 文件转换为可移植文档格式 (PDF) 的分步教程。 Aspose.CAD 是一个功能强大的库，允许 Java 开发人员无缝地处理 CAD 文件。在本教程中，我们将使用实际示例和清晰的解释来指导您完成 CFF 到 PDF 的转换过程。
@@ -87,3 +93,9 @@ A1：是的，Aspose.CAD 旨在与任何标准 Java 开发环境配合使用。
 ### Q5：哪里可以购买Aspose.CAD库？
 
  A5：购买图书馆[这里](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

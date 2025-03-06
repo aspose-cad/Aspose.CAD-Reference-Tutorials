@@ -3,10 +3,16 @@ title: Nastavení velikosti plátna a režimu v Aspose.CAD pro .NET
 linktitle: Nastavení velikosti plátna a režimu
 second_title: Aspose.CAD .NET – formát souborů CAD a BIM
 description: Prozkoumejte podrobného průvodce nastavením velikosti plátna a režimu v Aspose.CAD pro .NET. Pomocí tohoto komplexního návodu snadno optimalizujte své vykreslování CAD.
-type: docs
 weight: 16
 url: /cs/net/cad-features-and-support/setting-canvas-size-and-mode/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Nastavení velikosti plátna a režimu v Aspose.CAD pro .NET
+
 ## Úvod
 
 Jste připraveni odemknout plný potenciál Aspose.CAD pro .NET a revoluci ve vašem vykreslování CAD? V tomto tutoriálu krok za krokem se ponoříme do složitosti nastavení velikosti plátna a režimu pomocí výkonné knihovny Aspose.CAD. Ať už jste zkušený vývojář nebo teprve začínáte, tento průvodce vás provede celým procesem a zajistí vám efektivní využití možností Aspose.CAD.
@@ -119,3 +125,9 @@ Odpověď 1: Ano, Aspose.CAD se hladce integruje s dalšími knihovnami .NET a p
 ### Q5: Jak mohu zakoupit Aspose.CAD pro .NET?
 
  A5: Chcete-li zakoupit Aspose.CAD, navštivte[nákupní stránku](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -1,12 +1,17 @@
 ---
 title: .NET용 Aspose.CAD의 종합 튜토리얼 및 예제
 linktitle: .NET 튜토리얼용 Aspose.CAD
-type: docs
 weight: 10
 url: /ko/net/
 description: 포괄적인 튜토리얼이 포함된 .NET용 Aspose.CAD를 마스터하세요. 라이센스부터 고급 수출 기술까지 CAD 기술을 향상시키십시오. 숨겨진 기능을 손쉽게 잠금해제하세요.
-is_root: true
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# .NET용 Aspose.CAD의 종합 튜토리얼 및 예제
+
 
 ## 소개
 
@@ -61,3 +66,9 @@ CFF를 PDF로 쉽게 변환하고, CAD 도면에서 자유로운 관점을 탐�
 Aspose.CAD for .NET을 사용하여 PLT 파일을 이미지 및 PDF로 쉽게 변환하세요. CAD 파일 조작을 위한 원활한 통합과 유연한 옵션을 살펴보세요.
 ### [STL 파일 내보내기](./stl-file-export/)
 .NET용 Aspose.CAD를 사용하여 STL 파일을 PNG로 쉽게 내보낼 수 있습니다. 우리의 단계별 가이드는 원활한 통합을 보장합니다. Aspose.CAD For .NET 튜토리얼을 통해 알아보세요.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

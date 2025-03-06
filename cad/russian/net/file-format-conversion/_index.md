@@ -3,10 +3,16 @@ title: Преобразование формата файла
 linktitle: Преобразование формата файла
 second_title: Aspose.CAD .NET — формат файлов CAD и BIM
 description: Легко улучшите свои возможности обработки файлов САПР с помощью Aspose.CAD для .NET. Ознакомьтесь с учебными пособиями по экспорту DWF в PDF и экспорту 3D-изображений в формат BMP.
-type: docs
 weight: 36
 url: /ru/net/file-format-conversion/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Преобразование формата файла
+
 
 ## Введение
 
@@ -46,3 +52,9 @@ url: /ru/net/file-format-conversion/
 Изучите подробное руководство по экспорту DWF в PDF с помощью Aspose.CAD для .NET. Расширьте возможности обработки файлов САПР без особых усилий.
 ### [Экспорт в формат BMP - Учебное пособие по Aspose.CAD](./exporting-to-bmp-format/)
 Исследуйте беспрепятственный мир экспорта 3D-изображений в BMP с помощью Aspose.CAD для .NET. Следуйте нашему руководству, чтобы работать без проблем.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

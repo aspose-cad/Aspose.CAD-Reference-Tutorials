@@ -3,10 +3,16 @@ title: Odczyt metadanych XREF z plików DWG za pomocą Aspose.CAD dla Java
 linktitle: Odczyt metadanych XREF z plików DWG przy użyciu języka Java
 second_title: Aspose.CAD API Java
 description: Przeglądaj Aspose.CAD dla Java i bez wysiłku opanuj czytanie metadanych XREF z plików DWG. Przyspiesz rozwój swojego oprogramowania CAD dzięki tej potężnej bibliotece Java.
-type: docs
 weight: 10
 url: /pl/java/cad-meta-data-and-rendering/read-xref-meta-data/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Odczyt metadanych XREF z plików DWG za pomocą Aspose.CAD dla Java
+
 ## Wstęp
 
 Jeśli zagłębiasz się w świat projektowania wspomaganego komputerowo (CAD) przy użyciu języka Java, zrozumienie sposobu wyodrębniania metadanych odnośników zewnętrznych (XREF) z plików DWG jest cenną umiejętnością. Aspose.CAD dla Java zapewnia programistom solidne narzędzia do manipulacji plikami CAD, a w tym samouczku skupimy się na czytaniu metadanych XREF z plików DWG.
@@ -90,3 +96,9 @@ A1: Absolutnie! Aspose.CAD dla Java to potężna biblioteka, której programiśc
 ### P5: Jak mogę kupić licencję na Aspose.CAD dla Java?
 
 A5: Odwiedź[strona zakupu](https://purchase.aspose.com/buy) aby poznać opcje licencjonowania dostosowane do Twoich potrzeb.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

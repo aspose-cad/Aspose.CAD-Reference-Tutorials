@@ -3,10 +3,16 @@ title: Cấp phép và cấu hình
 linktitle: Cấp phép và cấu hình
 second_title: API Java Aspose.CAD
 description: Khai phá sức mạnh của Aspose.CAD cho Java bằng hướng dẫn cấp phép theo đồng hồ đo của chúng tôi. Tối ưu hóa xử lý CAD hiệu quả và tiết kiệm chi phí để nâng cao năng suất.
-type: docs
 weight: 25
 url: /vi/java/licensing-and-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Cấp phép và cấu hình
+
 ## Giới thiệu
 
 Bắt tay vào hành trình làm chủ việc cấp phép theo đồng hồ đo trong Aspose.CAD cho Java sẽ mở ra cánh cửa dẫn đến hiệu quả và tiết kiệm chi phí vô song trong xử lý CAD. Trong hướng dẫn toàn diện này, chúng tôi đi sâu vào những điểm phức tạp, giúp bạn tối ưu hóa quy trình làm việc của mình một cách liền mạch.
@@ -25,3 +31,9 @@ Tóm lại, việc cấp phép theo đồng hồ đo trong Aspose.CAD cho Java k
 ## Hướng dẫn cấp phép và cấu hình
 ### [Cấp phép đo lường trong Aspose.CAD](./metered-licensing-in-aspose-cad/)
 Tìm hiểu cách nắm vững cách cấp phép theo đồng hồ đo trong Aspose.CAD cho Java với hướng dẫn toàn diện này. Tối ưu hóa quá trình xử lý CAD của bạn để đạt hiệu quả và tiết kiệm chi phí.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

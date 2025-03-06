@@ -3,10 +3,16 @@ title: Обработка слоев в файлах DWG с помощью C# - 
 linktitle: Обработка слоев в файлах DWG с помощью C#
 second_title: Aspose.CAD .NET — формат файлов CAD и BIM
 description: Узнайте, как обрабатывать слои в файлах DWG с помощью C# с Aspose.CAD для .NET. Пошаговое руководство по эффективному манипулированию файлами САПР.
-type: docs
 weight: 11
 url: /ru/net/dwg-file-manipulation/support-of-layers/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Обработка слоев в файлах DWG с помощью C# - Учебное пособие по Aspose.CAD
+
 ## Введение
 
 Добро пожаловать в наше подробное руководство по работе со слоями в файлах DWG с использованием C# с Aspose.CAD для .NET. Aspose.CAD — это мощная библиотека, которая позволяет разработчикам беспрепятственно работать с форматами файлов САПР. В этом уроке мы шаг за шагом проведем вас через процесс обработки слоев в файлах DWG.
@@ -109,3 +115,9 @@ image.Save(MyDir, jpegOptions);
 ### Вопрос 5: Каковы варианты лицензирования Aspose.CAD?
 
  О5: Вы можете изучить варианты лицензирования и детали приобретения.[здесь](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Habilite o rastreamento em arquivos DWG usando Aspose.CAD em Java
 linktitle: Habilitar rastreamento em arquivos DWG usando Java
 second_title: API Java Aspose.CAD
 description: Explore o guia passo a passo sobre como ativar o rastreamento de arquivos DWG em Java usando Aspose.CAD, garantindo uma colaboração perfeita em projetos CAD.
-type: docs
 weight: 12
 url: /pt/java/additional-features/enable-tracking/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Habilite o rastreamento em arquivos DWG usando Aspose.CAD em Java
+
 ## Introdução
 
 No domínio do design auxiliado por computador (CAD), Aspose.CAD for Java se destaca como uma ferramenta poderosa que permite aos desenvolvedores manipular e converter arquivos CAD com facilidade. Este tutorial se aprofunda em uma funcionalidade específica do Aspose.CAD for Java – permitindo rastreamento em arquivos DWG. Rastrear alterações em arquivos DWG é crucial para projetos de design colaborativos, garantindo comunicação perfeita e fluxo de trabalho eficiente. Neste guia, percorreremos as etapas para habilitar o rastreamento usando Java, aproveitando os recursos do Aspose.CAD.
@@ -123,3 +129,9 @@ A1: Aspose.CAD oferece suporte principalmente a arquivos DWG para rastreamento. 
 ### P5: Como obtenho uma licença temporária do Aspose.CAD para Java?
 
  A5: Siga o processo descrito em[Licença Temporária](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: การทำงานของไฟล์ DWG
 linktitle: การทำงานของไฟล์ DWG
 second_title: Aspose.CAD Java API
 description: เสริมทักษะ Java ของคุณด้วยบทช่วยสอน Aspose.CAD เรียนรู้การนำเข้ารูปภาพ รายการเค้าโครง การสนับสนุนแบบตาข่าย การแทนที่โค้ดเพจ และ DWG เป็นการแปลงรูปภาพได้อย่างง่ายดาย
-type: docs
 weight: 26
 url: /th/java/dwg-file-operations/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# การทำงานของไฟล์ DWG
+
 ## การแนะนำ
 
 คุณเป็นผู้ที่ชื่นชอบ Java ที่ต้องการยกระดับทักษะในการใช้งานไฟล์ DWG หรือไม่? ไม่ต้องมองอีกต่อไป! บทช่วยสอนที่ครอบคลุมของเราที่ใช้ Aspose.CAD สำหรับ Java ได้รับการปรับแต่งมาเพื่อคุณโดยเฉพาะ มาเจาะลึกโลกอันน่าทึ่งของการพัฒนาที่มีประสิทธิภาพและการบูรณาการที่ราบรื่น
@@ -44,3 +50,10 @@ url: /th/java/dwg-file-operations/
 ค้นพบวิธีแทนที่การตรวจจับโค้ดเพจในไฟล์ DWG ด้วย Aspose.CAD สำหรับ Java จัดการการเข้ารหัสและกู้คืน CIF/MIF ที่มีรูปแบบไม่ถูกต้องได้อย่างมีประสิทธิภาพ
 ### [แปลง DWG เฉพาะเป็นรูปภาพโดยใช้ Java](./convert-dwg-to-image/)
 สำรวจการแปลง DWG เป็นรูปภาพอย่างราบรื่นด้วย Aspose.CAD สำหรับ Java ปฏิบัติตามคำแนะนำทีละขั้นตอนของเราเพื่อการแปลงรูปแบบไฟล์ที่มีประสิทธิภาพ
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

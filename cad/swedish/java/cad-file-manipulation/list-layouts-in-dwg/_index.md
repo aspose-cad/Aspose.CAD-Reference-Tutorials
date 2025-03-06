@@ -3,10 +3,16 @@ title: Lista layouter i DWG med Aspose.CAD för Java
 linktitle: Lista layouter i DWG
 second_title: Aspose.CAD Java API
 description: Utforska Aspose.CAD för Java och lista layouter enkelt i DWG-filer. Integrera kraftfull CAD-funktion i dina Java-applikationer.
-type: docs
 weight: 12
 url: /sv/java/cad-file-manipulation/list-layouts-in-dwg/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Lista layouter i DWG med Aspose.CAD för Java
+
 ## Introduktion
 
 Välkommen till vår steg-för-steg-guide om hur du använder Aspose.CAD för Java för att lista layouter i DWG-filer. Aspose.CAD är ett kraftfullt bibliotek som gör det möjligt för utvecklare att arbeta med CAD-filer programmatiskt. I den här handledningen kommer vi att fokusera på en specifik uppgift: lista layouter i en DWG-fil. I slutet av den här guiden kommer du att sömlöst kunna integrera den här funktionen i dina Java-applikationer.
@@ -86,3 +92,9 @@ S1: Ja, Aspose.CAD stöder olika CAD-format, inklusive DWG, DXF, DWF och mer.
 ### F5: Kan jag använda en tillfällig licens för teständamål?
 
  A5: Ja, du kan få en tillfällig licens[här](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

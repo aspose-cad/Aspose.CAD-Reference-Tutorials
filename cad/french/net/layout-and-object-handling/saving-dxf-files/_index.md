@@ -3,10 +3,16 @@ title: Enregistrement de fichiers DXF - Guide Aspose.CAD
 linktitle: Enregistrement de fichiers DXF
 second_title: Aspose.CAD .NET - Format de fichier CAO et BIM
 description: Découvrez la puissance d'Aspose.CAD pour .NET. Apprenez à enregistrer des fichiers DXF sans effort grâce à notre guide étape par étape.
-type: docs
 weight: 11
 url: /fr/net/layout-and-object-handling/saving-dxf-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Enregistrement de fichiers DXF - Guide Aspose.CAD
+
 ## Introduction
 
 Bienvenue dans notre guide étape par étape sur l'enregistrement de fichiers DXF à l'aide d'Aspose.CAD pour .NET ! Si vous êtes un développeur cherchant à manipuler des fichiers CAO de manière transparente, vous êtes au bon endroit. Aspose.CAD pour .NET fournit des outils puissants pour travailler avec les formats CAO, et dans ce didacticiel, nous nous concentrerons sur l'enregistrement des fichiers DXF. Alors, plongeons-nous !
@@ -82,3 +88,9 @@ A1 : Oui, Aspose.CAD prend en charge divers formats de CAO, notamment DWG et DWF
 ### Q5 : Puis-je acheter Aspose.CAD pour .NET ?
 
  A5 : Certainement ! Explorez les options d'achat[ici](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

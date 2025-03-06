@@ -3,10 +3,16 @@ title: Бесплатная визуализация точки зрения с 
 linktitle: Бесплатная точка зрения
 second_title: API Aspose.CAD Java
 description: Изучите возможности Aspose.CAD для Java в этом руководстве по бесплатному рендерингу точек зрения для чертежей САПР. Раскройте потенциал Aspose.CAD.
-type: docs
 weight: 14
 url: /ru/java/other-cad-operations/free-point-of-view/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Бесплатная визуализация точки зрения с помощью Aspose.CAD для Java
+
 ## Введение
 
 Добро пожаловать в «Бесплатный обзор — Учебное пособие по Aspose.CAD для Java». В этом подробном руководстве мы познакомим вас с процессом использования Aspose.CAD для Java для обеспечения бесплатной визуализации точек зрения для чертежей САПР. Aspose.CAD — это мощная библиотека Java, предоставляющая широкий спектр функций для работы с файлами автоматизированного проектирования (САПР). В руководстве будут рассмотрены необходимые предварительные условия, импортированы основные пакеты и разбит каждый пример на пошаговые руководства.
@@ -116,3 +122,9 @@ objImage.save(dataDir + "FreePointOfView_out.jpeg", options);
 ### В5: Как я могу получить временную лицензию?
 
  A5: Получите временную лицензию[здесь](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Υποστήριξη για κρυφές γραμμές σε αρχεία
 linktitle: Υποστήριξη για κρυφές γραμμές σε αρχεία DWG με χρήση Java
 second_title: Aspose.CAD Java API
 description: Μάθετε πώς να βελτιώσετε τις δυνατότητες χειρισμού αρχείων DWG της εφαρμογής Java χρησιμοποιώντας το Aspose.CAD. Ακολουθήστε τον οδηγό βήμα προς βήμα για υποστήριξη κρυφών γραμμών. Ενισχύστε τον χειρισμό σχεδίασης CAD με ευκολία.
-type: docs
 weight: 11
 url: /el/java/cad-text-and-formatting/support-hidden-lines-in-dwg/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Υποστήριξη για κρυφές γραμμές σε αρχεία DWG χρησιμοποιώντας Aspose.CAD για Java
+
 ## Εισαγωγή
 
 Καλώς ήρθατε σε έναν περιεκτικό οδηγό για τη μόχλευση του Aspose.CAD για Java για τη βελτίωση των δυνατοτήτων χειρισμού αρχείων DWG. Σε αυτό το σεμινάριο, θα εστιάσουμε σε μια συγκεκριμένη πτυχή: υποστήριξη κρυφών γραμμών σε αρχεία DWG. Είτε είστε έμπειρος προγραμματιστής είτε μόλις ξεκινάτε, αυτός ο οδηγός θα σας βοηθήσει να πλοηγηθείτε στη διαδικασία με οδηγίες βήμα προς βήμα.
@@ -117,3 +123,10 @@ A1: Ναι, το Aspose.CAD υποστηρίζει διάφορες μορφές
 ### Ε5: Μπορώ να αγοράσω μια προσωρινή άδεια χρήσης για το Aspose.CAD για Java;
 
  A5: Ναι, μπορείτε να αποκτήσετε προσωρινή άδεια[εδώ](https://purchase.aspose.com/temporary-license/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

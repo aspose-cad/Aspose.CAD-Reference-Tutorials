@@ -3,10 +3,16 @@ title: Handling Layers in DWG Files with C# - Aspose.CAD Tutorial
 linktitle: Handling Layers in DWG Files with C#
 second_title: Aspose.CAD .NET - CAD and BIM File Format
 description: Learn how to handle layers in DWG files using C# with Aspose.CAD for .NET. Step-by-step guide for efficient CAD file manipulation.
-type: docs
 weight: 11
 url: /net/dwg-file-manipulation/support-of-layers/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Handling Layers in DWG Files with C# - Aspose.CAD Tutorial
+
 ## Introduction
 
 Welcome to our in-depth tutorial on handling layers in DWG files using C# with Aspose.CAD for .NET. Aspose.CAD is a powerful library that enables developers to work with CAD file formats seamlessly. In this tutorial, we'll guide you through the process of handling layers in DWG files step by step.
@@ -109,3 +115,10 @@ A4: You can seek support on the [Aspose.CAD forum](https://forum.aspose.com/c/ca
 ### Q5: What are the licensing options for Aspose.CAD?
 
 A5: You can explore licensing options and purchase details [here](https://purchase.aspose.com/buy).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

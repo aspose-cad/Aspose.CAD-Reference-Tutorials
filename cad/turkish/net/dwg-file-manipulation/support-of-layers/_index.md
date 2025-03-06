@@ -3,10 +3,16 @@ title: C# ile DWG Dosyalarındaki Katmanları İşleme - Aspose.CAD Eğitimi
 linktitle: DWG Dosyalarındaki Katmanları C# ile İşleme
 second_title: Aspose.CAD .NET - CAD ve BIM Dosya Formatı
 description: Aspose.CAD for .NET ile C# kullanarak DWG dosyalarındaki katmanları nasıl işleyeceğinizi öğrenin. Verimli CAD dosyası manipülasyonu için adım adım kılavuz.
-type: docs
 weight: 11
 url: /tr/net/dwg-file-manipulation/support-of-layers/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# C# ile DWG Dosyalarındaki Katmanları İşleme - Aspose.CAD Eğitimi
+
 ## giriiş
 
 Aspose.CAD for .NET ile C# kullanarak DWG dosyalarındaki katmanları işlemeye ilişkin ayrıntılı eğitimimize hoş geldiniz. Aspose.CAD, geliştiricilerin CAD dosya formatlarıyla sorunsuz bir şekilde çalışmasını sağlayan güçlü bir kütüphanedir. Bu eğitimde, DWG dosyalarındaki katmanları işleme sürecinde size adım adım rehberlik edeceğiz.
@@ -109,3 +115,9 @@ Bu eğitimde, C# ve Aspose.CAD kütüphanesini kullanarak DWG dosyalarındaki ka
 ### S5: Aspose.CAD'in lisanslama seçenekleri nelerdir?
 
  Cevap5: Lisanslama seçeneklerini ve satın alma ayrıntılarını keşfedebilirsiniz[Burada](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

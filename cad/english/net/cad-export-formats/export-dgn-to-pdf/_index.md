@@ -3,10 +3,16 @@ title: Export DGN to PDF in Aspose.CAD for .NET
 linktitle: Export DGN to PDF
 second_title: Aspose.CAD .NET - CAD and BIM File Format
 description: Learn how to export DGN files to PDF effortlessly with Aspose.CAD for .NET. A step-by-step guide for seamless CAD file manipulation.
-type: docs
 weight: 12
 url: /net/cad-export-formats/export-dgn-to-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Export DGN to PDF in Aspose.CAD for .NET
+
 ## Introduction
 
 In the world of .NET development, Aspose.CAD is a powerful library that facilitates the manipulation and conversion of CAD files. One common task developers often encounter is exporting DGN files to PDF format. In this tutorial, we'll walk through the process step by step, using Aspose.CAD for .NET.
@@ -92,3 +98,10 @@ A4: Obtain temporary licenses [here](https://purchase.aspose.com/temporary-licen
 ### Q5: Need help or have questions?
 
 A5: Visit the [Aspose.CAD forum](https://forum.aspose.com/c/cad/19) for community support.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Export 3D obrázku
 linktitle: Export 3D obrázku
 second_title: Aspose.CAD .NET – formát souborů CAD a BIM
 description: Bez námahy exportujte 3D obrázky CAD do PDF pomocí Aspose.CAD for .NET. Postupujte podle našich výukových programů pro bezproblémový převod PDF. Naučte se efektivní techniky exportu 3D obrazu.
-type: docs
 weight: 35
 url: /cs/net/3d-image-export/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Export 3D obrázku
+
 
 ## Úvod
 
@@ -34,3 +40,9 @@ Závěrem lze říci, že výukové programy exportu 3D obrázků s Aspose.CAD f
 ## Výukové programy exportu 3D obrázků
 ### [Export 3D obrázků do PDF - Aspose.CAD Tutorial](./exporting-3d-images-to-pdf/)
 Bez námahy převádějte 3D obrázky CAD do PDF pomocí Aspose.CAD pro .NET. Postupujte podle našeho podrobného návodu pro bezproblémový export PDF.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

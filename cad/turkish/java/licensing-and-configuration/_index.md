@@ -3,10 +3,16 @@ title: Lisanslama ve Yapılandırma
 linktitle: Lisanslama ve Yapılandırma
 second_title: Aspose.CAD Java API'si
 description: Ölçülü lisanslama eğitimimizle Aspose.CAD for Java'nın gücünün kilidini açın. Gelişmiş üretkenlik için CAD işlemeyi verimli ve uygun maliyetli bir şekilde optimize edin.
-type: docs
 weight: 25
 url: /tr/java/licensing-and-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Lisanslama ve Yapılandırma
+
 ## giriiş
 
 Aspose.CAD for Java'da ölçülü lisanslamada uzmanlaşma yolculuğuna çıkmak, CAD işlemede benzersiz verimlilik ve maliyet etkinliğinin kapılarını açıyor. Bu kapsamlı kılavuzda, iş akışınızı sorunsuz bir şekilde optimize etmenizi sağlayacak şekilde incelikleri derinlemesine inceliyoruz.
@@ -25,3 +31,9 @@ Sonuç olarak, Aspose.CAD for Java'da ölçülü lisanslama sadece teknik detayl
 ## Lisanslama ve Yapılandırma Eğitimleri
 ### [Aspose.CAD'de Ölçülü Lisanslama](./metered-licensing-in-aspose-cad/)
 Bu kapsamlı kılavuzla Aspose.CAD for Java'da ölçülü lisanslamada nasıl uzmanlaşacağınızı öğrenin. Verimlilik ve maliyet etkinliği için CAD işlemenizi optimize edin.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

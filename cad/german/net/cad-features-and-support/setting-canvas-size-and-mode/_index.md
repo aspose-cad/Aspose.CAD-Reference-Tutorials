@@ -3,10 +3,16 @@ title: Festlegen der Leinwandgröße und des Leinwandmodus in Aspose.CAD für .N
 linktitle: Festlegen von Leinwandgröße und -modus
 second_title: Aspose.CAD .NET – CAD- und BIM-Dateiformat
 description: Entdecken Sie die Schritt-für-Schritt-Anleitung zum Festlegen der Leinwandgröße und des Leinwandmodus in Aspose.CAD für .NET. Optimieren Sie Ihr CAD-Rendering ganz einfach mit diesem umfassenden Tutorial.
-type: docs
 weight: 16
 url: /de/net/cad-features-and-support/setting-canvas-size-and-mode/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Festlegen der Leinwandgröße und des Leinwandmodus in Aspose.CAD für .NET
+
 ## Einführung
 
 Sind Sie bereit, das volle Potenzial von Aspose.CAD für .NET auszuschöpfen und Ihr CAD-Rendering-Erlebnis zu revolutionieren? In diesem Schritt-für-Schritt-Tutorial befassen wir uns mit den Feinheiten der Einstellung von Leinwandgröße und -modus mithilfe der leistungsstarken Aspose.CAD-Bibliothek. Unabhängig davon, ob Sie ein erfahrener Entwickler sind oder gerade erst anfangen, führt Sie dieser Leitfaden durch den Prozess und stellt sicher, dass Sie die Funktionen von Aspose.CAD effektiv nutzen.
@@ -119,3 +125,9 @@ A1: Ja, Aspose.CAD lässt sich nahtlos in andere .NET-Bibliotheken integrieren u
 ### F5: Wie kaufe ich Aspose.CAD für .NET?
 
  A5: Um Aspose.CAD zu kaufen, besuchen Sie die[Kaufseite](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

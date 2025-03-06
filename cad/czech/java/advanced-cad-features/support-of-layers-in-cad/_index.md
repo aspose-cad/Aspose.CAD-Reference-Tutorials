@@ -3,10 +3,16 @@ title: Podpora vrstev s Aspose.CAD v Javě
 linktitle: Podpora vrstev v CAD
 second_title: Aspose.CAD Java API
 description: Podpora hlavní vrstvy při vývoji Java CAD s Aspose.CAD. Uspořádejte a exportujte výkresy bez námahy.
-type: docs
 weight: 18
 url: /cs/java/advanced-cad-features/support-of-layers-in-cad/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Podpora vrstev s Aspose.CAD v Javě
+
 ## Úvod
 
 Odemkněte plný potenciál Aspose.CAD v Javě zvládnutím podpory vrstev. Vrstvy hrají klíčovou roli ve výkresech CAD a umožňují efektivní organizaci a manipulaci s grafickými prvky. V tomto komplexním tutoriálu se ponoříme do složitosti podpory vrstev pomocí Aspose.CAD a poskytneme vám podrobného průvodce, jak využít tuto výkonnou funkci.
@@ -118,3 +124,9 @@ A2: Ano, Aspose.CAD podporuje širokou škálu CAD formátů, což zajišťuje v
 ### Q5: Kde mohu vyhledat pomoc nebo sdílet své zkušenosti s Aspose.CAD?
 
 A5: Připojte se ke komunitě Aspose.CAD na[Fórum](https://forum.aspose.com/c/cad/19) za podporu a společné diskuse.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

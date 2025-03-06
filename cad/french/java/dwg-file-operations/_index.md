@@ -3,10 +3,16 @@ title: Opérations sur les fichiers DWG
 linktitle: Opérations sur les fichiers DWG
 second_title: API Java Aspose.CAD
 description: Améliorez vos compétences Java avec les didacticiels Aspose.CAD. Apprenez l'importation d'images, la liste de mises en page, la prise en charge du maillage, le remplacement des pages de codes et la conversion DWG en image sans effort.
-type: docs
 weight: 26
 url: /fr/java/dwg-file-operations/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Opérations sur les fichiers DWG
+
 ## Introduction
 
 Êtes-vous un passionné de Java et souhaitez-vous améliorer vos compétences dans les opérations sur les fichiers DWG ? Cherchez pas plus loin! Nos didacticiels complets utilisant Aspose.CAD pour Java sont conçus spécialement pour vous. Plongeons dans le monde fascinant du développement efficace et de l’intégration transparente.
@@ -44,3 +50,10 @@ Apprenez à activer la prise en charge du maillage pour les fichiers DWG en Java
 Découvrez comment remplacer la détection des pages de codes dans les fichiers DWG avec Aspose.CAD pour Java. Gérez efficacement l’encodage et récupérez les CIF/MIF malformés.
 ### [Convertir un DWG particulier en image à l'aide de Java](./convert-dwg-to-image/)
 Explorez la conversion transparente de DWG en images avec Aspose.CAD pour Java. Suivez notre guide étape par étape pour des transformations efficaces de format de fichier.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

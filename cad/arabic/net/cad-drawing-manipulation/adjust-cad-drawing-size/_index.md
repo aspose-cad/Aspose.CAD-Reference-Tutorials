@@ -3,10 +3,16 @@ title: ضبط حجم رسم CAD في Aspose.CAD لـ .NET
 linktitle: ضبط حجم رسم CAD
 second_title: Aspose.CAD .NET - تنسيق ملف CAD وBIM
 description: تعرف على كيفية ضبط أحجام رسم CAD في .NET بسهولة باستخدام Aspose.CAD. اتبع دليلنا خطوة بخطوة لتغيير الحجم بسلاسة.
-type: docs
 weight: 10
 url: /ar/net/cad-drawing-manipulation/adjust-cad-drawing-size/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# ضبط حجم رسم CAD في Aspose.CAD لـ .NET
+
 ## مقدمة
 
 هل تتطلع إلى ضبط حجم رسومات CAD بسلاسة في تطبيقات .NET الخاصة بك؟ يوفر Aspose.CAD for .NET حلاً قويًا، مما يسمح لك بالتعامل بسهولة مع تغيير حجم رسم CAD. في هذا البرنامج التعليمي، سنرشدك خلال العملية، مع تفصيل كل خطوة للتأكد من فهمك لتعقيدات تغيير حجم رسومات CAD باستخدام Aspose.CAD.
@@ -115,3 +121,9 @@ image.Save(outPath, bmpOptions);
 ### س5: كيف يمكنني الحصول على ترخيص مؤقت لـ Aspose.CAD لـ .NET؟
 
  ج5: الحصول على ترخيص مؤقت لأغراض الاختبار[هنا](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

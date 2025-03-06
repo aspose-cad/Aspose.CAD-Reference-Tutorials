@@ -3,10 +3,16 @@ title: Exportación de DWF a PDF - Guía Aspose.CAD
 linktitle: Exportar DWF a PDF
 second_title: Aspose.CAD .NET - Formato de archivo CAD y BIM
 description: Explore una guía perfecta sobre cómo exportar DWF a PDF usando Aspose.CAD para .NET. Mejore sus capacidades de manejo de archivos CAD sin esfuerzo.
-type: docs
 weight: 10
 url: /es/net/file-format-conversion/exporting-dwf-to-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Exportación de DWF a PDF - Guía Aspose.CAD
+
 ## Introducción
 
 En el mundo del desarrollo .NET, Aspose.CAD se destaca como una poderosa biblioteca para manejar archivos de diseño asistido por computadora (CAD). En este tutorial, nos centraremos en una tarea específica: exportar archivos DWF (Design Web Format) a PDF usando Aspose.CAD para .NET. Si es un desarrollador experimentado o recién comienza, siga las instrucciones para integrar perfectamente esta funcionalidad en sus aplicaciones.
@@ -110,3 +116,9 @@ R1: Sí, Aspose.CAD admite varios formatos de archivos CAD, incluidos DWG, DXF, 
 ### P5: ¿Dónde puedo comprar la versión completa de Aspose.CAD para .NET?
 
  R5: Puede comprar la versión completa de Aspose.CAD para .NET en[aquí](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

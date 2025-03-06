@@ -3,10 +3,16 @@ title: Chuyển đổi bản vẽ CAD
 linktitle: Chuyển đổi bản vẽ CAD
 second_title: API Java Aspose.CAD
 description: Dễ dàng chuyển đổi các bản vẽ CAD bằng Aspose.CAD cho Java. Tìm hiểu cách chuyển đổi, xuất và tối ưu hóa tệp CAD của bạn một cách chính xác bằng cách sử dụng hướng dẫn từng bước của chúng tôi.
-type: docs
 weight: 20
 url: /vi/java/cad-drawing-conversion/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Chuyển đổi bản vẽ CAD
+
 
 ## Giới thiệu
 
@@ -50,3 +56,9 @@ Khám phá quy trình liền mạch xuất tệp DWG sang PDF hoặc hình ảnh
 Khám phá hướng dẫn từng bước để xuất bố cục DWG cụ thể sang PDF bằng Aspose.CAD cho Java. Tối ưu hóa quy trình làm việc CAD của bạn một cách dễ dàng.
 ### [Chuyển đổi định dạng DWT sang DXF bằng Aspose.CAD cho Java](./convert-dwt-to-dxf/)
 Khám phá khả năng chuyển đổi liền mạch từ DWT sang DXF với Aspose.CAD cho Java. Thực hiện theo hướng dẫn từng bước của chúng tôi để thao tác tệp CAD hiệu quả.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

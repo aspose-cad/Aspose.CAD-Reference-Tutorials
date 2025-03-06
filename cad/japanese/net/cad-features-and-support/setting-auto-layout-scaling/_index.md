@@ -3,10 +3,16 @@ title: Aspose.CAD for .NET での自動レイアウト スケーリングの設�
 linktitle: 自動レイアウト拡大縮小の設定
 second_title: Aspose.CAD .NET - CAD および BIM ファイル形式
 description: Aspose.CAD for .NET を使用して CAD レンダリングを強化します。正確で適応性のあるファイル レンダリングのために自動レイアウト スケーリングを設定する方法を学びます。
-type: docs
 weight: 14
 url: /ja/net/cad-features-and-support/setting-auto-layout-scaling/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.CAD for .NET での自動レイアウト スケーリングの設定
+
 .NET 開発の動的な領域では、コンピュータ支援設計 (CAD) ファイルのレンダリングの最適化は、効率的で視覚的に魅力的なアプリケーションを作成するための重要な側面です。 Aspose.CAD for .NET を使用すると、開発者は CAD 処理機能を強化できます。このチュートリアルでは、Aspose.CAD for .NET を使用した自動レイアウト スケーリングの設定に焦点を当てます。
 
 ## 前提条件
@@ -107,3 +113,9 @@ A4: もちろん、Aspose.CAD には、カラー設定やレイヤー構成な�
 ### Q5: Aspose.CAD の追加リソースとサポートはどこで入手できますか?
 
  A5: を探索してください。[Aspose.CAD フォーラム](https://forum.aspose.com/c/cad/19)コミュニティ サポートについては、を参照してください。[ドキュメンテーション](https://reference.aspose.com/cad/net/)詳細については。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: 내보내기 시 펜 지원
 linktitle: 내보내기 시 펜 지원
 second_title: Aspose.CAD 자바 API
 description: Java용 Aspose.CAD를 사용하여 CAD 내보내기의 마스터 펜 사용자 정의. 원활한 통합을 위한 단계별 가이드를 따르세요.
-type: docs
 weight: 13
 url: /ko/java/advanced-cad-features/pen-support-in-export/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 내보내기 시 펜 지원
+
 ## 소개
 
 끊임없이 진화하는 CAD(Computer-Aided Design) 변환 환경에서 Java용 Aspose.CAD는 CAD 파일을 조작하기 위한 광범위한 기능을 제공하는 강력한 도구로 등장합니다. 다양한 기능 중에서 내보내기 중 펜 사용자 정의 지원이 눈에 띕니다. 이를 통해 사용자는 내보낸 이미지의 모양을 맞춤화할 수 있습니다. 이 튜토리얼에서는 Java를 사용한 실제 구현에 중점을 두고 내보내기 기능에서 펜 지원을 활용하는 프로세스를 안내합니다.
@@ -112,3 +118,9 @@ A4: 래스터화 옵션에서 페이지 너비와 높이를 조정하여 내보�
 ### Q5: 추가 지원이나 커뮤니티 토론은 어디서 찾을 수 있나요?
 
  A5: Aspose.CAD 커뮤니티 포럼을 살펴보세요.[여기](https://forum.aspose.com/c/cad/19) 지원과 토론을 위해.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

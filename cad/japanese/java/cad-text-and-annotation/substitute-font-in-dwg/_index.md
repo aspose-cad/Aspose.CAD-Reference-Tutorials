@@ -3,10 +3,16 @@ title: Aspose.CAD for Java を使用して DWG 内のフォントを置換する
 linktitle: DWGの代替フォント
 second_title: Aspose.CAD Java API
 description: CAD 設計を簡単に強化します。 Aspose.CAD for Java を使用して DWG ファイル内のフォントを置換する方法を学びます。ビジュアルを完璧にするためのステップバイステップのガイド。
-type: docs
 weight: 11
 url: /ja/java/cad-text-and-annotation/substitute-font-in-dwg/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.CAD for Java を使用して DWG 内のフォントを置換する
+
 ## 導入
 
 コンピュータ支援設計 (CAD) の動的な領域では、図面の視覚的な魅力を高めることが重要なことがよくあります。これを実現する効果的な方法の 1 つは、DWG ファイル内のフォントを置き換えることです。 Aspose.CAD for Java は、この分野の強力なツールとして登場し、フォント置換のシームレスなソリューションを提供します。このチュートリアルでは、Aspose.CAD for Java を使用して DWG ファイル内のフォントを置換する方法を示しながら、プロセスを段階的に説明します。
@@ -91,3 +97,9 @@ A4: はい、Aspose.CAD for Java はバッチ処理をサポートしていま�
 ### Q5: Aspose.CAD for Java は最新の CAD ファイル形式と互換性がありますか?
 
 A5: はい、Aspose.CAD for Java は最新の CAD ファイル形式をサポートするために定期的に更新され、業界標準との互換性が確保されています。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

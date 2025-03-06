@@ -3,10 +3,16 @@ title: Kỹ thuật CAD nâng cao
 linktitle: Kỹ thuật CAD nâng cao
 second_title: Aspose.CAD .NET - Định dạng tệp CAD và BIM
 description: Dễ dàng chuyển đổi CFF sang PDF, khám phá quan điểm miễn phí trong bản vẽ CAD, đặt thời gian chờ cho các thao tác lưu, tạo tệp PDF bằng hướng dẫn Aspose.CAD cho .NET.
-type: docs
 weight: 38
 url: /vi/net/advanced-cad-techniques/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Kỹ thuật CAD nâng cao
+
 ## Giới thiệu
 
 Khi công nghệ tiến bộ, nhu cầu nắm vững các kỹ thuật Thiết kế hỗ trợ máy tính (CAD) tiên tiến cũng tăng theo. Trong bài viết này, chúng ta đi sâu vào thế giới CAD, tập trung vào các hướng dẫn do Aspose.CAD cung cấp cho .NET. Cho dù bạn là một chuyên gia CAD dày dạn hay một người mới muốn mở rộng các kỹ năng của mình, những hướng dẫn này đều cung cấp những hiểu biết sâu sắc vô giá trong việc nâng cao trải nghiệm CAD của bạn.
@@ -43,3 +49,9 @@ Khám phá cách nâng cao hoạt động lưu CAD bằng cài đặt thời gia
 Tạo một tệp PDF với các bố cục khác nhau bằng Aspose.CAD cho .NET. Hãy làm theo hướng dẫn từng bước của chúng tôi để tích hợp liền mạch và tạo PDF hiệu quả.
 ### [Chỉnh sửa siêu liên kết trong tệp CAD - Hướng dẫn Aspose.CAD](./editing-hyperlinks-in-cad-files/)
 Khám phá Aspose.CAD cho .NET và tìm hiểu cách chỉnh sửa siêu liên kết trong tệp CAD một cách dễ dàng. Nâng cao kỹ năng quản lý tệp CAD của bạn với hướng dẫn toàn diện này.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

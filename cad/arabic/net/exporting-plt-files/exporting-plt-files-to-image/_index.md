@@ -3,10 +3,16 @@ title: تصدير ملفات PLT إلى صورة - البرنامج التعلي
 linktitle: تصدير ملفات PLT إلى الصورة
 second_title: Aspose.CAD .NET - تنسيق ملف CAD وBIM
 description: قم بتحويل ملفات PLT إلى صور بسهولة باستخدام Aspose.CAD لـ .NET. استكشف الخيارات المرنة والتكامل السلس لاحتياجات معالجة ملفات CAD الخاصة بك.
-type: docs
 weight: 10
 url: /ar/net/exporting-plt-files/exporting-plt-files-to-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تصدير ملفات PLT إلى صورة - البرنامج التعليمي Aspose.CAD
+
 ## مقدمة
 
 مرحبًا بك في هذا البرنامج التعليمي الشامل حول تصدير ملفات PLT إلى صور باستخدام Aspose.CAD لـ .NET! إذا كنت تتطلع إلى تحويل ملفات PLT بسلاسة إلى تنسيقات صور مختلفة، فقد وصلت إلى المكان الصحيح. يوفر Aspose.CAD for .NET ميزات قوية ومرونة لمعالجة ملفات CAD بكفاءة، وفي هذا البرنامج التعليمي، سنرشدك خلال العملية خطوة بخطوة.
@@ -100,3 +106,10 @@ cadImage.Save(MyDir + "50states.jpg", imageOptions);
 ### س5: هل تحتاج إلى مساعدة أو لديك أسئلة؟
 
  ج5: قم بزيارة مجتمعنا[المنتدى](https://forum.aspose.com/c/cad/19) للدعم والمناقشات.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

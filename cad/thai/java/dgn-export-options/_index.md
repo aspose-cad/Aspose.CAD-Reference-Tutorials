@@ -3,10 +3,16 @@ title: บทช่วยสอนการส่งออก DGN
 linktitle: บทช่วยสอนการส่งออก DGN
 second_title: Aspose.CAD Java API
 description: ปลดล็อกพลังของ Aspose.CAD สำหรับ Java ด้วยบทช่วยสอนการส่งออก DGN ของเรา เรียนรู้การจัดการไฟล์ CAD ที่มีประสิทธิภาพ ตั้งแต่การส่งออก DGN โดยเป็นส่วนหนึ่งของ DWG ไปจนถึงการสร้างภาพแรสเตอร์ได้อย่างง่ายดาย
-type: docs
 weight: 31
 url: /th/java/dgn-export-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# บทช่วยสอนการส่งออก DGN
+
 ## การแนะนำ
 
 Aspose.CAD สำหรับ Java เปิดโลกแห่งความเป็นไปได้สำหรับผู้ที่ชื่นชอบ CAD โดยนำเสนอความสามารถในการส่งออก DGN ที่ราบรื่น ในชุดบทช่วยสอนนี้ เราจะแนะนำคุณเกี่ยวกับเทคนิคที่จำเป็นเพื่อปรับปรุงความสามารถในการจัดการไฟล์ CAD ของแอปพลิเคชัน Java ของคุณ
@@ -39,3 +45,9 @@ Aspose.CAD สำหรับ Java ช่วยให้นักพัฒนา
 สำรวจคำแนะนำทีละขั้นตอนในการส่งออกไฟล์ DGN เป็นรูปแบบ AutoCAD ในรูปแบบ PDF โดยใช้ Aspose.CAD สำหรับ Java ยกระดับความสามารถในการจัดการ CAD ของแอปพลิเคชัน Java ของคุณได้อย่างง่ายดาย
 ### [การส่งออก DGN ในรูปแบบ AutoCAD เป็นรูปแบบภาพแรสเตอร์](./exporting-dgn-to-raster-image/)
 เรียนรู้วิธีส่งออกไฟล์ DGN เป็นภาพ JPEG ใน Java โดยใช้ Aspose.CAD บทช่วยสอนแบบทีละขั้นตอนนี้จะแนะนำคุณตลอดกระบวนการอย่างง่ายดาย
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

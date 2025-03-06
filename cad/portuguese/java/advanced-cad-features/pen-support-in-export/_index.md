@@ -3,10 +3,16 @@ title: Suporte para caneta na exportação
 linktitle: Suporte para caneta na exportação
 second_title: API Java Aspose.CAD
 description: Domine a personalização da caneta na exportação CAD com Aspose.CAD para Java. Siga nosso guia passo a passo para uma integração perfeita.
-type: docs
 weight: 13
 url: /pt/java/advanced-cad-features/pen-support-in-export/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Suporte para caneta na exportação
+
 ## Introdução
 
 No cenário em constante evolução das conversões de CAD (Computer-Aided Design), Aspose.CAD for Java surge como uma ferramenta poderosa, oferecendo amplos recursos para manipulação de arquivos CAD. Dentre suas versáteis funcionalidades, destaca-se o suporte à customização da caneta durante a exportação, permitindo ao usuário personalizar a aparência das imagens exportadas. Este tutorial orientará você no processo de aproveitamento do suporte à caneta na funcionalidade de exportação, com foco na implementação prática usando Java.
@@ -112,3 +118,9 @@ A4: Ajuste a largura e altura da página nas opções de rasterização para con
 ### P5: Onde posso encontrar suporte adicional ou discussões na comunidade?
 
  A5: Explore o fórum da comunidade Aspose.CAD em[aqui](https://forum.aspose.com/c/cad/19) para apoio e discussões.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

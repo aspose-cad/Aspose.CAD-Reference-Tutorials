@@ -3,10 +3,16 @@ title: Obsługa formatu OBJ w Aspose.CAD - samouczek
 linktitle: Obsługa formatu OBJ w Aspose.CAD - samouczek
 second_title: Aspose.CAD .NET - Format plików CAD i BIM
 description: Odblokuj potencjał Aspose.CAD dla .NET. Dzięki temu samouczkowi krok po kroku dowiesz się, jak bezproblemowo obsługiwać format OBJ w aplikacjach CAD.
-type: docs
 weight: 10
 url: /pl/net/3d-model-support/supporting-obj-format-in-aspose-cad/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Obsługa formatu OBJ w Aspose.CAD - samouczek
+
 ## Wstęp
 
 Jeśli zagłębiasz się w świat projektowania wspomaganego komputerowo (CAD) w programowaniu .NET, możesz napotkać potrzebę pracy z plikami OBJ. Aspose.CAD dla .NET to solidne rozwiązanie, które umożliwia programistom bezproblemową obsługę formatu OBJ w swoich aplikacjach. W tym samouczku przeprowadzimy Cię przez proces włączania Aspose.CAD do Twojego projektu, aby efektywnie pracować z plikami OBJ.
@@ -97,3 +103,9 @@ Gratulacje! Pomyślnie zintegrowałeś Aspose.CAD dla .NET, aby obsługiwał for
 ### P5: Gdzie mogę kupić Aspose.CAD?
 
  A5: Możesz kupić Aspose.CAD[Tutaj](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

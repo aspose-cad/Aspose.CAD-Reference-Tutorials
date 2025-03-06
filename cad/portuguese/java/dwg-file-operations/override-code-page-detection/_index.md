@@ -3,10 +3,16 @@ title: Substituir a detecção automática de página de código em arquivos DWG
 linktitle: Substituir detecção automática de página de código em arquivos DWG
 second_title: API Java Aspose.CAD
 description: Descubra como substituir a detecção de página de código em arquivos DWG com Aspose.CAD para Java. Lide com eficiência com codificação e recupere CIF/MIF malformados.
-type: docs
 weight: 13
 url: /pt/java/dwg-file-operations/override-code-page-detection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Substituir a detecção automática de página de código em arquivos DWG com Java
+
 ## Introdução
 
 Bem-vindo a este guia abrangente sobre como substituir a detecção automática de página de código em arquivos DWG usando Aspose.CAD para Java. Aspose.CAD é uma biblioteca poderosa que permite aos desenvolvedores Java trabalhar com formatos de arquivo CAD, fornecendo uma ampla gama de recursos para manipular, converter e exportar arquivos CAD.
@@ -101,3 +107,9 @@ R3: A versão de avaliação gratuita tem algumas limitações e é recomendáve
 ### P5: Existe uma licença temporária disponível para fins de teste?
 
  A5: Sim, você pode obter uma licença temporária[aqui](https://purchase.aspose.com/temporary-license/) para teste.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

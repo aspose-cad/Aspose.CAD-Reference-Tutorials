@@ -3,10 +3,16 @@ title: Lista układów w formacie DWG przy użyciu Aspose.CAD dla Java
 linktitle: Lista układów w formacie DWG
 second_title: Aspose.CAD API Java
 description: Przeglądaj Aspose.CAD dla Java i bez wysiłku wyświetlaj układy w plikach DWG. Zintegruj zaawansowaną funkcjonalność CAD z aplikacjami Java.
-type: docs
 weight: 12
 url: /pl/java/cad-file-manipulation/list-layouts-in-dwg/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Lista układów w formacie DWG przy użyciu Aspose.CAD dla Java
+
 ## Wstęp
 
 Witamy w naszym przewodniku krok po kroku dotyczącym używania Aspose.CAD dla Java do tworzenia list układów w plikach DWG. Aspose.CAD to potężna biblioteka, która umożliwia programistom programową pracę z plikami CAD. W tym samouczku skupimy się na konkretnym zadaniu: wylistowaniu układów w pliku DWG. Po przeczytaniu tego przewodnika będziesz w stanie bezproblemowo zintegrować tę funkcjonalność z aplikacjami Java.
@@ -86,3 +92,9 @@ Odpowiedź 1: Tak, Aspose.CAD obsługuje różne formaty CAD, w tym DWG, DXF, DW
 ### P5: Czy mogę używać licencji tymczasowej do celów testowych?
 
  Odpowiedź 5: Tak, możesz uzyskać licencję tymczasową[Tutaj](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

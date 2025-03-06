@@ -3,10 +3,16 @@ title: Dolda linjer och enheter
 linktitle: Dolda linjer och enheter
 second_title: Aspose.CAD .NET - CAD- och BIM-filformat
 description: Lås upp dolda linjer i DWG-filer utan ansträngning med Aspose.CAD för .NET. Lyft dina CAD-projekt med vår steg-för-steg-guide.
-type: docs
 weight: 29
 url: /sv/net/hidden-lines-and-entities/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Dolda linjer och enheter
+
 
 
 ## Introduktion
@@ -39,3 +45,9 @@ Sammanfattningsvis, oavsett om du fokuserar på att låsa upp dolda linjer eller
 Lås upp dolda linjer i DWG-filer utan ansträngning med Aspose.CAD för .NET. Följ vår steg-för-steg-guide för sömlös integration.
 ### [Stödjer MLeader Entity för DWG-format - Aspose.CAD Guide](./supporting-mleader-entity-for-dwg-format/)
 Lås upp kraften hos MLeader-enheter i DWG-format med Aspose.CAD för .NET. Lyft dina CAD-projekt utan ansträngning.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

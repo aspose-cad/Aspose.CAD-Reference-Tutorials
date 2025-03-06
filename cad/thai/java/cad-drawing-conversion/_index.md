@@ -3,10 +3,16 @@ title: การแปลงรูปวาด CAD
 linktitle: การแปลงรูปวาด CAD
 second_title: Aspose.CAD Java API
 description: แปลงภาพวาด CAD ได้อย่างง่ายดายด้วย Aspose.CAD สำหรับ Java เรียนรู้การแปลง ส่งออก และเพิ่มประสิทธิภาพไฟล์ CAD ของคุณอย่างแม่นยำโดยใช้บทช่วยสอนทีละขั้นตอนของเรา
-type: docs
 weight: 20
 url: /th/java/cad-drawing-conversion/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# การแปลงรูปวาด CAD
+
 
 ## การแนะนำ
 
@@ -50,3 +56,9 @@ url: /th/java/cad-drawing-conversion/
 สำรวจคำแนะนำทีละขั้นตอนเพื่อส่งออกเค้าโครง DWG เฉพาะเป็น PDF โดยใช้ Aspose.CAD สำหรับ Java เพิ่มประสิทธิภาพเวิร์กโฟลว์ CAD ของคุณได้อย่างง่ายดาย
 ### [แปลงรูปแบบ DWT เป็นรูปแบบ DXF โดยใช้ Aspose.CAD สำหรับ Java](./convert-dwt-to-dxf/)
 สำรวจการแปลง DWT เป็น DXF อย่างราบรื่นด้วย Aspose.CAD สำหรับ Java ปฏิบัติตามคำแนะนำทีละขั้นตอนของเราเพื่อการจัดการไฟล์ CAD ที่มีประสิทธิภาพ
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

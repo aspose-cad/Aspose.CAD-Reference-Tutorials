@@ -3,10 +3,16 @@ title: Лимитное лицензирование в Aspose.CAD
 linktitle: Лимитное лицензирование в Aspose.CAD
 second_title: API Aspose.CAD Java
 description: Узнайте, как освоить лимитное лицензирование в Aspose.CAD для Java, с помощью этого подробного руководства. Оптимизируйте обработку САПР для повышения эффективности и экономичности.
-type: docs
 weight: 10
 url: /ru/java/licensing-and-configuration/metered-licensing-in-aspose-cad/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Лимитное лицензирование в Aspose.CAD
+
 ## Введение
 
 Раскройте весь потенциал Aspose.CAD для Java с помощью дозированного лицензирования! Это пошаговое руководство проведет вас через процесс настройки лимитного лицензирования, обеспечивая плавную интеграцию и оптимальное использование этой мощной библиотеки Java для автоматизированного проектирования (САПР). В этом руководстве рассматривается все: от предварительных требований до импорта пакетов и выполнения примеров.
@@ -94,3 +100,9 @@ System.out.println("Consumption quantity after processing: " + quantity);
 ### Вопрос 5: Нужна поддержка сообщества или есть конкретные вопросы?
 
  A5: Посетите форум Aspose.CAD.[здесь](https://forum.aspose.com/c/cad/19).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

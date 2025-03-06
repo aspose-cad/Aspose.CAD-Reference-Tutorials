@@ -3,10 +3,16 @@ title: Ajustement de la taille du dessin CAO dans Aspose.CAD pour .NET
 linktitle: Ajustement de la taille du dessin CAO
 second_title: Aspose.CAD .NET - Format de fichier CAO et BIM
 description: Découvrez comment ajuster sans effort les tailles des dessins CAO dans .NET à l'aide d'Aspose.CAD. Suivez notre guide étape par étape pour un redimensionnement fluide.
-type: docs
 weight: 10
 url: /fr/net/cad-drawing-manipulation/adjust-cad-drawing-size/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ajustement de la taille du dessin CAO dans Aspose.CAD pour .NET
+
 ## Introduction
 
 Cherchez-vous à ajuster de manière transparente la taille des dessins CAO dans vos applications .NET ? Aspose.CAD for .NET fournit une solution robuste, vous permettant de gérer sans effort le redimensionnement des dessins CAO. Dans ce didacticiel, nous vous guiderons tout au long du processus, en décomposant chaque étape pour vous assurer de comprendre les subtilités du redimensionnement des dessins CAO à l'aide d'Aspose.CAD.
@@ -115,3 +121,9 @@ A2 : Oui, vous pouvez redimensionner plusieurs mises en page en ajustant le tab
 ### Q5 : Comment puis-je obtenir une licence temporaire pour Aspose.CAD pour .NET ?
 
  A5 : Obtenir une licence temporaire à des fins de test[ici](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: 使用 Aspose.CAD for Java 將影像匯出為 DXF 格式
 linktitle: 使用 Java 將影像匯出為 DXF 格式
 second_title: Aspose.CAD Java API
 description: 探索使用 Aspose.CAD for Java 將影像匯出為 DXF 格式的無縫過程。逐步指南、常見問題等。
-type: docs
 weight: 15
 url: /zh-hant/java/additional-features/export-images-to-dxf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.CAD for Java 將影像匯出為 DXF 格式
+
 ## 介紹
 
 歡迎閱讀有關使用 Aspose.CAD for Java 將圖像匯出為 DXF 格式的綜合教學。 Aspose.CAD 是一個功能強大的 Java 程式庫，可讓開發人員以程式設計方式處理 CAD 繪圖。在本教程中，我們將引導您完成將影像匯出為 DXF 格式的過程，並示範實現此任務的各種步驟和技術。
@@ -107,3 +113,9 @@ cadImageText.save(file.getName() + "_text.dxf");
 ### Q5: 有免費試用嗎？
 
  A5：是的，您可以獲得免費試用[這裡](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

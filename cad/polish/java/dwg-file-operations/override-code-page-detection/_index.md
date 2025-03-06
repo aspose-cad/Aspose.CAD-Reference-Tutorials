@@ -3,10 +3,16 @@ title: Zastąp automatyczne wykrywanie strony kodowej w plikach DWG za pomocą j
 linktitle: Zastąp automatyczne wykrywanie strony kodowej w plikach DWG
 second_title: Aspose.CAD API Java
 description: Dowiedz się, jak zastąpić wykrywanie strony kodowej w plikach DWG za pomocą Aspose.CAD dla Java. Wydajna obsługa kodowania i odzyskiwanie zniekształconych plików CIF/MIF.
-type: docs
 weight: 13
 url: /pl/java/dwg-file-operations/override-code-page-detection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Zastąp automatyczne wykrywanie strony kodowej w plikach DWG za pomocą języka Java
+
 ## Wstęp
 
 Witamy w tym obszernym przewodniku na temat zastępowania automatycznego wykrywania stron kodowych w plikach DWG przy użyciu Aspose.CAD dla Java. Aspose.CAD to potężna biblioteka, która umożliwia programistom Java pracę z formatami plików CAD, zapewniając szeroki zakres funkcji do manipulowania, konwertowania i eksportowania plików CAD.
@@ -101,3 +107,9 @@ Odpowiedź 3: Bezpłatna wersja próbna ma pewne ograniczenia i zaleca się spra
 ### P5: Czy dostępna jest licencja tymczasowa do celów testowych?
 
  Odpowiedź 5: Tak, możesz uzyskać licencję tymczasową[Tutaj](https://purchase.aspose.com/temporary-license/) dla testów.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

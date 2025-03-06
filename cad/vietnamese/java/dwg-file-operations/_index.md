@@ -3,10 +3,16 @@ title: Hoạt động của tệp DWG
 linktitle: Hoạt động của tệp DWG
 second_title: API Java Aspose.CAD
 description: Nâng cao kỹ năng Java của bạn với các hướng dẫn Aspose.CAD. Tìm hiểu cách nhập hình ảnh, liệt kê bố cục, hỗ trợ lưới, ghi đè trang mã và chuyển đổi DWG sang hình ảnh một cách dễ dàng.
-type: docs
 weight: 26
 url: /vi/java/dwg-file-operations/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Hoạt động của tệp DWG
+
 ## Giới thiệu
 
 Bạn có phải là người đam mê Java đang muốn nâng cao kỹ năng của mình trong thao tác với tệp DWG không? Đừng tìm đâu xa! Hướng dẫn toàn diện của chúng tôi về cách sử dụng Aspose.CAD cho Java được thiết kế riêng cho bạn. Hãy cùng đi sâu vào thế giới hấp dẫn của sự phát triển hiệu quả và tích hợp liền mạch.
@@ -44,3 +50,10 @@ Tìm hiểu cách bật hỗ trợ lưới cho các tệp DWG trong Java bằng 
 Khám phá cách ghi đè tính năng phát hiện trang mã trong tệp DWG bằng Aspose.CAD cho Java. Xử lý hiệu quả mã hóa và khôi phục CIF/MIF không đúng định dạng.
 ### [Chuyển đổi DWG cụ thể thành hình ảnh bằng Java](./convert-dwg-to-image/)
 Khám phá khả năng chuyển đổi liền mạch của DWG sang hình ảnh bằng Aspose.CAD cho Java. Hãy làm theo hướng dẫn từng bước của chúng tôi để chuyển đổi định dạng tệp hiệu quả.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

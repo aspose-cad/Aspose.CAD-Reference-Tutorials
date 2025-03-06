@@ -3,10 +3,16 @@ title: सीएडी ड्राइंग हेरफेर
 linktitle: सीएडी ड्राइंग हेरफेर
 second_title: Aspose.CAD .NET - CAD और BIM फ़ाइल स्वरूप
 description: .NET ट्यूटोरियल के लिए Aspose.CAD के साथ अपने CAD प्रोजेक्ट्स को सहजता से बढ़ाएं। हमारे चरण-दर-चरण दिशानिर्देशों के साथ सीएडी चित्रों का आकार बदलें, परिवर्तित करें और अनुकूलित करें।
-type: docs
 weight: 21
 url: /hi/net/cad-drawing-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# सीएडी ड्राइंग हेरफेर
+
 
 ## परिचय
 
@@ -44,3 +50,9 @@ Aspose.CAD के साथ .NET में CAD रेखाचित्रों
 .NET के लिए Aspose.CAD की शक्ति की खोज करें। CAD रेंडरिंग के लिए निर्बाध रूप से ट्रैकिंग सक्षम करें। बेहतर नियंत्रण और दक्षता के लिए हमारी चरण-दर-चरण मार्गदर्शिका का पालन करें।
 ### [.NET के लिए Aspose.CAD में CAD लेआउट का आकार प्राप्त करें](./get-size-of-cad-layout/)
 जानें कि Aspose.CAD का उपयोग करके .NET में CAD लेआउट आकार कैसे प्राप्त करें। कुशल सीएडी फ़ाइल हेरफेर के लिए हमारी चरण-दर-चरण मार्गदर्शिका का पालन करें।
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

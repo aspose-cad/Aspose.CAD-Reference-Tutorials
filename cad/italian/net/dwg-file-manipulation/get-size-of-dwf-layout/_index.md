@@ -3,10 +3,16 @@ title: Lavorare con file DWG in C# ottieni la dimensione del layout DWF
 linktitle: Lavorare con file DWG in C# ottieni la dimensione del layout DWF
 second_title: Aspose.CAD .NET - Formato file CAD e BIM
 description: Esplora la potenza di Aspose.CAD per .NET nella gestione dei file DWG. Impara a estrarre facilmente le dimensioni del layout DWF utilizzando C#.
-type: docs
 weight: 10
 url: /it/net/dwg-file-manipulation/get-size-of-dwf-layout/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Lavorare con file DWG in C# ottieni la dimensione del layout DWF
+
 ## introduzione
 
 Nel regno della progettazione assistita da computer (CAD) e dello sviluppo .NET, Aspose.CAD si pone come un potente strumento per la gestione dei file DWG. Questo tutorial ti guiderà attraverso il processo di lavoro con i file DWG in C# e di estrazione delle dimensioni di un layout DWF. Prima di immergerci nel codice, assicuriamoci di avere tutto pronto per intraprendere questo viaggio.
@@ -163,3 +169,9 @@ R4: Per qualsiasi domanda o assistenza, visitare il[Forum Aspose.CAD](https://fo
 ### Q5: È disponibile una prova gratuita per Aspose.CAD?
 
  A5: Sì, puoi accedere a una versione di prova gratuita di Aspose.CAD[Qui](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

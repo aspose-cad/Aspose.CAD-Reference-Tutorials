@@ -3,10 +3,16 @@ title: Gemeten licenties in Aspose.CAD voor .NET
 linktitle: Gemeten licenties
 second_title: Aspose.CAD .NET - CAD- en BIM-bestandsindeling
 description: Ontgrendel het Aspose.CAD-potentieel met gemeten licenties in .NET. Optimaliseer het gebruik van hulpbronnen naadloos. Ontdek onze stapsgewijze handleiding.
-type: docs
 weight: 12
 url: /nl/net/licensing-and-configuration/metered-licensing/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Gemeten licenties in Aspose.CAD voor .NET
+
 ## Invoering
 
 Om het volledige potentieel van Aspose.CAD voor .NET te ontsluiten, is inzicht in de fijne kneepjes van gemeten licentieverlening vereist. Met deze krachtige functie kunnen ontwikkelaars het resourceverbruik efficiënt beheren en tegelijkertijd de mogelijkheden van Aspose.CAD benutten. In deze stapsgewijze handleiding duiken we in het proces van het implementeren van licentielicenties, waarbij we elke cruciale stap opsplitsen om een naadloze integratie in uw .NET-projecten te garanderen.
@@ -97,3 +103,9 @@ A3: Ja, gemeten sleutels zijn herbruikbaar voor verschillende projecten, wat fle
 ### V5: Kan ik Aspose.CAD tijdelijk in licentie geven voor specifieke projecten?
 
  A5: Ja, verkennen[tijdelijke licentiemogelijkheden](https://purchase.aspose.com/temporary-license/) voor korte termijn projectvereisten.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

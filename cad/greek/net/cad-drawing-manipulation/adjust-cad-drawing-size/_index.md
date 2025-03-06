@@ -3,10 +3,16 @@ title: Προσαρμογή μεγέθους σχεδίου CAD στο Aspose.CA
 linktitle: Προσαρμογή μεγέθους σχεδίου CAD
 second_title: Aspose.CAD .NET - Μορφή αρχείου CAD και BIM
 description: Μάθετε πώς να προσαρμόζετε εύκολα τα μεγέθη σχεδίων CAD στο .NET χρησιμοποιώντας το Aspose.CAD. Ακολουθήστε τον βήμα προς βήμα οδηγό μας για απρόσκοπτη αλλαγή μεγέθους.
-type: docs
 weight: 10
 url: /el/net/cad-drawing-manipulation/adjust-cad-drawing-size/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Προσαρμογή μεγέθους σχεδίου CAD στο Aspose.CAD για .NET
+
 ## Εισαγωγή
 
 Ψάχνετε να προσαρμόσετε απρόσκοπτα το μέγεθος των σχεδίων CAD στις εφαρμογές σας .NET; Το Aspose.CAD για .NET παρέχει μια ισχυρή λύση, επιτρέποντάς σας να χειρίζεστε εύκολα το μέγεθος του σχεδίου CAD. Σε αυτό το σεμινάριο, θα σας καθοδηγήσουμε στη διαδικασία, αναλύοντας κάθε βήμα για να διασφαλίσουμε ότι κατανοείτε τις περιπλοκές της αλλαγής μεγέθους σχεδίων CAD χρησιμοποιώντας το Aspose.CAD.
@@ -115,3 +121,9 @@ A2: Ναι, μπορείτε να αλλάξετε το μέγεθος πολλ�
 ### Ε5: Πώς μπορώ να αποκτήσω μια προσωρινή άδεια χρήσης για το Aspose.CAD για .NET;
 
  A5: Λάβετε μια προσωρινή άδεια για σκοπούς δοκιμής[εδώ](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

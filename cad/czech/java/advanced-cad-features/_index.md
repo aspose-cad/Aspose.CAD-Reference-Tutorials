@@ -3,10 +3,16 @@ title: Pokročilé funkce CAD
 linktitle: Pokročilé funkce CAD
 second_title: Aspose.CAD Java API
 description: Pozvedněte svůj vývoj CAD pomocí výukových programů Aspose.CAD for Java. Naučte se povolit sledování, integrovat formát IGES, master mesh podporu, přizpůsobit export pera, číst soubory DWT a další.
-type: docs
 weight: 24
 url: /cs/java/advanced-cad-features/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Pokročilé funkce CAD
+
 
 ## Úvod
 
@@ -66,3 +72,9 @@ Vylepšete svůj pracovní postup CAD pomocí Aspose.CAD for Java. Tento podrobn
 Podpora hlavní vrstvy při vývoji Java CAD s Aspose.CAD. Uspořádejte a exportujte výkresy bez námahy.
 ### [Extrahujte hodnotu atributu bloku z externí reference pomocí Aspose.CAD v Javě](./extract-block-attribute-value/)
 Prozkoumejte náš tutoriál o extrahování hodnot atributů bloku z externích referencí DWG v Javě pomocí Aspose.CAD. Vylepšete svůj pracovní postup vývoje CAD bez námahy.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

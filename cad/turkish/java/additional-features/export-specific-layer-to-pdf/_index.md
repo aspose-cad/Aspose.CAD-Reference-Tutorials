@@ -3,10 +3,16 @@ title: Aspose.CAD for Java ile DXF Çiziminin Belirli Katmanını PDF'ye Aktarı
 linktitle: DXF Çiziminin Belirli Katmanını Java ile PDF'ye Aktarma
 second_title: Aspose.CAD Java API'si
 description: Aspose.CAD for Java'yı kullanarak DXF çizimlerindeki belirli katmanları zahmetsizce PDF'ye aktarın. Sorunsuz entegrasyon için bu adım adım kılavuzu izleyin.
-type: docs
 weight: 18
 url: /tr/java/additional-features/export-specific-layer-to-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.CAD for Java ile DXF Çiziminin Belirli Katmanını PDF'ye Aktarın
+
 ## giriiş
 
 Java geliştirme alanında Aspose.CAD, Bilgisayar Destekli Tasarım (CAD) dosyalarıyla çalışmak için güçlü bir araç olarak öne çıkıyor. Çok yönlü özellikleri arasında, belirli katmanları bir DXF çiziminden bir PDF dosyasına aktarma yeteneği değerli bir özelliktir. Bu eğitim, Aspose.CAD for Java'nın tüm potansiyelinden yararlanmanız için adım adım talimatlar sunarak size süreç boyunca rehberlik edecektir.
@@ -104,3 +110,9 @@ C4: Evet, geçerli bir lisansınız olduğundan emin olun veya test amacıyla ge
 ### S5: Nereden ek destek veya yardım alabilirim?
 
 A5: ziyaret edin[Aspose.CAD forumu](https://forum.aspose.com/c/cad/19) topluluk desteği ve tartışmalar için.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

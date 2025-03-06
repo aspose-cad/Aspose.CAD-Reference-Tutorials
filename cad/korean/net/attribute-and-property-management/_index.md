@@ -3,10 +3,16 @@ title: 속성 및 속성 관리
 linktitle: 속성 및 속성 관리
 second_title: Aspose.CAD .NET - CAD 및 BIM 파일 형식
 description: .NET용 Aspose.CAD를 사용하여 CAD 도면을 향상시키세요! 튜토리얼을 통해 속성과 사용자 정의 속성을 원활하게 추가하는 방법을 알아보세요. 손쉽게 디자인을 향상시켜 보세요.
-type: docs
 weight: 30
 url: /ko/net/attribute-and-property-management/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 속성 및 속성 관리
+
 
 
 ## 소개
@@ -47,3 +53,9 @@ DWG 파일에 의미 있는 메타데이터가 부족합니까? 두려워하지 
 .NET용 Aspose.CAD를 사용하여 속성으로 CAD 도면을 향상하세요. 원활한 통합을 위한 단계별 가이드를 따르세요.
 ### [DWG 파일에 사용자 정의 속성 추가 - Aspose.CAD 가이드](./adding-custom-properties-to-dwg/)
 .NET용 Aspose.CAD를 사용하여 사용자 정의 속성으로 DWG 파일을 향상하세요. 단계별 가이드에 따라 의미 있는 메타데이터를 쉽게 추가하세요.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

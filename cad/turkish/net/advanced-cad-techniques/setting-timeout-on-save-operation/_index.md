@@ -3,10 +3,16 @@ title: Kaydetme İşleminde Zaman Aşımını Ayarlama - Aspose.CAD Eğitimi
 linktitle: Kaydetme İşleminde Zaman Aşımını Ayarlama
 second_title: Aspose.CAD .NET - CAD ve BIM Dosya Formatı
 description: Aspose.CAD for .NET'i kullanarak zaman aşımı ayarlarıyla CAD kaydetme işlemlerini nasıl geliştirebileceğinizi keşfedin. .NET uygulamalarınızda verimliliği ve kontrolü artırın.
-type: docs
 weight: 12
 url: /tr/net/advanced-cad-techniques/setting-timeout-on-save-operation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Kaydetme İşleminde Zaman Aşımını Ayarlama - Aspose.CAD Eğitimi
+
 ## giriiş
 
 Bilgisayar destekli tasarımın (CAD) dinamik alanında, operasyonlarınızın verimliliği ve esnekliği genellikle kaydetme işlemlerini etkili bir şekilde yönetme becerisine bağlıdır. Bu eğitim bu sürecin çok önemli bir yönünü ele alacak: Aspose.CAD for .NET kullanarak kaydetme işlemlerinde zaman aşımı ayarlama. Aspose.CAD, geliştiricilerin .NET uygulamalarında CAD dosya formatlarıyla sorunsuz bir şekilde çalışmasına olanak tanıyan güçlü bir kütüphanedir.
@@ -114,3 +120,9 @@ Cevap4: Kesinlikle! Aspose.CAD hem 2D hem de 3D CAD dosya formatlarını destekl
 ### S5: Daha fazla yardımı veya topluluk desteğini nerede bulabilirim?
 
 A5: ziyaret edin[Aspose.CAD forumu](https://forum.aspose.com/c/cad/19) topluluk desteği ve tartışmalar için.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

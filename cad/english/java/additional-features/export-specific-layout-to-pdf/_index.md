@@ -3,10 +3,16 @@ title: Export Specific DXF Layout to PDF with Aspose.CAD for Java
 linktitle: Export Specific DXF Layout to PDF with Java
 second_title: Aspose.CAD Java API
 description: Explore seamless DXF to PDF conversion with Aspose.CAD for Java. Effortlessly export specific layouts with precision.
-type: docs
 weight: 17
 url: /java/additional-features/export-specific-layout-to-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Export Specific DXF Layout to PDF with Aspose.CAD for Java
+
 ## Introduction
 
 If you're a Java developer working with CAD drawings, you'll understand the importance of efficient and precise conversion between different formats. Aspose.CAD for Java is a powerful library that empowers developers to manipulate CAD files seamlessly. In this tutorial, we'll guide you through the process of exporting a specific DXF layout to a PDF using Aspose.CAD for Java.
@@ -105,3 +111,10 @@ A4: Yes, you can access the free trial [here](https://releases.aspose.com/).
 ### Q5: How can I get support for Aspose.CAD for Java?
 
 A5: Visit the support forum [here](https://forum.aspose.com/c/cad/19) for assistance from the Aspose community.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

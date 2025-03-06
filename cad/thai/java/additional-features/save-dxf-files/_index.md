@@ -3,10 +3,16 @@ title: บันทึกไฟล์ DXF ด้วย Aspose.CAD ใน Java
 linktitle: บันทึกไฟล์ DXF ด้วย Java
 second_title: Aspose.CAD Java API
 description: เรียนรู้วิธีบันทึกไฟล์ DXF ใน Java โดยใช้ Aspose.CAD ปฏิบัติตามคำแนะนำทีละขั้นตอนของเราเพื่อการจัดการไฟล์ CAD ที่มีประสิทธิภาพ
-type: docs
 weight: 20
 url: /th/java/additional-features/save-dxf-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# บันทึกไฟล์ DXF ด้วย Aspose.CAD ใน Java
+
 ## การแนะนำ
 
 ยินดีต้อนรับสู่บทช่วยสอนที่ครอบคลุมเกี่ยวกับการบันทึกไฟล์ DXF โดยใช้ Aspose.CAD สำหรับ Java หากคุณต้องการจัดการไฟล์ DXF ในแอปพลิเคชัน Java ของคุณอย่างมีประสิทธิภาพ คุณมาถูกที่แล้ว ในคู่มือนี้ เราจะแนะนำคุณตลอดกระบวนการทีละขั้นตอน เพื่อให้แน่ใจว่าคุณจะเข้าใจแต่ละแนวคิดอย่างละเอียด
@@ -104,3 +110,9 @@ cadImage.save(dataDir+"conic.dxf");
 ### คำถามที่ 5: ฉันจะหาเอกสารที่ครอบคลุมสำหรับ Aspose.CAD สำหรับ Java ได้ที่ไหน
 
  A5: โปรดดูที่[เอกสารประกอบ](https://reference.aspose.com/cad/java/) สำหรับข้อมูลโดยละเอียดและตัวอย่าง
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: DWG Dosyalarından XREF Meta Verilerini Okuma - Aspose.CAD Eğitimi
 linktitle: DWG Dosyalarından XREF Meta Verilerini Okuma
 second_title: Aspose.CAD .NET - CAD ve BIM Dosya Formatı
 description: DWG dosyalarından XREF meta verilerini okumaya ilişkin adım adım eğitimimizle Aspose.CAD for .NET'in potansiyelini ortaya çıkarın.
-type: docs
 weight: 16
 url: /tr/net/image-manipulation-and-rendering/reading-xref-metadata-from-dwg/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# DWG Dosyalarından XREF Meta Verilerini Okuma - Aspose.CAD Eğitimi
+
 ## giriiş
 
 Aspose.CAD for .NET'i kullanarak CAD dosya işleme yeteneklerinizi yükseltmeye hazır mısınız? Bu adım adım kılavuzda, bu güçlü kitaplığın belirli bir yönünü ele alacağız: DWG Dosyalarından XREF Meta Verilerini Okuma. İster deneyimli bir geliştirici olun ister kodlama yolculuğunuza yeni başlıyor olun, bu eğitim süreci kolayca sindirilebilir adımlara ayıracaktır.
@@ -107,3 +113,9 @@ C1: Evet, Aspose.CAD for .NET çok çeşitli CAD formatlarını destekleyerek uy
 ### S5: Yardıma mı ihtiyacınız var veya özel sorularınız mı var?
 
  Cevap5: Aspose.CAD topluluğuna şu adresten katılın:[Aspose.CAD Forumu](https://forum.aspose.com/c/cad/19) Uzman desteği ve tartışmalar için.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

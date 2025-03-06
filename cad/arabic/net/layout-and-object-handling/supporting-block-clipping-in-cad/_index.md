@@ -3,10 +3,16 @@ title: دعم قطع الكتل في CAD - البرنامج التعليمي Asp
 linktitle: دعم قطع الكتلة في CAD
 second_title: Aspose.CAD .NET - تنسيق ملف CAD وBIM
 description: تعرف على كيفية تنفيذ قطع الكتل في CAD باستخدام Aspose.CAD لـ .NET. عزز قدرات التصميم لديك من خلال هذا البرنامج التعليمي خطوة بخطوة.
-type: docs
 weight: 12
 url: /ar/net/layout-and-object-handling/supporting-block-clipping-in-cad/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# دعم قطع الكتل في CAD - البرنامج التعليمي Aspose.CAD
+
 ## مقدمة
 
 مرحبًا بك في البرنامج التعليمي الشامل حول دعم قطع الكتل في CAD باستخدام Aspose.CAD لـ .NET. Aspose.CAD هي مكتبة قوية تمكن المطورين من العمل بسلاسة مع ملفات CAD في تطبيقات .NET الخاصة بهم. في هذا البرنامج التعليمي، سوف نركز على تنفيذ قطع الكتل، وهي ميزة أساسية في تصميم CAD.
@@ -122,3 +128,9 @@ A1: تم تصميم Aspose.CAD بشكل أساسي لتطبيقات .NET. إذا
 ### س5: هل يمكنني استخدام Aspose.CAD بدون ترخيص دائم؟
 
  ج5: نعم، يمكنك الحصول على ترخيص مؤقت[هنا](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

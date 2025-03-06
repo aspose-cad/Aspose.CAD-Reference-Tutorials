@@ -3,10 +3,16 @@ title: CAD Çizimlerine Filigran Ekleme - Aspose.CAD for Java Eğitimi
 linktitle: Filigran ekle
 second_title: Aspose.CAD Java API'si
 description: Aspose.CAD for Java'yı kullanarak CAD çizimlerinizi kişiselleştirilmiş filigranlarla geliştirin. Sorunsuz entegrasyon için adım adım kılavuzumuzu izleyin.
-type: docs
 weight: 12
 url: /tr/java/other-cad-operations/add-watermark/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# CAD Çizimlerine Filigran Ekleme - Aspose.CAD for Java Eğitimi
+
 ## giriiş
 
 Aspose.CAD for Java kullanarak CAD çizimlerine filigran eklemeye ilişkin bu kapsamlı kılavuza hoş geldiniz. Bu eğitimde, filigranları verimli bir şekilde nasıl entegre edeceğinizi, CAD belgelerinizi kişiselleştirilmiş mesajlarla veya markalamayla nasıl geliştireceğinizi öğreneceksiniz. Aspose.CAD for Java, filigran ekleme sürecini kolaylaştıran güçlü bir dizi özellik sunar.
@@ -99,3 +105,9 @@ C2: Evet, metin boyutu, renk ve konum da dahil olmak üzere filigranın görün�
 ### S5: Aspose.CAD for Java belgelerinin tamamını nerede bulabilirim?
 
  A5: Bkz.[dokümantasyon](https://reference.aspose.com/cad/java/) detaylı bilgi için.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

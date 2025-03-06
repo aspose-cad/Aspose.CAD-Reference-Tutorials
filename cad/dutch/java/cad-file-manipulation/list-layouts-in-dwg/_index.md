@@ -3,10 +3,16 @@ title: Geef lay-outs weer in DWG met Aspose.CAD voor Java
 linktitle: Geef lay-outs weer in DWG
 second_title: Aspose.CAD Java-API
 description: Verken Aspose.CAD voor Java en geef moeiteloos lay-outs weer in DWG-bestanden. Integreer krachtige CAD-functionaliteit in uw Java-applicaties.
-type: docs
 weight: 12
 url: /nl/java/cad-file-manipulation/list-layouts-in-dwg/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Geef lay-outs weer in DWG met Aspose.CAD voor Java
+
 ## Invoering
 
 Welkom bij onze stapsgewijze handleiding over het gebruik van Aspose.CAD voor Java om lay-outs in DWG-bestanden weer te geven. Aspose.CAD is een krachtige bibliotheek waarmee ontwikkelaars programmatisch met CAD-bestanden kunnen werken. In deze zelfstudie concentreren we ons op een specifieke taak: het weergeven van lay-outs in een DWG-bestand. Aan het einde van deze handleiding kunt u deze functionaliteit naadloos integreren in uw Java-toepassingen.
@@ -86,3 +92,9 @@ A1: Ja, Aspose.CAD ondersteunt verschillende CAD-formaten, waaronder DWG, DXF, D
 ### V5: Kan ik een tijdelijke licentie gebruiken voor testdoeleinden?
 
  A5: Ja, u kunt een tijdelijke licentie verkrijgen[hier](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

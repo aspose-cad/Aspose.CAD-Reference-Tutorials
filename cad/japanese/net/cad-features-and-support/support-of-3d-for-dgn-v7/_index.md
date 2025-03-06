@@ -3,10 +3,16 @@ title: Aspose.CAD for .NET での DGN V7 の 3D のサポート
 linktitle: DGN V7 の 3D のサポート
 second_title: Aspose.CAD .NET - CAD および BIM ファイル形式
 description: Aspose.CAD for .NET の DGN V7 の 3D サポートのパワーを解放します。ステップバイステップのチュートリアルに従ってください。
-type: docs
 weight: 20
 url: /ja/net/cad-features-and-support/support-of-3d-for-dgn-v7/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.CAD for .NET での DGN V7 の 3D のサポート
+
 ## 導入
 
 Aspose.CAD for .NET での DGN V7 の 3D サポートの活用に関する包括的なチュートリアルへようこそ。 Aspose.CAD は、開発者が .NET アプリケーションで CAD ファイルをシームレスに操作できるようにする強力なライブラリです。このチュートリアルでは、DGN V7 の 3D サポートを利用する手順を検討し、CAD 関連プロジェクトを強化するための知識を提供します。
@@ -111,3 +117,9 @@ A4：確かに！無料トライアルを試してみる[ここ](https://release
 ### Q5: Aspose.CAD for .NET のコミュニティ サポートはどこで見つけられますか?
 
  A5: コミュニティフォーラムにアクセスしてください[ここ](https://forum.aspose.com/c/cad/19).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

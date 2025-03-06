@@ -3,10 +3,16 @@ title: Đặt tỷ lệ bố cục tự động bằng Aspose.CAD cho Java
 linktitle: Cài đặt tự động chia tỷ lệ bố cục
 second_title: API Java Aspose.CAD
 description: Nâng cao quy trình làm việc CAD của bạn với Aspose.CAD cho Java. Hướng dẫn từng bước này giới thiệu Tự động chia tỷ lệ bố cục, đảm bảo hiển thị và hiệu quả tối ưu. Tải xuống thư viện, làm theo hướng dẫn và cách mạng hóa các dự án CAD của bạn.
-type: docs
 weight: 17
 url: /vi/java/advanced-cad-features/setting-auto-layout-scaling/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Đặt tỷ lệ bố cục tự động bằng Aspose.CAD cho Java
+
 ## Giới thiệu
 
 Trong thế giới năng động của thiết kế có sự hỗ trợ của máy tính (CAD), hiệu quả là yếu tố then chốt. Aspose.CAD cho Java cung cấp một bộ công cụ mạnh mẽ để nâng cao quy trình làm việc CAD của bạn. Một trong những tính năng nổi bật là Tự động chia tỷ lệ bố cục, một chức năng đảm bảo bố cục của bạn được điều chỉnh liền mạch để hiển thị tối ưu. Trong hướng dẫn này, chúng ta sẽ khám phá cách triển khai Auto Layout Scaling từng bước bằng cách sử dụng Aspose.CAD cho Java.
@@ -93,3 +99,9 @@ Câu trả lời 1: Aspose.CAD cho Java hỗ trợ nhiều định dạng CAD kh
 ### Câu hỏi 5: Làm cách nào tôi có thể tìm kiếm sự trợ giúp hoặc tham gia thảo luận về Aspose.CAD cho Java?
 
 A5: Tham quan[Diễn đàn Aspose.CAD](https://forum.aspose.com/c/cad/19) để kết nối với cộng đồng và tìm kiếm sự hỗ trợ.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

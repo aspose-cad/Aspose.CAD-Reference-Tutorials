@@ -3,10 +3,16 @@ title: الحصول على سمات الكتلة من ملفات DWG - البر�
 linktitle: الحصول على سمات الحظر من ملفات DWG
 second_title: Aspose.CAD .NET - تنسيق ملف CAD وBIM
 description: أطلق العنان لإمكانات ملفات CAD باستخدام Aspose.CAD لـ .NET. استخراج سمات الكتلة دون عناء.
-type: docs
 weight: 10
 url: /ar/net/image-manipulation-and-rendering/getting-block-attributes-from-dwg/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# الحصول على سمات الكتلة من ملفات DWG - البرنامج التعليمي Aspose.CAD
+
 ## مقدمة
 
 في عالم التصميم بمساعدة الكمبيوتر (CAD) الديناميكي، يعد استخراج المعلومات القيمة من ملفات DWG أمرًا بالغ الأهمية للعديد من التطبيقات. يوفر Aspose.CAD for .NET حلاً قويًا للعمل مع ملفات CAD بكفاءة. في هذا البرنامج التعليمي، سوف نتعمق في عملية استرداد سمات الكتلة من ملفات DWG باستخدام Aspose.CAD، خطوة بخطوة.
@@ -93,3 +99,9 @@ System.Console.WriteLine(cadImage.BlockEntities["*MODEL_SPACE"].XRefPathName);
 ### س5: أين يمكنني العثور على الوثائق الخاصة بـ Aspose.CAD لـ .NET؟
 
  ج5: راجع الشامل[توثيق](https://reference.aspose.com/cad/net/) للحصول على معلومات وأمثلة مفصلة.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

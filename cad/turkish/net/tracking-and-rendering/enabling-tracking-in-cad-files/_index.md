@@ -3,10 +3,16 @@ title: CAD Dosyalarında İzlemeyi Etkinleştirme - Aspose.CAD Eğitimi
 linktitle: CAD Dosyalarında İzlemeyi Etkinleştirme
 second_title: Aspose.CAD .NET - CAD ve BIM Dosya Formatı
 description: Aspose.CAD for .NET ile CAD dosyası takibinde ustalaşın. Hassas işleme ve hata takibi için adım adım kılavuzumuzu izleyin. Şimdi İndirin!
-type: docs
 weight: 10
 url: /tr/net/tracking-and-rendering/enabling-tracking-in-cad-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# CAD Dosyalarında İzlemeyi Etkinleştirme - Aspose.CAD Eğitimi
+
 ## giriiş
 
 CAD (Bilgisayar Destekli Tasarım) alanında hassasiyet ve takip çok önemlidir. Aspose.CAD for .NET, CAD dosyalarında izlemeyi etkinleştirmek için güçlü bir çözüm sunar. Bu eğitim, süreç boyunca size rehberlik edecek ve bu özelliğin tüm potansiyelinden yararlanmanızı sağlayacaktır.
@@ -103,3 +109,9 @@ C3: Eksik yazı tipleri veya desteklenmeyen varlıklar gibi sorunlar ortaya çı
 ### S5: İzleme hatası mesajlarını özelleştirebilir miyim?
 
 A5: Kesinlikle. Hata mesajlarını gereksinimlerinize göre uyarlamak için kodu değiştirebilirsiniz.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

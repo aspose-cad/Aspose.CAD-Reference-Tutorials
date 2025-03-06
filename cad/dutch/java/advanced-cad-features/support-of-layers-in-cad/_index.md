@@ -3,10 +3,16 @@ title: Ondersteuning van lagen met Aspose.CAD in Java
 linktitle: Ondersteuning van lagen in CAD
 second_title: Aspose.CAD Java-API
 description: Ondersteuning van masterlagen bij Java CAD-ontwikkeling met Aspose.CAD. Organiseer en exporteer tekeningen moeiteloos.
-type: docs
 weight: 18
 url: /nl/java/advanced-cad-features/support-of-layers-in-cad/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ondersteuning van lagen met Aspose.CAD in Java
+
 ## Invoering
 
 Ontgrendel het volledige potentieel van Aspose.CAD in Java door de ondersteuning van lagen te beheersen. Lagen spelen een cruciale rol in CAD-tekeningen, waardoor een efficiënte organisatie en manipulatie van grafische elementen mogelijk is. In deze uitgebreide zelfstudie verdiepen we ons in de fijne kneepjes van laagondersteuning met Aspose.CAD, waardoor u stapsgewijze handleiding krijgt om deze krachtige functionaliteit te benutten.
@@ -118,3 +124,9 @@ A2: Ja, Aspose.CAD ondersteunt een breed scala aan CAD-formaten, waardoor veelzi
 ### V5: Waar kan ik hulp zoeken of mijn ervaringen met Aspose.CAD delen?
 
 A5: Sluit u aan bij de Aspose.CAD-gemeenschap op de[forum](https://forum.aspose.com/c/cad/19) voor ondersteuning en samenwerkingsgesprekken.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

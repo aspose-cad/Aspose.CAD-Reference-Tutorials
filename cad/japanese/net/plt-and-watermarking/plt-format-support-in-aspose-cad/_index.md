@@ -3,10 +3,16 @@ title: Aspose.CAD での PLT 形式のサポート - 包括的なチュートリ
 linktitle: Aspose.CAD での PLT 形式のサポート - チュートリアル
 second_title: Aspose.CAD .NET - CAD および BIM ファイル形式
 description: Aspose.CAD for .NET でのシームレスな PLT 形式のサポートを確認してください。ステップバイステップのガイドに従って、PLT ファイルを .NET アプリケーションに簡単に統合してください。
-type: docs
 weight: 10
 url: /ja/net/plt-and-watermarking/plt-format-support-in-aspose-cad/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.CAD での PLT 形式のサポート - 包括的なチュートリアル
+
 ## 導入
 
 Aspose.CAD for .NET での PLT 形式のサポートに関する詳細なチュートリアルへようこそ! PLT ファイルを操作し、Aspose.CAD の機能を活用したいと考えている開発者にとって、ここは正しい場所です。このガイドでは、PLT サポートを .NET アプリケーションにシームレスに統合できるようにするための重要な手順、前提条件を説明し、詳細な例を示します。
@@ -118,3 +124,9 @@ A2: もちろんです！チュートリアルで示されているように、�
 ### Q5: 仮ライセンスを取得するにはどうすればよいですか?
 
  A5: 一時ライセンスについては、次のサイトにアクセスしてください。[このリンク](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

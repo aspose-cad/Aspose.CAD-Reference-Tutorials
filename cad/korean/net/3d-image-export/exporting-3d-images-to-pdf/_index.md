@@ -3,10 +3,16 @@ title: 3D 이미지를 PDF로 내보내기 - Aspose.CAD 튜토리얼
 linktitle: 3D 이미지를 PDF로 내보내기
 second_title: Aspose.CAD .NET - CAD 및 BIM 파일 형식
 description: .NET용 Aspose.CAD를 사용하여 3D CAD 이미지를 PDF로 쉽게 변환하세요. 원활한 PDF 내보내기를 위한 단계별 튜토리얼을 따르십시오.
-type: docs
 weight: 10
 url: /ko/net/3d-image-export/exporting-3d-images-to-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 3D 이미지를 PDF로 내보내기 - Aspose.CAD 튜토리얼
+
 ## 소개
 
 .NET용 Aspose.CAD를 사용하여 3D 이미지를 PDF로 원활하게 내보내고 싶으십니까? 이 단계별 튜토리얼은 Aspose.CAD의 강력한 기능을 활용하여 3D 이미지를 PDF 형식으로 쉽게 변환하는 과정을 안내합니다.
@@ -102,3 +108,9 @@ A2: 물론이죠. 이 튜토리얼에서는 요구 사항에 따라 페이지 �
 ### Q5: Aspose.CAD의 무료 평가판이 있습니까?
 
  A5: 예, Aspose.CAD에 액세스하여 기능을 탐색할 수 있습니다.[무료 시험판](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

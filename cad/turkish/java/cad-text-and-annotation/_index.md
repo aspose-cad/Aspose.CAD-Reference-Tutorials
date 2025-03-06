@@ -3,10 +3,16 @@ title: CAD Metni ve Ek Açıklama
 linktitle: CAD Metni ve Ek Açıklama
 second_title: Aspose.CAD Java API'si
 description: Aspose.CAD for Java ile DWG çizimlerinizi zahmetsizce geliştirin. DWG dosyalarına yazı tipi ekleme ve değiştirme konusunda uzmanlaşın. Görsel mükemmellik için adım adım kılavuzlar.
-type: docs
 weight: 21
 url: /tr/java/cad-text-and-annotation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# CAD Metni ve Ek Açıklama
+
 
 ## giriiş 
 
@@ -36,3 +42,9 @@ Aspose.CAD for Java ile DWG çizimlerinizi zahmetsizce geliştirin. Adım adım 
 CAD tasarımlarınızı zahmetsizce geliştirin. Aspose.CAD for Java'yı kullanarak DWG dosyalarındaki yazı tiplerini değiştirmeyi öğrenin. Görsel mükemmellik için adım adım kılavuz.
 ### [Aspose.CAD for Java Kullanarak DWG'de Belirli Bir Stilin Yazı Tipini Değiştirme](./substitute-font-of-particular-style-in-dwg/)
 Aspose.CAD for Java kullanarak DWG dosyalarındaki yazı tiplerini nasıl değiştireceğinizi öğrenin. Stilleri hassas bir şekilde özelleştirmek için adım adım kılavuz.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

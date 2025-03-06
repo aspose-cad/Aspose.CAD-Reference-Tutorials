@@ -3,10 +3,16 @@ title: Theo dõi và kết xuất
 linktitle: Theo dõi và kết xuất
 second_title: Aspose.CAD .NET - Định dạng tệp CAD và BIM
 description: Khai phá sức mạnh của Aspose.CAD cho .NET bằng hướng dẫn của chúng tôi. Tìm hiểu cách bật tính năng theo dõi trong tệp CAD và hiển thị liền mạch các tệp DXF dưới dạng PDF.
-type: docs
 weight: 31
 url: /vi/net/tracking-and-rendering/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Theo dõi và kết xuất
+
 
 ## Giới thiệu
 
@@ -30,3 +36,9 @@ Bắt tay vào cuộc phiêu lưu học tập với Danh sách hướng dẫn As
 Theo dõi tệp CAD thành thạo với Aspose.CAD cho .NET. Hãy làm theo hướng dẫn từng bước của chúng tôi để hiển thị chính xác và theo dõi lỗi. Tải ngay!
 ### [Hiển thị tệp DXF dưới dạng PDF - Hướng dẫn Aspose.CAD](./rendering-dxf-files-as-pdf/)
 Khám phá hướng dẫn cơ bản về cách hiển thị tệp DXF dưới dạng PDF bằng Aspose.CAD cho .NET. Chuyển đổi tệp CAD dễ dàng bằng hướng dẫn từng bước của chúng tôi.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

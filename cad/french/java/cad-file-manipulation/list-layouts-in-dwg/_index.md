@@ -3,10 +3,16 @@ title: Répertorier les mises en page dans DWG à l'aide d'Aspose.CAD pour Java
 linktitle: Répertorier les mises en page dans DWG
 second_title: API Java Aspose.CAD
 description: Explorez Aspose.CAD pour Java et répertoriez facilement les mises en page dans les fichiers DWG. Intégrez de puissantes fonctionnalités de CAO dans vos applications Java.
-type: docs
 weight: 12
 url: /fr/java/cad-file-manipulation/list-layouts-in-dwg/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Répertorier les mises en page dans DWG à l'aide d'Aspose.CAD pour Java
+
 ## Introduction
 
 Bienvenue dans notre guide étape par étape sur l'utilisation d'Aspose.CAD pour Java pour répertorier les mises en page dans les fichiers DWG. Aspose.CAD est une bibliothèque puissante qui permet aux développeurs de travailler avec des fichiers CAO par programme. Dans ce didacticiel, nous allons nous concentrer sur une tâche spécifique : répertorier les mises en page dans un fichier DWG. À la fin de ce guide, vous serez en mesure d'intégrer de manière transparente cette fonctionnalité dans vos applications Java.
@@ -86,3 +92,9 @@ A1 : Oui, Aspose.CAD prend en charge divers formats de CAO, notamment DWG, DXF, 
 ### Q5 : Puis-je utiliser une licence temporaire à des fins de test ?
 
  A5 : Oui, vous pouvez obtenir une licence temporaire[ici](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

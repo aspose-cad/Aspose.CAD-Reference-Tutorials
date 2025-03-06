@@ -3,10 +3,16 @@ title: Ställa in bakgrund och rita färg med Aspose.CAD för Java
 linktitle: Ställa in bakgrund och ritfärg
 second_title: Aspose.CAD Java API
 description: Konvertera enkelt CAD-filer till PDF och TIFF med Aspose.CAD för Java. Ställ in anpassade bakgrunds- och ritfärger för visuellt fantastiska resultat.
-type: docs
 weight: 15
 url: /sv/java/advanced-cad-features/setting-background-and-drawing-color/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ställa in bakgrund och rita färg med Aspose.CAD för Java
+
 ## Introduktion
 
 den dynamiska världen av datorstödd design (CAD) är effektiv filkonvertering avgörande för sömlöst samarbete och kommunikation. Aspose.CAD för Java framstår som ett kraftfullt verktyg som erbjuder robusta möjligheter för att konvertera CAD-filer till PDF- och TIFF-format. I den här handledningen kommer vi att fördjupa oss i processen att ställa in bakgrund och rita färg med Aspose.CAD för Java, vilket ger dig en steg-för-steg-guide för optimala resultat.
@@ -98,3 +104,10 @@ S2: Ja, handledningen visar hur man ställer in anpassade bakgrundsfärger för 
 ### F5: Hur kan jag få support för Aspose.CAD för Java?
 
 A5: Besök[Aspose.CAD-forum](https://forum.aspose.com/c/cad/19) att söka hjälp och engagera sig i samhället.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

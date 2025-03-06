@@ -3,10 +3,16 @@ title: STL文件导出
 linktitle: STL文件导出
 second_title: Aspose.CAD .NET - CAD 和 BIM 文件格式
 description: 使用 Aspose.CAD for .NET 轻松将 STL 文件导出为 PNG。我们的分步指南可确保无缝集成。通过 Aspose.CAD For .NET 教程进行学习。
-type: docs
 weight: 42
 url: /zh/net/stl-file-export/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# STL文件导出
+
 
 ## STL 文件导出教程
 
@@ -29,3 +35,9 @@ url: /zh/net/stl-file-export/
 为了进一步提高您的技能，请探索我们全面的 Aspose.CAD for .NET 教程列表。除了 STL 文件导出之外，您还可以发现无数的功能和技巧，让您的设计之旅更加精彩。无论您是初学者还是高级用户，我们的教程都涵盖一系列主题，确保您始终处于 CAD 开发的最前沿。
 
 总之，释放 STL 文件导出的潜力从未如此简单。借助 Aspose.CAD for .NET，复杂的过程变得轻而易举。深入 3D 设计世界，掌握轻松将 STL 文件转换为 PNG 的知识。使用 Aspose.CAD for .NET 探索、创建和提升您的设计 - 通往无缝设计体验的门户。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

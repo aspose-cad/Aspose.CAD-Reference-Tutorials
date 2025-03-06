@@ -3,10 +3,16 @@ title: Suporte de camadas com Aspose.CAD em Java
 linktitle: Suporte de camadas em CAD
 second_title: API Java Aspose.CAD
 description: Suporte de camada mestre no desenvolvimento Java CAD com Aspose.CAD. Organize e exporte desenhos sem esforço.
-type: docs
 weight: 18
 url: /pt/java/advanced-cad-features/support-of-layers-in-cad/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Suporte de camadas com Aspose.CAD em Java
+
 ## Introdução
 
 Desbloqueie todo o potencial do Aspose.CAD em Java dominando o suporte de camadas. As camadas desempenham um papel crucial nos desenhos CAD, permitindo a organização e manipulação eficiente de elementos gráficos. Neste tutorial abrangente, nos aprofundaremos nas complexidades do suporte de camadas usando Aspose.CAD, fornecendo um guia passo a passo para aproveitar essa poderosa funcionalidade.
@@ -118,3 +124,9 @@ A2: Sim, o Aspose.CAD suporta uma ampla gama de formatos CAD, garantindo versati
 ### Q5: Onde posso procurar assistência ou compartilhar minhas experiências com Aspose.CAD?
 
 A5: Junte-se à comunidade Aspose.CAD no[fórum](https://forum.aspose.com/c/cad/19) para suporte e discussões colaborativas.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

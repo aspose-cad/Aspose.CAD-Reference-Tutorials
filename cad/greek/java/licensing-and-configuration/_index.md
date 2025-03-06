@@ -3,10 +3,16 @@ title: Αδειοδότηση και Διαμόρφωση
 linktitle: Αδειοδότηση και Διαμόρφωση
 second_title: Aspose.CAD Java API
 description: Ξεκλειδώστε τη δύναμη του Aspose.CAD για Java με το μετρημένο σεμινάριο αδειοδότησης. Βελτιστοποιήστε την επεξεργασία CAD αποτελεσματικά και οικονομικά για βελτιωμένη παραγωγικότητα.
-type: docs
 weight: 25
 url: /el/java/licensing-and-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Αδειοδότηση και Διαμόρφωση
+
 ## Εισαγωγή
 
 Ξεκινώντας το ταξίδι του mastering της μετρημένης άδειας χρήσης στο Aspose.CAD για Java ανοίγει πόρτες σε απαράμιλλη αποτελεσματικότητα και οικονομική αποδοτικότητα στην επεξεργασία CAD. Σε αυτόν τον περιεκτικό οδηγό, εμβαθύνουμε στις περιπλοκές, δίνοντάς σας τη δυνατότητα να βελτιστοποιήσετε τη ροή εργασίας σας απρόσκοπτα.
@@ -25,3 +31,9 @@ url: /el/java/licensing-and-configuration/
 ## Εκμάθηση αδειοδότησης και διαμόρφωσης
 ### [Μετρημένη άδεια χρήσης στο Aspose.CAD](./metered-licensing-in-aspose-cad/)
 Μάθετε πώς να κατακτήσετε τη μετρημένη άδεια χρήσης στο Aspose.CAD για Java με αυτόν τον περιεκτικό οδηγό. Βελτιστοποιήστε την επεξεργασία CAD για αποτελεσματικότητα και οικονομική απόδοση.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

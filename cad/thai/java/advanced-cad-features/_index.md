@@ -3,10 +3,16 @@ title: คุณสมบัติ CAD ขั้นสูง
 linktitle: คุณสมบัติ CAD ขั้นสูง
 second_title: Aspose.CAD Java API
 description: ยกระดับการพัฒนา CAD ของคุณด้วย Aspose.CAD สำหรับบทช่วยสอน Java เรียนรู้การเปิดใช้งานการติดตาม ผสานรวมรูปแบบ IGES การรองรับมาสเตอร์เมช ปรับแต่งการส่งออกปากกา อ่านไฟล์ DWT และอื่นๆ
-type: docs
 weight: 24
 url: /th/java/advanced-cad-features/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# คุณสมบัติ CAD ขั้นสูง
+
 
 ## การแนะนำ
 
@@ -66,3 +72,9 @@ url: /th/java/advanced-cad-features/
 การสนับสนุนเลเยอร์หลักในการพัฒนา Java CAD ด้วย Aspose.CAD จัดระเบียบและส่งออกภาพวาดได้อย่างง่ายดาย
 ### [แยกค่าแอตทริบิวต์บล็อกจากการอ้างอิงภายนอกโดยใช้ Aspose.CAD ใน Java](./extract-block-attribute-value/)
 สำรวจบทช่วยสอนของเราเกี่ยวกับการแยกค่าแอตทริบิวต์บล็อกจากการอ้างอิงภายนอก DWG ใน Java โดยใช้ Aspose.CAD ปรับปรุงขั้นตอนการพัฒนา CAD ของคุณได้อย่างง่ายดาย
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

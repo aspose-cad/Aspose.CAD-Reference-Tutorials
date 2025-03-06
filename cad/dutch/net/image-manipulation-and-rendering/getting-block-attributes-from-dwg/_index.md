@@ -3,10 +3,16 @@ title: Blokattributen ophalen uit DWG-bestanden - Aspose.CAD-zelfstudie
 linktitle: Blokattributen ophalen uit DWG-bestanden
 second_title: Aspose.CAD .NET - CAD- en BIM-bestandsindeling
 description: Ontgrendel het potentieel van CAD-bestanden met Aspose.CAD voor .NET. Extraheer blokkenmerken moeiteloos.
-type: docs
 weight: 10
 url: /nl/net/image-manipulation-and-rendering/getting-block-attributes-from-dwg/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Blokattributen ophalen uit DWG-bestanden - Aspose.CAD-zelfstudie
+
 ## Invoering
 
 In de dynamische wereld van Computer-Aided Design (CAD) is het extraheren van waardevolle informatie uit DWG-bestanden voor veel toepassingen cruciaal. Aspose.CAD voor .NET biedt een krachtige oplossing om efficiënt met CAD-bestanden te werken. In deze zelfstudie gaan we stap voor stap dieper in op het proces van het ophalen van blokkenmerken uit DWG-bestanden met behulp van Aspose.CAD.
@@ -93,3 +99,9 @@ A1: Ja, Aspose.CAD ondersteunt verschillende CAD-formaten, waaronder DWG, DXF, D
 ### V5: Waar kan ik de documentatie voor Aspose.CAD voor .NET vinden?
 
  A5: Raadpleeg de uitgebreide[documentatie](https://reference.aspose.com/cad/net/) voor gedetailleerde informatie en voorbeelden.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

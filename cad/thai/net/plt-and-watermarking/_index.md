@@ -3,10 +3,16 @@ title: PLT และลายน้ำ
 linktitle: PLT และลายน้ำ
 second_title: Aspose.CAD .NET - รูปแบบไฟล์ CAD และ BIM
 description: ปลดล็อกศักยภาพของรูปแบบ PLT ด้วย Aspose.CAD สำหรับ .NET รวมไฟล์ PLT เข้ากับแอปพลิเคชันของคุณได้อย่างง่ายดายด้วยบทช่วยสอนทีละขั้นตอนของเรา
-type: docs
 weight: 37
 url: /th/net/plt-and-watermarking/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# PLT และลายน้ำ
+
 
 ## การแนะนำ
 
@@ -46,3 +52,9 @@ Aspose.CAD ไม่เพียงแต่นำเสนอฟังก์ช
 ค้นพบการสนับสนุนรูปแบบ PLT ที่ไร้รอยต่อใน Aspose.CAD สำหรับ .NET ปฏิบัติตามคำแนะนำทีละขั้นตอนของเราเพื่อรวมไฟล์ PLT เข้ากับแอปพลิเคชัน .NET ของคุณได้อย่างง่ายดาย
 ### [การเพิ่มลายน้ำให้กับแบบร่าง CAD - คู่มือ Aspose.CAD](./adding-watermarks-to-cad-drawings/)
 ปรับปรุงภาพวาด CAD ของคุณด้วยลายน้ำระดับมืออาชีพโดยใช้ Aspose.CAD สำหรับ .NET ปฏิบัติตามคำแนะนำทีละขั้นตอนของเราเพื่อการออกแบบส่วนบุคคลและน่าดึงดูด
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

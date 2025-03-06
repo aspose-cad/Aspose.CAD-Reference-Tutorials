@@ -3,10 +3,16 @@ title: Ricerca di testo nei file DWG con C# - Tutorial Aspose.CAD
 linktitle: Ricerca di testo nei file DWG con C#
 second_title: Aspose.CAD .NET - Formato file CAD e BIM
 description: Esplora Aspose.CAD per .NET e padroneggia la ricerca di testo nei file DWG con questa guida passo passo. Potenzia le tue applicazioni CAD oggi stesso!
-type: docs
 weight: 10
 url: /it/net/text-search-and-manipulation/searching-text-in-dwg-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ricerca di testo nei file DWG con C# - Tutorial Aspose.CAD
+
 ## introduzione
 
 Nel regno dinamico del CAD (Computer-Aided Design), la precisione e l'efficienza sono fondamentali. Immagina uno scenario in cui è necessario individuare un testo specifico all'interno dei file DWG. Aspose.CAD per .NET viene in soccorso, offrendo una soluzione solida per cercare senza problemi il testo nei file DWG utilizzando C#. Questo tutorial ti guiderà attraverso il processo, assicurandoti di sfruttare tutto il potenziale di Aspose.CAD per .NET.
@@ -114,3 +120,9 @@ A1: Sì, Aspose.CAD supporta vari formati CAD, fornendo una soluzione versatile.
 ### Q5: Dove posso trovare la documentazione dettagliata per Aspose.CAD per .NET?
 
  A5: Fare riferimento al completo[documentazione](https://reference.aspose.com/cad/net/) per una guida approfondita.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

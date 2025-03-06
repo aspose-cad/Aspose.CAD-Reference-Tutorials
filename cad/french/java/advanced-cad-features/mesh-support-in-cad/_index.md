@@ -3,10 +3,16 @@ title: Prise en charge du maillage avec Aspose.CAD pour Java
 linktitle: Prise en charge du maillage en CAO
 second_title: API Java Aspose.CAD
 description: Explorez la prise en charge du maillage dans les applications Java avec Aspose.CAD. Convertissez des fichiers CAO en PDF sans effort.
-type: docs
 weight: 12
 url: /fr/java/advanced-cad-features/mesh-support-in-cad/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Prise en charge du maillage avec Aspose.CAD pour Java
+
 ## Introduction
 
 Aspose.CAD pour Java est une bibliothèque puissante qui permet aux développeurs de travailler de manière transparente avec des fichiers de conception assistée par ordinateur (CAO) dans les applications Java. Dans ce didacticiel, nous explorerons la fonctionnalité de prise en charge du maillage dans Aspose.CAD pour Java, vous permettant de convertir des fichiers CAO avec des maillages au format PDF. Suivez le guide étape par étape ci-dessous pour exploiter les capacités de cette bibliothèque et améliorer la gestion de vos fichiers CAO.
@@ -110,3 +116,9 @@ A4 : Oui, Aspose.CAD pour Java prend en charge divers formats de sortie, notamme
 ### Q5 : Puis-je essayer Aspose.CAD pour Java gratuitement ?
 
  A5 : Oui, vous pouvez explorer une version d'essai gratuite d'Aspose.CAD pour Java[ici](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

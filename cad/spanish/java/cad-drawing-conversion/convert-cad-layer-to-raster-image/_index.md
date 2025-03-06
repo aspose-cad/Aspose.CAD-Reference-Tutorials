@@ -3,10 +3,16 @@ title: Convierta una capa CAD a formato de imagen rasterizada usando Aspose.CAD 
 linktitle: Convertir capa CAD a formato de imagen rasterizada
 second_title: API de Java Aspose.CAD
 description: Aprenda a convertir capas CAD en imágenes rasterizadas sin esfuerzo con Aspose.CAD para Java. Siga nuestra guía paso a paso para una visualización perfecta de documentos.
-type: docs
 weight: 11
 url: /es/java/cad-drawing-conversion/convert-cad-layer-to-raster-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Convierta una capa CAD a formato de imagen rasterizada usando Aspose.CAD para Java
+
 ## Introducción
 
 En el ámbito del diseño asistido por computadora (CAD), la capacidad de convertir sin problemas capas de CAD a formatos de imágenes rasterizadas es un aspecto crucial de la manipulación y visualización de documentos. Aspose.CAD para Java surge como una poderosa herramienta que ofrece una infinidad de funcionalidades para agilizar este proceso de conversión. Esta guía paso a paso lo guiará a través del proceso, asegurando que aproveche todo el potencial de Aspose.CAD para Java.
@@ -116,3 +122,9 @@ R1: Aspose.CAD admite principalmente Java, pero hay versiones disponibles para o
 ### P5: ¿Existen requisitos de sistema específicos para Aspose.CAD para Java?
 
 R5: Asegúrese de tener un entorno de desarrollo Java compatible; Consulte la documentación para conocer los requisitos detallados.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

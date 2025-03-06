@@ -3,10 +3,16 @@ title: Aspose.CAD での CAD の保存時のタイムアウト
 linktitle: 保存時にタイムアウトを設定する
 second_title: Aspose.CAD Java API
 description: Aspose.CAD を使用して Java アプリケーションのパフォーマンスを向上させる方法を学びます。 CAD 図面の保存時にタイムアウトを設定します。ステップバイステップのガイドに従ってください。
-type: docs
 weight: 15
 url: /ja/java/other-cad-operations/put-timeout-on-save/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.CAD での CAD の保存時のタイムアウト
+
 ## 導入
 
 Aspose.CAD for Java を使用して保存時にタイムアウトを設定するチュートリアルへようこそ。このガイドでは、アプリケーションのパフォーマンスを向上させるために CAD 図面を保存するためのタイムアウトを設定するプロセスについて説明します。 Aspose.CAD for Java は、Java アプリケーションで CAD ファイルをシームレスに操作できるようにする強力なライブラリです。
@@ -131,3 +137,9 @@ A3: はい、以下から無料トライアルを利用できます。[このリ
 ### Q5: サポートが必要ですか、それとも質問がありますか?
 
  A5: に向かってください。[Aspose.CAD フォーラム](https://forum.aspose.com/c/cad/19)コミュニティサポートのために。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

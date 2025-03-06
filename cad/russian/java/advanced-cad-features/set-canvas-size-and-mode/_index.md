@@ -3,10 +3,16 @@ title: Установите размер и режим холста
 linktitle: Установите размер и режим холста
 second_title: API Aspose.CAD Java
 description: Исследуйте возможности Aspose.CAD для Java с помощью нашего пошагового руководства по настройке размера и режима холста. Легко конвертируйте файлы САПР в форматы PDF и TIFF.
-type: docs
 weight: 16
 url: /ru/java/advanced-cad-features/set-canvas-size-and-mode/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Установите размер и режим холста
+
 ## Введение
 
 Вы хотите использовать возможности Aspose.CAD для Java для улучшения процесса преобразования САПР? Это подробное руководство проведет вас через этапы настройки размера и режима холста с помощью Aspose.CAD для Java. Независимо от того, являетесь ли вы опытным разработчиком или только начинаете, это руководство предоставит вам необходимую информацию.
@@ -126,3 +132,9 @@ objImage.save(dataDir + "result_out_.tiff", tiffOptions);
 ### Вопрос 5: Как мне приобрести Aspose.CAD для Java?
 
  A5: Приобретите продукт[здесь](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

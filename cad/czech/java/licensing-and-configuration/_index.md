@@ -3,10 +3,16 @@ title: Licencování a konfigurace
 linktitle: Licencování a konfigurace
 second_title: Aspose.CAD Java API
 description: Odemkněte sílu Aspose.CAD pro Javu pomocí našeho měřeného licenčního kurzu. Optimalizujte zpracování CAD efektivně a nákladově efektivně pro zvýšení produktivity.
-type: docs
 weight: 25
 url: /cs/java/licensing-and-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Licencování a konfigurace
+
 ## Úvod
 
 Vydání se na cestu zvládnutí měřeného licencování v Aspose.CAD pro Java otevírá dveře k bezkonkurenční efektivitě a nákladové efektivitě při zpracování CAD. V tomto komplexním průvodci se ponoříme do složitostí a umožníme vám bezproblémově optimalizovat váš pracovní postup.
@@ -25,3 +31,9 @@ Závěrem lze říci, že měřené licencování v Aspose.CAD pro Java není je
 ## Licenční a konfigurační kurzy
 ### [Měřené licencování v Aspose.CAD](./metered-licensing-in-aspose-cad/)
 Naučte se, jak zvládnout měřené licencování v Aspose.CAD pro Java, pomocí tohoto komplexního průvodce. Optimalizujte své CAD zpracování pro efektivitu a nákladovou efektivitu.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

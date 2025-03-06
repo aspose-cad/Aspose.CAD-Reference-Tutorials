@@ -3,10 +3,16 @@ title: Úpravy hypertextových odkazů v souborech CAD - Výukový program Aspos
 linktitle: Úpravy hypertextových odkazů v souborech CAD
 second_title: Aspose.CAD .NET – formát souborů CAD a BIM
 description: Prozkoumejte Aspose.CAD for .NET a naučte se bez námahy upravovat hypertextové odkazy v souborech CAD. Vylepšete své dovednosti v oblasti správy souborů CAD pomocí tohoto komplexního návodu.
-type: docs
 weight: 14
 url: /cs/net/advanced-cad-techniques/editing-hyperlinks-in-cad-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Úpravy hypertextových odkazů v souborech CAD - Výukový program Aspose.CAD
+
 ## Úvod
 
 Vítejte v našem podrobném návodu na úpravu hypertextových odkazů v souborech CAD pomocí Aspose.CAD for .NET. Aspose.CAD je výkonná knihovna, která umožňuje vývojářům bezproblémově pracovat se soubory CAD. V tomto tutoriálu se zaměříme na konkrétní úkol úpravy hypertextových odkazů v souborech CAD a ukážeme si, jak odkazy efektivně upravovat a spravovat.
@@ -103,3 +109,9 @@ Odpověď 1: Ano, Aspose.CAD podporuje různé formáty CAD, včetně DWG, DXF, 
 ### Q5: Potřebujete pomoc nebo máte otázky?
 
  A5: Navštivte naše fórum podpory[tady](https://forum.aspose.com/c/cad/19).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: ใบอนุญาตและการกำหนดค่า
 linktitle: ใบอนุญาตและการกำหนดค่า
 second_title: Aspose.CAD Java API
 description: ปลดล็อกพลังของ Aspose.CAD สำหรับ Java ด้วยบทช่วยสอนการให้สิทธิ์ใช้งานแบบมิเตอร์ของเรา เพิ่มประสิทธิภาพการประมวลผล CAD ได้อย่างมีประสิทธิภาพและคุ้มค่าเพื่อเพิ่มผลผลิต
-type: docs
 weight: 25
 url: /th/java/licensing-and-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# ใบอนุญาตและการกำหนดค่า
+
 ## การแนะนำ
 
 เริ่มต้นการเดินทางของการเรียนรู้ใบอนุญาตแบบมิเตอร์ใน Aspose.CAD สำหรับ Java เปิดประตูสู่ประสิทธิภาพที่เหนือชั้นและความคุ้มค่าในการประมวลผล CAD ในคู่มือที่ครอบคลุมนี้ เราจะเจาะลึกถึงความซับซ้อน ซึ่งช่วยให้คุณเพิ่มประสิทธิภาพขั้นตอนการทำงานได้อย่างราบรื่น
@@ -25,3 +31,9 @@ url: /th/java/licensing-and-configuration/
 ## บทช่วยสอนการให้สิทธิ์การใช้งานและการกำหนดค่า
 ### [ใบอนุญาตแบบมิเตอร์ใน Aspose.CAD](./metered-licensing-in-aspose-cad/)
 เรียนรู้วิธีเชี่ยวชาญการใช้สิทธิ์การใช้งานแบบมิเตอร์ใน Aspose.CAD สำหรับ Java พร้อมคำแนะนำที่ครอบคลุมนี้ เพิ่มประสิทธิภาพการประมวลผล CAD ของคุณให้มีประสิทธิภาพและคุ้มค่า
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

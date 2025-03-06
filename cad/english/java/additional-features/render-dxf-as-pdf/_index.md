@@ -3,10 +3,16 @@ title: Render DXF as PDF Using Aspose.CAD for Java
 linktitle: Render DXF as PDF Using Java
 second_title: Aspose.CAD Java API
 description: Convert DXF to PDF in Java effortlessly with Aspose.CAD. Follow our step-by-step guide for seamless rendering.
-type: docs
 weight: 19
 url: /java/additional-features/render-dxf-as-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Render DXF as PDF Using Aspose.CAD for Java
+
 ## Introduction
 
 In the world of Java programming, the need to render DXF (Drawing Exchange Format) files into PDFs is a common requirement. Aspose.CAD for Java comes to the rescue, providing a powerful solution to effortlessly convert DXF drawings into high-quality PDFs. In this step-by-step guide, we will explore how to achieve this using Aspose.CAD for Java, breaking down each example into multiple steps for a comprehensive understanding.
@@ -103,3 +109,10 @@ A4: Visit the [Aspose.CAD forum](https://forum.aspose.com/c/cad/19) to seek assi
 ### Q5: Do I need a temporary license for testing?
 
 A5: Yes, you can obtain a temporary license [here](https://purchase.aspose.com/temporary-license/) for testing purposes.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

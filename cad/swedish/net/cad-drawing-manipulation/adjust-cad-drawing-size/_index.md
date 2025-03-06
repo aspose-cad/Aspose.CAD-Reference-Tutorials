@@ -3,10 +3,16 @@ title: Justera CAD-ritningsstorlek i Aspose.CAD för .NET
 linktitle: Justera CAD-ritningsstorlek
 second_title: Aspose.CAD .NET - CAD- och BIM-filformat
 description: Lär dig hur du enkelt justerar CAD-ritningsstorlekar i .NET med Aspose.CAD. Följ vår steg-för-steg-guide för sömlös storleksändring.
-type: docs
 weight: 10
 url: /sv/net/cad-drawing-manipulation/adjust-cad-drawing-size/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Justera CAD-ritningsstorlek i Aspose.CAD för .NET
+
 ## Introduktion
 
 Vill du sömlöst justera storleken på CAD-ritningar i dina .NET-applikationer? Aspose.CAD för .NET ger en robust lösning som gör att du enkelt kan hantera storleksändring av CAD-ritningar. I den här handledningen guidar vi dig genom processen och delar upp varje steg för att säkerställa att du förstår krångligheterna med att ändra storlek på CAD-ritningar med Aspose.CAD.
@@ -115,3 +121,9 @@ S2: Ja, du kan ändra storlek på flera layouter genom att justera layoutarrayen
 ### F5: Hur kan jag få en tillfällig licens för Aspose.CAD för .NET?
 
  S5: Skaffa en tillfällig licens för teständamål[här](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Aspose.CAD ile CAD için Kaydetmede Zaman Aşımı
 linktitle: Kaydetmeye Zaman Aşımı koy
 second_title: Aspose.CAD Java API'si
 description: Aspose.CAD ile Java uygulamanızın performansını nasıl artıracağınızı öğrenin. CAD çizimleri için kaydetme işlemine zaman aşımı koyun. Adım adım kılavuzumuzu takip edin.
-type: docs
 weight: 15
 url: /tr/java/other-cad-operations/put-timeout-on-save/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.CAD ile CAD için Kaydetmede Zaman Aşımı
+
 ## giriiş
 
 Aspose.CAD for Java kullanarak kaydetmeye zaman aşımı koyma eğitimine hoş geldiniz. Bu kılavuzda, uygulamanızın performansını artırmak amacıyla CAD çizimlerini kaydetmek için zaman aşımı ayarlama sürecinde size yol göstereceğiz. Aspose.CAD for Java, Java uygulamalarınızdaki CAD dosyalarıyla sorunsuz bir şekilde çalışmanıza olanak tanıyan güçlü bir kütüphanedir.
@@ -131,3 +137,9 @@ C3: Evet, şu adresten ücretsiz deneme alabilirsiniz:[bu bağlantı](https://re
 ### S5: Yardıma mı ihtiyacınız var veya sorularınız mı var?
 
  A5: Şuraya gidin:[Aspose.CAD forumu](https://forum.aspose.com/c/cad/19) topluluk desteği için.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

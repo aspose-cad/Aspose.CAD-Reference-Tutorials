@@ -3,10 +3,16 @@ title: 使用 Aspose.CAD for Java 将 CAD 布局转换为光栅图像格式
 linktitle: 将 CAD 布局转换为光栅图像格式
 second_title: Aspose.CAD Java API
 description: 使用 Aspose.CAD for Java 轻松将 CAD 布局转换为光栅图像。高质量可视化可增强协作。
-type: docs
 weight: 12
 url: /zh/java/cad-drawing-conversion/convert-cad-layout-to-raster-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.CAD for Java 将 CAD 布局转换为光栅图像格式
+
 ## 介绍
 
 在计算机辅助设计 (CAD) 的动态世界中，将 CAD 布局无缝转换为光栅图像格式的能力是一项宝贵的技能。 Aspose.CAD for Java 成为高效完成此任务的强大解决方案。在本教程中，我们将指导您使用 Aspose.CAD for Java 逐步将 CAD 布局转换为光栅图像。
@@ -106,3 +112,9 @@ A4：是的，Aspose.CAD支持多种输出格式，例如PNG、JPG和PDF。
 ### Q5：我可以在哪里寻求帮助或分享我使用 Aspose.CAD 的经验？
 
 A5：访问[Aspose.CAD论坛](https://forum.aspose.com/c/cad/19)与社区互动并获得支持。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: صياغة ملفات PDF الديناميكية باستخدام Aspose.
 linktitle: ملف PDF واحد بتخطيطات مختلفة
 second_title: Aspose.CAD جافا API
 description: أنشئ ملفات PDF مذهلة بتخطيطات متنوعة من رسومات CAD باستخدام Aspose.CAD لـ Java. تكامل سهل وميزات قوية لمطوري Java.
-type: docs
 weight: 16
 url: /ar/java/other-cad-operations/single-pdf-different-layouts/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# صياغة ملفات PDF الديناميكية باستخدام Aspose.CAD لـ Java
+
 ## مقدمة
 
 مرحبًا بك في عالم Aspose.CAD لـ Java، وهي مكتبة قوية تمكّن المطورين من التعامل مع رسومات CAD دون عناء. في هذا البرنامج التعليمي، سنتعمق في إنشاء ملفات PDF فردية بتخطيطات مختلفة باستخدام Aspose.CAD لـ Java. سواء كنت مطورًا متمرسًا أو بدأت للتو، سيرشدك هذا الدليل خطوة بخطوة خلال العملية.
@@ -103,3 +109,9 @@ cadImage.save(dataDir + "singlePDF_out.pdf", pdfOptions);
 ### س5: أين يمكنني شراء النسخة الكاملة؟
 
 ج5: قم بشراء الإصدار الكامل من Aspose.CAD لـ Java[هنا](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

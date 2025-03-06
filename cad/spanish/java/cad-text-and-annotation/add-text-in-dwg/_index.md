@@ -3,10 +3,16 @@ title: Agregar texto en DWG usando Aspose.CAD para Java
 linktitle: Agregar texto en DWG
 second_title: API de Java Aspose.CAD
 description: Mejore sus dibujos DWG sin esfuerzo con Aspose.CAD para Java. Agregue texto sin problemas con nuestra guía paso a paso.
-type: docs
 weight: 10
 url: /es/java/cad-text-and-annotation/add-text-in-dwg/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Agregar texto en DWG usando Aspose.CAD para Java
+
 ## Introducción
 
 En el ámbito del diseño asistido por computadora (CAD), Aspose.CAD para Java se destaca como una poderosa herramienta para manipular y convertir dibujos DWG. Una de sus funciones útiles es la capacidad de agregar texto a archivos DWG sin problemas. En este tutorial, lo guiaremos a través del proceso de agregar texto a sus dibujos DWG usando Aspose.CAD para Java.
@@ -122,3 +128,9 @@ R2: Sí, puede personalizar la fuente, el estilo y otras opciones de formato par
 ### P5: ¿Cómo puedo obtener soporte o buscar ayuda con Aspose.CAD?
 
 A5: Visita el[Foro Aspose.CAD](https://forum.aspose.com/c/cad/19) para obtener asistencia y conectarse con la comunidad.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: 在 Aspose.CAD for .NET 中将 DGN 导出为光栅图像
 linktitle: 将 DGN 导出为光栅图像
 second_title: Aspose.CAD .NET - CAD 和 BIM 文件格式
 description: 使用 Aspose.CAD for .NET 轻松将 DGN 转换为光栅图像。探索分步指南并释放 .NET 在 CAD 文件操作方面的强大功能。
-type: docs
 weight: 13
 url: /zh/net/cad-export-formats/export-dgn-to-raster-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.CAD for .NET 中将 DGN 导出为光栅图像
+
 ## 介绍
 
 在 .NET 开发的动态领域中，Aspose.CAD 成为处理计算机辅助设计 (CAD) 文件的强大工具。本教程深入介绍使用 Aspose.CAD for .NET 将 DGN 文件导出为光栅图像的过程。如果您热衷于将 DGN 文件无缝转换为视觉上引人注目的光栅图像，那么您来对地方了。
@@ -102,3 +108,9 @@ A2：确保您有正确的异常处理（如提供的代码中所示），以解
 ### 问题 5：如何获得 Aspose.CAD for .NET 的临时许可证？
 
  A5：参观[这个链接](https://purchase.aspose.com/temporary-license/)获取满足您的开发需求的临时许可证。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

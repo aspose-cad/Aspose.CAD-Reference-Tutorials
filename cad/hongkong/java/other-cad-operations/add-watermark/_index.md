@@ -3,10 +3,16 @@ title: 在 CAD 繪圖中新增浮水印 - Aspose.CAD for Java 教學課程
 linktitle: 加浮水印
 second_title: Aspose.CAD Java API
 description: 使用 Aspose.CAD for Java 透過個人化浮水印增強您的 CAD 繪圖。請按照我們的逐步指南進行無縫整合。
-type: docs
 weight: 12
 url: /zh-hant/java/other-cad-operations/add-watermark/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 CAD 繪圖中新增浮水印 - Aspose.CAD for Java 教學課程
+
 ## 介紹
 
 歡迎閱讀這份使用 Aspose.CAD for Java 為 CAD 繪圖新增浮水印的綜合指南。在本教程中，您將學習如何有效地整合浮水印，透過個人化訊息或品牌增強您的 CAD 文件。 Aspose.CAD for Java 提供了一組強大的功能，讓水印新增過程變得簡單。
@@ -99,3 +105,9 @@ A2：是的，您可以完全控制浮水印的外觀，包括文字大小、顏
 ### Q5：在哪裡可以找到 Aspose.CAD for Java 的完整文件？
 
  A5：請參閱[文件](https://reference.aspose.com/cad/java/)獲取詳細資訊。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: 从 DWG 文件获取块属性 - Aspose.CAD 教程
 linktitle: 从 DWG 文件获取块属性
 second_title: Aspose.CAD .NET - CAD 和 BIM 文件格式
 description: 使用 Aspose.CAD for .NET 释放 CAD 文件的潜力。轻松提取块属性。
-type: docs
 weight: 10
 url: /zh/net/image-manipulation-and-rendering/getting-block-attributes-from-dwg/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 从 DWG 文件获取块属性 - Aspose.CAD 教程
+
 ## 介绍
 
 在计算机辅助设计 (CAD) 的动态世界中，从 DWG 文件中提取有价值的信息对于许多应用程序至关重要。 Aspose.CAD for .NET 提供了一个强大的解决方案来有效地处理 CAD 文件。在本教程中，我们将逐步深入研究使用 Aspose.CAD 从 DWG 文件中检索块属性的过程。
@@ -93,3 +99,9 @@ A1：是的，Aspose.CAD支持各种CAD格式，包括DWG、DXF、DWT和DGN。
 ### Q5：在哪里可以找到 Aspose.CAD for .NET 的文档？
 
  A5：参考综合[文档](https://reference.aspose.com/cad/net/)获取详细信息和示例。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

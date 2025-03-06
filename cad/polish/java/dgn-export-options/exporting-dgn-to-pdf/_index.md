@@ -3,10 +3,16 @@ title: Bezproblemowy eksport DGN do AutoCAD PDF za pomocą Aspose.CAD dla Java
 linktitle: Eksportowanie DGN w formacie AutoCAD do pliku PDF
 second_title: Aspose.CAD API Java
 description: Zapoznaj się z przewodnikiem krok po kroku dotyczącym eksportowania plików DGN do formatu AutoCAD w formacie PDF przy użyciu Aspose.CAD dla Java. Bez wysiłku zwiększ możliwości obsługi CAD aplikacji Java.
-type: docs
 weight: 12
 url: /pl/java/dgn-export-options/exporting-dgn-to-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Bezproblemowy eksport DGN do AutoCAD PDF za pomocą Aspose.CAD dla Java
+
 ## Wstęp
 
 Witamy w tym kompleksowym samouczku dotyczącym używania Aspose.CAD dla Java do eksportowania plików DGN w formacie AutoCAD do formatu PDF. Jeśli chcesz zwiększyć możliwości swojej aplikacji Java w zakresie obsługi plików CAD, Aspose.CAD będzie doskonałym wyborem. W tym samouczku przeprowadzimy Cię krok po kroku przez proces eksportowania plików DGN.
@@ -100,3 +106,9 @@ A2: Absolutnie. Jak pokazano w samouczku, możesz dostosować opcje, takie jak w
 ### P5: Jak mogę uzyskać licencję tymczasową?
 
  A5: Uzyskaj tymczasową licencję[Tutaj](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

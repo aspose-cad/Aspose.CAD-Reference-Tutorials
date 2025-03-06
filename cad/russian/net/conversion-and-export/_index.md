@@ -3,10 +3,16 @@ title: Преобразование и экспорт
 linktitle: Преобразование и экспорт
 second_title: Aspose.CAD .NET — формат файлов CAD и BIM
 description: Откройте для себя мир манипуляций с файлами САПР с помощью Aspose.CAD! Научитесь отображать яркие цвета и конвертировать файлы DWG. Погрузитесь в форматы DWT и DWG для получения точных результатов.
-type: docs
 weight: 25
 url: /ru/net/conversion-and-export/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Преобразование и экспорт
+
 
 
 ## Введение
@@ -45,3 +51,9 @@ url: /ru/net/conversion-and-export/
 Преобразуйте DWG в соответствующий PDF с помощью Aspose.CAD для .NET. Следуйте нашему руководству для получения пошаговых инструкций.
 ### [Преобразование DWG в формат DWF — Руководство Aspose.CAD](./converting-dwg-to-dwf/)
 Изучите плавное преобразование DWG в DWF с помощью Aspose.CAD для .NET. Следуйте нашему пошаговому руководству, чтобы избежать проблем.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

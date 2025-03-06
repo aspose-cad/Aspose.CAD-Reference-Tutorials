@@ -3,10 +3,16 @@ title: 使用 Aspose.CAD for Java 製作動態 PDF
 linktitle: 具有不同佈局的單一 PDF
 second_title: Aspose.CAD Java API
 description: 使用 Aspose.CAD for Java 從 CAD 繪圖建立具有不同佈局的精美 PDF。為 Java 開發人員提供輕鬆整合和強大的功能。
-type: docs
 weight: 16
 url: /zh-hant/java/other-cad-operations/single-pdf-different-layouts/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.CAD for Java 製作動態 PDF
+
 ## 介紹
 
 歡迎來到 Aspose.CAD for Java 的世界，這是一個功能強大的函式庫，讓開發人員能夠輕鬆操作 CAD 繪圖。在本教程中，我們將深入研究使用 Aspose.CAD for Java 建立具有不同佈局的單一 PDF。無論您是經驗豐富的開發人員還是新手，本逐步指南都將引導您完成整個過程。
@@ -103,3 +109,9 @@ A1：是的，Aspose.CAD for Java 旨在與其他 Java 程式庫無縫集成，�
 ### Q5：哪裡可以購買完整版？
 
 A5：購買完整版的 Aspose.CAD for Java[這裡](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

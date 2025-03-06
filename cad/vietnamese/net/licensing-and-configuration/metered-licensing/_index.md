@@ -3,10 +3,16 @@ title: Cấp phép đo lường trong Aspose.CAD cho .NET
 linktitle: Giấy phép đo lường
 second_title: Aspose.CAD .NET - Định dạng tệp CAD và BIM
 description: Khai phá tiềm năng của Aspose.CAD với giấy phép đo lường trong .NET. Tối ưu hóa việc sử dụng tài nguyên một cách liền mạch. Khám phá hướng dẫn từng bước của chúng tôi.
-type: docs
 weight: 12
 url: /vi/net/licensing-and-configuration/metered-licensing/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Cấp phép đo lường trong Aspose.CAD cho .NET
+
 ## Giới thiệu
 
 Việc mở khóa toàn bộ tiềm năng của Aspose.CAD cho .NET đòi hỏi phải hiểu được sự phức tạp của việc cấp phép theo đồng hồ đo. Tính năng mạnh mẽ này cho phép các nhà phát triển quản lý hiệu quả mức tiêu thụ tài nguyên đồng thời khai thác các khả năng của Aspose.CAD. Trong hướng dẫn từng bước này, chúng tôi sẽ đi sâu vào quy trình triển khai cấp phép theo đồng hồ đo, chia nhỏ từng bước quan trọng để đảm bảo tích hợp liền mạch vào các dự án .NET của bạn.
@@ -97,3 +103,9 @@ Câu trả lời 3: Có, khóa đồng hồ đo có thể được tái sử d�
 ### Câu hỏi 5: Tôi có thể cấp phép tạm thời Aspose.CAD cho các dự án cụ thể không?
 
  A5: Có, khám phá[tùy chọn cấp phép tạm thời](https://purchase.aspose.com/temporary-license/) cho các yêu cầu dự án ngắn hạn.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: 使用 Aspose.CAD 儲存 CAD 時逾時
 linktitle: 儲存超時
 second_title: Aspose.CAD Java API
 description: 了解如何使用 Aspose.CAD 來提高 Java 應用程式的效能。為 CAD 工程圖的儲存設定逾時。請遵循我們的逐步指南。
-type: docs
 weight: 15
 url: /zh-hant/java/other-cad-operations/put-timeout-on-save/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.CAD 儲存 CAD 時逾時
+
 ## 介紹
 
 歡迎閱讀有關使用 Aspose.CAD for Java 設定儲存逾時的教學課程。在本指南中，我們將引導您完成設定儲存 CAD 繪圖逾時的過程，以提高應用程式的效能。 Aspose.CAD for Java 是一個功能強大的程式庫，可讓您在 Java 應用程式中無縫地使用 CAD 檔案。
@@ -131,3 +137,9 @@ A3：是的，您可以從以下位置獲得免費試用[這個連結](https://r
 ### Q5: 需要協助或有疑問嗎？
 
  A5：前往[Aspose.CAD論壇](https://forum.aspose.com/c/cad/19)以獲得社區支持。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: CAD metaadatok és renderelés
 linktitle: CAD metaadatok és renderelés
 second_title: Aspose.CAD Java API
 description: Fedezze fel az Aspose.CAD for Java erejét oktatóanyagainkkal! Tanulja meg könnyedén olvasni az XREF metaadatokat, és a DWG dokumentumokat képekké renderelni a továbbfejlesztett CAD fejlesztés érdekében.
-type: docs
 weight: 27
 url: /hu/java/cad-meta-data-and-rendering/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# CAD metaadatok és renderelés
+
 
 
 ## Bevezetés
@@ -33,3 +39,9 @@ Végezetül, ismerje meg az Aspose.CAD for Java erejét oktatóanyagainkkal. Old
 Fedezze fel az Aspose.CAD for Java alkalmazást, és könnyedén olvassa el az XREF metaadatokat DWG-fájlokból. Fokozza fel CAD-fejlesztését ezzel a hatékony Java-könyvtárral.
 ### [Renderelje le a DWG-dokumentumot képként az Aspose.CAD for Java segítségével](./render-dwg-to-image/)
 Fedezze fel az Aspose.CAD for Java zökkenőmentes integrációját a DWG-dokumentumok képekké történő megjelenítésében. Kövesse lépésről lépésre útmutatónkat a hatékony eredmények érdekében.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

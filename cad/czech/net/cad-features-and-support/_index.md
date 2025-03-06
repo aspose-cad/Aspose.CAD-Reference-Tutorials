@@ -3,10 +3,16 @@ title: Funkce a podpora CAD
 linktitle: Funkce a podpora CAD
 second_title: Aspose.CAD .NET – formát souborů CAD a BIM
 description: Odemkněte plný potenciál funkcí CAD pomocí výukových programů Aspose.CAD for .NET. Naučte se 3D podporu pro DGN V7, manipulaci se sítí, přizpůsobení pera a další bez námahy.
-type: docs
 weight: 23
 url: /cs/net/cad-features-and-support/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Funkce a podpora CAD
+
 
 ## Úvod
 
@@ -80,3 +86,9 @@ Prozkoumejte výkonné funkce Aspose.CAD for .NET pro práci se soubory DGN. Pos
 Prozkoumejte bezproblémovou podporu Aspose.CAD for .NET pro DGN VPřeveďte soubory DGN na rastrové obrázky bez námahy pomocí podrobného návodu.
 ### [Podpora 3D pro DGN V7 v Aspose.CAD pro .NET](./support-of-3d-for-dgn-v7/)
 Odemkněte sílu 3D podpory pro DGN V7 v Aspose.CAD pro .NET. Postupujte podle našeho podrobného návodu.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

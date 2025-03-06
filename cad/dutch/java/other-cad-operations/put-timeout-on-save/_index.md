@@ -3,10 +3,16 @@ title: Time-out bij opslaan voor CAD met Aspose.CAD
 linktitle: Zet Time-out op Opslaan
 second_title: Aspose.CAD Java-API
 description: Leer hoe u de prestaties van uw Java-applicatie kunt verbeteren met Aspose.CAD. Stel een time-out in voor het opslaan van CAD-tekeningen. Volg onze stapsgewijze handleiding.
-type: docs
 weight: 15
 url: /nl/java/other-cad-operations/put-timeout-on-save/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Time-out bij opslaan voor CAD met Aspose.CAD
+
 ## Invoering
 
 Welkom bij de tutorial over het instellen van een time-out bij het opslaan met Aspose.CAD voor Java. In deze handleiding begeleiden we u bij het instellen van een time-out voor het opslaan van CAD-tekeningen om de prestaties van uw toepassing te verbeteren. Aspose.CAD voor Java is een krachtige bibliotheek waarmee u naadloos met CAD-bestanden in uw Java-toepassingen kunt werken.
@@ -131,3 +137,9 @@ A3: Ja, u kunt een gratis proefperiode krijgen van[deze link](https://releases.a
 ### Q5: Hulp nodig of vragen?
 
  A5: Ga naar de[Aspose.CAD-forum](https://forum.aspose.com/c/cad/19) voor gemeenschapssteun.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

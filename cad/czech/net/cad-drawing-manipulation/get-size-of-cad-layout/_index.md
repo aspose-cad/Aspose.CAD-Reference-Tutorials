@@ -3,10 +3,16 @@ title: Získejte velikost rozložení CAD v Aspose.CAD pro .NET
 linktitle: Získejte velikost rozložení CAD
 second_title: Aspose.CAD .NET – formát souborů CAD a BIM
 description: Naučte se, jak načíst velikost rozvržení CAD v .NET pomocí Aspose.CAD. Postupujte podle našeho podrobného průvodce pro efektivní manipulaci se soubory CAD.
-type: docs
 weight: 14
 url: /cs/net/cad-drawing-manipulation/get-size-of-cad-layout/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Získejte velikost rozložení CAD v Aspose.CAD pro .NET
+
 ## Úvod
 
 Vítejte v tomto komplexním průvodci o získání velikosti rozvržení CAD pomocí Aspose.CAD pro .NET. Aspose.CAD je výkonná knihovna, která umožňuje vývojářům bezproblémově pracovat se soubory CAD. V tomto tutoriálu vás provedeme procesem načítání velikosti rozvržení CAD pomocí praktických příkladů a podrobných pokynů.
@@ -143,3 +149,9 @@ A2: Rozhodně! Možnosti obrazu, jako je formát a rozlišení, můžete upravit
 ### Q5; Jak mohu získat technickou podporu?
 
  A5: Pro technickou podporu navštivte[Fórum Aspose.CAD](https://forum.aspose.com/c/cad/19).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

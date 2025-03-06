@@ -3,10 +3,16 @@ title: Rozkładanie obiektów wstawiania CAD - Przewodnik Aspose.CAD
 linktitle: Rozkładanie obiektów wstawiania CAD
 second_title: Aspose.CAD .NET - Format plików CAD i BIM
 description: Odkryj moc Aspose.CAD dla .NET dzięki naszemu przewodnikowi krok po kroku na temat rozkładania obiektów wstawek CAD.
-type: docs
 weight: 11
 url: /pl/net/cad-layouts-and-decomposition/decomposing-cad-insert-objects/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Rozkładanie obiektów wstawiania CAD - Przewodnik Aspose.CAD
+
 ## Wstęp
 
 dynamicznym świecie projektowania wspomaganego komputerowo (CAD) skuteczna manipulacja i analiza plików CAD mają kluczowe znaczenie dla profesjonalistów z różnych branż. Aspose.CAD dla .NET jawi się jako potężne rozwiązanie, zapewniające programistom narzędzia potrzebne do wydajnej pracy z plikami CAD w środowisku .NET.
@@ -100,3 +106,9 @@ Aby nabyć licencję dostosowaną do Twoich potrzeb, odwiedź stronę zakupu[Tut
 ### P5: Jak uzyskać tymczasową licencję na Aspose.CAD dla .NET?
 
  Jeśli potrzebujesz licencji tymczasowej, możesz znaleźć niezbędne informacje[Tutaj](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

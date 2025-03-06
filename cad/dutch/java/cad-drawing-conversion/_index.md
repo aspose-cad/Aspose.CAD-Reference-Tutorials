@@ -3,10 +3,16 @@ title: Conversie van CAD-tekeningen
 linktitle: Conversie van CAD-tekeningen
 second_title: Aspose.CAD Java-API
 description: Transformeer moeiteloos CAD-tekeningen met Aspose.CAD voor Java. Leer hoe u uw CAD-bestanden nauwkeurig kunt converteren, exporteren en optimaliseren met behulp van onze stapsgewijze zelfstudies.
-type: docs
 weight: 20
 url: /nl/java/cad-drawing-conversion/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Conversie van CAD-tekeningen
+
 
 ## Invoering
 
@@ -50,3 +56,9 @@ Ontdek het naadloze proces van het exporteren van DWG-bestanden naar PDF of rast
 Verken de stapsgewijze handleiding voor het exporteren van specifieke DWG-lay-outs naar PDF met Aspose.CAD voor Java. Optimaliseer uw CAD-workflow moeiteloos.
 ### [Converteer DWT naar DXF-indeling met Aspose.CAD voor Java](./convert-dwt-to-dxf/)
 Ontdek de naadloze conversie van DWT naar DXF met Aspose.CAD voor Java. Volg onze stapsgewijze handleiding voor efficiënte manipulatie van CAD-bestanden.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

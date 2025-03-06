@@ -3,10 +3,16 @@ title: सीएडी ड्राइंग रूपांतरण
 linktitle: सीएडी ड्राइंग रूपांतरण
 second_title: Aspose.CAD जावा एपीआई
 description: जावा के लिए Aspose.CAD के साथ आसानी से CAD चित्र बदलें। हमारे चरण-दर-चरण ट्यूटोरियल का उपयोग करके अपनी CAD फ़ाइलों को परिशुद्धता के साथ परिवर्तित करना, निर्यात करना और अनुकूलित करना सीखें।
-type: docs
 weight: 20
 url: /hi/java/cad-drawing-conversion/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# सीएडी ड्राइंग रूपांतरण
+
 
 ## परिचय
 
@@ -50,3 +56,9 @@ Aspose.CAD का उपयोग करके जावा में DWG फ़
 Java के लिए Aspose.CAD का उपयोग करके विशिष्ट DWG लेआउट को PDF में निर्यात करने के लिए चरण-दर-चरण मार्गदर्शिका देखें। अपने CAD वर्कफ़्लो को सहजता से अनुकूलित करें।
 ### [जावा के लिए Aspose.CAD का उपयोग करके DWT को DXF प्रारूप में बदलें](./convert-dwt-to-dxf/)
 जावा के लिए Aspose.CAD के साथ DWT से DXF में निर्बाध रूपांतरण का अन्वेषण करें। कुशल सीएडी फ़ाइल हेरफेर के लिए हमारी चरण-दर-चरण मार्गदर्शिका का पालन करें।
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

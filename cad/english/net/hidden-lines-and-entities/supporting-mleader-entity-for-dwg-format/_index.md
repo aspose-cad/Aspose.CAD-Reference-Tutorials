@@ -3,10 +3,16 @@ title: Supporting MLeader Entity for DWG Format - Aspose.CAD Guide
 linktitle: Supporting MLeader Entity for DWG Format
 second_title: Aspose.CAD .NET - CAD and BIM File Format
 description: Unlock the power of MLeader entities in DWG format with Aspose.CAD for .NET. Elevate your CAD projects effortlessly.
-type: docs
 weight: 11
 url: /net/hidden-lines-and-entities/supporting-mleader-entity-for-dwg-format/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Supporting MLeader Entity for DWG Format - Aspose.CAD Guide
+
 ## Introduction
 
 In the dynamic world of computer-aided design (CAD), staying ahead with the latest features and functionalities is crucial. One such feature is supporting MLeader entities in the DWG format. Aspose.CAD for .NET provides a powerful set of tools to handle this efficiently.
@@ -118,3 +124,10 @@ A4: For any queries or assistance, visit the [Aspose.CAD Forum](https://forum.as
 ### Q5: Can I try Aspose.CAD before making a purchase?
 
 A5: Yes, you can explore a [free trial](https://releases.aspose.com/) of Aspose.CAD to experience its capabilities before making a decision.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

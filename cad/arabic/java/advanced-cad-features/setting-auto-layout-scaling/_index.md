@@ -3,10 +3,16 @@ title: إعداد مقياس التخطيط التلقائي باستخدام As
 linktitle: ضبط مقياس التخطيط التلقائي
 second_title: Aspose.CAD جافا API
 description: قم بتحسين سير عمل CAD الخاص بك باستخدام Aspose.CAD لـ Java. يقدم هذا الدليل التفصيلي خطوة بخطوة Auto Layout Scaling، مما يضمن العرض الأمثل والكفاءة. قم بتنزيل المكتبة، واتبع البرنامج التعليمي، وأحدث ثورة في مشاريع التصميم بمساعدة الكمبيوتر (CAD).
-type: docs
 weight: 17
 url: /ar/java/advanced-cad-features/setting-auto-layout-scaling/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إعداد مقياس التخطيط التلقائي باستخدام Aspose.CAD لـ Java
+
 ## مقدمة
 
 في عالم التصميم بمساعدة الكمبيوتر (CAD) الديناميكي، تعد الكفاءة أمرًا أساسيًا. يوفر Aspose.CAD for Java مجموعة قوية من الأدوات لتحسين سير عمل CAD لديك. إحدى الميزات البارزة هي Auto Layout Scaling، وهي وظيفة تضمن تعديل تخطيطاتك بسلاسة للحصول على العرض الأمثل. في هذا البرنامج التعليمي، سنستكشف كيفية تنفيذ Auto Layout Scaling خطوة بخطوة باستخدام Aspose.CAD لـ Java.
@@ -93,3 +99,9 @@ A1: يدعم Aspose.CAD for Java تنسيقات CAD المتنوعة، بما ف
 ### س5: كيف يمكنني طلب المساعدة أو المشاركة في المناقشات حول Aspose.CAD لـ Java؟
 
 ج5: قم بزيارة[منتدى Aspose.CAD](https://forum.aspose.com/c/cad/19) للتواصل مع المجتمع وطلب الدعم.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

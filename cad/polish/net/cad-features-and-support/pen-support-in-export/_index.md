@@ -3,10 +3,16 @@ title: Ulepsz eksport CAD dzięki niestandardowym opcjom pióra w Aspose.CAD dla
 linktitle: Obsługa pióra w eksporcie
 second_title: Aspose.CAD .NET - Format plików CAD i BIM
 description: Dowiedz się, jak ulepszyć eksport obrazów CAD za pomocą Aspose.CAD dla .NET. Dostosuj opcje pióra, aby uzyskać oszałamiające efekty wizualne w plikach PDF, PNG, BMP i innych.
-type: docs
 weight: 12
 url: /pl/net/cad-features-and-support/pen-support-in-export/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ulepsz eksport CAD dzięki niestandardowym opcjom pióra w Aspose.CAD dla .NET
+
 ## Wstęp
 
 Aspose.CAD dla .NET zapewnia potężny zestaw narzędzi do pracy z plikami projektowania wspomaganego komputerowo (CAD), umożliwiając programistom płynną manipulację i eksportowanie obrazów CAD. Godną uwagi funkcją jest obsługa piór podczas eksportu, umożliwiająca użytkownikom dostosowywanie ustawień początku i zakończenia piór podczas eksportowania obrazów CAD do różnych formatów, takich jak PDF, PNG, BMP, GIF, JPEG2000, JPEG, PSD, TIFF i WMF.
@@ -119,3 +125,9 @@ Odpowiedź 1: Tak, opcje pióra można zastosować do różnych formatów obraz�
 ### P5: Gdzie mogę uzyskać wsparcie społeczności dla Aspose.CAD dla .NET?
 
  A5: Nawiąż kontakt ze społecznością na[Forum Aspose.CAD](https://forum.aspose.com/c/cad/19).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

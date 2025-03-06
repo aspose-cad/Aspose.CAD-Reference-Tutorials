@@ -3,10 +3,16 @@ title: Χειρισμός αρχείων CAD
 linktitle: Χειρισμός αρχείων CAD
 second_title: Aspose.CAD Java API
 description: Ξεκλειδώστε την ισχύ του αρχείου CAD με το Aspose.CAD για Java! Μετατρέψτε το DWFX σε PDF, αποκτήστε πρόσβαση σε σημαίες DWG, διατάξεις λιστών και αυτόματη προσαρμογή μεγεθών με τα σεμινάρια μας.
-type: docs
 weight: 23
 url: /el/java/cad-file-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Χειρισμός αρχείων CAD
+
 
 ## Εισαγωγή
 
@@ -44,3 +50,9 @@ url: /el/java/cad-file-manipulation/
 Εξερευνήστε την απρόσκοπτη διαδικασία αυτόματης προσαρμογής των μεγεθών σχεδίασης CAD σε Java χρησιμοποιώντας το Aspose.CAD. Ακολουθήστε τον βήμα προς βήμα οδηγό μας για αποτελεσματική διαχείριση αρχείων CAD.
 ### [Προσαρμογή μεγέθους σχεδίου CAD με χρήση Unit Type με Aspose.CAD για Java](./adjusting-cad-drawing-size-using-unit-type/)
 Εξερευνήστε τη δύναμη του Aspose.CAD για Java στην προσαρμογή των μεγεθών σχεδίασης CAD χωρίς κόπο. Ακολουθήστε τον βήμα προς βήμα οδηγό μας για ακρίβεια και προσαρμοστικότητα.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

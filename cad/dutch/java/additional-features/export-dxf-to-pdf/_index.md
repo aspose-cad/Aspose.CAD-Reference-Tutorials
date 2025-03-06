@@ -3,10 +3,16 @@ title: Exporteer DXF-tekeningen naar PDF met Aspose.CAD voor Java
 linktitle: Exporteer DXF-tekeningen naar PDF met Java
 second_title: Aspose.CAD Java-API
 description: Ontdek de naadloze conversie van DXF-tekeningen naar PDF in Java met Aspose.CAD. Verbeter uw CAD-workflow moeiteloos.
-type: docs
 weight: 13
 url: /nl/java/additional-features/export-dxf-to-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Exporteer DXF-tekeningen naar PDF met Aspose.CAD voor Java
+
 ## Invoering
 
 In de wereld van Java-ontwikkeling is Aspose.CAD een krachtig hulpmiddel dat naadloze manipulatie en conversie van CAD-tekeningen mogelijk maakt. In deze zelfstudie verdiepen we ons in het proces van het exporteren van DXF-tekeningen naar PDF met behulp van Aspose.CAD voor Java. Deze stapsgewijze handleiding leidt u door de hele procedure, zodat u elk concept grondig begrijpt.
@@ -102,3 +108,9 @@ Gefeliciteerd! U hebt met succes geleerd hoe u DXF-tekeningen naar PDF kunt expo
 ### Vraag 5: Hoe kan ik een tijdelijke licentie verkrijgen?
 
  A5: Verkrijg een[tijdelijke licentie](https://purchase.aspose.com/temporary-license/) voor test- en evaluatiedoeleinden.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

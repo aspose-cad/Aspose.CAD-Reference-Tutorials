@@ -3,10 +3,16 @@ title: Elevate CAD Export with Custom Pen Options in Aspose.CAD for .NET
 linktitle: Pen Support in Export
 second_title: Aspose.CAD .NET - CAD and BIM File Format
 description: Learn how to enhance your CAD image exports using Aspose.CAD for .NET. Customize pen options for stunning visuals in PDF, PNG, BMP, and more.
-type: docs
 weight: 12
 url: /net/cad-features-and-support/pen-support-in-export/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Elevate CAD Export with Custom Pen Options in Aspose.CAD for .NET
+
 ## Introduction
 
 Aspose.CAD for .NET provides a powerful set of tools for working with Computer-Aided Design (CAD) files, enabling developers to manipulate and export CAD images seamlessly. One notable feature is the pen support during export, allowing users to customize start and end cap settings for pens when exporting CAD images to various formats like PDF, PNG, BMP, GIF, JPEG2000, JPEG, PSD, TIFF, and WMF.
@@ -119,3 +125,10 @@ A4: Visit the [temporary license page](https://purchase.aspose.com/temporary-lic
 ### Q5: Where can I seek community support for Aspose.CAD for .NET?
 
 A5: Engage with the community on the [Aspose.CAD forum](https://forum.aspose.com/c/cad/19).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

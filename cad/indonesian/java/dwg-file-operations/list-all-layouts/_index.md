@@ -3,10 +3,16 @@ title: Daftar Semua Tata Letak di Gambar AutoCAD dengan Java
 linktitle: Daftar Semua Tata Letak di Gambar AutoCAD dengan Java
 second_title: Aspose.CAD Java API
 description: Jelajahi gambar AutoCAD dengan mudah di Java dengan Aspose.CAD. Buat daftar semua tata letak, ekstrak informasi berharga. Unduh sekarang untuk integrasi yang lancar!
-type: docs
 weight: 11
 url: /id/java/dwg-file-operations/list-all-layouts/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Daftar Semua Tata Letak di Gambar AutoCAD dengan Java
+
 ## Perkenalan
 
 Apakah Anda ingin membuka potensi penuh gambar AutoCAD di aplikasi Java Anda? Aspose.CAD untuk Java adalah solusi tepat Anda, menawarkan integrasi sempurna untuk memanipulasi dan mengekstrak informasi berharga dari file DWG dan DXF. Dalam panduan langkah demi langkah ini, kami akan memandu Anda melalui proses membuat daftar semua tata letak dalam gambar AutoCAD menggunakan Aspose.CAD untuk Java.
@@ -86,3 +92,9 @@ A3: Ya, Anda dapat menemukan contoh gambar di direktori "DWGDrawings" dalam pake
 ### Q5: Bisakah saya mencoba Aspose.CAD untuk Java sebelum membeli?
 
  A5: Tentu saja! Dapatkan uji coba gratis dari[Di Sini](https://releases.aspose.com/)dan rasakan kehebatan Aspose.CAD untuk Java.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

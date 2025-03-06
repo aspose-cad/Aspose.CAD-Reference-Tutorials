@@ -3,10 +3,16 @@ title: Edytuj hiperłącza DWG - samouczek Java Aspose.CAD
 linktitle: Edytuj hiperłącze
 second_title: Aspose.CAD API Java
 description: Zwiększ precyzję rysunków DWG dzięki Aspose.CAD dla Java. Bezproblemowo edytuj hiperłącza, zapewniając dokładne odniesienia. Wypróbuj bezpłatną wersję próbną już teraz!
-type: docs
 weight: 17
 url: /pl/java/other-cad-operations/edit-hyperlink/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Edytuj hiperłącza DWG - samouczek Java Aspose.CAD
+
 dzisiejszej erze cyfrowej sprawna obsługa rysunków DWG ma kluczowe znaczenie dla profesjonalistów z różnych branż. Aspose.CAD dla Java zapewnia potężne rozwiązanie do edycji hiperłączy w rysunkach DWG, zapewniając bezproblemową integrację i dostosowywanie. Ten przewodnik krok po kroku przeprowadzi Cię przez proces edycji hiperłączy przy użyciu Aspose.CAD dla Java.
 
 ## Wstęp
@@ -99,3 +105,9 @@ O1: Aspose.CAD dla Java obsługuje różne wersje rysunków DWG, zapewniając ko
 ### P5: Czy mogę uzyskać tymczasową licencję do celów testowych?
 
  Odpowiedź 5: Tak, możesz uzyskać licencję tymczasową[Tutaj](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

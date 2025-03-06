@@ -3,10 +3,16 @@ title: CAD Çizimlerine Nitelikler Ekleme - Aspose.CAD Eğitimi
 linktitle: CAD Çizimlerine Nitelikler Ekleme
 second_title: Aspose.CAD .NET - CAD ve BIM Dosya Formatı
 description: Aspose.CAD for .NET'i kullanarak CAD çizimlerinizi niteliklerle geliştirin. Sorunsuz entegrasyon için adım adım kılavuzumuzu izleyin.
-type: docs
 weight: 10
 url: /tr/net/attribute-and-property-management/adding-attributes-to-cad-drawings/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# CAD Çizimlerine Nitelikler Ekleme - Aspose.CAD Eğitimi
+
 ## giriiş
 
 Bilgisayar Destekli Tasarım (CAD) alanında çizimleri niteliklerle zenginleştirmek, ayrıntılı dokümantasyon ve etkili iletişim için çok önemli bir adımdır. Aspose.CAD for .NET, nitelikleri CAD çizimlerine sorunsuz bir şekilde entegre etmek için güçlü bir çözüm sunar. Bu eğitim, Aspose.CAD kullanarak CAD çizimlerine nitelik ekleme sürecinde size rehberlik edecek ve tasarımlarınıza gömülü bilgileri geliştirmenize olanak tanıyacak.
@@ -119,3 +125,9 @@ Cevap1: Aspose.CAD, DWG ve DXF dahil çeşitli CAD formatlarını destekleyerek 
 ### S5: Aspose.CAD için nasıl geçici lisans alabilirim?
 
  Cevap5: Geçici lisanslama seçenekleri için şu adresi ziyaret edin:[Burada](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

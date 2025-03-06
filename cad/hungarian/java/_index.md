@@ -1,12 +1,17 @@
 ---
 title: Átfogó oktatóanyagok és példák az Aspose.CAD for Java-hoz
 linktitle: Aspose.CAD for Java oktatóanyagok
-type: docs
 weight: 10
 url: /hu/java/
 description: Könnyedén javíthatja a CAD-készségeket az Aspose.CAD for Java segítségével. Fedezze fel az oktatóanyagokat a rajzkonverzióról, a szöveges megjegyzésekről, a fájlkezelésről, a speciális funkciókról, a licencelésről és még sok másról.
-is_root: true
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Átfogó oktatóanyagok és példák az Aspose.CAD for Java-hoz
+
 
 ## Bevezetés
 
@@ -77,3 +82,9 @@ Könnyedén exportálhat AutoCAD képeket, CAD elrendezéseket, IFC, STL fájlok
 Fedezze fel az Aspose.CAD for Java erejét DGN exportálási oktatóanyagainkkal. Tanuljon meg hatékony CAD-fájlkezelést, a DGN DWG részeként történő exportálásától a raszterképek egyszerű létrehozásáig.
 ### [Egyéb CAD műveletek](./other-cad-operations/)
 Ismerje meg az Aspose.CAD for Java lehetőségeit oktatóanyagainkkal. A DGN-elemek kezelésétől a vízjelek hozzáadásaig könnyedén fejlesztheti CAD-készségeit.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

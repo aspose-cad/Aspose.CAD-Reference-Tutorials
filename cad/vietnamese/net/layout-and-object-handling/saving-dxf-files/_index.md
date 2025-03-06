@@ -3,10 +3,16 @@ title: Lưu tệp DXF - Hướng dẫn Aspose.CAD
 linktitle: Lưu tệp DXF
 second_title: Aspose.CAD .NET - Định dạng tệp CAD và BIM
 description: Khám phá sức mạnh của Aspose.CAD cho .NET. Tìm hiểu cách lưu tệp DXF dễ dàng với hướng dẫn từng bước của chúng tôi.
-type: docs
 weight: 11
 url: /vi/net/layout-and-object-handling/saving-dxf-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Lưu tệp DXF - Hướng dẫn Aspose.CAD
+
 ## Giới thiệu
 
 Chào mừng bạn đến với hướng dẫn từng bước của chúng tôi về cách lưu tệp DXF bằng Aspose.CAD cho .NET! Nếu bạn là nhà phát triển đang tìm cách thao tác các tệp CAD một cách liền mạch thì bạn đã đến đúng nơi. Aspose.CAD cho .NET cung cấp các công cụ mạnh mẽ để làm việc với các định dạng CAD và trong hướng dẫn này, chúng tôi sẽ tập trung vào việc lưu tệp DXF. Vì vậy, hãy đi sâu vào!
@@ -82,3 +88,9 @@ Câu trả lời 1: Có, Aspose.CAD hỗ trợ nhiều định dạng CAD khác 
 ### Câu 5: Tôi có thể mua Aspose.CAD cho .NET không?
 
  A5: Chắc chắn rồi! Khám phá các lựa chọn mua hàng[đây](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: OLE Nesnelerini DWG Dosyalarından Dışa Aktarma - Aspose.CAD Eğitimi
 linktitle: OLE Nesnelerini DWG Dosyalarından Dışa Aktarma
 second_title: Aspose.CAD .NET - CAD ve BIM Dosya Formatı
 description: Aspose.CAD for .NET kullanarak OLE nesnelerini DWG dosyalarından dışa aktarmaya ilişkin adım adım kılavuzu keşfedin. CAD dosyası işleme becerilerinizi zahmetsizce geliştirin.
-type: docs
 weight: 12
 url: /tr/net/advanced-export-techniques/exporting-ole-objects-from-dwg/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OLE Nesnelerini DWG Dosyalarından Dışa Aktarma - Aspose.CAD Eğitimi
+
 ## giriiş
 
 OLE nesnelerini DWG dosyalarından kolaylıkla çıkarmak mı istiyorsunuz? Aspose.CAD for .NET, süreci sizin için kolaylaştırmak için burada. Bu öğreticide, OLE nesnelerini adım adım dışa aktarma konusunda size rehberlik ederek bu güçlü .NET kitaplığından en iyi şekilde yararlanmanızı sağlayacağız. 
@@ -98,3 +104,9 @@ A2: Kesinlikle! Öğreticide gösterildiği gibi, düzenler de dahil olmak üzer
 ### S5: Nasıl destek alabilirim veya toplulukla nasıl bağlantı kurabilirim?
 
  Cevap5: Destek ve topluluk katılımı için şu adresi ziyaret edin:[Aspose.CAD forumu](https://forum.aspose.com/c/cad/19).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: 從 DWG 檔案取得區塊屬性 - Aspose.CAD 教學課程
 linktitle: 從 DWG 檔案取得塊屬性
 second_title: Aspose.CAD .NET - CAD 和 BIM 檔案格式
 description: 使用 Aspose.CAD for .NET 釋放 CAD 檔案的潛力。輕鬆提取區塊屬性。
-type: docs
 weight: 10
 url: /zh-hant/net/image-manipulation-and-rendering/getting-block-attributes-from-dwg/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 從 DWG 檔案取得區塊屬性 - Aspose.CAD 教學課程
+
 ## 介紹
 
 在電腦輔助設計 (CAD) 的動態世界中，從 DWG 檔案中提取有價值的資訊對於許多應用程式至關重要。 Aspose.CAD for .NET 提供了一個強大的解決方案來有效地處理 CAD 檔案。在本教學中，我們將逐步深入研究使用 Aspose.CAD 從 DWG 檔案中擷取區塊屬性的過程。
@@ -93,3 +99,9 @@ A1：是的，Aspose.CAD支援各種CAD格式，包括DWG、DXF、DWT和DGN。
 ### Q5：在哪裡可以找到 Aspose.CAD for .NET 的文件？
 
  A5：參考綜合[文件](https://reference.aspose.com/cad/net/)取得詳細資訊和範例。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

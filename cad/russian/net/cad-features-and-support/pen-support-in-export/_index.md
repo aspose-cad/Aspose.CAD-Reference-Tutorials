@@ -3,10 +3,16 @@ title: Увеличьте возможности экспорта САПР с п
 linktitle: Поддержка пера при экспорте
 second_title: Aspose.CAD .NET — формат файлов CAD и BIM
 description: Узнайте, как улучшить экспорт изображений САПР с помощью Aspose.CAD для .NET. Настройте параметры пера для создания потрясающих изображений в PDF, PNG, BMP и других форматах.
-type: docs
 weight: 12
 url: /ru/net/cad-features-and-support/pen-support-in-export/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Увеличьте возможности экспорта САПР с помощью пользовательских параметров пера в Aspose.CAD для .NET
+
 ## Введение
 
 Aspose.CAD for .NET предоставляет мощный набор инструментов для работы с файлами автоматизированного проектирования (САПР), позволяя разработчикам беспрепятственно манипулировать и экспортировать изображения САПР. Одной из примечательных особенностей является поддержка пера во время экспорта, позволяющая пользователям настраивать параметры начала и конца перьев при экспорте изображений САПР в различные форматы, такие как PDF, PNG, BMP, GIF, JPEG2000, JPEG, PSD, TIFF и WMF.
@@ -119,3 +125,9 @@ cadImage.Save(MyDir + "9LHATT-A56_generated.pdf", pdfOptions);
 ### Вопрос 5: Где я могу получить поддержку сообщества по Aspose.CAD for .NET?
 
  Ответ 5: Взаимодействуйте с сообществом на[Форум Aspose.CAD](https://forum.aspose.com/c/cad/19).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Převod DWG do PDF shody - Aspose.CAD výukový program
 linktitle: Převod DWG do PDF vyhovujícího předpisům
 second_title: Aspose.CAD .NET – formát souborů CAD a BIM
 description: Převeďte DWG na vyhovující PDF pomocí Aspose.CAD pro .NET. Postupujte podle našeho návodu, kde najdete podrobné pokyny.
-type: docs
 weight: 13
 url: /cs/net/conversion-and-export/converting-dwg-to-compliance-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Převod DWG do PDF shody - Aspose.CAD výukový program
+
 ## Úvod
 
 Vítejte v našem podrobném tutoriálu o převodu souborů DWG do PDF s předpisy pomocí Aspose.CAD pro .NET. Aspose.CAD je výkonné rozhraní .NET API, které umožňuje vývojářům bez námahy pracovat s formáty souborů CAD. V tomto tutoriálu vás provedeme procesem převodu souboru DWG do PDF s předpisy s podrobnými příklady a vysvětleními.
@@ -113,3 +119,9 @@ A2: Ano, Aspose.CAD je kompatibilní s .NET Framework i .NET Core.
 ### Q5: Kde mohu získat podporu pro Aspose.CAD?
 
 A5: Navštivte[Fórum Aspose.CAD](https://forum.aspose.com/c/cad/19) pro jakékoli dotazy týkající se podpory.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

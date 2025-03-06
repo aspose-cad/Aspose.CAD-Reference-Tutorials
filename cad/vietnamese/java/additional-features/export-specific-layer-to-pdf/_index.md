@@ -3,10 +3,16 @@ title: Xuất lớp bản vẽ DXF cụ thể sang PDF bằng Aspose.CAD cho Jav
 linktitle: Xuất lớp bản vẽ DXF cụ thể sang PDF bằng Java
 second_title: API Java Aspose.CAD
 description: Dễ dàng xuất các lớp cụ thể từ bản vẽ DXF sang PDF bằng Aspose.CAD cho Java. Hãy làm theo hướng dẫn từng bước này để tích hợp liền mạch.
-type: docs
 weight: 18
 url: /vi/java/additional-features/export-specific-layer-to-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Xuất lớp bản vẽ DXF cụ thể sang PDF bằng Aspose.CAD cho Java
+
 ## Giới thiệu
 
 Trong lĩnh vực phát triển Java, Aspose.CAD nổi bật như một công cụ mạnh mẽ để làm việc với các tệp Thiết kế hỗ trợ máy tính (CAD). Trong số các tính năng linh hoạt của nó, khả năng xuất các lớp cụ thể từ bản vẽ DXF sang tệp PDF là một khả năng có giá trị. Hướng dẫn này sẽ hướng dẫn bạn thực hiện quy trình, cung cấp hướng dẫn từng bước để khai thác toàn bộ tiềm năng của Aspose.CAD cho Java.
@@ -104,3 +110,9 @@ Câu trả lời 4: Có, hãy đảm bảo bạn có giấy phép hợp lệ ho�
 ### Câu hỏi 5: Tôi có thể tìm kiếm sự hỗ trợ hoặc trợ giúp bổ sung ở đâu?
 
 A5: Tham quan[Diễn đàn Aspose.CAD](https://forum.aspose.com/c/cad/19) để được cộng đồng hỗ trợ và thảo luận.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

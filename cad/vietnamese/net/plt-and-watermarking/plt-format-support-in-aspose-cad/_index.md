@@ -3,10 +3,16 @@ title: Hỗ trợ định dạng PLT trong Aspose.CAD - Hướng dẫn toàn di�
 linktitle: Hỗ trợ định dạng PLT trong Aspose.CAD - Hướng dẫn
 second_title: Aspose.CAD .NET - Định dạng tệp CAD và BIM
 description: Khám phá hỗ trợ định dạng PLT liền mạch trong Aspose.CAD cho .NET. Làm theo hướng dẫn từng bước của chúng tôi để tích hợp tệp PLT vào ứng dụng .NET của bạn một cách dễ dàng.
-type: docs
 weight: 10
 url: /vi/net/plt-and-watermarking/plt-format-support-in-aspose-cad/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Hỗ trợ định dạng PLT trong Aspose.CAD - Hướng dẫn toàn diện
+
 ## Giới thiệu
 
 Chào mừng bạn đến với hướng dẫn chuyên sâu của chúng tôi về hỗ trợ định dạng PLT trong Aspose.CAD cho .NET! Nếu bạn là nhà phát triển muốn làm việc với các tệp PLT và khai thác sức mạnh của Aspose.CAD thì bạn đã đến đúng nơi. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn các bước thiết yếu, điều kiện tiên quyết và cung cấp các ví dụ chi tiết để đảm bảo bạn có thể tích hợp liền mạch hỗ trợ PLT vào các ứng dụng .NET của mình.
@@ -118,3 +124,9 @@ A2: Chắc chắn rồi! Như được hiển thị trong hướng dẫn, bạn 
 ### Câu hỏi 5: Làm cách nào để có được giấy phép tạm thời?
 
  Câu trả lời 5: Đối với giấy phép tạm thời, hãy truy cập[liên kết này](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

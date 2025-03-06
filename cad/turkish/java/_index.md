@@ -1,12 +1,17 @@
 ---
 title: Kapsamlı Eğitimler ve Aspose.CAD for Java Örnekleri
 linktitle: Java Eğitimleri için Aspose.CAD
-type: docs
 weight: 10
 url: /tr/java/
 description: Aspose.CAD for Java ile CAD becerilerinizi zahmetsizce geliştirin. Çizim dönüştürme, metin açıklaması, dosya işleme, gelişmiş özellikler, lisanslama ve daha fazlasına ilişkin eğitimleri keşfedin.
-is_root: true
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Kapsamlı Eğitimler ve Aspose.CAD for Java Örnekleri
+
 
 ## giriiş
 
@@ -77,3 +82,9 @@ Aspose.CAD for Java'yı kullanarak AutoCAD görüntülerini, CAD düzenlerini, I
 DGN Export Eğitimlerimiz ile Aspose.CAD for Java'nın gücünü ortaya çıkarın. DGN'yi DWG'nin bir parçası olarak dışa aktarmaktan taramalı görüntüleri zahmetsizce oluşturmaya kadar etkili CAD dosyası işlemeyi öğrenin.
 ### [Diğer CAD İşlemleri](./other-cad-operations/)
 Eğitimlerimizle Aspose.CAD for Java'nın potansiyelini ortaya çıkarın. DGN öğelerini kullanmaktan filigran eklemeye kadar CAD becerilerinizi zahmetsizce geliştirin.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

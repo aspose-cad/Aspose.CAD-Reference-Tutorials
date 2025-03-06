@@ -3,10 +3,16 @@ title: İhracat Teknikleri
 linktitle: İhracat Teknikleri
 second_title: Aspose.CAD .NET - CAD ve BIM Dosya Formatı
 description: Sorunsuz CAD geliştirme için Aspose.CAD eğitimlerini keşfedin. DXF dosyalarını zahmetsizce çeşitli formatlara aktarmak için etkili teknikleri öğrenin.
-type: docs
 weight: 32
 url: /tr/net/export-techniques/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# İhracat Teknikleri
+
 
 
 ## giriiş
@@ -49,3 +55,9 @@ DXF dosyalarını zahmetsizce PDF'ye aktarmak için bu adım adım kılavuzda As
 Aspose.CAD for .NET'in gücünü keşfedin. Bu adım adım eğitimle gömülü DGN dosyalarını zahmetsizce PDF'ye aktarmayı öğrenin.
 ### [Görüntüleri DXF Formatına Aktarma - Aspose.CAD Guide](./exporting-images-to-dxf-format/)
 Aspose.CAD for .NET'in gücünü keşfedin! Görüntüleri zahmetsizce DXF formatına aktarmayı öğrenin. CAD geliştirmenizi hassasiyet ve verimlilikle geliştirin.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

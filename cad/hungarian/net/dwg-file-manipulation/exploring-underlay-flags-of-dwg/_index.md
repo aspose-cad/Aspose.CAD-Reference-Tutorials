@@ -3,10 +3,16 @@ title: A DWG-fájlok alatti zászlóinak felfedezése – Aspose.CAD oktatóanya
 linktitle: A DWG fájlok alátétjelzőinek felfedezése
 second_title: Aspose.CAD .NET - CAD és BIM fájlformátum
 description: Fedezze fel az Aspose.CAD for .NET erejét a DWG fájlok alátétjelzőinek felfedezésében. Kövesse lépésenkénti útmutatónkat.
-type: docs
 weight: 13
 url: /hu/net/dwg-file-manipulation/exploring-underlay-flags-of-dwg/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# A DWG-fájlok alatti zászlóinak felfedezése – Aspose.CAD oktatóanyag
+
 ## Bevezetés
 
 Ha elmélyül a CAD-fájlok, különösen a DWG-fájlok bonyolult világában, és szeretné feltárni az alátétjelzők titkait, akkor jó helyen jár. Ez az oktatóanyag végigvezeti Önt a DWG-fájlok alatti jelzőtábláinak feltárásán a hatékony Aspose.CAD for .NET könyvtár használatával.
@@ -114,3 +120,10 @@ A4: Vásárolja meg a könyvtárat[itt](https://purchase.aspose.com/buy).
 ### 5. kérdés: Van ingyenes próbaverzió?
 
  5. válasz: Igen, hozzáférhet az ingyenes próbaverzióhoz[itt](https://releases.aspose.com/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

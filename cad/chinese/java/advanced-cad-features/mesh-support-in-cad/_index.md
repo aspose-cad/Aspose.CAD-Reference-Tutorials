@@ -3,10 +3,16 @@ title: Aspose.CAD for Java 的网格支持
 linktitle: CAD 中的网格支持
 second_title: Aspose.CAD Java API
 description: 使用 Aspose.CAD 探索 Java 应用程序中的网格支持。轻松将 CAD 文件转换为 PDF。
-type: docs
 weight: 12
 url: /zh/java/advanced-cad-features/mesh-support-in-cad/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.CAD for Java 的网格支持
+
 ## 介绍
 
 Aspose.CAD for Java 是一个功能强大的库，使开发人员能够在 Java 应用程序中无缝处理计算机辅助设计 (CAD) 文件。在本教程中，我们将探索 Aspose.CAD for Java 中的网格支持功能，允许您将带有网格的 CAD 文件转换为 PDF 格式。请按照下面的分步指南来利用该库的功能并增强您的 CAD 文件处理能力。
@@ -110,3 +116,9 @@ A4：是的，Aspose.CAD for Java 支持各种输出格式，包括 PNG、JPEG�
 ### Q5：我可以免费试用 Aspose.CAD for Java 吗？
 
  A5：是的，您可以探索 Aspose.CAD for Java 的免费试用版[这里](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

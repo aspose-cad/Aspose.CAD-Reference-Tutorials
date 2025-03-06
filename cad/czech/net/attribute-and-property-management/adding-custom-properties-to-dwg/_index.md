@@ -3,10 +3,16 @@ title: Přidání uživatelských vlastností do souborů DWG - Průvodce Aspose
 linktitle: Přidání uživatelských vlastností do souborů DWG
 second_title: Aspose.CAD .NET – formát souborů CAD a BIM
 description: Vylepšete své soubory DWG pomocí uživatelských vlastností pomocí Aspose.CAD for .NET. Postupujte podle našeho podrobného průvodce a bez námahy přidejte smysluplná metadata.
-type: docs
 weight: 11
 url: /cs/net/attribute-and-property-management/adding-custom-properties-to-dwg/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Přidání uživatelských vlastností do souborů DWG - Průvodce Aspose.CAD
+
 ## Úvod
 
 Vítejte v tomto komplexním průvodci přidáváním uživatelských vlastností do souborů DWG pomocí Aspose.CAD for .NET. Aspose.CAD je výkonná knihovna, která umožňuje vývojářům bezproblémově pracovat se soubory CAD. V tomto tutoriálu se zaměříme na lepší pochopení uživatelských vlastností a na to, jak je přidat do souborů DWG pomocí Aspose.CAD.
@@ -92,3 +98,9 @@ A4: I když neexistují žádná přísná omezení, je vhodné používat pro v
 ### Q5: Poskytuje Aspose.CAD podporu, pokud narazím na nějaké problémy?
 
  A5: Ano, můžete vyhledat pomoc na[Fórum Aspose.CAD](https://forum.aspose.com/c/cad/19) pro jakékoli technické dotazy nebo problémy.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

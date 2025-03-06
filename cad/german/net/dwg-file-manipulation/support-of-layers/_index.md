@@ -3,10 +3,16 @@ title: Umgang mit Ebenen in DWG-Dateien mit C# – Aspose.CAD-Tutorial
 linktitle: Umgang mit Ebenen in DWG-Dateien mit C#
 second_title: Aspose.CAD .NET – CAD- und BIM-Dateiformat
 description: Erfahren Sie, wie Sie Ebenen in DWG-Dateien mit C# mit Aspose.CAD für .NET verarbeiten. Schritt-für-Schritt-Anleitung für die effiziente Bearbeitung von CAD-Dateien.
-type: docs
 weight: 11
 url: /de/net/dwg-file-manipulation/support-of-layers/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Umgang mit Ebenen in DWG-Dateien mit C# – Aspose.CAD-Tutorial
+
 ## Einführung
 
 Willkommen zu unserem ausführlichen Tutorial zum Umgang mit Ebenen in DWG-Dateien mithilfe von C# mit Aspose.CAD für .NET. Aspose.CAD ist eine leistungsstarke Bibliothek, die Entwicklern die nahtlose Arbeit mit CAD-Dateiformaten ermöglicht. In diesem Tutorial führen wir Sie Schritt für Schritt durch den Umgang mit Ebenen in DWG-Dateien.
@@ -109,3 +115,9 @@ In diesem Tutorial haben wir den Prozess der Verarbeitung von Ebenen in DWG-Date
 ### F5: Welche Lizenzoptionen gibt es für Aspose.CAD?
 
  A5: Sie können sich über Lizenzoptionen und Kaufdetails informieren[Hier](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

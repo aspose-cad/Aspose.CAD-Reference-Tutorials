@@ -3,10 +3,16 @@ title: Podpora sítě s Aspose.CAD pro Javu
 linktitle: Podpora sítě v CAD
 second_title: Aspose.CAD Java API
 description: Prozkoumejte podporu sítě v aplikacích Java s Aspose.CAD. Převeďte soubory CAD do PDF bez námahy.
-type: docs
 weight: 12
 url: /cs/java/advanced-cad-features/mesh-support-in-cad/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Podpora sítě s Aspose.CAD pro Javu
+
 ## Úvod
 
 Aspose.CAD for Java je výkonná knihovna, která umožňuje vývojářům bezproblémově pracovat se soubory CAD (Computer-Aided Design) v aplikacích Java. V tomto tutoriálu prozkoumáme funkci podpory sítě v Aspose.CAD pro Java, která vám umožní převádět soubory CAD se sítěmi do formátu PDF. Chcete-li využít možnosti této knihovny a zlepšit práci se soubory CAD, postupujte podle níže uvedeného podrobného průvodce.
@@ -110,3 +116,9 @@ Odpověď 4: Ano, Aspose.CAD for Java podporuje různé výstupní formáty, vč
 ### Q5: Mohu vyzkoušet Aspose.CAD for Java zdarma?
 
  A5: Ano, můžete prozkoumat bezplatnou zkušební verzi Aspose.CAD pro Javu[tady](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: CAD Çizim Dönüşümü
 linktitle: CAD Çizim Dönüşümü
 second_title: Aspose.CAD Java API'si
 description: Aspose.CAD for Java ile CAD çizimlerini zahmetsizce dönüştürün. Adım adım eğitimlerimizi kullanarak CAD dosyalarınızı hassas bir şekilde dönüştürmeyi, dışa aktarmayı ve optimize etmeyi öğrenin.
-type: docs
 weight: 20
 url: /tr/java/cad-drawing-conversion/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# CAD Çizim Dönüşümü
+
 
 ## giriiş
 
@@ -50,3 +56,9 @@ Aspose.CAD'i kullanarak DWG dosyalarını PDF'ye veya Java'daki raster görünt�
 Aspose.CAD for Java kullanarak belirli DWG düzenlerini PDF'ye aktarmak için adım adım kılavuzu keşfedin. CAD iş akışınızı zahmetsizce optimize edin.
 ### [Aspose.CAD for Java'yı Kullanarak DWT'yi DXF Formatına Dönüştürün](./convert-dwt-to-dxf/)
 Aspose.CAD for Java ile DWT'nin DXF'ye sorunsuz dönüşümünü keşfedin. Verimli CAD dosyası manipülasyonu için adım adım kılavuzumuzu izleyin.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

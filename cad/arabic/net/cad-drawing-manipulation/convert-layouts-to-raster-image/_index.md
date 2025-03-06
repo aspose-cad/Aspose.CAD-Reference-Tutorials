@@ -3,10 +3,16 @@ title: تحويل التخطيطات إلى صورة نقطية في Aspose.CAD 
 linktitle: تحويل التخطيطات إلى صورة نقطية
 second_title: Aspose.CAD .NET - تنسيق ملف CAD وBIM
 description: قم بتحويل تخطيطات CAD بسهولة إلى صور نقطية باستخدام Aspose.CAD لـ .NET. عزز تطويرك من خلال إمكانات معالجة CAD القوية.
-type: docs
 weight: 12
 url: /ar/net/cad-drawing-manipulation/convert-layouts-to-raster-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تحويل التخطيطات إلى صورة نقطية في Aspose.CAD لـ .NET
+
 ## مقدمة
 
 هل تتطلع إلى تحويل التخطيطات بسهولة إلى صور نقطية في تطبيقات .NET الخاصة بك؟ لا مزيد من البحث! سيرشدك هذا الدليل خطوة بخطوة خلال العملية باستخدام Aspose.CAD for .NET، وهي مكتبة قوية تعمل على تبسيط مهام التصميم بمساعدة الكمبيوتر (CAD).
@@ -102,3 +108,9 @@ image.Save(outputFilePath, options);
 ### س5: أين يمكنني شراء ترخيص Aspose.CAD؟
 
  ج5: انتقل إلى[صفحة الشراء](https://purchase.aspose.com/buy) لشراء ترخيص وفتح الإمكانات الكاملة لـ Aspose.CAD.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

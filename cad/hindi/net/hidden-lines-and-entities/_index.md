@@ -3,10 +3,16 @@ title: छिपी हुई रेखाएँ और इकाइयाँ
 linktitle: छिपी हुई रेखाएँ और इकाइयाँ
 second_title: Aspose.CAD .NET - CAD और BIM फ़ाइल स्वरूप
 description: .NET के लिए Aspose.CAD के साथ DWG फ़ाइलों में छिपी हुई पंक्तियों को आसानी से अनलॉक करें। हमारे चरण-दर-चरण मार्गदर्शिका के साथ अपनी CAD परियोजनाओं को उन्नत करें।
-type: docs
 weight: 29
 url: /hi/net/hidden-lines-and-entities/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# छिपी हुई रेखाएँ और इकाइयाँ
+
 
 
 ## परिचय
@@ -39,3 +45,9 @@ url: /hi/net/hidden-lines-and-entities/
 .NET के लिए Aspose.CAD के साथ DWG फ़ाइलों में छिपी हुई पंक्तियों को आसानी से अनलॉक करें। निर्बाध एकीकरण के लिए हमारी चरण-दर-चरण मार्गदर्शिका का पालन करें।
 ### [DWG प्रारूप के लिए सहायक एमएलएडर इकाई - Aspose.CAD गाइड](./supporting-mleader-entity-for-dwg-format/)
 .NET के लिए Aspose.CAD के साथ DWG प्रारूप में MLeader संस्थाओं की शक्ति को अनलॉक करें। अपनी CAD परियोजनाओं को सहजता से उन्नत करें।
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

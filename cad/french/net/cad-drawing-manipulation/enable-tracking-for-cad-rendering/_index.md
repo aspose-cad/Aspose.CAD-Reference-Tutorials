@@ -3,10 +3,16 @@ title: Activer le suivi pour le rendu CAO dans Aspose.CAD pour .NET
 linktitle: Activer le suivi pour le rendu CAO
 second_title: Aspose.CAD .NET - Format de fichier CAO et BIM
 description: Découvrez la puissance d'Aspose.CAD pour .NET. Activez le suivi du rendu CAO de manière transparente. Suivez notre guide étape par étape pour un contrôle et une efficacité améliorés.
-type: docs
 weight: 13
 url: /fr/net/cad-drawing-manipulation/enable-tracking-for-cad-rendering/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Activer le suivi pour le rendu CAO dans Aspose.CAD pour .NET
+
 ## Introduction
 
 Dans le monde dynamique du développement de logiciels, Aspose.CAD for .NET s'impose comme une solution robuste pour le rendu de conception assistée par ordinateur (CAO). Cette puissante bibliothèque permet aux développeurs de créer, manipuler et restituer des fichiers CAO de manière transparente dans l'environnement .NET. Dans ce didacticiel, nous aborderons un aspect crucial d'Aspose.CAD pour .NET : l'activation du suivi pour le rendu CAO.
@@ -110,3 +116,9 @@ A2 : Absolument ! Aspose.CAD pour .NET s'intègre de manière transparente à di
 ### Q5 : Quels sont les avantages de l'activation du suivi dans le rendu CAO ?
 
 A5 : L'activation du suivi améliore la traçabilité et le contrôle pendant le processus de rendu, garantissant ainsi un flux de travail plus transparent et plus efficace.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

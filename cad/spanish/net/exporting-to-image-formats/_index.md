@@ -3,10 +3,16 @@ title: Exportar a formatos de imagen
 linktitle: Exportar a formatos de imagen
 second_title: Aspose.CAD .NET - Formato de archivo CAD y BIM
 description: Convierta archivos IFC a PNG sin esfuerzo con Aspose.CAD para .NET. Descubra el procesamiento y la descarga de archivos CAD sin interrupciones para una manipulación eficiente de los archivos.
-type: docs
 weight: 39
 url: /es/net/exporting-to-image-formats/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Exportar a formatos de imagen
+
 
 ## Introducción
 
@@ -30,3 +36,9 @@ En un mundo donde el diseño digital exige precisión y eficiencia, dominar el a
 Explore Aspose.CAD para .NET, una solución sólida para una conversión perfecta de IFC a PNG. Descárguelo ahora para un procesamiento eficiente de archivos CAD.
 ### [Exportación de archivos IGES a PDF - Guía Aspose.CAD](./exporting-iges-files-to-pdf/)
 Aprenda a exportar fácilmente archivos IGES a PDF utilizando Aspose.CAD para .NET. Siga nuestra guía paso a paso para una manipulación precisa de archivos CAD.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

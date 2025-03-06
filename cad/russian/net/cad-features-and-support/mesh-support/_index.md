@@ -3,10 +3,16 @@ title: Поддержка сетки в Aspose.CAD для .NET
 linktitle: Поддержка сетки
 second_title: Aspose.CAD .NET — формат файлов CAD и BIM
 description: Изучите поддержку сеток в Aspose.CAD для .NET с помощью нашего пошагового руководства. Легко конвертируйте файлы CAD в PDF.
-type: docs
 weight: 11
 url: /ru/net/cad-features-and-support/mesh-support/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Поддержка сетки в Aspose.CAD для .NET
+
 ## Введение
 
 Добро пожаловать в наше подробное руководство по использованию поддержки сеток в Aspose.CAD для .NET! Aspose.CAD — это мощная библиотека, обеспечивающая надежную функциональность для работы с файлами автоматизированного проектирования (САПР) в приложениях .NET. В этом руководстве мы сосредоточимся на использовании функции поддержки сетки для расширения возможностей обработки файлов САПР.
@@ -100,3 +106,9 @@ using (CadImage cadImage = (CadImage)Image.Load(sourceFilePath))
 ### Вопрос 5: Где я могу скачать последнюю версию Aspose.CAD для .NET?
 
  A5: Загрузите библиотеку с[страница выпуска](https://releases.aspose.com/cad/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

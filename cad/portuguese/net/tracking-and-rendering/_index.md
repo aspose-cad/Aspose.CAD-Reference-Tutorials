@@ -3,10 +3,16 @@ title: Rastreamento e renderização
 linktitle: Rastreamento e renderização
 second_title: Aspose.CAD .NET - Formato de arquivo CAD e BIM
 description: Desbloqueie o poder do Aspose.CAD for .NET com nossos tutoriais. Aprenda a ativar o rastreamento em arquivos CAD e renderizar arquivos DXF como PDF.
-type: docs
 weight: 31
 url: /pt/net/tracking-and-rendering/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Rastreamento e renderização
+
 
 ## Introdução
 
@@ -30,3 +36,9 @@ Embarque em uma aventura de aprendizado com nossa lista de tutoriais Aspose.CAD 
 Domine o rastreamento de arquivos CAD com Aspose.CAD para .NET. Siga nosso guia passo a passo para renderização precisa e rastreamento de erros. Baixe Agora!
 ### [Renderizando arquivos DXF como PDF - Guia Aspose.CAD](./rendering-dxf-files-as-pdf/)
 Explore o guia definitivo sobre renderização de arquivos DXF como PDF usando Aspose.CAD for .NET. Converta arquivos CAD sem esforço com nosso tutorial passo a passo.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

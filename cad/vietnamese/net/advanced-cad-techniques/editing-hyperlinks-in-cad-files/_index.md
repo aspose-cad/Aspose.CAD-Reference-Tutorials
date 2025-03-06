@@ -3,10 +3,16 @@ title: Chỉnh sửa siêu liên kết trong tệp CAD - Hướng dẫn Aspose.C
 linktitle: Chỉnh sửa siêu liên kết trong tệp CAD
 second_title: Aspose.CAD .NET - Định dạng tệp CAD và BIM
 description: Khám phá Aspose.CAD cho .NET và tìm hiểu cách chỉnh sửa siêu liên kết trong tệp CAD một cách dễ dàng. Nâng cao kỹ năng quản lý tệp CAD của bạn với hướng dẫn toàn diện này.
-type: docs
 weight: 14
 url: /vi/net/advanced-cad-techniques/editing-hyperlinks-in-cad-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Chỉnh sửa siêu liên kết trong tệp CAD - Hướng dẫn Aspose.CAD
+
 ## Giới thiệu
 
 Chào mừng bạn đến với hướng dẫn từng bước của chúng tôi về chỉnh sửa siêu liên kết trong tệp CAD bằng Aspose.CAD cho .NET. Aspose.CAD là một thư viện mạnh mẽ cho phép các nhà phát triển làm việc với các tệp CAD một cách liền mạch. Trong hướng dẫn này, chúng tôi sẽ tập trung vào nhiệm vụ cụ thể là chỉnh sửa siêu liên kết trong tệp CAD, trình bày cách sửa đổi và quản lý liên kết một cách hiệu quả.
@@ -103,3 +109,9 @@ Câu trả lời 1: Có, Aspose.CAD hỗ trợ nhiều định dạng CAD khác 
 ### Câu 5: Cần hỗ trợ hoặc có thắc mắc?
 
  A5: Truy cập diễn đàn hỗ trợ của chúng tôi[đây](https://forum.aspose.com/c/cad/19).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

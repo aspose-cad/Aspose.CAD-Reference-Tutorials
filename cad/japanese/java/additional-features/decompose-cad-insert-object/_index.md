@@ -3,10 +3,16 @@ title: Java で Aspose.CAD を使用して CAD を分解してオブジェクト
 linktitle: JavaでCAD挿入オブジェクトを分解する
 second_title: Aspose.CAD Java API
 description: Aspose.CAD を使用して Java で CAD 挿入オブジェクトを分解する方法をマスターします。効率的に処理するには、ステップバイステップのガイドに従ってください。 CAD 操作の世界に飛び込んでみましょう。
-type: docs
 weight: 11
 url: /ja/java/additional-features/decompose-cad-insert-object/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java で Aspose.CAD を使用して CAD を分解してオブジェクトを挿入する
+
 ## 導入
 
 Aspose.CAD for Java を使用して CAD 挿入オブジェクトを分解するための包括的なガイドへようこそ。このチュートリアルでは、CAD 挿入オブジェクトを構成パーツに分解するプロセスを説明し、シームレスな実装のためのステップバイステップのガイドを提供します。経験豊富な開発者であっても、Aspose.CAD を使い始めたばかりであっても、このチュートリアルでは、Java アプリケーションで CAD 挿入オブジェクトを効率的に処理するための知識を身につけることができます。
@@ -110,3 +116,9 @@ finally
 ### Q5: 練習用のサンプル図面はありますか?
 
 A5: はい、Aspose.CAD リソース内の「DXFDrawings」ディレクトリにサンプル図面があります。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

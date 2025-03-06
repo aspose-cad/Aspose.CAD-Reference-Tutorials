@@ -3,10 +3,16 @@ title: Obtenir la taille de la mise en page CAO dans Aspose.CAD pour .NET
 linktitle: Obtenir la taille de la mise en page CAO
 second_title: Aspose.CAD .NET - Format de fichier CAO et BIM
 description: Découvrez comment récupérer la taille de la mise en page CAO dans .NET à l'aide d'Aspose.CAD. Suivez notre guide étape par étape pour une manipulation efficace des fichiers CAO.
-type: docs
 weight: 14
 url: /fr/net/cad-drawing-manipulation/get-size-of-cad-layout/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Obtenir la taille de la mise en page CAO dans Aspose.CAD pour .NET
+
 ## Introduction
 
 Bienvenue dans ce guide complet sur l'obtention de la taille des mises en page CAO à l'aide d'Aspose.CAD pour .NET. Aspose.CAD est une bibliothèque puissante qui permet aux développeurs de travailler de manière transparente avec des fichiers CAO. Dans ce didacticiel, nous vous guiderons tout au long du processus de récupération de la taille des mises en page CAO à l'aide d'exemples pratiques et d'instructions étape par étape.
@@ -143,3 +149,9 @@ A2 : Absolument ! Vous pouvez ajuster les options d'image, telles que le format 
 ### Q5 ; Comment puis-je obtenir une assistance technique ?
 
  A5 : Pour obtenir une assistance technique, visitez le[Forum Aspose.CAD](https://forum.aspose.com/c/cad/19).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

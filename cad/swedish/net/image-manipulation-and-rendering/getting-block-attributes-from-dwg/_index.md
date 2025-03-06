@@ -3,10 +3,16 @@ title: Få blockattribut från DWG-filer - Aspose.CAD Tutorial
 linktitle: Få blockattribut från DWG-filer
 second_title: Aspose.CAD .NET - CAD- och BIM-filformat
 description: Lås upp potentialen för CAD-filer med Aspose.CAD för .NET. Extrahera blockattribut utan ansträngning.
-type: docs
 weight: 10
 url: /sv/net/image-manipulation-and-rendering/getting-block-attributes-from-dwg/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Få blockattribut från DWG-filer - Aspose.CAD Tutorial
+
 ## Introduktion
 
 den dynamiska världen av datorstödd design (CAD) är det avgörande för många applikationer att extrahera värdefull information från DWG-filer. Aspose.CAD för .NET tillhandahåller en kraftfull lösning för att effektivt arbeta med CAD-filer. I den här handledningen kommer vi att fördjupa oss i processen att hämta blockattribut från DWG-filer med Aspose.CAD, steg för steg.
@@ -93,3 +99,9 @@ S1: Ja, Aspose.CAD stöder olika CAD-format, inklusive DWG, DXF, DWT och DGN.
 ### F5: Var kan jag hitta dokumentationen för Aspose.CAD för .NET?
 
  A5: Se den omfattande[dokumentation](https://reference.aspose.com/cad/net/) för detaljerad information och exempel.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

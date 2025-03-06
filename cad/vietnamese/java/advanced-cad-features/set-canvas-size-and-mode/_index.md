@@ -3,10 +3,16 @@ title: Đặt kích thước và chế độ canvas
 linktitle: Đặt kích thước và chế độ canvas
 second_title: API Java Aspose.CAD
 description: Khám phá sức mạnh của Aspose.CAD cho Java với hướng dẫn từng bước của chúng tôi về cách đặt kích thước và chế độ canvas. Dễ dàng chuyển đổi tệp CAD sang định dạng PDF và TIFF.
-type: docs
 weight: 16
 url: /vi/java/advanced-cad-features/set-canvas-size-and-mode/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Đặt kích thước và chế độ canvas
+
 ## Giới thiệu
 
 Bạn đang muốn khai thác sức mạnh của Aspose.CAD cho Java để nâng cao quá trình chuyển đổi CAD của mình? Hướng dẫn toàn diện này sẽ hướng dẫn bạn các bước cài đặt kích thước và chế độ canvas bằng Aspose.CAD cho Java. Cho dù bạn là nhà phát triển dày dạn kinh nghiệm hay chỉ mới bắt đầu, hướng dẫn này sẽ cung cấp cho bạn thông tin chi tiết bạn cần.
@@ -126,3 +132,9 @@ Câu trả lời 1: Có, Aspose.CAD được thiết kế để tích hợp li�
 ### Câu hỏi 5: Làm cách nào để mua Aspose.CAD cho Java?
 
  A5: Mua sản phẩm[đây](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

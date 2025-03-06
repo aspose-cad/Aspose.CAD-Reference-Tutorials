@@ -3,10 +3,16 @@ title: PLT i znak wodny
 linktitle: PLT i znak wodny
 second_title: Aspose.CAD .NET - Format plików CAD i BIM
 description: Odblokuj potencjał formatu PLT z Aspose.CAD dla .NET. Dzięki naszym szczegółowym samouczkom z łatwością zintegrujesz pliki PLT ze swoimi aplikacjami.
-type: docs
 weight: 37
 url: /pl/net/plt-and-watermarking/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# PLT i znak wodny
+
 
 ## Wstęp
 
@@ -46,3 +52,9 @@ Podsumowując, dzięki Aspose.CAD dla .NET opanowanie obsługi formatu PLT i two
 Odkryj bezproblemową obsługę formatu PLT w Aspose.CAD dla .NET. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby bez wysiłku zintegrować pliki PLT z aplikacjami .NET.
 ### [Dodawanie znaków wodnych do rysunków CAD - Przewodnik Aspose.CAD](./adding-watermarks-to-cad-drawings/)
 Ulepsz swoje rysunki CAD za pomocą profesjonalnych znaków wodnych, korzystając z Aspose.CAD dla .NET. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby uzyskać spersonalizowane i wciągające projekty.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

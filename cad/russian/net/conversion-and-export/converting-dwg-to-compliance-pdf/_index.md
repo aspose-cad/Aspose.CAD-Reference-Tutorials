@@ -3,10 +3,16 @@ title: Преобразование DWG в соответствующий PDF - 
 linktitle: Преобразование DWG в соответствующий PDF
 second_title: Aspose.CAD .NET — формат файлов CAD и BIM
 description: Преобразуйте DWG в соответствующий PDF с помощью Aspose.CAD для .NET. Следуйте нашему руководству для получения пошаговых инструкций.
-type: docs
 weight: 13
 url: /ru/net/conversion-and-export/converting-dwg-to-compliance-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Преобразование DWG в соответствующий PDF - Учебное пособие по Aspose.CAD
+
 ## Введение
 
 Добро пожаловать в наше пошаговое руководство по преобразованию файлов DWG в соответствующий PDF с использованием Aspose.CAD для .NET. Aspose.CAD — это мощный .NET API, который позволяет разработчикам легко работать с форматами файлов САПР. В этом руководстве мы покажем вам процесс преобразования файла DWG в соответствующий PDF-файл с подробными примерами и пояснениями.
@@ -113,3 +119,9 @@ cadImage.Save(MyDir + "PDFA1_B.pdf", pdfOptions);
 ### Вопрос 5: Где я могу получить поддержку для Aspose.CAD?
 
 A5: Посетите[Форум Aspose.CAD](https://forum.aspose.com/c/cad/19) по любым вопросам, связанным с поддержкой.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

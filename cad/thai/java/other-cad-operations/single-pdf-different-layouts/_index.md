@@ -3,10 +3,16 @@ title: การสร้าง PDF แบบไดนามิกด้วย A
 linktitle: PDF เดียวที่มีเค้าโครงต่างกัน
 second_title: Aspose.CAD Java API
 description: สร้าง PDF ที่น่าทึ่งด้วยเลย์เอาต์ที่หลากหลายจากแบบร่าง CAD โดยใช้ Aspose.CAD สำหรับ Java การบูรณาการที่ง่ายดายและคุณสมบัติอันทรงพลังสำหรับนักพัฒนา Java
-type: docs
 weight: 16
 url: /th/java/other-cad-operations/single-pdf-different-layouts/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# การสร้าง PDF แบบไดนามิกด้วย Aspose.CAD สำหรับ Java
+
 ## การแนะนำ
 
 ยินดีต้อนรับสู่โลกของ Aspose.CAD สำหรับ Java ไลบรารีอันทรงพลังที่ช่วยให้นักพัฒนาสามารถจัดการแบบร่าง CAD ได้อย่างง่ายดาย ในบทช่วยสอนนี้ เราจะเจาะลึกเกี่ยวกับการสร้าง PDF ไฟล์เดียวที่มีเลย์เอาต์ที่แตกต่างกันโดยใช้ Aspose.CAD สำหรับ Java ไม่ว่าคุณจะเป็นนักพัฒนาที่มีประสบการณ์หรือเพิ่งเริ่มต้น คำแนะนำทีละขั้นตอนนี้จะแนะนำคุณตลอดกระบวนการ
@@ -103,3 +109,9 @@ cadImage.save(dataDir + "singlePDF_out.pdf", pdfOptions);
 ### คำถามที่ 5: ฉันจะซื้อเวอร์ชันเต็มได้ที่ไหน
 
 A5: ซื้อเวอร์ชันเต็มของ Aspose.CAD สำหรับ Java[ที่นี่](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: 跟踪和渲染
 linktitle: 跟踪和渲染
 second_title: Aspose.CAD .NET - CAD 和 BIM 文件格式
 description: 通过我们的教程解锁 Aspose.CAD for .NET 的强大功能。了解如何在 CAD 文件中启用跟踪并将 DXF 文件无缝渲染为 PDF。
-type: docs
 weight: 31
 url: /zh/net/tracking-and-rendering/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 跟踪和渲染
+
 
 ## 介绍
 
@@ -30,3 +36,9 @@ Aspose.CAD for .NET 提供了一个强大的平台，使您能够控制您的 CA
 使用 Aspose.CAD for .NET 掌握 CAD 文件跟踪。请按照我们的分步指南进行精确渲染和错误跟踪。现在下载！
 ### [将 DXF 文件渲染为 PDF - Aspose.CAD 指南](./rendering-dxf-files-as-pdf/)
 探索使用 Aspose.CAD for .NET 将 DXF 文件渲染为 PDF 的终极指南。通过我们的分步教程轻松转换 CAD 文件。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

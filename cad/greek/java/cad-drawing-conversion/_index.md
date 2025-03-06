@@ -3,10 +3,16 @@ title: Μετατροπή σχεδίου CAD
 linktitle: Μετατροπή σχεδίου CAD
 second_title: Aspose.CAD Java API
 description: Μεταμορφώστε τα σχέδια CAD χωρίς κόπο με το Aspose.CAD για Java. Μάθετε να μετατρέπετε, να εξάγετε και να βελτιστοποιείτε τα αρχεία CAD σας με ακρίβεια χρησιμοποιώντας τα βήμα προς βήμα σεμινάρια μας.
-type: docs
 weight: 20
 url: /el/java/cad-drawing-conversion/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Μετατροπή σχεδίου CAD
+
 
 ## Εισαγωγή
 
@@ -50,3 +56,9 @@ url: /el/java/cad-drawing-conversion/
 Εξερευνήστε τον οδηγό βήμα προς βήμα για την εξαγωγή συγκεκριμένων διατάξεων DWG σε PDF χρησιμοποιώντας το Aspose.CAD για Java. Βελτιστοποιήστε τη ροή εργασιών CAD χωρίς κόπο.
 ### [Μετατροπή DWT σε μορφή DXF χρησιμοποιώντας Aspose.CAD για Java](./convert-dwt-to-dxf/)
 Εξερευνήστε την απρόσκοπτη μετατροπή του DWT σε DXF με το Aspose.CAD για Java. Ακολουθήστε τον βήμα προς βήμα οδηγό μας για αποτελεσματική διαχείριση αρχείων CAD.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

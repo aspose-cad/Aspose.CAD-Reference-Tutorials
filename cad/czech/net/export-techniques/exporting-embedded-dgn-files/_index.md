@@ -3,10 +3,16 @@ title: Export vložených souborů DGN - Výukový program Aspose.CAD
 linktitle: Export vložených souborů DGN
 second_title: Aspose.CAD .NET – formát souborů CAD a BIM
 description: Prozkoumejte sílu Aspose.CAD pro .NET. Naučte se snadno exportovat vložené soubory DGN do PDF pomocí tohoto podrobného návodu.
-type: docs
 weight: 14
 url: /cs/net/export-techniques/exporting-embedded-dgn-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Export vložených souborů DGN - Výukový program Aspose.CAD
+
 ## Úvod
 
 dynamickém světě vývoje softwaru vyniká Aspose.CAD for .NET jako výkonný nástroj pro práci se soubory CAD (Computer-Aided Design). Tento tutoriál vás provede procesem exportu vložených souborů DGN pomocí Aspose.CAD for .NET. Ať už jste zkušený vývojář nebo zvědavý začátečník, tento podrobný průvodce vám pomůže efektivně využít možnosti Aspose.CAD.
@@ -98,3 +104,9 @@ A1: Aspose.CAD primárně podporuje .NET, ale Aspose poskytuje knihovny pro růz
 ### Q5: Potřebujete pomoc nebo se chcete zapojit do komunity?
 
 A5: Navštivte[Fórum Aspose.CAD](https://forum.aspose.com/c/cad/19) za podporu a diskuze.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

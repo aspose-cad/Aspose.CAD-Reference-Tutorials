@@ -3,10 +3,16 @@ title: CAD fájl manipuláció
 linktitle: CAD fájl manipuláció
 second_title: Aspose.CAD Java API
 description: Oldja fel a CAD-fájlok teljesítményét az Aspose.CAD for Java segítségével! A DWFX-et PDF-be konvertálhatja, elérheti a DWG-jelzőket, listák elrendezését és automatikusan beállíthatja a méreteket oktatóanyagainkkal.
-type: docs
 weight: 23
 url: /hu/java/cad-file-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# CAD fájl manipuláció
+
 
 ## Bevezetés
 
@@ -44,3 +50,9 @@ Fedezze fel az Aspose.CAD for Java alkalmazást, és könnyedén listázza ki az
 Fedezze fel a CAD rajzméretek automatikus beállításának zökkenőmentes folyamatát Java nyelven az Aspose.CAD segítségével. Kövesse lépésről lépésre útmutatónkat a hatékony CAD-fájlok kezeléséhez.
 ### [A CAD rajz méretének beállítása az egységtípus használatával az Aspose.CAD for Java segítségével](./adjusting-cad-drawing-size-using-unit-type/)
 Fedezze fel az Aspose.CAD for Java erejét a CAD rajzméretek könnyed beállításában. Kövesse lépésenkénti útmutatónkat a pontosság és az alkalmazkodóképesség érdekében.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: C#'ta DWG Dosyalarına Metin Ekleme - Aspose.CAD Eğitimi
 linktitle: C#'ta DWG Dosyalarına Metin Ekleme
 second_title: Aspose.CAD .NET - CAD ve BIM Dosya Formatı
 description: C# ve Aspose.CAD kullanarak DWG dosyalarına nasıl metin ekleyeceğinizi öğrenin. Sorunsuz entegrasyon için bu adım adım öğreticiyi izleyin. Kapsamlı rehberlik için Aspose.CAD belgelerini inceleyin.
-type: docs
 weight: 14
 url: /tr/net/dwg-file-manipulation/adding-text-to-dwg/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# C#'ta DWG Dosyalarına Metin Ekleme - Aspose.CAD Eğitimi
+
 ## giriiş
 
 Bilgisayar destekli tasarım (CAD) ve .NET geliştirmenin dinamik alanında Aspose.CAD, DWG dosyalarını işlemek için güçlü bir araç olarak öne çıkıyor. DWG dosyalarına metin eklemek yaygın bir gereksinimdir ve bu eğitimde bunu C# ve Aspose.CAD kullanarak nasıl başaracağımızı keşfedeceğiz.
@@ -125,3 +131,9 @@ Cevap2: Evet, eğitimde özetlenen işlemi tekrarlayarak bir DWG dosyasına bird
 ### S5: Nereden yardım isteyebilirim veya Aspose.CAD ile ilgili soruları tartışabilirim?
 
 A5: ziyaret edin[Aspose.CAD forumu](https://forum.aspose.com/c/cad/19)toplulukla bağlantı kurmak ve destek almak için.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

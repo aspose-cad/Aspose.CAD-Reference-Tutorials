@@ -3,10 +3,16 @@ title: تصدير ملفات PLT إلى PDF - دليل Aspose.CAD
 linktitle: تصدير ملفات PLT إلى PDF
 second_title: Aspose.CAD .NET - تنسيق ملف CAD وBIM
 description: قم بتحويل ملفات PLT إلى PDF بسهولة باستخدام Aspose.CAD لـ .NET. اتبع دليلنا خطوة بخطوة للحصول على تكامل سلس ونتائج موثوقة.
-type: docs
 weight: 11
 url: /ar/net/exporting-plt-files/exporting-plt-files-to-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تصدير ملفات PLT إلى PDF - دليل Aspose.CAD
+
 في المجال الديناميكي للتصميم بمساعدة الكمبيوتر (CAD)، تعد القدرة على تحويل ملفات PLT بسلاسة إلى تنسيق PDF مهارة قيمة. يعمل Aspose.CAD for .NET على تمكين المطورين من تحقيق هذه المهمة دون عناء. في هذا البرنامج التعليمي، سنتعرف على العملية خطوة بخطوة، مما يضمن الوضوح والفهم عند كل منعطف.
 
 ## المتطلبات الأساسية
@@ -114,3 +120,9 @@ cadImage.Save(MyDir + "50states.pdf", pdfOptions);
 ### س5: أين يمكنني العثور على الوثائق التفصيلية لـ Aspose.CAD لـ .NET؟
 
  ج5: راجع[وثائق Aspose.CAD](https://reference.aspose.com/cad/net/) للحصول على معلومات متعمقة.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

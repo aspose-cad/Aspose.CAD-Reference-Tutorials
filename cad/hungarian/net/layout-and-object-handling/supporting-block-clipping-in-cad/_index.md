@@ -3,10 +3,16 @@ title: Blokkvágás támogatása CAD-ben - Aspose.CAD oktatóanyag
 linktitle: Blokkvágás támogatása CAD-ban
 second_title: Aspose.CAD .NET - CAD és BIM fájlformátum
 description: Ismerje meg, hogyan valósíthat meg blokkvágást CAD-ben az Aspose.CAD for .NET használatával. Növelje tervezési képességeit ezzel a lépésről lépésre mutató oktatóanyaggal.
-type: docs
 weight: 12
 url: /hu/net/layout-and-object-handling/supporting-block-clipping-in-cad/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Blokkvágás támogatása CAD-ben - Aspose.CAD oktatóanyag
+
 ## Bevezetés
 
 Üdvözöljük az Aspose.CAD for .NET segítségével történő blokkvágás támogatásáról szóló átfogó oktatóanyagban. Az Aspose.CAD egy hatékony könyvtár, amely lehetővé teszi a fejlesztők számára, hogy zökkenőmentesen dolgozzanak CAD-fájlokkal .NET-alkalmazásaikban. Ebben az oktatóanyagban a blokkvágás megvalósítására összpontosítunk, amely a CAD-tervezés alapvető funkciója.
@@ -122,3 +128,9 @@ Gratulálunk! Sikeresen implementálta a blokkvágást a CAD-ben az Aspose.CAD f
 ### 5. kérdés: Használhatom az Aspose.CAD-et állandó licenc nélkül?
 
  V5: Igen, beszerezhet ideiglenes engedélyt[itt](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

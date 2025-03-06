@@ -3,10 +3,16 @@ title: Параметры экспорта САПР
 linktitle: Параметры экспорта САПР
 second_title: API Aspose.CAD Java
 description: Легко экспортируйте изображения AutoCAD, макеты CAD, файлы IFC, STL в PDF, BMP, PNG с помощью Aspose.CAD для Java. Упростите свой рабочий процесс с помощью наших пошаговых руководств.
-type: docs
 weight: 30
 url: /ru/java/cad-export-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Параметры экспорта САПР
+
 
 ## Введение
 
@@ -50,3 +56,9 @@ url: /ru/java/cad-export-options/
 Легко конвертируйте IFC в PNG с помощью Aspose.CAD для Java. Следуйте нашему пошаговому руководству.
 ### [Экспорт STL в PNG с помощью Aspose.CAD для Java](./export-stl-to-png/)
 Изучите простой процесс экспорта файлов STL в PNG на Java с помощью Aspose.CAD. Упростите свой рабочий процесс и улучшите свои проекты Java без особых усилий.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

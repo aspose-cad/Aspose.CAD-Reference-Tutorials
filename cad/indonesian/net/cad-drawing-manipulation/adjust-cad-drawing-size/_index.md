@@ -3,10 +3,16 @@ title: Menyesuaikan Ukuran Gambar CAD di Aspose.CAD untuk .NET
 linktitle: Menyesuaikan Ukuran Gambar CAD
 second_title: Aspose.CAD .NET - Format File CAD dan BIM
 description: Pelajari cara menyesuaikan ukuran gambar CAD dengan mudah di .NET menggunakan Aspose.CAD. Ikuti panduan langkah demi langkah kami untuk mengubah ukuran dengan lancar.
-type: docs
 weight: 10
 url: /id/net/cad-drawing-manipulation/adjust-cad-drawing-size/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Menyesuaikan Ukuran Gambar CAD di Aspose.CAD untuk .NET
+
 ## Perkenalan
 
 Apakah Anda ingin menyesuaikan ukuran gambar CAD di aplikasi .NET Anda dengan lancar? Aspose.CAD untuk .NET memberikan solusi tangguh, memungkinkan Anda menangani pengubahan ukuran gambar CAD dengan mudah. Dalam tutorial ini, kami akan memandu Anda melalui prosesnya, menguraikan setiap langkah untuk memastikan Anda memahami seluk-beluk mengubah ukuran gambar CAD menggunakan Aspose.CAD.
@@ -115,3 +121,9 @@ A2: Ya, Anda dapat mengubah ukuran beberapa tata letak dengan menyesuaikan larik
 ### Q5: Bagaimana cara mendapatkan lisensi sementara Aspose.CAD untuk .NET?
 
  A5: Dapatkan lisensi sementara untuk tujuan pengujian[Di Sini](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

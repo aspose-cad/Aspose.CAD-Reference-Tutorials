@@ -3,10 +3,16 @@ title: 내장된 DGN 파일 내보내기 - Aspose.CAD 튜토리얼
 linktitle: 포함된 DGN 파일 내보내기
 second_title: Aspose.CAD .NET - CAD 및 BIM 파일 형식
 description: .NET용 Aspose.CAD의 강력한 기능을 살펴보세요. 이 단계별 튜토리얼을 통해 포함된 DGN 파일을 PDF로 쉽게 내보내는 방법을 알아보세요.
-type: docs
 weight: 14
 url: /ko/net/export-techniques/exporting-embedded-dgn-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 내장된 DGN 파일 내보내기 - Aspose.CAD 튜토리얼
+
 ## 소개
 
 역동적인 소프트웨어 개발 세계에서 .NET용 Aspose.CAD는 CAD(Computer-Aided Design) 파일을 처리하기 위한 강력한 도구로 돋보입니다. 이 튜토리얼은 .NET용 Aspose.CAD를 사용하여 내장된 DGN 파일을 내보내는 과정을 안내합니다. 숙련된 개발자이든 호기심이 많은 초보자이든 이 단계별 가이드는 Aspose.CAD의 기능을 효과적으로 활용하는 데 도움이 될 것입니다.
@@ -98,3 +104,9 @@ A1: Aspose.CAD는 주로 .NET을 지원하지만 Aspose는 Java 및 Python을 �
 ### Q5: 도움이 필요하거나 커뮤니티에 참여하고 싶으십니까?
 
 A5: 다음을 방문하세요.[Aspose.CAD 포럼](https://forum.aspose.com/c/cad/19) 지원과 토론을 위해.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

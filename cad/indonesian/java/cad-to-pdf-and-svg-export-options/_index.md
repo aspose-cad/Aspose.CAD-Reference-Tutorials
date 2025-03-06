@@ -3,10 +3,16 @@ title: Opsi Ekspor CAD ke PDF dan SVG
 linktitle: Opsi Ekspor CAD ke PDF dan SVG
 second_title: Aspose.CAD Java API
 description: Buka kehebatan Aspose.CAD untuk Java dengan tutorial kami tentang opsi ekspor CAD ke PDF dan SVG. Kelola data CAD dengan mudah dan presisi serta mudah.
-type: docs
 weight: 22
 url: /id/java/cad-to-pdf-and-svg-export-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Opsi Ekspor CAD ke PDF dan SVG
+
 
 
 ## Perkenalan
@@ -38,3 +44,9 @@ Konversi gambar DWG dengan mudah ke file yang sesuai dengan PDF/A1a dan PDF/A1b 
 Buka potensi Aspose.CAD untuk Java dengan panduan langkah demi langkah kami dalam mengekspor gambar CAD ke SVG. Pelajari cara mengimpor namespace, mengonfigurasi opsi, dan mengintegrasikan Aspose.CAD dengan lancar ke dalam proyek Java Anda.
 ### [Konversi CFF ke PDF - Aspose.CAD untuk Tutorial Java](./cff-to-pdf-conversion/)
 Jelajahi konversi CFF ke PDF yang lancar dengan Aspose.CAD untuk Java. Langkah mudah, hasil dapat diandalkan.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

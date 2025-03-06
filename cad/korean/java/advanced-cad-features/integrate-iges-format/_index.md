@@ -3,10 +3,16 @@ title: IGES 형식 통합
 linktitle: IGES 형식 통합
 second_title: Aspose.CAD 자바 API
 description: Java용 Aspose.CAD와 IGES 형식의 원활한 통합을 살펴보세요. Aspose.CAD의 강력한 기능을 활용하여 CAD 개발 경험을 향상시키는 단계별 가이드를 따르십시오.
-type: docs
 weight: 11
 url: /ko/java/advanced-cad-features/integrate-iges-format/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# IGES 형식 통합
+
 ## 소개
 
 역동적인 CAD(Computer-Aided Design) 세계에서는 다양한 파일 형식을 통합하는 것이 무엇보다 중요합니다. 이 가이드에서는 Aspose.CAD for Java를 사용하여 IGES(Initial Graphics Exchange Spec) 형식의 원활한 통합에 대해 자세히 설명합니다. Aspose.CAD는 개발자가 CAD 파일을 쉽게 조작하고 변환할 수 있도록 지원하여 애플리케이션 개발 가능성의 세계를 열어줍니다.
@@ -88,3 +94,9 @@ A2: 물론이죠! 튜토리얼에 표시된 대로 특정 요구 사항에 맞�
 ### Q5: Aspose.CAD 라이선스는 어떻게 구매하나요?
 
  A5: Aspose.CAD 라이센스를 구매할 수 있습니다.[여기](https://purchase.aspose.com/buy) 도서관의 잠재력을 최대한 활용합니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

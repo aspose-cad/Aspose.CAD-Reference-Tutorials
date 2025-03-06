@@ -3,10 +3,16 @@ title: Настройка цветов фона и рисования в Aspose.
 linktitle: Установка цветов фона и рисования
 second_title: Aspose.CAD .NET — формат файлов CAD и BIM
 description: Освойте Aspose.CAD для .NET. Устанавливайте цвета фона и рисования без особых усилий. Следуйте нашему пошаговому руководству.
-type: docs
 weight: 15
 url: /ru/net/cad-features-and-support/setting-background-and-drawing-colors/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Настройка цветов фона и рисования в Aspose.CAD для .NET
+
 ## Введение
 
 В динамичном мире .NET-разработки Aspose.CAD становится мощным инструментом для обработки файлов автоматизированного проектирования (САПР). Если вы хотите улучшить свои навыки работы с чертежами САПР, это руководство — ваш путь. Мы углубимся в тонкости настройки цветов фона и рисования с помощью Aspose.CAD для .NET, предоставив вам пошаговое руководство, обеспечивающее ясность и эффективность.
@@ -108,3 +114,10 @@ image.Save(MyDir + "result_out.tiff", tiffOptions);
 ### Вопрос 5: Нужна помощь или вы хотите связаться с сообществом?
 
  A5: Посетите форум поддержки.[здесь](https://forum.aspose.com/c/cad/19).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

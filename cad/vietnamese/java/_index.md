@@ -1,12 +1,17 @@
 ---
 title: Hướng dẫn toàn diện và ví dụ về Aspose.CAD cho Java
 linktitle: Hướng dẫn Aspose.CAD cho Java
-type: docs
 weight: 10
 url: /vi/java/
 description: Dễ dàng nâng cao kỹ năng CAD với Aspose.CAD cho Java. Khám phá các hướng dẫn về chuyển đổi bản vẽ, chú thích văn bản, thao tác với tệp, các tính năng nâng cao, cấp phép, v.v.
-is_root: true
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Hướng dẫn toàn diện và ví dụ về Aspose.CAD cho Java
+
 
 ## Giới thiệu
 
@@ -77,3 +82,9 @@ Dễ dàng xuất hình ảnh AutoCAD, bố cục CAD, tệp IFC, STL sang PDF, 
 Khai phá sức mạnh của Aspose.CAD cho Java bằng Hướng dẫn xuất DGN của chúng tôi. Tìm hiểu cách thao tác tệp CAD hiệu quả, từ xuất DGN như một phần của DWG đến tạo hình ảnh raster một cách dễ dàng.
 ### [Các hoạt động CAD khác](./other-cad-operations/)
 Khai phá tiềm năng của Aspose.CAD cho Java bằng các hướng dẫn của chúng tôi. Từ việc xử lý các phần tử DGN đến thêm hình mờ, hãy nâng cao kỹ năng CAD của bạn một cách dễ dàng.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

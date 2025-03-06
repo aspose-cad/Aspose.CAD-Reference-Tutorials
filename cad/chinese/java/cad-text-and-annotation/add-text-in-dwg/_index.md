@@ -3,10 +3,16 @@ title: 使用 Aspose.CAD for Java 在 DWG 中添加文本
 linktitle: 在 DWG 中添加文本
 second_title: Aspose.CAD Java API
 description: 使用 Aspose.CAD for Java 轻松增强您的 DWG 绘图。使用我们的分步指南无缝添加文本。
-type: docs
 weight: 10
 url: /zh/java/cad-text-and-annotation/add-text-in-dwg/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.CAD for Java 在 DWG 中添加文本
+
 ## 介绍
 
 在计算机辅助设计 (CAD) 领域，Aspose.CAD for Java 作为操作和转换 DWG 绘图的强大工具脱颖而出。其方便的功能之一是能够将文本无缝添加到 DWG 文件中。在本教程中，我们将指导您完成使用 Aspose.CAD for Java 将文本添加到 DWG 绘图的过程。
@@ -122,3 +128,9 @@ A4：参考文档[这里](https://reference.aspose.com/cad/java/)获取深入的
 ### Q5：我如何获得 Aspose.CAD 的支持或寻求帮助？
 
 A5：访问[Aspose.CAD论坛](https://forum.aspose.com/c/cad/19)获得帮助并与社区建立联系。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Aspose.CAD for Java Kullanarak PDF'ye Uyumluluk Sağlamak için DWG
 linktitle: DWG'den Uyumluluk PDF'sine
 second_title: Aspose.CAD Java API'si
 description: Aspose.CAD for Java'yı kullanarak DWG çizimlerini zahmetsizce PDF/A1a ve PDF/A1b uyumlu dosyalara dönüştürün. İş akışınızı hassasiyetle ve kolaylıkla kolaylaştırın.
-type: docs
 weight: 11
 url: /tr/java/cad-to-pdf-and-svg-export-options/dwg-to-compliance-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.CAD for Java Kullanarak PDF'ye Uyumluluk Sağlamak için DWG
+
 ## giriiş
 
 Sürekli gelişen dijital tasarım dünyasında, DWG çizimlerini uyumlu PDF formatlarına dönüştürme ihtiyacı, kusursuz işbirliği ve standartlaştırılmış dokümantasyon için çok önemlidir. Aspose.CAD for Java, bu süreçte verimlilik ve hassasiyet sunan güçlü bir araç olarak karşımıza çıkıyor. Bu eğitimde, DWG dosyalarını zahmetsizce uyumlu PDF'lere dönüştürmek ve PDF/A1a ve PDF/A1b standartlarına uyumu sağlamak için Aspose.CAD for Java'yı nasıl kullanabileceğimizi keşfedeceğiz.
@@ -111,3 +117,9 @@ A2: Kesinlikle! Aspose.CAD, PDF çıktısını özel gereksinimlerinize göre uy
 ### S5: Satın almadan önce Aspose.CAD'i ücretsiz deneyebilir miyim?
 
  A5: Kesinlikle! Ücretsiz deneme sürümünü şuradan indirin:[Burada](https://releases.aspose.com/) Bir karar vermeden önce yetenekleri keşfetmek.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

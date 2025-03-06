@@ -3,10 +3,16 @@ title: Export souborů PLT
 linktitle: Export souborů PLT
 second_title: Aspose.CAD .NET – formát souborů CAD a BIM
 description: Snadno převádějte PLT soubory na obrázky a PDF pomocí Aspose.CAD pro .NET. Prozkoumejte bezproblémovou integraci a flexibilní možnosti pro manipulaci se soubory CAD.
-type: docs
 weight: 41
 url: /cs/net/exporting-plt-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Export souborů PLT
+
 
 ## Úvod
 
@@ -38,3 +44,9 @@ Závěrem lze říci, že export souborů PLT do obrázků a PDF nebyl nikdy tak
 Bez námahy převádějte soubory PLT na obrázky pomocí Aspose.CAD for .NET. Prozkoumejte flexibilní možnosti a bezproblémovou integraci pro potřeby manipulace se soubory CAD.
 ### [Export souborů PLT do PDF - Průvodce Aspose.CAD](./exporting-plt-files-to-pdf/)
 Bez námahy převádějte soubory PLT do PDF pomocí Aspose.CAD pro .NET. Postupujte podle našeho podrobného průvodce pro bezproblémovou integraci a spolehlivé výsledky.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

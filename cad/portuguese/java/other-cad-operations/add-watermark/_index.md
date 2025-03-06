@@ -3,10 +3,16 @@ title: Adicionar marcas d'água a desenhos CAD - Tutorial Aspose.CAD para Java
 linktitle: Adicione uma Marca D'água
 second_title: API Java Aspose.CAD
 description: Aprimore seus desenhos CAD com marcas d’água personalizadas usando Aspose.CAD para Java. Siga nosso guia passo a passo para uma integração perfeita.
-type: docs
 weight: 12
 url: /pt/java/other-cad-operations/add-watermark/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Adicionar marcas d'água a desenhos CAD - Tutorial Aspose.CAD para Java
+
 ## Introdução
 
 Bem-vindo a este guia completo sobre como adicionar marcas d'água a desenhos CAD usando Aspose.CAD for Java. Neste tutorial, você aprenderá como integrar marcas d'água de forma eficiente, aprimorando seus documentos CAD com mensagens ou marcas personalizadas. Aspose.CAD for Java fornece um poderoso conjunto de recursos, tornando o processo de adição de marca d'água simples.
@@ -99,3 +105,9 @@ R2: Sim, você tem controle total sobre a aparência da marca d'água, incluindo
 ### Q5: Onde posso encontrar a documentação completa do Aspose.CAD for Java?
 
  A5: Consulte o[documentação](https://reference.aspose.com/cad/java/) para obter informações detalhadas.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

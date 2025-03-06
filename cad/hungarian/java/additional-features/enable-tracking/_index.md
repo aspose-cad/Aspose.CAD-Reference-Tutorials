@@ -3,10 +3,16 @@ title: Nyomon követés engedélyezése DWG-fájlokban az Aspose.CAD használat�
 linktitle: Nyomkövetés engedélyezése a DWG-fájlokban Java használatával
 second_title: Aspose.CAD Java API
 description: Fedezze fel a lépésről lépésre szóló útmutatót a DWG-fájlok nyomon követésének engedélyezéséről Java nyelven az Aspose.CAD használatával, biztosítva a zökkenőmentes együttműködést a CAD-projektekben.
-type: docs
 weight: 12
 url: /hu/java/additional-features/enable-tracking/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Nyomon követés engedélyezése DWG-fájlokban az Aspose.CAD használatával Java nyelven
+
 ## Bevezetés
 
 A számítógéppel támogatott tervezés (CAD) területén az Aspose.CAD for Java hatékony eszközként tűnik fel, amely felhatalmazza a fejlesztőket a CAD-fájlok egyszerű manipulálására és konvertálására. Ez az oktatóanyag az Aspose.CAD for Java egy specifikus funkciójával foglalkozik, amely lehetővé teszi a nyomkövetést DWG-fájlokban. A DWG-fájlok változásainak nyomon követése kulcsfontosságú az együttműködésen alapuló tervezési projektekben, biztosítva a zökkenőmentes kommunikációt és a hatékony munkafolyamatot. Ebben az útmutatóban végigvezetjük a Java segítségével történő nyomon követés engedélyezésének lépéseit, kihasználva az Aspose.CAD képességeit.
@@ -123,3 +129,9 @@ A nyomkövetés engedélyezése a DWG-fájlokban az Aspose.CAD for Java használ
 ### 5. kérdés: Hogyan szerezhetek ideiglenes licencet az Aspose.CAD for Java számára?
 
  5. válasz: Kövesse a címen vázolt folyamatot[Ideiglenes jogosítvány](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: 在 CAD 檔案中渲染顏色 - Aspose.CAD 指南
 linktitle: 在 CAD 檔案中渲染顏色
 second_title: Aspose.CAD .NET - CAD 和 BIM 檔案格式
 description: 使用 Aspose.CAD 掌握 .NET 中 CAD 檔案渲染。按照我們的分步指南獲得鮮豔的色彩。
-type: docs
 weight: 10
 url: /zh-hant/net/conversion-and-export/rendering-colors-in-cad-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 CAD 檔案中渲染顏色 - Aspose.CAD 指南
+
 ## 介紹
 
 您是否正在應對使用 .NET 在 CAD 檔案中渲染顏色的挑戰？別再猶豫了！在這份綜合指南中，我們將引導您使用強大的 Aspose.CAD 函式庫逐步完成流程。學完本教學後，您將掌握在 CAD 檔案中輕鬆渲染顏色的知識。
@@ -108,3 +114,9 @@ A2：參考文檔[這裡](https://reference.aspose.com/cad/net/)有關 Aspose.CA
 ### Q5：哪裡可以購買Aspose.CAD庫？
 
  A5：購買Aspose.CAD[這裡](https://purchase.aspose.com/buy)釋放其全部潛力。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

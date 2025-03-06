@@ -3,10 +3,16 @@ title: Διατάξεις και αποσύνθεση CAD
 linktitle: Διατάξεις και αποσύνθεση CAD
 second_title: Aspose.CAD .NET - Μορφή αρχείου CAD και BIM
 description: Ξεκλειδώστε τις δυνατότητες των διατάξεων CAD με το Aspose.CAD για .NET! Μετατρέψτε εύκολα σχέδια σε PDF χρησιμοποιώντας τον οδηγό μας. Κύρια αποσύνθεση των αντικειμένων εισαγωγής χωρίς κόπο.
-type: docs
 weight: 34
 url: /el/net/cad-layouts-and-decomposition/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Διατάξεις και αποσύνθεση CAD
+
 
 
 
@@ -59,3 +65,9 @@ url: /el/net/cad-layouts-and-decomposition/
 Μετατρέψτε τις διατάξεις CAD σε PDF χωρίς κόπο με το Aspose.CAD για .NET. Ακολουθήστε τον βήμα προς βήμα οδηγό μας για απρόσκοπτη ενσωμάτωση.
 ### [Αποσύνθεση αντικειμένων εισαγωγής CAD - Οδηγός Aspose.CAD](./decomposing-cad-insert-objects/)
 Εξερευνήστε τη δύναμη του Aspose.CAD για .NET με τον βήμα προς βήμα οδηγό μας για την αποσύνθεση αντικειμένων εισαγωγής CAD.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

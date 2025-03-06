@@ -3,10 +3,16 @@ title: CAD-elrendezések exportálása PDF-be az Aspose.CAD for Java segítség�
 linktitle: CAD-elrendezések exportálása PDF-be
 second_title: Aspose.CAD Java API
 description: Fedezze fel az Aspose.CAD for Java alkalmazást, amellyel könnyedén exportálhatja a CAD-elrendezéseket PDF-be. Hatékony, megbízható és fejlesztőbarát.
-type: docs
 weight: 11
 url: /hu/java/cad-export-options/export-cad-layouts-to-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# CAD-elrendezések exportálása PDF-be az Aspose.CAD for Java segítségével
+
 ## Bevezetés
 
 A számítógéppel segített tervezés (CAD) folyamatosan fejlődő területén az Aspose.CAD for Java a CAD-fájlok kezelésének és konvertálásának hatékony eszközeként tűnik ki. Ebben az oktatóanyagban végigvezetjük a CAD-elrendezések PDF formátumba történő exportálásán az Aspose.CAD for Java segítségével. Akár tapasztalt fejlesztő, akár csak belemerül a CAD világába, ez a részletes útmutató segít a sokoldalú Java-könyvtárban rejlő lehetőségek teljes kihasználásában.
@@ -107,3 +113,9 @@ A4: Az automatikus elrendezés méretezése a megadott oldalméretek alapján á
 ### 5. kérdés: Testreszabhatom az exportált PDF-fájlok megjelenését?
 
 5. válasz: Igen, testreszabhatja a kód grafikus beállításait az exportált PDF minőségének és megjelenésének szabályozásához.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

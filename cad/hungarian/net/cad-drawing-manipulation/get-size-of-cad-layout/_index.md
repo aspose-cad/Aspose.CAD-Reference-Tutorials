@@ -3,10 +3,16 @@ title: Szerezze be a CAD-elrendezés méretét az Aspose.CAD-ben .NET-hez
 linktitle: Szerezze meg a CAD-elrendezés méretét
 second_title: Aspose.CAD .NET - CAD és BIM fájlformátum
 description: Ismerje meg, hogyan kérheti le a CAD-elrendezés méretét .NET-ben az Aspose.CAD használatával. Kövesse lépésről lépésre útmutatónkat a hatékony CAD-fájlok kezeléséhez.
-type: docs
 weight: 14
 url: /hu/net/cad-drawing-manipulation/get-size-of-cad-layout/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Szerezze be a CAD-elrendezés méretét az Aspose.CAD-ben .NET-hez
+
 ## Bevezetés
 
 Üdvözöljük ebben az átfogó útmutatóban a CAD-elrendezések méretének meghatározásáról az Aspose.CAD for .NET használatával. Az Aspose.CAD egy hatékony könyvtár, amely lehetővé teszi a fejlesztők számára, hogy zökkenőmentesen dolgozzanak CAD fájlokkal. Ebben az oktatóanyagban gyakorlati példák és lépésenkénti utasítások segítségével végigvezetjük a CAD-elrendezések méretének lekérésének folyamatán.
@@ -143,3 +149,9 @@ A2: Abszolút! Beállíthatja a képbeállításokat, például a formátumot é
 ### Q5; Hogyan kaphatok műszaki támogatást?
 
  5. válasz: Technikai támogatásért keresse fel a[Aspose.CAD fórum](https://forum.aspose.com/c/cad/19).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

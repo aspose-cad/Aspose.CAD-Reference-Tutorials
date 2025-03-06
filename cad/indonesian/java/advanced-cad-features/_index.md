@@ -3,10 +3,16 @@ title: Fitur CAD Tingkat Lanjut
 linktitle: Fitur CAD Tingkat Lanjut
 second_title: Aspose.CAD Java API
 description: Tingkatkan pengembangan CAD Anda dengan tutorial Aspose.CAD untuk Java. Pelajari cara mengaktifkan pelacakan, mengintegrasikan format IGES, dukungan master mesh, menyesuaikan ekspor pena, membaca file DWT, dan banyak lagi.
-type: docs
 weight: 24
 url: /id/java/advanced-cad-features/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Fitur CAD Tingkat Lanjut
+
 
 ## Perkenalan
 
@@ -66,3 +72,9 @@ Tingkatkan alur kerja CAD Anda dengan Aspose.CAD untuk Java. Panduan langkah dem
 Dukungan lapisan master dalam pengembangan Java CAD dengan Aspose.CAD. Atur dan ekspor gambar dengan mudah.
 ### [Ekstrak Nilai Atribut Blok dari Referensi Eksternal Menggunakan Aspose.CAD Di Java](./extract-block-attribute-value/)
 Jelajahi tutorial kami tentang mengekstraksi nilai atribut blok dari referensi eksternal DWG di Java menggunakan Aspose.CAD. Tingkatkan alur kerja pengembangan CAD Anda dengan mudah.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

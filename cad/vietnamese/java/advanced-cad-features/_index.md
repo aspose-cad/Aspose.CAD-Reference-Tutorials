@@ -3,10 +3,16 @@ title: Tính năng CAD nâng cao
 linktitle: Tính năng CAD nâng cao
 second_title: API Java Aspose.CAD
 description: Nâng cao khả năng phát triển CAD của bạn với các hướng dẫn Aspose.CAD cho Java. Tìm hiểu cách bật theo dõi, tích hợp định dạng IGES, hỗ trợ lưới chính, tùy chỉnh xuất bút, đọc tệp DWT, v.v.
-type: docs
 weight: 24
 url: /vi/java/advanced-cad-features/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tính năng CAD nâng cao
+
 
 ## Giới thiệu
 
@@ -66,3 +72,9 @@ Nâng cao quy trình làm việc CAD của bạn với Aspose.CAD cho Java. Hư�
 Hỗ trợ lớp chính trong phát triển Java CAD với Aspose.CAD. Sắp xếp và xuất bản vẽ dễ dàng.
 ### [Trích xuất giá trị thuộc tính khối từ tham chiếu bên ngoài bằng Aspose.CAD trong Java](./extract-block-attribute-value/)
 Khám phá hướng dẫn của chúng tôi về cách trích xuất các giá trị thuộc tính khối từ các tham chiếu bên ngoài DWG trong Java bằng Aspose.CAD. Nâng cao quy trình phát triển CAD của bạn một cách dễ dàng.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

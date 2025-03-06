@@ -3,10 +3,16 @@ title: Aspose.CAD for .NET のカスタム ペン オプションを使用して
 linktitle: エクスポート時のペンのサポート
 second_title: Aspose.CAD .NET - CAD および BIM ファイル形式
 description: Aspose.CAD for .NET を使用して CAD イメージのエクスポートを強化する方法を学びます。ペン オプションをカスタマイズして、PDF、PNG、BMP などの美しいビジュアルを実現します。
-type: docs
 weight: 12
 url: /ja/net/cad-features-and-support/pen-support-in-export/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.CAD for .NET のカスタム ペン オプションを使用して CAD エクスポートを強化する
+
 ## 導入
 
 Aspose.CAD for .NET は、コンピュータ支援設計 (CAD) ファイルを操作するための強力なツール セットを提供し、開発者が CAD イメージをシームレスに操作およびエクスポートできるようにします。注目すべき機能の 1 つは、エクスポート時のペンのサポートです。ユーザーは、CAD イメージを PDF、PNG、BMP、GIF、JPEG2000、JPEG、PSD、TIFF、WMF などのさまざまな形式にエクスポートするときに、ペンの開始キャップと終了キャップの設定をカスタマイズできます。
@@ -119,3 +125,9 @@ A1: はい、ペン オプションは、PNG、BMP、GIF、JPEG などのさま�
 ### Q5: Aspose.CAD for .NET のコミュニティ サポートはどこで求められますか?
 
  A5: コミュニティとの関わり[Aspose.CAD フォーラム](https://forum.aspose.com/c/cad/19).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

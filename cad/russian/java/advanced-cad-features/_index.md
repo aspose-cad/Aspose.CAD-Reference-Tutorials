@@ -3,10 +3,16 @@ title: Расширенные функции САПР
 linktitle: Расширенные функции САПР
 second_title: API Aspose.CAD Java
 description: Повысьте уровень своей разработки САПР с помощью учебных пособий Aspose.CAD для Java. Узнайте, как включать отслеживание, интегрировать формат IGES, поддерживать мастер-сетки, настраивать экспорт перьев, читать файлы DWT и многое другое.
-type: docs
 weight: 24
 url: /ru/java/advanced-cad-features/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Расширенные функции САПР
+
 
 ## Введение
 
@@ -66,3 +72,9 @@ url: /ru/java/advanced-cad-features/
 Поддержка основного уровня при разработке Java CAD с помощью Aspose.CAD. Организуйте и экспортируйте рисунки без особых усилий.
 ### [Извлечение значения атрибута блока из внешней ссылки с помощью Aspose.CAD в Java](./extract-block-attribute-value/)
 Изучите наше руководство по извлечению значений атрибутов блоков из внешних ссылок DWG в Java с помощью Aspose.CAD. Улучшите свой рабочий процесс разработки САПР без особых усилий.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

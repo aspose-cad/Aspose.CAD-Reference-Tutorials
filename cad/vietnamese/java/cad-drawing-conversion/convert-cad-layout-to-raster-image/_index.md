@@ -3,10 +3,16 @@ title: Chuyển đổi bố cục CAD sang định dạng hình ảnh raster b�
 linktitle: Chuyển đổi bố cục CAD sang định dạng hình ảnh raster
 second_title: API Java Aspose.CAD
 description: Dễ dàng chuyển đổi bố cục CAD thành hình ảnh raster bằng Aspose.CAD cho Java. Trực quan hóa chất lượng cao để tăng cường hợp tác.
-type: docs
 weight: 12
 url: /vi/java/cad-drawing-conversion/convert-cad-layout-to-raster-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Chuyển đổi bố cục CAD sang định dạng hình ảnh raster bằng Aspose.CAD cho Java
+
 ## Giới thiệu
 
 Trong thế giới năng động của thiết kế có sự hỗ trợ của máy tính (CAD), khả năng chuyển đổi liền mạch bố cục CAD sang định dạng hình ảnh raster là một kỹ năng có giá trị. Aspose.CAD cho Java nổi lên như một giải pháp mạnh mẽ để đạt được nhiệm vụ này một cách hiệu quả. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn từng bước trong quá trình chuyển đổi bố cục CAD sang hình ảnh raster bằng cách sử dụng Aspose.CAD cho Java.
@@ -106,3 +112,9 @@ Câu trả lời 4: Có, Aspose.CAD hỗ trợ nhiều định dạng đầu ra 
 ### Câu hỏi 5: Tôi có thể tìm kiếm hỗ trợ hoặc chia sẻ trải nghiệm của mình với Aspose.CAD ở đâu?
 
 A5: Tham quan[Diễn đàn Aspose.CAD](https://forum.aspose.com/c/cad/19) để tương tác với cộng đồng và nhận được sự hỗ trợ.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

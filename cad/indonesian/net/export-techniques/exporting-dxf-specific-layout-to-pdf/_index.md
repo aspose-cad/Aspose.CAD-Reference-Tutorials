@@ -3,10 +3,16 @@ title: Mengekspor Tata Letak Khusus DXF ke PDF - Panduan Aspose.CAD
 linktitle: Mengekspor Tata Letak Khusus DXF ke PDF
 second_title: Aspose.CAD .NET - Format File CAD dan BIM
 description: Pelajari cara mengekspor tata letak khusus DXF ke PDF menggunakan Aspose.CAD untuk .NET. Ikuti panduan langkah demi langkah kami untuk konversi yang efisien dan berkualitas tinggi.
-type: docs
 weight: 11
 url: /id/net/export-techniques/exporting-dxf-specific-layout-to-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Mengekspor Tata Letak Khusus DXF ke PDF - Panduan Aspose.CAD
+
 ## Perkenalan
 
 Selamat datang di tutorial Aspose.CAD tentang mengekspor tata letak khusus DXF ke PDF menggunakan fitur canggih Aspose.CAD untuk .NET. Panduan langkah demi langkah ini akan memandu Anda melalui proses mengonversi file DXF ke PDF, dengan fokus pada tata letak tertentu bernama "Model". Aspose.CAD menyediakan alat dan fungsi yang efisien untuk menyederhanakan proses konversi, memastikan keluaran berkualitas tinggi untuk gambar CAD Anda.
@@ -113,3 +119,9 @@ A2: Ya, Anda dapat menyesuaikan pengaturan keluaran PDF dengan menyesuaikan prop
 ### Q5: Di mana saya bisa membeli lisensi untuk Aspose.CAD?
 
  A5: Anda dapat membeli lisensi untuk Aspose.CAD[Di Sini](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

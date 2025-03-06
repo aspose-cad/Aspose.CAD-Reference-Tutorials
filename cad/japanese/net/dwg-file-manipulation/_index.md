@@ -3,10 +3,16 @@ title: DWG ファイルの操作
 linktitle: DWG ファイルの操作
 second_title: Aspose.CAD .NET - CAD および BIM ファイル形式
 description: DWG チュートリアルを使用して、.NET での Aspose.CAD の機能を解き放ちます。 C# をマスターして、効率的な CAD 処理を行い、DWF レイアウト サイズをシームレスに抽出します。
-type: docs
 weight: 24
 url: /ja/net/dwg-file-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# DWG ファイルの操作
+
 
 ## 導入
 
@@ -39,3 +45,9 @@ Aspose.CAD for .NET を使用して C# で DWFX ファイルを開いてアク�
 DWG ファイルのアンダーレイ フラグを探索する際に、Aspose.CAD for .NET の機能を解放します。ステップバイステップのガイドに従ってください。
 ### [C# で DWG ファイルにテキストを追加する - Aspose.CAD チュートリアル](./adding-text-to-dwg/)
 C# と Aspose.CAD を使用して DWG ファイルにテキストを追加する方法を学びます。シームレスな統合については、このステップバイステップのチュートリアルに従ってください。包括的なガイダンスについては、Aspose.CAD ドキュメントを参照してください。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

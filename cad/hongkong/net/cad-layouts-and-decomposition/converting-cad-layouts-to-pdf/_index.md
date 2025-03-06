@@ -3,10 +3,16 @@ title: 將 CAD 版面配置轉換為 PDF - Aspose.CAD 教學課程
 linktitle: 將 CAD 版面配置轉換為 PDF
 second_title: Aspose.CAD .NET - CAD 和 BIM 檔案格式
 description: 使用 Aspose.CAD for .NET 輕鬆將 CAD 版面配置轉換為 PDF。請按照我們的逐步指南進行無縫整合。
-type: docs
 weight: 10
 url: /zh-hant/net/cad-layouts-and-decomposition/converting-cad-layouts-to-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 將 CAD 版面配置轉換為 PDF - Aspose.CAD 教學課程
+
 ## 介紹
 
 您是否希望將 CAD 版面配置無縫轉換為 PDF？ Aspose.CAD for .NET 提供了一個強大的解決方案，使流程高效且簡單。在本教程中，我們將引導您完成使用 Aspose.CAD 的步驟，這是一個功能強大的 API，可讓開發人員輕鬆使用 CAD 檔案。
@@ -129,3 +135,9 @@ A3：使用提供的光柵化和圖形選項根據您的喜好自訂 PDF 輸出�
 ### Q5：我可以在哪裡尋求支持或提問？
 
 A5：訪問[Aspose.CAD論壇](https://forum.aspose.com/c/cad/19)尋求幫助和討論。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Az automatikus kódoldal-észlelés felülbírálása DWG-fájlokban Java
 linktitle: Az automatikus kódoldal-észlelés felülbírálása a DWG-fájlokban
 second_title: Aspose.CAD Java API
 description: Fedezze fel, hogyan bírálhatja felül a kódlap-észlelést DWG-fájlokban az Aspose.CAD for Java segítségével. Hatékonyan kezelheti a kódolást és helyreállíthatja a hibás formájú CIF/MIF-et.
-type: docs
 weight: 13
 url: /hu/java/dwg-file-operations/override-code-page-detection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Az automatikus kódoldal-észlelés felülbírálása DWG-fájlokban Java segítségével
+
 ## Bevezetés
 
 Üdvözöljük ebben az átfogó útmutatóban arról, hogyan bírálhatja felül az automatikus kódlapérzékelést DWG-fájlokban az Aspose.CAD for Java használatával. Az Aspose.CAD egy hatékony könyvtár, amely lehetővé teszi a Java fejlesztők számára, hogy CAD fájlformátumokkal dolgozzanak, és a funkciók széles skáláját kínálja a CAD fájlok kezeléséhez, konvertálásához és exportálásához.
@@ -101,3 +107,9 @@ Nyugodtan fedezze fel az Aspose.CAD által kínált további szolgáltatásokat 
 ### 5. kérdés: Rendelkezésre áll-e ideiglenes licenc tesztelési célokra?
 
  V5: Igen, beszerezhet ideiglenes engedélyt[itt](https://purchase.aspose.com/temporary-license/) tesztelésre.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

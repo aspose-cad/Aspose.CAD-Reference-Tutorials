@@ -3,10 +3,16 @@ title: 在 Aspose.CAD for .NET 中将布局转换为光栅图像
 linktitle: 将布局转换为光栅图像
 second_title: Aspose.CAD .NET - CAD 和 BIM 文件格式
 description: 使用 Aspose.CAD for .NET 轻松将 CAD 布局转换为光栅图像。利用强大的 CAD 操作功能增强您的开发。
-type: docs
 weight: 12
 url: /zh/net/cad-drawing-manipulation/convert-layouts-to-raster-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.CAD for .NET 中将布局转换为光栅图像
+
 ## 介绍
 
 您是否希望在 .NET 应用程序中轻松地将布局转换为光栅图像？别再犹豫了！本分步指南将引导您完成使用 Aspose.CAD for .NET 的过程，这是一个功能强大的库，可简化计算机辅助设计 (CAD) 任务。
@@ -102,3 +108,9 @@ A4：当然！抓住你的[免费试用](https://releases.aspose.com/)探索 Asp
 ### Q5：在哪里可以购买 Aspose.CAD 的许可证？
 
  A5：导航至[购买页面](https://purchase.aspose.com/buy)购买许可证并释放 Aspose.CAD 的全部潜力。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

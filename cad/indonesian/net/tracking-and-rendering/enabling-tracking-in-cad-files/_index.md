@@ -3,10 +3,16 @@ title: Mengaktifkan Pelacakan di File CAD - Tutorial Aspose.CAD
 linktitle: Mengaktifkan Pelacakan di File CAD
 second_title: Aspose.CAD .NET - Format File CAD dan BIM
 description: Pelacakan file CAD master dengan Aspose.CAD untuk .NET. Ikuti panduan langkah demi langkah kami untuk rendering dan pelacakan kesalahan yang tepat. Unduh sekarang!
-type: docs
 weight: 10
 url: /id/net/tracking-and-rendering/enabling-tracking-in-cad-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Mengaktifkan Pelacakan di File CAD - Tutorial Aspose.CAD
+
 ## Perkenalan
 
 Dalam bidang CAD (Computer-Aided Design), presisi dan pelacakan adalah yang terpenting. Aspose.CAD untuk .NET memberikan solusi tangguh untuk mengaktifkan pelacakan dalam file CAD. Tutorial ini akan memandu Anda melalui proses tersebut, memastikan Anda memanfaatkan potensi penuh dari fitur ini.
@@ -103,3 +109,9 @@ A3: Masalah seperti font yang hilang atau entitas yang tidak didukung dapat munc
 ### Q5: Dapatkah saya menyesuaikan pesan kesalahan pelacakan?
 
 A5: Tentu saja. Anda dapat memodifikasi kode untuk menyesuaikan pesan kesalahan sesuai dengan kebutuhan Anda.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

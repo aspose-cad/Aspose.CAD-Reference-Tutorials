@@ -3,10 +3,16 @@ title: Gestione dei livelli nei file DWG con C# - Tutorial Aspose.CAD
 linktitle: Gestione dei layer nei file DWG con C#
 second_title: Aspose.CAD .NET - Formato file CAD e BIM
 description: Scopri come gestire i layer nei file DWG utilizzando C# con Aspose.CAD per .NET. Guida passo passo per una manipolazione efficiente dei file CAD.
-type: docs
 weight: 11
 url: /it/net/dwg-file-manipulation/support-of-layers/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Gestione dei livelli nei file DWG con C# - Tutorial Aspose.CAD
+
 ## introduzione
 
 Benvenuti nel nostro tutorial approfondito sulla gestione dei livelli nei file DWG utilizzando C# con Aspose.CAD per .NET. Aspose.CAD è una potente libreria che consente agli sviluppatori di lavorare senza problemi con i formati di file CAD. In questo tutorial ti guideremo passo dopo passo attraverso il processo di gestione dei layer nei file DWG.
@@ -109,3 +115,9 @@ In questo tutorial, abbiamo illustrato il processo di gestione dei layer nei fil
 ### Q5: Quali sono le opzioni di licenza per Aspose.CAD?
 
  R5: È possibile esplorare le opzioni di licenza e i dettagli di acquisto[Qui](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

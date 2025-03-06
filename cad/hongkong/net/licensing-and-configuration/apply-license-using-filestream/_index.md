@@ -3,10 +3,16 @@ title: 在 Aspose.CAD for .NET 中使用 FileStream 應用程式許可證
 linktitle: 使用 FileStream 申請許可證
 second_title: Aspose.CAD .NET - CAD 和 BIM 檔案格式
 description: 掌握 Aspose.CAD for .NET - 使用 FileStream 無縫應用程式授權。探索逐步指南並釋放潛力。現在下載！
-type: docs
 weight: 11
 url: /zh-hant/net/licensing-and-configuration/apply-license-using-filestream/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.CAD for .NET 中使用 FileStream 應用程式許可證
+
 ## 介紹
 
 歡迎來到 Aspose.CAD for .NET 的世界——這是一個強大的工具，使開發人員能夠無縫地操作 CAD 檔案。在本教程中，我們將指導您完成使用 FileStream 申請授權的過程，確保您在 .NET 專案中充分利用 Aspose.CAD 的潛力。
@@ -80,3 +86,9 @@ license.SetLicense(LicStream);
 ### Q5：需要協助或有疑問嗎？我可以在哪裡獲得支援？
 
  A5：造訪 Aspose.CAD 論壇[這裡](https://forum.aspose.com/c/cad/19)任何與支援相關的查詢。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

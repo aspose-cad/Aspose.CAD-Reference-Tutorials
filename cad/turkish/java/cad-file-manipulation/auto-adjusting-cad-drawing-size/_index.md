@@ -3,10 +3,16 @@ title: Aspose.CAD for Java Kullanarak CAD Çizim Boyutunu Otomatik Ayarlama
 linktitle: CAD Çizim Boyutunun Otomatik Ayarlanması
 second_title: Aspose.CAD Java API'si
 description: Aspose.CAD'i kullanarak Java'da CAD çizim boyutlarını otomatik olarak ayarlamanın kusursuz sürecini keşfedin. Verimli CAD dosyası manipülasyonu için adım adım kılavuzumuzu izleyin.
-type: docs
 weight: 13
 url: /tr/java/cad-file-manipulation/auto-adjusting-cad-drawing-size/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.CAD for Java Kullanarak CAD Çizim Boyutunu Otomatik Ayarlama
+
 ## giriiş
 
 CAD (Bilgisayar Destekli Tasarım) dünyasında çizim boyutlarını ayarlamak ortak bir gerekliliktir ve Aspose.CAD for Java ile bu sorunsuz bir süreç haline gelir. Bu güçlü kitaplık, Java uygulamalarında CAD dosyalarının işlenmesi için kapsamlı araçlar sağlar. Bu eğitimde, Aspose.CAD'i kullanarak CAD çizim boyutlarını otomatik olarak ayarlama sürecini adım adım inceleyeceğiz.
@@ -107,3 +113,9 @@ Cevap1: Evet, Aspose.CAD, DWG, DXF, DGN ve daha fazlası dahil olmak üzere çe�
 ### S5: Aspose.CAD for Java'nın ücretsiz deneme sürümü mevcut mu?
 
  C5: Evet, ücretsiz deneme sürümüne erişebilirsiniz[Burada](https://releases.aspose.com/) Kütüphanenin yeteneklerini keşfetmek için.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

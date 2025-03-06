@@ -3,10 +3,16 @@ title: تقنيات التصدير المتقدمة
 linktitle: تقنيات التصدير المتقدمة
 second_title: Aspose.CAD .NET - تنسيق ملف CAD وBIM
 description: أطلق العنان لقوة Aspose.CAD في لغة C# من خلال دروسنا التعليمية المتقدمة حول تقنيات التصدير. يمكنك تصدير DWG بسهولة إلى DXF وPDF والصور النقطية وكائنات OLE والمزيد.
-type: docs
 weight: 26
 url: /ar/net/advanced-export-techniques/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تقنيات التصدير المتقدمة
+
 
 ## مقدمة
 
@@ -50,3 +56,9 @@ url: /ar/net/advanced-export-techniques/
 قم بتصدير رسومات CAD إلى PDF بسلاسة باستخدام Aspose.CAD لـ .NET. اتبع دليلنا خطوة بخطوة للتحويل الفعال.
 ### [تصدير رسومات CAD إلى تنسيق SVG - دليل Aspose.CAD](./exporting-cad-drawings-to-svg/)
 استكشف العملية السلسة لتصدير رسومات CAD إلى SVG باستخدام Aspose.CAD لـ .NET. عزز تطوير CAD الخاص بك بالمرونة والتخصيص.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Hiển thị màu sắc trong tệp CAD - Hướng dẫn Aspose.CAD
 linktitle: Hiển thị màu sắc trong tệp CAD
 second_title: Aspose.CAD .NET - Định dạng tệp CAD và BIM
 description: Kết xuất tệp CAD thành thạo trong .NET với Aspose.CAD. Hãy làm theo hướng dẫn từng bước của chúng tôi để có được màu sắc sống động.
-type: docs
 weight: 10
 url: /vi/net/conversion-and-export/rendering-colors-in-cad-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Hiển thị màu sắc trong tệp CAD - Hướng dẫn Aspose.CAD
+
 ## Giới thiệu
 
 Bạn có đang gặp khó khăn trong việc hiển thị màu sắc trong tệp CAD bằng .NET không? Đừng tìm đâu xa! Trong hướng dẫn toàn diện này, chúng tôi sẽ hướng dẫn bạn từng bước quy trình bằng cách sử dụng thư viện Aspose.CAD mạnh mẽ. Đến cuối hướng dẫn này, bạn sẽ được trang bị kiến thức để dễ dàng hiển thị màu sắc trong tệp CAD của mình.
@@ -108,3 +114,9 @@ Chúc mừng! Bạn đã hiển thị thành công màu sắc trong tệp CAD b�
 ### Câu hỏi 5: Tôi có thể mua thư viện Aspose.CAD ở đâu?
 
  A5: Mua Aspose.CAD[đây](https://purchase.aspose.com/buy) để mở khóa toàn bộ tiềm năng của nó.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

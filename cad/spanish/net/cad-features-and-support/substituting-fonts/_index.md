@@ -3,10 +3,16 @@ title: Sustitución de fuentes en Aspose.CAD por .NET
 linktitle: Sustitución de fuentes
 second_title: Aspose.CAD .NET - Formato de archivo CAD y BIM
 description: Aprenda a sustituir fuentes en Aspose.CAD por .NET sin esfuerzo. Siga nuestra guía paso a paso para personalizar fuentes de manera eficiente en sus dibujos CAD.
-type: docs
 weight: 17
 url: /es/net/cad-features-and-support/substituting-fonts/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Sustitución de fuentes en Aspose.CAD por .NET
+
 ## Introducción
 
 En el ámbito del desarrollo CAD utilizando .NET, la capacidad de manipular fuentes es una habilidad crucial. Aspose.CAD para .NET proporciona un sólido conjunto de herramientas para este propósito, lo que permite a los desarrolladores sustituir fuentes sin problemas dentro de sus dibujos CAD. En este tutorial, exploraremos el proceso paso a paso y demostraremos cómo lograr la sustitución de fuentes de manera eficiente.
@@ -109,3 +115,10 @@ R4: Ciertamente, puede implementar el procesamiento por lotes para automatizar l
 
  R5: Para obtener soporte adicional y debates comunitarios, visite el[Foro Aspose.CAD](https://forum.aspose.com/c/cad/19).
 
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

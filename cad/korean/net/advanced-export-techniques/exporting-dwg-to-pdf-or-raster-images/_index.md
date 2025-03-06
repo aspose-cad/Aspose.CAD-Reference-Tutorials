@@ -3,10 +3,16 @@ title: DWG를 PDF 또는 래스터 이미지로 내보내기 - Aspose.CAD 가이
 linktitle: DWG를 PDF 또는 래스터 이미지로 내보내기
 second_title: Aspose.CAD .NET - CAD 및 BIM 파일 형식
 description: .NET용 Aspose.CAD를 사용하여 DWG를 PDF 또는 래스터 이미지로 내보내는 방법에 대한 포괄적인 가이드를 살펴보세요. 이 강력한 라이브러리를 사용하여 단계와 전제 조건을 알아보고 실습해 보세요.
-type: docs
 weight: 11
 url: /ko/net/advanced-export-techniques/exporting-dwg-to-pdf-or-raster-images/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# DWG를 PDF 또는 래스터 이미지로 내보내기 - Aspose.CAD 가이드
+
 ## 소개
 
 .NET 애플리케이션에서 DWG 파일을 PDF 또는 래스터 이미지로 원활하게 변환하고 싶으십니까? 더 이상 보지 마세요! 이 단계별 가이드는 강력한 .NET용 Aspose.CAD 라이브러리를 사용하는 프로세스를 안내합니다. 숙련된 개발자이든 이제 막 시작하는 개발자이든 이 튜토리얼은 모든 기술 수준을 충족합니다.
@@ -119,3 +125,9 @@ cadImage.Save(outPath.Replace("pdf", "png"), pngOptions);
 ### Q5: 자세한 문서는 어디서 찾을 수 있나요?
 
  A5: 문서는 다음에서 확인할 수 있습니다.[Aspose.CAD](https://reference.aspose.com/cad/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

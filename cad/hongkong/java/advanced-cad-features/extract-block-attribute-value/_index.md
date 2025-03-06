@@ -3,10 +3,16 @@ title: 在 Java 中使用 Aspose.CAD 從外部參考中提取區塊屬性值
 linktitle: 從外部引用中提取區塊屬性值
 second_title: Aspose.CAD Java API
 description: 探索使用 Aspose.CAD 從 Java 中的 DWG 外部參考中提取區塊屬性值的教學。輕鬆增強您的 CAD 開發工作流程。
-type: docs
 weight: 19
 url: /zh-hant/java/advanced-cad-features/extract-block-attribute-value/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Java 中使用 Aspose.CAD 從外部參考中提取區塊屬性值
+
 ## 介紹
 
 歡迎閱讀我們關於使用 Aspose.CAD 從 Java 中的外部參考中提取區塊屬性值的綜合指南。如果您是使用 CAD 繪圖並希望簡化工作流程的開發人員，那麼您來對地方了。在本教學中，我們將利用 Aspose.CAD for Java 的強大功能，逐步引導您完成流程。
@@ -89,3 +95,9 @@ A1：Aspose.CAD支援各種版本的DWG文件，確保與廣泛的CAD應用程�
 ### Q5：取得 Aspose.CAD 臨時授權的流程是怎樣的？
 
  A5：若要取得臨時許可證，請訪問[這個連結](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

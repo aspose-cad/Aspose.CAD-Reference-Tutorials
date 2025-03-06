@@ -3,10 +3,16 @@ title: Elementos DGN compatibles en Aspose.CAD para .NET
 linktitle: Elementos DGN compatibles
 second_title: Aspose.CAD .NET - Formato de archivo CAD y BIM
 description: Explore Aspose.CAD para conocer las potentes funciones de .NET para manejar archivos DGN. Siga nuestra guía paso a paso para trabajar sin problemas con elementos 2D y 3D.
-type: docs
 weight: 18
 url: /es/net/cad-features-and-support/supported-dgn-elements/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Elementos DGN compatibles en Aspose.CAD para .NET
+
 ## Introducción
 
 ¿Es usted un desarrollador .NET y busca trabajar con archivos DGN sin problemas? Aspose.CAD para .NET proporciona una solución sólida para manejar archivos DGN de manera eficiente. En este tutorial, profundizaremos en los elementos DGN compatibles y lo guiaremos a través del proceso de trabajo con Aspose.CAD para .NET.
@@ -127,3 +133,9 @@ En este tutorial, exploramos las capacidades de Aspose.CAD para .NET en el manej
 ### P5: ¿Necesita ayuda o tiene preguntas?
 
  A5: Visite la comunidad Aspose.CAD para .NET[Foro de soporte](https://forum.aspose.com/c/cad/19).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

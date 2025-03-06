@@ -3,10 +3,16 @@ title: Lisensi Terukur di Aspose.CAD untuk .NET
 linktitle: Lisensi Terukur
 second_title: Aspose.CAD .NET - Format File CAD dan BIM
 description: Buka potensi Aspose.CAD dengan lisensi terukur di .NET. Optimalkan penggunaan sumber daya dengan lancar. Jelajahi panduan langkah demi langkah kami.
-type: docs
 weight: 12
 url: /id/net/licensing-and-configuration/metered-licensing/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Lisensi Terukur di Aspose.CAD untuk .NET
+
 ## Perkenalan
 
 Untuk membuka potensi penuh Aspose.CAD untuk .NET memerlukan pemahaman seluk-beluk lisensi terukur. Fitur canggih ini memungkinkan pengembang mengelola konsumsi sumber daya secara efisien sambil memanfaatkan kemampuan Aspose.CAD. Dalam panduan langkah demi langkah ini, kami akan mempelajari proses penerapan lisensi terukur, menguraikan setiap langkah penting untuk memastikan integrasi yang lancar ke dalam proyek .NET Anda.
@@ -97,3 +103,9 @@ A3: Ya, kunci terukur dapat digunakan kembali di berbagai proyek, sehingga menaw
 ### Q5: Dapatkah saya melisensikan sementara Aspose.CAD untuk proyek tertentu?
 
  A5: Ya, jelajahi[pilihan lisensi sementara](https://purchase.aspose.com/temporary-license/) untuk kebutuhan proyek jangka pendek.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

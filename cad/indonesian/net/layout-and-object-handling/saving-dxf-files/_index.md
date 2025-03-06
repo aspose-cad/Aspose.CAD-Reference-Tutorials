@@ -3,10 +3,16 @@ title: Menyimpan File DXF - Panduan Aspose.CAD
 linktitle: Menyimpan File DXF
 second_title: Aspose.CAD .NET - Format File CAD dan BIM
 description: Jelajahi kekuatan Aspose.CAD untuk .NET. Pelajari cara menyimpan file DXF dengan mudah dengan panduan langkah demi langkah kami.
-type: docs
 weight: 11
 url: /id/net/layout-and-object-handling/saving-dxf-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Menyimpan File DXF - Panduan Aspose.CAD
+
 ## Perkenalan
 
 Selamat datang di panduan langkah demi langkah kami tentang menyimpan file DXF menggunakan Aspose.CAD untuk .NET! Jika Anda seorang pengembang yang ingin memanipulasi file CAD dengan lancar, Anda berada di tempat yang tepat. Aspose.CAD untuk .NET menyediakan alat canggih untuk bekerja dengan format CAD, dan dalam tutorial ini, kami akan fokus pada menyimpan file DXF. Jadi, mari selami!
@@ -82,3 +88,9 @@ A1: Ya, Aspose.CAD mendukung berbagai format CAD, termasuk DWG dan DWF.
 ### Q5: Bisakah saya membeli Aspose.CAD untuk .NET?
 
  A5: Tentu saja! Jelajahi opsi pembelian[Di Sini](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

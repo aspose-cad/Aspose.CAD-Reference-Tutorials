@@ -3,10 +3,16 @@ title: CAD Text a formátování
 linktitle: CAD Text a formátování
 second_title: Aspose.CAD Java API
 description: Odemkněte Aspose.CAD pro potenciál Javy pomocí výukových programů. Naučte se textové vyhledávání, skryté čáry, entity MLeader a atributy MText, abyste vylepšili svou CAD aplikaci.
-type: docs
 weight: 28
 url: /cs/java/cad-text-and-formatting/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# CAD Text a formátování
+
 ## Úvod
 Vítejte v našem komplexním průvodci textem CAD a výukovým programem formátování pomocí Aspose.CAD for Java. Ať už jste zkušený vývojář nebo s CAD aplikacemi teprve začínáte, tyto výukové programy vám umožní posunout vaše dovednosti na další úroveň.
 
@@ -37,3 +43,9 @@ Naučte se, jak vylepšit možnosti manipulace se soubory DWG vaší aplikace Ja
 Odemkněte sílu Aspose.CAD for Java s naším podrobným návodem na podporu entit MLeader ve formátu DWG.
 ### [Přidejte atributy do MText v souborech DWG pomocí Aspose.CAD for Java](./add-attributes-to-mtext/)
 Naučte se, jak přidat atributy do MText v souborech DWG pomocí Aspose.CAD for Java. Vylepšete své CAD výkresy pomocí tohoto podrobného průvodce.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

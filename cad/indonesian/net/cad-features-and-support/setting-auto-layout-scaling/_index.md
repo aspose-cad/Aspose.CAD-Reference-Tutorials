@@ -3,10 +3,16 @@ title: Mengatur Penskalaan Tata Letak Otomatis di Aspose.CAD untuk .NET
 linktitle: Mengatur Penskalaan Tata Letak Otomatis
 second_title: Aspose.CAD .NET - Format File CAD dan BIM
 description: Tingkatkan rendering CAD dengan Aspose.CAD untuk .NET. Pelajari cara menyiapkan Auto Layout Scaling untuk rendering file yang presisi dan mudah beradaptasi.
-type: docs
 weight: 14
 url: /id/net/cad-features-and-support/setting-auto-layout-scaling/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Mengatur Penskalaan Tata Letak Otomatis di Aspose.CAD untuk .NET
+
 Dalam dunia dinamis pengembangan .NET, mengoptimalkan rendering file Computer-Aided Design (CAD) adalah aspek penting dalam menciptakan aplikasi yang efisien dan menarik secara visual. Aspose.CAD untuk .NET memberdayakan pengembang untuk meningkatkan kemampuan pemrosesan CAD mereka, dan dalam tutorial ini, kami akan fokus pada menyiapkan Penskalaan Tata Letak Otomatis menggunakan Aspose.CAD untuk .NET.
 
 ## Prasyarat
@@ -107,3 +113,9 @@ A4: Tentu saja, Aspose.CAD menyediakan berbagai pilihan untuk menyesuaikan outpu
 ### Q5: Di mana saya dapat menemukan sumber daya tambahan dan dukungan untuk Aspose.CAD?
 
  A5: Jelajahi[Forum Aspose.CAD](https://forum.aspose.com/c/cad/19) untuk dukungan komunitas, dan lihat[dokumentasi](https://reference.aspose.com/cad/net/) untuk informasi rinci.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

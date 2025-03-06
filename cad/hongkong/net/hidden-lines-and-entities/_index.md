@@ -3,10 +3,16 @@ title: 隱藏線和實體
 linktitle: 隱藏線和實體
 second_title: Aspose.CAD .NET - CAD 和 BIM 檔案格式
 description: 使用 Aspose.CAD for .NET 輕鬆解鎖 DWG 檔案中的隱藏線。透過我們的逐步指南提升您的 CAD 專案。
-type: docs
 weight: 29
 url: /zh-hant/net/hidden-lines-and-entities/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 隱藏線和實體
+
 
 
 ## 介紹
@@ -39,3 +45,9 @@ MLeader 實體為您的設計帶來動態維度，使您能夠有效管理和傳
 使用 Aspose.CAD for .NET 輕鬆解鎖 DWG 檔案中的隱藏線。請按照我們的逐步指南進行無縫整合。
 ### [支援 DWG 格式的 MLeader 實體 - Aspose.CAD 指南](./supporting-mleader-entity-for-dwg-format/)
 使用 Aspose.CAD for .NET 釋放 DWG 格式的 MLeader 實體的強大功能。輕鬆提升您的 CAD 專案。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

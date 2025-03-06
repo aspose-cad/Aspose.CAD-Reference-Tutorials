@@ -3,10 +3,16 @@ title: Java에서 Aspose.CAD를 사용한 레이어 지원
 linktitle: CAD의 레이어 지원
 second_title: Aspose.CAD 자바 API
 description: Aspose.CAD를 사용한 Java CAD 개발의 마스터 레이어 지원. 손쉽게 도면을 구성하고 내보낼 수 있습니다.
-type: docs
 weight: 18
 url: /ko/java/advanced-cad-features/support-of-layers-in-cad/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java에서 Aspose.CAD를 사용한 레이어 지원
+
 ## 소개
 
 레이어 지원을 마스터하여 Java에서 Aspose.CAD의 잠재력을 최대한 활용하세요. 레이어는 CAD 도면에서 중요한 역할을 하며 그래픽 요소를 효율적으로 구성하고 조작할 수 있습니다. 이 포괄적인 튜토리얼에서는 Aspose.CAD를 사용하여 레이어 지원의 복잡성을 탐구하고 이 강력한 기능을 활용하기 위한 단계별 가이드를 제공합니다.
@@ -118,3 +124,9 @@ A2: 예, Aspose.CAD는 광범위한 CAD 형식을 지원하므로 다양한 유�
 ### Q5: Aspose.CAD에 대한 도움을 구하거나 경험을 공유할 수 있는 곳은 어디입니까?
 
 A5: Aspose.CAD 커뮤니티에 가입하세요.[법정](https://forum.aspose.com/c/cad/19) 지원 및 협력 토론을 위해.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

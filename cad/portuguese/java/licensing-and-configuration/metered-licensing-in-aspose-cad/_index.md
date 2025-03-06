@@ -3,10 +3,16 @@ title: Licenciamento medido em Aspose.CAD
 linktitle: Licenciamento medido em Aspose.CAD
 second_title: API Java Aspose.CAD
 description: Aprenda como dominar o licenciamento medido em Aspose.CAD for Java com este guia completo. Otimize seu processamento CAD para eficiência e economia.
-type: docs
 weight: 10
 url: /pt/java/licensing-and-configuration/metered-licensing-in-aspose-cad/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Licenciamento medido em Aspose.CAD
+
 ## Introdução
 
 Desbloqueie todo o potencial do Aspose.CAD para Java com licenciamento medido! Este guia passo a passo orientará você no processo de configuração do licenciamento medido, garantindo integração perfeita e utilização ideal desta poderosa biblioteca Java para design auxiliado por computador (CAD). Dos pré-requisitos à importação de pacotes e execução de exemplos, este tutorial cobre tudo.
@@ -94,3 +100,9 @@ Parabéns! Você dominou com sucesso o licenciamento medido com Aspose.CAD para 
 ### P5: Precisa de suporte da comunidade ou tem dúvidas específicas?
 
  A5: Vá para o fórum Aspose.CAD[aqui](https://forum.aspose.com/c/cad/19).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

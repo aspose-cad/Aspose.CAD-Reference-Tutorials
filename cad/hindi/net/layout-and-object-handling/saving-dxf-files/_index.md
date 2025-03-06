@@ -3,10 +3,16 @@ title: DXF फ़ाइलें सहेजना - Aspose.CAD गाइड
 linktitle: डीएक्सएफ फ़ाइलें सहेजा जा रहा है
 second_title: Aspose.CAD .NET - CAD और BIM फ़ाइल स्वरूप
 description: .NET के लिए Aspose.CAD की शक्ति का अन्वेषण करें। हमारे चरण-दर-चरण मार्गदर्शिका से DXF फ़ाइलों को सहजता से सहेजना सीखें।
-type: docs
 weight: 11
 url: /hi/net/layout-and-object-handling/saving-dxf-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# DXF फ़ाइलें सहेजना - Aspose.CAD गाइड
+
 ## परिचय
 
 .NET के लिए Aspose.CAD का उपयोग करके DXF फ़ाइलों को सहेजने पर हमारी चरण-दर-चरण मार्गदर्शिका में आपका स्वागत है! यदि आप एक डेवलपर हैं और सीएडी फ़ाइलों में निर्बाध रूप से हेरफेर करना चाहते हैं, तो आप सही जगह पर हैं। .NET के लिए Aspose.CAD, CAD प्रारूपों के साथ काम करने के लिए शक्तिशाली उपकरण प्रदान करता है, और इस ट्यूटोरियल में, हम DXF फ़ाइलों को सहेजने पर ध्यान केंद्रित करेंगे। तो, आइए गोता लगाएँ!
@@ -82,3 +88,9 @@ A1: हां, Aspose.CAD DWG और DWF सहित विभिन्न CAD 
 ### Q5: क्या मैं .NET के लिए Aspose.CAD खरीद सकता हूँ?
 
  ए5: निश्चित रूप से! खरीदारी के विकल्प तलाशें[यहाँ](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Манипуляции с файлами САПР
 linktitle: Манипуляции с файлами САПР
 second_title: API Aspose.CAD Java
 description: Раскройте возможности файлов САПР с помощью Aspose.CAD для Java! Конвертируйте DWFX в PDF, получайте доступ к флагам DWG, макетам списков и автоматической настройке размеров с помощью наших руководств.
-type: docs
 weight: 23
 url: /ru/java/cad-file-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Манипуляции с файлами САПР
+
 
 ## Введение
 
@@ -44,3 +50,9 @@ url: /ru/java/cad-file-manipulation/
 Изучите простой процесс автоматической настройки размеров чертежей САПР на Java с помощью Aspose.CAD. Следуйте нашему пошаговому руководству для эффективного манипулирования файлами САПР.
 ### [Настройка размера чертежа САПР с использованием типа единицы измерения в Aspose.CAD для Java](./adjusting-cad-drawing-size-using-unit-type/)
 Исследуйте возможности Aspose.CAD для Java, позволяющие легко регулировать размеры чертежей САПР. Следуйте нашему пошаговому руководству для точности и адаптируемости.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

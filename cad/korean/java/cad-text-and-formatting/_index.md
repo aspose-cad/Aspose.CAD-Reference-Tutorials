@@ -3,10 +3,16 @@ title: CAD 텍스트 및 서식
 linktitle: CAD 텍스트 및 서식
 second_title: Aspose.CAD 자바 API
 description: 튜토리얼을 통해 Aspose.CAD를 통해 Java의 잠재력을 알아보세요. CAD 앱을 향상시키기 위해 텍스트 검색, 은선, MLeader 엔터티 및 MText 속성을 알아보세요.
-type: docs
 weight: 28
 url: /ko/java/cad-text-and-formatting/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# CAD 텍스트 및 서식
+
 ## 소개
 Java용 Aspose.CAD를 사용하는 CAD 텍스트 및 형식 지정 튜토리얼에 대한 포괄적인 가이드에 오신 것을 환영합니다. 숙련된 개발자이든 이제 막 CAD 응용 프로그램을 시작하는 사람이든 이 튜토리얼을 통해 기술을 한 단계 더 발전시킬 수 있습니다.
 
@@ -37,3 +43,9 @@ Aspose.CAD를 사용하여 Java 애플리케이션의 DWG 파일 조작 기능�
 DWG 형식의 MLeader 엔터티 지원에 대한 단계별 튜토리얼을 통해 Java용 Aspose.CAD의 강력한 기능을 활용하세요.
 ### [Java용 Aspose.CAD를 사용하여 DWG 파일의 MText에 속성 추가](./add-attributes-to-mtext/)
 Java용 Aspose.CAD를 사용하여 DWG 파일의 MText에 속성을 추가하는 방법을 알아보세요. 이 단계별 가이드를 통해 CAD 도면의 수준을 높이세요.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

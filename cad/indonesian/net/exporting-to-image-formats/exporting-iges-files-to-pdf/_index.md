@@ -3,10 +3,16 @@ title: Mengekspor File IGES ke PDF - Panduan Aspose.CAD
 linktitle: Mengekspor File IGES ke PDF
 second_title: Aspose.CAD .NET - Format File CAD dan BIM
 description: Pelajari cara mengekspor file IGES ke PDF dengan mudah menggunakan Aspose.CAD untuk .NET. Ikuti panduan langkah demi langkah kami untuk manipulasi file CAD yang tepat.
-type: docs
 weight: 11
 url: /id/net/exporting-to-image-formats/exporting-iges-files-to-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Mengekspor File IGES ke PDF - Panduan Aspose.CAD
+
 ## Perkenalan
 
 Dalam dunia desain berbantuan komputer (CAD) yang dinamis, kebutuhan untuk mengonversi file IGES ke format PDF adalah kebutuhan umum. Aspose.CAD untuk .NET memberikan solusi ampuh untuk tugas ini, menawarkan fleksibilitas dan presisi dalam menangani file CAD. Dalam tutorial ini, kami akan memandu Anda melalui proses mengekspor file IGES ke PDF menggunakan Aspose.CAD untuk .NET. Ayo selami!
@@ -118,3 +124,9 @@ A1: Ya, Aspose.CAD untuk .NET cocok untuk aplikasi desktop dan web, memberikan s
 ### Q5: Butuh bantuan atau punya pertanyaan?
 
 A5: Bergabunglah dengan komunitas Aspose.CAD di[forum dukungan](https://forum.aspose.com/c/cad/19) untuk bantuan dan diskusi segera.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

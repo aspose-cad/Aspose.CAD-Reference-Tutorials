@@ -3,10 +3,16 @@ title: Ρύθμιση μεγέθους καμβά και λειτουργίας 
 linktitle: Ρύθμιση μεγέθους καμβά και λειτουργίας
 second_title: Aspose.CAD .NET - Μορφή αρχείου CAD και BIM
 description: Εξερευνήστε τον οδηγό βήμα προς βήμα για τη ρύθμιση του μεγέθους και της λειτουργίας καμβά στο Aspose.CAD για .NET. Βελτιστοποιήστε την απόδοση CAD με ευκολία χρησιμοποιώντας αυτό το περιεκτικό σεμινάριο.
-type: docs
 weight: 16
 url: /el/net/cad-features-and-support/setting-canvas-size-and-mode/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ρύθμιση μεγέθους καμβά και λειτουργίας στο Aspose.CAD για .NET
+
 ## Εισαγωγή
 
 Είστε έτοιμοι να ξεκλειδώσετε πλήρως τις δυνατότητες του Aspose.CAD για .NET και να φέρετε επανάσταση στην εμπειρία απόδοσης CAD; Σε αυτό το βήμα προς βήμα σεμινάριο, θα εμβαθύνουμε στις περιπλοκές της ρύθμισης του μεγέθους και της λειτουργίας καμβά χρησιμοποιώντας την ισχυρή βιβλιοθήκη Aspose.CAD. Είτε είστε έμπειρος προγραμματιστής είτε μόλις ξεκινάτε, αυτός ο οδηγός θα σας καθοδηγήσει στη διαδικασία, διασφαλίζοντας ότι αξιοποιείτε αποτελεσματικά τις δυνατότητες του Aspose.CAD.
@@ -119,3 +125,9 @@ A1: Ναι, το Aspose.CAD ενσωματώνεται απρόσκοπτα με
 ### Ε5: Πώς μπορώ να αγοράσω το Aspose.CAD για .NET;
 
  A5: Για να αγοράσετε Aspose.CAD, επισκεφτείτε το[σελίδα αγοράς](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

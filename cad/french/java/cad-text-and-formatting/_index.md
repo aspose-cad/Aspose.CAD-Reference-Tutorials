@@ -3,10 +3,16 @@ title: Texte CAO et formatage
 linktitle: Texte CAO et formatage
 second_title: API Java Aspose.CAD
 description: Libérez le potentiel d'Aspose.CAD pour Java avec des didacticiels. Apprenez la recherche de texte, les lignes cachées, les entités MLeader et les attributs MText pour améliorer votre application CAO.
-type: docs
 weight: 28
 url: /fr/java/cad-text-and-formatting/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Texte CAO et formatage
+
 ## Introduction
 Bienvenue dans notre guide complet sur les didacticiels de texte CAO et de formatage utilisant Aspose.CAD pour Java. Que vous soyez un développeur chevronné ou que vous débutiez tout juste avec les applications de CAO, ces didacticiels vous permettront de faire passer vos compétences au niveau supérieur.
 
@@ -37,3 +43,9 @@ Découvrez comment améliorer les capacités de manipulation de fichiers DWG de 
 Libérez la puissance d'Aspose.CAD pour Java avec notre didacticiel étape par étape sur la prise en charge des entités MLeader au format DWG.
 ### [Ajouter des attributs au MText dans les fichiers DWG à l'aide d'Aspose.CAD pour Java](./add-attributes-to-mtext/)
 Découvrez comment ajouter des attributs à MText dans des fichiers DWG à l'aide d'Aspose.CAD pour Java. Améliorez vos dessins CAO avec ce guide étape par étape.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

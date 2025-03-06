@@ -3,10 +3,16 @@ title: 고급 내보내기 기술
 linktitle: 고급 내보내기 기술
 second_title: Aspose.CAD .NET - CAD 및 BIM 파일 형식
 description: 고급 내보내기 기술 튜토리얼을 통해 C#에서 Aspose.CAD의 강력한 기능을 활용해 보세요. DWG를 DXF, PDF, 래스터 이미지, OLE 개체 등으로 손쉽게 내보낼 수 있습니다.
-type: docs
 weight: 26
 url: /ko/net/advanced-export-techniques/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 고급 내보내기 기술
+
 
 ## 소개
 
@@ -50,3 +56,9 @@ Aspose.CAD를 사용하여 C#에서 CAD 파일 조작을 잠금 해제합니다.
 .NET용 Aspose.CAD를 사용하여 CAD 도면을 PDF로 원활하게 내보냅니다. 효율적인 변환을 위해 단계별 가이드를 따르세요.
 ### [CAD 도면을 SVG 형식으로 내보내기 - Aspose.CAD 가이드](./exporting-cad-drawings-to-svg/)
 .NET용 Aspose.CAD를 사용하여 CAD 도면을 SVG로 내보내는 원활한 프로세스를 살펴보세요. 유연성과 사용자 정의를 통해 CAD 개발을 강화하세요.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

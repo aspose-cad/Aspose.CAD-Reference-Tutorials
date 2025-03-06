@@ -3,10 +3,16 @@ title: CAD szöveg és formázás
 linktitle: CAD szöveg és formázás
 second_title: Aspose.CAD Java API
 description: Oldja fel az Aspose.CAD-t a Java lehetőségeinek kihasználásához oktatóanyagok segítségével. Tanuljon meg szöveges keresést, rejtett sorokat, MLeader entitásokat és MText attribútumokat a CAD alkalmazás fejlesztéséhez.
-type: docs
 weight: 28
 url: /hu/java/cad-text-and-formatting/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# CAD szöveg és formázás
+
 ## Introducton
 Üdvözöljük átfogó útmutatónkban az Aspose.CAD for Java használatával CAD-szöveg- és formázási útmutatónkban. Akár tapasztalt fejlesztő, akár csak most kezdi a CAD-alkalmazásokat, ezek az oktatóanyagok lehetővé teszik, hogy képességeit a következő szintre emelje.
 
@@ -37,3 +43,9 @@ Ismerje meg, hogyan javíthatja Java-alkalmazása DWG-fájlkezelési képessége
 Fedezze fel az Aspose.CAD for Java erejét lépésenkénti oktatóanyagunkkal az MLeader entitások támogatásáról DWG formátumban.
 ### [Adjon hozzá attribútumokat az MTexthez a DWG-fájlokban az Aspose.CAD for Java segítségével](./add-attributes-to-mtext/)
 Ismerje meg, hogyan adhat attribútumokat a DWG-fájlokban található MTexthez az Aspose.CAD for Java segítségével. Emelje fel CAD-rajzait ezzel a lépésről-lépésre szóló útmutatóval.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

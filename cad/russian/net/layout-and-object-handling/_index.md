@@ -3,10 +3,16 @@ title: Макет и обработка объектов
 linktitle: Макет и обработка объектов
 second_title: Aspose.CAD .NET — формат файлов CAD и BIM
 description: Освойте экспорт макетов DXF, сохранение файлов, обрезку блоков и прокси-объекты ACAD без особых усилий для улучшения проектирования САПР с помощью Aspose.CAD для .NET.
-type: docs
 weight: 33
 url: /ru/net/layout-and-object-handling/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Макет и обработка объектов
+
 
 ## Введение
 
@@ -38,3 +44,9 @@ url: /ru/net/layout-and-object-handling/
 Узнайте, как реализовать обрезку блоков в САПР с помощью Aspose.CAD для .NET. Расширьте свои дизайнерские возможности с помощью этого пошагового руководства.
 ### [Работа с прокси-объектами ACAD — Руководство Aspose.CAD](./working-with-acad-proxy-entities/)
 Изучите Aspose.CAD для .NET и оптимизируйте рабочие процессы САПР. Легко конвертируйте, редактируйте и управляйте прокси-объектами ACAD.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

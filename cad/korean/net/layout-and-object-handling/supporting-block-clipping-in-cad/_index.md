@@ -3,10 +3,16 @@ title: CAD에서 블록 클리핑 지원 - Aspose.CAD Tutorial
 linktitle: CAD에서 블록 클리핑 지원
 second_title: Aspose.CAD .NET - CAD 및 BIM 파일 형식
 description: .NET용 Aspose.CAD를 사용하여 CAD에서 블록 클리핑을 구현하는 방법을 알아보세요. 이 단계별 튜토리얼을 통해 디자인 역량을 강화해보세요.
-type: docs
 weight: 12
 url: /ko/net/layout-and-object-handling/supporting-block-clipping-in-cad/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# CAD에서 블록 클리핑 지원 - Aspose.CAD Tutorial
+
 ## 소개
 
 .NET용 Aspose.CAD를 사용하여 CAD에서 블록 클리핑을 지원하는 방법에 대한 포괄적인 튜토리얼에 오신 것을 환영합니다. Aspose.CAD는 개발자가 .NET 애플리케이션에서 CAD 파일을 원활하게 사용할 수 있게 해주는 강력한 라이브러리입니다. 이 튜토리얼에서는 CAD 설계의 필수 기능인 블록 클리핑 구현에 중점을 둘 것입니다.
@@ -122,3 +128,9 @@ A1: Aspose.CAD는 주로 .NET 애플리케이션용으로 설계되었습니다.
 ### Q5: 영구 라이선스 없이 Aspose.CAD를 사용할 수 있나요?
 
  A5: 예, 임시 라이센스를 얻을 수 있습니다.[여기](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Görüntüleri C# ile DWG Dosyalarına Aktarma - Aspose.CAD Guide
 linktitle: C# ile Görüntüleri DWG Dosyalarına Aktarma
 second_title: Aspose.CAD .NET - CAD ve BIM Dosya Formatı
 description: Aspose.CAD for .NET ile C# kullanarak görüntüleri DWG dosyalarına aktarmayı öğrenin. Sorunsuz entegrasyon için adım adım kılavuzumuzu izleyin.
-type: docs
 weight: 11
 url: /tr/net/image-manipulation-and-rendering/importing-images-into-dwg/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Görüntüleri C# ile DWG Dosyalarına Aktarma - Aspose.CAD Guide
+
 ## giriiş
 
 Bilgisayar destekli tasarım (CAD) alanında, görüntüleri DWG dosyalarına dahil etmek yaygın ve önemli bir görevdir. Aspose.CAD for .NET, bu süreci kolaylaştırmak için güçlü bir araç seti sağlayarak C# geliştiricilerinin erişimini sağlar. Bu eğitimde, görüntüleri adım adım DWG dosyalarına nasıl aktaracağımızı keşfedeceğiz.
@@ -122,3 +128,9 @@ Cevap1: Aspose.CAD öncelikle .NET için tasarlanmıştır, ancak Aspose çeşit
 ### S5: Aspose.CAD desteği için topluluk forumları var mı?
 
  C5: Evet, destek arayabilir ve toplulukla etkileşime geçebilirsiniz[Burada](https://forum.aspose.com/c/cad/19).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

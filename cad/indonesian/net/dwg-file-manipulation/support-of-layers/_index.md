@@ -3,10 +3,16 @@ title: Menangani Lapisan dalam File DWG dengan C# - Tutorial Aspose.CAD
 linktitle: Menangani Lapisan dalam File DWG dengan C#
 second_title: Aspose.CAD .NET - Format File CAD dan BIM
 description: Pelajari cara menangani lapisan dalam file DWG menggunakan C# dengan Aspose.CAD untuk .NET. Panduan langkah demi langkah untuk manipulasi file CAD yang efisien.
-type: docs
 weight: 11
 url: /id/net/dwg-file-manipulation/support-of-layers/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Menangani Lapisan dalam File DWG dengan C# - Tutorial Aspose.CAD
+
 ## Perkenalan
 
 Selamat datang di tutorial mendalam kami tentang menangani lapisan dalam file DWG menggunakan C# dengan Aspose.CAD untuk .NET. Aspose.CAD adalah perpustakaan canggih yang memungkinkan pengembang bekerja dengan format file CAD dengan lancar. Dalam tutorial ini, kami akan memandu Anda melalui proses penanganan lapisan dalam file DWG langkah demi langkah.
@@ -109,3 +115,9 @@ Dalam tutorial ini, kita mempelajari proses penanganan lapisan dalam file DWG me
 ### Q5: Apa saja pilihan lisensi untuk Aspose.CAD?
 
  A5: Anda dapat menjelajahi opsi lisensi dan detail pembelian[Di Sini](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

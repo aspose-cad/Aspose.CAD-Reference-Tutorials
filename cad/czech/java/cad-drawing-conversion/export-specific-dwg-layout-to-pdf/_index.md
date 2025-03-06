@@ -3,10 +3,16 @@ title: Export konkrétního rozvržení DWG do PDF pomocí Aspose.CAD for Java
 linktitle: Export konkrétního rozvržení DWG do PDF
 second_title: Aspose.CAD Java API
 description: Prozkoumejte podrobného průvodce exportem konkrétních rozvržení DWG do PDF pomocí Aspose.CAD for Java. Optimalizujte svůj pracovní postup CAD bez námahy.
-type: docs
 weight: 14
 url: /cs/java/cad-drawing-conversion/export-specific-dwg-layout-to-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Export konkrétního rozvržení DWG do PDF pomocí Aspose.CAD for Java
+
 ## Úvod
 
 V dynamickém světě Computer-Aided Design (CAD) se Aspose.CAD for Java ukazuje jako výkonný nástroj pro manipulaci a konverzi výkresů DWG. V tomto tutoriálu prozkoumáme konkrétní scénář: export určeného rozvržení DWG do souboru PDF. Tento proces zajišťuje přesnost a flexibilitu ve vašich CAD projektech.
@@ -100,3 +106,9 @@ Aspose.CAD for Java je samostatná knihovna, ale lze ji integrovat s dalšími k
 ### Q5: Je k dispozici bezplatná zkušební verze pro Aspose.CAD?
 
  Ano, máte přístup k bezplatné zkušební verzi[tady](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

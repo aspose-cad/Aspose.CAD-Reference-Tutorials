@@ -3,10 +3,16 @@ title: Advanced CAD Features
 linktitle: Advanced CAD Features
 second_title: Aspose.CAD Java API
 description: Elevate your CAD development with Aspose.CAD for Java tutorials. Learn to enable tracking, integrate IGES format, master mesh support, customize pen export, read DWT files, and more. 
-type: docs
 weight: 24
 url: /java/advanced-cad-features/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Advanced CAD Features
+
 
 ## Introduction
 
@@ -66,3 +72,9 @@ Enhance your CAD workflow with Aspose.CAD for Java. This step-by-step guide intr
 Master layer support in Java CAD development with Aspose.CAD. Organize and export drawings effortlessly.
 ### [Extract Block Attribute Value from External Reference Using Aspose.CAD In Java](./extract-block-attribute-value/)
 Explore our tutorial on extracting block attribute values from DWG external references in Java using Aspose.CAD. Enhance your CAD development workflow effortlessly.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

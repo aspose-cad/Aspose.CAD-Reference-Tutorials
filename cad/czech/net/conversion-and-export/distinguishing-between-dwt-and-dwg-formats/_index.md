@@ -3,10 +3,16 @@ title: Rozlišování mezi formáty DWT a DWG - Aspose.CAD Guide
 linktitle: Rozlišování mezi formáty DWT a DWG
 second_title: Aspose.CAD .NET – formát souborů CAD a BIM
 description: Prozkoumejte nuance formátů DWT a DWG s Aspose.CAD pro .NET. Rozlišujte mezi těmito typy souborů CAD bez námahy.
-type: docs
 weight: 12
 url: /cs/net/conversion-and-export/distinguishing-between-dwt-and-dwg-formats/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Rozlišování mezi formáty DWT a DWG - Aspose.CAD Guide
+
 ## Úvod
 
 oblasti počítačově podporovaného navrhování (CAD) je porozumění formátům souborů zásadní pro bezproblémovou spolupráci a efektivní pracovní postupy. Dva běžné formáty, DWT a DWG, často vedou k záměně kvůli jejich podobnosti. Tento tutoriál si klade za cíl demystifikovat tyto formáty pomocí Aspose.CAD for .NET, výkonné knihovny pro manipulaci se soubory CAD.
@@ -93,3 +99,9 @@ Odpověď 1: Aspose.CAD for .NET je navržen tak, aby se hladce integroval s ost
 ### Q5: Mohu použít Aspose.CAD pro .NET v komerčních projektech?
 
  A5: Ano, Aspose.CAD for .NET můžete integrovat do svých komerčních projektů pomocí[zakoupení licence](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

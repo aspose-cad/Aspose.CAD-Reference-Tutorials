@@ -3,10 +3,16 @@ title: Automatikus elrendezési méretezés beállítása Aspose.CAD for Java se
 linktitle: Az automatikus elrendezési méretezés beállítása
 second_title: Aspose.CAD Java API
 description: Javítsa ki CAD-munkafolyamatát az Aspose.CAD for Java segítségével. Ez a lépésenkénti útmutató bemutatja az automatikus elrendezési méretezést, amely optimális megjelenítést és hatékonyságot biztosít. Töltse le a könyvtárat, kövesse az oktatóanyagot, és forradalmasítsa CAD-projektjeit.
-type: docs
 weight: 17
 url: /hu/java/advanced-cad-features/setting-auto-layout-scaling/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Automatikus elrendezési méretezés beállítása Aspose.CAD for Java segítségével
+
 ## Bevezetés
 
 A számítógéppel segített tervezés (CAD) dinamikus világában a hatékonyság kulcsfontosságú. Az Aspose.CAD for Java robusztus eszközkészletet biztosít a CAD-munkafolyamat javításához. Az egyik kiemelkedő szolgáltatás az Auto Layout Scaling, egy olyan funkció, amely biztosítja az elrendezések zökkenőmentes beállítását az optimális megjelenítés érdekében. Ebben az oktatóanyagban megvizsgáljuk, hogyan lehet lépésről lépésre megvalósítani az automatikus elrendezési skálázást az Aspose.CAD for Java segítségével.
@@ -93,3 +99,9 @@ Az Aspose.CAD for Java leegyszerűsíti az Auto Layout Scaling megvalósításá
 ### 5. kérdés: Hogyan kérhetek segítséget, vagy hogyan vehetek részt vitákban az Aspose.CAD for Java-ról?
 
 A5: Látogassa meg a[Aspose.CAD fórum](https://forum.aspose.com/c/cad/19) kapcsolatba lépni a közösséggel és támogatást kérni.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

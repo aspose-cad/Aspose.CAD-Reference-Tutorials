@@ -3,10 +3,16 @@ title: Seznam všech rozvržení v AutoCAD Drawing s Java
 linktitle: Seznam všech rozvržení v AutoCAD Drawing s Java
 second_title: Aspose.CAD Java API
 description: Prozkoumejte výkresy AutoCADu bez námahy v Javě s Aspose.CAD. Seznam všech rozvržení, extrahujte cenné informace. Stáhněte si nyní pro bezproblémovou integraci!
-type: docs
 weight: 11
 url: /cs/java/dwg-file-operations/list-all-layouts/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Seznam všech rozvržení v AutoCAD Drawing s Java
+
 ## Úvod
 
 Chcete využít plný potenciál výkresů AutoCAD ve svých aplikacích Java? Aspose.CAD for Java je vaším řešením, které nabízí bezproblémovou integraci pro manipulaci a extrahování cenných informací ze souborů DWG a DXF. V tomto podrobném průvodci vás provedeme procesem výpisu všech rozvržení ve výkresu AutoCADu pomocí Aspose.CAD for Java.
@@ -86,3 +92,9 @@ Odpověď 3: Ano, vzorové výkresy najdete v adresáři "DWGDrawings" v balíč
 ### Q5: Mohu vyzkoušet Aspose.CAD pro Java před nákupem?
 
  A5: Určitě! Získejte bezplatnou zkušební verzi od[tady](https://releases.aspose.com/) zažijte sílu Aspose.CAD pro Javu.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

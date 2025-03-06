@@ -3,10 +3,16 @@ title: 使用 Aspose.CAD for Java 取代 DWG 中的字體
 linktitle: DWG 中的替代字體
 second_title: Aspose.CAD Java API
 description: 輕鬆增強您的 CAD 設計。了解使用 Aspose.CAD for Java 取代 DWG 檔案中的字型。視覺完美的分步指南。
-type: docs
 weight: 11
 url: /zh-hant/java/cad-text-and-annotation/substitute-font-in-dwg/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.CAD for Java 取代 DWG 中的字體
+
 ## 介紹
 
 在電腦輔助設計 (CAD) 的動態領域中，增強繪圖的視覺吸引力通常至關重要。實現此目的的有效方法是替換 DWG 檔案中的字體。 Aspose.CAD for Java 成為該領域的強大工具，為字體替換提供了無縫解決方案。在本教程中，我們將逐步完成該過程，以示範如何使用 Aspose.CAD for Java 取代 DWG 檔案中的字體。
@@ -91,3 +97,9 @@ A4：是的，Aspose.CAD for Java 支援批次。您可以使用腳本或程式�
 ### Q5：Aspose.CAD for Java 與最新的 CAD 檔案格式相容嗎？
 
 A5：是的，Aspose.CAD for Java 會定期更新以支援最新的 CAD 檔案格式，確保與業界標準的兼容性。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

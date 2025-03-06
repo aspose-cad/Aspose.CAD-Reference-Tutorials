@@ -3,10 +3,16 @@ title: STL 파일 내보내기
 linktitle: STL 파일 내보내기
 second_title: Aspose.CAD .NET - CAD 및 BIM 파일 형식
 description: .NET용 Aspose.CAD를 사용하여 STL 파일을 PNG로 쉽게 내보낼 수 있습니다. 우리의 단계별 가이드는 원활한 통합을 보장합니다. Aspose.CAD For .NET 튜토리얼을 통해 알아보세요.
-type: docs
 weight: 42
 url: /ko/net/stl-file-export/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# STL 파일 내보내기
+
 
 ## STL 파일 내보내기 튜토리얼
 
@@ -29,3 +35,9 @@ url: /ko/net/stl-file-export/
 기술을 더욱 향상하려면 포괄적인 Aspose.CAD for .NET 튜토리얼 목록을 살펴보세요. STL 파일 내보내기 외에도 디자인 여정을 더욱 흥미롭게 만드는 수많은 기능과 팁을 찾아보세요. 초보자이든 고급 사용자이든 당사 튜토리얼에서는 다양한 주제를 다루므로 CAD 개발의 선두에 설 수 있습니다.
 
 결론적으로 STL 파일 내보내기의 잠재력을 활용하는 것이 그 어느 때보다 쉬워졌습니다. .NET용 Aspose.CAD를 사용하면 복잡한 프로세스가 쉬워집니다. STL 파일을 PNG로 쉽게 변환할 수 있는 지식을 갖춘 3D 디자인의 세계에 빠져보세요. 원활한 디자인 경험을 위한 관문인 Aspose.CAD for .NET을 사용하여 디자인을 탐색, 생성 및 향상하세요.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

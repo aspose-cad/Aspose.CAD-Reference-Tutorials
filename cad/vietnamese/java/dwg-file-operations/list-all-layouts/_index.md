@@ -3,10 +3,16 @@ title: Liệt kê tất cả các bố cục trong bản vẽ AutoCAD bằng Jav
 linktitle: Liệt kê tất cả các bố cục trong bản vẽ AutoCAD bằng Java
 second_title: API Java Aspose.CAD
 description: Khám phá các bản vẽ AutoCAD dễ dàng trong Java với Aspose.CAD. Liệt kê tất cả các bố cục, trích xuất thông tin có giá trị. Tải xuống ngay để tích hợp liền mạch!
-type: docs
 weight: 11
 url: /vi/java/dwg-file-operations/list-all-layouts/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Liệt kê tất cả các bố cục trong bản vẽ AutoCAD bằng Java
+
 ## Giới thiệu
 
 Bạn đang tìm cách khai thác toàn bộ tiềm năng của bản vẽ AutoCAD trong các ứng dụng Java của mình? Aspose.CAD cho Java là giải pháp phù hợp của bạn, cung cấp sự tích hợp liền mạch để thao tác và trích xuất thông tin có giá trị từ các tệp DWG và DXF. Trong hướng dẫn từng bước này, chúng tôi sẽ hướng dẫn bạn quy trình liệt kê tất cả các bố cục trong bản vẽ AutoCAD bằng Aspose.CAD cho Java.
@@ -86,3 +92,9 @@ Câu trả lời 3: Có, bạn có thể tìm thấy các bản vẽ mẫu trong
 ### Câu hỏi 5: Tôi có thể dùng thử Aspose.CAD cho Java trước khi mua không?
 
  A5: Chắc chắn rồi! Nhận bản dùng thử miễn phí từ[đây](https://releases.aspose.com/)và trải nghiệm sức mạnh của Aspose.CAD cho Java.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

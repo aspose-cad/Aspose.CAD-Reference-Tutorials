@@ -3,10 +3,16 @@ title: पीएलटी और वॉटरमार्किंग
 linktitle: पीएलटी और वॉटरमार्किंग
 second_title: Aspose.CAD .NET - CAD और BIM फ़ाइल स्वरूप
 description: .NET के लिए Aspose.CAD के साथ PLT प्रारूप की क्षमता को अनलॉक करें। हमारे चरण-दर-चरण ट्यूटोरियल के साथ आसानी से पीएलटी फ़ाइलों को अपने एप्लिकेशन में एकीकृत करें।
-type: docs
 weight: 37
 url: /hi/net/plt-and-watermarking/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# पीएलटी और वॉटरमार्किंग
+
 
 ## परिचय
 
@@ -46,3 +52,9 @@ Aspose.CAD केवल कार्यक्षमता प्रदान न
 .NET के लिए Aspose.CAD में निर्बाध PLT प्रारूप समर्थन खोजें। अपने .NET अनुप्रयोगों में PLT फ़ाइलों को सहजता से एकीकृत करने के लिए हमारी चरण-दर-चरण मार्गदर्शिका का पालन करें।
 ### [CAD ड्रॉइंग में वॉटरमार्क जोड़ना - Aspose.CAD गाइड](./adding-watermarks-to-cad-drawings/)
 .NET के लिए Aspose.CAD का उपयोग करके पेशेवर वॉटरमार्क के साथ अपने CAD चित्रों को बेहतर बनाएं। वैयक्तिकृत और आकर्षक डिज़ाइन के लिए हमारी चरण-दर-चरण मार्गदर्शिका का पालन करें।
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

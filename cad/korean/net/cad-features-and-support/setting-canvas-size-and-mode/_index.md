@@ -3,10 +3,16 @@ title: .NET용 Aspose.CAD에서 캔버스 크기 및 모드 설정
 linktitle: 캔버스 크기 및 모드 설정
 second_title: Aspose.CAD .NET - CAD 및 BIM 파일 형식
 description: .NET용 Aspose.CAD에서 캔버스 크기 및 모드 설정에 대한 단계별 가이드를 살펴보세요. 이 포괄적인 튜토리얼을 사용하여 쉽게 CAD 렌더링을 최적화하십시오.
-type: docs
 weight: 16
 url: /ko/net/cad-features-and-support/setting-canvas-size-and-mode/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# .NET용 Aspose.CAD에서 캔버스 크기 및 모드 설정
+
 ## 소개
 
 .NET용 Aspose.CAD의 잠재력을 최대한 활용하고 CAD 렌더링 경험을 혁신할 준비가 되셨습니까? 이 단계별 튜토리얼에서는 강력한 Aspose.CAD 라이브러리를 사용하여 캔버스 크기와 모드를 설정하는 복잡한 과정을 살펴보겠습니다. 숙련된 개발자이든 이제 막 시작하는 개발자이든 이 가이드는 Aspose.CAD의 기능을 효과적으로 활용할 수 있도록 프로세스를 안내합니다.
@@ -119,3 +125,9 @@ A1: 예, Aspose.CAD는 다른 .NET 라이브러리와 원활하게 통합되어 
 ### Q5: .NET용 Aspose.CAD를 어떻게 구매하나요?
 
  A5: Aspose.CAD를 구매하려면[구매 페이지](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

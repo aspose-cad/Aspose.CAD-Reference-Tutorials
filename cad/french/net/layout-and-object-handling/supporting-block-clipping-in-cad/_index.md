@@ -3,10 +3,16 @@ title: Prise en charge du découpage de blocs en CAO - Tutoriel Aspose.CAD
 linktitle: Prise en charge du découpage de blocs en CAO
 second_title: Aspose.CAD .NET - Format de fichier CAO et BIM
 description: Découvrez comment implémenter le découpage de blocs en CAO à l'aide d'Aspose.CAD pour .NET. Améliorez vos capacités de conception avec ce didacticiel étape par étape.
-type: docs
 weight: 12
 url: /fr/net/layout-and-object-handling/supporting-block-clipping-in-cad/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Prise en charge du découpage de blocs en CAO - Tutoriel Aspose.CAD
+
 ## Introduction
 
 Bienvenue dans un didacticiel complet sur la prise en charge du découpage de blocs en CAO à l'aide d'Aspose.CAD pour .NET. Aspose.CAD est une bibliothèque puissante qui permet aux développeurs de travailler de manière transparente avec des fichiers CAO dans leurs applications .NET. Dans ce didacticiel, nous nous concentrerons sur la mise en œuvre du découpage de blocs, une fonctionnalité essentielle de la conception CAO.
@@ -122,3 +128,9 @@ A1 : Aspose.CAD est principalement conçu pour les applications .NET. Si vous tr
 ### Q5 : Puis-je utiliser Aspose.CAD sans licence permanente ?
 
  A5 : Oui, vous pouvez obtenir une licence temporaire[ici](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

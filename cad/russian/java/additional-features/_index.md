@@ -3,10 +3,16 @@ title: Дополнительные возможности
 linktitle: Дополнительные возможности
 second_title: API Aspose.CAD Java
 description: Раскройте потенциал Aspose.CAD на Java с помощью наших руководств. Добавляйте пользовательские свойства, разлагайте объекты вставки САПР, включайте отслеживание и легко экспортируйте чертежи DXF. Улучшите свой рабочий процесс САПР без особых усилий.
-type: docs
 weight: 29
 url: /ru/java/additional-features/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Дополнительные возможности
+
 
 
 ## Введение
@@ -60,3 +66,9 @@ url: /ru/java/additional-features/
 ## Заключение
 
 Эти учебные пособия охватывают ряд дополнительных функций Aspose.CAD для Java и предлагают вам ценную информацию и навыки для оптимизации рабочего процесса САПР. Независимо от того, совершенствуете ли вы организацию, осваиваете методы декомпозиции, включаете отслеживание или изучаете различные варианты экспорта, эти учебные пособия предоставят вам необходимые знания. Повысьте свои навыки САПР сегодня с помощью Aspose.CAD для Java.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

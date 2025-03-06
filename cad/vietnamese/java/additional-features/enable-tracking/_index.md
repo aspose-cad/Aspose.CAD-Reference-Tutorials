@@ -3,10 +3,16 @@ title: Kích hoạt tính năng theo dõi trong tệp DWG bằng Aspose.CAD tron
 linktitle: Kích hoạt tính năng theo dõi trong tệp DWG bằng Java
 second_title: API Java Aspose.CAD
 description: Khám phá hướng dẫn từng bước về cách bật theo dõi tệp DWG trong Java bằng Aspose.CAD, đảm bảo cộng tác liền mạch trong các dự án CAD.
-type: docs
 weight: 12
 url: /vi/java/additional-features/enable-tracking/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Kích hoạt tính năng theo dõi trong tệp DWG bằng Aspose.CAD trong Java
+
 ## Giới thiệu
 
 Trong lĩnh vực thiết kế có sự hỗ trợ của máy tính (CAD), Aspose.CAD cho Java nổi bật như một công cụ mạnh mẽ cho phép các nhà phát triển thao tác và chuyển đổi các tệp CAD một cách dễ dàng. Hướng dẫn này đi sâu vào chức năng cụ thể của Aspose.CAD cho Java – cho phép theo dõi trong tệp DWG. Theo dõi các thay đổi trong tệp DWG là rất quan trọng đối với các dự án thiết kế hợp tác, đảm bảo giao tiếp liền mạch và quy trình làm việc hiệu quả. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn các bước để bật tính năng theo dõi bằng Java, tận dụng các khả năng của Aspose.CAD.
@@ -123,3 +129,9 @@ Trả lời 1: Aspose.CAD chủ yếu hỗ trợ các tệp DWG để theo dõi.
 ### Câu hỏi 5: Làm cách nào để có được giấy phép tạm thời cho Aspose.CAD cho Java?
 
  Câu trả lời 5: Thực hiện theo quy trình được nêu tại[Giấy phép tạm thời](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

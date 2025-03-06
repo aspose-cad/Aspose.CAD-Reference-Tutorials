@@ -3,10 +3,16 @@ title: Nastavte velikost a režim plátna
 linktitle: Nastavte velikost a režim plátna
 second_title: Aspose.CAD Java API
 description: Prozkoumejte sílu Aspose.CAD pro Java pomocí našeho podrobného průvodce nastavením velikosti a režimu plátna. Bez námahy převádějte soubory CAD do formátů PDF a TIFF.
-type: docs
 weight: 16
 url: /cs/java/advanced-cad-features/set-canvas-size-and-mode/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Nastavte velikost a režim plátna
+
 ## Úvod
 
 Chcete využít sílu Aspose.CAD pro Java k vylepšení vašeho procesu konverze CAD? Tento komplexní průvodce vás provede kroky nastavení velikosti plátna a režimu pomocí Aspose.CAD pro Java. Ať už jste zkušený vývojář nebo teprve začínáte, tento tutoriál vám poskytne potřebné informace.
@@ -126,3 +132,9 @@ Odpověď 1: Ano, Aspose.CAD je navržen tak, aby se hladce integroval s různý
 ### Q5: Jak koupím Aspose.CAD pro Java?
 
  A5: Kupte si produkt[tady](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

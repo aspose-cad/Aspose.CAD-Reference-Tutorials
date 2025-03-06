@@ -3,10 +3,16 @@ title: Передовые методы экспорта
 linktitle: Передовые методы экспорта
 second_title: Aspose.CAD .NET — формат файлов CAD и BIM
 description: Раскройте возможности Aspose.CAD на C# с помощью наших руководств по передовым методам экспорта. Легко экспортируйте DWG в DXF, PDF, растровые изображения, объекты OLE и т. д.
-type: docs
 weight: 26
 url: /ru/net/advanced-export-techniques/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Передовые методы экспорта
+
 
 ## Введение
 
@@ -50,3 +56,9 @@ url: /ru/net/advanced-export-techniques/
 Легко экспортируйте чертежи САПР в PDF с помощью Aspose.CAD для .NET. Следуйте нашему пошаговому руководству для эффективного преобразования.
 ### [Экспорт чертежей САПР в формат SVG — Руководство Aspose.CAD](./exporting-cad-drawings-to-svg/)
 Изучите простой процесс экспорта чертежей САПР в SVG с помощью Aspose.CAD для .NET. Улучшите свою разработку САПР за счет гибкости и настройки.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

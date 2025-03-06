@@ -3,10 +3,16 @@ title: 使用 Aspose.CAD for Java 列出 DWG 中的佈局
 linktitle: DWG 中的清單佈局
 second_title: Aspose.CAD Java API
 description: 探索 Aspose.CAD for Java 並輕鬆列出 DWG 檔案中的佈局。將強大的 CAD 功能整合到您的 Java 應用程式中。
-type: docs
 weight: 12
 url: /zh-hant/java/cad-file-manipulation/list-layouts-in-dwg/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.CAD for Java 列出 DWG 中的佈局
+
 ## 介紹
 
 歡迎閱讀我們有關使用 Aspose.CAD for Java 列出 DWG 檔案中的佈局的逐步指南。 Aspose.CAD 是一個功能強大的函式庫，使開發人員能夠以程式設計方式處理 CAD 檔案。在本教程中，我們將重點放在一項特定任務：列出 DWG 檔案中的佈局。閱讀本指南後，您將能夠將此功能無縫整合到您的 Java 應用程式中。
@@ -86,3 +92,9 @@ A1：是的，Aspose.CAD支援各種CAD格式，包括DWG、DXF、DWF等。
 ### Q5：我可以使用臨時許可證進行測試嗎？
 
  A5：是的，您可以獲得臨時許可證[這裡](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

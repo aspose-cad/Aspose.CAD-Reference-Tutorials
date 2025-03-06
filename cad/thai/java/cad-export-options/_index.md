@@ -3,10 +3,16 @@ title: ตัวเลือกการส่งออก CAD
 linktitle: ตัวเลือกการส่งออก CAD
 second_title: Aspose.CAD Java API
 description: ส่งออกรูปภาพ AutoCAD, เค้าโครง CAD, IFC, ไฟล์ STL เป็น PDF, BMP, PNG ได้อย่างง่ายดายโดยใช้ Aspose.CAD สำหรับ Java ลดความซับซ้อนของขั้นตอนการทำงานของคุณด้วยบทช่วยสอนทีละขั้นตอนของเรา
-type: docs
 weight: 30
 url: /th/java/cad-export-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# ตัวเลือกการส่งออก CAD
+
 
 ## การแนะนำ
 
@@ -50,3 +56,9 @@ url: /th/java/cad-export-options/
 แปลง IFC เป็น PNG ได้อย่างง่ายดายด้วย Aspose.CAD สำหรับ Java ปฏิบัติตามบทช่วยสอนทีละขั้นตอนของเรา
 ### [ส่งออก STL เป็น PNG ด้วย Aspose.CAD สำหรับ Java](./export-stl-to-png/)
 สำรวจกระบวนการส่งออกไฟล์ STL ไปยัง PNG ใน Java ได้อย่างราบรื่นด้วย Aspose.CAD ลดความซับซ้อนของเวิร์กโฟลว์และปรับปรุงโปรเจ็กต์ Java ของคุณได้อย่างง่ายดาย
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

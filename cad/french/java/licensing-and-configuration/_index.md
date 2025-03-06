@@ -3,10 +3,16 @@ title: Licence et configuration
 linktitle: Licence et configuration
 second_title: API Java Aspose.CAD
 description: Libérez la puissance d'Aspose.CAD pour Java avec notre didacticiel de licence limitée. Optimisez le traitement CAO de manière efficace et rentable pour une productivité améliorée.
-type: docs
 weight: 25
 url: /fr/java/licensing-and-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Licence et configuration
+
 ## Introduction
 
 Se lancer dans l’aventure de la maîtrise des licences mesurées dans Aspose.CAD pour Java ouvre les portes d’une efficacité et d’une rentabilité inégalées dans le traitement de CAO. Dans ce guide complet, nous abordons les subtilités, vous permettant d'optimiser votre flux de travail de manière transparente.
@@ -25,3 +31,9 @@ En conclusion, les licences limitées dans Aspose.CAD pour Java ne consistent pa
 ## Tutoriels sur les licences et la configuration
 ### [Licences mesurées dans Aspose.CAD](./metered-licensing-in-aspose-cad/)
 Apprenez à maîtriser les licences limitées dans Aspose.CAD pour Java avec ce guide complet. Optimisez votre traitement CAO pour plus d’efficacité et de rentabilité.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

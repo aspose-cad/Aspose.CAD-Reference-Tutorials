@@ -3,10 +3,16 @@ title: تصدير DWG إلى PDF أو Raster باستخدام Aspose.CAD لـ Ja
 linktitle: تصدير DWG إلى PDF أو النقطية
 second_title: Aspose.CAD جافا API
 description: استكشف العملية السلسة لتصدير ملفات DWG إلى PDF أو الصور النقطية في Java باستخدام Aspose.CAD. يضمن هذا الدليل التفصيلي الدقة والكفاءة.
-type: docs
 weight: 13
 url: /ar/java/cad-drawing-conversion/export-dwg-to-pdf-or-raster/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تصدير DWG إلى PDF أو Raster باستخدام Aspose.CAD لـ Java
+
 ## مقدمة
 
 في عالم التصميم بمساعدة الكمبيوتر (CAD) الديناميكي، يعد التعامل الفعال مع الرسومات أمرًا بالغ الأهمية. يوفر Aspose.CAD for Java حلاً قويًا لتصدير ملفات DWG إلى PDF أو الصور النقطية. سيرشدك هذا البرنامج التعليمي خلال العملية، مما يضمن لك الاستفادة الكاملة من إمكانات Aspose.CAD لـ Java.
@@ -116,3 +122,9 @@ objImage.save(dataDir + "Saved.pdf", pdfOptions);
 ### س5: ما هي الوحدات التي يدعمها Aspose.CAD لـ Java؟
 
 ج5: يدعم Aspose.CAD for Java كلاً من الوحدات المترية والإمبريالية.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

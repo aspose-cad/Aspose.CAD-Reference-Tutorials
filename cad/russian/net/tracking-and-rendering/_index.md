@@ -3,10 +3,16 @@ title: Отслеживание и рендеринг
 linktitle: Отслеживание и рендеринг
 second_title: Aspose.CAD .NET — формат файлов CAD и BIM
 description: Раскройте возможности Aspose.CAD для .NET с помощью наших руководств. Узнайте, как включить отслеживание в файлах САПР и плавно отображать файлы DXF в формате PDF.
-type: docs
 weight: 31
 url: /ru/net/tracking-and-rendering/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Отслеживание и рендеринг
+
 
 ## Введение
 
@@ -30,3 +36,9 @@ Aspose.CAD for .NET предоставляет надежную платформ
 Отслеживание файлов Master CAD с помощью Aspose.CAD для .NET. Следуйте нашему пошаговому руководству для точного рендеринга и отслеживания ошибок. Скачать сейчас!
 ### [Рендеринг файлов DXF в формате PDF — Руководство Aspose.CAD](./rendering-dxf-files-as-pdf/)
 Ознакомьтесь с полным руководством по рендерингу файлов DXF в формате PDF с помощью Aspose.CAD для .NET. С легкостью конвертируйте файлы САПР с помощью нашего пошагового руководства.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

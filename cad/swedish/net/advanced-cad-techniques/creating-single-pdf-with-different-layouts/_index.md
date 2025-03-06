@@ -3,10 +3,16 @@ title: Skapa en enda PDF med olika layouter - Aspose.CAD Guide
 linktitle: Skapa en enda PDF med olika layouter
 second_title: Aspose.CAD .NET - CAD- och BIM-filformat
 description: Skapa en enda PDF med olika layouter med Aspose.CAD för .NET. Följ vår steg-för-steg-guide för sömlös integration och effektiv PDF-generering.
-type: docs
 weight: 13
 url: /sv/net/advanced-cad-techniques/creating-single-pdf-with-different-layouts/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Skapa en enda PDF med olika layouter - Aspose.CAD Guide
+
 ## Introduktion
 
 Vill du skapa ett enda PDF-dokument från en CAD-ritning med olika layouter med Aspose.CAD för .NET? Den här steg-för-steg-guiden leder dig genom processen och hjälper dig att uppnå sömlös integrering och effektivt skapande av PDF. Aspose.CAD för .NET tillhandahåller kraftfulla funktioner för att manipulera CAD-ritningar programmatiskt, och i denna handledning kommer vi att fokusera på att skapa en enda PDF-fil med olika layouter.
@@ -95,3 +101,9 @@ S1: Ja, Aspose.CAD för .NET stöder olika CAD-format som DWG, DXF, DGN och mer.
 ### F5: Kan jag köpa en licens för Aspose.CAD för .NET?
 
  A5: Ja, du kan köpa en licens[här](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

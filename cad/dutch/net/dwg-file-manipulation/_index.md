@@ -3,10 +3,16 @@ title: Manipulatie van DWG-bestanden
 linktitle: Manipulatie van DWG-bestanden
 second_title: Aspose.CAD .NET - CAD- en BIM-bestandsindeling
 description: Ontgrendel de kracht van Aspose.CAD in .NET met onze DWG-tutorials. Master C# voor efficiënte CAD-verwerking, waarbij DWF-lay-outformaten naadloos worden geëxtraheerd.
-type: docs
 weight: 24
 url: /nl/net/dwg-file-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Manipulatie van DWG-bestanden
+
 
 ## Invoering
 
@@ -39,3 +45,9 @@ Leer hoe u DWFX-bestanden opent en opent in C# met behulp van Aspose.CAD voor .N
 Ontgrendel de kracht van Aspose.CAD voor .NET bij het verkennen van underlay-vlaggen voor DWG-bestanden. Volg onze stapsgewijze handleiding.
 ### [Tekst toevoegen aan DWG-bestanden in C# - Aspose.CAD-zelfstudie](./adding-text-to-dwg/)
 Leer hoe u tekst aan DWG-bestanden kunt toevoegen met C# en Aspose.CAD. Volg deze stapsgewijze zelfstudie voor een naadloze integratie. Verken de Aspose.CAD-documentatie voor uitgebreide begeleiding.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

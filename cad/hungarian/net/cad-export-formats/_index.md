@@ -3,10 +3,16 @@ title: CAD export formátumok
 linktitle: CAD export formátumok
 second_title: Aspose.CAD .NET - CAD és BIM fájlformátum
 description: Könnyedén elsajátíthatja a CAD export formátumokat az Aspose.CAD for .NET segítségével. Ismerje meg a CAD-elrendezések konvertálását, a DGN-fájlok PDF-formátumba való exportálását és a raszterképeket az oktatóanyagok segítségével.
-type: docs
 weight: 22
 url: /hu/net/cad-export-formats/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# CAD export formátumok
+
 
 ## Bevezetés
 
@@ -38,3 +44,9 @@ Ismerje meg, hogyan exportálhat DGN-t a DWG részeként az Aspose.CAD for .NET-
 Tanulja meg, hogyan exportálhat könnyedén DGN fájlokat PDF formátumba az Aspose.CAD for .NET segítségével. Lépésről lépésre szóló útmutató a zökkenőmentes CAD-fájlok kezeléséhez.
 ### [DGN exportálása raszterképbe az Aspose.CAD for .NET-ben](./export-dgn-to-raster-image/)
 Könnyedén konvertálja a DGN-t raszterképekké az Aspose.CAD for .NET segítségével. Fedezze fel a lépésenkénti útmutatót, és engedje szabadjára a .NET erejét a CAD-fájlok kezelésében.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

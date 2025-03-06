@@ -3,10 +3,16 @@ title: Εφαρμογή άδειας χρήσης χρησιμοποιώντας
 linktitle: Εφαρμογή άδειας χρήσης χρησιμοποιώντας το FileStream
 second_title: Aspose.CAD .NET - Μορφή αρχείου CAD και BIM
 description: Mastering Aspose.CAD για .NET - Εφαρμόστε άδειες χρήσης απρόσκοπτα χρησιμοποιώντας το FileStream. Εξερευνήστε τον οδηγό βήμα προς βήμα και ξεκλειδώστε τις δυνατότητες. Κατεβάστε τώρα!
-type: docs
 weight: 11
 url: /el/net/licensing-and-configuration/apply-license-using-filestream/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Εφαρμογή άδειας χρήσης χρησιμοποιώντας το FileStream στο Aspose.CAD για .NET
+
 ## Εισαγωγή
 
 Καλώς ορίσατε στον κόσμο του Aspose.CAD για .NET – ένα ισχυρό εργαλείο που δίνει τη δυνατότητα στους προγραμματιστές να χειρίζονται τα αρχεία CAD απρόσκοπτα. Σε αυτό το σεμινάριο, θα σας καθοδηγήσουμε στη διαδικασία εφαρμογής μιας άδειας χρήσης χρησιμοποιώντας το FileStream, διασφαλίζοντας ότι αξιοποιείτε πλήρως τις δυνατότητες του Aspose.CAD στα έργα σας .NET.
@@ -80,3 +86,9 @@ license.SetLicense(LicStream);
 ### Ε5: Χρειάζεστε βοήθεια ή έχετε ερωτήσεις; Πού μπορώ να βρω υποστήριξη;
 
  A5: Επισκεφθείτε τα φόρουμ Aspose.CAD[εδώ](https://forum.aspose.com/c/cad/19) για τυχόν ερωτήματα που σχετίζονται με την υποστήριξη.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

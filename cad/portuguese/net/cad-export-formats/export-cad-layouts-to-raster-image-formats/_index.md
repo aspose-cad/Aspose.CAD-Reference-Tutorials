@@ -3,10 +3,16 @@ title: Exporte layouts CAD para formatos de imagem raster no Aspose.CAD for .NET
 linktitle: Exporte layouts CAD para formatos de imagem raster
 second_title: Aspose.CAD .NET - Formato de arquivo CAD e BIM
 description: Aprenda como exportar layouts CAD para imagens raster usando Aspose.CAD for .NET. Siga nosso guia passo a passo para uma conversão perfeita.
-type: docs
 weight: 10
 url: /pt/net/cad-export-formats/export-cad-layouts-to-raster-image-formats/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Exporte layouts CAD para formatos de imagem raster no Aspose.CAD for .NET
+
 ## Introdução
 
 Você está procurando converter layouts CAD em formatos de imagem raster com eficiência usando Aspose.CAD for .NET? Este guia passo a passo orientará você durante o processo, fornecendo instruções detalhadas e trechos de código para tornar a tarefa perfeita. Quer você seja um desenvolvedor experiente ou um novato no Aspose.CAD, este tutorial atende a todos os níveis de conhecimento.
@@ -112,3 +118,9 @@ Parabéns! Você aprendeu com sucesso como exportar layouts CAD para formatos de
 ### P5: Onde posso encontrar a documentação?
 
  A5: Consulte a documentação detalhada[aqui](https://reference.aspose.com/cad/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

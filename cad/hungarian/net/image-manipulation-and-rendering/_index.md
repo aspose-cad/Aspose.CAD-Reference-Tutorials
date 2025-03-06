@@ -3,10 +3,16 @@ title: Képmanipuláció és renderelés
 linktitle: Képmanipuláció és renderelés
 second_title: Aspose.CAD .NET - CAD és BIM fájlformátum
 description: Oldja fel a CAD-fájlok lehetőségét az Aspose.CAD for .NET segítségével. Könnyedén megtanulhatja a blokk-attribútumok kivonását, a képimportálást, a DWG-ből PDF-be konvertálást, a mesh-támogatást és még sok mást.
-type: docs
 weight: 27
 url: /hu/net/image-manipulation-and-rendering/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Képmanipuláció és renderelés
+
 
 ## Bevezetés
 
@@ -54,3 +60,9 @@ Fedezze fel az Aspose.CAD for .NET webhelyet. A DWG-t könnyedén konvertálja k
 DWG-fájlokból származó XREF-metaadatok kiolvasásáról szóló, lépésenkénti oktatóanyagunk segítségével tárja fel az Aspose.CAD-ben rejlő lehetőségeket .NET-hez.
 ### [DWG-dokumentumok renderelése C#-ban - Aspose.CAD útmutató](./rendering-dwg-documents/)
 Ismerje meg, hogyan lehet DWG dokumentumokat renderelni C# nyelven az Aspose.CAD használatával. Ez a lépésenkénti útmutató az importálást, a konfigurálást és a kódpéldákkal történő mentést ismerteti.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

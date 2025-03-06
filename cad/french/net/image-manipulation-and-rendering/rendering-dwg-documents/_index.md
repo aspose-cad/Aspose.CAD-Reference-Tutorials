@@ -3,10 +3,16 @@ title: Rendu de documents DWG en C# - Guide Aspose.CAD
 linktitle: Rendu de documents DWG en C#
 second_title: Aspose.CAD .NET - Format de fichier CAO et BIM
 description: Découvrez comment restituer des documents DWG en C# à l'aide d'Aspose.CAD. Ce guide étape par étape couvre l'importation, la configuration et l'enregistrement avec des exemples de code.
-type: docs
 weight: 17
 url: /fr/net/image-manipulation-and-rendering/rendering-dwg-documents/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Rendu de documents DWG en C# - Guide Aspose.CAD
+
 ## Introduction
 
 Bienvenue dans le guide complet sur le rendu des documents DWG en C# à l'aide d'Aspose.CAD. Que vous soyez un développeur chevronné ou que vous débutiez tout juste avec .NET, ce didacticiel vous guidera tout au long du processus d'exploitation d'Aspose.CAD pour restituer efficacement les fichiers DWG. Aspose.CAD est une API puissante qui fournit des fonctionnalités robustes pour travailler avec des formats de fichiers CAO, ce qui en fait un choix incontournable pour les développeurs travaillant avec des fichiers DWG.
@@ -130,3 +136,9 @@ A2 : Oui, Aspose.CAD est compatible avec .NET Framework et .NET Core.
 ### Q5 : Où puis-je trouver une assistance supplémentaire ?
 
 A5 : Visitez le[Forum Aspose.CAD](https://forum.aspose.com/c/cad/19) pour le soutien et les discussions de la communauté.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

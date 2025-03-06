@@ -3,10 +3,16 @@ title: 授權和配置
 linktitle: 授權和配置
 second_title: Aspose.CAD Java API
 description: 透過我們的計量許可教學釋放 Aspose.CAD for Java 的強大功能。高效且經濟高效地優化 CAD 處理，以提高生產效率。
-type: docs
 weight: 25
 url: /zh-hant/java/licensing-and-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 授權和配置
+
 ## 介紹
 
 踏上掌握 Aspose.CAD for Java 計量許可的旅程，為 CAD 處理中無與倫比的效率和成本效益打開了大門。在這份綜合指南中，我們深入研究了其中的複雜性，使您能夠無縫優化您的工作流程。
@@ -25,3 +31,9 @@ url: /zh-hant/java/licensing-and-configuration/
 ## 授權和配置教學
 ### [Aspose.CAD 中的計量許可](./metered-licensing-in-aspose-cad/)
 透過這份綜合指南了解如何掌握 Aspose.CAD for Java 中的計量許可。優化 CAD 處理以提高效率和成本效益。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

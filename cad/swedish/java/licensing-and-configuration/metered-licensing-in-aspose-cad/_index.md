@@ -3,10 +3,16 @@ title: Uppmätta licenser i Aspose.CAD
 linktitle: Uppmätta licenser i Aspose.CAD
 second_title: Aspose.CAD Java API
 description: Lär dig hur du behärskar mätlicenser i Aspose.CAD för Java med den här omfattande guiden. Optimera din CAD-bearbetning för effektivitet och kostnadseffektivitet.
-type: docs
 weight: 10
 url: /sv/java/licensing-and-configuration/metered-licensing-in-aspose-cad/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Uppmätta licenser i Aspose.CAD
+
 ## Introduktion
 
 Lås upp den fulla potentialen hos Aspose.CAD för Java med uppmätt licensiering! Den här steg-för-steg-guiden leder dig genom processen att ställa in mätlicenser, vilket säkerställer sömlös integration och optimalt utnyttjande av detta kraftfulla Java-bibliotek för datorstödd design (CAD). Från förutsättningar till import av paket och exekvering av exempel, den här handledningen täcker allt.
@@ -94,3 +100,9 @@ Grattis! Du har framgångsrikt bemästrat uppmätt licensiering med Aspose.CAD f
 ### F5: Behöver du stöd från samhället eller har specifika frågor?
 
  S5: Gå till Aspose.CAD-forumet[här](https://forum.aspose.com/c/cad/19).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

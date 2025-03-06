@@ -3,10 +3,16 @@ title: Obsługa modeli 3D
 linktitle: Obsługa modeli 3D
 second_title: Aspose.CAD .NET - Format plików CAD i BIM
 description: Zoptymalizuj swoje aplikacje CAD za pomocą Aspose.CAD dla .NET! Opanuj sztukę płynnej obsługi formatu OBJ, odblokowując pełny potencjał swoich modeli 3D.
-type: docs
 weight: 40
 url: /pl/net/3d-model-support/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Obsługa modeli 3D
+
 
 ## Wstęp
 
@@ -32,3 +38,9 @@ Nie przegap okazji, aby pozostać w czołówce rozwoju CAD. Już teraz zapoznaj 
 ## Samouczki dotyczące obsługi modeli 3D
 ### [Obsługa formatu OBJ w Aspose.CAD - samouczek](./supporting-obj-format-in-aspose-cad/)
 Odblokuj potencjał Aspose.CAD dla .NET. Dzięki temu samouczkowi krok po kroku dowiesz się, jak bezproblemowo obsługiwać format OBJ w aplikacjach CAD.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: احصل على حجم تخطيط CAD في Aspose.CAD لـ .NET
 linktitle: احصل على حجم تخطيط CAD
 second_title: Aspose.CAD .NET - تنسيق ملف CAD وBIM
 description: تعرف على كيفية استرداد حجم تخطيط CAD في .NET باستخدام Aspose.CAD. اتبع دليلنا خطوة بخطوة لمعالجة ملفات CAD بكفاءة.
-type: docs
 weight: 14
 url: /ar/net/cad-drawing-manipulation/get-size-of-cad-layout/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# احصل على حجم تخطيط CAD في Aspose.CAD لـ .NET
+
 ## مقدمة
 
 مرحبًا بك في هذا الدليل الشامل حول الحصول على حجم تخطيطات CAD باستخدام Aspose.CAD لـ .NET. Aspose.CAD هي مكتبة قوية تمكن المطورين من العمل مع ملفات CAD بسلاسة. في هذا البرنامج التعليمي، سنرشدك خلال عملية استرداد حجم تخطيطات CAD باستخدام أمثلة عملية وتعليمات خطوة بخطوة.
@@ -143,3 +149,9 @@ A1: نعم، يدعم Aspose.CAD تنسيقات ملفات CAD المتنوعة�
 ### س5؛ كيف يمكنني الحصول على الدعم الفني؟
 
  ج5: للحصول على الدعم الفني، قم بزيارة[منتدى Aspose.CAD](https://forum.aspose.com/c/cad/19).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

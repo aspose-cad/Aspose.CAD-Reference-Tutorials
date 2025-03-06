@@ -3,10 +3,16 @@ title: تمكين تتبع عرض CAD في Aspose.CAD لـ .NET
 linktitle: تمكين تتبع عرض CAD
 second_title: Aspose.CAD .NET - تنسيق ملف CAD وBIM
 description: اكتشف قوة Aspose.CAD لـ .NET. تمكين تتبع عرض CAD بسلاسة. اتبع دليلنا خطوة بخطوة لتحسين التحكم والكفاءة.
-type: docs
 weight: 13
 url: /ar/net/cad-drawing-manipulation/enable-tracking-for-cad-rendering/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تمكين تتبع عرض CAD في Aspose.CAD لـ .NET
+
 ## مقدمة
 
 في العالم الديناميكي لتطوير البرمجيات، يبرز Aspose.CAD for .NET كحل قوي لعرض التصميم بمساعدة الكمبيوتر (CAD). تعمل هذه المكتبة القوية على تمكين المطورين من إنشاء ملفات CAD ومعالجتها وعرضها بسلاسة في بيئة .NET. في هذا البرنامج التعليمي، سوف نتعمق في جانب مهم من Aspose.CAD لـ .NET، وهو تمكين تتبع عرض CAD.
@@ -110,3 +116,9 @@ image.Save(stream, pdfOptions);
 ### س5: ما هي فوائد تمكين التتبع في عرض CAD؟
 
 ج5: يؤدي تمكين التتبع إلى تحسين إمكانية التتبع والتحكم أثناء عملية العرض، مما يضمن سير عمل أكثر شفافية وكفاءة.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

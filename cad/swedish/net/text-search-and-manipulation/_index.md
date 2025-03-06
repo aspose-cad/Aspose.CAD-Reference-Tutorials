@@ -3,10 +3,16 @@ title: Textsökning och manipulering
 linktitle: Textsökning och manipulering
 second_title: Aspose.CAD .NET - CAD- och BIM-filformat
 description: Lås upp kraften i Aspose.CAD för .NET med våra handledningar om hur du söker efter text i DWG-filer med C#. Lyft dina CAD-kunskaper och förbättra dina applikationer.
-type: docs
 weight: 28
 url: /sv/net/text-search-and-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Textsökning och manipulering
+
 
 ## Introduktion
 
@@ -36,3 +42,9 @@ I slutet av denna handledning kommer du inte bara att vara skicklig på att sök
 ## Handledning för textsökning och manipulering
 ### [Söka text i DWG-filer med C# - Aspose.CAD Tutorial](./searching-text-in-dwg-files/)
 Utforska Aspose.CAD för .NET och behärska textsökning i DWG-filer med denna steg-för-steg-guide. Öka dina CAD-applikationer idag!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

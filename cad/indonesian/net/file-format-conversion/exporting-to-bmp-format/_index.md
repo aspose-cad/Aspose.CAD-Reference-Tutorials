@@ -3,10 +3,16 @@ title: Mengekspor ke Format BMP - Tutorial Aspose.CAD
 linktitle: Mengekspor ke Format BMP
 second_title: Aspose.CAD .NET - Format File CAD dan BIM
 description: Jelajahi dunia ekspor gambar 3D yang mulus ke BMP menggunakan Aspose.CAD untuk .NET. Ikuti tutorial kami untuk pengalaman tanpa kerumitan.
-type: docs
 weight: 11
 url: /id/net/file-format-conversion/exporting-to-bmp-format/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Mengekspor ke Format BMP - Tutorial Aspose.CAD
+
 ## Perkenalan
 
 Dalam dunia pengembangan perangkat lunak yang dinamis, Aspose.CAD untuk .NET menonjol sebagai alat yang ampuh untuk menangani file Computer-Aided Design (CAD). Jika Anda ingin mengekspor gambar CAD ke format BMP yang banyak digunakan, tutorial ini adalah panduan Anda. Dalam panduan langkah demi langkah ini, kita akan menjelajahi proses mengekspor gambar 3D ke BMP menggunakan Aspose.CAD untuk .NET. Ayo selami!
@@ -94,3 +100,10 @@ A1: Ya, Aspose.CAD mendukung berbagai format file CAD, memberikan fleksibilitas 
 ### Q5: Bisakah saya membeli Aspose.CAD untuk .NET?
 
  A5: Ya, Anda dapat membeli Aspose.CAD[Di Sini](https://purchase.aspose.com/buy) untuk membuka potensi penuhnya untuk proyek Anda.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Java용 Aspose.CAD를 사용하여 IFC를 PNG로 내보내기
 linktitle: IFC를 PNG로 내보내기
 second_title: Aspose.CAD 자바 API
 description: Java용 Aspose.CAD를 사용하여 IFC를 PNG로 손쉽게 변환하세요. 단계별 튜토리얼을 따라해보세요.
-type: docs
 weight: 18
 url: /ko/java/cad-export-options/export-ifc-to-png/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java용 Aspose.CAD를 사용하여 IFC를 PNG로 내보내기
+
 ## 소개
 
 Java용 Aspose.CAD를 사용하여 IFC(Industry Foundation Classes)를 PNG로 내보내는 방법에 대한 단계별 튜토리얼에 오신 것을 환영합니다. Aspose.CAD는 IFC 형식을 포함하여 CAD 파일 작업을 위한 광범위한 기능을 제공하는 강력한 Java 라이브러리입니다. 이 튜토리얼에서는 각 단계에 대한 자세한 설명과 함께 IFC 파일을 PNG 이미지로 변환하는 과정을 안내합니다.
@@ -94,3 +100,10 @@ A3: 예, 무료 평가판에 액세스할 수 있습니다.[여기](https://rele
 ### Q5: 어디에서 도움을 구하거나 문제를 논의할 수 있나요?
 
 A5: 다음을 방문하세요.[Aspose.CAD 포럼](https://forum.aspose.com/c/cad/19) 지역 사회 지원을 위해.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

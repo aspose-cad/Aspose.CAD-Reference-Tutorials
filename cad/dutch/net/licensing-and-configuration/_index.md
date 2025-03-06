@@ -3,10 +3,16 @@ title: Licenties en configuratie
 linktitle: Licenties en configuratie
 second_title: Aspose.CAD .NET - CAD- en BIM-bestandsindeling
 description: Verbeter uw spel voor het manipuleren van CAD-bestanden met Aspose.CAD voor .NET! Pas licenties naadloos toe met FileStream of via pad met onze stapsgewijze zelfstudies.
-type: docs
 weight: 20
 url: /nl/net/licensing-and-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Licenties en configuratie
+
 
 ## Invoering
 
@@ -32,3 +38,9 @@ Concluderend: met onze stapsgewijze handleidingen past u niet alleen moeiteloos 
 Beheersing van Aspose.CAD voor .NET: pas licenties naadloos toe met FileStream. Ontdek de stapsgewijze handleiding en ontgrendel het potentieel. Download nu!
 ### [Gemeten licenties in Aspose.CAD voor .NET](./metered-licensing/)
 Ontgrendel het Aspose.CAD-potentieel met gemeten licenties in .NET. Optimaliseer het gebruik van hulpbronnen naadloos. Ontdek onze stapsgewijze handleiding.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

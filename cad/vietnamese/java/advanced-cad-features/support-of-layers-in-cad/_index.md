@@ -3,10 +3,16 @@ title: Hỗ trợ các lớp với Aspose.CAD trong Java
 linktitle: Hỗ trợ các lớp trong CAD
 second_title: API Java Aspose.CAD
 description: Hỗ trợ lớp chính trong phát triển Java CAD với Aspose.CAD. Sắp xếp và xuất bản vẽ dễ dàng.
-type: docs
 weight: 18
 url: /vi/java/advanced-cad-features/support-of-layers-in-cad/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Hỗ trợ các lớp với Aspose.CAD trong Java
+
 ## Giới thiệu
 
 Khai thác toàn bộ tiềm năng của Aspose.CAD trong Java bằng cách nắm vững khả năng hỗ trợ của các lớp. Các lớp đóng một vai trò quan trọng trong bản vẽ CAD, cho phép tổ chức và thao tác hiệu quả các phần tử đồ họa. Trong hướng dẫn toàn diện này, chúng tôi sẽ đi sâu vào sự phức tạp của việc hỗ trợ lớp bằng Aspose.CAD, cung cấp cho bạn hướng dẫn từng bước để khai thác chức năng mạnh mẽ này.
@@ -118,3 +124,9 @@ Câu trả lời 2: Có, Aspose.CAD hỗ trợ nhiều định dạng CAD, đả
 ### Câu hỏi 5: Tôi có thể tìm kiếm hỗ trợ hoặc chia sẻ trải nghiệm của mình với Aspose.CAD ở đâu?
 
 Câu trả lời 5: Tham gia cộng đồng Aspose.CAD trên[diễn đàn](https://forum.aspose.com/c/cad/19) để được hỗ trợ và thảo luận hợp tác.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

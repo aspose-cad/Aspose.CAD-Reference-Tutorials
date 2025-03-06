@@ -3,10 +3,16 @@ title: CAD Çizimlerini SVG Formatına Aktarma - Aspose.CAD Guide
 linktitle: CAD Çizimlerini SVG Formatına Aktarma
 second_title: Aspose.CAD .NET - CAD ve BIM Dosya Formatı
 description: Aspose.CAD for .NET'i kullanarak CAD çizimlerini SVG'ye aktarmanın kusursuz sürecini keşfedin. CAD geliştirmenizi esneklik ve özelleştirmeyle geliştirin.
-type: docs
 weight: 15
 url: /tr/net/advanced-export-techniques/exporting-cad-drawings-to-svg/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# CAD Çizimlerini SVG Formatına Aktarma - Aspose.CAD Guide
+
 ## giriiş
 
 CAD'nin (Bilgisayar Destekli Tasarım) dinamik dünyasında, çizimleri çeşitli formatlara aktarma yeteneği çok önemli bir beceridir. SVG (Ölçeklenebilir Vektör Grafikleri), ölçeklenebilirliği ve çok yönlülüğü nedeniyle popülerlik kazanan formatlardan biridir. Bu eğitimde, güçlü Aspose.CAD for .NET kütüphanesini kullanarak CAD çizimlerini SVG'ye nasıl aktaracağımızı keşfedeceğiz.
@@ -87,3 +93,9 @@ Cevap2: Evet, Aspose.CAD çıktıda esneklik sağlayarak renk modunu seçmenize 
 ### S5: Aspose.CAD ile ilgili nasıl destek alabilirim veya soru sorabilirim?
 
  A5: Topluluk forumunu ziyaret edin[Burada](https://forum.aspose.com/c/cad/19) Destek ve tartışmalar için.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: 변환 및 내보내기
 linktitle: 변환 및 내보내기
 second_title: Aspose.CAD .NET - CAD 및 BIM 파일 형식
 description: Aspose.CAD로 CAD 파일 조작의 세계를 열어보세요! 생생한 색상을 렌더링하고 DWG 파일을 변환하는 방법을 알아보세요. 정확한 결과를 얻으려면 DWT 및 DWG 형식을 살펴보세요.
-type: docs
 weight: 25
 url: /ko/net/conversion-and-export/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 변환 및 내보내기
+
 
 
 ## 소개
@@ -45,3 +51,9 @@ Aspose.CAD를 사용하여 C#에서 특정 좌표를 사용하여 DWG를 PDF로 
 .NET용 Aspose.CAD를 사용하여 DWG를 규정 준수 PDF로 변환합니다. 단계별 안내를 보려면 튜토리얼을 따르세요.
 ### [DWG를 DWF 형식으로 변환 - Aspose.CAD 가이드](./converting-dwg-to-dwf/)
 .NET용 Aspose.CAD를 사용하여 DWG를 DWF로 원활하게 변환하는 방법을 살펴보세요. 번거로움 없는 경험을 위해 단계별 가이드를 따르세요.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

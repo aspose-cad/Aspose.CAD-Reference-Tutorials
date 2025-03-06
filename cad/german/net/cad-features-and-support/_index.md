@@ -3,10 +3,16 @@ title: CAD-Funktionen und Support
 linktitle: CAD-Funktionen und Support
 second_title: Aspose.CAD .NET – CAD- und BIM-Dateiformat
 description: Schöpfen Sie das volle Potenzial der CAD-Funktionen mit Aspose.CAD für .NET-Tutorials aus. Erfahren Sie mühelos 3D-Unterstützung für DGN V7, Netzhandhabung, Stiftanpassung und mehr.
-type: docs
 weight: 23
 url: /de/net/cad-features-and-support/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# CAD-Funktionen und Support
+
 
 ## Einführung
 
@@ -80,3 +86,9 @@ Entdecken Sie die leistungsstarken Funktionen von Aspose.CAD für .NET für die 
 Entdecken Sie die nahtlose Unterstützung von DGN V durch Aspose.CAD für .NET. Konvertieren Sie DGN-Dateien mühelos mit einer Schritt-für-Schritt-Anleitung in Rasterbilder.
 ### [Unterstützung von 3D für DGN V7 in Aspose.CAD für .NET](./support-of-3d-for-dgn-v7/)
 Nutzen Sie die Leistungsfähigkeit der 3D-Unterstützung für DGN V7 in Aspose.CAD für .NET. Folgen Sie unserer Schritt-für-Schritt-Anleitung.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

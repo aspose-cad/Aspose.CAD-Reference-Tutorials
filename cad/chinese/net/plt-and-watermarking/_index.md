@@ -3,10 +3,16 @@ title: PLT 和水印
 linktitle: PLT 和水印
 second_title: Aspose.CAD .NET - CAD 和 BIM 文件格式
 description: 使用 Aspose.CAD for .NET 释放 PLT 格式的潜力。通过我们的分步教程，轻松将 PLT 文件集成到您的应用程序中。
-type: docs
 weight: 37
 url: /zh/net/plt-and-watermarking/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# PLT 和水印
+
 
 ## 介绍
 
@@ -46,3 +52,9 @@ Aspose.CAD 不仅提供功能；还提供功能。它打开了创造力之门。
 探索 Aspose.CAD for .NET 中的无缝 PLT 格式支持。按照我们的分步指南轻松将 PLT 文件集成到您的 .NET 应用程序中。
 ### [向 CAD 绘图添加水印 - Aspose.CAD 指南](./adding-watermarks-to-cad-drawings/)
 使用 Aspose.CAD for .NET 使用专业水印增强您的 CAD 绘图。按照我们的分步指南进行个性化和引人入胜的设计。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

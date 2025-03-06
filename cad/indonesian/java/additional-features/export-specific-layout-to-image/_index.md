@@ -3,10 +3,16 @@ title: Ekspor Tata Letak DXF Tertentu ke Gambar dengan Aspose.CAD Di Java
 linktitle: Ekspor Tata Letak DXF Tertentu ke Gambar dengan Java
 second_title: Aspose.CAD Java API
 description: Pelajari cara mengekspor tata letak DXF tertentu ke gambar menggunakan Aspose.CAD untuk Java. Ikuti panduan langkah demi langkah kami untuk integrasi yang lancar.
-type: docs
 weight: 16
 url: /id/java/additional-features/export-specific-layout-to-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ekspor Tata Letak DXF Tertentu ke Gambar dengan Aspose.CAD Di Java
+
 ## Perkenalan
 
 Apakah Anda ingin mengonversi tata letak DXF tertentu menjadi gambar menggunakan Java? Dengan Aspose.CAD untuk Java, Anda dapat menyelesaikan tugas ini dengan lancar. Dalam panduan langkah demi langkah ini, kami akan memandu Anda melalui proses mengekspor tata letak DXF tertentu ke gambar, memberikan instruksi dan contoh yang jelas untuk setiap tahap.
@@ -141,3 +147,9 @@ A4: Ya, Aspose.CAD untuk Java mendukung berbagai format output, termasuk PNG, BM
 ### Q5: Dapatkah saya menyesuaikan opsi rasterisasi lebih lanjut?
 
  A5: Tentu saja`CadRasterizationOptions` kelas menyediakan berbagai properti untuk penyesuaian. Jelajahi dokumentasi untuk opsi tambahan.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

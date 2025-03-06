@@ -3,10 +3,16 @@ title: Obsługa warstw w plikach DWG za pomocą C# - samouczek Aspose.CAD
 linktitle: Obsługa warstw w plikach DWG za pomocą języka C#
 second_title: Aspose.CAD .NET - Format plików CAD i BIM
 description: Dowiedz się, jak obsługiwać warstwy w plikach DWG przy użyciu C# z Aspose.CAD dla .NET. Przewodnik krok po kroku dotyczący wydajnej manipulacji plikami CAD.
-type: docs
 weight: 11
 url: /pl/net/dwg-file-manipulation/support-of-layers/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Obsługa warstw w plikach DWG za pomocą C# - samouczek Aspose.CAD
+
 ## Wstęp
 
 Witamy w naszym szczegółowym samouczku na temat obsługi warstw w plikach DWG przy użyciu C# z Aspose.CAD dla .NET. Aspose.CAD to potężna biblioteka, która umożliwia programistom płynną pracę z formatami plików CAD. W tym samouczku przeprowadzimy Cię krok po kroku przez proces obsługi warstw w plikach DWG.
@@ -109,3 +115,9 @@ W tym samouczku omówiliśmy proces obsługi warstw w plikach DWG przy użyciu j
 ### P5: Jakie są opcje licencjonowania Aspose.CAD?
 
  Odpowiedź 5: Możesz zapoznać się z opcjami licencjonowania i szczegółami zakupu[Tutaj](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

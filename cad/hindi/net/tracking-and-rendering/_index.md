@@ -3,10 +3,16 @@ title: ट्रैकिंग और रेंडरिंग
 linktitle: ट्रैकिंग और रेंडरिंग
 second_title: Aspose.CAD .NET - CAD और BIM फ़ाइल स्वरूप
 description: हमारे ट्यूटोरियल के साथ .NET के लिए Aspose.CAD की शक्ति को अनलॉक करें। CAD फ़ाइलों में ट्रैकिंग सक्षम करना और DXF फ़ाइलों को पीडीएफ के रूप में सहजता से प्रस्तुत करना सीखें।
-type: docs
 weight: 31
 url: /hi/net/tracking-and-rendering/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# ट्रैकिंग और रेंडरिंग
+
 
 ## परिचय
 
@@ -30,3 +36,9 @@ url: /hi/net/tracking-and-rendering/
 .NET के लिए Aspose.CAD के साथ मास्टर CAD फ़ाइल ट्रैकिंग। सटीक प्रतिपादन और त्रुटि ट्रैकिंग के लिए हमारे चरण-दर-चरण मार्गदर्शिका का पालन करें। अब डाउनलोड करो!
 ### [DXF फ़ाइलों को पीडीएफ के रूप में प्रस्तुत करना - Aspose.CAD गाइड](./rendering-dxf-files-as-pdf/)
 .NET के लिए Aspose.CAD का उपयोग करके DXF फ़ाइलों को PDF के रूप में प्रस्तुत करने पर अंतिम मार्गदर्शिका देखें। हमारे चरण-दर-चरण ट्यूटोरियल के साथ आसानी से CAD फ़ाइलें परिवर्तित करें।
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

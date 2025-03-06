@@ -3,10 +3,16 @@ title: गुण और संपत्ति प्रबंधन
 linktitle: गुण और संपत्ति प्रबंधन
 second_title: Aspose.CAD .NET - CAD और BIM फ़ाइल स्वरूप
 description: .NET के लिए Aspose.CAD के साथ अपने CAD चित्रों को उन्नत करें! ट्यूटोरियल के माध्यम से विशेषताओं और कस्टम गुणों को सहजता से जोड़ना सीखें। अपने डिज़ाइन को सहजता से बढ़ाएं।
-type: docs
 weight: 30
 url: /hi/net/attribute-and-property-management/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# गुण और संपत्ति प्रबंधन
+
 
 
 ## परिचय
@@ -47,3 +53,9 @@ url: /hi/net/attribute-and-property-management/
 .NET के लिए Aspose.CAD का उपयोग करके विशेषताओं के साथ अपने CAD आरेखण को बेहतर बनाएं। निर्बाध एकीकरण के लिए हमारी चरण-दर-चरण मार्गदर्शिका का पालन करें।
 ### [DWG फ़ाइलों में कस्टम गुण जोड़ना - Aspose.CAD गाइड](./adding-custom-properties-to-dwg/)
 .NET के लिए Aspose.CAD का उपयोग करके अपनी DWG फ़ाइलों को कस्टम गुणों के साथ बढ़ाएं। सार्थक मेटाडेटा को सहजता से जोड़ने के लिए हमारी चरण-दर-चरण मार्गदर्शिका का पालन करें।
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

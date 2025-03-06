@@ -3,10 +3,16 @@ title: Ustaw rozmiar i tryb płótna
 linktitle: Ustaw rozmiar i tryb płótna
 second_title: Aspose.CAD API Java
 description: Poznaj możliwości Aspose.CAD dla Java, korzystając z naszego przewodnika krok po kroku dotyczącego ustawiania rozmiaru i trybu obszaru roboczego. Bez wysiłku konwertuj pliki CAD do formatów PDF i TIFF.
-type: docs
 weight: 16
 url: /pl/java/advanced-cad-features/set-canvas-size-and-mode/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ustaw rozmiar i tryb płótna
+
 ## Wstęp
 
 Czy chcesz wykorzystać moc Aspose.CAD dla Java, aby usprawnić proces konwersji CAD? Ten kompleksowy przewodnik przeprowadzi Cię przez etapy ustawiania rozmiaru i trybu płótna przy użyciu Aspose.CAD dla Java. Niezależnie od tego, czy jesteś doświadczonym programistą, czy dopiero zaczynasz, ten samouczek zapewni Ci potrzebne informacje.
@@ -126,3 +132,9 @@ Odpowiedź 1: Tak, Aspose.CAD został zaprojektowany tak, aby bezproblemowo inte
 ### P5: Jak kupić Aspose.CAD dla Java?
 
  A5: Kup produkt[Tutaj](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

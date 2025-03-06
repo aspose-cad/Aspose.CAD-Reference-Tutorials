@@ -3,10 +3,16 @@ title: Podpora ořezávání bloků v CAD - Aspose.CAD Tutorial
 linktitle: Podpora ořezávání bloků v CAD
 second_title: Aspose.CAD .NET – formát souborů CAD a BIM
 description: Naučte se implementovat ořezávání bloků v CAD pomocí Aspose.CAD for .NET. Vylepšete své možnosti návrhu pomocí tohoto podrobného návodu.
-type: docs
 weight: 12
 url: /cs/net/layout-and-object-handling/supporting-block-clipping-in-cad/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Podpora ořezávání bloků v CAD - Aspose.CAD Tutorial
+
 ## Úvod
 
 Vítejte v obsáhlém tutoriálu o podpoře ořezávání bloků v CAD pomocí Aspose.CAD pro .NET. Aspose.CAD je výkonná knihovna, která umožňuje vývojářům bezproblémově pracovat se soubory CAD v jejich aplikacích .NET. V tomto tutoriálu se zaměříme na implementaci ořezávání bloků, což je základní funkce při navrhování CAD.
@@ -122,3 +128,9 @@ A1: Aspose.CAD je primárně určen pro aplikace .NET. Pokud pracujete s jinými
 ### Q5: Mohu používat Aspose.CAD bez trvalé licence?
 
  A5: Ano, můžete získat dočasnou licenci[tady](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: .NET के लिए Aspose.CAD में CAD लेआउट का आ
 linktitle: सीएडी लेआउट का आकार प्राप्त करें
 second_title: Aspose.CAD .NET - CAD और BIM फ़ाइल स्वरूप
 description: जानें कि Aspose.CAD का उपयोग करके .NET में CAD लेआउट आकार कैसे प्राप्त करें। कुशल सीएडी फ़ाइल हेरफेर के लिए हमारी चरण-दर-चरण मार्गदर्शिका का पालन करें।
-type: docs
 weight: 14
 url: /hi/net/cad-drawing-manipulation/get-size-of-cad-layout/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# .NET के लिए Aspose.CAD में CAD लेआउट का आकार प्राप्त करें
+
 ## परिचय
 
 .NET के लिए Aspose.CAD का उपयोग करके CAD लेआउट का आकार प्राप्त करने पर इस व्यापक मार्गदर्शिका में आपका स्वागत है। Aspose.CAD एक शक्तिशाली लाइब्रेरी है जो डेवलपर्स को CAD फ़ाइलों के साथ निर्बाध रूप से काम करने में सक्षम बनाती है। इस ट्यूटोरियल में, हम आपको व्यावहारिक उदाहरणों और चरण-दर-चरण निर्देशों का उपयोग करके सीएडी लेआउट के आकार को पुनर्प्राप्त करने की प्रक्रिया के बारे में बताएंगे।
@@ -143,3 +149,9 @@ A1: हाँ, Aspose.CAD DWG और DXF सहित विभिन्न CAD 
 ### Q5; मुझे तकनीकी सहायता कैसे मिल सकती है?
 
  A5: तकनीकी सहायता के लिए, पर जाएँ[Aspose.CAD फोरम](https://forum.aspose.com/c/cad/19).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

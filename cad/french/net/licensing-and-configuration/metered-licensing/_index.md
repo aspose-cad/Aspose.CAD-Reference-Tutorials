@@ -3,10 +3,16 @@ title: Licences limitées dans Aspose.CAD pour .NET
 linktitle: Licence limitée
 second_title: Aspose.CAD .NET - Format de fichier CAO et BIM
 description: Libérez le potentiel d’Aspose.CAD avec des licences limitées dans .NET. Optimisez l’utilisation des ressources en toute transparence. Découvrez notre guide étape par étape.
-type: docs
 weight: 12
 url: /fr/net/licensing-and-configuration/metered-licensing/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Licences limitées dans Aspose.CAD pour .NET
+
 ## Introduction
 
 Libérer tout le potentiel d’Aspose.CAD pour .NET nécessite de comprendre les subtilités des licences limitées. Cette fonctionnalité puissante permet aux développeurs de gérer efficacement la consommation des ressources tout en exploitant les capacités d'Aspose.CAD. Dans ce guide étape par étape, nous approfondirons le processus de mise en œuvre de licences limitées, en décomposant chaque étape cruciale pour garantir une intégration transparente dans vos projets .NET.
@@ -97,3 +103,9 @@ A3 : Oui, les clés mesurées sont réutilisables dans différents projets, of
 ### Q5 : Puis-je obtenir temporairement une licence Aspose.CAD pour des projets spécifiques ?
 
  A5 : Oui, explorez[options de licence temporaire](https://purchase.aspose.com/temporary-license/) pour les besoins du projet à court terme.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

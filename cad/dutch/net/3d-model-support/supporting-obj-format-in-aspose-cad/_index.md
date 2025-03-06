@@ -3,10 +3,16 @@ title: Ondersteuning van OBJ-formaat in Aspose.CAD - Tutorial
 linktitle: Ondersteuning van OBJ-formaat in Aspose.CAD - Tutorial
 second_title: Aspose.CAD .NET - CAD- en BIM-bestandsindeling
 description: Ontgrendel het potentieel van Aspose.CAD voor .NET. Leer hoe u het OBJ-formaat naadloos kunt ondersteunen in uw CAD-toepassingen met deze stapsgewijze zelfstudie.
-type: docs
 weight: 10
 url: /nl/net/3d-model-support/supporting-obj-format-in-aspose-cad/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ondersteuning van OBJ-formaat in Aspose.CAD - Tutorial
+
 ## Invoering
 
 Als u zich verdiept in de wereld van Computer-Aided Design (CAD) bij .NET-ontwikkeling, komt u wellicht de noodzaak tegen om met OBJ-bestanden te werken. Aspose.CAD voor .NET is een robuuste oplossing waarmee ontwikkelaars het OBJ-formaat naadloos kunnen ondersteunen binnen hun applicaties. In deze zelfstudie begeleiden we u bij het proces van het opnemen van Aspose.CAD in uw project, zodat u effectief met OBJ-bestanden kunt werken.
@@ -97,3 +103,9 @@ Gefeliciteerd! U hebt Aspose.CAD voor .NET met succes geïntegreerd om het OBJ-f
 ### Vraag 5: Waar kan ik Aspose.CAD kopen?
 
  A5: U kunt Aspose.CAD kopen[hier](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

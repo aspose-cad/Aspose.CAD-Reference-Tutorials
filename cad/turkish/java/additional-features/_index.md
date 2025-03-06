@@ -3,10 +3,16 @@ title: Ek özellikler
 linktitle: Ek özellikler
 second_title: Aspose.CAD Java API'si
 description: Eğitimlerimizle Aspose.CAD'in Java'daki potansiyelini ortaya çıkarın. Özel özellikler ekleyin, CAD ekleme nesnelerini ayrıştırın, izlemeyi etkinleştirin ve DXF çizimlerini sorunsuz bir şekilde dışa aktarın. CAD iş akışınızı zahmetsizce yükseltin.
-type: docs
 weight: 29
 url: /tr/java/additional-features/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ek özellikler
+
 
 
 ## giriiş
@@ -60,3 +66,9 @@ Aspose.CAD kullanarak DXF dosyalarını Java'ya nasıl kaydedeceğinizi öğreni
 ## Çözüm
 
 Bu eğitimler Aspose.CAD for Java'daki bir dizi ek özelliği kapsamakta ve CAD iş akışınızı optimize etmek için size değerli bilgiler ve beceriler sunmaktadır. İster organizasyonu geliştiriyor olun, ister ayrıştırma tekniklerinde uzmanlaşıyor olun, izlemeyi etkinleştiriyor olun veya çeşitli dışa aktarma seçeneklerini araştırıyor olun, bu eğitimler ihtiyacınız olan bilgiyi sağlar. Aspose.CAD for Java ile CAD becerilerinizi bugün geliştirin.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

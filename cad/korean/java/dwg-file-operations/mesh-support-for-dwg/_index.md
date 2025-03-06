@@ -3,10 +3,16 @@ title: Java에서 DWG 파일에 대한 메시 지원 활성화
 linktitle: Java에서 DWG 파일에 대한 메시 지원 활성화
 second_title: Aspose.CAD 자바 API
 description: Aspose.CAD를 사용하여 Java에서 DWG 파일에 대한 메시 지원을 활성화하는 방법을 알아보세요. 원활한 3D 도면 조작을 위한 단계별 가이드입니다. #Java프로그래밍 #CAD파일
-type: docs
 weight: 12
 url: /ko/java/dwg-file-operations/mesh-support-for-dwg/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java에서 DWG 파일에 대한 메시 지원 활성화
+
 ## 소개
 
 Java 프로그래밍의 역동적인 세계에서는 CAD 파일을 효율적으로 조작하는 것이 중요합니다. Java용 Aspose.CAD가 DWG 파일 처리를 위한 강력한 도구를 제공하여 구출됩니다. 이 튜토리얼에서는 Aspose.CAD를 사용하여 DWG 파일에 대한 메시 지원을 활성화하여 복잡한 3D 도면을 원활하게 작업할 수 있는 방법을 살펴보겠습니다.
@@ -116,3 +122,9 @@ A1: 예, Aspose.CAD는 DWG, DXF, DGN 등을 포함한 다양한 CAD 형식을 �
 ### Q5: 도움이 필요하거나 질문이 있나요?
 
 A5: 다음을 방문하세요.[Aspose.CAD 포럼](https://forum.aspose.com/c/cad/19) 전담 지원을 위해.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

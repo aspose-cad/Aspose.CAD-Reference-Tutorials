@@ -3,10 +3,16 @@ title: CAD 파일의 하이퍼링크 편집 - Aspose.CAD Tutorial
 linktitle: CAD 파일의 하이퍼링크 편집
 second_title: Aspose.CAD .NET - CAD 및 BIM 파일 형식
 description: .NET용 Aspose.CAD를 탐색하고 CAD 파일의 하이퍼링크를 손쉽게 편집하는 방법을 알아보세요. 이 포괄적인 튜토리얼을 통해 CAD 파일 관리 기술을 향상시키십시오.
-type: docs
 weight: 14
 url: /ko/net/advanced-cad-techniques/editing-hyperlinks-in-cad-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# CAD 파일의 하이퍼링크 편집 - Aspose.CAD Tutorial
+
 ## 소개
 
 .NET용 Aspose.CAD를 사용하여 CAD 파일의 하이퍼링크를 편집하는 방법에 대한 단계별 튜토리얼에 오신 것을 환영합니다. Aspose.CAD는 개발자가 CAD 파일을 원활하게 사용할 수 있게 해주는 강력한 라이브러리입니다. 이 튜토리얼에서는 CAD 파일 내의 하이퍼링크를 편집하는 특정 작업에 중점을 두고 링크를 효율적으로 수정하고 관리하는 방법을 보여줍니다.
@@ -103,3 +109,9 @@ A1: 예, Aspose.CAD는 DWG, DXF, DGN 등을 포함한 다양한 CAD 형식을 �
 ### Q5: 도움이 필요하거나 질문이 있나요?
 
  A5: 지원 포럼을 방문하세요.[여기](https://forum.aspose.com/c/cad/19).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

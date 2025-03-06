@@ -3,10 +3,16 @@ title: Membuat PDF Dinamis dengan Aspose.CAD untuk Java
 linktitle: PDF Tunggal dengan Tata Letak Berbeda
 second_title: Aspose.CAD Java API
 description: Buat PDF menakjubkan dengan beragam tata letak dari gambar CAD menggunakan Aspose.CAD untuk Java. Integrasi yang mudah dan fitur canggih untuk pengembang Java.
-type: docs
 weight: 16
 url: /id/java/other-cad-operations/single-pdf-different-layouts/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Membuat PDF Dinamis dengan Aspose.CAD untuk Java
+
 ## Perkenalan
 
 Selamat datang di dunia Aspose.CAD untuk Java, perpustakaan canggih yang memberdayakan pengembang untuk memanipulasi gambar CAD dengan mudah. Dalam tutorial ini, kita akan mendalami cara membuat satu PDF dengan tata letak berbeda menggunakan Aspose.CAD untuk Java. Baik Anda seorang pengembang berpengalaman atau baru memulai, panduan langkah demi langkah ini akan memandu Anda melalui prosesnya.
@@ -103,3 +109,9 @@ A1: Ya, Aspose.CAD untuk Java dirancang untuk berintegrasi secara mulus dengan p
 ### Q5: Dimana saya bisa membeli versi lengkapnya?
 
 A5: Beli versi lengkap Aspose.CAD untuk Java[Di Sini](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Pencarian dan Manipulasi Teks
 linktitle: Pencarian dan Manipulasi Teks
 second_title: Aspose.CAD .NET - Format File CAD dan BIM
 description: Buka kekuatan Aspose.CAD untuk .NET dengan tutorial kami tentang mencari teks dalam file DWG menggunakan C#. Tingkatkan keterampilan CAD Anda dan tingkatkan aplikasi Anda.
-type: docs
 weight: 28
 url: /id/net/text-search-and-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Pencarian dan Manipulasi Teks
+
 
 ## Perkenalan
 
@@ -36,3 +42,9 @@ Siap untuk meningkatkan keterampilan CAD Anda? Selami tutorial kami sekarang dan
 ## Tutorial Pencarian dan Manipulasi Teks
 ### [Mencari Teks di File DWG dengan C# - Tutorial Aspose.CAD](./searching-text-in-dwg-files/)
 Jelajahi Aspose.CAD untuk .NET dan master pencarian teks dalam file DWG dengan panduan langkah demi langkah ini. Tingkatkan aplikasi CAD Anda hari ini!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

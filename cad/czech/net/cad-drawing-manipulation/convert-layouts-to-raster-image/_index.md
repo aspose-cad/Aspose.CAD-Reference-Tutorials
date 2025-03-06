@@ -3,10 +3,16 @@ title: Převeďte rozvržení na rastrový obrázek v Aspose.CAD pro .NET
 linktitle: Převést rozvržení na rastrový obrázek
 second_title: Aspose.CAD .NET – formát souborů CAD a BIM
 description: Bez námahy převádějte rozvržení CAD na rastrové obrázky pomocí Aspose.CAD for .NET. Vylepšete svůj vývoj pomocí výkonných možností manipulace CAD.
-type: docs
 weight: 12
 url: /cs/net/cad-drawing-manipulation/convert-layouts-to-raster-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Převeďte rozvržení na rastrový obrázek v Aspose.CAD pro .NET
+
 ## Úvod
 
 Chcete snadno převést rozvržení na rastrové obrázky ve svých aplikacích .NET? Už nehledejte! Tento podrobný průvodce vás provede procesem pomocí Aspose.CAD for .NET, výkonné knihovny, která zjednodušuje úlohy CAD (Computer-Aided Design).
@@ -102,3 +108,9 @@ Gratulujeme! Úspěšně jste převedli rozvržení CAD do formátu rastrového 
 ### Q5: Kde mohu zakoupit licenci pro Aspose.CAD?
 
  A5: Přejděte na[nákupní stránku](https://purchase.aspose.com/buy) koupit licenci a odemknout plný potenciál Aspose.CAD.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

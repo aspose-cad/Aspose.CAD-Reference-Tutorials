@@ -3,10 +3,16 @@ title: Λάβετε το μέγεθος της διάταξης CAD στο Aspos
 linktitle: Λάβετε το μέγεθος της διάταξης CAD
 second_title: Aspose.CAD .NET - Μορφή αρχείου CAD και BIM
 description: Μάθετε πώς να ανακτάτε το μέγεθος διάταξης CAD στο .NET χρησιμοποιώντας το Aspose.CAD. Ακολουθήστε τον βήμα προς βήμα οδηγό μας για αποτελεσματική διαχείριση αρχείων CAD.
-type: docs
 weight: 14
 url: /el/net/cad-drawing-manipulation/get-size-of-cad-layout/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Λάβετε το μέγεθος της διάταξης CAD στο Aspose.CAD για .NET
+
 ## Εισαγωγή
 
 Καλώς ήρθατε σε αυτόν τον περιεκτικό οδηγό σχετικά με τη λήψη του μεγέθους των διατάξεων CAD χρησιμοποιώντας το Aspose.CAD για .NET. Το Aspose.CAD είναι μια ισχυρή βιβλιοθήκη που επιτρέπει στους προγραμματιστές να εργάζονται με αρχεία CAD απρόσκοπτα. Σε αυτό το σεμινάριο, θα σας καθοδηγήσουμε στη διαδικασία ανάκτησης του μεγέθους των διατάξεων CAD χρησιμοποιώντας πρακτικά παραδείγματα και οδηγίες βήμα προς βήμα.
@@ -143,3 +149,9 @@ A1: Ναι, το Aspose.CAD υποστηρίζει διάφορες μορφές
 ### Q5; Πώς μπορώ να λάβω τεχνική υποστήριξη;
 
  A5: Για τεχνική υποστήριξη, επισκεφθείτε το[Φόρουμ Aspose.CAD](https://forum.aspose.com/c/cad/19).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

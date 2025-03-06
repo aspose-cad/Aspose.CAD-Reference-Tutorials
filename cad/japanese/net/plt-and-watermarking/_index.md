@@ -3,10 +3,16 @@ title: PLT と透かし
 linktitle: PLT と透かし
 second_title: Aspose.CAD .NET - CAD および BIM ファイル形式
 description: Aspose.CAD for .NET で PLT 形式の可能性を解き放ちます。ステップバイステップのチュートリアルを使用して、PLT ファイルをアプリケーションに簡単に統合します。
-type: docs
 weight: 37
 url: /ja/net/plt-and-watermarking/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# PLT と透かし
+
 
 ## 導入
 
@@ -46,3 +52,9 @@ Aspose.CAD は機能を提供するだけではありません。それは創造
 Aspose.CAD for .NET でのシームレスな PLT 形式のサポートを確認してください。ステップバイステップのガイドに従って、PLT ファイルを .NET アプリケーションに簡単に統合してください。
 ### [CAD 図面に透かしを追加する - Aspose.CAD ガイド](./adding-watermarks-to-cad-drawings/)
 Aspose.CAD for .NET を使用して、プロフェッショナルなウォーターマークで CAD 図面を強化します。パーソナライズされた魅力的なデザインについては、ステップバイステップのガイドに従ってください。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

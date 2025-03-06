@@ -3,10 +3,16 @@ title: Définition du délai d'expiration lors de l'opération d'enregistrement 
 linktitle: Définition du délai d'expiration lors de l'opération de sauvegarde
 second_title: Aspose.CAD .NET - Format de fichier CAO et BIM
 description: Découvrez comment améliorer les opérations de sauvegarde CAO avec des paramètres de délai d'attente à l'aide d'Aspose.CAD pour .NET. Améliorez l'efficacité et le contrôle de vos applications .NET.
-type: docs
 weight: 12
 url: /fr/net/advanced-cad-techniques/setting-timeout-on-save-operation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Définition du délai d'expiration lors de l'opération d'enregistrement - Tutoriel Aspose.CAD
+
 ## Introduction
 
 Dans le domaine dynamique de la conception assistée par ordinateur (CAO), l'efficacité et la flexibilité de vos opérations dépendent souvent de la capacité à gérer efficacement les opérations de sauvegarde. Ce didacticiel abordera un aspect crucial de ce processus : la définition d'un délai d'attente pour les opérations de sauvegarde à l'aide d'Aspose.CAD for .NET. Aspose.CAD est une bibliothèque puissante qui permet aux développeurs de travailler de manière transparente avec les formats de fichiers CAO dans leurs applications .NET.
@@ -114,3 +120,9 @@ A4 : Absolument ! Aspose.CAD prend en charge les formats de fichiers CAO 2D et 3
 ### Q5 : Où puis-je trouver une aide supplémentaire ou un soutien communautaire ?
 
 A5 : Visitez le[Forum Aspose.CAD](https://forum.aspose.com/c/cad/19) pour le soutien et les discussions de la communauté.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

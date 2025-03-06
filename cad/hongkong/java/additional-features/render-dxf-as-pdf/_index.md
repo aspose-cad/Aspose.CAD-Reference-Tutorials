@@ -3,10 +3,16 @@ title: 使用 Aspose.CAD for Java 將 DXF 渲染為 PDF
 linktitle: 使用 Java 將 DXF 渲染為 PDF
 second_title: Aspose.CAD Java API
 description: 使用 Aspose.CAD 在 Java 中輕鬆將 DXF 轉換為 PDF。請遵循我們的無縫渲染逐步指南。
-type: docs
 weight: 19
 url: /zh-hant/java/additional-features/render-dxf-as-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.CAD for Java 將 DXF 渲染為 PDF
+
 ## 介紹
 
 在 Java 程式設計領域，將 DXF（繪圖交換格式）檔案渲染為 PDF 的需求是一種常見的需求。 Aspose.CAD for Java 可以解決這個問題，它提供了一個強大的解決方案，可以輕鬆地將 DXF 繪圖轉換為高品質的 PDF。在本逐步指南中，我們將探索如何使用 Aspose.CAD for Java 實現這一目標，將每個範例分解為多個步驟以便全面理解。
@@ -103,3 +109,9 @@ A2：是的，您可以透過調整光柵化選項來客製化輸出以滿足您
 ### Q5：測試需要臨時許可證嗎？
 
  A5：是的，您可以獲得臨時許可證[這裡](https://purchase.aspose.com/temporary-license/)用於測試目的。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Support of Layers with Aspose.CAD in Java
 linktitle: Support of Layers in CAD
 second_title: Aspose.CAD Java API
 description: Master layer support in Java CAD development with Aspose.CAD. Organize and export drawings effortlessly.
-type: docs
 weight: 18
 url: /java/advanced-cad-features/support-of-layers-in-cad/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Support of Layers with Aspose.CAD in Java
+
 ## Introduction
 
 Unlock the full potential of Aspose.CAD in Java by mastering the support of layers. Layers play a crucial role in CAD drawings, allowing for efficient organization and manipulation of graphical elements. In this comprehensive tutorial, we'll delve into the intricacies of layer support using Aspose.CAD, providing you with a step-by-step guide to harness this powerful functionality.
@@ -118,3 +124,10 @@ A4: Yes, explore licensing options [here](https://purchase.aspose.com/buy) to un
 ### Q5: Where can I seek assistance or share my experiences with Aspose.CAD?
 
 A5: Join the Aspose.CAD community on the [forum](https://forum.aspose.com/c/cad/19) for support and collaborative discussions.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Munka ACAD proxy entitásokkal – Aspose.CAD útmutató
 linktitle: Munkavégzés ACAD proxy entitásokkal
 second_title: Aspose.CAD .NET - CAD és BIM fájlformátum
 description: Fedezze fel az Aspose.CAD for .NET-et, és egyszerűsítse CAD-munkafolyamatait. Könnyedén konvertálhat, szerkeszthet és kezelhet ACAD proxy entitásokat.
-type: docs
 weight: 13
 url: /hu/net/layout-and-object-handling/working-with-acad-proxy-entities/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Munka ACAD proxy entitásokkal – Aspose.CAD útmutató
+
 ## Bevezetés
 
 .NET fejlesztés dinamikus világában a CAD-rajzok létrehozása és kezelése kritikus feladat. Az Aspose.CAD for .NET robusztus megoldást kínál az AutoCAD proxy entitásokkal való munkához. Ez az útmutató végigvezeti az Aspose.CAD erejének hasznosításához és a CAD-vel kapcsolatos munkafolyamatok egyszerűsítéséhez szükséges alapvető lépéseken.
@@ -98,3 +104,9 @@ Az alábbi lépések követésével hatékonyan dolgozhat az ACAD proxy entitás
 ### 5. kérdés: Hol vásárolhatok teljes licencet az Aspose.CAD for .NET számára?
 
  V5: Licenc vásárolható a[vásárlási oldal](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

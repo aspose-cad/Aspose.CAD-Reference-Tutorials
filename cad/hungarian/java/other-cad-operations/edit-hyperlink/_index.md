@@ -3,10 +3,16 @@ title: DWG hiperhivatkozások szerkesztése – Aspose.CAD Java oktatóanyag
 linktitle: Hiperhivatkozás szerkesztése
 second_title: Aspose.CAD Java API
 description: Növelje a DWG rajzolási pontosságot az Aspose.CAD for Java segítségével. A hiperhivatkozások zökkenőmentes szerkesztése, biztosítva a pontos hivatkozásokat. Próbálja ki most az ingyenes próbaverziót!
-type: docs
 weight: 17
 url: /hu/java/other-cad-operations/edit-hyperlink/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# DWG hiperhivatkozások szerkesztése – Aspose.CAD Java oktatóanyag
+
 mai digitális korszakban a DWG rajzok hatékony kezelése döntő fontosságú a különböző iparágakban dolgozó szakemberek számára. Az Aspose.CAD for Java hatékony megoldást kínál a DWG-rajzokon belüli hiperhivatkozások szerkesztésére, biztosítva a zökkenőmentes integrációt és testreszabást. Ez a lépésenkénti útmutató végigvezeti a hiperhivatkozások szerkesztésének folyamatán az Aspose.CAD for Java használatával.
 
 ## Bevezetés
@@ -99,3 +105,9 @@ Ezután ellenőrizze, hogy az entitáshoz van-e társítva hiperhivatkozás. Ha 
 ### 5. kérdés: Kaphatok ideiglenes licencet tesztelési célokra?
 
  V5: Igen, beszerezhet ideiglenes engedélyt[itt](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Exportation d'images 3D
 linktitle: Exportation d'images 3D
 second_title: Aspose.CAD .NET - Format de fichier CAO et BIM
 description: Exportez sans effort des images CAO 3D au format PDF à l'aide d'Aspose.CAD pour .NET. Suivez nos tutoriels pour une conversion PDF transparente. Apprenez des techniques efficaces d’exportation d’images 3D.
-type: docs
 weight: 35
 url: /fr/net/3d-image-export/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Exportation d'images 3D
+
 
 ## Introduction
 
@@ -34,3 +40,9 @@ En conclusion, les didacticiels d'exportation d'images 3D avec Aspose.CAD pour .
 ## Tutoriels d'exportation d'images 3D
 ### [Exporter des images 3D au format PDF - Tutoriel Aspose.CAD](./exporting-3d-images-to-pdf/)
 Convertissez sans effort des images CAO 3D en PDF avec Aspose.CAD pour .NET. Suivez notre didacticiel étape par étape pour une exportation PDF transparente.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

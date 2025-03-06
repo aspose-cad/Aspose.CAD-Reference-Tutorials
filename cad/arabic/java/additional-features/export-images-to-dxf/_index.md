@@ -3,10 +3,16 @@ title: تصدير الصور إلى تنسيق DXF باستخدام Aspose.CAD �
 linktitle: تصدير الصور إلى تنسيق DXF باستخدام Java
 second_title: Aspose.CAD جافا API
 description: استكشف العملية السلسة لتصدير الصور إلى تنسيق DXF باستخدام Aspose.CAD لـ Java. دليل خطوة بخطوة والأسئلة الشائعة والمزيد.
-type: docs
 weight: 15
 url: /ar/java/additional-features/export-images-to-dxf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تصدير الصور إلى تنسيق DXF باستخدام Aspose.CAD لـ Java
+
 ## مقدمة
 
 مرحبًا بك في البرنامج التعليمي الشامل حول تصدير الصور إلى تنسيق DXF باستخدام Aspose.CAD لـ Java. Aspose.CAD هي مكتبة Java قوية تتيح للمطورين العمل مع رسومات CAD برمجيًا. في هذا البرنامج التعليمي، سنرشدك خلال عملية تصدير الصور إلى تنسيق DXF، ونوضح الخطوات والتقنيات المختلفة لتحقيق هذه المهمة.
@@ -107,3 +113,9 @@ cadImageText.save(file.getName() + "_text.dxf");
 ### س5: هل هناك نسخة تجريبية مجانية متاحة؟
 
  ج5: نعم، يمكنك الحصول على نسخة تجريبية مجانية[هنا](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

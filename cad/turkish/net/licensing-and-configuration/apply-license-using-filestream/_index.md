@@ -3,10 +3,16 @@ title: Aspose.CAD for .NET'te FileStream kullanarak Lisans Başvurusu Yapın
 linktitle: FileStream'i kullanarak Lisans Uygulayın
 second_title: Aspose.CAD .NET - CAD ve BIM Dosya Formatı
 description: Aspose.CAD for .NET'e hakim olun - FileStream'i kullanarak lisansları sorunsuz bir şekilde uygulayın. Adım adım kılavuzu keşfedin ve potansiyelin kilidini açın. Şimdi İndirin!
-type: docs
 weight: 11
 url: /tr/net/licensing-and-configuration/apply-license-using-filestream/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.CAD for .NET'te FileStream kullanarak Lisans Başvurusu Yapın
+
 ## giriiş
 
 Aspose.CAD for .NET dünyasına hoş geldiniz; geliştiricilerin CAD dosyalarını sorunsuz bir şekilde işlemesine olanak tanıyan güçlü bir araç. Bu eğitimde, FileStream kullanarak lisans başvuru süreci boyunca size rehberlik edeceğiz ve .NET projelerinizde Aspose.CAD'in tüm potansiyelinden yararlanmanızı sağlayacağız.
@@ -80,3 +86,9 @@ Bu eğitimde Aspose.CAD for .NET'te FileStream kullanarak lisans uygulama sürec
 ### S5: Yardıma mı ihtiyacınız var veya sorularınız mı var? Nereden destek alabilirim?
 
  Cevap5: Aspose.CAD forumlarını ziyaret edin[Burada](https://forum.aspose.com/c/cad/19) Destekle ilgili tüm sorularınız için.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

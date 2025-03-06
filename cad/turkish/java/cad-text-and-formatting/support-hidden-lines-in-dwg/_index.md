@@ -3,10 +3,16 @@ title: Aspose.CAD for Java Kullanarak DWG Dosyalarındaki Gizli Çizgi Desteği
 linktitle: Java Kullanarak DWG Dosyalarındaki Gizli Çizgi Desteği
 second_title: Aspose.CAD Java API'si
 description: Aspose.CAD'i kullanarak Java uygulamanızın DWG dosya işleme yeteneklerini nasıl geliştireceğinizi öğrenin. Gizli hat desteği için adım adım kılavuzumuzu izleyin. CAD çizim işlemlerinizi kolaylıkla artırın.
-type: docs
 weight: 11
 url: /tr/java/cad-text-and-formatting/support-hidden-lines-in-dwg/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.CAD for Java Kullanarak DWG Dosyalarındaki Gizli Çizgi Desteği
+
 ## giriiş
 
 DWG dosya işleme yeteneklerinizi geliştirmek için Aspose.CAD for Java'dan yararlanmaya ilişkin kapsamlı bir kılavuza hoş geldiniz. Bu eğitimde belirli bir konuya odaklanacağız: DWG dosyalarındaki gizli satırları desteklemek. İster deneyimli bir geliştirici olun ister yeni başlıyor olun, bu kılavuz, adım adım talimatlarla süreçte ilerlemenize yardımcı olacaktır.
@@ -117,3 +123,10 @@ Cevap1: Evet, Aspose.CAD, DWG, DXF, DWF ve daha fazlası gibi çeşitli CAD form
 ### S5: Aspose.CAD for Java için geçici bir lisans satın alabilir miyim?
 
  Cevap5: Evet, geçici lisans alabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

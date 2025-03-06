@@ -3,10 +3,16 @@ title: Ενσωματώστε τη μορφή IGES
 linktitle: Ενσωματώστε τη μορφή IGES
 second_title: Aspose.CAD Java API
 description: Εξερευνήστε την ενσωμάτωση της μορφής IGES απρόσκοπτα με το Aspose.CAD για Java. Ακολουθήστε τον βήμα προς βήμα οδηγό μας, αξιοποιώντας τη δύναμη του Aspose.CAD για να βελτιώσετε την εμπειρία σας στην ανάπτυξη CAD.
-type: docs
 weight: 11
 url: /el/java/advanced-cad-features/integrate-iges-format/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ενσωματώστε τη μορφή IGES
+
 ## Εισαγωγή
 
 Στον δυναμικό κόσμο του CAD (Computer-Aided Design), η ανάγκη ενσωμάτωσης διαφόρων μορφών αρχείων είναι πρωταρχικής σημασίας. Αυτός ο οδηγός εξετάζει την απρόσκοπτη ενσωμάτωση της μορφής IGES (Initial Graphics Exchange Specification) χρησιμοποιώντας το Aspose.CAD για Java. Το Aspose.CAD δίνει τη δυνατότητα στους προγραμματιστές να χειρίζονται και να μετατρέπουν αρχεία CAD χωρίς κόπο, ανοίγοντας έναν κόσμο δυνατοτήτων για ανάπτυξη εφαρμογών.
@@ -88,3 +94,9 @@ A1: Ναι, το Aspose.CAD υποστηρίζει διάφορες μορφές
 ### Ε5: Πώς μπορώ να αγοράσω την άδεια χρήσης Aspose.CAD;
 
  A5: Μπορείτε να αγοράσετε την άδεια χρήσης Aspose.CAD[εδώ](https://purchase.aspose.com/buy) για να ξεκλειδώσετε πλήρως τις δυνατότητες της βιβλιοθήκης.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

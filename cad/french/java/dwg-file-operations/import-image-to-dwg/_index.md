@@ -3,10 +3,16 @@ title: Importation d'images sans effort dans des fichiers DWG à l'aide d'Aspose
 linktitle: Importer une image dans un fichier DWG à l'aide de Java
 second_title: API Java Aspose.CAD
 description: Découvrez l'intégration transparente d'images dans des fichiers DWG à l'aide d'Aspose.CAD pour Java. Suivez notre guide étape par étape pour un développement efficace.
-type: docs
 weight: 10
 url: /fr/java/dwg-file-operations/import-image-to-dwg/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Importation d'images sans effort dans des fichiers DWG à l'aide d'Aspose.CAD Java
+
 ## Introduction
 
 Dans le monde dynamique du développement Java, l'incorporation d'images dans des fichiers DWG est devenue un aspect crucial de nombreuses applications. Aspose.CAD pour Java fournit une solution robuste pour les développeurs recherchant des méthodes efficaces pour importer des images dans des fichiers DWG. Dans ce didacticiel, nous vous guiderons étape par étape tout au long du processus, garantissant une intégration transparente des images à l'aide d'Aspose.CAD pour Java.
@@ -126,3 +132,9 @@ A1 : Oui, Aspose.CAD pour Java est compatible avec la plupart des environnements
 ### Q5 : Puis-je obtenir une licence temporaire pour Aspose.CAD pour Java ?
 
  A5 : Oui, vous pouvez obtenir une licence temporaire[ici](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

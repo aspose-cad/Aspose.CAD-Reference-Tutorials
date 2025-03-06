@@ -3,10 +3,16 @@ title: Ermitteln Sie die Größe des CAD-Layouts in Aspose.CAD für .NET
 linktitle: Ermitteln Sie die Größe des CAD-Layouts
 second_title: Aspose.CAD .NET – CAD- und BIM-Dateiformat
 description: Erfahren Sie, wie Sie mit Aspose.CAD die CAD-Layoutgröße in .NET abrufen. Befolgen Sie unsere Schritt-für-Schritt-Anleitung für eine effiziente Bearbeitung von CAD-Dateien.
-type: docs
 weight: 14
 url: /de/net/cad-drawing-manipulation/get-size-of-cad-layout/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ermitteln Sie die Größe des CAD-Layouts in Aspose.CAD für .NET
+
 ## Einführung
 
 Willkommen zu diesem umfassenden Leitfaden zum Ermitteln der Größe von CAD-Layouts mit Aspose.CAD für .NET. Aspose.CAD ist eine leistungsstarke Bibliothek, die Entwicklern die nahtlose Arbeit mit CAD-Dateien ermöglicht. In diesem Tutorial führen wir Sie anhand praktischer Beispiele und Schritt-für-Schritt-Anleitungen durch den Prozess zum Abrufen der Größe von CAD-Layouts.
@@ -143,3 +149,9 @@ A2: Auf jeden Fall! Sie können Bildoptionen wie Format und Auflösung an Ihre s
 ### Q5; Wie erhalte ich technischen Support?
 
  A5: Für technischen Support besuchen Sie die[Aspose.CAD-Forum](https://forum.aspose.com/c/cad/19).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

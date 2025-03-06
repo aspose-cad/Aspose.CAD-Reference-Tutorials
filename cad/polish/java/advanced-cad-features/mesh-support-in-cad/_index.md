@@ -3,10 +3,16 @@ title: Obsługa siatki z Aspose.CAD dla Java
 linktitle: Obsługa siatki w CAD
 second_title: Aspose.CAD API Java
 description: Poznaj obsługę siatki w aplikacjach Java za pomocą Aspose.CAD. Konwertuj pliki CAD na format PDF bez wysiłku.
-type: docs
 weight: 12
 url: /pl/java/advanced-cad-features/mesh-support-in-cad/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Obsługa siatki z Aspose.CAD dla Java
+
 ## Wstęp
 
 Aspose.CAD dla Java to potężna biblioteka, która umożliwia programistom bezproblemową pracę z plikami projektowania wspomaganego komputerowo (CAD) w aplikacjach Java. W tym samouczku omówimy funkcję obsługi siatek w Aspose.CAD dla Java, umożliwiającą konwersję plików CAD z siatkami do formatu PDF. Postępuj zgodnie z poniższym przewodnikiem krok po kroku, aby wykorzystać możliwości tej biblioteki i usprawnić obsługę plików CAD.
@@ -110,3 +116,9 @@ O4: Tak, Aspose.CAD dla Java obsługuje różne formaty wyjściowe, w tym PNG, J
 ### P5: Czy mogę bezpłatnie wypróbować Aspose.CAD dla Java?
 
  Odpowiedź 5: Tak, możesz wypróbować bezpłatną wersję próbną Aspose.CAD dla Java[Tutaj](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: تصدير تخطيط DXF محدد إلى PDF باستخدام Aspose.CAD
 linktitle: تصدير تخطيط DXF محدد إلى PDF باستخدام Java
 second_title: Aspose.CAD جافا API
 description: اكتشف التحويل السلس من DXF إلى PDF باستخدام Aspose.CAD لـ Java. قم بتصدير تخطيطات محددة بدقة.
-type: docs
 weight: 17
 url: /ar/java/additional-features/export-specific-layout-to-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تصدير تخطيط DXF محدد إلى PDF باستخدام Aspose.CAD لـ Java
+
 ## مقدمة
 
 إذا كنت أحد مطوري Java الذين يعملون مع رسومات CAD، فسوف تفهم أهمية التحويل الفعال والدقيق بين التنسيقات المختلفة. Aspose.CAD for Java هي مكتبة قوية تمكن المطورين من التعامل مع ملفات CAD بسلاسة. في هذا البرنامج التعليمي، سنرشدك خلال عملية تصدير تخطيط DXF محدد إلى ملف PDF باستخدام Aspose.CAD لـ Java.
@@ -105,3 +111,9 @@ image.save(dataDir + "conic_pyramid_layout_out_.pdf", pdfOptions);
 ### س5: كيف يمكنني الحصول على دعم Aspose.CAD لـ Java؟
 
  ج5: قم بزيارة منتدى الدعم[هنا](https://forum.aspose.com/c/cad/19)للحصول على المساعدة من مجتمع Aspose.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Habilitando rastreamento em arquivos CAD - Tutorial Aspose.CAD
 linktitle: Habilitando rastreamento em arquivos CAD
 second_title: Aspose.CAD .NET - Formato de arquivo CAD e BIM
 description: Domine o rastreamento de arquivos CAD com Aspose.CAD para .NET. Siga nosso guia passo a passo para renderização precisa e rastreamento de erros. Baixe Agora!
-type: docs
 weight: 10
 url: /pt/net/tracking-and-rendering/enabling-tracking-in-cad-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Habilitando rastreamento em arquivos CAD - Tutorial Aspose.CAD
+
 ## Introdução
 
 No domínio do CAD (Computer-Aided Design), precisão e rastreamento são fundamentais. Aspose.CAD for .NET fornece uma solução robusta para permitir o rastreamento em arquivos CAD. Este tutorial irá guiá-lo através do processo, garantindo que você aproveite todo o potencial desse recurso.
@@ -103,3 +109,9 @@ A3: Podem surgir problemas como fontes ausentes ou entidades não suportadas. Ve
 ### Q5: Posso personalizar as mensagens de erro de rastreamento?
 
 A5: Absolutamente. Você pode modificar o código para adaptar as mensagens de erro de acordo com seus requisitos.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

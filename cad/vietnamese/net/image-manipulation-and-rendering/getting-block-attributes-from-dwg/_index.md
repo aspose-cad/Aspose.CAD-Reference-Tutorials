@@ -3,10 +3,16 @@ title: Lấy thuộc tính khối từ tệp DWG - Hướng dẫn Aspose.CAD
 linktitle: Lấy thuộc tính khối từ tệp DWG
 second_title: Aspose.CAD .NET - Định dạng tệp CAD và BIM
 description: Khai phá tiềm năng của các tệp CAD bằng Aspose.CAD cho .NET. Trích xuất các thuộc tính khối một cách dễ dàng.
-type: docs
 weight: 10
 url: /vi/net/image-manipulation-and-rendering/getting-block-attributes-from-dwg/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Lấy thuộc tính khối từ tệp DWG - Hướng dẫn Aspose.CAD
+
 ## Giới thiệu
 
 Trong thế giới năng động của Thiết kế hỗ trợ máy tính (CAD), việc trích xuất thông tin có giá trị từ các tệp DWG là rất quan trọng đối với nhiều ứng dụng. Aspose.CAD for .NET cung cấp một giải pháp mạnh mẽ để làm việc với các tệp CAD một cách hiệu quả. Trong hướng dẫn này, chúng ta sẽ đi sâu vào quá trình truy xuất các thuộc tính khối từ tệp DWG bằng Aspose.CAD, từng bước một.
@@ -93,3 +99,9 @@ Câu trả lời 1: Có, Aspose.CAD hỗ trợ nhiều định dạng CAD khác 
 ### Câu hỏi 5: Tôi có thể tìm tài liệu về Aspose.CAD cho .NET ở đâu?
 
  A5: Tham khảo toàn diện[tài liệu](https://reference.aspose.com/cad/net/) để biết thông tin chi tiết và ví dụ.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

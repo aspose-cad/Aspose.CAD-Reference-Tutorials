@@ -3,10 +3,16 @@ title: Hantera lager i DWG-filer med C# - Aspose.CAD Tutorial
 linktitle: Hantera lager i DWG-filer med C#
 second_title: Aspose.CAD .NET - CAD- och BIM-filformat
 description: Lär dig hur du hanterar lager i DWG-filer med C# med Aspose.CAD för .NET. Steg-för-steg-guide för effektiv CAD-filhantering.
-type: docs
 weight: 11
 url: /sv/net/dwg-file-manipulation/support-of-layers/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Hantera lager i DWG-filer med C# - Aspose.CAD Tutorial
+
 ## Introduktion
 
 Välkommen till vår djupgående handledning om hantering av lager i DWG-filer med C# med Aspose.CAD för .NET. Aspose.CAD är ett kraftfullt bibliotek som gör det möjligt för utvecklare att arbeta med CAD-filformat sömlöst. I den här handledningen guidar vi dig genom processen att hantera lager i DWG-filer steg för steg.
@@ -109,3 +115,9 @@ I den här handledningen gick vi igenom processen att hantera lager i DWG-filer 
 ### F5: Vilka är licensalternativen för Aspose.CAD?
 
  S5: Du kan utforska licensalternativ och köpinformation[här](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

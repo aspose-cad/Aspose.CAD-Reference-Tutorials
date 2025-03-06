@@ -3,10 +3,16 @@ title: Κρυφές γραμμές και οντότητες
 linktitle: Κρυφές γραμμές και οντότητες
 second_title: Aspose.CAD .NET - Μορφή αρχείου CAD και BIM
 description: Ξεκλειδώστε τις κρυφές γραμμές σε αρχεία DWG χωρίς κόπο με το Aspose.CAD για .NET. Αναβαθμίστε τα έργα σας CAD με τον βήμα προς βήμα οδηγό μας.
-type: docs
 weight: 29
 url: /el/net/hidden-lines-and-entities/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Κρυφές γραμμές και οντότητες
+
 
 
 ## Εισαγωγή
@@ -39,3 +45,9 @@ url: /el/net/hidden-lines-and-entities/
 Ξεκλειδώστε τις κρυφές γραμμές σε αρχεία DWG χωρίς κόπο με το Aspose.CAD για .NET. Ακολουθήστε τον βήμα προς βήμα οδηγό μας για απρόσκοπτη ενσωμάτωση.
 ### [Υποστηρίζοντας οντότητα MLeader για μορφή DWG - Οδηγός Aspose.CAD](./supporting-mleader-entity-for-dwg-format/)
 Ξεκλειδώστε τη δύναμη των οντοτήτων MLeader σε μορφή DWG με το Aspose.CAD για .NET. Αναβαθμίστε τα έργα σας CAD χωρίς κόπο.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

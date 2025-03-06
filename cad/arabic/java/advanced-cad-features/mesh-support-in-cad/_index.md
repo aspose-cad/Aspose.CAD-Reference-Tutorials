@@ -3,10 +3,16 @@ title: دعم الشبكة مع Aspose.CAD لـ Java
 linktitle: دعم الشبكة في CAD
 second_title: Aspose.CAD جافا API
 description: اكتشف الدعم الشبكي في تطبيقات Java باستخدام Aspose.CAD. تحويل ملفات CAD إلى PDF بسهولة.
-type: docs
 weight: 12
 url: /ar/java/advanced-cad-features/mesh-support-in-cad/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# دعم الشبكة مع Aspose.CAD لـ Java
+
 ## مقدمة
 
 Aspose.CAD for Java هي مكتبة قوية تمكن المطورين من العمل بسلاسة مع ملفات التصميم بمساعدة الكمبيوتر (CAD) في تطبيقات Java. في هذا البرنامج التعليمي، سنستكشف ميزة دعم الشبكات في Aspose.CAD لـ Java، مما يسمح لك بتحويل ملفات CAD ذات الشبكات إلى تنسيق PDF. اتبع الدليل الموضح أدناه خطوة بخطوة للاستفادة من إمكانيات هذه المكتبة وتحسين التعامل مع ملفات CAD.
@@ -110,3 +116,9 @@ cadImage.save(outPath, pdfOptions);
 ### س5: هل يمكنني تجربة Aspose.CAD لـ Java مجانًا؟
 
  ج5: نعم، يمكنك استكشاف إصدار تجريبي مجاني من Aspose.CAD لـ Java[هنا](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

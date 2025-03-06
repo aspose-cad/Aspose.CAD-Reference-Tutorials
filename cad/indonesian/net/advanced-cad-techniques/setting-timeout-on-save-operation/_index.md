@@ -3,10 +3,16 @@ title: Mengatur Batas Waktu pada Operasi Simpan - Tutorial Aspose.CAD
 linktitle: Mengatur Batas Waktu pada Operasi Simpan
 second_title: Aspose.CAD .NET - Format File CAD dan BIM
 description: Jelajahi cara meningkatkan operasi penyimpanan CAD dengan pengaturan batas waktu menggunakan Aspose.CAD untuk .NET. Tingkatkan efisiensi dan kontrol dalam aplikasi .NET Anda.
-type: docs
 weight: 12
 url: /id/net/advanced-cad-techniques/setting-timeout-on-save-operation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Mengatur Batas Waktu pada Operasi Simpan - Tutorial Aspose.CAD
+
 ## Perkenalan
 
 Dalam dunia dinamis desain berbantuan komputer (CAD), efisiensi dan fleksibilitas operasi Anda sering kali bergantung pada kemampuan mengelola operasi penghematan secara efektif. Tutorial ini akan mempelajari aspek penting dari proses ini: menetapkan batas waktu pada operasi penyimpanan menggunakan Aspose.CAD untuk .NET. Aspose.CAD adalah perpustakaan canggih yang memberdayakan pengembang untuk bekerja secara lancar dengan format file CAD dalam aplikasi .NET mereka.
@@ -114,3 +120,9 @@ A4: Tentu saja! Aspose.CAD mendukung format file CAD 2D dan 3D.
 ### Q5: Di mana saya bisa mendapatkan bantuan lebih lanjut atau dukungan komunitas?
 
 A5: Kunjungi[Forum Aspose.CAD](https://forum.aspose.com/c/cad/19) untuk dukungan dan diskusi komunitas.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

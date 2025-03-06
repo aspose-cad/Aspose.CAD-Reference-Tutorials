@@ -3,10 +3,16 @@ title: 在 C# 中將文字新增至 DWG 檔案 - Aspose.CAD 教學課程
 linktitle: 在 C# 中向 DWG 文件添加文本
 second_title: Aspose.CAD .NET - CAD 和 BIM 檔案格式
 description: 了解如何使用 C# 和 Aspose.CAD 將文字新增至 DWG 檔案。請按照此逐步教學進行無縫整合。瀏覽 Aspose.CAD 文件以獲得全面的指導。
-type: docs
 weight: 14
 url: /zh-hant/net/dwg-file-manipulation/adding-text-to-dwg/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 C# 中將文字新增至 DWG 檔案 - Aspose.CAD 教學課程
+
 ## 介紹
 
 在電腦輔助設計 (CAD) 和 .NET 開發的動態領域中，Aspose.CAD 作為操作 DWG 檔案的強大工具脫穎而出。在 DWG 檔案中新增文字是一項常見要求，在本教學中，我們將探討如何使用 C# 和 Aspose.CAD 來實現此目的。
@@ -125,3 +131,9 @@ A2：是的，您可以透過重複教學中概述的過程將多個文字實體
 ### Q5：我可以在哪裡尋求協助或討論與 Aspose.CAD 相關的問題？
 
 A5：訪問[Aspose.CAD論壇](https://forum.aspose.com/c/cad/19)與社區聯繫並獲得支持。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

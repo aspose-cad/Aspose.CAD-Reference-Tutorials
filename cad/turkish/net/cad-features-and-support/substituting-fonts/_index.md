@@ -3,10 +3,16 @@ title: Aspose.CAD'de .NET için Yazı Tiplerini Değiştirme
 linktitle: Yazı Tiplerini Değiştirme
 second_title: Aspose.CAD .NET - CAD ve BIM Dosya Formatı
 description: Aspose.CAD for .NET'teki yazı tiplerini zahmetsizce değiştirmeyi öğrenin. CAD çizimlerinizde verimli yazı tipi özelleştirmesi için adım adım kılavuzumuzu izleyin.
-type: docs
 weight: 17
 url: /tr/net/cad-features-and-support/substituting-fonts/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.CAD'de .NET için Yazı Tiplerini Değiştirme
+
 ## giriiş
 
 .NET kullanarak CAD geliştirme alanında, yazı tiplerini değiştirme yeteneği çok önemli bir beceridir. Aspose.CAD for .NET, bu amaca yönelik güçlü bir araç seti sağlayarak geliştiricilerin CAD çizimlerindeki yazı tiplerini sorunsuz bir şekilde değiştirmelerine olanak tanır. Bu eğitimde, yazı tipi değişiminin verimli bir şekilde nasıl gerçekleştirileceğini göstererek süreci adım adım inceleyeceğiz.
@@ -109,3 +115,10 @@ Cevap4: Elbette birden fazla CAD çiziminde yazı tipi değiştirmeyi otomatikle
 
  Cevap5: Ek destek ve topluluk tartışmaları için şu adresi ziyaret edin:[Aspose.CAD forumu](https://forum.aspose.com/c/cad/19).
 
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

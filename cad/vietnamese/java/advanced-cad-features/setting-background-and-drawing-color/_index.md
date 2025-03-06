@@ -3,10 +3,16 @@ title: Đặt nền và màu vẽ bằng Aspose.CAD cho Java
 linktitle: Đặt nền và màu vẽ
 second_title: API Java Aspose.CAD
 description: Dễ dàng chuyển đổi tệp CAD sang PDF và TIFF bằng Aspose.CAD cho Java. Đặt màu nền và màu vẽ tùy chỉnh để có kết quả trực quan ấn tượng.
-type: docs
 weight: 15
 url: /vi/java/advanced-cad-features/setting-background-and-drawing-color/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Đặt nền và màu vẽ bằng Aspose.CAD cho Java
+
 ## Giới thiệu
 
 Trong thế giới năng động của Thiết kế có sự hỗ trợ của máy tính (CAD), việc chuyển đổi tệp hiệu quả là rất quan trọng để cộng tác và liên lạc liền mạch. Aspose.CAD cho Java nổi lên như một công cụ mạnh mẽ, cung cấp khả năng mạnh mẽ để chuyển đổi tệp CAD sang định dạng PDF và TIFF. Trong hướng dẫn này, chúng tôi sẽ đi sâu vào quy trình thiết lập nền và vẽ màu bằng Aspose.CAD cho Java, cung cấp cho bạn hướng dẫn từng bước để có kết quả tối ưu.
@@ -98,3 +104,10 @@ Câu trả lời 2: Có, hướng dẫn này trình bày cách đặt màu nền
 ### Câu hỏi 5: Làm cách nào tôi có thể nhận được hỗ trợ cho Aspose.CAD cho Java?
 
 A5: Tham quan[Diễn đàn Aspose.CAD](https://forum.aspose.com/c/cad/19) để tìm kiếm sự hỗ trợ và tham gia với cộng đồng.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

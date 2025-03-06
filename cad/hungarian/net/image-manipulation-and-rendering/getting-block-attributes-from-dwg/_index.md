@@ -3,10 +3,16 @@ title: Blokk attribútumok lekérése DWG-fájlokból – Aspose.CAD oktatóanya
 linktitle: Blokk attribútumok lekérése DWG fájlokból
 second_title: Aspose.CAD .NET - CAD és BIM fájlformátum
 description: Az Aspose.CAD for .NET segítségével felszabadíthatja a CAD-fájlokban rejlő lehetőségeket. A blokk attribútumainak könnyed kibontása.
-type: docs
 weight: 10
 url: /hu/net/image-manipulation-and-rendering/getting-block-attributes-from-dwg/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Blokk attribútumok lekérése DWG-fájlokból – Aspose.CAD oktatóanyag
+
 ## Bevezetés
 
 számítógéppel segített tervezés (CAD) dinamikus világában az értékes információk DWG-fájlokból való kinyerése számos alkalmazás számára kulcsfontosságú. Az Aspose.CAD for .NET hatékony megoldást kínál a CAD-fájlok hatékony kezelésére. Ebben az oktatóanyagban lépésről lépésre elmélyülünk a blokkattribútumok DWG-fájlokból történő lekérésének folyamatában az Aspose.CAD használatával.
@@ -93,3 +99,9 @@ Gratulálunk! Sikeresen megtanulta, hogyan lehet blokkattribútumokat kivonni DW
 ### 5. kérdés: Hol találom az Aspose.CAD for .NET dokumentációját?
 
  A5: Lásd az átfogó[dokumentáció](https://reference.aspose.com/cad/net/) részletes információkért és példákért.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

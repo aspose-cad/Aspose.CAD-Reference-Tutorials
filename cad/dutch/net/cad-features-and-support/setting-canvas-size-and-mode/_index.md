@@ -3,10 +3,16 @@ title: Canvasgrootte en -modus instellen in Aspose.CAD voor .NET
 linktitle: Canvasgrootte en -modus instellen
 second_title: Aspose.CAD .NET - CAD- en BIM-bestandsindeling
 description: Verken de stapsgewijze handleiding voor het instellen van de canvasgrootte en -modus in Aspose.CAD voor .NET. Optimaliseer uw CAD-weergave eenvoudig met behulp van deze uitgebreide tutorial.
-type: docs
 weight: 16
 url: /nl/net/cad-features-and-support/setting-canvas-size-and-mode/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Canvasgrootte en -modus instellen in Aspose.CAD voor .NET
+
 ## Invoering
 
 Bent u klaar om het volledige potentieel van Aspose.CAD voor .NET te ontsluiten en een revolutie teweeg te brengen in uw CAD-renderingervaring? In deze stapsgewijze zelfstudie verdiepen we ons in de fijne kneepjes van het instellen van de canvasgrootte en -modus met behulp van de krachtige Aspose.CAD-bibliotheek. Of u nu een doorgewinterde ontwikkelaar bent of net begint, deze gids leidt u door het proces en zorgt ervoor dat u de mogelijkheden van Aspose.CAD effectief kunt benutten.
@@ -119,3 +125,9 @@ A1: Ja, Aspose.CAD kan naadloos worden geïntegreerd met andere .NET-bibliotheke
 ### V5: Hoe koop ik Aspose.CAD voor .NET?
 
  A5: Om Aspose.CAD te kopen, gaat u naar de[aankooppagina](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Tracking in CAD-Dateien aktivieren – Aspose.CAD-Tutorial
 linktitle: Aktivieren der Nachverfolgung in CAD-Dateien
 second_title: Aspose.CAD .NET – CAD- und BIM-Dateiformat
 description: Verfolgung von Master-CAD-Dateien mit Aspose.CAD für .NET. Befolgen Sie unsere Schritt-für-Schritt-Anleitung für präzises Rendering und Fehlerverfolgung. Jetzt downloaden!
-type: docs
 weight: 10
 url: /de/net/tracking-and-rendering/enabling-tracking-in-cad-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tracking in CAD-Dateien aktivieren – Aspose.CAD-Tutorial
+
 ## Einführung
 
 Im Bereich CAD (Computer-Aided Design) sind Präzision und Nachverfolgung von größter Bedeutung. Aspose.CAD für .NET bietet eine robuste Lösung zur Aktivierung der Nachverfolgung in CAD-Dateien. Dieses Tutorial führt Sie durch den Prozess und stellt sicher, dass Sie das volle Potenzial dieser Funktion nutzen.
@@ -103,3 +109,9 @@ A3: Es können Probleme wie fehlende Schriftarten oder nicht unterstützte Entit
 ### F5: Kann ich die Tracking-Fehlermeldungen anpassen?
 
 A5: Auf jeden Fall. Sie können den Code ändern, um Fehlermeldungen an Ihre Anforderungen anzupassen.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

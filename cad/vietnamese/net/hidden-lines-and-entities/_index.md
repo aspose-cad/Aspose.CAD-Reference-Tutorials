@@ -3,10 +3,16 @@ title: Các dòng và thực thể ẩn
 linktitle: Các dòng và thực thể ẩn
 second_title: Aspose.CAD .NET - Định dạng tệp CAD và BIM
 description: Mở khóa các dòng ẩn trong tệp DWG một cách dễ dàng với Aspose.CAD cho .NET. Nâng cao dự án CAD của bạn với hướng dẫn từng bước của chúng tôi.
-type: docs
 weight: 29
 url: /vi/net/hidden-lines-and-entities/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Các dòng và thực thể ẩn
+
 
 
 ## Giới thiệu
@@ -39,3 +45,9 @@ Tóm lại, cho dù bạn đang tập trung vào việc mở khóa các dòng �
 Mở khóa các dòng ẩn trong tệp DWG một cách dễ dàng với Aspose.CAD cho .NET. Hãy làm theo hướng dẫn từng bước của chúng tôi để tích hợp liền mạch.
 ### [Hỗ trợ Thực thể MLeader cho Định dạng DWG - Hướng dẫn Aspose.CAD](./supporting-mleader-entity-for-dwg-format/)
 Khai phá sức mạnh của các thực thể MLeader ở định dạng DWG với Aspose.CAD cho .NET. Nâng cao các dự án CAD của bạn một cách dễ dàng.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

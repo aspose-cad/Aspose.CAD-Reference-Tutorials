@@ -3,10 +3,16 @@ title: 이미지 형식으로 내보내기
 linktitle: 이미지 형식으로 내보내기
 second_title: Aspose.CAD .NET - CAD 및 BIM 파일 형식
 description: .NET용 Aspose.CAD를 사용하여 IFC 파일을 PNG로 쉽게 변환할 수 있습니다. 원활한 CAD 파일 처리를 살펴보고 효율적인 파일 조작을 위해 다운로드하세요.
-type: docs
 weight: 39
 url: /ko/net/exporting-to-image-formats/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 이미지 형식으로 내보내기
+
 
 ## 소개
 
@@ -30,3 +36,9 @@ Aspose.CAD for .NET은 CAD 파일 처리 분야의 판도를 바꾸는 역할을
 IFC에서 PNG로의 원활한 변환을 위한 강력한 솔루션인 .NET용 Aspose.CAD를 살펴보세요. 효율적인 CAD 파일 처리를 위해 지금 다운로드하세요.
 ### [IGES 파일을 PDF로 내보내기 - Aspose.CAD 가이드](./exporting-iges-files-to-pdf/)
 .NET용 Aspose.CAD를 사용하여 IGES 파일을 PDF로 손쉽게 내보내는 방법을 알아보세요. 정확한 CAD 파일 조작을 위한 단계별 가이드를 따르십시오.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

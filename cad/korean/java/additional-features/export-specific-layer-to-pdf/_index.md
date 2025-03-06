@@ -3,10 +3,16 @@ title: Java용 Aspose.CAD를 사용하여 DXF 도면의 특정 레이어를 PDF�
 linktitle: Java를 사용하여 DXF 도면의 특정 레이어를 PDF로 내보내기
 second_title: Aspose.CAD 자바 API
 description: Java용 Aspose.CAD를 사용하여 DXF 도면의 특정 레이어를 PDF로 쉽게 내보낼 수 있습니다. 원활한 통합을 위해 이 단계별 가이드를 따르세요.
-type: docs
 weight: 18
 url: /ko/java/additional-features/export-specific-layer-to-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java용 Aspose.CAD를 사용하여 DXF 도면의 특정 레이어를 PDF로 내보내기
+
 ## 소개
 
 Java 개발 영역에서 Aspose.CAD는 CAD(Computer-Aided Design) 파일 작업을 위한 강력한 도구로 돋보입니다. 다양한 기능 중에서 DXF 도면의 특정 레이어를 PDF 파일로 내보내는 기능은 귀중한 기능입니다. 이 튜토리얼은 프로세스를 안내하고 Java용 Aspose.CAD의 잠재력을 최대한 활용할 수 있는 단계별 지침을 제공합니다.
@@ -104,3 +110,9 @@ A4: 예, 유효한 라이센스가 있는지 확인하거나 테스트 목적으
 ### Q5: 추가 지원이나 도움은 어디서 구할 수 있나요?
 
 A5: 다음을 방문하세요.[Aspose.CAD 포럼](https://forum.aspose.com/c/cad/19) 커뮤니티 지원 및 토론을 위해.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

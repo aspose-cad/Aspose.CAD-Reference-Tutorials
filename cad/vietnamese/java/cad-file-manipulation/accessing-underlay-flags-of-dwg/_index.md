@@ -3,10 +3,16 @@ title: Truy cập cờ lót của DWG bằng Aspose.CAD cho Java
 linktitle: Truy cập cờ lót của DWG
 second_title: API Java Aspose.CAD
 description: Khám phá thế giới CAD kỳ diệu với Aspose.CAD cho Java! Dễ dàng xử lý các tệp DWG trong ứng dụng Java của bạn.
-type: docs
 weight: 11
 url: /vi/java/cad-file-manipulation/accessing-underlay-flags-of-dwg/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Truy cập cờ lót của DWG bằng Aspose.CAD cho Java
+
 ## Giới thiệu
 
 Trong lĩnh vực Thiết kế có sự hỗ trợ của máy tính (CAD), độ chính xác và hiệu quả là điều tối quan trọng. Aspose.CAD cho Java nổi lên như một đồng minh mạnh mẽ, cung cấp cầu nối liền mạch giữa các ứng dụng Java và các chức năng CAD của bạn. Trong hướng dẫn từng bước này, chúng ta sẽ đi sâu vào sự kỳ diệu của Aspose.CAD, tập trung vào việc xử lý các tệp DWG và trích xuất thông tin có giá trị bằng Java.
@@ -112,3 +118,9 @@ Trả lời 1: Aspose.CAD chủ yếu tập trung vào định dạng DWG, nhưn
 ### Câu hỏi 5: Tôi có thể tìm tài liệu toàn diện về Aspose.CAD cho Java ở đâu?
 
  A5: Hãy tham khảo[tài liệu](https://reference.aspose.com/cad/java/) để biết thông tin chi tiết.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

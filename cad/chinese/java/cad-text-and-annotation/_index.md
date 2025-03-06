@@ -3,10 +3,16 @@ title: CAD 文本和注释
 linktitle: CAD 文本和注释
 second_title: Aspose.CAD Java API
 description: 使用 Aspose.CAD for Java 轻松提升您的 DWG 绘图。掌握在 DWG 文件中添加和替换字体。视觉完美的分步指南。
-type: docs
 weight: 21
 url: /zh/java/cad-text-and-annotation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# CAD 文本和注释
+
 
 ## 介绍 
 
@@ -36,3 +42,9 @@ url: /zh/java/cad-text-and-annotation/
 轻松增强您的 CAD 设计。了解使用 Aspose.CAD for Java 替换 DWG 文件中的字体。视觉完美的分步指南。
 ### [使用 Aspose.CAD for Java 替换 DWG 中特定样式的字体](./substitute-font-of-particular-style-in-dwg/)
 了解如何使用 Aspose.CAD for Java 替换 DWG 文件中的字体。精确定制样式的分步指南。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Explorer les indicateurs de calque sous-jacents des fichiers DWG - Tutori
 linktitle: Exploration des indicateurs de calque sous-jacent des fichiers DWG
 second_title: Aspose.CAD .NET - Format de fichier CAO et BIM
 description: Libérez la puissance d'Aspose.CAD pour .NET en explorant les indicateurs sous-jacents des fichiers DWG. Suivez notre guide étape par étape.
-type: docs
 weight: 13
 url: /fr/net/dwg-file-manipulation/exploring-underlay-flags-of-dwg/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Explorer les indicateurs de calque sous-jacents des fichiers DWG - Tutoriel Aspose.CAD
+
 ## Introduction
 
 Si vous plongez dans le monde complexe des fichiers CAO, en particulier des fichiers DWG, et que vous souhaitez percer les mystères des drapeaux sous-jacents, vous êtes au bon endroit. Ce didacticiel vous guidera tout au long du processus d'exploration des indicateurs de calque sous-jacents dans les fichiers DWG à l'aide de la puissante bibliothèque Aspose.CAD pour .NET.
@@ -114,3 +120,10 @@ A4 : Acheter la bibliothèque[ici](https://purchase.aspose.com/buy).
 ### Q5 : Existe-t-il un essai gratuit ?
 
  A5 : Oui, vous pouvez accéder à l'essai gratuit[ici](https://releases.aspose.com/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

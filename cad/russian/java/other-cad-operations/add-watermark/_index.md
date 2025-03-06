@@ -3,10 +3,16 @@ title: Добавление водяных знаков в чертежи САП
 linktitle: Добавить водный знак
 second_title: API Aspose.CAD Java
 description: Улучшите свои чертежи САПР с помощью персонализированных водяных знаков с помощью Aspose.CAD для Java. Следуйте нашему пошаговому руководству для бесшовной интеграции.
-type: docs
 weight: 12
 url: /ru/java/other-cad-operations/add-watermark/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Добавление водяных знаков в чертежи САПР - Учебное пособие по Aspose.CAD для Java
+
 ## Введение
 
 Добро пожаловать в это подробное руководство по добавлению водяных знаков в чертежи САПР с помощью Aspose.CAD для Java. В этом руководстве вы узнаете, как эффективно интегрировать водяные знаки, улучшая ваши документы САПР с помощью персонализированных сообщений или фирменного стиля. Aspose.CAD для Java предоставляет мощный набор функций, упрощающих процесс добавления водяных знаков.
@@ -99,3 +105,9 @@ A1: Aspose.CAD поддерживает различные форматы САП
 ### Вопрос 5: Где я могу найти полную документацию по Aspose.CAD для Java?
 
  A5: См.[документация](https://reference.aspose.com/cad/java/) для получения подробной информации.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

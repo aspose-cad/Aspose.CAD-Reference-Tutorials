@@ -3,10 +3,16 @@ title: Ghi đè phát hiện trang mã tự động trong tệp DWG bằng Java
 linktitle: Ghi đè phát hiện trang mã tự động trong tệp DWG
 second_title: API Java Aspose.CAD
 description: Khám phá cách ghi đè tính năng phát hiện trang mã trong tệp DWG bằng Aspose.CAD cho Java. Xử lý hiệu quả mã hóa và khôi phục CIF/MIF không đúng định dạng.
-type: docs
 weight: 13
 url: /vi/java/dwg-file-operations/override-code-page-detection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ghi đè phát hiện trang mã tự động trong tệp DWG bằng Java
+
 ## Giới thiệu
 
 Chào mừng bạn đến với hướng dẫn toàn diện này về cách ghi đè tính năng phát hiện trang mã tự động trong tệp DWG bằng Aspose.CAD cho Java. Aspose.CAD là một thư viện mạnh mẽ cho phép các nhà phát triển Java làm việc với các định dạng tệp CAD, cung cấp nhiều tính năng để thao tác, chuyển đổi và xuất tệp CAD.
@@ -101,3 +107,9 @@ Câu trả lời 3: Phiên bản dùng thử miễn phí có một số hạn ch
 ### Câu hỏi 5: Có giấy phép tạm thời dành cho mục đích thử nghiệm không?
 
  Câu trả lời 5: Có, bạn có thể xin giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/) để thử nghiệm.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

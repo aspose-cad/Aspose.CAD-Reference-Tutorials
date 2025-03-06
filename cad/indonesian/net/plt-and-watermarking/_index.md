@@ -3,10 +3,16 @@ title: PLT dan Watermarking
 linktitle: PLT dan Watermarking
 second_title: Aspose.CAD .NET - Format File CAD dan BIM
 description: Buka potensi format PLT dengan Aspose.CAD untuk .NET. Integrasikan file PLT dengan mudah ke dalam aplikasi Anda dengan tutorial langkah demi langkah kami.
-type: docs
 weight: 37
 url: /id/net/plt-and-watermarking/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# PLT dan Watermarking
+
 
 ## Perkenalan
 
@@ -46,3 +52,9 @@ Kesimpulannya, dengan Aspose.CAD untuk .NET, Anda dapat menguasai dukungan forma
 Temukan dukungan format PLT yang lancar di Aspose.CAD untuk .NET. Ikuti panduan langkah demi langkah kami untuk mengintegrasikan file PLT ke dalam aplikasi .NET Anda dengan mudah.
 ### [Menambahkan Tanda Air ke Gambar CAD - Panduan Aspose.CAD](./adding-watermarks-to-cad-drawings/)
 Sempurnakan gambar CAD Anda dengan tanda air profesional menggunakan Aspose.CAD untuk .NET. Ikuti panduan langkah demi langkah kami untuk desain yang dipersonalisasi dan menarik.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

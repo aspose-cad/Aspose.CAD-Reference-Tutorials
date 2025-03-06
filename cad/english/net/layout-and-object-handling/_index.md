@@ -3,10 +3,16 @@ title: Layout and Object Handling
 linktitle: Layout and Object Handling
 second_title: Aspose.CAD .NET - CAD and BIM File Format
 description: Master DXF layout export, file saving, block clipping, and ACAD Proxy Entities effortlessly for enhanced CAD design using Aspose.CAD for .NET.
-type: docs
 weight: 33
 url: /net/layout-and-object-handling/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Layout and Object Handling
+
 
 ## Introduction
 
@@ -38,3 +44,9 @@ Explore the power of Aspose.CAD for .NET. Learn to save DXF files effortlessly w
 Learn how to implement block clipping in CAD using Aspose.CAD for .NET. Enhance your design capabilities with this step-by-step tutorial.
 ### [Working with ACAD Proxy Entities - Aspose.CAD Guide](./working-with-acad-proxy-entities/)
 Explore Aspose.CAD for .NET and streamline your CAD workflows. Convert, edit, and manage ACAD Proxy Entities effortlessly.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Εργασία με αρχεία DWG σε C# - Λάβετε το μέγε
 linktitle: Εργασία με αρχεία DWG σε C# - Λάβετε το μέγεθος της διάταξης DWF
 second_title: Aspose.CAD .NET - Μορφή αρχείου CAD και BIM
 description: Εξερευνήστε τη δύναμη του Aspose.CAD για .NET στον χειρισμό αρχείων DWG. Μάθετε να εξάγετε μεγέθη διάταξης DWF χωρίς κόπο χρησιμοποιώντας C#.
-type: docs
 weight: 10
 url: /el/net/dwg-file-manipulation/get-size-of-dwf-layout/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Εργασία με αρχεία DWG σε C# - Λάβετε το μέγεθος της διάταξης DWF
+
 ## Εισαγωγή
 
 Στον τομέα της σχεδίασης με τη βοήθεια υπολογιστή (CAD) και της ανάπτυξης .NET, το Aspose.CAD αποτελεί ένα ισχυρό εργαλείο για το χειρισμό αρχείων DWG. Αυτό το σεμινάριο θα σας καθοδηγήσει στη διαδικασία εργασίας με αρχεία DWG σε C# και εξαγωγής του μεγέθους μιας διάταξης DWF. Πριν βουτήξουμε στον κώδικα, ας βεβαιωθούμε ότι έχετε προετοιμάσει τα πάντα για να ξεκινήσετε αυτό το ταξίδι.
@@ -163,3 +169,9 @@ A4: Για οποιαδήποτε απορία ή βοήθεια, επισκεφ
 ### Ε5: Υπάρχει διαθέσιμη δωρεάν δοκιμή για το Aspose.CAD;
 
  A5: Ναι, μπορείτε να αποκτήσετε πρόσβαση σε μια δωρεάν δοκιμαστική έκδοση του Aspose.CAD[εδώ](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

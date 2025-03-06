@@ -3,10 +3,16 @@ title: 在 Aspose.CAD for .NET 中將 DGN 匯出為光柵影像
 linktitle: 將 DGN 匯出為光柵影像
 second_title: Aspose.CAD .NET - CAD 和 BIM 檔案格式
 description: 使用 Aspose.CAD for .NET 輕鬆將 DGN 轉換為光柵影像。探索逐步指南並釋放 .NET 在 CAD 檔案操作方面的強大功能。
-type: docs
 weight: 13
 url: /zh-hant/net/cad-export-formats/export-dgn-to-raster-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.CAD for .NET 中將 DGN 匯出為光柵影像
+
 ## 介紹
 
 在 .NET 開發的動態領域中，Aspose.CAD 成為處理電腦輔助設計 (CAD) 檔案的強大工具。本教學深入介紹使用 Aspose.CAD for .NET 將 DGN 檔案匯出為光柵影像的過程。如果您熱衷於將 DGN 檔案無縫轉換為視覺上引人注目的光柵影像，那麼您來對地方了。
@@ -102,3 +108,9 @@ A2：確保您有正確的異常處理（如提供的程式碼所示），以解
 ### 問題 5：如何取得 Aspose.CAD for .NET 的臨時授權？
 
  A5：參觀[這個連結](https://purchase.aspose.com/temporary-license/)取得滿足您的開發需求的臨時許可證。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

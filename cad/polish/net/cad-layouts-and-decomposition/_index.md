@@ -3,10 +3,16 @@ title: Układy CAD i rozkład
 linktitle: Układy CAD i rozkład
 second_title: Aspose.CAD .NET - Format plików CAD i BIM
 description: Odblokuj potencjał układów CAD z Aspose.CAD dla .NET! Z łatwością konwertuj projekty do formatu PDF, korzystając z naszego przewodnika. Bez wysiłku opanuj rozkład wstawianych obiektów.
-type: docs
 weight: 34
 url: /pl/net/cad-layouts-and-decomposition/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Układy CAD i rozkład
+
 
 
 
@@ -59,3 +65,9 @@ Podsumowując, Aspose.CAD dla .NET stanowi przełom w dziedzinie CAD. Dzięki na
 Konwertuj układy CAD do formatu PDF bez wysiłku dzięki Aspose.CAD dla .NET. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby zapewnić bezproblemową integrację.
 ### [Rozkładanie obiektów wstawiania CAD - Przewodnik Aspose.CAD](./decomposing-cad-insert-objects/)
 Odkryj moc Aspose.CAD dla .NET dzięki naszemu przewodnikowi krok po kroku na temat rozkładania obiektów wstawek CAD.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

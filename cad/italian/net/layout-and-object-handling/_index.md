@@ -3,10 +3,16 @@ title: Layout e gestione degli oggetti
 linktitle: Layout e gestione degli oggetti
 second_title: Aspose.CAD .NET - Formato file CAD e BIM
 description: Esportazione master di layout DXF, salvataggio di file, ritaglio di blocchi ed entità proxy ACAD senza sforzo per una progettazione CAD avanzata utilizzando Aspose.CAD per .NET.
-type: docs
 weight: 33
 url: /it/net/layout-and-object-handling/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Layout e gestione degli oggetti
+
 
 ## introduzione
 
@@ -38,3 +44,9 @@ Esplora la potenza di Aspose.CAD per .NET. Impara a salvare i file DXF senza sfo
 Scopri come implementare il ritaglio dei blocchi in CAD utilizzando Aspose.CAD per .NET. Migliora le tue capacità di progettazione con questo tutorial passo passo.
 ### [Lavorare con le entità proxy ACAD - Guida Aspose.CAD](./working-with-acad-proxy-entities/)
 Esplora Aspose.CAD per .NET e semplifica i flussi di lavoro CAD. Converti, modifica e gestisci le entità proxy ACAD senza sforzo.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

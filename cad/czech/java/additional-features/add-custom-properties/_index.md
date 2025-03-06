@@ -3,10 +3,16 @@ title: Přidejte uživatelské vlastnosti do souborů DWG pomocí Aspose.CAD v J
 linktitle: Přidejte uživatelské vlastnosti do souborů DWG pomocí Java
 second_title: Aspose.CAD Java API
 description: Naučte se přidávat uživatelské vlastnosti do souborů DWG v Javě pomocí Aspose.CAD. Vylepšete organizaci a vyhledávání informací ve výkresech CAD bez námahy.
-type: docs
 weight: 10
 url: /cs/java/additional-features/add-custom-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Přidejte uživatelské vlastnosti do souborů DWG pomocí Aspose.CAD v Javě
+
 Ve světě programování v jazyce Java je manipulace se soubory DWG s uživatelskými vlastnostmi běžným úkolem. Aspose.CAD for Java poskytuje výkonnou sadu nástrojů pro bezproblémovou integraci této funkce do vašich projektů. V tomto podrobném tutoriálu vás provedeme procesem přidávání uživatelských vlastností do souborů DWG pomocí Aspose.CAD for Java.
 
 ## Úvod
@@ -105,3 +111,9 @@ A2: Aspose.CAD for Java je kompatibilní s populárními Java IDE, jako jsou Ecl
 ### Q5: Jak mohu získat podporu nebo klást otázky?
 
 A5: Navštivte[Fórum Aspose.CAD](https://forum.aspose.com/c/cad/19) získat podporu, klást otázky a spojit se s komunitou Aspose.CAD.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

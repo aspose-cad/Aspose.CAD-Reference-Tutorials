@@ -3,10 +3,16 @@ title: Java용 Aspose.CAD와 함께 단위 유형을 사용하여 CAD 도면 크
 linktitle: 단위 유형을 사용하여 CAD 도면 크기 조정
 second_title: Aspose.CAD 자바 API
 description: CAD 도면 크기를 쉽게 조정할 수 있는 Aspose.CAD for Java의 기능을 살펴보세요. 정확성과 적응성을 위한 단계별 가이드를 따르세요.
-type: docs
 weight: 14
 url: /ko/java/cad-file-manipulation/adjusting-cad-drawing-size-using-unit-type/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java용 Aspose.CAD와 함께 단위 유형을 사용하여 CAD 도면 크기 조정
+
 ## 소개
 
 끊임없이 진화하는 CAD(Computer-Aided Design) 영역에서는 정확성과 적응성이 무엇보다 중요합니다. 일반적인 요구 사항 중 하나는 특정 단위 유형에 따라 CAD 도면의 크기를 조정하는 것입니다. Aspose.CAD for Java는 CAD 파일을 프로그래밍 방식으로 조작하기 위한 원활한 기능을 제공하는 강력한 동맹으로 등장합니다.
@@ -117,3 +123,9 @@ A1: Aspose.CAD는 주로 Java를 지원하지만 .NET과 같은 다른 언어에
 ### Q5: Aspose.CAD의 임시 라이선스를 얻을 수 있나요?
 
  A5: 예, 임시 라이센스를 취득할 수 있습니다.[여기](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

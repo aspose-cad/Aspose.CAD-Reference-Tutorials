@@ -3,10 +3,16 @@ title: ضبط حجم القماش ووضعه
 linktitle: ضبط حجم القماش ووضعه
 second_title: Aspose.CAD جافا API
 description: اكتشف قوة Aspose.CAD لـ Java من خلال دليلنا المفصّل خطوة بخطوة حول تعيين حجم اللوحة القماشية ووضعها. قم بتحويل ملفات CAD إلى تنسيقات PDF وTIFF بسهولة.
-type: docs
 weight: 16
 url: /ar/java/advanced-cad-features/set-canvas-size-and-mode/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# ضبط حجم القماش ووضعه
+
 ## مقدمة
 
 هل تتطلع إلى تسخير قوة Aspose.CAD لـ Java لتحسين عملية تحويل CAD لديك؟ سيرشدك هذا الدليل الشامل عبر خطوات تحديد حجم اللوحة القماشية ووضعها باستخدام Aspose.CAD لـ Java. سواء كنت مطورًا متمرسًا أو بدأت للتو، سيزودك هذا البرنامج التعليمي بالرؤى التي تحتاجها.
@@ -126,3 +132,9 @@ objImage.save(dataDir + "result_out_.tiff", tiffOptions);
 ### س5: كيف يمكنني شراء Aspose.CAD لـ Java؟
 
  ج5: شراء المنتج[هنا](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

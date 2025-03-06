@@ -3,10 +3,16 @@ title: Manipulasi dan Rendering Gambar
 linktitle: Manipulasi dan Rendering Gambar
 second_title: Aspose.CAD .NET - Format File CAD dan BIM
 description: Buka potensi file CAD dengan Aspose.CAD untuk .NET. Pelajari ekstraksi atribut blok, impor gambar, konversi DWG ke PDF, dukungan mesh, dan banyak lagi dengan mudah.
-type: docs
 weight: 27
 url: /id/net/image-manipulation-and-rendering/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Manipulasi dan Rendering Gambar
+
 
 ## Perkenalan
 
@@ -54,3 +60,9 @@ Jelajahi Aspose.CAD untuk .NET. Konversi DWG ke gambar dalam C# dengan mudah. Pa
 Buka potensi Aspose.CAD untuk .NET dengan tutorial langkah demi langkah kami tentang membaca metadata XREF dari file DWG.
 ### [Merender Dokumen DWG di C# - Panduan Aspose.CAD](./rendering-dwg-documents/)
 Pelajari cara merender dokumen DWG di C# menggunakan Aspose.CAD. Panduan langkah demi langkah ini mencakup impor, konfigurasi, dan penyimpanan dengan contoh kode.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

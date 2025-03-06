@@ -3,10 +3,16 @@ title: 將特定佈局匯出為 PDF - Aspose.CAD 指南
 linktitle: 將特定佈局匯出為 PDF
 second_title: Aspose.CAD .NET - CAD 和 BIM 檔案格式
 description: 了解如何使用 Aspose.CAD for .NET 將特定佈局匯出為 PDF。無縫整合的逐步指南。
-type: docs
 weight: 13
 url: /zh-hant/net/advanced-export-techniques/exporting-specific-layouts-to-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 將特定佈局匯出為 PDF - Aspose.CAD 指南
+
 ## 介紹
 
 歡迎閱讀我們有關使用 Aspose.CAD for .NET 將特定佈局匯出為 PDF 的逐步指南。 Aspose.CAD 是一個功能強大的程式庫，允許開發人員無縫地使用 CAD 檔案格式。在本教程中，我們將重點介紹在 .NET 環境中使用 Aspose.CAD 將特定佈局從 DWG 檔案匯出為 PDF。
@@ -110,3 +116,9 @@ A2：是的，Aspose.CAD支援各種CAD格式，包括DWG、DXF、DWF等。
 ### Q5: 有免費試用嗎？
 
  A5：是的，您可以免費試用[這裡](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

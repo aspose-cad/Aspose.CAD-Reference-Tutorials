@@ -3,10 +3,16 @@ title: Accès aux indicateurs de sous-couche de DWG avec Aspose.CAD pour Java
 linktitle: Accès aux indicateurs de calque sous-jacent de DWG
 second_title: API Java Aspose.CAD
 description: Explorez le monde de la magie de la CAO avec Aspose.CAD pour Java ! Gérez sans effort les fichiers DWG dans vos applications Java.
-type: docs
 weight: 11
 url: /fr/java/cad-file-manipulation/accessing-underlay-flags-of-dwg/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Accès aux indicateurs de sous-couche de DWG avec Aspose.CAD pour Java
+
 ## Introduction
 
 Dans le domaine de la conception assistée par ordinateur (CAO), la précision et l’efficacité sont primordiales. Aspose.CAD for Java apparaît comme un allié puissant, fournissant un pont transparent entre vos applications Java et les fonctionnalités de CAO. Dans ce guide étape par étape, nous plongerons dans la magie d'Aspose.CAD, en nous concentrant sur la gestion des fichiers DWG et l'extraction d'informations précieuses à l'aide de Java.
@@ -112,3 +118,9 @@ A1 : Aspose.CAD se concentre principalement sur le format DWG, mais il prend ég
 ### Q5 : Où puis-je trouver la documentation complète d'Aspose.CAD pour Java ?
 
  A5 : Reportez-vous au[Documentation](https://reference.aspose.com/cad/java/) pour des informations détaillées.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

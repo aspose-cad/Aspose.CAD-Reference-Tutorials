@@ -3,10 +3,16 @@ title: Adicionando texto a arquivos DWG em C# - Tutorial Aspose.CAD
 linktitle: Adicionando texto a arquivos DWG em C#
 second_title: Aspose.CAD .NET - Formato de arquivo CAD e BIM
 description: Aprenda como adicionar texto a arquivos DWG usando C# e Aspose.CAD. Siga este tutorial passo a passo para uma integração perfeita. Explore a documentação do Aspose.CAD para obter orientação abrangente.
-type: docs
 weight: 14
 url: /pt/net/dwg-file-manipulation/adding-text-to-dwg/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Adicionando texto a arquivos DWG em C# - Tutorial Aspose.CAD
+
 ## Introdução
 
 No domínio dinâmico do design auxiliado por computador (CAD) e do desenvolvimento .NET, o Aspose.CAD se destaca como uma ferramenta poderosa para manipular arquivos DWG. Adicionar texto a arquivos DWG é um requisito comum e, neste tutorial, exploraremos como fazer isso usando C# e Aspose.CAD.
@@ -125,3 +131,9 @@ A2: Sim, você pode adicionar várias entidades de texto a um arquivo DWG repeti
 ### Q5: Onde posso procurar ajuda ou discutir dúvidas relacionadas ao Aspose.CAD?
 
 A5: Visite o[Fórum Aspose.CAD](https://forum.aspose.com/c/cad/19)para se conectar com a comunidade e obter suporte.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

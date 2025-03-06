@@ -3,10 +3,16 @@ title: ضبط الخلفية وألوان الرسم في Aspose.CAD لـ .NET
 linktitle: ضبط الخلفية وألوان الرسم
 second_title: Aspose.CAD .NET - تنسيق ملف CAD وBIM
 description: ماجستير Aspose.CAD لـ .NET. قم بتعيين الخلفية ورسم الألوان دون عناء. اتبع دليلنا خطوة بخطوة.
-type: docs
 weight: 15
 url: /ar/net/cad-features-and-support/setting-background-and-drawing-colors/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# ضبط الخلفية وألوان الرسم في Aspose.CAD لـ .NET
+
 ## مقدمة
 
 في العالم الديناميكي لتطوير .NET، يظهر Aspose.CAD كأداة قوية للتعامل مع ملفات التصميم بمساعدة الكمبيوتر (CAD). إذا كنت حريصًا على تحسين مهاراتك في التعامل مع رسومات CAD، فهذا البرنامج التعليمي هو بوابتك. سنتعمق في تعقيدات إعداد الخلفية وألوان الرسم باستخدام Aspose.CAD لـ .NET، مما يوفر لك دليلًا خطوة بخطوة يضمن الوضوح والفعالية.
@@ -108,3 +114,10 @@ image.Save(MyDir + "result_out.tiff", tiffOptions);
 ### س5: هل تحتاج إلى مساعدة أو تريد التواصل مع المجتمع؟
 
  ج5: قم بزيارة منتدى الدعم[هنا](https://forum.aspose.com/c/cad/19).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

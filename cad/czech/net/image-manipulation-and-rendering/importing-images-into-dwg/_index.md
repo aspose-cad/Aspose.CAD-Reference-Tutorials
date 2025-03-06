@@ -3,10 +3,16 @@ title: Import obrázků do souborů DWG pomocí C# - Aspose.CAD Guide
 linktitle: Import obrázků do souborů DWG pomocí C#
 second_title: Aspose.CAD .NET – formát souborů CAD a BIM
 description: Naučte se importovat obrázky do souborů DWG pomocí C# s Aspose.CAD for .NET. Postupujte podle našeho podrobného průvodce pro bezproblémovou integraci.
-type: docs
 weight: 11
 url: /cs/net/image-manipulation-and-rendering/importing-images-into-dwg/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Import obrázků do souborů DWG pomocí C# - Aspose.CAD Guide
+
 ## Úvod
 
 V oblasti počítačově podporovaného navrhování (CAD) je začlenění obrázků do souborů DWG běžným a zásadním úkolem. Aspose.CAD for .NET poskytuje výkonnou sadu nástrojů pro zefektivnění tohoto procesu a zpřístupňuje jej pro vývojáře v C#. V tomto tutoriálu prozkoumáme, jak importovat obrázky do souborů DWG krok za krokem.
@@ -122,3 +128,9 @@ A1: Aspose.CAD je primárně navržen pro .NET, ale Aspose poskytuje knihovny pr
 ### Q5: Existují komunitní fóra pro podporu Aspose.CAD?
 
  A5: Ano, můžete hledat podporu a zapojit se do komunity[tady](https://forum.aspose.com/c/cad/19).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

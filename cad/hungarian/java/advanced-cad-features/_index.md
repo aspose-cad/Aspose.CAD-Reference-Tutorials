@@ -3,10 +3,16 @@ title: Speciális CAD szolgáltatások
 linktitle: Speciális CAD szolgáltatások
 second_title: Aspose.CAD Java API
 description: Emelje fel CAD-fejlesztését az Aspose.CAD for Java oktatóanyaggal. Tanulja meg a követés engedélyezését, az IGES formátum integrálását, a master mesh támogatást, a tollexport testreszabását, a DWT-fájlok olvasását és még sok mást.
-type: docs
 weight: 24
 url: /hu/java/advanced-cad-features/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Speciális CAD szolgáltatások
+
 
 ## Bevezetés
 
@@ -66,3 +72,9 @@ Javítsa ki CAD-munkafolyamatát az Aspose.CAD for Java segítségével. Ez a l�
 Master réteg támogatása a Java CAD fejlesztésben az Aspose.CAD segítségével. Könnyedén rendezheti és exportálhatja a rajzokat.
 ### [Kivonja a blokk attribútum értékét a külső hivatkozásból az Aspose.CAD használatával Java nyelven](./extract-block-attribute-value/)
 Tekintse meg oktatóanyagunkat a blokkattribútumértékek kinyerésére DWG külső hivatkozásokból Java nyelven az Aspose.CAD segítségével. Fokozza a CAD-fejlesztési munkafolyamatot könnyedén.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

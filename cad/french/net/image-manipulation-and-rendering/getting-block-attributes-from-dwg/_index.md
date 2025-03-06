@@ -3,10 +3,16 @@ title: Obtenir des attributs de bloc à partir de fichiers DWG - Tutoriel Aspose
 linktitle: Obtention d'attributs de bloc à partir de fichiers DWG
 second_title: Aspose.CAD .NET - Format de fichier CAO et BIM
 description: Libérez le potentiel des fichiers CAO avec Aspose.CAD pour .NET. Extrayez les attributs de bloc sans effort.
-type: docs
 weight: 10
 url: /fr/net/image-manipulation-and-rendering/getting-block-attributes-from-dwg/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Obtenir des attributs de bloc à partir de fichiers DWG - Tutoriel Aspose.CAD
+
 ## Introduction
 
 Dans le monde dynamique de la conception assistée par ordinateur (CAO), l'extraction d'informations précieuses à partir de fichiers DWG est cruciale pour de nombreuses applications. Aspose.CAD pour .NET fournit une solution puissante pour travailler efficacement avec des fichiers CAO. Dans ce didacticiel, nous approfondirons le processus de récupération des attributs de bloc à partir de fichiers DWG à l'aide d'Aspose.CAD, étape par étape.
@@ -93,3 +99,9 @@ A1 : Oui, Aspose.CAD prend en charge divers formats de CAO, notamment DWG, DXF, 
 ### Q5 : Où puis-je trouver la documentation d'Aspose.CAD pour .NET ?
 
  A5 : Reportez-vous au document complet[Documentation](https://reference.aspose.com/cad/net/) pour des informations détaillées et des exemples.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

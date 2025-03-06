@@ -3,10 +3,16 @@ title: Aspose.CAD for Java Kullanarak SVG'ye Aktarma
 linktitle: SVG'ye aktar
 second_title: Aspose.CAD Java API'si
 description: CAD çizimlerini SVG'ye aktarmaya ilişkin adım adım kılavuzumuzla Aspose.CAD for Java'nın potansiyelini ortaya çıkarın. Ad alanlarını nasıl içe aktaracağınızı, seçenekleri nasıl yapılandıracağınızı ve Aspose.CAD'i Java projenize sorunsuzca nasıl entegre edeceğinizi öğrenin.
-type: docs
 weight: 12
 url: /tr/java/cad-to-pdf-and-svg-export-options/export-to-svg/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.CAD for Java Kullanarak SVG'ye Aktarma
+
 ## giriiş
 
 Geliştiricilerin CAD çizimlerini kolaylıkla işlemesine olanak tanıyan güçlü bir kütüphane olan Aspose.CAD for Java dünyasına hoş geldiniz. İster deneyimli bir geliştirici olun ister CAD dünyasına yeni başlayan biri olun, bu kapsamlı kılavuz Aspose.CAD for Java'yı kullanarak CAD çizimlerini SVG formatına aktarma sürecinde size yol gösterecektir.
@@ -103,3 +109,9 @@ A2: Kesinlikle! Aspose.CAD, kullanıcı dostu bir API sunarak yeni başlayanlar 
 ### S5: Aspose.CAD for Java lisansını nasıl satın alabilirim?
 
  Cevap5: Lisansı şuradan satın alabilirsiniz:[satın alma sayfası](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: 将自定义属性添加到 DWG 文件 - Aspose.CAD 指南
 linktitle: 将自定义属性添加到 DWG 文件
 second_title: Aspose.CAD .NET - CAD 和 BIM 文件格式
 description: 使用 Aspose.CAD for .NET 通过自定义属性增强您的 DWG 文件。按照我们的分步指南轻松添加有意义的元数据。
-type: docs
 weight: 11
 url: /zh/net/attribute-and-property-management/adding-custom-properties-to-dwg/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 将自定义属性添加到 DWG 文件 - Aspose.CAD 指南
+
 ## 介绍
 
 欢迎阅读有关使用 Aspose.CAD for .NET 将自定义属性添加到 DWG 文件的综合指南。 Aspose.CAD 是一个功能强大的库，使开发人员能够无缝地使用 CAD 文件。在本教程中，我们将重点加强您对自定义属性以及如何使用 Aspose.CAD 将它们添加到 DWG 文件的理解。
@@ -92,3 +98,9 @@ A4：虽然没有严格的限制，但最好为自定义属性使用有意义且
 ### Q5：如果我遇到任何问题，Aspose.CAD 是否提供支持？
 
  A5：是的，您可以寻求以下方面的帮助：[Aspose.CAD论坛](https://forum.aspose.com/c/cad/19)如有任何技术疑问或问题。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

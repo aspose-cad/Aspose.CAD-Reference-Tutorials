@@ -3,10 +3,16 @@ title: Εξαγωγή τρισδιάστατης εικόνας
 linktitle: Εξαγωγή τρισδιάστατης εικόνας
 second_title: Aspose.CAD .NET - Μορφή αρχείου CAD και BIM
 description: Εξάγετε εύκολα τρισδιάστατες εικόνες CAD σε PDF χρησιμοποιώντας το Aspose.CAD για .NET. Ακολουθήστε τα σεμινάρια μας για απρόσκοπτη μετατροπή PDF. Μάθετε αποτελεσματικές τεχνικές εξαγωγής τρισδιάστατων εικόνων.
-type: docs
 weight: 35
 url: /el/net/3d-image-export/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Εξαγωγή τρισδιάστατης εικόνας
+
 
 ## Εισαγωγή
 
@@ -34,3 +40,9 @@ url: /el/net/3d-image-export/
 ## Εκμάθηση εξαγωγής τρισδιάστατης εικόνας
 ### [Εξαγωγή τρισδιάστατων εικόνων σε PDF - Οδηγός Aspose.CAD](./exporting-3d-images-to-pdf/)
 Μετατρέψτε εύκολα τρισδιάστατες εικόνες CAD σε PDF με το Aspose.CAD για .NET. Ακολουθήστε το βήμα προς βήμα εκμάθησή μας για απρόσκοπτη εξαγωγή PDF.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

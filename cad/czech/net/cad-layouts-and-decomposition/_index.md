@@ -3,10 +3,16 @@ title: CAD rozložení a rozklad
 linktitle: CAD rozložení a rozklad
 second_title: Aspose.CAD .NET – formát souborů CAD a BIM
 description: Odemkněte potenciál rozvržení CAD s Aspose.CAD pro .NET! Snadno převeďte návrhy do PDF pomocí našeho průvodce. Zvládněte rozklad vložených objektů bez námahy.
-type: docs
 weight: 34
 url: /cs/net/cad-layouts-and-decomposition/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# CAD rozložení a rozklad
+
 
 
 
@@ -59,3 +65,9 @@ Závěrem lze říci, že Aspose.CAD for .NET představuje zásadní změnu ve s
 Převádějte rozvržení CAD do PDF bez námahy pomocí Aspose.CAD pro .NET. Postupujte podle našeho podrobného průvodce pro bezproblémovou integraci.
 ### [Rozkládání objektů vložení CAD - Průvodce Aspose.CAD](./decomposing-cad-insert-objects/)
 Prozkoumejte sílu Aspose.CAD pro .NET pomocí našeho podrobného průvodce rozkladem objektů CAD vkládání.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

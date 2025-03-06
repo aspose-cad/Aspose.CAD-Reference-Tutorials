@@ -3,10 +3,16 @@ title: 파일 형식 변환
 linktitle: 파일 형식 변환
 second_title: Aspose.CAD .NET - CAD 및 BIM 파일 형식
 description: .NET용 Aspose.CAD를 사용하여 CAD 파일 처리 기능을 손쉽게 향상하세요. DWF를 PDF로 내보내는 방법과 3D 이미지를 BMP 형식으로 내보내는 방법에 대한 튜토리얼을 살펴보세요.
-type: docs
 weight: 36
 url: /ko/net/file-format-conversion/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 파일 형식 변환
+
 
 ## 소개
 
@@ -46,3 +52,9 @@ DWF를 PDF로 내보내는 모험을 하든 BMP 형식의 세계로 뛰어들든
 .NET용 Aspose.CAD를 사용하여 DWF를 PDF로 내보내는 방법에 대한 완벽한 가이드를 살펴보세요. CAD 파일 처리 기능을 쉽게 향상시키십시오.
 ### [BMP 형식으로 내보내기 - Aspose.CAD 튜토리얼](./exporting-to-bmp-format/)
 .NET용 Aspose.CAD를 사용하여 BMP로 3D 이미지를 원활하게 내보내는 세계를 탐험해보세요. 번거롭지 않은 경험을 위해 튜토리얼을 따르십시오.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

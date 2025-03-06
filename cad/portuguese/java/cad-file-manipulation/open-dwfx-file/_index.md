@@ -3,10 +3,16 @@ title: Abra o arquivo DWFX com Aspose.CAD para Java
 linktitle: Abra o arquivo DWFX
 second_title: API Java Aspose.CAD
 description: Libere o potencial dos arquivos CAD com Aspose.CAD para Java. Converta DWFX em PDF perfeitamente.
-type: docs
 weight: 10
 url: /pt/java/cad-file-manipulation/open-dwfx-file/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Abra o arquivo DWFX com Aspose.CAD para Java
+
 ## Introdução
 
 No mundo da tecnologia em rápida evolução, os arquivos de design auxiliado por computador (CAD) desempenham um papel crucial em vários setores. Aspose.CAD for Java surge como uma ferramenta poderosa que capacita os desenvolvedores a manipular arquivos CAD com eficiência. Neste guia completo, orientaremos você no processo de abertura de um arquivo DWFX e conversão em PDF usando Aspose.CAD para Java.
@@ -109,3 +115,9 @@ A2: Sim, você pode explorar os recursos do Aspose.CAD for Java com uma avaliaç
 ### Q5: Onde posso encontrar a documentação do Aspose.CAD for Java?
 
  A5: A documentação abrangente está disponível[aqui](https://reference.aspose.com/cad/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

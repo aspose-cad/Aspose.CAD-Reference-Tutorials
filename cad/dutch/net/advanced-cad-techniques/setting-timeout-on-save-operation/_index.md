@@ -3,10 +3,16 @@ title: Time-out instellen bij opslaan - Aspose.CAD Tutorial
 linktitle: Time-out instellen bij opslaan
 second_title: Aspose.CAD .NET - CAD- en BIM-bestandsindeling
 description: Ontdek hoe u CAD-opslagbewerkingen kunt verbeteren met time-outinstellingen met behulp van Aspose.CAD voor .NET. Verhoog de efficiëntie en controle in uw .NET-applicaties.
-type: docs
 weight: 12
 url: /nl/net/advanced-cad-techniques/setting-timeout-on-save-operation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Time-out instellen bij opslaan - Aspose.CAD Tutorial
+
 ## Invoering
 
 In de dynamische wereld van computerondersteund ontwerp (CAD) zijn de efficiëntie en flexibiliteit van uw activiteiten vaak afhankelijk van de mogelijkheid om opslagbewerkingen effectief te beheren. In deze tutorial wordt dieper ingegaan op een cruciaal aspect van dit proces: het instellen van een time-out voor opslagbewerkingen met Aspose.CAD voor .NET. Aspose.CAD is een krachtige bibliotheek waarmee ontwikkelaars naadloos kunnen werken met CAD-bestandsindelingen in hun .NET-toepassingen.
@@ -114,3 +120,9 @@ A4: Absoluut! Aspose.CAD ondersteunt zowel 2D- als 3D CAD-bestandsindelingen.
 ### Vraag 5: Waar kan ik verdere hulp of gemeenschapsondersteuning vinden?
 
 A5: Bezoek de[Aspose.CAD-forum](https://forum.aspose.com/c/cad/19) voor gemeenschapsondersteuning en discussies.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

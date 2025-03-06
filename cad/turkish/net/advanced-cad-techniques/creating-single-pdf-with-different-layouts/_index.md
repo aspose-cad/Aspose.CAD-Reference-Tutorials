@@ -3,10 +3,16 @@ title: Farklı Düzenlerle Tek PDF Oluşturma - Aspose.CAD Guide
 linktitle: Farklı Düzenlerle Tek PDF Oluşturma
 second_title: Aspose.CAD .NET - CAD ve BIM Dosya Formatı
 description: Aspose.CAD for .NET'i kullanarak farklı düzenlerle tek bir PDF oluşturun. Sorunsuz entegrasyon ve verimli PDF oluşturma için adım adım kılavuzumuzu izleyin.
-type: docs
 weight: 13
 url: /tr/net/advanced-cad-techniques/creating-single-pdf-with-different-layouts/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Farklı Düzenlerle Tek PDF Oluşturma - Aspose.CAD Guide
+
 ## giriiş
 
 Aspose.CAD for .NET'i kullanarak farklı düzenlere sahip bir CAD çiziminden tek bir PDF belgesi mi oluşturmak istiyorsunuz? Bu adım adım kılavuz, süreç boyunca size yol göstererek kusursuz entegrasyona ve etkili PDF oluşturmaya ulaşmanıza yardımcı olacaktır. Aspose.CAD for .NET, CAD çizimlerini programlı olarak yönetmek için güçlü özellikler sağlar ve bu eğitimde, farklı düzenlerle tek bir PDF oluşturmaya odaklanacağız.
@@ -95,3 +101,9 @@ Cevap1: Evet, Aspose.CAD for .NET DWG, DXF, DGN ve daha fazlası gibi çeşitli 
 ### S5: Aspose.CAD for .NET lisansını satın alabilir miyim?
 
  A5: Evet, lisans satın alabilirsiniz[Burada](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: .NET용 Aspose.CAD에서 CAD 도면을 래스터 이미지로 변환
 linktitle: CAD 도면을 래스터 이미지로 변환
 second_title: Aspose.CAD .NET - CAD 및 BIM 파일 형식
 description: Aspose.CAD를 사용하여 .NET에서 CAD 도면을 래스터 이미지로 변환하는 원활한 프로세스를 살펴보세요. 효율적인 워크플로우를 활용하고 CAD 프로젝트를 손쉽게 향상하세요.
-type: docs
 weight: 11
 url: /ko/net/cad-drawing-manipulation/convert-cad-drawing-to-raster-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# .NET용 Aspose.CAD에서 CAD 도면을 래스터 이미지로 변환
+
 ## 소개
 
 끊임없이 진화하는 CAD(컴퓨터 지원 설계) 환경에서는 CAD 도면을 래스터 이미지로 원활하게 변환하는 것이 무엇보다 중요합니다. 이 단계별 가이드에서는 강력한 .NET용 Aspose.CAD 라이브러리를 사용하여 이를 달성하는 방법을 살펴봅니다. Aspose.CAD는 프로세스를 단순화하여 개발자에게 CAD 관련 워크플로우를 향상시킬 수 있는 강력한 도구 세트를 제공합니다.
@@ -118,3 +124,9 @@ A2: 예, Aspose.CAD는 래스터화 옵션의 광범위한 사용자 정의를 �
 ### Q5: Aspose.CAD에 임시 라이선스를 사용할 수 있나요?
  
  A5: 예, 개발자는 Aspose.CAD에 대한 임시 라이선스를 다음에서 얻을 수 있습니다.[이 링크](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

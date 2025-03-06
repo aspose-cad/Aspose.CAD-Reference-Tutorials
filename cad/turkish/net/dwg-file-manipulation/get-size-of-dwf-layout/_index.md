@@ -3,10 +3,16 @@ title: C#'ta DWG Dosyalarıyla Çalışma - DWF Düzeninin Boyutunu Alma
 linktitle: C#'ta DWG Dosyalarıyla Çalışma - DWF Düzeninin Boyutunu Alma
 second_title: Aspose.CAD .NET - CAD ve BIM Dosya Formatı
 description: DWG dosyalarını işlemede Aspose.CAD for .NET'in gücünü keşfedin. C# kullanarak DWF düzeni boyutlarını zahmetsizce çıkarmayı öğrenin.
-type: docs
 weight: 10
 url: /tr/net/dwg-file-manipulation/get-size-of-dwf-layout/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# C#'ta DWG Dosyalarıyla Çalışma - DWF Düzeninin Boyutunu Alma
+
 ## giriiş
 
 Bilgisayar destekli tasarım (CAD) ve .NET geliştirme alanında Aspose.CAD, DWG dosyalarını yönetmek için güçlü bir araç olarak duruyor. Bu eğitim, C# dilinde DWG dosyalarıyla çalışma ve bir DWF düzeninin boyutunu çıkarma sürecinde size rehberlik edecektir. Kodlara dalmadan önce, bu yolculuğa çıkmak için her şeyin ayarlandığından emin olalım.
@@ -163,3 +169,9 @@ A4: Sorularınız veya yardım için şu adresi ziyaret edin:[Aspose.CAD forumu]
 ### S5: Aspose.CAD'in ücretsiz deneme sürümü mevcut mu?
 
  Cevap5: Evet, Aspose.CAD'in ücretsiz deneme sürümüne erişebilirsiniz.[Burada](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

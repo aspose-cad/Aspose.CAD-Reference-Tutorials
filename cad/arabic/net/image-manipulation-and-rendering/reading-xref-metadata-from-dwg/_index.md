@@ -3,10 +3,16 @@ title: قراءة بيانات تعريف XREF من ملفات DWG - البرن�
 linktitle: قراءة بيانات تعريف XREF من ملفات DWG
 second_title: Aspose.CAD .NET - تنسيق ملف CAD وBIM
 description: أطلق العنان لإمكانات Aspose.CAD لـ .NET من خلال برنامجنا التعليمي خطوة بخطوة حول قراءة بيانات تعريف XREF من ملفات DWG.
-type: docs
 weight: 16
 url: /ar/net/image-manipulation-and-rendering/reading-xref-metadata-from-dwg/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# قراءة بيانات تعريف XREF من ملفات DWG - البرنامج التعليمي Aspose.CAD
+
 ## مقدمة
 
 هل أنت مستعد لرفع قدرات معالجة ملفات CAD لديك باستخدام Aspose.CAD لـ .NET؟ في هذا الدليل التفصيلي، سنتعمق في جانب محدد من هذه المكتبة القوية - قراءة بيانات تعريف XREF من ملفات DWG. سواء كنت مطورًا متمرسًا أو بدأت للتو رحلة البرمجة، فسيقوم هذا البرنامج التعليمي بتقسيم العملية إلى خطوات سهلة الهضم.
@@ -107,3 +113,9 @@ string path = ((CadUnderlay)entity).UnderlayPath;
 ### س5: هل تحتاج إلى مساعدة أو لديك استفسارات معينة؟
 
  ج5: انضم إلى مجتمع Aspose.CAD على[منتدى Aspose.CAD](https://forum.aspose.com/c/cad/19) للحصول على دعم الخبراء والمناقشات.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

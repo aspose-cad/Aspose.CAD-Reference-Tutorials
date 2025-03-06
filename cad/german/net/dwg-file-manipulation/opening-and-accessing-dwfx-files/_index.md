@@ -3,10 +3,16 @@ title: Öffnen und Zugreifen auf DWFX-Dateien in C# – Aspose.CAD-Handbuch
 linktitle: Öffnen und Zugreifen auf DWFX-Dateien in C#
 second_title: Aspose.CAD .NET – CAD- und BIM-Dateiformat
 description: Erfahren Sie, wie Sie DWFX-Dateien in C# mit Aspose.CAD für .NET öffnen und darauf zugreifen. Schritt-für-Schritt-Anleitung für die nahtlose Integration in Ihre Anwendungen.
-type: docs
 weight: 12
 url: /de/net/dwg-file-manipulation/opening-and-accessing-dwfx-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Öffnen und Zugreifen auf DWFX-Dateien in C# – Aspose.CAD-Handbuch
+
 ## Einführung
 
 Willkommen zu unserer Schritt-für-Schritt-Anleitung zum Öffnen und Zugreifen auf DWFX-Dateien in C# mithilfe der leistungsstarken Bibliothek Aspose.CAD für .NET. Wenn Sie als Entwickler CAD-Funktionalität in Ihre C#-Anwendung integrieren möchten, sind Sie hier richtig. In diesem Tutorial führen wir Sie durch den Prozess und unterteilen ihn in einfache Schritte, um ihn für Entwickler aller Erfahrungsstufen zugänglich zu machen.
@@ -100,3 +106,10 @@ A1: Aspose.CAD für .NET unterstützt eine Vielzahl von CAD-Formaten, einschlie�
 ### F5: Benötigen Sie Unterstützung oder haben Sie weitere Fragen?
 
 A5: Besuchen Sie die[Aspose.CAD-Forum](https://forum.aspose.com/c/cad/19) zur Hilfe.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

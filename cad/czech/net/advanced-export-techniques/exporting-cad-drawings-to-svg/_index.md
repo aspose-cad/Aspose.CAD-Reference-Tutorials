@@ -3,10 +3,16 @@ title: Export výkresů CAD do formátu SVG - Průvodce Aspose.CAD
 linktitle: Export výkresů CAD do formátu SVG
 second_title: Aspose.CAD .NET – formát souborů CAD a BIM
 description: Prozkoumejte bezproblémový proces exportu CAD výkresů do SVG pomocí Aspose.CAD for .NET. Vylepšete svůj vývoj CAD pomocí flexibility a přizpůsobení.
-type: docs
 weight: 15
 url: /cs/net/advanced-export-techniques/exporting-cad-drawings-to-svg/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Export výkresů CAD do formátu SVG - Průvodce Aspose.CAD
+
 ## Úvod
 
 dynamickém světě CAD (Computer-Aided Design) je schopnost exportovat výkresy do různých formátů klíčovou dovedností. SVG (Scalable Vector Graphics) je jeden takový formát, který si získal oblibu díky své škálovatelnosti a všestrannosti. V tomto tutoriálu prozkoumáme, jak exportovat výkresy CAD do SVG pomocí výkonné knihovny Aspose.CAD for .NET.
@@ -87,3 +93,9 @@ Odpověď 2: Ano, Aspose.CAD vám umožňuje zvolit barevný režim a poskytuje 
 ### Q5: Jak mohu získat podporu nebo klást otázky týkající se Aspose.CAD?
 
  A5: Navštivte fórum komunity[tady](https://forum.aspose.com/c/cad/19) za podporu a diskuze.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

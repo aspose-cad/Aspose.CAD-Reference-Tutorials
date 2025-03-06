@@ -3,10 +3,16 @@ title: Ansök licens via Path i Aspose.CAD för .NET
 linktitle: Applicera licens via Path
 second_title: Aspose.CAD .NET - CAD- och BIM-filformat
 description: Lås upp den fulla potentialen hos Aspose.CAD för .NET! Följ vår steg-för-steg-guide för att ansöka om en licens sömlöst. Höj ditt CAD-filmanipuleringsspel nu!
-type: docs
 weight: 10
 url: /sv/net/licensing-and-configuration/apply-license-by-path/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ansök licens via Path i Aspose.CAD för .NET
+
 ## Introduktion
 
 Är du redo att höja ditt .NET-utvecklingsspel genom att utnyttja funktionerna i Aspose.CAD? I den här omfattande handledningen guidar vi dig genom processen att ansöka om en licens via sökväg med Aspose.CAD för .NET. Spänn upp dig när vi reder ut stegen för att sömlöst integrera detta kraftfulla bibliotek i dina projekt, vilket säkerställer ett smidigt och effektivt arbetsflöde.
@@ -88,3 +94,9 @@ A3: Ja, du kan få en gratis provperiod[här](https://releases.aspose.com/).
 ### F5: Behöver du hjälp eller har frågor?
 
  S5: Gå med i Aspose.CAD-communityt på[Aspose.CAD Forum](https://forum.aspose.com/c/cad/19).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

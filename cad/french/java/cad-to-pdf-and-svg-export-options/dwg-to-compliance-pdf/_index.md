@@ -3,10 +3,16 @@ title: DWG vers PDF de conformité à l'aide d'Aspose.CAD pour Java
 linktitle: DWG vers PDF de conformité
 second_title: API Java Aspose.CAD
 description: Convertissez sans effort des dessins DWG en fichiers compatibles PDF/A1a et PDF/A1b à l'aide d'Aspose.CAD pour Java. Rationalisez votre flux de travail avec précision et facilité.
-type: docs
 weight: 11
 url: /fr/java/cad-to-pdf-and-svg-export-options/dwg-to-compliance-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# DWG vers PDF de conformité à l'aide d'Aspose.CAD pour Java
+
 ## Introduction
 
 Dans le monde en constante évolution de la conception numérique, la nécessité de convertir les dessins DWG aux formats PDF conformes est cruciale pour une collaboration transparente et une documentation standardisée. Aspose.CAD pour Java apparaît comme un outil puissant, offrant efficacité et précision dans ce processus. Dans ce didacticiel, nous explorerons comment utiliser Aspose.CAD pour Java pour convertir sans effort des fichiers DWG en PDF conformes, garantissant le respect des normes PDF/A1a et PDF/A1b.
@@ -111,3 +117,9 @@ A2 : Absolument ! Aspose.CAD offre une gamme d'options de personnalisation, vous
 ### Q5 : Puis-je essayer Aspose.CAD gratuitement avant d’effectuer un achat ?
 
  A5 : Certainement ! Téléchargez la version d'essai gratuite à partir de[ici](https://releases.aspose.com/) explorer les capacités avant de prendre une décision.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

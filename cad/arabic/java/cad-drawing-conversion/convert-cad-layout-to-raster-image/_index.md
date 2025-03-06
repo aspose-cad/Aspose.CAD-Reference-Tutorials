@@ -3,10 +3,16 @@ title: تحويل تخطيط CAD إلى تنسيق الصورة النقطية �
 linktitle: تحويل تخطيط CAD إلى تنسيق الصورة النقطية
 second_title: Aspose.CAD جافا API
 description: قم بتحويل تخطيطات CAD بسهولة إلى صور نقطية باستخدام Aspose.CAD لـ Java. تصور عالي الجودة لتعزيز التعاون.
-type: docs
 weight: 12
 url: /ar/java/cad-drawing-conversion/convert-cad-layout-to-raster-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تحويل تخطيط CAD إلى تنسيق الصورة النقطية باستخدام Aspose.CAD لـ Java
+
 ## مقدمة
 
 في العالم الديناميكي للتصميم بمساعدة الكمبيوتر (CAD)، تعد القدرة على تحويل تخطيطات CAD بسلاسة إلى تنسيقات الصور النقطية مهارة قيمة. يظهر Aspose.CAD for Java كحل قوي لتحقيق هذه المهمة بكفاءة. في هذا البرنامج التعليمي، سنرشدك خلال عملية تحويل تخطيط CAD إلى صورة نقطية خطوة بخطوة، باستخدام Aspose.CAD لـ Java.
@@ -106,3 +112,9 @@ image.save(dataDir + "conic_pyramid_layoutstorasterimage_out_.tiff", options);
 ### س5: أين يمكنني طلب المساعدة أو مشاركة تجاربي مع Aspose.CAD؟
 
 ج5: قم بزيارة[منتدى Aspose.CAD](https://forum.aspose.com/c/cad/19) للتفاعل مع المجتمع والحصول على الدعم.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

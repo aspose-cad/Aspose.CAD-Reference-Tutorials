@@ -3,10 +3,16 @@ title: CAD Metadata a vykreslování
 linktitle: CAD Metadata a vykreslování
 second_title: Aspose.CAD Java API
 description: Odemkněte sílu Aspose.CAD pro Javu pomocí našich výukových programů! Naučte se bez námahy číst metadata XREF a vykreslovat dokumenty DWG do obrázků pro vylepšený vývoj CAD.
-type: docs
 weight: 27
 url: /cs/java/cad-meta-data-and-rendering/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# CAD Metadata a vykreslování
+
 
 
 ## Úvod
@@ -33,3 +39,9 @@ Na závěr si osvojte sílu Aspose.CAD pro Javu pomocí našich výukových prog
 Prozkoumejte Aspose.CAD for Java a zvládněte čtení metadat XREF ze souborů DWG bez námahy. Podpořte svůj vývoj CAD pomocí této výkonné knihovny Java.
 ### [Renderujte dokument DWG na obrázek pomocí Aspose.CAD pro Javu](./render-dwg-to-image/)
 Prozkoumejte bezproblémovou integraci Aspose.CAD for Java při vykreslování dokumentů DWG na obrázky. Pro efektivní výsledky postupujte podle našeho podrobného průvodce.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Văn bản và định dạng CAD
 linktitle: Văn bản và định dạng CAD
 second_title: API Java Aspose.CAD
 description: Khám phá tiềm năng của Aspose.CAD bằng các hướng dẫn. Tìm hiểu tìm kiếm văn bản, dòng ẩn, thực thể MLeader và thuộc tính MText để nâng cao ứng dụng CAD của bạn.
-type: docs
 weight: 28
 url: /vi/java/cad-text-and-formatting/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Văn bản và định dạng CAD
+
 ## Giới thiệu
 Chào mừng bạn đến với hướng dẫn toàn diện của chúng tôi về hướng dẫn định dạng và văn bản CAD bằng Aspose.CAD cho Java. Cho dù bạn là nhà phát triển dày dạn kinh nghiệm hay mới bắt đầu với các ứng dụng CAD, những hướng dẫn này sẽ giúp bạn nâng cao kỹ năng của mình lên một tầm cao mới.
 
@@ -37,3 +43,9 @@ Tìm hiểu cách nâng cao khả năng thao tác tệp DWG của ứng dụng J
 Khai phá sức mạnh của Aspose.CAD cho Java bằng hướng dẫn từng bước của chúng tôi về cách hỗ trợ các thực thể MLeader ở định dạng DWG.
 ### [Thêm thuộc tính vào MText trong tệp DWG bằng Aspose.CAD cho Java](./add-attributes-to-mtext/)
 Tìm hiểu cách thêm thuộc tính vào MText trong tệp DWG bằng Aspose.CAD cho Java. Nâng cao bản vẽ CAD của bạn với hướng dẫn từng bước này.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

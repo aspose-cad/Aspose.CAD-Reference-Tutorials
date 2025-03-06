@@ -3,10 +3,16 @@ title: 使用 Aspose.CAD for Java 将 DWG 文档渲染为图像
 linktitle: 使用 Java 将 DWG 文档渲染为图像
 second_title: Aspose.CAD Java API
 description: 探索 Aspose.CAD for Java 将 DWG 文档渲染为图像的无缝集成。请遵循我们的分步指南以获得高效的结果。
-type: docs
 weight: 11
 url: /zh/java/cad-meta-data-and-rendering/render-dwg-to-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.CAD for Java 将 DWG 文档渲染为图像
+
 ## 介绍
 
 在 Java 开发的动态世界中，Aspose.CAD 作为处理计算机辅助设计 (CAD) 文件的强大工具脱颖而出。在本教程中，我们将探索使用 Aspose.CAD for Java 将 DWG 文档渲染为图像的过程。无论您是经验丰富的开发人员还是刚刚开始编码之旅，本分步指南都将引导您清晰轻松地完成整个过程。
@@ -105,3 +111,9 @@ A2：是的，Aspose.CAD 与流行的 Java IDE 兼容，例如 Eclipse、Intelli
 ### Q5：Aspose.CAD 中有更多可用的渲染选项吗？
 
  A5：当然，探索广泛的[文档](https://reference.aspose.com/cad/java/)获取详细信息。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

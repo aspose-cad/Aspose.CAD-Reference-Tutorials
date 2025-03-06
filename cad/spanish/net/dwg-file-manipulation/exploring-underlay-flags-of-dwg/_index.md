@@ -3,10 +3,16 @@ title: Exploración de indicadores subyacentes de archivos DWG - Tutorial de Asp
 linktitle: Exploración de indicadores subyacentes de archivos DWG
 second_title: Aspose.CAD .NET - Formato de archivo CAD y BIM
 description: Desbloquee el poder de Aspose.CAD para .NET al explorar indicadores de capas subyacentes de archivos DWG. Sigue nuestra guía paso a paso.
-type: docs
 weight: 13
 url: /es/net/dwg-file-manipulation/exploring-underlay-flags-of-dwg/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Exploración de indicadores subyacentes de archivos DWG - Tutorial de Aspose.CAD
+
 ## Introducción
 
 Si estás profundizando en el intrincado mundo de los archivos CAD, específicamente los archivos DWG, y quieres desbloquear los misterios de las banderas subyacentes, estás en el lugar correcto. Este tutorial lo guiará a través del proceso de exploración de indicadores subyacentes en archivos DWG utilizando la potente biblioteca Aspose.CAD para .NET.
@@ -114,3 +120,10 @@ A4: Compra la biblioteca[aquí](https://purchase.aspose.com/buy).
 ### P5: ¿Hay una prueba gratuita disponible?
 
  R5: Sí, puedes acceder a la prueba gratuita[aquí](https://releases.aspose.com/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

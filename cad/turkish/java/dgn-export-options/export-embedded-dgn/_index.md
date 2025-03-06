@@ -3,10 +3,16 @@ title: Aspose.CAD for Java ile Gömülü DGN'yi PDF'ye aktarın
 linktitle: Gömülü DGN'yi Dışa Aktar
 second_title: Aspose.CAD Java API'si
 description: Aspose.CAD for Java kullanarak gömülü DGN dosyalarını PDF'ye aktarmaya ilişkin adım adım kılavuzu keşfedin. Sorunsuz CAD dosya işlemeyle Java uygulamalarınızı geliştirin.
-type: docs
 weight: 11
 url: /tr/java/dgn-export-options/export-embedded-dgn/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.CAD for Java ile Gömülü DGN'yi PDF'ye aktarın
+
 ## giriiş
 
 Aspose.CAD for Java kullanarak gömülü DGN dosyalarını dışa aktarmaya ilişkin bu kapsamlı eğitime hoş geldiniz. Aspose.CAD, Java geliştiricilerinin CAD dosyalarıyla sorunsuz bir şekilde çalışmasını sağlayan güçlü bir kütüphanedir. Bu eğitimde, adım adım talimatları kullanarak gömülü DGN dosyalarını PDF'ye aktarma sürecinde size rehberlik edeceğiz. İster deneyimli bir geliştirici olun ister yeni başlıyor olun, bu eğitim Aspose.CAD'in özelliklerinden yararlanarak Java uygulamalarınızı geliştirmenize yardımcı olacaktır.
@@ -103,3 +109,9 @@ Cevap3: Aspose.CAD topluluğundan destek alabilirsiniz.[forum](https://forum.asp
 ### S5: Belgeleri nerede bulabilirim?
 
  A5: Belgeler mevcut[Burada](https://reference.aspose.com/cad/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: 启用 CAD 渲染过程跟踪
 linktitle: 启用 CAD 渲染过程跟踪
 second_title: Aspose.CAD Java API
 description: 使用 Aspose.CAD for Java 增强 CAD 渲染。按照我们的分步指南启用跟踪并提升您的 PDF 转换体验。
-type: docs
 weight: 10
 url: /zh/java/advanced-cad-features/enable-tracking-for-cad-rendering-process/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 启用 CAD 渲染过程跟踪
+
 ## 介绍
 
 在计算机辅助设计 (CAD) 领域，Aspose.CAD for Java 是渲染和处理 CAD 文件的强大工具。本教程将指导您完成启用 CAD 渲染跟踪的过程，增强您对从 CAD 文件到 PDF 格式转换的控制。
@@ -114,3 +120,9 @@ A1：Aspose.CAD支持多种CAD格式，包括DWG、DXF、DGN等。请参阅[文�
 ### Q5：Aspose.CAD 是否有临时许可证？
 
  A5：是的，如果您需要临时许可证，您可以获取一个[这里](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

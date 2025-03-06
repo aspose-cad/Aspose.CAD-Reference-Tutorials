@@ -3,10 +3,16 @@ title: Thêm văn bản vào tệp DWG trong C# - Hướng dẫn Aspose.CAD
 linktitle: Thêm văn bản vào tệp DWG trong C#
 second_title: Aspose.CAD .NET - Định dạng tệp CAD và BIM
 description: Tìm hiểu cách thêm văn bản vào tệp DWG bằng C# và Aspose.CAD. Hãy làm theo hướng dẫn từng bước này để tích hợp liền mạch. Khám phá tài liệu Aspose.CAD để được hướng dẫn toàn diện.
-type: docs
 weight: 14
 url: /vi/net/dwg-file-manipulation/adding-text-to-dwg/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Thêm văn bản vào tệp DWG trong C# - Hướng dẫn Aspose.CAD
+
 ## Giới thiệu
 
 Trong lĩnh vực năng động của thiết kế có sự hỗ trợ của máy tính (CAD) và phát triển .NET, Aspose.CAD nổi bật như một công cụ mạnh mẽ để thao tác các tệp DWG. Thêm văn bản vào tệp DWG là một yêu cầu phổ biến và trong hướng dẫn này, chúng ta sẽ khám phá cách đạt được điều này bằng cách sử dụng C# và Aspose.CAD.
@@ -125,3 +131,9 @@ Câu trả lời 2: Có, bạn có thể thêm nhiều thực thể văn bản v
 ### Câu hỏi 5: Tôi có thể tìm trợ giúp hoặc thảo luận các truy vấn liên quan đến Aspose.CAD ở đâu?
 
 A5: Tham quan[Diễn đàn Aspose.CAD](https://forum.aspose.com/c/cad/19)để kết nối với cộng đồng và nhận được sự hỗ trợ.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
