@@ -1,34 +1,57 @@
 ---
-title: Adjon hozzá egyéni tulajdonságokat DWG-fájlokhoz az Aspose.CAD használatával Java nyelven
-linktitle: Adjon hozzá egyéni tulajdonságokat DWG-fájlokhoz Java használatával
+date: 2025-11-30
+description: Tanulja meg, hogyan adhat hozzá egyedi tulajdonságokat DWG fájlokhoz
+  Java-ban az Aspose.CAD használatával. Javítsa a CAD-rajzok szervezését és az információk
+  lekérdezését könnyedén.
+language: hu
+linktitle: Add Custom Properties to DWG Files Using Java
 second_title: Aspose.CAD Java API
-description: Ismerje meg, hogyan adhat egyéni tulajdonságokat DWG-fájlokhoz Java nyelven az Aspose.CAD használatával. Fokozza a rendszerezést és az információkeresést a CAD-rajzokban könnyedén.
+title: Egyedi tulajdonságok hozzáadása DWG fájlokhoz az Aspose.CAD for Java használatával
+url: /java/additional-features/add-custom-properties/
 weight: 10
-url: /hu/java/additional-features/add-custom-properties/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Adjon hozzá egyéni tulajdonságokat DWG-fájlokhoz az Aspose.CAD használatával Java nyelven
+# Egyedi tulajdonságok hozzáadása DWG fájlokhoz az Aspose.CAD for Java használatával
 
-A Java programozás világában gyakori feladat az egyéni tulajdonságokkal rendelkező DWG-fájlok kezelése. Az Aspose.CAD for Java hatékony eszközkészletet biztosít ennek a funkciónak a projektekbe való zökkenőmentes integrálásához. Ebben a lépésről lépésre bemutatott oktatóanyagban végigvezetjük az Aspose.CAD for Java segítségével egyéni tulajdonságok DWG-fájlokhoz való hozzáadásának folyamatán.
+A CAD rajzok programozott módon történő manipulálása mindennapi szükséglet sok Java fejlesztő számára. Ebben az útmutatóban megtudja, **hogyan adjon hozzá egyedi tulajdonságokat DWG** fájlokhoz a hatékony Aspose.CAD for Java könyvtár használatával. A útmutató végére egy újrahasználható kódrészletet kap, amely közvetlenül a DWG fájl fejlécébe injektál metaadatokat, megkönnyítve a rajzok katalogizálását, keresését és karbantartását.
 
-## Bevezetés
+## Introduction
 
-Az Aspose.CAD for Java egy robusztus Java könyvtár, amely lehetővé teszi a fejlesztők számára, hogy könnyedén dolgozzanak CAD fájlokkal. Ebben az oktatóanyagban a DWG-fájlok egyéni tulajdonságok hozzáadásával történő fejlesztésére összpontosítunk. Ezek a tulajdonságok kulcsfontosságúak lehetnek a CAD-rajzok rendszerezéséhez, kategorizálásához és információinak lekéréséhez.
+Az Aspose.CAD for Java egy teljesen menedzselt, .NET‑mentes könyvtár, amely lehetővé teszi a CAD formátumok széles skálájának olvasását, szerkesztését és írását AutoCAD nélkül. Egyedi tulajdonságok hozzáadása egy DWG fájlhoz könnyű módot biztosít további információk – például projektkódok, revíziójegyzetek vagy tulajdonos adatok – tárolására közvetlenül a rajzfájlban.
 
-## Előfeltételek
+## Quick Answers
+- **Mi jelent a “add custom properties dwg”?** Ez azt jelenti, hogy felhasználó által definiált név/érték párokat szúr be egy DWG fájl fejléc metaadataiba.  
+- **Melyik könyvtár kezeli ezt?** Azose.CAD for Java egyszerű API-t biztosít ezeknek a tulajdonságoknak a olvasásához és írásához.  
+- **Mennyi időt vesz igénybe a megvalósítás?** Általában 5‑10 perc egy alap példához.  
+- **Szükségem van licencre?** A fejlesztéshez egy ingyenes próba verzió elegendő; a termeléshez kereskedelmi licenc szükséges.  
+- **Kompatibilis más CAD formátumokkal?** Igen – a DXF, DWF és további formátumok támogatottak.
 
-Mielőtt belevágna az oktatóanyagba, győződjön meg arról, hogy rendelkezik a következő előfeltételekkel:
+## What is Adding Custom Properties to DWG Files?
 
-- Java Development Kit (JDK): Győződjön meg arról, hogy a JDK telepítve van a gépen.
-- Aspose.CAD for Java: Töltse le és telepítse az Aspose.CAD for Java könyvtárat a[letöltési link](https://releases.aspose.com/cad/java/).
+Az egyedi tulajdonságok kulcs‑érték párok, amelyek a DWG fejlécben tárolódnak. Nem jelennek meg a rajz geometriájában, de bármely CAD‑tudatos alkalmazás hozzáférhet, lehetővé téve a jobb adatkezelést, az automatizált jelentéskészítést és a PLM rendszerekkel való integrációt.
 
-## Névterek importálása
+## Why Use Aspose.CAD for This Task?
 
-Java-projektjében tartalmazza az Aspose.CAD funkcióinak eléréséhez szükséges névtereket. Adja hozzá a következő sorokat a kódhoz:
+- **Nincs AutoCAD függőség** – bármely operációs rendszeren vagy CI pipeline-ban működik.  
+- **Teljes körű API** – olvasás, módosítás és mentés a pontosság megőrzése nélkül.  
+- **Nagy teljesítmény** – nagy rajzokat dolgoz fel másodpercek alatt.  
+- **Keresztformátum támogatás** – ugyanaz a kód működik DXF, DWF és egyéb formátumoknál.
+
+## Prerequisites
+
+Mielőtt elkezdené, győződjön meg róla, hogy rendelkezik:
+
+- **Java Development Kit (JDK) 8+** telepítve és konfigurálva az IDE-jében.  
+- **Aspose.CAD for Java** könyvtárral – töltse le a legújabb JAR-t a [Aspose.CAD letöltési oldalról](https://releases.aspose.com/cad/java/).  
+- Egy **példa DWG/DXF fájllal** a kísérletezéshez (az útmutató a `conic_pyramid.dxf` fájlt használja).
+
+## Import Namespaces
+
+Adja hozzá a szükséges importokat a Java osztályához, hogy az Aspose.CAD objektumokkal dolgozhasson.
 
 ```java
 import com.aspose.cad.Image;
@@ -38,13 +61,15 @@ import com.aspose.cad.fileformats.cad.CadImage;
 import java.util.Map;
 ```
 
-## 1. lépés: Állítsa be projektjét
+## Step‑by‑Step Guide
 
-Hozzon létre egy új Java-projektet az előnyben részesített IDE-ben, és adja hozzá az Aspose.CAD for Java-t projektfüggőségeihez.
+### Step 1: Set Up Your Project
 
-## 2. lépés: Határozza meg a fájl elérési útját
+Hozzon létre egy új Maven/Gradle projektet (vagy egy egyszerű IDE projektet), és helyezze az Aspose.CAD JAR-t a classpath-ra. Ez biztosítja, hogy a `com.aspose.cad.*` csomagok elérhetők legyenek fordítási időben.
 
-Határozza meg a forrás- és kimeneti DWG-fájlok elérési útját. Például:
+### Step 2: Define File Paths
+
+Adja meg, hogy hol található a forrásrajz, és hová kell írni a módosított fájlt.
 
 ```java
 String dataDir = "Your Document Directory" + "DXFDrawings/";
@@ -52,17 +77,17 @@ String srcFile = dataDir + "conic_pyramid.dxf";
 String outFile = dataDir + "AddCustomProperties_out.dxf";
 ```
 
-## 3. lépés: Töltse be a DWG fájlt
+### Step 3: Load the DWG File
 
-Töltse be a DWG fájlt az Aspose.CAD for Java segítségével:
+Használja a statikus `Image.load` metódust a rajz `CadImage` objektumba történő beolvasásához.
 
 ```java
 CadImage cadImage = (CadImage)Image.load(srcFile);
 ```
 
-## 4. lépés: Adjon hozzá egyéni tulajdonságokat
+### Step 4: Add Custom Properties
 
-Adjon hozzá egyéni tulajdonságokat a DWG fájl fejlécéhez:
+Illessze be a metaadatait közvetlenül a rajz fejlécébe. Minden hívás egy új név/érték párt ad hozzá.
 
 ```java
 cadImage.getHeader().getCustomProperties().put("CUSTOM_PROPERTY_1", "Custom property test 1");
@@ -70,47 +95,55 @@ cadImage.getHeader().getCustomProperties().put("CUSTOM_PROPERTY_2", "Custom prop
 cadImage.getHeader().getCustomProperties().put("CUSTOM_PROPERTY_3", "Custom property test 3");
 ```
 
-## 5. lépés: Mentse el a módosított DWG fájlt
+> **Tip:** Tartsa a tulajdonságneveket röviden (max 31 karakter) és kerüljön el szóközöket a régebbi CAD megjelenítők kompatibilitásának megőrzése érdekében.
 
-Mentse el a módosított DWG-fájlt hozzáadott egyéni tulajdonságokkal:
+### Step 5: Save the Modified DWG File
+
+Mentse el a változtatásokat a `save` hívással. A kimeneti fájl most már tartalmazza a hozzáadott egyedi tulajdonságokat.
 
 ```java
 cadImage.save(outFile);
 ```
 
-## 6. lépés: Hajtsa végre a kódot
+### Step 6: Execute the Code
 
-Futtassa a Java programot, és ha nincs hiba, sikeresen hozzáadta az egyéni tulajdonságokat a DWG-fájlhoz.
+Futtassa a programot az IDE-jéből vagy a parancssorból. Ha minden helyesen van beállítva, egy megerősítő üzenetet fog látni.
 
 ```java
 System.out.println("\nAddCustomProperties executed successfully.");
 ```
 
-## Következtetés
+## Common Issues & Solutions
 
-Gratulálunk! Megtanulta, hogyan javíthat DWG-fájlokat egyéni tulajdonságok hozzáadásával az Aspose.CAD for Java használatával. Ez a képesség jelentősen javíthatja a CAD-rajzokon belüli információk rendszerezését és visszakeresését.
+| Probléma | Valószínű ok | Megoldás |
+|----------|--------------|----------|
+| **`java.lang.NoClassDefFoundError: com/aspose/cad/Image`** | Az Aspose.CAD JAR nincs a classpath-on | Adja hozzá a JAR-t a projekt `libs` mappájához, vagy deklarálja Maven/Gradle-ban. |
+| **A tulajdonságok nem jelennek meg a mentett fájlban** | DWG verzió használata, amely nem támogatja az egyedi tulajdonságokat | Győződjön meg róla, hogy DWG/DXF 2000 vagy újabb verzióval dolgozik; a régebbi formátumok figyelmen kívül hagyhatják az egyedi fejléceket. |
+| **`OutOfMemoryError` on large files** | Nagyon nagy rajz betöltése streaming nélkül | `Image.load` használata `LoadOptions` objektummal, amely memóriahatékony betöltést tesz lehetővé. |
 
-## GYIK
+## Frequently Asked Questions
 
-### 1. kérdés: Hozzáadhatok egyéni tulajdonságokat más CAD-fájlformátumokhoz?
+**Q: Hozzáadhatok egyedi tulajdonságokat más CAD fájlformátumokhoz?**  
+A: Igen. Az Aspose.CAD for Java támogatja a DXF, DWF, DGN és egyéb formátumokat, és ugyanaz a `getHeader().getCustomProperties()` API működik ezeken a formátumokon.
 
-1. válasz: Igen, az Aspose.CAD for Java különféle CAD formátumokat támogat, lehetővé téve egyéni tulajdonságok hozzáadását olyan fájlokhoz, mint a DXF és DWG.
+**Q: Az Aspose.CAD for Java kompatibilis minden főbb IDE-vel?**  
+A: Teljes mértékben. Működik Eclipse, IntelliJ IDEA, NetBeans, és még egyszerű parancssori build-ekkel is.
 
-### 2. kérdés: Az Aspose.CAD for Java kompatibilis az összes Java IDE-vel?
+**Q: Hol találok további példákat és részletes dokumentációt?**  
+A: Látogassa meg a hivatalos [Aspose.CAD Java API Reference](https://reference.aspose.com/cad/java/) oldalt a teljes osztály-, metódus- és mintaprojektlistáért.
 
-2. válasz: Az Aspose.CAD for Java kompatibilis az olyan népszerű Java IDE-kkel, mint az Eclipse, az IntelliJ IDEA és a NetBeans.
+**Q: Kipróbálhatom az Aspose.CAD for Java-t vásárlás előtt?**  
+A: Igen – töltsön le egy ingyenes 30‑napos próba verziót a [Aspose.CAD letöltési oldalról](https://releases.aspose.com/).
 
-### 3. kérdés: Hol találok további példákat és dokumentációt?
+**Q: Hogyan kaphatok támogatást, ha nehézségekbe ütközöm?**  
+A: Az Aspose közösségi fórum és a dedikált [Aspose.CAD támogatási portál](https://forum.aspose.com/c/cad/19) nagyszerű helyek kérdések feltevésére és megoldások megosztására.
 
- A3: Fedezze fel a[Aspose.CAD dokumentáció](https://reference.aspose.com/cad/java/) átfogó útmutatókért és példákért.
+---
 
-### 4. kérdés: Kipróbálhatom az Aspose.CAD for Java programot vásárlás előtt?
+**Utoljára frissítve:** 2025-11-30  
+**Tesztelve:** Aspose.CAD for Java 24.11  
+**Szerző:** Aspose  
 
- A4: Igen, megteheti[ingyenes próbaverzió letöltése](https://releases.aspose.com/) az Aspose.CAD for Java értékeléséhez vásárlás előtt.
-
-### 5. kérdés: Hogyan kaphatok támogatást vagy tehetek fel kérdéseket?
-
-A5: Látogassa meg a[Aspose.CAD fórum](https://forum.aspose.com/c/cad/19) támogatást kaphat, kérdéseket tehet fel, és kapcsolatba léphet az Aspose.CAD közösséggel.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

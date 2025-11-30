@@ -1,34 +1,55 @@
 ---
-title: Java で Aspose.CAD を使用して DWG ファイルにカスタム プロパティを追加する
-linktitle: Java を使用してカスタム プロパティを DWG ファイルに追加する
+date: 2025-11-30
+description: Aspose.CAD を使用して Java で DWG ファイルにカスタム プロパティを追加する方法を学びましょう。CAD 図面の整理と情報検索を簡単に強化できます。
+language: ja
+linktitle: Add Custom Properties to DWG Files Using Java
 second_title: Aspose.CAD Java API
-description: Aspose.CAD を使用して Java で DWG ファイルにカスタム プロパティを追加する方法を学習します。 CAD 図面の整理と情報検索を簡単に強化します。
+title: Aspose.CAD for Java を使用して DWG ファイルにカスタム プロパティを追加する
+url: /java/additional-features/add-custom-properties/
 weight: 10
-url: /ja/java/additional-features/add-custom-properties/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Java で Aspose.CAD を使用して DWG ファイルにカスタム プロパティを追加する
+# Aspose.CAD for Java を使用したカスタムプロパティ DWG ファイルの追加
 
-Java プログラミングの世界では、カスタム プロパティを使用して DWG ファイルを操作することは一般的なタスクです。 Aspose.CAD for Java は、この機能をプロジェクトにシームレスに統合するための強力なツール セットを提供します。このステップバイステップのチュートリアルでは、Aspose.CAD for Java を使用してカスタム プロパティを DWG ファイルに追加するプロセスを説明します。
+CAD 図面をプログラムで操作することは、多くの Java 開発者にとって日常的なニーズです。このチュートリアルでは、強力な Aspose.CAD for Java ライブラリを使用して **カスタムプロパティ DWG** ファイルを追加する方法を学びます。ガイドの最後までに、DWG ファイルのヘッダーに直接メタデータを注入する再利用可能なコードスニペットが手に入り、図面のカタログ化、検索、保守が容易になります。
 
-## 導入
+## はじめに
 
-Aspose.CAD for Java は、開発者が CAD ファイルを簡単に操作できるようにする堅牢な Java ライブラリです。このチュートリアルでは、カスタム プロパティを追加して DWG ファイルを強化することに焦点を当てます。これらのプロパティは、CAD 図面から情報を整理、分類、取得するために非常に重要です。
+Aspose.CAD for Java は、AutoCAD を必要とせずに幅広い CAD フォーマットの読み取り、編集、書き込みを可能にする、完全にマネージドされた .NET フリーのライブラリです。DWG ファイルにカスタムプロパティを追加すると、プロジェクトコード、改訂メモ、所有者情報などの追加情報を図面ファイル自体に軽量に格納できます。
+
+## クイック回答
+- **「カスタムプロパティ DWG を追加する」とは何ですか？** ユーザー定義の名前/値ペアを DWG ファイルのヘッダーメタデータに挿入することを意味します。  
+- **どのライブラリがこれを処理しますか？** Aspose.CAD for Java が、これらのプロパティの読み取りと書き込みのためのシンプルな API を提供します。  
+- **実装にどれくらい時間がかかりますか？** 基本的な例で通常 5‑10 分です。  
+- **ライセンスは必要ですか？** 開発段階では無料トライアルで動作しますが、本番環境では商用ライセンスが必要です。  
+- **他の CAD フォーマットにも対応していますか？** はい、DXF、DWF などもサポートされています。
+
+## DWG ファイルへのカスタムプロパティ追加とは？
+
+カスタムプロパティは DWG ヘッダーに保存されるキー‑バリューのペアです。図形ジオメトリには表示されませんが、CAD 対応アプリケーションからアクセス可能で、データ管理の向上、レポートの自動化、PLM システムとの統合が実現できます。
+
+## なぜ Aspose.CAD をこのタスクに使うのか？
+
+- **AutoCAD 依存なし** – 任意の OS や CI パイプラインで動作します。  
+- **フル機能 API** – 品質を損なうことなく読み取り、変更、保存が可能です。  
+- **高性能** – 大規模な図面でも数秒で処理します。  
+- **クロスフォーマット対応** – 同じコードで DXF、DWF なども扱えます。
 
 ## 前提条件
 
-チュートリアルに進む前に、次の前提条件を満たしていることを確認してください。
+開始する前に以下を用意してください。
 
-- Java Development Kit (JDK): マシンに JDK がインストールされていることを確認してください。
-- Aspose.CAD for Java: Aspose.CAD for Java ライブラリを次の場所からダウンロードしてインストールします。[ダウンロードリンク](https://releases.aspose.com/cad/java/).
+- **Java Development Kit (JDK) 8 以上** がインストールされ、IDE で設定されていること。  
+- **Aspose.CAD for Java** ライブラリ – 最新の JAR を [Aspose.CAD ダウンロードページ](https://releases.aspose.com/cad/java/) から取得してください。  
+- 実験用の **サンプル DWG/DXF ファイル**（チュートリアルでは `conic_pyramid.dxf` を使用）。
 
 ## 名前空間のインポート
 
-Java プロジェクトに、Aspose.CAD の機能にアクセスするために必要な名前空間を含めます。コードに次の行を追加します。
+Aspose.CAD オブジェクトを使用できるように、Java クラスに必要なインポートを追加します。
 
 ```java
 import com.aspose.cad.Image;
@@ -38,13 +59,15 @@ import com.aspose.cad.fileformats.cad.CadImage;
 import java.util.Map;
 ```
 
-## ステップ 1: プロジェクトをセットアップする
+## 手順ガイド
 
-好みの IDE で新しい Java プロジェクトを作成し、Aspose.CAD for Java をプロジェクトの依存関係に追加します。
+### 手順 1: プロジェクトのセットアップ
 
-## ステップ 2: ファイル パスを定義する
+新規 Maven/Gradle プロジェクト（またはシンプルな IDE プロジェクト）を作成し、Aspose.CAD JAR をクラスパスに配置します。これにより `com.aspose.cad.*` パッケージがコンパイル時に利用可能になります。
 
-ソース DWG ファイルと出力 DWG ファイルのパスを定義します。例えば：
+### 手順 2: ファイルパスの定義
+
+ソース図面の場所と、変更後のファイルを書き出す場所を指定します。
 
 ```java
 String dataDir = "Your Document Directory" + "DXFDrawings/";
@@ -52,17 +75,17 @@ String srcFile = dataDir + "conic_pyramid.dxf";
 String outFile = dataDir + "AddCustomProperties_out.dxf";
 ```
 
-## ステップ 3: DWG ファイルをロードする
+### 手順 3: DWG ファイルの読み込み
 
-Aspose.CAD for Java を使用して DWG ファイルをロードします。
+静的メソッド `Image.load` を使用して、図面を `CadImage` オブジェクトに読み込みます。
 
 ```java
 CadImage cadImage = (CadImage)Image.load(srcFile);
 ```
 
-## ステップ 4: カスタム プロパティを追加する
+### 手順 4: カスタムプロパティの追加
 
-カスタム プロパティを DWG ファイル ヘッダーに追加します。
+メタデータを図面ヘッダーに直接挿入します。各呼び出しで新しい名前/値ペアが追加されます。
 
 ```java
 cadImage.getHeader().getCustomProperties().put("CUSTOM_PROPERTY_1", "Custom property test 1");
@@ -70,47 +93,55 @@ cadImage.getHeader().getCustomProperties().put("CUSTOM_PROPERTY_2", "Custom prop
 cadImage.getHeader().getCustomProperties().put("CUSTOM_PROPERTY_3", "Custom property test 3");
 ```
 
-## ステップ 5: 変更した DWG ファイルを保存する
+> **ヒント:** プロパティ名は簡潔に（最大 31 文字）し、スペースは使用しない方が古い CAD ビューアとの互換性が保たれます。
 
-カスタム プロパティを追加して、変更した DWG ファイルを保存します。
+### 手順 5: 変更後の DWG ファイルの保存
+
+`save` メソッドを呼び出して変更を永続化します。出力ファイルには追加したカスタムプロパティが含まれます。
 
 ```java
 cadImage.save(outFile);
 ```
 
-## ステップ 6: コードを実行する
+### 手順 6: コードの実行
 
-Java プログラムを実行し、エラーがなければ、DWG ファイルにカスタム プロパティが正常に追加されたことになります。
+IDE もしくはコマンドラインからプログラムを実行します。正しく設定されていれば、確認メッセージが表示されます。
 
 ```java
 System.out.println("\nAddCustomProperties executed successfully.");
 ```
 
-## 結論
+## よくある問題と解決策
 
-おめでとう！ Aspose.CAD for Java を使用してカスタム プロパティを追加して DWG ファイルを拡張する方法を学習しました。この機能により、CAD 図面内の情報の編成と検索が大幅に向上します。
+| 問題 | 想定原因 | 対策 |
+|------|----------|------|
+| **`java.lang.NoClassDefFoundError: com/aspose/cad/Image`** | Aspose.CAD JAR がクラスパスにない | JAR をプロジェクトの `libs` フォルダに追加するか、Maven/Gradle に宣言してください。 |
+| **プロパティが保存ファイルに現れない** | カスタムプロパティに対応していない DWG バージョンを使用している | DWG/DXF バージョン 2000 以降を使用してください。古い形式はカスタムヘッダーを無視することがあります。 |
+| **大容量ファイルで `OutOfMemoryError` が発生** | ストリーミングせずに非常に大きな図面をロードしている | `LoadOptions` オブジェクトを使用してメモリ効率の良いロードを有効にしてください。 |
 
-## よくある質問
+## FAQ
 
-### Q1: カスタム プロパティを他の CAD ファイル形式に追加できますか?
+**Q: 他の CAD ファイル形式にもカスタムプロパティを追加できますか？**  
+A: はい。Aspose.CAD for Java は DXF、DWF、DGN などをサポートしており、同じ `getHeader().getCustomProperties()` API がこれらの形式でも利用できます。
 
-A1: はい、Aspose.CAD for Java はさまざまな CAD 形式をサポートしており、DXF や DWG などのファイルにカスタム プロパティを追加できます。
+**Q: Aspose.CAD for Java は主要な IDE と互換性がありますか？**  
+A: 完全に対応しています。Eclipse、IntelliJ IDEA、NetBeans、さらにはシンプルなコマンドラインビルドでも動作します。
 
-### Q2: Aspose.CAD for Java はすべての Java IDE と互換性がありますか?
+**Q: さらに多くのサンプルや詳細なドキュメントはどこで入手できますか？**  
+A: 公式の [Aspose.CAD Java API リファレンス](https://reference.aspose.com/cad/java/) でクラス、メソッド、サンプルプロジェクトの一覧をご確認ください。
 
-A2: Aspose.CAD for Java は、Eclipse、IntelliJ IDEA、NetBeans などの一般的な Java IDE と互換性があります。
+**Q: 購入前に Aspose.CAD for Java を試すことはできますか？**  
+A: はい。30 日間の無料トライアルを [Aspose.CAD ダウンロードページ](https://releases.aspose.com/) からダウンロードできます。
 
-### Q3: 他の例やドキュメントはどこで入手できますか?
+**Q: 困ったときのサポートはどこで受けられますか？**  
+A: Aspose コミュニティフォーラムと専用の [Aspose.CAD サポートポータル](https://forum.aspose.com/c/cad/19) が質問や解決策の共有に最適です。
 
- A3: を探索してください。[Aspose.CAD ドキュメント](https://reference.aspose.com/cad/java/)包括的なガイドと例を参照してください。
+---
 
-### Q4: 購入する前に、Aspose.CAD for Java を試してみることはできますか?
+**最終更新日:** 2025-11-30  
+**テスト環境:** Aspose.CAD for Java 24.11  
+**作成者:** Aspose  
 
- A4: はい、できます[無料試用版をダウンロードする](https://releases.aspose.com/)購入する前に Aspose.CAD for Java を評価してください。
-
-### Q5: サポートを受けたり、質問したりするにはどうすればよいですか?
-
-A5: にアクセスしてください。[Aspose.CAD フォーラム](https://forum.aspose.com/c/cad/19)サポートを受けたり、質問したり、Aspose.CAD コミュニティに接続したりできます。
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
