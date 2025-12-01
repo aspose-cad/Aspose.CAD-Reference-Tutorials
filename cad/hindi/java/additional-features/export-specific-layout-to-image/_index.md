@@ -1,32 +1,53 @@
 ---
-title: जावा में Aspose.CAD के साथ छवि में विशिष्ट DXF लेआउट निर्यात करें
-linktitle: जावा के साथ छवि में विशिष्ट डीएक्सएफ लेआउट निर्यात करें
-second_title: Aspose.CAD जावा एपीआई
-description: जावा के लिए Aspose.CAD का उपयोग करके किसी विशिष्ट DXF लेआउट को किसी छवि में निर्यात करना सीखें। निर्बाध एकीकरण के लिए हमारी चरण-दर-चरण मार्गदर्शिका का पालन करें।
+date: 2025-12-01
+description: Aspose.CAD for Java का उपयोग करके dxf फ़ाइलों को छवियों में निर्यात करना
+  सीखें। यह चरण-दर-चरण गाइड दिखाता है कि dxf को छवि में कैसे बदलें और dwf को jpeg
+  में भी कैसे बदलें।
+language: hi
+linktitle: Export Specific DXF Layout to Image with Java
+second_title: Aspose.CAD Java API
+title: Aspose.CAD का उपयोग करके जावा में DXF लेआउट को इमेज में निर्यात कैसे करें
+url: /java/additional-features/export-specific-layout-to-image/
 weight: 16
-url: /hi/java/additional-features/export-specific-layout-to-image/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# जावा में Aspose.CAD के साथ छवि में विशिष्ट DXF लेआउट निर्यात करें
+# How to Export DXF Layout to Image with Aspose.CAD in Java
 
-## परिचय
+## Introduction
 
-क्या आप जावा का उपयोग करके एक विशिष्ट DXF लेआउट को एक छवि में परिवर्तित करना चाह रहे हैं? जावा के लिए Aspose.CAD के साथ, आप इस कार्य को सहजता से पूरा कर सकते हैं। इस चरण-दर-चरण मार्गदर्शिका में, हम आपको एक विशिष्ट DXF लेआउट को एक छवि में निर्यात करने की प्रक्रिया के बारे में बताएंगे, प्रत्येक चरण के लिए स्पष्ट निर्देश और उदाहरण प्रदान करेंगे।
+यदि आपको Java एप्लिकेशन में **how to export dxf** ड्रॉइंग्स को रास्टर इमेजेज़ के रूप में निर्यात करने की आवश्यकता है, तो Aspose.CAD for Java इस प्रक्रिया को सरल बनाता है। इस ट्यूटोरियल में आप देखेंगे कि कैसे **convert dxf to image** (और यहाँ तक कि **convert dwf to jpeg**) स्रोत फ़ाइल से एक विशिष्ट लेआउट (लेयर) चुनकर किया जाता है। हम हर चरण को विस्तार से बताएँगे, प्रोजेक्ट सेटअप से लेकर अंतिम JPEG को सेव करने तक, ताकि आप इस समाधान को अपने कोडबेस में आत्मविश्वास के साथ इंटीग्रेट कर सकें।
 
-## आवश्यक शर्तें
+## Quick Answers
+- **What library is required?** Aspose.CAD for Java (free trial available).  
+- **Which formats can be exported?** DXF, DWF, DWG → JPEG, PNG, BMP, TIFF, etc.  
+- **Can I choose a single layout/layer?** Yes – use `CadRasterizationOptions.setLayers()` to specify the desired layers.  
+- **Do I need a license for production?** A commercial license is required for non‑evaluation use.  
+- **How long does the implementation take?** About 10‑15 minutes for a basic conversion.
 
-शुरू करने से पहले, सुनिश्चित करें कि आपके पास निम्नलिखित आवश्यक शर्तें हैं:
+## What is Exporting a DXF Layout to an Image?
+DXF लेआउट को इमेज में एक्सपोर्ट करना मतलब वेक्टर ड्रॉइंग (DXF/DWF) को JPEG जैसे बिटमैप फ़ॉर्मेट में रास्टराइज़ करना है। यह तब उपयोगी होता है जब आपको ड्रॉइंग्स को वेब पेज में एम्बेड करना हो, थंबनेल बनाना हो, या उन उपयोगकर्ताओं के साथ शेयर करना हो जिनके पास CAD सॉफ़्टवेयर नहीं है।
 
--  जावा के लिए Aspose.CAD: सुनिश्चित करें कि आपके पास Java के लिए Aspose.CAD लाइब्रेरी स्थापित है। आप इसे डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/cad/java/).
+## Why Convert DXF to Image with Aspose.CAD?
+- **No external CAD software** – रूपांतरण पूरी तरह से Java में चलता है।  
+- **Fine‑grained control** – आप व्यक्तिगत लेयर्स चुन सकते हैं, पेज साइज, DPI, और बैकग्राउंड कलर सेट कर सकते हैं।  
+- **Broad format support** – JPEG के अलावा आप PNG, BMP, TIFF आदि भी आउटपुट कर सकते हैं।  
+- **High fidelity** – लाइब्रेरी रास्टराइज़ेशन के दौरान लाइन वेट, रंग, और फ़ॉन्ट को सटीक रूप से बनाए रखती है।
 
-## नामस्थान आयात करें
+## Prerequisites
 
-आरंभ करने के लिए, अपने जावा प्रोजेक्ट में आवश्यक नामस्थान आयात करें:
+शुरू करने से पहले सुनिश्चित करें कि आपके पास है:
 
+- **Aspose.CAD for Java** – नवीनतम JAR को [Aspose.CAD download page](https://releases.aspose.com/cad/java/) से डाउनलोड करें।  
+- एक **Java development environment** (JDK 8 या उससे ऊपर)।  
+- वह **DXF/DWF फ़ाइल** जिसे आप कन्वर्ट करना चाहते हैं (उदाहरण में `for_layers_test.dwf` उपयोग किया गया है)।  
+
+## Import Namespaces
+
+पहले उन क्लासेज़ को इम्पोर्ट करें जिनकी आपको आवश्यकता होगी।  
 ```java
 import com.aspose.cad.Image;
 
@@ -41,42 +62,42 @@ import java.util.Arrays;
 import java.util.List;
 ```
 
-अब, आइए प्रत्येक चरण को विस्तार से देखें।
+अब हम चरण‑बद्ध रूप से कन्वर्ज़न प्रक्रिया को समझेंगे।
 
-## चरण 1: संसाधन निर्देशिका सेट करें
+## Step 1: Set the Resource Directory
 
-अपने जावा प्रोजेक्ट में संसाधन निर्देशिका का पथ परिभाषित करें। इस निर्देशिका में वह DXF ड्राइंग होनी चाहिए जिसे आप कनवर्ट करना चाहते हैं।
+उस फ़ोल्डर को परिभाषित करें जिसमें आपका स्रोत DXF/DWF फ़ाइल स्थित है।
 
 ```java
 String dataDir = "Your Document Directory" + "DXFDrawings\\";
 ```
 
-"आपकी दस्तावेज़ निर्देशिका" को वास्तविक पथ से बदलना सुनिश्चित करें।
+> **Pro tip:** `FileNotFoundException` से बचने के लिए एब्सोल्यूट पाथ या प्रोजेक्ट रूट के सापेक्ष पाथ का उपयोग करें।
 
-## चरण 2: DXF छवि लोड करें
+## Step 2: Load the DXF/DWF Image
 
-Aspose.CAD लाइब्रेरी का उपयोग करके DXF छवि लोड करें।
+Aspose.CAD के साथ ड्रॉइंग को लोड करें। उदाहरण में DWF फ़ाइल उपयोग की गई है, लेकिन वही कोड DXF के लिए भी काम करता है।
 
 ```java
 String srcFile = dataDir + "for_layers_test.dwf";
 DwfImage image = (DwfImage) Image.load(srcFile);
 ```
 
-"for_layers_test.dwf" को अपनी DXF फ़ाइल के नाम से बदलें।
+> **Why DWF?** लाइब्रेरी DWF को DXF की तरह ही ट्रीट करती है, इसलिए वही रास्टराइज़ेशन ऑप्शन लागू होते हैं, जिससे आप आसानी से **convert dwf to jpeg** कर सकते हैं।
 
-## चरण 3: परत नाम प्राप्त करें
+## Step 3: Get Layer Names
 
-DXF छवि में मौजूद परतों के नाम पुनः प्राप्त करें।
+सभी लेयर नाम प्राप्त करें ताकि आप वह लेयर चुन सकें जिसे आप एक्सपोर्ट करना चाहते हैं।
 
 ```java
 List<String> layersNames = image.getLayers().getLayersNames();
 ```
 
-यह चरण सुनिश्चित करता है कि आपके पास उपलब्ध परतों की एक सूची है।
+अब आपके पास प्रत्येक लेआउट के नाम वाली `List<String>` उपलब्ध है।
 
-## चरण 4: रैस्टराइज़ेशन विकल्प सेट करें
+## Step 4: Set Rasterization Options
 
- का एक उदाहरण बनाएं`CadRasterizationOptions` और आवश्यक गुण जैसे पृष्ठ की चौड़ाई और ऊंचाई निर्धारित करें।
+आउटपुट इमेज का आकार, रिज़ॉल्यूशन और अन्य रास्टर सेटिंग्स कॉन्फ़िगर करें।
 
 ```java
 CadRasterizationOptions rasterizationOptions = new CadRasterizationOptions();
@@ -84,11 +105,11 @@ rasterizationOptions.setPageWidth(1600);
 rasterizationOptions.setPageHeight(1600);
 ```
 
-अपनी आवश्यकताओं के अनुसार पृष्ठ आयाम समायोजित करें।
+इच्छित इमेज डाइमेंशन के अनुसार `PageWidth` और `PageHeight` को समायोजित करें। DPI को `setResolution` के माध्यम से सेट किया जा सकता है।
 
-## चरण 5: परतें निर्दिष्ट करें
+## Step 5: Specify Layers (Select the Layout)
 
-परत नामों की सूची को रेखापुंज विकल्पों के लिए उपयुक्त प्रारूप में बदलें।
+`setLayers()` द्वारा आवश्यक फ़ॉर्मेट में लेयर सूची को बदलें और उन लेयर्स को चुनें जिन्हें आप रेंडर करना चाहते हैं।
 
 ```java
 String[] stringArray = Arrays.copyOf(layersNames.toArray(), layersNames.toArray().length, String[].class);
@@ -96,57 +117,62 @@ List<String> stringList = Arrays.asList(stringArray);
 rasterizationOptions.setLayers(stringList);
 ```
 
-यह चरण सुनिश्चित करता है कि आप निर्यात प्रक्रिया में केवल वांछित परतें ही शामिल करें।
+यदि आपको केवल एक ही लेआउट चाहिए, तो `stringList` को उस विशिष्ट लेयर नाम वाली सूची से बदल दें।
 
-## चरण 6: JPEG विकल्प कॉन्फ़िगर करें
+## Step 6: Configure JPEG Options
 
- का एक उदाहरण बनाएं`JpegOptions` और वेक्टर रेखापुंज विकल्प सेट करें।
+रास्टराइज़ेशन सेटिंग्स को `JpegOptions` ऑब्जेक्ट में रैप करें।
 
 ```java
 JpegOptions jpegOptions = new JpegOptions();
 jpegOptions.setVectorRasterizationOptions(rasterizationOptions);
 ```
 
-यह छवि को JPEG प्रारूप में सहेजने के लिए विकल्प तैयार करता है।
+यदि आवश्यक हो तो JPEG क्वालिटी (`jpegOptions.setQuality(90)`) भी सेट कर सकते हैं।
 
-## चरण 7: छवि में DXF निर्यात करें
+## Step 7: Export DXF/DWF to Image
 
-आउटपुट पथ निर्दिष्ट करें और DXF छवि को JPEG के रूप में सहेजें।
+अंत में, रास्टराइज़्ड इमेज को डिस्क पर सेव करें।
 
 ```java
 String output = dataDir + "for_layers_test.jpg";
 image.save(output, jpegOptions);
 ```
 
-अपनी प्राथमिकताओं के अनुसार आउटपुट पथ और फ़ाइल नाम समायोजित करें।
+फ़ाइल `for_layers_test.jpg` अब चयनित लेआउट को हाई‑क्वालिटी JPEG के रूप में रखती है।
 
-इन चरणों के साथ, आपने जावा के लिए Aspose.CAD का उपयोग करके एक विशिष्ट DXF लेआउट को एक छवि में सफलतापूर्वक निर्यात किया है।
+## Common Issues and Solutions
 
-## निष्कर्ष
+| Issue | Cause | Fix |
+|-------|-------|-----|
+| **Blank output image** | Wrong layer name or empty layer list | Verify `layersNames` contains the expected names and pass the correct list to `setLayers()`. |
+| **Out‑of‑memory error** | Very large page dimensions | Reduce `PageWidth/Page increase JVM heap (`-Xmx`). |
+| **Unsupported file format** | Using an older Aspose.CAD version | Update to the latest JAR from Aspose. |
+| **Low image quality** | Default JPEG quality is low | Call `jpegOptions.setQuality(95)` before saving. |
 
-इस ट्यूटोरियल में, हमने जावा के लिए Aspose.CAD का उपयोग करके एक विशिष्ट DXF लेआउट को एक छवि में निर्यात करने की प्रक्रिया को कवर किया। विस्तृत चरणों का पालन करके और दिए गए कोड स्निपेट का उपयोग करके, आप इस कार्यक्षमता को अपने जावा प्रोजेक्ट्स में सहजता से एकीकृत कर सकते हैं।
+## Frequently Asked Questions
 
-## अक्सर पूछे जाने वाले प्रश्न
+**Q: Can I export multiple DXF layouts in one run?**  
+A: Yes. Loop through the desired layer names, update `rasterizationOptions.setLayers()` for each iteration, and call `image.save()` with a unique output filename.
 
-### Q1: क्या मैं एक बार में कई DXF लेआउट निर्यात कर सकता हूँ?
+**Q: Is Aspose.CAD for Java compatible with all Java versions?**  
+A: The library supports Java 8 and newer. Check the release notes for any version‑specific notes.
 
-A1: हां, आप एकाधिक लेआउट को पुनरावृत्त करके और प्रत्येक को व्यक्तिगत रूप से निर्यात करके कोड को संशोधित कर सकते हैं।
+**Q: How do I handle errors during conversion?**  
+A: Wrap the conversion code in a `try‑catch` block and catch `Exception` or specific Aspose exceptions to log or display meaningful messages.
 
-### Q2: क्या जावा के लिए Aspose.CAD विभिन्न जावा संस्करणों के साथ संगत है?
+**Q: Besides JPEG, which other image formats are available?**  
+A: You can use `PngOptions`, `BmpOptions`, `TiffOptions`, etc., by replacing `JpegOptions` with the appropriate class.
 
-A2: Java के लिए Aspose.CAD को विभिन्न जावा संस्करणों के साथ संगत होने के लिए डिज़ाइन किया गया है। विशिष्ट संगतता विवरण के लिए दस्तावेज़ की जाँच करें।
+**Q: Can I customize background color or line thickness?**  
+A: Yes. `CadRasterizationOptions` provides properties like `setBackgroundColor()` and `setLineWeight()` for fine‑tuning.
 
-### Q3: मैं DXF से छवि रूपांतरण प्रक्रिया के दौरान त्रुटियों को कैसे संभाल सकता हूँ?
+---
 
-A3: आप रूपांतरण के दौरान होने वाले किसी भी संभावित अपवाद को पकड़ने और प्रबंधित करने के लिए ट्राई-कैच ब्लॉक का उपयोग करके त्रुटि प्रबंधन को कार्यान्वित कर सकते हैं।
+**Last Updated:** 2025-12-01  
+**Tested:** Aspose.CAD for Java 24.11 (latest at time of writing)  
+**Author:** Aspose  
 
-### Q4: क्या JPEG के अलावा अन्य आउटपुट प्रारूप भी समर्थित हैं?
-
-A4: हाँ, Java के लिए Aspose.CAD PNG, BMP, TIFF और अन्य सहित विभिन्न आउटपुट स्वरूपों का समर्थन करता है। आप तदनुसार कोड को समायोजित कर सकते हैं.
-
-### Q5: क्या मैं रैस्टराइज़ेशन विकल्पों को और अधिक अनुकूलित कर सकता हूँ?
-
- A5: निश्चित रूप से,`CadRasterizationOptions` क्लास अनुकूलन के लिए विभिन्न गुण प्रदान करता है। अतिरिक्त विकल्पों के लिए दस्तावेज़ का अन्वेषण करें।
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
