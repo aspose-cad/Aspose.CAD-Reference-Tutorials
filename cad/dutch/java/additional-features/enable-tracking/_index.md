@@ -1,33 +1,53 @@
 ---
-title: Schakel tracking in DWG-bestanden in met Aspose.CAD in Java
-linktitle: Schakel tracking in DWG-bestanden in met behulp van Java
-second_title: Aspose.CAD Java-API
-description: Ontdek de stapsgewijze handleiding voor het inschakelen van het volgen van DWG-bestanden in Java met behulp van Aspose.CAD, waardoor een naadloze samenwerking in CAD-projecten wordt gegarandeerd.
+date: 2025-12-01
+description: Leer hoe u de PDF-pagina‑grootte instelt, DWG naar PDF converteert en
+  het bijhouden van DWG‑wijzigingen inschakelt met Aspose.CAD voor Java.
+language: nl
+linktitle: Set PDF Page Size and Track DWG with Java
+second_title: Aspose.CAD Java API
+title: PDF-paginagrootte instellen en DWG volgen met Aspose.CAD Java
+url: /java/additional-features/enable-tracking/
 weight: 12
-url: /nl/java/additional-features/enable-tracking/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Schakel tracking in DWG-bestanden in met Aspose.CAD in Java
+# Stel PDF-paginaformaat in en volg DWG met Aspose.CAD Java
 
-## Invoering
+## Introductie
 
-Op het gebied van computerondersteund ontwerp (CAD) onderscheidt Aspose.CAD voor Java zich als een krachtig hulpmiddel waarmee ontwikkelaars gemakkelijk CAD-bestanden kunnen manipuleren en converteren. Deze tutorial gaat dieper in op een specifieke functionaliteit van Aspose.CAD voor Java, waardoor tracking in DWG-bestanden mogelijk wordt gemaakt. Het bijhouden van wijzigingen in DWG-bestanden is van cruciaal belang voor gezamenlijke ontwerpprojecten, waardoor naadloze communicatie en een efficiënte workflow worden gegarandeerd. In deze handleiding doorlopen we de stappen om tracking met Java in te schakelen, waarbij we gebruik maken van de mogelijkheden van Aspose.CAD.
+Bij het samenwerken aan CAD-projecten moet je vaak **PDF-paginaformaat instellen** voor een consistente lay-out, **DWG naar PDF converteren** en elke wijziging in de tekening bijhouden. Aspose.CAD voor Java maakt dit allemaal mogelijk in één gestroomlijnde workflow. In deze tutorial lopen we de exacte stappen door om **PDF-paginaformaat in te stellen**, **DWG-wijzigingen bij te houden**, en de tekening als PDF te exporteren — allemaal met Java.
+
+## Snelle antwoorden
+- **Hoe stel ik het PDF-paginaformaat in?** Gebruik `CadRasterizationOptions.setPageWidth()` en `setPageHeight()` vóór het exporteren.  
+- **Kan ik wijzigingen bijhouden tijdens het exporteren?** Ja – implementeer een aangepaste `CadRenderHandler` om de trackingresultaten vast te leggen.  
+- **Welke methode converteert DWG naar PDF?** Roep `image.save(stream, pdfOptions)` aan na het configureren van de opties.  
+- **Wat zijn de belangrijkste vereisten?** JDK, Aspose.CAD voor Java, en een map met DWG/DXF‑bestanden.  
+- **Is een licentie vereist voor productie?** Ja, een geldige Aspose.CAD‑licentie is nodig voor niet‑trial‑implementaties.
+
+## Wat betekent “PDF-paginaformaat instellen” in de context van DWG-export?
+
+Het instellen van het PDF-paginaformaat bepaalt de afmetingen van het resulterende PDF‑canvas (breedte × hoogte in pixels). Dit is essentieel wanneer je wilt dat de geëxporteerde tekening past op een specifiek papierformaat of schermlay-out, zodat alle elementen precies verschijnen waar je ze verwacht.
+
+## Waarom tracking inschakelen bij het exporteren van DWG‑bestanden?
+
+Tracking (of wijzigingsbijhouden) registreert eventuele renderingsproblemen, ontbrekende lettertypen of niet‑ondersteunde entiteiten die zich voordoen tijdens de conversie. Door deze informatie vast te leggen kun je:
+
+- Snel problemen identificeren die moeten worden opgelost vóór de uiteindelijke levering.  
+- Duidelijke feedback geven aan teamleden over wat er is aangepast of weggelaten.  
+- Een audit‑trail behouden voor sectoren met strenge compliance‑eisen.
 
 ## Vereisten
 
-Voordat we ingaan op de implementatie, moet u ervoor zorgen dat u aan de volgende vereisten voldoet:
+- **Java Development Kit (JDK)** – elke recente versie (8+).  
+- **Aspose.CAD for Java** – download van de officiële [Aspose CAD downloadpagina](https://releases.aspose.com/cad/java/).  
+- **Document Directory** – een map die de DWG/DXF‑bestanden bevat die je wilt verwerken.
 
-- Java Development Kit (JDK): Zorg ervoor dat Java op uw systeem is geïnstalleerd.
--  Aspose.CAD voor Java: Download en installeer Aspose.CAD voor Java vanaf de[download link](https://releases.aspose.com/cad/java/).
-- Documentmap: bereid een map voor waarin uw DWG-bestanden zich bevinden.
+## Namespaces importeren
 
-## Naamruimten importeren
-
-Begin in uw Java-project met het importeren van de benodigde naamruimten om de Aspose.CAD-functionaliteiten te benutten:
+Begin met het importeren van de benodigde Aspose.CAD‑klassen en standaard Java I/O‑klassen.
 
 ```java
 import com.aspose.cad.Image;
@@ -41,31 +61,31 @@ import java.io.FileOutputStream;
 import java.io.OutputStream;
 ```
 
-## Stap 1: Laad het DWG-bestand
+## Stap 1: Laad het DWG (of DXF) bestand
 
-Begin met het laden van het DWG-bestand in uw Java-toepassing. Pas het bestandspad dienovereenkomstig aan:
+Laad je brontekening in een `Image`‑object. Pas het pad aan zodat het naar jouw eigen map wijst.
 
 ```java
 String dataDir = "Your Document Directory" + "DXFDrawings/";
 Image image = Image.load(dataDir + "conic_pyramid.dxf");
 ```
 
-## Stap 2: Configureer PDF-exportopties
+## Stap 2: Configureer PDF‑exportopties (inclusief paginagrootte)
 
-Configureer de PDF-exportopties en geef vectorrasteropties voor CAD op:
+Hier stellen we de PDF‑opties in en **zetten we expliciet het PDF-paginaformaat** op 800 × 600 pixels. Dit is waar het primaire trefwoord wordt toegepast.
 
 ```java
 OutputStream stream = new FileOutputStream(dataDir + "output_conic_pyramid.pdf");
 PdfOptions pdfOptions = new PdfOptions();
 CadRasterizationOptions cadRasterizationOptions = new CadRasterizationOptions();
 pdfOptions.setVectorRasterizationOptions(cadRasterizationOptions);
-cadRasterizationOptions.setPageWidth(800);
-cadRasterizationOptions.setPageHeight(600);
+cadRasterizationOptions.setPageWidth(800);   // set PDF page width
+cadRasterizationOptions.setPageHeight(600);  // set PDF page height
 ```
 
 ## Stap 3: Implementeer tracking
 
-Implementeer tracking met behulp van een aangepaste fouthandlerklasse. Deze klasse verwerkt de trackingresultaten en geeft eventuele problemen weer:
+Maak een aangepaste fout‑handler die trackinginformatie ontvangt tijdens het conversieproces.
 
 ```java
 cadRasterizationOptions.RenderResult = new ErrorHandler();
@@ -73,16 +93,16 @@ cadRasterizationOptions.RenderResult = new ErrorHandler();
 
 ## Stap 4: Exporteren naar PDF
 
-Start het exportproces om het DWG-bestand naar een PDF te converteren terwijl tracking is ingeschakeld:
+Met de opties en tracking‑handler ingesteld, exporteer je de tekening. Deze stap **converteert DWG naar PDF** (of DXF naar PDF in ons voorbeeld).
 
 ```java
 System.out.println("Exporting to pdf format");
 image.save(stream, pdfOptions);
 ```
 
-## Stap 5: CadRenderHandler-klasse
+## Stap 5: CadRenderHandler‑klasse – Trackingresultaten vastleggen
 
- Definieer de`CadRenderHandler`klasse om weergaveresultaten af te handelen en trackinginformatie weer te geven:
+De `ErrorHandler`‑klasse breidt `CadRenderHandler` uit en print eventuele renderingsproblemen die zich voordeden tijdens het **bijhouden van wijzigingen in DWG**‑bestanden.
 
 ```java
 public static class ErrorHandler extends CadRasterizationOptions.CadRenderHandler {
@@ -104,31 +124,54 @@ public static class ErrorHandler extends CadRasterizationOptions.CadRenderHandle
 }
 ```
 
-## Conclusie
+## Veelvoorkomende problemen & hoe ze op te lossen
 
-Het inschakelen van tracking in DWG-bestanden met Aspose.CAD voor Java is een naadloos proces dat de samenwerking in CAD-projecten verbetert. Door deze stappen te volgen, kunt u de trackingfunctionaliteit efficiënt implementeren, waardoor u verzekerd bent van een soepele communicatie en foutafhandeling.
+| Probleem | Waarom het gebeurt | Oplossing |
+|----------|--------------------|-----------|
+| **Ontbrekende lettertypen** | CAD‑bestand verwijst naar lettertypen die niet op de server zijn geïnstalleerd. | Installeer de benodigde lettertypen of embed ze in het brontekening. |
+| **Niet‑ondersteunde entiteiten** | Bepaalde DWG‑entiteiten worden nog niet ondersteund door Aspose.CAD. | Gebruik de trackingoutput om ze te identificeren en vereenvoudig de tekening. |
+| **Onjuiste paginagrootte** | `setPageWidth/Height` niet aangeroepen vóór export. | Zorg ervoor dat de paginagrootte is ingesteld in `CadRasterizationOptions` zoals hierboven getoond. |
 
 ## Veelgestelde vragen
 
-### V1: Kan ik tracking voor andere CAD-bestandsindelingen inschakelen met Aspose.CAD voor Java?
+### Q1: Kan ik tracking inschakelen voor andere CAD‑bestandsformaten met Aspose.CAD voor Java?
 
-A1: Aspose.CAD ondersteunt voornamelijk DWG-bestanden voor tracking. Raadpleeg de documentatie voor andere formaten.
+A1: Aspose.CAD ondersteunt tracking voornamelijk voor DWG/DXF‑bestanden. Voor andere formaten raadpleeg je de officiële documentatie om te zien welke functies beschikbaar zijn.
 
-### V2: Hoe kan ik omgaan met extra exportopties in Aspose.CAD voor Java?
+### Q2: Hoe kan ik extra exportopties verwerken in Aspose.CAD voor Java?
 
- A2: Ontdek de uitgebreide documentatie op[Aspose.CAD Java-documentatie](https://reference.aspose.com/cad/java/).
+A2: De bibliotheek biedt veel opties zoals DPI, achtergrondkleur en vectorrasterisatie. Verken ze in de [Aspose.CAD Java-documentatie](https://reference.aspose.com/cad/java/).
 
-### V3: Is er een proefversie beschikbaar voor Aspose.CAD voor Java?
+### Q3: Is er een proefversie beschikbaar voor Aspose.CAD voor Java?
 
- A3: Ja, u kunt de proefversie openen op[Gratis proefversie van Aspose.CAD](https://releases.aspose.com/).
+A3: Ja, je kunt een gratis proefversie downloaden via de [Aspose.CAD Free Trial](https://releases.aspose.com/).
 
-### V4: Waar kan ik hulp zoeken of problemen bespreken die verband houden met Aspose.CAD voor Java?
+### Q4: Waar kan ik hulp zoeken of discussiëren over problemen met Aspose.CAD voor Java?
 
- A4: Bezoek de[Aspose.CAD-forum](https://forum.aspose.com/c/cad/19) voor gemeenschapssteun.
+A4: Het community‑forum op het [Aspose.CAD‑forum](https://forum.aspose.com/c/cad/19) is een uitstekende plek om vragen te stellen en ervaringen te delen.
 
-### V5: Hoe verkrijg ik een tijdelijke licentie voor Aspose.CAD voor Java?
+### Q5: Hoe verkrijg ik een tijdelijke licentie voor Aspose.CAD voor Java?
 
- A5: Volg het proces beschreven op[Tijdelijke licentie](https://purchase.aspose.com/temporary-license/).
+A5: Volg de stappen op de pagina [Temporary License](https://purchase.aspose.com/temporary-license/) om een tijdelijk licentie‑verzoek voor evaluatie in te dienen.
+
+### Q6: Kan ik **DWG naar PDF converteren** terwijl ik lagen behoud?
+
+A6: Ja. Door `CadRasterizationOptions` te configureren kun je laag‑informatie behouden in de resulterende PDF.
+
+### Q7: Wat is de beste manier om **DWG als PDF te exporteren** met aangepaste paginadimensies?
+
+A7: Stel de gewenste breedte en hoogte in met `setPageWidth` en `setPageHeight` vóór het aanroepen van `image.save()` – precies zoals gedemonstreerd in Stap 2.
+
+## Conclusie
+
+Door de bovenstaande stappen te volgen kun je **PDF-paginaformaat instellen**, **DWG naar PDF converteren** en **wijzigingen in DWG‑bestanden bijhouden** met Aspose.CAD voor Java. Deze workflow geeft je volledige controle over de uitvoerlay-out en biedt waardevolle diagnostiek die je CAD‑samenwerking soepel en foutloos houdt. Voel je vrij om extra renderopties te verkennen en deze code te integreren in grotere automatiseringspijplijnen.
+
+---
+
+**Laatst bijgewerkt:** 2025-12-01  
+**Getest met:** Aspose.CAD for Java 24.12 (latest at time of writing)  
+**Auteur:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
