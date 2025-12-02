@@ -141,15 +141,15 @@ A: Yes – use the `ImageExportOptions` class to render the drawing to raster fo
 
 These tutorials cover a comprehensive set of **how to export dxf** scenarios using Aspose.CAD for Java, from adding metadata and tracking changes to converting drawings into PDF, WMF, and image formats. By leveraging these additional features, you can automate repetitive tasks, improve collaboration, and deliver high‑quality outputs to clients and stakeholders. Start experimenting with the sample code, adapt it to your workflow, and watch your CAD processes become faster and more reliable.
 
+---
+
+**Last Updated:** 2025-11-28  
+**Tested With:** Aspose.CAD for Java 24.12  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-11-28  
-**Tested With:** Aspose.CAD for Java 24.12  
-**Author:** Aspose

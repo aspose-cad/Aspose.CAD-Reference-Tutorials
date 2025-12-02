@@ -98,13 +98,6 @@ These are links to some useful resources:
 - [DGN Export Options](./java/dgn-export-options/)
 - [Other CAD Operations](./java/other-cad-operations/)
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Frequently Asked Questions
 
 **Q: Can I export a large DWG file to PDF without running out of memory?**  
@@ -127,3 +120,10 @@ A: Yes – call `image.Save("output.stl", new StlOptions())` to get a printable 
 **Last Updated:** 2025-11-28  
 **Tested With:** Aspose.CAD 24.11 for .NET & Java  
 **Author:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
