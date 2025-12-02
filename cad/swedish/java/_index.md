@@ -124,19 +124,6 @@ A: Använd en trådpott för att bearbeta filer parallellt och återanvänd `Pdf
 ## Slutsats
 Du har nu en komplett färdplan för **konvertering av CAD till PDF**, export till SVG, STL och andra format, samt hantering av avancerade CAD‑operationer med Aspose.CAD för Java. Använd dessa handledningar för att effektivisera ditt utvecklingsarbetsflöde, förbättra dokumenttillgänglighet och leverera högkvalitativa resultat till dina användare.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-11-29  
-**Tested With:** Aspose.CAD for Java 24.11 (latest at time of writing)  
-**Author:** Aspose  
-
 ## Aspose.CAD for Java Tutorials
 ### [CAD‑ritningskonvertering](./cad-drawing-conversion/)
 Omvandla CAD‑ritningar enkelt med Aspose.CAD för Java. Lär dig att konvertera, exportera och optimera dina CAD‑filer med precision genom våra steg‑för‑steg‑handledningar.
@@ -164,3 +151,16 @@ Exportera enkelt AutoCAD‑bilder, CAD‑layouter, IFC‑ och STL‑filer till P
 Utnyttja kraften i Aspose.CAD för Java med våra DGN‑exporthandledningar. Lär dig effektiv CAD‑filmanipulation, från att exportera DGN som en del av DWG till att skapa rasterbilder enkelt.
 ### [Övriga CAD‑operationer](./other-cad-operations/)
 Utnyttja potentialen i Aspose.CAD för Java med våra handledningar. Från att hantera DGN‑element till att lägga till vattenstämplar, förbättra dina CAD‑kunskaper enkelt.
+
+---
+
+**Last Updated:** 2025-11-29  
+**Tested With:** Aspose.CAD for Java 24.11 (latest at time of writing)  
+**Author:** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

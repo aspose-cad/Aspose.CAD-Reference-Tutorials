@@ -125,19 +125,6 @@ A: Sử dụng thread pool để xử lý các tệp song song, và tái sử d�
 ## Kết luận
 Bạn đã có một lộ trình hoàn chỉnh để **chuyển đổi CAD sang PDF**, xuất sang SVG, STL và các định dạng khác, cũng như xử lý các thao tác CAD nâng cao với Aspose.CAD cho Java. Áp dụng những tutorial này để tối ưu quy trình phát triển, cải thiện khả năng truy cập tài liệu, và cung cấp kết quả chất lượng cao cho người dùng của bạn.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
----
-
-**Cập nhật lần cuối:** 2025-11-29  
-**Kiểm tra với:** Aspose.CAD cho Java 24.11 (phiên bản mới nhất tại thời điểm viết)  
-**Tác giả:** Aspose  
-
 ## Hướng dẫn Aspose.CAD cho Java
 ### [Chuyển đổi bản vẽ CAD](./cad-drawing-conversion/)
 Biến đổi bản vẽ CAD một cách dễ dàng với Aspose.CAD cho Java. Học cách chuyển đổi, xuất và tối ưu hoá các tệp CAD của bạn một cách chính xác thông qua các tutorial từng bước.
@@ -177,3 +164,16 @@ Mở khóa sức mạnh của Aspose.CAD cho Java với các tutorial xuất DGN
 
 ### [Các thao tác CAD khác](./other-cad-operations/)
 Khai thác tiềm năng của Aspose.CAD cho Java với các tutorial của chúng tôi. Từ xử lý các yếu tố DGN đến thêm watermark, nâng cao kỹ năng CAD của bạn một cách dễ dàng.
+
+---
+
+**Cập nhật lần cuối:** 2025-11-29  
+**Kiểm tra với:** Aspose.CAD cho Java 24.11 (phiên bản mới nhất tại thời điểm viết)  
+**Tác giả:** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

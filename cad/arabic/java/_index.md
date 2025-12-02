@@ -125,20 +125,7 @@ weight: 10
 
 ## الخلاصة
 
-أصبح لديك الآن خارطة طريق كاملة لـ **تحويل CAD إلى PDF**، التصدير إلى SVG، STL، وصيغ أخرى، ومعالجة عمليات CAD المتقدمة باستخدام Aspose.CAD للـ Java. استخدم هذه الدروس لتبسيط سير عمل التطوير، تحسين إمكانية الوصول إلى المستندات، وتقديم نتائج عالية الجودة لمستخدميك.
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-11-29  
-**Tested With:** Aspose.CAD for Java 24.11 (latest at time of writing)  
-**Author:** Aspose  
+أصبح لديك الآن خارطة طريق كاملة لـ **تحويل CAD إلى PDF**، التصدير إلى SVG، STL، وصيغ أخرى، ومعالجة عمليات CAD المتقدمة باستخدام Aspose.CAD للـ Java. استخدم هذه الدروس لتبسيط سير عمل التطوير، تحسين إمكانية الوصول إلى المستندات، وتقديم نتائج عالية الجودة لمستخدميك. 
 
 ## دروس Aspose.CAD للـ Java
 
@@ -180,3 +167,16 @@ weight: 10
 
 ### [Other CAD Operations](./other-cad-operations/)
 اكتشف إمكانات Aspose.CAD للـ Java من خلال دروسنا. من معالجة عناصر DGN إلى إضافة علامات مائية، عزز مهارات CAD بسهولة.
+
+---
+
+**Last Updated:** 2025-11-29  
+**Tested With:** Aspose.CAD for Java 24.11 (latest at time of writing)  
+**Author:** Aspose 
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

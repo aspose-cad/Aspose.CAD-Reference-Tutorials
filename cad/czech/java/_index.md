@@ -124,19 +124,6 @@ A: Použijte thread pool pro paralelní zpracování souborů a znovu použijte 
 ## Závěr
 Nyní máte kompletní plán pro **převod CAD do PDF**, export do SVG, STL a dalších formátů a pro práci s pokročilými CAD operacemi pomocí Aspose.CAD pro Java. Použijte tyto tutoriály k zefektivnění vývojového workflow, zlepšení přístupnosti dokumentů a dodání vysoce kvalitních výsledků vašim uživatelům.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-11-29  
-**Tested With:** Aspose.CAD for Java 24.11 (latest at time of writing)  
-**Author:** Aspose  
-
 ## Tutoriály Aspose.CAD pro Java
 
 ### [Konverze CAD výkresu](./cad-drawing-conversion/)
@@ -177,3 +164,16 @@ Odemkněte sílu Aspose.CAD pro Java pomocí našich tutoriálů o exportu DGN. 
 
 ### [Ostatní operace CAD](./other-cad-operations/)
 Odemkněte potenciál Aspose.CAD pro Java pomocí našich tutoriálů. Od zpracování DGN elementů po přidávání vodoznaků, posilte své CAD dovednosti bez námahy.
+
+---
+
+**Last Updated:** 2025-11-29  
+**Tested With:** Aspose.CAD for Java 24.11 (latest at time of writing)  
+**Author:** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

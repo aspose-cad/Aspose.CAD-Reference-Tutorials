@@ -124,19 +124,6 @@ A: Χρησιμοποιήστε μια ομάδα νημάτων (thread pool) �
 ## Συμπέρασμα
 Τώρα έχετε έναν πλήρη οδηγό για **τη μετατροπή CAD σε PDF**, την εξαγωγή σε SVG, STL και άλλες μορφές, καθώς και τη διαχείριση προχωρημένων λειτουργιών CAD με το Aspose.CAD for Java. Εφαρμόστε αυτά τα μαθήματα για να βελτιστοποιήσετε τη ροή ανάπτυξης, να βελτιώσετε την προσβασιμότητα των εγγράφων και να παραδώσετε υψηλής ποιότητας αποτελέσματα στους χρήστες σας.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-11-29  
-**Tested With:** Aspose.CAD for Java 24.11 (latest at time of writing)  
-**Author:** Aspose  
-
 ## Μαθήματα Aspose.CAD for Java
 
 ### [CAD Drawing Conversion](./cad-drawing-conversion/)
@@ -177,3 +164,16 @@ A: Χρησιμοποιήστε μια ομάδα νημάτων (thread pool) �
 
 ### [Other CAD Operations](./other-cad-operations/)
 Αποκτήστε το δυναμικό του Aspose.CAD for Java με τα μαθήματά μας. Από τη διαχείριση στοιχείων DGN μέχρι την προσθήκη υδατογραφημάτων, ενισχύστε τις δεξιότητές σας στο CAD αβίαστα.
+
+---
+
+**Last Updated:** 2025-11-29  
+**Tested With:** Aspose.CAD for Java 24.11 (latest at time of writing)  
+**Author:** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

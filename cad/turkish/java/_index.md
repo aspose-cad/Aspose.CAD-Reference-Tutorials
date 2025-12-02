@@ -124,19 +124,6 @@ C: Dosyaları paralel işlemek için bir iş parçacığı havuzu kullanın ve `
 ## Sonuç
 Artık **CAD'yi PDF'ye dönüştürme**, SVG, STL ve diğer formatlara dışa aktarma ve Aspose.CAD for Java ile gelişmiş CAD işlemlerini yönetme konusunda eksiksiz bir yol haritasına sahipsiniz. Bu öğreticileri geliştirme iş akışınızı hızlandırmak, belge erişilebilirliğini artırmak ve kullanıcılarınıza yüksek kalite sonuçlar sunmak için uygulayın.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
----
-
-**Son Güncelleme:** 2025-11-29  
-**Test Edilen:** Aspose.CAD for Java 24.11 (yazım anındaki en son sürüm)  
-**Yazar:** Aspose  
-
 ## Aspose.CAD for Java Öğreticileri
 ### [CAD Çizim Dönüştürme](./cad-drawing-conversion/)
 Aspose.CAD for Java ile CAD çizimlerini zahmetsizce dönüştürün. Adım‑adım öğreticilerimizle CAD dosyalarınızı hassas bir şekilde dönüştürmeyi, dışa aktarmayı ve optimize etmeyi öğrenin.
@@ -164,3 +151,16 @@ Aspose.CAD for Java ile AutoCAD görüntülerini, CAD düzenlerini, IFC ve STL d
 Aspose.CAD for Java'nun DGN Dışa Aktarma Öğreticileriyle gücünü açın. DWG'nin bir parçası olarak DGN dışa aktarmadan raster görüntüler oluşturma kadar verimli CAD dosya manipülasyonunu öğrenin.
 ### [Diğer CAD İşlemleri](./other-cad-operations/)
 Aspose.CAD for Java'nun öğreticileriyle potansiyelini açın. DGN öğelerini yönetmekten filigran eklemeye kadar CAD becerilerinizi zahmetsizce artırın.
+
+---
+
+**Son Güncelleme:** 2025-11-29  
+**Test Edilen:** Aspose.CAD for Java 24.11 (yazım anındaki en son sürüm)  
+**Yazar:** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

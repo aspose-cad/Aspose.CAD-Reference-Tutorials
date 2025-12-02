@@ -125,19 +125,6 @@ A: Gunakan thread pool untuk memproses file secara paralel, dan gunakan kembali 
 ## Conclusion
 Anda kini memiliki peta jalan lengkap untuk **mengonversi CAD ke PDF**, mengekspor ke SVG, STL, dan format lainnya, serta menangani operasi CAD lanjutan dengan Aspose.CAD untuk Java. Terapkan tutorial ini untuk menyederhanakan alur kerja pengembangan Anda, meningkatkan aksesibilitas dokumen, dan memberikan hasil berkualitas tinggi kepada pengguna Anda.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-11-29  
-**Tested With:** Aspose.CAD for Java 24.11 (latest at time of writing)  
-**Author:** Aspose  
-
 ## Aspose.CAD for Java Tutorials
 ### [CAD Drawing Conversion](./cad-drawing-conversion/)
 Ubah gambar CAD dengan mudah menggunakan Aspose.CAD untuk Java. Pelajari cara mengonversi, mengekspor, dan mengoptimalkan file CAD Anda dengan presisi melalui tutorial langkah‑demi‑langkah kami.
@@ -165,3 +152,16 @@ Ekspor gambar AutoCAD, layout CAD, IFC, file STL ke PDF, BMP, PNG menggunakan As
 Buka kekuatan Aspose.CAD untuk Java dengan tutorial Ekspor DGN kami. Pelajari manipulasi file CAD yang efisien, mulai dari mengekspor DGN sebagai bagian dari DWG hingga membuat gambar raster dengan mudah.
 ### [Other CAD Operations](./other-cad-operations/)
 Buka potensi Aspose.CAD untuk Java dengan tutorial kami. Dari menangani elemen DGN hingga menambahkan watermark, tingkatkan keterampilan CAD Anda dengan mudah.
+
+---
+
+**Last Updated:** 2025-11-29  
+**Tested With:** Aspose.CAD for Java 24.11 (latest at time of writing)  
+**Author:** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

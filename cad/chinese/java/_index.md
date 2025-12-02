@@ -123,19 +123,6 @@ A: 使用线程池并行处理文件，并复用 `PdfOptions`/`SvgOptions` 对�
 ## 结论
 现在，您已经拥有一套完整的 **将 CAD 转换为 PDF**、导出为 SVG、STL 以及其他格式的路线图，并掌握了使用 Aspose.CAD for Java 进行高级 CAD 操作的方法。将这些教程应用于您的开发工作流，可提升文档可访问性、加速开发并为用户交付高质量成果。
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-11-29  
-**Tested With:** Aspose.CAD for Java 24.11 (latest at time of writing)  
-**Author:** Aspose  
-
 ## Aspose.CAD for Java 教程
 ### [CAD Drawing Conversion](./cad-drawing-conversion/)
 轻松使用 Aspose.CAD for Java 转换 CAD 图纸。通过我们的分步教程，学习精准的转换、导出和优化 CAD 文件的方法。
@@ -163,3 +150,16 @@ A: 使用线程池并行处理文件，并复用 `PdfOptions`/`SvgOptions` 对�
 通过我们的 DGN 导出教程，解锁 Aspose.CAD for Java 的强大功能。学习高效的 CAD 文件操作，从将 DGN 作为 DWG 的一部分导出到轻松创建光栅图像。
 ### [Other CAD Operations](./other-cad-operations/)
 通过我们的教程，发掘 Aspose.CAD for Java 的潜力。从处理 DGN 元素到添加水印，轻松提升您的 CAD 技能。
+
+---
+
+**Last Updated:** 2025-11-29  
+**Tested With:** Aspose.CAD for Java 24.11 (latest at time of writing)  
+**Author:** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -125,19 +125,6 @@ A: Verwenden Sie einen Thread‑Pool, um Dateien parallel zu verarbeiten, und wi
 ## Fazit
 Sie haben nun eine vollständige Roadmap für **die Konvertierung von CAD zu PDF**, den Export nach SVG, STL und anderen Formaten sowie die Handhabung fortgeschrittener CAD‑Operationen mit Aspose.CAD für Java. Nutzen Sie diese Tutorials, um Ihren Entwicklungs‑Workflow zu optimieren, die Dokumentenzugänglichkeit zu verbessern und hochwertige Ergebnisse an Ihre Benutzer zu liefern.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-11-29  
-**Tested With:** Aspose.CAD for Java 24.11 (latest at time of writing)  
-**Author:** Aspose  
-
 ## Aspose.CAD für Java Tutorials
 
 ### [CAD-Zeichnungskonvertierung](./cad-drawing-conversion/)
@@ -178,3 +165,16 @@ Entfesseln Sie die Leistungsfähigkeit von Aspose.CAD für Java mit unseren DGN�
 
 ### [Weitere CAD-Operationen](./other-cad-operations/)
 Entfesseln Sie das Potenzial von Aspose.CAD für Java mit unseren Tutorials. Von der Verarbeitung von DGN‑Elementen bis zum Hinzufügen von Wasserzeichen – steigern Sie Ihre CAD‑Fähigkeiten mühelos.
+
+---
+
+**Last Updated:** 2025-11-29  
+**Tested With:** Aspose.CAD for Java 24.11 (latest at time of writing)  
+**Author:** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

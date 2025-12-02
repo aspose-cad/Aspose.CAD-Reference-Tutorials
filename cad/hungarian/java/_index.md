@@ -125,19 +125,6 @@ A: Használjon szál‑medencét a fájlok párhuzamos feldolgozásához, és ú
 ## Összegzés
 Most már rendelkezik egy teljes útmutatóval a **CAD‑PDF konvertáláshoz**, az SVG, STL és egyéb formátumok exportálásához, valamint a fejlett CAD‑műveletek kezeléséhez az Aspose.CAD for Java‑val. Alkalmazza ezeket az oktatóanyagokat a fejlesztési folyamatok egyszerűsítéséhez, a dokumentáció hozzáférhetőségének javításához, és a felhasználók számára magas minőségű eredmények biztosításához.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
----
-
-**Utoljára frissítve:** 2025-11-29  
-**Tesztelt verzió:** Aspose.CAD for Java 24.11 (a cikk írásakor legújabb)  
-**Szerző:** Aspose  
-
 ## Aspose.CAD for Java oktatóanyagok
 ### [CAD rajz konvertálás](./cad-drawing-conversion/)
 Könnyedén alakítsa át CAD‑rajzokat az Aspose.CAD for Java segítségével. Tanulja meg a konvertálást, exportálást és optimalizálást precízen, lépésről‑lépésre útmutatóinkkal.
@@ -165,3 +152,16 @@ Könnyedén exportáljon AutoCAD képeket, CAD elrendezéseket, IFC‑t, STL‑t
 Fedezze fel az Aspose.CAD for Java erejét DGN export oktatóanyagainkkal. Tanulja meg a hatékony CAD fájl manipulációt, a DGN exportálását DWG részeként vagy rasterképek létrehozását egyszerűen.
 ### [Egyéb CAD műveletek](./other-cad-operations/)
 Fedezze fel az Aspose.CAD for Java lehetőségeit oktatóanyagainkkal. A DGN elemek kezelésétől a vízjelek hozzáadásáig, növelje CAD‑tudását könnyedén.
+
+---
+
+**Utoljára frissítve:** 2025-11-29  
+**Tesztelt verzió:** Aspose.CAD for Java 24.11 (a cikk írásakor legújabb)  
+**Szerző:** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
