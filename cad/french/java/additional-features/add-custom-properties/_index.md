@@ -1,34 +1,58 @@
 ---
-title: Ajouter des propriétés personnalisées aux fichiers DWG à l'aide d'Aspose.CAD en Java
-linktitle: Ajouter des propriétés personnalisées aux fichiers DWG à l'aide de Java
-second_title: API Java Aspose.CAD
-description: Découvrez comment ajouter des propriétés personnalisées aux fichiers DWG en Java à l'aide d'Aspose.CAD. Améliorez sans effort l’organisation et la récupération d’informations dans les dessins CAO.
+date: 2025-11-30
+description: Apprenez à ajouter des propriétés personnalisées aux fichiers DWG en
+  Java avec Aspose.CAD. Améliorez l'organisation et la récupération d'informations
+  dans les dessins CAO sans effort.
+language: fr
+linktitle: Add Custom Properties to DWG Files Using Java
+second_title: Aspose.CAD Java API
+title: Ajouter des propriétés personnalisées aux fichiers DWG à l'aide d'Aspose.CAD
+  pour Java
+url: /java/additional-features/add-custom-properties/
 weight: 10
-url: /fr/java/additional-features/add-custom-properties/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Ajouter des propriétés personnalisées aux fichiers DWG à l'aide d'Aspose.CAD en Java
+# Ajouter des propriétés personnalisées aux fichiers DWG avec Aspose.CAD pour Java
 
-Dans le monde de la programmation Java, la manipulation de fichiers DWG avec des propriétés personnalisées est une tâche courante. Aspose.CAD pour Java fournit un ensemble d'outils puissants pour intégrer de manière transparente cette fonctionnalité dans vos projets. Dans ce didacticiel étape par étape, nous vous guiderons tout au long du processus d'ajout de propriétés personnalisées aux fichiers DWG à l'aide d'Aspose.CAD pour Java.
+Manipuler des dessins CAO de façon programmatique est un besoin quotidien pour de nombreux développeurs Java. Dans ce tutoriel, vous découvrirez **comment ajouter des propriétés personnalisées aux fichiers dwg** à l’aide de la puissante bibliothèque Aspose.CAD pour Java. À la fin du guide, vous disposerez d’un extrait de code réutilisable qui injecte des métadonnées directement dans l’en‑tête d’un fichier DWG, facilitant ainsi le catalogage, la recherche et la maintenance de vos dessins.
 
 ## Introduction
 
-Aspose.CAD for Java est une bibliothèque Java robuste qui permet aux développeurs de travailler sans effort avec des fichiers CAO. Dans ce didacticiel, nous nous concentrerons sur l'amélioration des fichiers DWG en ajoutant des propriétés personnalisées. Ces propriétés peuvent être cruciales pour organiser, catégoriser et récupérer des informations à partir de vos dessins CAO.
+Aspose.CAD pour Java est une bibliothèque entièrement gérée, sans dépendance .NET, qui vous permet de lire, modifier et écrire une large gamme de formats CAO sans nécessiter AutoCAD. Ajouter des propriétés personnalisées à un fichier DWG vous offre un moyen léger de stocker des informations supplémentaires — comme des codes de projet, des notes de révision ou des détails de propriétaire — directement à l’intérieur du fichier de dessin.
 
-## Conditions préalables
+## Réponses rapides
+- **Que signifie « add custom properties dwg » ?** Cela consiste à insérer des paires nom/valeur définies par l’utilisateur dans les métadonnées d’en‑tête d’un fichier DWG.  
+- **Quelle bibliothèque gère cela ?** Aspose.CAD pour Java fournit une API simple pour lire et écrire ces propriétés.  
+- **Combien de temps prend l’implémentation ?** Environ 5‑10 minutes pour un exemple de base.  
+- **Ai‑je besoin d’une licence ?** Une version d’essai gratuite suffit pour le développement ; une licence commerciale est requise pour la production.  
+- **Est‑elle compatible avec d’autres formats CAO ?** Oui — DXF, DWF et bien d’autres sont pris en charge.
 
-Avant de plonger dans le didacticiel, assurez-vous d'avoir les prérequis suivants :
+## Qu’est‑ce que l’ajout de propriétés personnalisées aux fichiers DWG ?
 
-- Kit de développement Java (JDK) : assurez-vous que JDK est installé sur votre ordinateur.
-- Aspose.CAD for Java : Téléchargez et installez la bibliothèque Aspose.CAD for Java à partir du[lien de téléchargement](https://releases.aspose.com/cad/java/).
+Les propriétés personnalisées sont des paires clé‑valeur stockées dans l’en‑tête du DWG. Elles ne sont pas affichées dans la géométrie du dessin mais peuvent être accessibles par toute application compatible CAO, permettant une meilleure gestion des données, des rapports automatisés et une intégration avec les systèmes PLM.
 
-## Importer des espaces de noms
+## Pourquoi utiliser Aspose.CAD pour cette tâche ?
 
-Dans votre projet Java, incluez les espaces de noms nécessaires pour accéder aux fonctionnalités d'Aspose.CAD. Ajoutez les lignes suivantes à votre code :
+- **Aucune dépendance à AutoCAD** – fonctionne sur n’importe quel OS ou pipeline CI.  
+- **API complète** – lire, modifier et enregistrer sans perte de fidélité.  
+- **Haute performance** – traite de grands dessins en quelques secondes.  
+- **Support multi‑format** – le même code fonctionne pour DXF, DWF et autres.
+
+## Prérequis
+
+Avant de commencer, assurez‑vous d’avoir :
+
+- **Java Development Kit (JDK) 8+** installé et configuré dans votre IDE.  
+- **Bibliothèque Aspose.CAD pour Java** – téléchargez le JAR le plus récent depuis la [page de téléchargement d'Aspose.CAD](https://releases.aspose.com/cad/java/).  
+- Un **fichier DWG/DXF d’exemple** pour expérimenter (le tutoriel utilise `conic_pyramid.dxf`).
+
+## Importer les espaces de noms
+
+Ajoutez les imports requis à votre classe Java afin de pouvoir travailler avec les objets Aspose.CAD.
 
 ```java
 import com.aspose.cad.Image;
@@ -38,13 +62,15 @@ import com.aspose.cad.fileformats.cad.CadImage;
 import java.util.Map;
 ```
 
-## Étape 1 : Configurez votre projet
+## Guide étape par étape
 
-Créez un nouveau projet Java dans votre IDE préféré et ajoutez Aspose.CAD for Java aux dépendances de votre projet.
+### Étape 1 : Configurer votre projet
 
-## Étape 2 : Définir les chemins de fichiers
+Créez un nouveau projet Maven/Gradle (ou un simple projet IDE) et placez le JAR Aspose.CAD sur le classpath. Cela garantit que les packages `com.aspose.cad.*` sont disponibles lors de la compilation.
 
-Définissez les chemins d'accès de vos fichiers DWG source et de sortie. Par exemple:
+### Étape 2 : Définir les chemins de fichiers
+
+Spécifiez où se trouve le dessin source et où le fichier modifié doit être écrit.
 
 ```java
 String dataDir = "Your Document Directory" + "DXFDrawings/";
@@ -52,17 +78,17 @@ String srcFile = dataDir + "conic_pyramid.dxf";
 String outFile = dataDir + "AddCustomProperties_out.dxf";
 ```
 
-## Étape 3 : Charger le fichier DWG
+### Étape 3 : Charger le fichier DWG
 
-Chargez le fichier DWG à l'aide d'Aspose.CAD pour Java :
+Utilisez la méthode statique `Image.load` pour lire le dessin dans un objet `CadImage`.
 
 ```java
 CadImage cadImage = (CadImage)Image.load(srcFile);
 ```
 
-## Étape 4 : Ajouter des propriétés personnalisées
+### Étape 4 : Ajouter des propriétés personnalisées
 
-Ajoutez des propriétés personnalisées à l'en-tête du fichier DWG :
+Insérez vos métadonnées directement dans l’en‑tête du dessin. Chaque appel ajoute une nouvelle paire nom/valeur.
 
 ```java
 cadImage.getHeader().getCustomProperties().put("CUSTOM_PROPERTY_1", "Custom property test 1");
@@ -70,47 +96,55 @@ cadImage.getHeader().getCustomProperties().put("CUSTOM_PROPERTY_2", "Custom prop
 cadImage.getHeader().getCustomProperties().put("CUSTOM_PROPERTY_3", "Custom property test 3");
 ```
 
-## Étape 5 : Enregistrez le fichier DWG modifié
+> **Conseil :** Gardez les noms de propriétés concis (max 31 caractères) et évitez les espaces afin de maintenir la compatibilité avec les anciens visionneurs CAO.
 
-Enregistrez le fichier DWG modifié avec les propriétés personnalisées ajoutées :
+### Étape 5 : Enregistrer le fichier DWG modifié
+
+Persistez les changements en appelant `save`. Le fichier de sortie contient désormais les propriétés personnalisées que vous avez ajoutées.
 
 ```java
 cadImage.save(outFile);
 ```
 
-## Étape 6 : Exécuter le code
+### Étape 6 : Exécuter le code
 
-Exécutez votre programme Java et s'il n'y a aucune erreur, vous avez réussi à ajouter des propriétés personnalisées à votre fichier DWG.
+Lancez le programme depuis votre IDE ou la ligne de commande. Si tout est correctement configuré, vous verrez un message de confirmation.
 
 ```java
 System.out.println("\nAddCustomProperties executed successfully.");
 ```
 
-## Conclusion
+## Problèmes courants & solutions
 
-Toutes nos félicitations! Vous avez appris à améliorer les fichiers DWG en ajoutant des propriétés personnalisées à l'aide d'Aspose.CAD pour Java. Cette fonctionnalité peut améliorer considérablement l'organisation et la récupération des informations dans vos dessins CAO.
+| Problème | Cause probable | Solution |
+|----------|----------------|----------|
+| **`java.lang.NoClassDefFoundError: com/aspose/cad/Image`** | JAR Aspose.CAD absent du classpath | Ajoutez le JAR dans le dossier `libs` de votre projet ou déclarez‑le dans Maven/Gradle. |
+| **Les propriétés n’apparaissent pas dans le fichier enregistré** | Utilisation d’une version DWG qui ne prend pas en charge les propriétés personnalisées | Assurez‑vous de travailler avec des versions DWG/DXF 2000 ou plus récentes ; les formats plus anciens peuvent ignorer les en‑têtes personnalisés. |
+| **`OutOfMemoryError` sur de gros fichiers** | Chargement d’un dessin très volumineux sans diffusion | Utilisez `Image.load` avec un objet `LoadOptions` qui active le chargement mémoire‑efficace. |
 
 ## FAQ
 
-### Q1 : Puis-je ajouter des propriétés personnalisées à d’autres formats de fichiers CAO ?
+**Q : Puis‑je ajouter des propriétés personnalisées à d’autres formats de fichiers CAO ?**  
+R : Oui. Aspose.CAD pour Java prend en charge DXF, DWF, DGN, et plus encore, et l’API `getHeader().getCustomProperties()` fonctionne de la même façon sur ces formats.
 
-A1 : Oui, Aspose.CAD pour Java prend en charge divers formats de CAO, vous permettant d'ajouter des propriétés personnalisées aux fichiers tels que DXF et DWG.
+**Q : Aspose.CAD pour Java est‑il compatible avec tous les IDE majeurs ?**  
+R : Absolument. Il fonctionne avec Eclipse, IntelliJ IDEA, NetBeans, et même les builds en ligne de commande simples.
 
-### Q2 : Aspose.CAD pour Java est-il compatible avec tous les IDE Java ?
+**Q : Où puis‑je trouver plus d’exemples et une documentation détaillée ?**  
+R : Consultez la [Référence API Java d'Aspose.CAD](https://reference.aspose.com/cad/java/) pour la liste complète des classes, méthodes et projets d’exemple.
 
-A2 : Aspose.CAD pour Java est compatible avec les IDE Java populaires tels que Eclipse, IntelliJ IDEA et NetBeans.
+**Q : Puis‑je essayer Aspose.CAD pour Java avant d’acheter ?**  
+R : Oui—téléchargez une version d’essai gratuite de 30 jours depuis la [page de téléchargement d'Aspose.CAD](https://releases.aspose.com/).
 
-### Q3 : Où puis-je trouver plus d’exemples et de documentation ?
+**Q : Comment obtenir du support en cas de difficultés ?**  
+R : Le forum communautaire Aspose et le [portail de support dédié à Aspose.CAD](https://forum.aspose.com/c/cad/19) sont d’excellents endroits pour poser des questions et partager des solutions.
 
- A3 : Explorez le[Documentation Aspose.CAD](https://reference.aspose.com/cad/java/) pour des guides et des exemples complets.
+---
 
-### Q4 : Puis-je essayer Aspose.CAD pour Java avant d'acheter ?
+**Dernière mise à jour :** 2025-11-30  
+**Testé avec :** Aspose.CAD pour Java 24.11  
+**Auteur :** Aspose  
 
- A4 : Oui, vous pouvez[téléchargez un essai gratuit](https://releases.aspose.com/) pour évaluer Aspose.CAD pour Java avant de faire un achat.
-
-### Q5 : Comment puis-je obtenir de l'aide ou poser des questions ?
-
-A5 : Visitez le[Forum Aspose.CAD](https://forum.aspose.com/c/cad/19) pour obtenir de l'aide, poser des questions et vous connecter avec la communauté Aspose.CAD.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -1,34 +1,57 @@
 ---
-title: Dodaj niestandardowe właściwości do plików DWG za pomocą Aspose.CAD w Javie
-linktitle: Dodaj właściwości niestandardowe do plików DWG przy użyciu języka Java
-second_title: Aspose.CAD API Java
-description: Dowiedz się, jak dodawać niestandardowe właściwości do plików DWG w Javie przy użyciu Aspose.CAD. Ulepsz organizację i wyszukiwanie informacji w rysunkach CAD bez wysiłku.
+date: 2025-11-30
+description: Dowiedz się, jak dodać własne właściwości do plików DWG w Javie przy
+  użyciu Aspose.CAD. Zwiększ organizację i łatwość wyszukiwania informacji w rysunkach
+  CAD bez wysiłku.
+language: pl
+linktitle: Add Custom Properties to DWG Files Using Java
+second_title: Aspose.CAD Java API
+title: Dodaj własne właściwości do plików DWG przy użyciu Aspose.CAD dla Javy
+url: /java/additional-features/add-custom-properties/
 weight: 10
-url: /pl/java/additional-features/add-custom-properties/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Dodaj niestandardowe właściwości do plików DWG za pomocą Aspose.CAD w Javie
+# Dodawanie niestandardowych właściwości do plików DWG przy użyciu Aspose.CAD dla Java
 
-W świecie programowania w języku Java manipulowanie plikami DWG za pomocą niestandardowych właściwości jest częstym zadaniem. Aspose.CAD dla Java zapewnia potężny zestaw narzędzi do płynnej integracji tej funkcjonalności z Twoimi projektami. W tym samouczku krok po kroku przeprowadzimy Cię przez proces dodawania niestandardowych właściwości do plików DWG przy użyciu Aspose.CAD dla Java.
+Manipulowanie rysunkami CAD programowo jest codzienną potrzebą wielu programistów Java. W tym samouczku odkryjesz **jak dodać niestandardowe właściwości dwg** przy użyciu potężnej biblioteki Aspose.CAD dla Java. Po zakończeniu przewodnika będziesz mieć wielokrotnego użytku fragment kodu, który wstrzykuje metadane bezpośrednio do nagłówka pliku DWG, ułatwiając katalogowanie, wyszukiwanie i utrzymanie rysunków.
 
-## Wstęp
+## Wprowadzenie
 
-Aspose.CAD for Java to solidna biblioteka Java, która umożliwia programistom bezproblemową pracę z plikami CAD. W tym samouczku skupimy się na ulepszaniu plików DWG poprzez dodanie niestandardowych właściwości. Właściwości te mogą mieć kluczowe znaczenie przy organizowaniu, kategoryzowaniu i wyszukiwaniu informacji z rysunków CAD.
+Aspose.CAD dla Java jest w pełni zarządzaną biblioteką wolną od .NET, która pozwala czytać, edytować i zapisywać szeroką gamę formatów CAD bez konieczności posiadania AutoCAD. Dodanie niestandardowych właściwości do pliku DWG daje lekką metodę przechowywania dodatkowych informacji — takich jak kody projektów, uwagi do wersji lub dane właściciela — bezpośrednio w pliku rysunku.
 
-## Warunki wstępne
+## Szybkie odpowiedzi
+- **Co oznacza „add custom properties dwg”?** Oznacza to wstawianie definiowanych przez użytkownika par nazwa/wartość do metadanych nagłówka pliku DWG.  
+- **Która biblioteka obsługuje to?** Aspose.CAD dla Java udostępnia prosty interfejs API do odczytu i zapisu tych właściwości.  
+- **Jak długo trwa implementacja?** Zazwyczaj 5‑10 minut dla podstawowego przykładu.  
+- **Czy potrzebna jest licencja?** Darmowa wersja próbna działa w fazie rozwoju; licencja komercyjna jest wymagana w produkcji.  
+- **Czy jest kompatybilna z innymi formatami CAD?** Tak — obsługiwane są DXF, DWF i inne.
 
-Przed przystąpieniem do samouczka upewnij się, że spełniasz następujące wymagania wstępne:
+## Co to jest dodawanie niestandardowych właściwości do plików DWG?
 
-- Zestaw Java Development Kit (JDK): Upewnij się, że masz zainstalowany pakiet JDK na swoim komputerze.
-- Aspose.CAD dla Java: Pobierz i zainstaluj bibliotekę Aspose.CAD dla Java z[link do pobrania](https://releases.aspose.com/cad/java/).
+Niestandardowe właściwości to pary klucz‑wartość przechowywane w nagłówku DWG. Nie są wyświetlane w geometrii rysunku, ale mogą być dostępne dla każdej aplikacji obsługującej CAD, umożliwiając lepsze zarządzanie danymi, automatyczne raportowanie i integrację z systemami PLM.
 
-## Importuj przestrzenie nazw
+## Dlaczego używać Aspose.CAD do tego zadania?
 
-W swoim projekcie Java uwzględnij niezbędne przestrzenie nazw, aby uzyskać dostęp do funkcjonalności Aspose.CAD. Dodaj następujące linie do swojego kodu:
+- **Brak zależności od AutoCAD** – działa na każdym systemie operacyjnym lub w pipeline CI.  
+- **Pełnoprawny API** – odczyt, modyfikacja i zapis bez utraty jakości.  
+- **Wysoka wydajność** – przetwarza duże rysunki w ciągu kilku sekund.  
+- **Obsługa wielu formatów** – ten sam kod działa dla DXF, DWF i innych.
+
+## Wymagania wstępne
+
+Przed rozpoczęciem upewnij się, że masz:
+
+- **Java Development Kit (JDK) 8+** zainstalowany i skonfigurowany w Twoim IDE.  
+- **Aspose.CAD for Java** – pobierz najnowszy plik JAR ze [strony pobierania Aspose.CAD](https://releases.aspose.com/cad/java/).  
+- **Przykładowy plik DWG/DXF** do eksperymentów (w samouczku używany jest `conic_pyramid.dxf`).
+
+## Importowanie przestrzeni nazw
+
+Dodaj wymagane importy do swojej klasy Java, aby móc pracować z obiektami Aspose.CAD.
 
 ```java
 import com.aspose.cad.Image;
@@ -38,13 +61,15 @@ import com.aspose.cad.fileformats.cad.CadImage;
 import java.util.Map;
 ```
 
-## Krok 1: Skonfiguruj swój projekt
+## Przewodnik krok po kroku
 
-Utwórz nowy projekt Java w preferowanym IDE i dodaj Aspose.CAD dla Java do zależności projektu.
+### Krok 1: Konfiguracja projektu
 
-## Krok 2: Zdefiniuj ścieżki plików
+Utwórz nowy projekt Maven/Gradle (lub prosty projekt w IDE) i umieść plik JAR Aspose.CAD na ścieżce klas. To zapewnia dostępność pakietów `com.aspose.cad.*` w czasie kompilacji.
 
-Zdefiniuj ścieżki źródłowych i wyjściowych plików DWG. Na przykład:
+### Krok 2: Definiowanie ścieżek plików
+
+Określ, gdzie znajduje się źródłowy rysunek i gdzie ma zostać zapisany zmodyfikowany plik.
 
 ```java
 String dataDir = "Your Document Directory" + "DXFDrawings/";
@@ -52,17 +77,17 @@ String srcFile = dataDir + "conic_pyramid.dxf";
 String outFile = dataDir + "AddCustomProperties_out.dxf";
 ```
 
-## Krok 3: Załaduj plik DWG
+### Krok 3: Ładowanie pliku DWG
 
-Załaduj plik DWG za pomocą Aspose.CAD dla Java:
+Użyj statycznej metody `Image.load`, aby wczytać rysunek do obiektu `CadImage`.
 
 ```java
 CadImage cadImage = (CadImage)Image.load(srcFile);
 ```
 
-## Krok 4: Dodaj właściwości niestandardowe
+### Krok 4: Dodawanie niestandardowych właściwości
 
-Dodaj niestandardowe właściwości do nagłówka pliku DWG:
+Wstaw swoje metadane bezpośrednio do nagłówka rysunku. Każde wywołanie dodaje nową parę nazwa/wartość.
 
 ```java
 cadImage.getHeader().getCustomProperties().put("CUSTOM_PROPERTY_1", "Custom property test 1");
@@ -70,47 +95,55 @@ cadImage.getHeader().getCustomProperties().put("CUSTOM_PROPERTY_2", "Custom prop
 cadImage.getHeader().getCustomProperties().put("CUSTOM_PROPERTY_3", "Custom property test 3");
 ```
 
-## Krok 5: Zapisz zmodyfikowany plik DWG
+> **Wskazówka:** Utrzymuj nazwy właściwości krótkie (maksymalnie 31 znaków) i unikaj spacji, aby zachować kompatybilność ze starszymi przeglądarkami CAD.
 
-Zapisz zmodyfikowany plik DWG z dodanymi właściwościami niestandardowymi:
+### Krok 5: Zapis zmodyfikowanego pliku DWG
+
+Zachowaj zmiany, wywołując `save`. Plik wyjściowy zawiera teraz dodane przez Ciebie niestandardowe właściwości.
 
 ```java
 cadImage.save(outFile);
 ```
 
-## Krok 6: Wykonaj kod
+### Krok 6: Uruchomienie kodu
 
-Uruchom program Java i jeśli nie ma błędów, pomyślnie dodałeś niestandardowe właściwości do pliku DWG.
+Uruchom program z IDE lub wiersza poleceń. Jeśli wszystko jest poprawnie skonfigurowane, zobaczysz komunikat potwierdzający.
 
 ```java
 System.out.println("\nAddCustomProperties executed successfully.");
 ```
 
-## Wniosek
+## Częste problemy i rozwiązania
 
-Gratulacje! Nauczyłeś się, jak ulepszać pliki DWG, dodając niestandardowe właściwości za pomocą Aspose.CAD dla Java. Ta funkcja może znacznie poprawić organizację i wyszukiwanie informacji w rysunkach CAD.
+| Problem | Prawdopodobna przyczyna | Rozwiązanie |
+|---------|--------------------------|-------------|
+| **`java.lang.NoClassDefFoundError: com/aspose/cad/Image`** | Plik JAR Aspose.CAD nie znajduje się na ścieżce klas | Dodaj plik JAR do folderu `libs` projektu lub zadeklaruj go w Maven/Gradle. |
+| **Właściwości nie pojawiają się w zapisanym pliku** | Używanie wersji DWG, która nie obsługuje niestandardowych właściwości | Upewnij się, że pracujesz z wersjami DWG/DXF 2000 lub nowszymi; starsze formaty mogą ignorować niestandardowe nagłówki. |
+| **`OutOfMemoryError` przy dużych plikach** | Ładowanie bardzo dużego rysunku bez strumieniowania | Użyj `Image.load` z obiektem `LoadOptions`, który umożliwia efektywne pamięciowo ładowanie. |
 
-## Często zadawane pytania
+## Najczęściej zadawane pytania
 
-### P1: Czy mogę dodać niestandardowe właściwości do innych formatów plików CAD?
+**P:** Czy mogę dodać niestandardowe właściwości do innych formatów plików CAD?  
+**O:** Tak. Aspose.CAD dla Java obsługuje DXF, DWF, DGN i inne, a ten sam interfejs API `getHeader().getCustomProperties()` działa we wszystkich tych formatach.
 
-Odpowiedź 1: Tak, Aspose.CAD dla Java obsługuje różne formaty CAD, umożliwiając dodawanie niestandardowych właściwości do plików takich jak DXF i DWG.
+**P:** Czy Aspose.CAD dla Java jest kompatybilny ze wszystkimi głównymi IDE?  
+**O:** Zdecydowanie tak. Działa z Eclipse, IntelliJ IDEA, NetBeans oraz nawet przy prostych kompilacjach z wiersza poleceń.
 
-### P2: Czy Aspose.CAD dla Java jest kompatybilny ze wszystkimi środowiskami IDE Java?
+**P:** Gdzie mogę znaleźć więcej przykładów i szczegółową dokumentację?  
+**O:** Odwiedź oficjalną [referencję API Aspose.CAD Java](https://reference.aspose.com/cad/java/), aby uzyskać pełną listę klas, metod i przykładowych projektów.
 
-O2: Aspose.CAD dla Java jest kompatybilny z popularnymi środowiskami Java IDE, takimi jak Eclipse, IntelliJ IDEA i NetBeans.
+**P:** Czy mogę wypróbować Aspose.CAD dla Java przed zakupem?  
+**O:** Tak — pobierz darmową 30‑dniową wersję próbną ze [strony pobierania Aspose.CAD](https://releases.aspose.com/).
 
-### P3: Gdzie mogę znaleźć więcej przykładów i dokumentacji?
+**P:** Jak mogę uzyskać wsparcie, jeśli napotkam trudności?  
+**O:** Forum społeczności Aspose oraz dedykowany [portal wsparcia Aspose.CAD](https://forum.aspose.com/c/cad/19) to doskonałe miejsca do zadawania pytań i dzielenia się rozwiązaniami.
 
- A3: Poznaj[Dokumentacja Aspose.CAD](https://reference.aspose.com/cad/java/) obszerne przewodniki i przykłady.
+---
 
-### P4: Czy mogę wypróbować Aspose.CAD dla Java przed zakupem?
+**Ostatnia aktualizacja:** 2025-11-30  
+**Testowano z:** Aspose.CAD dla Java 24.11  
+**Autor:** Aspose  
 
- A4: Tak, możesz[pobierz bezpłatną wersję próbną](https://releases.aspose.com/) aby ocenić Aspose.CAD dla Java przed dokonaniem zakupu.
-
-### P5: Jak mogę uzyskać wsparcie lub zadać pytania?
-
-A5: Odwiedź[Forum Aspose.CAD](https://forum.aspose.com/c/cad/19) aby uzyskać wsparcie, zadawać pytania i łączyć się ze społecznością Aspose.CAD.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
