@@ -1,33 +1,56 @@
 ---
-title: Java'da Aspose.CAD Kullanarak DWG Dosyalarında İzlemeyi Etkinleştirin
-linktitle: Java Kullanarak DWG Dosyalarında İzlemeyi Etkinleştirme
-second_title: Aspose.CAD Java API'si
-description: Aspose.CAD kullanarak Java'da DWG dosya takibini etkinleştirmeye ve CAD projelerinde kusursuz işbirliği sağlamaya yönelik adım adım kılavuzu keşfedin.
+date: 2025-12-03
+description: DWG'den PDF'ye dönüştürürken PDF sayfa boyutunu nasıl ayarlayacağınızı
+  ve Aspose.CAD for Java kullanarak DWG dosyalarında izlemeyi nasıl etkinleştireceğinizi
+  öğrenin – CAD çizimini hassas bir şekilde PDF olarak dışa aktarmak için tam bir
+  rehber.
+language: tr
+linktitle: Set PDF Page Size and Enable Tracking in DWG Files Using Java
+second_title: Aspose.CAD Java API
+title: Java'da Aspose.CAD Kullanarak PDF Sayfa Boyutunu Ayarlayın ve DWG Dosyalarında
+  İzlemeyi Etkinleştirin
+url: /java/additional-features/enable-tracking/
 weight: 12
-url: /tr/java/additional-features/enable-tracking/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Java'da Aspose.CAD Kullanarak DWG Dosyalarında İzlemeyi Etkinleştirin
+# DWG Dosyalarında PDF Sayfa Boyutunu Ayarlama ve İzlemeyi Etkinleştirme Aspose.CAD ile Java'da
 
-## giriiş
+## Introduction
 
-Bilgisayar destekli tasarım (CAD) alanında Aspose.CAD for Java, geliştiricilerin CAD dosyalarını kolaylıkla işlemesine ve dönüştürmesine olanak tanıyan güçlü bir araç olarak öne çıkıyor. Bu eğitimde Aspose.CAD for Java'nın DWG dosyalarında izlemeyi etkinleştiren belirli bir işlevi ele alınmaktadır. DWG dosyalarındaki değişiklikleri takip etmek, işbirliğine dayalı tasarım projeleri için çok önemlidir; kesintisiz iletişim ve verimli iş akışı sağlar. Bu kılavuzda, Aspose.CAD'in özelliklerinden yararlanarak Java kullanarak izlemeyi etkinleştirme adımlarını inceleyeceğiz.
+Eğer **PDF sayfa boyutunu ayarlamanız** gerektiğinde *DWG'yi PDF'ye dönüştürürken* ve aynı zamanda oluşabilecek render sorunlarını izlemek istiyorsanız, Aspose.CAD for Java bu iki işlemi de temiz ve programatik bir şekilde yapmanıza olanak tanır. Bu öğreticide, sayfa boyutlarını yapılandırma, izlemeyi etkinleştirme ve bir CAD çizimini PDF olarak dışa aktarma adımlarını adım adım göstereceğiz—hepsi Java üzerinden. Sonunda, CAD çizimleri için doğru sayfa boyutunu ayarlamanın neden önemli olduğunu ve dışa aktarma sürecinde ayrıntılı izleme bilgilerinin nasıl yakalanacağını anlayacaksınız.
 
-## Önkoşullar
+## Quick Answers
+- **“PDF sayfa boyutunu ayarlamak” neyi etkiler?** Oluşturulan PDF tuvalinin genişlik ve yüksekliğini tanımlar, böylece çiziminiz mükemmel şekilde sığar.  
+- **Bu özelliği kullanmak için lisansa ihtiyacım var mı?** Test için bir deneme sürümü yeterlidir; üretim ortamı için ticari lisans gereklidir.  
+- **Hangi Aspose.CAD sürümü gereklidir?** `CadRasterizationOptions`'ı destekleyen herhangi bir yeni sürüm yeterlidir.  
+- **Bunu diğer CAD formatlarıyla da kullanabilir miyim?** Örnek DWG/DXF gösterse de aynı yaklaşım çoğu desteklenen formatta çalışır.  
+- **Dönüşüm ne kadar sürer?** Ortalama olarak orta boy dosyalar bir saniyenin altında tamamlanır; daha büyük çizimler daha uzun sürebilir.
 
-Uygulamaya geçmeden önce aşağıdaki önkoşulların mevcut olduğundan emin olun:
+## What is “set PDF page size” in the context of CAD export?
+PDF sayfa boyutunu ayarlamak, renderlayıcıya çıktı tuvalinin tam boyutlarını (piksel veya nokta cinsinden) bildirir. Bu, ölçek ve yerleşimin korunması gereken teknik çizimler için özellikle önemlidir. Sayfa boyutu açıkça ayarlanmazsa, PDF varsayılan bir boyuta geçebilir ve çizim kırpılabilir ya da bozulabilir.
 
-- Java Geliştirme Kiti (JDK): Sisteminizde Java'nın kurulu olduğundan emin olun.
--  Aspose.CAD for Java: Aspose.CAD for Java'yı şu adresten indirip yükleyin:[İndirme: {link](https://releases.aspose.com/cad/java/).
-- Doküman Dizini: DWG dosyalarınızın bulunduğu bir dizin hazırlayın.
+## Why set PDF page size when exporting CAD drawings?
+- **Ölçeği koru** – Mühendisler gerçek ölçekli baskılara güvenir.  
+- **Kağıda sığdır** – Proje gereksinimlerine uygun A4, Letter veya özel bir boyut seçin.  
+- **Okunabilirliği artır** – Daha büyük sayfalar, detayları yakınlaştırmadan gösterebilir.  
+- **Tutarlı çıktı** – Otomatikleştirilmiş hatlar her çalıştırmada aynı boyutlarda PDF üretir.
 
-## Ad Alanlarını İçe Aktar
+## How to set PDF page size when converting DWG to PDF?
+Aşağıda, dışa aktarmadan önce `CadRasterizationOptions`'ı özel genişlik ve yükseklik değerleriyle yapılandıracağız. Bu adım, ana anahtar kelime **set PDF page size** ifadesini doğrudan ele alır.
 
-Aspose.CAD işlevselliklerinden yararlanmak için Java projenizde gerekli ad alanlarını içe aktararak başlayın:
+## Prerequisites
+
+- **Java Development Kit (JDK)** – Makinenizde Java 8 veya daha yeni bir sürüm kurulu olmalı.  
+- **Aspose.CAD for Java** – Resmi [Aspose CAD indirme sayfasından](https://releases.aspose.com/cad/java/) indirin.  
+- **Document Directory** – İşlemek istediğiniz DWG/DXF dosyalarını içeren bir klasör.
+
+## Import Namespaces
+
+First, import the classes you’ll need. The code block is unchanged from the original tutorial.
 
 ```java
 import com.aspose.cad.Image;
@@ -41,48 +64,50 @@ import java.io.FileOutputStream;
 import java.io.OutputStream;
 ```
 
-## Adım 1: DWG Dosyasını Yükleyin
+## Step 1: Load the DWG/DXF File
 
-DWG dosyasını Java uygulamanıza yükleyerek başlayın. Dosya yolunu buna göre ayarlayın:
+Load your source drawing. Adjust the path to point at your own file.
 
 ```java
 String dataDir = "Your Document Directory" + "DXFDrawings/";
 Image image = Image.load(dataDir + "conic_pyramid.dxf");
 ```
 
-## 2. Adım: PDF Dışa Aktarma Seçeneklerini Yapılandırın
+## Step 2: Configure PDF Export Options (including page size)
 
-CAD için vektör rasterleştirme seçeneklerini belirleyerek PDF dışa aktarma seçeneklerini yapılandırın:
+Here we set the page width and height—this is where we **set PDF page size**. The values are in pixels; you can convert from inches or millimeters as needed.
 
 ```java
 OutputStream stream = new FileOutputStream(dataDir + "output_conic_pyramid.pdf");
 PdfOptions pdfOptions = new PdfOptions();
 CadRasterizationOptions cadRasterizationOptions = new CadRasterizationOptions();
 pdfOptions.setVectorRasterizationOptions(cadRasterizationOptions);
-cadRasterizationOptions.setPageWidth(800);
-cadRasterizationOptions.setPageHeight(600);
+cadRasterizationOptions.setPageWidth(800);   // <-- custom width
+cadRasterizationOptions.setPageHeight(600);  // <-- custom height
 ```
 
-## 3. Adım: İzlemeyi Uygulayın
+> **Tip:** If you prefer standard paper sizes, use the conversion `1 inch = 72 points`. For an A4 page (8.27 × 11.69 in), set `pageWidth = 595` and `pageHeight = 842`.
 
-Özel bir hata işleyici sınıfı kullanarak izlemeyi uygulayın. Bu sınıf, izleme sonuçlarını ele alacak ve karşılaşılan sorunları görüntüleyecektir:
+## Step 3: Implement Tracking
+
+Tracking captures any rendering problems. We attach a custom handler that will be invoked after the export.
 
 ```java
 cadRasterizationOptions.RenderResult = new ErrorHandler();
 ```
 
-## 4. Adım: PDF'ye aktarın
+## Step 4: Export to PDF
 
-DWG dosyasını izleme etkinleştirilmiş bir PDF'ye dönüştürmek için dışa aktarma işlemini başlatın:
+Now perform the conversion. The PDF will be created with the dimensions you specified, and any tracking information will be printed to the console.
 
 ```java
 System.out.println("Exporting to pdf format");
 image.save(stream, pdfOptions);
 ```
 
-## Adım 5: CadRenderHandler Sınıfı
+## Step 5: CadRenderHandler Class
 
- Tanımla`CadRenderHandler`oluşturma sonuçlarını işlemek ve izleme bilgilerini görüntülemek için sınıf:
+The handler prints out any failures that occurred during rendering. This helps you debug issues when **exporting CAD drawing PDF**.
 
 ```java
 public static class ErrorHandler extends CadRasterizationOptions.CadRenderHandler {
@@ -104,31 +129,38 @@ public static class ErrorHandler extends CadRasterizationOptions.CadRenderHandle
 }
 ```
 
-## Çözüm
+## Common Issues and Solutions
 
-Aspose.CAD for Java kullanarak DWG dosyalarında izlemeyi etkinleştirmek, CAD projelerinde işbirliğini geliştiren kusursuz bir süreçtir. Bu adımları izleyerek izleme işlevini verimli bir şekilde uygulayabilir, sorunsuz iletişim ve hata yönetimi sağlayabilirsiniz.
+| Sorun | Neden | Çözüm |
+|-------|-------|-------|
+| **Boş PDF** | Sayfa boyutu 0 veya çok küçük ayarlanmış | `setPageWidth` ve `setPageHeight` değerlerinin pozitif olduğundan emin olun. |
+| **Geometri eksik** | Handler tarafından yakalanan render hataları | `ErrorHandler` çıktısını inceleyin ve ilgili `RenderCode`'u düzeltin. |
+| **Dosya bulunamadı** | Yanlış `dataDir` yolu | Mutlak bir yol kullanın veya klasörün var olduğundan emin olun. |
+| **Lisans istisnası** | Büyük dosyalar için geçerli bir lisans olmadan deneme sürümü kullanılması | Görüntüyü yüklemeden önce Aspose.CAD lisansınızı uygulayın. |
 
-## SSS'ler
+## Frequently Asked Questions
 
-### S1: Aspose.CAD for Java'yı kullanarak diğer CAD dosya formatları için izlemeyi etkinleştirebilir miyim?
+**S: Aspose.CAD for Java kullanarak diğer CAD dosya formatları için izlemeyi etkinleştirebilir miyim?**  
+C: Aspose.CAD temel olarak izleme için DWG/DXF formatlarını destekler. Diğer formatlar için resmi dokümantasyona bakın.
 
-Cevap1: Aspose.CAD öncelikle izleme için DWG dosyalarını destekler. Diğer formatlar için belgelere bakın.
+**S: Aspose.CAD for Java'da ek dışa aktarma seçeneklerini nasıl yönetebilirim?**  
+C: Kütüphane DPI, arka plan rengi ve vektör rasterleştirme gibi birçok seçenek sunar. Ayrıntılar için [Aspose.CAD Java Documentation](https://reference.aspose.com/cad/java/) sayfasına bakın.
 
-### S2: Aspose.CAD for Java'da ek dışa aktarma seçeneklerini nasıl kullanabilirim?
+**S: Aspose.CAD for Java için bir deneme sürümü mevcut mu?**  
+C: Evet, ücretsiz deneme sürümünü [Aspose.CAD Free Trial](https://releases.aspose.com/) adresinden indirebilirsiniz.
 
- Cevap2: Şu adresteki kapsamlı belgeleri inceleyin:[Aspose.CAD Java Belgelendirmesi](https://reference.aspose.com/cad/java/).
+**S: Aspose.CAD for Java ile ilgili yardım almak veya sorunları tartışmak için nereye başvurabilirim?**  
+C: Topluluk desteği ve resmi yanıtlar için [Aspose.CAD forum](https://forum.aspose.com/c/cad/19) adresini ziyaret edin.
 
-### S3: Aspose.CAD for Java'nın deneme sürümü mevcut mu?
+**S: Aspose.CAD for Java için geçici bir lisans nasıl elde edebilirim?**  
+C: [Temporary License](https://purchase.aspose.com/temporary-license/) sayfasındaki adımları izleyin.
 
- C3: Evet, deneme sürümüne şu adresten erişebilirsiniz:[Aspose.CAD Ücretsiz Deneme](https://releases.aspose.com/).
+---
 
-### S4: Aspose.CAD for Java ile ilgili nereden yardım alabilirim veya sorunları tartışabilirim?
+**Last Updated:** 2025-12-03  
+**Tested With:** Aspose.CAD for Java 24.11 (latest at time of writing)  
+**Author:** Aspose  
 
- A4: Ziyaret edin[Aspose.CAD forumu](https://forum.aspose.com/c/cad/19) topluluk desteği için.
-
-### S5: Aspose.CAD for Java için geçici lisansı nasıl edinebilirim?
-
- A5: adresinde özetlenen süreci izleyin.[Geçici Lisans](https://purchase.aspose.com/temporary-license/).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

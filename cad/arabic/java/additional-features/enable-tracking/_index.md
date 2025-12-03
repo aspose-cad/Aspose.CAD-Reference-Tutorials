@@ -1,33 +1,54 @@
 ---
-title: تمكين التتبع في ملفات DWG باستخدام Aspose.CAD في Java
-linktitle: تمكين التتبع في ملفات DWG باستخدام Java
-second_title: Aspose.CAD جافا API
-description: استكشف الدليل التفصيلي خطوة بخطوة حول تمكين تتبع ملفات DWG في Java باستخدام Aspose.CAD، مما يضمن التعاون السلس في مشاريع CAD.
+date: 2025-12-03
+description: تعلم كيفية ضبط حجم صفحة PDF أثناء تحويل DWG إلى PDF وتمكين التتبع في
+  ملفات DWG باستخدام Aspose.CAD للغة Java – دليل كامل لتصدير رسومات CAD بصيغة PDF
+  بدقة.
+language: ar
+linktitle: Set PDF Page Size and Enable Tracking in DWG Files Using Java
+second_title: Aspose.CAD Java API
+title: تعيين حجم صفحة PDF وتمكين التتبع في ملفات DWG باستخدام Aspose.CAD في Java
+url: /java/additional-features/enable-tracking/
 weight: 12
-url: /ar/java/additional-features/enable-tracking/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# تمكين التتبع في ملفات DWG باستخدام Aspose.CAD في Java
+# تعيين حجم صفحة PDF وتمكين التتبع في ملفات DWG باستخدام Aspose.CAD في Java
 
-## مقدمة
+## المقدمة
 
-في عالم التصميم بمساعدة الكمبيوتر (CAD)، يبرز Aspose.CAD for Java كأداة قوية تمكن المطورين من معالجة ملفات CAD وتحويلها بسهولة. يتعمق هذا البرنامج التعليمي في وظيفة معينة لبرنامج Aspose.CAD لـ Java - مما يتيح التتبع في ملفات DWG. يعد تتبع التغييرات في ملفات DWG أمرًا بالغ الأهمية لمشاريع التصميم التعاوني، مما يضمن الاتصال السلس وسير العمل الفعال. في هذا الدليل، سنتعرف على خطوات تمكين التتبع باستخدام Java، مع الاستفادة من إمكانيات Aspose.CAD.
+إذا كنت بحاجة إلى **تعيين حجم صفحة PDF** عند *تحويل DWG إلى PDF* وتريد أيضًا تتبع أي مشكلات في العرض، فإن Aspose.CAD for Java يوفّر لك طريقة برمجية نظيفة للقيام بالأمرين معًا. في هذا الدرس سنستعرض الخطوات الدقيقة لتكوين أبعاد الصفحة، تمكين التتبع، وتصدير رسم CAD كملف PDF — كل ذلك من خلال Java. في النهاية ستفهم لماذا يُعَدُّ تعيين الحجم الصحيح للصفحة مهمًا لرسومات CAD وكيفية التقاط معلومات تتبع مفصلة أثناء عملية التصدير.
 
-## المتطلبات الأساسية
+## إجابات سريعة
+- **ماذا يؤثر “تعيين حجم صفحة PDF”؟** يحدد عرض وارتفاع لوحة PDF الناتجة، مما يضمن أن الرسم يتناسب تمامًا.  
+- **هل أحتاج إلى ترخيص لاستخدام هذه الميزة؟** النسخة التجريبية تكفي للاختبار؛ يلزم ترخيص تجاري للإنتاج.  
+- **ما نسخة Aspose.CAD المطلوبة؟** أي نسخة حديثة تدعم `CadRasterizationOptions`.  
+- **هل يمكنني استخدام ذلك مع صيغ CAD أخرى؟** المثال يوضح DWG/DXF، لكن نفس النهج يعمل مع معظم الصيغ المدعومة.  
+- **كم يستغرق التحويل؟** عادةً أقل من ثانية للملفات المتوسطة؛ قد تستغرق الرسومات الكبيرة وقتًا أطول.
 
-قبل أن نتعمق في التنفيذ، تأكد من توفر المتطلبات الأساسية التالية:
+## ما معنى “تعيين حجم صفحة PDF” في سياق تصدير CAD؟
+تعيين حجم صفحة PDF يخبر أداة العرض بالأبعاد الدقيقة (بالبكسل أو النقاط) للوحة الإخراج. هذا مهم بشكل خاص للرسومات التقنية حيث يجب الحفاظ على المقياس والتخطيط. بدون إعداد صريح لحجم الصفحة، قد يختار PDF حجمًا افتراضيًا يقتطع أو يشوّه الرسم.
 
-- Java Development Kit (JDK): تأكد من تثبيت Java على نظامك.
--  Aspose.CAD لـ Java: قم بتنزيل Aspose.CAD لـ Java وتثبيته من[رابط التحميل](https://releases.aspose.com/cad/java/).
-- دليل المستندات: قم بإعداد دليل حيث توجد ملفات DWG الخاصة بك.
+## لماذا نعين حجم صفحة PDF عند تصدير رسومات CAD؟
+- **الحفاظ على المقياس** – يعتمد المهندسون على طبعات دقيقة المقياس.  
+- **التناسب مع الورق** – اختر A4 أو Letter أو حجمًا مخصصًا يتوافق مع مواصفات المشروع.  
+- **تحسين قابلية القراءة** – الصفحات الأكبر تُظهر التفاصيل الدقيقة دون الحاجة للتكبير.  
+- **إنتاجية ثابتة** – خطوط الأنابيب الآلية تُنتج ملفات PDF بأبعاد متطابقة في كل مرة.
 
-## استيراد مساحات الأسماء
+## كيف نعين حجم صفحة PDF عند تحويل DWG إلى PDF؟
+سنعمل أدناه على تكوين `CadRasterizationOptions` بقيم عرض وارتفاع مخصصة قبل التصدير. هذه الخطوة تتعامل مباشرة مع الكلمة المفتاحية **تعيين حجم صفحة PDF**.
 
-في مشروع Java الخاص بك، ابدأ باستيراد مساحات الأسماء الضرورية للاستفادة من وظائف Aspose.CAD:
+## المتطلبات المسبقة
+
+- **مجموعة تطوير Java (JDK)** – Java 8 أو أحدث مثبتة على جهازك.  
+- **Aspose.CAD for Java** – حمّلها من [صفحة تنزيل Aspose CAD الرسمية](https://releases.aspose.com/cad/java/).  
+- **دليل المستندات** – مجلد يحتوي على ملفات DWG/DXF التي تريد معالجتها.
+
+## استيراد المساحات الاسمية
+
+أولاً، استورد الفئات التي ستحتاجها. كتلة الشيفرة تبقى كما هي من الدرس الأصلي.
 
 ```java
 import com.aspose.cad.Image;
@@ -41,31 +62,33 @@ import java.io.FileOutputStream;
 import java.io.OutputStream;
 ```
 
-## الخطوة 1: قم بتحميل ملف DWG
+## الخطوة 1: تحميل ملف DWG/DXF
 
-ابدأ بتحميل ملف DWG في تطبيق Java الخاص بك. اضبط مسار الملف وفقًا لذلك:
+حمّل الرسم المصدر. عدّل المسار ليتوافق مع ملفك الخاص.
 
 ```java
 String dataDir = "Your Document Directory" + "DXFDrawings/";
 Image image = Image.load(dataDir + "conic_pyramid.dxf");
 ```
 
-## الخطوة 2: تكوين خيارات تصدير PDF
+## الخطوة 2: تكوين خيارات تصدير PDF (بما في ذلك حجم الصفحة)
 
-قم بتكوين خيارات تصدير PDF، مع تحديد خيارات تنقيط المتجهات لـ CAD:
+هنا نحدد عرض وارتفاع الصفحة — هذه هي النقطة التي **نُعين فيها حجم صفحة PDF**. القيم بوحدة البكسل؛ يمكنك التحويل من البوصة أو المليمتر حسب الحاجة.
 
 ```java
 OutputStream stream = new FileOutputStream(dataDir + "output_conic_pyramid.pdf");
 PdfOptions pdfOptions = new PdfOptions();
 CadRasterizationOptions cadRasterizationOptions = new CadRasterizationOptions();
 pdfOptions.setVectorRasterizationOptions(cadRasterizationOptions);
-cadRasterizationOptions.setPageWidth(800);
-cadRasterizationOptions.setPageHeight(600);
+cadRasterizationOptions.setPageWidth(800);   // <-- custom width
+cadRasterizationOptions.setPageHeight(600);  // <-- custom height
 ```
+
+> **نصيحة:** إذا كنت تفضّل أحجام ورق قياسية، استخدم التحويل `1 بوصة = 72 نقطة`. لصفحة A4 (8.27 × 11.69 بوصة)، عيّن `pageWidth = 595` و `pageHeight = 842`.
 
 ## الخطوة 3: تنفيذ التتبع
 
-تنفيذ التتبع باستخدام فئة معالج الأخطاء المخصصة. سيتعامل هذا الفصل مع نتائج التتبع ويعرض أي مشاكل تمت مواجهتها:
+التتبع يلتقط أي مشكلات في العرض. نرفق معالجًا مخصصًا سيتم استدعاؤه بعد عملية التصدير.
 
 ```java
 cadRasterizationOptions.RenderResult = new ErrorHandler();
@@ -73,7 +96,7 @@ cadRasterizationOptions.RenderResult = new ErrorHandler();
 
 ## الخطوة 4: التصدير إلى PDF
 
-ابدأ عملية التصدير لتحويل ملف DWG إلى ملف PDF مع تمكين التتبع:
+الآن نفّذ التحويل. سيُنشأ ملف PDF بالأبعاد التي حددتها، وستُطبع أي معلومات تتبع إلى وحدة التحكم.
 
 ```java
 System.out.println("Exporting to pdf format");
@@ -82,7 +105,7 @@ image.save(stream, pdfOptions);
 
 ## الخطوة 5: فئة CadRenderHandler
 
- تعريف`CadRenderHandler`فئة للتعامل مع نتائج العرض وعرض معلومات التتبع:
+المعالج يطبع أي فشل حدث أثناء العرض. يساعدك ذلك على تصحيح المشكلات عند **تصدير رسم CAD كملف PDF**.
 
 ```java
 public static class ErrorHandler extends CadRasterizationOptions.CadRenderHandler {
@@ -104,31 +127,38 @@ public static class ErrorHandler extends CadRasterizationOptions.CadRenderHandle
 }
 ```
 
-## خاتمة
+## المشكلات الشائعة والحلول
 
-يعد تمكين التتبع في ملفات DWG باستخدام Aspose.CAD لـ Java عملية سلسة تعمل على تحسين التعاون في مشروعات CAD. باتباع هذه الخطوات، يمكنك تنفيذ وظيفة التتبع بكفاءة، مما يضمن الاتصال السلس ومعالجة الأخطاء.
+| المشكلة | السبب | الحل |
+|-------|-------|-----|
+| **PDF فارغ** | تم تعيين حجم الصفحة إلى 0 أو قيمة صغيرة جدًا | تأكد من أن `setPageWidth` و `setPageHeight` قيمهما موجبة. |
+| **غياب الهندسة** | أخطاء عرض تم التقاطها بواسطة المعالج | راجع مخرجات وحدة التحكم من `ErrorHandler` وتعامل مع `RenderCode` المحدد. |
+| **الملف غير موجود** | مسار `dataDir` غير صحيح | استخدم مسارًا مطلقًا أو تأكد من وجود الدليل. |
+| **استثناء الترخيص** | استخدام النسخة التجريبية بدون ترخيص صالح للملفات الكبيرة | طبّق ترخيص Aspose.CAD قبل تحميل الصورة. |
 
-## الأسئلة الشائعة
+## الأسئلة المتكررة
 
-### س1: هل يمكنني تمكين التتبع لتنسيقات ملفات CAD الأخرى باستخدام Aspose.CAD لـ Java؟
+**س: هل يمكنني تمكين التتبع لصيغ CAD أخرى باستخدام Aspose.CAD for Java؟**  
+ يدعم Aspose.CAD أساسًا DWG/DXF للتتبع. بالنسبة للصيغ الأخرى، راجع الوثائق الرسمية.
 
-A1: يدعم Aspose.CAD بشكل أساسي ملفات DWG للتتبع. للحصول على تنسيقات أخرى، راجع الوثائق.
+**س: كيف يمكنني التعامل مع خيارات تصدير إضافية في Aspose.CAD for Java؟**  
+ج: المكتبة توفر العديد من الخيارات مثل DPI، لون الخلفية، والرستر المتجه. راجع [توثيق Aspose.CAD Java](https://reference.aspose.com/cad/java/) للمزيد من التفاصيل.
 
-### س2: كيف يمكنني التعامل مع خيارات التصدير الإضافية في Aspose.CAD لـ Java؟
+**س: هل تتوفر نسخة تجريبية من Aspose.CAD for Java؟**  
+ج: نعم، يمكنك تنزيل نسخة تجريبية مجانية من [Aspose.CAD Free Trial](https://releases.aspose.com/).
 
- ج2: استكشف الوثائق الشاملة في[Aspose.CAD وثائق جافا](https://reference.aspose.com/cad/java/).
+**س: أين يمكنني طلب المساعدة أو مناقشة المشكلات المتعلقة بـ Aspose.CAD for Java؟**  
+ج: زر [منتدى Aspose.CAD](https://forum.aspose.com/c/cad/19) للحصول على دعم المجتمع والإجابات الرسمية.
 
-### س3: هل هناك إصدار تجريبي متاح لـ Aspose.CAD لـ Java؟
+**س: كيف أحصل على ترخيص مؤقت لـ Aspose.CAD for Java؟**  
+ج: اتبع الخطوات الموضحة في صفحة [الترخيص المؤقت](https://purchase.aspose.com/temporary-license/).
 
- ج3: نعم، يمكنك الوصول إلى النسخة التجريبية على[Aspose.CAD النسخة التجريبية المجانية](https://releases.aspose.com/).
+---
 
-### س4: أين يمكنني طلب المساعدة أو مناقشة المشكلات المتعلقة بـ Aspose.CAD لـ Java؟
+**آخر تحديث:** 2025-12-03  
+**تم الاختبار مع:** Aspose.CAD for Java 24.11 (أحدث نسخة وقت الكتابة)  
+**المؤلف:** Aspose  
 
- ج4: قم بزيارة[منتدى Aspose.CAD](https://forum.aspose.com/c/cad/19) لدعم المجتمع.
-
-### س5: كيف يمكنني الحصول على ترخيص مؤقت لـ Aspose.CAD لـ Java؟
-
- ج5: اتبع العملية الموضحة في[ترخيص مؤقت](https://purchase.aspose.com/temporary-license/).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

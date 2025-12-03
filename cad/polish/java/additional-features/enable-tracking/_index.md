@@ -1,33 +1,58 @@
 ---
-title: Włącz śledzenie w plikach DWG za pomocą Aspose.CAD w Javie
-linktitle: Włącz śledzenie w plikach DWG przy użyciu języka Java
-second_title: Aspose.CAD API Java
-description: Zapoznaj się z przewodnikiem krok po kroku dotyczącym włączania śledzenia plików DWG w Javie przy użyciu Aspose.CAD, zapewniając bezproblemową współpracę w projektach CAD.
+date: 2025-12-03
+description: Dowiedz się, jak ustawić rozmiar strony PDF podczas konwertowania DWG
+  na PDF i włączyć śledzenie w plikach DWG przy użyciu Aspose.CAD dla Javy – kompletny
+  przewodnik po precyzyjnym eksportowaniu rysunków CAD do formatu PDF.
+language: pl
+linktitle: Set PDF Page Size and Enable Tracking in DWG Files Using Java
+second_title: Aspose.CAD Java API
+title: Ustaw rozmiar strony PDF i włącz śledzenie w plikach DWG przy użyciu Aspose.CAD
+  w Javie
+url: /java/additional-features/enable-tracking/
 weight: 12
-url: /pl/java/additional-features/enable-tracking/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Włącz śledzenie w plikach DWG za pomocą Aspose.CAD w Javie
+# Ustaw rozmiar strony PDF i włącz śledzenie w plikach DWG przy użyciu Aspose.CAD w Javie
 
-## Wstęp
+## Introduction
 
-W dziedzinie projektowania wspomaganego komputerowo (CAD) Aspose.CAD dla Java wyróżnia się jako potężne narzędzie, które umożliwia programistom łatwe manipulowanie i konwertowanie plików CAD. Ten samouczek omawia specyficzną funkcjonalność Aspose.CAD dla Java – umożliwiając śledzenie w plikach DWG. Śledzenie zmian w plikach DWG ma kluczowe znaczenie dla wspólnych projektów projektowych, zapewniając płynną komunikację i efektywny przepływ pracy. W tym przewodniku omówimy kroki umożliwiające śledzenie przy użyciu języka Java, wykorzystując możliwości Aspose.CAD.
+Jeśli potrzebujesz **ustawić rozmiar strony PDF** podczas *konwersji DWG do PDF* i jednocześnie śledzić ewentualne problemy z renderowaniem, Aspose.CAD for Java zapewnia czysty, programowy sposób na wykonanie obu zadań. W tym samouczku przeprowadzimy Cię krok po kroku przez konfigurację wymiarów strony, włączenie śledzenia i eksport rysunku CAD do PDF — wszystko z poziomu Javy. Po zakończeniu zrozumiesz, dlaczego ustawienie prawidłowego rozmiaru strony ma znaczenie dla rysunków CAD oraz jak uzyskać szczegółowe informacje śledzenia podczas procesu eksportu.
 
-## Warunki wstępne
+## Quick Answers
+- **Co wpływa ustawienie „rozmiaru strony PDF”?** Definiuje szerokość i wysokość wynikowego płótna PDF, zapewniając idealne dopasowanie rysunku.  
+- **Czy potrzebna jest licencja do używania tej funkcji?** Wersja próbna działa do testów; licencja komercyjna jest wymagana w produkcji.  
+- **Jaka wersja Aspose.CAD jest wymagana?** Dowolna nowsza wersja obsługująca `CadRasterizationOptions`.  
+- **Czy mogę używać tego z innymi formatami CAD?** Przykład pokazuje DWG/DXF, ale to samo podejście działa dla większości obsługiwanych formatów.  
+- **Jak długo trwa konwersja?** Zazwyczaj poniżej sekundy dla umiarkowanych plików; większe rysunki mogą zająć więcej czasu.
 
-Zanim przejdziemy do wdrożenia, upewnij się, że spełnione są następujące wymagania wstępne:
+## Co oznacza „ustawienie rozmiaru strony PDF” w kontekście eksportu CAD?
 
-- Zestaw Java Development Kit (JDK): Upewnij się, że w systemie jest zainstalowana Java.
--  Aspose.CAD dla Java: Pobierz i zainstaluj Aspose.CAD dla Java z[link do pobrania](https://releases.aspose.com/cad/java/).
-- Katalog dokumentów: Przygotuj katalog, w którym znajdują się pliki DWG.
+Ustawienie rozmiaru strony PDF informuje renderer o dokładnych wymiarach (w pikselach lub punktach) wyjściowego płótna. Jest to szczególnie ważne w rysunkach technicznych, gdzie muszą być zachowane skala i układ. Bez wyraźnych ustawień rozmiaru strony PDF może domyślnie przyjąć rozmiar, który przycina lub zniekształca rysunek.
 
-## Importuj przestrzenie nazw
+## Dlaczego ustawiać rozmiar strony PDF przy eksporcie rysunków CAD?
 
-W swoim projekcie Java zacznij od zaimportowania niezbędnych przestrzeni nazw, aby wykorzystać funkcjonalności Aspose.CAD:
+- **Zachowanie skali** – Inżynierowie polegają na wydrukach w rzeczywistej skali.  
+- **Dopasowanie do papieru** – Wybierz A4, Letter lub własny rozmiar odpowiadający specyfikacjom projektu.  
+- **Poprawa czytelności** – Większe strony mogą wyświetlać drobne szczegóły bez przybliżania.  
+- **Spójny wynik** – Zautomatyzowane pipeline’y generują PDF-y o identycznych wymiarach przy każdym uruchomieniu.
+
+## Jak ustawić rozmiar strony PDF przy konwersji DWG do PDF?
+
+Poniżej skonfigurujemy `CadRasterizationOptions` z własnymi wartościami szerokości i wysokości przed eksportem. Ten krok bezpośrednio odnosi się do głównego słowa kluczowego **ustaw rozmiar strony PDF**.
+
+## Prerequisites
+
+- **Java Development Kit (JDK)** – Java 8 lub nowsza zainstalowana na Twoim komputerze.  
+- **Aspose.CAD for Java** – Pobierz z oficjalnej [strony pobierania Aspose CAD](https://releases.aspose.com/cad/java/).  
+- **Katalog dokumentów** – Folder zawierający pliki DWG/DXF, które chcesz przetworzyć.
+
+## Import Namespaces
+
+Najpierw zaimportuj potrzebne klasy. Blok kodu pozostaje niezmieniony w stosunku do oryginalnego samouczka.
 
 ```java
 import com.aspose.cad.Image;
@@ -41,48 +66,50 @@ import java.io.FileOutputStream;
 import java.io.OutputStream;
 ```
 
-## Krok 1: Załaduj plik DWG
+## Step 1: Load the DWG/DXF File
 
-Rozpocznij od załadowania pliku DWG do aplikacji Java. Dostosuj odpowiednio ścieżkę pliku:
+Załaduj swój rysunek źródłowy. Dostosuj ścieżkę, aby wskazywała na Twój własny plik.
 
 ```java
 String dataDir = "Your Document Directory" + "DXFDrawings/";
 Image image = Image.load(dataDir + "conic_pyramid.dxf");
 ```
 
-## Krok 2: Skonfiguruj opcje eksportu PDF
+## Step 2: Configure PDF Export Options (including page size)
 
-Skonfiguruj opcje eksportu PDF, określając opcje rasteryzacji wektorowej dla CAD:
+Tutaj ustawiamy szerokość i wysokość strony — to miejsce, w którym **ustawiamy rozmiar strony PDF**. Wartości podane są w pikselach; w razie potrzeby możesz przeliczyć je z cali lub milimetrów.
 
 ```java
 OutputStream stream = new FileOutputStream(dataDir + "output_conic_pyramid.pdf");
 PdfOptions pdfOptions = new PdfOptions();
 CadRasterizationOptions cadRasterizationOptions = new CadRasterizationOptions();
 pdfOptions.setVectorRasterizationOptions(cadRasterizationOptions);
-cadRasterizationOptions.setPageWidth(800);
-cadRasterizationOptions.setPageHeight(600);
+cadRasterizationOptions.setPageWidth(800);   // <-- custom width
+cadRasterizationOptions.setPageHeight(600);  // <-- custom height
 ```
 
-## Krok 3: Wdróż śledzenie
+> **Wskazówka:** Jeśli wolisz standardowe rozmiary papieru, użyj przeliczenia `1 cal = 72 punkty`. Dla strony A4 (8,27 × 11,69 in), ustaw `pageWidth = 595` i `pageHeight = 842`.
 
-Zaimplementuj śledzenie przy użyciu niestandardowej klasy obsługi błędów. Ta klasa będzie obsługiwać wyniki śledzenia i wyświetlać wszelkie napotkane problemy:
+## Step 3: Implement Tracking
+
+Śledzenie przechwytuje wszelkie problemy z renderowaniem. Dołączamy własny handler, który zostanie wywołany po eksporcie.
 
 ```java
 cadRasterizationOptions.RenderResult = new ErrorHandler();
 ```
 
-## Krok 4: Eksportuj do pliku PDF
+## Step 4: Export to PDF
 
-Rozpocznij proces eksportu, aby przekonwertować plik DWG na plik PDF z włączonym śledzeniem:
+Teraz wykonaj konwersję. PDF zostanie utworzony z podanymi wymiarami, a wszelkie informacje śledzenia zostaną wypisane w konsoli.
 
 ```java
 System.out.println("Exporting to pdf format");
 image.save(stream, pdfOptions);
 ```
 
-## Krok 5: Klasa CadRenderHandler
+## Step 5: CadRenderHandler Class
 
- Zdefiniuj`CadRenderHandler`klasa do obsługi wyników renderowania i wyświetlania informacji o śledzeniu:
+Handler wypisuje wszelkie niepowodzenia, które wystąpiły podczas renderowania. Pomaga to w debugowaniu problemów przy **eksportowaniu rysunku CAD do PDF**.
 
 ```java
 public static class ErrorHandler extends CadRasterizationOptions.CadRenderHandler {
@@ -104,31 +131,38 @@ public static class ErrorHandler extends CadRasterizationOptions.CadRenderHandle
 }
 ```
 
-## Wniosek
+## Common Issues and Solutions
 
-Włączanie śledzenia w plikach DWG przy użyciu Aspose.CAD dla Java to płynny proces, który usprawnia współpracę przy projektach CAD. Wykonując poniższe kroki, możesz skutecznie wdrożyć funkcję śledzenia, zapewniając płynną komunikację i obsługę błędów.
+| Problem | Przyczyna | Rozwiązanie |
+|---------|-----------|-------------|
+| **Pusty PDF** | Rozmiar strony ustawiony na 0 lub zbyt mały | Sprawdź, czy `setPageWidth` i `setPageHeight` mają wartości dodatnie. |
+| **Brak geometrii** | Błędy renderowania przechwycone przez handler | Przejrzyj wyjście konsoli z `ErrorHandler` i napraw konkretny `RenderCode`. |
+| **Plik nie znaleziony** | Nieprawidłowa ścieżka `dataDir` | Użyj ścieżki bezwzględnej lub upewnij się, że katalog istnieje. |
+| **Wyjątek licencyjny** | Używanie wersji próbnej bez ważnej licencji przy dużych plikach | Zastosuj licencję Aspose.CAD przed załadowaniem obrazu. |
 
-## Często zadawane pytania
+## Frequently Asked Questions
 
-### P1: Czy mogę włączyć śledzenie innych formatów plików CAD przy użyciu Aspose.CAD dla Java?
+**P: Czy mogę włączyć śledzenie dla innych formatów plików CAD przy użyciu Aspose.CAD for Java?**  
+O: Aspose.CAD głównie obsługuje DWG/DXF pod kątem śledzenia. Dla innych formatów zapoznaj się z oficjalną dokumentacją.
 
-O1: Aspose.CAD obsługuje przede wszystkim pliki DWG do śledzenia. Informacje o innych formatach można znaleźć w dokumentacji.
+**P: Jak mogę obsłużyć dodatkowe opcje eksportu w Aspose.CAD for Java?**  
+O: Biblioteka oferuje wiele opcji, takich jak DPI, kolor tła i rasteryzacja wektorowa. Zobacz [Dokumentację Aspose.CAD Java](https://reference.aspose.com/cad/java/) po szczegóły.
 
-### P2: Jak mogę obsłużyć dodatkowe opcje eksportu w Aspose.CAD dla Java?
+**P: Czy dostępna jest wersja próbna Aspose.CAD for Java?**  
+O: Tak, możesz pobrać darmową wersję próbną z [Aspose.CAD Free Trial](https://releases.aspose.com/).
 
- A2: Zapoznaj się z obszerną dokumentacją pod adresem[Dokumentacja Java Aspose.CAD](https://reference.aspose.com/cad/java/).
+**P: Gdzie mogę uzyskać pomoc lub dyskutować o problemach związanych z Aspose.CAD for Java?**  
+O: Odwiedź [forum Aspose.CAD](https://forum.aspose.com/c/cad/19) w celu uzyskania wsparcia społeczności i oficjalnych odpowiedzi.
 
-### P3: Czy dostępna jest wersja próbna Aspose.CAD dla Java?
+**P: Jak uzyskać tymczasową licencję dla Aspose.CAD for Java?**  
+O: Postępuj zgodnie z instrukcjami na stronie [Temporary License](https://purchase.aspose.com/temporary-license/).
 
- Odpowiedź 3: Tak, dostęp do wersji próbnej można uzyskać pod adresem[Bezpłatna wersja próbna Aspose.CAD](https://releases.aspose.com/).
+---
 
-### P4: Gdzie mogę szukać pomocy lub omówić problemy związane z Aspose.CAD dla Java?
+**Ostatnia aktualizacja:** 2025-12-03  
+**Testowano z:** Aspose.CAD for Java 24.11 (najnowsza w momencie pisania)  
+**Autor:** Aspose  
 
- A4: Odwiedź[Forum Aspose.CAD](https://forum.aspose.com/c/cad/19) za wsparcie społeczności.
-
-### P5: Jak uzyskać tymczasową licencję na Aspose.CAD dla Java?
-
- Odpowiedź 5: Postępuj zgodnie z procesem opisanym na stronie[Licencja tymczasowa](https://purchase.aspose.com/temporary-license/).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

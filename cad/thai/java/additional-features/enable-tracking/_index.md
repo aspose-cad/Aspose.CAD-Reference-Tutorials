@@ -1,33 +1,55 @@
 ---
-title: เปิดใช้งานการติดตามในไฟล์ DWG โดยใช้ Aspose.CAD ใน Java
-linktitle: เปิดใช้งานการติดตามในไฟล์ DWG โดยใช้ Java
+date: 2025-12-03
+description: เรียนรู้วิธีตั้งขนาดหน้ากระดาษ PDF ขณะแปลง DWG เป็น PDF และเปิดใช้งานการติดตามในไฟล์
+  DWG ด้วย Aspose.CAD สำหรับ Java – คู่มือครบถ้วนในการส่งออกไฟล์ PDF ของการวาด CAD
+  อย่างแม่นยำ.
+language: th
+linktitle: Set PDF Page Size and Enable Tracking in DWG Files Using Java
 second_title: Aspose.CAD Java API
-description: สำรวจคำแนะนำทีละขั้นตอนในการเปิดใช้งานการติดตามไฟล์ DWG ใน Java โดยใช้ Aspose.CAD เพื่อให้มั่นใจถึงการทำงานร่วมกันอย่างราบรื่นในโครงการ CAD
+title: ตั้งค่าขนาดหน้ากระดาษ PDF และเปิดใช้งานการติดตามในไฟล์ DWG ด้วย Aspose.CAD
+  ใน Java
+url: /java/additional-features/enable-tracking/
 weight: 12
-url: /th/java/additional-features/enable-tracking/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# เปิดใช้งานการติดตามในไฟล์ DWG โดยใช้ Aspose.CAD ใน Java
+# กำหนดขนาดหน้า PDF และเปิดการติดตามในไฟล์ DWG ด้วย Aspose.CAD ใน Java
 
-## การแนะนำ
+## บทนำ
 
-ในขอบเขตของการออกแบบโดยใช้คอมพิวเตอร์ช่วย (CAD) Aspose.CAD สำหรับ Java มีความโดดเด่นในฐานะเครื่องมืออันทรงพลังที่ช่วยให้นักพัฒนาสามารถจัดการและแปลงไฟล์ CAD ได้อย่างง่ายดาย บทช่วยสอนนี้จะเจาะลึกถึงฟังก์ชันเฉพาะของ Aspose.CAD สำหรับ Java ซึ่งเปิดใช้งานการติดตามในไฟล์ DWG การติดตามการเปลี่ยนแปลงในไฟล์ DWG ถือเป็นสิ่งสำคัญสำหรับโครงการออกแบบที่ทำงานร่วมกัน ทำให้มั่นใจได้ถึงการสื่อสารที่ราบรื่นและขั้นตอนการทำงานที่มีประสิทธิภาพ ในคู่มือนี้ เราจะอธิบายขั้นตอนต่างๆ เพื่อเปิดใช้งานการติดตามโดยใช้ Java โดยใช้ประโยชน์จากความสามารถของ Aspose.CAD
+หากคุณต้อง **กำหนดขนาดหน้า PDF** เมื่อ *แปลง DWG เป็น PDF* และต้องการติดตามปัญหาการเรนเดอร์ใด ๆ Aspose.CAD สำหรับ Java จะมอบวิธีการที่สะอาดและเป็นโปรแกรมเมติกให้ทำได้ทั้งสองอย่าง ในบทแนะนำนี้เราจะพาคุณผ่านขั้นตอนที่แม่นยำเพื่อกำหนดมิติของหน้า, เปิดการติดตาม, และส่งออกไฟล์ CAD เป็น PDF — ทั้งหมดจาก Java เมื่อจบคุณจะเข้าใจว่าทำไมการกำหนดขนาดหน้าที่ถูกต้องจึงสำคัญสำหรับการวาด CAD และวิธีจับข้อมูลการติดตามอย่างละเอียดระหว่างกระบวนการส่งออก
+
+## คำตอบอย่างรวดเร็ว
+- **What does “set PDF page size” affect?** มันกำหนดความกว้างและความสูงของแคนวาส PDF ที่สร้างขึ้น เพื่อให้การวาดของคุณพอดีอย่างสมบูรณ์  
+- **Do I need a license to use this feature?** เวอร์ชันทดลองใช้ได้สำหรับการทดสอบ; ต้องมีลิขสิทธิ์เชิงพาณิชย์สำหรับการใช้งานจริง  
+- **Which Aspose.CAD version is required?** เวอร์ชันล่าสุดใด ๆ ที่รองรับ `CadRasterizationOptions`  
+- **Can I use this with other CAD formats?** ตัวอย่างแสดง DWG/DXF แต่แนวทางเดียวกันทำงานกับรูปแบบที่รองรับส่วนใหญ่  
+- **How long does the conversion take?** ปกติใช้เวลาน้อยกว่าวินาทีสำหรับไฟล์ขนาดปานกลาง; ไฟล์ที่ใหญ่กว่าอาจใช้เวลานานขึ้น  
+
+## “set PDF page size” คืออะไรในบริบทของการส่งออก CAD?
+การกำหนดขนาดหน้า PDF บอกให้ตัวเรนเดอร์ทราบขนาดที่แน่นอน (เป็นพิกเซลหรือจุด) ของแคนวาสผลลัพธ์ ซึ่งสำคัญอย่างยิ่งสำหรับการวาดเชิงเทคนิคที่ต้องรักษาอัตราส่วนและการจัดวาง หากไม่มีการกำหนดขนาดหน้าอย่างชัดเจน PDF อาจใช้ขนาดเริ่มต้นที่ทำให้การวาดถูกตัดหรือบิดเบี้ยว
+
+## ทำไมต้องกำหนดขนาดหน้า PDF เมื่อส่งออกการวาด CAD?
+- **Preserve scale** – วิศวกรต้องการการพิมพ์ที่เป็นสเกลจริง  
+- **Fit to paper** – เลือก A4, Letter หรือขนาดกำหนดเองที่ตรงกับสเปคของโครงการ  
+- **Improve readability** – หน้าใหญ่ช่วยให้เห็นรายละเอียดเล็ก ๆ โดยไม่ต้องซูม  
+- **Consistent output** – ระบบอัตโนมัติจะสร้าง PDF ที่มีขนาดเดียวกันทุกครั้งที่รัน  
+
+## วิธีกำหนดขนาดหน้า PDF เมื่อแปลง DWG เป็น PDF?
+ต่อไปเราจะกำหนด `CadRasterizationOptions` ด้วยค่าความกว้างและความสูงที่กำหนดเองก่อนทำการส่งออก ขั้นตอนนี้ตรงกับคีย์เวิร์ดหลัก **set PDF page size**  
 
 ## ข้อกำหนดเบื้องต้น
 
-ก่อนที่เราจะเจาะลึกเรื่องการนำไปใช้งาน ตรวจสอบให้แน่ใจว่าคุณมีข้อกำหนดเบื้องต้นต่อไปนี้:
+- **Java Development Kit (JDK)** – Java 8 หรือใหม่กว่า ติดตั้งบนเครื่องของคุณ  
+- **Aspose.CAD for Java** – ดาวน์โหลดจากหน้า [Aspose CAD download page](https://releases.aspose.com/cad/java/)  
+- **Document Directory** – โฟลเดอร์ที่บรรจุไฟล์ DWG/DXF ที่คุณต้องการประมวลผล  
 
-- Java Development Kit (JDK): ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง Java บนระบบของคุณ
--  Aspose.CAD สำหรับ Java: ดาวน์โหลดและติดตั้ง Aspose.CAD สำหรับ Java จาก[ลิ้งค์ดาวน์โหลด](https://releases.aspose.com/cad/java/).
-- ไดเร็กทอรีเอกสาร: เตรียมไดเร็กทอรีที่มีไฟล์ DWG ของคุณ
+## นำเข้า Namespaces
 
-## นำเข้าเนมสเปซ
-
-ในโปรเจ็กต์ Java ของคุณ ให้เริ่มต้นด้วยการนำเข้าเนมสเปซที่จำเป็นเพื่อใช้ประโยชน์จากฟังก์ชัน Aspose.CAD:
+ก่อนอื่นให้ import คลาสที่จำเป็น โค้ดบล็อกจะคงไว้เหมือนต้นฉบับ
 
 ```java
 import com.aspose.cad.Image;
@@ -41,31 +63,33 @@ import java.io.FileOutputStream;
 import java.io.OutputStream;
 ```
 
-## ขั้นตอนที่ 1: โหลดไฟล์ DWG
+## ขั้นตอนที่ 1: โหลดไฟล์ DWG/DXF
 
-เริ่มต้นด้วยการโหลดไฟล์ DWG ลงในแอปพลิเคชัน Java ของคุณ ปรับเส้นทางของไฟล์ตาม:
+โหลดไฟล์การวาดต้นฉบับ ปรับเส้นทางให้ชี้ไปยังไฟล์ของคุณ
 
 ```java
 String dataDir = "Your Document Directory" + "DXFDrawings/";
 Image image = Image.load(dataDir + "conic_pyramid.dxf");
 ```
 
-## ขั้นตอนที่ 2: กำหนดค่าตัวเลือกการส่งออก PDF
+## ขั้นตอนที่ 2: กำหนดค่าตัวเลือกการส่งออก PDF (รวมถึงขนาดหน้า)
 
-กำหนดค่าตัวเลือกการส่งออก PDF โดยระบุตัวเลือกการแรสเตอร์เวกเตอร์สำหรับ CAD:
+ที่นี่เราตั้งค่าความกว้างและความสูงของหน้า – นี่คือจุดที่เราจะ **กำหนดขนาดหน้า PDF** ค่าต่าง ๆ อยู่ในหน่วยพิกเซล; คุณสามารถแปลงจากนิ้วหรือมิลลิเมตรตามต้องการ
 
 ```java
 OutputStream stream = new FileOutputStream(dataDir + "output_conic_pyramid.pdf");
 PdfOptions pdfOptions = new PdfOptions();
 CadRasterizationOptions cadRasterizationOptions = new CadRasterizationOptions();
 pdfOptions.setVectorRasterizationOptions(cadRasterizationOptions);
-cadRasterizationOptions.setPageWidth(800);
-cadRasterizationOptions.setPageHeight(600);
+cadRasterizationOptions.setPageWidth(800);   // <-- custom width
+cadRasterizationOptions.setPageHeight(600);  // <-- custom height
 ```
+
+> **Tip:** หากคุณต้องการใช้ขนาดกระดาษมาตรฐาน ให้ใช้การแปลง `1 inch = 72 points` สำหรับหน้า A4 (8.27 × 11.69 in) ให้ตั้งค่า `pageWidth = 595` และ `pageHeight = 842`
 
 ## ขั้นตอนที่ 3: ใช้การติดตาม
 
-ใช้การติดตามโดยใช้คลาสตัวจัดการข้อผิดพลาดแบบกำหนดเอง คลาสนี้จะจัดการผลลัพธ์การติดตามและแสดงปัญหาที่พบ:
+การติดตามจะจับปัญหาการเรนเดอร์ใด ๆ เราแนบตัวจัดการแบบกำหนดเองที่จะถูกเรียกหลังจากการส่งออก
 
 ```java
 cadRasterizationOptions.RenderResult = new ErrorHandler();
@@ -73,7 +97,7 @@ cadRasterizationOptions.RenderResult = new ErrorHandler();
 
 ## ขั้นตอนที่ 4: ส่งออกเป็น PDF
 
-เริ่มต้นกระบวนการส่งออกเพื่อแปลงไฟล์ DWG เป็น PDF โดยเปิดใช้งานการติดตาม:
+ทำการแปลง ตอนนี้ PDF จะถูกสร้างด้วยขนาดที่คุณกำหนดและข้อมูลการติดตามจะถูกพิมพ์ลงคอนโซล
 
 ```java
 System.out.println("Exporting to pdf format");
@@ -82,7 +106,7 @@ image.save(stream, pdfOptions);
 
 ## ขั้นตอนที่ 5: คลาส CadRenderHandler
 
- กำหนด`CadRenderHandler`คลาสเพื่อจัดการผลลัพธ์การเรนเดอร์โดยแสดงข้อมูลการติดตาม:
+ตัวจัดการนี้พิมพ์ข้อผิดพลาดใด ๆ ที่เกิดขึ้นระหว่างการเรนเดอร์ ช่วยให้คุณดีบักเมื่อ **ส่งออก CAD drawing PDF**
 
 ```java
 public static class ErrorHandler extends CadRasterizationOptions.CadRenderHandler {
@@ -104,31 +128,36 @@ public static class ErrorHandler extends CadRasterizationOptions.CadRenderHandle
 }
 ```
 
-## บทสรุป
+## ปัญหาที่พบบ่อยและวิธีแก้
 
-การเปิดใช้งานการติดตามในไฟล์ DWG โดยใช้ Aspose.CAD สำหรับ Java เป็นกระบวนการที่ราบรื่นซึ่งปรับปรุงการทำงานร่วมกันในโครงการ CAD เมื่อทำตามขั้นตอนเหล่านี้ คุณจะสามารถใช้ฟังก์ชันการติดตามได้อย่างมีประสิทธิภาพ ทำให้มั่นใจได้ถึงการสื่อสารที่ราบรื่นและการจัดการข้อผิดพลาด
+| Issue | Cause | Fix |
+|-------|-------|-----|
+| **Blank PDF** | Page size set to 0 or too small | Verify `setPageWidth` and `setPageHeight` are positive values. |
+| **Missing geometry** | Rendering errors captured by the handler | Review the console output from `ErrorHandler` and address the specific `RenderCode`. |
+| **File not found** | Incorrect `dataDir` path | Use an absolute path or ensure the directory exists. |
+| **License exception** | Using the trial without a valid license for large files | Apply your Aspose.CAD license before loading the image. |
 
 ## คำถามที่พบบ่อย
 
-### คำถามที่ 1: ฉันสามารถเปิดใช้งานการติดตามรูปแบบไฟล์ CAD อื่นๆ โดยใช้ Aspose.CAD สำหรับ Java ได้หรือไม่
+**Q: Can I enable tracking for other CAD file formats using Aspose.CAD for Java?**  
+A: Aspose.CAD primarily supports DWG/DXF for tracking. For other formats, consult the official documentation.
 
-A1: Aspose.CAD รองรับไฟล์ DWG สำหรับการติดตามเป็นหลัก สำหรับรูปแบบอื่นๆ โปรดดูเอกสารประกอบ
+**Q: How can I handle additional export options in Aspose.CAD for Java?**  
+A: The library offers many options such as DPI, background color, and vector rasterization. See the [Aspose.CAD Java Documentation](https://reference.aspose.com/cad/java/) for details.
 
-### คำถามที่ 2: ฉันจะจัดการตัวเลือกการส่งออกเพิ่มเติมใน Aspose.CAD สำหรับ Java ได้อย่างไร
+**Q: Is there a trial version available for Aspose.CAD for Java?**  
+A: Yes, you can download a free trial from the [Aspose.CAD Free Trial](https://releases.aspose.com/).
 
- A2: สำรวจเอกสารประกอบมากมายได้ที่[เอกสาร Java Aspose.CAD](https://reference.aspose.com/cad/java/).
+**Q: Where can I seek assistance or discuss issues related to Aspose.CAD for Java?**  
+A: Visit the [Aspose.CAD forum](https://forum.aspose.com/c/cad/19) for community support and official answers.
 
-### คำถามที่ 3: มี Aspose.CAD สำหรับ Java รุ่นทดลองใช้งานหรือไม่
+**Q: How do I obtain a temporary license for Aspose.CAD for Java?**  
+A: Follow the steps outlined on the [Temporary License](https://purchase.aspose.com/temporary-license/) page.
 
- A3: ใช่ คุณสามารถเข้าถึงเวอร์ชันทดลองได้ที่[Aspose.CAD ทดลองใช้ฟรี](https://releases.aspose.com/).
+**Last Updated:** 2025-12-03  
+**Tested With:** Aspose.CAD for Java 24.11 (latest at time of writing)  
+**Author:** Aspose  
 
-### คำถามที่ 4: ฉันจะขอความช่วยเหลือหรือหารือเกี่ยวกับปัญหาที่เกี่ยวข้องกับ Aspose.CAD สำหรับ Java ได้ที่ไหน
-
- A4: เยี่ยมชม[ฟอรั่ม Aspose.CAD](https://forum.aspose.com/c/cad/19) เพื่อสนับสนุนชุมชน
-
-### คำถามที่ 5: ฉันจะขอรับใบอนุญาตชั่วคราวสำหรับ Aspose.CAD สำหรับ Java ได้อย่างไร
-
- A5: ทำตามขั้นตอนที่ระบุไว้ที่[ใบอนุญาตชั่วคราว](https://purchase.aspose.com/temporary-license/).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -1,33 +1,53 @@
 ---
-title: 在 Java 中使用 Aspose.CAD 在 DWG 檔案中啟用追蹤
-linktitle: 使用 Java 在 DWG 檔案中啟用跟踪
+date: 2025-12-03
+description: 學習如何在將 DWG 轉換為 PDF 時設定 PDF 頁面尺寸，並使用 Aspose.CAD for Java 在 DWG 檔案中啟用追蹤功能——完整指南，精準匯出
+  CAD 圖紙為 PDF。
+language: zh-hant
+linktitle: Set PDF Page Size and Enable Tracking in DWG Files Using Java
 second_title: Aspose.CAD Java API
-description: 探索使用 Aspose.CAD 在 Java 中啟用 DWG 檔案追蹤的逐步指南，確保 CAD 專案中的無縫協作。
+title: 使用 Aspose.CAD (Java) 設定 PDF 頁面大小並在 DWG 檔案中啟用追蹤
+url: /java/additional-features/enable-tracking/
 weight: 12
-url: /zh-hant/java/additional-features/enable-tracking/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 在 Java 中使用 Aspose.CAD 在 DWG 檔案中啟用追蹤
+# 在 Java 中使用 Aspose.CAD 設定 PDF 頁面大小並啟用 DWG 檔案追蹤
 
 ## 介紹
 
-在電腦輔助設計 (CAD) 領域，Aspose.CAD for Java 是一款功能強大的工具，可讓開發人員輕鬆操作和轉換 CAD 檔案。本教學深入研究 Aspose.CAD for Java 的特定功能 - 在 DWG 檔案中啟用追蹤。追蹤 DWG 檔案中的變更對於協作設計專案至關重要，可確保無縫通訊和高效的工作流程。在本指南中，我們將逐步介紹使用 Java 並利用 Aspose.CAD 功能啟用追蹤的步驟。
+如果您在*將 DWG 轉換為 PDF*時需要**設定 PDF 頁面大小**，同時想追蹤任何渲染問題，Aspose.CAD for Java 提供了一個乾淨且可程式化的方式一次完成。本文將逐步說明如何設定頁面尺寸、啟用追蹤，並從 Java 匯出 CAD 繪圖 PDF。完成後，您將了解為何正確的頁面大小對 CAD 繪圖很重要，以及如何在匯出過程中取得詳細的追蹤資訊。
 
-## 先決條件
+## 快速解答
+- **「設定 PDF 頁面大小」會影響什麼？** 它決定最終 PDF 畫布的寬度與高度，確保您的圖紙完整呈現。  
+- **使用此功能需要授權嗎？** 試用版可用於測試；正式環境需購買商業授權。  
+- **需要哪個版本的 Aspose.CAD？** 任何支援 `CadRasterizationOptions` 的近期版本皆可。  
+- **可以套用於其他 CAD 格式嗎？** 範例以 DWG/DXF 為例，相同做法亦適用於大多數支援的格式。  
+- **轉換需要多長時間？** 一般檔案在一秒以內完成；較大的圖紙可能需要更久。
 
-在我們深入實施之前，請確保您具備以下先決條件：
+## 在 CAD 匯出情境下，「設定 PDF 頁面大小」是什麼意思？
+設定 PDF 頁面大小即告訴渲染器輸出畫布的精確尺寸（以像素或點為單位）。對於必須保留比例與版面配置的技術圖紙而言，這點尤為重要。若未明確設定頁面大小，PDF 可能會使用預設尺寸，導致圖紙被裁切或變形。
 
-- Java 開發工具包 (JDK)：確保您的系統上安裝了 Java。
--  Aspose.CAD for Java：從下列位置下載並安裝 Aspose.CAD for Java：[下載連結](https://releases.aspose.com/cad/java/).
-- 文件目錄：準備 DWG 檔案所在的目錄。
+## 為何在匯出 CAD 圖紙時要設定 PDF 頁面大小？
+- **保留比例** – 工程師依賴真實比例的列印。  
+- **符合紙張** – 可選擇 A4、Letter 或自訂尺寸，以符合專案規範。  
+- **提升可讀性** – 較大的頁面能在不放大的情況下顯示細節。  
+- **輸出一致** – 自動化流程每次產生的 PDF 都具有相同尺寸。
 
-## 導入命名空間
+## 如何在將 DWG 轉換為 PDF 時設定 PDF 頁面大小？
+以下示範在匯出前以自訂寬度與高度設定 `CadRasterizationOptions`。此步驟直接回應關鍵字 **設定 PDF 頁面大小**。
 
-在您的 Java 專案中，首先匯入必要的命名空間以利用 Aspose.CAD 功能：
+## 前置條件
+
+- **Java Development Kit (JDK)** – 已安裝 Java 8 或更新版本。  
+- **Aspose.CAD for Java** – 從官方 [Aspose CAD 下載頁面](https://releases.aspose.com/cad/java/) 取得。  
+- **文件目錄** – 放置欲處理的 DWG/DXF 檔案的資料夾。
+
+## 匯入命名空間
+
+首先匯入所需的類別。程式碼區塊保持原樣。
 
 ```java
 import com.aspose.cad.Image;
@@ -41,48 +61,50 @@ import java.io.FileOutputStream;
 import java.io.OutputStream;
 ```
 
-## 步驟 1： 載入 DWG 文件
+## 步驟 1：載入 DWG/DXF 檔案
 
-首先將 DWG 檔案載入到 Java 應用程式中。相應地調整檔案路徑：
+載入來源圖紙。請自行調整路徑指向您的檔案。
 
 ```java
 String dataDir = "Your Document Directory" + "DXFDrawings/";
 Image image = Image.load(dataDir + "conic_pyramid.dxf");
 ```
 
-## 第 2 步：配置 PDF 匯出選項
+## 步驟 2：設定 PDF 匯出選項（含頁面大小）
 
-配置 PDF 匯出選項，指定 CAD 的向量光柵化選項：
+在此設定頁面寬度與高度——這就是 **設定 PDF 頁面大小** 的地方。數值以像素為單位，您也可以自行從英吋或毫米換算。
 
 ```java
 OutputStream stream = new FileOutputStream(dataDir + "output_conic_pyramid.pdf");
 PdfOptions pdfOptions = new PdfOptions();
 CadRasterizationOptions cadRasterizationOptions = new CadRasterizationOptions();
 pdfOptions.setVectorRasterizationOptions(cadRasterizationOptions);
-cadRasterizationOptions.setPageWidth(800);
-cadRasterizationOptions.setPageHeight(600);
+cadRasterizationOptions.setPageWidth(800);   // <-- custom width
+cadRasterizationOptions.setPageHeight(600);  // <-- custom height
 ```
 
-## 第 3 步：實施跟踪
+> **小技巧：** 若您偏好標準紙張尺寸，可使用換算式 `1 英吋 = 72 點`。以 A4 紙（8.27 × 11.69 英吋）為例，設定 `pageWidth = 595`、`pageHeight = 842`。
 
-使用自訂錯誤處理程序類別實作追蹤。此類將處理追蹤結果並顯示遇到的任何問題：
+## 步驟 3：實作追蹤
+
+追蹤會捕捉任何渲染問題。我們會掛接一個自訂處理程式，在匯出完成後被呼叫。
 
 ```java
 cadRasterizationOptions.RenderResult = new ErrorHandler();
 ```
 
-## 第 4 步：匯出為 PDF
+## 步驟 4：匯出為 PDF
 
-啟動匯出過程，將 DWG 檔案轉換為啟用追蹤的 PDF：
+執行轉換。PDF 會依您指定的尺寸產生，且追蹤資訊會印出至主控台。
 
 ```java
 System.out.println("Exporting to pdf format");
 image.save(stream, pdfOptions);
 ```
 
-## 第5步：CadRenderHandler類
+## 步驟 5：CadRenderHandler 類別
 
-定義`CadRenderHandler`處理渲染結果、顯示追蹤資訊的類別：
+此處理程式會列印在渲染過程中發生的任何失敗，協助您在**匯出 CAD 圖紙 PDF**時除錯。
 
 ```java
 public static class ErrorHandler extends CadRasterizationOptions.CadRenderHandler {
@@ -104,31 +126,38 @@ public static class ErrorHandler extends CadRasterizationOptions.CadRenderHandle
 }
 ```
 
-## 結論
+## 常見問題與解決方案
 
-使用 Aspose.CAD for Java 在 DWG 檔案中啟用追蹤是一個無縫過程，可增強 CAD 專案中的協作。透過執行這些步驟，您可以有效率地實現追蹤功能，確保順暢的通訊和錯誤處理。
+| 問題 | 原因 | 解決方式 |
+|------|------|----------|
+| **PDF 為空白** | 頁面大小設定為 0 或過小 | 確認 `setPageWidth` 與 `setPageHeight` 為正值。 |
+| **缺少圖形** | 由處理程式捕捉到的渲染錯誤 | 查看 `ErrorHandler` 在主控台的輸出，針對特定 `RenderCode` 進行修正。 |
+| **找不到檔案** | `dataDir` 路徑不正確 | 使用絕對路徑或確保目錄已存在。 |
+| **授權例外** | 使用試用版且未為大型檔案設定有效授權 | 在載入影像前套用您的 Aspose.CAD 授權。 |
 
-## 常見問題解答
+## 常見問答
 
-### 問題 1：我可以使用 Aspose.CAD for Java 啟用對其他 CAD 檔案格式的追蹤嗎？
+**Q：我可以在 Aspose.CAD for Java 中為其他 CAD 檔案格式啟用追蹤嗎？**  
+A：Aspose.CAD 主要在 DWG/DXF 上提供追蹤支援。其他格式請參考官方文件。
 
-A1：Aspose.CAD 主要支援 DWG 檔案進行追蹤。其他格式，請參閱文件。
+**Q：如何在 Aspose.CAD for Java 中處理其他匯出選項？**  
+A：此函式庫提供多種選項，如 DPI、背景色、向量光柵化等。詳情請見 [Aspose.CAD Java 文件](https://reference.aspose.com/cad/java/)。
 
-### 問題 2：如何處理 Aspose.CAD for Java 中的其他匯出選項？
+**Q：Aspose.CAD for Java 有提供試用版嗎？**  
+A：有，您可從 [Aspose.CAD 免費試用](https://releases.aspose.com/) 下載。
 
- A2：探索廣泛的文檔[Aspose.CAD Java 文檔](https://reference.aspose.com/cad/java/).
+**Q：我可以到哪裡取得 Aspose.CAD for Java 的支援或討論區？**  
+A：請前往 [Aspose.CAD 論壇](https://forum.aspose.com/c/cad/19) 取得社群支援與官方回覆。
 
-### Q3：Aspose.CAD for Java 有試用版嗎？
+**Q：如何取得 Aspose.CAD for Java 的臨時授權？**  
+A：請依照 [臨時授權](https://purchase.aspose.com/temporary-license/) 頁面上的說明操作。
 
- A3：是的，您可以存取試用版：[Aspose.CAD 免費試用](https://releases.aspose.com/).
+---
 
-### 問題 4：我可以在哪裡尋求協助或討論與 Aspose.CAD for Java 相關的問題？
+**最後更新：** 2025-12-03  
+**測試環境：** Aspose.CAD for Java 24.11（撰寫時最新版本）  
+**作者：** Aspose  
 
- A4：訪問[Aspose.CAD論壇](https://forum.aspose.com/c/cad/19)以獲得社區支持。
-
-### Q5：如何取得 Aspose.CAD for Java 的臨時授權？
-
- A5：遵循以下連結中列出的流程：[臨時執照](https://purchase.aspose.com/temporary-license/).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

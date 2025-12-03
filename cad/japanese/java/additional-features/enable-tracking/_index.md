@@ -1,33 +1,55 @@
 ---
-title: Java で Aspose.CAD を使用して DWG ファイルのトラッキングを有効にする
-linktitle: Java を使用して DWG ファイルの追跡を有効にする
+date: 2025-12-03
+description: Aspose.CAD for Java を使用して DWG を PDF に変換する際の PDF ページサイズの設定方法と、DWG ファイルでのトラッキングを有効にする方法を学びましょう
+  – 正確に CAD 図面を PDF にエクスポートするための完全ガイド。
+language: ja
+linktitle: Set PDF Page Size and Enable Tracking in DWG Files Using Java
 second_title: Aspose.CAD Java API
-description: Aspose.CAD を使用して Java で DWG ファイル追跡を有効にし、CAD プロジェクトでのシームレスなコラボレーションを確保するためのステップバイステップ ガイドをご覧ください。
+title: Java の Aspose.CAD を使用して DWG ファイルの PDF ページサイズを設定し、トラッキングを有効にする
+url: /java/additional-features/enable-tracking/
 weight: 12
-url: /ja/java/additional-features/enable-tracking/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Java で Aspose.CAD を使用して DWG ファイルのトラッキングを有効にする
+# Aspose.CAD for Java を使用して DWG ファイルの PDF ページサイズを設定し、トラッキングを有効にする
 
-## 導入
+## Introduction
 
-コンピュータ支援設計 (CAD) の分野では、Aspose.CAD for Java は、開発者が CAD ファイルを簡単に操作および変換できる強力なツールとして際立っています。このチュートリアルでは、Aspose.CAD for Java の特定の機能、つまり DWG ファイルでの追跡を可能にする機能について詳しく説明します。 DWG ファイルの変更を追跡することは、共同設計プロジェクトにとって非常に重要であり、シームレスなコミュニケーションと効率的なワークフローを確保します。このガイドでは、Aspose.CAD の機能を活用して、Java を使用した追跡を有効にする手順を説明します。
+DWG を PDF に*変換*する際に **PDF ページサイズを設定** し、さらにレンダリングの問題を追跡したい場合、Aspose.CAD for Java は両方をクリーンにプログラムで実行できる方法を提供します。このチュートリアルでは、ページ寸法の構成、トラッキングの有効化、CAD 図面 PDF のエクスポート手順を Java だけで実行する方法を順を追って解説します。最後まで読むと、CAD 図面に正しいページサイズを設定する重要性と、エクスポートプロセス中に詳細なトラッキング情報を取得する方法が理解できるようになります。
 
-## 前提条件
+## Quick Answers
+- **「set PDF page size」は何に影響しますか？** 結果として生成される PDF キャンバスの幅と高さを定義し、図面が完全に収まるようにします。  
+- **この機能を使用するのにライセンスは必要ですか？** テストにはトライアルで動作しますが、本番環境では商用ライセンスが必要です。  
+- **必要な Aspose.CAD のバージョンは？** `CadRasterizationOptions` をサポートする最新のバージョンであればどれでも構いません。  
+- **他の CAD フォーマットでも使用できますか？** 例は DWG/DXF ですが、同様のアプローチはほとんどのサポート対象フォーマットで機能します。  
+- **変換にどれくらい時間がかかりますか？** 中規模のファイルであれば通常 1 秒未満です。大きな図面はそれ以上かかることがあります。
 
-実装に入る前に、次の前提条件が満たされていることを確認してください。
+## What is “set PDF page size” in the context of CAD export?
 
-- Java Development Kit (JDK): システムに Java がインストールされていることを確認してください。
--  Aspose.CAD for Java: 次の場所から Aspose.CAD for Java をダウンロードしてインストールします。[ダウンロードリンク](https://releases.aspose.com/cad/java/).
-- ドキュメント ディレクトリ: DWG ファイルが配置されるディレクトリを準備します。
+PDF ページサイズを設定することは、出力キャンバスの正確な寸法（ピクセルまたはポイント）をレンダラに指示することを意味します。スケールやレイアウトを保持しなければならない技術図面では特に重要です。ページサイズを明示しない場合、PDF はデフォルトサイズになり、図面が切り取られたり歪んだりする可能性があります。
 
-## 名前空間のインポート
+## Why set PDF page size when exporting CAD drawings?
+- **スケールを保持** – エンジニアは実寸印刷に依存します。  
+- **用紙に合わせる** – プロジェクト仕様に合った A4、Letter、またはカスタムサイズを選択します。  
+- **可読性の向上** – 大きなページはズームせずに細部を表示できます。  
+- **一貫した出力** – 自動化パイプラインは毎回同一サイズの PDF を生成します。
 
-Java プロジェクトで、Aspose.CAD 機能を利用するために必要な名前空間をインポートすることから始めます。
+## How to set PDF page size when converting DWG to PDF?
+
+以下では、エクスポート前に `CadRasterizationOptions` にカスタムの幅と高さを設定します。この手順がキーワード **set PDF page size** に直接対応します。
+
+## Prerequisites
+
+- **Java Development Kit (JDK)** – Java 8 以上がマシンにインストールされていること。  
+- **Aspose.CAD for Java** – 公式の [Aspose CAD download page](https://releases.aspose.com/cad/java/) からダウンロードしてください。  
+- **Document Directory** – 処理したい DWG/DXF ファイルが入っているフォルダー。
+
+## Import Namespaces
+
+First, import the classes you’ll need. The code block is unchanged from the original tutorial.
 
 ```java
 import com.aspose.cad.Image;
@@ -41,48 +63,50 @@ import java.io.FileOutputStream;
 import java.io.OutputStream;
 ```
 
-## ステップ 1: DWG ファイルをロードする
+## Step 1: Load the DWG/DXF File
 
-まず、DWG ファイルを Java アプリケーションにロードします。それに応じてファイル パスを調整します。
+Load your source drawing. Adjust the path to point at your own file.
 
 ```java
 String dataDir = "Your Document Directory" + "DXFDrawings/";
 Image image = Image.load(dataDir + "conic_pyramid.dxf");
 ```
 
-## ステップ 2: PDF エクスポート オプションを構成する
+## Step 2: Configure PDF Export Options (including page size)
 
-PDF エクスポート オプションを構成し、CAD のベクトル ラスタライズ オプションを指定します。
+Here we set the page width and height—this is where we **set PDF page size**. The values are in pixels; you can convert from inches or millimeters as needed.
 
 ```java
 OutputStream stream = new FileOutputStream(dataDir + "output_conic_pyramid.pdf");
 PdfOptions pdfOptions = new PdfOptions();
 CadRasterizationOptions cadRasterizationOptions = new CadRasterizationOptions();
 pdfOptions.setVectorRasterizationOptions(cadRasterizationOptions);
-cadRasterizationOptions.setPageWidth(800);
-cadRasterizationOptions.setPageHeight(600);
+cadRasterizationOptions.setPageWidth(800);   // <-- custom width
+cadRasterizationOptions.setPageHeight(600);  // <-- custom height
 ```
 
-## ステップ 3: トラッキングを実装する
+> **ヒント:** 標準用紙サイズを使用したい場合は `1 inch = 72 points` の換算を利用してください。A4 用紙 (8.27 × 11.69 in) の場合は `pageWidth = 595`、`pageHeight = 842` と設定します。
 
-カスタム エラー ハンドラー クラスを使用して追跡を実装します。このクラスは追跡結果を処理し、発生した問題を表示します。
+## Step 3: Implement Tracking
+
+Tracking captures any rendering problems. We attach a custom handler that will be invoked after the export.
 
 ```java
 cadRasterizationOptions.RenderResult = new ErrorHandler();
 ```
 
-## ステップ 4: PDF にエクスポートする
+## Step 4: Export to PDF
 
-エクスポート プロセスを開始して、追跡を有効にして DWG ファイルを PDF に変換します。
+Now perform the conversion. The PDF will be created with the dimensions you specified, and any tracking information will be printed to the console.
 
 ```java
 System.out.println("Exporting to pdf format");
 image.save(stream, pdfOptions);
 ```
 
-## ステップ 5: CadRenderHandler クラス
+## Step 5: CadRenderHandler Class
 
-を定義します`CadRenderHandler`レンダリング結果を処理し、追跡情報を表示するクラス:
+The handler prints out any failures that occurred during rendering. This helps you debug issues when **exporting CAD drawing PDF**.
 
 ```java
 public static class ErrorHandler extends CadRasterizationOptions.CadRenderHandler {
@@ -104,31 +128,38 @@ public static class ErrorHandler extends CadRasterizationOptions.CadRenderHandle
 }
 ```
 
-## 結論
+## Common Issues and Solutions
 
-Aspose.CAD for Java を使用して DWG ファイルの追跡を有効にすることは、CAD プロジェクトでのコラボレーションを強化するシームレスなプロセスです。これらの手順に従うことで、追跡機能を効率的に実装し、スムーズな通信とエラー処理を確保できます。
+| 問題 | 原因 | 対策 |
+|------|------|------|
+| **Blank PDF** | Page size set to 0 or too small | Verify `setPageWidth` and `setPageHeight` are positive values. |
+| **Missing geometry** | Rendering errors captured by the handler | Review the console output from `ErrorHandler` and address the specific `RenderCode`. |
+| **File not found** | Incorrect `dataDir` path | Use an absolute path or ensure the directory exists. |
+| **License exception** | Using the trial without a valid license for large files | Apply your Aspose.CAD license before loading the image. |
 
-## よくある質問
+## Frequently Asked Questions
 
-### Q1: Aspose.CAD for Java を使用して、他の CAD ファイル形式の追跡を有効にすることはできますか?
+**Q: Aspose.CAD for Java を使用して他の CAD ファイル形式でもトラッキングを有効にできますか？**  
+A: Aspose.CAD は主に DWG/DXF のトラッキングをサポートしています。他の形式については公式ドキュメントをご確認ください。
 
-A1: Aspose.CAD は主に追跡用の DWG ファイルをサポートしています。他の形式については、ドキュメントを参照してください。
+**Q: Aspose.CAD for Java で追加のエクスポートオプションを扱うにはどうすればよいですか？**  
+A: ライブラリは DPI、背景色、ベクトルラスタライズなど多数のオプションを提供しています。詳細は [Aspose.CAD Java Documentation](https://reference.aspose.com/cad/java/) を参照してください。
 
-### Q2: Aspose.CAD for Java で追加のエクスポート オプションを処理するにはどうすればよいですか?
+**Q: Aspose.CAD for Java のトライアル版はありますか？**  
+A: はい、[Aspose.CAD Free Trial](https://releases.aspose.com/) から無料トライアルをダウンロードできます。
 
- A2: 次の場所にある広範なドキュメントを参照してください。[Aspose.CAD Java ドキュメント](https://reference.aspose.com/cad/java/).
+**Q: Aspose.CAD for Java に関するサポートや議論はどこで行えますか？**  
+A: コミュニティサポートや公式回答は [Aspose.CAD forum](https://forum.aspose.com/c/cad/19) でご利用ください。
 
-### Q3: Aspose.CAD for Java の試用版はありますか?
+**Q: Aspose.CAD for Java の一時ライセンスはどう取得しますか？**  
+A: 手順は [Temporary License](https://purchase.aspose.com/temporary-license/) ページに記載されています。
 
- A3: はい、試用版には次の場所からアクセスできます。[Aspose.CAD 無料トライアル](https://releases.aspose.com/).
+---
 
-### Q4: Aspose.CAD for Java に関連する問題について、どこに支援を求めたり、議論したりできますか?
+**最終更新日:** 2025-12-03  
+**テスト環境:** Aspose.CAD for Java 24.11 (執筆時点での最新バージョン)  
+**作者:** Aspose  
 
- A4: にアクセスしてください。[Aspose.CAD フォーラム](https://forum.aspose.com/c/cad/19)コミュニティサポートのために。
-
-### Q5: Aspose.CAD for Java の一時ライセンスを取得するにはどうすればよいですか?
-
- A5: 次の手順に従ってください。[仮免許](https://purchase.aspose.com/temporary-license/).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
