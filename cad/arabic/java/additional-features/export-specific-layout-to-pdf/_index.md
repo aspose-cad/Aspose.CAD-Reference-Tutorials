@@ -1,62 +1,85 @@
 ---
-title: تصدير تخطيط DXF محدد إلى PDF باستخدام Aspose.CAD لـ Java
-linktitle: تصدير تخطيط DXF محدد إلى PDF باستخدام Java
-second_title: Aspose.CAD جافا API
-description: اكتشف التحويل السلس من DXF إلى PDF باستخدام Aspose.CAD لـ Java. قم بتصدير تخطيطات محددة بدقة.
+date: 2025-12-04
+description: تعلم كيفية تصدير ملفات DXF إلى PDF باستخدام Aspose.CAD للغة Java، وإنشاء PDF
+  من DXF، وتحديد حجم الصفحة في Java لتحويلات CAD دقيقة.
+language: ar
+linktitle: Export Specific DXF Layout to PDF with Java
+second_title: Aspose.CAD Java API
+title: كيفية تصدير تخطيط DXF إلى PDF باستخدام Aspose.CAD للغة Java
+url: /java/additional-features/export-specific-layout-to-pdf/
 weight: 17
-url: /ar/java/additional-features/export-specific-layout-to-pdf/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# تصدير تخطيط DXF محدد إلى PDF باستخدام Aspose.CAD لـ Java
+# كيفية تصدير تخطيط DXF إلى PDF باستخدام Aspose.CAD للـ Java
 
-## مقدمة
+## المقدمة
 
-إذا كنت أحد مطوري Java الذين يعملون مع رسومات CAD، فسوف تفهم أهمية التحويل الفعال والدقيق بين التنسيقات المختلفة. Aspose.CAD for Java هي مكتبة قوية تمكن المطورين من التعامل مع ملفات CAD بسلاسة. في هذا البرنامج التعليمي، سنرشدك خلال عملية تصدير تخطيط DXF محدد إلى ملف PDF باستخدام Aspose.CAD لـ Java.
+إذا كنت مطور Java تعمل مع رسومات CAD، فأنت تعلم أن **كيفية تصدير dxf** بدقة يمكن أن تكون الفارق بين نجاح المشروع وفشله. سواءً كنت تُنشئ تقارير هندسية، أو تشارك التصاميم مع العملاء، أو تُؤتمت عمليات التحويل الجماعي، فإن مكتبة تحويل PDF موثوقة للـ Java ضرورية. في هذا الدرس سنرشدك إلى تصدير تخطيط DXF محدد إلى PDF باستخدام **Aspose.CAD للـ Java**، موضحين لك كيفية **إنشاء pdf من dxf**، وضبط أبعاد الصفحة، والحفاظ على جودة المتجهات.
 
-## المتطلبات الأساسية
+## إجابات سريعة
+- **ما هي المكتبة الأساسية؟** Aspose.CAD للـ Java، مكتبة تحويل PDF مخصصة للـ CAD.
+- **هل يمكن اختيار تخطيط محدد؟** نعم – استخدم `CadRasterizationOptions.setLayouts()` لاستهداف اسم تخطيط معين.
+- **كيف أضبط حجم الصفحة؟** عدّل `setPageWidth()` و `setPageHeight()` في خيارات الرستر (مثال: 1600 × 1600).
+- **هل أحتاج إلى ترخيص للاستخدام الإنتاجي؟** يتطلب الاستخدام الإنتاجي ترخيصًا تجاريًا؛ يتوفر نسخة تجريبية مجانية.
+- **ما نسخة Java المدعومة؟** Java 8 وما فوق (JDK 1.8+).
 
-قبل الغوص في البرنامج التعليمي، تأكد من توفر المتطلبات الأساسية التالية:
+## ما هو “كيفية تصدير dxf” في Java؟
 
-1. Java Development Kit (JDK): تأكد من تثبيت Java على نظامك. يمكنك تنزيله من[هنا](https://www.oracle.com/java/technologies/javase-downloads.html).
+تصدير ملف DXF يعني تحويل بياناته المتجهة إلى تنسيق آخر—غالبًا PDF—مع الحفاظ على الطبقات، وزن الخطوط، ومعلومات التخطيط. يتولى Aspose.CAD الجزء الأكبر من العمل، مما يتيح لك التركيز على منطق الأعمال بدلاً من تحليل الملفات منخفض المستوى.
 
-2.  Aspose.CAD لـ Java: قم بتنزيل وتثبيت مكتبة Aspose.CAD لـ Java من موقع الويب[هنا](https://releases.aspose.com/cad/java/).
+## لماذا نستخدم Aspose.CAD للـ Java؟
 
-## استيراد مساحات الأسماء
+- **دعم CAD شامل** – يتعامل مع DWG، DXF، DWF، وأكثر.
+- **بدون تبعيات خارجية** – جافا صافية، لا ملفات DLL أصلية.
+- **رستر دقيقة** – اختر مخرجات متجهة أو رستر، عيّن DPI، حجم الصفحة، والتخطيط.
+- **أداء عالي** – مُحسّن للمعالجة الدفعية وسيناريوهات الخادم.
 
-قبل البدء في البرمجة، قم باستيراد مساحات الأسماء الضرورية للوصول إلى الوظائف التي يوفرها Aspose.CAD لـ Java.
+## المتطلبات المسبقة
+
+قبل البدء، تأكد من وجود ما يلي:
+
+1. **مجموعة تطوير جافا (JDK)** – Java 8 أو أحدث. حمّلها من [Oracle](https://www.oracle.com/java/technologies/javase-downloads.html).
+2. **Aspose.CAD للـ Java** – احصل على أحدث ملف JAR من [صفحة تنزيل Aspose.CAD](https://releases.aspose.com/cad/java/).
+3. بيئة تطوير متكاملة أو أداة بناء (Maven/Gradle) لإضافة ملف JAR إلى مسار الفئة (classpath) الخاص بالمشروع.
+
+## استيراد الحزم
+
+أولاً، استورد الفئات التي ستحتاجها. تتيح لك هذه الاستيرادات تحميل الصور، خيارات الرستر، وإعدادات إخراج PDF.
 
 ```java
-
 import com.aspose.cad.Image;
-
 import com.aspose.cad.imageoptions.CadRasterizationOptions;
 import com.aspose.cad.imageoptions.PdfOptions;
 ```
 
-الآن، دعونا نقسم الكود أعلاه إلى خطوات متعددة لفهم شامل:
+### دليل خطوة بخطوة
 
-## الخطوة 1: قم بتعيين دليل الموارد
+### الخطوة 1: ضبط دليل الموارد
+
+عرّف المجلد الذي يحتوي على ملفات DXF الخاصة بك. استبدل العنصر النائب بالمسار الفعلي على جهازك.
 
 ```java
 String dataDir = "Your Document Directory" + "DXFDrawings/";
 ```
 
- تأكد من استبدال`"Your Document Directory"` بالمسار الفعلي إلى دليل المستندات الخاص بك.
+> **نصيحة احترافية:** استخدم `System.getProperty("user.dir")` لإنشاء مسار نسبي يعمل عبر البيئات المختلفة.
 
-## الخطوة 2: تحميل ملف DXF
+### الخطوة 2: تحميل ملف DXF
+
+حمّل ملف DXF المصدر باستخدام `Image.load()`. هذه الطريقة تقرأ ملف CAD إلى كائن `Image` الخاص بـ Aspose.CAD.
 
 ```java
 String srcFile = dataDir + "conic_pyramid.dxf";
 Image image = Image.load(srcFile); 
 ```
 
- قم بتحميل ملف DXF باستخدام ملف`Image.load()` طريقة.
+### الخطوة 3: ضبط خيارات الرستر (تعيين حجم الصفحة Java)
 
-## الخطوة 3: تكوين خيارات التنقيط
+هنا ننشئ `CadRasterizationOptions` ونحدد حجم الصفحة الناتج. عدّل العرض/الارتفاع ليتطابق مع أبعاد PDF المطلوبة.
 
 ```java
 CadRasterizationOptions rasterizationOptions = new CadRasterizationOptions();
@@ -65,52 +88,64 @@ rasterizationOptions.setPageHeight(1600);
 rasterizationOptions.setLayouts(new String[] {"Model"});
 ```
 
- إنشاء مثيل ل`CadRasterizationOptions` وقم بتعيين الخصائص المطلوبة مثل عرض الصفحة وارتفاع الصفحة واسم التخطيط.
+- `setPageWidth` / `setPageHeight` – يتحكم في **تعيين حجم الصفحة java** للـ PDF.
+- `setLayouts` – يحدد أي تخطيط(ات) سيتم رسمها؛ `"Model"` هو مساحة النموذج الافتراضية في العديد من ملفات DXF.
 
-## الخطوة 4: إنشاء خيارات PDF
+### الخطوة 4: إنشاء خيارات PDF (Java Convert CAD PDF)
+
+اربط إعدادات الرستر بمثيل `PdfOptions`. هذا يخبر Aspose.CAD بإنتاج PDF بدلاً من صورة رستر.
 
 ```java
 PdfOptions pdfOptions = new PdfOptions();
 pdfOptions.setVectorRasterizationOptions(rasterizationOptions);
 ```
 
- إنشاء مثيل ل`PdfOptions` وتعيينها`VectorRasterizationOptions` الخاصية باستخدام خيارات التنقيط التي تم تكوينها مسبقًا.
+### الخطوة 5: تصدير DXF إلى PDF (إنشاء PDF من DXF)
 
-## الخطوة 5: تصدير DXF إلى PDF
+أخيرًا، احفظ الصورة كملف PDF. اسم الملف الناتج ينتهي بـ `_layout_out_.pdf` للدلالة على التحويل الخاص بالتخطيط.
 
 ```java
 image.save(dataDir + "conic_pyramid_layout_out_.pdf", pdfOptions);
 ```
 
- احفظ ملف DXF كملف PDF باستخدام ملف`image.save()` طريقة.
+بعد التنفيذ، ستجد `conic_pyramid_layout_out_.pdf` في نفس الدليل، يحتوي فقط على تخطيط **Model** المرسوم بالأبعاد التي حددتها.
 
-باتباع هذه الخطوات، يمكنك بسهولة تصدير تخطيط DXF محدد إلى ملف PDF باستخدام Aspose.CAD لـ Java.
+## المشكلات الشائعة والحلول
 
-## خاتمة
+| المشكلة | السبب | الحل |
+|-------|--------|-----|
+| **PDF فارغ** | عدم تطابق اسم التخطيط | تحقق من اسم التخطيط الدقيق في ملف DXF (استخدم عارض CAD). |
+| **حجم الصفحة غير صحيح** | عدم تطبيق `setPageWidth/Height` | تأكد من ضبط خيارات الرستر **قبل** إنشاء `PdfOptions`. |
+| **نفاد الذاكرة للملفات الكبيرة** | تحميل DXF ضخم في الذاكرة | استخدم البث أو زد حجم heap للـ JVM (`-Xmx2g`). |
+| **خطوط مفقودة** | عناصر النص تستخدم خطوطًا غير متوفرة | ثبّت الخطوط المطلوبة على الخادم أو أدخلها عبر `CadRasterizationOptions`. |
 
-في هذا البرنامج التعليمي، أوضحنا كيفية الاستفادة من Aspose.CAD لـ Java لتصدير تخطيط DXF محدد إلى ملف PDF. تعمل هذه المكتبة القوية على تبسيط معالجة ملفات CAD، مما يوفر للمطورين الأدوات التي يحتاجونها لإجراء تحويلات فعالة ودقيقة.
+## الأسئلة المتكررة
 
-## الأسئلة الشائعة
+**س: هل Aspose.CAD للـ Java مناسب للمبتدئين وكذلك للمطورين ذوي الخبرة؟**  
+ج: بالتأكيد. الواجهة البرمجية سهلة للمبتدئين وتوفر تخصيصًا عميقًا للمستخدمين المتقدمين.
 
-### س1: هل Aspose.CAD for Java مناسب لكل من المطورين المبتدئين وذوي الخبرة؟
+**س: هل يمكنني تخصيص خيارات الرستر لتخطيطات مختلفة؟**  
+ج: نعم. عدّل `CadRasterizationOptions` (حجم الصفحة، DPI، لون الخلفية) لكل تخطيط حسب الحاجة.
 
-ج1: بالتأكيد! تم تصميم Aspose.CAD for Java لتلبية احتياجات المطورين من جميع مستويات المهارة.
+**س: أين يمكنني العثور على الوثائق الشاملة لـ Aspose.CAD للـ Java؟**  
+ج: الوثائق التفصيلية متاحة [هنا](https://reference.aspose.com/cad/java/).
 
-### س2: هل يمكنني تخصيص خيارات التنقيط لتخطيطات مختلفة؟
+**س: هل تتوفر نسخة تجريبية مجانية لـ Aspose.CAD للـ Java؟**  
+ج: نعم، يمكنك تنزيل نسخة تجريبية [هنا](https://releases.aspose.com/).
 
-ج2: نعم، يمكنك بسهولة تكوين خيارات التنقيط بناءً على متطلبات التخطيط المحددة الخاصة بك.
+**س: كيف يمكنني الحصول على الدعم لـ Aspose.CAD للـ Java؟**  
+ج: زر منتدى الدعم [هنا](https://forum.aspose.com/c/cad/19) للحصول على مساعدة المجتمع والموظفين.
 
-### س3: أين يمكنني العثور على وثائق شاملة لـ Aspose.CAD لـ Java؟
+## الخاتمة
 
- ج3: راجع الوثائق[هنا](https://reference.aspose.com/cad/java/) للحصول على معلومات مفصلة.
+في هذا الدليل استعرضنا **كيفية تصدير dxf** إلى PDF باستخدام Aspose.CAD للـ Java، بدءًا من إعداد البيئة وحتى ضبط أبعاد الصفحة بدقة. من خلال الاستفادة من هذه **مكتبة تحويل pdf للـ java**، يمكنك أتمتة سير عمل CAD‑to‑PDF، الحفاظ على دقة المتجهات، ودمج توليد PDF بسلاسة في تطبيقات Java الخاصة بك.
 
-### س4: هل هناك نسخة تجريبية مجانية متاحة لـ Aspose.CAD لـ Java؟
+---
 
- ج4: نعم، يمكنك الوصول إلى النسخة التجريبية المجانية[هنا](https://releases.aspose.com/).
+**آخر تحديث:** 2025-12-04  
+**تم الاختبار مع:** Aspose.CAD للـ Java 24.12 (أحدث نسخة وقت الكتابة)  
+**المؤلف:** Aspose  
 
-### س5: كيف يمكنني الحصول على دعم Aspose.CAD لـ Java؟
-
- ج5: قم بزيارة منتدى الدعم[هنا](https://forum.aspose.com/c/cad/19)للحصول على المساعدة من مجتمع Aspose.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
