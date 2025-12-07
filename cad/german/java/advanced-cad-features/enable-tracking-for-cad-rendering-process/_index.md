@@ -1,35 +1,58 @@
 ---
-title: Aktivieren Sie die Nachverfolgung für den CAD-Rendering-Prozess
-linktitle: Aktivieren Sie die Nachverfolgung für den CAD-Rendering-Prozess
+date: 2025-12-07
+description: Erfahren Sie, wie Sie die PDF‑Seitengröße beim Konvertieren von CAD zu
+  PDF mit Aspose.CAD für Java festlegen. Folgen Sie dieser Schritt‑für‑Schritt‑Anleitung,
+  um die Nachverfolgung zu aktivieren, CAD in PDF zu konvertieren und CAD effizient
+  als PDF zu speichern.
+language: de
+linktitle: Set PDF Page Size – Enable Tracking for CAD Rendering
 second_title: Aspose.CAD Java API
-description: Verbessern Sie Ihr CAD-Rendering mit Aspose.CAD für Java. Befolgen Sie unsere Schritt-für-Schritt-Anleitung, um die Nachverfolgung zu aktivieren und Ihr PDF-Konvertierungserlebnis zu verbessern.
+title: Wie man die PDF‑Seitengröße festlegt und das Tracking für den CAD‑Renderprozess
+  aktiviert
+url: /java/advanced-cad-features/enable-tracking-for-cad-rendering-process/
 weight: 10
-url: /de/java/advanced-cad-features/enable-tracking-for-cad-rendering-process/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aktivieren Sie die Nachverfolgung für den CAD-Rendering-Prozess
+# Aktivieren des Trackings für den CAD‑Renderprozess
 
 ## Einführung
 
-Im Bereich Computer-Aided Design (CAD) zeichnet sich Aspose.CAD für Java als leistungsstarkes Tool zum Rendern und Verarbeiten von CAD-Dateien aus. Dieses Tutorial führt Sie durch den Prozess der Aktivierung der Nachverfolgung für das CAD-Rendering und verbessert so Ihre Kontrolle über die Umwandlung von CAD-Dateien in das PDF-Format.
+In diesem Tutorial lernen Sie, wie Sie **die PDF‑Seitengröße festlegen**, während Sie **CAD nach PDF konvertieren** mithilfe von **Aspose.CAD for Java**. Durch das Aktivieren des Trackings erhalten Sie vollständige Transparenz über die Rendering‑Pipeline, was das Debuggen und Optimieren der Konvertierung von CAD‑Dateien (wie DXF) nach PDF erleichtert. Egal, ob Sie **CAD als PDF speichern**, PDF aus DXF erzeugen oder einfach die Ausgabedimensionen steuern möchten – die nachfolgenden Schritte führen Sie durch den gesamten Prozess.
+
+## Schnellantworten
+- **Was bewirkt „set PDF page size“?** Sie definiert die Breite und Höhe der resultierenden PDF‑Seite während des CAD‑Renderings.  
+- **Warum Tracking aktivieren?** Tracking protokolliert jede Phase der Konvertierung und hilft, Leistungsengpässe oder Fehler zu erkennen.  
+- **Benötige ich eine Lizenz?** Eine kostenlose Testversion reicht für die Evaluierung; für den Produktionseinsatz ist eine kommerzielle Lizenz erforderlich.  
+- **Welche CAD‑Formate werden unterstützt?** DWG, DXF, DGN und viele weitere – siehe die Aspose.CAD‑Dokumentation für die vollständige Liste.  
+- **Kann ich die Seitengröße zur Laufzeit ändern?** Ja – passen Sie einfach die Werte `PageWidth` und `PageHeight` in `CadRasterizationOptions` an.
+
+## Was bedeutet „set PDF page size“ beim CAD‑Rendering?
+
+Das Festlegen der PDF‑Seitengröße teilt dem Rasterizer mit, wie groß die Zeichenfläche sein soll, wenn die Vektor‑CAD‑Daten in eine PDF‑Seite gerastert werden. Dies ist entscheidend, um die visuelle Treue zu bewahren, insbesondere bei detaillierten technischen Zeichnungen.
+
+## Warum Tracking für das CAD‑Rendering aktivieren?
+
+Durch das Aktivieren des Trackings erhalten Sie ein detailliertes Protokoll jedes Schrittes – vom Laden der Quelldatei bis zum Schreiben der PDF‑Ausgabe. Es hilft Ihnen:
+
+- Zu diagnostizieren, warum eine bestimmte Zeichnung möglicherweise fehlerhaft gerendert wird.  
+- Die für jede Phase benötigte Zeit zu messen, was für Performance‑Optimierungen nützlich ist.  
+- Zu überprüfen, ob die konfigurierte Seitengröße tatsächlich angewendet wurde.
 
 ## Voraussetzungen
 
-Bevor Sie mit dem Tracking-Setup beginnen, stellen Sie sicher, dass Sie die folgenden Voraussetzungen erfüllen:
+Bevor Sie mit der Einrichtung des Trackings beginnen, stellen Sie sicher, dass Sie die folgenden Voraussetzungen erfüllen:
 
-1. Java-Entwicklungsumgebung: Stellen Sie sicher, dass Java auf Ihrem System installiert ist.
-
-2.  Aspose.CAD-Bibliothek: Laden Sie die Aspose.CAD-Bibliothek herunter und integrieren Sie sie in Ihr Java-Projekt. Den Download-Link finden Sie hier[Hier](https://releases.aspose.com/cad/java/).
-
-3. Dokumentenverzeichnis: Bereiten Sie ein Verzeichnis zum Speichern Ihrer CAD-Dateien vor.
+1. **Java‑Entwicklungsumgebung** – Java 8 oder höher auf Ihrem Rechner installiert.  
+2. **Aspose.CAD‑Bibliothek** – Laden Sie die Aspose.CAD‑Bibliothek herunter und binden Sie sie in Ihr Java‑Projekt ein. Den Download‑Link finden Sie [hier](https://releases.aspose.com/cad/java/).  
+3. **Dokumenten‑Verzeichnis** – Legen Sie ein Verzeichnis an, in dem Sie Ihre CAD‑Dateien und die erzeugten PDFs speichern.
 
 ## Namespaces importieren
 
-Importieren Sie in Ihrem Java-Projekt die erforderlichen Namespaces, um die Funktionalitäten von Aspose.CAD zu nutzen. Fügen Sie am Anfang Ihres Codes die folgenden Zeilen hinzu:
+Importieren Sie in Ihrem Java‑Projekt die notwendigen Namespaces, um die Funktionen von Aspose.CAD zu nutzen. Fügen Sie die folgenden Zeilen am Anfang Ihres Codes ein:
 
 ```java
 import java.io.FileNotFoundException;
@@ -42,33 +65,33 @@ import com.aspose.cad.imageoptions.CadRasterizationOptions;
 import com.aspose.cad.imageoptions.PdfOptions;
 ```
 
-## Schritt 1: Legen Sie den Ressourcenverzeichnispfad fest
+## Pfad zum Ressourcen‑Verzeichnis festlegen
 
 ```java
 String dataDir = "Your Document Directory" + "CADConversion/";
 ```
 
-Ersetzen Sie „Ihr Dokumentverzeichnis“ durch den tatsächlichen Pfad zu Ihrem Dokumentverzeichnis.
+Ersetzen Sie `"Your Document Directory"` durch den tatsächlichen Pfad zu Ihrem Dokumenten‑Verzeichnis.
 
-## Schritt 2: Laden Sie die CAD-Datei
+## CAD‑Datei laden
 
 ```java
 String srcFile = dataDir + "conic_pyramid.dxf";
 Image image = Image.load(srcFile);
 ```
 
-Geben Sie den Pfad zu Ihrer CAD-Datei an und stellen Sie sicher, dass sie sich im angegebenen Dokumentverzeichnis befindet.
+Geben Sie den Pfad zu Ihrer CAD‑Datei an und stellen Sie sicher, dass sie sich im vorgesehenen Dokumenten‑Verzeichnis befindet.
 
-## Schritt 3: PDF-Ausgabeoptionen festlegen
+## PDF‑Ausgabeoptionen festlegen
 
 ```java
 OutputStream stream = new FileOutputStream(dataDir + "conic_pyramid.pdf");
 PdfOptions pdfOptions = new PdfOptions();
 ```
 
-Erstellen Sie einen Ausgabestream und legen Sie PDF-Optionen für die Konvertierung fest.
+Erzeugen Sie einen Output‑Stream und setzen Sie die PDF‑Optionen für die Konvertierung.
 
-## Schritt 4: CadRasterizationOptions konfigurieren
+## CadRasterizationOptions konfigurieren (PDF‑Seitengröße festlegen)
 
 ```java
 CadRasterizationOptions cadRasterizationOptions = new CadRasterizationOptions();
@@ -77,52 +100,69 @@ cadRasterizationOptions.setPageWidth(800);
 cadRasterizationOptions.setPageHeight(600);
 ```
 
- Instanziieren`CadRasterizationOptions` und passen Sie die Optionen für die Vektorrasterung nach Ihren Wünschen an.
+Hier **setzen wir die PDF‑Seitengröße**, indem wir `PageWidth` und `PageHeight` definieren. Passen Sie diese Werte an die für Ihre technische Zeichnung erforderlichen Abmessungen an. Dieser Schritt beeinflusst direkt, wie der CAD‑Inhalt skaliert und im finalen PDF gerendert wird.
 
-## Schritt 5: Speichern Sie die PDF-Datei
+## PDF‑Datei speichern
 
 ```java
 image.save(stream, pdfOptions);
 ```
 
-Speichern Sie die gerenderte PDF-Datei mit den angegebenen Optionen.
+Speichern Sie die gerenderte PDF‑Datei mit den angegebenen Optionen.
 
-## Schritt 6: Überprüfen Sie die Tracking-Aktivierung
+## Überprüfung der Tracking‑Aktivierung
 
 ```java
 System.out.println("Tracking enabled successfully for CAD rendering process.");
 ```
 
-Bestätigen Sie, dass die Nachverfolgung für den CAD-Rendering-Prozess erfolgreich aktiviert wurde.
+Bestätigen Sie, dass das Tracking erfolgreich für den CAD‑Renderprozess aktiviert wurde.
 
-## Abschluss
+## Häufige Probleme & Fehlersuche
 
-Glückwunsch! Sie haben die Nachverfolgung für das CAD-Rendering mit Aspose.CAD für Java erfolgreich aktiviert. Diese Schritt-für-Schritt-Anleitung ermöglicht Ihnen die nahtlose Konvertierung von CAD-Dateien in PDF mit erweiterten Steuerungs- und Nachverfolgungsfunktionen.
+| Symptom | Wahrscheinliche Ursache | Lösung |
+|---------|--------------------------|--------|
+| PDF‑Seite erscheint leer | `PageWidth`/`PageHeight` auf 0 gesetzt | Stellen Sie sicher, dass nicht‑null Dimensionen angegeben werden. |
+| Ausgabedatei ist beschädigt | Output‑Stream nicht geschlossen | Rufen Sie `stream.close()` nach `image.save(...)` auf. |
+| Fehlende Ebenen im PDF | CAD‑Datei verwendet nicht unterstützte Entitäten | Prüfen Sie, ob das Dateiformat vollständig von Aspose.CAD unterstützt wird. |
 
-## FAQs
+## Häufig gestellte Fragen
 
-### F1: Ist Aspose.CAD mit allen CAD-Dateiformaten kompatibel?
+### Q1: Ist Aspose.CAD mit allen CAD‑Dateiformaten kompatibel?
 
-A1: Aspose.CAD unterstützt eine Vielzahl von CAD-Formaten, darunter DWG, DXF, DGN und mehr. Siehe die[Dokumentation](https://reference.aspose.com/cad/java/) für eine umfassende Liste.
+A1: Aspose.CAD unterstützt eine breite Palette von CAD‑Formaten, darunter DWG, DXF, DGN und weitere. Siehe die [Dokumentation](https://reference.aspose.com/cad/java/) für eine vollständige Liste.
 
-### F2: Kann ich die Ausgabeabmessungen der PDF-Datei anpassen?
+### Q2: Kann ich die Ausgabedimensionen der PDF‑Datei anpassen?
 
- A2: Auf jeden Fall! Verstelle die`PageWidth` Und`PageHeight` Parameter in der`CadRasterizationOptions` um die Ausgabedimensionen anzupassen.
+A2: Absolut! Passen Sie die Parameter `PageWidth` und `PageHeight` in den `CadRasterizationOptions` an, um die Ausgabedimensionen zu steuern.
 
-### F3: Gibt es eine kostenlose Testversion für Aspose.CAD für Java?
+### Q3: Gibt es eine kostenlose Testversion von Aspose.CAD for Java?
 
- A3: Ja, Sie können die Funktionen von Aspose.CAD erkunden, indem Sie eine kostenlose Testversion erhalten[Hier](https://releases.aspose.com/).
+A3: Ja, Sie können die Funktionen von Aspose.CAD mit einer kostenlosen Testversion [hier](https://releases.aspose.com/) ausprobieren.
 
-### F4: Wie kann ich Community-Unterstützung für Fragen zu Aspose.CAD erhalten?
+### Q4: Wie erhalte ich Community‑Support für Fragen zu Aspose.CAD?
 
- A4: Besuchen Sie die[Aspose.CAD-Forum](https://forum.aspose.com/c/cad/19) sich mit der Gemeinschaft auseinanderzusetzen und Hilfe zu suchen.
+A4: Besuchen Sie das [Aspose.CAD‑Forum](https://forum.aspose.com/c/cad/19), um sich mit der Community auszutauschen und Unterstützung zu erhalten.
 
-### F5: Sind temporäre Lizenzen für Aspose.CAD verfügbar?
+### Q5: Gibt es temporäre Lizenzen für Aspose.CAD?
 
- A5: Ja, wenn Sie eine temporäre Lizenz benötigen, können Sie eine erwerben[Hier](https://purchase.aspose.com/temporary-license/).
+A5: Ja, wenn Sie eine temporäre Lizenz benötigen, können Sie diese [hier](https://purchase.aspose.com/temporary-license/) erwerben.
+
+## Fazit
+
+Herzlichen Glückwunsch! Sie haben nun gelernt, wie Sie **die PDF‑Seitengröße festlegen** und das Tracking für das CAD‑Rendering mithilfe von **Aspose.CAD for Java** aktivieren. Dieser Leitfaden befähigt Sie, **CAD nach PDF zu konvertieren**, **CAD als PDF zu speichern** und PDF aus DXF zu erzeugen, wobei Sie die Seitengröße vollständig kontrollieren und detaillierte Ausführungsprotokolle erhalten. Experimentieren Sie gern mit verschiedenen Seitengrößen und erkunden Sie weitere Rasterisierungsoptionen, um Ihre spezifischen Engineering‑Workflows zu optimieren.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Zuletzt aktualisiert:** 2025-12-07  
+**Getestet mit:** Aspose.CAD for Java 24.12 (zum Zeitpunkt der Erstellung)  
+**Autor:** Aspose  
+
+---

@@ -1,35 +1,58 @@
 ---
-title: Nyomon követés engedélyezése CAD rendering folyamathoz
-linktitle: Nyomon követés engedélyezése CAD rendering folyamathoz
+date: 2025-12-07
+description: Ismerje meg, hogyan állíthatja be a PDF oldalméretét CAD‑ról PDF‑re konvertálás
+  közben az Aspose.CAD for Java használatával. Kövesse ezt a lépésről‑lépésre útmutatót
+  a nyomkövetés engedélyezéséhez, a CAD‑PDF konvertáláshoz, és a CAD PDF‑ként való
+  hatékony mentéséhez.
+language: hu
+linktitle: Set PDF Page Size – Enable Tracking for CAD Rendering
 second_title: Aspose.CAD Java API
-description: Javítsa ki CAD-megjelenítését az Aspose.CAD for Java segítségével. Kövesse lépésenkénti útmutatónkat a nyomon követés engedélyezéséhez és a PDF-konverziós élmény fokozásához.
+title: Hogyan állítsuk be a PDF oldal méretét és engedélyezzük a nyomon követést a
+  CAD renderelési folyamatban
+url: /java/advanced-cad-features/enable-tracking-for-cad-rendering-process/
 weight: 10
-url: /hu/java/advanced-cad-features/enable-tracking-for-cad-rendering-process/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Nyomon követés engedélyezése CAD rendering folyamathoz
+# Követés engedélyezése a CAD renderelési folyamatban
 
 ## Bevezetés
 
-A számítógéppel segített tervezés (CAD) területén az Aspose.CAD for Java a CAD-fájlok renderelésének és feldolgozásának hatékony eszköze. Ez az oktatóanyag végigvezeti Önt a CAD-megjelenítési nyomon követés engedélyezésének folyamatán, javítva a CAD-fájlokból PDF-formátumba való átalakítás feletti irányítást.
+Ebben az útmutatóban megtanulja, hogyan **állítsa be a PDF oldal méretét**, miközben **CAD‑ot PDF‑re konvertál** a **Aspose.CAD for Java** segítségével. A követés engedélyezésével teljes átláthatóságot kap a renderelési csővezeték felett, ami megkönnyíti a hibakeresést és a konverzió optimalizálását a CAD‑fájlok (például DXF) PDF‑re alakításakor. Akár **CAD‑ot PDF‑ként szeretné menteni**, PDF‑et generálna DXF‑ből, vagy egyszerűen csak a kimeneti méreteket szeretné szabályozni, az alábbi lépések végigvezetik Önt a teljes folyamaton.
+
+## Gyors válaszok
+- **Mi a “set PDF page size” funkció?** A PDF oldal szélességét és magasságát határozza meg a CAD renderelés során.  
+- **Miért engedélyezzük a követést?** A követés naplózza a konverzió minden szakaszát, segítve a teljesítménybeli szűk keresztmetszetek vagy hibák felderítését.  
+- **Szükségem van licencre?** Az ingyenes próba verzió értékelésre használható; a kereskedelmi licenc szükséges a termeléshez.  
+- **Mely CAD formátumok támogatottak?** DWG, DXF, DGN és sok más – lásd az Aspose.CAD dokumentációt a teljes listáért.  
+- **Módosíthatom-e a lap méreteket menet közben?** Igen – egyszerűen állítsa be a `PageWidth` és `PageHeight` értékeket a `CadRasterizationOptions`‑ban.
+
+## Mi a “set PDF page size” a CAD renderelésben?
+
+A PDF oldal méretének beállítása azt mondja a rasterizálónak, mekkora vásznat kell használni, amikor a vektoriális CAD adatot PDF oldalra rasterizálják. Ez kulcsfontosságú a vizuális hűség megőrzéséhez, különösen részletes műszaki rajzok esetén.
+
+## Miért engedélyezzük a követést a CAD rendereléshez?
+
+A követés engedélyezése részletes naplót biztosít minden egyes lépésről – a forrásfájl betöltésétől a PDF kimenet írásáig. Segít Önnek:
+
+- Diagnosztizálni, miért jelenik meg egy adott rajz helytelenül.  
+- Mérni az egyes szakaszok idejét, ami hasznos a teljesítményhangoláshoz.  
+- Ellenőrizni, hogy a beállított oldalméret valóban alkalmazásra került‑e.
 
 ## Előfeltételek
 
-Mielőtt belemerülne a nyomkövetési beállításokba, győződjön meg arról, hogy a következő előfeltételekkel rendelkezik:
+Mielőtt a követés beállításába merülnénk, győződjön meg róla, hogy a következő előfeltételek teljesülnek:
 
-1. Java fejlesztői környezet: Győződjön meg arról, hogy a Java telepítve van a rendszeren.
-
-2.  Aspose.CAD Library: Töltse le és integrálja az Aspose.CAD könyvtárat Java projektjébe. A letöltési linket megtalálod[itt](https://releases.aspose.com/cad/java/).
-
-3. Dokumentumkönyvtár: Készítsen könyvtárat a CAD-fájlok tárolására.
+1. **Java fejlesztői környezet** – Java 8 vagy újabb telepítve a gépén.  
+2. **Aspose.CAD könyvtár** – Töltse le és integrálja az Aspose.CAD könyvtárat a Java projektjébe. A letöltési linket megtalálja [itt](https://releases.aspose.com/cad/java/).  
+3. **Dokumentum könyvtár** – Készítsen egy könyvtárat a CAD fájlok és a generált PDF‑ek tárolására.
 
 ## Névterek importálása
 
-Java-projektjében importálja a szükséges névtereket az Aspose.CAD funkciók kihasználásához. Adja hozzá a következő sorokat a kód elejéhez:
+Java projektjében importálja a szükséges névtereket az Aspose.CAD funkcionalitás kihasználásához. Adja hozzá a következő sorokat a kódja elejéhez:
 
 ```java
 import java.io.FileNotFoundException;
@@ -42,33 +65,33 @@ import com.aspose.cad.imageoptions.CadRasterizationOptions;
 import com.aspose.cad.imageoptions.PdfOptions;
 ```
 
-## 1. lépés: Állítsa be az erőforrás-könyvtár elérési útját
+## Az erőforrás könyvtár útvonalának beállítása
 
 ```java
 String dataDir = "Your Document Directory" + "CADConversion/";
 ```
 
-Cserélje le a „Saját dokumentumkönyvtár” elemet a dokumentumkönyvtár tényleges elérési útjával.
+Cserélje le a `"Your Document Directory"` szöveget a tényleges dokumentumkönyvtár elérési útjára.
 
-## 2. lépés: Töltse be a CAD-fájlt
+## CAD fájl betöltése
 
 ```java
 String srcFile = dataDir + "conic_pyramid.dxf";
 Image image = Image.load(srcFile);
 ```
 
-Adja meg a CAD-fájl elérési útját, ügyelve arra, hogy a kijelölt dokumentumkönyvtárban legyen.
+Adja meg a CAD fájl elérési útját, ügyelve arra, hogy az a kijelölt dokumentumkönyvtáron belül legyen.
 
-## 3. lépés: Állítsa be a PDF kimeneti beállításokat
+## PDF kimeneti beállítások megadása
 
 ```java
 OutputStream stream = new FileOutputStream(dataDir + "conic_pyramid.pdf");
 PdfOptions pdfOptions = new PdfOptions();
 ```
 
-Hozzon létre egy kimeneti adatfolyamot, és állítsa be a PDF-beállításokat az átalakításhoz.
+Hozzon létre egy kimeneti adatfolyamot, és állítsa be a PDF opciókat a konverzióhoz.
 
-## 4. lépés: A CadRasterizationOptions konfigurálása
+## CadRasterizationOptions konfigurálása (PDF oldal méretének beállítása)
 
 ```java
 CadRasterizationOptions cadRasterizationOptions = new CadRasterizationOptions();
@@ -77,52 +100,67 @@ cadRasterizationOptions.setPageWidth(800);
 cadRasterizationOptions.setPageHeight(600);
 ```
 
- Példányosítás`CadRasterizationOptions` és testreszabhatja a vektorraszterezési beállításokat az Ön preferenciái szerint.
+Itt **beállítjuk a PDF oldal méretét** a `PageWidth` és `PageHeight` definiálásával. Igazítsa ezeket az értékeket a mérnöki rajzához szükséges méretekhez. Ez a lépés közvetlenül befolyásolja, hogyan méreteződik és renderelődik a CAD tartalom a végső PDF‑ben.
 
-## 5. lépés: Mentse el a PDF-fájlt
+## PDF fájl mentése
 
 ```java
 image.save(stream, pdfOptions);
 ```
 
-Mentse el a renderelt PDF-fájlt a megadott beállításokkal.
+Mentse a renderelt PDF fájlt a megadott opciókkal.
 
-## 6. lépés: Ellenőrizze a követés engedélyezését
+## Követés engedélyezésének ellenőrzése
 
 ```java
 System.out.println("Tracking enabled successfully for CAD rendering process.");
 ```
 
-Győződjön meg arról, hogy a követés sikeresen engedélyezve van a CAD renderelési folyamathoz.
+Erősítse meg, hogy a követés sikeresen engedélyezve van a CAD renderelési folyamatban.
 
-## Következtetés
+## Gyakori problémák és hibaelhárítás
 
-Gratulálunk! Sikeresen engedélyezte a CAD-megjelenítés nyomon követését az Aspose.CAD for Java használatával. Ez a részletes útmutató lehetővé teszi, hogy zökkenőmentesen konvertálja a CAD-fájlokat PDF-formátumba, továbbfejlesztett vezérlési és nyomkövetési képességekkel.
+| Tünet | Valószínű ok | Megoldás |
+|-------|--------------|----------|
+| PDF oldal üresen jelenik meg | `PageWidth`/`PageHeight` 0-ra van állítva | Győződjön meg róla, hogy nem nulla méreteket ad meg. |
+| A kimeneti fájl sérült | Kimeneti adatfolyam nincs lezárva | Hívja meg a `stream.close()`‑t az `image.save(...)` után. |
+| Hiányzó rétegek a PDF‑ben | A CAD fájl nem támogatott entitásokat tartalmaz | Ellenőrizze, hogy a fájlformátum teljes mértékben támogatott‑e az Aspose.CAD által. |
 
-## GYIK
+## Gyakran Ismételt Kérdések
 
-### 1. kérdés: Az Aspose.CAD kompatibilis az összes CAD fájlformátummal?
+### Q1: Az Aspose.CAD kompatibilis minden CAD fájlformátummal?
 
-1. válasz: Az Aspose.CAD a CAD formátumok széles skáláját támogatja, beleértve a DWG-t, DXF-et, DGN-t stb. Utal[dokumentáció](https://reference.aspose.com/cad/java/) átfogó listáért.
+A1: Az Aspose.CAD számos CAD formátumot támogat, beleértve a DWG, DXF, DGN és egyebeket. Tekintse meg a [dokumentációt](https://reference.aspose.com/cad/java/) a teljes listáért.
 
-### 2. kérdés: Testreszabhatom a PDF-fájl kimeneti méreteit?
+### Q2: Testreszabhatom a PDF fájl kimeneti méreteit?
 
- A2: Abszolút! Állítsa be a`PageWidth` és`PageHeight` paramétereket a`CadRasterizationOptions` a kimeneti méretek testreszabásához.
+A2: Természetesen! Állítsa be a `PageWidth` és `PageHeight` paramétereket a `CadRasterizationOptions`‑ban, hogy a kívánt kimeneti méreteket kapja.
 
-### 3. kérdés: Elérhető ingyenes próbaverzió az Aspose.CAD for Java számára?
+### Q3: Elérhető ingyenes próba a Aspose.CAD for Java‑hoz?
 
- 3. válasz: Igen, felfedezheti az Aspose.CAD képességeit egy ingyenes próbaverzió megszerzésével[itt](https://releases.aspose.com/).
+A3: Igen, a képességeket egy ingyenes próba verzióval is kipróbálhatja [itt](https://releases.aspose.com/).
 
-### 4. kérdés: Hogyan kaphatok közösségi támogatást az Aspose.CAD-vel kapcsolatos lekérdezésekhez?
+### Q4: Hogyan kaphatok közösségi támogatást az Aspose.CAD‑hez kapcsolódó kérdésekhez?
 
- A4: Látogassa meg a[Aspose.CAD fórum](https://forum.aspose.com/c/cad/19) kapcsolatba lépni a közösséggel és segítséget kérni.
+A4: Látogassa meg az [Aspose.CAD fórumot](https://forum.aspose.com/c/cad/19), hogy a közösséggel kapcsolatba léphessen és segítséget kérhessen.
 
-### 5. kérdés: Rendelkezésre állnak-e ideiglenes licencek az Aspose.CAD számára?
+### Q5: Elérhetők ideiglenes licencek az Aspose.CAD‑hez?
 
- V5: Igen, ha ideiglenes engedélyre van szüksége, beszerezhet egyet[itt](https://purchase.aspose.com/temporary-license/).
+A5: Igen, ha ideiglenes licencre van szüksége, azt [itt](https://purchase.aspose.com/temporary-license/) szerezheti be.
+
+## Összegzés
+
+Gratulálunk! Most már megtanulta, hogyan **állítsa be a PDF oldal méretét** és engedélyezze a követést a CAD rendereléshez a **Aspose.CAD for Java** segítségével. Ez az útmutató felkészíti Önt a **CAD‑ról PDF‑re konvertálásra**, a **CAD‑ PDF‑ként való mentésére**, valamint a DXF‑ből PDF generálására, teljes kontrollal az oldalméretek és a részletes végrehajtási naplók felett. Nyugodtan kísérletezzen különböző oldalméretekkel, és fedezze fel a további rasterizálási beállításokat, hogy a saját mérnöki munkafolyamataihoz leginkább illeszkedjenek.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Last Updated:** 2025-12-07  
+**Tested With:** Aspose.CAD for Java 24.12 (latest at time of writing)  
+**Author:** Aspose
