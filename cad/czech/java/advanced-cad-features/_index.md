@@ -1,77 +1,126 @@
 ---
-title: Pokročilé funkce CAD
-linktitle: Pokročilé funkce CAD
+date: 2025-12-07
+description: Naučte se, jak nastavit velikost plátna a další pokročilé funkce CAD
+  pomocí Aspose.CAD pro Javu, včetně převodu CAD do PDF, extrakce atributů bloků,
+  nastavení pozadí CAD a automatického škálování rozvržení.
+language: cs
+linktitle: Set Canvas Size – Advanced CAD Features
 second_title: Aspose.CAD Java API
-description: Pozvedněte svůj vývoj CAD pomocí výukových programů Aspose.CAD for Java. Naučte se povolit sledování, integrovat formát IGES, master mesh podporu, přizpůsobit export pera, číst soubory DWT a další.
+title: Nastavit velikost plátna – Pokročilé funkce CAD s Aspose.CAD pro Javu
+url: /java/advanced-cad-features/
 weight: 24
-url: /cs/java/advanced-cad-features/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Pokročilé funkce CAD
-
+# Nastavení velikosti plátna – Pokročilé funkce CAD s Aspose.CAD pro Java
 
 ## Úvod
 
-Jste připraveni posunout své dovednosti v oblasti vývoje CAD na další úroveň? Aspose.CAD for Java vám přináší řadu výukových programů pro odemknutí pokročilých funkcí, které zajistí bezproblémový a efektivní pracovní postup. Pojďme se ponořit do klíčových témat obsažených v těchto výukových programech.
+Pokud chcete **nastavit velikost plátna** při práci s CAD soubory v Javě, jste na správném místě. Aspose.CAD pro Java vám nejen umožňuje řídit rozměry plátna, ale také nabízí bohatou sadu pokročilých možností, jako je **převod CAD do PDF**, **extrakce hodnot atributů bloků**, **nastavení barvy pozadí CAD** a aplikace **automatického škálování rozvržení**. V tomto průvodci projdeme klíčová témata, vysvětlíme, proč jsou důležitá, a nasměrujeme vás na podrobné tutoriály, které se jednotlivým funkcím věnují podrobněji.
 
-## Povolit sledování pro proces vykreslování CAD
-Vylepšete své vykreslování CAD pomocí Aspose.CAD for Java. Náš podrobný průvodce vám umožňuje povolit sledování, poskytuje statistiky a kontrolu nad procesem vykreslování. Zvyšte svou hru na konverzi PDF bez námahy.
+## Rychlé odpovědi
+- **Co dělá „nastavení velikosti plátna“?** Definuje šířku a výšku výstupního obrázku nebo PDF, čímž získáte přesnou kontrolu nad finální oblastí vykreslení.  
+- **Mohu po nastavení velikosti plátna převést CAD do PDF?** Ano — Aspose.CAD vám umožní převést CAD soubory do PDF při zachování zadaných rozměrů plátna.  
+- **Je podporována extrakce hodnot atributů bloků?** Rozhodně; API poskytuje metody pro čtení hodnot atributů z externích referencí.  
+- **Jak změním barvu pozadí CAD vykreslení?** Použijte možnost `setBackgroundColor` a aplikujte vlastní barvu pozadí před exportem.  
+- **Co je automatické škálování rozvržení?** Automaticky upravuje výkres tak, aby se vešel do plátna, což zajišťuje optimální zobrazení bez ručních výpočtů.
 
-## Integrujte formát IGES
-Objevte bezproblémovou integraci formátu IGES s Aspose.CAD for Java. Tento výukový program vás provede celým procesem a využije sílu Aspose.CAD k vylepšení vašich zkušeností s vývojem CAD. Odemkněte nové možnosti v oblasti kompatibility souborů a spolupráce.
+## Co je „nastavení velikosti plátna“ v Aspose.CAD pro Java?
+Nastavení velikosti plátna říká vykreslovacímu enginu přesné rozměry v pixelech (nebo fyzické rozměry) výstupního souboru. To je nezbytné, když potřebujete konzistentní rozvržení stránek, integraci CAD obrázků do reportů nebo generování náhledů s předvídatelnými rozměry.
 
-## Podpora sítě s Aspose.CAD pro Javu
-Prozkoumejte svět podpory sítě v aplikacích Java s Aspose.CAD. Převádějte soubory CAD do PDF bez námahy při zachování integrity síťových struktur. Náš výukový program zajišťuje bezproblémovou navigaci v této funkci a dosažení úžasných výsledků.
+## Proč používat pokročilé funkce Aspose.CAD?
+- **Konzistentní výstup** — Kontrola velikosti plátna a pozadí zajišťuje jednotnost napříč více soubory.  
+- **Širší kompatibilita** — Převod CAD výkresů do PDF, TIFF nebo PNG bez ztráty detailů.  
+- **Připraveno pro automatizaci** — Extrakce atributů bloků a aplikace automatického škálování rozvržení programově, ideální pro dávkové zpracování.  
+- **Žádné externí závislosti** — Všechny funkce jsou dostupné přímo přes Java API, což eliminuje potřebu třetích nástrojů.
 
-Když se pustíte do zvládnutí těchto pokročilých funkcí CAD, setkáte se s:
+## Předpoklady
+- Java Development Kit (JDK) 8 nebo vyšší.  
+- Knihovna Aspose.CAD pro Java (stáhněte si nejnovější verzi z webu Aspose).  
+- Platná licence Aspose.CAD pro produkční použití (pro hodnocení stačí bezplatná zkušební licence).
 
-### Podpora pera v exportu
-Ovládněte přizpůsobení pera v exportu CAD pomocí Aspose.CAD pro Java. Postupujte podle našeho podrobného průvodce pro hladkou integraci, která vám umožní jedinečně personalizovat vaše CAD projekty.
+## Přehled krok za krokem pokročilých témat
 
-### Čtení souborů DWT
-Zvládněte čtení souborů DWT v Javě pomocí Aspose.CAD. Náš komplexní výukový program zajišťuje bezproblémový integrační proces, který vám umožní bez námahy začlenit různé formáty souborů do vašich CAD projektů.
+### Jak nastavit velikost plátna v Aspose.CAD pro Java?
+Když vytvoříte instanci `CadImage`, můžete rozměry plátna (šířku a výšku) specifikovat pomocí objektu `ImageOptions` před uložením. Tím zajistíte, že exportovaný soubor bude mít požadované rozměry.
 
-### Nastavení barvy pozadí a kresby
-Bez námahy převádějte soubory CAD do PDF a TIFF a zároveň přidejte vizuální vkus. Nastavte si vlastní barvy pozadí a kreslení pomocí našeho podrobného průvodce, který zajistí vizuálně ohromující výsledky pro vaše projekty.
+### Jak převést CAD do PDF při zachování velikosti plátna?
+Použijte třídu `PdfOptions` společně s nastavením plátna. Proces konverze respektuje rozměry plátna a vytvoří PDF, které vypadá přesně jako vykreslení na obrazovce.
 
-### Nastavte velikost a režim plátna
-Prozkoumejte sílu Aspose.CAD pro Java s naším průvodcem nastavením velikosti plátna a režimu. Bez námahy převádějte soubory CAD do formátů PDF a TIFF a přizpůsobte výstup tak, aby vyhovoval vašim specifickým požadavkům.
+### Jak extrahovat hodnoty atributů bloků z externích referencí?
+API poskytuje kolekci `BlockReference`. Iterací přes tuto kolekci můžete číst hodnoty atributů, jako jsou názvy vrstev, barvy nebo vlastní data vložená v souboru DWG/DXF.
 
-### Nastavení Auto Layout Scaling
-Udělejte revoluci ve svých CAD projektech pomocí funkce Auto Layout Scaling. Tento výukový program představuje funkci, která zajišťuje optimální zobrazení a efektivitu. Stáhněte si knihovnu, postupujte podle průvodce a vneste do svého CAD workflow novou úroveň sofistikovanosti.
+### Jak nastavit barvu pozadí CAD pro profesionálnější vzhled?
+Vlastnost `BackgroundColor` v nastaveních vykreslování vám umožní vybrat libovolnou RGB barvu. To je užitečné, když výchozí bílé pozadí koliduje s vaší firemní identitou nebo UI motivem.
 
-### Podpora vrstev
-Podpora hlavní vrstvy při vývoji Java CAD. Uspořádejte a exportujte výkresy bez námahy, čímž zlepšíte organizaci a přehlednost vašich CAD projektů.
+### Jak aplikovat automatické škálování rozvržení pro dynamické úpravy plátna?
+Povolte příznak `AutoLayoutScaling` v nastaveních vykreslování. Engine automaticky škáluje výkres tak, aby zapadl do plátna při zachování poměru stran, čímž vás ušetří ručních výpočtů.
 
-### Extrahujte hodnotu atributu bloku z externí reference
-Ponořte se do výukového programu o extrahování hodnot atributů bloku z externích referencí DWG v Javě. Vylepšete svůj pracovní postup vývoje CAD bez námahy a zajistěte bezproblémovou integraci s externími referencemi.
+## Podrobné tutoriály ke každé funkci
+Níže najdete vyhrazené tutoriály, které vás krok po kroku provedou jednotlivými pokročilými možnostmi. Klikněte na kterýkoli odkaz a ponořte se hlouběji.
 
-Vydejte se na tuto cestu prostřednictvím výukových programů Aspose.CAD for Java, kde se inovace snoubí s odborností, a revolučním způsobem změní vaše zkušenosti s vývojem CAD. Stáhněte si knihovnu, postupujte podle výukových programů a zůstaňte napřed v dynamickém světě CAD.
-## Výukové programy pro pokročilé funkce CAD
-### [Povolit sledování pro proces vykreslování CAD](./enable-tracking-for-cad-rendering-process/)
-Vylepšete své vykreslování CAD pomocí Aspose.CAD for Java. Postupujte podle našeho podrobného průvodce, abyste povolili sledování a vylepšili svůj zážitek z převodu PDF.
-### [Integrujte formát IGES](./integrate-iges-format/)
-Prozkoumejte bezproblémovou integraci formátu IGES s Aspose.CAD for Java. Postupujte podle našeho podrobného průvodce a využijte sílu Aspose.CAD k vylepšení svých zkušeností s vývojem CAD.
-### [Podpora sítě s Aspose.CAD pro Javu](./mesh-support-in-cad/)
-Prozkoumejte podporu sítě v aplikacích Java s Aspose.CAD. Převeďte soubory CAD do PDF bez námahy. 
-### [Podpora pera v exportu](./pen-support-in-export/)
-Ovládněte přizpůsobení pera v exportu CAD pomocí Aspose.CAD pro Java. Postupujte podle našeho podrobného průvodce pro bezproblémovou integraci.
-### [Čtení souborů DWT](./reading-dwt-files/)
-Zvládněte čtení souborů DWT v Javě pomocí Aspose.CAD. Postupujte podle našeho podrobného průvodce pro bezproblémovou integraci.
-### [Nastavení barvy pozadí a kresby pomocí Aspose.CAD pro Javu](./setting-background-and-drawing-color/)
-Bez námahy převádějte soubory CAD do PDF a TIFF pomocí Aspose.CAD pro Java. Nastavte si vlastní barvy pozadí a kresby pro vizuálně ohromující výsledky.
-### [Nastavte velikost a režim plátna](./set-canvas-size-and-mode/)
-Prozkoumejte sílu Aspose.CAD pro Java pomocí našeho podrobného průvodce nastavením velikosti a režimu plátna. Bez námahy převádějte soubory CAD do formátů PDF a TIFF.
-### [Nastavení Auto Layout Scaling s Aspose.CAD pro Java](./setting-auto-layout-scaling/)
-Vylepšete svůj pracovní postup CAD pomocí Aspose.CAD for Java. Tento podrobný průvodce představuje funkci Auto Layout Scaling, která zajišťuje optimální zobrazení a efektivitu. Stáhněte si knihovnu, postupujte podle výukového programu a proveďte revoluci ve svých CAD projektech.
-### [Podpora vrstev s Aspose.CAD v Javě](./support-of-layers-in-cad/)
-Podpora hlavní vrstvy při vývoji Java CAD s Aspose.CAD. Uspořádejte a exportujte výkresy bez námahy.
-### [Extrahujte hodnotu atributu bloku z externí reference pomocí Aspose.CAD v Javě](./extract-block-attribute-value/)
-Prozkoumejte náš tutoriál o extrahování hodnot atributů bloku z externích referencí DWG v Javě pomocí Aspose.CAD. Vylepšete svůj pracovní postup vývoje CAD bez námahy.
+### [Enable Tracking for CAD Rendering Process](./enable-tracking-for-cad-rendering-process/)
+Vylepšete své CAD vykreslování pomocí Aspose.CAD pro Java. Postupujte podle našeho podrobného návodu a aktivujte sledování pro lepší zkušenost s převodem do PDF.
+
+### [Integrate IGES Format](./integrate-iges-format/)
+Prozkoumejte bezproblémovou integraci formátu IGES s Aspose.CAD pro Java. Sledujte krok‑za‑krokem průvodce a využijte sílu Aspose.CAD ve svém CAD vývoji.
+
+### [Mesh Support with Aspose.CAD for Java](./mesh-support-in-cad/)
+Objevte podporu mesh v Java aplikacích s Aspose.CAD. Převádějte CAD soubory do PDF snadno a efektivně. 
+
+### [Pen Support in Export](./pen-support-in-export/)
+Mistrovsky přizpůsobte pero při exportu CAD pomocí Aspose.CAD pro Java. Postupujte podle našeho podrobného návodu pro hladkou integraci.
+
+### [Reading DWT Files](./reading-dwt-files/)
+Ovládněte čtení DWT souborů v Javě s Aspose.CAD. Sledujte krok‑za‑krokem průvodce pro bezproblémovou integraci.
+
+### [Setting Background and Drawing Color Using Aspose.CAD for Java](./setting-background-and-drawing-color/)
+Jednoduše převádějte CAD soubory do PDF a TIFF pomocí Aspose.CAD pro Java. Nastavte vlastní barvy pozadí i výkresu pro vizuálně působivé výsledky.
+
+### [Set Canvas Size and Mode](./set-canvas-size-and-mode/)
+Prozkoumejte sílu Aspose.CAD pro Java s naším podrobným návodem na **nastavení velikosti plátna** a režimu. Jednoduše převádějte CAD soubory do PDF a TIFF formátů.
+
+### [Setting Auto Layout Scaling with Aspose.CAD for Java](./setting-auto-layout-scaling/)
+Vylepšete svůj CAD workflow s Aspose.CAD pro Java. Tento podrobný návod představuje Auto Layout Scaling, který zajišťuje optimální zobrazení a efektivitu. Stáhněte knihovnu, projděte si tutoriál a revolučně změňte své CAD projekty.
+
+### [Support of Layers with Aspose.CAD in Java](./support-of-layers-in-cad/)
+Mistrovsky ovládejte podporu vrstev v Java CAD vývoji s Aspose.CAD. Organizujte a exportujte výkresy bez námahy.
+
+### [Extract Block Attribute Value from External Reference Using Aspose.CAD In Java](./extract-block-attribute-value/)
+Prozkoumejte náš tutoriál o extrakci hodnot atributů bloků z externích referencí DWG v Javě pomocí Aspose.CAD. Zefektivněte svůj CAD vývojový proces.
+
+## Časté problémy a řešení
+- **Velikost plátna se neaplikuje:** Ujistěte se, že velikost nastavujete na správném objektu `ImageOptions` před voláním `save()`.  
+- **Barva pozadí se nezmění:** Ověřte, že režim vykreslování podporuje barvy pozadí (např. PNG, TIFF).  
+- **Atributy bloků vrací null:** Zkontrolujte, že DWG soubor skutečně obsahuje definice atributů a že přistupujete ke správné referenci bloku.  
+- **Automatické škálování rozvržení vypadá deformovaně:** Ujistěte se, že je povolen příznak poměru stran; jinak může engine výkres natáhnout.
+
+## Často kladené otázky
+
+**Q: Mohu nastavit vlastní velikost plátna pro každý soubor v dávkovém procesu?**  
+A: Ano. Procházejte kolekci CAD souborů, nakonfigurujte velikost plátna na každé instanci `ImageOptions` a programově uložte výstup.
+
+**Q: Ovlivňuje nastavení velikosti plátna kvalitu exportovaného PDF?**  
+A: Kvalita je určena nastavením DPI v možnostech vykreslování. DPI můžete zvýšit při zachování rozměrů plátna a získat tak PDF vyššího rozlišení.
+
+**Q: Jak extrahuji hodnoty atributů bloků z DWG, který obsahuje externí reference?**  
+A: Použijte kolekci `ExternalReference` k vyřešení reference, poté iterujte přes její objekty `BlockReference` a čtěte hodnoty atributů.
+
+**Q: Je automatické škálování rozvržení kompatibilní s vektorovými výstupními formáty jako PDF?**  
+A: Ano. Logika škálování funguje jak pro rastrové (PNG, TIFF), tak pro vektorové (PDF, SVG) výstupy, což zajišťuje, že výkres zapadne do plátna.
+
+**Q: Jaká licence je potřeba pro komerční použití?**  
+A: Pro produkční nasazení je vyžadována placená licence Aspose.CAD. Pro vývoj a testování lze použít bezplatnou zkušební licenci.
+
+---
+
+**Poslední aktualizace:** 2025-12-07  
+**Testováno s:** Aspose.CAD pro Java 24.12 (nejnovější)  
+**Autor:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -1,77 +1,128 @@
 ---
-title: Funzionalità CAD avanzate
-linktitle: Funzionalità CAD avanzate
-second_title: API Java Aspose.CAD
-description: Migliora il tuo sviluppo CAD con i tutorial Aspose.CAD per Java. Scopri come abilitare il tracciamento, integrare il formato IGES, supportare il master mesh, personalizzare l'esportazione della penna, leggere file DWT e altro ancora.
+date: 2025-12-07
+description: Scopri come impostare la dimensione della tela e altre funzionalità CAD
+  avanzate usando Aspose.CAD per Java, inclusa la conversione da CAD a PDF, l'estrazione
+  degli attributi dei blocchi, l'impostazione dello sfondo CAD e la scalatura automatica
+  del layout.
+language: it
+linktitle: Set Canvas Size – Advanced CAD Features
+second_title: Aspose.CAD Java API
+title: Imposta dimensione della tela – Funzionalità CAD avanzate con Aspose.CAD per
+  Java
+url: /java/advanced-cad-features/
 weight: 24
-url: /it/java/advanced-cad-features/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Funzionalità CAD avanzate
+# Imposta la dimensione della tela – Funzionalità CAD avanzate con Aspose.CAD per Java
 
+## Introduzione
 
-## introduzione
+Se stai cercando di **impostare la dimensione della tela** mentre lavori con file CAD in Java, sei nel posto giusto. Aspose.CAD per Java non solo ti consente di controllare le dimensioni della tela, ma offre anche un ricco insieme di funzionalità avanzate come **conversione CAD in PDF**, **estrazione dei valori degli attributi dei blocchi**, **impostazione del colore di sfondo CAD** e applicazione di **auto layout scaling**. In questa guida percorreremo i temi principali, spiegheremo perché sono importanti e ti indirizzeremo ai tutorial dettagliati che approfondiscono ciascuna funzionalità.
 
-Sei pronto a portare le tue capacità di sviluppo CAD al livello successivo? Aspose.CAD per Java ti offre una serie di tutorial per sbloccare funzionalità avanzate, garantendo un flusso di lavoro fluido ed efficiente. Approfondiamo gli argomenti chiave trattati in questi tutorial.
+## Risposte rapide
+- **Che cosa fa “set canvas size”?** Definisce la larghezza e l’altezza dell’immagine o del PDF di output, fornendoti un controllo preciso sull’area di rendering finale.  
+- **Posso convertire CAD in PDF dopo aver impostato la dimensione della tela?** Sì—Aspose.CAD ti permette di convertire file CAD in PDF mantenendo le dimensioni della tela che specifichi.  
+- **È supportata l’estrazione dei valori degli attributi dei blocchi?** Assolutamente; l’API fornisce metodi per leggere i valori degli attributi da riferimenti esterni.  
+- **Come cambio il colore di sfondo di un rendering CAD?** Usa l’opzione `setBackgroundColor` per applicare uno sfondo personalizzato prima dell’esportazione.  
+- **Che cos’è l’auto layout scaling?** Regola automaticamente il disegno per adattarlo alla tela, garantendo una visualizzazione ottimale senza calcoli manuali.
 
-## Abilita il monitoraggio per il processo di rendering CAD
-Migliora la tua esperienza di rendering CAD con Aspose.CAD per Java. La nostra guida passo passo ti consente di abilitare il tracciamento, fornendo approfondimenti e controllo sul processo di rendering. Migliora il tuo gioco di conversione PDF senza sforzo.
+## Che cos’è “set canvas size” in Aspose.CAD per Java?
+Impostare la dimensione della tela indica al motore di rendering le esatte dimensioni in pixel (o la dimensione fisica) per il file di output. Questo è essenziale quando hai bisogno di layout di pagina coerenti, di integrare immagini CAD in report o di generare miniature con dimensioni prevedibili.
 
-## Integra il formato IGES
-Scopri l'integrazione perfetta del formato IGES con Aspose.CAD per Java. Questo tutorial ti guida attraverso il processo, sfruttando la potenza di Aspose.CAD per migliorare la tua esperienza di sviluppo CAD. Sblocca nuove possibilità in termini di compatibilità e collaborazione dei file.
+## Perché utilizzare le funzionalità avanzate di Aspose.CAD?
+- **Output coerente** – Il controllo su dimensione della tela e sfondo garantisce uniformità tra più file.  
+- **Compatibilità più ampia** – Converti disegni CAD in PDF, TIFF o PNG senza perdere dettagli.  
+- **Pronto per l’automazione** – Estrai attributi dei blocchi e applica l’auto layout scaling programmaticamente, ideale per l’elaborazione batch.  
+- **Nessuna dipendenza esterna** – Tutte le funzionalità sono disponibili direttamente tramite l’API Java, eliminando la necessità di strumenti di terze parti.
 
-## Supporto mesh con Aspose.CAD per Java
-Esplora il mondo del supporto mesh nelle applicazioni Java con Aspose.CAD. Converti file CAD in PDF senza sforzo mantenendo l'integrità delle strutture mesh. Il nostro tutorial ti assicura di navigare facilmente in questa funzionalità per ottenere risultati sorprendenti.
+## Prerequisiti
+- Java Development Kit (JDK) 8 o superiore.  
+- Libreria Aspose.CAD per Java (scarica l’ultima versione dal sito Aspose).  
+- Una licenza valida di Aspose.CAD per l’uso in produzione (una prova gratuita è sufficiente per la valutazione).
 
-Man mano che acquisisci padronanza di queste funzionalità CAD avanzate, incontrerai:
+## Panoramica passo‑passo degli argomenti avanzati
 
-### Supporto penna nell'esportazione
-Masterizza la personalizzazione della penna nell'esportazione CAD con Aspose.CAD per Java. Segui la nostra guida dettagliata per un'integrazione fluida che ti consente di personalizzare i tuoi progetti CAD in modo univoco.
+### Come impostare la dimensione della tela in Aspose.CAD per Java?
+Quando crei un’istanza `CadImage`, puoi specificare la larghezza e l’altezza della tela tramite l’oggetto `ImageOptions` prima di salvare. Questo garantisce che il file esportato corrisponda alle dimensioni necessarie.
 
-### Lettura di file DWT
-Padroneggia la lettura dei file DWT in Java con Aspose.CAD. Il nostro tutorial completo garantisce un processo di integrazione senza soluzione di continuità, consentendoti di incorporare facilmente diversi formati di file nei tuoi progetti CAD.
+### Come convertire CAD in PDF mantenendo la dimensione della tela?
+Utilizza la classe `PdfOptions` insieme alle impostazioni della tela. Il processo di conversione rispetta le dimensioni della tela, producendo un PDF che appare esattamente come il rendering a schermo.
 
-### Impostazione del colore dello sfondo e del disegno
-Converti facilmente file CAD in PDF e TIFF aggiungendo un tocco visivo. Imposta sfondi personalizzati e colori di disegno con la nostra guida passo passo, garantendo risultati visivamente sorprendenti per i tuoi progetti.
+### Come estrarre i valori degli attributi dei blocchi da riferimenti esterni?
+L’API fornisce una collezione `BlockReference`. Iterando su questa collezione è possibile leggere valori di attributi come nomi di layer, colori o dati personalizzati incorporati nel file DWG/DXF.
 
-### Imposta le dimensioni e la modalità della tela
-Esplora la potenza di Aspose.CAD per Java con la nostra guida sull'impostazione delle dimensioni e della modalità della tela. Converti facilmente file CAD in formati PDF e TIFF personalizzando l'output per adattarlo alle tue esigenze specifiche.
+### Come impostare il colore di sfondo CAD per un aspetto più curato?
+La proprietà `BackgroundColor` delle opzioni di rendering ti consente di scegliere qualsiasi colore RGB. È particolarmente utile quando lo sfondo bianco predefinito entra in conflitto con il tuo brand o tema UI.
 
-### Impostazione del ridimensionamento automatico del layout
-Rivoluziona i tuoi progetti CAD con il ridimensionamento automatico del layout. Questo tutorial introduce una funzionalità che garantisce visualizzazione ed efficienza ottimali. Scarica la libreria, segui la guida e porta un nuovo livello di sofisticazione nel tuo flusso di lavoro CAD.
+### Come applicare l’auto layout scaling per aggiustamenti dinamici della tela?
+Abilita il flag `AutoLayoutScaling` nelle opzioni di rendering. Il motore scalerà automaticamente il disegno per adattarlo alla tela mantenendo le proporzioni, risparmiandoti calcoli manuali.
 
-### Supporto di livelli
-Supporto del livello master nello sviluppo CAD Java. Organizza ed esporta i disegni senza sforzo, migliorando l'organizzazione e la chiarezza dei tuoi progetti CAD.
+## Tutorial dettagliati per ogni funzionalità
+Di seguito i tutorial dedicati che ti guidano passo‑passo attraverso ciascuna capacità avanzata. Clicca su qualsiasi link per approfondire.
 
-### Estrai il valore dell'attributo del blocco dal riferimento esterno
-Immergiti nel tutorial sull'estrazione dei valori degli attributi di blocco dai riferimenti esterni DWG in Java. Migliora facilmente il flusso di lavoro di sviluppo CAD, garantendo un'integrazione perfetta con riferimenti esterni.
+### [Abilita il tracciamento per il processo di rendering CAD](./enable-tracking-for-cad-rendering-process/)
+Migliora il rendering CAD con Aspose.CAD per Java. Segui la nostra guida passo‑passo per abilitare il tracciamento e potenziare la tua esperienza di conversione PDF.
 
-Intraprendi questo viaggio attraverso i tutorial di Aspose.CAD per Java, dove l'innovazione incontra l'esperienza e rivoluziona la tua esperienza di sviluppo CAD. Scarica la libreria, segui i tutorial e resta al passo nel dinamico mondo del CAD.
-## Tutorial sulle funzionalità CAD avanzate
-### [Abilita il monitoraggio per il processo di rendering CAD](./enable-tracking-for-cad-rendering-process/)
-Migliora il tuo rendering CAD con Aspose.CAD per Java. Segui la nostra guida passo passo per abilitare il monitoraggio e migliorare la tua esperienza di conversione PDF.
 ### [Integra il formato IGES](./integrate-iges-format/)
-Esplora l'integrazione del formato IGES senza problemi con Aspose.CAD per Java. Segui la nostra guida passo passo, sfruttando la potenza di Aspose.CAD per migliorare la tua esperienza di sviluppo CAD.
-### [Supporto mesh con Aspose.CAD per Java](./mesh-support-in-cad/)
+Scopri l’integrazione del formato IGES senza soluzione di continuità con Aspose.CAD per Java. Segui la nostra guida passo‑passo, sfruttando la potenza di Aspose.CAD per migliorare la tua esperienza di sviluppo CAD.
+
+### [Supporto Mesh con Aspose.CAD per Java](./mesh-support-in-cad/)
 Esplora il supporto mesh nelle applicazioni Java con Aspose.CAD. Converti file CAD in PDF senza sforzo. 
-### [Supporto penna nell'esportazione](./pen-support-in-export/)
-Masterizza la personalizzazione della penna nell'esportazione CAD con Aspose.CAD per Java. Segui la nostra guida passo passo per un'integrazione perfetta.
-### [Lettura di file DWT](./reading-dwt-files/)
-Padroneggia la lettura dei file DWT in Java con Aspose.CAD. Segui la nostra guida passo passo per un'integrazione perfetta.
-### [Impostazione del colore di sfondo e disegno utilizzando Aspose.CAD per Java](./setting-background-and-drawing-color/)
-Converti facilmente file CAD in PDF e TIFF utilizzando Aspose.CAD per Java. Imposta sfondi personalizzati e colori di disegno per risultati visivamente sorprendenti.
-### [Imposta le dimensioni e la modalità della tela](./set-canvas-size-and-mode/)
-Esplora la potenza di Aspose.CAD per Java con la nostra guida passo passo sull'impostazione delle dimensioni e della modalità della tela. Converti facilmente file CAD nei formati PDF e TIFF.
-### [Impostazione del ridimensionamento automatico del layout con Aspose.CAD per Java](./setting-auto-layout-scaling/)
-Migliora il tuo flusso di lavoro CAD con Aspose.CAD per Java. Questa guida passo passo introduce il ridimensionamento automatico del layout, garantendo visualizzazione ed efficienza ottimali. Scarica la libreria, segui il tutorial e rivoluziona i tuoi progetti CAD.
-### [Supporto di livelli con Aspose.CAD in Java](./support-of-layers-in-cad/)
-Supporto del livello master nello sviluppo CAD Java con Aspose.CAD. Organizza ed esporta i disegni senza sforzo.
-### [Estrai il valore dell'attributo del blocco dal riferimento esterno utilizzando Aspose.CAD in Java](./extract-block-attribute-value/)
-Esplora il nostro tutorial sull'estrazione dei valori degli attributi di blocco dai riferimenti esterni DWG in Java utilizzando Aspose.CAD. Migliora il flusso di lavoro di sviluppo CAD senza sforzo.
+
+### [Supporto Penna nell’Esportazione](./pen-support-in-export/)
+Padroneggia la personalizzazione della penna nell’esportazione CAD con Aspose.CAD per Java. Segui la nostra guida passo‑passo per un’integrazione fluida.
+
+### [Lettura di File DWT](./reading-dwt-files/)
+Padroneggia la lettura di file DWT in Java con Aspose.CAD. Segui la nostra guida passo‑passo per un’integrazione senza intoppi.
+
+### [Impostazione di Sfondo e Colore di Disegno con Aspose.CAD per Java](./setting-background-and-drawing-color/)
+Converti facilmente file CAD in PDF e TIFF usando Aspose.CAD per Java. Imposta sfondi e colori di disegno personalizzati per risultati visivamente sorprendenti.
+
+### [Imposta la Dimensione della Tela e la Modalità](./set-canvas-size-and-mode/)
+Scopri la potenza di Aspose.CAD per Java con la nostra guida passo‑passo su **impostare la dimensione della tela** e la modalità. Converti senza sforzo file CAD in PDF e TIFF.
+
+### [Impostazione dell’Auto Layout Scaling con Aspose.CAD per Java](./setting-auto-layout-scaling/)
+Migliora il tuo flusso di lavoro CAD con Aspose.CAD per Java. Questa guida passo‑passo introduce l’Auto Layout Scaling, garantendo visualizzazione ottimale ed efficienza. Scarica la libreria, segui il tutorial e rivoluziona i tuoi progetti CAD.
+
+### [Supporto dei Layer con Aspose.CAD in Java](./support-of-layers-in-cad/)
+Padroneggia il supporto dei layer nello sviluppo CAD Java con Aspose.CAD. Organizza ed esporta i disegni senza sforzo.
+
+### [Estrai il Valore dell’Attributo del Blocco da Riferimento Esterno Usando Aspose.CAD in Java](./extract-block-attribute-value/)
+Esplora il nostro tutorial sull’estrazione dei valori degli attributi dei blocchi da riferimenti esterni DWG in Java usando Aspose.CAD. Migliora il tuo flusso di lavoro di sviluppo CAD senza difficoltà.
+
+## Problemi comuni e risoluzione
+- **Dimensione della tela non applicata:** Assicurati di impostare la dimensione sull’oggetto `ImageOptions` corretto prima di chiamare `save()`.  
+- **Il colore di sfondo sembra invariato:** Verifica che la modalità di rendering supporti i colori di sfondo (ad es., PNG, TIFF).  
+- **Gli attributi del blocco restituiscono null:** Controlla che il file DWG contenga effettivamente definizioni di attributi e che tu stia accedendo al riferimento di blocco corretto.  
+- **L’auto layout scaling appare distorto:** Assicurati che il flag di proporzione sia abilitato; altrimenti il motore potrebbe allungare il disegno.
+
+## Domande frequenti
+
+**D: Posso impostare una dimensione della tela personalizzata per ogni file in un processo batch?**  
+R: Sì. Scorri la tua collezione di file CAD, configura la dimensione della tela su ciascuna istanza `ImageOptions` e salva l’output programmaticamente.
+
+**D: L’impostazione della dimensione della tela influisce sulla qualità del PDF esportato?**  
+R: La qualità è determinata dall’impostazione DPI nelle opzioni di rendering. Puoi aumentare il DPI mantenendo le dimensioni della tela per ottenere PDF ad alta risoluzione.
+
+**D: Come estraggo i valori degli attributi dei blocchi da un DWG che contiene riferimenti esterni?**  
+R: Usa la collezione `ExternalReference` per risolvere il riferimento, quindi itera sui suoi oggetti `BlockReference` per leggere i valori degli attributi.
+
+**D: L’auto layout scaling è compatibile con formati di output vettoriali come PDF?**  
+R: Sì. La logica di scaling funziona sia per output raster (PNG, TIFF) sia per vettoriali (PDF, SVG), garantendo che il disegno si adatti alla tela.
+
+**D: Quale licenza è necessaria per l’uso commerciale?**  
+R: È richiesta una licenza a pagamento di Aspose.CAD per le distribuzioni in produzione. Una licenza di valutazione gratuita può essere usata per sviluppo e test.
+
+---
+
+**Last Updated:** 2025-12-07  
+**Tested With:** Aspose.CAD per Java 24.12 (latest)  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -1,77 +1,128 @@
 ---
-title: Fonctionnalités CAO avancées
-linktitle: Fonctionnalités CAO avancées
-second_title: API Java Aspose.CAD
-description: Améliorez votre développement CAO avec les didacticiels Aspose.CAD pour Java. Apprenez à activer le suivi, à intégrer le format IGES, à prendre en charge le maillage principal, à personnaliser l'exportation du stylet, à lire les fichiers DWT, etc.
+date: 2025-12-07
+description: Apprenez à définir la taille du canevas et d’autres fonctionnalités avancées
+  de CAD en utilisant Aspose.CAD pour Java, y compris la conversion de CAD en PDF,
+  l’extraction des attributs de blocs, la définition de l’arrière‑plan CAD et le redimensionnement
+  automatique de la mise en page.
+language: fr
+linktitle: Set Canvas Size – Advanced CAD Features
+second_title: Aspose.CAD Java API
+title: Définir la taille du canevas – Fonctionnalités CAD avancées avec Aspose.CAD
+  pour Java
+url: /java/advanced-cad-features/
 weight: 24
-url: /fr/java/advanced-cad-features/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Fonctionnalités CAO avancées
-
+# Définir la taille du canevas – Fonctionnalités CAD avancées avec Aspose.CAD pour Java
 
 ## Introduction
 
-Êtes-vous prêt à faire passer vos compétences en développement CAO au niveau supérieur ? Aspose.CAD pour Java vous propose une série de didacticiels pour débloquer des fonctionnalités avancées, garantissant un flux de travail transparent et efficace. Passons aux sujets clés abordés dans ces didacticiels.
+Si vous cherchez à **définir la taille du canevas** lors de la manipulation de fichiers CAD en Java, vous êtes au bon endroit. Aspose.CAD pour Java vous permet non seulement de contrôler les dimensions du canevas, mais offre également un ensemble complet de capacités avancées telles que **la conversion de CAD en PDF**, **l'extraction des valeurs d'attributs de bloc**, **la définition des couleurs d'arrière‑plan CAD**, et l'application du **redimensionnement automatique de la mise en page**. Dans ce guide, nous passerons en revue les sujets clés, expliquerons pourquoi ils sont importants et vous orienterons vers les tutoriels détaillés qui approfondissent chaque fonctionnalité.
 
-## Activer le suivi pour le processus de rendu CAO
-Améliorez votre expérience de rendu CAO avec Aspose.CAD pour Java. Notre guide étape par étape vous permet d'activer le suivi, en fournissant des informations et un contrôle sur le processus de rendu. Améliorez votre jeu de conversion PDF sans effort.
+## Quick Answers
+- **Que fait « set canvas size » ?** Elle définit la largeur et la hauteur de l'image ou du PDF de sortie, vous donnant un contrôle précis sur la zone de rendu finale.  
+- **Puis‑je convertir un CAD en PDF après avoir défini la taille du canevas ?** Oui — Aspose.CAD vous permet de convertir des fichiers CAD en PDF tout en conservant les dimensions du canevas que vous avez spécifiées.  
+- **L'extraction des valeurs d'attributs de bloc est‑elle prise en charge ?** Absolument ; l'API fournit des méthodes pour lire les valeurs d'attributs à partir de références externes.  
+- **Comment changer la couleur d'arrière‑plan d'un rendu CAD ?** Utilisez l'option `setBackgroundColor` pour appliquer un arrière‑plan personnalisé avant l'exportation.  
+- **Qu'est‑ce que le redimensionnement automatique de la mise en page ?** Il ajuste automatiquement le dessin pour qu'il s'adapte au canevas, garantissant un affichage optimal sans calculs manuels.
 
-## Intégrer le format IGES
-Découvrez l'intégration du format IGES en toute transparence avec Aspose.CAD pour Java. Ce didacticiel vous guide tout au long du processus, en exploitant la puissance d'Aspose.CAD pour améliorer votre expérience de développement CAO. Débloquez de nouvelles possibilités en matière de compatibilité de fichiers et de collaboration.
+## What is “set canvas size” in Aspose.CAD for Java?
+Définir la taille du canevas indique au moteur de rendu les dimensions exactes en pixels (ou la taille physique) du fichier de sortie. Ceci est essentiel lorsque vous avez besoin de mises en page de page cohérentes, d'intégrer des images CAD dans des rapports, ou de générer des vignettes avec des dimensions prévisibles.
 
-## Prise en charge du maillage avec Aspose.CAD pour Java
-Explorez le monde de la prise en charge du maillage dans les applications Java avec Aspose.CAD. Convertissez des fichiers CAO en PDF sans effort tout en conservant l'intégrité des structures maillées. Notre didacticiel vous permet de naviguer dans cette fonctionnalité de manière transparente pour des résultats époustouflants.
+## Why use Aspose.CAD’s advanced features?
+- **Sortie cohérente** – Le contrôle de la taille du canevas et de l'arrière‑plan assure une uniformité entre plusieurs fichiers.  
+- **Compatibilité étendue** – Convertissez des dessins CAD en PDF, TIFF ou PNG sans perte de détail.  
+- **Prêt pour l'automatisation** – Extrayez les attributs de bloc et appliquez le redimensionnement automatique de la mise en page de façon programmatique, idéal pour le traitement par lots.  
+- **Aucune dépendance externe** – Toutes les fonctionnalités sont disponibles directement via l'API Java, éliminant le besoin d'outils tiers.
 
-Au fur et à mesure que vous maîtriserez ces fonctionnalités avancées de CAO, vous rencontrerez :
+## Prerequisites
+- Java Development Kit (JDK) 8 ou supérieur.  
+- Bibliothèque Aspose.CAD pour Java (téléchargez la dernière version depuis le site Aspose).  
+- Une licence valide Aspose.CAD pour une utilisation en production (une licence d'évaluation gratuite suffit pour les tests).
 
-### Prise en charge du stylet lors de l'exportation
-Maîtrisez la personnalisation du stylo lors de l'exportation CAO avec Aspose.CAD pour Java. Suivez notre guide détaillé pour une intégration fluide qui vous permet de personnaliser vos projets CAO de manière unique.
+## Step‑by‑Step Overview of the Advanced Topics
 
-### Lecture des fichiers DWT
-Maîtrisez la lecture de fichiers DWT en Java avec Aspose.CAD. Notre didacticiel complet garantit un processus d'intégration transparent, vous permettant d'incorporer sans effort divers formats de fichiers dans vos projets de CAO.
+### How to set canvas size in Aspose.CAD for Java?
+Lorsque vous créez une instance `CadImage`, vous pouvez spécifier la largeur et la hauteur du canevas via l'objet `ImageOptions` avant l'enregistrement. Cela garantit que le fichier exporté correspond aux dimensions dont vous avez besoin.
 
-### Définition de la couleur de l'arrière-plan et du dessin
-Convertissez sans effort des fichiers CAO en PDF et TIFF tout en ajoutant une touche visuelle. Définissez des couleurs d'arrière-plan et de dessin personnalisées avec notre guide étape par étape, garantissant des résultats visuellement époustouflants pour vos projets.
+### How to convert CAD to PDF while preserving canvas size?
+Utilisez la classe `PdfOptions` conjointement avec les paramètres du canevas. Le processus de conversion respecte les dimensions du canevas, produisant un PDF qui ressemble exactement au rendu à l'écran.
 
-### Définir la taille et le mode du canevas
-Découvrez la puissance d'Aspose.CAD pour Java avec notre guide sur la définition de la taille et du mode du canevas. Convertissez sans effort les fichiers CAO aux formats PDF et TIFF tout en personnalisant la sortie pour répondre à vos besoins spécifiques.
+### How to extract block attribute values from external references?
+L'API fournit une collection `BlockReference`. En itérant sur cette collection, vous pouvez lire les valeurs d'attributs telles que les noms de calque, les couleurs ou les données personnalisées intégrées dans le fichier DWG/DXF.
 
-### Définition de la mise à l'échelle automatique de la mise en page
-Révolutionnez vos projets CAO avec Auto Layout Scaling. Ce didacticiel présente une fonctionnalité qui garantit un affichage et une efficacité optimaux. Téléchargez la bibliothèque, suivez le guide et apportez un nouveau niveau de sophistication à votre flux de travail CAO.
+### How to set CAD background color for a more polished look?
+La propriété `BackgroundColor` des options de rendu vous permet de choisir n'importe quelle couleur RGB. Ceci est particulièrement utile lorsque l'arrière‑plan blanc par défaut entre en conflit avec votre identité visuelle ou le thème de votre interface.
 
-### Prise en charge des calques
-Prise en charge de la couche principale dans le développement Java CAD. Organisez et exportez des dessins sans effort, améliorant ainsi l'organisation et la clarté de vos projets CAO.
+### How to apply auto layout scaling for dynamic canvas adjustments?
+Activez le drapeau `AutoLayoutScaling` dans les options de rendu. Le moteur redimensionnera automatiquement le dessin pour qu'il s'adapte au canevas tout en conservant le ratio d'aspect, vous évitant ainsi des calculs manuels.
 
-### Extraire la valeur d'attribut de bloc de la référence externe
-Plongez dans le didacticiel sur l'extraction des valeurs d'attribut de bloc à partir de références externes DWG en Java. Améliorez votre flux de travail de développement CAO sans effort, en garantissant une intégration transparente avec des références externes.
+## Detailed Tutorials for Each Feature
+Ci‑dessous, vous trouverez les tutoriels dédiés qui vous guident pas à pas à travers chaque capacité avancée. Cliquez sur n'importe quel lien pour en savoir plus.
 
-Embarquez pour ce voyage à travers les didacticiels Aspose.CAD pour Java, où l'innovation rencontre l'expertise et révolutionnez votre expérience de développement CAO. Téléchargez la bibliothèque, suivez les didacticiels et gardez une longueur d'avance dans le monde dynamique de la CAO.
-## Didacticiels sur les fonctionnalités avancées de CAO
-### [Activer le suivi pour le processus de rendu CAO](./enable-tracking-for-cad-rendering-process/)
-Améliorez votre rendu CAO avec Aspose.CAD pour Java. Suivez notre guide étape par étape pour activer le suivi et améliorer votre expérience de conversion PDF.
-### [Intégrer le format IGES](./integrate-iges-format/)
-Explorez l'intégration du format IGES en toute transparence avec Aspose.CAD pour Java. Suivez notre guide étape par étape, exploitant la puissance d'Aspose.CAD pour améliorer votre expérience de développement CAO.
-### [Prise en charge du maillage avec Aspose.CAD pour Java](./mesh-support-in-cad/)
-Explorez la prise en charge du maillage dans les applications Java avec Aspose.CAD. Convertissez des fichiers CAO en PDF sans effort. 
-### [Prise en charge du stylet lors de l'exportation](./pen-support-in-export/)
-Maîtrisez la personnalisation du stylo lors de l'exportation CAO avec Aspose.CAD pour Java. Suivez notre guide étape par étape pour une intégration transparente.
-### [Lecture des fichiers DWT](./reading-dwt-files/)
-Maîtrisez la lecture de fichiers DWT en Java avec Aspose.CAD. Suivez notre guide étape par étape pour une intégration transparente.
-### [Définition de la couleur d'arrière-plan et de dessin à l'aide d'Aspose.CAD pour Java](./setting-background-and-drawing-color/)
-Convertissez sans effort des fichiers CAO en PDF et TIFF à l'aide d'Aspose.CAD pour Java. Définissez des couleurs d’arrière-plan et de dessin personnalisées pour des résultats visuellement époustouflants.
-### [Définir la taille et le mode du canevas](./set-canvas-size-and-mode/)
-Découvrez la puissance d'Aspose.CAD pour Java avec notre guide étape par étape sur la définition de la taille et du mode du canevas. Convertissez sans effort les fichiers CAO aux formats PDF et TIFF.
-### [Configuration de la mise à l'échelle automatique de la mise en page avec Aspose.CAD pour Java](./setting-auto-layout-scaling/)
-Améliorez votre flux de travail CAO avec Aspose.CAD pour Java. Ce guide étape par étape présente la mise à l'échelle automatique de la mise en page, garantissant un affichage et une efficacité optimaux. Téléchargez la bibliothèque, suivez le tutoriel et révolutionnez vos projets CAO.
-### [Prise en charge des calques avec Aspose.CAD en Java](./support-of-layers-in-cad/)
-Prise en charge de la couche principale dans le développement Java CAD avec Aspose.CAD. Organisez et exportez des dessins sans effort.
-### [Extraire la valeur d'attribut de bloc d'une référence externe à l'aide d'Aspose.CAD en Java](./extract-block-attribute-value/)
-Découvrez notre didacticiel sur l'extraction de valeurs d'attributs de bloc à partir de références externes DWG en Java à l'aide d'Aspose.CAD. Améliorez votre flux de travail de développement CAO sans effort.
+### [Enable Tracking for CAD Rendering Process](./enable-tracking-for-cad-rendering-process/)
+Améliorez votre rendu CAD avec Aspose.CAD pour Java. Suivez notre guide pas à pas pour activer le suivi et optimiser votre expérience de conversion PDF.
+
+### [Integrate IGES Format](./integrate-iges-format/)
+Explorez l'intégration du format IGES de manière fluide avec Aspose.CAD pour Java. Suivez notre guide pas à pas, en exploitant la puissance d'Aspose.CAD pour enrichir votre développement CAD.
+
+### [Mesh Support with Aspose.CAD for Java](./mesh-support-in-cad/)
+Découvrez la prise en charge des maillages dans les applications Java avec Aspose.CAD. Convertissez des fichiers CAD en PDF sans effort.
+
+### [Pen Support in Export](./pen-support-in-export/)
+Maîtrisez la personnalisation des stylos lors de l'exportation CAD avec Aspose.CAD pour Java. Suivez notre guide pas à pas pour une intégration fluide.
+
+### [Reading DWT Files](./reading-dwt-files/)
+Maîtrisez la lecture des fichiers DWT en Java avec Aspose.CAD. Suivez notre guide pas à pas pour une intégration sans heurts.
+
+### [Setting Background and Drawing Color Using Aspose.CAD for Java](./setting-background-and-drawing-color/)
+Convertissez facilement des fichiers CAD en PDF et TIFF avec Aspose.CAD pour Java. Définissez des couleurs d'arrière‑plan et de dessin personnalisées pour des résultats visuellement époustouflants.
+
+### [Set Canvas Size and Mode](./set-canvas-size-and-mode/)
+Explorez la puissance d'Aspose.CAD pour Java avec notre guide pas à pas sur **la définition de la taille du canevas** et du mode. Convertissez sans effort des fichiers CAD en formats PDF et TIFF.
+
+### [Setting Auto Layout Scaling with Aspose.CAD for Java](./setting-auto-layout-scaling/)
+Optimisez votre flux de travail CAD avec Aspose.CAD pour Java. Ce guide pas à pas introduit le redimensionnement automatique de la mise en page, garantissant un affichage optimal et une efficacité accrue. Téléchargez la bibliothèque, suivez le tutoriel et révolutionnez vos projets CAD.
+
+### [Support of Layers with Aspose.CAD in Java](./support-of-layers-in-cad/)
+Maîtrisez la prise en charge des calques dans le développement CAD Java avec Aspose.CAD. Organisez et exportez vos dessins sans effort.
+
+### [Extract Block Attribute Value from External Reference Using Aspose.CAD In Java](./extract-block-attribute-value/)
+Explorez notre tutoriel sur l'extraction des valeurs d'attributs de bloc à partir de références externes DWG en Java avec Aspose.CAD. Améliorez votre flux de travail de développement CAD sans difficulté.
+
+## Common Issues & Troubleshooting
+- **Canvas size not applied:** Assurez‑vous de définir la taille sur le bon objet `ImageOptions` avant d'appeler `save()`.  
+- **Background color appears unchanged:** Vérifiez que le mode de rendu prend en charge les couleurs d'arrière‑plan (par ex., PNG, TIFF).  
+- **Block attributes return null:** Confirmez que le fichier DWG contient réellement des définitions d'attributs et que vous accédez à la bonne référence de bloc.  
+- **Auto layout scaling looks distorted:** Assurez‑vous que le drapeau de ratio d'aspect est activé ; sinon le moteur pourrait étirer le dessin.
+
+## Frequently Asked Questions
+
+**Q: Puis‑je définir une taille de canevas personnalisée pour chaque fichier dans un processus par lots ?**  
+**R:** Oui. Parcourez votre collection de fichiers CAD, configurez la taille du canevas sur chaque instance `ImageOptions`, puis enregistrez la sortie de façon programmatique.
+
+**Q: Le réglage de la taille du canevas affecte‑t‑il la qualité du PDF exporté ?**  
+**R:** La qualité dépend du paramètre DPI dans les options de rendu. Vous pouvez augmenter le DPI tout en conservant les dimensions du canevas pour obtenir des PDF à plus haute résolution.
+
+**Q: Comment extraire les valeurs d'attributs de bloc d'un DWG contenant des références externes ?**  
+**R:** Utilisez la collection `ExternalReference` pour résoudre la référence, puis itérez sur ses objets `BlockReference` afin de lire les valeurs d'attributs.
+
+**Q: Le redimensionnement automatique de la mise en page est‑il compatible avec les formats de sortie vectoriels comme le PDF ?**  
+**R:** Oui. La logique de mise à l'échelle fonctionne à la fois pour les sorties raster (PNG, TIFF) et vectorielles (PDF, SVG), garantissant que le dessin s'adapte au canevas.
+
+**Q: Quelle licence est requise pour une utilisation commerciale ?**  
+**R:** Une licence payante Aspose.CAD est nécessaire pour les déploiements en production. Une licence d'évaluation gratuite peut être utilisée pour le développement et les tests.
+
+---
+
+**Dernière mise à jour :** 2025-12-07  
+**Testé avec :** Aspose.CAD pour Java 24.12 (latest)  
+**Auteur :** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
