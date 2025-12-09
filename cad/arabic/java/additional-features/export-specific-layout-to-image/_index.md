@@ -2,11 +2,10 @@
 date: 2025-12-04
 description: تعلم كيفية تحويل تخطيط DXF إلى JPEG باستخدام Aspose.CAD للغة Java – دليل
   خطوة بخطوة حول كيفية تصدير DXF إلى صورة بكفاءة.
-language: ar
 linktitle: Export Specific DXF Layout to Image with Java
 second_title: Aspose.CAD Java API
 title: كيفية تحويل تخطيط DXF إلى صورة JPEG باستخدام Aspose.CAD في Java
-url: /java/additional-features/export-specific-layout-to-image/
+url: /ar/java/additional-features/export-specific-layout-to-image/
 weight: 16
 ---
 

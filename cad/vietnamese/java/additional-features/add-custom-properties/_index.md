@@ -3,11 +3,10 @@ date: 2025-11-30
 description: Tìm hiểu cách thêm thuộc tính tùy chỉnh vào các tệp DWG trong Java bằng
   Aspose.CAD. Nâng cao việc tổ chức và truy xuất thông tin trong bản vẽ CAD một cách
   dễ dàng.
-language: vi
 linktitle: Add Custom Properties to DWG Files Using Java
 second_title: Aspose.CAD Java API
 title: Thêm Thuộc Tính Tùy Chỉnh cho Tệp DWG bằng Aspose.CAD cho Java
-url: /java/additional-features/add-custom-properties/
+url: /vi/java/additional-features/add-custom-properties/
 weight: 10
 ---
 

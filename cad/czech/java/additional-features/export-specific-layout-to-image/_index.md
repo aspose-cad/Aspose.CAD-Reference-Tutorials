@@ -2,11 +2,10 @@
 date: 2025-12-04
 description: Naučte se, jak převést rozložení DXF do JPEG pomocí Aspose.CAD pro Javu
   – podrobný návod krok za krokem, jak efektivně exportovat DXF do obrázku.
-language: cs
 linktitle: Export Specific DXF Layout to Image with Java
 second_title: Aspose.CAD Java API
 title: Jak převést rozvržení DXF na JPEG obrázek pomocí Aspose.CAD v Javě
-url: /java/additional-features/export-specific-layout-to-image/
+url: /cs/java/additional-features/export-specific-layout-to-image/
 weight: 16
 ---
 

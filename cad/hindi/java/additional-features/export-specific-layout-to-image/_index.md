@@ -2,11 +2,10 @@
 date: 2025-12-04
 description: Aspose.CAD for Java का उपयोग करके dxf लेआउट JPEG को कैसे बदलें सीखें
   – dxf को इमेज में कुशलतापूर्वक निर्यात करने के लिए चरण‑दर‑चरण मार्गदर्शिका।
-language: hi
 linktitle: Export Specific DXF Layout to Image with Java
 second_title: Aspose.CAD Java API
 title: Aspose.CAD का उपयोग करके जावा में DXF लेआउट को JPEG इमेज में कैसे बदलें
-url: /java/additional-features/export-specific-layout-to-image/
+url: /hi/java/additional-features/export-specific-layout-to-image/
 weight: 16
 ---
 

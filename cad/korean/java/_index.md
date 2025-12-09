@@ -2,10 +2,9 @@
 date: 2025-11-29
 description: Aspose.CAD for Java를 사용하여 CAD를 PDF로 변환하고, CAD를 SVG로 내보내는 방법 등 다양한 기능을
   배우세요. 개발자를 위한 포괄적인 단계별 튜토리얼.
-language: ko
 linktitle: Aspose.CAD for Java Tutorials
 title: Aspose.CAD for Java를 사용하여 CAD를 PDF로 변환 – 전체 튜토리얼
-url: /java/
+url: /ko/java/
 weight: 10
 ---
 

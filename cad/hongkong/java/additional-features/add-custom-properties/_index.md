@@ -1,11 +1,10 @@
 ---
 date: 2025-11-30
 description: 學習如何在 Java 中使用 Aspose.CAD 為 DWG 檔案新增自訂屬性，輕鬆提升 CAD 圖紙的組織與資訊檢索效率。
-language: zh-hant
 linktitle: Add Custom Properties to DWG Files Using Java
 second_title: Aspose.CAD Java API
 title: 使用 Aspose.CAD for Java 為 DWG 檔案新增自訂屬性
-url: /java/additional-features/add-custom-properties/
+url: /zh-hant/java/additional-features/add-custom-properties/
 weight: 10
 ---
 

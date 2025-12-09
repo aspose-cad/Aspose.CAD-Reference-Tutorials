@@ -1,10 +1,9 @@
 ---
 date: 2025-11-29
 description: 了解如何使用 Aspose.CAD for Java 將 CAD 轉換為 PDF、匯出 CAD 為 SVG，以及更多功能。為開發人員提供完整的逐步教學。
-language: zh-hant
 linktitle: Aspose.CAD for Java Tutorials
 title: 使用 Aspose.CAD for Java 將 CAD 轉換為 PDF – 完整教學
-url: /java/
+url: /zh-hant/java/
 weight: 10
 ---
 

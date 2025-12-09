@@ -3,10 +3,9 @@ date: 2025-11-29
 description: Tìm hiểu cách chuyển đổi CAD sang PDF, xuất CAD sang SVG và nhiều hơn
   nữa với Aspose.CAD cho Java. Các hướng dẫn chi tiết, từng bước dành cho nhà phát
   triển.
-language: vi
 linktitle: Aspose.CAD for Java Tutorials
 title: Chuyển đổi CAD sang PDF với Aspose.CAD cho Java – Hướng dẫn đầy đủ
-url: /java/
+url: /vi/java/
 weight: 10
 ---
 

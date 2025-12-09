@@ -3,11 +3,10 @@ date: 2025-11-30
 description: Aprenda a crear PDF a partir de archivos DXF y exportar una capa específica
   usando Aspose.CAD para Java. Esta guía paso a paso le muestra cómo convertir DXF
   a PDF de forma rápida y fiable.
-language: es
 linktitle: Export Specific Layer of DXF Drawing to PDF with Java
 second_title: Aspose.CAD Java API
 title: 'Crear PDF a partir de DXF: Exportar capa con Aspose.CAD para Java'
-url: /java/additional-features/export-specific-layer-to-pdf/
+url: /es/java/additional-features/export-specific-layer-to-pdf/
 weight: 18
 ---
 

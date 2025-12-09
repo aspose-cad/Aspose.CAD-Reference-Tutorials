@@ -1,11 +1,10 @@
 ---
 date: 2025-11-30
 description: Aspose.CAD を使用して Java で DWG ファイルにカスタム プロパティを追加する方法を学びましょう。CAD 図面の整理と情報検索を簡単に強化できます。
-language: ja
 linktitle: Add Custom Properties to DWG Files Using Java
 second_title: Aspose.CAD Java API
 title: Aspose.CAD for Java を使用して DWG ファイルにカスタム プロパティを追加する
-url: /java/additional-features/add-custom-properties/
+url: /ja/java/additional-features/add-custom-properties/
 weight: 10
 ---
 

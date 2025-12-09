@@ -2,10 +2,9 @@
 date: 2025-11-29
 description: Scopri come convertire CAD in PDF, esportare CAD in SVG e molto altro
   con Aspose.CAD per Java. Tutorial completi passo‑passo per gli sviluppatori.
-language: it
 linktitle: Aspose.CAD for Java Tutorials
 title: Converti CAD in PDF con Aspose.CAD per Java – Tutorial completi
-url: /java/
+url: /it/java/
 weight: 10
 ---
 

@@ -2,11 +2,10 @@
 date: 2025-12-04
 description: Scopri come convertire layout dxf in jpeg usando Aspose.CAD per Java
   – una guida passo passo su come esportare dxf in immagine in modo efficiente.
-language: it
 linktitle: Export Specific DXF Layout to Image with Java
 second_title: Aspose.CAD Java API
 title: Come convertire il layout DXF in immagine JPEG con Aspose.CAD in Java
-url: /java/additional-features/export-specific-layout-to-image/
+url: /it/java/additional-features/export-specific-layout-to-image/
 weight: 16
 ---
 

@@ -2,11 +2,10 @@
 date: 2025-12-04
 description: Apprenez à convertir une mise en page DXF en JPEG à l’aide d’Aspose.CAD
   pour Java – un guide étape par étape sur la façon d’exporter un DXF en image efficacement.
-language: fr
 linktitle: Export Specific DXF Layout to Image with Java
 second_title: Aspose.CAD Java API
 title: Comment convertir une mise en page DXF en image JPEG avec Aspose.CAD en Java
-url: /java/additional-features/export-specific-layout-to-image/
+url: /fr/java/additional-features/export-specific-layout-to-image/
 weight: 16
 ---
 

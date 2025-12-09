@@ -2,11 +2,10 @@
 date: 2025-12-04
 description: Узнайте, как конвертировать макет DXF в JPEG с помощью Aspose.CAD for
   Java — пошаговое руководство по эффективному экспорту DXF в изображение.
-language: ru
 linktitle: Export Specific DXF Layout to Image with Java
 second_title: Aspose.CAD Java API
 title: Как преобразовать макет DXF в изображение JPEG с помощью Aspose.CAD на Java
-url: /java/additional-features/export-specific-layout-to-image/
+url: /ru/java/additional-features/export-specific-layout-to-image/
 weight: 16
 ---
 

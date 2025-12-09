@@ -3,11 +3,10 @@ date: 2025-12-04
 description: Leer hoe u dxf‑bestanden naar PDF kunt exporteren met Aspose.CAD voor
   Java, PDF kunt maken vanuit dxf, en de paginagrootte in Java kunt instellen voor
   nauwkeurige CAD‑conversies.
-language: nl
 linktitle: Export Specific DXF Layout to PDF with Java
 second_title: Aspose.CAD Java API
 title: Hoe DXF-indeling exporteren naar PDF met Aspose.CAD voor Java
-url: /java/additional-features/export-specific-layout-to-pdf/
+url: /nl/java/additional-features/export-specific-layout-to-pdf/
 weight: 17
 ---
 

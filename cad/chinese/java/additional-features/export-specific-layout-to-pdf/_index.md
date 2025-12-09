@@ -2,11 +2,10 @@
 date: 2025-12-04
 description: 了解如何使用 Aspose.CAD for Java 将 DXF 文件导出为 PDF，创建 DXF 的 PDF，并在 Java 中设置页面大小，以实现精确的
   CAD 转换。
-language: zh
 linktitle: Export Specific DXF Layout to PDF with Java
 second_title: Aspose.CAD Java API
 title: 如何使用 Aspose.CAD for Java 将 DXF 布局导出为 PDF
-url: /java/additional-features/export-specific-layout-to-pdf/
+url: /zh/java/additional-features/export-specific-layout-to-pdf/
 weight: 17
 ---
 

@@ -3,11 +3,10 @@ date: 2025-12-04
 description: Pelajari cara mengonversi tata letak DXF ke JPEG menggunakan Aspose.CAD
   untuk Java – panduan langkah demi langkah tentang cara mengekspor DXF ke gambar
   secara efisien.
-language: id
 linktitle: Export Specific DXF Layout to Image with Java
 second_title: Aspose.CAD Java API
 title: Cara Mengonversi Tata Letak DXF ke Gambar JPEG dengan Aspose.CAD di Java
-url: /java/additional-features/export-specific-layout-to-image/
+url: /id/java/additional-features/export-specific-layout-to-image/
 weight: 16
 ---
 

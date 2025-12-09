@@ -2,11 +2,10 @@
 date: 2025-12-04
 description: เรียนรู้วิธีแปลงเลเอาต์ dxf เป็น jpeg ด้วย Aspose.CAD สำหรับ Java – คู่มือขั้นตอนโดยละเอียดเกี่ยวกับวิธีส่งออก
   dxf เป็นภาพอย่างมีประสิทธิภาพ
-language: th
 linktitle: Export Specific DXF Layout to Image with Java
 second_title: Aspose.CAD Java API
 title: วิธีแปลงเลเอาต์ DXF เป็นภาพ JPEG ด้วย Aspose.CAD ใน Java
-url: /java/additional-features/export-specific-layout-to-image/
+url: /th/java/additional-features/export-specific-layout-to-image/
 weight: 16
 ---
 

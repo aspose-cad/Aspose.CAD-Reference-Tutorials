@@ -3,11 +3,10 @@ date: 2025-11-29
 description: Pelajari cara mengonversi DXF ke WMF dengan Aspose.CAD untuk Java, memuat
   gambar DXF, dan secara opsional menggunakan ekspor Aspose ke PDF. Panduan langkah
   demi langkah dengan contoh kode.
-language: id
 linktitle: Export DXF to WMF Format Using Java
 second_title: Aspose.CAD Java API
 title: Konversi DXF ke WMF Menggunakan Aspose.CAD di Java
-url: /java/additional-features/export-dxf-to-wmf/
+url: /id/java/additional-features/export-dxf-to-wmf/
 weight: 14
 ---
 
