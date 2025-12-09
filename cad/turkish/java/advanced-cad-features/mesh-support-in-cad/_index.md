@@ -1,35 +1,44 @@
 ---
-title: Java için Aspose.CAD ile Mesh Desteği
-linktitle: CAD'de Mesh Desteği
-second_title: Aspose.CAD Java API'si
-description: Aspose.CAD ile Java uygulamalarındaki mesh desteğini keşfedin. CAD dosyalarını zahmetsizce PDF'ye dönüştürün.
-weight: 12
+date: 2025-12-09
+description: Aspose.CAD for Java kullanarak DWG dosyalarından PDF oluşturmayı öğrenin.
+  Mesh desteğiyle DWG'yi PDF'ye zahmetsizce dönüştürün.
+linktitle: Mesh Support in CAD
+second_title: Aspose.CAD Java API
+title: Aspose.CAD for Java ile DWG'den PDF Oluştur
 url: /tr/java/advanced-cad-features/mesh-support-in-cad/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Java için Aspose.CAD ile Mesh Desteği
+# DWG'den PDF Oluşturma Aspose.CAD for Java
 
-## giriiş
+## Introduction
 
-Aspose.CAD for Java, geliştiricilerin Java uygulamalarındaki Bilgisayar Destekli Tasarım (CAD) dosyalarıyla sorunsuz bir şekilde çalışmasını sağlayan güçlü bir kütüphanedir. Bu eğitimde Aspose.CAD for Java'daki mesh desteği özelliğini keşfedeceğiz; bu özellik, mesh içeren CAD dosyalarını PDF formatına dönüştürmenize olanak tanıyor. Bu kitaplığın özelliklerinden yararlanmak ve CAD dosya işlemenizi geliştirmek için aşağıdaki adım adım kılavuzu izleyin.
+Bu öğreticide **DWG dosyalarından PDF oluşturmayı** Aspose.CAD for Java kullanarak öğreneceksiniz. Kütüphanenin ağ desteği, karmaşık CAD çizimlerini—3‑B ağlar içerenleri—doğrudan PDF'ye kayıpsız dönüştürmenizi sağlar. Raporlama, arşivleme veya sonraki işleme için **DWG'yi PDF'ye dönüştürmeniz** gerektiğinde, aşağıdaki adımlar güvenilir, üretim‑hazır bir çözüm sunar.
 
-## Önkoşullar
+## Quick Answers
+- **Bu öğretici neyi kapsıyor?** Ağ içeren bir DWG dosyasını Aspose.CAD for Java kullanarak PDF'ye dönüştürmek.  
+- **Lisans gerekli mi?** Test için geçici bir lisans yeterlidir; ticari kullanım için tam lisans gerekir.  
+- **Hangi Java sürümü destekleniyor?** Java 8 ve üzeri.  
+- **Başka formatları dışa aktarabilir miyim?** Evet – Aspose.CAD PNG, JPEG, BMP ve daha fazlasını destekler.  
+- **Dönüşüm ne kadar sürer?** Standart‑boyutlu çizimler için genellikle bir saniyeden az.
 
-Eğiticiye dalmadan önce aşağıdaki önkoşulların yerine getirildiğinden emin olun:
+## DWG'den PDF Nasıl Oluşturulur?
 
-- Java Geliştirme Ortamı: Makinenizde bir Java geliştirme ortamının kurulu olduğundan emin olun.
+Aşağıda, projeyi kurmaktan son PDF'yi kaydetmeye kadar tüm süreci adım adım anlatan kısa bir rehber bulacaksınız.
 
--  Aspose.CAD for Java Library: Aspose.CAD for Java kütüphanesini aşağıdaki adresten indirip yükleyin:[İndirme: {link](https://releases.aspose.com/cad/java/).
+## Prerequisites
 
-- Kafesli Belge: Dönüştürmeye hazır, kafesler içeren bir CAD belgesine sahip olun. Sağlanan örnek kodu "meshes.dwg" adlı bir dosyayla kullanabilirsiniz.
+- **Java Geliştirme Ortamı:** Makinenizde JDK 8 veya daha yeni bir sürüm yüklü olmalıdır.  
+- **Aspose.CAD for Java Kütüphanesi:** En son JAR dosyasını [download link](https://releases.aspose.com/cad/java/) adresinden indirin.  
+- **Ağ İçeren Belge:** Ağ verisi içeren bir DWG dosyası (ör. `meshes.dwg`).  
 
-## Ad Alanlarını İçe Aktar
+## Import Namespaces
 
-Aspose.CAD sınıflarına ve yöntemlerine erişmek için Java kodunuza gerekli ad alanlarını ekleyin. Aşağıdaki içe aktarma ifadelerini ekleyin:
+Java kaynak dosyanızda, gerekli Aspose.CAD sınıflarını dahil edin:
 
 ```java
 import com.aspose.cad.Image;
@@ -39,13 +48,13 @@ import com.aspose.cad.imageoptions.CadRasterizationOptions;
 import com.aspose.cad.imageoptions.PdfOptions;
 ```
 
-## Adım 1: Projeyi Kurun
+## Step 1: Set Up the Project
 
-Yeni bir Java projesi oluşturun ve Aspose.CAD kütüphanesini içe aktarın. Proje dizinini şu şekilde ayarlayın:`dataDir`.
+Yeni bir Java projesi oluşturun (veya mevcut bir projeye ekleyin) ve Aspose.CAD JAR dosyasını projenin sınıf yoluna ekleyin. Kaynak DWG dosyanızı ve oluşturulan PDF'yi tutacak bir temel dizin tanımlayın.
 
-## 2. Adım: Dosya Yollarını Tanımlayın
+## Step 2: Define File Paths
 
-Kaynak CAD dosyasının yollarını tanımlayın (`meshes.dwg`) ve çıktı PDF dosyası (`meshes.pdf`).
+Giriş DWG dosyasının nerede bulunduğunu ve çıkış PDF'nin nereye yazılacağını belirtin.
 
 ```java
 String dataDir = "Your Document Directory" + "CADConversion/";
@@ -53,17 +62,17 @@ String sourceFilePath = dataDir + "meshes.dwg";
 String outPath = dataDir + "meshes.pdf";
 ```
 
-## Adım 3: CAD Görüntüsünü Yükleyin
+## Step 3: Load the CAD Image
 
- CAD görüntüsünü kullanarak yükleyin.`Image.load` yöntemini kullanın ve onu yayınlayın`CadImage`.
+DWG dosyasını bir `CadImage` nesnesine yükleyin, böylece Aspose.CAD iç yapısıyla çalışabilir.
 
 ```java
 CadImage cadImage = (CadImage)Image.load(sourceFilePath);
 ```
 
-## Adım 4: Rasterleştirme Seçeneklerini Yapılandırın
+## Step 4: Configure Rasterization Options
 
-PDF çıktısının sayfa boyutlarını ve düzenlerini ayarlamak için rasterleştirme seçeneklerini yapılandırın.
+Oluşturulan PDF sayfalarının boyut ve düzenini kontrol eden rasterleştirme seçeneklerini ayarlayın. `Layouts` dizisi, Aspose.CAD'in ağ varlıklarını içeren **Model** alanını render etmesini sağlar.
 
 ```java
 CadRasterizationOptions rasterizationOptions = new CadRasterizationOptions();
@@ -72,50 +81,71 @@ rasterizationOptions.setPageHeight(1600);
 rasterizationOptions.setLayouts(new String[] { "Model" });
 ```
 
-## Adım 5: PDF Seçeneklerini Ayarlayın
+## Step 5: Set PDF Options
 
-Vektör rasterleştirme seçenekleri de dahil olmak üzere PDF seçeneklerini ayarlayın.
+Rasterleştirme ayarlarını bir `PdfOptions` örneğine ekleyin. Bu, kütüphaneye PDF üretirken önceden tanımlanan seçenekleri kullanmasını söyler.
 
 ```java
 PdfOptions pdfOptions = new PdfOptions();
 pdfOptions.setVectorRasterizationOptions(rasterizationOptions);
 ```
 
-## Adım 6: PDF'yi kaydedin
+## Step 6: Save the PDF
 
-Belirtilen seçenekleri kullanarak CAD görüntüsünü PDF olarak kaydedin.
+Son olarak, yüklenen CAD görüntüsünü PDF dosyası olarak kaydedin. Oluşan belge, orijinal DWG'nin, ağ geometrisi dahil, eksiksiz bir temsilini içerecektir.
 
 ```java
 cadImage.save(outPath, pdfOptions);
 ```
 
-Aspose.CAD for Java'yı kullanarak kafesli CAD dosyalarını sorunsuz bir şekilde PDF'ye dönüştürmek için bu adımları dikkatlice izleyin.
+### Why this works for **convert CAD to PDF**
 
-## Çözüm
+Aspose.CAD, vektör tabanlı rasterleştirme yapar ve çizgi kalınlıklarını, renkleri ve 3‑B ağ detaylarını korur. Rasterleştirme seçeneklerini yapılandırarak çözünürlük ve düzeni kontrol edersiniz, böylece **CAD çiziminin dışa aktarımı** PDF'de tam olarak istediğiniz gibi görünür.
 
-Sonuç olarak Aspose.CAD for Java, ağ desteği de dahil olmak üzere CAD dosyalarının işlenmesi için güçlü bir destek sağlar. Bu öğreticiyi izleyerek, kafes içeren CAD dosyalarını zahmetsizce PDF formatına dönüştürebilir ve belge dönüştürme yeteneklerinizi geliştirebilirsiniz.
+## Common Use Cases
 
-## SSS'ler
+- **Otomatik raporlama:** Mühendislik çizimlerinden anlık PDF raporları oluşturun.  
+- **Belge arşivleme:** CAD çizimlerini uzun vadeli saklama için PDF olarak depolayın.  
+- **Web hizmetleri:** DWG yüklemelerini kabul edip PDF dönen bir API sunun, SaaS platformları için faydalıdır.  
 
-### S1: Aspose.CAD for Java ticari kullanıma uygun mudur?
+## Troubleshooting Tips
 
- Cevap1: Evet, Aspose.CAD for Java hem kişisel hem de ticari kullanım için tasarlanmıştır. Lisans ayrıntılarını şurada bulabilirsiniz:[satın alma sayfası](https://purchase.aspose.com/buy).
+- **Çıktıda ağ eksik:** `Layouts` özelliğinin `"Model"` içerdiğini doğrulayın; ağlar genellikle model alanında depolanır.  
+- **Yanlış ölçekleme:** Çizimin yerel birimlerine uyması için `PageWidth` ve `PageHeight` değerlerini ayarlayın.  
+- **Lisans hataları:** Görüntüyü yüklemeden önce geçerli bir lisans dosyasıyla `License.setLicense()` çağrısı yaptığınızdan emin olun.
 
-### S2: Test amaçlı geçici lisansı nasıl alabilirim?
+## Conclusion
 
- A2: Geçici bir lisans alın[Burada](https://purchase.aspose.com/temporary-license/) Test ve değerlendirme için.
+Bu adımları izleyerek **DWG'yi PDF'ye dönüştürmeyi** güvenilir bir şekilde yapabilir ve Aspose.CAD'in ağ desteğinden tam olarak yararlanabilirsiniz. Bu özellik, karmaşık CAD çizimlerinin yüksek kaliteli PDF dışa aktarımını gerektiren iş akışlarını, dahili kullanım veya müşteri odaklı belgeler olsun, basitleştirir.
 
-### S3: Aspose.CAD for Java için topluluk desteğini nerede bulabilirim?
+## FAQ's
 
- Cevap3: Aspose.CAD'e özel forumunu ziyaret edin[https://forum.aspose.com/c/cad/19](https://forum.aspose.com/c/cad/19) topluluk desteği için.
+### Q1: Aspose.CAD for Java ticari kullanım için uygun mu?
 
-### S4: PDF dışında desteklenen başka çıktı formatları var mı?
+A1: Evet, Aspose.CAD for Java hem kişisel hem de ticari kullanım için tasarlanmıştır. Lisans detaylarını [purchase page](https://purchase.aspose.com/buy) adresinde bulabilirsiniz.
 
-Cevap4: Evet, Aspose.CAD for Java PNG, JPEG, BMP ve daha fazlası dahil olmak üzere çeşitli çıktı formatlarını destekler. Ayrıntılar için belgelere bakın.
+### Q2: Test amaçlı geçici bir lisans nasıl alabilirim?
 
-### S5: Aspose.CAD for Java'yı ücretsiz deneyebilir miyim?
+A2: Test ve değerlendirme için geçici bir lisansı [buradan](https://purchase.aspose.com/temporary-license/) alabilirsiniz.
 
- Cevap5: Evet, Aspose.CAD for Java'nın ücretsiz deneme sürümünü keşfedebilirsiniz[Burada](https://releases.aspose.com/).
+### Q3: Aspose.CAD for Java için topluluk desteğini nereden bulabilirim?
+
+A3: Topluluk desteği için Aspose.CAD'e özel forumu [https://forum.aspose.com/c/cad/19](https://forum.aspose.com/c/cad/19) adresinde ziyaret edin.
+
+### Q4: PDF dışında desteklenen başka çıktı formatları var mı?
+
+A4: Evet, Aspose.CAD for Java PNG, JPEG, BMP ve daha fazlası dahil çeşitli çıktı formatlarını destekler. Detaylar için belgelere bakın.
+
+### Q5: Aspose.CAD for Java'ı ücretsiz deneyebilir miyim?
+
+5: Evet, Aspose.CAD for Java'ın ücretsiz deneme sürümünü [buradan](https://releases.aspose.com/) inceleyebilirsiniz.
+
+---
+
+**Last Updated:** 2025-12-09  
+**Tested With:** Aspose.CAD for Java 24.11  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

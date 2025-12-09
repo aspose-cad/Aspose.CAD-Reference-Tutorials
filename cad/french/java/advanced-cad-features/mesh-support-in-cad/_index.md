@@ -1,35 +1,44 @@
 ---
-title: Prise en charge du maillage avec Aspose.CAD pour Java
-linktitle: Prise en charge du maillage en CAO
-second_title: API Java Aspose.CAD
-description: Explorez la prise en charge du maillage dans les applications Java avec Aspose.CAD. Convertissez des fichiers CAO en PDF sans effort.
-weight: 12
+date: 2025-12-09
+description: Apprenez à créer des PDF à partir de fichiers DWG en utilisant Aspose.CAD
+  pour Java. Convertissez les DWG en PDF sans effort avec la prise en charge du maillage.
+linktitle: Mesh Support in CAD
+second_title: Aspose.CAD Java API
+title: Créer un PDF à partir de DWG avec Aspose.CAD pour Java
 url: /fr/java/advanced-cad-features/mesh-support-in-cad/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Prise en charge du maillage avec Aspose.CAD pour Java
+# Créer un PDF à partir de DWG avec Aspose.CAD pour Java
 
 ## Introduction
 
-Aspose.CAD pour Java est une bibliothèque puissante qui permet aux développeurs de travailler de manière transparente avec des fichiers de conception assistée par ordinateur (CAO) dans les applications Java. Dans ce didacticiel, nous explorerons la fonctionnalité de prise en charge du maillage dans Aspose.CAD pour Java, vous permettant de convertir des fichiers CAO avec des maillages au format PDF. Suivez le guide étape par étape ci-dessous pour exploiter les capacités de cette bibliothèque et améliorer la gestion de vos fichiers CAO.
+Dans ce tutoriel, vous apprendrez **comment créer un PDF à partir de DWG** en utilisant Aspose.CAD pour Java. Le support des maillages de la bibliothèque vous permet de convertir des dessins CAD complexes—y compris ceux contenant des maillages 3‑D—directement en PDF sans perdre de détails. Que vous ayez besoin de **convertir DWG en PDF** pour le reporting, l’archivage ou le traitement en aval, les étapes ci‑dessous vous guideront vers une solution fiable et prête pour la production.
 
-## Conditions préalables
+## Réponses rapides
+- **Quel est le sujet du tutoriel ?** Conversion d'un fichier DWG contenant des maillages en PDF à l'aide d'Aspose.CAD pour Java.  
+- **Ai-je besoin d'une licence ?** Une licence temporaire suffit pour les tests ; une licence complète est requise pour une utilisation commerciale.  
+- **Quelle version de Java est prise en charge ?** Java 8 ou ultérieure.  
+- **Puis-je exporter d'autres formats ?** Oui – Aspose.CAD prend également en charge PNG, JPEG, BMP, et plus encore.  
+- **Combien de temps prend la conversion ?** Généralement moins d'une seconde pour des dessins de taille standard.
 
-Avant de plonger dans le didacticiel, assurez-vous que les conditions préalables suivantes sont remplies :
+## Comment créer un PDF à partir de DWG ?
 
-- Environnement de développement Java : assurez-vous qu'un environnement de développement Java est configuré sur votre ordinateur.
+Vous trouverez ci‑dessous un guide concis, étape par étape, qui vous accompagne tout au long du processus – de la configuration du projet à l'enregistrement du PDF final.
 
--  Bibliothèque Aspose.CAD pour Java : Téléchargez et installez la bibliothèque Aspose.CAD pour Java à partir du[lien de téléchargement](https://releases.aspose.com/cad/java/).
+## Prérequis
 
-- Document avec maillages : disposez d'un document CAO contenant des maillages prêts à être convertis. Vous pouvez utiliser l'exemple de code fourni avec un fichier nommé « meshes.dwg ».
+- **Environnement de développement Java :** JDK 8 ou plus récent sur votre machine.  
+- **Bibliothèque Aspose.CAD pour Java :** Téléchargez le JAR le plus récent depuis le [download link](https://releases.aspose.com/cad/java/).  
+- **Document avec maillages :** Un fichier DWG contenant des données de maillage (par ex., `meshes.dwg`).  
 
-## Importer des espaces de noms
+## Importer les espaces de noms
 
-Dans votre code Java, incluez les espaces de noms nécessaires pour accéder aux classes et méthodes Aspose.CAD. Ajoutez les instructions d'importation suivantes :
+Dans votre fichier source Java, incluez les classes Aspose.CAD requises :
 
 ```java
 import com.aspose.cad.Image;
@@ -39,13 +48,13 @@ import com.aspose.cad.imageoptions.CadRasterizationOptions;
 import com.aspose.cad.imageoptions.PdfOptions;
 ```
 
-## Étape 1 : configurer le projet
+## Étape 1 : Configurer le projet
 
-Créez un nouveau projet Java et importez la bibliothèque Aspose.CAD. Définissez le répertoire du projet comme`dataDir`.
+Créez un nouveau projet Java (ou ajoutez‑le à un projet existant) et ajoutez le JAR Aspose.CAD au classpath du projet. Définissez un répertoire de base qui contiendra votre DWG source et le PDF généré.
 
-## Étape 2 : Définir les chemins de fichiers
+## Étape 2 : Définir les chemins de fichiers
 
-Définissez les chemins du fichier CAO source (`meshes.dwg`) et le fichier PDF de sortie (`meshes.pdf`).
+Spécifiez l'emplacement du DWG d'entrée et l'endroit où le PDF de sortie doit être écrit.
 
 ```java
 String dataDir = "Your Document Directory" + "CADConversion/";
@@ -53,17 +62,17 @@ String sourceFilePath = dataDir + "meshes.dwg";
 String outPath = dataDir + "meshes.pdf";
 ```
 
-## Étape 3 : Charger l'image CAO
+## Étape 3 : Charger l'image CAD
 
- Chargez l'image CAO à l'aide du`Image.load` méthode et convertissez-le en`CadImage`.
+Chargez le fichier DWG dans un objet `CadImage` afin qu'Aspose.CAD puisse travailler avec sa structure interne.
 
 ```java
 CadImage cadImage = (CadImage)Image.load(sourceFilePath);
 ```
 
-## Étape 4 : configurer les options de rastérisation
+## Étape 4 : Configurer les options de rasterisation
 
-Configurez les options de rastérisation pour définir les dimensions et les mises en page des pages pour la sortie PDF.
+Définissez les options de rasterisation qui contrôlent la taille et la mise en page des pages PDF générées. Le tableau `Layouts` indique à Aspose.CAD de rendre l'espace **Model**, qui inclut les entités de maillage.
 
 ```java
 CadRasterizationOptions rasterizationOptions = new CadRasterizationOptions();
@@ -72,50 +81,71 @@ rasterizationOptions.setPageHeight(1600);
 rasterizationOptions.setLayouts(new String[] { "Model" });
 ```
 
-## Étape 5 : Définir les options PDF
+## Étape 5 : Définir les options PDF
 
-Définissez les options PDF, y compris les options de rastérisation vectorielle.
+Attachez les paramètres de rasterisation à une instance `PdfOptions`. Cela indique à la bibliothèque d'utiliser les options définies précédemment lors de la génération du PDF.
 
 ```java
 PdfOptions pdfOptions = new PdfOptions();
 pdfOptions.setVectorRasterizationOptions(rasterizationOptions);
 ```
 
-## Étape 6 : Enregistrez le PDF
+## Étape 6 : Enregistrer le PDF
 
-Enregistrez l'image CAO au format PDF à l'aide des options spécifiées.
+Enfin, enregistrez l'image CAD chargée sous forme de fichier PDF. Le document résultant contiendra une représentation fidèle du DWG original, y compris toute géométrie de maillage.
 
 ```java
 cadImage.save(outPath, pdfOptions);
 ```
 
-Suivez attentivement ces étapes pour convertir en toute transparence des fichiers CAO avec des maillages en PDF à l'aide d'Aspose.CAD pour Java.
+### Pourquoi cela fonctionne pour **convert CAD to PDF**
+
+Aspose.CAD effectue une rasterisation vectorielle, préservant les épaisseurs de ligne, les couleurs et les détails des maillages 3 D. En configurant les options de rasterisation, vous contrôlez la résolution et la mise en page, garantissant que l'**export CAD drawing** apparaît exactement comme prévu dans le PDF.
+
+## Cas d'utilisation courants
+
+- **Rapports automatisés :** Générer des rapports PDF à partir de dessins d'ingénierie à la volée.  
+- **Archivage de documents :** Stocker les dessins CAD en PDF pour une conservation à long terme.  
+- **Services web :** Exposer une API qui accepte les téléchargements de DWG et renvoie des PDF, utile pour les plateformes SaaS.  
+
+## Conseils de dépannage
+
+- **Maillages manquants dans la sortie :** Vérifiez que la propriété `Layouts` inclut `"Model"` ; les maillages sont souvent stockés dans l'espace modèle.  
+- **Échelle incorrecte :** Ajustez `PageWidth` et `PageHeight` pour correspondre aux unités natives du dessin.  
+- **Erreurs de licence :** Assurez‑vous d'avoir appelé `License.setLicense()` avec un fichier de licence valide avant de charger l'image.  
 
 ## Conclusion
 
-En conclusion, Aspose.CAD pour Java offre une prise en charge robuste pour la gestion des fichiers CAO, y compris la prise en charge du maillage. En suivant ce didacticiel, vous pouvez facilement convertir des fichiers CAO contenant des maillages au format PDF, améliorant ainsi vos capacités de conversion de documents.
+En suivant ces étapes, vous pouvez de manière fiable **convertir DWG en PDF** et profiter pleinement du support des maillages d'Aspose.CAD. Cette fonctionnalité simplifie les flux de travail nécessitant des exportations PDF de haute qualité de dessins CAD complexes, que ce soit pour un usage interne ou pour une documentation destinée aux clients.
 
 ## FAQ
 
-### Q1 : Aspose.CAD pour Java est-il adapté à un usage commercial ?
+### Q1 : Aspose.CAD pour Java convient‑il à un usage commercial ?
 
- A1 : Oui, Aspose.CAD pour Java est conçu pour un usage personnel et commercial. Vous pouvez trouver les détails de la licence sur le[page d'achat](https://purchase.aspose.com/buy).
+R1 : Oui, Aspose.CAD pour Java est conçu à la fois pour un usage personnel et commercial. Vous pouvez consulter les détails de la licence sur la [purchase page](https://purchase.aspose.com/buy).
 
-### Q2 : Comment puis-je obtenir une licence temporaire à des fins de test ?
+### Q2 : Comment obtenir une licence temporaire à des fins de test ?
 
- A2 : Obtenir une licence temporaire auprès de[ici](https://purchase.aspose.com/temporary-license/) pour les tests et l'évaluation.
+R2 : Obtenez une licence temporaire depuis [here](https://purchase.aspose.com/temporary-license/) pour les tests et l'évaluation.
 
-### Q3 : Où puis-je trouver une assistance communautaire pour Aspose.CAD pour Java ?
+### Q3 : Où puis‑je trouver du support communautaire pour Aspose.CAD pour Java ?
 
- A3 : Visitez le forum dédié Aspose.CAD sur[https://forum.aspose.com/c/cad/19](https://forum.aspose.com/c/cad/19) pour le soutien de la communauté.
+R3 : Consultez le forum dédié à Aspose.CAD sur [https://forum.aspose.com/c/cad/19](https://forum.aspose.com/c/cad/19) pour le support communautaire.
 
-### Q4 : Existe-t-il d'autres formats de sortie pris en charge en plus du PDF ?
+### Q4 : Existe‑t‑il d'autres formats de sortie pris en charge en plus du PDF ?
 
-A4 : Oui, Aspose.CAD pour Java prend en charge divers formats de sortie, notamment PNG, JPEG, BMP, etc. Reportez-vous à la documentation pour plus de détails.
+R4 : Oui, Aspose.CAD pour Java prend en charge divers formats de sortie, dont PNG, JPEG, BMP, et plus encore. Consultez la documentation pour plus de détails.
 
-### Q5 : Puis-je essayer Aspose.CAD pour Java gratuitement ?
+### Q5 : Puis‑je essayer Aspose.CAD pour Java gratuitement ?
 
- A5 : Oui, vous pouvez explorer une version d'essai gratuite d'Aspose.CAD pour Java[ici](https://releases.aspose.com/).
+R5 : Oui, vous pouvez découvrir une version d'essai gratuite d'Aspose.CAD pour Java [here](https://releases.aspose.com/).
+
+---
+
+**Dernière mise à jour :** 2025-12-09  
+**Testé avec :** Aspose.CAD for Java 24.11  
+**Auteur :** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

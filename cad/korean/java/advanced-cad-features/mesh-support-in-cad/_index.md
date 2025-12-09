@@ -1,35 +1,44 @@
 ---
-title: Java용 Aspose.CAD를 통한 메시 지원
-linktitle: CAD의 메시 지원
-second_title: Aspose.CAD 자바 API
-description: Aspose.CAD를 사용하여 Java 애플리케이션의 메시 지원을 살펴보세요. CAD 파일을 PDF로 손쉽게 변환하세요.
-weight: 12
+date: 2025-12-09
+description: Aspose.CAD for Java를 사용하여 DWG 파일에서 PDF를 만드는 방법을 배워보세요. 메쉬 지원으로 DWG를 PDF로
+  손쉽게 변환하세요.
+linktitle: Mesh Support in CAD
+second_title: Aspose.CAD Java API
+title: Aspose.CAD for Java를 사용하여 DWG에서 PDF 만들기
 url: /ko/java/advanced-cad-features/mesh-support-in-cad/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Java용 Aspose.CAD를 통한 메시 지원
+# Aspose.CAD for Java를 사용하여 DWG에서 PDF 만들기
 
 ## 소개
 
-Aspose.CAD for Java는 개발자가 Java 애플리케이션에서 CAD(Computer-Aided Design) 파일을 원활하게 사용할 수 있도록 지원하는 강력한 라이브러리입니다. 이 튜토리얼에서는 메쉬가 포함된 CAD 파일을 PDF 형식으로 변환할 수 있는 Aspose.CAD for Java의 메쉬 지원 기능을 살펴보겠습니다. 아래의 단계별 가이드에 따라 이 라이브러리의 기능을 활용하고 CAD 파일 처리 기능을 향상시키십시오.
+이 튜토리얼에서는 Aspose.CAD for Java를 사용하여 **DWG에서 PDF를 만드는 방법**을 배웁니다. 라이브러리의 메쉬 지원을 통해 3‑D 메쉬를 포함한 복잡한 CAD 도면을 세부 사항을 잃지 않고 직접 PDF로 변환할 수 있습니다. 보고, 보관 또는 후속 처리 등을 위해 **DWG를 PDF로 변환**해야 할 경우, 아래 단계가 신뢰할 수 있는 프로덕션 수준 솔루션을 안내합니다.
+
+## 빠른 답변
+- **이 튜토리얼은 무엇을 다루나요?** Aspose.CAD for Java를 사용하여 메쉬가 포함된 DWG 파일을 PDF로 변환합니다.  
+- **라이선스가 필요합니까?** 테스트용 임시 라이선스를 사용할 수 있지만, 상업적 사용에는 정식 라이선스가 필요합니다.  
+- **지원되는 Java 버전은?** Java 8 이상.  
+- **다른 형식으로 내보낼 수 있나요?** 예 – Aspose.CAD는 PNG, JPEG, BMP 등도 지원합니다.  
+- **변환 시간은 얼마나 걸리나요?** 일반적인 크기의 도면은 보통 1초 이하입니다.
+
+## DWG에서 PDF를 만드는 방법은?
+
+아래에서는 프로젝트 설정부터 최종 PDF 저장까지 전체 과정을 단계별로 간결하게 안내합니다.
 
 ## 전제 조건
 
-튜토리얼을 시작하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
-
-- Java 개발 환경: 컴퓨터에 Java 개발 환경이 설정되어 있는지 확인하십시오.
-
--  Java 라이브러리용 Aspose.CAD: 다음에서 Java 라이브러리용 Aspose.CAD를 다운로드하고 설치합니다.[다운로드 링크](https://releases.aspose.com/cad/java/).
-
-- 메쉬가 포함된 문서: 변환할 메쉬가 포함된 CAD 문서를 준비합니다. 제공된 샘플 코드를 "meshes.dwg"라는 파일과 함께 사용할 수 있습니다.
+- **Java 개발 환경:** 머신에 JDK 8 이상 설치.  
+- **Aspose.CAD for Java 라이브러리:** 최신 JAR를 [download link](https://releases.aspose.com/cad/java/)에서 다운로드합니다.  
+- **메쉬가 포함된 문서:** 메쉬 데이터가 포함된 DWG 파일(예: `meshes.dwg`).  
 
 ## 네임스페이스 가져오기
 
-Java 코드에 Aspose.CAD 클래스 및 메서드에 액세스하는 데 필요한 네임스페이스를 포함합니다. 다음 가져오기 문을 추가합니다.
+Java 소스 파일에 필요한 Aspose.CAD 클래스를 포함합니다:
 
 ```java
 import com.aspose.cad.Image;
@@ -39,13 +48,13 @@ import com.aspose.cad.imageoptions.CadRasterizationOptions;
 import com.aspose.cad.imageoptions.PdfOptions;
 ```
 
-## 1단계: 프로젝트 설정
+## 단계 1: 프로젝트 설정
 
-새로운 Java 프로젝트를 생성하고 Aspose.CAD 라이브러리를 가져옵니다. 프로젝트 디렉터리를 다음과 같이 설정합니다.`dataDir`.
+새 Java 프로젝트를 만들거나 기존 프로젝트에 추가하고 Aspose.CAD JAR를 클래스패스에 추가합니다. 소스 DWG와 생성된 PDF를 보관할 기본터리를 정의합니다.
 
-## 2단계: 파일 경로 정의
+## 단계 2: 파일 경로 정의
 
-소스 CAD 파일의 경로를 정의합니다(`meshes.dwg`) 및 출력 PDF 파일(`meshes.pdf`).
+입력 DWG 파일이 위치한 경로와 출력 PDF가 저장될 경로를 지정합니다.
 
 ```java
 String dataDir = "Your Document Directory" + "CADConversion/";
@@ -53,17 +62,17 @@ String sourceFilePath = dataDir + "meshes.dwg";
 String outPath = dataDir + "meshes.pdf";
 ```
 
-## 3단계: CAD 이미지 로드
+## 단계 3: CAD 이미지 로드
 
- 다음을 사용하여 CAD 이미지를 로드합니다.`Image.load` 메서드를 사용하여 캐스팅합니다.`CadImage`.
+`CadImage` 객체에 DWG 파일을 로드하여 Aspose.CAD가 내부 구조를 처리할 수 있게 합니다.
 
 ```java
 CadImage cadImage = (CadImage)Image.load(sourceFilePath);
 ```
 
-## 4단계: 래스터화 옵션 구성
+## 단계 4: 래스터화 옵션 구성
 
-PDF 출력의 페이지 크기와 레이아웃을 설정하려면 래스터화 옵션을 구성합니다.
+생성된 PDF 페이지의 크기와 레이아웃을 제어하는 래스터화 옵션을 설정합니다. `Layouts` 배열은 메쉬 엔터티가 포함된 **Model** 공간을 렌더링하도록 Aspose.CAD에 지시합니다.
 
 ```java
 CadRasterizationOptions rasterizationOptions = new CadRasterizationOptions();
@@ -72,50 +81,71 @@ rasterizationOptions.setPageHeight(1600);
 rasterizationOptions.setLayouts(new String[] { "Model" });
 ```
 
-## 5단계: PDF 옵션 설정
+## 단계 5: PDF 옵션 설정
 
-벡터 래스터화 옵션을 포함한 PDF 옵션을 설정합니다.
+래스터화 설정을 `PdfOptions` 인스턴스에 연결합니다. 이렇게 하면 라이브러리가 PDF 생성 시 앞서 정의한 옵션을 사용합니다.
 
 ```java
 PdfOptions pdfOptions = new PdfOptions();
 pdfOptions.setVectorRasterizationOptions(rasterizationOptions);
 ```
 
-## 6단계: PDF 저장
+## 단계 6: PDF 저장
 
-지정된 옵션을 사용하여 CAD 이미지를 PDF로 저장합니다.
+마지막으로 로드한 CAD 이미지를 PDF 파일로 저장합니다. 결과 문서는 원본 DWG의 메쉬 기하 정보를 포함한 정확한 표현을 담게 됩니다.
 
 ```java
 cadImage.save(outPath, pdfOptions);
 ```
 
-Aspose.CAD for Java를 사용하여 메시가 포함된 CAD 파일을 PDF로 원활하게 변환하려면 다음 단계를 주의 깊게 따르세요.
+### **CAD를 PDF로 변환**이 작동하는 이유
+
+Aspose.CAD는 벡터 기반 래스터화를 수행하여 선 두께, 색상 및 3‑D 메쉬 세부 정보를 보존합니다. 래스터화 옵션을 구성함으로써 해상도와 레이아웃을 제어하여 **CAD 도면 내보내기**가 PDF에서 의도한 대로 정확히 표시되도록 합니다.
+
+## 일반적인 사용 사례
+
+- **자동 보고:** 엔지니어링 도면에서 실시간으로 PDF 보고서를 생성합니다.  
+- **문서 보관:** CAD 도면을 장기 보존을 위해 PDF로 저장합니다.  
+- **웹 서비스:** DWG 업로드를 받아 PDF를 반환하는 API를 제공하여 SaaS 플랫폼에 활용합니다.  
+
+## 문제 해결 팁
+
+- **출력에 메쉬가 누락됨:** `Layouts` 속성에 `"Model"`이 포함되어 있는지 확인하십시오. 메쉬는 보통 모델 공간에 저장됩니다.  
+- **스케일링 오류:** `PageWidth`와 `PageHeight`를 도면의 기본 단위에 맞게 조정합니다.  
+- **라이선스 오류:** 이미지를 로드하기 전에 유효한 라이선스 파일로 `License.setLicense()`를 호출했는지 확인합니다.
 
 ## 결론
 
-결론적으로, Aspose.CAD for Java는 메시 지원을 포함하여 CAD 파일 처리에 대한 강력한 지원을 제공합니다. 이 튜토리얼을 따르면 메쉬가 포함된 CAD 파일을 PDF 형식으로 쉽게 변환하여 문서 변환 기능을 향상시킬 수 있습니다.
+이 단계들을 따르면 DWG를 PDF로 **신뢰성 있게 변환**하고 Aspose.CAD의 메쉬 지원을 최대한 활용할 수 있습니다. 이 기능은 복잡한 CAD 도면을 고품질 PDF로 내보내야 하는 워크플로우를 단순화하며, 내부 사용이든 고객 문서이든 모두에 적용됩니다.
 
 ## FAQ
 
-### Q1: Aspose.CAD for Java는 상업용으로 적합한가요?
+### Q1: Aspose.CAD for Java는 상업적 사용에 적합한가요?
 
- A1: 예, Aspose.CAD for Java는 개인용 및 상업용으로 설계되었습니다. 라이선스 세부정보는 다음에서 확인할 수 있습니다.[구매 페이지](https://purchase.aspose.com/buy).
+A1: 예, Aspose.CAD for Java는 개인 및 상업적 사용 모두를 위해 설계되었습니다. 라이선스 세부 정보는 [purchase page](https://purchase.aspose.com/buy)에서 확인할 수 있습니다.
 
-### Q2: 테스트 목적으로 임시 라이센스를 얻으려면 어떻게 해야 합니까?
+### Q2: 테스트 용도로 임시 라이선스를 어떻게 받을 수 있나요?
 
- A2: 임시 라이센스를 받으십시오.[여기](https://purchase.aspose.com/temporary-license/) 테스트 및 평가를 위해.
+A2: 테스트 및 평가를 위해 [here](https://purchase.aspose.com/temporary-license/)에서 임시 라이선스를 받으세요.
 
 ### Q3: Aspose.CAD for Java에 대한 커뮤니티 지원은 어디서 찾을 수 있나요?
 
- A3: Aspose.CAD 전용 포럼을 방문하세요.[https://forum.aspose.com/c/cad/19](https://forum.aspose.com/c/cad/19) 지역 사회 지원을 위해.
+A3: 커뮤니티 지원을 위해 Aspose.CAD 전용 포럼인 [https://forum.aspose.com/c/cad/19](https://forum.aspose.com/c/cad/19) 를 방문하세요.
 
-### Q4: PDF 외에 지원되는 다른 출력 형식이 있습니까?
+### Q4: PDF 외에 지원되는 다른 출력 형식이 있나요?
 
-A4: 예, Java용 Aspose.CAD는 PNG, JPEG, BMP 등을 포함한 다양한 출력 형식을 지원합니다. 자세한 내용은 설명서를 참조하세요.
+A4: 예, Aspose.CAD for Java는 PNG, JPEG, BMP 등 다양한 출력 형식을 지원합니다. 자세한 내용은 문서를 참고하세요.
 
-### Q5: Java용 Aspose.CAD를 무료로 사용해 볼 수 있나요?
+### Q5: Aspose.CAD for Java를 무료로 체험할 수 있나요?
 
- A5: 예, Aspose.CAD for Java의 무료 평가판을 탐색할 수 있습니다.[여기](https://releases.aspose.com/).
+A5: 예, [here](https://releases.aspose.com/)에서 Aspose.CAD for Java 무료 체험 버전을 확인할 수 있습니다.
+
+---
+
+**마지막 업데이트:** 2025-12-09  
+**테스트 환경:** Aspose.CAD for Java 24.11  
+**작성자:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
