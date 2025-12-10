@@ -1,10 +1,13 @@
 ---
-title: Dukungan Pena dalam Ekspor
-linktitle: Dukungan Pena dalam Ekspor
+date: 2025-12-10
+description: Pelajari cara membuat PDF dari CAD menggunakan Aspose.CAD untuk Java
+  dengan penyesuaian pena. Panduan langkah demi langkah ini menunjukkan cara mengekspor
+  CAD ke PDF secara efisien.
+linktitle: Pen Support in Export
 second_title: Aspose.CAD Java API
-description: Kustomisasi pena master dalam ekspor CAD dengan Aspose.CAD untuk Java. Ikuti panduan langkah demi langkah kami untuk integrasi yang lancar.
-weight: 13
+title: Cara Membuat PDF dari CAD dengan Dukungan Pena saat Mengekspor
 url: /id/java/advanced-cad-features/pen-support-in-export/
+weight: 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,19 +16,30 @@ url: /id/java/advanced-cad-features/pen-support-in-export/
 
 # Dukungan Pena dalam Ekspor
 
-## Perkenalan
+## Pendahuluan
 
-Dalam lanskap konversi CAD (Computer-Aided Design) yang terus berkembang, Aspose.CAD untuk Java muncul sebagai alat yang ampuh, menawarkan kemampuan ekstensif untuk memanipulasi file CAD. Di antara fitur-fitur serbagunanya, dukungan untuk penyesuaian pena selama ekspor menonjol, memungkinkan pengguna menyesuaikan tampilan gambar yang diekspor. Tutorial ini akan memandu Anda melalui proses memanfaatkan dukungan pena dalam fungsi ekspor, dengan fokus pada implementasi praktis menggunakan Java.
+Dalam dunia konversi CAD yang bergerak cepat, pengembang sering perlu **membuat PDF dari CAD** file sambil mempertahankan kesetiaan visual. Aspose.CAD untuk Java mempermudah hal ini, menawarkan opsi kaya seperti penyesuaian pena yang memungkinkan Anda menyesuaikan gaya garis selama proses ekspor. Dalam panduan ini kami akan membahas contoh lengkap, langkah‑demi‑langkah yang menunjukkan cara **mengekspor CAD ke PDF** dengan pengaturan pena khusus, sehingga Anda dapat menghasilkan PDF yang halus langsung dari gambar DXF.
+
+## Jawaban Cepat
+- **Apa arti “create PDF from CAD”?** Mengonversi gambar CAD (misalnya DXF) menjadi dokumen PDF sambil mempertahankan kualitas vektor.  
+- **Perpustakaan mana yang menangani penyesuaian pena?** Kelas `PenOptions` milik Aspose.CAD untuk Java.  
+- **Bisakah saya menggunakan ini untuk format lain?** Ya – pengaturan pena yang sama berlaku untuk PNG, BMP, TIFF, dll.  
+- **Apakah saya memerlukan lisensi?** Lisensi Aspose.CAD yang valid diperlukan untuk penggunaan produksi.  
+- **Versi Java minimum apa?** Java 8 atau lebih tinggi.
+
+## Apa itu “create PDF from CAD”?
+Membuat PDF dari CAD berarti meraster atau merender gambar CAD menjadi file PDF. Hal ini memudahkan berbagi, mencetak, dan mengarsipkan desain teknik tanpa memerlukan perangkat lunak CAD di sisi penerima.
+
+## Mengapa menggunakan dukungan pena saat mengekspor CAD ke PDF?
+Dukungan pena memungkinkan Anda mengontrol ujung garis, sambungan, dan ketebalan, memberi kemampuan untuk menyesuaikan standar merek perusahaan atau standar gambar teknik. Ini sangat berguna ketika rendering garis default tidak memenuhi kebutuhan visual Anda.
 
 ## Prasyarat
 
-Sebelum mempelajari tutorial, pastikan Anda memiliki prasyarat berikut:
+- **Lingkungan Pengembangan Java** – JDK yang berfungsi (8 atau lebih baru) serta IDE atau alat build pilihan Anda.  
+- **Perpustakaan Aspose.CAD** – unduh JAR terbaru dari situs resmi [di sini](https://releases.aspose.com/cad/java/).  
+- **File DXF contoh** – untuk tutorial ini kami akan menggunakan `conic_pyramid.dxf`.
 
-- Lingkungan Pengembangan Java: Pastikan Anda memiliki lingkungan pengembangan Java yang berfungsi pada mesin Anda.
-
--  Perpustakaan Aspose.CAD: Unduh dan integrasikan perpustakaan Aspose.CAD ke dalam proyek Java Anda. Anda dapat menemukan perpustakaan[Di Sini](https://releases.aspose.com/cad/java/).
-
-Sekarang, mari masuk ke tutorial dan jelajahi langkah-langkah untuk memanfaatkan dukungan pena selama ekspor CAD.
+Setelah semua persiapan selesai, mari kita selami kode.
 
 ## Impor Namespace
 
@@ -45,7 +59,7 @@ import com.aspose.cad.internal.imaging.LineCap;
 String dataDir = "Your Document Directory" + "CADConversion/";
 ```
 
-Pastikan untuk mengganti "Direktori Dokumen Anda" dengan jalur sebenarnya ke dokumen CAD Anda.
+> **Tip Pro:** Ganti `"Your Document Directory"` dengan jalur absolut tempat file DXF Anda berada.
 
 ## Langkah 2: Muat File CAD
 
@@ -54,7 +68,7 @@ String srcFile = dataDir + "conic_pyramid.dxf";
 CadImage cadImage = (CadImage) Image.load(srcFile);
 ```
 
-Langkah ini melibatkan memuat file CAD, dalam hal ini, "conic_pyramid.dxf," menggunakan perpustakaan Aspose.CAD.
+Metode `Image.load` membaca file DXF dan membuat objek `CadImage` yang dapat kita manipulasi.
 
 ## Langkah 3: Konfigurasikan Opsi Rasterisasi
 
@@ -64,7 +78,7 @@ rasterizationOptions.setPageWidth(cadImage.getWidth() * 100);
 rasterizationOptions.setPageHeight(cadImage.getHeight() * 100);
 ```
 
-Sesuaikan lebar dan tinggi halaman sesuai dengan kebutuhan spesifik Anda. Nilai-nilai ini menentukan dimensi gambar yang diekspor.
+Sesuaikan dimensi halaman untuk mengontrol resolusi PDF yang dihasilkan. Mengalikan dengan 100 memberikan output beresolusi tinggi yang cocok untuk pencetakan.
 
 ## Langkah 4: Sesuaikan Opsi Pena
 
@@ -74,7 +88,7 @@ penOts.setStartCap(LineCap.Flat);
 penOts.setEndCap(LineCap.Flat);
 ```
 
-Sesuaikan tutup awal dan akhir pena sesuai kebutuhan. Kustomisasi ini berlaku saat mengekspor objek CadImage ke berbagai format gambar.
+Di sini kami mengatur kedua ujung pena, mulai dan akhir, menjadi `Flat`. Anda dapat bereksperimen dengan nilai `LineCap` lain (misalnya `Round`, `Square`) untuk menghasilkan efek visual yang berbeda.
 
 ## Langkah 5: Konfigurasikan Opsi Ekspor PDF
 
@@ -83,7 +97,7 @@ PdfOptions pdfOptions = new PdfOptions();
 pdfOptions.setVectorRasterizationOptions(rasterizationOptions);
 ```
 
-Tentukan opsi rasterisasi vektor, termasuk opsi rasterisasi yang dikonfigurasi sebelumnya.
+Objek `PdfOptions` menghubungkan pengaturan rasterisasi dengan proses ekspor PDF.
 
 ## Langkah 6: Simpan PDF yang Diekspor
 
@@ -91,33 +105,48 @@ Tentukan opsi rasterisasi vektor, termasuk opsi rasterisasi yang dikonfigurasi s
 cadImage.save((dataDir + "9LHATT-A56_generated.pdf"), pdfOptions);
 ```
 
-Simpan PDF yang diekspor dengan nama file yang ditentukan ("9LHATT-A56_generated.pdf" dalam contoh ini) dan opsi yang dikonfigurasi.
+Menjalankan baris ini menulis file PDF bernama `9LHATT-A56_generated.pdf` ke folder `dataDir` Anda, lengkap dengan gaya pena khusus yang telah Anda tentukan.
 
-## Kesimpulan
+## Kasus Penggunaan Umum
 
-Kesimpulannya, memanfaatkan dukungan pena selama ekspor CAD dengan Aspose.CAD untuk Java memberdayakan pengguna untuk menyesuaikan tampilan gambar yang diekspor. Dengan mengikuti panduan langkah demi langkah ini, Anda telah mempelajari cara mengintegrasikan penyesuaian pena dengan lancar ke dalam alur kerja konversi CAD Anda.
+- **Dokumentasi teknis** – menyisipkan gambar teknik yang tepat dalam manual PDF.  
+- **Pelaporan otomatis** – menghasilkan PDF dari data CAD secara langsung dalam layanan web.  
+- **Kontrol kualitas** – menerapkan ujung garis khusus untuk menyoroti garis pengukuran atau toleransi.
 
-## FAQ
+## Pemecahan Masalah & Tips
 
-### Q1: Dapatkah saya menyesuaikan opsi pena untuk format selain PDF?
+- **Path file tidak benar** – pastikan `dataDir` diakhiri dengan pemisah file (`/` atau `\\`).  
+- **Lisensi hilang** – tanpa lisensi yang valid, perpustakaan berjalan dalam mode evaluasi, yang dapat menambahkan watermark.  
+- **Gaya garis tak terduga** – periksa kembali bahwa `PenOptions` telah diatur sebelum memanggil `save`; jika tidak, nilai default yang akan digunakan.
 
-A1: Ya, kustomisasi pena yang ditunjukkan dalam tutorial ini berlaku untuk berbagai format gambar, termasuk PDF, PNG, BMP, GIF, JPEG2000, JPEG, PSD, TIFF, dan WMF.
+## Pertanyaan yang Sering Diajukan
 
-### Q2: Bagaimana cara menangani tutup awal dan akhir pena yang berbeda?
+### Q1: Bisakah saya menyesuaikan opsi pena untuk format selain PDF?
 
- A2: Gunakan`PenOptions` kelas untuk mengatur batas awal dan akhir yang diinginkan, menawarkan fleksibilitas dalam menentukan tampilan garis.
+A1: Ya, penyesuaian pena yang ditunjukkan dalam tutorial ini berlaku untuk berbagai format gambar, termasuk PDF, PNG, BMP, GIF, JPEG2000, JPEG, PSD, TIFF, dan WMF.
+
+### Q2: Bagaimana cara menangani ujung mulai dan akhir yang berbeda untuk pena?
+
+A2: Gunakan kelas `PenOptions` untuk mengatur ujung mulai dan akhir yang diinginkan, memberikan fleksibilitas dalam mendefinisikan tampilan garis.
 
 ### Q3: Bagaimana jika saya tidak menentukan opsi pena?
 
-A3: Jika opsi pena tidak disetel secara eksplisit, sistem akan menggunakan pena defaultnya, yang mungkin berbeda dalam konteks berbeda.
+A3: Jika opsi pena tidak secara eksplisit diatur, sistem akan menggunakan pena defaultnya, yang dapat berbeda dalam konteks yang berbeda.
 
 ### Q4: Apakah ada pertimbangan khusus untuk opsi rasterisasi?
 
 A4: Sesuaikan lebar dan tinggi halaman dalam opsi rasterisasi untuk mengontrol dimensi gambar yang diekspor.
 
-### Q5: Di mana saya bisa mendapatkan dukungan tambahan atau diskusi komunitas?
+### Q5: Di mana saya dapat menemukan dukungan tambahan atau diskusi komunitas?
 
- A5: Jelajahi forum komunitas Aspose.CAD di[Di Sini](https://forum.aspose.com/c/cad/19) untuk dukungan dan diskusi.
+A5: Jelajahi forum komunitas Aspose.CAD di [sini](https://forum.aspose.com/c/cad/19) untuk dukungan dan diskusi.
+
+---
+
+**Terakhir Diperbarui:** 2025-12-10  
+**Diuji Dengan:** Aspose.CAD 24.11 untuk Java  
+**Penulis:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

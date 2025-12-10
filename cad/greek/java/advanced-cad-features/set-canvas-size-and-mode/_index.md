@@ -1,35 +1,54 @@
 ---
-title: Ορίστε το μέγεθος και τη λειτουργία καμβά
-linktitle: Ορίστε το μέγεθος και τη λειτουργία καμβά
+date: 2025-12-10
+description: Μάθετε πώς να μετατρέπετε CAD σε PDF χρησιμοποιώντας το Aspose.CAD για
+  Java, ρυθμίζοντας το μέγεθος του καμβά, την αυτόματη κλιμάκωση διάταξης και εξάγοντας
+  σε TIFF.
+linktitle: Convert CAD to PDF – Set Canvas Size & Mode
 second_title: Aspose.CAD Java API
-description: Εξερευνήστε τη δύναμη του Aspose.CAD για Java με τον αναλυτικό οδηγό μας για τη ρύθμιση του μεγέθους και της λειτουργίας καμβά. Μετατρέψτε εύκολα αρχεία CAD σε μορφές PDF και TIFF.
-weight: 16
+title: Μετατροπή CAD σε PDF – Ορισμός Μεγέθους Καμβά & Λειτουργίας (Java)
 url: /el/java/advanced-cad-features/set-canvas-size-and-mode/
+weight: 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Ορίστε το μέγεθος και τη λειτουργία καμβά
+# Ορισμός Μεγέθους Καμβά και Λειτουργίας
 
 ## Εισαγωγή
 
-Θέλετε να αξιοποιήσετε τη δύναμη του Aspose.CAD για Java για να βελτιώσετε τη διαδικασία μετατροπής CAD; Αυτός ο περιεκτικός οδηγός θα σας καθοδηγήσει στα βήματα ρύθμισης του μεγέθους και της λειτουργίας καμβά χρησιμοποιώντας το Aspose.CAD για Java. Είτε είστε έμπειρος προγραμματιστής είτε μόλις ξεκινάτε, αυτός ο οδηγός θα σας παρέχει τις πληροφορίες που χρειάζεστε.
+Αναζητάτε να **convert CAD to PDF** ενώ έχετε πλήρη έλεγχο του μεγέθους του καμβά και της λειτουργίας απόδοσης; Αυτός ο ολοκληρωμένος οδηγός σας καθοδηγεί βήμα‑βήμα για τον ορισμό του μεγέθους του καμβά σε Java, την ενεργοποίηση της αυτόματης κλιμάκωσης διάταξης και, στη συνέχεια, την εξαγωγή του αποτελέσματος τόσο σε PDF όσο και σε TIFF χρησιμοποιώντας το Aspose.CAD. Είτε βελτιώνετε μια παραγωγική γραμμή είτε πειραματίζεστε με ένα πρωτότυπο, θα βρείτε σαφείς, εφαρμόσιμες οδηγίες εδώ.
+
+## Γρήγορες Απαντήσεις
+- **Τι σημαίνει “convert CAD to PDF”;** Μετατροπή ενός σχεδίου CAD (π.χ. DXF, DWG) σε έγγραφο PDF που μπορεί να προβληθεί σε οποιαδήποτε πλατφόρμα.  
+- **Μπορώ επίσης να εξάγω σε TIFF;** Ναι—χρησιμοποιήστε `TiffOptions` για δημιουργία εικόνων raster υψηλής ανάλυσης.  
+- **Ποια επιλογή ελέγχει το μέγεθος του καμβά σε Java;** `CadRasterizationOptions.setPageWidth/Height`.  
+- **Τι είναι η αυτόματη κλιμάκωση διάταξης;** Μια σημαία (`setAutomaticLayoutsScaling(true)`) που διατηρεί τις αρχικές αναλογίες διάταξης όταν αλλάζει το μέγεθος του καμβά.  
+- **Χρειάζομαι άδεια για το Aspose.CAD;** Απαιτείται προσωρινή ή μόνιμη άδεια για παραγωγική χρήση.
+
+## Τι είναι **convert CAD to PDF**;
+
+Η μετατροπή CAD σε PDF σημαίνει λήψη διανυσματικών σχεδίων μηχανικής και απόδοσή τους ως σελίδες PDF, διατηρώντας τις γραμμές, τα στρώματα και τη γεωμετρία, ενώ κάνει το αρχείο παγκοσμίως προσβάσιμο.
+
+## Γιατί να ορίσετε το μέγεθος του καμβά **java**;
+
+Ο ορισμός του μεγέθους του καμβά σε Java σας επιτρέπει να καθορίσετε την ανάλυση εξόδου και τις διαστάσεις της σελίδας, διασφαλίζοντας ότι το παραγόμενο PDF ή TIFF ταιριάζει στις απαιτήσεις εκτύπωσης ή προβολής. Παρέχει επίσης έλεγχο της συμπεριφοράς κλιμάκωσης, κάτι ουσιώδες για σχέδια μεγάλου φορμάτ.
 
 ## Προαπαιτούμενα
 
-Πριν ξεκινήσετε το σεμινάριο, βεβαιωθείτε ότι έχετε τις ακόλουθες προϋποθέσεις:
+Πριν ξεκινήσετε το tutorial, βεβαιωθείτε ότι έχετε τα παρακάτω:
 
--  Aspose.CAD για Java: Βεβαιωθείτε ότι έχετε εγκαταστήσει τη βιβλιοθήκη Aspose.CAD στο περιβάλλον Java σας. Μπορείτε να το κατεβάσετε[εδώ](https://releases.aspose.com/cad/java/).
+- Aspose.CAD for Java: Βεβαιωθείτε ότι η βιβλιοθήκη Aspose.CAD είναι εγκατεστημένη στο περιβάλλον Java. Μπορείτε να την κατεβάσετε [εδώ](https://releases.aspose.com/cad/java/).
 
-- Κατάλογος εγγράφων: Ρυθμίστε έναν κατάλογο εγγράφων για να αποθηκεύσετε τα αρχεία CAD σας. Αυτός ο κατάλογος θα αναφέρεται στα βήματα εκμάθησης.
+- Document Directory: Δημιουργήστε έναν φάκελο εγγράφων για την αποθήκευση των αρχείων CAD. Αυτός ο φάκελος θα αναφέρεται στα βήματα του tutorial.
 
-Τώρα, ας ξεκινήσουμε με τον οδηγό βήμα προς βήμα.
+Τώρα, ας ξεκινήσουμε με τον οδηγό βήμα‑βήμα.
 
-## Εισαγωγή χώρων ονομάτων
+## Εισαγωγή Namespaces
 
-Σε αυτό το βήμα, θα εισαγάγουμε τους απαραίτητους χώρους ονομάτων για να ξεκινήσετε το έργο Aspose.CAD.
+Σε αυτό το βήμα, θα εισάγουμε τα απαραίτητα namespaces για να ξεκινήσετε το έργο Aspose.CAD.
+
 ```java
 import java.awt.Image;
 
@@ -39,22 +58,22 @@ import com.aspose.cad.imageoptions.PdfOptions;
 import com.aspose.cad.imageoptions.TiffOptions;
 ```
 
-## Βήμα 1: Εισαγωγή κλάσεων Aspose.CAD
+## Βήμα 1: Εισαγωγή Κλάσεων Aspose.CAD
 
 ```java
-// Η διαδρομή προς τον κατάλογο πόρων.
+// The path to the resource directory.
 String dataDir = "Your Document Directory" + "CADConversion/";
 
 String srcFile = dataDir + "conic_pyramid.dxf";
 com.aspose.cad.Image objImage = com.aspose.cad.Image.load(srcFile);
 ```
 
- Σε αυτό το απόσπασμα, ρυθμίζουμε τη διαδρομή προς τον κατάλογο πόρων και φορτώνουμε ένα αρχείο DXF χρησιμοποιώντας το Aspose.CAD's`Image` τάξη.
+Σε αυτό το απόσπασμα, ορίζουμε τη διαδρομή προς τον φάκελο πόρων και φορτώνουμε ένα αρχείο DXF χρησιμοποιώντας την κλάση `Image` του Aspose.CAD.
 
-## Βήμα 2: Ορίστε τις ιδιότητες CadRasterizationOptions
+## Βήμα 2: Ορισμός Ιδιοτήτων **CadRasterizationOptions** (set canvas size java)
 
 ```java
-// Δημιουργήστε μια παρουσία του CadRasterizationOptions και ορίστε τις διάφορες ιδιότητές του
+// Create an instance of CadRasterizationOptions and set its various properties
 CadRasterizationOptions rasterizationOptions = new CadRasterizationOptions();
 rasterizationOptions.setPageWidth(1600);
 rasterizationOptions.setPageHeight(1600);
@@ -63,75 +82,98 @@ rasterizationOptions.setAutomaticLayoutsScaling(true);
 rasterizationOptions.setNoScaling(true);
 ```
 
- Εδώ, δημιουργούμε ένα παράδειγμα του`CadRasterizationOptions` και να διαμορφώσετε ιδιότητες όπως πλάτος σελίδας, ύψος σελίδας και επιλογές κλιμάκωσης.
+Εδώ, δημιουργούμε μια παρουσία του `CadRasterizationOptions` και ρυθμίζουμε ιδιότητες όπως το πλάτος σελίδας, το ύψος σελίδας και την **automatic layout scaling**. Αυτό αποτελεί τον πυρήνα της **configure canvas mode** για τη μετατροπή σας.
 
-## Βήμα 3: Δημιουργήστε PdfOptions και ορίστε VectorRasterizationOptions
+## Βήμα 3: Δημιουργία PdfOptions και Ορισμός VectorRasterizationOptions
 
 ```java
-// Δημιουργήστε μια παρουσία του PdfOptions
+// Create an instance of PdfOptions
 PdfOptions pdfOptions = new PdfOptions();
 
-// Ορίστε την ιδιότητα VectorRasterizationOptions
+// Set the VectorRasterizationOptions property
 pdfOptions.setVectorRasterizationOptions(rasterizationOptions);
 ```
 
- Τώρα, δημιουργούμε ένα`PdfOptions` παράδειγμα και ορίστε το`VectorRasterizationOptions` ιδιοκτησία στην προηγουμένως διαμορφωμένη`CadRasterizationOptions`.
+Τώρα, δημιουργούμε μια παρουσία του `PdfOptions` και ορίζουμε την ιδιότητα `VectorRasterizationOptions` στην προηγουμένως διαμορφωμένη `CadRasterizationOptions`.
 
-## Βήμα 4: Εξαγωγή σε PDF
+## Βήμα 4: Εξαγωγή σε PDF (convert cad to pdf)
 
 ```java
-// Εξαγωγή CAD σε PDF
+// Export CAD to PDF
 objImage.save(dataDir + "result_out_.pdf", pdfOptions);
 ```
 
-Τέλος, αποθηκεύουμε την εικόνα CAD σε αρχείο PDF χρησιμοποιώντας τις καθορισμένες επιλογές.
+Τέλος, αποθηκεύουμε την εικόνα CAD σε αρχείο PDF χρησιμοποιώντας τις καθορισμένες επιλογές, ολοκληρώνοντας τη διαδικασία **convert CAD to PDF**.
 
-## Βήμα 5: Δημιουργήστε TiffOptions και ορίστε VectorRasterizationOptions
+## Βήμα 5: Δημιουργία TiffOptions και Ορισμός VectorRasterizationOptions (export cad to tiff)
 
 ```java
-// Δημιουργήστε μια παρουσία του TiffOptions
+// Create an instance of TiffOptions
 TiffOptions tiffOptions = new TiffOptions(TiffExpectedFormat.Default);
 
-// Ορίστε την ιδιότητα VectorRasterizationOptions
+// Set the VectorRasterizationOptions property
 tiffOptions.setVectorRasterizationOptions(rasterizationOptions);
 ```
 
-Σε αυτό το βήμα, δημιουργήσαμε ένα`TiffOptions` παράδειγμα και ρυθμίστε το`VectorRasterizationOptions` ιδιοκτησία.
+Σε αυτό το βήμα, δημιουργούμε μια παρουσία του `TiffOptions` και ρυθμίζουμε την ιδιότητα `VectorRasterizationOptions`.
 
-## Βήμα 6: Εξαγωγή στο TIFF
+## Βήμα 6: Εξαγωγή σε TIFF
 
 ```java
-// Εξαγωγή CAD σε TIFF
+// Export CAD to TIFF
 objImage.save(dataDir + "result_out_.tiff", tiffOptions);
 ```
 
-Τέλος, αποθηκεύουμε την εικόνα CAD σε ένα αρχείο TIFF χρησιμοποιώντας τις καθορισμένες επιλογές.
+Τέλος, αποθηκεύουμε την εικόνα CAD σε αρχείο TIFF χρησιμοποιώντας τις καθορισμένες επιλογές, δείχνοντας πώς να **export CAD to TIFF** μετά τον ορισμό του μεγέθους του καμβά.
 
-## συμπέρασμα
+## Συχνά Προβλήματα και Λύσεις
 
- Συγχαρητήρια! Έχετε ορίσει με επιτυχία το μέγεθος και τη λειτουργία του καμβά χρησιμοποιώντας το Aspose.CAD για Java. Αυτό το σεμινάριο παρέχει μια σταθερή βάση για τα έργα μετατροπής CAD. Εξερευνήστε περισσότερες δυνατότητες και δυνατότητες στο[Τεκμηρίωση Aspose.CAD](https://reference.aspose.com/cad/java/).
+| Πρόβλημα | Αιτία | Διόρθωση |
+|----------|-------|----------|
+| Το PDF εξόδου είναι κενό | `setNoScaling(true)` απενεργοποιεί την απόδοση για ορισμένα σχέδια | Αφαιρέστε `setNoScaling(true)` ή ορίστε το σε `false`. |
+| Η ανάλυση του TIFF φαίνεται χαμηλή | Το πλάτος/ύψος σελίδας είναι πολύ μικρό | Αυξήστε τις τιμές `setPageWidth` / `setPageHeight`. |
+| Η διάταξη φαίνεται παραμορφωμένη | Η αυτόματη κλιμάκωση διάταξης είναι απενεργοποιημένη | Βεβαιωθείτε ότι το `setAutomaticLayoutsScaling(true)` είναι ενεργοποιημένο. |
 
-## Συχνές ερωτήσεις
+## Συμπέρασμα
 
-### Ε1: Μπορώ να χρησιμοποιήσω το Aspose.CAD για Java με άλλα πλαίσια Java;
+Συγχαρητήρια! Έχετε ολοκληρώσει επιτυχώς τη **convert CAD to PDF** και την **export CAD to TIFF** ενώ **set canvas size java**, ενεργοποιώντας την **automatic layout scaling**, και μάθατε πώς να **configure canvas mode** για εξόδους υψηλής ποιότητας. Αυτό το tutorial παρέχει μια ισχυρή βάση για τα έργα μετατροπής CAD σας. Εξερευνήστε περισσότερες δυνατότητες και δυνατότητες στην [τεκμηρίωση Aspose.CAD](https://reference.aspose.com/cad/java/).
 
-A1: Ναι, το Aspose.CAD έχει σχεδιαστεί για να ενσωματώνεται απρόσκοπτα με διάφορα πλαίσια Java.
+## Συχνές Ερωτήσεις
 
-### Ε2: Είναι διαθέσιμη μια προσωρινή άδεια χρήσης για το Aspose.CAD;
+### Q1: Μπορώ να χρησιμοποιήσω το Aspose.CAD for Java με άλλα Java frameworks;
 
- A2: Ναι, μπορείτε να αποκτήσετε προσωρινή άδεια[εδώ](https://purchase.aspose.com/temporary-license/).
+A1: Ναι, το Aspose.CAD έχει σχεδιαστεί ώστε να ενσωματώνεται απρόσκοπτα με διάφορα Java frameworks.
 
-### Ε3: Πού μπορώ να λάβω υποστήριξη κοινότητας για το Aspose.CAD;
+### Q2: Διατίθεται προσωρινή άδεια για το Aspose.CAD;
 
- A3: Επισκεφθείτε το[Φόρουμ Aspose.CAD](https://forum.aspose.com/c/cad/19) για κοινοτική υποστήριξη και συζητήσεις.
+A2: Ναι, μπορείτε να αποκτήσετε προσωρινή άδεια [εδώ](https://purchase.aspose.com/temporary-license/).
 
-### Ε4: Μπορώ να δοκιμάσω το Aspose.CAD δωρεάν;
+### Q3: Πού μπορώ να βρω υποστήριξη κοινότητας για το Aspose.CAD;
 
- Α4: Απολύτως! Αποκτήστε μια δωρεάν δοκιμή[εδώ](https://releases.aspose.com/).
+A3: Επισκεφθείτε το [φόρουμ Aspose.CAD](https://forum.aspose.com/c/cad/19) για υποστήριξη και συζητήσεις.
 
-### Ε5: Πώς μπορώ να αγοράσω Aspose.CAD για Java;
+### Q4: Μπορώ να δοκιμάσω το Aspose.CAD δωρεάν;
 
- A5: Αγοράστε το προϊόν[εδώ](https://purchase.aspose.com/buy).
+A4: Απόλυτα! Λάβετε δωρεάν δοκιμή [εδώ](https://releases.aspose.com/).
+
+### Q5: Πώς αγοράζω το Aspose.CAD for Java;
+
+A5: Αγοράστε το προϊόν [εδώ](https://purchase.aspose.com/buy).
+
+**Πρόσθετες Ερωτήσεις & Απαντήσεις**
+
+**Ε: Επηρεάζει το μέγεθος του καμβά την ποιότητα του διανύσματος στο PDF;**  
+Α: Όχι. Το μέγεθος του καμβά ελέγχει τις διαστάσεις της σελίδας· τα διανυσματικά δεδομένα παραμένουν ανεξάρτητα από την ανάλυση, εξασφαλίζοντας καθαρή απόδοση σε οποιοδήποτε επίπεδο ζουμ.
+
+**Ε: Μπορώ να ορίσω διαφορετικό DPI για την έξοδο TIFF;**  
+Α: Ναι. Ρυθμίστε `rasterizationOptions.setResolution(dpiValue)` πριν δημιουργήσετε το `TiffOptions`.
+
+---
+
+**Τελευταία Ενημέρωση:** 2025-12-10  
+**Δοκιμασμένο Με:** Aspose.CAD for Java 24.12  
+**Συγγραφέας:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

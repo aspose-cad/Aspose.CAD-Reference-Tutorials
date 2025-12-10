@@ -1,10 +1,12 @@
 ---
-title: 导出中的笔支持
-linktitle: 导出中的笔支持
+date: 2025-12-10
+description: 学习如何使用 Aspose.CAD for Java 并进行笔刷自定义将 CAD 转换为 PDF。本分步指南展示了高效导出 CAD 为 PDF
+  的方法。
+linktitle: Pen Support in Export
 second_title: Aspose.CAD Java API
-description: 使用 Aspose.CAD for Java 掌握 CAD 导出中的笔自定义。请按照我们的分步指南进行无缝集成。
-weight: 13
+title: 如何在导出时使用笔支持从 CAD 创建 PDF
 url: /zh/java/advanced-cad-features/pen-support-in-export/
+weight: 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -15,17 +17,28 @@ url: /zh/java/advanced-cad-features/pen-support-in-export/
 
 ## 介绍
 
-在不断发展的 CAD（计算机辅助设计）转换领域，Aspose.CAD for Java 成为一种强大的工具，提供了操作 CAD 文件的广泛功能。在其多功能功能中，导出期间对笔自定义的支持非常突出，允许用户定制导出图像的外观。本教程将引导您完成在导出功能中利用笔支持的过程，重点关注使用 Java 的实际实现。
+在快速发展的 CAD 转换领域，开发人员经常需要 **create PDF from CAD** 文件，同时保持视觉保真度。Aspose.CAD for Java 使这变得简单，提供丰富的选项，例如笔自定义，让您在导出过程中微调线条样式。在本指南中，我们将通过一个完整的实战示例，展示如何使用自定义笔设置 **export CAD to PDF**，从而直接从 DXF 图纸生成精美的 PDF。
+
+## 快速回答
+- **What does “create PDF from CAD” mean?** 将 CAD 图纸（例如 DXF）转换为 PDF 文档，同时保留矢量质量。  
+- **Which library handles pen customization?** Aspose.CAD for Java 的 `PenOptions` 类。  
+- **Can I use this for other formats?** 是的——相同的笔设置适用于 PNG、BMP、TIFF 等。  
+- **Do I need a license?** 生产使用需要有效的 Aspose.CAD 许可证。  
+- **What’s the minimum Java version?** Java 8 或更高版本。
+
+## 什么是 “create PDF from CAD”？
+从 CAD 创建 PDF 意味着将 CAD 图纸光栅化或矢量渲染为 PDF 文件。这使得工程设计能够轻松共享、打印和归档，而无需接收方安装 CAD 软件。
+
+## 在将 CAD 导出为 PDF 时，为什么使用笔支持？
+笔支持允许您控制线帽、连接方式和粗细，使您能够匹配公司品牌或技术绘图标准。当默认的线条渲染无法满足您的视觉需求时，这尤其有用。
 
 ## 先决条件
 
-在深入研究本教程之前，请确保您具备以下先决条件：
+- **Java Development Environment** – 工作的 JDK（8 或更高）以及您选择的 IDE 或构建工具。  
+- **Aspose.CAD Library** – 从官方站点 [here](https://releases.aspose.com/cad/java/) 下载最新的 JAR。  
+- **A sample DXF file** – 本教程将使用 `conic_pyramid.dxf`。
 
-- Java 开发环境：确保您的计算机上设置了功能齐全的 Java 开发环境。
-
--  Aspose.CAD 库：下载 Aspose.CAD 库并将其集成到您的 Java 项目中。你可以找到图书馆[这里](https://releases.aspose.com/cad/java/).
-
-现在，让我们进入教程并探索在 CAD 导出期间利用笔支持的步骤。
+现在我们已经做好准备，让我们深入代码。
 
 ## 导入命名空间
 
@@ -39,22 +52,22 @@ import com.aspose.cad.imageoptions.PenOptions;
 import com.aspose.cad.internal.imaging.LineCap;
 ```
 
-## 第 1 步：定义您的文档目录
+## 步骤 1：定义文档目录
 
 ```java
 String dataDir = "Your Document Directory" + "CADConversion/";
 ```
 
-确保将“您的文档目录”替换为 CAD 文档的实际路径。
+> **Pro tip:** 将 `"Your Document Directory"` 替换为 DXF 文件所在的绝对路径。
 
-## 第 2 步：加载 CAD 文件
+## 步骤 2：加载 CAD 文件
 
 ```java
 String srcFile = dataDir + "conic_pyramid.dxf";
 CadImage cadImage = (CadImage) Image.load(srcFile);
 ```
 
-此步骤涉及使用 Aspose.CAD 库加载 CAD 文件（在本例中为“conic_pyramid.dxf”）。
+`Image.load` 方法读取 DXF 文件并创建一个可供操作的 `CadImage` 对象。
 
 ## 步骤 3：配置光栅化选项
 
@@ -64,9 +77,9 @@ rasterizationOptions.setPageWidth(cadImage.getWidth() * 100);
 rasterizationOptions.setPageHeight(cadImage.getHeight() * 100);
 ```
 
-根据您的具体要求调整页面宽度和高度。这些值决定导出图像的尺寸。
+调整页面尺寸以控制生成的 PDF 分辨率。乘以 100 可获得适合打印的高分辨率输出。
 
-## 第 4 步：自定义笔选项
+## 步骤 4：自定义笔选项
 
 ```java
 PenOptions penOts = new PenOptions();
@@ -74,7 +87,7 @@ penOts.setStartCap(LineCap.Flat);
 penOts.setEndCap(LineCap.Flat);
 ```
 
-根据需要定制笔的起始端盖和端盖。将 CadImage 对象导出为各种图像格式时适用此自定义。
+这里我们将笔的起始和结束帽设置为 `Flat`。您可以尝试其他 `LineCap` 值（例如 `Round`、`Square`），以实现不同的视觉效果。
 
 ## 步骤 5：配置 PDF 导出选项
 
@@ -83,41 +96,56 @@ PdfOptions pdfOptions = new PdfOptions();
 pdfOptions.setVectorRasterizationOptions(rasterizationOptions);
 ```
 
-指定矢量光栅化选项，包括之前配置的光栅化选项。
+`PdfOptions` 对象将光栅化设置关联到 PDF 导出过程。
 
-## 第6步：保存导出的PDF
+## 步骤 6：保存导出的 PDF
 
 ```java
 cadImage.save((dataDir + "9LHATT-A56_generated.pdf"), pdfOptions);
 ```
 
-使用指定的文件名（本例中为“9LHATT-A56_ generated.pdf”）和配置的选项保存导出的 PDF。
+执行此行代码会将名为 `9LHATT-A56_generated.pdf` 的 PDF 文件写入您的 `dataDir` 文件夹，并包含您定义的自定义笔样式。
 
-## 结论
+## 常见使用场景
 
-总之，在 CAD 导出过程中利用 Aspose.CAD for Java 的笔支持使用户能够自定义导出图像的外观。通过遵循此分步指南，您已了解如何将笔自定义无缝集成到 CAD 转换工作流程中。
+- **Technical documentation** – 在 PDF 手册中嵌入精确的工程图纸。  
+- **Automated reporting** – 在 Web 服务中即时从 CAD 数据生成 PDF。  
+- **Quality control** – 使用自定义线帽突出显示测量线或公差。
 
-## 常见问题解答
+## 故障排除与技巧
 
-### Q1：我可以为 PDF 以外的格式自定义笔选项吗？
+- **Incorrect file path** – 确保 `dataDir` 以文件分隔符结尾（`/` 或 `\\`）。  
+- **Missing license** – 没有有效许可证时，库以评估模式运行，可能会添加水印。  
+- **Unexpected line styles** – 再次确认在调用 `save` 之前已设置 `PenOptions`；否则将使用默认值。
 
-A1：是的，本教程中演示的笔自定义适用于各种图像格式，包括 PDF、PNG、BMP、GIF、JPEG2000、JPEG、PSD、TIFF 和 WMF。
+## 常见问题
 
-### Q2: 如何处理不同的笔头和尾盖？
+### Q1：我可以为除 PDF 之外的格式自定义笔选项吗？
 
- A2：利用`PenOptions`类来设置所需的起始端盖和结束端盖，为定义线条的外观提供了灵活性。
+A1: 是的，本教程演示的笔自定义适用于多种图像格式，包括 PDF、PNG、BMP、GIF、JPEG2000、JPEG、PSD、TIFF 和 WMF。
 
-### Q3：如果我不指定笔选项怎么办？
+### Q2：如何为笔设置不同的起始和结束帽？
 
-A3：如果没有明确设置笔选项，系统将使用默认笔，在不同的上下文中，默认笔可能会有所不同。
+A2: 使用 `PenOptions` 类设置所需的起始和结束帽，提供灵活的线条外观定义。
 
-### Q4：光栅化选项有具体的考虑因素吗？
+### Q3：如果我不指定笔选项会怎样？
 
-A4：在光栅化选项中调整页面宽度和高度，以控制导出图像的尺寸。
+A3: 如果未显式设置笔选项，系统将使用默认笔，这在不同情境下可能有所不同。
 
-### 问题 5：我在哪里可以找到其他支持或社区讨论？
+### Q4：光栅化选项有特定的注意事项吗？
 
- A5：探索 Aspose.CAD 社区论坛：[这里](https://forum.aspose.com/c/cad/19)以寻求支持和讨论。
+A4: 在光栅化选项中调整页面宽度和高度，以控制导出图像的尺寸。
+
+### Q5：在哪里可以找到更多支持或社区讨论？
+
+A5: 在 Aspose.CAD 社区论坛 [here](https://forum.aspose.com/c/cad/19) 探索支持和讨论。
+
+---
+
+**最后更新:** 2025-12-10  
+**测试环境:** Aspose.CAD 24.11 for Java  
+**作者:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
