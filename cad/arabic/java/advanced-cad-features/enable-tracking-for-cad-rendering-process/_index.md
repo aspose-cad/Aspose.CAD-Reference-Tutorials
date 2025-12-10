@@ -2,12 +2,11 @@
 date: 2025-12-07
 description: تعلم كيفية ضبط حجم صفحة PDF أثناء تحويل CAD إلى PDF باستخدام Aspose.CAD
   للغة Java. اتبع هذا الدليل خطوة بخطوة لتمكين التتبع، وتحويل CAD إلى PDF، وحفظ CAD
-  كملف PDF بكفاءة.
-language: ar
+  كملف PDF بكفاءة. 
 linktitle: Set PDF Page Size – Enable Tracking for CAD Rendering
 second_title: Aspose.CAD Java API
 title: كيفية ضبط حجم صفحة PDF وتمكين التتبع لعملية تصيير CAD
-url: /java/advanced-cad-features/enable-tracking-for-cad-rendering-process/
+url: /ar/java/advanced-cad-features/enable-tracking-for-cad-rendering-process/
 weight: 10
 ---
 
@@ -150,13 +149,6 @@ System.out.println("Tracking enabled successfully for CAD rendering process.");
 
 تهانينا! لقد تعلمت الآن كيفية **تحديد حجم صفحة PDF** وتمكين التتبع لتصيير CAD باستخدام **Aspose.CAD for Java**. يزوّدك هذا الدليل بالقدرة على **تحويل CAD إلى PDF**، **حفظ CAD كملف PDF**، وإنشاء PDF من DXF مع تحكم كامل في أبعاد الصفحة وسجلات تنفيذ مفصلة. لا تتردد في تجربة أحجام صفحات مختلفة واستكشاف خيارات الرستر الإضافية لتناسب سير عملك الهندسي المحدد.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **آخر تحديث:** 2025-12-07  
@@ -164,3 +156,10 @@ System.out.println("Tracking enabled successfully for CAD rendering process.");
 **المؤلف:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

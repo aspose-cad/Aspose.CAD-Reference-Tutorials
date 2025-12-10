@@ -3,11 +3,10 @@ date: 2025-12-07
 description: เรียนรู้วิธีตั้งขนาดหน้ากระดาษ PDF ขณะแปลง CAD เป็น PDF ด้วย Aspose.CAD
   สำหรับ Java ทำตามคู่มือขั้นตอนต่อขั้นตอนนี้เพื่อเปิดใช้งานการติดตาม แปลง CAD เป็น
   PDF และบันทึก CAD เป็น PDF อย่างมีประสิทธิภาพ
-language: th
 linktitle: Set PDF Page Size – Enable Tracking for CAD Rendering
 second_title: Aspose.CAD Java API
 title: วิธีตั้งขนาดหน้ากระดาษ PDF และเปิดใช้งานการติดตามสำหรับกระบวนการเรนเดอร์ CAD
-url: /java/advanced-cad-features/enable-tracking-for-cad-rendering-process/
+url: /th/java/advanced-cad-features/enable-tracking-for-cad-rendering-process/
 weight: 10
 ---
 
@@ -150,13 +149,6 @@ A5: มี หากคุณต้องการลิขสิทธิ์ช
 
 ขอแสดงความยินดี! คุณได้เรียนรู้วิธี **ตั้งขนาดหน้ากระดาษ PDF** และเปิดใช้งานการติดตามสำหรับการเรนเดอร์ CAD ด้วย **Aspose.CAD for Java** คู่มือนี้ทำให้คุณสามารถ **แปลง CAD เป็น PDF**, **บันทึก CAD เป็น PDF**, และสร้าง PDF จาก DXF พร้อมควบคุมขนาดหน้าและบันทึกการทำงานอย่างละเอียด อย่าลังเลที่จะทดลองขนาดหน้าต่าง ๆ และสำรวจตัวเลือกการ rasterization เพิ่มเติมเพื่อให้เหมาะกับกระบวนการวิศวกรรมของคุณ
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **อัปเดตล่าสุด:** 2025-12-07  
@@ -164,3 +156,10 @@ A5: มี หากคุณต้องการลิขสิทธิ์ช
 **ผู้เขียน:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

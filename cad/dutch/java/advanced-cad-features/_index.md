@@ -3,11 +3,10 @@ date: 2025-12-07
 description: Leer hoe u de canvasgrootte en andere geavanceerde CAD-functies instelt
   met Aspose.CAD voor Java, inclusief het converteren van CAD naar PDF, het extraheren
   van blokkenattributen, het instellen van de CAD-achtergrond en automatische lay-outschaling.
-language: nl
 linktitle: Set Canvas Size – Advanced CAD Features
 second_title: Aspose.CAD Java API
 title: Canvasgrootte instellen – Geavanceerde CAD-functies met Aspose.CAD voor Java
-url: /java/advanced-cad-features/
+url: /nl/java/advanced-cad-features/
 weight: 24
 ---
 

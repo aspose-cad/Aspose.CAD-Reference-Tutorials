@@ -2,11 +2,10 @@
 date: 2025-12-07
 description: Aspose.CAD for Java를 사용하여 캔버스 크기 설정 및 기타 고급 CAD 기능을 배우세요. 여기에는 CAD를 PDF로
   변환하고, 블록 속성을 추출하며, CAD 배경을 설정하고, 자동 레이아웃 스케일링을 포함합니다.
-language: ko
 linktitle: Set Canvas Size – Advanced CAD Features
 second_title: Aspose.CAD Java API
 title: 캔버스 크기 설정 – Java용 Aspose.CAD의 고급 CAD 기능
-url: /java/advanced-cad-features/
+url: /ko/java/advanced-cad-features/
 weight: 24
 ---
 

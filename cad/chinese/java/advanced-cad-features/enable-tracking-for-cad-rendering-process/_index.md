@@ -2,11 +2,10 @@
 date: 2025-12-07
 description: 了解如何在使用 Aspose.CAD for Java 将 CAD 转换为 PDF 时设置 PDF 页面大小。按照本分步指南启用跟踪、将
   CAD 转换为 PDF，并高效地将 CAD 保存为 PDF。
-language: zh
 linktitle: Set PDF Page Size – Enable Tracking for CAD Rendering
 second_title: Aspose.CAD Java API
 title: 如何设置 PDF 页面尺寸并为 CAD 渲染过程启用跟踪
-url: /java/advanced-cad-features/enable-tracking-for-cad-rendering-process/
+url: /zh/java/advanced-cad-features/enable-tracking-for-cad-rendering-process/
 weight: 10
 ---
 
@@ -149,15 +148,15 @@ A5：是的，如果您需要临时许可证，可在[此处](https://purchase.a
 
 恭喜！您现在已经学习了如何使用 **Aspose.CAD for Java** **设置 PDF 页面大小** 并为 CAD 渲染启用跟踪。本指南帮助您 **将 CAD 转换为 PDF**、**将 CAD 保存为 PDF**，以及从 DXF 生成 PDF，同时对页面尺寸和执行日志拥有完整控制。欢迎尝试不同的页面尺寸，并探索更多光栅化选项，以满足您的特定工程工作流。
 
+---
+
+**最后更新：** 2025-12-07  
+**测试环境：** Aspose.CAD for Java 24.12（撰写时的最新版本）  
+**作者：** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**最后更新：** 2025-12-07  
-**测试环境：** Aspose.CAD for Java 24.12（撰写时的最新版本）  
-**作者：** Aspose

@@ -4,12 +4,11 @@ description: Apprenez à définir la taille du canevas et d’autres fonctionnal
   de CAD en utilisant Aspose.CAD pour Java, y compris la conversion de CAD en PDF,
   l’extraction des attributs de blocs, la définition de l’arrière‑plan CAD et le redimensionnement
   automatique de la mise en page.
-language: fr
 linktitle: Set Canvas Size – Advanced CAD Features
 second_title: Aspose.CAD Java API
 title: Définir la taille du canevas – Fonctionnalités CAD avancées avec Aspose.CAD
   pour Java
-url: /java/advanced-cad-features/
+url: /fr/java/advanced-cad-features/
 weight: 24
 ---
 

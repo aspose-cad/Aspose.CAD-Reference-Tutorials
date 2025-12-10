@@ -4,12 +4,11 @@ description: Pelajari cara mengatur ukuran halaman PDF saat mengonversi CAD ke P
   menggunakan Aspose.CAD untuk Java. Ikuti panduan langkah demi langkah ini untuk
   mengaktifkan pelacakan, mengonversi CAD ke PDF, dan menyimpan CAD sebagai PDF secara
   efisien.
-language: id
 linktitle: Set PDF Page Size – Enable Tracking for CAD Rendering
 second_title: Aspose.CAD Java API
 title: Cara Mengatur Ukuran Halaman PDF dan Mengaktifkan Pelacakan untuk Proses Rendering
   CAD
-url: /java/advanced-cad-features/enable-tracking-for-cad-rendering-process/
+url: /id/java/advanced-cad-features/enable-tracking-for-cad-rendering-process/
 weight: 10
 ---
 
@@ -151,15 +150,15 @@ A5: Ya, jika Anda memerlukan lisensi sementara, Anda dapat memperoleh satu [di s
 
 Selamat! Anda kini telah belajar cara **set PDF page size** dan mengaktifkan pelacakan untuk rendering CAD menggunakan **Aspose.CAD for Java**. Panduan ini mempersiapkan Anda untuk **mengonversi CAD ke PDF**, **menyimpan CAD sebagai PDF**, dan menghasilkan PDF dari DXF dengan kontrol penuh atas dimensi halaman serta log eksekusi yang terperinci. Jangan ragu untuk bereksperimen dengan ukuran halaman yang berbeda dan menjelajahi opsi rasterisasi tambahan untuk menyesuaikan alur kerja teknik Anda.
 
+---
+
+**Last Updated:** 2025-12-07  
+**Tested With:** Aspose.CAD for Java 24.12 (latest at time of writing)  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-07  
-**Tested With:** Aspose.CAD for Java 24.12 (latest at time of writing)  
-**Author:** Aspose

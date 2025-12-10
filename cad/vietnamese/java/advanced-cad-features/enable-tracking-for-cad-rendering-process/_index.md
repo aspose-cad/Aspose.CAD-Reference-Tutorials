@@ -3,11 +3,10 @@ date: 2025-12-07
 description: Học cách đặt kích thước trang PDF khi chuyển CAD sang PDF bằng Aspose.CAD
   cho Java. Thực hiện theo hướng dẫn từng bước này để bật theo dõi, chuyển CAD sang
   PDF và lưu CAD dưới dạng PDF một cách hiệu quả.
-language: vi
 linktitle: Set PDF Page Size – Enable Tracking for CAD Rendering
 second_title: Aspose.CAD Java API
 title: Cách thiết lập kích thước trang PDF và bật theo dõi cho quá trình render CAD
-url: /java/advanced-cad-features/enable-tracking-for-cad-rendering-process/
+url: /vi/java/advanced-cad-features/enable-tracking-for-cad-rendering-process/
 weight: 10
 ---
 
@@ -150,13 +149,6 @@ A5: Có, nếu bạn cần giấy phép tạm thời, bạn có thể mua [tại
 
 Chúc mừng! Bạn đã học cách **đặt kích thước trang PDF** và bật theo dõi cho quá trình render CAD bằng **Aspose.CAD for Java**. Hướng dẫn này giúp bạn **chuyển đổi CAD sang PDF**, **lưu CAD dưới dạng PDF**, và tạo PDF từ DXF với kiểm soát đầy đủ kích thước trang và nhật ký thực thi chi tiết. Hãy thử nghiệm với các kích thước trang khác nhau và khám phá thêm các tùy chọn rasterization để phù hợp với quy trình kỹ thuật của bạn.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Cập nhật lần cuối:** 2025-12-07  
@@ -164,3 +156,10 @@ Chúc mừng! Bạn đã học cách **đặt kích thước trang PDF** và b�
 **Tác giả:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

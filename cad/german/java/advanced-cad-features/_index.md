@@ -4,11 +4,10 @@ description: Erfahren Sie, wie Sie die Canvas-Größe und weitere erweiterte CAD
   mit Aspose.CAD für Java festlegen, einschließlich der Konvertierung von CAD zu PDF,
   dem Extrahieren von Blockattributen, dem Einstellen des CAD-Hintergrunds und der
   automatischen Layout-Skalierung.
-language: de
 linktitle: Set Canvas Size – Advanced CAD Features
 second_title: Aspose.CAD Java API
 title: Leinwandgröße festlegen – Erweiterte CAD‑Funktionen mit Aspose.CAD für Java
-url: /java/advanced-cad-features/
+url: /de/java/advanced-cad-features/
 weight: 24
 ---
 

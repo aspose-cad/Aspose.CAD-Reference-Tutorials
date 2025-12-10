@@ -2,11 +2,10 @@
 date: 2025-12-07
 description: Aspose.CAD for Java を使用して、キャンバスサイズの設定やその他の高度な CAD 機能を学びます。CAD を PDF に変換する、ブロック属性を抽出する、CAD
   の背景を設定する、オートレイアウトスケーリングを行う、などが含まれます。
-language: ja
 linktitle: Set Canvas Size – Advanced CAD Features
 second_title: Aspose.CAD Java API
 title: キャンバスサイズの設定 – Aspose.CAD for Javaによる高度なCAD機能
-url: /java/advanced-cad-features/
+url: /ja/java/advanced-cad-features/
 weight: 24
 ---
 

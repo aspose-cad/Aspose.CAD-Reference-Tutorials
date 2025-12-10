@@ -2,11 +2,10 @@
 date: 2025-12-07
 description: 学习如何使用 Aspose.CAD for Java 设置画布大小和其他高级 CAD 功能，包括将 CAD 转换为 PDF、提取块属性、设置
   CAD 背景以及自动布局缩放。
-language: zh
 linktitle: Set Canvas Size – Advanced CAD Features
 second_title: Aspose.CAD Java API
 title: 设置画布大小 – 使用 Aspose.CAD for Java 的高级 CAD 功能
-url: /java/advanced-cad-features/
+url: /zh/java/advanced-cad-features/
 weight: 24
 ---
 

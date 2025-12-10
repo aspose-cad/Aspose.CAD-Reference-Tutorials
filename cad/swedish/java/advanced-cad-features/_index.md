@@ -3,11 +3,10 @@ date: 2025-12-07
 description: Lär dig hur du ställer in canvasstorlek och andra avancerade CAD-funktioner
   med Aspose.CAD för Java, inklusive konvertering av CAD till PDF, extrahering av
   blockattribut, inställning av CAD-bakgrund och automatisk layoutskalning.
-language: sv
 linktitle: Set Canvas Size – Advanced CAD Features
 second_title: Aspose.CAD Java API
 title: Ställ in dukstorlek – Avancerade CAD-funktioner med Aspose.CAD för Java
-url: /java/advanced-cad-features/
+url: /sv/java/advanced-cad-features/
 weight: 24
 ---
 

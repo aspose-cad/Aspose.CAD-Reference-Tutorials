@@ -4,12 +4,11 @@ description: Ismerje meg, hogyan állíthatja be a PDF oldalméretét CAD‑ról
   közben az Aspose.CAD for Java használatával. Kövesse ezt a lépésről‑lépésre útmutatót
   a nyomkövetés engedélyezéséhez, a CAD‑PDF konvertáláshoz, és a CAD PDF‑ként való
   hatékony mentéséhez.
-language: hu
 linktitle: Set PDF Page Size – Enable Tracking for CAD Rendering
 second_title: Aspose.CAD Java API
 title: Hogyan állítsuk be a PDF oldal méretét és engedélyezzük a nyomon követést a
   CAD renderelési folyamatban
-url: /java/advanced-cad-features/enable-tracking-for-cad-rendering-process/
+url: /hu/java/advanced-cad-features/enable-tracking-for-cad-rendering-process/
 weight: 10
 ---
 
@@ -152,15 +151,15 @@ A5: Igen, ha ideiglenes licencre van szüksége, azt [itt](https://purchase.aspo
 
 Gratulálunk! Most már megtanulta, hogyan **állítsa be a PDF oldal méretét** és engedélyezze a követést a CAD rendereléshez a **Aspose.CAD for Java** segítségével. Ez az útmutató felkészíti Önt a **CAD‑ról PDF‑re konvertálásra**, a **CAD‑ PDF‑ként való mentésére**, valamint a DXF‑ből PDF generálására, teljes kontrollal az oldalméretek és a részletes végrehajtási naplók felett. Nyugodtan kísérletezzen különböző oldalméretekkel, és fedezze fel a további rasterizálási beállításokat, hogy a saját mérnöki munkafolyamataihoz leginkább illeszkedjenek.
 
+---
+
+**Last Updated:** 2025-12-07  
+**Tested With:** Aspose.CAD for Java 24.12 (latest at time of writing)  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-07  
-**Tested With:** Aspose.CAD for Java 24.12 (latest at time of writing)  
-**Author:** Aspose

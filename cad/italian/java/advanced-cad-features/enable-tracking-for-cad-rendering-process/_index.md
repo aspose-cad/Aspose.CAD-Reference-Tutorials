@@ -4,12 +4,11 @@ description: Scopri come impostare la dimensione della pagina PDF durante la con
   da CAD a PDF utilizzando Aspose.CAD per Java. Segui questa guida passo‑passo per
   abilitare il tracciamento, convertire CAD in PDF e salvare CAD come PDF in modo
   efficiente.
-language: it
 linktitle: Set PDF Page Size – Enable Tracking for CAD Rendering
 second_title: Aspose.CAD Java API
 title: Come impostare la dimensione della pagina PDF e abilitare il tracciamento per
   il processo di rendering CAD
-url: /java/advanced-cad-features/enable-tracking-for-cad-rendering-process/
+url: /it/java/advanced-cad-features/enable-tracking-for-cad-rendering-process/
 weight: 10
 ---
 
@@ -152,13 +151,6 @@ A5: Sì, se hai bisogno di una licenza temporanea, puoi ottenerla [qui](https://
 
 Congratulazioni! Hai appena imparato a **set PDF page size** e a abilitare il tracciamento per il rendering CAD usando **Aspose.CAD for Java**. Questa guida ti consente di **convertire CAD in PDF**, **save CAD as PDF**, e generare PDF da DXF con pieno controllo sulle dimensioni della pagina e registri di esecuzione dettagliati. Sentiti libero di sperimentare con diverse dimensioni di pagina ed esplorare ulteriori opzioni di rasterizzazione per adattarle ai tuoi flussi di lavoro ingegneristici specifici.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Ultimo aggiornamento:** 2025-12-07  
@@ -166,3 +158,10 @@ Congratulazioni! Hai appena imparato a **set PDF page size** e a abilitare il tr
 **Autore:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

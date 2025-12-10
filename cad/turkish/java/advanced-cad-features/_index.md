@@ -3,11 +3,10 @@ date: 2025-12-07
 description: Aspose.CAD for Java kullanarak tuval boyutunu ayarlamayı ve diğer gelişmiş
   CAD özelliklerini öğrenin; CAD'i PDF'ye dönüştürme, blok özniteliklerini çıkarma,
   CAD arka planını ayarlama ve otomatik düzen ölçeklendirme gibi.
-language: tr
 linktitle: Set Canvas Size – Advanced CAD Features
 second_title: Aspose.CAD Java API
 title: Tuval Boyutunu Ayarla – Java için Aspose.CAD ile Gelişmiş CAD Özellikleri
-url: /java/advanced-cad-features/
+url: /tr/java/advanced-cad-features/
 weight: 24
 ---
 

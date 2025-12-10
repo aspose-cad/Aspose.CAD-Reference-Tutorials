@@ -3,11 +3,10 @@ date: 2025-12-07
 description: Lär dig hur du ställer in PDF‑sidstorlek när du konverterar CAD till
   PDF med Aspose.CAD för Java. Följ den här steg‑för‑steg‑guiden för att aktivera
   spårning, konvertera CAD till PDF och spara CAD som PDF på ett effektivt sätt.
-language: sv
 linktitle: Set PDF Page Size – Enable Tracking for CAD Rendering
 second_title: Aspose.CAD Java API
 title: Hur man ställer in PDF‑sidstorlek och aktiverar spårning för CAD‑renderingsprocessen
-url: /java/advanced-cad-features/enable-tracking-for-cad-rendering-process/
+url: /sv/java/advanced-cad-features/enable-tracking-for-cad-rendering-process/
 weight: 10
 ---
 
@@ -150,15 +149,15 @@ A5: Ja, om du behöver en tillfällig licens kan du skaffa en [här](https://pur
 
 Grattis! Du har nu lärt dig hur du **ställer in PDF-sidstorlek** och aktiverar spårning för CAD-rendering med **Aspose.CAD for Java**. Denna guide utrustar dig för att **konvertera CAD till PDF**, **spara CAD som PDF**, och generera PDF från DXF med full kontroll över siddimensioner och detaljerade exekveringsloggar. Känn dig fri att experimentera med olika sidstorlekar och utforska ytterligare rasteriseringsalternativ för att passa dina specifika ingenjörsarbetsflöden.
 
+---
+
+**Senast uppdaterad:** 2025-12-07  
+**Testad med:** Aspose.CAD for Java 24.12 (senaste vid skrivande)  
+**Författare:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Senast uppdaterad:** 2025-12-07  
-**Testad med:** Aspose.CAD for Java 24.12 (senaste vid skrivande)  
-**Författare:** Aspose

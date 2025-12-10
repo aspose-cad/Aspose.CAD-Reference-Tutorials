@@ -147,13 +147,6 @@ A5: Yes, if you need a temporary license, you can acquire one [here](https://pur
 
 Congratulations! You have now learned how to **set PDF page size** and enable tracking for CAD rendering using **Aspose.CAD for Java**. This guide equips you to **convert CAD to PDF**, **save CAD as PDF**, and generate PDF from DXF with full control over page dimensions and detailed execution logs. Feel free to experiment with different page sizes and explore additional rasterization options to suit your specific engineering workflows.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Last Updated:** 2025-12-07  
@@ -161,3 +154,10 @@ Congratulations! You have now learned how to **set PDF page size** and enable tr
 **Author:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

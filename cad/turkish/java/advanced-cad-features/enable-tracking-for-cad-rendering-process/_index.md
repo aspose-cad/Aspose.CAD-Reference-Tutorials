@@ -3,12 +3,11 @@ date: 2025-12-07
 description: Aspose.CAD for Java kullanarak CAD'i PDF'ye dönüştürürken PDF sayfa boyutunu
   nasıl ayarlayacağınızı öğrenin. İzlemeyi etkinleştirmek, CAD'i PDF'ye dönüştürmek
   ve CAD'i PDF olarak verimli bir şekilde kaydetmek için bu adım adım kılavuzu izleyin.
-language: tr
 linktitle: Set PDF Page Size – Enable Tracking for CAD Rendering
 second_title: Aspose.CAD Java API
 title: PDF Sayfa Boyutunu Nasıl Ayarlarsınız ve CAD Render İşlemi İçin İzlemeyi Nasıl
   Etkinleştirirsiniz
-url: /java/advanced-cad-features/enable-tracking-for-cad-rendering-process/
+url: /tr/java/advanced-cad-features/enable-tracking-for-cad-rendering-process/
 weight: 10
 ---
 
@@ -151,13 +150,6 @@ C5: Evet, geçici bir lisansa ihtiyacınız varsa [buradan](https://purchase.asp
 
 Tebrikler! **Aspose.CAD for Java** kullanarak **PDF sayfa boyutunu ayarlamayı** ve CAD renderleme sürecinde izlemeyi **etkinleştirmeyi** öğrendiniz. Bu kılavuz, **CAD'ı PDF'ye dönüştürme**, **CAD'ı PDF olarak kaydetme** ve **DXF'ten PDF oluşturma** konularında sayfa boyutları ve ayrıntılı yürütme günlükleri üzerinde tam kontrol sağlayarak size yardımcı olacak. Farklı sayfa boyutlarıyla denemeler yapın ve mühendislik iş akışlarınıza uygun ek rasterizasyon seçeneklerini keşfedin.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Son Güncelleme:** 2025-12-07  
@@ -165,3 +157,10 @@ Tebrikler! **Aspose.CAD for Java** kullanarak **PDF sayfa boyutunu ayarlamayı**
 **Yazar:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

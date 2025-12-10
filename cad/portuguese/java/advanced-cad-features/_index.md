@@ -3,11 +3,10 @@ date: 2025-12-07
 description: Aprenda a definir o tamanho da tela e outros recursos avançados de CAD
   usando Aspose.CAD para Java, incluindo a conversão de CAD para PDF, extração de
   atributos de blocos, definição de fundo do CAD e dimensionamento automático de layout.
-language: pt
 linktitle: Set Canvas Size – Advanced CAD Features
 second_title: Aspose.CAD Java API
 title: Definir Tamanho da Tela – Recursos Avançados de CAD com Aspose.CAD para Java
-url: /java/advanced-cad-features/
+url: /pt/java/advanced-cad-features/
 weight: 24
 ---
 

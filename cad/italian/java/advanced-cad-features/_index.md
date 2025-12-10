@@ -4,12 +4,11 @@ description: Scopri come impostare la dimensione della tela e altre funzionalit�
   avanzate usando Aspose.CAD per Java, inclusa la conversione da CAD a PDF, l'estrazione
   degli attributi dei blocchi, l'impostazione dello sfondo CAD e la scalatura automatica
   del layout.
-language: it
 linktitle: Set Canvas Size – Advanced CAD Features
 second_title: Aspose.CAD Java API
 title: Imposta dimensione della tela – Funzionalità CAD avanzate con Aspose.CAD per
   Java
-url: /java/advanced-cad-features/
+url: /it/java/advanced-cad-features/
 weight: 24
 ---
 

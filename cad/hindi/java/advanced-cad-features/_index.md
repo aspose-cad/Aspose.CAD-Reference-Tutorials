@@ -3,11 +3,10 @@ date: 2025-12-07
 description: कैनवास आकार सेट करना और Aspose.CAD for Java का उपयोग करके अन्य उन्नत
   CAD सुविधाएँ सीखें, जिसमें CAD को PDF में बदलना, ब्लॉक एट्रिब्यूट्स निकालना, CAD
   बैकग्राउंड सेट करना, और ऑटो लेआउट स्केलिंग शामिल है।
-language: hi
 linktitle: Set Canvas Size – Advanced CAD Features
 second_title: Aspose.CAD Java API
 title: कैनवास आकार सेट करें – जावा के लिए Aspose.CAD के साथ उन्नत CAD सुविधाएँ
-url: /java/advanced-cad-features/
+url: /hi/java/advanced-cad-features/
 weight: 24
 ---
 

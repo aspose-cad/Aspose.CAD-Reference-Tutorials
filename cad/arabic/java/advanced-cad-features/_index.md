@@ -3,11 +3,10 @@ date: 2025-12-07
 description: تعلم كيفية ضبط حجم اللوحة وغيرها من ميزات CAD المتقدمة باستخدام Aspose.CAD
   للغة Java، بما في ذلك تحويل CAD إلى PDF، استخراج سمات الكتل، ضبط خلفية CAD، وتوسيع
   التخطيط تلقائيًا.
-language: ar
 linktitle: Set Canvas Size – Advanced CAD Features
 second_title: Aspose.CAD Java API
 title: ضبط حجم اللوحة – ميزات CAD المتقدمة مع Aspose.CAD للـ Java
-url: /java/advanced-cad-features/
+url: /ar/java/advanced-cad-features/
 weight: 24
 ---
 

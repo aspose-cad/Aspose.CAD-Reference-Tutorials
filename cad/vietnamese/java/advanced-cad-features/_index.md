@@ -3,11 +3,10 @@ date: 2025-12-07
 description: Tìm hiểu cách thiết lập kích thước canvas và các tính năng CAD nâng cao
   khác bằng Aspose.CAD cho Java, bao gồm chuyển đổi CAD sang PDF, trích xuất thuộc
   tính khối, thiết lập nền CAD và tự động tỷ lệ bố cục.
-language: vi
 linktitle: Set Canvas Size – Advanced CAD Features
 second_title: Aspose.CAD Java API
 title: Đặt kích thước Canvas – Các tính năng CAD nâng cao với Aspose.CAD cho Java
-url: /java/advanced-cad-features/
+url: /vi/java/advanced-cad-features/
 weight: 24
 ---
 

@@ -3,11 +3,10 @@ date: 2025-12-07
 description: Dowiedz się, jak ustawić rozmiar płótna i inne zaawansowane funkcje CAD
   przy użyciu Aspose.CAD dla Javy, w tym konwertowanie CAD na PDF, wyodrębnianie atrybutów
   bloków, ustawianie tła CAD oraz automatyczne skalowanie układu.
-language: pl
 linktitle: Set Canvas Size – Advanced CAD Features
 second_title: Aspose.CAD Java API
 title: Ustaw rozmiar płótna – Zaawansowane funkcje CAD z Aspose.CAD dla Javy
-url: /java/advanced-cad-features/
+url: /pl/java/advanced-cad-features/
 weight: 24
 ---
 

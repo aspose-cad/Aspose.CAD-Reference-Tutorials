@@ -4,12 +4,11 @@ description: Aprenda a establecer el tamaño del lienzo y otras funciones avanza
   de CAD usando Aspose.CAD para Java, incluyendo la conversión de CAD a PDF, la extracción
   de atributos de bloques, la configuración del fondo de CAD y el escalado automático
   del diseño.
-language: es
 linktitle: Set Canvas Size – Advanced CAD Features
 second_title: Aspose.CAD Java API
 title: Establecer tamaño del lienzo – Funciones avanzadas de CAD con Aspose.CAD para
   Java
-url: /java/advanced-cad-features/
+url: /es/java/advanced-cad-features/
 weight: 24
 ---
 

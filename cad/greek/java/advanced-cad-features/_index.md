@@ -4,11 +4,10 @@ description: Μάθετε πώς να ορίζετε το μέγεθος του 
   CAD χρησιμοποιώντας το Aspose.CAD για Java, συμπεριλαμβανομένης της μετατροπής CAD
   σε PDF, της εξαγωγής χαρακτηριστικών μπλοκ, του καθορισμού του φόντου CAD και της
   αυτόματης κλιμάκωσης της διάταξης.
-language: el
 linktitle: Set Canvas Size – Advanced CAD Features
 second_title: Aspose.CAD Java API
 title: Ορισμός μεγέθους καμβά – Προηγμένες λειτουργίες CAD με το Aspose.CAD για Java
-url: /java/advanced-cad-features/
+url: /el/java/advanced-cad-features/
 weight: 24
 ---
 

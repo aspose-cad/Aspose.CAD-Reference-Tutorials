@@ -3,11 +3,10 @@ date: 2025-12-07
 description: Pelajari cara mengatur ukuran kanvas dan fitur CAD lanjutan lainnya menggunakan
   Aspose.CAD untuk Java, termasuk mengonversi CAD ke PDF, mengekstrak atribut blok,
   mengatur latar belakang CAD, dan penskalaan tata letak otomatis.
-language: id
 linktitle: Set Canvas Size – Advanced CAD Features
 second_title: Aspose.CAD Java API
 title: Atur Ukuran Kanvas – Fitur CAD Lanjutan dengan Aspose.CAD untuk Java
-url: /java/advanced-cad-features/
+url: /id/java/advanced-cad-features/
 weight: 24
 ---
 

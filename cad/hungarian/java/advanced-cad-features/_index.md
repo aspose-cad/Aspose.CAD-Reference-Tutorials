@@ -4,11 +4,10 @@ description: Ismerje meg, hogyan állíthatja be a vászon méretét és más fe
   funkciókat az Aspose.CAD for Java segítségével, beleértve a CAD PDF‑re konvertálását,
   a blokk attribútumok kinyerését, a CAD háttér beállítását és az automatikus elrendezés
   méretezését.
-language: hu
 linktitle: Set Canvas Size – Advanced CAD Features
 second_title: Aspose.CAD Java API
 title: Vászonméret beállítása – Haladó CAD funkciók az Aspose.CAD for Java-val
-url: /java/advanced-cad-features/
+url: /hu/java/advanced-cad-features/
 weight: 24
 ---
 

@@ -4,12 +4,11 @@ description: Μάθετε πώς να ορίζετε το μέγεθος σελ�
   PDF χρησιμοποιώντας το Aspose.CAD for Java. Ακολουθήστε αυτόν τον βήμα‑βήμα οδηγό
   για να ενεργοποιήσετε την παρακολούθηση, να μετατρέψετε CAD σε PDF και να αποθηκεύσετε
   CAD ως PDF αποδοτικά.
-language: el
 linktitle: Set PDF Page Size – Enable Tracking for CAD Rendering
 second_title: Aspose.CAD Java API
 title: Πώς να ορίσετε το μέγεθος σελίδας PDF και να ενεργοποιήσετε την παρακολούθηση
   για τη διαδικασία απόδοσης CAD
-url: /java/advanced-cad-features/enable-tracking-for-cad-rendering-process/
+url: /el/java/advanced-cad-features/enable-tracking-for-cad-rendering-process/
 weight: 10
 ---
 
@@ -152,13 +151,6 @@ System.out.println("Tracking enabled successfully for CAD rendering process.");
 
 Συγχαρητήρια! Μάθατε πώς να **ορίζετε το μέγεθος σελίδας PDF** και να ενεργοποιείτε την παρακολούθηση για την απόδοση CAD χρησιμοποιώντας το **Aspose.CAD for Java**. Αυτός ο οδηγός σας εξοπλίζει για **μετατροπή CAD σε PDF**, **αποθήκευση CAD ως PDF**, και δημιουργία PDF από DXF με πλήρη έλεγχο των διαστάσεων σελίδας και λεπτομερείς καταγραφές εκτέλεσης. Μη διστάσετε να πειραματιστείτε με διαφορετικά μεγέθη σελίδας και να εξερευνήσετε πρόσθετες επιλογές rasterization για τις συγκεκριμένες ανάγκες των μηχανικών σας ροών εργασίας.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Τελευταία ενημέρωση:** 2025-12-07  
@@ -166,3 +158,10 @@ System.out.println("Tracking enabled successfully for CAD rendering process.");
 **Συγγραφέας:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

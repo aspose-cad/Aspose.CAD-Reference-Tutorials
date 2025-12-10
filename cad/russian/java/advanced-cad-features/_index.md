@@ -3,11 +3,10 @@ date: 2025-12-07
 description: Изучите, как задавать размер холста и использовать другие расширенные
   функции CAD с помощью Aspose.CAD для Java, включая конвертацию CAD в PDF, извлечение
   атрибутов блоков, установку фона CAD и автоматическое масштабирование макета.
-language: ru
 linktitle: Set Canvas Size – Advanced CAD Features
 second_title: Aspose.CAD Java API
 title: Установить размер холста – Расширенные функции CAD с Aspose.CAD для Java
-url: /java/advanced-cad-features/
+url: /ru/java/advanced-cad-features/
 weight: 24
 ---
 

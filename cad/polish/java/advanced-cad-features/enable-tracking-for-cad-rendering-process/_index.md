@@ -4,11 +4,10 @@ description: Dowiedz się, jak ustawić rozmiar strony PDF podczas konwertowania
   na PDF przy użyciu Aspose.CAD for Java. Postępuj zgodnie z tym przewodnikiem krok
   po kroku, aby włączyć śledzenie, konwertować CAD na PDF i efektywnie zapisywać CAD
   jako PDF.
-language: pl
 linktitle: Set PDF Page Size – Enable Tracking for CAD Rendering
 second_title: Aspose.CAD Java API
 title: Jak ustawić rozmiar strony PDF i włączyć śledzenie procesu renderowania CAD
-url: /java/advanced-cad-features/enable-tracking-for-cad-rendering-process/
+url: /pl/java/advanced-cad-features/enable-tracking-for-cad-rendering-process/
 weight: 10
 ---
 
@@ -150,15 +149,15 @@ A5: Tak, jeśli potrzebujesz tymczasowej licencji, możesz ją uzyskać [tutaj](
 
 Gratulacje! Nauczyłeś się teraz, jak **ustawić rozmiar strony PDF** i włączyć śledzenie dla renderowania CAD przy użyciu **Aspose.CAD for Java**. Ten przewodnik umożliwia **konwersję CAD do PDF**, **zapis CAD jako PDF** oraz generowanie PDF z DXF z pełną kontrolą nad wymiarami strony i szczegółowymi dziennikami wykonania. Śmiało eksperymentuj z różnymi rozmiarami stron i odkrywaj dodatkowe opcje rasteryzacji, aby dopasować je do swoich specyficznych procesów inżynierskich.
 
+---
+
+**Last Updated:** 2025-12-07  
+**Tested With:** Aspose.CAD for Java 24.12 (latest at time of writing)  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-07  
-**Tested With:** Aspose.CAD for Java 24.12 (latest at time of writing)  
-**Author:** Aspose

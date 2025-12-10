@@ -3,11 +3,10 @@ date: 2025-12-07
 description: Naučte se, jak nastavit velikost plátna a další pokročilé funkce CAD
   pomocí Aspose.CAD pro Javu, včetně převodu CAD do PDF, extrakce atributů bloků,
   nastavení pozadí CAD a automatického škálování rozvržení.
-language: cs
 linktitle: Set Canvas Size – Advanced CAD Features
 second_title: Aspose.CAD Java API
 title: Nastavit velikost plátna – Pokročilé funkce CAD s Aspose.CAD pro Javu
-url: /java/advanced-cad-features/
+url: /cs/java/advanced-cad-features/
 weight: 24
 ---
 

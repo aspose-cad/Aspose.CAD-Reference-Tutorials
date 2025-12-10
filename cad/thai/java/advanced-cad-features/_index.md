@@ -3,11 +3,10 @@ date: 2025-12-07
 description: เรียนรู้วิธีตั้งขนาดแคนวาสและคุณลักษณะขั้นสูงอื่น ๆ ของ CAD ด้วย Aspose.CAD
   for Java รวมถึงการแปลง CAD เป็น PDF การสกัดคุณลักษณะบล็อก การตั้งค่าพื้นหลัง CAD
   และการปรับสเกลการจัดวางอัตโนมัติ.
-language: th
 linktitle: Set Canvas Size – Advanced CAD Features
 second_title: Aspose.CAD Java API
 title: ตั้งขนาดแคนวาส – คุณสมบัติ CAD ขั้นสูงด้วย Aspose.CAD สำหรับ Java
-url: /java/advanced-cad-features/
+url: /th/java/advanced-cad-features/
 weight: 24
 ---
 
