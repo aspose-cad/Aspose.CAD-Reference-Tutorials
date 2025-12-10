@@ -3,11 +3,10 @@ date: 2025-12-08
 description: Tanulja meg, hogyan konvertálhat IGES-t PDF-re az Aspose.CAD for Java
   segítségével. Kövesse ezt a lépésről‑lépésre útmutatót az IGES formátum integrálásához
   és a magas minőségű PDF-fájlok előállításához.
-language: hu
 linktitle: Integrate IGES Format
 second_title: Aspose.CAD Java API
 title: IGES konvertálása PDF-be az Aspose.CAD for Java használatával
-url: /java/advanced-cad-features/integrate-iges-format/
+url: /hu/java/advanced-cad-features/integrate-iges-format/
 weight: 11
 ---
 
@@ -122,13 +121,6 @@ V: Az Aspose.CAD közösségi fórum remek hely kérdések feltevésére – lá
 **K: Hogyan vásárolhatok Aspose.CAD licencet?**  
 V: Teljes licencet vásárolhat [itt](https://purchase.aspose.com/buy), amely minden funkciót felold és eltávolítja a kiértékelési korlátokat.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Utoljára frissítve:** 2025-12-08  
@@ -136,3 +128,10 @@ V: Teljes licencet vásárolhat [itt](https://purchase.aspose.com/buy), amely mi
 **Szerző:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

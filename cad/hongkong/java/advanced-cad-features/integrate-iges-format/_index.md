@@ -2,11 +2,10 @@
 date: 2025-12-08
 description: 了解如何使用 Aspose.CAD for Java 將 IGES 轉換為 PDF。請遵循本分步指南，將 IGES 格式整合並產生高品質的
   PDF 檔案。
-language: zh-hant
 linktitle: Integrate IGES Format
 second_title: Aspose.CAD Java API
 title: 如何使用 Aspose.CAD for Java 將 IGES 轉換為 PDF
-url: /java/advanced-cad-features/integrate-iges-format/
+url: /zh-hant/java/advanced-cad-features/integrate-iges-format/
 weight: 11
 ---
 
@@ -121,13 +120,6 @@ igesImage.save(outPath, pdf);
 **問：如何購買 Aspose.CAD 授權？**  
 答：您可在此購買完整授權 [here](https://purchase.aspose.com/buy)，解鎖全部功能並移除評估限制。
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **最後更新時間：** 2025-12-08  
@@ -135,3 +127,10 @@ igesImage.save(outPath, pdf);
 **作者：** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
