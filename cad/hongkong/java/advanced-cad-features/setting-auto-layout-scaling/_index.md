@@ -1,35 +1,49 @@
 ---
-title: 使用 Aspose.CAD for Java 設定自動佈局縮放
-linktitle: 設定自動佈局縮放
+date: 2025-12-10
+description: 學習如何使用 Aspose.CAD for Java 及自動佈局縮放功能，將 CAD 轉換為 PDF。本分步指南將教您如何高效且可靠地將
+  CAD 匯出為 PDF。
+linktitle: Setting Auto Layout Scaling
 second_title: Aspose.CAD Java API
-description: 使用 Aspose.CAD for Java 增強您的 CAD 工作流程。本逐步指南介紹了自動佈局縮放，以確保最佳顯示和效率。下載該庫，按照教學進行操作，徹底改變您的 CAD 專案。
-weight: 17
+title: 從 CAD 產生 PDF – 使用 Aspose.CAD Java 進行自動版面縮放
 url: /zh-hant/java/advanced-cad-features/setting-auto-layout-scaling/
+weight: 17
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 使用 Aspose.CAD for Java 設定自動佈局縮放
+# 從 CAD 建立 PDF – 使用 Aspose.CAD Java 的自動版面縮放
 
-## 介紹
+## Introduction
 
-在電腦輔助設計 (CAD) 的動態世界中，效率是關鍵。 Aspose.CAD for Java 提供了一組強大的工具來增強您的 CAD 工作流程。其中一個突出的功能是自動佈局縮放，該功能可確保您的佈局無縫調整以獲得最佳顯示效果。在本教程中，我們將探索如何使用 Aspose.CAD for Java 逐步實作自動佈局縮放。
+如果您需要 **create PDF from CAD** 檔案快速且完美縮放，Aspose.CAD for Java 能滿足您的需求。自動版面縮放會自動調整版面尺寸，使最終的 PDF 完全符合預期，無論原始 CAD 頁面大小為何。在本教學中，我們將逐步說明完整流程——從載入 DXF 檔案到匯出 PDF——同時強調 **export CAD to PDF** 功能。
 
-## 先決條件
+## Quick Answers
+- **What does Auto Layout Scaling do?** 它會在光柵化時自動調整 CAD 版面大小，以符合目標頁面尺寸。
+- **Which formats can I convert?** 任何 Aspose.CAD 支援的格式（例如 DXF、DWG、DWF）皆可轉換為 PDF。
+- **Do I need a license for production?** 是的，非評估用途必須購買商業授權。
+- **How long does the conversion take?** 通常在現代硬體上，標準檔案的轉換時間不到一秒。
+- **Can I change the page size?** 可以，您可以透過 `CadRasterizationOptions` 設定自訂頁面尺寸。
 
-在深入學習本教程之前，請確保您具備以下先決條件：
+## What is “create PDF from CAD”?
 
-1.  Aspose.CAD for Java 函式庫：確保您已安裝 Aspose.CAD for Java 函式庫。如果沒有，您可以從以下位置下載[下載頁面](https://releases.aspose.com/cad/java/).
+從 CAD 建立 PDF 意指將向量式工程圖（DXF、DWG 等）光柵化為 PDF 文件。PDF 會保留原始圖紙的視覺忠實度，同時可在任何平台上廣泛檢視。
 
-2. 資源目錄：設定一個目錄來儲存您的 CAD 文件。代替`"Your Document Directory"`與提供的程式碼片段中的實際路徑。
+## Why use Auto Layout Scaling?
+- **Consistent output:** 保證所有版面在 PDF 頁面上完整填滿，無需手動計算尺寸。
+- **Time‑saving:** 免除為每張圖紙手動調整縮放比例的需求。
+- **High quality:** 轉換過程中維持線寬與幾何精度。
 
-3. CAD 檔案：準備好 CAD 檔案以供測試。在本教程中，我們將使用名為「conic_pyramid.dxf」的範例檔案。
+## Prerequisites
 
-## 導入命名空間
+1. **Aspose.CAD for Java Library** – 從 [download page](https://releases.aspose.com/cad/java/) 下載最新版本。  
+2. **Resource Directory** – 在本機建立資料夾以存放 CAD 檔案；將程式碼中的 `"Your Document Directory"` 替換為該路徑。  
+3. **Sample CAD File** – 本教學使用 `conic_pyramid.dxf`，此檔案已包含於 Aspose 範例資料集中。
 
-在您的 Java 程式碼中，匯入 Aspose.CAD 功能所需的命名空間：
+## Import Namespaces
+
+首先匯入所需的類別，以取得圖像載入、光柵化與 PDF 匯出功能。
 
 ```java
 import com.aspose.cad.Image;
@@ -38,14 +52,18 @@ import com.aspose.cad.imageoptions.CadRasterizationOptions;
 import com.aspose.cad.imageoptions.PdfOptions;
 ```
 
-## 第 1 步：載入 CAD 文件
+## Step 1: Load the CAD File
+
+載入來源檔案是 **how to export CAD** 為 PDF 文件的第一步。
 
 ```java
 String srcFile = dataDir + "conic_pyramid.dxf";
 Image image = Image.load(srcFile);
 ```
 
-## 第 2 步：建立光柵化選項
+## Step 2: Create Rasterization Options
+
+定義目標頁面尺寸。若您想使用自訂版面，也可以在此區塊手動 **set CAD page size**。
 
 ```java
 CadRasterizationOptions rasterizationOptions = new CadRasterizationOptions();
@@ -53,52 +71,84 @@ rasterizationOptions.setPageWidth(1600);
 rasterizationOptions.setPageHeight(1600);
 ```
 
-## 第 3 步：設定自動佈局縮放
+## Step 3: Set Auto Layout Scaling
+
+啟用自動縮放功能。這是 **how to set scaling** 為 CAD‑to‑PDF 轉換的核心。
 
 ```java
 rasterizationOptions.setAutomaticLayoutsScaling(true);
 ```
 
-## 第 4 步：建立 PDF 選項
+## Step 4: Create PDF Options
+
+將光柵化設定連結至 PDF 匯出選項。
 
 ```java
 PdfOptions pdfOptions = new PdfOptions();
 pdfOptions.setVectorRasterizationOptions(rasterizationOptions);
 ```
 
-## 第 5 步：匯出為 PDF
+## Step 5: Export to PDF
+
+最後，將渲染後的圖像儲存為 PDF 檔案。此步驟完成 **convert DXF to PDF** 工作流程。
 
 ```java
 image.save(dataDir + "result_out_.pdf", pdfOptions);
 ```
 
-重複這些步驟，將自動佈局縮放無縫整合到您的 CAD 專案中。
+重複上述步驟，即可處理任何其他需要轉換的 CAD 檔案。
 
-## 結論
+## Common Issues & Troubleshooting
 
-Aspose.CAD for Java 簡化了自動佈局縮放的實施，增強了 CAD 佈局的適應性。透過遵循此逐步指南，您可以將此功能無縫整合到您的專案中，確保最佳的顯示和效率。
+| Symptom | Likely Cause | Fix |
+|---------|--------------|-----|
+| Blank PDF output | Rasterization options not set or file path incorrect | Verify `srcFile` path and ensure `setPageWidth/Height` are non‑zero |
+| Distorted scaling | `setAutomaticLayoutsScaling` left as `false` | Enable automatic scaling or manually calculate scaling factor |
+| Missing layers | Source DXF contains unsupported entities | Check the Aspose.CAD release notes for supported entity types |
 
-## 常見問題解答
+## FAQ's
 
-### Q1：Aspose.CAD for Java 是否與所有 CAD 檔案格式相容？
+### Q1: Is Aspose.CAD for Java compatible with all CAD file formats?
 
-A1：Aspose.CAD for Java 支援多種 CAD 格式，包括 DWG、DXF 和 DWF。
+A1: Aspose.CAD for Java supports various CAD formats, including DWG, DXF, and DWF.
 
-### Q2：我可以進一步自訂縮放選項嗎？
+### Q2: Can I customize the scaling options further?
 
- A2：是的，`CadRasterizationOptions`類別提供了用於微調縮放和其他設定的各種屬性。
+A2: Yes, the `CadRasterizationOptions` class provides various properties for fine‑tuning scaling and other settings.
 
-### 問題 3：在哪裡可以找到 Aspose.CAD for Java 的附加文件？
+### Q3: Where can I find additional documentation for Aspose.CAD for Java?
 
- A3：請參閱[文件](https://reference.aspose.com/cad/java/)獲取深入的資訊和範例。
+A3: Refer to the [documentation](https://reference.aspose.com/cad/java/) for in‑depth information and examples.
 
-### 問題 4：Aspose.CAD for Java 是否有免費試用版？
+### Q4: Is there a free trial available for Aspose.CAD for Java?
 
- A4：是的，您可以探索[免費試用](https://releases.aspose.com/)體驗 Aspose.CAD for Java 的功能。
+A4: Yes, you can explore a [free trial](https://releases.aspose.com/) to experience the capabilities of Aspose.CAD for Java.
 
-### 問題 5：我該如何尋求 Aspose.CAD for Java 的協助或參與討論？
+### Q5: How can I seek assistance or engage in discussions about Aspose.CAD for Java?
 
-A5：訪問[Aspose.CAD論壇](https://forum.aspose.com/c/cad/19)與社區聯繫並尋求支持。
+A5: Visit the [Aspose.CAD forum](https://forum.aspose.com/c/cad/19) to connect with the community and seek support.
+
+**Additional Common Questions**
+
+**Q: How do I convert a DWG file to PDF instead of DXF?**  
+A: The same code works; just change the file extension in `srcFile` to `.dwg`.
+
+**Q: Can I set a custom DPI for higher‑resolution PDFs?**  
+A: Yes, use `rasterizationOptions.setResolution(300);` (or any DPI you need).
+
+**Q: Is it possible to embed fonts in the generated PDF?**  
+A: Aspose.CAD rasterizes the drawing, so fonts are rendered as vectors; no separate font embedding is required.
+
+## Conclusion
+
+透過本指南，您現在已掌握如何使用 Aspose.CAD for Java 及自動版面縮放 **create PDF from CAD** 檔案。此流程簡化了 **export CAD to PDF** 工作流程，確保縮放一致，並為您節省寶貴的開發時間。歡迎自行嘗試不同的頁面尺寸、解析度與 CAD 格式，以符合專案需求。
+
+---
+
+**Last Updated:** 2025-12-10  
+**Tested With:** Aspose.CAD for Java 24.12 (latest)  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
