@@ -9,8 +9,8 @@ url: /zh-hant/java/advanced-cad-features/enable-tracking-for-cad-rendering-proce
 weight: 10
 ---
 
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # 啟用 CAD 渲染過程的追蹤
@@ -152,9 +152,9 @@ A5：是的，若您需要臨時授權，可於[此處](https://purchase.aspose.
 **Tested With:** Aspose.CAD for Java 24.12 (latest at time of writing)  
 **Author:** Aspose
 
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-{{< blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
