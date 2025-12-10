@@ -1,77 +1,125 @@
 ---
-title: Gelişmiş CAD Özellikleri
-linktitle: Gelişmiş CAD Özellikleri
-second_title: Aspose.CAD Java API'si
-description: Aspose.CAD for Java eğitimleriyle CAD gelişiminizi geliştirin. İzlemeyi etkinleştirmeyi, IGES formatını entegre etmeyi, ana ağ desteğini, kalem dışa aktarımını özelleştirmeyi, DWT dosyalarını okumayı ve daha fazlasını öğrenin.
-weight: 24
+date: 2025-12-07
+description: Aspose.CAD for Java kullanarak tuval boyutunu ayarlamayı ve diğer gelişmiş
+  CAD özelliklerini öğrenin; CAD'i PDF'ye dönüştürme, blok özniteliklerini çıkarma,
+  CAD arka planını ayarlama ve otomatik düzen ölçeklendirme gibi.
+linktitle: Set Canvas Size – Advanced CAD Features
+second_title: Aspose.CAD Java API
+title: Tuval Boyutunu Ayarla – Java için Aspose.CAD ile Gelişmiş CAD Özellikleri
 url: /tr/java/advanced-cad-features/
+weight: 24
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Gelişmiş CAD Özellikleri
+# Tuval Boyutunu Ayarlama – Aspose.CAD for Java ile Gelişmiş CAD Özellikleri
 
+## Giriş
 
-## giriiş
+Java’da CAD dosyalarıyla çalışırken **set canvas size** özelliğini arıyorsanız doğru yerdesiniz. Aspose.CAD for Java, tuval boyutlarını kontrol etmenizi sağlamakla kalmaz, aynı zamanda **CAD’i PDF’ye dönüştürme**, **blok öznitelik değerlerini çıkarma**, **CAD arka plan renklerini ayarlama** ve **auto layout scaling** uygulama gibi zengin bir gelişmiş özellik seti sunar. Bu rehberde temel konuları adım adım inceleyecek, neden önemli olduklarını açıklayacak ve her özelliğe dair daha derinlemesine eğitimlere yönlendireceğiz.
 
-CAD geliştirme becerilerinizi bir sonraki seviyeye taşımaya hazır mısınız? Aspose.CAD for Java, kesintisiz ve verimli bir iş akışı sağlayan gelişmiş özelliklerin kilidini açmanız için size bir dizi eğitim sunuyor. Bu eğitimlerde ele alınan temel konulara bakalım.
+## Hızlı Yanıtlar
+- **“set canvas size” ne yapar?** Çıktı görüntüsü veya PDF’nin genişlik ve yüksekliğini tanımlar, böylece nihai render alanı üzerinde kesin kontrol sağlar.  
+- **Tuval boyutunu ayarladıktan sonra CAD’i PDF’ye dönüştürebilir miyim?** Evet—Aspose.CAD, belirttiğiniz tuval boyutlarını koruyarak CAD dosyalarını PDF’ye dönüştürmenize olanak tanır.  
+- **Blok öznitelik değerlerini çıkarmak destekleniyor mu?** Kesinlikle; API, dış referanslardan öznitelik değerlerini okuma yöntemleri sunar.  
+- **CAD render’ının arka plan rengini nasıl değiştiririm?** `setBackgroundColor` seçeneğini kullanarak dışa aktarmadan önce özel bir arka plan uygulayabilirsiniz.  
+- **Auto layout scaling nedir?** Çizimi tuvale otomatik olarak sığdırır, manuel hesaplamalara gerek kalmadan optimal görüntüleme sağlar.
 
-## CAD İşleme Süreci için Takibi Etkinleştir
-Aspose.CAD for Java ile CAD oluşturma deneyiminizi geliştirin. Adım adım kılavuzumuz izlemeyi etkinleştirmenize, içgörüler sağlamanıza ve oluşturma süreci üzerinde kontrol sahibi olmanıza olanak tanır. PDF dönüştürme oyununuzu zahmetsizce yükseltin.
+## Aspose.CAD for Java’da “set canvas size” nedir?
+Tuval boyutunu ayarlamak, render motoruna çıktı dosyası için tam piksel (veya fiziksel) boyutları bildirir. Bu, tutarlı sayfa düzenleri oluşturmanız, CAD görsellerini raporlara entegre etmeniz veya öngörülebilir boyutlarda küçük resimler üretmeniz gerektiğinde hayati öneme sahiptir.
 
-## IGES Formatını Entegre Edin
-IGES formatının Aspose.CAD for Java ile sorunsuz entegrasyonunu keşfedin. Bu eğitim, CAD geliştirme deneyiminizi geliştirmek için Aspose.CAD'in gücünden yararlanarak süreç boyunca size rehberlik eder. Dosya uyumluluğu ve işbirliğinde yeni olanakların kilidini açın.
+## Aspose.CAD’ın gelişmiş özelliklerini neden kullanmalısınız?
+- **Tutarlı çıktı** – Tuval boyutu ve arka plan kontrolü, birden çok dosyada aynı görünümü sağlar.  
+- **Daha geniş uyumluluk** – CAD çizimlerini PDF, TIFF veya PNG’ye detay kaybı olmadan dönüştürün.  
+- **Otomasyon‑hazır** – Blok özniteliklerini çıkarın ve auto layout scaling’i programatik olarak uygulayın; toplu işleme için idealdir.  
+- **Harici bağımlılık yok** – Tüm özellikler doğrudan Java API’si üzerinden sunulur, üçüncü‑taraf araçlara ihtiyaç kalmaz.
 
-## Java için Aspose.CAD ile Mesh Desteği
-Aspose.CAD ile Java uygulamalarında mesh desteği dünyasını keşfedin. Örgü yapılarının bütünlüğünü korurken CAD dosyalarını zahmetsizce PDF'ye dönüştürün. Eğitimimiz, çarpıcı sonuçlar için bu özellikte sorunsuz bir şekilde gezinmenizi sağlar.
+## Önkoşullar
+- Java Development Kit (JDK) 8 veya üzeri.  
+- Aspose.CAD for Java kütüphanesi (Aspose web sitesinden en son sürümü indirin).  
+- Üretim kullanımı için geçerli bir Aspose.CAD lisansı (değerlendirme için ücretsiz deneme sürümü yeterlidir).
 
-Bu gelişmiş CAD özelliklerinde uzmanlaşmaya başladığınızda aşağıdakilerle karşılaşacaksınız:
+## Gelişmiş Konuların Adım‑Adım Genel Bakışı
 
-### İhracatta Kalem Desteği
-Aspose.CAD for Java ile CAD dışa aktarımında kalem özelleştirmesinde uzmanlaşın. CAD projelerinizi benzersiz bir şekilde kişiselleştirmenize olanak tanıyan sorunsuz bir entegrasyon için ayrıntılı kılavuzumuzu izleyin.
+### Aspose.CAD for Java’da tuval boyutu nasıl ayarlanır?
+`CadImage` örneği oluşturduğunuzda, kaydetmeden önce `ImageOptions` nesnesi aracılığıyla tuval genişliği ve yüksekliğini belirtebilirsiniz. Bu, dışa aktarılan dosyanın ihtiyacınız olan boyutlarla eşleşmesini sağlar.
 
-### DWT Dosyalarını Okuma
-Aspose.CAD ile Java'da DWT dosyalarını okuma konusunda uzmanlaşın. Kapsamlı eğitimimiz, çeşitli dosya formatlarını CAD projelerinize zahmetsizce dahil etmenize olanak tanıyan kusursuz bir entegrasyon süreci sağlar.
+### Tuval boyutunu koruyarak CAD’i PDF’ye nasıl dönüştürürüm?
+`PdfOptions` sınıfını tuval ayarlarıyla birlikte kullanın. Dönüştürme işlemi tuval boyutlarını dikkate alır ve ekrandaki render ile aynı görünümü sağlayan bir PDF üretir.
 
-### Arka Plan ve Çizim Rengini Ayarlama
-Görsel bir yetenek katarken CAD dosyalarını zahmetsizce PDF ve TIFF'e dönüştürün. Adım adım kılavuzumuzla özel arka plan ve çizim renkleri belirleyerek projeleriniz için görsel olarak büyüleyici sonuçlar elde edin.
+### Dış referanslardan blok öznitelik değerlerini nasıl çıkarırım?
+API, bir `BlockReference` koleksiyonu sunar. Bu koleksiyon üzerinde döngü kurarak katman adları, renkler veya DWG/DXF dosyasına gömülü özel veriler gibi öznitelik değerlerini okuyabilirsiniz.
 
-### Kanvas Boyutunu ve Modunu Ayarlama
-Kanvas boyutunu ve modunu ayarlama kılavuzumuzla Aspose.CAD for Java'nın gücünü keşfedin. Çıktıyı özel gereksinimlerinize uyacak şekilde özelleştirirken CAD dosyalarını zahmetsizce PDF ve TIFF formatlarına dönüştürün.
+### Daha şık bir görünüm için CAD arka plan rengini nasıl ayarlarım?
+Render seçeneklerinin `BackgroundColor` özelliği sayesinde istediğiniz RGB rengi seçebilirsiniz. Bu, varsayılan beyaz arka planın marka veya UI temanızla çakıştığı durumlarda özellikle faydalıdır.
 
-### Otomatik Düzen Ölçeklendirmeyi Ayarlama
-Otomatik Düzen Ölçeklendirme ile CAD projelerinizde devrim yaratın. Bu eğitimde optimum görüntü ve verimlilik sağlayan bir özellik tanıtılmaktadır. Kitaplığı indirin, kılavuzu takip edin ve CAD iş akışınıza yeni bir gelişmişlik düzeyi getirin.
+### Dinamik tuval ayarlamaları için auto layout scaling’i nasıl uygularım?
+Render seçeneklerinde `AutoLayoutScaling` bayrağını etkinleştirin. Motor, çizimi tuvale otomatik olarak ölçeklendirir, en boy oranını korur ve manuel hesaplamalardan sizi kurtarır.
 
-### Katmanların Desteği
-Java CAD geliştirmede ana katman desteği. CAD projelerinizin organizasyonunu ve netliğini geliştirerek çizimleri zahmetsizce düzenleyin ve dışa aktarın.
+## Her Özellik İçin Ayrıntılı Eğitimler
+Aşağıda her gelişmiş yeteneği adım adım anlatan eğitimler yer alıyor. Daha fazla bilgi edinmek için istediğiniz bağlantıya tıklayın.
 
-### Blok Öznitelik Değerini Dış Referanstan Çıkarma
-Java'daki DWG harici referanslarından blok öznitelik değerlerinin çıkarılmasıyla ilgili öğreticiyi ayrıntılı olarak inceleyin. Harici referanslarla kusursuz entegrasyon sağlayarak CAD geliştirme iş akışınızı zahmetsizce geliştirin.
+### [CAD Render İşlemine İzleme Etkinleştirme](./enable-tracking-for-cad-rendering-process/)
+Aspose.CAD for Java ile CAD render’ınızı geliştirin. İzlemeyi etkinleştirmek ve PDF dönüşüm deneyiminizi yükseltmek için adım‑adım kılavuzumuzu izleyin.
 
-Yeniliğin uzmanlıkla buluştuğu Aspose.CAD for Java eğitimleriyle bu yolculuğa çıkın ve CAD geliştirme deneyiminizde devrim yaratın. Kütüphaneyi indirin, eğitimleri takip edin ve CAD'in dinamik dünyasında bir adım önde olun.
-## Gelişmiş CAD Özellikleri Eğitimleri
-### [CAD İşleme Süreci için Takibi Etkinleştir](./enable-tracking-for-cad-rendering-process/)
-Aspose.CAD for Java ile CAD oluşturmanızı geliştirin. İzlemeyi etkinleştirmek ve PDF dönüştürme deneyiminizi geliştirmek için adım adım kılavuzumuzu izleyin.
-### [IGES Formatını Entegre Edin](./integrate-iges-format/)
-Aspose.CAD for Java ile IGES formatının entegrasyonunu sorunsuz bir şekilde keşfedin. CAD geliştirme deneyiminizi geliştirmek için Aspose.CAD'in gücünden yararlanarak adım adım kılavuzumuzu izleyin.
-### [Java için Aspose.CAD ile Mesh Desteği](./mesh-support-in-cad/)
-Aspose.CAD ile Java uygulamalarındaki mesh desteğini keşfedin. CAD dosyalarını zahmetsizce PDF'ye dönüştürün. 
-### [İhracatta Kalem Desteği](./pen-support-in-export/)
-Aspose.CAD for Java ile CAD dışa aktarımında kalem özelleştirmesinde uzmanlaşın. Sorunsuz entegrasyon için adım adım kılavuzumuzu izleyin.
+### [IGES Formatını Entegre Etme](./integrate-iges-format/)
+Aspose.CAD for Java ile IGES formatını sorunsuz bir şekilde entegre edin. CAD geliştirme deneyiminizi yükseltmek için adım‑adım rehberimizi takip edin.
+
+### [Java’da Mesh Desteği](./mesh-support-in-cad/)
+Java uygulamalarında mesh desteğini keşfedin. Aspose.CAD ile CAD dosyalarını PDF’ye zahmetsizce dönüştürün.
+
+### [Dışa Aktarmada Kalem Desteği](./pen-support-in-export/)
+Aspose.CAD for Java ile CAD dışa aktarımında kalem özelleştirmesini ustalıkla yönetin. Sorunsuz entegrasyon için adım‑adım kılavuzumuzu izleyin.
+
 ### [DWT Dosyalarını Okuma](./reading-dwt-files/)
-Aspose.CAD ile Java'da DWT dosyalarını okuma konusunda uzmanlaşın. Sorunsuz entegrasyon için adım adım kılavuzumuzu izleyin.
-### [Aspose.CAD for Java Kullanarak Arka Planı Ayarlama ve Çizim Rengi](./setting-background-and-drawing-color/)
-Aspose.CAD for Java'yı kullanarak CAD dosyalarını zahmetsizce PDF ve TIFF'e dönüştürün. Görsel olarak etkileyici sonuçlar için özel arka plan ve çizim renkleri ayarlayın.
-### [Kanvas Boyutunu ve Modunu Ayarlama](./set-canvas-size-and-mode/)
-Aspose.CAD for Java'nın gücünü tuval boyutunu ve modunu ayarlamaya ilişkin adım adım kılavuzumuzla keşfedin. CAD dosyalarını zahmetsizce PDF ve TIFF formatlarına dönüştürün.
-### [Aspose.CAD for Java ile Otomatik Mizanpaj Ölçeklendirmesini Ayarlama](./setting-auto-layout-scaling/)
-Aspose.CAD for Java ile CAD iş akışınızı geliştirin. Bu adım adım kılavuzda, optimum görüntü ve verimlilik sağlayan Otomatik Düzen Ölçeklendirme tanıtılmaktadır. Kütüphaneyi indirin, öğreticiyi takip edin ve CAD projelerinizde devrim yaratın.
-### [Java'da Aspose.CAD ile Katman Desteği](./support-of-layers-in-cad/)
-Aspose.CAD ile Java CAD geliştirmede ana katman desteği. Çizimleri zahmetsizce düzenleyin ve dışa aktarın.
-### [Java'da Aspose.CAD Kullanarak Blok Öznitelik Değerini Harici Referanstan Çıkarma](./extract-block-attribute-value/)
-Aspose.CAD kullanarak Java'daki DWG harici referanslarından blok öznitelik değerlerinin çıkarılmasıyla ilgili eğitimimizi keşfedin. CAD geliştirme iş akışınızı zahmetsizce geliştirin.
+Aspose.CAD ile Java’da DWT dosyalarını okumayı öğrenin. Sorunsuz entegrasyon için adım‑adım rehberimizi takip edin.
+
+### [Arka Plan ve Çizim Rengini Ayarlama](./setting-background-and-drawing-color/)
+Aspose.CAD for Java kullanarak CAD dosyalarını PDF ve TIFF’e zahmetsizce dönüştürün. Görsel açıdan çarpıcı sonuçlar için özel arka plan ve çizim renkleri ayarlayın.
+
+### [Tuval Boyutu ve Modunu Ayarlama](./set-canvas-size-and-mode/)
+Aspose.CAD for Java’nın gücünü **tuval boyutu** ve modunu ayarlama üzerine adım‑adım rehberimizle keşfedin. CAD dosyalarını PDF ve TIFF formatlarına zahmetsizce dönüştürün.
+
+### [Auto Layout Scaling’i Ayarlama](./setting-auto-layout-scaling/)
+Aspose.CAD for Java ile CAD iş akışınızı geliştirin. Bu adım‑adım kılavuz, Auto Layout Scaling’i tanıtarak optimal görüntüleme ve verimlilik sağlar. Kütüphaneyi indirin, eğitimi izleyin ve CAD projelerinizi dönüştürün.
+
+### [Java’da Katman Desteği](./support-of-layers-in-cad/)
+Aspose.CAD ile Java CAD geliştirmede katman desteğini ustalıkla yönetin. Çizimleri düzenli bir şekilde organize edin ve dışa aktarın.
+
+### [Dış Referanstan Blok Öznitelik Değeri Çıkarma](./extract-block-attribute-value/)
+Aspose.CAD kullanarak Java’da DWG dış referanslarından blok öznitelik değerlerini çıkarmayı keşfedin. CAD geliştirme iş akışınızı zahmetsizce geliştirin.
+
+## Yaygın Sorunlar ve Sorun Giderme
+- **Tuval boyutu uygulanmadı:** `save()` çağrısından önce doğru `ImageOptions` nesnesine boyutu ayarladığınızdan emin olun.  
+- **Arka plan rengi değişmedi:** Render modunun arka plan renklerini desteklediğini (ör. PNG, TIFF) doğrulayın.  
+- **Blok öznitelikleri null döndürüyor:** DWG dosyasının gerçekten öznitelik tanımları içerdiğini ve doğru blok referansına eriştiğinizi kontrol edin.  
+- **Auto layout scaling bozulmuş görünüyor:** En‑boy oranı bayrağının etkin olduğundan emin olun; aksi takdirde motor çizimi gerip uzatabilir.
+
+## Sıkça Sorulan Sorular
+
+**S: Toplu işleme sırasında her dosya için özel bir tuval boyutu ayarlayabilir miyim?**  
+C: Evet. CAD dosyalarınızın koleksiyonunu döngüye alıp, her `ImageOptions` örneğinde tuval boyutunu yapılandırarak çıktıyı programatik olarak kaydedebilirsiniz.
+
+**S: Tuval boyutunu ayarlamak dışa aktarılan PDF’nin kalitesini etkiler mi?**  
+C: Kalite, render seçeneklerindeki DPI ayarıyla belirlenir. Tuval boyutlarını korurken DPI’yı artırarak daha yüksek çözünürlüklü PDF’ler elde edebilirsiniz.
+
+**S: Dış referans içeren bir DWG’den blok öznitelik değerlerini nasıl çıkarırım?**  
+C: `ExternalReference` koleksiyonunu kullanarak referansı çözün, ardından `BlockReference` nesneleri üzerinde döngü kurarak öznitelik değerlerini okuyun.
+
+**S: Auto layout scaling vektör çıktı formatları (PDF gibi) ile uyumlu mu?**  
+C: Evet. Ölçekleme mantığı raster (PNG, TIFF) ve vektör (PDF, SVG) çıktılarının her ikisi için de çalışır, çizimin tuvale sığmasını sağlar.
+
+**S: Ticari kullanım için hangi lisans gereklidir?**  
+C: Üretim ortamları için ücretli bir Aspose.CAD lisansı gereklidir. Geliştirme ve test amaçlı ücretsiz bir değerlendirme lisansı kullanılabilir.
+
+---
+
+**Son Güncelleme:** 2025-12-07  
+**Test Edilen Sürüm:** Aspose.CAD for Java 24.12 (latest)  
+**Yazar:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

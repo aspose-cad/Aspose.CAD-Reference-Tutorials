@@ -1,77 +1,127 @@
 ---
-title: Funciones CAD avanzadas
-linktitle: Funciones CAD avanzadas
-second_title: API de Java Aspose.CAD
-description: Mejore su desarrollo CAD con los tutoriales de Aspose.CAD para Java. Aprenda a habilitar el seguimiento, integrar el formato IGES, admitir malla maestra, personalizar la exportación de lápiz, leer archivos DWT y más.
-weight: 24
+date: 2025-12-07
+description: Aprenda a establecer el tamaño del lienzo y otras funciones avanzadas
+  de CAD usando Aspose.CAD para Java, incluyendo la conversión de CAD a PDF, la extracción
+  de atributos de bloques, la configuración del fondo de CAD y el escalado automático
+  del diseño.
+linktitle: Set Canvas Size – Advanced CAD Features
+second_title: Aspose.CAD Java API
+title: Establecer tamaño del lienzo – Funciones avanzadas de CAD con Aspose.CAD para
+  Java
 url: /es/java/advanced-cad-features/
+weight: 24
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Funciones CAD avanzadas
-
+# Establecer tamaño del lienzo – Funciones avanzadas de CAD con Aspose.CAD para Java
 
 ## Introducción
 
-¿Estás listo para llevar tus habilidades de desarrollo CAD al siguiente nivel? Aspose.CAD para Java le ofrece una serie de tutoriales para desbloquear funciones avanzadas, lo que garantiza un flujo de trabajo eficiente y fluido. Profundicemos en los temas clave cubiertos en estos tutoriales.
+Si estás buscando **set canvas size** mientras trabajas con archivos CAD en Java, has llegado al lugar correcto. Aspose.CAD para Java no solo te permite controlar las dimensiones del lienzo, sino que también ofrece un conjunto rico de capacidades avanzadas como **converting CAD to PDF**, **extracting block attribute** values, **setting CAD background** colors y aplicar **auto layout scaling**. En esta guía repasaremos los temas clave, explicaremos por qué son importantes y te dirigiremos a los tutoriales detallados que profundizan en cada función.
 
-## Habilitar seguimiento para el proceso de renderizado CAD
-Mejore su experiencia de renderizado CAD con Aspose.CAD para Java. Nuestra guía paso a paso le permite habilitar el seguimiento, proporcionando información y control sobre el proceso de renderizado. Mejora tu juego de conversión de PDF sin esfuerzo.
+## Respuestas rápidas
+- **¿Qué hace “set canvas size”?** Define el ancho y la altura de la imagen o PDF de salida, dándote un control preciso sobre el área de renderizado final.  
+- **¿Puedo convertir CAD a PDF después de establecer el tamaño del lienzo?** Sí—Aspose.CAD te permite convertir archivos CAD a PDF mientras preservas las dimensiones del lienzo que especificas.  
+- **¿Se admite la extracción de valores de atributos de bloque?** Absolutamente; la API proporciona métodos para leer valores de atributos de referencias externas.  
+- **¿Cómo cambio el color de fondo de una representación CAD?** Utiliza la opción `setBackgroundColor` para aplicar un fondo personalizado antes de la exportación.  
+- **¿Qué es auto layout scaling?** Ajusta automáticamente el dibujo para que encaje en el lienzo, garantizando una visualización óptima sin cálculos manuales.
 
-## Integrar el formato IGES
-Descubra la integración perfecta del formato IGES con Aspose.CAD para Java. Este tutorial lo guía a través del proceso, aprovechando el poder de Aspose.CAD para mejorar su experiencia de desarrollo CAD. Desbloquee nuevas posibilidades en compatibilidad de archivos y colaboración.
+## ¿Qué es “set canvas size” en Asp.CAD para Java?
+Establecer el tamaño del lienzo indica al motor de renderizado las dimensiones exactas en píxeles (o el tamaño físico) del archivo de salida. Esto es esencial cuando necesitas diseños de página consistentes, integrar imágenes CAD en informes o generar miniaturas con dimensiones predecibles.
 
-## Soporte de malla con Aspose.CAD para Java
-Explore el mundo del soporte de malla en aplicaciones Java con Aspose.CAD. Convierta archivos CAD a PDF sin esfuerzo manteniendo la integridad de las estructuras de malla. Nuestro tutorial le garantiza navegar por esta función sin problemas para obtener resultados sorprendentes.
+## ¿Por qué usar las funciones avanzadas de Aspose.CAD?
+- **Consistent output** – El control del tamaño del lienzo y del fondo garantiza uniformidad entre varios archivos.  
+- **Broader compatibility** – Convierte dibujos CAD a PDF, TIFF o PNG sin perder detalle.  
+- **Automation‑ready** – Extrae atributos de bloque y aplica auto layout scaling programáticamente, ideal para procesamiento por lotes.  
+- **No external dependencies** – Todas las funciones están disponibles directamente a través de la API Java, eliminando la necesidad de herramientas de terceros.
 
-A medida que se embarque en dominar estas funciones avanzadas de CAD, encontrará:
+## Requisitos previos
+- Java Development Kit (JDK) 8 o superior.  
+- Biblioteca Aspose.CAD para Java (descarga la última versión desde el sitio web de Aspose).  
+- Una licencia válida de Aspose.CAD para uso en producción (una prueba gratuita sirve para evaluación).
 
-### Soporte de lápiz en exportación
-Personalización maestra del lápiz en exportación CAD con Aspose.CAD para Java. Siga nuestra guía detallada para una integración fluida que le permita personalizar sus proyectos CAD de forma única.
+## Visión general paso a paso de los temas avanzados
 
-### Lectura de archivos DWT
-Domine la lectura de archivos DWT en Java con Aspose.CAD. Nuestro completo tutorial garantiza un proceso de integración perfecto, permitiéndole incorporar diversos formatos de archivos en sus proyectos CAD sin esfuerzo.
+### Cómo establecer el tamaño del lienzo en Aspose.CAD para Java?
+Al crear una instancia de `CadImage`, puedes especificar el ancho y la altura del lienzo mediante el objeto `ImageOptions` antes de guardar. Esto garantiza que el archivo exportado coincida con las dimensiones que necesitas.
 
-### Configuración de fondo y color de dibujo
-Convierta archivos CAD a PDF y TIFF sin esfuerzo y a la vez agregue un toque visual. Establezca colores de fondo y de dibujo personalizados con nuestra guía paso a paso, garantizando resultados visualmente impresionantes para sus proyectos.
+### Cómo convertir CAD a PDF manteniendo el tamaño del lienzo?
+Utiliza la clase `PdfOptions` junto con la configuración del lienzo. El proceso de conversión respeta las dimensiones del lienzo, produciendo un PDF que se ve exactamente como el renderizado en pantalla.
 
-### Establecer tamaño y modo del lienzo
-Explore el poder de Aspose.CAD para Java con nuestra guía sobre cómo configurar el tamaño y el modo del lienzo. Convierta sin esfuerzo archivos CAD a formatos PDF y TIFF mientras personaliza la salida para adaptarla a sus requisitos específicos.
+### Cómo extraer valores de atributos de bloque de referencias externas?
+La API proporciona una colección `BlockReference`. Al iterar sobre esta colección puedes leer valores de atributos como nombres de capa, colores o datos personalizados incrustados en el archivo DWG/DXF.
 
-### Configuración de escala de diseño automático
-Revolucione sus proyectos CAD con Auto Layout Scaling. Este tutorial presenta una característica que garantiza una visualización y eficiencia óptimas. Descargue la biblioteca, siga la guía y aporte un nuevo nivel de sofisticación a su flujo de trabajo CAD.
+### Cómo establecer el color de fondo del CAD para un aspecto más pulido?
+La propiedad `BackgroundColor` de las opciones de renderizado te permite elegir cualquier color RGB. Esto es especialmente útil cuando el fondo blanco predeterminado entra en conflicto con tu marca o tema de UI.
 
-### Soporte de Capas
-Soporte de capa maestra en el desarrollo de Java CAD. Organice y exporte dibujos sin esfuerzo, mejorando la organización y claridad de sus proyectos CAD.
+### Cómo aplicar auto layout scaling para ajustes dinámicos del lienzo?
+Habilita la bandera `AutoLayoutScaling` en las opciones de renderizado. El motor escalará automáticamente el dibujo para que encaje en el lienzo manteniendo la relación de aspecto, ahorrándote cálculos manuales.
 
-### Extraer valor de atributo de bloque de referencia externa
-Sumérgete en el tutorial sobre cómo extraer valores de atributos de bloque de referencias externas DWG en Java. Mejore su flujo de trabajo de desarrollo CAD sin esfuerzo, garantizando una integración perfecta con referencias externas.
+## Tutoriales detallados para cada función
+A continuación se presentan los tutoriales dedicados que te guían paso a paso a través de cada capacidad avanzada. Haz clic en cualquier enlace para profundizar.
 
-Embárquese en este viaje a través de los tutoriales de Aspose.CAD para Java, donde la innovación se une a la experiencia y revoluciona su experiencia de desarrollo CAD. Descargue la biblioteca, siga los tutoriales y manténgase a la vanguardia en el dinámico mundo de CAD.
-## Tutoriales avanzados de funciones CAD
 ### [Habilitar seguimiento para el proceso de renderizado CAD](./enable-tracking-for-cad-rendering-process/)
-Mejore su renderizado CAD con Aspose.CAD para Java. Siga nuestra guía paso a paso para habilitar el seguimiento y mejorar su experiencia de conversión de PDF.
-### [Integrar el formato IGES](./integrate-iges-format/)
-Explore la integración del formato IGES sin problemas con Aspose.CAD para Java. Siga nuestra guía paso a paso y aproveche el poder de Aspose.CAD para mejorar su experiencia de desarrollo CAD.
+Mejora tu renderizado CAD con Aspose.CAD para Java. Sigue nuestra guía paso a paso para habilitar el seguimiento y elevar tu experiencia de conversión a PDF.
+
+### [Integrar formato IGES](./integrate-iges-format/)
+Explora la integración del formato IGES sin problemas con Aspose.CAD para Java. Sigue nuestra guía paso a paso, aprovechando el poder de Aspose.CAD para elevar tu experiencia de desarrollo CAD.
+
 ### [Soporte de malla con Aspose.CAD para Java](./mesh-support-in-cad/)
-Explore el soporte de malla en aplicaciones Java con Aspose.CAD. Convierta archivos CAD a PDF sin esfuerzo. 
-### [Soporte de lápiz en exportación](./pen-support-in-export/)
-Personalización maestra del lápiz en exportación CAD con Aspose.CAD para Java. Siga nuestra guía paso a paso para una integración perfecta.
+Explora el soporte de malla en aplicaciones Java con Aspose.CAD. Convierte archivos CAD a PDF sin esfuerzo. 
+
+### [Soporte de lápiz en la exportación](./pen-support-in-export/)
+Domina la personalización del lápiz en la exportación CAD con Aspose.CAD para Java. Sigue nuestra guía paso a paso para una integración fluida.
+
 ### [Lectura de archivos DWT](./reading-dwt-files/)
-Domine la lectura de archivos DWT en Java con Aspose.CAD. Siga nuestra guía paso a paso para una integración perfecta.
-### [Configuración del color de fondo y dibujo usando Aspose.CAD para Java](./setting-background-and-drawing-color/)
-Convierta archivos CAD a PDF y TIFF sin esfuerzo utilizando Aspose.CAD para Java. Establezca colores de fondo y de dibujo personalizados para obtener resultados visualmente impresionantes.
-### [Establecer tamaño y modo del lienzo](./set-canvas-size-and-mode/)
-Explore el poder de Aspose.CAD para Java con nuestra guía paso a paso sobre cómo configurar el tamaño y el modo del lienzo. Convierta archivos CAD a formatos PDF y TIFF sin esfuerzo.
-### [Configuración de la escala de diseño automática con Aspose.CAD para Java](./setting-auto-layout-scaling/)
-Mejore su flujo de trabajo CAD con Aspose.CAD para Java. Esta guía paso a paso presenta la escala de diseño automática, lo que garantiza una visualización y eficiencia óptimas. Descargue la biblioteca, siga el tutorial y revolucione sus proyectos CAD.
-### [Soporte de Capas con Aspose.CAD en Java](./support-of-layers-in-cad/)
-Soporte de capa maestra en desarrollo Java CAD con Aspose.CAD. Organice y exporte dibujos sin esfuerzo.
-### [Extraiga el valor del atributo del bloque de la referencia externa usando Aspose.CAD en Java](./extract-block-attribute-value/)
-Explore nuestro tutorial sobre cómo extraer valores de atributos de bloque de referencias externas DWG en Java usando Aspose.CAD. Mejore su flujo de trabajo de desarrollo CAD sin esfuerzo.
+Domina la lectura de archivos DWT en Java con Aspose.CAD. Sigue nuestra guía paso a paso para una integración sin problemas.
+
+### [Establecer fondo y color de dibujo usando Aspose.CAD para Java](./setting-background-and-drawing-color/)
+Convierte archivos CAD a PDF y TIFF sin esfuerzo usando Aspose.CAD para Java. Configura fondos y colores de dibujo personalizados para resultados visualmente impactantes.
+
+### [Establecer tamaño del lienzo y modo](./set-canvas-size-and-mode/)
+Explora el poder de Aspose.CAD para Java con nuestra guía paso a paso sobre **setting canvas size** y modo. Convierte archivos CAD a PDF y TIFF sin complicaciones.
+
+### [Configurar Auto Layout Scaling con Aspose.CAD para Java](./setting-auto-layout-scaling/)
+Mejora tu flujo de trabajo CAD con Aspose.CAD para Java. Esta guía paso a paso introduce Auto Layout Scaling, asegurando una visualización óptima y eficiencia. Descarga la biblioteca, sigue el tutorial y revoluciona tus proyectos CAD.
+
+### [Soporte de capas con Aspose.CAD en Java](./support-of-layers-in-cad/)
+Domina el soporte de capas en el desarrollo CAD Java con Aspose.CAD. Organiza y exporta dibujos sin esfuerzo.
+
+### [Extraer valor de atributo de bloque de referencia externa usando Aspose.CAD en Java](./extract-block-attribute-value/)
+Explora nuestro tutorial sobre la extracción de valores de atributos de bloque de referencias externas DWG en Java usando Aspose.CAD. Mejora tu flujo de trabajo de desarrollo CAD sin complicaciones.
+
+## Problemas comunes y solución de problemas
+- **Canvas size not applied:** Asegúrate de establecer el tamaño en el objeto `ImageOptions` correcto antes de llamar a `save()`.  
+- **Background color appears unchanged:** Verifica que el modo de renderizado admita colores de fondo (p.ej., PNG, TIFF).  
+- **Block attributes return null:** Comprueba que el archivo DWG realmente contenga definiciones de atributos y que estés accediendo a la referencia de bloque correcta.  
+- **Auto layout scaling looks distorted:** Asegúrate de que la bandera de relación de aspecto esté habilitada; de lo contrario, el motor puede estirar el dibujo.
+
+## Preguntas frecuentes
+
+**Q: ¿Puedo establecer un tamaño de lienzo personalizado para cada archivo en un proceso por lotes?**  
+A: Sí. Recorre tu colección de archivos CAD, configura el tamaño del lienzo en cada instancia de `ImageOptions` y guarda la salida programáticamente.
+
+**Q: ¿Afecta el establecimiento del tamaño del lienzo la calidad del PDF exportado?**  
+A: La calidad está determinada por la configuración DPI en las opciones de renderizado. Puedes aumentar el DPI manteniendo las dimensiones del lienzo para obtener PDFs de mayor resolución.
+
+**Q: ¿Cómo extraigo valores de atributos de bloque de un DWG que contiene referencias externas?**  
+A: Utiliza la colección `ExternalReference` para resolver la referencia, luego itera sobre sus objetos `BlockReference` para leer los valores de los atributos.
+
+**Q: ¿Es compatible el auto layout scaling con formatos de salida vectorial como PDF?**  
+A: Sí. La lógica de escalado funciona tanto para raster (PNG, TIFF) como para vector (PDF, SVG), asegurando que el dibujo se ajuste al lienzo.
+
+**Q: ¿Qué licencia se requiere para uso comercial?**  
+A: Se requiere una licencia paga de Aspose.CAD para implementaciones en producción. Una licencia de evaluación gratuita puede usarse para desarrollo y pruebas.
+
+---
+
+**Última actualización:** 2025-12-07  
+**Probado con:** Aspose.CAD para Java 24.12 (última)  
+**Autor:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

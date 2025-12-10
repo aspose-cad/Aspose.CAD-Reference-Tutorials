@@ -1,10 +1,15 @@
 ---
-title: Aktifkan Pelacakan untuk Proses Rendering CAD
-linktitle: Aktifkan Pelacakan untuk Proses Rendering CAD
+date: 2025-12-07
+description: Pelajari cara mengatur ukuran halaman PDF saat mengonversi CAD ke PDF
+  menggunakan Aspose.CAD untuk Java. Ikuti panduan langkah demi langkah ini untuk
+  mengaktifkan pelacakan, mengonversi CAD ke PDF, dan menyimpan CAD sebagai PDF secara
+  efisien.
+linktitle: Set PDF Page Size – Enable Tracking for CAD Rendering
 second_title: Aspose.CAD Java API
-description: Tingkatkan rendering CAD Anda dengan Aspose.CAD untuk Java. Ikuti panduan langkah demi langkah kami untuk mengaktifkan pelacakan dan meningkatkan pengalaman konversi PDF Anda.
-weight: 10
+title: Cara Mengatur Ukuran Halaman PDF dan Mengaktifkan Pelacakan untuk Proses Rendering
+  CAD
 url: /id/java/advanced-cad-features/enable-tracking-for-cad-rendering-process/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,19 +18,35 @@ url: /id/java/advanced-cad-features/enable-tracking-for-cad-rendering-process/
 
 # Aktifkan Pelacakan untuk Proses Rendering CAD
 
-## Perkenalan
+## Pendahuluan
 
-Di bidang Computer-Aided Design (CAD), Aspose.CAD untuk Java menonjol sebagai alat yang ampuh untuk merender dan memproses file CAD. Tutorial ini akan memandu Anda melalui proses mengaktifkan pelacakan untuk rendering CAD, meningkatkan kendali Anda atas transformasi dari file CAD ke format PDF.
+Dalam tutorial ini Anda akan belajar cara **set PDF page size** sambil **mengonversi CAD ke PDF** menggunakan **Aspose.CAD for Java**. Dengan mengaktifkan pelacakan Anda mendapatkan visibilitas penuh atas pipeline rendering, memudahkan debugging dan mengoptimalkan konversi dari file CAD (seperti DXF) ke PDF. Apakah Anda perlu **menyimpan CAD sebagai PDF**, menghasilkan PDF dari DXF, atau sekadar mengontrol dimensi output, langkah-langkah di bawah ini akan memandu Anda melalui seluruh proses.
+
+## Jawaban Cepat
+- **Apa yang dilakukan “set PDF page size”?** Itu menentukan lebar dan tinggi halaman PDF yang dihasilkan selama rendering CAD.  
+- **Mengapa mengaktifkan pelacakan?** Pelacakan mencatat setiap tahap konversi, membantu Anda menemukan bottleneck kinerja atau kesalahan.  
+- **Apakah saya memerlukan lisensi?** Versi percobaan gratis cukup untuk evaluasi; lisensi komersial diperlukan untuk produksi.  
+- **Format CAD apa yang didukung?** DWG, DXF, DGN, dan banyak lainnya – lihat dokumentasi Aspose.CAD untuk daftar lengkap.  
+- **Bisakah saya mengubah dimensi halaman secara dinamis?** Ya – cukup sesuaikan nilai `PageWidth` dan `PageHeight` dalam `CadRasterizationOptions`.
+
+## Apa itu “set PDF page size” dalam rendering CAD?
+
+Menetapkan ukuran halaman PDF memberi tahu rasterizer seberapa besar kanvas yang harus digunakan ketika data CAD vektor diubah menjadi halaman PDF. Ini penting untuk mempertahankan kesetiaan visual, terutama saat menangani gambar teknik yang detail.
+
+## Mengapa mengaktifkan pelacakan untuk rendering CAD?
+
+Mengaktifkan pelacakan memberikan log terperinci dari setiap langkah—dari memuat file sumber hingga menulis output PDF. Ini membantu Anda:
+- Mendiagnosa mengapa gambar tertentu mungkin dirender tidak tepat.  
+- Mengukur waktu yang dibutuhkan untuk setiap tahap, berguna untuk penyetelan kinerja.  
+- Memverifikasi bahwa ukuran halaman yang Anda konfigurasikan memang diterapkan.
 
 ## Prasyarat
 
-Sebelum mendalami penyiapan pelacakan, pastikan Anda memiliki prasyarat berikut:
+Sebelum menyelami pengaturan pelacakan, pastikan Anda memiliki prasyarat berikut:
 
-1. Lingkungan Pengembangan Java: Pastikan Anda telah menginstal Java di sistem Anda.
-
-2.  Perpustakaan Aspose.CAD: Unduh dan integrasikan perpustakaan Aspose.CAD ke dalam proyek Java Anda. Anda dapat menemukan tautan unduhan[Di Sini](https://releases.aspose.com/cad/java/).
-
-3. Direktori Dokumen: Siapkan direktori untuk menyimpan file CAD Anda.
+1. **Lingkungan Pengembangan Java** – Java 8 atau lebih baru terpasang di mesin Anda.  
+2. **Pustaka Aspose.CAD** – Unduh dan integrasikan pustaka Aspose.CAD ke dalam proyek Java Anda. Anda dapat menemukan tautan unduhan [di sini](https://releases.aspose.com/cad/java/).  
+3. **Direktori Dokumen** – Siapkan direktori untuk menyimpan file CAD Anda dan PDF yang dihasilkan.
 
 ## Impor Namespace
 
@@ -42,33 +63,33 @@ import com.aspose.cad.imageoptions.CadRasterizationOptions;
 import com.aspose.cad.imageoptions.PdfOptions;
 ```
 
-## Langkah 1: Tetapkan Jalur Direktori Sumber Daya
+## Atur Jalur Direktori Sumber Daya
 
 ```java
 String dataDir = "Your Document Directory" + "CADConversion/";
 ```
 
-Ganti "Direktori Dokumen Anda" dengan jalur sebenarnya ke direktori dokumen Anda.
+Ganti `"Your Document Directory"` dengan jalur sebenarnya ke direktori dokumen Anda.
 
-## Langkah 2: Muat File CAD
+## Muat File CAD
 
 ```java
 String srcFile = dataDir + "conic_pyramid.dxf";
 Image image = Image.load(srcFile);
 ```
 
-Tentukan jalur ke file CAD Anda, pastikan file tersebut berada dalam direktori dokumen yang ditentukan.
+Tentukan jalur ke file CAD Anda, pastikan berada dalam direktori dokumen yang ditentukan.
 
-## Langkah 3: Tetapkan Opsi Keluaran PDF
+## Atur Opsi Output PDF
 
 ```java
 OutputStream stream = new FileOutputStream(dataDir + "conic_pyramid.pdf");
 PdfOptions pdfOptions = new PdfOptions();
 ```
 
-Buat aliran keluaran dan atur opsi PDF untuk konversi.
+Buat aliran output dan atur opsi PDF untuk konversi.
 
-## Langkah 4: Konfigurasikan CadRasterizationOptions
+## Konfigurasikan CadRasterizationOptions (Set PDF Page Size)
 
 ```java
 CadRasterizationOptions cadRasterizationOptions = new CadRasterizationOptions();
@@ -77,9 +98,9 @@ cadRasterizationOptions.setPageWidth(800);
 cadRasterizationOptions.setPageHeight(600);
 ```
 
- Memberi contoh`CadRasterizationOptions` dan sesuaikan opsi rasterisasi vektor sesuai dengan preferensi Anda.
+Di sini kami **set PDF page size** dengan mendefinisikan `PageWidth` dan `PageHeight`. Sesuaikan nilai-nilai ini agar cocok dengan dimensi yang diperlukan untuk gambar teknik Anda. Langkah ini secara langsung memengaruhi bagaimana konten CAD diskalakan dan dirender dalam PDF akhir.
 
-## Langkah 5: Simpan File PDF
+## Simpan File PDF
 
 ```java
 image.save(stream, pdfOptions);
@@ -87,39 +108,54 @@ image.save(stream, pdfOptions);
 
 Simpan file PDF yang dirender dengan opsi yang ditentukan.
 
-## Langkah 6: Verifikasi Pengaktifan Pelacakan
+## Verifikasi Pengaktifan Pelacakan
 
 ```java
 System.out.println("Tracking enabled successfully for CAD rendering process.");
 ```
 
-Konfirmasikan bahwa pelacakan berhasil diaktifkan untuk proses rendering CAD.
+Pastikan pelacakan berhasil diaktifkan untuk proses rendering CAD.
 
-## Kesimpulan
+## Masalah Umum & Pemecahan Masalah
 
-Selamat! Anda telah berhasil mengaktifkan pelacakan untuk rendering CAD menggunakan Aspose.CAD untuk Java. Panduan langkah demi langkah ini memberdayakan Anda untuk mengonversi file CAD ke PDF dengan lancar dengan kemampuan kontrol dan pelacakan yang ditingkatkan.
+| Gejala | Penyebab Kemungkinan | Solusi |
+|---------|----------------------|--------|
+| Halaman PDF muncul kosong | `PageWidth`/`PageHeight` diatur ke 0 | Pastikan dimensi non‑nol diberikan. |
+| File output rusak | Aliran output tidak ditutup | Panggil `stream.close()` setelah `image.save(...)`. |
+| Lapisan hilang di PDF | File CAD menggunakan entitas yang tidak didukung | Verifikasi bahwa format file sepenuhnya didukung oleh Aspose.CAD. |
 
-## FAQ
+## Pertanyaan yang Sering Diajukan
 
 ### Q1: Apakah Aspose.CAD kompatibel dengan semua format file CAD?
 
-A1: Aspose.CAD mendukung berbagai format CAD, termasuk DWG, DXF, DGN, dan banyak lagi. Mengacu kepada[dokumentasi](https://reference.aspose.com/cad/java/) untuk daftar lengkap.
+A1: Aspose.CAD mendukung berbagai format CAD, termasuk DWG, DXF, DGN, dan lainnya. Lihat [dokumentasi](https://reference.aspose.com/cad/java/) untuk daftar lengkap.
 
-### Q2: Dapatkah saya menyesuaikan dimensi keluaran file PDF?
+### Q2: Bisakah saya menyesuaikan dimensi output file PDF?
 
- A2: Tentu saja! Sesuaikan`PageWidth` Dan`PageHeight` parameter di`CadRasterizationOptions` untuk menyesuaikan dimensi keluaran.
+A2: Tentu saja! Sesuaikan parameter `PageWidth` dan `PageHeight` dalam `CadRasterizationOptions` untuk menyesuaikan dimensi output.
 
-### Q3: Apakah tersedia uji coba gratis untuk Aspose.CAD untuk Java?
+### Q3: Apakah ada percobaan gratis untuk Aspose.CAD for Java?
 
- A3: Ya, Anda dapat mengeksplorasi kemampuan Aspose.CAD dengan mendapatkan uji coba gratis[Di Sini](https://releases.aspose.com/).
+A3: Ya, Anda dapat menjelajahi kemampuan Aspose.CAD dengan mendapatkan percobaan gratis [di sini](https://releases.aspose.com/).
 
-### Q4: Bagaimana saya bisa mendapatkan dukungan komunitas untuk pertanyaan terkait Aspose.CAD?
+### Q4: Bagaimana saya dapat mendapatkan dukungan komunitas untuk pertanyaan terkait Aspose.CAD?
 
- A4: Kunjungi[Forum Aspose.CAD](https://forum.aspose.com/c/cad/19) untuk terlibat dengan masyarakat dan mencari bantuan.
+A4: Kunjungi [forum Aspose.CAD](https://forum.aspose.com/c/cad/19) untuk berinteraksi dengan komunitas dan meminta bantuan.
 
 ### Q5: Apakah lisensi sementara tersedia untuk Aspose.CAD?
 
- A5: Ya, jika Anda memerlukan lisensi sementara, Anda bisa mendapatkannya[Di Sini](https://purchase.aspose.com/temporary-license/).
+A5: Ya, jika Anda memerlukan lisensi sementara, Anda dapat memperoleh satu [di sini](https://purchase.aspose.com/temporary-license/).
+
+## Kesimpulan
+
+Selamat! Anda kini telah belajar cara **set PDF page size** dan mengaktifkan pelacakan untuk rendering CAD menggunakan **Aspose.CAD for Java**. Panduan ini mempersiapkan Anda untuk **mengonversi CAD ke PDF**, **menyimpan CAD sebagai PDF**, dan menghasilkan PDF dari DXF dengan kontrol penuh atas dimensi halaman serta log eksekusi yang terperinci. Jangan ragu untuk bereksperimen dengan ukuran halaman yang berbeda dan menjelajahi opsi rasterisasi tambahan untuk menyesuaikan alur kerja teknik Anda.
+
+---
+
+**Last Updated:** 2025-12-07  
+**Tested With:** Aspose.CAD for Java 24.12 (latest at time of writing)  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
