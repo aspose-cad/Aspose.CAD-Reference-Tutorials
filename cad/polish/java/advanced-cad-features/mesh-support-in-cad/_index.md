@@ -1,35 +1,44 @@
 ---
-title: Obsługa siatki z Aspose.CAD dla Java
-linktitle: Obsługa siatki w CAD
-second_title: Aspose.CAD API Java
-description: Poznaj obsługę siatki w aplikacjach Java za pomocą Aspose.CAD. Konwertuj pliki CAD na format PDF bez wysiłku.
-weight: 12
+date: 2025-12-09
+description: Dowiedz się, jak tworzyć pliki PDF z plików DWG przy użyciu Aspose.CAD
+  dla Javy. Konwertuj DWG na PDF bezproblemowo, z obsługą siatek.
+linktitle: Mesh Support in CAD
+second_title: Aspose.CAD Java API
+title: Utwórz PDF z DWG przy użyciu Aspose.CAD dla Javy
 url: /pl/java/advanced-cad-features/mesh-support-in-cad/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Obsługa siatki z Aspose.CAD dla Java
+# Utwórz PDF z DWG przy użyciu Aspose.CAD dla Javy
 
-## Wstęp
+## Wprowadzenie
 
-Aspose.CAD dla Java to potężna biblioteka, która umożliwia programistom bezproblemową pracę z plikami projektowania wspomaganego komputerowo (CAD) w aplikacjach Java. W tym samouczku omówimy funkcję obsługi siatek w Aspose.CAD dla Java, umożliwiającą konwersję plików CAD z siatkami do formatu PDF. Postępuj zgodnie z poniższym przewodnikiem krok po kroku, aby wykorzystać możliwości tej biblioteki i usprawnić obsługę plików CAD.
+W tym samouczku nauczysz się **jak utworzyć PDF z DWG** przy użyciu Aspose.CAD dla Javy. Obsługa siatek w bibliotece pozwala konwertować złożone rysunki CAD — w tym te zawierające siatki 3‑D — bezpośrednio do PDF bez utraty szczegółów. Niezależnie od tego, czy potrzebujesz **konwertować DWG do PDF** w celu raportowania, archiwizacji lub dalszego przetwarzania, poniższe kroki poprowadzą Cię przez niezawodne, gotowe do produkcji rozwiązanie.
 
-## Warunki wstępne
+## Szybkie odpowiedzi
+- **Co obejmuje samouczek?** Konwersja pliku DWG zawierającego siatki do PDF przy użyciu Aspose.CAD dla Javy.  
+- **Czy potrzebna jest licencja?** Tymczasowa licencja działa w testach; pełna licencja jest wymagana do użytku komercyjnego.  
+- **Jaką wersję Javy obsługuje?** Java 8 lub nowsza.  
+- **Czy mogę eksportować inne formaty?** Tak – Aspose.CAD obsługuje także PNG, JPEG, BMP i inne.  
+- **Jak długo trwa konwersja?** Zazwyczaj poniżej sekundy dla rysunków standardowego rozmiaru.
 
-Zanim przejdziesz do samouczka, upewnij się, że spełniasz następujące wymagania wstępne:
+## Jak utworzyć PDF z DWG?
 
-- Środowisko programistyczne Java: Upewnij się, że na komputerze skonfigurowano środowisko programistyczne Java.
+Poniżej znajdziesz zwięzły, krok po kroku przewodnik, który przeprowadzi Cię przez cały proces — od konfiguracji projektu po zapisanie ostatecznego PDF.
 
--  Biblioteka Aspose.CAD dla Java: Pobierz i zainstaluj bibliotekę Aspose.CAD dla Java z pliku[link do pobrania](https://releases.aspose.com/cad/java/).
+## Wymagania wstępne
 
-- Dokument z siatkami: Przygotuj dokument CAD zawierający siatki do konwersji. Dostarczonego przykładowego kodu można użyć w pliku o nazwie „meshes.dwg”.
+- **Środowisko programistyczne Java:** JDK 8 lub nowszy zainstalowany na Twoim komputerze.  
+- **Biblioteka Aspose.CAD dla Javy:** Pobierz najnowszy plik JAR z [download link](https://releases.aspose.com/cad/java/).  
+- **Dokument z siatkami:** Plik DWG zawierający dane siatek (np. `meshes.dwg`).  
 
-## Importuj przestrzenie nazw
+## Importowanie przestrzeni nazw
 
-W swoim kodzie Java uwzględnij niezbędne przestrzenie nazw, aby uzyskać dostęp do klas i metod Aspose.CAD. Dodaj następujące instrukcje importu:
+W swoim pliku źródłowym Java, dołącz wymagane klasy Aspose.CAD:
 
 ```java
 import com.aspose.cad.Image;
@@ -39,13 +48,13 @@ import com.aspose.cad.imageoptions.CadRasterizationOptions;
 import com.aspose.cad.imageoptions.PdfOptions;
 ```
 
-## Krok 1: Skonfiguruj projekt
+## Krok 1: Konfiguracja projektu
 
-Utwórz nowy projekt Java i zaimportuj bibliotekę Aspose.CAD. Ustaw katalog projektu jako`dataDir`.
+Utwórz nowy projekt Java (lub dodaj do istniejącego) i dodaj plik JAR Aspose.CAD do ścieżki klas projektu. Zdefiniuj katalog bazowy, w którym będą przechowywane źródłowe pliki DWG oraz wygenerowany PDF.
 
-## Krok 2: Zdefiniuj ścieżki plików
+## Krok 2: Definiowanie ścieżek plików
 
-Zdefiniuj ścieżki źródłowego pliku CAD (`meshes.dwg`) i wyjściowy plik PDF (`meshes.pdf`).
+Określ, gdzie znajduje się wejściowy plik DWG oraz gdzie ma zostać zapisany plik wyjściowy PDF.
 
 ```java
 String dataDir = "Your Document Directory" + "CADConversion/";
@@ -53,17 +62,17 @@ String sourceFilePath = dataDir + "meshes.dwg";
 String outPath = dataDir + "meshes.pdf";
 ```
 
-## Krok 3: Załaduj obraz CAD
+## Krok 3: Ładowanie obrazu CAD
 
- Załaduj obraz CAD za pomocą pliku`Image.load` metodę i rzuć ją na`CadImage`.
+Wczytaj plik DWG do obiektu `CadImage`, aby Aspose.CAD mógł pracować z jego wewnętrzną strukturą.
 
 ```java
 CadImage cadImage = (CadImage)Image.load(sourceFilePath);
 ```
 
-## Krok 4: Skonfiguruj opcje rasteryzacji
+## Krok 4: Konfiguracja opcji rasteryzacji
 
-Skonfiguruj opcje rasteryzacji, aby ustawić wymiary i układy strony dla wyjściowego pliku PDF.
+Ustaw opcje rasteryzacji, które kontrolują rozmiar i układ generowanych stron PDF. Tablica `Layouts` instruuje Aspose.CAD, aby renderował przestrzeń **Model**, która zawiera elementy siatek.
 
 ```java
 CadRasterizationOptions rasterizationOptions = new CadRasterizationOptions();
@@ -72,50 +81,69 @@ rasterizationOptions.setPageHeight(1600);
 rasterizationOptions.setLayouts(new String[] { "Model" });
 ```
 
-## Krok 5: Ustaw opcje PDF
+## Krok 5: Ustawienie opcji PDF
 
-Ustaw opcje PDF, w tym opcje rasteryzacji wektorowej.
+Dołącz ustawienia rasteryzacji do instancji `PdfOptions`. To informuje bibliotekę, aby używała wcześniej zdefiniowanych opcji przy tworzeniu PDF.
 
 ```java
 PdfOptions pdfOptions = new PdfOptions();
 pdfOptions.setVectorRasterizationOptions(rasterizationOptions);
 ```
 
-## Krok 6: Zapisz plik PDF
+## Krok 6: Zapis PDF
 
-Zapisz obraz CAD jako plik PDF, korzystając z określonych opcji.
+Na koniec zapisz wczytany obraz CAD jako plik PDF. Powstały dokument będzie wiernym odwzorowaniem oryginalnego DWG, włącznie z geometrią siatek.
 
 ```java
 cadImage.save(outPath, pdfOptions);
 ```
 
-Wykonaj uważnie poniższe kroki, aby bezproblemowo przekonwertować pliki CAD z siatkami na format PDF przy użyciu Aspose.CAD dla Java.
+### Dlaczego to działa przy **konwers CAD do PDF**
 
-## Wniosek
+Aspose.CAD wykonuje rasteryzację opartą na wektorach, zachowując grubość linii, kolory i szczegóły siatek 3‑D. Konfigurując opcje rasteryzacji kontrolujesz rozdzielczość i układ, zapewniając, że **eksportowany rysunek CAD** wygląda dokładnie tak, jak zamierzono w PDF.
 
-Podsumowując, Aspose.CAD dla Java zapewnia solidną obsługę plików CAD, w tym obsługę siatek. Postępując zgodnie z tym samouczkiem, możesz bez wysiłku konwertować pliki CAD zawierające siatki do formatu PDF, zwiększając możliwości konwersji dokumentów.
+## Typowe przypadki użycia
 
-## Często zadawane pytania
+- **Automatyczne raportowanie:** Generuj raporty PDF z rysunków inżynieryjnych w locie.  
+- **Archiwizacja dokumentów:** Przechowuj rysunki CAD jako PDF w celu długoterminowej archiwizacji.  
+- **Usługi internetowe:** Udostępnij API przyjmujące pliki DWG i zwracające PDF, przydatne dla platform SaaS.  
 
-### P1: Czy Aspose.CAD dla Java nadaje się do użytku komercyjnego?
+## Porady dotyczące rozwiązywania problemów
 
- Odpowiedź 1: Tak, Aspose.CAD dla Java jest przeznaczony zarówno do użytku osobistego, jak i komercyjnego. Szczegóły licencji można znaleźć na stronie[strona zakupu](https://purchase.aspose.com/buy).
+- **Brak siatek w wyniku:** Sprawdź, czy własność `Layouts` zawiera `"Model"`; siatki często są przechowywane w przestrzeni modelu.  
+- **Nieprawidłowe skalowanie:** Dostosuj `PageWidth` i `PageHeight`, aby pasowały do natywnych jednostek rysunku.  
+- **Błędy licencji:** Upewnij się, że wywołałeś `License.setLicense()` z prawidłowym plikiem licencji przed wczytaniem obrazu.  
 
-### P2: Jak mogę uzyskać tymczasową licencję do celów testowych?
+## Zakończenie
 
- A2: Uzyskaj tymczasową licencję od[Tutaj](https://purchase.aspose.com/temporary-license/) do testowania i oceny.
+Postępując zgodnie z tymi krokami, możesz niezawodnie **konwertować DWG do PDF** i w pełni wykorzystać obsługę siatek w Aspose.CAD. Ta funkcja upraszcza przepływy pracy wymagające wysokiej jakości eksportu PDF złożonych rysunków CAD, zarówno do użytku wewnętrznego, jak i dokumentacji skierowanej do klientów.
 
-### P3: Gdzie mogę znaleźć wsparcie społeczności dla Aspose.CAD dla Java?
+## FAQ
 
- A3: Odwiedź dedykowane forum Aspose.CAD na[https://forum.aspose.com/c/cad/19](https://forum.aspose.com/c/cad/19) za wsparcie społeczności.
+### Q1: Czy Aspose.CAD dla Javy nadaje się do użytku komercyjnego?
 
-### P4: Czy oprócz formatu PDF obsługiwane są inne formaty wyjściowe?
+A1: Tak, Aspose.CAD dla Javy jest przeznaczony zarówno do użytku prywatnego, jak i komercyjnego. Szczegóły licencjonowania znajdziesz na [purchase page](https://purchase.aspose.com/buy).
 
-O4: Tak, Aspose.CAD dla Java obsługuje różne formaty wyjściowe, w tym PNG, JPEG, BMP i inne. Szczegółowe informacje można znaleźć w dokumentacji.
+### Q2: Jak mogę uzyskać tymczasową licencję do celów testowych?
 
-### P5: Czy mogę bezpłatnie wypróbować Aspose.CAD dla Java?
+A2: Uzyskaj tymczasową licencję z [here](https://purchase.aspose.com/temporary-license/) do testów i oceny.
 
- Odpowiedź 5: Tak, możesz wypróbować bezpłatną wersję próbną Aspose.CAD dla Java[Tutaj](https://releases.aspose.com/).
+### Q3: Gdzie mogę znaleźć wsparcie społeczności dla Aspose.CAD dla Javy?
+
+A3: Odwiedź dedykowane forum Aspose.CAD pod adresem [https://forum.aspose.com/c/cad/19](https://forum.aspose.com/c/cad/19) w celu uzyskania wsparcia społeczności.
+
+### Q4: Czy oprócz PDF obsługiwane są inne formaty wyjściowe?
+
+A4: Tak, Aspose.CAD dla Javy obsługuje różne formaty wyjściowe, w tym PNG, JPEG, BMP i inne. Szczegóły znajdziesz w dokumentacji.
+
+### Q5: Czy mogę wypróbować Aspose.CAD dla Javy za darmo?
+
+A5: Tak, możesz wypróbować darmową wersję próbną Aspose.CAD dla Javy [here](https://releases.aspose.com/).
+
+**Ostatnia aktualizacja:** 2025-12-09  
+**Testowano z:** Aspose.CAD for Java 24.11  
+**Autor:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

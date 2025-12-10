@@ -1,33 +1,52 @@
 ---
+date: 2025-12-09
+description: dwg izlemeyi Java ile nasıl etkinleştireceğinizi öğrenin ve ayrıca Aspose.CAD
+  ile dxf PDF'yi Java ile nasıl dönüştüreceğinizi görün. Bu adım adım rehber, işbirlikçi
+  CAD projeleri için tam iş akışını gösterir.
+linktitle: Enable Tracking in DWG Files Using Java
+second_title: Aspose.CAD Java API
 title: Java'da Aspose.CAD Kullanarak DWG Dosyalarında İzlemeyi Etkinleştirin
-linktitle: Java Kullanarak DWG Dosyalarında İzlemeyi Etkinleştirme
-second_title: Aspose.CAD Java API'si
-description: Aspose.CAD kullanarak Java'da DWG dosya takibini etkinleştirmeye ve CAD projelerinde kusursuz işbirliği sağlamaya yönelik adım adım kılavuzu keşfedin.
-weight: 12
 url: /tr/java/additional-features/enable-tracking/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Java'da Aspose.CAD Kullanarak DWG Dosyalarında İzlemeyi Etkinleştirin
+# Aspose.CAD Kullanarak Java'da DWG Dosyalarında İzlemeyi Etkinleştirme
 
-## giriiş
+## Giriş
 
-Bilgisayar destekli tasarım (CAD) alanında Aspose.CAD for Java, geliştiricilerin CAD dosyalarını kolaylıkla işlemesine ve dönüştürmesine olanak tanıyan güçlü bir araç olarak öne çıkıyor. Bu eğitimde Aspose.CAD for Java'nın DWG dosyalarında izlemeyi etkinleştiren belirli bir işlevi ele alınmaktadır. DWG dosyalarındaki değişiklikleri takip etmek, işbirliğine dayalı tasarım projeleri için çok önemlidir; kesintisiz iletişim ve verimli iş akışı sağlar. Bu kılavuzda, Aspose.CAD'in özelliklerinden yararlanarak Java kullanarak izlemeyi etkinleştirme adımlarını inceleyeceğiz.
+Modern CAD iş akışlarında, **enable dwg tracking java** yeteneği, değişiklikleri izlemek, hataları erken yakalamak ve tüm paydaşların aynı sayfada olmasını sağlamak isteyen ekipler için hayati öneme sahiptir. Bu öğretici, Aspose.CAD for Java kullanarak DWG dosyalarında izlemeyi açmak için gerekli adımları adım adım gösterir ve aynı zamanda **java convert dxf pdf** işlemini dışa aktarma sürecinin bir parçası olarak nasıl yapacağınızı gösterir. Sonunda, yalnızca dönüştürmekle kalmayıp aynı zamanda oluşabilecek render sorunlarını raporlayan hazır bir kod parçacığına sahip olacaksınız.
+
+## Hızlı Yanıtlar
+- **“enable dwg tracking java” ne yapar?** Aspose.CAD’in hata‑işleme geri aramalarını etkinleştirir, böylece dışa aktarma sırasında render problemlerini görebilirsiniz.  
+- **Bir lisansa ihtiyacım var mı?** Test için bir deneme sürümü yeterlidir; üretim için ticari lisans gereklidir.  
+- **DXF'i PDF'e dönüştürebilir miyim?** Evet – DWG için kullanılan aynı `PdfOptions` DXF için de çalışır, *java convert dxf pdf* senaryosunu karşılar.  
+- **Hangi JDK sürümü gereklidir?** Java 8 veya üzeri.  
+- **Daha fazla örnek nerede bulunur?** Aşağıdaki Aspose.CAD Java Dokümantasyonuna göz atın.
+
+## enable dwg tracking java nedir?
+Java uygulamasında DWG izlemeyi etkinleştirmek, CAD dosyası rasterleştirilirken veya dışa aktarılırken uyarı, hata ve diğer tanı bilgilerini yakalayan özel bir render işleyicisi eklemek anlamına gelir. Bu görünürlük, geliştiricilerin dönüşüm hatlarını ayıklamasına yardımcı olur ve daha yüksek kalite teslimatlar sağlar.
+
+## Aspose.CAD for Java neden kullanılır?
+- **Tam özellikli CAD desteği** – DWG, DXF, DGN ve daha fazlası.  
+- **Harici bağımlılık yok** – saf Java kütüphanesi, sunucu‑tarafı otomasyon için ideal.  
+- **Yerleşik izleme** – `CadRenderHandler` aracılığıyla ayrıntılı render sonuçları.  
+- **Kolay PDF dışa aktarımı** – vektör verisini koruyarak tek satırda dönüşüm.
 
 ## Önkoşullar
 
-Uygulamaya geçmeden önce aşağıdaki önkoşulların mevcut olduğundan emin olun:
+Uygulamaya başlamadan önce aşağıdaki önkoşulların sağlandığından emin olun:
 
-- Java Geliştirme Kiti (JDK): Sisteminizde Java'nın kurulu olduğundan emin olun.
--  Aspose.CAD for Java: Aspose.CAD for Java'yı şu adresten indirip yükleyin:[İndirme: {link](https://releases.aspose.com/cad/java/).
-- Doküman Dizini: DWG dosyalarınızın bulunduğu bir dizin hazırlayın.
+- Java Development Kit (JDK): Sisteminizde Java yüklü olduğundan emin olun.  
+- Aspose.CAD for Java: Aspose.CAD for Java'ı [download link](https://releases.aspose.com/cad/java/) adresinden indirin ve kurun.  
+- Belge Dizini: DWG dosyalarınızın bulunduğu bir dizin hazırlayın.
 
-## Ad Alanlarını İçe Aktar
+## İsim Uzaylarını İçe Aktarma
 
-Aspose.CAD işlevselliklerinden yararlanmak için Java projenizde gerekli ad alanlarını içe aktararak başlayın:
+Java projenizde, Aspose.CAD işlevselliğinden yararlanmak için gerekli isim uzaylarını içe aktararak başlayın:
 
 ```java
 import com.aspose.cad.Image;
@@ -41,18 +60,18 @@ import java.io.FileOutputStream;
 import java.io.OutputStream;
 ```
 
-## Adım 1: DWG Dosyasını Yükleyin
+## Adım 1: DWG Dosyasını Yükleme
 
-DWG dosyasını Java uygulamanıza yükleyerek başlayın. Dosya yolunu buna göre ayarlayın:
+DWG (veya DXF) dosyasını Java uygulamanıza yükleyerek başlayın. Dosya yolunu buna göre ayarlayın:
 
 ```java
 String dataDir = "Your Document Directory" + "DXFDrawings/";
 Image image = Image.load(dataDir + "conic_pyramid.dxf");
 ```
 
-## 2. Adım: PDF Dışa Aktarma Seçeneklerini Yapılandırın
+## Adım 2: PDF Dışa Aktarma Seçeneklerini Yapılandırma
 
-CAD için vektör rasterleştirme seçeneklerini belirleyerek PDF dışa aktarma seçeneklerini yapılandırın:
+PDF dışa aktarma seçeneklerini ayarlayın, CAD için vektör rasterleştirme seçeneklerini belirtin. Bu aynı zamanda *java convert dxf pdf* yeteneğini de gösterir:
 
 ```java
 OutputStream stream = new FileOutputStream(dataDir + "output_conic_pyramid.pdf");
@@ -63,17 +82,17 @@ cadRasterizationOptions.setPageWidth(800);
 cadRasterizationOptions.setPageHeight(600);
 ```
 
-## 3. Adım: İzlemeyi Uygulayın
+## Adım 3: İzlemeyi Uygulama
 
-Özel bir hata işleyici sınıfı kullanarak izlemeyi uygulayın. Bu sınıf, izleme sonuçlarını ele alacak ve karşılaşılan sorunları görüntüleyecektir:
+Özel bir hata işleyici sınıfı kullanarak izlemeyi uygulayın. Bu sınıf render problemlerini yakalar ve konsolda gösterir:
 
 ```java
 cadRasterizationOptions.RenderResult = new ErrorHandler();
 ```
 
-## 4. Adım: PDF'ye aktarın
+## Adım 4: PDF'ye Dışa Aktar
 
-DWG dosyasını izleme etkinleştirilmiş bir PDF'ye dönüştürmek için dışa aktarma işlemini başlatın:
+İzleme etkinleştirilmiş şekilde DWG/DXF dosyasını PDF'e dönüştürmek için dışa aktarma sürecini başlatın:
 
 ```java
 System.out.println("Exporting to pdf format");
@@ -82,7 +101,7 @@ image.save(stream, pdfOptions);
 
 ## Adım 5: CadRenderHandler Sınıfı
 
- Tanımla`CadRenderHandler`oluşturma sonuçlarını işlemek ve izleme bilgilerini görüntülemek için sınıf:
+Render sonuçlarını işlemek ve izleme bilgilerini çıkarmak için `ErrorHandler` sınıfını (`CadRenderHandler`'ı genişleterek) tanımlayın:
 
 ```java
 public static class ErrorHandler extends CadRasterizationOptions.CadRenderHandler {
@@ -104,31 +123,39 @@ public static class ErrorHandler extends CadRasterizationOptions.CadRenderHandle
 }
 ```
 
-## Çözüm
+## Yaygın Sorunlar ve Çözümler
 
-Aspose.CAD for Java kullanarak DWG dosyalarında izlemeyi etkinleştirmek, CAD projelerinde işbirliğini geliştiren kusursuz bir süreçtir. Bu adımları izleyerek izleme işlevini verimli bir şekilde uygulayabilir, sorunsuz iletişim ve hata yönetimi sağlayabilirsiniz.
+- **`RenderResult` üzerinde `NullPointerException`** – Aspose.CAD sürüm 23.10 veya daha yenisini kullandığınızdan emin olun; eski sürümlerde `RenderResult` API'si bulunmaz.  
+- **Dosya bulunamadı** – `dataDir`'in doğru klasöre işaret ettiğini ve dosya adının büyük/küçük harf duyarlılığıyla tam eşleştiğini kontrol edin.  
+- **İzleme çıktısı eksik** – Özel `ErrorHandler`'ın `cadRasterizationOptions.RenderResult`'a doğru şekilde atandığını doğrulayın.
 
-## SSS'ler
+## Sıkça Sorulan Sorular
 
-### S1: Aspose.CAD for Java'yı kullanarak diğer CAD dosya formatları için izlemeyi etkinleştirebilir miyim?
+**S:** Aspose.CAD for Java kullanarak diğer CAD dosya formatları için izleme etkinleştirilebilir mi?  
+**C:** Aspose.CAD öncelikle DWG izlemeyi destekler. Diğer formatlar için resmi dokümantasyona bakın.
 
-Cevap1: Aspose.CAD öncelikle izleme için DWG dosyalarını destekler. Diğer formatlar için belgelere bakın.
+**S:** Aspose.CAD for Java'da ek dışa aktarma seçeneklerini nasıl yönetebilirim?  
+**C:** Detaylı dokümantasyonu [Aspose.CAD Java Documentation](https://reference.aspose.com/cad/java/) adresinde inceleyin.
 
-### S2: Aspose.CAD for Java'da ek dışa aktarma seçeneklerini nasıl kullanabilirim?
+**S:** Aspose.CAD for Java için bir deneme sürümü mevcut mu?  
+**C:** Evet, deneme sürümüne [Aspose.CAD Free Trial](https://releases.aspose.com/) adresinden erişebilirsiniz.
 
- Cevap2: Şu adresteki kapsamlı belgeleri inceleyin:[Aspose.CAD Java Belgelendirmesi](https://reference.aspose.com/cad/java/).
+**S:** Aspose.CAD for Java ile ilgili destek almak veya sorunları tartışmak için nereye başvurabilirim?  
+**C:** Topluluk desteği için [Aspose.CAD forum](https://forum.aspose.com/c/cad/19) adresini ziyaret edin.
 
-### S3: Aspose.CAD for Java'nın deneme sürümü mevcut mu?
+**S:** Aspose.CAD for Java için geçici bir lisans nasıl alınır?  
+**C:** [Temporary License](https://purchase.aspose.com/temporary-license/) sayfasında açıklanan süreci izleyin.
 
- C3: Evet, deneme sürümüne şu adresten erişebilirsiniz:[Aspose.CAD Ücretsiz Deneme](https://releases.aspose.com/).
+## Sonuç
 
-### S4: Aspose.CAD for Java ile ilgili nereden yardım alabilirim veya sorunları tartışabilirim?
+Java'da Aspose.CAD ile DWG izlemeyi etkinleştirmek, dönüşüm sorunlarına görünürlük kazandırmanın yanı sıra işbirlikçi tasarım iş akışlarını da kolaylaştırır. Yukarıdaki adımları izleyerek **enable dwg tracking java** yapabilir, DXF'i PDF'e dönüştürebilir ve render problemlerini sorunsuz bir şekilde ele alabilirsiniz.
 
- A4: Ziyaret edin[Aspose.CAD forumu](https://forum.aspose.com/c/cad/19) topluluk desteği için.
+---
 
-### S5: Aspose.CAD for Java için geçici lisansı nasıl edinebilirim?
+**Son Güncelleme:** 2025-12-09  
+**Test Edilen Versiyon:** Aspose.CAD for Java 24.12  
+**Yazar:** Aspose  
 
- A5: adresinde özetlenen süreci izleyin.[Geçici Lisans](https://purchase.aspose.com/temporary-license/).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

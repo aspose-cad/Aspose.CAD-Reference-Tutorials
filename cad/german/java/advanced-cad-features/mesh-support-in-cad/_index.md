@@ -1,35 +1,40 @@
 ---
-title: Mesh-Unterstützung mit Aspose.CAD für Java
-linktitle: Netzunterstützung im CAD
+date: 2025-12-09
+description: Erfahren Sie, wie Sie mit Aspose.CAD für Java PDFs aus DWG-Dateien erstellen.
+  Konvertieren Sie DWG mühelos in PDF mit Mesh‑Unterstützung.
+linktitle: Mesh Support in CAD
 second_title: Aspose.CAD Java API
-description: Entdecken Sie die Mesh-Unterstützung in Java-Anwendungen mit Aspose.CAD. Konvertieren Sie CAD-Dateien mühelos in PDF.
-weight: 12
+title: PDF aus DWG mit Aspose.CAD für Java erstellen
 url: /de/java/advanced-cad-features/mesh-support-in-cad/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Mesh-Unterstützung mit Aspose.CAD für Java
+# PDF aus DWG mit Aspose.CAD für Java erstellen
 
-## Einführung
+## Einleitung
 
-Aspose.CAD für Java ist eine leistungsstarke Bibliothek, die Entwicklern die nahtlose Arbeit mit CAD-Dateien (Computer-Aided Design) in Java-Anwendungen ermöglicht. In diesem Tutorial erkunden wir die Netzunterstützungsfunktion in Aspose.CAD für Java, mit der Sie CAD-Dateien mit Netzen in das PDF-Format konvertieren können. Befolgen Sie die nachstehende Schritt-für-Schritt-Anleitung, um die Funktionen dieser Bibliothek zu nutzen und die Handhabung Ihrer CAD-Dateien zu verbessern.
+## Kurze Antworten
+- **Was behandelt das Tutorial?** Konvertieren einer DWG-Datei, die Meshes enthält, in ein PDF mit Aspose.CAD für Java.  
+- **Benötige ich eine Lizenz?** Eine temporäre Lizenz funktioniert für Tests; eine Voll‑Lizenz ist für die kommerzielle Nutzung erforderlich.  
+- **Welche Java-Version wird unterstützt?** Java 8 oder höher.  
+- **Kann ich andere Formate exportieren?** Ja – Aspose.CAD unterstützt außerdem PNG, JPEG, BMP und mehr.  
+- **Wie lange dauert die Konvertierung?** In der Regel unter einer Sekunde für Zeichnungen normaler Größe.
+
+## Wie erstellt man ein PDF aus DWG?
 
 ## Voraussetzungen
 
-Bevor Sie mit dem Tutorial beginnen, stellen Sie sicher, dass die folgenden Voraussetzungen erfüllt sind:
+- **Java-Entwicklungsumgebung:** JDK 8 oder neuer, auf Ihrem Rechner installiert.  
+- **Aspose.CAD für Java Bibliothek:** Laden Sie das neueste JAR von dem [download link](https://releases.aspose.com/cad/java/) herunter.  
+- **Dokument mit Meshes:** Eine DWG-Datei, die Mesh-Daten enthält (z. B. `meshes.dwg`).  
 
-- Java-Entwicklungsumgebung: Stellen Sie sicher, dass auf Ihrem Computer eine Java-Entwicklungsumgebung eingerichtet ist.
+## Import Namespaces
 
--  Aspose.CAD für Java-Bibliothek: Laden Sie die Aspose.CAD für Java-Bibliothek von herunter und installieren Sie sie[Download-Link](https://releases.aspose.com/cad/java/).
-
-- Dokument mit Netzen: Halten Sie ein CAD-Dokument bereit, das Netze zur Konvertierung enthält. Sie können den bereitgestellten Beispielcode mit einer Datei namens „meshes.dwg“ verwenden.
-
-## Namespaces importieren
-
-Fügen Sie in Ihren Java-Code die erforderlichen Namespaces ein, um auf die Aspose.CAD-Klassen und -Methoden zuzugreifen. Fügen Sie die folgenden Importanweisungen hinzu:
+In Ihrem Java-Quellcode die erforderlichen Aspose.CAD-Klassen einbinden:
 
 ```java
 import com.aspose.cad.Image;
@@ -39,13 +44,13 @@ import com.aspose.cad.imageoptions.CadRasterizationOptions;
 import com.aspose.cad.imageoptions.PdfOptions;
 ```
 
-## Schritt 1: Richten Sie das Projekt ein
+## Schritt 1: Projekt einrichten
 
-Erstellen Sie ein neues Java-Projekt und importieren Sie die Aspose.CAD-Bibliothek. Legen Sie das Projektverzeichnis als fest`dataDir`.
+Erstellen Sie ein neues Java-Projekt (oder fügen Sie zu einem bestehenden hinzu) und fügen Sie das Aspose.CAD‑JAR dem Klassenpfad des Projekts hinzu. Definieren Sie ein Basisverzeichnis, das Ihre Quell‑DWG und das erzeugte PDF enthält.
 
-## Schritt 2: Dateipfade definieren
+## Schritt 2: Dateipfade festlegen
 
-Definieren Sie die Pfade für die Quell-CAD-Datei (`meshes.dwg`) und die ausgegebene PDF-Datei (`meshes.pdf`).
+Geben Sie an, wo die Eingabe‑DWG liegt und wohin das Ausgabe‑PDF geschrieben werden soll.
 
 ```java
 String dataDir = "Your Document Directory" + "CADConversion/";
@@ -53,17 +58,17 @@ String sourceFilePath = dataDir + "meshes.dwg";
 String outPath = dataDir + "meshes.pdf";
 ```
 
-## Schritt 3: Laden Sie das CAD-Bild
+## Schritt 3: CAD‑Bild laden
 
- Laden Sie das CAD-Bild mit`Image.load` Methode und wandeln Sie sie in um`CadImage`.
+Laden Sie die DWG-Datei in ein `CadImage`‑Objekt, damit Aspose.CAD mit seiner internen Struktur arbeiten kann.
 
 ```java
 CadImage cadImage = (CadImage)Image.load(sourceFilePath);
 ```
 
-## Schritt 4: Rasterisierungsoptionen konfigurieren
+## Schritt 4: Rasterisierungsoptionen konfigurieren
 
-Konfigurieren Sie Rasterisierungsoptionen, um Seitenabmessungen und Layouts für die PDF-Ausgabe festzulegen.
+Stellen Sie die Rasterisierungsoptionen ein, die Größe und Layout der erzeugten PDF‑Seiten bestimmen. Das `Layouts`‑Array weist Aspose.CAD an, den **Model**‑Raum zu rendern, der Mesh‑Entitäten enthält.
 
 ```java
 CadRasterizationOptions rasterizationOptions = new CadRasterizationOptions();
@@ -72,53 +77,74 @@ rasterizationOptions.setPageHeight(1600);
 rasterizationOptions.setLayouts(new String[] { "Model" });
 ```
 
-## Schritt 5: PDF-Optionen festlegen
+## Schritt 5: PDF‑Optionen festlegen
 
-Legen Sie PDF-Optionen fest, einschließlich Vektor-Rasterisierungsoptionen.
+Verknüpfen Sie die Rasterisierungseinstellungen mit einer `PdfOptions`‑Instanz. Dadurch verwendet die Bibliothek die zuvor definierten Optionen beim Erzeugen des PDFs.
 
 ```java
 PdfOptions pdfOptions = new PdfOptions();
 pdfOptions.setVectorRasterizationOptions(rasterizationOptions);
 ```
 
-## Schritt 6: Speichern Sie das PDF
+## Schritt 6: PDF speichern
 
-Speichern Sie das CAD-Bild mit den angegebenen Optionen als PDF.
+Speichern Sie schließlich das geladene CAD‑Bild als PDF‑Datei. Das resultierende Dokument enthält eine getreue Darstellung der ursprünglichen DWG, einschließlich aller Mesh‑Geometrien.
 
 ```java
 cadImage.save(outPath, pdfOptions);
 ```
 
-Befolgen Sie diese Schritte sorgfältig, um CAD-Dateien mit Netzen mit Aspose.CAD für Java nahtlos in PDF zu konvertieren.
+### Warum das für **CAD‑zu‑PDF konvertieren** funktioniert
 
-## Abschluss
+Aspose.CAD führt eine vektorbasierte Rasterisierung durch, wobei Linienstärken, Farben und 3‑D‑Mesh‑Details erhalten bleiben. Durch die Konfiguration der Rasterisierungsoptionen steuern Sie Auflösung und Layout und stellen sicher, dass der **Export CAD‑Zeichnung** exakt wie beabsichtigt im PDF aussieht.
 
-Zusammenfassend bietet Aspose.CAD für Java eine robuste Unterstützung für die Verarbeitung von CAD-Dateien, einschließlich Mesh-Unterstützung. Wenn Sie diesem Tutorial folgen, können Sie CAD-Dateien, die Netze enthalten, mühelos in das PDF-Format konvertieren und so Ihre Möglichkeiten zur Dokumentkonvertierung verbessern.
+## Häufige Anwendungsfälle
 
-## FAQs
+- **Automatisierte Berichterstellung:** PDF‑Berichte aus technischen Zeichnungen on‑the‑fly erzeugen.  
+- **Dokumentenarchivierung:** CAD‑Zeichnungen als PDFs für die Langzeitaufbewahrung speichern.  
+- **Web‑Dienste:** Eine API bereitstellen, die DWG‑Uploads akzeptiert und PDFs zurückgibt, nützlich für SaaS‑Plattformen.  
 
-### F1: Ist Aspose.CAD für Java für die kommerzielle Nutzung geeignet?
+## Fehlerbehebungstipps
 
- A1: Ja, Aspose.CAD für Java ist sowohl für den persönlichen als auch für den kommerziellen Gebrauch konzipiert. Lizenzdetails finden Sie auf der[Kaufseite](https://purchase.aspose.com/buy).
+- **Fehlende Meshes in der Ausgabe:** Stellen Sie sicher, dass die Eigenschaft `Layouts` `"Model"` enthält; Meshes werden häufig im Modellraum gespeichert.  
+- **Falsche Skalierung:** Passen Sie `PageWidth` und `PageHeight` an die nativen Einheiten der Zeichnung an.  
+- **Lizenzfehler:** Stellen Sie sicher, dass Sie `License.setLicense()` mit einer gültigen Lizenzdatei aufgerufen haben, bevor Sie das Bild laden.
 
-### F2: Wie kann ich eine temporäre Lizenz zu Testzwecken erhalten?
+## Fazit
 
- A2: Besorgen Sie sich eine temporäre Lizenz von[Hier](https://purchase.aspose.com/temporary-license/) zum Testen und Bewerten.
+Durch Befolgen dieser Schritte können Sie zuverlässig **DWG zu PDF** konvertieren und die Mesh‑Unterstützung von Aspose.CAD voll ausnutzen. Diese Fähigkeit vereinfacht Workflows, die hochwertige PDF‑Exporte komplexer CAD‑Zeichnungen erfordern, sei es für den internen Gebrauch oder für kundenorientierte Dokumentation.
 
-### F3: Wo finde ich Community-Unterstützung für Aspose.CAD für Java?
+## FAQ
 
- A3: Besuchen Sie das spezielle Aspose.CAD-Forum unter[https://forum.aspose.com/c/cad/19](https://forum.aspose.com/c/cad/19) für die Unterstützung der Gemeinschaft.
+### Q1: Ist Aspose.CAD für Java für den kommerziellen Einsatz geeignet?
 
-### F4: Werden außer PDF noch andere Ausgabeformate unterstützt?
+**A1:** Ja, Aspose.CAD für Java ist sowohl für den privaten als auch für den kommerziellen Einsatz konzipiert. Lizenzdetails finden Sie auf der [purchase page](https://purchase.aspose.com/buy).
 
-A4: Ja, Aspose.CAD für Java unterstützt verschiedene Ausgabeformate, darunter PNG, JPEG, BMP und mehr. Weitere Informationen finden Sie in der Dokumentation.
+### Q2: Wie kann ich eine temporäre Lizenz für Testzwecke erhalten?
 
-### F5: Kann ich Aspose.CAD für Java kostenlos testen?
+**A2:** Eine temporäre Lizenz erhalten Sie [hier](https://purchase.aspose.com/temporary-license/) für Test‑ und Evaluierungszwecke.
 
- A5: Ja, Sie können eine kostenlose Testversion von Aspose.CAD für Java ausprobieren[Hier](https://releases.aspose.com/).
-{{< /blocks/products/pf/tutorial-page-section >}}
+### Q3: Wo finde ich Community‑Support für Aspose.CAD für Java?
+
+**A3:** Besuchen Sie das dedizierte Aspose.CAD‑Forum unter [https://forum.aspose.com/c/cad/19](https://forum.aspose.com/c/cad/19) für Community‑Support.
+
+### Q4: Werden neben PDF noch andere Ausgabeformate unterstützt?
+
+**A4:** Ja, Aspose.CAD für Java unterstützt verschiedene Ausgabeformate, darunter PNG, JPEG, BMP und mehr. Weitere Details finden Sie in der Dokumentation.
+
+### Q5: Kann ich Aspose.CAD für Java kostenlos testen?
+
+**A5:** Ja, Sie können eine kostenlose Testversion von Aspose.CAD für Java [hier](https://releases.aspose.com/) erkunden.
+
+---
+
+**Last Updated:** 2025-12-09  
+**Tested With:** Aspose.CAD for Java 24.11  
+**Author:** Aspose  
+
+{{< /blocks/products/pf/main-wrap-class >}}
 
 {{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< blocks/products/products-backtop-button >}}

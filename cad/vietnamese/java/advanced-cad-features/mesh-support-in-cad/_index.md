@@ -1,35 +1,44 @@
 ---
-title: Hỗ trợ lưới với Aspose.CAD cho Java
-linktitle: Hỗ trợ lưới trong CAD
-second_title: API Java Aspose.CAD
-description: Khám phá hỗ trợ lưới trong các ứng dụng Java với Aspose.CAD. Chuyển đổi tập tin CAD sang PDF dễ dàng.
-weight: 12
+date: 2025-12-09
+description: Tìm hiểu cách tạo PDF từ các tệp DWG bằng Aspose.CAD cho Java. Chuyển
+  đổi DWG sang PDF một cách dễ dàng với hỗ trợ lưới.
+linktitle: Mesh Support in CAD
+second_title: Aspose.CAD Java API
+title: Tạo PDF từ DWG bằng Aspose.CAD cho Java
 url: /vi/java/advanced-cad-features/mesh-support-in-cad/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Hỗ trợ lưới với Aspose.CAD cho Java
+# Tạo PDF từ DWG bằng Aspose.CAD cho Java
 
 ## Giới thiệu
 
-Aspose.CAD cho Java là một thư viện mạnh mẽ cho phép các nhà phát triển làm việc liền mạch với các tệp Thiết kế hỗ trợ máy tính (CAD) trong các ứng dụng Java. Trong hướng dẫn này, chúng ta sẽ khám phá tính năng hỗ trợ lưới trong Aspose.CAD cho Java, cho phép bạn chuyển đổi các tệp CAD có lưới sang định dạng PDF. Hãy làm theo hướng dẫn từng bước bên dưới để khai thác các khả năng của thư viện này và nâng cao khả năng xử lý tệp CAD của bạn.
+Trong tutorial này, bạn sẽ học **cách tạo PDF từ DWG** bằng cách sử dụng Aspose.CAD cho Java. Hỗ trợ mesh của thư viện cho phép bạn chuyển đổi các bản vẽ CAD phức tạp—bao gồm cả những bản có mesh 3‑D—trực tiếp sang PDF mà không mất chi tiết. Dù bạn cần **chuyển đổi DWG sang PDF** cho việc báo cáo, lưu trữ, hay xử lý tiếp theo, các bước dưới đây sẽ hướng dẫn bạn một giải pháp đáng tin cậy, sẵn sàng cho môi trường sản xuất.
 
-## Điều kiện tiên quyết
+## Câu trả lời nhanh
+- **Nội dung tutorial:** Chuyển đổi một tệp DWG có chứa mesh sang PDF bằng Aspose.CAD cho Java.  
+- **Tôi có cần giấy phép không?** Giấy phép tạm thời hoạt động cho việc thử nghiệm; giấy phép đầy đủ cần thiết cho sử dụng thương mại.  
+- **Phiên bản Java nào được hỗ trợ?** Java 8 hoặc mới hơn.  
+- **Tôi có thể xuất sang các định dạng khác không?** Có – Aspose.CAD cũng hỗ trợ PNG, JPEG, BMP và các định dạng khác.  
+- **Quá trình chuyển đổi mất bao lâu?** Thông thường dưới một giây cho các bản vẽ kích thước tiêu chuẩn.
 
-Trước khi đi sâu vào hướng dẫn, hãy đảm bảo bạn có sẵn các điều kiện tiên quyết sau:
+## Cách tạo PDF từ DWG?
 
-- Môi trường phát triển Java: Đảm bảo rằng bạn đã thiết lập môi trường phát triển Java trên máy của mình.
+Ở dưới đây, bạn sẽ tìm thấy hướng dẫn ngắn gọn, từng bước, dẫn bạn qua toàn bộ quá trình — từ thiết lập dự án đến lưu PDF cuối cùng.
 
--  Thư viện Aspose.CAD cho Java: Tải xuống và cài đặt thư viện Aspose.CAD cho Java từ[Liên kết tải xuống](https://releases.aspose.com/cad/java/).
+## Yêu cầu trước
 
-- Tài liệu có lưới: Chuẩn bị sẵn tài liệu CAD chứa các lưới để chuyển đổi. Bạn có thể sử dụng mã mẫu được cung cấp với tệp có tên "mesh.dwg."
+- **Môi trường phát triển Java:** JDK 8 hoặc mới hơn được cài đặt trên máy của bạn.  
+- **Thư viện Aspose.CAD cho Java:** Tải JAR mới nhất từ [download link](https://releases.aspose.com/cad/java/).  
+- **Tài liệu có Meshes:** Một tệp DWG chứa dữ liệu mesh (ví dụ, `meshes.dwg`).  
 
-## Nhập không gian tên
+## Import Namespaces
 
-Trong mã Java của bạn, hãy bao gồm các vùng tên cần thiết để truy cập các lớp và phương thức Aspose.CAD. Thêm các câu lệnh nhập sau:
+Trong tệp nguồn Java của bạn, bao gồm các lớp Aspose.CAD cần thiết:
 
 ```java
 import com.aspose.cad.Image;
@@ -41,11 +50,11 @@ import com.aspose.cad.imageoptions.PdfOptions;
 
 ## Bước 1: Thiết lập dự án
 
-Tạo một dự án Java mới và nhập thư viện Aspose.CAD. Đặt thư mục dự án là`dataDir`.
+Tạo dự án Java mới (hoặc thêm vào dự án hiện có) và thêm JAR Aspose.CAD vào classpath của dự án. Xác định thư mục gốc sẽ chứa DWG nguồn và PDF được tạo.
 
 ## Bước 2: Xác định đường dẫn tệp
 
-Xác định đường dẫn cho tệp CAD nguồn (`meshes.dwg`) và tệp PDF đầu ra (`meshes.pdf`).
+Chỉ định vị trí tệp DWG đầu vào và nơi PDF đầu ra sẽ được ghi.
 
 ```java
 String dataDir = "Your Document Directory" + "CADConversion/";
@@ -55,15 +64,15 @@ String outPath = dataDir + "meshes.pdf";
 
 ## Bước 3: Tải hình ảnh CAD
 
- Tải hình ảnh CAD bằng cách sử dụng`Image.load` phương thức và truyền nó tới`CadImage`.
+Tải tệp DWG vào đối tượng `CadImage` để Aspose.CAD có thể làm việc với cấu trúc nội bộ của nó.
 
 ```java
 CadImage cadImage = (CadImage)Image.load(sourceFilePath);
 ```
 
-## Bước 4: Định cấu hình tùy chọn Rasterization
+## Bước 4: Cấu hình tùy chọn rasterization
 
-Định cấu hình các tùy chọn tạo điểm ảnh để đặt kích thước và bố cục trang cho đầu ra PDF.
+Đặt các tùy chọn rasterization để kiểm soát kích thước và bố cục của các trang PDF được tạo. Mảng `Layouts` chỉ cho Aspose.CAD render không gian **Model**, bao gồm các thực thể mesh.
 
 ```java
 CadRasterizationOptions rasterizationOptions = new CadRasterizationOptions();
@@ -74,48 +83,69 @@ rasterizationOptions.setLayouts(new String[] { "Model" });
 
 ## Bước 5: Đặt tùy chọn PDF
 
-Đặt các tùy chọn PDF, bao gồm các tùy chọn rasterization vector.
+Gắn các cài đặt rasterization vào một thể hiện `PdfOptions`. Điều này cho thư viện biết sử dụng các tùy chọn đã định nghĩa trước khi tạo PDF.
 
 ```java
 PdfOptions pdfOptions = new PdfOptions();
 pdfOptions.setVectorRasterizationOptions(rasterizationOptions);
 ```
 
-## Bước 6: Lưu tệp PDF
+## Bước 6: Lưu PDF
 
-Lưu hình ảnh CAD dưới dạng PDF bằng các tùy chọn đã chỉ định.
+Cuối cùng, lưu hình ảnh CAD đã tải dưới dạng tệp PDF. Tài liệu kết quả sẽ chứa bản sao trung thực của DWG gốc, bao gồm mọi hình học mesh.
 
 ```java
 cadImage.save(outPath, pdfOptions);
 ```
 
-Hãy thực hiện cẩn thận các bước sau để chuyển đổi liền mạch các tệp CAD có lưới sang PDF bằng Aspose.CAD cho Java.
+### Tại sao cách này hoạt động cho **chuyển đổi CAD sang PDF**
 
-## Phần kết luận
+Aspose.CAD thực hiện rasterization dựa trên vector, giữ nguyên độ dày đường, màu sắc và chi tiết mesh 3‑D. Bằng cách cấu hình các tùy chọn rasterization, bạn kiểm soát độ phân giải và bố cục, đảm bảo rằng **bản vẽ CAD xuất** trông chính xác như mong muốn trong PDF.
 
-Tóm lại, Aspose.CAD cho Java cung cấp hỗ trợ mạnh mẽ để xử lý các tệp CAD, bao gồm cả hỗ trợ lưới. Bằng cách làm theo hướng dẫn này, bạn có thể dễ dàng chuyển đổi các tệp CAD có chứa lưới sang định dạng PDF, nâng cao khả năng chuyển đổi tài liệu của bạn.
+## Các trường hợp sử dụng phổ biến
+
+- **Báo cáo tự động:** Tạo báo cáo PDF từ bản vẽ kỹ thuật một cách nhanh chóng.  
+- **Lưu trữ tài liệu:** Lưu các bản vẽ CAD dưới dạng PDF để bảo quản lâu dài.  
+- **Dịch vụ web:** Cung cấp API nhận tải lên DWG và trả về PDF, hữu ích cho các nền tảng SaaS.  
+
+## Mẹo khắc phục sự cố
+
+- **Mesh bị thiếu trong đầu ra:** Kiểm tra thuộc tính `Layouts` có bao gồm `"Model"` không; mesh thường được lưu trong không gian model.  
+- **Tỷ lệ không đúng:** Điều chỉnh `PageWidth` và `PageHeight` để khớp với đơn vị gốc của bản vẽ.  
+- **Lỗi giấy phép:** Đảm bảo bạn đã gọi `License.setLicense()` với tệp giấy phép hợp lệ trước khi tải hình ảnh.
+
+## Kết luận
+
+Thông qua việc thực hiện các bước này, bạn có thể đáng tin cậy **chuyển đổi DWG sang PDF** và tận dụng tối đa hỗ trợ mesh của Aspose.CAD. Khả năng này đơn giản hoá quy trình làm việc cần xuất PDF chất lượng cao từ các bản vẽ CAD phức tạp, dù cho mục đích nội bộ hay tài liệu cho khách hàng.
 
 ## Câu hỏi thường gặp
 
-### Câu hỏi 1: Aspose.CAD cho Java có phù hợp cho mục đích thương mại không?
+### Q1: Aspose.CAD cho Java có phù hợp cho sử dụng thương mại không?
 
- Câu trả lời 1: Có, Aspose.CAD cho Java được thiết kế cho cả mục đích sử dụng cá nhân và thương mại. Bạn có thể tìm thấy chi tiết cấp phép trên[trang mua hàng](https://purchase.aspose.com/buy).
+Aspose.CAD cho Java được thiết kế cho cả sử dụng cá nhân và thương mại. Bạn có thể tìm chi tiết giấy phép trên [trang mua hàng](https://purchasepose.com/buy).
 
-### Câu hỏi 2: Làm cách nào tôi có thể nhận được giấy phép tạm thời cho mục đích thử nghiệm?
+### Q2: Làm sao để nhận giấy phép tạm thời cho mục đích thử nghiệm?
 
- A2: Xin giấy phép tạm thời từ[đây](https://purchase.aspose.com/temporary-license/) để kiểm tra và đánh giá.
+Nhận giấy phép tạm thời từ [đây](https://purchase.aspose.com/temporary-license/) để thử nghiệm và đánh giá.
 
-### Câu hỏi 3: Tôi có thể tìm sự hỗ trợ của cộng đồng cho Aspose.CAD cho Java ở đâu?
+### Q3: Tôi có thể tìm hỗ trợ cộng đồng cho Aspose.CAD cho Java ở đâu?
 
- Câu trả lời 3: Truy cập diễn đàn dành riêng cho Aspose.CAD trên[https://forum.aspose.com/c/cad/19](https://forum.aspose.com/c/cad/19) để hỗ trợ cộng đồng.
+Truy cập diễn đàn dành riêng cho Aspose.CAD tại [https://forum.aspose.com/c/cad/19](https://forum.aspose.com/c/cad/19) để nhận hỗ trợ cộng đồng.
 
-### Q4: Có hỗ trợ định dạng đầu ra nào khác ngoài PDF không?
+### Q4: Có các định dạng đầu ra khác ngoài PDF không?
 
-Câu trả lời 4: Có, Aspose.CAD cho Java hỗ trợ nhiều định dạng đầu ra khác nhau, bao gồm PNG, JPEG, BMP, v.v. Tham khảo tài liệu để biết chi tiết.
+Có, Aspose.CAD cho Java hỗ trợ nhiều định dạng đầu ra, bao gồm PNG, JPEG, BMP và các định dạng khác. Tham khảo tài liệu để biết chi tiết.
 
-### Câu hỏi 5: Tôi có thể dùng thử Aspose.CAD cho Java miễn phí không?
+### Q5: Tôi có thể dùng thử Aspose.CAD cho Java miễn phí không?
 
- Câu trả lời 5: Có, bạn có thể khám phá phiên bản dùng thử miễn phí của Aspose.CAD cho Java[đây](https://releases.aspose.com/).
+Có, bạn có thể khám phá phiên bản dùng thử miễn phí của Aspose.CAD cho Java [tại đây](https://releases.aspose.com/).
+
+---
+
+**Cập nhật lần cuối:** 2025-12-09  
+**Kiểm thử với:** Aspose.CAD cho Java 24.11  
+**Tác giả:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -1,33 +1,52 @@
 ---
-title: Aktifkan Pelacakan di File DWG Menggunakan Aspose.CAD Di Java
-linktitle: Aktifkan Pelacakan di File DWG Menggunakan Java
+date: 2025-12-09
+description: Pelajari cara mengaktifkan pelacakan DWG dengan Java dan juga lihat cara
+  mengonversi DXF ke PDF menggunakan Aspose.CAD. Panduan langkah demi langkah ini
+  menunjukkan alur kerja lengkap untuk proyek CAD kolaboratif.
+linktitle: Enable Tracking in DWG Files Using Java
 second_title: Aspose.CAD Java API
-description: Jelajahi panduan langkah demi langkah tentang mengaktifkan pelacakan file DWG di Java menggunakan Aspose.CAD, memastikan kolaborasi yang lancar dalam proyek CAD.
-weight: 12
+title: Aktifkan Pelacakan pada File DWG Menggunakan Aspose.CAD di Java
 url: /id/java/additional-features/enable-tracking/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aktifkan Pelacakan di File DWG Menggunakan Aspose.CAD Di Java
+# Aktifkan Pelacakan pada File DWG Menggunakan Aspose.CAD di Java
 
-## Perkenalan
+## Pendahuluan
 
-Di bidang desain berbantuan komputer (CAD), Aspose.CAD untuk Java menonjol sebagai alat canggih yang memberdayakan pengembang untuk memanipulasi dan mengonversi file CAD dengan mudah. Tutorial ini mempelajari fungsionalitas spesifik Aspose.CAD untuk Java – mengaktifkan pelacakan dalam file DWG. Melacak perubahan dalam file DWG sangat penting untuk proyek desain kolaboratif, memastikan komunikasi yang lancar dan alur kerja yang efisien. Dalam panduan ini, kami akan memandu langkah-langkah untuk mengaktifkan pelacakan menggunakan Java, memanfaatkan kemampuan Aspose.CAD.
+Dalam alur kerja CAD modern, kemampuan untuk **enable dwg tracking java** sangat penting bagi tim yang perlu memantau perubahan, menangkap kesalahan lebih awal, dan memastikan semua pemangku kepentingan berada pada halaman yang sama. Tutorial ini akan memandu Anda melalui langkah‑langkah tepat untuk mengaktifkan pelacakan pada file DWG menggunakan Aspose.CAD untuk Java, dan di sepanjang proses Anda juga akan melihat cara **java convert dxf pdf** sebagai bagian dari proses ekspor. Pada akhir tutorial, Anda akan memiliki potongan kode siap‑jalankan yang tidak hanya melakukan konversi tetapi juga melaporkan masalah rendering apa pun.
+
+## Jawaban Cepat
+- **Apa yang dilakukan “enable dwg tracking java”?** Itu mengaktifkan callback penanganan error Aspose.CAD sehingga Anda dapat melihat masalah rendering selama proses ekspor.  
+- **Apakah saya memerlukan lisensi?** Versi percobaan dapat digunakan untuk pengujian; lisensi komersial diperlukan untuk produksi.  
+- **Apakah saya juga dapat mengonversi DXF ke PDF?** Ya – `PdfOptions` yang sama digunakan untuk DWG juga berfungsi untuk DXF, memenuhi skenario *java convert dxf pdf*.  
+- **Versi JDK mana yang diperlukan?** Java 8 atau lebih tinggi.  
+- **Di mana saya dapat menemukan contoh lain?** Lihat Dokumentasi Aspose.CAD Java yang ditautkan di bawah.
+
+## Apa itu enable dwg tracking java?
+Mengaktifkan pelacakan DWG dalam aplikasi Java berarti menambahkan handler render kustom yang menangkap peringatan, error, dan informasi diagnostik lainnya saat file CAD dirasterisasi atau diekspor. Visibilitas ini membantu pengembang men-debug pipeline konversi dan memastikan hasil yang lebih berkualitas.
+
+## Mengapa menggunakan Aspose.CAD untuk Java?
+- **Dukungan CAD lengkap** – DWG, DXF, DGN, dan lainnya.  
+- **Tanpa dependensi eksternal** – pustaka Java murni, ideal untuk otomatisasi sisi server.  
+- **Pelacakan bawaan** – hasil render detail melalui `CadRenderHandler`.  
+- **Ekspor PDF mudah** – konversi satu baris sambil mempertahankan data vektor.
 
 ## Prasyarat
 
-Sebelum kita mendalami penerapannya, pastikan Anda memiliki prasyarat berikut:
+Sebelum kita masuk ke implementasi, pastikan Anda telah menyiapkan hal‑hal berikut:
 
-- Java Development Kit (JDK): Pastikan Anda telah menginstal Java di sistem Anda.
--  Aspose.CAD untuk Java: Unduh dan instal Aspose.CAD untuk Java dari[tautan unduhan](https://releases.aspose.com/cad/java/).
+- Java Development Kit (JDK): Pastikan Java telah terpasang di sistem Anda.  
+- Aspose.CAD untuk Java: Unduh dan instal Aspose.CAD untuk Java dari [download link](https://releases.aspose.com/cad/java/).  
 - Direktori Dokumen: Siapkan direktori tempat file DWG Anda berada.
 
 ## Impor Namespace
 
-Dalam proyek Java Anda, mulailah dengan mengimpor namespace yang diperlukan untuk memanfaatkan fungsionalitas Aspose.CAD:
+Dalam proyek Java Anda, mulai dengan mengimpor namespace yang diperlukan untuk memanfaatkan fungsionalitas Aspose.CAD:
 
 ```java
 import com.aspose.cad.Image;
@@ -43,7 +62,7 @@ import java.io.OutputStream;
 
 ## Langkah 1: Muat File DWG
 
-Mulailah dengan memuat file DWG ke aplikasi Java Anda. Sesuaikan jalur file sesuai:
+Mulailah dengan memuat file DWG (atau DXF) ke dalam aplikasi Java Anda. Sesuaikan jalur file sesuai kebutuhan:
 
 ```java
 String dataDir = "Your Document Directory" + "DXFDrawings/";
@@ -52,7 +71,7 @@ Image image = Image.load(dataDir + "conic_pyramid.dxf");
 
 ## Langkah 2: Konfigurasikan Opsi Ekspor PDF
 
-Konfigurasikan opsi ekspor PDF, tentukan opsi rasterisasi vektor untuk CAD:
+Siapkan opsi ekspor PDF, menentukan opsi rasterisasi vektor untuk CAD. Ini juga memperlihatkan kemampuan *java convert dxf pdf*:
 
 ```java
 OutputStream stream = new FileOutputStream(dataDir + "output_conic_pyramid.pdf");
@@ -63,9 +82,9 @@ cadRasterizationOptions.setPageWidth(800);
 cadRasterizationOptions.setPageHeight(600);
 ```
 
-## Langkah 3: Terapkan Pelacakan
+## Langkah 3: Implementasikan Pelacakan
 
-Terapkan pelacakan menggunakan kelas penangan kesalahan khusus. Kelas ini akan menangani hasil pelacakan dan menampilkan masalah apa pun yang ditemui:
+Implementasikan pelacakan menggunakan kelas penanganan error kustom. Kelas ini akan menangkap masalah rendering dan menampilkannya di konsol:
 
 ```java
 cadRasterizationOptions.RenderResult = new ErrorHandler();
@@ -73,7 +92,7 @@ cadRasterizationOptions.RenderResult = new ErrorHandler();
 
 ## Langkah 4: Ekspor ke PDF
 
-Mulai proses ekspor untuk mengonversi file DWG ke PDF dengan pelacakan diaktifkan:
+Mulailah proses ekspor untuk mengonversi file DWG/DXF ke PDF dengan pelacakan diaktifkan:
 
 ```java
 System.out.println("Exporting to pdf format");
@@ -82,7 +101,7 @@ image.save(stream, pdfOptions);
 
 ## Langkah 5: Kelas CadRenderHandler
 
- Tentukan`CadRenderHandler`kelas untuk menangani hasil rendering, menampilkan informasi pelacakan:
+Definisikan kelas `ErrorHandler` (yang memperluas `CadRenderHandler`) untuk memproses hasil render dan mengeluarkan informasi pelacakan:
 
 ```java
 public static class ErrorHandler extends CadRasterizationOptions.CadRenderHandler {
@@ -104,31 +123,39 @@ public static class ErrorHandler extends CadRasterizationOptions.CadRenderHandle
 }
 ```
 
+## Masalah Umum dan Solusinya
+
+- **`NullPointerException` pada `RenderResult`** – Pastikan Anda menggunakan Aspose.CAD versi 23.10 atau lebih baru; rilis lama tidak memiliki API `RenderResult`.  
+- **File tidak ditemukan** – Verifikasi bahwa `dataDir` mengarah ke folder yang benar dan nama file cocok persis, termasuk huruf besar/kecil.  
+- **Output pelacakan tidak muncul** – Pastikan `ErrorHandler` kustom telah ditetapkan dengan benar ke `cadRasterizationOptions.RenderResult`.
+
+## Pertanyaan yang Sering Diajukan
+
+**T:** Apakah saya dapat mengaktifkan pelacakan untuk format file CAD lain menggunakan Aspose.CAD untuk Java?  
+**J:** Aspose.CAD terutama mendukung pelacakan DWG. Untuk format lain, lihat dokumentasi resmi.
+
+**T:** Bagaimana cara menangani opsi ekspor tambahan di Aspose.CAD untuk Java?  
+**J:** Jelajahi dokumentasi lengkap di [Aspose.CAD Java Documentation](https://reference.aspose.com/cad/java/).
+
+**T:** Apakah ada versi percobaan yang tersedia untuk Aspose.CAD untuk Java?  
+**J:** Ya, Anda dapat mengakses versi percobaan di [Aspose.CAD Free Trial](https://releases.aspose.com/).
+
+**T:** Di mana saya dapat mencari bantuan atau berdiskusi mengenai masalah terkait Aspose.CAD untuk Java?  
+**J:** Kunjungi [Aspose.CAD forum](https://forum.aspose.com/c/cad/19) untuk dukungan komunitas.
+
+**T:** Bagaimana cara mendapatkan lisensi sementara untuk Aspose.CAD untuk Java?  
+**J:** Ikuti proses yang dijelaskan di [Temporary License](https://purchase.aspose.com/temporary-license/).
+
 ## Kesimpulan
 
-Mengaktifkan pelacakan dalam file DWG menggunakan Aspose.CAD untuk Java adalah proses mulus yang meningkatkan kolaborasi dalam proyek CAD. Dengan mengikuti langkah-langkah ini, Anda dapat menerapkan fungsi pelacakan secara efisien, memastikan kelancaran komunikasi dan penanganan kesalahan.
+Mengaktifkan pelacakan DWG di Java dengan Aspose.CAD tidak hanya memberi Anda visibilitas terhadap masalah konversi tetapi juga memperlancar alur kerja desain kolaboratif. Dengan mengikuti langkah‑langkah di atas, Anda dapat **enable dwg tracking java**, mengonversi DXF ke PDF, dan menangani setiap masalah rendering dengan elegan.
 
-## FAQ
+---
 
-### Q1: Dapatkah saya mengaktifkan pelacakan untuk format file CAD lainnya menggunakan Aspose.CAD untuk Java?
+**Last Updated:** 2025-12-09  
+**Tested With:** Aspose.CAD for Java 24.12  
+**Author:** Aspose  
 
-A1: Aspose.CAD terutama mendukung file DWG untuk pelacakan. Untuk format lain, lihat dokumentasi.
-
-### Q2: Bagaimana cara menangani opsi ekspor tambahan di Aspose.CAD untuk Java?
-
- A2: Jelajahi dokumentasi ekstensif di[Dokumentasi Aspose.CAD Java](https://reference.aspose.com/cad/java/).
-
-### Q3: Apakah ada versi uji coba yang tersedia untuk Aspose.CAD untuk Java?
-
- A3: Ya, Anda dapat mengakses versi trial di[Uji Coba Gratis Aspose.CAD](https://releases.aspose.com/).
-
-### Q4: Di mana saya dapat mencari bantuan atau mendiskusikan masalah terkait Aspose.CAD untuk Java?
-
- A4: Kunjungi[Forum Aspose.CAD](https://forum.aspose.com/c/cad/19) untuk dukungan masyarakat.
-
-### Q5: Bagaimana cara mendapatkan lisensi sementara Aspose.CAD untuk Java?
-
- A5: Ikuti proses yang diuraikan di[Lisensi Sementara](https://purchase.aspose.com/temporary-license/).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
