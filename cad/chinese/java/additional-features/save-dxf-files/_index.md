@@ -2,11 +2,10 @@
 date: 2025-12-05
 description: 了解如何使用 Aspose.CAD 在 Java 中导出 DXF 文件并将 CAD 转换为 DXF。一步一步的指南，帮助高效管理 CAD
   文件。
-language: zh
 linktitle: Save DXF Files with Java
 second_title: Aspose.CAD Java API
 title: 如何在 Java 中使用 Aspose.CAD 导出 DXF 文件
-url: /java/additional-features/save-dxf-files/
+url: /zh/java/additional-features/save-dxf-files/
 weight: 20
 ---
 

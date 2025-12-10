@@ -2,11 +2,10 @@
 date: 2025-12-05
 description: Naučte se, jak exportovat soubory DXF a převádět CAD na DXF v Javě pomocí
   Aspose.CAD. Krok za krokem průvodce pro efektivní správu CAD souborů.
-language: cs
 linktitle: Save DXF Files with Java
 second_title: Aspose.CAD Java API
 title: Jak exportovat soubory DXF pomocí Aspose.CAD v Javě
-url: /java/additional-features/save-dxf-files/
+url: /cs/java/additional-features/save-dxf-files/
 weight: 20
 ---
 

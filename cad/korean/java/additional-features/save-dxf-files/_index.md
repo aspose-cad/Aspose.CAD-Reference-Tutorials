@@ -2,11 +2,10 @@
 date: 2025-12-05
 description: Aspose.CAD를 사용하여 Java에서 DXF 파일을 내보내고 CAD를 DXF로 변환하는 방법을 배워보세요. 효율적인 CAD
   파일 관리를 위한 단계별 가이드.
-language: ko
 linktitle: Save DXF Files with Java
 second_title: Aspose.CAD Java API
 title: Java에서 Aspose.CAD를 사용하여 DXF 파일 내보내는 방법
-url: /java/additional-features/save-dxf-files/
+url: /ko/java/additional-features/save-dxf-files/
 weight: 20
 ---
 
