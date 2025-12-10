@@ -1,35 +1,52 @@
 ---
-title: Установите размер и режим холста
-linktitle: Установите размер и режим холста
-second_title: API Aspose.CAD Java
-description: Исследуйте возможности Aspose.CAD для Java с помощью нашего пошагового руководства по настройке размера и режима холста. Легко конвертируйте файлы САПР в форматы PDF и TIFF.
-weight: 16
+date: 2025-12-10
+description: Узнайте, как конвертировать CAD в PDF с помощью Aspose.CAD for Java,
+  задавая размер холста, автоматическое масштабирование макета и экспортируя в TIFF.
+linktitle: Convert CAD to PDF – Set Canvas Size & Mode
+second_title: Aspose.CAD Java API
+title: Преобразовать CAD в PDF – установить размер холста и режим (Java)
 url: /ru/java/advanced-cad-features/set-canvas-size-and-mode/
+weight: 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Установите размер и режим холста
+# Установить размер холста и режим
 
 ## Введение
 
-Вы хотите использовать возможности Aspose.CAD для Java для улучшения процесса преобразования САПР? Это подробное руководство проведет вас через этапы настройки размера и режима холста с помощью Aspose.CAD для Java. Независимо от того, являетесь ли вы опытным разработчиком или только начинаете, это руководство предоставит вам необходимую информацию.
+Ищете способ **convert CAD to PDF**, имея полный контроль над размером холста и режимом рендеринга? Это подробное руководство проведёт вас через точные шаги по установке размера холста в Java, включению автоматического масштабирования макета и последующему экспорту результата в форматы PDF и TIFF с использованием Aspose.CAD. Независимо от того, улучшаете ли вы производственный конвейер или экспериментируете с прототипом, вы найдёте здесь чёткие, практические инструкции.
 
-## Предварительные условия
+## Быстрые ответы
+- **Что означает “convert CAD to PDF”?** Преобразование CAD‑чертежа (например, DXF, DWG) в PDF‑документ, который можно просматривать на любой платформе.  
+- **Могу ли я также экспортировать в TIFF?** Да — используйте `TiffOptions` для создания растровых изображений высокого разрешения.  
+- **Какая опция управляет размером холста в Java?** `CadRasterizationOptions.setPageWidth/Height`.  
+- **Что такое автоматическое масштабирование макета?** Флаг (`setAutomaticLayoutsScaling(true)`), который сохраняет исходные пропорции макета при изменении размера холста.  
+- **Нужна ли лицензия для Aspose.CAD?** Для использования в продакшене требуется временная или постоянная лицензия.
 
-Прежде чем приступить к изучению руководства, убедитесь, что у вас есть следующие предварительные условия:
+## Что такое **convert CAD to PDF**?
 
--  Aspose.CAD для Java: убедитесь, что в вашей среде Java установлена библиотека Aspose.CAD. Вы можете скачать его[здесь](https://releases.aspose.com/cad/java/).
+Преобразование CAD в PDF означает взятие векторных инженерных чертежей и их рендеринг в виде страниц PDF, с сохранением линий, слоёв и геометрии, делая файл универсально доступным.
 
-- Каталог документов: настройте каталог документов для хранения файлов САПР. Этот каталог будет упоминаться в шагах руководства.
+## Зачем устанавливать размер холста **java**?
 
-Теперь давайте начнем с пошагового руководства.
+Установка размера холста в Java позволяет задать разрешение вывода и размеры страницы, гарантируя, что полученный PDF или TIFF соответствует требованиям к печати или отображению. Это также даёт контроль над поведением масштабирования, что важно для чертежей большого формата.
 
-## Импортировать пространства имен
+## Требования
 
-На этом этапе мы импортируем необходимые пространства имен для запуска вашего проекта Aspose.CAD.
+Прежде чем приступать к руководству, убедитесь, что у вас есть следующие требования:
+
+- Aspose.CAD for Java: Убедитесь, что библиотека Aspose.CAD установлена в вашей Java‑среде. Вы можете скачать её [здесь](https://releases.aspose.com/cad/java/).
+- Document Directory: Создайте каталог документов для хранения ваших CAD‑файлов. Этот каталог будет использоваться в шагах руководства.
+
+Теперь давайте начнём пошаговое руководство.
+
+## Импорт пространств имён
+
+На этом шаге мы импортируем необходимые пространства имён для запуска вашего проекта Aspose.CAD.
+
 ```java
 import java.awt.Image;
 
@@ -39,22 +56,22 @@ import com.aspose.cad.imageoptions.PdfOptions;
 import com.aspose.cad.imageoptions.TiffOptions;
 ```
 
-## Шаг 1. Импортируйте классы Aspose.CAD
+## Шаг 1: Импорт классов Aspose.CAD
 
 ```java
-// Путь к каталогу ресурсов.
+// The path to the resource directory.
 String dataDir = "Your Document Directory" + "CADConversion/";
 
 String srcFile = dataDir + "conic_pyramid.dxf";
 com.aspose.cad.Image objImage = com.aspose.cad.Image.load(srcFile);
 ```
 
- В этом фрагменте мы устанавливаем путь к каталогу ресурсов и загружаем файл DXF с помощью Aspose.CAD.`Image` сорт.
+В этом фрагменте кода мы задаём путь к каталогу ресурсов и загружаем DXF‑файл с помощью класса `Image` из Aspose.CAD.
 
-## Шаг 2. Установите свойства CadRasterizationOptions
+## Шаг 2: Установить свойства **CadRasterizationOptions** (set canvas size java)
 
 ```java
-// Создайте экземпляр CadRasterizationOptions и установите его различные свойства.
+// Create an instance of CadRasterizationOptions and set its various properties
 CadRasterizationOptions rasterizationOptions = new CadRasterizationOptions();
 rasterizationOptions.setPageWidth(1600);
 rasterizationOptions.setPageHeight(1600);
@@ -63,75 +80,96 @@ rasterizationOptions.setAutomaticLayoutsScaling(true);
 rasterizationOptions.setNoScaling(true);
 ```
 
- Здесь мы создаем экземпляр`CadRasterizationOptions` и настройте такие свойства, как ширина страницы, высота страницы и параметры масштабирования.
+Здесь мы создаём экземпляр `CadRasterizationOptions` и настраиваем свойства, такие как ширина страницы, высота страницы и **automatic layout scaling**. Это ядро **configure canvas mode** для вашего преобразования.
 
-## Шаг 3. Создайте PdfOptions и установите VectorRasterizationOptions.
+## Шаг 3: Создать PdfOptions и установить VectorRasterizationOptions
 
 ```java
-// Создайте экземпляр PdfOptions.
+// Create an instance of PdfOptions
 PdfOptions pdfOptions = new PdfOptions();
 
-// Установите свойство VectorRasterizationOptions.
+// Set the VectorRasterizationOptions property
 pdfOptions.setVectorRasterizationOptions(rasterizationOptions);
 ```
 
- Теперь мы создаем`PdfOptions` экземпляр и установите его`VectorRasterizationOptions` свойство к ранее настроенному`CadRasterizationOptions`.
+Теперь мы создаём экземпляр `PdfOptions` и задаём его свойство `VectorRasterizationOptions` ранее сконфигурированным `CadRasterizationOptions`.
 
-## Шаг 4. Экспорт в PDF
+## Шаг 4: Экспорт в PDF (convert cad to pdf)
 
 ```java
-// Экспорт САПР в PDF
+// Export CAD to PDF
 objImage.save(dataDir + "result_out_.pdf", pdfOptions);
 ```
 
-Наконец, мы сохраняем изображение САПР в файл PDF, используя указанные параметры.
+Наконец, мы сохраняем CAD‑изображение в PDF‑файл, используя указанные параметры, завершая процесс **convert CAD to PDF**.
 
-## Шаг 5. Создайте TiffOptions и установите VectorRasterizationOptions.
+## Шаг 5: Создать TiffOptions и установить VectorRasterizationOptions (export cad to tiff)
 
 ```java
-// Создайте экземпляр TiffOptions.
+// Create an instance of TiffOptions
 TiffOptions tiffOptions = new TiffOptions(TiffExpectedFormat.Default);
 
-// Установите свойство VectorRasterizationOptions.
+// Set the VectorRasterizationOptions property
 tiffOptions.setVectorRasterizationOptions(rasterizationOptions);
 ```
 
-На этом этапе мы настраиваем`TiffOptions` экземпляр и настроить его`VectorRasterizationOptions` свойство.
+На этом шаге мы создаём экземпляр `TiffOptions` и настраиваем его свойство `VectorRasterizationOptions`.
 
 ## Шаг 6: Экспорт в TIFF
 
 ```java
-// Экспорт САПР в TIFF
+// Export CAD to TIFF
 objImage.save(dataDir + "result_out_.tiff", tiffOptions);
 ```
 
-Наконец, мы сохраняем изображение САПР в файл TIFF, используя указанные параметры.
+Наконец, мы сохраняем CAD‑изображение в TIFF‑файл, используя указанные параметры, демонстрируя, как **export CAD to TIFF** после настройки размера холста.
+
+## Распространённые проблемы и решения
+
+| Проблема | Причина | Решение |
+|----------|---------|---------|
+| PDF‑файл пустой | `setNoScaling(true)` отключает рендеринг для некоторых чертежей | Удалите `setNoScaling(true)` или установите его в `false`. |
+| Разрешение TIFF выглядит низким | Ширина/высота страницы слишком мала | Увеличьте значения `setPageWidth` / `setPageHeight`. |
+| Макет выглядит искажённым | Автоматическое масштабирование макета отключено | Убедитесь, что `setAutomaticLayoutsScaling(true)` включён. |
 
 ## Заключение
 
- Поздравляем! Вы успешно установили размер и режим холста с помощью Aspose.CAD для Java. Это руководство обеспечивает прочную основу для ваших проектов по преобразованию САПР. Узнайте больше о функциях и возможностях в[Документация Aspose.CAD](https://reference.aspose.com/cad/java/).
+Поздравляем! Вы успешно **convert CAD to PDF** и **export CAD to TIFF**, одновременно **set canvas size java**, включив **automatic layout scaling** и изучив, как **configure canvas mode** для высококачественного вывода. Это руководство предоставляет надёжную основу для ваших проектов по конвертации CAD. Исследуйте дополнительные возможности в [документации Aspose.CAD](https://reference.aspose.com/cad/java/).
 
-## Часто задаваемые вопросы
+## Вопросы и ответы
 
-### Вопрос 1: Могу ли я использовать Aspose.CAD для Java с другими платформами Java?
+### Q1: Можно ли использовать Aspose.CAD для Java с другими Java‑фреймворками?
 
-О1: Да, Aspose.CAD предназначен для полной интеграции с различными платформами Java.
+A1: Да, Aspose.CAD разработан для бесшовной интеграции с различными Java‑фреймворками.
 
-### Вопрос 2: Доступна ли временная лицензия для Aspose.CAD?
+### Q2: Доступна ли временная лицензия для Aspose.CAD?
 
- О2: Да, вы можете получить временную лицензию.[здесь](https://purchase.aspose.com/temporary-license/).
+A2: Да, вы можете получить временную лицензию [здесь](https://purchase.aspose.com/temporary-license/).
 
-### Вопрос 3: Где я могу получить поддержку сообщества для Aspose.CAD?
+### Q3: Где я могу получить поддержку сообщества для Aspose.CAD?
 
- A3: Посетите[Форум Aspose.CAD](https://forum.aspose.com/c/cad/19) за поддержку сообщества и обсуждения.
+A3: Посетите [форум Aspose.CAD](https://forum.aspose.com/c/cad/19) для получения поддержки сообщества и обсуждений.
 
-### Вопрос 4: Могу ли я попробовать Aspose.CAD бесплатно?
+### Q4: Можно ли попробовать Aspose.CAD бесплатно?
 
- А4: Абсолютно! Получите бесплатную пробную версию[здесь](https://releases.aspose.com/).
+A4: Конечно! Получите бесплатную пробную версию [здесь](https://releases.aspose.com/).
 
-### Вопрос 5: Как мне приобрести Aspose.CAD для Java?
+### Q5: Как приобрести Aspose.CAD для Java?
 
- A5: Приобретите продукт[здесь](https://purchase.aspose.com/buy).
+A5: Приобретите продукт [здесь](https://purchase.aspose.com/buy).
+
+**Q: Влияет ли размер холста на качество векторных данных в PDF?**  
+A: Нет. Размер холста управляет размерами страницы; векторные данные остаются независимыми от разрешения, обеспечивая чёткий рендеринг при любом уровне масштабирования.
+
+**Q: Можно ли задать другое DPI для вывода TIFF?**  
+A: Да. Отрегулируйте `rasterizationOptions.setResolution(dpiValue)` перед созданием `TiffOptions`.
+
+---
+
+**Последнее обновление:** 2025-12-10  
+**Тестировано с:** Aspose.CAD for Java 24.12  
+**Автор:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

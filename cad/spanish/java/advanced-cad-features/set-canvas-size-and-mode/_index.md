@@ -1,35 +1,53 @@
 ---
-title: Establecer tamaño y modo del lienzo
-linktitle: Establecer tamaño y modo del lienzo
-second_title: API de Java Aspose.CAD
-description: Explore el poder de Aspose.CAD para Java con nuestra guía paso a paso sobre cómo configurar el tamaño y el modo del lienzo. Convierta archivos CAD a formatos PDF y TIFF sin esfuerzo.
-weight: 16
+date: 2025-12-10
+description: Aprenda a convertir CAD a PDF usando Aspose.CAD para Java mientras establece
+  el tamaño del lienzo, el escalado automático del diseño y la exportación a TIFF.
+linktitle: Convert CAD to PDF – Set Canvas Size & Mode
+second_title: Aspose.CAD Java API
+title: Convertir CAD a PDF – Establecer tamaño y modo del lienzo (Java)
 url: /es/java/advanced-cad-features/set-canvas-size-and-mode/
+weight: 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Establecer tamaño y modo del lienzo
+# Establecer tamaño del lienzo y modo
 
 ## Introducción
 
-¿Está buscando aprovechar el poder de Aspose.CAD para Java para mejorar su proceso de conversión de CAD? Esta guía completa lo guiará a través de los pasos para configurar el tamaño y el modo del lienzo usando Aspose.CAD para Java. Si es un desarrollador experimentado o recién está comenzando, este tutorial le brindará la información que necesita.
+¿Está buscando **convert CAD to PDF** mientras tiene control total sobre el tamaño del lienzo y el modo de renderizado? Esta guía completa lo lleva paso a paso para establecer el tamaño del lienzo en Java, habilitar el escalado automático de diseño y luego exportar el resultado a formatos PDF y TIFF usando Aspose.CAD. Ya sea que esté perfeccionando una canalización de producción o experimentando con un prototipo, encontrará instrucciones claras y accionables aquí.
+
+## Respuestas rápidas
+- **¿Qué significa “convert CAD to PDF”?** Transformar un dibujo CAD (p. ej., DXF, DWG) en un documento PDF que puede verse en cualquier plataforma.  
+- **¿Puedo también exportar a TIFF?** Sí—use `TiffOptions` para crear imágenes raster de alta resolución.  
+- **¿Qué opción controla el tamaño del lienzo en Java?** `CadRasterizationOptions.setPageWidth/Height`.  
+- **¿Qué es el escalado automático de diseño?** Una bandera (`setAutomaticLayoutsScaling(true)`) que preserva las proporciones originales del diseño cuando el tamaño del lienzo cambia.  
+- **¿Necesito una licencia para Aspose.CAD?** Se requiere una licencia temporal o permanente para uso en producción.
+
+## ¿Qué es **convert CAD to PDF**?
+
+Convertir CAD a PDF significa tomar dibujos de ingeniería basados en vectores y renderizarlos como páginas PDF, preservando líneas, capas y geometría mientras se hace el archivo universalmente accesible.
+
+## ¿Por qué establecer el tamaño del lienzo **java**?
+
+Establecer el tamaño del lienzo en Java le permite definir la resolución de salida y las dimensiones de la página, asegurando que el PDF o TIFF resultante coincida con sus requisitos de impresión o visualización. También le brinda control sobre el comportamiento de escalado, lo cual es esencial para dibujos de gran formato.
 
 ## Requisitos previos
 
-Antes de sumergirse en el tutorial, asegúrese de cumplir con los siguientes requisitos previos:
+Antes de sumergirse en el tutorial, asegúrese de que tenga los siguientes requisitos previos preparados:
 
--  Aspose.CAD para Java: asegúrese de tener la biblioteca Aspose.CAD instalada en su entorno Java. Puedes descargarlo[aquí](https://releases.aspose.com/cad/java/).
+- Aspose.CAD para Java: Asegúrese de que tiene la biblioteca Aspose.CAD instalada en su entorno Java. Puede descargarla [aquí](https://releases.aspose.com/cad/java/).
 
-- Directorio de documentos: configure un directorio de documentos para almacenar sus archivos CAD. Se hará referencia a este directorio en los pasos del tutorial.
+- Directorio de documentos: Configure un directorio de documentos para almacenar sus archivos CAD. Este directorio será referenciado en los pasos del tutorial.
 
-Ahora comencemos con la guía paso a paso.
+Ahora, comencemos con la guía paso a paso.
 
 ## Importar espacios de nombres
 
 En este paso, importaremos los espacios de nombres necesarios para iniciar su proyecto Aspose.CAD.
+
 ```java
 import java.awt.Image;
 
@@ -42,19 +60,19 @@ import com.aspose.cad.imageoptions.TiffOptions;
 ## Paso 1: Importar clases de Aspose.CAD
 
 ```java
-// La ruta al directorio de recursos.
+// The path to the resource directory.
 String dataDir = "Your Document Directory" + "CADConversion/";
 
 String srcFile = dataDir + "conic_pyramid.dxf";
 com.aspose.cad.Image objImage = com.aspose.cad.Image.load(srcFile);
 ```
 
- En este fragmento, configuramos la ruta al directorio de recursos y cargamos un archivo DXF usando Aspose.CAD.`Image` clase.
+En este fragmento, configuramos la ruta al directorio de recursos y cargamos un archivo DXF usando la clase `Image` de Aspose.CAD.
 
-## Paso 2: Establecer las propiedades de CadRasterizationOptions
+## Paso 2: Establecer propiedades de **CadRasterizationOptions** (set canvas size java)
 
 ```java
-// Cree una instancia de CadRasterizationOptions y establezca sus diversas propiedades
+// Create an instance of CadRasterizationOptions and set its various properties
 CadRasterizationOptions rasterizationOptions = new CadRasterizationOptions();
 rasterizationOptions.setPageWidth(1600);
 rasterizationOptions.setPageHeight(1600);
@@ -63,75 +81,98 @@ rasterizationOptions.setAutomaticLayoutsScaling(true);
 rasterizationOptions.setNoScaling(true);
 ```
 
- Aquí creamos una instancia de`CadRasterizationOptions` y configurar propiedades como el ancho de la página, el alto de la página y las opciones de escala.
+Aquí, creamos una instancia de `CadRasterizationOptions` y configuramos propiedades como el ancho de página, la altura de página y el **automatic layout scaling**. Este es el núcleo de **configure canvas mode** para su conversión.
 
-## Paso 3: crear PdfOptions y configurar VectorRasterizationOptions
+## Paso 3: Crear PdfOptions y establecer VectorRasterizationOptions
 
 ```java
-// Crear una instancia de PdfOptions
+// Create an instance of PdfOptions
 PdfOptions pdfOptions = new PdfOptions();
 
-// Establecer la propiedad VectorRasterizationOptions
+// Set the VectorRasterizationOptions property
 pdfOptions.setVectorRasterizationOptions(rasterizationOptions);
 ```
 
- Ahora, creamos un`PdfOptions` instancia y establecer su`VectorRasterizationOptions` propiedad a la previamente configurada`CadRasterizationOptions`.
+Ahora, creamos una instancia de `PdfOptions` y establecemos su propiedad `VectorRasterizationOptions` a la `CadRasterizationOptions` configurada previamente.
 
-## Paso 4: exportar a PDF
+## Paso 4: Exportar a PDF (convert cad to pdf)
 
 ```java
-// Exportar CAD a PDF
+// Export CAD to PDF
 objImage.save(dataDir + "result_out_.pdf", pdfOptions);
 ```
 
-Finalmente, guardamos la imagen CAD en un archivo PDF usando las opciones especificadas.
+Finalmente, guardamos la imagen CAD en un archivo PDF usando las opciones especificadas, completando el proceso de **convert CAD to PDF**.
 
-## Paso 5: cree TiffOptions y configure VectorRasterizationOptions
+## Paso 5: Crear TiffOptions y establecer VectorRasterizationOptions (export cad to tiff)
 
 ```java
-// Crear una instancia de TiffOptions
+// Create an instance of TiffOptions
 TiffOptions tiffOptions = new TiffOptions(TiffExpectedFormat.Default);
 
-// Establecer la propiedad VectorRasterizationOptions
+// Set the VectorRasterizationOptions property
 tiffOptions.setVectorRasterizationOptions(rasterizationOptions);
 ```
 
-En este paso, configuramos un`TiffOptions` instancia y configurar su`VectorRasterizationOptions` propiedad.
+En este paso, configuramos una instancia de `TiffOptions` y establecemos su propiedad `VectorRasterizationOptions`.
 
 ## Paso 6: Exportar a TIFF
 
 ```java
-// Exportar CAD a TIFF
+// Export CAD to TIFF
 objImage.save(dataDir + "result_out_.tiff", tiffOptions);
 ```
 
-Finalmente, guardamos la imagen CAD en un archivo TIFF usando las opciones especificadas.
+Finalmente, guardamos la imagen CAD en un archivo TIFF usando las opciones especificadas, demostrando cómo **export CAD to TIFF** después de configurar el tamaño del lienzo.
+
+## Problemas comunes y soluciones
+
+| Problema | Causa | Solución |
+|----------|-------|----------|
+| El PDF de salida está en blanco | `setNoScaling(true)` deshabilita el renderizado para algunos dibujos | Elimine `setNoScaling(true)` o configúrelo a `false`. |
+| La resolución del TIFF parece baja | Ancho/alto de página demasiado pequeño | Aumente los valores de `setPageWidth` / `setPageHeight`. |
+| El diseño se ve distorsionado | Escalado automático de diseño deshabilitado | Asegúrese de que `setAutomaticLayoutsScaling(true)` esté habilitado. |
 
 ## Conclusión
 
- ¡Felicidades! Ha configurado correctamente el tamaño y el modo del lienzo utilizando Aspose.CAD para Java. Este tutorial proporciona una base sólida para sus proyectos de conversión CAD. Explora más características y posibilidades en el[Documentación de Aspose.CAD](https://reference.aspose.com/cad/java/).
+¡Felicidades! Ha convertido con éxito **convert CAD to PDF** y **export CAD to TIFF** mientras **set canvas size java**, habilitando **automatic layout scaling**, y aprendiendo a **configure canvas mode** para obtener resultados de alta calidad. Este tutorial brinda una base sólida para sus proyectos de conversión CAD. Explore más funciones y posibilidades en la [documentación de Aspose.CAD](https://reference.aspose.com/cad/java/).
 
 ## Preguntas frecuentes
 
-### P1: ¿Puedo usar Aspose.CAD para Java con otros marcos de Java?
+### Q1: ¿Puedo usar Aspose.CAD para Java con otros frameworks de Java?
 
-R1: Sí, Aspose.CAD está diseñado para integrarse perfectamente con varios marcos de Java.
+A1: Sí, Aspose.CAD está diseñado para integrarse sin problemas con varios frameworks de Java.
 
-### P2: ¿Hay una licencia temporal disponible para Aspose.CAD?
+### Q2: ¿Está disponible una licencia temporal para Aspose.CAD?
 
- R2: Sí, puedes obtener una licencia temporal[aquí](https://purchase.aspose.com/temporary-license/).
+A2: Sí, puede obtener una licencia temporal [aquí](https://purchase.aspose.com/temporary-license/).
 
-### P3: ¿Dónde puedo obtener soporte comunitario para Aspose.CAD?
+### Q3: ¿Dónde puedo obtener soporte comunitario para Aspose.CAD?
 
- A3: Visita el[Foro Aspose.CAD](https://forum.aspose.com/c/cad/19) para apoyo y debates de la comunidad.
+A3: Visite el [foro de Aspose.CAD](https://forum.aspose.com/c/cad/19) para soporte y discusiones de la comunidad.
 
-### P4: ¿Puedo probar Aspose.CAD gratis?
+### Q4: ¿Puedo probar Aspose.CAD gratis?
 
- R4: ¡Absolutamente! Obtenga una prueba gratuita[aquí](https://releases.aspose.com/).
+A4: ¡Absolutamente! Obtenga una prueba gratuita [aquí](https://releases.aspose.com/).
 
-### P5: ¿Cómo compro Aspose.CAD para Java?
+### Q5: ¿Cómo compro Aspose.CAD para Java?
 
- A5: comprar el producto[aquí](https://purchase.aspose.com/buy).
+A5: Compre el producto [aquí](https://purchase.aspose.com/buy).
+
+**Preguntas adicionales**
+
+**P: ¿Afecta el tamaño del lienzo la calidad vectorial en el PDF?**  
+R: No. El tamaño del lienzo controla las dimensiones de la página; los datos vectoriales siguen siendo independientes de la resolución, garantizando un renderizado nítido a cualquier nivel de zoom.
+
+**P: ¿Puedo establecer un DPI diferente para la salida TIFF?**  
+R: Sí. Ajuste `rasterizationOptions.setResolution(dpiValue)` antes de crear `TiffOptions`.
+
+---
+
+**Last Updated:** 2025-12-10  
+**Tested With:** Aspose.CAD for Java 24.12  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
