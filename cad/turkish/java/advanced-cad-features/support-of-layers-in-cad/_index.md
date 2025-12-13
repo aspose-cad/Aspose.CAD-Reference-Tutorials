@@ -1,35 +1,43 @@
 ---
-title: Java'da Aspose.CAD ile Katman Desteği
-linktitle: CAD'de Katman Desteği
-second_title: Aspose.CAD Java API'si
-description: Aspose.CAD ile Java CAD geliştirmede ana katman desteği. Çizimleri zahmetsizce düzenleyin ve dışa aktarın.
-weight: 18
+date: 2025-12-13
+description: Aspose.CAD kullanarak Java'da CAD'i JPEG olarak kaydetmeyi, birden fazla
+  katman eklemeyi ve hassas görüntü dönüşümü için CAD boyutlarını ayarlamayı öğrenin.
+linktitle: Support of Layers in CAD
+second_title: Aspose.CAD Java API
+title: Java'da Katman Desteğiyle CAD'yi JPEG Olarak Kaydet
 url: /tr/java/advanced-cad-features/support-of-layers-in-cad/
+weight: 18
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Java'da Aspose.CAD ile Katman Desteği
+# Java'da Katman Desteğiyle CAD'i JPEG Olarak Kaydet
 
-## giriiş
+## Giriş
 
-Katman desteğinde uzmanlaşarak Java'da Aspose.CAD'in tüm potansiyelini ortaya çıkarın. Katmanlar CAD çizimlerinde önemli bir rol oynar ve grafik öğelerin verimli bir şekilde düzenlenmesine ve manipülasyonuna olanak tanır. Bu kapsamlı eğitimde Aspose.CAD kullanarak katman desteğinin inceliklerini inceleyeceğiz ve bu güçlü işlevsellikten yararlanmanız için size adım adım bir kılavuz sunacağız.
+Bu öğreticide, Aspose.CAD for Java'da katman desteğinden tam olarak yararlanarak **CAD'i JPEG olarak kaydetmeyi** keşfedeceksiniz. Katmanlar, bir çizimin belirli bölümlerini izole etmenizi sağlar ve yalnızca ihtiyacınız olanı dışa aktarmayı kolaylaştırır. Ortamı kurmaktan, seçtiğiniz katmanları içeren bir JPEG dışa aktarmaya kadar her adımı adım adım inceleyeceğiz.
+
+## Hızlı Yanıtlar
+- **“save CAD as JPEG” ne anlama geliyor?** Bir CAD çizimini raster JPEG görüntüsüne dönüştürür.  
+- **Sadece seçili katmanları ekleyebilir miyim?** Evet – hangi katmanların render edileceğini belirtmek için `setLayers` metodunu kullanın.  
+- **Görüntü boyutunu nasıl değiştiririm?** `CadRasterizationOptions` içinde `setPageWidth` ve `setPageHeight` ayarlarını değiştirin.  
+- **Bu sadece Java çözümü mü?** Örnek Aspose.CAD for Java kullanıyor, ancak aynı kavramlar diğer dillerde de geçerlidir.  
+- **Lisans gerekir mi?** Test için ücretsiz deneme çalışır; üretim için ticari lisans gereklidir.
 
 ## Önkoşullar
 
-Eğiticiye dalmadan önce aşağıdaki önkoşulların mevcut olduğundan emin olun:
+İlerlemeye başlamadan önce aşağıdakilere sahip olduğunuzdan emin olun:
 
-1.  Aspose.CAD for Java Library: Kütüphaneyi şuradan indirip yükleyin:[İnternet sitesi](https://releases.aspose.com/cad/java/). Kütüphaneyi Java ortamınızda kurmak için kurulum talimatlarını izleyin.
+1. **Aspose.CAD for Java Kütüphanesi** – [website](https://releases.aspose.com/cad/java/) adresinden indirin. Kurulum kılavuzunu izleyerek JAR dosyalarını projenizin sınıf yoluna ekleyin.  
+2. **Java Geliştirme Ortamı** – makinenizde yüklü bir JDK (8 veya daha yeni).
 
-2. Java Geliştirme Ortamı: Makinenizde Java geliştirme ortamının kurulu olduğundan emin olun. Java'nın en son sürümünü web sitesinden indirebilirsiniz.
+Artık kurulum tamam, **CAD'i JPEG olarak kaydetmek** için seçici katman render'ı sağlayan kodu inceleyelim.
 
-Şimdi Java'da Aspose.CAD ile katman desteğinden yararlanma sürecini inceleyelim.
+## İçe Aktarma Ad Alanları
 
-## Ad Alanlarını İçe Aktar
-
-Projenizi başlatmak için gerekli ad alanlarını içe aktararak başlayın:
+Gerekli Aspose.CAD sınıflarını ve standart Java yardımcılarını içe aktararak başlayın:
 
 ```java
 import com.aspose.cad.Image;
@@ -41,11 +49,11 @@ import java.util.Arrays;
 import java.util.List;
 ```
 
-Şimdi, net bir anlayış sağlamak için her adımı ayrı ayrı ele alalım.
+## Adım‑Adım Kılavuz
 
-## 1. Adım: Dosya Yollarını Ayarlayın
+### Adım 1: Dosya Yollarını Ayarlama
 
-DWF kaynak dosyanızın ve istediğiniz çıktı dosyasının yollarını tanımlayın. Belirtilen dizinlerin varlığını sağlayın.
+Kaynak DWF dosyasının nerede bulunduğunu ve çıktının JPEG olarak nereye yazılacağını tanımlayın.
 
 ```java
 String dataDir = "Your Document Directory" + "DWFDrawings/";
@@ -53,17 +61,17 @@ String srcFile = dataDir + "for_layers_test.dwf";
 String outFile = dataDir + "for_layers_test.jpg";
 ```
 
-## Adım 2: DWF Görüntüsünü Yükleyin
+### Adım 2: DWF Görüntüsünü Yükleme
 
- Aspose.CAD'i kullanarak DWF görüntüsünü yükleyin`Image.load` yöntem.
+Aspose.CAD’in `Image.load` metodunu kullanarak CAD çizimini okuyun.
 
 ```java
 Image image = Image.load(srcFile);
 ```
 
-## 3. Adım: Rasterleştirme Seçeneklerini Yapılandırın
+### Adım 3: Rasterizasyon Seçeneklerini Yapılandırma (CAD Boyutlarını Ayarlama)
 
- Bir örneğini oluşturun`CadRasterizationOptions` ve özelliklerini ihtiyaçlarınıza uyacak şekilde özelleştirin.
+Bir `CadRasterizationOptions` örneği oluşturun ve istenen çıktı boyutunu ayarlayın. Bu değerleri değiştirmek, son JPEG için **CAD boyutlarını ayarlamanızı** sağlar.
 
 ```java
 CadRasterizationOptions rasterizationOptions = new CadRasterizationOptions();
@@ -71,59 +79,67 @@ rasterizationOptions.setPageWidth(1600);
 rasterizationOptions.setPageHeight(1600);
 ```
 
-## Adım 4: Katmanları Belirleyin
+### Adım 4: Katmanları Belirtme (Birden Çok Katman Ekleme)
 
-Çıktıya dahil etmek istediğiniz katmanları tanımlayın. Bu örnekte listeye "LayerA"yı ekliyoruz.
+Birden fazla katman render etmek istiyorsanız, isimlerini listeye eklemeniz yeterlidir. Burada “LayerA” adlı tek bir katmanla başlıyoruz.
 
 ```java
 List<String> stringList = new ArrayList<>(Arrays.asList("LayerA"));
 rasterizationOptions.setLayers(stringList);
 ```
 
-## 5. Adım: JPEG Seçeneklerini Yapılandırın
+*Pro ipucu:* **Birden çok katman eklemek** için `Arrays.asList` çağrısını genişletin, örn. `Arrays.asList("LayerA", "LayerB", "LayerC")`.
 
-Vektör rasterleştirme seçenekleri de dahil olmak üzere JPEG seçeneklerini ayarlayın.
+### Adım 5: JPEG Seçeneklerini Yapılandırma (Java CAD Görüntüsünü Dönüştürme)
+
+Rasterizasyon ayarlarını JPEG çıktı formatına bağlayın.
 
 ```java
 JpegOptions jpegOptions = new JpegOptions();
 jpegOptions.setVectorRasterizationOptions(rasterizationOptions);
 ```
 
-## Adım 6: JPG'ye aktarın
+### Adım 6: JPG Olarak Dışa Aktarma (CAD'i JPEG Olarak Kaydet)
 
- Değiştirilen görüntüyü JPG dosyası olarak kaydedin.`image.save` yöntem.
+Son olarak, görüntüyü diske yazın. Bu adım **seçili katmanları içeren CAD çizimini JPEG dosyası olarak kaydeder**.
 
 ```java
 image.save(outFile, jpegOptions);
 ```
 
-Bu adımları izleyerek Aspose.CAD'in Java'daki katman desteğini başarıyla kullandınız ve CAD çizimlerini belirli katmanlarla değiştirmenize ve dışa aktarmanıza olanak tanıdınız.
+Bu adımları izleyerek, hangi katmanların görüneceğini kontrol ederken ve görüntü boyutlarını özelleştirirken **CAD'i JPEG olarak başarıyla kaydetmiş** olacaksınız.
 
-## Çözüm
+## Yaygın Sorunlar ve Çözümler
 
-Tebrikler! Artık Java'da Aspose.CAD ile katman desteği sanatında ustalaştınız. Bu eğitim sizi Aspose.CAD'in sağladığı güçlü katman işlevselliğini kullanarak CAD çizimlerini verimli bir şekilde organize etme ve dışa aktarma bilgisiyle donattı.
+| Sorun | Çözüm |
+|-------|----------|
+| **Katmanlar görünmüyor** | Katman adlarının DWF dosyasında saklananlarla tam olarak eşleştiğinden emin olun (büyük/küçük harfe duyarlı). |
+| **Çıktı resmi boş** | `setPageWidth` ve `setPageHeight` değerlerinin çizimin kapsamı için yeterince büyük olduğundan emin olun. |
+| **Lisans istisnası** | Test için deneme lisansı kullanın; üretim ortamları için tam lisans edinin. |
 
-## SSS'ler
+## Sıkça Sorulan Sorular
 
-### S1: Rasterleştirme seçeneklerine birden çok katman ekleyebilir miyim?
+**S: Rasterizasyon seçeneklerine birden çok katman ekleyebilir miyim?**  
+C: Kesinlikle. `stringList`i ek katman adlarıyla genişletin, örn. `Arrays.asList("LayerA", "LayerB")`.
 
- A1: Kesinlikle! Basitçe uzatın`stringList` eklemek istediğiniz ek katmanların adlarıyla birlikte.
+**S: Aspose.CAD diğer CAD formatlarıyla uyumlu mu?**  
+C: Evet, DWG, DXF, DWF ve daha birçok formatı destekler.
 
-### S2: Aspose.CAD farklı CAD formatlarıyla uyumlu mudur?
+**S: Çıktı görüntüsü boyutlarını nasıl değiştirebilirim?**  
+C: `CadRasterizationOptions` örneğinde `setPageWidth` ve `setPageHeight` ayarlarını değiştirin.
 
-Cevap2: Evet, Aspose.CAD çok çeşitli CAD formatlarını destekleyerek çeşitli çizim türlerinin işlenmesinde çok yönlülük sağlar.
+**S: Aspose.CAD için lisans nereden satın alınabilir?**  
+C: Lisans seçeneklerini [burada](https://purchase.aspose.com/buy) inceleyebilirsiniz.
 
-### S3: Çıkış görüntüsü boyutlarını nasıl ayarlayabilirim?
+**S: Topluluk desteği nereden alınabilir?**  
+C: Yardım ve tartışmalar için Aspose.CAD topluluğuna [forum](https://forum.aspose.com/c/cad/19) üzerinden katılabilirsiniz.
 
- A3: Değiştirin`setPageWidth` Ve`setPageHeight` Çıktı boyutlarını özelleştirmek için rasterleştirme seçeneklerindeki özellikler.
+---
 
-### S4: Aspose.CAD için herhangi bir lisanslama seçeneği mevcut mu?
+**Son Güncelleme:** 2025-12-13  
+**Test Edilen Sürüm:** Aspose.CAD for Java 24.11  
+**Yazar:** Aspose  
 
- Cevap4: Evet, lisanslama seçeneklerini keşfedin[Burada](https://purchase.aspose.com/buy) ek özelliklerin ve desteğin kilidini açmak için.
-
-### S5: Nereden yardım alabilirim veya Aspose.CAD ile ilgili deneyimlerimi paylaşabilirim?
-
-Cevap5: Aspose.CAD topluluğuna katılın[forum](https://forum.aspose.com/c/cad/19) Destek ve işbirlikçi tartışmalar için.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

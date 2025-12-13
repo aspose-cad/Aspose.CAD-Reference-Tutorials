@@ -1,35 +1,44 @@
 ---
-title: Prise en charge des calques avec Aspose.CAD en Java
-linktitle: Prise en charge des calques en CAO
-second_title: API Java Aspose.CAD
-description: Prise en charge de la couche principale dans le développement Java CAD avec Aspose.CAD. Organisez et exportez des dessins sans effort.
-weight: 18
+date: 2025-12-13
+description: Apprenez à enregistrer un fichier CAD au format JPEG en Java avec Aspose.CAD,
+  à ajouter plusieurs calques et à ajuster les dimensions du CAD pour une conversion
+  d'image précise.
+linktitle: Support of Layers in CAD
+second_title: Aspose.CAD Java API
+title: Enregistrer le CAD au format JPEG avec prise en charge des calques en Java
 url: /fr/java/advanced-cad-features/support-of-layers-in-cad/
+weight: 18
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Prise en charge des calques avec Aspose.CAD en Java
+# Enregistrer CAD en JPEG avec prise en charge des calques en Java
 
 ## Introduction
 
-Libérez tout le potentiel d’Aspose.CAD en Java en maîtrisant le support des calques. Les calques jouent un rôle crucial dans les dessins CAO, permettant une organisation et une manipulation efficaces des éléments graphiques. Dans ce didacticiel complet, nous aborderons les subtilités de la prise en charge des calques à l'aide d'Aspose.CAD, en vous fournissant un guide étape par étape pour exploiter cette puissante fonctionnalité.
+Dans ce tutoriel, vous découvrirez comment **enregistrer CAD en JPEG** tout en tirant pleinement parti de la prise en charge des calques dans Aspose.CAD for Java. Les calques vous permettent d’isoler des parties spécifiques d’un dessin, facilitant ainsi l’exportation uniquement de ce dont vous avez besoin. Nous parcourrons chaque étape, de la configuration de l’environnement à l’exportation d’un JPEG contenant uniquement les calques que vous choisissez.
 
-## Conditions préalables
+## Quick Answers
+- **Que signifie « enregistrer CAD en JPEG » ?** Cela convertit un dessin CAD en une image raster JPEG.  
+- **Puis‑je n’inclure que des calques sélectionnés ?** Oui – utilisez la méthode `setLayers` pour spécifier les calques à rendre.  
+- **Comment modifier la taille de l’image ?** Ajustez `setPageWidth` et `setPageHeight` dans `CadRasterizationOptions`.  
+- **S’agit‑il d’une solution uniquement Java ?** L’exemple utilise Aspose.CAD for Java, mais les mêmes concepts s’appliquent à d’autres langages.  
+- **Ai‑je besoin d’une licence ?** Un essai gratuit suffit pour les tests ; une licence commerciale est requise pour la production.
 
-Avant de plonger dans le didacticiel, assurez-vous que les conditions préalables suivantes sont remplies :
+## Prerequisites
 
-1.  Bibliothèque Aspose.CAD pour Java : téléchargez et installez la bibliothèque à partir du[site web](https://releases.aspose.com/cad/java/). Suivez les instructions d'installation pour configurer la bibliothèque dans votre environnement Java.
+Avant de commencer, assurez‑vous de disposer de ce qui suit :
 
-2. Environnement de développement Java : assurez-vous qu'un environnement de développement Java est installé sur votre ordinateur. Vous pouvez télécharger la dernière version de Java sur le site Web.
+1. **Aspose.CAD for Java Library** – téléchargez‑la depuis le [website](https://releases.aspose.com/cad/java/). Suivez le guide d’installation pour ajouter les fichiers JAR à votre classpath.  
+2. **Java Development Environment** – un JDK récent (8 ou supérieur) installé sur votre machine.
 
-Explorons maintenant le processus d'exploitation de la prise en charge des calques avec Aspose.CAD en Java.
+Maintenant que tout est prêt, explorons le code nécessaire pour **enregistrer CAD en JPEG** avec un rendu sélectif des calques.
 
-## Importer des espaces de noms
+## Import Namespaces
 
-Commencez par importer les espaces de noms nécessaires pour démarrer votre projet :
+Commencez par importer les classes Aspose.CAD requises ainsi que les utilitaires Java standards :
 
 ```java
 import com.aspose.cad.Image;
@@ -41,11 +50,11 @@ import java.util.Arrays;
 import java.util.List;
 ```
 
-Maintenant, décomposons chaque étape pour garantir une compréhension claire.
+## Step‑by‑Step Guide
 
-## Étape 1 : Configurer les chemins de fichiers
+### Step 1: Set Up File Paths
 
-Définissez les chemins de votre fichier source DWF et du fichier de sortie souhaité. Assurer l'existence des répertoires spécifiés.
+Définissez l’emplacement du fichier DWF source et celui où le JPEG de sortie sera écrit.
 
 ```java
 String dataDir = "Your Document Directory" + "DWFDrawings/";
@@ -53,17 +62,17 @@ String srcFile = dataDir + "for_layers_test.dwf";
 String outFile = dataDir + "for_layers_test.jpg";
 ```
 
-## Étape 2 : Charger l'image DWF
+### Step 2: Load the DWF Image
 
- Chargez l'image DWF à l'aide d'Aspose.CAD`Image.load` méthode.
+Utilisez la méthode `Image.load` d’Aspose.CAD pour lire le dessin CAD.
 
 ```java
 Image image = Image.load(srcFile);
 ```
 
-## Étape 3 : configurer les options de rastérisation
+### Step 3: Configure Rasterization Options (Adjust CAD Dimensions)
 
- Créer une instance de`CadRasterizationOptions` et personnalisez ses propriétés en fonction de vos besoins.
+Créez une instance de `CadRasterizationOptions` et définissez la taille de sortie souhaitée. Modifier ces valeurs vous permet de **ajuster les dimensions du CAD** pour le JPEG final.
 
 ```java
 CadRasterizationOptions rasterizationOptions = new CadRasterizationOptions();
@@ -71,59 +80,67 @@ rasterizationOptions.setPageWidth(1600);
 rasterizationOptions.setPageHeight(1600);
 ```
 
-## Étape 4 : Spécifier les calques
+### Step 4: Specify Layers (Add Multiple Layers)
 
-Définissez les couches que vous souhaitez inclure dans la sortie. Dans cet exemple, nous ajoutons « LayerA » à la liste.
+Si vous souhaitez rendre plusieurs calques, ajoutez simplement leurs noms à la liste. Ici, nous commençons avec un seul calque nommé « LayerA ».
 
 ```java
 List<String> stringList = new ArrayList<>(Arrays.asList("LayerA"));
 rasterizationOptions.setLayers(stringList);
 ```
 
-## Étape 5 : Configurer les options JPEG
+*Pro tip :* Pour **ajouter plusieurs calques**, développez l’appel `Arrays.asList`, par ex., `Arrays.asList("LayerA", "LayerB", "LayerC")`.
 
-Configurez les options JPEG, y compris les options de rastérisation vectorielle.
+### Step 5: Configure JPEG Options (Java Convert CAD Image)
+
+Liez les paramètres de rasterisation au format de sortie JPEG.
 
 ```java
 JpegOptions jpegOptions = new JpegOptions();
 jpegOptions.setVectorRasterizationOptions(rasterizationOptions);
 ```
 
-## Étape 6 : Exporter au format JPG
+### Step 6: Export to JPG (Save CAD as JPEG)
 
- Enregistrez l'image modifiée sous forme de fichier JPG à l'aide du`image.save` méthode.
+Enfin, écrivez l’image sur le disque. Cette étape **enregistre le dessin CAD en tant que fichier JPEG** contenant uniquement les calques sélectionnés.
 
 ```java
 image.save(outFile, jpegOptions);
 ```
 
-En suivant ces étapes, vous avez réussi à exploiter la prise en charge des calques d'Aspose.CAD en Java, vous permettant de manipuler et d'exporter des dessins CAO avec des calques spécifiques.
+En suivant ces étapes, vous avez réussi à **enregistrer CAD en JPEG** tout en contrôlant les calques affichés et en personnalisant les dimensions de l’image.
 
-## Conclusion
+## Common Issues and Solutions
 
-Toutes nos félicitations! Vous maîtrisez désormais l'art de la prise en charge des calques avec Aspose.CAD en Java. Ce didacticiel vous a doté des connaissances nécessaires pour organiser et exporter efficacement des dessins CAO en tirant parti de la puissante fonctionnalité de calque fournie par Aspose.CAD.
+| Issue | Solution |
+|-------|----------|
+| **Layers not appearing** | Vérifiez que les noms des calques correspondent exactement à ceux stockés dans le fichier DWF (sensible à la casse). |
+| **Output image is blank** | Assurez‑vous que `setPageWidth` et `setPageHeight` sont suffisamment grands pour couvrir l’étendue du dessin. |
+| **License exception** | Utilisez une licence d’essai pour les tests ; obtenez une licence complète pour les environnements de production. |
 
-## FAQ
+## Frequently Asked Questions
 
-### Q1 : Puis-je ajouter plusieurs calques aux options de rastérisation ?
+**Q : Puis‑je ajouter plusieurs calques aux options de rasterisation ?**  
+R : Absolument. Étendez la `stringList` avec d’autres noms de calques, par ex., `Arrays.asList("LayerA", "LayerB")`.
 
- A1 : Certainement ! Prolongez simplement le`stringList` avec les noms des calques supplémentaires que vous souhaitez inclure.
+**Q : Aspose.CAD est‑il compatible avec d’autres formats CAD ?**  
+R : Oui, il prend en charge DWG, DXF, DWF et de nombreux autres formats.
 
-### Q2 : Aspose.CAD est-il compatible avec différents formats de CAO ?
+**Q : Comment puis‑je modifier les dimensions de l’image de sortie ?**  
+R : Modifiez `setPageWidth` et `setPageHeight` dans l’instance `CadRasterizationOptions`.
 
-A2 : Oui, Aspose.CAD prend en charge une large gamme de formats de CAO, garantissant une polyvalence dans la gestion de différents types de dessins.
+**Q : Où puis‑je acheter une licence pour Aspose.CAD ?**  
+R : Vous pouvez explorer les options de licence [here](https://purchase.aspose.com/buy).
 
-### Q3 : Comment puis-je ajuster les dimensions de l’image de sortie ?
+**Q : Où puis‑je obtenir du support communautaire ?**  
+R : Rejoignez la communauté Aspose.CAD sur le [forum](https://forum.aspose.com/c/cad/19) pour obtenir de l’aide et participer aux discussions.
 
- A3 : Modifier le`setPageWidth` et`setPageHeight` propriétés dans les options de rastérisation pour personnaliser les dimensions de sortie.
+---
 
-### Q4 : Existe-t-il des options de licence disponibles pour Aspose.CAD ?
+**Dernière mise à jour :** 2025-12-13  
+**Testé avec :** Aspose.CAD for Java 24.11  
+**Auteur :** Aspose  
 
- A4 : Oui, explorez les options de licence[ici](https://purchase.aspose.com/buy) pour débloquer des fonctionnalités et une assistance supplémentaires.
-
-### Q5 : Où puis-je demander de l'aide ou partager mes expériences avec Aspose.CAD ?
-
-A5 : Rejoignez la communauté Aspose.CAD sur le[forum](https://forum.aspose.com/c/cad/19) pour du soutien et des discussions collaboratives.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

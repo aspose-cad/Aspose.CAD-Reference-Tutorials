@@ -1,35 +1,44 @@
 ---
-title: Unterstützung von Ebenen mit Aspose.CAD in Java
-linktitle: Unterstützung von Ebenen im CAD
+date: 2025-12-13
+description: Erfahren Sie, wie Sie CAD in Java mit Aspose.CAD als JPEG speichern,
+  mehrere Ebenen hinzufügen und die CAD‑Abmessungen für eine präzise Bildkonvertierung
+  anpassen.
+linktitle: Support of Layers in CAD
 second_title: Aspose.CAD Java API
-description: Master-Layer-Unterstützung in der Java-CAD-Entwicklung mit Aspose.CAD. Zeichnungen mühelos organisieren und exportieren.
-weight: 18
+title: CAD als JPEG mit Ebenenunterstützung in Java speichern
 url: /de/java/advanced-cad-features/support-of-layers-in-cad/
+weight: 18
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Unterstützung von Ebenen mit Aspose.CAD in Java
+# CAD als JPEG mit Ebenenunterstützung in Java speichern
 
 ## Einführung
 
-Schöpfen Sie das volle Potenzial von Aspose.CAD in Java aus, indem Sie die Unterstützung von Ebenen beherrschen. Ebenen spielen in CAD-Zeichnungen eine entscheidende Rolle und ermöglichen eine effiziente Organisation und Bearbeitung grafischer Elemente. In diesem umfassenden Tutorial befassen wir uns mit den Feinheiten der Ebenenunterstützung mit Aspose.CAD und geben Ihnen eine Schritt-für-Schritt-Anleitung zur Nutzung dieser leistungsstarken Funktionalität.
+In diesem Tutorial erfahren Sie, wie Sie **CAD als JPEG** speichern, während Sie die Ebenenunterstützung von Aspose.CAD für Java voll ausnutzen. Ebenen ermöglichen es, bestimmte Teile einer Zeichnung zu isolieren, sodass Sie nur das exportieren können, was Sie benötigen. Wir führen Sie Schritt für Schritt durch, von der Einrichtung der Umgebung bis zum Export eines JPEGs, das genau die von Ihnen ausgewählten Ebenen enthält.
+
+## Schnelle Antworten
+- **Was bedeutet „CAD als JPEG speichern“?** Es konvertiert eine CAD‑Zeichnung in ein Raster‑JPEG‑Bild.
+- **Kann ich nur ausgewählte Ebenen einbeziehen?** Ja – verwenden Sie die Methode `setLayers`, um anzugeben, welche Ebenen gerendert werden sollen.
+- **Wie ändere ich die Bildgröße?** Passen Sie `setPageWidth` und `setPageHeight` in `CadRasterizationOptions` an.
+- **Ist dies eine rein Java‑Lösung?** Das Beispiel verwendet Aspose.CAD für Java, aber dieselben Konzepte gelten auch für andere Sprachen.
+- **Benötige ich eine Lizenz?** Eine kostenlose Testversion funktioniert für Tests; für den Produktionseinsatz ist eine kommerzielle Lizenz erforderlich.
 
 ## Voraussetzungen
 
-Bevor Sie mit dem Tutorial beginnen, stellen Sie sicher, dass die folgenden Voraussetzungen erfüllt sind:
+Bevor Sie beginnen, stellen Sie sicher, dass Sie Folgendes haben:
 
-1.  Aspose.CAD für Java-Bibliothek: Laden Sie die Bibliothek von herunter und installieren Sie sie[Webseite](https://releases.aspose.com/cad/java/). Befolgen Sie die Installationsanweisungen, um die Bibliothek in Ihrer Java-Umgebung einzurichten.
+1. **Aspose.CAD for Java Bibliothek** – laden Sie sie von der [Website](https://releases.aspose.com/cad/java/) herunter. Befolgen Sie die Installationsanleitung, um die JAR‑Dateien zu Ihrem Projekt‑Klassenpfad hinzuzufügen.  
+2. **Java-Entwicklungsumgebung** – ein aktuelles JDK (Version 8 oder neuer) auf Ihrem Rechner installiert.
 
-2. Java-Entwicklungsumgebung: Stellen Sie sicher, dass auf Ihrem Computer eine Java-Entwicklungsumgebung installiert ist. Sie können die neueste Version von Java von der Website herunterladen.
-
-Lassen Sie uns nun den Prozess der Nutzung der Ebenenunterstützung mit Aspose.CAD in Java untersuchen.
+Jetzt, wo wir eingerichtet sind, schauen wir uns den Code an, der nötig ist, um **CAD als JPEG** mit selektiver Ebenen‑Renderung zu speichern.
 
 ## Namespaces importieren
 
-Beginnen Sie mit dem Importieren der erforderlichen Namespaces, um Ihr Projekt anzukurbeln:
+Beginnen Sie mit dem Import der erforderlichen Aspose.CAD‑Klassen und Standard‑Java‑Hilfsmittel:
 
 ```java
 import com.aspose.cad.Image;
@@ -41,11 +50,11 @@ import java.util.Arrays;
 import java.util.List;
 ```
 
-Lassen Sie uns nun jeden Schritt aufschlüsseln, um ein klares Verständnis zu gewährleisten.
+## Schritt‑für‑Schritt‑Anleitung
 
-## Schritt 1: Dateipfade einrichten
+### Schritt 1: Dateipfade festlegen
 
-Definieren Sie die Pfade für Ihre DWF-Quelldatei und die gewünschte Ausgabedatei. Stellen Sie sicher, dass die angegebenen Verzeichnisse vorhanden sind.
+Definieren Sie, wo die Quell‑DWF‑Datei liegt und wohin das Ausgabe‑JPEG geschrieben wird.
 
 ```java
 String dataDir = "Your Document Directory" + "DWFDrawings/";
@@ -53,17 +62,17 @@ String srcFile = dataDir + "for_layers_test.dwf";
 String outFile = dataDir + "for_layers_test.jpg";
 ```
 
-## Schritt 2: DWF-Bild laden
+### Schritt 2: DWF‑Bild laden
 
- Laden Sie das DWF-Bild mit Aspose.CAD`Image.load` Methode.
+Verwenden Sie die Methode `Image.load` von Aspose.CAD, um die CAD‑Zeichnung zu lesen.
 
 ```java
 Image image = Image.load(srcFile);
 ```
 
-## Schritt 3: Rasterisierungsoptionen konfigurieren
+### Schritt 3: Rasterisierungsoptionen konfigurieren (CAD‑Abmessungen anpassen)
 
- Erstellen Sie eine Instanz von`CadRasterizationOptions` und passen Sie die Eigenschaften an Ihre Bedürfnisse an.
+Erstellen Sie eine Instanz von `CadRasterizationOptions` und legen Sie die gewünschte Ausgabengröße fest. Durch Ändern dieser Werte können Sie die **CAD‑Abmessungen** für das endgültige JPEG anpassen.
 
 ```java
 CadRasterizationOptions rasterizationOptions = new CadRasterizationOptions();
@@ -71,59 +80,67 @@ rasterizationOptions.setPageWidth(1600);
 rasterizationOptions.setPageHeight(1600);
 ```
 
-## Schritt 4: Ebenen angeben
+### Schritt 4: Ebenen angeben (Mehrere Ebenen hinzufügen)
 
-Definieren Sie die Ebenen, die Sie in die Ausgabe einbeziehen möchten. In diesem Beispiel fügen wir „LayerA“ zur Liste hinzu.
+Wenn Sie mehr als eine Ebene rendern möchten, fügen Sie einfach deren Namen zur Liste hinzu. Hier beginnen wir mit einer einzelnen Ebene namens „LayerA“.
 
 ```java
 List<String> stringList = new ArrayList<>(Arrays.asList("LayerA"));
 rasterizationOptions.setLayers(stringList);
 ```
 
-## Schritt 5: JPEG-Optionen konfigurieren
+*Pro‑Tipp:* Um **mehrere Ebenen hinzuzufügen**, erweitern Sie den Aufruf `Arrays.asList`, z. B. `Arrays.asList("LayerA", "LayerB", "LayerC")`.
 
-Richten Sie JPEG-Optionen ein, einschließlich Vektor-Rasterisierungsoptionen.
+### Schritt 5: JPEG‑Optionen konfigurieren (Java CAD‑Bild konvertieren)
+
+Verknüpfen Sie die Rasterisierungseinstellungen mit dem JPEG‑Ausgabeformat.
 
 ```java
 JpegOptions jpegOptions = new JpegOptions();
 jpegOptions.setVectorRasterizationOptions(rasterizationOptions);
 ```
 
-## Schritt 6: Als JPG exportieren
+### Schritt 6: Export nach JPG (CAD als JPEG speichern)
 
- Speichern Sie das geänderte Bild als JPG-Datei mit`image.save` Methode.
+Schließlich schreiben Sie das Bild auf die Festplatte. Dieser Schritt **speichert die CAD‑Zeichnung als JPEG**‑Datei, die nur die ausgewählten Ebenen enthält.
 
 ```java
 image.save(outFile, jpegOptions);
 ```
 
-Wenn Sie diese Schritte befolgen, haben Sie die Ebenenunterstützung von Aspose.CAD in Java erfolgreich genutzt, sodass Sie CAD-Zeichnungen mit bestimmten Ebenen bearbeiten und exportieren können.
+Durch Befolgen dieser Schritte haben Sie erfolgreich **CAD als JPEG** gespeichert, wobei Sie steuern, welche Ebenen angezeigt werden, und die Bildabmessungen anpassen.
 
-## Abschluss
+## Häufige Probleme und Lösungen
 
-Glückwunsch! Sie beherrschen jetzt die Kunst der Ebenenunterstützung mit Aspose.CAD in Java. Dieses Tutorial vermittelt Ihnen das Wissen, CAD-Zeichnungen effizient zu organisieren und zu exportieren, indem Sie die leistungsstarke Layer-Funktionalität von Aspose.CAD nutzen.
+| Problem | Lösung |
+|-------|----------|
+| **Ebenen werden nicht angezeigt** | Stellen Sie sicher, dass die Ebenennamen exakt mit denen in der DWF‑Datei übereinstimmen (Groß‑/Kleinschreibung beachten). |
+| **Ausgabebild ist leer** | Vergewissern Sie sich, dass `setPageWidth` und `setPageHeight` groß genug für die Ausmaße der Zeichnung sind. |
+| **Lizenzausnahme** | Verwenden Sie eine Testlizenz für Tests; erhalten Sie eine Voll‑Lizenz für Produktionsumgebungen. |
 
-## FAQs
+## Häufig gestellte Fragen
 
-### F1: Kann ich den Rasterisierungsoptionen mehrere Ebenen hinzufügen?
+**F: Kann ich mehrere Ebenen zu den Rasterisierungsoptionen hinzufügen?**  
+A: Natürlich. Erweitern Sie die `stringList` um zusätzliche Ebenennamen, z. B. `Arrays.asList("LayerA", "LayerB")`.
 
- A1: Auf jeden Fall! Verlängern Sie einfach die`stringList` mit den Namen der zusätzlichen Ebenen, die Sie einschließen möchten.
+**F: Ist Aspose.CAD mit anderen CAD‑Formaten kompatibel?**  
+A: Ja, es unterstützt DWG, DXF, DWF und viele weitere Formate.
 
-### F2: Ist Aspose.CAD mit verschiedenen CAD-Formaten kompatibel?
+**F: Wie kann ich die Bildabmessungen der Ausgabe ändern?**  
+A: Ändern Sie `setPageWidth` und `setPageHeight` in der Instanz von `CadRasterizationOptions`.
 
-A2: Ja, Aspose.CAD unterstützt eine Vielzahl von CAD-Formaten und gewährleistet so Vielseitigkeit bei der Handhabung verschiedener Arten von Zeichnungen.
+**F: Wo kann ich eine Lizenz für Aspose.CAD erwerben?**  
+A: Sie können Lizenzoptionen [hier](https://purchase.aspose.com/buy) einsehen.
 
-### F3: Wie kann ich die Abmessungen des Ausgabebilds anpassen?
+**F: Wo finde ich Community‑Support?**  
+A: Treten Sie der Aspose.CAD‑Community im [Forum](https://forum.aspose.com/c/cad/19) bei, um Hilfe und Diskussionen zu erhalten.
 
- A3: Ändern Sie die`setPageWidth` Und`setPageHeight` Eigenschaften in den Rasterisierungsoptionen, um die Ausgabeabmessungen anzupassen.
+---
 
-### F4: Gibt es Lizenzoptionen für Aspose.CAD?
+**Zuletzt aktualisiert:** 2025-12-13  
+**Getestet mit:** Aspose.CAD für Java 24.11  
+**Autor:** Aspose  
 
- A4: Ja, prüfen Sie die Lizenzoptionen[Hier](https://purchase.aspose.com/buy) um zusätzliche Funktionen und Support freizuschalten.
-
-### F5: Wo kann ich Hilfe suchen oder meine Erfahrungen mit Aspose.CAD teilen?
-
-A5: Treten Sie der Aspose.CAD-Community bei[Forum](https://forum.aspose.com/c/cad/19) für Unterstützung und gemeinsame Diskussionen.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

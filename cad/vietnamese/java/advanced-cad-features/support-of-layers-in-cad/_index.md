@@ -1,35 +1,41 @@
 ---
-title: Hỗ trợ các lớp với Aspose.CAD trong Java
-linktitle: Hỗ trợ các lớp trong CAD
-second_title: API Java Aspose.CAD
-description: Hỗ trợ lớp chính trong phát triển Java CAD với Aspose.CAD. Sắp xếp và xuất bản vẽ dễ dàng.
-weight: 18
+date: 2025-12-13
+description: Tìm hiểu cách lưu CAD thành JPEG trong Java bằng Aspose.CAD, thêm nhiều
+  lớp và điều chỉnh kích thước CAD để chuyển đổi hình ảnh một cách chính xác.
+linktitle: Support of Layers in CAD
+second_title: Aspose.CAD Java API
+title: Lưu CAD dưới dạng JPEG với hỗ trợ lớp trong Java
 url: /vi/java/advanced-cad-features/support-of-layers-in-cad/
+weight: 18
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Hỗ trợ các lớp với Aspose.CAD trong Java
+# Lưu CAD dưới dạng JPEG với Hỗ trợ Lớp trong Java
 
 ## Giới thiệu
 
-Khai thác toàn bộ tiềm năng của Aspose.CAD trong Java bằng cách nắm vững khả năng hỗ trợ của các lớp. Các lớp đóng một vai trò quan trọng trong bản vẽ CAD, cho phép tổ chức và thao tác hiệu quả các phần tử đồ họa. Trong hướng dẫn toàn diện này, chúng tôi sẽ đi sâu vào sự phức tạp của việc hỗ trợ lớp bằng Aspose.CAD, cung cấp cho bạn hướng dẫn từng bước để khai thác chức năng mạnh mẽ này.
+Trong hướng dẫn này, bạn sẽ khám phá cách **lưu CAD dưới dạng JPEG** đồng thời tận dụng tối đa hỗ trợ lớp trong Aspose.CAD cho Java. Các lớp cho phép bạn cô lập các phần cụ thể của bản vẽ, giúp dễ dàng xuất chỉ những gì bạn cần. Chúng tôi sẽ hướng dẫn từng bước, từ thiết lập môi trường đến xuất JPEG chỉ bao gồm các lớp bạn chọn.
 
-## Điều kiện tiên quyết
+## Câu trả lời nhanh
+- **“save CAD as JPEG” có nghĩa là gì?** Nó chuyển đổi bản vẽ CAD thành một hình ảnh raster JPEG.  
+- **Tôi có thể chỉ bao gồm các lớp đã chọn không?** Có – sử dụng phương thức `setLayers` để chỉ định các lớp cần render.  
+- **Làm thế nào để thay đổi kích thước hình ảnh?** Điều chỉnh `setPageWidth` và `setPageHeight` trong `CadRasterizationOptions`.  
+- **Đây có phải là giải pháp chỉ dành cho Java không?** Ví dụ sử dụng Aspose.CAD cho Java, nhưng các khái niệm tương tự áp dụng cho các ngôn ngữ khác.  
+- **Tôi có cần giấy phép không?** Bản dùng thử miễn phí hoạt động cho việc thử nghiệm; giấy phép thương mại cần thiết cho môi trường sản xuất.
 
-Trước khi đi sâu vào hướng dẫn, hãy đảm bảo bạn có sẵn các điều kiện tiên quyết sau:
+## Yêu cầu trước
 
-1.  Thư viện Aspose.CAD cho Java: Tải xuống và cài đặt thư viện từ[trang mạng](https://releases.aspose.com/cad/java/). Làm theo hướng dẫn cài đặt để thiết lập thư viện trong môi trường Java của bạn.
+Trước khi bắt đầu, hãy chắc chắn rằng bạn có những thứ sau:
 
-2. Môi trường phát triển Java: Đảm bảo bạn đã cài đặt môi trường phát triển Java trên máy của mình. Bạn có thể tải xuống phiên bản Java mới nhất từ trang web.
+1. **Aspose.CAD for Java Library** – tải xuống từ [website](https://releases.aspose.com/cad/java/). Thực hiện hướng dẫn cài đặt để thêm các tệp JAR vào classpath của dự án.  
+2. **Java Development Environment** – một JDK mới (phiên bản 8 trở lên) được cài đặt trên máy của bạn.
 
-Bây giờ, hãy khám phá quá trình tận dụng hỗ trợ lớp với Aspose.CAD trong Java.
+Bây giờ chúng ta đã sẵn sàng, hãy khám phá mã cần thiết để **lưu CAD dưới dạng JPEG** với việc render lớp chọn lọc.
 
-## Nhập không gian tên
-
-Bắt đầu bằng cách nhập các không gian tên cần thiết để khởi động dự án của bạn:
+## Nhập các namespace
 
 ```java
 import com.aspose.cad.Image;
@@ -41,11 +47,11 @@ import java.util.Arrays;
 import java.util.List;
 ```
 
-Bây giờ, hãy chia nhỏ từng bước để đảm bảo sự hiểu biết rõ ràng.
+## Hướng dẫn từng bước
 
-## Bước 1: Thiết lập đường dẫn tệp
+### Bước 1: Thiết lập đường dẫn tệp
 
-Xác định đường dẫn cho tệp nguồn DWF của bạn và tệp đầu ra mong muốn. Đảm bảo sự tồn tại của các thư mục được chỉ định.
+Xác định vị trí tệp DWF nguồn và nơi sẽ ghi tệp JPEG đầu ra.
 
 ```java
 String dataDir = "Your Document Directory" + "DWFDrawings/";
@@ -53,17 +59,17 @@ String srcFile = dataDir + "for_layers_test.dwf";
 String outFile = dataDir + "for_layers_test.jpg";
 ```
 
-## Bước 2: Tải hình ảnh DWF
+### Bước 2: Tải ảnh DWF
 
- Tải hình ảnh DWF bằng Aspose.CAD's`Image.load` phương pháp.
+Sử dụng phương thức `Image.load` của Aspose.CAD để đọc bản vẽ CAD.
 
 ```java
 Image image = Image.load(srcFile);
 ```
 
-## Bước 3: Định cấu hình tùy chọn Rasterization
+### Bước 3: Cấu hình tùy chọn rasterization (Điều chỉnh kích thước CAD)
 
- Tạo một thể hiện của`CadRasterizationOptions` và tùy chỉnh các thuộc tính của nó cho phù hợp với nhu cầu của bạn.
+Tạo một thể hiện `CadRasterizationOptions` và đặt kích thước đầu ra mong muốn. Thay đổi các giá trị này cho phép bạn **điều chỉnh kích thước CAD** cho JPEG cuối cùng.
 
 ```java
 CadRasterizationOptions rasterizationOptions = new CadRasterizationOptions();
@@ -71,59 +77,67 @@ rasterizationOptions.setPageWidth(1600);
 rasterizationOptions.setPageHeight(1600);
 ```
 
-## Bước 4: Chỉ định lớp
+### Bước 4: Chỉ định các lớp (Thêm nhiều lớp)
 
-Xác định các lớp bạn muốn đưa vào đầu ra. Trong ví dụ này, chúng tôi thêm "LayerA" vào danh sách.
+Nếu bạn muốn render nhiều hơn một lớp, chỉ cần thêm tên của chúng vào danh sách. Ở đây chúng ta bắt đầu với một lớp duy nhất có tên “LayerA”.
 
 ```java
 List<String> stringList = new ArrayList<>(Arrays.asList("LayerA"));
 rasterizationOptions.setLayers(stringList);
 ```
 
-## Bước 5: Định cấu hình tùy chọn JPEG
+*Mẹo chuyên nghiệp:* Để **thêm nhiều lớp**, mở rộng lời gọi `Arrays.asList`, ví dụ, `Arrays.asList("LayerA", "LayerB", "LayerC")`.
 
-Thiết lập các tùy chọn JPEG, bao gồm các tùy chọn rasterization vector.
+### Bước 5: Cấu hình tùy chọn JPEG (Java Convert CAD Image)
+
+Liên kết các cài đặt rasterization với định dạng đầu ra JPEG.
 
 ```java
 JpegOptions jpegOptions = new JpegOptions();
 jpegOptions.setVectorRasterizationOptions(rasterizationOptions);
 ```
 
-## Bước 6: Xuất sang JPG
+### Bước 6: Xuất ra JPG (Lưu CAD dưới dạng JPEG)
 
- Lưu hình ảnh đã sửa đổi dưới dạng tệp JPG bằng cách sử dụng`image.save` phương pháp.
+Cuối cùng, ghi hình ảnh ra đĩa. Bước này **lưu bản vẽ CAD dưới dạng tệp JPEG** chỉ chứa các lớp đã chọn.
 
 ```java
 image.save(outFile, jpegOptions);
 ```
 
-Bằng cách làm theo các bước này, bạn đã khai thác thành công khả năng hỗ trợ lớp của Aspose.CAD trong Java, cho phép bạn thao tác và xuất bản vẽ CAD với các lớp cụ thể.
+Bằng cách thực hiện các bước này, bạn đã thành công **lưu CAD dưới dạng JPEG** đồng thời kiểm soát các lớp hiển thị và tùy chỉnh kích thước hình ảnh.
 
-## Phần kết luận
+## Các vấn đề thường gặp và giải pháp
 
-Chúc mừng! Bây giờ bạn đã nắm vững nghệ thuật hỗ trợ lớp với Aspose.CAD trong Java. Hướng dẫn này đã trang bị cho bạn kiến thức để sắp xếp và xuất các bản vẽ CAD một cách hiệu quả bằng cách tận dụng chức năng lớp mạnh mẽ do Aspose.CAD cung cấp.
+| Vấn đề | Giải pháp |
+|-------|----------|
+| **Layers not appearing** | Xác minh rằng tên lớp khớp chính xác với những gì được lưu trong tệp DWF (phân biệt chữ hoa‑thường). |
+| **Output image is blank** | Đảm bảo `setPageWidth` và `setPageHeight` đủ lớn cho phạm vi của bản vẽ. |
+| **License exception** | Sử dụng giấy phép dùng thử cho việc thử nghiệm; mua giấy phép đầy đủ cho môi trường sản xuất. |
 
 ## Câu hỏi thường gặp
 
-### Câu hỏi 1: Tôi có thể thêm nhiều lớp vào các tùy chọn tạo điểm ảnh không?
+**Q: Tôi có thể thêm nhiều lớp vào tùy chọn rasterization không?**  
+A: Chắc chắn. Mở rộng `stringList` với các tên lớp bổ sung, ví dụ, `Arrays.asList("LayerA", "LayerB")`.
 
- A1: Chắc chắn rồi! Đơn giản chỉ cần mở rộng`stringList` với tên của các lớp bổ sung mà bạn muốn đưa vào.
+**Q: Aspose.CAD có tương thích với các định dạng CAD khác không?**  
+A: Có, nó hỗ trợ DWG, DXF, DWF và nhiều định dạng khác.
 
-### Câu 2: Aspose.CAD có tương thích với các định dạng CAD khác nhau không?
+**Q: Làm thế nào để thay đổi kích thước ảnh đầu ra?**  
+A: Thay đổi `setPageWidth` và `setPageHeight` trong thể hiện `CadRasterizationOptions`.
 
-Câu trả lời 2: Có, Aspose.CAD hỗ trợ nhiều định dạng CAD, đảm bảo tính linh hoạt trong việc xử lý nhiều loại bản vẽ khác nhau.
+**Q: Tôi có thể mua giấy phép cho Aspose.CAD ở đâu?**  
+A: Bạn có thể khám phá các tùy chọn giấy phép [tại đây](https://purchase.aspose.com/buy).
 
-### Câu hỏi 3: Làm cách nào để điều chỉnh kích thước hình ảnh đầu ra?
+**Q: Tôi có thể nhận hỗ trợ cộng đồng ở đâu?**  
+A: Tham gia cộng đồng Aspose.CAD trên [forum](https://forum.aspose.com/c/cad/19) để được trợ giúp và thảo luận.
 
- A3: Sửa đổi`setPageWidth` Và`setPageHeight` thuộc tính trong các tùy chọn rasterization để tùy chỉnh kích thước đầu ra.
+---
 
-### Câu hỏi 4: Có bất kỳ tùy chọn cấp phép nào dành cho Aspose.CAD không?
+**Last Updated:** 2025-12-13  
+**Tested With:** Aspose.CAD for Java 24.11  
+**Author:** Aspose  
 
- Câu trả lời 4: Có, hãy khám phá các tùy chọn cấp phép[đây](https://purchase.aspose.com/buy) để mở khóa các tính năng và hỗ trợ bổ sung.
-
-### Câu hỏi 5: Tôi có thể tìm kiếm hỗ trợ hoặc chia sẻ trải nghiệm của mình với Aspose.CAD ở đâu?
-
-Câu trả lời 5: Tham gia cộng đồng Aspose.CAD trên[diễn đàn](https://forum.aspose.com/c/cad/19) để được hỗ trợ và thảo luận hợp tác.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

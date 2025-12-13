@@ -1,35 +1,43 @@
 ---
-title: Supporto di livelli con Aspose.CAD in Java
-linktitle: Supporto di livelli in CAD
-second_title: API Java Aspose.CAD
-description: Supporto del livello master nello sviluppo CAD Java con Aspose.CAD. Organizza ed esporta i disegni senza sforzo.
-weight: 18
+date: 2025-12-13
+description: Scopri come salvare i file CAD in JPEG in Java usando Aspose.CAD, aggiungere
+  più livelli e regolare le dimensioni del CAD per una conversione precisa dell'immagine.
+linktitle: Support of Layers in CAD
+second_title: Aspose.CAD Java API
+title: Salva CAD in JPEG con supporto dei layer in Java
 url: /it/java/advanced-cad-features/support-of-layers-in-cad/
+weight: 18
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Supporto di livelli con Aspose.CAD in Java
+# Salva CAD come JPEG con supporto dei layer in Java
 
-## introduzione
+## Introduzione
 
-Sblocca tutto il potenziale di Aspose.CAD in Java padroneggiando il supporto dei livelli. I livelli svolgono un ruolo cruciale nei disegni CAD, consentendo un'organizzazione e una manipolazione efficienti degli elementi grafici. In questo tutorial completo, approfondiremo le complessità del supporto dei livelli utilizzando Aspose.CAD, fornendoti una guida passo passo per sfruttare questa potente funzionalità.
+In questo tutorial scoprirai come **salvare CAD come JPEG** sfruttando appieno il supporto dei layer in Aspose.CAD per Java. I layer ti permettono di isolare parti specifiche di un disegno, rendendo facile esportare solo ciò di cui hai bisogno. Ti guideremo passo passo, dalla configurazione dell'ambiente all'esportazione di un JPEG che includa solo i layer che scegli.
+
+## Risposte rapide
+- **Cosa significa “save CAD as JPEG”?** Converte un disegno CAD in un'immagine raster JPEG.
+- **Posso includere solo i layer selezionati?** Sì – usa il metodo `setLayers` per specificare quali layer renderizzare.
+- **Come faccio a cambiare le dimensioni dell'immagine?** Regola `setPageWidth` e `setPageHeight` in `CadRasterizationOptions`.
+- **È una soluzione solo per Java?** L'esempio utilizza Aspose.CAD per Java, ma gli stessi concetti si applicano ad altri linguaggi.
+- **Ho bisogno di una licenza?** Una prova gratuita funziona per i test; è necessaria una licenza commerciale per la produzione.
 
 ## Prerequisiti
 
-Prima di immergerti nel tutorial, assicurati di disporre dei seguenti prerequisiti:
+Prima di iniziare, assicurati di avere quanto segue:
 
-1.  Aspose.CAD per Java Library: scarica e installa la libreria da[sito web](https://releases.aspose.com/cad/java/). Segui le istruzioni di installazione per configurare la libreria nel tuo ambiente Java.
+1. **Libreria Aspose.CAD per Java** – scaricala dal [sito web](https://releases.aspose.com/cad/java/). Segui la guida di installazione per aggiungere i file JAR al classpath del tuo progetto.  
+2. **Ambiente di sviluppo Java** – un JDK recente (8 o superiore) installato sulla tua macchina.
 
-2. Ambiente di sviluppo Java: assicurati di avere un ambiente di sviluppo Java installato sul tuo computer. È possibile scaricare l'ultima versione di Java dal sito Web.
+Ora che siamo pronti, esploriamo il codice necessario per **salvare CAD come JPEG** con rendering selettivo dei layer.
 
-Ora esploriamo il processo di sfruttamento del supporto dei livelli con Aspose.CAD in Java.
+## Importare gli spazi dei nomi
 
-## Importa spazi dei nomi
-
-Inizia importando gli spazi dei nomi necessari per avviare il tuo progetto:
+Inizia importando le classi Aspose.CAD necessarie e le utility standard di Java:
 
 ```java
 import com.aspose.cad.Image;
@@ -41,11 +49,11 @@ import java.util.Arrays;
 import java.util.List;
 ```
 
-Ora analizziamo ogni passaggio per garantire una chiara comprensione.
+## Guida passo‑passo
 
-## Passaggio 1: impostare i percorsi dei file
+### Passo 1: Configura i percorsi dei file
 
-Definire i percorsi per il file di origine DWF e il file di output desiderato. Garantire l'esistenza delle directory specificate.
+Definisci dove si trova il file DWF di origine e dove verrà scritto il JPEG di output.
 
 ```java
 String dataDir = "Your Document Directory" + "DWFDrawings/";
@@ -53,17 +61,17 @@ String srcFile = dataDir + "for_layers_test.dwf";
 String outFile = dataDir + "for_layers_test.jpg";
 ```
 
-## Passaggio 2: caricare l'immagine DWF
+### Passo 2: Carica l'immagine DWF
 
- Carica l'immagine DWF utilizzando Aspose.CAD`Image.load` metodo.
+Usa il metodo `Image.load` di Aspose.CAD per leggere il disegno CAD.
 
 ```java
 Image image = Image.load(srcFile);
 ```
 
-## Passaggio 3: configurare le opzioni di rasterizzazione
+### Passo 3: Configura le opzioni di rasterizzazione (Regola le dimensioni CAD)
 
- Crea un'istanza di`CadRasterizationOptions` e personalizza le sue proprietà in base alle tue esigenze.
+Crea un'istanza di `CadRasterizationOptions` e imposta la dimensione di output desiderata. Modificando questi valori puoi **regolare le dimensioni CAD** per il JPEG finale.
 
 ```java
 CadRasterizationOptions rasterizationOptions = new CadRasterizationOptions();
@@ -71,59 +79,67 @@ rasterizationOptions.setPageWidth(1600);
 rasterizationOptions.setPageHeight(1600);
 ```
 
-## Passaggio 4: specificare i livelli
+### Passo 4: Specifica i layer (Aggiungi più layer)
 
-Definisci i livelli che desideri includere nell'output. In questo esempio aggiungiamo "LayerA" all'elenco.
+Se desideri renderizzare più di un layer, aggiungi semplicemente i loro nomi alla lista. Qui iniziamo con un singolo layer chiamato “LayerA”.
 
 ```java
 List<String> stringList = new ArrayList<>(Arrays.asList("LayerA"));
 rasterizationOptions.setLayers(stringList);
 ```
 
-## Passaggio 5: configura le opzioni JPEG
+*Suggerimento:* Per **aggiungere più layer**, espandi la chiamata `Arrays.asList`, ad esempio `Arrays.asList("LayerA", "LayerB", "LayerC")`.
 
-Configura le opzioni JPEG, incluse le opzioni di rasterizzazione vettoriale.
+### Passo 5: Configura le opzioni JPEG (Conversione CAD in immagine Java)
+
+Collega le impostazioni di rasterizzazione al formato di output JPEG.
 
 ```java
 JpegOptions jpegOptions = new JpegOptions();
 jpegOptions.setVectorRasterizationOptions(rasterizationOptions);
 ```
 
-## Passaggio 6: esporta in JPG
+### Passo 6: Esporta in JPG (Salva CAD come JPEG)
 
- Salva l'immagine modificata come file JPG utilizzando il file`image.save` metodo.
+Infine, scrivi l'immagine su disco. Questo passo **salva il disegno CAD come file JPEG** contenente solo i layer selezionati.
 
 ```java
 image.save(outFile, jpegOptions);
 ```
 
-Seguendo questi passaggi, hai sfruttato con successo il supporto dei livelli di Aspose.CAD in Java, consentendoti di manipolare ed esportare disegni CAD con livelli specifici.
+Seguendo questi passaggi hai correttamente **salvato CAD come JPEG** controllando quali layer appaiono e personalizzando le dimensioni dell'immagine.
 
-## Conclusione
+## Problemi comuni e soluzioni
 
-Congratulazioni! Ora hai imparato l'arte del supporto dei livelli con Aspose.CAD in Java. Questo tutorial ti ha fornito le conoscenze per organizzare ed esportare in modo efficiente i disegni CAD sfruttando la potente funzionalità dei livelli fornita da Aspose.CAD.
+| Problema | Soluzione |
+|----------|-----------|
+| **Layer non visualizzati** | Verifica che i nomi dei layer corrispondano esattamente a quelli presenti nel file DWF (case‑sensitive). |
+| **L'immagine di output è vuota** | Assicurati che `setPageWidth` e `setPageHeight` siano sufficientemente grandi per le dimensioni del disegno. |
+| **Eccezione di licenza** | Usa una licenza di prova per i test; ottieni una licenza completa per gli ambienti di produzione. |
 
 ## Domande frequenti
 
-### Q1: Posso aggiungere più livelli alle opzioni di rasterizzazione?
+**D: Posso aggiungere più layer alle opzioni di rasterizzazione?**  
+R: Assolutamente. Estendi la `stringList` con nomi di layer aggiuntivi, ad esempio `Arrays.asList("LayerA", "LayerB")`.
 
- R1: Certamente! Estendi semplicemente il`stringList` con i nomi dei livelli aggiuntivi che desideri includere.
+**D: Aspose.CAD è compatibile con altri formati CAD?**  
+R: Sì, supporta DWG, DXF, DWF e molti altri formati.
 
-### Q2: Aspose.CAD è compatibile con diversi formati CAD?
+**D: Come posso cambiare le dimensioni dell'immagine di output?**  
+R: Modifica `setPageWidth` e `setPageHeight` nell'istanza `CadRasterizationOptions`.
 
-A2: Sì, Aspose.CAD supporta un'ampia gamma di formati CAD, garantendo versatilità nella gestione di vari tipi di disegni.
+**D: Dove posso acquistare una licenza per Aspose.CAD?**  
+R: Puoi esplorare le opzioni di licenza [qui](https://purchase.aspose.com/buy).
 
-### Q3: Come posso regolare le dimensioni dell'immagine di output?
+**D: Dove posso ottenere supporto dalla community?**  
+R: Unisciti alla community di Aspose.CAD sul [forum](https://forum.aspose.com/c/cad/19) per assistenza e discussioni.
 
- A3: Modifica il`setPageWidth` E`setPageHeight` proprietà nelle opzioni di rasterizzazione per personalizzare le dimensioni di output.
+---
 
-### Q4: Sono disponibili opzioni di licenza per Aspose.CAD?
+**Ultimo aggiornamento:** 2025-12-13  
+**Testato con:** Aspose.CAD for Java 24.11  
+**Autore:** Aspose  
 
- R4: Sì, esplora le opzioni di licenza[Qui](https://purchase.aspose.com/buy) per sbloccare funzionalità e supporto aggiuntivi.
-
-### Q5: Dove posso chiedere assistenza o condividere le mie esperienze con Aspose.CAD?
-
-A5: Unisciti alla comunità Aspose.CAD su[Forum](https://forum.aspose.com/c/cad/19) per supporto e discussioni collaborative.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

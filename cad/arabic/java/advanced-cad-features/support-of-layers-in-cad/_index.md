@@ -1,35 +1,43 @@
 ---
-title: دعم الطبقات باستخدام Aspose.CAD في Java
-linktitle: دعم الطبقات في CAD
-second_title: Aspose.CAD جافا API
-description: دعم الطبقة الرئيسية في تطوير Java CAD باستخدام Aspose.CAD. تنظيم وتصدير الرسومات دون عناء.
-weight: 18
+date: 2025-12-13
+description: تعلم كيفية حفظ ملفات CAD كـ JPEG في Java باستخدام Aspose.CAD، وإضافة
+  طبقات متعددة، وضبط أبعاد CAD لتحويل الصورة بدقة.
+linktitle: Support of Layers in CAD
+second_title: Aspose.CAD Java API
+title: حفظ CAD كـ JPEG مع دعم الطبقات في Java
 url: /ar/java/advanced-cad-features/support-of-layers-in-cad/
+weight: 18
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# دعم الطبقات باستخدام Aspose.CAD في Java
+# حفظ CAD كـ JPEG مع دعم الطبقات في Java
 
-## مقدمة
+## Introduction
 
-أطلق العنان للإمكانات الكاملة لـ Aspose.CAD في Java من خلال إتقان دعم الطبقات. تلعب الطبقات دورًا حاسمًا في رسومات CAD، مما يسمح بالتنظيم والتلاعب الفعالين بالعناصر الرسومية. في هذا البرنامج التعليمي الشامل، سوف نتعمق في تعقيدات دعم الطبقة باستخدام Aspose.CAD، مما يوفر لك دليلًا خطوة بخطوة للاستفادة من هذه الوظيفة القوية.
+في هذا الدرس ستكتشف كيفية **حفظ CAD كـ JPEG** مع الاستفادة الكاملة من دعم الطبقات في Aspose.CAD for Java. تسمح لك الطبقات بعزل أجزاء محددة من الرسم، مما يجعل من السهل تصدير ما تحتاجه فقط. سنستعرض كل خطوة، من إعداد البيئة إلى تصدير JPEG يتضمن فقط الطبقات التي تختارها.
 
-## المتطلبات الأساسية
+## Quick Answers
+- **ماذا يعني “حفظ CAD كـ JPEG”؟** يحول رسم CAD إلى صورة JPEG نقطية.
+- **هل يمكنني تضمين طبقات مختارة فقط؟** نعم – استخدم طريقة `setLayers` لتحديد الطبقات التي تريد عرضها.
+- **كيف يمكنني تغيير حجم الصورة؟** عدل `setPageWidth` و `setPageHeight` في `CadRasterizationOptions`.
+- **هل هذا حل مخصص لـ Java فقط؟** المثال يستخدم Aspose.CAD for Java، لكن المفاهيم نفسها تنطبق على لغات أخرى.
+- **هل أحتاج إلى ترخيص؟** النسخة التجريبية المجانية تعمل للاختبار؛ يلزم ترخيص تجاري للإنتاج.
 
-قبل الغوص في البرنامج التعليمي، تأكد من توفر المتطلبات الأساسية التالية:
+## Prerequisites
 
-1.  Aspose.CAD لمكتبة Java: قم بتنزيل المكتبة وتثبيتها من ملف[موقع إلكتروني](https://releases.aspose.com/cad/java/). اتبع تعليمات التثبيت لإعداد المكتبة في بيئة Java الخاصة بك.
+قبل البدء، تأكد من توفر ما يلي:
 
-2. بيئة تطوير Java: تأكد من تثبيت بيئة تطوير Java على جهازك. يمكنك تنزيل أحدث إصدار من Java من موقع الويب.
+1. **مكتبة Aspose.CAD for Java** – قم بتنزيلها من الـ[موقع](https://releases.aspose.com/cad/java/). اتبع دليل التثبيت لإضافة ملفات JAR إلى مسار الفئة (classpath) في مشروعك.  
+2. **بيئة تطوير Java** – JDK حديث (الإصدار 8 أو أحدث) مثبت على جهازك.
 
-الآن، دعنا نستكشف عملية الاستفادة من دعم الطبقة باستخدام Aspose.CAD في Java.
+الآن بعد أن تم إعداد كل شيء، دعنا نستكشف الكود اللازم **لحفظ CAD كـ JPEG** مع عرض الطبقات المختارة.
 
-## استيراد مساحات الأسماء
+## Import Namespaces
 
-ابدأ باستيراد مساحات الأسماء الضرورية لبدء مشروعك:
+ابدأ باستيراد الفئات المطلوبة من Aspose.CAD وأدوات Java القياسية:
 
 ```java
 import com.aspose.cad.Image;
@@ -41,11 +49,11 @@ import java.util.Arrays;
 import java.util.List;
 ```
 
-الآن، دعونا نقسم كل خطوة لضمان فهم واضح.
+## Step‑by‑Step Guide
 
-## الخطوة 1: إعداد مسارات الملفات
+### Step 1: Set Up File Paths
 
-حدد المسارات لملف مصدر DWF وملف الإخراج المطلوب. التأكد من وجود الدلائل المحددة.
+حدد موقع ملف DWF المصدر ومكان كتابة ملف JPEG الناتج.
 
 ```java
 String dataDir = "Your Document Directory" + "DWFDrawings/";
@@ -53,17 +61,17 @@ String srcFile = dataDir + "for_layers_test.dwf";
 String outFile = dataDir + "for_layers_test.jpg";
 ```
 
-## الخطوة 2: تحميل صورة DWF
+### Step 2: Load the DWF Image
 
- قم بتحميل صورة DWF باستخدام Aspose.CAD`Image.load` طريقة.
+استخدم طريقة `Image.load` من Aspose.CAD لقراءة رسم CAD.
 
 ```java
 Image image = Image.load(srcFile);
 ```
 
-## الخطوة 3: تكوين خيارات التنقيط
+### Step 3: Configure Rasterization Options (Adjust CAD Dimensions)
 
- إنشاء مثيل ل`CadRasterizationOptions` وتخصيص خصائصه لتناسب احتياجاتك.
+أنشئ كائن `CadRasterizationOptions` وحدد حجم الإخراج المطلوب. تغيير هذه القيم يتيح لك **ضبط أبعاد CAD** للصورة النهائية.
 
 ```java
 CadRasterizationOptions rasterizationOptions = new CadRasterizationOptions();
@@ -71,59 +79,67 @@ rasterizationOptions.setPageWidth(1600);
 rasterizationOptions.setPageHeight(1600);
 ```
 
-## الخطوة 4: تحديد الطبقات
+### Step 4: Specify Layers (Add Multiple Layers)
 
-حدد الطبقات التي تريد تضمينها في الإخراج. في هذا المثال، نضيف "LayerA" إلى القائمة.
+إذا كنت تريد عرض أكثر من طبقة، ببساطة أضف أسمائها إلى القائمة. هنا نبدأ بطبقة واحدة تسمى “LayerA”.
 
 ```java
 List<String> stringList = new ArrayList<>(Arrays.asList("LayerA"));
 rasterizationOptions.setLayers(stringList);
 ```
 
-## الخطوة 5: تكوين خيارات JPEG
+*نصيحة احترافية:* لإ **إضافة طبقات متعددة**، وسّع استدعاء `Arrays.asList`، مثال: `Arrays.asList("LayerA", "LayerB", "LayerC")`.
 
-قم بإعداد خيارات JPEG، بما في ذلك خيارات تنقيط المتجهات.
+### Step 5: Configure JPEG Options (Java Convert CAD Image)
+
+اربط إعدادات التحويل إلى تنسيق JPEG.
 
 ```java
 JpegOptions jpegOptions = new JpegOptions();
 jpegOptions.setVectorRasterizationOptions(rasterizationOptions);
 ```
 
-## الخطوة 6: التصدير إلى JPG
+### Step 6: Export to JPG (Save CAD as JPEG)
 
- احفظ الصورة المعدلة كملف JPG باستخدام ملف`image.save` طريقة.
+أخيرًا، اكتب الصورة إلى القرص. هذه الخطوة **تحفظ رسم CAD كملف JPEG** يحتوي فقط على الطبقات المختارة.
 
 ```java
 image.save(outFile, jpegOptions);
 ```
 
-باتباع هذه الخطوات، تكون قد نجحت في الاستفادة من دعم طبقة Aspose.CAD في Java، مما يسمح لك بمعالجة رسومات CAD وتصديرها باستخدام طبقات محددة.
+باتباع هذه الخطوات، تكون قد نجحت في **حفظ CAD كـ JPEG** مع التحكم في الطبقات الظاهرة وتخصيص أبعاد الصورة.
 
-## خاتمة
+## Common Issues and Solutions
 
-تهانينا! لقد أتقنت الآن فن دعم الطبقات باستخدام Aspose.CAD في Java. لقد زودك هذا البرنامج التعليمي بالمعرفة اللازمة لتنظيم وتصدير رسومات CAD بكفاءة من خلال الاستفادة من وظيفة الطبقة القوية التي يوفرها Aspose.CAD.
+| المشكلة | الحل |
+|-------|----------|
+| **الطبقات لا تظهر** | تأكد من أن أسماء الطبقات مطابقة تمامًا لما هو مخزن في ملف DWF (حساسة لحالة الأحرف). |
+| **الصورة الناتجة فارغة** | تأكد من أن `setPageWidth` و `setPageHeight` كافيان لتغطية أبعاد الرسم. |
+| **استثناء الترخيص** | استخدم ترخيص تجريبي للاختبار؛ احصل على ترخيص كامل لبيئات الإنتاج. |
 
-## الأسئلة الشائعة
+## Frequently Asked Questions
 
-### س1: هل يمكنني إضافة طبقات متعددة إلى خيارات التنقيط؟
+**س: هل يمكنني إضافة طبقات متعددة إلى خيارات التحويل؟**  
+ج: بالتأكيد. قم بتمديد `stringList` بأسماء طبقات إضافية، مثال: `Arrays.asList("LayerA", "LayerB")`.
 
- ج1: بالتأكيد! ببساطة قم بتوسيع`stringList` بأسماء الطبقات الإضافية التي تريد تضمينها.
+**س: هل Aspose.CAD متوافق مع صيغ CAD أخرى؟**  
+ج: نعم، يدعم DWG، DXF، DWF، والعديد من الصيغ الأخرى.
 
-### س2: هل Aspose.CAD متوافق مع تنسيقات CAD المختلفة؟
+**س: كيف يمكنني تغيير أبعاد الصورة الناتجة؟**  
+ج: عدل `setPageWidth` و `setPageHeight` في كائن `CadRasterizationOptions`.
 
-ج2: نعم، يدعم Aspose.CAD نطاقًا واسعًا من تنسيقات CAD، مما يضمن تعدد الاستخدامات في التعامل مع أنواع مختلفة من الرسومات.
+**س: أين يمكنني شراء ترخيص لـ Aspose.CAD؟**  
+ج: يمكنك استكشاف خيارات الترخيص [هنا](https://purchase.aspose.com/buy).
 
-### س3: كيف يمكنني ضبط أبعاد الصورة الناتجة؟
+**س: أين يمكنني الحصول على دعم المجتمع؟**  
+ج: انضم إلى مجتمع Aspose.CAD على الـ[منتدى](https://forum.aspose.com/c/cad/19) للحصول على المساعدة والنقاشات.
 
- ج3: تعديل`setPageWidth` و`setPageHeight` الخصائص في خيارات التنقيط لتخصيص أبعاد الإخراج.
+---
 
-### س4: هل هناك أي خيارات ترخيص متاحة لـ Aspose.CAD؟
+**آخر تحديث:** 2025-12-13  
+**تم الاختبار باستخدام:** Aspose.CAD for Java 24.11  
+**المؤلف:** Aspose  
 
- ج٤: نعم، استكشف خيارات الترخيص[هنا](https://purchase.aspose.com/buy) لفتح الميزات الإضافية والدعم.
-
-### س5: أين يمكنني طلب المساعدة أو مشاركة تجاربي مع Aspose.CAD؟
-
-ج5: انضم إلى مجتمع Aspose.CAD على[المنتدى](https://forum.aspose.com/c/cad/19) للحصول على الدعم والمناقشات التعاونية.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
