@@ -78,13 +78,6 @@ Entdecken Sie den Schritt‑für‑Schritt‑Leitfaden zum Export bestimmter DWG
 ### [DWT in DXF‑Format konvertieren mit Aspose.CAD für Java](./convert-dwt-to-dxf/)
 Entdecken Sie die nahtlose Konvertierung von DWT nach DXF mit Aspose.CAD für Java. Folgen Sie unserem Schritt‑für‑Schritt‑Leitfaden für eine effiziente CAD‑Dateimanipulation.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Häufig gestellte Fragen
 
 **Q: Wie exportiere ich eine DWG‑Datei nach PDF, ohne Ebeneninformationen zu verlieren?**  
@@ -107,3 +100,10 @@ A: Nein, die Aspose.CAD‑Lizenz deckt alle Ausgabeformate ab, einschließlich P
 **Zuletzt aktualisiert:** 2025-12-14  
 **Getestet mit:** Aspose.CAD for Java 24.12  
 **Autor:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
