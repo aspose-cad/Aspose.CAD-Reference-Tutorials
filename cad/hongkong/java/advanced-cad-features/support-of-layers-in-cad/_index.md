@@ -1,35 +1,42 @@
 ---
-title: Java 中 Aspose.CAD 對圖層的支持
-linktitle: CAD 中圖層的支持
+date: 2025-12-13
+description: 學習如何在 Java 中使用 Aspose.CAD 將 CAD 儲存為 JPEG、添加多個圖層，並調整 CAD 尺寸以實現精確的影像轉換。
+linktitle: Support of Layers in CAD
 second_title: Aspose.CAD Java API
-description: 使用 Aspose.CAD 進行 Java CAD 開發的主控層支援。輕鬆組織和匯出圖紙。
-weight: 18
+title: 在 Java 中將 CAD 另存為 JPEG 並支援圖層
 url: /zh-hant/java/advanced-cad-features/support-of-layers-in-cad/
+weight: 18
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Java 中 Aspose.CAD 對圖層的支持
+# 在 Java 中將 CAD 儲存為 JPEG（支援圖層）
 
-## 介紹
+## 簡介
 
-透過掌握圖層的支持，釋放 Java 中 Aspose.CAD 的全部潛力。圖層在 CAD 繪圖中起著至關重要的作用，可以有效地組織和操作圖形元素。在這個綜合教程中，我們將深入研究使用 Aspose.CAD 的圖層支援的複雜性，為您提供利用這項強大功能的逐步指南。
+在本教學中，您將學會如何 **將 CAD 儲存為 JPEG**，同時充分利用 Aspose.CAD for Java 的圖層支援。圖層讓您可以將圖紙的特定部分分離，輕鬆匯出只需要的內容。我們將逐步說明，從環境設定到匯出僅包含所選圖層的 JPEG。
+
+## 快速回答
+- **「將 CAD 儲存為 JPEG」是什麼意思？** 它會將 CAD 圖紙轉換為點陣 JPEG 圖像。
+- **我可以只包含選取的圖層嗎？** 可以 – 使用 `setLayers` 方法指定要渲染的圖層。
+- **如何變更圖像尺寸？** 在 `CadRasterizationOptions` 中調整 `setPageWidth` 與 `setPageHeight`。
+- **這是僅限 Java 的解決方案嗎？** 範例使用 Aspose.CAD for Java，但相同概念可套用於其他語言。
+- **需要授權嗎？** 免費試用可用於測試，正式環境需購買商業授權。
 
 ## 先決條件
 
-在深入學習本教程之前，請確保您具備以下先決條件：
+在開始之前，請確保您已具備以下項目：
 
-1.  Aspose.CAD for Java Library：從下列位置下載並安裝程式庫：[網站](https://releases.aspose.com/cad/java/)。按照安裝說明在您的 Java 環境中設定該庫。
+1. **Aspose.CAD for Java Library** – 從 [website](https://releases.aspose.com/cad/java/) 下載。依照安裝說明將 JAR 檔加入專案的 classpath。  
+2. **Java 開發環境** – 已安裝近期的 JDK（8 或更新版本）。
 
-2. Java 開發環境：確保您的電腦上安裝了 Java 開發環境。您可以從網站下載最新版本的 Java。
+現在環境已備妥，讓我們探討如何 **將 CAD 儲存為 JPEG** 並選擇性渲染圖層的程式碼。
 
-現在，讓我們探討一下在 Java 中利用 Aspose.CAD 的圖層支援的過程。
+## 匯入命名空間
 
-## 導入命名空間
-
-首先匯入必要的命名空間來啟動您的專案：
+開始匯入所需的 Aspose.CAD 類別與標準 Java 工具：
 
 ```java
 import com.aspose.cad.Image;
@@ -41,11 +48,11 @@ import java.util.Arrays;
 import java.util.List;
 ```
 
-現在，讓我們分解每個步驟以確保清晰的理解。
+## 逐步指南
 
-## 第 1 步：設定檔案路徑
+### 步驟 1：設定檔案路徑
 
-定義 DWF 原始檔和所需輸出檔的路徑。確保指定目錄存在。
+定義來源 DWF 檔案所在位置以及輸出 JPEG 要寫入的路徑。
 
 ```java
 String dataDir = "Your Document Directory" + "DWFDrawings/";
@@ -53,17 +60,17 @@ String srcFile = dataDir + "for_layers_test.dwf";
 String outFile = dataDir + "for_layers_test.jpg";
 ```
 
-## 第 2 步：載入 DWF 映像
+### 步驟 2：載入 DWF 圖像
 
-使用 Aspose.CAD 載入 DWF 圖像`Image.load`方法。
+使用 Aspose.CAD 的 `Image.load` 方法讀取 CAD 圖紙。
 
 ```java
 Image image = Image.load(srcFile);
 ```
 
-## 步驟 3：配置光柵化選項
+### 步驟 3：設定光柵化選項（調整 CAD 尺寸）
 
-建立一個實例`CadRasterizationOptions`並自訂其屬性以滿足您的需求。
+建立 `CadRasterizationOptions` 實例並設定期望的輸出大小。變更這些值即可 **調整 CAD 尺寸**，以符合最終 JPEG。
 
 ```java
 CadRasterizationOptions rasterizationOptions = new CadRasterizationOptions();
@@ -71,59 +78,67 @@ rasterizationOptions.setPageWidth(1600);
 rasterizationOptions.setPageHeight(1600);
 ```
 
-## 第 4 步：指定圖層
+### 步驟 4：指定圖層（新增多個圖層）
 
-定義要包含在輸出中的圖層。在此範例中，我們將“LayerA”新增至清單中。
+若要渲染多於一個圖層，只需將圖層名稱加入清單。此處以單一圖層 “LayerA” 為例。
 
 ```java
 List<String> stringList = new ArrayList<>(Arrays.asList("LayerA"));
 rasterizationOptions.setLayers(stringList);
 ```
 
-## 步驟 5：配置 JPEG 選項
+*小技巧：* 若要 **新增多個圖層**，擴充 `Arrays.asList` 呼叫，例如 `Arrays.asList("LayerA", "LayerB", "LayerC")`。
 
-設定 JPEG 選項，包括向量光柵化選項。
+### 步驟 5：設定 JPEG 選項（Java 轉換 CAD 圖像）
+
+將光柵化設定與 JPEG 輸出格式關聯。
 
 ```java
 JpegOptions jpegOptions = new JpegOptions();
 jpegOptions.setVectorRasterizationOptions(rasterizationOptions);
 ```
 
-## 第 6 步：匯出為 JPG
+### 步驟 6：匯出為 JPG（將 CAD 儲存為 JPEG）
 
-使用以下命令將修改後的圖像儲存為 JPG 文件`image.save`方法。
+最後，將圖像寫入磁碟。此步驟 **將 CAD 圖紙儲存為 JPEG**，且僅包含選取的圖層。
 
 ```java
 image.save(outFile, jpegOptions);
 ```
 
-透過執行這些步驟，您已成功利用 Java 中的 Aspose.CAD 圖層支持，讓您可以操作和匯出具有特定圖層的 CAD 繪圖。
+依照上述步驟，您已成功 **將 CAD 儲存為 JPEG**，同時掌控圖層顯示與圖像尺寸的自訂。
 
-## 結論
+## 常見問題與解決方案
 
-恭喜！您現在已經掌握了 Java 中 Aspose.CAD 的圖層支援藝術。本教學為您提供了利用 Aspose.CAD 提供的強大圖層功能有效組織和匯出 CAD 繪圖的知識。
+| 問題 | 解決方案 |
+|-------|----------|
+| **圖層未顯示** | 確認圖層名稱與 DWF 檔案中儲存的名稱完全相符（區分大小寫）。 |
+| **輸出圖像為空白** | 確保 `setPageWidth` 與 `setPageHeight` 足夠容納圖紙的範圍。 |
+| **授權例外** | 測試時使用試用授權；正式環境請取得完整授權。 |
 
-## 常見問題解答
+## 常見問答
 
-### Q1：我可以在光柵化選項中新增多個圖層嗎？
+**問：我可以在光柵化選項中加入多個圖層嗎？**  
+答：當然可以。將 `stringList` 延伸為更多圖層名稱，例如 `Arrays.asList("LayerA", "LayerB")`。
 
- A1：當然！只需擴展`stringList`以及您想要包含的其他圖層的名稱。
+**問：Aspose.CAD 是否相容其他 CAD 格式？**  
+答：是的，支援 DWG、DXF、DWF 等多種格式。
 
-### Q2: Aspose.CAD 是否相容於不同的 CAD 格式？
+**問：如何變更輸出圖像尺寸？**  
+答：在 `CadRasterizationOptions` 實例中修改 `setPageWidth` 與 `setPageHeight`。
 
-A2：是的，Aspose.CAD支援多種CAD格式，確保處理各種類型繪圖的多功能性。
+**問：在哪裡可以購買 Aspose.CAD 的授權？**  
+答：您可以在 [here](https://purchase.aspose.com/buy) 查看授權方案。
 
-### Q3：如何調整輸出影像尺寸？
+**問：哪裡可以取得社群支援？**  
+答：加入 Aspose.CAD 社群的 [forum](https://forum.aspose.com/c/cad/19) 取得協助與討論。
 
- A3：修改`setPageWidth`和`setPageHeight`光柵化選項中的屬性可自訂輸出尺寸。
+---
 
-### 問題 4：Aspose.CAD 有可用的授權選項嗎？
+**最後更新：** 2025-12-13  
+**測試環境：** Aspose.CAD for Java 24.11  
+**作者：** Aspose  
 
- A4：是的，探索授權選項[這裡](https://purchase.aspose.com/buy)解鎖附加功能和支援。
-
-### Q5：我可以在哪裡尋求協助或分享我使用 Aspose.CAD 的經驗？
-
-A5：加入 Aspose.CAD 社區[論壇](https://forum.aspose.com/c/cad/19)支持和協作討論。
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

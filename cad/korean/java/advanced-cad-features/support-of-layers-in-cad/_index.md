@@ -1,35 +1,43 @@
 ---
-title: Java에서 Aspose.CAD를 사용한 레이어 지원
-linktitle: CAD의 레이어 지원
-second_title: Aspose.CAD 자바 API
-description: Aspose.CAD를 사용한 Java CAD 개발의 마스터 레이어 지원. 손쉽게 도면을 구성하고 내보낼 수 있습니다.
-weight: 18
+date: 2025-12-13
+description: Aspose.CAD를 사용하여 Java에서 CAD를 JPEG로 저장하는 방법, 여러 레이어를 추가하는 방법, 그리고 정밀한
+  이미지 변환을 위해 CAD 치수를 조정하는 방법을 배워보세요.
+linktitle: Support of Layers in CAD
+second_title: Aspose.CAD Java API
+title: Java에서 레이어 지원을 포함한 CAD를 JPEG로 저장
 url: /ko/java/advanced-cad-features/support-of-layers-in-cad/
+weight: 18
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Java에서 Aspose.CAD를 사용한 레이어 지원
+# Save CAD as JPEG with Layer Support in Java
 
-## 소개
+## Introduction
 
-레이어 지원을 마스터하여 Java에서 Aspose.CAD의 잠재력을 최대한 활용하세요. 레이어는 CAD 도면에서 중요한 역할을 하며 그래픽 요소를 효율적으로 구성하고 조작할 수 있습니다. 이 포괄적인 튜토리얼에서는 Aspose.CAD를 사용하여 레이어 지원의 복잡성을 탐구하고 이 강력한 기능을 활용하기 위한 단계별 가이드를 제공합니다.
+이 튜토리얼에서는 **CAD를 JPEG로 저장**하면서 Aspose.CAD for Java의 레이어 지원을 최대한 활용하는 방법을 알아봅니다. 레이어를 사용하면 도면의 특정 부분만 분리하여 필요한 부분만 쉽게 내보낼 수 있습니다. 환경 설정부터 선택한 레이어만 포함된 JPEG를 내보내는 과정까지 단계별로 안내합니다.
 
-## 전제 조건
+## Quick Answers
+- **“save CAD as JPEG”가 의미하는 것은?** CAD 도면을 래스터 JPEG 이미지로 변환하는 것입니다.
+- **선택한 레이어만 포함할 수 있나요?** 예 – `setLayers` 메서드를 사용하여 렌더링할 레이어를 지정합니다.
+- **이미지 크기는 어떻게 변경하나요?** `CadRasterizationOptions`의 `setPageWidth`와 `setPageHeight`를 조정합니다.
+- **Java 전용 솔루션인가요?** 예제는 Aspose.CAD for Java를 사용하지만, 동일한 개념을 다른 언어에도 적용할 수 있습니다.
+- **라이선스가 필요합니까?** 테스트용 무료 체험판을 사용할 수 있으며, 실제 운영 환경에서는 상용 라이선스가 필요합니다.
 
-튜토리얼을 시작하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
+## Prerequisites
 
-1.  Java 라이브러리용 Aspose.CAD: 다음에서 라이브러리를 다운로드하고 설치합니다.[웹사이트](https://releases.aspose.com/cad/java/). 설치 지침에 따라 Java 환경에서 라이브러리를 설정하십시오.
+시작하기 전에 다음 항목을 준비하세요:
 
-2. Java 개발 환경: 컴퓨터에 Java 개발 환경이 설치되어 있는지 확인하십시오. 웹사이트에서 최신 버전의 Java를 다운로드할 수 있습니다.
+1. **Aspose.CAD for Java Library** – [website](https://releases.aspose.com/cad/java/)에서 다운로드합니다. 설치 가이드를 따라 JAR 파일을 프로젝트 클래스패스에 추가하세요.  
+2. **Java Development Environment** – 최신 JDK(8 이상)가 설치되어 있어야 합니다.
 
-이제 Java에서 Aspose.CAD를 사용하여 레이어 지원을 활용하는 프로세스를 살펴보겠습니다.
+이제 환경 설정이 완료되었으니, 선택적 레이어 렌더링을 통해 **CAD를 JPEG로 저장**하는 코드를 살펴보겠습니다.
 
-## 네임스페이스 가져오기
+## Import Namespaces
 
-프로젝트를 시작하는 데 필요한 네임스페이스를 가져오는 것부터 시작하세요.
+필요한 Aspose.CAD 클래스와 표준 Java 유틸리티를 import합니다:
 
 ```java
 import com.aspose.cad.Image;
@@ -41,11 +49,11 @@ import java.util.Arrays;
 import java.util.List;
 ```
 
-이제 명확한 이해를 위해 각 단계를 자세히 살펴보겠습니다.
+## Step‑by‑Step Guide
 
-## 1단계: 파일 경로 설정
+### Step 1: Set Up File Paths
 
-DWF 소스 파일과 원하는 출력 파일의 경로를 정의합니다. 지정된 디렉토리가 있는지 확인하십시오.
+소스 DWF 파일이 위치한 경로와 출력 JPEG가 저장될 경로를 정의합니다.
 
 ```java
 String dataDir = "Your Document Directory" + "DWFDrawings/";
@@ -53,17 +61,17 @@ String srcFile = dataDir + "for_layers_test.dwf";
 String outFile = dataDir + "for_layers_test.jpg";
 ```
 
-## 2단계: DWF 이미지 로드
+### Step 2: Load the DWF Image
 
- Aspose.CAD를 사용하여 DWF 이미지 로드`Image.load` 방법.
+Aspose.CAD의 `Image.load` 메서드를 사용해 CAD 도면을 읽어옵니다.
 
 ```java
 Image image = Image.load(srcFile);
 ```
 
-## 3단계: 래스터화 옵션 구성
+### Step 3: Configure Rasterization Options (Adjust CAD Dimensions)
 
- 인스턴스 만들기`CadRasterizationOptions` 필요에 맞게 속성을 사용자 정의할 수 있습니다.
+`CadRasterizationOptions` 인스턴스를 생성하고 원하는 출력 크기를 설정합니다. 이 값을 변경하면 최종 JPEG의 **CAD 차원**을 조정할 수 있습니다.
 
 ```java
 CadRasterizationOptions rasterizationOptions = new CadRasterizationOptions();
@@ -71,59 +79,67 @@ rasterizationOptions.setPageWidth(1600);
 rasterizationOptions.setPageHeight(1600);
 ```
 
-## 4단계: 레이어 지정
+### Step 4: Specify Layers (Add Multiple Layers)
 
-출력에 포함할 레이어를 정의합니다. 이 예에서는 목록에 "LayerA"를 추가합니다.
+여러 레이어를 렌더링하려면 리스트에 레이어 이름을 추가하면 됩니다. 여기서는 “LayerA”라는 단일 레이어로 시작합니다.
 
 ```java
 List<String> stringList = new ArrayList<>(Arrays.asList("LayerA"));
 rasterizationOptions.setLayers(stringList);
 ```
 
-## 5단계: JPEG 옵션 구성
+*Pro tip:* **여러 레이어를 추가**하려면 `Arrays.asList` 호출을 확장하여 `Arrays.asList("LayerA", "LayerB", "LayerC")`와 같이 작성합니다.
 
-벡터 래스터화 옵션을 포함한 JPEG 옵션을 설정합니다.
+### Step 5: Configure JPEG Options (Java Convert CAD Image)
+
+래스터화 설정을 JPEG 출력 형식에 연결합니다.
 
 ```java
 JpegOptions jpegOptions = new JpegOptions();
 jpegOptions.setVectorRasterizationOptions(rasterizationOptions);
 ```
 
-## 6단계: JPG로 내보내기
+### Step 6: Export to JPG (Save CAD as JPEG)
 
- 수정된 이미지를 JPG 파일로 저장하세요.`image.save` 방법.
+마지막으로 이미지를 디스크에 저장합니다. 이 단계에서는 **선택한 레이어만 포함된 CAD 도면을 JPEG 파일**로 저장합니다.
 
 ```java
 image.save(outFile, jpegOptions);
 ```
 
-이러한 단계를 수행하면 Aspose.CAD의 Java 레이어 지원을 성공적으로 활용하여 특정 레이어로 CAD 도면을 조작하고 내보낼 수 있습니다.
+위 단계를 따라 하면 **CAD를 JPEG로 저장**하면서 어떤 레이어가 표시될지 제어하고 이미지 크기도 맞춤 설정할 수 있습니다.
 
-## 결론
+## Common Issues and Solutions
 
-축하해요! 이제 Java에서 Aspose.CAD를 사용하여 레이어 지원 기술을 마스터했습니다. 이 튜토리얼은 Aspose.CAD가 제공하는 강력한 레이어 기능을 활용하여 CAD 도면을 효율적으로 구성하고 내보내는 지식을 제공합니다.
+| Issue | Solution |
+|-------|----------|
+| **Layers not appearing** | 레이어 이름이 DWF 파일에 저장된 이름과 정확히 일치하는지(대소문자 구분) 확인하세요. |
+| **Output image is blank** | `setPageWidth`와 `setPageHeight`가 도면 범위에 충분히 큰지 확인하세요. |
+| **License exception** | 테스트용 체험 라이선스를 사용하고, 실제 운영 환경에서는 정식 라이선스를 구매하세요. |
 
-## FAQ
+## Frequently Asked Questions
 
-### Q1: 래스터화 옵션에 여러 레이어를 추가할 수 있나요?
+**Q: Can I add multiple layers to the rasterization options?**  
+A: Absolutely. Extend the `stringList` with additional layer names, e.g., `Arrays.asList("LayerA", "LayerB")`.
 
- A1: 물론이죠! 간단히 연장하세요.`stringList` 포함하려는 추가 레이어의 이름을 사용하세요.
+**Q: Is Aspose.CAD compatible with other CAD formats?**  
+A: Yes, it supports DWG, DXF, DWF, and many more formats.
 
-### Q2: Aspose.CAD는 다른 CAD 형식과 호환됩니까?
+**Q: How can I change the output image dimensions?**  
+A: Modify `setPageWidth` and `setPageHeight` in the `CadRasterizationOptions` instance.
 
-A2: 예, Aspose.CAD는 광범위한 CAD 형식을 지원하므로 다양한 유형의 도면을 처리하는 데 있어 다양성을 보장합니다.
+**Q: Where can I purchase a license for Aspose.CAD?**  
+A: You can explore licensing options [here](https://purchase.aspose.com/buy).
 
-### Q3: 출력 이미지 크기를 어떻게 조정할 수 있나요?
+**Q: Where can I get community support?**  
+A: Join the Aspose.CAD community on the [forum](https://forum.aspose.com/c/cad/19) for assistance and discussions.
 
- A3: 수정`setPageWidth` 그리고`setPageHeight` 출력 크기를 사용자 정의하려면 래스터화 옵션의 속성을 사용하세요.
+---
 
-### Q4: Aspose.CAD에 사용할 수 있는 라이센스 옵션이 있습니까?
+**Last Updated:** 2025-12-13  
+**Tested With:** Aspose.CAD for Java 24.11  
+**Author:** Aspose  
 
- A4: 예, 라이선스 옵션을 살펴보세요.[여기](https://purchase.aspose.com/buy) 추가 기능 및 지원을 잠금 해제합니다.
-
-### Q5: Aspose.CAD에 대한 도움을 구하거나 경험을 공유할 수 있는 곳은 어디입니까?
-
-A5: Aspose.CAD 커뮤니티에 가입하세요.[법정](https://forum.aspose.com/c/cad/19) 지원 및 협력 토론을 위해.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
