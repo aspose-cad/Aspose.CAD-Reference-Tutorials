@@ -111,15 +111,15 @@ A4: Ja, je kunt de functies van Aspose.CAD voor Java verkennen door de [free tri
 
 A5: Om de volledige versie aan te schaffen, bezoek de [purchase link](https://purchase.aspose.com/buy).
 
+---
+
+**Laatst bijgewerkt:** 2025-12-10  
+**Getest met:** Aspose.CAD for Java (latest release)  
+**Auteur:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Laatst bijgewerkt:** 2025-12-10  
-**Getest met:** Aspose.CAD for Java (latest release)  
-**Auteur:** Aspose

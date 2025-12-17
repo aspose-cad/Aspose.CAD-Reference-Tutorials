@@ -111,17 +111,15 @@ R4 : Oui, vous pouvez explorer les fonctionnalités d’Aspose.CAD pour Java e
 
 R5 : Pour acheter la version complète, rendez‑vous sur le [lien d’achat](https://purchase.aspose.com/buy).
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Dernière mise à jour :** 2025-12-10  
 **Testé avec :** Aspose.CAD pour Java (dernière version)  
 **Auteur :** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

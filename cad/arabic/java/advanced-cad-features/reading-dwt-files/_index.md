@@ -111,15 +111,15 @@ for (Object style : objImage.getStyles()) {
 
 ج5: لشراء النسخة الكاملة، زر [رابط الشراء](https://purchase.aspose.com/buy).
 
+---
+
+**آخر تحديث:** 2025-12-10  
+**تم الاختبار باستخدام:** Aspose.CAD for Java (أحدث إصدار)  
+**المؤلف:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**آخر تحديث:** 2025-12-10  
-**تم الاختبار باستخدام:** Aspose.CAD for Java (أحدث إصدار)  
-**المؤلف:** Aspose

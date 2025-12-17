@@ -111,17 +111,15 @@ for (Object style : objImage.getStyles()) {
 
 Α5: Για να αγοράσετε την πλήρη έκδοση, επισκεφθείτε τον [σύνδεσμο αγοράς](https://purchase.aspose.com/buy).
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Τελευταία Ενημέρωση:** 2025-12-10  
 **Δοκιμή Με:** Aspose.CAD for Java (τελευταία έκδοση)  
 **Συγγραφέας:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

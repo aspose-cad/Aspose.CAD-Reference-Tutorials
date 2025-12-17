@@ -111,17 +111,15 @@ A4: Ya, Anda dapat menjelajahi fitur Aspose.CAD for Java dengan mengakses [versi
 
 A5: Untuk membeli versi lengkap, kunjungi [tautan pembelian](https://purchase.aspose.com/buy).
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Terakhir Diperbarui:** 2025-12-10  
 **Diuji Dengan:** Aspose.CAD for Java (rilis terbaru)  
 **Penulis:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -111,17 +111,15 @@ A4: Ano, můžete prozkoumat funkce Aspose.CAD pro Java přístupem k [bezplatn�
 
 A5: Pro zakoupení plné verze navštivte [odkaz pro nákup](https://purchase.aspose.com/buy).
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Poslední aktualizace:** 2025-12-10  
 **Testováno s:** Aspose.CAD for Java (nejnovější verze)  
 **Autor:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

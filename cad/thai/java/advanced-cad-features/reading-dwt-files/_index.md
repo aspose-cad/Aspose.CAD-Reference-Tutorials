@@ -110,17 +110,15 @@ A4: มี, คุณสามารถสำรวจคุณสมบัต�
 
 A5: เพื่อซื้อเวอร์ชันเต็ม ให้ไปที่ [ลิงก์การซื้อ](https://purchase.aspose.com/buy)  
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **อัปเดตล่าสุด:** 2025-12-10  
 **ทดสอบด้วย:** Aspose.CAD for Java (รุ่นล่าสุด)  
 **ผู้เขียน:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

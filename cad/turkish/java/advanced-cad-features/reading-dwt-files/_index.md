@@ -111,17 +111,15 @@ C4: Evet, [ücretsiz deneme sürümünü](https://releases.aspose.com/) erişere
 
 C5: Tam sürümü satın almak için [satın alma bağlantısını](https://purchase.aspose.com/buy) ziyaret edin.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Son Güncelleme:** 2025-12-10  
 **Test Edilen Versiyon:** Aspose.CAD for Java (en son sürüm)  
 **Yazar:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

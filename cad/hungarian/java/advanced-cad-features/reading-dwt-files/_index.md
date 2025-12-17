@@ -111,17 +111,15 @@ A4: Igen, felfedezheti az Aspose.CAD for Java funkcióit a [ingyenes próbaverzi
 
 A5: A teljes verzió megvásárlásához látogassa meg a [vásárlási hivatkozást](https://purchase.aspose.com/buy).
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Legutóbb frissítve:** 2025-12-10  
 **Tesztelve a következővel:** Aspose.CAD for Java (legújabb kiadás)  
 **Szerző:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

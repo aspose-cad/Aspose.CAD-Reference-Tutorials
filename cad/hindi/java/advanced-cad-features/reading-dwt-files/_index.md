@@ -111,17 +111,15 @@ A4: हाँ, आप [फ्री ट्रायल संस्करण](ht
 
 A5: पूर्ण संस्करण खरीदने के लिए, [पर्चेज लिंक](https://purchase.aspose.com/buy) पर जाएँ।
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **अंतिम अपडेट:** 2025-12-10  
 **परीक्षित संस्करण:** Aspose.CAD for Java (नवीनतम रिलीज)  
 **लेखक:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

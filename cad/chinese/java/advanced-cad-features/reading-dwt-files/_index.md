@@ -110,17 +110,15 @@ A4：可以，通过访问 [free trial version](https://releases.aspose.com/) �
 
 A5：购买完整版，请访问 [purchase link](https://purchase.aspose.com/buy)。
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **最后更新：** 2025-12-10  
 **测试环境：** Aspose.CAD for Java (latest release)  
 **作者：** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -111,17 +111,15 @@ A4: Có, bạn có thể khám phá các tính năng của Aspose.CAD for Java b
 
 A5: Để mua phiên bản đầy đủ, hãy truy cập [liên kết mua hàng](https://purchase.aspose.com/buy).
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Cập Nhật Lần Cuối:** 2025-12-10  
 **Đã Kiểm Tra Với:** Aspose.CAD for Java (phiên bản mới nhất)  
 **Tác Giả:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

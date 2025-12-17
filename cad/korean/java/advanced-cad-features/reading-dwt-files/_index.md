@@ -105,15 +105,15 @@ A4: 예, [free trial version](https://releases.aspose.com/)에 접속하여 Aspo
 ### Q5: Aspose.CAD for Java를 구매하려면 어떻게 해야 하나요?
 A5: 정식 버전을 구매하려면 [purchase link](https://purchase.aspose.com/buy)를 방문하십시오.
 
+---
+
+**마지막 업데이트:** 2025-12-10  
+**테스트 환경:** Aspose.CAD for Java (latest release)  
+**작성자:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**마지막 업데이트:** 2025-12-10  
-**테스트 환경:** Aspose.CAD for Java (latest release)  
-**작성자:** Aspose
