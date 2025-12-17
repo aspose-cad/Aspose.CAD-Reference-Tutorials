@@ -1,35 +1,54 @@
 ---
-title: Définir la taille et le mode du canevas
-linktitle: Définir la taille et le mode du canevas
-second_title: API Java Aspose.CAD
-description: Découvrez la puissance d'Aspose.CAD pour Java avec notre guide étape par étape sur la définition de la taille et du mode du canevas. Convertissez sans effort les fichiers CAO aux formats PDF et TIFF.
-weight: 16
+date: 2025-12-10
+description: Apprenez à convertir des fichiers CAD en PDF avec Aspose.CAD pour Java
+  tout en définissant la taille du canevas, le redimensionnement automatique de la
+  mise en page et l'exportation vers TIFF.
+linktitle: Convert CAD to PDF – Set Canvas Size & Mode
+second_title: Aspose.CAD Java API
+title: Convertir CAD en PDF – Définir la taille et le mode du canevas (Java)
 url: /fr/java/advanced-cad-features/set-canvas-size-and-mode/
+weight: 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Définir la taille et le mode du canevas
+# Définir la taille du canevas et le mode
 
 ## Introduction
 
-Cherchez-vous à exploiter la puissance d’Aspose.CAD pour Java pour améliorer votre processus de conversion CAO ? Ce guide complet vous guidera à travers les étapes de définition de la taille et du mode du canevas à l'aide d'Aspose.CAD pour Java. Que vous soyez un développeur chevronné ou que vous débutiez tout juste, ce didacticiel vous fournira les informations dont vous avez besoin.
+Vous cherchez à **convert CAD to PDF** tout en gardant le contrôle total sur la taille du canevas et le mode de rendu ? Ce guide complet vous accompagne pas à pas pour définir la taille du canevas en Java, activer le redimensionnement automatique de la mise en page, puis exporter le résultat aux formats PDF et TIFF à l’aide d’Aspose.CAD. Que vous raffiniez une chaîne de production ou que vous expérimentiez un prototype, vous trouverez ici des instructions claires et concrètes.
 
-## Conditions préalables
+## Réponses rapides
+- **Que signifie « convert CAD to PDF » ?** Transformer un dessin CAD (par ex. DXF, DWG) en un document PDF consultable sur n’importe quelle plateforme.  
+- **Puis-je également exporter vers TIFF ?** Oui — utilisez `TiffOptions` pour créer des images raster haute résolution.  
+- **Quelle option contrôle la taille du canevas en Java ?** `CadRasterizationOptions.setPageWidth/Height`.  
+- **Qu’est‑ce que le redimensionnement automatique de la mise en page ?** Un drapeau (`setAutomaticLayoutsScaling(true)`) qui préserve les proportions d’origine de la mise en page lorsque la taille du canevas change.  
+- **Ai‑je besoin d’une licence pour Aspose.CAD ?** Une licence temporaire ou permanente est requise pour une utilisation en production.
 
-Avant de plonger dans le didacticiel, assurez-vous que les conditions préalables suivantes sont remplies :
+## Qu’est‑ce que **convert CAD to PDF** ?
 
--  Aspose.CAD pour Java : assurez-vous que la bibliothèque Aspose.CAD est installée dans votre environnement Java. Vous pouvez le télécharger[ici](https://releases.aspose.com/cad/java/).
+Convertir CAD en PDF consiste à prendre des dessins d’ingénierie basés sur des vecteurs et à les rendre sous forme de pages PDF, en conservant les traits, les calques et la géométrie tout en rendant le fichier universellement accessible.
 
-- Répertoire de documents : configurez un répertoire de documents pour stocker vos fichiers CAO. Ce répertoire sera référencé dans les étapes du didacticiel.
+## Pourquoi définir la taille du canevas **java** ?
 
-Commençons maintenant par le guide étape par étape.
+Définir la taille du canevas en Java vous permet de spécifier la résolution de sortie et les dimensions de la page, garantissant que le PDF ou le TIFF résultant correspond à vos exigences d’impression ou d’affichage. Cela vous donne également le contrôle du comportement de mise à l’échelle, essentiel pour les dessins grand format.
 
-## Importer des espaces de noms
+## Prérequis
 
-Dans cette étape, nous importerons les espaces de noms nécessaires pour démarrer votre projet Aspose.CAD.
+Avant de plonger dans le tutoriel, assurez‑vous d’avoir les prérequis suivants :
+
+- Aspose.CAD for Java : assurez‑vous que la bibliothèque Aspose.CAD est installée dans votre environnement Java. Vous pouvez la télécharger [ici](https://releases.aspose.com/cad/java/).
+
+- Répertoire de documents : créez un répertoire de documents pour stocker vos fichiers CAD. Ce répertoire sera référencé dans les étapes du tutoriel.
+
+Maintenant, commençons le guide étape par étape.
+
+## Importer les espaces de noms
+
+Dans cette étape, nous allons importer les espaces de noms nécessaires pour lancer votre projet Aspose.CAD.
+
 ```java
 import java.awt.Image;
 
@@ -39,22 +58,22 @@ import com.aspose.cad.imageoptions.PdfOptions;
 import com.aspose.cad.imageoptions.TiffOptions;
 ```
 
-## Étape 1 : Importer les classes Aspose.CAD
+## Étape 1 : Importer les classes Aspose.CAD
 
 ```java
-// Le chemin d'accès au répertoire de ressources.
+// The path to the resource directory.
 String dataDir = "Your Document Directory" + "CADConversion/";
 
 String srcFile = dataDir + "conic_pyramid.dxf";
 com.aspose.cad.Image objImage = com.aspose.cad.Image.load(srcFile);
 ```
 
- Dans cet extrait, nous définissons le chemin d'accès au répertoire de ressources et chargeons un fichier DXF à l'aide de Aspose.CAD.`Image` classe.
+Dans cet extrait, nous configurons le chemin vers le répertoire des ressources et chargeons un fichier DXF à l’aide de la classe `Image` d’Aspose.CAD.
 
-## Étape 2 : Définir les propriétés CadRasterizationOptions
+## Étape 2 : Définir les propriétés de **CadRasterizationOptions** (définir la taille du canevas java)
 
 ```java
-// Créez une instance de CadRasterizationOptions et définissez ses différentes propriétés
+// Create an instance of CadRasterizationOptions and set its various properties
 CadRasterizationOptions rasterizationOptions = new CadRasterizationOptions();
 rasterizationOptions.setPageWidth(1600);
 rasterizationOptions.setPageHeight(1600);
@@ -63,75 +82,98 @@ rasterizationOptions.setAutomaticLayoutsScaling(true);
 rasterizationOptions.setNoScaling(true);
 ```
 
- Ici, nous créons une instance de`CadRasterizationOptions` et configurez les propriétés telles que la largeur de la page, la hauteur de la page et les options de mise à l'échelle.
+Ici, nous créons une instance de `CadRasterizationOptions` et configurons des propriétés telles que la largeur de page, la hauteur de page et le **redimensionnement automatique de la mise en page**. C’est le cœur de la **configuration du mode du canevas** pour votre conversion.
 
-## Étape 3 : Créer des options PDF et définir des options de rastérisation vectorielle
+## Étape 3 : Créer PdfOptions et définir VectorRasterizationOptions
 
 ```java
-// Créer une instance de PdfOptions
+// Create an instance of PdfOptions
 PdfOptions pdfOptions = new PdfOptions();
 
-// Définir la propriété VectorRasterizationOptions
+// Set the VectorRasterizationOptions property
 pdfOptions.setVectorRasterizationOptions(rasterizationOptions);
 ```
 
- Maintenant, nous créons un`PdfOptions` instance et définir son`VectorRasterizationOptions` propriété à la propriété précédemment configurée`CadRasterizationOptions`.
+Nous créons maintenant une instance de `PdfOptions` et définissons sa propriété `VectorRasterizationOptions` avec les `CadRasterizationOptions` configurées précédemment.
 
-## Étape 4 : Exporter au format PDF
+## Étape 4 : Exporter en PDF (convert cad to pdf)
 
 ```java
-// Exporter la CAO au format PDF
+// Export CAD to PDF
 objImage.save(dataDir + "result_out_.pdf", pdfOptions);
 ```
 
-Enfin, nous enregistrons l'image CAO dans un fichier PDF en utilisant les options spécifiées.
+Enfin, nous enregistrons l’image CAD dans un fichier PDF en utilisant les options spécifiées, complétant ainsi le processus **convert CAD to PDF**.
 
-## Étape 5 : Créer des TiffOptions et définir des VectorRasterizationOptions
+## Étape 5 : Créer TiffOptions et définir VectorRasterizationOptions (export cad to tiff)
 
 ```java
-// Créer une instance de TiffOptions
+// Create an instance of TiffOptions
 TiffOptions tiffOptions = new TiffOptions(TiffExpectedFormat.Default);
 
-// Définir la propriété VectorRasterizationOptions
+// Set the VectorRasterizationOptions property
 tiffOptions.setVectorRasterizationOptions(rasterizationOptions);
 ```
 
-Dans cette étape, nous mettons en place un`TiffOptions` instance et configurer son`VectorRasterizationOptions` propriété.
+Dans cette étape, nous configurons une instance de `TiffOptions` et définissons sa propriété `VectorRasterizationOptions`.
 
-## Étape 6 : Exporter au format TIFF
+## Étape 6 : Exporter en TIFF
 
 ```java
-// Exporter la CAO au format TIFF
+// Export CAD to TIFF
 objImage.save(dataDir + "result_out_.tiff", tiffOptions);
 ```
 
-Enfin, nous enregistrons l'image CAO dans un fichier TIFF en utilisant les options spécifiées.
+Enfin, nous enregistrons l’image CAD dans un fichier TIFF en utilisant les options spécifiées, démontrant comment **export CAD to TIFF** après avoir configuré la taille du canevas.
+
+## Problèmes courants et solutions
+
+| Problème | Cause | Solution |
+|----------|-------|----------|
+| Le PDF de sortie est vide | `setNoScaling(true)` désactive le rendu pour certains dessins | Supprimez `setNoScaling(true)` ou définissez‑le sur `false`. |
+| La résolution du TIFF semble basse | Largeur/hauteur de page trop petite | Augmentez les valeurs de `setPageWidth` / `setPageHeight`. |
+| La mise en page apparaît déformée | Redimensionnement automatique de la mise en page désactivé | Assurez‑vous que `setAutomaticLayoutsScaling(true)` est activé. |
 
 ## Conclusion
 
- Toutes nos félicitations! Vous avez défini avec succès la taille et le mode du canevas à l'aide d'Aspose.CAD pour Java. Ce didacticiel fournit une base solide pour vos projets de conversion CAO. Explorez plus de fonctionnalités et de possibilités dans le[Documentation Aspose.CAD](https://reference.aspose.com/cad/java/).
+Félicitations ! Vous avez réussi à **convert CAD to PDF** et à **export CAD to TIFF** tout en **définissant la taille du canevas java**, en activant le **redimensionnement automatique de la mise en page**, et en apprenant à **configurer le mode du canevas** pour des sorties de haute qualité. Ce tutoriel constitue une base solide pour vos projets de conversion CAD. Explorez davantage de fonctionnalités et de possibilités dans la [documentation Aspose.CAD](https://reference.aspose.com/cad/java/).
 
 ## FAQ
 
-### Q1 : Puis-je utiliser Aspose.CAD pour Java avec d’autres frameworks Java ?
+### Q1 : Puis‑je utiliser Aspose.CAD for Java avec d’autres frameworks Java ?
 
-A1 : Oui, Aspose.CAD est conçu pour s'intégrer de manière transparente à divers frameworks Java.
+R1 : Oui, Aspose.CAD est conçu pour s’intégrer de façon transparente avec divers frameworks Java.
 
-### Q2 : Une licence temporaire est-elle disponible pour Aspose.CAD ?
+### Q2 : Une licence temporaire est‑elle disponible pour Aspose.CAD ?
 
- A2 : Oui, vous pouvez obtenir une licence temporaire[ici](https://purchase.aspose.com/temporary-license/).
+R2 : Oui, vous pouvez obtenir une licence temporaire [ici](https://purchase.aspose.com/temporary-license/).
 
-### Q3 : Où puis-je obtenir l'assistance de la communauté pour Aspose.CAD ?
+### Q3 : Où puis‑je obtenir du support communautaire pour Aspose.CAD ?
 
- A3 : Visitez le[Forum Aspose.CAD](https://forum.aspose.com/c/cad/19) pour le soutien et les discussions de la communauté.
+R3 : Visitez le [forum Aspose.CAD](https://forum.aspose.com/c/cad/19) pour le support communautaire et les discussions.
 
-### Q4 : Puis-je essayer Aspose.CAD gratuitement ?
+### Q4 : Puis‑je essayer Aspose.CAD gratuitement ?
 
- A4 : Absolument ! Obtenez un essai gratuit[ici](https://releases.aspose.com/).
+R4 : Absolument ! Obtenez un essai gratuit [ici](https://releases.aspose.com/).
 
-### Q5 : Comment puis-je acheter Aspose.CAD pour Java ?
+### Q5 : Comment acheter Aspose.CAD for Java ?
 
- A5 : Acheter le produit[ici](https://purchase.aspose.com/buy).
+R5 : Achetez le produit [ici](https://purchase.aspose.com/buy).
+
+**Questions supplémentaires**
+
+**Q : La taille du canevas affecte‑t‑elle la qualité vectorielle du PDF ?**  
+R : Non. La taille du canevas contrôle les dimensions de la page ; les données vectorielles restent indépendantes de la résolution, garantissant un rendu net à n’importe quel niveau de zoom.
+
+**Q : Puis‑je définir un DPI différent pour la sortie TIFF ?**  
+R : Oui. Ajustez `rasterizationOptions.setResolution(dpiValue)` avant de créer `TiffOptions`.
+
+---
+
+**Dernière mise à jour :** 2025-12-10  
+**Testé avec :** Aspose.CAD for Java 24.12  
+**Auteur :** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

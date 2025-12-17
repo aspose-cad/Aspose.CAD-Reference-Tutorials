@@ -1,35 +1,55 @@
 ---
-title: कैनवास का आकार और मोड सेट करें
-linktitle: कैनवास का आकार और मोड सेट करें
-second_title: Aspose.CAD जावा एपीआई
-description: कैनवास आकार और मोड सेट करने पर हमारी चरण-दर-चरण मार्गदर्शिका के साथ जावा के लिए Aspose.CAD की शक्ति का अन्वेषण करें। CAD फ़ाइलों को आसानी से पीडीएफ और टीआईएफएफ प्रारूपों में परिवर्तित करें।
-weight: 16
+date: 2025-12-10
+description: Aspose.CAD for Java का उपयोग करके CAD को PDF में कैसे बदलें, साथ ही कैनवास
+  आकार सेट करना, स्वचालित लेआउट स्केलिंग, और TIFF में निर्यात करना सीखें।
+linktitle: Convert CAD to PDF – Set Canvas Size & Mode
+second_title: Aspose.CAD Java API
+title: CAD को PDF में बदलें – कैनवास आकार और मोड सेट करें (Java)
 url: /hi/java/advanced-cad-features/set-canvas-size-and-mode/
+weight: 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# कैनवास का आकार और मोड सेट करें
+# कैनवास आकार और मोड सेट करें
 
 ## परिचय
 
-क्या आप अपनी CAD रूपांतरण प्रक्रिया को बढ़ाने के लिए Java के लिए Aspose.CAD की शक्ति का उपयोग करना चाह रहे हैं? यह व्यापक मार्गदर्शिका आपको जावा के लिए Aspose.CAD का उपयोग करके कैनवास आकार और मोड सेट करने के चरणों के बारे में बताएगी। चाहे आप एक अनुभवी डेवलपर हों या अभी शुरुआत कर रहे हों, यह ट्यूटोरियल आपको आवश्यक अंतर्दृष्टि प्रदान करेगा।
+क्या आप **convert CAD to PDF** करते समय कैनवास आकार और रेंडरिंग मोड पर पूर्ण नियंत्रण चाहते हैं? यह व्यापक गाइड आपको जावा में कैनवास आकार सेट करने, ऑटोमैटिक लेआउट स्केलिंग सक्षम करने, और फिर Aspose.CAD का उपयोग करके परिणाम को PDF और TIFF दोनों फ़ॉर्मेट में निर्यात करने के सटीक चरणों के माध्यम से ले जाता है। चाहे आप प्रोडक्शन पाइपलाइन को परिष्कृत कर रहे हों या प्रोटोटाइप के साथ प्रयोग कर रहे हों, यहाँ आपको स्पष्ट, क्रियात्मक निर्देश मिलेंगे।
 
-## आवश्यक शर्तें
+## त्वरित उत्तर
+- **convert CAD to PDF** क्या है?  
+  CAD ड्रॉइंग (जैसे DXF, DWG) को PDF दस्तावेज़ में बदलना, जिसे किसी भी प्लेटफ़ॉर्म पर देखा जा सकता है।  
+- **क्या मैं TIFF में भी निर्यात कर सकता हूँ?**  
+  हाँ—उच्च‑रिज़ॉल्यूशन रास्टर इमेज बनाने के लिए `TiffOptions` का उपयोग करें।  
+- **जावा में कैनवास आकार को नियंत्रित करने वाला विकल्प कौन सा है?**  
+  `CadRasterizationOptions.setPageWidth/Height`।  
+- **ऑटोमैटिक लेआउट स्केलिंग क्या है?**  
+  एक फ़्लैग (`setAutomaticLayoutsScaling(true)`) जो कैनवास आकार बदलने पर मूल लेआउट अनुपात को बनाए रखता है।  
+- **क्या मुझे Aspose.CAD के लिए लाइसेंस चाहिए?**  
+  उत्पादन उपयोग के लिए एक अस्थायी या स्थायी लाइसेंस आवश्यक है।
 
-ट्यूटोरियल में जाने से पहले, सुनिश्चित करें कि आपके पास निम्नलिखित आवश्यक शर्तें हैं:
+## क्या है **convert CAD to PDF**?
+CAD को PDF में बदलना मतलब वेक्टर‑आधारित इंजीनियरिंग ड्रॉइंग को PDF पृष्ठों के रूप में रेंडर करना है, जिसमें लाइन वर्क, लेयर्स और ज्योमेट्री को संरक्षित रखा जाता है और फ़ाइल को सार्वभौमिक रूप से सुलभ बनाया जाता है।
 
--  जावा के लिए Aspose.CAD: सुनिश्चित करें कि आपके जावा वातावरण में Aspose.CAD लाइब्रेरी स्थापित है। आप इसे डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/cad/java/).
+## जावा में कैनवास आकार **java** क्यों सेट करें?
+जावा में कैनवास आकार सेट करने से आप आउटपुट रिज़ॉल्यूशन और पेज डाइमेंशन निर्धारित कर सकते हैं, जिससे परिणामी PDF या TIFF आपके प्रिंटिंग या डिस्प्ले आवश्यकताओं से मेल खाता है। यह स्केलिंग व्यवहार पर नियंत्रण भी देता है, जो बड़े‑फ़ॉर्मेट ड्रॉइंग के लिए आवश्यक है।
 
-- दस्तावेज़ निर्देशिका: अपनी CAD फ़ाइलों को संग्रहीत करने के लिए एक दस्तावेज़ निर्देशिका सेट करें। इस निर्देशिका को ट्यूटोरियल चरणों में संदर्भित किया जाएगा।
+## पूर्वापेक्षाएँ
 
-अब, आइए चरण-दर-चरण मार्गदर्शिका के साथ शुरुआत करें।
+ट्यूटोरियल में डुबने से पहले, सुनिश्चित करें कि आपके पास निम्नलिखित पूर्वापेक्षाएँ मौजूद हैं:
 
-## नामस्थान आयात करें
+- Aspose.CAD for Java: सुनिश्चित करें कि आपके जावा वातावरण में Aspose.CAD लाइब्रेरी स्थापित है। आप इसे [here](https://releases.aspose.com/cad/java/) से डाउनलोड कर सकते हैं।  
+- Document Directory: अपने CAD फ़ाइलों को संग्रहीत करने के लिए एक दस्तावेज़ डायरेक्टरी सेट करें। इस डायरेक्टरी का संदर्भ ट्यूटोरियल चरणों में दिया जाएगा।
 
-इस चरण में, हम आपके Aspose.CAD प्रोजेक्ट को किकस्टार्ट करने के लिए आवश्यक नामस्थान आयात करेंगे।
+अब, चलिए चरण‑दर‑चरण गाइड शुरू करते हैं।
+
+## Namespaces आयात करें
+
+इस चरण में, हम आपके Aspose.CAD प्रोजेक्ट को शुरू करने के लिए आवश्यक namespaces आयात करेंगे।
+
 ```java
 import java.awt.Image;
 
@@ -39,22 +59,22 @@ import com.aspose.cad.imageoptions.PdfOptions;
 import com.aspose.cad.imageoptions.TiffOptions;
 ```
 
-## चरण 1: Aspose.CAD कक्षाएं आयात करें
+## चरण 1: Aspose.CAD क्लासेस आयात करें
 
 ```java
-// संसाधन निर्देशिका का पथ.
+// The path to the resource directory.
 String dataDir = "Your Document Directory" + "CADConversion/";
 
 String srcFile = dataDir + "conic_pyramid.dxf";
 com.aspose.cad.Image objImage = com.aspose.cad.Image.load(srcFile);
 ```
 
- इस स्निपेट में, हम संसाधन निर्देशिका के लिए पथ सेट करते हैं और Aspose.CAD का उपयोग करके एक DXF फ़ाइल लोड करते हैं`Image` कक्षा।
+इस स्निपेट में, हम रिसोर्स डायरेक्टरी का पाथ सेट करते हैं और Aspose.CAD के `Image` क्लास का उपयोग करके एक DXF फ़ाइल लोड करते हैं।
 
-## चरण 2: कैडरास्टराइज़ेशनऑप्शंस गुण सेट करें
+## चरण 2: **CadRasterizationOptions** प्रॉपर्टीज़ सेट करें (set canvas size java)
 
 ```java
-// CadRasterizationOptions का एक उदाहरण बनाएं और इसके विभिन्न गुण सेट करें
+// Create an instance of CadRasterizationOptions and set its various properties
 CadRasterizationOptions rasterizationOptions = new CadRasterizationOptions();
 rasterizationOptions.setPageWidth(1600);
 rasterizationOptions.setPageHeight(1600);
@@ -63,75 +83,93 @@ rasterizationOptions.setAutomaticLayoutsScaling(true);
 rasterizationOptions.setNoScaling(true);
 ```
 
- यहां, हम इसका एक उदाहरण बनाते हैं`CadRasterizationOptions` और पृष्ठ की चौड़ाई, पृष्ठ की ऊंचाई और स्केलिंग विकल्प जैसे गुणों को कॉन्फ़िगर करें।
+यहाँ, हम `CadRasterizationOptions` का एक इंस्टेंस बनाते हैं और पेज चौड़ाई, पेज ऊँचाई, और **automatic layout scaling** जैसी प्रॉपर्टीज़ को कॉन्फ़िगर करते हैं। यह आपके रूपांतरण के लिए **configure canvas mode** का मुख्य भाग है।
 
-## चरण 3: PdfOptions बनाएं और वेक्टरRasterizationOptions सेट करें
+## चरण 3: PdfOptions बनाएं और VectorRasterizationOptions सेट करें
 
 ```java
-// PdfOptions का एक उदाहरण बनाएं
+// Create an instance of PdfOptions
 PdfOptions pdfOptions = new PdfOptions();
 
-// वेक्टररैस्टराइज़ेशनऑप्शंस प्रॉपर्टी सेट करें
+// Set the VectorRasterizationOptions property
 pdfOptions.setVectorRasterizationOptions(rasterizationOptions);
 ```
 
- अब, हम एक बनाते हैं`PdfOptions` उदाहरण और इसे सेट करें`VectorRasterizationOptions` पहले से कॉन्फ़िगर की गई संपत्ति`CadRasterizationOptions`.
+अब, हम एक `PdfOptions` इंस्टेंस बनाते हैं और उसकी `VectorRasterizationOptions` प्रॉपर्टी को पहले कॉन्फ़िगर किए गए `CadRasterizationOptions` पर सेट करते हैं।
 
-## चरण 4: पीडीएफ में निर्यात करें
+## चरण 4: PDF में निर्यात करें (convert cad to pdf)
 
 ```java
-// सीएडी को पीडीएफ में निर्यात करें
+// Export CAD to PDF
 objImage.save(dataDir + "result_out_.pdf", pdfOptions);
 ```
 
-अंत में, हम निर्दिष्ट विकल्पों का उपयोग करके सीएडी छवि को एक पीडीएफ फ़ाइल में सहेजते हैं।
+अंत में, हम निर्दिष्ट विकल्पों का उपयोग करके CAD इमेज को PDF फ़ाइल में सहेजते हैं, जिससे **convert CAD to PDF** प्रक्रिया पूरी होती है।
 
-## चरण 5: TiffOptions बनाएं और वेक्टरRasterizationOptions सेट करें
+## चरण 5: TiffOptions बनाएं और VectorRasterizationOptions सेट करें (export cad to tiff)
 
 ```java
-// TiffOptions का एक उदाहरण बनाएं
+// Create an instance of TiffOptions
 TiffOptions tiffOptions = new TiffOptions(TiffExpectedFormat.Default);
 
-// वेक्टररैस्टराइज़ेशनऑप्शंस प्रॉपर्टी सेट करें
+// Set the VectorRasterizationOptions property
 tiffOptions.setVectorRasterizationOptions(rasterizationOptions);
 ```
 
-इस चरण में, हमने एक स्थापित किया`TiffOptions` उदाहरण और इसे कॉन्फ़िगर करें`VectorRasterizationOptions` संपत्ति।
+इस चरण में, हम एक `TiffOptions` इंस्टेंस सेट करते हैं और उसकी `VectorRasterizationOptions` प्रॉपर्टी को कॉन्फ़िगर करते हैं।
 
 ## चरण 6: TIFF में निर्यात करें
 
 ```java
-// CAD को TIFF में निर्यात करें
+// Export CAD to TIFF
 objImage.save(dataDir + "result_out_.tiff", tiffOptions);
 ```
 
-अंत में, हम निर्दिष्ट विकल्पों का उपयोग करके CAD छवि को TIFF फ़ाइल में सहेजते हैं।
+अंत में, हम निर्दिष्ट विकल्पों का उपयोग करके CAD इमेज को TIFF फ़ाइल में सहेजते हैं, जिससे कैनवास आकार कॉन्फ़िगर करने के बाद **export CAD to TIFF** कैसे किया जाता है, यह प्रदर्शित होता है।
+
+## सामान्य समस्याएँ और समाधान
+
+| समस्या | कारण | समाधान |
+|-------|-------|-----|
+| आउटपुट PDF खाली है | `setNoScaling(true)` कुछ ड्रॉइंग्स के लिए रेंडरिंग को अक्षम करता है | `setNoScaling(true)` को हटाएँ या इसे `false` सेट करें। |
+| TIFF रिज़ॉल्यूशन कम दिख रहा है | पेज चौड़ाई/ऊँचाई बहुत छोटी है | `setPageWidth` / `setPageHeight` मान बढ़ाएँ। |
+| लेआउट विकृत दिख रहा है | ऑटोमैटिक लेआउट स्केलिंग अक्षम है | सुनिश्चित करें कि `setAutomaticLayoutsScaling(true)` सक्षम है। |
 
 ## निष्कर्ष
 
- बधाई हो! आपने Java के लिए Aspose.CAD का उपयोग करके सफलतापूर्वक कैनवास आकार और मोड सेट कर लिया है। यह ट्यूटोरियल आपके CAD रूपांतरण परियोजनाओं के लिए एक ठोस आधार प्रदान करता है। इसमें अधिक सुविधाएँ और संभावनाएँ खोजें[Aspose.CAD दस्तावेज़ीकरण](https://reference.aspose.com/cad/java/).
+बधाई हो! आपने सफलतापूर्वक **convert CAD to PDF** और **export CAD to TIFF** किया है जबकि **set canvas size java** किया, **automatic layout scaling** सक्षम किया, और उच्च‑गुणवत्ता आउटपुट के लिए **configure canvas mode** सीख लिया। यह ट्यूटोरियल आपके CAD रूपांतरण प्रोजेक्ट्स के लिए एक ठोस आधार प्रदान करता है। अधिक सुविधाओं और संभावनाओं का अन्वेषण करें [Aspose.CAD documentation](https://reference.aspose.com/cad/java/) में।
 
 ## अक्सर पूछे जाने वाले प्रश्न
 
-### Q1: क्या मैं जावा के लिए अन्य जावा फ्रेमवर्क के साथ Aspose.CAD का उपयोग कर सकता हूँ?
+### Q1: क्या मैं Aspose.CAD for Java को अन्य जावा फ्रेमवर्क्स के साथ उपयोग कर सकता हूँ?
+A1: हाँ, Aspose.CAD विभिन्न जावा फ्रेमवर्क्स के साथ सहजता से एकीकृत होने के लिए डिज़ाइन किया गया है।
 
-A1: हां, Aspose.CAD को विभिन्न जावा फ्रेमवर्क के साथ सहजता से एकीकृत करने के लिए डिज़ाइन किया गया है।
+### Q2: क्या Aspose.CAD के लिए एक अस्थायी लाइसेंस उपलब्ध है?
+A2: हाँ, आप अस्थायी लाइसेंस [here](https://purchase.aspose.com/temporary-license/) से प्राप्त कर सकते हैं।
 
-### Q2: क्या Aspose.CAD के लिए अस्थायी लाइसेंस उपलब्ध है?
+### Q3: मैं Aspose.CAD के लिए सामुदायिक समर्थन कहाँ प्राप्त कर सकता हूँ?
+A3: समुदाय समर्थन और चर्चाओं के लिए [Aspose.CAD forum](https://forum.aspose.com/c/cad/19) देखें।
 
- उ2: हां, आप अस्थायी लाइसेंस प्राप्त कर सकते हैं[यहाँ](https://purchase.aspose.com/temporary-license/).
+### Q4: क्या मैं Aspose.CAD को मुफ्त में आज़मा सकता हूँ?
+A4: बिल्कुल! आप मुफ्त ट्रायल [here](https://releases.aspose.com/) से प्राप्त कर सकते हैं।
 
-### Q3: Aspose.CAD के लिए मुझे सामुदायिक समर्थन कहाँ से मिल सकता है?
+### Q5: मैं Aspose.CAD for Java कैसे खरीदूँ?
+A5: उत्पाद [here](https://purchase.aspose.com/buy) से खरीदें।
 
- A3: पर जाएँ[Aspose.CAD फोरम](https://forum.aspose.com/c/cad/19) सामुदायिक समर्थन और चर्चा के लिए।
+**Additional Q&A**
 
-### Q4: क्या मैं Aspose.CAD को मुफ़्त में आज़मा सकता हूँ?
+**Q: क्या कैनवास आकार PDF में वेक्टर क्वालिटी को प्रभावित करता है?**  
+A: नहीं। कैनवास आकार पेज डाइमेंशन नियंत्रित करता है; वेक्टर डेटा रिज़ॉल्यूशन‑स्वतंत्र रहता है, जिससे किसी भी ज़ूम लेवल पर स्पष्ट रेंडरिंग सुनिश्चित होती है।
 
- उ4: बिल्कुल! निःशुल्क परीक्षण प्राप्त करें[यहाँ](https://releases.aspose.com/).
+**Q: क्या मैं TIFF आउटपुट के लिए अलग DPI सेट कर सकता हूँ?**  
+A: हाँ। `TiffOptions` बनाने से पहले `rasterizationOptions.setResolution(dpiValue)` को समायोजित करें।
 
-### Q5: मैं जावा के लिए Aspose.CAD कैसे खरीदूं?
+---
 
- A5: उत्पाद खरीदें[यहाँ](https://purchase.aspose.com/buy).
+**अंतिम अपडेट:** 2025-12-10  
+**Tested With:** Aspose.CAD for Java 24.12  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

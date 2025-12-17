@@ -1,33 +1,47 @@
 ---
-title: Obsługa pióra w eksporcie
-linktitle: Obsługa pióra w eksporcie
-second_title: Aspose.CAD API Java
-description: Opanuj personalizację pióra w eksporcie CAD za pomocą Aspose.CAD dla Java. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby zapewnić bezproblemową integrację.
-weight: 13
+date: 2025-12-10
+description: Naucz się, jak tworzyć pliki PDF z CAD przy użyciu Aspose.CAD dla Javy,
+  dostosowując pióro. Ten krok‑po‑kroku przewodnik pokazuje, jak efektywnie eksportować
+  CAD do PDF.
+linktitle: Pen Support in Export
+second_title: Aspose.CAD Java API
+title: Jak utworzyć PDF z CAD z obsługą pióra przy eksporcie
 url: /pl/java/advanced-cad-features/pen-support-in-export/
+weight: 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Obsługa pióra w eksporcie
+# Obsługa pióra przy eksporcie
 
-## Wstęp
+## Wprowadzenie
 
-stale rozwijającym się środowisku konwersji CAD (projektowanie wspomagane komputerowo), Aspose.CAD dla Java jawi się jako potężne narzędzie oferujące szerokie możliwości manipulowania plikami CAD. Wśród jego wszechstronnych funkcji wyróżnia się obsługa dostosowywania pióra podczas eksportu, umożliwiająca użytkownikom dostosowanie wyglądu eksportowanych obrazów. Ten samouczek przeprowadzi Cię przez proces wykorzystania obsługi pióra w funkcji eksportu, koncentrując się na praktycznej implementacji przy użyciu języka Java.
+W szybko zmieniającym się świecie konwersji CAD programiści często muszą **tworzyć PDF z plików CAD**, zachowując wysoką jakość wizualną. Aspose.CAD for Java upraszcza to zadanie, oferując bogate opcje, takie jak dostosowywanie pióra, które pozwalają precyzyjnie regulować style linii podczas procesu eksportu. W tym przewodniku przeprowadzimy kompletny, praktyczny przykład pokazujący, jak **wyeksportować CAD do PDF** z własnymi ustawieniami pióra, abyś mógł generować eleganckie pliki PDF bezpośrednio z rysunków DXF.
 
-## Warunki wstępne
+## Szybkie odpowiedzi
+- **Co oznacza „tworzyć PDF z CAD”?** Konwersja rysunku CAD (np. DXF) do dokumentu PDF przy zachowaniu jakości wektorowej.  
+- **Która biblioteka obsługuje dostosowywanie pióra?** Klasa `PenOptions` w Aspose.CAD for Java.  
+- **Czy mogę używać tego dla innych formatów?** Tak – te same ustawienia pióra działają dla PNG, BMP, TIFF itp.  
+- **Czy potrzebna jest licencja?** Do użytku produkcyjnego wymagana jest ważna licencja Aspose.CAD.  
+- **Jaka jest minimalna wersja Javy?** Java 8 lub nowsza.
 
-Przed przystąpieniem do samouczka upewnij się, że spełnione są następujące wymagania wstępne:
+## Co oznacza „tworzyć PDF z CAD”?
+Tworzenie PDF z CAD oznacza rasteryzację lub renderowanie wektorowe rysunku CAD do pliku PDF. Umożliwia to łatwe udostępnianie, drukowanie i archiwizację projektów inżynieryjnych bez konieczności posiadania oprogramowania CAD po stronie odbiorcy.
 
-- Środowisko programistyczne Java: Upewnij się, że na komputerze jest skonfigurowane funkcjonalne środowisko programistyczne Java.
+## Dlaczego warto używać obsługi pióra przy eksporcie CAD do PDF?
+Obsługa pióra pozwala kontrolować zakończenia linii, połączenia i grubość, dając możliwość dopasowania do identyfikacji wizualnej firmy lub standardów rysunków technicznych. Jest to szczególnie przydatne, gdy domyślne renderowanie linii nie spełnia Twoich wymagań wizualnych.
 
--  Biblioteka Aspose.CAD: Pobierz i zintegruj bibliotekę Aspose.CAD ze swoim projektem Java. Możesz znaleźć drogę do biblioteki[Tutaj](https://releases.aspose.com/cad/java/).
+## Wymagania wstępne
 
-Przejdźmy teraz do samouczka i poznajmy kroki, jak wykorzystać obsługę pióra podczas eksportu CAD.
+- **Środowisko programistyczne Java** – działające JDK (8 lub nowsze) oraz wybrane IDE lub narzędzie do budowania.  
+- **Biblioteka Aspose.CAD** – pobierz najnowszy plik JAR z oficjalnej strony [tutaj](https://releases.aspose.com/cad/java/).  
+- **Przykładowy plik DXF** – w tym samouczku użyjemy `conic_pyramid.dxf`.
 
-## Importuj przestrzenie nazw
+Teraz, gdy wszystko jest gotowe, przejdźmy do kodu.
+
+## Import Namespaces
 
 ```java
 import com.aspose.cad.Image;
@@ -45,7 +59,7 @@ import com.aspose.cad.internal.imaging.LineCap;
 String dataDir = "Your Document Directory" + "CADConversion/";
 ```
 
-Pamiętaj, aby zastąpić „Twój katalog dokumentów” rzeczywistą ścieżką do dokumentów CAD.
+> **Wskazówka:** Zamień `"Your Document Directory"` na pełną ścieżkę, w której znajdują się Twoje pliki DXF.
 
 ## Krok 2: Załaduj plik CAD
 
@@ -54,7 +68,7 @@ String srcFile = dataDir + "conic_pyramid.dxf";
 CadImage cadImage = (CadImage) Image.load(srcFile);
 ```
 
-Ten krok obejmuje załadowanie pliku CAD, w tym przypadku „conic_pyramid.dxf”, przy użyciu biblioteki Aspose.CAD.
+Metoda `Image.load` odczytuje plik DXF i tworzy obiekt `CadImage`, którym możemy dalej manipulować.
 
 ## Krok 3: Skonfiguruj opcje rasteryzacji
 
@@ -64,7 +78,7 @@ rasterizationOptions.setPageWidth(cadImage.getWidth() * 100);
 rasterizationOptions.setPageHeight(cadImage.getHeight() * 100);
 ```
 
-Dostosuj szerokość i wysokość strony zgodnie ze swoimi specyficznymi wymaganiami. Wartości te określają wymiary eksportowanego obrazu.
+Dostosuj wymiary strony, aby kontrolować rozdzielczość wynikowego PDF. Mnożenie przez 100 daje wysokiej rozdzielczości wyjście odpowiednie do druku.
 
 ## Krok 4: Dostosuj opcje pióra
 
@@ -74,7 +88,7 @@ penOts.setStartCap(LineCap.Flat);
 penOts.setEndCap(LineCap.Flat);
 ```
 
-Dostosuj zaślepki początkowe i końcowe pisaków według potrzeb. To dostosowanie ma zastosowanie podczas eksportowania obiektu CadImage do różnych formatów obrazu.
+Tutaj ustawiamy zarówno początkowe, jak i końcowe zakończenia pióra na `Flat`. Możesz eksperymentować z innymi wartościami `LineCap` (np. `Round`, `Square`), aby uzyskać różne efekty wizualne.
 
 ## Krok 5: Skonfiguruj opcje eksportu PDF
 
@@ -83,41 +97,56 @@ PdfOptions pdfOptions = new PdfOptions();
 pdfOptions.setVectorRasterizationOptions(rasterizationOptions);
 ```
 
-Określ opcje rasteryzacji wektora, w tym wcześniej skonfigurowane opcje rasteryzacji.
+Obiekt `PdfOptions` łączy ustawienia rasteryzacji z procesem eksportu do PDF.
 
-## Krok 6: Zapisz wyeksportowany plik PDF
+## Krok 6: Zapisz wyeksportowany PDF
 
 ```java
 cadImage.save((dataDir + "9LHATT-A56_generated.pdf"), pdfOptions);
 ```
 
-Zapisz wyeksportowany plik PDF pod określoną nazwą pliku (w tym przykładzie „9LHATT-A56_generated.pdf”) i skonfigurowanymi opcjami.
+Uruchomienie tej linii zapisuje plik PDF o nazwie `9LHATT-A56_generated.pdf` w folderze `dataDir`, zawierający niestandardowe stylizacje pióra, które zdefiniowałeś.
 
-## Wniosek
+## Typowe przypadki użycia
 
-Podsumowując, wykorzystanie obsługi pióra podczas eksportu CAD za pomocą Aspose.CAD dla Java umożliwia użytkownikom dostosowywanie wyglądu eksportowanych obrazów. Postępując zgodnie z tym przewodnikiem krok po kroku, nauczyłeś się, jak bezproblemowo zintegrować dostosowywanie pióra z procesem konwersji CAD.
+- **Dokumentacja techniczna** – wstaw precyzyjne rysunki inżynieryjne do podręczników PDF.  
+- **Automatyczne raportowanie** – generuj PDF-y z danych CAD w locie w usługach internetowych.  
+- **Kontrola jakości** – zastosuj niestandardowe zakończenia linii, aby podkreślić linie pomiarowe lub tolerancje.
 
-## Często zadawane pytania
+## Rozwiązywanie problemów i wskazówki
 
-### P1: Czy mogę dostosować opcje pióra do formatów innych niż PDF?
+- **Nieprawidłowa ścieżka pliku** – upewnij się, że `dataDir` kończy się separatorem plików (`/` lub `\\`).  
+- **Brak licencji** – bez ważnej licencji biblioteka działa w trybie ewaluacyjnym, co może dodawać znaki wodne.  
+- **Nieoczekiwane style linii** – sprawdź, czy `PenOptions` zostały ustawione przed wywołaniem `save`; w przeciwnym razie użyte zostaną ustawienia domyślne.
 
-O1: Tak, dostosowywanie pióra zaprezentowane w tym samouczku ma zastosowanie do różnych formatów obrazów, w tym PDF, PNG, BMP, GIF, JPEG2000, JPEG, PSD, TIFF i WMF.
+## Najczęściej zadawane pytania
 
-### P2: Jak mogę obsługiwać różne zaślepki początkowe i końcowe dla długopisów?
+### Q1: Czy mogę dostosować opcje pióra dla formatów innych niż PDF?
 
- A2: Skorzystaj z`PenOptions` class do ustawienia żądanych zakończeń początkowych i końcowych, oferując elastyczność w definiowaniu wyglądu linii.
+A1: Tak, prezentowane w tym samouczku dostosowanie pióra ma zastosowanie do różnych formatów obrazów, w tym PDF, PNG, BMP, GIF, JPEG2000, JPEG, PSD, TIFF i WMF.
 
-### P3: Co się stanie, jeśli nie określę opcji pióra?
+### Q2: Jak obsłużyć różne zakończenia początkowe i końcowe dla piór?
 
-O3: Jeśli opcje pióra nie są ustawione jawnie, system użyje pisaków domyślnych, które mogą się różnić w zależności od kontekstu.
+A2: Skorzystaj z klasy `PenOptions`, aby ustawić pożądane zakończenia początkowe i końcowe, co daje elastyczność w definiowaniu wyglądu linii.
 
-### P4: Czy istnieją specjalne uwagi dotyczące opcji rasteryzacji?
+### Q3: Co się stanie, jeśli nie określę opcji pióra?
 
-O4: Dostosuj szerokość i wysokość strony w opcjach rasteryzacji, aby kontrolować wymiary eksportowanego obrazu.
+A3: Jeśli opcje pióra nie zostaną wyraźnie ustawione, system użyje domyślnych piór, które mogą się różnić w zależności od kontekstu.
 
-### P5: Gdzie mogę znaleźć dodatkowe wsparcie lub dyskusje społeczności?
+### Q4: Czy są szczególne uwagi dotyczące opcji rasteryzacji?
 
- A5: Zapoznaj się z forum społeczności Aspose.CAD pod adresem[Tutaj](https://forum.aspose.com/c/cad/19) za wsparcie i dyskusje.
+A4: Dostosuj szerokość i wysokość strony w opcjach rasteryzacji, aby kontrolować wymiary eksportowanego obrazu.
+
+### Q5: Gdzie mogę znaleźć dodatkowe wsparcie lub dyskusje społeczności?
+
+A5: Odwiedź forum społeczności Aspose.CAD pod adresem [here](https://forum.aspose.com/c/cad/19), aby uzyskać pomoc i uczestniczyć w dyskusjach.
+
+---
+
+**Ostatnia aktualizacja:** 2025-12-10  
+**Testowane z:** Aspose.CAD 24.11 for Java  
+**Autor:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

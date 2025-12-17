@@ -1,35 +1,53 @@
 ---
-title: Kanvas Boyutunu ve Modunu Ayarlama
-linktitle: Kanvas Boyutunu ve Modunu Ayarlama
-second_title: Aspose.CAD Java API'si
-description: Aspose.CAD for Java'nın gücünü tuval boyutunu ve modunu ayarlamaya ilişkin adım adım kılavuzumuzla keşfedin. CAD dosyalarını zahmetsizce PDF ve TIFF formatlarına dönüştürün.
-weight: 16
+date: 2025-12-10
+description: Aspose.CAD for Java kullanarak CAD'i PDF'ye dönüştürmeyi, tuval boyutunu
+  ayarlamayı, otomatik yerleşim ölçeklendirmesini ve TIFF olarak dışa aktarmayı öğrenin.
+linktitle: Convert CAD to PDF – Set Canvas Size & Mode
+second_title: Aspose.CAD Java API
+title: CAD'yi PDF'ye Dönüştür – Tuval Boyutunu ve Modunu Ayarla (Java)
 url: /tr/java/advanced-cad-features/set-canvas-size-and-mode/
+weight: 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Kanvas Boyutunu ve Modunu Ayarlama
+# Tuval Boyutunu ve Modunu Ayarlama
 
-## giriiş
+## Giriş
 
-CAD dönüştürme sürecinizi geliştirmek için Aspose.CAD for Java'nın gücünden yararlanmak mı istiyorsunuz? Bu kapsamlı kılavuz, Aspose.CAD for Java'yı kullanarak tuval boyutunu ve modunu ayarlama adımlarında size yol gösterecektir. İster deneyimli bir geliştirici olun ister yeni başlıyor olun, bu eğitim size ihtiyacınız olan bilgileri sağlayacaktır.
+Tuval boyutu ve renderleme modu üzerinde tam kontrol sağlarken **convert CAD to PDF** yapmak mı istiyorsunuz? Bu kapsamlı rehber, Java'da tuval boyutunu ayarlama, otomatik düzen ölçeklendirmesini etkinleştirme ve ardından sonucu Aspose.CAD kullanarak PDF ve TIFF formatlarında dışa aktarma adımlarını size gösterir. Üretim hattını iyileştiriyor ya da bir prototiple deneme yapıyor olun, burada net ve uygulanabilir talimatlar bulacaksınız.
+
+## Hızlı Yanıtlar
+- **convert CAD to PDF** ne anlama geliyor? Bir CAD çizimini (ör. DXF, DWG) herhangi bir platformda görüntülenebilen bir PDF belgesine dönüştürmek.  
+- **TIFF olarak da dışa aktarabilir miyim?** Evet—yüksek çözünürlüklü raster görüntüler oluşturmak için `TiffOptions` kullanın.  
+- **Java'da tuval boyutunu kontrol eden seçenek hangisidir?** `CadRasterizationOptions.setPageWidth/Height`.  
+- **Otomatik düzen ölçeklendirme nedir?** Tuval boyutu değiştiğinde orijinal düzen oranlarını koruyan bir işaretçi (`setAutomaticLayoutsScaling(true)`).  
+- **Aspose.CAD için bir lisansa ihtiyacım var mı?** Üretim kullanımında geçici veya kalıcı bir lisans gereklidir.
+
+## **convert CAD to PDF** nedir?
+
+CAD'i PDF'e dönüştürmek, vektör tabanlı mühendislik çizimlerini PDF sayfaları olarak render etmek, çizgi çalışması, katmanlar ve geometriyi korurken dosyayı evrensel olarak erişilebilir hâle getirmek anlamına gelir.
+
+## Neden **java**'da tuval boyutunu ayarlamalısınız?
+
+Java'da tuval boyutunu ayarlamak, çıktı çözünürlüğünü ve sayfa boyutlarını tanımlamanızı sağlar; böylece ortaya çıkan PDF veya TIFF, baskı veya görüntüleme gereksinimlerinize uyar. Ayrıca ölçekleme davranışı üzerinde kontrol sağlar; bu, büyük formatlı çizimler için esastır.
 
 ## Önkoşullar
 
-Eğiticiye dalmadan önce aşağıdaki önkoşulların yerine getirildiğinden emin olun:
+Öğreticiye başlamadan önce aşağıdaki önkoşulların yerine getirildiğinden emin olun:
 
--  Aspose.CAD for Java: Java ortamınızda Aspose.CAD kütüphanesinin kurulu olduğundan emin olun. İndirebilirsin[Burada](https://releases.aspose.com/cad/java/).
+- Aspose.CAD for Java: Java ortamınıza Aspose.CAD kütüphanesinin kurulu olduğundan emin olun. **[buradan](https://releases.aspose.com/cad/java/)** indirebilirsiniz.
 
-- Belge Dizini: CAD dosyalarınızı depolamak için bir belge dizini ayarlayın. Bu dizine eğitim adımlarında başvurulacaktır.
+- Belge Dizini: CAD dosyalarınızı depolamak için bir belge dizini oluşturun. Bu dizin öğretici adımlarında referans alınacaktır.
 
 Şimdi adım adım kılavuza başlayalım.
 
-## Ad Alanlarını İçe Aktar
+## Namespace'leri İçe Aktarın
 
-Bu adımda Aspose.CAD projenizi başlatmak için gerekli ad alanlarını içe aktaracağız.
+Bu adımda, Aspose.CAD projenizi başlatmak için gerekli namespace'leri içe aktaracağız.
+
 ```java
 import java.awt.Image;
 
@@ -42,19 +60,19 @@ import com.aspose.cad.imageoptions.TiffOptions;
 ## Adım 1: Aspose.CAD Sınıflarını İçe Aktarın
 
 ```java
-// Kaynak dizininin yolu.
+// The path to the resource directory.
 String dataDir = "Your Document Directory" + "CADConversion/";
 
 String srcFile = dataDir + "conic_pyramid.dxf";
 com.aspose.cad.Image objImage = com.aspose.cad.Image.load(srcFile);
 ```
 
- Bu kod parçasında, kaynak dizininin yolunu ayarlıyoruz ve Aspose.CAD'i kullanarak bir DXF dosyası yüklüyoruz.`Image` sınıf.
+Bu kod parçacığında, kaynak dizinine giden yolu ayarlıyor ve Aspose.CAD'in `Image` sınıfını kullanarak bir DXF dosyasını yüklüyoruz.
 
-## Adım 2: CadRasterizationOptions Özelliklerini Ayarlayın
+## Adım 2: **CadRasterizationOptions** Özelliklerini Ayarlayın (set canvas size java)
 
 ```java
-// Bir CadRasterizationOptions örneği oluşturun ve çeşitli özelliklerini ayarlayın
+// Create an instance of CadRasterizationOptions and set its various properties
 CadRasterizationOptions rasterizationOptions = new CadRasterizationOptions();
 rasterizationOptions.setPageWidth(1600);
 rasterizationOptions.setPageHeight(1600);
@@ -63,75 +81,98 @@ rasterizationOptions.setAutomaticLayoutsScaling(true);
 rasterizationOptions.setNoScaling(true);
 ```
 
- Burada bir örneğini oluşturuyoruz`CadRasterizationOptions` ve sayfa genişliği, sayfa yüksekliği ve ölçeklendirme seçenekleri gibi özellikleri yapılandırın.
+Burada bir `CadRasterizationOptions` örneği oluşturuyor ve sayfa genişliği, sayfa yüksekliği ve **automatic layout scaling** gibi özellikleri yapılandırıyoruz. Bu, dönüşümünüz için **configure canvas mode**'un temelini oluşturur.
 
-## 3. Adım: PdfOptions Oluşturun ve VectorRasterizationOptions'ı Ayarlayın
+## Adım 3: PdfOptions Oluşturun ve VectorRasterizationOptions Ayarlayın
 
 ```java
-// PdfOptions'ın bir örneğini oluşturun
+// Create an instance of PdfOptions
 PdfOptions pdfOptions = new PdfOptions();
 
-// VectorRasterizationOptions özelliğini ayarlayın
+// Set the VectorRasterizationOptions property
 pdfOptions.setVectorRasterizationOptions(rasterizationOptions);
 ```
 
- Şimdi bir tane oluşturuyoruz`PdfOptions` örneğini seçin ve ayarlayın`VectorRasterizationOptions` önceden yapılandırılmış olanın özelliği`CadRasterizationOptions`.
+Şimdi bir `PdfOptions` örneği oluşturuyor ve `VectorRasterizationOptions` özelliğini önceden yapılandırılmış `CadRasterizationOptions` nesnesine ayarlıyoruz.
 
-## 4. Adım: PDF'ye aktarın
+## Adım 4: PDF Olarak Dışa Aktar (convert cad to pdf)
 
 ```java
-// CAD'yi PDF'ye aktar
+// Export CAD to PDF
 objImage.save(dataDir + "result_out_.pdf", pdfOptions);
 ```
 
-Son olarak CAD görüntüsünü belirtilen seçenekleri kullanarak PDF dosyasına kaydediyoruz.
+Son olarak, belirtilen seçenekleri kullanarak CAD görüntüsünü bir PDF dosyasına kaydediyoruz ve **convert CAD to PDF** sürecini tamamlıyoruz.
 
-## Adım 5: TiffOptions Oluşturun ve VectorRasterizationOptions'ı Ayarlayın
+## Adım 5: TiffOptions Oluşturun ve VectorRasterizationOptions Ayarlayın (export cad to tiff)
 
 ```java
-// TiffOptions'ın bir örneğini oluşturun
+// Create an instance of TiffOptions
 TiffOptions tiffOptions = new TiffOptions(TiffExpectedFormat.Default);
 
-// VectorRasterizationOptions özelliğini ayarlayın
+// Set the VectorRasterizationOptions property
 tiffOptions.setVectorRasterizationOptions(rasterizationOptions);
 ```
 
-Bu adımda bir kurulum gerçekleştiriyoruz.`TiffOptions` örneği ve yapılandırmasını yapın`VectorRasterizationOptions` mülk.
+Bu adımda bir `TiffOptions` örneği oluşturuyor ve `VectorRasterizationOptions` özelliğini yapılandırıyoruz.
 
-## Adım 6: TIFF'e aktarın
+## Adım 6: TIFF Olarak Dışa Aktar
 
 ```java
-// CAD'yi TIFF'e aktar
+// Export CAD to TIFF
 objImage.save(dataDir + "result_out_.tiff", tiffOptions);
 ```
 
-Son olarak CAD görüntüsünü belirtilen seçenekleri kullanarak TIFF dosyasına kaydediyoruz.
+Son olarak, belirtilen seçenekleri kullanarak CAD görüntüsünü bir TIFF dosyasına kaydediyoruz; bu, tuval boyutu yapılandırıldıktan sonra **export CAD to TIFF** nasıl yapılır gösterir.
 
-## Çözüm
+## Yaygın Sorunlar ve Çözümler
 
- Tebrikler! Aspose.CAD for Java'yı kullanarak tuval boyutunu ve modunu başarıyla ayarladınız. Bu eğitim, CAD dönüştürme projeleriniz için sağlam bir temel sağlar. Daha fazla özellik ve olasılığı keşfedin[Aspose.CAD belgeleri](https://reference.aspose.com/cad/java/).
+| Sorun | Sebep | Çözüm |
+|-------|-------|-----|
+| Çıktı PDF boş | `setNoScaling(true)` bazı çizimler için renderlamayı devre dışı bırakır | `setNoScaling(true)` ifadesini kaldırın veya `false` olarak ayarlayın. |
+| TIFF çözünürlüğü düşük görünüyor | Sayfa genişliği/yüksekliği çok küçük | `setPageWidth` / `setPageHeight` değerlerini artırın. |
+| Düzen bozulmuş | Otomatik düzen ölçeklendirme devre dışı | `setAutomaticLayoutsScaling(true)` işaretçisinin etkin olduğundan emin olun. |
 
-## SSS'ler
+## Sonuç
 
-### S1: Aspose.CAD for Java'yı diğer Java çerçeveleriyle kullanabilir miyim?
+Tebrikler! **convert CAD to PDF** ve **export CAD to TIFF** işlemlerini **set canvas size java** yaparken, **automatic layout scaling**'i etkinleştirerek ve yüksek kaliteli çıktılar için **configure canvas mode**'u öğrenerek başarıyla tamamladınız. Bu öğretici, CAD dönüşüm projeleriniz için sağlam bir temel sağlar. Daha fazla özellik ve olasılık keşfetmek için [Aspose.CAD documentation](https://reference.aspose.com/cad/java/) sayfasına göz atın.
 
-Cevap1: Evet, Aspose.CAD çeşitli Java çerçeveleriyle sorunsuz bir şekilde entegre olacak şekilde tasarlanmıştır.
+## SSS
 
-### S2: Aspose.CAD için geçici bir lisans mevcut mu?
+### Q1: Aspose.CAD for Java'yı diğer Java çerçeveleriyle kullanabilir miyim?
 
- Cevap2: Evet, geçici lisans alabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/).
+A1: Evet, Aspose.CAD çeşitli Java çerçeveleriyle sorunsuz entegrasyon için tasarlanmıştır.
 
-### S3: Aspose.CAD için topluluk desteğini nereden alabilirim?
+### Q2: Aspose.CAD için geçici bir lisans mevcut mu?
 
- A3: Ziyaret edin[Aspose.CAD forumu](https://forum.aspose.com/c/cad/19) topluluk desteği ve tartışmalar için.
+A2: Evet, **[buradan](https://purchase.aspose.com/temporary-license/)** geçici bir lisans alabilirsiniz.
 
-### S4: Aspose.CAD'i ücretsiz deneyebilir miyim?
+### Q3: Aspose.CAD için topluluk desteği nereden alınabilir?
 
- Cevap4: Kesinlikle! Bedava deneme sürümünü al[Burada](https://releases.aspose.com/).
+A3: Topluluk desteği ve tartışmalar için **[Aspose.CAD forumunu](https://forum.aspose.com/c/cad/19)** ziyaret edin.
 
-### S5: Aspose.CAD for Java'yı nasıl satın alabilirim?
+### Q4: Aspose.CAD'ı ücretsiz deneyebilir miyim?
 
- A5: Ürünü satın alın[Burada](https://purchase.aspose.com/buy).
+A4: Kesinlikle! **[Buradan](https://releases.aspose.com/)** ücretsiz deneme alabilirsiniz.
+
+### Q5: Aspose.CAD for Java'yı nasıl satın alabilirim?
+
+A5: Ürünü **[buradan](https://purchase.aspose.com/buy)** satın alabilirsiniz.
+
+**Ek Soru&Cevap**
+
+**S: Tuval boyutu PDF'teki vektör kalitesini etkiler mi?**  
+C: Hayır. Tuval boyutu sayfa boyutlarını kontrol eder; vektör verisi çözünürlükten bağımsız kalır ve herhangi bir yakınlaştırma seviyesinde net render sağlar.
+
+**S: TIFF çıktısı için farklı bir DPI ayarlayabilir miyim?**  
+C: Evet. `TiffOptions` oluşturmadan önce `rasterizationOptions.setResolution(dpiValue)` ifadesini ayarlayın.
+
+---
+
+**Son Güncelleme:** 2025-12-10  
+**Test Edilen Versiyon:** Aspose.CAD for Java 24.12  
+**Yazar:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

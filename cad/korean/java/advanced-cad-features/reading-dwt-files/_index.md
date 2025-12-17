@@ -1,33 +1,41 @@
 ---
-title: DWT 파일 읽기
-linktitle: DWT 파일 읽기
-second_title: Aspose.CAD 자바 API
-description: Aspose.CAD를 사용하여 Java에서 DWT 파일을 읽는 마스터입니다. 원활한 통합을 위한 단계별 가이드를 따르세요.
-weight: 14
+date: 2025-12-10
+description: Aspose.CAD를 사용하여 Java에서 dwt 파일을 읽는 방법을 배워보세요. 원활한 통합을 위한 단계별 가이드를 따라가세요.
+linktitle: How to Read DWT Files with Aspose.CAD for Java
+second_title: Aspose.CAD Java API
+title: Aspose.CAD for Java를 사용하여 DWT 파일 읽는 방법
 url: /ko/java/advanced-cad-features/reading-dwt-files/
+weight: 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# DWT 파일 읽기
+# DWT 파일 읽는 방법
 
-## 소개
+## DWT 파일 읽는 방법 – 소개
 
-Java 개발의 동적 영역에서 Aspose.CAD는 CAD(Computer-Aided Design) 파일을 원활하게 조작할 수 있는 강력한 도구입니다. 특히 이 튜토리얼에서는 Aspose.CAD for Java를 사용하여 DWT 파일을 읽는 과정을 안내합니다. 결국에는 관련된 단계를 포괄적으로 이해하게 되어 이 기능을 프로젝트에 쉽게 통합할 수 있게 됩니다.
+이 튜토리얼에서는 Java에서 Aspose.CAD를 사용하여 **dwt 파일 읽는 방법**을 알아봅니다. Aspose.CAD는 CAD 데이터를 조작하기 위한 강력한 라이브러리입니다. 가이드를 마치면 Java 프로젝트에 DWT 파일 읽기를 자신 있게 통합할 수 있게 됩니다.
+
+## 빠른 답변
+- **필요한 라이브러리는 무엇인가요?** Aspose.CAD for Java  
+- **이 튜토리얼에서 다루는 파일 형식은 무엇인가요?** DWT (AutoCAD Drawing Template)  
+- **개발에 라이선스가 필요합니까?** 테스트용 임시 라이선스를 사용할 수 있습니다  
+- **지원되는 Java 버전은 무엇인가요?** Aspose.CAD와 호환되는 모든 JDK (전제 조건 참고)  
+- **도면에서 글꼴을 사용자 정의할 수 있나요?** 예, 스타일‑customization 단계 사용  
 
 ## 전제 조건
 
-이 여정을 시작하기 전에 다음과 같은 전제 조건이 갖추어져 있는지 확인하세요.
+이 여정을 시작하기 전에 다음 전제 조건이 준비되어 있는지 확인하십시오:
 
-- JDK(Java Development Kit): Java용 Aspose.CAD를 사용하려면 시스템에 호환 가능한 JDK가 설치되어 있어야 합니다. 다음에서 최신 버전을 다운로드하여 설치하세요.[JDK 웹사이트](https://www.oracle.com/java/technologies/javase-downloads.html).
+- Java Development Kit (JDK): Aspose.CAD for Java는 시스템에 호환되는 JDK가 설치되어 있어야 합니다. 최신 버전은 [JDK website](https://www.oracle.com/java/technologies/javase-downloads.html)에서 다운로드하고 설치하십시오.
 
--  Aspose.CAD for Java 라이브러리: Aspose.CAD for Java 라이브러리가 필요합니다. 통해 얻을 수 있습니다.[다운로드 링크](https://releases.aspose.com/cad/java/).
+- Aspose.CAD for Java Library: Aspose.CAD for Java 라이브러리가 필요합니다. [download link](https://releases.aspose.com/cad/java/)를 통해 얻을 수 있습니다.
 
 ## 네임스페이스 가져오기
 
-Java 세계에서는 원활한 통합을 위해 올바른 네임스페이스를 가져오는 것이 중요합니다. 방법은 다음과 같습니다.
+Java 세계에서는 올바른 네임스페이스를 가져오는 것이 원활한 통합을 위해 중요합니다. 다음과 같이 수행합니다:
 
 ```java
 import java.awt.Image;
@@ -38,19 +46,19 @@ import com.aspose.cad.fileformats.cad.cadobjects.acadtable.CadTableEntity;
 import com.aspose.cad.fileformats.cad.cadtables.CadStyleTableObject;
 ```
 
-## 1단계: 환경 설정
+## 단계 1: 환경 설정
 
-프로젝트를 생성하고 환경을 설정하는 것부터 시작하세요. 프로젝트에 Aspose.CAD 라이브러리가 추가되었는지 확인하세요.
+프로젝트를 생성하고 환경을 설정하십시오. Aspose.CAD 라이브러리가 프로젝트에 추가되어 있는지 확인하십시오.
 
-## 2단계: 리소스 디렉터리 정의
+## 단계 2: 리소스 디렉터리 정의
 
 ```java
 String dataDir = "Your Document Directory" + "CADConversion/";
 ```
 
-그러면 CAD 파일이 있는 디렉터리가 설정됩니다.
+이것은 CAD 파일이 위치한 디렉터리를 설정합니다.
 
-## 3단계: 소스 DWT 파일 지정
+## 단계 3: 원본 DWT 파일 지정
 
 ```java
 String srcFile = dataDir + "conic_pyramid.dxf";
@@ -58,15 +66,15 @@ String srcFile = dataDir + "conic_pyramid.dxf";
 
 읽으려는 DWT 파일의 경로를 정의합니다.
 
-## 4단계: CAD 도면 로드
+## 단계 4: CAD 도면 로드
 
 ```java
 CadImage objImage = (CadImage) Image.load(srcFile);
 ```
 
- 그러면 지정된 DWT 파일이 다음의 인스턴스로 로드됩니다.`CadImage` 추가 처리를 위해.
+이 코드는 지정된 DWT 파일을 `CadImage` 인스턴스로 로드하여 추가 처리에 사용할 수 있게 합니다.
 
-## 5단계: 스타일 사용자 정의
+## 단계 5: 스타일 사용자 정의
 
 ```java
 for (Object style : objImage.getStyles()) {
@@ -74,33 +82,35 @@ for (Object style : objImage.getStyles()) {
 }
 ```
 
-CAD 이미지의 스타일을 반복하고 기본 글꼴 이름을 설정하여 Aspose.CAD가 사용자 정의에 제공하는 유연성을 보여줍니다.
+CAD 이미지의 스타일을 반복하면서 기본 글꼴 이름을 설정합니다. 이는 Aspose.CAD가 제공하는 사용자 정의 유연성을 보여줍니다.
 
 ## 결론
 
-축하해요! Aspose.CAD for Java를 사용하여 DWT 파일을 읽는 복잡한 과정을 성공적으로 탐색했습니다. 이 튜토리얼에서는 이 기능을 Java 프로젝트에 원활하게 통합하는 데 필요한 지식을 제공합니다.
+축하합니다! Aspose.CAD for Java를 사용하여 DWT 파일을 읽는 복잡한 과정을 성공적으로 수행했습니다. 이 튜토리얼을 통해 이 기능을 Java 프로젝트에 원활하게 통합할 수 있는 지식을 얻었습니다.
 
-## FAQ
+## 자주 묻는 질문
 
-### Q1: 다른 Java 프레임워크와 함께 Java용 Aspose.CAD를 사용할 수 있습니까?
-
+### Q1: Aspose.CAD for Java를 다른 Java 프레임워크와 함께 사용할 수 있나요?
 A1: 예, Aspose.CAD for Java는 다양한 Java 프레임워크와 호환되도록 설계되어 개발 환경에 유연성을 제공합니다.
 
-### Q2: 테스트 목적으로 임시 라이센스를 사용할 수 있습니까?
+### Q2: 테스트용 임시 라이선스를 제공하나요?
+A2: 예, [this link](https://purchase.aspose.com/temporary-license/)를 방문하여 테스트용 임시 라이선스를 얻을 수 있습니다.
 
- A2: 예, 다음 사이트를 방문하면 테스트용 임시 라이센스를 얻을 수 있습니다.[이 링크](https://purchase.aspose.com/temporary-license/).
+### Q3: 추가 지원을 받거나 문제를 논의할 수 있는 곳은 어디인가요?
+A3: [Aspose.CAD forum](https://forum.aspose.com/c/cad/19)을 방문하여 커뮤니티와 소통하고 전문가에게 도움을 요청하십시오.
 
-### Q3: 추가 지원을 찾거나 문제를 논의할 수 있는 곳은 어디입니까?
+### Q4: 무료 체험 버전이 있나요?
+A4: 예, [free trial version](https://releases.aspose.com/)에 접속하여 Aspose.CAD for Java의 기능을 살펴볼 수 있습니다.
 
- A3: 다음을 방문하세요.[Aspose.CAD 포럼](https://forum.aspose.com/c/cad/19) 지역사회에 참여하고 전문가의 도움을 구합니다.
+### Q5: Aspose.CAD for Java를 구매하려면 어떻게 해야 하나요?
+A5: 정식 버전을 구매하려면 [purchase link](https://purchase.aspose.com/buy)를 방문하십시오.
 
-### Q4: 무료 평가판을 사용할 수 있나요?
+---
 
- A4: 예, 다음 페이지에 액세스하여 Aspose.CAD for Java의 기능을 탐색할 수 있습니다.[무료 평가판](https://releases.aspose.com/).
+**마지막 업데이트:** 2025-12-10  
+**테스트 환경:** Aspose.CAD for Java (latest release)  
+**작성자:** Aspose
 
-### Q5: Java용 Aspose.CAD를 어떻게 구매하나요?
-
- A5: 정식 버전을 구입하려면 다음을 방문하세요.[구매링크](https://purchase.aspose.com/buy).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
