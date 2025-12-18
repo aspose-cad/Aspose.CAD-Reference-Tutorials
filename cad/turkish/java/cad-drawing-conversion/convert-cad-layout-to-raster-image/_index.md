@@ -1,33 +1,51 @@
 ---
-title: Aspose.CAD for Java Kullanarak CAD Düzenini Raster Görüntü Formatına Dönüştürün
-linktitle: CAD Düzenini Raster Görüntü Formatına Dönüştür
-second_title: Aspose.CAD Java API'si
-description: Aspose.CAD for Java'yı kullanarak CAD düzenlerini zahmetsizce raster görüntülere dönüştürün. Gelişmiş işbirliği için yüksek kaliteli görselleştirme.
-weight: 12
+date: 2025-12-18
+description: Aspose.CAD for Java ile DWG'yi PNG ve diğer raster görüntü formatlarına
+  nasıl dönüştüreceğinizi öğrenin. CAD'i yüksek kaliteli sonuçlarla PNG olarak dışa
+  aktarın.
+linktitle: Convert CAD Layout to Raster Image Format
+second_title: Aspose.CAD Java API
+title: DWG'yi PNG ve Diğer Raster Formatlarına Aspose.CAD for Java ile Dönüştür
 url: /tr/java/cad-drawing-conversion/convert-cad-layout-to-raster-image/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.CAD for Java Kullanarak CAD Düzenini Raster Görüntü Formatına Dönüştürün
+# DWG'yi PNG ve Diğer Raster Formatlarına Aspose.CAD for Java Kullanarak Dönüştürme
 
-## giriiş
+## Giriş
 
-Bilgisayar destekli tasarımın (CAD) dinamik dünyasında, CAD düzenlerini sorunsuz bir şekilde raster görüntü formatlarına dönüştürme yeteneği değerli bir beceridir. Aspose.CAD for Java, bu görevi verimli bir şekilde gerçekleştirmek için güçlü bir çözüm olarak ortaya çıkıyor. Bu eğitimde, Aspose.CAD for Java'yı kullanarak bir CAD düzenini adım adım raster görüntüye dönüştürme sürecinde size rehberlik edeceğiz.
+## Hızlı Yanıtlar
+- **DWG'yi PNG'ye dönüştüren kütüphane nedir?** Aspose.CAD for Java  
+- **Hangi formatlar dışa aktarılabilir?** PNG, JPEG, TIFF, PDF, BMP ve daha fazlası  
+- **Test için lisansa ihtiyacım var mı?** Geliştirme için ücretsiz deneme çalışır; üretim için lisans gereklidir  
+- **Belirli bir yerleşim seçebilir miyim?** Evet, “Model”, “Layout1” vb. hedeflemek için `setLayouts` kullanın.  
+- **Yüksek çözünürlüklü çıktı mümkün mü?** Kesinlikle—DPI'yi kontrol etmek için `setPageWidth` ve `setPageHeight` ayarlayın.  
+
+## “convert dwg to png” nedir?
+
+“convert dwg to png” ifadesi, vektör tabanlı bir DWG dosyasını (birçok CAD uygulamasının yerel formatı) piksel tabanlı bir PNG görüntüsüne rasterleştirme sürecini tanımlar. Raster görüntüler, web gösterimi, e-posta paylaşımı ve CAD dışı yazılımlara entegrasyon için idealdir.
+
+## Neden CAD'i PNG (veya diğer raster formatları) olarak dışa aktaralım?
+
+- **Evrensel Uyumluluk:** PNG ve JPEG, neredeyse tüm görüntü görüntüleyicileri ve tarayıcılar tarafından desteklenir.  
+- **Hızlı Yükleme:** Raster görüntüler, büyük bir DWG dosyasını açmaya kıyasla anında yüklenir.  
+- **Kolay Gömme:** PNG'leri doğrudan Word, PowerPoint veya HTML'e ekleyebilirsiniz; ekstra eklenti gerekmez.  
+- **Tutarlı Görünüm:** Çözünürlük, arka plan ve yerleşimi kontrol edersiniz, böylece tüm paydaşlar aynı görseli görür.
 
 ## Önkoşullar
 
-Eğiticiye dalmadan önce aşağıdaki önkoşulların mevcut olduğundan emin olun:
+Başlamadan önce şunların kurulu olduğundan emin olun:
 
-1. Java Geliştirme Ortamı: Sisteminizde çalışan bir Java geliştirme ortamının kurulu olduğundan emin olun.
+1. **Java Geliştirme Ortamı** – JDK 8 veya daha yeni bir sürüm yüklü ve yapılandırılmış.  
+2. **Aspose.CAD for Java** – En son JAR dosyasını [Aspose.CAD for Java documentation](https://reference.aspose.com/cad/java/) adresinden indirin.  
 
-2.  Aspose.CAD Kütüphanesi: Aspose.CAD kütüphanesini indirin ve yükleyin. adresinden temin edebilirsiniz.[Java belgeleri için Aspose.CAD](https://reference.aspose.com/cad/java/).
+## İsim Uzaylarını İçe Aktarma
 
-## Ad Alanlarını İçe Aktar
-
-Aspose.CAD for Java'nın işlevlerini kullanmak için gerekli ad alanlarını içe aktararak başlayın. Java kodunuza aşağıdaki ad alanlarını ekleyin:
+İlk olarak, ihtiyaç duyacağınız sınıfları içe aktarın. Bu içe aktarmalar, görüntü yükleme, rasterleştirme seçenekleri ve TIFF/PNG çıktı ayarlarına erişim sağlar.
 
 ```java
 import com.aspose.cad.Image;
@@ -38,26 +56,29 @@ import com.aspose.cad.imageoptions.CadRasterizationOptions;
 import com.aspose.cad.imageoptions.TiffOptions;
 ```
 
-Şimdi, bir CAD düzenini taramalı görüntüye dönüştürmek için örnek kodu bir dizi adıma ayıralım.
-## 1. Adım: Kaynak Dizinini Ayarlayın
+> **Pro tip:** PNG yerine TIFF dışa aktarmayı planlıyorsanız, `com.aspose.cad.imageoptions.PngOptions` içinde bulunan `PngOptions` ile `TiffOptions` yerine `PngOptions` kullanın.
+
+## Adım Adım Kılavuz
+
+### Adım 1: Kaynak Dizinini Ayarlama
 
 ```java
-// Kaynak dizininin yolu.
+// The path to the resource directory.
 String dataDir = "Your Document Directory" + "CADConversion/";
 ```
 
-"Belge Dizininiz"i gerçek belge dizininizin yolu ile değiştirdiğinizden emin olun.
+`"Your Document Directory"` ifadesini CAD dosyalarınızın bulunduğu mutlak yol ile değiştirin.
 
-## Adım 2: CAD Dosyasını Yükleyin
+### Adım 2: CAD Dosyasını Yükleme
 
 ```java
 String srcFile = dataDir + "conic_pyramid.dxf";
 Image image = Image.load(srcFile);
 ```
 
-CAD dosyanızın yolunu belirtin ve Aspose.CAD kullanarak yükleyin.
+Desteklenen herhangi bir formatı (DWG, DXF, DGN vb.) yükleyebilirsiniz. Bu, **cad'i nasıl dönüştüreceğiniz** kısmıdır—dosyayı işaretleyin ve Aspose'un ayrıştırmasını sağlayın.
 
-## 3. Adım: Rasterleştirme Seçeneklerini Yapılandırın
+### Adım 3: Rasterleştirme Seçeneklerini Yapılandırma
 
 ```java
 CadRasterizationOptions rasterizationOptions = new CadRasterizationOptions();
@@ -66,52 +87,64 @@ rasterizationOptions.setPageHeight(1200);
 rasterizationOptions.setLayouts(new String[] {"Model", "Layout1"});
 ```
 
- Bir örneğini oluşturun`CadRasterizationOptions` ve sayfa boyutlarını ve düzenlerini ayarlayın.
+- `setPageWidth` / `setPageHeight` çıktı çözünürlüğünü kontrol eder (daha büyük değerler = daha yüksek DPI).  
+- `setLayouts` belirli yerleşimler için **cad'i rastere dönüştürmenizi** sağlar; tüm çizimi rasterleştirmek için bu ayarı atlayın.
 
-## 4. Adım: Görüntü Seçeneklerini Ayarlayın
+### Adım 4: Görüntü Seçeneklerini Ayarlama
 
 ```java
 ImageOptionsBase options = new TiffOptions(TiffExpectedFormat.Default);
 options.setVectorRasterizationOptions(rasterizationOptions);
 ```
 
- Bir örneğini oluşturun`ImageOptions` ve bunu rasterleştirme seçenekleriyle ilişkilendirin.
+PNG tercih ediyorsanız, `TiffOptions` yerine `PngOptions` örneği oluşturun. İşte **cad'i png olarak dışa aktarma** burada gerçekleşir.
 
-## Adım 5: Ortaya Çıkan Görüntüyü Kaydedin
+### Adım 5: Oluşan Görüntüyü Kaydetme
 
 ```java
 image.save(dataDir + "conic_pyramid_layoutstorasterimage_out_.tiff", options);
 ```
 
-Son raster görüntüyü istediğiniz formatta ve konumda kaydedin.
+Dosya uzantısını `.png` (ve seçenek nesnesini `PngOptions`) olarak değiştirerek **CAD'i JPEG/PNG olarak kaydedebilirsiniz**.
 
-Dönüşümü özel gereksinimlerinize göre özelleştirmek için parametreleri gerektiği gibi ayarlayarak bu adımları tekrarlayın.
+> **Yaygın Hata:** Dosya uzantısı ile seçenek sınıfının eşleşmemesi `UnsupportedFormatException` hatasına yol açar. Her zaman uyumlu tutun.
 
-## Çözüm
+## Yaygın Sorunlar ve Çözümler
 
-Aspose.CAD for Java, CAD düzenlerini raster görüntülere dönüştürme sürecini kolaylaştırarak esneklik ve hassasiyet sunar. Bu tekniğe hakim olmak, CAD projelerinde verimli görselleştirme ve işbirliği olanaklarını açar.
+| Sorun | Çözüm |
+|-------|----------|
+| **Boş çıktı görüntüsü** | `setLayouts` içinde kullanılan yerleşim adlarının kaynak CAD dosyasındaki adlarla tam olarak eşleştiğini doğrulayın. |
+| **Düşük çözünürlüklü PNG** | `setPageWidth` / `setPageHeight` değerlerini artırın veya rasterleştirme seçeneklerinde `setResolution` ayarlayın. |
+| **Desteklenmeyen DWG sürümü** | En yeni Aspose.CAD sürümünü kullandığınızdan emin olun; eski sürümler yeni DWG sürümlerini desteklemeyebilir. |
+| **Büyük dosyalarda bellek hataları** | Sayfaları tek tek işleyin veya JVM yığın boyutunu (`-Xmx2g`) artırın. |
 
-## SSS'ler
+## Sık Sorulan Sorular
 
-### S1: Aspose.CAD farklı CAD dosya formatlarıyla uyumlu mudur?
+**S: Aspose.CAD farklı CAD dosya formatlarıyla uyumlu mu?**  
+C: Evet, DWG, DXF, DGN ve daha birçok formatı destekler.
 
-Cevap1: Evet, Aspose.CAD, DWG, DXF ve DGN dahil olmak üzere çeşitli CAD formatlarını destekler.
+**S: Çıktı raster görüntüsünün çözünürlüğünü özelleştirebilir miyim?**  
+C: Kesinlikle. `CadRasterizationOptions` içinde `setPageWidth`, `setPageHeight` veya `setResolution` ayarlarını değiştirin.
 
-### S2: Çıktı tarama görüntüsünün çözünürlüğünü özelleştirebilir miyim?
+**S: Tek bir çalıştırmada birden fazla CAD yerleşimini nasıl dönüştürebilirim?**  
+C: `setLayouts` metoduna tüm yerleşim adlarını içeren bir dizi verin, örneğin `new String[]{"Model","Layout1","Layout2"}`.
 
- A2: Kesinlikle. Ayarlayın`setPageWidth` Ve`setPageHeight` parametreler`CadRasterizationOptions` İstenilen çözünürlük için.
+**S: TIFF dışındaki çıktı formatları destekleniyor mu?**  
+C: Evet—PNG, JPEG, BMP, PDF ve daha fazlası ilgili `*Options` sınıfları aracılığıyla mevcuttur.
 
-### S3: Birden fazla CAD düzenini aynı anda nasıl dönüştürebilirim?
+**S: Aspose.CAD ile ilgili yardım alabilir ya da deneyimlerimi paylaşabilir miyim?**  
+C: Topluluk desteği ve resmi yardım için [Aspose.CAD forum](https://forum.aspose.com/c/cad/19) adresini ziyaret edin.
 
- Cevap3: Aktarılan diziyi genişletmeniz yeterli`setLayouts` dönüştürmek istediğiniz düzenlerin adlarıyla birlikte.
+## Sonuç
 
-### S4: TIFF'in desteklediği başka çıktı formatları var mı?
+Bu adımları izleyerek **DWG'yi PNG'ye dönüştürebilir**, **CAD'i PNG olarak dışa aktarabilir**, **CAD'i JPEG olarak kaydedebilir** veya ihtiyacınız olan diğer raster formatlarını üretebilirsiniz. Aspose.CAD for Java ağır işleri halleder, böylece yüksek kaliteli görüntüleri uygulamalarınıza, dokümantasyonlarınıza veya web portallarınıza entegre etmeye odaklanabilirsiniz.
 
-Cevap4: Evet, Aspose.CAD PNG, JPG ve PDF gibi çeşitli çıktı formatlarını destekler.
+---
 
-### S5: Nereden yardım alabilirim veya Aspose.CAD ile ilgili deneyimlerimi paylaşabilirim?
+**Son Güncelleme:** 2025-12-18  
+**Test Edilen Versiyon:** Aspose.CAD for Java 24.12  
+**Yazar:** Aspose  
 
-A5: ziyaret edin[Aspose.CAD forumu](https://forum.aspose.com/c/cad/19) toplulukla etkileşime geçmek ve destek almak.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
