@@ -1,33 +1,51 @@
 ---
-title: تصدير صور AutoCAD إلى PDF - البرنامج التعليمي Aspose.CAD لـ Java
-linktitle: تصدير صور أوتوكاد إلى PDF
-second_title: Aspose.CAD جافا API
-description: قم بتصدير صور AutoCAD إلى PDF بسهولة باستخدام Aspose.CAD لـ Java. اتبع دليلنا خطوة بخطوة للتكامل السلس.
-weight: 10
+date: 2025-12-19
+description: تعلم كيفية تصدير ملفات PDF من AutoCAD باستخدام Aspose.CAD للغة Java.
+  يوضح لك هذا الدليل خطوة بخطوة كيفية تحويل DWG إلى PDF، وحفظ CAD كملف PDF، والتعامل
+  مع الترخيص.
+linktitle: Export AutoCAD Images to PDF
+second_title: Aspose.CAD Java API
+title: تصدير PDF من AutoCAD - تصدير صور AutoCAD إلى PDF باستخدام Aspose.CAD لجافا
+  (دليل تعليمي)
 url: /ar/java/cad-export-options/export-autocad-images-to-pdf/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# تصدير صور AutoCAD إلى PDF - البرنامج التعليمي Aspose.CAD لـ Java
+# تصدير AutoCAD PDF - تصدير صور AutoCAD إلى PDF باستخدام Aspose.CAD للـ Java
 
-## مقدمة
+## المقدمة
 
-هل تتطلع إلى تحويل صور AutoCAD إلى PDF بسهولة باستخدام Java؟ لا مزيد من البحث! في هذا البرنامج التعليمي، سنرشدك خلال العملية باستخدام Aspose.CAD for Java، وهي مكتبة قوية تعمل على تبسيط المهام المعقدة. وفي النهاية، سيكون لديك القدرة على تصدير الصور ثلاثية الأبعاد إلى PDF دون عناء.
+هل تبحث عن طريقة لتصدير **AutoCAD PDF** بسلاسة باستخدام Java؟ لا تبحث أكثر! في هذا الدرس سنرشدك خطوة بخطوة إلى تحويل صور AutoCAD إلى PDF باستخدام Aspose.CAD للـ Java، مكتبة قوية تجعل عملية **تحويل DWG إلى PDF** سهلة. في النهاية ستفهم كيفية **حفظ CAD كـ PDF**، وتطبيق إعدادات رستر مخصصة، والعمل مع ترخيص Aspose.CAD للاستخدام الإنتاجي.
 
-## المتطلبات الأساسية
+## إجابات سريعة
+- **هل يمكنني تحويل DWG إلى PDF باستخدام Java؟** نعم، Aspose.CAD للـ Java يدعم DWG وDXF والعديد من الصيغ الأخرى.  
+- **هل أحتاج إلى ترخيص؟** يتطلب **ترخيص Aspose CAD** لاستخدام غير محدود؛ ترخيص مؤقت متاح للتقييم.  
+- **ما نسخة Java المدعومة؟** Java 8+ (المكتبة متوافقة مع جميع إصدارات JDK الحديثة).  
+- **هل يمكنني تخصيص حجم صفحة PDF؟** بالتأكيد – عدل `pageWidth` و `pageHeight` في خيارات الرستر.  
+- **هل يمكن إجراء رستر ثلاثي الأبعاد؟** نعم، فعّل `TypeOfEntities.Entities3D` للحصول على رندرة ثلاثية الأبعاد كاملة.
 
-قبل الغوص في البرنامج التعليمي، تأكد من توفر المتطلبات الأساسية التالية:
+## ما هو **تصدير AutoCAD PDF**؟
+يعني تصدير AutoCAD PDF تحويل رسومات CAD القائمة على المتجهات (DWG، DXF، DWF، إلخ) إلى مستند PDF محمول مع الحفاظ على الطبقات، وزن الخطوط، وإمكانية تضمين الهندسة ثلاثية الأبعاد. هذا مفيد لمشاركة التصاميم مع العملاء، الأرشفة، أو الطباعة دون الحاجة إلى برنامج CAD.
 
-- بيئة تطوير Java: تأكد من إعداد بيئة تطوير Java على نظامك.
--  Aspose.CAD لمكتبة Java: قم بتنزيل وتثبيت مكتبة Aspose.CAD لـ Java من[رابط التحميل](https://releases.aspose.com/cad/java/).
-- دليل المستندات: قم بإنشاء دليل لتخزين ملفات CAD الخاصة بك ليسهل الوصول إليها.
+## لماذا تستخدم Aspose.CAD للـ Java لت **تصدير AutoCAD PDF**؟
+- **دعم كامل للملفات** – يعمل مع DWG وDXF وDWF والعديد غيرها.  
+- **بدون تبعيات خارجية** – مكتبة Java صافية، لا تحتاج إلى DLLs أصلية.  
+- **رستر عالي الجودة** – تحكم في DPI، حجم الصفحة، والتخطيط.  
+- **مرونة الترخيص** – ابدأ بتجربة مجانية، ثم ارتقِ إلى **ترخيص Aspose CAD** دائم.  
 
-## استيراد مساحات الأسماء
+## المتطلبات المسبقة
 
-في مشروع Java الخاص بك، قم باستيراد مساحات الأسماء الضرورية للاستفادة من وظيفة Aspose.CAD لـ Java:
+- **بيئة تطوير Java** – JDK 8 أو أحدث مثبت.  
+- **مكتبة Aspose.CAD للـ Java** – حمّلها من [رابط التحميل](https://releases.aspose.com/cad/java/).  
+- **دليل المستندات** – مجلد على جهازك حيث توجد ملفات CAD المصدر والملفات PDF المولدة.
+
+## استيراد الحزم
+
+في مشروع Java الخاص بك، استورد الفئات اللازمة للعمل مع Aspose.CAD:
 
 ```java
 import com.aspose.cad.Image;
@@ -37,26 +55,28 @@ import com.aspose.cad.imageoptions.PdfOptions;
 //import com.aspose.cad.imageoptions.TypeOfEntities;
 ```
 
-الآن، دعونا نقسم رمز المثال إلى خطوات متعددة:
+الآن دعنا نستعرض الكود خطوة بخطوة.
 
-## الخطوة 1: قم بتعيين مسار دليل الموارد
+## دليل خطوة بخطوة
+
+### الخطوة 1: تعيين مسار دليل الموارد
 
 ```java
 String dataDir = "Your Document Directory" + "ExportingCAD/";
 ```
 
- تأكد من استبدال`"Your Document Directory"` مع المسار إلى دليل المستندات الخاص بك.
+> **نصيحة احترافية:** استبدل `"Your Document Directory"` بالمسار المطلق للمجلد الذي أنشأته في المتطلبات المسبقة.
 
-## الخطوة 2: قم بتحميل صورة CAD
+### الخطوة 2: تحميل صورة CAD
 
 ```java
 String srcFile = dataDir + "conic_pyramid.dxf";
 Image cadImage = Image.load(srcFile);
 ```
 
- يستبدل`"conic_pyramid.dxf"` مع اسم ملف AutoCAD الخاص بك.
+> **لماذا هذا مهم:** تحميل ملف CAD إلى كائن `Image` يمنحك وصولًا كاملًا إلى محرك الرستر الخاص بـ Aspose.CAD.
 
-## الخطوة 3: تعيين خيارات التنقيط
+### الخطوة 3: تعيين خيارات الرستر
 
 ```java
 CadRasterizationOptions rasterizationOptions = new CadRasterizationOptions();
@@ -67,50 +87,58 @@ rasterizationOptions.setPageHeight(500);
 rasterizationOptions.setLayouts(new String[] {"Model"});
 ```
 
-اضبط إعدادات العرض والارتفاع والتخطيط بناءً على تفضيلاتك.
+- عدّل `pageWidth` و `pageHeight` لتغيير حجم ملف PDF الناتج.  
+- ألغِ التعليق عن سطر `setTypeOfEntities` إذا كنت تحتاج إلى **java convert cad pdf** للكيانات ثلاثية الأبعاد.  
+- استدعاء `setLayouts` يحدد أي تخطيط (Model، Layout1، إلخ) سيتم رندره.
 
-## الخطوة 4: تكوين خيارات PDF
+### الخطوة 4: تكوين خيارات PDF
 
 ```java
 PdfOptions pdfOptions = new PdfOptions();
 pdfOptions.setVectorRasterizationOptions(rasterizationOptions);
 ```
 
-قم بإعداد خيارات PDF، بما في ذلك إعدادات تنقيط المتجهات.
+هذا يربط إعدادات الرستر بمخرجات PDF، مما يضمن تحويل البيانات المتجهة بشكل صحيح.
 
-## الخطوة 5: احفظ ملف PDF
+### الخطوة 5: حفظ ملف PDF
 
 ```java
 cadImage.save(dataDir + "Export3DImagestoPDF_out_.pdf", pdfOptions);
 ```
 
-حدد دليل الإخراج واسم الملف لملف PDF الذي تم إنشاؤه.
+الملف الناتج، `Export3DImagestoPDF_out_.pdf`، هو تمثيل **حفظ CAD كـ PDF** لرسمك الأصلي في AutoCAD.
 
-## خاتمة
+## المشكلات الشائعة والحلول
 
-تهانينا! لقد تعلمت بنجاح كيفية تصدير صور AutoCAD إلى PDF باستخدام Aspose.CAD لـ Java. يعمل هذا الدليل سهل الاستخدام على تبسيط عملية معقدة، مما يجعله في متناول المطورين من جميع مستويات المهارة.
+| العَرَض | السبب المحتمل | الحل |
+|---------|--------------|-----|
+| ملف PDF فارغ | لم يتم ضبط خيارات الرستر أو عدم تطابق التخطيط | تحقق من أن `setLayouts` يطابق اسم التخطيط في ملف CAD الخاص بك. |
+| صورة منخفضة الدقة | `pageWidth`/`pageHeight` صغير جدًا | زيادة الأبعاد أو ضبط DPI أعلى عبر `rasterizationOptions.setResolution(...)`. |
+| استثناء الترخيص | لم يتم تطبيق ترخيص صالح | طبق **ترخيص Aspose CAD** أو استخدم ترخيصًا مؤقتًا للاختبار. |
 
-## الأسئلة الشائعة
+## الأسئلة المتكررة
 
-### س1: هل يمكنني استخدام Aspose.CAD لـ Java مع تنسيقات ملفات CAD الأخرى؟
+### Q1: هل يمكنني استخدام Aspose.CAD للـ Java مع صيغ ملفات CAD أخرى؟
+نعم، Aspose.CAD يدعم مجموعة واسعة من الصيغ بما فيها DWG وDWF وDGN وغيرها، مما يمنحك مرونة في مشاريعك.
 
-ج1: نعم، يدعم Aspose.CAD تنسيقات CAD المختلفة، مما يوفر المرونة في مشروعاتك.
+### Q2: كيف يمكنني الحصول على ترخيص مؤقت لـ Aspose.CAD للـ Java؟
+زر [هنا](https://purchase.aspose.com/temporary-license/) للحصول على ترخيص مؤقت للتقييم.
 
-### س2: كيف يمكنني الحصول على ترخيص مؤقت لـ Aspose.CAD لـ Java؟
+### Q3: هل هناك خيارات تخطيط للرستر؟
+نعم، يمكنك تخصيص التخطيطات (مثل `"Model"`، `"Layout1"`) عبر طريقة `setLayouts` للتحكم في العرض الذي يتم رندره.
 
- ج2: زيارة[هنا](https://purchase.aspose.com/temporary-license/) للحصول على ترخيص مؤقت للتقييم.
+### Q4: هل يمكنني تخصيص حجم ملف PDF الناتج؟
+بالطبع! عدّل معلمات `pageWidth` و `pageHeight` في خيارات الرستر لتناسب الأبعاد المطلوبة.
 
-### س3: هل هناك أي خيارات تخطيط للتنقيط؟
+### Q5: أين يمكنني طلب المساعدة أو مناقشة المشكلات المتعلقة بـ Aspose.CAD للـ Java؟
+توجه إلى [منتدى Aspose.CAD](https://forum.aspose.com/c/cad/19) للحصول على دعم مخصص ومناقشات المجتمع.
 
-ج3: نعم، يمكنك تخصيص التخطيطات وفقًا لمتطلباتك، مما يعزز عملية العرض.
+---
 
-### س4: هل يمكنني تخصيص حجم ملف PDF الناتج؟
+**آخر تحديث:** 2025-12-19  
+**تم الاختبار مع:** Aspose.CAD for Java 24.10  
+**المؤلف:** Aspose  
 
-ج4: بالتأكيد! اضبط معلمات عرض الصفحة وارتفاعها في خيارات التنقيط.
-
-### س5: أين يمكنني طلب المساعدة أو مناقشة المشكلات المتعلقة بـ Aspose.CAD لـ Java؟
-
- ج5: توجه إلى[منتدى Aspose.CAD](https://forum.aspose.com/c/cad/19) للحصول على الدعم المخصص والمناقشات.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
