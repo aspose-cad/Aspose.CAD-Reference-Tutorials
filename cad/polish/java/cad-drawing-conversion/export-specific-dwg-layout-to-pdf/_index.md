@@ -1,114 +1,140 @@
 ---
-title: Eksportuj określony układ DWG do pliku PDF za pomocą Aspose.CAD dla Java
-linktitle: Eksportuj określony układ DWG do pliku PDF
-second_title: Aspose.CAD API Java
-description: Zapoznaj się z przewodnikiem krok po kroku dotyczącym eksportowania określonych układów DWG do formatu PDF przy użyciu Aspose.CAD dla Java. Zoptymalizuj przepływ pracy CAD bez wysiłku.
-weight: 14
+date: 2025-12-21
+description: Naucz się konwertować pliki DWG na PDF, eksportując konkretny układ DWG
+  do PDF przy użyciu Aspose.CAD dla Javy. Skorzystaj z tego krok po kroku poradnika
+  DWG‑do‑PDF, aby usprawnić swój przepływ pracy CAD.
+linktitle: Export Specific DWG Layout to PDF
+second_title: Aspose.CAD Java API
+title: Konwertuj DWG na PDF – Eksportuj układ przy użyciu Aspose.CAD dla Javy
 url: /pl/java/cad-drawing-conversion/export-specific-dwg-layout-to-pdf/
+weight: 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Eksportuj określony układ DWG do pliku PDF za pomocą Aspose.CAD dla Java
+# Konwertuj DWG do PDF – Eksportuj określony układ przy użyciu Aspose.CAD dla Javy
 
-## Wstęp
+## Wprowadzenie
 
-W dynamicznym świecie projektowania wspomaganego komputerowo (CAD), Aspose.CAD dla Java jawi się jako potężne narzędzie do manipulowania i konwertowania rysunków DWG. W tym samouczku omówimy konkretny scenariusz: eksportowanie wyznaczonego układu DWG do pliku PDF. Proces ten zapewnia precyzję i elastyczność projektów CAD.
+W dynamicznym świecie Computer‑Aided Design (CAD) **convert DWG to PDF** jest częstym wymaganiem przy udostępnianiu rysunków klientom, wykonawcom lub osobom nietechnicznym. Aspose.CAD for Java ułatwia tę konwersję i pozwala wybrać pojedynczy układ z pliku DWG zawierającego wiele układów. W tym samouczku pokażemy **jak wyeksportować określone układy DWG** do PDF, aby dostarczyć dokładnie to, czego potrzebuje Twój projekt, bez dodatkowych stron czy ręcznego przycinania.
 
-## Warunki wstępne
+## Szybkie odpowiedzi
+- **Co oznacza „convert DWG to PDF”?** Przekształca rysunek DWG w dokument PDF, zachowując dane wektorowe i wierność układu.  
+- **Która biblioteka obsługuje konwersję?** Aspose.CAD for Java zapewnia gotowe do użycia API.  
+- **Czy potrzebuję licencji do produkcji?** Tak, wymagana jest licencja komercyjna; wersja próbna działa w celach oceny.  
+- **Czy mogę wybrać pojedynczy układ?** Oczywiście – ustaw właściwość `Layouts` na nazwę żądanego układu.  
+- **Jaką wersję Javy obsługuje?** Java 8 i nowsze są w pełni kompatybilne.
 
-Przed przystąpieniem do samouczka upewnij się, że spełnione są następujące wymagania wstępne:
+## Wymagania wstępne
 
-- Środowisko programistyczne Java: Upewnij się, że w systemie masz funkcjonalne środowisko programistyczne Java.
--  Biblioteka Aspose.CAD: Pobierz i skonfiguruj bibliotekę Aspose.CAD dla języka Java. Możesz znaleźć drogę do biblioteki[Tutaj](https://releases.aspose.com/cad/java/).
-- Plik DWG: Przygotuj plik DWG do eksportu. Możesz użyć przykładowego pliku „wizualizacja_-_Conference_room.dwg” w tym samouczku.
+Zanim rozpoczniesz, upewnij się, że masz:
 
-## Importuj przestrzenie nazw
+- **Środowisko programistyczne Java** – JDK 8+ oraz ulubione IDE.  
+- **Aspose.CAD Library** – Pobierz najnowszy JAR z oficjalnej strony **[tutaj](https://releases.aspose.com/cad/java/)**.  
+- **DWG File** – Rysunek zawierający przynajmniej jeden układ (np. *visualization_-_conference_room.dwg*).  
 
-## Krok 1: Skonfiguruj środowisko projektu
+## Dlaczego eksportować określony układ DWG do PDF?
 
-Rozpocznij od utworzenia projektu Java i upewnienia się, że biblioteka Aspose.CAD jest poprawnie zintegrowana. Możesz go pobrać[Tutaj](https://releases.aspose.com/cad/java/).
+Wiele plików DWG zawiera wiele przestrzeni papieru (układów). Eksport całego pliku może wygenerować obszerny PDF z niechcianymi stronami. Wybranie pojedynczego układu:
 
-## Krok 2: Zaimportuj niezbędne pakiety
+- Zmniejsza rozmiar pliku.  
+- Skupia uwagę odbiorcy na odpowiedniej kartce rysunku.  
+- Zgodny ze standardami dokumentacji projektowej.  
 
-W swojej klasie Java zaimportuj wymagane pakiety Aspose.CAD, aby bezproblemowo korzystać z funkcjonalności.
+## Przewodnik krok po kroku
+
+### Krok 1: Skonfiguruj środowisko projektu
+
+Utwórz nowy projekt Java (Maven, Gradle lub zwykłe IDE) i dodaj JAR Aspose.CAD do ścieżki klas. Możesz go pobrać **[tutaj](https://releases.aspose.com/cad/java/)**.
+
+### Krok 2: Zaimportuj niezbędne pakiety
+
+Dodaj wymagane przestrzenie nazw Aspose.CAD do swojej klasy Java.
 
 ```java
-
 import com.aspose.cad.Image;
-
 import com.aspose.cad.imageoptions.CadRasterizationOptions;
 import com.aspose.cad.imageoptions.PdfOptions;
 ```
 
-## Krok 3: Załaduj plik DWG
+### Krok 3: Załaduj plik DWG
 
-Określ ścieżkę pliku DWG i załaduj go do obiektu obrazu Aspose.CAD.
+Wskaż plik DWG, który chcesz skonwertować i załaduj go do obiektu `Image`.
 
 ```java
 String srcFile = dataDir + "visualization_-_conference_room.dwg";
 Image image = Image.load(srcFile);
 ```
 
-## Krok 4: Skonfiguruj opcje rasteryzacji
+### Krok 4: Skonfiguruj opcje rasteryzacji
 
- Utwórz instancję`CadRasterizationOptions` i dostosuj jego właściwości do swoich wymagań.
+Zdefiniuj rozmiar strony oraz, co najważniejsze, układ, który chcesz wyeksportować.
 
 ```java
 CadRasterizationOptions rasterizationOptions = new CadRasterizationOptions();
 rasterizationOptions.setPageWidth(1600);
 rasterizationOptions.setPageHeight(1600);
-// Określ żądaną nazwę układu
+// Specify desired layout name
 rasterizationOptions.setLayouts(new String[] {"Layout1"});
 ```
 
-## Krok 5: Ustaw opcje eksportu PDF
+### Krok 5: Ustaw opcje eksportu PDF
 
- Stwórz`PdfOptions` instancję i ustaw ją`VectorRasterizationOptions` właściwość do wcześniej skonfigurowanej`CadRasterizationOptions`.
+Połącz ustawienia rasteryzacji z eksporterem PDF.
 
 ```java
 PdfOptions pdfOptions = new PdfOptions();
 pdfOptions.setVectorRasterizationOptions(rasterizationOptions);
 ```
 
-## Krok 6: Eksportuj DWG do formatu PDF
+### Krok 6: Eksportuj DWG do PDF
 
-Zapisz zmodyfikowany obraz do pliku PDF, kończąc proces konwersji.
+Zapisz wynik jako plik PDF. Wyjście będzie zawierało tylko **Layout1**, co zapewnia czystą operację **convert DWG to PDF**.
 
 ```java
 image.save(dataDir + "ExportSpecificLayoutToPDF_out_.pdf", pdfOptions);
 ```
 
-## Wniosek
+## Typowe problemy i rozwiązania
 
-Opanowanie sztuki eksportowania określonych układów DWG do formatu PDF przy użyciu Aspose.CAD dla Java może znacznie usprawnić przepływ pracy CAD. Dzięki podanym krokom możesz bezproblemowo zintegrować tę funkcjonalność ze swoimi projektami, zapewniając precyzję i wydajność.
+| Problem | Dlaczego się pojawia | Rozwiązanie |
+|---------|----------------------|-------------|
+| **Layout not found** | Nazwa układu jest źle napisana lub nie istnieje w pliku DWG. | Użyj `image.getLayoutNames()`, aby wyświetlić dostępne układy, a następnie wybierz właściwy. |
+| **Low resolution PDF** | `PageWidth`/`PageHeight` są zbyt małe. | Zwiększ wymiary (np. 2000 × 2000) lub ustaw `rasterizationOptions.setResolution(300);`. |
+| **License exception** | Uruchamianie bez ważnej licencji w środowisku nie‑testowym. | Zastosuj licencję Aspose.CAD przed załadowaniem obrazu: `License license = new License(); license.setLicense("Aspose.CAD.lic");`. |
 
-## Często zadawane pytania
+## Najczęściej zadawane pytania
 
-### P1: Czy mogę używać Aspose.CAD dla Java z innymi bibliotekami CAD opartymi na Javie?
+**Q1: Czy mogę używać Aspose.CAD for Java z innymi bibliotekami CAD opartymi na Javie?**  
+A: Aspose.CAD for Java jest biblioteką samodzielną, ale może być zintegrowana z innymi bibliotekami opartymi na Javie w celu rozszerzenia funkcjonalności.
 
-Aspose.CAD dla Java jest samodzielną biblioteką, ale można ją zintegrować z innymi bibliotekami opartymi na Javie w celu uzyskania rozszerzonych funkcjonalności.
+**Q2: Czy istnieją opcje licencjonowania Aspose.CAD?**  
+A: Tak, możesz zapoznać się z opcjami licencjonowania i szczegółami zakupu **[tutaj](https://purchase.aspose.com/buy)**.
 
-### P2: Czy są jakieś opcje licencjonowania dla Aspose.CAD?
+**Q3: Jak mogę uzyskać tymczasową licencję na Aspose.CAD?**  
+A: Odwiedź **[ten link](https://purchase.aspose.com/temporary-license/)**, aby poprosić o tymczasową licencję.
 
- Tak, możesz sprawdzić opcje licencjonowania i szczegóły zakupu[Tutaj](https://purchase.aspose.com/buy).
+**Q4: Gdzie mogę znaleźć wsparcie dla Aspose.CAD?**  
+A: W razie pytań lub potrzeb pomocy, odwiedź **[forum Aspose.CAD](https://forum.aspose.com/c/cad/19)**.
 
-### P3: Jak mogę uzyskać tymczasową licencję na Aspose.CAD?
+**Q5: Czy dostępna jest darmowa wersja próbna Aspose.CAD?**  
+A: Tak, możesz uzyskać dostęp do darmowej wersji próbnej **[tutaj](https://releases.aspose.com/)**.
 
- Odwiedzać[ten link](https://purchase.aspose.com/temporary-license/) w celu uzyskania tymczasowej licencji na Aspose.CAD.
+## Zakończenie
 
-### P4: Gdzie mogę znaleźć wsparcie dla Aspose.CAD?
+Postępując zgodnie z tym **dwg to pdf tutorial**, masz teraz niezawodny sposób na **convert DWG to PDF** przy wyborze pojedynczego układu. To podejście oszczędza miejsce, przyspiesza udostępnianie dokumentów i utrzymuje porządek w Twoim procesie CAD. Śmiało eksperymentuj z różnymi ustawieniami rasteryzacji lub łącz wiele układów w jeden PDF w miarę rozwoju projektu.
 
- W razie jakichkolwiek pytań lub pomocy odwiedź stronę[Forum Aspose.CAD](https://forum.aspose.com/c/cad/19).
-
-### P5: Czy dostępna jest bezpłatna wersja próbna Aspose.CAD?
-
- Tak, możesz uzyskać dostęp do bezpłatnego okresu próbnego[Tutaj](https://releases.aspose.com/).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Ostatnia aktualizacja:** 2025-12-21  
+**Testowano z:** Aspose.CAD for Java 24.12  
+**Autor:** Aspose

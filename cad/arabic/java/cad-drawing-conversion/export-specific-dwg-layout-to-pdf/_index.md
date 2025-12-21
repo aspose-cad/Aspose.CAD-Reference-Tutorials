@@ -1,114 +1,138 @@
 ---
-title: تصدير تخطيط DWG محدد إلى PDF باستخدام Aspose.CAD لـ Java
-linktitle: تصدير تخطيط DWG محدد إلى PDF
-second_title: Aspose.CAD جافا API
-description: استكشف الدليل التفصيلي خطوة بخطوة لتصدير تخطيطات DWG محددة إلى PDF باستخدام Aspose.CAD لـ Java. قم بتحسين سير عمل CAD الخاص بك دون عناء.
-weight: 14
+date: 2025-12-21
+description: تعلم كيفية تحويل DWG إلى PDF عن طريق تصدير تخطيط DWG محدد إلى PDF باستخدام
+  Aspose.CAD للغة Java. اتبع هذا الدليل خطوة بخطوة لتحويل DWG إلى PDF لتبسيط سير عمل
+  CAD الخاص بك.
+linktitle: Export Specific DWG Layout to PDF
+second_title: Aspose.CAD Java API
+title: تحويل DWG إلى PDF – تصدير التخطيط باستخدام Aspose.CAD للغة Java
 url: /ar/java/cad-drawing-conversion/export-specific-dwg-layout-to-pdf/
+weight: 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# تصدير تخطيط DWG محدد إلى PDF باستخدام Aspose.CAD لـ Java
+# تحويل DWG إلى PDF – تصدير تخطيط محدد باستخدام Aspose.CAD للـ Java
 
-## مقدمة
+## المقدمة
 
-في العالم الديناميكي للتصميم بمساعدة الكمبيوتر (CAD)، يظهر Aspose.CAD for Java كأداة قوية لمعالجة وتحويل رسومات DWG. في هذا البرنامج التعليمي، سنستكشف سيناريو محددًا: تصدير تخطيط DWG معين إلى ملف PDF. تضمن هذه العملية الدقة والمرونة في مشاريع CAD الخاصة بك.
+في عالم التصميم بمساعدة الحاسوب (CAD) المتطور، يُعد **convert DWG to PDF** مطلبًا شائعًا عند مشاركة الرسومات مع العملاء أو المقاولين أو أصحاب المصلحة غير التقنيين. تجعل Aspose.CAD للـ Java هذا التحويل سهلًا، وتتيح لك أيضًا اختيار تخطيط واحد من ملف DWG يحتوي على عدة تخطيطات. في هذا الدرس سنستعرض **كيفية تصدير تخطيطات DWG** المحددة إلى PDF، حتى تتمكن من تقديم ما يحتاجه مشروعك بالضبط دون صفحات إضافية أو قص يدوي.
 
-## المتطلبات الأساسية
+## إجابات سريعة
+- **ماذا يعني “convert DWG to PDF”?** إنه يحول رسم DWG إلى مستند PDF، مع الحفاظ على بيانات المتجهات ودقة التخطيط.  
+- **ما المكتبة التي تتعامل مع التحويل؟** توفر Aspose.CAD للـ Java واجهة برمجة تطبيقات جاهزة للاستخدام.  
+- **هل أحتاج إلى ترخيص للإنتاج؟** نعم، يلزم الحصول على ترخيص تجاري؛ نسخة التجربة المجانية تكفي للتقييم.  
+- **هل يمكنني اختيار تخطيط واحد؟** بالتأكيد – قم بتعيين خاصية `Layouts` إلى اسم التخطيط المطلوب.  
+- **ما نسخة Java المدعومة؟** Java 8 وما بعدها متوافقة تمامًا.
 
-قبل الخوض في البرنامج التعليمي، تأكد من توفر المتطلبات الأساسية التالية:
+## المتطلبات المسبقة
 
-- بيئة تطوير Java: تأكد من أن لديك بيئة تطوير Java وظيفية على نظامك.
--  مكتبة Aspose.CAD: قم بتنزيل وإعداد مكتبة Aspose.CAD لـ Java. يمكنك العثور على المكتبة[هنا](https://releases.aspose.com/cad/java/).
-- ملف DWG: احصل على ملف DWG جاهز للتصدير. يمكنك استخدام الملف النموذجي "visualization_-_Conference_room.dwg" لهذا البرنامج التعليمي.
+- **بيئة تطوير Java** – JDK 8+ ومحرّك التطوير المفضل لديك.  
+- **مكتبة Aspose.CAD** – حمّل أحدث ملف JAR من الموقع الرسمي **[هنا](https://releases.aspose.com/cad/java/)**.  
+- **ملف DWG** – رسم يحتوي على تخطيط واحد على الأقل (مثال: *visualization_-_conference_room.dwg*).  
 
-## استيراد مساحات الأسماء
+## لماذا تصدير تخطيط DWG محدد إلى PDF؟
 
-## الخطوة 1: إعداد بيئة المشروع
+تحتوي العديد من ملفات DWG على مساحات ورقية متعددة (تخطيطات). قد يؤدي تصدير الملف بالكامل إلى إنشاء PDF كبير يحتوي على صفحات غير مرغوب فيها. اختيار تخطيط واحد:
 
-ابدأ بإنشاء مشروع Java والتأكد من دمج مكتبة Aspose.CAD بشكل صحيح. يمكنك تنزيله[هنا](https://releases.aspose.com/cad/java/).
+- يقلل من حجم الملف.  
+- يركز انتباه المشاهد على ورقة الرسم ذات الصلة.  
+- يتماشى مع معايير توثيق المشروع.  
 
-## الخطوة 2: استيراد الحزم الضرورية
+## دليل خطوة بخطوة
 
-في فئة Java الخاصة بك، قم باستيراد حزم Aspose.CAD المطلوبة للاستفادة من الوظائف بسلاسة.
+### الخطوة 1: إعداد بيئة المشروع
+
+أنشئ مشروع Java جديد (Maven أو Gradle أو IDE عادي) وأضف ملف JAR الخاص بـ Aspose.CAD إلى مسار الفئات (classpath). يمكنك تحميله **[هنا](https://releases.aspose.com/cad/java/)**.
+
+### الخطوة 2: استيراد الحزم الضرورية
+
+أضف مساحات الأسماء المطلوبة من Aspose.CAD إلى فئة Java الخاصة بك.
 
 ```java
-
 import com.aspose.cad.Image;
-
 import com.aspose.cad.imageoptions.CadRasterizationOptions;
 import com.aspose.cad.imageoptions.PdfOptions;
 ```
 
-## الخطوة 3: تحميل ملف DWG
+### الخطوة 3: تحميل ملف DWG
 
-حدد مسار ملف DWG الخاص بك وقم بتحميله في كائن الصورة Aspose.CAD.
+حدد موقع ملف DWG الذي تريد تحويله وحمّله في كائن `Image`.
 
 ```java
 String srcFile = dataDir + "visualization_-_conference_room.dwg";
 Image image = Image.load(srcFile);
 ```
 
-## الخطوة 4: تكوين خيارات التنقيط
+### الخطوة 4: تكوين خيارات التحويل إلى نقطية
 
- إنشاء مثيل ل`CadRasterizationOptions` وتخصيص خصائصه وفقا لمتطلباتك.
+حدد حجم الصفحة، وبشكل أساسي، التخطيط الذي ترغب في تصديره.
 
 ```java
 CadRasterizationOptions rasterizationOptions = new CadRasterizationOptions();
 rasterizationOptions.setPageWidth(1600);
 rasterizationOptions.setPageHeight(1600);
-// حدد اسم التخطيط المطلوب
+// Specify desired layout name
 rasterizationOptions.setLayouts(new String[] {"Layout1"});
 ```
 
-## الخطوة 5: ضبط خيارات تصدير PDF
+### الخطوة 5: تعيين خيارات تصدير PDF
 
- إنشاء`PdfOptions` المثال وتعيينه`VectorRasterizationOptions` الخاصية إلى التكوين السابق`CadRasterizationOptions`.
+ربط إعدادات التحويل إلى نقطية بمصدّر PDF.
 
 ```java
 PdfOptions pdfOptions = new PdfOptions();
 pdfOptions.setVectorRasterizationOptions(rasterizationOptions);
 ```
 
-## الخطوة 6: تصدير DWG إلى PDF
+### الخطوة 6: تصدير DWG إلى PDF
 
-احفظ الصورة المعدلة في ملف PDF، وبذلك تكتمل عملية التحويل.
+احفظ النتيجة كملف PDF. سيحتوي الناتج على **Layout1** فقط، محققًا عملية **convert DWG to PDF** نظيفة.
 
 ```java
 image.save(dataDir + "ExportSpecificLayoutToPDF_out_.pdf", pdfOptions);
 ```
 
-## خاتمة
+## المشكلات الشائعة والحلول
 
-إن إتقان فن تصدير تخطيطات DWG محددة إلى PDF باستخدام Aspose.CAD لـ Java يمكن أن يعزز سير عمل CAD لديك بشكل كبير. ومن خلال الخطوات المتوفرة، يمكنك دمج هذه الوظيفة بسلاسة في مشاريعك، مما يضمن الدقة والكفاءة.
+| المشكلة | لماذا يحدث | الحل |
+|-------|----------------|-----|
+| **التخطيط غير موجود** | اسم التخطيط مكتوب بشكل خاطئ أو غير موجود في ملف DWG. | استخدم `image.getLayoutNames()` لسرد التخطيطات المتاحة، ثم اختر الصحيح. |
+| **PDF بدقة منخفضة** | `PageWidth`/`PageHeight` صغيرة جدًا. | قم بزيادة الأبعاد (مثال: 2000 × 2000) أو اضبط `rasterizationOptions.setResolution(300);`. |
+| **استثناء الترخيص** | التشغيل بدون ترخيص صالح في بيئة غير تجريبية. | قم بتطبيق ترخيص Aspose.CAD قبل تحميل الصورة: `License license = new License(); license.setLicense("Aspose.CAD.lic");`. |
 
-## الأسئلة الشائعة
+## الأسئلة المتكررة
 
-### س1: هل يمكنني استخدام Aspose.CAD لـ Java مع مكتبات CAD الأخرى المستندة إلى Java؟
+**س1: هل يمكنني استخدام Aspose.CAD للـ Java مع مكتبات CAD أخرى مبنية على Java؟**  
+ج: Aspose.CAD للـ Java مكتبة مستقلة لكنها يمكن دمجها مع مكتبات Java أخرى لتوسيع الوظائف.
 
-Aspose.CAD for Java هي مكتبة مستقلة ولكن يمكن دمجها مع المكتبات الأخرى المستندة إلى Java للحصول على وظائف موسعة.
+**س2: هل هناك خيارات ترخيص لـ Aspose.CAD؟**  
+ج: نعم، يمكنك استكشاف خيارات الترخيص وتفاصيل الشراء **[هنا](https://purchase.aspose.com/buy)**.
 
-### س2: هل هناك أي خيارات ترخيص لـ Aspose.CAD؟
+**س3: كيف يمكنني الحصول على ترخيص مؤقت لـ Aspose.CAD؟**  
+ج: زر **[هذا الرابط](https://purchase.aspose.com/temporary-license/)** لطلب ترخيص مؤقت.
 
- نعم، يمكنك استكشاف خيارات الترخيص وتفاصيل الشراء[هنا](https://purchase.aspose.com/buy).
+**س4: أين يمكنني العثور على دعم لـ Aspose.CAD؟**  
+ج: لأي استفسارات أو مساعدة، زر **[منتدى Aspose.CAD](https://forum.aspose.com/c/cad/19)**.
 
-### س3: كيف يمكنني الحصول على ترخيص مؤقت لـ Aspose.CAD؟
+**س5: هل هناك نسخة تجريبية مجانية متاحة لـ Aspose.CAD؟**  
+ج: نعم، يمكنك الوصول إلى نسخة تجريبية مجانية **[هنا](https://releases.aspose.com/)**.
 
- يزور[هذا الرابط](https://purchase.aspose.com/temporary-license/) للحصول على ترخيص مؤقت لـ Aspose.CAD.
+## الخلاصة
 
-### س4: أين يمكنني العثور على الدعم لـ Aspose.CAD؟
+باتباعك لهذا **dwg to pdf tutorial**، لديك الآن طريقة موثوقة لـ **convert DWG to PDF** مع استهداف تخطيط واحد. هذه الطريقة توفر مساحة التخزين، وتسرّع مشاركة المستندات، وتحافظ على تنظيم سير عمل CAD الخاص بك. لا تتردد في تجربة إعدادات التحويل إلى نقطية المختلفة أو دمج عدة تخطيطات في ملف PDF واحد مع تطور مشروعك.
 
- لأية استفسارات أو مساعدة، قم بزيارة[منتدى Aspose.CAD](https://forum.aspose.com/c/cad/19).
-
-### س5: هل هناك نسخة تجريبية مجانية متاحة لـ Aspose.CAD؟
-
- نعم، يمكنك الوصول إلى النسخة التجريبية المجانية[هنا](https://releases.aspose.com/).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**آخر تحديث:** 2025-12-21  
+**تم الاختبار مع:** Aspose.CAD for Java 24.12  
+**المؤلف:** Aspose
