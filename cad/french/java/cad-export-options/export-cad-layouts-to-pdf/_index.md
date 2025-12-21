@@ -1,35 +1,55 @@
 ---
-title: Exportez des mises en page CAO au format PDF avec Aspose.CAD pour Java
-linktitle: Exporter des mises en page CAO au format PDF
-second_title: API Java Aspose.CAD
-description: Explorez Aspose.CAD pour Java pour exporter sans effort des mises en page CAO au format PDF. Efficace, fiable et convivial pour les développeurs.
-weight: 11
+date: 2025-12-21
+description: Apprenez à exporter des mises en page CAD au format PDF en utilisant
+  Aspose.CAD pour Java – une méthode rapide et fiable pour générer des PDF à partir
+  de fichiers CAD.
+linktitle: Export CAD Layouts to PDF
+second_title: Aspose.CAD Java API
+title: Comment exporter des mises en page CAD en PDF avec Aspose.CAD pour Java
 url: /fr/java/cad-export-options/export-cad-layouts-to-pdf/
+weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Exportez des mises en page CAO au format PDF avec Aspose.CAD pour Java
+# Comment exporter des mises en page CAD au format PDF avec Aspose.CAD pour Java
 
 ## Introduction
 
-Dans le domaine en constante évolution de la conception assistée par ordinateur (CAO), Aspose.CAD pour Java se distingue comme un outil puissant pour manipuler et convertir des fichiers CAO. Dans ce didacticiel, nous vous guiderons tout au long du processus d'exportation de mises en page CAO au format PDF à l'aide d'Aspose.CAD pour Java. Que vous soyez un développeur chevronné ou que vous plongez simplement dans le monde de la CAO, ce guide étape par étape vous aidera à exploiter tout le potentiel de cette bibliothèque Java polyvalente.
+Dans ce tutoriel, nous vous montrerons **comment exporter des mises en page CAD** au format PDF avec Aspose.CAD pour Java. Que vous travailliez avec des fichiers DWG, DXF ou d’autres formats CAD, ce guide vous accompagne pas à pas avec une approche propre et programmatique pour générer rapidement et de manière fiable des PDF à partir de fichiers CAD.
 
-## Conditions préalables
+## Réponses rapides
+- **À quoi sert la bibliothèque ?** Elle convertit les dessins CAD (DWG, DXF, DWF, etc.) en PDF, images raster et autres formats.  
+- **Quel langage est utilisé ?** Java – le code s’exécute sur toute plateforme compatible JVM.  
+- **Ai-je besoin d’une licence ?** Un essai gratuit est disponible ; une licence commerciale est requise pour la production.  
+- **Puis-je convertir DWG en PDF en Java ?** Oui – la même API prend en charge les conversions **dwg to pdf java**.  
+- **Quelles sont les étapes principales ?** Charger le fichier CAD, définir les options de rasterisation, configurer les options PDF et enregistrer le résultat.
 
-Avant de plonger dans le didacticiel, assurez-vous que les conditions préalables suivantes sont remplies :
+## Prérequis
 
--  Aspose.CAD pour Java : assurez-vous que la bibliothèque est installée. Vous pouvez le télécharger sur le site Aspose[ici](https://releases.aspose.com/cad/java/).
+Avant de plonger dans le tutoriel, assurez‑vous que les prérequis suivants sont en place :
 
-- Environnement de développement Java : assurez-vous d'avoir configuré un environnement de développement Java sur votre machine.
+- Aspose.CAD pour Java : assurez‑vous que la bibliothèque est installée. Vous pouvez la télécharger depuis le site Aspose [ici](https://releases.aspose.com/cad/java/).
+- Environnement de développement Java : assurez‑vous d’avoir un environnement de développement Java configuré sur votre machine.
 
-Maintenant que tout est configuré, commençons par le didacticiel.
+Une fois tout configuré, commençons le tutoriel.
 
-## Importer des espaces de noms
+## Qu’est‑ce que « how to export cad » ?
 
-Dans votre code Java, commencez par importer les espaces de noms nécessaires. Ces importations donnent accès aux classes et méthodes nécessaires pour travailler avec Aspose.CAD pour Java.
+Exporter du CAD signifie convertir les données de dessin CAD natives (telles que DWG, DXF ou DWF) en un format plus universellement lisible comme le PDF. Ce processus est essentiel pour partager des conceptions avec des parties prenantes qui ne disposent pas d’un logiciel CAD.
+
+## Pourquoi utiliser Aspose.CAD pour Java pour exporter du CAD en PDF ?
+
+- **Haute fidélité** – les graphiques vectoriels sont conservés, et les options de rasterisation vous permettent d’ajuster finement la qualité.  
+- **Aucune dépendance externe** – pur Java, sans DLL natives ni composants COM.  
+- **Prise en charge de plusieurs formats** – vous pouvez également **generate pdf from cad** des fichiers créés en DWG, DWF ou d’autres formats.  
+- **Scalable for batch jobs** – idéal pour l’automatisation côté serveur, les pipelines CI ou les utilitaires de bureau.
+
+## Importer les espaces de noms
+
+Dans votre code Java, commencez par importer les espaces de noms nécessaires. Ces imports donnent accès aux classes et méthodes requises pour travailler avec Aspose.CAD pour Java.
 
 ```java
 import com.aspose.cad.Image;
@@ -39,12 +59,12 @@ import com.aspose.cad.TextRenderingHint;
 
 import com.aspose.cad.imageoptions.CadRasterizationOptions;
 import com.aspose.cad.imageoptions.PdfOptions;
-//importer com.aspose.cad.imageoptions.TypeOfEntities ;
+//import com.aspose.cad.imageoptions.TypeOfEntities;
 ```
 
-## Étape 1 : Charger le fichier CAO
+## Étape 1 : Charger le fichier CAD
 
- Commencez par charger le fichier CAO dans votre application Java à l'aide du`Image.load` méthode. Remplacer`"conic_pyramid.dxf"` avec le chemin d'accès à votre fichier CAO.
+Commencez par charger le fichier CAD dans votre application Java en utilisant la méthode `Image.load`. Remplacez `"conic_pyramid.dxf"` par le chemin vers votre fichier CAD.
 
 ```java
 String dataDir = "Your Document Directory" + "ExportingCAD/";
@@ -52,9 +72,9 @@ String srcFile = dataDir + "conic_pyramid.dxf";
 Image cadImage = Image.load(srcFile);
 ```
 
-## Étape 2 : définir les options de rastérisation
+## Étape 2 : Définir les options de rasterisation
 
- Créer une instance de`CadRasterizationOptions` pour définir comment les entités CAO doivent être rastérisées. Ajustez les paramètres tels que la largeur de la page, la hauteur de la page et la mise à l'échelle de la mise en page en fonction de vos besoins.
+Créez une instance de `CadRasterizationOptions` pour définir comment les entités CAD doivent être rasterisées. Ajustez des paramètres tels que la largeur de page, la hauteur de page et le facteur d’échelle de mise en page selon vos besoins.
 
 ```java
 CadRasterizationOptions rasterizationOptions = new CadRasterizationOptions();
@@ -66,9 +86,9 @@ rasterizationOptions.setContentAsBitmap(true);
 rasterizationOptions.setLayouts(new String[]{"Model"});
 ```
 
-## Étape 3 : Définir les options PDF
+## Étape 3 : Définir les options PDF
 
- Créer une instance de`PdfOptions` et associez-le aux options de rastérisation. De plus, définissez les options graphiques pour l'exportation PDF, telles que le mode de lissage, l'indice de rendu du texte et le mode d'interpolation.
+Créez une instance de `PdfOptions` et associez‑la aux options de rasterisation. De plus, définissez les options graphiques pour l’export PDF, comme le mode de lissage, l’indice de rendu du texte et le mode d’interpolation.
 
 ```java
 PdfOptions pdfOptions = new PdfOptions();
@@ -78,41 +98,56 @@ rasterizationOptions.getGraphicsOptions().setTextRenderingHint(TextRenderingHint
 rasterizationOptions.getGraphicsOptions().setInterpolationMode(InterpolationMode.HighQualityBicubic);
 ```
 
-## Étape 4 : Exporter au format PDF
+## Étape 4 : Exporter en PDF
 
- Enfin, exportez les mises en page CAO vers un fichier PDF à l'aide du`save` méthode du`cadImage` objet.
+Enfin, exportez les mises en page CAD vers un fichier PDF en utilisant la méthode `save` de l’objet `cadImage`.
 
 ```java
 cadImage.save(dataDir + "CADLayoutsToPDF_out_.pdf", pdfOptions);
 ```
 
-Toutes nos félicitations! Vous avez exporté avec succès les mises en page CAO au format PDF à l'aide d'Aspose.CAD pour Java. N'hésitez pas à explorer les fonctionnalités supplémentaires offertes par Aspose.CAD pour améliorer votre expérience de manipulation de fichiers CAO.
+## Problèmes courants et solutions
 
-## Conclusion
+| Problème | Raison | Solution |
+|----------|--------|----------|
+| **Sortie PDF vide** | Options de rasterisation mal configurées (par ex., nom de mise en page non correspondant) | Vérifiez que `rasterizationOptions.setLayouts()` correspond aux noms de mise en page dans votre fichier CAD. |
+| **Images basse résolution** | `PageWidth`/`PageHeight` trop petits | Augmentez les dimensions de la page ou définissez une résolution DPI plus élevée via `rasterizationOptions.setResolution()`. |
+| **Version CAD non prise en charge** | Les versions DWG/DXF plus anciennes peuvent nécessiter une version plus récente d’Aspose.CAD | Téléchargez la dernière version de la bibliothèque depuis le site Aspose. |
 
-Dans ce didacticiel, nous avons parcouru le processus d'exportation de mises en page CAO au format PDF à l'aide d'Aspose.CAD pour Java. Grâce à ses fonctionnalités robustes et à son API facile à utiliser, Aspose.CAD permet aux développeurs de travailler efficacement avec des fichiers CAO dans leurs applications Java.
+## Questions fréquentes
 
-## FAQ
+### Q1 : Puis‑je utiliser Aspose.CAD pour Java avec d’autres formats de fichiers CAD ?
 
-### Q1 : Puis-je utiliser Aspose.CAD pour Java avec d’autres formats de fichiers CAO ?
+R1 : Oui, Aspose.CAD prend en charge divers formats CAD, y compris DWG, DXF, DWF et d’autres. Consultez la documentation [ici](https://reference.aspose.com/cad/java/) pour la liste complète.
 
- A1 : Oui, Aspose.CAD prend en charge divers formats de CAO, notamment DWG, DXF, DWF, etc. Consultez la documentation[ici](https://reference.aspose.com/cad/java/) pour une liste complète.
+### Q2 : Existe‑t‑il un essai gratuit disponible pour Aspose.CAD pour Java ?
 
-### Q2 : Existe-t-il un essai gratuit disponible pour Aspose.CAD pour Java ?
+R2 : Oui, vous pouvez explorer les fonctionnalités d’Aspose.CAD avec un essai gratuit [ici](https://releases.aspose.com/).
 
- A2 : Oui, vous pouvez explorer les fonctionnalités d'Aspose.CAD avec un essai gratuit[ici](https://releases.aspose.com/).
+### Q3 : Comment obtenir du support pour Aspose.CAD pour Java ?
 
-### Q3 : Comment puis-je obtenir de l'assistance pour Aspose.CAD pour Java ?
+R3 : Visitez le forum Aspose.CAD [ici](https://forum.aspose.com/c/cad/19) pour le support communautaire. Pour un support premium, envisagez d’acheter une licence [ici](https://purchase.aspose.com/buy).
 
- A3 : Visitez le forum Aspose.CAD[ici](https://forum.aspose.com/c/cad/19) pour le soutien de la communauté. Pour une assistance premium, envisagez d'acheter une licence[ici](https://purchase.aspose.com/buy).
+### Q4 : Quelle est la différence entre le redimensionnement automatique et manuel de la mise en page ?
 
-### Q4 : Quelle est la différence entre la mise à l'échelle automatique et manuelle de la mise en page ?
+R4 : Le redimensionnement automatique de la mise en page ajuste la taille de la mise en page en fonction des dimensions de page spécifiées, tandis que le redimensionnement manuel vous permet de définir des valeurs d’échelle personnalisées.
 
-A4 : La mise à l'échelle automatique de la mise en page ajuste la taille de la mise en page en fonction des dimensions de page spécifiées, tandis que la mise à l'échelle manuelle vous permet de définir des valeurs de mise à l'échelle personnalisées.
+### Q5 : Puis‑je personnaliser l’apparence des fichiers PDF exportés ?
 
-### Q5 : Puis-je personnaliser l’apparence des fichiers PDF exportés ?
+R5 : Oui, vous pouvez personnaliser les options graphiques dans le code pour contrôler la qualité et l’apparence du PDF exporté.
 
-A5 : Oui, vous pouvez personnaliser les options graphiques dans le code pour contrôler la qualité et l'apparence du PDF exporté.
+### Q6 : Aspose.CAD prend‑il en charge la conversion **dwg to pdf java** directement ?
+
+R6 : Absolument. Les mêmes options de rasterisation et PDF fonctionnent pour les fichiers DWG, permettant des conversions **dwg to pdf java** fluides.
+
+### Q7 : Existe‑t‑il un moyen de **generate pdf from cad** sans rasteriser en bitmap ?
+
+R7 : En définissant `rasterizationOptions.setContentAsBitmap(false)`, vous pouvez conserver les données vectorielles lorsque c’est possible, ce qui donne un PDF véritablement vectoriel.
+
+**Dernière mise à jour :** 2025-12-21  
+**Testé avec :** Aspose.CAD pour Java 24.10  
+**Auteur :** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

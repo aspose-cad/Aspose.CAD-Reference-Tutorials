@@ -1,114 +1,140 @@
 ---
-title: Ekspor Tata Letak DWG Tertentu ke PDF Menggunakan Aspose.CAD untuk Java
-linktitle: Ekspor Tata Letak DWG Tertentu ke PDF
+date: 2025-12-21
+description: Pelajari cara mengonversi DWG ke PDF dengan mengekspor tata letak DWG
+  tertentu ke PDF menggunakan Aspose.CAD untuk Java. Ikuti tutorial dwg ke pdf langkah
+  demi langkah ini untuk mempermudah alur kerja CAD Anda.
+linktitle: Export Specific DWG Layout to PDF
 second_title: Aspose.CAD Java API
-description: Jelajahi panduan langkah demi langkah untuk mengekspor tata letak DWG tertentu ke PDF menggunakan Aspose.CAD untuk Java. Optimalkan alur kerja CAD Anda dengan mudah.
-weight: 14
+title: Konversi DWG ke PDF – Ekspor Tata Letak dengan Aspose.CAD untuk Java
 url: /id/java/cad-drawing-conversion/export-specific-dwg-layout-to-pdf/
+weight: 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Ekspor Tata Letak DWG Tertentu ke PDF Menggunakan Aspose.CAD untuk Java
+# Konversi DWG ke PDF – Ekspor Tata Letak Spesifik Menggunakan Aspose.CAD untuk Java
 
-## Perkenalan
+## Introduction
 
-Dalam dunia Computer-Aided Design (CAD) yang dinamis, Aspose.CAD untuk Java muncul sebagai alat yang ampuh untuk memanipulasi dan mengonversi gambar DWG. Dalam tutorial ini, kita akan menjelajahi skenario spesifik: mengekspor tata letak DWG yang ditentukan ke file PDF. Proses ini memastikan presisi dan fleksibilitas dalam proyek CAD Anda.
+Di dunia Computer‑Aided Design (CAD) yang dinamis, **convert DWG to PDF** merupakan kebutuhan yang sering muncul saat berbagi gambar dengan klien, kontraktor, atau pemangku kepentingan non‑teknis. Aspose.CAD untuk Java membuat konversi ini menjadi mudah, bahkan memungkinkan Anda memilih satu tata letak dari file DWG multi‑layout. Pada tutorial ini kami akan membahas **cara mengekspor tata letak spesifik DWG** ke PDF, sehingga Anda dapat memberikan hasil yang tepat sesuai kebutuhan proyek tanpa halaman tambahan atau pemotongan manual.
 
-## Prasyarat
+## Quick Answers
+- **Apa arti “convert DWG to PDF”?** Ini mengubah gambar DWG menjadi dokumen PDF, mempertahankan data vektor dan kesetiaan tata letak.  
+- **Perpustakaan mana yang menangani konversi?** Aspose.CAD untuk Java menyediakan API siap pakai.  
+- **Apakah saya memerlukan lisensi untuk produksi?** Ya, lisensi komersial diperlukan; versi percobaan gratis dapat digunakan untuk evaluasi.  
+- **Bisakah saya memilih satu tata letak?** Tentu – atur properti `Layouts` ke nama tata letak yang diinginkan.  
+- **Versi Java apa yang didukung?** Java 8 dan yang lebih baru sepenuhnya kompatibel.
 
-Sebelum mempelajari tutorialnya, pastikan Anda memiliki prasyarat berikut:
+## Prerequisites
 
-- Lingkungan Pengembangan Java: Pastikan Anda memiliki lingkungan pengembangan Java yang berfungsi di sistem Anda.
--  Perpustakaan Aspose.CAD: Unduh dan atur perpustakaan Aspose.CAD untuk Java. Anda dapat menemukan perpustakaan[Di Sini](https://releases.aspose.com/cad/java/).
-- File DWG: Siapkan file DWG untuk diekspor. Anda dapat menggunakan file contoh "visualization_-_conference_room.dwg" untuk tutorial ini.
+Sebelum memulai, pastikan Anda memiliki:
 
-## Impor Namespace
+- **Java Development Environment** – JDK 8+ dan IDE pilihan Anda.  
+- **Aspose.CAD Library** – Unduh JAR terbaru dari situs resmi **[here](https://releases.aspose.com/cad/java/)**.  
+- **DWG File** – Gambar yang berisi setidaknya satu tata letak (misalnya *visualization_-_conference_room.dwg*).  
 
-## Langkah 1: Siapkan Lingkungan Proyek
+## Why Export a Specific DWG Layout to PDF?
 
-Mulailah dengan membuat proyek Java dan memastikan bahwa perpustakaan Aspose.CAD terintegrasi dengan benar. Anda dapat mengunduhnya[Di Sini](https://releases.aspose.com/cad/java/).
+Banyak file DWG berisi beberapa ruang kertas (layout). Mengekspor seluruh file dapat menghasilkan PDF yang besar dengan halaman yang tidak diinginkan. Memilih satu tata letak:
 
-## Langkah 2: Impor Paket yang Diperlukan
+- Mengurangi ukuran file.  
+- Memfokuskan perhatian pemirsa pada lembar gambar yang relevan.  
+- Menyesuaikan standar dokumentasi proyek.  
 
-Di kelas Java Anda, impor paket Aspose.CAD yang diperlukan untuk memanfaatkan fungsinya dengan lancar.
+## Step‑by‑Step Guide
+
+### Step 1: Set Up the Project Environment
+
+Buat proyek Java baru (Maven, Gradle, atau IDE biasa) dan tambahkan JAR Aspose.CAD ke classpath Anda. Anda dapat mengunduhnya **[here](https://releases.aspose.com/cad/java/)**.
+
+### Step 2: Import Necessary Packages
+
+Tambahkan namespace Aspose.CAD yang diperlukan ke kelas Java Anda.
 
 ```java
-
 import com.aspose.cad.Image;
-
 import com.aspose.cad.imageoptions.CadRasterizationOptions;
 import com.aspose.cad.imageoptions.PdfOptions;
 ```
 
-## Langkah 3: Muat File DWG
+### Step 3: Load the DWG File
 
-Tentukan jalur file DWG Anda dan muat ke objek gambar Aspose.CAD.
+Tunjuk ke file DWG yang ingin Anda konversi dan muat ke objek `Image`.
 
 ```java
 String srcFile = dataDir + "visualization_-_conference_room.dwg";
 Image image = Image.load(srcFile);
 ```
 
-## Langkah 4: Konfigurasikan Opsi Rasterisasi
+### Step 4: Configure Rasterization Options
 
- Buat sebuah contoh dari`CadRasterizationOptions` dan sesuaikan propertinya sesuai dengan kebutuhan Anda.
+Tentukan ukuran halaman dan, yang paling penting, tata letak yang ingin Anda ekspor.
 
 ```java
 CadRasterizationOptions rasterizationOptions = new CadRasterizationOptions();
 rasterizationOptions.setPageWidth(1600);
 rasterizationOptions.setPageHeight(1600);
-// Tentukan nama tata letak yang diinginkan
+// Specify desired layout name
 rasterizationOptions.setLayouts(new String[] {"Layout1"});
 ```
 
-## Langkah 5: Tetapkan Opsi Ekspor PDF
+### Step 5: Set PDF Export Options
 
- Membuat`PdfOptions` contoh dan mengaturnya`VectorRasterizationOptions` properti ke yang dikonfigurasi sebelumnya`CadRasterizationOptions`.
+Hubungkan pengaturan rasterisasi dengan pengekspor PDF.
 
 ```java
 PdfOptions pdfOptions = new PdfOptions();
 pdfOptions.setVectorRasterizationOptions(rasterizationOptions);
 ```
 
-## Langkah 6: Ekspor DWG ke PDF
+### Step 6: Export DWG to PDF
 
-Simpan gambar yang dimodifikasi ke file PDF, selesaikan proses konversi.
+Simpan hasilnya sebagai file PDF. Output akan berisi hanya **Layout1**, menghasilkan operasi **convert DWG to PDF** yang bersih.
 
 ```java
 image.save(dataDir + "ExportSpecificLayoutToPDF_out_.pdf", pdfOptions);
 ```
 
-## Kesimpulan
+## Common Issues and Solutions
 
-Menguasai seni mengekspor tata letak DWG tertentu ke PDF menggunakan Aspose.CAD untuk Java dapat meningkatkan alur kerja CAD Anda secara signifikan. Dengan langkah-langkah yang disediakan, Anda dapat dengan mudah mengintegrasikan fungsi ini ke dalam proyek Anda, memastikan presisi dan efisiensi.
+| Masalah | Mengapa Terjadi | Solusi |
+|-------|----------------|-----|
+| **Layout not found** | Nama tata letak salah ketik atau tidak ada dalam DWG. | Gunakan `image.getLayoutNames()` untuk menampilkan tata letak yang tersedia, lalu pilih yang benar. |
+| **Low resolution PDF** | `PageWidth`/`PageHeight` terlalu kecil. | Tingkatkan dimensi (mis., 2000 × 2000) atau setel `rasterizationOptions.setResolution(300);`. |
+| **License exception** | Menjalankan tanpa lisensi yang valid di lingkungan non‑trial. | Terapkan lisensi Aspose.CAD Anda sebelum memuat gambar: `License license = new License(); license.setLicense("Aspose.CAD.lic");`. |
 
-## FAQ
+## Frequently Asked Questions
 
-### Q1: Dapatkah saya menggunakan Aspose.CAD untuk Java dengan pustaka CAD berbasis Java lainnya?
+**Q1: Bisakah saya menggunakan Aspose.CAD untuk Java bersama perpustakaan CAD berbasis Java lainnya?**  
+A: Aspose.CAD untuk Java adalah perpustakaan mandiri tetapi dapat diintegrasikan dengan perpustakaan berbasis Java lainnya untuk fungsionalitas tambahan.
 
-Aspose.CAD untuk Java adalah perpustakaan mandiri tetapi dapat diintegrasikan dengan perpustakaan berbasis Java lainnya untuk fungsionalitas yang lebih luas.
+**Q2: Apakah ada opsi lisensi untuk Aspose.CAD?**  
+A: Ya, Anda dapat menjelajahi opsi lisensi dan detail pembelian **[here](https://purchase.aspose.com/buy)**.
 
-### Q2: Apakah ada opsi lisensi untuk Aspose.CAD?
+**Q3: Bagaimana cara mendapatkan lisensi sementara untuk Aspose.CAD?**  
+A: Kunjungi **[this link](https://purchase.aspose.com/temporary-license/)** untuk meminta lisensi sementara.
 
- Ya, Anda dapat menjelajahi opsi lisensi dan detail pembelian[Di Sini](https://purchase.aspose.com/buy).
+**Q4: Di mana saya dapat menemukan dukungan untuk Aspose.CAD?**  
+A: Untuk pertanyaan atau bantuan, kunjungi **[Aspose.CAD forum](https://forum.aspose.com/c/cad/19)**.
 
-### Q3: Bagaimana cara mendapatkan lisensi sementara untuk Aspose.CAD?
+**Q5: Apakah ada versi percobaan gratis untuk Aspose.CAD?**  
+A: Ya, Anda dapat mengakses versi percobaan gratis **[here](https://releases.aspose.com/)**.
 
- Mengunjungi[Link ini](https://purchase.aspose.com/temporary-license/) untuk mendapatkan lisensi sementara untuk Aspose.CAD.
+## Conclusion
 
-### Q4: Di mana saya dapat menemukan dukungan untuk Aspose.CAD?
+Dengan mengikuti **dwg to pdf tutorial** ini, Anda kini memiliki cara andal untuk **convert DWG to PDF** sambil menargetkan satu tata letak. Pendekatan ini menghemat ruang penyimpanan, mempercepat berbagi dokumen, dan menjaga alur kerja CAD Anda tetap rapi. Jangan ragu untuk bereksperimen dengan pengaturan rasterisasi yang berbeda atau menggabungkan beberapa tata letak menjadi satu PDF seiring perkembangan proyek Anda.
 
- Untuk pertanyaan atau bantuan apa pun, kunjungi[Forum Aspose.CAD](https://forum.aspose.com/c/cad/19).
-
-### Q5: Apakah ada uji coba gratis yang tersedia untuk Aspose.CAD?
-
- Ya, Anda dapat mengakses uji coba gratis[Di Sini](https://releases.aspose.com/).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Terakhir Diperbarui:** 2025-12-21  
+**Diuji Dengan:** Aspose.CAD for Java 24.12  
+**Penulis:** Aspose

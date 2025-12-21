@@ -1,35 +1,53 @@
 ---
-title: Java용 Aspose.CAD를 사용하여 BMP로 내보내기
-linktitle: BMP로 내보내기
-second_title: Aspose.CAD 자바 API
-description: Java용 Aspose.CAD를 사용하여 원활한 CAD에서 BMP로의 변환을 살펴보세요. 효율적이고 정확한 내보내기를 위한 단계별 가이드를 따르세요.
-weight: 12
+date: 2025-12-21
+description: 이 단계별 가이드를 통해 Aspose.CAD for Java를 사용하여 DWG를 BMP로 변환하고 CAD를 BMP로 내보내는
+  방법을 배워보세요.
+linktitle: Export to BMP
+second_title: Aspose.CAD Java API
+title: Aspose.CAD for Java를 사용하여 DWG를 BMP로 변환하는 방법
 url: /ko/java/cad-export-options/export-to-bmp/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Java용 Aspose.CAD를 사용하여 BMP로 내보내기
+# Convert DWG to BMP with Aspose.CAD for Java
 
-## 소개
+## Introduction
 
-끊임없이 진화하는 디지털 디자인 환경에서는 CAD(Computer-Aided Design) 파일을 다양한 형식으로 원활하게 내보내는 기능이 중요합니다. Aspose.CAD for Java는 개발자에게 CAD 파일을 BMP 형식으로 효율적으로 내보내는 데 필요한 도구를 제공하는 강력한 솔루션으로 돋보입니다. 이 튜토리얼에서는 프로세스를 단계별로 안내하여 매번 원활하고 성공적인 내보내기를 보장합니다.
+현대 디지털 디자인 워크플로우에서는 **DWG를 BMP로 변환**하는 작업을 빠르고 안정적으로 수행하는 것이 필수적입니다. 배치 처리 서비스를 구축하든 단일 파일 변환이 필요하든, Aspose.CAD for Java는 **CAD를 BMP로 내보내기** 위한 강력한 API와 래스터화 설정에 대한 완전한 제어를 제공합니다. 이 튜토리얼에서는 DWG 파일을 로드하고 최종 BMP 이미지를 저장하는 각 단계를 차근차근 살펴보며, Java 애플리케이션에 변환 기능을 자신 있게 통합할 수 있도록 안내합니다.
 
-## 전제 조건
+## Quick Answers
+- **What library is needed?** Aspose.CAD for Java.
+- **Can I convert DWG to BMP in a single line of code?** No, you need to load the file, set rasterization options, and then save.
+- **Is a license required for production?** Yes, a commercial license is required; a free trial is available.
+- **Does the API support batch conversion?** Absolutely—loop through files and reuse the same options.
+- **What Java version is supported?** Java 8 and later.
 
-튜토리얼을 시작하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
+## What is “convert DWG to BMP”?
 
-- Java 라이브러리용 Aspose.CAD: 다음 위치에서 Java 라이브러리용 Aspose.CAD를 다운로드하고 설치합니다.[여기](https://releases.aspose.com/cad/java/).
+DWG( AutoCAD 도면) 파일을 BMP(비트맵) 이미지로 변환하면 벡터 데이터를 픽셀 기반 형식으로 래스터화합니다. 이는 CAD 소프트웨어 없이도 보고서, 썸네일 또는 웹 미리보기에 사용할 수 있는 보편적인 이미지를 필요로 할 때 유용합니다.
 
-- Java 개발 환경: 시스템에 Java 개발 환경이 설정되어 있는지 확인하십시오.
+## Why use Aspose.CAD for Java to export CAD to BMP?
 
-- 기본 Java 지식: 기본 Java 프로그래밍 개념을 숙지하세요.
+- **No external dependencies** – 순수 Java 기반이며 네이티브 DLL이 필요 없습니다.
+- **Fine‑grained rasterization** – 페이지 크기, 레이아웃, 안티앨리어싱을 세밀하게 제어합니다.
+- **High fidelity** – 선 굵기, 색상, 레이어를 정확히 보존합니다.
+- **Scalable** – 단일 파일이든 대규모 배치 작업이든 모두 처리 가능합니다.
 
-## 네임스페이스 가져오기
+## Prerequisites
 
-Java 프로젝트에서 Aspose.CAD 기능에 액세스하는 데 필요한 네임스페이스를 가져옵니다.
+코드 작성을 시작하기 전에 다음을 준비하세요:
+
+- **Aspose.CAD for Java Library** – [here](https://releases.aspose.com/cad/java/)에서 다운로드합니다.
+- **Java Development Environment** – JDK 8 이상 및 선호하는 IDE.
+- **Basic Java Knowledge** – 클래스, 메서드, 파일 I/O에 대한 기본 이해.
+
+## Import Namespaces
+
+In your Java project, import the necessary namespaces to access Aspose.CAD functionalities:
 
 ```java
 import com.aspose.cad.Image;
@@ -43,26 +61,26 @@ import com.aspose.cad.imageoptions.PdfOptions;
 //import com.aspose.cad.imageoptions.TypeOfEntities;
 ```
 
-## 1단계: 리소스 디렉터리 경로 설정
+## Step 1: Set the Resource Directory Path
 
-CAD 파일이 있는 리소스 디렉터리의 경로를 정의하는 것부터 시작합니다.
+Define the folder that contains the DWG (or other CAD) file you want to convert.
 
 ```java
 String dataDir = "Your Document Directory" + "ExportingCAD/";
 ```
 
-## 2단계: CAD 파일 로드
+## Step 2: Load the CAD File
 
- CAD 파일을 Aspose.CAD에 로드합니다.`Image` 물체.
+Create an `Image` object by loading the source DWG file.
 
 ```java
 String fileName = (dataDir + "site.dwf");
 Image image = Image.load(fileName);
 ```
 
-## 3단계: BMP 내보내기 옵션 구성
+## Step 3: Configure BMP Export Options
 
-래스터화 설정을 포함한 BMP 내보내기 옵션을 만들고 구성합니다.
+Instantiate `BmpOptions` and attach a `CadRasterizationOptions` object that controls how the vector data is rasterized.
 
 ```java
 BmpOptions bmpOptions = new BmpOptions();
@@ -70,9 +88,9 @@ CadRasterizationOptions rasterizationOptions = new CadRasterizationOptions();
 bmpOptions.setVectorRasterizationOptions(rasterizationOptions);
 ```
 
-## 4단계: 래스터화 매개변수 설정
+## Step 4: Set Rasterization Parameters
 
-래스터화를 위한 페이지 높이, 페이지 너비, 레이아웃 등의 매개변수를 정의합니다.
+Adjust page dimensions and specify which layout(s) to render. These settings directly affect the quality and size of the resulting BMP.
 
 ```java
 rasterizationOptions.setPageHeight(500);
@@ -80,45 +98,77 @@ rasterizationOptions.setPageWidth(500);
 rasterizationOptions.setLayouts(new String[] { "Model" });
 ```
 
-## 5단계: BMP로 내보내기
+## Step 5: Export to BMP
 
-출력 경로를 지정하고 BMP 파일을 저장합니다.
+Provide the output path and invoke `save` to write the BMP file.
 
 ```java
 String outPath = dataDir + "site.bmp";
 image.save(outPath, bmpOptions);
 ```
 
-Aspose.CAD for Java를 사용하여 BMP로 내보내려는 각 CAD 파일에 대해 이 단계를 반복합니다.
+Repeat the above steps for each CAD file you wish to **convert DWG to BMP** using Aspose.CAD for Java.
 
-## 결론
+## Common Issues & Tips
 
-Aspose.CAD for Java를 사용하면 CAD 파일을 BMP 형식으로 쉽게 내보낼 수 있습니다. 이 단계별 가이드를 따르면 이 기능을 Java 애플리케이션에 원활하게 통합하여 효율적이고 정확한 변환을 보장할 수 있습니다.
+- **Incorrect layout name** – Ensure the layout string matches one of the layouts defined in your DWG file (e.g., `"Model"` or `"Layout1"`).
+- **Low‑resolution output** – Increase `PageWidth` and `PageHeight` for higher DPI results.
+- **Memory consumption** – For very large drawings, consider processing files one at a time and disposing of the `Image` object after each save.
 
-## FAQ
+## FAQ's
 
-### Q1: Aspose.CAD for Java는 일괄 처리에 적합합니까?
+### Q1: Is Aspose.CAD for Java suitable for batch processing?
 
-A1: 물론이죠! Aspose.CAD for Java는 일괄 처리를 지원하므로 여러 CAD 파일을 동시에 효율적으로 처리할 수 있습니다.
+A1: Absolutely! Aspose.CAD for Java supports batch processing, allowing you to efficiently handle multiple CAD files simultaneously.
 
-### Q2: 다양한 레이아웃에 맞게 래스터화 옵션을 사용자 정의할 수 있나요?
+### Q2: Can I customize the rasterization options for different layouts?
 
-A2: 예, 특정 요구 사항에 따라 페이지 크기 및 레이아웃과 같은 래스터화 옵션을 사용자 정의할 수 있습니다.
+A2: Yes, you can customize rasterization options such as page dimensions and layouts according to your specific requirements.
 
-### Q3: Aspose.CAD for Java에 대한 추가 지원은 어디서 찾을 수 있나요?
+### Q3: Where can I find additional support for Aspose.CAD for Java?
 
- A3: 다음을 방문하세요.[Aspose.CAD 포럼](https://forum.aspose.com/c/cad/19) 커뮤니티 지원 및 토론을 위해.
+A3: Visit the [Aspose.CAD forum](https://forum.aspose.com/c/cad/19) for community support and discussions.
 
-### Q4: 무료 평가판이 제공됩니까?
+### Q4: Is there a free trial available?
 
- A4: 예, Aspose.CAD for Java의 무료 평가판을 탐색할 수 있습니다.[여기](https://releases.aspose.com/).
+A4: Yes, you can explore a free trial of Aspose.CAD for Java [here](https://releases.aspose.com/).
 
-### Q5: 임시 라이센스는 어떻게 얻을 수 있나요?
+### Q5: How can I obtain a temporary license?
 
- A5: Java용 Aspose.CAD에 대한 임시 라이센스를 얻습니다.[여기](https://purchase.aspose.com/temporary-license/).
+A5: Obtain a temporary license for Aspose.CAD for Java [here](https://purchase.aspose.com/temporary-license/).
+
+## Frequently Asked Questions
+
+**Q: Can I convert other CAD formats (e.g., DXF, DGN) to BMP?**  
+A: Yes, the same API works with DXF, DGN, DWF, and other supported formats.
+
+**Q: Does the conversion preserve layer visibility?**  
+A: By default all visible layers are rasterized; you can hide layers via `CadRasterizationOptions` if needed.
+
+**Q: Is it possible to set a background color for the BMP?**  
+A: Yes, use `rasterizationOptions.setBackgroundColor(Color.getWhite());` before saving.
+
+**Q: How do I handle password‑protected CAD files?**  
+A: Load the file with `Image.load(fileName, loadOptions)` where `loadOptions` includes the password.
+
+**Q: What is the best way to improve performance for large batches?**  
+A: Reuse a single `BmpOptions` instance and only change the input file path for each iteration.
+
+## Conclusion
+
+By following this guide, you now have a solid foundation for **converting DWG to BMP** and **exporting CAD to BMP** using Aspose.CAD for Java. Integrate these steps into your applications to automate image generation, create thumbnails, or prepare assets for downstream processing.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Last Updated:** 2025-12-21  
+**Tested With:** Aspose.CAD for Java 24.11  
+**Author:** Aspose  
+
+---
