@@ -1,33 +1,46 @@
 ---
-title: Toegang tot underlay-vlaggen van DWG met Aspose.CAD voor Java
-linktitle: Toegang tot underlay-vlaggen van DWG
-second_title: Aspose.CAD Java-API
-description: Ontdek de wereld van CAD-magie met Aspose.CAD voor Java! Verwerk moeiteloos DWG-bestanden in uw Java-applicaties.
-weight: 11
+date: 2025-12-22
+description: Leer hoe u een DWG‑bestand laadt en onderleggerinformatie extraheert
+  met Aspose.CAD voor Java – een stapsgewijze handleiding die onderlegger‑vlaggen
+  behandelt.
+linktitle: Accessing Underlay Flags of DWG
+second_title: Aspose.CAD Java API
+title: DWG-bestand laden & onderlegger‑vlaggen openen – Aspose.CAD voor Java
 url: /nl/java/cad-file-manipulation/accessing-underlay-flags-of-dwg/
+weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Toegang tot underlay-vlaggen van DWG met Aspose.CAD voor Java
+# DWG-bestand laden & onderlegger‑vlaggen openen – Aspose.CAD voor Java
 
-## Invoering
+In moderne CAD‑workflows is **een DWG‑bestand laden** snel en het ophalen van onderlegger‑details een veelvoorkomende eis. Of je nu een viewer bouwt, batchverwerking automatiseert of metadata extraheert voor GIS‑integratie, Aspose.CAD voor Java biedt een nette, code‑first manier om dit te doen. In deze tutorial lopen we stap voor stap door hoe je een **DWG‑bestand laadt**, de entiteiten doorloopt en de onderlegger‑vlaggen leest die veel ontwikkelaars over het hoofd zien.
 
-Op het gebied van Computer-Aided Design (CAD) zijn precisie en efficiëntie van het grootste belang. Aspose.CAD voor Java komt naar voren als een krachtige bondgenoot en biedt een naadloze brug tussen uw Java-applicaties en CAD-functionaliteiten. In deze stapsgewijze handleiding duiken we in de magie van Aspose.CAD, waarbij we ons concentreren op het verwerken van DWG-bestanden en het extraheren van waardevolle informatie met behulp van Java.
+## Snelle antwoorden
+- **Welke klasse gebruik je primair om een DWG te openen?** `com.aspose.cad.Image.load()` retourneert een `CadImage`.
+- **Welk object bevat onderlegger‑informatie?** `CadUnderlay` (of afgeleide types zoals `CadDgnUnderlay`).
+- **Heb ik een licentie nodig voor ontwikkeling?** Een gratis proefversie werkt voor testen; een commerciële licentie is vereist voor productie.
+- **Kan ik meerdere DWG‑bestanden in een lus verwerken?** Ja – herhaal gewoon het laad‑en‑doorloop‑patroon.
+- **Is deze aanpak compatibel met Java 11+?** Absoluut, Aspose.CAD ondersteunt Java 8 tot en met de nieuwste LTS‑releases.
+
+## Wat is “load dwg file” in Aspose.CAD?
+`Image.load()` leest de binaire DWG‑inhoud en maakt een `CadImage`‑object in het geheugen. Vanaf daar kun je lagen, blokken en onderlegger‑entiteiten verkennen zonder zelf met het DWG‑bestandformaat te hoeven werken.
+
+## Waarom onderlegger‑vlaggen uit een DWG extraheren?
+Onderlegger‑vlaggen geven aan hoe een externe referentie (zoals een DGN‑ of PDF‑onderlegger) gepositioneerd, geschaald en geroteerd is binnen de tekening. Het kennen van deze waarden stelt je in staat om:
+
+- De exacte visuele lay-out opnieuw te creëren in een aangepaste viewer.
+- Onderleggers om te zetten naar native CAD‑entiteiten voor verdere bewerking.
+- Rapporten te genereren die onderlegger‑metadata bevatten voor compliance of documentatie.
 
 ## Vereisten
+- **Aspose.CAD‑bibliotheek** – download van de [releases](https://releases.aspose.com/cad/java/) pagina.
+- **Java Development Kit** – JDK 8 of nieuwer.
+- **Een map** met de DWG‑bestanden die je wilt analyseren. Vervang `"Your Document Directory"` in de code door je eigen pad.
 
-Voordat u aan deze reis begint, moet u ervoor zorgen dat u over het volgende beschikt:
-
--  Aspose.CAD-bibliotheek: Download en installeer de Aspose.CAD-bibliotheek van de[releases](https://releases.aspose.com/cad/java/) bladzijde.
-
--  Documentmap: maak een map waarin uw DWG-tekeningen worden opgeslagen. Vervangen`"Your Document Directory"` in het codefragment met het daadwerkelijke pad.
-
-## Naamruimten importeren
-
-Zorg ervoor dat u de benodigde naamruimten importeert om de volledige kracht van Aspose.CAD te benutten:
+## Import Namespaces
 
 ```java
 import com.aspose.cad.Image;
@@ -39,85 +52,78 @@ import com.aspose.cad.fileformats.cad.cadobjects.CadUnderlay;
 import com.aspose.cad.fileformats.cad.cadobjects.UnderlayFlags;
 ```
 
-Laten we het voorbeeld nu in meerdere stappen opsplitsen.
+## Stapsgewijze handleiding
 
-## Stap 1: Stel de bronnenmap in
-
+### Stap 1: De resource‑directory instellen
 ```java
-// Het pad naar de bronmap.
+// The path to the resource directory.
 String dataDir = "Your Document Directory" + "DWGDrawings/";
 ```
+Definieer waar je DWG‑bestanden zich bevinden. Het gebruik van een speciale map houdt het voorbeeld overzichtelijk en draagbaar.
 
- Deze stap definieert de map waarin uw DWG-tekeningen worden opgeslagen. Vervangen`"Your Document Directory"` met het daadwerkelijke pad.
-
-## Stap 2: Laad het DWG-bestand en converteer naar CadImage
-
+### Stap 2: Het DWG‑bestand laden
 ```java
-// Voer de bestandsnaam en het pad in
+// Input file name and path
 String fileName = dataDir + "BlockRefDgn.dwg";
 
-//Laad een bestaand DWG-bestand en converteer het naar CadImage
+// Load an existing DWG file and convert it into CadImage 
 CadImage image = (CadImage)Image.load(fileName);
 ```
+Hier **laden we het DWG‑bestand** `BlockRefDgn.dwg` in een `CadImage`‑instantie, klaar voor inspectie.
 
-In deze stap specificeren we het pad en de naam van het DWG-bestand en laden we het vervolgens als een CadImage-object.
-
-## Stap 3: Herhaal de DWG-entiteiten
-
+### Stap 3: Door DWG‑entiteiten itereren
 ```java
-// Doorloop elke entiteit in het DWG-bestand
+// Go through each entity inside the DWG file
 for(CadBaseEntity entity : image.getEntities())
 ```
+De lus doorloopt elke entiteit – lijnen, cirkels, blokken en onderleggers – zodat we de gewenste items kunnen selecteren.
 
-Deze lus loopt door elke entiteit binnen het DWG-bestand, waardoor we ze kunnen analyseren en manipuleren.
-
-## Stap 4: Controleer het CadDgnUnderlay-type
-
+### Stap 4: CadDgnUnderlay‑entiteiten identificeren
 ```java
-// Controleer of de entiteit van het type CadDgnUnderlay is
+// Check if entity is of CadDgnUnderlay type
 if (entity instanceof CadDgnUnderlay)
 ```
+Alleen `CadDgnUnderlay`‑objecten bevatten de onderlegger‑vlaggen die we zoeken, dus filteren we op deze type.
 
-Deze voorwaardelijke verklaring zorgt ervoor dat we specifiek omgaan met entiteiten van het type CadDgnUnderlay.
-
-## Stap 5: Toegang tot ondervloerinformatie
-
+### Stap 5: Onderlegger‑informatie benaderen
 ```java
-// Toegang tot verschillende ondervloervlaggen
+// Access different underlay flags 
 CadUnderlay underlay = (CadUnderlay) entity;
 System.out.println(underlay.getUnderlayPath());
 System.out.println(underlay.getUnderlayName());
-// ... (Extra ondervloereigenschappen)
+// ... (Additional underlay properties)
 break;
 ```
+Zodra we een `CadUnderlay` hebben, kunnen we het pad, de naam, het invoegpunt, de rotatie, schaalfactoren en de `UnderlayFlags`‑enum lezen die zichtbaarheid, clipping en andere renderopties aangeeft.
 
-Hier hebben we toegang tot verschillende eigenschappen van het CadUnderlay-object, waarbij waardevolle informatie wordt opgehaald, zoals het pad van de underlay, de naam, het invoegpunt, de rotatiehoek en schaalfactoren.
-
-## Conclusie
-
-In deze tutorial hebben we nauwelijks de oppervlakte van Aspose.CAD betreden voor de mogelijkheden van Java. Gewapend met deze stappen kunt u nu het potentieel van CAD-manipulatie in uw Java-toepassingen ontsluiten.
+## Veelvoorkomende problemen & tips
+- **Null onderlegger‑pad** – Zorg ervoor dat de DWG daadwerkelijk een extern bestand referereert; anders blijft het pad leeg.
+- **Niet‑ondersteund onderlegger‑type** – Aspose.CAD ondersteunt momenteel DGN‑onderleggers; PDF‑onderleggers zijn nog niet via de API beschikbaar.
+- **Licentie‑uitzonderingen** – Het uitvoeren van de code zonder geldige licentie voegt een watermerk toe aan geëxporteerde afbeeldingen.
 
 ## Veelgestelde vragen
 
-### V1: Kan ik Aspose.CAD voor Java gebruiken met andere CAD-bestandsindelingen?
+**V: Kan ik Aspose.CAD voor Java gebruiken met andere CAD‑bestandsformaten?**  
+A: Aspose.CAD richt zich voornamelijk op het DWG‑formaat, maar ondersteunt ook DXF, DWF en andere CAD‑formaten.
 
-A1: Aspose.CAD richt zich primair op het DWG-formaat, maar ondersteunt ook DXF-, DWF- en andere CAD-formaten.
+**V: Is er een proefversie beschikbaar voor Aspose.CAD voor Java?**  
+A: Ja, je kunt de functies verkennen met een gratis proefversie via [hier](https://releases.aspose.com/).
 
-### V2: Is er een proefversie beschikbaar voor Aspose.CAD voor Java?
+**V: Hoe kan ik ondersteuning krijgen of hulp zoeken voor Aspose.CAD voor Java?**  
+A: Bezoek het [Aspose.CAD‑forum](https://forum.aspose.com/c/cad/19) voor community‑ondersteuning en discussies.
 
- A2: Ja, u kunt de functies verkennen met een gratis proefperiode van[hier](https://releases.aspose.com/).
+**V: Zijn tijdelijke licenties beschikbaar voor Aspose.CAD voor Java?**  
+A: Ja, je kunt een tijdelijke licentie verkrijgen [hier](https://purchase.aspose.com/temporary-license/).
 
-### V3: Hoe kan ik ondersteuning krijgen of hulp zoeken bij Aspose.CAD voor Java?
+**V: Waar vind ik de volledige documentatie voor Aspose.CAD voor Java?**  
+A: Raadpleeg de [documentatie](https://reference.aspose.com/cad/java/) voor gedetailleerde informatie.
 
- A3: Bezoek de[Aspose.CAD-forum](https://forum.aspose.com/c/cad/19) voor gemeenschapsondersteuning en discussies.
+---
 
-### V4: Zijn er tijdelijke licenties beschikbaar voor Aspose.CAD voor Java?
+**Laatst bijgewerkt:** 2025-12-22  
+**Getest met:** Aspose.CAD 24.12 for Java  
+**Auteur:** Aspose  
 
- A4: Ja, u kunt een tijdelijke licentie verkrijgen[hier](https://purchase.aspose.com/temporary-license/).
-
-### V5: Waar kan ik de uitgebreide documentatie voor Aspose.CAD voor Java vinden?
-
- A5: Raadpleeg de[documentatie](https://reference.aspose.com/cad/java/) voor gedetailleerde informatie.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

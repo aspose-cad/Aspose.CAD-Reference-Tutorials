@@ -1,33 +1,46 @@
 ---
-title: Accès aux indicateurs de sous-couche de DWG avec Aspose.CAD pour Java
-linktitle: Accès aux indicateurs de calque sous-jacent de DWG
-second_title: API Java Aspose.CAD
-description: Explorez le monde de la magie de la CAO avec Aspose.CAD pour Java ! Gérez sans effort les fichiers DWG dans vos applications Java.
-weight: 11
+date: 2025-12-22
+description: Apprenez à charger un fichier DWG et à extraire les informations de sous‑couche
+  avec Aspose.CAD pour Java – un guide étape par étape couvrant les indicateurs de
+  sous‑couche.
+linktitle: Accessing Underlay Flags of DWG
+second_title: Aspose.CAD Java API
+title: Charger le fichier DWG et accéder aux drapeaux de sous-couche – Aspose.CAD
+  pour Java
 url: /fr/java/cad-file-manipulation/accessing-underlay-flags-of-dwg/
+weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Accès aux indicateurs de sous-couche de DWG avec Aspose.CAD pour Java
+# Charger un fichier DWG et accéder aux indicateurs de sous-couche – Aspose.CAD pour Java
 
-## Introduction
+Dans les flux de travail CAD modernes, **charger un fichier DWG** rapidement et extraire les détails de la sous-couche est une exigence courante. Que vous construisiez un visualiseur, automatisiez le traitement par lots ou extrayiez des métadonnées pour l'intégration GIS, Aspose.CAD pour Java vous offre une méthode propre, axée sur le code, pour le faire. Dans ce tutoriel, nous parcourrons les étapes exactes pour **charger un fichier DWG**, itérer ses entités et lire les indicateurs de sous-couche que de nombreux développeurs négligent.
 
-Dans le domaine de la conception assistée par ordinateur (CAO), la précision et l’efficacité sont primordiales. Aspose.CAD for Java apparaît comme un allié puissant, fournissant un pont transparent entre vos applications Java et les fonctionnalités de CAO. Dans ce guide étape par étape, nous plongerons dans la magie d'Aspose.CAD, en nous concentrant sur la gestion des fichiers DWG et l'extraction d'informations précieuses à l'aide de Java.
+## Réponses rapides
+- **Quel est la classe principale pour ouvrir un DWG ?** `com.aspose.cad.Image.load()` renvoie un `CadImage`.
+- **Quel objet contient les informations de sous-couche ?** `CadUnderlay` (ou ses types dérivés comme `CadDgnUnderlay`).
+- **Ai-je besoin d'une licence pour le développement ?** Un essai gratuit fonctionne pour les tests ; une licence commerciale est requise pour la production.
+- **Puis-je traiter plusieurs fichiers DWG dans une boucle ?** Oui – il suffit de répéter le schéma charger‑et‑itérer.
+- **Cette approche est‑elle compatible avec Java 11+ ?** Absolument, Aspose.CAD prend en charge Java 8 jusqu’aux dernières versions LTS.
 
-## Conditions préalables
+## Qu’est‑ce que « load dwg file » dans Aspose.CAD ?
+`Image.load()` lit le contenu binaire DWG et crée un objet `CadImage` en mémoire. À partir de là, vous pouvez explorer les calques, les blocs et les entités de sous-couche sans gérer vous‑même le format de fichier DWG.
 
-Avant de vous lancer dans ce voyage, assurez-vous d’avoir mis en place les éléments suivants :
+## Pourquoi extraire les indicateurs de sous-couche d’un DWG ?
+Les indicateurs de sous-couche indiquent comment une référence externe (comme une sous-couche DGN ou PDF) est positionnée, mise à l’échelle et tournée à l’intérieur du dessin. Connaître ces valeurs vous permet de :
+- Recréer la mise en page visuelle exacte dans un visualiseur personnalisé.
+- Convertir les sous-couches en entités CAD natives pour une édition ultérieure.
+- Générer des rapports incluant les métadonnées de sous-couche pour la conformité ou la documentation.
 
--  Bibliothèque Aspose.CAD : Téléchargez et installez la bibliothèque Aspose.CAD à partir du[sorties](https://releases.aspose.com/cad/java/) page.
+## Prérequis
+- **Bibliothèque Aspose.CAD** – téléchargez depuis la page des [releases](https://releases.aspose.com/cad/java/).
+- **Kit de développement Java** – JDK 8 ou plus récent.
+- **Un dossier** contenant les fichiers DWG que vous souhaitez analyser. Remplacez `"Your Document Directory"` dans le code par votre chemin réel.
 
--  Répertoire de documents : créez un répertoire dans lequel vos dessins DWG sont stockés. Remplacer`"Your Document Directory"` dans l'extrait de code avec le chemin réel.
-
-## Importer des espaces de noms
-
-Assurez-vous d'importer les espaces de noms nécessaires pour exploiter toute la puissance d'Aspose.CAD :
+## Importer les espaces de noms
 
 ```java
 import com.aspose.cad.Image;
@@ -39,85 +52,78 @@ import com.aspose.cad.fileformats.cad.cadobjects.CadUnderlay;
 import com.aspose.cad.fileformats.cad.cadobjects.UnderlayFlags;
 ```
 
-Maintenant, décomposons l'exemple en plusieurs étapes.
+## Guide étape par étape
 
-## Étape 1 : définir le répertoire des ressources
-
+### Étape 1 : Définir le répertoire des ressources
 ```java
-// Le chemin d'accès au répertoire de ressources.
+// The path to the resource directory.
 String dataDir = "Your Document Directory" + "DWGDrawings/";
 ```
+Définissez l’endroit où résident vos fichiers DWG. Utiliser un dossier dédié garde l’exemple propre et portable.
 
- Cette étape définit le répertoire dans lequel vos dessins DWG sont stockés. Remplacer`"Your Document Directory"` avec le chemin réel.
-
-## Étape 2 : charger le fichier DWG et le convertir en CadImage
-
+### Étape 2 : Charger le fichier DWG
 ```java
-// Nom et chemin du fichier d'entrée
+// Input file name and path
 String fileName = dataDir + "BlockRefDgn.dwg";
 
-//Chargez un fichier DWG existant et convertissez-le en CadImage
+// Load an existing DWG file and convert it into CadImage 
 CadImage image = (CadImage)Image.load(fileName);
 ```
+Ici, nous **chargeons le fichier dwg** `BlockRefDgn.dwg` dans une instance `CadImage`, prête à être inspectée.
 
-Dans cette étape, nous spécifions le chemin et le nom du fichier DWG, puis le chargeons en tant qu'objet CadImage.
-
-## Étape 3 : parcourir les entités DWG
-
+### Étape 3 : Itérer à travers les entités DWG
 ```java
-// Parcourez chaque entité dans le fichier DWG
+// Go through each entity inside the DWG file
 for(CadBaseEntity entity : image.getEntities())
 ```
+La boucle parcourt chaque entité — lignes, cercles, blocs et sous-couches — afin que nous puissions sélectionner celles dont nous avons besoin.
 
-Cette boucle parcourt chaque entité du fichier DWG, nous permettant de les analyser et de les manipuler.
-
-## Étape 4 : Vérifiez le type CadDgnUnderlay
-
+### Étape 4 : Identifier les entités CadDgnUnderlay
 ```java
-// Vérifiez si l'entité est de type CadDgnUnderlay
+// Check if entity is of CadDgnUnderlay type
 if (entity instanceof CadDgnUnderlay)
 ```
+Seuls les objets `CadDgnUnderlay` contiennent les indicateurs de sous-couche recherchés, nous les filtrons donc.
 
-Cette instruction conditionnelle garantit que nous traitons spécifiquement les entités de type CadDgnUnderlay.
-
-## Étape 5 : accéder aux informations sous-jacentes
-
+### Étape 5 : Accéder aux informations de sous-couche
 ```java
-// Accéder à différents indicateurs de sous-couche
+// Access different underlay flags 
 CadUnderlay underlay = (CadUnderlay) entity;
 System.out.println(underlay.getUnderlayPath());
 System.out.println(underlay.getUnderlayName());
-// ... (Propriétés supplémentaires de la sous-couche)
+// ... (Additional underlay properties)
 break;
 ```
+Une fois que nous disposons d’un `CadUnderlay`, nous pouvons lire son chemin, son nom, son point d’insertion, sa rotation, ses facteurs d’échelle, ainsi que l’énumération `UnderlayFlags` qui indique la visibilité, le découpage et d’autres options de rendu.
 
-Ici, nous accédons à diverses propriétés de l'objet CadUnderlay, extrayant des informations précieuses telles que le chemin de la sous-couche, le nom, le point d'insertion, l'angle de rotation et les facteurs d'échelle.
+## Problèmes courants et astuces
+- **Chemin de sous-couche nul** – Assurez‑vous que le DWG référence réellement un fichier externe ; sinon le chemin sera vide.
+- **Type de sous-couche non pris en charge** – Aspose.CAD prend actuellement en charge les sous‑couches DGN ; les sous‑couches PDF ne sont pas encore exposées via l’API.
+- **Exceptions de licence** – Exécuter le code sans licence valide ajoutera un filigrane à toutes les images exportées.
 
-## Conclusion
+## Questions fréquemment posées
 
-Dans ce didacticiel, nous avons à peine effleuré la surface des capacités d'Aspose.CAD pour Java. Armé de ces étapes, vous pouvez désormais libérer le potentiel de la manipulation CAO dans vos applications Java.
+**Q : Puis‑je utiliser Aspose.CAD pour Java avec d’autres formats de fichiers CAD ?**  
+A : Aspose.CAD se concentre principalement sur le format DWG, mais il prend également en charge DXF, DWF et d’autres formats CAD.
 
-## FAQ
+**Q : Existe‑t‑il une version d’essai disponible pour Aspose.CAD pour Java ?**  
+A : Oui, vous pouvez explorer les fonctionnalités avec un essai gratuit depuis [ici](https://releases.aspose.com/).
 
-### Q1 : Puis-je utiliser Aspose.CAD pour Java avec d’autres formats de fichiers CAO ?
+**Q : Comment puis‑je obtenir du support ou de l’aide avec Aspose.CAD pour Java ?**  
+A : Visitez le [forum Aspose.CAD](https://forum.aspose.com/c/cad/19) pour le support communautaire et les discussions.
 
-A1 : Aspose.CAD se concentre principalement sur le format DWG, mais il prend également en charge DXF, DWF et d'autres formats CAO.
+**Q : Des licences temporaires sont‑elles disponibles pour Aspose.CAD pour Java ?**  
+A : Oui, vous pouvez obtenir une licence temporaire [ici](https://purchase.aspose.com/temporary-license/).
 
-### Q2 : Existe-t-il une version d'essai disponible pour Aspose.CAD pour Java ?
+**Q : Où puis‑je trouver la documentation complète pour Aspose.CAD pour Java ?**  
+A : Référez‑vous à la [documentation](https://reference.aspose.com/cad/java/) pour des informations détaillées.
 
- A2 : Oui, vous pouvez explorer les fonctionnalités avec un essai gratuit à partir de[ici](https://releases.aspose.com/).
+---
 
-### Q3 : Comment puis-je obtenir de l'aide ou demander de l'aide concernant Aspose.CAD pour Java ?
+**Last Updated:** 2025-12-22  
+**Tested With:** Aspose.CAD 24.12 for Java  
+**Author:** Aspose  
 
- A3 : Visitez le[Forum Aspose.CAD](https://forum.aspose.com/c/cad/19) pour le soutien et les discussions de la communauté.
-
-### Q4 : Des licences temporaires sont-elles disponibles pour Aspose.CAD pour Java ?
-
- A4 : Oui, vous pouvez obtenir une licence temporaire[ici](https://purchase.aspose.com/temporary-license/).
-
-### Q5 : Où puis-je trouver la documentation complète d'Aspose.CAD pour Java ?
-
- A5 : Reportez-vous au[Documentation](https://reference.aspose.com/cad/java/) pour des informations détaillées.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
