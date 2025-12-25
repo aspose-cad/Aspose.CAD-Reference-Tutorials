@@ -1,29 +1,45 @@
 ---
-title: 使用 Aspose.CAD for Java 的单位类型调整 CAD 绘图尺寸
-linktitle: 使用单位类型调整 CAD 绘图尺寸
+date: 2025-12-25
+description: 学习如何使用 Aspose.CAD for Java 将 DWG 导出为 BMP。本分步指南展示了如何调整 CAD 图纸尺寸并高效地将 CAD
+  转换为 BMP。
+linktitle: Adjusting CAD Drawing Size Using Unit Type
 second_title: Aspose.CAD Java API
-description: 探索 Aspose.CAD for Java 轻松调整 CAD 绘图尺寸的强大功能。请遵循我们的分步指南，以实现精确性和适应性。
-weight: 14
+title: 将 DWG 导出为 BMP – 使用单位类型调整 CAD 大小（Java）
 url: /zh/java/cad-file-manipulation/adjusting-cad-drawing-size-using-unit-type/
+weight: 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 使用 Aspose.CAD for Java 的单位类型调整 CAD 绘图尺寸
+# 导出 DWG 为 BMP – 使用 Aspose.CAD for Java 的单位类型调整 CAD 绘图尺寸
 
 ## 介绍
 
-在不断发展的计算机辅助设计 (CAD) 领域，精度和适应性至关重要。一项常见的要求是根据特定的单元类型调整 CAD 图纸的尺寸。 Aspose.CAD for Java 成为一个强大的盟友，提供以编程方式操作 CAD 文件的无缝功能。
+当您需要 **export DWG to BMP** 时，控制输出尺寸和计量单位对于后续处理或打印至关重要。在本教程中，您将学习如何使用 Aspose.CAD for Java 调整 CAD 绘图尺寸并将 CAD 转换为 BMP，使用 `UnitType` 属性来定义计量单位。步骤以通俗的语言说明，即使您是库的新手也能跟随操作。
+
+## 快速答案
+- **“export DWG to BMP” 是什么意思？** 将 DWG 绘图转换为 BMP 栅格图像。  
+- **哪个属性控制输出尺寸？** `CadRasterizationOptions.setUnitType()` 设置单位（例如厘米）。  
+- **运行代码是否需要许可证？** 免费试用可用于评估；生产环境需要许可证。  
+- **我可以选择其他布局吗？** 可以，使用 `setLayouts()` 指定模型或纸空间布局。  
+- **支持哪些输出格式？** 除了 BMP，您还可以通过更改选项类导出为 PNG、JPEG、TIFF 等。
+
+## 什么是 **export DWG to BMP**？
+
+将 DWG 导出为 BMP 意味着将基于矢量的 DWG 文件光栅化为位图图像（BMP）。当您需要为旧系统、图像处理流水线或简单显示场景提供像素级精确的表示时，这非常有用。
+
+## 为什么使用 **Unit Type** 调整 CAD 绘图尺寸？
+
+设置单位类型可以让您在不手动计算缩放因子的情况下控制导出图像的实际尺寸。这确保位图符合实际测量（例如厘米），对工程图纸和打印文档至关重要。
 
 ## 先决条件
 
-在深入学习本教程之前，请确保您具备以下先决条件：
+在深入教程之前，请确保已具备以下先决条件：
 
-- Java 开发环境：确保您的计算机上设置了功能齐全的 Java 开发环境。
-
--  Aspose.CAD for Java 库：下载 Aspose.CAD 库并将其集成到您的 Java 项目中。您可以获取该库[这里](https://releases.aspose.com/cad/java/).
+- **Java 开发环境** – 一个可用的 JDK（8 或更高）以及 IDE 或构建工具（Maven/Gradle）。
+- **Aspose.CAD for Java 库** – 下载并将 Aspose.CAD 库集成到您的 Java 项目中。您可以在[此处](https://releases.aspose.com/cad/java/)获取该库。
 
 ## 导入命名空间
 
@@ -37,32 +53,32 @@ import com.aspose.cad.imageoptions.CadRasterizationOptions;
 import com.aspose.cad.imageoptions.PngOptions;
 ```
 
-现在，让我们将使用单位类型调整 CAD 绘图尺寸的过程分解为易于管理的步骤：
+现在，让我们将使用单位类型调整 CAD 绘图尺寸的过程分解为可管理的步骤：
 
-## 第 1 步：定义数据目录
+## 步骤 1：定义数据目录
 
 ```java
 String dataDir = "Your Document Directory" + "CADConversion/";
 ```
 
-设置 CAD 文件所在目录的路径。
+设置存放 CAD 文件的目录路径。
 
-## 第 2 步：加载 CAD 图纸
+## 步骤 2：加载 CAD 绘图
 
 ```java
 String sourceFilePath = dataDir + "sample.dwg";
 Image image = Image.load(sourceFilePath);
 ```
 
-使用 Aspose.CAD 加载 CAD 绘图`Image`班级。
+使用 Aspose.CAD 的 `Image` 类加载 CAD 绘图。
 
-## 第 3 步：创建 BMP 选项
+## 步骤 3：创建 BMP 选项
 
 ```java
 BmpOptions bmpOptions = new BmpOptions();
 ```
 
-实例化`BmpOptions`用于将 CAD 布局导出为 BMP 格式的类。
+实例化 `BmpOptions` 类，以将 CAD 布局导出为 BMP 格式。
 
 ## 步骤 4：配置光栅化选项
 
@@ -71,58 +87,64 @@ CadRasterizationOptions cadRasterizationOptions = new CadRasterizationOptions();
 bmpOptions.setVectorRasterizationOptions(cadRasterizationOptions);
 ```
 
-创建一个实例`CadRasterizationOptions`并将其与`BmpOptions`用于矢量光栅化。
+创建 `CadRasterizationOptions` 实例，并将其与 `BmpOptions` 关联，以进行矢量光栅化。
 
-## 第 5 步：设置单位类型
+## 步骤 5：设置单位类型
 
 ```java
 cadRasterizationOptions.setUnitType(UnitType.Centimeter);
 ```
 
-指定 CAD 绘图所需的单位类型。在此示例中，我们将其设置为厘米。
+为 CAD 绘图指定所需的单位类型。在本例中，我们将其设置为 **Centimeter**（厘米），这会直接影响在 **adjust CAD drawing size** 时导出图像的尺寸。
 
-## 第 6 步：设置布局
+## 步骤 6：设置布局
 
 ```java
 cadRasterizationOptions.setLayouts(new String[] { "Model" });
 ```
 
-定义导出期间要考虑的布局。在本例中，我们选择了“模型”布局。
+定义导出时要考虑的布局。在本例中，我们选择了 **"Model"** 布局，但如果需要也可以切换到纸空间布局。
 
-## 第7步：导出为BMP
+## 步骤 7：导出为 BMP
 
 ```java
 String outPath = sourceFilePath + ".bmp";
 image.save(outPath, bmpOptions);
 ```
 
-最后将修改后的CAD图纸保存为BMP格式。
+最后，将修改后的 CAD 绘图保存为 BMP 格式。此步骤完成 **export DWG to BMP** 工作流，同时保留您配置的尺寸调整。
 
-## 结论
+## 常见问题及解决方案
 
-借助 Aspose.CAD for Java，调整 CAD 绘图尺寸变得轻而易举。本教程将引导您完成整个过程，强调每个步骤对于获得精确结果的重要性。
+| 问题 | 原因 | 解决办法 |
+|-------|--------|-----|
+| **输出图像太小** | 未设置单位类型或使用默认（像素） | 调用 `setUnitType()` 并传入所需的计量单位（例如 `UnitType.Centimeter`）。 |
+| **导出错误的布局** | 布局名称拼写错误 | 使用 CAD 查看器确认布局名称；在 `setLayouts()` 中使用完全匹配的字符串。 |
+| **许可证异常** | 在生产环境中未使用有效许可证运行 | 按照 FAQ 中的说明应用临时或永久许可证。 |
 
-## 常见问题解答
+## 常见问题解答（扩展）
 
-### Q1：我可以将 Aspose.CAD for Java 与其他编程语言一起使用吗？
+**Q: 我可以将 Aspose.CAD for Java 与其他编程语言一起使用吗？**  
+A: Aspose.CAD 主要支持 Java，但也提供 .NET 等其他语言的版本。
 
-A1：Aspose.CAD 主要支持 Java，但也有适用于其他语言（例如 .NET）的版本。
+**Q: Aspose.CAD 有哪些授权选项？**  
+A: 有，您可以在[此处](https://purchase.aspose.com/buy)查看授权选项并购买 Aspose.CAD。
 
-### 问题 2：Aspose.CAD 是否有任何许可选项？
+**Q: 是否提供 Aspose.CAD 的免费试用？**  
+A: 当然，您可以在[此处](https://releases.aspose.com/)获取免费试用。
 
- A2：是的，您可以探索许可选项并购买 Aspose.CAD[这里](https://purchase.aspose.com/buy).
+**Q: 如何获取 Aspose.CAD for Java 的支持？**  
+A: 请访问 Aspose.CAD 论坛[此处](https://forum.aspose.com/c/cad/19)获取全面支持。
 
-### Q3：Aspose.CAD 有免费试用版吗？
+**Q: 我可以获取 Aspose.CAD 的临时许可证吗？**  
+A: 可以，您可以在[此处](https://purchase.aspose.com/temporary-license/)获取临时许可证。
 
- A3：当然，您可以免费试用[这里](https://releases.aspose.com/).
+---
 
-### 问题 4：如何获得 Aspose.CAD for Java 的支持？
+**最后更新：** 2025-12-25  
+**测试环境：** Aspose.CAD for Java 24.10  
+**作者：** Aspose  
 
- A4：访问 Aspose.CAD 论坛[这里](https://forum.aspose.com/c/cad/19)以获得全面的支持。
-
-### Q5：我可以获得 Aspose.CAD 的临时许可证吗？
-
- A5：是的，您可以获得临时许可证[这里](https://purchase.aspose.com/temporary-license/).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

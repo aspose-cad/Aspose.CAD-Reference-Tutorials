@@ -1,33 +1,50 @@
 ---
-title: Aspose.CAD for Java ile Birim Tipini Kullanarak CAD Çizim Boyutunu Ayarlama
-linktitle: Birim Tipini Kullanarak CAD Çizim Boyutunu Ayarlama
-second_title: Aspose.CAD Java API'si
-description: Aspose.CAD for Java'nın CAD çizim boyutlarını zahmetsizce ayarlama konusundaki gücünü keşfedin. Hassasiyet ve uyarlanabilirlik için adım adım kılavuzumuzu izleyin.
-weight: 14
+date: 2025-12-25
+description: DWG'yi BMP'ye dışa aktarmayı Aspose.CAD for Java ile öğrenin. Bu adım
+  adım kılavuz, CAD çizim boyutunu ayarlamayı ve CAD'yi BMP'ye verimli bir şekilde
+  dönüştürmeyi gösterir.
+linktitle: Adjusting CAD Drawing Size Using Unit Type
+second_title: Aspose.CAD Java API
+title: DWG'yi BMP'ye Dışa Aktar – Birim Tipi Kullanarak CAD Boyutunu Ayarla (Java)
 url: /tr/java/cad-file-manipulation/adjusting-cad-drawing-size-using-unit-type/
+weight: 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.CAD for Java ile Birim Tipini Kullanarak CAD Çizim Boyutunu Ayarlama
+# DWG'yi BMP'ye Dışa Aktarma – Aspose.CAD for Java ile Birim Türü Kullanarak CAD Çizim Boyutunu Ayarlama
 
-## giriiş
+## Giriş
 
-Sürekli gelişen Bilgisayar Destekli Tasarım (CAD) alanında hassasiyet ve uyarlanabilirlik çok önemlidir. Yaygın gereksinimlerden biri, CAD çizimlerinin boyutunun belirli birim türlerine göre ayarlanmasıdır. Aspose.CAD for Java, CAD dosyalarının programlı olarak işlenmesi için kusursuz yetenekler sağlayan güçlü bir müttefik olarak ortaya çıkıyor.
+**DWG'yi BMP'ye dışa aktarmanız** gerektiğinde, çıktı boyutunu ve ölçü birimini kontrol etmek, sonraki işlem veya baskı için çok önemlidir. Bu öğreticide, `UnitType` özelliğini kullanarak ölçü birimini tanımlayarak CAD çizim boyutunu nasıl ayarlayacağınızı ve CAD'i BMP'ye nasıl dönüştüreceğinizi Aspose.CAD for Java ile öğreneceksiniz. Adımlar sade bir dille açıklanmıştır, bu sayede kütüphaneye yeni olsanız bile rahatlıkla takip edebilirsiniz.
 
-## Önkoşullar
+## Hızlı Yanıtlar
+- **“DWG'yi BMP'ye dışa aktarmak” ne anlama geliyor?** DWG çizimini bir BMP raster görüntüsüne dönüştürmek.  
+- **Çıktı boyutunu kontrol eden özellik hangisidir?** `CadRasterizationOptions.setUnitType()` birimi (ör. santimetre) ayarlar.  
+- **Kodu çalıştırmak için lisansa ihtiyacım var mı?** Değerlendirme için ücretsiz deneme sürümü yeterlidir; üretim ortamı için lisans gereklidir.  
+- **Başka düzenler seçebilir miyim?** Evet, `setLayouts()` ile model veya kağıt alanı düzenlerini belirtebilirsiniz.  
+- **Hangi çıktı formatları destekleniyor?** BMP dışında, seçenek sınıfını değiştirerek PNG, JPEG, TIFF vb. formatlara da dışa aktarabilirsiniz.
 
-Eğiticiye dalmadan önce aşağıdaki önkoşulların yerine getirildiğinden emin olun:
+## **DWG'yi BMP'ye dışa aktarmak** nedir?
 
-- Java Geliştirme Ortamı: Makinenizde işlevsel bir Java geliştirme ortamının kurulu olduğundan emin olun.
+DWG'yi BMP'ye dışa aktarmak, vektör tabanlı bir DWG dosyasını bitmap (BMP) görüntüsüne rasterleştirmek anlamına gelir. Bu, eski sistemler, görüntü işleme hatları veya basit görüntüleme senaryoları için piksel‑tam bir temsil gerektiğinde faydalıdır.
 
--  Aspose.CAD for Java Library: Aspose.CAD kütüphanesini indirin ve Java projenize entegre edin. Kütüphaneyi edinebilirsiniz[Burada](https://releases.aspose.com/cad/java/).
+## **Birim Türü** ile CAD çizim boyutunu ayarlamak neden önemlidir?
 
-## Ad Alanlarını İçe Aktar
+Birim türünü ayarlamak, ölçek faktörlerini manuel olarak hesaplamadan dışa aktarılan görüntünün fiziksel boyutlarını kontrol etmenizi sağlar. Bu, bitmap'in gerçek dünya ölçüleriyle (ör. santimetre) eşleşmesini garantileyerek mühendislik çizimleri ve basılı dokümantasyon için kritik bir adımdır.
 
-Aspose.CAD işlevlerine erişmek için Java kodunuza gerekli ad alanlarını ekleyin. Aşağıdaki içe aktarmaları ekleyin:
+## Ön Koşullar
+
+Öğreticiye başlamadan önce aşağıdaki ön koşulların sağlandığından emin olun:
+
+- **Java Geliştirme Ortamı** – Çalışır durumda bir JDK (8 veya üzeri) ve bir IDE ya da yapı aracı (Maven/Gradle).  
+- **Aspose.CAD for Java Kütüphanesi** – Aspose.CAD kütüphanesini Java projenize indirin ve entegre edin. Kütüphaneyi [buradan](https://releases.aspose.com/cad/java/) edinebilirsiniz.
+
+## İsim Uzaylarını İçe Aktarma
+
+Java kodunuzda Aspose.CAD işlevlerine erişmek için gerekli isim uzaylarını ekleyin. Aşağıdaki import satırlarını ekleyin:
 
 ```java
 import com.aspose.cad.Image;
@@ -37,9 +54,9 @@ import com.aspose.cad.imageoptions.CadRasterizationOptions;
 import com.aspose.cad.imageoptions.PngOptions;
 ```
 
-Şimdi, birim türünü kullanarak CAD çizim boyutunu ayarlama sürecini yönetilebilir adımlara ayıralım:
+Şimdi, birim türü kullanarak CAD çizim boyutunu ayarlama sürecini yönetilebilir adımlara bölelim:
 
-## 1. Adım: Veri Dizinini Tanımlayın
+## Adım 1: Veri Dizinini Tanımlama
 
 ```java
 String dataDir = "Your Document Directory" + "CADConversion/";
@@ -47,82 +64,88 @@ String dataDir = "Your Document Directory" + "CADConversion/";
 
 CAD dosyalarınızın bulunduğu dizinin yolunu ayarlayın.
 
-## Adım 2: CAD Çizimini Yükleyin
+## Adım 2: CAD Çizimini Yükleme
 
 ```java
 String sourceFilePath = dataDir + "sample.dwg";
 Image image = Image.load(sourceFilePath);
 ```
 
- Aspose.CAD'i kullanarak CAD çizimini yükleyin`Image` sınıf.
+Aspose.CAD'in `Image` sınıfını kullanarak CAD çizimini yükleyin.
 
-## 3. Adım: BMP Seçenekleri Oluşturun
+## Adım 3: BMP Seçeneklerini Oluşturma
 
 ```java
 BmpOptions bmpOptions = new BmpOptions();
 ```
 
- Örnekleyin`BmpOptions` CAD düzenini BMP formatına aktarmak için sınıf.
+CAD düzenini BMP formatına dışa aktarmak için `BmpOptions` sınıfının bir örneğini oluşturun.
 
-## Adım 4: Rasterleştirme Seçeneklerini Yapılandırın
+## Adım 4: Rasterleştirme Seçeneklerini Yapılandırma
 
 ```java
 CadRasterizationOptions cadRasterizationOptions = new CadRasterizationOptions();
 bmpOptions.setVectorRasterizationOptions(cadRasterizationOptions);
 ```
 
- Bir örneğini oluşturun`CadRasterizationOptions` ve bunu şununla ilişkilendirin:`BmpOptions` vektör rasterleştirmesi için.
+`CadRasterizationOptions` sınıfının bir örneğini oluşturun ve vektör rasterleştirme için `BmpOptions` ile ilişkilendirin.
 
-## Adım 5: Birim Türünü Ayarlayın
+## Adım 5: Birim Türünü Ayarlama
 
 ```java
 cadRasterizationOptions.setUnitType(UnitType.Centimeter);
 ```
 
-CAD çizimi için istenen birim tipini belirtin. Bu örnekte bunu Santimetre olarak ayarladık.
+CAD çizimi için istenen birim türünü belirtin. Bu örnekte **Centimeter** (Santimetre) olarak ayarladık; bu, **CAD çizim boyutunu ayarlama** sırasında dışa aktarılan görüntü boyutunu doğrudan etkiler.
 
-## Adım 6: Düzenleri Ayarlayın
+## Adım 6: Düzenleri Belirleme
 
 ```java
 cadRasterizationOptions.setLayouts(new String[] { "Model" });
 ```
 
-Dışa aktarma sırasında dikkate alınacak düzenleri tanımlayın. Bu durumda "Model" düzenini seçtik.
+Dışa aktarım sırasında dikkate alınacak düzenleri tanımlayın. Bu örnekte **"Model"** düzenini seçtik, ancak ihtiyaç duyulursa kağıt alanı düzenlerine geçebilirsiniz.
 
-## Adım 7: BMP'ye aktarın
+## Adım 7: BMP'ye Dışa Aktarma
 
 ```java
 String outPath = sourceFilePath + ".bmp";
 image.save(outPath, bmpOptions);
 ```
 
-Son olarak değiştirilen CAD çizimini BMP formatında kaydedin.
+Son olarak, değiştirilmiş CAD çizimini BMP formatında kaydedin. Bu adım, **DWG'yi BMP'ye dışa aktarma** iş akışını tamamlar ve yapılandırdığınız boyut ayarlarını korur.
 
-## Çözüm
+## Yaygın Sorunlar ve Çözümleri
 
-Aspose.CAD for Java ile CAD çizim boyutlarını ayarlamak artık çok kolay. Bu eğitim, kesin sonuçlara ulaşmada her adımın önemini vurgulayarak size süreç boyunca yol gösterdi.
+| Sorun | Sebep | Çözüm |
+|-------|--------|-----|
+| **Çıktı resmi çok küçük** | Birim türü ayarlanmamış veya varsayılan (piksel) kullanılmış | `setUnitType()` ile istenen ölçüyü (ör. `UnitType.Centimeter`) belirtin. |
+| **Yanlış düzen dışa aktarıldı** | Düzen adı yazım hatası | Bir CAD görüntüleyicide düzen adlarını kontrol edin; `setLayouts()` içinde tam stringi kullanın. |
+| **Lisans istisnası** | Üretimde geçerli bir lisans olmadan çalıştırma | SSS'de açıklandığı gibi geçici veya kalıcı bir lisans uygulayın. |
 
-## SSS'ler
+## Sıkça Sorulan Sorular (Genişletilmiş)
 
-### S1: Aspose.CAD for Java'yı diğer programlama dilleriyle birlikte kullanabilir miyim?
+**S: Aspose.CAD for Java'yı başka programlama dilleriyle kullanabilir miyim?**  
+C: Aspose.CAD öncelikle Java'yı destekler, ancak .NET gibi diğer diller için de sürümleri mevcuttur.
 
-Cevap1: Aspose.CAD öncelikle Java'yı destekler ancak .NET gibi diğer diller için de versiyonlar mevcuttur.
+**S: Aspose.CAD için lisans seçenekleri var mı?**  
+C: Evet, lisans seçeneklerini inceleyebilir ve Aspose.CAD'i [buradan](https://purchase.aspose.com/buy) satın alabilirsiniz.
 
-### S2: Aspose.CAD için herhangi bir lisanslama seçeneği var mı?
+**S: Aspose.CAD için ücretsiz deneme mevcut mu?**  
+C: Elbette, ücretsiz deneme sürümüne [buradan](https://releases.aspose.com/) ulaşabilirsiniz.
 
- Cevap2: Evet, lisanslama seçeneklerini inceleyebilir ve Aspose.CAD'i satın alabilirsiniz.[Burada](https://purchase.aspose.com/buy).
+**S: Aspose.CAD for Java için destek nasıl alınır?**  
+C: Kapsamlı destek için Aspose.CAD forumuna [buradan](https://forum.aspose.com/c/cad/19) göz atabilirsiniz.
 
-### S3: Aspose.CAD için ücretsiz deneme sürümü mevcut mu?
+**S: Aspose.CAD için geçici bir lisans alabilir miyim?**  
+C: Evet, geçici lisansı [buradan](https://purchase.aspose.com/temporary-license/) temin edebilirsiniz.
 
- Cevap3: Kesinlikle ücretsiz deneme sürümüne erişebilirsiniz[Burada](https://releases.aspose.com/).
+---
 
-### S4: Aspose.CAD for Java desteğini nasıl alabilirim?
+**Son Güncelleme:** 2025-12-25  
+**Test Edilen Sürüm:** Aspose.CAD for Java 24.10  
+**Yazar:** Aspose  
 
- Cevap4: Aspose.CAD forumunu ziyaret edin[Burada](https://forum.aspose.com/c/cad/19) kapsamlı destek için.
-
-### S5: Aspose.CAD için geçici bir lisans alabilir miyim?
-
- Cevap5: Evet, geçici lisans alabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

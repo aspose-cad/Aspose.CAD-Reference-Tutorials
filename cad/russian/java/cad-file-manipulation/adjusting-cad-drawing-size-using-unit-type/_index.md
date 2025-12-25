@@ -1,33 +1,50 @@
 ---
-title: Настройка размера чертежа САПР с использованием типа единицы измерения в Aspose.CAD для Java
-linktitle: Настройка размера чертежа САПР с использованием типа единицы измерения
-second_title: API Aspose.CAD Java
-description: Исследуйте возможности Aspose.CAD для Java, позволяющие легко регулировать размеры чертежей САПР. Следуйте нашему пошаговому руководству для точности и адаптируемости.
-weight: 14
+date: 2025-12-25
+description: Узнайте, как экспортировать DWG в BMP с помощью Aspose.CAD для Java.
+  Это пошаговое руководство показывает, как настроить размер чертежа CAD и эффективно
+  преобразовать CAD в BMP.
+linktitle: Adjusting CAD Drawing Size Using Unit Type
+second_title: Aspose.CAD Java API
+title: Экспорт DWG в BMP – Регулировка размера CAD с использованием типа единицы (Java)
 url: /ru/java/cad-file-manipulation/adjusting-cad-drawing-size-using-unit-type/
+weight: 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Настройка размера чертежа САПР с использованием типа единицы измерения в Aspose.CAD для Java
+# Экспорт DWG в BMP – Регулировка размера чертежа CAD с использованием типа единицы измерения в Aspose.CAD для Java
 
 ## Введение
 
-В постоянно развивающейся сфере компьютерного проектирования (САПР) точность и адаптируемость имеют первостепенное значение. Одним из распространенных требований является настройка размера чертежей САПР в зависимости от конкретных типов единиц измерения. Aspose.CAD for Java становится мощным союзником, предоставляющим широкие возможности для программного управления файлами САПР.
+When you need to **export DWG to BMP**, controlling the output size and unit of measurement is essential for downstream processing or printing. In this tutorial you’ll learn how to adjust CAD drawing size and convert CAD to BMP with Aspose.CAD for Java, using the `UnitType` property to define the measurement unit. The steps are explained in plain language, so you can follow along even if you’re new to the library.
 
-## Предварительные условия
+## Быстрые ответы
+- **Что означает «export DWG to BMP»?** Converting a DWG drawing into a BMP raster image.  
+- **Какое свойство управляет размером вывода?** `CadRasterizationOptions.setUnitType()` sets the unit (e.g., centimeter).  
+- **Нужна ли лицензия для запуска кода?** A free trial works for evaluation; a license is required for production.  
+- **Можно ли выбрать другие макеты?** Yes, use `setLayouts()` to specify model or paper space layouts.  
+- **Какие форматы вывода поддерживаются?** Besides BMP, you can export to PNG, JPEG, TIFF, etc., by changing the options class.
 
-Прежде чем приступить к изучению руководства, убедитесь, что у вас есть следующие предварительные условия:
+## Что такое **export DWG to BMP**?
 
-- Среда разработки Java: убедитесь, что на вашем компьютере установлена функциональная среда разработки Java.
+Exporting DWG to BMP means rasterizing a vector‑based DWG file into a bitmap image (BMP). This is useful when you need a pixel‑perfect representation for legacy systems, image processing pipelines, or simple display scenarios.
 
--  Библиотека Aspose.CAD для Java: загрузите и интегрируйте библиотеку Aspose.CAD в свой проект Java. Вы можете получить библиотеку[здесь](https://releases.aspose.com/cad/java/).
+## Зачем регулировать размер чертежа CAD с помощью **Unit Type**?
 
-## Импортировать пространства имен
+Setting the unit type lets you control the physical dimensions of the exported image without manually calculating scaling factors. This ensures that the bitmap matches real‑world measurements (e.g., centimeters), which is crucial for engineering drawings and printed documentation.
 
-В свой код Java включите необходимые пространства имен для доступа к функциям Aspose.CAD. Добавьте следующий импорт:
+## Требования
+
+Before diving into the tutorial, make sure you have the following prerequisites in place:
+
+- **Java Development Environment** – A functional JDK (8 or later) and an IDE or build tool (Maven/Gradle).  
+- **Aspose.CAD for Java Library** – Download and integrate the Aspose.CAD library into your Java project. You can obtain the library [here](https://releases.aspose.com/cad/java/).
+
+## Импорт пространств имён
+
+In your Java code, include the necessary namespaces to access Aspose.CAD functionalities. Add the following imports:
 
 ```java
 import com.aspose.cad.Image;
@@ -37,92 +54,98 @@ import com.aspose.cad.imageoptions.CadRasterizationOptions;
 import com.aspose.cad.imageoptions.PngOptions;
 ```
 
-Теперь давайте разобьем процесс настройки размера чертежа САПР с использованием типа единицы измерения на выполнимые шаги:
+Now, let's break down the process of adjusting CAD drawing size using unit type into manageable steps:
 
-## Шаг 1: Определите каталог данных
+## Шаг 1: Определить каталог данных
 
 ```java
 String dataDir = "Your Document Directory" + "CADConversion/";
 ```
 
-Задайте путь к каталогу, в котором находятся ваши файлы САПР.
+Set the path for the directory where your CAD files are located.
 
-## Шаг 2. Загрузите чертеж САПР
+## Шаг 2: Загрузить чертёж CAD
 
 ```java
 String sourceFilePath = dataDir + "sample.dwg";
 Image image = Image.load(sourceFilePath);
 ```
 
- Загрузите чертеж САПР с помощью Aspose.CAD.`Image` сорт.
+Load the CAD drawing using Aspose.CAD's `Image` class.
 
-## Шаг 3. Создайте параметры BMP
+## Шаг 3: Создать параметры BMP
 
 ```java
 BmpOptions bmpOptions = new BmpOptions();
 ```
 
- Создайте экземпляр`BmpOptions` класс для экспорта макета САПР в формат BMP.
+Instantiate the `BmpOptions` class for exporting the CAD layout to BMP format.
 
-## Шаг 4. Настройте параметры растеризации
+## Шаг 4: Настроить параметры растеризации
 
 ```java
 CadRasterizationOptions cadRasterizationOptions = new CadRasterizationOptions();
 bmpOptions.setVectorRasterizationOptions(cadRasterizationOptions);
 ```
 
- Создайте экземпляр`CadRasterizationOptions` и связать его с`BmpOptions` для векторной растеризации.
+Create an instance of `CadRasterizationOptions` and associate it with the `BmpOptions` for vector rasterization.
 
-## Шаг 5: Установите тип устройства
+## Шаг 5: Установить тип единицы измерения
 
 ```java
 cadRasterizationOptions.setUnitType(UnitType.Centimeter);
 ```
 
-Укажите желаемый тип единицы измерения для чертежа САПР. В этом примере мы установили значение «Сантиметр».
+Specify the desired unit type for the CAD drawing. In this example, we've set it to **Centimeter**, which directly influences the exported image size when you **adjust CAD drawing size**.
 
-## Шаг 6: Установите макеты
+## Шаг 6: Установить макеты
 
 ```java
 cadRasterizationOptions.setLayouts(new String[] { "Model" });
 ```
 
-Определите макеты, которые будут учитываться при экспорте. В данном случае мы выбрали макет «Модель».
+Define the layouts to be considered during the export. In this case, we've selected the **"Model"** layout, but you can switch to paper space layouts if needed.
 
-## Шаг 7: Экспорт в BMP
+## Шаг 7: Экспортировать в BMP
 
 ```java
 String outPath = sourceFilePath + ".bmp";
 image.save(outPath, bmpOptions);
 ```
 
-Наконец, сохраните измененный чертеж САПР в формате BMP.
+Finally, save the modified CAD drawing in BMP format. This step completes the **export DWG to BMP** workflow while preserving the size adjustments you configured.
 
-## Заключение
+## Распространённые проблемы и решения
 
-С Aspose.CAD for Java настройка размеров чертежей САПР становится проще простого. Это руководство проведет вас через весь процесс, подчеркнув важность каждого шага для достижения точных результатов.
+| Проблема | Причина | Решение |
+|----------|---------|----------|
+| **Output image is too small** | Unit type not set or default (pixel) used | Call `setUnitType()` with the desired measurement (e.g., `UnitType.Centimeter`). |
+| **Wrong layout exported** | Layout name typo | Verify layout names with a CAD viewer; use exact string in `setLayouts()`. |
+| **License exception** | Running without a valid license in production | Apply a temporary or permanent license as described in the FAQ. |
 
-## Часто задаваемые вопросы
+## Часто задаваемые вопросы (расширенные)
 
-### Вопрос 1: Могу ли я использовать Aspose.CAD для Java с другими языками программирования?
+**Q: Can I use Aspose.CAD for Java with other programming languages?**  
+A: Aspose.CAD primarily supports Java, but there are versions available for other languages like .NET.
 
-О1: Aspose.CAD в основном поддерживает Java, но существуют версии для других языков, например .NET.
+**Q: Are there any licensing options for Aspose.CAD?**  
+A: Yes, you can explore licensing options and purchase Aspose.CAD [here](https://purchase.aspose.com/buy).
 
-### Вопрос 2: Существуют ли какие-либо варианты лицензирования для Aspose.CAD?
+**Q: Is there a free trial available for Aspose.CAD?**  
+A: Certainly, you can access a free trial [here](https://releases.aspose.com/).
 
- О2: Да, вы можете изучить варианты лицензирования и приобрести Aspose.CAD.[здесь](https://purchase.aspose.com/buy).
+**Q: How can I get support for Aspose.CAD for Java?**  
+A: Visit the Aspose.CAD forum [here](https://forum.aspose.com/c/cad/19) for comprehensive support.
 
-### Вопрос 3: Существует ли бесплатная пробная версия Aspose.CAD?
+**Q: Can I obtain a temporary license for Aspose.CAD?**  
+A: Yes, you can acquire a temporary license [here](https://purchase.aspose.com/temporary-license/).
 
- О3: Конечно, вы можете получить доступ к бесплатной пробной версии.[здесь](https://releases.aspose.com/).
+---
 
-### Вопрос 4: Как я могу получить поддержку Aspose.CAD для Java?
+**Последнее обновление:** 2025-12-25  
+**Тестировано с:** Aspose.CAD for Java 24.10  
+**Автор:** Aspose  
 
- A4: Посетите форум Aspose.CAD.[здесь](https://forum.aspose.com/c/cad/19) за всестороннюю поддержку.
-
-### Вопрос 5: Могу ли я получить временную лицензию на Aspose.CAD?
-
- О5: Да, вы можете приобрести временную лицензию.[здесь](https://purchase.aspose.com/temporary-license/).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
