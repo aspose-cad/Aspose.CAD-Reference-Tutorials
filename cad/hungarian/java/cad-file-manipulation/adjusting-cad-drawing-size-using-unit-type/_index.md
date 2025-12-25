@@ -1,33 +1,50 @@
 ---
-title: A CAD rajz méretének beállítása az egységtípus használatával az Aspose.CAD for Java segítségével
-linktitle: A CAD rajz méretének beállítása az egységtípus használatával
+date: 2025-12-25
+description: Ismerje meg, hogyan exportálhat DWG fájlt BMP‑be az Aspose.CAD for Java
+  segítségével. Ez a lépésről‑lépésre útmutató bemutatja a CAD rajz méretének beállítását
+  és a CAD BMP‑be történő hatékony konvertálását.
+linktitle: Adjusting CAD Drawing Size Using Unit Type
 second_title: Aspose.CAD Java API
-description: Fedezze fel az Aspose.CAD for Java erejét a CAD rajzméretek könnyed beállításában. Kövesse lépésenkénti útmutatónkat a pontosság és az alkalmazkodóképesség érdekében.
-weight: 14
+title: DWG exportálása BMP-be – CAD méret beállítása egységtípus szerint (Java)
 url: /hu/java/cad-file-manipulation/adjusting-cad-drawing-size-using-unit-type/
+weight: 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# A CAD rajz méretének beállítása az egységtípus használatával az Aspose.CAD for Java segítségével
+# DWG exportálása BMP‑be – CAD rajz méretének beállítása egységtípus használatával az Aspose.CAD for Java segítségével
 
-## Bevezetés
+## Introduction
 
-számítógéppel segített tervezés (CAD) folyamatosan fejlődő birodalmában a precizitás és az alkalmazkodóképesség a legfontosabb. Az egyik általános követelmény a CAD-rajzok méretének beállítása az egyes egységtípusok alapján. Az Aspose.CAD for Java hatékony szövetségesként jelenik meg, amely zökkenőmentes képességeket biztosít a CAD-fájlok programozott kezeléséhez.
+Amikor **DWG‑t BMP‑be kell exportálni**, a kimeneti méret és a mértékegység szabályozása elengedhetetlen a további feldolgozáshoz vagy nyomtatáshoz. Ebben az útmutatóban megtanulja, hogyan állíthatja be a CAD rajz méretét és konvertálhatja a CAD‑ot BMP‑be az Aspose.CAD for Java használatával, a `UnitType` tulajdonság segítségével a mértékegység meghatározásához. A lépéseket egyszerű nyelven magyarázzuk, így még a könyvtár újdonságai számára is könnyen követhető.
 
-## Előfeltételek
+## Quick Answers
+- **Mit jelent a „export DWG to BMP”?** A DWG rajz BMP raszteres képpé konvertálása.  
+- **Melyik tulajdonság szabályozza a kimeneti méretet?** A `CadRasterizationOptions.setUnitType()` állítja be az egységet (pl. centiméter).  
+- **Szükség van licencre a kód futtatásához?** Egy ingyenes próba verzió elegendő értékeléshez; licenc szükséges a termeléshez.  
+- **Választhatók más elrendezések?** Igen, a `setLayouts()` használatával megadható modell vagy papírtér elrendezés.  
+- **Milyen kimeneti formátumok támogatottak?** A BMP mellett PNG, JPEG, TIFF stb. exportálható a beállítási osztály módosításával.
 
-Mielőtt belevágna az oktatóanyagba, győződjön meg arról, hogy a következő előfeltételeket teljesítette:
+## What is **export DWG to BMP**?
 
-- Java fejlesztői környezet: Győződjön meg arról, hogy működő Java fejlesztői környezet van beállítva a gépen.
+A DWG‑t BMP‑be exportálni azt jelenti, hogy egy vektor‑alapú DWG fájlt bitmap (BMP) képpé rasterizálunk. Ez akkor hasznos, amikor pixel‑pontos ábrázolásra van szükség régi rendszerek, képfeldolgozó csővezetékek vagy egyszerű megjelenítési helyzetek esetén.
 
--  Aspose.CAD for Java Library: Töltse le és integrálja az Aspose.CAD könyvtárat Java projektjébe. Megkaphatja a könyvtárat[itt](https://releases.aspose.com/cad/java/).
+## Why adjust CAD drawing size with **Unit Type**?
 
-## Névterek importálása
+Az egységtípus beállítása lehetővé teszi a exportált kép fizikai méretének szabályozását anélkül, hogy manuálisan kellene számolni a skálázási tényezőket. Ez biztosítja, hogy a bitmap megfeleljen a valós méréseknek (pl. centiméter), ami kulcsfontosságú a mérnöki rajzok és a nyomtatott dokumentáció esetén.
 
-Java kódjában adja meg az Aspose.CAD funkciók eléréséhez szükséges névtereket. Adja hozzá a következő importokat:
+## Prerequisites
+
+Mielőtt elkezdené a gyakorlati példát, ellenőrizze, hogy a következő előfeltételek teljesülnek:
+
+- **Java fejlesztői környezet** – működő JDK (8 vagy újabb) és egy IDE vagy build eszköz (Maven/Gradle).  
+- **Aspose.CAD for Java könyvtár** – töltse le és integrálja az Aspose.CAD könyvtárat a Java projektjébe. A könyvtárat [itt](https://releases.aspose.com/cad/java/) szerezheti be.
+
+## Import Namespaces
+
+A Java kódban importálja a szükséges névtereket az Aspose.CAD funkciók eléréséhez. Adja hozzá a következő importokat:
 
 ```java
 import com.aspose.cad.Image;
@@ -37,92 +54,98 @@ import com.aspose.cad.imageoptions.CadRasterizationOptions;
 import com.aspose.cad.imageoptions.PngOptions;
 ```
 
-Most bontsuk fel a CAD rajzméret egységtípussal történő beállításának folyamatát kezelhető lépésekre:
+Most bontsuk le a CAD rajz méretének egységtípus szerinti beállítását kezelhető lépésekre:
 
-## 1. lépés: Adja meg az adatkönyvtárat
+## Step 1: Define Data Directory
 
 ```java
 String dataDir = "Your Document Directory" + "CADConversion/";
 ```
 
-Állítsa be annak a könyvtárnak az elérési útját, ahol a CAD-fájlok találhatók.
+Állítsa be azt az elérési utat, ahol a CAD fájlok találhatók.
 
-## 2. lépés: Töltse be a CAD-rajzot
+## Step 2: Load CAD Drawing
 
 ```java
 String sourceFilePath = dataDir + "sample.dwg";
 Image image = Image.load(sourceFilePath);
 ```
 
- Töltse be a CAD rajzot az Aspose.CAD segítségével`Image` osztály.
+Töltse be a CAD rajzot az Aspose.CAD `Image` osztályával.
 
-## 3. lépés: BMP-beállítások létrehozása
+## Step 3: Create BMP Options
 
 ```java
 BmpOptions bmpOptions = new BmpOptions();
 ```
 
- Példányosítsa a`BmpOptions` osztály a CAD-elrendezés BMP formátumba exportálásához.
+Hozza létre a `BmpOptions` osztályt a CAD elrendezés BMP formátumba történő exportálásához.
 
-## 4. lépés: Konfigurálja a raszterezési beállításokat
+## Step 4: Configure Rasterization Options
 
 ```java
 CadRasterizationOptions cadRasterizationOptions = new CadRasterizationOptions();
 bmpOptions.setVectorRasterizationOptions(cadRasterizationOptions);
 ```
 
- Hozzon létre egy példányt a`CadRasterizationOptions` és társítsa a`BmpOptions` vektor raszterizálásához.
+Hozzon létre egy `CadRasterizationOptions` példányt, és kapcsolja össze a `BmpOptions`-sal a vektor rasterizálásához.
 
-## 5. lépés: Állítsa be az egység típusát
+## Step 5: Set Unit Type
 
 ```java
 cadRasterizationOptions.setUnitType(UnitType.Centimeter);
 ```
 
-Adja meg a kívánt egységtípust a CAD-rajzhoz. Ebben a példában centiméterre állítottuk.
+Adja meg a kívánt egységtípust a CAD rajzhoz. Ebben a példában **Centimeter**‑re állítottuk, ami közvetlenül befolyásolja az exportált kép méretét, amikor **a CAD rajz méretét állítja be**.
 
-## 6. lépés: Állítsa be az elrendezéseket
+## Step 6: Set Layouts
 
 ```java
 cadRasterizationOptions.setLayouts(new String[] { "Model" });
 ```
 
-Határozza meg az exportálás során figyelembe veendő elrendezéseket. Ebben az esetben a „Modell” elrendezést választottuk.
+Határozza meg az exportálás során figyelembe veendő elrendezéseket. Ebben az esetben a **"Model"** elrendezést választottuk, de szükség esetén átválthat papírtér elrendezésekre is.
 
-## 7. lépés: Exportálás BMP-be
+## Step 7: Export to BMP
 
 ```java
 String outPath = sourceFilePath + ".bmp";
 image.save(outPath, bmpOptions);
 ```
 
-Végül mentse el a módosított CAD rajzot BMP formátumban.
+Végül mentse el a módosított CAD rajzot BMP formátumban. Ez a lépés fejezi be a **DWG‑t BMP‑be exportálás** munkafolyamatot, miközben megőrzi a beállított méretkorrekciókat.
 
-## Következtetés
+## Common Issues and Solutions
 
-Az Aspose.CAD for Java segítségével a CAD rajzméretek beállítása gyerekjáték lesz. Ez az oktatóanyag végigvezette Önt a folyamaton, hangsúlyozva az egyes lépések jelentőségét a pontos eredmények elérésében.
+| Issue | Reason | Fix |
+|-------|--------|-----|
+| **Output image is too small** | Unit type not set or default (pixel) used | Call `setUnitType()` with the desired measurement (e.g., `UnitType.Centimeter`). |
+| **Wrong layout exported** | Layout name typo | Verify layout names with a CAD viewer; use exact string in `setLayouts()`. |
+| **License exception** | Running without a valid license in production | Apply a temporary or permanent license as described in the FAQ. |
 
-## GYIK
+## Frequently Asked Questions (Extended)
 
-### 1. kérdés: Használhatom az Aspose.CAD for Java-t más programozási nyelvekkel?
+**Q: Can I use Aspose.CAD for Java with other programming languages?**  
+A: Aspose.CAD primarily supports Java, but there are versions available for other languages like .NET.
 
-1. válasz: Az Aspose.CAD elsősorban a Java-t támogatja, de vannak verziók más nyelvekhez is, például a .NET-hez.
+**Q: Are there any licensing options for Aspose.CAD?**  
+A: Yes, you can explore licensing options and purchase Aspose.CAD [here](https://purchase.aspose.com/buy).
 
-### 2. kérdés: Vannak-e licencelési lehetőségek az Aspose.CAD számára?
+**Q: Is there a free trial available for Aspose.CAD?**  
+A: Certainly, you can access a free trial [here](https://releases.aspose.com/).
 
- 2. válasz: Igen, felfedezheti a licencelési lehetőségeket, és megvásárolhatja az Aspose.CAD-t[itt](https://purchase.aspose.com/buy).
+**Q: How can I get support for Aspose.CAD for Java?**  
+A: Visit the Aspose.CAD forum [here](https://forum.aspose.com/c/cad/19) for comprehensive support.
 
-### 3. kérdés: Elérhető ingyenes próbaverzió az Aspose.CAD számára?
+**Q: Can I obtain a temporary license for Aspose.CAD?**  
+A: Yes, you can acquire a temporary license [here](https://purchase.aspose.com/temporary-license/).
 
- 3. válasz: Természetesen hozzáférhet az ingyenes próbaverzióhoz[itt](https://releases.aspose.com/).
+---
 
-### 4. kérdés: Hogyan kaphatok támogatást az Aspose.CAD for Java számára?
+**Last Updated:** 2025-12-25  
+**Tested With:** Aspose.CAD for Java 24.10  
+**Author:** Aspose  
 
- 4. válasz: Látogassa meg az Aspose.CAD fórumot[itt](https://forum.aspose.com/c/cad/19) átfogó támogatásért.
-
-### 5. kérdés: Kaphatok ideiglenes licencet az Aspose.CAD számára?
-
- V5: Igen, szerezhet ideiglenes engedélyt[itt](https://purchase.aspose.com/temporary-license/).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

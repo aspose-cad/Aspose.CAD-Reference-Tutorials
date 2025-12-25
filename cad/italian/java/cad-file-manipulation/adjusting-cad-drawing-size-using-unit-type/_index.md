@@ -1,33 +1,50 @@
 ---
-title: Regolazione delle dimensioni del disegno CAD utilizzando il tipo di unità con Aspose.CAD per Java
-linktitle: Regolazione delle dimensioni del disegno CAD utilizzando il tipo di unità
-second_title: API Java Aspose.CAD
-description: Esplora la potenza di Aspose.CAD per Java nella regolazione delle dimensioni dei disegni CAD senza sforzo. Segui la nostra guida passo passo per precisione e adattabilità.
-weight: 14
+date: 2025-12-25
+description: Scopri come esportare DWG in BMP usando Aspose.CAD per Java. Questa guida
+  passo‑passo mostra come regolare le dimensioni del disegno CAD e convertire CAD
+  in BMP in modo efficiente.
+linktitle: Adjusting CAD Drawing Size Using Unit Type
+second_title: Aspose.CAD Java API
+title: Esporta DWG in BMP – Regola le dimensioni CAD usando il tipo di unità (Java)
 url: /it/java/cad-file-manipulation/adjusting-cad-drawing-size-using-unit-type/
+weight: 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Regolazione delle dimensioni del disegno CAD utilizzando il tipo di unità con Aspose.CAD per Java
+# Esporta DWG in BMP – Regolazione delle dimensioni del disegno CAD usando Unit Type con Aspose.CAD per Java
 
-## introduzione
+## Introduzione
 
-Nel campo in continua evoluzione della progettazione assistita da computer (CAD), precisione e adattabilità sono fondamentali. Un requisito comune è la regolazione delle dimensioni dei disegni CAD in base a tipi di unità specifici. Aspose.CAD per Java emerge come un potente alleato, fornendo funzionalità continue per manipolare i file CAD a livello di codice.
+Quando è necessario **esportare DWG in BMP**, controllare le dimensioni dell'output e l'unità di misura è fondamentale per l'elaborazione a valle o per la stampa. In questo tutorial imparerai a regolare le dimensioni del disegno CAD e a convertire CAD in BMP con Aspose.CAD per Java, utilizzando la proprietà `UnitType` per definire l'unità di misura. I passaggi sono spiegati in modo chiaro, così potrai seguirli anche se sei nuovo alla libreria.
+
+## Risposte Rapide
+- **Che cosa significa “export DWG to BMP”?** Conversione di un disegno DWG in un'immagine raster BMP.  
+- **Quale proprietà controlla le dimensioni dell'output?** `CadRasterizationOptions.setUnitType()` imposta l'unità (ad es. centimetro).  
+- **È necessaria una licenza per eseguire il codice?** Una prova gratuita è sufficiente per la valutazione; è necessaria una licenza per la produzione.  
+- **Posso scegliere altri layout?** Sì, usa `setLayouts()` per specificare i layout modello o paper space.  
+- **Quali formati di output sono supportati?** Oltre a BMP, è possibile esportare in PNG, JPEG, TIFF, ecc., modificando la classe delle opzioni.
+
+## Cos'è **export DWG to BMP**?
+
+Esportare DWG in BMP significa rasterizzare un file DWG basato su vettori in un'immagine bitmap (BMP). Questo è utile quando è necessaria una rappresentazione pixel‑perfect per sistemi legacy, pipeline di elaborazione immagini o scenari di visualizzazione semplici.
+
+## Perché regolare le dimensioni del disegno CAD con **Unit Type**?
+
+Impostare il tipo di unità consente di controllare le dimensioni fisiche dell'immagine esportata senza calcolare manualmente i fattori di scala. Questo garantisce che la bitmap corrisponda alle misurazioni del mondo reale (ad es. centimetri), elemento cruciale per i disegni ingegneristici e la documentazione stampata.
 
 ## Prerequisiti
 
 Prima di immergerti nel tutorial, assicurati di avere i seguenti prerequisiti:
 
-- Ambiente di sviluppo Java: assicurati di avere un ambiente di sviluppo Java funzionale configurato sul tuo computer.
+- **Ambiente di sviluppo Java** – Un JDK funzionante (8 o successivo) e un IDE o strumento di build (Maven/Gradle).  
+- **Libreria Aspose.CAD per Java** – Scarica e integra la libreria Aspose.CAD nel tuo progetto Java. Puoi ottenere la libreria [qui](https://releases.aspose.com/cad/java/).
 
--  Aspose.CAD per libreria Java: scarica e integra la libreria Aspose.CAD nel tuo progetto Java. È possibile ottenere la libreria[Qui](https://releases.aspose.com/cad/java/).
+## Importa Namespace
 
-## Importa spazi dei nomi
-
-Nel tuo codice Java, includi gli spazi dei nomi necessari per accedere alle funzionalità Aspose.CAD. Aggiungi le seguenti importazioni:
+Nel tuo codice Java, includi i namespace necessari per accedere alle funzionalità di Aspose.CAD. Aggiungi le seguenti importazioni:
 
 ```java
 import com.aspose.cad.Image;
@@ -37,92 +54,96 @@ import com.aspose.cad.imageoptions.CadRasterizationOptions;
 import com.aspose.cad.imageoptions.PngOptions;
 ```
 
-Ora suddividiamo il processo di regolazione delle dimensioni del disegno CAD utilizzando il tipo di unità in passaggi gestibili:
+Ora, analizziamo il processo di regolazione delle dimensioni del disegno CAD usando il tipo di unità in passaggi gestibili:
 
-## Passaggio 1: definire la directory dei dati
+## Passo 1: Definisci la Directory dei Dati
 
 ```java
 String dataDir = "Your Document Directory" + "CADConversion/";
 ```
 
-Imposta il percorso della directory in cui si trovano i file CAD.
+Imposta il percorso della directory in cui sono situati i tuoi file CAD.
 
-## Passaggio 2: caricare il disegno CAD
+## Passo 2: Carica il Disegno CAD
 
 ```java
 String sourceFilePath = dataDir + "sample.dwg";
 Image image = Image.load(sourceFilePath);
 ```
 
- Caricare il disegno CAD utilizzando Aspose.CAD`Image` classe.
+Carica il disegno CAD utilizzando la classe `Image` di Aspose.CAD.
 
-## Passaggio 3: crea opzioni BMP
+## Passo 3: Crea le Opzioni BMP
 
 ```java
 BmpOptions bmpOptions = new BmpOptions();
 ```
 
- Istanziare il`BmpOptions` classe per esportare il layout CAD in formato BMP.
+Istanzia la classe `BmpOptions` per esportare il layout CAD in formato BMP.
 
-## Passaggio 4: configurare le opzioni di rasterizzazione
+## Passo 4: Configura le Opzioni di Rasterizzazione
 
 ```java
 CadRasterizationOptions cadRasterizationOptions = new CadRasterizationOptions();
 bmpOptions.setVectorRasterizationOptions(cadRasterizationOptions);
 ```
 
- Crea un'istanza di`CadRasterizationOptions` e associarlo a`BmpOptions` per la rasterizzazione vettoriale.
+Crea un'istanza di `CadRasterizationOptions` e associala a `BmpOptions` per la rasterizzazione vettoriale.
 
-## Passaggio 5: impostare il tipo di unità
+## Passo 5: Imposta il Tipo di Unità
 
 ```java
 cadRasterizationOptions.setUnitType(UnitType.Centimeter);
 ```
 
-Specificare il tipo di unità desiderato per il disegno CAD. In questo esempio, lo abbiamo impostato su Centimetro.
+Specifica il tipo di unità desiderato per il disegno CAD. In questo esempio, è stato impostato su **Centimeter**, che influisce direttamente sulle dimensioni dell'immagine esportata quando **regoli le dimensioni del disegno CAD**.
 
-## Passaggio 6: imposta i layout
+## Passo 6: Imposta i Layout
 
 ```java
 cadRasterizationOptions.setLayouts(new String[] { "Model" });
 ```
 
-Definire i layout da considerare durante l'esportazione. In questo caso, abbiamo selezionato il layout "Modello".
+Definisci i layout da considerare durante l'esportazione. In questo caso, è stato selezionato il layout **"Model"**, ma è possibile passare ai layout paper space se necessario.
 
-## Passaggio 7: esporta in BMP
+## Passo 7: Esporta in BMP
 
 ```java
 String outPath = sourceFilePath + ".bmp";
 image.save(outPath, bmpOptions);
 ```
 
-Infine, salva il disegno CAD modificato in formato BMP.
+Infine, salva il disegno CAD modificato in formato BMP. Questo passaggio completa il flusso di lavoro **export DWG to BMP** mantenendo le regolazioni di dimensione configurate.
 
-## Conclusione
+## Problemi Comuni e Soluzioni
 
-Con Aspose.CAD per Java, la regolazione delle dimensioni del disegno CAD diventa un gioco da ragazzi. Questo tutorial ti ha guidato attraverso il processo, sottolineando l'importanza di ogni passaggio per ottenere risultati precisi.
+| Problema | Motivo | Soluzione |
+|----------|--------|-----------|
+| **L'immagine esportata è troppo piccola** | Tipo di unità non impostato o impostato di default (pixel) | Chiama `setUnitType()` con la misura desiderata (ad es. `UnitType.Centimeter`). |
+| **Layout esportato errato** | Errore di battitura nel nome del layout | Verifica i nomi dei layout con un visualizzatore CAD; usa la stringa esatta in `setLayouts()`. |
+| **Eccezione di licenza** | Esecuzione senza licenza valida in produzione | Applica una licenza temporanea o permanente come descritto nella FAQ. |
 
-## Domande frequenti
+## Domande Frequenti (Estese)
 
-### Q1: posso utilizzare Aspose.CAD per Java con altri linguaggi di programmazione?
+**D: Posso usare Aspose.CAD per Java con altri linguaggi di programmazione?**  
+R: Aspose.CAD supporta principalmente Java, ma sono disponibili versioni per altri linguaggi come .NET.
 
-A1: Aspose.CAD supporta principalmente Java, ma sono disponibili versioni per altri linguaggi come .NET.
+**D: Esistono opzioni di licenza per Aspose.CAD?**  
+R: Sì, puoi esplorare le opzioni di licenza e acquistare Aspose.CAD [qui](https://purchase.aspose.com/buy).
 
-### Q2: Esistono opzioni di licenza per Aspose.CAD?
+**D: È disponibile una prova gratuita per Aspose.CAD?**  
+R: Certamente, puoi accedere a una prova gratuita [qui](https://releases.aspose.com/).
 
- A2: Sì, puoi esplorare le opzioni di licenza e acquistare Aspose.CAD[Qui](https://purchase.aspose.com/buy).
+**D: Come posso ottenere supporto per Aspose.CAD per Java?**  
+R: Visita il forum di Aspose.CAD [qui](https://forum.aspose.com/c/cad/19) per un supporto completo.
 
-### Q3: È disponibile una prova gratuita per Aspose.CAD?
+**D: Posso ottenere una licenza temporanea per Aspose.CAD?**  
+R: Sì, puoi acquisire una licenza temporanea [qui](https://purchase.aspose.com/temporary-license/).
 
- R3: Certamente puoi accedere a una prova gratuita[Qui](https://releases.aspose.com/).
+**Ultimo aggiornamento:** 2025-12-25  
+**Testato con:** Aspose.CAD for Java 24.10  
+**Autore:** Aspose  
 
-### Q4: Come posso ottenere supporto per Aspose.CAD per Java?
-
- A4: visitare il forum Aspose.CAD[Qui](https://forum.aspose.com/c/cad/19) per un supporto completo.
-
-### Q5: Posso ottenere una licenza temporanea per Aspose.CAD?
-
- R5: Sì, puoi acquisire una licenza temporanea[Qui](https://purchase.aspose.com/temporary-license/).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
