@@ -1,33 +1,53 @@
 ---
-title: Listen Sie Layouts in DWG mit Aspose.CAD für Java auf
-linktitle: Listen Sie Layouts in DWG auf
+date: 2025-12-28
+description: Erfahren Sie, wie Sie DWG-Dateien mit Aspose.CAD für Java lesen und mühelos
+  Layouts in DWG-Dateien auflisten können. Integrieren Sie leistungsstarke CAD‑Funktionen
+  in Ihre Java‑Anwendungen.
+linktitle: List Layouts in DWG
 second_title: Aspose.CAD Java API
-description: Entdecken Sie Aspose.CAD für Java und listen Sie Layouts mühelos in DWG-Dateien auf. Integrieren Sie leistungsstarke CAD-Funktionalität in Ihre Java-Anwendungen.
-weight: 12
+title: Wie man DWG liest und Layouts in DWG mit Aspose.CAD für Java auflistet
 url: /de/java/cad-file-manipulation/list-layouts-in-dwg/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Listen Sie Layouts in DWG mit Aspose.CAD für Java auf
+# Wie man DWG liest und Layouts in DWG auflistet mit Aspose.CAD für Java
 
 ## Einführung
 
-Willkommen zu unserer Schritt-für-Schritt-Anleitung zur Verwendung von Aspose.CAD für Java zum Auflisten von Layouts in DWG-Dateien. Aspose.CAD ist eine leistungsstarke Bibliothek, die es Entwicklern ermöglicht, programmgesteuert mit CAD-Dateien zu arbeiten. In diesem Tutorial konzentrieren wir uns auf eine bestimmte Aufgabe: das Auflisten von Layouts in einer DWG-Datei. Am Ende dieses Handbuchs werden Sie in der Lage sein, diese Funktionalität nahtlos in Ihre Java-Anwendungen zu integrieren.
+Wenn Sie **DWG**-Dateien programmgesteuert lesen und Informationen wie Layoutnamen extrahieren müssen, macht Aspose.CAD für Java das unkompliziert. In diesem Schritt‑für‑Schritt‑Tutorial zeigen wir Ihnen **wie man DWG liest** und alle in einer DWG‑ (oder DXF‑)Datei enthaltenen Layouts auflistet. Am Ende des Leitfadens können Sie diese Fähigkeit zu jeder Java‑Anwendung hinzufügen, die mit CAD‑Daten arbeitet.
+
+## Schnelle Antworten
+- **Welche Bibliothek wird benötigt?** Aspose.CAD for Java.
+- **Kann ich DWG‑Dateien auf jedem Betriebssystem lesen?** Ja – Java ist plattformübergreifend.
+- **Benötige ich eine Lizenz, um das Beispiel auszuführen?** Eine kostenlose Testversion funktioniert für die Evaluierung; für die Produktion ist eine Lizenz erforderlich.
+- **Welche CAD‑Formate werden unterstützt?** DWG, DXF, DWF und weitere.
+- **Ist der Code mit Java 8+ kompatibel?** Absolut.
+
+## Was bedeutet „how to read dwg“ in Java?
+
+Das Lesen einer DWG‑Datei bedeutet, die binären CAD‑Daten in ein Objektmodell zu laden, das Sie abfragen können. Aspose.CAD abstrahiert die komplexe DWG‑Struktur hinter einfachen .NET/Java‑Klassen, sodass Sie sich auf die Informationen konzentrieren können, die Sie benötigen – in diesem Fall die Layoutnamen.
+
+## Warum Layouts in einer DWG‑Datei auflisten?
+
+Eine DWG kann mehrere Layouts enthalten (Papierbereich, Modellbereich, benutzerdefinierte Blätter). Das Kennen der Layoutnamen ermöglicht Ihnen:
+- Berichte pro Layout zu erstellen.
+- Bestimmte Layouts in Bilder oder PDFs zu exportieren.
+- Die Stapelverarbeitung von Zeichnungen zu automatisieren.
 
 ## Voraussetzungen
 
-Bevor wir uns mit dem Tutorial befassen, stellen Sie sicher, dass die folgenden Voraussetzungen erfüllt sind:
+Bevor wir in den Code eintauchen, stellen Sie sicher, dass Sie Folgendes haben:
 
--  Aspose.CAD für Java-Bibliothek: Stellen Sie sicher, dass Sie die Aspose.CAD-Bibliothek für Java installiert haben. Sie können es hier herunterladen[Webseite](https://releases.aspose.com/cad/java/).
-
-- Java-Entwicklungsumgebung: Richten Sie eine Java-Entwicklungsumgebung auf Ihrem Computer ein.
+- **Aspose.CAD for Java Library** – laden Sie die neueste JAR von der [Website](https://releases.aspose.com/cad/java/) herunter.
+- **Java Development Environment** – JDK 8 oder höher sowie eine IDE oder ein Build‑Tool Ihrer Wahl.
 
 ## Namespaces importieren
 
-In Ihrer Java-Anwendung müssen Sie die erforderlichen Namespaces importieren, um Aspose.CAD verwenden zu können. Fügen Sie am Anfang Ihrer Java-Datei die folgenden Zeilen hinzu:
+Importieren Sie in Ihrer Java‑Quelldatei die erforderlichen Aspose.CAD‑Klassen:
 
 ```java
 import com.aspose.cad.Image;
@@ -37,15 +57,17 @@ import com.aspose.cad.fileformats.cad.CadLayoutDictionary;
 import com.aspose.cad.fileformats.cad.cadobjects.CadLayout;
 ```
 
-## Schritt 1: Richten Sie Ihr Dokumentenverzeichnis ein
+## Schritt 1: Richten Sie Ihr Dokumentenverzeichnis ein
+
+Ersetzen Sie **„Your Document Directory“** durch den absoluten Pfad, in dem Ihre CAD‑Dateien liegen.
 
 ```java
 String dataDir = "Your Document Directory" + "CADConversion/";
 ```
 
-Stellen Sie sicher, dass Sie „Ihr Dokumentverzeichnis“ durch den Pfad zu dem Verzeichnis ersetzen, in dem Ihre CAD-Dateien gespeichert sind.
+## Schritt 2: Laden Sie die DWG‑Datei
 
-## Schritt 2: Laden Sie die DWG-Datei
+Die Methode `Image.load` erkennt das Dateiformat automatisch, sodass Sie denselben Code sowohl für **DWG**‑ als auch **DXF**‑Dateien verwenden können.
 
 ```java
 String sourceFilePath = dataDir + "conic_pyramid.dxf";
@@ -53,9 +75,9 @@ Image image = Image.load(sourceFilePath);
 CadImage cadImage = (CadImage)image;
 ```
 
-Laden Sie die DWG-Datei unter Verwendung des angegebenen Dateipfads.
+## Schritt 3: Layouts abrufen und Namen ausgeben
 
-## Schritt 3: Layouts abrufen und Namen drucken
+Die Schleife iteriert über jedes Layout‑Objekt und gibt dessen Namen in der Konsole aus – ein einfacher Weg, um zu überprüfen, dass Sie **DWG erfolgreich gelesen** und Layout‑Informationen extrahiert haben.
 
 ```java
 CadLayoutDictionary layouts = cadImage.getLayouts();
@@ -65,33 +87,55 @@ for (CadLayout layout : layouts.getValues())
 }
 ```
 
-Rufen Sie die Layouts aus der DWG-Datei ab und geben Sie ihre Namen auf der Konsole aus.
+## Häufige Fallstricke & Tipps
 
-## Abschluss
+- **Falscher Dateipfad** – Überprüfen Sie, dass `dataDir` mit einem für Ihr Betriebssystem geeigneten Trennzeichen (`/` oder `\\`) endet.
+- **Nicht unterstützte DWG‑Version** – Stellen Sie sicher, dass Sie eine aktuelle Aspose.CAD‑Version verwenden; ältere DWG‑Versionen benötigen möglicherweise eine Konvertierung.
+- **Speichernutzung** – Große Zeichnungen können erheblichen Speicher verbrauchen. Entsorgen Sie das `CadImage`‑Objekt nach Gebrauch: `cadImage.dispose();`.
 
- Glückwunsch! Sie haben mit Aspose.CAD für Java erfolgreich Layouts in einer DWG-Datei aufgelistet. In diesem Tutorial wurden die wesentlichen Schritte behandelt, von der Einrichtung Ihrer Umgebung bis zum Drucken von Layoutnamen. Entdecken Sie weitere Funktionen von Aspose.CAD für Java im[Dokumentation](https://reference.aspose.com/cad/java/).
+## Fazit
 
-## FAQs
+Herzlichen Glückwunsch! Sie wissen jetzt **wie man DWG liest** und dessen Layouts mit Aspose.CAD für Java auflistet. Diese Technik bildet die Grundlage für weiterführende CAD‑Automatisierung, wie das Exportieren bestimmter Layouts in Bilder oder PDFs. Für weiterführende Informationen lesen Sie die offizielle [Dokumentation](https://reference.aspose.com/cad/java/).
 
-### F1: Kann ich Aspose.CAD für Java mit anderen CAD-Dateiformaten verwenden?
+## FAQ's
 
-A1: Ja, Aspose.CAD unterstützt verschiedene CAD-Formate, einschließlich DWG, DXF, DWF und mehr.
+### Q1: Kann ich Aspose.CAD für Java mit anderen CAD‑Dateiformaten verwenden?
 
-### F2: Gibt es eine kostenlose Testversion für Aspose.CAD für Java?
+A1: Ja, Aspose.CAD unterstützt verschiedene CAD‑Formate, einschließlich DWG, DXF, DWF und mehr.
 
- A2: Ja, Sie können eine kostenlose Testversion von erhalten[Hier](https://releases.aspose.com/).
+### Q2: Gibt es eine kostenlose Testversion für Aspose.CAD für Java?
 
-### F3: Wo erhalte ich Community-Support für Aspose.CAD für Java?
+A2: Ja, Sie können eine kostenlose Testversion von [hier](https://releases.aspose.com/) erhalten.
 
- A3: Besuchen Sie die[Aspose.CAD-Forum](https://forum.aspose.com/c/cad/19) für die Unterstützung der Gemeinschaft.
+### Q3: Wo kann ich Community‑Support für Aspose.CAD für Java erhalten?
 
-### F4: Wie kaufe ich eine Lizenz für Aspose.CAD für Java?
+A3: Besuchen Sie das [Aspose.CAD‑Forum](https://forum.aspose.com/c/cad/19) für Community‑Support.
 
- A4: Sie können eine Lizenz bei kaufen[Kaufseite](https://purchase.aspose.com/buy).
+### Q4: Wie kaufe ich eine Lizenz für Aspose.CAD für Java?
 
-### F5: Kann ich eine temporäre Lizenz zu Testzwecken verwenden?
+A4: Sie können eine Lizenz über die [Kaufseite](https://purchase.aspose.com/buy) erwerben.
 
- A5: Ja, Sie können eine temporäre Lizenz erhalten[Hier](https://purchase.aspose.com/temporary-license/).
+### Q5: Kann ich eine temporäre Lizenz für Testzwecke verwenden?
+
+A5: Ja, Sie können eine temporäre Lizenz [hier](https://purchase.aspose.com/temporary-license/) erhalten.
+
+**Zusätzliche Fragen**
+
+**Q: Funktioniert dieser Ansatz zum Lesen von DWG‑Dateien unter Linux?**  
+A: Absolut. Da die Lösung reines Java ist, läuft sie auf jedem Betriebssystem mit einem kompatiblen JDK.
+
+**Q: Kann ich eine DWG‑Datei lesen, ohne das gesamte Drawing in den Speicher zu laden?**  
+A: Aspose.CAD lädt das Drawing in den Speicher; bei sehr großen Dateien sollten Sie eine Verarbeitung in separaten Threads oder die Verwendung von Streaming‑APIs in Betracht ziehen, falls diese in zukünftigen Releases verfügbar werden.
+
+**Q: Gibt es eine Möglichkeit, Layouts nach Namen zu filtern?**  
+A: Ja – nachdem Sie das `CadLayoutDictionary` abgerufen haben, können Sie `layout.getLayoutName().equalsIgnoreCase("MyLayout")` prüfen, bevor Sie weiterverarbeiten.
+
+---
+
+**Zuletzt aktualisiert:** 2025-12-28  
+**Getestet mit:** Aspose.CAD for Java 24.11  
+**Autor:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
