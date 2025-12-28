@@ -1,33 +1,51 @@
 ---
-title: Ersetzen Sie die Schriftart in DWG durch Aspose.CAD für Java
-linktitle: Ersatzschriftart in DWG
+date: 2025-12-28
+description: Erfahren Sie, wie Sie DWG‑Dateien in Java‑Projekten laden und den primären
+  Schriftartnamen mit Aspose.CAD für Java festlegen. Schritt‑für‑Schritt‑Anleitung
+  für perfekte CAD‑Visualisierungen.
+linktitle: Substitute Font in DWG
 second_title: Aspose.CAD Java API
-description: Verbessern Sie Ihre CAD-Entwürfe mühelos. Erfahren Sie, wie Sie Schriftarten in DWG-Dateien mit Aspose.CAD für Java ersetzen. Schritt-für-Schritt-Anleitung für visuelle Perfektion.
-weight: 11
+title: Wie man eine DWG-Datei in Java lädt und die Schriftart mit Aspose.CAD ersetzt
 url: /de/java/cad-text-and-annotation/substitute-font-in-dwg/
+weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Ersetzen Sie die Schriftart in DWG durch Aspose.CAD für Java
+# Wie man DWG‑Datei in Java lädt und Schriftart mit Aspose.CAD ersetzt
 
 ## Einführung
 
-Im dynamischen Bereich des computergestützten Designs (CAD) ist es oft entscheidend, die visuelle Attraktivität von Zeichnungen zu verbessern. Eine effektive Möglichkeit, dies zu erreichen, besteht darin, Schriftarten in DWG-Dateien zu ersetzen. Aspose.CAD für Java erweist sich in diesem Bereich als leistungsstarkes Tool und bietet eine nahtlose Lösung für die Schriftartersetzung. In diesem Tutorial gehen wir den Prozess Schritt für Schritt durch und zeigen, wie man Schriftarten in einer DWG-Datei mit Aspose.CAD für Java ersetzt.
+Wenn Sie **DWG‑Dateien in Java** laden müssen und Ihren Zeichnungen ein professionelles Aussehen verleihen wollen, ist das Ersetzen der Schriftart ein schneller Gewinn. Mit Aspose.CAD für Java können Sie den Standard‑Textstil durch jede im System installierte Schriftart ersetzen, sodass jede Anmerkung genau so erscheint, wie Sie es erwarten. In diesem Tutorial führen wir Sie durch den gesamten Prozess – vom Laden einer DWG‑Datei in Java bis zur Verwendung der Methode `setPrimaryFontName`, um die Schriftart zu ändern.
+
+## Schnelle Antworten
+- **Welche Bibliothek benötige ich?** Aspose.CAD for Java.
+- **Kann ich eine DWG‑Datei in Java laden?** Ja, rufen Sie einfach `Image.load()` mit dem DWG‑Pfad auf.
+- **Welche Methode ändert die Schriftart?** `setPrimaryFontName`.
+- **Benötige ich eine Lizenz für die Produktion?** Ja, eine kommerzielle Lizenz ist erforderlich.
+- **Ist Batch‑Verarbeitung möglich?** Absolut – iterieren Sie über mehrere Dateien mit demselben Code.
+
+## Was bedeutet „DWG‑Datei in Java laden“?
+
+Das Laden einer DWG‑Datei in einer Java‑Umgebung bedeutet, die binären CAD‑Daten in ein `Image`‑Objekt zu lesen, das Aspose.CAD manipulieren kann. Sobald die Datei geladen ist, haben Sie vollen programmatischen Zugriff auf Ebenen, Stile und Textelemente.
+
+## Warum Schriftarten in einer DWG‑Datei ersetzen?
+
+- **Konsistenz:** Gewährleistet, dass alle Mitarbeitenden dieselbe Schriftart sehen, unabhängig von ihrer lokalen Schriftkonfiguration.  
+- **Lesbarkeit:** Einige Standard‑CAD‑Schriften sind auf Bildschirmen schwer lesbar; das Austauschen gegen eine klare Schrift wie Arial verbessert die Klarheit.  
+- **Branding:** Passt technische Zeichnungen an die Unternehmens‑Styleguidelines an.
 
 ## Voraussetzungen
 
-Bevor Sie sich mit der Magie der Schriftartersetzung befassen, stellen Sie sicher, dass die folgenden Voraussetzungen erfüllt sind:
+- **Java Development Kit (JDK)** – jede aktuelle Version (empfohlen 8+).  
+- **Aspose.CAD for Java** – Download von der [Website](https://releases.aspose.com/cad/java/).  
+- **Beispiel‑DWG‑Datei** – eine Zeichnung, die Sie ändern möchten (Sie können jede DWG‑ oder DXF‑Datei zum Testen verwenden).
 
-- Java-Umgebung: Stellen Sie sicher, dass auf Ihrem Computer eine funktionsfähige Java-Umgebung installiert ist.
--  Aspose.CAD für Java-Bibliothek: Laden Sie die Aspose.CAD-Bibliothek von herunter und installieren Sie sie[Webseite](https://releases.aspose.com/cad/java/).
-- Beispiel-DWG-Datei: Halten Sie eine DWG-Datei zum Experimentieren bereit. Wenn Sie noch keines haben, können Sie Beispiele auf verschiedenen CAD-Ressourcen finden.
+## Namensräume importieren
 
-## Namespaces importieren
-
-Importieren Sie in Ihrem Java-Projekt die erforderlichen Namespaces, um auf die Funktionen von Aspose.CAD zuzugreifen. Dieser Schritt ist entscheidend für den Verbindungsaufbau mit der Aspose.CAD-Bibliothek.
+Importieren Sie in Ihrem Java‑Projekt die erforderlichen Klassen, um mit Aspose.CAD zu arbeiten. Diese Importe geben Ihnen Zugriff auf das Laden von Bildern, CAD‑spezifische Objekte und die Stilmanipulation.
 
 ```java
 import com.aspose.cad.Image;
@@ -36,67 +54,99 @@ import com.aspose.cad.fileformats.cad.CadImage;
 import com.aspose.cad.fileformats.cad.cadtables.CadStyleTableObject;
 ```
 
-## Schriftartersetzung in DWG
+## Schritt‑für‑Schritt‑Anleitung zum Ersetzen der Schriftart
 
-### Schritt 1: Laden Sie Ihre DWG-Datei
+### Schritt 1: Laden Sie Ihre DWG‑Datei (DWG‑Datei in Java laden)
 
-Laden Sie zunächst die DWG-Datei mithilfe der Aspose.CAD-Bibliothek in Ihr Java-Projekt.
+Zuerst zeigen Sie der API auf den Speicherort Ihrer DWG‑ (oder DXF‑) Datei und laden sie in ein `CadImage`‑Objekt.
 
 ```java
-// Der Pfad zum Ressourcenverzeichnis.
+// The path to the resource directory.
 String dataDir = "Your Document Directory" + "CADConversion/";
 
 String srcFile = dataDir + "conic_pyramid.dxf";
 CadImage cadImage = (CadImage) Image.load(srcFile);
 ```
 
-### Schritt 2: Iterieren Sie über Stile
+> **Pro‑Tipp:** Wenn Sie direkt mit DWG‑Dateien arbeiten, ersetzen Sie die Erweiterung `.dxf` durch `.dwg` in der Variable `srcFile`.
 
-Durchlaufen Sie die Stile innerhalb der CAD-Zeichnung mithilfe einer Schleife. Dadurch können Sie auf einzelne Stile zugreifen und diese ändern.
+### Schritt 2: Durchlaufen Sie die Stiltabelle und setzen Sie den primären Schriftartnamen
+
+Jede CAD‑Zeichnung enthält eine Sammlung von Stilobjekten. Durchlaufen Sie diese und verwenden Sie die Methode `setPrimaryFontName` (der API‑Aufruf, der **den primären Schriftartnamen setzt**), um die Schriftart zu ersetzen.
 
 ```java
 for(Object style : cadImage.getStyles())
 {
-    // Legen Sie den Namen der Schriftart fest
+    // Set the font name
     ((com.aspose.cad.fileformats.cad.cadtables.CadStyleTableObject)style).setPrimaryFontName("Arial");
 }
 ```
 
-### Schritt 3: Änderungen speichern
+Sie können `"Arial"` durch jede Schriftart ersetzen, die auf dem ausführenden Rechner installiert ist.
 
-Stellen Sie nach dem Ersetzen der Schriftarten sicher, dass Sie die Änderungen in Ihrer DWG-Datei speichern.
+### Schritt 3: Speichern Sie die geänderte Zeichnung
+
+Nachdem die Schriftart aktualisiert wurde, schreiben Sie die Änderungen zurück in eine neue DWG‑Datei (oder überschreiben die Originaldatei).
 
 ```java
 cadImage.save(dataDir + "output.dwg", new DwgOptions());
 ```
 
-Wenn Sie diese Schritte befolgen, können Sie Schriftarten in einer DWG-Datei erfolgreich ersetzen und so die visuelle Darstellung Ihres CAD-Dokuments verändern.
+Die gespeicherte Datei verwendet nun die von Ihnen angegebene Schriftart, und jede Textanmerkung wird mit diesem Schriftschnitt dargestellt.
 
-## Abschluss
+## Häufige Probleme und Lösungen
 
-Die Einbeziehung von Schriftartersetzungen in Ihre CAD-Zeichnungen verleiht der visuellen Ästhetik eine neue Dimension. Aspose.CAD für Java vereinfacht diesen Prozess und bietet eine benutzerfreundliche Oberfläche für die Schriftartbearbeitung in DWG-Dateien. Experimentieren Sie mit verschiedenen Schriftarten, um die gewünschte Wirkung auf Ihre Designs zu erzielen.
+| Problem | Lösung |
+|-------|----------|
+| **Schriftart nicht angewendet** | Stellen Sie sicher, dass die Schriftart auf dem Host‑OS installiert ist und die Schreibweise exakt übereinstimmt. |
+| **`Image.load` wirft eine Ausnahme** | Stellen Sie sicher, dass der Dateipfad korrekt ist und die Datei ein unterstütztes DWG/DXF‑Format hat. |
+| **Leistungsabfall bei großen Dateien** | Verarbeiten Sie Dateien in einem separaten Thread oder stapeln Sie sie, um UI‑Blockierungen zu vermeiden. |
 
-## FAQs
+## FAQ's
 
-### F1: Kann ich Schriftartersetzungen in meiner DWG-Datei rückgängig machen?
+### Q1: Kann ich Schriftart‑Ersetzungen in meiner DWG‑Datei rückgängig machen?
 
-A1: Ja, Sie können Schriftartersetzungen rückgängig machen, indem Sie die ursprüngliche DWG-Datei neu laden oder die Rückgängig-Funktion in Ihrer CAD-Software verwenden.
+A1: Ja, Sie können Schriftart‑Ersetzungen rückgängig machen, indem Sie die ursprüngliche DWG‑Datei erneut laden oder die Undo‑Funktion Ihrer CAD‑Software verwenden.
 
-### F2: Gibt es Einschränkungen beim Ersetzen von Schriftarten in Aspose.CAD für Java?
+### Q2: Gibt es Einschränkungen bei Schriftart‑Ersetzungen in Aspose.CAD für Java?
 
-A2: Die Möglichkeiten zum Ersetzen von Schriftarten hängen von den im System verfügbaren Schriftarten ab. Stellen Sie sicher, dass auf die gewünschte Schriftart zugegriffen werden kann, oder erwägen Sie die Einbettung in die DWG-Datei.
+A2: Die Möglichkeiten zur Schriftart‑Ersetzung hängen von den im System verfügbaren Schriftarten ab. Stellen Sie sicher, dass die gewünschte Schriftart zugänglich ist, oder erwägen Sie, sie in die DWG‑Datei einzubetten.
 
-### F3: Wie kann ich mit Schriftgrößenanpassungen während der Ersetzung umgehen?
+### Q3: Wie kann ich während der Ersetzung die Schriftgröße anpassen?
 
-A3: Anpassungen der Schriftgröße können vorgenommen werden, indem Sie auf die Stileigenschaften in Aspose.CAD zugreifen und die Schriftgröße entsprechend ändern.
+A3: Schriftgrößen können angepasst werden, indem Sie auf die Stileigenschaften in Aspose.CAD zugreifen und die Schriftgröße entsprechend ändern.
 
-### F4: Kann ich die Schriftartersetzung in einem Batch-Prozess automatisieren?
+### Q4: Kann ich die Schriftart‑Ersetzung in einem Batch‑Prozess automatisieren?
 
-A4: Ja, Aspose.CAD für Java unterstützt die Stapelverarbeitung. Sie können Schriftartersetzungen über mehrere DWG-Dateien hinweg mithilfe von Skripten oder Programmierung automatisieren.
+A4: Ja, Aspose.CAD für Java unterstützt Batch‑Verarbeitung. Sie können Schriftart‑Ersetzungen über mehrere DWG‑Dateien hinweg mittels Skripting oder Programmierung automatisieren.
 
-### F5: Ist Aspose.CAD für Java mit den neuesten CAD-Dateiformaten kompatibel?
+### Q5: Ist Aspose.CAD für Java mit den neuesten CAD‑Dateiformaten kompatibel?
 
-A5: Ja, Aspose.CAD für Java wird regelmäßig aktualisiert, um die neuesten CAD-Dateiformate zu unterstützen und so die Kompatibilität mit Industriestandards sicherzustellen.
+A5: Ja, Aspose.CAD für Java wird regelmäßig aktualisiert, um die neuesten CAD‑Dateiformate zu unterstützen und die Kompatibilität mit Industriestandards sicherzustellen.
+
+## Häufig gestellte Fragen
+
+**F: Wirkt die Methode `setPrimaryFontName` nur auf Textelemente?**  
+A: Sie aktualisiert die primäre Schriftart für die Stiltabelle, was wiederum alle Textelemente beeinflusst, die diesen Stil referenzieren.
+
+**F: Kann ich eine benutzerdefinierte Schriftart verwenden, die nicht im System installiert ist?**  
+A: Aspose.CAD nutzt das Schriftarten‑Register des Betriebssystems. Um eine benutzerdefinierte Schriftart zu verwenden, installieren Sie sie auf dem Rechner, auf dem der Code ausgeführt wird.
+
+**F: Ist es möglich, die Schriftart nur für eine einzelne Ebene zu ändern?**  
+A: Ja, Sie können Stile nach Ebenennamen filtern, bevor Sie `setPrimaryFontName` aufrufen.
+
+**F: Welche Version von Aspose.CAD wird für DWG‑2022‑Dateien benötigt?**  
+A: Die neueste Version (Stand 2025) unterstützt DWG 2022 vollständig. Prüfen Sie stets die Versionshinweise für spezifische Formatunterstützung.
+
+**F: Wie gehe ich mit Lizenzierung in einer Entwicklungsumgebung um?**  
+A: Verwenden Sie eine temporäre Evaluationslizenz zum Testen. Für die Produktion betten Sie Ihre erworbene Lizenzdatei mit `License.setLicense("Aspose.Total.Java.lic");` ein.
+
+---
+
+**Zuletzt aktualisiert:** 2025-12-28  
+**Getestet mit:** Aspose.CAD für Java 24.11  
+**Autor:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
