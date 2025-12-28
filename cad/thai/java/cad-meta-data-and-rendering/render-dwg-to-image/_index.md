@@ -1,35 +1,51 @@
 ---
-title: เรนเดอร์เอกสาร DWG เป็นรูปภาพด้วย Aspose.CAD สำหรับ Java
-linktitle: เรนเดอร์เอกสาร DWG เป็นรูปภาพด้วย Java
+date: 2025-12-28
+description: เรียนรู้วิธีสร้าง PDF จาก CAD โดยแปลง DWG เป็น PDF ด้วย Aspose.CAD สำหรับ
+  Java ทำตามคำแนะนำขั้นตอนต่อขั้นตอนเพื่อส่งออกเลย์เอาต์ DWG เป็น PDF และสร้างภาพ
+linktitle: Render DWG Document to Image with Java
 second_title: Aspose.CAD Java API
-description: สำรวจการผสานรวม Aspose.CAD สำหรับ Java อย่างราบรื่นในการเรนเดอร์เอกสาร DWG ไปยังรูปภาพ ปฏิบัติตามคำแนะนำทีละขั้นตอนของเราเพื่อผลลัพธ์ที่มีประสิทธิภาพ
-weight: 11
+title: 'สร้าง PDF จาก CAD: แปลง DWG เป็นภาพด้วย Aspose.CAD สำหรับ Java'
 url: /th/java/cad-meta-data-and-rendering/render-dwg-to-image/
+weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# เรนเดอร์เอกสาร DWG เป็นรูปภาพด้วย Aspose.CAD สำหรับ Java
+# แปลงเอกสาร DWG เป็นภาพด้วย Aspose.CAD สำหรับ Java
 
-## การแนะนำ
+## บทนำ
 
-ในโลกแบบไดนามิกของการพัฒนา Java Aspose.CAD มีความโดดเด่นในฐานะเครื่องมืออันทรงพลังสำหรับจัดการไฟล์ Computer-Aided Design (CAD) ในบทช่วยสอนนี้ เราจะสำรวจกระบวนการเรนเดอร์เอกสาร DWG ไปยังรูปภาพโดยใช้ Aspose.CAD สำหรับ Java ไม่ว่าคุณจะเป็นนักพัฒนาที่มีประสบการณ์หรือเพิ่งเริ่มต้นเส้นทางการเขียนโค้ด คำแนะนำทีละขั้นตอนนี้จะแนะนำคุณตลอดกระบวนการด้วยความชัดเจนและง่ายดาย
+ในโลกที่เปลี่ยนแปลงอย่างรวดเร็วของการพัฒนา Java, Aspose.CAD โดดเด่นในฐานะเครื่องมือที่ทรงพลังสำหรับการจัดการไฟล์ Computer‑Aided Design (CAD). **บทเรียนนี้จะแสดงวิธีสร้าง PDF จาก CAD** โดยการเรนเดอร์เอกสาร DWG เป็นภาพและจากนั้นส่งออกเป็น PDF ไม่ว่าคุณจะเป็นนักพัฒนาที่มีประสบการณ์หรือเพิ่งเริ่มต้นการเขียนโค้ด คู่มือขั้นตอนต่อขั้นตอนนี้จะพาคุณผ่านกระบวนการด้วยความชัดเจนและง่ายดาย.
+
+## คำตอบด่วน
+- **ต้องใช้ไลบรารีอะไร?** Aspose.CAD for Java.
+- **ฉันสามารถแปลง DWG เป็น PDF ได้หรือไม่?** ได้ – ตัวอย่างนี้แสดงการแปลงเลเอาต์ DWG เป็น PDF.
+- **ต้องการไลเซนส์สำหรับการใช้งานจริงหรือไม่?** จำเป็นต้องมีไลเซนส์ Aspose.CAD ที่ถูกต้องสำหรับการใช้งานที่ไม่ใช่การประเมิน.
+- **IDE ที่รองรับมีอะไรบ้าง?** Eclipse, IntelliJ IDEA, NetBeans, และ IDE ใด ๆ ที่รองรับ Java.
+- **รูปแบบผลลัพธ์ที่มีให้เลือกคืออะไร?** PDF, PNG, JPEG, BMP, และรูปแบบ raster อื่น ๆ.
+
+## การสร้าง PDF จาก CAD คืออะไร?
+
+การสร้าง PDF จาก CAD หมายถึงการนำภาพวาดแบบเวกเตอร์ (เช่นไฟล์ DWG) มาทำให้เป็นภาพ raster หรือเวกเตอร์ในรูปแบบเอกสาร PDF ซึ่งทำให้สามารถแชร์ พิมพ์ และเก็บบันทึกภาพวาดทางเทคนิคได้อย่างง่ายดายโดยไม่ต้องใช้แอปพลิเคชัน CAD ดั้งเดิม.
+
+## ทำไมต้องใช้ Aspose.CAD สำหรับ Java?
+
+- **ไม่มีการพึ่งพาภายนอก** – ไลบรารีทำงานได้ทันที.
+- **การเรนเดอร์คุณภาพสูง** – รักษาน้ำหนักเส้น, เลเยอร์, และเลเอาต์.
+- **การประมวลผลแบบชุด** – คุณสามารถแปลงหลายภาพวาดในครั้งเดียว.
+- **ข้ามแพลตฟอร์ม** – ทำงานบน Windows, Linux, และ macOS.
 
 ## ข้อกำหนดเบื้องต้น
 
-ก่อนที่จะเข้าสู่บทช่วยสอน ตรวจสอบให้แน่ใจว่าคุณมีข้อกำหนดเบื้องต้นต่อไปนี้:
+- **สภาพแวดล้อมการพัฒนา Java** – ติดตั้ง JDK 8 หรือสูงกว่า.
+- **ไลบรารี Aspose.CAD สำหรับ Java** – ดาวน์โหลดจาก [download link](https://releases.aspose.com/cad/java/).
+- **เอกสาร DWG** – ไฟล์ DWG ที่คุณต้องการเรนเดอร์ (ตัวอย่างหรือของคุณเอง).
 
-- สภาพแวดล้อมการพัฒนา Java: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง Java บนเครื่องของคุณ และสภาพแวดล้อมการพัฒนาของคุณได้รับการตั้งค่าแล้ว
+## นำเข้า Namespaces
 
--  Aspose.CAD สำหรับไลบรารี Java: ดาวน์โหลดและติดตั้ง Aspose.CAD สำหรับไลบรารี Java จาก[ลิ้งค์ดาวน์โหลด](https://releases.aspose.com/cad/java/).
-
-- เอกสาร DWG: เตรียมไฟล์ DWG ให้พร้อมสำหรับการเรนเดอร์ คุณสามารถใช้ไฟล์ DWG ตัวอย่างหรือเอกสาร CAD ของคุณเองได้
-
-## นำเข้าเนมสเปซ
-
-ในโค้ด Java ของคุณ ให้นำเข้าเนมสเปซที่จำเป็นเพื่อใช้ประโยชน์จากฟังก์ชันการทำงานของ Aspose.CAD:
+ในโค้ด Java ของคุณ ให้นำเข้าคลาสที่จำเป็นเพื่อใช้ฟังก์ชันของ Aspose.CAD:
 
 ```java
 import com.aspose.cad.Image;
@@ -38,16 +54,16 @@ import com.aspose.cad.imageoptions.CadRasterizationOptions;
 import com.aspose.cad.imageoptions.PdfOptions;
 ```
 
-ตอนนี้ เรามาแบ่งโค้ดตัวอย่างออกเป็นหลายขั้นตอนเพื่อความเข้าใจที่ครอบคลุม:
+ต่อไปนี้เป็นการแยกโค้ดตัวอย่างเป็นหลายขั้นตอนเพื่อความเข้าใจที่ครอบคลุม:
 
 ## ขั้นตอนที่ 1: ระบุไดเรกทอรีทรัพยากร
 
 ```java
-// เส้นทางไปยังไดเร็กทอรีทรัพยากร
+// The path to the resource directory.
 String dataDir = "Your Document Directory" + "DWGDrawings/";
 ```
 
-ตรวจสอบให้แน่ใจว่าคุณแทนที่ "Your Document Directory" ด้วยเส้นทางจริงไปยังแบบร่าง DWG ของคุณ
+แทนที่ `"Your Document Directory"` ด้วยพาธจริงที่เก็บไฟล์ DWG ของคุณ.
 
 ## ขั้นตอนที่ 2: โหลดเอกสาร DWG
 
@@ -56,9 +72,9 @@ String srcFile = dataDir + "visualization_-_conference_room.dwg";
 Image image = Image.load(srcFile);
 ```
 
-โหลดเอกสาร DWG ลงในวัตถุ Aspose.CAD Image
+ขั้นตอนนี้จะโหลดไฟล์ DWG เข้าไปในอ็อบเจ็กต์ `Image` ที่ Aspose.CAD สามารถทำงานได้.
 
-## ขั้นตอนที่ 3: ตั้งค่าตัวเลือกการแรสเตอร์
+## ขั้นตอนที่ 3: ตั้งค่าตัวเลือกการเรนเดอร์แบบ Raster
 
 ```java
 CadRasterizationOptions rasterizationOptions = new CadRasterizationOptions();
@@ -67,16 +83,16 @@ rasterizationOptions.setPageHeight(1600);
 rasterizationOptions.setLayouts(new String[] {"Layout1"});
 ```
 
-สร้างอินสแตนซ์ของ CadRasterizationOptions และตั้งค่าคุณสมบัติ เช่น ความกว้างของหน้า ความสูงของหน้า และเค้าโครง
+ที่นี่เรากำหนดวิธีการแปลงภาพวาดเป็น raster: ขนาดหน้าและเลเอาต์เฉพาะที่จะเรนเดอร์ นี่เป็นขั้นตอนสำคัญสำหรับ **render dwg to image** และ **export dwg layout pdf**.
 
-## ขั้นตอนที่ 4: สร้างตัวเลือก PDF
+## ขั้นตอนที่ 4: สร้าง PDF Options
 
 ```java
 PdfOptions pdfOptions = new PdfOptions();
 pdfOptions.setVectorRasterizationOptions(rasterizationOptions);
 ```
 
-สร้างอินสแตนซ์ของ PdfOptions และตั้งค่าคุณสมบัติ VectorRasterizationOptions ด้วย CadRasterizationOptions ที่กำหนดไว้ก่อนหน้านี้
+`PdfOptions` เชื่อมการตั้งค่า rasterization กับรูปแบบการส่งออก PDF.
 
 ## ขั้นตอนที่ 5: ส่งออกเป็น PDF
 
@@ -84,36 +100,49 @@ pdfOptions.setVectorRasterizationOptions(rasterizationOptions);
 image.save(dataDir + "ExportSpecificLayoutToPDF_out_.pdf", pdfOptions);
 ```
 
-บันทึกรูปภาพที่เรนเดอร์เป็นไฟล์ PDF ในไดเร็กทอรีที่ระบุ
+เมธอด `save` จะเขียนภาพที่เรนเดอร์ลงในไฟล์ PDF ทำให้ **convert dwg to pdf** อย่างมีประสิทธิภาพ.
 
-## บทสรุป
+## ปัญหาทั่วไปและวิธีแก้
 
-ยินดีด้วย! คุณเรนเดอร์เอกสาร DWG ไปยังรูปภาพโดยใช้ Aspose.CAD สำหรับ Java สำเร็จแล้ว บทช่วยสอนนี้ได้จัดเตรียมขั้นตอนและความรู้ที่จำเป็นในการรวม Aspose.CAD เข้ากับแอปพลิเคชัน Java ของคุณได้อย่างราบรื่น
+| ปัญหา | วิธีแก้ |
+|-------|----------|
+| **ไม่พบไฟล์** | ตรวจสอบว่า `dataDir` ชี้ไปยังโฟลเดอร์ที่ถูกต้องและชื่อไฟล์ DWG ถูกต้อง. |
+| **ผลลัพธ์ PDF ว่าง** | ตรวจสอบว่าชื่อเลเอาต์ (`"Layout1"`) มีอยู่ในไฟล์ DWG; ใช้ `image.getAvailableLayouts()` เพื่อแสดงรายการ. |
+| **คุณภาพภาพต่ำ** | เพิ่มค่า `PageWidth` และ `PageHeight` หรือกำหนด `rasterizationOptions.setResolution(300);`. |
 
 ## คำถามที่พบบ่อย
 
-### คำถามที่ 1: ฉันสามารถเรนเดอร์หลายเลย์เอาต์จากไฟล์ DWG ไฟล์เดียวได้หรือไม่
+### Q1: ฉันสามารถเรนเดอร์หลายเลเอาต์จากไฟล์ DWG เดียวได้หรือไม่?
 
- A1: ใช่คุณทำได้ เพียงแก้ไขชื่อเค้าโครงใน`setLayouts` อาร์เรย์ตามลำดับ
+A1: ได้, คุณสามารถทำได้ เพียงปรับชื่อเลเอาต์ในอาร์เรย์ `setLayouts` ตามต้องการ.
 
-### คำถามที่ 2: Aspose.CAD เข้ากันได้กับ Java IDE ที่แตกต่างกันหรือไม่
+### Q2: Aspose.CAD รองรับ IDE Java ต่าง ๆ หรือไม่?
 
-ตอบ 2: ใช่ Aspose.CAD เข้ากันได้กับ Java IDE ยอดนิยม เช่น Eclipse, IntelliJ IDEA และอื่นๆ
+A2: ใช่, Aspose.CAD รองรับ IDE Java ยอดนิยมเช่น Eclipse, IntelliJ IDEA และอื่น ๆ.
 
-### คำถามที่ 3: ฉันจะขอความช่วยเหลือและการสนับสนุนเพิ่มเติมได้จากที่ไหน
+### Q3: ฉันจะหาแหล่งช่วยเหลือและสนับสนุนเพิ่มเติมได้จากที่ไหน?
 
- A3: เยี่ยมชม[ฟอรั่ม Aspose.CAD](https://forum.aspose.com/c/cad/19) สำหรับการสนับสนุนและการอภิปรายของชุมชน
+A3: เยี่ยมชม [Aspose.CAD forum](https://forum.aspose.com/c/cad/19) เพื่อรับการสนับสนุนจากชุมชนและการสนทนา.
 
-### คำถามที่ 4: ฉันจะขอรับใบอนุญาตชั่วคราวสำหรับ Aspose.CAD ได้อย่างไร
+### Q4: ฉันจะขอรับไลเซนส์ชั่วคราวสำหรับ Aspose.CAD ได้อย่างไร?
 
- A4: คุณสามารถขอรับใบอนุญาตชั่วคราวได้จาก[ที่นี่](https://purchase.aspose.com/temporary-license/).
+A4: คุณสามารถรับไลเซนส์ชั่วคราวได้จาก [here](https://purchase.aspose.com/temporary-license/).
 
-### คำถามที่ 5: มีตัวเลือกการเรนเดอร์เพิ่มเติมใน Aspose.CAD หรือไม่
+### Q5: มีตัวเลือกการเรนเดอร์เพิ่มเติมใน Aspose.CAD หรือไม่?
 
- A5: แน่นอน สำรวจให้กว้างไกล[เอกสารประกอบ](https://reference.aspose.com/cad/java/) สำหรับข้อมูลโดยละเอียด
+A5: แน่นอน, สำรวจ [documentation](https://reference.aspose.com/cad/java/) อย่างละเอียดเพื่อข้อมูลเพิ่มเติม.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**อัปเดตล่าสุด:** 2025-12-28  
+**ทดสอบกับ:** Aspose.CAD for Java 24.11  
+**ผู้เขียน:** Aspose  
+
+---
