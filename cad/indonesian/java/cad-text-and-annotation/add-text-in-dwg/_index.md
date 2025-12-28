@@ -1,35 +1,44 @@
 ---
-title: Tambahkan Teks di DWG Menggunakan Aspose.CAD untuk Java
-linktitle: Tambahkan Teks di DWG
+date: 2025-12-28
+description: Pelajari cara membuat PDF dari DWG, menyimpan DWG sebagai PDF, dan menambahkan
+  teks ke gambar DWG dengan Aspose.CAD untuk Java—panduan langkah demi langkah.
+linktitle: Add Text in DWG
 second_title: Aspose.CAD Java API
-description: Sempurnakan gambar DWG Anda dengan mudah dengan Aspose.CAD untuk Java. Tambahkan teks secara lancar dengan panduan langkah demi langkah kami.
-weight: 10
+title: Buat PDF dari DWG dan Tambahkan Teks Menggunakan Aspose.CAD untuk Java
 url: /id/java/cad-text-and-annotation/add-text-in-dwg/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Tambahkan Teks di DWG Menggunakan Aspose.CAD untuk Java
+# Buat PDF dari DWG dan Tambahkan Teks Menggunakan Aspose.CAD untuk Java
 
-## Perkenalan
+## Pendahuluan
 
-Di bidang desain berbantuan komputer (CAD), Aspose.CAD untuk Java menonjol sebagai alat yang ampuh untuk memanipulasi dan mengonversi gambar DWG. Salah satu fitur praktisnya adalah kemampuan untuk menambahkan teks ke file DWG dengan mulus. Dalam tutorial ini, kami akan memandu Anda melalui proses menambahkan teks ke gambar DWG Anda menggunakan Aspose.CAD untuk Java.
+Jika Anda perlu **membuat PDF dari file DWG** sekaligus menyisipkan teks khusus, Anda berada di tempat yang tepat. Pada tutorial ini kami akan membahas seluruh proses—memuat gambar DWG, menambahkan anotasi teks, dan akhirnya menyimpan hasilnya sebagai PDF menggunakan Aspose.CAD untuk Java. Pada akhir tutorial Anda akan memahami cara **menyimpan DWG sebagai PDF**, menyesuaikan tinggi teks, dan bahkan menambahkan anotasi dasar.
+
+## Jawaban Cepat
+- **Apakah saya dapat mengonversi DWG ke PDF di Java?** Ya, Aspose.CAD untuk Java menyediakan API yang sederhana.  
+- **Apakah saya memerlukan lisensi untuk penggunaan produksi?** Lisensi komersial diperlukan; versi percobaan gratis tersedia.  
+- **Metode mana yang menambahkan teks ke DWG?** Gunakan objek `CadText` dan tambahkan ke model space.  
+- **Bisakah saya mengatur tinggi teks?** Tentu—gunakan `setTextHeight()` pada instance `CadText`.  
+- **Apakah output berbasis vektor?** Ketika opsi rasterisasi diatur ke `UseObjectColor`, PDF mempertahankan data vektor berkualitas tinggi.
 
 ## Prasyarat
 
-Sebelum masuk ke tutorial, pastikan Anda memiliki prasyarat berikut:
+Sebelum memulai tutorial, pastikan Anda telah menyiapkan prasyarat berikut:
 
--  Aspose.CAD untuk Java Library: Unduh dan instal perpustakaan dari[Aspose.CAD untuk halaman Java](https://releases.aspose.com/cad/java/).
+- **Pustaka Aspose.CAD untuk Java:** Unduh dan instal pustaka dari [halaman Aspose.CAD untuk Java](https://releases.aspose.com/cad/java/).
 
-- Java Development Kit (JDK): Pastikan Anda telah menginstal JDK terbaru di sistem Anda.
+- **Java Development Kit (JDK):** Pastikan Anda memiliki JDK terbaru yang terpasang di sistem Anda.
 
-- Gambar DWG: Siapkan file gambar DWG tempat Anda ingin menambahkan teks.
+- **Gambar DWG:** Siapkan file gambar DWG tempat Anda ingin menambahkan teks.
 
 ## Impor Namespace
 
-Dalam kode Java Anda, impor namespace yang diperlukan untuk Aspose.CAD:
+Di dalam kode Java Anda, impor namespace yang diperlukan untuk Aspose.CAD:
 
 ```java
 import com.aspose.cad.Image;
@@ -42,7 +51,7 @@ import com.aspose.cad.imageoptions.CadRasterizationOptions;
 import com.aspose.cad.imageoptions.PdfOptions;
 ```
 
-Sekarang, mari kita uraikan cuplikan kode yang disediakan menjadi beberapa langkah:
+Sekarang, mari kita uraikan potongan kode yang diberikan menjadi beberapa langkah:
 
 ## Langkah 1: Siapkan Direktori Dokumen dan Jalur File DWG
 
@@ -57,7 +66,7 @@ String dwgPathToFile = dataDir + "SimpleEntites.dwg";
 Image image = Image.load(dwgPathToFile);
 ```
 
-## Langkah 3: Buat Objek CadText
+## Langkah 3: Buat Objek CadText (Tambahkan Teks ke DWG)
 
 ```java
 CadText cadText = new CadText();
@@ -67,24 +76,24 @@ cadText.setColorId(256);
 cadText.setLayerName("0");
 cadText.getFirstAlignment().setX(47.9);
 cadText.getFirstAlignment().setY(5.56);
-cadText.setTextHeight(0.8);
+cadText.setTextHeight(0.8);          // set text height in DWG units
 cadText.setScaleX(0);
 ```
 
-## Langkah 4: Tambahkan Teks ke CadImage
+## Langkah 4: Tambahkan Teks ke CadImage (Sisipkan Anotasi)
 
 ```java
 CadImage cadImage = ((CadImage)(image));
 cadImage.getBlockEntities().get_Item("*Model_Space").addEntity(cadText);
 ```
 
-## Langkah 5: Atur Opsi PDF
+## Langkah 5: Siapkan Opsi PDF (Persiapkan pembuatan PDF dari DWG)
 
 ```java
 PdfOptions pdfOptions = new PdfOptions();
 ```
 
-## Langkah 6: Konfigurasikan CadRasterizationOptions
+## Langkah 6: Konfigurasikan CadRasterizationOptions (Kontrol Rendering PDF)
 
 ```java
 CadRasterizationOptions cadRasterizationOptions = new CadRasterizationOptions();
@@ -95,39 +104,52 @@ cadRasterizationOptions.setPageWidth(1600);
 cadRasterizationOptions.setLayouts(new String[] {"Model"});
 ```
 
-## Langkah 7: Simpan DWG yang Dimodifikasi sebagai PDF
+## Langkah 7: Simpan DWG yang Dimodifikasi sebagai PDF (dwg to pdf java)
 
 ```java
 image.save(dataDir + "SimpleEntites_generated.dwg.pdf", pdfOptions);
 ```
 
-Dengan mengikuti langkah-langkah ini, Anda akan dapat menambahkan teks ke gambar DWG Anda dengan lancar menggunakan Aspose.CAD untuk Java.
+Dengan mengikuti langkah‑langkah ini, Anda akan dapat **membuat PDF dari DWG**, menambahkan teks khusus, dan mengontrol tinggi teks—semua dengan hanya beberapa baris kode Java.
 
-## Kesimpulan
+## Mengapa Menambahkan Teks ke DWG dan Mengonversi ke PDF?
 
-Aspose.CAD untuk Java memberdayakan pengembang untuk menyempurnakan dan memodifikasi gambar DWG secara terprogram. Tutorial ini memberikan panduan langkah demi langkah yang jelas untuk menambahkan teks ke file DWG Anda, menampilkan kesederhanaan dan kekuatan Aspose.CAD.
+Menambahkan teks langsung ke file DWG berguna untuk:
 
-## FAQ
+- **Memberi catatan pada desain** dengan keterangan atau nomor bagian.
+- **Membuat dokumentasi yang dapat dicetak** di mana PDF berfungsi sebagai format baca‑saja yang didukung secara luas.
+- **Mengotomatiskan pemrosesan batch** pada perpustakaan CAD besar tanpa penyuntingan manual.
 
-### Q1: Apakah Aspose.CAD kompatibel dengan semua versi file DWG?
+## Masalah Umum & Tips
 
-A1: Aspose.CAD mendukung berbagai versi file DWG, memastikan kompatibilitas dengan berbagai perangkat lunak CAD.
+- **Teks tidak muncul?** Pastikan koordinat X/Y berada dalam batas gambar dan layer terlihat.
+- **Tinggi teks tidak tepat?** Sesuaikan `setTextHeight()`; nilai tersebut berada dalam sistem satuan gambar.
+- **PDF terlihat raster?** Pastikan `CadDrawTypeMode.UseObjectColor` diatur untuk mempertahankan informasi vektor.
+- **Kinerja pada file besar?** Tingkatkan `pageHeight`/`pageWidth` hanya bila diperlukan; nilai yang lebih besar akan mengonsumsi lebih banyak memori.
 
-### Q2: Dapatkah saya menyesuaikan font dan format teks yang ditambahkan?
+## Pertanyaan yang Sering Diajukan
 
-A2: Ya, Anda dapat menyesuaikan font, gaya, dan opsi pemformatan lainnya untuk teks yang ditambahkan ke file DWG menggunakan Aspose.CAD.
+**T: Apakah Aspose.CAD kompatibel dengan semua versi file DWG?**  
+J: Aspose.CAD mendukung berbagai versi file DWG, memastikan kompatibilitas dengan beragam perangkat lunak CAD.
 
-### Q3: Apakah tersedia uji coba gratis untuk Aspose.CAD untuk Java?
+**T: Bisakah saya menyesuaikan font dan format teks yang ditambahkan?**  
+J: Ya, Anda dapat menyesuaikan font, gaya, dan opsi format lainnya untuk teks yang ditambahkan ke file DWG menggunakan Aspose.CAD.
 
- A3: Ya, Anda dapat menjelajahi fitur Aspose.CAD dengan mendapatkan uji coba gratis dari[Di Sini](https://releases.aspose.com/).
+**T: Apakah ada versi percobaan gratis untuk Aspose.CAD untuk Java?**  
+J: Ya, Anda dapat menjelajahi fitur Aspose.CAD dengan memperoleh versi percobaan gratis [di sini](https://releases.aspose.com/).
 
-### Q4: Di mana saya dapat menemukan dokumentasi terperinci untuk Aspose.CAD untuk Java?
+**T: Di mana saya dapat menemukan dokumentasi detail untuk Aspose.CAD untuk Java?**  
+J: Lihat dokumentasi [di sini](https://reference.aspose.com/cad/java/) untuk informasi mendalam dan contoh.
 
- A4: Lihat dokumentasi[Di Sini](https://reference.aspose.com/cad/java/) untuk informasi mendalam dan contoh.
+**T: Bagaimana cara mendapatkan dukungan atau bantuan terkait Aspose.CAD?**  
+J: Kunjungi [forum Aspose.CAD](https://forum.aspose.com/c/cad/19) untuk mendapatkan bantuan dan terhubung dengan komunitas.
 
-### Q5: Bagaimana saya bisa mendapatkan dukungan atau mencari bantuan dengan Aspose.CAD?
+---
 
-A5: Kunjungi[Forum Aspose.CAD](https://forum.aspose.com/c/cad/19) untuk mendapatkan bantuan dan berhubungan dengan masyarakat.
+**Terakhir Diperbarui:** 2025-12-28  
+**Diuji Dengan:** Aspose.CAD untuk Java 24.12  
+**Penulis:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

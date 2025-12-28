@@ -1,35 +1,42 @@
 ---
-title: Szöveg hozzáadása a DWG-ben az Aspose.CAD for Java használatával
-linktitle: Szöveg hozzáadása a DWG-ben
+date: 2025-12-28
+description: Tanulja meg, hogyan hozhat létre PDF-et DWG‑ből, menthet DWG‑t PDF‑ként,
+  és adhat szöveget DWG‑rajzokhoz az Aspose.CAD for Java‑val – lépésről‑lépésre útmutató.
+linktitle: Add Text in DWG
 second_title: Aspose.CAD Java API
-description: Fokozza könnyedén DWG-rajzait az Aspose.CAD for Java segítségével. Adjon hozzá szöveget zökkenőmentesen lépésenkénti útmutatónkkal.
-weight: 10
+title: PDF létrehozása DWG‑ből és szöveg hozzáadása az Aspose.CAD for Java segítségével
 url: /hu/java/cad-text-and-annotation/add-text-in-dwg/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Szöveg hozzáadása a DWG-ben az Aspose.CAD for Java használatával
+# PDF létrehozása DWG-ből és szöveg hozzáadása az Aspose.CAD for Java segítségével
 
 ## Bevezetés
 
-A számítógéppel segített tervezés (CAD) területén az Aspose.CAD for Java hatékony eszköz a DWG-rajzok manipulálására és konvertálására. Egyik praktikus funkciója, hogy zökkenőmentesen adhat hozzá szöveget a DWG-fájlokhoz. Ebben az oktatóanyagban végigvezetjük a DWG-rajzokhoz szöveg hozzáadásának folyamatán az Aspose.CAD for Java segítségével.
+Ha **PDF-et szeretne létrehozni DWG** fájlokból, miközben egyedi szöveget is beillesztene, jó helyen jár. Ebben az útmutatóban végigvezetjük a teljes folyamaton – a DWG rajz betöltésén, egy szöveges annotáció hozzáadásán, és végül az eredmény PDF-ként történő mentésén az Aspose.CAD for Java használatával. A végére megérti, hogyan **save DWG as PDF**, testre szabhatja a szövegmagasságot, és akár alapvető annotációkat is hozzáadhat.
 
-## Előfeltételek
+## Gyors válaszok
+- **Átalakíthatom a DWG-t PDF-re Java-ban?** Igen, az Aspose.CAD for Java egyszerű API-t biztosít.  
+- **Szükségem van licencre a termeléshez?** Kereskedelmi licenc szükséges; ingyenes próba elérhető.  
+- **Melyik metódus ad szöveget a DWG-hez?** Használja a `CadText` objektumot és adja hozzá a modell térhez.  
+- **Beállíthatom a szövegmagasságot?** Természetesen—használja a `setTextHeight()`-t a `CadText` példányon.  
+- **Vektor‑alapú a kimenet?** Ha a rasterizálási beállítások `UseObjectColor` értékre vannak állítva, a PDF megőrzi a magas minőségű vektor adatot.
 
-Mielőtt belevágna az oktatóanyagba, győződjön meg arról, hogy a következő előfeltételek teljesülnek:
+## Előkövetelmények
 
--  Aspose.CAD for Java Library: Töltse le és telepítse a könyvtárat a[Aspose.CAD for Java oldal](https://releases.aspose.com/cad/java/).
+Mielőtt belemerülne az útmutatóba, győződjön meg róla, hogy a következő előkövetelmények rendelkezésre állnak:
 
-- Java Development Kit (JDK): Győződjön meg arról, hogy a legújabb JDK telepítve van a rendszeren.
-
-- DWG rajz: Készítsen egy DWG rajzfájlt, amelyhez szöveget szeretne hozzáadni.
+- Aspose.CAD for Java könyvtár: Töltse le és telepítse a könyvtárat a [Aspose.CAD for Java oldalról](https://releases.aspose.com/cad/java/).
+- Java Development Kit (JDK): Győződjön meg róla, hogy a legújabb JDK telepítve van a rendszerén.
+- DWG rajz: Készítsen elő egy DWG rajzfájlt, amelyhez szöveget szeretne hozzáadni.
 
 ## Névterek importálása
 
-Java kódban importálja az Aspose.CAD szükséges névtereit:
+A Java kódban importálja a szükséges névtereket az Aspose.CAD-hez:
 
 ```java
 import com.aspose.cad.Image;
@@ -42,22 +49,22 @@ import com.aspose.cad.imageoptions.CadRasterizationOptions;
 import com.aspose.cad.imageoptions.PdfOptions;
 ```
 
-Most bontsuk fel a megadott kódrészletet több lépésre:
+Most bontsuk le a megadott kódrészletet több lépésre:
 
-## 1. lépés: Állítsa be a dokumentumkönyvtárat és a DWG fájl elérési útját
+## 1. lépés: Dokumentum könyvtár és DWG fájl útvonal beállítása
 
 ```java
 String dataDir = "Your Document Directory" + "DWGDrawings/";
 String dwgPathToFile = dataDir + "SimpleEntites.dwg";
 ```
 
-## 2. lépés: Töltse be a DWG képet
+## 2. lépés: DWG kép betöltése
 
 ```java
 Image image = Image.load(dwgPathToFile);
 ```
 
-## 3. lépés: Hozzon létre CadText objektumot
+## 3. lépés: CadText objektum létrehozása (szöveg hozzáadása a DWG-hez)
 
 ```java
 CadText cadText = new CadText();
@@ -67,24 +74,24 @@ cadText.setColorId(256);
 cadText.setLayerName("0");
 cadText.getFirstAlignment().setX(47.9);
 cadText.getFirstAlignment().setY(5.56);
-cadText.setTextHeight(0.8);
+cadText.setTextHeight(0.8);          // set text height in DWG units
 cadText.setScaleX(0);
 ```
 
-## 4. lépés: Szöveg hozzáadása a CadImage-hez
+## 4. lépés: Szöveg hozzáadása a CadImage-hez (annotáció beszúrása)
 
 ```java
 CadImage cadImage = ((CadImage)(image));
 cadImage.getBlockEntities().get_Item("*Model_Space").addEntity(cadText);
 ```
 
-## 5. lépés: A PDF-beállítások beállítása
+## 5. lépés: PDF beállítások konfigurálása (PDF létrehozása DWG-ből)
 
 ```java
 PdfOptions pdfOptions = new PdfOptions();
 ```
 
-## 6. lépés: A CadRasterizationOptions konfigurálása
+## 6. lépés: CadRasterizationOptions konfigurálása (PDF renderelés vezérlése)
 
 ```java
 CadRasterizationOptions cadRasterizationOptions = new CadRasterizationOptions();
@@ -95,39 +102,52 @@ cadRasterizationOptions.setPageWidth(1600);
 cadRasterizationOptions.setLayouts(new String[] {"Model"});
 ```
 
-## 7. lépés: Mentse el a módosított DWG-t PDF formátumban
+## 7. lépés: Módosított DWG mentése PDF-ként (dwg to pdf java)
 
 ```java
 image.save(dataDir + "SimpleEntites_generated.dwg.pdf", pdfOptions);
 ```
 
-Ha követi ezeket a lépéseket, az Aspose.CAD for Java segítségével zökkenőmentesen tud szöveget hozzáadni DWG-rajzaihoz.
+Ezeket a lépéseket követve képes lesz **PDF-et létrehozni DWG-ből**, egyedi szöveget hozzáadni, és a szövegmagasságot szabályozni – mindezt csak néhány Java sorral.
 
-## Következtetés
+## Miért érdemes szöveget hozzáadni a DWG-hez és PDF-be konvertálni?
 
-Az Aspose.CAD for Java feljogosítja a fejlesztőket a DWG rajzok programozott fejlesztésére és módosítására. Ez az oktatóanyag világos, lépésenkénti útmutatót kínál a DWG-fájlok szövegének hozzáadásához, bemutatva az Aspose.CAD egyszerűségét és erejét.
+A szöveg közvetlen hozzáadása egy DWG fájlhoz hasznos:
 
-## GYIK
+- **Megjegyzések hozzáadása** a tervekhez jegyzetekkel vagy alkatrész számokkal.
+- **Nyomtatható dokumentáció készítése**, ahol a PDF csak olvasható, széles körben támogatott formátum.
+- **Kötegelt feldolgozás automatizálása** nagy CAD könyvtárak esetén manuális szerkesztés nélkül.
 
-### 1. kérdés: Az Aspose.CAD kompatibilis a DWG-fájlok összes verziójával?
+## Gyakori problémák és tippek
 
-1. válasz: Az Aspose.CAD támogatja a DWG-fájlok különféle verzióit, biztosítva a kompatibilitást a CAD-szoftverek széles skálájával.
+- **A szöveg nem jelenik meg?** Ellenőrizze, hogy az X/Y koordináták a rajz kiterjedésén belül vannak-e, és hogy a réteg látható-e.
+- **Helytelen szövegmagasság?** Állítsa be a `setTextHeight()`-t; az érték a rajz egységrendszerében van.
+- **A PDF rasterizáltnak tűnik?** Győződjön meg róla, hogy a `CadDrawTypeMode.UseObjectColor` be van állítva a vektor információk megtartásához.
+- **Teljesítmény nagy fájloknál?** Növelje a `pageHeight`/`pageWidth` értékeket csak szükség szerint; a nagyobb értékek több memóriát fogyasztanak.
 
-### 2. kérdés: Testreszabhatom a hozzáadott szöveg betűtípusát és formázását?
+## Gyakran ismételt kérdések
 
-2. válasz: Igen, az Aspose.CAD segítségével testreszabhatja a DWG-fájlokhoz hozzáadott szöveg betűtípusát, stílusát és egyéb formázási beállításait.
+**Q: Az Aspose.CAD kompatibilis minden DWG verzióval?**  
+A: Az Aspose.CAD különböző DWG verziókat támogat, biztosítva a kompatibilitást a széles körű CAD szoftverekkel.
 
-### 3. kérdés: Elérhető ingyenes próbaverzió az Aspose.CAD for Java számára?
+**Q: Testreszabhatom a hozzáadott szöveg betűtípusát és formázását?**  
+A: Igen, az Aspose.CAD segítségével testreszabhatja a betűtípust, stílust és egyéb formázási beállításokat a DWG fájlokhoz hozzáadott szöveghez.
 
- 3. válasz: Igen, felfedezheti az Aspose.CAD szolgáltatásait, ha ingyenes próbaverziót szerez a webhelyről[itt](https://releases.aspose.com/).
+**Q: Elérhető ingyenes próba az Aspose.CAD for Java-hoz?**  
+A: Igen, az Aspose.CAD funkcióit egy ingyenes próba letöltésével ismerheti meg [itt](https://releases.aspose.com/).
 
-### 4. kérdés: Hol találom az Aspose.CAD for Java részletes dokumentációját?
+**Q: Hol találom az Aspose.CAD for Java részletes dokumentációját?**  
+A: A részletes információkért és példákért tekintse meg a dokumentációt [itt](https://reference.aspose.com/cad/java/).
 
- A4: Lásd a dokumentációt[itt](https://reference.aspose.com/cad/java/) részletes információkért és példákért.
+**Q: Hogyan kaphatok támogatást vagy segítséget az Aspose.CAD-hez?**  
+A: Látogassa meg az [Aspose.CAD fórumot](https://forum.aspose.com/c/cad/19), ahol segítséget kaphat és csatlakozhat a közösséghez.
 
-### 5. kérdés: Hogyan kaphatok támogatást vagy kérhetek segítséget az Aspose.CAD-hez?
+---
 
-A5: Látogassa meg a[Aspose.CAD fórum](https://forum.aspose.com/c/cad/19) segítséget kapni és kapcsolatba lépni a közösséggel.
+**Utolsó frissítés:** 2025-12-28  
+**Tesztelve:** Aspose.CAD for Java 24.12  
+**Szerző:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
