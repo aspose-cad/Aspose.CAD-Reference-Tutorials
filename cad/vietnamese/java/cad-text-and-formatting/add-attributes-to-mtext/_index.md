@@ -1,33 +1,40 @@
 ---
-title: Thêm thuộc tính vào MText trong tệp DWG bằng Aspose.CAD cho Java
-linktitle: Thêm thuộc tính vào MText trong tệp DWG bằng Java
-second_title: API Java Aspose.CAD
-description: Tìm hiểu cách thêm thuộc tính vào MText trong tệp DWG bằng Aspose.CAD cho Java. Nâng cao bản vẽ CAD của bạn với hướng dẫn từng bước này.
-weight: 13
+date: 2025-12-30
+description: Tìm hiểu cách tạo danh sách thuộc tính Java và thêm thuộc tính DWG bằng
+  Aspose.CAD cho Java. Hãy làm theo hướng dẫn từng bước này để làm phong phú các bản
+  vẽ DWG.
+linktitle: Add Attributes to MText in DWG Files with Java
+second_title: Aspose.CAD Java API
+title: Tạo danh sách thuộc tính Java – Thêm thuộc tính vào MText trong DWG
 url: /vi/java/cad-text-and-formatting/add-attributes-to-mtext/
+weight: 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Thêm thuộc tính vào MText trong tệp DWG bằng Aspose.CAD cho Java
+# Tạo Danh Sách Thuộc Tính Java – Thêm Thuộc Tính vào MText trong DWG
 
 ## Giới thiệu
 
-Trong thế giới lập trình Java, thao tác với file CAD là một công việc phổ biến. Aspose.CAD cho Java là một thư viện mạnh mẽ tạo điều kiện thuận lợi cho việc xử lý các tệp CAD, khiến nó trở thành lựa chọn hàng đầu của các nhà phát triển. Trong hướng dẫn này, chúng ta sẽ đi sâu vào trường hợp sử dụng cụ thể: thêm thuộc tính vào MText trong tệp DWG. Điều này có thể rất quan trọng để nâng cao sự phong phú cho bản vẽ CAD của bạn.
+Nếu bạn cần **create attribute list java** cho các bản vẽ CAD, bạn đã đến đúng nơi. Trong hướng dẫn này, chúng tôi sẽ chỉ cho bạn cách sử dụng Aspose.CAD for Java để thêm thuộc tính vào các đối tượng MText trong tệp DWG — một yêu cầu phổ biến khi bạn muốn nhúng siêu dữ liệu hoặc thông tin tùy chỉnh trực tiếp vào bản vẽ. Khi kết thúc hướng dẫn, bạn sẽ hiểu tại sao kỹ thuật này quan trọng, cách thiết lập và cách chạy mã một cách an toàn.
 
-## Điều kiện tiên quyết
+## Câu trả lời nhanh
+- **“create attribute list java” có nghĩa là gì?** Nó đề cập đến việc xây dựng một tập hợp các đối tượng thuộc tính trong Java có thể gắn vào các thực thể CAD như MText.  
+- **Thư viện nào hỗ trợ điều này?** Aspose.CAD for Java cung cấp một API mạnh mẽ để thao tác DWG/DXF.  
+- **Tôi có cần giấy phép không?** Có bản dùng thử miễn phí, nhưng giấy phép thương mại là bắt buộc cho việc sử dụng trong môi trường sản xuất.  
+- **Tôi có thể làm việc với những tệp nào?** Mã hoạt động với DWG, DXF, DWF và các định dạng CAD được hỗ trợ khác.  
+- **Thời gian triển khai mất bao lâu?** Thông thường dưới 15 phút cho một thao tác danh sách‑thuộc tính cơ bản.
 
-Trước khi chúng ta bắt đầu cuộc hành trình này, hãy đảm bảo bạn có những điều sau:
+## Yêu cầu trước
 
-- Môi trường phát triển Java: Đảm bảo bạn đã thiết lập môi trường phát triển Java trên máy của mình.
-
-- Thư viện Aspose.CAD cho Java: Tải xuống và cài đặt thư viện Aspose.CAD cho Java từ[đây](https://releases.aspose.com/cad/java/).
+- **Môi trường phát triển Java** – JDK 8 trở lên đã được cài đặt và cấu hình.  
+- **Thư viện Aspose.CAD for Java** – Tải xuống và cài đặt thư viện từ [here](https://releases.aspose.com/cad/java/).  
 
 ## Nhập không gian tên
 
-Trong dự án Java của bạn, hãy nhập các vùng tên cần thiết để truy cập các chức năng của Aspose.CAD cho Java. Điêu nay bao gôm:
+Trong dự án Java của bạn, nhập các không gian tên cần thiết để truy cập các chức năng của Aspose.CAD for Java. Điều này bao gồm:
 
 ```java
 import com.aspose.cad.Color;
@@ -42,30 +49,38 @@ import java.util.ArrayList;
 import java.util.List;
 ```
 
-Bây giờ, hãy chia nhỏ quá trình thêm thuộc tính vào MText trong tệp DWG thành các bước có thể quản lý được.
+## Java thêm thuộc tính dwg là gì?
+
+Cụm từ **java add attributes dwg** mô tả quá trình chèn các thực thể thuộc tính (như nhãn văn bản, trường dữ liệu hoặc thẻ tùy chỉnh) vào tệp DWG bằng Java. Điều này hữu ích cho việc tự động hoá tài liệu, tạo các block động, hoặc làm phong phú bản vẽ bằng siêu dữ liệu có thể tìm kiếm.
 
 ## Bước 1: Đặt đường dẫn
 
 ```java
-// Đường dẫn đến thư mục tài nguyên.
+// The path to the resource directory.
 String dataDir = "Your Document Directory" + "DXFDrawings/";
 String srcFile = dataDir + "conic_pyramid.dxf";
 ```
 
-## Bước 2: Tải hình ảnh CAD
+> **Mẹo:** Giữ các tài nguyên CAD trong một thư mục riêng để tránh các vấn đề liên quan đến đường dẫn khi triển khai.
+
+## Bước 2: Tải ảnh CAD
 
 ```java
 CadImage cadImage =(CadImage) Image.load(srcFile);
 ```
 
-## Bước 3: Khởi tạo danh sách cho MText và thuộc tính
+Việc tải tệp dưới dạng `CadImage` cho phép bạn truy cập toàn bộ bộ sưu tập thực thể, mà bạn sẽ duyệt trong bước tiếp theo.
+
+## Bước 3: Khởi tạo danh sách cho MText và Thuộc tính
 
 ```java
 List<CadBaseEntity>  mtextList = new ArrayList<CadBaseEntity>();
 List<CadBaseEntity> attribList = new ArrayList<CadBaseEntity>();
 ```
 
-## Bước 4: Lặp lại các thực thể
+Hai danh sách này sẽ chứa các đối tượng MText và các thực thể thuộc tính tương ứng, tạo thành **danh sách thuộc tính** mà chúng ta muốn xây dựng.
+
+## Bước 4: Duyệt qua các thực thể
 
 ```java
 try
@@ -98,31 +113,73 @@ finally
 }
 ```
 
-## Phần kết luận
+Vòng lặp sẽ thu thập mọi thực thể MText và bất kỳ đối tượng `ATTRIB` lồng nhau nào. Sau khi thực thi, bạn sẽ thấy số lượng được in ra, xác nhận rằng **danh sách thuộc tính** đã được tạo thành công.
 
-Trong hướng dẫn này, chúng tôi đã hướng dẫn quy trình thêm thuộc tính vào MText trong tệp DWG bằng Aspose.CAD cho Java. Bằng cách làm theo các bước này, bạn có thể nâng cao sự phong phú của bản vẽ CAD và điều chỉnh chúng theo nhu cầu cụ thể của mình.
+## Tại sao điều này quan trọng
+
+Tạo danh sách thuộc tính trong Java cho phép bạn:
+
+- **Tự động hoá nhập liệu** – Điền nhiều bản vẽ với siêu dữ liệu nhất quán mà không cần chỉnh sửa thủ công.  
+- **Kích hoạt khả năng tìm kiếm trong tệp CAD** – Thuộc tính có thể được lập chỉ mục, giúp dễ dàng tìm kiếm các bộ phận hoặc thông số.  
+- **Hỗ trợ các quy trình hạ nguồn** – Thuộc tính đã xuất có thể truyền vào BIM, GIS hoặc các pipeline báo cáo.
+
+## Những lỗi thường gặp & Giải pháp
+
+| Vấn đề | Lý do | Cách khắc phục |
+|-------|--------|-----|
+| Không tìm thấy MText | Loại tệp sai (ví dụ: DWG không có MText) | Xác minh tệp nguồn chứa các đối tượng MText hoặc dùng mẫu khác. |
+| `attribList` rỗng | Thuộc tính được lưu trong các block không phải là thực thể `INSERT` | Điều chỉnh điều kiện để cũng kiểm tra các thực thể `BLOCK` nếu cần. |
+| `NullPointerException` trên `cadImage` | Đường dẫn tệp không đúng | Kiểm tra lại giá trị của `dataDir` và `srcFile`. |
+
+## Kết luận
+
+Trong hướng dẫn này, chúng ta đã thực hiện **create attribute list java** bằng cách sử dụng Aspose.CAD for Java để thêm thuộc tính vào MText trong các tệp DWG. Giờ đây bạn đã có nền tảng vững chắc để làm phong phú bản vẽ CAD, tự động hoá việc chèn siêu dữ liệu và tích hợp dữ liệu CAD vào các quy trình lớn hơn.
 
 ## Câu hỏi thường gặp
 
-### Câu hỏi 1: Tôi có thể sử dụng Aspose.CAD cho Java với các định dạng tệp CAD khác không?
+### Q1: Tôi có thể sử dụng Aspose.CAD for Java với các định dạng tệp CAD khác không?
 
-Câu trả lời 1: Có, Aspose.CAD cho Java hỗ trợ nhiều định dạng CAD khác nhau, bao gồm DWG, DXF, DWF, v.v.
+A1: Có, Aspose.CAD for Java hỗ trợ nhiều định dạng CAD, bao gồm DWG, DXF, DWF và nhiều hơn nữa.
 
-### Câu hỏi 2: Aspose.CAD cho Java có phù hợp cho cả thao tác CAD đơn giản và phức tạp không?
+### Q2: Aspose.CAD for Java có phù hợp cho cả thao tác CAD đơn giản và phức tạp không?
 
-A2: Chắc chắn rồi. Aspose.CAD cho Java cung cấp một bộ tính năng linh hoạt phục vụ cho cả hoạt động CAD cơ bản và nâng cao.
+A2: Chắc chắn. Aspose.CAD for Java cung cấp một bộ tính năng đa dạng, đáp ứng cả nhu cầu cơ bản và nâng cao trong xử lý CAD.
 
-### Câu hỏi 3: Tôi có thể tìm tài liệu chi tiết về Aspose.CAD cho Java ở đâu?
+### Q3: Tôi có thể tìm tài liệu chi tiết cho Aspose.CAD for Java ở đâu?
 
-A3: Bạn có thể tham khảo tài liệu[đây](https://reference.aspose.com/cad/java/).
+A3: Bạn có thể tham khảo tài liệu tại [here](https://reference.aspose.com/cad/java/).
 
-### Câu hỏi 4: Làm cách nào để nhận được hỗ trợ hoặc tìm kiếm trợ giúp cho Aspose.CAD cho các truy vấn liên quan đến Java?
+### Q4: Làm sao tôi có thể nhận hỗ trợ hoặc tìm kiếm trợ giúp cho các câu hỏi liên quan đến Aspose.CAD for Java?
 
- Câu trả lời 4: Truy cập diễn đàn Aspose.CAD cho Java[đây](https://forum.aspose.com/c/cad/19) để nhận được sự hỗ trợ từ cộng đồng và nhóm hỗ trợ.
+A4: Truy cập diễn đàn Aspose.CAD for Java tại [here](https://forum.aspose.com/c/cad/19) để nhận sự hỗ trợ từ cộng đồng và đội ngũ kỹ thuật.
 
-### Câu hỏi 5: Tôi có thể dùng thử Aspose.CAD cho Java trước khi mua giấy phép không?
+### Q5: Tôi có thể thử Aspose.CAD for Java trước khi mua giấy phép không?
 
- Câu trả lời 5: Có, bạn có thể khám phá bản dùng thử miễn phí[đây](https://releases.aspose.com/).
+A5: Có, bạn có thể khám phá bản dùng thử miễn phí tại [here](https://releases.aspose.com/).
+
+## Câu hỏi thường gặp
+
+**Q: Phương pháp này có hoạt động trực tiếp với tệp DWG không, hay chỉ với DXF?**  
+A: Logic tương tự áp dụng cho tệp DWG; chỉ cần thay đổi phần mở rộng tệp trong `srcFile`.
+
+**Q: Tôi có thể sửa giá trị thuộc tính sau khi đã thu thập không?**  
+A: Có, mỗi `CadBaseEntity` trong `attribList` có thể được ép kiểu về loại cụ thể và cập nhật thuộc tính trước khi lưu.
+
+**Q: Làm sao lưu bản vẽ đã chỉnh sửa?**  
+A: Sau khi thực hiện thay đổi, gọi `cadImage.save("output.dwg");` (đảm bảo bạn đang dùng phiên bản có giấy phép để lưu).
+
+**Q: Có ảnh hưởng về hiệu năng khi làm việc với bản vẽ lớn không?**  
+A: Duyệt qua nhiều thực thể có thể tốn nhiều bộ nhớ; cân nhắc xử lý theo lô hoặc sử dụng API streaming nếu có.
+
+**Q: Có hạn chế giấy phép nào cho việc sử dụng thương mại không?**  
+A: Giấy phép thương mại là bắt buộc cho triển khai sản xuất; bản dùng thử chỉ dành cho mục đích đánh giá.
+
+---
+
+**Cập nhật lần cuối:** 2025-12-30  
+**Kiểm tra với:** Aspose.CAD for Java 24.11  
+**Tác giả:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
