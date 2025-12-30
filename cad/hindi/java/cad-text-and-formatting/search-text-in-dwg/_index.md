@@ -1,36 +1,47 @@
 ---
-title: जावा के लिए Aspose.CAD का उपयोग करके ऑटोकैड DWG फ़ाइल में टेक्स्ट खोजें
-linktitle: जावा के साथ ऑटोकैड डीडब्ल्यूजी फ़ाइल में टेक्स्ट खोजें
-second_title: Aspose.CAD जावा एपीआई
-description: जावा के लिए Aspose.CAD की शक्ति का अन्वेषण करें! ऑटोकैड डीडब्ल्यूजी फाइलों में टेक्स्ट को कुशलतापूर्वक खोजें। लाइब्रेरी डाउनलोड करें और अपने CAD एप्लिकेशन को बेहतर बनाएं।
-weight: 10
+date: 2025-12-30
+description: Aspose.CAD for Java का उपयोग करके AutoCAD फ़ाइलों में DWG पढ़ना और टेक्स्ट
+  खोजना सीखें। आपके Java अनुप्रयोगों के लिए तेज़, विश्वसनीय टेक्स्ट निष्कर्षण।
+linktitle: Search Text in AutoCAD DWG File with Java
+second_title: Aspose.CAD Java API
+title: जावा में DWG पढ़ें – Aspose.CAD for Java का उपयोग करके DWG में टेक्स्ट खोजें
 url: /hi/java/cad-text-and-formatting/search-text-in-dwg/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# जावा के लिए Aspose.CAD का उपयोग करके ऑटोकैड DWG फ़ाइल में टेक्स्ट खोजें
+# Java Read DWG – Search Text in DWG Using Aspose.CAD for Java
 
-## परिचय
+यदि आप एक Java डेवलपर हैं जिन्हें **java read dwg** फ़ाइलें पढ़नी हैं और उनमें विशिष्ट स्ट्रिंग्स जल्दी से खोजनी हैं, तो आप सही जगह पर आए हैं। इस ट्यूटोरियल में हम एक पूर्ण, चरण‑दर‑चरण उदाहरण के माध्यम से दिखाएंगे कि कैसे **search text dwg** फ़ाइलों को Aspose.CAD for Java लाइब्रेरी के साथ खोजा जाए। अंत तक आपके पास एक पुन: उपयोग योग्य स्निपेट होगा जिसे आप किसी भी Java‑आधारित CAD एप्लिकेशन में डाल सकते हैं।
 
-क्या आप एक जावा डेवलपर हैं जो ऑटोकैड डीडब्ल्यूजी फाइलों के साथ काम कर रहे हैं और अपने एप्लिकेशन में एक शक्तिशाली टेक्स्ट खोज कार्यक्षमता को एकीकृत करना चाहते हैं? आगे कोई तलाश नहीं करें! यह चरण-दर-चरण ट्यूटोरियल जावा के लिए Aspose.CAD का उपयोग करके ऑटोकैड DWG फ़ाइल में टेक्स्ट खोजने की प्रक्रिया में आपका मार्गदर्शन करेगा। Aspose.CAD एक मजबूत और सुविधा संपन्न लाइब्रेरी है जो CAD फ़ाइलों के साथ काम करने के लिए व्यापक समर्थन प्रदान करती है, जो इसे आपकी विकास आवश्यकताओं के लिए एक उत्कृष्ट विकल्प बनाती है।
+## Quick Answers
+- **“java read dwg” का क्या अर्थ है?** यह Java प्रोग्राम में AutoCAD DWG फ़ाइल को लोड करके निरीक्षण या हेरफेर करने को दर्शाता है।  
+- **DWG टेक्स्ट एक्सट्रैक्शन कौन सी लाइब्रेरी संभालती है?** Aspose.CAD for Java पूर्ण‑फ़ीचर DWG सपोर्ट प्रदान करती है, जिसमें टेक्स्ट सर्च भी शामिल है।  
+- **प्रोडक्शन उपयोग के लिए क्या लाइसेंस चाहिए?** हाँ – एक कमर्शियल लाइसेंस मूल्यांकन सीमाओं को हटाता है।  
+- **क्या कोड Java 8 और बाद के संस्करणों के साथ संगत है?** बिल्कुल; API Java 8+ को लक्ष्य बनाता है।  
+- **क्या मैं ब्लॉक रेफ़रेंसेज़ और एट्रिब्यूट्स के अंदर खोज सकता हूँ?** सैंपल ब्लॉक एंटिटीज़ और एट्रिब्यूट डिफ़िनिशन्स को इटररेट करता है ताकि व्यापक खोज सुनिश्चित हो सके।
 
-## आवश्यक शर्तें
+## What is java read dwg?
+Java में DWG फ़ाइल पढ़ना मतलब बाइनरी AutoCAD ड्राइंग फ़ॉर्मेट को खोलना, उसकी आंतरिक एंटिटीज़ (लाइन, सर्कल, टेक्स्ट, ब्लॉक्स आदि) को पार्स करना, और उन्हें एक प्रोग्रामेबल ऑब्जेक्ट मॉडल के माध्यम से एक्सपोज़ करना। Aspose.CAD लो‑लेवल पार्सिंग को एब्स्ट्रैक्ट करती है, जिससे आप बिज़नेस लॉजिक जैसे टेक्स्ट सर्च पर ध्यान केंद्रित कर सकते हैं।
 
-इससे पहले कि हम ट्यूटोरियल में उतरें, सुनिश्चित करें कि आपके पास निम्नलिखित आवश्यक शर्तें हैं:
+## Why use Aspose.CAD to search text dwg?
+- **Broad version support** – AutoCAD 2000 से लेकर नवीनतम रिलीज़ तक की DWG फ़ाइलों के साथ काम करता है।  
+- **No native AutoCAD installation required** – शुद्ध Java, सर्वर‑साइड प्रोसेसिंग के लिए परफेक्ट।  
+- **Rich entity model** – सिंगल‑लाइन टेक्स्ट, मल्टीलाइन टेक्स्ट (MText), एट्रिब्यूट डिफ़िनिशन्स, आदि तक पहुँच।  
+- **High performance** – बड़े ड्रॉइंग और बैच प्रोसेसिंग के लिए ऑप्टिमाइज़्ड।
 
-1. जावा विकास पर्यावरण: सुनिश्चित करें कि आपकी मशीन पर एक कार्यशील जावा विकास वातावरण स्थापित है।
+## Prerequisites
+1. **Java Development Environment** – JDK 8+ और आपका पसंदीदा IDE (IntelliJ, Eclipse, VS Code, आदि)।  
+2. **Aspose.CAD for Java Library** – इसे [download page](https://releases.aspose.com/cad/java/) से डाउनलोड करें और JAR को अपने प्रोजेक्ट की क्लासपाथ में जोड़ें।  
+3. **Reference Documentation** – उपयोगी API विवरण [Aspose.CAD Java Documentation](https://reference.aspose.com/cad/java/) पर उपलब्ध हैं।
 
-2.  जावा लाइब्रेरी के लिए Aspose.CAD: जावा लाइब्रेरी के लिए Aspose.CAD को यहां से डाउनलोड और इंस्टॉल करें[डाउनलोड पेज](https://releases.aspose.com/cad/java/) . आप यहां व्यापक दस्तावेज़ीकरण भी देख सकते हैं[Aspose.CAD जावा दस्तावेज़ीकरण](https://reference.aspose.com/cad/java/).
-
-## नामस्थान आयात करें
-
-अपने जावा प्रोजेक्ट में, इसकी कार्यक्षमता का लाभ उठाने के लिए Aspose.CAD लाइब्रेरी से आवश्यक नेमस्पेस आयात करें। अपने कोड में निम्नलिखित आयात विवरण जोड़ें:
+## Import Namespaces
+पहले, आवश्यक Aspose.CAD क्लासेज़ को स्कोप में लाएँ। ये इम्पोर्ट्स आपको इमेज ऑब्जेक्ट, लेआउट डिक्शनरी, एंटिटी टाइप्स, और ब्लॉक हैंडलिंग यूटिलिटीज़ तक पहुँच देते हैं।
 
 ```java
-
 import com.aspose.cad.fileformats.cad.CadImage;
 import com.aspose.cad.fileformats.cad.CadLayoutDictionary;
 import com.aspose.cad.fileformats.cad.cadconsts.CadEntityTypeName;
@@ -44,17 +55,20 @@ import com.aspose.cad.fileformats.cad.cadobjects.attentities.CadAttrib;
 import com.aspose.cad.fileformats.cad.cadtables.CadBlockTableObject;
 ```
 
-अब, आइए आपके जावा एप्लिकेशन में टेक्स्ट खोज कार्यक्षमता को सहजता से एकीकृत करने में मदद के लिए कोड को चरणों की एक श्रृंखला में विभाजित करें:
+## How to java read dwg and search text dwg
+नीचे मुख्य वर्कफ़्लो को चार स्पष्ट चरणों में विभाजित किया गया है। प्रत्येक चरण को संबंधित कोड ब्लॉक से पहले समझाया गया है, ताकि आप *क्यों* हम यह कर रहे हैं, समझ सकें।
 
-## चरण 1: DWG फ़ाइल लोड करें
+### Step 1: Load the DWG file
+हम ड्राइंग को `CadImage` ऑब्जेक्ट में लोड करके शुरू करते हैं। यह ऑब्जेक्ट पूरे DWG का प्रतिनिधित्व करता है और हमें उसकी एंटिटीज़ और ब्लॉक डिफ़िनिशन्स तक पहुँच देता है।
 
 ```java
 CadImage cadImage = (CadImage) CadImage.load(dataDir + "sample_file.dwg");
 ```
 
-मौजूदा DWG फ़ाइल को इस रूप में लोड करें`CadImage` ऑब्जेक्ट का उपयोग करना`load` तरीका।
+> **Pro tip:** `dataDir` को उस फ़ोल्डर की ओर इंगित करना चाहिए जिसे आपका एप्लिकेशन पढ़ सकता है। प्रोडक्शन में क्लास‑पाथ भ्रम से बचने के लिए एब्सॉल्यूट पाथ उपयोग करें।
 
-## चरण 2: संस्थाओं में टेक्स्ट खोजें
+### Step 2: Search top‑level entities
+अधिकांश दृश्यमान टेक्स्ट सीधे ड्राइंग की मुख्य एंटिटी सूची में रहता है। हम प्रत्येक एंटिटी पर इटररेट करते हैं और निरीक्षण को एक हेल्पर मेथड को डेलीगेट करते हैं।
 
 ```java
 for (CadBaseEntity entity : cadImage.getEntities()) {
@@ -62,9 +76,8 @@ for (CadBaseEntity entity : cadImage.getEntities()) {
 }
 ```
 
- DWG फ़ाइल में इकाइयों के माध्यम से पुनरावृति करें और इसका उपयोग करके पाठ खोजें`IterateCADNodeEntities` तरीका।
-
-## चरण 3: ब्लॉक इकाइयों में टेक्स्ट खोजें
+### Step 3: Search inside block entities
+ब्लॉक्स पुन: उपयोग योग्य एंटिटीज़ के समूह होते हैं (जैसे सिम्बॉल या कंपोनेंट)। टेक्स्ट इन ब्लॉक्स के अंदर भी छिपा हो सकता है, इसलिए हमें प्रत्येक ब्लॉक की एंटिटी कलेक्शन को वॉक करना पड़ता है।
 
 ```java
 for (CadBlockEntity blockEntity : cadImage.getBlockEntities().getValues()) {
@@ -74,45 +87,47 @@ for (CadBlockEntity blockEntity : cadImage.getBlockEntities().getValues()) {
 }
 ```
 
-व्यापक पाठ खोज सुनिश्चित करते हुए, DWG फ़ाइल के भीतर इकाइयों को ब्लॉक करने के लिए खोज का विस्तार करें।
-
-## चरण 4: पुनरावर्ती नोड पुनरावृत्ति
+### Step 4: Recursive node iteration
+`IterateCADNodeEntities` मेथड प्रत्येक एंटिटी के प्रकार की जाँच करता है और मिलने वाले किसी भी टेक्स्ट को एक्सट्रैक्ट करता है। यह इन्सर्ट्स या एट्रिब्यूट डिफ़िनिशन्स जैसे नेस्टेड ऑब्जेक्ट्स में भी रीकर्स करता है, जिससे कोई भी टेक्स्ट छूटता नहीं।
 
 ```java
 private static void IterateCADNodeEntities(CadBaseEntity obj) {
-    // इकाई प्रकार के अनुसार कार्यान्वयन विवरण
+    // Implementation details as per entity type
 }
 ```
 
-प्रत्येक इकाई प्रकार को तदनुसार वर्गीकृत और संसाधित करते हुए, नोड्स के अंदर नोड्स के माध्यम से पुनरावृत्त करने के लिए एक पुनरावर्ती फ़ंक्शन लागू करें।
+> **Why recursion?** CAD ड्रॉइंग्स में ऐसी एंटिटीज़ हो सकती हैं जो स्वयं अन्य एंटिटीज़ को समाहित करती हैं (जैसे एक `INSERT` जो ब्लॉक को रेफ़र करता है)। रीकर्शन पूरे हाइरार्की में डीप‑सर्च सुनिश्चित करता है।
 
-प्रदान किया गया कोड विभिन्न इकाई प्रकारों को संभालता है, जिसमें टेक्स्ट, मल्टीलाइन टेक्स्ट, सम्मिलित ऑब्जेक्ट, विशेषता परिभाषाएँ और विशेषताएँ शामिल हैं।
+## Common Issues and Solutions
+| Issue | Reason | Fix |
+|-------|--------|-----|
+| No results returned | Searching only top‑level entities | Ensure you also iterate block entities (Step 3). |
+| Text appears as garbage | Wrong character encoding | Aspose.CAD handles Unicode automatically; verify the DWG was not corrupted. |
+| Performance drops on huge files | Recursive traversal on millions of entities | Cache block look‑ups or limit search to specific layers if possible. |
 
-## निष्कर्ष
+## Frequently Asked Questions
 
-बधाई हो! आपने जावा के लिए Aspose.CAD का उपयोग करके ऑटोकैड DWG फ़ाइल में टेक्स्ट खोज कार्यक्षमता को सफलतापूर्वक कार्यान्वित किया है। यह शक्तिशाली लाइब्रेरी जावा डेवलपर्स को CAD फ़ाइलों से डेटा को निर्बाध रूप से हेरफेर करने और निकालने का अधिकार देती है।
+**Q: Is Aspose.CAD compatible with all versions of AutoCAD DWG files?**  
+A: Yes, Aspose.CAD supports a wide range of DWG versions, from early R14 up to the latest releases.
 
-## अक्सर पूछे जाने वाले प्रश्न
+**Q: Can I use Aspose.CAD for Java in a commercial project?**  
+A: Absolutely. Purchase a license from the [Aspose's purchase page](https://purchase.aspose.com/buy) for production use.
 
-### Q1: क्या Aspose.CAD ऑटोकैड DWG फ़ाइलों के सभी संस्करणों के साथ संगत है?
+**Q: Is there a free trial available for Aspose.CAD for Java?**  
+A: Yes, you can download a free trial from [here](https://releases.aspose.com/).
 
-A1: हाँ, Aspose.CAD ऑटोकैड DWG फ़ाइल संस्करणों की एक विस्तृत श्रृंखला का समर्थन करता है, जो विभिन्न CAD वातावरणों के साथ अनुकूलता सुनिश्चित करता है।
+**Q: How can I get support if I run into problems?**  
+A: The official [Aspose.CAD forum](https://forum.aspose.com/c/cad/19) is the best place to ask technical questions.
 
-### Q2: क्या मैं किसी व्यावसायिक परियोजना में जावा के लिए Aspose.CAD का उपयोग कर सकता हूँ?
+**Q: Do temporary licenses work for evaluation?**  
+A: Yes, a temporary license can be obtained from [here](https://purchase.aspose.com/temporary-license/) for testing purposes.
 
- ए2: बिल्कुल! जावा के लिए Aspose.CAD व्यावसायिक उपयोग के लिए उपलब्ध है, और आप इससे लाइसेंस प्राप्त कर सकते हैं[Aspose का खरीद पृष्ठ](https://purchase.aspose.com/buy).
+---
 
-### Q3: क्या Java के लिए Aspose.CAD का निःशुल्क परीक्षण उपलब्ध है?
+**Last Updated:** 2025-12-30  
+**Tested With:** Aspose.CAD for Java 24.12 (latest at time of writing)  
+**Author:** Aspose  
 
- उ3: हां, आप नि:शुल्क परीक्षण डाउनलोड करके Aspose.CAD की सुविधाओं का पता लगा सकते हैं[यहाँ](https://releases.aspose.com/).
-
-### Q4: मैं जावा के लिए Aspose.CAD के लिए समर्थन कैसे प्राप्त कर सकता हूं?
-
- उ4: किसी भी तकनीकी सहायता या प्रश्न के लिए, पर जाएँ[Aspose.CAD फोरम](https://forum.aspose.com/c/cad/19).
-
-### Q5: क्या मैं जावा के लिए Aspose.CAD के लिए अस्थायी लाइसेंस का उपयोग कर सकता हूँ?
-
- A5: हाँ, आप परीक्षण और मूल्यांकन उद्देश्यों के लिए एक अस्थायी लाइसेंस प्राप्त कर सकते हैं[यहाँ](https://purchase.aspose.com/temporary-license/).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

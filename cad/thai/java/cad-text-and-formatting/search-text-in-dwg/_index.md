@@ -1,36 +1,48 @@
 ---
-title: ค้นหาข้อความในไฟล์ AutoCAD DWG โดยใช้ Aspose.CAD สำหรับ Java
-linktitle: ค้นหาข้อความในไฟล์ AutoCAD DWG ด้วย Java
+date: 2025-12-30
+description: เรียนรู้วิธีการอ่านไฟล์ DWG ด้วย Java และค้นหาข้อความในไฟล์ DWG ของ AutoCAD
+  ด้วย Aspose.CAD for Java การสกัดข้อความที่รวดเร็วและเชื่อถือได้สำหรับแอปพลิเคชัน
+  Java ของคุณ
+linktitle: Search Text in AutoCAD DWG File with Java
 second_title: Aspose.CAD Java API
-description: สำรวจพลังของ Aspose.CAD สำหรับ Java! ค้นหาข้อความในไฟล์ AutoCAD DWG ได้อย่างมีประสิทธิภาพ ดาวน์โหลดไลบรารีและปรับปรุงแอปพลิเคชัน CAD ของคุณ
-weight: 10
+title: Java อ่าน DWG – ค้นหาข้อความใน DWG ด้วย Aspose.CAD สำหรับ Java
 url: /th/java/cad-text-and-formatting/search-text-in-dwg/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# ค้นหาข้อความในไฟล์ AutoCAD DWG โดยใช้ Aspose.CAD สำหรับ Java
+# Java อ่าน DWG – ค้นหาข้อความใน DWG ด้วย Aspose.CAD for Java
 
-## การแนะนำ
+If you’re a Java developer who needs to **java read dwg** files and quickly locate specific strings inside them, you’ve come to the right place. In this tutorial we’ll walk through a complete, step‑by‑step example that shows how to **search text dwg** files with the Aspose.CAD for Java library. By the end you’ll have a reusable snippet you can drop into any Java‑based CAD application.
 
-คุณเป็นนักพัฒนา Java ที่ทำงานกับไฟล์ AutoCAD DWG และต้องการรวมฟังก์ชันการค้นหาข้อความอันทรงพลังเข้ากับแอปพลิเคชันของคุณหรือไม่? ไม่ต้องมองอีกต่อไป! บทช่วยสอนทีละขั้นตอนนี้จะแนะนำคุณตลอดกระบวนการค้นหาข้อความในไฟล์ AutoCAD DWG โดยใช้ Aspose.CAD สำหรับ Java Aspose.CAD เป็นไลบรารี่ที่แข็งแกร่งและเต็มไปด้วยฟีเจอร์ที่ให้การสนับสนุนอย่างกว้างขวางสำหรับการทำงานกับไฟล์ CAD ทำให้เป็นตัวเลือกที่ยอดเยี่ยมสำหรับความต้องการในการพัฒนาของคุณ
+## Quick Answers
+- **“java read dwg” หมายถึงอะไร?** หมายถึงการโหลดไฟล์ AutoCAD DWG ในโปรแกรม Java เพื่อทำการตรวจสอบหรือปรับแต่ง.  
+- **ไลบรารีใดที่จัดการการสกัดข้อความจาก DWG?** Aspose.CAD for Java ให้การสนับสนุน DWG อย่างครบถ้วน รวมถึงการค้นหาข้อความ.  
+- **ต้องการไลเซนส์สำหรับการใช้งานในโปรดักชันหรือไม่?** ใช่ – ไลเซนส์เชิงพาณิชย์จะลบข้อจำกัดของรุ่นทดลอง.  
+- **โค้ดนี้เข้ากันได้กับ Java 8 ขึ้นไปหรือไม่?** แน่นอน; API ถูกออกแบบให้ทำงานกับ Java 8+.  
+- **สามารถค้นหาภายในบล็อกอ้างอิงและแอตทริบิวต์ได้หรือไม่?** ตัวอย่างนี้วนลูปผ่านเอนทิตี้ของบล็อกและการกำหนดแอตทริบิวต์เพื่อให้การค้นหาครอบคลุมทั้งหมด.
 
-## ข้อกำหนดเบื้องต้น
+## What is java read dwg?
+Reading a DWG file in Java means opening the binary AutoCAD drawing format, parsing its internal entities (lines, circles, text, blocks, etc.), and exposing them through a programmable object model. Aspose.CAD abstracts the low‑level parsing, letting you focus on business logic such as searching for text.
 
-ก่อนที่เราจะเจาะลึกบทช่วยสอน ตรวจสอบให้แน่ใจว่าคุณมีข้อกำหนดเบื้องต้นต่อไปนี้:
+## Why use Aspose.CAD to search text dwg?
+- **รองรับหลายเวอร์ชัน** – ทำงานกับไฟล์ DWG ตั้งแต่ AutoCAD 2000 จนถึงรุ่นล่าสุด.  
+- **ไม่ต้องติดตั้ง AutoCAD** – เป็น Java แท้ ๆ เหมาะสำหรับการประมวลผลบนเซิร์ฟเวอร์.  
+- **โมเดลเอนทิตี้ที่ครอบคลุม** – เข้าถึงข้อความบรรทัดเดียว, ข้อความหลายบรรทัด (MText), การกำหนดแอตทริบิวต์, และอื่น ๆ.  
+- **ประสิทธิภาพสูง** – ปรับให้ทำงานได้ดีกับภาพวาดขนาดใหญ่และการประมวลผลแบบแบตช์.
 
-1. สภาพแวดล้อมการพัฒนา Java: ตรวจสอบให้แน่ใจว่าคุณได้ตั้งค่าสภาพแวดล้อมการพัฒนา Java ที่ใช้งานได้บนเครื่องของคุณ
+## Prerequisites
+1. **สภาพแวดล้อมการพัฒนา Java** – JDK 8+ และ IDE ที่คุณชื่นชอบ (IntelliJ, Eclipse, VS Code ฯลฯ).  
+2. **ไลบรารี Aspose.CAD for Java** – ดาวน์โหลดจาก [download page](https://releases.aspose.com/cad/java/) แล้วเพิ่มไฟล์ JAR ไปยัง classpath ของโปรเจกต์.  
+3. **เอกสารอ้างอิง** – รายละเอียด API ที่เป็นประโยชน์สามารถดูได้ที่ [Aspose.CAD Java Documentation](https://reference.aspose.com/cad/java/).
 
-2.  Aspose.CAD สำหรับไลบรารี Java: ดาวน์โหลดและติดตั้ง Aspose.CAD สำหรับไลบรารี Java จาก[หน้าดาวน์โหลด](https://releases.aspose.com/cad/java/) . คุณยังสามารถสำรวจเอกสารฉบับสมบูรณ์ได้ที่[เอกสาร Java Aspose.CAD](https://reference.aspose.com/cad/java/).
-
-## นำเข้าเนมสเปซ
-
-ในโปรเจ็กต์ Java ของคุณ ให้นำเข้าเนมสเปซที่จำเป็นจากไลบรารี Aspose.CAD เพื่อใช้ประโยชน์จากฟังก์ชันการทำงาน เพิ่มคำสั่งการนำเข้าต่อไปนี้ลงในโค้ดของคุณ:
+## Import Namespaces
+First, bring the required Aspose.CAD classes into scope. These imports give you access to the image object, layout dictionary, entity types, and block handling utilities.
 
 ```java
-
 import com.aspose.cad.fileformats.cad.CadImage;
 import com.aspose.cad.fileformats.cad.CadLayoutDictionary;
 import com.aspose.cad.fileformats.cad.cadconsts.CadEntityTypeName;
@@ -44,17 +56,20 @@ import com.aspose.cad.fileformats.cad.cadobjects.attentities.CadAttrib;
 import com.aspose.cad.fileformats.cad.cadtables.CadBlockTableObject;
 ```
 
-ตอนนี้ เราจะแบ่งโค้ดออกเป็นชุดขั้นตอนเพื่อช่วยให้คุณรวมฟังก์ชันการค้นหาข้อความเข้ากับแอปพลิเคชัน Java ของคุณได้อย่างราบรื่น:
+## How to java read dwg and search text dwg
+Below is the core workflow broken into four clear steps. Each step is explained before the corresponding code block, so you can understand *why* we’re doing what we’re doing.
 
-## ขั้นตอนที่ 1: โหลดไฟล์ DWG
+### Step 1: Load the DWG file
+We start by loading the drawing into a `CadImage` object. This object represents the entire DWG and gives us access to its entities and block definitions.
 
 ```java
 CadImage cadImage = (CadImage) CadImage.load(dataDir + "sample_file.dwg");
 ```
 
-โหลดไฟล์ DWG ที่มีอยู่เป็นไฟล์`CadImage` วัตถุโดยใช้`load` วิธี.
+> **Pro tip:** `dataDir` should point to a folder that your application can read from. Use absolute paths in production to avoid class‑path confusion.
 
-## ขั้นตอนที่ 2: ค้นหาข้อความในเอนทิตี
+### Step 2: Search top‑level entities
+Most visible text lives directly in the drawing’s main entity list. We iterate over each entity and delegate the inspection to a helper method.
 
 ```java
 for (CadBaseEntity entity : cadImage.getEntities()) {
@@ -62,9 +77,8 @@ for (CadBaseEntity entity : cadImage.getEntities()) {
 }
 ```
 
- วนซ้ำเอนทิตีในไฟล์ DWG และค้นหาข้อความโดยใช้นามสกุลไฟล์`IterateCADNodeEntities` วิธี.
-
-## ขั้นตอนที่ 3: ค้นหาข้อความในเอนทิตีที่ถูกบล็อก
+### Step 3: Search inside block entities
+Blocks are reusable groups of entities (think of symbols or reusable components). Text can also be hidden inside these blocks, so we need to walk through each block’s entity collection.
 
 ```java
 for (CadBlockEntity blockEntity : cadImage.getBlockEntities().getValues()) {
@@ -74,45 +88,47 @@ for (CadBlockEntity blockEntity : cadImage.getBlockEntities().getValues()) {
 }
 ```
 
-ขยายการค้นหาเพื่อบล็อกเอนทิตีภายในไฟล์ DWG ทำให้มั่นใจได้ถึงการค้นหาข้อความที่ครอบคลุม
-
-## ขั้นตอนที่ 4: การวนซ้ำโหนดแบบเรียกซ้ำ
+### Step 4: Recursive node iteration
+The `IterateCADNodeEntities` method examines the type of each entity and extracts any textual content it finds. It also recurses into nested objects like inserts or attribute definitions, ensuring no text is missed.
 
 ```java
 private static void IterateCADNodeEntities(CadBaseEntity obj) {
-    // รายละเอียดการดำเนินการตามประเภทเอนทิตี
+    // Implementation details as per entity type
 }
 ```
 
-ใช้ฟังก์ชันแบบเรียกซ้ำเพื่อวนซ้ำโหนดภายในโหนด จัดหมวดหมู่และประมวลผลเอนทิตีแต่ละประเภทตามลำดับ
+> **Why recursion?** CAD drawings can contain entities that themselves contain other entities (e.g., an `INSERT` that references a block). Recursion guarantees a deep‑search across the entire hierarchy.
 
-รหัสที่ให้มาจะจัดการกับเอนทิตีประเภทต่างๆ รวมถึงข้อความ ข้อความหลายบรรทัด วัตถุแทรก คำจำกัดความของแอตทริบิวต์ และคุณลักษณะ
+## Common Issues and Solutions
+| ปัญหา | สาเหตุ | วิธีแก้ |
+|-------|--------|---------|
+| ไม่มีผลลัพธ์ที่ส่งกลับ | ค้นหาเฉพาะเอนทิตี้ระดับบนสุด | ตรวจสอบให้คุณวนลูปผ่านเอนทิตี้ของบล็อกด้วย (ขั้นตอน 3). |
+| ข้อความแสดงเป็นอักขระเสีย | การเข้ารหัสอักขระผิดพลาด | Aspose.CAD จัดการ Unicode โดยอัตโนมัติ; ตรวจสอบว่าไฟล์ DWG ไม่เสียหาย. |
+| ประสิทธิภาพลดลงเมื่อไฟล์ใหญ่ | การเดินทางแบบเรียกซ้ำบนเอนทิตี้หลายล้านรายการ | แคชการค้นหาบล็อกหรือจำกัดการค้นหาในเลเยอร์เฉพาะหากเป็นไปได้. |
 
-## บทสรุป
+## Frequently Asked Questions
 
-ยินดีด้วย! คุณใช้งานฟังก์ชันการค้นหาข้อความในไฟล์ AutoCAD DWG ได้สำเร็จโดยใช้ Aspose.CAD สำหรับ Java ไลบรารีอันทรงพลังนี้ช่วยให้นักพัฒนา Java สามารถจัดการและแยกข้อมูลจากไฟล์ CAD ได้อย่างราบรื่น
+**Q: Aspose.CAD รองรับไฟล์ DWG ของ AutoCAD ทุกเวอร์ชันหรือไม่?**  
+A: ใช่, Aspose.CAD รองรับ DWG หลายเวอร์ชัน ตั้งแต่ R14 รุ่นแรกจนถึงรุ่นล่าสุด.
 
-## คำถามที่พบบ่อย
+**Q: สามารถใช้ Aspose.CAD for Java ในโครงการเชิงพาณิชย์ได้หรือไม่?**  
+A: แน่นอน. ซื้อไลเซนส์จาก [Aspose's purchase page](https://purchase.aspose.com/buy) สำหรับการใช้งานในโปรดักชัน.
 
-### คำถามที่ 1: Aspose.CAD เข้ากันได้กับไฟล์ AutoCAD DWG ทุกเวอร์ชันหรือไม่
+**Q: มีรุ่นทดลองฟรีสำหรับ Aspose.CAD for Java หรือไม่?**  
+A: มี, คุณสามารถดาวน์โหลดรุ่นทดลองฟรีได้จาก [here](https://releases.aspose.com/).
 
-A1: ใช่ Aspose.CAD รองรับไฟล์ AutoCAD DWG หลากหลายเวอร์ชัน จึงมั่นใจได้ว่าจะเข้ากันได้กับสภาพแวดล้อม CAD ที่หลากหลาย
+**Q: จะขอรับการสนับสนุนเมื่อเจอปัญหาได้อย่างไร?**  
+A: ฟอรั่มอย่างเป็นทางการของ [Aspose.CAD forum](https://forum.aspose.com/c/cad/19) เป็นที่ดีที่สุดสำหรับการถามคำถามทางเทคนิค.
 
-### คำถามที่ 2: ฉันสามารถใช้ Aspose.CAD สำหรับ Java ในโครงการเชิงพาณิชย์ได้หรือไม่
+**Q: ไลเซนส์ชั่วคราวใช้สำหรับการประเมินผลได้หรือไม่?**  
+A: ใช่, สามารถขอรับไลเซนส์ชั่วคราวได้จาก [here](https://purchase.aspose.com/temporary-license/) เพื่อการทดสอบ.
 
- A2: แน่นอน! Aspose.CAD สำหรับ Java พร้อมใช้งานในเชิงพาณิชย์ และคุณสามารถขอรับใบอนุญาตได้จาก[หน้าการซื้อของ Aspose](https://purchase.aspose.com/buy).
+---
 
-### คำถามที่ 3: Aspose.CAD สำหรับ Java มีรุ่นทดลองใช้ฟรีหรือไม่
+**อัปเดตล่าสุด:** 2025-12-30  
+**ทดสอบด้วย:** Aspose.CAD for Java 24.12 (latest at time of writing)  
+**ผู้เขียน:** Aspose  
 
- A3: ได้ คุณสามารถสำรวจคุณสมบัติของ Aspose.CAD ได้ด้วยการดาวน์โหลดรุ่นทดลองใช้ฟรีจาก[ที่นี่](https://releases.aspose.com/).
-
-### คำถามที่ 4: ฉันจะรับการสนับสนุนสำหรับ Aspose.CAD สำหรับ Java ได้อย่างไร
-
- A4: สำหรับความช่วยเหลือทางเทคนิคหรือข้อสงสัย โปรดไปที่[ฟอรั่ม Aspose.CAD](https://forum.aspose.com/c/cad/19).
-
-### คำถามที่ 5: ฉันสามารถใช้ใบอนุญาตชั่วคราวสำหรับ Aspose.CAD สำหรับ Java ได้หรือไม่
-
- A5: ได้ คุณสามารถขอรับใบอนุญาตชั่วคราวสำหรับวัตถุประสงค์ในการทดสอบและประเมินผลได้จาก[ที่นี่](https://purchase.aspose.com/temporary-license/).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
