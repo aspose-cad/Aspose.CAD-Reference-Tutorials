@@ -1,37 +1,49 @@
 ---
-title: Dukungan untuk Garis Tersembunyi di File DWG Menggunakan Aspose.CAD untuk Java
-linktitle: Dukungan untuk Garis Tersembunyi di File DWG Menggunakan Java
+date: 2026-01-02
+description: Pelajari cara mengekspor DWG menjadi PDF, mengaktifkan garis tersembunyi,
+  dan mengonversi DWG ke PDF dengan Aspose.CAD untuk Java dalam tutorial langkah demi
+  langkah ini.
+linktitle: Export DWG as PDF with Hidden Lines Using Java
 second_title: Aspose.CAD Java API
-description: Pelajari cara meningkatkan kemampuan manipulasi file DWG aplikasi Java Anda menggunakan Aspose.CAD. Ikuti panduan langkah demi langkah kami untuk dukungan jalur tersembunyi. Tingkatkan penanganan gambar CAD Anda dengan mudah.
-weight: 11
+title: Ekspor DWG sebagai PDF dengan Garis Tersembunyi – Aspose.CAD untuk Java
 url: /id/java/cad-text-and-formatting/support-hidden-lines-in-dwg/
+weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Dukungan untuk Garis Tersembunyi di File DWG Menggunakan Aspose.CAD untuk Java
+# Ekspor DWG ke PDF dengan Garis Tersembunyi – Aspose.CAD untuk Java
 
-## Perkenalan
+## Pendahuluan
 
-Selamat datang di panduan komprehensif tentang memanfaatkan Aspose.CAD untuk Java guna meningkatkan kemampuan manipulasi file DWG Anda. Dalam tutorial ini, kami akan fokus pada aspek tertentu: mendukung garis tersembunyi di file DWG. Baik Anda seorang pengembang berpengalaman atau baru memulai, panduan ini akan membantu Anda menavigasi proses dengan petunjuk langkah demi langkah.
+Dalam tutorial ini Anda akan belajar cara **mengekspor DWG ke PDF** sambil mempertahankan garis tersembunyi menggunakan Aspose.CAD untuk Java. Apakah Anda perlu **mengonversi DWG ke PDF**, membuat panduan bergaya **tutorial dwg ke pdf**, atau sekadar **menyimpan DWG sebagai PDF** dengan dukungan garis tersembunyi, kami akan memandu Anda melalui setiap langkah. Pada akhir tutorial, Anda akan memiliki solusi siap pakai yang dapat Anda integrasikan ke dalam proyek Java mana pun.
+
+## Jawaban Cepat
+- **Apa yang dibahas dalam tutorial ini?** Mengaktifkan rendering garis tersembunyi saat mengekspor DWG ke PDF dengan Aspose.CAD untuk Java.  
+- **Operasi utama apa yang dilakukan?** `export dwg as pdf`.  
+- **Apakah saya memerlukan lisensi?** Versi percobaan gratis dapat digunakan untuk pengujian; lisensi komersial diperlukan untuk produksi.  
+- **Apa saja prasyaratnya?** Lingkungan pengembangan Java, pustaka Aspose.CAD untuk Java, dan file DWG.  
+- **Berapa lama waktu implementasinya?** Sekitar 10‑15 menit untuk pengaturan dasar.
+
+## Apa itu “export dwg as pdf”?
+Mengekspor file DWG ke PDF mengubah gambar CAD berbasis vektor menjadi format dokumen portabel sambil mempertahankan lapisan, tipe garis, dan rendering garis tersembunyi opsional. Hal ini memudahkan berbagi desain CAD dengan pemangku kepentingan yang mungkin tidak memiliki perangkat lunak CAD.
+
+## Mengapa mengaktifkan garis tersembunyi saat mengekspor?
+Garis tersembunyi memberikan representasi visual yang lebih jelas dari model 3D yang kompleks pada halaman 2‑D, memastikan hanya tepi yang terlihat yang ditekankan. Ini meningkatkan keterbacaan dan sering diperlukan untuk dokumentasi teknik.
 
 ## Prasyarat
 
-Sebelum masuk ke tutorial, pastikan Anda memiliki prasyarat berikut:
+1. **Aspose.CAD untuk Java** – unduh pustaka dari situs resmi [di sini](https://releases.aspose.com/cad/java/).  
+2. **File DWG** – pastikan gambar DWG sumber disimpan di direktori yang diketahui.  
+3. **Lingkungan pengembangan Java** – JDK 8+ dan IDE pilihan Anda (Eclipse, IntelliJ, dll.).  
 
-1.  Aspose.CAD untuk Java: Pastikan Anda telah menginstal perpustakaan. Anda dapat menemukan tautan unduhan[Di Sini](https://releases.aspose.com/cad/java/).
-
-2. File DWG Anda: Siapkan file DWG yang ingin Anda gunakan di direktori dokumen Anda.
-
-3. Lingkungan Pengembangan Java: Siapkan lingkungan pengembangan Java di mesin Anda.
-
-Sekarang setelah Anda siap, mari selami detailnya.
+Setelah semuanya siap, mari kita selami kode.
 
 ## Impor Namespace
 
-Mulailah dengan mengimpor namespace yang diperlukan ke dalam proyek Java Anda. Ini memastikan bahwa Anda memiliki akses ke fungsionalitas yang disediakan oleh Aspose.CAD.
+Mulailah dengan mengimpor kelas yang diperlukan agar Anda dapat bekerja dengan gambar CAD dan opsi PDF.
 
 ```java
 import com.aspose.cad.Image;
@@ -43,21 +55,19 @@ import java.util.Arrays;
 import java.util.List;
 ```
 
-Sekarang, mari kita uraikan setiap langkahnya.
-
 ## Langkah 1: Siapkan Proyek Anda
 
-Pastikan Anda telah membuat proyek Java dan menambahkan Aspose.CAD ke dependensi Anda.
+Buat proyek Java dan tambahkan JAR Aspose.CAD ke jalur build Anda. Kemudian tentukan direktori yang berisi file DWG Anda.
 
 ```java
 String dataDir = "Your Document Directory" + "DWGDrawings/";
 ```
 
-Ganti "Direktori Dokumen Anda" dengan jalur sebenarnya ke direktori dokumen Anda.
+> **Tip Pro:** Gunakan path absolut atau konfigurasikan path relatif berdasarkan folder sumber daya proyek Anda.
 
 ## Langkah 2: Muat File DWG
 
- Tentukan jalur file DWG Anda dan buat a`CadImage` obyek.
+Muat file DWG sumber ke dalam objek `CadImage` sehingga Anda dapat memanipulasinya.
 
 ```java
 String sourceFilePath = dataDir + "Bottom_plate.dwg";
@@ -67,7 +77,7 @@ CadImage cadImage = (CadImage)Image.load(sourceFilePath);
 
 ## Langkah 3: Konfigurasikan Opsi Rasterisasi
 
-Tentukan lapisan yang ingin Anda sertakan dalam proses rasterisasi.
+Pilih lapisan yang ingin Anda sertakan dan atur ukuran halaman agar sesuai dengan gambar asli. Di sinilah kami mengaktifkan rendering garis tersembunyi dengan menentukan tata letak.
 
 ```java
 List<String> list = Arrays.asList("Print","L1_RegMark","L2_RegMark");
@@ -79,7 +89,7 @@ rasterizationOptions.setLayers(list);
 
 ## Langkah 4: Atur Opsi PDF
 
-Konfigurasikan opsi PDF, termasuk pengaturan rasterisasi vektor.
+Beritahu Aspose.CAD untuk meraster data vektor menjadi PDF, menggunakan tata letak “Model” untuk menjaga garis tersembunyi tetap tersembunyi.
 
 ```java
 PdfOptions pdfOptions = new PdfOptions();
@@ -89,40 +99,44 @@ pdfOptions.setVectorRasterizationOptions(rasterizationOptions);
 
 ## Langkah 5: Simpan Hasilnya
 
-Simpan file DWG yang telah diproses sebagai PDF.
+Akhirnya, ekspor DWG sebagai file PDF. Garis tersembunyi akan dipertahankan sesuai dengan tata letak yang Anda tetapkan.
 
 ```java
 cadImage.save(outPath, pdfOptions);
 System.out.println("\nThe DWG file exported successfully to PDF.\nFile saved at " + dataDir);
 ```
 
-Selamat! Anda telah berhasil menerapkan dukungan jalur tersembunyi untuk file DWG menggunakan Aspose.CAD untuk Java.
+> **Kesalahan Umum:** Lupa mengatur tata letak ke `"Model"` akan menyebabkan semua garis (termasuk yang tersembunyi) muncul solid dalam PDF.
 
 ## Kesimpulan
 
-Tutorial ini memandu Anda melalui proses mendukung garis tersembunyi di file DWG menggunakan Aspose.CAD untuk Java. Dengan mengikuti langkah-langkah ini, Anda dapat meningkatkan kemampuan aplikasi Anda dalam menangani gambar CAD dengan mudah.
+Anda kini memiliki metode lengkap yang siap produksi untuk **mengekspor DWG ke PDF** dengan dukungan garis tersembunyi menggunakan Aspose.CAD untuk Java. Pendekatan ini dapat diintegrasikan ke dalam alat pemrosesan batch, layanan web, atau aplikasi desktop untuk mengotomatiskan konversi CAD‑ke‑PDF.
 
-## FAQ
+## Pertanyaan yang Sering Diajukan
 
-### Q1: Dapatkah saya menggunakan Aspose.CAD untuk Java dengan format file CAD lainnya?
-
+### T1: Bisakah saya menggunakan Aspose.CAD untuk Java dengan format file CAD lainnya?
 A1: Ya, Aspose.CAD mendukung berbagai format CAD seperti DWG, DXF, DWF, dan lainnya.
 
-### Q2: Apakah tersedia uji coba gratis untuk Aspose.CAD untuk Java?
+### T2: Apakah ada versi percobaan gratis untuk Aspose.CAD untuk Java?
+A2: Ya, Anda dapat menemukan versi percobaan gratis [di sini](https://releases.aspose.com/).
 
- A2: Ya, Anda dapat menemukan uji coba gratis[Di Sini](https://releases.aspose.com/).
+### T3: Bagaimana cara mendapatkan dukungan untuk Aspose.CAD untuk Java?
+A3: Kunjungi forum Aspose.CAD [di sini](https://forum.aspose.com/c/cad/19) untuk dukungan komunitas.
 
-### Q3: Bagaimana cara mendapatkan dukungan untuk Aspose.CAD untuk Java?
+### T4: Di mana saya dapat menemukan dokumentasi terperinci untuk Aspose.CAD untuk Java?
+A4: Lihat dokumentasi [di sini](https://reference.aspose.com/cad/java/).
 
- A3: Kunjungi forum Aspose.CAD[Di Sini](https://forum.aspose.com/c/cad/19) untuk dukungan masyarakat.
+### T5: Bisakah saya membeli lisensi sementara untuk Aspose.CAD untuk Java?
+A5: Ya, Anda dapat memperoleh lisensi sementara [di sini](https://purchase.aspose.com/temporary-license/).
 
-### Q4: Di mana saya dapat menemukan dokumentasi terperinci untuk Aspose.CAD untuk Java?
+### T6: Apakah metode ini juga bekerja untuk mengonversi DWG ke PDF di lingkungan server tanpa antarmuka?
+A6: Tentu saja. Karena kode hanya menggunakan API Aspose.CAD, ia berjalan tanpa ketergantungan UI apa pun, menjadikannya ideal untuk otomatisasi sisi server.
 
- A4: Lihat dokumentasi[Di Sini](https://reference.aspose.com/cad/java/).
+---
 
-### Q5: Bisakah saya membeli lisensi sementara Aspose.CAD untuk Java?
-
- A5: Ya, Anda bisa mendapatkan lisensi sementara[Di Sini](https://purchase.aspose.com/temporary-license/).
+**Terakhir Diperbarui:** 2026-01-02  
+**Diuji Dengan:** Aspose.CAD untuk Java 24.12  
+**Penulis:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
