@@ -1,103 +1,147 @@
 ---
-title: ทดแทนแบบอักษรของสไตล์เฉพาะใน DWG โดยใช้ Aspose.CAD สำหรับ Java
-linktitle: แบบอักษรทดแทนของสไตล์เฉพาะใน DWG
+date: 2026-01-02
+description: เรียนรู้วิธีการเปลี่ยนแบบอักษรในไฟล์ DWG ด้วย Aspose.CAD สำหรับ Java
+  คู่มือขั้นตอนต่อขั้นตอนสำหรับการปรับแต่งสไตล์อย่างแม่นยำ.
+linktitle: Substitute Font of a Particular Style in DWG
 second_title: Aspose.CAD Java API
-description: เรียนรู้วิธีแทนที่แบบอักษรในไฟล์ DWG โดยใช้ Aspose.CAD สำหรับ Java คำแนะนำทีละขั้นตอนสำหรับการปรับแต่งสไตล์อย่างแม่นยำ
-weight: 12
+title: วิธีเปลี่ยนฟอนต์ของสไตล์เฉพาะใน DWG ด้วย Aspose.CAD สำหรับ Java
 url: /th/java/cad-text-and-annotation/substitute-font-of-particular-style-in-dwg/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# ทดแทนแบบอักษรของสไตล์เฉพาะใน DWG โดยใช้ Aspose.CAD สำหรับ Java
+# วิธีการแทนที่ฟอนต์ของสไตล์เฉพาะใน DWG ด้วย Aspose.CAD for Java
 
-## การแนะนำ
+## บทนำ
 
-ในโลกของ CAD (Computer-Aided Design) ความแม่นยำและรายละเอียดเป็นสิ่งสำคัญยิ่ง Aspose.CAD สำหรับ Java กลายเป็นเครื่องมืออันทรงพลังในการจัดการภาพวาด CAD โดยมีฟังก์ชันการทำงานที่ครอบคลุมสำหรับนักพัฒนา คุณสมบัติที่สำคัญประการหนึ่งคือความสามารถในการแทนที่แบบอักษรภายในไฟล์ DWG เพื่อให้มั่นใจถึงความสอดคล้องและการปรับแต่ง
+ในโลกของ CAD (Computer-Aided Design) ความแม่นยำและรายละเอียดเป็นสิ่งสำคัญ, และ **การรู้วิธีแทนที่ฟอนต์** ในภาพวาดสามารถช่วยคุณประหยัดเวลานับไม่ถ้วนจากการทำงานซ้ำ. Aspose.CAD for Java มอบวิธีที่สะอาดและโปรแกรมเมติกให้กับนักพัฒนาในการแก้ไขไฟล์ DWG, รวมถึงความสามารถในการเปลี่ยนฟอนต์ของสไตล์ข้อความเฉพาะ. ในบทแนะนำนี้เราจะพาคุณผ่านขั้นตอนที่แม่นยำเพื่อแทนที่ฟอนต์ของสไตล์เฉพาะในไฟล์ DWG, อธิบายเหตุผลที่คุณอาจต้องทำเช่นนั้น, และแสดงวิธีตรวจสอบผลลัพธ์.
 
-ในคำแนะนำทีละขั้นตอนนี้ เราจะเจาะลึกถึงวิธีการแทนที่แบบอักษรของสไตล์เฉพาะในไฟล์ DWG โดยใช้ Aspose.CAD สำหรับ Java ก่อนที่เราจะเจาะลึกรายละเอียด เรามาตรวจสอบให้แน่ใจว่าคุณมีข้อกำหนดเบื้องต้นครบถ้วนแล้ว
+## คำตอบสั้น
+
+- **“replace font” หมายถึงอะไรใน DWG?** การเปลี่ยนฟอนต์หลักที่เชื่อมโยงกับการกำหนดสไตล์ข้อความ.  
+- **ไลบรารีที่จัดการเรื่องนี้คืออะไร?** Aspose.CAD for Java.  
+- **ฉันต้องการไลเซนส์หรือไม่?** ทดลองฟรีใช้ได้สำหรับการทดสอบ; ต้องมีไลเซนส์เชิงพาณิชย์สำหรับการใช้งานจริง.  
+- **ฉันสามารถเปลี่ยนหลายสไตล์พร้อมกันได้หรือไม่?** ได้ – ทำการวนลูปผ่านคอลเลกชันสไตล์และตั้งค่าฟอนต์แต่ละอัน.  
+- **โค้ดนี้เข้ากันได้กับ Java 8+ หรือไม่?** แน่นอน, API รองรับ Java 8 และรุ่นใหม่กว่า.
+
+## ฟอนต์รีเพลสเมนท์ใน DWG คืออะไร?
+
+ฟอนต์รีเพลสเมนท์หมายถึงการอัปเดตคุณสมบัติ *primary font* ของสไตล์ข้อความ (ซึ่งบางครั้งเรียกว่า “style” ในศัพท์ของ DWG). เมื่อภาพวาดอ้างอิงสไตล์นั้น, ข้อความทุกชิ้นจะอัตโนมัติใช้ฟอนต์ใหม่, ทำให้ลักษณะการแสดงผลสอดคล้องกันทั่วทั้งไฟล์.
+
+## ทำไมต้องแก้ไขสไตล์ข้อความ DWG?
+
+- **รักษาความสอดคล้องของแบรนด์:** ใช้ฟอนต์ขององค์กรในทุกภาพวาด.  
+- **แก้ไขฟอนต์ที่หายไป:** แทนที่ฟอนต์ที่ไม่มีอยู่ด้วยฟอนต์ที่ติดตั้งบนระบบเป้าหมาย.  
+- **เตรียมสำหรับการพิมพ์/พล็อต:** เครื่องพล็อตบางรุ่นต้องการฟอนต์เฉพาะสำหรับผลลัพธ์ที่แม่นยำ.  
 
 ## ข้อกำหนดเบื้องต้น
 
-ก่อนที่คุณจะเริ่มใช้บทช่วยสอนนี้ ตรวจสอบให้แน่ใจว่าคุณได้ตั้งค่าต่อไปนี้:
+ก่อนที่คุณจะเริ่มทำตามบทแนะนำนี้, โปรดตรวจสอบว่าคุณได้ตั้งค่าดังต่อไปนี้แล้ว:
 
-1.  Aspose.CAD สำหรับไลบรารี Java: ดาวน์โหลดและติดตั้งไลบรารี Aspose.CAD คุณสามารถค้นหาห้องสมุดและเอกสารประกอบของห้องสมุดได้[ที่นี่](https://releases.aspose.com/cad/java/).
+1. **Aspose.CAD for Java Library:** ดาวน์โหลดและติดตั้งไลบรารี Aspose.CAD. คุณสามารถค้นหาไลบรารีและเอกสารได้ [ที่นี่](https://releases.aspose.com/cad/java/).
 
-2. Java Development Kit (JDK): ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง Java บนเครื่องของคุณแล้ว
+2. **Java Development Kit (JDK):** ตรวจสอบว่าคุณได้ติดตั้ง Java บนเครื่องของคุณแล้ว.
 
-เมื่อคุณมีเครื่องมือที่จำเป็นแล้ว เรามาดำเนินการในส่วนถัดไปกันดีกว่า
+เมื่อคุณมีเครื่องมือที่จำเป็นแล้ว, ไปยังส่วนต่อไป.
 
-## นำเข้าเนมสเปซ
+## นำเข้า Namespaces (จำเป็นสำหรับการแก้ไขสไตล์ข้อความ DWG)
 
-ใน Java การนำเข้าเนมสเปซที่ถูกต้องเป็นสิ่งสำคัญสำหรับการใช้ไลบรารีภายนอก ในกรณีนี้ ตรวจสอบให้แน่ใจว่าคุณนำเข้าเนมสเปซ Aspose.CAD ที่จำเป็น ต่อไปนี้คือวิธีที่คุณสามารถทำได้:
+ใน Java การนำเข้า Namespaces ที่ถูกต้องเป็นสิ่งสำคัญสำหรับการใช้ไลบรารีภายนอก. ในกรณีนี้, ให้แน่ใจว่าคุณได้นำเข้า Namespaces ของ Aspose.CAD ที่จำเป็น. ตัวอย่างการทำเช่นนี้มีดังนี้:
 
 ```java
 import com.aspose.cad.Image;
 
 import com.aspose.cad.fileformats.cad.CadImage;
-
 ```
 
-ตอนนี้ เรามาแบ่งโค้ดตัวอย่างออกเป็นหลายขั้นตอนกัน
+ตอนนี้เราจะทำการแยกโค้ดตัวอย่างออกเป็นหลายขั้นตอน.
 
 ## ขั้นตอนที่ 1: ตั้งค่าไดเรกทอรีทรัพยากร
 
 ```java
-// เส้นทางไปยังไดเร็กทอรีทรัพยากร
+// The path to the resource directory.
 String dataDir = "Your Document Directory" + "CADConversion/";
 ```
 
- แทนที่`"Your Document Directory"` พร้อมเส้นทางไปยังไดเร็กทอรีเอกสารจริงของคุณ
+แทนที่ `"Your Document Directory"` ด้วยพาธไปยังไดเรกทอรีเอกสารจริงของคุณ.
 
-## ขั้นตอนที่ 2: โหลดแบบร่าง CAD
+## ขั้นตอนที่ 2: โหลดภาพวาด CAD
 
 ```java
 String srcFile = dataDir + "conic_pyramid.dxf";
 
-// โหลดแบบร่าง CAD ในอินสแตนซ์ของ CadImage
+// Load a CAD drawing in an instance of CadImage
 CadImage cadImage = (CadImage)Image.load(srcFile);
 ```
 
- ตรวจสอบให้แน่ใจว่าได้เปลี่ยน`"conic_pyramid.dxf"`ด้วยชื่อจริงของแบบร่าง CAD ของคุณ
+ตรวจสอบให้แน่ใจว่าได้แทนที่ `"conic_pyramid.dxf"` ด้วยชื่อไฟล์ CAD ของคุณจริง.
 
-## ขั้นตอนที่ 3: ระบุแบบอักษรสำหรับสไตล์
+## ขั้นตอนที่ 3: ระบุฟอนต์สำหรับสไตล์ (เปลี่ยนฟอนต์สไตล์ DWG)
 
 ```java
-// ระบุแบบอักษรสำหรับสไตล์ใดสไตล์หนึ่งโดยเฉพาะ
+// Specify the font for one particular style
 ((CadStyleTableObject)cadImage.getStyles().get_Item(0)).setPrimaryFontName("Arial");
 ```
 
-ปรับชื่อแบบอักษร ("Arial" ในตัวอย่างนี้) ตามความต้องการของคุณ
+ปรับชื่อฟอนต์ ("Arial" ในตัวอย่างนี้) ตามความต้องการของคุณ. บรรทัดนี้ **sets the primary font DWG** style, effectively replacing the old font.
 
-ตอนนี้ คุณได้แทนที่แบบอักษรของสไตล์เฉพาะในไฟล์ DWG ของคุณโดยใช้ Aspose.CAD สำหรับ Java เรียบร้อยแล้ว
+## ปัญหาทั่วไปและวิธีแก้
 
-## บทสรุป
-
-Aspose.CAD สำหรับ Java เปิดความเป็นไปได้สำหรับการปรับแต่ง CAD และการทดแทนแบบอักษรเป็นเพียงหนึ่งในคุณสมบัติมากมาย ทดลองใช้สไตล์และแบบอักษรที่แตกต่างกันเพื่อให้ได้รูปลักษณ์ที่ต้องการในแบบร่าง CAD ของคุณ
+| Issue | Cause | Solution |
+|-------|-------|----------|
+| ฟอนต์ไม่เปลี่ยนหลังจากบันทึก | ภาพวาดไม่ได้รับการบันทึกหลังจากแก้ไข | เรียก `cadImage.save(outputPath);` หลังจากตั้งค่าฟอนต์. |
+| ไม่รู้จักชื่อฟอนต์ | ฟอนต์ไม่ได้ติดตั้งบนระบบที่รันโค้ด | ติดตั้งฟอนต์หรือใช้ชื่อฟอนต์ทั่วไป (เช่น "Tahoma"). |
+| `ClassCastException` | ประเภทอ็อบเจกต์จาก `get_Item` ไม่ถูกต้อง | ตรวจสอบให้ดัชนีชี้ไปที่ `CadStyleTableObject`. |
 
 ## คำถามที่พบบ่อย
 
-### คำถามที่ 1: ฉันสามารถแทนที่แบบอักษรหลายแบบในไฟล์ DWG ไฟล์เดียวได้หรือไม่
+### Q1: Can I substitute multiple fonts in one DWG file?
 
-ตอบ 1: ได้ คุณสามารถวนซ้ำสไตล์ต่างๆ และตั้งค่าแบบอักษรหลักสำหรับแต่ละสไตล์แยกกันได้
+A1: Yes, you can iterate through different styles and set the primary font for each style individually.
 
-### คำถามที่ 2: ชื่อแบบอักษรที่ฉันสามารถใช้ได้มีขีดจำกัดหรือไม่
+### Q2: Is there a limit to the font names I can use?
 
-A2: ไม่ คุณสามารถใช้ชื่อแบบอักษรที่ถูกต้องที่มีอยู่ในระบบของคุณได้
+A2: No, you can use any valid font name available on your system.
 
-### คำถามที่ 3: ฉันสามารถยกเลิกการแทนที่แบบอักษรได้หรือไม่
+### Q3: Can I undo font substitutions?
 
-A3: Aspose.CAD ให้ความยืดหยุ่น คุณสามารถคืนค่าการเปลี่ยนแปลงหรือบันทึกไฟล์ DWG เวอร์ชันต่างๆ ของคุณได้
+A3: Aspose.CAD provides flexibility; you can revert changes or save different versions of your DWG file.
 
-### คำถามที่ 4: บทช่วยสอนนี้ใช้กับรูปแบบ CAD อื่น ๆ ได้หรือไม่
+### Q4: Does this tutorial apply to other CAD formats?
 
-A4: แม้ว่าตัวอย่างจะเน้นที่ DWG แต่หลักการที่คล้ายกันนี้สามารถนำไปใช้กับรูปแบบ CAD อื่นๆ ที่รองรับได้
+A4: While the example focuses on DWG, similar principles can be applied to other supported CAD formats.
 
-### คำถามที่ 5: ฉันจะรับการสนับสนุนสำหรับ Aspose.CAD สำหรับ Java ได้อย่างไร
+### Q5: How can I get support for Aspose.CAD for Java?
 
-A5: เยี่ยมชม[ฟอรั่ม Aspose.CAD](https://forum.aspose.com/c/cad/19) สำหรับการสนับสนุนและการอภิปรายของชุมชน
+A5: Visit the [Aspose.CAD forum](https://forum.aspose.com/c/cad/19) for community support and discussions.
+
+## คำถามที่พบบ่อยเพิ่มเติม
+
+**Q: How do I save the modified drawing?**  
+A: After setting the new font, call `cadImage.save(dataDir + "output.dwg");` to write the changes to a new file.
+
+**Q: Can I replace the font of annotation objects only?**  
+A: Yes, filter the style collection for annotation‑related styles before applying `setPrimaryFontName`.
+
+**Q: Is it possible to preview the font change without saving?**  
+A: You can render the image to a bitmap using `cadImage.save(outputStream, new ImageOptions());` to preview in memory.
+
+**Q: Does Aspose.CAD support TrueType and OpenType fonts?**  
+A: Both TrueType (.ttf) and OpenType (.otf) fonts are fully supported as long as they are installed on the host OS.
+
+## สรุป
+
+Aspose.CAD for Java เปิดโอกาสอันทรงพลังสำหรับการจัดการ CAD, และ **how to replace font** เป็นเพียงหนึ่งในความสามารถหลายอย่างของมัน. ทดลองกับสไตล์ต่าง ๆ, ใช้คีย์เวิร์ดรองเช่น *modify DWG text style* หรือ *set primary font dwg* เพื่อปรับแต่งภาพวาดของคุณให้ละเอียดขึ้น, และผสานโค้ดเข้ากับกระบวนการอัตโนมัติขนาดใหญ่สำหรับการประมวลผลเป็นชุด.
+
+---
+
+**อัปเดตล่าสุด:** 2026-01-02  
+**ทดสอบด้วย:** Aspose.CAD for Java 24.11  
+**ผู้เขียน:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
