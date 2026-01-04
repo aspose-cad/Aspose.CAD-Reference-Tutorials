@@ -1,48 +1,86 @@
 ---
-title: सीएडी टेक्स्ट और फ़ॉर्मेटिंग
-linktitle: सीएडी टेक्स्ट और फ़ॉर्मेटिंग
-second_title: Aspose.CAD जावा एपीआई
-description: ट्यूटोरियल के साथ जावा की क्षमता के लिए Aspose.CAD को अनलॉक करें। अपने CAD ऐप को बेहतर बनाने के लिए टेक्स्ट खोज, छिपी हुई लाइनें, MLeader इकाइयां और MText विशेषताएँ सीखें।
-weight: 28
+date: 2026-01-04
+description: Aspose.CAD for Java के साथ MLeader का उपयोग कैसे करें, टेक्स्ट सर्च,
+  हिडन लाइन्स, और Aspose CAD DWG हैंडलिंग में महारत हासिल करके अपने CAD ऐप को बढ़ाएँ।
+linktitle: CAD Text and Formatting
+second_title: Aspose.CAD Java API
+title: MLeader का उपयोग कैसे करें – CAD टेक्स्ट और फ़ॉर्मेटिंग
 url: /hi/java/cad-text-and-formatting/
+weight: 28
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# सीएडी टेक्स्ट और फ़ॉर्मेटिंग
+# MLeader का उपयोग कैसे करें – CAD टेक्स्ट और फ़ॉर्मेटिंग
 
 ## परिचय
-जावा के लिए Aspose.CAD का उपयोग करके CAD टेक्स्ट और फ़ॉर्मेटिंग ट्यूटोरियल पर हमारी व्यापक मार्गदर्शिका में आपका स्वागत है। चाहे आप एक अनुभवी डेवलपर हों या सिर्फ सीएडी अनुप्रयोगों से शुरुआत कर रहे हों, ये ट्यूटोरियल आपको अपने कौशल को अगले स्तर तक ले जाने के लिए सशक्त बनाएंगे।
+Aspose.CAD for Java का उपयोग करके CAD टेक्स्ट और फ़ॉर्मेटिंग ट्यूटोरियल्स पर हमारे व्यापक गाइड में आपका स्वागत है। चाहे आप एक अनुभवी डेवलपर हों या CAD एप्लिकेशन में अभी शुरुआत कर रहे हों, ये ट्यूटोरियल्स आपको अपने कौशल को अगले स्तर पर ले जाने में सक्षम करेंगे। इस लेख में हम **MLeader का प्रभावी उपयोग** दिखाएंगे, संबंधित DWG सुविधाओं का अन्वेषण करेंगे, और वास्तविक‑दुनिया के परिदृश्यों को उजागर करेंगे जहाँ MLeader चमकता है।
 
-## जावा के लिए Aspose.CAD की शक्ति का अन्वेषण करें!
+## त्वरित उत्तर
+- **What is MLeader?** एक मल्टी‑लीडर एंटिटी जो तीर, टेक्स्ट, और ब्लॉक्स को एक ही DWG तत्व में संयोजित करती है।  
+- **Why use Aspose.CAD for Java?** यह DWG फ़ाइलों को पढ़ने, संपादित करने और बनाने का एक मजबूत, लाइसेंस‑मुक्त तरीका प्रदान करता है, जिसमें MLeader समर्थन शामिल है।  
+- **Which formats are covered?** DWG, DXF, और अन्य सामान्य CAD फ़ॉर्मेट्स जो Aspose.CAD द्वारा समर्थित हैं।  
+- **Do I need a license?** एक मुफ्त ट्रायल उपलब्ध है; उत्पादन उपयोग के लिए एक व्यावसायिक लाइसेंस आवश्यक है।  
+- **What prerequisites are required?** Java 8+ और Aspose.CAD for Java लाइब्रेरी।
 
- कंप्यूटर-एडेड डिज़ाइन (सीएडी) की तेज़ गति वाली दुनिया में, दक्षता महत्वपूर्ण है। यहीं पर जावा के लिए Aspose.CAD आता है। हमारा पहला ट्यूटोरियल,[जावा के लिए Aspose.CAD का उपयोग करके ऑटोकैड DWG फ़ाइल में टेक्स्ट खोजें](./search-text-in-dwg/), एक गेम-चेंजर है। ऑटोकैड डीडब्ल्यूजी फाइलों में टेक्स्ट को कुशलतापूर्वक खोजने की जटिलताओं के बारे में जानें। यह ट्यूटोरियल न केवल आपको प्रक्रिया से परिचित कराता है, बल्कि लाइब्रेरी डाउनलोड करने के लिए आवश्यक संसाधन भी प्रदान करता है, जिससे यह सुनिश्चित होता है कि आप अपने सीएडी एप्लिकेशन को सहजता से बढ़ाने में सक्षम हैं।
+## CAD में “MLeader का उपयोग कैसे करें” क्या है?
+MLeader का उपयोग करके आप एक ही एनोटेशन में कई लीडर संलग्न कर सकते हैं, जिससे आरेख की स्पष्टता बढ़ती है और फ़ाइल की अव्यवस्था कम होती है। यह विशेष रूप से वास्तु योजनाओं, मैकेनिकल स्कीमैटिक्स, और किसी भी ड्रॉइंग में उपयोगी है जहाँ विस्तृत कॉलआउट्स की आवश्यकता होती है।
 
-## अपने जावा एप्लिकेशन की DWG फ़ाइल हेरफेर को बेहतर बनाएं
+## Aspose.CAD for Java के साथ MLeader का उपयोग क्यों करें?
+- **Seamless DWG manipulation** – Autodesk सॉफ़्टवेयर के बिना DWG फ़ाइलों को पढ़ना और लिखना।  
+- **Full support for hidden lines and text search** – समृद्ध ड्रॉइंग्स के लिए MLeader के साथ संयोजन।  
+- **Cross‑platform Java API** – Windows, Linux, और macOS पर काम करता है।  
+- **Performance‑optimized** – बड़े ड्रॉइंग्स को कुशलता से संभालता है।
 
- क्या आप अपने जावा एप्लिकेशन की DWG फ़ाइल हेरफेर क्षमताओं को अगले स्तर पर ले जाने के लिए तैयार हैं? हमारा दूसरा ट्यूटोरियल,[जावा के लिए Aspose.CAD का उपयोग करके DWG फ़ाइलों में छिपी हुई रेखाओं के लिए समर्थन](./support-hidden-lines-in-dwg/), आपका मार्गदर्शक है। हिडन लाइन्स सपोर्ट के साथ अपने एप्लिकेशन की ड्राइंग हैंडलिंग को बढ़ावा देने के लिए चरण-दर-चरण निर्देशों का पालन करें। Java के लिए Aspose.CAD एक सहज अनुभव सुनिश्चित करता है, और यह ट्यूटोरियल सुनिश्चित करता है कि आप इसका अधिकतम लाभ उठाएँ।
+## Explore the Power of Aspose.CAD for Java!
 
-## DWG प्रारूप में एमएलएडर संस्थाओं की शक्ति को अनलॉक करें
+In the fast‑paced world of Computer‑Aided Design (CAD), efficiency is key. That's where Aspose.CAD for Java comes in. Our first tutorial, [Search Text in AutoCAD DWG File Using Aspose.CAD for Java](./search-text-in-dwg/), is a game‑changer. Dive into the intricacies of efficiently searching text in AutoCAD DWG files. This tutorial not only walks you through the process but also provides the necessary resources for downloading the library, ensuring you're equipped to enhance your CAD application effortlessly.
 
- DWG प्रारूप में MLeader इकाइयाँ आपके CAD प्रोजेक्ट्स में एक नया आयाम जोड़ सकती हैं। हमारा तीसरा ट्यूटोरियल,[जावा के लिए Aspose.CAD के साथ DWG प्रारूप के लिए MLeader इकाई का समर्थन करें](./support-mleader-entity/), जावा के लिए Aspose.CAD की पूरी क्षमता को अनलॉक करता है। अपने डिज़ाइनों को अधिक ऊंचाइयों तक ले जाते हुए, एमलीडर इकाइयों को कार्यान्वित और उपयोग करना सीखें। चरण-दर-चरण ट्यूटोरियल यह सुनिश्चित करता है कि आप अवधारणा को सहजता से समझ लें।
+## Enhance Your Java Application's DWG File Manipulation
 
-## MText में विशेषताओं के साथ अपने CAD ड्रॉइंग को उन्नत करें
+Ready to take your Java application's DWG file manipulation capabilities to the next level? Our second tutorial, [Support for Hidden Lines in DWG Files Using Aspose.CAD for Java](./support-hidden-lines-in-dwg/), is your go‑to guide. Follow the step‑by‑step instructions to boost your application's drawing handling with hidden lines support. Aspose.CAD for Java ensures a seamless experience, and this tutorial ensures you make the most of it.
 
-सीएडी रेखाचित्रों में विशेषताएँ महत्वपूर्ण भूमिका निभाती हैं। हमारे अंतिम ट्यूटोरियल में,[Java के लिए Aspose.CAD का उपयोग करके DWG फ़ाइलों में MText में विशेषताएँ जोड़ें](./add-attributes-to-mtext/), जानें कि DWG फ़ाइलों में MText में निर्बाध रूप से विशेषताएँ कैसे जोड़ें। यह ट्यूटोरियल प्रक्रिया को सरल बनाता है, जिससे आप आसानी से अपने सीएडी चित्रों को उन्नत कर सकते हैं। Java के लिए Aspose.CAD गतिशील और सूचनाप्रद डिज़ाइन बनाने में आपका सहयोगी बन जाता है।
+## Unlock the Power of MLeader Entities in DWG Format
 
-अंत में, जावा ट्यूटोरियल के लिए हमारा Aspose.CAD, CAD अनुप्रयोगों में टेक्स्ट और फ़ॉर्मेटिंग में महारत हासिल करने के लिए एक व्यापक मार्गदर्शिका प्रदान करता है। चाहे आप खोज कार्यक्षमता में सुधार करना चाहते हों, छिपी हुई लाइनों का समर्थन करना चाहते हों, एमलीडर इकाइयों के साथ काम करना चाहते हों, या एमटेक्स्ट में विशेषताएँ जोड़ना चाहते हों, हमारा चरण-दर-चरण दृष्टिकोण यह सुनिश्चित करता है कि आप न केवल अवधारणाओं को समझें बल्कि उन्हें अपनी परियोजनाओं में कुशलतापूर्वक लागू भी कर सकें। लाइब्रेरी डाउनलोड करें, हमारे ट्यूटोरियल्स का अनुसरण करें, और आज ही जावा के लिए Aspose.CAD की पूरी क्षमता को अनलॉक करें!
+MLeader entities in DWG format can add a new dimension to your CAD projects. Our third tutorial, [Support MLeader Entity for DWG Format with Aspose.CAD for Java](./support-mleader-entity/), unlocks the full potential of Aspose.CAD for Java. Learn how to implement and utilize MLeader entities, taking your designs to greater heights. The step‑by‑step tutorial ensures you grasp the concept effortlessly.
 
-## सीएडी टेक्स्ट और फ़ॉर्मेटिंग ट्यूटोरियल
-### [जावा के लिए Aspose.CAD का उपयोग करके ऑटोकैड DWG फ़ाइल में टेक्स्ट खोजें](./search-text-in-dwg/)
-जावा के लिए Aspose.CAD की शक्ति का अन्वेषण करें! ऑटोकैड डीडब्ल्यूजी फाइलों में टेक्स्ट को कुशलतापूर्वक खोजें। लाइब्रेरी डाउनलोड करें और अपने CAD एप्लिकेशन को बेहतर बनाएं।
-### [जावा के लिए Aspose.CAD का उपयोग करके DWG फ़ाइलों में छिपी हुई रेखाओं के लिए समर्थन](./support-hidden-lines-in-dwg/)
-जानें कि Aspose.CAD का उपयोग करके अपने जावा एप्लिकेशन की DWG फ़ाइल हेरफेर क्षमताओं को कैसे बढ़ाया जाए। छुपी हुई लाइनों के समर्थन के लिए हमारी चरण-दर-चरण मार्गदर्शिका का पालन करें। आसानी से अपने CAD ड्राइंग प्रबंधन को बढ़ावा दें।
-### [जावा के लिए Aspose.CAD के साथ DWG प्रारूप के लिए MLeader इकाई का समर्थन करें](./support-mleader-entity/)
-DWG प्रारूप में MLeader संस्थाओं का समर्थन करने पर हमारे चरण-दर-चरण ट्यूटोरियल के साथ जावा के लिए Aspose.CAD की शक्ति को अनलॉक करें।
-### [Java के लिए Aspose.CAD का उपयोग करके DWG फ़ाइलों में MText में विशेषताएँ जोड़ें](./add-attributes-to-mtext/)
-जावा के लिए Aspose.CAD का उपयोग करके DWG फ़ाइलों में MText में विशेषताएँ जोड़ने का तरीका जानें। इस चरण-दर-चरण मार्गदर्शिका के साथ अपने CAD चित्रों को उन्नत करें।
+## Elevate Your CAD Drawings with Attributes in MText
+
+Attributes play a crucial role in CAD drawings. In our final tutorial, [Add Attributes to MText in DWG Files Using Aspose.CAD for Java](./add-attributes-to-mtext/), discover how to seamlessly add attributes to MText in DWG files. This tutorial simplifies the process, allowing you to elevate your CAD drawings with ease. Aspose.CAD for Java becomes your ally in creating dynamic and informative designs.
+
+## CAD टेक्स्ट और फ़ॉर्मेटिंग ट्यूटोरियल्स
+### [Aspose.CAD for Java का उपयोग करके AutoCAD DWG फ़ाइल में टेक्स्ट खोजें](./search-text-in-dwg/)
+Aspose.CAD for Java की शक्ति का अन्वेषण करें! AutoCAD DWG फ़ाइलों में टेक्स्ट को कुशलता से खोजें। लाइब्रेरी डाउनलोड करें और अपने CAD एप्लिकेशन को बेहतर बनाएं।
+### [Aspose.CAD का उपयोग करके DWG फ़ाइलों में हिडन लाइन्स का समर्थन करें](./support-hidden-lines-in-dwg/)
+Aspose.CAD के साथ अपने Java एप्लिकेशन की DWG फ़ाइल हेरफेर क्षमताओं को बढ़ाने का तरीका सीखें। हिडन लाइन्स समर्थन के लिए हमारे चरण‑दर‑चरण गाइड का पालन करें। आसानी से अपने CAD ड्रॉइंग हैंडलिंग को बूस्ट करें।
+### [Aspose.CAD for Java के साथ DWG फ़ॉर्मेट में MLeader एंटिटी का समर्थन करें](./support-mleader-entity/)
+DWG फ़ॉर्मेट में MLeader एंटिटी का समर्थन करने के लिए हमारे चरण‑दर‑चरण ट्यूटोरियल के साथ Aspose.CAD for Java की शक्ति को अनलॉक करें।
+### [Aspose.CAD for Java का उपयोग करके DWG फ़ाइलों में MText में एट्रिब्यूट्स जोड़ें](./add-attributes-to-mtext/)
+Aspose.CAD for Java का उपयोग करके DWG फ़ाइलों में MText में एट्रिब्यूट्स कैसे जोड़ें सीखें। इस चरण‑दर‑चरण गाइड के साथ अपने CAD ड्रॉइंग्स को ऊँचा उठाएँ।
+
+## अक्सर पूछे जाने वाले प्रश्न
+
+**Q: क्या मैं Aspose.CAD for Java को व्यावसायिक प्रोजेक्ट में उपयोग कर सकता हूँ?**  
+A: हाँ, उत्पादन उपयोग के लिए एक व्यावसायिक लाइसेंस आवश्यक है, लेकिन मूल्यांकन के लिए एक मुफ्त ट्रायल उपलब्ध है।
+
+**Q: क्या Aspose.CAD नवीनतम DWG संस्करणों का समर्थन करता है?**  
+A: लाइब्रेरी लगातार अपडेट होती रहती है ताकि नवीनतम DWG रिलीज़, जिसमें recent AutoCAD फ़ाइलें शामिल हैं, का समर्थन किया जा सके।
+
+**Q: मैं मौजूदा Java CAD वर्कफ़्लो में MLeader समर्थन कैसे एकीकृत करूँ?**  
+A: Aspose.CAD API का उपयोग करके अपना DWG लोड करें, MLeader एंटिटी बनाएं या संशोधित करें, और फिर फ़ाइल को सेव करें—विस्तृत चरणों के लिए “Support MLeader Entity” ट्यूटोरियल देखें।
+
+**Q: क्या DWG टेक्स्ट को प्रोग्रामेटिकली खोजने का कोई तरीका है?**  
+A: बिल्कुल। “Search Text in AutoCAD DWG File” ट्यूटोरियल देखें, जो Aspose.CAD Java का उपयोग करके टेक्स्ट सर्च कैसे करें दर्शाता है।
+
+**Q: बड़े DWG फ़ाइलों के लिए प्रदर्शन संबंधी विचार क्या हैं?**  
+A: केवल आवश्यक लेयर्स लोड करें, जहाँ संभव हो स्ट्रीमिंग का उपयोग करें, और मेमोरी‑कुशल मेथड्स के लिए Aspose.CAD की विधियों का लाभ उठाएँ।
+
+**Last Updated:** 2026-01-04  
+**Tested With:** Aspose.CAD for Java 24.11  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
