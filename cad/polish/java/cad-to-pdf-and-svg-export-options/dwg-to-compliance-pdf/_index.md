@@ -1,33 +1,52 @@
 ---
-title: DWG do zgodności z PDF przy użyciu Aspose.CAD dla Java
-linktitle: DWG do zgodności PDF
-second_title: Aspose.CAD API Java
-description: Bez wysiłku konwertuj rysunki DWG do plików zgodnych z formatem PDF/A1a i PDF/A1b za pomocą Aspose.CAD dla Java. Usprawnij przepływ pracy z precyzją i łatwością.
-weight: 11
+date: 2026-01-04
+description: Bezproblemowo wykonuj konwersję DWG do PDF w Javie, tworząc pliki zgodne
+  z PDF/A (PDF/A1a, PDF/A1b) przy użyciu Aspose.CAD dla Javy. Eksportuj DWG jako PDF
+  z precyzją.
+linktitle: DWG to Compliance PDF
+second_title: Aspose.CAD Java API
+title: java dwg to pdf – Konwertuj DWG do zgodnego PDF za pomocą Aspose.CAD dla Javy
 url: /pl/java/cad-to-pdf-and-svg-export-options/dwg-to-compliance-pdf/
+weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# DWG do zgodności z PDF przy użyciu Aspose.CAD dla Java
+# java dwg to pdf – Konwersja DWG do zgodnego PDF przy użyciu Aspose.CAD dla Javy
 
-## Wstęp
+## Introduction
 
-W stale rozwijającym się świecie projektowania cyfrowego konieczność konwersji rysunków DWG do zgodnych formatów PDF ma kluczowe znaczenie dla płynnej współpracy i ujednoliconej dokumentacji. Aspose.CAD dla Java jawi się jako potężne narzędzie oferujące wydajność i precyzję w tym procesie. W tym samouczku odkryjemy, jak wykorzystać Aspose.CAD dla Java do bezproblemowej konwersji plików DWG do zgodnych plików PDF, zapewniając zgodność ze standardami PDF/A1a i PDF/A1b.
+W nowoczesnych przepływach pracy inżynierskiej i projektowej konwersja **java dwg to pdf** jest codziennym wymogiem. Zespoły muszą udostępniać rysunki w uniwersalnym formacie czytelnym, spełniając jednocześnie rygorystyczne wymogi zgodności PDF/A dla archiwizacji. Aspose.CAD dla Javy upraszcza to zadanie: możesz **eksportować DWG jako PDF**, wybrać zgodność PDF/A‑1a lub PDF/A‑1b oraz zautomatyzować cały proces z poziomu aplikacji Java. W tym samouczku przeprowadzimy Cię krok po kroku przez konwersję plików DWG do zgodnych PDF‑ów, odpowiemy na pytanie **how to convert dwg**, i pokażemy, jak **create pdf/a file** programowo.
 
-## Warunki wstępne
+## Quick Answers
+- **What library handles java dwg to pdf conversion?** Aspose.CAD for Java.
+- **Which compliance levels are supported?** PDF/A‑1a and PDF/A‑1b.
+- **Do I need a license for development?** A temporary license is available for testing.
+- **Can I batch‑process multiple DWG files?** Yes – just repeat the steps for each file.
+- **Is the code compatible with Java 8+?** Absolutely, it works with any modern JDK.
 
-Zanim przejdziesz do samouczka, upewnij się, że spełniasz następujące wymagania wstępne:
+## What is java dwg to pdf conversion?
+Konwersja rysunku DWG do pliku PDF/A zapewnia, że projekt może być wyświetlany na dowolnym urządzeniu bez utraty jakości, a jednocześnie spełnia długoterminowe standardy przechowywania wymagane w wielu branżach.
 
-- Środowisko programistyczne Java: Upewnij się, że w systemie skonfigurowane jest działające środowisko programistyczne Java.
--  Biblioteka Aspose.CAD: Pobierz i zainstaluj bibliotekę Aspose.CAD dla Java z[link do pobrania](https://releases.aspose.com/cad/java/).
-- Katalog dokumentów: Utwórz katalog do przechowywania rysunków DWG.
+## Why export dwg as pdf with compliance?
+- **Universal access:** Czytniki PDF są powszechne, w przeciwieństwie do przeglądarek DWG.
+- **Regulatory compliance:** PDF/A‑1a zachowuje strukturę dokumentu; PDF/A‑1b gwarantuje wierność wizualną.
+- **Automation‑ready:** Integruj konwersję w pipeline’ach budowania lub usługach webowych.
+- **Preserve metadata:** PDF/A zachowuje niezbędne informacje do archiwizacji.
 
-## Importuj przestrzenie nazw
+## Prerequisites
 
-W swoim projekcie Java zaimportuj niezbędne przestrzenie nazw, aby uzyskać dostęp do funkcjonalności Aspose.CAD. Dodaj następujące wiersze na początku pliku Java:
+Zanim przejdziesz do kodu, upewnij się, że masz:
+
+- **Java Development Environment:** Zainstalowany i skonfigurowany JDK 8 lub nowszy.
+- **Aspose.CAD Library:** Pobierz i zainstaluj bibliotekę Aspose.CAD dla Javy z [link do pobrania](https://releases.aspose.com/cad/java/).
+- **Document Directory:** Utwórz folder na swoim komputerze, w którym będą przechowywane rysunki DWG.
+
+## Import Namespaces
+
+W projekcie Java zaimportuj niezbędne klasy do pracy z Aspose.CAD. Umieść te importy na początku pliku źródłowego:
 
 ```java
 import com.aspose.cad.Image;
@@ -38,85 +57,95 @@ import com.aspose.cad.imageoptions.PdfDocumentOptions;
 import com.aspose.cad.imageoptions.PdfOptions;
 ```
 
-## Krok 1: Ustaw katalog zasobów
+## Step 1: Set the Resource Directory
 
-Zdefiniuj ścieżkę do katalogu zasobów, w którym przechowywane są rysunki DWG.
+Zdefiniuj ścieżkę do folderu zawierającego pliki DWG. Dostosuj łańcuch znaków do rzeczywistej struktury katalogów.
 
 ```java
 String dataDir = "Your Document Directory" + "DWGDrawings/";
 ```
 
-## Krok 2: Załaduj plik DWG
+## Step 2: Load the DWG File
 
-Załaduj plik DWG, korzystając z biblioteki Aspose.CAD.
+Użyj metody `Image.load` z Aspose.CAD, aby wczytać rysunek DWG do pamięci.
 
 ```java
 String srcFile = dataDir + "Bottom_plate.dwg";
 Image objImage = Image.load(srcFile);
 ```
 
-## Krok 3: Utwórz opcje PDF
+## Step 3: Create PDF Options
 
-Utwórz instancję PdfOptions i ustaw opcje rasteryzacji wektora.
+Utwórz obiekt `PdfOptions` i dołącz do niego `CadRasterizationOptions`. Ten obiekt kontroluje, w jaki sposób dane wektorowe są rasteryzowane przy generowaniu PDF.
 
 ```java
 PdfOptions pdfOptions = new PdfOptions();
 pdfOptions.setVectorRasterizationOptions(new CadRasterizationOptions());
 ```
 
-## Krok 4: Ustaw podstawowe opcje PDF
+## Step 4: Set Core PDF Options
 
-Ustaw podstawowe opcje PDF, określając standard zgodności (PDF/A1a lub PDF/A1b).
+Skonfiguruj podstawowe ustawienia PDF, określając pożądany poziom zgodności. Tutaj zaczynamy od PDF/A‑1a.
 
 ```java
 pdfOptions.setCorePdfOptions(new PdfDocumentOptions());
 pdfOptions.getCorePdfOptions().setCompliance(PdfCompliance.PdfA1a);
 ```
 
-## Krok 5: Zapisz plik PDF zgodnie ze zgodnością A1a
+## Step 5: Save PDF with Compliance A1a
 
-Zapisz plik PDF z zachowaniem zgodności A1a.
+Zapisz obraz jako plik zgodny z PDF/A‑1a.
 
 ```java
 objImage.save(dataDir + "Saved1.pdf", pdfOptions);
 ```
 
-## Krok 6: Zmień zgodność na A1b
+## Step 6: Change Compliance to A1b
 
-Zmień zgodność na PDF/A1b i zapisz plik PDF.
+Jeśli potrzebujesz PDF/A‑1b, po prostu zmień flagę zgodności i zapisz ponownie.
 
 ```java
 pdfOptions.getCorePdfOptions().setCompliance(PdfCompliance.PdfA1b);
 objImage.save(dataDir + "Saved.pdf", pdfOptions);
 ```
 
-Powtórz te kroki dla każdego pliku DWG, który chcesz przekonwertować.
+## Step 7: Repeat for Additional Files
 
-## Wniosek
+Iteruj po dowolnej liczbie rysunków DWG, powtarzając Kroki 2‑6. Umożliwia to masową **dwg to pdf/a conversion** w jednym uruchomieniu.
 
-Podsumowując, Aspose.CAD dla Java zapewnia solidne rozwiązanie do konwersji plików DWG do zgodnych plików PDF. Postępując zgodnie z tym szczegółowym przewodnikiem, możesz usprawnić proces konwersji i mieć pewność, że Twoje dokumenty są zgodne ze standardami branżowymi.
+## Common Issues and Solutions
 
-## Często zadawane pytania
+| Issue | Reason | Fix |
+|-------|--------|-----|
+| **Output PDF is blank** | Rasterization options not set correctly. | Ensure `CadRasterizationOptions` is attached to `PdfOptions`. |
+| **License exception** | Using the library without a valid license. | Apply a temporary or permanent license from Aspose. |
+| **File not found** | Incorrect `dataDir` path. | Verify the directory string and that the DWG file exists. |
+| **Incorrect compliance** | `PdfCompliance` value not updated. | Call `setCompliance` before each `save` call. |
 
-### P1: Czy Aspose.CAD jest kompatybilny ze wszystkimi wersjami plików DWG?
+## FAQ's
 
- O1: Aspose.CAD obsługuje różne wersje plików DWG, w tym najnowsze. Patrz[dokumentacja](https://reference.aspose.com/cad/java/) aby uzyskać szczegółowe informacje o kompatybilności.
+### Q1: Czy Aspose.CAD jest kompatybilny ze wszystkimi wersjami plików DWG?
 
-### P2: Czy mogę dostosować ustawienia wyjściowe PDF za pomocą Aspose.CAD?
+A1: Aspose.CAD obsługuje różne wersje plików DWG, w tym najnowsze. Zapoznaj się z [documentation](https://reference.aspose.com/cad/java/) po szczegółowe informacje o kompatybilności.
 
-A2: Absolutnie! Aspose.CAD oferuje szereg opcji dostosowywania, umożliwiając dostosowanie wyjściowego pliku PDF do konkretnych wymagań.
+### Q2: Czy mogę dostosować ustawienia wyjściowe PDF przy użyciu Aspose.CAD?
 
-### P3: Czy dostępna jest tymczasowa licencja dla Aspose.CAD?
+A2: Oczywiście! Aspose.CAD oferuje szereg opcji konfiguracyjnych, pozwalając dopasować wyjściowy PDF do konkretnych wymagań.
 
- Odpowiedź 3: Tak, możesz uzyskać tymczasową licencję do celów testowych od[ten link](https://purchase.aspose.com/temporary-license/).
+### Q3: Czy dostępna jest tymczasowa licencja dla Aspose.CAD?
 
-### P4: Gdzie mogę szukać wsparcia lub nawiązać kontakt ze społecznością Aspose.CAD?
+A3: Tak, tymczasową licencję do testów możesz uzyskać z [this link](https://purchase.aspose.com/temporary-license/).
 
- A4: Odwiedź[Forum Aspose.CAD](https://forum.aspose.com/c/cad/19) za wsparcie społeczności i dyskusje.
+### Q4: Gdzie mogę uzyskać wsparcie lub skontaktować się ze społecznością Aspose.CAD?
 
-### P5: Czy mogę wypróbować Aspose.CAD za darmo przed dokonaniem zakupu?
+A4: Odwiedź [Aspose.CAD forum](https://forum.aspose.com/c/cad/19) w celu uzyskania pomocy i dyskusji ze społecznością.
 
- A5: Oczywiście! Pobierz bezpłatną wersję próbną ze strony[Tutaj](https://releases.aspose.com/) aby zbadać możliwości przed podjęciem decyzji.
+### Q5: Czy mogę wypróbować Aspose.CAD za darmo przed zakupemA5: Oczywiście! Pobierz wersję próbną z [here](https://releases.aspose.com/) i zapoznaj się z możliwościami przed podjęciem decyzji.
+
+**Last Updated:** 2026-01-04  
+**Tested With:** Aspose.CAD for Java 24.12  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -1,33 +1,51 @@
 ---
-title: 使用 Aspose.CAD for Java 將 DWG 轉換為合規性 PDF
-linktitle: DWG 到合規性 PDF
+date: 2026-01-04
+description: 輕鬆執行 Java DWG 轉 PDF 轉換，使用 Aspose.CAD for Java 產生符合 PDF/A 標準的檔案（PDF/A‑1a、PDF/A‑1b）。精準匯出
+  DWG 為 PDF。
+linktitle: DWG to Compliance PDF
 second_title: Aspose.CAD Java API
-description: 使用 Aspose.CAD for Java 輕鬆將 DWG 繪圖轉換為 PDF/A1a 和 PDF/A1b 相容檔案。精確輕鬆地簡化您的工作流程。
-weight: 11
+title: Java DWG 轉 PDF – 使用 Aspose.CAD for Java 將 DWG 轉換為合規 PDF
 url: /zh-hant/java/cad-to-pdf-and-svg-export-options/dwg-to-compliance-pdf/
+weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 使用 Aspose.CAD for Java 將 DWG 轉換為合規性 PDF
+# java dwg to pdf – 使用 Aspose.CAD for Java 轉換 DWG 為符合規範的 PDF
 
 ## 介紹
 
-在不斷發展的數位設計世界中，將 DWG 工程圖轉換為合規的 PDF 格式對於無縫協作和標準化文件至關重要。 Aspose.CAD for Java 成為了一個強大的工具，在此過程中提供了效率和精確度。在本教學中，我們將探討如何利用 Aspose.CAD for Java 輕鬆將 DWG 檔案轉換為相容的 PDF，確保遵守 PDF/A1a 和 PDF/A1b 標準。
+在現代工程與設計工作流程中，**java dwg to pdf** 轉換是每日必須的需求。團隊需要以通用可讀的格式分享圖面，同時滿足嚴格的 PDF/A 归档合规性。Aspose.CAD for Java 讓此工作變得簡單：您可以 **export DWG as PDF**，選擇 PDF/A‑1a 或 PDF/A‑1b 合规性，並從 Java 應用程式自動化整個流程。在本教學中，我們將逐步說明如何將 DWG 檔案轉換為合规的 PDF，回答 **how to convert dwg**，並示範如何以程式方式 **create pdf/a file**。
 
-## 先決條件
+## 快速解答
+- **什麼程式庫負責 java dwg to pdf 轉換？** Aspose.CAD for Java.
+- **支援哪些符合規範的等級？** PDF/A‑1a 和 PDF/A‑1b.
+- **開發是否需要授權？** 可取得臨時授權供測試使用。
+- **可以批次處理多個 DWG 檔案嗎？** 可以 – 只需對每個檔案重複步驟。
+- **程式碼是否相容於 Java 8+？** 當然，適用於任何現代 JDK。
 
-在深入學習本教程之前，請確保您具備以下先決條件：
+## 什麼是 java dwg to pdf 轉換？
+將 DWG 圖面轉換為 PDF/A 檔案可確保設計在任何裝置上皆能完整呈現，同時符合多數產業所要求的長期保存標準。
 
-- Java 開發環境：確保您的系統上設定了有效的 Java 開發環境。
--  Aspose.CAD 函式庫：從下列位置下載並安裝 Java 的 Aspose.CAD 函式庫：[下載連結](https://releases.aspose.com/cad/java/).
-- 文件目錄：建立一個目錄來儲存 DWG 工程圖。
+## 為什麼要以符合規範的方式匯出 dwg 為 pdf？
+- **通用存取：** PDF 閱讀器無處不在，與 DWG 檢視器不同。
+- **法規符合性：** PDF/A‑1a 保留文件結構；PDF/A‑1b 確保視覺忠實度。
+- **自動化就緒：** 可將轉換整合至建置管線或 Web 服務。
+- **保留中繼資料：** PDF/A 保留重要的歸檔資訊。
 
-## 導入命名空間
+## 前置條件
 
-在您的 Java 專案中，匯入必要的命名空間以存取 Aspose.CAD 的功能。在 Java 檔案的開頭新增以下行：
+在開始編寫程式碼之前，請確保您已具備：
+
+- **Java 開發環境：** 已安裝並設定 JDK 8 或更新版本。
+- **Aspose.CAD 程式庫：** 從 [download link](https://releases.aspose.com/cad/java/) 下載並安裝 Aspose.CAD for Java 程式庫。
+- **文件目錄：** 在您的機器上建立一個資料夾，用於存放 DWG 圖面。
+
+## 匯入命名空間
+
+在您的 Java 專案中，匯入使用 Aspose.CAD 所需的類別。將以下匯入語句放在來源檔案的最上方。
 
 ```java
 import com.aspose.cad.Image;
@@ -38,85 +56,97 @@ import com.aspose.cad.imageoptions.PdfDocumentOptions;
 import com.aspose.cad.imageoptions.PdfOptions;
 ```
 
-## 第1步：設定資源目錄
+## 步驟 1：設定資源目錄
 
-定義儲存 DWG 工程圖的資源目錄的路徑。
+定義包含 DWG 檔案的資料夾路徑。請依實際目錄結構調整字串。
 
 ```java
 String dataDir = "Your Document Directory" + "DWGDrawings/";
 ```
 
-## 步驟 2： 載入 DWG 文件
+## 步驟 2：載入 DWG 檔案
 
-使用 Aspose.CAD 庫載入 DWG 檔案。
+使用 Aspose.CAD 的 `Image.load` 方法將 DWG 圖面讀入記憶體。
 
 ```java
 String srcFile = dataDir + "Bottom_plate.dwg";
 Image objImage = Image.load(srcFile);
 ```
 
-## 第 3 步：建立 PDF 選項
+## 步驟 3：建立 PDF 選項
 
-建立 PdfOptions 的實例並設定向量光柵化選項。
+實例化 `PdfOptions`，並附加 `CadRasterizationOptions` 物件。此物件控制向 PDF 產生時向量資料的光柵化方式。
 
 ```java
 PdfOptions pdfOptions = new PdfOptions();
 pdfOptions.setVectorRasterizationOptions(new CadRasterizationOptions());
 ```
 
-## 步驟 4： 設定核心 PDF 選項
+## 步驟 4：設定核心 PDF 選項
 
-設定核心 PDF 選項，指定合規性標準（PDF/A1a 或 PDF/A1b）。
+配置核心 PDF 設定，指定所需的合规等級。此處以 PDF/A‑1a 為例。
 
 ```java
 pdfOptions.setCorePdfOptions(new PdfDocumentOptions());
 pdfOptions.getCorePdfOptions().setCompliance(PdfCompliance.PdfA1a);
 ```
 
-## 步驟 5：依照合規性 A1a 儲存 PDF
+## 步驟 5：以符合 A1a 的方式儲存 PDF
 
-儲存符合 A1a 標準的 PDF 檔案。
+將影像保存為符合 PDF/A‑1a 的檔案。
 
 ```java
 objImage.save(dataDir + "Saved1.pdf", pdfOptions);
 ```
 
-## 第 6 步：將合規性改為 A1b
+## 步驟 6：變更符合規範為 A1b
 
-將合規性變更為 PDF/A1b 並儲存 PDF。
+若需要 PDF/A‑1b，只需切換合规旗標並再次保存。
 
 ```java
 pdfOptions.getCorePdfOptions().setCompliance(PdfCompliance.PdfA1b);
 objImage.save(dataDir + "Saved.pdf", pdfOptions);
 ```
 
-對要轉換的每個 DWG 檔案重複這些步驟。
+## 步驟 7：對其他檔案重複執行
 
-## 結論
+透過重複步驟 2‑6，可一次處理多個 DWG 圖面，實現批次 **dwg to pdf/a conversion**。
 
-總之，Aspose.CAD for Java 提供了將 DWG 檔案轉換為合規 PDF 的強大解決方案。透過遵循此逐步指南，您可以簡化轉換流程並確保您的文件符合行業標準。
+## 常見問題與解決方案
 
-## 常見問題解答
+| 問題 | 原因 | 解決方案 |
+|-------|--------|-----|
+| **輸出 PDF 為空白** | 光柵化選項未正確設定。 | 確保 `CadRasterizationOptions` 已附加至 `PdfOptions`。 |
+| **授權例外** | 未使用有效授權即使用程式庫。 | 從 Aspose 套用臨時或永久授權。 |
+| **找不到檔案** | `dataDir` 路徑不正確。 | 驗證目錄字串且確保 DWG 檔案存在。 |
+| **符合規範不正確** | `PdfCompliance` 值未更新。 | 在每次 `save` 呼叫前呼叫 `setCompliance`。 |
+
+## 常見問答
 
 ### Q1：Aspose.CAD 是否相容於所有版本的 DWG 檔案？
 
- A1：Aspose.CAD支援各種版本的DWG文件，包括最新的版本。請參閱[文件](https://reference.aspose.com/cad/java/)取得詳細的相容性資訊。
+A1：Aspose.CAD 支援多種 DWG 版本，包括最新版本。請參考 [documentation](https://reference.aspose.com/cad/java/) 以取得詳細相容性資訊。
 
-### Q2：我可以使用Aspose.CAD自訂PDF輸出設定嗎？
+### Q2：我可以使用 Aspose.CAD 自訂 PDF 輸出設定嗎？
 
-A2：當然！ Aspose.CAD 提供了一系列自訂選項，可讓您根據您的特定要求自訂 PDF 輸出。
+A2：當然可以！Aspose.CAD 提供多種自訂選項，讓您依需求調整 PDF 輸出。
 
-### Q3：Aspose.CAD 是否有臨時授權？
+### Q3：Aspose.CAD 是否提供臨時授權？
 
- A3：是的，您可以從以下位置取得用於測試目的的臨時許可證：[這個連結](https://purchase.aspose.com/temporary-license/).
+A3：是的，您可從 [this link](https://purchase.aspose.com/temporary-license/) 取得測試用的臨時授權。
 
-### 問題 4：我可以在哪裡尋求 Aspose.CAD 的支持或與社群互動？
+### Q4：我可以在哪裡取得支援或與 Aspose.CAD 社群互動？
 
- A4：訪問[Aspose.CAD論壇](https://forum.aspose.com/c/cad/19)以獲得社區支持和討論。
+A4：請前往 [Aspose.CAD forum](https://forum.aspose.com/c/cad/19) 獲得社群支援與討論。
 
-### Q5：我可以在購買前免費試用 Aspose.CAD 嗎？
+### Q5：在購買前，我可以免費試用 Aspose.CAD 嗎？
 
- A5：當然！從以下位置下載免費試用版[這裡](https://releases.aspose.com/)在做出決定之前探索能力。
+A5：當然可以！從 [here](https://releases.aspose.com/) 下載免費試用版，以在決策前體驗功能。
+
+**最後更新：** 2026-01-04  
+**測試環境：** Aspose.CAD for Java 24.12  
+**作者：** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

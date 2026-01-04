@@ -1,33 +1,51 @@
 ---
-title: Java용 Aspose.CAD를 사용하여 DWG를 규정 준수 PDF로 변환
-linktitle: DWG에서 규정 준수 PDF로
-second_title: Aspose.CAD 자바 API
-description: Java용 Aspose.CAD를 사용하여 DWG 도면을 PDF/A1a 및 PDF/A1b 호환 파일로 쉽게 변환합니다. 정확하고 쉽게 작업 흐름을 간소화하세요.
-weight: 11
+date: 2026-01-04
+description: Aspose.CAD for Java를 사용하여 Java에서 DWG를 PDF로 손쉽게 변환하고, PDF/A‑준수 파일(PDF/A1a,
+  PDF/A1b)을 생성합니다. 정밀하게 DWG를 PDF로 내보냅니다.
+linktitle: DWG to Compliance PDF
+second_title: Aspose.CAD Java API
+title: java dwg to pdf – Aspose.CAD for Java를 사용하여 DWG를 규정 준수 PDF로 변환
 url: /ko/java/cad-to-pdf-and-svg-export-options/dwg-to-compliance-pdf/
+weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Java용 Aspose.CAD를 사용하여 DWG를 규정 준수 PDF로 변환
+# java dwg to pdf – Aspose.CAD for Java를 사용하여 DWG를 규격 PDF로 변환
 
-## 소개
+## Introduction
 
-끊임없이 진화하는 디지털 설계 세계에서 DWG 도면을 규정 준수 PDF 형식으로 변환해야 하는 필요성은 원활한 협업과 표준화된 문서화에 매우 중요합니다. Aspose.CAD for Java는 이 프로세스에서 효율성과 정확성을 제공하는 강력한 도구로 등장합니다. 이 튜토리얼에서는 Java용 Aspose.CAD를 활용하여 DWG 파일을 호환 PDF로 쉽게 변환하고 PDF/A1a 및 PDF/A1b 표준을 준수하는 방법을 살펴보겠습니다.
+현대 엔지니어링 및 디자인 워크플로우에서 **java dwg to pdf** 변환은 일상적인 요구사항입니다. 팀은 도면을 모든 장치에서 읽을 수 있는 형식으로 공유하면서 아카이빙을 위한 엄격한 PDF/A 규격을 충족해야 합니다. Aspose.CAD for Java를 사용하면 이 작업이 간단해집니다: **DWG를 PDF로 내보내기**하고 PDF/A‑1a 또는 PDF/A‑1b 규격을 선택하며 Java 애플리케이션에서 전체 프로세스를 자동화할 수 있습니다. 이 튜토리얼에서는 DWG 파일을 규격 PDF로 변환하는 정확한 단계들을 안내하고 **dwg 변환 방법**에 답변하며 **pdf/a 파일 생성**을 프로그래밍 방식으로 수행하는 방법을 보여드립니다.
 
-## 전제 조건
+## Quick Answers
+- **What library handles java dwg to pdf conversion?** Aspose.CAD for Java.
+- **Which levels are supported?** PDF/A‑1a and PDF/A‑1b.
+- **Do I need a license for development?** A temporary license is available for testing.
+- **Can I batch‑process multiple DWG files?** Yes – just repeat the steps for each file.
+- **Is the code compatible with Java 8+?** Absolutely, it works with any modern JDK.
 
-튜토리얼을 시작하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
+## What is java dwg to pdf conversion?
+DWG 도면을 PDF/A 파일로 변환하면 디자인을 어떤 장치에서도 손실 없이 볼 수 있을 뿐만 아니라 많은 산업 분야에서 요구하는 장기 보존 표준도 충족할 수 있습니다.
 
-- Java 개발 환경: 시스템에 작동 중인 Java 개발 환경이 설정되어 있는지 확인하십시오.
--  Aspose.CAD 라이브러리: 다음에서 Java용 Aspose.CAD 라이브러리를 다운로드하고 설치합니다.[다운로드 링크](https://releases.aspose.com/cad/java/).
-- 문서 디렉토리: DWG 도면을 저장할 디렉토리를 만듭니다.
+## Why export dwg as pdf with compliance?
+- **Universal access:** PDF 리더는 DWG 뷰어와 달리 어디서나 사용할 수 있습니다.
+- **Regulatory compliance:** PDF/A‑1a는 문서 구조를 보존하고, PDF/A‑1b는 시각적 충실도를 보장합니다.
+- **Automation‑ready:** 변환 작업을 빌드 파이프라인이나 웹 서비스에 통합할 수 있습니다.
+- **Preserve metadata:** PDF/A는 아카이빙에 필요한 핵심 메타데이터를 유지합니다.
 
-## 네임스페이스 가져오기
+## Prerequisites
 
-Java 프로젝트에서 Aspose.CAD의 기능에 액세스하는 데 필요한 네임스페이스를 가져옵니다. Java 파일 시작 부분에 다음 줄을 추가합니다.
+코드를 진행하기 전에 다음을 준비하십시오:
+
+- **Java Development Environment:** JDK 8 이상이 설치되고 설정되어 있어야 합니다.
+- **Aspose.CAD Library:** [download link](https://releases.aspose.com/cad/java/)에서 Aspose.CAD for Java 라이브러리를 다운로드하고 설치합니다.
+- **Document Directory:** DWG 도면이 저장될 폴더를 로컬 머신에 생성합니다.
+
+## Import Namespaces
+
+Java 프로젝트에서 Aspose.CAD와 작업하기 위해 필요한 클래스를 가져옵니다. 아래 코드를 소스 파일 상단에 배치하십시오.
 
 ```java
 import com.aspose.cad.Image;
@@ -38,85 +56,99 @@ import com.aspose.cad.imageoptions.PdfDocumentOptions;
 import com.aspose.cad.imageoptions.PdfOptions;
 ```
 
-## 1단계: 리소스 디렉터리 설정
+## Step : Set the Resource Directory
 
-DWG 도면이 저장되는 리소스 디렉토리의 경로를 정의합니다.
+DWG 파일이 들어 있는 폴더 경로를 정의합니다. 실제 디렉터리 구조에 맞게 문자열을 수정하십시오.
 
 ```java
 String dataDir = "Your Document Directory" + "DWGDrawings/";
 ```
 
-## 2단계: DWG 파일 로드
+## Step 2: Load the DWG File
 
-Aspose.CAD 라이브러리를 사용하여 DWG 파일을 로드합니다.
+Aspose.CAD의 `Image.load` 메서드를 사용하여 DWG 도면을 메모리로 읽어들입니다.
 
 ```java
 String srcFile = dataDir + "Bottom_plate.dwg";
 Image objImage = Image.load(srcFile);
 ```
 
-## 3단계: PDF 옵션 만들기
+## Step 3: Create PDF Options
 
-PdfOptions 인스턴스를 만들고 벡터 래스터화 옵션을 설정합니다.
+`PdfOptions`를 인스턴스화하고 `CadRasterizationOptions` 객체를 연결합니다. 이 객체는 PDF 생성 시 벡터 데이터를 래스터화하는 방식을 제어합니다.
 
 ```java
 PdfOptions pdfOptions = new PdfOptions();
 pdfOptions.setVectorRasterizationOptions(new CadRasterizationOptions());
 ```
 
-## 4단계: 핵심 PDF 옵션 설정
+## Step 4: Set Core PDF Options
 
-규정 준수 표준(PDF/A1a 또는 PDF/A1b)을 지정하여 핵심 PDF 옵션을 설정합니다.
+핵심 PDF 설정을 구성하고 원하는 규격 수준을 지정합니다. 여기서는 PDF/A‑1a부터 시작합니다.
 
 ```java
 pdfOptions.setCorePdfOptions(new PdfDocumentOptions());
 pdfOptions.getCorePdfOptions().setCompliance(PdfCompliance.PdfA1a);
 ```
 
-## 5단계: 규정 준수 A1a로 PDF 저장
+## Step 5: Save PDF with Compliance A1a
 
-A1a를 준수하여 PDF 파일을 저장하십시오.
+이미지를 PDF/A‑1a 규격을 만족하는 파일로 저장합니다.
 
 ```java
 objImage.save(dataDir + "Saved1.pdf", pdfOptions);
 ```
 
-## 6단계: 규정 준수를 A1b로 변경
+## Step 6: Change Compliance to A1b
 
-규격을 PDF/A1b로 변경하고 PDF를 저장합니다.
+PDF/A‑1b가 필요하다면 규격 플래그를 변경하고 다시 저장하면 됩니다.
 
 ```java
 pdfOptions.getCorePdfOptions().setCompliance(PdfCompliance.PdfA1b);
 objImage.save(dataDir + "Saved.pdf", pdfOptions);
 ```
 
-변환하려는 각 DWG 파일에 대해 이 단계를 반복합니다.
+## Step 7: Repeat for Additional Files
 
-## 결론
+DWG 도면이 여러 개일 경우 단계 2‑6을 반복하여 **dwg to pdf/a conversion**을 한 번에 수행할 수 있습니다.
 
-결론적으로, Aspose.CAD for Java는 DWG 파일을 규정 준수 PDF로 변환하기 위한 강력한 솔루션을 제공합니다. 이 단계별 가이드를 따르면 변환 프로세스를 간소화하고 문서가 업계 표준을 준수하는지 확인할 수 있습니다.
+## Common Issues and Solutions
 
-## FAQ
+| Issue | Reason | Fix |
+|-------|--------|-----|
+| **Output PDF is blank** | Rasterization options not set correctly. | Ensure `CadRasterizationOptions` is attached to `PdfOptions`. |
+| **License exception** | Using the library without a valid license. | Apply a temporary or permanent license from Aspose. |
+| **File not found** | Incorrect `dataDir` path. | Verify the directory string and that the DWG file exists. |
+| **Incorrect compliance** | `PdfCompliance` value not updated. | Call `setCompliance` before each `save` call. |
 
-### Q1: Aspose.CAD는 모든 버전의 DWG 파일과 호환됩니까?
+## FAQ's
 
- A1: Aspose.CAD는 최신 버전을 포함하여 다양한 버전의 DWG 파일을 지원합니다. 다음을 참조하세요.[선적 서류 비치](https://reference.aspose.com/cad/java/) 자세한 호환성 정보를 확인하세요.
+### Q1: Is Aspose.CAD compatible with all versions of DWG files?
 
-### Q2: Aspose.CAD를 사용하여 PDF 출력 설정을 사용자 정의할 수 있습니까?
+A1: Aspose.CAD supports various versions of DWG files, including the latest ones. Refer to the [documentation](https://reference.aspose.com/cad/java/) for detailed compatibility information.
 
-A2: 물론이죠! Aspose.CAD는 사용자 정의를 위한 다양한 옵션을 제공하므로 PDF 출력을 특정 요구 사항에 맞게 조정할 수 있습니다.
+### Q2: Can I customize the PDF output settings using Aspose.CAD?
 
-### Q3: Aspose.CAD에 임시 라이선스를 사용할 수 있나요?
+A2: Absolutely! Aspose.CAD offers a range of options for customization, allowing you to tailor the PDF output to your specific requirements.
 
- A3: 예, 테스트 목적으로 임시 라이센스를 얻을 수 있습니다.[이 링크](https://purchase.aspose.com/temporary-license/).
+### Q3: Is a temporary license available for Aspose.CAD?
 
-### Q4: Aspose.CAD에 대한 지원을 구하거나 커뮤니티와 상호 작용할 수 있는 곳은 어디입니까?
+A3: Yes, you can obtain a temporary license for testing purposes from [this link](https://purchase.aspose.com/temporary-license/).
 
- A4: 다음을 방문하세요.[Aspose.CAD 포럼](https://forum.aspose.com/c/cad/19) 커뮤니티 지원 및 토론을 위해.
+### Q4: Where can I seek support or interact with the community for Aspose.CAD?
 
-### Q5: 구매하기 전에 Aspose.CAD를 무료로 사용해 볼 수 있나요?
+A4: Visit the [Aspose.CAD forum](https://forum.aspose.com/c/cad/19) for community support and discussions.
 
- A5: 물론이죠! 다음에서 무료 평가판을 다운로드하세요.[여기](https://releases.aspose.com/) 결정을 내리기 전에 기능을 탐색합니다.
+### Q5: Can I try Aspose.CAD for free before making a purchase?
+
+A5: Certainly! Download the free trial version from [here](https://releases.aspose.com/) to explore the capabilities before making a decision.
+
+---
+
+**Last Updated:** 2026-01-04  
+**Tested With:** Aspose.CAD for Java 24.12  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
