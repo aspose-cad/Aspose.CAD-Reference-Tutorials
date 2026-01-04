@@ -1,33 +1,41 @@
 ---
-title: 使用 Aspose.CAD for Java 從 CAD 匯出 OLE 對象
-linktitle: 從 CAD 匯出 OLE 對象
+date: 2026-01-04
+description: 學習如何將 CAD 另存為 PNG，並使用 Aspose.CAD for Java 輕鬆匯出 CAD 檔案中的 OLE 物件。快速設定、完整程式碼範例與最佳實踐技巧。
+linktitle: Export OLE Objects from CAD
 second_title: Aspose.CAD Java API
-description: 釋放 Aspose.CAD for Java 的潛力。輕鬆從 CAD 檔案匯出 OLE 物件。立即下載以實現無縫 CAD 資料管理。
-weight: 10
+title: 使用 Aspose.CAD for Java 將 CAD 儲存為 PNG 並匯出 OLE 物件
 url: /zh-hant/java/cad-to-pdf-and-svg-export-options/export-ole-objects-from-cad/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 使用 Aspose.CAD for Java 從 CAD 匯出 OLE 對象
+# 將 CAD 儲存為 PNG 並匯出 OLE 物件（使用 Aspose.CAD for Java）
 
 ## 介紹
 
-在電腦輔助設計 (CAD) 的動態世界中，有效管理和提取 OLE（物件連結和嵌入）物件至關重要。 Aspose.CAD for Java 提供了從 CAD 檔案匯出 OLE 物件的強大解決方案。本逐步指南將引導您完成整個過程，確保您充分利用工具的潛力。
+在快速變化的電腦輔助設計（CAD）領域，能夠 **將 CAD 儲存為 PNG** 同時擷取內嵌的 OLE（Object Linking and Embedding）物件，能大幅簡化工作流程。無論您是要建立批次轉換工具、為網站入口產生縮圖，或只是需要歸檔 OLE 內容，Aspose.CAD for Java 都提供乾淨且程式化的解決方案。本教學將從專案設定一步步說明，直到將每個 OLE 物件匯出為 PNG 圖片。
 
-## 先決條件
+## 快速答覆
+- **可以直接將 OLE 物件匯出為 PNG 嗎？** 可以 – Aspose.CAD 會載入 CAD 檔案，並讓您將每個版面光柵化為 PNG。  
+- **需要哪個版本的 Java？** Java 8 或更新版本。  
+- **此功能需要授權嗎？** 評估可使用免費試用版；正式環境需購買授權。  
+- **向量資料會被保留嗎？** PNG 光柵化保留視覺相似度，但輸出為點陣圖，非向量。  
+- **支援批次處理嗎？** 完全支援 – 如程式碼範例所示，可遍歷檔案陣列。
 
-在深入學習本教程之前，請確保您具備以下先決條件：
+## 前置條件
 
-- Java 環境：確保您的電腦上設定了 Java 開發環境。
--  Aspose.CAD for Java：下載並安裝 Aspose.CAD for Java 函式庫。您可以在以下位置找到該圖書館：[下載連結](https://releases.aspose.com/cad/java/).
-- CAD 檔案：準備包含要匯出的 OLE 物件的 CAD 檔案。
+在開始之前，請確保您已具備以下項目：
 
-## 導入命名空間
+- **Java Development Kit (JDK)** – 已安裝並設定 Java 8 以上。  
+- **Aspose.CAD for Java** – 從[下載連結](https://releases.aspose.com/cad/java/)取得最新程式庫。  
+- **CAD 原始檔** – 任意包含 OLE 物件的 DWG/DXF/DGN 檔案。
 
-首先，將必要的名稱空間匯入到您的 Java 專案中。這些命名空間提供了使用 Aspose.CAD 處理 CAD 檔案所需的基本類別和功能。
+## 匯入命名空間
+
+使用 CAD 檔案前，需要匯入 Aspose.CAD 的核心類別。請保持以下匯入區塊原樣不變，因為稍後的教學會用到這些類別。
 
 ```java
 import com.aspose.cad.Image;
@@ -37,25 +45,29 @@ import com.aspose.cad.imageoptions.CadRasterizationOptions;
 import com.aspose.cad.imageoptions.PngOptions;
 ```
 
-現在，讓我們將從 CAD 匯出 OLE 物件的過程分解為多個步驟：
+## 如何將 CAD 儲存為 PNG
 
-## 第 1 步：設定您的文件目錄
+以下提供簡潔的逐步指南，說明 **如何匯出 OLE 物件並將 CAD 儲存為 PNG**。每一步都有簡短說明，並附上可直接複製到專案中的程式碼。
+
+### 步驟 1：設定文件目錄
+
+指定存放 CAD 圖紙的資料夾。將佔位字串替換為您機器上的實際路徑。
 
 ```java
 String dataDir = "Your Document Directory" + "DWGDrawings/";
 ```
 
-確保將“您的文件目錄”替換為包含 CAD 檔案的目錄路徑。
+### 步驟 2：定義 CAD 檔案名稱
 
-## 步驟 2：定義 CAD 檔名
+列出所有要處理的 CAD 檔案。可依需求自行增減項目。
 
 ```java
 String[] files = new String[] { "D ZD junior D10m H2m.dwg", "ZD - Senior D6m H2m45.dwg" };
 ```
 
-指定要處理的 CAD 檔案的名稱`files`大批。
+### 步驟 3：設定 PNG 匯出選項
 
-## 第 3 步：設定 PNG 匯出選項
+配置光柵化設定。此範例以特定版面 (`Layout1`) 為目標，並使用預設的 PNG 選項。
 
 ```java
 PngOptions pngOptions = new PngOptions();
@@ -64,9 +76,9 @@ pngOptions.setVectorRasterizationOptions(rasterizationOptions);
 rasterizationOptions.setLayouts(new String[] { "Layout1" });
 ```
 
-配置 PNG 匯出選項，包括向量光柵化和佈局設定。
+### 步驟 4：遍歷 CAD 檔案並儲存為 PNG
 
-## 第 4 步：迭代 CAD 文件
+載入每個 CAD 檔案、光柵化 OLE 物件，並寫入 PNG 檔案。`_out.png` 後綴可協助辨識產生的圖像。
 
 ```java
 for(String file : files)
@@ -76,33 +88,46 @@ for(String file : files)
 }
 ```
 
-迭代每個指定的 CAD 文件，使用 Aspose.CAD 載入它，並將 OLE 物件儲存為 PNG 映像。
+## 常見問題與解決方案
 
-## 結論
+| 問題 | 為何會發生 | 解決方式 |
+|------|------------|----------|
+| **`Image.load` 拋出 `FileNotFoundException`** | `dataDir` 路徑錯誤或檔名拼寫有誤。 | 再次確認目錄字串，並確保檔名完全相符（含空格）。 |
+| **輸出的 PNG 為空白** | 版面名稱在來源 CAD 檔案中不存在。 | 使用 `cadImage.getLayouts()` 列出可用版面，然後更新 `rasterizationOptions.setLayouts(...)`。 |
+| **大型 CAD 檔案導致 OutOfMemoryError** | 高解析度光柵化會消耗大量堆積記憶體。 | 增加 JVM 堆積 (`-Xmx2g`) 或降低解析度，方法是 `rasterizationOptions.setResolution(...)`。 |
 
-透過這些簡單但功能強大的步驟，您可以使用 Aspose.CAD for Java 從 CAD 檔案無縫匯出 OLE 物件。這種多功能工具使開發人員能夠有效管理 CAD 數據，為 CAD 應用程式開發開闢了新的可能性。
+## 常見問答
 
-## 常見問題解答
+### Q1：Aspose.CAD 是否相容所有 CAD 檔案格式？
 
-### Q1：Aspose.CAD 是否相容於所有 CAD 檔案格式？
-
- A1：Aspose.CAD支援多種CAD格式，包括DWG、DXF和DGN。請參閱[文件](https://reference.aspose.com/cad/java/)取得完整清單。
+A1：Aspose.CAD 支援多種 CAD 格式，包括 DWG、DXF 與 DGN。完整支援清單請參閱[文件說明](https://reference.aspose.com/cad/java/)。
 
 ### Q2：我可以自訂 OLE 物件的匯出設定嗎？
 
-A2：是的，Aspose.CAD 提供了廣泛的自訂匯出設定選項，可讓您根據您的特定要求自訂輸出。
+A2：可以，Aspose.CAD 提供豐富的選項讓您依需求調整匯出設定。
 
-### Q3：Aspose.CAD 有免費試用版嗎？
+### Q3：Aspose.CAD 有提供免費試用嗎？
 
- A3：是的，您可以透過取得免費試用版來探索 Aspose.CAD 的功能[這裡](https://releases.aspose.com/).
+A3：有，您可從[此處](https://releases.aspose.com/)取得免費試用版，體驗其功能。
 
-### 問題 4：我可以在哪裡獲得 Aspose.CAD 的社群支持？
+### Q4：哪裡可以取得 Aspose.CAD 的社群支援？
 
- A4：加入 Aspose.CAD 社群：[論壇](https://forum.aspose.com/c/cad/19)尋求協助並分享您的經驗。
+A4：請前往[Aspose.CAD 論壇](https://forum.aspose.com/c/cad/19)加入討論，尋求協助或分享經驗。
 
-### Q5: 如何購買 Aspose.CAD 的授權？
+### Q5：如何購買 Aspose.CAD 的授權？
 
-A5：訪問[購買頁面](https://purchase.aspose.com/buy)取得適合您的開發需求的授權。
+A5：請造訪[購買頁面](https://purchase.aspose.com/buy)選擇符合您開發需求的授權方案。
+
+## 結論
+
+依照上述五個簡單步驟，您即可 **將 CAD 儲存為 PNG** 並以少量 Java 程式碼擷取所有內嵌 OLE 物件。此方法特別適合批次轉換、自動化報表或任何需要 CAD 內容點陣圖而不想手動匯出的情境。歡迎自行嘗試不同的光柵化參數，以符合品質與效能需求。
+
+---
+
+**最後更新：** 2026-01-04  
+**測試環境：** Aspose.CAD for Java 24.12（撰寫時的最新版本）  
+**作者：** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -1,33 +1,42 @@
 ---
-title: Java용 Aspose.CAD를 사용하여 CAD에서 OLE 개체 내보내기
-linktitle: CAD에서 OLE 개체 내보내기
-second_title: Aspose.CAD 자바 API
-description: Java용 Aspose.CAD의 잠재력을 활용해 보세요. CAD 파일에서 OLE 개체를 쉽게 내보낼 수 있습니다. 원활한 CAD 데이터 관리를 위해 지금 다운로드하세요.
-weight: 10
+date: 2026-01-04
+description: Aspose.CAD for Java를 사용하여 **CAD를 PNG로 저장**하고 CAD 파일에서 OLE 객체를 손쉽게 내보내는
+  방법을 배워보세요. 빠른 설정, 전체 코드 샘플, 그리고 모범 사례 팁을 제공합니다.
+linktitle: Export OLE Objects from CAD
+second_title: Aspose.CAD Java API
+title: Aspose.CAD for Java로 CAD를 PNG로 저장하고 OLE 객체를 내보내기
 url: /ko/java/cad-to-pdf-and-svg-export-options/export-ole-objects-from-cad/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Java용 Aspose.CAD를 사용하여 CAD에서 OLE 개체 내보내기
+# Aspose.CAD for Java를 사용하여 CAD를 PNG로 저장하고 OLE 객체 내보내기
 
 ## 소개
 
-역동적인 CAD(Computer-Aided Design) 세계에서는 OLE(Object Linking and Embedding) 개체를 효율적으로 관리하고 추출하는 것이 중요합니다. Aspose.CAD for Java는 CAD 파일에서 OLE 개체를 내보내기 위한 강력한 솔루션을 제공합니다. 이 단계별 가이드는 프로세스를 안내하여 이 도구의 잠재력을 최대한 활용하도록 보장합니다.
+빠르게 변화하는 컴퓨터 지원 설계 (CAD) 분야에서 **CAD를 PNG로 저장**하면서 포함된 OLE(Object Linking and Embedding) 객체를 추출할 수 있다면 작업 흐름을 크게 간소화할 수 있습니다. 배치 변환 도구를 만들든, 웹 포털용 썸네일을 생성하든, 혹은 OLE 콘텐츠를 보관하든, Aspose.CAD for Java는 이를 프로그램matically 수행할 수 있는 깔끔한 방법을 제공합니다. 이 튜토리얼에서는 프로젝트 설정부터 각 OLE 객체를 PNG 이미지로 내보내는 전체 과정을 단계별로 안내합니다.
 
-## 전제 조건
+## 빠른 답변
+- **Can I export OLE objects directly to PNG?** Yes – Aspose.CAD loads the CAD file and lets you rasterize each layout to PNG.  
+- **What Java version is required?** Java 8 or later.  
+- **Do I need a license for this feature?** A free trial works for evaluation; a license is required for production.  
+- **Will vector data be preserved?** The PNG rasterization keeps visual fidelity, but the output is raster, not vector.  
+- **Is batch processing supported?** Absolutely – iterate over an array of files as shown in the code sample.
 
-튜토리얼을 시작하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
+## 사전 요구 사항
 
-- Java 환경: 컴퓨터에 Java 개발 환경이 설정되어 있는지 확인하세요.
--  Aspose.CAD for Java: Aspose.CAD for Java 라이브러리를 다운로드하고 설치하세요. 도서관은 다음에서 찾으실 수 있습니다.[다운로드 링크](https://releases.aspose.com/cad/java/).
-- CAD 파일: 내보낼 OLE 개체가 포함된 CAD 파일을 준비합니다.
+시작하기 전에 다음이 준비되어 있어야 합니다:
+
+- **Java Development Kit (JDK)** – Java 8+가 설치되고 구성되어 있어야 합니다.  
+- **Aspose.CAD for Java** – 최신 라이브러리를 [download link](https://releases.aspose.com/cad/java/)에서 다운로드하십시오.  
+- **CAD source files** – 내보내고자 하는 OLE 객체가 포함된 DWG/DXF/DGN 파일이면 모두 가능합니다.
 
 ## 네임스페이스 가져오기
 
-시작하려면 필요한 네임스페이스를 Java 프로젝트로 가져옵니다. 이러한 네임스페이스는 Aspose.CAD를 사용하여 CAD 파일 작업에 필요한 필수 클래스와 기능을 제공합니다.
+CAD 파일을 다루려면 핵심 Aspose.CAD 클래스를 가져와야 합니다. 아래와 같이 import 블록을 그대로 유지하십시오 – 튜토리얼 후반에 사용되는 클래스들을 제공합니다.
 
 ```java
 import com.aspose.cad.Image;
@@ -37,25 +46,29 @@ import com.aspose.cad.imageoptions.CadRasterizationOptions;
 import com.aspose.cad.imageoptions.PngOptions;
 ```
 
-이제 CAD에서 OLE 객체를 내보내는 과정을 여러 단계로 나누어 보겠습니다.
+## CAD를 PNG로 저장하는 방법
 
-## 1단계: 문서 디렉터리 설정
+아래는 **OLE 객체를 내보내고 CAD를 PNG로 저장하는** 방법을 단계별로 간결하게 정리한 가이드입니다. 각 단계마다 짧은 설명과 프로젝트에 복사해 넣어야 할 정확한 코드를 제공합니다.
+
+### 단계 1: 문서 디렉터리 설정
+
+CAD 도면이 저장된 폴더를 정의합니다. 플레이스홀더를 실제 머신의 경로로 교체하십시오.
 
 ```java
 String dataDir = "Your Document Directory" + "DWGDrawings/";
 ```
 
-"문서 디렉토리"를 CAD 파일이 포함된 디렉토리 경로로 바꾸십시오.
+### 단계 2: CAD 파일 이름 정의
 
-## 2단계: CAD 파일 이름 정의
+처리하려는 모든 CAD 파일을 나열합니다. 필요에 따라 항목을 추가하면 됩니다.
 
 ```java
 String[] files = new String[] { "D ZD junior D10m H2m.dwg", "ZD - Senior D6m H2m45.dwg" };
 ```
 
- 처리하려는 CAD 파일의 이름을 지정하십시오.`files` 정렬.
+### 단계 3: PNG 내보내기 옵션 설정
 
-## 3단계: PNG 내보내기 옵션 설정
+래스터화 설정을 구성합니다. 여기서는 특정 레이아웃(`Layout1`)을 대상으로 하고 기본 PNG 옵션을 사용합니다.
 
 ```java
 PngOptions pngOptions = new PngOptions();
@@ -64,9 +77,9 @@ pngOptions.setVectorRasterizationOptions(rasterizationOptions);
 rasterizationOptions.setLayouts(new String[] { "Layout1" });
 ```
 
-벡터 래스터화 및 레이아웃 설정을 포함한 PNG 내보내기 옵션을 구성합니다.
+### 단계 4: CAD 파일을 순회하며 PNG로 저장
 
-## 4단계: CAD 파일 반복
+각 CAD 파일을 로드하고, OLE 객체를 래스터화한 뒤, 출력 PNG 파일을 기록합니다. `_out.png` 접미사는 생성된 이미지를 식별하는 데 도움이 됩니다.
 
 ```java
 for(String file : files)
@@ -76,33 +89,46 @@ for(String file : files)
 }
 ```
 
-지정된 각 CAD 파일을 반복하고 Aspose.CAD를 사용하여 로드한 다음 OLE 개체를 PNG 이미지로 저장합니다.
+## 일반적인 문제 및 해결책
 
-## 결론
-
-이러한 간단하면서도 강력한 단계를 통해 Aspose.CAD for Java를 사용하여 CAD 파일에서 OLE 개체를 원활하게 내보낼 수 있습니다. 이 다용도 도구를 사용하면 개발자가 CAD 데이터를 효율적으로 관리할 수 있어 CAD 응용 프로그램 개발에 새로운 가능성이 열립니다.
+| 문제 | 발생 원인 | 해결 방법 |
+|------|----------|----------|
+| **`Image.load` throws `FileNotFoundException`** | `dataDir` 경로가 잘못되었거나 파일 이름에 오타가 있습니다. | 디렉터리 문자열을 다시 확인하고 파일 이름이 정확히 일치하는지(공백 포함) 확인하십시오. |
+| **Output PNG is blank** | 레이아웃 이름이 원본 CAD 파일에 존재하지 않습니다. | `cadImage.getLayouts()`를 사용해 사용 가능한 레이아웃을 확인한 뒤 `rasterizationOptions.setLayouts(...)`를 업데이트하십시오. |
+| **Large CAD files cause OutOfMemoryError** | 고해상도 이미지를 래스터화하면 힙 메모리를 많이 사용합니다. | JVM 힙을 늘리세요(`-Xmx2g`) 또는 `rasterizationOptions.setResolution(...)`로 래스터화 해상도를 낮추십시오. |
 
 ## FAQ
 
-### Q1: Aspose.CAD는 모든 CAD 파일 형식과 호환됩니까?
+### Q1: Aspose.CAD가 모든 CAD 파일 형식과 호환되나요?
 
- A1: Aspose.CAD는 DWG, DXF, DGN을 포함한 다양한 CAD 형식을 지원합니다. 다음을 참조하세요.[선적 서류 비치](https://reference.aspose.com/cad/java/) 전체 목록을 보려면.
+A1: Aspose.CAD는 DWG, DXF, DGN 등 다양한 CAD 형식을 지원합니다. 전체 목록은 [documentation](https://reference.aspose.com/cad/java/)을 참고하십시오.
 
-### Q2: OLE 개체에 대한 내보내기 설정을 사용자 지정할 수 있습니까?
+### Q2: OLE 객체에 대한 내보내기 설정을 사용자 정의할 수 있나요?
 
-A2: 예, Aspose.CAD는 내보내기 설정을 사용자 정의하기 위한 광범위한 옵션을 제공하므로 특정 요구 사항에 맞게 출력을 조정할 수 있습니다.
+A2: 예, Aspose.CAD는 내보내기 설정을 광범위하게 커스터마이징할 수 있는 옵션을 제공하므로 요구 사항에 맞게 출력을 조정할 수 있습니다.
 
-### Q3: Aspose.CAD에 대한 무료 평가판이 있습니까?
+### Q3: Aspose.CAD의 무료 체험판을 이용할 수 있나요?
 
- A3: 예, 다음에서 무료 평가판을 받아 Aspose.CAD의 기능을 탐색할 수 있습니다.[여기](https://releases.aspose.com/).
+A3: 예, [here](https://releases.aspose.com/)에서 무료 체험판을 받아 Aspose.CAD의 기능을 살펴볼 수 있습니다.
 
-### Q4: Aspose.CAD에 대한 커뮤니티 지원은 어디서 받을 수 있나요?
+### Q4: Aspose.CAD 커뮤니티 지원은 어디서 받을 수 있나요?
 
- A4: Aspose.CAD 커뮤니티에 가입하세요.[법정](https://forum.aspose.com/c/cad/19) 도움을 구하고 경험을 공유합니다.
+A4: [forum](https://forum.aspose.com/c/cad/19)에서 Aspose.CAD 커뮤니티에 참여하여 도움을 요청하고 경험을 공유하십시오.
 
-### Q5: Aspose.CAD 라이선스는 어떻게 구매할 수 있나요?
+### Q5: Aspose.CAD 라이선스는 어떻게 구매하나요?
 
-A5: 다음을 방문하세요.[구매 페이지](https://purchase.aspose.com/buy) 귀하의 개발 요구에 맞는 라이센스를 취득하십시오.
+A5: 개발 요구에 맞는 라이선스를 구매하려면 [purchase page](https://purchase.aspose.com/buy)를 방문하십시오.
+
+## 결론
+
+이 다섯 단계만 따르면 **CAD를 PNG로 저장**하고 Java 코드 몇 줄만으로 모든 포함된 OLE 객체를 추출할 수 있습니다. 이 방법은 배치 변환, 자동 보고서 생성, 혹은 수동 내보내기 없이 CAD 콘텐츠의 래스터 이미지를 필요로 하는 모든 시나리오에 이상적입니다. 품질 및 성능 요구에 맞게 다양한 래스터화 옵션을 실험해 보세요.
+
+---
+
+**Last Updated:** 2026-01-04  
+**Tested With:** Aspose.CAD for Java 24.12 (latest at time of writing)  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

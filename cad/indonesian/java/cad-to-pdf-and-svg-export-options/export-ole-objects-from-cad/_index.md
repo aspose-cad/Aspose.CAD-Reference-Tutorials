@@ -1,33 +1,43 @@
 ---
-title: Ekspor Objek OLE dari CAD Menggunakan Aspose.CAD untuk Java
-linktitle: Ekspor Objek OLE dari CAD
+date: 2026-01-04
+description: Pelajari cara **menyimpan CAD sebagai PNG** dan dengan mudah mengekspor
+  objek OLE dari file CAD menggunakan Aspose.CAD untuk Java. Penyiapan cepat, contoh
+  kode lengkap, dan tips praktik terbaik.
+linktitle: Export OLE Objects from CAD
 second_title: Aspose.CAD Java API
-description: Buka potensi Aspose.CAD untuk Java. Ekspor objek OLE dari file CAD dengan mudah. Unduh sekarang untuk pengelolaan data CAD yang lancar.
-weight: 10
+title: Simpan CAD sebagai PNG dan Ekspor Objek OLE dengan Aspose.CAD untuk Java
 url: /id/java/cad-to-pdf-and-svg-export-options/export-ole-objects-from-cad/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Ekspor Objek OLE dari CAD Menggunakan Aspose.CAD untuk Java
+# Simpan CAD sebagai PNG dan Ekspor OLE Objects dengan Aspose.CAD untuk Java
 
-## Perkenalan
+## Pendahuluan
 
-Dalam dunia Computer-Aided Design (CAD) yang dinamis, mengelola dan mengekstraksi objek OLE (Object Linking and Embedding) secara efisien sangatlah penting. Aspose.CAD untuk Java memberikan solusi ampuh untuk mengekspor objek OLE dari file CAD. Panduan langkah demi langkah ini akan memandu Anda melalui prosesnya, memastikan Anda memanfaatkan potensi penuh dari alat ini.
+Dalam dunia Computer‑Aided Design (CAD) yang bergerak cepat, kemampuan untuk **save CAD as PNG** sambil mengekstrak objek OLE (Object Linking and Embedding) yang tertanam dapat secara dramatis menyederhanakan alur kerja Anda. Apakah Anda sedang membangun alat konversi batch, menghasilkan thumbnail untuk portal web, atau sekadar perlu mengarsipkan konten OLE, Aspose.CAD untuk Java memberikan cara yang bersih dan programatis untuk melakukannya. Dalam tutorial ini kami akan memandu Anda melalui seluruh proses, mulai dari menyiapkan proyek hingga mengekspor setiap objek OLE sebagai gambar PNG.
+
+## Jawaban Cepat
+- **Apakah saya dapat mengekspor objek OLE langsung ke PNG?** Ya – Aspose.CAD memuat file CAD dan memungkinkan Anda meraster setiap layout ke PNG.  
+- **Versi Java apa yang diperlukan?** Java 8 atau lebih baru.  
+- **Apakah saya memerlukan lisensi untuk fitur ini?** Versi percobaan gratis dapat digunakan untuk evaluasi; lisensi diperlukan untuk produksi.  
+- **Apakah data vektor akan dipertahankan?** Rasterisasi PNG mempertahankan kesetiaan visual, tetapi outputnya berupa raster, bukan vektor.  
+- **Apakah pemrosesan batch didukung?** Tentu – iterasi melalui array file seperti yang ditunjukkan dalam contoh kode.
 
 ## Prasyarat
 
-Sebelum masuk ke tutorial, pastikan Anda memiliki prasyarat berikut:
+Sebelum memulai, pastikan Anda memiliki hal berikut:
 
-- Lingkungan Java: Pastikan Anda telah menyiapkan lingkungan pengembangan Java di mesin Anda.
--  Aspose.CAD untuk Java: Unduh dan instal perpustakaan Aspose.CAD untuk Java. Anda dapat menemukan perpustakaan di[tautan unduhan](https://releases.aspose.com/cad/java/).
-- File CAD: Siapkan file CAD yang berisi objek OLE yang ingin Anda ekspor.
+- **Java Development Kit (JDK)** – Java 8+ terpasang dan dikonfigurasi.  
+- **Aspose.CAD for Java** – Unduh pustaka terbaru dari [download link](https://releases.aspose.com/cad/java/).  
+- **CAD source files** – File DWG/DXF/DGN apa pun yang berisi objek OLE yang ingin Anda ekspor.
 
 ## Impor Namespace
 
-Untuk memulai, impor namespace yang diperlukan ke dalam proyek Java Anda. Namespace ini menyediakan kelas dan fungsi penting yang diperlukan untuk bekerja dengan file CAD menggunakan Aspose.CAD.
+Untuk bekerja dengan file CAD Anda perlu mengimpor kelas inti Aspose.CAD. Pertahankan blok impor persis seperti yang ditunjukkan – blok tersebut menyediakan kelas yang akan digunakan nanti dalam tutorial.
 
 ```java
 import com.aspose.cad.Image;
@@ -37,25 +47,29 @@ import com.aspose.cad.imageoptions.CadRasterizationOptions;
 import com.aspose.cad.imageoptions.PngOptions;
 ```
 
-Sekarang, mari kita uraikan proses mengekspor objek OLE dari CAD menjadi beberapa langkah:
+## Cara Menyimpan CAD sebagai PNG
 
-## Langkah 1: Atur Direktori Dokumen Anda
+Berikut adalah panduan singkat langkah‑demi‑langkah yang menunjukkan **cara mengekspor objek OLE dan menyimpan CAD sebagai PNG**. Setiap langkah mencakup penjelasan singkat diikuti oleh kode tepat yang perlu Anda salin ke dalam proyek Anda.
+
+### Langkah 1: Tetapkan Direktori Dokumen Anda
+
+Tentukan folder yang berisi gambar CAD Anda. Ganti placeholder dengan jalur sebenarnya di mesin Anda.
 
 ```java
 String dataDir = "Your Document Directory" + "DWGDrawings/";
 ```
 
-Pastikan untuk mengganti "Direktori Dokumen Anda" dengan jalur ke direktori yang berisi file CAD Anda.
+### Langkah 2: Tentukan Nama File CAD
 
-## Langkah 2: Tentukan Nama File CAD
+Daftar semua file CAD yang ingin Anda proses. Anda dapat menambahkan sebanyak yang diperlukan.
 
 ```java
 String[] files = new String[] { "D ZD junior D10m H2m.dwg", "ZD - Senior D6m H2m45.dwg" };
 ```
 
- Tentukan nama file CAD yang ingin Anda proses di`files` Himpunan.
+### Langkah 3: Atur Opsi Ekspor PNG
 
-## Langkah 3: Tetapkan Opsi Ekspor PNG
+Konfigurasikan pengaturan rasterisasi. Di sini kami menargetkan layout tertentu (`Layout1`) dan menggunakan opsi PNG default.
 
 ```java
 PngOptions pngOptions = new PngOptions();
@@ -64,9 +78,9 @@ pngOptions.setVectorRasterizationOptions(rasterizationOptions);
 rasterizationOptions.setLayouts(new String[] { "Layout1" });
 ```
 
-Konfigurasikan opsi ekspor PNG, termasuk rasterisasi vektor dan pengaturan tata letak.
+### Langkah 4: Iterasi Melalui File CAD dan Simpan sebagai PNG
 
-## Langkah 4: Iterasi Melalui File CAD
+Muat setiap file CAD, rasterisasi objek OLE, dan tulis file PNG output. Akhiran `_out.png` membantu Anda mengidentifikasi gambar yang dihasilkan.
 
 ```java
 for(String file : files)
@@ -76,33 +90,46 @@ for(String file : files)
 }
 ```
 
-Ulangi setiap file CAD yang ditentukan, muat menggunakan Aspose.CAD, dan simpan objek OLE sebagai gambar PNG.
+## Masalah Umum dan Solusinya
 
-## Kesimpulan
-
-Dengan langkah sederhana namun ampuh ini, Anda dapat mengekspor objek OLE dari file CAD dengan lancar menggunakan Aspose.CAD untuk Java. Alat serbaguna ini memberdayakan pengembang untuk mengelola data CAD secara efisien, membuka kemungkinan baru dalam pengembangan aplikasi CAD.
+| Masalah | Mengapa Terjadi | Solusi |
+|---------|----------------|--------|
+| **`Image.load` throws `FileNotFoundException`** | Path `dataDir` tidak benar atau nama file memiliki typo. | Periksa kembali string direktori dan pastikan nama file cocok persis, termasuk spasi. |
+| **Output PNG is blank** | Nama layout tidak ada dalam file CAD sumber. | Gunakan `cadImage.getLayouts()` untuk menampilkan layout yang tersedia, lalu perbarui `rasterizationOptions.setLayouts(...)`. |
+| **Large CAD files cause OutOfMemoryError** | Rasterisasi gambar beresolusi tinggi mengonsumsi banyak memori heap. | Tingkatkan heap JVM (`-Xmx2g`) atau turunkan resolusi rasterisasi melalui `rasterizationOptions.setResolution(...)`. |
 
 ## FAQ
 
 ### Q1: Apakah Aspose.CAD kompatibel dengan semua format file CAD?
 
- A1: Aspose.CAD mendukung berbagai format CAD, termasuk DWG, DXF, dan DGN. Mengacu kepada[dokumentasi](https://reference.aspose.com/cad/java/) untuk daftar lengkapnya.
+A1: Aspose.CAD mendukung berbagai format CAD, termasuk DWG, DXF, dan DGN. Lihat [documentation](https://reference.aspose.com/cad/java/) untuk daftar lengkap.
 
-### Q2: Dapatkah saya menyesuaikan pengaturan ekspor untuk objek OLE?
+### Q2: Apakah saya dapat menyesuaikan pengaturan ekspor untuk objek OLE?
 
-A2: Ya, Aspose.CAD menyediakan opsi ekstensif untuk menyesuaikan pengaturan ekspor, memungkinkan Anda menyesuaikan output dengan kebutuhan spesifik Anda.
+A2: Ya, Aspose.CAD menyediakan banyak opsi untuk menyesuaikan pengaturan ekspor, memungkinkan Anda menyesuaikan output sesuai kebutuhan spesifik Anda.
 
-### Q3: Apakah ada uji coba gratis yang tersedia untuk Aspose.CAD?
+### Q3: Apakah tersedia versi percobaan gratis untuk Aspose.CAD?
 
- A3: Ya, Anda dapat mengeksplorasi kemampuan Aspose.CAD dengan mendapatkan uji coba gratis dari[Di Sini](https://releases.aspose.com/).
+A3: Ya, Anda dapat menjelajahi kemampuan Aspose.CAD dengan mendapatkan versi percobaan gratis dari [here](https://releases.aspose.com/).
 
-### Q4: Di mana saya bisa mendapatkan dukungan komunitas untuk Aspose.CAD?
+### Q4: Di mana saya dapat mendapatkan dukungan komunitas untuk Aspose.CAD?
 
- A4: Bergabunglah dengan komunitas Aspose.CAD di[forum](https://forum.aspose.com/c/cad/19) untuk mencari bantuan dan berbagi pengalaman Anda.
+A4: Bergabunglah dengan komunitas Aspose.CAD di [forum](https://forum.aspose.com/c/cad/19) untuk meminta bantuan dan berbagi pengalaman Anda.
 
 ### Q5: Bagaimana cara membeli lisensi untuk Aspose.CAD?
 
-A5: Kunjungi[halaman pembelian](https://purchase.aspose.com/buy) untuk mendapatkan lisensi yang sesuai dengan kebutuhan pengembangan Anda.
+A5: Kunjungi [purchase page](https://purchase.aspose.com/buy) untuk memperoleh lisensi yang sesuai dengan kebutuhan pengembangan Anda.
+
+## Kesimpulan
+
+Dengan mengikuti lima langkah sederhana ini, Anda dapat **save CAD as PNG** dan mengekstrak setiap objek OLE yang tertanam hanya dengan beberapa baris kode Java. Pendekatan ini ideal untuk konversi batch, pelaporan otomatis, atau skenario apa pun di mana Anda memerlukan gambar raster konten CAD tanpa ekspor manual. Jangan ragu untuk bereksperimen dengan opsi rasterisasi yang berbeda untuk menyesuaikan kebutuhan kualitas dan kinerja Anda.
+
+---
+
+**Terakhir Diperbarui:** 2026-01-04  
+**Diuji Dengan:** Aspose.CAD for Java 24.12 (latest at time of writing)  
+**Penulis:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
