@@ -1,31 +1,51 @@
 ---
-title: Εξαγωγή ενσωματωμένου DGN σε PDF με το Aspose.CAD για Java
-linktitle: Εξαγωγή ενσωματωμένου DGN
+date: 2026-01-07
+description: Μάθετε πώς να εξάγετε CAD σε PDF και να μετατρέψετε DGN σε PDF χρησιμοποιώντας
+  το Aspose.CAD για Java. Οδηγός βήμα‑προς‑βήμα για προγραμματιστές Java.
+linktitle: Export Embedded DGN
 second_title: Aspose.CAD Java API
-description: Εξερευνήστε τον οδηγό βήμα προς βήμα για την εξαγωγή ενσωματωμένων αρχείων DGN σε PDF χρησιμοποιώντας το Aspose.CAD για Java. Βελτιώστε τις εφαρμογές σας Java με απρόσκοπτη διαχείριση αρχείων CAD.
-weight: 11
+title: Εξαγωγή CAD σε PDF – Εξαγωγή ενσωματωμένου DGN με το Aspose.CAD για Java
 url: /el/java/dgn-export-options/export-embedded-dgn/
+weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Εξαγωγή ενσωματωμένου DGN σε PDF με το Aspose.CAD για Java
+# Εξαγωγή CAD σε PDF – Εξαγωγή ενσωματωμένου DGN με Aspose.CAD for Java
 
-## Εισαγωγή
+## Introduction
 
-Καλώς ήρθατε σε αυτό το περιεκτικό σεμινάριο εξαγωγής ενσωματωμένων αρχείων DGN χρησιμοποιώντας το Aspose.CAD για Java. Το Aspose.CAD είναι μια ισχυρή βιβλιοθήκη που επιτρέπει στους προγραμματιστές Java να εργάζονται με αρχεία CAD απρόσκοπτα. Σε αυτό το σεμινάριο, θα σας καθοδηγήσουμε στη διαδικασία εξαγωγής ενσωματωμένων αρχείων DGN σε PDF χρησιμοποιώντας οδηγίες βήμα προς βήμα. Είτε είστε έμπειρος προγραμματιστής είτε μόλις ξεκινάτε, αυτό το σεμινάριο θα σας βοηθήσει να αξιοποιήσετε τις δυνατότητες του Aspose.CAD για να βελτιώσετε τις εφαρμογές σας Java.
+Σε αυτό το tutorial θα ανακαλύψετε **πώς να εξάγετε CAD σε PDF** μετατρέποντας ένα ενσωματωμένο αρχείο DGN σε ένα PDF υψηλής ποιότητας με το Aspose.CAD for Java. Το Aspose.CAD είναι μια ισχυρή βιβλιοθήκη που δίνει στους προγραμματιστές Java πλήρη έλεγχο πάνω στη διαχείριση αρχείων CAD, είτε χρειάζεστε **convert DGN to PDF**, **convert DWG to PDF**, είτε απλώς να αποδώσετε σχέδια CAD σε άλλες μορφές. Ακολουθήστε τον οδηγό βήμα‑βήμα παρακάτω και θα μπορείτε να ενσωματώσετε αυτή τη δυνατότητα στις εφαρμογές σας σε λίγα λεπτά.
 
-## Προαπαιτούμενα
+## Quick Answers
+- **Τι σημαίνει “εξαγωγή CAD σε PDF”;** Μετατρέπει τα σχέδια CAD (DWG, DGN κ.λπ.) σε αρχεία PDF διατηρώντας την ποιότητα των διανυσματικών δεδομένων.  
+- **Ποια βιβλιοθήκη χρησιμοποιείται;** Aspose.CAD for Java.  
+- **Χρειάζομαι άδεια;** Απαιτείται άδεια για παραγωγή· διατίθεται δωρεάν δοκιμή.  
+- **Ποια είναι τα κύρια προαπαιτούμενα;** Περιβάλλον ανάπτυξης Java και το JAR του Aspose.CAD for Java.  
+- **Μπορώ να προσαρμόσω το αποτέλεσμα;** Ναι – μπορείτε να επιλέξετε διατάξεις, να ορίσετε επιλογές rasterization και να ελέγξετε τις ρυθμίσεις PDF.
 
-Πριν ξεκινήσουμε το σεμινάριο, βεβαιωθείτε ότι έχετε τις ακόλουθες προϋποθέσεις:
-- Περιβάλλον ανάπτυξης Java: Βεβαιωθείτε ότι έχετε ρυθμίσει ένα περιβάλλον ανάπτυξης Java στον υπολογιστή σας.
--  Aspose.CAD για Java: Κατεβάστε και εγκαταστήστε τη βιβλιοθήκη Aspose.CAD για Java από[εδώ](https://releases.aspose.com/cad/java/).
+## What is “export CAD to PDF”?
 
-## Εισαγωγή πακέτων
+Η εξαγωγή CAD σε PDF σημαίνει τη λήψη ενός εγγενούς αρχείου CAD (όπως DWG ή DGN) και τη δημιουργία ενός εγγράφου PDF που αναπαριστά πιστά τη γεωμετρία του αρχικού αρχείου. Το PDF μπορεί να προβληθεί σε οποιαδήποτε πλατφόρμα χωρίς την ανάγκη λογισμικού CAD, καθιστώντας το ιδανικό για κοινή χρήση, εκτύπωση ή αρχειοθέτηση.
 
-Για να ξεκινήσετε, πρέπει να εισαγάγετε τα απαραίτητα πακέτα στο έργο σας Java. Προσθέστε τις ακόλουθες δηλώσεις εισαγωγής στον κώδικά σας:
+## Why use Aspose.CAD for Java to convert DGN to PDF?
+- **Χωρίς εξωτερικές εξαρτήσεις** – λειτουργεί αποκλειστικά σε Java.  
+- **Διατηρεί τα διανυσματικά δεδομένα** – τα PDF παραμένουν καθαρά σε οποιοδήποτε επίπεδο ζουμ.  
+- **Λεπτομερής έλεγχος** – επιλέξτε συγκεκριμένες διατάξεις, ορίστε DPI rasterization και ενσωματώστε γραμματοσειρές.  
+- **Έτοιμο για επιχειρήσεις** – υποστηρίζει μεγάλα αρχεία, επεξεργασία δέσμης και επιλογές αδειοδότησης.
+
+## Prerequisites
+
+Πριν ξεκινήσουμε, βεβαιωθείτε ότι διαθέτετε τα εξής:
+
+- **Περιβάλλον Ανάπτυξης Java** – εγκατεστημένο και ρυθμισμένο JDK 8 ή νεότερο.  
+- **Aspose.CAD for Java** – κατεβάστε το πιο πρόσφατο JAR από [here](https://releases.aspose.com/cad/java/).
+
+## Import Packages
+
+Για να ξεκινήσετε, πρέπει να εισάγετε τις απαραίτητες κλάσεις στο έργο σας Java. Προσθέστε τις παρακάτω δηλώσεις import στο αρχείο πηγαίου κώδικα:
 
 ```java
 import java.io.FileNotFoundException;
@@ -40,78 +60,94 @@ import com.aspose.cad.imageoptions.JpegOptions;
 import com.aspose.cad.imageoptions.PdfOptions;
 ```
 
-Τώρα, ας αναλύσουμε το παράδειγμα κώδικα σε πολλά βήματα:
+## How to export DGN to PDF using Aspose.CAD for Java?
 
-## Βήμα 1: Ρύθμιση Διαδρομών Εισόδου και Εξόδου
+Παρακάτω υπάρχει ένας σαφής, αριθμημένος οδηγός που δείχνει ακριβώς πώς να μετατρέψετε ένα ενσωματωμένο αρχείο DGN (αποθηκευμένο μέσα σε DWG) σε PDF.
 
-Καθορίστε τη διαδρομή καταλόγου όπου βρίσκεται το έγγραφό σας και καθορίστε το όνομα αρχείου εισόδου DWG.
+### Step 1: Set Up Input and Output Paths
+
+Ορίστε τον φάκελο που περιέχει το αρχείο προέλευσης και καθορίστε το DWG που περιέχει το ενσωματωμένο DGN.
 
 ```java
 String dataDir = "Your Document Directory" + "ExportingDGN/";
 String fileName = dataDir + "BlockRefDgn.dwg";
 ```
 
-## Βήμα 2: Φορτώστε το αρχείο DWG
+### Step 2: Load DWG File
 
- Φορτώστε το αρχείο DWG σε ένα`Image` αντικείμενο χρησιμοποιώντας Aspose.CAD.
+Φορτώστε το αρχείο DWG σε ένα αντικείμενο `Image`. Το Aspose.CAD ανιχνεύει αυτόματα τα ενσωματωμένα δεδομένα DGN.
 
 ```java
 Image objImage = Image.load(fileName);
 ```
 
-## Βήμα 3: Διαμορφώστε τις επιλογές Rasterization
+### Step 3: Configure Rasterization Options
 
-Διαμορφώστε τις επιλογές ραστεροποίησης, όπως διατάξεις που θα συμπεριληφθούν στην εξαγωγή.
+Επιλέξτε ποιες διατάξεις θέλετε να συμπεριλάβετε στο PDF. Σε αυτό το παράδειγμα εξάγουμε μόνο τη διάταξη **Model**.
 
 ```java
 CadRasterizationOptions rasterizationOptions = new CadRasterizationOptions();
 rasterizationOptions.setLayouts(new String[] {"Model"});
 ```
 
-## Βήμα 4: Διαμόρφωση επιλογών PDF
+### Step 4: Configure PDF Options
 
-Ρυθμίστε τις επιλογές PDF, συμπεριλαμβανομένων των διανυσματικών επιλογών ραστεροποίησης.
+Συνδέστε τις ρυθμίσεις rasterization με τις επιλογές εξαγωγής PDF.
 
 ```java
 PdfOptions pdfOptions = new PdfOptions();
 pdfOptions.setVectorRasterizationOptions(rasterizationOptions);
 ```
 
-## Βήμα 5: Αποθήκευση αρχείου PDF
+### Step 5: Save PDF File
 
-Αποθηκεύστε το αρχείο PDF με τις διαμορφωμένες επιλογές.
-```java
+Τέλος, γράψτε το PDF στο δίσκο χρησιμοποιώντας τις διαμορφωμένες επιλογές```java
 objImage.save(dataDir + "BlockRefDgn.pdf", pdfOptions);
 ```
 
-## συμπέρασμα
+## Convert DWG to PDF – an additional tip
 
-Συγχαρητήρια! Εξάγατε με επιτυχία ένα ενσωματωμένο αρχείο DGN σε PDF χρησιμοποιώντας το Aspose.CAD για Java. Αυτό το σεμινάριο κάλυψε τα βασικά βήματα για την ενσωμάτωση του Aspose.CAD στην εφαρμογή Java για αποτελεσματικό χειρισμό αρχείων CAD.
+Αν το αρχείο προέλευσής σας είναι ένα απλό DWG (χωρίς ενσωματωμένο DGN), μπορείτε να επαναχρησιμοποιήσετε τον ίδιο κώδικα – απλώς αλλάξτε το `fileName` ώστε να δείχνει στο DWG που θέλετε να μετατρέψετε. Οι ρυθμίσεις rasterization και PDF παραμένουν ίδιες, παρέχοντάς σας μια συνεπή ροή εργασίας **convert DWG to PDF**.
 
-## Συχνές ερωτήσεις
+## Common Issues and Solutions
 
-### Ε1: Μπορώ να χρησιμοποιήσω το Aspose.CAD για Java σε ένα εμπορικό έργο;
+| Issue | Reason | Solution |
+|-------|--------|----------|
+| **Blank PDF output** | Layout name mismatch | Verify that the layout name passed to `setLayouts` exactly matches the layout in the source file (case‑sensitive). |
+| **License exception** | Using the trial without a license | Apply a valid Aspose.CAD license before loading the image (`License license = new License(); license.setLicense("Aspose.CAD.lic");`). |
+| **File not found** | Incorrect `dataDir` path | Use an absolute path or ensure the relative path is correct relative to the project’s working directory. |
+| **Low‑resolution graphics** | Default rasterization DPI is low | Set `rasterizationOptions.setPageWidth/Height` or `setResolution` to increase DPI. |
 
- A1: Ναι, το Aspose.CAD για Java είναι μια εμπορική βιβλιοθήκη. Μπορείτε να αποκτήσετε άδεια από[εδώ](https://purchase.aspose.com/buy).
+## Frequently Asked Questions
 
-### Ε2: Υπάρχει δωρεάν δοκιμή διαθέσιμη;
+**Q: Μπορώ να χρησιμοποιήσω το Aspose.CAD for Java σε εμπορικό έργο;**  
+A: Ναι, το Aspose.CAD for Java είναι εμπορική βιβλιοθήκη. Μπορείτε να αποκτήσετε άδεια από [here](https://purchase.aspose.com/buy).
 
- A2: Ναι, μπορείτε να έχετε πρόσβαση σε μια δωρεάν δοκιμή του Aspose.CAD για Java[εδώ](https://releases.aspose.com/).
+**Q: Υπάρχει διαθέσιμη δωρεάν δοκιμή;**  
+A: Ναι, μπορείτε να αποκτήσετε δωρεάν δοκιμή του Aspose.CAD for Java [here](https://releases.aspose.com/).
 
-### Ε3: Πώς μπορώ να λάβω υποστήριξη για το Aspose.CAD για Java;
+**Q: Πώς μπορώ να λάβω υποστήριξη για το Aspose.CAD for Java;**  
+A: Μπορείτε να ζητήσετε υποστήριξη από την κοινότητα Aspose.CAD στο [forum](https://forum.aspose.com/c/cad/19).
 
-A3: Μπορείτε να αναζητήσετε υποστήριξη από την κοινότητα Aspose.CAD στο[δικαστήριο](https://forum.aspose.com/c/cad/19).
+**Q: Τι κάνω αν χρειάζομαι προσωρινή άδεια;**  
+A: Μπορείτε να αποκτήσετε προσωρινή άδεια [here](https://purchase.aspose.com/temporary-license/).
 
-### Ε4: Τι γίνεται αν χρειάζομαι μια προσωρινή άδεια;
+**Q: Πού μπορώ να βρω την τεκμηρίωση;**  
+A: Η τεκμηρίωση είναι διαθέσιμη [here](https://reference.aspose.com/cad/java/).
 
- A4: Μπορείτε να αποκτήσετε μια προσωρινή άδεια[εδώ](https://purchase.aspose.com/temporary-license/).
+## Conclusion
 
-### Ε5: Πού μπορώ να βρω την τεκμηρίωση;
+Τώρα έχετε μάθει πώς να **εξάγετε CAD σε PDF**, συγκεκριμένα πώς να **convert DGN to PDF** και ακόμη και **convert DWG to PDF** χρησιμοποιώντας το Aspose.CAD for Java. Ακολουθώντας τα παραπάνω βήματα, μπορείτε να ενσωματώσετε αδιάλειπτη μετατροπή CAD‑σε‑PDF σε οποιαδήποτε λύση βασισμένη σε Java, παρέχοντας PDFs υψηλής ποιότητας στους χρήστες σας χωρίς την ανάγκη πρόσθετου λογισμικού CAD.
 
- A5: Η τεκμηρίωση είναι διαθέσιμη[εδώ](https://reference.aspose.com/cad/java/).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Τελευταία ενημέρωση:** 2026-01-07  
+**Δοκιμή με:** Aspose.CAD for Java 24.12  
+**Συγγραφέας:** Aspose

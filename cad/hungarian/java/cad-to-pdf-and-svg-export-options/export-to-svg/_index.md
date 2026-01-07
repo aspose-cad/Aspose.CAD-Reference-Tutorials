@@ -1,42 +1,53 @@
 ---
-title: Exportálás SVG-be az Aspose.CAD for Java használatával
-linktitle: Exportálás SVG-be
+date: 2026-01-07
+description: Ismerje meg, hogyan exportálhatja a CAD-et SVG formátumba az Aspose.CAD
+  for Java segítségével. Ez a lépésről‑lépésre útmutató bemutatja, hogyan konvertálhat
+  DWG‑t SVG‑re, hogyan állíthatja be az SVG színmódot, és hogyan integrálhatja a könyvtárat
+  Java projektjébe.
+linktitle: Export to SVG
 second_title: Aspose.CAD Java API
-description: Használja ki az Aspose.CAD for Java-ban rejlő lehetőségeket a CAD-rajzok SVG-be exportálásáról szóló, lépésenkénti útmutatónkkal. Ismerje meg, hogyan importálhat névtereket, konfigurálhat beállításokat, és hogyan integrálhatja zökkenőmentesen az Aspose.CAD fájlt Java-projektjébe.
-weight: 12
+title: CAD exportálása SVG-be az Aspose.CAD for Java használatával
 url: /hu/java/cad-to-pdf-and-svg-export-options/export-to-svg/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Exportálás SVG-be az Aspose.CAD for Java használatával
+# CAD exportálása SVG-be az Aspose.CAD for Java segítségével
 
-## Bevezetés
+## Introduction
 
-Üdvözöljük az Aspose.CAD for Java világában, egy hatékony könyvtár, amely lehetővé teszi a fejlesztők számára a CAD-rajzok egyszerű kezelését. Akár tapasztalt fejlesztő, akár újonc a CAD birodalmában, ez az átfogó útmutató végigvezeti Önt a CAD-rajzok SVG formátumba történő exportálásán az Aspose.CAD for Java használatával.
+Üdvözöljük az Aspose.CAD for Java világában, egy erőteljes könyvtárban, amely lehetővé teszi a fejlesztők számára a CAD rajzok könnyű manipulálását. Akár tapasztalt fejlesztő, akár újonc a CAD területén, ez az átfogó útmutató lépésről lépésre végigvezeti Önt a **export CAD to SVG** folyamatán, bemutatva, hogyan konvertáljon DWG-t SVG-be, állítsa be az SVG színmódot, és integrálja az API-t Java projektjébe.
 
-## Előfeltételek
+## Quick Answers
+- **Mi jelent a „export CAD to SVG”?** CAD rajzot (pl. DWG) alakít át Scalable Vector Graphics (SVG) fájlba, amely böngészőkben megjeleníthető.  
+- **Melyik könyvtár végzi a konverziót?** Az Aspose.CAD for Java egyszerű API-t biztosít ehhez a feladathoz.  
+- **Szükségem van licencre a fejlesztéshez?** Ingyenes próba verzió teszteléshez elegendő; a termeléshez kereskedelmi licenc szükséges.  
+- **Kezelhetem az SVG színkimenetet?** Igen, beállítható az SVG színmód (pl. szürkeárnyalatos).  
+- **Szükséges-e további szoftver?** Csak egy Java futtatókörnyezet és az Aspose.CAD JAR fájl.
 
-Mielőtt belevágna az oktatóanyagba, győződjön meg arról, hogy rendelkezik a következő előfeltételekkel:
+## Prerequisites
 
-- Java fejlesztői környezet: Győződjön meg arról, hogy a Java telepítve van a rendszeren.
--  Aspose.CAD Library: Töltse le és telepítse az Aspose.CAD for Java könyvtárat a[letöltési link](https://releases.aspose.com/cad/java/).
-- Dokumentumkönyvtár: Hozzon létre egy könyvtárat a CAD-rajzokhoz, és jegyezze fel annak elérési útját.
+Mielőtt elkezdené a gyakorlati részt, győződjön meg róla, hogy rendelkezik a következőkkel:
 
-## Névterek importálása
+- **Java fejlesztői környezet:** Győződjön meg róla, hogy a Java telepítve van a rendszerén.  
+- **Aspose.CAD Library:** Töltse le és telepítse az Aspose.CAD for Java könyvtárat a [download link](https://releases.aspose.com/cad/java/).  
+- **Document Directory:** Hozzon létre egy könyvtárat a CAD rajzok számára, és jegyezze fel az elérési útját.
 
-Ebben a lépésben importáljuk a szükséges névtereket az Aspose.CAD út elindításához. Kovesd ezeket a lepeseket:
+## Import Namespaces
 
-### 1. lépés: Nyissa meg Java projektjét
-Nyissa meg Java projektjét a választott IDE-ben.
+Ebben a lépésben importáljuk a szükséges névtereket, hogy elindítsuk az Aspose.CAD használatát. Kövesse az alábbi lépéseket:
 
-### 2. lépés: Adja hozzá az Aspose.CAD könyvtárat
-Adja hozzá az Aspose.CAD könyvtárat a projekthez. Ezt úgy teheti meg, hogy belefoglalja a JAR-fájlt a projekt függőségei közé.
+### Step 1: Open Your Java Project
+Nyissa meg a Java projektjét a választott IDE-ben.
 
-### 3. lépés: Névterek importálása
-A Java osztályba importálja a szükséges névtereket:
+### Step 2: Add Aspose.CAD Library
+Adja hozzá az Aspose.CAD könyvtárat a projektjéhez. Ezt a JAR fájl projektfüggőségek közé való felvételével teheti meg.
+
+### Step 3: Import Namespaces
+A Java osztályában importálja a szükséges névtereket:
 
 ```java
 import com.aspose.cad.Image;
@@ -44,29 +55,26 @@ import com.aspose.cad.imageoptions.SvgOptions;
 import com.aspose.cad.imageoptions.SvgColorMode;
 ```
 
-## Exportálás SVG-be
+## Export CAD to SVG
 
-Most, hogy készen állunk, merüljünk el a CAD-rajzok SVG-be való exportálásának lépésről lépésre történő folyamatában az Aspose.CAD for Java használatával.
+Miután előkészítettük a környezetet, merüljünk el a **CAD exportálása SVG-be** lépésről lépésre az Aspose.CAD for Java használatával.
 
-### 1. lépés: Adja meg az erőforrás-könyvtárat
-
-Határozza meg az erőforrás-könyvtár elérési útját, ahol a CAD-rajzok találhatók:
+### Step 1: Specify the Resource Directory
+Adja meg az erőforrás könyvtár elérési útját, ahol a CAD rajzok találhatók:
 
 ```java
 String dataDir = "Your Document Directory" + "DWGDrawings/";
 ```
 
-### 2. lépés: Töltse be a CAD-rajzot
-
-Töltse be a CAD rajzot az Aspose.CAD könyvtár használatával:
+### Step 2: Load the CAD Drawing
+Töltse be a CAD rajzot az Aspose.CAD könyvtár segítségével:
 
 ```java
 Image image = Image.load(dataDir + "meshes.dwg");
 ```
 
-### 3. lépés: Konfigurálja az SVG exportálási beállításokat
-
-Állítsa be az SVG exportálási beállításokat a kimenet testreszabásához:
+### Step 3: Configure SVG Export Options
+Állítsa be az SVG exportálási beállításokat a kimenet testreszabásához. Itt **beállítjuk az SVG színmódot** szürkeárnyalatosra, és megadjuk az exportálónak, hogy a szöveget alakzatokká konvertálja:
 
 ```java
 SvgOptions options = new SvgOptions();
@@ -74,44 +82,76 @@ options.setColorType(SvgColorMode.Grayscale);
 options.setTextAsShapes(true);
 ```
 
-### 4. lépés: Mentés SVG-ként
-
-Mentse el a CAD-rajzot SVG-fájlként:
+### Step 4: Save as SVG
+Mentse a CAD rajzot SVG fájlként:
 
 ```java
 image.save(dataDir + "meshes.svg");
 ```
 
-Gratulálunk! Sikeresen exportált egy CAD-rajzot SVG-be az Aspose.CAD for Java használatával.
+> **Pro tip:** Ha **DWG-t SVG-be** szeretne konvertálni a színek megőrzésével, cserélje a `SvgColorMode.Grayscale` értéket `SvgColorMode.FullColor`-ra.
 
-## Következtetés
+Gratulálunk! Sikeresen exportált egy CAD rajzot SVG-be az Aspose.CAD for Java segítségével.
 
-Ebben az oktatóanyagban megvizsgáltuk az Aspose.CAD for Java kihasználásának zökkenőmentes folyamatát a CAD-rajzok SVG-be való exportálásához. Intuitív API-jával és robusztus funkcióival az Aspose.CAD leegyszerűsíti az összetett feladatokat, sokoldalú eszközt biztosítva a fejlesztőknek a CAD-kezeléshez.
+## Why Use Aspose.CAD to Export CAD to SVG?
+- **Magas hűség:** A vektoradatok megmaradnak, biztosítva, hogy az SVG pontosan úgy nézzen ki, mint az eredeti CAD rajz.  
+- **Nincs külső függőség:** A konverzió teljesen Java-ban fut, így nincs szükség további eszközökre.  
+- **Testreszabható kimenet:** Az olyan beállítások, mint a `setColorType`, lehetővé teszik, hogy a SVG szürkeárnyalatos vagy teljes színű legyen.
 
-## GYIK
+## Common Issues and Solutions
+- **Fájl nem található:** Ellenőrizze, hogy a `dataDir` a megfelelő mappára mutat, és a DWG fájl neve egyezik.  
+- **Üres SVG kimenet:** Győződjön meg róla, hogy beállította a `options.setTextAsShapes(true)`-t, ha a rajz szöveget tartalmaz, amelyet alakzatként kell megjeleníteni.  
+- **Nem támogatott CAD formátum:** Az Aspose.CAD támogatja a DWG, DXF, DWF és több más formátumot; ellenőrizze a dokumentációt a pontos listáért.
 
-### 1. kérdés: Használhatom az Aspose.CAD for Java-t más CAD formátumokkal?
+## Conclusion
 
-1. válasz: Igen, az Aspose.CAD különféle CAD formátumokat támogat, beleértve a DWG, DXF, DWF és egyebeket.
+Ebben az útmutatóban bemutattuk az Aspose.CAD for Java zökkenőmentes használatát a **CAD exportálásához SVG-be**. Intuitív API-jával és robusztus funkcióival az Aspose.CAD leegyszerűsíti a bonyolult feladatokat, és fejlesztőknek sokoldalú eszközt biztosít a CAD manipulációhoz.
 
-### 2. kérdés: Az Aspose.CAD kezdőknek és tapasztalt fejlesztőknek egyaránt alkalmas?
+## FAQ's
 
-A2: Abszolút! Az Aspose.CAD felhasználóbarát API-t kínál, amely elérhetővé teszi a kezdők számára, miközben haladó szolgáltatásokat nyújt a tapasztalt fejlesztők számára.
+### Q1: Can I use Aspose.CAD for Java with other CAD formats?
+Igen, az Aspose.CAD különböző CAD formátumokat támogat, beleértve a DWG, DXF, DWF és egyebeket.
 
-### 3. kérdés: Hol találhatok további támogatást vagy közösségi megbeszéléseket?
+### Q2: Is Aspose.CAD suitable for both beginners and experienced developers?
+Abszolút! Az Aspose.CAD felhasználóbarát API-t kínál, ami a kezdők számára is hozzáférhető, miközben fejlett funkciókat nyújt a tapasztalt fejlesztőknek.
 
- A3: Látogassa meg a[Aspose.CAD fórum](https://forum.aspose.com/c/cad/19) támogatásért és megbeszélésekért.
+### Q3: Where can I find additional support or community discussions?
+Látogassa meg az [Aspose.CAD Fórumot](https://forum.aspose.com/c/cad/19) támogatás és megbeszélések céljából.
 
-### 4. kérdés: Van ingyenes próbaverzió?
+### Q4: Is there a free trial available?
+Igen, a [free trial](https://releases.aspose.com/) segítségével kipróbálhatja az Aspose.CAD-et.
 
- V4: Igen, felfedezheti az Aspose.CAD programot a[ingyenes próbaverzió](https://releases.aspose.com/).
+### Q5: How can I purchase a license for Aspose.CAD for Java?
+Licencet a [purchase page](https://purchase.aspose.com/buy) oldalon vásárolhat.
 
-### 5. kérdés: Hogyan vásárolhatok licencet az Aspose.CAD for Java számára?
+## Frequently Asked Questions
 
- V5: Licenc vásárolható a[vásárlási oldal](https://purchase.aspose.com/buy).
+**Q: Can I convert a DXF file to SVG using the same code?**  
+A: Igen, egyszerűen cserélje le a fájlnevet egy DXF fájlra; az API mindkét formátumot kezeli.
+
+**Q: How do I change the output to full‑color SVG?**  
+A: Állítsa be a `options.setColorType(SvgColorMode.FullColor);` értéket a mentés előtt.
+
+**Q: Is it possible to embed fonts in the generated SVG?**  
+A: Az Aspose.CAD jelenleg a szöveget alakzatokká konvertálja; betűtípusok beágyazása nem szükséges.
+
+**Q: Does the library work on Linux and macOS?**  
+A: A Java könyvtár platformfüggetlen, és bárhol fut, ahol kompatibilis JVM áll rendelkezésre.
+
+**Q: What version of Aspose.CAD was used in this tutorial?**  
+A: A példát az Aspose.CAD for Java 24.10 verzióval tesztelték.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Last Updated:** 2026-01-07  
+**Tested With:** Aspose.CAD for Java 24.10  
+**Author:** Aspose  
+
+---

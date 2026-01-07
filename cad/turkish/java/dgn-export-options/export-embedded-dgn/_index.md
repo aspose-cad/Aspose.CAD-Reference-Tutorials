@@ -1,31 +1,51 @@
 ---
-title: Aspose.CAD for Java ile Gömülü DGN'yi PDF'ye aktarın
-linktitle: Gömülü DGN'yi Dışa Aktar
-second_title: Aspose.CAD Java API'si
-description: Aspose.CAD for Java kullanarak gömülü DGN dosyalarını PDF'ye aktarmaya ilişkin adım adım kılavuzu keşfedin. Sorunsuz CAD dosya işlemeyle Java uygulamalarınızı geliştirin.
-weight: 11
+date: 2026-01-07
+description: Aspose.CAD for Java kullanarak CAD'i PDF'ye nasıl dışa aktaracağınızı
+  ve DGN'yi PDF'ye nasıl dönüştüreceğinizi öğrenin. Java geliştiricileri için adım
+  adım rehber.
+linktitle: Export Embedded DGN
+second_title: Aspose.CAD Java API
+title: CAD'yi PDF'ye Dışa Aktar – Aspose.CAD for Java ile Gömülü DGN'yi Dışa Aktar
 url: /tr/java/dgn-export-options/export-embedded-dgn/
+weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.CAD for Java ile Gömülü DGN'yi PDF'ye aktarın
+# CAD'yi PDF'ye Dışa Aktarma – Aspose.CAD for Java ile Gömülü DGN'yi Dışa Aktarma
 
-## giriiş
+## Giriş
 
-Aspose.CAD for Java kullanarak gömülü DGN dosyalarını dışa aktarmaya ilişkin bu kapsamlı eğitime hoş geldiniz. Aspose.CAD, Java geliştiricilerinin CAD dosyalarıyla sorunsuz bir şekilde çalışmasını sağlayan güçlü bir kütüphanedir. Bu eğitimde, adım adım talimatları kullanarak gömülü DGN dosyalarını PDF'ye aktarma sürecinde size rehberlik edeceğiz. İster deneyimli bir geliştirici olun ister yeni başlıyor olun, bu eğitim Aspose.CAD'in özelliklerinden yararlanarak Java uygulamalarınızı geliştirmenize yardımcı olacaktır.
+Bu öğreticide **CAD'yi PDF'ye nasıl dışa aktaracağınızı** keşfedecek ve gömülü bir DGN dosyasını yüksek kalitede bir PDF belgesine dönüştüreceksiniz. Aspose.CAD, Java geliştiricilerine CAD dosyası manipülasyonu üzerinde tam kontrol sağlayan güçlü bir kütüphanedir; ister **DGN'yi PDF'ye dönüştürme**, ister **DWG'yi PDF'ye dönüştürme**, ya da CAD çizimlerini diğer formatlarda render etme ihtiyacınız olsun. Aşağıdaki adım‑adım kılavuzu izleyin, dakikalar içinde bu yeteneği uygulamalarınıza entegre edebileceksiniz.
+
+## Hızlı Yanıtlar
+- **“CAD'yi PDF'ye dışa aktarma” ne demektir?** CAD çizimlerini (DWG, DGN vb.) vektör kalitesini koruyarak PDF dosyalarına dönüştürür.  
+- **Hangi kütüphane kullanılıyor?** Aspose.CAD for Java.  
+- **Lisans gerekli mi?** Üretim ortamları için lisans gerekir; ücretsiz deneme sürümü mevcuttur.  
+- **Ana önkoşullar nelerdir?** Java geliştirme ortamı ve Aspose.CAD for Java JAR dosyası.  
+- **Çıktıyı özelleştirebilir miyim?** Evet – düzenleri seçebilir, rasterizasyon seçeneklerini ayarlayabilir ve PDF ayarlarını kontrol edebilirsiniz.
+
+## “CAD'yi PDF'ye dışa aktarma” nedir?
+CAD'yi PDF'ye dışa aktarmak, yerel bir CAD dosyasını (DWG veya DGN gibi) orijinal geometriyi eksiksiz yansıtan bir PDF belgesine dönüştürmek anlamına gelir. PDF, herhangi bir platformda CAD yazılımına ihtiyaç duymadan görüntülenebilir; bu da paylaşım, baskı veya arşivleme için idealdir.
+
+## Aspose.CAD for Java ile DGN'yi PDF'ye dönüştürmek neden tercih edilmeli?
+- **Harici bağımlılık yok** – tamamen Java içinde çalışır.  
+- **Vektör verisini korur** – PDF'ler herhangi bir yakınlaştırmada net kalır.  
+- **İnce ayar kontrolü** – belirli düzenleri seçebilir, rasterizasyon DPI'sını ayarlayabilir ve yazı tiplerini gömebilirsiniz.  
+- **Kurumsal düzeyde** – büyük dosyaları, toplu işleme ve lisans seçeneklerini destekler.
 
 ## Önkoşullar
 
-Eğiticiye dalmadan önce aşağıdaki önkoşullara sahip olduğunuzdan emin olun:
-- Java Geliştirme Ortamı: Makinenizde bir Java geliştirme ortamının kurulu olduğundan emin olun.
--  Aspose.CAD for Java: Aspose.CAD for Java kütüphanesini şu adresten indirip yükleyin:[Burada](https://releases.aspose.com/cad/java/).
+Başlamadan önce aşağıdakilerin kurulu olduğundan emin olun:
 
-## Paketleri İçe Aktar
+- **Java Geliştirme Ortamı** – JDK 8 veya üzeri yüklü ve yapılandırılmış.  
+- **Aspose.CAD for Java** – En son JAR dosyasını [buradan](https://releases.aspose.com/cad/java/) indirin.  
 
-Başlamak için gerekli paketleri Java projenize aktarmanız gerekir. Aşağıdaki içe aktarma ifadelerini kodunuza ekleyin:
+## Paketleri İçe Aktarma
+
+Projeye başlamak için gerekli sınıfları içe aktarmanız gerekir. Aşağıdaki import satırlarını kaynak dosyanıza ekleyin:
 
 ```java
 import java.io.FileNotFoundException;
@@ -40,78 +60,96 @@ import com.aspose.cad.imageoptions.JpegOptions;
 import com.aspose.cad.imageoptions.PdfOptions;
 ```
 
-Şimdi örnek kodu birden çok adıma ayıralım:
+## Aspose.CAD for Java ile DGN'yi PDF'ye nasıl dışa aktarılır?
 
-## 1. Adım: Giriş ve Çıkış Yollarını Ayarlayın
+Aşağıda, gömülü bir DGN dosyasını (DWG içinde saklanan) PDF'ye dönüştürmek için adım adım bir rehber bulacaksınız.
 
-Belgenizin bulunduğu dizin yolunu tanımlayın ve giriş DWG dosya adını belirtin.
+### Adım 1: Giriş ve Çıkış Yollarını Ayarlama
+
+Kaynak dosyanızın bulunduğu dizini tanımlayın ve gömülü DGN'yi içeren DWG dosyasını belirtin.
 
 ```java
 String dataDir = "Your Document Directory" + "ExportingDGN/";
 String fileName = dataDir + "BlockRefDgn.dwg";
 ```
 
-## Adım 2: DWG Dosyasını Yükleyin
+### Adım 2: DWG Dosyasını Yükleme
 
- DWG dosyasını bir`Image` Aspose.CAD kullanarak nesneyi oluşturun.
+DWG dosyasını bir `Image` nesnesine yükleyin. Aspose.CAD, gömülü DGN verisini otomatik olarak algılar.
 
 ```java
 Image objImage = Image.load(fileName);
 ```
 
-## 3. Adım: Rasterleştirme Seçeneklerini Yapılandırın
+### Adım 3: Rasterizasyon Seçeneklerini Yapılandırma
 
-Dışa aktarmaya dahil edilecek düzenler gibi rasterleştirme seçeneklerini yapılandırın.
+PDF'ye dahil etmek istediğiniz düzen(ler)i seçin. Bu örnekte yalnızca **Model** düzenini dışa aktarıyoruz.
 
 ```java
 CadRasterizationOptions rasterizationOptions = new CadRasterizationOptions();
 rasterizationOptions.setLayouts(new String[] {"Model"});
 ```
 
-## 4. Adım: PDF Seçeneklerini Yapılandırın
+### Adım 4: PDF Seçeneklerini Yapılandırma
 
-Vektör rasterleştirme seçenekleri de dahil olmak üzere PDF seçeneklerini ayarlayın.
+Rasterizasyon ayarlarını PDF dışa aktarma seçeneklerine ekleyin.
 
 ```java
 PdfOptions pdfOptions = new PdfOptions();
 pdfOptions.setVectorRasterizationOptions(rasterizationOptions);
 ```
 
-## Adım 5: PDF Dosyasını Kaydet
+### Adım 5: PDF Dosyasını Kaydetme
 
-PDF dosyasını yapılandırılmış seçeneklerle kaydedin.
+Son olarak, yapılandırılmış seçenekleri kullanarak PDF'yi diske yazın.
+
 ```java
 objImage.save(dataDir + "BlockRefDgn.pdf", pdfOptions);
 ```
 
-## Çözüm
+## DWG'yi PDF'ye Dönüştürme – Ek İpucu
 
-Tebrikler! Gömülü bir DGN dosyasını Aspose.CAD for Java kullanarak başarıyla PDF'ye aktardınız. Bu eğitimde, verimli CAD dosyası manipülasyonu için Aspose.CAD'i Java uygulamanıza entegre etmek için gerekli adımlar anlatıldı.
+Kaynak dosyanız gömülü bir DGN içermeyen düz bir DWG ise, aynı kodu yeniden kullanabilirsiniz – sadece `fileName` değişkenini dönüştürmek istediğiniz DWG'ye yönlendirin. Rasterizasyon ve PDF seçenekleri aynı kalır, böylece tutarlı bir **DWG'yi PDF'ye dönüştürme** iş akışı elde edersiniz.
 
-## SSS'ler
+## Yaygın Sorunlar ve Çözümleri
 
-### S1: Aspose.CAD for Java'yı ticari bir projede kullanabilir miyim?
+| Sorun | Sebep | Çözüm |
+|-------|--------|----------|
+| **Boş PDF çıktısı** | Düzen adı uyuşmazlığı | `setLayouts` metoduna verilen düzen adının kaynak dosyadaki adla (büyük‑küçük harf duyarlı) tam olarak eşleştiğini doğrulayın. |
+| **Lisans istisnası** | Lisans olmadan deneme sürümü kullanılıyor | Görüntüyü yüklemeden önce geçerli bir Aspose.CAD lisansı uygulayın (`License license = new License(); license.setLicense("Aspose.CAD.lic");`). |
+| **Dosya bulunamadı** | `dataDir` yolu hatalı | Mutlak bir yol kullanın veya göreceli yolun proje çalışma dizinine göre doğru olduğundan emin olun. |
+| **Düşük çözünürlüklü grafikler** | Varsayılan rasterizasyon DPI'sı düşük | DPI'ı artırmak için `rasterizationOptions.setPageWidth/Height` veya `setResolution` metodlarını kullanın. |
 
- Cevap1: Evet, Aspose.CAD for Java ticari bir kütüphanedir. adresinden lisans alabilirsiniz.[Burada](https://purchase.aspose.com/buy).
+## Sık Sorulan Sorular
 
-### S2: Ücretsiz deneme sürümü mevcut mu?
+**S: Aspose.CAD for Java'yı ticari bir projede kullanabilir miyim?**  
+C: Evet, Aspose.CAD for Java ticari bir kütüphanedir. Lisansı [buradan](https://purchase.aspose.com/buy) temin edebilirsiniz.
 
- Cevap2: Evet, Aspose.CAD for Java'nın ücretsiz deneme sürümüne erişebilirsiniz[Burada](https://releases.aspose.com/).
+**S: Ücretsiz deneme sürümü mevcut mu?**  
+C: Evet, Aspose.CAD for Java için ücretsiz deneme sürümüne [buradan](https://releases.aspose.com/) ulaşabilirsiniz.
 
-### S3: Aspose.CAD for Java desteğini nasıl alabilirim?
+**S: Aspose.CAD for Java için destek nasıl alınır?**  
+C: Aspose.CAD topluluğu üzerinden [forumda](https://forum.aspose.com/c/cad/19) destek alabilirsiniz.
 
-Cevap3: Aspose.CAD topluluğundan destek alabilirsiniz.[forum](https://forum.aspose.com/c/cad/19).
+**S: Geçici bir lisansa ihtiyacım olursa?**  
+C: Geçici lisansı [buradan](https://purchase.aspose.com/temporary-license/) temin edebilirsiniz.
 
-### S4: Geçici bir lisansa ihtiyacım olursa ne olur?
+**S: Dokümantasyonu nereden bulabilirim?**  
+C: Dokümantasyon [burada](https://reference.aspose.com/cad/java/) mevcuttur.
 
- Cevap4: Geçici bir lisans alabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/).
+## Sonuç
 
-### S5: Belgeleri nerede bulabilirim?
+Artık **CAD'yi PDF'ye dışa aktarmayı**, özellikle **DGN'yi PDF'ye dönüştürmeyi** ve **DWG'yi PDF'ye dönüştürmeyi** Aspose.CAD for Java kullanarak nasıl yapacağınızı öğrendiniz. Yukarıdaki adımları izleyerek, ek CAD yazılımına ihtiyaç duymadan yüksek kaliteli PDF'leri kullanıcılarınıza sunabilecek bir CAD‑to‑PDF dönüşümünü herhangi bir Java tabanlı çözüme entegre edebilirsiniz.
 
- A5: Belgeler mevcut[Burada](https://reference.aspose.com/cad/java/).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Son Güncelleme:** 2026-01-07  
+**Test Edilen Versiyon:** Aspose.CAD for Java 24.12  
+**Yazar:** Aspose

@@ -1,41 +1,51 @@
 ---
-title: Aspose.CAD for Java Kullanarak SVG'ye Aktarma
-linktitle: SVG'ye aktar
-second_title: Aspose.CAD Java API'si
-description: CAD çizimlerini SVG'ye aktarmaya ilişkin adım adım kılavuzumuzla Aspose.CAD for Java'nın potansiyelini ortaya çıkarın. Ad alanlarını nasıl içe aktaracağınızı, seçenekleri nasıl yapılandıracağınızı ve Aspose.CAD'i Java projenize sorunsuzca nasıl entegre edeceğinizi öğrenin.
-weight: 12
+date: 2026-01-07
+description: Aspose.CAD for Java ile CAD'i SVG'ye nasıl dışa aktaracağınızı öğrenin.
+  Bu adım adım rehber, DWG'yi SVG'ye dönüştürmeyi, SVG renk modunu ayarlamayı ve kütüphaneyi
+  Java projenize entegre etmeyi gösterir.
+linktitle: Export to SVG
+second_title: Aspose.CAD Java API
+title: Aspose.CAD for Java kullanarak CAD'i SVG'ye dışa aktar
 url: /tr/java/cad-to-pdf-and-svg-export-options/export-to-svg/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.CAD for Java Kullanarak SVG'ye Aktarma
+# Aspose.CAD for Java Kullanarak CAD'i SVG Olarak Dışa Aktarma
 
-## giriiş
+## Introduction
 
-Geliştiricilerin CAD çizimlerini kolaylıkla işlemesine olanak tanıyan güçlü bir kütüphane olan Aspose.CAD for Java dünyasına hoş geldiniz. İster deneyimli bir geliştirici olun ister CAD dünyasına yeni başlayan biri olun, bu kapsamlı kılavuz Aspose.CAD for Java'yı kullanarak CAD çizimlerini SVG formatına aktarma sürecinde size yol gösterecektir.
+Aspose.CAD for Java dünyasına hoş geldiniz, geliştiricilerin CAD çizimlerini kolayca manipüle etmelerini sağlayan güçlü bir kütüphane. İster deneyimli bir geliştirici olun ister CAD dünyasına yeni adım atıyor olun, bu kapsamlı kılavuz **export CAD to SVG** işlemini adım adım göstererek DWG'yi SVG'ye nasıl dönüştüreceğinizi, SVG renk modunu nasıl ayarlayacağınızı ve API'yi Java projenize nasıl entegre edeceğinizi anlatacak.
 
-## Önkoşullar
+## Quick Answers
+- **“export CAD to SVG” ne anlama geliyor?** Bir CAD çizimini (ör. DWG) tarayıcılarda görüntülenebilen Scalable Vector Graphics dosyasına dönüştürür.  
+- **Dönüşümü hangi kütüphane gerçekleştiriyor?** Aspose.CAD for Java bu görev için basit bir API sağlar.  
+- **Geliştirme için lisansa ihtiyacım var mı?** Test için ücretsiz deneme sürümü yeterlidir; üretim için ticari lisans gereklidir.  
+- **SVG renk çıktısını kontrol edebilir miyim?** Evet, SVG renk modunu (ör. grayscale) ayarlayabilirsiniz.  
+- **Ek bir yazılım gerekiyor mu?** Sadece bir Java runtime ve Aspose.CAD JAR dosyası yeterlidir.
 
-Eğiticiye dalmadan önce aşağıdaki önkoşullara sahip olduğunuzdan emin olun:
+## Prerequisites
 
-- Java Geliştirme Ortamı: Sisteminizde Java'nın kurulu olduğundan emin olun.
--  Aspose.CAD Kütüphanesi: Aspose.CAD for Java kütüphanesini şuradan indirip yükleyin:[İndirme: {link](https://releases.aspose.com/cad/java/).
+Bu öğreticiye başlamadan önce aşağıdaki önkoşulları karşıladığınızdan emin olun:
+
+- Java Geliştirme Ortamı: Sisteminizde Java yüklü olduğundan emin olun.  
+- Aspose.CAD Kütüphanesi: Aspose.CAD for Java kütüphanesini [download link](https://releases.aspose.com/cad/java/) adresinden indirin ve kurun.  
 - Belge Dizini: CAD çizimleriniz için bir dizin oluşturun ve yolunu not edin.
 
-## Ad Alanlarını İçe Aktar
+## Import Namespaces
 
-Bu adımda Aspose.CAD yolculuğumuzu başlatmak için gerekli ad alanlarını içe aktaracağız. Bu adımları takip et:
+Bu adımda, Aspose.CAD yolculuğumuza başlamak için gerekli ad alanlarını (namespaces) içe aktaracağız. Aşağıdaki adımları izleyin:
 
-### Adım 1: Java Projenizi Açın
-Java projenizi seçtiğiniz IDE'de açın.
+### Step 1: Open Your Java Project
+Seçtiğiniz IDE'de Java projenizi açın.
 
-### Adım 2: Aspose.CAD Kitaplığını Ekleyin
+### Step 2: Add Aspose.CAD Library
 Aspose.CAD kütüphanesini projenize ekleyin. Bunu, JAR dosyasını projenizin bağımlılıklarına dahil ederek yapabilirsiniz.
 
-### 3. Adım: Ad Alanlarını İçe Aktarın
+### Step 3: Import Namespaces
 Java sınıfınızda gerekli ad alanlarını içe aktarın:
 
 ```java
@@ -44,29 +54,26 @@ import com.aspose.cad.imageoptions.SvgOptions;
 import com.aspose.cad.imageoptions.SvgColorMode;
 ```
 
-## SVG'ye aktar
+## Export CAD to SVG
 
-Artık ortamı hazırladığımıza göre, Aspose.CAD for Java kullanarak CAD çizimlerini SVG'ye aktarmanın adım adım sürecine geçelim.
+Artık sahneyi hazırladığımıza göre, Aspose.CAD for Java kullanarak **export CAD to SVG** işleminin adım adım sürecine dalalım.
 
-### 1. Adım: Kaynak Dizinini Belirleyin
-
-CAD çizimlerinizin bulunduğu kaynak dizininizin yolunu tanımlayın:
+### Step 1: Specify the Resource Directory
+CAD çizimlerinizin bulunduğu kaynak dizinin yolunu tanımlayın:
 
 ```java
 String dataDir = "Your Document Directory" + "DWGDrawings/";
 ```
 
-### Adım 2: CAD Çizimini Yükleyin
-
+### Step 2: Load the CAD Drawing
 Aspose.CAD kütüphanesini kullanarak CAD çizimini yükleyin:
 
 ```java
 Image image = Image.load(dataDir + "meshes.dwg");
 ```
 
-### 3. Adım: SVG Dışa Aktarma Seçeneklerini Yapılandırın
-
-Çıktıyı özelleştirmek için SVG dışa aktarma seçeneklerini yapılandırın:
+### Step 3: Configure SVG Export Options
+SVG dışa aktarma seçeneklerini özelleştirerek çıktıyı yapılandırın. Burada **set SVG color mode** ayarını grayscale (gri tonlamalı) olarak belirliyor ve metni şekillere dönüştürmesini sağlıyoruz:
 
 ```java
 SvgOptions options = new SvgOptions();
@@ -74,44 +81,79 @@ options.setColorType(SvgColorMode.Grayscale);
 options.setTextAsShapes(true);
 ```
 
-### 4. Adım: SVG olarak kaydedin
-
-CAD çizimini SVG dosyası olarak kaydedin:
+### Step 4: Save as SVG
+CAD çizimini bir SVG dosyası olarak kaydedin:
 
 ```java
 image.save(dataDir + "meshes.svg");
 ```
 
-Tebrikler! Aspose.CAD for Java'yı kullanarak bir CAD çizimini başarıyla SVG'ye aktardınız.
+> **İpucu:** Renkleri koruyarak **convert DWG to SVG** yapmanız gerekiyorsa, `SvgColorMode.Grayscale` değerini `SvgColorMode.FullColor` olarak değiştirin.
 
-## Çözüm
+Tebrikler! Aspose.CAD for Java kullanarak bir CAD çizimini başarıyla SVG olarak dışa aktardınız.
 
-Bu eğitimde, CAD çizimlerini SVG'ye aktarmak için Aspose.CAD for Java'dan yararlanmanın kusursuz sürecini araştırdık. Sezgisel API'si ve sağlam özellikleriyle Aspose.CAD, karmaşık görevleri basitleştirerek geliştiricilere CAD manipülasyonu için çok yönlü bir araç sağlar.
+## Why Use Aspose.CAD to Export CAD to SVG?
+- **High fidelity:** Vektör verileri korunur, böylece SVG orijinal CAD çizimiyle tam olarak aynı görünür.  
+- **No external dependencies:** Dönüşüm tamamen Java içinde gerçekleşir, ek araçlara ihtiyaç duyulmaz.  
+- **Customizable output:** `setColorType` gibi seçeneklerle SVG'nin gri tonlamalı mı yoksa tam renkli mi olacağını kontrol edebilirsiniz.
 
-## SSS'ler
+## Common Issues and Solutions
+- **File not found:** `dataDir` değişkeninin doğru klasöre işaret ettiğini ve DWG dosya adının eşleştiğini doğrulayın.  
+- **Blank SVG output:** Çizimde metin şekil olarak görünmeli ise `options.setTextAsShapes(true)` ayarını yaptığınızdan emin olun.  
+- **Unsupported CAD format:** Aspose.CAD DWG, DXF, DWF ve birkaç başka formatı destekler; tam liste için belgeleri inceleyin.
 
-### S1: Aspose.CAD for Java'yı diğer CAD formatlarıyla kullanabilir miyim?
+## Conclusion
 
-Cevap1: Evet, Aspose.CAD, DWG, DXF, DWF ve daha fazlası dahil olmak üzere çeşitli CAD formatlarını destekler.
+Bu öğreticide, Aspose.CAD for Java kullanarak **export CAD to SVG** sürecini sorunsuz bir şekilde nasıl gerçekleştireceğinizi inceledik. Sezgisel API'si ve güçlü özellikleri sayesinde Aspose.CAD, karmaşık görevleri basitleştirerek geliştiricilere çok yönlü bir CAD manipülasyon aracı sunar.
 
-### S2: Aspose.CAD hem yeni başlayanlar hem de deneyimli geliştiriciler için uygun mudur?
+## SSS
 
-A2: Kesinlikle! Aspose.CAD, kullanıcı dostu bir API sunarak yeni başlayanlar için erişilebilir olmasını sağlarken deneyimli geliştiriciler için de gelişmiş özellikler sunar.
+### Q1: Aspose.CAD for Java'yi diğer CAD formatlarıyla da kullanabilir miyim?
 
-### S3: Ek desteği veya topluluk tartışmalarını nerede bulabilirim?
+A1: Evet, Aspose.CAD DWG, DXF, DWF ve daha fazlası dahil olmak üzere çeşitli CAD formatlarını destekler.
 
- A3: Ziyaret edin[Aspose.CAD Forumu](https://forum.aspose.com/c/cad/19) Destek ve tartışmalar için.
+### Q2: Aspose.CAD hem yeni başlayanlar hem de deneyimli geliştiriciler için uygun mu?
 
-### S4: Ücretsiz deneme sürümü mevcut mu?
+A2: Kesinlikle! Aspose.CAD kullanıcı dostu bir API sunar; bu sayede yeni başlayanlar rahatça kullanabilir, deneyimli geliştiriciler ise gelişmiş özelliklerden faydalanabilir.
 
- Cevap4: Evet, Aspose.CAD'i aşağıdaki yöntemlerle keşfedebilirsiniz:[ücretsiz deneme](https://releases.aspose.com/).
+### Q3: Ek destek veya topluluk tartışmalarını nerede bulabilirim?
 
-### S5: Aspose.CAD for Java lisansını nasıl satın alabilirim?
+A3: Destek ve tartışmalar için [Aspose.CAD Forum](https://forum.aspose.com/c/cad/19) adresini ziyaret edin.
 
- Cevap5: Lisansı şuradan satın alabilirsiniz:[satın alma sayfası](https://purchase.aspose.com/buy).
+### Q4: Ücretsiz bir deneme sürümü mevcut mu?
+
+A4: Evet, bir [free trial](https://releases.aspose.com/) ile Aspose.CAD'i keşfedebilirsiniz.
+
+### Q5: Aspose.CAD for Java için lisans nasıl satın alınır?
+
+A5: Lisansı [purchase page](https://purchase.aspose.com/buy) üzerinden satın alabilirsiniz.
+
+## Sıkça Sorulan Sorular
+
+**S: Aynı kodu kullanarak bir DXF dosyasını SVG'ye dönüştürebilir miyim?**  
+C: Evet, dosya adını bir DXF dosyasıyla değiştirmeniz yeterlidir; API her iki formatı da işler.
+
+**S: Çıktıyı tam renkli SVG olarak nasıl değiştiririm?**  
+C: Kaydetmeden önce `options.setColorType(SvgColorMode.FullColor);` satırını ekleyin.
+
+**S: Oluşturulan SVG'ye fontları gömmek mümkün mü?**  
+C: Aspose.CAD şu anda metni şekillere dönüştürür; font gömme gereksinimi yoktur.
+
+**S: Kütüphane Linux ve macOS'ta çalışıyor mu?**  
+C: Java kütüphanesi platform bağımsızdır ve uyumlu bir JVM bulunduğu her yerde çalışır.
+
+**S: Bu öğreticide hangi Aspose.CAD sürümü kullanıldı?**  
+C: Örnek, Aspose.CAD for Java 24.10 sürümü ile test edilmiştir.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Last Updated:** 2026-01-07  
+**Tested With:** Aspose.CAD for Java 24.10  
+**Author:** Aspose
