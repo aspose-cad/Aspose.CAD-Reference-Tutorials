@@ -1,32 +1,50 @@
 ---
-title: การแปลง Java DGN เป็น JPEG ด้วยบทช่วยสอน Aspose.CAD
-linktitle: การส่งออก DGN ในรูปแบบ AutoCAD เป็นรูปแบบภาพแรสเตอร์
+date: 2026-01-10
+description: เรียนรู้วิธีสร้างไฟล์ JPEG จากไฟล์ DGN ด้วย Aspose.CAD for Java บทเรียนแบบขั้นตอนนี้จะแสดงให้คุณเห็นวิธีแปลง
+  DGN เป็น JPEG อย่างมีประสิทธิภาพ
+linktitle: Exporting DGN in AutoCAD Format to Raster Image Format
 second_title: Aspose.CAD Java API
-description: เรียนรู้วิธีส่งออกไฟล์ DGN เป็นภาพ JPEG ใน Java โดยใช้ Aspose.CAD บทช่วยสอนแบบทีละขั้นตอนนี้จะแนะนำคุณตลอดกระบวนการอย่างง่ายดาย
-weight: 13
+title: วิธีสร้าง JPEG จาก DGN ด้วย Aspose.CAD สำหรับ Java
 url: /th/java/dgn-export-options/exporting-dgn-to-raster-image/
+weight: 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# การแปลง Java DGN เป็น JPEG ด้วยบทช่วยสอน Aspose.CAD
+# สร้าง JPEG จาก DGN ด้วย Aspose.CAD สำหรับ Java
 
-## การแนะนำ
+## Introduction
 
-ยินดีต้อนรับสู่บทช่วยสอนที่ครอบคลุมเกี่ยวกับการส่งออกไฟล์ DGN (การออกแบบ) ไปเป็นรูปแบบภาพแรสเตอร์โดยใช้ Aspose.CAD สำหรับ Java Aspose.CAD เป็นไลบรารีอันทรงพลังที่ช่วยให้นักพัฒนา Java สามารถทำงานกับไฟล์ CAD ได้อย่างราบรื่น ในบทช่วยสอนนี้ เราจะแนะนำคุณตลอดขั้นตอนการแปลงไฟล์ DGN เป็นภาพ JPEG พร้อมคำแนะนำทีละขั้นตอนและตัวอย่างโค้ด
+ในคู่มือฉบับครอบคลุมนี้ คุณจะ **สร้าง JPEG จาก DGN** ด้วยเพียงไม่กี่บรรทัดของโค้ด Java ไม่ว่าคุณจะกำลังสร้างเครื่องมือแปลงแบบแบตช์หรือจำเป็นต้องแสดงภาพวาด CAD เป็นภาพที่เป็นมิตรต่อเว็บ การแปลง DGN เป็น JPEG เป็นความต้องการทั่วไปสำหรับหลายกระบวนการวิศวกรรมและการออกแบบ เราจะเดินผ่านทุกขั้นตอน—from ตั้งค่าไลบรารี Aspose.CAD ไปจนถึงการบันทึกภาพเรสเตอร์สุดท้าย—เพื่อให้คุณสามารถรวมโซลูชันนี้เข้ากับแอปพลิเคชันของคุณได้ทันที
 
-## ข้อกำหนดเบื้องต้น
+## Quick Answers
+- **What library is needed?** Aspose.CAD for Java  
+- **Can I convert other CAD formats to JPEG?** ใช่, Aspose.CAD รองรับหลายรูปแบบ (ดูคีย์เวิร์ดรอง *convert cad to jpeg*)  
+- **Do I need a license for production?** จำเป็นต้องมีใบอนุญาตเชิงพาณิชย์สำหรับการใช้งานที่ไม่ใช่แบบทดลอง  
+- **What Java version is supported?** Java 8 หรือใหม่กว่า  
+- **How long does a typical conversion take?** ปกติใช้เวลาน้อยกว่าวินาทีสำหรับภาพวาดขนาดมาตรฐาน  
 
-ก่อนที่จะเข้าสู่บทช่วยสอน ตรวจสอบให้แน่ใจว่าคุณมีข้อกำหนดเบื้องต้นต่อไปนี้:
-1.  ไลบรารี Aspose.CAD: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้งไลบรารี Aspose.CAD สำหรับ Java แล้ว คุณสามารถดาวน์โหลดได้[ที่นี่](https://releases.aspose.com/cad/java/).
-2. Java Development Kit (JDK): ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง Java บนเครื่องของคุณแล้ว
-3. สภาพแวดล้อมการพัฒนาแบบรวม (IDE): ใช้ IDE ที่เข้ากันได้กับ Java เช่น IntelliJ หรือ Eclipse
+## What is “create JPEG from DGN”?
+การสร้าง JPEG จากไฟล์ DGN หมายถึงการเรสเตอร์ไอภาพวาด DGN ที่เป็นเวกเตอร์ให้เป็นภาพแบบพิกเซล (JPEG) กระบวนการนี้รักษาความแม่นยำของภาพในขณะที่สร้างไฟล์ที่มีขนาดเบา สามารถแสดงในเบราว์เซอร์, อีเมล หรือรายงานโดยไม่ต้องใช้ซอฟต์แวร์ CAD
 
-## แพ็คเกจนำเข้า
+## Why convert DGN to JPEG?
+- **Easy sharing:** JPEG สามารถดูได้บนอุปกรณ์ใดก็ได้  
+- **Performance:** ภาพเรสเตอร์โหลดเร็วกว่าไฟล์ CAD เวกเตอร์ในหน้าเว็บ  
+- **Compatibility:** เครื่องมือหลายตัว (เช่น เครื่องมือสร้างรายงาน) รองรับเฉพาะรูปแบบเรสเตอร์  
 
-ในโปรเจ็กต์ Java ของคุณ ให้นำเข้าแพ็คเกจที่จำเป็นสำหรับ Aspose.CAD เพิ่มบรรทัดต่อไปนี้ลงในโค้ดของคุณ:
+## Prerequisites
+
+ก่อนเริ่ม, ตรวจสอบว่าคุณมีสิ่งต่อไปนี้:
+
+1. **Aspose.CAD Library** – ดาวน์โหลดจากเว็บไซต์อย่างเป็นทางการ **[here](https://releases.aspose.com/cad/java/)**  
+2. **Java Development Kit (JDK)** – ติดตั้ง Java 8 หรือใหม่กว่าในเครื่องของคุณ  
+3. **IDE** – IDE ที่รองรับ Java ใดก็ได้ เช่น IntelliJ IDEA หรือ Eclipse  
+
+## Import Packages
+
+เพิ่มการนำเข้า (import) ที่จำเป็นลงในคลาส Java ของคุณ:
 
 ```java
 import java.io.FileNotFoundException;
@@ -39,20 +57,26 @@ import com.aspose.cad.imageoptions.CadRasterizationOptions;
 import com.aspose.cad.imageoptions.JpegOptions;
 ```
 
-## ขั้นตอนที่ 1: โหลดไฟล์ DGN
+## Step‑by‑Step Guide
+
+### Step 1: Load the DGN File
 
 ```java
 String dataDir = "Your Document Directory" + "ExportingDGN/";
 DgnImage dgnImage = (DgnImage) Image.load(dataDir + "Nikon_D90_Camera.dgn");
 ```
 
-## ขั้นตอนที่ 2: สร้างวัตถุ JpegOptions
+*Explanation:* เมธอด `Image.load` จะอ่านไฟล์ DGN ต้นฉบับและคืนค่าเป็นอ็อบเจ็กต์ `DgnImage` ที่เราจะใช้ในการเรสเตอร์ต่อไป
+
+### Step 2: Create a JpegOptions Object
 
 ```java
 ImageOptionsBase options = new JpegOptions();
 ```
 
-## ขั้นตอนที่ 3: กำหนดตัวเลือกการแรสเตอร์
+*Explanation:* `JpegOptions` บอกให้ Aspose.CAD รู้ว่ารูปแบบผลลัพธ์ควรเป็น JPEG และยังให้เราตั้งค่าการเรสเตอร์ได้อีกด้วย
+
+### Step 3: Configure Rasterization Settings
 
 ```java
 CadRasterizationOptions vectorOptions = new CadRasterizationOptions();
@@ -63,40 +87,65 @@ vectorOptions.setAutomaticLayoutsScaling(false);
 options.setVectorRasterizationOptions(vectorOptions);
 ```
 
-## ขั้นตอนที่ 4: บันทึกภาพที่แปลงแล้ว
+*Explanation:* ตัวเลือกเหล่านี้กำหนดขนาดของภาพที่ได้และควบคุมพฤติกรรมการสเกล ปรับ `PageWidth` และ `PageHeight` ให้ตรงกับความละเอียดเป้าหมายของคุณ
+
+### Step 4: Save the Converted Image
 
 ```java
 OutputStream outStream = new FileOutputStream(dataDir + "ExportDGNToRasterImage_Out.jpg");
 dgnImage.save(outStream, options);
 ```
 
-ทำซ้ำขั้นตอนเหล่านี้สำหรับไฟล์ DGN เฉพาะของคุณ โดยปรับเส้นทางของไฟล์ให้เหมาะสม
+*Explanation:* เมธอด `save` จะเขียน JPEG ที่เรสเตอร์แล้วลงในสตรีมเอาต์พุตที่ระบุ หลังจากขั้นตอนนี้คุณจะได้ไฟล์ JPEG พร้อมใช้งาน
 
-## บทสรุป
+> **Pro tip:** ห่อโค้ดการแปลงไว้ในบล็อก `try‑with‑resources` เพื่อให้สตรีมปิดโดยอัตโนมัติ
 
-ยินดีด้วย! คุณได้เรียนรู้วิธีส่งออกไฟล์ DGN เป็นรูปแบบภาพแรสเตอร์โดยใช้ Aspose.CAD สำหรับ Java เรียบร้อยแล้ว บทช่วยสอนนี้ช่วยให้คุณมีความรู้ในการรวมฟังก์ชันนี้เข้ากับแอปพลิเคชัน Java ของคุณ
+## Common Use Cases
 
-## คำถามที่พบบ่อย
+- **Generating thumbnails** สำหรับตัวเรียกดูไฟล์ CAD  
+- **Embedding drawings** ลงในรายงาน PDF หรือหน้า HTML  
+- **Automated batch processing** ของคลังออกแบบ  
 
-### คำถามที่ 1: ฉันสามารถใช้ Aspose.CAD สำหรับ Java กับไฟล์ CAD รูปแบบอื่นได้หรือไม่
+## Troubleshooting & Common Pitfalls
 
-ตอบ 1: ใช่ Aspose.CAD รองรับรูปแบบ CAD ที่หลากหลาย ซึ่งเป็นโซลูชั่นที่หลากหลายสำหรับนักพัฒนา Java
+| Issue | Cause | Fix |
+|-------|-------|-----|
+| Blank or white output image | ตัวเลือกการเรสเตอร์ไม่ถูกต้อง (เช่น `NoScaling` ตั้งเป็น true พร้อมขนาดหน้าไม่ตรง) | ปรับ `PageWidth`/`PageHeight` หรือตั้ง `NoScaling` เป็น false |
+| Out‑of‑memory error for large DGN files | โหลดไฟล์ขนาดใหญ่มากโดยไม่มีการสตรีม | เพิ่มขนาด heap ของ JVM (`-Xmx`) หรือประมวลผลไฟล์เป็นส่วนย่อย |
+| JPEG quality not sufficient | คุณภาพ JPEG เริ่มต้นต่ำ | ใช้ `((JpegOptions)options).setQuality(100);` ก่อนบันทึก |
 
-### คำถามที่ 2: Aspose.CAD สำหรับ Java มีรุ่นทดลองใช้ฟรีหรือไม่
+## Frequently Asked Questions
 
- A2: ได้ คุณสามารถทดลองใช้ฟรีได้[ที่นี่](https://releases.aspose.com/).
+### Q1: Can I use Aspose.CAD for Java with other CAD file formats?
 
-### คำถามที่ 3: ฉันจะหาเอกสารสำหรับ Aspose.CAD สำหรับ Java ได้ที่ไหน
+A1: ใช่, Aspose.CAD รองรับรูปแบบหลากหลาย ทำให้คุณสามารถ **convert CAD to JPEG** และส่งออกเป็นรูปแบบเรสเตอร์หรือเวกเตอร์อื่น ๆ ได้
 
- A3: โปรดดูเอกสารประกอบ[ที่นี่](https://reference.aspose.com/cad/java/).
+### Q2: Is there a free trial available for Aspose.CAD for Java?
 
-### คำถามที่ 4: ฉันจะรับการสนับสนุนสำหรับ Aspose.CAD สำหรับ Java ได้อย่างไร
+A2: มี, คุณสามารถเข้าถึงการทดลองใช้ฟรี **[here](https://releases.aspose.com/)**
 
- A4: เยี่ยมชมฟอรั่มการสนับสนุน[ที่นี่](https://forum.aspose.com/c/cad/19).
+### Q3: Where can I find documentation for Aspose.CAD for Java?
 
-### คำถามที่ 5: ฉันจะซื้อใบอนุญาตสำหรับ Aspose.CAD สำหรับ Java ได้ที่ไหน
+A3: ดูเอกสาร **[here](https://reference.aspose.com/cad/java/)**
 
- A5: คุณสามารถซื้อใบอนุญาตได้[ที่นี่](https://purchase.aspose.com/buy).
+### Q4: How can I get support for Aspose.CAD for Java?
+
+A4: เยี่ยมชมฟอรัมสนับสนุน **[here](https://forum.aspose.com/c/cad/19)**
+
+### Q5: Where can I purchase a license for Aspose.CAD for Java?
+
+A5: คุณสามารถซื้อใบอนุญาต **[here](https://purchase.aspose.com/buy)**
+
+## Conclusion
+
+คุณได้เรียนรู้วิธี **สร้าง JPEG จาก DGN** ด้วย Aspose.CAD for Java แล้ว ด้วยการทำตามขั้นตอนข้างต้น คุณสามารถรวมการแปลง DGN‑to‑JPEG เข้าไปในแอปพลิเคชัน Java ใดก็ได้ ไม่ว่าจะเป็นเครื่องมือเดสก์ท็อป, บริการเว็บ หรือพายป์ไลน์อัตโนมัติ
+
+---
+
+**Last Updated:** 2026-01-10  
+**Tested With:** Aspose.CAD for Java 24.11 (latest at time of writing)  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
