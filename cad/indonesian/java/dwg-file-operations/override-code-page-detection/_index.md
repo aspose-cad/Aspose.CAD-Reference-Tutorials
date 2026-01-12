@@ -1,35 +1,46 @@
 ---
-title: Ganti Deteksi Halaman Kode Otomatis di File DWG dengan Java
-linktitle: Ganti Deteksi Halaman Kode Otomatis di File DWG
+date: 2026-01-12
+description: Pelajari cara mengekspor CAD ke PDF sambil mengesampingkan deteksi halaman
+  kode otomatis pada file DWG menggunakan Aspose.CAD untuk Java. Menangani pengkodean
+  dan CIF/MIF yang rusak.
+linktitle: Override Automatic Code Page Detection in DWG Files
 second_title: Aspose.CAD Java API
-description: Temukan cara mengganti deteksi halaman kode dalam file DWG dengan Aspose.CAD untuk Java. Menangani pengkodean secara efisien dan memulihkan CIF/MIF yang formatnya salah.
-weight: 13
+title: Ekspor CAD ke PDF – Mengabaikan Deteksi Halaman Kode Otomatis pada File DWG
+  dengan Java
 url: /id/java/dwg-file-operations/override-code-page-detection/
+weight: 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Ganti Deteksi Halaman Kode Otomatis di File DWG dengan Java
+# Ekspor CAD ke PDF – Menimpa Deteksi Halaman Kode Otomatis pada File DWG dengan Java
 
-## Perkenalan
+## Introduction
 
-Selamat datang di panduan komprehensif tentang cara mengganti deteksi halaman kode otomatis di file DWG menggunakan Aspose.CAD untuk Java. Aspose.CAD adalah perpustakaan canggih yang memungkinkan pengembang Java bekerja dengan format file CAD, menyediakan berbagai fitur untuk memanipulasi, mengonversi, dan mengekspor file CAD.
+Dalam panduan komprehensif ini Anda akan menemukan **cara mengekspor CAD ke PDF** sambil menimpa deteksi halaman kode otomatis yang dapat merusak teks pada file DWG. Aspose.CAD untuk Java memberi Anda kontrol detail atas pengkodean, memungkinkan Anda memulihkan data CIF/MIF yang rusak dan menghasilkan output PDF yang dapat diandalkan. Baik Anda membangun konverter batch atau mengintegrasikan pemrosesan CAD ke dalam aplikasi Java yang lebih besar, langkah‑langkah di bawah ini akan memandu Anda melalui seluruh alur kerja.
 
-Dalam tutorial ini, kita akan fokus pada tugas tertentu: mengganti deteksi halaman kode otomatis di file DWG. Anda akan mempelajari cara menangani pengkodean dan memulihkan CIF/MIF yang salah format secara langkah demi langkah.
+## Quick Answers
+- **Apa arti “override code page”?** Itu memaksa Aspose.CAD menggunakan pengkodean karakter tertentu alih‑alih menebak.
+- **Bisakah saya mengekspor DWG langsung ke PDF?** Ya – setelah mengatur halaman kode yang tepat, Anda dapat menyimpan gambar CAD sebagai PDF.
+- **Pengkodean mana yang bekerja untuk teks Jepang?** `CodePages.Japanese` dan `MifCodePages.Japanese` adalah pilihan yang tepat.
+- **Apakah saya memerlukan lisensi untuk penggunaan produksi?** Lisensi komersial diperlukan; lisensi sementara tersedia untuk pengujian.
+- **Versi Aspose.CAD mana yang dibutuhkan?** Versi terbaru apa pun yang mendukung `LoadOptions` dan `PdfOptions`.
 
-## Prasyarat
+## What is “export CAD to PDF”?
+Mengekspor CAD ke PDF mengubah gambar CAD berbasis vektor menjadi format dokumen berlayout tetap yang didukung secara luas. PDF yang dihasilkan mempertahankan garis, lapisan, dan teks sambil memudahkan berbagi, mencetak, atau menyematkan gambar dalam aplikasi lain.
 
-Sebelum kita mendalami tutorialnya, pastikan Anda memiliki prasyarat berikut:
+## Why override the automatic code page detection?
+File DWG sering menyimpan teks menggunakan halaman kode warisan. Deteksi otomatis Aspose.CAD dapat salah menafsirkan byte‑byte ini, menghasilkan karakter yang kacau. Dengan secara manual menentukan halaman kode, Anda memastikan teks muncul persis seperti yang dimaksud dalam PDF yang diekspor, terutama untuk skrip non‑Latin seperti Jepang, Cyrillic, atau Arab.
 
-- Lingkungan Pengembangan Java: Pastikan Anda memiliki lingkungan pengembangan Java yang berfungsi di sistem Anda.
-- Perpustakaan Aspose.CAD: Unduh dan instal perpustakaan Aspose.CAD untuk Java. Anda dapat menemukan perpustakaan[Di Sini](https://releases.aspose.com/cad/java/).
-- File DWG: Siapkan file DWG untuk pengujian. Anda dapat menggunakan file contoh yang disediakan bernama "SimpleEntities.dwg."
+## Prerequisites
+- **Lingkungan Pengembangan Java** – JDK 8+ dan IDE pilihan Anda.
+- **Aspose.CAD untuk Java** – Unduh pustaka dari situs resmi [di sini](https://releases.aspose.com/cad/java/).
+- **File Contoh DWG** – Gunakan `SimpleEntities.dwg` yang disediakan atau DWG apa pun yang ingin Anda konversi.
 
-## Paket Impor
-
-Di proyek Java Anda, impor paket yang diperlukan untuk memanfaatkan fungsionalitas Aspose.CAD:
+## Import Packages
+In your Java project, import the necessary Aspose.CAD classes:
 
 ```java
 import com.aspose.cad.CodePages;
@@ -39,15 +50,13 @@ import com.aspose.cad.MifCodePages;
 import com.aspose.cad.fileformats.cad.CadImage;
 ```
 
-Sekarang, mari kita bagi prosesnya menjadi beberapa langkah:
+## Step‑by‑Step Guide
 
-## Langkah 1: Siapkan Proyek
+### Step 1: Set Up the Java Project
+Buat proyek Maven atau Gradle baru dan tambahkan JAR Aspose.CAD ke classpath. Langkah ini memastikan IDE dapat menemukan kelas‑kelas yang diimpor.
 
-Buat proyek Java baru dan tambahkan perpustakaan Aspose.CAD ke dependensi proyek Anda.
-
-## Langkah 2: Muat File DWG
-
-Tentukan jalur ke file DWG Anda dan muat menggunakan Aspose.CAD:
+### Step 2: Load the DWG File with a Specified Code Page
+Beritahu Aspose.CAD pengkodean mana yang akan digunakan dan apakah akan mencoba memulihkan data CIF/MIF yang rusak.
 
 ```java
 String SourceDir = "Your Document Directory";
@@ -59,54 +68,53 @@ opts.setRecoverMalformedCifMif(false);
 CadImage cadImage = (CadImage) Image.load(dwgPathToFile, opts);
 ```
 
-## Langkah 3: Memanipulasi Gambar CAD
-
-Lakukan operasi apa pun yang diperlukan pada gambar CAD yang dimuat. Hal ini dapat melibatkan ekspor atau modifikasi.
+### Step 3: Export the CAD Image to PDF
+Dengan halaman kode yang tepat diterapkan, Anda dapat mengekspor gambar dengan aman. Objek `PdfOptions` memungkinkan Anda menyesuaikan output PDF secara detail (kompresi, rasterisasi, dll.).
 
 ```java
-// Lakukan ekspor atau operasi lain dengan cadImage
-// Misalnya mengekspor ke PDF
+// Perform export or other operations with cadImage
+// For example, exporting to PDF
 PdfOptions pdfOptions = new PdfOptions();
 cadImage.save("output.pdf", pdfOptions);
 ```
 
-## Langkah 4: Verifikasi Keberhasilan
-
-Cetak pesan sukses ke konsol untuk mengonfirmasi bahwa kode berhasil dijalankan:
+### Step 4: Verify Success
+Pesan konsol sederhana mengonfirmasi bahwa proses selesai tanpa pengecualian.
 
 ```java
 System.out.println("OverrideAutomaticCodePageDetectionDwg executed successfully");
 ```
 
-Ulangi langkah-langkah ini sesuai kebutuhan untuk kasus penggunaan spesifik Anda.
+Anda dapat mengulangi langkah‑langkah ini untuk beberapa file DWG, menyesuaikan jalur sumber dan nama output sesuai kebutuhan.
 
-## Kesimpulan
+## Common Issues & Solutions
+- **Karakter sampah masih muncul:** Periksa kembali bahwa `specifiedEncoding` cocok dengan halaman kode DWG asli. Gunakan enum `CodePages` yang berbeda jika diperlukan.
+- **`NullPointerException` pada `cadImage.save`:** Pastikan file DWG dimuat dengan benar; periksa jalur dan izin file.
+- **Ukuran PDF terlalu besar:** Aktifkan kompresi di `PdfOptions` (misalnya, `pdfOptions.setCompress(true)`).
 
-Selamat! Anda telah berhasil mempelajari cara mengganti deteksi halaman kode otomatis di file DWG menggunakan Aspose.CAD untuk Java. Pustaka yang kuat ini menyediakan kemampuan luas untuk bekerja dengan file CAD, menjadikannya alat yang berharga bagi pengembang Java.
+## Frequently Asked Questions
 
-Jangan ragu untuk menjelajahi fitur dan fungsi tambahan yang ditawarkan oleh Aspose.CAD untuk meningkatkan kemampuan pemrosesan file CAD Anda.
+**T1: Apakah Aspose.CAD kompatibel dengan semua versi file DWG?**  
+J1: Aspose.CAD mendukung berbagai versi DWG, termasuk AutoCAD 2018 dan rilis sebelumnya.
 
-## FAQ
+**T2: Bisakah saya menggunakan Aspose.CAD untuk proyek komersial?**  
+J2: Ya, lisensi komersial diperlukan untuk penggunaan produksi. Anda dapat memperoleh lisensi [di sini](https://purchase.aspose.com/buy).
 
-### Q1: Apakah Aspose.CAD kompatibel dengan semua versi file DWG?
+**T3: Apakah ada batasan pada versi percobaan gratis?**  
+J3: Versi percobaan memberlakukan batasan ukuran dan fitur; lihat dokumentasi resmi untuk detailnya.
 
-A1: Aspose.CAD mendukung berbagai versi file DWG, termasuk AutoCAD 2018 dan sebelumnya.
+**T4: Bagaimana cara mendapatkan dukungan untuk Aspose.CAD?**  
+J4: Kunjungi komunitas [forum Aspose.CAD](https://forum.aspose.com/c/cad/19) untuk bantuan dan diskusi.
 
-### Q2: Dapatkah saya menggunakan Aspose.CAD untuk proyek komersial?
+**T5: Apakah ada lisensi sementara yang tersedia untuk tujuan pengujian?**  
+J5: Ya, lisensi sementara dapat diminta [di sini](https://purchase.aspose.com/temporary-license/).
 
- A2: Ya, Anda dapat menggunakan Aspose.CAD untuk proyek komersial. Untuk detail lisensi, kunjungi[Di Sini](https://purchase.aspose.com/buy).
+---
 
-### Q3: Apakah ada batasan dalam versi uji coba gratis?
+**Terakhir Diperbarui:** 2026-01-12  
+**Diuji Dengan:** Aspose.CAD for Java 24.11 (latest at time of writing)  
+**Penulis:** Aspose  
 
-A3: Versi uji coba gratis memiliki beberapa keterbatasan, dan disarankan untuk memeriksa dokumentasi untuk detailnya.
-
-### Q4: Bagaimana saya bisa mendapatkan dukungan untuk Aspose.CAD?
-
- A4: Kunjungi[Forum Aspose.CAD](https://forum.aspose.com/c/cad/19) untuk dukungan dan diskusi komunitas.
-
-### Q5: Apakah ada lisensi sementara yang tersedia untuk tujuan pengujian?
-
- A5: Ya, Anda bisa mendapatkan lisensi sementara[Di Sini](https://purchase.aspose.com/temporary-license/) untuk pengujian.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

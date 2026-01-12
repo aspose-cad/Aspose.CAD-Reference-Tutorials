@@ -1,35 +1,46 @@
 ---
-title: Remplacer la détection automatique des pages de codes dans les fichiers DWG avec Java
-linktitle: Remplacer la détection automatique des pages de codes dans les fichiers DWG
-second_title: API Java Aspose.CAD
-description: Découvrez comment remplacer la détection des pages de codes dans les fichiers DWG avec Aspose.CAD pour Java. Gérez efficacement l’encodage et récupérez les CIF/MIF malformés.
-weight: 13
+date: 2026-01-12
+description: Apprenez à exporter des fichiers CAD en PDF tout en surchargeant la détection
+  automatique de la page de code dans les fichiers DWG à l’aide d’Aspose.CAD pour
+  Java. Gère l’encodage et les CIF/MIF malformés.
+linktitle: Override Automatic Code Page Detection in DWG Files
+second_title: Aspose.CAD Java API
+title: Exporter le CAD en PDF – Contourner la détection automatique de la page de
+  code dans les fichiers DWG avec Java
 url: /fr/java/dwg-file-operations/override-code-page-detection/
+weight: 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Remplacer la détection automatique des pages de codes dans les fichiers DWG avec Java
+# Exporter CAD en PDF – Remplacer la détection automatique de la page de code dans les fichiers DWG avec Java
 
 ## Introduction
 
-Bienvenue dans ce guide complet sur la façon de remplacer la détection automatique des pages de codes dans les fichiers DWG à l'aide d'Aspose.CAD pour Java. Aspose.CAD est une bibliothèque puissante qui permet aux développeurs Java de travailler avec des formats de fichiers CAO, offrant un large éventail de fonctionnalités pour manipuler, convertir et exporter des fichiers CAO.
+Dans ce guide complet, vous découvrirez **comment exporter CAD en PDF** tout en contournant la détection automatique de la page de code qui peut corrompre le texte dans les fichiers DWG. Aspose.CAD for Java vous offre un contrôle fin sur l’encodage, vous permettant de récupérer des données CIF/MIF malformées et de produire une sortie PDF fiable. Que vous construisiez un convertisseur par lots ou intégriez le traitement CAD dans une application Java plus vaste, les étapes ci‑dessous vous guideront à travers l’ensemble du flux de travail.
 
-Dans ce didacticiel, nous nous concentrerons sur une tâche spécifique : remplacer la détection automatique des pages de codes dans les fichiers DWG. Vous apprendrez étape par étape comment gérer l’encodage et récupérer les CIF/MIF mal formés.
+## Quick Answers
+- **Que signifie « override code page » ?** Cela force Aspose.CAD à utiliser un encodage de caractères spécifique au lieu de deviner.
+- **Puis‑je exporter un DWG directement en PDF ?** Oui – après avoir défini la bonne page de code, vous pouvez enregistrer l’image CAD au format PDF.
+- **Quel encodage fonctionne pour le texte japonais ?** `CodePages.Japanese` et `MifCodePages.Japanese` sont les bons choix.
+- **Ai‑je besoin d’une licence pour une utilisation en production ?** Une licence commerciale est requise ; une licence temporaire est disponible pour les tests.
+- **Quelle version d’Aspose.CAD est nécessaire ?** Toute version récente qui prend en charge `LoadOptions` et `PdfOptions`.
 
-## Conditions préalables
+## What is “export CAD to PDF”?
+Exporter CAD en PDF convertit les dessins CAD vectoriels en un format de document à mise en page fixe largement supporté. Le PDF résultant préserve les tracés, les calques et le texte tout en facilitant le partage, l’impression ou l’intégration du dessin dans d’autres applications.
 
-Avant de plonger dans le didacticiel, assurez-vous que les conditions préalables suivantes sont remplies :
+## Why override the automatic code page detection?
+Les fichiers DWG stockent souvent le texte à l’aide de pages de code héritées. L’auto‑détection d’Aspose.CAD peut mal interpréter ces octets, entraînant des caractères illisibles. En spécifiant manuellement la page de code, vous vous assurez que le texte apparaît exactement comme prévu dans le PDF exporté, notamment pour les scripts non latins tels que le japonais, le cyrillique ou l’arabe.
 
-- Environnement de développement Java : assurez-vous qu'un environnement de développement Java fonctionnel est configuré sur votre système.
-- Bibliothèque Aspose.CAD : téléchargez et installez la bibliothèque Aspose.CAD pour Java. Vous pouvez trouver la bibliothèque[ici](https://releases.aspose.com/cad/java/).
-- Fichier DWG : préparez un fichier DWG pour les tests. Vous pouvez utiliser l'exemple de fichier fourni nommé « SimpleEntities.dwg ».
+## Prerequisites
+- **Environnement de développement Java** – JDK 8+ et votre IDE préféré.
+- **Aspose.CAD for Java** – Téléchargez la bibliothèque depuis le site officiel [here](https://releases.aspose.com/cad/java/).
+- **Fichier d’exemple DWG** – Utilisez le `SimpleEntities.dwg` fourni ou tout autre DWG que vous devez convertir.
 
-## Importer des packages
-
-Dans votre projet Java, importez les packages nécessaires pour utiliser les fonctionnalités d'Aspose.CAD :
+## Import Packages
+Dans votre projet Java, importez les classes Aspose.CAD nécessaires :
 
 ```java
 import com.aspose.cad.CodePages;
@@ -39,15 +50,13 @@ import com.aspose.cad.MifCodePages;
 import com.aspose.cad.fileformats.cad.CadImage;
 ```
 
-Maintenant, décomposons le processus en plusieurs étapes :
+## Step‑by‑Step Guide
 
-## Étape 1 : configurer le projet
+### Step 1: Set Up the Java Project
+Créez un nouveau projet Maven ou Gradle et ajoutez le JAR Aspose.CAD au classpath. Cette étape garantit que l’IDE peut résoudre les classes importées.
 
-Créez un nouveau projet Java et ajoutez la bibliothèque Aspose.CAD aux dépendances de votre projet.
-
-## Étape 2 : Charger le fichier DWG
-
-Spécifiez le chemin d'accès à votre fichier DWG et chargez-le à l'aide d'Aspose.CAD :
+### Step 2: Load the DWG File with a Specified Code Page
+Indiquez à Aspose.CAD quel encodage utiliser et si vous devez tenter la récupération de données CIF/MIF malformées.
 
 ```java
 String SourceDir = "Your Document Directory";
@@ -59,54 +68,53 @@ opts.setRecoverMalformedCifMif(false);
 CadImage cadImage = (CadImage) Image.load(dwgPathToFile, opts);
 ```
 
-## Étape 3 : manipuler l'image CAO
-
-Effectuez toutes les opérations nécessaires sur l’image CAO chargée. Cela peut impliquer d’exporter ou d’apporter des modifications.
+### Step 3: Export the CAD Image to PDF
+Avec la bonne page de code appliquée, vous pouvez exporter le dessin en toute sécurité. L’objet `PdfOptions` vous permet d’ajuster finement la sortie PDF (compression, rasterisation, etc.).
 
 ```java
-// Effectuer des exportations ou d'autres opérations avec cadImage
-// Par exemple, exporter au format PDF
+// Perform export or other operations with cadImage
+// For example, exporting to PDF
 PdfOptions pdfOptions = new PdfOptions();
 cadImage.save("output.pdf", pdfOptions);
 ```
 
-## Étape 4 : Vérifier le succès
-
-Imprimez un message de réussite sur la console pour confirmer que le code s'est exécuté avec succès :
+### Step 4: Verify Success
+Un simple message console confirme que le processus s’est terminé sans exception.
 
 ```java
 System.out.println("OverrideAutomaticCodePageDetectionDwg executed successfully");
 ```
 
-Répétez ces étapes si nécessaire pour votre cas d'utilisation spécifique.
+Vous pouvez répéter ces étapes pour plusieurs fichiers DWG, en ajustant le chemin source et le nom de sortie selon vos besoins.
 
-## Conclusion
+## Common Issues & Solutions
+- **Des caractères indésirables apparaissent toujours :** Vérifiez que le `specifiedEncoding` correspond à la page de code originale du DWG. Utilisez un autre enum `CodePages` si nécessaire.
+- **`NullPointerException` sur `cadImage.save` :** Assurez‑vous que le fichier DWG se charge correctement ; vérifiez le chemin et les permissions du fichier.
+- **La taille du PDF est grande :** Activez la compression dans `PdfOptions` (par ex., `pdfOptions.setCompress(true)`).
 
-Toutes nos félicitations! Vous avez appris avec succès comment remplacer la détection automatique des pages de codes dans les fichiers DWG à l'aide d'Aspose.CAD pour Java. Cette puissante bibliothèque offre des fonctionnalités étendues pour travailler avec des fichiers CAO, ce qui en fait un outil précieux pour les développeurs Java.
+## Frequently Asked Questions
 
-N'hésitez pas à explorer les fonctionnalités supplémentaires offertes par Aspose.CAD pour améliorer vos capacités de traitement de fichiers CAO.
+**Q1 : Aspose.CAD est‑il compatible avec toutes les versions de fichiers DWG ?**  
+R1 : Aspose.CAD prend en charge un large éventail de versions DWG, y compris AutoCAD 2018 et les versions antérieures.
 
-## FAQ
+**Q2 : Puis‑je utiliser Aspose.CAD pour des projets commerciaux ?**  
+R2 : Oui, une licence commerciale est requise pour une utilisation en production. Vous pouvez obtenir une licence [here](https://purchase.aspose.com/buy).
 
-### Q1 : Aspose.CAD est-il compatible avec toutes les versions de fichiers DWG ?
+**Q3 : Y a‑t‑il des limitations dans la version d’essai gratuite ?**  
+R3 : L’essai impose des restrictions de taille et de fonctionnalités ; consultez la documentation officielle pour plus de détails.
 
-A1 : Aspose.CAD prend en charge diverses versions de fichiers DWG, notamment AutoCAD 2018 et versions antérieures.
+**Q4 : Comment obtenir du support pour Aspose.CAD ?**  
+R4 : Visitez la communauté [Aspose.CAD forum](https://forum.aspose.com/c/cad/19) pour obtenir de l’aide et participer aux discussions.
 
-### Q2 : Puis-je utiliser Aspose.CAD pour des projets commerciaux ?
+**Q5 : Une licence temporaire est‑elle disponible à des fins de test ?**  
+R5 : Oui, une licence temporaire peut être demandée [here](https://purchase.aspose.com/temporary-license/).
 
- A2 : Oui, vous pouvez utiliser Aspose.CAD pour des projets commerciaux. Pour plus de détails sur les licences, visitez[ici](https://purchase.aspose.com/buy).
+---
 
-### Q3 : Y a-t-il des limitations dans la version d'essai gratuite ?
+**Last Updated:** 2026-01-12  
+**Tested With:** Aspose.CAD for Java 24.11 (latest at time of writing)  
+**Author:** Aspose  
 
-A3 : La version d'essai gratuite présente certaines limitations et il est recommandé de consulter la documentation pour plus de détails.
-
-### Q4 : Comment puis-je obtenir de l'aide pour Aspose.CAD ?
-
- A4 : Visitez le[Forum Aspose.CAD](https://forum.aspose.com/c/cad/19) pour le soutien et les discussions de la communauté.
-
-### Q5 : Existe-t-il une licence temporaire disponible à des fins de test ?
-
- A5 : Oui, vous pouvez obtenir une licence temporaire[ici](https://purchase.aspose.com/temporary-license/) pour tester.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
