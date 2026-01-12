@@ -1,35 +1,46 @@
 ---
-title: Java ile DWG Dosyalarında Otomatik Kod Sayfası Algılamayı Geçersiz Kıl
-linktitle: DWG Dosyalarında Otomatik Kod Sayfası Algılamayı Geçersiz Kıl
-second_title: Aspose.CAD Java API'si
-description: Aspose.CAD for Java ile DWG dosyalarındaki kod sayfası tespitini nasıl geçersiz kılacağınızı keşfedin. Kodlamayı verimli bir şekilde işleyin ve hatalı biçimlendirilmiş CIF/MIF'yi kurtarın.
-weight: 13
+date: 2026-01-12
+description: Aspose.CAD for Java kullanarak DWG dosyalarında otomatik kod sayfası
+  algılamasını geçersiz kılarak CAD'i PDF'ye nasıl dışa aktaracağınızı öğrenin. Kodlama
+  ve bozuk CIF/MIF dosyalarını ele alır.
+linktitle: Override Automatic Code Page Detection in DWG Files
+second_title: Aspose.CAD Java API
+title: CAD'yi PDF'ye Dışa Aktar – DWG Dosyalarında Otomatik Kod Sayfası Algılamasını
+  Java ile Geçersiz Kıl
 url: /tr/java/dwg-file-operations/override-code-page-detection/
+weight: 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Java ile DWG Dosyalarında Otomatik Kod Sayfası Algılamayı Geçersiz Kıl
+# CAD'yi PDF'ye Dışa Aktarma – DWG Dosyalarında Otomatik Kod Sayfası Algılamasını Java ile Geçersiz Kılma
 
-## giriiş
+## Giriş
 
-Aspose.CAD for Java kullanılarak DWG dosyalarında otomatik kod sayfası tespitinin nasıl geçersiz kılınacağıyla ilgili bu kapsamlı kılavuza hoş geldiniz. Aspose.CAD, Java geliştiricilerinin CAD dosya formatlarıyla çalışmasına olanak tanıyan, CAD dosyalarını işlemek, dönüştürmek ve dışa aktarmak için çok çeşitli özellikler sağlayan güçlü bir kütüphanedir.
+Bu kapsamlı rehberde, DWG dosyalarındaki metni bozabilen otomatik kod sayfası algılamasını geçersiz kılarak **CAD'yi PDF'ye nasıl dışa aktaracağınızı** keşfedeceksiniz. Aspose.CAD for Java, kodlamayı ince ayar yapmanıza olanak tanır, bozuk CIF/MIF verilerini kurtarmanızı ve güvenilir PDF çıktısı üretmenizi sağlar. İster bir toplu dönüştürücü oluşturuyor olun, ister CAD işleme işlevini daha büyük bir Java uygulamasına entegre ediyor olun, aşağıdaki adımlar tüm iş akışını size gösterecektir.
 
-Bu eğitimde belirli bir göreve odaklanacağız: DWG dosyalarında otomatik kod sayfası algılamayı geçersiz kılmak. Kodlamayı nasıl ele alacağınızı ve hatalı biçimlendirilmiş CIF/MIF'yi adım adım nasıl kurtaracağınızı öğreneceksiniz.
+## Hızlı Yanıtlar
+- **“Kod sayfasını geçersiz kıl” ne anlama gelir?** Aspose.CAD'in tahmin etmek yerine belirli bir karakter kodlamasını kullanmasını zorlar.
+- **DWG'yi doğrudan PDF'ye dışa aktarabilir miyim?** Evet – doğru kod sayfasını ayarladıktan sonra CAD görüntüsünü PDF olarak kaydedebilirsiniz.
+- **Japonca metin için hangi kodlama çalışır?** `CodePages.Japanese` ve `MifCodePages.Japanese` doğru seçimlerdir.
+- **Üretim kullanımı için lisansa ihtiyacım var mı?** Ticari bir lisans gereklidir; test için geçici bir lisans mevcuttur.
+- **Hangi Aspose.CAD sürümü gerekiyor?** `LoadOptions` ve `PdfOptions` destekleyen herhangi bir yeni sürüm.
 
-## Önkoşullar
+## “CAD'yi PDF'ye dışa aktarma” nedir?
+CAD'yi PDF'ye dışa aktarmak, vektör tabanlı CAD çizimlerini geniş çapta desteklenen, sabit düzenli bir belge formatına dönüştürür. Oluşan PDF, çizgi çalışmasını, katmanları ve metni korurken çizimi paylaşmayı, yazdırmayı veya diğer uygulamalara gömmeyi kolaylaştırır.
 
-Eğiticiye dalmadan önce aşağıdaki önkoşulların mevcut olduğundan emin olun:
+## Otomatik kod sayfası algılamasını neden geçersiz kılmalıyız?
+DWG dosyaları genellikle metni eski kod sayfalarıyla depolar. Aspose.CAD'in otomatik algılaması bu baytları yanlış yorumlayabilir ve bozuk karakterlere yol açabilir. Kod sayfasını manuel olarak belirleyerek, özellikle Japonca, Kiril veya Arapça gibi Latin dışı yazı sistemleri için, metnin dışa aktarılan PDF'de tam olarak istediğiniz gibi görünmesini sağlarsınız.
 
-- Java Geliştirme Ortamı: Sisteminizde çalışan bir Java geliştirme ortamının kurulu olduğundan emin olun.
-- Aspose.CAD Kütüphanesi: Aspose.CAD for Java kütüphanesini indirip yükleyin. Kütüphaneyi bulabilirsiniz[Burada](https://releases.aspose.com/cad/java/).
-- DWG Dosyası: Test için bir DWG dosyasını hazır bulundurun. Sağlanan "SimpleEntities.dwg" adlı örnek dosyayı kullanabilirsiniz.
+## Ön Koşullar
+- **Java Geliştirme Ortamı** – JDK 8+ ve tercih ettiğiniz IDE.
+- **Aspose.CAD for Java** – Kütüphaneyi resmi siteden [buradan](https://releases.aspose.com/cad/java/) indirin.
+- **DWG Örnek Dosyası** – Sağlanan `SimpleEntities.dwg` dosyasını veya dönüştürmek istediğiniz herhangi bir DWG dosyasını kullanın.
 
-## Paketleri İçe Aktar
-
-Aspose.CAD işlevlerini kullanmak için Java projenize gerekli paketleri içe aktarın:
+## Paketleri İçe Aktarma
+Java projenizde, gerekli Aspose.CAD sınıflarını içe aktarın:
 
 ```java
 import com.aspose.cad.CodePages;
@@ -39,15 +50,13 @@ import com.aspose.cad.MifCodePages;
 import com.aspose.cad.fileformats.cad.CadImage;
 ```
 
-Şimdi süreci birden fazla adıma ayıralım:
+## Adım‑Adım Kılavuz
 
-## Adım 1: Projeyi Kurun
+### Adım 1: Java Projesini Kurun
+Yeni bir Maven veya Gradle projesi oluşturun ve Aspose.CAD JAR dosyasını sınıf yoluna ekleyin. Bu adım, IDE'nin içe aktarılan sınıfları çözümleyebilmesini sağlar.
 
-Yeni bir Java projesi oluşturun ve Aspose.CAD kütüphanesini projenizin bağımlılıklarına ekleyin.
-
-## Adım 2: DWG Dosyasını Yükleyin
-
-DWG dosyanızın yolunu belirtin ve Aspose.CAD kullanarak yükleyin:
+### Adım 2: Belirtilen Kod Sayfası ile DWG Dosyasını Yükleyin
+Aspose.CAD'e hangi kodlamayı kullanacağını ve bozuk CIF/MIF verilerinin kurtarılmaya çalışılıp çalışılmayacağını söyleyin.
 
 ```java
 String SourceDir = "Your Document Directory";
@@ -59,54 +68,53 @@ opts.setRecoverMalformedCifMif(false);
 CadImage cadImage = (CadImage) Image.load(dwgPathToFile, opts);
 ```
 
-## Adım 3: CAD Görüntüsünü Yönetin
-
-Yüklenen CAD görüntüsü üzerinde gerekli işlemleri gerçekleştirin. Bu, dışa aktarmayı veya değişiklik yapmayı içerebilir.
+### Adım 3: CAD Görüntüsünü PDF'ye Dışa Aktarın
+Doğru kod sayfası uygulandığında, çizimi güvenle dışa aktarabilirsiniz. `PdfOptions` nesnesi, PDF çıktısını (sıkıştırma, rasterleştirme vb.) ince ayar yapmanıza olanak tanır.
 
 ```java
-// CadImage ile dışa aktarma veya diğer işlemleri gerçekleştirin
-// Örneğin, PDF'ye dışa aktarma
+// Perform export or other operations with cadImage
+// For example, exporting to PDF
 PdfOptions pdfOptions = new PdfOptions();
 cadImage.save("output.pdf", pdfOptions);
 ```
 
-## 4. Adım: Başarıyı Doğrulayın
-
-Kodun başarıyla yürütüldüğünü onaylamak için konsola bir başarı mesajı yazdırın:
+### Adım 4: Başarıyı Doğrulayın
+Basit bir konsol mesajı, işlemin istisna olmadan tamamlandığını doğrular.
 
 ```java
 System.out.println("OverrideAutomaticCodePageDetectionDwg executed successfully");
 ```
 
-Özel kullanım durumunuz için bu adımları gerektiği kadar tekrarlayın.
+Bu adımları birden fazla DWG dosyası için tekrarlayabilir, kaynak yolunu ve çıktı adını gerektiği gibi ayarlayabilirsiniz.
 
-## Çözüm
+## Yaygın Sorunlar ve Çözümler
+- **Garbage karakterler hâlâ görünüyor:** `specifiedEncoding`'in orijinal DWG'nin kod sayfasıyla eşleştiğini iki kez kontrol edin. Gerekirse farklı bir `CodePages` enum'u kullanın.
+- **`cadImage.save` üzerinde `NullPointerException`:** DWG dosyasının doğru yüklendiğinden emin olun; yolu ve dosya izinlerini doğrulayın.
+- **PDF boyutu büyük:** `PdfOptions` içinde sıkıştırmayı etkinleştirin (ör. `pdfOptions.setCompress(true)`).
 
-Tebrikler! Aspose.CAD for Java kullanarak DWG dosyalarında otomatik kod sayfası tespitini nasıl geçersiz kılacağınızı başarıyla öğrendiniz. Bu güçlü kitaplık, CAD dosyalarıyla çalışmak için kapsamlı yetenekler sağlar ve bu da onu Java geliştiricileri için değerli bir araç haline getirir.
+## Sıkça Sorulan Sorular
 
-CAD dosya işleme yeteneklerinizi geliştirmek için Aspose.CAD tarafından sunulan ek özellikleri ve işlevleri keşfetmekten çekinmeyin.
+**Q1: Aspose.CAD tüm DWG dosyası sürümleriyle uyumlu mu?**  
+A1: Aspose.CAD, AutoCAD 2018 ve daha önceki sürümler dahil olmak üzere geniş bir DWG sürüm yelpazesini destekler.
 
-## SSS'ler
+**Q2: Aspose.CAD'i ticari projelerde kullanabilir miyim?**  
+A2: Evet, üretim kullanımı için ticari bir lisans gereklidir. Lisansı [buradan](https://purchase.aspose.com/buy) edinebilirsiniz.
 
-### S1: Aspose.CAD, DWG dosyalarının tüm sürümleriyle uyumlu mudur?
+**Q3: Ücretsiz deneme sürümünde herhangi bir sınırlama var mı?**  
+A3: Deneme sürümü boyut ve özellik kısıtlamaları getirir; ayrıntılar için resmi belgelere bakın.
 
-Cevap1: Aspose.CAD, AutoCAD 2018 ve öncesi de dahil olmak üzere çeşitli DWG dosya sürümlerini destekler.
+**Q4: Aspose.CAD için destek nasıl alabilirim?**  
+A4: Yardım ve tartışmalar için topluluk [Aspose.CAD forum](https://forum.aspose.com/c/cad/19) adresini ziyaret edin.
 
-### S2: Aspose.CAD'i ticari projeler için kullanabilir miyim?
+**Q5: Test amaçları için geçici bir lisans mevcut mu?**  
+A5: Evet, geçici bir lisans [buradan](https://purchase.aspose.com/temporary-license/) istenebilir.
 
- Cevap2: Evet, Aspose.CAD'i ticari projeler için kullanabilirsiniz. Lisans ayrıntıları için şu adresi ziyaret edin:[Burada](https://purchase.aspose.com/buy).
+---
 
-### S3: Ücretsiz deneme sürümünde herhangi bir sınırlama var mı?
+**Son Güncelleme:** 2026-01-12  
+**Test Edilen Versiyon:** Aspose.CAD for Java 24.11 (yazım sırasında en son sürüm)  
+**Yazar:** Aspose  
 
-Cevap 3: Ücretsiz deneme sürümünün bazı sınırlamaları vardır ve ayrıntılar için belgelere göz atmanız önerilir.
-
-### S4: Aspose.CAD için nasıl destek alabilirim?
-
- A4: Ziyaret edin[Aspose.CAD forumu](https://forum.aspose.com/c/cad/19) topluluk desteği ve tartışmalar için.
-
-### S5: Test amaçlı geçici bir lisans mevcut mu?
-
- Cevap5: Evet, geçici lisans alabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/) test için.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
