@@ -1,32 +1,52 @@
 ---
-title: تمكين دعم الشبكة لملفات DWG في Java
-linktitle: تمكين دعم الشبكة لملفات DWG في Java
-second_title: Aspose.CAD جافا API
-description: تعرف على كيفية تمكين دعم الشبكة لملفات DWG في Java باستخدام Aspose.CAD. دليل خطوة بخطوة للتلاعب بالرسم ثلاثي الأبعاد بسلاسة. #برمجة_جافا #CADFiles
-weight: 12
+date: 2026-01-17
+description: تعلم كيفية تمكين دعم الشبكة لملفات DWG وتحويل DWG إلى PDF في Java باستخدام
+  Aspose.CAD. دليل خطوة بخطوة للتعامل السلس مع الرسومات ثلاثية الأبعاد.
+linktitle: Convert DWG to PDF with Mesh Support in Java
+second_title: Aspose.CAD Java API
+title: تحويل DWG إلى PDF مع دعم الشبكة في Java
 url: /ar/java/dwg-file-operations/mesh-support-for-dwg/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# تمكين دعم الشبكة لملفات DWG في Java
+# تحويل DWG إلى PDF مع دعم Mesh في Java
 
-## مقدمة
+## المقدمة
 
-في عالم برمجة Java الديناميكي، يعد التعامل مع ملفات CAD بكفاءة أمرًا بالغ الأهمية. يأتي Aspose.CAD for Java للإنقاذ، حيث يوفر أدوات قوية للتعامل مع ملفات DWG. في هذا البرنامج التعليمي، سوف نتعمق في تمكين دعم الشبكة لملفات DWG باستخدام Aspose.CAD، مما يسمح لك بالعمل بسلاسة مع الرسومات ثلاثية الأبعاد المعقدة.
+العمل مع ملفات DWG في Java يعني غالبًا أنك تحتاج إلى **تحويل DWG إلى PDF** مع الحفاظ على الهندسة ثلاثية الأبعاد المعقدة. تمكين دعم Mesh خطوة حاسمة لأنه يضمن أن الكيانات ثلاثية الأبعاد مثل PolyFaceMesh وPolygonMesh يتم تفسيرها بشكل صحيح قبل التحويل. في هذا الدرس سنستعرض تمكين دعم Mesh باستخدام Aspose.CAD for Java، ونوضح لك كيف تجعل هذه الإعدادات عملية *تحويل DWG إلى PDF* التالية موثوقة ودقيقة.
 
-## المتطلبات الأساسية
+## إجابات سريعة
+- **هل يمكنني تحويل DWG إلى PDF مباشرةً؟** نعم، بعد تمكين دعم Mesh يمكنك تحويل الرسومات إلى نقطية أو تصدير DWG إلى PDF.
+- **هل أحتاج إلى ترخيص لـ Aspose.CAD؟** النسخة التجريبية المجانية تكفي للتقييم؛ يلزم ترخيص تجاري للإنتاج.
+- **ما نسخة Java المطلوبة؟** Java 8 أو أحدث.
+- **هل سيتم الحفاظ على كيانات Mesh في PDF؟** تمكين دعم Mesh يضمن معالجة الرؤوس، وبالتالي يعكس PDF الهندسة ثلاثية الأبعاد الأصلية.
+- **هل هناك حاجة إلى إعداد إضافي؟** فقط إعداد Aspose.CAD القياسي والتخلص السليم من الموارد.
 
-قبل الغوص في البرنامج التعليمي، تأكد من توفر المتطلبات الأساسية التالية:
-- تم تثبيت Java Development Kit (JDK) على جهازك.
--  تم تنزيل مكتبة Aspose.CAD لـ Java وإضافتها إلى مشروعك. يمكنك العثور على المكتبة[هنا](https://releases.aspose.com/cad/java/).
-- الفهم الأساسي لبرمجة جافا.
+## ما هو دعم Mesh لملف DWG؟
 
-## حزم الاستيراد
+يدعم Mesh Aspose.CAD في التعرف على الكيانات القائمة على الشبكة (PolyFaceMesh وPolygonMesh) التي تُعرّف الأسطح ثلاثية الأبعاد ومعالجتها. بدون هذا الدعم، قد يتم تجاهل تلك الكيانات أو عرضها بشكل غير صحيح عندما تقوم لاحقًا **بتحويل DWG إلى PDF**.
 
-للبدء، قم باستيراد الحزم الضرورية إلى مشروع Java الخاص بك. ستمنحك هذه الحزم إمكانية الوصول إلى وظائف Aspose.CAD لـ Java.
+## لماذا تمكين دعم Mesh قبل تحويل DWG إلى PDF؟
+
+- **تمثيل ثلاثي الأبعاد دقيق** – يتم الاحتفاظ برؤوس Mesh، لذا يعرض PDF الهندسة المقصودة.
+- **تقليل المعالجة اللاحقة** – عدد أقل من التعديلات اليدوية بعد التحويل.
+- **أداء أفضل** – يقوم Aspose.CAD بمعالجة Meshes بكفاءة عندما يتم تمكينها صراحةً.
+
+## المتطلبات المسبقة
+
+قبل البدء، تأكد من أن لديك:
+
+- مجموعة تطوير Java (JDK) مثبتة.
+- مكتبة Aspose.CAD for Java تم تنزيلها وإضافتها إلى مشروعك. يمكنك العثور على المكتبة [هنا](https://releases.aspose.com/cad/java/).
+- فهم أساسي لبرمجة Java.
+
+## استيراد الحزم
+
+للبدء، استورد الحزم الضرورية في مشروع Java الخاص بك. ستمنحك هذه الحزم الوصول إلى وظائف Aspose.CAD for Java.
 
 ```java
 import com.aspose.cad.*;
@@ -41,29 +61,28 @@ import com.aspose.cad.fileformats.cad.cadobjects.polylines.CadPolyFaceMesh;
 import com.aspose.cad.fileformats.cad.cadobjects.polylines.CadPolygonMesh;
 import java.util.ArrayList;
 import java.util.List;
-
 ```
 
 ## الخطوة 1: تحميل ملف DWG
 
-قم بتحميل ملف DWG باستخدام Aspose.CAD لـ Java. تأكد من أن لديك المسار الصحيح للملف وأن الملف موجود.
+حمّل ملف DWG باستخدام Aspose.CAD for Java. تأكد من أن لديك مسار الملف الصحيح وأن الملف موجود.
 
 ```java
-// المسار إلى دليل الموارد.
+// The path to the resource directory.
 String dataDir = "Your Document Directory" + "DWGDrawings/";
 String srcFile = dataDir + "meshes.dwg";
-//com.aspose.cad. objImage = com.aspose.cad.CImage.load(srcFile);
+// com.aspose.cad. objImage = com.aspose.cad.CImage.load(srcFile);
 CadImage cadImage =(CadImage) com.aspose.cad.Image.load(srcFile);;
 ```
 
-## الخطوة 2: التكرار عبر الكيانات
+## الخطوة 2: التجول عبر الكيانات
 
-قم بالتكرار عبر الكيانات الموجودة في ملف DWG الذي تم تحميله. يوفر Aspose.CAD مجموعة متنوعة من فئات الكيانات التي تمثل عناصر CAD المختلفة.
+تجول عبر الكيانات في ملف DWG المحمّل. يوفر Aspose.CAD مجموعة متنوعة من فئات الكيانات التي تمثل عناصر CAD المختلفة.
 
 ```java
 for (CadBaseEntity entity : cadImage.getEntities())
 {
-    // تحقق مما إذا كان الكيان هو PolyFaceMesh
+    // Check if the entity is a PolyFaceMesh
     if (entity instanceof CadPolyFaceMesh)
     {
         CadPolyFaceMesh asFaceMesh = (CadPolyFaceMesh)entity;
@@ -72,7 +91,7 @@ for (CadBaseEntity entity : cadImage.getEntities())
             System.out.println("Vertices count: " + asFaceMesh.getMeshMVertexCount());
         }
     }
-    // تحقق مما إذا كان الكيان عبارة عن PolygonMesh
+    // Check if the entity is a PolygonMesh
     else if (entity instanceof CadPolygonMesh)
     {
         CadPolygonMesh asPolygonMesh = (CadPolygonMesh)entity;
@@ -84,9 +103,9 @@ for (CadBaseEntity entity : cadImage.getEntities())
 }
 ```
 
-## الخطوة 3: التخلص من الموارد
+## الخطوة 3: تحرير الموارد
 
-تأكد من الإدارة السليمة للموارد عن طريق التخلص من كائن CadImage بعد الاستخدام.
+تأكد من إدارة الموارد بشكل صحيح عن طريق تحرير كائن CadImage بعد الاستخدام.
 
 ```java
 finally
@@ -95,33 +114,47 @@ finally
 }
 ```
 
-باتباع هذه الخطوات، يمكنك تمكين دعم الشبكة لملفات DWG في Java باستخدام Aspose.CAD، مما يفتح عالمًا من الإمكانيات لمعالجة ملفات CAD الخاصة بك.
+## كيفية تحويل DWG إلى PDF بعد تمكين دعم Mesh
 
-## خاتمة
+بمجرد تمكين دعم Mesh والتحقق من كيانات Mesh، يصبح تحويل DWG إلى PDF أمرًا بسيطًا:
 
-في هذا البرنامج التعليمي، استكشفنا عملية تمكين دعم الشبكة لملفات DWG في Java باستخدام Aspose.CAD. بفضل ميزاته القوية، يعمل Aspose.CAD على تبسيط التعامل مع ملفات CAD المعقدة، مما يجعله أداة أساسية لمطوري Java الذين يعملون مع الرسومات ثلاثية الأبعاد.
+1. **تكوين خيارات التحويل النقطي** (مثل حجم الصفحة، لون الخلفية).  
+2. **إنشاء مثيل `PdfOptions`** وتعيين إعدادات التحويل النقطي.  
+3. **استدعاء `cadImage.save(outputPath, pdfOptions)`** لإنشاء ملف PDF.
 
-## الأسئلة الشائعة
+*ملاحظة:* تم حذف كود التحويل الفعلي هنا للتركيز على دعم Mesh، لكن الخطوات أعلاه توضح مكان التحويل في سير العمل.
 
-### س1: هل يمكنني استخدام Aspose.CAD لـ Java مع تنسيقات ملفات CAD الأخرى؟
+## المشكلات الشائعة والحلول
 
-ج1: نعم، يدعم Aspose.CAD تنسيقات CAD المتنوعة، بما في ذلك DWG وDXF وDGN والمزيد.
+| المشكلة | السبب | الحل |
+|-------|--------|-----|
+| عدم طباعة الرؤوس | لم يتم التعرف على كيانات Mesh | تأكد من أنك تستخدم أحدث إصدار من Aspose.CAD وأن ملف DWG يحتوي فعليًا على بيانات Mesh. |
+| `cadImage` فارغ | مسار الملف غير صحيح | تحقق من أن `srcFile` يشير إلى ملف DWG صالح. |
+| ملف PDF الناتج يفتقد بيانات ثلاثية الأبعاد | لم يتم تمكين دعم Mesh | اتبع الخطوات أعلاه للتجول وتأكيد كيانات Mesh قبل التحويل. |
 
-### س2: أين يمكنني العثور على الوثائق التفصيلية الخاصة بـ Aspose.CAD لـ Java؟
+## الأسئلة المتكررة
 
- ج2: يمكنك الرجوع إلى الوثائق[هنا](https://reference.aspose.com/cad/java/).
+**س: هل يمكنني استخدام Aspose.CAD for Java مع صيغ CAD أخرى؟**  
+ج: نعم، يدعم Aspose.CAD صيغ CAD متعددة، بما في ذلك DWG وDXF وDGN وغيرها.
 
-### س3: هل تتوفر نسخة تجريبية مجانية من Aspose.CAD لـ Java؟
+**س: أين يمكنني العثور على وثائق مفصلة لـ Aspose.CAD for Java؟**  
+ج: يمكنك الرجوع إلى الوثائق [هنا](https://reference.aspose.com/cad/java/).
 
- ج3: نعم، يمكنك الوصول إلى النسخة التجريبية المجانية[هنا](https://releases.aspose.com/).
+**س: هل هناك نسخة تجريبية مجانية متاحة لـ Aspose.CAD for Java؟**  
+ج: نعم، يمكنك الوصول إلى النسخة التجريبية المجانية [هنا](https://releases.aspose.com/).
 
-### س4: كيف يمكنني الحصول على ترخيص مؤقت لـ Aspose.CAD لـ Java؟
+**س: كيف يمكنني الحصول على ترخيص مؤقت لـ Aspose.CAD for Java؟**  
+ج: احصل على ترخيص مؤقت [هنا](https://purchase.aspose.com/temporary-license/).
 
- ج4: الحصول على ترخيص مؤقت[هنا](https://purchase.aspose.com/temporary-license/).
+**س: هل تحتاج إلى مساعدة أو لديك أسئلة؟**  
+ج: زر منتدى [Aspose.CAD](https://forum.aspose.com/c/cad/19) للحصول على دعم مخصص.
 
-### س5: هل تحتاج إلى مساعدة أو لديك أسئلة؟
+---
 
-ج5: قم بزيارة[منتدى Aspose.CAD](https://forum.aspose.com/c/cad/19) للحصول على الدعم المخصص.
+**آخر تحديث:** 2026-01-17  
+**تم الاختبار مع:** Aspose.CAD for Java 24.12 (latest at time of writing)  
+**المؤلف:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

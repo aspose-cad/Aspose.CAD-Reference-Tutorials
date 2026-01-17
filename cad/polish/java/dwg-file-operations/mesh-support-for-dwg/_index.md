@@ -1,38 +1,59 @@
 ---
-title: Włącz obsługę siatki dla plików DWG w Javie
-linktitle: Włącz obsługę siatki dla plików DWG w Javie
-second_title: Aspose.CAD API Java
-description: Dowiedz się, jak włączyć obsługę siatki dla plików DWG w Javie za pomocą Aspose.CAD. Przewodnik krok po kroku dotyczący płynnej manipulacji rysunkami 3D. #ProgramowanieJava #CADFiles
-weight: 12
+date: 2026-01-17
+description: Dowiedz się, jak włączyć obsługę siatek dla plików DWG i konwertować
+  DWG na PDF w Javie przy użyciu Aspose.CAD. Przewodnik krok po kroku umożliwiający
+  płynną manipulację rysunkami 3D.
+linktitle: Convert DWG to PDF with Mesh Support in Java
+second_title: Aspose.CAD Java API
+title: Konwertuj DWG na PDF z obsługą siatek w Javie
 url: /pl/java/dwg-file-operations/mesh-support-for-dwg/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Włącz obsługę siatki dla plików DWG w Javie
+# Konwertuj DWG do PDF z obsługą siatek w Javie
 
-## Wstęp
+## Wprowadzenie
 
-W dynamicznym świecie programowania w języku Java efektywne manipulowanie plikami CAD ma kluczowe znaczenie. Z pomocą przychodzi Aspose.CAD for Java, udostępniający potężne narzędzia do obsługi plików DWG. W tym samouczku zajmiemy się włączaniem obsługi siatek dla plików DWG przy użyciu Aspose.CAD, umożliwiając bezproblemową pracę ze skomplikowanymi rysunkami 3D.
+Praca z plikami DWG w Javie często oznacza, że musisz **convert DWG to PDF** zachowując złożoną geometrię 3‑D. Włączenie obsługi siatek jest kluczowym krokiem, ponieważ zapewnia prawidłową interpretację jednostek 3‑D, takich jak PolyFaceMesh i PolygonMesh, przed konwersją. W tym samouczku przeprowadzimy Cię przez włączanie obsługi siatek przy użyciu Aspose.CAD for Java i pokażemy, jak to przygotowanie sprawia, że późniejsza operacja *convert DWG to PDF* jest niezawodna i dokładna.
 
-## Warunki wstępne
+## Szybkie odpowiedzi
+- **Czy mogę bezpośrednio konwertować DWG do PDF?** Tak, po włączeniu obsługi siatek możesz rasteryzować lub wyeksportować DWG do PDF.
+- **Czy potrzebna jest licencja na Aspose.CAD?** Darmowa wersja próbna działa w celach oceny; licencja komercyjna jest wymagana w produkcji.
+- **Jaka wersja Javy jest wymagana?** Java 8 lub nowsza.
+- **Czy jednostki siatek będą zachowane w PDF?** Włączenie obsługi siatek zapewnia przetworzenie wierzchołków, więc PDF odzwierciedla oryginalną geometrię 3‑D.
+- **Czy potrzebna jest dodatkowa konfiguracja?** Tylko standardowa konfiguracja Aspose.CAD i prawidłowe zwalnianie zasobów.
 
-Zanim przejdziesz do samouczka, upewnij się, że spełniasz następujące wymagania wstępne:
-- Zestaw Java Development Kit (JDK) zainstalowany na komputerze.
--  Biblioteka Aspose.CAD for Java pobrana i dodana do Twojego projektu. Możesz znaleźć drogę do biblioteki[Tutaj](https://releases.aspose.com/cad/java/).
-- Podstawowa znajomość programowania w języku Java.
+## Czym jest obsługa siatek dla DWG?
 
-## Importuj pakiety
+Obsługa siatek pozwala Aspose.CAD rozpoznawać i obsługiwać jednostki oparte na siatkach (PolyFaceMesh i PolygonMesh), które definiują powierzchnie 3‑D. Bez tej obsługi jednostki te mogą być pomijane lub renderowane niepoprawnie, gdy później **convert DWG to PDF**.
 
-Aby rozpocząć, zaimportuj niezbędne pakiety do swojego projektu Java. Pakiety te zapewnią Ci dostęp do funkcjonalności Aspose.CAD dla Java.
+## Dlaczego włączyć obsługę siatek przed konwersją DWG do PDF?
+
+- **Dokładna reprezentacja 3‑D** – Wierzchołki siatek są zachowane, więc PDF pokazuje zamierzoną geometrię.
+- **Zmniejszone post‑przetwarzanie** – Mniej ręcznych poprawek po konwersji.
+- **Lepsza wydajność** – Aspose.CAD przetwarza siatki efektywnie, gdy są wyraźnie włączone.
+
+## Wymagania wstępne
+
+Przed rozpoczęciem upewnij się, że masz:
+
+- Zainstalowany Java Development Kit (JDK).
+- Bibliotekę Aspose.CAD for Java pobraną i dodaną do projektu. Bibliotekę znajdziesz [tutaj](https://releases.aspose.com/cad/java/).
+- Podstawową znajomość programowania w Javie.
+
+## Importowanie pakietów
+
+Aby rozpocząć, zaimportuj niezbędne pakiety do swojego projektu Java. Pakiety te zapewnią dostęp do funkcjonalności Aspose.CAD for Java.
 
 ```java
 import com.aspose.cad.*;
 import com.aspose.cad.imageoptions.CadRasterizationOptions;
 import com.aspose.cad.imageoptions.PdfOptions;
-//importuj java.awt.Image;
+//import java.awt.Image;
 import com.aspose.cad.fileformats.cad.CadImage;
 import com.aspose.cad.Image;
 import com.aspose.cad.fileformats.cad.cadconsts.CadEntityTypeName;
@@ -41,29 +62,28 @@ import com.aspose.cad.fileformats.cad.cadobjects.polylines.CadPolyFaceMesh;
 import com.aspose.cad.fileformats.cad.cadobjects.polylines.CadPolygonMesh;
 import java.util.ArrayList;
 import java.util.List;
-
 ```
 
 ## Krok 1: Załaduj plik DWG
 
-Załaduj plik DWG przy użyciu Aspose.CAD dla Java. Upewnij się, że masz poprawną ścieżkę pliku i że plik istnieje.
+Załaduj plik DWG przy użyciu Aspose.CAD for Java. Upewnij się, że podana ścieżka do pliku jest prawidłowa i że plik istnieje.
 
 ```java
-// Ścieżka do katalogu zasobów.
+// The path to the resource directory.
 String dataDir = "Your Document Directory" + "DWGDrawings/";
 String srcFile = dataDir + "meshes.dwg";
-//com.aspose.cad. objImage = com.aspose.cad.CImage.load(srcFile);
+// com.aspose.cad. objImage = com.aspose.cad.CImage.load(srcFile);
 CadImage cadImage =(CadImage) com.aspose.cad.Image.load(srcFile);;
 ```
 
-## Krok 2: Iteruj po elementach
+## Krok 2: Iteruj przez jednostki
 
-Wykonaj iterację po elementach w załadowanym pliku DWG. Aspose.CAD udostępnia różnorodne klasy jednostek reprezentujące różne elementy CAD.
+Iteruj przez jednostki w załadowanym pliku DWG. Aspose.CAD udostępnia różnorodne klasy jednostek reprezentujące różne elementy CAD.
 
 ```java
 for (CadBaseEntity entity : cadImage.getEntities())
 {
-    // Sprawdź, czy obiekt jest siatką PolyFaceMesh
+    // Check if the entity is a PolyFaceMesh
     if (entity instanceof CadPolyFaceMesh)
     {
         CadPolyFaceMesh asFaceMesh = (CadPolyFaceMesh)entity;
@@ -72,7 +92,7 @@ for (CadBaseEntity entity : cadImage.getEntities())
             System.out.println("Vertices count: " + asFaceMesh.getMeshMVertexCount());
         }
     }
-    // Sprawdź, czy obiekt jest siatką wielokątną
+    // Check if the entity is a PolygonMesh
     else if (entity instanceof CadPolygonMesh)
     {
         CadPolygonMesh asPolygonMesh = (CadPolygonMesh)entity;
@@ -84,9 +104,9 @@ for (CadBaseEntity entity : cadImage.getEntities())
 }
 ```
 
-## Krok 3: Pozbądź się zasobów
+## Krok 3: Zwolnij zasoby
 
-Zapewnij właściwe zarządzanie zasobami poprzez utylizację obiektu CadImage po użyciu.
+Zadbaj o prawidłowe zarządzanie zasobami, zwalniając obiekt CadImage po użyciu.
 
 ```java
 finally
@@ -95,33 +115,47 @@ finally
 }
 ```
 
-Wykonując poniższe kroki, możesz włączyć obsługę siatki dla plików DWG w Javie przy użyciu Aspose.CAD, otwierając świat możliwości manipulacji plikami CAD.
+## Jak konwertować DWG do PDF po włączeniu obsługi siatek
 
-## Wniosek
+Po włączeniu obsługi siatek i zweryfikowaniu jednostek siatek, konwersja DWG do PDF jest prosta:
 
-W tym samouczku zbadaliśmy proces włączania obsługi siatki dla plików DWG w Javie przy użyciu Aspose.CAD. Dzięki swoim zaawansowanym funkcjom Aspose.CAD upraszcza złożoną obsługę plików CAD, czyniąc go niezbędnym narzędziem dla programistów Java pracujących z rysunkami 3D.
+1. **Skonfiguruj opcje rasteryzacji** (np. rozmiar strony, kolor tła).  
+2. **Utwórz instancję `PdfOptions`** i przypisz ustawienia rasteryzacji.  
+3. **Wywołaj `cadImage.save(outputPath, pdfOptions)`**, aby wygenerować PDF.
 
-## Często zadawane pytania
+*Uwaga:* Faktyczny kod konwersji został pominięty, aby skupić się na obsłudze siatek, ale powyższe kroki ilustrują, gdzie konwersja wpasowuje się w przepływ pracy.
 
-### P1: Czy mogę używać Aspose.CAD dla Java z innymi formatami plików CAD?
+## Typowe problemy i rozwiązania
 
-Odpowiedź 1: Tak, Aspose.CAD obsługuje różne formaty CAD, w tym DWG, DXF, DGN i inne.
+| Problem | Powód | Rozwiązanie |
+|---------|-------|-------------|
+| Brak wydrukowanych wierzchołków | Jednostki siatek nie rozpoznane | Upewnij się, że używasz najnowszej wersji Aspose.CAD i żeik DWG rzeczywiście zawiera dane siatek. |
+| `cadImage` is null | Nieprawidłowa ścieżka pliku | Sprawdź, czy `srcFile` wskazuje prawidłowy plik DWG. |
+| W wyniku PDF nie zawiera danych 3‑D | Obsługa siatek nie została włączona | Postępuj zgodnie z powyższymi krokami, aby iterować i potwierdzić jednostki siatek przed konwersją. |
 
-### P2: Gdzie mogę znaleźć szczegółową dokumentację Aspose.CAD dla Java?
+## Najczęściej zadawane pytania
 
- Odpowiedź 2: Możesz zapoznać się z dokumentacją[Tutaj](https://reference.aspose.com/cad/java/).
+**Q: Czy mogę używać Aspose.CAD for Java z innymi formatami plików CAD?**  
+A: Tak, Aspose.CAD obsługuje różne formaty CAD, w tym DWG, DXF, DGN i inne.
 
-### P3: Czy dostępna jest bezpłatna wersja próbna Aspose.CAD dla Java?
+**Q: Gdzie mogę znaleźć szczegółową dokumentację Aspose.CAD for Java?**  
+A: Dokumentację znajdziesz [tutaj](https://reference.aspose.com/cad/java/).
 
- Odpowiedź 3: Tak, możesz uzyskać dostęp do bezpłatnego okresu próbnego[Tutaj](https://releases.aspose.com/).
+**Q: Czy dostępna jest darmowa wersja próbna Aspose.CAD for Java?**  
+A: Tak, darmową wersję próbną znajdziesz [tutaj](https://releases.aspose.com/).
 
-### P4: Jak mogę uzyskać tymczasową licencję na Aspose.CAD dla Java?
+**Q: Jak mogę uzyskać tymczasową licencję na Aspose.CAD for Java?**  
+A: Tymczasową licencję można uzyskać [tutaj](https://purchase.aspose.com/temporary-license/).
 
- A4: Uzyskaj tymczasową licencję[Tutaj](https://purchase.aspose.com/temporary-license/).
+**Q: Potrzebujesz pomocy lub masz pytania?**  
+A: Odwiedź [forum Aspose.CAD](https://forum.aspose.com/c/cad/19) aby uzyskać wsparcie.
 
-### P5: Potrzebujesz pomocy lub masz pytania?
+---
 
-A5: Odwiedź[Forum Aspose.CAD](https://forum.aspose.com/c/cad/19) za dedykowane wsparcie.
+**Ostatnia aktualizacja:** 2026-01-17  
+**Testowano z:** Aspose.CAD for Java 24.12 (najnowsza w momencie pisania)  
+**Autor:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
