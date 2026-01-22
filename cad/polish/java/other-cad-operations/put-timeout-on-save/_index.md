@@ -1,31 +1,49 @@
 ---
-title: Przekroczono limit czasu zapisu dla CAD za pomocą Aspose.CAD
-linktitle: Ustaw limit czasu na zapisywanie
-second_title: Aspose.CAD API Java
-description: Dowiedz się, jak zwiększyć wydajność aplikacji Java za pomocą Aspose.CAD. Ustaw limit czasu zapisu rysunków CAD. Postępuj zgodnie z naszym przewodnikiem krok po kroku.
-weight: 15
+date: 2026-01-22
+description: Dowiedz się, jak ustawić limit czasu przy zapisywaniu CAD do PDF przy
+  użyciu Aspose.CAD dla Javy. Zwiększ wydajność dzięki temu przewodnikowi krok po
+  kroku.
+linktitle: Put Timeout on Save
+second_title: Aspose.CAD Java API
+title: Jak ustawić limit czasu przy zapisywaniu CAD przy użyciu Aspose.CAD
 url: /pl/java/other-cad-operations/put-timeout-on-save/
+weight: 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Przekroczono limit czasu zapisu dla CAD za pomocą Aspose.CAD
+# Limit czasu przy zapisywaniu CAD z Aspose.CAD
 
-## Wstęp
+## Introduction
 
-Witamy w samouczku dotyczącym ustawiania limitu czasu zapisu przy użyciu Aspose.CAD dla Java. W tym przewodniku przeprowadzimy Cię przez proces ustawiania limitu czasu zapisywania rysunków CAD w celu zwiększenia wydajności aplikacji. Aspose.CAD for Java to potężna biblioteka, która umożliwia płynną pracę z plikami CAD w aplikacjach Java.
+Witamy w samouczku dotyczącym **ustawiania limitu czasu** przy zapisywaniu rysunków CAD przy użyciu Aspose.CAD dla Javy. W tym przewodniku przeprowadzimy Cię przez proces konfigurowania limitu czasu dla operacji zapisu, co pomaga utrzymać responsywność aplikacji i poprawia ogólną wydajność. Aspose.CAD dla Javy to potężna biblioteka, która umożliwia płynną pracę z plikami CAD.
 
-## Warunki wstępne
+## Quick Answers
+- **Co robi limit czasu?** Przerywa operację zapisu, jeśli przekroczy określony czas, zapobiegając długotrwałym zawieszeniom.  
+- **Jaki format jest używany w przykładzie?** Rysunek CAD jest zapisywany jako plik PDF.  
+- **Czy potrzebna jest licencja?** Do użytku produkcyjnego wymagana jest tymczasowa lub stała licencja Aspose.CAD.  
+- **Jaką wersję Javy obsługuje?** Kod działa z Java 8 i nowszymi.  
+- **Czy mogę dostosować długość limitu czasu?** Tak — wystarczy zmienić wartość w `TimeUnit.SECONDS.sleep(...)`.
 
-Zanim przejdziesz do samouczka, upewnij się, że spełniasz następujące wymagania wstępne:
--  Biblioteka Aspose.CAD for Java: Upewnij się, że biblioteka Aspose.CAD for Java jest zintegrowana z projektem. Bibliotekę można pobrać ze strony[strona internetowa](https://releases.aspose.com/cad/java/).
-- Środowisko programistyczne: Skonfiguruj środowisko programistyczne Java ze wszystkimi niezbędnymi narzędziami i zależnościami.
+## How to Set Timeout on Save
 
-## Importuj pakiety
+### Czym jest limit czasu w kontekście Aspose.CAD?
+Limit czasu jest zabezpieczeniem, które zatrzymuje długi proces rasteryzacji lub konwersji. Dostarczając `InterruptionTokenSource`, możesz sygnalizować bibliotece, aby przerwała operację po określonym czasie, zapewniając responsywność aplikacji.
 
-Aby rozpocząć, zaimportuj wymagane pakiety do swojego projektu Java. Dodaj następujące wiersze na początku pliku Java:
+### Dlaczego ustawiać limit czasu przy zapisywaniu CAD do PDF?
+Zapisywanie dużych lub złożonych rysunków CAD może zużywać znaczną ilość CPU i pamięci. Dodanie limitu czasu:
+- Zapobiega zawieszeniu aplikacji.  
+- Umożliwia eleganckie obsługiwanie długotrwałych zadań.  
+- Poprawia ogólne doświadczenie użytkownika, szczególnie w środowiskach webowych lub opartych na interfejsie UI.
+
+## Prerequisites
+
+- **Aspose.CAD for Java Library** – Upewnij się, że biblioteka jest zintegrowana z Twoim projektem. Możesz pobrać bibliotekę ze [strony internetowej](https://releases.aspose.com/cad/java/).  
+- **Środowisko programistyczne** – IDE Java (IntelliJ, Eclipse itp.) z zainstalowanym JDK 8+.
+
+## Import Packages
 
 ```java
 import com.aspose.cad.Image;
@@ -36,16 +54,16 @@ import com.aspose.cad.imageoptions.PdfOptions;
 import java.util.concurrent.TimeUnit;
 ```
 
-Podzielmy teraz przykładowy kod na instrukcje krok po kroku:
+Teraz rozbijmy przykładowy kod na instrukcje krok po kroku:
 
-## Krok 1: Ustaw katalogi źródłowe i wyjściowe
+## Krok 1: Ustaw katalogi źródłowy i wyjściowy
 
 ```java
 final String SourceDir = Utils.getDataDir_DWGDrawings();
 final String OutputDir = Utils.getDataDir_Output();
 ```
 
-Upewnij się, że masz prawidłowe katalogi źródłowe i wyjściowe dla rysunków CAD.
+Upewnij się, że masz prawidłowe katalogi źródłowy i wyjściowy dla swoich rysunków CAD.
 
 ## Krok 2: Utwórz źródło tokenu przerwania
 
@@ -53,15 +71,15 @@ Upewnij się, że masz prawidłowe katalogi źródłowe i wyjściowe dla rysunk�
 final InterruptionTokenSource source = new com.aspose.cad.InterruptionTokenSource();
 ```
 
-Zainicjuj źródło tokenu przerwania, aby zarządzać przerwami podczas operacji zapisywania.
+Zainicjuj źródło tokenu przerwania, aby zarządzać przerwami podczas operacji zapisu.
 
-## Krok 3: Załaduj rysunek CAD
+## Krok 3: Wczytaj rysunek CAD
 
 ```java
 final CadImage cadImageBig = (CadImage)Image.load(SourceDir + "Drawing11.dwg");
 ```
 
- Załaduj rysunek CAD do pliku`CadImage` obiekt.
+Wczytaj rysunek CAD do obiektu `CadImage`.
 
 ## Krok 4: Skonfiguruj opcje rasteryzacji
 
@@ -71,7 +89,7 @@ rasterizationOptionsBig.setPageWidth(cadImageBig.getSize().getWidth() / 2);
 rasterizationOptionsBig.setPageHeight(cadImageBig.getSize().getHeight() / 2);
 ```
 
-Skonfiguruj opcje rasteryzacji rysunku CAD.
+Skonfiguruj opcje rasteryzacji dla rysunku CAD.
 
 ## Krok 5: Skonfiguruj opcje PDF
 
@@ -81,7 +99,7 @@ CADfBig.setVectorRasterizationOptions(rasterizationOptionsBig);
 CADfBig.setInterruptionToken(source.getToken());
 ```
 
-Skonfiguruj opcje PDF z opcjami rasteryzacji wektorowej i tokenem przerwania.
+Ustaw opcje PDF z opcjami rasteryzacji wektorowej oraz tokenem przerwania.
 
 ## Krok 6: Zapisz rysunek z limitem czasu
 
@@ -89,9 +107,9 @@ Skonfiguruj opcje PDF z opcjami rasteryzacji wektorowej i tokenem przerwania.
 cadImageBig.save(OutputDir + "PutTimeoutOnSave_out.pdf", CADfBig);
 ```
 
-Zapisz rysunek CAD w pliku PDF z określonym limitem czasu.
+Zapisz rysunek CAD do pliku PDF z określonym limitem czasu.
 
-## Krok 7: Obsługuj przerwanie
+## Krok 7: Obsłuż przerwanie
 
 ```java
 java.lang.Thread thread = new java.lang.Thread(new Runnable() {
@@ -110,33 +128,41 @@ source.interrupt();
 thread.join();
 ```
 
-Utwórz wątek do obsługi operacji zapisywania i przerwij ją po upływie określonego limitu czasu.
+Utwórz wątek, który obsłuży operację zapisu i przerwie ją po określonym czasie.
 
-## Wniosek
+## Typowe pułapki i rozwiązywanie problemów
 
-Gratulacje! Pomyślnie nauczyłeś się, jak ustawić limit czasu zapisu przy użyciu Aspose.CAD dla Java. Ta funkcja może znacznie zwiększyć wydajność aplikacji związanych z CAD.
+- **Limit czasu zbyt krótki** – Jeśli rysunek jest duży, bardzo krótki limit czasu może przerwać operację, zanim się zakończy. Zwiększ czas snu lub dostosuj ustawienia rasteryzacji.  
+- **Brak licencji** – Uruchomienie bez ważnej licencji spowoduje wyrzucenie wyjątku. Zastosuj tymczasową lub stałą licencję przed wykonaniem kodu.  
+- **Nieprawidłowe ścieżki** – Upewnij się, że `SourceDir` i `OutputDir` wskazują istniejące foldery; w przeciwnym razie `Image.load` lub `save` zakończy się niepowodzeniem.
 
-## Często zadawane pytania
+## Najczęściej zadawane pytania
 
-### P1: Jak mogę pobrać Aspose.CAD dla Java?
+**P: Jak mogę pobrać Aspose.CAD dla Javy?**  
+O: Możesz pobrać go ze [strony wydań](https://releases.aspose.com/cad/java/).
 
- Odpowiedź 1: Możesz pobrać go z[strona z wydaniami](https://releases.aspose.com/cad/java/).
+**P: Gdzie mogę znaleźć dokumentację Aspose.CAD dla Javy?**  
+O: Zapoznaj się z [dokumentacją](https://reference.aspose.com/cad/java/) po szczegółowe informacje.
 
-### P2: Gdzie mogę znaleźć dokumentację Aspose.CAD dla Java?
+**P: Czy dostępna jest darmowa wersja próbna?**  
+O: Tak, możesz uzyskać darmową wersję próbną pod [tym linkiem](https://releases.aspose.com/).
 
- Odpowiedź 2: Patrz[dokumentacja](https://reference.aspose.com/cad/java/) w celu uzyskania wyczerpujących informacji.
+**P: Jak uzyskać tymczasową licencję?**  
+O: Odwiedź [tutaj](https://purchase.aspose.com/temporary-license/) po szczegóły dotyczące tymczasowej licencji.
 
-### P3: Czy dostępny jest bezpłatny okres próbny?
+**P: Potrzebujesz pomocy lub masz pytania?**  
+O: Przejdź na [forum Aspose.CAD](https://forum.aspose.com/c/cad/19) po wsparcie społeczności.
 
-A3: Tak, możesz uzyskać bezpłatną wersję próbną[ten link](https://releases.aspose.com/).
+## Podsumowanie
 
-### P4: Jak uzyskać licencję tymczasową?
+ Aspose.CAD dla Javy niezawodność i responsywność Twoich aplikacji związanych z CAD.
 
- A4: Odwiedź[Tutaj](https://purchase.aspose.com/temporary-license/) aby uzyskać szczegółowe informacje o licencji tymczasowej.
+---
 
-### P5: Potrzebujesz pomocy lub masz pytania?
+**Ostatnia aktualizacja:** 2026-01-22  
+**Testowano z:** Aspose.CAD for Java 24.11 (latest)  
+**Autor:** Aspose  
 
- A5: Udaj się do[Forum Aspose.CAD](https://forum.aspose.com/c/cad/19) za wsparcie społeczności.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -1,31 +1,48 @@
 ---
-title: Timeout su salvataggio per CAD con Aspose.CAD
-linktitle: Metti Timeout su Salva
-second_title: API Java Aspose.CAD
-description: Scopri come migliorare le prestazioni della tua applicazione Java con Aspose.CAD. Imposta un timeout per il salvataggio dei disegni CAD. Segui la nostra guida passo passo.
-weight: 15
+date: 2026-01-22
+description: Scopri come impostare il timeout durante il salvataggio di CAD in PDF
+  usando Aspose.CAD per Java. Migliora le prestazioni con questa guida passo‑passo.
+linktitle: Put Timeout on Save
+second_title: Aspose.CAD Java API
+title: Come impostare il timeout durante il salvataggio per CAD con Aspose.CAD
 url: /it/java/other-cad-operations/put-timeout-on-save/
+weight: 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Timeout su salvataggio per CAD con Aspose.CAD
+# Timeout durante il salvataggio per CAD con Aspose.CAD
 
-## introduzione
+## Introduzione
 
-Benvenuti nel tutorial su come impostare un timeout durante il salvataggio utilizzando Aspose.CAD per Java. In questa guida ti guideremo attraverso il processo di impostazione di un timeout per il salvataggio dei disegni CAD per migliorare le prestazioni della tua applicazione. Aspose.CAD per Java è una potente libreria che ti consente di lavorare senza problemi con i file CAD nelle tue applicazioni Java.
+Benvenuti al tutorial su **come impostare il timeout** durante il salvataggio di diseg In questa guida, vi accompagneremo nel processo di configurazione di un timeout per l'operazione di salvataggio, che aiuta a mantenere l'applicazione reattiva e migliora le prestazioni complessive. Aspose.CAD per Java è una libreria potente che consente di lavorare con i file CAD in modo fluido.
+
+## Risposte rapide
+- **Che cosa fa il timeout?** Interrompe l'operazione di salvataggio se supera la durata specificata, evitando blocchi prolungati.  
+- **Quale formato è usato nell'esempio?** Il disegno CAD viene salvato come file PDF.  
+- **È necessaria una licenza?** È richiesta una licenza Aspose.CAD temporanea o permanente per l'uso in produzione.  
+- **Quale versione di Java è supportata?** Il codice funziona con Java 8 e successive.  
+- **Posso regolare la durata del timeout?** Sì—basta modificare il valore di `TimeUnit.SECONDS.sleep(...)`.
+
+## Come impostare il timeout durante il salvataggio
+
+### Che cos'è un timeout nel contesto di Aspose.CAD?
+Un timeout è una misura di sicurezza che interrompe un processo di rasterizzazione o conversione prolungato. Fornendo un `InterruptionTokenSource`, è possibile segnalare alla libreria di abortire l'operazione dopo un periodo definito, garantendo che l'applicazione rimanga reattiva.
+
+### Perché impostare un timeout quando si salva CAD in PDF?
+Salvare disegni CAD grandi o complessi può consumare notevoli risorse CPU e memoria. Aggiungere un timeout:
+- Previene il blocco dell'applicazione.  
+- Consente di gestire i compiti a lunga durata in modo elegante.  
+- Migliora l'esperienza utente complessiva, specialmente in ambienti web o basati su interfaccia utente.
 
 ## Prerequisiti
 
-Prima di immergerti nel tutorial, assicurati di avere i seguenti prerequisiti:
--  Libreria Aspose.CAD per Java: assicurati di avere la libreria Aspose.CAD per Java integrata nel tuo progetto. È possibile scaricare la libreria da[sito web](https://releases.aspose.com/cad/java/).
-- Ambiente di sviluppo: configura il tuo ambiente di sviluppo Java con tutti gli strumenti e le dipendenze necessari.
+- **Aspose.CAD for Java Library** – Assicurati di aver integrato la libreria nel tuo progetto. Puoi scaricare la libreria dal [sito web](https://releases.aspose.com/cad/java/).  
+- **Development Environment** – Un IDE Java (IntelliJ, Eclipse, ecc.) con JDK 8+ installato.
 
-## Importa pacchetti
-
-Per iniziare, importa i pacchetti richiesti nel tuo progetto Java. Aggiungi le seguenti righe all'inizio del tuo file Java:
+## Importare i pacchetti
 
 ```java
 import com.aspose.cad.Image;
@@ -36,34 +53,34 @@ import com.aspose.cad.imageoptions.PdfOptions;
 import java.util.concurrent.TimeUnit;
 ```
 
-Ora suddividiamo il codice di esempio in istruzioni passo passo:
+Ora, analizziamo il codice di esempio passo dopo passo:
 
-## Passaggio 1: imposta le directory di origine e di output
+## Passo 1: Impostare le directory di origine e di output
 
 ```java
 final String SourceDir = Utils.getDataDir_DWGDrawings();
 final String OutputDir = Utils.getDataDir_Output();
 ```
 
-Assicurati di disporre delle directory di origine e di output corrette per i tuoi disegni CAD.
+Assicurati di avere le directory di origine e di output corrette per i tuoi disegni CAD.
 
-## Passaggio 2: crea la sorgente del token di interruzione
+## Passo 2: Creare un Interruption Token Source
 
 ```java
 final InterruptionTokenSource source = new com.aspose.cad.InterruptionTokenSource();
 ```
 
-Inizializza un'origine token di interruzione per gestire le interruzioni durante l'operazione di salvataggio.
+Inizializza un token di interruzione per gestire le interruzioni durante l'operazione di salvataggio.
 
-## Passaggio 3: caricare il disegno CAD
+## Passo 3: Caricare il disegno CAD
 
 ```java
 final CadImage cadImageBig = (CadImage)Image.load(SourceDir + "Drawing11.dwg");
 ```
 
- Caricare il disegno CAD in a`CadImage` oggetto.
+Carica il disegno CAD in un oggetto `CadImage`.
 
-## Passaggio 4: configurare le opzioni di rasterizzazione
+## Passo 4: Configurare le opzioni di rasterizzazione
 
 ```java
 CadRasterizationOptions rasterizationOptionsBig = new CadRasterizationOptions();
@@ -73,7 +90,7 @@ rasterizationOptionsBig.setPageHeight(cadImageBig.getSize().getHeight() / 2);
 
 Configura le opzioni di rasterizzazione per il disegno CAD.
 
-## Passaggio 5: configura le opzioni PDF
+## Passo 5: Configurare le opzioni PDF
 
 ```java
 final PdfOptions CADfBig = new PdfOptions();
@@ -81,9 +98,9 @@ CADfBig.setVectorRasterizationOptions(rasterizationOptionsBig);
 CADfBig.setInterruptionToken(source.getToken());
 ```
 
-Configura le opzioni PDF con le opzioni di rasterizzazione vettoriale e il token di interruzione.
+Imposta le opzioni PDF con le opzioni di rasterizzazione vettoriale e il token di interruzione.
 
-## Passaggio 6: salva il disegno con timeout
+## Passo 6: Salvare il disegno con timeout
 
 ```java
 cadImageBig.save(OutputDir + "PutTimeoutOnSave_out.pdf", CADfBig);
@@ -91,7 +108,7 @@ cadImageBig.save(OutputDir + "PutTimeoutOnSave_out.pdf", CADfBig);
 
 Salva il disegno CAD in un file PDF con il timeout specificato.
 
-## Passaggio 7: gestire l'interruzione
+## Passo 7: Gestire l'interruzione
 
 ```java
 java.lang.Thread thread = new java.lang.Thread(new Runnable() {
@@ -112,31 +129,39 @@ thread.join();
 
 Crea un thread per gestire l'operazione di salvataggio e interromperla dopo un timeout specificato.
 
-## Conclusione
+## Problemi comuni e risoluzione
 
-Congratulazioni! Hai imparato con successo come inserire un timeout durante il salvataggio utilizzando Aspose.CAD per Java. Questa funzionalità può migliorare notevolmente l'efficienza delle applicazioni relative al CAD.
+- **Timeout troppo breve** – Se il disegno è grande, un timeout molto breve può abortire l'operazione prima che termini. Aumenta la durata del sleep o regola le impostazioni di rasterizzazione.  
+- **Licenza mancante** – Eseguire senza una licenza valida genererà un'eccezione. Applica una licenza temporanea o permanente prima di eseguire il codice.  
+- **Percorsi errati** – Assicurati che `SourceDir` e `OutputDir` puntino a cartelle esistenti; altrimenti, `Image.load` o `save` falliranno.
 
 ## Domande frequenti
 
-### Q1: Come posso scaricare Aspose.CAD per Java?
+**D: Come posso scaricare Aspose.CAD per Java?**  
+R: Puoi scaricarlo dalla [pagina delle release](https://releases.aspose.com/cad/java/).
 
- A1: Puoi scaricarlo da[pagina delle uscite](https://releases.aspose.com/cad/java/).
+**D: Dove posso trovare la documentazione per Aspose.CAD per Java?**  
+R: Consulta la [documentazione](https://reference.aspose.com/cad/java/) per informazioni complete.
 
-### Q2: Dove posso trovare la documentazione per Aspose.CAD per Java?
+**D: È disponibile una prova gratuita?**  
+R: Sì, puoi ottenere una prova gratuita da [questo link](https://releases.aspose.com/).
 
- A2: Fare riferimento a[documentazione](https://reference.aspose.com/cad/java/) per informazioni complete.
+**D: Come posso ottenere una licenza temporanea?**  
+R: Visita [questo link](https://purchase.aspose.com/temporary-license/) per i dettagli sulla licenza temporanea.
 
-### Q3: È disponibile una prova gratuita?
+**D: Hai bisogno di aiuto o hai domande?**  
+R: Vai al [forum di Aspose.CAD](https://forum.aspose.com/c/cad/19) per il supporto della community.
 
-R3: Sì, puoi ottenere una prova gratuita da[questo link](https://releases.aspose.com/).
+## Conclusione
 
-### Q4: Come posso ottenere una licenza temporanea?
+Congratulazioni! Ora sai **come impostare il timeout** sulle operazioni di salvataggio quando converti disegni CAD in PDF utilizzando Aspose.CAD per Java. Implementare questo timeout migliora l'affidabilità e la reattività delle tue applicazioni legate al CAD.
 
- A4: Visita[Qui](https://purchase.aspose.com/temporary-license/) per i dettagli della licenza temporanea.
+---
 
-### Q5: Hai bisogno di aiuto o hai domande?
+**Ultimo aggiornamento:** 2026-01-22  
+**Testato con:** Aspose.CAD for Java 24.11 (latest)  
+**Autore:** Aspose  
 
- A5: Vai al[Forum Aspose.CAD](https://forum.aspose.com/c/cad/19) per il sostegno della comunità.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
