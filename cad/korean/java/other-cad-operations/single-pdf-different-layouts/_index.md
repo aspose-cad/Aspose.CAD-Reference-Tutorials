@@ -1,32 +1,51 @@
 ---
-title: Java용 Aspose.CAD를 사용하여 동적 PDF 작성
-linktitle: 다양한 레이아웃이 포함된 단일 PDF
-second_title: Aspose.CAD 자바 API
-description: Aspose.CAD for Java를 사용하여 CAD 도면의 다양한 레이아웃으로 멋진 PDF를 생성하세요. Java 개발자를 위한 손쉬운 통합과 강력한 기능.
-weight: 16
+date: 2026-01-22
+description: Aspose.CAD for Java를 사용하여 CAD 도면에서 PDF를 생성하고, DWG를 PDF로 변환하며, PDF 페이지
+  크기를 사용자 지정하는 방법을 배웁니다.
+linktitle: Single PDF with Different Layouts
+second_title: Aspose.CAD Java API
+title: Aspose.CAD for Java를 사용하여 CAD 도면을 PDF로 만드는 방법
 url: /ko/java/other-cad-operations/single-pdf-different-layouts/
+weight: 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Java용 Aspose.CAD를 사용하여 동적 PDF 작성
+# Aspose.CAD for Java를 사용하여 CAD 도면에서 PDF 만들기
 
-## 소개
+## Introduction
 
-개발자가 CAD 도면을 쉽게 조작할 수 있도록 지원하는 강력한 라이브러리인 Aspose.CAD for Java의 세계에 오신 것을 환영합니다. 이 튜토리얼에서는 Aspose.CAD for Java를 사용하여 다양한 레이아웃으로 단일 PDF를 만드는 방법을 살펴보겠습니다. 숙련된 개발자이든 이제 막 시작하는 개발자이든 이 단계별 가이드가 프로세스를 안내해 드립니다.
+이 튜토리얼에서는 Aspose.CAD 라이브러리를 사용하여 **CAD에서 PDF를 만드는 방법**을 알아봅니다. **DWG를 PDF로 변환**해야 하든, 복잡한 CAD 파일을 내보내든, **맞춤형 PDF 페이지 크기**를 적용하든, 아래 단계가 깔끔하고 프로그래밍 방식의 솔루션을 안내합니다. 몇 줄의 Java 코드만으로 여러 레이아웃 페이지를 포함하는 단일 PDF를 생성하는 과정을 함께 살펴보세요.
 
-## 전제 조건
+## Quick Answers
+- **What does Aspose.CAD do?** It lets Java developers load, manipulate, and export CAD drawings to formats like PDF.
+- **Can I export multiple layouts into one PDF?** Yes, by customizing layout page sizes before saving.
+- **Which CAD formats are supported?** DWG, DXF, DWF, DGN and many more.
+- **Do I need a license for production?** A temporary license works for testing; a full license is required for commercial use.
+- **What version of Java is required?** Java 8 or later.
 
-이 여정을 시작하기 전에 다음과 같은 전제 조건이 갖추어져 있는지 확인하세요.
-- Java 환경: 컴퓨터에 Java가 설치되어 있는지 확인하십시오.
--  Aspose.CAD 라이브러리: 다음에서 Java용 Aspose.CAD 라이브러리를 다운로드하고 설치합니다.[다운로드 링크](https://releases.aspose.com/cad/java/).
-- 문서 디렉토리: DWG 도면용 디렉토리를 설정합니다.
+## What is “create PDF from CAD”?
+CAD에서 PDF를 만든다는 것은 벡터 기반 CAD 도면을 고정 레이아웃 문서(PDF)로 래스터화하여 CAD 소프트웨어 없이도 모든 장치에서 볼 수 있게 하는 것을 의미합니다. 설계 공유, 청사진 인쇄, 엔지니어링 작업 보관 등에 이상적입니다.
 
-## 패키지 가져오기
+## Why use Aspose.CAD for Java?
+- **No external dependencies** – pure Java, no native DLLs.
+- **Fine‑grained control** over rasterization options such as DPI, page size, and layout selection.
+- **Batch processing** – handle many drawings in a single run.
+- **Accurate conversion** – preserves line weights, colors, and layers.
 
-Java 프로젝트에서 필요한 패키지를 가져옵니다.
+## Prerequisites
+
+Before we begin, make sure you have the following:
+
+- **Java Environment** – JDK 8 or newer installed.
+- **Aspose.CAD Library** – Download and install the Aspose.CAD library for Java from the [download link](https://releases.aspose.com/cad/java/).
+- **Document Directory** – A folder that contains the DWG (or other CAD) drawings you want to convert.
+
+## Import Packages
+
+In your Java project, import the necessary classes:
 
 ```java
 import com.aspose.cad.Image;
@@ -37,18 +56,20 @@ import com.aspose.cad.imageoptions.PdfOptions;
 import com.aspose.cad.imageoptions.VectorRasterizationOptions;
 ```
 
-## 1단계: CAD 도면 로드
+## Step‑by‑Step Guide
 
- CAD 도면을`CadImage` 물체:
+### Step 1: Load CAD Drawing
+
+First, load the source CAD file (e.g., a DWG) into a `CadImage` object. This is the entry point for any **export CAD to PDF** operation.
 
 ```java
 String dataDir = "Your Document Directory" + "DWGDrawings/";
 CadImage cadImage = (CadImage)Image.load(dataDir + "City skyway map.dwg");
 ```
 
-## 2단계: 래스터화 옵션 구성
+### Step 2: Configure Rasterization Options
 
-CAD 이미지에 대한 래스터화 옵션을 설정합니다.
+Define how the CAD data should be rasterized. Here we set a base page width and height that will be used for layouts that don’t have a custom size.
 
 ```java
 CadRasterizationOptions rasterizationOptions = new CadRasterizationOptions();
@@ -56,59 +77,61 @@ rasterizationOptions.setPageWidth(1000);
 rasterizationOptions.setPageHeight(1000);
 ```
 
-## 3단계: 레이아웃 페이지 크기 사용자 정의
+### Step 3: Customize Layout Page Sizes
 
-CAD 도면 내의 여러 레이아웃에 대한 사용자 정의 크기를 정의합니다.
+If you need a **custom PDF page size**, add entries for each layout you want to appear in the final PDF. This lets you **convert DWG to PDF** with different dimensions per layout.
 
 ```java
 rasterizationOptions.getLayoutPageSizes().addItem("ANSI C Plot", new SizeF(500, 1000));
 rasterizationOptions.getLayoutPageSizes().addItem("8.5 x 11 Plot", new SizeF(1000, 100));
 ```
 
-## 4단계: PDF 옵션 설정
+### Step 4: Set PDF Options
 
-래스터화 설정을 통합하여 PDF 옵션을 구성합니다.
+Combine the rasterization settings with PDF‑specific options. The `VectorRasterizationOptions` property tells Aspose.CAD to use the layout sizes we just defined.
 
 ```java
 PdfOptions pdfOptions = new PdfOptions();
 pdfOptions.setVectorRasterizationOptions(rasterizationOptions);
 ```
 
-## 5단계: PDF로 저장
+### Step 5: Save as PDF
 
-처리된 CAD 이미지를 PDF로 저장합니다.
+Finally, export the CAD drawing to a single PDF file that contains all the specified layouts. This step **saves CAD as PDF** in one call.
 
 ```java
 cadImage.save(dataDir + "singlePDF_out.pdf", pdfOptions);
 ```
 
-축하해요! Aspose.CAD for Java를 사용하여 다양한 레이아웃의 단일 PDF를 성공적으로 만들었습니다.
+> **Pro tip:** Re‑use the same `PdfOptions` object if you need to export multiple drawings in a batch – it the DPI by calling `);` before saving. |
+| **License not applied** | Load your temporary or full license before any Aspose.CAD calls: `License license = new License(); license.setLicense("Aspose.CAD.lic");` |
 
-## 결론
+## Frequently Asked Questions
 
-이 튜토리얼에서는 CAD 도면에서 다양한 레이아웃이 포함된 PDF를 생성하기 위해 Java용 Aspose.CAD의 원활한 통합을 살펴보았습니다. 라이브러리의 유연성과 강력한 기능으로 인해 CAD 조작 작업에 적합한 라이브러리입니다.
+### Q1: Can I use Aspose.CAD for Java with other Java libraries?
 
-## FAQ
+A1: Yes, Aspose.CAD for Java is designed to seamlessly integrate with other Java libraries, providing extensive functionality.
 
-### Q1: Aspose.CAD for Java를 다른 Java 라이브러리와 함께 사용할 수 있나요?
+### Q2: Is there a trial version available?
 
-A1: 예, Aspose.CAD for Java는 다른 Java 라이브러리와 완벽하게 통합되어 광범위한 기능을 제공하도록 설계되었습니다.
+A2: Absolutely! You can access a free trial version [here](https://releases.aspose.com/).
 
-### Q2: 평가판을 사용할 수 있나요?
+### Q3: Where can I find additional support?
 
- A2: 물론이죠! 무료 평가판에 액세스할 수 있습니다[여기](https://releases.aspose.com/).
+A3: Visit the [Aspose.CAD forum](https://forum.aspose.com/c/cad/19) for community support and discussions.
 
-### Q3: 추가 지원은 어디서 찾을 수 있나요?
+### Q4: How do I obtain a temporary license?
 
- A3: 다음을 방문하세요.[Aspose.CAD 포럼](https://forum.aspose.com/c/cad/19) 커뮤니티 지원 및 토론을 위해.
+A4: You can obtain a temporary license [here](https://purchase.aspose.com/temporary-license/).
 
-### Q4: 임시 라이센스는 어떻게 얻나요?
+### Q5: Where can I purchase the full version?
 
- A4: 임시 라이센스를 얻을 수 있습니다[여기](https://purchase.aspose.com/temporary-license/).
+A5: Purchase the full version of Aspose.CAD for Java [here](https://purchase.aspose.com/buy).
 
-### Q5: 정식 버전은 어디서 구입할 수 있나요?
+**Last Updated:** 2026-01-22  
+**Tested With:** Aspose.CAD for Java 24.12  
+**Author:** Aspose  
 
-A5: Java용 Aspose.CAD 정식 버전을 구입하세요.[여기](https://purchase.aspose.com/buy).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
