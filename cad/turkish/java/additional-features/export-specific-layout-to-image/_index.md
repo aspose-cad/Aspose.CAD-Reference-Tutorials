@@ -1,10 +1,11 @@
 ---
-date: 2025-12-04
-description: Aspose.CAD for Java kullanarak dxf düzenini jpeg'e dönüştürmeyi öğrenin
-  – dxf'i görüntüye verimli bir şekilde dışa aktarmak için adım adım rehber.
+date: 2026-02-04
+description: Aspose.CAD for Java kullanarak dxf'i jpeg'e nasıl dönüştüreceğinizi öğrenin
+  – dxf'i verimli bir şekilde görüntüye nasıl dışa aktaracağınızı adım adım gösteren
+  bir rehber.
 linktitle: Export Specific DXF Layout to Image with Java
 second_title: Aspose.CAD Java API
-title: Java'da Aspose.CAD ile DXF Düzeni JPEG Görüntüsüne Nasıl Dönüştürülür
+title: Java'da Aspose.CAD ile DXF'yi JPEG Görüntüsüne Nasıl Dönüştürülür
 url: /tr/java/additional-features/export-specific-layout-to-image/
 weight: 16
 ---
@@ -13,25 +14,34 @@ weight: 16
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# DXF Düzeni JPEG Görüntüsüne Aspose.CAD ile Java'da Dönüştürme  
+# Aspose.CAD ile Java'da DXF'yi JPEG Görüntüsüne Dönüştür  
 
-Eğer **DXF düzenini hızlı ve güvenilir bir şekilde JPEG** görüntüsüne dönüştürmeniz gerekiyorsa doğru yerdesiniz. Bu öğreticide, Aspose.CAD Java kütüphanesini kullanarak **belirli bir DXF düzenini JPEG olarak dışa aktarmak** için gereken adımları adım adım göstereceğiz. Sonunda, bu yaklaşımın neden işe yaradığını, rasterleştirme ayarlarını nasıl özelleştireceğinizi ve çözümü kendi projelerinize nasıl entegre edeceğinizi anlayacaksınız.
+Eğer **DXF'yi JPEG'e dönüştür** hızlı ve güvenilir bir şekilde yapmak istiyorsanız, doğru yerdesiniz. Bu öğreticide, Aspose.CAD Java kütüphanesini kullanarak **belirli bir DXF düzenini JPEG olarak dışa aktar** için gereken adımları adım adım göstereceğiz. Sonunda, bu yaklaşımın neden işe yaradığını, rasterleştirme ayarlarını nasıl özelleştireceğinizi ve çözümü kendi projelerinize nasıl entegre edeceğinizi anlayacaksınız.
 
-## Hızlı Yanıtlar
-- **Hangi kütüphane gerekiyor?** Aspose.CAD for Java (resmi siteden indirin).  
-- **Sadece tek bir düzen hedefleyebilir miyim?** Evet – rasterleştirmeden önce istediğiniz katmanları belirtiyorsunuz.  
+## Hızlı Cevaplar
+- **Hangi kütüphaneye ihtiyacım var?** Aspose.CAD for Java (resmi siteden indirin).  
+- **Tek bir düzeni hedefleyebilir miyim?** Evet – rasterleştirmeden önce istediğiniz katmanları belirlersiniz.  
 - **Hangi çıktı formatları destekleniyor?** JPEG, PNG, BMP, TIFF, PDF ve daha fazlası.  
 - **Üretim için lisansa ihtiyacım var mı?** Değerlendirme dışı kullanım için ticari bir lisans gereklidir.  
 - **Kod Java 8+ ile uyumlu mu?** Kesinlikle – API Java 8 ve daha yeni sürümlerle çalışır.
 
-## Önkoşullar
-Başlamadan önce şunların yüklü olduğundan emin olun:
+## DXF'yi JPEG'e dönüştürmek nedir?
+DXF dosyasını JPEG görüntüsüne dönüştürmek, vektör çizimini piksel tabanlı bir resme rasterleştirmek anlamına gelir. Bu, hafif bir ön izleme gerektiğinde, çizimi bir rapora gömmek istediğinizde veya belirli bir düzenin görsel bir anlık görüntüsünü arşivlemek istediğinizde faydalıdır.
 
-- **Aspose.CAD for Java** yüklü ( [Aspose CAD Java indirme sayfasından](https://releases.aspose.com/cad/java/) ).  
-- Java geliştirme ortamı (JDK 8 veya üzeri).  
+## Neden Aspose.CAD Java'yı bu görev için kullanmalısınız?
+- **Saf Java API** – yerel bağımlılık yok, Java çalıştıran herhangi bir platformda çalışır.  
+- **Katmanlar üzerinde tam kontrol** – hangi düzeni render edeceğinizi tam olarak seçebilirsiniz.  
+- **Zengin rasterleştirme seçenekleri** – çözünürlük, arka plan rengi, çizgi kalınlığı ve daha fazlasını ayarlayabilirsiniz.  
+- **Birçok çıktı formatını destekler** – tek bir sınıf değişikliğiyle JPEG'den PNG, TIFF veya PDF'ye geçiş yapabilirsiniz.
+
+## Önkoşullar
+Başlamadan önce şunların kurulu olduğundan emin olun:
+
+- **Aspose.CAD for Java** yüklü ( [Aspose CAD Java indirme sayfasından](https://releases.aspose.com/cad/java/) indirin).  
+- Java geliştirme ortamı (JDK 8 veya daha yenisi).  
 - Dönüştürmek istediğiniz düzeni içeren bir DXF (veya DWF) dosyası.
 
-## İsim Uzaylarını İçe Aktarma  
+## Ad Alanlarını İçe Aktarma  
 
 CAD dosyasıyla etkileşim kurmak için gerekli sınıfları içe aktarın:
 
@@ -56,7 +66,7 @@ Kaynak DXF/DWF dosyanızın bulunduğu yeri tanımlayın:
 String dataDir = "Your Document Directory" + "DXFDrawings\\";
 ```
 
-> **İpucu:** Geliştirme sırasında “dosya bulunamadı” hatalarını önlemek için mutlak yol kullanın.
+> **Pro ipucu:** Geliştirme sırasında “dosya bulunamadı” hatalarını önlemek için mutlak bir yol kullanın.
 
 ### Adım 2 – DXF/DWF Görüntüsünü Yükle  
 
@@ -73,7 +83,7 @@ DwfImage image = (DwfImage) Image.load(srcFile);
 List<String> layersNames = image.getLayers().getLayersNames();
 ```
 
-Bu çağrı, çizimde bulunan tüm katmanları döndürür; böylece **dxf düzen jpeg** dönüştürmek istediğiniz katmanı seçebilirsiniz.
+Bu çağrı, çizimde bulunan tüm katmanları döndürür ve **DXF'yi JPEG'e dönüştür** istediğiniz tam katmanı seçmenizi sağlar.
 
 ### Adım 4 – Rasterleştirme Seçeneklerini Ayarla  
 
@@ -83,9 +93,9 @@ rasterizationOptions.setPageWidth(1600);
 rasterizationOptions.setPageHeight(1600);
 ```
 
-`PageWidth` ve `PageHeight` değerlerini ayarlayarak elde edilecek JPEG’in çözünürlüğünü kontrol edin.
+`PageWidth` ve `PageHeight` değerlerini ayarlayarak oluşacak JPEG'in çözünürlüğünü kontrol edin.
 
-### Adım 5 – Hangi Katmanların Dışa Aktarılacağını Belirle  
+### Adım 5 – Hangi Katmanların Dışa Aktarılacağını Belirt  
 
 ```java
 String[] stringArray = Arrays.copyOf(layersNames.toArray(), layersNames.toArray().length, String[].class);
@@ -93,7 +103,7 @@ List<String> stringList = Arrays.asList(stringArray);
 rasterizationOptions.setLayers(stringList);
 ```
 
-Yalnızca istenen katman adlarını geçirerek **dxf'yi görüntüye nasıl dışa aktarılır** sorusunun odak noktasını belirlediğiniz düzene yönlendirin.
+Yalnızca istenen katman adlarını geçirerek, **DXF'yi görüntüye nasıl dışa aktarılır** konusunun ihtiyacınız olan düzene odaklanmasını sağlarsınız.
 
 ### Adım 6 – JPEG Seçeneklerini Yapılandır  
 
@@ -111,47 +121,45 @@ String output = dataDir + "for_layers_test.jpg";
 image.save(output, jpegOptions);
 ```
 
-Çıktı dosya adını ve yolunu projenize göre değiştirin.
+Çıktı dosya adını ve yolunu projeniz için gerektiği gibi değiştirin.
 
 > **Ne oldu?**  
-> DXF düzeni, tanımladığınız katman filtresi kullanılarak rasterleştirildi ve yüksek kaliteli bir JPEG görüntüsü olarak kaydedildi.
+> DXF düzeni, tanımladığınız katman filtresi kullanılarak rasterleştirildi ve ardından yüksek kaliteli bir JPEG görüntüsü olarak kaydedildi.
 
-## Neden DXF Düzeni JPEG’e Dönüştürülür?
-- **Hızlı görsel ön izlemeler** – JPEG’ler hafiftir ve ekstra eklentiler olmadan tarayıcılarda gösterilebilir.  
-- **Raporlama araçlarıyla entegrasyon** – Birçok raporlama motoru görüntüleri kabul eder, yerel CAD dosyalarını değil.  
-- **Arşivleme anlık görüntüleri** – Belirli bir düzenin piksel‑tam temsili, dokümantasyon için saklanabilir.
+## Aspose.CAD Java ile DXF'i Nasıl Dışa Aktarılır
+Yukarıdaki adımlar bir **java convert dxf image** iş akışını göstermektedir. Başka formatlar üretmeniz gerekiyorsa, aynı rasterleştirme yapılandırmasını koruyarak `JpegOptions` yerine `PngOptions`, `BmpOptions`, `TiffOptions` veya `PdfOptions` ile değiştirmeniz yeterlidir.
 
-## Yaygın Sorunlar & Sorun Giderme
+## Yaygın Sorunlar ve Çözüm Yolları
 | Belirti | Muhtemel Neden | Çözüm |
 |---------|----------------|------|
 | Boş görüntü | Katman seçilmemiş | `rasterizationOptions.setLayers()` içinde doğru katman adlarının bulunduğunu doğrulayın. |
 | Düşük çözünürlüklü çıktı | Küçük `PageWidth/PageHeight` değerleri | Boyutları artırın (ör. 2400 × 2400). |
-| `Unsupported format` hatası | Eski bir Aspose.CAD sürümü kullanılıyor | En son kütüphane sürümüne yükseltin. |
+| `Unsupported format` istisnası | Eski bir Aspose.CAD sürümü kullanmak | En son kütüphane sürümüne yükseltin. |
 
 ## Sık Sorulan Sorular  
 
 **S: Tek bir çalıştırmada birden fazla DXF düzeni dışa aktarabilir miyim?**  
-C: Evet. İstenen katman listesi üzerinden döngü kurun, her yineleme için `rasterizationOptions.setLayers()` ayarını değiştirin ve `image.save()` metodunu benzersiz bir dosya adıyla çağırın.
+C: Evet. İstenen katman listesinde döngü oluşturun, her yineleme için `rasterizationOptions.setLayers()`'ı ayarlayın ve benzersiz bir dosya adıyla `image.save()`'ı çağırın.
 
 **S: Aspose.CAD for Java tüm Java sürümleriyle uyumlu mu?**  
-C: Kütüphane Java 8 ve üzeri sürümleri destekler. Sürüm‑özel notlar için resmi sürüm notlarını inceleyin.
+C: Kütüphane Java 8 ve üzerini destekler. Sürüm‑özel notlar için resmi sürüm notlarını kontrol edin.
 
 **S: Dönüştürme sırasında hataları nasıl yönetirim?**  
-C: Yükleme ve kaydetme kodunu bir `try‑catch` bloğuna alın ve `IOException` ya da `CadException` ayrıntılarını günlüğe kaydedin.
+C: Yükleme ve kaydetme kodunu bir `try‑catch` bloğuna sarın ve `IOException` veya `CadException` detaylarını kaydedin.
 
-**S: JPEG dışında hangi görüntü formatlarını üretebilirim?**  
-C: PNG, BMP, TIFF ve PDF de desteklenir. `JpegOptions` yerine ilgili seçenek sınıfını (`PngOptions`, `BmpOptions` vb.) kullanmanız yeterlidir.
+**S: JPEG dışındaki hangi görüntü formatlarını üretebilirim?**  
+C: PNG, BMP, TIFF ve PDF tümü desteklenir. Sadece `JpegOptions` yerine ilgili seçenek sınıfını (`PngOptions`, `BmpOptions` vb.) kullanın.
 
-**S: Rasterleştirmeyi (ör. çizgi kalınlığı, arka plan rengi) daha da özelleştirebilir miyim?**  
-C: Kesinlikle. `CadRasterizationOptions` sınıfı, `setBackgroundColor()`, `setLineWeight()`, `setRenderMode()` gibi özelliklerle ince ayar yapmanıza olanak tanır.
+**S: Rasterleştirmeyi daha da özelleştirebilir miyim (ör. çizgi kalınlığı, arka plan rengi)?**  
+C: Kesinlikle. `CadRasterizationOptions` `setBackgroundColor()`, `setLineWeight()` ve `setRenderMode()` gibi özellikler sunarak ince ayar kontrolü sağlar.
 
 ## Sonuç
-Artık Aspose.CAD for Java kullanarak **DXF düzenini JPEG görüntüsüne dönüştürmek** için eksiksiz, üretime hazır bir yönteme sahipsiniz. Belirli katmanları seçerek, rasterleştirme seçeneklerini yapılandırarak ve JPEG ayarlarıyla kaydederek sadece birkaç satır kodla yüksek kaliteli ön izlemeler veya dokümantasyon varlıkları oluşturabilirsiniz.
+Artık Aspose.CAD for Java kullanarak **bir DXF düzenini JPEG görüntüsüne dönüştürmek** için eksiksiz, üretime hazır bir yönteme sahipsiniz. Belirli katmanları seçerek, rasterleştirme seçeneklerini yapılandırarak ve JPEG ayarlarıyla kaydederek sadece birkaç kod satırıyla yüksek kaliteli ön izlemeler veya dokümantasyon varlıkları oluşturabilirsiniz.
 
 ---
 
-**Son Güncelleme:** 2025-12-04  
-**Test Edilen Sürüm:** Aspose.CAD for Java 24.12 (yazım anındaki en yeni sürüm)  
+**Son Güncelleme:** 2026-02-04  
+**Test Edilen Sürüm:** Aspose.CAD for Java 24.12 (yazım zamanındaki en son)  
 **Yazar:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
