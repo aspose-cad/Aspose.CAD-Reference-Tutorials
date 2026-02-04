@@ -1,18 +1,18 @@
 ---
-title: How to Export DXF Files with Aspose.CAD in Java
+title: How to Convert CAD to DXF with Aspose.CAD in Java
 linktitle: Save DXF Files with Java
 second_title: Aspose.CAD Java API
-description: Learn how to export DXF files and convert CAD to DXF in Java using Aspose.CAD. Step‑by‑step guide for efficient CAD file management.
+description: Learn how to convert CAD to DXF and generate DXF from CAD in Java using Aspose.CAD. Step‑by‑step guide for efficient CAD file management.
 weight: 20
 url: /java/additional-features/save-dxf-files/
-date: 2025-12-05
+date: 2026-02-04
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# How to Export DXF Files with Aspose.CAD in Java
+# How to Convert CAD to DXF with Aspose.CAD in Java
 
 ## Introduction
 
@@ -40,7 +40,7 @@ Before we dive into the code, make sure you have the following:
 
 - **Java Development Kit (JDK) 8 or later** installed and configured in your IDE or build tool.  
 - **Aspose.CAD for Java** library downloaded from the official site – you can grab the latest JAR from the [Aspose.CAD Java release page](https://releases.aspose.com/cad/java/).  
-- A **working directory** where you’ll keep your source DXF files and where the exported files will be written.  
+- A **working directory** where you’ll keep your source CAD files and where the exported files will be written.  
 
 > **Pro tip:** Keep your CAD assets in a dedicated folder (e.g., `src/main/resources/cad/`) to simplify path handling.
 
@@ -61,7 +61,7 @@ import java.io.File;
 
 > The blank line after `import com.aspose.cad.Image;` is intentional – it mirrors the original source layout.
 
-## Step‑by‑Step Guide to Export DXF
+## Step‑by‑Step Guide to Convert CAD to DXF
 
 Below we break the process into clear, numbered steps. Each step includes a short explanation followed by the exact code you need to copy into your project.
 
@@ -84,9 +84,9 @@ String dataDir = "Your Document Directory" + "CADConversion/";
 
 > **Why this matters:** Centralizing the path makes it easy to reuse the same code for multiple files or to switch environments (development vs. production).
 
-### Step 3: Specify Source DXF File
+### Step 3: Specify Source CAD File
 
-Point the API to the DXF file you want to load. In this example we use `conic_pyramid.dxf`, but you can replace it with any valid CAD file.
+Point the API to the CAD file you want to load. In this example we use `conic_pyramid.dxf`, but you can replace it with any valid CAD file.
 
 ```java
 String srcFile = dataDir + "conic_pyramid.dxf";
@@ -109,6 +109,10 @@ cadImage.save(dataDir+"conic.dxf");
 ```
 
 > **Common pitfall:** Forgetting to close the `CadImage` object can lead to file‑handle leaks. In a real‑world application, wrap the usage in a try‑with‑resources block or call `cadImage.dispose()` when you’re done.
+
+## How to Generate DXF from CAD
+
+If your goal is to **generate DXF from CAD** programmatically for batch conversions, simply place the code above inside a loop that iterates over a collection of source files. The same `save` call will produce a DXF for each input, making large‑scale migrations straightforward.
 
 ## Common Issues & Solutions
 
@@ -137,11 +141,11 @@ A: The full API reference is available at the [Aspose.CAD Java documentation sit
 
 ## Conclusion
 
-You’ve now mastered **how to export DXF files** and **convert CAD to DXF** using Aspose.CAD for Java. This capability opens the door to automated CAD workflows, cross‑platform file exchange, and integration with downstream tools like GIS or CNC software. Feel free to experiment with other output formats (PDF, PNG, SVG) by swapping the `save` method’s parameters—Aspose.CAD makes it that simple.
+You’ve now mastered **how to convert CAD to DXF** and **generate DXF from CAD** using Aspose.CAD for Java. This capability opens the door to automated CAD workflows, cross‑platform file exchange, and integration with downstream tools like GIS or CNC software. Feel free to experiment with other output formats (PDF, PNG, SVG) by swapping the `save` method’s parameters—Aspose.CAD makes it that simple.
 
 ---
 
-**Last Updated:** 2025-12-05  
+**Last Updated:** 2026-02-04  
 **Tested With:** Aspose.CAD for Java 24.12 (latest at time of writing)  
 **Author:** Aspose  
 
