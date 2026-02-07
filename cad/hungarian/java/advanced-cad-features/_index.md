@@ -1,12 +1,11 @@
 ---
-date: 2025-12-07
-description: Ismerje meg, hogyan állíthatja be a vászon méretét és más fejlett CAD
-  funkciókat az Aspose.CAD for Java segítségével, beleértve a CAD PDF‑re konvertálását,
-  a blokk attribútumok kinyerését, a CAD háttér beállítását és az automatikus elrendezés
-  méretezését.
+date: 2026-02-07
+description: Tanulja meg, hogyan változtathatja meg a CAD háttérszínét, állíthatja
+  be a vászon méretét, konvertálhatja a CAD-et PDF‑be, kinyerheti a blokk attribútumait,
+  és alkalmazhatja az automatikus elrendezés méretezését az Aspose.CAD for Java használatával.
 linktitle: Set Canvas Size – Advanced CAD Features
 second_title: Aspose.CAD Java API
-title: Vászonméret beállítása – Haladó CAD funkciók az Aspose.CAD for Java-val
+title: Hogyan változtassuk meg a CAD háttérét – Vászonméret és funkciók
 url: /hu/java/advanced-cad-features/
 weight: 24
 ---
@@ -15,111 +14,116 @@ weight: 24
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Vászonméret beállítása – Haladó CAD funkciók az Aspose.CAD for Java-val
+# Hogyan változtassuk meg a CAD háttérszínt – Állítsuk be a vászon méretét az Aspose.CAD for Java segítségével
 
 ## Bevezetés
 
-Ha **vászonméretet** szeretne beállítani CAD fájlok Java‑ban történő feldolgozása közben, jó helyen jár. Az Aspose.CAD for Java nem csak a vászon méreteinek vezérlését teszi lehetővé, hanem gazdag haladó képességeket is kínál, például **CAD konvertálása PDF‑be**, **blokk attribútum** értékek kinyerése, **CAD háttér** szín beállítása, valamint **automatikus elrendezés skálázás** alkalmazása. Ebben az útmutatóban áttekintjük a kulcsfontosságú témákat, elmagyarázzuk, miért fontosak, és a részletes tutorialokra mutatunk, ahol mélyebben is megismerheti az egyes funkciókat.
+Ha **how to change CAD background** keresel a Java‑ban CAD fájlokkal dolgozva, jó helyen jársz. Az Aspose.CAD for Java nem csak a vászon méreteinek vezérlését teszi lehetővé, hanem gazdag haladó képességkészletet is kínál, például **converting CAD to PDF**, **extracting block attribute** értékek, **setting CAD background** színek, valamint **auto layout scaling** alkalmazása. Ebben az útmutatóban áttekintjük a fő témákat, elmagyarázzuk, miért fontosak, és a részletes tutorialokra mutatunk, amelyek mélyebben belemennek az egyes funkciókba.
 
 ## Gyors válaszok
-- **Mit csinál a “vászonméret beállítása”?** Meghatározza a kimeneti kép vagy PDF szélességét és magasságát, így pontos irányítást kap a végső megjelenítési terület felett.  
-- **Konvertálhatok CAD‑ot PDF‑be a vászonméret beállítása után?** Igen – az Aspose.CAD lehetővé teszi a CAD fájlok PDF‑be konvertálását a megadott vászonméretek megtartásával.  
+- **Mit csinál a “set canvas size”?** Meghatározza a kimeneti kép vagy PDF szélességét és magasságát, pontos irányítást biztosítva a végső megjelenítési terület felett.  
+- **Átalakíthatom a CAD‑t PDF‑re a vászon méretének beállítása után?** Igen – az Aspose.CAD lehetővé teszi a CAD fájlok PDF‑re konvertálását, miközben megőrzi a megadott vászon méreteket.  
 - **Támogatott a blokk attribútum értékek kinyerése?** Teljes mértékben; az API metódusokat biztosít az attribútumértékek olvasásához külső hivatkozásokból.  
-- **Hogyan változtathatom meg a CAD renderelés háttérszínét?** Használja a `setBackgroundColor` opciót egy egyedi háttér alkalmazásához exportálás előtt.  
-- **Mi az automatikus elrendezés skálázás?** Automatikusan a rajzot a vászonhoz igazítja, biztosítva az optimális megjelenítést manuális számítások nélkül.
+- **Hogyan változtathatom meg egy CAD renderelés háttérszínét?** Használd a `setBackgroundColor` opciót (vagy **set CAD background color**) egy egyedi háttér alkalmazásához exportálás előtt.  
+- **Mi az auto layout scaling?** Automatikusan a vászonhoz igazítja a rajzot, biztosítva az optimális megjelenítést manuális számítások nélkül.  
 
-## Mi a “vászonméret beállítása” az Aspose.CAD for Java‑ban?
-A vászonméret beállítása azt mondja a renderelő motornak, hogy milyen pontos pixelméreteket (vagy fizikai méreteket) használjon a kimeneti fájlhoz. Ez elengedhetetlen, ha konzisztens oldalelrendezésre van szükség, CAD‑képeket jelentésekbe szeretne integrálni, vagy előre meghatározott méretű bélyegképeket kell generálni.
+## Mi az a “set canvas size” az Aspose.CAD for Java‑ban?
+A vászon méretének beállítása megmondja a renderelő motornak a kimeneti fájl pontos pixelméreteit (vagy fizikai méretét). Ez elengedhetetlen, ha konzisztens oldalelrendezésekre van szükség, CAD képeket jelentésekbe szeretnél integrálni, vagy előre meghatározott méretű bélyegképeket kell generálni.
 
-## Miért használja az Aspose.CAD haladó funkcióit?
-- **Konzisztens kimenet** – A vászonméret és a háttér szabályozása egységességet biztosít több fájl között.  
-- **Szélesebb kompatibilitás** – CAD‑rajzok konvertálása PDF‑be, TIFF‑be vagy PNG‑be részletvesztés nélkül.  
-- **Automatizálás‑kész** – Blokk attribútumok kinyerése és automatikus elrendezés skálázás programozottan, ideális kötegelt feldolgozáshoz.  
-- **Külső függőségek nélkül** – Minden funkció közvetlenül a Java API‑ból érhető el, nincs szükség harmadik fél eszközeire.
+## Miért használjuk az Aspose.CAD haladó funkcióit?
+- **Konzisztens kimenet** – A vászon mérete és a háttér szabályozása egységességet biztosít több fájl között.  
+- **Szélesebb kompatibilitás** – CAD rajzok konvertálása PDF‑re, TIFF‑re vagy PNG‑re részletvesztés nélkül.  
+- **Automation‑ready** – Blokk attribútumok kinyerése és auto layout scaling programozott alkalmazása, ideális kötegelt feldolgozáshoz.  
+- **Nincs külső függőség** – Minden funkció közvetlenül a Java API‑n keresztül érhető el, elkerülve a harmadik fél eszközeit.  
 
 ## Előfeltételek
 - Java Development Kit (JDK) 8 vagy újabb.  
-- Aspose.CAD for Java könyvtár (töltse le a legújabb verziót az Aspose weboldaláról).  
-- Érvényes Aspose.CAD licenc a termelési használathoz (ingyenes próbaverzió is elegendő értékeléshez).
+- Aspose.CAD for Java könyvtár (töltsd le a legújabb verziót az Aspose weboldaláról).  
+- Érvényes Aspose.CAD licenc a termelési használathoz (ingyenes próba a kiértékeléshez).
 
-## Lépésről‑lépésre áttekintés a haladó témákról
+## Lépés‑ről‑lépésre áttekintés a haladó témákról
 
-### Hogyan állítsuk be a vászonméretet az Aspose.CAD for Java‑ban?
-Amikor egy `CadImage` példányt hoz létre, a vászon szélességét és magasságát a `ImageOptions` objektumban adhatja meg a mentés előtt. Ez biztosítja, hogy az exportált fájl a kívánt méretekkel rendelkezzen.
+### Hogyan állítsuk be a vászon méretét az Aspose.CAD for Java‑ban?
+Amikor egy `CadImage` példányt hozol létre, a `ImageOptions` objektumon keresztül megadhatod a vászon szélességét és magasságát a mentés előtt. Ez biztosítja, hogy az exportált fájl megfeleljen a szükséges méreteknek. *(Meg fogod látni, hogyan állítsd be a vászon méretét **java** stílusban a `how to set canvas size java` megközelítéssel.)*
 
-### Hogyan konvertáljunk CAD‑ot PDF‑be a vászonméret megtartásával?
-Használja a `PdfOptions` osztályt a vászonbeállításokkal együtt. A konverziós folyamat figyelembe veszi a vászonméreteket, így a PDF pontosan úgy néz ki, mint a képernyőn megjelenített rajz.
+### Hogyan konvertáljuk a CAD‑t PDF‑re a vászon méretének megőrzése mellett?
+Használd a `PdfOptions` osztályt a vászon beállításokkal együtt. A konverziós folyamat tiszteletben tartja a vászon dimenziókat, így a PDF pontosan úgy néz ki, mint a képernyőn megjelenített renderelés.
 
 ### Hogyan nyerjük ki a blokk attribútum értékeket külső hivatkozásokból?
-Az API egy `BlockReference` gyűjteményt biztosít. Ennek a gyűjteménynek az iterálásával olvashatja ki például a rétegneveket, színeket vagy a DWG/DXF fájlba ágyazott egyedi adatokat.
+Az API egy `BlockReference` gyűjteményt biztosít. Ennek a gyűjteménynek az iterálásával olvashatod ki például a rétegneveket, színeket vagy a DWG/DXF fájlba beágyazott egyedi adatokat.
 
-### Hogyan állítsuk be a CAD háttérszínét egy letisztultabb megjelenéshez?
-A renderelési opciók `BackgroundColor` tulajdonsága lehetővé teszi bármely RGB szín kiválasztását. Különösen hasznos, ha az alapértelmezett fehér háttér ütközik a márkázásával vagy UI‑témájával.
+### Hogyan állítsuk be a CAD háttérszínét a professzionálisabb megjelenésért?
+A renderelési opciók `BackgroundColor` tulajdonsága lehetővé teszi bármely RGB szín kiválasztását. Ez különösen hasznos, ha az alapértelmezett fehér háttér ütközik a márka vagy UI téma színeivel. *(Ez ugyanaz, mint a **set CAD background color**.)*
 
-### Hogyan alkalmazzuk az automatikus elrendezés skálázást dinamikus vászonigazításra?
-Kapcsolja be az `AutoLayoutScaling` jelzőt a renderelési opciókban. A motor automatikusan skálázza a rajzot a vászonhoz, miközben megőrzi az arányt, így elkerülve a manuális számításokat.
+### Hogyan alkalmazzuk az auto layout scaling‑et dinamikus vászon‑állításokhoz?
+Kapcsold be az `AutoLayoutScaling` jelzőt a renderelési opciókban. A motor automatikusan skálázza a rajzot a vászonhoz, miközben megőrzi az arányokat, így elkerülve a manuális számításokat.
 
 ## Részletes tutorialok minden funkcióhoz
-Az alábbiakban megtalálja a dedikált tutorialokat, amelyek lépésről‑lépésre végigvezetik a haladó képességek használatán. Kattintson bármelyik linkre a mélyebb megismeréshez.
+Az alábbiakban megtalálod a dedikált tutorialokat, amelyek lépésről lépésre végigvezetnek az egyes haladó képességeken. Kattints bármelyik linkre a mélyebb bemutatóhoz.
 
-### [Enable Tracking for CAD Rendering Process](./enable-tracking-for-cad-rendering-process/)
-Fejlessze CAD renderelését az Aspose.CAD for Java‑val. Kövesse a lépésről‑lépésre útmutatót a nyomkövetés engedélyezéséhez és a PDF‑konverzió élményének fokozásához.
+### [Követés engedélyezése a CAD renderelési folyamatban](./enable-tracking-for-cad-rendering-process/)
+Fejleszd CAD renderelésedet az Aspose.CAD for Java‑val. Kövesd a lépésről‑lépésre útmutatót a követés engedélyezéséhez és a PDF konvertálási élmény fokozásához.
 
-### [Integrate IGES Format](./integrate-iges-format/)
-Fedezze fel az IGES formátum zökkenőmentes integrációját az Aspose.CAD for Java‑val. Kövesse a részletes útmutatót, és használja ki az Aspose.CAD erejét CAD fejlesztési folyamataiban.
+### [IGES formátum integrálása](./integrate-iges-format/)
+Fedezd fel az IGES formátum zökkenőmentes integrálását az Aspose.CAD for Java‑val. Kövesd a lépésről‑lépésre útmutatót, és használd ki az Aspose.CAD erejét CAD fejlesztési folyamataidban.
 
-### [Mesh Support with Aspose.CAD for Java](./mesh-support-in-cad/)
-Ismerje meg a háló (mesh) támogatást Java‑alkalmazásokban az Aspose.CAD segítségével. Konvertáljon CAD fájlokat PDF‑be egyszerűen.
+### [Mesh támogatás az Aspose.CAD for Java‑val](./mesh-support-in-cad/)
+Fedezd fel a mesh támogatást Java alkalmazásokban az Aspose.CAD‑del. Konvertálj CAD fájlokat PDF‑re egyszerűen.
 
-### [Pen Support in Export](./pen-support-in-export/)
-Mesteri toll testreszabás CAD exportáláskor az Aspose.CAD for Java‑val. Kövesse a lépésről‑lépésre útmutatót a zökkenőmentes integrációhoz.
+### [Toll támogatás exportáláskor](./pen-support-in-export/)
+Mesterezz a toll testreszabását a CAD exportálásban az Aspose.CAD for Java‑val. Kövesd a lépésről‑lépésre útmutatót a zökkenőmentes integrációhoz.
 
-### [Reading DWT Files](./reading-dwt-files/)
-Mesteri DWT fájlok olvasása Java‑ban az Aspose.CAD‑del. Kövesse a részletes útmutatót a zökkenőmentes integrációhoz.
+### [DWT fájlok olvasása](./reading-dwt-files/)
+Mesterezz a DWT fájlok Java‑ban történő olvasását az Aspose.CAD‑del. Kövesd a lépésről‑lépésre útmutatót a zökkenőmentes integrációhoz.
 
-### [Setting Background and Drawing Color Using Aspose.CAD for Java](./setting-background-and-drawing-color/)
-Konvertáljon CAD fájlokat PDF‑be és TIFF‑be egyszerűen az Aspose.CAD for Java‑val. Állítson be egyedi háttér‑ és rajzszíneket vizuálisan lenyűgöző eredményekért.
+### [Háttér és rajzolási szín beállítása az Aspose.CAD for Java használatával](./setting-background-and-drawing-color/)
+Konvertálj CAD fájlokat PDF‑re és TIFF‑re könnyedén az Aspose.CAD for Java‑val. Állíts be egyedi háttér‑ és rajzolási színeket a vizuálisan lenyűgöző eredményekért.
 
-### [Set Canvas Size and Mode](./set-canvas-size-and-mode/)
-Fedezze fel az Aspose.CAD for Java erejét lépésről‑lépésre a **vászonméret** és mód beállításával. Konvertáljon CAD fájlokat PDF‑be és TIFF‑formátumba könnyedén.
+### [Vászon méretének és módjának beállítása](./set-canvas-size-and-mode/)
+Fedezd fel az Aspose.CAD for Java erejét a **setting canvas size** és mód beállításával. Konvertálj CAD fájlokat PDF‑re és TIFF‑re egyszerűen.
 
-### [Setting Auto Layout Scaling with Aspose.CAD for Java](./setting-auto-layout-scaling/)
-Fejlessze CAD munkafolyamatát az Aspose.CAD for Java‑val. Ez a tutorial bevezeti az Auto Layout Scaling‑et, biztosítva az optimális megjelenítést és hatékonyságot. Töltse le a könyvtárat, kövesse a tutorialt, és forradalmasítsa CAD projektjeit.
+### [Auto layout skálázás beállítása az Aspose.CAD for Java‑val](./setting-auto-layout-scaling/)
+Fejleszd CAD munkafolyamataidat az Aspose.CAD for Java‑val. Ez a lépésről‑lépésre útmutató bemutatja az Auto Layout Scaling‑et, biztosítva az optimális megjelenítést és hatékonyságot. Töltsd le a könyvtárat, kövesd a tutorialt, és forradalmasítsd CAD projektjeidet.
 
-### [Support of Layers with Aspose.CAD in Java](./support-of-layers-in-cad/)
-Mesteri rétegkezelés Java CAD fejlesztésben az Aspose.CAD‑del. Szervezze és exportálja rajzait egyszerűen.
+### [Rétegek támogatása az Aspose.CAD for Java‑ban](./support-of-layers-in-cad/)
+Mesterezz a réteg támogatást Java CAD fejlesztésben az Aspose.CAD‑del. Szervezd és exportáld a rajzokat könnyedén.
 
-### [Extract Block Attribute Value from External Reference Using Aspose.CAD In Java](./extract-block-attribute-value/)
-Fedezze fel tutorialunkat a blokk attribútum értékek kinyeréséről DWG külső hivatkozásokból Java‑ban az Aspose.CAD használatával. Emelje CAD fejlesztési munkafolyamatát egyszerűen.
+### [Blokk attribútum értékének kinyerése külső hivatkozásból az Aspose.CAD for Java használatával](./extract-block-attribute-value/)
+Fedezd fel tutorialunkat a blokk attribútum értékek kinyeréséről DWG külső hivatkozásokból Java‑ban az Aspose.CAD‑del. Fejleszd CAD fejlesztési munkafolyamataidat egyszerűen.
+
+## Miért fontos: Valós példák
+- **Automatizált jelentéskészítés:** Generálj PDF jelentéseket rögzített vászonmérettel és vállalati márkás háttérszínnel egyetlen kötegelt feladatban.  
+- **Bélyegkép generálás:** Használd a `how to set canvas size java` megoldást konzisztens bélyegképek létrehozásához egy webportálhoz, amely CAD rajzokat jelenít meg.  
+- **Adatkinyerés:** Szerezd meg a blokk attribútum értékeket nagy DWG összeszerelésekből, hogy egy alkatrész‑készlet rendszert táplálj manuális ellenőrzés nélkül.  
 
 ## Gyakori problémák és hibaelhárítás
-- **A vászonméret nem alkalmazódik:** Győződjön meg róla, hogy a méretet a megfelelő `ImageOptions` objektumban állította be a `save()` hívása előtt.  
-- **A háttérszín változatlan marad:** Ellenőrizze, hogy a renderelési mód támogatja-e a háttérszíneket (pl. PNG, TIFF).  
-- **A blokk attribútumok null értéket adnak:** Ellenőrizze, hogy a DWG fájl valóban tartalmaz attribútumdefiníciókat, és hogy a helyes blokk hivatkozást használja.  
-- **Az automatikus elrendezés skálázás torzít:** Győződjön meg róla, hogy az arány megtartása jelző be van kapcsolva; különben a motor nyújthatja a rajzot.
+- **A vászon mérete nem alkalmazódik:** Győződj meg róla, hogy a méretet a megfelelő `ImageOptions` objektumon állítottad be a `save()` hívása előtt.  
+- **A háttérszín változatlan marad:** Ellenőrizd, hogy a renderelési mód támogatja-e a háttérszíneket (pl. PNG, TIFF).  
+- **A blokk attribútumok null értéket adnak:** Bizonyosodj meg arról, hogy a DWG fájl valóban tartalmaz attribútumdefiníciókat, és a helyes blokk hivatkozást éred el.  
+- **Az auto layout scaling torzítónak tűnik:** Győződj meg arról, hogy az arány megtartása jelző be van kapcsolva; ellenkező esetben a motor nyújthatja a rajzot.
 
 ## Gyakran feltett kérdések
 
-**K: Beállíthatok egyedi vászonméretet minden fájlra kötegelt feldolgozás során?**  
-V: Igen. Iteráljon a CAD fájlok gyűjteményén, konfigurálja a vászonméretet minden `ImageOptions` példányon, és mentse a kimenetet programozottan.
+**Q: Beállíthatok egyedi vászonméretet minden fájlhoz egy kötegelt folyamatban?**  
+A: Igen. Iterálj a CAD fájlok gyűjteményén, konfiguráld a vászonméretet minden egyes `ImageOptions` példányban, és programozottan mentsd el a kimenetet.
 
-**K: Befolyásolja a vászonméret a exportált PDF minőségét?**  
-V: A minőséget a DPI beállítás határozza meg a renderelési opciókban. Növelheti a DPI‑t a vászonméretek megtartása mellett, hogy nagy felbontású PDF‑eket kapjon.
+**Q: Befolyásolja a vászonméret beállítása a exportált PDF minőségét?**  
+A: A minőséget a DPI beállítás határozza meg a renderelési opciókban. Növelheted a DPI‑t a vászondimenziók megtartása mellett, hogy nagyobb felbontású PDF‑eket kapj.
 
-**K: Hogyan nyerjem ki a blokk attribútum értékeket egy külső hivatkozásokat tartalmazó DWG‑ből?**  
-V: Használja az `ExternalReference` gyűjteményt a hivatkozás feloldásához, majd iteráljon a `BlockReference` objektumokon az attribútumértékek olvasásához.
+**Q: Hogyan nyerjem ki a blokk attribútum értékeket egy külső hivatkozásokat tartalmazó DWG‑ből?**  
+A: Használd az `ExternalReference` gyűjteményt a hivatkozás feloldásához, majd iterálj a benne található `BlockReference` objektumokon az attribútumértékek olvasásához.
 
-**K: Az automatikus elrendezés skálázás kompatibilis a vektoros kimeneti formátumokkal, például a PDF‑vel?**  
-V: Igen. A skálázási logika mind raszteres (PNG, TIFF), mind vektoros (PDF, SVG) kimeneteknél működik, biztosítva, hogy a rajz illeszkedjen a vászonhoz.
+**Q: Az auto layout scaling kompatibilis a vektoros kimeneti formátumokkal, például a PDF‑vel?**  
+A: Igen. A skálázási logika mind raszter (PNG, TIFF), mind vektor (PDF, SVG) kimeneteknél működik, biztosítva, hogy a rajz a vászonba illeszkedjen.
 
-**K: Milyen licenc szükséges kereskedelmi felhasználáshoz?**  
-V: Fizetett Aspose.CAD licenc szükséges a termelési környezetben. Ingyenes értékelési licenc használható fejlesztéshez és teszteléshez.
+**Q: Milyen licenc szükséges kereskedelmi felhasználáshoz?**  
+A: Fizetett Aspose.CAD licenc szükséges a termelési környezethez. Ingyenes értékelő licenc használható fejlesztéshez és teszteléshez.
 
 ---
 
-**Utoljára frissítve:** 2025-12-07  
-**Tesztelve:** Aspose.CAD for Java 24.12 (legújabb)  
-**Szerző:** Aspose  
+**Last Updated:** 2026-02-07  
+**Tested With:** Aspose.CAD for Java (latest)  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
