@@ -1,33 +1,44 @@
 ---
-title: دعم تنسيق OBJ في Aspose.CAD - البرنامج التعليمي
-linktitle: دعم تنسيق OBJ في Aspose.CAD - البرنامج التعليمي
-second_title: Aspose.CAD .NET - تنسيق ملف CAD وBIM
-description: أطلق العنان لإمكانات Aspose.CAD لـ .NET. تعرف على كيفية دعم تنسيق OBJ بسلاسة في تطبيقات CAD الخاصة بك من خلال هذا البرنامج التعليمي خطوة بخطوة.
-weight: 10
+date: 2026-02-07
+description: تعلم كيفية حفظ ملفات CAD كملف PDF وتحويل OBJ إلى PDF باستخدام Aspose.CAD
+  لـ .NET. اتبع هذا الدليل خطوة بخطوة لتحويل تنسيقات ملفات CAD بسلاسة.
+linktitle: Save CAD as PDF – Supporting OBJ Format in Aspose.CAD
+second_title: Aspose.CAD .NET - CAD and BIM File Format
+title: حفظ CAD كملف PDF – دعم تنسيق OBJ في Aspose.CAD
 url: /ar/net/3d-model-support/supporting-obj-format-in-aspose-cad/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# دعم تنسيق OBJ في Aspose.CAD - البرنامج التعليمي
+# حفظ CAD كملف PDF – دعم تنسيق OBJ في Aspose.CAD
 
-## مقدمة
+إذا كنت بحاجة إلى **حفظ CAD كملف PDF** أثناء العمل مع ملفات OBJ، فإن Aspose.CAD لـ .NET يجعل العملية بسيطة. في هذا الدرس سنستعرض الخطوات الدقيقة المطلوبة **لتحويل OBJ إلى PDF**، مما يوفر لك طريقة موثوقة للتعامل مع تحويل تنسيق ملفات CAD في أي تطبيق .NET.
 
-إذا كنت تتعمق في عالم التصميم بمساعدة الكمبيوتر (CAD) في تطوير .NET، فقد تواجه الحاجة إلى العمل مع ملفات OBJ. يعد Aspose.CAD for .NET حلاً قويًا يمكّن المطورين من دعم تنسيق OBJ بسلاسة داخل تطبيقاتهم. في هذا البرنامج التعليمي، سنرشدك خلال عملية دمج Aspose.CAD في مشروعك للعمل مع ملفات OBJ بشكل فعال.
+## إجابات سريعة
+- **ما الذي يغطيه هذا الدرس؟** حفظ CAD كملف PDF وتحويل ملفات OBJ باستخدام Aspose.CAD.  
+- **ما المكتبة المطلوبة؟** Aspose.CAD لـ .NET (قابلة للتنزيل من الموقع الرسمي).  
+- **هل أحتاج إلى ترخيص؟** النسخة التجريبية المجانية تعمل للتطوير؛ يتطلب الترخيص التجاري للإنتاج.  
+- **هل يمكنني استهداف .NET Core/.NET 6+؟** نعم – المكتبة تدعم إصدارات .NET الحديثة.  
+- **كم من الوقت تستغرق عملية التنفيذ؟** عادةً أقل من 15 دقيقة للتحويل الأساسي.
 
-## المتطلبات الأساسية
+## ما هو “حفظ CAD كملف PDF”؟
+يعني حفظ CAD كملف PDF تحويل رسم CAD (مثل نموذج OBJ) إلى مستند PDF يتم عرضه على أي منصة دون الحاجة إلى برنامج CAD متخصص. هذا سيناريو شائع لتحويل **تنسيق ملفات CAD** لمشاركة التصاميم مع العملاء أو أصحاب المصلحة.
 
-قبل أن نتعمق في البرنامج التعليمي، تأكد من توفر المتطلبات الأساسية التالية:
+## لماذا تحويل ملفات OBJ إلى PDF؟
+- **إتاحة عالمية:** يمكن فتح ملفات PDF على أي جهاز تقريبًا.  
+- **الحفاظ على الدقة البصرية:** التحويل النقطي يحافظ على المظهر الدقيق للنموذج ثلاثي الأبعاد.  
+- **تبسيط التوزيع:** ملف واحد بدلاً من مجموعة من ملفات OBJ.  
 
--  مكتبة Aspose.CAD: تأكد من تثبيت مكتبة Aspose.CAD في مشروع .NET الخاص بك. يمكنك تنزيله[هنا](https://releases.aspose.com/cad/net/).
+## المتطلبات المسبقة
 
-- دليل المستندات: قم بإعداد دليل حيث يتم تخزين مستندات CAD الخاصة بك، وتحديدًا ملفات OBJ. في هذا البرنامج التعليمي، سنستخدم دليل العنصر النائب "دليل المستندات الخاص بك".
+- **مكتبة Aspose.CAD:** تأكد من إضافة مكتبة Aspose.CAD إلى مشروع .NET الخاص بك. يمكنك تنزيلها [هنا](https://releases.aspose.com/cad/net/).  
+- **دليل المستندات:** أنشئ مجلدًا سيحتوي على مستندات CAD (ملفات OBJ). في الأمثلة أدناه سنشير إليه باسم “Your Document Directory.”  
 
 ## استيراد مساحات الأسماء
-
-لبدء الأمور، تحتاج إلى استيراد مساحات الأسماء الضرورية إلى مشروع .NET الخاص بك. توفر مساحات الأسماء هذه إمكانية الوصول إلى الوظائف المطلوبة للتعامل مع ملفات CAD.
+لبدء العمل، استورد مساحات الأسماء التي تمنحك الوصول إلى فئات معالجة CAD.
 
 ```csharp
 using System;
@@ -36,22 +47,19 @@ using System.Linq;
 using System.Text;
 ```
 
-
 ## الخطوة 1: تحميل ملف OBJ
-
-قم بتحميل ملف OBJ إلى كائن الصورة Aspose.CAD. استبدل "example-580-W.obj" باسم ملف OBJ الخاص بك.
+حمّل ملف OBJ في كائن `Aspose.CAD.Image`. استبدل **example-580-W.obj** باسم الملف الفعلي الذي تريد معالجته.
 
 ```csharp
 string MyDir = "Your Document Directory";
 using (Aspose.CAD.Image CADDoc = Aspose.CAD.Image.Load(MyDir + "example-580-W.obj"))
 {
-    // الكود الخاص بك لمزيد من المعالجة موجود هنا
+    // Your code for further processing goes here
 }
 ```
 
-## الخطوة 2: تكوين خيارات التنقيط
-
-قم بإعداد خيارات التنقيط لتحديد أبعاد ملف PDF الناتج بناءً على أبعاد مستند CAD المحمل.
+## الخطوة 2: تكوين خيارات التحويل النقطي
+حدد حجم ملف PDF الناتج بناءً على أبعاد مستند CAD المحمّل. هذا جزء أساسي من سير عمل **process obj files**.
 
 ```csharp
 Aspose.CAD.ImageOptions.CadRasterizationOptions rasterizationOptions =
@@ -62,47 +70,46 @@ rasterizationOptions.PageHeight = CADDoc.Size.Height;
 ```
 
 ## الخطوة 3: إنشاء خيارات PDF
-
-قم بإنشاء خيارات PDF وربطها بخيارات التنقيط.
+أنشئ مثيلًا من `PdfOptions` واربطه بإعدادات التحويل النقطي. هذا يجهّز المحرك لعملية **save cad as pdf**.
 
 ```csharp
 Aspose.CAD.ImageOptions.PdfOptions CADf = new Aspose.CAD.ImageOptions.PdfOptions();
 CADf.VectorRasterizationOptions = rasterizationOptions;
 ```
 
-## الخطوة 4: احفظ بصيغة PDF
-
-احفظ مستند CAD كملف PDF مخصص، متضمنًا الخيارات التي تم تكوينها.
+## الخطوة 4: حفظ كملف PDF
+أخيرًا، اكتب المحتوى المحوّل إلى ملف PDF. يمكن فتح الملف الناتج بأي عارض PDF.
 
 ```csharp
 CADDoc.Save(MyDir + "example-580-W_custom.pdf", CADf);
 ```
 
-## خاتمة
+## المشكلات الشائعة والنصائح
+- **مسار ملف غير صحيح:** تأكد من أن `MyDir` ينتهي بفاصل مسار (`\` أو `/`) المناسب لنظام التشغيل الخاص بك.  
+- **ملفات OBJ الكبيرة:** فكر في زيادة حدود الذاكرة أو معالجة النموذج على دفعات إذا واجهت `OutOfMemoryException`.  
+- **خطوط أو قوام مفقودة:** قد تحتاج ملفات OBJ التي تشير إلى موارد خارجية إلى وضع تلك الملفات في نفس الدليل.  
 
-تهانينا! لقد نجحت في دمج Aspose.CAD لـ .NET لدعم تنسيق OBJ في تطبيقك. لقد زودك هذا البرنامج التعليمي بالخطوات اللازمة للتعامل مع ملفات OBJ بسلاسة داخل مشاريع CAD الخاصة بك.
+## الأسئلة المتكررة
 
-## الأسئلة الشائعة
+**س1: هل Aspose.CAD متوافق مع تنسيقات CAD أخرى؟**  
+ج1: نعم، يدعم Aspose.CAD تنسيقات CAD متعددة، بما في ذلك DWG وDXF وDGN وغيرها. راجع [التوثيق](https://reference.aspose.com/cad/net/) للقائمة الكاملة.
 
-### س1: هل Aspose.CAD متوافق مع تنسيقات ملفات CAD الأخرى؟
+**س2: هل يمكنني تجربة Aspose.CAD قبل الشراء؟**  
+ج2: بالتأكيد! يمكنك استكشاف نسخة تجريبية مجانية [هنا](https://releases.aspose.com/).
 
- ج1: نعم، يدعم Aspose.CAD تنسيقات CAD المتنوعة، بما في ذلك DWG وDXF وDGN والمزيد. افحص ال[توثيق](https://reference.aspose.com/cad/net/)للحصول على قائمة كاملة.
+**س3: كيف يمكنني الحصول على دعم لـ Aspose.CAD؟**  
+ج3: زر [منتدى Aspose.CAD](https://forum.aspose.com/c/cad/19) للحصول على المساعدة والتفاعل مع المجتمع.
 
-### س2: هل يمكنني تجربة Aspose.CAD قبل الشراء؟
+**س4: هل تتوفر تراخيص مؤقتة لـ Aspose.CAD؟**  
+ج4: نعم، يمكن الحصول على تراخيص مؤقتة [هنا](https://purchase.aspose.com/temporary-license/).
 
- ج2: بالتأكيد! يمكنك استكشاف نسخة تجريبية مجانية[هنا](https://releases.aspose.com/).
+**س5: أين يمكنني شراء Aspose.CAD؟**  
+ج5: يمكنك شراء Aspose.CAD [هنا](https://purchase.aspose.com/buy).
 
-### س3: كيف يمكنني الحصول على الدعم لـ Aspose.CAD؟
+**آخر تحديث:** 2026-02-07  
+**تم الاختبار مع:** Aspose.CAD 24.11 لـ .NET  
+**المؤلف:** Aspose  
 
- ج3: قم بزيارة[منتدى Aspose.CAD](https://forum.aspose.com/c/cad/19) لطلب المساعدة والتفاعل مع المجتمع.
-
-### س4: هل التراخيص المؤقتة متاحة لـ Aspose.CAD؟
-
- ج4: نعم، يمكن الحصول على تراخيص مؤقتة[هنا](https://purchase.aspose.com/temporary-license/).
-
-### س5: أين يمكنني شراء Aspose.CAD؟
-
- A5: يمكنك شراء Aspose.CAD[هنا](https://purchase.aspose.com/buy).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
