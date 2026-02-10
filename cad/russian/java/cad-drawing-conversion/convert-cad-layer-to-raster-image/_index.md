@@ -14,33 +14,36 @@ weight: 11
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose CAD Java Tutorial: Convert CAD Layer to Raster Image Format
+# Учебное пособие по Aspose CAD Java: преобразование слоя САПР в формат растрового изображения
 
-## Introduction
+## Введение
 
-В области компьютерного автоматизированного проектирования (CAD) преобразование отдельных слоёв CAD в растровые форматы изображений необходимо для простого обмена, печати или дальнейшей обработки изображений. Этот **aspose cad java tutorial** покажет, как использовать **Aspose.CAD for Java** для извлечения конкретных слоёв и сохранения их в JPEG (или любой другой растровый формат). К концу этого руководства вы поймёте, почему важна конверсия на уровне слоёв, как настроить параметры растеризации и как экспортировать результат всего несколькими строками кода.
+В компьютерной области автоматизированного проектирования (САПР) преобразование отдельных слоев САПР в растровые форматы необходимо для простого обмена, печати или дальнейшей обработки изображений. В этом **руководстве по aspose cad Java** показано, как использовать **Aspose.CAD for Java** для извлечения определенных слоев и сохранения их в JPEG (или любом другом растровом формате). К завершению этого руководства вы поймёте, почему важна конверсия на уровне слоёв, как настроить растеризацию параметров и как экспортировать результат всего несколькими строками кода.
 
-## Quick Answers
-- **What does this tutorial cover?** Converting selected CAD layers to raster images using Aspose.CAD for Java.  
-- **Which formats are supported?** Any raster format supported by Aspose (JPEG, PNG, BMP, etc.).  
-- **Do I need a license?** A free trial works for development; a license is required for production.  
-- **What are the prerequisites?** Java development environment and the Aspose.CAD Java library.  
-- **How long does implementation take?** Roughly 10–15 minutes for a basic conversion.
+## Быстрые ответы
+- **Что рассматривается в этом руководстве?** Преобразование выбранных слоев САПР в растровые изображения с помощью Aspose.CAD для Java.
+- **Какие форматы поддерживаются?** Любой растровый формат, поддерживаемый Aspose (JPEG, PNG, BMP и т. д.).
+- **Нужна ли мне лицензия?** Для разработки подойдет бесплатная пробная версия; Для использования в производственной среде требуется лицензия.
 
-## Prerequisites
+- **Какие предварительные условия?** Среда разработки Java и библиотека Aspose.CAD для Java.
 
-Before diving into the code, ensure you have the following:
+- **Сколько времени занимает реализация?** Примерно 10–15 минут для базового преобразования.
 
-- **Java Development Environment** – JDK 8 or higher installed and configured.  
-- **Aspose.CAD Library** – Download and install the Aspose.CAD library for Java from the [download link](https://releases.aspose.com/cad/java/).  
+## Предварительные условия
 
-## Import Namespaces
+Прежде чем приступить к коду, убедитесь, что у вас есть следующее:
 
-In this step, we'll import the necessary classes to start working with CAD files.
+- **Среда разработки Java** – установлен и настроен JDK 8 или выше.
 
-### Import Aspose.CAD Classes
+- **Библиотека Aspose.CAD** – Загрузите и установите библиотеку Aspose.CAD для Java по ссылке [ссылка для скачивания](https://releases.aspose.com/cad/java/).
 
-In your Java source file, include the required Aspose.CAD imports:
+## Импорт пространств имен
+
+На этом шаге мы импортируем необходимые классы для начала работы с файлами САПР.
+
+### Импорт классов Aspose.CAD
+
+В исходный файл Java добавьте необходимые импорты Aspose.CAD:
 
 ```java
 import com.aspose.cad.Image;
@@ -53,13 +56,13 @@ import java.util.Arrays;
 import java.util.List;
 ```
 
-## Convert CAD Layer to Raster Image Format
+## Преобразование слоя САПР в растровое изображение
 
-Below is the complete, step‑by‑step process. Each step is explained in plain language before the code block, so you know exactly what’s happening.
+Ниже приведен полный пошаговый процесс. Каждый шаг объясняется простым языком перед блоком кода, чтобы вы точно понимали, что происходит.
 
-### Step 1: Set Up the CAD File
+### Шаг 1: Подготовка файла САПР
 
-First, point to your CAD file and load it into an `Image` object.
+Сначала укажите путь к вашему файлу САПР и загрузите его в объект `Image`.
 
 ```java
 // The path to the resource directory.
@@ -68,9 +71,9 @@ String srcFile = dataDir + "conic_pyramid.dxf";
 Image image = Image.load(srcFile);
 ```
 
-### Step 2: Configure Rasterization Options
+### Шаг 2: Настройка параметров растеризации
 
-Create a `CadRasterizationOptions` instance to define the output image size and quality.
+Создайте экземпляр `CadRasterizationOptions`, чтобы определить размер и качество выходного изображения.
 
 ```java
 CadRasterizationOptions rasterizationOptions = new CadRasterizationOptions();
@@ -78,64 +81,70 @@ rasterizationOptions.setPageWidth(500);
 rasterizationOptions.setPageHeight(500);
 ```
 
-### Step 3: Specify CAD Layers
+### Шаг 3: Указание слоев САПР
 
-Add the layer names you want to rasterize. In this example we export the default layer `"0"`.
+Добавьте имена слоев, которые вы хотите растрировать. В этом примере мы экспортируем слой по умолчанию «0».
 
 ```java
 List<String> stringList = new ArrayList<>(Arrays.asList("0"));
 rasterizationOptions.setLayers(stringList);
 ```
 
-### Step 4: Set Up JPEG Options
+### Шаг 4: Настройка параметров JPEG
 
-Create a `JpegOptions` object (or any other raster image options) and link it to the rasterization settings.
+Создайте объект `JpegOptions` (или любые другие параметры растрового изображения) и свяжите его с настройками растеризации.
 
 ```java
 JpegOptions options = new JpegOptions();
 options.setVectorRasterizationOptions(rasterizationOptions);
 ```
 
-### Step 5: Export to JPEG
+### Шаг 5: Экспорт в JPEG
 
-Finally, save the rasterized layer as a JPEG file.
+Наконец, сохраните растровый слой в виде файла JPEG.
 
 ```java
 image.save(dataDir + "CADLayersToRasterImageFormats_out_.jpg", options);
 ```
 
-Repeat the above steps for additional layers or adjust the rasterization parameters (resolution, background color, etc.) to meet your specific requirements.
+Повторите вышеуказанные шаги для дополнительных слоев или настройте параметры растеризации (разрешение, цвет фона и т. д.) в соответствии с вашими конкретными требованиями.
 
-## Why Use This Approach?
+## Зачем использовать этот подход?
 
-- **Selective Export** – Only the layers you need are rendered, reducing file size and processing time.  
-- **Format Flexibility** – Switch `JpegOptions` to `PngOptions`, `BmpOptions`, etc., without changing the core logic.  
-- **High‑Quality Rendering** – Aspose.CAD preserves line weights, colors, and text exactly as in the original CAD file.
+- **Выборочный экспорт**: визуализируются только те слои, которые вам нужны, что позволяет уменьшить размер файла и время обработки.
+- **Гибкость формата** — переключите `JpegOptions` на `PngOptions`, `BmpOptions` и т. д. без изменения базовой логики.
+- **Высококачественная визуализация** — Aspose.CAD сохраняет толщину линий, цвета и текст точно так же, как в исходном файле САПР.
 
-## Common Issues & Troubleshooting
+## Распространенные проблемы и устранение неполадок
 
 | Симптом | Вероятная причина | Решение |
 |---------|-------------------|---------|
-| Пустое изображение | Не указаны слои или неверное имя слоя | Проверьте, что указанные имена слоёв существуют в файле CAD; используйте `image.getLayers()` для их списка. |
-| Низкое разрешение | DPI по умолчанию низкое | Установите `rasterizationOptions.setResolution(300);` (или выше) перед сохранением. |
-| Неподдерживаемый формат CAD | Используется более старая версия Aspose.CAD | Обновите до последней версии Aspose.CAD for Java. |
+| Пустое изображение | Не указано неверное или неправильное имя слоя | проверьте, что имена оппонентов слоёв существуют в файле CAD; воспользуйтесь `image.getLayers()` для их списка. |
+| Низкое решение | DPI по умолчанию низкое | Установите `rasterizationOptions.setResolution(300);` (или выше) перед сохранением. |
+| Неподдерживаемый форматируемый CAD | Используется более старая версия Aspose.CAD | Обновите последнюю версию Aspose.CAD для Java. |
 
-## Frequently Asked Questions
+## Часто задаваемые вопросы
 
-**Q: Can I use Aspose.CAD for Java with other programming languages?**  
-A: Aspose.CAD primarily supports Java, but there are .NET, C++, and other language versions available.
+**В: Могу ли я использовать Aspose.CAD for Java с другими языками программирования?**
+О: Aspose.CAD в основном поддерживает Java, но доступны версии для .NET, C++ и других языков.
 
-**Q: Where can I find additional support or assistance?**  
-A: For any queries or assistance, visit the [Aspose.CAD forum](https://forum.aspose.com/c/cad/19).
+**В: Где я могу найти дополнительную поддержку или помощь?**
+О: По любым вопросам или помощи посетите [форум Aspose.CAD](https://forum.aspose.com/c/cad/19).
 
-**Q: Is there a free trial available?**  
-A: Yes, you can explore Aspose.CAD by obtaining a free trial from [here](https://releases.aspose.com/).
+**В: Доступна ли бесплатная пробная версия?**
+О: Да, вы можете ознакомиться с Aspose.CAD, получив бесплатную пробную версию по ссылке [здесь](https://releases.aspose.com/).
 
-**Q: How can I obtain a temporary license for Aspose.CAD?**  
-A: Acquire a temporary license from [this link](https://purchase.aspose.com/temporary-license/).
+**В: Как получить временную лицензию для Aspose.CAD?**
+О: Получите временную лицензию по этой ссылке [https://purchase.aspose.com/temporary-license/) .
 
-**Q: Are there any specific system requirements for Aspose.CAD for Java?**  
-A: Ensure that you have a compatible Java development environment; refer to the documentation for detailed requirements.
+**В: Есть ли какие-либо специфические системные требования для Aspose.CAD для Java?**
+О: Убедитесь, что у вас есть совместимая среда разработки Java; подробные требования см. в документации.
+
+---
+
+**Последнее обновление:** 2025-12-18  
+**Тестировано с:** Aspose.CAD for Java 24.12 (latest at time of writing)  
+**Автор:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -143,9 +152,3 @@ A: Ensure that you have a compatible Java development environment; refer to the 
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Последнее обновление:** 2025-12-18  
-**Тестировано с:** Aspose.CAD for Java 24.12 (latest at time of writing)  
-**Автор:** Aspose

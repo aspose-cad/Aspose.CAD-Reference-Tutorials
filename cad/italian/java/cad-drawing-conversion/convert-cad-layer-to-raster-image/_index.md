@@ -14,33 +14,33 @@ weight: 11
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose CAD Java Tutorial: Convert CAD Layer to Raster Image Format
+# Aspose CAD Java Tutorial: Converti layer CAD in formato immagine raster
 
-## Introduction
+## Introduzione
 
-Nel campo del Computer‑Aided Design (CAD), convertire singoli layer CAD in formati di immagine raster è fondamentale per una facile condivisione, stampa o ulteriore elaborazione delle immagini. Questo **aspose cad java tutorial** ti mostra come sfruttare **Aspose.CAD for Java** per estrarre layer specifici e salvarli come JPEG (o qualsiasi altro formato raster). Alla fine di questa guida comprenderai perché la conversione a livello di layer è importante, come configurare le opzioni di rasterizzazione e come esportare il risultato con poche righe di codice.
+Nel campo della progettazione assistita da computer (CAD), convertire singoli strati CAD in formati di immagine raster è fondamentale per una facile condivisione, stampa o ulteriore elaborazione delle immagini. Questo **aspose cad java tutorial** ti mostra come sfruttare **Aspose.CAD for Java** per estrarre layer specifici e salvarli come JPEG (o qualsiasi altro formato raster). Alla fine di questa guida comprenderai perché la conversione a livello di layer è importante, come configurare le opzioni di rasterizzazione e come esportare il risultato con poche righe di codice.
 
-## Quick Answers
-- **What does this tutorial cover?** Converting selected CAD layers to raster images using Aspose.CAD for Java.  
-- **Which formats are supported?** Any raster format supported by Aspose (JPEG, PNG, BMP, etc.).  
-- **Do I need a license?** A free trial works for development; a license is required for production.  
-- **What are the prerequisites?** Java development environment and the Aspose.CAD Java library.  
-- **How long does implementation take?** Roughly 10–15 minutes for a basic conversion.
+## Risposte rapide
+- **Che cosa tratta questo tutorial?** Conversione di livelli CAD selezionati in immagini raster utilizzando Aspose.CAD per Java.
+- **Quali formati sono supportati?** Qualsiasi formato raster supportato da Aspose (JPEG, PNG, BMP, ecc.).
+- **Ho bisogno di una licenza?** Una prova gratuita funziona per lo sviluppo; per la produzione è necessaria una licenza.
+- **Quali sono i prerequisiti?** Ambiente di sviluppo Java e libreria Java Aspose.CAD.
+- **Quanto tempo richiede l'implementazione?** Circa 10-15 minuti per una conversione di base.
 
-## Prerequisites
+## Prerequisiti
 
-Before diving into the code, ensure you have the following:
+Prima di immergerti nel codice, assicurati di avere quanto segue:
 
-- **Java Development Environment** – JDK 8 or higher installed and configured.  
-- **Aspose.CAD Library** – Download and install the Aspose.CAD library for Java from the [download link](https://releases.aspose.com/cad/java/).  
+- **Ambiente di sviluppo Java** – JDK 8 o versione successiva installato e configurato.
+- **Libreria Aspose.CAD** – Scarica e installa la libreria Aspose.CAD per Java dal [link per il download](https://releases.aspose.com/cad/java/).
 
-## Import Namespaces
+## Importazione degli spazi dei nomi
 
-In this step, we'll import the necessary classes to start working with CAD files.
+In questo passaggio, importeremo le classi necessarie per iniziare a lavorare con i file CAD.
 
-### Import Aspose.CAD Classes
+### Importazione delle classi Aspose.CAD
 
-In your Java source file, include the required Aspose.CAD imports:
+Nel file sorgente Java, includi le importazioni Aspose.CAD richieste:
 
 ```java
 import com.aspose.cad.Image;
@@ -53,13 +53,13 @@ import java.util.Arrays;
 import java.util.List;
 ```
 
-## Convert CAD Layer to Raster Image Format
+## Convertire un layer CAD in formato immagine raster
 
-Below is the complete, step‑by‑step process. Each step is explained in plain language before the code block, so you know exactly what’s happening.
+Di seguito è riportato il processo completo, passo dopo passo. Ogni passaggio è spiegato in un linguaggio semplice prima del blocco di codice, in modo da sapere esattamente cosa sta succedendo.
 
-### Step 1: Set Up the CAD File
+### Fase 1: Impostare il file CAD
 
-First, point to your CAD file and load it into an `Image` object.
+Per prima cosa, punta al file CAD e caricalo in un oggetto `Image`.
 
 ```java
 // The path to the resource directory.
@@ -68,9 +68,9 @@ String srcFile = dataDir + "conic_pyramid.dxf";
 Image image = Image.load(srcFile);
 ```
 
-### Step 2: Configure Rasterization Options
+### Fase 2: Configurare le opzioni di rasterizzazione
 
-Create a `CadRasterizationOptions` instance to define the output image size and quality.
+Creare un'istanza `CadRasterizationOptions` per definire le dimensioni e la qualità dell'immagine di output.
 
 ```java
 CadRasterizationOptions rasterizationOptions = new CadRasterizationOptions();
@@ -78,41 +78,41 @@ rasterizationOptions.setPageWidth(500);
 rasterizationOptions.setPageHeight(500);
 ```
 
-### Step 3: Specify CAD Layers
+### Fase 3: Specificare i layer CAD
 
-Add the layer names you want to rasterize. In this example we export the default layer `"0"`.
+Aggiungere i nomi dei layer che si desidera rasterizzare. In questo esempio esportiamo il layer predefinito `"0"`.
 
 ```java
 List<String> stringList = new ArrayList<>(Arrays.asList("0"));
 rasterizationOptions.setLayers(stringList);
 ```
 
-### Step 4: Set Up JPEG Options
+### Fase 4: Impostare le opzioni JPEG
 
-Create a `JpegOptions` object (or any other raster image options) and link it to the rasterization settings.
+Creare un oggetto `JpegOptions` (o qualsiasi altra opzione per l'immagine raster) e collegarlo alle impostazioni di rasterizzazione.
 
 ```java
 JpegOptions options = new JpegOptions();
 options.setVectorRasterizationOptions(rasterizationOptions);
 ```
 
-### Step 5: Export to JPEG
+### Fase 5: Esportare in JPEG
 
-Finally, save the rasterized layer as a JPEG file.
+Infine, salvare il layer rasterizzato come file JPEG.
 
 ```java
 image.save(dataDir + "CADLayersToRasterImageFormats_out_.jpg", options);
 ```
 
-Repeat the above steps for additional layers or adjust the rasterization parameters (resolution, background color, etc.) to meet your specific requirements.
+Ripetere i passaggi precedenti per altri livelli o regolare i parametri di rasterizzazione (risoluzione, colore di sfondo, ecc.) in base alle proprie esigenze specifiche.
 
-## Why Use This Approach?
+## Perché utilizzare questo approccio?
 
-- **Selective Export** – Only the layers you need are rendered, reducing file size and processing time.  
-- **Format Flexibility** – Switch `JpegOptions` to `PngOptions`, `BmpOptions`, etc., without changing the core logic.  
-- **High‑Quality Rendering** – Aspose.CAD preserves line weights, colors, and text exactly as in the original CAD file.
+- **Esportazione selettiva** – Vengono renderizzati solo i livelli necessari, riducendo le dimensioni del file e i tempi di elaborazione.
+- **Flessibilità di formato** – Cambia `JpegOptions` in `PngOptions`, `BmpOptions`, ecc., senza modificare la logica di base.
+- **Rendering di alta qualità** – Aspose.CAD conserva spessori di linea, colori e testo esattamente come nel file CAD originale.
 
-## Common Issues & Troubleshooting
+## Problemi comuni e risoluzione dei problemi
 
 | Sintomo | Probabile causa | Risoluzione |
 |---------|-----------------|-------------|
@@ -120,22 +120,28 @@ Repeat the above steps for additional layers or adjust the rasterization paramet
 | Bassa risoluzione | DPI predefinito è basso | Imposta `rasterizationOptions.setResolution(300);` (o valore più alto) prima di salvare. |
 | Formato CAD non supportato | Utilizzo di una versione più vecchia di Aspose.CAD | Aggiorna all'ultima versione di Aspose.CAD per Java. |
 
-## Frequently Asked Questions
+## Domande frequenti
 
-**Q: Posso usare Aspose.CAD per Java con altri linguaggi di programmazione?**  
-A: Aspose.CAD primarily supports Java, but there are .NET, C++, and other language versions available.
+**D: Posso usare Aspose.CAD per Java con altri linguaggi di programmazione?**
+R: Aspose.CAD supporta principalmente Java, ma sono disponibili .NET, C++ e altre versioni linguistiche.
 
-**Q: Dove posso trovare supporto o assistenza aggiuntivi?**  
-A: For any queries or assistance, visit the [Aspose.CAD forum](https://forum.aspose.com/c/cad/19).
+**D: Dove posso trovare supporto o assistenza aggiuntiva?**
+R: Per qualsiasi domanda o assistenza, visitare il [forum Aspose.CAD](https://forum.aspose.com/c/cad/19).
 
-**Q: È disponibile una versione di prova gratuita?**  
-A: Yes, you can explore Aspose.CAD by obtaining a free trial from [here](https://releases.aspose.com/).
+**D: È disponibile una versione di prova gratuita?**
+R: Sì, puoi esplorare Aspose.CAD ottenendo una prova gratuita da [qui](https://releases.aspose.com/).
 
-**Q: Come posso ottenere una licenza temporanea per Aspose.CAD?**  
-A: Acquire a temporary license from [this link](https://purchase.aspose.com/temporary-license/).
+**D: Come posso ottenere una licenza temporanea per Aspose.CAD?**
+R: Acquista una licenza temporanea da [questo collegamento](https://purchase.aspose.com/temporary-license/).
 
-**Q: Ci sono requisiti di sistema specifici per Aspose.CAD per Java?**  
-A: Ensure that you have a compatible Java development environment; refer to the documentation for detailed requirements.
+**D: Ci sono requisiti di sistema specifici per Aspose.CAD per Java?**
+R: Assicurati di avere un ambiente di sviluppo Java compatibile; fare riferimento alla documentazione per i requisiti dettagliati.
+
+---
+
+**Ultimo aggiornamento:** 2025-12-18  
+**Testato con:** Aspose.CAD for Java 24.12 (latest at time of writing)  
+**Autore:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -143,9 +149,3 @@ A: Ensure that you have a compatible Java development environment; refer to the 
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Ultimo aggiornamento:** 2025-12-18  
-**Testato con:** Aspose.CAD for Java 24.12 (latest at time of writing)  
-**Autore:** Aspose

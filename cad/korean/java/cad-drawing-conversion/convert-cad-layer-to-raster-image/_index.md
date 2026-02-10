@@ -136,15 +136,15 @@ A: [이 링크](https://purchase.aspose.com/temporary-license/)에서 임시 라
 **Q: Aspose.CAD for Java에 대한 특정 시스템 요구 사항이 있나요?**  
 A: 호환 가능한 Java 개발 환경을 갖추고 있는지 확인하십시오; 자세한 요구 사항은 문서를 참고하십시오.
 
+---
+
+**마지막 업데이트:** 2025-12-18  
+**테스트 환경:** Aspose.CAD for Java 24.12 (latest at time of writing)  
+**작성자:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**마지막 업데이트:** 2025-12-18  
-**테스트 환경:** Aspose.CAD for Java 24.12 (latest at time of writing)  
-**작성자:** Aspose

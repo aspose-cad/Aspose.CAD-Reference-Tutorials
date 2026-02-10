@@ -137,15 +137,15 @@ A: Erwerben Sie eine temporäre Lizenz über [diesen Link](https://purchase.aspo
 **Q: Gibt es spezifische Systemanforderungen für Aspose.CAD für Java?**  
 A: Stellen Sie sicher, dass Sie eine kompatible Java‑Entwicklungsumgebung haben; siehe die Dokumentation für detaillierte Anforderungen.
 
+---
+
+**Last Updated:** 2025-12-18  
+**Tested With:** Aspose.CAD for Java 24.12 (latest at time of writing)  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-18  
-**Tested With:** Aspose.CAD for Java 24.12 (latest at time of writing)  
-**Author:** Aspose

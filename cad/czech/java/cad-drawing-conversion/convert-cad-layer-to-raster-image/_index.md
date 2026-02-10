@@ -137,15 +137,15 @@ A: Získejte dočasnou licenci z [tohoto odkazu](https://purchase.aspose.com/tem
 **Q: Existují specifické systémové požadavky pro Aspose.CAD pro Java?**  
 A: Ujistěte se, že máte kompatibilní Java vývojové prostředí; podrobné požadavky najdete v dokumentaci.
 
+---
+
+**Poslední aktualizace:** 2025-12-18  
+**Testováno s:** Aspose.CAD for Java 24.12 (nejnovější v době psaní)  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Poslední aktualizace:** 2025-12-18  
-**Testováno s:** Aspose.CAD for Java 24.12 (nejnovější v době psaní)  
-**Autor:** Aspose

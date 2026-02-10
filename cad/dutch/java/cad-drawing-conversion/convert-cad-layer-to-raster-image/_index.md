@@ -16,29 +16,29 @@ weight: 11
 
 # Aspose CAD Java Tutorial: CAD-laag converteren naar rasterafbeeldingsformaat
 
-## Introduction
+## Introductie
 
-In de wereld van Computer‑Aided Design (CAD) is het converteren van individuele CAD‑lagen naar rasterafbeeldingsformaten essentieel voor eenvoudig delen, afdrukken of verdere beeldverwerking. Deze **aspose cad java tutorial** laat zien hoe u **Aspose.CAD for Java** kunt gebruiken om specifieke lagen te extraheren en op te slaan als JPEG (of elk ander rasterformaat). Aan het einde van deze gids begrijpt u waarom conversie op laagniveau belangrijk is, hoe u rasterisatie‑opties configureert en hoe u het resultaat exporteert met slechts een paar regels code.
+In de wereld van Computer‑Aided Design (CAD) zijn het converteren van individuele CAD‑lagen naar rasterafbeeldingsformaten essentieel voor eenvoudig delen, afdrukken of verdere beeldverwerking. Deze **aspose cad java tutorial** laat zien hoe u **Aspose.CAD voor Java** kunt gebruiken om specifieke lagen te extraheren en op te slaan als JPEG (of elk ander rasterformaat). Aan het einde van deze gids begrijpt u waarom conversie op laag niveau belangrijk is, hoe u rasterisatie‑opties configureert en hoe u het resultaat exporteert met slechts een paar regels code.
 
-## Quick Answers
-- **Wat behandelt deze tutorial?** Converteren van geselecteerde CAD‑lagen naar rasterafbeeldingen met Aspose.CAD for Java.  
-- **Welke formaten worden ondersteund?** Elk rasterformaat dat door Aspose wordt ondersteund (JPEG, PNG, BMP, enz.).  
-- **Heb ik een licentie nodig?** Een gratis proefversie werkt voor ontwikkeling; een licentie is vereist voor productie.  
-- **Wat zijn de vereisten?** Java‑ontwikkelomgeving en de Aspose.CAD Java‑bibliotheek.  
+## Snelle antwoorden
+- **Wat heeft deze tutorial besproken?** Converteren van geselecteerde CAD-lagen naar rasterafbeeldingen met Aspose.CAD voor Java.
+- **Welke formaten worden ondersteund?** Elk rasterformaat dat door Aspose wordt ondersteund (JPEG, PNG, BMP, enz.).
+- **Heb ik een licentie nodig?** Een gratis proefversie werkt voor ontwikkeling; een licentie is vereist voor productie.
+- **Wat zijn de vereisten?** Java‑ontwikkelomgeving en de Aspose.CAD Java‑bibliotheek.
 - **Hoe lang duurt de implementatie?** Ongeveer 10–15 minuten voor een basisconversie.
 
-## Prerequisites
+## Vereisten
 
-Voordat u in de code duikt, zorg dat u het volgende heeft:
+Voordat u in de code duikt, zorg dat u de volgende heeft:
 
-- **Java Development Environment** – JDK 8 of hoger geïnstalleerd en geconfigureerd.  
-- **Aspose.CAD Library** – Download en installeer de Aspose.CAD‑bibliotheek voor Java via de [download link](https://releases.aspose.com/cad/java/).  
+- **Java Development Environment** – JDK 8 of hoger geselecteerd en geconfigureerd.
+- **Aspose.CAD Library** – Download en installeer de Aspose.CAD‑bibliotheek voor Java via de [downloadlink](https://releases.aspose.com/cad/java/).
 
-## Import Namespaces
+## Naamruimten importeren
 
-In deze stap importeren we de benodigde klassen om met CAD‑bestanden te gaan werken.
+In deze stap importeren we de vergelijkbare klassen om met CAD-bestanden te gaan werken.
 
-### Import Aspose.CAD Classes
+### Aspose.CAD-klassen importeren
 
 In uw Java‑bronbestand, voeg de vereiste Aspose.CAD‑imports toe:
 
@@ -53,11 +53,11 @@ import java.util.Arrays;
 import java.util.List;
 ```
 
-## Convert CAD Layer to Raster Image Format
+## CAD-laag converteren naar rasterafbeelding
 
 Hieronder vindt u het volledige, stap‑voor‑stap proces. Elke stap wordt in gewone taal uitgelegd vóór het code‑blok, zodat u precies weet wat er gebeurt.
 
-### Step 1: Set Up the CAD File
+### Stap 1: CAD-bestand instellen
 
 Eerst wijst u naar uw CAD‑bestand en laadt het in een `Image`‑object.
 
@@ -68,7 +68,7 @@ String srcFile = dataDir + "conic_pyramid.dxf";
 Image image = Image.load(srcFile);
 ```
 
-### Step 2: Configure Rasterization Options
+### Stap 2: Rasteriseringsopties configureren
 
 Maak een `CadRasterizationOptions`‑instantie aan om de uitvoergrootte en kwaliteit van de afbeelding te definiëren.
 
@@ -78,7 +78,7 @@ rasterizationOptions.setPageWidth(500);
 rasterizationOptions.setPageHeight(500);
 ```
 
-### Step 3: Specify CAD Layers
+### Stap 3: CAD-lagen specificeren
 
 Voeg de laagnamen toe die u wilt rasteriseren. In dit voorbeeld exporteren we de standaardlaag `"0"`.
 
@@ -87,7 +87,7 @@ List<String> stringList = new ArrayList<>(Arrays.asList("0"));
 rasterizationOptions.setLayers(stringList);
 ```
 
-### Step 4: Set Up JPEG Options
+### Stap 4: JPEG-opties instellen
 
 Maak een `JpegOptions`‑object (of andere raster‑afbeeldingsopties) aan en koppel het aan de rasterisatie‑instellingen.
 
@@ -96,7 +96,7 @@ JpegOptions options = new JpegOptions();
 options.setVectorRasterizationOptions(rasterizationOptions);
 ```
 
-### Step 5: Export to JPEG
+### Stap 5: Exporteren naar JPEG
 
 Sla tenslotte de gerasterde laag op als een JPEG‑bestand.
 
@@ -106,21 +106,21 @@ image.save(dataDir + "CADLayersToRasterImageFormats_out_.jpg", options);
 
 Herhaal de bovenstaande stappen voor extra lagen of pas de rasterisatie‑parameters (resolutie, achtergrondkleur, enz.) aan om aan uw specifieke eisen te voldoen.
 
-## Why Use This Approach?
+## Waarom deze aanpak gebruiken?
 
-- **Selectieve export** – Alleen de lagen die u nodig heeft worden gerenderd, waardoor bestandsgrootte en verwerkingstijd afnemen.  
-- **Formaatflexibiliteit** – Wissel `JpegOptions` naar `PngOptions`, `BmpOptions`, enz., zonder de kernlogica te wijzigen.  
-- **Hoge‑kwaliteit rendering** – Aspose.CAD behoudt lijndiktes, kleuren en tekst precies zoals in het originele CAD‑bestand.
+- **Selectieve export** – Alleen de lagen die u nodig heeft worden gerenderd, waardoor de bestandsgrootte en verwerkingstijd afnemen.
+- **Formaatflexibiliteit** – Wissel `JpegOptions` naar `PngOptions`, `BmpOptions`, enz., zonder de kernlogica te wijzigen.
+- **Hoge kwaliteit weergave** – Aspose.CAD produceert lijndiktes, kleuren en tekst precies zoals in het originele CAD-bestand.
 
-## Common Issues & Troubleshooting
+## Veelvoorkomende problemen en probleemoplossing
 
 | Symptoom | Waarschijnlijke oorzaak | Oplossing |
-|----------|--------------------------|-----------|
-| Lege afbeelding | Geen lagen gespecificeerd of verkeerde laagnaam | Controleer of de laagnamen bestaan in het CAD‑bestand; gebruik `image.getLayers()` om ze weer te geven. |
+|----------|------------------------|-----------|
+| Lege afbeelding | Geen lagen ontbreken of verkeerde laagnaam | Controleer of de laagnamen bestaan ​​in het CAD‑bestand; gebruik `image.getLayers()` om weer te geven. |
 | Lage resolutie | Standaard DPI is laag | Stel `rasterizationOptions.setResolution(300);` (of hoger) in vóór het opslaan. |
-| Niet‑ondersteund CAD‑formaat | Gebruik van een oudere Aspose.CAD‑versie | Werk bij naar de nieuwste Aspose.CAD voor Java‑release. |
+| Niet-ondersteund CAD-formaat | Gebruik van een oudere Aspose.CAD‑versie | Werk bij naar de nieuwste Aspose.CAD voor Java‑release. |
 
-## Frequently Asked Questions
+## Veelgestelde vragen
 
 **Q: Kan ik Aspose.CAD voor Java gebruiken met andere programmeertalen?**  
 A: Aspose.CAD ondersteunt voornamelijk Java, maar er zijn ook .NET-, C++- en andere taalversies beschikbaar.
@@ -137,15 +137,15 @@ A: Verkrijg een tijdelijke licentie via [deze link](https://purchase.aspose.com/
 **Q: Zijn er specifieke systeemvereisten voor Aspose.CAD voor Java?**  
 A: Zorg ervoor dat u een compatibele Java‑ontwikkelomgeving heeft; raadpleeg de documentatie voor gedetailleerde vereisten.
 
+---
+
+**Laatst bijgewerkt:** 2025-12-18  
+**Getest met:** Aspose.CAD for Java 24.12 (latest at time of writing)  
+**Auteur:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Laatst bijgewerkt:** 2025-12-18  
-**Getest met:** Aspose.CAD for Java 24.12 (latest at time of writing)  
-**Auteur:** Aspose

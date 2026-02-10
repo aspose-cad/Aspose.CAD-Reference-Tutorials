@@ -16,35 +16,35 @@ weight: 13
 
 # Export DWG to PDF or Raster Using Aspose.CAD for Java
 
-## Introduction
+## Úvod
 
-V dynamickém světě počítačově podporovaného návrhu (CAD) je efektivní práce s výkresy klíčová. S **Aspose.CAD for Java** můžete **export dwg to pdf** — nebo rastrové obrázky — pouze pomocí několika řádků kódu. Tento tutoriál vás provede celým procesem, od načtení souboru DWG až po vytvoření vysoce kvalitního PDF, a zároveň zdůrazní, proč je Aspose.CAD Java preferovanou knihovnou pro úlohy konverze CAD.
+V dynamickém světě počítačově podporovaného návrhu (CAD) je efektivní práce s klíčovými výkresy. S **Aspose.CAD for Java** můžete **exportovat dwg do pdf**—nebo rastrové obrázky—pouze pomocí několika řádků kódu. Tento tutoriál vás provede celým procesem, od načtení souboru DWG až po vytvoření vysoce kvalitního PDF, a zároveň zdůrazní, proč je Aspose.CAD Java preferovanou knihovnou pro úlohy konverze CAD.
 
-## Quick Answers
-- **What does this tutorial cover?** Exporting DWG files to PDF or raster images using Aspose.CAD for Java.  
-- **Do I need a license?** A free temporary license is available for evaluation; a full license is required for production.  
-- **Which Java version is supported?** Any Java 8+ runtime works with the latest Aspose.CAD Java API.  
-- **Can I convert DWG to other image formats?** Yes – the same rasterization options let you output PNG, JPEG, BMP, etc.  
-- **How long does the conversion take?** Typically under a second for standard drawings; larger files may take a few seconds.
+## Rychlé odpovědi
+- **Co pokrývá tento tutoriál?** Export souborů DWG do PDF nebo rastrových obrázků pomocí Aspose.CAD for Java.
+- **Potřebuji licenci?** K vyzkoušení je k dispozici bezplatná dočasná licence; pro výrobu je nutná plná licence.
+- **Která verze Java je podporována?** Jakékoli Java8+ runtime funguje s nejnovějším Java API Aspose.CAD.
+- **Mohu převést DWG do jiných obrazových formátů?** Ano – stejné možnosti rasterizace umožňují výstup PNG, JPEG, BMP atd.
+- **Jak dlouho převod trvá?** U standardních výkresů obvykle do jedné sekundy; větší soubory může trvat několik sekund.
 
-## What is “export dwg to pdf”?
-Exportování DWG do PDF znamená převod nativního výkresu AutoCADu do přenosného, zařízení‑nezávislého PDF dokumentu. Výsledné PDF zachovává vektorová data, vrstvy a měřítko, což je ideální pro sdílení, tisk nebo archivaci.
+## Co je to „export dwg do pdf“?
+Exportování DWG do PDF znamená převod nativního výkresu AutoCADu do přenosného, ​​zařízení-nezávislého PDF dokumentu. výsledné PDF zachovává vektorová data, vrstvy a měřítko, což je ideální pro sdílení, tisk nebo archivaci.
 
-## Why use Aspose.CAD Java for this conversion?
-- **No external dependencies** – pure Java, no native DLLs.  
-- **Accurate unit handling** – automatically respects metric or imperial units.  
-- **High‑quality raster output** – fine‑tuned DPI and page size control.  
-- **Full PDF support** – vector‑preserving PDF generation without additional libraries.
+## Proč používat Aspose.CAD Java pro tuto konverzi?
+- **Žádné externí závislosti** – čistá Java, žádné nativní knihovny DLL.
+- **Přesná manipulace s jednotkami** – automaticky respektuje metrické nebo imperiální jednotky.
+- **Vysoce kvalitní rastrový výstup** – vyladěné DPI a ovládání velikosti stránky.
+- **Plná podpora PDF** – generování PDF se zachováním vektorů bez dalších knihoven.
 
-## Prerequisites
+## Předpoklady
 
-Než se pustíte do kódu, ujistěte se, že máte:
+Než se pustíte do kódu, vyberte se, že máte:
 
-- Základní znalosti programování v Javě.  
-- Nainstalovanou knihovnu Aspose.CAD for Java. Pokud jste ji ještě nestáhli, získáte ji **[here](https://releases.aspose.com/cad/java/)**.  
-- DWG soubor pro testování – v tomto návodu je použita ukázková **Bottom_plate.dwg**.
+- Základní znalosti programování v Javě.
+- Nainstalovaná knihovna Aspose.CAD pro Javu. Pokud jste ji ještě nestáhli, získáte ji **[zde](https://releases.aspose.com/cad/java/)**.
+- DWG pro testování – v tomto návodu je použit soubor ukázková **Bottom_plate.dwg**.
 
-## Import Namespaces
+## Import jmenných prostorů
 
 Ve vašem Java projektu importujte potřebné třídy pro zahájení konverze:
 
@@ -56,9 +56,9 @@ import com.aspose.cad.imageoptions.PdfOptions;
 import com.aspose.cad.imageoptions.UnitType;
 ```
 
-## Step‑by‑Step Guide
+## Podrobný návod
 
-### Step 1: Load the DWG File
+### Krok 1: Načtení souboru DWG
 
 Nejprve načtěte svůj DWG výkres pomocí třídy `Image`. Tím vytvoříte paměťovou reprezentaci, se kterou může Aspose.CAD pracovat.
 
@@ -68,7 +68,7 @@ String srcFile = dataDir + "Bottom_plate.dwg";
 Image objImage = Image.load(srcFile);
 ```
 
-### Step 2: Determine Unit Type
+### Krok 2: Určení typu jednotky
 
 Pochopení, zda výkres používá metrické nebo imperiální jednotky, je nezbytné pro správné měřítko. Pomocná metoda `IsMetric` (implementace vynechána pro stručnost) vrací boolean příznak.
 
@@ -77,7 +77,7 @@ Boolean currentUnitIsMetric = IsMetric(objImage.getUnitType());
 int currentUnitCoefficient = objImage.getUnitType();
 ```
 
-### Step 3: Set Rasterization Options
+### Krok 3: Nastavení možností rastrování
 
 Na základě jednotkového systému nastavte velikost stránky, měřítko a cílový typ jednotek. Tyto možnosti určují, jak bude DWG rasterizován před zabalením do PDF.
 
@@ -99,7 +99,7 @@ if (currentUnitIsMetric) {
 }
 ```
 
-### Step 4: Configure PDF Options
+### Krok 4: Konfigurace možností PDF
 
 Vytvořte instanci `PdfOptions` a připojte nastavení rasterizace. Tím řeknete Aspose.CAD, jak vložit rasterizovaný obsah do finálního PDF.
 
@@ -108,7 +108,7 @@ PdfOptions pdfOptions = new PdfOptions();
 pdfOptions.setVectorRasterizationOptions(new CadRasterizationOptions());
 ```
 
-### Step 5: Save as PDF
+### Krok 5: Uložení jako PDF
 
 Nakonec exportujte výkres do PDF souboru. Metoda `save` přijímá výstupní cestu a nakonfigurované `PdfOptions`.
 
@@ -118,41 +118,43 @@ objImage.save(dataDir + "Saved.pdf", pdfOptions);
 
 Po dokončení kódu najdete **Saved.pdf** ve složce `DWGDrawings`, připravený k distribuci nebo archivaci.
 
-## Common Issues & Tips
+## Běžné problémy a tipy
 
-- **Incorrect page size** – Double‑check the unit conversion logic; mismatched coefficients can produce oversized pages.  
-- **Missing fonts or lineweights** – Ensure the DWG references any external resources before conversion.  
-- **Performance on large drawings** – Increase the `DPI` setting in `CadRasterizationOptions` only when higher quality is required; lower DPI speeds up processing.
+- **Nesprávná velikost stránky** – Zkontrolujte logiku převodu jednotek; neshodné koeficienty mohou vést k nadměrně velkým stránkám.
 
-## Frequently Asked Questions
+- **Chybějící písma nebo tloušťky čar** – Před převodem se ujistěte, že DWG odkazuje na jakékoli externí zdroje.
 
-**Q: Can I use Aspose.CAD for Java with other Java frameworks?**  
-A: Yes, Aspose.CAD for Java seamlessly integrates with popular Java frameworks such as Spring, Jakarta EE, and Android.
+- **Výkon na velkých výkresech** – Zvyšte nastavení `DPI` v `CadRasterizationOptions` pouze tehdy, když je požadována vyšší kvalita; nižší DPI urychluje zpracování.
 
-**Q: Is a temporary license available for Aspose.CAD for Java?**  
-A: Yes, you can obtain a temporary license **[here](https://purchase.aspose.com/temporary-license/)**.
+## Často kladené otázky
 
-**Q: Where can I find support for Aspose.CAD for Java?**  
-A: Visit the **[Aspose.CAD forum](https://forum.aspose.com/c/cad/19)** for assistance from the community and Aspose engineers.
+**Otázka: Mohu používat Aspose.CAD pro Javu s jinými frameworky Java?**
+Odpověď: Ano, Aspose.CAD pro Javu se bezproblémově integruje s oblíbenými frameworky Java, jako jsou Spring, Jakarta EE a Android.
 
-**Q: How can I purchase a license for Aspose.CAD for Java?**  
-A: You can purchase a license **[here](https://purchase.aspose.com/buy)**.
+**Otázka: Je k dispozici dočasná licence pro Aspose.CAD pro Javu?**
+Odpověď: Ano, dočasnou licenci můžete získat **[zde](https://purchase.aspose.com/temporary-license/)**.
 
-**Q: What units does Aspose.CAD for Java support?**  
-A: Aspose.CAD for Java supports both metric and imperial units, automatically detecting the drawing’s unit system.
+**Otázka: Kde najdu podporu pro Aspose.CAD pro Javu?**
+A: Navštivte **[fórum Aspose.CAD](https://forum.aspose.com/c/cad/19)**, kde najdete pomoc od komunity a inženýrů Aspose.
 
-**Q: Can I convert DWG to other image formats (e.g., PNG, JPEG) using the same API?**  
-A: Absolutely. Replace `PdfOptions` with the appropriate raster image options (e.g., `PngOptions`) and reuse the same `CadRasterizationOptions`.
+**Otázka: Jak si mohu zakoupit licenci pro Aspose.CAD pro Javu?**
+A: Licenci si můžete zakoupit **[zde](https://purchase.aspose.com/buy)**.
 
-## Conclusion
+**Otázka: Jaké jednotky Aspose.CAD pro Javu podporuje?**
+A: Aspose.CAD pro Javu podporuje metrické i imperiální jednotky a automaticky detekuje jednotkový systém výkresu.
 
-Tento tutoriál ukázal, jak **export dwg to pdf** a rastrové obrázky pomocí Aspose.CAD for Java. Dodržením krok‑za‑krokem průvodce můžete integrovat spolehlivou CAD konverzi do jakékoli Java aplikace, ať už potřebujete PDF pro dokumentaci nebo rastrové obrázky pro webové zobrazení.
+**Otázka: Mohu převést DWG do jiných obrazových formátů (např. PNG, JPEG) pomocí stejného API?**
+A: Rozhodně. Nahraďte `PdfOptions` příslušnými možnostmi rastrového obrázku (např. `PngOptions`) a znovu použijte stejné `CadRasterizationOptions`.
+
+## Závěr
+
+Tento tutoriál ukázal, jak **export dwg do pdf** a rastrové obrázky pomocí Aspose.CAD for Java. Dodržením kroku‑za‑krokem průvodce můžete integrovat spolehlivou konverzi CAD do jakékoli Java aplikace, buď už potřebujete PDF pro dokumentaci nebo rastrové obrázky pro webové zobrazení.
 
 ---
 
-**Last Updated:** 2025-12-18  
-**Tested With:** Aspose.CAD for Java 24.10  
-**Author:** Aspose  
+**Poslední aktualizace:** 2025-12-18
+**Testováno s:** Aspose.CAD pro Java 24.10
+**Autor:** Aspose 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

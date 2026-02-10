@@ -1,5 +1,5 @@
 ---
-title: How to Use Aspose.CAD for Java: Convert DWT to DXF
+title: How to Use Aspose.CAD for Java - Convert DWT to DXF
 linktitle: Convert DWT to DXF Format Using Java
 second_title: Aspose.CAD Java API
 description: Learn how to use Aspose.CAD for Java to convert DWT to DXF, a quick guide for efficient CAD file manipulation.

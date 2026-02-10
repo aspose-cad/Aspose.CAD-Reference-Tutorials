@@ -16,29 +16,29 @@ weight: 11
 
 # Tutorial Aspose CAD Java: Mengonversi Lapisan CAD ke Format Gambar Raster
 
-## Introduction
+## Perkenalan
 
-Dalam dunia Computer‑Aided Design (CAD), mengonversi lapisan CAD individu ke format gambar raster sangat penting untuk memudahkan berbagi, mencetak, atau pemrosesan gambar lanjutan. **aspose cad java tutorial** ini menunjukkan cara memanfaatkan **Aspose.CAD for Java** untuk mengekstrak lapisan tertentu dan menyimpannya sebagai JPEG (atau format raster lainnya). Pada akhir panduan ini Anda akan memahami mengapa konversi pada tingkat lapisan penting, cara mengonfigurasi opsi rasterisasi, dan cara mengekspor hasilnya dengan hanya beberapa baris kode.
+Di dunia Computer‑Aided Design (CAD), mengkonversi lapisan CAD individu ke format gambar raster sangat penting untuk memudahkan berbagi, mencetak, atau memproses gambar lanjutan. **aspose cad java tutorial** ini menunjukkan cara memanfaatkan **Aspose.CAD for Java** untuk mengekstrak lapisan tertentu dan menyimpannya sebagai JPEG (atau format raster lainnya). Pada akhir panduan ini Anda akan memahami mengapa konversi pada tingkat lapisan penting, cara mengonfigurasi opsi rasterisasi, dan cara mengekspor hasilnya hanya dengan beberapa baris kode.
 
-## Quick Answers
-- **Apa yang dibahas dalam tutorial ini?** Mengonversi lapisan CAD terpilih ke gambar raster menggunakan Aspose.CAD for Java.  
-- **Format apa yang didukung?** Semua format raster yang didukung oleh Aspose (JPEG, PNG, BMP, dll.).  
-- **Apakah saya memerlukan lisensi?** Versi percobaan gratis dapat digunakan untuk pengembangan; lisensi diperlukan untuk produksi.  
-- **Apa prasyaratnya?** Lingkungan pengembangan Java dan perpustakaan Aspose.CAD Java.  
+## Jawaban Cepat
+- **Apa yang dibahas dalam tutorial ini?** Mengonversi lapisan CAD terpilih ke gambar raster menggunakan Aspose.CAD for Java.
+- **Format apa yang didukung?** Semua format raster yang didukung oleh Aspose (JPEG, PNG, BMP, dll.).
+- **Apakah saya memerlukan lisensi?** Versi percobaan gratis dapat digunakan untuk pengembangan; lisensi diperlukan untuk produksi.
+- **Apa pemandangannya?** Lingkungan pengembangan Java dan perpustakaan Aspose.CAD Java.
 - **Berapa lama implementasinya?** Sekitar 10–15 menit untuk konversi dasar.
 
-## Prerequisites
+## Prasyarat
 
 Sebelum masuk ke kode, pastikan Anda memiliki hal‑hal berikut:
 
-- **Java Development Environment** – JDK 8 atau lebih tinggi terpasang dan dikonfigurasi.  
-- **Aspose.CAD Library** – Unduh dan instal perpustakaan Aspose.CAD untuk Java dari [download link](https://releases.aspose.com/cad/java/).  
+- **Java Development Environment** – JDK 8 atau lebih tinggi terpasang dan dikonfigurasi.
+- **Aspose.CAD Library** – Unduh dan instal perpustakaan Aspose.CAD untuk Java dari [link download](https://releases.aspose.com/cad/java/).
 
-## Import Namespaces
+## Impor Namespace
 
 Pada langkah ini, kita akan mengimpor kelas‑kelas yang diperlukan untuk mulai bekerja dengan file CAD.
 
-### Import Aspose.CAD Classes
+### Impor Kelas Aspose.CAD
 
 Di file sumber Java Anda, sertakan impor Aspose.CAD yang dibutuhkan:
 
@@ -53,11 +53,11 @@ import java.util.Arrays;
 import java.util.List;
 ```
 
-## Convert CAD Layer to Raster Image Format
+## Konversi Layer CAD ke Format Gambar Raster
 
 Berikut adalah proses lengkap langkah demi langkah. Setiap langkah dijelaskan dengan bahasa sederhana sebelum blok kode, sehingga Anda tahu persis apa yang terjadi.
 
-### Step 1: Set Up the CAD File
+### Langkah 1: Siapkan File CAD
 
 Pertama, arahkan ke file CAD Anda dan muat ke dalam objek `Image`.
 
@@ -68,7 +68,7 @@ String srcFile = dataDir + "conic_pyramid.dxf";
 Image image = Image.load(srcFile);
 ```
 
-### Step 2: Configure Rasterization Options
+### Langkah 2: Konfigurasi Opsi Rasterisasi
 
 Buat instance `CadRasterizationOptions` untuk menentukan ukuran dan kualitas gambar output.
 
@@ -78,7 +78,7 @@ rasterizationOptions.setPageWidth(500);
 rasterizationOptions.setPageHeight(500);
 ```
 
-### Step 3: Specify CAD Layers
+### Langkah 3: Tentukan Layer CAD
 
 Tambahkan nama lapisan yang ingin Anda rasterisasi. Pada contoh ini kami mengekspor lapisan default `"0"`.
 
@@ -87,7 +87,7 @@ List<String> stringList = new ArrayList<>(Arrays.asList("0"));
 rasterizationOptions.setLayers(stringList);
 ```
 
-### Step 4: Set Up JPEG Options
+### Langkah 4: Atur Opsi JPEG
 
 Buat objek `JpegOptions` (atau opsi gambar raster lainnya) dan hubungkan dengan pengaturan rasterisasi.
 
@@ -96,7 +96,7 @@ JpegOptions options = new JpegOptions();
 options.setVectorRasterizationOptions(rasterizationOptions);
 ```
 
-### Step 5: Export to JPEG
+### Langkah 5: Ekspor ke JPEG
 
 Akhirnya, simpan lapisan yang telah dirasterisasi sebagai file JPEG.
 
@@ -106,36 +106,42 @@ image.save(dataDir + "CADLayersToRasterImageFormats_out_.jpg", options);
 
 Ulangi langkah‑langkah di atas untuk lapisan tambahan atau sesuaikan parameter rasterisasi (resolusi, warna latar belakang, dll.) agar memenuhi kebutuhan spesifik Anda.
 
-## Why Use This Approach?
+## Mengapa Menggunakan Pendekatan Ini?
 
-- **Ekspor Selektif** – Hanya lapisan yang Anda butuhkan yang dirender, mengurangi ukuran file dan waktu pemrosesan.  
-- **Fleksibilitas Format** – Ganti `JpegOptions` dengan `PngOptions`, `BmpOptions`, dll., tanpa mengubah logika inti.  
-- **Rendering Berkualitas Tinggi** – Aspose.CAD mempertahankan ketebalan garis, warna, dan teks persis seperti pada file CAD asli.
+- **Ekspor Selektif** – Hanya lapisan yang Anda butuhkan yang dirender, mengurangi ukuran file dan waktu pemrosesan.
+- **Fleksibilitas Format** – Ganti `JpegOptions` dengan `PngOptions`, `BmpOptions`, dll., tanpa mengubah logika intinya.
+- **Rendering Berkualitas Tinggi** – Aspose.CAD mempertahankan ketebalan garis, warna, dan teks tetap seperti pada file CAD asli.
 
-## Common Issues & Troubleshooting
+## Masalah Umum & Pemecahan Masalah
 
 | Gejala | Penyebab Kemungkinan | Solusi |
 |---------|----------------------|--------|
-| Output gambar kosong | Tidak ada lapisan yang ditentukan atau nama lapisan salah | Verifikasi bahwa nama lapisan ada di file CAD; gunakan `image.getLayers()` untuk menampilkannya. |
+| Keluaran gambar kosong | Tidak ada lapisan yang ditentukan atau nama lapisan salah | Verifikasi bahwa nama lapisan ada di file CAD; gunakan `image.getLayers()` untuk menampilkannya. |
 | Resolusi rendah | DPI default rendah | Setel `rasterizationOptions.setResolution(300);` (atau lebih tinggi) sebelum menyimpan. |
-| Format CAD tidak didukung | Menggunakan versi Aspose.CAD yang lebih lama | Perbarui ke rilis terbaru Aspose.CAD untuk Java. |
+| Format CAD tidak didukung | Menggunakan versi Aspose.CAD yang lebih lama | perbarui ke rilis terbaru Aspose.CAD untuk Java. |
 
-## Frequently Asked Questions
+## Pertanyaan yang Sering Diajukan
 
-**Q: Bisakah saya menggunakan Aspose.CAD untuk Java dengan bahasa pemrograman lain?**  
+**Q: Bisakah saya menggunakan Aspose.CAD untuk Java dengan bahasa pemrograman lain?**
 A: Aspose.CAD terutama mendukung Java, tetapi tersedia versi untuk .NET, C++, dan bahasa lainnya.
 
-**Q: Di mana saya dapat menemukan dukungan atau bantuan tambahan?**  
+**Q: Di mana saya dapat menemukan dukungan atau bantuan tambahan?**
 A: Untuk pertanyaan atau bantuan, kunjungi [forum Aspose.CAD](https://forum.aspose.com/c/cad/19).
 
-**Q: Apakah tersedia versi percobaan gratis?**  
+**Q: Apakah tersedia versi percobaan gratis?**
 A: Ya, Anda dapat menjelajahi Aspose.CAD dengan mendapatkan versi percobaan gratis dari [di sini](https://releases.aspose.com/).
 
-**Q: Bagaimana cara mendapatkan lisensi sementara untuk Aspose.CAD?**  
+**Q: Bagaimana cara mendapatkan lisensi sementara untuk Aspose.CAD?**
 A: Dapatkan lisensi sementara dari [tautan ini](https://purchase.aspose.com/temporary-license/).
 
-**Q: Apakah ada persyaratan sistem khusus untuk Aspose.CAD for Java?**  
+**Q: Apakah ada persyaratan sistem khusus untuk Aspose.CAD untuk Java?**
 A: Pastikan Anda memiliki lingkungan pengembangan Java yang kompatibel; lihat dokumentasi untuk persyaratan detail.
+
+---
+
+**Terakhir Diperbarui:** 2025-12-18  
+**Diuji Dengan:** Aspose.CAD for Java 24.12 (terbaru pada saat penulisan)  
+**Penulis:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -143,9 +149,3 @@ A: Pastikan Anda memiliki lingkungan pengembangan Java yang kompatibel; lihat do
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Terakhir Diperbarui:** 2025-12-18  
-**Diuji Dengan:** Aspose.CAD for Java 24.12 (terbaru pada saat penulisan)  
-**Penulis:** Aspose

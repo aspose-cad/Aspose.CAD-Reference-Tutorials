@@ -137,15 +137,15 @@ A: Ideiglenes licencet a [következő hivatkozáson](https://purchase.aspose.com
 **Q: Vannak speciális rendszerkövetelmények az Aspose.CAD for Java‑hoz?**  
 A: Győződj meg róla, hogy kompatibilis Java fejlesztői környezettel rendelkezel; a részletes követelményekért lásd a dokumentációt.
 
+---
+
+**Utolsó frissítés:** 2025-12-18  
+**Tesztelve:** Aspose.CAD for Java 24.12 (legújabb a kiadás időpontjában)  
+**Szerző:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Utolsó frissítés:** 2025-12-18  
-**Tesztelve:** Aspose.CAD for Java 24.12 (legújabb a kiadás időpontjában)  
-**Szerző:** Aspose

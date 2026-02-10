@@ -136,15 +136,15 @@ image.save(dataDir + "CADLayersToRasterImageFormats_out_.jpg", options);
 **Q: มีข้อกำหนดระบบเฉพาะสำหรับ Aspose.CAD for Java หรือไม่?**  
 **A:** ตรวจสอบว่าคุณมีสภาพแวดล้อมการพัฒนา Java ที่เข้ากันได้; ดูเอกสารสำหรับรายละเอียดข้อกำหนด.
 
+---
+
+**อัปเดตล่าสุด:** 2025-12-18  
+**ทดสอบกับ:** Aspose.CAD for Java 24.12 (latest at time of writing)  
+**ผู้เขียน:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**อัปเดตล่าสุด:** 2025-12-18  
-**ทดสอบกับ:** Aspose.CAD for Java 24.12 (latest at time of writing)  
-**ผู้เขียน:** Aspose

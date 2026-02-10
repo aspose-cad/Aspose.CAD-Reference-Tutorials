@@ -137,15 +137,15 @@ image.save(dataDir + "CADLayersToRasterImageFormats_out_.jpg", options);
 **प्रश्न: Aspose.CAD for Java के लिए कोई विशिष्ट सिस्टम आवश्यकताएँ हैं?**  
 उत्तर: सुनिश्चित करें कि आपके पास संगत जावा डेवलपमेंट एनवायरनमेंट हो; विस्तृत आवश्यकताओं के लिए दस्तावेज़ देखें।
 
+---
+
+**अंतिम अपडेट:** 2025-12-18  
+**परीक्षण किया गया:** Aspose.CAD for Java 24.12 (लेखन समय पर नवीनतम)  
+**लेखक:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**अंतिम अपडेट:** 2025-12-18  
-**परीक्षण किया गया:** Aspose.CAD for Java 24.12 (लेखन समय पर नवीनतम)  
-**लेखक:** Aspose

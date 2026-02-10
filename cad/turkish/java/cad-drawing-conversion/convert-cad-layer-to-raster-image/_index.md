@@ -135,15 +135,15 @@ C: [Bu bağlantıdan](https://purchase.aspose.com/temporary-license/) geçici bi
 **S: Aspose.CAD for Java için belirli sistem gereksinimleri var mı?**  
 C: Uyumluluk sağlayan bir Java geliştirme ortamına sahip olduğunuzdan emin olun; ayrıntılı gereksinimler için belgelere bakın.
 
+---
+
+**Son Güncelleme:** 2025-12-18  
+**Test Edilen:** Aspose.CAD for Java 24.12 (yazım anındaki en son sürüm)  
+**Yazar:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Son Güncelleme:** 2025-12-18  
-**Test Edilen:** Aspose.CAD for Java 24.12 (yazım anındaki en son sürüm)  
-**Yazar:** Aspose

@@ -135,15 +135,15 @@ A: 請從 [this link](https://purchase.aspose.com/temporary-license/) 取得臨�
 **Q: Aspose.CAD for Java 有特定的系統需求嗎？**  
 A: 請確保您擁有相容的 Java 開發環境；詳細需求請參考官方文件。
 
+---
+
+**最後更新：** 2025-12-18  
+**測試環境：** Aspose.CAD for Java 24.12（撰寫時的最新版本）  
+**作者：** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**最後更新：** 2025-12-18  
-**測試環境：** Aspose.CAD for Java 24.12（撰寫時的最新版本）  
-**作者：** Aspose

@@ -137,15 +137,15 @@ Lặp lại các bước trên cho các lớp bổ sung hoặc điều chỉnh c
 **H: Có yêu cầu hệ thống cụ thể nào cho Aspose.CAD for Java không?**  
 Đ: Đảm bảo bạn có môi trường phát triển Java tương thích; tham khảo tài liệu để biết yêu cầu chi tiết.
 
+---
+
+**Cập nhật lần cuối:** 2025-12-18  
+**Đã kiểm tra với:** Aspose.CAD for Java 24.12 (phiên bản mới nhất tại thời điểm viết)  
+**Tác giả:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Cập nhật lần cuối:** 2025-12-18  
-**Đã kiểm tra với:** Aspose.CAD for Java 24.12 (phiên bản mới nhất tại thời điểm viết)  
-**Tác giả:** Aspose
