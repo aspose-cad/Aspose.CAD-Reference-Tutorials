@@ -79,13 +79,6 @@ weight: 23
 ### [Ρύθμιση Μεγέθους Σχεδίου CAD με Τύπο Μονάδας χρησιμοποιώντας Aspose.CAD for Java](./adjusting-cad-drawing-size-using-unit-type/)
 Ανακαλύψτε τη δύναμη του Aspose.CAD for Java στην προσαρμογή μεγεθών σχεδίων CAD χωρίς κόπο. Ακολουθήστε τον βήμα‑βήμα οδηγό μας για ακρίβεια και προσαρμοστικότητα.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Συχνές Ερωτήσεις
 
 **Q: Μπορώ να μετατρέψω αρχεία DWFX που περιέχουν ραστερ εικόνες;**  
@@ -106,3 +99,10 @@ A: Το API ρέει δεδομένα αποδοτικά, αλλά για εξα
 **Τελευταία Ενημέρωση:** 2025-12-22  
 **Δοκιμάστηκε με:** Aspose.CAD for Java 24.11 (τελευταία έκδοση τη στιγμή της συγγραφής)  
 **Συγγραφέας:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -82,13 +82,6 @@ Poznaj płynny proces automatycznego dostosowywania rozmiarów rysunków CAD w J
 ### [Dostosowywanie rozmiaru rysunku CAD przy użyciu typu jednostki w Aspose.CAD for Java](./adjusting-cad-drawing-size-using-unit-type/)
 Odkryj moc Aspose.CAD for Java w łatwym dostosowywaniu rozmiarów rysunków CAD. Skorzystaj z naszego przewodnika krok po kroku, aby uzyskać precyzję i elastyczność.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Najczęściej zadawane pytania
 
 **Q: Czy mogę konwertować pliki DWFX zawierające obrazy rastrowe?**  
@@ -111,3 +104,10 @@ A: API strumieniuje dane efektywnie, ale w przypadku bardzo dużych plików rozw
 **Ostatnia aktualizacja:** 2025-12-22  
 **Testowano z:** Aspose.CAD for Java 24.11 (najnowsza w momencie pisania)  
 **Autor:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

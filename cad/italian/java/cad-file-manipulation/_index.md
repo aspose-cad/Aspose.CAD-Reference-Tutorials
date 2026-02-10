@@ -81,13 +81,6 @@ Scopri il processo fluido di auto‑regolazione delle dimensioni dei disegni CAD
 ### [Regolazione della Dimensione del Disegno CAD Usando il Tipo di Unità con Aspose.CAD per Java](./adjusting-cad-drawing-size-using-unit-type/)
 Scopri la potenza di Aspose.CAD per Java nella regolazione delle dimensioni dei disegni CAD senza sforzo. Segui la nostra guida passo‑per‑passo per precisione e adattabilità.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Domande Frequenti
 
 **D: Posso convertire file DWFX che contengono immagini raster?**  
@@ -110,3 +103,10 @@ R: L'API trasmette i dati in modo efficiente, ma per file estremamente grandi co
 **Ultimo aggiornamento:** 2025-12-22  
 **Testato con:** Aspose.CAD per Java 24.11 (ultima versione al momento della stesura)  
 **Autore:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

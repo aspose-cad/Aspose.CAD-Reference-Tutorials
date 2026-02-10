@@ -81,13 +81,6 @@ Prozkoumejte bezproblémový proces automatického přizpůsobení velikosti CAD
 ### [Úprava velikosti CAD výkresu pomocí typu jednotky s Aspose.CAD for Java](./adjusting-cad-drawing-size-using-unit-type/)
 Objevte sílu Aspose.CAD for Java při snadné úpravě velikosti CAD výkresů. Postupujte podle našeho krok‑za‑krokem průvodce pro přesnost a přizpůsobivost.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Často kladené otázky
 
 **Q: Mohu převést soubory DWFX, které obsahují rastrové obrázky?**  
@@ -110,3 +103,10 @@ A: API efektivně streamuje data, ale pro extrémně velké soubory zvažte zpra
 **Poslední aktualizace:** 2025-12-22  
 **Testováno s:** Aspose.CAD for Java 24.11 (nejnovější v době psaní)  
 **Autor:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -15,41 +15,41 @@ weight: 13
 
 # dwg to pdf java – Aspose.CAD for Java ile PDF'ye Dışa Aktarma
 
-## Introduction
+## Giriiş
 
-Eğer **dwg to pdf java**'yu hızlı ve güvenilir bir şekilde yapmanız gerekiyorsa, doğru yerdesiniz. Bu öğretici, DWG (veya desteklenen herhangi bir CAD formatı) dosyasını Aspose.CAD for Java kullanarak yüksek kalitede bir PDF'e dönüştürmenizi adım adım gösterir. Ortamı kurmaktan PDF çıktısını özelleştirmeye kadar her şeyi ele alacağız, böylece dönüşümü kendi Java uygulamalarınıza güvenle entegre edebilirsiniz.
+**dwg to pdf java**'yu hızlı ve güvenilir bir şekilde yapılması gerekiyorsa, doğru yerdesiniz. Bu öğretici, DWG (veya herhangi bir CAD formatı) çıktısını Aspose.CAD for Java kullanarak yüksek kalitede bir PDF'e dönüştürmenizi adım adım gösterir. Ortamı çalıştıran PDF çıktısını kişiselleştirmeye kadar her şeyi elinizdez, bu sayede kendi Java uygulamalarınızı entegre edebilirsiniz.
 
-## Quick Answers
-- **dwg to pdf java'yi hangi kütüphane yönetir?** Aspose.CAD for Java  
-- **Temel bir dönüşüm ne kadar sürer?** Tipik çizimler için genellikle bir saniyenin altında  
-- **Geliştirme için lisansa ihtiyacım var mı?** Test için ücretsiz deneme çalışır; üretim için lisans gereklidir  
-- **Sayfa boyutunu ve düzenini özelleştirebilir miyim?** Evet – genişlik, yükseklik ve düzenleri ayarlamak için `CadRasterizationOptions` kullanın  
-- **Rasterizasyon gerekli mi?** Aspose.CAD, PDF'ye dışa aktarırken vektör verilerini rasterize eder ve kalite üzerinde kontrol sağlar  
+## Hızlı Yanıtlar
+- **dwg'den pdf'ye java'yi hangi kütüphane yönetir?** Aspose.CAD for Java
+- **Temel bir dönüşüm ne kadar sürer?** Tipik çizimler için genellikle bir saniyenin altında
+- **Geliştirme için lisansa ihtiyacı var mı?** Test için ücretsiz deneme çalışır; üretim için lisans gereklidir
+- **Sayfa krizini ve düzenini özelleştirebilir miyim?** Evet – genişlik, dağılım ve düzenleri ayarlamak için `CadRasterizationOptions` kullanın
+- **Rasterizasyon gerekli mi?** Aspose.CAD, PDF'ye aktarılırken vektör parçaları rasterleştirir ve kalite üzerinde kontrol sağlar
 
-## What is dwg to pdf java?
+## Dwg'den pdf'e java nedir?
 
-Java ortamında bir DWG dosyasını PDF'e dönüştürmek, vektör tabanlı bir CAD çizimini herhangi bir cihazda görüntülenebilen taşınabilir bir belge formatına render etmektir. Aspose.CAD, CAD verilerini yorumlayarak, gerektiğinde rasterize edip, orijinal tasarım sadakatini koruyan bir PDF üretir.
+Java ortamında bir DWG kayıtlarını PDF'e dönüştürmek, vektör tabanlı bir CAD çizimini herhangi bir cihazda görüntülenebilen taşınabilir bir belge formatına dönüştürmektir. Aspose.CAD, CAD'leri yorumlayarak, dosyalarını rasterleştirip, orijinal tasarım sadakatini koruyan bir PDF üretir.
 
-## Why use Aspose.CAD for dwg to pdf java?
+## Neden dwg'den pdf java'ya Aspose.CAD kullanmalısınız?
 
-- **Geniş format desteği** – DWG, DWF, DXF ve birçok diğer CAD türüyle çalışır.  
-- **Harici bağımlılık yok** – Saf Java kütüphanesi, yerel DLL veya COM bileşenleri gerektirmez.  
-- **İnce ayar kontrolü** – Sayfa boyutlarını, rasterizasyon kalitesini ve düzen seçeneklerini ayarlayın.  
-- **Ölçeklenebilir performans** – Toplu işleme veya web servislerinde anlık dönüşümler için uygundur.  
+- **Geniş format desteği** – DWG, DWF, DXF ve diğer birçok CAD türüyle çalışır.
+- **Harici ilişkiler yok** – Saf Java kütüphanesi, yerel DLL veya COM bileşenleri kesilir.
+- **İnce ayar kontrolü** – Sayfa boyutlarını, rasterizasyon standartlarını ve düzen düzenlemelerini ayarlar.
+- **Ölçeklenebilir performans** – Toplu işleme veya web servislerinde anlık dönüşümler için uygundur.
 
-## Prerequisites
+## Önkoşullar
 
 Öğreticiye başlamadan önce aşağıdaki ön koşulların sağlandığından emin olun:
 
 - Aspose.CAD for Java: Java ortamınıza Aspose.CAD kütüphanesinin kurulu olduğundan emin olun. İndirmek için [buraya](https://releases.aspose.com/cad/java/) tıklayın.
 
-- Kaynak Dizini: CAD dosyalarınızın saklandığı bir dizin oluşturun. Sağlanan kod parçacığındaki "Your Document Directory" ifadesini gerçek yol ile değiştirin.
+- Kaynak Dizini: CAD dosyalarının saklandığı bir dizin oluşturur. Sağlanan kod parçasındaki "Belge Dizininiz"in gerçek yolu ile elde edilir.
 
 Şimdi ana adımlara geçelim.
 
-## Import Namespaces
+## Ad Alanlarını İçe Aktar
 
-Java projenizde Aspose.CAD işlevlerini kullanabilmek için gerekli ad alanlarını içe aktarın.
+Java projenizde Aspose.CAD'in kullanılabilmesi için gerekli reklam alanlarını içeri aktarın.
 
 ```java
 import com.aspose.cad.Image;
@@ -62,7 +62,7 @@ import com.aspose.cad.imageoptions.PdfOptions;
 //import com.aspose.cad.imageoptions.TypeOfEntities;
 ```
 
-## Step 1: Load CAD File
+## Adım 1: CAD Dosyasını Yükle
 
 CAD dosyanızı Aspose.CAD `Image` nesnesine yükleyin. `"site.dwf"` ifadesini gerçek CAD dosya adınızla değiştirin.
 
@@ -71,7 +71,7 @@ String fileName = (dataDir + "site.dwf");
 Image image = Image.load(fileName);
 ```
 
-## Step 2: Configure PDF Options
+## Adım 2: PDF Seçeneklerini Yapılandır
 
 PDF dışa aktarma seçeneklerini ayarlayın; sayfa yüksekliği, genişliği ve düzen gibi vektör rasterizasyon ayarlarını içerecek şekilde. Bu adım, **pdf çıktısını özelleştirmenizi** sağlar.
 
@@ -85,7 +85,7 @@ rasterizationOptions.setPageWidth(500);
 rasterizationOptions.setLayouts(new String[] { "Model" });
 ```
 
-## Step 3: Export to PDF
+## Adım 3: PDF'ye Aktar
 
 Oluşturulan PDF dosyasının çıkış yolunu belirtin ve yapılandırılmış PDF seçenekleriyle görüntüyü kaydedin. Bu adım **pdf cad** dosyalarını dağıtıma hazır hâle getirir.
 
@@ -94,58 +94,62 @@ String outPath = dataDir + "site.pdf";
 image.save(outPath, pdfOptions);
 ```
 
-Congratulations! You have successfully exported your CAD file to a PDF using Aspose.CAD for Java.
+Tebrikler! Aspose.CAD for Java kullanarak CAD dosyanızı başarıyla PDF'ye aktardınız.
 
-## Common Issues and Solutions
+## Sık Karşılaşılan Sorunlar ve Çözümler
 
-| Issue | Why it Happens | How to Fix |
+| Sorun | Neden Oluşur | Nasıl Düzeltilir |
+
 |-------|----------------|------------|
-| **Blank pages in PDF** | Rasterization options not set or default size too small | Adjust `setPageWidth` / `setPageHeight` to match the source drawing dimensions |
-| **Low‑quality output** | Default rasterization DPI is low | Use `rasterizationOptions.setResolution(300);` to increase DPI |
-| **Unsupported CAD format** | The file type is not among Aspose.CAD’s supported list | Convert the file to a supported format (e.g., DWG, DWF, DXF) before loading |
 
-## Frequently Asked Questions
+| **PDF'de boş sayfalar** | Rasterleştirme seçenekleri ayarlanmamış veya varsayılan boyut çok küçük | Kaynak çizim boyutlarıyla eşleşecek şekilde `setPageWidth` / `setPageHeight` değerlerini ayarlayın |
 
-### Q1: Aspose.CAD tüm CAD dosya formatlarıyla uyumlu mu?
+| **Düşük kaliteli çıktı** | Varsayılan rasterleştirme DPI'sı düşük | DPI'yı artırmak için `rasterizationOptions.setResolution(300);` kullanın |
 
-A1: Evet, Aspose.CAD geniş bir CAD format yelpazesini destekler ve çeşitli tasarım yazılımlarıyla uyumluluğu garanti eder.
+| **Desteklenmeyen CAD formatı** | Dosya türü Aspose.CAD'in desteklenen listesinde değil | Yüklemeden önce dosyayı desteklenen bir formata (örneğin, DWG, DWF, DXF) dönüştürün |
 
-### Q2: PDF çıktı ayarlarını özelleştirebilir miyim?
+## Sıkça Sorulan Sorular
 
-A2: Kesinlikle. Öğretici, özelleştirme seçeneklerine bir bakış sunar, ancak **rasterize cad pdf** yaparak ihtiyacınıza göre çıktıyı daha da şekillendirebilirsiniz.
+### S1: Aspose.CAD tüm CAD dosya formatlarıyla uyumlu mu?
 
-### Q3: Aspose.CAD için ek destek nereden bulunur?
+C1: Evet, Aspose.CAD geniş bir CAD formatı yelpazesini destekler ve çeşitli tasarım yazılımlarıyla uyumluluğunu garanti eder.
 
-A3: Herhangi bir soru veya sorun için [Aspose.CAD forumunu](https://forum.aspose.com/c/cad/19) ziyaret ederek topluluktan yardım alabilirsiniz.
+### S2: PDF'nin çıktısını özelleştirebilir miyim?
 
-### Q4: Ücretsiz bir deneme sürümü mevcut mu?
+A2: elbette. Öğretici, kişiselleştirme seçeneklerine bir görünüm sunar, ancak **rasterize cad pdf** sayesinde ihtiyacınıza göre çıktıyı daha da şekillendirebilirsiniz.
 
-A4: Evet, Aspose.CAD'in ücretsiz deneme sürümüne [buradan](https://releases.aspose.com/) ulaşabilirsiniz.
+### S3: Aspose.CAD için ek destek Nereden bulunuyor?
 
-### Q5: Aspose.CAD için geçici bir lisans nasıl alınır?
+C3: Herhangi bir soru veya sorun için [Aspose.CAD forumunu](https://forum.aspose.com/c/cad/19) ziyaret ederek topluluktan yardım alabilirsiniz.
 
-A5: Geçici lisanslama için [bu linki](https://purchase.aspose.com/temporary-license/) ziyaret edin.
+### S4: Ücretsiz bir deneme sürümü mevcut mu?
 
-## Additional FAQs
+C4: Evet, Aspose.CAD'in ücretsiz deneme sürümüne [buradan](https://releases.aspose.com/) ulaşabilirsiniz.
 
-**Q: Daha pürüzsüz çizgiler için rasterizasyon modunu nasıl değiştiririm?**  
-A: Kaydetmeden önce `rasterizationOptions.setSmoothingMode(SmoothingMode.AntiAlias);` ayarlayın.
+### S5: Aspose.CAD için geçici bir lisans nasıl alınır?
 
-**Q: Birden fazla CAD dosyasını toplu olarak dışa aktarabilir miyim?**  
-A: Evet—yükleme ve kaydetme mantığını bir döngü içinde sararak aynı `PdfOptions` örneğini yeniden kullanabilirsiniz.
+A5: Geçici lisanslama için [bu link](https://purchase.aspose.com/temporary-license/) ziyaret edin.
 
-**Q: Kütüphane şifre korumalı PDF'leri destekliyor mu?**  
-A: PDF şifreleme Aspose.CAD'in bir parçası değildir; güvenlik eklemek için PDF'i Aspose.PDF ile sonradan işleyebilirsiniz.
+## Ek SSS
 
-## Conclusion
+**Q: Daha düzgün çizgiler için rasterizasyon modunu nasıl değiştiririm?**
+A: Kaydetmeden önce `rasterizationOptions.setSmoothingMode(SmoothingMode.AntiAlias);' ayarlayın.
 
-Bu öğreticide, **dwg to pdf java** kullanarak CAD çizimlerini PDF'e dönüştürme sürecini adım adım inceledik. Bu talimatları izleyerek PDF dışa aktarmayı masaüstü, web veya mikro‑servis mimarilerine kolayca entegre edebilir, rasterizasyon ve düzen üzerinde tam kontrol sağlayabilirsiniz.
+**S: Birden fazla CAD miktarını toplu olarak aktarabilir miyim?**
+A: Evet—yükleme ve kaydetme adamın bir döngüyü içinde sararak aynı `PdfOptions` örneğini yeniden kullanabilirsiniz.
+
+**S: Kütüphanedeki PDF'leri depolanır mı?**
+A: PDF şifreleme Aspose.CAD'in bir parçası değildir; güvenliği seçmek için PDF'i Aspose.PDF ile daha sonra inceleyebilirsiniz.
+
+## Çözüm
+
+Bu öğreticide, **dwg'den pdf'e java** kullanarak CAD çizimlerini PDF'e dönüştürme sürecini adım adım inceledik. Bu talimatları izleyerek PDF uzantısını yedeklemeyi masaüstü, web veya mikro‑servis mimarilerine kolayca entegre edebilir, rasterleştirme ve düzen üzerinde tam kontrol sağlayabilirsiniz.
 
 ---
 
-**Last Updated:** 2025-12-22  
-**Tested With:** Aspose.CAD for Java 24.12  
-**Author:** Aspose  
+**Son Güncelleme:** 2025-12-22
+**Şunlarla Test Edildi:** Java 24.12 için Aspose.CAD
+**Yazar:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

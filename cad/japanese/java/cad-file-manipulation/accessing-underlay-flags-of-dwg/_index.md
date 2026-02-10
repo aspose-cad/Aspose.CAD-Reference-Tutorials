@@ -17,7 +17,7 @@ weight: 11
 
 モダンな CAD ワークフローでは、**DWG ファイルの読み込み** を迅速に行い、アンダーレイの詳細を取得することが一般的な要件です。ビューアの構築、バッチ処理の自動化、GIS 連携のためのメタデータ抽出など、Aspose.CAD for Java を使用すれば、コードファーストでシンプルに実現できます。このチュートリアルでは、**DWG ファイルの読み込み**、エンティティの反復処理、そして多くの開発者が見落としがちなアンダーレイ フラグの取得手順を詳しく解説します。
 
-## Quick Answers
+## クイックアンサー
 - **DWG を開くための主要クラスは何ですか？** `com.aspose.cad.Image.load()` が `CadImage` を返します。  
 - **アンダーレイ情報を保持しているオブジェクトはどれですか？** `CadUnderlay`（`CadDgnUnderlay` などの派生型）。  
 - **開発時にライセンスは必要ですか？** テスト用の無料トライアルで動作しますが、本番環境では商用ライセンスが必要です。  
@@ -39,7 +39,7 @@ weight: 11
 - **Java Development Kit** – JDK 8 以上。  
 - **DWG ファイルが格納されたフォルダー**。コード中の `"Your Document Directory"` を実際のパスに置き換えてください。
 
-## Import Namespaces
+## 名前空間のインポート
 
 ```java
 import com.aspose.cad.Image;
@@ -51,16 +51,18 @@ import com.aspose.cad.fileformats.cad.cadobjects.CadUnderlay;
 import com.aspose.cad.fileformats.cad.cadobjects.UnderlayFlags;
 ```
 
-## Step‑by‑Step Guide
+## ステップバイステップガイド
 
-### Step 1: Set the Resource Directory
+### ステップ 1: リソースディレクトリを設定する
+
 ```java
 // The path to the resource directory.
 String dataDir = "Your Document Directory" + "DWGDrawings/";
 ```
 DWG ファイルが保存されている場所を定義します。専用フォルダーを使用することで、サンプルがクリーンかつポータブルになります。
 
-### Step 2: Load the DWG File
+### ステップ 2: DWG ファイルを読み込む
+
 ```java
 // Input file name and path
 String fileName = dataDir + "BlockRefDgn.dwg";
@@ -70,21 +72,24 @@ CadImage image = (CadImage)Image.load(fileName);
 ```
 ここでは **load dwg file** `BlockRefDgn.dwg` を `CadImage` インスタンスに読み込み、検査できる状態にします。
 
-### Step 3: Iterate Through DWG Entities
+### ステップ 3: DWG エンティティを反復処理する
+
 ```java
 // Go through each entity inside the DWG file
 for(CadBaseEntity entity : image.getEntities())
 ```
 このループはすべてのエンティティ（線、円、ブロック、アンダーレイ）を走査し、必要なものを抽出できるようにします。
 
-### Step 4: Identify CadDgnUnderlay Entities
+### ステップ 4: CadDgnUnderlay エンティティを識別する
+
 ```java
 // Check if entity is of CadDgnUnderlay type
 if (entity instanceof CadDgnUnderlay)
 ```
 `CadDgnUnderlay` オブジェクトのみが対象のアンダーレイ フラグを保持しているため、これらだけをフィルタリングします。
 
-### Step 5: Access Underlay Information
+### ステップ 5: アンダーレイ情報にアクセスする
+
 ```java
 // Access different underlay flags 
 CadUnderlay underlay = (CadUnderlay) entity;
@@ -95,12 +100,13 @@ break;
 ```
 `CadUnderlay` が取得できたら、パス、名前、挿入ポイント、回転、スケール係数、そして可視性やクリッピングなどの描画オプションを示す `UnderlayFlags` 列挙体を読み取ります。
 
-## Common Issues & Tips
+## よくある問題とヒント
+
 - **アンダーレイ パスが null** – DWG が外部ファイルを参照していることを確認してください。参照がない場合はパスが空になります。  
 - **未対応のアンダーレイ タイプ** – 現在 Aspose.CAD は DGN アンダーレイをサポートしていますが、PDF アンダーレイは API 経由ではまだ利用できません。  
 - **ライセンス例外** – 有効なライセンスがない状態で実行すると、エクスポート画像に透かしが付加されます。
 
-## Frequently Asked Questions
+## よくある質問
 
 **Q: Aspose.CAD for Java は他の CAD ファイル形式でも使用できますか？**  
 A: Aspose.CAD は主に DWG 形式に焦点を当てていますが、DXF、DWF など他の CAD 形式もサポートしています。
@@ -119,9 +125,9 @@ A: 詳細情報は [ドキュメント](https://reference.aspose.com/cad/java/) 
 
 ---
 
-**Last Updated:** 2025-12-22  
-**Tested With:** Aspose.CAD 24.12 for Java  
-**Author:** Aspose  
+**最終更新日:** 2025年12月22日
+**テスト環境:** Aspose.CAD 24.12 for Java
+**作成者:** Aspose 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

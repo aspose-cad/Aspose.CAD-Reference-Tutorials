@@ -16,36 +16,36 @@ weight: 13
 
 # Jak wyeksportować rysunek CAD do BMP przy użyciu Aspose.CAD dla Java
 
-## Introduction
+## Wstęp
 
-Jeśli szukasz jasnego, niezawodnego sposobu na **how to export cad** pliki z Java, trafiłeś we właściwe miejsce. Z Aspose.CAD dla Java możesz nie tylko automatycznie dopasowywać rozmiary rysunków, ale także **convert DWG to BMP** w kilku linijkach kodu. Ten samouczek przeprowadzi Cię przez cały proces, od konfiguracji środowiska po wygenerowanie obrazu BMP zachowującego oryginalny układ CAD.
+Jeśli jasnego, odpowiedniego sposobu na **jak wyeksportować pliki cad** z Java, trafiłeś we właściwe miejsce. Z Aspose.CAD dla Java możesz nie tylko automatycznie dopasowywać rozmiary rozmiarów, ale także **konwertuj DWG na BMP** w kilku linijkach kodu. Dziesięć samouczek przeprowadzi Cię przez cały proces, od konfiguracji środowiska po wygenerowaniu obrazu BMP, wprowadzając do systemu CAD.
 
-## Quick Answers
-- **Co oznacza „how to export cad”?** Odnosi się do konwertowania plików CAD (DWG, DXF itp.) do innego formatu, takiego jak BMP, PNG lub PDF.  
-- **Która biblioteka obsługuje konwersję?** Aspose.CAD dla Java udostępnia prostą API do tego zadania.  
-- **Czy potrzebna jest licencja?** Tymczasowa licencja działa w testach; pełna licencja jest wymagana w produkcji.  
-- **Czy mogę wyeksportować wiele układów jednocześnie?** Tak – ustawiając właściwość `Layouts`, możesz określić, które układy mają być renderowane.  
-- **Czy BMP jest jedynym formatem wyjściowym?** Nie – możesz także eksportować do PNG, JPEG, TIFF i innych.
+## Szybkie odpowiedzi
+- **Co oznacza „jak wyeksportować CAD”?** Odnosi się do konwertowania plików CAD (DWG, DXF itp.) do innego formatu, podobnego jak BMP, PNG lub PDF.
+- **Która biblioteka obsługuje konwersję?** Aspose.CAD dla Java udostępnia API do tych zadań.
+- **Czy jest zawodowcem?** Tymczasowa licencjat działa w testach; pełny licencjat jest wymagany w produkcji.
+- **Czy mogę wyeksportować wiele jednocześnie?** Tak – ustawiając konfiguracje „Layouts”, można określić, które układy mają być renderowane.
+- **Czy BMP jest dostępny w formacie podstawowym?** Nie – może także eksportować do PNG, JPEG, TIFF i innych.
 
-## What is “how to export cad” with Aspose.CAD?
-Co oznacza „how to export cad” przy użyciu Aspose.CAD?  
-Eksportowanie CAD oznacza pobranie natywnego rysunku CAD (np. pliku DWG) i przekształcenie go w obraz rastrowy lub inny format wektorowy. Aspose.CAD zajmuje się całą ciężką pracą: parsowaniem struktury CAD, rasteryzacją elementów wektorowych oraz zapisem wyniku w wybranym formacie obrazu.
+## Co to jest „jak eksportować CAD” za pomocą Aspose.CAD?
+Co oznacza „jak wyeksportować cad” przy użyciu Aspose.CAD?
+Eksportowanie CAD oznacza pobranie natywnego rysunku CAD (np. pliku DWG) i przekształcenie go w obraz rastrowy lub inny format wektorowy. Aspose.CAD dotyczy całej pracy: parsowania struktury CAD, rasteryzacji elementów graficznych oraz zapisu wyniku w wymaganym obrazie.
 
-## Why use Aspose.CAD for Java to **convert DWG to BMP**?
-- **Brak zewnętrznych zależności** – czysta Java, bez natywnych DLL.  
-- **Pełne wsparcie dla DWG, DXF, DGN i innych formatów**.  
-- **Precyzyjna kontrola** nad opcjami rasteryzacji, takimi jak wybór układu, skalowanie i kolor tła.  
-- **Wysoka wydajność** odpowiednia do przetwarzania wsadowego na serwerach.
+## Po co używać Aspose.CAD dla Java do **konwersji DWG na BMP**?
+- **Brak zewnętrznych zależności** – czysta Java, bez natywnych bibliotek DLL.
+- **Pełne wsparcie dla DWG, DXF, DGN i innych formatów**.
+- **Precyzyjna kontrola** nad opcją rasteryzacji, aplikacją jak wybór konfiguracji, skalowanie i kolor tła.
+- **Wysoka wydajność** wykorzystania do przetwarzania wsadowego na serwerze.
 
-## Prerequisites
+## Warunki wstępne
 
-Zanim rozpoczniesz, upewnij się, że masz następujące:
+Zanim ustalisz, dowiedz się, że masz następujący:
 
-1. **Java Development Kit** – pobierz go [tutaj](https://www.java.com/en/download/).  
-2. **Biblioteka Aspose.CAD dla Java** – pobierz najnowszy JAR [tutaj](https://releases.aspose.com/cad/java/).  
-3. **Przykładowy plik CAD** – plik DWG (np. `sample.dwg`) umieszczony w katalogu dokumentów Twojego projektu.
+1. **Java Development Kit** – pobierz go [tutaj](https://www.java.com/en/download/).
+2. **Biblioteka Aspose.CAD dla Java** – pobierz najnowszy JAR [tutaj](https://releases.aspose.com/cad/java/).
+3. **Przykładowy plik CAD** – plik DWG (np. `sample.dwg`) przedstawia w katalogu dokumentów swojego projektu.
 
-## Import Namespaces
+## Importuj przestrzenie nazw
 
 W swojej aplikacji Java, dołącz niezbędne przestrzenie nazw, aby korzystać z funkcjonalności Aspose.CAD. Oto przykład:
 
@@ -60,9 +60,9 @@ import com.aspose.cad.imageoptions.PngOptions;
 
 Teraz rozbijmy proces **how to export cad** na przystępne kroki.
 
-## Step‑by‑Step Guide
+## Przewodnik krok po kroku
 
-### Step 1: Load the CAD Drawing
+### Krok 1: Załaduj rysunek CAD
 
 ```java
 String dataDir = "Your Document Directory" + "CADConversion/";
@@ -72,7 +72,7 @@ Image objImage = Image.load(sourceFilePath);
 
 Ładujemy źródłowy plik DWG do obiektu `Image`, który służy jako punkt wejścia dla wszystkich dalszych operacji.
 
-### Step 2: Create `BmpOptions`
+### Krok 2: Utwórz „BmpOptions”
 
 ```java
 BmpOptions bmpOptions = new BmpOptions();
@@ -80,7 +80,7 @@ BmpOptions bmpOptions = new BmpOptions();
 
 `BmpOptions` będzie przechowywać ustawienia rasteryzacji specyficzne dla wyjścia BMP.
 
-### Step 3: Configure Rasterization Settings
+### Krok 3: Skonfiguruj ustawienia rasteryzacji
 
 ```java
 CadRasterizationOptions cadRasterizationOptions = new CadRasterizationOptions();
@@ -89,7 +89,7 @@ bmpOptions.setVectorRasterizationOptions(cadRasterizationOptions);
 
 Tutaj łączymy opcje rasteryzacji z opcjami BMP, co pozwala kontrolować, jak elementy CAD są renderowane.
 
-### Step 4: Set the Layout(s) to Export
+### Krok 4: Ustaw układ(y) do eksportu
 
 ```java
 cadRasterizationOptions.setLayouts(new String[]{"Model"});
@@ -97,7 +97,7 @@ cadRasterizationOptions.setLayouts(new String[]{"Model"});
 
 Właściwość `Layouts` informuje Aspose.CAD, które układy rysunku mają zostać uwzględnione. W większości przypadków, `"Model"` jest głównym układem, który chcesz przekonwertować.
 
-### Step 5: Export to BMP Format
+### Krok 5: Eksport do formatu BMP
 
 ```java
 String outPath = sourceFilePath + ".bmp";
@@ -106,40 +106,40 @@ objImage.save(outPath, bmpOptions);
 
 Wywołanie `save` z skonfigurowanymi `BmpOptions` zapisuje plik BMP na dysku. To kończy przepływ pracy **convert DWG to BMP**.
 
-## Common Issues and Solutions
+## Typowe problemy i rozwiązania
 
 | Problem | Powód | Rozwiązanie |
 |-------|--------|-----|
-| Obraz wyjściowy jest pusty | Nieprawidłowa nazwa układu lub brak układu | Zweryfikuj, czy nazwa układu odpowiada plikowi CAD (np. `"Model"`). |
-| Niska rozdzielczość | Domyślne DPI jest niskie | Ustaw `cadRasterizationOptions.setResolution(300);` przed zapisem. |
-| Błąd braku pamięci przy dużych plikach | Duże rysunki wymagają więcej pamięci heap | Zwiększ rozmiar pamięci JVM (`-Xmx2g`) lub przetwarzaj strony pojedynczo. |
+| Obraz wyjściowy jest pusty | Nieprawidłowa nazwa struktury lub brak konfiguracji | Zweryfikuj, czy nazwa struktury odpowiada plikowi CAD (np. `"Model"). |
+| Niska rozdzielczość | Domyślne DPI jest przełącznikiem | Ustaw `cadRasterizationOptions.setResolution(300);` przed zapisem. |
+| Błąd braku pamięci przy dużych plikach | Duże rysunki wymagają więcej pamięci sterty | Duży rozmiar pamięci JVM (`-Xmx2g`) lub przetwarzaj strony pojedynczo. |
 
-## Frequently Asked Questions
+## Często zadawane pytania
 
-**P: Czy Aspose.CAD jest kompatybilny z różnymi formatami plików CAD?**  
+**P: Czy Aspose.CAD jest odpowiedni z następnymi formatami plików CAD?**
 O: Tak, Aspose.CAD obsługuje DWG, DXF, DGN i wiele innych formatów.
 
-**P: Czy mogę używać Aspose.CAD w projektach komercyjnych?**  
-O: Oczywiście. Kup licencję [tutaj](https://purchase.aspose.com/buy) do użytku produkcyjnego.
+**P: Czy można zastosować Aspose.CAD w projektach komercyjnych?**
+O: Oczywiście. Kupuj [tutaj](https://purchase.aspose.com/buy) do użytku produkcyjnego.
 
-**P: Jak uzyskać tymczasową licencję do testów?**  
-O: Tymczasową licencję możesz uzyskać [tutaj](https://purchase.aspose.com/temporary-license/).
+**P: Jak uzyskać tymczasową odpowiedź do testów?**
+O: Tymczasową możliwość wystąpienia [tutaj](https://purchase.aspose.com/temporary-license/).
 
-**P: Gdzie mogę znaleźć wsparcie społeczności?**  
+**P: Gdzie mogę znaleźć wsparcie społeczności?**
 O: Dołącz do forum społeczności Aspose.CAD pod adresem [forum](https://forum.aspose.com/c/cad/19).
 
-**P: Czy dostępna jest darmowa wersja próbna Aspose.CAD dla Java?**  
-O: Tak, pobierz darmową wersję próbną [tutaj](https://releases.aspose.com/).
+**P: Czy dostępna jest wersja próbna Aspose.CAD dla Java?**
+O: Tak, pobierz bezpłatną wersję próbną [tutaj](https://releases.aspose.com/).
 
-## Conclusion
+## Wniosek
 
 W tym przewodniku pokazaliśmy **how to export cad** pliki z Java oraz **convert DWG to BMP** przy użyciu Aspose.CAD. Postępując zgodnie z pięcioma powyższymi krokami, możesz zintegrować konwersję CAD‑do‑obrazu w dowolnej aplikacji Java, niezależnie od tego, czy jest to narzędzie desktopowe, usługa webowa, czy potok przetwarzania wsadowego. Odkryj inne formaty wyjściowe (PNG, JPEG, PDF), zamieniając klasę opcji, i skorzystaj z bogatego zestawu funkcji Aspose.CAD, aby spełnić wszystkie potrzeby manipulacji CAD.
 
 ---
 
-**Last Updated:** 2025-12-22  
-**Tested With:** Aspose.CAD for Java 24.12  
-**Author:** Aspose  
+**Ostatnia aktualizacja:** 2025-12-22
+**Testowano z:** Aspose.CAD dla Java 24.12
+**Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -16,37 +16,37 @@ weight: 13
 
 # Cara Mengekspor Gambar CAD ke BMP Menggunakan Aspise.CAD untuk Java
 
-## Introduction
+## Perkenalan
 
-Jika Anda mencari cara yang jelas dan dapat diandalkan untuk **how to export cad** file dari Java, Anda berada di tempat yang tepat. Dengan Aspose.CAD for Java Anda tidak hanya dapat menyesuaikan ukuran gambar secara otomatis tetapi juga **convert DWG to BMP** dalam beberapa baris kode. Tutorial ini memandu Anda melalui seluruh proses, mulai dari menyiapkan lingkungan hingga menghasilkan gambar BMP yang mempertahankan tata letak CAD asli.
+Jika Anda mencari cara yang jelas dan dapat diandalkan untuk **cara mengekspor file cad** dari Java, Anda berada di tempat yang tepat. Dengan Aspose.CAD untuk Java Anda tidak hanya dapat menyesuaikan ukuran gambar secara otomatis tetapi juga **mengonversi DWG ke BMP** dalam beberapa baris kode. Tutorial ini memandu Anda melalui seluruh proses, mulai dari menyiapkan lingkungan hingga menghasilkan gambar BMP yang mempertahankan tata letak CAD asli.
 
-## Quick Answers
-- **What does “how to export cad” mean?** Ini merujuk pada mengonversi file CAD (DWG, DXF, dll.) ke format lain seperti BMP, PNG, atau PDF.  
-- **Which library handles the conversion?** Aspose.CAD for Java menyediakan API sederhana untuk tugas ini.  
-- **Do I need a license?** Lisensi sementara cukup untuk pengujian; lisensi penuh diperlukan untuk produksi.  
-- **Can I export multiple layouts at once?** Ya – dengan mengatur properti `Layouts` Anda dapat menentukan layout mana yang akan dirender.  
-- **Is BMP the only output format?** Tidak – Anda juga dapat mengekspor ke PNG, JPEG, TIFF, dan lainnya.
+## Jawaban Cepat
+- **Apa yang dimaksud dengan “cara mengekspor cad”?** Ini merujuk pada mengkonversi file CAD (DWG, DXF, dll.) ke format lain seperti BMP, PNG, atau PDF.
+- **Perpustakaan mana yang menangani konversi?** Aspose.CAD for Java menyediakan API sederhana untuk tugas ini.
+- **Apakah saya memerlukan lisensi?** Lisensi sementara cukup untuk pengujian; lisensi penuh diperlukan untuk produksi.
+- **Dapatkah saya mengekspor beberapa tata letak sekaligus?** Ya – dengan mengatur properti `Layouts` Anda dapat menentukan tata letak mana yang akan dirender.
+- **Apakah BMP satu-satunya format keluaran?** Tidak – Anda juga dapat mengekspor ke PNG, JPEG, TIFF, dan lainnya.
 
-## What is “how to export cad” with Aspose.CAD?
+## Apa itu “cara mengekspor cad” dengan Aspose.CAD?
 Mengekspor CAD berarti mengambil gambar CAD asli (misalnya file DWG) dan merendernya menjadi gambar raster atau format vektor lain. Aspose.CAD menangani semua proses berat: mem-parsing struktur CAD, merasterisasi entitas vektor, dan menulis hasil ke format gambar pilihan Anda.
 
-## Why use Aspose.CAD for Java to **convert DWG to BMP**?
-- **No external dependencies** – murni Java, tanpa DLL native.  
-- **Full support for DWG, DXF, DGN, dan format lainnya**.  
-- **Fine‑grained control** atas opsi rasterisasi seperti pemilihan layout, skala, dan warna latar belakang.  
-- **High performance** cocok untuk pemrosesan batch di server.
+## Mengapa menggunakan Aspose.CAD untuk Java untuk **mengonversi DWG ke BMP**?
+- **Tidak ada ketergantungan eksternal** – murni Java, tanpa DLL asli.
+- **Dukungan penuh untuk DWG, DXF, DGN, dan format lainnya**.
+- **Kontrol halus** atas opsi rasterisasi seperti pemilihan tata letak, skala, dan warna latar belakang.
+- **Kinerja tinggi** cocok untuk pengiriman batch di server.
 
-## Prerequisites
+## Prasyarat
 
 Sebelum Anda mulai, pastikan Anda memiliki hal berikut:
 
-1. **Java Development Kit** – unduh di [here](https://www.java.com/en/download/).  
-2. **Aspose.CAD for Java library** – dapatkan JAR terbaru dari [here](https://releases.aspose.com/cad/java/).  
+1. **Java Development Kit** – unduh di [di sini](https://www.java.com/en/download/).
+2. **Aspose.CAD untuk perpustakaan Java** – dapatkan JAR terbaru dari [di sini](https://releases.aspose.com/cad/java/).
 3. **Sample CAD file** – file DWG (misalnya `sample.dwg`) yang ditempatkan di direktori dokumen proyek Anda.
 
-## Import Namespaces
+## Impor Namespace
 
-Di aplikasi Java Anda, sertakan namespace yang diperlukan untuk memanfaatkan fungsionalitas Aspose.CAD. Berikut contoh:
+Di aplikasi Java Anda, sertakan namespace yang diperlukan untuk memanfaatkan fungsionalitas Aspose.CAD. Berikut contohnya:
 
 ```java
 
@@ -59,9 +59,9 @@ import com.aspose.cad.imageoptions.PngOptions;
 
 Sekarang, mari kita uraikan proses **how to export cad** menjadi langkah‑langkah yang dapat dikelola.
 
-## Step‑by‑Step Guide
+## Panduan Langkah demi Langkah
 
-### Step 1: Load the CAD Drawing
+### Langkah 1: Muat Gambar CAD
 
 ```java
 String dataDir = "Your Document Directory" + "CADConversion/";
@@ -71,7 +71,7 @@ Image objImage = Image.load(sourceFilePath);
 
 Kami memuat file DWG sumber ke dalam objek `Image`, yang berfungsi sebagai titik masuk untuk semua operasi selanjutnya.
 
-### Step 2: Create `BmpOptions`
+### Langkah 2: Buat `BmpOptions`
 
 ```java
 BmpOptions bmpOptions = new BmpOptions();
@@ -79,7 +79,7 @@ BmpOptions bmpOptions = new BmpOptions();
 
 `BmpOptions` akan menyimpan pengaturan rasterisasi khusus untuk output BMP.
 
-### Step 3: Configure Rasterization Settings
+### Langkah 3: Konfigurasi Pengaturan Rasterisasi
 
 ```java
 CadRasterizationOptions cadRasterizationOptions = new CadRasterizationOptions();
@@ -96,7 +96,7 @@ cadRasterizationOptions.setLayouts(new String[]{"Model"});
 
 Properti `Layouts` memberi tahu Aspose.CAD layout gambar mana yang akan disertakan. Dalam kebanyakan kasus, `"Model"` adalah layout utama yang ingin Anda konvers.
 
-### Step 5: Export to BMP Format
+### Langkah 5: Ekspor ke Format BMP
 
 ```java
 String outPath = sourceFilePath + ".bmp";
@@ -105,40 +105,40 @@ objImage.save(outPath, bmpOptions);
 
 Memanggil `save` dengan `BmpOptions` yang telah dikonfigurasi akan menulis file BMP ke disk. Ini menyelesaikan alur kerja **convert DWG to BMP**.
 
-## Common Issues and Solutions
+## Masalah Umum dan Solusinya
 
-| Issue | Reason | Fix |
+| Edisi | Alasan | Perbaiki |
 |-------|--------|-----|
-| Output image is blank | Nama layout salah atau layout tidak ada | Verifikasi nama layout cocok dengan file CAD (mis., `"Model"`). |
-| Low resolution | DPI default terlalu rendah | Set `cadRasterizationOptions.setResolution(300);` sebelum menyimpan. |
-| Out‑of‑memory error for large files | Gambar besar memerlukan lebih banyak heap | Tingkatkan ukuran heap JVM (`-Xmx2g`) atau proses halaman secara terpisah. |
+| Gambar keluaran kosong | Nama layout salah atau layout tidak ada | Verifikasi nama layout cocok dengan file CAD (mis., `"Model"`). |
+| Resolusi rendah | DPI default terlalu rendah | Setel `cadRasterizationOptions.setResolution(300);` sebelum menyimpan. |
+| Kesalahan kehabisan memori untuk file besar | Gambar besar memerlukan lebih banyak heap | Tingkatkan ukuran heap JVM (`-Xmx2g`) atau proses halaman secara terpisah. |
 
-## Frequently Asked Questions
+## Pertanyaan yang Sering Diajukan
 
-**Q: Is Aspose.CAD compatible with different CAD file formats?**  
-A: Yes, Aspose.CAD supports DWG, DXF, DGN, and many other formats.
+**T: Apakah Aspose.CAD kompatibel dengan format file CAD yang berbeda?**
+J: Ya, Aspose.CAD mendukung DWG, DXF, DGN, dan banyak format lainnya.
 
-**Q: Can I use Aspose.CAD for commercial projects?**  
-A: Absolutely. Purchase a license [here](https://purchase.aspose.com/buy) for production use.
+**T: Bisakah saya menggunakan Aspose.CAD untuk proyek komersial?**
+J: Tentu saja. Beli lisensi [di sini](https://purchase.aspose.com/buy) untuk penggunaan produksi.
 
-**Q: How do I obtain a temporary license for testing?**  
-A: You can get a temporary license [here](https://purchase.aspose.com/temporary-license/).
+**T: Bagaimana cara mendapatkan lisensi sementara untuk pengujian?**
+J: Anda bisa mendapatkan lisensi sementara [di sini](https://purchase.aspose.com/temporary-license/).
 
-**Q: Where can I find community support?**  
-A: Join the Aspose.CAD community forum at [forum](https://forum.aspose.com/c/cad/19).
+**T: Di mana saya dapat menemukan dukungan komunitas?**
+J: Bergabunglah dengan forum komunitas Aspose.CAD di [forum](https://forum.aspose.com/c/cad/19).
 
-**Q: Is there a free trial available for Aspose.CAD for Java?**  
-A: Yes, download the free trial [here](https://releases.aspose.com/).
+**T: Apakah ada uji coba gratis yang tersedia untuk Aspose.CAD untuk Java?**
+J: Ya, unduh uji coba gratis [di sini](https://releases.aspose.com/).
 
-## Conclusion
+## Kesimpulan
 
-Dalam panduan ini kami menunjukkan **how to export cad** file dari Java dan **convert DWG to BMP** menggunakan Aspose.CAD. Dengan mengikuti lima langkah di atas, Anda dapat mengintegrasikan konversi CAD‑ke‑gambar ke dalam aplikasi Java apa pun, baik itu alat desktop, layanan web, atau pipeline pemrosesan batch. Jelajahi format output lain (PNG, JPEG, PDF) dengan mengganti kelas opsi, dan manfaatkan set fitur lengkap Aspose.CAD untuk memenuhi semua kebutuhan manipulasi CAD Anda.
+Dalam panduan ini kami menunjukkan **cara mengekspor file CAD** dari Java dan **mengonversi DWG ke BMP** menggunakan Aspose.CAD. Dengan mengikuti lima langkah di atas, Anda dapat mengintegrasikan konversi CAD‑ke‑gambar ke dalam aplikasi Java apa pun, baik itu alat desktop, layanan web, atau pipeline pemrosesan batch. Menjelajahi format output lain (PNG, JPEG, PDF) dengan mengganti kelas opsi, dan memanfaatkan set fitur lengkap Aspose.CAD untuk memenuhi semua kebutuhan manipulasi CAD Anda.
 
 ---
 
-**Last Updated:** 2025-12-22  
-**Tested With:** Aspose.CAD for Java 24.12  
-**Author:** Aspose  
+**Terakhir Diperbarui:** 22-12-2025
+**Diuji Dengan:** Aspose.CAD untuk Java 24.12
+**Penulis:** Beranggapan  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

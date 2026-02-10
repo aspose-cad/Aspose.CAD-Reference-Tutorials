@@ -81,13 +81,6 @@ Utforska den sömlösa processen för automatisk justering av CAD‑ritningsstor
 ### [Justera CAD‑ritningsstorlek med enhetstyp med Aspose.CAD for Java](./adjusting-cad-drawing-size-using-unit-type/)
 Utforska kraften i Aspose.CAD for Java för att enkelt justera CAD‑ritningsstorlekar. Följ vår steg‑för‑steg‑guide för precision och anpassningsförmåga.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Vanliga frågor
 
 **Q: Kan jag konvertera DWFX‑filer som innehåller rasterbilder?**  
@@ -110,3 +103,10 @@ A: API:et strömmar data effektivt, men för extremt stora filer bör du överv�
 **Senast uppdaterad:** 2025-12-22  
 **Testad med:** Aspose.CAD for Java 24.11 (senaste vid skrivtillfället)  
 **Författare:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -79,13 +79,6 @@ DWG 文件可能包含多个布局（纸空间）。列出这些布局可以让�
 ### [Adjusting CAD Drawing Size Using Unit Type with Aspose.CAD for Java](./adjusting-cad-drawing-size-using-unit-type/)
 了解 Aspose.CAD for Java 在调整 CAD 绘图尺寸方面的强大功能。遵循我们的分步指南，实现精确且灵活的尺寸调整。
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## 常见问题
 
 **Q: 我可以转换包含光栅图像的 DWFX 文件吗？**  
@@ -108,3 +101,10 @@ A: API 会高效地流式处理数据，但对于极大的文件，建议分块�
 **最后更新：** 2025-12-22  
 **测试环境：** Aspose.CAD for Java 24.11（撰写时最新）  
 **作者：** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

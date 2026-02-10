@@ -81,13 +81,6 @@ Khám phá quy trình tự động điều chỉnh kích thước bản vẽ CAD
 ### [Điều chỉnh Kích thước Bản vẽ CAD theo Loại Đơn vị với Aspose.CAD for Java](./adjusting-cad-drawing-size-using-unit-type/)
 Khám phá sức mạnh của Aspose.CAD for Java trong việc điều chỉnh kích thước bản vẽ CAD một cách dễ dàng. Theo dõi hướng dẫn từng bước của chúng tôi để đạt độ chính xác và linh hoạt.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Câu hỏi Thường gặp
 
 **Hỏi: Tôi có thể chuyển đổi các tệp DWFX chứa hình ảnh raster không?**  
@@ -110,3 +103,10 @@ Khám phá sức mạnh của Aspose.CAD for Java trong việc điều chỉnh k
 **Cập nhật lần cuối:** 2025-12-22  
 **Đã kiểm tra với:** Aspose.CAD for Java 24.11 (phiên bản mới nhất tại thời điểm viết)  
 **Tác giả:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

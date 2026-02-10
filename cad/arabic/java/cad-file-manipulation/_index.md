@@ -80,13 +80,6 @@ weight: 23
 ### [ضبط حجم رسم CAD باستخدام نوع الوحدة مع Aspose.CAD for Java](./adjusting-cad-drawing-size-using-unit-type/)
 استكشف قوة Aspose.CAD for Java في ضبط أحجام رسومات CAD بسهولة. اتبع دليلنا خطوة بخطوة للدقة والمرونة.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## الأسئلة المتكررة
 
 **س: هل يمكنني تحويل ملفات DWFX التي تحتوي على صور نقطية؟**  
@@ -109,3 +102,10 @@ weight: 23
 **آخر تحديث:** 2025-12-22  
 **تم الاختبار مع:** Aspose.CAD for Java 24.11 (أحدث نسخة وقت الكتابة)  
 **المؤلف:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

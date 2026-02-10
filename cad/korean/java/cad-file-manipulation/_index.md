@@ -80,13 +80,6 @@ Aspose.CAD를 사용하여 Java에서 CAD 도면 크기를 자동으로 조정�
 ### [Aspose.CAD for Java로 단위 유형을 사용한 CAD 도면 크기 조정](./adjusting-cad-drawing-size-using-unit-type/)
 Aspose.CAD for Java의 힘을 활용하여 CAD 도면 크기를 손쉽게 조정하세요. 정성과 적응성을 위한 단계별 가이드를 따라가세요.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## 자주 묻는 질문
 
 **Q: DWFX 파일에 래스터 이미지가 포함된 경우 변환할 수 있나요?**  
@@ -109,3 +102,10 @@ A: API는 데이터를 효율적으로 스트리밍하지만, 매우 큰 파일�
 **마지막 업데이트:** 2025-12-22  
 **테스트 대상:** Aspose.CAD for Java 24.11 (작성 시 최신 버전)  
 **작성자:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

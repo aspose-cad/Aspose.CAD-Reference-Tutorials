@@ -81,13 +81,6 @@ Entdecken Sie den nahtlosen Prozess des automatischen Anpassens von CAD‑Zeichn
 ### [Anpassen der CAD‑Zeichnungsgröße mittels Einheitstyp mit Aspose.CAD für Java](./adjusting-cad-drawing-size-using-unit-type/)
 Entdecken Sie die Leistungsfähigkeit von Aspose.CAD für Java beim mühelosen Anpassen von CAD‑Zeichnungsgrößen. Folgen Sie unserer Schritt‑für‑Schritt‑Anleitung für Präzision und Anpassungsfähigkeit.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Häufig gestellte Fragen
 
 **F: Kann ich DWFX-Dateien konvertieren, diebilder enthalten?**  
@@ -110,3 +103,10 @@ Entdecken Sie die Leistungsfähigkeit von Aspose.CAD für Java beim mühelosen A
 **Zuletzt aktualisiert:** 2025-12-22  
 **Getestet mit:** Aspose.CAD for Java 24.11 (zum Zeitpunkt des Schreibens die neueste)  
 **Autor:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -81,13 +81,6 @@ Ismerje meg a CAD rajzok automatikus méretbeállításának zökkenőmentes fol
 ### [CAD rajz méretének beállítása egységtípus szerint Aspose.CAD for Java-val](./adjusting-cad-drawing-size-using-unit-type/)
 Fedezze fel az Aspose.CAD for Java erejét a CAD rajzméretek egyszerű beállításához. Kövesse lépésről‑lépésre útmutatónkat a precizitás és alkalmazkodóképesség érdekében.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Gyakran Ismételt Kérdések
 
 **Q: Konvertálhatok DWFX fájlokat, amelyek raszter képeket tartalmaznak?**  
@@ -110,3 +103,10 @@ A: Az API hatékonyan streameli az adatokat, de nagyon nagy fájlok esetén érd
 **Utolsó frissítés:** 2025-12-22  
 **Tesztelve:** Aspose.CAD for Java 24.11 (a cikk írásakor legújabb)  
 **Szerző:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

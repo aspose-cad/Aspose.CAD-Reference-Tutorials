@@ -79,13 +79,6 @@ weight: 23
 ### [Adjusting CAD Drawing Size Using Unit Type with Aspose.CAD for Java](./adjusting-cad-drawing-size-using-unit-type/)
 Откройте возможности Aspose.CAD для Java по легкой настройке размеров CAD‑чертежей. Следуйте нашему пошаговому руководству для точности и гибкости.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Часто задаваемые вопросы
 
 **В: Могу ли я конвертировать DWFX‑файлы, содержащие растровые изображения?**  
@@ -108,3 +101,10 @@ weight: 23
 **Последнее обновление:** 2025-12-22  
 **Тестировано с:** Aspose.CAD for Java 24.11 (latest at time of writing)  
 **Автор:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
