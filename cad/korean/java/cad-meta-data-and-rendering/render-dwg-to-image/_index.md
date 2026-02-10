@@ -4,7 +4,7 @@ description: Aspose.CAD for Java를 사용하여 DWG를 PDF로 변환해 CAD에�
   지침에 따라 DWG 레이아웃을 PDF로 내보내고 이미지를 생성합니다.
 linktitle: Render DWG Document to Image with Java
 second_title: Aspose.CAD Java API
-title: 'CAD에서 PDF 생성: Aspose.CAD for Java를 사용한 DWG를 이미지로 변환'
+title: 'CAD에서 PDF 생성 - Aspose.CAD for Java를 사용한 DWG를 이미지로 변환'
 url: /ko/java/cad-meta-data-and-rendering/render-dwg-to-image/
 weight: 11
 ---
@@ -124,15 +124,15 @@ A4: You can acquire a temporary license from [here](https://purchase.aspose.com/
 ### Q5: Aspose.CAD에서 더 많은 렌더링 옵션을 제공하나요?
 A5: Certainly, explore the extensive [documentation](https://reference.aspose.com/cad/java/) for detailed information.
 
+---
+
+**마지막 업데이트:** 2025-12-28  
+**테스트 환경:** Aspose.CAD for Java 24.11  
+**작성자:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**마지막 업데이트:** 2025-12-28  
-**테스트 환경:** Aspose.CAD for Java 24.11  
-**작성자:** Aspose

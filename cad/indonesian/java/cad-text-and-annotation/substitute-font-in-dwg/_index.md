@@ -102,28 +102,6 @@ File yang disimpan kini menggunakan font yang Anda tentukan, dan setiap anotasi 
 | **`Image.load` melempar pengecualian** | Pastikan path file benar dan file tersebut merupakan format DWG/DXF yang didukung. |
 | **Penurunan kinerja pada file besar** | Proses file dalam thread terpisah atau batch untuk menghindari pemblokiran UI. |
 
-## FAQ
-
-### Q1: Bisakah saya mengembalikan substitusi font di file DWG saya?
-
-A1: Ya, Anda dapat mengembalikan substitusi font dengan memuat ulang file DWG asli atau menggunakan fungsi undo dalam perangkat lunak CAD Anda.
-
-### Q2: Apakah ada batasan pada substitusi font di Aspose.CAD untuk Java?
-
-A2: Kemampuan substitusi font tergantung pada font yang tersedia di sistem. Pastikan font yang diinginkan dapat diakses atau pertimbangkan untuk menyematkannya dalam file DWG.
-
-### Q3: Bagaimana saya dapat menangani penyesuaian ukuran font selama substitusi?
-
-A3: Penyesuaian ukuran font dapat dilakukan dengan mengakses properti gaya dalam Aspose.CAD dan mengubah ukuran font sesuai kebutuhan.
-
-### Q4: Bisakah saya mengotomatisasi substitusi font dalam proses batch?
-
-A4: Ya, Aspose.CAD untuk Java mendukung pemrosesan batch. Anda dapat mengotomatisasi substitusi font pada banyak file DWG menggunakan skrip atau pemrograman.
-
-### Q5: Apakah Aspose.CAD untuk Java kompatibel dengan format file CAD terbaru?
-
-A5: Ya, Aspose.CAD untuk Java secara rutin diperbarui untuk mendukung format file CAD terbaru, memastikan kompatibilitas dengan standar industri.
-
 ## Pertanyaan yang Sering Diajukan
 
 **Q: Apakah metode `setPrimaryFontName` memengaruhi hanya entitas teks?**  

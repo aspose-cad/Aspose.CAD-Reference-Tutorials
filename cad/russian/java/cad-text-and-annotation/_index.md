@@ -86,13 +86,6 @@ weight: 21
 ### [Заменить шрифт конкретного стиля в DWG с помощью Aspose.CAD for Java](./substitute-font-of-particular-style-in-dwg/)
 Узнайте, как заменять шрифты в DWG‑файлах с помощью Aspose.CAD for Java. Пошаговое руководство по точной настройке стилей.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Часто задаваемые вопросы
 
 **В: Можно ли использовать эти методы с DWG‑файлами, созданными в более старых версиях AutoCAD?**  
@@ -115,3 +108,10 @@ weight: 21
 **Последнее обновление:** 2025-12-28  
 **Тестировано с:** Aspose.CAD for Java 24.12  
 **Автор:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

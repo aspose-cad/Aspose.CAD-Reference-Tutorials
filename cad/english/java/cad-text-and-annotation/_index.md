@@ -84,13 +84,6 @@ Enhance your CAD designs effortlessly. Learn to substitute fonts in DWG files us
 ### [Substitute Font of a Particular Style in DWG Using Aspose.CAD for Java](./substitute-font-of-particular-style-in-dwg/)
 Learn how to substitute fonts in DWG files using Aspose.CAD for Java. Step‑by‑step guide for customizing styles with precision.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Frequently Asked Questions
 
 **Q: Can I use these methods with DWG files created in older AutoCAD versions?**  
@@ -113,3 +106,10 @@ A: Open the DWG in any viewer that supports the chosen font, or programmatically
 **Last Updated:** 2025-12-28  
 **Tested With:** Aspose.CAD for Java 24.12  
 **Author:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

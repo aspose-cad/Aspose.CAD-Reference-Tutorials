@@ -85,13 +85,6 @@ weight: 21
 ### [استبدال خط نمط معين في DWG باستخدام Aspose.CAD for Java](./substitute-font-of-particular-style-in-dwg/)
 تعلم كيفية استبدال الخطوط في ملفات DWG باستخدام Aspose.CAD for Java. دليل خطوة بخطوة لتخصيص الأنماط بدقة.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## الأسئلة المتكررة
 
 **س: هل يمكنني استخدام هذه الطرق مع ملفات DWG التي تم إنشاؤها في إصدارات AutoCAD القديمة؟**  
@@ -114,3 +107,10 @@ weight: 21
 **آخر تحديث:** 2025-12-28  
 **تم الاختبار مع:** Aspose.CAD for Java 24.12  
 **المؤلف:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

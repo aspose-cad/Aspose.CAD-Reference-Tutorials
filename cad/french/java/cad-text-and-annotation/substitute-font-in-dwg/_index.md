@@ -20,30 +20,30 @@ weight: 11
 
 Si vous devez **charger un fichier DWG en Java** dans vos applications et donner à vos dessins un aspect soigné, remplacer la police est une solution rapide. Avec Aspose.CAD pour Java, vous pouvez remplacer le style de texte par défaut par n'importe quelle police installée sur le système, garantissant que chaque annotation apparaît exactement comme vous l'attendez. Dans ce tutoriel, nous parcourrons l'ensemble du processus — du chargement d'un fichier DWG en Java à l'utilisation de la méthode `setPrimaryFontName` pour changer la police.
 
-## Quick Answers
+## Réponses rapides
 - **Quelle bibliothèque dois-je utiliser ?** Aspose.CAD for Java.
 - **Puis-je charger un fichier DWG en Java ?** Oui, il suffit d'appeler `Image.load()` sur le chemin du DWG.
 - **Quelle méthode change la police ?** `setPrimaryFontName`.
 - **Ai-je besoin d'une licence pour la production ?** Oui, une licence commerciale est requise.
-- **Le traitement par lots est-il possible ?** Absolument – parcourez plusieurs fichiers avec le même code.
+- **Le traitement par lots est-il possible ?** Absolument – ​​parcourez plusieurs fichiers avec le même code.
 
-## What is “load dwg file java”?
+## Qu'est-ce que « charger le fichier DWG Java » ?
 
 Charger un fichier DWG dans un environnement Java signifie lire les données binaires CAD dans un objet `Image` qu'Aspose.CAD peut manipuler. Une fois le fichier chargé, vous avez un accès programmatique complet aux calques, aux styles et aux entités texte.
 
-## Why substitute fonts in a DWG file?
+## Pourquoi remplacer les polices dans un fichier DWG ?
 
-- **Cohérence :** Garantit que tous les collaborateurs voient la même police, quel que soit leur paramétrage local de polices.  
-- **Lisibilité :** Certaines polices CAD par défaut sont difficiles à lire à l'écran ; passer à une police claire comme Arial améliore la clarté.  
-- **Image de marque :** Aligne les dessins techniques avec les guides de style de l'entreprise.
+- **Cohérence :** Garantit que tous les collaborateurs voient la même police, quel que soit leur paramétrage local de politiques.
+- **Lisibilité :** Certaines polices CAD par défaut sont difficiles à lire à l'écran ; passer à une police claire comme Arial améliore la clarté.
+- **Image de marque :** Alignez les dessins techniques avec les guides de style de l'entreprise.
 
-## Prerequisites
+## Prérequis
 
-- **Java Development Kit (JDK)** – toute version récente (8+ recommandée).  
-- **Aspose.CAD for Java** – téléchargez depuis le [site web](https://releases.aspose.com/cad/java/).  
+- **Java Development Kit (JDK)** – toute version récente (8+ recommandée).
+- **Aspose.CAD for Java** – télécharger depuis le [site web](https://releases.aspose.com/cad/java/).
 - **Fichier DWG d'exemple** – un dessin que vous souhaitez modifier (vous pouvez utiliser n'importe quel fichier DWG ou DXF pour les tests).
 
-## Import Namespaces
+## Importer des espaces de noms
 
 Dans votre projet Java, importez les classes nécessaires pour travailler avec Aspose.CAD. Ces importations vous donnent accès au chargement d'images, aux objets spécifiques CAD et à la manipulation des styles.
 
@@ -54,9 +54,9 @@ import com.aspose.cad.fileformats.cad.CadImage;
 import com.aspose.cad.fileformats.cad.cadtables.CadStyleTableObject;
 ```
 
-## Step‑by‑step guide to substitute the font
+## Guide étape par étape pour remplacer la police
 
-### Step 1: Load your DWG file (load dwg file java)
+### Étape 1 : Chargez votre fichier DWG (chargez un fichier DWG avec Java)
 
 Tout d'abord, indiquez à l'API l'emplacement de votre fichier DWG (ou DXF) et chargez-le dans un objet `CadImage`.
 
@@ -70,7 +70,7 @@ CadImage cadImage = (CadImage) Image.load(srcFile);
 
 > **Conseil pro :** Si vous travaillez directement avec des fichiers DWG, remplacez l'extension `.dxf` par `.dwg` dans la variable `srcFile`.
 
-### Step 2: Iterate over the style table and set primary font name
+### Étape 2 : Parcourez la table des styles et définissez le nom de la police principale
 
 Chaque dessin CAD contient une collection d'objets de style. Parcourez-les et utilisez la méthode `setPrimaryFontName` (l'appel d'API qui **définit le nom de la police principale**) pour remplacer la police.
 
@@ -84,7 +84,7 @@ for(Object style : cadImage.getStyles())
 
 Vous pouvez remplacer `"Arial"` par n'importe quelle police installée sur la machine exécutant le code.
 
-### Step 3: Save the modified drawing
+### Étape 3 : Enregistrez le dessin modifié
 
 Après avoir mis à jour la police, écrivez les modifications dans un nouveau fichier DWG (ou écrasez l'original).
 
@@ -94,37 +94,15 @@ cadImage.save(dataDir + "output.dwg", new DwgOptions());
 
 Le fichier enregistré utilise désormais la police que vous avez spécifiée, et toute annotation texte sera rendue avec cette police.
 
-## Common Issues and Solutions
+## Problèmes courants et solutions
 
-| Problème | Solution |
+| Problème | Solutions |
 |----------|----------|
 | **Police non appliquée** | Vérifiez que la police est installée sur le système d'exploitation hôte et que l'orthographe correspond exactement. |
-| **`Image.load` génère une exception** | Assurez-vous que le chemin du fichier est correct et que le fichier est un format DWG/DXF pris en charge. |
-| **Ralentissement des performances sur les gros fichiers** | Traitez les fichiers dans un thread séparé ou en lot pour éviter le blocage de l'interface utilisateur. |
+| **`Image.load` génère une exception** | Assurez-vous que le chemin du fichier est correct et que le fichier est au format DWG/DXF pris en charge. |
+| **Ralentissement des performances sur les gros fichiers** | Traite les fichiers dans un thread séparé ou en lot pour éviter le blocage de l'interface utilisateur. |
 
-## FAQ's
-
-### Q1: Puis-je rétablir les substitutions de police dans mon fichier DWG ?
-
-A1: Oui, vous pouvez rétablir les substitutions de police en rechargeant le fichier DWG original ou en utilisant la fonction d'annulation dans votre logiciel CAD.
-
-### Q2: Existe-t-il des limitations aux substitutions de police dans Aspose.CAD pour Java ?
-
-A2: Les capacités de substitution de police dépendent des polices disponibles sur le système. Assurez-vous que la police souhaitée est accessible ou envisagez de l'intégrer dans le fichier DWG.
-
-### Q3: Comment gérer les ajustements de taille de police lors de la substitution ?
-
-A3: Les ajustements de taille de police peuvent être effectués en accédant aux propriétés de style dans Aspose.CAD et en modifiant la taille de la police en conséquence.
-
-### Q4: Puis-je automatiser la substitution de police dans un processus par lots ?
-
-A4: Oui, Aspose.CAD pour Java prend en charge le traitement par lots. Vous pouvez automatiser les substitutions de police sur plusieurs fichiers DWG à l'aide de scripts ou de programmation.
-
-### Q5: Aspose.CAD pour Java est-il compatible avec les derniers formats de fichiers CAD ?
-
-A5: Oui, Aspose.CAD pour Java est régulièrement mis à jour pour prendre en charge les derniers formats de fichiers CAD, assurant la compatibilité avec les normes de l'industrie.
-
-## Frequently Asked Questions
+## Questions fréquemment posées
 
 **Q : La méthode `setPrimaryFontName` affecte-t-elle uniquement les entités texte ?**  
 R : Elle met à jour la police principale pour la table de styles, ce qui influence à son tour tous les objets texte qui font référence à ce style.

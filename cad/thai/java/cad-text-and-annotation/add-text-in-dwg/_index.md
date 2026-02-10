@@ -53,20 +53,20 @@ import com.aspose.cad.imageoptions.PdfOptions;
 
 ต่อไปนี้เราจะอธิบายส่วนของโค้ดที่ให้ไว้เป็นหลายขั้นตอน:
 
-## Step 1: Set up Document Directory and DWG File Path
+## ขั้นตอนที่ 1: ตั้งค่าไดเร็กทอรีเอกสารและเส้นทางไฟล์ DWG
 
 ```java
 String dataDir = "Your Document Directory" + "DWGDrawings/";
 String dwgPathToFile = dataDir + "SimpleEntites.dwg";
 ```
 
-## Step 2: Load DWG Image
+## ขั้นตอนที่ 2: โหลดภาพ DWG
 
 ```java
 Image image = Image.load(dwgPathToFile);
 ```
 
-## Step 3: Create CadText Object (Add Text to DWG)
+## ขั้นตอนที่ 3: สร้างวัตถุ CadText (เพิ่มข้อความลงใน DWG)
 
 ```java
 CadText cadText = new CadText();
@@ -80,20 +80,20 @@ cadText.setTextHeight(0.8);          // set text height in DWG units
 cadText.setScaleX(0);
 ```
 
-## Step 4: Add Text to CadImage (Insert Annotation)
+## ขั้นตอนที่ 4: เพิ่มข้อความลงใน CadImage (แทรกคำอธิบายประกอบ)
 
 ```java
 CadImage cadImage = ((CadImage)(image));
 cadImage.getBlockEntities().get_Item("*Model_Space").addEntity(cadText);
 ```
 
-## Step 5: Set Up PDF Options (Prepare to create PDF from DWG)
+## ขั้นตอนที่ 5: ตั้งค่าตัวเลือก PDF (เตรียมสร้าง PDF จาก DWG)
 
 ```java
 PdfOptions pdfOptions = new PdfOptions();
 ```
 
-## Step 6: Configure CadRasterizationOptions (Control PDF rendering)
+## ขั้นตอนที่ 6: กำหนดค่า CadRasterizationOptions (ควบคุมการแสดงผล PDF)
 
 ```java
 CadRasterizationOptions cadRasterizationOptions = new CadRasterizationOptions();
@@ -104,7 +104,7 @@ cadRasterizationOptions.setPageWidth(1600);
 cadRasterizationOptions.setLayouts(new String[] {"Model"});
 ```
 
-## Step 7: Save the Modified DWG as PDF (dwg to pdf java)
+## ขั้นตอนที่ 7: บันทึก DWG ที่แก้ไขแล้วเป็น PDF (dwg to pdf java)
 
 ```java
 image.save(dataDir + "SimpleEntites_generated.dwg.pdf", pdfOptions);
@@ -129,19 +129,19 @@ image.save(dataDir + "SimpleEntites_generated.dwg.pdf", pdfOptions);
 
 ## คำถามที่พบบ่อย
 
-**Q: Is Aspose.CAD compatible with all versions of DWG files?**  
-A: Aspose.CAD รองรับหลายเวอร์ชันของไฟล์ DWG, ทำให้เข้ากันได้กับซอฟต์แวร์ CAD หลากหลายประเภท.
+**ถาม: Aspose.CAD เข้ากันได้กับไฟล์ DWG ทุกเวอร์ชันหรือไม่**
+ตอบ: Aspose.CAD รองรับไฟล์ DWG หลายไฟล์, ต้องการข้อมูลเพิ่มเติม CAD หลากหลายประเภท
 
-**Q: Can I customize the font and formatting of the added text?**  
-A: ใช่, คุณสามารถปรับแต่งฟอนต์, สไตล์, และตัวเลือกการจัดรูปแบบอื่น ๆ ของข้อความที่เพิ่มในไฟล์ DWG ด้วย Aspose.CAD.
+**ถาม: ฉันสามารถปรับแต่งแบบอักษรและการจัดรูปแบบของข้อความที่เพิ่มเข้ามาได้หรือไม่**
+ตอบ: พิสูจน์, ปรับแต่งฟอนต์, หลายรูปแบบ, และปรับแต่งรูปแบบอื่นๆ ของข้อความที่เพิ่มในไฟล์ DWG ด้วย Aspose.CAD.
 
-**Q: Is there a free trial available for Aspose.CAD for Java?**  
-A: ใช่, คุณสามารถสำรวจคุณสมบัติของ Aspose.CAD โดยรับการทดลองใช้ฟรีจาก [here](https://releases.aspose.com/).
+**ถาม: Aspose.CAD สำหรับ Java มีรุ่นทดลองใช้ฟรีหรือไม่**
+ตอบ: ลองตรวจสอบคุณสมบัติ Aspose.CAD โดยรับความรู้สึกฟรีจาก [ที่นี่](https://releases.aspose.com/)
 
-**Q: Where can I find detailed documentation for Aspose.CAD for Java?**  
-A: ดูเอกสาร [here](https://reference.aspose.com/cad/java/) เพื่อรับข้อมูลเชิงลึกและตัวอย่าง.
+**ถาม: ฉันจะหาเอกสารโดยละเอียดสำหรับ Aspose.CAD สำหรับ Java ได้ที่ไหน**
+ตอบ: ดูเอกสาร [ที่นี่](https://reference.aspose.com/cad/java/) เพื่อรับสิทธิ์และตัวอย่าง
 
-**Q: How can I get support or seek help with Aspose.CAD?**  
+**ถาม: ฉันจะรับการสนับสนุนหรือขอความช่วยเหลือเกี่ยวกับ Aspose.CAD ได้อย่างไร**  
 A: เยี่ยมชม [Aspose.CAD forum](https://forum.aspose.com/c/cad/19) เพื่อรับความช่วยเหลือและเชื่อมต่อกับชุมชน.
 
 ---

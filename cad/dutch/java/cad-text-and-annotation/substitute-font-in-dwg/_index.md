@@ -103,28 +103,6 @@ Het opgeslagen bestand gebruikt nu het door u opgegeven lettertype, en elke teks
 
 ## Veelgestelde vragen
 
-### V1: Kan ik lettertype‑vervangingen in mijn DWG‑bestand terugdraaien?
-
-A1: Ja, u kunt lettertype‑vervangingen terugdraaien door het originele DWG‑bestand opnieuw te laden of de ongedaan‑maakfunctionaliteit in uw CAD‑software te gebruiken.
-
-### V2: Zijn er beperkingen aan lettertype‑vervangingen in Aspose.CAD voor Java?
-
-A2: De mogelijkheden voor lettertype‑vervanging hangen af van de lettertypen die beschikbaar zijn in het systeem. Zorg ervoor dat het gewenste lettertype toegankelijk is of overweeg het in te sluiten in het DWG‑bestand.
-
-### V3: Hoe kan ik aanpassingen van de lettergrootte behandelen tijdens vervanging?
-
-A3: Aanpassingen van de lettergrootte kunnen worden gedaan door de stijl‑eigenschappen binnen Aspose.CAD te benaderen en de lettergrootte dienovereenkomstig aan te passen.
-
-### V4: Kan ik lettertype‑vervanging automatiseren in een batchproces?
-
-A4: Ja, Aspose.CAD voor Java ondersteunt batchverwerking. U kunt lettertype‑vervangingen over meerdere DWG‑bestanden automatiseren met scripting of programmeren.
-
-### V5: Is Aspose.CAD voor Java compatibel met de nieuwste CAD‑bestandsformaten?
-
-A5: Ja, Aspose.CAD voor Java wordt regelmatig bijgewerkt om de nieuwste CAD‑bestandsformaten te ondersteunen, waardoor compatibiliteit met industriestandaarden wordt gegarandeerd.
-
-## Veelgestelde vragen
-
 **V: Heeft de `setPrimaryFontName`‑methode alleen invloed op textelementen?**  
 A: Het werkt het primaire lettertype van de stijltabel bij, wat op zijn beurt alle textelementen beïnvloedt die naar die stijl verwijzen.
 

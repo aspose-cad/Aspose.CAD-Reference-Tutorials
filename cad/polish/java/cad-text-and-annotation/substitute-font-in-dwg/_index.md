@@ -102,28 +102,6 @@ Zapisany plik używa teraz wskazanej czcionki, a wszystkie adnotacje tekstowe b�
 | **`Image.load` zgłasza wyjątek** | Upewnij się, że ścieżka do pliku jest prawidłowa i że plik jest w obsługiwanym formacie DWG/DXF. |
 | **Spowolnienie przy dużych plikach** | Przetwarzaj pliki w osobnym wątku lub partiami, aby uniknąć blokowania interfejsu użytkownika. |
 
-## FAQ
-
-### P1: Czy mogę przywrócić pierwotne czcionki w moim pliku DWG?
-
-Odp: Tak, możesz przywrócić czcionki, ponownie wczytując oryginalny plik DWG lub korzystając z funkcji cofania w swoim oprogramowaniu CAD.
-
-### P2: Czy istnieją ograniczenia dotyczące zamiany czcionek w Aspose.CAD dla Javy?
-
-Odp: Możliwości zamiany czcionek zależą od czcionek dostępnych w systemie. Upewnij się, że żądana czcionka jest dostępna lub rozważ osadzenie jej w pliku DWG.
-
-### P3: Jak mogę dostosować rozmiar czcionki podczas zamiany?
-
-Odp: Rozmiar czcionki można zmienić, uzyskując dostęp do właściwości stylu w Aspose.CAD i modyfikując odpowiednio rozmiar czcionki.
-
-### P4: Czy mogę zautomatyzować zamianę czcionek w procesie wsadowym?
-
-Odp: Tak, Aspose.CAD dla Javy obsługuje przetwarzanie wsadowe. Możesz automatyzować zamianę czcionek w wielu plikach DWG przy użyciu skryptów lub programowania.
-
-### P5: Czy Aspose.CAD dla Javy jest kompatybilny z najnowszymi formatami plików CAD?
-
-Odp: Tak, Aspose.CAD dla Javy jest regularnie aktualizowany, aby obsługiwać najnowsze formaty CAD, zapewniając zgodność ze standardami branżowymi.
-
 ## Najczęściej zadawane pytania
 
 **P: Czy metoda `setPrimaryFontName` wpływa tylko na obiekty tekstowe?**  

@@ -93,13 +93,6 @@ CAD 디자인을 손쉽게 향상시키세요. Aspose.CAD for Java를 사용하�
 ### [Aspose.CAD for Java를 사용하여 DWG 특정 스타일의 글꼴 교체하기](./substitute-font-of-particular-style-in-dwg/)
 Aspose.CAD for Java를 활용해 DWG 파일의 글꼴을 교체하는 방법을 배웁니다. 정밀한 스타일 커스터마이징을 위한 단계별 가이드입니다.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## 자주 묻는 질문
 
 **Q: 오래된 AutoCAD 버전으로 만든 DWG 파일에도 이 방법을 사용할 수 있나요?**  
@@ -122,3 +115,10 @@ A: 선택한 글꼴을 지원하는 뷰어로 DWG를 열거나, 프로그래밍 
 **Last Updated:** 2025-12-28  
 **Tested With:** Aspose.CAD for Java 24.12  
 **Author:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

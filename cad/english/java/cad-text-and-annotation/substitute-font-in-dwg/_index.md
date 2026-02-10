@@ -100,28 +100,6 @@ The saved file now uses the font you specified, and any text annotation will ren
 | **`Image.load` throws an exception** | Ensure the file path is correct and that the file is a supported DWG/DXF format. |
 | **Performance slowdown on large files** | Process files in a separate thread or batch them to avoid UI blocking. |
 
-## FAQ's
-
-### Q1: Can I revert font substitutions in my DWG file?
-
-A1: Yes, you can revert font substitutions by reloading the original DWG file or using the undo functionality within your CAD software.
-
-### Q2: Are there any limitations to font substitutions in Aspose.CAD for Java?
-
-A2: Font substitution capabilities depend on the fonts available in the system. Ensure the desired font is accessible or consider embedding it in the DWG file.
-
-### Q3: How can I handle font size adjustments during substitution?
-
-A3: Font size adjustments can be made by accessing the style properties within Aspose.CAD and modifying the font size accordingly.
-
-### Q4: Can I automate font substitution in a batch process?
-
-A4: Yes, Aspose.CAD for Java supports batch processing. You can automate font substitutions across multiple DWG files using scripting or programming.
-
-### Q5: Is Aspose.CAD for Java compatible with the latest CAD file formats?
-
-A5: Yes, Aspose.CAD for Java is regularly updated to support the latest CAD file formats, ensuring compatibility with industry standards.
-
 ## Frequently Asked Questions
 
 **Q: Does the `setPrimaryFontName` method affect only text entities?**  

@@ -5,7 +5,7 @@ description: Aprenda como criar PDF a partir de CAD convertendo DWG para PDF usa
   PDF e gerar imagens.
 linktitle: Render DWG Document to Image with Java
 second_title: Aspose.CAD Java API
-title: 'Criar PDF a partir de CAD: DWG para Imagem com Aspose.CAD para Java'
+title: 'Criar PDF a partir de CAD - DWG para Imagem com Aspose.CAD para Java'
 url: /pt/java/cad-meta-data-and-rendering/render-dwg-to-image/
 weight: 11
 ---
@@ -131,15 +131,15 @@ A4: Você pode adquirir uma licença temporária [aqui](https://purchase.aspose.
 
 A5: Certamente, explore a extensa [documentação](https://reference.aspose.com/cad/java/) para informações detalhadas.
 
+---
+
+**Última atualização:** 2025-12-28  
+**Testado com:** Aspose.CAD for Java 24.11  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Última atualização:** 2025-12-28  
-**Testado com:** Aspose.CAD for Java 24.11  
-**Autor:** Aspose

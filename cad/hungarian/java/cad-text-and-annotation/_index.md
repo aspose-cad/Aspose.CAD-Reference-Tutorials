@@ -86,13 +86,6 @@ Fejlessze CAD terveit egyszerűen. Tanulja meg, hogyan cserélhet betűtípusoka
 ### [Egy adott stílus betűtípusának cseréje DWG-ben az Aspose.CAD for Java‑val](./substitute-font-of-particular-style-in-dwg/)
 Ismerje meg, hogyan cserélhet betűtípusokat DWG fájlokban az Aspose.CAD for Java‑val. Lépésről‑lépésre útmutató a stílusok precíz testreszabásához.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Gyakran Ismételt Kérdések
 
 **Q: Használhatom ezeket a módszereket DWG fájlokkal, amelyeket régebbi AutoCAD verziók hoztak létre?**  
@@ -115,3 +108,10 @@ A: Nyissa meg a DWG‑t bármely olyan megjelenítőben, amely támogatja a kiv�
 **Last Updated:** 2025-12-28  
 **Tested With:** Aspose.CAD for Java 24.12  
 **Author:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -5,7 +5,7 @@ description: Tudja meg, hogyan lehet PDF-et készíteni CAD-ből a DWG PDF-re ko
   elrendezés PDF-be exportálásához és képek generálásához.
 linktitle: Render DWG Document to Image with Java
 second_title: Aspose.CAD Java API
-title: 'PDF létrehozása CAD-ból: DWG képpé konvertálása az Aspose.CAD for Java használatával'
+title: 'PDF létrehozása CAD-ból - DWG képpé konvertálása az Aspose.CAD for Java használatával'
 url: /hu/java/cad-meta-data-and-rendering/render-dwg-to-image/
 weight: 11
 ---
@@ -131,15 +131,15 @@ A4: Ideiglenes licencet szerezhetsz [innen](https://purchase.aspose.com/temporar
 
 A5: Természetesen, tekintsd meg a részletes [dokumentációt](https://reference.aspose.com/cad/java/) a részletes információkért.
 
+---
+
+**Last Updated:** 2025-12-28  
+**Tested With:** Aspose.CAD for Java 24.11  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-28  
-**Tested With:** Aspose.CAD for Java 24.11  
-**Author:** Aspose

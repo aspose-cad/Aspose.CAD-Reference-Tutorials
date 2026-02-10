@@ -102,28 +102,6 @@ Die gespeicherte Datei verwendet nun die von Ihnen angegebene Schriftart, und je
 | **`Image.load` wirft eine Ausnahme** | Stellen Sie sicher, dass der Dateipfad korrekt ist und die Datei ein unterstütztes DWG/DXF‑Format hat. |
 | **Leistungsabfall bei großen Dateien** | Verarbeiten Sie Dateien in einem separaten Thread oder stapeln Sie sie, um UI‑Blockierungen zu vermeiden. |
 
-## FAQ's
-
-### Q1: Kann ich Schriftart‑Ersetzungen in meiner DWG‑Datei rückgängig machen?
-
-A1: Ja, Sie können Schriftart‑Ersetzungen rückgängig machen, indem Sie die ursprüngliche DWG‑Datei erneut laden oder die Undo‑Funktion Ihrer CAD‑Software verwenden.
-
-### Q2: Gibt es Einschränkungen bei Schriftart‑Ersetzungen in Aspose.CAD für Java?
-
-A2: Die Möglichkeiten zur Schriftart‑Ersetzung hängen von den im System verfügbaren Schriftarten ab. Stellen Sie sicher, dass die gewünschte Schriftart zugänglich ist, oder erwägen Sie, sie in die DWG‑Datei einzubetten.
-
-### Q3: Wie kann ich während der Ersetzung die Schriftgröße anpassen?
-
-A3: Schriftgrößen können angepasst werden, indem Sie auf die Stileigenschaften in Aspose.CAD zugreifen und die Schriftgröße entsprechend ändern.
-
-### Q4: Kann ich die Schriftart‑Ersetzung in einem Batch‑Prozess automatisieren?
-
-A4: Ja, Aspose.CAD für Java unterstützt Batch‑Verarbeitung. Sie können Schriftart‑Ersetzungen über mehrere DWG‑Dateien hinweg mittels Skripting oder Programmierung automatisieren.
-
-### Q5: Ist Aspose.CAD für Java mit den neuesten CAD‑Dateiformaten kompatibel?
-
-A5: Ja, Aspose.CAD für Java wird regelmäßig aktualisiert, um die neuesten CAD‑Dateiformate zu unterstützen und die Kompatibilität mit Industriestandards sicherzustellen.
-
 ## Häufig gestellte Fragen
 
 **F: Wirkt die Methode `setPrimaryFontName` nur auf Textelemente?**  

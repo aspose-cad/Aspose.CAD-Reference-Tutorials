@@ -86,13 +86,6 @@ Améliorez vos conceptions CAD sans effort. Apprenez à remplacer les polices da
 ### [Remplacer la police d’un style particulier dans un DWG avec Aspose.CAD for Java](./substitute-font-of-particular-style-in-dwg/)
 Apprenez comment remplacer les polices dans les fichiers DWG en utilisant Aspose.CAD for Java. Guide étape par étape pour personnaliser les styles avec précision.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Questions fréquentes
 
 **Q : Puis‑je utiliser ces méthodes avec des fichiers DWG créés dans d’anciennes versions d’AutoCAD ?**  
@@ -115,3 +108,10 @@ A : Ouvrez le DWG dans n’importe quel visualiseur qui prend en charge la pol
 **Dernière mise à jour :** 2025-12-28  
 **Testé avec :** Aspose.CAD for Java 24.12  
 **Auteur :** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

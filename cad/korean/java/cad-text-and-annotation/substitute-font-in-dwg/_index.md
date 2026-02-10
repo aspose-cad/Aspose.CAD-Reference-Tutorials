@@ -101,28 +101,6 @@ cadImage.save(dataDir + "output.dwg", new DwgOptions());
 | **`Image.load` throws an exception** | 파일 경로가 올바른지, 지원되는 DWG/DXF 형식인지 확인합니다. |
 | **Performance slowdown on large files** | 별도 스레드에서 처리하거나 배치 작업으로 UI 차단을 방지합니다. |
 
-## FAQ
-
-### Q1: DWG 파일에서 글꼴 교체를 되돌릴 수 있나요?
-
-A1: 예, 원본 DWG 파일을 다시 로드하거나 CAD 소프트웨어 내의 실행 취소 기능을 사용하면 됩니다.
-
-### Q2: Aspose.CAD for Java에서 글꼴 교체에 제한이 있나요?
-
-A2: 글꼴 교체 기능은 시스템에 설치된 글꼴에 따라 달라집니다. 원하는 글꼴이 접근 가능하도록 설치하거나 DWG 파일에 포함시키는 방안을 고려하세요.
-
-### Q3: 교체 과정에서 글꼴 크기를 조정하려면 어떻게 하나요?
-
-A3: Aspose.CAD의 스타일 속성에 접근해 폰트 크기를 원하는 값으로 수정하면 됩니다.
-
-### Q4: 배치 프로세스에서 글꼴 교체를 자동화할 수 있나요?
-
-A4: 예, Aspose.CAD for Java는 배치 처리를 지원합니다. 스크립트나 프로그램을 작성해 여러 DWG 파일에 대해 글꼴 교체를 자동화할 수 있습니다.
-
-### Q5: Aspose.CAD for Java는 최신 CAD 파일 형식을 지원하나요?
-
-A5: 예, Aspose.CAD for Java는 정기적으로 업데이트되어 최신 CAD 파일 형식을 지원합니다. 구체적인 형식 지원 여부는 릴리즈 노트를 확인하세요.
-
 ## 자주 묻는 질문
 
 **Q: `setPrimaryFontName` 메서드는 텍스트 엔터티에만 영향을 주나요?**  

@@ -86,13 +86,6 @@ weight: 21
 ### [Αντικατάσταση Γραμματοσειράς Συγκεκριμένου Στυλ σε DWG Χρησιμοποιώντας Aspose.CAD for Java](./substitute-font-of-particular-style-in-dwg/)
 Μάθετε πώς να αντικαθιστάτε γραμματοσειρές σε αρχεία DWG χρησιμοποιώντας το Aspose.CAD for Java. Οδηγός βήμα‑βήμα για προσαρμογή στυλ με ακρίβεια.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Συχνές Ερωτήσεις
 
 **Ε: Μπορώ να χρησιμοποιήσω αυτές τις μεθόδους με αρχεία DWG που δημιουργήθηκαν σε παλαιότερες εκδόσεις του AutoCAD;**  
@@ -115,3 +108,10 @@ weight: 21
 **Τελευταία ενημέρωση:** 2025-12-28  
 **Δοκιμή με:** Aspose.CAD for Java 24.12  
 **Συγγραφέας:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

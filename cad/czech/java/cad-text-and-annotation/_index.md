@@ -91,13 +91,6 @@ Vylepšete své CAD návrhy snadno. Naučte se nahrazovat písma v DWG souborech
 ### [Substitute Font of a Particular Style in DWG Using Aspose.CAD for Java](./substitute-font-of-particular-style-in-dwg/)
 Naute se, jak nahrazovat písma v DWG souborech pomocí Aspose.CAD pro Java. Krok‑za‑krokem průvodce pro precizní přizpůsobení stylů.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Často kladené otázky
 
 **Q: Mohu tyto metody použít s DWG soubory vytvořenými ve starších verzích AutoCADu?**  
@@ -120,3 +113,10 @@ A: Otevřete DWG v libovolném prohlížeči, který podporuje zvolené písmo, 
 **Last Updated:** 2025-12-28  
 **Tested With:** Aspose.CAD for Java 24.12  
 **Author:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

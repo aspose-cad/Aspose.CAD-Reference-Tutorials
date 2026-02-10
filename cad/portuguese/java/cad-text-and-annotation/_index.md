@@ -86,13 +86,6 @@ Melhore seus projetos CAD sem esforço. Aprenda a substituir fontes em arquivos 
 ### [Substituir Fonte de um Estilo Particular em DWG Usando Aspose.CAD for Java](./substitute-font-of-particular-style-in-dwg/)
 Aprenda como substituir fontes em arquivos DWG usando Aspose.CAD for Java. Guia passo a passo para personalizar estilos com precisão.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Perguntas Frequentes
 
 **Q: Posso usar esses métodos com arquivos DWG criados em versões mais antigas do AutoCAD?**  
@@ -115,3 +108,10 @@ A: Abra o DWG em qualquer visualizador que suporte a fonte escolhida, ou enumere
 **Última Atualização:** 2025-12-28  
 **Testado com:** Aspose.CAD for Java 24.12  
 **Autor:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

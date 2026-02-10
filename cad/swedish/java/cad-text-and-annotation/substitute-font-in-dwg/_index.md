@@ -103,28 +103,6 @@ Den sparade filen använder nu det teckensnitt du specificerade, och alla textel
 
 ## Vanliga frågor
 
-### Q1: Kan jag återställa teckensnittsbyten i min DWG‑fil?
-
-A1: Ja, du kan återställa teckensnittsbyten genom att ladda om den ursprungliga DWG‑filen eller använda ångra‑funktionen i din CAD‑programvara.
-
-### Q2: Finns det några begränsningar för teckensnittsbyten i Aspose.CAD för Java?
-
-A2: Möjligheten att ersätta teckensnitt beror på vilka teckensnitt som finns i systemet. Säkerställ att önskat teckensnitt är tillgängligt eller överväg att bädda in det i DWG‑filen.
-
-### Q3: Hur kan jag hantera justering av teckensnittsstorlek vid byte?
-
-A3: Justering av teckensnittsstorlek kan göras genom att komma åt stil‑egenskaperna i Aspose.CAD och ändra teckensnittsstorleken därefter.
-
-### Q4: Kan jag automatisera teckensnittsbyte i en batch‑process?
-
-A4: Ja, Aspose.CAD för Java stödjer batch‑bearbetning. Du kan automatisera teckensnittsbyten över flera DWG‑filer med skript eller programmering.
-
-### Q5: Är Aspose.CAD för Java kompatibel med de senaste CAD‑filformaten?
-
-A5: Ja, Aspose.CAD för Java uppdateras regelbundet för att stödja de senaste CAD‑filformaten, vilket säkerställer kompatibilitet med branschstandarder.
-
-## Vanliga frågor
-
 **Q: Påverkar metoden `setPrimaryFontName` endast textelement?**  
 A: Den uppdaterar det primära teckensnittet för stiltabellen, vilket i sin tur påverkar alla textelement som refererar till den stilen.
 

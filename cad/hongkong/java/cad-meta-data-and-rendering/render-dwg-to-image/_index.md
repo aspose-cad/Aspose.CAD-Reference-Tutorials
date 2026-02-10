@@ -4,7 +4,7 @@ description: 學習如何使用 Aspose.CAD for Java 將 DWG 轉換為 PDF，從 
   PDF 並產生圖像。
 linktitle: Render DWG Document to Image with Java
 second_title: Aspose.CAD Java API
-title: 從 CAD 建立 PDF：使用 Aspose.CAD for Java 將 DWG 轉為圖像
+title: 從 CAD 建立 PDF - 使用 Aspose.CAD for Java 將 DWG 轉為圖像
 url: /zh-hant/java/cad-meta-data-and-rendering/render-dwg-to-image/
 weight: 11
 ---
@@ -132,15 +132,15 @@ A4：您可從 [此處](https://purchase.aspose.com/temporary-license/) 取得�
 
 A5：當然，請參閱完整的 [文件](https://reference.aspose.com/cad/java/) 以取得詳細資訊。
 
+---
+
+**最後更新：** 2025-12-28  
+**測試環境：** Aspose.CAD for Java 24.11  
+**作者：** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**最後更新：** 2025-12-28  
-**測試環境：** Aspose.CAD for Java 24.11  
-**作者：** Aspose

@@ -102,28 +102,6 @@ Kaydedilen dosya artık belirttiğiniz fontu kullanır ve tüm metin açıklamal
 | **`Image.load` bir istisna fırlatıyor** | Dosya yolunun doğru olduğundan ve dosyanın desteklenen bir DWG/DXF formatında olduğundan emin olun. |
 | **Büyük dosyalarda performans yavaşlıyor** | Dosyaları ayrı bir iş parçacığında işleyin veya UI blokajını önlemek için toplu işlem yapın. |
 
-## SSS
-
-### S1: DWG dosyamda yapılan yazı tipi değişikliklerini geri alabilir miyim?
-
-C1: Evet, orijinal DWG dosyasını yeniden yükleyerek veya CAD yazılımınızdaki geri alma işlevini kullanarak yazı tipi değişikliklerini geri alabilirsiniz.
-
-### S2: Aspose.CAD for Java'da yazı tipi değişiklikleriyle ilgili sınırlamalar var mı?
-
-C2: Yazı tipi değişikliği yetenekleri sistemde mevcut fontlara bağlıdır. İstenen fontun erişilebilir olduğundan emin olun veya DWG dosyasına gömmeyi düşünün.
-
-### S3: Değişiklik sırasında yazı tipi boyutunu nasıl ayarlayabilirim?
-
-C3: Aspose.CAD içinde stil özelliklerine erişerek font boyutunu istediğiniz gibi değiştirebilirsiniz.
-
-### S4: Yazı tipi değişikliğini toplu bir işlemde otomatikleştirebilir miyim?
-
-C4: Evet, Aspose.CAD for Java toplu işleme destek verir. Betik veya programlama yoluyla birden fazla DWG dosyası üzerinde yazı tipi değişikliklerini otomatikleştirebilirsiniz.
-
-### S5: Aspose.CAD for Java en yeni CAD dosya formatlarıyla uyumlu mu?
-
-C5: Evet, Aspose.CAD for Java düzenli olarak güncellenir ve en yeni CAD dosya formatlarını destekler, böylece sektör standartlarıyla uyumluluk sağlanır.
-
 ## Sık Sorulan Sorular
 
 **S: `setPrimaryFontName` metodu sadece metin varlıklarını etkiler mi?**  

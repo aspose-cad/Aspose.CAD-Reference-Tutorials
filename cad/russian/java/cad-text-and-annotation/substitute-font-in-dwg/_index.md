@@ -16,34 +16,34 @@ weight: 11
 
 # Как загрузить DWG файл в Java и заменить шрифт с помощью Aspose.CAD
 
-## Introduction
+## Введение
 
-Если вам нужно **загрузить DWG файл Java** в приложениях и придать чертежам аккуратный вид, замена шрифта — быстрый способ достичь этого. С Aspose.CAD for Java вы можете заменить стиль текста по умолчанию любым шрифтом, установленным в системе, гарантируя, что каждая аннотация будет выглядеть точно так, как вы ожидаете. В этом руководстве мы пройдем весь процесс — от загрузки DWG файла в Java до использования метода `setPrimaryFontName` для изменения шрифта.
+Если вам нужно **загрузить DWG-файл Java** в приложениях и придать чертежам аккуратный вид, замените шрифт — быстрый способ добиться этого. В Aspose.CAD for Java вы можете заменить стиль текста по умолчанию любым шрифтом, установленным в системе, гарантируя, что аннотация будет выглядеть именно так, как вы ожидаете. В этом руководстве мы проходим весь процесс — от загрузки файла DWG в Java до использования метода `setPrimaryFontName` для изменения шрифта.
 
-## Quick Answers
-- **What library do I need?** Aspose.CAD for Java.  
-- **Can I load a DWG file in Java?** Yes, simply call `Image.load()` on the DWG path.  
-- **Which method changes the font?** `setPrimaryFontName`.  
-- **Do I need a license for production?** Yes, a commercial license is required.  
-- **Is batch processing possible?** Absolutely – loop through multiple files with the same code.
+## Быстрые ответы
+- **Какая библиотека мне нужна?** Aspose.CAD для Java.
+- **Могу ли я загрузить файл DWG в Java?** Да, просто вызовите Image.load() по пути к DWG.
+- **Какой метод меняет шрифт?** `setPrimaryFontName`.
+- **Нужна ли лицензия на производство?** Да, коммерческая лицензия необходима.
+- **Возможна ли пакетная обработка?** Абсолютно – циклически перебирать несколько файлов с одним и тем же кодом.
 
-## What is “load dwg file java”?
+## Что такое «загрузить Java-файл DWG»?
 
-Загрузка DWG файла в среде Java означает чтение бинарных CAD‑данных в объект `Image`, которым может управлять Aspose.CAD. После загрузки файла у вас появляется полный программный доступ к слоям, стилям и текстовым объектам.
+Загрузка DWG-файла в среде Java означает чтение двоичных CAD‑данных в объект `Image`, которым может управлять Aspose.CAD. После загрузки файла у вас появится полный программный доступ к слоям, стилям и текстовым объектам.
 
-## Why substitute fonts in a DWG file?
+## Зачем заменять шрифты в файле DWG?
 
-- **Consistency:** Гарантирует, что все участники видят один и тот же шрифт, независимо от их локальных настроек.  
-- **Readability:** Некоторые шрифты CAD по умолчанию трудно читаются на экране; замена на чистый шрифт, например Arial, повышает чёткость.  
-- **Branding:** Соответствует техническим чертежам корпоративным руководствам по стилю.
+- **Последовательность.** Гарантирует, что все участники используют один и тот же шрифт, независимо от своих локальных настроек.
+- **Читаемость:** шрифты CAD по умолчанию Некоторые трудно читаются на экране; замена на чистый шрифт, например Arial, повышает чёткость.
+- **Брендинг:** Соответствует техническим чертежам корпоративным руководствам по стилю.
 
-## Prerequisites
+## Предварительные условия
 
-- **Java Development Kit (JDK)** – любая современная версия (рекомендовано 8+).  
-- **Aspose.CAD for Java** – скачайте с [website](https://releases.aspose.com/cad/java/).  
-- **Sample DWG file** – чертеж, который вы хотите изменить (можете использовать любой DWG или DXF файл для тестов).
+- **Java Development Kit (JDK)** – любая современная версия (рекомендовано 8+).
+- **Aspose.CAD for Java** – скачайте с [веб-сайта](https://releases.aspose.com/cad/java/).
+- **Образец файла DWG** — чертеж, который вы хотите изменить (для тестов можно использовать любой файл DWG или DXF).
 
-## Import Namespaces
+## Импортировать пространства имен
 
 В вашем Java‑проекте импортируйте необходимые классы для работы с Aspose.CAD. Эти импорты дают доступ к загрузке изображений, CAD‑специфичным объектам и манипуляции стилями.
 
@@ -54,9 +54,9 @@ import com.aspose.cad.fileformats.cad.CadImage;
 import com.aspose.cad.fileformats.cad.cadtables.CadStyleTableObject;
 ```
 
-## Step‑by‑step guide to substitute the font
+## Пошаговая инструкция по замене шрифта
 
-### Step 1: Load your DWG file (load dwg file java)
+### Шаг 1. Загрузите файл DWG (загрузите файл DWG Java)
 
 Сначала укажите API путь к вашему DWG (или DXF) файлу и загрузите его в объект `CadImage`.
 
@@ -68,9 +68,9 @@ String srcFile = dataDir + "conic_pyramid.dxf";
 CadImage cadImage = (CadImage) Image.load(srcFile);
 ```
 
-> **Pro tip:** Если вы работаете напрямую с DWG файлами, замените расширение `.dxf` на `.dwg` в переменной `srcFile`.
+> **Совет для профессионалов:** Если вы работаете напрямую с файлами DWG, замените расширение `.dxf` на `.dwg` в переменную `srcFile`.
 
-### Step 2: Iterate over the style table and set primary font name
+### Шаг 2. Перейдите по таблице стилей и установите имя основного шрифта.
 
 Каждый CAD‑чертеж содержит коллекцию объектов стилей. Пройдитесь по ним и используйте метод `setPrimaryFontName` (API‑вызов, который **устанавливает основной шрифт**) для замены шрифта.
 
@@ -84,7 +84,7 @@ for(Object style : cadImage.getStyles())
 
 Вы можете изменить `"Arial"` на любой шрифт, установленный на машине, где выполняется код.
 
-### Step 3: Save the modified drawing
+### Шаг 3. Сохраните измененный чертеж.
 
 После обновления шрифта запишите изменения в новый DWG файл (или перезапишите оригинал).
 
@@ -94,58 +94,36 @@ cadImage.save(dataDir + "output.dwg", new DwgOptions());
 
 Сохранённый файл теперь использует указанный вами шрифт, и любые текстовые аннотации будут отображаться этим типом шрифта.
 
-## Common Issues and Solutions
+## Распространенные проблемы и решения
 
-| Issue | Solution |
+| Выпуск | Решение |
 |-------|----------|
-| **Font not applied** | Убедитесь, что шрифт установлен в ОС и название написано точно. |
-| **`Image.load` throws an exception** | Проверьте правильность пути к файлу и то, что файл поддерживается форматом DWG/DXF. |
-| **Performance slowdown on large files** | Обрабатывайте файлы в отдельном потоке или пакетно, чтобы избежать блокировки UI. |
+| **Шрифт не применен** | Убедитесь, что шрифт установлен в ОС и название написано точно. |
+| **`Image.load` выдает исключение** | Проверьте правильность пути к файлу и то, что файл соответствует формату DWG/DXF. |
+| **Снижение производительности при работе с большими файлами** | Обрабатывайте файлы отдельно потоком или пакетно, чтобы избежать блокировки пользовательского интерфейса. |
 
-## FAQ's
+## Часто задаваемые вопросы
 
-### Q1: Can I revert font substitutions in my DWG file?
+**Вопрос: Влияет ли метод setPrimaryFontName только на текстовые объекты?**
+О: Он обновляет основной шрифт таблицы стилей, что, в свою очередь, влияет на все текстовые объекты, ссылающиеся на этот стиль.
 
-A1: Yes, you can revert font substitutions by reloading the original DWG file or using the undo functionality within your CAD software.
+**В: Могу ли я использовать собственный шрифт, который не установлен в системе?**
+О: Aspose.CAD использует реестр шрифтов операционной системы. Чтобы использовать пользовательский шрифт, установите его на компьютере, на котором выполняется код.
 
-### Q2: Are there any limitations to font substitutions in Aspose.CAD for Java?
+**В: Можно ли изменить шрифт только для одного слоя?**
+О: Да, вы можете фильтровать стили по имени слоя перед вызовом `setPrimaryFontName`.
 
-A2: Font substitution capabilities depend on the fonts available in the system. Ensure the desired font is accessible or consider embedding it in the DWG file.
+**В: Какая версия Aspose.CAD требуется для файлов DWG 2022?**
+О: Последняя версия (по состоянию на 2025 год) полностью поддерживает DWG 2022. Всегда проверяйте примечания к выпуску для получения информации о поддержке конкретного формата.
 
-### Q3: How can I handle font size adjustments during substitution?
-
-A3: Font size adjustments can be made by accessing the style properties within Aspose.CAD and modifying the font size accordingly.
-
-### Q4: Can I automate font substitution in a batch process?
-
-A4: Yes, Aspose.CAD for Java supports batch processing. You can automate font substitutions across multiple DWG files using scripting or programming.
-
-### Q5: Is Aspose.CAD for Java compatible with the latest CAD file formats?
-
-A5: Yes, Aspose.CAD for Java is regularly updated to support the latest CAD file formats, ensuring compatibility with industry standards.
-
-## Frequently Asked Questions
-
-**Q: Does the `setPrimaryFontName` method affect only text entities?**  
-A: It updates the primary font for the style table, which in turn influences all text objects that reference that style.
-
-**Q: Can I use a custom font that is not installed on the system?**  
-A: Aspose.CAD relies on the operating system’s font registry. To use a custom font, install it on the machine running the code.
-
-**Q: Is it possible to change the font for a single layer only?**  
-A: Yes, you can filter styles by layer name before calling `setPrimaryFontName`.
-
-**Q: What version of Aspose.CAD is required for DWG 2022 files?**  
-A: The latest release (as of 2025) fully supports DWG 2022. Always check the release notes for specific format support.
-
-**Q: How do I handle licensing in a development environment?**  
-A: Use a temporary evaluation license for testing. For production, embed your purchased license file using `License.setLicense("Aspose.Total.Java.lic");`.
+**В: Как управлять лицензированием в среде разработки?**
+О: Используйте временную ознакомительную лицензию для тестирования. Для производственной среды внедрите приобретенный файл лицензии с помощью `License.setLicense("Aspose.Total.Java.lic");`.
 
 ---
 
-**Last Updated:** 2025-12-28  
-**Tested With:** Aspose.CAD for Java 24.11  
-**Author:** Aspose  
+**Последнее обновление:** 28.12.2025
+**Протестировано с:** Aspose.CAD для Java 24.11
+**Автор:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

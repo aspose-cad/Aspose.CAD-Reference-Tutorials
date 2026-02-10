@@ -4,7 +4,7 @@ description: Aspose.CAD for Java を使用して DWG を PDF に変換し、CAD 
   レイアウトを PDF にエクスポートし、画像を生成する手順をステップバイステップでご案内します。
 linktitle: Render DWG Document to Image with Java
 second_title: Aspose.CAD Java API
-title: CADからPDFを作成：Aspose.CAD for JavaでDWGを画像に変換
+title: CADからPDFを作成 - Aspose.CAD for JavaでDWGを画像に変換
 url: /ja/java/cad-meta-data-and-rendering/render-dwg-to-image/
 weight: 11
 ---
@@ -45,7 +45,7 @@ CAD から PDF を作成するとは、ベクターベースの図面（例：DW
 
 ## 名前空間のインポート
 
-In your Java code, import the necessary classes to leverage Aspose.CAD functionality:
+Java コードで、Aspose.CAD の機能を活用するために必要なクラスをインポートします。
 
 ```java
 import com.aspose.cad.Image;
@@ -54,7 +54,7 @@ import com.aspose.cad.imageoptions.CadRasterizationOptions;
 import com.aspose.cad.imageoptions.PdfOptions;
 ```
 
-Now, let's break down the example code into multiple steps for a comprehensive understanding:
+では、サンプルコードを複数のステップに分解して、理解を深めましょう。
 
 ## ステップ 1: リソースディレクトリの指定
 
@@ -63,7 +63,7 @@ Now, let's break down the example code into multiple steps for a comprehensive u
 String dataDir = "Your Document Directory" + "DWGDrawings/";
 ```
 
-Replace `"Your Document Directory"` with the actual path where your DWG files are stored.
+`"Your Document Directory"` を、DWG ファイルが保存されている実際のパスに置き換えてください。
 
 ## ステップ 2: DWG ドキュメントのロード
 
@@ -72,7 +72,7 @@ String srcFile = dataDir + "visualization_-_conference_room.dwg";
 Image image = Image.load(srcFile);
 ```
 
-This loads the DWG file into an `Image` object that Aspose.CAD can work with.
+これにより、DWG ファイルが Aspose.CAD で処理できる `Image` オブジェクトに読み込まれます。
 
 ## ステップ 3: ラスタライズオプションの設定
 
@@ -83,7 +83,7 @@ rasterizationOptions.setPageHeight(1600);
 rasterizationOptions.setLayouts(new String[] {"Layout1"});
 ```
 
-Here we define how the drawing should be rasterized: page size and the specific layout to render. This is the key step for **render dwg to image** and for **export dwg layout pdf**.
+ここでは、図面のラスタライズ方法（ページサイズとレンダリングするレイアウト）を定義します。これは、**DWG をイメージにレンダリング** および **DWG レイアウトを PDF にエクスポート** する上で重要なステップです。
 
 ## ステップ 4: PDF オプションの作成
 
@@ -92,7 +92,7 @@ PdfOptions pdfOptions = new PdfOptions();
 pdfOptions.setVectorRasterizationOptions(rasterizationOptions);
 ```
 
-`PdfOptions` ties the rasterization settings to the PDF output format.
+`PdfOptions` は、ラスタライズ設定を PDF 出力形式に関連付けます。
 
 ## ステップ 5: PDF へのエクスポート
 
@@ -100,7 +100,7 @@ pdfOptions.setVectorRasterizationOptions(rasterizationOptions);
 image.save(dataDir + "ExportSpecificLayoutToPDF_out_.pdf", pdfOptions);
 ```
 
-The `save` method writes the rendered image to a PDF file, effectively **convert dwg to pdf**.
+`save` メソッドは、レンダリングされたイメージを PDF ファイルに書き出し、実質的に **DWG を PDF に変換** します。
 
 ## よくある問題と解決策
 | 問題 | 解決策 |
@@ -131,13 +131,6 @@ A4: [here](https://purchase.aspose.com/temporary-license/) から一時ライセ
 
 A5: もちろんです。詳細は豊富な [documentation](https://reference.aspose.com/cad/java/) をご参照ください。
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **最終更新日:** 2025-12-28  
@@ -145,3 +138,10 @@ A5: もちろんです。詳細は豊富な [documentation](https://reference.as
 **作者:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

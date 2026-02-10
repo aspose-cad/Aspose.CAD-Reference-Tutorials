@@ -102,28 +102,6 @@ Il file salvato ora utilizza il font specificato e qualsiasi annotazione di test
 | **`Image.load` genera un'eccezione** | Assicurati che il percorso del file sia corretto e che il file sia in un formato DWG/DXF supportato. |
 | **Rallentamento delle prestazioni su file di grandi dimensioni** | Elabora i file in un thread separato o in batch per evitare blocchi dell’interfaccia utente. |
 
-## FAQ
-
-### Q1: Posso ripristinare le sostituzioni di font nel mio file DWG?
-
-A1: Sì, puoi ripristinare le sostituzioni di font ricaricando il file DWG originale o utilizzando la funzionalità di annullamento nel tuo software CAD.
-
-### Q2: Ci sono limitazioni alle sostituzioni di font in Aspose.CAD per Java?
-
-A2: Le capacità di sostituzione dei font dipendono dai font disponibili nel sistema. Assicurati che il font desiderato sia accessibile o considera di incorporarlo nel file DWG.
-
-### Q3: Come posso gestire le regolazioni della dimensione del font durante la sostituzione?
-
-A3: Le regolazioni della dimensione del font possono essere effettuate accedendo alle proprietà di stile all’interno di Aspose.CAD e modificando la dimensione del font di conseguenza.
-
-### Q4: Posso automatizzare la sostituzione dei font in un processo batch?
-
-A4: Sì, Aspose.CAD per Java supporta l’elaborazione batch. Puoi automatizzare le sostituzioni di font su più file DWG usando script o programmazione.
-
-### Q5: Aspose.CAD per Java è compatibile con gli ultimi formati di file CAD?
-
-A5: Sì, Aspose.CAD per Java è regolarmente aggiornato per supportare gli ultimi formati CAD, garantendo la compatibilità con gli standard del settore.
-
 ## Domande frequenti
 
 **D: Il metodo `setPrimaryFontName` influisce solo sulle entità di testo?**  

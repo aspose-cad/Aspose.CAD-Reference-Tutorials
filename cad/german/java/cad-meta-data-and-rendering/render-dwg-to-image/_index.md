@@ -5,7 +5,7 @@ description: Erfahren Sie, wie Sie PDFs aus CAD erstellen, indem Sie DWG mit Asp
   das DWG‑Layout in PDF zu exportieren und Bilder zu erzeugen.
 linktitle: Render DWG Document to Image with Java
 second_title: Aspose.CAD Java API
-title: 'PDF aus CAD erstellen: DWG zu Bild mit Aspose.CAD für Java'
+title: 'PDF aus CAD erstellen - DWG zu Bild mit Aspose.CAD für Java'
 url: /de/java/cad-meta-data-and-rendering/render-dwg-to-image/
 weight: 11
 ---
@@ -130,15 +130,15 @@ A4: Sie können eine temporäre Lizenz von [hier](https://purchase.aspose.com/te
 
 A5: Natürlich, erkunden Sie die umfangreiche [documentation](https://reference.aspose.com/cad/java/) für detaillierte Informationen.
 
+---
+
+**Zuletzt aktualisiert:** 2025-12-28  
+**Getestet mit:** Aspose.CAD for Java 24.11  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Zuletzt aktualisiert:** 2025-12-28  
-**Getestet mit:** Aspose.CAD for Java 24.11  
-**Autor:** Aspose

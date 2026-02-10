@@ -5,7 +5,7 @@ description: Tìm hiểu cách tạo PDF từ CAD bằng cách chuyển đổi D
   và tạo hình ảnh.
 linktitle: Render DWG Document to Image with Java
 second_title: Aspose.CAD Java API
-title: 'Tạo PDF từ CAD: DWG sang Hình ảnh với Aspose.CAD cho Java'
+title: 'Tạo PDF từ CAD - DWG sang Hình ảnh với Aspose.CAD cho Java'
 url: /vi/java/cad-meta-data-and-rendering/render-dwg-to-image/
 weight: 11
 ---
@@ -133,15 +133,15 @@ Phương thức `save` ghi hình ảnh đã được kết xuất vào tệp PDF
 
 **Trả lời:** Chắc chắn, khám phá tài liệu chi tiết tại [documentation](https://reference.aspose.com/cad/java/) để biết thêm thông tin.
 
+---
+
+**Cập nhật lần cuối:** 2025-12-28  
+**Đã kiểm tra với:** Aspose.CAD for Java 24.11  
+**Tác giả:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Cập nhật lần cuối:** 2025-12-28  
-**Đã kiểm tra với:** Aspose.CAD for Java 24.11  
-**Tác giả:** Aspose

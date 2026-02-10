@@ -102,28 +102,6 @@ O arquivo salvo agora usa a fonte especificada, e qualquer anotação de texto s
 | **`Image.load` lança exceção** | Certifique‑se de que o caminho do arquivo está correto e que o arquivo é um formato DWG/DXF suportado. |
 | **Desempenho lento em arquivos grandes** | Processar os arquivos em uma thread separada ou em lote para evitar bloqueio da UI. |
 
-## Perguntas frequentes
-
-### Q1: Posso reverter substituições de fonte no meu arquivo DWG?
-
-A1: Sim, você pode reverter as substituições recarregando o arquivo DWG original ou usando a funcionalidade de desfazer dentro do seu software CAD.
-
-### Q2: Existem limitações nas substituições de fonte no Aspose.CAD para Java?
-
-A2: As capacidades de substituição de fonte dependem das fontes disponíveis no sistema. Garanta que a fonte desejada esteja acessível ou considere incorporá‑la no arquivo DWG.
-
-### Q3: Como lidar com ajustes de tamanho de fonte durante a substituição?
-
-A3: Ajustes de tamanho de fonte podem ser feitos acessando as propriedades de estilo dentro do Aspose.CAD e modificando o tamanho da fonte conforme necessário.
-
-### Q4: Posso automatizar a substituição de fonte em um processo em lote?
-
-A4: Sim, o Aspose.CAD para Java suporta processamento em lote. Você pode automatizar substituições de fonte em múltiplos arquivos DWG usando scripts ou programação.
-
-### Q5: O Aspose.CAD para Java é compatível com os formatos CAD mais recentes?
-
-A5: Sim, o Aspose.CAD para Java é atualizado regularmente para suportar os formatos CAD mais recentes, garantindo compatibilidade com os padrões da indústria.
-
 ## Perguntas frequentes adicionais
 
 **P: O método `setPrimaryFontName` afeta apenas entidades de texto?**  

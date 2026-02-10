@@ -101,28 +101,6 @@ Tệp đã lưu bây giờ sẽ sử dụng phông chữ bạn chỉ định, v�
 | **`Image.load` gây ra ngoại lệ** | Đảm bảo đường dẫn tệp đúng và tệp là định dạng DWG/DXF được hỗ trợ. |
 | **Giảm hiệu năng khi xử lý tệp lớn** | Xử lý tệp trong luồng riêng hoặc batch để tránh chặn UI. |
 
-## Câu hỏi thường gặp
-
-### Q1: Tôi có thể hoàn tác việc thay thế phông chữ trong tệp DWG không?
-
-A1: Có, bạn có thể hoàn tác bằng cách tải lại tệp DWG gốc hoặc sử dụng chức năng undo trong phần mềm CAD của mình.
-
-### Q2: Có bất kỳ hạn chế nào đối với việc thay thế phông chữ trong Aspose.CAD for Java không?
-
-A2: Khả năng thay thế phụ thuộc vào các phông chữ có sẵn trên hệ thống. Đảm bảo phông chữ mong muốn có thể truy cập hoặc cân nhắc nhúng nó vào tệp DWG.
-
-### Q3: Làm sao tôi xử lý việc điều chỉnh kích thước phông chữ khi thay thế?
-
-A3: Có thể điều chỉnh kích thước bằng cách truy cập thuộc tính kiểu trong Aspose.CAD và thay đổi giá trị kích thước phông chữ tương ứng.
-
-### Q4: Tôi có thể tự động hoá việc thay thế phông chữ trong quy trình batch không?
-
-A4: Có, Aspose.CAD for Java hỗ trợ xử lý batch. Bạn có thể tự động hoá việc thay thế phông chữ trên nhiều tệp DWG bằng script hoặc lập trình.
-
-### Q5: Aspose.CAD for Java có tương thích với các định dạng CAD mới nhất không?
-
-A5: Có, Aspose.CAD for Java được cập nhật thường xuyên để hỗ trợ các định dạng CAD mới nhất, đảm bảo tương thích với tiêu chuẩn ngành.
-
 ## Các câu hỏi thường gặp khác
 
 **Hỏi: Phương thức `setPrimaryFontName` chỉ ảnh hưởng đến các thực thể văn bản?**  

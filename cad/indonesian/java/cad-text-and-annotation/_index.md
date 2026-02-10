@@ -86,13 +86,6 @@ Tingkatkan desain CAD Anda dengan mudah. Pelajari cara mengganti font dalam file
 ### [Substitute Font of a Particular Style in DWG Using Aspose.CAD for Java](./substitute-font-of-particular-style-in-dwg/)
 Pelajari cara mengganti font dalam file DWG menggunakan Aspose.CAD for Java. Panduan langkah‑demi‑langkah untuk menyesuaikan gaya dengan presisi.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Pertanyaan yang Sering Diajukan
 
 **Q: Bisakah saya menggunakan metode ini dengan file DWG yang dibuat di versi AutoCAD lama?**  
@@ -115,3 +108,10 @@ A: Buka DWG di penampil apa pun yang mendukung font yang dipilih, atau secara pr
 **Terakhir Diperbarui:** 2025-12-28  
 **Diuji Dengan:** Aspose.CAD for Java 24.12  
 **Penulis:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

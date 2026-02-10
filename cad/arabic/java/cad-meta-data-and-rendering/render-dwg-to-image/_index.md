@@ -4,7 +4,7 @@ description: تعلم كيفية إنشاء ملف PDF من CAD عن طريق ت
   للغة Java. اتبع التعليمات خطوة بخطوة لتصدير تخطيط DWG إلى PDF وإنشاء الصور.
 linktitle: Render DWG Document to Image with Java
 second_title: Aspose.CAD Java API
-title: 'إنشاء PDF من CAD: DWG إلى صورة باستخدام Aspose.CAD للـ Java'
+title: 'إنشاء PDF من CAD - DWG إلى صورة باستخدام Aspose.CAD للـ Java'
 url: /ar/java/cad-meta-data-and-rendering/render-dwg-to-image/
 weight: 11
 ---
@@ -132,15 +132,15 @@ image.save(dataDir + "ExportSpecificLayoutToPDF_out_.pdf", pdfOptions);
 
 ج5: بالتأكيد، استكشف الـ [وثائق](https://reference.aspose.com/cad/java/) الشاملة للحصول على معلومات مفصلة.
 
+---
+
+**آخر تحديث:** 2025-12-28  
+**تم الاختبار باستخدام:** Aspose.CAD for Java 24.11  
+**المؤلف:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**آخر تحديث:** 2025-12-28  
-**تم الاختبار باستخدام:** Aspose.CAD for Java 24.11  
-**المؤلف:** Aspose

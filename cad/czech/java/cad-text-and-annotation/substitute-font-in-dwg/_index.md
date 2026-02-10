@@ -104,28 +104,6 @@ Uložený soubor nyní používá písmo, které jste specifikovali, a jakákoli
 
 ## Často kladené otázky
 
-### Q1: Mohu vrátit nahrazení písma v mém DWG souboru?
-
-A1: Ano, můžete vrátit nahrazení písma načtením původního DWG souboru nebo použitím funkce undo ve vašem CAD softwaru.
-
-### Q2: Existují nějaká omezení nahrazování písma v Aspose.CAD pro Javu?
-
-A2: Schopnosti nahrazování písma závisí na písmenech dostupných v systému. Ujistěte se, že požadované písmo je přístupné, nebo zvažte jeho vložení do DWG souboru.
-
-### Q3: Jak mohu během nahrazování upravit velikost písma?
-
-A3: Úpravy velikosti písma lze provést přístupem k vlastnostem stylu v Aspose.CAD a následnou změnou velikosti písma.
-
-### Q4: Mohu automatizovat nahrazování písma v hromadném procesu?
-
-A4: Ano, Aspose.CAD for Java podporuje batch processing. Můžete automatizovat nahrazování písma napříč více DWG soubory pomocí skriptování nebo programování.
-
-### Q5: Je Aspose.CAD pro Javu kompatibilní s nejnovějšími formáty CAD souborů?
-
-A5: Ano, Aspose.CAD for Java je pravidelně aktualizováno, aby podporovalo nejnovější CAD formáty, což zajišťuje kompatibilitu s průmyslovými standardy.
-
-## Často kladené otázky
-
 **Q: Ovlivňuje metoda `setPrimaryFontName` pouze textové entity?**  
 A: Aktualizuje primární písmo pro tabulku stylů, což následně ovlivňuje všechny textové objekty, které odkazují na tento styl.
 

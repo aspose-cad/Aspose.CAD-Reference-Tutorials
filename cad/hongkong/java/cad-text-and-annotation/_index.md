@@ -85,13 +85,6 @@ weight: 21
 ### [使用 Aspose.CAD for Java 在 DWG 中取代特定樣式的字型](./substitute-font-of-particular-style-in-dwg/)
 了解如何使用 Aspose.CAD for Java 在 DWG 檔案中取代字型。提供精確自訂樣式的步驟指南。
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## 常見問題
 
 **Q: 我可以將這些方法用於較舊 AutoCAD 版本所建立的 DWG 檔案嗎？**  
@@ -114,3 +107,10 @@ A: 在任何支援該字型的檢視器中開啟 DWG，或以程式方式列舉 
 **最後更新：** 2025-12-28  
 **測試環境：** Aspose.CAD for Java 24.12  
 **作者：** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

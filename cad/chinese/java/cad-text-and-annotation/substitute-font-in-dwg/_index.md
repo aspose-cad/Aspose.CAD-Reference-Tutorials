@@ -101,28 +101,6 @@ cadImage.save(dataDir + "output.dwg", new DwgOptions());
 | **`Image.load` 抛出异常** | 检查文件路径是否正确，且文件为受支持的 DWG/DXF 格式。 |
 | **大文件导致性能下降** | 将文件处理放在独立线程中，或批量处理以避免 UI 卡顿。 |
 
-## FAQ
-
-### Q1: 能否在 DWG 文件中恢复字体替换？
-
-A1: 可以，通过重新加载原始 DWG 文件或使用 CAD 软件的撤销功能恢复字体替换。
-
-### Q2: Aspose.CAD for Java 在字体替换方面有哪些限制？
-
-A2: 字体替换能力取决于系统中可用的字体。请确保所需字体可访问，或考虑将其嵌入 DWG 文件中。
-
-### Q3: 替换字体时如何调整字体大小？
-
-A3: 可通过访问 Aspose.CAD 中的样式属性并相应修改字体大小来实现。
-
-### Q4: 能否在批处理过程中自动化字体替换？
-
-A4: 可以，Aspose.CAD for Java 支持批处理。您可以使用脚本或编程方式在多个 DWG 文件上自动执行字体替换。
-
-### Q5: Aspose.CAD for Java 是否兼容最新的 CAD 文件格式？
-
-A5: 是的，Aspose.CAD for Java 会定期更新，以支持最新的 CAD 文件格式，确保与行业标准保持兼容。
-
 ## 常见问答
 
 **Q: `setPrimaryFontName` 方法仅影响文本实体吗？**  
