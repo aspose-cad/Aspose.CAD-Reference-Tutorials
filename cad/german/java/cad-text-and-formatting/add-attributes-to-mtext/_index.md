@@ -135,28 +135,6 @@ Die Schleife sammelt jede MText‑Entität und alle verschachtelten `ATTRIB`‑O
 
 In diesem Tutorial haben wir den Prozess des **Attributliste in Java erstellen** mittels Aspose.CAD für Java gezeigt, um Attribute zu MText in DWG‑Dateien hinzuzufügen. Sie verfügen nun über eine solide Grundlage, um Ihre CAD‑Zeichnungen zu erweitern, die Metadaten‑Einfügung zu automatisieren und CAD‑Daten in größere Workflows zu integrieren.
 
-## FAQ
-
-### Q1: Kann ich Aspose.CAD für Java mit anderen CAD-Dateiformaten verwenden?
-
-A1: Ja, Aspose.CAD für Java unterstützt verschiedene CAD-Formate, einschließlich DWG, DXF, DWF und mehr.
-
-### Q2: Ist Aspose.CAD für Java sowohl für einfache als auch komplexe CAD-Manipulationen geeignet?
-
-A2: Absolut. Aspose.CAD für Java bietet einen vielseitigen Funktionsumfang, der sowohl grundlegende als auch fortgeschrittene CAD-Operationen abdeckt.
-
-### Q3: Wo finde ich die detaillierte Dokumentation für Aspose.CAD für Java?
-
-A3: Sie können die Dokumentation [hier](https://reference.aspose.com/cad/java/) einsehen.
-
-### Q4: Wie erhalte ich Support oder Hilfe bei Fragen zu Aspose.CAD für Java?
-
-A4: Besuchen Sie das Aspose.CAD für Java‑Forum [hier](https://forum.aspose.com/c/cad/19) für Unterstützung durch die Community und das Support-Team.
-
-### Q5: Kann ich Aspose.CAD für Java vor dem Kauf einer Lizenz testen?
-
-A5: Ja, Sie können eine kostenlose Testversion [hier](https://releases.aspose.com/) erkunden.
-
 ## Häufig gestellte Fragen
 
 **F: Funktioniert dieser Ansatz direkt mit DWG-Dateien oder nur mit DXF?**  

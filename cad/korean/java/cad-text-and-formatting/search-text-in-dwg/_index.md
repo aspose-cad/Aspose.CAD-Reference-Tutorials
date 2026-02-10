@@ -13,9 +13,9 @@ weight: 10
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Java에서 DWG 읽기 – Aspose.CAD for Java를 사용한 DWG 텍스트 검색
+# Java에서 DWG 읽기 – Aspose.CAD for Java로 DWG 텍스트 검색
 
-If you’re a Java developer who needs to **java read dwg** files and quickly locate specific strings inside them, you’ve come to the right place. In this tutorial we’ll walk through a complete, step‑by‑step example that shows how to **search text dwg** files with the Aspose.CAD for Java library. By the end you’ll have a reusable snippet you can drop into any Java‑based CAD application.
+Java 개발자로서 **DWG 파일을 읽고** 특정 문자열을 빠르게 찾아야 하는 경우, 이 튜토리얼이 도움이 될 것입니다. 이 튜토리얼에서는 Aspose.CAD for Java 라이브러리를 사용하여 **DWG 파일에서 텍스트를 검색하는** 방법을 단계별로 자세히 설명합니다. 이 튜토리얼을 마치면 모든 Java 기반 CAD 애플리케이션에 재사용할 수 있는 코드 조각을 얻게 될 것입니다.
 
 ## 빠른 답변
 - **“java read dwg”가 무엇을 의미하나요?** Java 프로그램에서 AutoCAD DWG 파일을 로드하여 검사하거나 조작하는 것을 의미합니다.  

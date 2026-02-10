@@ -136,28 +136,6 @@ finally
 
 在本教程中，我们通过使用 Aspose.CAD for Java 向 DWG 文件中的 MText 添加属性，演示了 **create attribute list java** 的过程。您现在拥有了丰富 CAD 图纸、自动化元数据插入以及将 CAD 数据集成到更大工作流的坚实基础。
 
-## 常见问题
-
-### Q1：我可以将 Aspose.CAD for Java 与其他 CAD 文件格式一起使用吗？
-
-A1：是的，Aspose.CAD for Java 支持多种 CAD 格式，包括 DWG、DXF、DWF 等。
-
-### Q2：Aspose.CAD for Java 适用于简单和复杂的 CAD 操作吗？
-
-A2：当然。Aspose.CAD for Java 提供了多功能特性，满足基本和高级 CAD 操作的需求。
-
-### Q3：在哪里可以找到 Aspose.CAD for Java 的详细文档？
-
-A3：您可以在 [here](https://reference.aspose.com/cad/java/) 查看文档。
-
-### Q4：如何获取 Aspose.CAD for Java 相关问题的支持或帮助？
-
-A4：请访问 Aspose.CAD for Java 论坛 [here](https://forum.aspose.com/c/cad/19) 获取社区和支持团队的帮助。
-
-### Q5：我可以在购买许可证前试用 Aspose.CAD for Java 吗？
-
-A5：是的，您可以在 [here](https://releases.aspose.com/) 进行免费试用。
-
 ## 常见问答
 
 **Q: 此方法是直接适用于 DWG 文件，还是仅适用于 DXF？**  

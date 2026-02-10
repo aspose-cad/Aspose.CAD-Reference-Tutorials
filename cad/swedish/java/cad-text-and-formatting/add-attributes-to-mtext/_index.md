@@ -138,28 +138,6 @@ I den här handledningen har vi gått igenom processen för **create attribute l
 
 ## Vanliga frågor
 
-### Q1: Kan jag använda Aspose.CAD for Java med andra CAD‑filformat?
-
-A1: Ja, Aspose.CAD for Java stödjer olika CAD‑format, inklusive DWG, DXF, DWF och fler.
-
-### Q2: Är Aspose.CAD for Java lämplig för både enkla och komplexa CAD‑manipulationer?
-
-A2: Absolut. Aspose.CAD for Java erbjuder en mångsidig uppsättning funktioner som täcker både grundläggande och avancerade CAD‑operationer.
-
-### Q3: Var kan jag hitta detaljerad dokumentation för Aspose.CAD for Java?
-
-A3: Du kan hänvisa till dokumentationen [here](https://reference.aspose.com/cad/java/).
-
-### Q4: Hur får jag support eller hjälp för frågor relaterade till Aspose.CAD for Java?
-
-A4: Besök Aspose.CAD for Java‑forumet [here](https://forum.aspose.com/c/cad/19) för assistans från communityn och supportteamet.
-
-### Q5: Kan jag prova Aspose.CAD for Java innan jag köper en licens?
-
-A5: Ja, du kan utforska en gratis provversion [here](https://releases.aspose.com/).
-
-## Vanliga frågor
-
 **Q: Fungerar detta tillvägagångssätt med DWG‑filer direkt, eller bara med DXF?**  
 A: Samma logik gäller för DWG‑filer; ändra bara filändelsen i `srcFile`.
 

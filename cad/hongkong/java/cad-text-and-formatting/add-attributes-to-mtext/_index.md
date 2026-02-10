@@ -138,28 +138,6 @@ finally
 
 ## 常見問答
 
-### Q1：Aspose.CAD for Java 能否支援其他 CAD 檔案格式？
-
-A1：可以，Aspose.CAD for Java 支援多種 CAD 格式，包括 DWG、DXF、DWF 等。
-
-### Q2：Aspose.CAD for Java 適用於簡單與複雜的 CAD 操作嗎？
-
-A2：絕對適用。Aspose.CAD for Java 提供多元功能，滿足基礎與進階的 CAD 操作需求。
-
-### Q3：在哪裡可以找到 Aspose.CAD for Java 的詳細文件？
-
-A3：您可以參考文件[此處](https://reference.aspose.com/cad/java/)。
-
-### Q4：如何取得 Aspose.CAD for Java 的支援或協助？
-
-A4：請前往 Aspose.CAD for Java 論壇[此處](https://forum.aspose.com/c/cad/19)尋求社群與支援團隊的協助。
-
-### Q5：購買授權前可以先試用 Aspose.CAD for Java 嗎？
-
-A5：可以，您可在[此處](https://releases.aspose.com/)取得免費試用版。
-
-## 常見問答
-
 **問：此方法能直接作用於 DWG 檔案，還是只能用於 DXF？**  
 答：相同的邏輯同樣適用於 DWG，只需在 `srcFile` 中更改檔案副檔名即可。
 

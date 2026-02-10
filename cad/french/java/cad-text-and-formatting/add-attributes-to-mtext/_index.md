@@ -18,23 +18,23 @@ weight: 13
 
 ## Introduction
 
-Si vous avez besoin de **créer une liste d'attributs java** pour des dessins CAD, vous êtes au bon endroit. Dans ce tutoriel, nous vous montrerons comment utiliser Aspose.CAD for Java pour ajouter des attributs aux objets MText dans les fichiers DWG — une exigence courante lorsque vous souhaitez intégrer des métadonnées ou des informations personnalisées directement dans vos dessins. À la fin de ce guide, vous comprendrez pourquoi cette technique est importante, comment la configurer et comment exécuter le code en toute sécurité.
+Si vous avez besoin de **créer une liste d'attributs java** pour des dessins CAD, vous êtes au bon endroit. Dans ce tutoriel, nous vous montrerons comment utiliser Aspose.CAD for Java pour ajouter des attributs aux objets MText dans les fichiers DWG — une exigence courante lorsque vous souhaitez intégrer des métadonnées ou des informations personnalisées directement dans vos dessins. À la fin de ce guide, vous comprendrez pourquoi cette technique est importante, commenter la configuration et comment exécuter le code en toute sécurité.
 
-## Quick Answers
-- **Que signifie « create attribute list java » ?** Il s'agit de créer une collection d'objets attributs en Java qui peuvent être attachés à des entités CAD telles que MText.  
-- **Quelle bibliothèque prend en charge cela ?** Aspose.CAD for Java fournit une API robuste pour la manipulation des formats DWG/DXF.  
-- **Ai-je besoin d'une licence ?** Un essai gratuit est disponible, mais une licence commerciale est requise pour une utilisation en production.  
-- **Avec quels fichiers puis-je travailler ?** Le code fonctionne avec les formats DWG, DXF, DWF et d'autres formats CAD pris en charge.  
+## Réponses rapides
+- **Que signifie « créer une liste d'attributs java » ?** Il s'agit de créer une collection d'attributs d'objets en Java qui peuvent être attachés à des entités CAD telles que MText.
+- **Quelle bibliothèque prend en charge cela ?** Aspose.CAD for Java fournit une API robuste pour la manipulation des formats DWG/DXF.
+- **Ai-je besoin d'une licence ?** Un essai gratuit est disponible, mais une licence commerciale est requise pour une utilisation en production.
+- **Avec quels fichiers puis-je travailler ?** Le code fonctionne avec les formats DWG, DXF, DWF et d'autres formats CAD pris en charge.
 - **Combien de temps prend l'implémentation ?** Généralement moins de 15 minutes pour une opération de liste d'attributs de base.
 
-## Prerequisites
+## Prérequis
 
 Avant de commencer ce voyage, assurez-vous d'avoir les éléments suivants :
 
-- **Environnement de développement Java** – JDK 8 ou supérieur installé et configuré.  
-- **Bibliothèque Aspose.CAD for Java** – Téléchargez et installez la bibliothèque depuis [here](https://releases.aspose.com/cad/java/).  
+- **Environnement de développement Java** – JDK 8 ou supérieur installé et configuré.
+- **Bibliothèque Aspose.CAD for Java** – Téléchargez et installez la bibliothèque depuis [ici](https://releases.aspose.com/cad/java/).
 
-## Import Namespaces
+## Importer des espaces de noms
 
 Dans votre projet Java, importez les espaces de noms nécessaires pour accéder aux fonctionnalités d'Aspose.CAD for Java. Cela inclut :
 
@@ -51,13 +51,11 @@ import java.util.ArrayList;
 import java.util.List;
 ```
 
-## What is “java add attributes dwg”?
+## Qu'est-ce que « Java ajoute des attributs dwg » ?
 
-Que signifie « java add attributes dwg » ?
+Que signifie « java ajouter des attributs dwg » ?
 
-La phrase **java add attributes dwg** décrit le processus d'insertion programmatique d'entités d'attributs (telles que des étiquettes de texte, des champs de données ou des balises personnalisées) dans un fichier DWG à l'aide de Java. Cela est utile pour automatiser la documentation, créer des blocs dynamiques ou enrichir les dessins avec des métadonnées recherchables.
-
-## Step 1: Set the Path
+La phrase **java add attribues dwg** décrit le processus d'insertion programmatique d'entités d'attributs (telles que des étiquettes de texte, des champs de données ou des balises personnalisées) dans un fichier DWG à l'aide de Java. Cela est utile pour automatiser la documentation, créer des blocs dynamiques ou enrichir les dessins avec des métadonnées rechargeables.
 
 ## Étape 1 : Définir le chemin
 
@@ -69,8 +67,6 @@ String srcFile = dataDir + "conic_pyramid.dxf";
 
 > **Astuce :** Conservez vos ressources CAD dans un dossier dédié afin d'éviter les problèmes liés aux chemins lors du déploiement.
 
-## Step 2: Load CAD Image
-
 ## Étape 2 : Charger l'image CAD
 
 ```java
@@ -78,8 +74,6 @@ CadImage cadImage =(CadImage) Image.load(srcFile);
 ```
 
 Charger le fichier en tant que `CadImage` vous donne accès à la collection complète d'entités, que vous parcourrez à l'étape suivante.
-
-## Step 3: Initialize Lists for MText and Attributes
 
 ## Étape 3 : Initialiser les listes pour MText et les attributs
 
@@ -89,8 +83,6 @@ List<CadBaseEntity> attribList = new ArrayList<CadBaseEntity>();
 ```
 
 Ces deux listes contiendront les objets MText et leurs entités d'attributs correspondantes, formant ainsi la **liste d'attributs** que nous souhaitons créer.
-
-## Step 4: Iterate Through Entities
 
 ## Étape 4 : Parcourir les entités
 
@@ -127,15 +119,11 @@ finally
 
 La boucle collecte chaque entité MText ainsi que les objets `ATTRIB` imbriqués. Après l'exécution, vous verrez les décomptes affichés, confirmant que votre **liste d'attributs** a été construite avec succès.
 
-## Why This Matters
-
 ## Pourquoi cela importe
 
 - **Automatiser la saisie de données** – Remplir plusieurs dessins avec des métadonnées cohérentes sans édition manuelle.  
 - **Permettre des fichiers CAD recherchables** – Les attributs peuvent être indexés, facilitant la localisation de pièces ou de spécifications.  
 - **Supporter les processus en aval** – Les attributs exportés peuvent alimenter les pipelines BIM, SIG ou de reporting.  
-
-## Common Pitfalls & Solutions
 
 ## Pièges courants & solutions
 
@@ -147,35 +135,7 @@ La boucle collecte chaque entité MText ainsi que les objets `ATTRIB` imbriqués
 
 ## Conclusion
 
-## Conclusion
-
 Dans ce tutoriel, nous avons parcouru le processus de **créer une liste d'attributs java** en utilisant Aspose.CAD for Java pour ajouter des attributs à MText dans les fichiers DWG. Vous disposez maintenant d'une base solide pour enrichir vos dessins CAD, automatiser l'insertion de métadonnées et intégrer les données CAD dans des flux de travail plus vastes.
-
-## FAQ's
-
-## FAQ
-
-### Q1 : Puis-je utiliser Aspose.CAD for Java avec d'autres formats de fichiers CAD ?
-
-R1 : Oui, Aspose.CAD for Java prend en charge divers formats CAD, y compris DWG, DXF, DWF et d'autres.
-
-### Q2 : Aspose.CAD for Java convient-il à la fois aux manipulations CAD simples et complexes ?
-
-R2 : Absolument. Aspose.CAD for Java offre un ensemble polyvalent de fonctionnalités répondant aux opérations CAD de base comme avancées.
-
-### Q3 : Où puis-je trouver la documentation détaillée d'Aspose.CAD for Java ?
-
-R3 : Vous pouvez consulter la documentation [here](https://reference.aspose.com/cad/java/).
-
-### Q4 : Comment obtenir du support ou de l'aide pour les questions liées à Aspose.CAD for Java ?
-
-R4 : Visitez le forum Aspose.CAD for Java [here](https://forum.aspose.com/c/cad/19) pour obtenir de l'aide de la communauté et de l'équipe de support.
-
-### Q5 : Puis-je essayer Aspose.CAD for Java avant d'acheter une licence ?
-
-R5 : Oui, vous pouvez explorer un essai gratuit [here](https://releases.aspose.com/).
-
-## Frequently Asked Questions
 
 ## Questions fréquemment posées
 

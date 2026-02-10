@@ -136,28 +136,6 @@ Utworzenie listy atrybutów w Javie pozwala na:
 
 W tym samouczku przeszliśmy przez proces **create attribute list java** używając Aspose.CAD for Java do dodawania atrybutów do MText w plikach DWG. Masz teraz solidne podstawy, aby wzbogacać swoje rysunki CAD, automatyzować wstawianie metadanych i integrować dane CAD w większych przepływach pracy.
 
-## FAQ
-
-### P1: Czy mogę używać Aspose.CAD for Java z innymi formatami plików CAD?
-
-A1: Tak, Aspose.CAD for Java obsługuje różne formaty CAD, w tym DWG, DXF, DWF i inne.
-
-### P2: Czy Aspose.CAD for Java nadaje się zarówno do prostych, jak i złożonych manipulacji CAD?
-
-A2: Zdecydowanie. Aspose.CAD for Java oferuje wszechstronny zestaw funkcji, które spełniają zarówno podstawowe, jak i zaawansowane operacje CAD.
-
-### P3: Gdzie mogę znaleźć szczegółową dokumentację Aspose.CAD for Java?
-
-A3: Dokumentację można znaleźć [here](https://reference.aspose.com/cad/java/).
-
-### P4: Jak uzyskać wsparcie lub pomoc w kwestiach związanych z Aspose.CAD for Java?
-
-A4: Odwiedź forum Aspose.CAD for Java [here](https://forum.aspose.com/c/cad/19), aby uzyskać pomoc od społeczności i zespołu wsparcia.
-
-### P5: Czy mogę wypróbować Aspose.CAD for Java przed zakupem licencji?
-
-A5: Tak, możesz wypróbować darmową wersję próbną [here](https://releases.aspose.com/).
-
 ## Najczęściej zadawane pytania
 
 **P:** Czy to podejście działa bezpośrednio z plikami DWG, czy tylko z DXF?  

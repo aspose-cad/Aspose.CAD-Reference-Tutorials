@@ -141,28 +141,6 @@ Java で属性リストを作成することで、以下が可能になります
 
 本チュートリアルでは、Aspose.CAD for Java を活用して DWG ファイル内の MText に属性を追加することで **属性リスト作成 Java** を実現する手順を解説しました。これにより、CAD 図面へのメタデータ埋め込みや自動化、さらに CAD データを大規模ワークフローに統合するための基盤が整いました。
 
-## FAQ
-
-### Q1: Aspose.CAD for Java は他の CAD ファイル形式でも使用できますか？
-
-A1: はい、Aspose.CAD for Java は DWG、DXF、DWF など様々な CAD フォーマットをサポートしています。
-
-### Q2: Aspose.CAD for Java はシンプルな操作から高度な CAD 操作まで対応していますか？
-
-A2: もちろんです。Aspose.CAD for Java は基本的な機能から高度な CAD 操作まで幅広くカバーする柔軟な機能セットを提供します。
-
-### Q3: Aspose.CAD for Java の詳細なドキュメントはどこで確認できますか？
-
-A3: ドキュメントは [こちら](https://reference.aspose.com/cad/java/) をご参照ください。
-
-### Q4: Aspose.CAD for Java に関するサポートや質問はどこで受けられますか？
-
-A4: コミュニティとサポートチームからの支援は Aspose.CAD for Java フォーラム [こちら](https://forum.aspose.com/c/cad/19) で受けられます。
-
-### Q5: ライセンス購入前に Aspose.CAD for Java を試用できますか？
-
-A5: はい、無料トライアルは [こちら](https://releases.aspose.com/) から利用可能です。
-
 ## よくある質問
 
 **Q: この手法は DWG ファイルに直接適用できますか、それとも DXF のみですか？**  

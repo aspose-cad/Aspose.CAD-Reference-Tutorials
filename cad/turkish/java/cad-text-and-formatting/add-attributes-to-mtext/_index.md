@@ -137,28 +137,6 @@ Java’da bir öznitelik listesi oluşturmak şunları sağlar:
 
 Bu öğreticide, Aspose.CAD for Java’yı kullanarak DWG dosyalarındaki MText’e öznitelik ekleyerek **create attribute list java** işlemini nasıl gerçekleştireceğinizi adım adım gösterdik. Artık CAD çizimlerinizi zenginleştirmek, meta veri eklemeyi otomatikleştirmek ve CAD verilerini daha büyük iş akışlarına entegre etmek için sağlam bir temele sahipsiniz.
 
-## SSS
-
-### Q1: Aspose.CAD for Java'ı diğer CAD dosya formatlarıyla kullanabilir miyim?
-
-A1: Evet, Aspose.CAD for Java, DWG, DXF, DWF ve daha fazlası dahil olmak üzere çeşitli CAD formatlarını destekler.
-
-### Q2: Aspose.CAD for Java basit ve karmaşık CAD manipülasyonları için uygun mu?
-
-A2: Kesinlikle. Aspose.CAD for Java, temel ve ileri düzey CAD işlemlerine hitap eden çok yönlü bir özellik seti sunar.
-
-### Q3: Aspose.CAD for Java için ayrıntılı belgeleri nerede bulabilirim?
-
-A3: Belgeleri [buradan](https://reference.aspose.com/cad/java/) inceleyebilirsiniz.
-
-### Q4: Aspose.CAD for Java ile ilgili sorular için nasıl destek alabilir veya yardım isteyebilirim?
-
-A4: Topluluk ve destek ekibinden yardım almak için Aspose.CAD for Java forumunu [buradan](https://forum.aspose.com/c/cad/19) ziyaret edin.
-
-### Q5: Lisans satın almadan önce Aspose.CAD for Java'ı deneyebilir miyim?
-
-A5: Evet, ücretsiz bir deneme sürümünü [buradan](https://releases.aspose.com/) keşfedebilirsiniz.
-
 ## Sık Sorulan Sorular
 
 **S: Bu yaklaşım DWG dosyalarıyla doğrudan mı çalışır, yoksa sadece DXF mi?**  

@@ -135,28 +135,6 @@ A ciklus minden MText entitást és a benne található `ATTRIB` objektumokat gy
 
 Ebben az útmutatóban bemutattuk, hogyan lehet **create attribute list java** műveletet végrehajtani az Aspose.CAD for Java használatával, attribútumok hozzáadásával MText objektumokhoz DWG fájlokban. Most már szilárd alapokkal rendelkezik CAD‑rajzok gazdagításához, metaadat‑beszúrás automatizálásához és a CAD‑adatok nagyobb munkafolyamatokba való integrálásához.
 
-## Gyakran ismételt kérdések
-
-### Q1: Használhatom az Aspose.CAD for Java-t más CAD fájlformátumokkal?
-
-Igen, az Aspose.CAD for Java számos CAD formátumot támogat, többek között DWG, DXF, DWF és egyebeket.
-
-### Q2: Alkalmas-e az Aspose.CAD for Java egyszerű és összetett CAD műveletekre?
-
-Teljes mértékben. Az Aspose.CAD for Java sokoldalú funkciókészletet kínál, amely mind az alap, mind a fejlett CAD műveleteket kiszolgálja.
-
-### Q3: Hol találom az Aspose.CAD for Java részletes dokumentációját?
-
-A dokumentációt [itt](https://reference.aspose.com/cad/java/) tekintheti meg.
-
-### Q4: Hogyan kaphatok támogatást vagy segítséget az Aspose.CAD for Java‑val kapcsolatos kérdésekhez?
-
-Látogassa meg az Aspose.CAD for Java fórumot [itt](https://forum.aspose.com/c/cad/19) a közösség és a támogatási csapat segítségéért.
-
-### Q5: Próbálhatom-e az Aspose.CAD for Java-t licenc vásárlása előtt?
-
-Igen, egy ingyenes próbaverziót [itt](https://releases.aspose.com/) tekinthet meg.
-
 ## Gyakran feltett kérdések
 
 **Q: Ez a megközelítés közvetlenül DWG fájlokkal is működik, vagy csak DXF‑el?**  

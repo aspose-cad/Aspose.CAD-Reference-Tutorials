@@ -139,28 +139,6 @@ In deze tutorial hebben we het proces doorlopen om **attribute list java** te ma
 
 ## Veelgestelde vragen
 
-### Q1: Kan ik Aspose.CAD for Java gebruiken met andere CAD‑bestandstypen?
-
-A1: Ja, Aspose.CAD for Java ondersteunt verschillende CAD‑formaten, waaronder DWG, DXF, DWF en meer.
-
-### Q2: Is Aspose.CAD for Java geschikt voor zowel eenvoudige als complexe CAD‑manipulaties?
-
-A2: Absoluut. Aspose.CAD for Java biedt een veelzijdige set functies die zowel basis‑ als geavanceerde CAD‑bewerkingen dekken.
-
-### Q3: Waar kan ik gedetailleerde documentatie vinden voor Aspose.CAD for Java?
-
-A3: Je kunt de documentatie raadplegen [hier](https://reference.aspose.com/cad/java/).
-
-### Q4: Hoe krijg ik ondersteuning of hulp bij vragen over Aspose.CAD for Java?
-
-A4: Bezoek het Aspose.CAD for Java‑forum [hier](https://forum.aspose.com/c/cad/19) voor assistentie van de community en het supportteam.
-
-### Q5: Kan ik Aspose.CAD for Java eerst uitproberen voordat ik een licentie koop?
-
-A5: Ja, je kunt een gratis proefversie verkennen [hier](https://releases.aspose.com/).
-
-## Veelgestelde vragen
-
 **Q: Werkt deze aanpak direct met DWG‑bestanden, of alleen met DXF?**  
 A: Dezelfde logica geldt voor DWG‑bestanden; wijzig alleen de bestandsextensie in `srcFile`.
 

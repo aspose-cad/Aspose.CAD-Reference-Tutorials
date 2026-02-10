@@ -98,14 +98,14 @@ private static void IterateCADNodeEntities(CadBaseEntity obj) {
 
 > **Why recursion?** CAD drawings can contain entities that themselves contain other entities (e.g., an `INSERT` that references a block). Recursion guarantees a deep‑search across the entire hierarchy.
 
-## Common Issues and Solutions
+## よくある問題と解決策
 | 問題 | 原因 | 対策 |
 |-------|--------|-----|
 | 結果が返されない | トップレベルのエンティティだけを検索している | ブロックエンティティも反復処理することを確認してください（手順 3）。 |
 | テキストが文字化けする | 文字エンコーディングが間違っている | Aspose.CAD は Unicode を自動的に処理します。DWG が破損していないか確認してください。 |
 | 大容量ファイルでパフォーマンスが低下する | 数百万のエンティティに対する再帰的走査 | ブロックの検索結果をキャッシュするか、可能であれば特定レイヤーに検索を限定してください。 |
 
-## Frequently Asked Questions
+## よくある質問
 
 **Q: Aspose.CAD はすべてのバージョンの AutoCAD DWG ファイルに対応していますか？**  
 A: はい、Aspose.CAD は初期の R14 から最新リリースまで、幅広い DWG バージョンをサポートしています。
