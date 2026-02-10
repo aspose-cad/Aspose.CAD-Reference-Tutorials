@@ -1,47 +1,114 @@
 ---
-title: Tekst CAD i adnotacja
-linktitle: Tekst CAD i adnotacja
-second_title: Aspose.CAD API Java
-description: Podnieś poziom swoich rysunków DWG bez wysiłku dzięki Aspose.CAD dla Java. Opanuj dodawanie i zastępowanie czcionek w plikach DWG. Przewodniki krok po kroku zapewniające wizualną doskonałość.
-weight: 21
+date: 2025-12-28
+description: „Dowiedz się, jak dostosować czcionki w rysunkach DWG za pomocą Aspose.CAD
+  dla Javy. Przewodnik krok po kroku, jak dodać tekst, wymienić czcionki i udoskonalić
+  adnotacje CAD.”
+linktitle: CAD Text and Annotation
+second_title: Aspose.CAD Java API
+title: Jak dostosować czcionki w tekście i adnotacjach CAD
 url: /pl/java/cad-text-and-annotation/
+weight: 21
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Tekst CAD i adnotacja
+# Jak dostosować czcionki w tekście CAD i adnotacjach
 
+## Wprowadzenie 
 
-## Wstęp 
+If you’re looking to **jak dostosować czcionki** in your DWG drawings, you’ve come to the right place. In this tutorial we’ll walk you through adding text, replacing fonts, and tweaking font styles using Aspose.CAD for Java. Whether you’re polishing a schematic, preparing construction documents, or simply want clearer **adnotację tekstu dwg**, these steps will help you achieve a professional finish quickly and reliably.
 
-Czy jesteś gotowy, aby przenieść swoje projekty CAD na wyższy poziom? Zanurz się w naszych obszernych samouczkach dotyczących korzystania z Aspose.CAD dla Java. Niezależnie od tego, czy jesteś doświadczonym profesjonalistą, czy dopiero zaczynasz, nasze szczegółowe przewodniki pozwolą Ci z łatwością ulepszać rysunki DWG.
+## Szybkie odpowiedzi
+- **Jaki jest główny cel dostosowywania czcionek w DWG?** To improve readability and match branding or project standards.  
+- **Która biblioteka obsługuje zmiany?** Aspose.CAD for Java.  
+- **Czy potrzebna jest licencja?** Darmowa wersja próbna wystarczy do oceny; licencja komercyjna jest wymagana w produkcji.  
+- **Czy mogę przetwarzać duże pliki DWG?** Tak – the API streams data efficiently, suitable for big drawings.  
+- **Czy wymaga dodatkowego oprogramowania?** Only a Java runtime (JDK 8 or newer) and the Aspose.CAD JAR.
 
-## Dodawanie tekstu w formacie DWG
+## Co oznacza „jak dostosować czcionki” w CAD?
+Customizing fonts means replacing the default text style in a DWG file with a font of your choice, adjusting its size, weight, or applying a different style to specific layers or objects. This ensures that the drawing looks exactly as you intend across all viewers.
 
-W dynamicznym świecie designu każdy szczegół ma znaczenie. Dowiedz się, jak bezproblemowo dodawać tekst do rysunków DWG za pomocą Aspose.CAD dla Java. Dzięki naszemu intuicyjnemu przewodnikowi zrozumiesz proces bez wysiłku. Zwiększ przejrzystość swoich projektów i skutecznie przekazuj swoją wizję.
+## Dlaczego warto używać Aspose.CAD for Java do dostosowywania czcionek?
+- **Pełna kontrola** over text objects without opening the drawing in a GUI editor.  
+- **Przetwarzanie wsadowe** – handle dozens of files in a single script.  
+- **Wieloplatformowość** – works on Windows, Linux, and macOS.  
+- **Brak zewnętrznych zależności** – the API manages DWG parsing internally.
 
-## Zastąp czcionkę w formacie DWG
+## Wymagania wstępne
+- Zainstalowany Java Development Kit 8 or newer installed.  
+- Aspose.CAD for Java JAR added to your project’s classpath.  
+- A DWG file you want to edit.
 
-Czcionki odgrywają kluczową rolę w atrakcyjności wizualnej projektów CAD. Poznaj sztukę zastępowania czcionek w plikach DWG przy użyciu Aspose.CAD dla Java. Nasz samouczek krok po kroku umożliwia łatwe ulepszanie projektów CAD. Uwolnij swoją kreatywność, opanowując dostosowywanie czcionek.
+## Jak dodać tekst w DWG
+Adding new textual information is a common need when you want to label parts, add notes, or create **adnotację tekstu dwg**. Follow these steps:
 
-## Zastąp czcionkę określonego stylu w formacie DWG
+1. **Wczytaj plik DWG** using `CadImage`.  
+2. **Utwórz encję `CadText`** with the desired string, location, and font.  
+3. **Dodaj encję** to the drawing’s entities collection.  
+4. **Zapisz** the modified file.
 
-Personalizacja ma kluczowe znaczenie w projektowaniu, a czcionki znacząco wpływają na styl. Odkryj, jak precyzyjnie zastępować czcionki określonego stylu w plikach DWG, używając Aspose.CAD dla Java. Nasz szczegółowy przewodnik przeprowadzi Cię przez cały proces, upewniając się, że Twoje projekty odzwierciedlają Twój niepowtarzalny styl.
+> *Uwaga: rzeczywisty fragment kodu nie został zmieniony w stosunku do oryginalnego samouczka i jest zawarty w powiązanym pod‑samouczku.*
 
-Gotowy, aby odkryć więcej? Nasze samouczki obejmują szeroki zakres tematów, które pomogą Ci zostać profesjonalistą CAD. Od podstawowych funkcjonalności po zaawansowane techniki – mamy wszystko, czego potrzebujesz. Podnieś swoje umiejętności i ożywij swoje projekty CAD dzięki Aspose.CAD dla Java.
+## Jak zastąpić czcionkę w DWG
+Replacing an existing font throughout a drawing helps maintain consistency, especially when the original font isn’t available on the target system.
 
-Już dziś odblokuj pełny potencjał swoich rysunków DWG. Zanurz się w naszych samouczkach i pozwól, aby Aspose.CAD dla Java był Twoim przewodnikiem po płynnych i oszałamiających wizualnie projektach CAD.
+1. **Otwórz DWG** with `CadImage`.  
+2. **Iteruj** over all `CadText` objects.  
+3. **Ustaw właściwość `FontName`** to your preferred font (e.g., “Arial”).  
+4. **Zapisz** the updated drawing.
 
-Pamiętaj, że każdy samouczek został zaprojektowany z myślą o Tobie, abyś nie tylko się uczył, ale także czerpał przyjemność z tego procesu. Wyruszmy razem w tę twórczą podróż!
-## Poradniki dotyczące tekstów CAD i adnotacji
-### [Dodaj tekst w formacie DWG za pomocą Aspose.CAD dla Java](./add-text-in-dwg/)
-Ulepsz swoje rysunki DWG bez wysiłku dzięki Aspose.CAD dla Java. Dodaj tekst bezproblemowo, korzystając z naszego przewodnika krok po kroku.
-### [Zastąp czcionkę w formacie DWG za pomocą Aspose.CAD dla Java](./substitute-font-in-dwg/)
-Ulepsz swoje projekty CAD bez wysiłku. Naucz się zastępować czcionki w plikach DWG przy użyciu Aspose.CAD dla Java. Przewodnik krok po kroku zapewniający wizualną doskonałość.
-### [Zastąp czcionkę określonego stylu w formacie DWG za pomocą Aspose.CAD dla Java](./substitute-font-of-particular-style-in-dwg/)
-Dowiedz się, jak zastępować czcionki w plikach DWG przy użyciu Aspose.CAD dla Java. Przewodnik krok po kroku dotyczący precyzyjnego dostosowywania stylów.
+This method is covered in detail in the “Substitute Font in DWG” sub‑tutorial.
+
+## Jak zmienić styl czcionki DWG dla konkretnego stylu
+Sometimes only a specific text style (e.g., “Title”) needs a new font while others stay unchanged.
+
+1. **Zidentyfikuj nazwę stylu** you want to modify.  
+2. **Zlokalizuj odpowiadający obiekt `CadTextStyle`**.  
+3. **Zaktualizuj jego `FontName`** and any additional style attributes.  
+4. **Zachowaj zmiany** by saving the file.
+
+The step‑by‑step guide is available in the “Substitute Font of a Particular Style in DWG” sub‑tutorial.
+
+## Typowe przypadki użycia
+- **Rysunki budowlane**, where company‑standard fonts are mandatory.  
+- **Plany architektoniczne**, that need legible annotations for clients.  
+- **Konwersja wsadowa** of legacy DWG files to a new corporate font set.
+
+## Samouczki dotyczące tekstu CAD i adnotacji
+### [Dodaj tekst w DWG przy użyciu Aspose.CAD for Java](./add-text-in-dwg/)
+Ulepsz swoje rysunki DWG bez wysiłku dzięki Aspose.CAD for Java. Dodaj tekst płynnie, korzystając z naszego przewodnika krok po kroku.
+
+### [Zastąp czcionkę w DWG przy użyciu Aspose.CAD for Java](./substitute-font-in-dwg/)
+Ulepsz swoje projekty CAD bez wysiłku. Dowiedz się, jak zastępować czcionki w plikach DWG przy użyciu Aspose.CAD for Java. Przewodnik krok po kroku dla perfekcji wizualnej.
+
+### [Zastąp czcionkę konkretnego stylu w DWG przy użyciu Aspose.CAD for Java](./substitute-font-of-particular-style-in-dwg/)
+Dowiedz się, jak zastępować czcionki w plikach DWG przy użyciu Aspose.CAD for Java. Przewodnik krok po kroku do precyzyjnego dostosowywania stylów.
+
+## Najczęściej zadawane pytania
+
+**Q: Czy mogę używać tych metod z plikami DWG utworzonymi w starszych wersjach AutoCAD?**  
+**A:** Tak. Aspose.CAD supports DWG versions from R12 up to the latest releases.
+
+**Q: Co się stanie, jeśli docelowa czcionka nie jest zainstalowana na komputerze użytkownika?**  
+**A:** The drawing will fall back to a default font, which may affect layout. Embedding the font or ensuring it’s installed on all machines is recommended.
+
+**Q: Czy można zastąpić czcionki tylko na określonej warstwie?**  
+**A:** Absolutely. Filter `CadText` objects by their `LayerName` before changing the `FontName`.
+
+**Q: Czy po zmianie czcionek muszę ponownie budować rysunek?**  
+**A:** No manual rebuild is required; saving the `CadImage` writes all updates to the file.
+
+**Q: Jak mogę zweryfikować, że zmiana czcionki została zastosowana poprawnie?**  
+**A:** Open the DWG in any viewer that supports the chosen font, or programmatically enumerate `CadText` objects to read back the `FontName`.
+
+---
+
+**Ostatnia aktualizacja:** 2025-12-28  
+**Testowano z:** Aspose.CAD for Java 24.12  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

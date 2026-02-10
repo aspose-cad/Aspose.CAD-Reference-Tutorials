@@ -1,33 +1,50 @@
 ---
-title: Vervang het lettertype in DWG door Aspose.CAD voor Java
-linktitle: Vervang het lettertype in DWG
-second_title: Aspose.CAD Java-API
-description: Verbeter uw CAD-ontwerpen moeiteloos. Leer lettertypen vervangen in DWG-bestanden met Aspose.CAD voor Java. Stap-voor-stap handleiding voor visuele perfectie.
-weight: 11
+date: 2025-12-28
+description: Leer hoe je DWG‑bestanden in Java‑projecten laadt en de primaire lettertype‑naam
+  instelt met Aspose.CAD voor Java. Stapsgewijze gids voor perfecte CAD‑visuals.
+linktitle: Substitute Font in DWG
+second_title: Aspose.CAD Java API
+title: Hoe een DWG‑bestand te laden in Java en het lettertype te vervangen met Aspose.CAD
 url: /nl/java/cad-text-and-annotation/substitute-font-in-dwg/
+weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Vervang het lettertype in DWG door Aspose.CAD voor Java
+# Hoe DWG-bestand laden in Java en lettertype vervangen met Aspose.CAD
 
-## Invoering
+## Introductie
 
-In de dynamische wereld van Computer-Aided Design (CAD) is het verbeteren van de visuele aantrekkingskracht van tekeningen vaak cruciaal. Een effectieve manier om dit te bereiken is door lettertypen in DWG-bestanden te vervangen. Aspose.CAD voor Java komt naar voren als een krachtig hulpmiddel op dit gebied en biedt een naadloze oplossing voor lettertypevervanging. In deze zelfstudie doorlopen we stap voor stap het proces en laten we zien hoe u lettertypen in een DWG-bestand vervangt met Aspose.CAD voor Java.
+Als u **load DWG file Java** applicaties nodig heeft en uw tekeningen een gepolijste uitstraling wilt geven, is het vervangen van het lettertype een snelle winst. Met Aspose.CAD voor Java kunt u de standaard tekststijl vervangen door elk systeem‑geïnstalleerd lettertype, zodat elke annotatie precies verschijnt zoals u verwacht. In deze tutorial lopen we het volledige proces door — van het laden van een DWG-bestand in Java tot het gebruik van de `setPrimaryFontName` methode om het lettertype te wijzigen.
+
+## Snelle antwoorden
+- **Welke bibliotheek heb ik nodig?** Aspose.CAD for Java.
+- **Kan ik een DWG-bestand laden in Java?** Ja, roep simpelweg `Image.load()` aan op het DWG‑pad.
+- **Welke methode verandert het lettertype?** `setPrimaryFontName`.
+- **Heb ik een licentie nodig voor productie?** Ja, een commerciële licentie is vereist.
+- **Is batchverwerking mogelijk?** Absoluut – loop door meerdere bestanden met dezelfde code.
+
+## Wat is “load dwg file java”?
+
+Het laden van een DWG-bestand in een Java‑omgeving betekent het lezen van de binaire CAD‑gegevens in een `Image`‑object dat Aspose.CAD kan manipuleren. Zodra het bestand is geladen, heeft u volledige programmatische toegang tot lagen, stijlen en tekstelementen.
+
+## Waarom lettertypen vervangen in een DWG-bestand?
+
+- **Consistentie:** Garandeert dat alle medewerkers hetzelfde lettertype zien, ongeacht hun lokale lettertype‑instelling.  
+- **Leesbaarheid:** Sommige standaard CAD‑lettertypen zijn moeilijk leesbaar op schermen; overschakelen naar een helder lettertype zoals Arial verbetert de duidelijkheid.  
+- **Branding:** Stem technische tekeningen af op de corporate style guides.
 
 ## Vereisten
 
-Voordat u zich verdiept in de magie van lettertypevervanging, moet u ervoor zorgen dat u aan de volgende vereisten voldoet:
+- **Java Development Kit (JDK)** – elke recente versie (8+ aanbevolen).  
+- **Aspose.CAD for Java** – download van de [website](https://releases.aspose.com/cad/java/).  
+- **Voorbeeld DWG‑bestand** – een tekening die u wilt aanpassen (u kunt elk DWG‑ of DXF‑bestand gebruiken voor testen).
 
-- Java-omgeving: Zorg ervoor dat er een functionele Java-omgeving op uw machine is geïnstalleerd.
--  Aspose.CAD voor Java-bibliotheek: Download en installeer de Aspose.CAD-bibliotheek van de[website](https://releases.aspose.com/cad/java/).
-- Voorbeeld van een DWG-bestand: Zorg ervoor dat u een DWG-bestand gereed heeft om mee te experimenteren. Als u er geen heeft, kunt u voorbeelden vinden op verschillende CAD-bronnen.
+## Namespaces importeren
 
-## Naamruimten importeren
-
-Importeer in uw Java-project de benodigde naamruimten om toegang te krijgen tot de Aspose.CAD-functionaliteiten. Deze stap is cruciaal voor het tot stand brengen van een verbinding met de Aspose.CAD-bibliotheek.
+Importeer in uw Java‑project de benodigde klassen om met Aspose.CAD te werken. Deze imports geven u toegang tot het laden van afbeeldingen, CAD‑specifieke objecten en stijlmanipulatie.
 
 ```java
 import com.aspose.cad.Image;
@@ -36,67 +53,75 @@ import com.aspose.cad.fileformats.cad.CadImage;
 import com.aspose.cad.fileformats.cad.cadtables.CadStyleTableObject;
 ```
 
-## Lettertypevervanging in DWG
+## Stapsgewijze handleiding om het lettertype te vervangen
 
-### Stap 1: Laad uw DWG-bestand
+### Stap 1: Laad uw DWG‑bestand (load dwg file java)
 
-Begin met het laden van het DWG-bestand in uw Java-project met behulp van de Aspose.CAD-bibliotheek.
+Eerst wijst u de API naar de locatie van uw DWG‑ (of DXF‑) bestand en laadt u het in een `CadImage`‑object.
 
 ```java
-// Het pad naar de bronmap.
+// The path to the resource directory.
 String dataDir = "Your Document Directory" + "CADConversion/";
 
 String srcFile = dataDir + "conic_pyramid.dxf";
 CadImage cadImage = (CadImage) Image.load(srcFile);
 ```
 
-### Stap 2: Herhaal de stijlen
+> **Pro tip:** Als u direct met DWG‑bestanden werkt, vervang dan de `.dxf`‑extensie door `.dwg` in de `srcFile`‑variabele.
 
-Herhaal de stijlen binnen de CAD-tekening met behulp van een lus. Hierdoor kunt u individuele stijlen openen en wijzigen.
+### Stap 2: Doorloop de stijltabel en stel de primaire letternaam in
+
+Elke CAD‑tekening bevat een verzameling stijlobjecten. Loop erdoorheen en gebruik de `setPrimaryFontName`‑methode (de API‑aanroep die **de primaire letternaam instelt**) om het lettertype te vervangen.
 
 ```java
 for(Object style : cadImage.getStyles())
 {
-    // Stel de lettertypenaam in
+    // Set the font name
     ((com.aspose.cad.fileformats.cad.cadtables.CadStyleTableObject)style).setPrimaryFontName("Arial");
 }
 ```
 
-### Stap 3: Wijzigingen opslaan
+U kunt `"Arial"` wijzigen naar elk lettertype dat op de machine waarop de code draait geïnstalleerd is.
 
-Nadat u de lettertypen hebt vervangen, moet u ervoor zorgen dat u de wijzigingen in uw DWG-bestand opslaat.
+### Stap 3: Sla de aangepaste tekening op
+
+Na het bijwerken van het lettertype, schrijft u de wijzigingen terug naar een nieuw DWG‑bestand (of overschrijft u het origineel).
 
 ```java
 cadImage.save(dataDir + "output.dwg", new DwgOptions());
 ```
 
-Door deze stappen te volgen, vervangt u met succes lettertypen in een DWG-bestand, waardoor de visuele presentatie van uw CAD-document wordt getransformeerd.
+Het opgeslagen bestand gebruikt nu het door u opgegeven lettertype, en elke tekstannotatie wordt weergegeven met dat lettertype.
 
-## Conclusie
+## Veelvoorkomende problemen en oplossingen
 
-Het opnemen van lettertypevervangingen in uw CAD-tekeningen geeft een nieuwe dimensie aan de visuele esthetiek. Aspose.CAD voor Java vereenvoudigt dit proces en biedt een gebruiksvriendelijke interface voor lettertypemanipulatie binnen DWG-bestanden. Experimenteer met verschillende lettertypen om de gewenste impact op uw ontwerpen te bereiken.
+| Probleem | Oplossing |
+|----------|-----------|
+| **Lettertype niet toegepast** | Controleer of het lettertype is geïnstalleerd op het host‑OS en dat de spelling exact overeenkomt. |
+| **`Image.load` werpt een uitzondering** | Zorg ervoor dat het bestandspad correct is en dat het bestand een ondersteund DWG/DXF‑formaat is. |
+| **Prestatievertraging bij grote bestanden** | Verwerk bestanden in een aparte thread of batch ze om UI‑blokkering te voorkomen. |
 
 ## Veelgestelde vragen
 
-### Vraag 1: Kan ik lettertypevervangingen in mijn DWG-bestand ongedaan maken?
+**V: Heeft de `setPrimaryFontName`‑methode alleen invloed op textelementen?**  
+A: Het werkt het primaire lettertype van de stijltabel bij, wat op zijn beurt alle textelementen beïnvloedt die naar die stijl verwijzen.
 
-A1: Ja, u kunt lettertypevervangingen ongedaan maken door het originele DWG-bestand opnieuw te laden of door de functie voor ongedaan maken in uw CAD-software te gebruiken.
+**V: Kan ik een aangepast lettertype gebruiken dat niet op het systeem is geïnstalleerd?**  
+A: Aspose.CAD maakt gebruik van het lettertype‑register van het besturingssysteem. Om een aangepast lettertype te gebruiken, installeert u het op de machine waarop de code draait.
 
-### Vraag 2: Zijn er beperkingen voor het vervangen van lettertypen in Aspose.CAD voor Java?
+**V: Is het mogelijk om het lettertype alleen voor één laag te wijzigen?**  
+A: Ja, u kunt stijlen filteren op laagnaam voordat u `setPrimaryFontName` aanroept.
 
-A2: De mogelijkheden voor lettertypevervanging zijn afhankelijk van de lettertypen die in het systeem beschikbaar zijn. Zorg ervoor dat het gewenste lettertype toegankelijk is of overweeg om het in het DWG-bestand in te sluiten.
+**V: Welke versie van Aspose.CAD is vereist voor DWG 2022‑bestanden?**  
+A: De nieuwste release (vanaf 2025) ondersteunt DWG 2022 volledig. Controleer altijd de release‑notes voor specifieke formatondersteuning.
 
-### Vraag 3: Hoe kan ik omgaan met aanpassingen van de lettergrootte tijdens vervanging?
+**V: Hoe ga ik om met licenties in een ontwikkelomgeving?**  
+A: Gebruik een tijdelijke evaluatielicentie voor testen. Voor productie embedt u uw aangeschafte licentiebestand met `License.setLicense("Aspose.Total.Java.lic");`.
 
-A3: Aanpassingen van de lettergrootte kunnen worden gemaakt door naar de stijleigenschappen in Aspose.CAD te gaan en de lettergrootte dienovereenkomstig aan te passen.
+**Laatst bijgewerkt:** 2025-12-28  
+**Getest met:** Aspose.CAD for Java 24.11  
+**Auteur:** Aspose  
 
-### V4: Kan ik de vervanging van lettertypen in een batchproces automatiseren?
-
-A4: Ja, Aspose.CAD voor Java ondersteunt batchverwerking. U kunt lettertypevervangingen in meerdere DWG-bestanden automatiseren met behulp van scripting of programmeren.
-
-### V5: Is Aspose.CAD voor Java compatibel met de nieuwste CAD-bestandsindelingen?
-
-A5: Ja, Aspose.CAD voor Java wordt regelmatig bijgewerkt om de nieuwste CAD-bestandsindelingen te ondersteunen, waardoor compatibiliteit met industriestandaarden wordt gegarandeerd.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

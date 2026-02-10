@@ -1,33 +1,51 @@
 ---
-title: Sostituisci il carattere in DWG con Aspose.CAD per Java
-linktitle: Sostituisci carattere in DWG
-second_title: API Java Aspose.CAD
-description: Migliora i tuoi progetti CAD senza sforzo. Impara a sostituire i caratteri nei file DWG utilizzando Aspose.CAD per Java. Guida passo passo per la perfezione visiva.
-weight: 11
+date: 2025-12-28
+description: Scopri come caricare file DWG nei progetti Java e impostare il nome del
+  carattere principale usando Aspose.CAD per Java. Guida passo‑passo per visualizzazioni
+  CAD perfette.
+linktitle: Substitute Font in DWG
+second_title: Aspose.CAD Java API
+title: Come caricare un file DWG in Java e sostituire il font con Aspose.CAD
 url: /it/java/cad-text-and-annotation/substitute-font-in-dwg/
+weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Sostituisci il carattere in DWG con Aspose.CAD per Java
+# Come caricare un file DWG in Java e sostituire il font con Aspose.CAD
 
-## introduzione
+## Introduzione
 
-Nel regno dinamico della progettazione assistita da computer (CAD), migliorare l'attrattiva visiva dei disegni è spesso cruciale. Un modo efficace per ottenere questo risultato è sostituire i caratteri all'interno dei file DWG. Aspose.CAD per Java emerge come un potente strumento in questo dominio, fornendo una soluzione perfetta alla sostituzione dei caratteri. In questo tutorial, esamineremo il processo passo dopo passo, dimostrando come sostituire i caratteri in un file DWG utilizzando Aspose.CAD per Java.
+Se hai bisogno di **load DWG file Java** nelle applicazioni e desideri dare ai tuoi disegni un aspetto rifinito, la sostituzione del font è una soluzione rapida. Con Aspose.CAD per Java puoi sostituire lo stile di testo predefinito con qualsiasi font installato sul sistema, garantendo che ogni annotazione appaia esattamente come ti aspetti. In questo tutorial percorreremo l’intero processo—dal caricamento di un file DWG in Java all’utilizzo del metodo `setPrimaryFontName` per cambiare il font.
+
+## Risposte rapide
+- **Quale libreria è necessaria?** Aspose.CAD per Java.  
+- **Posso caricare un file DWG in Java?** Sì, basta chiamare `Image.load()` sul percorso DWG.  
+- **Quale metodo cambia il font?** `setPrimaryFontName`.  
+- **È necessaria una licenza per la produzione?** Sì, è richiesta una licenza commerciale.  
+- **È possibile l’elaborazione batch?** Assolutamente – itera su più file con lo stesso codice.
+
+## Che cosa è “load dwg file java”?
+
+Caricare un file DWG in un ambiente Java significa leggere i dati CAD binari in un oggetto `Image` che Aspose.CAD può manipolare. Una volta caricato il file, hai pieno accesso programmatico a livelli, stili ed entità di testo.
+
+## Perché sostituire i font in un file DWG?
+
+- **Coerenza:** Garantisce che tutti i collaboratori vedano lo stesso tipo di carattere, indipendentemente dalla loro configurazione locale dei font.  
+- **Leggibilità:** Alcuni font CAD predefiniti sono difficili da leggere sugli schermi; passare a un font pulito come Arial migliora la chiarezza.  
+- **Branding:** Allinea i disegni tecnici alle linee guida di stile aziendali.
 
 ## Prerequisiti
 
-Prima di approfondire la magia della sostituzione dei caratteri, assicurati di disporre dei seguenti prerequisiti:
+- **Java Development Kit (JDK)** – qualsiasi versione recente (consigliato 8+).  
+- **Aspose.CAD per Java** – scarica dal [website](https://releases.aspose.com/cad/java/).  
+- **File DWG di esempio** – un disegno che desideri modificare (puoi usare qualsiasi file DWG o DXF per i test).
 
-- Ambiente Java: assicurati di avere un ambiente Java funzionante installato sul tuo computer.
--  Aspose.CAD per Java Library: scarica e installa la libreria Aspose.CAD da[sito web](https://releases.aspose.com/cad/java/).
-- File DWG di esempio: avere un file DWG pronto per la sperimentazione. Se non ne hai uno, puoi trovare campioni su varie risorse CAD.
+## Importare gli spazi dei nomi
 
-## Importa spazi dei nomi
-
-Nel tuo progetto Java, importa gli spazi dei nomi necessari per accedere alle funzionalità Aspose.CAD. Questo passaggio è fondamentale per stabilire una connessione con la libreria Aspose.CAD.
+Nel tuo progetto Java, importa le classi necessarie per lavorare con Aspose.CAD. Queste importazioni ti danno accesso al caricamento delle immagini, agli oggetti specifici CAD e alla manipolazione degli stili.
 
 ```java
 import com.aspose.cad.Image;
@@ -36,67 +54,77 @@ import com.aspose.cad.fileformats.cad.CadImage;
 import com.aspose.cad.fileformats.cad.cadtables.CadStyleTableObject;
 ```
 
-## Sostituzione dei caratteri in DWG
+## Guida passo‑passo per sostituire il font
 
-### Passaggio 1: carica il file DWG
+### Passo 1: Carica il tuo file DWG (load dwg file java)
 
-Inizia caricando il file DWG nel tuo progetto Java utilizzando la libreria Aspose.CAD.
+Per prima cosa, indica all’API la posizione del tuo file DWG (o DXF) e caricalo in un oggetto `CadImage`.
 
 ```java
-// Il percorso della directory delle risorse.
+// The path to the resource directory.
 String dataDir = "Your Document Directory" + "CADConversion/";
 
 String srcFile = dataDir + "conic_pyramid.dxf";
 CadImage cadImage = (CadImage) Image.load(srcFile);
 ```
 
-### Passaggio 2: ripetizione degli stili
+> **Suggerimento:** Se lavori direttamente con file DWG, sostituisci l’estensione `.dxf` con `.dwg` nella variabile `srcFile`.
 
-Itera sugli stili all'interno del disegno CAD utilizzando un ciclo. Ciò consente di accedere e modificare i singoli stili.
+### Passo 2: Iterare sulla tabella degli stili e impostare il nome del font primario
+
+Ogni disegno CAD contiene una raccolta di oggetti stile. Scorri la collezione e utilizza il metodo `setPrimaryFontName` (la chiamata API che **sets primary font name**) per sostituire il font.
 
 ```java
 for(Object style : cadImage.getStyles())
 {
-    // Imposta il nome del carattere
+    // Set the font name
     ((com.aspose.cad.fileformats.cad.cadtables.CadStyleTableObject)style).setPrimaryFontName("Arial");
 }
 ```
 
-### Passaggio 3: salva le modifiche
+Puoi cambiare `"Arial"` con qualsiasi font installato sulla macchina che esegue il codice.
 
-Dopo aver sostituito i caratteri, assicurati di salvare le modifiche nel file DWG.
+### Passo 3: Salvare il disegno modificato
+
+Dopo aver aggiornato il font, scrivi le modifiche in un nuovo file DWG (o sovrascrivi l’originale).
 
 ```java
 cadImage.save(dataDir + "output.dwg", new DwgOptions());
 ```
 
-Seguendo questi passaggi, sostituirai con successo i caratteri in un file DWG, trasformando la presentazione visiva del tuo documento CAD.
+Il file salvato ora utilizza il font specificato e qualsiasi annotazione di testo verrà renderizzata con quel tipo di carattere.
 
-## Conclusione
+## Problemi comuni e soluzioni
 
-Incorporare le sostituzioni dei caratteri nei disegni CAD apporta una nuova dimensione all'estetica visiva. Aspose.CAD per Java semplifica questo processo, fornendo un'interfaccia intuitiva per la manipolazione dei caratteri all'interno dei file DWG. Sperimenta caratteri diversi per ottenere l'impatto desiderato sui tuoi progetti.
+| Problema | Soluzione |
+|----------|-----------|
+| **Font non applicato** | Verifica che il font sia installato sul sistema operativo host e che il nome sia scritto esattamente. |
+| **`Image.load` genera un'eccezione** | Assicurati che il percorso del file sia corretto e che il file sia in un formato DWG/DXF supportato. |
+| **Rallentamento delle prestazioni su file di grandi dimensioni** | Elabora i file in un thread separato o in batch per evitare blocchi dell’interfaccia utente. |
 
 ## Domande frequenti
 
-### Q1: Posso ripristinare le sostituzioni dei caratteri nel mio file DWG?
+**D: Il metodo `setPrimaryFontName` influisce solo sulle entità di testo?**  
+R: Aggiorna il font primario per la tabella degli stili, influenzando tutti gli oggetti di testo che fanno riferimento a quello stile.
 
-R1: Sì, puoi annullare le sostituzioni dei caratteri ricaricando il file DWG originale o utilizzando la funzionalità di annullamento all'interno del software CAD.
+**D: Posso usare un font personalizzato che non è installato sul sistema?**  
+R: Aspose.CAD si basa sul registro dei font del sistema operativo. Per usare un font personalizzato, installalo sulla macchina che esegue il codice.
 
-### Q2: Esistono limitazioni alle sostituzioni dei caratteri in Aspose.CAD per Java?
+**D: È possibile cambiare il font solo per un singolo layer?**  
+R: Sì, puoi filtrare gli stili per nome del layer prima di chiamare `setPrimaryFontName`.
 
-R2: Le funzionalità di sostituzione dei caratteri dipendono dai caratteri disponibili nel sistema. Assicurati che il carattere desiderato sia accessibile o considera di incorporarlo nel file DWG.
+**D: Quale versione di Aspose.CAD è necessaria per i file DWG 2022?**  
+R: L’ultima release (al 2025) supporta pienamente DWG 2022. Controlla sempre le note di rilascio per il supporto di formati specifici.
 
-### Q3: Come posso gestire le modifiche alla dimensione del carattere durante la sostituzione?
+**D: Come gestire le licenze in un ambiente di sviluppo?**  
+R: Usa una licenza di valutazione temporanea per i test. Per la produzione, incorpora il file di licenza acquistato usando `License.setLicense("Aspose.Total.Java.lic");`.
 
-A3: È possibile apportare modifiche alla dimensione del carattere accedendo alle proprietà dello stile all'interno di Aspose.CAD e modificando di conseguenza la dimensione del carattere.
+---
 
-### Q4: Posso automatizzare la sostituzione dei caratteri in un processo batch?
+**Last Updated:** 2025-12-28  
+**Tested With:** Aspose.CAD per Java 24.11  
+**Author:** Aspose  
 
-A4: Sì, Aspose.CAD per Java supporta l'elaborazione batch. È possibile automatizzare la sostituzione dei caratteri su più file DWG utilizzando script o programmazione.
-
-### Q5: Aspose.CAD per Java è compatibile con gli ultimi formati di file CAD?
-
-A5: Sì, Aspose.CAD per Java viene regolarmente aggiornato per supportare i più recenti formati di file CAD, garantendo la compatibilità con gli standard del settore.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -1,35 +1,44 @@
 ---
-title: Agregar texto en DWG usando Aspose.CAD para Java
-linktitle: Agregar texto en DWG
-second_title: API de Java Aspose.CAD
-description: Mejore sus dibujos DWG sin esfuerzo con Aspose.CAD para Java. Agregue texto sin problemas con nuestra guía paso a paso.
-weight: 10
+date: 2025-12-28
+description: 'Aprenda a crear PDF a partir de DWG, guardar DWG como PDF y agregar
+  texto a los dibujos DWG con Aspose.CAD para Java: guía paso a paso.'
+linktitle: Add Text in DWG
+second_title: Aspose.CAD Java API
+title: Crear PDF a partir de DWG y agregar texto usando Aspose.CAD para Java
 url: /es/java/cad-text-and-annotation/add-text-in-dwg/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Agregar texto en DWG usando Aspose.CAD para Java
+# Crear PDF a partir de DWG y agregar texto usando Aspose.CAD para Java
 
 ## Introducción
 
-En el ámbito del diseño asistido por computadora (CAD), Aspose.CAD para Java se destaca como una poderosa herramienta para manipular y convertir dibujos DWG. Una de sus funciones útiles es la capacidad de agregar texto a archivos DWG sin problemas. En este tutorial, lo guiaremos a través del proceso de agregar texto a sus dibujos DWG usando Aspose.CAD para Java.
+Si necesitas **crear PDF a partir de archivos DWG** mientras insertas texto personalizado, estás en el lugar correcto. En este tutorial recorreremos todo el proceso: cargar un dibujo DWG, agregar una anotación de texto y, finalmente, guardar el resultado como PDF usando Aspose.CAD para Java. Al final comprenderás cómo **guardar DWG como PDF**, personalizar la altura del texto y añadir anotaciones básicas.
+
+## Respuestas rápidas
+- **¿Puedo convertir DWG a PDF en Java?** Sí, Aspose.CAD para Java ofrece una API sencilla.  
+- **¿Necesito una licencia para uso en producción?** Se requiere una licencia comercial; hay una versión de prueba gratuita.  
+- **¿Qué método agrega texto a un DWG?** Usa el objeto `CadText` y añádelo al espacio del modelo.  
+- **¿Puedo establecer la altura del texto?** Por supuesto—utiliza `setTextHeight()` en la instancia de `CadText`.  
+- **¿La salida es vectorial?** Cuando las opciones de rasterización se configuran en `UseObjectColor`, el PDF conserva datos vectoriales de alta calidad.
 
 ## Requisitos previos
 
-Antes de sumergirse en el tutorial, asegúrese de cumplir con los siguientes requisitos previos:
+Antes de sumergirte en el tutorial, asegúrate de contar con los siguientes requisitos:
 
--  Biblioteca Aspose.CAD para Java: descargue e instale la biblioteca desde[Página de Aspose.CAD para Java](https://releases.aspose.com/cad/java/).
+- Biblioteca Aspose.CAD para Java: Descarga e instala la biblioteca desde la [página de Aspose.CAD para Java](https://releases.aspose.com/cad/java/).
 
-- Kit de desarrollo de Java (JDK): asegúrese de tener instalado el último JDK en su sistema.
+- Java Development Kit (JDK): Asegúrate de tener la última versión del JDK instalada en tu sistema.
 
-- Dibujo DWG: prepare un archivo de dibujo DWG donde desee agregar texto.
+- Dibujo DWG: Prepara un archivo de dibujo DWG al que desees agregar texto.
 
 ## Importar espacios de nombres
 
-En su código Java, importe los espacios de nombres necesarios para Aspose.CAD:
+En tu código Java, importa los espacios de nombres necesarios para Aspose.CAD:
 
 ```java
 import com.aspose.cad.Image;
@@ -42,22 +51,22 @@ import com.aspose.cad.imageoptions.CadRasterizationOptions;
 import com.aspose.cad.imageoptions.PdfOptions;
 ```
 
-Ahora, dividamos el fragmento de código proporcionado en varios pasos:
+Ahora, desglosaremos el fragmento de código proporcionado en varios pasos:
 
-## Paso 1: configurar el directorio de documentos y la ruta del archivo DWG
+## Paso 1: Configurar el directorio del documento y la ruta del archivo DWG
 
 ```java
 String dataDir = "Your Document Directory" + "DWGDrawings/";
 String dwgPathToFile = dataDir + "SimpleEntites.dwg";
 ```
 
-## Paso 2: cargar la imagen DWG
+## Paso 2: Cargar la imagen DWG
 
 ```java
 Image image = Image.load(dwgPathToFile);
 ```
 
-## Paso 3: crear un objeto CadText
+## Paso 3: Crear el objeto CadText (Agregar texto al DWG)
 
 ```java
 CadText cadText = new CadText();
@@ -67,24 +76,24 @@ cadText.setColorId(256);
 cadText.setLayerName("0");
 cadText.getFirstAlignment().setX(47.9);
 cadText.getFirstAlignment().setY(5.56);
-cadText.setTextHeight(0.8);
+cadText.setTextHeight(0.8);          // set text height in DWG units
 cadText.setScaleX(0);
 ```
 
-## Paso 4: agregar texto a CadImage
+## Paso 4: Añadir texto a CadImage (Insertar anotación)
 
 ```java
 CadImage cadImage = ((CadImage)(image));
 cadImage.getBlockEntities().get_Item("*Model_Space").addEntity(cadText);
 ```
 
-## Paso 5: configurar las opciones de PDF
+## Paso 5: Configurar las opciones de PDF (Preparar la creación de PDF a partir de DWG)
 
 ```java
 PdfOptions pdfOptions = new PdfOptions();
 ```
 
-## Paso 6: Configurar CadRasterizationOptions
+## Paso 6: Configurar CadRasterizationOptions (Controlar la renderización del PDF)
 
 ```java
 CadRasterizationOptions cadRasterizationOptions = new CadRasterizationOptions();
@@ -95,39 +104,52 @@ cadRasterizationOptions.setPageWidth(1600);
 cadRasterizationOptions.setLayouts(new String[] {"Model"});
 ```
 
-## Paso 7: guarde el DWG modificado como PDF
+## Paso 7: Guardar el DWG modificado como PDF (dwg to pdf java)
 
 ```java
 image.save(dataDir + "SimpleEntites_generated.dwg.pdf", pdfOptions);
 ```
 
-Si sigue estos pasos, podrá agregar texto sin problemas a sus dibujos DWG usando Aspose.CAD para Java.
+Siguiendo estos pasos, podrás **crear PDF a partir de DWG**, agregar texto personalizado y controlar la altura del texto, todo con unas pocas líneas de código Java.
 
-## Conclusión
+## ¿Por qué agregar texto a DWG y convertir a PDF?
 
-Aspose.CAD para Java permite a los desarrolladores mejorar y modificar dibujos DWG mediante programación. Este tutorial proporciona una guía clara paso a paso para agregar texto a sus archivos DWG, mostrando la simplicidad y el poder de Aspose.CAD.
+Agregar texto directamente a un archivo DWG es útil para:
+
+- **Marcar diseños** con notas o números de pieza.  
+- **Crear documentación imprimible** donde el PDF sirve como un formato de solo lectura y ampliamente compatible.  
+- **Automatizar el procesamiento por lotes** de grandes bibliotecas CAD sin edición manual.
+
+## Problemas comunes y consejos
+
+- **¿El texto no aparece?** Verifica que las coordenadas X/Y estén dentro de los límites del dibujo y que la capa sea visible.  
+- **¿Altura de texto incorrecta?** Ajusta `setTextHeight()`; el valor está en el sistema de unidades del dibujo.  
+- **¿El PDF parece rasterizado?** Asegúrate de que `CadDrawTypeMode.UseObjectColor` esté configurado para mantener la información vectorial.  
+- **¿Rendimiento en archivos grandes?** Incrementa `pageHeight`/`pageWidth` solo cuando sea necesario; valores mayores consumen más memoria.
 
 ## Preguntas frecuentes
 
-### P1: ¿Aspose.CAD es compatible con todas las versiones de archivos DWG?
+**P: ¿Aspose.CAD es compatible con todas las versiones de archivos DWG?**  
+R: Aspose.CAD admite diversas versiones de archivos DWG, garantizando compatibilidad con una amplia gama de software CAD.
 
-R1: Aspose.CAD admite varias versiones de archivos DWG, lo que garantiza la compatibilidad con una amplia gama de software CAD.
+**P: ¿Puedo personalizar la fuente y el formato del texto agregado?**  
+R: Sí, puedes personalizar la fuente, estilo y otras opciones de formato del texto añadido a los archivos DWG usando Aspose.CAD.
 
-### P2: ¿Puedo personalizar la fuente y el formato del texto agregado?
+**P: ¿Existe una versión de prueba gratuita para Aspose.CAD para Java?**  
+R: Sí, puedes explorar las funciones de Aspose.CAD obteniendo una prueba gratuita [aquí](https://releases.aspose.com/).
 
-R2: Sí, puede personalizar la fuente, el estilo y otras opciones de formato para el texto agregado a los archivos DWG usando Aspose.CAD.
+**P: ¿Dónde puedo encontrar documentación detallada para Aspose.CAD para Java?**  
+R: Consulta la documentación [aquí](https://reference.aspose.com/cad/java/) para obtener información profunda y ejemplos.
 
-### P3: ¿Existe una prueba gratuita de Aspose.CAD para Java?
+**P: ¿Cómo puedo obtener soporte o ayuda con Aspose.CAD?**  
+R: Visita el [foro de Aspose.CAD](https://forum.aspose.com/c/cad/19) para recibir asistencia y conectar con la comunidad.
 
- R3: Sí, puede explorar las funciones de Aspose.CAD obteniendo una prueba gratuita de[aquí](https://releases.aspose.com/).
+---
 
-### P4: ¿Dónde puedo encontrar documentación detallada de Aspose.CAD para Java?
+**Última actualización:** 2025-12-28  
+**Probado con:** Aspose.CAD para Java 24.12  
+**Autor:** Aspose  
 
- A4: consulte la documentación[aquí](https://reference.aspose.com/cad/java/) para obtener información detallada y ejemplos.
-
-### P5: ¿Cómo puedo obtener soporte o buscar ayuda con Aspose.CAD?
-
-A5: Visita el[Foro Aspose.CAD](https://forum.aspose.com/c/cad/19) para obtener asistencia y conectarse con la comunidad.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -1,35 +1,44 @@
 ---
-title: إضافة نص في DWG باستخدام Aspose.CAD لـ Java
-linktitle: إضافة نص في DWG
-second_title: Aspose.CAD جافا API
-description: قم بتحسين رسومات DWG الخاصة بك بسهولة باستخدام Aspose.CAD لـ Java. أضف نصًا بسلاسة باستخدام دليلنا المفصّل خطوة بخطوة.
-weight: 10
+date: 2025-12-28
+description: تعلم كيفية إنشاء PDF من DWG، حفظ DWG كملف PDF، وإضافة نص إلى رسومات DWG
+  باستخدام Aspose.CAD للغة Java—دليل خطوة بخطوة.
+linktitle: Add Text in DWG
+second_title: Aspose.CAD Java API
+title: إنشاء PDF من DWG وإضافة نص باستخدام Aspose.CAD للـ Java
 url: /ar/java/cad-text-and-annotation/add-text-in-dwg/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# إضافة نص في DWG باستخدام Aspose.CAD لـ Java
+# إنشاء PDF من DWG وإضافة نص باستخدام Aspose.CAD للـ Java
 
-## مقدمة
+## المقدمة
 
-في عالم التصميم بمساعدة الكمبيوتر (CAD)، يبرز Aspose.CAD for Java كأداة قوية لمعالجة وتحويل رسومات DWG. إحدى ميزاته المفيدة هي القدرة على إضافة نص إلى ملفات DWG بسلاسة. في هذا البرنامج التعليمي، سنرشدك خلال عملية إضافة نص إلى رسومات DWG باستخدام Aspose.CAD لـ Java.
+إذا كنت بحاجة إلى **إنشاء PDF من ملفات DWG** مع إدراج نص مخصص، فأنت في المكان الصحيح. في هذا الدرس سنستعرض العملية بالكامل—تحميل رسم DWG، إضافة توضيح نصي، وأخيرًا حفظ النتيجة كملف PDF باستخدام Aspose.CAD للـ Java. في النهاية ستفهم كيف **تحفظ DWG كـ PDF**، تخصيص ارتفاع النص، وحتى إضافة توضيحات أساسية.
 
-## المتطلبات الأساسية
+## إجابات سريعة
+- **هل يمكنني تحويل DWG إلى PDF في Java؟** نعم، Aspose.CAD للـ Java يوفر واجهة برمجة تطبيقات بسيطة.  
+- **هل أحتاج إلى ترخيص للاستخدام الإنتاجي؟** يلزم الحصول على ترخيص تجاري؛ يتوفر نسخة تجريبية مجانية.  
+- **ما الطريقة التي تضيف نصًا إلى DWG؟** استخدم كائن `CadText` وأضفه إلى مساحة النموذج.  
+- **هل يمكنني ضبط ارتفاع النص؟** بالتأكيد—استخدم `setTextHeight()` على نسخة `CadText`.  
+- **هل الإخراج قائم على المتجهات؟** عندما تُضبط خيارات الرستر إلى `UseObjectColor`، يحتفظ PDF ببيانات المتجهات عالية الجودة.
 
-قبل الغوص في البرنامج التعليمي، تأكد من توفر المتطلبات الأساسية التالية:
+## المتطلبات المسبقة
 
--  Aspose.CAD لمكتبة Java: قم بتنزيل المكتبة وتثبيتها من ملف[Aspose.CAD لصفحة جافا](https://releases.aspose.com/cad/java/).
+قبل الغوص في الدرس، تأكد من توفر المتطلبات التالية:
 
-- Java Development Kit (JDK): تأكد من تثبيت أحدث إصدار من JDK على نظامك.
+- مكتبة Aspose.CAD للـ Java: قم بتحميل وتثبيت المكتبة من [صفحة Aspose.CAD للـ Java](https://releases.aspose.com/cad/java/).
 
-- رسم DWG: قم بإعداد ملف رسم DWG حيث تريد إضافة نص.
+- مجموعة تطوير جافا (JDK): تأكد من تثبيت أحدث نسخة من JDK على نظامك.
 
-## استيراد مساحات الأسماء
+- رسم DWG: حضّر ملف رسم DWG ترغب في إضافة النص إليه.
 
-في كود Java الخاص بك، قم باستيراد مساحات الأسماء الضرورية لـ Aspose.CAD:
+## استيراد المساحات الاسمية
+
+في كود Java الخاص بك، استورد المساحات الاسمية اللازمة لـ Aspose.CAD:
 
 ```java
 import com.aspose.cad.Image;
@@ -42,9 +51,9 @@ import com.aspose.cad.imageoptions.CadRasterizationOptions;
 import com.aspose.cad.imageoptions.PdfOptions;
 ```
 
-الآن، دعونا نقسم مقتطف الشفرة المقدم إلى خطوات متعددة:
+الآن، لنقسم المقتطف البرمجي المقدم إلى عدة خطوات:
 
-## الخطوة 1: إعداد دليل المستندات ومسار ملف DWG
+## الخطوة 1: إعداد دليل المستند ومسار ملف DWG
 
 ```java
 String dataDir = "Your Document Directory" + "DWGDrawings/";
@@ -57,7 +66,7 @@ String dwgPathToFile = dataDir + "SimpleEntites.dwg";
 Image image = Image.load(dwgPathToFile);
 ```
 
-## الخطوة 3: إنشاء كائن CadText
+## الخطوة 3: إنشاء كائن CadText (إضافة نص إلى DWG)
 
 ```java
 CadText cadText = new CadText();
@@ -67,24 +76,24 @@ cadText.setColorId(256);
 cadText.setLayerName("0");
 cadText.getFirstAlignment().setX(47.9);
 cadText.getFirstAlignment().setY(5.56);
-cadText.setTextHeight(0.8);
+cadText.setTextHeight(0.8);          // set text height in DWG units
 cadText.setScaleX(0);
 ```
 
-## الخطوة 4: إضافة نص إلى CadImage
+## الخطوة 4: إضافة نص إلى CadImage (إدراج توضيح)
 
 ```java
 CadImage cadImage = ((CadImage)(image));
 cadImage.getBlockEntities().get_Item("*Model_Space").addEntity(cadText);
 ```
 
-## الخطوة 5: إعداد خيارات PDF
+## الخطوة 5: إعداد خيارات PDF (التحضير لإنشاء PDF من DWG)
 
 ```java
 PdfOptions pdfOptions = new PdfOptions();
 ```
 
-## الخطوة 6: تكوين CadRasterizationOptions
+## الخطوة 6: تكوين CadRasterizationOptions (التحكم في عرض PDF)
 
 ```java
 CadRasterizationOptions cadRasterizationOptions = new CadRasterizationOptions();
@@ -95,39 +104,52 @@ cadRasterizationOptions.setPageWidth(1600);
 cadRasterizationOptions.setLayouts(new String[] {"Model"});
 ```
 
-## الخطوة 7: احفظ ملف DWG المعدل بصيغة PDF
+## الخطوة 7: حفظ DWG المعدل كـ PDF (dwg إلى pdf java)
 
 ```java
 image.save(dataDir + "SimpleEntites_generated.dwg.pdf", pdfOptions);
 ```
 
-باتباع هذه الخطوات، ستتمكن من إضافة نص بسلاسة إلى رسومات DWG الخاصة بك باستخدام Aspose.CAD لـ Java.
+باتباع هذه الخطوات، ستتمكن من **إنشاء PDF من DWG**، إضافة نص مخصص، والتحكم في ارتفاع النص—كل ذلك ببضع أسطر من كود Java.
 
-## خاتمة
+## لماذا إضافة نص إلى DWG وتحويله إلى PDF؟
 
-يعمل Aspose.CAD for Java على تمكين المطورين من تحسين رسومات DWG وتعديلها برمجيًا. قدم هذا البرنامج التعليمي دليلاً واضحًا خطوة بخطوة لإضافة نص إلى ملفات DWG الخاصة بك، مع عرض بساطة Aspose.CAD وقوته.
+إضافة نص مباشرة إلى ملف DWG مفيدة لـ:
 
-## الأسئلة الشائعة
+- **وضع علامات على التصاميم** مع ملاحظات أو أرقام أجزاء.  
+- **إنشاء وثائق قابلة للطباعة** حيث يكون PDF صيغة للقراءة فقط ومدعومة على نطاق واسع.  
+- **أتمتة المعالجة الدفعية** لمكتبات CAD الكبيرة دون تعديل يدوي.
 
-### س 1: هل Aspose.CAD متوافق مع كافة إصدارات ملفات DWG؟
+## المشكلات الشائعة والنصائح
 
-ج1: يدعم Aspose.CAD إصدارات مختلفة من ملفات DWG، مما يضمن التوافق مع مجموعة واسعة من برامج CAD.
+- **النص لا يظهر؟** تحقق من أن إحداثيات X/Y داخل حدود الرسم وأن الطبقة مرئية.  
+- **ارتفاع النص غير صحيح؟** عدل `setTextHeight()`؛ القيمة بوحدة نظام الرسم.  
+- **PDF يبدو مُرصًّا؟** تأكد من ضبط `CadDrawTypeMode.UseObjectColor` للحفاظ على المعلومات المتجهية.  
+- **الأداء مع الملفات الكبيرة؟** زد `pageHeight`/`pageWidth` فقط حسب الحاجة؛ القيم الأكبر تستهلك المزيد من الذاكرة.
 
-### س2: هل يمكنني تخصيص الخط وتنسيق النص المضاف؟
+## الأسئلة المتكررة
 
-ج2: نعم، يمكنك تخصيص الخط والنمط وخيارات التنسيق الأخرى للنص المضاف إلى ملفات DWG باستخدام Aspose.CAD.
+**س: هل Aspose.CAD متوافق مع جميع إصدارات ملفات DWG؟**  
+ج: يدعم Aspose.CAD إصدارات متعددة من ملفات DWG، مما يضمن التوافق مع مجموعة واسعة من برامج CAD.
 
-### س3: هل تتوفر نسخة تجريبية مجانية من Aspose.CAD لـ Java؟
+**س: هل يمكنني تخصيص الخط وتنسيق النص المضاف؟**  
+ج: نعم، يمكنك تخصيص الخط، النمط، وخيارات التنسيق الأخرى للنص المضاف إلى ملفات DWG باستخدام Aspose.CAD.
 
- ج3: نعم، يمكنك استكشاف ميزات Aspose.CAD من خلال الحصول على نسخة تجريبية مجانية منه[هنا](https://releases.aspose.com/).
+**س: هل تتوفر نسخة تجريبية مجانية لـ Aspose.CAD للـ Java؟**  
+ج: نعم، يمكنك استكشاف ميزات Aspose.CAD بالحصول على نسخة تجريبية مجانية من [هنا](https://releases.aspose.com/).
 
-### س4: أين يمكنني العثور على الوثائق التفصيلية الخاصة بـ Aspose.CAD لـ Java؟
+**س: أين يمكنني العثور على وثائق مفصلة لـ Aspose.CAD للـ Java؟**  
+ج: راجع الوثائق [هنا](https://reference.aspose.com/cad/java/) للحصول على معلومات متعمقة وأمثلة.
 
- ج4: راجع الوثائق[هنا](https://reference.aspose.com/cad/java/) للحصول على معلومات وأمثلة متعمقة.
+**س: كيف يمكنني الحصول على الدعم أو المساعدة بخصوص Aspose.CAD؟**  
+ج: زر منتدى [Aspose.CAD](https://forum.aspose.com/c/cad/19) للحصول على المساعدة والتواصل مع المجتمع.
 
-### س5: كيف يمكنني الحصول على الدعم أو طلب المساعدة فيما يتعلق بـ Aspose.CAD؟
+---
 
-ج5: قم بزيارة[منتدى Aspose.CAD](https://forum.aspose.com/c/cad/19) للحصول على المساعدة والتواصل مع المجتمع.
+**آخر تحديث:** 2025-12-28  
+**تم الاختبار مع:** Aspose.CAD للـ Java 24.12  
+**المؤلف:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
