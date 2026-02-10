@@ -66,6 +66,26 @@ weight: 30
 
 探索使用 Aspose.CAD 在 Java 中將 STL 檔案匯出為 PNG 的無縫流程。簡化工作流程，輕鬆提升 Java 專案。我们的逐步指南確保 STL 轉 PNG 的精確與可靠。
 
+## CAD 匯出教學
+
+### [Export AutoCAD Images to PDF - Aspose.CAD for Java Tutorial](./export-autocad-images-to-pdf/)
+使用 Aspose.CAD for Java 輕鬆將 AutoCAD 圖像匯出為 PDF。依循我們的逐步指南即可無縫整合。
+
+### [Export CAD Layouts to PDF with Aspose.CAD for Java](./export-cad-layouts-to-pdf/)
+探索 Aspose.CAD for Java，輕鬆將 CAD 版面配置匯出為 PDF。高效、可靠且開發者友善。
+
+### [Export to BMP with Aspose.CAD for Java](./export-to-bmp/)
+探索使用 Aspose.CAD for Java 無縫將 CAD 轉換為 BMP。依循我們的逐步指南，實現高效且精確的匯出。
+
+### [Export to PDF with Aspose.CAD for Java](./export-to-pdf/)
+學習使用 Aspose.CAD for Java 輕鬆將 CAD 檔案匯出為 PDF。依循我們的逐步指南，實現無縫整合。
+
+### [Export IFC to PNG with Aspose.CAD for Java](./export-ifc-to-png/)
+使用 Aspose.CAD for Java 輕鬆將 IFC 轉換為 PNG。依循我們的逐步教學。
+
+### [Export STL to PNG with Aspose.CAD for Java](./export-stl-to-png/)
+探索使用 Aspose.CAD 在 Java 中將 STL 檔案匯出為 PNG 的無縫流程。簡化工作流程，輕鬆提升 Java 專案。
+
 ### 常見使用情境
 - **Client deliverables** – 提供 PDF 設計審查，避免洩漏原始 DWG 檔案。  
 - **Automated reporting** – 為儀表板產生 IFC 或 STL 模型的 PNG 縮圖。  
@@ -95,35 +115,15 @@ A: 單一 Aspose.CAD 授權即可涵蓋所有支援的格式（PDF、PNG、BMP �
 
 ---
 
+**最後更新：** 2025-12-19  
+**測試環境：** Aspose.CAD for Java 24.12  
+**作者：** Aspose
+
+---
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
-## CAD 匯出教學
-
-### [Export AutoCAD Images to PDF - Aspose.CAD for Java Tutorial](./export-autocad-images-to-pdf/)
-使用 Aspose.CAD for Java 輕鬆將 AutoCAD 圖像匯出為 PDF。依循我們的逐步指南即可無縫整合。
-
-### [Export CAD Layouts to PDF with Aspose.CAD for Java](./export-cad-layouts-to-pdf/)
-探索 Aspose.CAD for Java，輕鬆將 CAD 版面配置匯出為 PDF。高效、可靠且開發者友善。
-
-### [Export to BMP with Aspose.CAD for Java](./export-to-bmp/)
-探索使用 Aspose.CAD for Java 無縫將 CAD 轉換為 BMP。依循我們的逐步指南，實現高效且精確的匯出。
-
-### [Export to PDF with Aspose.CAD for Java](./export-to-pdf/)
-學習使用 Aspose.CAD for Java 輕鬆將 CAD 檔案匯出為 PDF。依循我們的逐步指南，實現無縫整合。
-
-### [Export IFC to PNG with Aspose.CAD for Java](./export-ifc-to-png/)
-使用 Aspose.CAD for Java 輕鬆將 IFC 轉換為 PNG。依循我們的逐步教學。
-
-### [Export STL to PNG with Aspose.CAD for Java](./export-stl-to-png/)
-探索使用 Aspose.CAD 在 Java 中將 STL 檔案匯出為 PNG 的無縫流程。簡化工作流程，輕鬆提升 Java 專案。
-
----
-
-**最後更新：** 2025-12-19  
-**測試環境：** Aspose.CAD for Java 24.12  
-**作者：** Aspose

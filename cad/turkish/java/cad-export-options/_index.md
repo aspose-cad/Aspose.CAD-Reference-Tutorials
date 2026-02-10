@@ -67,6 +67,20 @@ Aspose.CAD for Java kullanarak IFC'yi PNG'ye zahmetsizce dönüştürün. Detayl
 
 Aspose.CAD ile Java'da STL dosyalarını PNG'ye sorunsuz bir şekilde dışa aktarma sürecini keşfedin. İş akışınızı basitleştirin ve Java projelerinizi zahmetsizce geliştirin. Adım adım rehberimiz STL'den PNG'ye dönüşümde hassasiyet ve güvenilirlik sağlar.
 
+## CAD Dışa Aktarma Eğitimleri
+### [AutoCAD Görüntülerini PDF'ye Dışa Aktarma - Aspose.CAD for Java Eğitimi](./export-autocad-images-to-pdf/)
+Zahmetsizce AutoCAD görüntülerini PDF'ye dışa aktarın. Adım adım rehberimiz sorunsuz entegrasyon sağlar.
+### [Aspose.CAD for Java ile CAD Düzenlerini PDF'ye Dışa Aktarma](./export-cad-layouts-to-pdf/)
+Aspose.CAD for Java ile CAD düzenlerini PDF'ye zahmetsizce dışa aktarın. Verimli, güvenilir ve geliştirici‑dostu.
+### [Aspose.CAD for Java ile BMP'ye Dışa Aktarma](./export-to-bmp/)
+Aspose.CAD for Java ile sorunsuz CAD'tan BMP'ye dönüşümü keşfedin. Adım adım rehberimiz verimli ve hassas dışa aktarmalar sağlar.
+### [Aspose.CAD for Java ile PDF'ye Dışa Aktarma](./export-to-pdf/)
+Aspose.CAD for Java ile CAD dosyalarını PDF'ye zahmetsizce dışa aktarmayı öğrenin. Adım adım rehberimiz sorunsuz entegrasyon sunar.
+### [Aspose.CAD for Java ile IFC'yi PNG'ye Dışa Aktarma](./export-ifc-to-png/)
+Aspose.CAD for Java ile IFC'yi PNG'ye zahmetsizce dönüştürün. Adım adım eğitimimizi izleyin.
+### [Aspose.CAD for Java ile STL'yi PNG'ye Dışa Aktarma](./export-stl-to-png/)
+Aspose.CAD ile Java'da STL dosyalarını PNG'ye sorunsuz bir şekilde dışa aktarma sürecini keşfedin. İş akışınızı basitleştirin ve Java projelerinizi zahmetsizce geliştirin.
+
 ### Yaygın Kullanım Senaryoları
 - **Müşteri teslimatları** – Kaynak DWG dosyalarını ortaya çıkarmadan PDF olarak tasarım incelemeleri sunun.  
 - **Otomatik raporlama** – Panolar için IFC veya STL modellerinin PNG küçük resimlerini oluşturun.  
@@ -96,29 +110,15 @@ C: Tek bir Aspose.CAD lisansı tüm desteklenen formatları (PDF, PNG, BMP, vb.)
 
 ---
 
+**Last Updated:** 2025-12-19  
+**Tested With:** Aspose.CAD for Java 24.12  
+**Author:** Aspose
+
+---
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
-## CAD Dışa Aktarma Eğitimleri
-### [AutoCAD Görüntülerini PDF'ye Dışa Aktarma - Aspose.CAD for Java Eğitimi](./export-autocad-images-to-pdf/)
-Zahmetsizce AutoCAD görüntülerini PDF'ye dışa aktarın. Adım adım rehberimiz sorunsuz entegrasyon sağlar.
-### [Aspose.CAD for Java ile CAD Düzenlerini PDF'ye Dışa Aktarma](./export-cad-layouts-to-pdf/)
-Aspose.CAD for Java ile CAD düzenlerini PDF'ye zahmetsizce dışa aktarın. Verimli, güvenilir ve geliştirici‑dostu.
-### [Aspose.CAD for Java ile BMP'ye Dışa Aktarma](./export-to-bmp/)
-Aspose.CAD for Java ile sorunsuz CAD'tan BMP'ye dönüşümü keşfedin. Adım adım rehberimiz verimli ve hassas dışa aktarmalar sağlar.
-### [Aspose.CAD for Java ile PDF'ye Dışa Aktarma](./export-to-pdf/)
-Aspose.CAD for Java ile CAD dosyalarını PDF'ye zahmetsizce dışa aktarmayı öğrenin. Adım adım rehberimiz sorunsuz entegrasyon sunar.
-### [Aspose.CAD for Java ile IFC'yi PNG'ye Dışa Aktarma](./export-ifc-to-png/)
-Aspose.CAD for Java ile IFC'yi PNG'ye zahmetsizce dönüştürün. Adım adım eğitimimizi izleyin.
-### [Aspose.CAD for Java ile STL'yi PNG'ye Dışa Aktarma](./export-stl-to-png/)
-Aspose.CAD ile Java'da STL dosyalarını PNG'ye sorunsuz bir şekilde dışa aktarma sürecini keşfedin. İş akışınızı basitleştirin ve Java projelerinizi zahmetsizce geliştirin.
-
----
-
-**Last Updated:** 2025-12-19  
-**Tested With:** Aspose.CAD for Java 24.12  
-**Author:** Aspose

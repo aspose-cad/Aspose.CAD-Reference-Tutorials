@@ -106,28 +106,6 @@ image.save(dataDir + "conic_pyramid_raster_image_out.png", options);
 
 요약하면, Aspose.CAD for Java를 사용해 CAD 도면을 래스터 이미지로 변환하는 과정은 매우 간단합니다. 이 튜토리얼에 제시된 단계를 따르면 Java 애플리케이션에 이 기능을 효율적으로 통합하고 **convert dwg to png**, **export cad as png**, 혹은 필요한 모든 **cad to png conversion**을 수행할 수 있습니다.
 
-## FAQ
-
-### Q1: Aspose.CAD가 모든 CAD 형식을 지원하나요?
-
-A1: Aspose.CAD는 DWG, DXF, DWF 등 다양한 CAD 형식을 지원합니다. 전체 목록은 [문서](https://reference.aspose.com/cad/java/)를 참고하십시오.
-
-### Q2: 특정 요구에 맞게 래스터화 옵션을 커스터마이즈할 수 있나요?
-
-A2: 네, Aspose.CAD는 래스터화 옵션을 유연하게 설정할 수 있어 출력 결과를 필요에 맞게 조정할 수 있습니다.
-
-### Q3: Aspose.CAD 관련 문의는 어디서 지원받을 수 있나요?
-
-A3: [Aspose.CAD 포럼](https://forum.aspose.com/c/cad/19)에서 도움을 받고 커뮤니티와 소통할 수 있습니다.
-
-### Q4: Aspose.CAD for Java의 무료 체험판이 있나요?
-
-A4: 네, 무료 체험판은 [여기](https://releases.aspose.com/)에서 받을 수 있습니다.
-
-### Q5: Aspose.CAD for Java를 어떻게 구매하나요?
-
-A5: 구매 페이지는 [여기](https://purchase.aspose.com/buy)에서 확인하십시오.
-
 ## 자주 묻는 질문
 
 **Q: 배경색을 커스텀하여 DWG 파일을 PNG로 변환하려면 어떻게 해야 하나요?**  

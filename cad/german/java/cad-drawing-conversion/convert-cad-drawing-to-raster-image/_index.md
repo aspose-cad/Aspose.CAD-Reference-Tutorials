@@ -107,28 +107,6 @@ Wiederholen Sie diese Schritte für Ihre jeweiligen CAD‑Dateien, und Sie haben
 
 Zusammenfassend lässt sich sagen, dass das Konvertieren von CAD‑Zeichnungen in Rasterbilder mit Aspose.CAD für Java ein unkomplizierter Prozess ist. Durch Befolgen der in diesem Tutorial beschriebenen Schritte können Sie diese Funktionalität effizient in Ihre Java‑Anwendungen integrieren und **convert dwg to png**, **export cad as png** oder jede andere **cad to png conversion** durchführen, die Sie benötigen.
 
-## FAQ's
-
-### Q1: Ist Aspose.CAD mit allen CAD‑Formaten kompatibel?
-
-A1: Aspose.CAD unterstützt eine breite Palette von CAD‑Formaten, darunter DWG, DXF, DWF und mehr. Die vollständige Liste finden Sie in der [Dokumentation](https://reference.aspose.com/cad/java/).
-
-### Q2: Kann ich die Rasterisierungsoptionen an meine spezifischen Bedürfnisse anpassen?
-
-A2: Ja, Aspose.CAD bietet Flexibilität beim Festlegen der Rasterisierungsoptionen, sodass Sie die Ausgabe nach Ihren Anforderungen gestalten können.
-
-### Q3: Wo finde ich Support für Fragen zu Aspose.CAD?
-
-A3: Besuchen Sie das [Aspose.CAD‑Forum](https://forum.aspose.com/c/cad/19), um Hilfe zu erhalten und sich mit der Community auszutauschen.
-
-### Q4: Gibt es eine kostenlose Testversion von Aspose.CAD für Java?
-
-A4: Ja, Sie können die Funktionen von Aspose.CAD mit einer kostenlosen Testversion [hier](https://releases.aspose.com/) erkunden.
-
-### Q5: Wie kann ich Aspose.CAD für Java erwerben?
-
-A5: Zum Kauf von Aspose.CAD für Java besuchen Sie die [Kaufseite](https://purchase.aspose.com/buy).
-
 ## Häufig gestellte Fragen
 
 **F: Wie konvertiere ich eine DWG‑Datei zu PNG mit einer benutzerdefinierten Hintergrundfarbe?**  

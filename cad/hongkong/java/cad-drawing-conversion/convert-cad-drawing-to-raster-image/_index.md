@@ -107,28 +107,6 @@ image.save(dataDir + "conic_pyramid_raster_image_out.png", options);
 
 總結來說，使用 Aspose.CAD for Java 將 CAD 圖紙轉換為點陣圖是一個簡單的流程。依循本教學所列步驟，您即可有效將此功能整合至 Java 應用程式中，執行 **convert dwg to png**、**export cad as png** 或其他任何 **cad to png conversion**。
 
-## 常見問答
-
-### Q1：Aspose.CAD 是否相容所有 CAD 格式？
-
-A1：Aspose.CAD 支援廣泛的 CAD 格式，包括 DWG、DXF、DWF 等等。完整列表請參考[文件說明](https://reference.aspose.com/cad/java/)。
-
-### Q2：我可以依需求自訂光柵化選項嗎？
-
-A2：可以，Aspose.CAD 提供彈性設定光柵化選項，讓您依需求調整輸出。
-
-### Q3：在哪裡可以取得 Aspose.CAD 相關問題的支援？
-
-A3：請前往[Aspose.CAD 論壇](https://forum.aspose.com/c/cad/19)取得協助並與社群互動。
-
-### Q4：是否提供 Aspose.CAD for Java 的免費試用？
-
-A4：可以，您可於[此處](https://releases.aspose.com/)取得免費試用，探索 Aspose.CAD 功能。
-
-### Q5：如何購買 Aspose.CAD for Java？
-
-A5：欲購買 Aspose.CAD for Java，請前往[購買頁面](https://purchase.aspose.com/buy)。
-
 ## 常見問題
 
 **Q: 如何在轉換 DWG 為 PNG 時設定自訂背景顏色？**  

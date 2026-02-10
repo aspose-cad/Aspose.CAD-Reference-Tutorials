@@ -108,28 +108,6 @@ image.save(dataDir + "conic_pyramid_raster_image_out.png", options);
 
 ## الأسئلة المتكررة
 
-### س1: هل Aspose.CAD متوافق مع جميع صيغ CAD؟
-
-ج1: يدعم Aspose.CAD مجموعة واسعة من صيغ CAD، بما في ذلك DWG وDXF وDWF وغيرها. راجع [الوثائق](https://reference.aspose.com/cad/java/) للقائمة الكاملة.
-
-### س2: هل يمكنني تخصيص خيارات التحويل النقطي لاحتياجاتي الخاصة؟
-
-ج2: نعم، يوفر Aspose.CAD مرونة في ضبط خيارات التحويل النقطي، مما يتيح لك تخصيص المخرجات وفقًا لمتطلباتك.
-
-### س3: أين يمكنني العثور على دعم لاستفسارات متعلقة بـ Aspose.CAD؟
-
-ج3: زر [منتدى Aspose.CAD](https://forum.aspose.com/c/cad/19) للحصول على المساعدة والتفاعل مع المجتمع.
-
-### س4: هل هناك نسخة تجريبية مجانية متاحة لـ Aspose.CAD للـ Java؟
-
-ج4: نعم، يمكنك استكشاف ميزات Aspose.CAD بالحصول على نسخة تجريبية مجانية [هنا](https://releases.aspose.com/).
-
-### س5: كيف يمكنني شراء Aspose.CAD للـ Java؟
-
-ج5: لشراء Aspose.CAD للـ Java، زر [صفحة الشراء](https://purchase.aspose.com/buy).
-
-## الأسئلة المتكررة
-
 **س: كيف يمكنني تحويل ملف DWG إلى PNG مع لون خلفية مخصص؟**  
 ج: اضبط خاصية `backgroundColor` في `CadRasterizationOptions` قبل إنشاء كائن `PngOptions`.
 

@@ -109,28 +109,6 @@ Na závěr, převod CAD výkresů na rastrové obrázky pomocí Aspose.CAD pro J
 
 ## Často kladené otázky
 
-### Q1: Je Aspose.CAD kompatibilní se všemi CAD formáty?
-
-A1: Aspose.CAD podporuje širokou škálu CAD formátů, včetně DWG, DXF, DWF a dalších. Kompletní seznam najdete v [dokumentaci](https://reference.aspose.com/cad/java/).
-
-### Q2: Mohu přizpůsobit možnosti rasterizace pro své konkrétní potřeby?
-
-A2: Ano, Aspose.CAD poskytuje flexibilitu při nastavení možností rasterizace, což vám umožní přizpůsobit výstup podle vašich požadavků.
-
-### Q3: Kde mohu najít podporu pro dotazy týkající se Aspose.CAD?
-
-A3: Navštivte [Aspose.CAD fórum](https://forum.aspose.com/c/cad/19), kde získáte pomoc a můžete se zapojit do komunity.
-
-### Q4: Je k dispozici bezplatná zkušební verze Aspose.CAD pro Java?
-
-A4: Ano, můžete si prozkoumat funkce Aspose.CAD získáním bezplatné zkušební verze [zde](https://releases.aspose.com/).
-
-### Q5: Jak mohu zakoupit Aspose.CAD pro Java?
-
-A5: Pro nákup Aspose.CAD pro Java navštivte [stránku nákupu](https://purchase.aspose.com/buy).
-
-## Často kladené otázky
-
 **Q: Jak převést soubor DWG na PNG s vlastním barevným pozadím?**  
 A: Nastavte vlastnost `backgroundColor` na `CadRasterizationOptions` před vytvořením instance `PngOptions`.
 

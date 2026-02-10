@@ -67,6 +67,20 @@ Chuyển đổi IFC sang PNG một cách dễ dàng bằng Aspose.CAD cho Java. 
 
 Khám phá quy trình liền mạch của việc export tệp STL sang PNG trong Java với Aspose.CAD. Đơn giản hoá quy trình làm việc và nâng cao các dự án Java của bạn một cách dễ dàng. Hướng dẫn từng bước của chúng tôi đảm bảo độ chính xác và độ tin cậy trong các chuyển đổi STL sang PNG.
 
+## Hướng dẫn Xuất CAD
+### [Export AutoCAD Images to PDF - Aspose.CAD for Java Tutorial](./export-autocad-images-to-pdf/)
+Chuyển đổi hình ảnh AutoCAD sang PDF một cách dễ dàng bằng Aspose.CAD cho Java. Theo dõi hướng dẫn từng bước của chúng tôi để tích hợp liền mạch.
+### [Export CAD Layouts to PDF with Aspose.CAD for Java](./export-cad-layouts-to-pdf/)
+Khám phá Aspose.CAD cho Java để export bố cục CAD sang PDF một cách dễ dàng. Hiệu quả, đáng tin cậy và thân thiện với nhà phát triển.
+### [Export to BMP with Aspose.CAD for Java](./export-to-bmp/)
+Khám phá chuyển đổi CAD sang BMP liền mạch với Aspose.CAD cho Java. Theo dõi hướng dẫn từng bước của chúng tôi để xuất hiệu quả và chính xác.
+### [Export to PDF with Aspose.CAD for Java](./export-to-pdf/)
+Tìm hiểu cách export tệp CAD sang PDF một cách dễ dàng với Aspose.CAD cho Java. Theo dõi hướng dẫn từng bước của chúng tôi để tích hợp liền mạch.
+### [Export IFC to PNG with Aspose.CAD for Java](./export-ifc-to-png/)
+Chuyển đổi IFC sang PNG một cách dễ dàng với Aspose.CAD cho Java. Theo dõi tutorial từng bước của chúng tôi.
+### [Export STL to PNG with Aspose.CAD for Java](./export-stl-to-png/)
+Khám phá quy trình liền mạch của việc export tệp STL sang PNG trong Java với Aspose.CAD. Đơn giản hoá quy trình làm việc và nâng cao các dự án Java của bạn một cách dễ dàng.
+
 ### Các trường hợp sử dụng phổ biến
 - **Client deliverables** – Cung cấp các bản đánh giá thiết kế dưới dạng PDF mà không lộ các tệp DWG gốc.  
 - **Automated reporting** – Tạo các ảnh thu nhỏ PNG của mô hình IFC hoặc STL cho bảng điều khiển.  
@@ -94,29 +108,15 @@ A: Không có giới hạn cố định; mỗi bố cục sẽ trở thành mộ
 **Q: Tôi có cần giấy phép riêng cho mỗi định dạng export không?**  
 A: Một giấy phép Aspose.CAD duy nhất bao phủ tất cả các định dạng được hỗ trợ (PDF, PNG, BMP, v.v.).
 
+---
+
+**Cập nhật lần cuối:** 2025-12-19  
+**Kiểm tra với:** Aspose.CAD for Java 24.12  
+**Tác giả:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
-## Hướng dẫn Xuất CAD
-### [Export AutoCAD Images to PDF - Aspose.CAD for Java Tutorial](./export-autocad-images-to-pdf/)
-Chuyển đổi hình ảnh AutoCAD sang PDF một cách dễ dàng bằng Aspose.CAD cho Java. Theo dõi hướng dẫn từng bước của chúng tôi để tích hợp liền mạch.
-### [Export CAD Layouts to PDF with Aspose.CAD for Java](./export-cad-layouts-to-pdf/)
-Khám phá Aspose.CAD cho Java để export bố cục CAD sang PDF một cách dễ dàng. Hiệu quả, đáng tin cậy và thân thiện với nhà phát triển.
-### [Export to BMP with Aspose.CAD for Java](./export-to-bmp/)
-Khám phá chuyển đổi CAD sang BMP liền mạch với Aspose.CAD cho Java. Theo dõi hướng dẫn từng bước của chúng tôi để xuất hiệu quả và chính xác.
-### [Export to PDF with Aspose.CAD for Java](./export-to-pdf/)
-Tìm hiểu cách export tệp CAD sang PDF một cách dễ dàng với Aspose.CAD cho Java. Theo dõi hướng dẫn từng bước của chúng tôi để tích hợp liền mạch.
-### [Export IFC to PNG with Aspose.CAD for Java](./export-ifc-to-png/)
-Chuyển đổi IFC sang PNG một cách dễ dàng với Aspose.CAD cho Java. Theo dõi tutorial từng bước của chúng tôi.
-### [Export STL to PNG with Aspose.CAD for Java](./export-stl-to-png/)
-Khám phá quy trình liền mạch của việc export tệp STL sang PNG trong Java với Aspose.CAD. Đơn giản hoá quy trình làm việc và nâng cao các dự án Java của bạn một cách dễ dàng.
-
----
-
-**Cập nhật lần cuối:** 2025-12-19  
-**Kiểm tra với:** Aspose.CAD for Java 24.12  
-**Tác giả:** Aspose

@@ -15,92 +15,58 @@ weight: 30
 
 # ตัวเลือกการส่งออก CAD
 
-## Introduction
+## การแนะนำ
 
-หากคุณเป็นนักพัฒนา Java ที่ต้องการ **export AutoCAD to PDF** อย่างรวดเร็วและเชื่อถือได้ คุณมาถูกที่แล้ว ในคู่มือนี้เราจะพาคุณผ่านสถานการณ์การส่งออกที่พบบ่อยที่สุดของ Aspose.CAD for Java — รวมถึงภาพ AutoCAD, เค้าโครง CAD, BMP, PDF, IFC, และไฟล์ STL คุณจะได้รู้ว่าฟีเจอร์เหล่านี้สำคัญอย่างไร, เข้ากับโครงการจริงอย่างไร, และขั้นตอนทีละขั้นตอนที่คุณสามารถคัดลอกไปใช้ในโค้ดของคุณได้
+สังเกตเป็น Java ต้องการ **ส่งออก AutoCAD เป็น PDF** อย่างรวดเร็วและเชื่อถือได้คุณมาถูกที่แล้วในคู่มือนี้เราจะพาคุณผ่านสถานการณ์ทั่วไปของ Aspose.CAD for Java — และภาพรวมภาพ AutoCAD, ติดตาม CAD, BMP, PDF, IFC, และไฟล์ STL คุณจะรู้ว่าที่นี่มีความสำคัญอย่างไร, ตรวจสอบโครงการจริงอย่างไร, และขั้นตอนแรกขั้นตอนแรกในการควบคุมในโค้ดนี้
 
-## Quick Answers
-- **What is the simplest way to export AutoCAD to PDF?** Use `Image.save("output.pdf", new PdfOptions())` from Aspose.CAD.  
-- **Which formats can I convert IFC files to?** PNG is fully supported; just load the IFC file and save as PNG.  
-- **Can I export STL files directly to PNG?** Yes—load the STL model and call `save("image.png")`.  
-- **Do I need a license for production use?** A commercial license is required for non‑trial deployments.  
-- **What Java version is required?** Java 8 or higher is recommended.
+## คำตอบด่วน
+- **วิธีที่ง่ายที่สุดในการส่งออก AutoCAD เป็น PDF คืออะไร** ใช้ `Image.save("output.pdf", new PdfOptions())` จาก Aspose.CAD
+- **ฉันสามารถแปลงไฟล์ IFC เป็นรูปแบบใดได้บ้าง** รองรับ PNG เต็มรูปแบบ เพียงโหลดไฟล์ IFC และบันทึกเป็น PNG
+- **ฉันสามารถส่งออกไฟล์ STL ไปยัง PNG โดยตรงได้หรือไม่** ได้ โหลดโมเดล STL และเรียก `save("image.png")`
+- **ฉันต้องมีใบอนุญาตสำหรับการใช้งานจริงหรือไม่** จำเป็นต้องมีใบอนุญาตเชิงพาณิชย์สำหรับการปรับใช้แบบไม่ทดลองใช้
+- **ต้องใช้ Java เวอร์ชันใด** แนะนำให้ใช้ Java8 หรือสูงกว่า
 
-## What is **export autocad to pdf**?
+## **ส่งออก autocad เป็น pdf** คืออะไร?
 
-การส่งออกแบบร่าง AutoCAD ไปเป็น PDF หมายถึงการแปลงไฟล์ DWG/DXF ที่เป็นเวกเตอร์ให้เป็นรูปแบบหน้าเอกสารที่เป็นที่ยอมรับอย่างกว้างขวาง PDF จะรักษาชั้น, ความหนาของเส้น, และสีไว้ ทำให้เหมาะสำหรับการแชร์แบบออกแบบกับลูกค้า, ผู้ตรวจสอบ, หรือระบบ downstream ที่ไม่รองรับไฟล์ CAD ดั้งเดิม
+ที่แบบร่าง AutoCAD ไปเป็น PDF เพื่อตรวจสอบไฟล์ DWG/DXF เป็นสัญลักษณ์ของการรำลึกถึงหน้าเอกสารที่มีความสำคัญ PDF จะรักษาชั้น, ระบบควบคุมเส้น, และสีไว้ที่นั่นแชร์แบบออกแบบกับลูกค้า, ผู้ตรวจสอบ, หรือระบบดาวน์สตรีม ที่ไม่รองรับไฟล์ CAD ดั้งเดิม
 
-## Why use Aspose.CAD for Java?
+## เหตุใดจึงต้องใช้ Aspose.CAD สำหรับ Java
 
-- **Zero‑install, pure Java** – No native dependencies or COM interop.  
-- **High fidelity** – Geometry, text, and raster data are reproduced exactly.  
-- **Batch processing** – Export dozens of files in a single loop with minimal memory footprint.  
-- **Broad format support** – From classic DWG/DXF to modern IFC and STL, all with a unified API.
+- **ไม่มีการติดตั้ง Java ล้วนๆ** – ไม่มีการพึ่งพาเนทีฟหรือการทำงานร่วมกันของ COM
+- **ความเที่ยงตรงสูง** – ข้อมูลเรขาคณิต ข้อความ และแรสเตอร์ได้รับการทำซ้ำอย่างแม่นยำ
+- **การประมวลผลเป็นชุด** – ส่งออกไฟล์หลายสิบไฟล์ในลูปเดียวโดยใช้พื้นที่หน่วยความจำน้อยที่สุด
+- **รองรับไฟล์หลายรูปแบบ** – ตั้งแต่ DWG/DXF แบบคลาสสิก ไปจนถึง IFC และ STL ที่ทันสมัย ​​ทั้งหมดนี้ใช้ API เดียวกัน
 
-## Prerequisites
-- Java 8 or newer installed.  
-- Aspose.CAD for Java library added to your project (Maven/Gradle or JAR).  
-- A valid Aspose license for production use (free trial available).
+## ข้อกำหนดเบื้องต้น
+- ติดตั้ง Java 8 หรือเวอร์ชันที่ใหม่กว่า
 
-## Export AutoCAD Images to PDF
+- เพิ่มไลบรารี Aspose.CAD สำหรับ Java ลงในโปรเจ็กต์ของคุณแล้ว (Maven/Gradle หรือ JAR)
 
-แปลงภาพ AutoCAD เป็น PDF อย่างง่ายดายด้วย Aspose.CAD for Java คู่มือขั้นตอน‑โดย‑ขั้นตอนของเราช่วยให้การผสานรวมเป็นไปอย่างราบรื่น ทำให้การส่งออก PDF ของคุณแม่นยำและเชื่อถือได้
+- ใบอนุญาต Aspose ที่ถูกต้องสำหรับการใช้งานจริง (มีรุ่นทดลองใช้งานฟรี)
 
-## Export CAD Layouts to PDF
+## ส่งออกรูปภาพ AutoCAD เป็น PDF
 
-ค้นพบประสิทธิภาพของ Aspose.CAD for Java ในการส่งออกเค้าโครง CAD ไปเป็น PDF เครื่องมือนี้เป็นมิตรต่อผู้พัฒนาและรับประกันความน่าเชื่อถือ ทำให้เค้าโครง CAD ของคุณถูกแปลงเป็น PDF อย่างแม่นยำ ตามคู่มือของเราเพื่อประสบการณ์ที่ราบรื่น
+บันทึกภาพ AutoCAD ในรูปแบบ PDF ดังเช่นด้วย Aspose.CAD สำหรับ Java เอกสารขั้นตอน ‑ โดย ‑ ขั้นตอนช่วยให้การจัดเก็บข้อมูลของเรารวมในที่สาธารณะใน PDF ตรวจสอบของคุณและเชื่อถือได้
 
-## Export to BMP
+## ส่งออกเค้าโครง CAD เป็น PDF
 
-สำรวจการแปลง CAD ไปเป็น BMP อย่างไม่มีรอยต่อด้วย Aspose.CAD for Java คู่มือขั้นตอน‑โดย‑ขั้นตอนของเราช่วยให้การส่งออกมีประสิทธิภาพและความแม่นยำ เพิ่มโครงการของคุณได้อย่างง่ายดายโดยทำตามบทแนะนำของเรา
+ค้นพบข้อดีของ Aspose.CAD สำหรับ Java ในบางครั้งเนื่องจาก CAD ไปเป็น PDF เครื่องมือนี้ต่อจากนั้นและรับประกันความน่าเชื่อถือของ CAD ของคุณถูกแปลงเป็น PDF ตามคู่มือของเราเพื่อประสบการณ์ที่เคารพ
 
-## Export to PDF
+## ส่งออกเป็น BMP
 
-เรียนรู้ศิลปะการส่งออกไฟล์ CAD ไปเป็น PDF อย่างง่ายดายด้วย Aspose.CAD for Java คู่มือขั้นตอน‑โดย‑ขั้นตอนของเราช่วยให้การผสานรวมเป็นเรื่องง่าย ทำให้คุณสามารถแปลงไฟล์ CAD ไปเป็น PDF ได้อย่างราบรื่น ยกระดับกระบวนการทำงานของคุณด้วยบทเรียนที่ทรงพลังนี้
+การควบคุม CAD ไปเป็น BMP เช่นไม่มีรอยต่อด้วย Aspose.CAD สำหรับ Java คำแนะนำขั้นตอน ‑ โดย ‑ ขั้นตอนของเราช่วยให้มีประสิทธิภาพและมีประสิทธิภาพและมุ่งเน้นไปที่โครงการของคุณโดยทำตามบทแนะนำของเรา
 
-## Export IFC to PNG
+## ส่งออกเป็น PDF
 
-แปลง IFC ไปเป็น PNG อย่างง่ายดายด้วย Aspose.CAD for Java คำแนะนำโดยละเอียดของเราจะพาคุณผ่านกระบวนการเพื่อให้การแปลงเป็นไปอย่างราบรื่นและเชื่อถือได้ ทำให้การทำงานของคุณง่ายขึ้นและสำรวจความสามารถของ Aspose.CAD for Java
+ข้อดีของศิลปะไฟล์ CAD ไปเป็น PDF ในเรื่องดังกล่าวด้วย Aspose.CAD สำหรับ Java คำแนะนำขั้นตอน ‑ โดย ‑ ขั้นตอนของเราช่วยให้การวิจารณ์รวมเป็นเรื่องง่ายที่คุณจะได้แปลงไฟล์ CAD ไปเป็น PDF ตัวควบคุมระดับสูงทำงานอย่างไรกับระบบปฏิบัติการนี้
 
-## Export STL to PNG
+## ส่งออก IFC เป็น PNG
 
-สำรวจกระบวนการส่งออกไฟล์ STL ไปเป็น PNG ใน Java ด้วย Aspose.CAD ทำให้การทำงานของคุณง่ายขึ้นและเพิ่มประสิทธิภาพให้โครงการ Java ของคุณอย่างไม่มีรอยต่อ คู่มือขั้นตอน‑โดย‑ขั้นตอนของเราช่วยให้การแปลง STL เป็น PNG มีความแม่นยำและเชื่อถือได้
+ไฟล์ IFC ไปเป็น PNG ไดร์เวอร์ด้วย Aspose.CAD สำหรับ Java ปฏิบัติตามของเราจะพาคุณผ่านข้อมูลเพื่อให้การตรวจสอบความน่าเชื่อถือและความน่าเชื่อถือในการทำงานของคุณและสำรวจความคิดเห็น Aspose.CAD สำหรับ Java
 
-### Common Use Cases
-- **Client deliverables** – Provide design reviews in PDF without exposing source DWG files.  
-- **Automated reporting** – Generate PNG thumbnails of IFC or STL models for dashboards.  
-- **Batch conversion pipelines** – Process large CAD archives overnight using a simple Java loop.
+## ส่งออก STL เป็น PNG
 
-### Tips & Tricks
-- **Pro tip:** Set `PdfOptions.setVectorRasterizationOptions()` to control DPI for raster‑based exports.  
-- **Avoid memory spikes:** Use `Image.dispose()` after each save when processing many files.  
-- **Troubleshooting:** If layers disappear, ensure the source DWG contains visible layers and that `PdfOptions.setCompress(true)` is enabled.
-
-## Frequently Asked Questions
-
-**Q: How do I convert IFC to PNG using Aspose.CAD?**  
-A: Load the IFC file with `Image.load("model.ifc")` and call `save("model.png", new PngOptions())`.
-
-**Q: Can I export a CAD layout directly to PDF without converting to an image first?**  
-A: Yes—Aspose.CAD treats layouts as images internally, so `save("layout.pdf", new PdfOptions())` handles it automatically.
-
-**Q: What is the difference between exporting AutoCAD to PDF and exporting a CAD layout to PDF?**  
-A: Exporting an AutoCAD drawing converts the entire drawing, while exporting a layout targets a specific paper‑space view, preserving its page settings.
-
-**Q: Is there a limit on the number of pages when exporting a multi‑sheet DWG to PDF?**  
-A: No inherent limit; each layout becomes a separate page in the resulting PDF.
-
-**Q: Do I need a separate license for each export format?**  
-A: A single Aspose.CAD license covers all supported formats (PDF, PNG, BMP, etc.).
-
----
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
+ระบบควบคุมการส่งออกไฟล์ STL ไปเป็น PNG ใน Java ด้วย Aspose.CAD ฟังก์ชั่นการทำงานของคุณและการตรวจสอบให้โครงการ Java ของคุณอย่างไม่มีรอยต่อส่วนประกอบขั้นตอน ‑ โดย ‑ ขั้นตอนของเราช่วยให้การตรวจสอบ STL เป็น PNG มีความน่าเชื่อถือและเชื่อถือได้
 
 ## บทเรียนการส่งออก CAD
 
@@ -122,8 +88,46 @@ A: A single Aspose.CAD license covers all supported formats (PDF, PNG, BMP, etc.
 ### [ส่งออก STL เป็น PNG ด้วย Aspose.CAD for Java](./export-stl-to-png/)
 สำรวจกระบวนการส่งออกไฟล์ STL ไปเป็น PNG ใน Java ด้วย Aspose.CAD ทำให้การทำงานของคุณง่ายขึ้นและเพิ่มประสิทธิภาพให้โครงการ Java ของคุณอย่างไม่มีรอยต่อ
 
+### กรณีการใช้งานทั่วไป
+- **การส่งมอบของลูกค้า** – ให้การตรวจสอบการออกแบบในรูปแบบ PDF โดยไม่ต้องเปิดเผยไฟล์ DWG ต้นฉบับ
+- **การรายงานอัตโนมัติ** – สร้างภาพขนาดย่อ PNG ของโมเดล IFC หรือ STL สำหรับแดชบอร์ด
+- **ไปป์ไลน์การแปลงเป็นชุด** – ประมวลผลไฟล์เก็บถาวร CAD ขนาดใหญ่ในชั่วข้ามคืนโดยใช้ Java Loop แบบธรรมดา
+
+### เคล็ดลับและเทคนิค
+- **เคล็ดลับสำหรับมือโปร:** ตั้งค่า `PdfOptions.setVectorRasterizationOptions()` เพื่อควบคุม DPI สำหรับการส่งออกแบบแรสเตอร์
+- **หลีกเลี่ยงปัญหาการใช้หน่วยความจำสูงเกินปกติ:** ใช้ `Image.dispose()` หลังจากการบันทึกแต่ละครั้งเมื่อประมวลผลไฟล์จำนวนมาก
+
+- **การแก้ไขปัญหา:** หากเลเยอร์หายไป ตรวจสอบให้แน่ใจว่าไฟล์ DWG ต้นฉบับมีเลเยอร์ที่มองเห็นได้ และเปิดใช้งาน `PdfOptions.setCompress(true)` แล้ว
+
+## คำถามที่พบบ่อย
+
+**ถาม: ฉันจะแปลง IFC เป็น PNG โดยใช้ Aspose.CAD ได้อย่างไร?**
+ตอบ: โหลดไฟล์ IFC ด้วย `Image.load("model.ifc")` และเรียกใช้ `save("model.png", new PngOptions())`
+
+**ถาม: ฉันสามารถส่งออกเลย์เอาต์ CAD ไปยัง PDF โดยตรงโดยไม่ต้องแปลงเป็นรูปภาพก่อนได้หรือไม่?**
+ตอบ: ได้—Aspose.CAD ถือว่าเลย์เอาต์เป็นรูปภาพภายใน ดังนั้น `save("layout.pdf", new PdfOptions())` จะจัดการโดยอัตโนมัติ
+
+
+**ถาม: การส่งออกไฟล์ AutoCAD ไปเป็น PDF กับการส่งออกเลย์เอาต์ CAD ไปเป็น PDF แตกต่างกันอย่างไร?**
+ตอบ: การส่งออกไฟล์ภาพวาด AutoCAD จะแปลงภาพวาดทั้งหมด ในขณะที่การส่งออกเลย์เอาต์จะกำหนดเป้าหมายไปยังมุมมองพื้นที่กระดาษเฉพาะ โดยคงการตั้งค่าหน้ากระดาษไว้
+
+**ถาม: มีข้อจำกัดเกี่ยวกับจำนวนหน้าเมื่อส่งออกไฟล์ DWG หลายแผ่นไปเป็น PDF หรือไม่?**
+ตอบ: ไม่มีข้อจำกัดโดยธรรมชาติ แต่ละเลย์เอาต์จะกลายเป็นหน้าแยกต่างหากในไฟล์ PDF ที่ได้
+
+**ถาม: ฉันต้องมีใบอนุญาตแยกต่างหากสำหรับแต่ละรูปแบบการส่งออกหรือไม่?**
+ตอบ: ใบอนุญาต Aspose.CAD เพียงใบเดียวครอบคลุมทุกรูปแบบที่รองรับ (PDF, PNG, BMP ฯลฯ)
+
 ---
 
 **Last Updated:** 2025-12-19  
 **Tested With:** Aspose.CAD for Java 24.12  
 **Author:** Aspose
+
+---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

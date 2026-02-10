@@ -108,23 +108,6 @@ Répétez ces étapes pour vos fichiers CAD spécifiques, et vous aurez réussi 
 
 En conclusion, convertir des dessins CAD en images raster avec Aspose.CAD pour Java est un processus simple. En suivant les étapes décrites dans ce tutoriel, vous pouvez intégrer efficacement cette fonctionnalité dans vos applications Java et effectuer **convert dwg to png**, **export cad as png**, ou toute autre **cad to png conversion** dont vous avez besoin.
 
-## FAQ
-
-### Q1 : Aspose.CAD est‑il compatible avec tous les formats CAD ?
-R1 : Aspose.CAD prend en charge un large éventail de formats CAD, y compris DWG, DXF, DWF et plus. Consultez la [documentation](https://reference.aspose.com/cad/java/) pour la liste complète.
-
-### Q2 : Puis‑je personnaliser les options de rasterisation selon mes besoins spécifiques ?
-R2 : Oui, Aspose.CAD offre une flexibilité dans la définition des options de rasterisation, vous permettant d'adapter la sortie à vos exigences.
-
-### Q3 : Où puis‑je trouver du support pour les questions liées à Aspose.CAD ?
-R3 : Consultez le [forum Aspose.CAD](https://forum.aspose.com/c/cad/19) pour obtenir de l'aide et interagir avec la communauté.
-
-### Q4 : Existe‑t‑il un essai gratuit disponible pour Aspose.CAD pour Java ?
-R4 : Oui, vous pouvez explorer les fonctionnalités d'Aspose.CAD en obtenant un essai gratuit [ici](https://releases.aspose.com/).
-
-### Q5 : Comment puis‑je acheter Aspose.CAD pour Java ?
-R5 : Pour acheter Aspose.CAD pour Java, rendez‑vous sur la [page d'achat](https://purchase.aspose.com/buy).
-
 ## Questions fréquemment posées
 
 **Q : Comment convertir un fichier DWG en PNG avec une couleur d'arrière‑plan personnalisée ?**  

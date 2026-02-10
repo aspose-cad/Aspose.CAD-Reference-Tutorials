@@ -17,37 +17,42 @@ weight: 10
 
 # AutoCAD PDF exportálása – AutoCAD képek exportálása PDF-be az Aspose.CAD for Java segítségével
 
-## Introduction
+## Bevezetés
 
-Keresi a zökkenőmentes **export AutoCAD PDF** megoldást Java-val? Ne keressen tovább! Ebben az útmutatóban végigvezetjük a AutoCAD képek PDF-be konvertálásán az Aspose.CAD for Java használatával, egy erőteljes könyvtárral, amely egyszerűvé teszi a **convert DWG to PDF** folyamatot. A végére megérti, hogyan **save CAD as PDF**, hogyan alkalmazzon egyedi rasterizálási beállításokat, és hogyan használjon Aspose.CAD licencet termelési környezetben.
+Keresi a zökkenőmentes **export AutoCAD PDF** megoldást Java-val? Ne keressen tovább! Ebben az útmutatóban végigvezetjük az AutoCAD PDF-be konvertálásán az Aspose.CAD for Java-t, egy könyvtárral, amely egyszerűvé teszi a **convert DWG to PDF** folyamatot. A végére megérti, hogyan **save CAD as PDF**, hogyan alkalmazzon egyedi rasterizálási beállításokat, és hogyan használjon Aspose.CAD licencet termelési környezetben.
 
-## Quick Answers
-- **Átalakíthatok DWG-t PDF-re Java-val?** Igen, az Aspose.CAD for Java kezeli a DWG, DXF és számos más formátumot.  
-- **Szükségem van licencre?** Egy **Aspose CAD license** szükséges a korlátlan használathoz; egy ideiglenes licenc elérhető értékeléshez.  
-- **Mely Java verzió támogatott?** Java 8+ (a könyvtár kompatibilis minden modern JDK-val).  
-- **Testreszabhatom a PDF oldal méretét?** Természetesen – állítsa be a `pageWidth` és `pageHeight` értékeket a rasterizálási beállításokban.  
-- **Lehetséges a 3‑D rasterizálás?** Igen, engedélyezze a `TypeOfEntities.Entities3D`-t a teljes 3‑D megjelenítéshez.
+## Gyors válaszok
+- **Átalakíthatok DWG-t PDF-re Java-val?** Igen, az Aspose.CAD for Java kezeli a DWG, DXF és számos más formátumot.
+- **Szükségem van licencre?** Egy **Aspose CAD licenc** szükséges a korlátlan használathoz; egy ideiglenes licenc elérhető értékeléshez.
+- **Mely Java verzió támogatott?** Java8+ (a könyvtár kompatibilis minden modern JDK-val).
+- **Testreszabhatom a PDF oldal méretét?** Természetesen – állítsa be a `pageWidth` és `pageHeight` értékeket a rasterizálási beállításban.
+- **Lehetséges a 3-D rasterizálás?** Igen, engedélyezze a `TypeOfEntities.Entities3D`-t a teljes 3-D térképhez.
 
-## What is **export autocad pdf**?
-Az AutoCAD PDF exportálása azt jelenti, hogy vektor‑alapú CAD rajzokat (DWG, DXF, DWF stb.) hordozható PDF dokumentummá alakítunk, miközben megőrzik a rétegeket, vonalvastagságokat, és opcionálisan a 3‑D geometriát. Ez hasznos a tervek ügyfelekkel való megosztásához, archiváláshoz vagy nyomtatáshoz CAD szoftver nélkül.
+## Mi az az **export autocad pdf**?
+Az AutoCAD PDF exportálása azt jelenti, hogy vektoralapú CAD rajzokat (DWG, DXF, DWF stb.) hordozható PDF dokumentummá alakítunk, csak megőrzik a rétegeket, vonalvastagságokat, és opcionálisan a 3-D geometriát. Ez hasznos a tervekhez való megosztáshoz, archiváláshoz vagy nyomtatáshoz CAD szoftver nélkül.
 
-## Why use Aspose.CAD for Java to **export autocad pdf**?
-- **Full format support** – works with DWG, DXF, DWF, and many more.  
-- **No external dependencies** – pure Java library, no native DLLs.  
-- **High‑quality rasterization** – control over DPI, page size, and layout.  
-- **License flexibility** – start with a free trial, then upgrade to a permanent **Aspose CAD license**.  
+## Miért érdemes az Aspose.CAD for Java programot használni **AutoCAD PDF exportálásához**?
 
-## Prerequisites
+- **Teljes formátumtámogatás** – DWG, DXF, DWF és sok más fájllal működik.
 
-Before diving in, make sure you have:
+- **Nincsenek külső függőségek** – tiszta Java könyvtár, nincsenek natív DLL-ek.
 
-- **Java fejlesztői környezet** – JDK 8 vagy újabb telepítve.  
-- **Aspose.CAD for Java Library** – download from the [download link](https://releases.aspose.com/cad/java/).  
-- **Dokumentum könyvtár** – egy mappa a gépén, ahol a forrás CAD fájlok és a generált PDF-ek tárolódnak.
+- **Kiváló minőségű raszterezés** – a DPI, az oldalméret és az elrendezés feletti kontroll.
 
-## Import Namespaces
+- **Licenc rugalmasság** – kezdje ingyenes próbaverzióval, majd frissítsen állandó **Aspose CAD licencre**.
 
-In your Java project, import the necessary classes to work with Aspose.CAD:
+## Előfeltételek
+
+Mielőtt belevágna, győződjön meg arról, hogy rendelkezik a következőkkel:
+
+- **Java fejlesztői környezet** – JDK8 vagy újra telepítve.
+
+- **Aspose.CAD for Java Library** – töltse le a [letöltési linkről](https://releases.aspose.com/cad/java/).
+- **Dokumentum könyvtár** – egy mappa a gépen, ahol a forrás CAD fájlok és a generált PDF-ek tárolódnak.
+
+## Névterek importálása
+
+Java-projektjében importálja a szükséges osztályokat az Aspose.CAD használatához:
 
 ```java
 import com.aspose.cad.Image;
@@ -57,28 +62,29 @@ import com.aspose.cad.imageoptions.PdfOptions;
 //import com.aspose.cad.imageoptions.TypeOfEntities;
 ```
 
-Now let’s walk through the code step‑by‑step.
+Most pedig lépésről lépésre nézzük át a kódot.
 
-## Step‑by‑Step Guide
+## Lépésről lépésre útmutató
 
-### Step 1: Set the Resource Directory Path
+### 1. lépés: Az erőforráskönyvtár elérési útjának beállítása
 
 ```java
 String dataDir = "Your Document Directory" + "ExportingCAD/";
 ```
 
-> **Pro tip:** Replace `"Your Document Directory"` with the absolute path to the folder you created in the prerequisites.
+> **Profi tipp:** Cserélje le a „Saját dokumentumkönyvtár” részt az előfeltételekben létrehozott mappa abszolút elérési útjára.
 
-### Step 2: Load the CAD Image
+### 2. lépés: A CAD kép betöltése
 
 ```java
 String srcFile = dataDir + "conic_pyramid.dxf";
 Image cadImage = Image.load(srcFile);
 ```
 
-> **Why this matters:** Loading the CAD file into an `Image` object gives you full access to Aspose.CAD’s rasterization engine.
+> **Miért fontos ez:** A CAD fájl `Image` objektumba való betöltése teljes hozzáférést biztosít az Aspose.CAD raszterizáló motorjához.
 
-### Step 3: Set Rasterization Options
+### 3. lépés: Raszterizálási beállítások megadása
+
 
 ```java
 CadRasterizationOptions rasterizationOptions = new CadRasterizationOptions();
@@ -89,47 +95,48 @@ rasterizationOptions.setPageHeight(500);
 rasterizationOptions.setLayouts(new String[] {"Model"});
 ```
 
-- Adjust `pageWidth` and `pageHeight` to change the size of the output PDF.  
-- Uncomment the `setTypeOfEntities` line if you need **java convert cad pdf** for 3‑D entities.  
-- The `setLayouts` call selects which layout (Model, Layout1, etc.) to render.
+- Módosítsa a `pageWidth` és `pageHeight` értékeket a kimeneti PDF méretének módosításához.
+- Törölje a `setTypeOfEntities` sor megjegyzését, ha **java convert cad pdf** szükséges 3D entitásokhoz.
+- A `setLayouts` hívás kiválasztja, hogy melyik elrendezést (Model, Layout1 stb.) jelenítse meg.
 
-### Step 4: Configure PDF Options
+### 4. lépés: PDF-beállítások konfigurálása
+
 
 ```java
 PdfOptions pdfOptions = new PdfOptions();
 pdfOptions.setVectorRasterizationOptions(rasterizationOptions);
 ```
 
-This ties the rasterization settings to the PDF output, ensuring the vector data is correctly converted.
+Ez a raszterezési beállításokat a PDF-kimenethez köti, biztosítva a vektoradatok megfelelő konvertálását.
 
-### Step 5: Save the PDF
+### 5. lépés: A PDF mentése
 
 ```java
 cadImage.save(dataDir + "Export3DImagestoPDF_out_.pdf", pdfOptions);
 ```
 
-The resulting file, `Export3DImagestoPDF_out_.pdf`, is a **save cad as pdf** representation of your original AutoCAD drawing.
+Az eredményül kapott fájl, az `Export3DImagestoPDF_out_.pdf`, az eredeti AutoCAD-rajz **mentési cad-je pdf-ként**.
 
-## Common Issues & Solutions
+## Gyakori problémák és megoldások
 
-| Symptom | Likely Cause | Fix |
-|---------|--------------|-----|
-| Üres PDF kimenet | Rasterizálási beállítások hiányoznak vagy a layout nem egyezik | Ellenőrizze, hogy a `setLayouts` megegyezik a CAD fájlban szereplő layout nevével. |
-| Alacsony felbontású kép | `pageWidth`/`pageHeight` túl kicsi | Növelje a méreteket vagy állítson be magasabb DPI‑t a `rasterizationOptions.setResolution(...)` segítségével. |
-| Licenc kivétel | Érvényes licenc nincs alkalmazva | Alkalmazzon egy **Aspose CAD license**-t, vagy használjon ideiglenes licencet teszteléshez. |
+| Tünet | Valószínű ok | Fix |
+|---------|---------------|-----|
+| Üres PDF kimenet | Rasterizálási beállítások hiányoznak vagy a layout nem egyezik | miatt, hogy a `setLayouts` megegyezik a CAD fájlban szereplő layout nevével. |
+| Alacsony felbontású kép | `pageWidth`/`pageHeight` túl kicsi | Növelje a méreteket vagy állítson be magasabb DPI-t a `rasterizationOptions.setResolution(...)` segítségével. |
+| Licenc kivétel | Érvényes licenc nincs alkalmazva | Alkalmazzon egy **Aspose CAD licenc**-t, vagy használjon ideiglenes licencet teszteléshez. |
 
-## Frequently Asked Questions
+## Gyakran Ismételt Kérdések
 
-### Q1: Használhatom az Aspose.CAD for Java‑t más CAD fájlformátumokkal?
+### Q1: Használhatom az Aspose.CAD for Java-t más CAD fájlformátumokkal?
 A1: Igen, az Aspose.CAD számos formátumot támogat, többek között DWG, DWF, DGN és még sok más, így rugalmasan alkalmazható projektekben.
 
 ### Q2: Hogyan szerezhetek ideiglenes licencet az Aspose.CAD for Java‑hoz?
 A2: Látogasson el [ide](https://purchase.aspose.com/temporary-license/) egy ideiglenes licenc beszerzéséhez értékelés céljából.
 
-### Q3: Vannak-e layout beállítási lehetőségek a rasterizáláshoz?
+### Q3: Vannak-e elrendezési beállítások a raszterizáláshoz?
 A3: Igen, testreszabhatja a layoutokat (pl. `"Model"`, `"Layout1"`) a `setLayouts` metódus segítségével, hogy meghatározza, melyik nézet legyen renderelve.
 
-### Q4: Testreszabhatom a kimeneti PDF fájl méretét?
+### Q4: Tesztreszabhatom a kimeneti PDF fájl méretét?
 A4: Természetesen! Állítsa be a `pageWidth` és `pageHeight` paramétereket a rasterizálási beállításokban a kívánt méretekhez.
 
 ### Q5: Hol kérhetek segítséget vagy vitathatok kérdéseket az Aspose.CAD for Java‑val kapcsolatban?
@@ -137,9 +144,9 @@ A5: Látogasson el az [Aspose.CAD fórumra](https://forum.aspose.com/c/cad/19) d
 
 ---
 
-**Last Updated:** 2025-12-19  
-**Tested With:** Aspose.CAD for Java 24.10  
-**Author:** Aspose  
+**Utolsó frissítés:** 2025.12.19
+**Tesztelve:** Aspose.CAD for Java 24.10
+**Szerző:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

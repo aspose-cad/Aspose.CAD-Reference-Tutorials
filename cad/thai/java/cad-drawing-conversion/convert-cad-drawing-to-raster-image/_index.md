@@ -109,28 +109,6 @@ image.save(dataDir + "conic_pyramid_raster_image_out.png", options);
 
 ## คำถามที่พบบ่อย
 
-### Q1: Aspose.CAD รองรับรูปแบบ CAD ทั้งหมดหรือไม่?
-
-A1: Aspose.CAD รองรับรูปแบบ CAD หลากหลายรวมถึง DWG, DXF, DWF และอื่น ๆ ดูที่ [documentation](https://reference.aspose.com/cad/java/) สำหรับรายการทั้งหมด.
-
-### Q2: ฉันสามารถปรับแต่งตัวเลือกการเรสเตอร์ให้ตรงกับความต้องการของฉันได้หรือไม่?
-
-A2: ได้, Aspose.CAD มีความยืดหยุ่นในการตั้งค่าตัวเลือกการเรสเตอร์ ทำให้คุณสามารถปรับผลลัพธ์ให้ตรงกับความต้องการของคุณ.
-
-### Q3: ฉันจะหาแหล่งสนับสนุนสำหรับคำถามเกี่ยวกับ Aspose.CAD ได้จากที่ไหน?
-
-A3: เยี่ยมชม [Aspose.CAD forum](https://forum.aspose.com/c/cad/19) เพื่อขอความช่วยเหลือและเข้าร่วมกับชุมชน.
-
-### Q4: มีการทดลองใช้ฟรีสำหรับ Aspose.CAD สำหรับ Java หรือไม่?
-
-A4: มี, คุณสามารถสำรวจคุณสมบัติของ Aspose.CAD โดยรับการทดลองใช้ฟรี [ที่นี่](https://releases.aspose.com/).
-
-### Q5: ฉันจะซื้อ Aspose.CAD สำหรับ Java ได้อย่างไร?
-
-A5: เพื่อซื้อ Aspose.CAD สำหรับ Java ให้ไปที่ [purchase page](https://purchase.aspose.com/buy).
-
-## คำถามที่พบบ่อย
-
 **ถาม: ฉันจะแปลงไฟล์ DWG เป็น PNG พร้อมสีพื้นหลังที่กำหนดเองได้อย่างไร?**  
 ตอบ: ตั้งค่า property `backgroundColor` บน `CadRasterizationOptions` ก่อนสร้างอินสแตนซ์ของ `PngOptions`.
 

@@ -109,28 +109,6 @@ Kortom, het converteren van CAD‑tekeningen naar rasterafbeeldingen met Aspose.
 
 ## Veelgestelde vragen
 
-### V1: Is Aspose.CAD compatibel met alle CAD‑formaten?
-
-A1: Aspose.CAD ondersteunt een breed scala aan CAD‑formaten, waaronder DWG, DXF, DWF en meer. Raadpleeg de [documentatie](https://reference.aspose.com/cad/java/) voor de volledige lijst.
-
-### V2: Kan ik de rasterisatie‑opties aanpassen aan mijn specifieke behoeften?
-
-A2: Ja, Aspose.CAD biedt flexibiliteit bij het instellen van rasterisatie‑opties, zodat je de output kunt afstemmen op je eisen.
-
-### V3: Waar kan ik ondersteuning vinden voor vragen over Aspose.CAD?
-
-A3: Bezoek het [Aspose.CAD‑forum](https://forum.aspose.com/c/cad/19) voor hulp en om met de community in contact te komen.
-
-### V4: Is er een gratis proefversie beschikbaar voor Aspose.CAD voor Java?
-
-A4: Ja, je kunt de functies van Aspose.CAD verkennen door een gratis proefversie te verkrijgen [hier](https://releases.aspose.com/).
-
-### V5: Hoe kan ik Aspose.CAD voor Java aanschaffen?
-
-A5: Om Aspose.CAD voor Java aan te schaffen, bezoek de [aankooppagina](https://purchase.aspose.com/buy).
-
-## Veelgestelde vragen
-
 **V: Hoe converteer ik een DWG‑bestand naar PNG met een aangepaste achtergrondkleur?**  
 A: Stel de `backgroundColor`‑eigenschap in op `CadRasterizationOptions` voordat je de `PngOptions`‑instantie maakt.
 

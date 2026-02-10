@@ -105,28 +105,6 @@ image.save(dataDir + "conic_pyramid_raster_image_out.png", options);
 
 まとめると、Aspose.CAD for Java を使用した CAD 図面のラスタ画像変換はシンプルな手順で実現できます。本チュートリアルの手順に従うことで、Java アプリケーションに **convert dwg to png**、**export cad as png**、あるいは任意の **cad to png conversion** 機能を効率的に組み込むことが可能です。
 
-## FAQ
-
-### Q1: Aspose.CAD はすべての CAD フォーマットに対応していますか？
-
-A1: Aspose.CAD は DWG、DXF、DWF など多数の CAD フォーマットをサポートしています。完全な一覧は [ドキュメント](https://reference.aspose.com/cad/java/) をご参照ください。
-
-### Q2: ラスタライズオプションは用途に合わせてカスタマイズできますか？
-
-A2: はい。Aspose.CAD はラスタライズオプションの柔軟な設定を提供しており、出力を要件に合わせて調整できます。
-
-### Q3: Aspose.CAD に関するサポートはどこで受けられますか？
-
-A3: [Aspose.CAD フォーラム](https://forum.aspose.com/c/cad/19) で質問や情報交換が可能です。
-
-### Q4: Aspose.CAD for Java の無料トライアルはありますか？
-
-A4: はい、[こちら](https://releases.aspose.com/) から無料トライアルを取得して機能をお試しいただけます。
-
-### Q5: Aspose.CAD for Java の購入方法を教えてください。
-
-A5: 購入は [購入ページ](https://purchase.aspose.com/buy) から行えます。
-
 ## よくある質問
 
 **Q: 背景色をカスタムに設定して DWG を PNG に変換するには？**  

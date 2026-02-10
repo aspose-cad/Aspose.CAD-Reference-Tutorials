@@ -14,39 +14,45 @@ weight: 10
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Export AutoCAD PDF – AutoCAD‑Bilder nach PDF exportieren mit Aspose.CAD für Java
+# AutoCAD-PDF exportieren – AutoCAD-Bilder nach PDF exportieren mit Aspose.CAD für Java
 
-## Introduction
+## Einführung
 
-Suchen Sie nach einer nahtlosen Möglichkeit, **AutoCAD PDF** mit Java zu exportieren? Suchen Sie nicht weiter! In diesem Tutorial führen wir Sie durch die Konvertierung von AutoCAD‑Bildern zu PDF mit Aspose.CAD für Java, einer leistungsstarken Bibliothek, die den **convert DWG to PDF**‑Prozess mühelos macht. Am Ende verstehen Sie, wie Sie **save CAD as PDF** anwenden, benutzerdefinierte Rasterisierungs‑Einstellungen festlegen und eine Aspose.CAD‑Lizenz für den Produktionseinsatz verwenden.
+Suchen Sie nach einer nahtlosen Möglichkeit, **AutoCAD PDF** mit Java zu exportieren? Suchen Sie nicht weiter! In diesem Tutorial führen wir Sie durch die Konvertierung von AutoCAD-Bildern zu PDF mit Aspose.CAD für Java, einer leistungsstarken Bibliothek, die den **convert DWG to PDF**-Prozess mühelos macht. Am Ende verstehen Sie, wie Sie **CAD als PDF speichern** anwenden, benutzerdefinierte Rasterisierungs-Einstellungen festlegen und eine Aspose.CAD-Lizenz für den Produktionseinsatz verwenden.
 
-## Quick Answers
-- **Can I convert DWG to PDF with Java?** Yes, Aspose.CAD for Java handles DWG, DXF and many other formats.  
-- **Do I need a license?** An **Aspose CAD license** is required for unlimited use; a temporary license is available for evaluation.  
-- **What Java version is supported?** Java 8+ (the library is compatible with all modern JDKs).  
-- **Can I customize PDF page size?** Absolutely – adjust `pageWidth` and `pageHeight` in rasterization options.  
-- **Is 3‑D rasterization possible?** Yes, enable `TypeOfEntities.Entities3D` for full 3‑D rendering.
+## Schnelle Antworten
+- **Kann ich DWG mit Java in PDF konvertieren?** Ja, Aspose.CAD für Java verarbeitet DWG, DXF und viele andere Formate.
+- **Benötige ich eine Lizenz?** Für die unbegrenzte Nutzung ist eine **Aspose CAD-Lizenz** erforderlich; Zur Evaluierung steht eine temporäre Lizenz zur Verfügung.
+- **Welche Java-Version wird unterstützt?** Java 8+ (die Bibliothek ist mit allen modernen JDKs kompatibel).
 
-## What is **export autocad pdf**?
-Exporting AutoCAD PDF means converting vector‑based CAD drawings (DWG, DXF, DWF, etc.) into a portable PDF document while preserving layers, line weights, and optionally 3‑D geometry. This is useful for sharing designs with clients, archiving, or printing without requiring CAD software.
+- **Kann ich die PDF-Seitengröße anpassen?** Selbstverständlich – passen Sie `pageWidth` und `pageHeight` in den Rasterisierungsoptionen an.
 
-## Why use Aspose.CAD for Java to **export autocad pdf**?
-- **Full format support** – works with DWG, DXF, DWF, and many more.  
-- **No external dependencies** – pure Java library, no native DLLs.  
-- **High‑quality rasterization** – control over DPI, page size, and layout.  
-- **License flexibility** – start with a free trial, then upgrade to a permanent **Aspose CAD license**.  
+- **Ist 3D-Rasterisierung möglich?** Ja, aktivieren Sie `TypeOfEntities.Entities3D` für vollständiges 3D-Rendering.
 
-## Prerequisites
 
-Before diving in, make sure you have:
+## Was ist **AutoCAD-PDF exportieren**?
+AutoCAD-PDF zu exportieren bedeutet, vektorbasierte CAD-Zeichnungen (DWG, DXF, DWF usw.) in ein portables PDF-Dokument zu konvertieren, wobei Ebenen, Linienstärken und optional die 3D-Geometrie erhalten bleiben. Dies ist nützlich, um Entwürfe mit Kunden zu teilen, zu archivieren oder ohne CAD-Software zu drucken.
 
-- **Java Development Environment** – JDK 8 or later installed.  
-- **Aspose.CAD for Java Library** – download from the [download link](https://releases.aspose.com/cad/java/).  
-- **Document Directory** – a folder on your machine where the source CAD files and the generated PDFs will reside.
 
-## Import Namespaces
+## Warum Aspose.CAD für Java zum **Exportieren von AutoCAD-PDFs** verwenden?
 
-In your Java project, import the necessary classes to work with Aspose.CAD:
+
+**Vollständige Formatunterstützung** – funktioniert mit DWG, DXF, DWF und vielen weiteren Formaten.
+- **Keine externen Abhängigkeiten** – reine Java-Bibliothek, keine nativen DLLs.
+- **Hochwertige Rasterisierung** – Kontrolle über DPI, Seitengröße und Layout.
+- **Flexible Lizenz** – Starten Sie mit einer kostenlosen Testversion und upgraden Sie anschließend auf eine dauerhafte **Aspose CAD-Lizenz**.
+
+## Voraussetzungen
+
+Bevor Sie beginnen, stellen Sie sicher, dass Sie Folgendes haben:
+
+- **Java-Entwicklungsumgebung** – JDK 8 oder höher installiert.
+- **Aspose.CAD für Java-Bibliothek** – Download über den [Download-Link](https://releases.aspose.com/cad/java/).
+- **Dokumentverzeichnis** – ein Ordner auf Ihrem Rechner, in dem die CAD-Quelldateien und die generierten PDFs gespeichert werden.
+
+## Namespaces importieren
+
+Importieren Sie in Ihrem Java-Projekt die notwendigen Klassen, um mit Aspose.CAD zu arbeiten:
 
 ```java
 import com.aspose.cad.Image;
@@ -56,28 +62,28 @@ import com.aspose.cad.imageoptions.PdfOptions;
 //import com.aspose.cad.imageoptions.TypeOfEntities;
 ```
 
-Now let’s walk through the code step‑by‑step.
+Gehen wir den Code nun Schritt für Schritt durch.
 
-## Step‑by‑Step Guide
+## Schritt-für-Schritt-Anleitung
 
-### Step 1: Set the Resource Directory Path
+### Schritt 1: Ressourcenverzeichnispfad festlegen
 
 ```java
 String dataDir = "Your Document Directory" + "ExportingCAD/";
 ```
 
-> **Pro tip:** Replace `"Your Document Directory"` with the absolute path to the folder you created in the prerequisites.
+> **Profi-Tipp:** Ersetzen Sie „Ihr Dokumentenverzeichnis“ durch den absoluten Pfad zu dem Ordner, den Sie in den Voraussetzungen erstellt haben.
 
-### Step 2: Load the CAD Image
+### Schritt 2: CAD-Bild laden
 
 ```java
 String srcFile = dataDir + "conic_pyramid.dxf";
 Image cadImage = Image.load(srcFile);
 ```
 
-> **Why this matters:** Loading the CAD file into an `Image` object gives you full access to Aspose.CAD’s rasterization engine.
+> **Warum das wichtig ist:** Durch das Laden der CAD-Datei in ein `Image`-Objekt erhalten Sie vollen Zugriff auf die Rasterisierungs-Engine von Aspose.CAD.
 
-### Step 3: Set Rasterization Options
+### Schritt 3: Rasterisierungsoptionen festlegen
 
 ```java
 CadRasterizationOptions rasterizationOptions = new CadRasterizationOptions();
@@ -88,57 +94,66 @@ rasterizationOptions.setPageHeight(500);
 rasterizationOptions.setLayouts(new String[] {"Model"});
 ```
 
-- Adjust `pageWidth` and `pageHeight` to change the size of the output PDF.  
-- Uncomment the `setTypeOfEntities` line if you need **java convert cad pdf** for 3‑D entities.  
-- The `setLayouts` call selects which layout (Model, Layout1, etc.) to render.
+- Passen Sie `pageWidth` und `pageHeight` an, um die Größe der Ausgabedatei (PDF) zu ändern.
+- Entfernen Sie die Kommentarzeichen vor der Zeile `setTypeOfEntities`, wenn Sie **Java-Konvertierung von CAD-Dateien in PDF** für 3D-Objekte benötigen.
+- Mit dem Aufruf von `setLayouts` wählen Sie das zu rendernde Layout (Modell, Layout1 usw.) aus.
 
-### Step 4: Configure PDF Options
+### Schritt 4: PDF-Optionen konfigurieren
 
 ```java
 PdfOptions pdfOptions = new PdfOptions();
 pdfOptions.setVectorRasterizationOptions(rasterizationOptions);
 ```
 
-This ties the rasterization settings to the PDF output, ensuring the vector data is correctly converted.
+Hiermit werden die Rasterisierungseinstellungen mit der PDF-Ausgabe verknüpft, um sicherzustellen, dass die Vektordaten korrekt konvertiert werden.
 
-### Step 5: Save the PDF
+### Schritt 5: PDF speichern
 
 ```java
 cadImage.save(dataDir + "Export3DImagestoPDF_out_.pdf", pdfOptions);
 ```
 
-The resulting file, `Export3DImagestoPDF_out_.pdf`, is a **save cad as pdf** representation of your original AutoCAD drawing.
+Die resultierende Datei `Export3DImagestoPDF_out_.pdf` ist eine **als PDF gespeicherte** Darstellung Ihrer ursprünglichen AutoCAD-Zeichnung.
 
-## Common Issues & Solutions
+## Häufige Probleme & Lösungen
 
 | Symptom | Wahrscheinliche Ursache | Lösung |
+
 |---------|--------------------------|--------|
-| Blank PDF output | Rasterization options not set or layout mismatch | Verify `setLayouts` matches the layout name in your CAD file. |
-| Low‑resolution image | `pageWidth`/`pageHeight` too small | Increase dimensions or set a higher DPI via `rasterizationOptions.setResolution(...)`. |
-| License exception | No valid license applied | Apply an **Aspose CAD license** or use a temporary license for testing. |
 
-## Frequently Asked Questions
+| Leere PDF-Ausgabe | Rasterisierungsoptionen nicht festgelegt oder Layout stimmt nicht überein | Überprüfen Sie, ob `setLayouts` mit dem Layoutnamen in Ihrer CAD-Datei übereinstimmt. |
 
-### Q1: Can I use Aspose.CAD for Java with other CAD file formats?
-A1: Yes, Aspose.CAD supports a wide range of formats including DWG, DWF, DGN, and more, giving you flexibility in your projects.
+| Niedrig aufgelöstes Bild | `pageWidth`/`pageHeight` zu klein | Vergrößern Sie die Abmessungen oder legen Sie eine höhere DPI-Zahl über `rasterizationOptions.setResolution(...)` fest. |
 
-### Q2: How can I obtain a temporary license for Aspose.CAD for Java?
-A2: Visit [here](https://purchase.aspose.com/temporary-license/) to obtain a temporary license for evaluation.
+| Lizenzausnahme | Keine gültige Lizenz angewendet | Wenden Sie eine **Aspose CAD-Lizenz** an oder verwenden Sie eine temporäre Lizenz zum Testen. |
 
-### Q3: Are there any layout options for rasterization?
-A3: Yes, you can customize layouts (e.g., `"Model"`, `"Layout1"`) through the `setLayouts` method to control which view is rendered.
+## Häufig gestellte Fragen
 
-### Q4: Can I customize the size of the output PDF file?
-A4: Absolutely! Adjust the `pageWidth` and `pageHeight` parameters in the rasterization options to fit your desired dimensions.
+### F1: Kann ich Aspose.CAD für Java mit anderen CAD-Dateiformaten verwenden?
 
-### Q5: Where can I seek help or discuss issues related to Aspose.CAD for Java?
-A5: Head over to the [Aspose.CAD forum](https://forum.aspose.com/c/cad/19) for dedicated support and community discussions.
+A1: Ja, Aspose.CAD unterstützt eine Vielzahl von Formaten, darunter DWG, DWF, DGN und mehr, und bietet Ihnen so maximale Flexibilität für Ihre Projekte.
+
+### F2: Wie erhalte ich eine temporäre Lizenz für Aspose.CAD für Java?
+
+A2: Besuchen Sie [hier](https://purchase.aspose.com/temporary-license/), um eine temporäre Lizenz für Testzwecke zu erhalten.
+
+### F3: Gibt es Layoutoptionen für die Rasterisierung?
+
+A3: Ja, Sie können Layouts (z. B. `"Model"`, `"Layout1"`) über die Methode `setLayouts` anpassen, um die gerenderte Ansicht festzulegen.
+
+### F4: Kann ich die Größe der Ausgabedatei (PDF) anpassen?
+
+A4: Selbstverständlich! Passen Sie die Parameter `pageWidth` und `pageHeight` in den Rasterisierungsoptionen an Ihre gewünschten Abmessungen an.
+
+### F5: Wo kann ich Hilfe zu Aspose.CAD für Java erhalten oder Probleme besprechen?
+
+A5: Besuchen Sie das [Aspose.CAD-Forum](https://forum.aspose.com/c/cad/19) für gezielte Unterstützung und Diskussionen in der Community.
 
 ---
 
-**Last Updated:** 2025-12-19  
-**Tested With:** Aspose.CAD for Java 24.10  
-**Author:** Aspose  
+**Letzte Aktualisierung:** 19.12.2025
+**Getestet mit:** Aspose.CAD für Java 24.10
+**Autor:** Aspose 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
