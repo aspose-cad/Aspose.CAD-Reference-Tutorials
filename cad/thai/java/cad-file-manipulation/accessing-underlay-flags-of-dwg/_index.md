@@ -1,33 +1,45 @@
 ---
-title: การเข้าถึง Underlay Flags ของ DWG ด้วย Aspose.CAD สำหรับ Java
-linktitle: การเข้าถึง Underlay Flags ของ DWG
+date: 2025-12-22
+description: เรียนรู้วิธีโหลดไฟล์ DWG และดึงข้อมูลอันเดอร์เลย์ด้วย Aspose.CAD for
+  Java – คู่มือแบบขั้นตอนต่อขั้นตอนที่ครอบคลุมแฟล็กอันเดอร์เลย์
+linktitle: Accessing Underlay Flags of DWG
 second_title: Aspose.CAD Java API
-description: สำรวจโลกแห่งเวทย์มนตร์ CAD ด้วย Aspose.CAD สำหรับ Java! จัดการไฟล์ DWG ในแอปพลิเคชัน Java ของคุณได้อย่างง่ายดาย
-weight: 11
+title: โหลดไฟล์ DWG และเข้าถึงแฟล็ก Underlay – Aspose.CAD สำหรับ Java
 url: /th/java/cad-file-manipulation/accessing-underlay-flags-of-dwg/
+weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# การเข้าถึง Underlay Flags ของ DWG ด้วย Aspose.CAD สำหรับ Java
+# โหลดไฟล์ DWG & เข้าถึง Underlay Flags – Aspose.CAD for Java
 
-## การแนะนำ
+ในกระบวนการทำงาน CAD สมัยใหม่ การ **โหลดไฟล์ DWG** อย่างรวดเร็วและดึงข้อมูล underlay เป็นความต้องการที่พบบ่อย ไม่ว่าคุณจะสร้าง viewer, ทำการประมวลผลเป็นชุดอัตโนมัติ, หรือสกัด metadata เพื่อการบูรณาการกับ GIS, Aspose.CAD for Java ให้วิธีที่สะอาดและเป็นโค้ด‑first ในการทำสิ่งเหล่านี้ ในบทแนะนำนี้เราจะเดินผ่านขั้นตอนที่แม่นยำเพื่อ **โหลดไฟล์ DWG**, วนลูป entity ต่าง ๆ, และอ่าน underlay flags ที่หลาย ๆ นักพัฒนามักมองข้าม
 
-ในขอบเขตของการออกแบบโดยใช้คอมพิวเตอร์ช่วย (CAD) ความแม่นยำและประสิทธิภาพเป็นสิ่งสำคัญยิ่ง Aspose.CAD สำหรับ Java กลายเป็นพันธมิตรที่ทรงพลัง โดยเป็นสะพานเชื่อมที่ราบรื่นระหว่างแอปพลิเคชัน Java และฟังก์ชัน CAD ของคุณ ในคำแนะนำทีละขั้นตอนนี้ เราจะเจาะลึกความมหัศจรรย์ของ Aspose.CAD โดยมุ่งเน้นที่การจัดการไฟล์ DWG และการแยกข้อมูลอันมีค่าโดยใช้ Java
+## คำตอบอย่างรวดเร็ว
+- **คลาสหลักที่ใช้เปิด DWG คืออะไร?** `com.aspose.cad.Image.load()` จะคืนค่าเป็น `CadImage`
+- **อ็อบเจกต์ใดเก็บข้อมูล underlay?** `CadUnderlay` (หรือชนิดที่สืบทอดเช่น `CadDgnUnderlay`)
+- **ต้องการไลเซนส์สำหรับการพัฒนาไหม?** เวอร์ชันทดลองฟรีใช้ได้สำหรับการทดสอบ; ต้องมีไลเซนส์เชิงพาณิชย์สำหรับการใช้งานจริง
+- **สามารถประมวลผลหลายไฟล์ DWG ในลูปได้หรือไม่?** ได้ – เพียงทำซ้ำรูปแบบการโหลด‑และ‑วนลูป
+- **วิธีนี้เข้ากันได้กับ Java 11+ หรือไม่?** แน่นอน, Aspose.CAD รองรับ Java 8 จนถึงรุ่น LTS ล่าสุด
 
-## ข้อกำหนดเบื้องต้น
+## “load dwg file” ใน Aspose.CAD คืออะไร?
+`Image.load()` อ่านข้อมูลไบนารีของ DWG และสร้างอ็อบเจกต์ `CadImage` ในหน่วยความจำ จากนั้นคุณสามารถสำรวจ layers, blocks, และ underlay entities ได้โดยไม่ต้องจัดการกับรูปแบบไฟล์ DWG ด้วยตนเอง
 
-ก่อนเริ่มการเดินทางนี้ ตรวจสอบให้แน่ใจว่าคุณมีสิ่งต่อไปนี้:
+## ทำไมต้องสกัด underlay flags จาก DWG?
+Underlay flags บอกว่าการอ้างอิงภายนอก (เช่น DGN หรือ PDF underlay) ถูกวางตำแหน่ง, ปรับสเกล, และหมุนอย่างไรภายใน drawing การรู้ค่าดังกล่าวทำให้คุณสามารถ:
 
--  ไลบรารี Aspose.CAD: ดาวน์โหลดและติดตั้งไลบรารี Aspose.CAD จากไฟล์[เผยแพร่](https://releases.aspose.com/cad/java/) หน้าหนังสือ.
+- สร้างเลย์เอาต์ภาพที่ตรงกันใน viewer ที่กำหนดเอง
+- แปลง underlay ให้เป็น entity CAD ต้นฉบับเพื่อการแก้ไขต่อไป
+- สร้างรายงานที่รวม metadata ของ underlay เพื่อการปฏิบัติตามหรือเอกสาร
 
--  ไดเร็กทอรีเอกสาร: สร้างไดเร็กทอรีที่เก็บภาพวาด DWG ของคุณ แทนที่`"Your Document Directory"` ในข้อมูลโค้ดพร้อมกับเส้นทางจริง
+## สิ่งที่ต้องเตรียม
+- **Aspose.CAD Library** – ดาวน์โหลดจากหน้า [releases](https://releases.aspose.com/cad/java/)
+- **Java Development Kit** – JDK 8 หรือใหม่กว่า
+- **โฟลเดอร์** ที่มีไฟล์ DWG ที่คุณต้องการวิเคราะห์ แทนที่ `"Your Document Directory"` ในโค้ดด้วยพาธจริงของคุณ
 
-## นำเข้าเนมสเปซ
-
-ตรวจสอบให้แน่ใจว่าคุณนำเข้าเนมสเปซที่จำเป็นเพื่อควบคุมประสิทธิภาพสูงสุดของ Aspose.CAD:
+## นำเข้า Namespaces
 
 ```java
 import com.aspose.cad.Image;
@@ -39,85 +51,78 @@ import com.aspose.cad.fileformats.cad.cadobjects.CadUnderlay;
 import com.aspose.cad.fileformats.cad.cadobjects.UnderlayFlags;
 ```
 
-ตอนนี้ เรามาแบ่งตัวอย่างออกเป็นหลายขั้นตอนกัน
+## คู่มือขั้นตอน‑โดย‑ขั้นตอน
 
-## ขั้นตอนที่ 1: ตั้งค่าไดเรกทอรีทรัพยากร
-
+### ขั้นตอนที่ 1: ตั้งค่า Resource Directory
 ```java
-// เส้นทางไปยังไดเร็กทอรีทรัพยากร
+// The path to the resource directory.
 String dataDir = "Your Document Directory" + "DWGDrawings/";
 ```
+กำหนดตำแหน่งที่ไฟล์ DWG ของคุณอยู่ การใช้โฟลเดอร์เฉพาะทำให้ตัวอย่างสะอาดและพกพาได้ง่าย
 
- ขั้นตอนนี้จะกำหนดไดเร็กทอรีที่เก็บภาพวาด DWG ของคุณ แทนที่`"Your Document Directory"` กับเส้นทางที่แท้จริง
-
-## ขั้นตอนที่ 2: โหลดไฟล์ DWG และแปลงเป็น CadImage
-
+### ขั้นตอนที่ 2: โหลดไฟล์ DWG
 ```java
-// ป้อนชื่อไฟล์และเส้นทาง
+// Input file name and path
 String fileName = dataDir + "BlockRefDgn.dwg";
 
-//โหลดไฟล์ DWG ที่มีอยู่แล้วแปลงเป็น CadImage
+// Load an existing DWG file and convert it into CadImage 
 CadImage image = (CadImage)Image.load(fileName);
 ```
+ที่นี่เราจะ **load dwg file** `BlockRefDgn.dwg` เข้าไปในอินสแตนซ์ `CadImage` เพื่อพร้อมตรวจสอบ
 
-ในขั้นตอนนี้ เราระบุเส้นทางและชื่อของไฟล์ DWG จากนั้นโหลดเป็นวัตถุ CadImage
-
-## ขั้นตอนที่ 3: ทำซ้ำผ่านเอนทิตี DWG
-
+### ขั้นตอนที่ 3: วนลูป Entity ของ DWG
 ```java
-// ดูแต่ละเอนทิตีภายในไฟล์ DWG
+// Go through each entity inside the DWG file
 for(CadBaseEntity entity : image.getEntities())
 ```
+ลูปนี้จะเดินผ่านทุก entity—lines, circles, blocks, และ underlays—เพื่อให้เราสามารถเลือกเอาเฉพาะที่ต้องการได้
 
-ลูปนี้จะวนซ้ำแต่ละเอนทิตีภายในไฟล์ DWG ทำให้เราสามารถวิเคราะห์และจัดการสิ่งเหล่านั้นได้
-
-## ขั้นตอนที่ 4: ตรวจสอบประเภท CadDgnUnderlay
-
+### ขั้นตอนที่ 4: ระบุ CadDgnUnderlay Entities
 ```java
-// ตรวจสอบว่าเอนทิตีเป็นประเภท CadDgnUnderlay หรือไม่
+// Check if entity is of CadDgnUnderlay type
 if (entity instanceof CadDgnUnderlay)
 ```
+เฉพาะอ็อบเจกต์ `CadDgnUnderlay` เท่านั้นที่มี underlay flags ที่เราต้องการ จึงทำการกรองเฉพาะอันนี้
 
-คำสั่งแบบมีเงื่อนไขนี้ช่วยให้แน่ใจว่าเราจัดการเอนทิตีประเภท CadDgnUnderlay โดยเฉพาะ
-
-## ขั้นตอนที่ 5: เข้าถึงข้อมูลด้านล่าง
-
+### ขั้นตอนที่ 5: เข้าถึงข้อมูล Underlay
 ```java
-// เข้าถึงแฟล็กอันเดอร์เลย์ต่างๆ
+// Access different underlay flags 
 CadUnderlay underlay = (CadUnderlay) entity;
 System.out.println(underlay.getUnderlayPath());
 System.out.println(underlay.getUnderlayName());
-// ... (คุณสมบัติการปูรองพื้นเพิ่มเติม)
+// ... (Additional underlay properties)
 break;
 ```
+เมื่อเรามี `CadUnderlay` แล้ว เราสามารถอ่านพาธ, ชื่อ, จุดแทรก, การหมุน, ปัจจัยสเกล, และ enum `UnderlayFlags` ที่บ่งบอกการมองเห็น, การคลิป, และตัวเลือกการเรนเดอร์อื่น ๆ
 
-ที่นี่ เราเข้าถึงคุณสมบัติต่างๆ ของออบเจ็กต์ CadUnderlay โดยแยกข้อมูลอันมีค่า เช่น เส้นทางอันเดอร์เลย์ ชื่อ จุดแทรก มุมการหมุน และปัจจัยขนาด
-
-## บทสรุป
-
-ในบทช่วยสอนนี้ เราแทบจะไม่ได้เกาพื้นผิวของ Aspose.CAD สำหรับความสามารถของ Java เลย ด้วยขั้นตอนเหล่านี้ คุณสามารถปลดล็อกศักยภาพของการจัดการ CAD ในแอปพลิเคชัน Java ของคุณได้
+## ปัญหาที่พบบ่อย & เคล็ดลับ
+- **พาธ underlay เป็น null** – ตรวจสอบให้แน่ใจว่า DWG อ้างอิงไฟล์ภายนอกจริง; มิฉะนั้นพาธจะว่างเปล่า
+- **ประเภท underlay ไม่รองรับ** – ปัจจุบัน Aspose.CAD รองรับ DGN underlays; PDF underlays ยังไม่เปิดให้ใช้ผ่าน API
+- **ข้อยกเว้นไลเซนส์** – การรันโค้ดโดยไม่มีไลเซนส์ที่ถูกต้องจะทำให้ภาพที่ส่งออกมีลายน้ำ
 
 ## คำถามที่พบบ่อย
 
-### คำถามที่ 1: ฉันสามารถใช้ Aspose.CAD สำหรับ Java กับไฟล์ CAD รูปแบบอื่นได้หรือไม่
+**ถาม: สามารถใช้ Aspose.CAD for Java กับรูปแบบไฟล์ CAD อื่นได้หรือไม่?**  
+ตอบ: Aspose.CAD มุ่งเน้นที่รูปแบบ DWG เป็นหลัก, แต่ยังรองรับ DXF, DWF, และรูปแบบ CAD อื่น ๆ
 
-A1: Aspose.CAD เน้นที่รูปแบบ DWG เป็นหลัก แต่ยังรองรับรูปแบบ DXF, DWF และ CAD อื่นๆ อีกด้วย
+**ถาม: มีเวอร์ชันทดลองสำหรับ Aspose.CAD for Java หรือไม่?**  
+ตอบ: มี, คุณสามารถสำรวจคุณสมบัติต่าง ๆ ได้ฟรีจาก [ที่นี่](https://releases.aspose.com/)
 
-### คำถามที่ 2: Aspose.CAD สำหรับ Java มีเวอร์ชันทดลองใช้งานหรือไม่
+**ถาม: จะขอรับการสนับสนุนหรือความช่วยเหลือสำหรับ Aspose.CAD for Java ได้อย่างไร?**  
+ตอบ: เยี่ยมชม [ฟอรั่ม Aspose.CAD](https://forum.aspose.com/c/cad/19) เพื่อรับการสนับสนุนจากชุมชนและการสนทนา
 
- ตอบ 2: ได้ คุณสามารถสำรวจฟีเจอร์ต่างๆ ได้ด้วยการทดลองใช้ฟรี[ที่นี่](https://releases.aspose.com/).
+**ถาม: มีไลเซนส์ชั่วคราวสำหรับ Aspose.CAD for Java หรือไม่?**  
+ตอบ: มี, คุณสามารถรับไลเซนส์ชั่วคราวได้จาก [ที่นี่](https://purchase.aspose.com/temporary-license/)
 
-### คำถามที่ 3: ฉันจะรับการสนับสนุนหรือขอความช่วยเหลือเกี่ยวกับ Aspose.CAD สำหรับ Java ได้อย่างไร
+**ถาม: จะหาเอกสารประกอบที่ครบถ้วนสำหรับ Aspose.CAD for Java ได้จากที่ไหน?**  
+ตอบ: ดูที่ [documentation](https://reference.aspose.com/cad/java/) สำหรับข้อมูลรายละเอียด
 
- A3: เยี่ยมชม[ฟอรั่ม Aspose.CAD](https://forum.aspose.com/c/cad/19) สำหรับการสนับสนุนและการอภิปรายของชุมชน
+---
 
-### คำถามที่ 4: Aspose.CAD สำหรับ Java มีใบอนุญาตชั่วคราวหรือไม่
+**อัปเดตล่าสุด:** 2025-12-22  
+**ทดสอบด้วย:** Aspose.CAD 24.12 for Java  
+**ผู้เขียน:** Aspose  
 
- A4: ได้ คุณสามารถขอรับใบอนุญาตชั่วคราวได้[ที่นี่](https://purchase.aspose.com/temporary-license/).
-
-### คำถามที่ 5: ฉันจะหาเอกสารที่ครอบคลุมสำหรับ Aspose.CAD สำหรับ Java ได้ที่ไหน
-
- A5: โปรดดูที่[เอกสารประกอบ](https://reference.aspose.com/cad/java/) สำหรับข้อมูลโดยละเอียด
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
