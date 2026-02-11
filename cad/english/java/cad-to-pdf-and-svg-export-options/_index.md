@@ -1,5 +1,5 @@
 ---
-title: How to Export CAD: PDF and SVG Export Options
+title: How to Export CAD to PDF and SVG Export Options
 linktitle: CAD to PDF and SVG Export Options
 second_title: Aspose.CAD Java API
 description: Learn how to export CAD files using Aspose.CAD for Java—convert CAD to PDF, export CAD to SVG, and perform DWG to PDF/A conversion with ease.
@@ -12,7 +12,7 @@ date: 2026-01-02
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# How to Export CAD: PDF and SVG Export Options
+# How to Export CAD to PDF and SVG Export Options
 
 ## Introduction
 
@@ -61,19 +61,6 @@ Unlock the potential of Aspose.CAD for Java with our step-by-step guide on expor
 ### [CFF to PDF Conversion - Aspose.CAD for Java Tutorial](./cff-to-pdf-conversion/)
 Explore the seamless CFF to PDF conversion with Aspose.CAD for Java. Easy steps, reliable results.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2026-01-02  
-**Tested With:** Aspose.CAD for Java (latest release)  
-**Author:** Aspose  
-
 ## Frequently Asked Questions
 
 **Q:** *Can I convert large DWG files to PDF/A without running out of memory?*  
@@ -90,3 +77,16 @@ A: Yes. Iterate over a file collection, loading each with `CadImage.load` and sa
 
 **Q:** *What if my CAD file contains raster images—are they preserved in PDF?*  
 A: Raster images are embedded automatically when you export to PDF, maintaining visual fidelity.
+
+---
+
+**Last Updated:** 2026-01-02  
+**Tested With:** Aspose.CAD for Java (latest release)  
+**Author:** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
