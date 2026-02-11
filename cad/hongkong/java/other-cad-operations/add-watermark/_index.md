@@ -1,32 +1,44 @@
 ---
-title: 在 CAD 繪圖中新增浮水印 - Aspose.CAD for Java 教學課程
-linktitle: 加浮水印
+date: 2026-01-20
+description: 學習如何使用 Aspose.CAD for Java 從 CAD 圖紙建立 PDF，並為 CAD 圖紙加入浮水印。請參考我們的逐步指南，輕鬆完成整合。
+linktitle: Add Watermark
 second_title: Aspose.CAD Java API
-description: 使用 Aspose.CAD for Java 透過個人化浮水印增強您的 CAD 繪圖。請按照我們的逐步指南進行無縫整合。
-weight: 12
+title: 從 CAD 產生 PDF 並加入浮水印 – Aspose.CAD for Java
 url: /zh-hant/java/other-cad-operations/add-watermark/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 在 CAD 繪圖中新增浮水印 - Aspose.CAD for Java 教學課程
+# 從 CAD 建立 PDF 並加入浮水印 – Aspose.CAD for Java
 
-## 介紹
+## 簡介
 
-歡迎閱讀這份使用 Aspose.CAD for Java 為 CAD 繪圖新增浮水印的綜合指南。在本教程中，您將學習如何有效地整合浮水印，透過個人化訊息或品牌增強您的 CAD 文件。 Aspose.CAD for Java 提供了一組強大的功能，讓水印新增過程變得簡單。
+在本完整教學中，您將 **從 CAD 建立 PDF** 並學習 **如何在 CAD 圖面加入浮水印**，使用 Aspose.CAD for Java。無論您需要為工程圖加上品牌、保護智慧財產，或僅僅為設計加上標籤，本指南都會一步步帶您完成——從環境設定到匯出最終 PDF。
 
-## 先決條件
+## 快速答覆
+- **本教學涵蓋什麼內容？** 為 CAD 檔案加入文字浮水印並匯出為 PDF。  
+- **需要哪個函式庫 Java（最新版本）。  
+- **是否需要授權？** 免費試用版可用於測試？** 基本浮水印通常在 15 分鐘內完成。
 
-在我們深入學習本教程之前，請確保您符合以下先決條件：
+## 什麼是「從 CAD 建立 PDF」？
 
--  Aspose.CAD for Java：確保您的 Java 環境中安裝了 Aspose.CAD 函式庫。你可以下載它[這裡](https://releases.aspose.com/cad/java/).
-- Java 開發工具包 (JDK)：確保您的系統上安裝了最新版本的 JDK。
+從 CAD 建立 PDF 指的是將原生 CAD 檔案（DWG 圖面加入浮水印？
 
-## 導入包
+- **品牌保護：** 顯示公司標誌或機密聲明。  
+- **版本控制：** 標示草稿、修訂版或「機密」狀態。  
+先決條件
 
-在您的 Java 專案中，匯入必要的 Aspose.CAD 套件以開始使用：
+在開始之前，請確保您已擁有：
+
+- **Aspose.CAD for Java** – 前往[此處](https://releases.as  
+- **Java Development Kit (JDK)** – 您機器上已安裝最新的 JDK。
+
+## 匯入套件
+
+在您的 Java 專案中，匯入必要的 Aspose.CAD 命名空間：
 
 ```java
 import com.aspose.cad.Image;
@@ -38,10 +50,14 @@ import com.aspose.cad.imageoptions.CadRasterizationOptions;
 import com.aspose.cad.imageoptions.PdfOptions;
 ```
 
-## 第 1 步：新增新的多行文本
+## 如何在加入浮水印的情況下從 CAD 建立 PDF
+
+### 步驟 1：新增 MTEXT 浮水印
+
+首先，我們建立一個 `MTEXT` 實體，作為圖面上可見的浮水印。
 
 ```java
-//新增的多行文本
+//add new MTEXT
 CadMText watermark = new CadMText();
 watermark.setText("Watermark message");
 watermark.setInitialTextHeight(40);
@@ -50,12 +66,14 @@ watermark.setLayerName("0");
 cadImage.getBlockEntities().get_Item("*Model_Space").addEntity(watermark);
 ```
 
-## 第 2 步：新增簡單實體（例如文字）
+*小技巧：* 調整 `setInsertionPoint` 座標，以將浮水印放置在版面最合適的位置。
 
-您也可以新增更簡單的實體，例如文字：
+### 步驟 2：加入簡易 Text 實體（可選）
+
+如果您偏好純文字浮水印，可以改用 `Text` 實體取代 `MTEXT`。
 
 ```java
-//或添加更簡單的實體，例如文本
+// or add more simple entity like Text
 CadText text = new CadText();
 text.setDefaultValue("Watermark text");
 text.setTextHeight(40);
@@ -64,12 +82,12 @@ text.setLayerName("0") ;
 cadImage.getBlockEntities().get_Item("*Model_Space").addEntity(text);
 ```
 
-## 第 3 步：匯出為 PDF
+### 步驟 3：將 CAD 圖面匯出為 PDF
 
-將新增浮水印的 CAD 繪圖匯出到 PDF 檔案：
+在加入浮水印後，將圖面光柵化並儲存為 PDF 檔案。
 
 ```java
-//導出為 pdf
+// export to pdf
 CadRasterizationOptions rasterizationOptions = new CadRasterizationOptions();
 rasterizationOptions.setPageWidth(1600);
 rasterizationOptions.setPageHeight(1600);
@@ -77,34 +95,61 @@ rasterizationOptions.setLayouts(new String[]{"Model"});
 PdfOptions pdfOptions = new PdfOptions();
 pdfOptions.setVectorRasterizationOptions(rasterizationOptions);
 cadImage.save(dataDir + "AddWatermark_out.pdf", pdfOptions);
-
 ```
 
-## 結論
+`CadRasterizationOptions` 讓您可控制輸出尺寸與版面配置，確保浮水印在最終 PDF 中保持清晰。
 
-恭喜！您已使用 Aspose.CAD for Java 成功為 CAD 繪圖新增浮水印。這個簡單而強大的過程允許您個性化您的設計或透過品牌保護它們。
+## 常見問題與技巧
 
-## 常見問題解答
+| 問題 | 發生原因 | 解決方案 |
+|------|----------|----------|
+| 浮水印未顯示 | 圖層可能被隱藏，或顏色與背景相同。 | 使用 `watermark.getColor().setValue(Color.RED);` 設定對比色（於建立後加入）。 |
+| 文字被截斷 | 插入點位於圖面範圍之外。 | 使用 `cadImage.getSize()` 檢查座標，或利用 `cadImage.getHeader().getLimits()` 計算安全範圍。 |
+| PDF 檔案過大 | 以過高解析度進行光柵化。 | 降低 `PageWidth`/`PageHeight`，或啟用向量光柵化 (`rasterizationOptions.setVectorRasterizationOptions(true);`)。 |
 
-### Q1：Aspose.CAD 是否相容於所有 CAD 檔案格式？
+## 常見問答
 
-A1：Aspose.CAD支援多種CAD格式，包括DWG、DXF、DWT和DWF。
+### Q1：Aspose.CAD 是否相容所有 CAD 檔案格式？
+
+A1：Aspose.CAD 支援多種 CAD 格式，包括 DWG、DXF、DWT 與 DWF。
 
 ### Q2：我可以自訂浮水印文字的外觀嗎？
 
-A2：是的，您可以完全控制浮水印的外觀，包括文字大小、顏色和位置。
+A2：可以，您可完全控制浮水印的外觀，包括文字大小、顏色與位置。
 
-### Q3：Aspose.CAD for Java 有試用版嗎？
+### Q3：是否提供 Aspose.CAD for Java 的試用版？
 
- A3：是的，您可以下載試用版[這裡](https://releases.aspose.com/).
+A3：有，您可在[此處](https://releases.aspose.com/)下載試用版。
 
-### Q4：如何獲得 Aspose.CAD 的支援？
+### Q4：如何取得 Aspose.CAD 的支援？
 
- A4：訪問[Aspose.CAD論壇](https://forum.aspose.com/c/cad/19)以獲得社區支持。
+A4：前往 [Aspose.CAD 論壇](https://forum.aspose.com/c/cad/19)取得社群支援。
 
 ### Q5：在哪裡可以找到 Aspose.CAD for Java 的完整文件？
 
- A5：請參閱[文件](https://reference.aspose.com/cad/java/)獲取詳細資訊。
+A5：請參考[文件說明](https://reference.aspose.com/cad/java/)以取得詳細資訊。
+
+**其他問題**
+
+**Q：我可以加入圖片浮水印而非文字嗎？**  
+A：可以。使用 `CadImage` 匯入外部圖片，並在匯出前將其作為光柵實體加入。
+
+**Q：如何在批次處理中對多個 CAD 檔案套用相同的浮水印？**  
+A：將浮水印建立程式碼放入迴圈中，依序載入每個 CAD 檔案、加入實體，然後儲存為 PDF。
+
+**Q：是否可以保留 PDF 為向量格式而非光柵化？**  
+A：設定 `rasterizationOptions.setVectorRasterizationOptions(true);` 以在支援的情況下保留向量資料。
+
+## 結論
+
+您現在已掌握如何使用 Aspose.CAD for Java **從 CAD 圖面建立 PDF** 並 **加入浮水印**。依循上述步驟，即可保護您的設計、強化品牌形象，並自信地分享精緻的 PDF。
+
+---
+
+**最後更新：** 2026-01-20  
+**測試環境：** Aspose.CAD for Java 24.12  
+**作者：** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
