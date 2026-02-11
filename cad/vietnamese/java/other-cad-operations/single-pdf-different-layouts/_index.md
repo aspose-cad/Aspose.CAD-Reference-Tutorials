@@ -1,32 +1,48 @@
 ---
-title: Tạo các tệp PDF động bằng Aspose.CAD cho Java
-linktitle: Một bản PDF với các bố cục khác nhau
-second_title: API Java Aspose.CAD
-description: Tạo các tệp PDF tuyệt đẹp với bố cục đa dạng từ bản vẽ CAD bằng Aspose.CAD cho Java. Tích hợp dễ dàng và các tính năng mạnh mẽ dành cho nhà phát triển Java.
-weight: 16
+date: 2026-01-22
+description: Tìm hiểu cách tạo PDF từ bản vẽ CAD, chuyển đổi DWG sang PDF và tùy chỉnh
+  kích thước trang PDF bằng Aspose.CAD cho Java.
+linktitle: Single PDF with Different Layouts
+second_title: Aspose.CAD Java API
+title: Cách tạo PDF từ bản vẽ CAD bằng Aspose.CAD cho Java
 url: /vi/java/other-cad-operations/single-pdf-different-layouts/
+weight: 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Tạo các tệp PDF động bằng Aspose.CAD cho Java
+# Cách Tạo PDF Từ Bản Vẽ CAD Bằng Aspose.CAD cho Java
 
 ## Giới thiệu
 
-Chào mừng bạn đến với thế giới của Aspose.CAD cho Java, một thư viện mạnh mẽ cho phép các nhà phát triển thao tác các bản vẽ CAD một cách dễ dàng. Trong hướng dẫn này, chúng ta sẽ đi sâu vào việc tạo các tệp PDF đơn lẻ với các bố cục khác nhau bằng Aspose.CAD cho Java. Cho dù bạn là nhà phát triển dày dạn kinh nghiệm hay mới bắt đầu, hướng dẫn từng bước này sẽ hướng dẫn bạn thực hiện quy trình.
+Trong hướng dẫn này, bạn sẽ khám phá **cách tạo PDF từ bản vẽ CAD** bằng thư viện Aspose.CAD cho Java. Dù bạn cần **chuyển đổi DWG sang PDF**, xuất một tệp CAD phức tạp, hay áp dụng **kích thước trang PDF tùy chỉnh**, các bước dưới đây sẽ hướng dẫn bạn qua một giải pháp lập trình sạch sẽ. Hãy cùng đi qua quy trình, để bạn có thể tạo một tệp PDF duy nhất chứa nhiều trang layout—tất cả chỉ với vài dòng mã Java.
 
-## Điều kiện tiên quyết
+## Câu trả lời nhanh
+- **Aspose.CAD làm gì?** Nó cho phép các nhà phát triển Java tải, thao tác và xuất bản vẽ CAD sang các định dạng như PDF.
+- **Tôi có thể xuất nhiều layout vào một PDF không?** Có, bằng cách tùy chỉnh kích thước trang layout trước khi lưu.
+- **Các định dạng CAD nào được hỗ trợ?** DWG, DXF, DWF, DGN và nhiều hơn nữa.
+- **Có cần giấy phép cho môi trường sản xuất không?** Giấy phép tạm thời hoạt động cho việc thử nghiệm; giấy phép đầy đủ cần thiết cho sử dụng thương mại.
+- **Yêu cầu phiên bản Java nào?** Java 8 hoặc mới hơn.
 
-Trước khi chúng ta bắt đầu cuộc hành trình này, hãy đảm bảo bạn có sẵn các điều kiện tiên quyết sau:
-- Môi trường Java: Đảm bảo bạn đã cài đặt Java trên máy của mình.
--  Thư viện Aspose.CAD: Tải xuống và cài đặt thư viện Aspose.CAD cho Java từ[Liên kết tải xuống](https://releases.aspose.com/cad/java/).
-- Thư mục tài liệu: Thiết lập thư mục cho bản vẽ DWG của bạn.
+## “Tạo PDF từ CAD” là gì?
+Tạo PDF từ CAD có nghĩa là raster hoá các bản vẽ CAD dựa trên vector thành một tài liệu bố cục cố định (PDFốc.
+- **Kiy chọn raster hoá như DPI, kích thước trang và lựa chọn layout.
+- **Xử lý hàng loạt** – xử lý nhiều bản vẽ trong một lần chạy.
+- **Chuyển đổi chính xác** – giữ nguyên độ dày đường, màu sắc và lớp.
 
-## Gói nhập khẩu
+## Yêu cầu trước
 
-Trong dự án Java của bạn, hãy nhập các gói cần thiết:
+Trước khi bắt đầu, hãy chắc chắn bạn có:
+
+- **Môi trường Java** – JDK 8 hoặc mới hơn đã được cài đặt.
+- **Thư viện Aspose.CAD** – Tải và cài đặt thư viện Aspose.CAD cho Java từ [liên kết tải xuống](https://releases.aspose.com/cad/java/).
+- **Thư mục tài liệu** – Một thư mục chứa các bản vẽ DWG (hoặc CAD khác) mà bạn muốn chuyển đổi.
+
+## Nhập gói
+
+Trong dự án Java của bạn, nhập các lớp cần thiết:
 
 ```java
 import com.aspose.cad.Image;
@@ -37,18 +53,20 @@ import com.aspose.cad.imageoptions.PdfOptions;
 import com.aspose.cad.imageoptions.VectorRasterizationOptions;
 ```
 
-## Bước 1: Tải bản vẽ CAD
+## Hướng dẫn từng bước
 
- Bắt đầu bằng cách tải bản vẽ CAD của bạn vào một`CadImage` sự vật:
+### Bước 1: Tải bản vẽ CAD
+
+Đầu tiên, tải tệp CAD nguồn (ví dụ: DWG) vào một đối tượng `CadImage`. Đây là điểm khởi đầu cho bất kỳ hoạt động **xuất CAD sang PDF** nào.
 
 ```java
 String dataDir = "Your Document Directory" + "DWGDrawings/";
 CadImage cadImage = (CadImage)Image.load(dataDir + "City skyway map.dwg");
 ```
 
-## Bước 2: Định cấu hình tùy chọn Rasterization
+### Bước 2: Cấu hình tùy chọn raster hoá
 
-Thiết lập các tùy chọn rasterization cho hình ảnh CAD:
+Xác định cách dữ liệu CAD sẽ được raster hoá. Ở đây chúng ta đặt chiều rộng và chiều cao trang cơ bản sẽ được sử dụng cho các layout không có kích thước tùy chỉnh.
 
 ```java
 CadRasterizationOptions rasterizationOptions = new CadRasterizationOptions();
@@ -56,59 +74,70 @@ rasterizationOptions.setPageWidth(1000);
 rasterizationOptions.setPageHeight(1000);
 ```
 
-## Bước 3: Tùy chỉnh kích thước trang bố cục
+### Bước 3: Tùy chỉnh kích thước trang Layout
 
-Xác định kích thước tùy chỉnh cho một số bố cục trong bản vẽ CAD:
+Nếu bạn cần **kích thước trang PDF tùy chỉnh**, hãy thêm các mục cho mỗi layout bạn muốn xuất hiện trong PDF cuối cùng. Điều này cho phép bạn **chuyển đổi DWG sang PDF** với các kích thước khác nhau cho từng layout.
 
 ```java
 rasterizationOptions.getLayoutPageSizes().addItem("ANSI C Plot", new SizeF(500, 1000));
 rasterizationOptions.getLayoutPageSizes().addItem("8.5 x 11 Plot", new SizeF(1000, 100));
 ```
 
-## Bước 4: Đặt tùy chọn PDF
+### Bước 4: Đặt tùy chọn PDF
 
-Định cấu hình các tùy chọn PDF, kết hợp các cài đặt rasterization:
+Kết hợp các cài đặt raster hoá với các tùy chọn đặc thù cho PDF. Thuộc tính `VectorRasterizationOptions` thông báo cho Aspose.CAD sử dụng các kích thước layout mà chúng ta vừa định nghĩa.
 
 ```java
 PdfOptions pdfOptions = new PdfOptions();
 pdfOptions.setVectorRasterizationOptions(rasterizationOptions);
 ```
 
-## Bước 5: Lưu dưới dạng PDF
+### Bước 5: Lưu dưới dạng PDF
 
-Lưu hình ảnh CAD đã xử lý dưới dạng PDF:
+Cuối cùng, xuất bản vẽ CAD ra một tệp PDF duy nhất chứa tất cả các layout đã chỉ định. Bước này **lưu CAD dưới dạng PDF** trong một lần gọi.
 
 ```java
 cadImage.save(dataDir + "singlePDF_out.pdf", pdfOptions);
 ```
 
-Chúc mừng! Bạn đã tạo thành công một tệp PDF với các bố cục khác nhau bằng Aspose.CAD cho Java.
+> **Mẹo chuyên nghiệp:** Tái sử dụng cùng một đối tượng `PdfOptions` nếu bạn cần xuất nhiều bản vẽ trong một batch – nó giảm tải việc tạo đối tượng mới.
 
-## Phần kết luận
+## Các vấn đề thường gặp và giải pháp
 
-Trong hướng dẫn này, chúng tôi đã khám phá khả năng tích hợp liền mạch của Aspose.CAD cho Java để tạo tệp PDF với bố cục đa dạng từ bản vẽ CAD. Tính linh hoạt và các tính năng mạnh mẽ của thư viện khiến nó trở thành lựa chọn phù hợp cho các tác vụ thao tác CAD.
+| Vấn đề | Giải pháp |
+|-------|----------|
+| **Các trang trống trong PDF đầu ra** | Kiểm tra rằng tên layout (`"ANSI C Plot"`, `"8.5 x 11 Plot"`) khớp chính xác với những gì được định nghĩa trong tệp CAD. |
+| **Đầu ra có độ phân giải thấp** | Tăng DPI bằng cách gọi `rasterizationOptions.setResolution(300);` trước khi lưu. |
+| **Giấy phép chưa được áp dụng** | Tải giấy phép tạm thời hoặc đầy đủ trước bất kỳ lời gọi Aspose.CAD nào: `License license = new License(); license.setLicense("Aspose.CAD.lic");` |
 
 ## Câu hỏi thường gặp
 
-### Câu hỏi 1: Tôi có thể sử dụng Aspose.CAD cho Java với các thư viện Java khác không?
+### Q1: Tôi có thể dùng Aspose.CAD cho Java cùng với các thư viện Java khác không?
 
-Câu trả lời 1: Có, Aspose.CAD cho Java được thiết kế để tích hợp liền mạch với các thư viện Java khác, cung cấp chức năng mở rộng.
+A1: Có, Aspose.CAD cho Java được thiết kế để tích hợp liền mạch với các thư viện Java khác, cung cấp chức năng phong phú.
 
 ### Q2: Có phiên bản dùng thử không?
 
- A2: Chắc chắn rồi! Bạn có thể truy cập phiên bản dùng thử miễn phí[đây](https://releases.aspose.com/).
+A2: Chắc chắn! Bạn có thể truy cập phiên bản dùng thử miễn phí [tại đây](https://releases.aspose.com/).
 
-### Câu hỏi 3: Tôi có thể tìm thêm hỗ trợ ở đâu?
+### Q3: Tôi có thể tìm hỗ trợ bổ sung ở đâu?
 
- A3: Tham quan[Diễn đàn Aspose.CAD](https://forum.aspose.com/c/cad/19) để được cộng đồng hỗ trợ và thảo luận.
+A3: Tham khảo [diễn đàn Aspose.CAD](https://forum.aspose.com/c/cad/19) để nhận hỗ trợ cộng đồng và thảo luận.
 
-### Câu hỏi 4: Làm cách nào để có được giấy phép tạm thời?
+### Q4: Làm sao để lấy giấy phép tạm thời?
 
- A4: Bạn có thể xin giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/).
+A4: Bạn có thể nhận giấy phép tạm thời [tại đây](https://purchase.aspose.com/temporary-license/).
 
-### Q5: Tôi có thể mua phiên bản đầy đủ ở đâu?
+### Q5: Tôi mua phiên bản đầy đủ ở đâu?
 
-Câu trả lời 5: Mua phiên bản đầy đủ của Aspose.CAD cho Java[đây](https://purchase.aspose.com/buy).
+A5: Mua phiên bản đầy đủ của Aspose.CAD cho Java [tại đây](https://purchase.aspose.com/buy).
+
+---
+
+**Cập nhật lần cuối:** 2026-01-22  
+**Đã kiểm tra với:** Aspose.CAD cho Java 24.12  
+**Tác giả:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
