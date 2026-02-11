@@ -1,32 +1,33 @@
 ---
-title: การแปลง OBJ เป็น PDF ได้อย่างง่ายดายด้วย Aspose.CAD สำหรับ Java
-linktitle: การสนับสนุนของ OBJ
+date: 2026-01-25
+description: เรียนรู้วิธีแปลง OBJ เป็น PDF ด้วย Aspose.CAD สำหรับ Java สำรวจการจัดการ
+  OBJ อย่างราบรื่นและการแปลงเป็น PDF ทีละขั้นตอน.
+linktitle: Support of OBJ
 second_title: Aspose.CAD Java API
-description: สำรวจศักยภาพของ Aspose.CAD สำหรับ Java ในการจัดการภาพวาด OBJ ได้อย่างราบรื่น แปลงเป็น PDF ได้อย่างง่ายดายด้วยคำแนะนำทีละขั้นตอนของเรา
-weight: 19
+title: วิธีแปลง obj เป็น pdf ด้วย Aspose.CAD สำหรับ Java
 url: /th/java/other-cad-operations/support-of-obj/
+weight: 19
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# การแปลง OBJ เป็น PDF ได้อย่างง่ายดายด้วย Aspose.CAD สำหรับ Java
+# วิธีแปลง obj เป็น pdf ด้วย Aspose.CAD สำหรับ Java
 
-## การแนะนำ
+## Introduction
 
-ยินดีต้อนรับสู่บทช่วยสอนที่ครอบคลุมเกี่ยวกับการใช้ประโยชน์จากพลังของ Aspose.CAD สำหรับ Java เพื่อจัดการภาพวาด OBJ ได้อย่างง่ายดาย ในคำแนะนำทีละขั้นตอนนี้ เราจะสำรวจวิธีการทำงานกับไฟล์ OBJ นำเข้าแพ็คเกจ และแปลงเป็นรูปแบบ PDF โดยใช้ไลบรารี Aspose.CAD ไม่ว่าคุณจะเป็นนักพัฒนาที่มีประสบการณ์หรือเพิ่งเริ่มต้น บทช่วยสอนนี้จะแนะนำคุณตลอดกระบวนการ เพื่อให้มั่นใจว่าคุณจะสามารถใช้ประโยชน์จาก Aspose.CAD สำหรับ Java ได้อย่างเต็มที่
+ยินดีต้อนรับสู่บทแนะนำที่ครอบคลุมนี้เกี่ยวกับการใช้พลังของ Aspose.CAD สำหรับ Java เพื่อ **แปลง obj เป็น pdf** อย่างง่ายดาย ไม่ว่าคุณจะทำงานบนยูทิลิตี้เดสก์ท็อป, บริการเว็บ, หรือกระบวนการแบ OBJ ใน Java จน **Do A free trial works for evaluation; a commercial license is required for production.
+- **What Java version is required?** Java 8 or higher is supported.
+- **Is the output vector‑based or rasterized?** The PDF is rasterized based on the options you set (e.g., page size, DPI).
 
-## ข้อกำหนดเบื้องต้น
+## Prerequisites
 
-ก่อนที่เราจะเจาะลึกบทช่วยสอน โปรดตรวจสอบให้แน่ใจว่าคุณมีข้อกำหนดเบื้องต้นที่จำเป็น:
-1. Java Development Kit (JDK): ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง Java บนระบบของคุณ คุณสามารถดาวน์โหลด JDK ล่าสุดได้จาก[ที่นี่](https://www.oracle.com/java/technologies/javase-downloads.html).
-2.  ไลบรารี Aspose.CAD: ดาวน์โหลดไลบรารี Aspose.CAD สำหรับ Java จาก[ลิ้งค์ดาวน์โหลด](https://releases.aspose.com/cad/java/). ปฏิบัติตามคำแนะนำในการติดตั้งที่ให้ไว้ในเอกสารประกอบ
-3. สภาพแวดล้อมการพัฒนาแบบรวม (IDE): เลือก Java IDE ที่คุณต้องการ เช่น IntelliJ IDEA หรือ Eclipse ตรวจสอบให้แน่ใจว่าได้รับการตั้งค่าและพร้อมสำหรับการพัฒนา Java
+Before we dive into the tutorial, make sure you have the following:
 
-## แพ็คเกจนำเข้า
-
-เมื่อคุณมีข้อกำหนดเบื้องต้นแล้ว ก็ถึงเวลานำเข้าแพ็คเกจที่จำเป็นไปยังโปรเจ็กต์ Java ของคุณ เพิ่มคำสั่งนำเข้าต่อไปนี้ที่จุดเริ่มต้นของไฟล์ Java ของคุณ:
+1. **Java Development Kit (JDK)** – Install the latest JDK from [here](https://www.oracle.com/java/technologies/javase-downloads.html).  
+2. **Aspose.CAD Library** – Grab the Java library from the [download link](https://releases.aspose.com/cad/java/). Follow the installation guide in the documentation.  
+3. **IDE** – Any Java IDE you prefer (IntelliJ IDEA, Eclipse, VS Code, etc the top of your Java class:
 
 ```java
 import com.aspose.cad.Image;
@@ -34,25 +35,23 @@ import com.aspose.cad.imageoptions.CadRasterizationOptions;
 import com.aspose.cad.imageoptions.PdfOptions;
 ```
 
-ตอนนี้เราได้กำหนดขั้นตอนแล้ว เรามาแบ่งตัวอย่างออกเป็นหลายขั้นตอนกัน
-
-## ขั้นตอนที่ 1: ตั้งค่าไดเร็กทอรีเอกสารของคุณ
+### Step 1: Set Up Your Document Directory
 
 ```java
 String dataDir = "Your Document Directory" + "OBJDrawings/";
 ```
 
-แทนที่ "Your Document Directory" ด้วยเส้นทางจริงไปยังไดเร็กทอรีที่มีรูปวาด OBJ ของคุณอยู่
+Replace **Your Document Directory** with the absolute path where your OBJ files reside.
 
-## ขั้นตอนที่ 2: โหลดการวาด OBJ
+### Step 2: Load OBJ Drawing
 
 ```java
 Image cadDoc = Image.load(dataDir + "example-580-W.obj");
 ```
 
- โหลดภาพวาด OBJ โดยใช้ไฟล์`Image.load` วิธี.
+This line **loads the OBJ file** (`example-580-W.obj`) into an `Image` object—essentially the “load obj file java” step.
 
-## ขั้นตอนที่ 3: กำหนดค่าตัวเลือกการแรสเตอร์
+### Step 3: Configure Rasterization Options
 
 ```java
 CadRasterizationOptions rasterizationOptions = new CadRasterizationOptions();
@@ -60,51 +59,59 @@ rasterizationOptions.setPageWidth(cadDoc.getSize().getWidth());
 rasterizationOptions.setPageHeight(cadDoc.getSize().getHeight());
 ```
 
-กำหนดค่าตัวเลือกการแรสเตอร์ ตั้งค่าความกว้างและความสูงของหน้าตามขนาดของเอกสาร CAD ที่โหลด
+Here we set the page dimensions based on the original CAD drawing, ensuring the PDF matches the source size.
 
-## ขั้นตอนที่ 4: ตั้งค่าตัวเลือก PDF
+### Step )
 
 ```java
 PdfOptions CADf = new PdfOptions();
 CADf.setVectorRasterizationOptions(rasterizationOptions);
 ```
 
-ตั้งค่าตัวเลือก PDF และเชื่อมโยงตัวเลือกการแรสเตอร์
+The `PdfOptions` object ties the rasterization settings to the PDF output, effectively **saving CAD as PDF**.
 
-## ขั้นตอนที่ 5: บันทึกเป็น PDF
+### Step 5: Save as PDF
 
 ```java
 cadDoc.save(dataDir + "example-580-W_custom.pdf", CADf);
 ```
 
-บันทึกแบบร่าง CAD ที่แก้ไขแล้วเป็นไฟล์ PDF
-ทำซ้ำขั้นตอนเหล่านี้สำหรับภาพวาด OBJ แต่ละรายการที่คุณต้องการแปลง
+Running this line writes the converted file `example-580-W_custom.pdf` to the same directory. Repeat the process for any additional OBJ files you need to convert.
 
-## บทสรุป
+## Common Issues & Tips
 
-ยินดีด้วย! คุณได้เรียนรู้วิธีใช้ Aspose.CAD สำหรับ Java เพื่อรองรับภาพวาด OBJ และแปลงเป็นรูปแบบ PDF เรียบร้อยแล้ว ไลบรารีอันทรงพลังนี้ช่วยให้นักพัฒนามีโซลูชันที่ราบรื่นสำหรับการจัดการไฟล์ CAD ในแอปพลิเคชัน Java
+- **Incorrect file path** – Double‑check that `dataDir` ends with a trailing slash and points to the correct folder.  
+- **Large OBJ files** – Increase the DPI in `CadRasterizationOptions` if you need higher‑resolution output, but be aware it will increase memory usage.  
+- **License exceptions** – The trial version adds a watermark; apply a valid license to remove it.
 
-## คำถามที่พบบ่อย
+## Frequently Asked Questions
 
-### คำถามที่ 1: ฉันสามารถใช้ Aspose.CAD สำหรับ Java กับไฟล์ CAD รูปแบบอื่นได้หรือไม่
+### Q1: Can I use Aspose.CAD for Java with other CAD file formats?
 
- A1: ใช่ Aspose.CAD สำหรับ Java รองรับไฟล์ CAD หลากหลายรูปแบบ รวมถึง DWG, DXF, DGN และอื่นๆ อ้างถึง[เอกสารประกอบ](https://reference.aspose.com/cad/java/) สำหรับรายการที่ครอบคลุม
+A1: Yes, Aspose.CAD for Java supports various CAD file formats, including DWG, DXF, DGN, and more. Refer to the [documentation](https://reference.aspose.com/cad/java/) for a comprehensive list.
 
-### คำถามที่ 2: มีการทดลองใช้ฟรีหรือไม่?
+### Q2: Is there a free trial available?
 
-ตอบ 2: ได้ คุณสามารถสำรวจความสามารถของ Aspose.CAD สำหรับ Java ได้ด้วยการทดลองใช้ฟรี เยี่ยม[ที่นี่](https://releases.aspose.com/) ที่จะเริ่มต้น.
+A2: Yes, you can explore the capabilities of Aspose.CAD for Java with a free trial. Visit [here](https://releases.aspose.com/) to get started.
 
-### คำถามที่ 3: ฉันจะรับการสนับสนุนสำหรับ Aspose.CAD สำหรับ Java ได้อย่างไร
+### Q3: How can I get support for Aspose.CAD for Java?
 
- A3: หากมีข้อสงสัยหรือความช่วยเหลือ โปรดไปที่ Aspose.CAD[ฟอรั่ม](https://forum.aspose.com/c/cad/19) เพื่อเชื่อมต่อกับชุมชนและขอคำแนะนำจากผู้เชี่ยวชาญ
+A3: For any queries or assistance, visit the Aspose.CAD [forum](https://forum.aspose.com/c/cad/19) to connect with the community and seek expert guidance.
 
-### คำถามที่ 4: มีใบอนุญาตชั่วคราวหรือไม่
+### Q4: Are temporary licenses available?
 
- A4: ใช่ มีใบอนุญาตชั่วคราวสำหรับ Aspose.CAD สำหรับ Java รับของคุณ[ที่นี่](https://purchase.aspose.com/temporary-license/).
+A4: Yes, temporary licenses are available for Aspose.CAD for Java. Obtain yours [here](https://purchase.aspose.com/temporary-license/).
 
-### คำถามที่ 5: ฉันจะซื้อ Aspose.CAD สำหรับ Java ได้ที่ไหน
+### Q5: Where can I purchase Aspose.CAD for Java?
 
-A5: คุณสามารถซื้อ Aspose.CAD สำหรับ Java ได้จาก[หน้าซื้อ](https://purchase.aspose.com/buy).
+A5: You can purchase Aspose.CAD for Java from the [purchase page](https://purchase.aspose.com/buy).
+
+---
+
+**Last Updated:** 2026-01-25  
+**Tested With:** Aspose.CAD for Java 24.12  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
