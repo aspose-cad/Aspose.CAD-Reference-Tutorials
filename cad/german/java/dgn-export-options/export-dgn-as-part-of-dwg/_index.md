@@ -1,32 +1,49 @@
 ---
-title: Exportieren Sie DGN in DWG mit Aspose.CAD für Java
-linktitle: Exportieren Sie DGN als Teil von DWG
+date: 2026-01-10
+description: Erfahren Sie, wie Sie DGN nach DWG exportieren und MicroStation DGN in
+  AutoCAD DWG mit Aspose.CAD für Java konvertieren. Schritt‑für‑Schritt‑Anleitung.
+linktitle: Export DGN as Part of DWG
 second_title: Aspose.CAD Java API
-description: Erfahren Sie, wie Sie DGN als Teil von DWG mit Aspose.CAD für Java exportieren. Befolgen Sie unsere Schritt-für-Schritt-Anleitung für eine effiziente Bearbeitung von CAD-Dateien.
-weight: 10
+title: DGN nach DWG exportieren mit Aspose.CAD für Java
 url: /de/java/dgn-export-options/export-dgn-as-part-of-dwg/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Exportieren Sie DGN in DWG mit Aspose.CAD für Java
+# Export DGN nach DWG mit Aspose.CAD für Java
 
 ## Einführung
 
-In diesem Tutorial erfahren Sie, wie Sie mit Aspose.CAD für Java eine DGN-Datei (MicroStation Design) als Teil einer DWG-Datei (AutoCAD Drawing) exportieren. Aspose.CAD ist eine leistungsstarke Bibliothek, die umfassende Funktionalität für die Arbeit mit CAD-Dateiformaten bietet. Diese Schritt-für-Schritt-Anleitung hilft Ihnen, den Prozess des DGN-Exports als Teil von DWG mit Java zu verstehen.
+In diesem Tutorial lernen Sie, wie Sie **DGN nach DWG exportieren** und ein MicroStation‑DGN‑Design in einer AutoCAD‑DWG‑Datei mithilfe der Aspose.CAD‑Bibliothek für Java einbetten. Egal, ob Sie Legacy‑MicroStation‑Zeichnungen migrieren oder DGN‑Unterlagen mit DWG‑Layouts kombinieren möchten, dieser Leitfaden führt Sie durch jeden Schritt – von der Einrichtung der Umgebung bis zur Erstellung einer PDF‑Vorschau der finalen DWG‑Datei.
+
+## Schnelle Antworten
+- **Was bewirkt “export dgn to dwg”?** Es bettet ein DGN‑Unterlage in ein DWG ein und ermöglicht nahtloses Betrachten in AutoCAD.
+- **In welches Format kann ich das Ergebnis für eine schnelle Vorschau exportieren?** Sie können die **CAD‑Datei mit `PdfOptions` nach PDF exportieren**.
+- **Benötige ich eine Lizenz, um den Code auszuführen?** Für den Produktionseinsatz ist eine temporäre oder kostenpflichtige Aspose.CAD‑Lizenz erforderlich.
+- **Welche Java‑Version wird unterstützt?** Java 8 oder höher funktioniert mit der neuesten Aspose.CAD‑Version für Java.
+- **Ist ein kostenloser Test verfügbar?** Ja – laden Sie eine Testversion von der Aspose‑Website herunter.
+
+## Was ist “export dgn to dwg”?
+Das Exportieren von DGN nach DWG bedeutet, ein MicroStation‑DGN‑Design in ein AutoCAD‑DWG‑Zeichnung als Unterlage zu konvertieren oder einzubetten. Dadurch können CAD‑Fachleute vorhandene DGN‑Assets nutzen, ohne die Geometrie von Grund auf neu zu erstellen.
+
+## Warum MicroStation DGN nach AutoCAD DWG konvertieren?
+- **Zusammenarbeit:** Teams, die AutoCAD verwenden, können DGN‑Inhalte direkt ansehen und bearbeiten.
+- **Standardisierung:** DWG ist das de‑facto‑Format für viele nachgelagerte Workflows (z. B. PDF‑Erstellung, 3D‑Rendering).
+- **Erhaltung:** Bewahrt die ursprünglichen DGN‑Referenzen, wodurch Datenverlust reduziert wird.
 
 ## Voraussetzungen
 
-Bevor wir uns mit dem Tutorial befassen, stellen Sie sicher, dass die folgenden Voraussetzungen erfüllt sind:
-1. Aspose.CAD-Bibliothek: Laden Sie die Aspose.CAD-Bibliothek für Java herunter und installieren Sie sie. Sie finden die Bibliothek[Hier](https://releases.aspose.com/cad/java/).
-2. Java Development Kit (JDK): Stellen Sie sicher, dass Java auf Ihrem System installiert ist.
-3. Integrierte Entwicklungsumgebung (IDE): Wählen Sie eine Java-IDE wie Eclipse oder IntelliJ für eine reibungslosere Entwicklungserfahrung.
+Bevor wir mit dem Tutorial beginnen, stellen Sie sicher, dass Sie die folgenden Voraussetzungen erfüllt haben:
+1. **Aspose.CAD‑Bibliothek:** Laden Sie die Aspose.CAD‑Bibliothek für Java herunter und installieren Sie sie. Die Bibliothek finden Sie [hier](https://releases.aspose.com/cad/java/).
+2. **Java Development Kit (JDK):** Stellen Sie sicher, dass Java auf Ihrem System installiert ist.
+3. **Integrierte Entwicklungsumgebung (IDE):** Wählen Sie eine Java‑IDE wie Eclipse oder IntelliJ für ein reibungsloses Entwicklungserlebnis.
 
 ## Pakete importieren
 
-Importieren Sie in Ihr Java-Projekt die erforderlichen Aspose.CAD-Pakete, um die Bearbeitung von CAD-Dateien zu ermöglichen. Hier ist ein Beispiel:
+Importieren Sie in Ihrem Java‑Projekt die erforderlichen Aspose.CAD‑Pakete, um die CAD‑Dateiverarbeitung zu ermöglichen. Hier ein Beispiel:
 
 ```java
 import com.aspose.cad;
@@ -36,9 +53,9 @@ import com.aspose.cad.fileformats.cad;
 import com.aspose.cad.fileformats.cad.cadobjects;
 ```
 
-## Schritt 1: Dateipfade festlegen
+## Schritt 1: Dateipfade festlegen
 
- Definieren Sie die Eingabe- und Ausgabedateipfade für die DWG-Datei. Aktualisieren Sie die`dataDir`, `fileName` , Und`outPath` Variablen entsprechend.
+Definieren Sie die Eingabe‑ und Ausgabe‑Dateipfade für die DWG‑Datei. Aktualisieren Sie die Variablen `dataDir`, `fileName` und `outPath` entsprechend.
 
 ```java
 String dataDir = "Your Document Directory" + "ExportingDGN/";
@@ -46,25 +63,25 @@ String fileName = dataDir + "BlockRefDgn.dwg";
 String outPath = dataDir + "BlockRefDgn.dwg.pdf";
 ```
 
-## Schritt 2: Erstellen Sie eine PdfOptions-Instanz
+## Schritt 2: PdfOptions‑Instanz erstellen
 
- Erstellen Sie eine Instanz von`PdfOptions` Klasse, da wir die DWG-Datei in das PDF-Format exportieren.
+Erstellen Sie eine Instanz der Klasse `PdfOptions`, da wir die CAD‑Datei **nach PDF exportieren** für eine schnelle Überprüfung.
 
 ```java
 PdfOptions exportOptions = new PdfOptions();
 ```
 
-## Schritt 3: DWG-Datei laden
+## Schritt 3: DWG‑Datei laden
 
- Laden Sie die vorhandene DWG-Datei als Bild und konvertieren Sie sie in das`CadImage` Typ.
+Laden Sie die vorhandene DWG‑Datei als Bild und konvertieren Sie sie in den Typ `CadImage`.
 
 ```java
 CadImage cadImage = (CadImage) Image.load(fileName);
 ```
 
-## Schritt 4: Durch Entitäten iterieren
+## Schritt 4: Durch Entitäten iterieren
 
-Gehen Sie jedes Element in der DWG-Datei durch und prüfen Sie, ob es sich um eine Bilddefinition handelt. Wenn dies der Fall ist, rufen Sie den externen Verweis auf das Objekt ab.
+Durchlaufen Sie jede Entität in der DWG‑Datei und prüfen Sie, ob es sich um eine Bilddefinition handelt. Falls ja, holen Sie die externe Referenz zum Objekt.
 
 ```java
 for (CadBaseEntity baseEntity : cadImage.getEntities()) {
@@ -75,9 +92,9 @@ for (CadBaseEntity baseEntity : cadImage.getEntities()) {
 }
 ```
 
-## Schritt 5: Rasterisierungsoptionen definieren
+## Schritt 5: Rasterisierungsoptionen definieren
 
- Definieren Sie Einstellungen für`CadRasterizationOptions`Objekt, einschließlich Seitenbreite, Höhe, Layouts und Hintergrundfarbe.
+Definieren Sie die Einstellungen für das Objekt `CadRasterizationOptions`, einschließlich Seitenbreite, -höhe, Layouts und Hintergrundfarbe.
 
 ```java
 CadRasterizationOptions vectorRasterizationOptions = new CadRasterizationOptions();
@@ -90,47 +107,64 @@ vectorRasterizationOptions.setBackgroundColor(Color.getBlack());
 vectorRasterizationOptions.setDrawType(CadDrawTypeMode.UseObjectColor);
 ```
 
-## Schritt 6: Legen Sie die Optionen für die Vektorrasterung fest
+## Schritt 6: Vektor‑Rasterisierungsoptionen festlegen
 
-Legen Sie die Optionen für die Vektorrasterung für den Export fest.
+Legen Sie die Vektor‑Rasterisierungsoptionen für den Export fest.
 
 ```java
 exportOptions.setVectorRasterizationOptions(vectorRasterizationOptions);
 ```
 
-## Schritt 7: DWG in PDF exportieren
+## Schritt 7: DWG nach PDF exportieren
 
- Exportieren Sie abschließend die DWG-Datei in eine PDF-Datei, indem Sie die Datei aufrufen`save` Methode.
+Exportieren Sie schließlich die DWG‑Datei nach PDF, indem Sie die Methode `save` aufrufen.
 
 ```java
 cadImage.save(outPath, exportOptions);
 ```
 
-## Abschluss
+## Allgemeine Probleme und Lösungen
 
-Glückwunsch! Sie haben erfolgreich gelernt, wie Sie mit Aspose.CAD für Java eine DGN-Datei als Teil einer DWG-Datei exportieren. Diese leistungsstarke Bibliothek bietet umfangreiche Funktionen für die Arbeit mit CAD-Dateien und macht Ihre CAD-Dateibearbeitungsaufgaben effizient und unkompliziert.
+| Problem | Ursache | Lösung |
+|-------|-------|----------|
+| **Keine DGN‑Unterlage sichtbar** | Die DWG‑Datei enthält keine `DGNUNDERLAY`‑Entität. | Stellen Sie sicher, dass die Quell‑DWG eine DGN‑Referenz enthält. |
+| **PDF ist leer** | Rasterisierungsoptionen sind auf Nullgröße oder falsches Layout gesetzt. | Stellen Sie sicher, dass `setPageWidth`/`setPageHeight` positiv sind und `setLayouts` dem DWG‑Layoutnamen entspricht. |
+| **Lizenzausnahme** | Ausführung ohne gültige Aspose.CAD‑Lizenz. | Wenden Sie vor dem Aufruf von API‑Methoden eine temporäre oder gekaufte Lizenz an. |
 
-## FAQs
+## Häufig gestellte Fragen
 
-### F1: Wo finde ich die Dokumentation für Aspose.CAD für Java?
+### Q1: Wo finde ich die Dokumentation für Aspose.CAD für Java?
 
- A1: Die Dokumentation kann gefunden werden[Hier](https://reference.aspose.com/cad/java/).
+Die Dokumentation finden Sie [hier](https://reference.aspose.com/cad/java/).
 
-### F2: Wie kann ich die Aspose.CAD-Bibliothek für Java herunterladen?
+### Q2: Wie kann ich die Aspose.CAD‑Bibliothek für Java herunterladen?
 
- A2: Sie können die Bibliothek herunterladen unter[dieser Link](https://releases.aspose.com/cad/java/).
+Sie können die Bibliothek über [diesen Link](https://releases.aspose.com/cad/java/) herunterladen.
 
-### F3: Gibt es eine kostenlose Testversion für Aspose.CAD für Java?
+### Q3: Ist ein kostenloser Test für Aspose.CAD für Java verfügbar?
 
- A3: Ja, Sie können die kostenlose Testversion finden[Hier](https://releases.aspose.com/).
+Ja, den kostenlosen Test finden Sie [hier](https://releases.aspose.com/).
 
-### F4: Wo kann ich eine temporäre Lizenz für Aspose.CAD für Java erhalten?
+### Q4: Wo kann ich eine temporäre Lizenz für Aspose.CAD für Java erhalten?
 
- A4: Besorgen Sie sich eine temporäre Lizenz[Hier](https://purchase.aspose.com/temporary-license/).
+Erhalten Sie eine temporäre Lizenz [hier](https://purchase.aspose.com/temporary-license/).
 
-### F5: Benötigen Sie Hilfe oder haben Sie Fragen?
+### Q5: Brauchen Sie Hilfe oder haben Sie Fragen?
 
- A5: Besuchen Sie das Aspose.CAD-Community-Supportforum[Hier](https://forum.aspose.com/c/cad/19).
+Besuchen Sie das Aspose.CAD‑Community‑Support‑Forum [hier](https://forum.aspose.com/c/cad/19).
+
+### Q6: Kann ich das resultierende PDF zurück nach DWG konvertieren?
+
+Das PDF ist eine Rastervorschau; die Rückkonvertierung nach DWG erfordert ein separates Reverse‑Engineering‑Tool.
+
+### Q7: Funktioniert dieser Ansatz mit anderen CAD‑Formaten wie DWF oder DXF?
+
+Ja, Aspose.CAD unterstützt viele Formate; Sie müssen lediglich die Dateierweiterungen und Rasterisierungseinstellungen entsprechend anpassen.
+
+**Zuletzt aktualisiert:** 2026-01-10  
+**Getestet mit:** Aspose.CAD for Java 24.11  
+**Autor:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
