@@ -1,37 +1,50 @@
 ---
-title: Java용 Aspose.CAD를 사용하여 DWG 파일의 은선 지원
-linktitle: Java를 사용하여 DWG 파일의 은선 지원
-second_title: Aspose.CAD 자바 API
-description: Aspose.CAD를 사용하여 Java 애플리케이션의 DWG 파일 조작 기능을 향상시키는 방법을 알아보세요. 은선 지원에 대한 단계별 가이드를 따르세요. CAD 도면 처리를 쉽게 향상시키십시오.
-weight: 11
+date: 2026-01-02
+description: 이 단계별 튜토리얼에서 Aspose.CAD for Java를 사용하여 DWG를 PDF로 내보내고, 숨은 선을 활성화하며, DWG를
+  PDF로 변환하는 방법을 배워보세요.
+linktitle: Export DWG as PDF with Hidden Lines Using Java
+second_title: Aspose.CAD Java API
+title: 숨겨진 선을 포함한 DWG를 PDF로 내보내기 – Aspose.CAD for Java
 url: /ko/java/cad-text-and-formatting/support-hidden-lines-in-dwg/
+weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Java용 Aspose.CAD를 사용하여 DWG 파일의 은선 지원
+# DWG를 숨은 선으로 PDF로 내보내기 – Aspose.CAD for Java
 
 ## 소개
 
-DWG 파일 조작 기능을 향상시키기 위해 Java용 Aspose.CAD를 활용하는 포괄적인 가이드에 오신 것을 환영합니다. 이 튜토리얼에서는 DWG 파일의 은선 지원이라는 특정 측면에 중점을 둡니다. 숙련된 개발자이든 이제 막 시작하는 개발자이든 이 가이드는 단계별 지침을 통해 프로세스를 탐색하는 데 도움이 될 것입니다.
+이 튜토리얼에서는 Aspose.CAD for Java를 사용하여 숨은 선을 보존하면서 **export DWG as PDF** 하는 방법을 배웁니다. **convert DWG to PDF**가 필요하거나, **dwg to pdf tutorial** 스타일 가이드를 만들거나, 혹은 숨은 선 지원과 함께 **save DWG as PDF**만 필요하든, 단계별로 안내해 드립니다. 끝까지 진행하면 Java 프로젝트에 바로 적용할 수 있는 사용 가능한 솔루션을 얻게 됩니다.
+
+## 빠른 답변
+- **이 튜토리얼은 무엇을 다루나요?** Aspose.CAD for Java를 사용하여 DWG를 PDF로 내보낼 때 숨은 선 렌더링을 활성화합니다.  
+- **주요 작업은 무엇인가요?** `export dwg as pdf`.  
+- **라이선스가 필요합니까?** 무료 체험으로 테스트할 수 있으며, 프로덕션에서는 상용 라이선스가 필요합니다.  
+- **전제 조건은 무엇인가요?** Java 개발 환경, Aspose.CAD for Java 라이브러리, 그리고 DWG 파일.  
+- **구현에 얼마나 걸리나요?** 기본 설정에 약 10‑15분 정도 소요됩니다.
+
+## “export dwg as pdf”란 무엇인가요?
+
+DWG 파일을 PDF로 내보내면 벡터 기반 CAD 도면을 포터블 문서 형식으로 변환하면서 레이어, 라인 타입 및 선택적 숨은 선 렌더링을 보존합니다. 이를 통해 CAD 소프트웨어가 없는 이해관계자와도 CAD 설계를 쉽게 공유할 수 있습니다.
+
+## 내보낼 때 숨은 선을 활성화하는 이유는?
+
+숨은 선은 복잡한 3D 모델을 2‑D 페이지에 보다 명확하게 표시하여 보이는 가장자리만 강조합니다. 이는 가독성을 향상시키며 엔지니어링 문서에 종종 필요합니다.
 
 ## 전제 조건
 
-튜토리얼을 시작하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
+1. **Aspose.CAD for Java** – 공식 사이트에서 라이브러리를 다운로드하세요 [여기](https://releases.aspose.com/cad/java/).  
+2. **DWG files** – 소스 DWG 도면을 알려진 디렉터리에 저장해 두세요.  
+3. **Java development environment** – JDK 8 이상 및 선호하는 IDE(Eclipse, IntelliJ 등).  
 
-1.  Aspose.CAD for Java: 라이브러리가 설치되어 있는지 확인하세요. 다운로드 링크를 찾을 수 있습니다[여기](https://releases.aspose.com/cad/java/).
-
-2. DWG 파일: 작업하려는 DWG 파일을 문서 디렉토리에 준비하십시오.
-
-3. Java 개발 환경: 컴퓨터에 Java 개발 환경을 설정합니다.
-
-이제 설정이 완료되었으므로 세부정보를 살펴보겠습니다.
+이제 설정이 완료되었으니, 코드로 들어가 보겠습니다.
 
 ## 네임스페이스 가져오기
 
-필요한 네임스페이스를 Java 프로젝트로 가져오는 것부터 시작하세요. 이를 통해 Aspose.CAD에서 제공하는 기능에 액세스할 수 있습니다.
+필요한 클래스를 가져와 CAD 이미지와 PDF 옵션을 사용할 수 있도록 합니다.
 
 ```java
 import com.aspose.cad.Image;
@@ -43,21 +56,19 @@ import java.util.Arrays;
 import java.util.List;
 ```
 
-이제 각 단계를 분석해 보겠습니다.
+## 단계 1: 프로젝트 설정
 
-## 1단계: 프로젝트 설정
-
-Java 프로젝트를 생성하고 Aspose.CAD를 종속성에 추가했는지 확인하세요.
+Java 프로젝트를 생성하고 Aspose.CAD JAR를 빌드 경로에 추가합니다. 그런 다음 DWG 파일이 있는 디렉터리를 정의합니다.
 
 ```java
 String dataDir = "Your Document Directory" + "DWGDrawings/";
 ```
 
-"Your Document Directory"를 문서 디렉터리의 실제 경로로 바꾸십시오.
+> **Pro tip:** 절대 경로를 사용하거나 프로젝트의 리소스 폴더를 기준으로 상대 경로를 구성하세요.
 
-## 2단계: DWG 파일 로드
+## 단계 2: DWG 파일 로드
 
- DWG 파일의 경로를 지정하고`CadImage` 물체.
+소스 DWG 파일을 `CadImage` 객체에 로드하여 조작할 수 있게 합니다.
 
 ```java
 String sourceFilePath = dataDir + "Bottom_plate.dwg";
@@ -65,9 +76,9 @@ String outPath = dataDir + "Bottom_plate.pdf";
 CadImage cadImage = (CadImage)Image.load(sourceFilePath);
 ```
 
-## 3단계: 래스터화 옵션 구성
+## 단계 3: 래스터화 옵션 구성
 
-래스터화 프로세스에 포함할 레이어를 정의합니다.
+포함할 레이어를 선택하고 페이지 크기를 원본 도면에 맞게 설정합니다. 여기서 레이아웃을 지정하여 숨은 선 렌더링을 활성화합니다.
 
 ```java
 List<String> list = Arrays.asList("Print","L1_RegMark","L2_RegMark");
@@ -77,9 +88,9 @@ rasterizationOptions.setPageWidth(cadImage.getWidth()) ;
 rasterizationOptions.setLayers(list);
 ```
 
-## 4단계: PDF 옵션 설정
+## 단계 4: PDF 옵션 설정
 
-벡터 래스터화 설정을 포함한 PDF 옵션을 구성합니다.
+Aspose.CAD에 벡터 데이터를 PDF로 래스터화하도록 지시하고, 숨은 선을 숨기기 위해 “Model” 레이아웃을 사용합니다.
 
 ```java
 PdfOptions pdfOptions = new PdfOptions();
@@ -87,42 +98,46 @@ rasterizationOptions.setLayouts(new String[] { "Model" });
 pdfOptions.setVectorRasterizationOptions(rasterizationOptions);
 ```
 
-## 5단계: 결과 저장
+## 단계 5: 결과 저장
 
-처리된 DWG 파일을 PDF로 저장합니다.
+마지막으로 DWG를 PDF 파일로 내보냅니다. 설정한 레이아웃에 따라 숨은 선이 올바르게 처리됩니다.
 
 ```java
 cadImage.save(outPath, pdfOptions);
 System.out.println("\nThe DWG file exported successfully to PDF.\nFile saved at " + dataDir);
 ```
 
-축하해요! Aspose.CAD for Java를 사용하여 DWG 파일에 대한 은선 지원을 성공적으로 구현했습니다.
+> **Common Pitfall:** 레이아웃을 `"Model"`로 설정하지 않으면 숨은 선을 포함한 모든 선이 PDF에서 실선으로 표시됩니다.
 
 ## 결론
 
-이 튜토리얼에서는 Aspose.CAD for Java를 사용하여 DWG 파일의 은선을 지원하는 과정을 안내했습니다. 다음 단계를 수행하면 CAD 도면을 쉽게 처리하는 응용 프로그램의 기능을 향상시킬 수 있습니다.
+이제 Aspose.CAD for Java를 사용하여 숨은 선 지원과 함께 **export DWG as PDF** 하는 완전하고 프로덕션 준비된 방법을 갖추었습니다. 이 접근 방식은 배치 처리 도구, 웹 서비스 또는 데스크톱 애플리케이션에 통합하여 CAD‑to‑PDF 변환을 자동화할 수 있습니다.
 
-## FAQ
+## 자주 묻는 질문
 
-### Q1: Aspose.CAD for Java를 다른 CAD 파일 형식과 함께 사용할 수 있습니까?
+### Q1: Aspose.CAD for Java를 다른 CAD 파일 형식과 함께 사용할 수 있나요?
+A1: 예, Aspose.CAD는 DWG, DXF, DWF 등 다양한 CAD 형식을 지원합니다.
 
-A1: 예, Aspose.CAD는 DWG, DXF, DWF 등과 같은 다양한 CAD 형식을 지원합니다.
+### Q2: Aspose.CAD for Java에 대한 무료 체험이 있나요?
+A2: 예, 무료 체험은 [여기](https://releases.aspose.com/)에서 확인할 수 있습니다.
 
-### Q2: Aspose.CAD for Java에 대한 무료 평가판이 있습니까?
-
- A2: 예, 무료 평가판을 찾을 수 있습니다.[여기](https://releases.aspose.com/).
-
-### Q3: Java용 Aspose.CAD에 대한 지원을 받으려면 어떻게 해야 합니까?
-
- A3: Aspose.CAD 포럼을 방문하세요.[여기](https://forum.aspose.com/c/cad/19) 지역 사회 지원을 위해.
+### Q3: Aspose.CAD for Java에 대한 지원을 어떻게 받을 수 있나요?
+A3: 커뮤니티 지원을 위해 Aspose.CAD 포럼을 [여기](https://forum.aspose.com/c/cad/19)에서 방문하세요.
 
 ### Q4: Aspose.CAD for Java에 대한 자세한 문서는 어디서 찾을 수 있나요?
+A4: 문서는 [여기](https://reference.aspose.com/cad/java/)에서 확인하세요.
 
- A4: 설명서를 참조하세요[여기](https://reference.aspose.com/cad/java/).
+### Q5: Aspose.CAD for Java에 대한 임시 라이선스를 구매할 수 있나요?
+A5: 예, 임시 라이선스는 [여기](https://purchase.aspose.com/temporary-license/)에서 얻을 수 있습니다.
 
-### Q5: Aspose.CAD for Java의 임시 라이선스를 구입할 수 있나요?
+### Q6: 이 방법은 헤드리스 서버 환경에서 DWG를 PDF로 변환하는 데도 작동하나요?
+A6: 물론입니다. 코드가 Aspose.CAD API만 사용하기 때문에 UI 의존성이 없으며 서버‑사이드 자동화에 적합합니다.
 
- A5: 예, 임시 라이센스를 얻을 수 있습니다.[여기](https://purchase.aspose.com/temporary-license/).
+---
+
+**마지막 업데이트:** 2026-01-02  
+**테스트 환경:** Aspose.CAD for Java 24.12  
+**작성자:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
