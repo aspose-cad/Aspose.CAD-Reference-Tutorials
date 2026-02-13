@@ -10,8 +10,8 @@ url: /pt/java/cad-file-manipulation/auto-adjusting-cad-drawing-size/
 weight: 13
 ---
 
-{{< blocks/products/products-backtop-button >}}
 {{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Como Exportar Desenho CAD para BMP Usando Aspise.CAD para Java
@@ -147,4 +147,4 @@ Neste guia demonstramos **como exportar cad** arquivos a partir do Java e **conv
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/pf/main-container >}}
+{{< blocks/products/products-backtop-button >}}
