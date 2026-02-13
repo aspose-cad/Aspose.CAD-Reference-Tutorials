@@ -1,54 +1,74 @@
 ---
-date: 2025-12-07
-description: Aspose.CAD for Java を使用して CAD を PDF に変換する際に、PDF のページサイズを設定する方法を学びましょう。このステップバイステップガイドに従って、トラッキングを有効にし、CAD
+date: 2026-02-12
+description: Aspose.CAD for Java を使用して CAD を PDF に変換する際の PDF ページサイズの設定方法を学びましょう。このステップバイステップガイドに従ってトラッキングを有効にし、CAD
   を PDF に変換し、CAD を効率的に PDF として保存します。
 linktitle: Set PDF Page Size – Enable Tracking for CAD Rendering
 second_title: Aspose.CAD Java API
-title: CADレンダリングプロセスのPDFページサイズ設定とトラッキング有効化方法
+title: PDFページサイズの設定方法とCADレンダリングプロセスのトラッキング有効化
 url: /ja/java/advanced-cad-features/enable-tracking-for-cad-rendering-process/
 weight: 10
 ---
 
-{{< blocks/products/pf/main-wrap-class >}}
+スタライズオプションを探索して、特定のエンジニアリングワークフローに合わせてください。"
+
+Then horizontal rule "---"
+
+Then metadata lines:
+
+**Last Updated:** 2026-02-12 => keep same.
+
+**Tested With:** Aspose.CAD for Java 24.12 (latest at time of writing) => same.
+
+**Author:** Aspose => same.
+
+All markdown.
+
+Then closing shortcodes.
+
+Now produce final content with all shortcodes and placeholders.
+
+Make sure to keep spacing and line breaks.
+
+Let's construct final output.{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# CADレンダリングプロセスのトラッキングを有効にする
+# CADレンダリングプロセスのトラッキングを有効化
 
 ## はじめに
 
-このチュートリアルでは、**Aspose.CAD for Java** を使用して **CAD を PDF に変換** する際に **PDF ページサイズを設定** する方法を学びます。トラッキングを有効にすることで、レンダリングパイプライン全体を可視化でき、CAD ファイル（DXF など）から PDF への変換をデバッグおよび最適化しやすくなります。**CAD を PDF として保存**、DXF から PDF を生成、または出力サイズを制御したい場合でも、以下の手順で全工程を案内します。
+このチュートリアルでは、**Aspose.CAD for Java** を使用して **CAD を PDF に変換** する際に **PDF ページサイズを設定** する方法を学びます。トラッキングを有効にすることで、レンダリングパイプライン全体を可視化でき、CAD ファイル（DXF など）から PDF への変換をデバッグおよび最適化しやすくなります。**CAD を PDF として保存**、DXF から PDF を生成、または単に出力サイズを制御したい場合でも、以下の手順で全プロセスを案内します。
 
 ## クイック回答
-- **「PDF ページサイズを設定する」とは何ですか？** CAD レンダリング時に生成される PDF ページの幅と高さを定義します。  
-- **なぜトラッキングを有効にするのですか？** トラッキングは変換の各段階をログに記録し、パフォーマンスのボトルネックやエラーを特定しやすくします。  
-- **ライセンスは必要ですか？** 評価目的であれば無料トライアルで動作しますが、本番環境では商用ライセンスが必要です。  
-- **対応している CAD フォーマットは？** DWG、DXF、DGN など多数 – 完全な一覧は Aspose.CAD のドキュメントをご参照ください。  
+- **“set PDF page size” は何をするのですか？** CAD レンダリング時に生成される PDF ページの幅と高さを定義します。  
+- **なぜトラッキングを有効にするのですか？** トラッキングは変換の各段階をログに記録し、パフォーマンスのボトルネックやエラーを特定するのに役立ちます。  
+- **ライセンスは必要ですか？** 無料トライアルで評価は可能ですが、本番環境では商用ライセンスが必要です。  
+- **サポートされている CAD フォーマットは？** DWG、DXF、DGN など多数 – 完全な一覧は Aspose.CAD のドキュメントをご覧ください。  
 - **ページサイズを動的に変更できますか？** はい – `CadRasterizationOptions` の `PageWidth` と `PageHeight` の値を調整するだけです。
 
-## CAD レンダリングにおける「PDF ページサイズを設定する」とは？
+## CADレンダリングにおける “set PDF page size” とは？
 
-PDF ページサイズを設定すると、ラスタライザはベクタ CAD データを PDF ページにラスタライズする際のキャンバスサイズを決定します。これにより、特に詳細なエンジニアリング図面の視覚的忠実度が保たれます。
+PDF ページサイズを設定すると、ベクタ CAD データが PDF ページにラスタライズされる際のキャンバスサイズをラスタライザに指示します。特に詳細なエンジニアリング図面を扱う場合、視覚的忠実度を保つために重要です。
 
-## なぜ CAD レンダリングでトラッキングを有効にするのか？
+## CADレンダリングでトラッキングを有効にする理由
 
-トラッキングを有効にすると、ソースファイルの読み込みから PDF 出力までの各ステップが詳細に記録されます。主な利点は次のとおりです。
+トラッキングを有効にすると、ソースファイルの読み込みから PDF 出力までの各ステップの詳細なログが取得できます。これにより以下が可能になります：
 
-- 特定の図面が正しくレンダリングされない原因を診断できる。  
-- 各段階に要した時間を測定でき、パフォーマンスチューニングに役立つ。  
-- 設定したページサイズが実際に適用されているかを検証できる。
+- 特定の図面が正しくレンダリングされない原因を診断する。  
+- 各ステージにかかる時間を測定し、パフォーマンスチューニングに活用する。  
+- 設定したページサイズが実際に適用されているか確認する。
 
 ## 前提条件
 
-トラッキング設定に入る前に、以下の環境が整っていることを確認してください。
+トラッキング設定に入る前に、以下の前提条件が揃っていることを確認してください：
 
-1. **Java 開発環境** – Java 8 以降がインストールされていること。  
-2. **Aspose.CAD ライブラリ** – Aspose.CAD ライブラリをダウンロードし、Java プロジェクトに組み込む。[こちら](https://releases.aspose.com/cad/java/) からダウンロードできます。  
-3. **ドキュメントディレクトリ** – CAD ファイルと生成された PDF を格納するディレクトリを用意すること。
+1. **Java 開発環境** – マシンに Java 8 以降がインストールされていること。  
+2. **Aspose.CAD ライブラリ** – Aspose.CAD ライブラリをダウンロードし、Java プロジェクトに組み込む。ダウンロードリンクは[こちら](https://releases.aspose.com/cad/java/)。  
+3. **ドキュメントディレクトリ** – CAD ファイルと生成された PDF を保存するディレクトリを用意する。
 
 ## 名前空間のインポート
 
-Java プロジェクトで Aspose.CAD の機能を利用するために、必要な名前空間をインポートします。コードの先頭に以下の行を追加してください。
+Java プロジェクトで Aspose.CAD の機能を利用するために、必要な名前空間をインポートします。コードの先頭に以下の行を追加してください：
 
 ```java
 import java.io.FileNotFoundException;
@@ -69,25 +89,25 @@ String dataDir = "Your Document Directory" + "CADConversion/";
 
 `"Your Document Directory"` を実際のドキュメントディレクトリのパスに置き換えてください。
 
-## CADファイルの読み込み
+## CAD ファイルの読み込み
 
 ```java
 String srcFile = dataDir + "conic_pyramid.dxf";
 Image image = Image.load(srcFile);
 ```
 
-指定した CAD ファイルへのパスが、先ほど設定したドキュメントディレクトリ内にあることを確認してください。
+CAD ファイルへのパスを指定し、指定したドキュメントディレクトリ内にあることを確認してください。
 
-## PDF出力オプションの設定
+## PDF 出力オプションの設定
 
 ```java
 OutputStream stream = new FileOutputStream(dataDir + "conic_pyramid.pdf");
 PdfOptions pdfOptions = new PdfOptions();
 ```
 
-出力ストリームを作成し、変換に使用する PDF オプションを設定します。
+出力ストリームを作成し、変換用の PDF オプションを設定します。
 
-## CadRasterizationOptions の構成 (PDF ページサイズの設定)
+## CadRasterizationOptions の設定（PDF ページサイズの設定）
 
 ```java
 CadRasterizationOptions cadRasterizationOptions = new CadRasterizationOptions();
@@ -96,9 +116,9 @@ cadRasterizationOptions.setPageWidth(800);
 cadRasterizationOptions.setPageHeight(600);
 ```
 
-ここでは `PageWidth` と `PageHeight` を定義して **PDF ページサイズを設定** します。エンジニアリング図面に必要な寸法に合わせてこれらの値を調整してください。この設定は、CAD コンテンツが最終的な PDF にどのようにスケーリング・レンダリングされるかに直接影響します。
+ここでは `PageWidth` と `PageHeight` を定義して **PDF ページサイズを設定** します。これらの値を調整して、エンジニアリング図面に必要な寸法に合わせてください。これは **java cad to pdf** 時に **PDF サイズの設定方法** に答える核心的なステップです。
 
-## PDFファイルの保存
+## PDF ファイルの保存
 
 ```java
 image.save(stream, pdfOptions);
@@ -112,47 +132,49 @@ image.save(stream, pdfOptions);
 System.out.println("Tracking enabled successfully for CAD rendering process.");
 ```
 
-CAD レンダリングプロセスでトラッキングが正常に有効になっていることを確認してください。
+CAD レンダリングプロセスでトラッキングが正常に有効化されていることを確認します。
 
-## 一般的な問題とトラブルシューティング
+## よくある問題とトラブルシューティング
 
 | 症状 | 考えられる原因 | 対策 |
 |------|----------------|------|
-| PDF ページが白紙になる | `PageWidth`/`PageHeight` が 0 に設定されている | ゼロでない寸法を指定してください。 |
-| 出力ファイルが破損する | 出力ストリームが閉じられていない | `image.save(...)` の後に `stream.close()` を呼び出してください。 |
-| PDF にレイヤーが欠落している | CAD ファイルが未対応のエンティティを使用している | ファイル形式が Aspose.CAD で完全にサポートされているか確認してください。 |
+| PDF ページが空白になる | `PageWidth`/`PageHeight` が 0 に設定されている | 0 以外の寸法が指定されていることを確認してください。 |
+| 出力ファイルが破損している | 出力ストリームが閉じられていない | `image.save(...)` の後に `stream.close()` を呼び出してください。 |
+| PDF にレイヤーが欠落している | CAD ファイルがサポートされていないエンティティを使用している | ファイル形式が Aspose.CAD に完全にサポートされているか確認してください。 |
 
 ## よくある質問
 
 ### Q1: Aspose.CAD はすべての CAD ファイル形式に対応していますか？
 
-A1: Aspose.CAD は DWG、DXF、DGN など幅広い CAD フォーマットに対応しています。詳細な一覧は [ドキュメント](https://reference.aspose.com/cad/java/) をご参照ください。
+A1: Aspose.CAD は DWG、DXF、DGN など多数の CAD フォーマットに対応しています。包括的な一覧は[ドキュメント](https://reference.aspose.com/cad/java/)をご参照ください。
 
 ### Q2: PDF ファイルの出力寸法をカスタマイズできますか？
 
-A2: もちろんです！`CadRasterizationOptions` の `PageWidth` と `PageHeight` パラメータを調整すれば、出力寸法を自由に設定できます。
+A2: もちろん可能です！`CadRasterizationOptions` の `PageWidth` と `PageHeight` パラメータを調整して、出力寸法をカスタマイズしてください。
 
 ### Q3: Aspose.CAD for Java の無料トライアルはありますか？
 
-A3: はい、[こちら](https://releases.aspose.com/) から無料トライアルを取得して、機能をお試しいただけます。
+A3: はい、[こちら](https://releases.aspose.com/) から無料トライアルを取得して Aspose.CAD の機能を体験できます。
 
-### Q4: Aspose.CAD に関する質問でコミュニティサポートを受けるには？
+### Q4: Aspose.CAD に関する質問のコミュニティサポートはどこで受けられますか？
 
-A4: [Aspose.CAD フォーラム](https://forum.aspose.com/c/cad/19) でコミュニティと交流し、支援を求めることができます。
+A4: コミュニティと交流し支援を受けるには、[Aspose.CAD フォーラム](https://forum.aspose.com/c/cad/19)をご利用ください。
 
-### Q5: Aspose.CAD の一時ライセンスは入手可能ですか？
+### Q5: Aspose.CAD の一時ライセンスは利用できますか？
 
-A5: はい、一時ライセンスは [こちら](https://purchase.aspose.com/temporary-license/) から取得できます。
+A5: はい、一時ライセンスが必要な場合は[こちら](https://purchase.aspose.com/temporary-license/)で取得できます。
 
 ## 結論
 
-おめでとうございます！これで **Aspose.CAD for Java** を使用した **PDF ページサイズの設定** とトラッキングの有効化方法を習得しました。このガイドを活用して **CAD を PDF に変換**、**CAD を PDF として保存**、DXF から PDF を生成する際に、ページ寸法を完全にコントロールし、詳細な実行ログを取得できます。さまざまなページサイズを試したり、追加のラスタライズオプションを探索して、特定のエンジニアリングワークフローに最適化してください。
+おめでとうございます！これで **Aspose.CAD for Java** を使用した CAD レンダリングの **PDF ページサイズの設定** とトラッキングの有効化方法を習得しました。このガイドにより、**CAD を PDF に変換**、**CAD を PDF として保存**、DXF から PDF を生成する際に、ページサイズを完全にコントロールし、詳細な実行ログを取得できます。さまざまなページサイズを試したり、追加のラスタライズオプションを探索して、特定のエンジニアリングワークフローに合わせてください。
 
 ---
 
-**最終更新日:** 2025-12-07  
-**テスト環境:** Aspose.CAD for Java 24.12 (latest at time of writing)  
-**作者:** Aspose
+**Last Updated:** 2026-02-12  
+**Tested With:** Aspose.CAD for Java 24.12 (latest at time of writing)  
+**Author:** Aspose  
+
+---
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

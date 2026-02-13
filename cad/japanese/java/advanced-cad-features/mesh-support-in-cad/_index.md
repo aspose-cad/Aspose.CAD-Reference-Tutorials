@@ -1,6 +1,6 @@
 ---
-date: 2025-12-09
-description: Aspose.CAD for Java を使用して DWG ファイルから PDF を作成する方法を学びましょう。メッシュサポートで DWG
+date: 2026-02-12
+description: Aspose.CAD for Java を使用して DWG ファイルから PDF を作成する方法を学びましょう。メッシュサポートにより、DWG
   を PDF に簡単に変換できます。
 linktitle: Mesh Support in CAD
 second_title: Aspose.CAD Java API
@@ -15,28 +15,34 @@ weight: 12
 
 # Aspose.CAD for Java を使用して DWG から PDF を作成する
 
-## Introduction
+## はじめに
 
-このチュートリアルでは、**DWG から PDF を作成する方法** を Aspose.CAD for Java を使って学びます。ライブラリのメッシュサポートにより、3‑D メッシュを含む複雑な CAD 図面を、詳細を失うことなく直接 PDF に変換できます。レポート作成、アーカイブ、または下流処理のために **DWG を PDF に変換** する必要がある場合、以下の手順が信頼性の高い本番対応ソリューションへと導きます。
+このチュートリアルでは、Aspose.CAD for Java を使用して **DWG から PDF を作成する方法** を学びます。ライブラリのメッシュサポートにより、3‑D メッシュを含む複雑な CAD 図面を詳細を失うことなく直接 PDF に変換できます。レポート作成、アーカイブ、または下流処理のために **DWG を PDF に変換** する必要がある場合でも、以下の手順が信頼性の高い本番環境向けソリューションへと導きます。このガイドでは、**DWG を PDF としてエクスポート** する方法や、**CAD から PDF を生成** する方法も示しています。
 
-## Quick Answers
-- **What does the tutorial cover?** メッシュを含む DWG ファイルを Aspose.CAD for Java で PDF に変換する方法。  
-- **Do I need a license?** テスト用の一時ライセンスで動作しますが、商用利用にはフルライセンスが必要です。  
-- **Which Java version is supported?** Java 8 以降。  
-- **Can I export other formats?** はい – Aspose.CAD は PNG、JPEG、BMP などもサポートしています。  
-- **How long does the conversion take?** 標準サイズの図面であれば通常 1 秒未満です。
+## クイック回答
+- **このチュートリアルの対象は何ですか？** Aspose.CAD for Java を使用して、メッシュを含む DWG ファイルを PDF に変換します。  
+- **ライセンスは必要ですか？** テスト用には一時ライセンスで動作しますが、商用利用には正式ライセンスが必要です。  
+- **サポートされている Java バージョンは？** Java 8 以降。  
+- **他のフォーマットにエクスポートできますか？** はい – Aspose.CAD は PNG、JPEG、BMP などもサポートしています。  
+- **変換にかかる時間は？** 標準サイズの図面では通常 1 秒未満です。
 
-## How to create PDF from DWG?
+## なぜ DWG から PDF を作成するのか？
 
-以下に、プロジェクトのセットアップから最終 PDF の保存まで、全工程を簡潔にステップバイステップで示します。
+DWG ファイルから PDF を生成すると、元の CAD 図面の視覚的忠実性を保持した、誰でも閲覧できるドキュメントが得られます。PDF は以下の用途に最適です：
 
-## Prerequisites
+* **自動レポート** – ビューア側に CAD ソフトウェアを必要とせず、エンジニアリング図面を PDF レポートに埋め込めます。  
+* **ドキュメントアーカイブ** – 図面を安定した検索可能な形式で長期保存できます。  
+* **Web サービス** – DWG アップロードを受け取り PDF を返す API を提供でき、**CAD を PDF に変換** する必要がある SaaS プラットフォームで一般的なパターンです。  
 
-- **Java Development Environment:** JDK 8 以上がインストールされていること。  
-- **Aspose.CAD for Java Library:** 最新の JAR を [download link](https://releases.aspose.com/cad/java/) からダウンロードしてください。  
-- **Document with Meshes:** メッシュ データを含む DWG ファイル（例: `meshes.dwg`）。
+Aspose.CAD のメッシュサポートを使用することで、複雑な 3‑D ジオメトリも最終的な PDF に忠実に再現されます。
 
-## Import Namespaces
+## 前提条件
+
+- **Java 開発環境:** JDK 8 以上がマシンにインストールされていること。  
+- **Aspose.CAD for Java ライブラリ:** 最新の JAR を [download link](https://releases.aspose.com/cad/java/) からダウンロードしてください。  
+- **メッシュを含むドキュメント:** メッシュデータを含む DWG ファイル（例: `meshes.dwg`）。
+
+## 名前空間のインポート
 
 Java ソースファイルで、必要な Aspose.CAD クラスをインポートします：
 
@@ -48,13 +54,15 @@ import com.aspose.cad.imageoptions.CadRasterizationOptions;
 import com.aspose.cad.imageoptions.PdfOptions;
 ```
 
-## Step 1: Set Up the Project
+## 手順ガイド
 
-新規 Java プロジェクトを作成（または既存プロジェクトに追加）し、Aspose.CAD JAR をクラスパスに追加します。ソース DWG と生成される PDF を格納するベースディレクトリを定義します。
+### 手順 1: プロジェクトの設定
 
-## Step 2: Define File Paths
+新しい Java プロジェクトを作成（または既存プロジェクトに追加）し、Aspose.CAD JAR をクラスパスに追加します。ソース DWG と生成された PDF を格納するベースディレクトリを定義します。
 
-入力 DWG の場所と出力 PDF の保存先を指定します。
+### 手順 2: ファイルパスの定義
+
+入力 DWG の場所と、出力 PDF を書き込む場所を指定します。
 
 ```java
 String dataDir = "Your Document Directory" + "CADConversion/";
@@ -62,17 +70,17 @@ String sourceFilePath = dataDir + "meshes.dwg";
 String outPath = dataDir + "meshes.pdf";
 ```
 
-## Step 3: Load the CAD Image
+### 手順 3: CAD 画像のロード
 
-DWG ファイルを `CadImage` オブジェクトにロードし、Aspose.CAD が内部構造にアクセスできるようにします。
+`CadImage` オブジェクトに DWG ファイルをロードし、Aspose.CAD が内部構造を扱えるようにします。
 
 ```java
 CadImage cadImage = (CadImage)Image.load(sourceFilePath);
 ```
 
-## Step 4: Configure Rasterization Options
+### 手順 4: ラスタライズオプションの設定
 
-生成される PDF ページのサイズとレイアウトを制御するラスタライズ オプションを設定します。`Layouts` 配列で **Model** スペースを指定すると、メッシュ エンティティが含まれます。
+生成される PDF ページのサイズとレイアウトを制御するラスタライズオプションを設定します。`Layouts` 配列は Aspose.CAD に **Model** スペース（メッシュエンティティを含む）をレンダリングさせます。
 
 ```java
 CadRasterizationOptions rasterizationOptions = new CadRasterizationOptions();
@@ -81,68 +89,69 @@ rasterizationOptions.setPageHeight(1600);
 rasterizationOptions.setLayouts(new String[] { "Model" });
 ```
 
-## Step 5: Set PDF Options
+### 手順 5: PDF オプションの設定
 
-ラスタライズ設定を `PdfOptions` インスタンスに添付します。これにより、PDF 作成時に先に定義したオプションが使用されます。
+ラスタライズ設定を `PdfOptions` インスタンスに添付します。これにより、PDF 作成時に前述のオプションが使用されます。
 
 ```java
 PdfOptions pdfOptions = new PdfOptions();
 pdfOptions.setVectorRasterizationOptions(rasterizationOptions);
 ```
 
-## Step 6: Save the PDF
+### 手順 6: PDF の保存
 
-最後に、ロードした CAD 画像を PDF ファイルとして保存します。生成されたドキュメントは、元の DWG の忠実な表現を保持し、メッシュ ジオメトリも含まれます。
+最後に、ロードした CAD 画像を PDF ファイルとして保存します。生成されたドキュメントは、元の DWG の忠実な表現を含み、メッシュジオメトリも保持されます。
 
 ```java
 cadImage.save(outPath, pdfOptions);
 ```
 
-### Why this works for **convert CAD to PDF**
+#### なぜこれが **convert CAD to PDF** に有効なのか
 
-Aspose.CAD はベクトルベースのラスタライズを行い、線幅、色、3‑D メッシュの詳細を保持します。ラスタライズ オプションを調整することで解像度とレイアウトを制御でき、**CAD 図面のエクスポート** が PDF で意図した通りに表示されます。
+Aspose.CAD はベクトルベースのラスタライズを行い、線幅、色、3‑D メッシュの詳細を保持します。ラスタライズオプションを設定することで解像度とレイアウトを制御し、**export DWG as PDF** が PDF 内で意図した通りに正確に表示されるようにします。
 
-## Common Use Cases
+## 一般的なユースケース
 
-- **Automated reporting:** エンジニアリング図面から PDF レポートをリアルタイムで生成。  
-- **Document archiving:** 長期保存のために 図面を PDF として保存。  
-- **Web services:** DWG アップロードを受け取り PDF を返す API を提供し、SaaS プラットフォームで活用。
+- **自動レポート:** エンジニアリング図面からリアルタイムで PDF レポートを生成します。  
+- **ドキュメントアーカイブ:** CAD 図面を PDF として長期保存します。  
+- **Web サービス:** DWG アップロードを受け取り PDF を返す API を提供し、SaaS プラットフォームで活用できます。  
 
-## Troubleshooting Tips
+## トラブルシューティングのヒント
 
-- **Missing meshes in output:** `Layouts` プロパティに `"Model"` が含まれているか確認してください。メッシュは通常モデル空間に格納されています。  
-- **Incorrect scaling:** `PageWidth` と `PageHeight` を図面の単位に合わせて調整します。  
-- **License errors:** 画像をロードする前に、有効なライセンス ファイルを指定して `License.setLicense()` を呼び出してください。
+- **出力にメッシュが欠如している:** `Layouts` プロパティに `"Model"` が含まれているか確認してください。メッシュは通常モデル空間に格納されます。  
+- **スケーリングが正しくない:** `PageWidth` と `PageHeight` を図面の元単位に合わせて調整してください。  
+- **ライセンスエラー:** 画像をロードする前に、有効なライセンスファイルで `License.setLicense()` を呼び出していることを確認してください。  
+- **dwg to pdf aspose specific issue:** 特定の DWG バージョンがサポートされていないというエラーが出た場合は、最新の Aspose.CAD リリースを使用していることを確認してください（上記のダウンロードリンクは常に最新ビルドを指します）。  
 
-## Conclusion
+## 結論
 
-これらの手順に従うことで、**DWG を PDF に変換** でき、Aspose.CAD のメッシュサポートを最大限に活用できます。この機能は、複雑な CAD 図面の高品質 PDF エクスポートを必要とする内部ワークフローやクライアント向けドキュメント作成をシンプルにします。
+これらの手順に従うことで、確実に **DWG を PDF に変換** でき、Aspose.CAD のメッシュサポートを最大限に活用できます。この機能により、内部利用でもクライアント向けドキュメントでも、複雑な CAD 図面の高品質 PDF エクスポートが必要なワークフローが簡素化されます。これで **convert dwg to pdf** と **generate pdf from cad** のシナリオに対する確固たる基盤が整いました。
 
-## FAQ's
+## FAQ
 
-### Q1: Is Aspose.CAD for Java suitable for commercial use?
+### Q1: Aspose.CAD for Java は商用利用に適していますか？
 
-A1: Yes, Aspose.CAD for Java is designed for both personal and commercial use. You can find licensing details on the [purchase page](https://purchase.aspose.com/buy)。
+A1: はい、Aspose.CAD for Java は個人利用と商用利用の両方に対応しています。ライセンスの詳細は [purchase page](https://purchase.aspose.com/buy) にあります。
 
-### Q2: How can I get a temporary license for testing purposes?
+### Q2: テスト目的で一時ライセンスを取得するには？
 
-A2: Obtain a temporary license from [here](https://purchase.aspose.com/temporary-license/) for testing and evaluation。
+A2: テストおよび評価用の一時ライセンスは、[here](https://purchase.aspose.com/temporary-license/) から取得できます。
 
-### Q3: Where can I find community support for Aspose.CAD for Java?
+### Q3: Aspose.CAD for Java のコミュニティサポートはどこで見つけられますか？
 
-A3: Visit the Aspose.CAD dedicated forum on [https://forum.aspose.com/c/cad/19](https://forum.aspose.com/c/cad/19) for community support。
+A3: コミュニティサポートは、Aspose.CAD 専用フォーラム [https://forum.aspose.com/c/cad/19](https://forum.aspose.com/c/cad/19) をご覧ください。
 
-### Q4: Are there other output formats supported besides PDF?
+### Q4: PDF 以外にサポートされている出力フォーマットはありますか？
 
-A4: Yes, Aspose.CAD for Java supports various output formats, including PNG, JPEG, BMP, and more. Refer to the documentation for details。
+A4: はい、Aspose.CAD for Java は PNG、JPEG、BMP など多数の出力フォーマットをサポートしています。詳細はドキュメントをご参照ください。
 
-### Q5: Can I try Aspose.CAD for Java for free?
+### Q5: Aspose.CAD for Java を無料で試せますか？
 
-A5: Yes, you can explore a free trial version of Aspose.CAD for Java [here](https://releases.aspose.com/)。
+A5: はい、Aspose.CAD for Java の無料トライアル版は [here](https://releases.aspose.com/) からご利用いただけます。
 
 ---
 
-**Last Updated:** 2025-12-09  
+**Last Updated:** 2026-02-12  
 **Tested With:** Aspose.CAD for Java 24.11  
 **Author:** Aspose  
 
