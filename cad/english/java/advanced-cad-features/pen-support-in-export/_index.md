@@ -5,7 +5,7 @@ second_title: Aspose.CAD Java API
 description: Learn how to create PDF from CAD using Aspose.CAD for Java with pen customization. This step‑by‑step guide shows export CAD to PDF efficiently.
 weight: 13
 url: /java/advanced-cad-features/pen-support-in-export/
-date: 2025-12-10
+date: 2026-02-15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -30,6 +30,9 @@ Creating a PDF from CAD means rasterizing or vector‑rendering a CAD drawing in
 
 ## Why use pen support when exporting CAD to PDF?
 Pen support lets you control line caps, joins, and thickness, giving you the ability to match corporate branding or technical drawing standards. It’s especially useful when the default line rendering doesn’t meet your visual requirements.
+
+## How to create pdf from cad – Step‑by‑step guide
+Below is a practical walkthrough that covers everything from setting up your environment to generating the final PDF. Follow each step, and you’ll have a ready‑to‑use solution for **export CAD to PDF** with full pen control.
 
 ## Prerequisites
 
@@ -141,7 +144,7 @@ A5: Explore the Aspose.CAD community forum at [here](https://forum.aspose.com/c/
 
 ---
 
-**Last Updated:** 2025-12-10  
+**Last Updated:** 2026-02-15  
 **Tested With:** Aspose.CAD 24.11 for Java  
 **Author:** Aspose  
 

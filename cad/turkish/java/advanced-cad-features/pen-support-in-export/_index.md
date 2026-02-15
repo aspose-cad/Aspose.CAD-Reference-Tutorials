@@ -1,10 +1,10 @@
 ---
-date: 2025-12-10
+date: 2026-02-15
 description: Aspose.CAD for Java kullanarak kalem özelleştirmesiyle CAD'den PDF oluşturmayı
   öğrenin. Bu adım adım rehber, CAD'i PDF'ye verimli bir şekilde dışa aktarmayı gösterir.
 linktitle: Pen Support in Export
 second_title: Aspose.CAD Java API
-title: CAD'den Dışa Aktarmada Kalem Desteğiyle PDF Nasıl Oluşturulur
+title: Dışa Aktarmada Kalem Desteğiyle CAD'den PDF Nasıl Oluşturulur
 url: /tr/java/advanced-cad-features/pen-support-in-export/
 weight: 13
 ---
@@ -13,34 +13,37 @@ weight: 13
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Dışa Aktarmada Kalem Desteği
+# Pen Desteği ile Dışa Aktarım
 
 ## Giriş
 
-CAD dönüşümlerinin hızlı hareket ettiği dünyada, geliştiriciler genellikle görsel sadakati koruyarak **CAD'den PDF oluşturma** ihtiyacı duyar. Aspose.CAD for Java bu süreci basitleştirir ve dışa aktarma sırasında çizgi stillerini ince ayarlamanıza olanak tanıyan kalem özelleştirme gibi zengin seçenekler sunar. Bu rehberde, **CAD'den PDF'ye dışa aktarma** işlemini özel kalem ayarlarıyla nasıl yapacağınızı gösteren eksiksiz, uygulamalı bir örnek üzerinden ilerleyeceğiz; böylece DXF çizimlerinden doğrudan cilalı PDF'ler üretebileceksiniz.
+CAD dönüşümlerinin hızlı hareket ettiği dünyada, geliştiriciler genellikle görsel bütünlüğü koruyarak **create PDF from CAD** dosyaları oluşturmak zorundadır. Aspose.CAD for Java bu süreci basitleştirir ve dışa aktarım sırasında satır stillerini ince ayar yapmanıza olanak tanıyan kalem özelleştirme gibi zengin seçenekler sunar. Bu kılavuzda, **export CAD to PDF** işlemini özel kalem ayarlarıyla nasıl gerçekleştireceğinizi gösteren eksiksiz, uygulamalı bir örnek üzerinden adım adım ilerleyeceğiz; böylece DXF çizimlerinden doğrudan cilalı PDF'ler üretebileceksiniz.
 
 ## Hızlı Yanıtlar
 - **“create PDF from CAD” ne anlama geliyor?** Bir CAD çizimini (ör. DXF) vektör kalitesini koruyarak PDF belgesine dönüştürmek.  
 - **Kalem özelleştirmesini hangi kütüphane yönetiyor?** Aspose.CAD for Java’nın `PenOptions` sınıfı.  
-- **Bunu diğer formatlar için de kullanabilir miyim?** Evet – aynı kalem ayarları PNG, BMP, TIFF vb. formatlarda da geçerlidir.  
-- **Lisans gerekli mi?** Üretim kullanımında geçerli bir Aspose.CAD lisansı gereklidir.  
+- **Bunu başka formatlar için de kullanabilir miyim?** Evet – aynı kalem ayarları PNG, BMP, TIFF vb. formatlarda da geçerlidir.  
+- **Bir lisansa ihtiyacım var mı?** Üretim ortamında kullanmak için geçerli bir Aspose.CAD lisansı gereklidir.  
 - **Minimum Java sürümü nedir?** Java 8 veya üzeri.
 
 ## “create PDF from CAD” nedir?
-CAD'den PDF oluşturmak, bir CAD çizimini PDF dosyasına rasterleştirerek veya vektör olarak render ederek dönüştürmek anlamına gelir. Bu, mühendislik tasarımlarının alıcı tarafında CAD yazılımı olmadan kolayca paylaşılmasını, yazdırılmasını ve arşivlenmesini sağlar.
+CAD'den PDF oluşturmak, bir CAD çizimini PDF dosyasına rasterleştirerek veya vektör olarak renderlayarak dönüştürmek anlamına gelir. Bu sayede mühendislik tasarımları, alıcı tarafın CAD yazılımına sahip olmasına gerek kalmadan kolayca paylaşılabilir, yazdırılabilir ve arşivlenebilir.
 
-## CAD'ı PDF olarak dışa aktarırken neden kalem desteği kullanmalı?
-Kalem desteği, çizgi uçlarını, birleşimlerini ve kalınlığını kontrol etmenizi sağlar; böylece kurumsal kimliğe veya teknik çizim standartlarına uygunluk elde edersiniz. Varsayılan çizgi render'ı görsel gereksinimlerinizi karşılamadığında özellikle faydalıdır.
+## CAD'i PDF olarak dışa aktarırken neden kalem desteği kullanmalı?
+Kalem desteği, satır uçları, birleşim tipleri ve kalınlık gibi özellikleri kontrol etmenizi sağlar; böylece kurumsal kimliğe veya teknik çizim standartlarına uygun görünümler elde edebilirsiniz. Varsayılan satır renderı görsel gereksinimlerinizi karşılamadığında bu özellik özellikle faydalıdır.
+
+## CAD'den PDF oluşturma – Adım adım kılavuz
+Aşağıda, ortamınızı kurmaktan son PDF'yi üretmeye kadar her şeyi kapsayan pratik bir yürütme rehberi bulacaksınız. Her adımı izleyin; **export CAD to PDF** işlemini tam kalem kontrolüyle kullanıma hazır bir çözüm elde edeceksiniz.
 
 ## Önkoşullar
 
-- **Java Geliştirme Ortamı** – çalışan bir JDK (8 veya daha yeni) ve tercih ettiğiniz bir IDE veya derleme aracı.  
-- **Aspose.CAD Kütüphanesi** – resmi siteden en yeni JAR'ı [burada](https://releases.aspose.com/cad/java/) indirin.  
+- **Java Geliştirme Ortamı** – çalışan bir JDK (8 veya daha yeni) ve tercih ettiğiniz bir IDE ya da derleme aracı.  
+- **Aspose.CAD Kütüphanesi** – resmi siteden en yeni JAR dosyasını [buradan](https://releases.aspose.com/cad/java/) indirin.  
 - **Örnek bir DXF dosyası** – bu öğreticide `conic_pyramid.dxf` dosyasını kullanacağız.
 
-Şimdi ortamı hazırladığımıza göre, koda dalalım.
+Şimdi sahneyi kurduk, koda dalalım.
 
-## Ad Alanlarını İçe Aktar
+## İçe Aktarma Ad Alanları
 
 ```java
 import com.aspose.cad.Image;
@@ -52,7 +55,7 @@ import com.aspose.cad.imageoptions.PenOptions;
 import com.aspose.cad.internal.imaging.LineCap;
 ```
 
-## Adım 1: Belge Dizinini Tanımlayın
+## Adım 1: Belge Dizininizi Tanımlayın
 
 ```java
 String dataDir = "Your Document Directory" + "CADConversion/";
@@ -77,7 +80,7 @@ rasterizationOptions.setPageWidth(cadImage.getWidth() * 100);
 rasterizationOptions.setPageHeight(cadImage.getHeight() * 100);
 ```
 
-Sayfa boyutlarını ayarlayarak ortaya çıkan PDF'in çözünürlüğünü kontrol edebilirsiniz. 100 ile çarpmak, baskı için uygun yüksek çözünürlüklü bir çıktı verir.
+Sayfa boyutlarını ayarlayarak ortaya çıkan PDF'nin çözünürlüğünü kontrol edebilirsiniz. 100 ile çarpmak, baskı için uygun yüksek çözünürlüklü bir çıktı verir.
 
 ## Adım 4: Kalem Seçeneklerini Özelleştirin
 
@@ -96,7 +99,7 @@ PdfOptions pdfOptions = new PdfOptions();
 pdfOptions.setVectorRasterizationOptions(rasterizationOptions);
 ```
 
-`PdfOptions` nesnesi rasterleştirme ayarlarını PDF dışa aktarma sürecine bağlar.
+`PdfOptions` nesnesi rasterleştirme ayarlarını PDF dışa aktarım süreciyle birleştirir.
 
 ## Adım 6: Dışa Aktarılan PDF'yi Kaydedin
 
@@ -104,47 +107,47 @@ pdfOptions.setVectorRasterizationOptions(rasterizationOptions);
 cadImage.save((dataDir + "9LHATT-A56_generated.pdf"), pdfOptions);
 ```
 
-Bu satırı çalıştırmak, tanımladığınız özel kalem stilini içeren `9LHATT-A56_generated.pdf` adlı PDF dosyasını `dataDir` klasörünüze yazar.
+Bu satırı çalıştırdığınızda, tanımladığınız `dataDir` klasörüne `9LHATT-A56_generated.pdf` adlı bir PDF dosyası yazılır; içinde tanımladığınız özel kalem stilleri bulunur.
 
 ## Yaygın Kullanım Senaryoları
 
 - **Teknik dokümantasyon** – PDF kılavuzlarda hassas mühendislik çizimlerini gömün.  
-- **Otomatik raporlama** – web hizmetlerinde CAD verilerinden anlık PDF'ler üretin.  
-- **Kalite kontrol** – ölçüm hatlarını veya toleransları vurgulamak için özel çizgi uçları uygulayın.
+- **Otomatik raporlama** – web servislerinde CAD verilerinden anlık PDF'ler üretin.  
+- **Kalite kontrol** – ölçüm hatlarını veya toleransları vurgulamak için özel satır uçları uygulayın.
 
 ## Sorun Giderme ve İpuçları
 
 - **Yanlış dosya yolu** – `dataDir`'in bir dosya ayırıcı (`/` veya `\\`) ile bittiğinden emin olun.  
 - **Lisans eksik** – geçerli bir lisans olmadan kütüphane değerlendirme modunda çalışır ve filigran ekleyebilir.  
-- **Beklenmeyen çizgi stilleri** – `save` çağrısından önce `PenOptions`'ın ayarlandığını kontrol edin; aksi takdirde varsayılan kalemler kullanılır.
+- **Beklenmeyen satır stilleri** – `save` çağrısından önce `PenOptions`'ın ayarlandığını kontrol edin; aksi takdirde varsayılan kalemler kullanılır.
 
-## Sıkça Sorulan Sorular
+## Sık Sorulan Sorular
 
-### S1: Kalem seçeneklerini PDF dışındaki formatlar için de özelleştirebilir miyim?
+### Q1: PDF dışındaki formatlar için kalem seçeneklerini özelleştirebilir miyim?
 
-C1: Evet, bu öğreticide gösterilen kalem özelleştirmesi PDF, PNG, BMP, GIF, JPEG2000, JPEG, PSD, TIFF ve WMF dahil olmak üzere çeşitli görüntü formatlarında uygulanabilir.
+A1: Evet, bu öğreticide gösterilen kalem özelleştirmesi PDF, PNG, BMP, GIF, JPEG2000, JPEG, PSD, TIFF ve WMF gibi çeşitli görüntü formatları için geçerlidir.
 
-### S2: Kalemler için farklı başlangıç ve bitiş uçlarını nasıl ayarlayabilirim?
+### Q2: Kalemlerin farklı başlangıç ve bitiş uçlarını nasıl yönetebilirim?
 
-C2: `PenOptions` sınıfını kullanarak istediğiniz başlangıç ve bitiş uçlarını belirleyebilir, çizgilerin görünümünü esnek bir şekilde tanımlayabilirsiniz.
+A2: İstediğiniz başlangıç ve bitiş uçlarını ayarlamak için `PenOptions` sınıfını kullanın; bu, çizgilerin görünümünü tanımlamada esneklik sağlar.
 
-### S3: PenOptions ayarlamazsam ne olur?
+### Q3: Kalem seçeneklerini belirtmezsem ne olur?
 
-C3: PenOptions açıkça ayarlanmazsa sistem varsayılan kalemleri kullanır; bu kalemler farklı bağlamlarda değişiklik gösterebilir.
+A3: Kalem seçenekleri açıkça ayarlanmazsa sistem, bağlamına göre değişebilen varsayılan kalemleri kullanır.
 
-### S4: Rasterleştirme seçenekleriyle ilgili özel bir dikkat edilmesi gereken nokta var mı?
+### Q4: Rasterleştirme seçenekleriyle ilgili özel bir dikkat edilmesi gereken nokta var mı?
 
-C4: Rasterleştirme seçeneklerinde sayfa genişliği ve yüksekliğini ayarlayarak dışa aktarılan görüntünün boyutlarını kontrol edebilirsiniz.
+A4: Dışa aktarılan görüntünün boyutlarını kontrol etmek için rasterleştirme seçeneklerinde sayfa genişliği ve yüksekliğini ayarlayın.
 
-### S5: Ek destek veya topluluk tartışmalarını nereden bulabilirim?
+### Q5: Ek destek veya topluluk tartışmalarını nerede bulabilirim?
 
-C5: Destek ve tartışmalar için Aspose.CAD topluluk forumuna [burada](https://forum.aspose.com/c/cad/19) göz atabilirsiniz.
+A5: Destek ve tartışmalar için Aspose.CAD topluluk forumunu [burada](https://forum.aspose.com/c/cad/19) inceleyin.
 
 ---
 
-**Last Updated:** 2025-12-10  
-**Tested With:** Aspose.CAD 24.11 for Java  
-**Author:** Aspose  
+**Son Güncelleme:** 2026-02-15  
+**Test Edilen Sürüm:** Aspose.CAD 24.11 for Java  
+**Yazar:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
