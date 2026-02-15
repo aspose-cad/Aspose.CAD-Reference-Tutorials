@@ -1,7 +1,8 @@
 ---
-date: 2025-12-10
-description: Aprende a crear PDF a partir de CAD usando Aspose.CAD para Java con personalización
-  de lápiz. Esta guía paso a paso muestra cómo exportar CAD a PDF de manera eficiente.
+date: 2026-02-15
+description: Aprende cómo crear PDF a partir de CAD usando Aspose.CAD para Java con
+  personalización de lápiz. Esta guía paso a paso muestra cómo exportar CAD a PDF
+  de manera eficiente.
 linktitle: Pen Support in Export
 second_title: Aspose.CAD Java API
 title: Cómo crear PDF desde CAD con soporte de lápiz en la exportación
@@ -9,7 +10,7 @@ url: /es/java/advanced-cad-features/pen-support-in-export/
 weight: 13
 ---
 
-{{< blocks/products/pf/main-wrap-class >}}
+ content.{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
@@ -17,30 +18,33 @@ weight: 13
 
 ## Introducción
 
-En el mundo de rápidas transformaciones de CAD, los desarrolladores a menudo necesitan **create PDF from CAD** archivos mientras preservan la fidelidad visual. Aspose.CAD para Java simplifica este proceso, ofreciendo opciones avanzadas como la personalización de pluma que le permite afinar los estilos de línea durante la exportación. En esta guía recorreremos un ejemplo completo y práctico que muestra cómo **exportar CAD a PDF** con configuraciones de pluma personalizadas, para que pueda generar PDFs pulidos directamente desde dibujos DXF.
+En el mundo de rápidas conversiones de CAD, los desarrolladores a menudo necesitan **crear PDF a partir de CAD** archivos mientras preservan la fidelidad visual. Aspose.CAD for Java lo hace sencillo, ofreciendo opciones avanzadas como la personalización de pluma que le permiten afinar los estilos de línea durante el proceso de exportación. En esta guía recorreremos un ejemplo completo y práctico que muestra cómo **exportar CAD a PDF** con configuraciones de pluma personalizadas, para que pueda generar PDFs pulidos directamente desde dibujos DXF.
 
 ## Respuestas Rápidas
-- **What does “create PDF from CAD” mean?** Convertir un dibujo CAD (p. ej., DXF) en un documento PDF manteniendo la calidad vectorial.  
-- **Which library handles pen customization?** La clase `PenOptions` de Aspose.CAD para Java.  
-- **Can I use this for other formats?** Sí – las mismas configuraciones de pluma se aplican a PNG, BMP, TIFF, etc.  
-- **Do I need a license?** Se requiere una licencia válida de Aspose.CAD para uso en producción.  
-- **What’s the minimum Java version?** Java 8 o superior.
+- **¿Qué significa “crear PDF a partir de CAD”?** Convertir un dibujo CAD (p. ej., DXF) en un documento PDF manteniendo la calidad vectorial.  
+- **¿Qué biblioteca maneja la personalización de pluma?** La clase `PenOptions` de Aspose.CAD for Java.  
+- **¿Puedo usar esto para otros formatos?** Sí – los mismos ajustes de pluma se aplican a PNG, BMP, TIFF, etc.  
+- **¿Necesito una licencia?** Se requiere una licencia válida de Aspose.CAD para uso en producción.  
+- **¿Cuál es la versión mínima de Java?** Java 8 o superior.
 
-## Qué es “create PDF from CAD”?
-Crear un PDF a partir de CAD significa rasterizar o renderizar vectorialmente un dibujo CAD en un archivo PDF. Esto permite compartir, imprimir y archivar diseños de ingeniería fácilmente sin necesidad de software CAD en el lado del receptor.
+## ¿Qué es “crear PDF a partir de CAD”?
+Crear un PDF a partir de CAD significa rasterizar o renderizar vectorialmente un dibujo CAD en un archivo PDF. Esto permite compartir, imprimir y archivar fácilmente diseños de ingeniería sin requerir software CAD en el lado del receptor.
 
-## ¿Por qué usar el soporte de pluma al exportar CAD a PDF?
-El soporte de pluma le permite controlar los extremos de línea, uniones y grosor, dándole la capacidad de coincidir con la identidad corporativa o los estándares de dibujo técnico. Es especialmente útil cuando el renderizado de línea predeterminado no satisface sus requisitos visuales.
+## ¿Por qué usar soporte de pluma al exportar CAD a PDF?
+El soporte de pluma le permite controlar los extremos de línea, uniones y grosor, brindándole la capacidad de coincidir con la identidad corporativa o los estándares de dibujo técnico. Es especialmente útil cuando el renderizado de línea predeterminado no cumple con sus requisitos visuales.
+
+## Cómo crear PDF a partir de CAD – Guía paso a paso
+Abajo hay una guía práctica que cubre todo, desde la configuración del entorno hasta la generación del PDF final. Siga cada paso y tendrá una solución lista para usar para **exportar CAD a PDF** con control total de la pluma.
 
 ## Requisitos Previos
 
-- **Entorno de desarrollo Java** – un JDK funcional (8 o superior) y un IDE o herramienta de compilación de su elección.  
-- **Biblioteca Aspose.CAD** – descargue el último JAR del sitio oficial [here](https://releases.aspose.com/cad/java/).  
-- **Un archivo DXF de ejemplo** – para este tutorial usaremos `conic_pyramid.dxf`.
+- **Entorno de Desarrollo Java** – un JDK funcional (8 o superior) y un IDE o herramienta de compilación de su elección.  
+- **Biblioteca Aspose.CAD** – descargue el último JAR desde el sitio oficial [aquí](https://releases.aspose.com/cad/java/).  
+- **Un archivo DXF de muestra** – para este tutorial usaremos `conic_pyramid.dxf`.
 
-Ahora que hemos preparado el escenario, sumergámonos en el código.
+Ahora que hemos preparado el escenario, vamos a sumergirnos en el código.
 
-## Importar Namespaces
+## Importar Espacios de Nombres
 
 ```java
 import com.aspose.cad.Image;
@@ -52,13 +56,13 @@ import com.aspose.cad.imageoptions.PenOptions;
 import com.aspose.cad.internal.imaging.LineCap;
 ```
 
-## Paso 1: Definir su Directorio de Documentos
+## Paso 1: Defina su Directorio de Documentos
 
 ```java
 String dataDir = "Your Document Directory" + "CADConversion/";
 ```
 
-> **Pro tip:** Reemplace `"Your Document Directory"` con la ruta absoluta donde se encuentran sus archivos DXF.
+> **Consejo profesional:** Reemplace `"Your Document Directory"` con la ruta absoluta donde se encuentran sus archivos DXF.
 
 ## Paso 2: Cargar el Archivo CAD
 
@@ -96,7 +100,7 @@ PdfOptions pdfOptions = new PdfOptions();
 pdfOptions.setVectorRasterizationOptions(rasterizationOptions);
 ```
 
-El objeto `PdfOptions` vincula la configuración de rasterización al proceso de exportación PDF.
+El objeto `PdfOptions` vincula las configuraciones de rasterización al proceso de exportación PDF.
 
 ## Paso 6: Guardar el PDF Exportado
 
@@ -109,13 +113,13 @@ Ejecutar esta línea escribe un archivo PDF llamado `9LHATT-A56_generated.pdf` e
 ## Casos de Uso Comunes
 
 - **Documentación técnica** – incruste dibujos de ingeniería precisos en manuales PDF.  
-- **Informes automatizados** – genere PDFs a partir de datos CAD al instante en servicios web.  
+- **Informes automatizados** – genere PDFs a partir de datos CAD en tiempo real en servicios web.  
 - **Control de calidad** – aplique extremos de línea personalizados para resaltar líneas de medida o tolerancias.
 
 ## Solución de Problemas y Consejos
 
-- **Ruta de archivo incorrecta** – asegúrese de que `dataDir` termine con un separador de archivo (`/` o `\\`).  
-- **Licencia faltante** – sin una licencia válida la biblioteca se ejecuta en modo de evaluación, lo que puede añadir marcas de agua.  
+- **Ruta de archivo incorrecta** – asegúrese de que `dataDir` termine con un separador de archivos (`/` o `\\`).  
+- **Licencia faltante** – sin una licencia válida la biblioteca funciona en modo de evaluación, lo que puede añadir marcas de agua.  
 - **Estilos de línea inesperados** – verifique que `PenOptions` estén configurados antes de llamar a `save`; de lo contrario se usarán los valores predeterminados.
 
 ## Preguntas Frecuentes
@@ -124,13 +128,13 @@ Ejecutar esta línea escribe un archivo PDF llamado `9LHATT-A56_generated.pdf` e
 
 R1: Sí, la personalización de pluma demostrada en este tutorial es aplicable a varios formatos de imagen, incluidos PDF, PNG, BMP, GIF, JPEG2000, JPEG, PSD, TIFF y WMF.
 
-### P2: ¿Cómo puedo manejar diferentes extremos de inicio y fin para las plumas?
+### P2: ¿Cómo puedo manejar diferentes extremos inicial y final para las plumas?
 
-R2: Utilice la clase `PenOptions` para establecer los extremos de inicio y fin deseados, ofreciendo flexibilidad en la apariencia de las líneas.
+R2: Utilice la clase `PenOptions` para establecer los extremos inicial y final deseados, ofreciendo flexibilidad al definir la apariencia de las líneas.
 
-### P3: ¿Qué sucede si no especifico opciones de pluma?
+### P3: ¿Qué ocurre si no especifico opciones de pluma?
 
-R3: Si no se establecen explícitamente opciones de pluma, el sistema usará sus plumas predeterminadas, que pueden variar según el contexto.
+R3: Si las opciones de pluma no se establecen explícitamente, el sistema usará sus plumas predeterminadas, que pueden variar en diferentes contextos.
 
 ### P4: ¿Hay consideraciones específicas para las opciones de rasterización?
 
@@ -138,11 +142,11 @@ R4: Ajuste el ancho y la altura de la página en las opciones de rasterización 
 
 ### P5: ¿Dónde puedo encontrar soporte adicional o discusiones de la comunidad?
 
-R5: Explore el foro de la comunidad Aspose.CAD en [here](https://forum.aspose.com/c/cad/19) para obtener soporte y participar en discusiones.
+R5: Explore el foro de la comunidad Aspose.CAD en [aquí](https://forum.aspose.com/c/cad/19) para obtener soporte y discusiones.
 
 ---
 
-**Última actualización:** 2025-12-10  
+**Última actualización:** 2026-02-15  
 **Probado con:** Aspose.CAD 24.11 for Java  
 **Autor:** Aspose  
 
