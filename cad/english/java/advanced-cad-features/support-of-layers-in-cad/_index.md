@@ -1,29 +1,37 @@
 ---
-title: Save CAD as JPEG with Layer Support in Java
+title: Save DWG as JPEG with Layer Support in Java
 linktitle: Support of Layers in CAD
 second_title: Aspose.CAD Java API
-description: Learn how to save CAD as JPEG in Java using Aspose.CAD, add multiple layers, and adjust CAD dimensions for precise image conversion.
+description: Learn how to save DWG as JPEG in Java using Aspose.CAD, add multiple layers, and adjust CAD dimensions for precise image conversion.
 weight: 18
 url: /java/advanced-cad-features/support-of-layers-in-cad/
-date: 2025-12-13
+date: 2026-02-17
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Save CAD as JPEG with Layer Support in Java
+# Save DWG as JPEG with Layer Support in Java
 
 ## Introduction
 
-In this tutorial you’ll discover how to **save CAD as JPEG** while taking full advantage of layer support in Aspose.CAD for Java. Layers let you isolate specific parts of a drawing, making it easy to export only what you need. We’ll walk through each step, from setting up the environment to exporting a JPEG that includes just the layers you choose.
+In this tutorial you’ll discover how to **save DWG as JPEG** while taking full advantage of layer support in Aspose.CAD for Java. Layers let you isolate specific parts of a drawing, making it easy to export only what you need. We’ll walk through each step, from setting up the environment to exporting a JPEG that includes just the layers you choose.
 
 ## Quick Answers
-- **What does “save CAD as JPEG” mean?** It converts a CAD drawing into a raster JPEG image.
-- **Can I include only selected layers?** Yes – use the `setLayers` method to specify which layers to render.
-- **How do I change the image size?** Adjust `setPageWidth` and `setPageHeight` in `CadRasterizationOptions`.
-- **Is this a Java‑only solution?** The example uses Aspose.CAD for Java, but the same concepts apply to other languages.
+- **What does “save DWG as JPEG” mean?** It converts a DWG (or other CAD) drawing into a raster JPEG image.  
+- **Can I include only selected layers?** Yes – use the `setLayers` method to specify which layers to render.  
+- **How do I change the image size?** Adjust `setPageWidth` and `setPageHeight` in `CadRasterizationOptions`.  
+- **Is this a Java‑only solution?** The example uses Aspose.CAD for Java, but the same concepts apply to other languages.  
 - **Do I need a license?** A free trial works for testing; a commercial license is required for production.
+
+## What is “save DWG as JPEG”?
+Saving DWG as JPEG means rasterizing a vector‑based CAD file (DWG, DWF, DXF, etc.) into a standard JPEG bitmap. This is useful when you need to embed CAD drawings in web pages, emails, or reports that only support raster images.
+
+## Why use layer‑aware JPEG conversion?
+- **Focus on relevant data:** Export only the layers you need, reducing file size and visual clutter.  
+- **Maintain design intent:** Layers preserve the logical grouping of objects, so you can reuse the same source file for different outputs.  
+- **Full control over dimensions:** By adjusting rasterization options you can produce high‑resolution images that match your publishing requirements.
 
 ## Prerequisites
 
@@ -32,7 +40,7 @@ Before diving in, make sure you have the following:
 1. **Aspose.CAD for Java Library** – download it from the [website](https://releases.aspose.com/cad/java/). Follow the installation guide to add the JAR files to your project’s classpath.  
 2. **Java Development Environment** – a recent JDK (8 or newer) installed on your machine.
 
-Now that we’re set up, let’s explore the code needed to **save CAD as JPEG** with selective layer rendering.
+Now that we’re set up, let’s explore the code needed to **save DWG as JPEG** with selective layer rendering.
 
 ## Import Namespaces
 
@@ -87,7 +95,7 @@ List<String> stringList = new ArrayList<>(Arrays.asList("LayerA"));
 rasterizationOptions.setLayers(stringList);
 ```
 
-*Pro tip:* To **add multiple layers**, expand the `Arrays.asList` call, e.g., `Arrays.asList("LayerA", "LayerB", "LayerC")`.
+*Pro tip:* To **add multiple layers**, expand the `Arrays.asList` call, e.g., `Arrays.asList("LayerA", "LayerB", "LayerC")`. This lets you **select specific CAD layers** for the conversion.
 
 ### Step 5: Configure JPEG Options (Java Convert CAD Image)
 
@@ -98,7 +106,7 @@ JpegOptions jpegOptions = new JpegOptions();
 jpegOptions.setVectorRasterizationOptions(rasterizationOptions);
 ```
 
-### Step 6: Export to JPG (Save CAD as JPEG)
+### Step 6: Export to JPG (Save DWG as JPEG)
 
 Finally, write the image to disk. This step **saves the CAD drawing as a JPEG** file that contains only the selected layers.
 
@@ -106,7 +114,11 @@ Finally, write the image to disk. This step **saves the CAD drawing as a JPEG** 
 image.save(outFile, jpegOptions);
 ```
 
-By following these steps you’ve successfully **saved CAD as JPEG** while controlling which layers appear and customizing the image dimensions.
+By following these steps you’ve successfully **saved DWG as JPEG** while controlling which layers appear and customizing the image dimensions.
+
+## How to Convert DWF to JPEG with Layer Selection
+
+Although the example uses a DWF source, the same rasterization pipeline works for any supported CAD format (DWG, DXF, DGN, etc.). Simply change the file extension in `srcFile` and the library will handle the **convert DWF to JPEG** (or other format) operation automatically.
 
 ## Common Issues and Solutions
 
@@ -135,7 +147,7 @@ A: Join the Aspose.CAD community on the [forum](https://forum.aspose.com/c/cad/1
 
 ---
 
-**Last Updated:** 2025-12-13  
+**Last Updated:** 2026-02-17  
 **Tested With:** Aspose.CAD for Java 24.11  
 **Author:** Aspose  
 
