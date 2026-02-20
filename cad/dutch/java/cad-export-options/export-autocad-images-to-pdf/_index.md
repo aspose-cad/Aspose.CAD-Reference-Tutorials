@@ -1,12 +1,12 @@
 ---
-date: 2025-12-19
+date: 2026-02-20
 description: Leer hoe u AutoCAD‑PDF kunt exporteren met Aspose.CAD voor Java. Deze
-  stapsgewijze handleiding laat zien hoe u DWG naar PDF converteert, CAD opslaat als
-  PDF en de licentie beheert.
+  stapsgewijze handleiding laat u zien hoe u **DWG naar PDF converteert**, **CAD opslaat
+  als PDF**, en de licentieafhandeling regelt.
 linktitle: Export AutoCAD Images to PDF
 second_title: Aspose.CAD Java API
-title: Export AutoCAD PDF - Exporteer AutoCAD‑afbeeldingen naar PDF met Aspose.CAD
-  voor Java Tutorial
+title: DWG naar PDF converteren - AutoCAD-afbeeldingen exporteren naar PDF met Aspose.CAD
+  voor Java
 url: /nl/java/cad-export-options/export-autocad-images-to-pdf/
 weight: 10
 ---
@@ -15,37 +15,37 @@ weight: 10
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Export AutoCAD PDF - AutoCAD-afbeeldingen exporteren naar PDF met Aspose.CAD voor Java
+# Export AutoCAD PDF - Export AutoCAD-afbeeldingen naar PDF met Aspose.CAD voor Java
 
 ## Inleiding
 
-Zoek je naar een naadloze manier om **AutoCAD PDF te exporteren** met Java? Zoek niet verder! In deze tutorial laten we je zien hoe je AutoCAD-afbeeldingen naar PDF converteert met Aspose.CAD voor Java, een krachtige bibliotheek die het **DWG naar PDF converteren** moeiteloos maakt. Aan het einde begrijp je hoe je **CAD als PDF opslaat**, aangepaste rasterisatie‑instellingen toepast en werkt met een Aspose.CAD‑licentie voor productiegebruik.
+Zoek je naar **convert DWG to PDF** met Java? Zoek niet verder! In deze tutorial lopen we je stap voor stap door het converteren van AutoCAD-afbeeldingen naar PDF met Aspose.CAD voor Java, een krachtige bibliotheek die het **convert DWG to PDF** proces moeiteloos maakt. Aan het einde begrijp je hoe je **save CAD as PDF** kunt uitvoeren, aangepaste rasterisatie‑instellingen kunt toepassen en kunt werken met een Aspose.CAD‑licentie voor productiegebruik.
 
 ## Snelle antwoorden
-- **Kan ik DWG naar PDF converteren met Java?** Ja, Aspose.CAD voor Java verwerkt DWG, DXF en vele andere formaten.  
-- **Heb ik een licentie nodig?** Een **Aspose CAD-licentie** is vereist voor onbeperkt gebruik; een tijdelijke licentie is beschikbaar voor evaluatie.  
-- **Welke Java‑versie wordt ondersteund?** Java 8+ (de bibliotheek is compatibel met alle moderne JDK's).  
-- **Kan ik de PDF‑paginaformaat aanpassen?** Absoluut – pas `pageWidth` en `pageHeight` aan in de rasterisatie‑opties.  
-- **Is 3‑D rasterisatie mogelijk?** Ja, schakel `TypeOfEntities.Entities3D` in voor volledige 3‑D rendering.
+- **Can I convert DWG to PDF with Java?** Ja, Aspose.CAD voor Java verwerkt DWG, DXF en vele andere formaten.  
+- **Do I need a license?** Een **Aspose CAD license** is vereist voor onbeperkt gebruik; een tijdelijke licentie is beschikbaar voor evaluatie.  
+- **What Java version is supported?** Java 8+ (de bibliotheek is compatibel met alle moderne JDK's).  
+- **Can I customize PDF page size?** Absoluut – pas `pageWidth` en `pageHeight` aan in de rasterisatie‑opties.  
+- **Is 3‑D rasterization possible?** Ja, schakel `TypeOfEntities.Entities3D` in voor volledige 3‑D rendering.
 
 ## Wat is **export autocad pdf**?
-Exporteren naar AutoCAD PDF betekent het converteren van vector‑gebaseerde CAD‑tekeningen (DWG, DXF, DWF, enz.) naar een draagbaar PDF‑document, waarbij lagen, lijndiktes en optioneel 3‑D‑geometrie behouden blijven. Dit is handig voor het delen van ontwerpen met klanten, archiveren of afdrukken zonder CAD‑software nodig te hebben.
+Exporteren van AutoCAD PDF betekent het converteren van vector‑gebaseerde CAD‑tekeningen (DWG, DXF, DWF, enz.) naar een draagbaar PDF‑document, waarbij lagen, lijndiktes en optioneel 3‑D‑geometrie behouden blijven. Dit is handig voor het delen van ontwerpen met klanten, archiveren of afdrukken zonder dat CAD‑software nodig is.
 
-## Waarom Aspose.CAD voor Java gebruiken om **export autocad pdf**?
-- **Volledige formatondersteuning** – werkt met DWG, DXF, DWF en nog veel meer.  
-- **Geen externe afhankelijkheden** – pure Java‑bibliotheek, geen native DLL's.  
-- **Rasterisatie van hoge kwaliteit** – controle over DPI, paginagrootte en lay‑out.  
-- **Licentie‑flexibiliteit** – begin met een gratis proefversie, upgrade vervolgens naar een permanente **Aspose CAD-licentie**.  
+## Waarom DWG naar PDF converteren met Aspose.CAD voor Java?
+- **Full format support** – werkt met DWG, DXF, DWF en nog veel meer.  
+- **No external dependencies** – pure Java-bibliotheek, geen native DLL's.  
+- **High‑quality rasterization** – controle over DPI, paginagrootte en lay‑out, zodat je **customize PDF page size** kunt afstemmen op de vereisten van je project.  
+- **License flexibility** – begin met een gratis proefversie, upgrade vervolgens naar een permanente **Aspose CAD license**.  
 
-## Voorvereisten
+## Vereisten
 
-Voordat je begint, zorg ervoor dat je het volgende hebt:
+Zorg ervoor dat je het volgende hebt voordat je begint:
 
-- **Java‑ontwikkelomgeving** – JDK 8 of later geïnstalleerd.  
-- **Aspose.CAD voor Java‑bibliotheek** – download van de [download link](https://releases.aspose.com/cad/java/).  
-- **Documentdirectory** – een map op je computer waar de bron‑CAD‑bestanden en de gegenereerde PDF's worden opgeslagen.
+- **Java Development Environment** – JDK 8 of later geïnstalleerd.  
+- **Aspose.CAD for Java Library** – download van de [download link](https://releases.aspose.com/cad/java/).  
+- **Document Directory** – een map op je computer waar de bron‑CAD‑bestanden en de gegenereerde PDF's worden opgeslagen.
 
-## Importeer namespaces
+## Importer namespaces
 
 Importeer in je Java‑project de benodigde klassen om met Aspose.CAD te werken:
 
@@ -57,9 +57,9 @@ import com.aspose.cad.imageoptions.PdfOptions;
 //import com.aspose.cad.imageoptions.TypeOfEntities;
 ```
 
-Laten we nu de code stap‑voor‑stap doorlopen.
+Laten we nu de code stap voor stap doornemen.
 
-## Stapsgewijze handleiding
+## Hoe DWG naar PDF converteren met Aspose.CAD voor Java
 
 ### Stap 1: Stel het pad van de resource‑directory in
 
@@ -67,7 +67,7 @@ Laten we nu de code stap‑voor‑stap doorlopen.
 String dataDir = "Your Document Directory" + "ExportingCAD/";
 ```
 
-> **Pro tip:** Vervang `"Your Document Directory"` door het absolute pad naar de map die je in de voorvereisten hebt aangemaakt.
+> **Pro tip:** Vervang `"Your Document Directory"` door het absolute pad naar de map die je in de vereisten hebt aangemaakt.
 
 ### Stap 2: Laad de CAD‑afbeelding
 
@@ -89,8 +89,8 @@ rasterizationOptions.setPageHeight(500);
 rasterizationOptions.setLayouts(new String[] {"Model"});
 ```
 
-- Pas `pageWidth` en `pageHeight` aan om de grootte van de uitvoer‑PDF te wijzigen.  
-- Verwijder de commentaartekens van de `setTypeOfEntities`‑regel als je **java convert cad pdf** nodig hebt voor 3‑D‑entiteiten.  
+- Pas `pageWidth` en `pageHeight` aan om **customize PDF page size** te wijzigen.  
+- Haal de commentaartekens weg bij de `setTypeOfEntities`‑regel als je **java convert cad pdf** nodig hebt voor 3‑D‑entiteiten.  
 - De `setLayouts`‑aanroep selecteert welke lay‑out (Model, Layout1, enz.) moet worden gerenderd.
 
 ### Stap 4: Configureer PDF‑opties
@@ -100,7 +100,7 @@ PdfOptions pdfOptions = new PdfOptions();
 pdfOptions.setVectorRasterizationOptions(rasterizationOptions);
 ```
 
-Dit koppelt de rasterisatie‑instellingen aan de PDF‑output, zodat de vectorgegevens correct worden geconverteerd.
+Dit koppelt de rasterisatie‑instellingen aan de PDF‑output, waardoor de vectorgegevens correct worden geconverteerd.
 
 ### Stap 5: Sla de PDF op
 
@@ -114,30 +114,30 @@ Het resulterende bestand, `Export3DImagestoPDF_out_.pdf`, is een **save cad as p
 
 | Symptoom | Waarschijnlijke oorzaak | Oplossing |
 |----------|--------------------------|-----------|
-| Lege PDF-uitvoer | Rasterisatie‑opties niet ingesteld of lay‑out mismatch | Controleer of `setLayouts` overeenkomt met de lay‑outnaam in je CAD‑bestand. |
+| Lege PDF-uitvoer | Rasterisatie‑opties niet ingesteld of lay‑out komt niet overeen | Controleer of `setLayouts` overeenkomt met de lay‑outnaam in je CAD‑bestand. |
 | Lage resolutie afbeelding | `pageWidth`/`pageHeight` te klein | Verhoog de afmetingen of stel een hogere DPI in via `rasterizationOptions.setResolution(...)`. |
-| Licentie‑exception | Geen geldige licentie toegepast | Pas een **Aspose CAD-licentie** toe of gebruik een tijdelijke licentie voor testen. |
+| Licentie‑exception | Geen geldige licentie toegepast | Pas een **Aspose CAD license** toe of gebruik een tijdelijke licentie voor testen. |
 
 ## Veelgestelde vragen
 
-### Q1: Kan ik Aspose.CAD voor Java gebruiken met andere CAD‑bestandformaten?
+### Q1: Kan ik Aspose.CAD voor Java gebruiken met andere CAD‑bestandsformaten?
 A1: Ja, Aspose.CAD ondersteunt een breed scala aan formaten, waaronder DWG, DWF, DGN en meer, waardoor je flexibiliteit krijgt in je projecten.
 
 ### Q2: Hoe kan ik een tijdelijke licentie voor Aspose.CAD voor Java verkrijgen?
-A2: Bezoek [hier](https://purchase.aspose.com/temporary-license/) om een tijdelijke licentie voor evaluatie te verkrijgen.
+A2: Bezoek [here](https://purchase.aspose.com/temporary-license/) om een tijdelijke licentie voor evaluatie te verkrijgen.
 
 ### Q3: Zijn er lay‑outopties voor rasterisatie?
 A3: Ja, je kunt lay‑outs aanpassen (bijv. `"Model"`, `"Layout1"`) via de `setLayouts`‑methode om te bepalen welke weergave wordt gerenderd.
 
-### Q4: Kan ik de grootte van het uitvoer‑PDF‑bestand aanpassen?
+### Q4: Kan ik de grootte van het gegenereerde PDF‑bestand aanpassen?
 A4: Absoluut! Pas de `pageWidth`‑ en `pageHeight`‑parameters in de rasterisatie‑opties aan om aan je gewenste afmetingen te voldoen.
 
-### Q5: Waar kan ik hulp zoeken of discussiëren over problemen met betrekking tot Aspose.CAD voor Java?
-A5: Ga naar het [Aspose.CAD‑forum](https://forum.aspose.com/c/cad/19) voor toegewijde ondersteuning en community‑discussies.
+### Q5: Waar kan ik hulp zoeken of discussiëren over problemen met Aspose.CAD voor Java?
+A5: Ga naar het [Aspose.CAD forum](https://forum.aspose.com/c/cad/19) voor toegewijde ondersteuning en community‑discussies.
 
 ---
 
-**Laatst bijgewerkt:** 2025-12-19  
+**Laatst bijgewerkt:** 2026-02-20  
 **Getest met:** Aspose.CAD for Java 24.10  
 **Auteur:** Aspose  
 
