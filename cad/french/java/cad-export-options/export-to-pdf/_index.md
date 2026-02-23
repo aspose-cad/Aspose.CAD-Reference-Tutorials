@@ -1,26 +1,39 @@
 ---
-date: 2025-12-22
-description: Apprenez comment convertir DWG en PDF avec Java en utilisant Aspose.CAD,
-  un guide rapide sur la façon d’exporter des PDF CAD avec des options personnalisables.
+date: 2026-02-23
+description: Apprenez à définir la taille de la page PDF lors de la conversion de
+  DWG en PDF avec Aspose.CAD pour Java, et découvrez les options d’exportation PDF
+  pour augmenter la résolution du PDF.
 linktitle: Export to PDF
 second_title: Aspose.CAD Java API
-title: dwg en pdf java – Exporter CAD en PDF avec Aspose.CAD
+title: Définir la taille de la page PDF – dwg vers PDF Java avec Aspose.CAD
 url: /fr/java/cad-export-options/export-to-pdf/
 weight: 13
 ---
+
+ table headers.
+
+Make sure to keep markdown formatting.
+
+Let's produce translation.
+
+Be careful with bold formatting (**text**) keep same but translate inside.
+
+Also keep URLs unchanged.
+
+Let's craft.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# dwg to pdf java – Exportation vers PDF avec Aspose.CAD pour Java
+# dwg to pdf java – Exportation vers PDF avec Aspose.CAD for Java
 
 ## Introduction
 
-Si vous avez besoin de **dwg to pdf java** rapidement et de manière fiable, vous êtes au bon endroit. Ce tutoriel vous guide à travers la conversion de DWG (ou de tout format CAD pris en charge) en un PDF de haute qualité à l'aide d'Aspose.CAD pour Java. Nous couvrirons tout, de la configuration de l'environnement à la personnalisation du rendu PDF, afin que vous puissiez intégrer la conversion dans vos propres applications Java en toute confiance.
+Si vous devez **définir la taille de la page PDF** lors d’une conversion **dwg to pdf java** rapide et fiable, vous êtes au bon endroit. Ce tutoriel vous guide à travers la conversion de DWG (ou de tout autre format CAD pris en charge) en un PDF de haute qualité à l’aide d’Aspose.CAD for Java. Nous couvrirons tout, de la configuration de l’environnement à la personnalisation des options d’exportation PDF, afin que vous puissiez intégrer la conversion dans vos propres applications Java en toute confiance.
 
 ## Réponses rapides
-- **Quelle bibliothèque gère dwg to pdf java ?** Aspose.CAD pour Java  
+- **Quelle bibliothèque gère dwg to pdf java ?** Aspose.CAD for Java  
 - **Combien de temps prend une conversion de base ?** Généralement moins d’une seconde pour des dessins typiques  
 - **Ai‑je besoin d’une licence pour le développement ?** Un essai gratuit suffit pour les tests ; une licence est requise en production  
 - **Puis‑je personnaliser la taille et la mise en page ?** Oui – utilisez `CadRasterizationOptions` pour définir la largeur, la hauteur et les mises en page  
@@ -28,28 +41,32 @@ Si vous avez besoin de **dwg to pdf java** rapidement et de manière fiable, vou
 
 ## Qu’est‑ce que dwg to pdf java ?
 
-Convertir un fichier DWG en PDF dans un environnement Java signifie prendre un dessin CAD basé sur des vecteurs et le rendre sous forme de document portable qui peut être visualisé sur n’importe quel appareil. Aspose.CAD se charge du travail lourd en interprétant les données CAD, en les rasterisant si nécessaire, et en produisant un PDF qui préserve la fidélité du design original.
+Convertir un fichier DWG en PDF dans un environnement Java consiste à prendre un dessin CAD basé sur des vecteurs et à le rendre dans un format de document portable qui peut être visualisé sur n’importe quel appareil. Aspose.CAD effectue le travail lourd en interprétant les données CAD, en les rasterisant si nécessaire, et en produisant un PDF qui préserve la fidélité du design original.
 
 ## Pourquoi utiliser Aspose.CAD pour dwg to pdf java ?
 
 - **Large prise en charge des formats** – Fonctionne avec DWG, DWF, DXF et de nombreux autres types CAD.  
 - **Aucune dépendance externe** – Bibliothèque pure Java, sans DLL natives ni composants COM.  
 - **Contrôle granulaire** – Ajustez les dimensions de la page, la qualité de rasterisation et les options de mise en page.  
-- **Performance évolutive** – Adaptée au traitement par lots ou aux conversions à la volée dans les services web.  
+- **Performance évolutive** – Adaptée au traitement par lots ou aux conversions à la volée dans les services web.
+
+## Comment définir la taille de la page PDF
+
+Définir la taille de la page PDF fait partie des **options d’exportation PDF** que vous configurez via `CadRasterizationOptions`. En définissant `setPageWidth` et `setPageHeight`, vous contrôlez les dimensions exactes du PDF généré, ce qui est essentiel lorsque vous devez correspondre à une taille de papier spécifique ou intégrer le PDF dans un flux de travail plus large.
 
 ## Prérequis
 
 Avant de plonger dans le tutoriel, assurez‑vous d’avoir les prérequis suivants :
 
-- Aspose.CAD pour Java : Assurez‑vous que la bibliothèque Aspose.CAD est installée dans votre environnement Java. Vous pouvez la télécharger [ici](https://releases.aspose.com/cad/java/).
+- Aspose.CAD for Java : assurez‑vous que la bibliothèque Aspose.CAD est installée dans votre environnement Java. Vous pouvez la télécharger [ici](https://releases.aspose.com/cad/java/).
 
-- Répertoire de ressources : Créez un répertoire où vos fichiers CAD seront stockés. Remplacez « Your Document Directory » dans l’extrait de code fourni par le chemin réel.
+- Répertoire des ressources : créez un répertoire où vos fichiers CAD seront stockés. Remplacez « Your Document Directory » dans l’extrait de code fourni par le chemin réel.
 
 Passons maintenant aux étapes principales.
 
-## Importation des espaces de noms
+## Importer les espaces de noms
 
-Dans votre projet Java, commencez par importer les espaces de noms nécessaires pour activer les fonctionnalités d’Aspose.CAD.
+Dans votre projet Java, commencez par importer les espaces de noms nécessaires pour activer les fonctionnalités Aspose.CAD.
 
 ```java
 import com.aspose.cad.Image;
@@ -64,7 +81,7 @@ import com.aspose.cad.imageoptions.PdfOptions;
 
 ## Étape 1 : Charger le fichier CAD
 
-Chargez votre fichier CAD dans l’objet Aspose.CAD `Image`. Remplacez `"site.dwf"` par le nom réel de votre fichier CAD.
+Chargez votre fichier CAD dans l’objet `Image` d’Aspose.CAD. Remplacez `"site.dwf"` par le nom réel de votre fichier CAD.
 
 ```java
 String fileName = (dataDir + "site.dwf");
@@ -73,7 +90,7 @@ Image image = Image.load(fileName);
 
 ## Étape 2 : Configurer les options PDF
 
-Configurez les options d’exportation PDF, y compris les options de rasterisation vectorielle telles que la hauteur, la largeur et les mises en page. C’est ici que vous **personnalisez la sortie PDF** selon vos besoins.
+Configurez les options d’exportation PDF, y compris les options de rasterisation vectorielle telles que la hauteur, la largeur et les mises en page. C’est ici que vous **personnalisez la sortie PDF** pour répondre à vos exigences et que vous pouvez également **augmenter la résolution du PDF** si besoin.
 
 ```java
 PdfOptions pdfOptions = new PdfOptions();
@@ -87,22 +104,22 @@ rasterizationOptions.setLayouts(new String[] { "Model" });
 
 ## Étape 3 : Exporter vers PDF
 
-Spécifiez le chemin de sortie pour le fichier PDF généré et enregistrez l’image avec les options PDF configurées. Cette étape **crée des fichiers PDF CAD** prêts à être distribués.
+Spécifiez le chemin de sortie pour le fichier PDF généré et enregistrez l’image avec les options PDF configurées. Cette étape **crée des fichiers pdf cad** prêts à être distribués.
 
 ```java
 String outPath = dataDir + "site.pdf";
 image.save(outPath, pdfOptions);
 ```
 
-Félicitations ! Vous avez exporté avec succès votre fichier CAD en PDF à l’aide d’Aspose.CAD pour Java.
+Félicitations ! Vous avez exporté avec succès votre fichier CAD en PDF à l’aide d’Aspose.CAD for Java.
 
 ## Problèmes courants et solutions
 
 | Problème | Pourquoi cela se produit | Comment résoudre |
-|----------|--------------------------|-------------------|
+|----------|--------------------------|------------------|
 | **Pages blanches dans le PDF** | Options de rasterisation non définies ou taille par défaut trop petite | Ajustez `setPageWidth` / `setPageHeight` pour correspondre aux dimensions du dessin source |
-| **Sortie de faible qualité** | DPI de rasterisation par défaut trop bas | Utilisez `rasterizationOptions.setResolution(300);` pour augmenter le DPI |
-| **Format CAD non pris en charge** | Le type de fichier ne figure pas parmi la liste supportée par Aspose.CAD | Convertissez le fichier en un format supporté (par ex., DWG, DWF, DXF) avant le chargement |
+| **Sortie de mauvaise qualité** | DPI de rasterisation par défaut trop bas | Utilisez `rasterizationOptions.setResolution(300);` pour augmenter le DPI et **augmenter la résolution du PDF** |
+| **Format CAD non pris en charge** | Le type de fichier ne figure pas dans la liste des formats supportés par Aspose.CAD | Convertissez le fichier dans un format supporté (par ex., DWG, DWF, DXF) avant le chargement |
 
 ## Questions fréquentes
 
@@ -116,7 +133,7 @@ R2 : Absolument. Le tutoriel donne un aperçu des options de personnalisation,
 
 ### Q3 : Où puis‑je trouver un support supplémentaire pour Aspose.CAD ?
 
-R3 : Pour toute question ou problème, rendez‑vous sur le [forum Aspose.CAD](https://forum.aspose.com/c/cad/19) afin d’obtenir de l’aide de la communauté.
+R3 : Pour toute question ou problème, visitez le [forum Aspose.CAD](https://forum.aspose.com/c/cad/19) afin d’obtenir de l’aide de la communauté.
 
 ### Q4 : Existe‑t‑il un essai gratuit ?
 
@@ -132,19 +149,36 @@ R5 : Pour une licence temporaire, consultez [ce lien](https://purchase.aspose.
 R : Définissez `rasterizationOptions.setSmoothingMode(SmoothingMode.AntiAlias);` avant l’enregistrement.
 
 **Q : Puis‑je exporter plusieurs fichiers CAD en lot ?**  
-R : Oui — encapsulez la logique de chargement et d’enregistrement dans une boucle, en réutilisant la même instance `PdfOptions`.
+R : Oui — encapsulez la logique de chargement et d’enregistrement dans une boucle, en réutilisant la même instance `PdfOptions`. Cela permet des scénarios de **conversion en lot cad pdf**.
 
 **Q : La bibliothèque prend‑elle en charge les PDF protégés par mot de passe ?**  
 R : Le chiffrement PDF n’est pas inclus dans Aspose.CAD ; vous pouvez post‑traiter le PDF avec Aspose.PDF pour ajouter la sécurité.
 
+## FAQ – Référence rapide
+
+**Q : Comment définir la taille de la page PDF pour une conversion DWG ?**  
+R : Utilisez `rasterizationOptions.setPageWidth(width)` et `rasterizationOptions.setPageHeight(height)` avant d’appeler `image.save()`.
+
+**Q : Quel réglage faut‑il utiliser pour **augmenter la résolution du PDF** ?**  
+R : Appelez `rasterizationOptions.setResolution(300);` (ou plus) pour augmenter le DPI de sortie.
+
+**Q : Puis‑je utiliser ce code dans un micro‑service ?**  
+R : Oui, la bibliothèque est pure Java et fonctionne bien dans des environnements conteneurisés ou serverless.
+
+**Q : Y a‑t‑il une limite au nombre de fichiers que je peux convertir en un seul lot ?**  
+R : La limite dépend de la mémoire et du CPU de votre système ; réutiliser le même `PdfOptions` aide à réduire la consommation de ressources.
+
+**Q : Comment passer de DWG à un autre format CAD comme DXF ?**  
+R : Changez simplement l’extension du fichier dans `fileName` ; Aspose.CAD détecte automatiquement le format.
+
 ## Conclusion
 
-Dans ce tutoriel, nous avons exploré le processus étape par étape de conversion de dessins CAD en PDF en utilisant **dwg to pdf java** avec Aspose.CAD. En suivant ces instructions, vous pouvez facilement intégrer l’exportation PDF dans des architectures desktop, web ou micro‑services, tout en conservant un contrôle total sur la rasterisation et la mise en page.
+Dans ce tutoriel, nous avons exploré le processus étape par étape de conversion de dessins CAD en PDF en utilisant **dwg to pdf java** avec Aspose.CAD, en nous concentrant sur **définir la taille de la page PDF** et les **options d’exportation PDF** associées. En suivant ces instructions, vous pouvez facilement intégrer l’exportation PDF dans des architectures desktop, web ou micro‑service, tout en conservant un contrôle total sur la rasterisation, la mise en page et la résolution.
 
 ---
 
-**Dernière mise à jour :** 2025-12-22  
-**Testé avec :** Aspose.CAD pour Java 24.12  
+**Dernière mise à jour :** 2026-02-23  
+**Testé avec :** Aspose.CAD for Java 24.12  
 **Auteur :** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
