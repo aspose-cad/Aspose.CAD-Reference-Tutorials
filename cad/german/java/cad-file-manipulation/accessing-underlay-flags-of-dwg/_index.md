@@ -1,11 +1,10 @@
 ---
-date: 2025-12-22
-description: Erfahren Sie, wie Sie DWG-Dateien laden und Unterlage‑Informationen mit
-  Aspose.CAD für Java extrahieren – ein Schritt‑für‑Schritt‑Leitfaden, der Unterlage‑Flags
-  abdeckt.
+date: 2026-02-23
+description: Erfahren Sie, wie Sie DWG‑Dateien mit Aspose.CAD.DWG für Java laden und
+  Unterlage‑Flags extrahieren – ein Schritt‑für‑Schritt‑Leitfaden für Entwickler.
 linktitle: Accessing Underlay Flags of DWG
 second_title: Aspose.CAD Java API
-title: DWG-Datei laden & Zugriff auf Unterlage‑Kennzeichen – Aspose.CAD für Java
+title: aspose cad dwg – DWG laden & Unterlage‑Flags zugreifen (Java)
 url: /de/java/cad-file-manipulation/accessing-underlay-flags-of-dwg/
 weight: 11
 ---
@@ -16,28 +15,32 @@ weight: 11
 
 # DWG-Datei laden & Unterlage-Flags abrufen – Aspose.CAD für Java
 
-In modernen CAD‑Workflows ist das **Laden einer DWG‑Datei** schnell und das Herausziehen von Unterlage‑Details eine gängige Anforderung. Egal, ob Sie einen Viewer bauen, die Stapelverarbeitung automatisieren oder Metadaten für die GIS‑Integration extrahieren, Aspose.CAD für Java bietet Ihnen einen sauberen, code‑first Ansatz dafür. In diesem Tutorial führen wir Sie durch die genauen Schritte, um **DWG‑Datei zu laden**, ihre Entitäten zu iterieren und die Unterlage‑Flags zu lesen, die viele Entwickler übersehen.
+In modernen CAD‑Workflows können Sie **mit aspose cad dwg schnell eine DWG‑Datei laden** und Unterlage‑Details extrahieren, die häufig für Gelegenheitsbetrachter verborgen bleiben. Ob Sie einen Java DWG‑Viewer bauen, einen Batch‑Prozess‑dwg‑Pipeline automatisieren oder Metadaten für die GIS‑Integration extrahieren – Aspose.CAD für Java bietet Ihnen einen sauberen, code‑first Ansatz. In diesem Tutorial führen wir Sie Schritt für Schritt durch das **Laden einer DWG‑Datei**, das Durchlaufen ihrer Entitäten und das Auslesen der Unterlage‑Flags, die vielen Entwicklern entgehen.
 
-## Schnelle Antworten
-- **Was ist die primäre Klasse zum Öffnen einer DWG?** `com.aspose.cad.Image.load()` gibt ein `CadImage` zurück.
-- **Welches Objekt enthält Unterlage-Informationen?** `CadUnderlay` (oder abgeleitete Typen wie `CadDgnUnderlay`).
-- **Benötige ich eine Lizenz für die Entwicklung?** Eine kostenlose Testversion funktioniert zum Testen; für die Produktion ist eine kommerzielle Lizenz erforderlich.
+## Schnellantworten
+- **Welche Hauptklasse wird zum Öffnen einer DWG verwendet?** `com.aspose.cad.Image.load()` liefert ein `CadImage`.
+- **Welches Objekt enthält Unterlage‑Informationen?** `CadUnderlay` (oder abgeleitete Typen wie `CadDgnUnderlay`).
+- **Benötige ich eine Lizenz für die Entwicklung?** Eine kostenlose Testversion funktioniert für Tests; für die Produktion ist eine kommerzielle Lizenz erforderlich.
 - **Kann ich mehrere DWG‑Dateien in einer Schleife verarbeiten?** Ja – wiederholen Sie einfach das Laden‑und‑Iterieren‑Muster.
-- **Ist dieser Ansatz kompatibel mit Java 11+?** Absolut, Aspose.CAD unterstützt Java 8 bis zu den neuesten LTS‑Versionen.
+- **Ist dieser Ansatz mit Java 11+ kompatibel?** Absolut, Aspose.CAD unterstützt Java 8 bis zu den neuesten LTS‑Versionen.
 
-## Was bedeutet „load dwg file“ in Aspose.CAD?
-`Image.load()` liest den binären DWG‑Inhalt und erstellt ein `CadImage`‑Objekt im Speicher. Von dort aus können Sie Ebenen, Blöcke und Unterlage‑Entitäten erkunden, ohne sich selbst mit dem DWG‑Dateiformat auseinandersetzen zu müssen.
+## aspose cad dwg – Laden einer DWG‑Datei (Java)
 
-## Warum Unterlage-Flags aus einer DWG extrahieren?
-Unterlage-Flags geben an, wie ein externes Referenzobjekt (wie ein DGN‑ oder PDF‑Unterlage) innerhalb der Zeichnung positioniert, skaliert und rotiert ist. Das Wissen um diese Werte ermöglicht es Ihnen:
-- Das exakte visuelle Layout in einem benutzerdefinierten Viewer nachzubilden.
-- Unterlagen in native CAD-Entitäten für weitere Bearbeitung zu konvertieren.
-- Berichte zu erstellen, die Unterlage-Metadaten für Konformität oder Dokumentation enthalten.
+`Image.load()` liest den binären DWG‑Inhalt und erzeugt ein `CadImage`‑Objekt im Speicher. Von dort aus können Sie Ebenen, Blöcke und Unterlage‑Entitäten erkunden, ohne sich selbst mit dem DWG‑Dateiformat auseinandersetzen zu müssen.
+
+## Warum Unterlage‑Flags aus einer DWG extrahieren?
+
+Unterlage‑Flags geben an, wie ein externes Referenzobjekt (wie ein DGN‑ oder PDF‑Unterlage) innerhalb der Zeichnung positioniert, skaliert und rotiert ist. Das Wissen um diese Werte ermöglicht Ihnen:
+
+- Das exakte visuelle Layout in einem eigenen **java dwg viewer** nachzubilden.
+- Unterlagen in native CAD‑Entitäten zu konvertieren für weitere Bearbeitung.
+- Berichte zu erstellen, die Unterlage‑Metadaten für Compliance oder Dokumentation enthalten.
+- **Batch‑Verarbeitung von dwg**‑Dateien und das Speichern ihrer Unterlage‑Metadaten in einer Datenbank für spätere Analysen.
 
 ## Voraussetzungen
-- **Aspose.CAD Library** – download from the [releases](https://releases.aspose.com/cad/java/) page.
-- **Java Development Kit** – JDK 8 oder neuer.
-- **Ein Ordner**, der die DWG-Dateien enthält, die Sie analysieren möchten. Ersetzen Sie `"Your Document Directory"` im Code durch Ihren tatsächlichen Pfad.
+- **Aspose.CAD Bibliothek** – Download von der [releases](https://releases.aspose.com/cad/java/) Seite.  
+- **Java Development Kit** – JDK 8 oder neuer.  
+- **Ein Ordner**, der die DWG‑Dateien enthält, die Sie analysieren möchten. Ersetzen Sie `"Your Document Directory"` im Code durch Ihren tatsächlichen Pfad.
 
 ## Namespaces importieren
 
@@ -58,7 +61,7 @@ import com.aspose.cad.fileformats.cad.cadobjects.UnderlayFlags;
 // The path to the resource directory.
 String dataDir = "Your Document Directory" + "DWGDrawings/";
 ```
-Definieren Sie, wo Ihre DWG‑Dateien liegen. Die Verwendung eines eigenen Ordners hält das Beispiel sauber und portabel.
+Definieren Sie, wo Ihre DWG‑Dateien liegen. Die Verwendung eines dedizierten Ordners hält das Beispiel sauber und portabel.
 
 ### Schritt 2: DWG‑Datei laden
 ```java
@@ -68,7 +71,7 @@ String fileName = dataDir + "BlockRefDgn.dwg";
 // Load an existing DWG file and convert it into CadImage 
 CadImage image = (CadImage)Image.load(fileName);
 ```
-Hier **laden wir die DWG‑Datei** `BlockRefDgn.dwg` in eine `CadImage`‑Instanz, bereit zur Inspektion.
+Hier **laden wir die dwg‑Datei** `BlockRefDgn.dwg` in eine `CadImage`‑Instanz, bereit zur Inspektion.
 
 ### Schritt 3: Durch DWG‑Entitäten iterieren
 ```java
@@ -82,9 +85,9 @@ Die Schleife durchläuft jede Entität – Linien, Kreise, Blöcke und Unterlage
 // Check if entity is of CadDgnUnderlay type
 if (entity instanceof CadDgnUnderlay)
 ```
-Nur `CadDgnUnderlay`‑Objekte enthalten die gesuchten Unterlage-Flags, daher filtern wir danach.
+Nur `CadDgnUnderlay`‑Objekte enthalten die gesuchten Unterlage‑Flags, daher filtern wir gezielt danach.
 
-### Schritt 5: Auf Unterlage‑Informationen zugreifen
+### Schritt 5: Unterlage‑Informationen abrufen
 ```java
 // Access different underlay flags 
 CadUnderlay underlay = (CadUnderlay) entity;
@@ -93,33 +96,38 @@ System.out.println(underlay.getUnderlayName());
 // ... (Additional underlay properties)
 break;
 ```
-Sobald wir ein `CadUnderlay` haben, können wir seinen Pfad, Namen, Einfügepunkt, Rotation, Skalierungsfaktoren und das `UnderlayFlags`‑Enum auslesen, das Sichtbarkeit, Clipping und weitere Rendering‑Optionen angibt.
+Sobald wir ein `CadUnderlay` haben, können wir Pfad, Name, Einfügepunkt, Rotation, Skalierungsfaktoren und das `UnderlayFlags`‑Enum auslesen, das Sichtbarkeit, Clipping und weitere Rendering‑Optionen angibt.
+
+## Wie man DWG‑Dateien in einem Batch‑Prozess lädt
+
+Wenn Sie **dwg‑Dateien batchweise** verarbeiten müssen, verpacken Sie die obigen Schritte in eine einfache `for`‑Schleife, die über alle Dateien in `dataDir` iteriert. Der gleiche `Image.load()`‑Aufruf funktioniert für jede Datei, und Sie können die extrahierten Flags in einer CSV‑Datei oder einer Datenbank für nachgelagerte Berichte speichern.
 
 ## Häufige Probleme & Tipps
-- **Null underlay path** – Stellen Sie sicher, dass die DWG tatsächlich eine externe Datei referenziert; andernfalls ist der Pfad leer.
-- **Unsupported underlay type** – Aspose.CAD unterstützt derzeit DGN‑Unterlagen; PDF‑Unterlagen sind noch nicht über die API verfügbar.
-- **License exceptions** – Das Ausführen des Codes ohne gültige Lizenz fügt jedem exportierten Bild ein Wasserzeichen hinzu.
+- **Null‑Unterlage‑Pfad** – Stellen Sie sicher, dass die DWG tatsächlich eine externe Datei referenziert; andernfalls bleibt der Pfad leer.
+- **Nicht unterstützter Unterlage‑Typ** – Aspose.CAD unterstützt derzeit DGN‑Unterlagen; PDF‑Unterlagen sind über die API noch nicht verfügbar.
+- **Lizenz‑Ausnahmen** – Das Ausführen des Codes ohne gültige Lizenz fügt jedem exportierten Bild ein Wasserzeichen hinzu.
+- **Performance‑Tipp:** Wiederverwenden Sie eine einzelne `Image`‑Instanz, wenn Sie viele Dateien in einem Batch verarbeiten, um den GC‑Druck zu reduzieren.
 
 ## Häufig gestellte Fragen
 
-**Q: Kann ich Aspose.CAD für Java mit anderen CAD‑Dateiformaten verwenden?**  
+**F: Kann ich Aspose.CAD für Java mit anderen CAD‑Dateiformaten verwenden?**  
 A: Aspose.CAD konzentriert sich hauptsächlich auf das DWG‑Format, unterstützt aber auch DXF, DWF und weitere CAD‑Formate.
 
-**Q: Gibt es eine Testversion von Aspose.CAD für Java?**  
-A: Ja, Sie können die Funktionen mit einer kostenlosen Testversion von [hier](https://releases.aspose.com/) ausprobieren.
+**F: Gibt es eine Testversion von Aspose.CAD für Java?**  
+A: Ja, Sie können die Funktionen mit einer kostenlosen Testversion [hier](https://releases.aspose.com/) ausprobieren.
 
-**Q: Wie kann ich Support erhalten oder Hilfe zu Aspose.CAD für Java bekommen?**  
+**F: Wie erhalte ich Support oder Hilfe zu Aspose.CAD für Java?**  
 A: Besuchen Sie das [Aspose.CAD‑Forum](https://forum.aspose.com/c/cad/19) für Community‑Support und Diskussionen.
 
-**Q: Gibt es temporäre Lizenzen für Aspose.CAD für Java?**  
-A: Ja, Sie können eine temporäre Lizenz [hier](https://purchase.aspose.com/temporary-license/) erhalten.
+**F: Gibt es temporäre Lizenzen für Aspose.CAD für Java?**  
+A: Ja, eine temporäre Lizenz können Sie [hier](https://purchase.aspose.com/temporary-license/) erhalten.
 
-**Q: Wo finde ich die umfassende Dokumentation für Aspose.CAD für Java?**  
+**F: Wo finde ich die umfassende Dokumentation zu Aspose.CAD für Java?**  
 A: Siehe die [Dokumentation](https://reference.aspose.com/cad/java/) für detaillierte Informationen.
 
 ---
 
-**Zuletzt aktualisiert:** 2025-12-22  
+**Zuletzt aktualisiert:** 2026-02-23  
 **Getestet mit:** Aspose.CAD 24.12 für Java  
 **Autor:** Aspose  
 

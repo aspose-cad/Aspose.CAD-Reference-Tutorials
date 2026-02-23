@@ -1,11 +1,11 @@
 ---
-date: 2025-12-22
-description: Aspose.CAD for Java ile DWG dosyasını nasıl yükleyeceğinizi ve alt katman
-  bilgilerini nasıl çıkaracağınızı öğrenin – alt katman bayraklarını kapsayan adım
+date: 2026-02-23
+description: Aspose CAD DWG for Java kullanarak dwg dosyalarını nasıl yükleyeceğinizi
+  ve alt katman bayraklarını nasıl çıkaracağınızı öğrenin – geliştiriciler için adım
   adım bir rehber.
 linktitle: Accessing Underlay Flags of DWG
 second_title: Aspose.CAD Java API
-title: DWG Dosyasını Yükle ve Alt Katman Bayraklarına Eriş – Aspose.CAD for Java
+title: aspose cad dwg – DWG'yi Yükle ve Alt Katman Bayraklarına Eriş (Java)
 url: /tr/java/cad-file-manipulation/accessing-underlay-flags-of-dwg/
 weight: 11
 ---
@@ -14,32 +14,35 @@ weight: 11
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# DWG Dosyasını Yükleme ve Alt Katman Bayraklarına Erişim – Aspose.CAD for Java
+# DWG Dosyasını Yükle ve Alt Katman Bayraklarına Eriş – Aspose.CAD for Java
 
-Modern CAD iş akışlarında, **DWG dosyasını hızlı bir şekilde yüklemek** ve alt katman detaylarını çıkarmak yaygın bir gereksinimdir. İster bir görüntüleyici oluşturuyor olun, toplu işlem otomasyonu yapıyor olun, ister GIS entegrasyonu için meta verileri çıkarıyor olun, Aspose.CAD for Java bunu temiz, kod‑öncelikli bir şekilde yapmanızı sağlar. Bu öğreticide **DWG dosyasını yükleme**, varlıklarını yineleme ve birçok geliştiricinin göz ardı ettiği alt katman bayraklarını okuma adımlarını adım adım göstereceğiz.
+Modern CAD iş akışlarında, **aspose cad dwg ile bir DWG dosyasını hızlıca yükleyebilirsiniz** ve genellikle sıradan izleyicilerden gizli olan alt katman detaylarını çıkarabilirsiniz. Java DWG görüntüleyicisi oluşturuyor olun, bir toplu işlem dwg hattını otomatikleştiriyor olun veya GIS entegrasyonu için meta verileri çıkarıyor olun, Aspose.CAD for Java bunu temiz, kod‑öncelikli bir şekilde yapmanızı sağlar. Bu öğreticide **DWG dosyasını yükleme**, varlıklarını yineleme ve birçok geliştiricinin göz ardı ettiği alt katman bayraklarını okuma adımlarını adım adım göstereceğiz.
 
 ## Hızlı Yanıtlar
-- **DWG'yi açmak için birincil sınıf nedir?** `com.aspose.cad.Image.load()` returns a `CadImage`.
-- **Alt katman bilgilerini hangi nesne tutar?** `CadUnderlay` (or its derived types like `CadDgnUnderlay`).
-- **Geliştirme için lisansa ihtiyacım var mı?** Test için ücretsiz deneme çalışır; üretim için ticari bir lisans gereklidir.
-- **Bir döngüde birden fazla DWG dosyasını işleyebilir miyim?** Evet – sadece yükle‑ve‑yineleme desenini tekrarlayın.
+- **DWG'yi açmak için birincil sınıf nedir?** `com.aspose.cad.Image.load()` bir `CadImage` döndürür.
+- **Alt katman bilgilerini hangi nesne tutar?** `CadUnderlay` (veya `CadDgnUnderlay` gibi türetilmiş tipleri).
+- **Geliştirme için lisansa ihtiyacım var mı?** Test için ücretsiz deneme çalışır; üretim için ticari lisans gereklidir.
+- **Bir döngüde birden fazla DWG dosyasını işleyebilir miyim?** Evet – sadece yükle‑ve‑yinele desenini tekrarlayın.
 - **Bu yaklaşım Java 11+ ile uyumlu mu?** Kesinlikle, Aspose.CAD Java 8'den en yeni LTS sürümlere kadar destekler.
 
-## Aspose.CAD'de “load dwg file” nedir?
-`Image.load()` ikili DWG içeriğini okur ve bellekte bir `CadImage` nesnesi oluşturur. Buradan katmanları, blokları ve alt katman varlıklarını, DWG dosya formatıyla doğrudan uğraşmadan keşfedebilirsiniz.
+## aspose cad dwg – DWG Dosyası Yükleme (Java)
 
-## Neden bir DWG'den alt katman bayraklarını çıkarmalıyız?
-Alt katman bayrakları, harici bir referansın (örneğin bir DGN veya PDF alt katmanı) çizim içinde nasıl konumlandırıldığını, ölçeklendirildiğini ve döndürüldüğünü gösterir. Bu değerleri bilmek şunları yapmanızı sağlar:
-- Özel bir görüntüleyicide tam görsel düzeni yeniden oluşturmak.
+`Image.load()` ikili DWG içeriğini okur ve bellekte bir `CadImage` nesnesi oluşturur. Buradan katmanları, blokları ve alt katman varlıklarını DWG dosya formatıyla doğrudan uğraşmadan keşfedebilirsiniz.
+
+## Neden bir DWG'den alt katman bayraklarını çıkarmalısınız?
+
+Alt katman bayrakları, dış bir referansın (örneğin bir DGN veya PDF alt katmanı) çizim içinde nasıl konumlandırıldığını, ölçeklendirildiğini ve döndürüldüğünü gösterir. Bu değerleri bilmek şunları yapmanızı sağlar:
+- Özel bir **java dwg viewer** içinde tam görsel düzeni yeniden oluşturmak.
 - Alt katmanları daha fazla düzenleme için yerel CAD varlıklarına dönüştürmek.
 - Uyumluluk veya dokümantasyon için alt katman meta verilerini içeren raporlar oluşturmak.
+- **Batch process dwg** dosyalarını toplu işlemek ve alt katman meta verilerini daha sonra analiz için bir veritabanında saklamak.
 
 ## Önkoşullar
-- **Aspose.CAD Library** – [releases](https://releases.aspose.com/cad/java/) sayfasından indirin.
-- **Java Development Kit** – JDK 8 veya daha yeni bir sürüm.
-- **A folder** containing the DWG files you want to analyse. Replace `"Your Document Directory"` in the code with your actual path.
+- **Aspose.CAD Library** – [releases](https://releases.aspose.com/cad/java/) sayfasından indirin.  
+- **Java Development Kit** – JDK 8 veya daha yenisi.  
+- **Bir klasör** analiz etmek istediğiniz DWG dosyalarını içerir. Koddaki `"Your Document Directory"` ifadesini gerçek yolunuzla değiştirin.
 
-## Ad Alanlarını İçe Aktarın
+## İsim Uzaylarını İçe Aktar
 
 ```java
 import com.aspose.cad.Image;
@@ -58,7 +61,7 @@ import com.aspose.cad.fileformats.cad.cadobjects.UnderlayFlags;
 // The path to the resource directory.
 String dataDir = "Your Document Directory" + "DWGDrawings/";
 ```
-DWG dosyalarınızın bulunduğu yeri tanımlayın. Ayrı bir klasör kullanmak örneği temiz ve taşınabilir tutar.
+DWG dosyalarınızın nerede bulunduğunu tanımlayın. Ayrı bir klasör kullanmak örneği temiz ve taşınabilir tutar.
 
 ### Adım 2: DWG Dosyasını Yükle
 ```java
@@ -68,7 +71,7 @@ String fileName = dataDir + "BlockRefDgn.dwg";
 // Load an existing DWG file and convert it into CadImage 
 CadImage image = (CadImage)Image.load(fileName);
 ```
-Burada **dwg dosyasını yükleyerek** `BlockRefDgn.dwg` dosyasını bir `CadImage` örneğine alıyoruz, inceleme için hazır.
+Burada **dwg dosyasını yükliyoruz** `BlockRefDgn.dwg` dosyasını bir `CadImage` örneğine, inceleme için hazır.
 
 ### Adım 3: DWG Varlıklarını Döngüyle Gezin
 ```java
@@ -82,7 +85,7 @@ Döngü her varlığı—çizgileri, daireleri, blokları ve alt katmanları—g
 // Check if entity is of CadDgnUnderlay type
 if (entity instanceof CadDgnUnderlay)
 ```
-Sadece `CadDgnUnderlay` nesneleri aradığımız alt katman bayraklarını içerir, bu yüzden onları filtreliyoruz.
+Yalnızca `CadDgnUnderlay` nesneleri aradığımız alt katman bayraklarını içerir, bu yüzden onları filtreliyoruz.
 
 ### Adım 5: Alt Katman Bilgilerine Eriş
 ```java
@@ -95,18 +98,23 @@ break;
 ```
 Bir `CadUnderlay` elde ettiğimizde, yolunu, adını, ekleme noktasını, dönüşünü, ölçek faktörlerini ve görünürlük, kırpma ve diğer render seçeneklerini gösteren `UnderlayFlags` enumunu okuyabiliriz.
 
+## dwg dosyalarını toplu işte nasıl yüklersiniz
+
+Eğer **batch process dwg** dosyalarına ihtiyacınız varsa, yukarıdaki adımları `dataDir` içindeki tüm dosyalar üzerinde yineleyen basit bir `for` döngüsüyle sarın. Aynı `Image.load()` çağrısı her dosya için çalışır ve çıkarılan bayrakları CSV ya da bir veritabanında sonraki raporlamalar için saklayabilirsiniz.
+
 ## Yaygın Sorunlar ve İpuçları
-- **Null alt katman yolu** – DWG'nin gerçekten harici bir dosyaya referans verdiğinden emin olun; aksi takdirde yol boş olur.
-- **Desteklenmeyen alt katman türü** – Aspose.CAD şu anda DGN alt katmanlarını destekler; PDF alt katmanları henüz API üzerinden sunulmamaktadır.
-- **Lisans istisnaları** – Geçerli bir lisans olmadan kodu çalıştırmak, dışa aktarılan tüm görüntülere bir filigran ekleyecektir.
+- **Null underlay path** – DWG'nin gerçekten dış bir dosyaya referans verdiğinden emin olun; aksi takdirde yol boş olur.
+- **Unsupported underlay type** – Aspose.CAD şu anda DGN alt katmanlarını destekler; PDF alt katmanları henüz API üzerinden sunulmamaktadır.
+- **License exceptions** – Geçerli bir lisans olmadan kodu çalıştırmak, dışa aktarılan tüm görüntülere bir filigran ekleyecektir.
+- **Performance tip:** Birçok dosyayı toplu işte işlerken tek bir `Image` örneğini yeniden kullanarak GC baskısını azaltın.
 
 ## Sıkça Sorulan Sorular
 
 **S: Aspose.CAD for Java'yi diğer CAD dosya formatlarıyla kullanabilir miyim?**  
-C: Aspose.CAD öncelikle DWG formatına odaklanır ancak DXF, DWF ve diğer CAD formatlarını da destekler.
+C: Aspose.CAD öncelikle DWG formatına odaklanır, ancak DXF, DWF ve diğer CAD formatlarını da destekler.
 
 **S: Aspose.CAD for Java için bir deneme sürümü mevcut mu?**  
-C: Evet, özellikleri ücretsiz deneme sürümüyle [buradan](https://releases.aspose.com/) keşfedebilirsiniz.
+C: Evet, [buradan](https://releases.aspose.com/) ücretsiz deneme ile özellikleri keşfedebilirsiniz.
 
 **S: Aspose.CAD for Java ile ilgili destek alabilir veya yardım isteyebilir miyim?**  
 C: Topluluk desteği ve tartışmalar için [Aspose.CAD forumunu](https://forum.aspose.com/c/cad/19) ziyaret edin.
@@ -119,7 +127,7 @@ C: Ayrıntılı bilgi için [belgelere](https://reference.aspose.com/cad/java/) 
 
 ---
 
-**Son Güncelleme:** 2025-12-22  
+**Son Güncelleme:** 2026-02-23  
 **Test Edilen Versiyon:** Aspose.CAD 24.12 for Java  
 **Yazar:** Aspose  
 
