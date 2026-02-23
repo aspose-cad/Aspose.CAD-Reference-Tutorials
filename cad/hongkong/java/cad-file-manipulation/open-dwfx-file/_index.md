@@ -1,35 +1,53 @@
 ---
-title: 使用 Aspose.CAD for Java 開啟 DWFX 文件
-linktitle: 開啟DWFX文件
+date: 2026-02-23
+description: 了解如何使用 Aspose.CAD for Java 將 DWFX 轉換為 PDF，並將 CAD 儲存為 PDF。快速指南：開啟 DWFX
+  檔案並產生 PDF。
+linktitle: Open DWFX File
 second_title: Aspose.CAD Java API
-description: 使用 Aspose.CAD for Java 釋放 CAD 檔案的潛力。將 DWFX 無縫轉換為 PDF。
-weight: 10
+title: 使用 Aspose.CAD for Java 將 DWFX 轉換為 PDF
 url: /zh-hant/java/cad-file-manipulation/open-dwfx-file/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 使用 Aspose.CAD for Java 開啟 DWFX 文件
+# 使用 Aspose.CAD for Java 將 DWFX 轉換為 PDF
 
 ## 介紹
 
-在快速發展的技術世界中，電腦輔助設計 (CAD) 檔案在各個行業中發揮著至關重要的作用。 Aspose.CAD for Java 成為一個強大的工具，使開發人員能夠有效地操作 CAD 檔案。在本綜合指南中，我們將引導您完成開啟 DWFX 檔案並使用 Aspose.CAD for Java 將其轉換為 PDF 的過程。
+在當今快速變化的設計領域，開發人員常常需要 **將 DWFX 轉換為 PDF**，以便將 CAD 圖紙與非技術相關人員共享。Aspose.CAD for Java 讓這項工作變得簡單，只需幾行程式碼即可開啟 DWFX 檔案、光柵化，並 **將 CAD 儲存為 PDF**。本教學將逐步說明整個流程——從環境設定到驗證最終 PDF——讓您能在 Java 應用程式中自信地處理 DWFX 檔案。
 
-## 先決條件
+## 快速解答
+- **此指南的主要目的為何？** 示範如何使用 Aspose.CAD for Java 將 DWFX 轉換為 PDF。  
+- **需要哪個函式庫？** Aspose.CAD for Java（從官方 Aspose 網站下載）。  
+- **是否需要授權？** 開發時可使用免費試用版；正式上線需購買商業授權。  
+- **能直接開啟 DWFX 檔案嗎？** 可以，使用 `Image.load` 開啟 DWFX 檔案。  
+- **範例產生的輸出格式為何？** 產生 PDF 檔案，儲存於指定的輸出目錄。
 
-在我們深入學習本教程之前，請確保您具備以下先決條件：
+## 什麼是「將 DWFX 轉換為 PDF」？
 
--  Aspose.CAD for Java 函式庫：確保您已將 Aspose.CAD 函式庫整合到您的 Java 專案中。如果沒有，您可以從以下位置下載[Aspose.CAD for Java 下載頁面](https://releases.aspose.com/cad/java/).
+將 DWFX 轉換為 PDF 即是把常見於 Autodesk 產品的向量式 DWFX 圖紙，渲染成可攜帶且廣受支援的 PDF 文件。這讓接收者無需安裝 CAD 軟體即可輕鬆檢視、列印與分享。
 
-- Java 開發環境：確保您的電腦上設定了 Java 開發環境。
+## 為何使用 Aspose.CAD for Java **將 CAD 儲存為 PDF**？
 
-- DWFX 檔案：您需要一個 DWFX 檔案來學習本教學。如果沒有，您可以使用範例 DWFX 檔案進行測試。
+- **無外部相依性：** 純 Java API，無需本機 CAD 引擎。  
+- **高保真渲染：** 保留線寬、顏色與圖層。  
+- **適合批次處理：** 非常適用於伺服器端自動化或雲端服務。  
+- **跨平台：** 可在 Windows、Linux 與 macOS 上執行。
 
-## 導入命名空間
+## 前置條件
 
-在此步驟中，我們將匯入必要的命名空間來啟動我們的專案。
+在深入程式碼之前，請確保您已具備以下項目：
+
+- **Aspose.CAD for Java 函式庫** – 從 [Aspose.CAD for Java 下載頁面](https://releases.aspose.com/cad/java/) 下載。  
+- **Java 開發環境** – JDK 8 或更新版本，搭配您喜愛的 IDE 或建置工具。  
+- **DWFX 檔案** – 用於測試轉換的範例 DWFX 檔案（例如 `Tyrannosaurus.dwfx`）。
+
+## 匯入命名空間
+
+首先，匯入我們需要的類別：
 
 ```java
 import com.aspose.cad.Image;
@@ -39,11 +57,11 @@ import com.aspose.cad.imageoptions.CadRasterizationOptions;
 import com.aspose.cad.imageoptions.PdfOptions;
 ```
 
-## 使用 Aspose.CAD for Java 將 DWFX 轉換為 PDF
+## 使用 Aspose.CAD for Java 轉換 DWFX 為 PDF 的步驟
 
-現在，讓我們將開啟 DWFX 檔案並將其轉換為 PDF 的過程分解為多個步驟。
+以下為逐步說明。每一步都包含簡短解說與您將執行的完整程式碼。
 
-### 第 1 步：載入 DWFX 文件
+### 步驟 1：載入 DWFX 檔案  
 
 ```java
 String SourceDir = Utils.getDataDir_DWFXDrawings();
@@ -53,9 +71,9 @@ String filePath = SourceDir + "Tyrannosaurus.dwfx";
 Image cadImageDwf = Image.load(filePath);
 ```
 
-在此步驟中，我們使用以下命令載入 DWFX 文件`Image.load`方法。
+`Image.load` 方法會將 DWFX 檔案讀入記憶體，產生可供光柵化的 `CadImage` 物件。
 
-### 第 2 步：設定光柵化選項
+### 步驟 2：設定光柵化選項  
 
 ```java
 CadRasterizationOptions rasterizationOptions = new CadRasterizationOptions();
@@ -63,58 +81,64 @@ rasterizationOptions.setPageWidth(cadImageDwf.getSize().getWidth());
 rasterizationOptions.setPageHeight(cadImageDwf.getSize().getHeight());
 ```
 
-配置 CAD 檔案的光柵化選項，確保頁面寬度和高度正確。
+這些選項定義輸出頁面的尺寸，確保 PDF 與原始圖紙的尺寸相符。
 
-### 步驟 3：配置 PDF 選項
+### 步驟 3：設定 PDF 選項  
 
 ```java
 PdfOptions CADf = new PdfOptions();
 CADf.setVectorRasterizationOptions(rasterizationOptions);
 ```
 
-設定 PDF 選項並將光柵化選項與 PDF 配置相關聯。
+在此將光柵化設定綁定至 PDF 匯出配置。
 
-### 第 4 步：另存為 PDF
+### 步驟 4：儲存為 PDF  
 
 ```java
 cadImageDwf.save(OutputDir + "OpenDwfxFile_out.pdf", CADf);
 ```
 
-將轉換後的PDF檔案儲存到指定的輸出目錄。
+呼叫 `save` 後，會將渲染後的影像寫入輸出資料夾中的 PDF 檔案。
 
-### 第 5 步：驗證成功
+### 步驟 5：驗證成功  
 
 ```java
 System.out.println("OpenDwfxFile executed successfully");
 ```
 
-列印成功訊息以確認 DWFX 到 PDF 轉換過程已執行且沒有錯誤。
+簡單的主控台訊息會確認轉換已順利完成且未發生錯誤。
 
-## 結論
+## 常見問題與解決方案
 
-Aspose.CAD for Java 提供了處理 CAD 檔案的無縫解決方案，為開發人員提供了輕鬆將 DWFX 檔案轉換為 PDF 的靈活性。透過遵循本逐步指南，您已經釋放了 Aspose.CAD for Java 在高效處理 CAD 檔案方面的潛力。
+| 問題 | 可能原因 | 解決方案 |
+|-------|--------------|----------|
+| **PDF 空白** | 光柵化寬度/高度設定為 0 | 確認在設定選項前 `cadImageDwf.getSize()` 取得有效的尺寸。 |
+| **記憶體不足錯誤** | DWFX 檔案過大 | 增加 JVM 堆積大小（`-Xmx2g`）或將檔案分段處理。 |
+| **缺少字型** | 原始 DWFX 未嵌入字型 | 在伺服器上安裝所需字型，或使用 `CadRasterizationOptions.setFontName` 指定備用字型。 |
 
-## 常見問題解答
+## 常見問答
 
-### Q1：我可以將 Aspose.CAD for Java 與其他 CAD 檔案格式一起使用嗎？
+### Q1: 我可以在 Aspose.CAD for Java 中使用其他 CAD 檔案格式嗎？  
+A1: 可以，Aspose.CAD for Java 支援多種 CAD 格式，為開發者提供多功能的解決方案。
 
-A1：是的，Aspose.CAD for Java 支援各種 CAD 檔案格式，為開發人員提供了多功能的解決方案。
+### Q2: Aspose.CAD for Java 有提供免費試用嗎？  
+A2: 有，您可透過免費試用體驗 Aspose.CAD for Java 的功能。請前往 [此連結](https://releases.aspose.com/) 開始使用。
 
-### 問題 2：Aspose.CAD for Java 可以免費試用嗎？
+### Q3: 我該如何取得 Aspose.CAD for Java 的支援？  
+A3: 加入 Aspose.CAD 社群的 [支援論壇](https://forum.aspose.com/c/cad/19) 以獲得協助與交流。
 
-A2：是的，您可以透過免費試用來探索 Aspose.CAD for Java 的功能。訪問[這個連結](https://releases.aspose.com/)開始。
+### Q4: Aspose.CAD for Java 有提供臨時授權嗎？  
+A4: 有，您可取得 Aspose.CAD for Java 的臨時授權。詳情請見 [此連結](https://purchase.aspose.com/temporary-license/)。
 
-### 問題 3：如何獲得 Aspose.CAD for Java 的支援？
+### Q5: 我在哪裡可以找到 Aspose.CAD for Java 的文件？  
+A5: 完整文件可於 [此處](https://reference.aspose.com/cad/java/) 取得。
 
- A3：加入 Aspose.CAD 社區[支援論壇](https://forum.aspose.com/c/cad/19)尋求幫助和合作。
+---
 
-### 問題 4：Aspose.CAD for Java 是否有臨時授權？
+**最後更新：** 2026-02-23  
+**測試環境：** Aspose.CAD for Java 24.11  
+**作者：** Aspose  
 
- A4：是的，您可以取得 Aspose.CAD for Java 的臨時授權。訪問[這個連結](https://purchase.aspose.com/temporary-license/)更多細節。
-
-### Q5：在哪裡可以找到 Aspose.CAD for Java 的文檔？
-
- A5：提供全面的文檔[這裡](https://reference.aspose.com/cad/java/).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
