@@ -1,32 +1,43 @@
 ---
-title: استيراد الصور بسهولة إلى ملفات DWG باستخدام Aspose.CAD Java
-linktitle: استيراد صورة إلى ملف DWG باستخدام Java
-second_title: Aspose.CAD جافا API
-description: استكشف التكامل السلس للصور في ملفات DWG باستخدام Aspose.CAD لـ Java. اتبع دليلنا خطوة بخطوة للتطوير الفعال.
-weight: 10
+date: 2026-01-12
+description: تعلم كيفية إضافة صورة إلى ملفات DWG باستخدام Aspose.CAD للغة Java وأيضًا
+  تحويل DWG إلى PDF. اتبع دليلنا خطوة بخطوة لتطوير فعال.
+linktitle: Import Image to DWG File Using Java
+second_title: Aspose.CAD Java API
+title: إضافة صورة إلى ملفات DWG بسهولة باستخدام Aspose.CAD Java
 url: /ar/java/dwg-file-operations/import-image-to-dwg/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# استيراد الصور بسهولة إلى ملفات DWG باستخدام Aspose.CAD Java
+# إضافة صورة إلى ملفات DWG بسهولة باستخدام Aspose.CAD Java
 
-## مقدمة
+في تطبيقات Java الحديثة، **إضافة صورة إلى DWG** ملفات هي متطلب شائع—سواء كنت تبني عارض CAD، أو تقوم بأتمتة تحديثات الرسومات، أو توليد وثائق. توفر Aspose.CAD for Java طريقة مباشرة وعالية الأداء لتضمين الصور النقطية مباشرة في رسومات DWG دون الحاجة إلى محرك CAD كامل. في هذا الدرس سنرشدك خلال العملية بالكامل، من تحميل ملف DWG إلى تصدير النتيجة كملف PDF.
 
-في عالم تطوير Java الديناميكي، أصبح دمج الصور في ملفات DWG جانبًا حاسمًا في العديد من التطبيقات. يوفر Aspose.CAD for Java حلاً قويًا للمطورين الذين يبحثون عن طرق فعالة لاستيراد الصور إلى ملفات DWG. في هذا البرنامج التعليمي، سنرشدك خلال العملية خطوة بخطوة، مما يضمن التكامل السلس للصور باستخدام Aspose.CAD لـ Java.
+## إجابات سريعة
+- **ما المكتبة التي أحتاجها؟** Aspose.CAD for Java  
+- **هل يمكنني أيضًا التصدير إلى PDF؟** نعم – استخدم `PdfOptions` مع `CadRasterizationOptions`  
+- **هل أحتاج إلى ترخيص للتطوير؟** نسخة تجريبية مجانية تكفي للاختبار؛ يلزم ترخيص تجاري للإنتاج  
+- **ما نسخة Java المدعومة؟** Java 8 وما فوق  
+- **كم من الوقت تستغرق العملية؟** حوالي 10‑15 دقيقة لاستيراد صورة أساسي
 
-## المتطلبات الأساسية
+## ما هو “إضافة صورة إلى dwg”؟
+إضافة صورة إلى ملف DWG تعني إدراج صورة نقطية (PNG، JPEG، إلخ) ككائن `CadRasterImage` داخل مساحة النموذج (model space) للرسم. تصبح الصورة جزءًا من شجرة كائنات CAD ويمكن وضعها، وتكبيرها/تصغيرها، واقتصاصها مثل أي كائن CAD آخر.
 
-قبل الغوص في البرنامج التعليمي، تأكد من توفر المتطلبات الأساسية التالية:
-- Aspose.CAD لـ Java: تأكد من تثبيت مكتبة Aspose.CAD. يمكنك تنزيله[هنا](https://releases.aspose.com/cad/java/).
-- بيئة تطوير Java: قم بإعداد بيئة تطوير Java الخاصة بك بكل التكوينات الضرورية.
+## لماذا تستخدم Aspose.CAD for Java لإضافة صورة إلى dwg؟
+- **لا يلزم وجود برنامج CAD** – تقوم الـ API بمعالجة تحليل DWG داخليًا.  
+- **تحكم دقيق** في نقطة الإدراج، متجهات التكبير/التصغير، والاقتصاص.  
+- **تحويل PDF مدمج** بحيث يمكنك إنشاء PDF قابل للطباعة في نفس سير العمل.  
+- **متعدد المنصات** – يعمل على Windows وLinux وmacOS.
 
-## حزم الاستيراد
+## المتطلبات المسبقة
+- Aspose.CAD for Java: تأكد من تثبيت مكتبة Aspose.CAD. يمكنك تنزيلها [هنا](https://releases.aspose.com/cad/java/).  
+- بيئة تطوير Java: JDK 8+ مع IDE المفضلة لديك (IntelliJ، Eclipse، VS Code، إلخ).
 
-للبدء، قم باستيراد حزم Aspose.CAD المطلوبة إلى مشروع Java الخاص بك:
-
+## Import Packages
 ```java
 import com.aspose.cad.Image;
 import com.aspose.cad.fileformats.cad.CadDrawTypeMode;
@@ -36,31 +47,33 @@ import com.aspose.cad.imageoptions.CadRasterizationOptions;
 import com.aspose.cad.imageoptions.PdfOptions;
 ```
 
-## الخطوة 1: تحميل ملف DWG والصورة
+## دليل خطوة بخطوة
 
+### الخطوة 1: تحميل ملف DWG
+أولاً، حدد المجلد الذي يحتوي على رسم DWG الخاص بك وقم بتحميله باستخدام `Image.load`.
 ```java
 String dataDir = "Your Document Directory" + "DWGDrawings/";
 String srcFile = dataDir + "Drawing11.dwg";
 Image image = Image.load(srcFile);
 ```
 
-## الخطوة 2: تحديد CadRasterImage
-
+### الخطوة 2: تعريف تعريف الصورة النقطية
+أنشئ كائن `CadRasterImageDef` يشير إلى ملف PNG الخارجي الذي تريد تضمينه. يأخذ المُنشئ اسم ملف الصورة وأبعادها بالبكسل.
 ```java
 CadRasterImageDef cadRasterImageDef = new CadRasterImageDef("road-sign-custom.png", 640, 562);
 cadRasterImageDef.setObjectHandle("A3B4");
 ```
 
-## الخطوة 3: تعيين نقطة الإدراج والمتجهات
-
+### الخطوة 3: تعيين نقطة الإدراج ومتجهات التكبير/التصغير
+تحدد نقطة الإدراج مكان ظهور الزاوية السفلية اليسرى للصورة. متجهات **U** و **V** تتحكم في التكبير الأفقي والرأسي.
 ```java
 Cad3DPoint insertionPoint = new Cad3DPoint(26.77, 22.35);
 Cad3DPoint uVector = new Cad3DPoint(0.0061565450840500831, 0);
 Cad3DPoint vVector = new Cad3DPoint(0, 0.0061565450840500822);
 ```
 
-## الخطوة 4: إنشاء كائن CadRasterImage
-
+### الخطوة 4: إنشاء كائن CadRasterImage
+اجمع التعريف، نقطة الإدراج، والمتجهات في كائن `CadRasterImage`. يمكنك أيضًا تعيين حدود الاقتصاص إذا كنت تريد إظهار جزء فقط من الصورة.
 ```java
 CadRasterImage cadRasterImage = new CadRasterImage(cadRasterImageDef, insertionPoint, uVector, vVector);
 cadRasterImage.setImageDefReference("A3B4");
@@ -70,8 +83,8 @@ cadRasterImage.getClipBoundaryVertexList().add(new Cad2DPoint(-0.5, 0.5));
 cadRasterImage.getClipBoundaryVertexList().add(new Cad2DPoint(639.5, 561.5));
 ```
 
-## الخطوة 5: إضافة صورة إلى DWG
-
+### الخطوة 5: إضافة الصورة إلى مساحة النموذج
+أدرج الصورة النقطية في كتلة `*Model_Space`، ثم حدّث مجموعة كائنات الرسم بحيث يتم حفظ التعريف.
 ```java
 CadImage cadImage = ((CadImage)(image));
 cadImage.getBlockEntities().get_Item("*Model_Space").addEntity(cadRasterImage);
@@ -87,8 +100,8 @@ arr[ind] = cadRasterImageDef;
 cadImage.setObjects(arr);
 ```
 
-## الخطوة 6: ضبط خيارات PDF
-
+### الخطوة 6: تكوين خيارات تصدير PDF (اختياري)
+إذا كنت تحتاج أيضًا إلى نسخة PDF من الرسم، قم بتكوين `PdfOptions` مع `CadRasterizationOptions`. تُظهر هذه الخطوة كيفية **تحويل dwg إلى pdf** في نفس العملية.
 ```java
 PdfOptions pdfOptions = new PdfOptions();
 CadRasterizationOptions cadRasterizationOptions = new CadRasterizationOptions();
@@ -99,39 +112,42 @@ cadRasterizationOptions.setPageWidth(1600);
 cadRasterizationOptions.setLayouts(new String[] {"Model"});
 ```
 
-## الخطوة 7: حفظ ملف PDF
-
+### الخطوة 7: حفظ ملف PDF الناتج
+أخيرًا، صدّر الرسم المعدل كملف PDF. يتم استخدام نفس كائن `image`، لذا يعكس PDF الصورة النقطية المضافة حديثًا.
 ```java
 image.save((srcFile + "_generated.pdf"), pdfOptions);
 ```
 
-باتباع هذه الخطوات، يمكنك بسهولة استيراد الصور إلى ملفات DWG باستخدام Aspose.CAD لـ Java.
+باتباع هذه الخطوات، يمكنك **إضافة صورة إلى dwg** بسرعة وأيضًا **حفظ dwg كملف pdf** إذا لزم الأمر.
 
-## خاتمة
+## المشكلات الشائعة والحلول
+- **الصورة لا تظهر** – تحقق من أن مسار ملف الصورة (`road-sign-custom.png`) صحيح وأن أبعاد الصورة تتطابق مع القيم الممررة إلى `CadRasterImageDef`.  
+- **التكبير غير صحيح** – اضبط متجهات U و V؛ فهي تمثل وحدات الرسم لكل بكسل.  
+- **PDF يظهر فارغًا** – تأكد من أن `CadRasterizationOptions.setDrawType` مضبوط على `UseObjectColor` أو وضع مناسب آخر.
 
-في الختام، يعمل Aspose.CAD for Java على تمكين مطوري Java من تحسين تطبيقاتهم من خلال دمج الصور بسلاسة في ملفات DWG. ويضمن الدليل التفصيلي المقدم التنفيذ السلس والفعال لهذه الميزة.
+## الأسئلة المتكررة
 
-## الأسئلة الشائعة
+**س: هل Aspose.CAD for Java متوافق مع جميع بيئات تطوير Java؟**  
+ج: نعم، Aspose.CAD for Java متوافق مع معظم بيئات تطوير Java.
 
-### س1: هل Aspose.CAD for Java متوافق مع جميع بيئات تطوير Java؟
+**س: هل يمكنني استخدام Aspose.CAD for Java للمشاريع التجارية؟**  
+ج: نعم، يمكنك استخدام Aspose.CAD for Java للمشاريع التجارية. زر [هنا](https://purchase.aspose.com/buy) للحصول على تفاصيل الترخيص.
 
-ج1: نعم، Aspose.CAD for Java متوافق مع معظم بيئات تطوير Java.
+**س: هل هناك نسخة تجريبية مجانية متاحة لـ Aspose.CAD for Java؟**  
+ج: نعم، يمكنك الوصول إلى النسخة التجريبية المجانية [هنا](https://releases.aspose.com/).
 
-### س2: هل يمكنني استخدام Aspose.CAD لـ Java للمشاريع التجارية؟
+**س: كيف يمكنني الحصول على دعم لـ Aspose.CAD for Java؟**  
+ج: يمكنك طلب الدعم في [منتدى Aspose.CAD](https://forum.aspose.com/c/cad/19).
 
- ج٢: نعم، يمكنك استخدام Aspose.CAD لـ Java للمشروعات التجارية. يزور[هنا](https://purchase.aspose.com/buy) للحصول على تفاصيل الترخيص.
+**س: هل يمكنني الحصول على ترخيص مؤقت لـ Aspose.CAD for Java؟**  
+ج: نعم، يمكنك الحصول على ترخيص مؤقت [هنا](https://purchase.aspose.com/temporary-license/).
 
-### س3: هل تتوفر نسخة تجريبية مجانية من Aspose.CAD لـ Java؟
+---
 
- ج3: نعم، يمكنك الوصول إلى النسخة التجريبية المجانية[هنا](https://releases.aspose.com/).
+**آخر تحديث:** 2026-01-12  
+**تم الاختبار مع:** Aspose.CAD for Java 24.11  
+**المؤلف:** Aspose  
 
-### س4: كيف يمكنني الحصول على دعم Aspose.CAD لـ Java؟
-
- ج4: يمكنك طلب الدعم على[منتدى Aspose.CAD](https://forum.aspose.com/c/cad/19).
-
-### س5: هل يمكنني الحصول على ترخيص مؤقت لـ Aspose.CAD لـ Java؟
-
- ج5: نعم، يمكنك الحصول على ترخيص مؤقت[هنا](https://purchase.aspose.com/temporary-license/).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -1,35 +1,45 @@
 ---
-title: Ghi đè phát hiện trang mã tự động trong tệp DWG bằng Java
-linktitle: Ghi đè phát hiện trang mã tự động trong tệp DWG
-second_title: API Java Aspose.CAD
-description: Khám phá cách ghi đè tính năng phát hiện trang mã trong tệp DWG bằng Aspose.CAD cho Java. Xử lý hiệu quả mã hóa và khôi phục CIF/MIF không đúng định dạng.
-weight: 13
+date: 2026-01-12
+description: Tìm hiểu cách xuất CAD sang PDF trong khi ghi đè việc phát hiện trang
+  mã tự động trong các tệp DWG bằng Aspose.CAD cho Java. Xử lý mã hóa và CIF/MIF bị
+  hỏng.
+linktitle: Override Automatic Code Page Detection in DWG Files
+second_title: Aspose.CAD Java API
+title: Xuất CAD sang PDF – Ghi đè phát hiện trang mã tự động trong tệp DWG bằng Java
 url: /vi/java/dwg-file-operations/override-code-page-detection/
+weight: 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Ghi đè phát hiện trang mã tự động trong tệp DWG bằng Java
+# Xuất CAD sang PDF – Ghi đè Phát hiện Trang mã Tự động trong Tệp DWG bằng Java
 
 ## Giới thiệu
 
-Chào mừng bạn đến với hướng dẫn toàn diện này về cách ghi đè tính năng phát hiện trang mã tự động trong tệp DWG bằng Aspose.CAD cho Java. Aspose.CAD là một thư viện mạnh mẽ cho phép các nhà phát triển Java làm việc với các định dạng tệp CAD, cung cấp nhiều tính năng để thao tác, chuyển đổi và xuất tệp CAD.
+Trong hướng dẫn toàn diện này, bạn sẽ khám phá **cách xuất CAD sang PDF** đồng thời ghi đè phát hiện trang mã tự động có thể làm hỏng văn bản trong các tệp DWG. Aspose.CAD for Java cung cấp khả năng kiểm soát chi tiết đối với mã hoá, cho phép bạn khôi phục dữ liệu CIF/MIF bị lỗi và tạo ra đầu ra PDF đáng tin cậy. Dù bạn đang xây dựng một bộ chuyển đổi hàng loạt hay tích hợp xử lý CAD vào một ứng dụng Java lớn hơn, các bước dưới đây sẽ hướng dẫn bạn qua toàn bộ quy trình.
 
-Trong hướng dẫn này, chúng tôi sẽ tập trung vào một nhiệm vụ cụ thể: ghi đè tính năng phát hiện trang mã tự động trong tệp DWG. Bạn sẽ tìm hiểu cách xử lý mã hóa và khôi phục CIF/MIF không đúng định dạng theo từng bước.
+## Câu trả lời nhanh
+- **Ý nghĩa của “override code page” là gì?** Nó buộc Aspose.CAD sử dụng một bảng mã ký tự cụ thể thay vì đoán.
+- **Tôi có thể xuất DWG trực tiếp sang PDF không?** Có – sau khi đặt đúng trang mã, bạn có thể lưu hình ảnh CAD dưới dạng PDF.
+- **Bảng mã nào phù hợp cho văn bản tiếng Nhật?** `CodePages.Japanese` và `MifCodePages.Japanese` là lựa chọn đúng.
+- **Tôi có cần giấy phép cho việc sử dụng trong môi trường sản xuất không?** Cần một giấy phép thương mại; giấy phép tạm thời có sẵn cho mục đích thử nghiệm.
+- **Phiên bản Aspose.CAD nào được yêu cầu?** Bất kỳ phiên bản gần đây nào hỗ trợ `LoadOptions` và `PdfOptions`.
 
-## Điều kiện tiên quyết
+## “Xuất CAD sang PDF” là gì?
+Xuất CAD sang PDF chuyển đổi các bản vẽ CAD dựa trên vector thành định dạng tài liệu cố định, được hỗ trợ rộng rãi. PDF kết quả giữ nguyên các đường nét, lớp và văn bản đồng thời giúp bản vẽ dễ dàng chia sẻ, in ấn hoặc nhúng vào các ứng dụng khác.
 
-Trước khi chúng ta đi sâu vào hướng dẫn, hãy đảm bảo bạn có sẵn các điều kiện tiên quyết sau:
+## Tại sao cần ghi đè phát hiện trang mã tự động?
+Các tệp DWG thường lưu trữ văn bản bằng các trang mã kế thừa. Việc tự động phát hiện của Aspose.CAD có thể hiểu sai các byte này, dẫn đến ký tự bị rối. Bằng cách chỉ định thủ công trang mã, bạn đảm bảo văn bản hiển thị đúng như mong muốn trong PDF xuất ra, đặc biệt với các script không phải Latin như tiếng Nhật, Cyrillic hoặc Arabic.
 
-- Môi trường phát triển Java: Đảm bảo rằng bạn đã thiết lập môi trường phát triển Java đang hoạt động trên hệ thống của mình.
-- Thư viện Aspose.CAD: Tải xuống và cài đặt thư viện Aspose.CAD cho Java. Bạn có thể tìm thấy thư viện[đây](https://releases.aspose.com/cad/java/).
-- Tệp DWG: Chuẩn bị sẵn tệp DWG để thử nghiệm. Bạn có thể sử dụng tệp mẫu được cung cấp có tên "SimpleEntities.dwg."
+## Yêu cầu trước
+- **Môi trường phát triển Java** – JDK 8+ và IDE yêu thích của bạn.
+- **Aspose.CAD for Java** – Tải thư viện từ trang chính thức [đây](https://releases.aspose.com/cad/java/).
+- **Tệp DWG mẫu** – Sử dụng `SimpleEntities.dwg` được cung cấp hoặc bất kỳ tệp DWG nào bạn cần chuyển đổi.
 
-## Gói nhập khẩu
-
-Trong dự án Java của bạn, hãy nhập các gói cần thiết để sử dụng các chức năng của Aspose.CAD:
+## Nhập gói
+Trong dự án Java của bạn, nhập các lớp Aspose.CAD cần thiết:
 
 ```java
 import com.aspose.cad.CodePages;
@@ -39,15 +49,13 @@ import com.aspose.cad.MifCodePages;
 import com.aspose.cad.fileformats.cad.CadImage;
 ```
 
-Bây giờ, hãy chia quy trình thành nhiều bước:
+## Hướng dẫn từng bước
 
-## Bước 1: Thiết lập dự án
+### Bước 1: Thiết lập dự án Java
+Tạo một dự án Maven hoặc Gradle mới và thêm JAR Aspose.CAD vào classpath. Bước này đảm bảo IDE có thể giải quyết các lớp đã nhập.
 
-Tạo một dự án Java mới và thêm thư viện Aspose.CAD vào các phần phụ thuộc của dự án của bạn.
-
-## Bước 2: Tải tệp DWG
-
-Chỉ định đường dẫn đến tệp DWG của bạn và tải nó bằng Aspose.CAD:
+### Bước 2: Tải tệp DWG với Trang mã được chỉ định
+Cho Aspose.CAD biết mã hoá nào sẽ sử dụng và liệu có nên cố gắng khôi phục dữ liệu CIF/MIF bị lỗi hay không.
 
 ```java
 String SourceDir = "Your Document Directory";
@@ -59,54 +67,53 @@ opts.setRecoverMalformedCifMif(false);
 CadImage cadImage = (CadImage) Image.load(dwgPathToFile, opts);
 ```
 
-## Bước 3: Thao tác với hình ảnh CAD
-
-Thực hiện mọi thao tác cần thiết trên hình ảnh CAD đã tải. Điều này có thể liên quan đến việc xuất hoặc thực hiện sửa đổi.
+### Bước 3: Xuất hình ảnh CAD sang PDF
+Với trang mã đúng đã được áp dụng, bạn có thể xuất bản vẽ một cách an toàn. Đối tượng `PdfOptions` cho phép bạn tinh chỉnh đầu ra PDF (nén, rasterization, v.v.).
 
 ```java
-// Thực hiện xuất hoặc các thao tác khác với cadImage
-// Ví dụ: xuất sang PDF
+// Perform export or other operations with cadImage
+// For example, exporting to PDF
 PdfOptions pdfOptions = new PdfOptions();
 cadImage.save("output.pdf", pdfOptions);
 ```
 
-## Bước 4: Xác minh thành công
-
-In thông báo thành công tới bảng điều khiển để xác nhận rằng mã được thực thi thành công:
+### Bước 4: Xác minh thành công
+Một thông báo console đơn giản xác nhận quá trình đã hoàn thành mà không có ngoại lệ.
 
 ```java
 System.out.println("OverrideAutomaticCodePageDetectionDwg executed successfully");
 ```
 
-Lặp lại các bước này nếu cần cho trường hợp sử dụng cụ thể của bạn.
+Bạn có thể lặp lại các bước này cho nhiều tệp DWG, điều chỉnh đường dẫn nguồn và tên đầu ra tùy ý.
 
-## Phần kết luận
-
-Chúc mừng! Bạn đã học thành công cách ghi đè tính năng phát hiện trang mã tự động trong tệp DWG bằng Aspose.CAD cho Java. Thư viện mạnh mẽ này cung cấp các khả năng mở rộng để làm việc với các tệp CAD, khiến nó trở thành một công cụ có giá trị cho các nhà phát triển Java.
-
-Vui lòng khám phá các tính năng và chức năng bổ sung do Aspose.CAD cung cấp để nâng cao khả năng xử lý tệp CAD của bạn.
+## Các vấn đề thường gặp & Giải pháp
+- **Ký tự rác vẫn xuất hiện:** Kiểm tra lại `specifiedEncoding` có khớp với trang mã gốc của DWG không. Thử một enum `CodePages` khác nếu cần.
+- **`NullPointerException` tại `cadImage.save`:** Đảm bảo tệp DWG được tải đúng; kiểm tra đường dẫn và quyền truy cập tệp.
+- **Kích thước PDF quá lớn:** Bật nén trong `PdfOptions` (ví dụ, `pdfOptions.setCompress(true)`).
 
 ## Câu hỏi thường gặp
 
-### Câu hỏi 1: Aspose.CAD có tương thích với tất cả các phiên bản của tệp DWG không?
+**Q1: Aspose.CAD có tương thích với mọi phiên bản tệp DWG không?**  
+A1: Aspose.CAD hỗ trợ một loạt các phiên bản DWG, bao gồm AutoCAD 2018 và các bản phát hành trước đó.
 
-Trả lời 1: Aspose.CAD hỗ trợ nhiều phiên bản tệp DWG khác nhau, bao gồm AutoCAD 2018 trở về trước.
+**Q2: Tôi có thể sử dụng Aspose.CAD cho các dự án thương mại không?**  
+A2: Có, cần có giấy phép thương mại cho việc sử dụng trong môi trường sản xuất. Bạn có thể nhận giấy phép [đây](https://purchase.aspose.com/buy).
 
-### Câu 2: Tôi có thể sử dụng Aspose.CAD cho các dự án thương mại không?
+**Q3: Có bất kỳ hạn chế nào trong phiên bản dùng thử miễn phí không?**  
+A3: Bản dùng thử có giới hạn về kích thước và tính năng; tham khảo tài liệu chính thức để biết chi tiết.
 
- Câu trả lời 2: Có, bạn có thể sử dụng Aspose.CAD cho các dự án thương mại. Để biết chi tiết cấp phép, hãy truy cập[đây](https://purchase.aspose.com/buy).
+**Q4: Làm sao tôi có thể nhận hỗ trợ cho Aspose.CAD?**  
+A4: Truy cập cộng đồng [diễn đàn Aspose.CAD](https://forum.aspose.com/c/cad/19) để được trợ giúp và thảo luận.
 
-### Câu 3: Có bất kỳ hạn chế nào trong phiên bản dùng thử miễn phí không?
+**Q5: Có giấy phép tạm thời cho mục đích thử nghiệm không?**  
+A5: Có, bạn có thể yêu cầu giấy phép tạm thời [đây](https://purchase.aspose.com/temporary-license/).
 
-Câu trả lời 3: Phiên bản dùng thử miễn phí có một số hạn chế và bạn nên kiểm tra tài liệu để biết chi tiết.
+---
 
-### Câu hỏi 4: Làm cách nào tôi có thể nhận được hỗ trợ cho Aspose.CAD?
+**Cập nhật lần cuối:** 2026-01-12  
+**Đã kiểm tra với:** Aspose.CAD for Java 24.11 (phiên bản mới nhất tại thời điểm viết)  
+**Tác giả:** Aspose  
 
- A4: Tham quan[Diễn đàn Aspose.CAD](https://forum.aspose.com/c/cad/19) để được cộng đồng hỗ trợ và thảo luận.
-
-### Câu hỏi 5: Có giấy phép tạm thời dành cho mục đích thử nghiệm không?
-
- Câu trả lời 5: Có, bạn có thể xin giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/) để thử nghiệm.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
