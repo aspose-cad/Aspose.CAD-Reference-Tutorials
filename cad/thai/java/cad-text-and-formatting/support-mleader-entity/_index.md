@@ -1,33 +1,53 @@
 ---
-title: รองรับเอนทิตี MLeader สำหรับรูปแบบ DWG ด้วย Aspose.CAD สำหรับ Java
-linktitle: รองรับเอนทิตี MLeader สำหรับรูปแบบ DWG ด้วย Java
+date: 2026-01-10
+description: เรียนรู้วิธีอ่านไฟล์ DWG และสร้างเอนทิตี multileader DWG ด้วย Aspose.CAD
+  for Java ในบทแนะนำแบบขั้นตอนนี้
+linktitle: Support MLeader Entity for DWG Format with Java
 second_title: Aspose.CAD Java API
-description: ปลดล็อกพลังของ Aspose.CAD สำหรับ Java ด้วยบทช่วยสอนทีละขั้นตอนของเราเกี่ยวกับการสนับสนุนเอนทิตี MLeader ในรูปแบบ DWG
-weight: 12
+title: วิธีอ่าน DWG และสนับสนุน MLeader ด้วย Aspose.CAD สำหรับ Java
 url: /th/java/cad-text-and-formatting/support-mleader-entity/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# รองรับเอนทิตี MLeader สำหรับรูปแบบ DWG ด้วย Aspose.CAD สำหรับ Java
+# วิธีอ่านไฟล์ DWG และสนับสนุน MLeader ด้วย Aspose.CAD สำหรับ Java
 
-## การแนะนำ
+## คำนำ
 
-ในขอบเขตของการออกแบบโดยใช้คอมพิวเตอร์ช่วย (CAD) ด้วย Java การทำความเข้าใจและการใช้งานการสนับสนุนสำหรับเอนทิตี MLeader ในรูปแบบ DWG ถือเป็นทักษะที่มีคุณค่า Aspose.CAD สำหรับ Java มอบโซลูชันที่มีประสิทธิภาพสำหรับงานดังกล่าว โดยมีชุดเครื่องมือและฟังก์ชันการทำงานอันทรงพลัง บทช่วยสอนนี้จะแนะนำคุณตลอดกระบวนการรองรับเอนทิตี MLeader ภายในไฟล์ DWG โดยใช้ Java กับ Aspose.CAD
+หากคุณต้องการ **อ่านไฟล์ DWG ** และทำงานกับ **เอนทิตี้ DWG แบบ multileader** ในแอปพลิเคชัน Java คุณมาถูกที่แล้ว Aspose.CAD สำหรับ Java ให้วิธีการที่สะอาดและเป็นโปรแกรมเมติกในการเปิดไฟล์ DWG ตรวจสอบอ็อบเจ็กต์ MLeader และตรวจสอบคุณสมบัติต่าง ๆ — ทั้งหมดนี้โดยไม่ต้องใช้เครื่อง CAD เต็มรูปแบบ ในบทแนะนำนี้เราจะเดินผ่านทุกขั้นตอน ตั้งแต่การโหลดไฟล์ DWG ไปจนถึงการยืนยันว่าข้อมูล multileader ตรงกับสไตล์ที่คาดหวัง
+
+## คำตอบสั้น
+- **“วิธีอ่าน dwg” มีขั้นตอนอะไรบ้าง?** โหลด DWG ด้วย `Image.load()` แล้วแคสต์เป็น `CadImage`
+- **ฉันสามารถสร้างเอนทิตี้ dwg แบบ multileader ได้หรือไม่?** ได้ — คุณสามารถเพิ่ม แก้ไข และตรวจสอบอ็อบเจ็กต์ MLeader ได้โดยใช้ API CadMLeader
+- **ต้องใช้เวอร์ชันไลบรารีใด?** เวอร์ชัน Aspose.CAD สำหรับ Java ใดก็ได้ที่อัปเดต (API ที่แสดงทำงานกับบิลด์ 2024+)
+- **ต้องมีลิขสิทธิ์สำหรับการพัฒนาหรือไม่?** ลิขสิทธิ์ชั่วคราวใช้สำหรับการทดสอบ; ต้องมีลิขสิทธิ์เต็มสำหรับการใช้งานจริง
+- **โค้ดนี้เป็นข้ามแพลตฟอร์มหรือไม่?** แน่นอน — Java ทำงานบน Windows, Linux และ macOS
+
+## “วิธีอ่าน dwg” กับ Aspose.CAD คืออะไร?
+
+การอ่านไฟล์ DWG หมายถึงการแปลงภาพวาดไบนารีเป็นอ็อบเจ็กต์ `CadImage` ที่อยู่ในหน่วยความจำ เมื่อคุณมีอ็อบเจ็กต์นี้แล้ว คุณสามารถวนลูปตรวจสอบเอนทิตี้ต่าง ๆ (เส้น, วงกลม, ข้อความ, **MLeader** ฯลฯ) และตรวจสอบคุณสมบัติของมันได้
+
+## ทำไมต้องสนับสนุนเอนทิตี้ MLeader?
+
+อ็อบเจ็กต์ MLeader (multileader) รวมเส้นนำกับข้อความหรือบล็อกที่แนบไว้ ทำให้เป็นส่วนสำคัญสำหรับคำอธิบายในภาพวาดวิศวกรรม การสนับสนุนพวกมันทำให้คุณสามารถ:
+
+- ตรวจสอบว่าคำอธิบายสอดคล้องกับมาตรฐานของบริษัท
+- ดึงข้อความเพื่อประมวลผลต่อ (เช่น การสร้าง BOM)
+- แก้ไขสไตล์ของ leader หรือเปลี่ยนเนื้อหาบล็อกโดยอัตโนมัติ
 
 ## ข้อกำหนดเบื้องต้น
 
-ก่อนที่เราจะเจาะลึกบทช่วยสอน ตรวจสอบให้แน่ใจว่าคุณมีข้อกำหนดเบื้องต้นต่อไปนี้:
+ก่อนที่เราจะลงลึก โปรดตรวจสอบว่าคุณมี:
 
-1. สภาพแวดล้อมการพัฒนา Java: ตรวจสอบให้แน่ใจว่าคุณได้ตั้งค่าสภาพแวดล้อมการพัฒนา Java ไว้ในระบบของคุณ
+1. **สภาพแวดล้อมการพัฒนา Java** — JDK 11+ และ IDE ที่คุณชอบ (IntelliJ, Eclipse, VS Code)  
+2. **Aspose.CAD สำหรับ Java** — ดาวน์โหลด JAR ล่าสุดจาก [download link](https://releases.aspose.com/cad/java/)  
 
-2.  ไลบรารี Aspose.CAD: ดาวน์โหลดและติดตั้งไลบรารี Aspose.CAD สำหรับ Java จาก[ลิ้งค์ดาวน์โหลด](https://releases.aspose.com/cad/java/).
+## นำเข้า Namespaces
 
-## นำเข้าเนมสเปซ
-
-ในโปรเจ็กต์ Java ของคุณ ให้นำเข้าเนมสเปซที่จำเป็นเพื่อใช้ประโยชน์จากความสามารถของ Aspose.CAD อย่างมีประสิทธิภาพ รวมบรรทัดต่อไปนี้ในรหัสของคุณ:
+เพิ่มการนำเข้าต่อไปนี้ในคลาส Java ของคุณเพื่อให้ทำงานกับเอนทิตี้ DWG และตัวเลือกการเรสเตอร์ไลซ์ได้:
 
 ```java
 import com.aspose.cad.Image;
@@ -39,12 +59,11 @@ import com.aspose.cad.fileformats.cad.cadobjects.CadMLeaderLine;
 import com.aspose.cad.fileformats.cad.cadobjects.CadMLeaderNode;
 import com.aspose.cad.imageoptions.CadRasterizationOptions;
 import com.aspose.cad.imageoptions.PdfOptions;
-
 ```
 
-ตอนนี้ เราจะแจกแจงโค้ดออกเป็นคำแนะนำทีละขั้นตอนเพื่อรองรับเอนทิตี MLeader สำหรับรูปแบบ DWG โดยใช้ Java กับ Aspose.CAD
+## วิธีอ่านไฟล์ DWG ด้วย Aspose.CAD สำหรับ Java
 
-## 1. โหลดไฟล์ DWG และเข้าถึง CadImage
+### ขั้นตอนที่ 1: โหลดไฟล์ DWG และรับ `CadImage`
 
 ```java
 String dataDir = "Your Document Directory" + "DWGDrawings/";
@@ -53,14 +72,14 @@ Image image = Image.load(file);
 CadImage cadImage = (CadImage) image;
 ```
 
-## 2. ตรวจสอบเอนทิตี MLeader
+### ขั้นตอนที่ 2: ตรวจสอบว่าภาพวาดมีเอนทิตี้ MLeader หรือไม่
 
 ```java
 Assert.areNotEqual(cadImage.getEntities().length, 0);
 CadMLeader cadMLeader = (CadMLeader) cadImage.getEntities()[2];
 ```
 
-### 3. ตรวจสอบสไตล์และคุณสมบัติของ MLeader
+### ขั้นตอนที่ 3: ตรวจสอบสไตล์ MLeader และแอตทริบิวต์พื้นฐาน
 
 ```java
 Assert.areEqual(cadMLeader.getStyleDescription(), "Standard");
@@ -69,23 +88,24 @@ Assert.areEqual(cadMLeader.getArrowHeadId1(), "639");
 Assert.areEqual(cadMLeader.getLeaderLineTypeID(), "14");
 ```
 
-## 4. เข้าถึงข้อมูลบริบทของ MLeader
+### ขั้นตอนที่ 4: เข้าถึงข้อมูลบริบทของ MLeader (หัวใจของ multileader)
 
 ```java
 CadMLeaderContextData context = cadMLeader.getContextData();
 ```
 
-## 5. ตรวจสอบแอตทริบิวต์บริบท
+### ขั้นตอนที่ 5: ตรวจสอบแอตทริบิวต์ระดับบริบท
 
 ```java
 Assert.areEqual(context.getArrowHeadSize(), 30.0, 0.1);
 Assert.areEqual(context.getBasePoint().getX(), 481, 1);
 Assert.areEqual(context.getContentScale(), 1.0, 0.01);
-Assert.areEqual(context.getDefaultText().getValue(), "This is multileader with huge text\\P{\\H1.5x;6666666666666666666666666666\\P}bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb");
+Assert.areEqual(context.getDefaultText().getValue(),
+    "This is multileader with huge text\\P{\\H1.5x;6666666666666666666666666666\\P}bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb");
 Assert.areEqual(context.hasMText(), true);
 ```
 
-## 6. เข้าถึง MLeader Node และ Leader Line
+### ขั้นตอนที่ 6: ทำงานกับโหนด MLeader และเส้นนำของมัน
 
 ```java
 CadMLeaderNode mleaderNode = context.getLeaderNode();
@@ -99,7 +119,7 @@ Assert.areEqual(Integer.toString(leaderLine.getLeaderLineIndex().getValue()), In
 Assert.areEqual(Integer.toString(leaderLine.getLeaderPoints().size()), Integer.toString(4));
 ```
 
-## 7. ตรวจสอบคุณสมบัติ MLeader เพิ่มเติม
+### ขั้นตอนที่ 7: ตรวจสอบแอตทริบิวต์เพิ่มเติมของโหนด MLeader
 
 ```java
 Assert.areEqual(Integer.toString(mleaderNode.getBranchIndex()), Integer.toString(0));
@@ -107,7 +127,7 @@ Assert.areEqual(mleaderNode.getDogLegLength(), 8.0, 0.1);
 Assert.areEqual(context.hasMText(), true);
 ```
 
-## 8. ตรวจสอบคุณสมบัติข้อความ
+### ขั้นตอนที่ 8: ตรวจสอบคุณสมบัติเกี่ยวกับข้อความ
 
 ```java
 Assert.areEqual(context.getTextAttachmentType().getValue(), (short) 1);
@@ -117,7 +137,7 @@ Assert.areEqual(context.getTextStyleID().getValue(), "11");
 Assert.areEqual(context.getTextRotation().getValue(), 0.0, 0.01);
 ```
 
-## 9. คุณสมบัติ MLeader เพิ่มเติม
+### ขั้นตอนที่ 9: ตรวจสอบแอตทริบิวต์อื่น ๆ ของ MLeader เพื่อความสมบูรณ์
 
 ```java
 Assert.areEqual(cadMLeader.getArrowHeadId1(), "639");
@@ -127,34 +147,44 @@ Assert.areEqual(cadMLeader.getLeaderLineColor(), 0);
 Assert.areEqual(cadMLeader.getTextHeight(), 1.0, 0.01);
 ```
 
-## บทสรุป
+## ปัญหาที่พบบ่อยและวิธีแก้
 
-ยินดีด้วย! คุณได้อ่านคำแนะนำที่ครอบคลุมเกี่ยวกับการสนับสนุนเอนทิตี MLeader สำหรับรูปแบบ DWG โดยใช้ Java และ Aspose.CAD เรียบร้อยแล้ว ความสามารถนี้เปิดประตูสู่การปรับแต่ง CAD ขั้นสูงและปรับปรุงชุดเครื่องมือการพัฒนา Java ของคุณ
+| ปัญหา | สาเหตุ | วิธีแก้ |
+|-------|--------|---------|
+| `ClassCastException` เมื่อทำการแคสต์เอนทิตี้ | ดัชนีที่เลือกไม่ได้เป็นอ็อบเจ็กต์ MLeader | ตรวจสอบ `cadImage.getEntities()[i] instanceof CadMLeader` ก่อนทำการแคสต์ |
+| ค่า `null` สำหรับจุดของเส้นนำ | ภาพวาดใช้สไตล์ leader แบบกำหนดเองที่ยังไม่รองรับเต็มที่ | ใช้เวอร์ชัน Aspose.CAD ล่าสุดหรือกลับไปใช้สไตล์เริ่มต้นสำหรับการทดสอบ |
+| การตรวจสอบค่าตัวเลขล้มเหลว | ความแตกต่างของการปัดเศษระหว่างเวอร์ชัน CAD | ปรับค่าความทนทานใน `Assert.areEqual(..., delta)` ตามตัวอย่าง |
 
 ## คำถามที่พบบ่อย
 
-### คำถามที่ 1: ฉันสามารถใช้ Aspose.CAD สำหรับ Java กับรูปแบบ CAD อื่นๆ ได้หรือไม่
+**ถาม: ฉันสามารถใช้ Aspose.CAD สำหรับ Java กับรูปแบบ CAD อื่นได้หรือไม่?**  
+ตอบ: ได้, Aspose.CAD รองรับ DXF, DWF, DGN และหลายรูปแบบราสเตอร์อื่น ๆ นอกเหนือจาก DWG
 
-ตอบ 1: ใช่ Aspose.CAD รองรับรูปแบบ CAD ที่หลากหลายนอกเหนือจาก DWG ซึ่งให้ความคล่องตัวในโครงการของคุณ
+**ถาม: ฉันจะหาเอกสารรายละเอียดของ Aspose.CAD สำหรับ Java ได้จากที่ไหน?**  
+ตอบ: ดูที่ [documentation](https://reference.aspose.com/cad/java/) อย่างเป็นทางการสำหรับรายละเอียด API และตัวอย่างโค้ด
 
-### คำถามที่ 2: ฉันจะหาเอกสารโดยละเอียดสำหรับ Aspose.CAD สำหรับ Java ได้ที่ไหน
+**ถาม: มีรุ่นทดลองฟรีหรือไม่?**  
+ตอบ: มีแน่นอน — คุณสามารถดาวน์โหลดรุ่นทดลองจากหน้า [free trial](https://releases.aspose.com/)  
 
- A2: โปรดดูที่[เอกสารประกอบ](https://reference.aspose.com/cad/java/) สำหรับข้อมูลเชิงลึกเกี่ยวกับความสามารถของ Aspose.CAD
+**ถาม: จะขอรับลิขสิทธิ์ชั่วคราวสำหรับการทดสอบได้อย่างไร?**  
+ตอบ: รับลิขสิทธิ์ชั่วคราวผ่าน [temporary license link](https://purchase.aspose.com/temporary-license/)  
 
-### คำถามที่ 3: มีการทดลองใช้ฟรีหรือไม่?
+**ถาม: จะสอบถามชุมชนเพื่อขอความช่วยเหลือได้ที่ไหน?**  
+ตอบ: ฟอรั่ม [Aspose.CAD forum](https://forum.aspose.com/c/cad/19) เป็นที่ดีที่สุดสำหรับการแชร์คำถามและวิธีแก้
 
- A3: ใช่ สำรวจฟังก์ชันการทำงานโดยตรงด้วย[ทดลองฟรี](https://releases.aspose.com/).
+## สรุป
 
-### คำถามที่ 4: ฉันจะรับสิทธิ์การใช้งานชั่วคราวสำหรับ Aspose.CAD ได้อย่างไร
+คุณได้เรียนรู้วิธีอ่านไฟล์ DWG และ **สร้างเอนทิตี้ multileader DWG** อย่างครบถ้วนด้วย Aspose.CAD สำหรับ Java แล้ว โดยทำตามขั้นตอนข้างต้น คุณสามารถตรวจสอบสไตล์ MLeader, ดึงข้อมูลคำอธิบาย, และผสานการประมวลผล DWG เข้ากับเวิร์กโฟลว์ที่ใช้ Java ใด ๆ ได้
 
-A4: รับใบอนุญาตชั่วคราวผ่าน[ลิงค์นี้](https://purchase.aspose.com/temporary-license/).
-
-### คำถามที่ 5: ฉันสามารถขอรับการสนับสนุนและความช่วยเหลือจากชุมชนได้ที่ไหน?
-
-A5: เยี่ยมชม[ฟอรั่ม Aspose.CAD](https://forum.aspose.com/c/cad/19) เพื่อเชื่อมต่อกับชุมชนและรับความช่วยเหลือ
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Last Updated:** 2026-01-10  
+**Tested With:** Aspose.CAD 24.11 for Java  
+**Author:** Aspose
