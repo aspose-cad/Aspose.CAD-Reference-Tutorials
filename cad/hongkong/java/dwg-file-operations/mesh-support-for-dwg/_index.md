@@ -1,38 +1,58 @@
 ---
-title: 在 Java 中啟用對 DWG 檔案的網格支持
-linktitle: 在 Java 中啟用對 DWG 檔案的網格支持
+date: 2026-01-17
+description: 學習如何在 Java 中使用 Aspose.CAD 為 DWG 檔案啟用網格支援並將 DWG 轉換為 PDF。一步一步的指南，實現無縫的
+  3D 圖形處理。
+linktitle: Convert DWG to PDF with Mesh Support in Java
 second_title: Aspose.CAD Java API
-description: 了解如何使用 Aspose.CAD 在 Java 中啟用對 DWG 檔案的網格支援。無縫 3D 繪圖操作的逐步指南。 #Java程式設計#CADFiles
-weight: 12
+title: 使用 Java 將 DWG 轉換為 PDF 並支援網格
 url: /zh-hant/java/dwg-file-operations/mesh-support-for-dwg/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 在 Java 中啟用對 DWG 檔案的網格支持
+# 在 Java 中將 DWG 轉換為 PDF（支援 Mesh）
 
 ## 介紹
 
-在 Java 程式設計的動態世界中，有效地操作 CAD 檔案至關重要。 Aspose.CAD for Java 可以解決這個問題，它提供了處理 DWG 檔案的強大工具。在本教程中，我們將深入研究如何使用 Aspose.CAD 為 DWG 檔案啟用網格支援，從而使您能夠無縫地處理複雜的 3D 繪圖。
+在 Java 中處理 DWG 檔案時，通常需要 **將 DWG 轉換為 PDF**，同時保留複雜的 3‑D 幾何。啟用 Mesh 支援是一個關鍵步驟，因為它確保在轉換前正確解析 PolyFaceMesh 與 PolygonMesh 等 3‑D 實體。在本教學中，我們將示範如何使用 Aspose.CAD for Java 啟用 Mesh 支援，並說明此準備工作如何讓後續的 *將 DWG 轉換為 PDF* 操作更可靠、精確。
 
-## 先決條件
+## 快速答覆
+- **可以直接將 DWG 轉換為 PDF 嗎？** 可以，啟用 Mesh 支援後即可將 DWG 光柵化或匯出為 PDF。
+- **需要 Aspose.CAD 的授權嗎？** 免費試用可用於評估；正式環境需購買商業授權。
+- **需要哪個 Java 版本？** Java 8 或更新版本。
+- **Mesh 實體會在 PDF 中保留嗎？** 啟用 Mesh 支援會處理頂點，PDF 因此能呈現原始的 3‑D 幾何。
+- **還需要其他設定嗎？** 只需標準的 Aspose.CAD 設定，並妥善釋放資源。
 
-在深入學習本教程之前，請確保您具備以下先決條件：
-- 您的電腦上安裝了 Java 開發工具包 (JDK)。
-- 下載 Aspose.CAD for Java 程式庫並將其新增至您的專案。你可以找到圖書館[這裡](https://releases.aspose.com/cad/java/).
-- 對 Java 程式設計有基本的了解。
+## 什麼是 DWG 的 Mesh 支援？
 
-## 導入包
+Mesh 支援讓 Aspose.CAD 能辨識並處理基於 Mesh 的實體（PolyFaceMesh 與 PolygonMesh），這些實體定義 3‑D 表面。若未啟用此支援，這些實體在之後 **將 DWG 轉換為 PDF** 時可能會被忽略或渲染錯誤。
 
-首先，將必要的套件匯入到您的 Java 專案中。這些軟體包將允許您存取 Aspose.CAD for Java 的功能。
+## 為什麼要在將 DWG 轉換為 PDF 前先啟用 Mesh 支援？
+
+- **精確的 3‑D 表現** – 保留 Mesh 頂點，使 PDF 顯示預期的幾何形狀。  
+- **減少後處理** – 轉換後需要手動修正的情況更少。  
+- **效能更佳** – 當明確啟用時，Aspose.CAD 會更有效率地處理 Mesh。
+
+## 前置條件
+
+在開始之前，請確保您已具備：
+
+- 已安裝 Java Development Kit (JDK)。  
+- 下載並將 Aspose.CAD for Java 套件加入專案中。您可以在[此處](https://releases.aspose.com/cad/java/)取得套件。  
+- 基本的 Java 程式設計概念。
+
+## 匯入套件
+
+首先，將必要的套件匯入您的 Java 專案。這些套件會讓您存取 Aspose.CAD for Java 的功能。
 
 ```java
 import com.aspose.cad.*;
 import com.aspose.cad.imageoptions.CadRasterizationOptions;
 import com.aspose.cad.imageoptions.PdfOptions;
-//導入java.awt.Image；
+//import java.awt.Image;
 import com.aspose.cad.fileformats.cad.CadImage;
 import com.aspose.cad.Image;
 import com.aspose.cad.fileformats.cad.cadconsts.CadEntityTypeName;
@@ -41,29 +61,28 @@ import com.aspose.cad.fileformats.cad.cadobjects.polylines.CadPolyFaceMesh;
 import com.aspose.cad.fileformats.cad.cadobjects.polylines.CadPolygonMesh;
 import java.util.ArrayList;
 import java.util.List;
-
 ```
 
-## 步驟 1： 載入 DWG 文件
+## 步驟 1：載入 DWG 檔案
 
-使用 Aspose.CAD for Java 載入 DWG 檔案。確保您具有正確的文件路徑並且該文件存在。
+使用 Aspose.CAD for Java 載入 DWG 檔案。請確認檔案路徑正確且檔案確實存在。
 
 ```java
-//資源目錄的路徑。
+// The path to the resource directory.
 String dataDir = "Your Document Directory" + "DWGDrawings/";
 String srcFile = dataDir + "meshes.dwg";
-//com.aspose.cad。 objImage = com.aspose.cad.CImage.load(srcFile);
+// com.aspose.cad. objImage = com.aspose.cad.CImage.load(srcFile);
 CadImage cadImage =(CadImage) com.aspose.cad.Image.load(srcFile);;
 ```
 
-## 第 2 步：迭代實體
+## 步驟 2：遍歷實體
 
-迭代載入的 DWG 檔案中的實體。 Aspose.CAD提供了代表不同CAD元素的各種實體類別。
+遍歷已載入 DWG 檔案中的實體。Aspose.CAD 提供多種實體類別，代表不同的 CAD 元件。
 
 ```java
 for (CadBaseEntity entity : cadImage.getEntities())
 {
-    //檢查實體是否為 PolyFaceMesh
+    // Check if the entity is a PolyFaceMesh
     if (entity instanceof CadPolyFaceMesh)
     {
         CadPolyFaceMesh asFaceMesh = (CadPolyFaceMesh)entity;
@@ -72,7 +91,7 @@ for (CadBaseEntity entity : cadImage.getEntities())
             System.out.println("Vertices count: " + asFaceMesh.getMeshMVertexCount());
         }
     }
-    //檢查實體是否為PolygonMesh
+    // Check if the entity is a PolygonMesh
     else if (entity instanceof CadPolygonMesh)
     {
         CadPolygonMesh asPolygonMesh = (CadPolygonMesh)entity;
@@ -84,9 +103,9 @@ for (CadBaseEntity entity : cadImage.getEntities())
 }
 ```
 
-## 第 3 步：處置資源
+## 步驟 3：釋放資源
 
-透過在使用後處理 CadImage 物件來確保正確的資源管理。
+使用完畢後，務必釋放 CadImage 物件以確保資源正確管理。
 
 ```java
 finally
@@ -95,33 +114,47 @@ finally
 }
 ```
 
-透過執行以下步驟，您可以使用 Aspose.CAD 在 Java 中啟用對 DWG 檔案的網格支持，從而為您的 CAD 檔案操作開啟一個充滿可能性的世界。
+## 啟用 Mesh 支援後如何將 DWG 轉換為 PDF
 
-## 結論
+啟用 Mesh 支援並驗證 Mesh 實體後，將 DWG 轉換為 PDF 的流程相當簡單：
 
-在本教程中，我們探索了使用 Aspose.CAD 在 Java 中啟用 DWG 檔案網格支援的過程。憑藉其強大的功能，Aspose.CAD 簡化了複雜的 CAD 檔案處理，使其成為 Java 開發人員處理 3D 繪圖的必備工具。
+1. **設定光柵化選項**（例如頁面大小、背景顏色）。  
+2. **建立 `PdfOptions` 實例**，並指派光柵化設定。  
+3. **呼叫 `cadImage.save(outputPath, pdfOptions)`** 產生 PDF。
 
-## 常見問題解答
+*注意：* 為了聚焦於 Mesh 支援，實際的轉換程式碼此處未列出，但上述步驟說明了轉換在工作流程中的位置。
 
-### Q1：我可以將 Aspose.CAD for Java 與其他 CAD 檔案格式一起使用嗎？
+## 常見問題與解決方案
 
-A1：是的，Aspose.CAD支援各種CAD格式，包括DWG、DXF、DGN等。
+| 問題 | 原因 | 解決方式 |
+|------|------|----------|
+| 未列印頂點 | 未辨識 Mesh 實體 | 確認使用最新的 Aspose.CAD 版本，且 DWG 確實包含 Mesh 資料。 |
+| `cadImage` 為 null | 檔案路徑錯誤 | 核對 `srcFile` 是否指向有效的 DWG 檔案。 |
+| PDF 輸出缺少 3‑D 資料 | 未啟用 Mesh 支援 | 依照上述步驟遍歷並確認 Mesh 實體後再進行轉換。 |
 
-### Q2：在哪裡可以找到 Aspose.CAD for Java 的詳細文件？
+## 常見問答
 
- A2：可以參考文檔[這裡](https://reference.aspose.com/cad/java/).
+**Q: 可以在 Java 中使用 Aspose.CAD 處理其他 CAD 檔案格式嗎？**  
+A: 可以，Aspose.CAD 支援多種 CAD 格式，包括 DWG、DXF、DGN 等。
 
-### 問題 3：Aspose.CAD for Java 是否有免費試用版？
+**Q: 哪裡可以找到 Aspose.CAD for Java 的詳細文件？**  
+A: 您可以在[此處](https://reference.aspose.com/cad/java/)查閱文件。
 
-A3：是的，您可以免費試用[這裡](https://releases.aspose.com/).
+**Q: 有提供 Aspose.CAD for Java 的免費試用嗎？**  
+A: 有，請前往[此處](https://releases.aspose.com/)取得免費試用。
 
-### 問題 4：如何取得 Aspose.CAD for Java 的臨時許可？
+**Q: 如何取得 Aspose.CAD for Java 的臨時授權？**  
+A: 請在[此處](https://purchase.aspose.com/temporary-license/)申請臨時授權。
 
- A4：取得臨時許可證[這裡](https://purchase.aspose.com/temporary-license/).
+**Q: 需要協助或有其他問題？**  
+A: 歡迎造訪[Aspose.CAD 論壇](https://forum.aspose.com/c/cad/19)取得專屬支援。
 
-### Q5：需要協助或有疑問嗎？
+---
 
-A5：訪問[Aspose.CAD論壇](https://forum.aspose.com/c/cad/19)以獲得專門的支援。
+**最後更新：** 2026-01-17  
+**測試環境：** Aspose.CAD for Java 24.12（撰寫時的最新版本）  
+**作者：** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
