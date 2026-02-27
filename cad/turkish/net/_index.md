@@ -1,74 +1,140 @@
 ---
-title: Aspose.CAD for .NET ile ilgili Kapsamlı Eğitimler ve Örnekler
-linktitle: .NET için Aspose.CAD Eğitimleri
-weight: 10
+date: 2026-02-07
+description: Aspose.CAD for .NET kullanarak DWG dosyalarından metin çıkarmayı öğrenin,
+  ayrıca C# ile DWG'yi PDF'ye dönüştürme ipuçları ve diğer güçlü CAD işlemlerini keşfedin.
+linktitle: Aspose.CAD for .NET Tutorials
+title: DWG'den Metin Çıkarma – Aspose.CAD for .NET Eğitimleri
 url: /tr/net/
-description: Kapsamlı eğitimlerle Aspose.CAD for .NET'te ustalaşın. CAD becerilerinizi lisanslamadan gelişmiş dışa aktarma tekniklerine kadar yükseltin. Gizli özelliklerin kilidini zahmetsizce açın.
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.CAD for .NET ile ilgili Kapsamlı Eğitimler ve Örnekler
+# DWG'den Metin Çıkarma – Aspose.CAD for .NET'in Kapsamlı Eğitimleri ve Örnekleri
 
+## Giriş
 
-## giriiş
+DWG dosyalarından **metin çıkarmak** istiyorsanız ve bunu hızlı ve güvenilir bir şekilde yapmak istiyorsanız, doğru yerdesiniz. Bu kılavuz, lisanslamanın temellerinden gelişmiş dışa aktarma senaryolarına kadar Aspose.CAD for .NET eğitimlerinin tamamını size adım adım gösterir. `FileStream` ile lisans uygulamaya çalışan yeni bir kullanıcı olun ya da C# ile DWG'yi PDF'ye dönüştürmek isteyen deneyimli bir geliştirici olun, adım adım örnekler hızlı sonuç almanıza yardımcı olur. Ayrıca **convert ifc to png**, **convert dwg to pdf c#**, ve **export plt to image** gibi ilgili görevlerden de bahsedeceğiz, böylece kütüphanenin daha geniş yeteneklerini görebileceksiniz.
 
-Hem acemileri hem de deneyimli geliştiricileri desteklemek için tasarlanmış, titizlikle hazırlanmış eğitimlerimiz ve örneklerimizle Aspose.CAD for .NET'i kapsamlı bir şekilde keşfetmeye başlayın. Bu kullanıcı dostu kılavuzlar, lisanslama ve yapılandırmanın temel yönlerinden başlayarak çok çeşitli konuları kapsar. İster Aspose.CAD'de yeni olun ister becerilerinizi geliştirmek istiyor olun, adım adım talimatlarımız FileStream veya yol yöntemlerini kullanarak lisans başvurusunda kusursuz bir yaklaşım sunarak CAD dosya işleme çabalarınız için sağlam bir temel sağlar.
+## Hızlı Yanıtlar
+- **Aspose.CAD DWG dosyalarıyla ne yapabilir?** PDF, PNG ve SVG gibi formatlara okuyabilir, düzenleyebilir, metin çıkarabilir ve dönüştürebilir.  
+- **DWG dosyasından nasıl metin çıkarırım?** `CadImage` sınıfını kullanarak `Text` nesnelerine erişin ve `Value` özelliğini okuyun.  
+- **Üretim için lisansa ihtiyacım var mı?** Evet—değerlendirme filigranlarını kaldırmak için lisansınızı `License.SetLicense` ile uygulayın.  
+- **C# içinde DWG'yi PDF'ye dönüştürebilir miyim?** Kesinlikle; metin çıkaran aynı API, PDF'ye `Save` işlemini de destekler.  
+- **Kütüphane .NET 6+ ile uyumlu mu?** Evet, Aspose.CAD for .NET, .NET Framework 4.5+, .NET Core 3.1+ ve .NET 5/6/7'yi destekler.
 
-CAD dosya manipülasyonu dünyasının derinliklerine indikçe eğitimlerimiz bir dizi içgörü ve pratik bilgi sunar. DWG dosyalarının C# ile verimli bir şekilde işlenmesinden, CAD düzenlerinin dönüştürülmesi ve DGN dosyalarının PDF ve taramalı görüntülere aktarılması da dahil olmak üzere CAD dışa aktarma formatlarındaki ustalığa kadar her eğitim, yeteneklerinizi geliştirmek için özel olarak tasarlanmıştır. Aspose.CAD for .NET'in tüm potansiyelini açığa çıkaran, DGN V7 için 3D desteği, ağ işleme ve kalem özelleştirme gibi gelişmiş teknikleri keşfedin. CAD çizimlerini yeniden boyutlandırıyor, dönüştürüyor veya optimize ediyor olun, eğitimlerimiz bilgisayar destekli tasarım alanında projelerinizi ve becerilerinizi zahmetsizce geliştirmeniz için rehberli bir yolculuk sağlar.
+## “DWG'den metin çıkarma” nedir?
+DWG'den metin çıkarmak, bir DWG çiziminde gömülü metinsel açıklamaları, ölçüleri ve öznitelik verilerini programlı olarak okumak anlamına gelir. Bu, indeksleme, arama veya eski CAD verilerini veritabanları ve raporlama araçlarına taşıma için yararlıdır.
 
-## .NET için Aspose.CAD Eğitimleri
+## DWG'den metin çıkarmak için Aspose.CAD for .NET neden kullanılmalı?
+- **Harici bağımlılık yok** – saf .NET, AutoCAD kurulumu gerekmez.  
+- **Yüksek doğruluk** – düzeni, katmanları ve metin biçimlendirmesini korur.  
+- **Geniş format desteği** – DWG, DWF, DGN, IFC, PLT, STL ve daha fazlasını işleyebilir.  
+- **Performansa odaklı** – büyük dosyalar için akış tabanlı işleme.
+
+## Yaygın Kullanım Senaryoları
+- **Aranabilir CAD meta verilerine ihtiyaç duyan belge yönetim sistemleri**.  
+- **Otomatik raporlama**; ölçümler ve notlar Excel veya PDF'ye dışa aktarılır.  
+- **Göç projeleri**; eski DWG çizimlerini BIM iş akışları için **IFC to PNG** gibi modern formatlara dönüştürür.  
+- **Toplu dönüşüm hatları**; DWG dosyalarını **convert dwg to pdf c#** betikleriyle PDF'ye dönüştürür.  
+- **Görselleştirme araçları**; PLT dosyalarını hızlı ön izlemeler için görüntülere (**export plt to image**) render eder.
+
+## Aspose.CAD for .NET Eğitimleri
 ### [Lisanslama ve Yapılandırma](./licensing-and-configuration/)
-Aspose.CAD for .NET ile CAD dosya işleme oyununuzu bir üst seviyeye taşıyın! FileStream'i kullanarak veya adım adım eğitimlerimiz aracılığıyla lisansları sorunsuz bir şekilde uygulayın. 
+Aspose.CAD for .NET ile CAD dosyası manipülasyonunuzu bir üst seviyeye taşıyın! Lisansları FileStream ya da yol kullanarak sorunsuz bir şekilde uygulayın, adım adım eğitimlerimizle.
+
 ### [CAD Çizim Manipülasyonu](./cad-drawing-manipulation/)
-Aspose.CAD for .NET eğitimleriyle CAD projelerinizi zahmetsizce geliştirin. Adım adım kılavuzlarımızla CAD çizimlerini sorunsuz bir şekilde yeniden boyutlandırın, dönüştürün ve optimize edin.
-### [CAD Dışa Aktarma Formatları](./cad-export-formats/)
-Aspose.CAD for .NET ile CAD dışa aktarma formatlarında zahmetsizce ustalaşın. Öğreticilerle CAD düzenlerini dönüştürmeyi, DGN dosyalarını PDF'ye aktarmayı ve taramalı görüntüleri öğrenmeyi öğrenin.
+Aspose.CAD for .NET eğitimleriyle CAD projelerinizi zahmetsizce geliştirin. CAD çizimlerini yeniden boyutlandırın, dönüştürün ve optimize edin, adım adım rehberlerimizle sorunsuz bir şekilde.
+
+### [CAD Dışa Aktarım Formatları](./cad-export-formats/)
+Aspose.CAD for .NET ile CAD dışa aktarım formatlarını zahmetsizce öğrenin. CAD düzenlerini dönüştürmeyi, DGN dosyalarını PDF ve raster görüntülere dışa aktarmayı eğitimlerle öğrenin.
+
 ### [CAD Özellikleri ve Desteği](./cad-features-and-support/)
-Aspose.CAD for .NET eğitimleriyle CAD özelliklerinin tüm potansiyelini ortaya çıkarın. DGN V7 için 3D desteğini, ağ işlemeyi, kalem özelleştirmeyi ve daha fazlasını zahmetsizce öğrenin.
-### [DWG Dosya İşleme](./dwg-file-manipulation/)
-DWG Derslerimiz ile Aspose.CAD'in .NET'teki gücünün kilidini açın. Verimli CAD kullanımı ve DWF düzen boyutlarının sorunsuz bir şekilde çıkarılması için Master C#.
-### [Dönüştürme ve Dışa Aktarma](./conversion-and-export/)
-Aspose.CAD ile CAD dosya manipülasyonu dünyasının kilidini açın! Canlı renkler oluşturmayı ve DWG dosyalarını dönüştürmeyi öğrenin. Kesin sonuçlar için DWT ve DWG formatlarına dalın.
-### [Gelişmiş İhracat Teknikleri](./advanced-export-techniques/)
-Gelişmiş dışa aktarma teknikleri eğitimlerimizle C#'ta Aspose.CAD'in gücünü ortaya çıkarın. DWG'yi zahmetsizce DXF, PDF, raster görüntüler, OLE nesneleri ve daha fazlasına aktarın.
-### [Görüntü İşleme ve Oluşturma](./image-manipulation-and-rendering/)
-Aspose.CAD for .NET ile CAD dosyası potansiyelini ortaya çıkarın. Blok öznitelik çıkarma, görüntü içe aktarma, DWG'den PDF'ye dönüştürme, ağ desteği ve daha fazlasını zahmetsizce öğrenin.
-### [Metin Arama ve Manipülasyon](./text-search-and-manipulation/)
-Aspose.CAD for .NET'in gücünü, C# kullanarak DWG dosyalarında metin arama konusundaki eğitimlerimizle ortaya çıkarın. CAD becerilerinizi geliştirin ve uygulamalarınızı geliştirin.
+Aspose.CAD for .NET eğitimleriyle CAD özelliklerinin tam potansiyelini ortaya çıkarın. DGN V7 için 3D desteği, ağ (mesh) işleme, kalem özelleştirme ve daha fazlasını zahmetsizce öğrenin.
+
+### [DWG Dosya Manipülasyonu](./dwg-file-manipulation/)
+DWG Eğitimlerimizle .NET'te Aspose.CAD'ın gücünü ortaya çıkarın. Verimli CAD işleme ve DWF düzen boyutlarını sorunsuz bir şekilde çıkarmak için C#'ı ustalaştırın.
+
+### [Dönüşüm ve Dışa Aktarım](./conversion-and-export/)
+Aspose.CAD ile CAD dosyası manipülasyonunun dünyasını keşfedin! Canlı renkleri render etmeyi ve DWG dosyalarını dönüştürmeyi öğrenin. Kesin sonuçlar için DWT ve DWG formatlarına dalın.
+
+### [Gelişmiş Dışa Aktarım Teknikleri](./advanced-export-techniques/)
+Gelişmiş dışa aktarım teknikleri eğitimlerimizle C# içinde Aspose.CAD'ın gücünü ortaya çıkarın. DWG'yi DXF, PDF, raster görüntüler, OLE nesneleri ve daha fazlasına zahmetsizce dışa aktarın.
+
+### [Görüntü Manipülasyonu ve Renderlama](./image-manipulation-and-rendering/)
+Aspose.CAD for .NET ile CAD dosyalarının potansiyelini ortaya çıkarın. Blok öznitelik çıkarımı, görüntü içe aktarma, DWG'den PDF'ye dönüşüm, ağ desteği ve daha fazlasını zahmetsizce öğrenin.
+
+### [Metin Arama ve Manipülasyonu](./text-search-and-manipulation/)
+C# kullanarak DWG dosyalarında metin arama üzerine eğitimlerimizle Aspose.CAD for .NET'in gücünü ortaya çıkarın. CAD becerilerinizi yükseltin ve uygulamalarınızı geliştirin.
+
 ### [Gizli Çizgiler ve Varlıklar](./hidden-lines-and-entities/)
-Aspose.CAD for .NET ile DWG dosyalarındaki gizli satırların kilidini zahmetsizce açın. Adım adım kılavuzumuzla CAD projelerinizi geliştirin.
-### [Özellik ve Mülk Yönetimi](./attribute-and-property-management/)
-Aspose.CAD for .NET ile CAD çizimlerinizi geliştirin! Öğreticilerle öznitelikleri ve özel özellikleri sorunsuz bir şekilde eklemeyi öğrenin. Tasarımlarınızı zahmetsizce geliştirin.
-### [İzleme ve İşleme](./tracking-and-rendering/)
-Eğitimlerimizle Aspose.CAD for .NET'in gücünü ortaya çıkarın. CAD dosyalarında izlemeyi etkinleştirmeyi ve DXF dosyalarını sorunsuz bir şekilde PDF olarak oluşturmayı öğrenin.
-### [İhracat Teknikleri](./export-techniques/)
-Sorunsuz CAD geliştirme için Aspose.CAD eğitimlerini keşfedin. DXF dosyalarını zahmetsizce çeşitli formatlara aktarmak için etkili teknikleri öğrenin.
+Aspose.CAD for .NET ile DWG dosyalarındaki gizli çizgileri zahmetsizce ortaya çıkarın. Adım adım rehberimizle CAD projelerinizi yükseltin.
+
+### [Öznitelik ve Özellik Yönetimi](./attribute-and-property-management/)
+Aspose.CAD for .NET ile CAD çizimlerini yükseltin! Eğitimler aracılığıyla öznitelik ve özel özellikler eklemeyi sorunsuz bir şekilde öğrenin. Tasarımlarınızı zahmetsizce geliştirin.
+
+### [İzleme ve Renderlama](./tracking-and-rendering/)
+Eğitimlerimizle Aspose.CAD for .NET'in gücünü ortaya çıkarın. CAD dosyalarında izlemeyi etkinleştirmeyi ve DXF dosyalarını PDF olarak sorunsuz bir şekilde renderlamayı öğrenin.
+
+### [Dışa Aktarım Teknikleri](./export-techniques/)
+Sorunsuz CAD geliştirme için Aspose.CAD eğitimlerini keşfedin. DXF dosyalarını çeşitli formatlara zahmetsizce dışa aktarmak için verimli teknikleri öğrenin.
+
 ### [Düzen ve Nesne İşleme](./layout-and-object-handling/)
-Aspose.CAD for .NET kullanarak gelişmiş CAD tasarımı için DXF düzenini dışa aktarma, dosya kaydetme, blok kırpma ve ACAD Proxy Varlıklarında zahmetsizce ustalaşın.
+Aspose.CAD for .NET kullanarak DXF düzen dışa aktarımı, dosya kaydetme, blok kırpma ve ACAD Proxy Entities'i zahmetsizce ustalaştırın, CAD tasarımını geliştirin.
+
 ### [CAD Düzenleri ve Ayrıştırma](./cad-layouts-and-decomposition/)
-Aspose.CAD for .NET ile CAD düzenlerinin potansiyelini ortaya çıkarın! Kılavuzumuzu kullanarak tasarımları kolayca PDF'ye dönüştürün. Eklenen nesnelerin zahmetsizce ayrıştırılmasında ustalaşın.
-### [3D Görüntü Dışa Aktarma](./3d-image-export/)
-Aspose.CAD for .NET'i kullanarak 3D CAD görüntülerini zahmetsizce PDF'ye aktarın. Kusursuz PDF dönüşümü için eğitimlerimizi takip edin. Verimli 3D görüntü dışa aktarma tekniklerini öğrenin.
-### [Dosya Formatı Dönüştürme](./file-format-conversion/)
-Aspose.CAD for .NET ile CAD dosya işleme yeteneklerinizi zahmetsizce geliştirin. DWF'yi PDF'ye ve 3D görüntüleri BMP formatına dışa aktarmaya ilişkin eğitimleri keşfedin.
+Aspose.CAD for .NET ile CAD düzenlerinin potansiyelini ortaya çıkarın! Tasarımları PDF'ye kolayca dönüştürün, ekleme nesnelerinin ayrıştırmasını zahmetsizce ustalaştırın.
+
+### [3D Görüntü Dışa Aktarımı](./3d-image-export/)
+Aspose.CAD for .NET kullanarak 3D CAD görüntülerini PDF'ye zahmetsizce dışa aktarın. Sorunsuz PDF dönüşümü için eğitimlerimizi izleyin. Verimli 3D görüntü dışa aktarım tekniklerini öğrenin.
+
+### [Dosya Formatı Dönüşümü](./file-format-conversion/)
+Aspose.CAD for .NET ile CAD dosyası işleme yeteneklerinizi zahmetsizce geliştirin. DWF'yi PDF'ye ve 3D görüntüyü BMP formatına dışa aktarma üzerine eğitimleri keşfedin.
+
 ### [PLT ve Filigranlama](./plt-and-watermarking/)
-Aspose.CAD for .NET ile PLT formatının potansiyelini ortaya çıkarın. Adım adım eğitimlerimizle PLT dosyalarını uygulamalarınıza zahmetsizce entegre edin.
+Aspose.CAD for .NET ile PLT formatının potansiyelini ortaya çıkarın. PLT dosyalarını uygulamalarınıza zahmetsizce entegre edin, adım adım eğitimlerimizle.
+
 ### [Gelişmiş CAD Teknikleri](./advanced-cad-techniques/)
-CFF'yi zahmetsizce PDF'ye dönüştürün, CAD çizimlerinde serbest bakış açısını keşfedin, kaydetme işlemlerinde zaman aşımlarını ayarlayın, Aspose.CAD for .NET eğitimleriyle PDF'ler oluşturun.
-### [Resim Formatlarına Aktarma](./exporting-to-image-formats/)
-Aspose.CAD for .NET ile IFC dosyalarını zahmetsizce PNG'ye dönüştürün. Verimli dosya işleme için kusursuz CAD dosya işlemeyi ve indirmeyi keşfedin.
+CFF'yi PDF'ye zahmetsizce dönüştürün, CAD çizimlerinde serbest bakış açısını keşfedin, kaydetme işlemlerinde zaman aşımı ayarlayın, Aspose.CAD for .NET eğitimleriyle PDF oluşturun.
+
+### [Görüntü Formatlarına Dışa Aktarma](./exporting-to-image-formats/)
+Aspose.CAD for .NET ile IFC dosyalarını PNG'ye zahmetsizce dönüştürün. Sorunsuz CAD dosyası işleme ve verimli dosya manipülasyonu için indirmeyi keşfedin.
+
 ### [3D Model Desteği](./3d-model-support/)
-Aspose.CAD for .NET ile CAD uygulamalarınızı optimize edin! OBJ formatını sorunsuz bir şekilde destekleme sanatında ustalaşarak 3D modellerinizin tüm potansiyelini ortaya çıkarın.
+Aspose.CAD for .NET ile CAD uygulamalarınızı optimize edin! OBJ formatını sorunsuz bir şekilde destekleme sanatını ustalaştırın, 3D modellerinizin tam potansiyelini ortaya çıkarın.
+
 ### [PLT Dosyalarını Dışa Aktarma](./exporting-plt-files/)
-Aspose.CAD for .NET ile PLT dosyalarını zahmetsizce görüntülere ve PDF'lere dönüştürün. CAD dosyası manipülasyonuna yönelik kusursuz entegrasyonu ve esnek seçenekleri keşfedin.
-### [STL Dosyasını Dışa Aktarma](./stl-file-export/)
-Aspose.CAD for .NET ile STL dosyalarını zahmetsizce PNG'ye aktarın. Adım adım kılavuzumuz kusursuz entegrasyon sağlar. Aspose.CAD For .NET eğitimlerini kullanarak öğrenin.
+Aspose.CAD for .NET ile PLT dosyalarını görüntülere ve PDF'lere zahmetsizce dönüştürün. Sorunsuz entegrasyon ve CAD dosyası manipülasyonu için esnek seçenekleri keşfedin.
+
+### [STL Dosya Dışa Aktarımı](./stl-file-export/)
+Aspose.CAD for .NET ile STL dosyalarını PNG'ye zahmetsizce dışa aktarın. Adım adım rehberimiz sorunsuz entegrasyonu sağlar. Aspose.CAD For .NET eğitimleriyle öğrenin.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+## Sıkça Sorulan Sorular
+
+**Q: Aspose.CAD kullanarak bir DWG dosyasından nasıl metin çıkarırım?**  
+A: DWG'yi `CadImage.Load` ile yükleyin, `CadText` nesneleri üzerinde döngü yapın ve `TextString` özelliğini okuyun.
+
+**Q: DWG'yi doğrudan C# içinde PDF'ye dönüştürebilir miyim?**  
+A: Evet—DWG'yi yükledikten sonra `image.Save("output.pdf", new PdfOptions())` çağırın.
+
+**Q: Aynı kütüphane ile IFC'yi PNG'ye dönüştürmek mümkün mü?**  
+A: Kesinlikle; Aspose.CAD IFC içe aktarmayı destekler ve `PngOptions` kullanarak görüntüyü PNG olarak kaydedebilirsiniz.
+
+**Q: Aspose.CAD, görüntü dışa aktarımı için PLT dosyalarını işliyor mu?**  
+A: Evet, bir PLT dosyasını yükleyebilir ve uygun dışa aktarım seçenekleriyle PNG, JPEG veya PDF olarak dışa aktarabilirsiniz.
+
+**Q: Üretim kullanımında lisans gereksinimleri nelerdir?**  
+A: Geçerli bir ticari lisans gereklidir; geliştirme sırasında geçici bir lisans uygulanarak değerlendirme kısıtlamaları kaldırılabilir.
+
+**Son Güncelleme:** 2026-02-07  
+**Test Edilen Versiyon:** Aspose.CAD for .NET 24.12 (latest)  
+**Yazar:** Aspose

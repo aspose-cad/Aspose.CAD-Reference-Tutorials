@@ -1,33 +1,45 @@
 ---
-title: Mendukung Format OBJ di Aspose.CAD - Tutorial
-linktitle: Mendukung Format OBJ di Aspose.CAD - Tutorial
-second_title: Aspose.CAD .NET - Format File CAD dan BIM
-description: Buka potensi Aspose.CAD untuk .NET. Pelajari cara mendukung format OBJ dengan lancar di aplikasi CAD Anda dengan tutorial langkah demi langkah ini.
-weight: 10
+date: 2026-02-07
+description: Pelajari cara menyimpan CAD sebagai PDF dan mengonversi OBJ ke PDF menggunakan
+  Aspose.CAD untuk .NET. Ikuti panduan langkah demi langkah ini untuk konversi format
+  file CAD yang mulus.
+linktitle: Save CAD as PDF – Supporting OBJ Format in Aspose.CAD
+second_title: Aspose.CAD .NET - CAD and BIM File Format
+title: Simpan CAD sebagai PDF – Mendukung Format OBJ di Aspose.CAD
 url: /id/net/3d-model-support/supporting-obj-format-in-aspose-cad/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Mendukung Format OBJ di Aspose.CAD - Tutorial
+# Simpan CAD sebagai PDF – Mendukung Format OBJ di Aspose.CAD
 
-## Perkenalan
+Jika Anda perlu **menyimpan CAD sebagai PDF** saat bekerja dengan file OBJ, Aspose.CAD untuk .NET membuat prosesnya menjadi sederhana. Dalam tutorial ini kami akan memandu langkah‑langkah tepat untuk **mengonversi OBJ ke PDF**, memberikan cara yang dapat diandalkan untuk menangani konversi format file CAD dalam aplikasi .NET apa pun.
 
-Jika Anda mendalami dunia Computer-Aided Design (CAD) dalam pengembangan .NET, Anda mungkin merasa perlu bekerja dengan file OBJ. Aspose.CAD untuk .NET adalah solusi tangguh yang memberdayakan pengembang untuk mendukung format OBJ dengan lancar dalam aplikasi mereka. Dalam tutorial ini, kami akan memandu Anda melalui proses menggabungkan Aspose.CAD ke dalam proyek Anda untuk bekerja dengan file OBJ secara efektif.
+## Jawaban Cepat
+- **Apa yang dibahas dalam tutorial ini?** Menyimpan CAD sebagai PDF dan mengonversi file OBJ dengan Aspose.CAD.  
+- **Perpustakaan apa yang dibutuhkan?** Aspose.CAD untuk .NET (dapat diunduh dari situs resmi).  
+- **Apakah saya memerlukan lisensi?** Versi percobaan gratis cukup untuk pengembangan; lisensi komersial diperlukan untuk produksi.  
+- **Bisakah saya menargetkan .NET Core/.NET 6+?** Ya – perpustakaan ini mendukung versi .NET modern.  
+- **Berapa lama implementasinya?** Biasanya kurang dari 15 menit untuk konversi dasar.
+
+## Apa itu “save CAD as PDF”?
+Menyimpan CAD sebagai PDF berarti merasterkan gambar CAD (seperti model OBJ) menjadi dokumen PDF yang dapat dilihat di platform apa pun tanpa memerlukan perangkat lunak CAD khusus. Ini adalah skenario **cad file format conversion** yang umum untuk berbagi desain dengan klien atau pemangku kepentingan.
+
+## Mengapa mengonversi file OBJ ke PDF?
+- **Aksesibilitas universal:** PDF dapat dibuka di hampir semua perangkat.  
+- **Mempertahankan fidelitas visual:** Rasterisasi menjaga tampilan tepat dari model 3D.  
+- **Menyederhanakan distribusi:** Satu file saja alih-alih kumpulan aset OBJ.  
 
 ## Prasyarat
 
-Sebelum kita mendalami tutorialnya, pastikan Anda memiliki prasyarat berikut:
+- **Perpustakaan Aspose.CAD:** Pastikan perpustakaan Aspose.CAD telah ditambahkan ke proyek .NET Anda. Anda dapat mengunduhnya [di sini](https://releases.aspose.com/cad/net/).  
+- **Direktori Dokumen:** Buat folder yang akan menyimpan dokumen CAD Anda (file OBJ). Pada contoh di bawah kami akan menyebutnya “Your Document Directory.”  
 
--  Perpustakaan Aspose.CAD: Pastikan Anda telah menginstal perpustakaan Aspose.CAD di proyek .NET Anda. Anda dapat mengunduhnya[Di Sini](https://releases.aspose.com/cad/net/).
-
-- Direktori Dokumen: Siapkan direktori tempat dokumen CAD Anda, khususnya file OBJ, disimpan. Dalam tutorial ini, kita akan menggunakan direktori placeholder "Direktori Dokumen Anda".
-
-## Impor Namespace
-
-Untuk memulai, Anda perlu mengimpor namespace yang diperlukan ke proyek .NET Anda. Namespace ini menyediakan akses ke fungsionalitas yang diperlukan untuk menangani file CAD.
+## Import Namespaces
+Untuk memulai, impor namespace yang memberi Anda akses ke kelas pemrosesan CAD.
 
 ```csharp
 using System;
@@ -36,22 +48,19 @@ using System.Linq;
 using System.Text;
 ```
 
-
 ## Langkah 1: Muat File OBJ
-
-Muat file OBJ ke objek gambar Aspose.CAD. Ganti "example-580-W.obj" dengan nama file OBJ Anda.
+Muat file OBJ ke dalam objek `Aspose.CAD.Image`. Ganti **example-580-W.obj** dengan nama file sebenarnya yang ingin Anda proses.
 
 ```csharp
 string MyDir = "Your Document Directory";
 using (Aspose.CAD.Image CADDoc = Aspose.CAD.Image.Load(MyDir + "example-580-W.obj"))
 {
-    // Kode Anda untuk diproses lebih lanjut ada di sini
+    // Your code for further processing goes here
 }
 ```
 
-## Langkah 2: Konfigurasikan Opsi Rasterisasi
-
-Atur opsi rasterisasi untuk menentukan dimensi keluaran PDF berdasarkan dimensi dokumen CAD yang dimuat.
+## Langkah 2: Konfigurasi Opsi Rasterisasi
+Tentukan ukuran PDF output berdasarkan dimensi dokumen CAD yang dimuat. Ini merupakan bagian penting dari alur kerja **process obj files**.
 
 ```csharp
 Aspose.CAD.ImageOptions.CadRasterizationOptions rasterizationOptions =
@@ -62,8 +71,7 @@ rasterizationOptions.PageHeight = CADDoc.Size.Height;
 ```
 
 ## Langkah 3: Buat Opsi PDF
-
-Buat opsi PDF dan kaitkan dengan opsi rasterisasi.
+Buat instance `PdfOptions` dan hubungkan dengan pengaturan rasterisasi. Ini menyiapkan mesin untuk operasi **save cad as pdf**.
 
 ```csharp
 Aspose.CAD.ImageOptions.PdfOptions CADf = new Aspose.CAD.ImageOptions.PdfOptions();
@@ -71,38 +79,40 @@ CADf.VectorRasterizationOptions = rasterizationOptions;
 ```
 
 ## Langkah 4: Simpan sebagai PDF
-
-Simpan dokumen CAD sebagai file PDF khusus, dengan menggabungkan opsi yang dikonfigurasi.
+Akhirnya, tulis konten yang telah diraster ke file PDF. File yang dihasilkan dapat dibuka dengan penampil PDF apa pun.
 
 ```csharp
 CADDoc.Save(MyDir + "example-580-W_custom.pdf", CADf);
 ```
 
-## Kesimpulan
+## Masalah Umum & Tips
+- **Path file tidak tepat:** Pastikan `MyDir` diakhiri dengan pemisah path (`\` atau `/`) yang sesuai untuk OS Anda.  
+- **File OBJ besar:** Pertimbangkan meningkatkan batas memori atau memproses model dalam potongan jika Anda menemui `OutOfMemoryException`.  
+- **Font atau tekstur yang hilang:** File OBJ yang merujuk ke sumber eksternal mungkin memerlukan file tersebut ditempatkan di direktori yang sama.
 
-Selamat! Anda telah berhasil mengintegrasikan Aspose.CAD untuk .NET untuk mendukung format OBJ di aplikasi Anda. Tutorial ini telah membekali Anda dengan langkah-langkah yang diperlukan untuk menangani file OBJ dengan lancar dalam proyek CAD Anda.
+## Pertanyaan yang Sering Diajukan
 
-## FAQ
+**T1: Apakah Aspose.CAD kompatibel dengan format file CAD lain?**  
+J1: Ya, Aspose.CAD mendukung berbagai format CAD, termasuk DWG, DXF, DGN, dan lainnya. Lihat [dokumentasi](https://reference.aspose.com/cad/net/) untuk daftar lengkap.
 
-### Q1: Apakah Aspose.CAD kompatibel dengan format file CAD lainnya?
+**T2: Bisakah saya mencoba Aspose.CAD sebelum membeli?**  
+J2: Tentu! Anda dapat menjelajahi versi percobaan gratis [di sini](https://releases.aspose.com/).
 
- A1: Ya, Aspose.CAD mendukung berbagai format CAD, termasuk DWG, DXF, DGN, dan banyak lagi. Periksalah[dokumentasi](https://reference.aspose.com/cad/net/)untuk daftar lengkap.
+**T3: Bagaimana cara mendapatkan dukungan untuk Aspose.CAD?**  
+J3: Kunjungi [forum Aspose.CAD](https://forum.aspose.com/c/cad/19) untuk meminta bantuan dan berinteraksi dengan komunitas.
 
-### Q2: Dapatkah saya mencoba Aspose.CAD sebelum membeli?
+**T4: Apakah ada lisensi sementara untuk Aspose.CAD?**  
+J4: Ya, lisensi sementara dapat diperoleh [di sini](https://purchase.aspose.com/temporary-license/).
 
- A2: Tentu saja! Anda dapat menjelajahi versi uji coba gratis[Di Sini](https://releases.aspose.com/).
+**T5: Di mana saya dapat membeli Aspose.CAD?**  
+J5: Anda dapat membeli Aspose.CAD [di sini](https://purchase.aspose.com/buy).
 
-### Q3: Bagaimana saya bisa mendapatkan dukungan untuk Aspose.CAD?
+---
 
- A3: Kunjungi[Forum Aspose.CAD](https://forum.aspose.com/c/cad/19) untuk mencari bantuan dan terlibat dengan masyarakat.
+**Terakhir Diperbarui:** 2026-02-07  
+**Diuji Dengan:** Aspose.CAD 24.11 untuk .NET  
+**Penulis:** Aspose  
 
-### Q4: Apakah lisensi sementara tersedia untuk Aspose.CAD?
-
- A4: Ya, izin sementara dapat diperoleh[Di Sini](https://purchase.aspose.com/temporary-license/).
-
-### Q5: Dimana saya bisa membeli Aspose.CAD?
-
- A5: Anda dapat membeli Aspose.CAD[Di Sini](https://purchase.aspose.com/buy).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
