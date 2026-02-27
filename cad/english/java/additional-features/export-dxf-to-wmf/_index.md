@@ -1,11 +1,11 @@
 ---
-title: Convert DXF to WMF Using Aspose.CAD in Java
+title: Increase WMF Page Size in DXF to WMF Conversion Using Aspose.CAD for Java
 linktitle: Export DXF to WMF Format Using Java
 second_title: Aspose.CAD Java API
-description: Learn how to convert DXF to WMF with Aspose.CAD for Java, load DXF drawing, and optionally use Aspose export to PDF. Step‑by‑step guide with code examples.
+description: Learn how to increase WMF page size while converting DXF to WMF with Aspose.CAD for Java, including rasterization options and optional PDF export.
 weight: 14
 url: /java/additional-features/export-dxf-to-wmf/
-date: 2025-11-29
+date: 2026-01-30
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -16,25 +16,25 @@ date: 2025-11-29
 
 ## Introduction
 
-In this tutorial you’ll discover how to **convert DXF to WMF** with Aspose.CAD for Java. Whether you need to embed CAD drawings in a Windows‑based report or simply want a lightweight vector format, converting DXF to WMF is a common requirement. We’ll walk through loading a DXF drawing, configuring rasterization options, saving the result as WMF, and even using Aspose export to PDF as an optional step.
+In this tutorial you’ll discover **how to increase WMF page size** when you convert a DXF drawing to WMF with Aspose.CAD for Java. Whether you need a larger vector canvas for detailed engineering reports or you simply want a clearer rendering for Windows‑based applications, controlling the page dimensions is essential. We’ll walk through loading a DXF file, configuring rasterization options to boost the WMF page size, saving the result, and optionally exporting the same drawing to PDF.
 
 ## Quick Answers
 - **Can I convert DXF to WMF with a free trial?** Yes – Aspose offers a fully functional 30‑day trial.  
 - **What Java version is required?** Java 8 or later.  
 - **Do I need a license to run the code?** A license is required for production; the trial works for development and testing.  
 - **Is the conversion loss‑less?** Vector data is preserved; rasterization options let you control resolution.  
-- **Can I also export the same drawing to PDF?** Absolutely – see the “Export to PDF” step below.
+- **Can I also export the same drawing to PDF?** Absolutely – see the “Export to PDF” step below.  
 
-## What is “convert DXF to WMF”?
+## What is “increase WMF page size”?
 
-Converting DXF to WMF means taking a Drawing Exchange Format (DXF) file—a widely used CAD format—and turning it into a Windows Metafile (WMF). WMF is a vector image format that integrates smoothly with Microsoft Office, Windows applications, and many reporting tools.
+Increasing the WMF page size means setting larger width and height values in the rasterization options before saving the DXF as a WMF. A bigger page gives you more drawing space, sharper line detail, and reduces the need for scaling after conversion.
 
-## Why use Aspose.CAD for Java?
+## Why use Aspose.CAD for Java to control WMF size?
 
-- **No external dependencies** – pure Java, no native DLLs.  
-- **High fidelity** – preserves layers, colors, and line styles.  
-- **Built‑in rasterization** – fine‑tune page size, resolution, and background.  
-- **One‑stop solution** – the same API also supports exporting to PDF, PNG, SVG, and more.
+- **Pure Java library** – no native DLLs or external tools.  
+- **Fine‑grained rasterization** – you decide page width, height, DPI, and background.  
+- **Consistent output** – the same API also supports PDF, PNG, SVG, and other formats.  
+- **High fidelity** – layers, colors, and line styles are retained even when the page size grows.
 
 ## Prerequisites
 
@@ -61,7 +61,7 @@ import com.aspose.cad.imageoptions.WmfOptions;
 
 ### Step 1: Load DXF Drawing
 
-First, **load the DXF drawing** you want to convert. The `Image.load` method reads the file into memory.
+First, load the DXF drawing you want to convert. The `Image.load` method reads the file into memory.
 
 ```java
 // The path to the resource directory.
@@ -70,16 +70,18 @@ String srcFile = dataDir + "conic_pyramid.dxf";
 Image image = Image.load(srcFile);
 ```
 
-### Step 2: Configure Rasterization Options
+### Step 2: Configure Rasterization Options (Increase WMF Page Size)
 
-Set up the rasterization parameters that control the size of the output WMF. In this example we use a 100 × 100 unit page.
+Here we set the page dimensions that directly affect the WMF size. Adjust the values to meet your visual requirements.
 
 ```java
 CadRasterizationOptions rasterizationOptions = new CadRasterizationOptions();
-rasterizationOptions.setPageWidth(100);
-rasterizationOptions.setPageHeight(100);
+rasterizationOptions.setPageWidth(500);   // Increased width
+rasterizationOptions.setPageHeight(500);  // Increased height
 WmfOptions wmfOptions = new WmfOptions();
 ```
+
+> **Tip:** You can also control DPI with `rasterizationOptions.setResolution(300);` for even sharper output.
 
 ### Step 3: Save as WMF
 
@@ -117,10 +119,6 @@ image.save(dataDir + "conic_pyramid_out_.pdf");
 | **`NullPointerException` on `cadImage.save`** | Variable `cadImage` not defined (should be `image`). | Replace `cadImage` with `image` or rename the variable consistently. |
 | **Output WMF is blank** | Rasterization page size too small or background color set to transparent. | Increase `PageWidth`/`PageHeight` or set a background color via `rasterizationOptions.setBackgroundColor(Color.getWhite());`. |
 | **License exception** | Running without a valid Aspose license in production. | Apply the license file at application start: `License license = new License(); license.setLicense("Aspose.Total.Java.lic");`. |
-
-## Conclusion
-
-You now have a complete, production‑ready workflow to **convert DXF to WMF** using Aspose.CAD for Java, with an optional step to **Aspose export to PDF**. This approach gives you high‑quality vector output that integrates seamlessly with Windows‑based reporting and documentation tools.
 
 ## FAQ's
 
@@ -163,7 +161,7 @@ A: Aspose.CAD for Java supports Java 8 and later (including Java 11, 17, and
 
 ---
 
-**Last Updated:** 2025-11-29  
+**Last Updated:** 2026-01-30  
 **Tested With:** Aspose.CAD for Java 24.11  
 **Author:** Aspose  
 
