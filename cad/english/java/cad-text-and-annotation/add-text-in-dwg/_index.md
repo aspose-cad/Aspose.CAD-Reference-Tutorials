@@ -5,7 +5,7 @@ second_title: Aspose.CAD Java API
 description: Learn how to create PDF from DWG, save DWG as PDF, and add text to DWG drawings with Aspose.CAD for Java—step‑by‑step guide.
 weight: 10
 url: /java/cad-text-and-annotation/add-text-in-dwg/
-date: 2025-12-28
+date: 2026-02-28
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -24,6 +24,12 @@ If you need to **create PDF from DWG** files while also inserting custom text, y
 - **Which method adds text to a DWG?** Use the `CadText` object and add it to the model space.  
 - **Can I set the text height?** Absolutely—use `setTextHeight()` on the `CadText` instance.  
 - **Is the output vector‑based?** When rasterization options are set to `UseObjectColor`, the PDF retains high‑quality vector data.
+
+## What is “create PDF from DWG”?
+Creating a PDF from a DWG drawing means converting the native CAD format into a widely supported, read‑only document while preserving the original geometry. This conversion is essential when you need to share designs with stakeholders who don’t have CAD software.
+
+## Why use Aspose.CAD for Java to convert DWG to PDF?
+Aspose.CAD offers a pure‑Java solution that requires no external CAD installation. It supports **convert DWG to PDF**, maintains vector fidelity, and lets you programmatically add annotations such as text, dimensions, or custom graphics before the conversion.
 
 ## Prerequisites
 
@@ -111,13 +117,8 @@ image.save(dataDir + "SimpleEntites_generated.dwg.pdf", pdfOptions);
 
 By following these steps, you'll be able to **create PDF from DWG**, add custom text, and control text height—all with just a few lines of Java code.
 
-## Why Add Text to DWG and Convert to PDF?
-
-Adding text directly to a DWG file is useful for:
-
-- **Marking up designs** with notes or part numbers.
-- **Creating printable documentation** where the PDF serves as a read‑only, widely supported format.
-- **Automating batch processing** of large CAD libraries without manual editing.
+## How to convert DWG to PDF in Java at scale?
+If you need to **batch convert DWG PDF** files, wrap the code above in a loop that iterates over a folder of DWG drawings. Adjust `pageHeight`/`pageWidth` only when necessary to keep memory usage low, and reuse the same `PdfOptions` instance for each file to improve performance.
 
 ## Common Issues & Tips
 
@@ -145,7 +146,7 @@ A: Visit the [Aspose.CAD forum](https://forum.aspose.com/c/cad/19) to get assist
 
 ---
 
-**Last Updated:** 2025-12-28  
+**Last Updated:** 2026-02-28  
 **Tested With:** Aspose.CAD for Java 24.12  
 **Author:** Aspose  
 
