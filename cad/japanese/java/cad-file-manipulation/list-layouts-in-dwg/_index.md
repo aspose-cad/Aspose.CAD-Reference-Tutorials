@@ -1,52 +1,55 @@
 ---
-date: 2025-12-28
+date: 2026-02-28
 description: Aspose.CAD for Java を使用して DWG ファイルの読み取り方法を学び、DWG ファイル内のレイアウトを簡単に一覧表示します。強力な
   CAD 機能を Java アプリケーションに統合しましょう。
 linktitle: List Layouts in DWG
 second_title: Aspose.CAD Java API
-title: Aspose.CAD for Java を使用して DWG を読み取り、DWG のレイアウトを一覧表示する方法
+title: Aspose.CAD for Java を使用して DWG を読み取り、DWG 内のレイアウトを一覧表示する方法
 url: /ja/java/cad-file-manipulation/list-layouts-in-dwg/
 weight: 12
 ---
 
-{{< blocks/products/pf/main-wrap-class >}}
+< blocks/products/products-backtop-button >}}
+
+Make sure all shortcodes unchanged.
+
+Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.CAD for Java を使用して DWG を読み取り、DWG のレイアウトを一覧表示する方法
+# Aspose.CAD for Java を使用した DWG の読み取りとレイアウト一覧表示方法
 
-## はじめに
+## Introduction
 
-プログラムから **DWG** ファイルを読み取り、レイアウト名などの情報を抽出する必要がある場合、Aspose.CAD for Java を使用すれば簡単に実現できます。このステップバイステップのチュートリアルでは、**DWG の読み取り方法** と、DWG（または DXF）ファイルに含まれるすべてのレイアウトを一覧表示する方法を示します。ガイドの最後まで読むと、CAD データを扱う任意の Java アプリケーションにこの機能を組み込めるようになります。
+プログラムで **how to read dwg** ファイルを読み取る信頼できる方法をお探しなら、Aspose.CAD for Java はクリーンでクロスプラットフォームな API を提供し、図面をロードして必要な情報（たとえばファイル内のすべてのレイアウト名）を取得できます。このステップバイステップのチュートリアルでは、**how to read DWG** と DWG（または DXF）ファイルに含まれるすべてのレイアウトを一覧表示する方法を示しますので、CAD データを扱う任意の Java アプリケーションにこの機能を組み込むことができます。
 
-## クイック回答
-- **必要なライブラリは？** Aspose.CAD for Java。
-- **任意の OS で DWG ファイルを読み取れますか？** はい – Java はクロスプラットフォームです。
-- **サンプル実行にライセンスは必要ですか？** 評価用の無料トライアルで動作しますが、製品環境ではライセンスが必要です。
-- **サポートされている CAD フォーマットは？** DWG、DXF、DWF など。
-- **コードは Java 8+ と互換性がありますか？** 完全に対応しています。
+## Quick Answers
+- **必要なライブラリは何ですか？** Aspose.CAD for Java.  
+- **任意の OS で DWG ファイルを読み取れますか？** はい – Java はクロスプラットフォームなので、**read dwg on linux** と同様に Windows でも簡単に読み取れます。  
+- **サンプル実行にライセンスは必要ですか？** 評価には無料トライアルで動作しますが、本番環境ではライセンスが必要です。  
+- **サポートされている CAD フォーマットは？** DWG、DXF、DWF など。  
+- **コードは Java 8+ と互換性がありますか？** もちろんです。
 
-## Java での “DWG の読み取り方法” とは？
+## What is “how to read dwg” in Java?
 
-DWG ファイルを読み取るとは、バイナリの CAD データをクエリ可能なオブジェクトモデルにロードすることを意味します。Aspose.CAD は複雑な DWG 構造をシンプルな .NET/Java クラスで抽象化し、必要な情報（この場合はレイアウト名）に集中できるようにします。
+DWG ファイルを読み取るとは、バイナリ CAD データをクエリ可能なオブジェクトモデルにロードすることです。Aspose.CAD は複雑な DWG 構造をシンプルな Java クラスで抽象化し、必要な情報（この場合はレイアウト名）に集中できるようにします。
 
-## DWG ファイルでレイアウトを一覧表示する理由
+## Why list layouts in a DWG file?
 
-DWG には複数のレイアウト（ペーパー空間、モデル空間、カスタムシート）を含めることができます。レイアウト名を把握することで、以下が可能になります：
-- レイアウト単位でレポートを生成する。
-- 特定のレイアウトを画像や PDF にエクスポートする。
-- 図面のバッチ処理を自動化する。
+DWG には複数のレイアウト（ペーパー空間、モデル空間、カスタムシート）を含めることができます。レイアウト名を把握することで、次のことが可能になります：
 
-## 前提条件
+- レイアウトごとのレポートを生成する。  
+- 特定のレイアウトを画像や PDF にエクスポートする。  
+- 図面のバッチ処理を自動化する。  
 
-コードに取り掛かる前に、以下が揃っていることを確認してください：
+## Prerequisites
 
-- **Aspose.CAD for Java Library** – 最新の JAR を [website](https://releases.aspose.com/cad/java/) からダウンロード。
-- **Java Development Environment** – JDK 8 以上、そしてお好みの IDE またはビルドツール。
+- **Aspose.CAD for Java ライブラリ** – 最新の JAR を [website](https://releases.aspose.com/cad/java/) からダウンロードしてください。  
+- **Java 開発環境** – JDK 8 以上、およびお好みの IDE またはビルドツール。  
 
-## 名前空間のインポート
+## Import Namespaces
 
-Java ソースファイルで必要な Aspose.CAD クラスをインポートします：
+Java ソースファイルで、必要な Aspose.CAD クラスをインポートします：
 
 ```java
 import com.aspose.cad.Image;
@@ -56,15 +59,17 @@ import com.aspose.cad.fileformats.cad.CadLayoutDictionary;
 import com.aspose.cad.fileformats.cad.cadobjects.CadLayout;
 ```
 
-## ステップ 1: ドキュメント ディレクトリの設定
+## Step 1: Set up Your Document Directory
+
+**“Your Document Directory”** を CAD ファイルが保存されている絶対パスに置き換えてください。Linux では例えば `/home/user/cad/` のようなパスを使用できます。
 
 ```java
 String dataDir = "Your Document Directory" + "CADConversion/";
 ```
 
-**“Your Document Directory”** を、CAD ファイルが格納されている絶対パスに置き換えてください。
+## Step 2: Load the DWG File
 
-## ステップ 2: DWG ファイルの読み込み
+`Image.load` メソッドはファイル形式を自動的に検出するため、同じコードが **DWG** と **DXF** の両方で動作します。
 
 ```java
 String sourceFilePath = dataDir + "conic_pyramid.dxf";
@@ -72,9 +77,9 @@ Image image = Image.load(sourceFilePath);
 CadImage cadImage = (CadImage)image;
 ```
 
-`Image.load` メソッドはファイル形式を自動的に検出するため、**DWG** と **DXF** の両方で同じコードを使用できます。
+## Step 3: Get Layouts and Print Names
 
-## ステップ 3: レイアウトを取得して名前を出力
+ループはすべてのレイアウトオブジェクトを反復し、その名前をコンソールに出力します – これにより **read DWG** に成功し、レイアウト情報が抽出されたことを簡単に確認できます。
 
 ```java
 CadLayoutDictionary layouts = cadImage.getLayouts();
@@ -84,56 +89,54 @@ for (CadLayout layout : layouts.getValues())
 }
 ```
 
-このループはすべてのレイアウト オブジェクトを走査し、コンソールに名前を出力します。これにより、**DWG の読み取り** とレイアウト情報の抽出が正常に行われたことを簡単に確認できます。
+## How to Convert DWG to PDF on Linux
 
-## よくある落とし穴とヒント
+後で特定のレイアウトを PDF に変換する必要がある場合、Aspose.CAD はレイアウトを画像としてレンダリングでき、その画像を Aspose.PDF（または他の PDF ライブラリ）を使用して PDF ドキュメントに埋め込むことができます。変換コードは Linux でも同一で、API が純粋な Java であるためです。
 
-- **Incorrect file path** – `dataDir` が OS に適した区切り文字（`/` または `\\`）で終わっているか再確認してください。
-- **Unsupported DWG version** – 最新の Aspose.CAD バージョンを使用してください。古い DWG バージョンは変換が必要になる場合があります。
-- **Memory usage** – 大規模な図面は大量のメモリを消費します。使用後は `CadImage` オブジェクトを必ず破棄してください：`cadImage.dispose();`。
+## Common Pitfalls & Tips
 
-## 結論
+- **ファイルパスが間違っている** – `dataDir` が OS に適したセパレーター（`/` または `\\`）で終わっているか再確認してください。  
+- **サポートされていない DWG バージョン** – 最新の Aspose.CAD バージョンを使用していることを確認してください。古い DWG バージョンは変換が必要な場合があります。  
+- **メモリ使用量** – 大きな図面はかなりのメモリを消費します。使用後は `CadImage` オブジェクトを破棄してください: `cadImage.dispose();`。  
+- **ヘッドレスサーバーでの実行** – UI コンポーネントは不要なので、グラフィカル環境のない Linux サーバーでもコードは動作します。  
 
-おめでとうございます！Aspose.CAD for Java を使用して **DWG の読み取り** とレイアウトの一覧表示ができるようになりました。この手法は、特定のレイアウトを画像や PDF にエクスポートするなど、より高度な CAD 自動化の基礎となります。詳細は公式 [documentation](https://reference.aspose.com/cad/java/) をご参照ください。
+## Conclusion
 
-## FAQ
+おめでとうございます！これで Aspose.CAD for Java を使用して **how to read dwg** し、レイアウトを一覧表示する方法が分かりました。この手法は、特定のレイアウトを画像や PDF にエクスポートしたり、Linux 上で DWG を PDF に変換したりといった、より高度な CAD 自動化の基礎となります。詳しくは公式の [documentation](https://reference.aspose.com/cad/java/) をご覧ください。
 
-### Q1: Aspose.CAD for Java は他の CAD ファイル形式でも使用できますか？
+## Frequently Asked Questions
 
+**Q1: Aspose.CAD for Java を他の CAD ファイル形式と一緒に使用できますか？**  
 A1: はい、Aspose.CAD は DWG、DXF、DWF などさまざまな CAD フォーマットをサポートしています。
 
-### Q2: Aspose.CAD for Java の無料トライアルはありますか？
-
+**Q2: Aspose.CAD for Java の無料トライアルはありますか？**  
 A2: はい、[here](https://releases.aspose.com/) から無料トライアルを取得できます。
 
-### Q3: Aspose.CAD for Java のコミュニティサポートはどこで受けられますか？
+**Q3: Aspose.CAD for Java のコミュニティサポートはどこで得られますか？**  
+A3: コミュニティサポートは [Aspose.CAD forum](https://forum.aspose.com/c/cad/19) をご覧ください。
 
-A3: コミュニティサポートは [Aspose.CAD forum](https://forum.aspose.com/c/cad/19) でご利用いただけます。
+**Q4: Aspose.CAD for Java のライセンスはどこで購入できますか？**  
+A4: [purchase page](https://purchase.aspose.com/buy) からライセンスを購入できます。
 
-### Q4: Aspose.CAD for Java のライセンスはどこで購入できますか？
-
-A4: ライセンスは [purchase page](https://purchase.aspose.com/buy) から購入できます。
-
-### Q5: テスト目的で一時ライセンスを使用できますか？
-
+**Q5: テスト目的で一時ライセンスを使用できますか？**  
 A5: はい、[here](https://purchase.aspose.com/temporary-license/) から一時ライセンスを取得できます。
 
-**追加の質問**
+### Additional Questions
 
-**Q: この方法は Linux で DWG ファイルを読み取る際にも機能しますか？**  
-A: 完全に対応しています。純粋な Java ソリューションなので、互換性のある JDK があればどの OS でも動作します。
+**Q: このアプローチは Linux で DWG ファイルを読み取る際にも機能しますか？**  
+A: 絶対に機能します。ソリューションが純粋な Java であるため、互換性のある JDK があれば任意の OS で実行できます。
 
-**Q: DWG ファイル全体をメモリにロードせずに読み取ることはできますか？**  
-A: Aspose.CAD は図面全体をメモリにロードします。非常に大きなファイルの場合は、スレッドで分割処理するか、将来的に提供される可能性のあるストリーミング API の利用を検討してください。
+**Q: 図面全体をメモリにロードせずに DWG ファイルを読み取れますか？**  
+A: Aspose.CAD は図面をメモリにロードします。非常に大きなファイルの場合は、別スレッドで処理するか、将来のリリースで利用可能になるストリーミング API の使用を検討してください。
 
 **Q: 名前でレイアウトをフィルタリングする方法はありますか？**  
-A: はい。`CadLayoutDictionary` を取得した後、`layout.getLayoutName().equalsIgnoreCase("MyLayout")` で名前を比較してから処理できます。
+A: はい – `CadLayoutDictionary` を取得した後、処理前に `layout.getLayoutName().equalsIgnoreCase("MyLayout")` をチェックできます。
 
 ---
 
-**Last Updated:** 2025-12-28  
-**Tested With:** Aspose.CAD for Java 24.11  
-**Author:** Aspose  
+**最終更新日:** 2026-02-28  
+**テスト環境:** Aspose.CAD for Java 24.11  
+**作者:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
