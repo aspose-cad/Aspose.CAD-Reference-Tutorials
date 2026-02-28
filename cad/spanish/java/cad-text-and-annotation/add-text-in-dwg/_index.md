@@ -1,7 +1,7 @@
 ---
-date: 2025-12-28
-description: 'Aprenda a crear PDF a partir de DWG, guardar DWG como PDF y agregar
-  texto a los dibujos DWG con Aspose.CAD para Java: guía paso a paso.'
+date: 2026-02-28
+description: 'Aprende a crear PDF a partir de DWG, guardar DWG como PDF y añadir texto
+  a los dibujos DWG con Aspose.CAD para Java: guía paso a paso.'
 linktitle: Add Text in DWG
 second_title: Aspose.CAD Java API
 title: Crear PDF a partir de DWG y agregar texto usando Aspose.CAD para Java
@@ -9,7 +9,9 @@ url: /es/java/cad-text-and-annotation/add-text-in-dwg/
 weight: 10
 ---
 
-{{< blocks/products/pf/main-wrap-class >}}
+ if needed" but Spanish LTR, ignore.
+
+Let's produce final content.{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
@@ -17,14 +19,20 @@ weight: 10
 
 ## Introducción
 
-Si necesitas **crear PDF a partir de archivos DWG** mientras insertas texto personalizado, estás en el lugar correcto. En este tutorial recorreremos todo el proceso: cargar un dibujo DWG, agregar una anotación de texto y, finalmente, guardar el resultado como PDF usando Aspose.CAD para Java. Al final comprenderás cómo **guardar DWG como PDF**, personalizar la altura del texto y añadir anotaciones básicas.
+Si necesitas **crear PDF a partir de archivos DWG** mientras insertas texto personalizado, estás en el lugar correcto. En este tutorial recorreremos todo el proceso: cargar un dibujo DWG, añadir una anotación de texto y, finalmente, guardar el resultado como PDF usando Aspose.CAD para Java. Al final comprenderás cómo **guardar DWG como PDF**, personalizar la altura del texto y agregar anotaciones básicas.
 
 ## Respuestas rápidas
 - **¿Puedo convertir DWG a PDF en Java?** Sí, Aspose.CAD para Java ofrece una API sencilla.  
 - **¿Necesito una licencia para uso en producción?** Se requiere una licencia comercial; hay una versión de prueba gratuita.  
 - **¿Qué método agrega texto a un DWG?** Usa el objeto `CadText` y añádelo al espacio del modelo.  
-- **¿Puedo establecer la altura del texto?** Por supuesto—utiliza `setTextHeight()` en la instancia de `CadText`.  
-- **¿La salida es vectorial?** Cuando las opciones de rasterización se configuran en `UseObjectColor`, el PDF conserva datos vectoriales de alta calidad.
+- **¿Puedo establecer la altura del texto?** Por supuesto—usa `setTextHeight()` en la instancia de `CadText`.  
+- **¿La salida es vectorial?** Cuando las opciones de rasterización se establecen en `UseObjectColor`, el PDF conserva datos vectoriales de alta calidad.
+
+## ¿Qué significa “crear PDF a partir de DWG”?
+Crear un PDF a partir de un dibujo DWG implica convertir el formato CAD nativo a un documento de solo lectura, ampliamente compatible, mientras se preserva la geometría original. Esta conversión es esencial cuando necesitas compartir diseños con partes interesadas que no disponen de software CAD.
+
+## ¿Por qué usar Aspose.CAD para Java para convertir DWG a PDF?
+Aspose.CAD ofrece una solución pura de Java que no requiere instalación de CAD externa. Soporta **convertir DWG a PDF**, mantiene la fidelidad vectorial y permite agregar programáticamente anotaciones como texto, dimensiones o gráficos personalizados antes de la conversión.
 
 ## Requisitos previos
 
@@ -34,7 +42,7 @@ Antes de sumergirte en el tutorial, asegúrate de contar con los siguientes requ
 
 - Java Development Kit (JDK): Asegúrate de tener la última versión del JDK instalada en tu sistema.
 
-- Dibujo DWG: Prepara un archivo de dibujo DWG al que desees agregar texto.
+- Dibujo DWG: Prepara un archivo DWG donde desees agregar texto.
 
 ## Importar espacios de nombres
 
@@ -112,27 +120,22 @@ image.save(dataDir + "SimpleEntites_generated.dwg.pdf", pdfOptions);
 
 Siguiendo estos pasos, podrás **crear PDF a partir de DWG**, agregar texto personalizado y controlar la altura del texto, todo con unas pocas líneas de código Java.
 
-## ¿Por qué agregar texto a DWG y convertir a PDF?
-
-Agregar texto directamente a un archivo DWG es útil para:
-
-- **Marcar diseños** con notas o números de pieza.  
-- **Crear documentación imprimible** donde el PDF sirve como un formato de solo lectura y ampliamente compatible.  
-- **Automatizar el procesamiento por lotes** de grandes bibliotecas CAD sin edición manual.
+## ¿Cómo convertir DWG a PDF en Java a gran escala?
+Si necesitas **convertir en lote archivos DWG a PDF**, envuelve el código anterior en un bucle que recorra una carpeta con dibujos DWG. Ajusta `pageHeight`/`pageWidth` solo cuando sea necesario para mantener bajo el consumo de memoria, y reutiliza la misma instancia de `PdfOptions` para cada archivo a fin de mejorar el rendimiento.
 
 ## Problemas comunes y consejos
 
-- **¿El texto no aparece?** Verifica que las coordenadas X/Y estén dentro de los límites del dibujo y que la capa sea visible.  
-- **¿Altura de texto incorrecta?** Ajusta `setTextHeight()`; el valor está en el sistema de unidades del dibujo.  
-- **¿El PDF parece rasterizado?** Asegúrate de que `CadDrawTypeMode.UseObjectColor` esté configurado para mantener la información vectorial.  
+- **¿El texto no aparece?** Verifica que las coordenadas X/Y estén dentro de los límites del dibujo y que la capa sea visible.
+- **¿Altura de texto incorrecta?** Ajusta `setTextHeight()`; el valor está en la unidad del dibujo.
+- **¿El PDF se ve rasterizado?** Asegúrate de que `CadDrawTypeMode.UseObjectColor` esté configurado para conservar la información vectorial.
 - **¿Rendimiento en archivos grandes?** Incrementa `pageHeight`/`pageWidth` solo cuando sea necesario; valores mayores consumen más memoria.
 
 ## Preguntas frecuentes
 
 **P: ¿Aspose.CAD es compatible con todas las versiones de archivos DWG?**  
-R: Aspose.CAD admite diversas versiones de archivos DWG, garantizando compatibilidad con una amplia gama de software CAD.
+R: Aspose.CAD soporta diversas versiones de archivos DWG, garantizando compatibilidad con una amplia gama de software CAD.
 
-**P: ¿Puedo personalizar la fuente y el formato del texto agregado?**  
+**P: ¿Puedo personalizar la fuente y el formato del texto añadido?**  
 R: Sí, puedes personalizar la fuente, estilo y otras opciones de formato del texto añadido a los archivos DWG usando Aspose.CAD.
 
 **P: ¿Existe una versión de prueba gratuita para Aspose.CAD para Java?**  
@@ -146,7 +149,7 @@ R: Visita el [foro de Aspose.CAD](https://forum.aspose.com/c/cad/19) para recibi
 
 ---
 
-**Última actualización:** 2025-12-28  
+**Última actualización:** 2026-02-28  
 **Probado con:** Aspose.CAD para Java 24.12  
 **Autor:** Aspose  
 
