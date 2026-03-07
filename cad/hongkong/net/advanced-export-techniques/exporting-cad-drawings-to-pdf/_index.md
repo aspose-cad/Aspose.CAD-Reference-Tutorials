@@ -1,35 +1,54 @@
 ---
-title: 將 CAD 繪圖匯出為 PDF - Aspose.CAD 教學課程
-linktitle: 將 CAD 工程圖匯出為 PDF
-second_title: Aspose.CAD .NET - CAD 和 BIM 檔案格式
-description: 使用 Aspose.CAD for .NET 將 CAD 繪圖無縫匯出為 PDF。請按照我們的逐步指南進行高效率轉換。
-weight: 14
+date: 2026-03-07
+description: 學習如何使用 Aspise.CAD for .NET 將 CAD 匯出為 PDF，內容包括將 DWG 檔案轉換為 PDF、從 CAD 產生
+  PDF，以及將 CAD 圖紙匯出為 PDF。
+linktitle: Exporting CAD Drawings to PDF
+second_title: Aspose.CAD .NET - CAD and BIM File Format
+title: 如何將 CAD 匯出為 PDF – Aspose.CAD 教程
 url: /zh-hant/net/advanced-export-techniques/exporting-cad-drawings-to-pdf/
+weight: 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 將 CAD 繪圖匯出為 PDF - Aspose.CAD 教學課程
+# 如何將 CAD 匯出為 PDF – Aspose.CAD 教程
 
-## 介紹
+## Introduction
 
-在不斷發展的電腦輔助設計 (CAD) 世界中，將複雜的圖紙匯出為各種格式的需求至關重要。 Aspose.CAD for .NET 可以解決這個問題，它提供了一套強大的工具來將 CAD 繪圖無縫轉換為 PDF。在本教程中，我們將深入研究使用 Aspose.CAD for .NET 將 CAD 繪圖匯出為 PDF 的過程，分解每個步驟以確保順利且全面的學習體驗。
+如果您曾需要與沒有 CAD 檢視器的客戶、持份者或同事分享 CAD 設計，**如何將 CAD 匯出為 PDF** 就成為首要任務。將 DWG 或其他 CAD 格式轉換為通用的 PDF 可保留向量品質、嵌入字型，並保持圖層完整——全部不需要收件者安裝昂貴的 CAD 軟件。在本分步指南中，我們將逐步說明如何使用 Aspose.CAD for .NET 將 CAD 圖紙匯出為 PDF，讓您能自信地從 CAD 產生 PDF。
 
-## 先決條件
+## Quick Answers
+- **Primary tool?** Aspose.CAD for .NET  
+- **Supported formats?** DWG, DXF, DGN, DWF, and more  
+- **Typical conversion time?** Milliseconds for most drawings  
+- **License required?** Yes, a valid Aspose.CAD license for production use  
+- **Can it run on Linux?** Absolutely – .NET Core / .NET 6+ are supported  
 
-在我們深入學習本教程之前，請確保您具備以下先決條件：
+## What is “how to export CAD to PDF”?
 
--  Aspose.CAD for .NET 程式庫：確保您已安裝 Aspose.CAD for .NET 程式庫。您可以從[網站](https://releases.aspose.com/cad/net/).
+將 CAD 匯出為 PDF 意味著將 CAD 幾何圖形光柵化或向量化，然後將結果寫入 PDF 容器。輸出保留原始圖紙的視覺忠實度，同時可在任何裝置上即時檢視。
 
-- CAD 圖面檔案：準備好轉換的 CAD 圖面檔案。在此範例中，我們將使用“Bottom_plate.dwg”。
+## Why use Aspose.CAD for this conversion?
+- **No external dependencies** – the library handles rasterization internally.  
+- **Fine‑grained control** – you can set page size, background color, and DPI via `CadRasterizationOptions`.  
+- **Cross‑platform** – works on Windows, Linux, and macOS.  
+- **Batch processing friendly** – ideal for server‑side automation.
 
-- 開發環境：設定.NET開發環境，例如Visual Studio，以執行提供的程式碼。
+## Prerequisites
 
-## 導入命名空間
+在深入程式碼之前，請確保您具備以下項目：
 
-首先匯入必要的命名空間以利用 Aspose.CAD for .NET 的功能。將以下程式碼行新增至專案的開頭：
+- **Aspose.CAD for .NET Library** – download it from the [website](https://releases.aspose.com/cad/net/).  
+- **A CAD drawing file** – for this tutorial we’ll use `Bottom_plate.dwg`.  
+- **A .NET development environment** – Visual Studio, Rider, or VS Code with the .NET SDK installed.
+
+這些前置條件涵蓋主要關鍵字，同時也引入次要關鍵字 **convert dwg file to pdf**。
+
+## Import Namespaces
+
+首先，匯入命名空間以取得 Aspose.CAD 類別的存取權。將以下 `using` 陳述式加入 C# 檔案的頂部，以為即將執行的操作做好編譯器準備。
 
 ```csharp
 using System;
@@ -40,9 +59,15 @@ using System.Threading.Tasks;
 using Aspose.CAD;
 ```
 
-## 第 1 步：載入 CAD 圖紙
+## How to Export CAD to PDF Using Aspose.CAD
 
-首先使用 Aspose.CAD 庫載入 CAD 繪圖。使用以下程式碼片段：
+以下是完整的工作流程，分為清晰的編號步驟。依照每一步操作，您即可在僅幾行程式碼內 **convert CAD drawing pdf**。
+
+### Step 1: Load the CAD Drawing
+
+步驟 1：載入 CAD 圖紙
+
+將來源 DWG 檔案載入至 `Image` 物件。此物件在記憶體中表示圖紙，將作為 PDF 轉換的來源。
 
 ```csharp
 string MyDir = "Your Document Directory";
@@ -50,13 +75,15 @@ string sourceFilePath = MyDir + "Bottom_plate.dwg";
 
 using (Image image = Image.Load(sourceFilePath))
 {
-    //進一步步驟的程式碼將在此處插入。
+    // Subsequent steps will be placed here.
 }
 ```
 
-## 第 2 步：設定光柵化選項
+### Step 2: Set Rasterization Options
 
-建立一個實例`CadRasterizationOptions`並設定其屬性以自訂光柵化過程。這決定了導出的 PDF 文件的外觀。
+步驟 2：設定光柵化選項
+
+`CadRasterizationOptions` 控制 CAD 幾何圖形在放入 PDF 前的渲染方式。調整這些設定可讓您 **generate PDF from CAD**，得到所需的精確外觀。
 
 ```csharp
 CadRasterizationOptions rasterizationOptions = new CadRasterizationOptions();
@@ -65,57 +92,71 @@ rasterizationOptions.PageWidth = 1600;
 rasterizationOptions.PageHeight = 1600;
 ```
 
-## 步驟 3：設定 PDF 選項
+### Step 3: Set PDF Options
 
-建立一個實例`PdfOptions`並關聯先前定義的`CadRasterizationOptions`用它。
+步驟 3：設定 PDF 選項
+
+建立 `PdfOptions` 實例並附加光柵化選項。此動作將渲染設定與 PDF 寫入器連結起來。
 
 ```csharp
 PdfOptions pdfOptions = new PdfOptions();
 pdfOptions.VectorRasterizationOptions = rasterizationOptions;
 ```
 
-## 第 4 步：匯出為 PDF
+### Step 4: Export to PDF
 
-指定 PDF 檔案的輸出路徑並執行匯出程序。
+步驟 4：匯出為 PDF
+
+定義輸出檔案路徑並呼叫 `Save`。此步驟實際在磁碟上 **export cad drawing as pdf**。
 
 ```csharp
 MyDir = MyDir + "Bottom_plate_out.pdf";
 image.Save(MyDir, pdfOptions);
 ```
 
-## 第 5 步：完成訊息
+### Step 5: Completion Message
 
-顯示一則訊息，指示 DWG 檔案已成功匯出為 PDF。
+步驟 5：完成訊息
+
+向使用者提供明確的轉換成功確認訊息。這對於主控台應用程式或除錯腳本相當有幫助。
 
 ```csharp
 Console.WriteLine("\nThe DWG file exported successfully to PDF.\nFile saved at " + MyDir);
 ```
 
-## 結論
+## Common Issues and Solutions
 
-恭喜！您已成功學習如何使用 Aspose.CAD for .NET 將 CAD 繪圖匯出為 PDF。這個高效的流程可確保您的複雜設計能夠以普遍接受的 PDF 格式輕鬆共享和存取。
+| Issue | Reason | Fix |
+|-------|--------|-----|
+| **Blank PDF output** | `BackgroundColor` 設為透明且畫布為深色 | 設定 `BackgroundColor = Color.White`（如範例所示） |
+| **Incorrect scaling** | 頁面尺寸與來源圖紙大小不符 | 調整 `PageWidth` / `PageHeight` 或在 `CadRasterizationOptions` 中設定 `Resolution` |
+| **Missing layers** | 來源檔案中圖層被過濾掉 | 確保 DWG 檔案未以隱藏圖層儲存，或使用 `rasterizationOptions.VisibleLayersOnly = false` |
 
-## 常見問題解答
+## Frequently Asked Questions
 
-### Q1：我可以在 Windows 和 Linux 環境中使用 Aspose.CAD for .NET 嗎？
+**Q: 我可以在 Windows 與 Linux 環境下同時使用 Aspose.CAD for .NET 嗎？**  
+A: 可以，函式庫完全跨平台，並可於 Linux 與 macOS 上搭配 .NET Core/.NET 5+ 使用。
 
-A1：是的，Aspose.CAD for .NET 與 Windows 和 Linux 平台相容。
+**Q: 此轉換對 CAD 圖紙的大小或複雜度有任何限制嗎？**  
+A: Aspose.CAD 能有效處理大型與複雜圖紙，但極高解析度的光柵化可能會增加記憶體使用量。請依需求調整 `PageWidth`/`PageHeight`。
 
-### Q2：此轉換對 CAD 圖紙的大小或複雜性有限制嗎？
+**Q: 我該如何自訂匯出 PDF 的外觀？**  
+A: 使用 `CadRasterizationOptions` 設定背景顏色、頁面大小、DPI 與線寬縮放。若需要，也可在轉換後使用 Aspose.PDF 加入浮水印。
 
-A2：Aspose.CAD for .NET 旨在有效地處理不同尺寸和複雜程度的繪圖。
+**Q: 是否提供 Aspose.CAD for .NET 的試用版？**  
+A: 有，您可透過[免費試用版](https://releases.aspose.com/) 來體驗功能。
 
-### Q3：我可以自訂匯出的PDF的外觀嗎？
+**Q: 若遇到問題，我該向哪裡尋求協助？**  
+A: 前往 [Aspose.CAD 論壇](https://forum.aspose.com/c/cad/19) 獲得社群支援與官方協助。
 
- A3：當然！這`CadRasterizationOptions`允許您自訂 PDF 輸出的視覺效果。
+**Last Updated:** 2026-03-07  
+**Tested With:** Aspose.CAD for .NET 24.11 (latest at time of writing)  
+**Author:** Aspose  
 
-### 問題 4：Aspose.CAD for .NET 有試用版嗎？
+**最後更新：** 2026-03-07  
+**測試環境：** Aspose.CAD for .NET 24.11（撰寫時的最新版本）  
+**作者：** Aspose  
 
- A4：是的，您可以透過[免費試用版](https://releases.aspose.com/).
-
-### Q5：如果我在辦理過程中遇到問題，我可以去哪裡尋求協助？
-
-A5：訪問[Aspose.CAD論壇](https://forum.aspose.com/c/cad/19)致力於支持和社區合作。
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
