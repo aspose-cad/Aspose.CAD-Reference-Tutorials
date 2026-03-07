@@ -1,10 +1,11 @@
 ---
-date: 2026-01-02
-description: Naučte se, jak nahradit písmo v DWG souborech pomocí Aspose.CAD pro Javu.
-  Podrobný návod krok za krokem pro přesné přizpůsobení stylů.
+date: 2026-03-07
+description: Naučte se, jak nahradit písmo v souborech DWG pomocí Aspose.CAD pro Javu.
+  Tento krok‑za‑krokem průvodce ukazuje, **jak nahradit písmo** konkrétního stylu
+  s přesností.
 linktitle: Substitute Font of a Particular Style in DWG
 second_title: Aspose.CAD Java API
-title: Jak nahradit písmo konkrétního stylu v DWG pomocí Aspose.CAD pro Javu
+title: Jak nahradit písmo konkrétního stylu v DWG pomocí Aspose.CAD pro Java
 url: /cs/java/cad-text-and-annotation/substitute-font-of-particular-style-in-dwg/
 weight: 12
 ---
@@ -17,36 +18,36 @@ weight: 12
 
 ## Úvod
 
-Ve světě CAD (Computer-Aided Design) jsou přesnost a detail zásadní a **znalost toho, jak nahradit písmo** v výkresu vám může ušetřit nespočet hodin přepracování. Aspose.CAD pro Java poskytuje vývojářům čistý programový způsob, jak upravovat soubory DWG, včetně možnosti změnit písmo konkrétního textového stylu. V tomto tutoriálu projdeme přesné kroky, jak nahradit písmo konkrétního stylu v souboru DWG, vysvětlíme, proč byste to mohli chtít udělat, a ukážeme, jak výsledek ověřit.
+Ve světě CAD (Computer‑Aided Design) jsou přesnost a detail naprosto zásadní a **znalost toho, jak nahradit písmo** v výkresu vám může ušetřit nespočet hodin přepracování. Aspose.CAD pro Java poskytuje vývojářům čistý programový způsob, jak upravovat soubory DWG, včetně možnosti změnit písmo konkrétního textového stylu. V tomto tutoriálu vás provedeme přesnými kroky, jak nahradit písmo určitého stylu v souboru DWG, vysvětlíme, proč byste to mohli chtít udělat, a ukážeme, jak výsledek ověřit.
 
 ## Rychlé odpovědi
-- **Co znamená „replace font“ v DWG?** Změna primárního písma spojeného s definicí textového stylu.  
-- **Která knihovna to řeší?** Aspose.CAD pro Java.  
-- **Potřebuji licenci?** Bezplatná zkušební verze funguje pro testování; pro produkční nasazení je vyžadována komerční licence.  
-- **Mohu změnit více stylů najednou?** Ano – projděte kolekci stylů a nastavte písmo pro každý z nich.  
+- **Co znamená „replace font“ v DWG?** Změna primárního písma přiřazeného definici textového stylu.  
+- **Která knihovna to provádí?** Aspose.CAD pro Java.  
+- **Potřebuji licenci?** Bezplatná zkušební verze stačí pro testování; pro produkční nasazení je vyžadována komerční licence.  
+- **Mohu změnit více stylů najednou?** Ano – projděte kolekci stylů a nastavte písmo u každého z nich.  
 - **Je kód kompatibilní s Java 8+?** Rozhodně, API cílí na Java 8 a novější verze.
 
 ## Co je náhrada písma v DWG?
-Náhrada písma znamená aktualizaci *primárního písma* vlastnosti textového stylu (také nazývaného „styl“ v terminologii DWG). Když výkres odkazuje na tento styl, každý kus textu automaticky přijme nové písmo, čímž se zajistí jednotný vzhled v celém souboru.
+Náhrada písma znamená aktualizaci *primární vlastnosti písma* textového stylu (také nazývaného „style“ v terminologii DWG). Když výkres odkazuje na tento styl, každý kus textu automaticky přijme nové písmo, čímž se zajistí jednotný vzhled v celém souboru.
 
-## Proč upravovat textový styl DWG?
-- **Udržet konzistenci značky:** Používejte firemní písma ve všech výkresech.  
-- **Opravit chybějící písma:** Nahraďte nedostupná písma těmi, která jsou nainstalována v cílovém systému.  
-- **Připravit pro tisk/plotování:** Některé plottery vyžadují specifická písma pro přesný výstup.  
+## Proč upravovat textový styl v DWG?
+- **Udržení konzistence značky:** Používejte firemní písma ve všech výkresech.  
+- **Oprava chybějících písem:** Nahraďte nedostupná písma těmi, která jsou nainstalována v cílovém systému.  
+- **Příprava na tisk/plotování:** Některé plottery vyžadují konkrétní písma pro přesný výstup.  
 
 ## Předpoklady
 
-Před zahájením tohoto tutoriálu se ujistěte, že máte nastaveno následující:
+Než se pustíte do tohoto tutoriálu, ujistěte se, že máte připraveno následující:
 
 1. **Aspose.CAD pro Java knihovna:** Stáhněte a nainstalujte knihovnu Aspose.CAD. Knihovnu a její dokumentaci najdete [zde](https://releases.aspose.com/cad/java/).
 
 2. **Java Development Kit (JDK):** Ujistěte se, že máte na svém počítači nainstalovanou Javu.
 
-Nyní, když máte potřebné nástroje, přejděme do další sekce.
+Nyní, když máte potřebné nástroje, přejděme k další sekci.
 
-## Importování jmenných prostorů (vyžadováno pro úpravu textového stylu DWG)
+## Import Namespaces (required to modify DWG text style)
 
-V Javě je import správných jmenných prostorů klíčový pro využití externích knihoven. V tomto případě importujte potřebné jmenné prostory Aspose.CAD. Zde je, jak to můžete udělat:
+V Javě je import správných namespaces klíčový pro využití externích knihoven. V tomto případě nezapomeňte importovat potřebné Aspose.CAD namespaces. Zde je ukázka, jak na to:
 
 ```java
 import com.aspose.cad.Image;
@@ -56,7 +57,7 @@ import com.aspose.cad.fileformats.cad.CadImage;
 
 Nyní rozdělíme ukázkový kód do několika kroků.
 
-## Krok 1: Nastavte adresář zdrojů
+## Krok 1: Nastavte adresář zdrojů
 
 ```java
 // The path to the resource directory.
@@ -65,7 +66,7 @@ String dataDir = "Your Document Directory" + "CADConversion/";
 
 Nahraďte `"Your Document Directory"` cestou k vašemu skutečnému adresáři s dokumenty.
 
-## Krok 2: Načtěte CAD výkres
+## Krok 2: Načtěte CAD výkres
 
 ```java
 String srcFile = dataDir + "conic_pyramid.dxf";
@@ -74,68 +75,85 @@ String srcFile = dataDir + "conic_pyramid.dxf";
 CadImage cadImage = (CadImage)Image.load(srcFile);
 ```
 
-Ujistěte se, že `"conic_pyramid.dxf"` nahradíte skutečným názvem vašeho CAD výkresu.
+Nezapomeňte nahradit `"conic_pyramid.dxf"` skutečným názvem vašeho CAD výkresu.
 
-## Krok 3: Zadejte písmo pro styl (změna písma stylu DWG)
+## Krok 3: Zadejte písmo pro styl (změna písma DWG stylu)
 
 ```java
 // Specify the font for one particular style
 ((CadStyleTableObject)cadImage.getStyles().get_Item(0)).setPrimaryFontName("Arial");
 ```
 
-Upravte název písma ("Arial" v tomto příkladu) podle vašich požadavků. Tento řádek **nastavuje primární písmo DWG** styl, čímž efektivně nahrazuje staré písmo.
+Upravte název písma („Arial“ v tomto příkladu) podle svých požadavků. Tento řádek **nastavuje primární písmo DWG** stylu a tím nahradí staré písmo.
 
 ## Časté problémy a řešení
 
 | Problém | Příčina | Řešení |
 |---------|----------|--------|
 | Písmo se po uložení nezmění | Výkres nebyl po úpravě uložen | Zavolejte `cadImage.save(outputPath);` po nastavení písma. |
-| Název písma není rozpoznán | Písmo není nainstalováno v systému, kde kód běží | Nainstalujte písmo nebo použijte obecný název písma (např. "Tahoma"). |
+| Název písma není rozpoznán | Písmo není nainstalováno v systému, kde kód běží | Nainstalujte písmo nebo použijte obecný název (např. „Tahoma“). |
 | `ClassCastException` | Špatný typ objektu z `get_Item` | Ujistěte se, že index ukazuje na `CadStyleTableObject`. |
 
-## Často kladené otázky
+## FAQ
 
-### Q1: Mohu nahradit více fontů v jednom souboru DWG?
+### Q1: Mohu nahradit více písem v jednom souboru DWG?
 
 A1: Ano, můžete projít různé styly a nastavit primární písmo pro každý styl samostatně.
 
-### Q2: Existuje limit na názvy fontů, které mohu použít?
+### Q2: Existuje omezení počtu názvů písem, které mohu použít?
 
-A2: Ne, můžete použít jakýkoli platný název písma dostupný ve vašem systému.
+A2: Ne, můžete použít libovolný platný název písma dostupný ve vašem systému.
 
-### Q3: Mohu vrátit zpět nahrazení fontů?
+### Q3: Můžu vrátit zpět provedené náhrady písem?
 
 A3: Aspose.CAD poskytuje flexibilitu; můžete změny vrátit nebo uložit různé verze vašeho DWG souboru.
 
 ### Q4: Platí tento tutoriál i pro jiné CAD formáty?
 
-A4: Přestože se příklad zaměřuje na DWG, podobné principy lze aplikovat i na jiné podporované CAD formáty.
+A4: Přestože se příklad zaměřuje na DWG, podobné principy lze aplikovat i na ostatní podporované CAD formáty.
 
-### Q5: Jak mohu získat podporu pro Aspose.CAD pro Java?
+### Q5: Jak získám podporu pro Aspose.CAD pro Java?
 
-A5: Navštivte [Aspose.CAD fórum](https://forum.aspose.com/c/cad/19) pro komunitní podporu a diskuze.
+A5: Navštivte [Aspose.CAD fórum](https://forum.aspose.com/c/cad/19) pro komunitní podporu a diskuse.
 
 ## Další často kladené otázky
 
 **Q: Jak uložit upravený výkres?**  
-A: Po nastavení nového písma zavolejte `cadImage.save(dataDir + "output.dwg");`, čímž zapíšete změny do nového souboru.
+A: Po nastavení nového písma zavolejte `cadImage.save(dataDir + "output.dwg");` a změny zapíšete do nového souboru.
 
-**Q: Mohu nahradit písmo pouze u objektů anotací?**  
-A: Ano, před aplikací `setPrimaryFontName` odfiltrujte kolekci stylů pro styly související s anotacemi.
+**Q: Můžu nahradit písmo jen u anotací?**  
+A: Ano, před aplikací `setPrimaryFontName` můžete filtrovat kolekci stylů na ty, které souvisejí s anotacemi.
 
-**Q: Je možné zobrazit změnu písma bez ukládání?**  
-A: Můžete vykreslit obrázek do bitmapy pomocí `cadImage.save(outputStream, new ImageOptions());` a tak si změnu prohlédnout v paměti.
+**Q: Lze si změnu písma prohlédnout bez ukládání?**  
+A: Můžete vykreslit obrázek do bitmapy pomocí `cadImage.save(outputStream, new ImageOptions());` a náhled zobrazit v paměti.
 
-**Q: Podporuje Aspose.CAD TrueType a OpenType písma?**  
-A: Jak TrueType (.ttf), tak OpenType (.otf) písma jsou plně podporována, pokud jsou nainstalována v hostitelském OS.
+**Q: Podporuje Aspose.CAD TrueType i OpenType písma?**  
+A: Ano, jak TrueType (.ttf), tak OpenType (.otf) písma jsou plně podporována, pokud jsou nainstalována v hostitelském OS.
+
+## Často kladené otázky
+
+**Q: Jaká verze Aspose.CAD je pro tento kód vyžadována?**  
+A: API použité v tomto tutoriálu je dostupné v Aspose.CAD pro Java 24.11 a novějších verzích.
+
+**Q: Můžu tento kód spustit na Linux serveru?**  
+A: Ano, pokud jsou na serveru nainstalována požadovaná písma a je k dispozici Java 8+.
+
+**Q: Jak vypsat všechny dostupné textové styly před změnou písma?**  
+A: Projděte `cadImage.getStyles()` a vypište název každého stylu spolu s aktuálním primárním písmem.
+
+**Q: Existuje způsob, jak hromadně zpracovat mnoho DWG souborů?**  
+A: Zabalte logiku do smyčky, která načte každý soubor, aktualizuje požadovaný styl a uloží výstup.
+
+**Q: Ovlivní změna primárního písma rozměry nebo rozestupy?**  
+A: Metričky písma se mohou lišit, takže po změně možná budete muset upravit výšku textu nebo jeho umístění.
 
 ## Závěr
 
-Aspose.CAD pro Java otevírá výkonné možnosti pro manipulaci s CAD, a **jak nahradit písmo** je jen jednou z jeho mnoha schopností. Experimentujte s různými styly, používejte sekundární klíčová slova jako *modify DWG text style* nebo *set primary font dwg* pro jemné doladění vašich výkresů a integrujte kód do větších automatizačních pipeline pro dávkové zpracování.
+Aspose.CAD pro Java otevírá výkonné možnosti manipulace s CAD soubory a **jak nahradit písmo** je jen jednou z mnoha jeho schopností. Experimentujte s různými styly, použijte sekundární klíčová slova jako *modify DWG text style* nebo *set primary font dwg* pro doladění vašich výkresů a integrujte kód do větších automatizačních pipeline pro hromadné zpracování.
 
 ---
 
-**Poslední aktualizace:** 2026-01-02  
+**Poslední aktualizace:** 2026-03-07  
 **Testováno s:** Aspose.CAD pro Java 24.11  
 **Autor:** Aspose  
 
