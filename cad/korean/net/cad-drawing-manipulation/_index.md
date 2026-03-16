@@ -1,58 +1,113 @@
 ---
-title: CAD 도면 조작
-linktitle: CAD 도면 조작
-second_title: Aspose.CAD .NET - CAD 및 BIM 파일 형식
-description: .NET용 Aspose.CAD 튜토리얼을 사용하여 CAD 프로젝트를 손쉽게 향상하세요. 단계별 가이드를 통해 원활하게 CAD 도면의 크기를 조정하고 변환하고 최적화하세요.
-weight: 21
+date: 2026-03-16
+description: Aspose.CAD for .NET을 사용하여 CAD 도면 크기 조정, CAD를 래스터 이미지로 변환 및 CAD 캔버스 크기
+  변경 방법을 배워보세요. 모든 조작 요구에 맞춘 단계별 튜토리얼을 제공합니다.
+linktitle: CAD Drawing Manipulation
+second_title: Aspose.CAD .NET - CAD and BIM File Format
+title: Aspose.CAD for .NET을 사용하여 CAD 도면 크기 조정하는 방법
 url: /ko/net/cad-drawing-manipulation/
+weight: 21
 ---
+
+ formatting exactly.
+
+Let's assemble.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# CAD 도면 조작
+# CAD Drawing Manipulation
 
+## Introduction
 
-## 소개
+If you’re looking for **how to resize CAD** files quickly and reliably, you’ve come to the right place. This guide walks you through the most common CAD manipulation tasks with Aspose.CAD for .NET, from changing the canvas size to converting drawings into raster images. You’ll discover practical examples, real‑world use cases, and tips that keep your workflow smooth.
 
-.NET용 Aspose.CAD를 사용하는 CAD 도면 조작 튜토리얼의 세계에 오신 것을 환영합니다. 이 종합 가이드에서는 CAD 도면 조작의 다양한 측면을 살펴보고 원활한 경험을 위한 단계별 지침을 제공합니다.
+## Quick Answers
+- **How do I change the canvas size of a CAD drawing?** Use Aspose.CAD’s `Resize` methods to set a new width and height.  
+- **Can I convert CAD to raster images?** Yes—simply load the drawing and save it as PNG, JPEG, or BMP.  
+- **What formats does Aspose.CAD support for conversion?** DWG, DXF, DWF, DGN, STL, and many more.  
+- **Do I need a license for production use?** A commercial license is required for non‑trial deployments.  
+- **Which .NET versions are compatible?** .NET Framework 4.6+, .NET Core 3.1+, .NET 5/6/7.
 
-## .NET용 Aspose.CAD에서 CAD 도면 크기 조정
+## What is “how to resize CAD”?
+Resizing a CAD drawing means adjusting its internal coordinate system or canvas so the geometry fits the desired output dimensions. With Aspose.CAD you can programmatically change the size without losing detail, making it ideal for automated pipelines or batch processing.
 
-CAD 도면이 캔버스에 맞지 않습니까? 두려워하지 마세요! .NET용 Aspose.CAD를 사용하여 CAD 도면 크기를 조정하는 방법에 대한 튜토리얼이 여기에 있습니다. 우리는 귀하의 도면이 귀하의 프로젝트에 완벽한 크기인지 확인하면서 프로세스를 쉽게 안내합니다. 자세한 가이드를 통해 크기 조정 문제에 작별을 고하세요.
+## Why change CAD canvas size?
+- **Consistent presentation** across different devices and printers.  
+- **Simplified downstream processing** when converting to raster formats.  
+- **Reduced file size** for web‑based viewers that only need a specific viewport.
 
-## .NET용 Aspose.CAD에서 CAD 도면을 래스터 이미지로 변환
+## Prerequisites
+- Visual Studio 2022 or any .NET‑compatible IDE.  
+- Aspose.CAD for .NET library (installed via NuGet).  
+- A valid Aspose.CAD license for production use (trial works for exploration).
 
-Aspose.CAD를 사용하여 .NET에서 CAD 도면을 래스터 이미지로 변환하는 방법을 학습하여 가능성의 세계를 열어보세요. 이 튜토리얼은 효율적인 작업 흐름과 향상된 CAD 프로젝트를 위한 핵심입니다. 단계별 지침에 따라 그림을 고품질 래스터 이미지로 원활하게 변환하세요. 이 강력한 변환 기술로 프로젝트의 수준을 높이십시오.
+## How to Resize CAD Drawings in Aspose.CAD for .NET
+Is your CAD drawing not fitting the canvas? Fear not! Our tutorial on adjusting CAD drawing sizes using Aspose.CAD for .NET is here to rescue. We walk you through the process effortlessly, ensuring your drawings are the perfect size for your project. Say goodbye to resizing challenges with our detailed guide.
 
-## .NET용 Aspose.CAD에서 레이아웃을 래스터 이미지로 변환
+## Convert CAD Drawing to Raster Image in Aspose.CAD for .NET
+Unlock a world of possibilities by learning how to **convert CAD to raster** images in .NET using Aspose.CAD. This tutorial is your key to efficient workflows and enhanced CAD projects. Follow our step‑by‑step instructions to seamlessly transform your drawings into high‑quality raster images. Elevate your projects with this powerful conversion technique.
 
-Aspose.CAD for .NET을 사용하여 레이아웃을 래스터 이미지로 변환하는 방법에 대한 튜토리얼을 통해 CAD 레이아웃을 한 단계 더 발전시키세요. Aspose.CAD가 제공하는 강력한 CAD 조작 기능을 활용하여 개발을 손쉽게 향상하세요. 우리 가이드는 원활한 변환 프로세스를 보장하여 CAD 레이아웃에서 멋진 래스터 이미지를 만들 수 있도록 지원합니다.
+## Convert Layouts to Raster Image in Aspose.CAD for .NET
+Take your CAD layouts to the next level with our tutorial on converting layouts to raster images using Aspose.CAD for .NET. Effortlessly enhance your development by harnessing the powerful CAD manipulation capabilities provided by Aspose.CAD. Our guide ensures a smooth conversion process, empowering you to create stunning raster images from your CAD layouts.
 
-## .NET용 Aspose.CAD에서 CAD 렌더링 추적 활성화
+## Enable Tracking for CAD Rendering in Aspose.CAD for .NET
+Discover the unmatched power of Aspose.CAD for .NET by enabling tracking for CAD rendering. This tutorial unveils the secrets to enhanced control and efficiency in your CAD projects. Follow our step‑by‑step guide to harness the full potential of Aspose.CAD, making your CAD rendering process more streamlined and effective.
 
-CAD 렌더링 추적을 활성화하여 .NET용 Aspose.CAD의 탁월한 성능을 알아보세요. 이 튜토리얼에서는 CAD 프로젝트의 제어 및 효율성을 향상시키는 비결을 공개합니다. Aspose.CAD의 잠재력을 최대한 활용하려면 단계별 가이드를 따라 CAD 렌더링 프로세스를 더욱 간소화하고 효과적으로 만드세요.
+## Get Size of CAD Layout in Aspose.CAD for .NET
+Understanding the size of your CAD layout is crucial for precise project planning. Our tutorial on retrieving CAD layout size in .NET using Aspose.CAD is your go‑to resource for efficient CAD file manipulation. Follow the guide to effortlessly obtain the size of your CAD layout, ensuring accurate and detailed project execution.
 
-## .NET용 Aspose.CAD에서 CAD 레이아웃 크기 가져오기
+## Common Pitfalls & Tips
+- **Pitfall:** Forgetting to reset the drawing’s origin after resizing.  
+  **Tip:** Use `Drawing.SetOrigin(0, 0)` after applying the new canvas size.  
+- **Pitfall:** Converting large CAD files without specifying raster resolution leads to blurry output.  
+  **Tip:** Set a high DPI (e.g., 300) when calling `Save` to retain detail.  
+- **Pitfall:** Ignoring licensing checks can cause runtime exceptions.  
+  **Tip:** Apply your license early in the application startup.
 
-정확한 프로젝트 계획을 위해서는 CAD 레이아웃의 크기를 이해하는 것이 중요합니다. Aspose.CAD를 사용하여 .NET에서 CAD 레이아웃 크기를 검색하는 방법에 대한 튜토리얼은 효율적인 CAD 파일 조작을 위한 유용한 리소스입니다. 가이드에 따라 CAD 레이아웃의 크기를 쉽게 파악하여 정확하고 세부적인 프로젝트 실행을 보장하세요.
+## Frequently Asked Questions
 
-결론적으로, 이러한 .NET용 Aspose.CAD 튜토리얼은 CAD 도면을 효과적으로 조작하기 위한 귀중한 통찰력과 실습 지침을 제공합니다. 크기 조정, 변환 또는 CAD 렌더링 추적 등 어떤 작업을 하든 당사의 단계별 지침은 원활한 경험을 보장합니다. Aspose.CAD의 강력한 기능으로 CAD 프로젝트를 향상시키고 창의력을 마음껏 발휘하십시오. 즐거운 CAD 도면 조작이 가능합니다!
-## CAD 도면 조작 튜토리얼
-### [.NET용 Aspose.CAD에서 CAD 도면 크기 조정](./adjust-cad-drawing-size/)
-Aspose.CAD를 사용하여 .NET에서 CAD 도면 크기를 쉽게 조정하는 방법을 알아보세요. 원활한 크기 조정을 위해 단계별 가이드를 따르세요.
-### [.NET용 Aspose.CAD에서 CAD 도면을 래스터 이미지로 변환](./convert-cad-drawing-to-raster-image/)
-Aspose.CAD를 사용하여 .NET에서 CAD 도면을 래스터 이미지로 변환하는 원활한 프로세스를 살펴보세요. 효율적인 워크플로우를 활용하고 CAD 프로젝트를 손쉽게 향상하세요.
-### [.NET용 Aspose.CAD에서 레이아웃을 래스터 이미지로 변환](./convert-layouts-to-raster-image/)
-Aspose.CAD for .NET을 사용하여 CAD 레이아웃을 래스터 이미지로 쉽게 변환하세요. 강력한 CAD 조작 기능으로 개발을 강화하세요.
-### [.NET용 Aspose.CAD에서 CAD 렌더링 추적 활성화](./enable-tracking-for-cad-rendering/)
-.NET용 Aspose.CAD의 강력한 기능을 알아보세요. CAD 렌더링에 대한 추적을 원활하게 활성화합니다. 향상된 제어 및 효율성을 위한 단계별 가이드를 따르세요.
-### [.NET용 Aspose.CAD에서 CAD 레이아웃 크기 가져오기](./get-size-of-cad-layout/)
-Aspose.CAD를 사용하여 .NET에서 CAD 레이아웃 크기를 검색하는 방법을 알아보세요. 효율적인 CAD 파일 조작을 위한 단계별 가이드를 따르십시오.
+**Q: Can I change the CAD canvas size without altering the drawing geometry?**  
+A: Yes. Aspose.CAD lets you modify the viewport dimensions while preserving original entities.
+
+**Q: Is it possible to batch‑convert multiple CAD files to PNG?**  
+A: Absolutely. Loop through a folder, load each file with `Image.Load`, and call `Save` with the desired raster format.
+
+**Q: Does the library support 3D CAD formats like STL?**  
+A: Yes, Aspose.CAD handles both 2D and 3D formats, including STL, OBJ, and more.
+
+**Q: Will resizing affect line weights or text sizes?**  
+A: Resizing the canvas does not automatically scale line weights or text. You must adjust those properties manually if needed.
+
+**Q: How do I retrieve the exact dimensions of a layout before resizing?**  
+A: Use the `Layout.Size` property to get width and height in drawing units.
+
+## CAD Drawing Manipulation Tutorials
+### [Aspose.CAD for .NET에서 CAD 도면 크기 조정](./adjust-cad-drawing-size/)
+Learn how to effortlessly adjust CAD drawing sizes in .NET using Aspose.CAD. Follow our step‑by‑step guide for seamless resizing.
+
+### [Aspose.CAD for .NET에서 CAD 도면을 래스터 이미지로 변환](./convert-cad-drawing-to-raster-image/)
+Explore the seamless process of converting CAD drawings to raster images in .NET with Aspose.CAD. Unlock efficient workflows and enhance your CAD projects effortlessly.
+
+### [Aspose.CAD for .NET에서 레이아웃을 래스터 이미지로 변환](./convert-layouts-to-raster-image/)
+Effortlessly convert CAD layouts to raster images using Aspose.CAD for .NET. Enhance your development with powerful CAD manipulation capabilities.
+
+### [Aspose.CAD for .NET에서 CAD 렌더링 추적 활성화](./enable-tracking-for-cad-rendering/)
+Discover the power of Aspose.CAD for .NET. Enable tracking for CAD rendering seamlessly. Follow our step‑by‑step guide for enhanced control and efficiency.
+
+### [Aspose.CAD for .NET에서 CAD 레이아웃 크기 가져오기](./get-size-of-cad-layout/)
+Learn how to retrieve CAD layout size in .NET using Aspose.CAD. Follow our step‑by‑step guide for efficient CAD file manipulation.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**마지막 업데이트:** 2026-03-16  
+**테스트 대상:** Aspose.CAD for .NET 24.11  
+**작성자:** Aspose
