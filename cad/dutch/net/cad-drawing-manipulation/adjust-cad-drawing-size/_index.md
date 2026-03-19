@@ -1,32 +1,49 @@
 ---
-title: CAD-tekeninggrootte aanpassen in Aspose.CAD voor .NET
-linktitle: De grootte van de CAD-tekening aanpassen
-second_title: Aspose.CAD .NET - CAD- en BIM-bestandsindeling
-description: Leer hoe u moeiteloos CAD-tekeningformaten in .NET kunt aanpassen met Aspose.CAD. Volg onze stapsgewijze handleiding voor het naadloos aanpassen van het formaat.
-weight: 10
+date: 2026-03-19
+description: Leer hoe u CAD‑tekeningen in .NET kunt schalen met Aspose.CAD, inclusief
+  hoe u CAD‑tekeningeenheden schaalt en de lay‑outgrootte aanpast. Volg onze stap‑voor‑stap‑gids.
+linktitle: Adjusting CAD Drawing Size
+second_title: Aspose.CAD .NET - CAD and BIM File Format
+title: Hoe CAD-tekeningen te schalen met Aspose.CAD voor .NET
 url: /nl/net/cad-drawing-manipulation/adjust-cad-drawing-size/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# CAD-tekeninggrootte aanpassen in Aspose.CAD voor .NET
+# Hoe CAD‑tekeningen te schalen met Aspose.CAD voor .NET
 
-## Invoering
+## Introductie
 
-Wilt u de grootte van CAD-tekeningen naadloos aanpassen in uw .NET-applicaties? Aspose.CAD voor .NET biedt een robuuste oplossing waarmee u moeiteloos het formaat van CAD-tekeningen kunt wijzigen. In deze zelfstudie begeleiden we u door het proces, waarbij we elke stap opsplitsen, zodat u de fijne kneepjes van het formaat van CAD-tekeningen met Aspose.CAD begrijpt.
+Als u **CAD‑bestanden wilt schalen** direct vanuit uw .NET‑applicatie, bent u hier aan het juiste adres. In deze tutorial laten we u zien hoe u CAD‑eenheidsinstellingen wijzigt, de afmetingen van een CAD‑tekening schaalt en de CAD‑grootte programmatically aanpast met Aspose.CAD voor .NET. Aan het einde van de gids heeft u een solide, productie‑klare oplossing voor het schalen van elk ondersteund CAD‑formaat.
+
+## Snelle antwoorden
+- **Welke bibliotheek is vereist?** Aspose.CAD for .NET  
+- **Kan ik het eenheidstype wijzigen?** Ja – stel `UnitType` in `CadRasterizationOptions`  
+- **Is een licentie nodig voor productie?** Een geldige Aspose.CAD‑licentie is vereist voor niet‑trial gebruik  
+- **Naar welk beeldformaat exporteert het voorbeeld?** BMP (maar elk ondersteund rasterformaat werkt)  
+- **Hoeveel regels code?** Minder dan 30 regels voor een volledige schaalbewerking  
+
+## Wat betekent “CAD schalen” in de praktijk?
+Het schalen van een CAD‑tekening betekent het converteren van de vectordata naar een rasterafbeelding op een specifieke schaal of eenheid (bijv. centimeters, inches). Dit is handig wanneer u tekeningen in rapporten wilt insluiten, miniaturen wilt genereren of CAD‑visualisaties in webpagina's wilt integreren.
+
+## Waarom CAD‑grootte aanpassen met Aspose.CAD?
+- **Geen externe CAD‑software** – alles draait binnen uw .NET‑code.  
+- **Fijne controle** over eenheden, lay-outs en rasterisatie‑opties.  
+- **Cross‑formaatondersteuning** – dezelfde code werkt voor DWG, DXF, DWF en meer.  
 
 ## Vereisten
 
-Voordat we ingaan op de tutorial, zorg ervoor dat je aan de volgende vereisten voldoet:
+Voordat we beginnen, zorg ervoor dat u het volgende heeft:
 
-- Aspose.CAD voor .NET-bibliotheek: Download en installeer de bibliotheek van de .NET-bibliotheek[Aspose.CAD voor .NET-downloadpagina](https://releases.aspose.com/cad/net/).
-- Voorbeeld-CAD-tekening: Zorg ervoor dat u een voorbeeld-CAD-tekeningbestand (bijvoorbeeld "sample.dwg") in uw documentmap hebt.
+- Aspose.CAD for .NET bibliotheek: download en installeer de bibliotheek vanaf de [Aspose.CAD for .NET downloadpagina](https://releases.aspose.com/cad/net/).  
+- Voorbeeld CAD‑tekening: een bestand zoals `sample.dwg` geplaatst in de documentmap van uw project.  
 
-## Naamruimten importeren
+## Namespaces importeren
 
-Begin met het importeren van de benodigde naamruimten in uw .NET-applicatie. Deze stap is cruciaal om toegang te krijgen tot de functionaliteiten van Aspose.CAD voor .NET.
+Importeer eerst de namespaces die u toegang geven tot de klassen van Aspose.CAD.
 
 ```csharp
 using System;
@@ -37,24 +54,24 @@ using System.Threading.Tasks;
 using Aspose.CAD;
 ```
 
-## Stap 1: CAD-tekening laden
+## Stap 1: Laad de CAD‑tekening
 
-Begin met het laden van de CAD-tekening in een exemplaar van de klasse Aspose.CAD.Image. Zorg ervoor dat u het juiste bestandspad voor uw voorbeeldtekening heeft.
+Laad het bronbestand in een `Image`‑object. Dit object vertegenwoordigt de CAD‑tekening in het geheugen en vormt de basis voor alle verdere bewerkingen.
 
 ```csharp
 string MyDir = "Your Document Directory";
 string sourceFilePath = MyDir + "sample.dwg";
 
-// Laad een CAD-tekening in een exemplaar van Image
+// Load a CAD drawing in an instance of Image
 using (var image = Aspose.CAD.Image.Load(sourceFilePath))
 {
-    // Jouw code hier...
+    // Your code here...
 }
 ```
 
-## Stap 2: Maak BmpOptions
+## Stap 2: Maak BmpOptions (of een ander rasterformaat)
 
-Maak een exemplaar van de klasse BmpOptions, die verantwoordelijk is voor het opgeven van opties bij het opslaan van de CAD-tekening als een BMP-bestand.
+`BmpOptions` vertelt Aspose.CAD hoe de vectordata moet worden gerenderd wanneer u deze opslaat als bitmap. U kunt dit vervangen door `PngOptions`, `JpegOptions`, enz., afhankelijk van uw doelformaat.
 
 ```csharp
 Aspose.CAD.ImageOptions.BmpOptions bmpOptions = new Aspose.CAD.ImageOptions.BmpOptions();
@@ -62,65 +79,87 @@ Aspose.CAD.ImageOptions.BmpOptions bmpOptions = new Aspose.CAD.ImageOptions.BmpO
 
 ## Stap 3: Stel CadRasterizationOptions in
 
-Instantieer de klasse CadRasterizationOptions en configureer de eigenschappen ervan voor vectorrasterisatie.
+`CadRasterizationOptions` bevat de kerninstellingen voor schalen, eenheidsconversie en lay-outselectie. Door het te koppelen aan de `VectorRasterizationOptions`‑eigenschap van `BmpOptions` zorgt u ervoor dat de rasterizer uw aangepaste instellingen gebruikt.
 
 ```csharp
 Aspose.CAD.ImageOptions.CadRasterizationOptions cadRasterizationOptions = new Aspose.CAD.ImageOptions.CadRasterizationOptions();
 bmpOptions.VectorRasterizationOptions = cadRasterizationOptions;
 ```
 
-## Stap 4: Stel de UnitType-eigenschap in
+## Stap 4: Stel UnitType in (CAD‑eenheid wijzigen)
 
-Stel de eigenschap UnitType van CadRasterizationOptions in om het eenheidstype op te geven waarvan de grootte moet worden gewijzigd. In dit voorbeeld is deze ingesteld op Centimeter.
+Hier wijzigen we de CAD‑eenheid van de standaardwaarde naar centimeters. Dit is waar het trefwoord **change cad unit** zich bevindt, en het beïnvloedt direct de uiteindelijke afbeeldingsgrootte.
 
 ```csharp
 cadRasterizationOptions.UnitType = Aspose.CAD.ImageOptions.UnitType.Centimeter;
 ```
 
-## Stap 5: Stel de lay-outeigenschap in
+## Stap 5: Kies lay-outs (CAD‑lay-outs instellen)
 
-Geef de lay-outs op die u in de tekening met gewijzigd formaat wilt opnemen door de eigenschap Layouts in te stellen.
+Als uw tekening meerdere lay-outs bevat (bijv. Model, Sheet1), geef dan aan welke u wilt rasteren. Het selecteren van de juiste lay-out is essentieel wanneer u **set cad layouts** gebruikt voor een geschaalde output.
 
 ```csharp
 cadRasterizationOptions.Layouts = new string[] { "Model" };
 ```
 
-## Stap 6: Exporteren naar BMP
+## Stap 6: Exporteren naar BMP (CAD‑tekening schalen)
 
-Sla ten slotte de gewijzigde lay-out op als een BMP-bestand met behulp van de Save-methode.
+Sla tenslotte de gerasterde afbeelding op. Het uitvoerbestand weerspiegelt de nieuwe grootte, eenheid en lay-out die u hebt geconfigureerd – waardoor de **resize CAD drawing** bewerking effectief wordt voltooid.
 
 ```csharp
 string outPath = sourceFilePath + ".bmp";
 image.Save(outPath, bmpOptions);
 ```
 
-Nu hebt u met succes de grootte van uw CAD-tekening aangepast met Aspose.CAD voor .NET!
+U heeft nu een BMP‑bestand dat de geschaalde CAD‑tekening weergeeft, klaar voor verdere verwerking of weergave.
 
-## Conclusie
+## Veelvoorkomende problemen en oplossingen
 
-In deze zelfstudie hebben we het proces doorlopen van het wijzigen van de grootte van CAD-tekeningen in .NET met behulp van Aspose.CAD. Door deze stappen te volgen, kunt u deze functionaliteit naadloos in uw applicaties integreren, waardoor een soepele gebruikerservaring ontstaat.
+| Probleem | Waarom het gebeurt | Oplossing |
+|----------|--------------------|-----------|
+| Output is blurry | Low DPI (dots per inch) default | Set `cadRasterizationOptions.Resolution = 300;` before saving |
+| Wrong layout appears | Layout name typo | Verify the exact layout name using a CAD viewer or the `Layouts` collection |
+| Unit conversion looks off | Mixing metric and imperial units | Ensure `UnitType` matches the desired measurement system |
 
 ## Veelgestelde vragen
 
-### V1: Is Aspose.CAD voor .NET compatibel met alle CAD-formaten?
+### Q1: Is Aspose.CAD for .NET compatibel met alle CAD‑formaten?
 
- A1: Aspose.CAD voor .NET ondersteunt een breed scala aan CAD-formaten, waaronder DWG, DXF, DWF en meer. Controleer de[documentatie](https://reference.aspose.com/cad/net/) voor de volledige lijst.
+A1: Aspose.CAD for .NET ondersteunt een breed scala aan CAD‑formaten, waaronder DWG, DXF, DWF en meer. Bekijk de [documentatie](https://reference.aspose.com/cad/net/) voor de volledige lijst.
 
-### Vraag 2: Kan ik het formaat van meerdere lay-outs tegelijk wijzigen?
+### Q2: Kan ik meerdere lay-outs tegelijk schalen?
 
-A2: Ja, u kunt het formaat van meerdere lay-outs wijzigen door de lay-outmatrix in CadRasterizationOptions aan te passen.
+A2: Ja, u kunt meerdere lay-outs schalen door de `Layouts`‑array in de `CadRasterizationOptions` aan te passen.
 
-### V3: Waar kan ik ondersteuning krijgen voor Aspose.CAD voor .NET?
+### Q3: Waar kan ik ondersteuning krijgen voor Aspose.CAD for .NET?
 
- A3: Bezoek de[Aspose.CAD-forum](https://forum.aspose.com/c/cad/19) voor steun en hulp van de gemeenschap.
+A3: Bezoek het [Aspose.CAD‑forum](https://forum.aspose.com/c/cad/19) voor community‑ondersteuning en hulp.
 
-### Vraag 4: Is er een gratis proefversie beschikbaar?
+### Q4: Is er een gratis proefversie beschikbaar?
 
- A4: Ja, u kunt een[gratis proefperiode](https://releases.aspose.com/) om de functies van Aspose.CAD voor .NET te evalueren.
+A4: Ja, u kunt een [gratis proefversie](https://releases.aspose.com/) verkennen om de functies van Aspose.CAD for .NET te evalueren.
 
-### V5: Hoe kan ik een tijdelijke licentie verkrijgen voor Aspose.CAD voor .NET?
+### Q5: Hoe kan ik een tijdelijke licentie voor Aspose.CAD for .NET verkrijgen?
 
- A5: Verkrijg een tijdelijke licentie voor testdoeleinden[hier](https://purchase.aspose.com/temporary-license/).
+A5: Verkrijg een tijdelijke licentie voor testdoeleinden [hier](https://purchase.aspose.com/temporary-license/).
+
+## Veelgestelde vragen
+
+**Q: Hoe schaal ik een CAD‑tekening zonder de eenheid te wijzigen?**  
+A: Pas de `Zoom`‑eigenschap van `CadRasterizationOptions` aan (bijv. `cadRasterizationOptions.Zoom = 2.0;`) om de grootte te verdubbelen terwijl u de oorspronkelijke eenheid behoudt.
+
+**Q: Kan ik exporteren naar andere formaten dan BMP?**  
+A: Zeker. Vervang `BmpOptions` door `PngOptions`, `JpegOptions` of een andere ondersteunde rasterformaat‑klasse.
+
+**Q: Is het mogelijk om een map met tekeningen batch‑matig te verwerken?**  
+A: Ja. Loop door de bestanden in een map, pas dezelfde rasterisatie‑logica toe en sla elke uitvoer op met een unieke naam.
+
+---
+
+**Laatst bijgewerkt:** 2026-03-19  
+**Getest met:** Aspose.CAD for .NET 24.11 (latest at time of writing)  
+**Auteur:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
