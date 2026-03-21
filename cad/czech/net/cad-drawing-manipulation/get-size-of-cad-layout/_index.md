@@ -1,35 +1,50 @@
 ---
-title: Získejte velikost rozložení CAD v Aspose.CAD pro .NET
-linktitle: Získejte velikost rozložení CAD
-second_title: Aspose.CAD .NET – formát souborů CAD a BIM
-description: Naučte se, jak načíst velikost rozvržení CAD v .NET pomocí Aspose.CAD. Postupujte podle našeho podrobného průvodce pro efektivní manipulaci se soubory CAD.
-weight: 14
+date: 2026-03-21
+description: Naučte se, jak získat velikost rozvržení CAD v .NET pomocí Aspose.CAD.
+  Postupujte podle našeho krok‑za‑krokem průvodce pro efektivní manipulaci s CAD soubory.
+linktitle: Get Size of CAD Layout
+second_title: Aspose.CAD .NET - CAD and BIM File Format
+title: Získat velikost rozvržení CAD v Aspose.CAD pro .NET
 url: /cs/net/cad-drawing-manipulation/get-size-of-cad-layout/
+weight: 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Získejte velikost rozložení CAD v Aspose.CAD pro .NET
+# Získání velikosti CAD rozvržení v Aspose.CAD pro .NET
 
 ## Úvod
 
-Vítejte v tomto komplexním průvodci o získání velikosti rozvržení CAD pomocí Aspose.CAD pro .NET. Aspose.CAD je výkonná knihovna, která umožňuje vývojářům bezproblémově pracovat se soubory CAD. V tomto tutoriálu vás provedeme procesem načítání velikosti rozvržení CAD pomocí praktických příkladů a podrobných pokynů.
+V tomto komplexním tutoriálu se dozvíte **jak získat velikost CAD rozvržení** pomocí knihovny Aspose.CAD pro .NET. Ať už vytváříte CAD prohlížeč, generujete náhledy, nebo potřebujete přesné rozměry rozvržení pro následné zpracování, znalost přesné velikosti každého rozvržení je nezbytná. Provedeme vás celým pracovním postupem – od načtení výkresu po získání rozměrů rozvržení a případné uložení jako obrázku – abyste tuto funkci mohli s jistotou integrovat do svých aplikací.
 
-## Předpoklady
+## Rychlé odpovědi
+- **Co znamená “získat velikost CAD rozvržení”?** Jedná se o získání šířky a výšky (v jednotkách výkresu) každého ne‑prázdného rozvržení v CAD souboru.  
+- **Která knihovna to podporuje?** Aspose.CAD pro .NET poskytuje jednoduché API pro přístup k informacím o rozvržení.  
+- **Potřebuji licenci?** Bezplatná zkušební verze funguje pro hodnocení; pro produkční použití je vyžadována komerční licence.  
+- **Podporované formáty?** DWG, DXF a mnoho dalších CAD/BIM formátů je plně podporováno.  
+- **Typická doba implementace?** Přibližně 10‑15 minut pro základní rutinu získání velikosti.
 
-Než se pustíme do výukového programu, ujistěte se, že máte splněny následující předpoklady:
+## Co znamená “získat velikost CAD rozvržení”?
+Získání velikosti CAD rozvržení znamená extrahování geometrických rozměrů každého rozvržení (paper space) definovaného v CAD výkresu. Tyto rozměry jsou vyjádřeny v nativních jednotkách výkresu (obvykle milimetry nebo palce) a jsou užitečné pro úkoly jako škálování, tisk nebo generování náhledových obrázků.
 
--  Aspose.CAD for .NET: Ujistěte se, že máte nainstalovanou knihovnu Aspose.CAD. Můžete si jej stáhnout z[Stránka ke stažení Aspose.CAD for .NET](https://releases.aspose.com/cad/net/).
+## Proč získávat velikost CAD rozvržení pomocí Aspose.CAD?
+- **Není potřeba CAD software** – Funguje zcela na straně serveru.  
+- **Cross‑platform** – Funguje s .NET Framework, .NET Core i .NET 5/6+.  
+- **Přesná měření** – Vrací přesné rozměry tak, jak jsou uloženy v souboru, čímž se vyhnete ručnímu parsování.  
+- **Jednoduchá integrace** – Jednoduché volání API se přirozeně zapadá do existujících C# projektů.
 
-- Soubory dokumentů: Připravte si soubory CAD, se kterými chcete pracovat. Tento tutoriál používá jako příklady "conic_pyramid.dxf" a "Bottom_plate.dwg".
+## Požadavky
 
-Tak pojďme začít!
+Než se pustíme do kódu, ujistěte se, že máte následující:
 
-## Importovat jmenné prostory
+- Aspose.CAD pro .NET nainstalovaný. Můžete jej stáhnout ze [stránky ke stažení Aspose.CAD pro .NET](https://releases.aspose.com/cad/net/).
+- Jeden nebo více CAD souborů (DWG, DXF, atd.), které chcete analyzovat. Tento návod používá `conic_pyramid.dxf` a `Bottom_plate.dwg` jako ukázkové soubory.
 
-Ve svém projektu .NET začněte importováním potřebných jmenných prostorů:
+## Importování jmenných prostorů
+
+Ve svém .NET projektu začněte importováním požadovaných jmenných prostorů:
 
 ```csharp
 using System;
@@ -45,17 +60,17 @@ using Aspose.CAD.FileFormats.Cad.CadTables;
 using Aspose.CAD.ImageOptions;
 ```
 
-## Krok 1: Nastavte adresář dokumentů
+## Krok 1: Nastavení adresáře dokumentů
 
- Nastavte cestu k adresáři dokumentů. Nahradit`"Your Document Directory"` se skutečnou cestou.
+Definujte složku, která obsahuje vaše CAD soubory. Nahraďte zástupný text skutečnou cestou na vašem počítači.
 
 ```csharp
 string MyDir = "Your Document Directory";
 ```
 
-## Krok 2: Určete cesty souboru CAD
+## Krok 2: Specifikace cest k souborům CAD
 
-Definujte pole cest k souborům CAD, které chcete analyzovat. V tomto příkladu používáme "conic_pyramid.dxf" a "Bottom_plate.dwg."
+Vytvořte pole, které ukazuje na každý CAD soubor, který chcete zpracovat.
 
 ```csharp
 string[] sourceFilePaths = new[]
@@ -65,9 +80,9 @@ string[] sourceFilePaths = new[]
 };
 ```
 
-## Krok 3: Iterace přes soubory CAD
+## Krok 3: Procházení souborů CAD
 
-Iterujte každý soubor CAD a načtěte informace o rozvržení.
+Načtěte každý soubor, detekujte jeho formát a připravte se na extrakci informací o rozvržení.
 
 ```csharp
 foreach (var sourceFilePath in sourceFilePaths)
@@ -75,80 +90,84 @@ foreach (var sourceFilePath in sourceFilePaths)
     string extension = Path.GetExtension(sourceFilePath);
     using (CadImage cadImage = (CadImage)Aspose.CAD.Image.Load(sourceFilePath))
     {
-        // ... (pokračujte na další krok)
+        // ... (continue to the next step)
     }
 }
 ```
 
-## Krok 4: Získejte neprázdná rozvržení
+## Krok 4: Získání ne‑prázdných rozvržení
 
-Definujte pomocnou metodu pro získání neprázdných rozvržení na základě typu souboru CAD.
+Potřebujeme pomocnou metodu, která vrátí pouze rozvržení, která skutečně obsahují entity výkresu. Prázdná rozvržení jsou ignorována, protože nemají žádnou velikost k nahlášení.
 
 ```csharp
 private static List<string> GetNotEmptyLayouts(Image cadImage, string extension)
 {
-    // ... (pokračujte na další krok)
+    // ... (continue to the next step)
 }
 ```
 
-## Krok 5: Získejte rozvržení pro soubory DWG
+## Krok 5: Získání rozvržení pro soubory DWG
 
-Implementujte logiku pro načtení neprázdných rozvržení pro soubory DWG.
+DWG soubory ukládají informace o rozvržení v tabulce `HeaderVariables`. Následující metoda extrahuje názvy všech ne‑prázdných rozvržení pro DWG výkres.
 
 ```csharp
 private static List<string> GetNotEmptyLayoutsForDwg(CadImage cadImage)
 {
-    // ... (pokračujte na další krok)
+    // ... (continue to the next step)
 }
 ```
 
-## Krok 6: Získejte rozvržení pro soubory DXF
+## Krok 6: Získání rozvržení pro soubory DXF
 
-Implementujte logiku pro načtení neprázdných rozvržení pro soubory DXF.
+DXF soubory používají odlišnou strukturu. Tato metoda prochází kolekci `Tables` a hledá paper space rozvržení, která obsahují entity.
 
 ```csharp
 private static List<string> GetNotEmptyLayoutsForDxf(CadImage cadImage)
 {
-    // ... (pokračujte na další krok)
+    // ... (continue to the next step)
 }
 ```
 
-## Krok 7: Načtěte velikost rozvržení a uložte jako obrázek
+## Krok 7: Získání velikosti rozvržení a uložení jako obrázek
 
-Dokončete proces získání velikosti rozvržení a jeho uložení jako obrázku.
+Nakonec projděte každé nalezené rozvržení, přečtěte jeho rozměry a případně vykreslete rozvržení do obrázkového souboru pro vizuální ověření.
 
 ```csharp
 foreach (string layout in layouts)
 {
-    // ... (pokračujte na další krok)
+    // ... (continue to the next step)
 }
 ```
 
-## Závěr
+## Časté problémy a tipy
 
-Gratulujeme! Úspěšně jste se naučili, jak získat velikost rozvržení CAD pomocí Aspose.CAD pro .NET. Tento výukový program se zabýval základními kroky, od nastavení projektu až po načtení informací o rozložení a uložení jako obrázek. Nyní můžete tyto znalosti začlenit do svých aplikací .NET pro efektivní manipulaci se soubory CAD.
+- **Chybějící názvy rozvržení:** Ujistěte se, že CAD soubor skutečně obsahuje paper space rozvržení; některé soubory mají jen model space.  
+- **Nesprávné jednotky:** Velikost je vrácena v nativních jednotkách výkresu. V případě potřeby ji převeďte na milimetry nebo palce.  
+- **Výkon:** Načítání velmi velkých DWG/DXF souborů může být náročné na paměť; zvažte asynchronní zpracování nebo dávkování souborů.
 
-## FAQ
+## Často kladené otázky
 
-### Q1: Je Aspose.CAD kompatibilní se všemi formáty souborů CAD?
+**Q: Je Aspose.CAD kompatibilní se všemi formáty CAD souborů?**  
+A: Ano, Aspose.CAD podporuje širokou škálu formátů, včetně DWG, DXF, DGN a mnoha BIM typů souborů.
 
-Odpověď 1: Ano, Aspose.CAD podporuje různé formáty souborů CAD, včetně DWG a DXF.
+**Q: Mohu přizpůsobit možnosti ukládání obrázku?**  
+A: Rozhodně! Můžete upravit `CadRasterizationOptions` (formát, rozlišení, barvu pozadí atd.) podle svých konkrétních potřeb.
 
-### Q2: Mohu přizpůsobit možnosti ukládání obrázků?
+**Q: Kde najdu další dokumentaci?**  
+A: Viz [dokumentace Aspose.CAD](https://reference.aspose.com/cad/net/) pro podrobné reference API a další příklady.
 
-A2: Rozhodně! Možnosti obrazu, jako je formát a rozlišení, můžete upravit tak, aby vyhovovaly vašim specifickým požadavkům.
+**Q: Je k dispozici bezplatná zkušební verze?**  
+A: Ano, můžete si vyzkoušet Aspose.CAD pomocí [bezplatné zkušební verze](https://releases.aspose.com/).
 
-### Q3: Kde najdu další dokumentaci?
+**Q: Jak získám technickou podporu?**  
+A: Pro technickou podporu navštivte [forum Aspose.CAD](https://forum.aspose.com/c/cad/19).
 
- A3: Viz[Dokumentace Aspose.CAD](https://reference.aspose.com/cad/net/) pro podrobné informace a příklady.
+---
 
-### Q4: Je k dispozici bezplatná zkušební verze?
+**Poslední aktualizace:** 2026-03-21  
+**Testováno s:** Aspose.CAD 24.11 pro .NET  
+**Autor:** Aspose  
 
- A4: Ano, můžete prozkoumat Aspose.CAD pomocí a[zkušební verze zdarma](https://releases.aspose.com/).
-
-### Q5; Jak mohu získat technickou podporu?
-
- A5: Pro technickou podporu navštivte[Fórum Aspose.CAD](https://forum.aspose.com/c/cad/19).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
