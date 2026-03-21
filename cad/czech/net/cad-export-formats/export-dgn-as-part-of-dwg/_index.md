@@ -1,35 +1,49 @@
 ---
-title: Exportujte DGN jako součást DWG v Aspose.CAD pro .NET
-linktitle: Export DGN jako součást DWG
-second_title: Aspose.CAD .NET – formát souborů CAD a BIM
-description: Přečtěte si, jak exportovat DGN jako součást DWG v Aspose.CAD pro .NET. Postupujte podle našeho podrobného průvodce pro bezproblémovou integraci.
-weight: 11
+date: 2026-03-21
+description: Naučte se, jak vytvořit PDF z DWG a exportovat DGN jako součást DWG pomocí
+  Aspose.CAD pro .NET. Tento průvodce také ukazuje, jak převést DWG na PDF a nastavit
+  možnosti PDF.
+linktitle: Export DGN as Part of DWG
+second_title: Aspose.CAD .NET - CAD and BIM File Format
+title: Vytvořte PDF z DWG a exportujte DGN jako součást DWG – Aspose.CAD pro .NET
 url: /cs/net/cad-export-formats/export-dgn-as-part-of-dwg/
+weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Exportujte DGN jako součást DWG v Aspose.CAD pro .NET
+# Vytvoření PDF z DWG a export DGN jako součást DWG – Aspose.CAD pro .NET
 
 ## Úvod
 
-Ve světě vývoje .NET vyniká Aspose.CAD jako výkonná knihovna pro práci se soubory CAD (Computer-Aided Design). Tento tutoriál vás provede procesem exportu souboru DGN (Design) jako součásti souboru DWG (Drawing) pomocí Aspose.CAD for .NET. Ať už jste zkušený vývojář nebo teprve začínáte, tento podrobný průvodce vám pomůže využít možnosti Aspose.CAD k efektivnímu dosažení tohoto konkrétního úkolu.
+Pokud potřebujete **vytvořit PDF ze souborů DWG** a zároveň vložit návrh DGN jako součást DWG, Aspose.CAD pro .NET to činí jednoduchým. V tomto tutoriálu projdeme celý pracovní postup: načtení DWG, vyhledání vloženého DGN podkladu, nastavení možností rasterizace a nakonec export výsledku do PDF dokumentu. Ať už vytváříte nástroj pro hromadnou konverzi, reportingový engine nebo službu pro integraci CAD‑BIM, níže uvedené kroky vám poskytnou pevný, produkčně připravený základ.
 
-## Předpoklady
+## Rychlé odpovědi
+- **Která knihovna provádí konverzi DWG → PDF?** Aspose.CAD pro .NET  
+- **Mohu exportovat DGN podklad při vytváření PDF?** Ano – podklad je přístupný přes `CadDgnUnderlay`.  
+- **Která metoda nastavuje možnosti PDF?** `PdfOptions` spolu s `CadRasterizationOptions`.  
+- **Potřebuji licenci pro komerční použití?** Ano, je vyžadována platná licence Aspose.CAD.  
+- **Podporované verze .NET?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7.
 
-Než se pustíte do výukového programu, ujistěte se, že máte splněny následující předpoklady:
+## Co znamená „vytvořit PDF z DWG“?
 
--  Aspose.CAD for .NET: Ujistěte se, že máte nainstalovanou knihovnu Aspose.CAD pro .NET. Můžete si jej stáhnout[tady](https://releases.aspose.com/cad/net/).
+Vytvoření PDF ze souboru DWG znamená vykreslení vektorového výkresu do rastrového nebo vektorového PDF dokumentu. Tento proces je užitečný pro sdílení výkresů se stranami, které nemají CAD software, archivaci nebo generování tisknutelných zpráv. Aspose.CAD zjednodušuje úlohu tím, že se postará o těžkou část parsování entit DWG a poskytuje jemnou kontrolu nad výstupem pomocí `PdfOptions`.
 
-- Vývojové prostředí: Nastavte si preferované vývojové prostředí .NET, jako je Visual Studio.
+## Proč exportovat DGN jako součást DWG?
 
-- Základní znalost C#: Seznamte se s programovacím jazykem C#.
+DGN podklad často představuje referenční geometrii z projektů MicroStation. Exportem DGN spolu s DWG zachováte původní kontext návrhu, což zajišťuje, že koncoví uživatelé uvidí kompletní sadu výkresů. To je zvláště cenné v multidisciplinárních projektech, kde koexistují soubory DWG i DGN.
 
-## Importovat jmenné prostory
+## Požadavky
 
-Ve svém projektu C# zahrňte potřebné jmenné prostory pro přístup k funkcím Aspose.CAD. Přidejte následující pomocí direktiv na začátek souboru kódu:
+- **Aspose.CAD pro .NET** – stáhněte si jej [zde](https://releases.aspose.com/cad/net/).  
+- **Vývojové prostředí** – Visual Studio (jakákoli recentní verze) nebo vaše preferované .NET IDE.  
+- **Základní znalost C#** – měli byste být obeznámeni se syntaxí C# a strukturou .NET projektu.
+
+## Import jmenných prostorů
+
+Přidejte požadované `using` direktivy na začátek vašeho C# souboru:
 
 ```csharp
 using System;
@@ -40,56 +54,70 @@ using System.Threading.Tasks;
 using Aspose.CAD;
 ```
 
-Nyní rozdělme poskytnutý kód do několika kroků:
+## Průvodce krok za krokem
 
-## Krok 1: Definujte cesty k souboru
+### Krok 1: Definujte cesty k souborům
+
+Nastavte vstupní soubor DWG a název výstupního PDF.
 
 ```csharp
-//Vstupní a výstupní cesty k souboru
+// Input and Output file paths
 string fileName = "BlockRefDgn.dwg";
 string outPath = fileName + ".pdf";
 ```
 
-## Krok 2: Vytvořte instanci PdfOptions
+### Krok 2: Vytvořte instanci `PdfOptions` (nastavte možnosti PDF)
+
+`PdfOptions` vám umožňuje řídit, jak je PDF generováno, např. velikost stránky, kompresi a metadata.
 
 ```csharp
-// Vytvořte instanci třídy PdfOptions pro export DWG do PDF
+// Create an instance of PdfOptions class for exporting DWG to PDF
 PdfOptions exportOptions = new PdfOptions();
 ```
 
-## Krok 3: Načtěte soubor DWG
+### Krok 3: Načtěte soubor DWG
+
+Načtěte DWG jako `CadImage`, abyste mohli prozkoumat jeho entity.
 
 ```csharp
-// Načtěte existující soubor DWG jako obrázek a převeďte jej na typ CadImage
+// Load the existing DWG file as an image and convert it to CadImage type
 using (CadImage cadImage = (CadImage)Image.Load(fileName))
 ```
 
-## Krok 4: Iterujte přes entity
+### Krok 4: Procházejte entity
+
+Projděte každou entitu ve výkresu a najděte DGN podklad.
 
 ```csharp
-// Iterujte každou entitu uvnitř souboru DWG
+// Iterate through each entity inside the DWG file
 foreach (CadBaseEntity baseEntity in cadImage.Entities)
 ```
 
-## Krok 5: Zkontrolujte typ entity
+### Krok 5: Zkontrolujte typ entity (jak exportovat dgn)
+
+Identifikujte, zda je aktuální entita DGN podklad.
 
 ```csharp
-// Zkontrolujte, zda je entita definicí obrázku
+// Check if the entity is an image definition
 if (baseEntity.TypeName == CadEntityTypeName.DGNUNDERLAY)
 ```
 
-## Krok 6: Získejte cestu podkladu
+### Krok 6: Získejte cestu k podkladu
+
+Získejte cestu k externímu referenčnímu souboru DGN.
 
 ```csharp
-// Pokud se jedná o definici obrázku, získejte externí odkaz na objekt
+// If it's an image definition, get the external reference to the object
 CadDgnUnderlay dgnFile = (CadDgnUnderlay)baseEntity;
 Console.WriteLine(dgnFile.UnderlayPath);
 ```
 
-## Krok 7: Definujte možnosti rastrování
+### Krok 7: Definujte možnosti rasterizace (převod dwg na pdf)
+
+Nastavte, jak bude DWG rasterizováno před vložením do PDF.
 
 ```csharp
-// Definujte nastavení pro objekt CadRasterizationOptions
+// Define settings for CadRasterizationOptions object
 exportOptions.VectorRasterizationOptions = new CadRasterizationOptions()
 {
     PageWidth = 1600,
@@ -102,33 +130,56 @@ exportOptions.VectorRasterizationOptions = new CadRasterizationOptions()
 };
 ```
 
-## Krok 8: Export DWG do PDF
+### Krok 8: Exportujte DWG do PDF
+
+Nakonec uložte vykreslený obrázek jako PDF soubor.
 
 ```csharp
-// Exportujte DWG do PDF voláním metody Uložit
+// Export the DWG to PDF by calling Save method
 cadImage.Save(outPath, exportOptions);
 ```
 
-## Závěr
+## Časté problémy a řešení
 
-Gratulujeme! Úspěšně jste prošli procesem exportu souboru DGN jako součásti souboru DWG pomocí Aspose.CAD for .NET. Tento výukový program vám poskytl základní kroky a úryvky kódu pro bezproblémové dosažení tohoto konkrétního úkolu.
+| Problém | Důvod | Řešení |
+|---------|-------|--------|
+| **`Image.Load` vyhazuje „File not found“** | Nesprávná cesta nebo chybějící soubor. | Použijte absolutní cestu nebo zajistěte, aby byl DWG zkopírován do výstupní složky. |
+| **Cesta k podkladu je prázdná** | DGN podklad není vložen nebo je odkaz poškozen. | Ověřte, že DWG skutečně obsahuje DGN podklad a že je externí soubor DGN přístupný. |
+| **Výstupní PDF je prázdné** | Možnosti rasterizace jsou nastaveny na nulovou velikost. | Upravit `PageWidth`/`PageHeight` nebo nastavit `NoScaling = false`. |
+| **Licence výjimka** | Spouštění bez platné licence Aspose.CAD. | Aplikujte licenci před načtením obrázku: `License lic = new License(); lic.SetLicense("Aspose.CAD.lic");` |
 
-## FAQ
+## Často kladené otázky
 
 ### Q1: Mohu použít Aspose.CAD pro .NET ve svých komerčních projektech?
- A1: Ano, můžete. Návštěva[tady](https://purchase.aspose.com/buy) prozkoumat možnosti licencování.
+A1: Ano, můžete. Navštivte [zde](https://purchase.aspose.com/buy) pro informace o licencování.
 
-### Otázka 2: Existují nějaká omezení velikosti souborů DWG, které mohu zpracovat?
-Odpověď 2: Aspose.CAD podporuje zpracování velkých souborů DWG, ale mohou platit hardwarová omezení.
+### Q2: Existují nějaká omezení velikosti souborů DWG, které mohu zpracovat?
+A2: Aspose.CAD podporuje práci s velkými soubory DWG, ale mohou platit omezení hardwaru.
 
 ### Q3: Je k dispozici zkušební verze?
-A3: Ano, můžete získat bezplatnou zkušební verzi[tady](https://releases.aspose.com/).
+A3: Ano, můžete získat bezplatnou zkušební verzi [zde](https://releases.aspose.com/).
 
-### Q4: Jak mohu získat dočasné licence?
- A4: Lze získat dočasné licence[tady](https://purchase.aspose.com/temporary-license/).
+### Q4: Jak získám dočasné licence?
+A4: Dočasné licence lze získat [zde](https://purchase.aspose.com/temporary-license/).
 
-### Q5: Kde mohu vyhledat pomoc, pokud narazím na problémy?
- A5: Můžete navštívit fórum Aspose.CAD[tady](https://forum.aspose.com/c/cad/19) pro podporu.
+### Q5: Kde mohu získat pomoc, pokud narazím na problémy?
+A5: Navštivte fórum Aspose.CAD [zde](https://forum.aspose.com/c/cad/19) pro podporu.
+
+**Q: Jak nastavit další metadata PDF (autor, název atd.)?**  
+A: Použijte vlastnosti `exportOptions.Metadata` před voláním `Save`.
+
+**Q: Mohu exportovat více rozvržení do samostatných stránek PDF?**  
+A: Ano – nastavte `Layouts = new string[] { "Layout1", "Layout2" }` v `CadRasterizationOptions`.
+
+**Q: Podporuje Aspose.CAD konverzi DWG do jiných formátů obrázků?**  
+A: Rozhodně. Můžete exportovat do PNG, JPEG, SVG a dalších pomocí odpovídajících přetížení `Image.Save`.
+
+---
+
+**Poslední aktualizace:** 2026-03-21  
+**Testováno s:** Aspose.CAD 24.11 pro .NET  
+**Autor:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
