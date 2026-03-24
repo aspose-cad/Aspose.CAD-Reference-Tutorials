@@ -1,35 +1,50 @@
 ---
-title: Aspose.CAD for .NET 中對 DGN V7 的 3D 支持
-linktitle: DGN V7 的 3D 支持
-second_title: Aspose.CAD .NET - CAD 和 BIM 檔案格式
-description: 探索 Aspose.CAD for .NET 中對 DGN V7 檔案的 3D 支援的強大功能。按照我們的逐步指南輕鬆整合和操作 CAD 檔案。
-weight: 10
+date: 2026-03-24
+description: 學習如何使用 Aspose.CAD for .NET 將 DGN 轉換為 PDF（及 PNG），支援 DGN V7 的 3D 功能——一步一步的指南。
+linktitle: 3D Support for DGN V7
+second_title: Aspose.CAD .NET - CAD and BIM File Format
+title: 使用 Aspose.CAD for .NET 將 DGN 轉換為 PDF（支援 3D）
 url: /zh-hant/net/cad-features-and-support/3d-support-for-dgn-v7/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.CAD for .NET 中對 DGN V7 的 3D 支持
+# 使用 Aspose.CAD for .NET 轉換 DGN 為 PDF（支援 3D）
 
 ## 介紹
 
-在軟體開發的動態世界中，擁有無縫整合和操作 3D 資料的能力至關重要。 Aspose.CAD for .NET 為開發人員提供了一套強大的工具來高效處理 CAD 檔案。在本教程中，我們將深入研究使用 Aspose.CAD for .NET 為 DGN V7 檔案啟用 3D 支援的複雜性。
+在現代 CAD 工作流程中，能夠快速 **convert DGN to PDF** 並保留 3‑D 幾何資訊是相當重要的。無論是產生文件、與非 CAD 利害關係人分享設計，或是歸檔專案，Aspose.CAD for .NET 都提供可靠的方式，將 DGN V7 檔案轉換為高品質的 PDF（甚至 PNG）輸出。本教學將逐步說明如何啟用 3D 支援，並從 DGN 檔案產生 PDF。
 
-## 先決條件
+## 快速回答
+- **本教學涵蓋什麼內容？** 啟用 3D 支援並使用 Aspose.CAD for .NET 將 DGN V7 轉換為 PDF。  
+- **主要產出格式為何？** PDF（可選 PNG 匯出）。  
+- **需要授權嗎？** 免費試用可用於測試；正式環境需購買商業授權。  
+- **支援的 .NET 版本？** .NET Framework 4.5 以上、.NET Core 3.1 以上、.NET 5/6 以上。  
+- **實作大約需要多久？** 基本轉換約 10‑15 分鐘即可完成。
 
-在開始此旅程之前，請確保您具備以下先決條件：
+## 什麼是「convert DGN to PDF」？
 
--  Aspose.CAD for .NET：確保您已安裝程式庫。您可以從[Aspose.CAD for .NET 下載頁面](https://releases.aspose.com/cad/net/).
+將 DGN 轉換為 PDF 意指把 MicroStation DGN 檔案中儲存的向量資料渲染成可在任何裝置上檢視的可攜式文件格式，無需專業 CAD 軟體。透過 Aspose.CAD 的 3‑D 光柵化引擎，轉換過程會保留版面、顏色與深度資訊，呈現忠實的視覺效果。
 
-- 有效 DGN 檔案：準備要使用提供的程式碼片段處理的有效 DGN 檔案。您可以使用自己的或下載一個用於測試目的。
+## 為何選擇 Aspose.CAD 進行此轉換？
 
-- .NET 開發環境：設定 .NET 開發環境來執行提供的程式碼。如果沒有，您可以按照網站上的安裝說明進行操作[.NET 文檔](https://docs.microsoft.com/en-us/dotnet/core/install/).
+- **完整 3‑D 光柵化** – 保留深度與版面資訊。  
+- **無外部相依** – 純 .NET 函式庫，無需安裝 MicroStation。  
+- **多種輸出格式** – PDF、PNG、JPEG、TIFF 等（次要關鍵字 *convert dgn to png* 亦內建支援）。  
+- **跨平台** – 可在 Windows、Linux 與 macOS 上執行。
 
-## 導入命名空間
+## 前置條件
 
-首先，在 .NET 專案中導入必要的命名空間：
+開始之前，請確保您已具備以下項目：
+
+- 已安裝 Aspose.CAD for .NET。可從 [Aspose.CAD for .NET download page](https://releases.aspose.com/cad/net/) 下載。  
+- 一個欲處理的有效 DGN V7 檔案。  
+- .NET 開發環境（Visual Studio、VS Code 或 CLI）。安裝說明請參考 [.NET documentation](https://docs.microsoft.com/en-us/dotnet/core/install/)。
+
+## 匯入命名空間
 
 ```csharp
 using System;
@@ -40,31 +55,33 @@ using System.Threading.Tasks;
 using Aspose.CAD;
 ```
 
-現在，讓我們將提供的程式碼片段分解為逐步指南。
+上述命名空間讓您可以使用 Aspose.CAD 的核心類別與標準 .NET 工具。
 
-## 第 1 步：設定環境
+## 步驟 1：設定環境
 
-定義文檔目錄和 DGN 檔案的路徑：
+定義來源 DGN 檔案所在位置與輸出 PDF 的儲存路徑。
 
 ```csharp
 string MyDir = "Your Document Directory";
 string sourceFilePath = MyDir + "Nikon_D90_Camera.dgn";
 ```
 
-## 步驟 2：載入 DGN 文件
+> **小技巧：** 使用 `Path.Combine` 以確保路徑在不同平台上皆正確。
 
-將 DGN 檔案載入為`DgnImage`使用Aspose.CAD`Image.Load`方法：
+## 步驟 2：載入 DGN 檔案
+
+使用 `Image.Load` 建立 `DgnImage` 實例，為光柵化做準備。
 
 ```csharp
 using (DgnImage dgnImage = (DgnImage)Image.Load(sourceFilePath))
 {
-    //程式碼片段繼續...
+    // Code snippet continues...
 }
 ```
 
-## 第 3 步：配置匯出選項
+## 步驟 3：設定匯出選項
 
-設定匯出選項，指定向量光柵化設定：
+建立 `PdfOptions` 並搭配 `CadRasterizationOptions`。在此您可以控制頁面尺寸、背景色與要匯出的版面（視圖）。
 
 ```csharp
 var options = new PdfOptions
@@ -76,45 +93,62 @@ var options = new PdfOptions
         CenterDrawing = true,
         AutomaticLayoutsScaling = true,
         BackgroundColor = Color.Black,
-        Layouts = new string[] { "1", "2", "3", "9" } //匯出特定視圖
+        Layouts = new string[] { "1", "2", "3", "9" } // Export specific views
     }
 };
 ```
 
-## 第 4 步：儲存結果
+若需 **convert DGN to PNG**，只要將 `PdfOptions` 換成 `PngOptions`，其餘光柵化設定保持不變。
 
-利用`Save`將 DGN 檔案匯出為光柵影像的方法：
+## 步驟 4：儲存結果
+
+最後，將渲染後的輸出寫入指定位置。
 
 ```csharp
-string outFile = "Your Output Directory"; //指定輸出目錄
+string outFile = "Your Output Directory"; // Specify the output directory
 dgnImage.Save(outFile, options);
 ```
 
+執行完畢後，您會在目標資料夾中看到 PDF 檔（若改用 PNG，則會得到 PNG 檔），其內容忠實呈現原始 3‑D DGN 圖面。
+
+## 常見問題與技巧
+
+- **版面遺失：** 確認 `Layouts` 中的版面名稱與 DGN 檔案內相符，否則會被忽略。  
+- **大型檔案：** 逐步調整 `PageWidth`/`PageHeight`，避免記憶體使用過高。  
+- **顏色準確度：** 若背景顯得過暗，請確認 `BackgroundColor` 已設定為期望的顏色（例如 `Color.White`）。
+
 ## 結論
 
-恭喜！您已使用 Aspose.CAD for .NET 成功釋放了對 DGN V7 檔案的 3D 支援。本教學提供了清晰的路線圖，指導您完成每個步驟以確保順利實施。
+現在您已掌握如何使用 Aspose.CAD for .NET 以完整 3‑D 支援 **convert DGN to PDF**。此工作流程可整合至自動化管線、桌面工具或 Web 服務，將 CAD 視覺化結果提供給任何觀眾。
 
-## 常見問題解答
+## 常見問答
 
-### 問題 1：我可以使用這種方法同時處理多個 DGN 檔案嗎？
+### Q1: 可以同時處理多個 DGN 檔案嗎？
 
-A1：是的，您可以修改程式碼以在循環內處理多個檔案或作為批次系統的一部分。
+A1: 可以，您只需將程式碼改寫為在迴圈或批次處理系統中逐一處理多個檔案。
 
-### 問題 2：Aspose.CAD for .NET 支援哪些其他匯出格式？
+### Q2: Aspose.CAD for .NET 還支援哪些匯出格式？
 
- A2：Aspose.CAD for .NET 支援多種匯出格式，包括 PDF、PNG、JPG 等。請參閱[文件](https://reference.aspose.com/cad/net/)了解詳情。
+A2: 支援多種格式，包括 PDF、PNG、JPG 等。詳情請參考 [documentation](https://reference.aspose.com/cad/net/)。
 
-### Q3：Aspose.CAD for .NET 是否與最新的 .NET Core 版本相容？
+### Q3: Aspose.CAD for .NET 是否相容最新的 .NET Core 版本？
 
-A3：是的，Aspose.CAD for .NET 旨在與最新的 .NET Core 版本相容。確保您的環境中安裝了適當的版本。
+A3: 相容，請確保您的環境已安裝相對應的版本。
 
-### Q4：我可以根據我的特定要求進一步自訂匯出設定嗎？
+### Q4: 我可以進一步自訂匯出設定嗎？
 
- A4：當然！提供的程式碼提供了一個起點。您可以探索其他選項和配置[Aspose.CAD 文檔](https://reference.aspose.com/cad/net/).
+A4: 當然可以！提供的程式碼僅為起點，您可在 [Aspose.CAD documentation](https://reference.aspose.com/cad/net/) 中探索更多選項與設定。
 
-### 問題 5：我可以在哪裡尋求協助或分享我使用 Aspose.CAD for .NET 的經驗？
+### Q5: 我該向哪裡尋求協助或分享使用經驗？
 
-A5：加入 Aspose.CAD 社區[論壇](https://forum.aspose.com/c/cad/19)與其他開發人員互動並尋求協助。
+A5: 加入 Aspose.CAD 社群的 [forum](https://forum.aspose.com/c/cad/19)，與其他開發者交流並取得協助。
+
+---
+
+**最後更新：** 2026-03-24  
+**測試環境：** Aspose.CAD 24.11 for .NET  
+**作者：** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

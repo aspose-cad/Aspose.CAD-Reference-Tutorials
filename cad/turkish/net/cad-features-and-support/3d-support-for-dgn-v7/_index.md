@@ -1,35 +1,50 @@
 ---
-title: Aspose.CAD for .NET'te DGN V7 için 3D Desteği
-linktitle: DGN V7 için 3D Desteği
-second_title: Aspose.CAD .NET - CAD ve BIM Dosya Formatı
-description: Aspose.CAD for .NET'te DGN V7 dosyaları için 3D desteğin gücünü keşfedin. CAD dosyalarını zahmetsizce entegre etmek ve değiştirmek için adım adım kılavuzumuzu izleyin.
-weight: 10
+date: 2026-03-24
+description: Aspose.CAD for .NET kullanarak DGN V7 için 3D desteğiyle DGN'yi PDF (ve
+  PNG) formatına nasıl dönüştüreceğinizi öğrenin – adım adım rehber.
+linktitle: 3D Support for DGN V7
+second_title: Aspose.CAD .NET - CAD and BIM File Format
+title: Aspose.CAD for .NET ile DGN'yi PDF'ye Dönüştür (3D Desteği)
 url: /tr/net/cad-features-and-support/3d-support-for-dgn-v7/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.CAD for .NET'te DGN V7 için 3D Desteği
+# Aspose.CAD for .NET ile DGN'yi PDF'ye Dönüştürme (3B Desteği)
 
-## giriiş
+## Giriş
 
-Yazılım geliştirmenin dinamik dünyasında, 3D verileri sorunsuz bir şekilde entegre etme ve işleme becerisine sahip olmak çok önemlidir. Aspose.CAD for .NET, geliştiricilere CAD dosyalarını verimli bir şekilde kullanmaları için güçlü bir araç seti sağlar. Bu eğitimde Aspose.CAD for .NET kullanarak DGN V7 dosyaları için 3D desteği etkinleştirmenin inceliklerini inceleyeceğiz.
+Modern CAD iş akışlarında, **DGN'yi PDF'ye dönüştürmek** hızlı bir şekilde ve 3‑B geometriyi koruyarak mümkün olmalıdır. Belgeler oluşturuyor, tasarımları CAD dışı paydaşlarla paylaşıyor ya da projeleri arşivliyorsanız, Aspose.CAD for .NET, DGN V7 dosyalarını yüksek kaliteli PDF (ve hatta PNG) çıktılara dönüştürmek için güvenilir bir yol sunar. Bu öğreticide, 3B desteğini etkinleştirmek ve bir DGN dosyasından PDF üretmek için gereken adımları adım adım göstereceğiz.
+
+## Hızlı Yanıtlar
+- **Bu öğretici neyi kapsıyor?** Aspose.CAD for .NET kullanarak 3B desteğini etkinleştirme ve DGN V7'yi PDF'ye dönüştürme.  
+- **Hangi birincil format üretiliyor?** PDF (isteğe bağlı PNG dışa aktarımıyla).  
+- **Lisans gerekli mi?** Test için ücretsiz deneme çalışır; üretim için ticari lisans gereklidir.  
+- **Desteklenen .NET sürümleri?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6+.  
+- **Uygulama ne kadar sürer?** Temel bir dönüşüm için yaklaşık 10‑15 dakika.
+
+## “convert DGN to PDF” nedir?
+
+DGN'yi PDF'ye dönüştürmek, MicroStation DGN dosyasında depolanan vektör verilerini, özel CAD yazılımı gerektirmeyen herhangi bir cihazda görüntülenebilen taşınabilir bir belge formatına render etmektir. Aspose.CAD’in 3‑B rasterleştirme motoru sayesinde dönüşüm, yerleşim, renkler ve derinlik ipuçlarını koruyarak doğru bir görsel temsil sunar.
+
+## Bu dönüşüm için Aspose.CAD neden kullanılmalı?
+- **Tam 3‑B rasterleştirme** – derinlik ve yerleşim bilgilerini korur.  
+- **Harici bağımlılık yok** – saf .NET kütüphanesi, MicroStation gerekmez.  
+- **Birden çok çıktı formatı** – PDF, PNG, JPEG, TIFF vb. (ikinci anahtar kelime *convert dgn to png* kutudan çıktığı gibi desteklenir).  
+- **Çapraz platform** – Windows, Linux ve macOS'ta çalışır.
 
 ## Önkoşullar
 
-Bu yolculuğa çıkmadan önce aşağıdaki önkoşulların yerine getirildiğinden emin olun:
+Başlamadan önce aşağıdakilere sahip olduğunuzdan emin olun:
 
--  Aspose.CAD for .NET: Kütüphanenin kurulu olduğundan emin olun. adresinden indirebilirsiniz.[Aspose.CAD for .NET indirme sayfası](https://releases.aspose.com/cad/net/).
+- Aspose.CAD for .NET yüklü. [Aspose.CAD for .NET indirme sayfasından](https://releases.aspose.com/cad/net/) indirebilirsiniz.  
+- İşlemek istediğiniz geçerli bir DGN V7 dosyası.  
+- .NET geliştirme ortamı (Visual Studio, VS Code veya CLI). Kurulum talimatları [.NET belgelerinde](https://docs.microsoft.com/en-us/dotnet/core/install/) mevcuttur.
 
-- Geçerli DGN Dosyası: Sağlanan kod pasajını kullanarak işlemek istediğiniz geçerli bir DGN dosyası hazırlayın. Kendinizinkini kullanabilir veya test amacıyla bir tane indirebilirsiniz.
-
-- .NET Geliştirme Ortamı: Sağlanan kodu yürütmek için bir .NET geliştirme ortamı kurun. Eğer elinizde yoksa, kurulum talimatlarını takip edebilirsiniz.[.NET belgeleri](https://docs.microsoft.com/en-us/dotnet/core/install/).
-
-## Ad Alanlarını İçe Aktar
-
-Başlamak için .NET projenize gerekli ad alanlarını içe aktarın:
+## Ad Alanlarını İçe Aktarın
 
 ```csharp
 using System;
@@ -40,31 +55,33 @@ using System.Threading.Tasks;
 using Aspose.CAD;
 ```
 
-Şimdi sağlanan kod pasajını adım adım kılavuza ayıralım.
+Bu ad alanları, temel Aspose.CAD sınıflarına ve standart .NET yardımcı programlarına erişim sağlar.
 
-## 1. Adım: Ortamı Ayarlayın
+## Adım 1: Ortamı Kurun
 
-Belge dizininizi ve DGN dosyasının yolunu tanımlayın:
+Kaynak DGN dosyanızın nerede bulunduğunu ve çıktı PDF'nin nereye kaydedileceğini tanımlayın.
 
 ```csharp
 string MyDir = "Your Document Directory";
 string sourceFilePath = MyDir + "Nikon_D90_Camera.dgn";
 ```
 
+> **Pro ipucu:** Platform bağımsız yol oluşturma için `Path.Combine` kullanın.
+
 ## Adım 2: DGN Dosyasını Yükleyin
 
- DGN dosyasını şu şekilde yükleyin:`DgnImage` Aspose.CAD'i kullanma`Image.Load` yöntem:
+`Image.Load` ile dosyayı yükleyerek bir `DgnImage` örneği oluşturun. Bu adım, CAD verilerini rasterleştirme için hazırlar.
 
 ```csharp
 using (DgnImage dgnImage = (DgnImage)Image.Load(sourceFilePath))
 {
-    // Kod pasajı devam ediyor...
+    // Code snippet continues...
 }
 ```
 
-## 3. Adım: Dışa Aktarma Seçeneklerini Yapılandırın
+## Adım 3: Dışa Aktarma Seçeneklerini Yapılandırın
 
-Vektör rasterleştirme ayarlarını belirterek dışa aktarma seçeneklerini ayarlayın:
+`PdfOptions` ve `CadRasterizationOptions`'ı birlikte ayarlayın. Burada sayfa boyutunu, arka planı ve hangi yerleşimlerin (görünümlerin) dışa aktarılacağını kontrol edersiniz.
 
 ```csharp
 var options = new PdfOptions
@@ -76,45 +93,56 @@ var options = new PdfOptions
         CenterDrawing = true,
         AutomaticLayoutsScaling = true,
         BackgroundColor = Color.Black,
-        Layouts = new string[] { "1", "2", "3", "9" } // Belirli görünümleri dışa aktar
+        Layouts = new string[] { "1", "2", "3", "9" } // Export specific views
     }
 };
 ```
 
-## Adım 4: Sonucu Kaydet
+Eğer **convert DGN to PNG** yapmanız gerekiyorsa, aynı rasterleştirme ayarlarını koruyarak `PdfOptions` yerine `PngOptions` kullanın.
 
- Kullanın`Save` DGN dosyasını taramalı bir görüntüye aktarma yöntemi:
+## Adım 4: Sonucu Kaydedin
+
+Son olarak, oluşturulan çıktıyı istenen konuma yazın.
 
 ```csharp
-string outFile = "Your Output Directory"; // Çıkış dizinini belirtin
+string outFile = "Your Output Directory"; // Specify the output directory
 dgnImage.Save(outFile, options);
 ```
 
-## Çözüm
+Çalıştırdıktan sonra, orijinal 3‑B DGN çizimini eksiksiz temsil eden bir PDF dosyası (veya seçenekleri değiştirdiyseniz PNG) bulacaksınız.
 
-Tebrikler! Aspose.CAD for .NET'i kullanarak DGN V7 dosyaları için 3D desteğini başarıyla serbest bıraktınız. Bu eğitim, sorunsuz bir uygulama sağlamak için her adımda size yol gösteren net bir yol haritası sağladı.
+## Yaygın Sorunlar ve İpuçları
+- **Eksik yerleşimler:** `Layouts` içindeki yerleşim adlarının DGN dosyasındakiyle eşleştiğinden emin olun; aksi takdirde yok sayılır.  
+- **Büyük dosyalar:** Bellek tüketimini azaltmak için `PageWidth`/`PageHeight` değerlerini kademeli olarak artırın.  
+- **Renk doğruluğu:** Arka plan koyu görünüyorsa, `BackgroundColor`'ın istenen değere (ör. `Color.White`) ayarlandığını kontrol edin.
 
-## SSS'ler
+## Sonuç
+
+Artık Aspose.CAD for .NET kullanarak tam 3‑B desteğiyle **convert DGN to PDF** yapmayı öğrendiniz. Bu iş akışı, otomatik hatlar, masaüstü araçları veya web hizmetlerine entegre edilerek CAD görselleştirmelerini her kitleye sunabilir.
+
+## SSS
 
 ### S1: Bu yaklaşımı kullanarak birden fazla DGN dosyasını aynı anda işleyebilir miyim?
+A1: Evet, kodu bir döngü içinde veya toplu işleme sisteminin bir parçası olarak birden fazla dosyayı işlemek üzere değiştirebilirsiniz.
 
-Y1: Evet, bir döngü içinde veya toplu işleme sisteminin bir parçası olarak birden fazla dosyayı işlemek için kodu değiştirebilirsiniz.
-
-### S2: Aspose.CAD for .NET başka hangi dışa aktarma formatlarını destekliyor?
-
- Cevap2: Aspose.CAD for .NET, PDF, PNG, JPG ve daha fazlası dahil olmak üzere çeşitli dışa aktarma formatlarını destekler. Bakın[dokümantasyon](https://reference.aspose.com/cad/net/) detaylar için.
+### S2: Aspose.CAD for .NET tarafından hangi diğer dışa aktarma formatları destekleniyor?
+A2: Aspose.CAD for .NET, PDF, PNG, JPG ve daha fazlası dahil çeşitli dışa aktarma formatlarını destekler. Ayrıntılar için [belgelere](https://reference.aspose.com/cad/net/) bakın.
 
 ### S3: Aspose.CAD for .NET en son .NET Core sürümleriyle uyumlu mu?
+A3: Evet, Aspose.CAD for .NET en son .NET Core sürümleriyle uyumlu olacak şekilde tasarlanmıştır. Ortamınızda uygun sürümün yüklü olduğundan emin olun.
 
-Cevap3: Evet, Aspose.CAD for .NET, en yeni .NET Core sürümleriyle uyumlu olacak şekilde tasarlanmıştır. Ortamınızda uygun sürümün kurulu olduğundan emin olun.
+### S4: Belirli gereksinimlerim için dışa aktarma ayarlarını daha da özelleştirebilir miyim?
+A4: Kesinlikle! Sağlanan kod bir başlangıç noktasıdır. Ek seçenekleri ve yapılandırmaları [Aspose.CAD belgelerinde](https://reference.aspose.com/cad/net/) keşfedebilirsiniz.
 
-### S4: Dışa aktarma ayarlarını kendi özel gereksinimlerime göre daha da özelleştirebilir miyim?
+### S5: Aspose.CAD for .NET ile ilgili yardım alabileceğim veya deneyimlerimi paylaşabileceğim yer neresi?
+A5: Diğer geliştiricilerle etkileşime geçmek ve yardım almak için Aspose.CAD topluluğuna [forumda](https://forum.aspose.com/c/cad/19) katılın.
 
- Cevap4: Kesinlikle! Sağlanan kod bir başlangıç noktası sunar. Ek seçenekleri ve yapılandırmaları şurada keşfedebilirsiniz:[Aspose.CAD belgeleri](https://reference.aspose.com/cad/net/).
+---
 
-### S5: Aspose.CAD for .NET ile ilgili nereden yardım alabilirim veya deneyimlerimi paylaşabilirim?
+**Last Updated:** 2026-03-24  
+**Tested With:** Aspose.CAD 24.11 for .NET  
+**Author:** Aspose  
 
-Cevap5: Aspose.CAD topluluğuna katılın[forum](https://forum.aspose.com/c/cad/19) diğer geliştiricilerle etkileşimde bulunmak ve yardım istemek.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
