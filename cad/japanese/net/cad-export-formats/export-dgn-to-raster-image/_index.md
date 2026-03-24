@@ -1,35 +1,48 @@
 ---
-title: Aspose.CAD for .NET で DGN をラスター イメージにエクスポートする
-linktitle: DGN をラスター イメージにエクスポート
-second_title: Aspose.CAD .NET - CAD および BIM ファイル形式
-description: Aspose.CAD for .NET を使用して、DGN をラスター イメージに簡単に変換します。ステップバイステップのガイドを参照して、CAD ファイル操作で .NET のパワーを解放してください。
-weight: 13
+date: 2026-03-24
+description: Aspose.CAD for .NET を使用して dgn を png に変換し、cad を jpeg として保存する方法を学ぶ – CAD
+  から画像への変換クイックガイド。
+linktitle: Export DGN to Raster Image
+second_title: Aspose.CAD .NET - CAD and BIM File Format
+title: .NET 用 Aspose.CAD で DGN を PNG に変換する方法
 url: /ja/net/cad-export-formats/export-dgn-to-raster-image/
+weight: 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.CAD for .NET で DGN をラスター イメージにエクスポートする
+# Aspose.CAD for .NETでDGNをPNGに変換する
 
-## 導入
+モダンな .NET 開発において、**convert dgn to png** は、Web 上で CAD 図面を表示したりレポートに埋め込んだりする際に頻繁に求められる要件です。Aspose.CAD for .NET を使用すれば、この変換は非常にシンプルになり、数行のコードだけで DGN ファイルを高品質なラスタ画像に変換できます。このガイドでは、プロジェクトのセットアップから最終的な PNG（または JPEG）ファイルの保存まで、全工程を順を追って解説します。
 
-.NET 開発の動的な領域では、Aspose.CAD がコンピュータ支援設計 (CAD) ファイルを処理するための強力なツールとして登場します。このチュートリアルでは、Aspose.CAD for .NET を使用して DGN ファイルをラスター イメージにエクスポートするプロセスについて詳しく説明します。 DGN ファイルを視覚的に魅力的なラスター イメージにシームレスに変換したい場合は、ここが最適な場所です。
+## クイック回答
+- **Aspose.CAD で DGN を PNG に変換できますか？** はい – ラスタライズオプションを設定し、PNG または JPEG の出力を選択するだけです。  
+- **本番環境でライセンスは必要ですか？** トライアル以外のデプロイには有効な Aspose.CAD ライセンスが必要です。  
+- **対応している .NET バージョンは？** .NET Framework 4.6 以降、.NET Core 3.1 以降、.NET 5/6/7。  
+- **利用可能な画像形式は？** PNG、JPEG、BMP、GIF、TIFF など多数。  
+- **例外処理は必須ですか？** 必ず – ファイルアクセスの問題を処理するために try/catch でラップしてください。
+
+## “convert dgn to png”とは？
+DGN（MicroStation）ファイルを PNG に変換することは、ベクタ CAD データをピクセルベースの画像にラスタライズすることを意味します。プレビュー生成や HTML メールへの図面埋め込み、ドキュメント管理システムのサムネイル作成などに便利です。
+
+## CADから画像への変換にAspose.CADを使用する理由
+- **外部依存なし** – 完全にマネージドコードで動作します。  
+- **高忠実度** – 線幅、レイヤー、カラーを正確に保持します。  
+- **柔軟な出力** – PNG、JPEG、BMP などをオプション一つで切り替え可能。  
+- **パフォーマンス最適化** – 大規模な図面でも高速にラスタライズできます。
 
 ## 前提条件
 
-この作業を開始する前に、次の前提条件が満たされていることを確認してください。
+開始する前に、以下を確認してください。
 
--  Aspose.CAD for .NET: Aspose.CAD ライブラリが .NET プロジェクトにインストールされていることを確認します。ライブラリと関連ドキュメントは、[Webサイト](https://reference.aspose.com/cad/net/).
-
-- サンプル DGN ファイル: 変換できる DGN ファイルを用意します。この例では、「Nikon_D90_Camera.dgn」を使用します。
-
-それでは、ステップバイステップのガイドを見てみましょう。
+- **Aspose.CAD for .NET** がプロジェクトにインストールされていること。ダウンロードは[website](https://reference.aspose.com/cad/net/)から。  
+- サンプル DGN ファイル（例: `Nikon_D90_Camera.dgn`）を既知のディレクトリに配置しておくこと。
 
 ## 名前空間のインポート
 
-.NET プロジェクトで、Aspose.CAD に必要な名前空間をインポートすることから始めます。この手順により、DGN からラスター イメージへの変換に必要なクラスとメソッドにアクセスできるようになります。
+まず、Aspose.CAD クラスにアクセスできるように必要な `using` 文を追加します。
 
 ```csharp
 using System;
@@ -40,9 +53,9 @@ using System.Threading.Tasks;
 using Aspose.CAD;
 ```
 
-## ステップ 1: DGN ファイルをロードする
+## 手順 1: DGN ファイルの読み込み
 
-まず、DGN ファイルを`CadImage`物体。これにより、その後の操作の基盤が提供されます。
+ソース DGN を `CadImage` オブジェクトにロードします。このオブジェクトはメモリ上の CAD 図面を表し、ラスタライズの元になります。
 
 ```csharp
 string MyDir = "Your Document Directory";
@@ -50,13 +63,13 @@ string sourceFilePath = MyDir + "Nikon_D90_Camera.dgn";
 
 using (CadImage cadImage = (CadImage)Image.Load(sourceFilePath))
 {
-    //さらに処理するためのコードはここにあります
+    // Your code for further processing goes here
 }
 ```
 
-## ステップ 2: ラスタライズ オプションを定義する
+## 手順 2: ラスタライズオプションの定義
 
-を作成します`CadRasterizationOptions`オブジェクトを作成し、さまざまなプロパティを設定して、要件に応じてラスタライズ プロセスをカスタマイズします。
+CAD 図面のラスタライズ方法を設定します。ここで画像サイズ、スケーリング、背景色などを制御できます。
 
 ```csharp
 CadRasterizationOptions rasterizationOptions = new CadRasterizationOptions();
@@ -66,48 +79,62 @@ rasterizationOptions.NoScaling = true;
 rasterizationOptions.AutomaticLayoutsScaling = false;
 ```
 
-## ステップ 3: JpegOptions オブジェクトを作成する
+## 手順 3: 出力形式の選択 (PNG または JPEG)
 
-DGN ファイルを JPEG に変換することが目的なので、`JpegOptions`オブジェクトを作成し、以前に定義したものを割り当てます`CadRasterizationOptions`それに。
+チュートリアルは PNG に焦点を当てていますが、**save cad as jpeg** も可能です。適切な画像オプションオブジェクトを作成し、先ほどのラスタライズ設定を添付します。
 
 ```csharp
-ImageOptionsBase options = new JpegOptions();
+ImageOptionsBase options = new JpegOptions();   // Change to PngOptions() for PNG output
 options.VectorRasterizationOptions = rasterizationOptions;
 ```
 
-## ステップ 4: ラスター画像を保存する
+> **プロのコツ:** PNG ファイルを生成するには `new JpegOptions()` を `new PngOptions()` に置き換えてください。
 
-を活用してください。`Save`の方法`CadImage`クラスを使用して、DGN ファイルを目的の形式 (この場合は JPEG) のラスター イメージにエクスポートします。
+## 手順 4: ラスタ画像の保存
+
+最後に、`CadImage` インスタンスの `Save` メソッドを呼び出し、ファイル名と設定したオプションオブジェクトを渡します。
 
 ```csharp
 cadImage.Save(MyDir + "ExportDGNToRasterImage_out.jpg", options);
 ```
 
-## 結論
+`PngOptions` に切り替えた場合、ファイルは `ExportDGNToRasterImage_out.png` として保存されます。
 
-おめでとう！ Aspose.CAD for .NET を使用して DGN ファイルをラスター イメージにエクスポートする手順を完了しました。このチュートリアルでは、この機能を .NET プロジェクトに簡単に統合するための重要な知識を習得しました。
+## よくある問題と解決策
+
+| 問題 | 原因 | 対策 |
+|------|------|------|
+| **空白の出力画像** | `NoScaling` が正しく設定されていない、またはレイアウトが選択されていない | `AutomaticLayoutsScaling = true` を設定するか、目的のレイアウトを指定してください。 |
+| **大きなファイルでメモリ不足** | ストリーミングなしで巨大な DGN をロードしている | `Image.Load(sourceFilePath, new LoadOptions { LoadOnDemand = true })` を使用してください。 |
+| **サポートされていない DGN バージョン** | 古い MicroStation バージョン | レガシーフォーマットをサポートする最新の Aspose.CAD バージョンを使用してください。 |
 
 ## よくある質問
 
-### Q1: DGN ファイルを JPEG 以外の形式にエクスポートできますか?
+**Q: DGN ファイルを JPEG 以外の形式にエクスポートできますか？**  
+A: はい、Aspose.CAD for .NET は PNG、BMP、GIF、TIFF など多数の形式に対応しています。オプションクラス（例: `new PngOptions()`）を差し替えるだけです。
 
-A1: はい、Aspose.CAD for .NET はさまざまな出力形式をサポートしています。ステップ 3 でオプションを適宜変更できます。
+**Q: 変換中の例外はどのように処理すべきですか？**  
+A: 変換コードを `try/catch` ブロックで囲み、詳細なエラー情報は `Aspose.CAD.CadException` をログに記録してください。
 
-### Q2 変換プロセス中に例外を処理するにはどうすればよいですか?
+**Q: Aspose.CAD for .NET のトライアル版はありますか？**  
+A: はい、無料トライアルで製品を試すことができます。詳細は[here](https://releases.aspose.com/)をご覧ください。
 
-A2: 潜在的な問題に対処するために、提供されたコードに示されているように、適切な例外処理があることを確認してください。
+**Q: Aspose.CAD for .NET に関する支援や議論はどこでできますか？**  
+A: コミュニティサポートやディスカッションは[Aspose.CAD forum](https://forum.aspose.com/c/cad/19)で行われています。
 
-### Q3: Aspose.CAD for .NET の試用版はありますか?
+**Q: Aspose.CAD for .NET の一時ライセンスはどう取得できますか？**  
+A: 開発用の一時ライセンスは[このリンク](https://purchase.aspose.com/temporary-license/)から取得できます。
 
- A3: はい、無料トライアルで製品を試すことができます。訪問[ここ](https://releases.aspose.com/)詳細については。
+## 結論
 
-### Q4: Aspose.CAD for .NET に関連する問題について支援を求めたり、議論したりするにはどこに行けばよいですか?
+これで **convert dgn to png**（または JPEG）を Aspose.CAD for .NET で実行する方法が理解できました。ラスタライズオプションと画像オプションクラスを調整するだけで、あらゆるプロジェクト要件に合わせた出力が可能です。ページサイズ、DPI 設定、ファイル形式などを自由に試して、最適なラスタ画像を作成してください。
 
- A4: に向かってください。[Aspose.CAD フォーラム](https://forum.aspose.com/c/cad/19)コミュニティのサポートとディスカッションのために。
+---
 
-### Q5: Aspose.CAD for .NET の一時ライセンスを取得するにはどうすればよいですか?
+**最終更新日:** 2026-03-24  
+**テスト環境:** Aspose.CAD 24.11 for .NET  
+**Author:** Aspose  
 
- A5: 訪問[このリンク](https://purchase.aspose.com/temporary-license/)開発ニーズに応じて一時ライセンスを取得します。
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

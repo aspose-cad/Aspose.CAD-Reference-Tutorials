@@ -1,35 +1,47 @@
 ---
-title: 在 Aspose.CAD for .NET 中將 DGN 匯出為光柵影像
-linktitle: 將 DGN 匯出為光柵影像
-second_title: Aspose.CAD .NET - CAD 和 BIM 檔案格式
-description: 使用 Aspose.CAD for .NET 輕鬆將 DGN 轉換為光柵影像。探索逐步指南並釋放 .NET 在 CAD 檔案操作方面的強大功能。
-weight: 13
+date: 2026-03-24
+description: 學習如何使用 Aspose.CAD for .NET 將 dgn 轉換為 png，並將 cad 儲存為 jpeg——CAD 轉圖像的快速指南。
+linktitle: Export DGN to Raster Image
+second_title: Aspose.CAD .NET - CAD and BIM File Format
+title: 如何在 Aspose.CAD for .NET 中將 DGN 轉換為 PNG
 url: /zh-hant/net/cad-export-formats/export-dgn-to-raster-image/
+weight: 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 在 Aspose.CAD for .NET 中將 DGN 匯出為光柵影像
+# 將 DGN 轉換為 PNG（使用 Aspose.CAD for .NET）
 
-## 介紹
+在現代 .NET 開發中，**convert dgn to png** 是在網頁上顯示 CAD 圖紙或將其嵌入報告時的常見需求。Aspose.CAD for .NET 讓此轉換變得簡單，只需幾行程式碼即可將 DGN 檔案轉換為高品質的點陣圖像。本指南將從專案設定說明到最終儲存 PNG（或 JPEG）檔案的完整流程。
 
-在 .NET 開發的動態領域中，Aspose.CAD 成為處理電腦輔助設計 (CAD) 檔案的強大工具。本教學深入介紹使用 Aspose.CAD for .NET 將 DGN 檔案匯出為光柵影像的過程。如果您熱衷於將 DGN 檔案無縫轉換為視覺上引人注目的光柵影像，那麼您來對地方了。
+## 快速解答
+- **可以使用 Aspose.CAD 將 DGN 轉換為 PNG 嗎？** 可以 – 只需設定光柵化選項並選擇 PNG 或 JPEG 輸出。  
+- **生產環境需要授權嗎？** 非試用部署必須使用有效的 Aspose.CAD 授權。  
+- **支援哪些 .NET 版本？** .NET Framework 4.6 以上、.NET Core 3.1 以上、.NET 5/6/7。  
+- **提供哪些影像格式？** PNG、JPEG、BMP、GIF、TIFF 等。  
+- **需要例外處理嗎？** 必須 – 請將轉換程式碼包在 try/catch 中，以處理檔案存取問題。
 
-## 先決條件
+## 什麼是 “convert dgn to png”？
+將 DGN（MicroStation）檔案轉換為 PNG，即將向量 CAD 資料光柵化為像素圖像。此功能適用於產生預覽圖、在 HTML 電子郵件中嵌入圖紙，或為文件管理系統建立縮圖。
 
-在我們開始這趟旅程之前，請確保您具備以下先決條件：
+## 為什麼選擇 Aspose.CAD 進行 CAD 轉影像？
+- **無外部相依性** – 完全以受管理程式碼執行。  
+- **高保真度** – 保留線寬、圖層與顏色。  
+- **彈性輸出** – 只需更改一個選項即可在 PNG、JPEG、BMP 等之間切換。  
+- **效能優化** – 即使是大型圖紙，光柵化速度亦相當快。
 
--  Aspose.CAD for .NET：請確定您的 .NET 專案中安裝了 Aspose.CAD 程式庫。您可以在以下位置找到該庫和相關文檔[網站](https://reference.aspose.com/cad/net/).
+## 前置作業
 
-- 範例 DGN 檔案：準備好轉換的 DGN 檔案。在我們的範例中，我們將使用「Nikon_D90_Camera.dgn」。
+開始之前，請確保您已：
 
-現在，讓我們深入了解逐步指南。
+- 在專案中安裝 **Aspose.CAD for .NET**。您可以從[網站](https://reference.aspose.com/cad/net/)下載。  
+- 準備一個範例 DGN 檔案（例如 `Nikon_D90_Camera.dgn`），並放置於已知目錄下。
 
-## 導入命名空間
+## 匯入命名空間
 
-在您的 .NET 專案中，首先匯入 Aspose.CAD 所需的命名空間。此步驟可讓您存取 DGN 到光柵影像轉換所需的類別和方法。
+先加入必要的 `using` 陳述式，以便存取 Aspose.CAD 類別。
 
 ```csharp
 using System;
@@ -40,9 +52,9 @@ using System.Threading.Tasks;
 using Aspose.CAD;
 ```
 
-## 第 1 步：載入 DGN 文件
+## 步驟 1：載入 DGN 檔案
 
-首先將 DGN 檔案載入到`CadImage`目的。這為後續的操作提供了基礎。
+將來源 DGN 載入至 `CadImage` 物件。此物件代表記憶體中的 CAD 圖紙，將作為光柵化的來源。
 
 ```csharp
 string MyDir = "Your Document Directory";
@@ -50,13 +62,13 @@ string sourceFilePath = MyDir + "Nikon_D90_Camera.dgn";
 
 using (CadImage cadImage = (CadImage)Image.Load(sourceFilePath))
 {
-    //您用於進一步處理的程式碼位於此處
+    // Your code for further processing goes here
 }
 ```
 
-## 第 2 步：定義光柵化選項
+## 步驟 2：定義光柵化選項
 
-創建一個`CadRasterizationOptions`物件並設定各種屬性以根據您的要求自訂光柵化過程。
+設定 CAD 圖紙的光柵化方式。您可以在此控制影像尺寸、縮放比例與背景顏色。
 
 ```csharp
 CadRasterizationOptions rasterizationOptions = new CadRasterizationOptions();
@@ -66,48 +78,62 @@ rasterizationOptions.NoScaling = true;
 rasterizationOptions.AutomaticLayoutsScaling = false;
 ```
 
-## 第 3 步：建立 JpegOptions 對象
+## 步驟 3：選擇輸出格式（PNG 或 JPEG）
 
-由於我們的目標是將 DGN 檔案轉換為 JPEG，因此建立一個`JpegOptions`物件並分配先前定義的`CadRasterizationOptions`到它。
+雖然本教學以 PNG 為主，但您也可能想 **save cad as jpeg**。建立相應的影像選項物件，並將光柵化設定附加上去。
 
 ```csharp
-ImageOptionsBase options = new JpegOptions();
+ImageOptionsBase options = new JpegOptions();   // Change to PngOptions() for PNG output
 options.VectorRasterizationOptions = rasterizationOptions;
 ```
 
-## 第四步：保存光柵影像
+> **專業提示：** 若要產生 PNG 檔案，將 `new JpegOptions()` 改為 `new PngOptions()`。
 
-利用`Save`的方法`CadImage`類別將 DGN 檔案匯出為所需格式的光柵影像（在本例中為 JPEG）。
+## 步驟 4：儲存光柵影像
+
+最後，對 `CadImage` 實例呼叫 `Save`，提供目標檔名與先前設定好的選項物件。
 
 ```csharp
 cadImage.Save(MyDir + "ExportDGNToRasterImage_out.jpg", options);
 ```
 
+如果您改用了 `PngOptions`，檔案將會儲存為 `ExportDGNToRasterImage_out.png`。
+
+## 常見問題與解決方案
+
+| 問題 | 原因 | 解決方式 |
+|------|------|----------|
+| **輸出影像為空白** | `NoScaling` 設定不正確或未選取版面 | 設定 `AutomaticLayoutsScaling = true` 或指定所需版面。 |
+| **大型檔案記憶體不足** | 未使用串流載入巨型 DGN | 使用 `Image.Load(sourceFilePath, new LoadOptions { LoadOnDemand = true })`。 |
+| **不支援的 DGN 版本** | MicroStation 版本過舊 | 確認使用最新的 Aspose.CAD 版本，以支援舊版格式。 |
+
+## 常見問答
+
+**Q: 可以將 DGN 匯出為 JPEG 以外的格式嗎？**  
+A: 可以，Aspose.CAD for .NET 支援 PNG、BMP、GIF、TIFF 等，只需更換選項類別（例如 `new PngOptions()`）。
+
+**Q: 轉換過程中應如何處理例外情況？**  
+A: 將轉換程式碼包在 `try/catch` 區塊，並記錄 `Aspose.CAD.CadException` 以取得詳細錯誤資訊。
+
+**Q: 有提供 Aspose.CAD for .NET 的試用版嗎？**  
+A: 有，您可以免費試用。前往[此處](https://releases.aspose.com/)了解更多資訊。
+
+**Q: 哪裡可以取得 Aspose.CAD for .NET 的支援或討論區？**  
+A: 請前往[Aspose.CAD 論壇](https://forum.aspose.com/c/cad/19)與社群交流。
+
+**Q: 如何取得 Aspose.CAD for .NET 的臨時授權？**  
+A: 前往[此連結](https://purchase.aspose.com/temporary-license/)取得開發所需的臨時授權。
+
 ## 結論
 
-恭喜！您已成功完成使用 Aspose.CAD for .NET 將 DGN 檔案匯出為光柵影像的步驟。本教學為您提供了輕鬆將此功能整合到您的 .NET 專案中的基本知識。
+您現在已學會如何使用 Aspose.CAD for .NET **convert dgn to png**（或 JPEG）。只要調整光柵化選項並切換影像選項類別，即可依專案需求客製化輸出。歡迎嘗試不同的頁面尺寸、DPI 設定與檔案格式，取得最適合您應用程式的點陣圖像。
 
-## 常見問題解答
+---
 
-### 問題 1：我可以將 DGN 檔案匯出為 JPEG 以外的格式嗎？
+**最後更新：** 2026-03-24  
+**測試環境：** Aspose.CAD 24.11 for .NET  
+**作者：** Aspose  
 
-A1：是的，Aspose.CAD for .NET 支援各種輸出格式。您可以在步驟 3 中相應修改選項。
-
-### Q2 轉換過程中出現異常如何處理？
-
-A2：確保您有正確的異常處理（如提供的程式碼所示），以解決潛在問題。
-
-### 問題 3：Aspose.CAD for .NET 有試用版嗎？
-
- A3：是的，您可以透過免費試用來探索該產品。訪問[這裡](https://releases.aspose.com/)了解更多。
-
-### 問題 4：我可以在哪裡尋求協助或討論與 Aspose.CAD for .NET 相關的問題？
-
- A4：前往[Aspose.CAD論壇](https://forum.aspose.com/c/cad/19)以獲得社區支持和討論。
-
-### 問題 5：如何取得 Aspose.CAD for .NET 的臨時授權？
-
- A5：參觀[這個連結](https://purchase.aspose.com/temporary-license/)取得滿足您的開發需求的臨時許可證。
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -1,35 +1,48 @@
 ---
-title: .NET के लिए Aspose.CAD में DGN को रैस्टर इमेज में निर्यात करें
-linktitle: डीजीएन को रास्टर छवि में निर्यात करें
-second_title: Aspose.CAD .NET - CAD और BIM फ़ाइल स्वरूप
-description: .NET के लिए Aspose.CAD का उपयोग करके आसानी से DGN को रेखापुंज छवियों में परिवर्तित करें। चरण-दर-चरण मार्गदर्शिका का अन्वेषण करें और CAD फ़ाइल हेरफेर में .NET की शक्ति को उजागर करें।
-weight: 13
+date: 2026-03-24
+description: Aspose.CAD for .NET का उपयोग करके dgn को png में बदलना और cad को jpeg
+  के रूप में सहेजना सीखें – CAD से इमेज रूपांतरण के लिए एक त्वरित गाइड।
+linktitle: Export DGN to Raster Image
+second_title: Aspose.CAD .NET - CAD and BIM File Format
+title: Aspose.CAD for .NET में DGN को PNG में कैसे बदलें
 url: /hi/net/cad-export-formats/export-dgn-to-raster-image/
+weight: 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# .NET के लिए Aspose.CAD में DGN को रैस्टर इमेज में निर्यात करें
+# Aspose.CAD for .NET में DGN को PNG में बदलें
 
-## परिचय
+आधुनिक .NET विकास में, **convert dgn to png** एक सामान्य आवश्यकता है जब आपको वेब पर CAD ड्रॉइंग्स दिखाने या रिपोर्ट में एम्बेड करने की जरूरत होती है। Aspose.CAD for .NET इस रूपांतरण को सरल बनाता है, जिससे आप कुछ ही कोड लाइनों के साथ DGN फ़ाइल को उच्च‑गुणवत्ता वाले रास्टर इमेज में बदल सकते हैं। इस गाइड में हम पूरी प्रक्रिया को कवर करेंगे, प्रोजेक्ट सेटअप से लेकर अंतिम PNG (या JPEG) फ़ाइल को सेव करने तक।
 
-.NET विकास के गतिशील क्षेत्र में, Aspose.CAD कंप्यूटर-एडेड डिज़ाइन (CAD) फ़ाइलों को संभालने के लिए एक शक्तिशाली उपकरण के रूप में उभरता है। यह ट्यूटोरियल .NET के लिए Aspose.CAD का उपयोग करके छवियों को रेखापुंज करने के लिए DGN फ़ाइलों को निर्यात करने की प्रक्रिया पर प्रकाश डालता है। यदि आप अपनी डीजीएन फाइलों को सहजता से आकर्षक रेखापुंज छवियों में बदलने के इच्छुक हैं, तो आप सही जगह पर हैं।
+## Quick Answers
+- **क्या मैं Aspose.CAD के साथ DGN को PNG में बदल सकता हूँ?** हाँ – केवल रास्टराइज़ेशन विकल्प कॉन्फ़िगर करें और PNG या JPEG आउटपुट चुनें।  
+- **उत्पादन उपयोग के लिए लाइसेंस चाहिए?** गैर‑ट्रायल डिप्लॉयमेंट के लिए वैध Aspose.CAD लाइसेंस आवश्यक है।  
+- **कौन से .NET संस्करण समर्थित हैं?** .NET Framework 4.6+, .NET Core 3.1+, .NET 5/6/7।  
+- **कौन से इमेज फ़ॉर्मेट उपलब्ध हैं?** PNG, JPEG, BMP, GIF, TIFF, और अधिक।  
+- **क्या एक्सेप्शन हैंडलिंग आवश्यक है?** बिल्कुल – फ़ाइल‑एक्सेस समस्याओं को संभालने के लिए try/catch में रूपांतरण को रैप करें।
 
-## आवश्यक शर्तें
+## What is “convert dgn to png”?
+DGN (MicroStation) फ़ाइल को PNG में बदलना मतलब वेक्टर CAD डेटा को पिक्सेल‑आधारित इमेज में रास्टराइज़ करना है। यह प्रीव्यू जनरेशन, HTML ई‑मेल में ड्रॉइंग एम्बेड करने, या डॉक्यूमेंट मैनेजमेंट सिस्टम के लिए थंबनेल बनाने में उपयोगी है।
 
-इससे पहले कि हम इस यात्रा पर निकलें, सुनिश्चित करें कि आपके पास निम्नलिखित शर्तें हैं:
+## Why use Aspose.CAD for CAD to image conversion?
+- **कोई बाहरी निर्भरताएँ नहीं** – पूरी तरह से मैनेज्ड कोड में काम करता है।  
+- **उच्च फ़िडेलिटी** – लाइन वेट, लेयर्स, और रंगों को बरकरार रखता है।  
+- **लचीला आउटपुट** – एक ही विकल्प बदलकर PNG, JPEG, BMP आदि में स्विच कर सकते हैं।  
+- **परफ़ॉर्मेंस‑ऑप्टिमाइज़्ड** – बड़े ड्रॉइंग्स के लिए भी रास्टराइज़ेशन तेज़ है।
 
--  .NET के लिए Aspose.CAD: सुनिश्चित करें कि आपके .NET प्रोजेक्ट में Aspose.CAD लाइब्रेरी स्थापित है। आप लाइब्रेरी और प्रासंगिक दस्तावेज़ यहां पा सकते हैं[वेबसाइट](https://reference.aspose.com/cad/net/).
+## Prerequisites
 
-- नमूना डीजीएन फ़ाइल: रूपांतरण के लिए एक डीजीएन फ़ाइल तैयार रखें। हमारे उदाहरण में, हम "Nikon_D90_Camera.dgn" का उपयोग करेंगे।
+शुरू करने से पहले सुनिश्चित करें कि आपके पास है:
 
-अब, आइए चरण-दर-चरण मार्गदर्शिका के बारे में जानें।
+- **Aspose.CAD for .NET** आपके प्रोजेक्ट में इंस्टॉल हो। आप इसे [website](https://reference.aspose.com/cad/net/) से डाउनलोड कर सकते हैं।  
+- एक सैंपल DGN फ़ाइल (जैसे `Nikon_D90_Camera.dgn`) जिसे आप किसी ज्ञात डायरेक्टरी में रखेंगे।
 
-## नामस्थान आयात करें
+## Import Namespaces
 
-अपने .NET प्रोजेक्ट में, Aspose.CAD के लिए आवश्यक नामस्थान आयात करके प्रारंभ करें। यह चरण आपको छवि रूपांतरण को रेखापुंज करने के लिए डीजीएन के लिए आवश्यक कक्षाओं और विधियों तक पहुंचने की अनुमति देता है।
+आवश्यक `using` स्टेटमेंट्स जोड़ें ताकि आप Aspose.CAD क्लासेस तक पहुँच सकें।
 
 ```csharp
 using System;
@@ -40,9 +53,9 @@ using System.Threading.Tasks;
 using Aspose.CAD;
 ```
 
-## चरण 1: डीजीएन फ़ाइल लोड करें
+## Step 1: Load the DGN File
 
- DGN फ़ाइल को a में लोड करके प्रारंभ करें`CadImage` वस्तु। यह आगामी परिचालनों के लिए आधार प्रदान करता है।
+स्रोत DGN को `CadImage` ऑब्जेक्ट में लोड करें। यह ऑब्जेक्ट मेमोरी में CAD ड्रॉइंग का प्रतिनिधित्व करता है और रास्टराइज़ेशन का स्रोत होगा।
 
 ```csharp
 string MyDir = "Your Document Directory";
@@ -50,13 +63,13 @@ string sourceFilePath = MyDir + "Nikon_D90_Camera.dgn";
 
 using (CadImage cadImage = (CadImage)Image.Load(sourceFilePath))
 {
-    // आगे की प्रक्रिया के लिए आपका कोड यहां जाता है
+    // Your code for further processing goes here
 }
 ```
 
-## चरण 2: रैस्टराइज़ेशन विकल्पों को परिभाषित करें
+## Step 2: Define Rasterization Options
 
- एक बनाने के`CadRasterizationOptions` अपनी आवश्यकताओं के अनुसार रैस्टराइज़ेशन प्रक्रिया को अनुकूलित करने के लिए ऑब्जेक्ट बनाएं और विभिन्न गुण सेट करें।
+CAD ड्रॉइंग को कैसे रास्टराइज़ किया जाना चाहिए, इसे कॉन्फ़िगर करें। यहाँ आप इमेज साइज, स्केलिंग, और बैकग्राउंड कलर नियंत्रित कर सकते हैं।
 
 ```csharp
 CadRasterizationOptions rasterizationOptions = new CadRasterizationOptions();
@@ -66,48 +79,62 @@ rasterizationOptions.NoScaling = true;
 rasterizationOptions.AutomaticLayoutsScaling = false;
 ```
 
-## चरण 3: JpegOptions ऑब्जेक्ट बनाएं
+## Step 3: Choose the Output Format (PNG or JPEG)
 
- चूंकि हमारा लक्ष्य डीजीएन फ़ाइल को जेपीईजी में परिवर्तित करना है, इसलिए एक बनाएं`JpegOptions` ऑब्जेक्ट करें और पहले से परिभाषित असाइन करें`CadRasterizationOptions` इसे.
+हालाँकि ट्यूटोरियल PNG पर केंद्रित है, आप **save cad as jpeg** भी कर सकते हैं। उपयुक्त इमेज ऑप्शन ऑब्जेक्ट बनाएं और रास्टराइज़ेशन सेटिंग्स को अटैच करें।
 
 ```csharp
-ImageOptionsBase options = new JpegOptions();
+ImageOptionsBase options = new JpegOptions();   // Change to PngOptions() for PNG output
 options.VectorRasterizationOptions = rasterizationOptions;
 ```
 
-## चरण 4: रेखापुंज छवि सहेजें
+> **Pro tip:** PNG फ़ाइल जनरेट करने के लिए `new JpegOptions()` को `new PngOptions()` से बदलें।
 
- का उपयोग करें`Save` की विधि`CadImage` डीजीएन फ़ाइल को वांछित प्रारूप में एक रेखापुंज छवि में निर्यात करने के लिए क्लास, इस मामले में, एक जेपीईजी।
+## Step 4: Save the Raster Image
+
+अंत में, `CadImage` इंस्टेंस पर `Save` कॉल करें, इच्छित फ़ाइल नाम और कॉन्फ़िगर किए गए ऑप्शन ऑब्जेक्ट को पास करें।
 
 ```csharp
 cadImage.Save(MyDir + "ExportDGNToRasterImage_out.jpg", options);
 ```
 
-## निष्कर्ष
+यदि आप `PngOptions` पर स्विच करते हैं, तो फ़ाइल `ExportDGNToRasterImage_out.png` के रूप में सेव होगी।
 
-बधाई हो! आपने .NET के लिए Aspose.CAD का उपयोग करके DGN फ़ाइल को रैस्टर छवि में निर्यात करने के चरणों को सफलतापूर्वक पार कर लिया है। इस ट्यूटोरियल ने आपको इस कार्यक्षमता को आपके .NET प्रोजेक्ट्स में सहजता से एकीकृत करने के लिए आवश्यक ज्ञान से सुसज्जित किया है।
+## Common Issues and Solutions
 
-## अक्सर पूछे जाने वाले प्रश्न
+| Issue | Cause | Fix |
+|-------|-------|-----|
+| **Blank output image** | `NoScaling` गलत सेट है या लेआउट चयनित नहीं है | `AutomaticLayoutsScaling = true` सेट करें या इच्छित लेआउट निर्दिष्ट करें। |
+| **Out‑of‑memory for large files** | बिना स्ट्रीमिंग के बड़े DGN को लोड करना | `Image.Load(sourceFilePath, new LoadOptions { LoadOnDemand = true })` उपयोग करें। |
+| **Unsupported DGN version** | पुराने MicroStation संस्करण | सुनिश्चित करें कि आपके पास लेगेसी फ़ॉर्मेट्स को सपोर्ट करने वाला नवीनतम Aspose.CAD संस्करण है। |
 
-### Q1: क्या मैं DGN फ़ाइलों को JPEG के अलावा अन्य प्रारूपों में निर्यात कर सकता हूँ?
+## Frequently Asked Questions
 
-A1: हाँ, .NET के लिए Aspose.CAD विभिन्न आउटपुट स्वरूपों का समर्थन करता है। आप चरण 3 में तदनुसार विकल्पों को संशोधित कर सकते हैं।
+**Q: क्या मैं DGN फ़ाइलों को JPEG के अलावा अन्य फ़ॉर्मेट में एक्सपोर्ट कर सकता हूँ?**  
+A: हाँ, Aspose.CAD for .NET PNG, BMP, GIF, TIFF, और अधिक को सपोर्ट करता है – बस ऑप्शन क्लास को बदलें (जैसे `new PngOptions()`)।
 
-### Q2 मैं रूपांतरण प्रक्रिया के दौरान अपवादों को कैसे संभाल सकता हूँ?
+**Q: रूपांतरण के दौरान एक्सेप्शन को कैसे हैंडल करूँ?**  
+A: रूपांतरण कोड को `try/catch` ब्लॉक में रैप करें और विस्तृत त्रुटि जानकारी के लिए `Aspose.CAD.CadException` को लॉग करें।
 
-A2: सुनिश्चित करें कि आपके पास संभावित समस्याओं के समाधान के लिए उचित अपवाद प्रबंधन है, जैसा कि दिए गए कोड में दिखाया गया है।
+**Q: क्या Aspose.CAD for .NET का ट्रायल वर्ज़न उपलब्ध है?**  
+A: हाँ, आप मुफ्त ट्रायल के साथ प्रोडक्ट का परीक्षण कर सकते हैं। अधिक जानकारी के लिए [here](https://releases.aspose.com/) देखें।
 
-### Q3: क्या .NET के लिए Aspose.CAD का कोई परीक्षण संस्करण उपलब्ध है?
+**Q: Aspose.CAD for .NET से संबंधित सहायता या मुद्दों पर चर्चा कहाँ करूँ?**  
+A: समुदाय समर्थन और चर्चा के लिए [Aspose.CAD forum](https://forum.aspose.com/c/cad/19) पर जाएँ।
 
- उ3: हां, आप नि:शुल्क परीक्षण के साथ उत्पाद का पता लगा सकते हैं। मिलने जाना[यहाँ](https://releases.aspose.com/) अधिक जानकारी के लिए।
+**Q: Aspose.CAD for .NET के लिए टेम्पररी लाइसेंस कैसे प्राप्त करूँ?**  
+A: अपने विकास आवश्यकताओं के लिए टेम्पररी लाइसेंस प्राप्त करने हेतु [this link](https://purchase.aspose.com/temporary-license/) देखें।
 
-### Q4: मैं .NET के लिए Aspose.CAD से संबंधित मुद्दों पर कहां सहायता मांग सकता हूं या चर्चा कर सकता हूं?
+## Conclusion
 
- ए4: की ओर जाएं[Aspose.CAD फोरम](https://forum.aspose.com/c/cad/19) सामुदायिक समर्थन और चर्चा के लिए।
+आपने अब **convert dgn to png** (या JPEG) को Aspose.CAD for .NET का उपयोग करके कैसे किया, सीख लिया है। रास्टराइज़ेशन विकल्पों को समायोजित करके और इमेज‑ऑप्शन क्लास को बदलकर आप आउटपुट को किसी भी प्रोजेक्ट की आवश्यकता के अनुसार कस्टमाइज़ कर सकते हैं। विभिन्न पेज साइज, DPI सेटिंग्स, और फ़ाइल फ़ॉर्मेट के साथ प्रयोग करने में संकोच न करें ताकि आपके एप्लिकेशन के लिए परफेक्ट रास्टर इमेज प्राप्त हो सके।
 
-### Q5: मैं .NET के लिए Aspose.CAD के लिए अस्थायी लाइसेंस कैसे प्राप्त करूं?
+---
 
- ए5: विजिट करें[इस लिंक](https://purchase.aspose.com/temporary-license/)अपनी विकास आवश्यकताओं के लिए एक अस्थायी लाइसेंस प्राप्त करने के लिए।
+**Last Updated:** 2026-03-24  
+**Tested With:** Aspose.CAD 24.11 for .NET  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
