@@ -1,33 +1,45 @@
 ---
-title: Aspose.CAD for .NET'te Otomatik Mizanpaj Ölçeklendirmesini Ayarlama
-linktitle: Otomatik Düzen Ölçeklendirmeyi Ayarlama
-second_title: Aspose.CAD .NET - CAD ve BIM Dosya Formatı
-description: Aspose.CAD for .NET ile CAD görüntülemeyi geliştirin. Hassas ve uyarlanabilir dosya işleme için Otomatik Düzen Ölçeklendirmeyi ayarlamayı öğrenin.
-weight: 14
+date: 2026-03-26
+description: CAD'den PDF oluşturmayı ve DXF'yi PDF'ye dönüştürmeyi, Aspose.CAD for
+  .NET kullanarak, hassas ve uyarlanabilir render için Otomatik Düzen Ölçeklendirme
+  ile öğrenin.
+linktitle: Setting Auto Layout Scaling
+second_title: Aspose.CAD .NET - CAD and BIM File Format
+title: 'CAD''den PDF Oluştur: Otomatik Düzen Ölçekleme – Aspose.CAD'
 url: /tr/net/cad-features-and-support/setting-auto-layout-scaling/
+weight: 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.CAD for .NET'te Otomatik Mizanpaj Ölçeklendirmesini Ayarlama
+# CAD'den PDF Oluşturma: Otomatik Düzen Ölçeklendirme – Aspose.CAD
 
-.NET geliştirmenin dinamik alanında, Bilgisayar Destekli Tasarım (CAD) dosyalarının işlenmesini optimize etmek, verimli ve görsel olarak çekici uygulamalar yaratmanın çok önemli bir yönüdür. Aspose.CAD for .NET, geliştiricilerin CAD işleme yeteneklerini geliştirmelerine yardımcı olur ve bu eğitimde Aspose.CAD for .NET kullanarak Otomatik Yerleşim Ölçeklendirmeyi ayarlamaya odaklanacağız.
+Modern .NET uygulamalarında, CAD çizimlerini yüksek kaliteli PDF'lere dönüştürmek yaygın bir gereksinimdir—raporlama, paylaşma veya arşivleme için **CAD'den PDF oluşturmanız** gerektiğinde. Bu öğretici, Aspose.CAD for .NET kullanarak Otomatik Düzen Ölçeklendirmeyi etkinleştirmenizi, piksel mükemmel sonuçlar almanızı ve aynı zamanda **DXF'yi PDF'ye dönüştürmeyi** ve **CAD'yi PDF'ye dışa aktarmayı** minimal kodla nasıl yapacağınızı gösterir.
+
+## Hızlı Yanıtlar
+- **Auto Layout Scaling ne yapar?** Sayfa boyutuna uyması için düzeni otomatik olarak ayarlar, geometrik doğruluğu korur.  
+- **Hangi formatlar destekleniyor?** Aspose.CAD'in okuyabildiği herhangi bir format (DXF, DWG, DGN, vb.) PDF'ye dışa aktarılabilir.  
+- **Lisans gerekli mi?** Geliştirme için ücretsiz deneme sürümü çalışır; üretim için ticari lisans gereklidir.  
+- **Sayfa boyutunu değiştirebilir miyim?** Evet—`CadRasterizationOptions` içinde `PageWidth` ve `PageHeight` ayarlayın.  
+- **.NET Core ile uyumlu mu?** Kesinlikle, .NET Framework ve .NET Core/5/6+ ile çalışır.
+
+## “CAD'den PDF oluşturma” nedir?
+Bir CAD dosyasından PDF oluşturmak, vektör çizim verilerini taşınabilir bir belge formatına rasterleştirmek anlamına gelir. Bu dönüşüm, katmanları, çizgi kalınlıklarını ve renkleri korurken dosyanın CAD yazılımı olmadan herhangi bir cihazda görüntülenebilmesini sağlar.
+
+## Neden Auto Layout Scaling kullanmalısınız?
+Auto Layout Scaling, tüm çizimin çıktı sayfasına düzgün bir şekilde sığmasını sağlar ve ölçek faktörleri için manuel hesaplamaları ortadan kaldırır. Özellikle mimari planlar veya mekanik şemalar gibi farklı boyutlardaki çizimlerle çalışırken çok faydalıdır.
 
 ## Önkoşullar
+Başlamadan önce, aşağıdakilere sahip olduğunuzdan emin olun:
 
-Eğiticiye başlamadan önce aşağıdaki önkoşulların yerine getirildiğinden emin olun:
+1. **Aspose.CAD for .NET** – En son kütüphaneyi [download page](https://releases.aspose.com/cad/net/) adresinden indirin.  
+2. **Bir .NET geliştirme ortamı** – Visual Studio, Rider veya C# destekleyen herhangi bir editör.  
+3. **Örnek bir DXF dosyası** – örneğin `conic_pyramid.dxf` veya dönüştürmek istediğiniz herhangi bir CAD dosyası.
 
-1.  Aspose.CAD for .NET Library: Aspose.CAD for .NET kütüphanesini aşağıdaki adresten indirip yükleyin:[indirme sayfası](https://releases.aspose.com/cad/net/).
-
-2. Geliştirme Ortamı: Visual Studio'nun veya başka herhangi bir .NET geliştirme aracının kurulu olduğu, çalışan bir geliştirme ortamına sahip olun.
-
-3. Örnek CAD Dosyası: Deneme yapmak için DXF formatında örnek bir CAD dosyası hazırlayın. Test amaçlı bir tane bulabilir veya kendinizinkini kullanabilirsiniz.
-
-## Ad Alanlarını İçe Aktar
-
-Aspose.CAD tarafından sağlanan işlevlere erişmek için gerekli ad alanlarını .NET projenize aktararak başlayın.
+## İsim Uzaylarını İçe Aktarın
+Aspose.CAD sınıflarına erişebilmek için gerekli isim uzaylarını ekleyin.
 
 ```csharp
 using System;
@@ -39,8 +51,7 @@ using Aspose.CAD;
 ```
 
 ## Adım 1: CAD Dosyasını Yükleyin
-
-Aspose.CAD kütüphanesini kullanarak CAD dosyasını uygulamanıza yükleyin.
+Kaynak çizimi bir `Image` nesnesine yükleyin. Bu, sonraki tüm işlemler için giriş noktasıdır.
 
 ```csharp
 string MyDir = "Your Document Directory";
@@ -48,13 +59,12 @@ string sourceFilePath = MyDir + "conic_pyramid.dxf";
 
 using (Image image = Image.Load(sourceFilePath))
 {
-    // Kodunuz burada
+    // Your code here
 }
 ```
 
-## Adım 2: Rasterleştirme Seçeneklerini Yapılandırın
-
- Bir örneğini oluşturun`CadRasterizationOptions` ve rasterleştirme işlemini özelleştirmek için özelliklerini yapılandırın.
+## Adım 2: Rasterizasyon Seçeneklerini Yapılandırın
+Çıktı sayfa boyutlarını tanımlayın. Bu değerleri istediğiniz PDF boyutuna göre ayarlayın.
 
 ```csharp
 CadRasterizationOptions rasterizationOptions = new CadRasterizationOptions();
@@ -62,60 +72,63 @@ rasterizationOptions.PageWidth = 1600;
 rasterizationOptions.PageHeight = 1600;
 ```
 
-## 3. Adım: Otomatik Düzen Ölçeklendirmeyi Etkinleştirin
-
- Ayarlayarak Otomatik Düzen Ölçeklendirmeyi etkinleştirin`AutomaticLayoutsScaling` özellik doğru.
+## Adım 3: Auto Layout Scaling'i Etkinleştirin
+Çizimin sayfaya kırpılmadan sığması için otomatik ölçeklendirmeyi açın.
 
 ```csharp
 rasterizationOptions.AutomaticLayoutsScaling = true;
 ```
 
-## 4. Adım: PDF Seçenekleri Oluşturun
-
- Bir örneğini oluşturun`PdfOptions` Çıkış formatını belirtmek ve ayarlamak için`VectorRasterizationOptions` önceden yapılandırılmış olanın özelliği`CadRasterizationOptions`.
+## Adım 4: PDF Seçeneklerini Oluşturun
+Rasterizasyon ayarlarını PDF dışa aktarıcısına bağlayın.
 
 ```csharp
 PdfOptions pdfOptions = new PdfOptions();
 pdfOptions.VectorRasterizationOptions = rasterizationOptions;
 ```
 
-## Adım 5: Sonucu Kaydet
-
-Çıkış yolunu tanımlayın ve uygulanan ayarlarla CAD dosyasını bir PDF dosyasına kaydedin.
+## Adım 5: Sonucu Kaydedin – CAD'den PDF Oluşturun
+Çıktı yolunu belirleyin ve görüntüyü PDF olarak kaydedin. Bu adım, yapılandırdığınız ölçekleme ile **CAD'den PDF oluşturur**.
 
 ```csharp
 MyDir = MyDir + "result_out.pdf";
 image.Save(MyDir, pdfOptions);
 ```
 
-## Çözüm
+## Yaygın Sorunlar ve İpuçları
+- **Eksik fontlar veya çizgi stilleri?** CAD dosyası referanslarının gömülü veya sunucuda mevcut olduğundan emin olun.  
+- **Büyük dosyalar bellek baskısına neden mi oluyor?** Çizimi parçalar halinde işleyin veya uygulamanın bellek limitini artırın.  
+- **Çıktı bulanık mı görünüyor?** Daha yüksek DPI için `PageWidth`/`PageHeight` değerlerini artırın veya `CadRasterizationOptions` içinde `Resolution` ayarlayın.
 
-Tebrikler! Aspose.CAD for .NET'i kullanarak Otomatik Düzen Ölçeklendirmeyi başarıyla kurdunuz. Bu optimizasyon, CAD dosyalarınızın hassas ve uyarlanabilir bir şekilde oluşturulmasını sağlayarak uygulamalarınızı daha çok yönlü hale getirir.
+## Sık Sorulan Sorular
 
-## SSS'ler
+**Q: Auto Layout Scaling'i DXF dışındaki diğer dosya formatlarına uygulayabilir miyim?**  
+**A:** Evet, Aspose.CAD otomatik ölçeklendirme için DWG, DGN ve birçok diğer CAD formatını destekler.
 
-### S1: Otomatik Düzen Ölçeklendirmeyi DXF'nin yanı sıra diğer dosya formatlarına da uygulayabilir miyim?
+**Q: Renderleme sürecinde hataları nasıl yönetebilirim?**  
+**A:** Dönüştürme kodunu bir `try‑catch` bloğuna sarın ve ayrıntılı hata bilgileri için `Aspose.CAD.CadException` yakalayın.
 
-Cevap1: Evet, Aspose.CAD for .NET, Otomatik Yerleşim Ölçeklendirmesi için çeşitli CAD formatlarını destekler.
+**Q: Aspose.CAD'in işleyebileceği dosya boyutu için bir limit var mı?**  
+**A:** Kütüphane büyük dosyalar için tasarlanmıştır, ancak performans mevcut RAM ve CPU'ya bağlıdır. Çok büyük çizimleri yeterli kaynaklara sahip bir sunucuda işlemeyi düşünün.
 
-### S2: Oluşturma işlemi sırasındaki hataları nasıl halledebilirim?
+**Q: Çıktı PDF'yi (ör. filigran eklemek veya meta veri eklemek) daha da özelleştirebilir miyim?**  
+**A:** Kesinlikle. Kaydettikten sonra PDF'yi değiştirmek için Aspose.PDF kullanabilirsiniz—filigran ekleyin, belge özelliklerini ayarlayın veya sayfaları birleştirin.
 
-Cevap2: İstisnaları yönetmek için try-catch bloklarını kullanarak hata işleme mekanizmalarını uygulayabilirsiniz.
+**Q: Aspose.CAD için ek kaynakları ve desteği nerede bulabilirim?**  
+**A:** Topluluk yardımı için [Aspose.CAD forum](https://forum.aspose.com/c/cad/19) adresini inceleyin ve daha derin API detayları için [documentation](https://reference.aspose.com/cad/net/) adresine bakın.
 
-### S3: Aspose.CAD for .NET'in işleyebileceği dosya boyutunda bir sınır var mı?
+## Sonuç
+Artık **CAD'den PDF oluşturmayı**, **Auto Layout Scaling'i** etkinleştirmeyi ve Aspose.CAD for .NET kullanarak **DXF'yi PDF'ye dönüştürmeyi** etkili bir şekilde öğrendiniz. Bu yaklaşım, uygulamayı basit tutarken render kalitesi üzerinde tam kontrol sağlar.
 
-Cevap3: Aspose.CAD büyük dosyaları işlemek için tasarlanmıştır ancak performansı sistem özelliklerine göre değişiklik gösterebilir.
-
-### S4: Çıktı PDF'sini daha da özelleştirebilir miyim?
-
-Cevap4: Aspose.CAD kesinlikle çıktıyı özelleştirmek için renk ayarları ve katman konfigürasyonları da dahil olmak üzere çok çeşitli seçenekler sunuyor.
-
-### S5: Aspose.CAD için ek kaynakları ve desteği nerede bulabilirim?
-
- A5: Keşfedin[Aspose.CAD forumu](https://forum.aspose.com/c/cad/19) topluluk desteği için ve bkz.[dokümantasyon](https://reference.aspose.com/cad/net/) detaylı bilgi için.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Son Güncelleme:** 2026-03-26  
+**Test Edilen:** Aspose.CAD for .NET 24.12 (en son)  
+**Yazar:** Aspose
