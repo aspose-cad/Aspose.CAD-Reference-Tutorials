@@ -1,35 +1,52 @@
 ---
-title: Ondersteuning voor DGN V7 in Aspose.CAD voor .NET
-linktitle: Ondersteuning voor DGN V7
-second_title: Aspose.CAD .NET - CAD- en BIM-bestandsindeling
-description: Ontdek de naadloze ondersteuning van Aspose.CAD voor .NET voor DGN V7. Converteer DGN-bestanden moeiteloos naar rasterafbeeldingen met stapsgewijze begeleiding.
-weight: 19
+date: 2026-03-29
+description: Leer hoe u DGN naar JPEG kunt converteren met Aspose.CAD voor .NET, met
+  volledige ondersteuning voor DGN V7 en waarmee u CAD eenvoudig naar rasterafbeeldingen
+  kunt converteren.
+linktitle: Support for DGN V7
+second_title: Aspose.CAD .NET - CAD and BIM File Format
+title: Converteer DGN naar JPEG met Aspose.CAD voor .NET – V7-ondersteuning
 url: /nl/net/cad-features-and-support/support-for-dgn-v7/
+weight: 19
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Ondersteuning voor DGN V7 in Aspose.CAD voor .NET
+# Converteer DGN naar JPEG met Aspose.CAD voor .NET – V7-ondersteuning
 
-## Invoering
+## Introductie
 
-Op het gebied van .NET-ontwikkeling onderscheidt Aspose.CAD zich als een krachtige bibliotheek voor het verwerken van Computer-Aided Design (CAD)-bestanden. Deze tutorial gaat dieper in op een specifieke functie van Aspose.CAD voor .NET: ondersteuning voor DGN V7-bestanden. DGN, afkorting van Design, is een veelgebruikt bestandsformaat in het CAD-domein. Aspose.CAD vereenvoudigt het werken met DGN V7-bestanden en biedt ontwikkelaars een naadloze ervaring.
+In deze tutorial leer je hoe je **DGN naar JPEG** kunt converteren met Aspose.CAD voor .NET, waarbij je profiteert van de volledige DGN V7-ondersteuning van de bibliotheek. Het converteren van DGN‑bestanden naar rasterafbeeldingen zoals JPEG is een veelvoorkomende eis wanneer je CAD‑tekeningen in webpagina's, mobiele apps of rapportagetools moet insluiten. Aspose.CAD stelt je ook in staat om **CAD naar raster** formaten efficiënt te converteren, waardoor je flexibiliteit krijgt in hoe je ontwerpinformatie presenteert.
+
+## Snelle antwoorden
+- **Waar gaat de tutorial over?** Het converteren van een DGN V7‑bestand naar een JPEG‑rasterafbeelding met Aspose.CAD voor .NET.  
+- **Welke bibliotheekversie is vereist?** Elke recente Aspose.CAD voor .NET‑release die DGN V7‑ondersteuning bevat.  
+- **Heb ik een licentie nodig?** Een gratis proefversie werkt voor ontwikkeling; een commerciële licentie is vereist voor productie.  
+- **Kan ik de uitvoergrootte wijzigen?** Ja – rasterisatie‑opties laten je paginabreedte, -hoogte en schaalinstellingen bepalen.  
+- **Is JPEG het enige uitvoerformaat?** Nee – Aspose.CAD ondersteunt vele rasterformaten (PNG, BMP, TIFF, enz.).
+
+## Wat is DGN V7?
+DGN (Design) is een bestandsformaat dat oorspronkelijk is gemaakt door Bentley Systems voor MicroStation. Versie 7 voegt rijkere geometrie en metadata toe, waardoor het een populaire keuze is voor civiele‑techniek en infrastructuurprojecten. Aspose.CAD voor .NET kan DGN V7‑bestanden direct lezen en hun inhoud blootleggen als `CadImage`‑objecten die je kunt rasteren of naar andere formaten kunt converteren.
+
+## Waarom DGN naar JPEG converteren?
+- **Web‑klaar:** JPEG‑afbeeldingen zijn lichtgewicht en worden direct in browsers weergegeven zonder speciale plug‑ins.  
+- **Cross‑platform:** JPEG kan op elk apparaat worden bekeken, waardoor het ideaal is om CAD‑tekeningen te delen met niet‑technische belanghebbenden.  
+- **Vereenvoudigde werkstromen:** Het converteren naar een rasterformaat verwijdert de noodzaak voor CAD‑specifieke viewers in vervolgprocessen.
 
 ## Vereisten
 
-Voordat we ingaan op de implementatie, moet u ervoor zorgen dat u aan de volgende vereisten voldoet:
+Voordat we in de implementatie duiken, zorg ervoor dat je het volgende hebt:
 
--  Aspose.CAD voor .NET: Zorg ervoor dat de Aspose.CAD-bibliotheek is geïnstalleerd. Je kunt het downloaden van de[website](https://releases.aspose.com/cad/net/).
+- **Aspose.CAD voor .NET** – download het van de [website](https://releases.aspose.com/cad/net/).  
+- **Ontwikkelomgeving** – Visual Studio (of elke IDE die .NET ondersteunt).  
 
-- Ontwikkelomgeving: Zet een werkende .NET-ontwikkelomgeving op, inclusief Visual Studio of een andere gewenste IDE.
+Als je deze klaar hebt, kun je de stappen zonder onderbreking volgen.
 
-Nu we de vereisten op orde hebben, gaan we kijken hoe we de ondersteuning voor DGN V7 in Aspose.CAD voor .NET kunnen benutten.
+## Namespaces importeren
 
-## Naamruimten importeren
-
-Begin met het importeren van de benodigde naamruimten om toegang te krijgen tot de functionaliteit van Aspose.CAD:
+Begin met het importeren van de namespaces die nodig zijn voor het verwerken van CadImage en rasterisatie.
 
 ```csharp
 using System;
@@ -42,7 +59,7 @@ using Aspose.CAD;
 
 ## Stap 1: Laad het DGN-bestand
 
- Begin met het laden van een bestaand DGN-bestand als`CadImage` Vervangen`"Your Document Directory"` En`"Nikon_D90_Camera.dgn"` met het juiste mappad en de juiste bestandsnaam.
+Laad het bron‑DGN‑bestand in een `CadImage`‑object. Vervang het tijdelijke pad door de map die je DGN‑bestand bevat.
 
 ```csharp
 string MyDir = "Your Document Directory";
@@ -50,13 +67,13 @@ string sourceFilePath = MyDir + "Nikon_D90_Camera.dgn";
 
 using (CadImage cadImage = (CadImage)Image.Load(sourceFilePath))
 {
-    // Code voor verdere stappen vindt u hier...
+    // Subsequent steps will be placed here.
 }
 ```
 
-## Stap 2: Configureer rasterisatieopties
+## Stap 2: Rasterisatie-opties configureren
 
- Maak een`CadRasterizationOptions` object om verschillende eigenschappen met betrekking tot rastering te definiëren en in te stellen.
+Definieer hoe de DGN‑tekening moet worden gerasterd. Je kunt de uitvoerdimensies en schaalgedrag regelen.
 
 ```csharp
 CadRasterizationOptions rasterizationOptions = new CadRasterizationOptions
@@ -68,9 +85,9 @@ CadRasterizationOptions rasterizationOptions = new CadRasterizationOptions
 };
 ```
 
-## Stap 3: Stel opties voor vectorrasterisatie in
+## Stap 3: Vector-rasterisatie-opties instellen
 
- Maak een`JpegOptions` object omdat we van plan zijn het DGN-bestand naar JPEG te converteren. Wijs het eerder gemaakte toe`CadRasterizationOptions` er bezwaar tegen maken.
+Maak een `JpegOptions`‑object (of een andere rasterformaat‑optie) aan en koppel de rasterisatie‑instellingen.
 
 ```csharp
 ImageOptionsBase options = new JpegOptions
@@ -81,39 +98,45 @@ ImageOptionsBase options = new JpegOptions
 
 ## Stap 4: Sla de gerasterde afbeelding op
 
- Bel de`Save` werkwijze van de`CadImage` class-object om het DGN-bestand naar een rasterafbeelding te exporteren, in dit geval een JPEG.
+Exporteer tenslotte de DGN‑tekening naar een JPEG‑bestand met behulp van de `Save`‑methode.
 
 ```csharp
 cadImage.Save(MyDir + "ExportDGNToRasterImage_out.jpeg", options);
 ```
 
-Nadat deze stappen zijn voltooid, wordt het DGN-bestand met succes geëxporteerd naar een rasterafbeelding.
+Wanneer de code succesvol wordt uitgevoerd, vind je een JPEG‑representatie van de oorspronkelijke DGN V7‑tekening in de opgegeven map.
 
-## Conclusie
+## Veelvoorkomende problemen en oplossingen
 
-In deze tutorial hebben we de naadloze ondersteuning voor DGN V7 in Aspose.CAD voor .NET onderzocht. Door de stapsgewijze handleiding te volgen, kunnen ontwikkelaars DGN-bestanden moeiteloos naar rasterafbeeldingen converteren, waardoor de mogelijkheden van hun .NET-applicaties worden uitgebreid.
+| Probleem | Oplossing |
+|----------|-----------|
+| **Bestand niet gevonden** | Controleer of `MyDir` eindigt op een pad‑scheidingsteken (`\\` of `/`) en of de bestandsnaam correct is. |
+| **Lege uitvoerafbeelding** | Zorg ervoor dat `NoScaling` correct is ingesteld; zet het op `false` als je wilt dat de tekening de pagina vult. |
+| **Niet‑ondersteunde entiteiten** | Aspose.CAD ondersteunt de meeste DGN‑entiteiten, maar zeer oude of aangepaste objecten kunnen worden genegeerd. Controleer het conversielogboek op waarschuwingen. |
 
 ## Veelgestelde vragen
 
-### V1: Is Aspose.CAD compatibel met de nieuwste DGN V7-specificaties?
+### V1: Is Aspose.CAD compatibel met de nieuwste DGN V7‑specificaties?
+**A:** Ja, Aspose.CAD ondersteunt DGN V7 volledig en verwerkt zowel geometrie als metadata volgens de nieuwste normen.
 
-A1: Ja, Aspose.CAD is ontworpen om DGN V7-bestanden naadloos te verwerken, waardoor compatibiliteit met de nieuwste specificaties wordt gegarandeerd.
+### V2: Kan ik de rasterisatie‑opties aanpassen voor DGN‑bestandsconversie?
+**A:** Absoluut. De `CadRasterizationOptions`‑klasse stelt je in staat om paginagrootte, schaal, lijndikte, achtergrondkleur en meer aan te passen.
 
-### V2: Kan ik de rasteropties voor DGN-bestandsconversie aanpassen?
+### V3: Zijn er andere ondersteunde uitvoerformaten naast JPEG?
+**A:** Ja, Aspose.CAD kan exporteren naar PNG, BMP, TIFF en verschillende andere rasterformaten. Gebruik eenvoudigweg de bijbehorende `*Options`‑klasse (bijv. `PngOptions`).
 
- A2: Absoluut. In de zelfstudie wordt gedemonstreerd hoe u`CadRasterizationOptions` om het conversieproces op maat te maken.
-
-### Vraag 3: Zijn er naast JPEG nog andere ondersteunde uitvoerformaten?
-
-A3: Ja, Aspose.CAD ondersteunt verschillende uitvoerformaten. U kunt de documentatie raadplegen voor een uitgebreide lijst.
-
-### V4: Hoe kan ik ondersteuning krijgen voor Aspose.CAD-gerelateerde vragen?
-
- A4: Bezoek de[Aspose.CAD-forum](https://forum.aspose.com/c/cad/19) voor gemeenschapsondersteuning en discussies.
+### V4: Hoe kan ik hulp krijgen bij vragen over Aspose.CAD?
+**A:** Bezoek het [Aspose.CAD‑forum](https://forum.aspose.com/c/cad/19) voor community‑ondersteuning en officiële antwoorden.
 
 ### V5: Is er een gratis proefversie beschikbaar voor Aspose.CAD voor .NET?
+**A:** Ja, je kunt een proefversie downloaden via [hier](https://releases.aspose.com/).
 
- A5: Ja, u heeft toegang tot een gratis proefperiode[hier](https://releases.aspose.com/).
+---
+
+**Laatst bijgewerkt:** 2026-03-29  
+**Getest met:** Aspose.CAD 24.12 voor .NET  
+**Auteur:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

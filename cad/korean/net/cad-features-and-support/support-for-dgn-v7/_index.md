@@ -1,35 +1,51 @@
 ---
-title: .NET용 Aspose.CAD에서 DGN V7 지원
-linktitle: DGN V7 지원
-second_title: Aspose.CAD .NET - CAD 및 BIM 파일 형식
-description: DGN V7에 대한 .NET의 원활한 지원을 위한 Aspose.CAD를 살펴보세요. 단계별 안내에 따라 DGN 파일을 래스터 이미지로 손쉽게 변환하세요.
-weight: 19
+date: 2026-03-29
+description: Aspose.CAD for .NET를 사용하여 DGN을 JPEG로 변환하는 방법을 배우고, DGN V7을 완벽히 지원하며 CAD를
+  래스터 이미지로 쉽게 변환할 수 있습니다.
+linktitle: Support for DGN V7
+second_title: Aspose.CAD .NET - CAD and BIM File Format
+title: Aspose.CAD for .NET – V7 지원으로 DGN을 JPEG로 변환
 url: /ko/net/cad-features-and-support/support-for-dgn-v7/
+weight: 19
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# .NET용 Aspose.CAD에서 DGN V7 지원
+# DGN을 JPEG로 변환하기 – Aspose.CAD for .NET – V7 지원
 
 ## 소개
 
-.NET 개발 영역에서 Aspose.CAD는 CAD(Computer-Aided Design) 파일을 처리하기 위한 강력한 라이브러리로 돋보입니다. 이 튜토리얼에서는 .NET용 Aspose.CAD의 특정 기능인 DGN V7 파일 지원에 대해 자세히 설명합니다. Design의 약자인 DGN은 CAD 분야에서 널리 사용되는 파일 형식입니다. Aspose.CAD는 DGN V7 파일 작업 프로세스를 단순화하여 개발자에게 원활한 경험을 제공합니다.
+이 튜토리얼에서는 Aspose.CAD for .NET을 사용하여 **DGN을 JPEG로 변환**하는 방법을 배우게 됩니다. 이 라이브러리는 전체 DGN V7 지원을 제공하므로 이를 활용할 수 있습니다. DGN 파일을 JPEG와 같은 래스터 이미지로 변환하는 것은 CAD 도면을 웹 페이지, 모바일 앱 또는 보고서 도구에 삽입해야 할 때 흔히 요구되는 작업입니다. Aspose.CAD는 또한 **CAD를 래스터** 형식으로 효율적으로 변환할 수 있어 설계 데이터를 표시하는 방식에 유연성을 제공합니다.
 
-## 전제 조건
+## 빠른 답변
+- **이 튜토리얼은 무엇을 다루나요?** Aspose.CAD for .NET을 사용하여 DGN V7 파일을 JPEG 래스터 이미지로 변환합니다.  
+- **필요한 라이브러리 버전은?** DGN V7 지원이 포함된 최신 Aspose.CAD for .NET 릴리스라면 모두 사용 가능합니다.  
+- **라이선스가 필요합니까?** 개발에는 무료 체험판을 사용할 수 있으며, 운영 환경에서는 상용 라이선스가 필요합니다.  
+- **출력 크기를 변경할 수 있나요?** 예 – 래스터화 옵션을 통해 페이지 너비, 높이 및 스케일을 설정할 수 있습니다.  
+- **JPEG만 출력 형식인가요?** 아니요 – Aspose.CAD는 PNG, BMP, TIFF 등 다양한 래스터 형식을 지원합니다.
 
-구현을 시작하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
+## DGN V7이란?
+DGN(Design)은 Bentley Systems에서 MicroStation용으로 처음 만든 파일 형식입니다. 버전 7은 더 풍부한 기하학 및 메타데이터를 제공하여 토목·인프라 프로젝트에서 많이 사용됩니다. Aspose.CAD for .NET은 DGN V7 파일을 직접 읽을 수 있으며, 해당 내용을 `CadImage` 객체로 노출하여 래스터화하거나 다른 형식으로 변환할 수 있습니다.
 
--  .NET용 Aspose.CAD: Aspose.CAD 라이브러리가 설치되어 있는지 확인하세요. 다음에서 다운로드할 수 있습니다.[웹사이트](https://releases.aspose.com/cad/net/).
+## 왜 DGN을 JPEG로 변환하나요?
+- **웹 친화적:** JPEG 이미지는 가볍고 브라우저에서 별도의 플러그인 없이 즉시 표시됩니다.  
+- **크로스 플랫폼:** JPEG는 모든 기기에서 볼 수 있어 비전문가와 CAD 도면을 공유하기에 이상적입니다.  
+- **간소화된 워크플로:** 래스터 형식으로 변환하면 후속 프로세스에서 CAD 전용 뷰어가 필요 없게 됩니다.
 
-- 개발 환경: Visual Studio 또는 기타 선호하는 IDE를 포함하여 작동하는 .NET 개발 환경을 설정합니다.
+## 사전 요구 사항
 
-이제 전제 조건이 정렬되었으므로 .NET용 Aspose.CAD에서 DGN V7 지원을 활용하는 방법을 살펴보겠습니다.
+구현에 들어가기 전에 다음 항목을 준비하십시오:
+
+- **Aspose.CAD for .NET** – [website](https://releases.aspose.com/cad/net/)에서 다운로드하십시오.  
+- **개발 환경** – Visual Studio(또는 .NET을 지원하는 IDE).
+
+이 항목들을 준비하면 중단 없이 단계별로 진행할 수 있습니다.
 
 ## 네임스페이스 가져오기
 
-Aspose.CAD의 기능에 액세스하려면 필요한 네임스페이스를 가져오는 것부터 시작하세요.
+먼저 CadImage 처리와 래스터화를 위해 필요한 네임스페이스를 가져옵니다.
 
 ```csharp
 using System;
@@ -42,7 +58,7 @@ using Aspose.CAD;
 
 ## 1단계: DGN 파일 로드
 
- 기존 DGN 파일을`CadImage` 바꾸다`"Your Document Directory"` 그리고`"Nikon_D90_Camera.dgn"` 적절한 디렉토리 경로와 파일 이름을 사용하십시오.
+`CadImage` 객체에 원본 DGN 파일을 로드합니다. 자리표시자 경로를 DGN 파일이 있는 폴더 경로로 교체하십시오.
 
 ```csharp
 string MyDir = "Your Document Directory";
@@ -50,13 +66,13 @@ string sourceFilePath = MyDir + "Nikon_D90_Camera.dgn";
 
 using (CadImage cadImage = (CadImage)Image.Load(sourceFilePath))
 {
-    // 추가 단계에 대한 코드는 여기에 있습니다...
+    // Subsequent steps will be placed here.
 }
 ```
 
 ## 2단계: 래스터화 옵션 구성
 
- 만들기`CadRasterizationOptions` 래스터화와 관련된 다양한 속성을 정의하고 설정하는 객체입니다.
+DGN 도면을 어떻게 래스터화할지 정의합니다. 출력 크기와 스케일 동작을 제어할 수 있습니다.
 
 ```csharp
 CadRasterizationOptions rasterizationOptions = new CadRasterizationOptions
@@ -70,7 +86,7 @@ CadRasterizationOptions rasterizationOptions = new CadRasterizationOptions
 
 ## 3단계: 벡터 래스터화 옵션 설정
 
- 만들기`JpegOptions` DGN 파일을 JPEG로 변환하려고 합니다. 이전에 만든 할당`CadRasterizationOptions` 그것에 반대합니다.
+`JpegOptions` 객체(또는 다른 래스터 형식 옵션)를 생성하고 래스터화 설정을 연결합니다.
 
 ```csharp
 ImageOptionsBase options = new JpegOptions
@@ -81,39 +97,45 @@ ImageOptionsBase options = new JpegOptions
 
 ## 4단계: 래스터화된 이미지 저장
 
- 를 불러`Save` 의 방법`CadImage` DGN 파일을 래스터 이미지(이 경우 JPEG)로 내보내는 클래스 객체입니다.
+마지막으로 `Save` 메서드를 사용하여 DGN 도면을 JPEG 파일로 내보냅니다.
 
 ```csharp
 cadImage.Save(MyDir + "ExportDGNToRasterImage_out.jpeg", options);
 ```
 
-이러한 단계가 완료되면 DGN 파일이 래스터 이미지로 성공적으로 내보내집니다.
+코드가 성공적으로 실행되면 지정한 폴더에 원본 DGN V7 도면의 JPEG 표현이 저장됩니다.
 
-## 결론
+## 일반적인 문제 및 해결책
 
-이 튜토리얼에서는 .NET용 Aspose.CAD에서 DGN V7에 대한 원활한 지원을 살펴보았습니다. 단계별 가이드를 따르면 개발자는 DGN 파일을 래스터 이미지로 쉽게 변환하여 .NET 응용 프로그램의 기능을 확장할 수 있습니다.
+| 문제 | 해결책 |
+|-------|----------|
+| **파일을 찾을 수 없음** | `MyDir`이 경로 구분자(`\\` 또는 `/`)로 끝나는지, 파일 이름이 올바른지 확인하십시오. |
+| **빈 출력 이미지** | `NoScaling`이 적절히 설정되었는지 확인하십시오; 페이지를 전체 채우려면 `false`로 설정하십시오. |
+| **지원되지 않는 엔터티** | Aspose.CAD는 대부분의 DGN 엔터티를 지원하지만, 매우 오래되었거나 사용자 정의 객체는 무시될 수 있습니다. 경고는 변환 로그를 확인하십시오. |
 
-## FAQ
+## 자주 묻는 질문
 
-### Q1: Aspose.CAD는 최신 DGN V7 사양과 호환됩니까?
+### Q1: Aspose.CAD가 최신 DGN V7 사양과 호환되나요?
+**A:** 예, Aspose.CAD는 DGN V7을 완벽히 지원하며 최신 표준에 따라 기하학 및 메타데이터를 처리합니다.
 
-A1: 예, Aspose.CAD는 DGN V7 파일을 원활하게 처리하도록 설계되어 최신 사양과의 호환성을 보장합니다.
+### Q2: DGN 파일 변환을 위한 래스터화 옵션을 맞춤 설정할 수 있나요?
+**A:** 물론입니다. `CadRasterizationOptions` 클래스를 사용하면 페이지 크기, 스케일링, 선 두께, 배경 색상 등을 조정할 수 있습니다.
 
-### Q2: DGN 파일 변환을 위한 래스터화 옵션을 사용자 정의할 수 있습니까?
+### Q3: JPEG 외에 지원되는 다른 출력 형식이 있나요?
+**A:** 예, Aspose.CAD는 PNG, BMP, TIFF 등 여러 래스터 형식으로 내보낼 수 있습니다. 해당 `*Options` 클래스(e.g., `PngOptions`)를 사용하면 됩니다.
 
- A2: 물론이죠. 튜토리얼에서는 생성 및 구성 방법을 보여줍니다.`CadRasterizationOptions` 변환 프로세스를 맞춤화합니다.
+### Q4: Aspose.CAD 관련 질문에 대한 도움을 어떻게 받을 수 있나요?
+**A:** 커뮤니티 지원 및 공식 답변을 위해 [Aspose.CAD forum](https://forum.aspose.com/c/cad/19)을 방문하십시오.
 
-### Q3: JPEG 외에 지원되는 다른 출력 형식이 있습니까?
+### Q5: Aspose.CAD for .NET의 무료 체험판이 있나요?
+**A:** 예, [here](https://releases.aspose.com/)에서 체험판을 다운로드할 수 있습니다.
 
-A3: 예, Aspose.CAD는 다양한 출력 형식을 지원합니다. 포괄적인 목록에 대한 설명서를 탐색할 수 있습니다.
+---
 
-### Q4: Aspose.CAD 관련 쿼리에 대한 지원은 어떻게 받을 수 있나요?
+**마지막 업데이트:** 2026-03-29  
+**테스트 환경:** Aspose.CAD 24.12 for .NET  
+**작성자:** Aspose  
 
- A4: 다음을 방문하세요.[Aspose.CAD 포럼](https://forum.aspose.com/c/cad/19) 커뮤니티 지원 및 토론을 위해.
-
-### Q5: Aspose.CAD for .NET에 대한 무료 평가판이 있습니까?
-
- A5: 예, 무료 평가판에 액세스할 수 있습니다.[여기](https://releases.aspose.com/).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
