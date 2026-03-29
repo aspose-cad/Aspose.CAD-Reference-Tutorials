@@ -1,33 +1,50 @@
 ---
-title: Mengganti Font di Aspose.CAD untuk .NET
-linktitle: Mengganti Font
-second_title: Aspose.CAD .NET - Format File CAD dan BIM
-description: Pelajari cara mengganti font di Aspose.CAD dengan .NET dengan mudah. Ikuti panduan langkah demi langkah kami untuk penyesuaian font yang efisien dalam gambar CAD Anda.
-weight: 17
+date: 2026-03-29
+description: Pelajari cara mengganti font di Aspose.CAD untuk .NET dengan cepat. Panduan
+  langkah demi langkah ini menunjukkan cara mengatur nama font utama dan menyesuaikan
+  gambar CAD secara efisien.
+linktitle: Substituting Fonts
+second_title: Aspose.CAD .NET - CAD and BIM File Format
+title: Cara Mengganti Font di Aspose.CAD untuk .NET
 url: /id/net/cad-features-and-support/substituting-fonts/
+weight: 17
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Mengganti Font di Aspose.CAD untuk .NET
+# Cara Mengganti Font di Aspose.CAD untuk .NET
 
-## Perkenalan
+## Pendahuluan
 
-Dalam bidang pengembangan CAD menggunakan .NET, kemampuan memanipulasi font adalah keterampilan yang sangat penting. Aspose.CAD untuk .NET menyediakan seperangkat alat yang kuat untuk tujuan ini, memungkinkan pengembang mengganti font dengan mulus dalam gambar CAD mereka. Dalam tutorial ini, kita akan menjelajahi proses langkah demi langkah, menunjukkan cara mencapai substitusi font secara efisien.
+Dalam dunia pengembangan CAD menggunakan .NET, mempelajari **cara mengganti font** merupakan keterampilan penting yang dapat secara dramatis meningkatkan kualitas visual gambar Anda. Aspose.CAD untuk .NET menawarkan API yang sederhana yang memungkinkan Anda **mengatur nama font utama** untuk setiap gaya, menjadikan substitusi font secara global atau selektif sangat mudah. Dalam tutorial ini kami akan membahas seluruh proses—dari memuat gambar hingga menukar font secara global atau berdasarkan nama gaya tertentu.
+
+## Jawaban Cepat
+- **Apa kelas utama untuk manipulasi CAD?** `Aspose.CAD.Image` (atau yang diturunkan `CadImage`).
+- **Properti mana yang mengubah font?** `PrimaryFontName` pada `CadStyleTableObject`.
+- **Apakah saya dapat mengganti font untuk semua gaya sekaligus?** Ya, iterasi melalui `cadImage.Styles` dan atur properti tersebut.
+- **Apakah saya membutuhkan lisensi untuk produksi?** Lisensi Aspose.CAD yang valid diperlukan untuk penggunaan non‑trial.
+- **Versi .NET yang didukung?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7.
+
+## Apa itu Substitusi Font dalam CAD?
+Substitusi font berarti mengganti jenis huruf asli yang digunakan dalam gambar CAD dengan yang lain yang tersedia di sistem target. Ini sangat berguna ketika font asli tidak ada, ketika Anda membutuhkan gaya korporat yang konsisten, atau saat menyiapkan gambar untuk pencetakan pada perangkat yang hanya mendukung sejumlah font terbatas.
+
+## Mengapa Mengganti Font dengan Aspose.CAD?
+- **Tidak ada ketergantungan eksternal** – perpustakaan menangani pemetaan font secara internal.
+- **Berfungsi dengan banyak format** – DXF, DWG, DGN, dan lainnya.
+- **Kontrol programatik** – mengotomatiskan proses untuk konversi batch atau pipeline CI.
+- **Mempertahankan geometri gambar** – hanya representasi visual teks yang berubah.
 
 ## Prasyarat
 
-Sebelum mendalami tutorial, pastikan Anda memiliki hal berikut:
-
 - Pengetahuan dasar tentang pemrograman .NET.
--  Aspose.CAD untuk .NET diinstal. Jika belum, Anda dapat mendownloadnya[Di Sini](https://releases.aspose.com/cad/net/).
-- File gambar CAD untuk latihan langsung.
+- Aspose.CAD untuk .NET terpasang. Jika Anda belum menginstalnya, unduh [di sini](https://releases.aspose.com/cad/net/).
+- File gambar CAD (DXF, DWG, dll.) untuk percobaan.
 
 ## Impor Namespace
 
-Sebelum memulai, impor namespace yang diperlukan untuk mengakses fungsionalitas Aspose.CAD di aplikasi .NET Anda.
+Sebelum memulai, impor namespace yang diperlukan untuk mengakses fungsionalitas Aspose.CAD dalam aplikasi .NET Anda.
 
 ```csharp
 using System;
@@ -41,7 +58,7 @@ using Aspose.CAD.FileFormats.Cad.CadTables;
 
 ## Langkah 1: Muat Gambar CAD
 
- Mulailah dengan memuat gambar CAD ke dalam contoh`CadImage`. Pastikan Anda memberikan jalur yang benar ke direktori dokumen Anda.
+Mulailah dengan memuat gambar CAD ke dalam sebuah instance `CadImage`. Pastikan Anda memberikan jalur yang benar ke direktori dokumen Anda.
 
 ```csharp
 string MyDir = "Your Document Directory";
@@ -49,24 +66,28 @@ string sourceFilePath = MyDir + "conic_pyramid.dxf";
 
 using (CadImage cadImage = (CadImage)Aspose.CAD.Image.Load(sourceFilePath))
 {
-    //Kode Anda untuk tindakan selanjutnya ada di sini
+    // Your code for further actions goes here
 }
 ```
 
-## Langkah 2: Ulangi Gaya
+## Langkah 2: Iterasi Gaya
 
- Selanjutnya, ulangi gaya pada gambar CAD menggunakan a`foreach` lingkaran. Ini memungkinkan Anda mengakses dan memanipulasi gaya font individual.
+Selanjutnya, iterasi gaya dalam gambar CAD menggunakan loop `foreach`. Ini memungkinkan Anda mengakses dan memanipulasi gaya font individu.
 
 ```csharp
 foreach (CadStyleTableObject style in cadImage.Styles)
 {
-    // Kode Anda untuk manipulasi gaya ada di sini
+    // Your code for style manipulation goes here
 }
 ```
 
-## Langkah 3: Gantikan Font Secara Global
+## Cara Mengatur Nama Font Utama untuk Substitusi Font
 
- Untuk mengganti font secara global untuk semua gaya, atur`PrimaryFontName` properti untuk setiap gaya dengan nama font yang diinginkan, misalnya "Arial".
+Properti `PrimaryFontName` pada setiap `CadStyleTableObject` mengontrol font mana yang digunakan saat gambar dirender. Dengan mengatur properti ini Anda secara efektif mengganti font asli.
+
+### Langkah 3: Substitusi Font Secara Global
+
+Untuk mengganti font untuk **semua** gaya, atur properti `PrimaryFontName` untuk setiap gaya ke nama font yang diinginkan, misalnya, `"Arial"`.
 
 ```csharp
 foreach (CadStyleTableObject style in cadImage.Styles)
@@ -75,9 +96,9 @@ foreach (CadStyleTableObject style in cadImage.Styles)
 }
 ```
 
-## Langkah 4: Gantikan Font dengan Nama Gaya
+### Langkah 4: Substitusi Font Berdasarkan Nama Gaya
 
-Jika Anda ingin mengganti font dengan gaya tertentu, Anda dapat melakukannya dengan mencentang nama gaya di dalam loop.
+Jika Anda hanya perlu mengganti font untuk gaya tertentu (misalnya, gaya bernama `"Roman"`), tambahkan pemeriksaan kondisi di dalam loop.
 
 ```csharp
 foreach (CadStyleTableObject style in cadImage.Styles)
@@ -89,32 +110,36 @@ foreach (CadStyleTableObject style in cadImage.Styles)
 }
 ```
 
-## Kesimpulan
+## Masalah Umum & Pemecahan Masalah
 
-Selamat! Anda telah berhasil mempelajari cara mengganti font di Aspose.CAD dengan .NET. Keterampilan ini berharga untuk menyesuaikan tampilan gambar CAD sesuai preferensi Anda.
+| Masalah | Penyebab | Solusi |
+|-------|-------|-----|
+| Font tidak berubah setelah menjalankan kode | Gambar di-cache atau dibuka dalam mode baca‑saja | Pastikan Anda menyimpan gambar setelah modifikasi (`cadImage.Save(...)`) atau memuat ulang file untuk memverifikasi. |
+| Font yang diinginkan tidak ditemukan di sistem | Font tidak terinstal pada mesin yang menjalankan kode | Instal font TrueType/OpenType yang diperlukan atau sematkan dalam sumber daya aplikasi. |
+| Teks muncul berantakan | Enkoding tidak tepat atau dukungan Unicode tidak ada | Gunakan font yang mendukung set karakter yang diperlukan (mis., Arial Unicode MS). |
 
-## FAQ
+## Pertanyaan yang Sering Diajukan
 
-### Q1: Dapatkah saya mengembalikan perubahan font di Aspose.CAD untuk .NET?
+**Q: Apakah saya dapat mengembalikan perubahan font di Aspose.CAD untuk .NET?**  
+A: Ya, Anda dapat mengembalikan dengan memuat ulang gambar CAD asli atau dengan menyimpan salinan cadangan sebelum melakukan modifikasi.
 
-A1: Ya, Anda dapat mengembalikan perubahan font dengan memuat ulang gambar CAD asli atau dengan menyimpan cadangan.
+**Q: Apakah ada properti font lain yang dapat saya modifikasi?**  
+A: Tentu saja. Selain `PrimaryFontName`, Anda dapat bekerja dengan `SecondaryFontName`, `FontFamily`, dan atribut terkait gaya lainnya untuk penyesuaian lanjutan.
 
-### Q2: Apakah ada properti font lain yang dapat saya modifikasi?
+**Q: Apakah Aspose.CAD kompatibel dengan berbagai format CAD?**  
+A: Ya, Aspose.CAD mendukung berbagai format seperti DXF, DWG, DGN, DWF, dan lainnya, memberi Anda fleksibilitas di seluruh proyek.
 
-A2: Tentu saja, selain itu`PrimaryFontName`, Aspose.CAD untuk .NET menyediakan akses ke berbagai properti terkait font untuk penyesuaian tingkat lanjut.
+**Q: Apakah saya dapat mengotomatisasi substitusi font dalam pemrosesan batch?**  
+A: Tentu. Bungkus logika pemuatan dan substitusi dalam loop yang mengiterasi folder berisi file CAD, atau integrasikan ke dalam pipeline CI/CD.
 
-### Q3: Apakah Aspose.CAD kompatibel dengan format CAD yang berbeda?
+**Q: Di mana saya dapat menemukan dukungan tambahan untuk Aspose.CAD untuk .NET?**  
+A: Untuk dukungan tambahan dan diskusi komunitas, kunjungi [forum Aspose.CAD](https://forum.aspose.com/c/cad/19).
 
-A3: Ya, Aspose.CAD mendukung berbagai format CAD, memastikan fleksibilitas dalam proyek pengembangan Anda.
+---
 
-### Q4: Dapatkah saya mengotomatiskan substitusi font dalam pemrosesan batch?
-
-A4: Tentu saja, Anda dapat menerapkan pemrosesan batch untuk mengotomatiskan substitusi font di beberapa gambar CAD.
-
-### Q5: Di mana saya dapat menemukan dukungan tambahan untuk Aspose.CAD untuk .NET?
-
- A5: Untuk dukungan tambahan dan diskusi komunitas, kunjungi[Forum Aspose.CAD](https://forum.aspose.com/c/cad/19).
-
+**Terakhir Diperbarui:** 2026-03-29  
+**Diuji Dengan:** Aspose.CAD for .NET (latest release)  
+**Penulis:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

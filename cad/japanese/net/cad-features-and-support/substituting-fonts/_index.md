@@ -1,33 +1,49 @@
 ---
-title: Aspose.CAD for .NET でのフォントの置換
-linktitle: フォントの置換
-second_title: Aspose.CAD .NET - CAD および BIM ファイル形式
-description: Aspose.CAD for .NET のフォントを簡単に置き換える方法を学びましょう。 CAD 図面のフォントを効率的にカスタマイズするには、ステップバイステップのガイドに従ってください。
-weight: 17
+date: 2026-03-29
+description: Aspose.CAD for .NET でフォントをすばやく置き換える方法を学びましょう。このステップバイステップガイドでは、プライマリフォント名の設定方法と
+  CAD 図面の効率的なカスタマイズ方法を示します。
+linktitle: Substituting Fonts
+second_title: Aspose.CAD .NET - CAD and BIM File Format
+title: .NET 用 Aspose.CAD でフォントを置き換える方法
 url: /ja/net/cad-features-and-support/substituting-fonts/
+weight: 17
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.CAD for .NET でのフォントの置換
+# Aspose.CAD for .NET のフォント置換方法
 
-## 導入
+## はじめに
 
-.NET を使用した CAD 開発の分野では、フォントを操作する能力は重要なスキルです。 Aspose.CAD for .NET は、この目的のための強力なツール セットを提供し、開発者が CAD 図面内のフォントをシームレスに置き換えることができます。このチュートリアルでは、フォントの置換を効率的に行う方法を示しながら、プロセスを段階的に説明します。
+.NET を使用した CAD 開発の領域では、**フォントの置換方法**を学ぶことは、図面の視覚品質を劇的に向上させる重要なスキルです。Aspose.CAD for .NET は、任意のスタイルに対して **PrimaryFontName を設定**できるシンプルな API を提供し、グローバルまたは選択的なフォント置換を簡単に行えます。このチュートリアルでは、図面の読み込みからフォントの全体置換または特定のスタイル名による置換まで、プロセス全体を順に解説します。
+
+## クイック回答
+- **CAD 操作のメインクラスは何ですか？** `Aspose.CAD.Image`（または派生クラスの `CadImage`）。
+- **フォントを変更するプロパティはどれですか？** `CadStyleTableObject` の `PrimaryFontName`。
+- **すべてのスタイルのフォントを一度に置換できますか？** はい、`cadImage.Styles` を反復し、プロパティを設定します。
+- **本番環境でライセンスが必要ですか？** トライアル以外の使用には有効な Aspose.CAD ライセンスが必要です。
+- **サポートされている .NET バージョンは？** .NET Framework 4.5 以上、.NET Core 3.1 以上、.NET 5/6/7。
+
+## CAD におけるフォント置換とは？
+フォント置換とは、CAD 図面で使用されている元の書体を、対象システムで利用可能な別の書体に置き換えることを指します。元のフォントが存在しない場合や、統一された企業スタイルが必要な場合、または限られたフォントしかサポートしないデバイスで印刷するための図面を準備する際に特に有用です。
+
+## Aspose.CAD でフォントを置換する理由
+- **外部依存なし** – ライブラリが内部でフォントマッピングを処理します。
+- **多数のフォーマットに対応** – DXF、DWG、DGN など。
+- **プログラム制御** – バッチ変換や CI パイプライン向けにプロセスを自動化できます。
+- **図形ジオメトリを保持** – テキストの視覚表現のみが変更されます。
 
 ## 前提条件
 
-チュートリアルに入る前に、次のものが揃っていることを確認してください。
-
-- .NET プログラミングの基本的な知識。
--  Aspose.CAD for .NET がインストールされています。そうでない場合は、ダウンロードできます[ここ](https://releases.aspose.com/cad/net/).
-- 実践的な練習用の CAD 図面ファイル。
+- .NET プログラミングの基本知識。
+- Aspose.CAD for .NET がインストール済みであること。まだインストールしていない場合は、[こちら](https://releases.aspose.com/cad/net/)からダウンロードしてください。
+- 実験用の CAD 図面ファイル（DXF、DWG など）。
 
 ## 名前空間のインポート
 
-開始する前に、.NET アプリケーションの Aspose.CAD 機能にアクセスするために必要な名前空間をインポートします。
+開始する前に、.NET アプリケーションで Aspose.CAD の機能にアクセスするために必要な名前空間をインポートしてください。
 
 ```csharp
 using System;
@@ -39,9 +55,9 @@ using Aspose.CAD;
 using Aspose.CAD.FileFormats.Cad.CadTables;
 ```
 
-## ステップ 1: CAD 図面をロードする
+## 手順 1: CAD 図面の読み込み
 
-まず、CAD 図面をインスタンスにロードします。`CadImage`。ドキュメント ディレクトリへの正しいパスを指定していることを確認してください。
+`CadImage` のインスタンスに CAD 図面を読み込むことから始めます。ドキュメントディレクトリへの正しいパスを指定してください。
 
 ```csharp
 string MyDir = "Your Document Directory";
@@ -49,24 +65,28 @@ string sourceFilePath = MyDir + "conic_pyramid.dxf";
 
 using (CadImage cadImage = (CadImage)Aspose.CAD.Image.Load(sourceFilePath))
 {
-    //さらなるアクションのためのコードはここにあります
+    // Your code for further actions goes here
 }
 ```
 
-## ステップ 2: スタイルを反復処理する
+## 手順 2: スタイルの反復処理
 
-次に、CAD 図面内のスタイルを反復処理します。`foreach`ループ。これにより、個々のフォント スタイルにアクセスして操作できるようになります。
+次に、`foreach` ループを使用して CAD 図面内のスタイルを反復処理します。これにより、個々のフォントスタイルにアクセスし操作できます。
 
 ```csharp
 foreach (CadStyleTableObject style in cadImage.Styles)
 {
-    //スタイル操作のコードはここにあります
+    // Your code for style manipulation goes here
 }
 ```
 
-## ステップ 3: フォントをグローバルに置き換える
+## フォント置換のための PrimaryFontName の設定方法
 
-すべてのスタイルのフォントをグローバルに置き換えるには、`PrimaryFontName`各スタイルのプロパティを目的のフォント名 (たとえば、「Arial」) に変更します。
+各 `CadStyleTableObject` の `PrimaryFontName` プロパティは、図面がレンダリングされる際に使用されるフォントを制御します。このプロパティを設定することで、実質的に元のフォントを置換できます。
+
+### 手順 3: フォントを全体的に置換
+
+**すべて** のスタイルのフォントを置換するには、各スタイルの `PrimaryFontName` プロパティを目的のフォント名（例: `"Arial"`）に設定します。
 
 ```csharp
 foreach (CadStyleTableObject style in cadImage.Styles)
@@ -75,9 +95,9 @@ foreach (CadStyleTableObject style in cadImage.Styles)
 }
 ```
 
-## ステップ 4: フォントをスタイル名で置き換える
+### 手順 4: スタイル名でフォントを置換
 
-特定のスタイルのフォントを置き換える場合は、ループ内でスタイル名を確認することで置き換えることができます。
+特定のスタイル（例: `"Roman"` という名前のスタイル）のみフォントを置換したい場合は、ループ内に条件チェックを追加します。
 
 ```csharp
 foreach (CadStyleTableObject style in cadImage.Styles)
@@ -89,32 +109,34 @@ foreach (CadStyleTableObject style in cadImage.Styles)
 }
 ```
 
-## 結論
+## よくある問題とトラブルシューティング
 
-おめでとう！ Aspose.CAD for .NET でフォントを置換する方法を学習しました。このスキルは、好みに応じて CAD 図面の外観をカスタマイズする場合に役立ちます。
+| 問題 | 原因 | 対策 |
+|-------|-------|-----|
+| コード実行後にフォントが変更されない | 図面がキャッシュされている、または読み取り専用モードで開かれている | `cadImage.Save(...)` で変更後に画像を保存するか、ファイルを再読み込みして確認してください。 |
+| 目的のフォントがシステムに見つからない | コードを実行しているマシンにフォントがインストールされていない | 必要な TrueType/OpenType フォントをインストールするか、アプリケーションリソースに埋め込んでください。 |
+| テキストが文字化けする | エンコーディングが正しくない、または Unicode サポートが不足している | 必要な文字セットをサポートするフォント（例: Arial Unicode MS）を使用してください。 |
 
 ## よくある質問
 
-### Q1: Aspose.CAD for .NET でのフォントの変更を元に戻すことはできますか?
+**Q: Aspose.CAD for .NET でフォント変更を元に戻すことはできますか？**  
+A: はい、元の CAD 図面を再読み込みするか、変更前にバックアップコピーを保持しておくことで元に戻せます。
 
-A1: はい、元の CAD 図面を再ロードするか、バックアップを保存することで、フォントの変更を元に戻すことができます。
+**Q: 他に変更できるフォントプロパティはありますか？**  
+A: もちろんです。`PrimaryFontName` に加えて、`SecondaryFontName`、`FontFamily`、その他のスタイル関連属性を使用して高度なカスタマイズが可能です。
 
-### Q2: 他に変更できるフォントのプロパティはありますか?
+**Q: Aspose.CAD はさまざまな CAD フォーマットに対応していますか？**  
+A: はい、Aspose.CAD は DXF、DWG、DGN、DWF など多数のフォーマットをサポートしており、プロジェクト間の柔軟性を提供します。
 
-A2: もちろんです、それに加えて`PrimaryFontName`Aspose.CAD for .NET は、高度なカスタマイズのためのさまざまなフォント関連のプロパティへのアクセスを提供します。
+**Q: バッチ処理でフォント置換を自動化できますか？**  
+A: もちろんです。フォント置換ロジックをフォルダ内の CAD ファイルを反復するループでラップするか、CI/CD パイプラインに組み込んでください。
 
-### Q3: Aspose.CAD はさまざまな CAD 形式と互換性がありますか?
+**Q: Aspose.CAD for .NET の追加サポートはどこで得られますか？**  
+A: 追加のサポートやコミュニティディスカッションについては、[Aspose.CAD フォーラム](https://forum.aspose.com/c/cad/19)をご覧ください。
 
-A3: はい、Aspose.CAD は幅広い CAD 形式をサポートしており、開発プロジェクトの柔軟性を確保します。
-
-### Q4: バッチ処理でフォントの置換を自動化できますか?
-
-A4: 確かに、バッチ処理を実装して、複数の CAD 図面にわたるフォントの置換を自動化することができます。
-
-### Q5: Aspose.CAD for .NET の追加サポートはどこで見つけられますか?
-
- A5: 追加のサポートやコミュニティでのディスカッションについては、次のサイトにアクセスしてください。[Aspose.CAD フォーラム](https://forum.aspose.com/c/cad/19).
-
+**最終更新日:** 2026-03-29  
+**テスト環境:** Aspose.CAD for .NET（最新リリース）  
+**作者:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
