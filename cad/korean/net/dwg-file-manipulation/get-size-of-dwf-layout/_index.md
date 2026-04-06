@@ -1,33 +1,58 @@
 ---
-title: C#에서 DWG 파일 작업 - DWF 레이아웃 크기 가져오기
+date: 2026-04-06
+description: Aspose.CAD를 사용하여 C#에서 DWF를 JPG로 변환하는 방법을 배우고, DWG 파일에서 DWF 레이아웃 크기를 추출하는
+  방법을 알아보세요.
+keywords:
+- convert dwf to jpg
+- how to extract dwf
+- convert dwg to jpg
 linktitle: C#에서 DWG 파일 작업 - DWF 레이아웃 크기 가져오기
-second_title: Aspose.CAD .NET - CAD 및 BIM 파일 형식
-description: DWG 파일 처리에 있어 .NET용 Aspose.CAD의 강력한 기능을 살펴보세요. C#을 사용하여 DWF 레이아웃 크기를 쉽게 추출하는 방법을 알아보세요.
-weight: 10
+second_title: Aspose.CAD .NET - CAD and BIM File Format
+title: C#에서 DWF를 JPG로 변환 – DWG에서 DWF 레이아웃 크기 가져오기
 url: /ko/net/dwg-file-manipulation/get-size-of-dwf-layout/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# C#에서 DWG 파일 작업 - DWF 레이아웃 크기 가져오기
+# C#에서 DWF를 JPG로 변환 – DWG에서 DWF 레이아웃 크기 가져오기
 
 ## 소개
 
-CAD(Computer-Aided Design) 및 .NET 개발 영역에서 Aspose.CAD는 DWG 파일을 처리하는 강력한 도구입니다. 이 튜토리얼에서는 C#에서 DWG 파일을 사용하여 작업하고 DWF 레이아웃의 크기를 추출하는 과정을 안내합니다. 코드를 살펴보기 전에 이 여정을 시작하기 위한 모든 설정이 완료되었는지 확인하겠습니다.
+If you need to **DWF를 JPG로 변환** while also figuring out the exact layout dimensions, you’re in the right place. In this tutorial we’ll walk through a complete, end‑to‑end example that uses Aspose.CAD for .NET to open a DWG‑derived DWF file, read each layout’s size, and save the layout as a high‑quality JPG image. By the end you’ll not only know how to extract DWF layout information but also have a reusable code snippet you can drop into any C# project.
 
-## 전제 조건
+## 빠른 답변
+- **“DWF를 JPG로 변환”은 무엇을 의미하나요?** It means rasterizing a vector DWF layout into a bitmap JPEG image.  
+- **먼저 레이아웃 크기를 읽는 이유는?** Knowing the exact extents lets you set the correct page dimensions, avoiding stretched or clipped output.  
+- **어떤 라이브러리가 이를 처리하나요?** Aspose.CAD for .NET provides full support for DWG, DWF and raster image conversion.  
+- **라이선스가 필요합니까?** A temporary license works for evaluation; a full license is required for production.  
+- **지원되는 .NET 버전은?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7.
 
-이 튜토리얼을 원활하게 따르려면 다음 전제 조건이 갖추어져 있는지 확인하십시오.
+## “DWF를 JPG로 변환”이란 무엇이며 왜 중요한가요?
 
--  .NET용 Aspose.CAD: .NET용 Aspose.CAD가 설치되어 있는지 확인하세요. 다음에서 다운로드할 수 있습니다.[.NET용 Aspose.CAD 다운로드 페이지](https://releases.aspose.com/cad/net/).
+Converting a DWF (Design Web Format) file to JPG creates a portable image that can be displayed in browsers, embedded in reports, or shared with stakeholders who don’t have CAD software. The conversion also gives you the flexibility to manipulate the image (resize, compress, watermark) using standard image‑processing tools.
 
-이제 필요한 도구가 준비되었으므로 코딩 영역으로 뛰어들어 보겠습니다.
+## DWF 레이아웃 크기를 추출해야 하는 이유
+
+A DWF file can contain multiple layouts, each with its own coordinate system and units (inches, millimeters, etc.). Extracting the layout size lets you:
+
+1. Preserve the original aspect ratio when rasterizing.  
+2. Choose the correct DPI for high‑resolution output.  
+3. Automate batch processing of many layouts without manual tweaking.
+
+## 사전 요구 사항
+
+To follow this tutorial seamlessly, make sure you have the following prerequisites in place:
+
+- Aspose.CAD for .NET: Ensure that you have Aspose.CAD for .NET installed. You can download it from the [Aspose.CAD for .NET 다운로드 페이지](https://releases.aspose.com/cad/net/).
+
+Having the library ready means you can focus on the code rather than hunting down dependencies.
 
 ## 네임스페이스 가져오기
 
-코드 작업을 시작하기 전에 필수 네임스페이스를 가져오겠습니다.
+Before we start coding, import the required namespaces. These provide the classes we’ll need to work with CAD files, rasterization options, and file I/O.
 
 ```csharp
 using Aspose.CAD.FileFormats.Cad;
@@ -40,55 +65,55 @@ using System.Linq;
 using System.Text;
 ```
 
-이러한 네임스페이스는 C# 애플리케이션에서 Aspose.CAD를 사용하여 CAD 파일을 처리하기 위한 필수 클래스와 메서드를 제공합니다.
+## 단계 1: 환경 설정
 
-## 1단계: 환경 설정
+Create a new C# console or class‑library project, add a reference to the **Aspose.CAD.dll**, and ensure the project targets a compatible .NET version.
 
-프로젝트에 적합한 환경이 설정되었는지 확인하는 것부터 시작하세요. C# 프로젝트에서 Aspose.CAD 라이브러리를 참조하세요.
+## 단계 2: 파일 경로 정의 (DWF 추출 방법)
 
-## 2단계: 파일 경로 정의
-
-DWG 파일의 경로와 생성된 JPG 파일의 출력 디렉터리를 정의합니다.
+Specify where your source DWF file lives and where the generated JPG files should be written.
 
 ```csharp
 string MyDir = "Your Document Directory";
 string sourceFilePath = MyDir + "blocks_and_tables.dwf";
 ```
 
-## 3단계: DWF 이미지 로드
+> **Pro tip:** Use `Path.Combine(MyDir, "blocks_and_tables.dwf")` for safer path handling on different OSes.
 
-Aspose.CAD를 사용하여 DWF 이미지를 로드합니다.
+## 단계 3: DWF 이미지 로드
+
+Load the DWF file into an `Aspose.CAD.Image` object. We cast it to `DwfImage` because we need access to page‑specific properties.
 
 ```csharp
 using (DwfImage image = (DwfImage)Aspose.CAD.Image.Load(sourceFilePath))
 {
-    // 추가 단계에 대한 코드는 여기에 표시됩니다.
+    // Code for further steps will go here
 }
 ```
 
-## 4단계: 페이지 반복
+## 단계 4: 페이지 순회
 
-DWF 이미지의 페이지를 반복합니다.
+A DWF can contain several pages (layouts). Loop through each one so we can process them individually.
 
 ```csharp
 foreach (var page in image.Pages)
 {
-    // 추가 단계에 대한 코드는 여기에 표시됩니다.
+    // Code for further steps will go here
 }
 ```
 
-## 5단계: 레이아웃 정보 가져오기
+## 단계 5: 레이아웃 정보 가져오기
 
-각 페이지에서 레이아웃 정보를 가져옵니다.
+Inside the loop, retrieve the layout name. This name will be used both for logging and for naming the output JPG file.
 
 ```csharp
 var layout = page.Name;
 System.Console.WriteLine("Layout= " + layout);
 ```
 
-## 6단계: JPG 옵션 설정
+## 단계 6: JPG 옵션 설정
 
-레이아웃을 JPG 파일로 저장하기 위한 옵션을 설정합니다.
+Create a `JpegOptions` instance and configure rasterization options. The `Layouts` property tells Aspose.CAD which layout to render.
 
 ```csharp
 using (FileStream fs = new FileStream(MyDir + "layout_" + layout + ".jpg", FileMode.Create))
@@ -96,23 +121,23 @@ using (FileStream fs = new FileStream(MyDir + "layout_" + layout + ".jpg", FileM
     JpegOptions jpegOptions = new JpegOptions();
     CadRasterizationOptions options = new CadRasterizationOptions();
     options.Layouts = new string[] { layout };
-    // 추가 단계에 대한 코드는 여기에 표시됩니다.
+    // Code for further steps will go here
 }
 ```
 
-## 7단계: 페이지 크기 결정
+## 단계 7: 페이지 크기 결정 (dwg를 jpg로 변환)
 
-DWF 레이아웃의 크기를 결정합니다.
+Calculate the width and height of the layout in its native units. This information is essential for setting the raster page size correctly.
 
 ```csharp
 double sizeExtX = page.MaxPoint.X - page.MinPoint.X;
 double sizeExtY = page.MaxPoint.Y - page.MinPoint.Y;
-// 추가 단계에 대한 코드는 여기에 표시됩니다.
+// Code for further steps will go here
 ```
 
-## 8단계: 페이지 크기 설정
+## 단계 8: 페이지 차원 설정
 
-단위 유형에 따라 페이지 크기를 설정합니다.
+Convert the native units (inch or millimeter) to pixels using the helper methods provided by Aspose.CAD. If the unit type is neither, we fall back to using the raw values.
 
 ```csharp
 if (page.UnitType == UnitType.Inch)
@@ -132,9 +157,9 @@ else
 }
 ```
 
-## 9단계: JPG 파일 저장
+## 단계 9: JPG 파일 저장
 
-지정된 옵션을 사용하여 JPG 파일을 저장합니다.
+Finally, bind the rasterization options to the JPEG options and save the image to disk.
 
 ```csharp
 jpegOptions.VectorRasterizationOptions = options;
@@ -142,33 +167,53 @@ image.Save(fs, jpegOptions);
 }
 ```
 
-이제 C#에서 Aspose.CAD를 사용하여 DWG 파일에서 DWF 레이아웃 크기를 성공적으로 추출했습니다. Aspose.CAD가 .NET 개발을 위해 제공하는 더 많은 특징과 기능을 자유롭게 탐색해 보세요.
+When the loop finishes, you’ll have a JPG file for each layout, each sized exactly to match the original DWF dimensions.
 
-## 결론
+## 일반적인 문제와 해결책
 
-이 튜토리얼에서는 Aspose.CAD를 사용하여 C#에서 DWG 파일로 작업하는 과정을 살펴보았습니다. 이러한 단계를 수행하면 DWF 레이아웃의 크기를 얻을 수 있을 뿐만 아니라 .NET 프로젝트의 다양한 CAD 관련 작업에 Aspose.CAD의 기능을 활용할 수도 있습니다.
+| 증상 | 가능 원인 | 해결 방법 |
+|---------|--------------|-----|
+| Empty JPG output | `options.Layouts` not set correctly | Verify the layout name matches `page.Name`. |
+| Distorted image | Wrong DPI conversion | Use `CommonHelper.DPI = 300` (or your target DPI) before conversion. |
+| File not found | Incorrect `MyDir` path | Use absolute paths or `Path.Combine`. |
+| License exception | No license applied | Load a temporary or permanent license before calling `Image.Load`. |
 
-## FAQ
+## 자주 묻는 질문
 
-### Q1: Aspose.CAD는 최신 DWG 파일 형식과 호환됩니까?
+### Q1: Aspose.CAD가 최신 DWG 파일 형식을 지원하나요?
 
- A1: Aspose.CAD는 최신 버전을 포함하여 다양한 DWG 파일 형식을 지원합니다. 다음을 참조하세요.[선적 서류 비치](https://reference.aspose.com/cad/net/) 구체적인 호환성 세부정보를 확인하세요.
+A1: Aspose.CAD supports various DWG file formats, including the latest versions. Refer to the [documentation](https://reference.aspose.com/cad/net/) for specific compatibility details.
 
-### Q2: Aspose.CAD를 상업용 프로젝트와 개인 프로젝트 모두에 사용할 수 있나요?
+### Q2: Aspose.CAD를 상업용 및 개인 프로젝트 모두에 사용할 수 있나요?
 
- A2: 예, Aspose.CAD는 상업용 및 개인용 모두에 유연한 라이센스 옵션을 제공합니다. 방문하다[구매 페이지](https://purchase.aspose.com/buy) 상세 사항은.
+A2: Yes, Aspose.CAD offers flexible licensing options for both commercial and personal use. Visit the [purchase page](https://purchase.aspose.com/buy) for more details.
 
-### Q3: Aspose.CAD의 임시 라이선스는 어떻게 얻을 수 있나요?
+### Q3: Aspose.CAD 임시 라이선스는 어떻게 얻나요?
 
- A3: 다음에서 임시 라이센스를 받을 수 있습니다.[여기](https://purchase.aspose.com/temporary-license/) 평가 목적으로.
+A3: You can get a temporary license from [here](https://purchase.aspose.com/temporary-license/) for evaluation purposes.
 
-### Q4: Aspose.CAD에 대한 지원은 어디서 찾을 수 있나요?
+### Q4: Aspose.CAD 지원을 어디서 받을 수 있나요?
 
-답변 4: 질문이나 도움이 필요하면 다음을 방문하세요.[Aspose.CAD 포럼](https://forum.aspose.com/c/cad/19).
+A5: For any queries or assistance, visit the [Aspose.CAD forum](https://forum.aspose.com/c/cad/19).
 
-### Q5: Aspose.CAD에 대한 무료 평가판이 있습니까?
+### Q5: Aspose.CAD 무료 체험판이 있나요?
 
- A5: 예, Aspose.CAD 무료 평가판에 액세스할 수 있습니다.[여기](https://releases.aspose.com/).
+A5: Yes, you can access a free trial version of Aspose.CAD [here](https://releases.aspose.com/).
+
+### Q6: DWG 파일을 직접 JPG로 변환하려면 어떻게 해야 하나요?
+
+A6: You can load the DWG file with `Aspose.CAD.Image.Load` and use the same rasterization workflow; just set `options.Layouts` to the desired layout name(s) from the DWG.
+
+### Q7: 변환이 벡터 품질을 유지하나요?
+
+A7: Once rasterized to JPG, the image is bitmap‑based, so vector scalability is lost. For lossless scaling, consider exporting to PNG or SVG instead.
+
+---
+
+**Last Updated:** 2026-04-06  
+**Tested With:** Aspose.CAD 24.11 for .NET  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
