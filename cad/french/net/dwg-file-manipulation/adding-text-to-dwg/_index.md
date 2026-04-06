@@ -1,35 +1,60 @@
 ---
-title: Ajouter du texte aux fichiers DWG en C# - Tutoriel Aspose.CAD
-linktitle: Ajout de texte aux fichiers DWG en C#
-second_title: Aspose.CAD .NET - Format de fichier CAO et BIM
-description: Découvrez comment ajouter du texte aux fichiers DWG à l'aide de C# et Aspose.CAD. Suivez ce didacticiel étape par étape pour une intégration transparente. Explorez la documentation Aspose.CAD pour obtenir des conseils complets.
-weight: 14
+date: 2026-04-06
+description: Apprenez à convertir DWG en PDF et à ajouter du texte personnalisé en
+  utilisant C# et Aspose.CAD. Ce guide étape par étape couvre la génération de PDF
+  à partir de DWG, l’insertion d’une entité texte et la modification de la police
+  du texte DWG.
+keywords:
+- convert dwg to pdf
+- generate pdf from dwg
+- insert text entity
+- change dwg text font
+- aspose cad dwg pdf
+linktitle: Ajouter du texte aux fichiers DWG en C#
+second_title: Aspose.CAD .NET - CAD and BIM File Format
+title: Convertir DWG en PDF et ajouter du texte en C# – Tutoriel Aspose.CAD
 url: /fr/net/dwg-file-manipulation/adding-text-to-dwg/
+weight: 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Ajouter du texte aux fichiers DWG en C# - Tutoriel Aspose.CAD
+# Convertir DWG en PDF et ajouter du texte en C# – Tutoriel Aspose.CAD
 
 ## Introduction
 
-Dans le domaine dynamique de la conception assistée par ordinateur (CAO) et du développement .NET, Aspose.CAD se distingue comme un outil puissant pour manipuler les fichiers DWG. L'ajout de texte aux fichiers DWG est une exigence courante et, dans ce didacticiel, nous verrons comment y parvenir à l'aide de C# et Aspose.CAD.
+Dans le monde en évolution rapide du CAD et du développement .NET, **convertir DWG en PDF** tout en insérant des annotations personnalisées est une exigence fréquente. Que vous deviez générer des dessins imprimables pour des clients ou intégrer des notes dynamiques directement dans un DWG, Aspose.CAD rend la tâche simple. Dans ce tutoriel, vous apprendrez à **convertir DWG en PDF**, **ajouter une entité texte**, et même **modifier la police du texte DWG** en C#.
 
-## Conditions préalables
+## Réponses rapides
+- **Quelle bibliothèque est la meilleure pour la conversion DWG‑vers‑PDF ?** Aspose.CAD for .NET  
+- **Puis‑je ajouter du texte personnalisé lors de la conversion ?** Oui – créez une entité `CadText` et ajoutez‑la avant l’enregistrement.  
+- **Ai‑je besoin d’une licence pour une utilisation en production ?** Une licence commerciale est requise ; un essai gratuit est disponible.  
+- **Quelles versions de .NET sont prises en charge ?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6+.  
+- **Est‑il possible de changer la police du texte ?** Oui, ajustez les propriétés `CadText` telles que `StyleType` et `TextHeight`.
 
-Avant de plonger dans le didacticiel, assurez-vous d'avoir les éléments suivants en place :
+## Qu’est‑ce que « convertir dwg en pdf » ?
 
--  Bibliothèque Aspose.CAD : Téléchargez et installez la bibliothèque Aspose.CAD à partir du[lien de téléchargement](https://releases.aspose.com/cad/net/).
+Convertir un fichier DWG en PDF transforme un dessin CAD vectoriel en un document largement partageable et indépendant du dispositif. Le PDF conserve la géométrie et les calques d’origine, tout en vous permettant d’y intégrer des annotations, du texte ou d’autres métadonnées. Aspose.CAD gère automatiquement la rasterisation et le rendu vectoriel, vous n’avez donc pas besoin de logiciel CAD tiers sur le serveur.
 
--  Répertoire de documents : créez un répertoire pour vos documents et notez son chemin comme`MyDir`.
+## Pourquoi ajouter du texte à un DWG avant la conversion ?
 
-Maintenant, décomposons le processus en étapes gérables.
+Intégrer du texte directement dans le DWG vous donne un contrôle total sur le placement, le style et l’affectation au calque. Lorsque le fichier est ensuite converti en PDF, le texte apparaît exactement où vous l’avez positionné, préservant l’intention de conception et éliminant le besoin de post‑traitement dans un éditeur PDF.
 
-## Importer des espaces de noms
+## Prérequis
 
-Dans votre code C#, incluez les espaces de noms nécessaires pour accéder aux fonctionnalités d'Aspose.CAD.
+Avant de commencer, assurez‑vous d’avoir :
+
+- **Bibliothèque Aspose.CAD** – téléchargez‑la depuis le [download link](https://releases.aspose.com/cad/net/).  
+- **Un environnement .NET fonctionnel** (Visual Studio 2022, .NET 6, ou toute version compatible).  
+- **Un dossier pour vos fichiers de test** – nous le désignerons `MyDir` tout au long du guide.
+
+Maintenant, parcourons le processus étape par étape.
+
+## Importer les espaces de noms
+
+Ajoutez les instructions `using` requises afin de pouvoir accéder aux classes Aspose.CAD.
 
 ```csharp
 using System;
@@ -45,46 +70,46 @@ using Aspose.CAD.FileFormats.Cad.CadObjects.AttEntities;
 using Aspose.CAD.ImageOptions;
 ```
 
-## Étape 1 : Charger le fichier DWG
+## Étape 1 : charger le fichier DWG
 
- Chargez le fichier DWG dans un`Image` objet à l’aide de la bibliothèque Aspose.CAD.
+Chargez votre fichier DWG source dans un objet `Image`. Cet objet vous donne accès aux entités CAD sous‑jacentes.
 
 ```csharp
 string dwgPathToFile = MyDir + "SimpleEntites.dwg";
 using (Image image = Image.Load(dwgPathToFile))
 {
-    // Votre code pour les étapes suivantes va ici
+    // Subsequent steps will be performed inside this block
 }
 ```
 
-## Étape 2 : Créer un objet CadText
+## Étape 2 : créer un objet CadText (insérer une entité texte)
 
- Instancier un`CadText` objet pour représenter le texte que vous souhaitez ajouter au fichier DWG.
+La classe `CadText` représente une ligne de texte dans un DWG. Ici, nous définissons son style, sa valeur, sa couleur, son calque et sa position. Ajustez `StyleType` ou `TextHeight` pour **modifier la police du texte DWG**.
 
 ```csharp
 CadText cadText = new CadText();
-cadText.StyleType = "Standard";
+cadText.StyleType = "Standard";          // Font/style – change to alter DWG text font
 cadText.DefaultValue = "Some custom text";
-cadText.ColorId = 256;
+cadText.ColorId = 256;                    // 256 = ByLayer (you can use a specific ACI color)
 cadText.LayerName = "0";
 cadText.FirstAlignment.X = 47.90;
 cadText.FirstAlignment.Y = 5.56;
-cadText.TextHeight = 0.8;
+cadText.TextHeight = 0.8;                 // Height influences visual size
 cadText.ScaleX = 0.0;
 ```
 
-## Étape 3 : Ajouter du texte au DWG
+## Étape 3 : ajouter l’entité texte à l’espace modèle
 
- Ajouter le créé`CadText` objet au fichier DWG à l’aide d’Aspose.CAD.
+L’espace modèle du DWG contient la plupart des entités du dessin. En ajoutant notre `CadText` au bloc `*Model_Space`, le texte devient partie intégrante du dessin.
 
 ```csharp
 CadImage cadImage = (CadImage)image;
 cadImage.BlockEntities["*Model_Space"].AddEntity(cadText);
 ```
 
-## Étape 4 : Configurer les options PDF
+## Étape 4 : configurer les options PDF (générer un PDF à partir du DWG)
 
-Configurez les options PDF pour enregistrer le fichier DWG modifié au format PDF.
+Configurez les options de rasterisation qui contrôlent la façon dont le DWG est rendu en PDF. Vous pouvez ajuster la taille de page, le type de dessin et la mise en page.
 
 ```csharp
 PdfOptions pdfOptions = new PdfOptions();
@@ -96,41 +121,70 @@ cadRasterizationOptions.PageWidth = 1600;
 cadRasterizationOptions.Layouts = new string[] { "Model" };
 ```
 
-## Étape 5 : Enregistrer au format PDF
+## Étape 5 : enregistrer le DWG modifié en PDF
 
-Enregistrez le fichier DWG modifié au format PDF avec le texte ajouté.
+Enfin, exportez le dessin modifié. Le PDF résultant inclut le texte nouvellement inséré.
 
 ```csharp
 image.Save(MyDir + "SimpleEntites_generated.pdf", pdfOptions);
 ```
 
-Vous avez maintenant ajouté avec succès du texte à un fichier DWG à l'aide de C# et Aspose.CAD. N'hésitez pas à explorer plus de fonctionnalités et de fonctionnalités d'Aspose.CAD pour vos besoins de manipulation CAO.
+> **Astuce :** Si vous avez besoin d’un PDF à plus haute résolution, augmentez proportionnellement `PageHeight` et `PageWidth`.
+
+## Problèmes courants et solutions
+
+| Problème | Raison | Solution |
+|----------|--------|----------|
+| Le texte n’apparaît pas dans le PDF | Mauvaise couche ou ID de couleur | Assurez‑vous que `LayerName` existe et que `ColorId` est réglé sur une couleur visible (par ex., 7 pour blanc). |
+| Le texte est mal placé | Coordonnées d’alignement incorrectes | Vérifiez les valeurs `FirstAlignment.X/Y` par rapport aux unités du dessin. |
+| Le PDF est vide | Options de rasterisation non définies | Définissez `DrawType` sur `UseObjectColor` ou `UseObjectLineWeight`. |
+
+## Questions fréquemment posées (existantes)
+
+### Q1 : Aspose.CAD est‑il compatible avec toutes les versions de fichiers DWG ?
+
+R1 : Aspose.CAD prend en charge un large éventail de versions de fichiers DWG, garantissant la compatibilité avec divers logiciels CAD.
+
+### Q2 : Puis‑je ajouter plusieurs entités texte à un même fichier DWG en utilisant Aspose.CAD ?
+
+R2 : Oui, vous pouvez ajouter plusieurs entités texte à un fichier DWG en répétant le processus décrit dans le tutoriel.
+
+### Q3 : Comment puis‑je changer la police et le style du texte dans Aspose.CAD ?
+
+R3 : Pour modifier la police et le style du texte, ajustez les propriétés de l’objet `CadText` avant de l’ajouter au fichier DWG.
+
+### Q4 : Existe‑t‑il des considérations de licence pour l’utilisation d’Aspose.CAD dans un projet commercial ?
+
+A5 : Oui, assurez‑vous de respecter les conditions de licence d’Aspose.CAD. Consultez [Aspose.CAD Purchase](https://purchase.aspose.com/buy) pour plus de détails.
+
+### Q5 : Où puis‑je obtenir de l’aide ou discuter des questions liées à Aspose.CAD ?
+
+A5 : Visitez le [Aspose.CAD forum](https://forum.aspose.com/c/cad/19) pour rejoindre la communauté et obtenir du support.
+
+## FAQ supplémentaires
+
+**Q : Comment générer un PDF à partir d’un DWG sans ajouter de texte ?**  
+R : Ignorez l’étape de création du `CadText` et configurez directement `PdfOptions` avant d’appeler `image.Save(...)`.
+
+**Q : Puis‑je changer la couleur du texte par programmation ?**  
+R : Oui, définissez `cadText.ColorId` sur un numéro de couleur ACI spécifique (par ex., 1 pour rouge).
+
+**Q : Est‑il possible d’insérer du texte multiligne ?**  
+R : Utilisez `CadMText` pour des blocs de texte multiligne ; l’approche est similaire à `CadText`.
+
+**Q : Aspose.CAD prend‑il en charge la conversion par lots de plusieurs fichiers DWG ?**  
+R : Absolument – parcourez un répertoire de fichiers DWG, appliquez les mêmes étapes et enregistrez chacun en PDF.
 
 ## Conclusion
 
-Dans ce didacticiel, nous avons couvert les étapes essentielles pour ajouter du texte aux fichiers DWG à l'aide de C# et Aspose.CAD. Cette combinaison puissante ouvre des possibilités de génération de documents CAO dynamiques et personnalisés.
+Vous disposez maintenant d’un flux de travail complet, prêt pour la production, pour **convertir DWG en PDF**, **ajouter du texte personnalisé**, et **personnaliser l’apparence du texte** en utilisant C# et Aspose.CAD. Cette technique est idéale pour la génération automatisée de dessins, les pipelines de reporting, ou tout scénario où vous devez enrichir des fichiers CAD à la volée.
 
-## FAQ
+---
 
-### Q1 : Aspose.CAD est-il compatible avec toutes les versions de fichiers DWG ?
+**Dernière mise à jour :** 2026-04-06  
+**Testé avec :** Aspose.CAD 24.11 for .NET  
+**Auteur :** Aspose  
 
-A1 : Aspose.CAD prend en charge une large gamme de versions de fichiers DWG, garantissant la compatibilité avec divers logiciels de CAO.
-
-### Q2 : Puis-je ajouter plusieurs entités de texte à un seul fichier DWG à l'aide d'Aspose.CAD ?
-
-A2 : Oui, vous pouvez ajouter plusieurs entités de texte à un fichier DWG en répétant le processus décrit dans le didacticiel.
-
-### Q3 : Comment puis-je modifier la police et le style du texte dans Aspose.CAD ?
-
- A3 : Pour modifier la police et le style du texte, ajustez les propriétés du`CadText` objet avant de l’ajouter au fichier DWG.
-
-### Q4 : Y a-t-il des considérations en matière de licence pour l'utilisation d'Aspose.CAD dans un projet commercial ?
-
- A4 : Oui, assurez-vous du respect des conditions de licence Aspose.CAD. Faire référence à[Achat Aspose.CAD](https://purchase.aspose.com/buy) pour plus de détails.
-
-### Q5 : Où puis-je demander de l'aide ou discuter des requêtes liées à Aspose.CAD ?
-
-A5 : Visitez le[Forum Aspose.CAD](https://forum.aspose.com/c/cad/19)pour se connecter avec la communauté et obtenir du soutien.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

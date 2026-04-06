@@ -1,33 +1,58 @@
 ---
-title: C#'ta DWG Dosyalarıyla Çalışma - DWF Düzeninin Boyutunu Alma
-linktitle: C#'ta DWG Dosyalarıyla Çalışma - DWF Düzeninin Boyutunu Alma
-second_title: Aspose.CAD .NET - CAD ve BIM Dosya Formatı
-description: DWG dosyalarını işlemede Aspose.CAD for .NET'in gücünü keşfedin. C# kullanarak DWF düzeni boyutlarını zahmetsizce çıkarmayı öğrenin.
-weight: 10
+date: 2026-04-06
+description: Aspose.CAD kullanarak C#'ta DWF'yi JPG'ye nasıl dönüştüreceğinizi öğrenin
+  ve DWG dosyalarından DWF düzen boyutunu nasıl çıkaracağınızı keşfedin.
+keywords:
+- convert dwf to jpg
+- how to extract dwf
+- convert dwg to jpg
+linktitle: C#'ta DWG Dosyalarıyla Çalışma - DWF Düzeninin Boyutunu Almak
+second_title: Aspose.CAD .NET - CAD and BIM File Format
+title: C# ile DWF'yi JPG'ye Dönüştür – DWG'den DWF Yerleşim Boyutunu Al
 url: /tr/net/dwg-file-manipulation/get-size-of-dwf-layout/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# C#'ta DWG Dosyalarıyla Çalışma - DWF Düzeninin Boyutunu Alma
+# C# ile DWF'yi JPG'ye Dönüştür – DWG'den DWF Düzen Boyutunu Al
 
-## giriiş
+## Giriş
 
-Bilgisayar destekli tasarım (CAD) ve .NET geliştirme alanında Aspose.CAD, DWG dosyalarını yönetmek için güçlü bir araç olarak duruyor. Bu eğitim, C# dilinde DWG dosyalarıyla çalışma ve bir DWF düzeninin boyutunu çıkarma sürecinde size rehberlik edecektir. Kodlara dalmadan önce, bu yolculuğa çıkmak için her şeyin ayarlandığından emin olalım.
+Eğer **DWF'yi JPG'ye dönüştürürken** aynı zamanda tam düzen boyutlarını da öğrenmek istiyorsanız, doğru yerdesiniz. Bu öğreticide, Aspose.CAD for .NET kullanarak DWG türetilmiş bir DWF dosyasını açan, her düzenin boyutunu okuyan ve düzeni yüksek kaliteli bir JPG görüntüsü olarak kaydeden tam bir uçtan uca örnek üzerinden geçeceğiz. Sonunda sadece DWF düzen bilgilerini nasıl çıkaracağınızı öğrenmekle kalmayacak, aynı zamanda herhangi bir C# projesine ekleyebileceğiniz yeniden kullanılabilir bir kod parçacığına da sahip olacaksınız.
+
+## Hızlı Cevaplar
+- **“DWF'yi JPG'ye dönüştürmek” ne anlama geliyor?** Vektörel bir DWF düzenini bitmap JPEG görüntüsüne rasterleştirmek anlamına gelir.  
+- **Önce düzen boyutunu okumak neden önemli?** Tam ölçüleri bilmek, doğru sayfa boyutlarını ayarlamanızı sağlar ve gerilmiş ya da kesilmiş çıktıyı önler.  
+- **Bu işlemi hangi kütüphane gerçekleştiriyor?** Aspose.CAD for .NET, DWG, DWF ve raster görüntü dönüşümü için tam destek sunar.  
+- **Lisans gerekli mi?** Değerlendirme için geçici bir lisans yeterlidir; üretim için tam lisans gereklidir.  
+- **Hangi .NET sürümleri destekleniyor?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7.
+
+## “DWF'yi JPG'ye dönüştürmek” nedir ve neden önemlidir?
+
+DWF (Design Web Format) dosyasını JPG'ye dönüştürmek, tarayıcılarda görüntülenebilen, raporlara gömülebilen veya CAD yazılımı olmayan paydaşlarla paylaşılabilen taşınabilir bir görüntü oluşturur. Dönüşüm ayrıca görüntüyü (yeniden boyutlandırma, sıkıştırma, filigran ekleme) standart görüntü işleme araçlarıyla manipüle etme esnekliği sağlar.
+
+## Neden DWF düzen boyutunu çıkartmalıyız?
+
+Bir DWF dosyası birden fazla düzen içerebilir; her birinin kendi koordinat sistemi ve birimi (inç, milimetre vb.) vardır. Düzen boyutunu çıkartmak şunları mümkün kılar:
+
+1. Rasterleştirirken orijinal en-boy oranını korumak.  
+2. Yüksek çözünürlüklü çıktı için doğru DPI'yi seçmek.  
+3. Manuel ayarlama yapmadan birçok düzeni toplu olarak işlemek.
 
 ## Önkoşullar
 
-Bu öğreticiyi sorunsuz bir şekilde takip etmek için aşağıdaki önkoşullara sahip olduğunuzdan emin olun:
+Bu öğreticiyi sorunsuz bir şekilde takip edebilmek için aşağıdaki önkoşulları yerine getirdiğinizden emin olun:
 
--  Aspose.CAD for .NET: Aspose.CAD for .NET'in kurulu olduğundan emin olun. adresinden indirebilirsiniz.[Aspose.CAD for .NET indirme sayfası](https://releases.aspose.com/cad/net/).
+- Aspose.CAD for .NET: Aspose.CAD for .NET'in kurulu olduğundan emin olun. İndirmek için [Aspose.CAD for .NET indirme sayfasını](https://releases.aspose.com/cad/net/) ziyaret edebilirsiniz.
 
-Artık gerekli araçlara sahip olduğunuza göre kodlama alanına geçelim.
+Kütüphane hazır olduğunda, bağımlılıkları aramak yerine koda odaklanabilirsiniz.
 
 ## Ad Alanlarını İçe Aktar
 
-Kodla çalışmaya başlamadan önce gerekli ad alanlarını içe aktaralım:
+Kodlamaya başlamadan önce gerekli ad alanlarını içe aktarın. Bu ad alanları, CAD dosyaları, rasterleştirme seçenekleri ve dosya I/O işlemleri için ihtiyacımız olan sınıfları sağlar.
 
 ```csharp
 using Aspose.CAD.FileFormats.Cad;
@@ -40,46 +65,46 @@ using System.Linq;
 using System.Text;
 ```
 
-Bu ad alanları, C# uygulamanızda Aspose.CAD ile CAD dosyalarını işlemek için gerekli sınıfları ve yöntemleri sağlayacaktır.
+## Adım 1: Ortamınızı Kurun
 
-## 1. Adım: Ortamınızı Kurun
+Yeni bir C# konsol ya da sınıf‑kütüphane projesi oluşturun, **Aspose.CAD.dll**'ye referans ekleyin ve projenin uyumlu bir .NET sürümünü hedeflediğinden emin olun.
 
-Projeniz için doğru ortamın kurulduğundan emin olarak başlayın. C# projenizde Aspose.CAD kütüphanesine başvurun.
+## Adım 2: Dosya Yollarını Tanımlayın (DWF nasıl çıkarılır)
 
-## 2. Adım: Dosya Yollarını Tanımlayın
-
-DWG dosyanızın yollarını ve oluşturulan JPG dosyalarının çıktı dizinini tanımlayın:
+Kaynak DWF dosyanızın nerede bulunduğunu ve oluşturulan JPG dosyalarının nereye yazılacağını belirtin.
 
 ```csharp
 string MyDir = "Your Document Directory";
 string sourceFilePath = MyDir + "blocks_and_tables.dwf";
 ```
 
-## 3. Adım: DWF Görüntüsünü Yükleyin
+> **Pro ipucu:** Farklı işletim sistemlerinde daha güvenli yol işleme için `Path.Combine(MyDir, "blocks_and_tables.dwf")` kullanın.
 
-Aspose.CAD'i kullanarak DWF görüntüsünü yükleyin:
+## Adım 3: DWF Görüntüsünü Yükleyin
+
+DWF dosyasını bir `Aspose.CAD.Image` nesnesine yükleyin. Sayfa‑özel özelliklere erişebilmek için bunu `DwfImage` tipine dönüştürüyoruz.
 
 ```csharp
 using (DwfImage image = (DwfImage)Aspose.CAD.Image.Load(sourceFilePath))
 {
-    // Daha sonraki adımların kodu buraya gelecek
+    // Code for further steps will go here
 }
 ```
 
-## Adım 4: Sayfalar Arasında Yineleme Yapın
+## Adım 4: Sayfalar Üzerinde Döngü
 
-DWF görüntüsünün sayfalarını yineleyin:
+Bir DWF birden fazla sayfa (düzen) içerebilir. Her birini ayrı ayrı işleyebilmek için döngüye alın.
 
 ```csharp
 foreach (var page in image.Pages)
 {
-    // Daha sonraki adımların kodu buraya gelecek
+    // Code for further steps will go here
 }
 ```
 
 ## Adım 5: Düzen Bilgilerini Alın
 
-Her sayfadan düzen bilgilerini alın:
+Döngü içinde düzen adını alın. Bu ad, hem günlük kaydı hem de çıktı JPG dosyasının adlandırılması için kullanılacak.
 
 ```csharp
 var layout = page.Name;
@@ -88,7 +113,7 @@ System.Console.WriteLine("Layout= " + layout);
 
 ## Adım 6: JPG Seçeneklerini Ayarlayın
 
-Düzeni JPG dosyası olarak kaydetme seçeneklerini ayarlayın:
+Bir `JpegOptions` örneği oluşturun ve rasterleştirme seçeneklerini yapılandırın. `Layouts` özelliği, Aspose.CAD'in hangi düzeni render edeceğini belirtir.
 
 ```csharp
 using (FileStream fs = new FileStream(MyDir + "layout_" + layout + ".jpg", FileMode.Create))
@@ -96,23 +121,23 @@ using (FileStream fs = new FileStream(MyDir + "layout_" + layout + ".jpg", FileM
     JpegOptions jpegOptions = new JpegOptions();
     CadRasterizationOptions options = new CadRasterizationOptions();
     options.Layouts = new string[] { layout };
-    // Daha sonraki adımların kodu buraya gelecek
+    // Code for further steps will go here
 }
 ```
 
-## Adım 7: Sayfa Boyutunu Belirleyin
+## Adım 7: Sayfa Boyutunu Belirleyin (dwg'yi jpg'ye dönüştür)
 
-DWF düzeninin boyutunu belirleyin:
+Düzenin yerel birimlerdeki genişlik ve yüksekliğini hesaplayın. Bu bilgi, raster sayfa boyutunu doğru ayarlamak için kritiktir.
 
 ```csharp
 double sizeExtX = page.MaxPoint.X - page.MinPoint.X;
 double sizeExtY = page.MaxPoint.Y - page.MinPoint.Y;
-// Daha sonraki adımların kodu buraya gelecek
+// Code for further steps will go here
 ```
 
 ## Adım 8: Sayfa Boyutlarını Ayarlayın
 
-Birim türüne göre sayfa boyutlarını ayarlayın:
+Yerel birimleri (inç ya da milimetre) piksele, Aspose.CAD tarafından sağlanan yardımcı metodları kullanarak dönüştürün. Birim tipi başka bir şeyse, ham değerleri kullanarak geri dönüyoruz.
 
 ```csharp
 if (page.UnitType == UnitType.Inch)
@@ -134,7 +159,7 @@ else
 
 ## Adım 9: JPG Dosyasını Kaydedin
 
-JPG dosyasını belirtilen seçeneklerle kaydedin:
+Son olarak rasterleştirme seçeneklerini JPEG seçeneklerine bağlayın ve görüntüyü diske kaydedin.
 
 ```csharp
 jpegOptions.VectorRasterizationOptions = options;
@@ -142,33 +167,53 @@ image.Save(fs, jpegOptions);
 }
 ```
 
-Artık C# dilinde Aspose.CAD'i kullanarak DWF düzeninin boyutunu DWG dosyasından başarıyla çıkardınız. Aspose.CAD'in .NET geliştirme için sunduğu daha fazla özellik ve işlevi keşfetmekten çekinmeyin.
+Döngü tamamlandığında, her düzen için orijinal DWF boyutlarıyla tam olarak eşleşen bir JPG dosyanız olacak.
 
-## Çözüm
+## Yaygın Sorunlar ve Çözümler
 
-Bu eğitimde Aspose.CAD kullanarak C#'ta DWG dosyalarıyla çalışma sürecini anlattık. Bu adımları takip ederek yalnızca DWF düzeninin boyutunu elde etmekle kalmaz, aynı zamanda .NET projelerinizde Aspose.CAD'in CAD ile ilgili çeşitli görevlerinden de yararlanabilirsiniz.
+| Semptom | Muhtemel Neden | Çözüm |
+|---------|----------------|-------|
+| Boş JPG çıktısı | `options.Layouts` doğru ayarlanmamış | Düzen adının `page.Name` ile eşleştiğini doğrulayın. |
+| Bozuk görüntü | Yanlış DPI dönüşümü | Dönüştürmeden önce `CommonHelper.DPI = 300` (veya hedef DPI'niz) kullanın. |
+| Dosya bulunamadı | `MyDir` yolu hatalı | Mutlak yollar veya `Path.Combine` kullanın. |
+| Lisans hatası | Lisans uygulanmadı | `Image.Load` çağrılmadan önce geçici veya kalıcı bir lisans yükleyin. |
 
-## SSS'ler
+## Sık Sorulan Sorular
 
-### S1: Aspose.CAD en yeni DWG dosya formatlarıyla uyumlu mu?
+### S1: Aspose.CAD en son DWG dosya formatlarıyla uyumlu mu?
 
- Cevap1: Aspose.CAD, en son sürümler de dahil olmak üzere çeşitli DWG dosya formatlarını destekler. Bakın[dokümantasyon](https://reference.aspose.com/cad/net/) belirli uyumluluk ayrıntıları için.
+A1: Aspose.CAD, en son sürümler dahil olmak üzere çeşitli DWG dosya formatlarını destekler. Belirli uyumluluk detayları için [belgelendirmeye](https://reference.aspose.com/cad/net/) bakın.
 
-### S2: Aspose.CAD'i hem ticari hem de kişisel projeler için kullanabilir miyim?
+### S2: Aspose.CAD'i hem ticari hem de kişisel projelerde kullanabilir miyim?
 
- C2: Evet, Aspose.CAD hem ticari hem de kişisel kullanım için esnek lisanslama seçenekleri sunuyor. Ziyaret edin[satın alma sayfası](https://purchase.aspose.com/buy) daha fazla ayrıntı için.
+A2: Evet, Aspose.CAD hem ticari hem de kişisel kullanım için esnek lisans seçenekleri sunar. Daha fazla bilgi için [satın alma sayfasını](https://purchase.aspose.com/buy) ziyaret edin.
 
-### S3: Aspose.CAD için nasıl geçici lisans alabilirim?
+### S3: Aspose.CAD için geçici bir lisans nasıl alabilirim?
 
- Cevap 3: Geçici lisansı şu adresten alabilirsiniz:[Burada](https://purchase.aspose.com/temporary-license/) değerlendirme amaçlı.
+A3: Değerlendirme amaçlı geçici lisansı [buradan](https://purchase.aspose.com/temporary-license/) edinebilirsiniz.
 
-### S4: Aspose.CAD desteğini nerede bulabilirim?
+### S4: Aspose.CAD için destek nereden bulunur?
 
-A4: Sorularınız veya yardım için şu adresi ziyaret edin:[Aspose.CAD forumu](https://forum.aspose.com/c/cad/19).
+A4: Herhangi bir soru ya da yardım için [Aspose.CAD forumunu](https://forum.aspose.com/c/cad/19) ziyaret edin.
 
-### S5: Aspose.CAD'in ücretsiz deneme sürümü mevcut mu?
+### S5: Aspose.CAD için ücretsiz deneme sürümü var mı?
 
- Cevap5: Evet, Aspose.CAD'in ücretsiz deneme sürümüne erişebilirsiniz.[Burada](https://releases.aspose.com/).
+A5: Evet, ücretsiz deneme sürümüne [burada](https://releases.aspose.com/) ulaşabilirsiniz.
+
+### S6: DWF çıkarmadan doğrudan DWG dosyasını JPG'ye nasıl dönüştürürüm?
+
+A6: `Aspose.CAD.Image.Load` ile DWG dosyasını yükleyebilir ve aynı rasterleştirme iş akışını kullanabilirsiniz; sadece `options.Layouts` değerini DWG'den istediğiniz düzen adı(ları) olarak ayarlayın.
+
+### S7: Dönüşüm vektör kalitesini korur mu?
+
+A7: JPG'ye rasterleştirildiğinde görüntü bitmap tabanlı olur, bu yüzden vektörel ölçeklenebilirlik kaybolur. Kayıpsız ölçekleme için PNG veya SVG olarak dışa aktarmayı düşünün.
+
+---
+
+**Son Güncelleme:** 2026-04-06  
+**Test Edilen:** Aspose.CAD 24.11 for .NET  
+**Yazar:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
