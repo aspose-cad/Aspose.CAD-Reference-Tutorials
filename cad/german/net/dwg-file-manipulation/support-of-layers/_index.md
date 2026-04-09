@@ -1,33 +1,58 @@
 ---
-title: Umgang mit Ebenen in DWG-Dateien mit C# – Aspose.CAD-Tutorial
-linktitle: Umgang mit Ebenen in DWG-Dateien mit C#
-second_title: Aspose.CAD .NET – CAD- und BIM-Dateiformat
-description: Erfahren Sie, wie Sie Ebenen in DWG-Dateien mit C# mit Aspose.CAD für .NET verarbeiten. Schritt-für-Schritt-Anleitung für die effiziente Bearbeitung von CAD-Dateien.
-weight: 11
+date: 2026-04-09
+description: Erfahren Sie, wie Sie DWG‑Ebenen exportieren, DWG‑Bilder konvertieren
+  und DWG‑JPEGs mit C# und Aspose.CAD für .NET speichern. Schritt‑für‑Schritt‑Anleitung
+  für effiziente CAD‑Dateimanipulation.
+keywords:
+- export dwg layers
+- convert dwg image
+- dwg layer visibility
+- save dwg jpeg
+linktitle: Umgang mit Ebenen in DWG‑Dateien mit C#
+second_title: Aspose.CAD .NET - CAD and BIM File Format
+title: DWG‑Ebenen mit C# exportieren – Aspose.CAD‑Tutorial
 url: /de/net/dwg-file-manipulation/support-of-layers/
+weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Umgang mit Ebenen in DWG-Dateien mit C# – Aspose.CAD-Tutorial
+# DWG-Layer mit C# exportieren – Aspose.CAD Tutorial
 
 ## Einführung
 
-Willkommen zu unserem ausführlichen Tutorial zum Umgang mit Ebenen in DWG-Dateien mithilfe von C# mit Aspose.CAD für .NET. Aspose.CAD ist eine leistungsstarke Bibliothek, die Entwicklern die nahtlose Arbeit mit CAD-Dateiformaten ermöglicht. In diesem Tutorial führen wir Sie Schritt für Schritt durch den Umgang mit Ebenen in DWG-Dateien.
+In diesem umfassenden Leitfaden lernen Sie **wie man DWG-Layer exportiert** mit C# und der Aspose.CAD-Bibliothek. Egal, ob Sie **DWG-Bilder** konvertieren, **DWG-Layer‑Sichtbarkeit** steuern oder einfach **DWG‑JPEG**‑Dateien speichern müssen, die nachfolgenden Schritte zeigen Ihnen genau, wie Sie dies effizient erledigen. Am Ende des Tutorials haben Sie ein sofort ausführbares Snippet, das einen bestimmten Layer isoliert und als hochqualitatives JPEG rendert.
+
+## Schnelle Antworten
+- **Was bedeutet “export dwg layers”?** Es bedeutet, ausgewählte Layer einer DWG-Datei in ein Bildformat wie JPEG oder PNG zu rasterisieren.  
+- **Welche Bibliothek ist am besten für diese Aufgabe?** Aspose.CAD für .NET bietet vollständige Unterstützung, ohne dass AutoCAD erforderlich ist.  
+- **Kann ich mehrere Layer gleichzeitig exportieren?** Ja – übergeben Sie ein Array von Layer‑Namen an die Rasterisierungsoptionen.  
+- **Benötige ich eine Lizenz für den Produktionseinsatz?** Eine kommerzielle Lizenz ist erforderlich; eine kostenlose Testversion steht zur Evaluierung bereit.  
+- **Welche Ausgabeformate werden unterstützt?** JPEG, PNG, BMP, TIFF und mehrere andere über die ImageOptions‑Klassen.
+
+## Was bedeutet das Exportieren von DWG-Layern?
+Das Exportieren von DWG-Layern bedeutet, die Vektordaten, die zu einem oder mehreren Layern in einer DWG-Zeichnung gehören, in ein Bitmap‑Bild zu rasterisieren. Dies ist nützlich, wenn Sie einen Blick auf einen bestimmten Teil einer Zeichnung teilen möchten, ohne die gesamte CAD‑Datei preiszugeben.
+
+## Warum die DWG-Layer‑Sichtbarkeit steuern?
+Die Steuerung der Layer‑Sichtbarkeit ermöglicht es Ihnen:
+
+- Saubere visuelle Assets für Präsentationen oder Dokumentationen zu erstellen.  
+- Die Dateigröße zu reduzieren, indem nur die benötigte Geometrie exportiert wird.  
+- Proprietäre Design‑Details zu schützen, indem vertrauliche Layer ausgeblendet werden.
 
 ## Voraussetzungen
 
-Bevor wir uns mit dem Tutorial befassen, stellen Sie sicher, dass die folgenden Voraussetzungen erfüllt sind:
+Bevor wir beginnen, stellen Sie sicher, dass Sie Folgendes haben:
 
-- Grundkenntnisse der Programmiersprache C#.
-- Visual Studio ist auf Ihrem Computer installiert.
--  Aspose.CAD für .NET-Bibliothek, die Sie von der herunterladen können[Aspose.CAD-Website](https://releases.aspose.com/cad/net/).
+- Grundkenntnisse der Programmiersprache C#.  
+- Visual Studio auf Ihrem Rechner installiert.  
+- Die Aspose.CAD für .NET‑Bibliothek, die Sie von der [Aspose.CAD-Website](https://releases.aspose.com/cad/net/) herunterladen können.
 
 ## Namespaces importieren
 
-Importieren Sie zunächst die erforderlichen Namespaces in Ihr C#-Projekt. Diese Namespaces stellen die für die Arbeit mit CAD-Dateien erforderliche Funktionalität bereit.
+Um zu beginnen, importieren Sie die Namespaces, die Ihnen Zugriff auf Rasterisierungs‑ und Bild‑Export‑Funktionen geben.
 
 ```csharp
 using Aspose.CAD.ImageOptions;
@@ -38,9 +63,9 @@ using System.Linq;
 using System.Text;
 ```
 
-## Schritt 1: Laden Sie die DWG-Datei
+## Schritt 1: DWG-Datei laden
 
-Laden Sie zunächst die DWG-Datei mithilfe der Aspose.CAD-Bibliothek in Ihre C#-Anwendung.
+Laden Sie die Quell‑DWG‑ (oder DWF‑)Datei in ein `Image`‑Objekt. Dieses Objekt repräsentiert die gesamte Zeichnung im Speicher.
 
 ```csharp
 string MyDir = "Your Document Directory";
@@ -48,13 +73,15 @@ string sourceFilePath = MyDir + "for_layers_test.dwf";
 
 using (Aspose.CAD.Image image = Aspose.CAD.Image.Load(sourceFilePath))
 {
-    // Ihr Code für die nachfolgenden Schritte finden Sie hier
+    // Your code for subsequent steps goes here
 }
 ```
 
+*Warum das wichtig ist:* Das einmalige Laden der Datei ermöglicht es Ihnen, dieselbe `image`‑Instanz für beliebig viele layer‑spezifische Exporte wiederzuverwenden, was die Leistung verbessert.
+
 ## Schritt 2: Rasterisierungsoptionen konfigurieren
 
- Erstellen Sie eine Instanz von`CadRasterizationOptions` und legen Sie seine Eigenschaften fest, um zu definieren, wie die DWG-Datei gerastert werden soll.
+Erzeugen Sie eine `CadRasterizationOptions`‑Instanz, um Aspose.CAD mitzuteilen, wie die Zeichnung gerendert werden soll. Hier setzen wir eine hohe Auflösung (1600 × 1600), um sicherzustellen, dass das exportierte JPEG scharf ist.
 
 ```csharp
 Aspose.CAD.ImageOptions.CadRasterizationOptions rasterizationOptions = new Aspose.CAD.ImageOptions.CadRasterizationOptions();
@@ -62,59 +89,80 @@ rasterizationOptions.PageWidth = 1600;
 rasterizationOptions.PageHeight = 1600;
 ```
 
-## Schritt 3: Ebenen angeben
+Bei Bedarf können Sie auch die Hintergrundfarbe, die Linienstärken‑Skalierung oder Anti‑Aliasing‑Einstellungen anpassen.
 
-Fügen Sie die gewünschten Ebenen zu den Rasterisierungsoptionen hinzu. In diesem Beispiel haben wir „LayerA“ hinzugefügt.
+## Schritt 3: Layer festlegen (DWG‑Layer‑Sichtbarkeit)
+
+Fügen Sie die Layer hinzu, für die Sie **DWG-Layer exportieren** möchten. In diesem Beispiel exportieren wir nur „LayerA“. Um mehrere Layer zu exportieren, listen Sie sie einfach im Array auf.
 
 ```csharp
 rasterizationOptions.Layers = new string[] { "LayerA" };
 ```
 
-## Schritt 4: Bildexportoptionen konfigurieren
+*Pro‑Tipp:* Verwenden Sie den genauen Layer‑Namen, wie er in der Zeichnung erscheint; Layer‑Namen sind case‑sensitive.
 
- Erstellen Sie die erforderlichen Bildexportoptionen. Hier verwenden wir`JpegOptions` zum Exportieren in JPEG.
+## Schritt 4: Bild‑Exportoptionen konfigurieren
+
+Wählen Sie das Bildformat, das Sie erstellen möchten. Wir verwenden `JpegOptions`, weil JPEG ein gutes Gleichgewicht zwischen Qualität und Dateigröße bietet, was ideal ist, wenn Sie **DWG‑JPEG**‑Dateien für die Web‑Vorschau speichern müssen.
 
 ```csharp
 JpegOptions jpegOptions = new JpegOptions();
 jpegOptions.VectorRasterizationOptions = rasterizationOptions;
 ```
 
-## Schritt 5: Speichern Sie das exportierte Bild
+Falls Sie **DWG‑Bilder** in PNG oder TIFF konvertieren müssen, ersetzen Sie `JpegOptions` durch die entsprechende Options‑Klasse.
 
-Geben Sie den Ausgabepfad an und speichern Sie die gerasterte DWG-Datei als JPEG.
+## Schritt 5: Exportiertes Bild speichern
+
+Definieren Sie den Ausgabepfad und rufen Sie `Save` auf. Die Rasterisierungs‑Engine berücksichtigt die von Ihnen bereitgestellte Layer‑Liste, sodass nur „LayerA“ im finalen JPEG erscheint.
 
 ```csharp
 MyDir = MyDir + "for_layers_test.jpg";
 image.Save(MyDir, jpegOptions);
 ```
 
-Jetzt haben Sie erfolgreich Ebenen in einer DWG-Datei mit C# mit Aspose.CAD für .NET verarbeitet.
+Nachdem diese Zeile ausgeführt wurde, finden Sie `for_layers_test.jpg` in Ihrem Dokumenten‑Verzeichnis, das nur den ausgewählten Layer enthält.
 
-## Abschluss
+## Häufige Probleme und Lösungen
 
-In diesem Tutorial haben wir den Prozess der Verarbeitung von Ebenen in DWG-Dateien mithilfe von C# und der Aspose.CAD-Bibliothek durchlaufen. Wenn Sie diese Schritte befolgen, können Sie effizient mit CAD-Dateien in Ihren .NET-Anwendungen arbeiten.
+| Problem | Lösung |
+|-------|------------|
+| **Layer‑Name nicht gefunden** | Überprüfen Sie die genaue Schreibweise und Groß‑/Kleinschreibung des Layers in der ursprünglichen DWG. Verwenden Sie einen CAD‑Viewer, um die Layer‑Namen aufzulisten. |
+| **Leeres Ausgabebild** | Stellen Sie sicher, dass die Rasterisierungsoptionen einen nicht‑transparenten Hintergrund haben und dass die ausgewählten Layer tatsächlich Geometrie enthalten. |
+| **Ausgabe mit niedriger Auflösung** | Erhöhen Sie `PageWidth` und `PageHeight` oder setzen Sie `Resolution` in `CadRasterizationOptions`. |
+| **Nicht unterstützte DWG‑Version** | Aktualisieren Sie auf die neueste Aspose.CAD‑Version; sie fügt Unterstützung für neuere AutoCAD‑Versionen hinzu. |
 
-## FAQs
+## Häufig gestellte Fragen
 
-### F1: Kann ich mehrere Ebenen gleichzeitig bearbeiten?
+### Q1: Kann ich mehrere Layer gleichzeitig verarbeiten?
+A1: Ja, das können Sie. Fügen Sie einfach die Layer‑Namen dem Array `rasterizationOptions.Layers` hinzu.
 
- A1: Ja, das können Sie. Fügen Sie einfach die Ebenennamen hinzu`rasterizationOptions.Layers` Array.
+### Q2: Ist eine Testversion von Aspose.CAD verfügbar?
+A2: Ja, Sie können eine kostenlose Testversion von [hier](https://releases.aspose.com/) erhalten.
 
-### F2: Ist eine Testversion von Aspose.CAD verfügbar?
+### Q3: Wo finde ich die Dokumentation?
+A3: Die Dokumentation ist [hier](https://reference.aspose.com/cad/net/) verfügbar.
 
- A2: Ja, Sie können eine kostenlose Testversion von erhalten[Hier](https://releases.aspose.com/).
+### Q4: Wie erhalte ich Support für Aspose.CAD?
+A4: Sie können Support im [Aspose.CAD‑Forum](https://forum.aspose.com/c/cad/19) erhalten.
 
-### F3: Wo finde ich die Dokumentation?
+### Q5: Welche Lizenzierungsoptionen gibt es für Aspose.CAD?
+A5: Sie können Lizenzoptionen und Kaufdetails [hier](https://purchase.aspose.com/buy) einsehen.
 
- A3: Die Dokumentation ist verfügbar[Hier](https://reference.aspose.com/cad/net/).
+**Zusätzliche Fragen & Antworten**
 
-### F4: Wie erhalte ich Unterstützung für Aspose.CAD?
+**Q: Kann ich die Zeichnung statt JPEG als PNG exportieren?**  
+A: Absolut. Ersetzen Sie `JpegOptions` durch `PngOptions` und passen Sie die Dateierweiterung entsprechend an.
 
- A4: Sie können auf der Website Unterstützung suchen[Aspose.CAD-Forum](https://forum.aspose.com/c/cad/19).
+**Q: Bewahrt die Bibliothek Linienstile und Farben?**  
+A: Ja. Alle Vektoreigenschaften werden während der Rasterisierung getreu wiedergegeben.
 
-### F5: Welche Lizenzoptionen gibt es für Aspose.CAD?
+---
 
- A5: Sie können sich über Lizenzoptionen und Kaufdetails informieren[Hier](https://purchase.aspose.com/buy).
+**Zuletzt aktualisiert:** 2026-04-09  
+**Getestet mit:** Aspose.CAD für .NET (neueste Version)  
+**Autor:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

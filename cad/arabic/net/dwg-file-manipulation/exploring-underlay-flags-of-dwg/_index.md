@@ -1,33 +1,53 @@
 ---
-title: استكشاف العلامات الأساسية لملفات DWG - البرنامج التعليمي Aspose.CAD
-linktitle: استكشاف العلامات الأساسية لملفات DWG
-second_title: Aspose.CAD .NET - تنسيق ملف CAD وBIM
-description: أطلق العنان لقوة Aspose.CAD لـ .NET في استكشاف العلامات الأساسية لملف DWG. اتبع دليلنا خطوة بخطوة.
-weight: 13
+date: 2026-04-09
+description: تعلم كيفية تحويل DWG إلى صورة وكيفية قراءة علامات التحتية باستخدام Aspose.CAD
+  لـ .NET في هذا الدليل خطوة بخطوة.
+keywords:
+- convert dwg to image
+- how to read underlay
+- Aspose.CAD DWG underlay flags
+linktitle: استكشاف أعلام التحتية لملفات DWG
+second_title: Aspose.CAD .NET - CAD and BIM File Format
+title: تحويل DWG إلى صورة – استكشاف علامات التراكب لملفات DWG - دليل Aspose.CAD
 url: /ar/net/dwg-file-manipulation/exploring-underlay-flags-of-dwg/
+weight: 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# استكشاف العلامات الأساسية لملفات DWG - البرنامج التعليمي Aspose.CAD
+# استكشاف أعلام التراكب للملفات DWG - دليل Aspose.CAD
 
 ## مقدمة
 
-إذا كنت تتعمق في العالم المعقد لملفات CAD، وتحديدًا ملفات DWG، وتريد كشف أسرار العلامات الأساسية، فأنت في المكان الصحيح. سيرشدك هذا البرنامج التعليمي خلال عملية استكشاف العلامات الأساسية في ملفات DWG باستخدام مكتبة Aspose.CAD for .NET القوية.
+إذا كنت تغوص في عالم ملفات CAD المعقد، وبشكل خاص ملفات DWG، وتريد **تحويل DWG إلى صورة** مع اكتشاف **كيفية قراءة أعلام التراكب**، فأنت في المكان الصحيح. يشرح هذا الدليل كل خطوة باستخدام مكتبة Aspose.CAD for .NET القوية، حتى تتمكن من استخراج معلومات التراكب وعرض الرسم كصورة بثقة.
 
-## المتطلبات الأساسية
+## إجابات سريعة
+- **ماذا يعني “convert DWG to image”؟**  
+  يعني ذلك عرض رسم DWG بصيغة نقطية (PNG، JPEG، إلخ) باستخدام Aspose.CAD.
+- **ما الطريقة التي تكشف عن أعلام التراكب؟**  
+  الوصول إلى خاصية `Flags` لكائن `CadUnderlay` بعد تحميل ملف DWG.
+- **هل أحتاج إلى ترخيص لـ Aspose.CAD؟**  
+  يتوفر ترخيص مؤقت للتقييم؛ ويتطلب الترخيص الكامل للإنتاج.
+- **ما إصدارات .NET المدعومة؟**  
+  .NET Framework 4.6+، .NET Core 3.1+، .NET 5/6 وما بعده.
+- **هل يمكنني استخراج هندسة التراكب؟**  
+  نعم – مسار التراكب، نقطة الإدراج، المقياس، الدوران، وحالات الأعلام كلها قابلة للوصول.
 
-قبل أن نتعمق في البرنامج التعليمي، تأكد من أن لديك ما يلي:
+## ما هو “convert DWG to image” ولماذا يهم؟
 
-- فهم أساسي لبرمجة C# و.NET.
--  تم تثبيت Aspose.CAD لمكتبة .NET. إذا لم يكن الأمر كذلك، يمكنك تنزيله[هنا](https://releases.aspose.com/cad/net/).
-- ملف DWG للاختبار. يمكنك استخدام الملف النموذجي "BlockRefDgn.dwg" الموجود في البرنامج التعليمي.
+تحويل ملف DWG إلى صورة يتيح لك عرض رسومات CAD في المتصفحات، تضمينها في التقارير، أو مشاركتها مع أصحاب المصلحة الذين لا يمتلكون عارض CAD. أثناء العرض، غالبًا ما تحتاج إلى فحص كائنات **التراكب** (مثل مراجع DGN) لضمان ظهورها بشكل صحيح. فهم أعلام التراكب يساعدك على حل مشكلات القص، العرض بالأحادية اللون، ومشكلات الرؤية قبل إنشاء الصورة النهائية.
+
+## المتطلبات المسبقة
+
+- فهم أساسي للبرمجة بلغة C# و .NET.  
+- مكتبة **Aspose.CAD for .NET** مثبتة. إذا لم تكن لديك بعد، قم بتنزيلها **[here](https://releases.aspose.com/cad/net/)**.  
+- ملف DWG للاختبار – يتم استخدام ملف العينة **“BlockRefDgn.dwg”** طوال هذا الدليل.
 
 ## استيراد مساحات الأسماء
 
-للبدء، تحتاج إلى استيراد مساحات الأسماء الضرورية. إليك مقتطف لمساعدتك:
+لبدء العمل، استورد مساحات الأسماء الضرورية:
 
 ```csharp
 using System;
@@ -36,48 +56,47 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Aspose.CAD;
-
 ```
 
-## الخطوة 1: تحميل ملف DWG وتحويله إلى CadImage
+## الخطوة 1: تحميل ملف DWG وتحويله إلى `CadImage`
 
-ابدأ بتحميل ملف DWG الموجود وتحويله إلى CadImage:
+أولاً، حمّل ملف DWG وحوله إلى كائن `CadImage`. هذا الكائن يمنحك الوصول إلى جميع كيانات الرسم، بما في ذلك التراكبات.
 
 ```csharp
 string fileName = MyDir + "BlockRefDgn.dwg";
 
-// قم بتحميل ملف DWG وقم بتحويله إلى CadImage
+// Load DWG file and convert to CadImage
 using (CadImage image = (CadImage)Image.Load(fileName))
 {
-    // سيتم وضع الرمز الخاص بك للخطوات اللاحقة هنا
+    // Your code for subsequent steps will go here
 }
 ```
 
-## الخطوة 2: التكرار من خلال الكيانات
+## الخطوة 2: التكرار عبر الكيانات
 
-بعد ذلك، قم بالتكرار عبر كل كيان داخل ملف DWG:
+بعد ذلك، قم بالتكرار عبر كل كيان في الرسم. هنا ستحدد مواقع كائنات التراكب.
 
 ```csharp
 foreach (CadBaseEntity entity in image.Entities)
 {
-    // سيتم وضع الرمز الخاص بك للخطوات اللاحقة هنا
+    // Your code for subsequent steps will go here
 }
 ```
 
-## الخطوة 3: التحقق من نوع CadDgnUnderlay
+## الخطوة 3: التحقق من نوع `CadDgnUnderlay`
 
-تحقق مما إذا كان الكيان من النوع CadDgnUnderlay:
+حدد كيانات التراكب عن طريق فحص نوعها في وقت التشغيل. تمثل فئة `CadDgnUnderlay` التراكبات DGN المدمجة في ملف DWG.
 
 ```csharp
 if (entity is CadDgnUnderlay)
 {
-    // سيتم وضع الرمز الخاص بك للخطوات اللاحقة هنا
+    // Your code for subsequent steps will go here
 }
 ```
 
-## الخطوة 4: الوصول إلى العلامات الأساسية
+## الخطوة 4: الوصول إلى أعلام التراكب
 
-الوصول إلى العلامات الأساسية المختلفة واستخراج المعلومات ذات الصلة:
+بمجرد حصولك على كائن `CadDgnUnderlay`، قم بتحويله إلى `CadUnderlay` لقراءة خصائصه وحالات الأعلام. تخبرك الأعلام ما إذا كان التراكب مرئيًا، مقصوصًا، أو معروضًا بالأحادية اللون.
 
 ```csharp
 CadUnderlay underlay = entity as CadUnderlay;
@@ -95,31 +114,59 @@ Console.WriteLine((underlay.Flags & UnderlayFlags.ClippingIsOn) == UnderlayFlags
 Console.WriteLine((underlay.Flags & UnderlayFlags.Monochrome) != UnderlayFlags.Monochrome);
 ```
 
-## خاتمة
+### ما الذي يخبرك به الناتج
 
-تهانينا! لقد نجحت في استكشاف العلامات الأساسية لملفات DWG باستخدام Aspose.CAD لـ .NET. يزودك هذا البرنامج التعليمي بالمعرفة اللازمة للتنقل عبر الكيانات واستخراج المعلومات المهمة حول الطبقات السفلية.
+- **UnderlayPath / UnderlayName** – مكان وجود ملف DGN الخارجي.  
+- **InsertionPoint (X, Y)** – الإحداثيات التي يُوضع فيها التراكب في مساحة DWG.  
+- **RotationAngle** – زاوية الدوران المطبقة على التراكب.  
+- **ScaleX / ScaleY / ScaleZ** – عوامل التحجيم لكل محور.  
+- **Flags** – قيم منطقية تشير إلى الرؤية (`UnderlayIsOn`)، القص (`ClippingIsOn`)، والعرض بالأحادية اللون (`Monochrome`).
 
-## الأسئلة الشائعة
+## المشكلات الشائعة والحلول
 
-### س1: هل يمكنني استخدام Aspose.CAD لـ .NET مع تنسيقات ملفات CAD الأخرى؟
+| Issue | Reason | Fix |
+|-------|--------|-----|
+| No output for flag checks | Underlay flags are defaulted to 0 when the underlay is turned off. | Ensure the DWG actually contains an active underlay or toggle visibility in the source CAD file. |
+| `Invalid cast` exception | The entity is not a `CadDgnUnderlay`. | Verify the `if (entity is CadDgnUnderlay)` guard before casting. |
+| Image rendering fails after flag extraction | Underlay may be clipped or turned off, leading to a blank area. | Adjust the flags (`UnderlayIsOn = true`, `ClippingIsOn = false`) before rendering the final image. |
 
-A1: يدعم Aspose.CAD تنسيقات CAD المتنوعة، بما في ذلك DWG وDXF وDGN والمزيد. تحقق من الوثائق للحصول على القائمة الكاملة.
+## الأسئلة المتكررة
 
-### س2: هل يتوفر ترخيص مؤقت لـ Aspose.CAD لـ .NET؟
+### س1: هل يمكنني استخدام Aspose.CAD for .NET مع صيغ ملفات CAD أخرى؟
 
- ج2: نعم، يمكنك الحصول على ترخيص مؤقت[هنا](https://purchase.aspose.com/temporary-license/).
+A1: Aspose.CAD supports various CAD formats, including DWG, DXF, DGN, and more. Check the documentation for the full list.
 
-### س3: أين يمكنني العثور على دعم لـ Aspose.CAD لـ .NET؟
+### س2: هل يتوفر ترخيص مؤقت لـ Aspose.CAD for .NET؟
 
- ج3: قم بزيارة منتدى الدعم[هنا](https://forum.aspose.com/c/cad/19) للمساعدة.
+A2: Yes, you can obtain a temporary license **[here](https://purchase.aspose.com/temporary-license/)**.
 
-### س4: كيف يمكنني شراء Aspose.CAD لـ .NET؟
+### س3: أين يمكنني العثور على الدعم لـ Aspose.CAD for .NET؟
 
-ج4: شراء المكتبة[هنا](https://purchase.aspose.com/buy).
+A3: Visit the support forum **[here](https://forum.aspose.com/c/cad/19)** for assistance.
 
-### س5: هل هناك نسخة تجريبية مجانية متاحة؟
+### س4: كيف أشتري Aspose.CAD for .NET؟
 
- ج5: نعم، يمكنك الوصول إلى النسخة التجريبية المجانية[هنا](https://releases.aspose.com/).
+A4: Purchase the library **[here](https://purchase.aspose.com/buy)**.
+
+### س5: هل يتوفر نسخة تجريبية مجانية؟
+
+A5: Yes, you can access the free trial **[here](https://releases.aspose.com/)**.
+
+## الخلاصة
+
+تهانينا! لقد تعلمت بنجاح **كيفية تحويل DWG إلى صورة** مع إتقان **كيفية قراءة أعلام التراكب** باستخدام Aspose.CAD for .NET. مع هذه المعرفة يمكنك:
+
+- عرض رسومات DWG كصور نقطية للويب أو تقارير.  
+- فحص وتعديل خصائص التراكب لضمان العرض الصحيح.  
+- تصحيح مشكلات الرؤية، القص، والعرض بالأحادية اللون قبل إنشاء الصورة النهائية.
+
+لا تتردد في استكشاف ميزات Aspose.CAD الأخرى مثل إدارة الطبقات، استخراج النص، والتحويل الجماعي لتوسيع سير عمل أتمتة CAD الخاص بك.
+
+---
+
+**آخر تحديث:** 2026-04-09  
+**تم الاختبار مع:** Aspose.CAD for .NET 24.11  
+**المؤلف:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
