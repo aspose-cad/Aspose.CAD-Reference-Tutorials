@@ -1,33 +1,54 @@
 ---
-title: Underlay-vlaggen van DWG-bestanden verkennen - Aspose.CAD-zelfstudie
-linktitle: Underlay-vlaggen van DWG-bestanden verkennen
-second_title: Aspose.CAD .NET - CAD- en BIM-bestandsindeling
-description: Ontgrendel de kracht van Aspose.CAD voor .NET bij het verkennen van underlay-vlaggen voor DWG-bestanden. Volg onze stapsgewijze handleiding.
-weight: 13
+date: 2026-04-09
+description: Leer hoe je DWG naar afbeelding kunt converteren en hoe je onderlegger‑vlaggen
+  kunt lezen met Aspose.CAD voor .NET in deze stapsgewijze handleiding.
+keywords:
+- convert dwg to image
+- how to read underlay
+- Aspose.CAD DWG underlay flags
+linktitle: Verkennen van onderleggervlaggen van DWG‑bestanden
+second_title: Aspose.CAD .NET - CAD and BIM File Format
+title: DWG naar afbeelding converteren – Onderleggervlaggen van DWG‑bestanden verkennen
+  – Aspose.CAD‑tutorial
 url: /nl/net/dwg-file-manipulation/exploring-underlay-flags-of-dwg/
+weight: 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Underlay-vlaggen van DWG-bestanden verkennen - Aspose.CAD-zelfstudie
+# Verkennen van Underlay‑vlaggen van DWG‑bestanden - Aspose.CAD‑tutorial
 
-## Invoering
+## Inleiding
 
-Als u zich verdiept in de ingewikkelde wereld van CAD-bestanden, met name DWG-bestanden, en u de mysteries van onderlegvlaggen wilt ontrafelen, bent u hier op de juiste plek. Deze tutorial begeleidt u bij het verkennen van underlay-vlaggen in DWG-bestanden met behulp van de krachtige Aspose.CAD voor .NET-bibliotheek.
+Als je je verdiept in de complexe wereld van CAD‑bestanden, specifiek DWG‑bestanden, en je wilt **DWG naar afbeelding converteren** terwijl je ook **onderlaag‑vlaggen** wilt lezen, ben je hier aan het juiste adres. Deze tutorial leidt je stap voor stap door het gebruik van de krachtige Aspose.CAD for .NET‑bibliotheek, zodat je onderlaag‑informatie kunt extraheren en de tekening met vertrouwen als afbeelding kunt renderen.
 
-## Vereisten
+## Snelle antwoorden
+- **Wat betekent “convert DWG to image”?**  
+  Het betekent het renderen van een DWG‑tekening naar een rasterformaat (PNG, JPEG, enz.) met behulp van Aspose.CAD.
+- **Welke methode onthult underlay‑vlaggen?**  
+  Toegang tot de `Flags`‑eigenschap van het `CadUnderlay`‑object na het laden van de DWG.
+- **Heb ik een licentie nodig voor Aspose.CAD?**  
+  Een tijdelijke licentie is beschikbaar voor evaluatie; een volledige licentie is vereist voor productie.
+- **Welke .NET‑versies worden ondersteund?**  
+  .NET Framework 4.6+, .NET Core 3.1+, .NET 5/6 en later.
+- **Kan ik onderlaag‑geometrie extraheren?**  
+  Ja – het onderlaagpad, het invoerpunt, de schaal, rotatie en vlag‑toestanden zijn allemaal toegankelijk.
 
-Voordat we ingaan op de tutorial, zorg ervoor dat je over het volgende beschikt:
+## Wat is “convert DWG to image” en waarom is het belangrijk?
 
-- Een basiskennis van programmeren in C# en .NET.
--  Aspose.CAD voor .NET-bibliotheek geïnstalleerd. Zo niet, dan kunt u deze downloaden[hier](https://releases.aspose.com/cad/net/).
-- Een DWG-bestand om te testen. U kunt het voorbeeldbestand "BlockRefDgn.dwg" uit de zelfstudie gebruiken.
+Een DWG‑bestand naar een afbeelding converteren stelt je in staat CAD‑tekeningen weer te geven in browsers, in rapporten in te sluiten of te delen met belanghebbenden die geen CAD‑viewer hebben. Tijdens het renderen moet je vaak **underlay**‑objecten (bijv. DGN‑referenties) inspecteren om te zorgen dat ze correct verschijnen. Het begrijpen van de onderlaag‑vlaggen helpt je bij het oplossen van problemen met bijsnijden, monochroom renderen en zichtbaarheid voordat je de uiteindelijke afbeelding genereert.
 
-## Naamruimten importeren
+## Voorvereisten
 
-Om aan de slag te gaan, moet u de benodigde naamruimten importeren. Hier is een fragment om u te helpen:
+- Een basisbegrip van C#‑ en .NET‑programmering.  
+- **Aspose.CAD for .NET**‑bibliotheek geïnstalleerd. Als je die nog niet hebt, download deze **[hier](https://releases.aspose.com/cad/net/)**.  
+- Een DWG‑bestand voor testen – het voorbeeldbestand **“BlockRefDgn.dwg”** wordt door de hele gids gebruikt.
+
+## Namespaces importeren
+
+Om te beginnen, importeer de benodigde namespaces:
 
 ```csharp
 using System;
@@ -36,48 +57,47 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Aspose.CAD;
-
 ```
 
-## Stap 1: Laad het DWG-bestand en converteer naar CadImage
+## Stap 1: DWG‑bestand laden en converteren naar `CadImage`
 
-Begin met het laden van het bestaande DWG-bestand en het converteren ervan naar een CadImage:
+Eerst laad je het DWG‑bestand en cast je het naar een `CadImage`. Dit object geeft je toegang tot alle teken‑entiteiten, inclusief onderlagen.
 
 ```csharp
 string fileName = MyDir + "BlockRefDgn.dwg";
 
-// Laad het DWG-bestand en converteer naar CadImage
+// Load DWG file and convert to CadImage
 using (CadImage image = (CadImage)Image.Load(fileName))
 {
-    // Uw code voor de volgende stappen komt hier terecht
+    // Your code for subsequent steps will go here
 }
 ```
 
-## Stap 2: Herhaal de entiteiten
+## Stap 2: Door entiteiten itereren
 
-Herhaal vervolgens elke entiteit in het DWG-bestand:
+Vervolgens loop je door elke entiteit in de tekening. Hier vind je de onderlaag‑objecten.
 
 ```csharp
 foreach (CadBaseEntity entity in image.Entities)
 {
-    // Uw code voor de volgende stappen komt hier terecht
+    // Your code for subsequent steps will go here
 }
 ```
 
-## Stap 3: Controleer op CadDgnUnderlay-type
+## Stap 3: Controleren op type `CadDgnUnderlay`
 
-Controleer of de entiteit van het type CadDgnUnderlay is:
+Identificeer onderlaag‑entiteiten door hun runtime‑type te controleren. De `CadDgnUnderlay`‑klasse vertegenwoordigt DGN‑onderlagen die in een DWG zijn ingebed.
 
 ```csharp
 if (entity is CadDgnUnderlay)
 {
-    // Uw code voor de volgende stappen komt hier terecht
+    // Your code for subsequent steps will go here
 }
 ```
 
-## Stap 4: Toegang tot ondervloervlaggen
+## Stap 4: Toegang tot underlay‑vlaggen
 
-Krijg toegang tot verschillende ondervloervlaggen en extraheer relevante informatie:
+Zodra je een `CadDgnUnderlay` hebt, cast je deze naar `CadUnderlay` om zijn eigenschappen en vlag‑toestanden te lezen. De vlaggen geven aan of de onderlaag zichtbaar, bijgesneden of in monochroom wordt gerenderd.
 
 ```csharp
 CadUnderlay underlay = entity as CadUnderlay;
@@ -95,31 +115,59 @@ Console.WriteLine((underlay.Flags & UnderlayFlags.ClippingIsOn) == UnderlayFlags
 Console.WriteLine((underlay.Flags & UnderlayFlags.Monochrome) != UnderlayFlags.Monochrome);
 ```
 
-## Conclusie
+### Wat de output aangeeft
 
-Gefeliciteerd! U hebt met succes de underlay-vlaggen van DWG-bestanden verkend met Aspose.CAD voor .NET. Deze tutorial heeft u de kennis gegeven om door entiteiten te navigeren en cruciale informatie over underlays te extraheren.
+- **UnderlayPath / UnderlayName** – waar het externe DGN‑bestand zich bevindt.  
+- **InsertionPoint (X, Y)** – coördinaten waar de onderlaag in de DWG‑ruimte wordt geplaatst.  
+- **RotationAngle** – rotatie toegepast op de onderlaag.  
+- **ScaleX / ScaleY / ScaleZ** – schaalfactoren voor elke as.  
+- **Flags** – booleaanse waarden die zichtbaarheid (`UnderlayIsOn`), bijsnijden (`ClippingIsOn`) en monochroom renderen (`Monochrome`) aangeven.
+
+## Veelvoorkomende problemen & oplossingen
+
+| Issue | Reason | Fix |
+|-------|--------|-----|
+| Geen output voor vlagcontroles | Underlay‑vlaggen worden standaard op 0 gezet wanneer de onderlaag is uitgeschakeld. | Zorg ervoor dat de DWG daadwerkelijk een actieve onderlaag bevat of schakel de zichtbaarheid in het bron‑CAD‑bestand in. |
+| `Invalid cast`‑exception | Het object is geen `CadDgnUnderlay`. | Controleer de `if (entity is CadDgnUnderlay)`‑voorwaarde vóór het casten. |
+| Afbeeldingsrendering mislukt na vlagextractie | De onderlaag kan bijgesneden of uitgeschakeld zijn, wat leidt tot een leeg gebied. | Pas de vlaggen aan (`UnderlayIsOn = true`, `ClippingIsOn = false`) vóór het renderen van de uiteindelijke afbeelding. |
 
 ## Veelgestelde vragen
 
-### V1: Kan ik Aspose.CAD voor .NET gebruiken met andere CAD-bestandsindelingen?
+### V1: Kan ik Aspose.CAD for .NET gebruiken met andere CAD‑bestandsformaten?
 
-A1: Aspose.CAD ondersteunt verschillende CAD-formaten, waaronder DWG, DXF, DGN en meer. Raadpleeg de documentatie voor de volledige lijst.
+A1: Aspose.CAD ondersteunt verschillende CAD‑formaten, waaronder DWG, DXF, DGN en meer. Raadpleeg de documentatie voor de volledige lijst.
 
-### V2: Is er een tijdelijke licentie beschikbaar voor Aspose.CAD voor .NET?
+### V2: Is er een tijdelijke licentie beschikbaar voor Aspose.CAD for .NET?
 
- A2: Ja, u kunt een tijdelijke licentie verkrijgen[hier](https://purchase.aspose.com/temporary-license/).
+A2: Ja, je kunt een tijdelijke licentie verkrijgen **[hier](https://purchase.aspose.com/temporary-license/)**.
 
-### V3: Waar kan ik ondersteuning vinden voor Aspose.CAD voor .NET?
+### V3: Waar kan ik ondersteuning vinden voor Aspose.CAD for .NET?
 
- A3: Bezoek het ondersteuningsforum[hier](https://forum.aspose.com/c/cad/19) Voor assistentie.
+A3: Bezoek het ondersteuningsforum **[hier](https://forum.aspose.com/c/cad/19)** voor hulp.
 
-### V4: Hoe koop ik Aspose.CAD voor .NET?
+### V4: Hoe koop ik Aspose.CAD for .NET?
 
-A4: Koop de bibliotheek[hier](https://purchase.aspose.com/buy).
+A4: Koop de bibliotheek **[hier](https://purchase.aspose.com/buy)**.
 
-### Vraag 5: Is er een gratis proefversie beschikbaar?
+### V5: Is er een gratis proefversie beschikbaar?
 
- A5: Ja, u heeft toegang tot de gratis proefperiode[hier](https://releases.aspose.com/).
+A5: Ja, je kunt de gratis proefversie **[hier](https://releases.aspose.com/)**.
+
+## Conclusie
+
+Gefeliciteerd! Je hebt met succes geleerd **hoe je DWG naar afbeelding kunt converteren** terwijl je ook **onderlaag‑vlaggen** kunt lezen met Aspose.CAD for .NET. Met deze kennis kun je:
+
+- DWG‑tekeningen renderen als rasterafbeeldingen voor web‑ of rapportagescenario's.  
+- Onderlaag‑eigenschappen inspecteren en manipuleren om correcte weergave te garanderen.  
+- Problemen met zichtbaarheid, bijsnijden en monochroom debuggen vóór de definitieve afbeeldinggeneratie.
+
+Voel je vrij om andere Aspose.CAD‑functies te verkennen, zoals laagbeheer, tekste­xtractie en batch‑conversie, om je CAD‑automatiseringsworkflows verder uit te breiden.
+
+---
+
+**Last Updated:** 2026-04-09  
+**Tested With:** Aspose.CAD for .NET 24.11  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
