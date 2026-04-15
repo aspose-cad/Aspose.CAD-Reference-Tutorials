@@ -106,28 +106,6 @@ Gefeliciteerd! Je hebt succesvol een CAD‑tekening geëxporteerd naar SVG met A
 
 In deze tutorial hebben we het naadloze proces verkend van het benutten van Aspose.CAD voor Java om **CAD te exporteren naar SVG**. Met de intuïtieve API en robuuste functies vereenvoudigt Aspose.CAD complexe taken en biedt het ontwikkelaars een veelzijdig hulpmiddel voor CAD‑manipulatie.
 
-## Veelgestelde vragen
-
-### Q1: Kan ik Aspose.CAD voor Java gebruiken met andere CAD‑formaten?
-
-A1: Ja, Aspose.CAD ondersteunt diverse CAD‑formaten, waaronder DWG, DXF, DWF en meer.
-
-### Q2: Is Aspose.CAD geschikt voor zowel beginners als ervaren ontwikkelaars?
-
-A2: Absoluut! Aspose.CAD biedt een gebruiksvriendelijke API, toegankelijk voor beginners, terwijl het geavanceerde functies biedt voor ervaren ontwikkelaars.
-
-### Q3: Waar kan ik extra ondersteuning of community‑discussies vinden?
-
-A3: Bezoek het [Aspose.CAD Forum](https://forum.aspose.com/c/cad/19) voor ondersteuning en discussies.
-
-### Q4: Is er een gratis proefversie beschikbaar?
-
-A4: Ja, je kunt Aspose.CAD uitproberen met een [gratis proefversie](https://releases.aspose.com/).
-
-### Q5: Hoe kan ik een licentie aanschaffen voor Aspose.CAD voor Java?
-
-A5: Je kunt een licentie kopen via de [aankooppagina](https://purchase.aspose.com/buy).
-
 ## Frequently Asked Questions
 
 **Q: Kan ik een DXF‑bestand naar SVG converteren met dezelfde code?**  
@@ -145,13 +123,6 @@ A: De Java‑bibliotheek is platform‑onafhankelijk en draait overal waar een c
 **Q: Welke versie van Aspose.CAD werd gebruikt in deze tutorial?**  
 A: Het voorbeeld is getest met Aspose.CAD voor Java 24.10.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Laatst bijgewerkt:** 2026-01-07  
@@ -159,3 +130,10 @@ A: Het voorbeeld is getest met Aspose.CAD voor Java 24.10.
 **Auteur:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

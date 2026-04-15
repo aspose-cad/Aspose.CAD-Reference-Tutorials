@@ -140,15 +140,15 @@ V: A dokumentáció elérhető [itt](https://reference.aspose.com/cad/java/).
 
 Most már tudja, hogyan **exportáljon CAD‑t PDF‑be**, különösen hogyan **konvertáljon DGN‑t PDF‑re**, és akár **DWG‑t PDF‑re** is az Aspose.CAD for Java segítségével. A fenti lépések követésével könnyedén integrálhat CAD‑PDF konverziót bármely Java‑alapú megoldásba, magas minőségű PDF‑eket biztosítva felhasználóinak anélkül, hogy további CAD szoftverre lenne szükség.
 
+---
+
+**Utoljára frissítve:** 2026-01-07  
+**Tesztelt verzió:** Aspose.CAD for Java 24.12  
+**Szerző:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Utoljára frissítve:** 2026-01-07  
-**Tesztelt verzió:** Aspose.CAD for Java 24.12  
-**Szerző:** Aspose

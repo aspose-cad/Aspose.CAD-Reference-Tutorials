@@ -105,29 +105,7 @@ image.save(dataDir + "meshes.svg");
 
 在本教程中，我们演示了如何利用 Aspose.CAD for Java **将 CAD 导出为 SVG** 的完整流程。凭借直观的 API 与强大的功能，Aspose.CAD 简化了复杂任务，为开发者提供了一个多功能的 CAD 操作工具。
 
-## 常见问答
-
-### Q1：我可以在 Java 中使用 Aspose.CAD 处理其他 CAD 格式吗？
-
-A1：可以，Aspose.CAD 支持多种 CAD 格式，包括 DWG、DXF、DWF 等。
-
-### Q2：Aspose.CAD 适合初学者和有经验的开发者吗？
-
-A2：完全适合！Aspose.CAD 提供友好的 API，初学者易上手，同时也为有经验的开发者提供高级功能。
-
-### Q3：在哪里可以找到更多支持或社区讨论？
-
-A3：访问 [Aspose.CAD Forum](https://forum.aspose.com/c/cad/19) 获取支持和讨论。
-
-### Q4：是否提供免费试用？
-
-A4：是的，您可以通过 [free trial](https://releases.aspose.com/) 体验 Aspose.CAD。
-
-### Q5：如何购买 Aspose.CAD for Java 的许可证？
-
-A5：请前往 [purchase page](https://purchase.aspose.com/buy) 进行购买。
-
-## Frequently Asked Questions
+## 常见问题解答
 
 **Q: 我可以使用相同的代码将 DXF 文件转换为 SVG 吗？**  
 A: 可以，只需将文件名改为 DXF 即可，API 能同时处理这两种格式。
@@ -144,13 +122,6 @@ A: Java 库平台无关，只要有兼容的 JVM 即可运行。
 **Q: 本教程使用的 Aspose.CAD 版本是什么？**  
 A: 示例在 Aspose.CAD for Java 24.10 版本下测试通过。
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **最后更新：** 2026-01-07  
@@ -158,3 +129,10 @@ A: 示例在 Aspose.CAD for Java 24.10 版本下测试通过。
 **作者：** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

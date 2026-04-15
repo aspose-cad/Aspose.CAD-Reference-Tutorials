@@ -98,19 +98,6 @@ Utforska steg‑för‑steg‑guiden för att exportera DGN‑filer till AutoCAD
 ### [Exportera DGN i AutoCAD‑format till rasterbildformat](./exporting-dgn-to-raster-image/)
 Lär dig hur du exporterar DGN‑filer till JPEG‑bilder i Java med Aspose.CAD. Denna steg‑för‑steg‑handledning guidar dig genom processen utan svårigheter.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
----
-
-**Senast uppdaterad:** 2026-01-07  
-**Testad med:** Aspose.CAD för Java 24.11  
-**Författare:** Aspose  
-
 ## Vanliga frågor
 
 **Q:** *Hur vet jag om min DGN‑fil är kompatibel med export dgn to dwg?*  
@@ -127,3 +114,16 @@ A: Använd `PdfOptions` för att bädda in metadata och behålla lagerinformatio
 
 **Q:** *Behöver jag en separat licens för varje utdataformat?*  
 A: En enda Aspose.CAD‑licens täcker alla stödda exportformat (DWG, PDF, raster).
+
+---
+
+**Senast uppdaterad:** 2026-01-07  
+**Testad med:** Aspose.CAD för Java 24.11  
+**Författare:** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

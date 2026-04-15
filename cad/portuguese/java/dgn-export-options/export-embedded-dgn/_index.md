@@ -140,15 +140,15 @@ R: A documentação está disponível [here](https://reference.aspose.com/cad/ja
 
 Agora você aprendeu como **exportar CAD para PDF**, especificamente como **converter DGN para PDF** e ainda **converter DWG para PDF** usando Aspose.CAD para Java. Seguindo os passos acima, você pode integrar a conversão perfeita de CAD‑para‑PDF em qualquer solução baseada em Java, entregando PDFs de alta qualidade aos seus usuários sem a necessidade de software CAD adicional.
 
+---
+
+**Última atualização:** 2026-01-07  
+**Testado com:** Aspose.CAD para Java 24.12  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Última atualização:** 2026-01-07  
-**Testado com:** Aspose.CAD para Java 24.12  
-**Autor:** Aspose

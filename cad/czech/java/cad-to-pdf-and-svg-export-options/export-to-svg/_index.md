@@ -108,28 +108,6 @@ V tomto tutoriálu jsme prozkoumali bezproblémový proces využití Aspose.CAD 
 
 ## Často kladené otázky
 
-### Q1: Mohu použít Aspose.CAD pro Java s jinými formáty CAD?
-
-A1: Ano, Aspose.CAD podporuje různé CAD formáty, včetně DWG, DXF, DWF a dalších.
-
-### Q2: Je Aspose.CAD vhodný jak pro začátečníky, tak pro zkušené vývojáře?
-
-A2: Rozhodně! Aspose.CAD nabízí uživatelsky přívětivé API, které je přístupné pro začátečníky, a zároveň poskytuje pokročilé funkce pro zkušené vývojáře.
-
-### Q3: Kde mohu najít další podporu nebo diskuse v komunitě?
-
-A3: Navštivte [Aspose.CAD Forum](https://forum.aspose.com/c/cad/19) pro podporu a diskuse.
-
-### Q4: Je k dispozici bezplatná zkušební verze?
-
-A4: Ano, můžete vyzkoušet Aspose.CAD pomocí [bezplatné zkušební verze](https://releases.aspose.com/).
-
-### Q5: Jak mohu zakoupit licenci pro Aspose.CAD pro Java?
-
-A5: Licenci můžete zakoupit na [stránce nákupu](https://purchase.aspose.com/buy).
-
-## Často kladené otázky
-
 **Q: Mohu převést soubor DXF na SVG pomocí stejného kódu?**  
 A: Ano, stačí nahradit název souboru souborem DXF; API zvládne oba formáty.
 
@@ -145,13 +123,6 @@ A: Java knihovna je platformně nezávislá a běží kdekoliv, kde je k dispozi
 **Q: Jaká verze Aspose.CAD byla použita v tomto tutoriálu?**  
 A: Příklad byl testován s Aspose.CAD pro Java 24.10.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Poslední aktualizace:** 2026-01-07  
@@ -159,3 +130,10 @@ A: Příklad byl testován s Aspose.CAD pro Java 24.10.
 **Autor:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

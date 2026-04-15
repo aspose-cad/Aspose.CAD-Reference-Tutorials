@@ -106,23 +106,6 @@ Herzlichen Glückwunsch! Sie haben erfolgreich eine CAD‑Zeichnung mit Aspose.C
 
 In diesem Tutorial haben wir den nahtlosen Prozess untersucht, mit dem Aspose.CAD für Java **CAD nach SVG exportiert** wird. Mit seiner intuitiven API und robusten Funktionen vereinfacht Aspose.CAD komplexe Aufgaben und bietet Entwicklern ein vielseitiges Werkzeug zur CAD‑Manipulation.
 
-## FAQ
-
-### Q1: Kann ich Aspose.CAD für Java mit anderen CAD‑Formaten verwenden?
-A1: Ja, Aspose.CAD unterstützt verschiedene CAD‑Formate, darunter DWG, DXF, DWF und weitere.
-
-### Q2: Ist Aspose.CAD sowohl für Anfänger als auch für erfahrene Entwickler geeignet?
-A2: Absolut! Aspose.CAD bietet eine benutzerfreundliche API, die für Anfänger zugänglich ist, und gleichzeitig fortgeschrittene Funktionen für erfahrene Entwickler bereitstellt.
-
-### Q3: Wo finde ich zusätzlichen Support oder Community‑Diskussionen?
-A3: Besuchen Sie das [Aspose.CAD Forum](https://forum.aspose.com/c/cad/19) für Support und Diskussionen.
-
-### Q4: Gibt es eine kostenlose Testversion?
-A4: Ja, Sie können Aspose.CAD mit einer [free trial](https://releases.aspose.com/) ausprobieren.
-
-### Q5: Wie kann ich eine Lizenz für Aspose.CAD für Java erwerben?
-A5: Sie können eine Lizenz über die [purchase page](https://purchase.aspose.com/buy) erwerben.
-
 ## Häufig gestellte Fragen
 
 **Q: Kann ich eine DXF‑Datei mit demselben Code nach SVG konvertieren?**  
@@ -140,15 +123,15 @@ A: Die Java‑Bibliothek ist plattformunabhängig und läuft überall dort, wo e
 **Q: Welche Version von Aspose.CAD wurde in diesem Tutorial verwendet?**  
 A: Das Beispiel wurde mit Aspose.CAD für Java 24.10 getestet.
 
+---
+
+**Zuletzt aktualisiert:** 2026-01-07  
+**Getestet mit:** Aspose.CAD für Java 24.10  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Zuletzt aktualisiert:** 2026-01-07  
-**Getestet mit:** Aspose.CAD für Java 24.10  
-**Autor:** Aspose

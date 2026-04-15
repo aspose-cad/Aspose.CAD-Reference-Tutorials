@@ -140,15 +140,15 @@ Nếu tệp nguồn của bạn là DWG thuần (không có DGN nhúng), bạn c
 
 Bạn đã học cách **xuất CAD sang PDF**, cụ thể là **chuyển đổi DGN sang PDF** và thậm chí **chuyển đổi DWG sang PDF** bằng Aspose.CAD cho Java. Bằng cách làm theo các bước trên, bạn có thể tích hợp chuyển đổi CAD‑to‑PDF liền mạch vào bất kỳ giải pháp dựa trên Java nào, cung cấp PDF chất lượng cao cho người dùng mà không cần phần mềm CAD bổ sung.
 
+---
+
+**Cập nhật lần cuối:** 2026-01-07  
+**Kiểm tra với:** Aspose.CAD cho Java 24.12  
+**Tác giả:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Cập nhật lần cuối:** 2026-01-07  
-**Kiểm tra với:** Aspose.CAD cho Java 24.12  
-**Tác giả:** Aspose

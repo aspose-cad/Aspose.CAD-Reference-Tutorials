@@ -138,15 +138,15 @@ objImage.save(dataDir + "BlockRefDgn.pdf", pdfOptions);
 
 لقد تعلمت الآن كيفية **export CAD to PDF**، وتحديدًا كيفية **convert DGN to PDF** وحتى **convert DWG to PDF** باستخدام Aspose.CAD for Java. باتباع الخطوات أعلاه، يمكنك دمج تحويل CAD إلى PDF بسلاسة في أي حل مبني على Java، وتقديم ملفات PDF عالية الجودة لمستخدميك دون الحاجة إلى برنامج CAD إضافي.
 
+---
+
+**آخر تحديث:** 2026-01-07  
+**تم الاختبار باستخدام:** Aspose.CAD for Java 24.12  
+**المؤلف:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**آخر تحديث:** 2026-01-07  
-**تم الاختبار باستخدام:** Aspose.CAD for Java 24.12  
-**المؤلف:** Aspose

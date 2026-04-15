@@ -106,23 +106,6 @@ Congratulations! You've successfully exported a CAD drawing to SVG using Aspose.
 
 In this tutorial, we've explored the seamless process of leveraging Aspose.CAD for Java to **export CAD to SVG**. With its intuitive API and robust features, Aspose.CAD simplifies complex tasks, providing developers with a versatile tool for CAD manipulation.
 
-## FAQ
-
-### P1: Czy mogę używać Aspose.CAD dla Javy z innymi formatami CAD?
-O1: Tak, Aspose.CAD obsługuje różne formaty CAD, w tym DWG, DXF, DWF i inne.
-
-### P2: Czy Aspose.CAD jest odpowiedni zarówno dla początkujących, jak i doświadczonych programistów?
-O2: Zdecydowanie! Aspose.CAD oferuje przyjazne dla użytkownika API, co czyni go dostępnym dla początkujących, a jednocześnie zapewnia zaawansowane funkcje dla doświadczonych programistów.
-
-### P3: Gdzie mogę znaleźć dodatkowe wsparcie lub dyskusje społecznościowe?
-O3: Odwiedź [forum Aspose.CAD](https://forum.aspose.com/c/cad/19), aby uzyskać wsparcie i uczestniczyć w dyskusjach.
-
-### P4: Czy dostępna jest darmowa wersja próbna?
-O4: Tak, możesz wypróbować Aspose.CAD korzystając z [darmowej wersji próbnej](https://releases.aspose.com/).
-
-### P5: Jak mogę zakupić licencję na Aspose.CAD dla Javy?
-O5: Licencję możesz kupić na [stronie zakupu](https://purchase.aspose.com/buy).
-
 ## Często zadawane pytania
 
 **P:** Czy mogę konwertować plik DXF na SVG używając tego samego kodu?  
@@ -140,15 +123,15 @@ O5: Licencję możesz kupić na [stronie zakupu](https://purchase.aspose.com/buy
 **P:** Jakiej wersji Aspose.CAD użyto w tym poradniku?  
 **O:** Przykład został przetestowany z Aspose.CAD dla Javy 24.10.
 
+---
+
+**Ostatnia aktualizacja:** 2026-01-07  
+**Testowano z:** Aspose.CAD dla Javy 24.10  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Ostatnia aktualizacja:** 2026-01-07  
-**Testowano z:** Aspose.CAD dla Javy 24.10  
-**Autor:** Aspose

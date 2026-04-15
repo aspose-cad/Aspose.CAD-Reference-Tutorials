@@ -106,28 +106,6 @@ Chúc mừng! Bạn đã xuất thành công một bản vẽ CAD sang SVG bằn
 
 Trong tutorial này, chúng ta đã khám phá quy trình liền mạch sử dụng Aspose.CAD cho Java để **export CAD to SVG**. Với API trực quan và các tính năng mạnh mẽ, Aspose.CAD đơn giản hoá các nhiệm vụ phức tạp, cung cấp cho các nhà phát triển một công cụ đa năng cho việc thao tác CAD.
 
-## FAQ's
-
-### Q1: Tôi có thể dùng Aspose.CAD cho Java với các định dạng CAD khác không?
-
-A1: Có, Aspose.CAD hỗ trợ nhiều định dạng CAD, bao gồm DWG, DXF, DWF và hơn thế nữa.
-
-### Q2: Aspose.CAD có phù hợp cho cả người mới bắt đầu và các nhà phát triển có kinh nghiệm không?
-
-A2: Chắc chắn! Aspose.CAD cung cấp một API thân thiện, dễ tiếp cận cho người mới, đồng thời cung cấp các tính năng nâng cao cho các nhà phát triển dày dặn kinh nghiệm.
-
-### Q3: Tôi có thể tìm hỗ trợ hoặc thảo luận cộng đồng ở đâu?
-
-A3: Truy cập [Aspose.CAD Forum](https://forum.aspose.com/c/cad/19) để được hỗ trợ và tham gia thảo luận.
-
-### Q4: Có bản dùng thử miễn phí không?
-
-A4: Có, bạn có thể khám phá Aspose.CAD với một [free trial](https://releases.aspose.com/).
-
-### Q5: Làm sao tôi mua giấy phép cho Aspose.CAD cho Java?
-
-A5: Bạn có thể mua giấy phép từ [purchase page](https://purchase.aspose.com/buy).
-
 ## Frequently Asked Questions
 
 **Q: Tôi có thể chuyển đổi tệp DXF sang SVG bằng cùng một đoạn mã không?**  
@@ -145,13 +123,6 @@ A: Thư viện Java không phụ thuộc vào nền tảng và chạy ở bất 
 **Q: Phiên bản Aspose.CAD nào được sử dụng trong tutorial này?**  
 A: Ví dụ đã được kiểm tra với Aspose.CAD cho Java 24.10.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Last Updated:** 2026-01-07  
@@ -159,3 +130,10 @@ A: Ví dụ đã được kiểm tra với Aspose.CAD cho Java 24.10.
 **Author:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

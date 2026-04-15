@@ -108,23 +108,6 @@ En este tutorial, hemos explorado el proceso fluido de aprovechar Aspose.CAD par
 
 ## Preguntas frecuentes
 
-### Q1: ¿Puedo usar Aspose.CAD para Java con otros formatos CAD?
-A1: Sí, Aspose.CAD soporta varios formatos CAD, incluidos DWG, DXF, DWF y más.
-
-### Q2: ¿Aspose.CAD es adecuado tanto para principiantes como para desarrolladores experimentados?
-A2: ¡Absolutamente! Aspose.CAD ofrece una API fácil de usar, lo que la hace accesible para principiantes, mientras que brinda funciones avanzadas para desarrolladores experimentados.
-
-### Q3: ¿Dónde puedo encontrar soporte adicional o discusiones de la comunidad?
-A3: Visita el [Aspose.CAD Forum](https://forum.aspose.com/c/cad/19) para soporte y discusiones.
-
-### Q4: ¿Hay una prueba gratuita disponible?
-A4: Sí, puedes explorar Aspose.CAD con una [free trial](https://releases.aspose.com/).
-
-### Q5: ¿Cómo puedo comprar una licencia para Aspose.CAD para Java?
-A5: Puedes comprar una licencia en la [purchase page](https://purchase.aspose.com/buy).
-
-## Preguntas frecuentes
-
 **Q: ¿Puedo convertir un archivo DXF a SVG usando el mismo código?**  
 A: Sí, simplemente reemplaza el nombre del archivo por uno DXF; la API maneja ambos formatos.
 
@@ -140,13 +123,6 @@ A: La biblioteca Java es independiente de la plataforma y se ejecuta donde haya 
 **Q: ¿Qué versión de Aspose.CAD se usó en este tutorial?**  
 A: El ejemplo se probó con Aspose.CAD para Java 24.10.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Last Updated:** 2026-01-07  
@@ -154,3 +130,10 @@ A: El ejemplo se probó con Aspose.CAD para Java 24.10.
 **Author:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

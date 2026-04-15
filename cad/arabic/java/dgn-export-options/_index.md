@@ -98,19 +98,6 @@ weight: 31
 ### [تصدير DGN بصيغة صورة نقطية](./exporting-dgn-to-raster-image/)
 تعلم كيفية تصدير ملفات DGN إلى صور JPEG في Java باستخدام Aspose.CAD. يرشدك هذا الدرس خطوة بخطوة عبر العملية بسهولة.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
----
-
-**آخر تحديث:** 2026-01-07  
-**تم الاختبار مع:** Aspose.CAD للـ Java 24.11  
-**المؤلف:** Aspose  
-
 ## الأسئلة المتكررة
 
 **س:** *كيف يمكنني معرفة ما إذا كان ملف DGN الخاص بي متوافقًا مع تصدير dgn إلى dwg؟*  
@@ -127,3 +114,16 @@ weight: 31
 
 **س:** *هل أحتاج إلى ترخيص منفصل لكل صيغة إخراج؟*  
 **ج:** ترخيص واحد من Aspose.CAD يغطي جميع صيغ التصدير المدعومة (DWG، PDF، النقطية).
+
+---
+
+**آخر تحديث:** 2026-01-07  
+**تم الاختبار مع:** Aspose.CAD للـ Java 24.11  
+**المؤلف:** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -104,28 +104,6 @@ Congratulations! You've successfully exported a CAD drawing to SVG using Aspose.
 
 In this tutorial, we've explored the seamless process of leveraging Aspose.CAD for Java to **export CAD to SVG**. With its intuitive API and robust features, Aspose.CAD simplifies complex tasks, providing developers with a versatile tool for CAD manipulation.
 
-## FAQ's
-
-### Q1: Can I use Aspose.CAD for Java with other CAD formats?
-
-A1: Yes, Aspose.CAD supports various CAD formats, including DWG, DXF, DWF, and more.
-
-### Q2: Is Aspose.CAD suitable for both beginners and experienced developers?
-
-A2: Absolutely! Aspose.CAD offers a user-friendly API, making it accessible for beginners, while providing advanced features for seasoned developers.
-
-### Q3: Where can I find additional support or community discussions?
-
-A3: Visit the [Aspose.CAD Forum](https://forum.aspose.com/c/cad/19) for support and discussions.
-
-### Q4: Is there a free trial available?
-
-A4: Yes, you can explore Aspose.CAD with a [free trial](https://releases.aspose.com/).
-
-### Q5: How can I purchase a license for Aspose.CAD for Java?
-
-A5: You can buy a license from the [purchase page](https://purchase.aspose.com/buy).
-
 ## Frequently Asked Questions
 
 **Q: Can I convert a DXF file to SVG using the same code?**  
@@ -143,13 +121,6 @@ A: The Java library is platform‑independent and runs wherever a compatible JVM
 **Q: What version of Aspose.CAD was used in this tutorial?**  
 A: The example was tested with Aspose.CAD for Java 24.10.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Last Updated:** 2026-01-07  
@@ -157,3 +128,10 @@ A: The example was tested with Aspose.CAD for Java 24.10.
 **Author:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

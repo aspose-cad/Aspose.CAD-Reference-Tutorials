@@ -141,15 +141,15 @@ C: Dokümantasyon [burada](https://reference.aspose.com/cad/java/) mevcuttur.
 
 Artık **CAD'yi PDF'ye dışa aktarmayı**, özellikle **DGN'yi PDF'ye dönüştürmeyi** ve **DWG'yi PDF'ye dönüştürmeyi** Aspose.CAD for Java kullanarak nasıl yapacağınızı öğrendiniz. Yukarıdaki adımları izleyerek, ek CAD yazılımına ihtiyaç duymadan yüksek kaliteli PDF'leri kullanıcılarınıza sunabilecek bir CAD‑to‑PDF dönüşümünü herhangi bir Java tabanlı çözüme entegre edebilirsiniz.
 
+---
+
+**Son Güncelleme:** 2026-01-07  
+**Test Edilen Versiyon:** Aspose.CAD for Java 24.12  
+**Yazar:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Son Güncelleme:** 2026-01-07  
-**Test Edilen Versiyon:** Aspose.CAD for Java 24.12  
-**Yazar:** Aspose

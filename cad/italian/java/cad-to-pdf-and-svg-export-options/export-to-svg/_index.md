@@ -106,23 +106,6 @@ Congratulazioni! Hai esportato con successo un disegno CAD in SVG usando Aspose.
 
 In questo tutorial, abbiamo esplorato il processo fluido di utilizzo di Aspose.CAD per Java per **export CAD to SVG**. Con la sua API intuitiva e le funzionalità robuste, Aspose.CAD semplifica compiti complessi, fornendo agli sviluppatori uno strumento versatile per la manipolazione CAD.
 
-## FAQ
-
-### Q1: Posso usare Aspose.CAD per Java con altri formati CAD?
-A1: Sì, Aspose.CAD supporta vari formati CAD, inclusi DWG, DXF, DWF e altri.
-
-### Q2: Aspose.CAD è adatto sia ai principianti che agli sviluppatori esperti?
-A2: Assolutamente! Aspose.CAD offre un'API user‑friendly, rendendola accessibile ai principianti, fornendo al contempo funzionalità avanzate per gli sviluppatori esperti.
-
-### Q3: Dove posso trovare supporto aggiuntivo o discussioni della community?
-A3: Visita il [Forum Aspose.CAD](https://forum.aspose.com/c/cad/19) per supporto e discussioni.
-
-### Q4: È disponibile una prova gratuita?
-A4: Sì, puoi esplorare Aspose.CAD con una [prova gratuita](https://releases.aspose.com/).
-
-### Q5: Come posso acquistare una licenza per Aspose.CAD per Java?
-A5: Puoi acquistare una licenza dalla [pagina di acquisto](https://purchase.aspose.com/buy).
-
 ## Domande frequenti
 
 **Q: Posso convertire un file DXF in SVG usando lo stesso codice?**  
@@ -140,15 +123,15 @@ A: La libreria Java è indipendente dalla piattaforma e funziona ovunque sia dis
 **Q: Quale versione di Aspose.CAD è stata usata in questo tutorial?**  
 A: L'esempio è stato testato con Aspose.CAD per Java 24.10.
 
+---
+
+**Ultimo aggiornamento:** 2026-01-07  
+**Testato con:** Aspose.CAD per Java 24.10  
+**Autore:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Ultimo aggiornamento:** 2026-01-07  
-**Testato con:** Aspose.CAD per Java 24.10  
-**Autore:** Aspose

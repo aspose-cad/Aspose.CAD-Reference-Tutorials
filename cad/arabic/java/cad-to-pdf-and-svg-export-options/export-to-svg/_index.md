@@ -128,30 +128,6 @@ image.save(dataDir + "meshes.svg");
 
 ج5: يمكنك شراء الترخيص من [صفحة الشراء](https://purchase.aspose.com/buy).
 
-## أسئلة شائعة
-
-**س: هل يمكنني تحويل ملف DXF إلى SVG باستخدام نفس الكود؟**  
-ج: نعم، ما عليك سوى استبدال اسم الملف بملف DXF؛ الـ API يتعامل مع كلا الصيغتين.
-
-**س: كيف أغير الإخراج إلى SVG بالألوان الكاملة؟**  
-ج: اضبط `options.setColorType(SvgColorMode.FullColor);` قبل الحفظ.
-
-**س: هل يمكن تضمين الخطوط في SVG المُنشأ؟**  
-ج: حاليًا يقوم Aspose.CAD بتحويل النص إلى أشكال؛ لا يلزم تضمين الخطوط.
-
-**س: هل تعمل المكتبة على Linux و macOS؟**  
-ج: مكتبة Java مستقلة عن النظام وتعمل أينما كان JVM متوافق متوفرًا.
-
-**س: أي نسخة من Aspose.CAD تم استخدامها في هذا البرنامج التعليمي؟**  
-ج: تم اختبار المثال مع Aspose.CAD للـ Java 24.10.
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **آخر تحديث:** 2026-01-07  
@@ -159,3 +135,10 @@ image.save(dataDir + "meshes.svg");
 **المؤلف:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -108,28 +108,6 @@ image.save(dataDir + "meshes.svg");
 
 ## Συχνές Ερωτήσεις
 
-### Q1: Μπορώ να χρησιμοποιήσω το Aspose.CAD για Java με άλλες μορφές CAD;
-
-A1: Ναι, το Aspose.CAD υποστηρίζει διάφορες μορφές CAD, συμπεριλαμβανομένων DWG, DXF, DWF και άλλων.
-
-### Q2: Είναι το Aspose.CAD κατάλληλο τόσο για αρχάριους όσο και για έμπειρους προγραμματιστές;
-
-A2: Απολύτως! Το Aspose.CAD προσφέρει ένα φιλικό προς το χρήστη API, καθιστώντας το προσιτό για αρχάριους, ενώ παρέχει προχωρημένες δυνατότητες για έμπειρους προγραμματιστές.
-
-### Q3: Πού μπορώ να βρω επιπλέον υποστήριξη ή συζητήσεις της κοινότητας;
-
-A3: Επισκεφθείτε το [Aspose.CAD Forum](https://forum.aspose.com/c/cad/19) για υποστήριξη και συζητήσεις.
-
-### Q4: Υπάρχει διαθέσιμη δωρεάν δοκιμή;
-
-A4: Ναι, μπορείτε να εξερευνήσετε το Aspose.CAD με μια [free trial](https://releases.aspose.com/).
-
-### Q5: Πώς μπορώ να αγοράσω άδεια για το Aspose.CAD για Java;
-
-A5: Μπορείτε να αγοράσετε άδεια από τη [purchase page](https://purchase.aspose.com/buy).
-
-## Συχνές Ερωτήσεις
-
 **Ε: Μπορώ να μετατρέψω ένα αρχείο DXF σε SVG χρησιμοποιώντας τον ίδιο κώδικα;**  
 Α: Ναι, απλώς αντικαταστήστε το όνομα του αρχείου με ένα αρχείο DXF· το API διαχειρίζεται και τις δύο μορφές.
 
@@ -145,13 +123,6 @@ A5: Μπορείτε να αγοράσετε άδεια από τη [purchase pa
 **Ε: Ποια έκδοση του Aspose.CAD χρησιμοποιήθηκε σε αυτό το tutorial;**  
 Α: Το παράδειγμα δοκιμάστηκε με Aspose.CAD για Java 24.10.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Τελευταία ενημέρωση:** 2026-01-07  
@@ -159,3 +130,10 @@ A5: Μπορείτε να αγοράσετε άδεια από τη [purchase pa
 **Συγγραφέας:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

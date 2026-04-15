@@ -38,13 +38,13 @@ weight: 12
 
 在此步驟中，我們將匯入必要的命名空間，以展開 Aspose.CAD 的旅程。請依照下列步驟操作：
 
-### Step 1: Open Your Java Project
+### 步驟 1：開啟您的 Java 項目
 在您選擇的 IDE 中開啟 Java 專案。
 
-### Step 2: Add Aspose.CAD Library
+### 步驟 2：新增 Aspose.CAD 庫
 將 Aspose.CAD 函式庫加入專案。您可以透過將 JAR 檔案加入專案的相依性來完成。
 
-### Step 3: Import Namespaces
+### 步驟 3：匯入命名空間
 在 Java 類別中匯入所需的命名空間：
 
 ```java
@@ -57,21 +57,21 @@ import com.aspose.cad.imageoptions.SvgColorMode;
 
 既然已完成前置作業，現在讓我們一步步執行 **export CAD to SVG**，使用 Aspose.CAD for Java。
 
-### Step 1: Specify the Resource Directory
+### 步驟 1：指定資源目錄
 定義資源目錄的路徑，即存放 CAD 圖面的資料夾：
 
 ```java
 String dataDir = "Your Document Directory" + "DWGDrawings/";
 ```
 
-### Step 2: Load the CAD Drawing
+### 步驟 2：載入 CAD 圖形
 使用 Aspose.CAD 函式庫載入 CAD 圖面：
 
 ```java
 Image image = Image.load(dataDir + "meshes.dwg");
 ```
 
-### Step 3: Configure SVG Export Options
+### 步驟 3：設定 SVG 匯出選項
 設定 SVG 匯出選項以自訂輸出內容。此處我們 **set SVG color mode** 為灰階，並指示匯出器將文字轉換為圖形：
 
 ```java
@@ -80,7 +80,7 @@ options.setColorType(SvgColorMode.Grayscale);
 options.setTextAsShapes(true);
 ```
 
-### Step 4: Save as SVG
+### 步驟 4：另存為 SVG
 將 CAD 圖面儲存為 SVG 檔案：
 
 ```java
@@ -105,29 +105,7 @@ image.save(dataDir + "meshes.svg");
 
 在本教學中，我們探討了使用 Aspose.CAD for Java **export CAD to SVG** 的完整流程。憑藉直觀的 API 與強大的功能，Aspose.CAD 讓複雜的 CAD 操作變得簡單，為開發者提供了多元且可靠的工具。
 
-## FAQ's
-
-### Q1: 我可以在 Java 中使用 Aspose.CAD 處理其他 CAD 格式嗎？
-
-A1: 可以，Aspose.CAD 支援多種 CAD 格式，包括 DWG、DXF、DWF 等。
-
-### Q2: Aspose.CAD 適合新手與有經驗的開發者嗎？
-
-A2: 絕對適合！Aspose.CAD 提供友善的 API，讓新手易於上手，同時也提供進階功能供資深開發者使用。
-
-### Q3: 我可以在哪裡取得更多支援或社群討論？
-
-A3: 前往 [Aspose.CAD Forum](https://forum.aspose.com/c/cad/19) 獲得支援與討論。
-
-### Q4: 有免費試用版嗎？
-
-A4: 有，您可以透過 [free trial](https://releases.aspose.com/) 進行體驗。
-
-### Q5: 如何購買 Aspose.CAD for Java 的授權？
-
-A5: 請至 [purchase page](https://purchase.aspose.com/buy) 購買授權。
-
-## Frequently Asked Questions
+## 常見問題解答
 
 **Q: 可以使用相同程式碼將 DXF 檔案轉換為 SVG 嗎？**  
 A: 可以，只要將檔名換成 DXF，即可由 API 處理兩種格式。
@@ -144,13 +122,6 @@ A: Java 函式庫與平台無關，只要有相容的 JVM 即可執行。
 **Q: 本教學使用的 Aspose.CAD 版本為何？**  
 A: 本範例測試於 Aspose.CAD for Java 24.10。
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Last Updated:** 2026-01-07  
@@ -158,3 +129,10 @@ A: 本範例測試於 Aspose.CAD for Java 24.10。
 **Author:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

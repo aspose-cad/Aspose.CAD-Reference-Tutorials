@@ -104,19 +104,6 @@ Aspose.CAD สำหรับ Java มอบพลังให้กับนั
 ### [การส่งออก DGN ในรูปแบบ AutoCAD ไปยังรูปแบบภาพ Raster](./exporting-dgn-to-raster-image/)
 เรียนรู้วิธีส่งออกไฟล์ DGN เป็นภาพ JPEG ใน Java ด้วย Aspose.CAD. บทแนะนำขั้นตอนต่อขั้นตอนนี้จะพาคุณผ่านกระบวนการอย่างง่ายดาย.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2026-01-07  
-**Tested With:** Aspose.CAD for Java 24.11  
-**Author:** Aspose  
-
 ## คำถามที่พบบ่อย
 
 **Q:** *ฉันจะรู้ได้อย่างไรว่าไฟล์ DGN ของฉันเข้ากันได้กับ export dgn to dwg?*  
@@ -133,3 +120,16 @@ A: ใช้ `PdfOptions` เพื่อฝังเมตาดาต้าแ
 
 **Q:** *ฉันต้องการไลเซนส์แยกสำหรับแต่ละรูปแบบการส่งออกหรือไม่?*  
 A: ไลเซนส์ Aspose.CAD เพียงหนึ่งใบครอบคลุมรูปแบบการส่งออกที่รองรับทั้งหมด (DWG, PDF, raster).
+
+---
+
+**Last Updated:** 2026-01-07  
+**Tested With:** Aspose.CAD for Java 24.11  
+**Author:** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
