@@ -1,8 +1,8 @@
 ---
-date: 2025-12-28
-description: Dowiedz się, jak odczytywać pliki DWG przy użyciu Aspose.CAD dla Javy
-  i bez wysiłku wyświetlać układy w plikach DWG. Zintegruj potężną funkcjonalność
-  CAD w swoich aplikacjach Java.
+date: 2026-02-28
+description: Poznaj sposób odczytywania plików DWG przy użyciu Aspose.CAD for Java
+  i łatwo wyświetlaj układy w plikach DWG. Zintegruj potężne funkcje CAD w swoich
+  aplikacjach Java.
 linktitle: List Layouts in DWG
 second_title: Aspose.CAD Java API
 title: Jak odczytać plik DWG i wyświetlić układy w DWG przy użyciu Aspose.CAD dla
@@ -11,40 +11,43 @@ url: /pl/java/cad-file-manipulation/list-layouts-in-dwg/
 weight: 12
 ---
 
-{{< blocks/products/pf/main-wrap-class >}}
+ placeholders unchanged.
+
+Let's produce final content.{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Jak odczytać pliki DWG i wyświetlić układy w DWG przy użyciu Aspose.CAD dla Java
+# Jak odczytać DWG i wyświetlić układy w DWG przy użyciu Aspose.CAD dla Javy
 
 ## Wprowadzenie
 
-Jeśli potrzebujesz **odczytywać pliki DWG** programowo i wyodrębniać informacje takie jak nazwy układów, Aspose.CAD dla Java ułatwia to zadanie. W tym samouczku krok po kroku pokażemy Ci **jak odczytać DWG** i wyświetlić wszystkie układy zawarte w pliku DWG (lub DXF). Po zakończeniu przewodnika będziesz mógł dodać tę funkcjonalność do dowolnej aplikacji Java pracującej z danymi CAD.
+Jeśli szukasz niezawodnego sposobu **jak odczytać dwg** programowo, Aspose.CAD dla Javy oferuje czyste, wieloplatformowe API, które pozwala wczytać rysunek i wyciągnąć dowolne potrzebne informacje — na przykład nazwy wszystkich układów znajdujących się w pliku. W tym samouczku krok po kroku pokażemy, **jak odczytać DWG** i wypisać każdy układ zawarty w pliku DWG (lub DXF), abyś mógł zintegrować tę funkcjonalność z dowolną aplikacją Java pracującą z danymi CAD.
 
 ## Szybkie odpowiedzi
-- **Jaka biblioteka jest wymagana?** Aspose.CAD for Java.
-- **Czy mogę odczytywać pliki DWG na dowolnym systemie operacyjnym?** Tak – Java jest wieloplatformowa.
-- **Czy potrzebuję licencji, aby uruchomić przykład?** Darmowa wersja próbna działa w celach ewaluacyjnych; licencja jest wymagana w produkcji.
-- **Jakie formaty CAD są obsługiwane?** DWG, DXF, DWF i inne.
+- **Jakiej biblioteki wymagana jest?** Aspose.CAD dla Javy.  
+- **Czy mogę odczytywać pliki DWG na dowolnym systemie operacyjnym?** Tak – Java jest wieloplatformowa, więc możesz **odczytywać dwg na linux** tak łatwo jak w systemie Windows.  
+- **Czy potrzebna jest licencja do uruchomienia przykładu?** Darmowa wersja próbna wystarczy do oceny; licencja jest wymagana w środowisku produkcyjnym.  
+- **Jakie formaty CAD są obsługiwane?** DWG, DXF, DWF i inne.  
 - **Czy kod jest kompatybilny z Java 8+?** Absolutnie.
 
-## Co oznacza „jak odczytać dwg” w Javie?
+## Co to jest „jak odczytać dwg” w Javie?
 
-Odczytanie pliku DWG oznacza załadowanie binarnych danych CAD do modelu obiektowego, który można przeszukiwać. Aspose.CAD ukrywa złożoną strukturę DWG za prostymi klasami .NET/Java, umożliwiając skupienie się na potrzebnych informacjach – w tym przypadku na nazwach układów.
+Odczyt pliku DWG oznacza wczytanie binarnych danych CAD do modelu obiektowego, który można przeszukiwać. Aspose.CAD ukrywa skomplikowaną strukturę DWG za prostymi klasami Java, pozwalając skupić się na potrzebnych informacjach – w tym przypadku na nazwach układów.
 
 ## Dlaczego wyświetlać układy w pliku DWG?
 
-Plik DWG może zawierać wiele układów (paper space, model space, niestandardowe arkusze). Znajomość nazw układów pozwala:
-- Generować raporty dla każdego układu.
-- Eksportować wybrane układy do obrazów lub PDF‑ów.
-- Automatyzować przetwarzanie wsadowe rysunków.
+DWG może zawierać wiele układów (papierowy, modelowy, własne arkusze). Znajomość nazw układów umożliwia:
+
+- Generowanie raportów per układ.  
+- Eksport wybranych układów do obrazów lub PDF‑ów.  
+- Automatyzację przetwarzania wsadowego rysunków.  
 
 ## Wymagania wstępne
 
-Zanim przejdziemy do kodu, upewnij się, że masz następujące elementy:
+Zanim przejdziesz do kodu, upewnij się, że masz następujące elementy:
 
-- **Aspose.CAD for Java Library** – pobierz najnowszy plik JAR ze [strony internetowej](https://releases.aspose.com/cad/java/).
-- **Java Development Environment** – JDK 8 lub wyższy oraz wybrane IDE lub narzędzie do budowania.
+- **Aspose.CAD dla Javy Library** – pobierz najnowszy JAR z [website](https://releases.aspose.com/cad/java/).  
+- **Java Development Environment** – JDK 8 lub wyższy oraz IDE lub narzędzie do budowania według własnego wyboru.
 
 ## Importowanie przestrzeni nazw
 
@@ -60,15 +63,13 @@ import com.aspose.cad.fileformats.cad.cadobjects.CadLayout;
 
 ## Krok 1: Skonfiguruj katalog dokumentów
 
-Zastąp **„Your Document Directory”** bezwzględną ścieżką do katalogu, w którym znajdują się Twoje pliki CAD.
-
 ```java
 String dataDir = "Your Document Directory" + "CADConversion/";
 ```
 
-## Krok 2: Załaduj plik DWG
+Zastąp **“Your Document Directory”** absolutną ścieżką, w której znajdują się Twoje pliki CAD. W systemie Linux możesz użyć ścieżki takiej jak `/home/user/cad/`.
 
-Metoda `Image.load` automatycznie wykrywa format pliku, więc możesz używać tego samego kodu zarówno dla plików **DWG**, jak i **DXF**.
+## Krok 2: Załaduj plik DWG
 
 ```java
 String sourceFilePath = dataDir + "conic_pyramid.dxf";
@@ -76,9 +77,9 @@ Image image = Image.load(sourceFilePath);
 CadImage cadImage = (CadImage)image;
 ```
 
-## Krok 3: Pobierz układy i wypisz ich nazwy
+Metoda `Image.load` automatycznie wykrywa format pliku, więc ten sam kod działa zarówno dla **DWG**, jak i **DXF**.
 
-Pętla iteruje po każdym obiekcie układu i wypisuje jego nazwę w konsoli – prosty sposób, aby zweryfikować, że udało Ci się **odczytać DWG** i wyodrębnić informacje o układach.
+## Krok 3: Pobierz układy i wypisz nazwy
 
 ```java
 CadLayoutDictionary layouts = cadImage.getLayouts();
@@ -88,53 +89,53 @@ for (CadLayout layout : layouts.getValues())
 }
 ```
 
-## Typowe pułapki i wskazówki
+Pętla iteruje po każdym obiekcie układu i wypisuje jego nazwę w konsoli – prosty sposób, aby zweryfikować, że **odczytałeś DWG** i wyodrębniłeś informacje o układach.
 
-- **Nieprawidłowa ścieżka do pliku** – Sprawdź, czy `dataDir` kończy się separatorem (`/` lub `\\`) odpowiednim dla Twojego systemu operacyjnego.
-- **Nieobsługiwana wersja DWG** – Upewnij się, że używasz najnowszej wersji Aspose.CAD; starsze wersje DWG mogą wymagać konwersji.
-- **Zużycie pamięci** – Duże rysunki mogą zajmować znaczną ilość pamięci. Zwolnij obiekt `CadImage` po zakończeniu: `cadImage.dispose();`.
+## Jak konwertować DWG do PDF w systemie Linux
 
-## Podsumowanie
+Jeśli później będziesz potrzebował przekształcić konkretny układ w PDF, Aspose.CAD może wyrenderować układ do obrazu, a następnie możesz użyć Aspose.PDF (lub dowolnej innej biblioteki PDF) do osadzenia tego obrazu w dokumencie PDF. Kod konwersji jest identyczny na Linux, ponieważ API jest czystą Javą.
 
-Gratulacje! Teraz wiesz **jak odczytać DWG** i wyświetlić jego układy przy użyciu Aspose.CAD dla Java. Ta technika stanowi podstawę bardziej zaawansowanej automatyzacji CAD, takiej jak eksport wybranych układów do obrazów lub PDF‑ów. Aby zgłębić temat, zapoznaj się z oficjalną [dokumentacją](https://reference.aspose.com/cad/java/).
+## Częste pułapki i wskazówki
 
-## FAQ
+- **Incorrect file path** – Double‑check that `dataDir` ends with a separator (`/` or `\\`) appropriate for your OS.  
+- **Unsupported DWG version** – Ensure you are using a recent Aspose.CAD version; older DWG versions may need conversion.  
+- **Memory usage** – Large drawings can consume significant memory. Dispose of the `CadImage` object when done: `cadImage.dispose();`.  
+- **Running on headless servers** – No UI components are required, so the code works on Linux servers without a graphical environment.
 
-### Q1: Czy mogę używać Aspose.CAD dla Java z innymi formatami plików CAD?
+## Zakończenie
 
+Gratulacje! Teraz wiesz, **jak odczytać dwg** i wyświetlić jego układy przy użyciu Aspose.CAD dla Javy. Ta technika stanowi podstawę dla bardziej zaawansowanej automatyzacji CAD, takiej jak eksport wybranych układów do obrazów, PDF‑ów lub nawet konwersja DWG do PDF na Linux. Aby zgłębić temat, odwołaj się do oficjalnej [documentation](https://reference.aspose.com/cad/java/).
+
+## Najczęściej zadawane pytania
+
+**Q1: Czy mogę używać Aspose.CAD dla Javy z innymi formatami plików CAD?**  
 A1: Tak, Aspose.CAD obsługuje różne formaty CAD, w tym DWG, DXF, DWF i inne.
 
-### Q2: Czy dostępna jest darmowa wersja próbna Aspose.CAD dla Java?
+**Q2: Czy dostępna jest darmowa wersja próbna Aspose.CAD dla Javy?**  
+A2: Tak, możesz uzyskać darmową wersję próbną z [here](https://releases.aspose.com/).
 
-A2: Tak, możesz uzyskać darmową wersję próbną [tutaj](https://releases.aspose.com/).
+**Q3: Gdzie mogę uzyskać wsparcie społeczności dla Aspose.CAD dla Javy?**  
+A3: Odwiedź [Aspose.CAD forum](https://forum.aspose.com/c/cad/19) w celu uzyskania wsparcia społeczności.
 
-### Q3: Gdzie mogę uzyskać wsparcie społeczności dla Aspose.CAD dla Java?
+**Q4: Jak mogę zakupić licencję na Aspose.CAD dla Javy?**  
+A4: Licencję możesz kupić na [purchase page](https://purchase.aspose.com/buy).
 
-A3: Odwiedź [forum Aspose.CAD](https://forum.aspose.com/c/cad/19) aby uzyskać wsparcie społeczności.
-
-### Q4: Jak mogę zakupić licencję na Aspose.CAD dla Java?
-
-A4: Licencję możesz kupić na [stronie zakupu](https://purchase.aspose.com/buy).
-
-### Q5: Czy mogę używać tymczasowej licencji do celów testowych?
-
-A5: Tak, tymczasową licencję możesz uzyskać [tutaj](https://purchase.aspose.com/temporary-license/).
+**Q5: Czy mogę użyć tymczasowej licencji do celów testowych?**  
+A5: Tak, tymczasową licencję możesz uzyskać [here](https://purchase.aspose.com/temporary-license/).
 
 **Dodatkowe pytania**
 
-**Q: Czy to podejście działa przy odczytywaniu plików DWG na Linuksie?**  
+**Q: Czy to podejście działa przy odczytywaniu plików DWG na Linux?**  
 A: Absolutnie. Ponieważ rozwiązanie jest czystą Javą, działa na każdym systemie operacyjnym z kompatybilnym JDK.
 
-**Q: Czy mogę odczytać plik DWG bez ładowania całego rysunku do pamięci?**  
-A: Aspose.CAD ładuje rysunek do pamięci; w przypadku bardzo dużych plików rozważ przetwarzanie ich w osobnych wątkach lub użycie API strumieniowego, jeśli będzie dostępne w przyszłych wersjach.
+**Q: Czy mogę odczytać plik DWG bez wczytywania całego rysunku do pamięci?**  
+A: Aspose.CAD wczytuje rysunek do pamięci; w przypadku bardzo dużych plików rozważ przetwarzanie ich w osobnych wątkach lub użycie API strumieniowego, jeśli będzie dostępne w przyszłych wersjach.
 
-**Q: Czy istnieje sposób na filtrowanie układów po nazwie?**  
-A: Tak – po pobraniu `CadLayoutDictionary` możesz sprawdzić `layout.getLayoutName().equalsIgnoreCase("MyLayout")` przed przetworzeniem.
+**Q: Czy istnieje sposób filtrowania układów po nazwie?**  
+A: Tak – po pobraniu `CadLayoutDictionary` możesz sprawdzić `layout.getLayoutName().equalsIgnoreCase("MyLayout")` przed dalszym przetwarzaniem.
 
----
-
-**Ostatnia aktualizacja:** 2025-12-28  
-**Testowano z:** Aspose.CAD for Java 24.11  
+**Ostatnia aktualizacja:** 2026-02-28  
+**Testowano z:** Aspose.CAD dla Javy 24.11  
 **Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

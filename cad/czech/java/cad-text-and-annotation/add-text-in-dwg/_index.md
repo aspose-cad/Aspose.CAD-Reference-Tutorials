@@ -1,5 +1,5 @@
 ---
-date: 2025-12-28
+date: 2026-02-28
 description: Naučte se, jak vytvořit PDF z DWG, uložit DWG jako PDF a přidat text
   do výkresů DWG pomocí Aspose.CAD pro Javu – krok za krokem průvodce.
 linktitle: Add Text in DWG
@@ -9,34 +9,50 @@ url: /cs/java/cad-text-and-annotation/add-text-in-dwg/
 weight: 10
 ---
 
+.CAD for Java". Similarly other links.
+
+Also bullet points: "Can I convert DWG to PDF in Java?" translate.
+
+Make sure not to translate code block placeholders.
+
+Proceed.
+
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Vytvoření PDF ze souboru DWG a přidání textu pomocí Aspose.CAD pro Java
+# Vytvoření PDF z DWG a přidání textu pomocí Aspose.CAD pro Java
 
 ## Úvod
 
-Pokud potřebujete **vytvořit PDF ze souboru DWG** a zároveň vložit vlastní text, jste na správném místě. V tomto tutoriálu vás provedeme celým procesem – načtením výkresu DWG, přidáním textové anotace a nakonec uložením výsledku jako PDF pomocí Aspose.CAD pro Java. Na konci pochopíte, jak **uložit DWG jako PDF**, přizpůsobit výšku textu a dokonce přidat základní anotace.
+Pokud potřebujete **vytvořit PDF z DWG** souborů a zároveň vložit vlastní text, jste na správném místě. V tomto tutoriálu projdeme celý proces – načtení DWG výkresu, přidání textové anotace a nakonec uložení výsledku jako PDF pomocí Aspose.CAD pro Java. Na konci pochopíte, jak **uložit DWG jako PDF**, přizpůsobit výšku textu a dokonce přidat základní anotace.
 
 ## Rychlé odpovědi
 - **Mohu v Javě převést DWG na PDF?** Ano, Aspose.CAD pro Java poskytuje jednoduché API.  
-- **Potřebuji licenci pro produkční použití?** Je vyžadována komerční licence; je k dispozici bezplatná zkušební verze.  
+- **Potřebuji licenci pro produkční použití?** Vyžaduje se komerční licence; k dispozici je bezplatná zkušební verze.  
 - **Která metoda přidává text do DWG?** Použijte objekt `CadText` a přidejte jej do modelového prostoru.  
 - **Mohu nastavit výšku textu?** Samozřejmě – použijte `setTextHeight()` na instanci `CadText`.  
-- **Je výstup vektorový?** Když jsou nastaveny možnosti rasterizace na `UseObjectColor`, PDF si zachová vysoce kvalitní vektorová data.
+- **Je výstup vektorový?** Když jsou rasterizační možnosti nastaveny na `UseObjectColor`, PDF zachová vysoce kvalitní vektorová data.
 
-## Požadavky
+## Co znamená „vytvořit PDF z DWG“?
+Vytvoření PDF z DWG výkresu znamená převod nativního CAD formátu do široce podporovaného, pouze ke čtení určeného dokumentu při zachování původné geometrie. Tento převod je nezbytný, když potřebujete sdílet návrhy se zainteresovanými stranami, které nemají CAD software.
 
-Než se ponoříte do tutoriálu, ujistěte se, že máte následující požadavky připravené:
+## Proč použít Aspose.CAD pro Java k převodu DWG na PDF?
+Aspose.CAD nabízí čistě Java řešení, které nevyžaduje žádnou externí instalaci CAD. Podporuje **převod DWG na PDF**, zachovává vektorovou věrnost a umožňuje programově přidávat anotace, jako jsou text, rozměry nebo vlastní grafika před samotným převodem.
 
-- Aspose.CAD pro Java knihovna: Stáhněte a nainstalujte knihovnu ze stránky [Aspose.CAD for Java page](https://releases.aspose.com/cad/java/).
-- Java Development Kit (JDK): Ujistěte se, že máte na svém systému nainstalovaný nejnovější JDK.
-- DWG výkres: Připravte soubor DWG výkresu, do kterého chcete přidat text.
+## Předpoklady
 
-## Import jmenných prostorů
+Před zahájením tutoriálu se ujistěte, že máte splněny následující předpoklady:
 
-Ve vašem Java kódu importujte potřebné jmenné prostory pro Aspose.CAD:
+- Knihovna Aspose.CAD pro Java: Stáhněte a nainstalujte knihovnu ze [stránky Aspose.CAD pro Java](https://releases.aspose.com/cad/java/).
+
+- Java Development Kit (JDK): Ujistěte se, že máte nainstalovanou nejnovější verzi JDK.
+
+- DWG výkres: Připravte DWG soubor, do kterého chcete přidat text.
+
+## Import Namespaces
+
+Ve svém Java kódu importujte potřebné jmenné prostory pro Aspose.CAD:
 
 ```java
 import com.aspose.cad.Image;
@@ -49,9 +65,9 @@ import com.aspose.cad.imageoptions.CadRasterizationOptions;
 import com.aspose.cad.imageoptions.PdfOptions;
 ```
 
-Nyní rozdělíme poskytnutý úryvek kódu do několika kroků:
+Nyní rozdělíme ukázkový kód do několika kroků:
 
-## Krok 1: Nastavení adresáře dokumentu a cesty k souboru DWG
+## Krok 1: Nastavení adresáře dokumentu a cesty k DWG souboru
 
 ```java
 String dataDir = "Your Document Directory" + "DWGDrawings/";
@@ -85,7 +101,7 @@ CadImage cadImage = ((CadImage)(image));
 cadImage.getBlockEntities().get_Item("*Model_Space").addEntity(cadText);
 ```
 
-## Krok 5: Nastavení PDF možností (příprava na vytvoření PDF ze DWG)
+## Krok 5: Nastavení PDF možností (příprava na vytvoření PDF z DWG)
 
 ```java
 PdfOptions pdfOptions = new PdfOptions();
@@ -108,45 +124,40 @@ cadRasterizationOptions.setLayouts(new String[] {"Model"});
 image.save(dataDir + "SimpleEntites_generated.dwg.pdf", pdfOptions);
 ```
 
-Po provedení těchto kroků budete schopni **vytvořit PDF ze DWG**, přidat vlastní text a řídit výšku textu – vše pomocí několika řádků Java kódu.
+Dodržením těchto kroků budete schopni **vytvořit PDF z DWG**, přidat vlastní text a řídit výšku textu – vše jen několika řádky Java kódu.
 
-## Proč přidávat text do DWG a převádět do PDF?
-
-Přidání textu přímo do souboru DWG je užitečné pro:
-
-- **Označování návrhů** poznámkami nebo čísly dílů.
-- **Vytváření tisknutelné dokumentace**, kde PDF slouží jako jen pro čtení, široce podporovaný formát.
-- **Automatizaci dávkového zpracování** velkých CAD knihoven bez ruční úpravy.
+## Jak převést DWG na PDF v Javě ve velkém měřítku?
+Pokud potřebujete **hromadně převádět DWG PDF** soubory, zabalte výše uvedený kód do smyčky, která projde složku s DWG výkresy. `pageHeight`/`pageWidth` upravujte jen v případě potřeby, aby se snížila spotřeba paměti, a pro každý soubor znovu použijte stejnou instanci `PdfOptions` pro zlepšení výkonu.
 
 ## Časté problémy a tipy
 
 - **Text se nezobrazuje?** Ověřte, že souřadnice X/Y jsou v rozsahu výkresu a že vrstva je viditelná.
 - **Nesprávná výška textu?** Upravte `setTextHeight()`; hodnota je v jednotkách výkresu.
-- **PDF vypadá rasterizovaně?** Ujistěte se, že `CadDrawTypeMode.UseObjectColor` je nastaveno pro zachování vektorových informací.
-- **Výkon u velkých souborů?** Zvyšte `pageHeight`/`pageWidth` jen podle potřeby; vyšší hodnoty spotřebují více paměti.
+- **PDF vypadá rasterizovaně?** Ujistěte se, že je nastaven `CadDrawTypeMode.UseObjectColor`, aby se zachovaly vektorové informace.
+- **Výkon u velkých souborů?** Zvětšujte `pageHeight`/`pageWidth` jen podle potřeby; vyšší hodnoty spotřebují více paměti.
 
 ## Často kladené otázky
 
-**Q: Je Aspose.CAD kompatibilní se všemi verzemi souborů DWG?**  
-A: Aspose.CAD podporuje různé verze souborů DWG, což zajišťuje kompatibilitu s širokou škálou CAD softwaru.
+**Q: Je Aspose.CAD kompatibilní se všemi verzemi DWG souborů?**  
+A: Aspose.CAD podporuje různé verze DWG souborů, což zajišťuje kompatibilitu s širokou škálou CAD softwaru.
 
-**Q: Mohu přizpůsobit písmo a formátování přidaného textu?**  
-A: Ano, můžete přizpůsobit písmo, styl a další možnosti formátování textu přidaného do souborů DWG pomocí Aspose.CAD.
+**Q: Mohu přizpůsobit font a formátování přidaného textu?**  
+A: Ano, můžete přizpůsobit font, styl a další formátovací možnosti textu přidaného do DWG souborů pomocí Aspose.CAD.
 
-**Q: Je k dispozici bezplatná zkušební verze pro Aspose.CAD pro Java?**  
-A: Ano, můžete si vyzkoušet funkce Aspose.CAD získáním bezplatné zkušební verze [zde](https://releases.aspose.com/).
+**Q: Je k dispozici bezplatná zkušební verze Aspose.CAD pro Java?**  
+A: Ano, funkce Aspose.CAD můžete vyzkoušet získáním bezplatné zkušební verze [zde](https://releases.aspose.com/).
 
-**Q: Kde mohu najít podrobnou dokumentaci pro Aspose.CAD pro Java?**  
-A: Odkazujte na dokumentaci [zde](https://reference.aspose.com/cad/java/) pro podrobné informace a příklady.
+**Q: Kde najdu podrobnou dokumentaci k Aspose.CAD pro Java?**  
+A: Podrobnou dokumentaci najdete [zde](https://reference.aspose.com/cad/java/).
 
-**Q: Jak mohu získat podporu nebo pomoc s Aspose.CAD?**  
+**Q: Jak získám podporu nebo pomoc s Aspose.CAD?**  
 A: Navštivte [forum Aspose.CAD](https://forum.aspose.com/c/cad/19), kde získáte pomoc a spojíte se s komunitou.
 
 ---
 
-**Last Updated:** 2025-12-28  
-**Tested With:** Aspose.CAD for Java 24.12  
-**Author:** Aspose  
+**Poslední aktualizace:** 2026-02-28  
+**Testováno s:** Aspose.CAD pro Java 24.12  
+**Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -1,53 +1,62 @@
 ---
-date: 2025-12-28
+date: 2026-02-28
 description: Leer hoe u DWG‑bestanden kunt lezen met Aspose.CAD voor Java en moeiteloos
   lay‑outs in DWG‑bestanden kunt weergeven. Integreer krachtige CAD‑functionaliteit
   in uw Java‑toepassingen.
 linktitle: List Layouts in DWG
 second_title: Aspose.CAD Java API
-title: Hoe DWG lezen en lay-outs in DWG opsommen met Aspose.CAD voor Java
+title: Hoe DWG te lezen en lay-outs in DWG op te sommen met Aspose.CAD voor Java
 url: /nl/java/cad-file-manipulation/list-layouts-in-dwg/
 weight: 12
 ---
 
-{{< blocks/products/pf/main-wrap-class >}}
+.11
+
+**Author:** Aspose
+
+Then closing shortcodes.
+
+Make sure to preserve all shortcodes and code block placeholders.
+
+Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Hoe DWG lezen en lay-outs weergeven in DWG met Aspose.CAD voor Java
+# Hoe DWG te lezen en lay-outs weer te geven in DWG met Aspose.CAD voor Java
 
-## Inleiding
+## Introductie
 
-Als je **DWG**‑bestanden programmatisch wilt **lezen** en informatie wilt extraheren, zoals lay-outnamen, maakt Aspose.CAD voor Java dit eenvoudig. In deze stap‑voor‑stap‑tutorial laten we je zien **hoe je DWG leest** en alle lay-outs opsomt die in een DWG‑ (of DXF‑) bestand staan. Aan het einde van de gids kun je deze functionaliteit toevoegen aan elke Java‑applicatie die met CAD‑gegevens werkt.
+Als je op zoek bent naar een betrouwbare manier **hoe dwg te lezen** bestanden programmatisch, biedt Aspose.CAD voor Java een nette, cross‑platform API waarmee je een tekening kunt laden en alle benodigde informatie kunt ophalen — zoals de namen van alle lay-outs in het bestand. In deze stap‑voor‑stap tutorial laten we je zien **hoe DWG te lezen** en elke lay-out die in een DWG (of DXF) bestand zit, weergeven, zodat je deze functionaliteit kunt integreren in elke Java‑applicatie die met CAD‑data werkt.
 
 ## Snelle antwoorden
-- **Welke bibliotheek is vereist?** Aspose.CAD voor Java.
-- **Kan ik DWG‑bestanden op elk besturingssysteem lezen?** Ja – Java is platform‑onafhankelijk.
-- **Heb ik een licentie nodig om het voorbeeld uit te voeren?** Een gratis proefversie werkt voor evaluatie; een licentie is vereist voor productie.
-- **Welke CAD‑formaten worden ondersteund?** DWG, DXF, DWF en andere.
+- **Welke bibliotheek is vereist?** Aspose.CAD for Java.  
+- **Kan ik DWG‑bestanden op elk OS lezen?** Ja – Java is cross‑platform, dus je kunt **dwg op linux lezen** net zo gemakkelijk als op Windows.  
+- **Heb ik een licentie nodig om het voorbeeld uit te voeren?** Een gratis proefversie werkt voor evaluatie; een licentie is vereist voor productie.  
+- **Welke CAD‑formaten worden ondersteund?** DWG, DXF, DWF en andere.  
 - **Is de code compatibel met Java 8+?** Absoluut.
 
-## Wat betekent “hoe DWG lezen” in Java?
+## Wat is “hoe dwg te lezen” in Java?
 
-Een DWG‑bestand lezen betekent dat je de binaire CAD‑data laadt in een objectmodel dat je kunt bevragen. Aspose.CAD abstraheert de complexe DWG‑structuur achter eenvoudige .NET/Java‑klassen, zodat je je kunt concentreren op de informatie die je nodig hebt – in dit geval de lay-outnamen.
+Een DWG‑bestand lezen betekent het binaire CAD‑data laden in een objectmodel dat je kunt bevragen. Aspose.CAD abstraheert de complexe DWG‑structuur achter eenvoudige Java‑klassen, zodat je je kunt concentreren op de informatie die je nodig hebt – in dit geval de lay-outnamen.
 
-## Waarom lay-outs in een DWG‑bestand opsommen?
+## Waarom lay-outs in een DWG‑bestand weergeven?
 
-Een DWG kan meerdere lay-outs bevatten (papier‑ruimte, model‑ruimte, aangepaste bladen). Het kennen van de lay-outnamen stelt je in staat om:
-- Rapporten per lay-out te genereren.
-- Specifieke lay-outs te exporteren naar afbeeldingen of PDF‑bestanden.
-- Batch‑verwerking van tekeningen te automatiseren.
+Een DWG kan meerdere lay-outs bevatten (paper space, model space, aangepaste bladen). Het kennen van de lay-outnamen stelt je in staat om:
 
-## Voorvereisten
+- Rapporten per lay-out genereren.  
+- Specifieke lay-outs exporteren naar afbeeldingen of PDF‑bestanden.  
+- Batchverwerking van tekeningen automatiseren.  
 
-Voordat we in de code duiken, controleer je of je het volgende hebt:
+## Voorwaarden
 
-- **Aspose.CAD voor Java‑bibliotheek** – download de nieuwste JAR van de [website](https://releases.aspose.com/cad/java/).
-- **Java‑ontwikkelomgeving** – JDK 8 of hoger, en een IDE of build‑tool naar keuze.
+Voordat we in de code duiken, controleer of je het volgende hebt:
 
-## Import Namespaces
+- **Aspose.CAD for Java Library** – download de nieuwste JAR van de [website](https://releases.aspose.com/cad/java/).  
+- **Java Development Environment** – JDK 8 of hoger, en een IDE of build‑tool naar keuze.
 
-Importeer in je Java‑bronbestand de benodigde Aspose.CAD‑klassen:
+## Namespaces importeren
+
+In je Java‑bronbestand importeer je de benodigde Aspose.CAD‑klassen:
 
 ```java
 import com.aspose.cad.Image;
@@ -57,15 +66,15 @@ import com.aspose.cad.fileformats.cad.CadLayoutDictionary;
 import com.aspose.cad.fileformats.cad.cadobjects.CadLayout;
 ```
 
-## Stap 1: Stel je documentmap in
+## Stap 1: Stel uw documentmap in
 
 ```java
 String dataDir = "Your Document Directory" + "CADConversion/";
 ```
 
-Vervang **“Your Document Directory”** door het absolute pad waar je CAD‑bestanden zich bevinden.
+Vervang **“Your Document Directory”** door het absolute pad waar je CAD‑bestanden zich bevinden. Op Linux kun je bijvoorbeeld een pad gebruiken zoals `/home/user/cad/`.
 
-## Stap 2: Laad het DWG‑bestand
+## Stap 2: Laad het DWG‑bestand
 
 ```java
 String sourceFilePath = dataDir + "conic_pyramid.dxf";
@@ -73,9 +82,9 @@ Image image = Image.load(sourceFilePath);
 CadImage cadImage = (CadImage)image;
 ```
 
-De `Image.load`‑methode detecteert het bestandsformaat automatisch, zodat je dezelfde code kunt gebruiken voor zowel **DWG**‑ als **DXF**‑bestanden.
+De `Image.load`‑methode detecteert automatisch het bestandsformaat, zodat dezelfde code werkt voor zowel **DWG** als **DXF** bestanden.
 
-## Stap 3: Haal lay-outs op en print namen
+## Stap 3: Haal lay-outs op en druk namen af
 
 ```java
 CadLayoutDictionary layouts = cadImage.getLayouts();
@@ -85,56 +94,54 @@ for (CadLayout layout : layouts.getValues())
 }
 ```
 
-De lus doorloopt elk lay‑object en print de naam naar de console – een eenvoudige manier om te verifiëren dat je succesvol **DWG hebt gelezen** en lay‑informatie hebt geëxtraheerd.
+De lus itereert over elk lay-outobject en drukt de naam af naar de console – een eenvoudige manier om te verifiëren dat je succesvol **DWG lezen** en lay-outinformatie hebt geëxtraheerd.
+
+## Hoe DWG naar PDF converteren op Linux
+
+Als je later een specifieke lay-out naar een PDF wilt omzetten, kan Aspose.CAD de lay-out renderen naar een afbeelding en kun je vervolgens Aspose.PDF (of een andere PDF‑bibliotheek) gebruiken om die afbeelding in een PDF‑document te embedden. De conversiecode is identiek op Linux omdat de API puur Java is.
 
 ## Veelvoorkomende valkuilen & tips
 
-- **Onjuist bestandspad** – Controleer of `dataDir` eindigt op een scheidingsteken (`/` of `\\`) dat geschikt is voor jouw OS.
-- **Niet‑ondersteunde DWG‑versie** – Zorg dat je een recente Aspose.CAD‑versie gebruikt; oudere DWG‑versies kunnen conversie vereisen.
-- **Geheugengebruik** – Grote tekeningen kunnen veel geheugen verbruiken. Maak het `CadImage`‑object vrij wanneer je klaar bent: `cadImage.dispose();`.
+- **Onjuist bestandspad** – Controleer dubbel dat `dataDir` eindigt met een scheidingsteken (`/` of `\\`) dat geschikt is voor uw OS.  
+- **Niet‑ondersteunde DWG‑versie** – Zorg ervoor dat u een recente Aspose.CAD‑versie gebruikt; oudere DWG‑versies hebben mogelijk conversie nodig.  
+- **Geheugengebruik** – Grote tekeningen kunnen veel geheugen verbruiken. Maak het `CadImage`‑object vrij wanneer u klaar bent: `cadImage.dispose();`.  
+- **Uitvoeren op headless‑servers** – Er zijn geen UI‑componenten nodig, dus de code werkt op Linux‑servers zonder grafische omgeving.
 
 ## Conclusie
 
-Gefeliciteerd! Je weet nu **hoe je DWG leest** en de lay-outs opsomt met Aspose.CAD voor Java. Deze techniek vormt de basis voor meer geavanceerde CAD‑automatisering, zoals het exporteren van specifieke lay-outs naar afbeeldingen of PDF‑bestanden. Voor een diepere verkenning, raadpleeg de officiële [documentatie](https://reference.aspose.com/cad/java/).
+Gefeliciteerd! Je weet nu **hoe dwg te lezen** en de lay-outs ervan weergeven met Aspose.CAD voor Java. Deze techniek vormt de basis voor meer geavanceerde CAD‑automatisering, zoals het exporteren van specifieke lay-outs naar afbeeldingen, PDF‑bestanden, of zelfs het converteren van DWG naar PDF op Linux. Voor een diepere verkenning, raadpleeg de officiële [documentation](https://reference.aspose.com/cad/java/).
 
 ## Veelgestelde vragen
 
-### Q1: Kan ik Aspose.CAD voor Java gebruiken met andere CAD‑bestandsformaten?
+**V1: Kan ik Aspose.CAD voor Java gebruiken met andere CAD‑bestandformaten?**  
+Ja, Aspose.CAD ondersteunt verschillende CAD‑formaten, waaronder DWG, DXF, DWF en meer.
 
-A1: Ja, Aspose.CAD ondersteunt diverse CAD‑formaten, waaronder DWG, DXF, DWF en meer.
+**V2: Is er een gratis proefversie beschikbaar voor Aspose.CAD voor Java?**  
+Ja, je kunt een gratis proefversie verkrijgen via [hier](https://releases.aspose.com/).
 
-### Q2: Is er een gratis proefversie beschikbaar voor Aspose.CAD voor Java?
+**V3: Waar kan ik community‑ondersteuning krijgen voor Aspose.CAD voor Java?**  
+Bezoek het [Aspose.CAD forum](https://forum.aspose.com/c/cad/19) voor community‑ondersteuning.
 
-A2: Ja, je kunt een gratis proefversie verkrijgen via [hier](https://releases.aspose.com/).
+**V4: Hoe koop ik een licentie voor Aspose.CAD voor Java?**  
+Je kunt een licentie kopen via de [purchase page](https://purchase.aspose.com/buy).
 
-### Q3: Waar kan ik community‑ondersteuning krijgen voor Aspose.CAD voor Java?
-
-A3: Bezoek het [Aspose.CAD‑forum](https://forum.aspose.com/c/cad/19) voor community‑ondersteuning.
-
-### Q4: Hoe koop ik een licentie voor Aspose.CAD voor Java?
-
-A4: Je kunt een licentie aanschaffen via de [aankooppagina](https://purchase.aspose.com/buy).
-
-### Q5: Kan ik een tijdelijke licentie gebruiken voor testdoeleinden?
-
-A5: Ja, je kunt een tijdelijke licentie verkrijgen via [hier](https://purchase.aspose.com/temporary-license/).
+**V5: Kan ik een tijdelijke licentie gebruiken voor testdoeleinden?**  
+Ja, je kunt een tijdelijke licentie verkrijgen [hier](https://purchase.aspose.com/temporary-license/).
 
 **Aanvullende vragen**
 
-**Q: Werkt deze aanpak voor het lezen van DWG‑bestanden op Linux?**  
-A: Absoluut. Omdat de oplossing pure Java is, draait hij op elk OS met een compatibele JDK.
+**V: Werkt deze aanpak voor het lezen van DWG‑bestanden op Linux?**  
+Absoluut. Omdat de oplossing puur Java is, draait deze op elk OS met een compatibele JDK.
 
-**Q: Kan ik een DWG‑bestand lezen zonder de volledige tekening in het geheugen te laden?**  
-A: Aspose.CAD laadt de tekening in het geheugen; bij zeer grote bestanden kun je overwegen ze in aparte threads te verwerken of streaming‑API’s te gebruiken als die in toekomstige releases beschikbaar komen.
+**V: Kan ik een DWG‑bestand lezen zonder de volledige tekening in het geheugen te laden?**  
+Aspose.CAD laadt de tekening in het geheugen; voor zeer grote bestanden kun je overwegen ze in afzonderlijke threads te verwerken of streaming‑API’s te gebruiken als die in toekomstige releases beschikbaar komen.
 
-**Q: Is er een manier om lay-outs op naam te filteren?**  
-A: Ja – na het ophalen van de `CadLayoutDictionary` kun je `layout.getLayoutName().equalsIgnoreCase("MyLayout")` controleren voordat je verder gaat.
+**V: Is er een manier om lay-outs te filteren op naam?**  
+Ja – na het ophalen van de `CadLayoutDictionary` kun je `layout.getLayoutName().equalsIgnoreCase("MyLayout")` controleren voordat je verder gaat.
 
----
-
-**Laatst bijgewerkt:** 2025-12-28  
-**Getest met:** Aspose.CAD voor Java 24.11  
-**Auteur:** Aspose  
+**Last Updated:** 2026-02-28  
+**Tested With:** Aspose.CAD for Java 24.11  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

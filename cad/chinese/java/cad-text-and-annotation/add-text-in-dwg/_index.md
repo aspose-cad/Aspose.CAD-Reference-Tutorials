@@ -1,6 +1,6 @@
 ---
-date: 2025-12-28
-description: 学习如何使用 Aspose.CAD for Java 将 DWG 创建为 PDF、将 DWG 保存为 PDF，并向 DWG 图纸添加文本——一步一步的指南。
+date: 2026-02-28
+description: 学习如何使用 Aspose.CAD for Java 将 DWG 转换为 PDF、将 DWG 保存为 PDF，并向 DWG 图纸添加文本——一步步指南。
 linktitle: Add Text in DWG
 second_title: Aspose.CAD Java API
 title: 使用 Aspose.CAD for Java 将 DWG 转换为 PDF 并添加文本
@@ -12,30 +12,36 @@ weight: 10
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 使用 Aspose.CAD for Java 将 DWG 转换为 PDF 并添加文本
+# 使用 Aspose.CAD for Java 从 DWG 创建 PDF 并添加文本
 
 ## 介绍
 
-如果您需要 **从 DWG 创建 PDF** 并插入自定义文本，您来对地方了。在本教程中，我们将完整演示整个过程——加载 DWG 图纸、添加文本注释，最后使用 Aspose.CAD for Java 将结果保存为 PDF。完成后，您将了解如何 **将 DWG 保存为 PDF**、自定义文本高度，甚至添加基本注释。
+如果您需要 **create PDF from DWG** 文件并插入自定义文本，您来对地方了。在本教程中，我们将完整演示整个过程——加载 DWG 图纸、添加文本注释，最后使用 Aspose.CAD for Java 将结果保存为 PDF。完成后，您将了解如何 **save DWG as PDF**、自定义文本高度，甚至添加基本注释。
 
-## 快速回答
-- **可以在 Java 中将 DWG 转换为 PDF 吗？** 可以，Aspose.CAD for Java 提供了直接的 API。  
-- **生产环境需要许可证吗？** 需要商业许可证；提供免费试用版。  
+## 快速答案
+- **我可以在 Java 中将 DWG 转换为 PDF 吗？** 是的，Aspose.CAD for Java 提供了直接的 API。  
+- **我需要许可证才能在生产环境使用吗？** 需要商业许可证；提供免费试用版。  
 - **哪种方法向 DWG 添加文本？** 使用 `CadText` 对象并将其添加到模型空间。  
-- **可以设置文本高度吗？** 当然——对 `CadText` 实例调用 `setTextHeight()`。  
-- **输出是矢量化的吗？** 当光栅化选项设置为 `UseObjectColor` 时，PDF 保留高质量的矢量数据。
+- **我可以设置文本高度吗？** 当然——在 `CadText` 实例上使用 `setTextHeight()`。  
+- **输出是矢量的吗？** 当光栅化选项设置为 `UseObjectColor` 时，PDF 保留高质量的矢量数据。
 
-## 前置条件
+## 什么是“从 DWG 创建 PDF”？
+将 DWG 图纸转换为 PDF 意味着把原生 CAD 格式转化为一种广泛支持的只读文档，同时保留原始几何形状。当需要与没有 CAD 软件的利益相关者共享设计时，这种转换尤为重要。
 
-在开始教程之前，请确保已具备以下前置条件：
+## 为什么使用 Aspose.CAD for Java 将 DWG 转换为 PDF？
+Aspose.CAD 提供了纯 Java 解决方案，无需外部 CAD 安装。它支持 **convert DWG to PDF**，保持矢量保真度，并且在转换前允许您以编程方式添加文本、尺寸或自定义图形等注释。
 
-- Aspose.CAD for Java 库：从 [Aspose.CAD for Java 页面](https://releases.aspose.com/cad/java/) 下载并安装该库。  
-- Java 开发工具包 (JDK)：确保系统上已安装最新的 JDK。  
-- DWG 图纸：准备好需要添加文本的 DWG 文件。
+## 先决条件
+
+在开始教程之前，请确保具备以下条件：
+
+- Aspose.CAD for Java Library：从 [Aspose.CAD for Java page](https://releases.aspose.com/cad/java/) 下载并安装库。  
+- Java Development Kit (JDK)：确保系统已安装最新的 JDK。  
+- DWG Drawing：准备好需要添加文本的 DWG 图纸文件。
 
 ## 导入命名空间
 
-在 Java 代码中，导入 Aspose.CAD 所需的命名空间：
+在您的 Java 代码中，导入 Aspose.CAD 所需的命名空间：
 
 ```java
 import com.aspose.cad.Image;
@@ -107,45 +113,40 @@ cadRasterizationOptions.setLayouts(new String[] {"Model"});
 image.save(dataDir + "SimpleEntites_generated.dwg.pdf", pdfOptions);
 ```
 
-按照这些步骤，您即可 **从 DWG 创建 PDF**、添加自定义文本，并通过几行 Java 代码控制文本高度。
+通过遵循这些步骤，您将能够 **create PDF from DWG**，添加自定义文本，并控制文本高度——只需几行 Java 代码即可实现。
 
-## 为什么要向 DWG 添加文本并转换为 PDF？
-
-直接在 DWG 文件中添加文本对于以下场景非常有用：
-
-- **在设计上做标注**，添加备注或部件编号。  
-- **创建可打印文档**，PDF 作为只读、广泛支持的格式。  
-- **自动化批量处理** 大型 CAD 库，无需手动编辑。
+## 如何在大规模下将 DWG 转换为 PDF（Java）？
+如果需要 **batch convert DWG PDF** 文件，可将上述代码包装在遍历 DWG 文件夹的循环中。仅在必要时调整 `pageHeight`/`pageWidth` 以保持低内存占用，并为每个文件复用同一 `PdfOptions` 实例以提升性能。
 
 ## 常见问题与技巧
 
-- **文本未显示？** 检查 X/Y 坐标是否在图纸范围内，并确认所在图层可见。  
+- **文本未显示？** 验证 X/Y 坐标在图纸范围内且图层可见。  
 - **文本高度不正确？** 调整 `setTextHeight()`；该值使用图纸的单位系统。  
 - **PDF 看起来是光栅化的？** 确保将 `CadDrawTypeMode.UseObjectColor` 设置为保留矢量信息。  
-- **大文件性能如何？** 仅在必要时增大 `pageHeight`/`pageWidth`，更大的值会消耗更多内存。
+- **大文件的性能如何？** 仅在必要时增加 `pageHeight`/`pageWidth`；更大的值会消耗更多内存。
 
 ## 常见问答
 
-**问：Aspose.CAD 是否兼容所有版本的 DWG 文件？**  
-答：Aspose.CAD 支持多种 DWG 版本，确保与广泛的 CAD 软件兼容。
+**Q: Aspose.CAD 是否兼容所有版本的 DWG 文件？**  
+A: Aspose.CAD 支持多种 DWG 版本，确保与广泛的 CAD 软件兼容。
 
-**问：我可以自定义添加文本的字体和格式吗？**  
-答：可以，使用 Aspose.CAD 可以自定义字体、样式以及其他文本格式选项。
+**Q: 我可以自定义添加文本的字体和格式吗？**  
+A: 可以，使用 Aspose.CAD 您可以自定义添加到 DWG 文件的文本的字体、样式及其他格式选项。
 
-**问：是否有 Aspose.CAD for Java 的免费试用版？**  
-答：有，您可以通过 [此处](https://releases.aspose.com/) 获取免费试用。
+**Q: 是否提供 Aspose.CAD for Java 的免费试用？**  
+A: 是的，您可以通过 [here](https://releases.aspose.com/) 获取免费试用，探索 Aspose.CAD 的功能。
 
-**问：在哪里可以找到 Aspose.CAD for Java 的详细文档？**  
-答：请参阅文档 [此处](https://reference.aspose.com/cad/java/) 获取深入信息和示例。
+**Q: 在哪里可以找到 Aspose.CAD for Java 的详细文档？**  
+A: 请参阅文档 [here](https://reference.aspose.com/cad/java/) 获取深入信息和示例。
 
-**问：如何获取 Aspose.CAD 的支持或帮助？**  
-答：访问 [Aspose.CAD 论坛](https://forum.aspose.com/c/cad/19) 获取帮助并与社区交流。
+**Q: 如何获取 Aspose.CAD 的支持或帮助？**  
+A: 访问 [Aspose.CAD forum](https://forum.aspose.com/c/cad/19) 获取帮助并与社区交流。
 
 ---
 
-**最后更新：** 2025-12-28  
-**测试环境：** Aspose.CAD for Java 24.12  
-**作者：** Aspose  
+**Last Updated:** 2026-02-28  
+**Tested With:** Aspose.CAD for Java 24.12  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
