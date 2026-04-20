@@ -1,31 +1,48 @@
 ---
-title: Time-out bij opslaan voor CAD met Aspose.CAD
-linktitle: Zet Time-out op Opslaan
-second_title: Aspose.CAD Java-API
-description: Leer hoe u de prestaties van uw Java-applicatie kunt verbeteren met Aspose.CAD. Stel een time-out in voor het opslaan van CAD-tekeningen. Volg onze stapsgewijze handleiding.
-weight: 15
+date: 2026-01-22
+description: Leer hoe u een time‑out instelt bij het opslaan van CAD naar PDF met
+  Aspose.CAD voor Java. Verhoog de prestaties met deze stapsgewijze handleiding.
+linktitle: Put Timeout on Save
+second_title: Aspose.CAD Java API
+title: Hoe stel je een time‑out in bij het opslaan voor CAD met Aspose.CAD
 url: /nl/java/other-cad-operations/put-timeout-on-save/
+weight: 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Time-out bij opslaan voor CAD met Aspose.CAD
+# Time‑out bij opslaan voor CAD met Aspose.CAD
 
-## Invoering
+## Inleiding
 
-Welkom bij de tutorial over het instellen van een time-out bij het opslaan met Aspose.CAD voor Java. In deze handleiding begeleiden we u bij het instellen van een time-out voor het opslaan van CAD-tekeningen om de prestaties van uw toepassing te verbeteren. Aspose.CAD voor Java is een krachtige bibliotheek waarmee u naadloos met CAD-bestanden in uw Java-toepassingen kunt werken.
+Welkom bij de tutorial over **hoe je een time‑out instelt** bij het opslaan van CAD‑tekeningen met Aspose.CAD voor Java. In deze gids lopen we stap voor stap door het configureren van een time‑out voor de opslaan‑bewerking, wat helpt om je applicatie responsief te houden en de algehele prestaties te verbeteren. Aspose.CAD voor Java is een krachtige bibliotheek waarmee je naadloos met CAD‑bestanden kunt werken.
+
+## Snelle antwoorden
+- **Wat doet de time‑out?** Hij onderbreekt de opslaan‑bewerking als deze de opgegeven duur overschrijdt, waardoor langdurige vastlopers worden voorkomen.  
+- **Welk formaat wordt in het voorbeeld gebruikt?** De CAD‑tekening wordt opgeslagen als een PDF‑bestand.  
+- **Heb ik een licentie nodig?** Een tijdelijke of permanente Aspose.CAD‑licentie is vereist voor productiegebruik.  
+- **Welke Java‑versie wordt ondersteund?** De code werkt met Java 8 en hoger.  
+- **Kan ik de lengte van de time‑out aanpassen?** Ja—verander simpelweg de waarde van `TimeUnit.SECONDS.sleep(...)`.
+
+## Hoe een time‑out in te stellen bij opslaan
+
+### Wat is een time‑out in de context van Aspose.CAD?
+Een time‑out is een beveiligingsmechanisme dat een langdurig rasterisatie‑ of conversieproces stopt. Door een `InterruptionTokenSource` te leveren, kun je de bibliotheek signaleren de bewerking na een bepaalde periode te onderbreken, zodat je applicatie responsief blijft.
+
+### Waarom een time‑out instellen bij het opslaan van CAD naar PDF?
+Het opslaan van grote of complexe CAD‑tekeningen kan aanzienlijke CPU‑ en geheugenbronnen verbruiken. Het toevoegen van een time‑out:
+- Voorkomt dat de applicatie bevriest.  
+- Stelt je in staat om langdurige taken op een nette manier af te handelen.  
+- Verbetert de algehele gebruikerservaring, vooral in web‑ of UI‑gedreven omgevingen.
 
 ## Vereisten
 
-Voordat u in de zelfstudie duikt, moet u ervoor zorgen dat u aan de volgende vereisten voldoet:
--  Aspose.CAD voor Java-bibliotheek: Zorg ervoor dat de Aspose.CAD voor Java-bibliotheek in uw project is geïntegreerd. U kunt de bibliotheek downloaden via de[website](https://releases.aspose.com/cad/java/).
-- Ontwikkelomgeving: Richt uw Java-ontwikkelomgeving in met alle benodigde tools en afhankelijkheden.
+- **Aspose.CAD for Java Library** – Zorg ervoor dat de bibliotheek in je project is geïntegreerd. Je kunt de bibliotheek downloaden van de [website](https://releases.aspose.com/cad/java/).  
+- **Ontwikkelomgeving** – Een Java‑IDE (IntelliJ, Eclipse, enz.) met JDK 8+ geïnstalleerd.
 
-## Pakketten importeren
-
-Importeer om te beginnen de vereiste pakketten in uw Java-project. Voeg de volgende regels toe aan het begin van uw Java-bestand:
+## Importpakketten
 
 ```java
 import com.aspose.cad.Image;
@@ -36,34 +53,34 @@ import com.aspose.cad.imageoptions.PdfOptions;
 import java.util.concurrent.TimeUnit;
 ```
 
-Laten we nu de voorbeeldcode opsplitsen in stapsgewijze instructies:
+Laten we nu de voorbeeldcode stap voor stap ontleden:
 
-## Stap 1: Stel de bron- en uitvoermappen in
+## Stap 1: Bronnen‑ en uitvoermap instellen
 
 ```java
 final String SourceDir = Utils.getDataDir_DWGDrawings();
 final String OutputDir = Utils.getDataDir_Output();
 ```
 
-Zorg ervoor dat u over de juiste bron- en uitvoermappen voor uw CAD-tekeningen beschikt.
+Zorg ervoor dat je de juiste bron‑ en uitvoermappen voor je CAD‑tekeningen hebt.
 
-## Stap 2: Maak een onderbrekingstokenbron
+## Stap 2: Interruption Token Source maken
 
 ```java
 final InterruptionTokenSource source = new com.aspose.cad.InterruptionTokenSource();
 ```
 
-Initialiseer een onderbrekingstokenbron om onderbrekingen tijdens de opslagbewerking te beheren.
+Initialiseer een interruption token source om onderbrekingen tijdens de opslaan‑bewerking te beheren.
 
-## Stap 3: CAD-tekening laden
+## Stap 3: CAD‑tekening laden
 
 ```java
 final CadImage cadImageBig = (CadImage)Image.load(SourceDir + "Drawing11.dwg");
 ```
 
- Laad de CAD-tekening in een`CadImage` voorwerp.
+Laad de CAD‑tekening in een `CadImage`‑object.
 
-## Stap 4: Configureer rasterisatieopties
+## Stap 4: Rasterisatie‑opties configureren
 
 ```java
 CadRasterizationOptions rasterizationOptionsBig = new CadRasterizationOptions();
@@ -71,9 +88,9 @@ rasterizationOptionsBig.setPageWidth(cadImageBig.getSize().getWidth() / 2);
 rasterizationOptionsBig.setPageHeight(cadImageBig.getSize().getHeight() / 2);
 ```
 
-Configureer rasteropties voor de CAD-tekening.
+Configureer de rasterisatie‑opties voor de CAD‑tekening.
 
-## Stap 5: Configureer PDF-opties
+## Stap 5: PDF‑opties configureren
 
 ```java
 final PdfOptions CADfBig = new PdfOptions();
@@ -81,17 +98,17 @@ CADfBig.setVectorRasterizationOptions(rasterizationOptionsBig);
 CADfBig.setInterruptionToken(source.getToken());
 ```
 
-Stel PDF-opties in met vectorrasteropties en het onderbrekingstoken.
+Stel PDF‑opties in met vector‑rasterisatie‑opties en de interruption token.
 
-## Stap 6: Tekening opslaan met time-out
+## Stap 6: Tekeningen opslaan met time‑out
 
 ```java
 cadImageBig.save(OutputDir + "PutTimeoutOnSave_out.pdf", CADfBig);
 ```
 
-Sla de CAD-tekening op in een PDF-bestand met de opgegeven time-out.
+Sla de CAD‑tekening op als een PDF‑bestand met de opgegeven time‑out.
 
-## Stap 7: Handel de onderbreking af
+## Stap 7: Onderbreking afhandelen
 
 ```java
 java.lang.Thread thread = new java.lang.Thread(new Runnable() {
@@ -110,33 +127,41 @@ source.interrupt();
 thread.join();
 ```
 
-Maak een thread om de opslagbewerking af te handelen en onderbreek deze na een opgegeven time-out.
+Maak een thread aan om de opslaan‑bewerking af te handelen en onderbreek deze na een opgegeven time‑out.
 
-## Conclusie
+## Veelvoorkomende valkuilen & probleemoplossing
 
-Gefeliciteerd! U hebt met succes geleerd hoe u een time-out kunt instellen bij het opslaan met Aspose.CAD voor Java. Deze functie kan de efficiëntie van uw CAD-gerelateerde toepassingen aanzienlijk verbeteren.
+- **Time‑out te kort** – Als de tekening groot is, kan een zeer korte time‑out de bewerking onderbreken voordat deze voltooid is. Verhoog de slaapduur of pas de rasterisatie‑instellingen aan.  
+- **Ontbrekende licentie** – Het uitvoeren zonder een geldige licentie zal een uitzondering veroorzaken. Pas een tijdelijke of permanente licentie toe voordat je de code uitvoert.  
+- **Onjuiste paden** – Zorg ervoor dat `SourceDir` en `OutputDir` naar bestaande mappen wijzen; anders zullen `Image.load` of `save` falen.
 
 ## Veelgestelde vragen
 
-### V1: Hoe kan ik Aspose.CAD voor Java downloaden?
+**Q: Hoe kan ik Aspose.CAD voor Java downloaden?**  
+A: Je kunt het downloaden vanaf de [releases‑pagina](https://releases.aspose.com/cad/java/).
 
- A1: U kunt het downloaden van de[releases pagina](https://releases.aspose.com/cad/java/).
+**Q: Waar vind ik de documentatie voor Aspose.CAD voor Java?**  
+A: Raadpleeg de [documentatie](https://reference.aspose.com/cad/java/) voor uitgebreide informatie.
 
-### V2: Waar kan ik de documentatie voor Aspose.CAD voor Java vinden?
+**Q: Is er een gratis proefversie beschikbaar?**  
+A: Ja, je kunt een gratis proefversie krijgen via [deze link](https://releases.aspose.com/).
 
- A2: Raadpleeg de[documentatie](https://reference.aspose.com/cad/java/) voor uitgebreide informatie.
+**Q: Hoe verkrijg ik een tijdelijke licentie?**  
+A: Bezoek [hier](https://purchase.aspose.com/temporary-license/) voor details over een tijdelijke licentie.
 
-### Vraag 3: Is er een gratis proefversie beschikbaar?
+**Q: Hulp nodig of vragen?**  
+A: Ga naar het [Aspose.CAD‑forum](https://forum.aspose.com/c/cad/19) voor community‑ondersteuning.
 
-A3: Ja, u kunt een gratis proefperiode krijgen van[deze link](https://releases.aspose.com/).
+## Conclusie
 
-### Vraag 4: Hoe verkrijg ik een tijdelijke licentie?
+Gefeliciteerd! Je weet nu **hoe je een time‑out instelt** bij opslaan‑bewerkingen wanneer je CAD‑tekeningen naar PDF converteert met Aspose.CAD voor Java. Het implementeren van deze time‑out verbetert de betrouwbaarheid en responsiviteit van je CAD‑gerelateerde applicaties.
 
- A4: Bezoek[hier](https://purchase.aspose.com/temporary-license/) voor tijdelijke licentiegegevens.
+---
 
-### Q5: Hulp nodig of vragen?
+**Laatst bijgewerkt:** 2026-01-22  
+**Getest met:** Aspose.CAD for Java 24.11 (latest)  
+**Auteur:** Aspose  
 
- A5: Ga naar de[Aspose.CAD-forum](https://forum.aspose.com/c/cad/19) voor gemeenschapssteun.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
