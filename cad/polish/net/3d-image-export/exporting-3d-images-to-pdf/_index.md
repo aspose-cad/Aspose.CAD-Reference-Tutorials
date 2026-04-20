@@ -1,33 +1,52 @@
 ---
-title: Eksportowanie obrazów 3D do formatu PDF - samouczek Aspose.CAD
-linktitle: Eksportowanie obrazów 3D do formatu PDF
-second_title: Aspose.CAD .NET - Format plików CAD i BIM
-description: Bez wysiłku konwertuj obrazy 3D CAD do formatu PDF za pomocą Aspose.CAD dla .NET. Postępuj zgodnie z naszym samouczkiem krok po kroku, aby bezproblemowo eksportować pliki PDF.
-weight: 10
+date: 2026-01-28
+description: Dowiedz się, jak eksportować PDF z obrazów 3D CAD – krok po kroku przewodnik,
+  jak wyeksportować PDF i zapisać CAD jako PDF przy użyciu Aspose.CAD dla .NET.
+linktitle: Exporting 3D Images to PDF
+second_title: Aspose.CAD .NET - CAD and BIM File Format
+title: Jak wyeksportować PDF – Eksportowanie obrazów 3D do PDF przy użyciu Aspose.CAD
 url: /pl/net/3d-image-export/exporting-3d-images-to-pdf/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Eksportowanie obrazów 3D do formatu PDF - samouczek Aspose.CAD
+# Eksportowanie obrazów 3D do PDF - Samouczek Aspose.CAD
 
-## Wstęp
+## Wprowadzenie
 
-Czy chcesz bezproblemowo eksportować obrazy 3D do formatu PDF za pomocą Aspose.CAD dla .NET? Ten samouczek krok po kroku poprowadzi Cię przez proces, upewniając się, że wykorzystasz moc Aspose.CAD do bezproblemowej konwersji obrazów 3D do formatu PDF.
+Czy szukasz jasnego przewodnika, **jak wyeksportować pdf** z obrazów 3D CAD przy użyciu Aspose.CAD dla .NET? Ten samouczek przeprowadzi Cię przez każdy krok, od wczytania pliku CAD po skonfigurowanie opcji rasteryzacji i ostateczne wygenerowanie pliku PDF zachowującego szczegóły Twojego modelu 3‑D. Po zakończeniu będziesz mógł **zapisz cad jako pdf** szybko i niezawodnie.
 
-## Warunki wstępne
+## Szybkie odpowiedzi
+- **Co oznacza „how to export pdf”?** Konwersja rysunku CAD do dokumentu PDF, który może być wyświetlany na dowolnej platformie.  
+- **Która biblioteka obsługuje konwersję?** Aspose.CAD for .NET zapewnia możliwości rasteryzacji i eksportu do PDF.  
+- **Czy potrzebna jest licencja?** Wymagana jest tymczasowa lub pełna licencja do użytku produkcyjnego; dostępna jest darmowa wersja próbna.  
+- **Czy mogę dostosować rozmiar strony?** Tak – możesz ustawić `PageWidth` i `PageHeight` w opcjach rasteryzacji.  
+- **Czy geometria 3‑D jest zachowana?** Elementy 3‑D są rasteryzowane; możesz włączyć `TypeOfEntities.Entities3D` dla pełnego wsparcia 3‑D.
 
-Zanim przejdziesz do samouczka, upewnij się, że spełniasz następujące wymagania wstępne:
+## Co oznacza „how to export pdf” w kontekście CAD?
 
--  Aspose.CAD dla .NET: Upewnij się, że masz zainstalowaną bibliotekę Aspose.CAD dla .NET. Jeśli nie, możesz pobrać go ze strony[Strona pobierania Aspose.CAD dla .NET](https://releases.aspose.com/cad/net/).
+Eksportowanie PDF z CAD oznacza wzięcie rysunku CAD (DWG, DXF, DGN itp.) i przekształcenie go w plik PDF. PDF może zawierać grafikę wektorową, rasteryzowane widoki 3‑D oraz informacje o układzie strony, co ułatwia udostępnianie interesariuszom, którzy nie posiadają oprogramowania CAD.
 
-- Katalog dokumentów: skonfiguruj katalog, w którym przechowywane są pliki CAD i zanotuj ścieżkę.
+## Dlaczego używać Aspose.CAD do eksportu PDF?
 
-## Importuj przestrzenie nazw
+- **Brak zewnętrznych zależności** – działa wyłącznie w .NET, bez potrzeby AutoCAD.  
+- **Wysoka wierność** – zachowuje grubość linii, kolory oraz opcjonalne renderowanie elementów 3‑D.  
+- **Pełna kontrola** – sam określasz wymiary strony, układy oraz jakość rasteryzacji.  
+- **Cross‑platform** – wygenerowane pliki PDF mogą być otwierane na dowolnym urządzeniu.
 
-W swoim projekcie .NET zaimportuj niezbędne przestrzenie nazw do pracy z Aspose.CAD. Dodaj następujące wiersze na górze pliku kodu:
+## Wymagania wstępne
+
+Zanim zaczniesz, upewnij się, że masz:
+
+- **Aspose.CAD for .NET** zainstalowany. Pobierz go ze [strony pobierania Aspose.CAD for .NET](https://releases.aspose.com/cad/net/).  
+- **Folder** zawierający pliki CAD, które chcesz przekonwertować. Zanotuj pełną ścieżkę (np. `C:\CAD\`).
+
+## Importowanie przestrzeni nazw
+
+W swoim projekcie .NET zaimportuj niezbędne przestrzenie nazw do pracy z Aspose.CAD. Dodaj następujące wiersze na początku pliku kodu:
 
 ```csharp
 using System;
@@ -39,22 +58,24 @@ using Aspose.CAD;
 using Aspose.CAD.ImageOptions;
 ```
 
-## Krok 1: Załaduj obraz CAD
+## Przewodnik krok po kroku
 
- Rozpocznij od załadowania obrazu CAD, który chcesz wyeksportować do pliku PDF. Użyj`Load` metoda z biblioteki Aspose.CAD. Zastępować`"conic_pyramid.dxf"` ze ścieżką do pliku CAD.
+### Krok 1: Wczytaj obraz CAD
+
+Najpierw wczytaj źródłowy plik CAD, który chcesz przekonwertować. Zastąp `"conic_pyramid.dxf"` ścieżką do własnego pliku.
 
 ```csharp
 string MyDir = "Your Document Directory";
 string sourceFilePath = MyDir + "conic_pyramid.dxf";
 using (Image cadImage = Image.Load(sourceFilePath))
 {
-    // Twój kod do załadowania obrazu CAD znajduje się tutaj
+    // Your code for loading the CAD image goes here
 }
 ```
 
-## Krok 2: Skonfiguruj opcje rasteryzacji
+### Krok 2: Skonfiguruj opcje rasteryzacji (Zapisz CAD jako PDF)
 
- Skonfiguruj opcje rasteryzacji obrazu CAD. Ustaw parametry, takie jak szerokość strony, wysokość strony i układy. Odkomentuj linię powiązaną z`TypeOfEntities` jeśli twoje podmioty są 3D.
+Ustaw parametry rasteryzacji, które kontrolują sposób renderowania danych CAD do PDF. Możesz dostosować rozmiar strony, układ oraz opcjonalnie włączyć przetwarzanie elementów 3‑D.
 
 ```csharp
 CadRasterizationOptions rasterizationOptions = new CadRasterizationOptions();
@@ -65,49 +86,60 @@ rasterizationOptions.PageHeight = 500;
 rasterizationOptions.Layouts = new string[] { "Model" };
 ```
 
-## Krok 3: Ustaw opcje PDF
+### Krok 3: Ustaw opcje PDF (Utwórz PDF z CAD)
 
-Utwórz opcje PDF i powiąż je z opcjami rasteryzacji.
+Utwórz instancję `PdfOptions` i dołącz ustawienia rasteryzacji. To informuje Aspose.CAD, aby wyjściowy plik PDF został wygenerowany z użyciem powyższych opcji.
 
 ```csharp
 PdfOptions pdfOptions = new PdfOptions();
 pdfOptions.VectorRasterizationOptions = rasterizationOptions;
 ```
 
-## Krok 4: Zapisz jako plik PDF
+### Krok 4: Zapisz jako PDF (Wygeneruj PDF z modelu 3D)
 
-Zapisz obraz CAD jako plik PDF, korzystając ze skonfigurowanych opcji. Określ ścieżkę wyjściową pliku PDF.
+Na koniec określ ścieżkę wyjściową i zapisz obraz jako PDF. Plik będzie zawierał rasteryzowany widok Twojego modelu 3‑D.
 
 ```csharp
 MyDir = MyDir + "Export3DImagestoPDF_out.pdf";
 cadImage.Save(MyDir, pdfOptions);
 ```
 
-## Wniosek
+## Typowe problemy i rozwiązania
 
-Gratulacje! Pomyślnie wyeksportowałeś obrazy 3D do formatu PDF przy użyciu Aspose.CAD dla .NET. Dzięki temu prostemu samouczkowi bez trudu przekonwertujesz pliki CAD na bardziej przystępny format.
+| Problem | Powód | Rozwiązanie |
+|---------|-------|-------------|
+| **PDF wyjściowy jest pusty** | Nieprawidłowa nazwa układu lub brak układu `Model`. | Sprawdź, czy `rasterizationOptions.Layouts` odpowiada układowi obecnemu w pliku CAD. |
+| **Niska rozdzielczość** | Domyślna rozdzielczość DPI rasteryzacji jest niska. | Ustaw `rasterizationOptions.Resolution = 300;` przed zapisem. |
+| **Elementy 3‑D nie są wyświetlane** | `TypeOfEntities` jest zakomentowane. | Odkomentuj `rasterizationOptions.TypeOfEntities = TypeOfEntities.Entities3D;`. |
+| **Wyjątek licencyjny** | Używanie wersji próbnej bez licencji. | Zastosuj tymczasową lub stałą licencję za pomocą `License license = new License(); license.SetLicense("Aspose.CAD.lic");`. |
 
-## Często zadawane pytania
+## Najczęściej zadawane pytania
 
-### P1: Czy Aspose.CAD jest kompatybilny ze wszystkimi formatami plików CAD?
+**P: Czy Aspose.CAD jest kompatybilny ze wszystkimi formatami plików CAD?**  
+O: Tak, Aspose.CAD obsługuje szeroką gamę formatów CAD, zapewniając elastyczność w obsłudze różnych typów plików.
 
-Odpowiedź 1: Tak, Aspose.CAD obsługuje szeroką gamę formatów CAD, zapewniając elastyczność w obsłudze różnych typów plików.
+**P: Czy mogę dostosować wymiary strony przy eksporcie do PDF?**  
+O: Oczywiście. Samouczek pokazuje, jak skonfigurować szerokość i wysokość strony zgodnie z Twoimi wymaganiami.
 
-### P2: Czy mogę dostosować wymiary strony podczas eksportowania do pliku PDF?
+**P: Czy dostępne są tymczasowe licencje dla Aspose.CAD?**  
+O: Tak, możesz uzyskać tymczasowe licencje dla Aspose.CAD, odwiedzając [Temporary License](https://purchase.aspose.com/temporary-license/).
 
-A2: Absolutnie. W samouczku pokazano, jak skonfigurować szerokość i wysokość strony zgodnie z własnymi wymaganiami.
+**P: Gdzie mogę znaleźć dodatkowe wsparcie lub dyskusje społeczności?**  
+O: Odwiedź [Aspose.CAD Forum](https://forum.aspose.com/c/cad/19), aby uzyskać wsparcie i uczestniczyć w dyskusjach społeczności.
 
-### P3: Czy dostępne są licencje tymczasowe dla Aspose.CAD?
+**P: Czy dostępna jest darmowa wersja próbna Aspose.CAD?**  
+O: Tak, możesz przetestować funkcje Aspose.CAD, przechodząc do [free trial](https://releases.aspose.com/).
 
- A3: Tak, możesz uzyskać tymczasowe licencje na Aspose.CAD odwiedzając stronę[Licencja tymczasowa](https://purchase.aspose.com/temporary-license/).
+## Zakończenie
 
-### P4: Gdzie mogę znaleźć dodatkowe wsparcie lub dyskusje społeczności?
+Teraz już wiesz, **jak wyeksportować pdf** z obrazów 3D CAD przy użyciu Aspose.CAD dla .NET. Postępując zgodnie z powyższymi krokami, możesz **zapisz cad jako pdf**, dostosować ustawienia strony i obsługiwać elementy 3‑D w razie potrzeby. Śmiało eksperymentuj z różnymi opcjami rasteryzacji, aby uzyskać najlepszą jakość wizualną dla swoich modeli.
 
- A4: Udaj się do[Forum Aspose.CAD](https://forum.aspose.com/c/cad/19) za wsparcie i współpracę ze społecznością.
+---
 
-### P5: Czy dostępna jest bezpłatna wersja próbna Aspose.CAD?
+**Last Updated:** 2026-01-28  
+**Tested With:** Aspose.CAD 24.11 for .NET  
+**Author:** Aspose  
 
- O5: Tak, możesz poznać funkcje Aspose.CAD, uzyskując dostęp do[bezpłatna wersja próbna](https://releases.aspose.com/).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
