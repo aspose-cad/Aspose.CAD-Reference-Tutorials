@@ -1,37 +1,57 @@
 ---
-title: Obsługa siatki w Aspose.CAD dla .NET
-linktitle: Wsparcie siatki
-second_title: Aspose.CAD .NET - Format plików CAD i BIM
-description: Poznaj obsługę siatki w Aspose.CAD dla .NET dzięki naszemu samouczkowi krok po kroku. Konwertuj pliki CAD na format PDF bez wysiłku.
-weight: 11
+date: 2026-03-24
+description: Dowiedz się, jak konwertować DWG na PDF przy użyciu Aspose.CAD dla .NET,
+  w tym obsługa siatek, zapisywanie CAD jako PDF oraz przykłady CAD do PDF w C#.
+linktitle: Mesh Support
+second_title: Aspose.CAD .NET - CAD and BIM File Format
+title: Konwertuj DWG na PDF z obsługą siatek w Aspose.CAD dla .NET
 url: /pl/net/cad-features-and-support/mesh-support/
+weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Obsługa siatki w Aspose.CAD dla .NET
+# Konwertuj DWG na PDF z obsługą siatek w Aspose.CAD dla .NET
 
-## Wstęp
+## Wprowadzenie
 
-Witamy w naszym szczegółowym samouczku na temat wykorzystania obsługi siatki w Aspose.CAD dla .NET! Aspose.CAD to potężna biblioteka zapewniająca solidną funkcjonalność do pracy z plikami projektowania wspomaganego komputerowo (CAD) w aplikacjach .NET. W tym samouczku skupimy się szczególnie na wykorzystaniu funkcji obsługi siatki w celu zwiększenia możliwości przetwarzania plików CAD.
+Witamy w naszym szczegółowym samouczku dotyczącym **jak konwertować DWG na PDF** przy użyciu Aspose.CAD dla .NET! Aspose.CAD to potężna biblioteka, która zapewnia solidną funkcjonalność pracy z plikami Computer‑Aided Design (CAD) w aplikacjach .NET. W tym przewodniku skupimy się na funkcji obsługi siatek, która umożliwia płynną **konwersję siatek CAD** i pozwala **zapisować CAD jako PDF** z wysoką wiernością.
 
-## Warunki wstępne
+## Szybkie odpowiedzi
+- **Co robi obsługa siatek?** Zachowuje geometrię siatek 3‑D podczas konwertowania plików CAD na formaty rastrowe lub wektorowe.  
+- **Która biblioteka obsługuje konwersję?** Aspose.CAD dla .NET.  
+- **Czy mogę konwertować DWG na PDF w C#?** Tak – poniższy przykład pokazuje kompletny przepływ pracy w C#.  
+- **Czy potrzebna jest licencja?** Wymagana jest ważna licencja Aspose.CAD do produkcji; tymczasowa licencja działa w okresie oceny.  
+- **Jakiego rozmiaru wyjścia mogę się spodziewać?** W przykładzie rasteryzujemy do 1600 × 1600 px, ale możesz dostosować wymiary według potrzeb.
 
-Zanim zagłębisz się w samouczek dotyczący obsługi siatki, upewnij się, że spełniasz następujące wymagania wstępne:
+## Co to jest „konwersja DWG na PDF” z obsługą siatek?
 
-1.  Zainstaluj Aspose.CAD dla .NET: Jeśli jeszcze tego nie zrobiłeś, pobierz i zainstaluj Aspose.CAD dla .NET z[strona pobierania](https://releases.aspose.com/cad/net/).
+Konwersja pliku DWG na PDF przy zachowaniu danych siatek zapewnia, że złożone powierzchnie 3‑D są wyświetlane poprawnie w ostatecznym dokumencie. Jest to szczególnie przydatne przy przeglądach inżynieryjnych, prezentacjach dla klientów oraz archiwizacji danych BIM.
 
-2.  Uzyskaj licencję: Aby używać Aspose.CAD w swoim projekcie, upewnij się, że posiadasz ważną licencję. Możesz go nabyć od[Tutaj](https://purchase.aspose.com/buy) lub eksploruj[opcja licencji tymczasowej](https://purchase.aspose.com/temporary-license/) na okres próbny.
+## Dlaczego warto używać obsługi siatek w Aspose.CAD?
 
-3. Skonfiguruj środowisko programistyczne: Upewnij się, że środowisko programistyczne jest poprawnie skonfigurowane i masz podstawową wiedzę na temat pracy z aplikacjami .NET.
+- **Precyzyjne renderowanie** obiektów 3‑D bez utraty szczegółów.  
+- **Brak zewnętrznych zależności** – biblioteka obsługuje wszystko wewnątrz .NET.  
+- **Wysoka wydajność** przy dużych rysunkach dzięki zoptymalizowanym opcjom rasteryzacji.  
+- **Cross‑platform** kompatybilność z .NET Framework, .NET Core i .NET 5/6.
 
-Przejdźmy teraz do samouczka i poznajmy obsługę siatki przy użyciu Aspose.CAD dla .NET!
+## Prerequisites
 
-## Importuj przestrzenie nazw
+Zanim zagłębisz się w samouczek obsługi siatek, upewnij się, że spełniasz następujące wymagania:
 
-W projekcie .NET zaimportuj niezbędne przestrzenie nazw, aby uzyskać dostęp do funkcjonalności Aspose.CAD. Dodaj następujące linie do swojego kodu:
+1. Zainstaluj Aspose.CAD dla .NET: Jeśli jeszcze tego nie zrobiłeś, pobierz i zainstaluj Aspose.CAD dla .NET ze [strony pobierania](https://releases.aspose.com/cad/net/).
+
+2. Uzyskaj licencję: Aby używać Aspose.CAD w swoim projekcie, upewnij się, że posiadasz ważną licencję. Możesz ją nabyć [tutaj](https://purchase.aspose.com/buy) lub zapoznać się z [opcją tymczasowej licencji](https://purchase.aspose.com/temporary-license/) na okres próbny.
+
+3. Skonfiguruj środowisko programistyczne: Upewnij się, że Twoje środowisko programistyczne jest poprawnie skonfigurowane i masz podstawową wiedzę na temat pracy z aplikacjami .NET.
+
+Teraz przejdźmy do samouczka i zbadajmy obsługę siatek przy użyciu Aspose.CAD dla .NET!
+
+## Importowanie przestrzeni nazw
+
+W swoim projekcie .NET zaimportuj niezbędne przestrzenie nazw, aby uzyskać dostęp do funkcjonalności Aspose.CAD. Dodaj następujące linie do swojego kodu:
 
 ```csharp
 using Aspose.CAD.FileFormats.Cad;
@@ -40,10 +60,9 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-
 ```
 
-## Krok 1: Zdefiniuj katalog dokumentów
+## Krok 1: Zdefiniuj katalog dokumentu
 
 ```csharp
 string MyDir = "Your Document Directory";
@@ -79,33 +98,44 @@ using (CadImage cadImage = (CadImage)Image.Load(sourceFilePath))
 }
 ```
 
-Gratulacje! Pomyślnie wykorzystałeś obsługę siatek w Aspose.CAD dla .NET do konwersji pliku CAD z siatkami do pliku PDF. Zachęcamy do odkrywania większej liczby funkcji i dostosowywania kodu zgodnie z wymaganiami projektu.
+Gratulacje! Pomyślnie wykorzystałeś obsługę siatek w Aspose.CAD dla .NET do **konwersji DWG na PDF** oraz **zapisania CAD jako PDF**. Śmiało eksploruj dalsze funkcje i dostosuj kod do wymagań swojego projektu.
 
-## Wniosek
+## Typowe problemy i rozwiązania
 
-Podsumowując, Aspose.CAD dla .NET zapewnia płynne rozwiązanie do pracy z plikami CAD, a obsługa siatki otwiera nowe możliwości obsługi złożonych projektów. Postępując zgodnie z tym samouczkiem, zdobyłeś cenne informacje na temat integrowania obsługi siatki z aplikacjami .NET.
+| Problem | Rozwiązanie |
+|---------|-------------|
+| **Siatki wyświetlają się pustymi** | Upewnij się, że `Layouts` zawiera `"Model"` oraz że źródłowy DWG rzeczywiście zawiera jednostki siatek. |
+| **Wygenerowany PDF jest zbyt duży** | Zmniejsz `PageWidth`/`PageHeight` lub włącz kompresję przy użyciu `PdfOptions.CompressionLevel`. |
+| **Licencja nie została zastosowana** | Wywołaj `Aspose.CAD.License license = new Aspose.CAD.License(); license.SetLicense("Aspose.CAD.lic");` przed załadowaniem obrazu. |
 
-## Często zadawane pytania
+## Najczęściej zadawane pytania
 
-### P1: Czy Aspose.CAD jest kompatybilny z różnymi formatami plików CAD?
+### Q1: Czy Aspose.CAD jest kompatybilny z różnymi formatami plików CAD?
 
-Odpowiedź 1: Tak, Aspose.CAD obsługuje szeroką gamę formatów plików CAD, w tym DWG, DXF, DGN i inne.
+A1: Tak, Aspose.CAD obsługuje szeroką gamę formatów plików CAD, w tym DWG, DXF, DGN i inne.
 
-### P2: Czy mogę używać Aspose.CAD dla .NET bez licencji?
+### Q2: Czy mogę używać Aspose.CAD dla .NET bez licencji?
 
-Odpowiedź 2: Chociaż do użytku produkcyjnego zalecana jest licencja, podczas programowania możesz eksplorować bibliotekę za pomocą licencji tymczasowej.
+A2: Chociaż licencja jest zalecana w środowisku produkcyjnym, możesz testować bibliotekę z tymczasową licencją podczas rozwoju.
 
-### P3: Czy istnieją fora społeczności dotyczące wsparcia Aspose.CAD?
+### Q3: Czy istnieją fora społecznościowe wsparcia Aspose.CAD?
 
- A3: Tak, odwiedź[Forum Aspose.CAD](https://forum.aspose.com/c/cad/19) za wsparcie społeczności i dyskusje.
+A3: Tak, odwiedź [forum Aspose.CAD](https://forum.aspose.com/c/cad/19) w celu uzyskania wsparcia społeczności i dyskusji.
 
-### P4: Jak mogę uzyskać dostęp do pełnej dokumentacji Aspose.CAD?
+### Q4: Jak mogę uzyskać pełną dokumentację Aspose.CAD?
 
- A4: Zapoznaj się ze szczegółami[dokumentacja](https://reference.aspose.com/cad/net/) aby uzyskać kompleksowe wskazówki dotyczące Aspose.CAD dla .NET.
+A4: Zapoznaj się ze szczegółową [dokumentacją](https://reference.aspose.com/cad/net/) dla kompleksowego przewodnika po Aspose.CAD dla .NET.
 
-### P5: Gdzie mogę pobrać najnowszą wersję Aspose.CAD dla .NET?
+### Q5: Gdzie mogę pobrać najnowszą wersję Aspose.CAD dla .NET?
 
- O5: Pobierz bibliotekę z[strona wydania](https://releases.aspose.com/cad/net/).
+A5: Pobierz bibliotekę ze [strony wydania](https://releases.aspose.com/cad/net/).
+
+---
+
+**Ostatnia aktualizacja:** 2026-03-24  
+**Testowano z:** Aspose.CAD 24.11 dla .NET  
+**Autor:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

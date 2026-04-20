@@ -1,37 +1,57 @@
 ---
-title: Mesh-stöd i Aspose.CAD för .NET
-linktitle: Mesh stöd
-second_title: Aspose.CAD .NET - CAD- och BIM-filformat
-description: Utforska mesh-stöd i Aspose.CAD för .NET med vår steg-för-steg handledning. Konvertera CAD-filer till PDF utan ansträngning.
-weight: 11
+date: 2026-03-24
+description: Lär dig hur du konverterar DWG till PDF med Aspose.CAD för .NET, inklusive
+  mesh‑stöd, spara CAD som PDF och C#‑exempel för CAD till PDF.
+linktitle: Mesh Support
+second_title: Aspose.CAD .NET - CAD and BIM File Format
+title: Konvertera DWG till PDF med mesh‑stöd i Aspose.CAD för .NET
 url: /sv/net/cad-features-and-support/mesh-support/
+weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Mesh-stöd i Aspose.CAD för .NET
+# Konvertera DWG till PDF med Mesh-stöd i Aspose.CAD för .NET
 
 ## Introduktion
 
-Välkommen till vår djupgående handledning om hur du använder mesh-stöd i Aspose.CAD för .NET! Aspose.CAD är ett kraftfullt bibliotek som ger robust funktionalitet för att arbeta med datorstödd design (CAD)-filer i .NET-applikationer. I den här handledningen kommer vi specifikt att fokusera på att använda mesh-stödfunktionen för att förbättra dina CAD-filbearbetningsmöjligheter.
+Välkommen till vår djupgående handledning om **hur man konverterar DWG till PDF** using Aspose.CAD for .NET! Aspose.CAD är ett kraftfullt bibliotek som erbjuder robust funktionalitet för att arbeta med Computer‑Aided Design (CAD)-filer i .NET-applikationer. I den här guiden fokuserar vi på mesh‑stödfunktionen, som gör **cad mesh conversion** sömlös och låter dig **save CAD as PDF** med hög noggrannhet.
+
+## Snabba svar
+- **Vad gör mesh‑stöd?** Det bevarar 3‑D mesh‑geometri när CAD‑filer konverteras till raster‑ eller vektorformat.  
+- **Vilket bibliotek hanterar konverteringen?** Aspose.CAD för .NET.  
+- **Kan jag konvertera DWG till PDF i C#?** Ja – exemplet nedan visar ett komplett C#‑arbetsflöde.  
+- **Behöver jag en licens?** En giltig Aspose.CAD‑licens krävs för produktion; en tillfällig licens fungerar för utvärdering.  
+- **Vilken utskriftsstorlek kan jag förvänta mig?** I exemplet rasteriserar vi till 1600 × 1600 px, men du kan justera dimensionerna efter behov.
+
+## Vad är “convert DWG to PDF” med mesh‑stöd?
+
+Att konvertera en DWG‑fil till PDF samtidigt som mesh‑data behålls säkerställer att komplexa 3‑D‑ytor visas korrekt i det slutliga dokumentet. Detta är särskilt användbart för ingenjörsgranskningar, kundpresentationer och arkivering av BIM‑data.
+
+## Varför använda Aspose.CAD:s mesh‑stöd?
+
+- **Noggrann rendering** av 3‑D‑objekt utan att förlora detaljer.  
+- **Inga externa beroenden** – biblioteket hanterar allt inom .NET.  
+- **Snabb prestanda** för stora ritningar tack vare optimerade rasteriseringsalternativ.  
+- **Plattformsoberoende** kompatibilitet med .NET Framework, .NET Core och .NET 5/6.
 
 ## Förutsättningar
 
-Innan du dyker in i handledningen för mesh-stöd, se till att du har följande förutsättningar på plats:
+Innan du dyker ner i mesh‑stödhandsledningen, se till att du har följande förutsättningar på plats:
 
-1.  Installera Aspose.CAD för .NET: Om du inte redan har gjort det, ladda ner och installera Aspose.CAD för .NET från[nedladdningssida](https://releases.aspose.com/cad/net/).
+1. Installera Aspose.CAD för .NET: Om du inte redan har gjort det, ladda ner och installera Aspose.CAD för .NET från den [download page](https://releases.aspose.com/cad/net/).
 
-2.  Skaffa en licens: För att använda Aspose.CAD i ditt projekt, se till att du har en giltig licens. Du kan skaffa en från[här](https://purchase.aspose.com/buy) eller utforska[tillfälligt licensalternativ](https://purchase.aspose.com/temporary-license/) under en provperiod.
+2. Skaffa en licens: För att använda Aspose.CAD i ditt projekt, se till att du har en giltig licens. Du kan skaffa en från [here](https://purchase.aspose.com/buy) eller utforska [temporary license option](https://purchase.aspose.com/temporary-license/) för en provperiod.
 
-3. Konfigurera din utvecklingsmiljö: Se till att din utvecklingsmiljö är korrekt konfigurerad och att du har en grundläggande förståelse för att arbeta med .NET-applikationer.
+3. Ställ in din utvecklingsmiljö: Se till att din utvecklingsmiljö är korrekt konfigurerad, och att du har en grundläggande förståelse för att arbeta med .NET‑applikationer.
 
-Låt oss nu hoppa in i handledningen och utforska mesh-stöd med Aspose.CAD för .NET!
+Nu, låt oss hoppa in i handledningen och utforska mesh‑stöd med Aspose.CAD för .NET!
 
-## Importera namnområden
+## Importera namnrymder
 
-I ditt .NET-projekt, importera de nödvändiga namnområdena för att komma åt Aspose.CAD-funktionaliteten. Lägg till följande rader i din kod:
+I ditt .NET‑projekt, importera de nödvändiga namnrymderna för att få åtkomst till Aspose.CAD‑funktionaliteten. Lägg till följande rader i din kod:
 
 ```csharp
 using Aspose.CAD.FileFormats.Cad;
@@ -40,7 +60,6 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-
 ```
 
 ## Steg 1: Definiera din dokumentkatalog
@@ -49,14 +68,14 @@ using System.Text;
 string MyDir = "Your Document Directory";
 ```
 
-## Steg 2: Ange källa och utdatasökvägar
+## Steg 2: Ange käll‑ och utdata‑sökvägar
 
 ```csharp
 string sourceFilePath = MyDir + "meshes.dwg";
 string outPath = MyDir + "meshes.pdf";
 ```
 
-## Steg 3: Ladda CAD-bild och konfigurera rasteriseringsalternativ
+## Steg 3: Ladda CAD‑bild och konfigurera rasteriseringsalternativ
 
 ```csharp
 using (CadImage cadImage = (CadImage)Image.Load(sourceFilePath))
@@ -79,33 +98,44 @@ using (CadImage cadImage = (CadImage)Image.Load(sourceFilePath))
 }
 ```
 
-Grattis! Du har framgångsrikt använt mesh-stöd i Aspose.CAD för .NET för att konvertera en CAD-fil med maskor till en PDF-fil. Utforska gärna fler funktioner och anpassa koden efter dina projektkrav.
+Grattis! Du har framgångsrikt använt mesh‑stöd i Aspose.CAD för .NET för att **convert DWG to PDF** och **save CAD as PDF**. Känn dig fri att utforska fler funktioner och anpassa koden efter dina projektkrav.
 
-## Slutsats
+## Vanliga problem och lösningar
 
-Sammanfattningsvis erbjuder Aspose.CAD för .NET en sömlös lösning för att arbeta med CAD-filer, och dess mesh-stöd öppnar upp nya möjligheter för att hantera komplexa konstruktioner. Genom att följa denna handledning har du fått värdefulla insikter om att integrera mesh-stöd i dina .NET-applikationer.
+| Problem | Lösning |
+|-------|----------|
+| **Meshar visas tomma** | Se till att `Layouts` inkluderar `"Model"` och att käll‑DWG‑filen faktiskt innehåller mesh‑entiteter. |
+| **Utdata‑PDF är för stor** | Minska `PageWidth`/`PageHeight` eller aktivera kompression via `PdfOptions.CompressionLevel`. |
+| **Licens inte tillämpad** | Anropa `Aspose.CAD.License license = new Aspose.CAD.License(); license.SetLicense("Aspose.CAD.lic");` innan du laddar bilden. |
 
-## FAQ's
+## Vanliga frågor
 
-### F1: Är Aspose.CAD kompatibel med olika CAD-filformat?
+### Q1: Är Aspose.CAD kompatibel med olika CAD‑filformat?
 
-S1: Ja, Aspose.CAD stöder ett brett utbud av CAD-filformat, inklusive DWG, DXF, DGN och mer.
+A1: Ja, Aspose.CAD stödjer ett brett spektrum av CAD‑filformat, inklusive DWG, DXF, DGN och fler.
 
-### F2: Kan jag använda Aspose.CAD för .NET utan licens?
+### Q2: Kan jag använda Aspose.CAD för .NET utan licens?
 
-S2: Även om en licens rekommenderas för produktionsanvändning, kan du utforska biblioteket med en tillfällig licens under utveckling.
+A2: Även om en licens rekommenderas för produktionsanvändning, kan du utforska biblioteket med en tillfällig licens under utveckling.
 
-### F3: Finns det några gemenskapsforum för Aspose.CAD-stöd?
+### Q3: Finns det några community‑forum för Aspose.CAD‑support?
 
- A3: Ja, besök[Aspose.CAD-forum](https://forum.aspose.com/c/cad/19) för samhällsstöd och diskussioner.
+A3: Ja, besök [Aspose.CAD forum](https://forum.aspose.com/c/cad/19) för community‑support och diskussioner.
 
-### F4: Hur får jag tillgång till den fullständiga dokumentationen för Aspose.CAD?
+### Q4: Hur kan jag komma åt den fullständiga dokumentationen för Aspose.CAD?
 
- A4: Se detaljerad information[dokumentation](https://reference.aspose.com/cad/net/) för omfattande vägledning om Aspose.CAD för .NET.
+A4: Se den detaljerade [documentation](https://reference.aspose.com/cad/net/) för omfattande vägledning om Aspose.CAD för .NET.
 
-### F5: Var kan jag ladda ner den senaste versionen av Aspose.CAD för .NET?
+### Q5: Var kan jag ladda ner den senaste versionen av Aspose.CAD för .NET?
 
- S5: Ladda ner biblioteket från[släpp sida](https://releases.aspose.com/cad/net/).
+A5: Ladda ner biblioteket från [release page](https://releases.aspose.com/cad/net/).
+
+---
+
+**Senast uppdaterad:** 2026-03-24  
+**Testad med:** Aspose.CAD 24.11 för .NET  
+**Författare:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

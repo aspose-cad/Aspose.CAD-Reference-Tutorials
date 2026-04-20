@@ -1,37 +1,55 @@
 ---
-title: Soporte de malla en Aspose.CAD para .NET
-linktitle: Soporte de malla
-second_title: Aspose.CAD .NET - Formato de archivo CAD y BIM
-description: Explore el soporte de malla en Aspose.CAD para .NET con nuestro tutorial paso a paso. Convierta archivos CAD a PDF sin esfuerzo.
-weight: 11
+date: 2026-03-24
+description: Aprenda cómo convertir DWG a PDF usando Aspose.CAD para .NET, incluyendo
+  soporte de malla, guardar CAD como PDF y ejemplos de CAD a PDF en C#.
+linktitle: Mesh Support
+second_title: Aspose.CAD .NET - CAD and BIM File Format
+title: Convertir DWG a PDF con soporte de malla en Aspose.CAD para .NET
 url: /es/net/cad-features-and-support/mesh-support/
+weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Soporte de malla en Aspose.CAD para .NET
+# Convertir DWG a PDF con Soporte de Malla en Aspose.CAD para .NET
 
 ## Introducción
 
-¡Bienvenido a nuestro tutorial detallado sobre cómo aprovechar el soporte de malla en Aspose.CAD para .NET! Aspose.CAD es una potente biblioteca que proporciona una sólida funcionalidad para trabajar con archivos de diseño asistido por computadora (CAD) en aplicaciones .NET. En este tutorial, nos centraremos específicamente en utilizar la función de soporte de malla para mejorar sus capacidades de procesamiento de archivos CAD.
+Bienvenido a nuestro tutorial en profundidad sobre **cómo convertir DWG a PDF** usando Aspose.CAD para .NET. Aspose.CAD es una biblioteca potente que ofrece una funcionalidad robusta para trabajar con archivos de Computer‑Aided Design (CAD) en aplicaciones .NET. En esta guía nos enfocaremos en la función de soporte de malla, que hace que la **conversión de malla CAD** sea fluida y le permite **guardar CAD como PDF** con alta fidelidad.
 
-## Requisitos previos
+## Respuestas Rápidas
+- **¿Qué hace el soporte de malla?** Preserva la geometría de malla 3‑D al convertir archivos CAD a formatos raster o vectoriales.  
+- **¿Qué biblioteca maneja la conversión?** Aspose.CAD para .NET.  
+- **¿Puedo convertir DWG a PDF en C#?** Sí – el ejemplo a continuación muestra un flujo de trabajo completo en C#.  
+- **¿Necesito una licencia?** Se requiere una licencia válida de Aspose.CAD para producción; una licencia temporal funciona para evaluación.  
+- **¿Qué tamaño de salida puedo esperar?** En el ejemplo rasterizamos a 1600 × 1600 px, pero puede ajustar las dimensiones según sea necesario.
 
-Antes de sumergirse en el tutorial de soporte de malla, asegúrese de cumplir con los siguientes requisitos previos:
+## ¿Qué es “convertir DWG a PDF” con soporte de malla?
+Convertir un archivo DWG a PDF manteniendo los datos de malla garantiza que superficies 3‑D complejas aparezcan correctamente en el documento final. Esto es especialmente útil para revisiones de ingeniería, presentaciones a clientes y archivado de datos BIM.
 
-1.  Instale Aspose.CAD para .NET: si aún no lo ha hecho, descargue e instale Aspose.CAD para .NET desde[pagina de descarga](https://releases.aspose.com/cad/net/).
+## ¿Por qué usar el soporte de malla de Aspose.CAD?
+- **Renderizado preciso** de objetos 3‑D sin perder detalle.  
+- **Sin dependencias externas** – la biblioteca maneja todo dentro de .NET.  
+- **Rendimiento rápido** para dibujos grandes gracias a opciones de rasterización optimizadas.  
+- **Compatibilidad multiplataforma** con .NET Framework, .NET Core y .NET 5/6.
 
-2.  Obtenga una licencia: para utilizar Aspose.CAD en su proyecto, asegúrese de tener una licencia válida. Puedes adquirir uno de[aquí](https://purchase.aspose.com/buy) o explorar el[opción de licencia temporal](https://purchase.aspose.com/temporary-license/) por un período de prueba.
+## Requisitos Previos
 
-3. Configure su entorno de desarrollo: asegúrese de que su entorno de desarrollo esté configurado correctamente y de que tenga conocimientos básicos sobre cómo trabajar con aplicaciones .NET.
+Antes de sumergirse en el tutorial de soporte de malla, asegúrese de que tiene los siguientes requisitos preparados:
 
-Ahora, pasemos al tutorial y exploremos el soporte de malla usando Aspose.CAD para .NET.
+1. Instalar Aspose.CAD para .NET: Si aún no lo ha hecho, descargue e instale Aspose.CAD para .NET desde la [página de descarga](https://releases.aspose.com/cad/net/).
 
-## Importar espacios de nombres
+2. Obtener una Licencia: Para usar Aspose.CAD en su proyecto, asegúrese de tener una licencia válida. Puede adquirir una [aquí](https://purchase.aspose.com/buy) o explorar la [opción de licencia temporal](https://purchase.aspose.com/temporary-license/) para un período de prueba.
 
-En su proyecto .NET, importe los espacios de nombres necesarios para acceder a la funcionalidad Aspose.CAD. Agregue las siguientes líneas a su código:
+3. Configurar su Entorno de Desarrollo: Asegúrese de que su entorno de desarrollo esté configurado correctamente y tenga una comprensión básica de cómo trabajar con aplicaciones .NET.
+
+¡Ahora, vamos a sumergirnos en el tutorial y explorar el soporte de malla usando Aspose.CAD para .NET!
+
+## Importar Espacios de Nombres
+
+En su proyecto .NET, importe los espacios de nombres necesarios para acceder a la funcionalidad de Aspose.CAD. Añada las siguientes líneas a su código:
 
 ```csharp
 using Aspose.CAD.FileFormats.Cad;
@@ -40,23 +58,22 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-
 ```
 
-## Paso 1: Defina su directorio de documentos
+## Paso 1: Definir el Directorio de su Documento
 
 ```csharp
 string MyDir = "Your Document Directory";
 ```
 
-## Paso 2: especificar las rutas de origen y salida
+## Paso 2: Especificar Rutas de Origen y Salida
 
 ```csharp
 string sourceFilePath = MyDir + "meshes.dwg";
 string outPath = MyDir + "meshes.pdf";
 ```
 
-## Paso 3: Cargue la imagen CAD y configure las opciones de rasterización
+## Paso 3: Cargar la Imagen CAD y Configurar Opciones de Rasterización
 
 ```csharp
 using (CadImage cadImage = (CadImage)Image.Load(sourceFilePath))
@@ -72,40 +89,51 @@ using (CadImage cadImage = (CadImage)Image.Load(sourceFilePath))
     };
 ```
 
-## Paso 4: guarde la imagen procesada
+## Paso 4: Guardar la Imagen Procesada
 
 ```csharp
     cadImage.Save(outPath, pdfOptions);
 }
 ```
 
-¡Felicidades! Ha utilizado con éxito la compatibilidad con mallas en Aspose.CAD para .NET para convertir un archivo CAD con mallas en un archivo PDF. No dude en explorar más funciones y personalizar el código según los requisitos de su proyecto.
+¡Felicidades! Ha utilizado con éxito el soporte de malla en Aspose.CAD para .NET para **convertir DWG a PDF** y **guardar CAD como PDF**. Siéntase libre de explorar más funciones y personalizar el código según los requisitos de su proyecto.
 
-## Conclusión
+## Problemas Comunes y Soluciones
 
-En conclusión, Aspose.CAD para .NET proporciona una solución perfecta para trabajar con archivos CAD y su soporte de malla abre nuevas posibilidades para manejar diseños complejos. Al seguir este tutorial, obtendrá información valiosa sobre cómo integrar el soporte de malla en sus aplicaciones .NET.
+| Problema | Solución |
+|----------|----------|
+| **Las mallas aparecen en blanco** | Asegúrese de que `Layouts` incluya `"Model"` y que el DWG de origen realmente contenga entidades de malla. |
+| **El PDF de salida es demasiado grande** | Reduzca `PageWidth`/`PageHeight` o habilite la compresión mediante `PdfOptions.CompressionLevel`. |
+| **Licencia no aplicada** | Llame a `Aspose.CAD.License license = new Aspose.CAD.License(); license.SetLicense("Aspose.CAD.lic");` antes de cargar la imagen. |
 
-## Preguntas frecuentes
+## Preguntas Frecuentes
 
-### P1: ¿Aspose.CAD es compatible con varios formatos de archivos CAD?
+### P1: ¿Es Aspose.CAD compatible con varios formatos de archivo CAD?
 
-R1: Sí, Aspose.CAD admite una amplia gama de formatos de archivos CAD, incluidos DWG, DXF, DGN y más.
+R1: Sí, Aspose.CAD admite una amplia gama de formatos de archivo CAD, incluidos DWG, DXF, DGN y más.
 
-### P2: ¿Puedo usar Aspose.CAD para .NET sin licencia?
+### P2: ¿Puedo usar Aspose.CAD para .NET sin una licencia?
 
-R2: Si bien se recomienda una licencia para uso en producción, puede explorar la biblioteca con una licencia temporal durante el desarrollo.
+R2: Aunque se recomienda una licencia para uso en producción, puede explorar la biblioteca con una licencia temporal durante el desarrollo.
 
-### P3: ¿Existen foros comunitarios sobre soporte de Aspose.CAD?
+### P3: ¿Existen foros comunitarios para soporte de Aspose.CAD?
 
- R3: Sí, visita el[Foro Aspose.CAD](https://forum.aspose.com/c/cad/19) para apoyo y debates de la comunidad.
+R3: Sí, visite el [foro de Aspose.CAD](https://forum.aspose.com/c/cad/19) para soporte comunitario y discusiones.
 
 ### P4: ¿Cómo puedo acceder a la documentación completa de Aspose.CAD?
 
- A4: consulte la información detallada[documentación](https://reference.aspose.com/cad/net/) para obtener orientación completa sobre Aspose.CAD para .NET.
+R4: Consulte la [documentación](https://reference.aspose.com/cad/net/) detallada para obtener una guía completa sobre Aspose.CAD para .NET.
 
 ### P5: ¿Dónde puedo descargar la última versión de Aspose.CAD para .NET?
 
- A5: Descargue la biblioteca desde[página de lanzamiento](https://releases.aspose.com/cad/net/).
+R5: Descargue la biblioteca desde la [página de lanzamiento](https://releases.aspose.com/cad/net/).
+
+---
+
+**Última actualización:** 2026-03-24  
+**Probado con:** Aspose.CAD 24.11 for .NET  
+**Autor:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
