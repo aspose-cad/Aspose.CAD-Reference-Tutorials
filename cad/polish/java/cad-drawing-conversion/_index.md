@@ -1,11 +1,11 @@
 ---
-date: 2025-12-14
-description: Naucz się eksportować pliki DWG do PDF, konwertować DWG na raster oraz
-  przekształcać DWT do DXF przy użyciu Aspose.CAD dla Javy. Przewodniki krok po kroku
+date: 2026-02-17
+description: Dowiedz się, jak eksportować DWG do PDF przy użyciu Aspose.CAD for Java,
+  konwertować DWG na raster oraz przekształcać DWT na DXF. Przewodniki krok po kroku
   dla przepływów pracy Java CAD do PDF.
 linktitle: Export DWG to PDF
 second_title: Aspose.CAD Java API
-title: Eksportuj DWG do PDF i konwertuj rysunki CAD – samouczek Aspose.CAD Java
+title: Jak wyeksportować DWG do PDF – Poradnik Aspose.CAD Java
 url: /pl/java/cad-drawing-conversion/
 weight: 20
 ---
@@ -14,90 +14,96 @@ weight: 20
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Eksportuj DWG do PDF i konwertuj rysunki CAD
+# Jak wyeksportować DWG do PDF przy użyciu Aspose.CAD dla Javy
 
 ## Wprowadzenie
 
-Odblokuj pełny potencjał swoich rysunków CAD dzięki Aspose.CAD for Java. Niezależnie od tego, czy jesteś doświadczonym profesjonalistą, czy dopiero zaczynasz, nasze samouczki krok‑po‑kroku poprowadzą Cię przez płynne **export dwg to pdf** konwersje, generowanie obrazów rastrowych oraz inne typowe zadania manipulacji CAD. Odkryjesz, jak konwertować DWG na raster, eksportować konkretne układy oraz nawet zamienić pliki DWT na DXF — wszystko przy użyciu czystego kodu Java i bez zewnętrznych zależności.
+W tym samouczku dowiesz się **jak wyeksportować dwg pdf** przy użyciu Aspose.CAD dla Javy, co umożliwia konwersję rysunków DWG do PDF, obrazów rastrowych i wielu innych formatów. Niezależnie od tego, czy jesteś doświadczonym specjalistą CAD, czy dopiero zaczynasz, nasze przewodniki krok po kroku pokażą, jak wykonywać typowe zadania manipulacji CAD bez żadnych zewnętrznych zależności.
 
 ## Szybkie odpowiedzi
-- **What is the easiest way to export DWG to PDF in Java?** Use Aspose.CAD’s `PdfOptions` together with the `Image.save` method.  
-- **Can I convert a DWG file directly to a raster image?** Yes, Aspose.CAD supports conversion to PNG, JPEG, BMP, and more.  
-- **Is it possible to export only a single layout from a DWG?** Absolutely—select the layout by name or index before saving.  
-- **Do I need a license for production use?** A commercial license is required for production; a free trial is available for evaluation.  
-- **Which secondary formats are supported?** Besides PDF, you can export to raster formats, DXF, and other CAD‑compatible types.
+- **Jaki jest najłatwiejszy sposób wyeksportowania DWG do PDF w Javie?** Użyj `PdfOptions` z Aspose.CAD razem z metodą `Image.save`.  
+- **Czy mogę bezpośrednio przekonwertować plik DWG na obraz rastrowy?** Tak, Aspose.CAD obsługuje konwersję do PNG, JPEG, BMP i innych.  
+- **Czy można wyeksportować tylko pojedynczy układ z pliku DWG?** Oczywiście — wybierz układ po nazwie lub indeksie przed zapisem.  
+- **Czy potrzebna jest licencja do użytku produkcyjnego?** Wymagana jest licencja komercyjna do produkcji; dostępna jest darmowa wersja próbna do oceny.  
+- **Jakie dodatkowe formaty są obsługiwane?** Oprócz PDF możesz eksportować do formatów rastrowych, DXF i innych typów zgodnych z CAD.
 
-## Co to jest „export dwg to pdf”?
+## Jak wyeksportować DWG do PDF
 
 Eksportowanie pliku DWG do PDF tworzy dokument niezależny od urządzenia, gotowy do udostępnienia, który zachowuje dokładną wierność wizualną oryginalnego rysunku. Jest to szczególnie przydatne przy przeglądach klienta, dokumentacji lub archiwizacji, gdy odbiorca może nie mieć zainstalowanego oprogramowania CAD.
 
-## Dlaczego używać Aspose.CAD for Java?
+## Dlaczego używać Aspose.CAD dla Javy?
 
-- **No external CAD software required** – all processing happens inside your Java application.  
-- **High‑quality rendering** – vector‑to‑raster conversion retains line weights, layers, and colors.  
-- **Full format support** – DWG, DWF, DWT, DXF, and many raster outputs.  
-- **Thread‑safe API** – suitable for server‑side batch processing.
+- **Brak wymaganego zewnętrznego oprogramowania CAD** – całe przetwarzanie odbywa się wewnątrz Twojej aplikacji Java.  
+- **Renderowanie wysokiej jakości** – konwersja wektor‑do‑rastra zachowuje grubość linii, warstwy i kolory.  
+- **Pełne wsparcie formatów** – DWG, DWF, DWT, DXF oraz wiele wyjść rastrowych.  
+- **API bezpieczne wątkowo** – odpowiednie do przetwarzania wsadowego po stronie serwera.
 
-## Konwertuj rysunek CAD do formatu obrazu rastrowego
+## Konwersja rysunku CAD do formatu obrazu rastrowego
 
-Discover the simplicity behind converting CAD drawings to raster images. Our tutorial walks you through the process using Aspose.CAD for Java, ensuring efficient integration and optimal visualization. Follow the steps and elevate your CAD experience.
+Odkryj prostotę konwersji rysunków CAD do obrazów rastrowych. Nasz samouczek przeprowadzi Cię przez proces przy użyciu Aspose.CAD dla Javy, zapewniając efektywną integrację i optymalną wizualizację. Postępuj zgodnie z krokami i podnieś swoje doświadczenie z CAD.
 
-## Konwertuj warstwę CAD do formatu obrazu rastrowego
+## Konwersja warstwy CAD do formatu obrazu rastrowego
 
-Effortlessly transform CAD layers into high‑quality raster images. Aspose.CAD for Java makes it easy, and our step‑by‑step guide ensures you navigate the process seamlessly. Enhance your document visualization with precision and clarity.
+Bez wysiłku przekształć warstwy CAD w wysokiej jakości obrazy rastrowe. Aspose.CAD dla Javy ułatwia to zadanie, a nasz przewodnik krok po kroku zapewnia płynne przejście przez proces. Popraw wizualizację dokumentu dzięki precyzji i klarowności.
 
-## Konwertuj układ CAD do formatu obrazu rastrowego
+## Konwersja układu CAD do formatu obrazu rastrowego
 
-Streamline collaboration by converting CAD layouts to raster images effortlessly. Aspose.CAD for Java empowers you to achieve high‑quality visualization. Follow our guide to enhance collaboration and communication within your CAD projects.
+Usprawnij współpracę, konwertując układy CAD na obrazy rastrowe bez wysiłku. Aspose.CAD dla Javy umożliwia osiągnięcie wysokiej jakości wizualizacji. Postępuj zgodnie z naszym przewodnikiem, aby zwiększyć współpracę i komunikację w projektach CAD.
 
-## Eksportuj DWG do PDF lub obrazu rastrowego
+## Eksport DWG do PDF lub rastrowego
 
-Navigate the intricate process of exporting DWG files to PDF or raster images with Aspose.CAD for Java. Our step‑by‑step guide guarantees precision and efficiency in every export. Optimize your CAD workflow and ensure your files are accessible in multiple formats.
+Przejdź przez złożony proces eksportowania plików DWG do PDF lub obrazów rastrowych przy użyciu Aspose.CAD dla Javy. Nasz przewodnik krok po kroku zapewnia precyzję i wydajność przy każdym eksporcie. Optymalizuj swój przepływ pracy CAD i zapewnij dostępność plików w wielu formatach.
 
-## Eksportuj konkretny układ DWG do PDF
+## Eksport konkretnego układu DWG do PDF
 
-Tailor your exports with precision by learning how to export specific DWG layouts to PDF. Aspose.CAD for Java provides the tools, and our guide offers a straightforward, step‑by‑step approach. Optimize your CAD workflow effortlessly and showcase the layouts that matter most.
+Dopasuj eksporty z precyzją, ucząc się, jak wyeksportować konkretne układy DWG do PDF. Aspose.CAD dla Javy dostarcza narzędzia, a nasz przewodnik oferuje prostą, krok po kroku metodę. Optymalizuj przepływ pracy CAD bez wysiłku i pokaż najważniejsze układy.
 
-## Konwertuj DWT do formatu DXF
+## Konwersja DWT do formatu DXF
 
-Dive into the world of CAD file manipulation by seamlessly converting **convert dwt to dxf**. Aspose.CAD for Java simplifies proces, and our step‑by‑step guide ensures efficiency. Elevate your CAD skills and explore new possibilities with our comprehensive tutorial.
+Zanurz się w świat manipulacji plikami CAD, płynnie konwertując **convert dwt to dxf**. Aspose.CAD dla Javy upraszcza proces, a nasz przewodnik krok po kroku zapewnia wydajność. Podnieś swoje umiejętności CAD i odkryj nowe możliwości dzięki naszemu kompleksowemu samouczkowi.
 
-Whether you're looking to **convert dwg to raster**, optimize your CAD workflow, or explore new dimensions in CAD file manipulation, our tutorials using Aspose.CAD for Java offer a rich and detailed guide. Transform your CAD experience today and unlock the true potential of your drawings.
+Niezależnie od tego, czy chcesz **convert dwg to raster**, zoptymalizować swój przepływ pracy CAD, czy odkrywać nowe wymiary manipulacji plikami CAD, nasze samouczki z użyciem Aspose.CAD dla Javy oferują bogaty i szczegółowy przewodnik. Przekształć swoje doświadczenie CAD już dziś i odblokuj prawdziwy potencjał swoich rysunków.
 
 ## Samouczki konwersji rysunków CAD
-### [Convert CAD Drawing to Raster Image Format Using Aspose.CAD for Java](./convert-cad-drawing-to-raster-image/)
+### [Konwersja rysunku CAD do formatu obrazu rastrowego przy użyciu Aspose.CAD dla Javy](./convert-cad-drawing-to-raster-image/)
 Explore the seamless conversion of CAD drawings to raster images using Aspose.CAD for Java. Follow our step‑by‑step guide for efficient integration.
-### [Convert CAD Layer to Raster Image Format Using Aspose.CAD for Java](./convert-cad-layer-to-raster-image/)
+### [Konwersja warstwy CAD do formatu obrazu rastrowego przy użyciu Aspose.CAD dla Javy](./convert-cad-layer-to-raster-image/)
 Learn how to convert CAD layers to raster images effortlessly with Aspose.CAD for Java. Follow our step‑by‑step guide for seamless document visualization.
-### [Convert CAD Layout to Raster Image Format Using Aspose.CAD for Java](./convert-cad-layout-to-raster-image/)
+### [Konwersja układu CAD do formatu obrazu rastrowego przy użyciu Aspose.CAD dla Javy](./convert-cad-layout-to-raster-image/)
 Effortlessly convert CAD layouts to raster images using Aspose.CAD for Java. High‑quality visualization for enhanced collaboration.
-### [Export DWG to PDF or Raster Using Aspose.CAD for Java](./export-dwg-to-pdf-or-raster/)
+### [Eksport DWG do PDF lub rastrowego przy użyciu Aspose.CAD dla Javy](./export-dwg-to-pdf-or-raster/)
 Explore the seamless process of exporting DWG files to PDF or raster images in Java using Aspose.CAD. This step‑by‑step guide ensures precision and efficiency.
-### [Export Specific DWG Layout to PDF Using Aspose.CAD for Java](./export-specific-dwg-layout-to-pdf/)
+### [Eksport konkretnego układu DWG do PDF przy użyciu Aspose.CAD dla Javy](./export-specific-dwg-layout-to-pdf/)
 Explore the step‑by‑step guide to export specific DWG layouts to PDF using Aspose.CAD for Java. Optimize your CAD workflow effortlessly.
-### [Convert DWT to DXF Format Using Aspose.CAD for Java](./convert-dwt-to-dxf/)
+### [Konwersja DWT do formatu DXF przy użyciu Aspose.CAD dla Javy](./convert-dwt-to-dxf/)
 Explore the seamless conversion of DWT to DXF with Aspose.CAD for Java. Follow our step‑by‑step guide for efficient CAD file manipulation.
 
 ## Najczęściej zadawane pytania
 
-**Q: How do I export a DWG file to PDF without losing layer information?**  
-A: Use `PdfOptions` and set `PdfOptions.setVectorRasterizationMode(VectorRasterizationMode.Vector)` to retain vector data, then call `image.save("output.pdf", options);`.
+**Q: Jak wyeksportować plik DWG do PDF bez utraty informacji o warstwach?**  
+A: Użyj `PdfOptions` i ustaw `PdfOptions.setVectorRasterizationMode(VectorRasterizationMode.Vector)`, aby zachować dane wektorowe, a następnie wywołaj `image.save("output.pdf", options);`.
 
-**Q: Can I batch‑process multiple DWG files to PDF in one run?**  
-A: Yes—loop through your file collection, load each with `Image.load`, and save using the same PDF options.
+**Q: Czy mogę przetwarzać wsadowo wiele plików DWG do PDF w jednym uruchomieniu?**  
+A: Tak — przeiteruj swoją kolekcję plików, załaduj każdy za pomocą `Image.load` i zapisz używając tych samych opcji PDF.
 
-**Q: Is there a way to convert a DWT template directly to DXF?**  
-A: Absolutely. Load the DWT with `Image.load` and save it as DXF using `image.save("output.dxf");`.
+**Q: Czy istnieje sposób, aby bezpośrednio przekonwertować szablon DWT do DXF?**  
+A: Oczywiście. Załaduj DWT za pomocą `Image.load` i zapisz go jako DXF używając `image.save("output.dxf");`.
 
-**Q: What Java versions are supported by Aspose.CAD?**  
-A: The library works with Java 8 and newer, including Java 11, 17, and later LTS releases.
+**Q: Jakie wersje Javy są obsługiwane przez Aspose.CAD?**  
+A: Biblioteka działa z Javą 8 i nowszą, w tym Java 11, 17 oraz późniejszymi wersjami LTS.
 
-**Q: Do I need a separate license for PDF export?**  
-A: No, the Aspose.CAD license covers all output formats, including PDF, raster images, and DXF.
+**Q: Czy potrzebuję osobnej licencji na eksport PDF?**  
+A: Nie, licencja Aspose.CAD obejmuje wszystkie formaty wyjściowe, w tym PDF, obrazy rastrowe i DXF.
+
+**Q: Jak mogę poprawić szybkość renderowania przy konwersji dużych plików DWG?**  
+A: Włącz wielowątkowość, przetwarzając każdy układ w osobnym wątku i ponownie używaj jednej instancji `PdfOptions`, aby zmniejszyć narzut.
+
+**Q: Czy mogę ustawić niestandardowy rozmiar strony dla eksportowanego PDF?**  
+A: Tak, skonfiguruj `PdfOptions` przy użyciu `PdfOptions.setPageSize(PageSize.A4)` (lub innego rozmiaru) przed zapisem.
 
 ---
 
-**Last Updated:** 2025-12-14  
+**Last Updated:** 2026-02-17  
 **Tested With:** Aspose.CAD for Java 24.12  
 **Author:** Aspose
 

@@ -1,11 +1,11 @@
 ---
-date: 2025-12-13
-description: Aprende cómo guardar CAD como JPEG en Java usando Aspose.CAD, agregar
+date: 2026-02-17
+description: Aprende cómo guardar DWG como JPEG en Java usando Aspose.CAD, agregar
   múltiples capas y ajustar las dimensiones del CAD para una conversión de imagen
   precisa.
 linktitle: Support of Layers in CAD
 second_title: Aspose.CAD Java API
-title: Guardar CAD como JPEG con soporte de capas en Java
+title: Guardar DWG como JPEG con soporte de capas en Java
 url: /es/java/advanced-cad-features/support-of-layers-in-cad/
 weight: 18
 ---
@@ -14,18 +14,26 @@ weight: 18
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Guardar CAD como JPEG con Soporte de Capas en Java
+# Guardar DWG como JPEG con soporte de capas en Java
 
 ## Introducción
 
-En este tutorial descubrirás cómo **guardar CAD como JPEG** aprovechando al máximo el soporte de capas en Aspose.CAD para Java. Las capas te permiten aislar partes específicas de un dibujo, facilitando la exportación solo de lo que necesitas. Recorreremos cada paso, desde la configuración del entorno hasta la exportación de un JPEG que incluya únicamente las capas que elijas.
+En este tutorial descubrirás cómo **guardar DWG como JPEG** aprovechando al máximo el soporte de capas en Aspose.CAD para Java. Las capas te permiten aislar partes específicas de un dibujo, facilitando la exportación solo de lo que necesitas. Recorreremos cada paso, desde la configuración del entorno hasta la exportación de un JPEG que incluya únicamente las capas que elijas.
 
 ## Respuestas rápidas
-- **¿Qué significa “guardar CAD como JPEG”?** Convierte un dibujo CAD en una imagen raster JPEG.
-- **¿Puedo incluir solo capas seleccionadas?** Sí – usa el método `setLayers` para especificar qué capas renderizar.
-- **¿Cómo cambio el tamaño de la imagen?** Ajusta `setPageWidth` y `setPageHeight` en `CadRasterizationOptions`.
-- **¿Es una solución solo para Java?** El ejemplo usa Aspose.CAD para Java, pero los mismos conceptos se aplican a otros lenguajes.
+- **¿Qué significa “guardar DWG como JPEG”?** Convierte un dibujo DWG (u otro CAD) en una imagen raster JPEG.  
+- **¿Puedo incluir solo capas seleccionadas?** Sí – usa el método `setLayers` para especificar qué capas renderizar.  
+- **¿Cómo cambio el tamaño de la imagen?** Ajusta `setPageWidth` y `setPageHeight` en `CadRasterizationOptions`.  
+- **¿Es una solución solo para Java?** El ejemplo utiliza Aspose.CAD para Java, pero los mismos conceptos se aplican a otros lenguajes.  
 - **¿Necesito una licencia?** Una prueba gratuita funciona para pruebas; se requiere una licencia comercial para producción.
+
+## ¿Qué es “guardar DWG como JPEG”?
+Guardar DWG como JPEG significa rasterizar un archivo CAD vectorial (DWG, DWF, DXF, etc.) en un bitmap JPEG estándar. Esto es útil cuando necesitas incrustar dibujos CAD en páginas web, correos electrónicos o informes que solo admiten imágenes raster.
+
+## ¿Por qué usar conversión JPEG con conocimiento de capas?
+- **Enfócate en los datos relevantes:** Exporta solo las capas que necesitas, reduciendo el tamaño del archivo y el desorden visual.  
+- **Mantén la intención del diseño:** Las capas preservan la agrupación lógica de objetos, de modo que puedes reutilizar el mismo archivo fuente para diferentes salidas.  
+- **Control total sobre dimensiones:** Al ajustar las opciones de rasterización puedes producir imágenes de alta resolución que coincidan con los requisitos de publicación.
 
 ## Requisitos previos
 
@@ -34,7 +42,7 @@ Antes de comenzar, asegúrate de contar con lo siguiente:
 1. **Biblioteca Aspose.CAD para Java** – descárgala desde el [sitio web](https://releases.aspose.com/cad/java/). Sigue la guía de instalación para agregar los archivos JAR al classpath de tu proyecto.  
 2. **Entorno de desarrollo Java** – un JDK reciente (8 o superior) instalado en tu máquina.
 
-Ahora que estamos listos, exploremos el código necesario para **guardar CAD como JPEG** con renderizado selectivo de capas.
+Ahora que estamos listos, exploremos el código necesario para **guardar DWG como JPEG** con renderizado selectivo de capas.
 
 ## Importar espacios de nombres
 
@@ -82,14 +90,16 @@ rasterizationOptions.setPageHeight(1600);
 
 ### Paso 4: Especificar capas (Agregar múltiples capas)
 
-Si deseas renderizar más de una capa, simplemente agrega sus nombres a la lista. Aquí comenzamos con una sola capa llamada “LayerA```java
+Si deseas renderizar más de una capa, simplemente agrega sus nombres a la lista. Aquí comenzamos con una sola capa llamada “LayerA”.
+
+```java
 List<String> stringList = new ArrayList<>(Arrays.asList("LayerA"));
 rasterizationOptions.setLayers(stringList);
 ```
 
-*Consejo profesional:* Para **agregar múltiples capas**, amplía la llamada `Arrays.asList`, por ejemplo, `Arrays.asList("LayerA", "LayerB", "LayerC")`.
+*Consejo profesional:* Para **agregar múltiples capas**, amplía la llamada `Arrays.asList`, por ejemplo, `Arrays.asList("LayerA", "LayerB", "LayerC")`. Esto te permite **seleccionar capas CAD específicas** para la conversión.
 
-### Paso 5: Configurar opciones JPEG (Convertir CAD a imagen JPEG en Java)
+### Paso 5: Configurar opciones JPEG (Convertir imagen CAD en Java)
 
 Vincula la configuración de rasterización al formato de salida JPEG.
 
@@ -98,7 +108,7 @@ JpegOptions jpegOptions = new JpegOptions();
 jpegOptions.setVectorRasterizationOptions(rasterizationOptions);
 ```
 
-### Paso 6: Exportar a JPG (Guardar CAD como JPEG)
+### Paso 6: Exportar a JPG (Guardar DWG como JPEG)
 
 Finalmente, escribe la imagen en disco. Este paso **guarda el dibujo CAD como un archivo JPEG** que contiene solo las capas seleccionadas.
 
@@ -106,7 +116,11 @@ Finalmente, escribe la imagen en disco. Este paso **guarda el dibujo CAD como un
 image.save(outFile, jpegOptions);
 ```
 
-Al seguir estos pasos, has guardado con éxito **CAD como JPEG** mientras controlas qué capas aparecen y personalizas las dimensiones de la imagen.
+Al seguir estos pasos has guardado con éxito **DWG como JPEG** mientras controlas qué capas aparecen y personalizas las dimensiones de la imagen.
+
+## Cómo convertir DWF a JPEG con selección de capas
+
+Aunque el ejemplo usa un origen DWF, la misma canalización de rasterización funciona para cualquier formato CAD compatible (DWG, DXF, DGN, etc.). Simplemente cambia la extensión del archivo en `srcFile` y la biblioteca manejará automáticamente la operación de **convertir DWF a JPEG** (u otro formato).
 
 ## Problemas comunes y soluciones
 
@@ -135,7 +149,7 @@ R: Únete a la comunidad de Aspose.CAD en el [foro](https://forum.aspose.com/c/c
 
 ---
 
-**Última actualización:** 2025-12-13  
+**Última actualización:** 2026-02-17  
 **Probado con:** Aspose.CAD para Java 24.11  
 **Autor:** Aspose  
 

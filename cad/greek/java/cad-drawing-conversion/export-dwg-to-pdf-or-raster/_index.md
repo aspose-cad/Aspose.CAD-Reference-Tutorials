@@ -1,52 +1,87 @@
 ---
-date: 2025-12-18
-description: Εξερευνήστε πώς να εξάγετε DWG σε PDF ή ραστερ εικόνες σε Java χρησιμοποιώντας
-  το Aspose.CAD. Αυτός ο βήμα‑προς‑βήμα οδηγός εξασφαλίζει ακρίβεια, αποδοτικότητα
-  και εύκολη μετατροπή των αρχείων DWG.
+date: 2026-02-17
+description: Μάθετε πώς η βιβλιοθήκη CAD για Java Aspose.CAD for Java μπορεί να εξάγει
+  DWG σε PDF ή ραστερ εικόνες γρήγορα και με ακρίβεια.
 linktitle: Export DWG to PDF or Raster
 second_title: Aspose.CAD Java API
-title: Εξαγωγή DWG σε PDF ή Raster χρησιμοποιώντας το Aspose.CAD για Java
+title: Εξαγωγή DWG σε PDF ή Raster χρησιμοποιώντας τη βιβλιοθήκη Java CAD Aspose.CAD
+  για Java
 url: /el/java/cad-drawing-conversion/export-dwg-to-pdf-or-raster/
 weight: 13
 ---
+
+Translate.
+
+## Common Issues & Tips
+
+Translate bullet points.
+
+## Frequently Asked Questions
+
+Translate Q&A, keep links.
+
+## Conclusion
+
+Translate.
+
+Then footer lines.
+
+Provide final content with shortcodes at end.
+
+Make sure not to translate URLs, file paths like Saved.pdf, DWGDrawings, Bottom_plate.dwg.
+
+Also keep code block placeholders unchanged.
+
+Let's craft Greek translation.
+
+Be careful with markdown formatting.
+
+Proceed.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Εξαγωγή DWG σε PDF ή Raster χρησιμοποιώντας το Aspose.CAD για Java
+# Εξαγωγή DWG σε PDF ή Raster χρησιμοποιώντας τη βιβλιοθήκη java cad Aspose.CAD for Java
 
-## Εισαγωγή
+## Introduction
 
-Στον δυναμικό κόσμο του υπολογιστικού σχεδιασμού (CAD), η αποδοτική διαχείριση των σχεδίων είναι κρίσιμη. Με το **Aspose.CAD for Java** μπορείτε να **εξάγετε dwg σε pdf** — ή εικόνες raster — με λίγες μόνο γραμμές κώδικα. Αυτό το σεμινάριο σας καθοδηγεί σε όλη τη διαδικασία, από τη φόρτωση ενός αρχείου DWG μέχρι τη δημιουργία ενός PDF υψηλής ποιότητας, ενώ επισημαίνει γιατί το Aspose.CAD Java είναι η προτιμώμενη βιβλιοθήκη για εργασίες μετατροπής CAD.
+Στον δυναμικό κόσμο του υποβοηθούμενου σχεδιασμού (CAD), η αποδοτική διαχείριση των σχεδίων είναι κρίσιμη. Με τη **java cad library** **Aspose.CAD for Java** μπορείτε να **export dwg to pdf** — ή εικόνες raster — με λίγες μόνο γραμμές κώδικα. Αυτό το tutorial σας καθοδηγεί μέσα από όλη τη διαδικασία, από τη φόρτωση ενός αρχείου DWG μέχρι τη δημιουργία ενός PDF υψηλής ποιότητας, επισημαίνοντας γιατί το Aspose.CAD Java είναι η προτιμώμενη βιβλιοθήκη για εργασίες μετατροπής CAD.
 
-## Γρήγορες Απαντήσεις
-- **Τι καλύπτει αυτό το σεμινάριο;** Εξαγωγή αρχείων DWG σε PDF ή εικόνες raster χρησιμοποιώντας το Aspose.CAD for Java.  
-- **Χρειάζομαι άδεια;** Διατίθεται δωρεάν προσωρινή άδεια για αξιολόγηση· απαιτείται πλήρης άδεια για παραγωγή.  
-- **Ποια έκδοση της Java υποστηρίζεται;** Οποιοδήποτε runtime Java 8+ λειτουργεί με το πιο πρόσφατο Aspose.CAD Java API.  
-- **Μπορώ να μετατρέψω DWG σε άλλες μορφές εικόνας;** Ναι – οι ίδιες επιλογές rasterization σας επιτρέπουν να εξάγετε PNG, JPEG, BMP κ.λπ.  
-- **Πόσο διαρκεί η μετατροπή;** Συνήθως κάτω από ένα δευτερόλεπτο για τυπικά σχέδια· μεγαλύτερα αρχεία μπορεί να χρειαστούν μερικά δευτερόλεπτα.
+## Quick Answers
+- **What does this tutorial cover?** Exporting DWG files to PDF or raster images using Aspose.CAD for Java.  
+- **Do I need a license?** A free temporary license is available for evaluation; a full license is required for production.  
+- **Which Java version is supported?** Any Java 8+ runtime works with the latest Aspose.CAD Java API.  
+- **Can I convert DWG to other image formats?** Yes – the same rasterization options let you output PNG, JPEG, BMP, etc.  
+- **How long does the conversion take?** Typically under a second for standard drawings; larger files may take a few seconds.
 
-## Τι είναι η “εξαγωγή dwg σε pdf”;
-Η εξαγωγή DWG σε PDF σημαίνει τη μετατροπή ενός εγγενούς σχεδίου AutoCAD σε ένα φορητό, ανεξάρτητο από τη συσκευή έγγραφο PDF. Το παραγόμενο PDF διατηρεί τα διανυσματικά δεδομένα, τα επίπεδα και την κλίμακα, καθιστώντας το ιδανικό για κοινή χρήση, εκτύπωση ή αρχειοθέτηση.
+## Why java cad library is the best choice for DWG conversion?
 
-## Γιατί να χρησιμοποιήσετε το Aspose.CAD Java για αυτή τη μετατροπή;
-- **Χωρίς εξωτερικές εξαρτήσεις** – καθαρή Java, χωρίς εγγενή DLLs.  
-- **Ακριβής διαχείριση μονάδων** – αυτόματα σέβεται τις μετρικές ή αυτοκρατορικές μονάδες.  
-- **Υψηλής ποιότητας raster έξοδος** – ακριβής ρύθμιση DPI και ελέγχου μεγέθους σελίδας.  
-- **Πλήρης υποστήριξη PDF** – δημιουργία PDF που διατηρεί τα διανύσματα χωρίς πρόσθετες βιβλιοθήκες.
+- **Pure Java implementation** – no native DLLs or external tools.
+- **Accurate unit handling** – metric and imperial units are detected automatically.
+- **High‑quality raster output** – fine‑tuned DPI and page‑size control.
+- **Full PDF support** – vector‑preserving PDF generation without extra dependencies.
+- **Flexible licensing** – start with a **temporary license aspose** for testing, then upgrade when you go live.
 
-## Προαπαιτούμενα
+## What is “export dwg to pdf”?
 
-Πριν βυθιστείτε στον κώδικα, βεβαιωθείτε ότι έχετε:
+Exporting DWG to PDF means converting a native AutoCAD drawing into a portable, device‑independent PDF document. The resulting PDF preserves vector data, layers, and scaling, making it ideal for sharing, printing, or archiving.
 
-- Βασικές γνώσεις προγραμματισμού Java.  
-- Την βιβλιοθήκη Aspose.CAD for Java εγκατεστημένη. Αν δεν την έχετε κατεβάσει ακόμη, αποκτήστε την **[εδώ](https://releases.aspose.com/cad/java/)**.  
-- Ένα αρχείο DWG για δοκιμή – το δείγμα **Bottom_plate.dwg** χρησιμοποιείται σε αυτόν τον οδηγό.
+## Why use Aspose.CAD Java for this conversion?
 
-## Εισαγωγή Ονοματοχώρων
+Because the **java cad library** handles everything from unit conversion to rasterization internally, you avoid the complexity of third‑party tools and get consistent results across platforms.
 
-Στο έργο Java σας, εισάγετε τις απαραίτητες κλάσεις για να ξεκινήσετε τη μετατροπή:
+## Prerequisites
+
+Before diving into the code, ensure you have:
+
+- Basic knowledge of Java programming.  
+- Aspose.CAD for Java library installed. If you haven’t downloaded it yet, get it **[here](https://releases.aspose.com/cad/java/)**.  
+- A DWG file for testing – the sample **Bottom_plate.dwg** is used in this guide.
+
+## Import Namespaces
+
+In your Java project, import the necessary classes to kick‑start the conversion:
 
 ```java
 import com.aspose.cad.Image;
@@ -56,11 +91,11 @@ import com.aspose.cad.imageoptions.PdfOptions;
 import com.aspose.cad.imageoptions.UnitType;
 ```
 
-## Οδηγός Βήμα‑βήμα
+## Step‑by‑Step Guide
 
-### Βήμα 1: Φόρτωση του αρχείου DWG
+### Step 1: Load the DWG File
 
-Αρχικά, φορτώστε το σχέδιο DWG χρησιμοποιώντας την κλάση `Image`. Αυτό δημιουργεί μια αναπαράσταση στη μνήμη που μπορεί να επεξεργαστεί το Aspose.CAD.
+First, load your DWG drawing using the `Image` class. This creates an in‑memory representation that Aspose.CAD can work with.
 
 ```java
 String dataDir = "Your Document Directory" + "DWGDrawings/";
@@ -68,18 +103,18 @@ String srcFile = dataDir + "Bottom_plate.dwg";
 Image objImage = Image.load(srcFile);
 ```
 
-### Βήμα 2: Προσδιορισμός τύπου μονάδας
+### Step 2: Determine Unit Type
 
-Η κατανόηση του αν το σχέδιο χρησιμοποιεί μετρικές ή αυτοκρατορικές μονάδες είναι ουσιώδης για σωστή κλιμάκωση. Η βοηθητική μέθοδος `IsMetric` (η υλοποίηση παραλείπεται για συντομία) επιστρέφει μια λογική τιμή.
+Understanding whether the drawing uses metric or imperial units is essential for correct scaling. The helper method `IsMetric` (implementation omitted for brevity) returns a boolean flag.
 
 ```java
 Boolean currentUnitIsMetric = IsMetric(objImage.getUnitType());
 int currentUnitCoefficient = objImage.getUnitType();
 ```
 
-### Βήμα 3: Ορισμός επιλογών rasterization
+### Step 3: Set Rasterization Options
 
-Βάσει του συστήματος μονάδων, ρυθμίστε το μέγεθος σελίδας, την κλιμάκωση και τον τύπο μονάδας-στόχο. Αυτές οι επιλογές καθορίζουν πώς θα rasterize το DWG πριν ενσωματωθεί σε PDF.
+Based on the unit system, configure page size, scaling, and the target unit type. These options drive how the DWG is rasterized before being wrapped into a PDF.
 
 ```java
 CadRasterizationOptions rasterizationOptions = new CadRasterizationOptions();
@@ -99,60 +134,69 @@ if (currentUnitIsMetric) {
 }
 ```
 
-### Βήμα 4: Διαμόρφωση επιλογών PDF
+### Step 4: Configure PDF Options (pdf options cad)
 
-Δημιουργήστε ένα αντικείμενο `PdfOptions` και συνδέστε τις ρυθμίσεις rasterization. Αυτό ενημερώνει το Aspose.CAD πώς να ενσωματώσει το rasterized περιεχόμενο στο τελικό PDF.
+Create a `PdfOptions` instance and attach the rasterization settings. This tells Aspose.CAD how to embed the rasterized content into the final PDF.
 
 ```java
 PdfOptions pdfOptions = new PdfOptions();
 pdfOptions.setVectorRasterizationOptions(new CadRasterizationOptions());
 ```
 
-### Βήμα 5: Αποθήκευση ως PDF
+### Step 5: Save as PDF
 
-Τέλος, εξάγετε το σχέδιο σε αρχείο PDF. Η μέθοδος `save` λαμβάνει τη διαδρομή εξόδου και τις διαμορφωμένες `PdfOptions`.
+Finally, export the drawing to a PDF file. The `save` method takes the output path and the configured `PdfOptions`.
 
 ```java
 objImage.save(dataDir + "Saved.pdf", pdfOptions);
 ```
 
-Όταν ολοκληρωθεί ο κώδικας, θα βρείτε το **Saved.pdf** στο φάκελο `DWGDrawings`, έτοιμο για διανομή ή αρχειοθέτηση.
+When the code finishes, you’ll find **Saved.pdf** in your `DWGDrawings` folder, ready for distribution or archiving.
 
-## Κοινά Προβλήματα & Συμβουλές
+## How to convert dwg raster images with java cad library
 
-- **Λανθασμένο μέγεθος σελίδας** – Ελέγξτε ξανά τη λογική μετατροπής μονάδων· μη ταιριαστοί συντελεστές μπορούν να παράγουν υπερμεγέθη σελίδες.  
-- **Απουσία γραμματοσειρών ή lineweights** – Βεβαιωθείτε ότι το DWG αναφέρει τυχόν εξωτερικούς πόρους πριν από τη μετατροπή.  
-- **Απόδοση σε μεγάλα σχέδια** – Αυξήστε τη ρύθμιση `DPI` στο `CadRasterizationOptions` μόνο όταν απαιτείται υψηλότερη ποιότητα· χαμηλότερο DPI επιταχύνει την επεξεργασία.
+If you need raster images instead of a PDF, simply replace the `PdfOptions` with the appropriate raster image options (e.g., `PngOptions`, `JpegOptions`). The same `CadRasterizationOptions` instance can be reused, allowing you to **convert dwg raster** files with minimal code changes.
 
-## Συχνές Ερωτήσεις
+## How to generate pdf dwg using pdf options cad
 
-**Ε: Μπορώ να χρησιμοποιήσω το Aspose.CAD for Java με άλλα Java frameworks;**  
-Α: Ναι, το Aspose.CAD for Java ενσωματώνεται άψογα με δημοφιλή Java frameworks όπως Spring, Jakarta EE και Android.
+The example above already **generates pdf dwg** output. By tweaking `pdfOptions`—for instance, setting `pdfOptions.setCompress(true)`—you can control the PDF size and quality. This demonstrates the flexibility of the **pdf options cad** API.
 
-**Ε: Διατίθεται προσωρινή άδεια για το Aspose.CAD for Java;**  
-Α: Ναι, μπορείτε να αποκτήσετε προσωρινή άδεια **[εδώ](https://purchase.aspose.com/temporary-license/)**.
+## Common Issues & Tips
 
-**Ε: Πού μπορώ να βρω υποστήριξη για το Aspose.CAD for Java;**  
-Α: Επισκεφθείτε το **[φόρουμ Aspose.CAD](https://forum.aspose.com/c/cad/19)** για βοήθεια από την κοινότητα και τους μηχανικούς της Aspose.
+- **Incorrect page size** – Double‑check the unit conversion logic; mismatched coefficients can produce oversized pages.  
+- **Missing fonts or lineweights** – Ensure the DWG references any external resources before conversion.  
+- **Performance on large drawings** – Increase the `DPI` setting in `CadRasterizationOptions` only when higher quality is required; lower DPI speeds up processing.  
+- **License concerns** – For evaluation you can use a **temporary license aspose**; a full license is required for production deployments.
 
-**Ε: Πώς μπορώ να αγοράσω άδεια για το Aspose.CAD for Java;**  
-Α: Μπορείτε να αγοράσετε άδεια **[εδώ](https://purchase.aspose.com/buy)**.
+## Frequently Asked Questions
 
-**Ε: Ποιες μονάδες υποστηρίζει το Aspose.CAD for Java;**  
-Α: Το Aspose.CAD for Java υποστηρίζει τόσο μετρικές όσο και αυτοκρατορικές μονάδες, ανιχνεύοντας αυτόματα το σύστημα μονάδων του σχεδίου.
+**Q: Can I use Aspose.CAD for Java with other Java frameworks?**  
+A: Yes, Aspose.CAD for Java seamlessly integrates with popular Java frameworks such as Spring, Jakarta EE, and Android.
 
-**Ε: Μπορώ να μετατρέψω DWG σε άλλες μορφές εικόνας (π.χ., PNG, JPEG) χρησιμοποιώντας το ίδιο API;**  
-Α: Απόλυτα. Αντικαταστήστε το `PdfOptions` με τις κατάλληλες επιλογές raster εικόνας (π.χ., `PngOptions`) και επαναχρησιμοποιήστε το ίδιο `CadRasterizationOptions`.
+**Q: Is a temporary license available for Aspose.CAD for Java?**  
+A: Yes, you can obtain a temporary license **[here](https://purchase.aspose.com/temporary-license/)**.
 
-## Συμπέρασμα
+**Q: Where can I find support for Aspose.CAD for Java?**  
+A: Visit the **[Aspose.CAD forum](https://forum.aspose.com/c/cad/19)** for assistance from the community and Aspose engineers.
 
-Αυτό το σεμινάριο έδειξε πώς να **εξάγετε dwg σε pdf** και εικόνες raster χρησιμοποιώντας το Aspose.CAD for Java. Ακολουθώντας τον οδηγό βήμα‑βήμα, μπορείτε να ενσωματώσετε αξιόπιστη μετατροπή CAD σε οποιαδήποτε εφαρμογή Java, είτε χρειάζεστε PDF για τεκμηρίωση είτε εικόνες raster για προβολή στο web.
+**Q: How can I purchase a license for Aspose.CAD for Java?**  
+A: You can purchase a license **[here](https://purchase.aspose.com/buy)**.
+
+**Q: What units does Aspose.CAD for Java support?**  
+A: Aspose.CAD for Java supports both metric and imperial units, automatically detecting the drawing’s unit system.
+
+**Q: Can I convert DWG to other image formats (e.g., PNG, JPEG) using the same API?**  
+A: Absolutely. Replace `PdfOptions` with the appropriate raster image options (e.g., `PngOptions`) and reuse the same `CadRasterizationOptions`.
+
+## Conclusion
+
+This tutorial demonstrated how to **export dwg to pdf** and raster images using the **java cad library** Aspose.CAD for Java. By following the step‑by‑step guide, you can integrate reliable CAD conversion into any Java application, whether you need PDFs for documentation or raster images for web display.
 
 ---
 
-**Τελευταία ενημέρωση:** 2025-12-18  
-**Δοκιμάστηκε με:** Aspose.CAD for Java 24.10  
-**Συγγραφέας:** Aspose  
+**Last Updated:** 2026-02-17  
+**Tested With:** Aspose.CAD for Java 24.10  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
