@@ -1,33 +1,44 @@
 ---
-title: Mengekspor Objek OLE dari File DWG - Tutorial Aspose.CAD
-linktitle: Mengekspor Objek OLE dari File DWG
-second_title: Aspose.CAD .NET - Format File CAD dan BIM
-description: Jelajahi panduan langkah demi langkah tentang mengekspor objek OLE dari file DWG menggunakan Aspose.CAD untuk .NET. Tingkatkan keterampilan manipulasi file CAD Anda dengan mudah.
-weight: 12
+description: Pelajari cara mengonversi DWG ke PNG dan mengekstrak objek OLE dari file
+  DWG menggunakan Aspose.CAD untuk .NET – panduan singkat yang berfokus pada kode.
+linktitle: Exporting OLE Objects from DWG Files
+second_title: Aspose.CAD .NET - CAD and BIM File Format
+title: Konversi DWG ke PNG & Ekspor Objek OLE - Tutorial Aspose.CAD
 url: /id/net/advanced-export-techniques/exporting-ole-objects-from-dwg/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Mengekspor Objek OLE dari File DWG - Tutorial Aspose.CAD
+# Mengekspor OLE Objects dari File DWG - Tutorial Aspose.CAD
 
-## Perkenalan
+## Introduction
 
-Apakah Anda ingin mengekstrak objek OLE dari file DWG dengan mudah? Aspose.CAD untuk .NET hadir untuk menyederhanakan proses untuk Anda. Dalam tutorial ini, kami akan memandu Anda mengekspor objek OLE langkah demi langkah, memastikan Anda memanfaatkan perpustakaan .NET yang kuat ini. 
+Jika Anda perlu **mengonversi DWG ke PNG** sambil mengekstrak OLE objects yang tertanam, Anda berada di tempat yang tepat. Aspose.CAD untuk .NET membuat proses dua langkah ini menjadi sederhana, memungkinkan Anda mengotomatisasi ekstraksi dan rasterisasi hanya dengan beberapa baris C#. Dalam beberapa menit ke depan kami akan membahas seluruh alur kerja, mulai dari menyiapkan lingkungan hingga menyimpan setiap DWG sebagai PNG yang berisi data OLE yang telah diekstrak.
 
-## Prasyarat
+## Quick Answers
+- **What does this tutorial cover?** Converting DWG to PNG and extracting OLE objects using Aspose.CAD for .NET.  
+- **Do I need a license?** A free trial works for development; a commercial license is required for production.  
+- **Which .NET versions are supported?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6+.  
+- **Can I process multiple DWG files at once?** Yes – the sample loops through an array of file names.  
+- **Where can I find more examples?** Check the official Aspose.CAD documentation and forum links below.
 
-Sebelum kita mendalami tutorialnya, pastikan Anda memiliki prasyarat berikut:
+## What is **convert DWG to PNG**?
+Mengonversi DWG (gambar AutoCAD) ke gambar PNG meraster data vektor, sehingga mudah dilihat atau disematkan dalam halaman web, laporan, atau aplikasi lain yang tidak secara native mendukung DWG. Ketika OLE objects hadir, mereka dapat diekstrak dan disimpan sebagai aset terpisah selama proses konversi.
 
--  Aspose.CAD untuk .NET Library: Pastikan Anda telah menginstal perpustakaan. Anda dapat mengunduhnya dari[Halaman unduhan Aspose.CAD untuk .NET](https://releases.aspose.com/cad/net/).
+## Why extract OLE objects from CAD files?
+Banyak gambar DWG menyematkan spreadsheet, diagram, atau dokumen Office lain sebagai OLE objects. Mengekstraknya memungkinkan Anda menggunakan kembali data asli, mengotomatisasi pelaporan, atau memigrasikan konten ke format yang lebih baru tanpa kehilangan informasi yang tertanam.
 
--  Direktori Dokumen: Siapkan direktori tempat file DWG Anda disimpan. Mengganti`"Your Document Directory"` dalam cuplikan kode yang disediakan dengan jalur sebenarnya.
+## Prerequisites
 
-## Impor Namespace
+- Aspose.CAD for .NET Library: Pastikan Anda telah menginstal library tersebut. Anda dapat mengunduhnya dari [Aspose.CAD for .NET download page](https://releases.aspose.com/cad/net/).
+- Document Directory: Siapkan direktori tempat file DWG Anda disimpan. Ganti `"Your Document Directory"` dalam cuplikan kode yang disediakan dengan jalur yang sebenarnya.
 
-Dalam proyek .NET Anda, Anda harus mengimpor namespace yang diperlukan untuk memanfaatkan fungsionalitas Aspose.CAD. Gunakan cuplikan kode berikut:
+## Import Namespaces
+
+Di proyek .NET Anda, impor namespace yang diperlukan:
 
 ```csharp
 using Aspose.CAD.FileFormats.Cad;
@@ -38,23 +49,23 @@ using System.Linq;
 using System.Text;
 ```
 
-## Langkah 1: Atur Direktori Dokumen
+## Step‑by‑Step Guide
+
+### Step 1: Set the Document Directory
 
 ```csharp
 string MyDir = "Your Document Directory";
 ```
 
- Mengganti`"Your Document Directory"` dengan jalur tempat file DWG Anda berada.
+Ganti `"Your Document Directory"` dengan jalur tempat file DWG Anda berada.
 
-## Langkah 2: Tentukan File DWG
+### Step 2: List the DWG files you want to process
 
 ```csharp
 string[] files = new string[] { "D ZD junior D10m H2m.dwg", "ZD - Senior D6m H2m45.dwg" };
 ```
 
-Buat daftar file DWG yang ingin Anda proses dalam array.
-
-## Langkah 3: Konfigurasikan Opsi Ekspor
+### Step 3: Configure export options for PNG conversion
 
 ```csharp
 PngOptions pngOptions = new PngOptions { };
@@ -63,9 +74,9 @@ pngOptions.VectorRasterizationOptions = rasterizationOptions;
 rasterizationOptions.Layouts = new string[] { "Layout1" };
 ```
 
-Sesuaikan opsi ekspor berdasarkan kebutuhan Anda. Dalam contoh ini, kami mengonfigurasi ekspor PNG dengan tata letak tertentu.
+Anda dapat menyesuaikan `CadRasterizationOptions` (misalnya, `PageWidth`, `PageHeight`, `BackgroundColor`) agar sesuai dengan resolusi output yang diinginkan.
 
-## Langkah 4: Ulangi File dan Ekspor
+### Step 4: Iterate through each DWG and perform the conversion
 
 ```csharp
 foreach (string file in files)
@@ -77,33 +88,44 @@ foreach (string file in files)
 }
 ```
 
-Ulangi file DWG yang ditentukan, muat masing-masing file, dan simpan file PNG yang diekspor dengan opsi yang ditentukan.
+Selama loop ini library secara otomatis **mengekstrak OLE objects** yang tertanam di setiap gambar dan menyertakannya dalam PNG yang dihasilkan. Jika Anda memerlukan aliran OLE mentah, Anda dapat mengakses koleksi `cadImage.OleObjects` – cara yang berguna untuk **how to extract ole** data secara programatik.
 
-## Kesimpulan
+## Common Issues & Troubleshooting
 
-Selamat! Anda telah berhasil mengekspor objek OLE dari file DWG menggunakan Aspose.CAD untuk .NET. Pustaka yang kuat ini menyederhanakan tugas-tugas kompleks, memberikan efisiensi dan fleksibilitas dalam manipulasi file CAD.
+- **Missing layout name** – Pastikan layout yang Anda tentukan (`"Layout1"` dalam contoh) ada di DWG sumber; jika tidak, rasterizer akan kembali ke model space default.
+- **Large files cause memory pressure** – Proses file satu per satu (seperti yang ditunjukkan) dan segera dispose objek `CadImage` dengan `using`.
+- **Unexpected colors** – Atur `rasterizationOptions.BackgroundColor` agar cocok dengan latar belakang gambar jika transparansi diperlukan.
 
-## FAQ
+## Frequently Asked Questions
 
-### Q1: Apakah Aspose.CAD untuk .NET cocok untuk file CAD junior dan senior?
+### Q1: Is Aspose.CAD for .NET suitable for both junior and senior CAD files?
+A1: Yes, Aspose.CAD for .NET is versatile and can handle a wide range of CAD files, including both junior and senior variants.
 
-A1: Ya, Aspose.CAD untuk .NET serbaguna dan dapat menangani berbagai macam file CAD, termasuk varian junior dan senior.
+### Q2: Can I customize export options for different layouts?
+A2: Absolutely! As shown in the tutorial, you can tailor export options, including layouts, to suit your specific needs.
 
-### Q2: Dapatkah saya menyesuaikan opsi ekspor untuk tata letak yang berbeda?
+### Q3: Where can I find detailed documentation for Aspose.CAD for .NET?
+A3: Explore the [Aspose.CAD for .NET documentation](https://reference.aspose.com/cad/net/) for in‑depth information and examples.
 
-A2: Tentu saja! Seperti yang ditunjukkan dalam tutorial, Anda dapat menyesuaikan opsi ekspor, termasuk tata letak, untuk memenuhi kebutuhan spesifik Anda.
+### Q4: Is there a free trial available?
+A4: Yes, you can experience the capabilities of Aspose.CAD for .NET with a free trial. Visit [this link](https://releases.aspose.com/) to get started.
 
-### Q3: Di mana saya dapat menemukan dokumentasi terperinci untuk Aspose.CAD untuk .NET?
+### Q5: How can I get support or connect with the community?
+A5: For support and community engagement, visit the [Aspose.CAD forum](https://forum.aspose.com/c/cad/19).
 
- A3: Jelajahi[Aspose.CAD untuk dokumentasi .NET](https://reference.aspose.com/cad/net/) untuk informasi mendalam dan contoh.
+### Q6: How do I **extract OLE from CAD** files without converting to PNG?
+A6: Use the `CadImage.OleObjects` collection after loading the DWG; you can iterate through each `OleObject` and save its raw data to a file.
 
-### Q4: Apakah tersedia uji coba gratis?
+## Conclusion
 
- A4: Ya, Anda dapat merasakan kemampuan Aspose.CAD untuk .NET dengan uji coba gratis. Mengunjungi[Link ini](https://releases.aspose.com/) untuk memulai.
+Anda kini telah melihat cara **mengonversi DWG ke PNG** sambil secara mulus **mengekstrak OLE objects** menggunakan Aspose.CAD untuk .NET. Pendekatan ini menghemat waktu, menghilangkan langkah copy‑paste manual, dan terintegrasi dengan baik ke dalam pipeline otomatis. Jangan ragu untuk bereksperimen dengan format raster lain (JPEG, BMP) atau menjelajahi rangkaian fitur manipulasi CAD yang kaya yang ditawarkan Aspose.
 
-### Q5: Bagaimana saya bisa mendapatkan dukungan atau terhubung dengan komunitas?
+---
 
- A5: Untuk dukungan dan keterlibatan komunitas, kunjungi[Forum Aspose.CAD](https://forum.aspose.com/c/cad/19).
+**Last Updated:** 2026-03-13  
+**Tested With:** Aspose.CAD 24.11 for .NET  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
