@@ -1,33 +1,49 @@
 ---
-title: 將 Aspose.CAD 中的字型替換為 .NET
-linktitle: 替換字型
-second_title: Aspose.CAD .NET - CAD 和 BIM 檔案格式
-description: 學習輕鬆取代 Aspose.CAD for .NET 中的字型。請按照我們的逐步指南在 CAD 繪圖中進行高效率的字體自訂。
-weight: 17
+date: 2026-03-29
+description: 快速學習如何在 Aspose.CAD for .NET 中替換字型。此一步一步的指南會向您展示如何設定主要字型名稱以及有效地自訂 CAD
+  圖紙。
+linktitle: Substituting Fonts
+second_title: Aspose.CAD .NET - CAD and BIM File Format
+title: 如何在 Aspose.CAD for .NET 中更換字型
 url: /zh-hant/net/cad-features-and-support/substituting-fonts/
+weight: 17
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 將 Aspose.CAD 中的字型替換為 .NET
+# 如何在 Aspose.CAD for .NET 中取代字型
 
 ## 介紹
 
-在使用 .NET 進行 CAD 開發領域，操作字體的能力是一項至關重要的技能。 Aspose.CAD for .NET 為此提供了一套強大的工具，讓開發人員可以無縫取代其 CAD 繪圖中的字體。在本教程中，我們將逐步探索該過程，演示如何有效地實現字體替換。
+在使用 .NET 進行 CAD 開發的領域中，學習**如何取代字型**是一項關鍵技能，能顯著提升圖紙的視覺品質。Aspose.CAD for .NET 提供簡易的 API，讓您**設定主要字型名稱**於任何樣式，輕鬆完成全域或針對特定樣式的字型取代。在本教學中，我們將逐步說明整個流程——從載入圖紙到全域或依樣式名稱替換字型。
 
-## 先決條件
+## 快速解答
+- **CAD 操作的主要類別是什麼？** `Aspose.CAD.Image` (or its derived `CadImage`).
+- **哪個屬性會變更字型？** `PrimaryFontName` on `CadStyleTableObject`.
+- **可以一次取代所有樣式的字型嗎？** 可以，遍歷 `cadImage.Styles` 並設定該屬性。
+- **生產環境需要授權嗎？** 非試用使用需具備有效的 Aspose.CAD 授權。
+- **支援的 .NET 版本？** .NET Framework 4.5+、.NET Core 3.1+、.NET 5/6/7。
 
-在深入學習本教學之前，請確保您具備以下條件：
+## CAD 中的字型取代是什麼？
+字型取代指的是將 CAD 圖紙中原本使用的字型，以目標系統上可用的其他字型取代。當原始字型缺失、需要統一企業風格，或在僅支援有限字型的列印設備上列印圖紙時，此功能特別有用。
 
-- .NET 程式設計的基礎知識。
-- 已安裝 Aspose.CAD for .NET。如果沒有的話可以下載[這裡](https://releases.aspose.com/cad/net/).
-- 用於實踐練習的 CAD 繪圖檔。
+## 為什麼要使用 Aspose.CAD 取代字型？
+- **無外部相依** – 函式庫內部自行處理字型對應。
+- **支援多種格式** – DXF、DWG、DGN 等。
+- **程式化控制** – 可自動化批次轉換或 CI 流程。
+- **保留圖形幾何** – 僅變更文字的視覺呈現。
 
-## 導入命名空間
+## 前置條件
 
-在開始之前，導入必要的命名空間以存取 .NET 應用程式中的 Aspose.CAD 功能。
+- 具備 .NET 程式設計的基本知識。
+- 已安裝 Aspose.CAD for .NET。如尚未安裝，請於 [here](https://releases.aspose.com/cad/net/) 下載。
+- 用於實驗的 CAD 圖紙檔案（DXF、DWG 等）。
+
+## 匯入命名空間
+
+在開始之前，匯入必要的命名空間以在 .NET 應用程式中存取 Aspose.CAD 功能。
 
 ```csharp
 using System;
@@ -39,9 +55,9 @@ using Aspose.CAD;
 using Aspose.CAD.FileFormats.Cad.CadTables;
 ```
 
-## 第 1 步：載入 CAD 圖紙
+## 步驟 1：載入 CAD 圖紙
 
-首先將 CAD 繪圖載入到實例中`CadImage`。確保提供文件目錄的正確路徑。
+將 CAD 圖紙載入 `CadImage` 實例。請確保提供正確的文件目錄路徑。
 
 ```csharp
 string MyDir = "Your Document Directory";
@@ -49,24 +65,28 @@ string sourceFilePath = MyDir + "conic_pyramid.dxf";
 
 using (CadImage cadImage = (CadImage)Aspose.CAD.Image.Load(sourceFilePath))
 {
-    //您的進一步操作代碼位於此處
+    // Your code for further actions goes here
 }
 ```
 
-## 第 2 步：迭代樣式
+## 步驟 2：遍歷樣式
 
-接下來，使用迭代 CAD 繪圖中的樣式`foreach`環形。這允許您存取和操作單獨的字體樣式。
+使用 `foreach` 迴圈遍歷 CAD 圖紙中的樣式，以便存取與操作各個字型樣式。
 
 ```csharp
 foreach (CadStyleTableObject style in cadImage.Styles)
 {
-    //您的樣式操作代碼位於此處
+    // Your code for style manipulation goes here
 }
 ```
 
-## 第 3 步：全域替換字體
+## 如何設定 PrimaryFontName 以進行字型取代
 
-若要全域替換所有樣式的字體，請設定`PrimaryFontName`將每種樣式的屬性設定為所需的字體名稱，例如“Arial”。
+每個 `CadStyleTableObject` 的 `PrimaryFontName` 屬性決定圖紙渲染時使用的字型。設定此屬性即可有效取代原始字型。
+
+### 步驟 3：全域取代字型
+
+若要為**所有**樣式取代字型，將每個樣式的 `PrimaryFontName` 屬性設定為目標字型名稱，例如 `"Arial"`。
 
 ```csharp
 foreach (CadStyleTableObject style in cadImage.Styles)
@@ -75,9 +95,9 @@ foreach (CadStyleTableObject style in cadImage.Styles)
 }
 ```
 
-## 第 4 步：用樣式名稱替換字體
+### 步驟 4：依樣式名稱取代字型
 
-如果您想用特定樣式替換字體，可以透過檢查循環中的樣式名稱來實現。
+若只需為特定樣式（例如名稱為 `"Roman"` 的樣式）取代字型，可在迴圈內加入條件判斷。
 
 ```csharp
 foreach (CadStyleTableObject style in cadImage.Styles)
@@ -89,32 +109,36 @@ foreach (CadStyleTableObject style in cadImage.Styles)
 }
 ```
 
-## 結論
+## 常見問題與疑難排解
 
-恭喜！您已成功學習如何在 Aspose.CAD 中取代 .NET 中的字型。此技能對於根據您的喜好自訂 CAD 工程圖的外觀非常有價值。
+| 問題 | 原因 | 解決方案 |
+|-------|-------|-----|
+| 執行程式碼後字型未變更 | 圖紙被快取或以唯讀模式開啟 | 確保在修改後儲存影像 (`cadImage.Save(...)`) 或重新載入檔案以驗證。 |
+| 系統上找不到所需字型 | 執行程式碼的機器未安裝該字型 | 安裝所需的 TrueType/OpenType 字型或將其嵌入應用程式資源中。 |
+| 文字顯示亂碼 | 編碼不正確或缺少 Unicode 支援 | 使用支援所需字元集的字型（例如 Arial Unicode MS）。 |
 
-## 常見問題解答
+## 常見問答
 
-### 問題 1：我可以恢復 Aspose.CAD for .NET 中的字體變更嗎？
+**Q: 我可以在 Aspose.CAD for .NET 中還原字型變更嗎？**  
+A: 是的，您可以透過重新載入原始 CAD 圖紙或在修改前保留備份來還原。
 
-A1：是的，您可以透過重新載入原始 CAD 繪圖或保留備份來還原字體變更。
+**Q: 還有其他字型屬性可以修改嗎？**  
+A: 當然可以。除了 `PrimaryFontName`，您還可以使用 `SecondaryFontName`、`FontFamily` 以及其他與樣式相關的屬性進行進階客製化。
 
-### Q2：還有其他字體屬性可以修改嗎？
+**Q: Aspose.CAD 是否相容於不同的 CAD 格式？**  
+A: 是的，Aspose.CAD 支援廣泛的格式，如 DXF、DWG、DGN、DWF 等，讓您在各種專案中都有彈性。
 
-A2：當然，此外`PrimaryFontName`、Aspose.CAD for .NET 提供各種字體相關屬性的存取以進行進階自訂。
+**Q: 我可以在批次處理中自動化字型取代嗎？**  
+A: 當然可以。將載入與取代的邏輯包在迴圈中，遍歷資料夾內的 CAD 檔案，或整合至 CI/CD 流程。
 
-### Q3：Aspose.CAD 是否相容於不同的 CAD 格式？
+**Q: 在哪裡可以找到 Aspose.CAD for .NET 的其他支援？**  
+A: 欲取得更多支援與社群討論，請造訪 [Aspose.CAD forum](https://forum.aspose.com/c/cad/19)。
 
-A3：是的，Aspose.CAD 支援多種 CAD 格式，確保您的開發專案的靈活性。
+---
 
-### Q4：我可以在批次中自動替換字體嗎？
-
-A4：當然，您可以實施批次來自動跨多個 CAD 圖紙進行字體替換。
-
-### 問題 5：在哪裡可以找到 Aspose.CAD for .NET 的其他支援？
-
- A5：如需更多支持和社區討論，請訪問[Aspose.CAD論壇](https://forum.aspose.com/c/cad/19).
-
+**最後更新：** 2026-03-29  
+**測試環境：** Aspose.CAD for .NET（最新版本）  
+**作者：** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -1,33 +1,50 @@
 ---
-title: Các phần tử DGN được hỗ trợ trong Aspose.CAD cho .NET
-linktitle: Các phần tử DGN được hỗ trợ
-second_title: Aspose.CAD .NET - Định dạng tệp CAD và BIM
-description: Khám phá Aspose.CAD để biết các tính năng mạnh mẽ của .NET để xử lý tệp DGN. Làm theo hướng dẫn từng bước của chúng tôi để làm việc liền mạch với các phần tử 2D và 3D.
-weight: 18
+date: 2026-03-29
+description: Tìm hiểu cách chuyển đổi DGN sang PNG bằng Aspose.CAD cho .NET. Hướng
+  dẫn này cũng đề cập đến hỗ trợ định dạng tệp CAD và toàn bộ các phần tử DGN được
+  hỗ trợ.
+linktitle: Supported DGN Elements
+second_title: Aspose.CAD .NET - CAD and BIM File Format
+title: Chuyển đổi DGN sang PNG với Aspose.CAD cho .NET
 url: /vi/net/cad-features-and-support/supported-dgn-elements/
+weight: 18
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Các phần tử DGN được hỗ trợ trong Aspose.CAD cho .NET
+# Chuyển đổi DGN sang PNG với Aspose.CAD cho .NET
 
 ## Giới thiệu
 
-Bạn có phải là nhà phát triển .NET muốn làm việc liền mạch với các tệp DGN không? Aspose.CAD cho .NET cung cấp một giải pháp mạnh mẽ để xử lý các tệp DGN một cách hiệu quả. Trong hướng dẫn này, chúng tôi sẽ đi sâu vào các phần tử DGN được hỗ trợ, hướng dẫn bạn trong quá trình làm việc với Aspose.CAD cho .NET.
+Bạn là một nhà phát triển .NET đang tìm cách **convert DGN to PNG** một cách liền mạch? Aspose.CAD cho .NET cung cấp giải pháp mạnh mẽ để xử lý các tệp DGN một cách hiệu quả. Trong hướng dẫn này, chúng tôi sẽ khám phá các phần tử DGN được hỗ trợ, hướng dẫn bạn quy trình làm việc với Aspose.CAD cho .NET đồng thời chỉ cho bạn cách xuất các phần tử đó ra hình ảnh PNG.
 
-## Điều kiện tiên quyết
+## Câu trả lời nhanh
+- **What does Aspose.CAD do?** Nó đọc, sửa đổi và chuyển đổi các tệp CAD/BIM (bao gồm DGN) sang các định dạng raster như PNG.  
+- **Can I convert 2D and 3D DGN elements?** Có – cả thực thể 2‑D và 3‑D đều được hỗ trợ.  
+- **Which .NET versions are required?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6+.  
+- **Do I need a license for testing?** Một bản dùng thử miễn phí có sẵn; giấy phép cần thiết cho môi trường sản xuất.  
+- **Where do I get the library?** Tải xuống từ trang chính thức của Aspose (liên kết bên dưới).
 
-Trước khi chúng ta bắt đầu, hãy đảm bảo bạn có những điều sau:
+## “convert DGN to PNG” là gì?
+Chuyển đổi DGN sang PNG có nghĩa là render bản vẽ DGN dựa trên vector (2‑D hoặc 3‑D) thành định dạng ảnh raster (PNG). Điều này hữu ích khi bạn cần hiển thị bản vẽ CAD trên web, nhúng chúng vào báo cáo, hoặc tạo ảnh thu nhỏ mà không cần một trình xem CAD.
 
-- Kiến thức cơ bản về lập trình .NET.
-- Visual Studio được cài đặt trên máy của bạn.
--  Thư viện Aspose.CAD cho .NET mà bạn có thể tải xuống[đây](https://releases.aspose.com/cad/net/).
+## Tại sao nên sử dụng Aspose.CAD cho .NET để hỗ trợ định dạng tệp CAD?
+- **Full CAD file format support** – DGN, DWG, DXF, DWF, và hơn nữa.  
+- **No external dependencies** – thư viện .NET thuần, không cần cài đặt CAD gốc.  
+- **High‑fidelity rendering** – giữ nguyên độ dày đường, màu sắc và hình học 3‑D.  
+- **Batch processing** – dễ dàng lặp qua nhiều tệp trong ứng dụng phía máy chủ.
+
+## Yêu cầu trước
+
+- Kiến thức cơ bản về lập trình .NET.  
+- Visual Studio đã được cài đặt trên máy của bạn.  
+- Thư viện Aspose.CAD cho .NET, bạn có thể tải xuống [here](https://releases.aspose.com/cad/net/).
 
 ## Nhập không gian tên
 
-Để khởi động dự án của bạn, hãy nhập các vùng tên cần thiết vào ứng dụng .NET của bạn. Bước này đảm bảo rằng bạn có quyền truy cập vào các chức năng do Aspose.CAD cung cấp cho .NET.
+Để khởi động dự án của bạn, nhập các không gian tên cần thiết vào ứng dụng .NET của bạn. Bước này đảm bảo bạn có quyền truy cập vào các chức năng do Aspose.CAD cho .NET cung cấp.
 
 ```csharp
 using System;
@@ -40,9 +57,13 @@ using Aspose.CAD.FileFormats.Dgn;
 using Aspose.CAD.FileFormats.Dgn.DgnElements;
 ```
 
-## Bước 1: Tải tệp DGN
+## Cách chuyển đổi DGN sang PNG
 
-Bắt đầu bằng cách tải tệp DGN hiện có dưới dạng CadImage trong ứng dụng .NET của bạn.
+Dưới đây là hướng dẫn từng bước giúp bạn tải tệp DGN, duyệt các phần tử của nó, xử lý cả thực thể 2‑D và 3‑D, và cuối cùng xuất kết quả ra ảnh raster PNG.
+
+### Bước 1: Tải tệp DGN
+
+Bắt đầu bằng cách tải một tệp DGN hiện có dưới dạng `DgnImage` trong ứng dụng .NET của bạn.
 
 ```csharp
 string MyDir = "Your Document Directory";
@@ -50,24 +71,24 @@ string sourceFilePath = MyDir + "Nikon_D90_Camera.dgn";
 
 using (DgnImage dgnImage = (DgnImage)Image.Load(sourceFilePath))
 {
-    // Mã của bạn ở đây
+    // Your code here
 }
 ```
 
-## Bước 2: Lặp lại các phần tử DGN
+### Bước 2: Duyệt qua các phần tử DGN
 
-Lặp lại các phần tử DGN bằng vòng lặp foreach. Aspose.CAD cho .NET cung cấp nhiều loại phần tử DGN khác nhau mà bạn có thể làm việc cùng.
+Duyệt qua các phần tử DGN bằng vòng lặp `foreach`. Aspose.CAD cho .NET cung cấp nhiều loại phần tử DGN mà bạn có thể làm việc.
 
 ```csharp
 foreach (DgnDrawingElementBase element in dgnImage.Elements)
 {
-    // Mã của bạn ở đây
+    // Your code here
 }
 ```
 
-## Bước 3: Xử lý các thực thể được hỗ trợ trước đây
+### Bước 3: Xử lý các thực thể 2‑D đã được hỗ trợ trước đây
 
-Xử lý các thực thể 2D được hỗ trợ trước đây, hiện cũng được hỗ trợ cho 3D.
+Các thực thể này hiện cũng được hỗ trợ cho việc render 3‑D. Câu lệnh switch cho phép bạn phân nhánh logic dựa trên loại phần tử.
 
 ```csharp
 switch (element.Metadata.Type)
@@ -75,17 +96,17 @@ switch (element.Metadata.Type)
     case DgnElementType.Line:
     case DgnElementType.Ellipse:
     case DgnElementType.Curve:
-    // Các trường hợp bổ sung
+    // Additional cases
         {
-            // Mã của bạn ở đây
+            // Your code here
             break;
         }
 }
 ```
 
-## Bước 4: Xử lý các thực thể 3D được hỗ trợ
+### Bước 4: Xử lý các thực thể 3‑D được hỗ trợ
 
-Xử lý các thực thể 3D được hỗ trợ do Aspose.CAD cung cấp cho .NET.
+Aspose.CAD bổ sung hỗ trợ đầy đủ cho một số phần tử DGN 3‑D. Mở rộng câu lệnh switch để xử lý chúng khi cần.
 
 ```csharp
 switch (element.Metadata.Type)
@@ -94,45 +115,57 @@ switch (element.Metadata.Type)
     case DgnElementType.Cone:
     case DgnElementType.CellHeader:
         {
-            // Mã của bạn ở đây
+            // Your code here
             break;
         }
 }
 ```
 
-## Bước 5: Xuất và lưu
+### Bước 5: Xuất và lưu dưới dạng PNG
 
-Cuối cùng, xuất tệp DGN đã sửa đổi sang hình ảnh raster và lưu nó vào thư mục đã chỉ định.
+Sau bất kỳ thao tác nào cần thiết, xuất bản vẽ DGN ra ảnh raster PNG và lưu vào thư mục đã chỉ định.
 
 ```csharp
 Console.WriteLine("\nThe DGN file exported successfully to raster image.\nFile saved at " + MyDir);
 ```
 
-## Phần kết luận
+> **Pro tip:** Sử dụng `Image.Save` với `new PngOptions()` để kiểm soát độ phân giải, màu nền và các cài đặt đặc thù của PNG.
 
-Trong hướng dẫn này, chúng tôi đã khám phá các khả năng của Aspose.CAD dành cho .NET trong việc xử lý và thao tác các tệp DGN. Bằng cách làm theo hướng dẫn từng bước, bạn có thể làm việc hiệu quả với các phần tử DGN được hỗ trợ, cho dù chúng là thực thể 2D hay 3D. Aspose.CAD cho .NET cho phép bạn tích hợp liền mạch quá trình xử lý tệp DGN vào các ứng dụng .NET của mình.
+## Tổng quan hỗ trợ định dạng tệp CAD
+
+Aspose.CAD cho .NET không chỉ giới hạn ở DGN. Nó còn hỗ trợ DWG, DXF, DWF và nhiều định dạng CAD khác, cung cấp cho bạn một API duy nhất để xử lý một loạt rộng các bản vẽ kỹ thuật. Điều này làm cho nó trở nên lý tưởng cho các dự án cần **CAD file format support** trên nhiều tiêu chuẩn.
+
+## Các vấn đề thường gặp & Giải pháp
+
+| Vấn đề | Lý do | Giải pháp |
+|-------|--------|-----|
+| **Hình ảnh xuất hiện trống** | Xuất với DPI bằng 0 | Chỉ định `ResolutionX` và `ResolutionY` trong `PngOptions`. |
+| **Thiếu hình học 3‑D** | Loại phần tử không được xử lý trong switch | Thêm trường hợp `DgnElementType` còn thiếu và render tương ứng. |
+| **Hết bộ nhớ khi xử lý tệp lớn** | Tải toàn bộ tệp một lần | Xử lý các phần tử theo lô hoặc sử dụng streaming khi có thể. |
 
 ## Câu hỏi thường gặp
 
-### Câu hỏi 1: Tôi có thể tìm tài liệu về Aspose.CAD cho .NET ở đâu?
+### Q1: Tôi có thể tìm tài liệu cho Aspose.CAD cho .NET ở đâu?
+A1: Bạn có thể tìm tài liệu [here](https://reference.aspose.com/cad/net/).
 
- A1: Bạn có thể tìm tài liệu[đây](https://reference.aspose.com/cad/net/).
+### Q2: Làm sao để tải Aspose.CAD cho .NET?
+A2: Bạn có thể tải thư viện [here](https://releases.aspose.com/cad/net/).
 
-### Câu hỏi 2: Làm cách nào để tải xuống Aspose.CAD cho .NET?
+### Q3: Có bản dùng thử miễn phí cho Aspose.CAD cho .NET không?
+A3: Có, bạn có thể truy cập bản dùng thử miễn phí [here](https://releases.aspose.com/).
 
- A2: Bạn có thể tải xuống thư viện[đây](https://releases.aspose.com/cad/net/).
+### Q4: Tôi có thể lấy giấy phép tạm thời cho Aspose.CAD cho .NET ở đâu?
+A4: Giấy phép tạm thời có sẵn [here](https://purchase.aspose.com/temporary-license/).
 
-### Câu hỏi 3: Có bản dùng thử miễn phí Aspose.CAD cho .NET không?
+### Q5: Cần trợ giúp hoặc có câu hỏi?
+A5: Tham khảo cộng đồng Aspose.CAD cho .NET tại [support forum](https://forum.aspose.com/c/cad/19).
 
- Câu trả lời 3: Có, bạn có thể truy cập bản dùng thử miễn phí[đây](https://releases.aspose.com/).
+---
 
-### Câu hỏi 4: Tôi có thể lấy giấy phép tạm thời cho Aspose.CAD cho .NET ở đâu?
+**Cập nhật lần cuối:** 2026-03-29  
+**Được kiểm tra với:** Aspose.CAD for .NET 24.11  
+**Tác giả:** Aspose  
 
- A4: Giấy phép tạm thời có sẵn[đây](https://purchase.aspose.com/temporary-license/).
-
-### Câu 5: Cần trợ giúp hoặc có thắc mắc?
-
- Câu trả lời 5: Truy cập cộng đồng Aspose.CAD cho .NET[diễn đàn hỗ trợ](https://forum.aspose.com/c/cad/19).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

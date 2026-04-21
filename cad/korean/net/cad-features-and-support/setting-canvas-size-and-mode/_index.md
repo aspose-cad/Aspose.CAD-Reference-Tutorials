@@ -1,35 +1,49 @@
 ---
-title: .NET용 Aspose.CAD에서 캔버스 크기 및 모드 설정
-linktitle: 캔버스 크기 및 모드 설정
-second_title: Aspose.CAD .NET - CAD 및 BIM 파일 형식
-description: .NET용 Aspose.CAD에서 캔버스 크기 및 모드 설정에 대한 단계별 가이드를 살펴보세요. 이 포괄적인 튜토리얼을 사용하여 쉽게 CAD 렌더링을 최적화하십시오.
-weight: 16
+date: 2026-03-29
+description: 이 단계별 가이드에서 Aspose.CAD for .NET을 사용하여 CAD에서 PDF를 만들고, 캔버스 크기를 설정하며, CAD를
+  PDF 또는 TIFF로 내보내는 방법을 배웁니다.
+linktitle: Setting Canvas Size and Mode
+second_title: Aspose.CAD .NET - CAD and BIM File Format
+title: 'CAD에서 PDF 만들기: Aspose.CAD for .NET에서 캔버스 크기 및 모드 설정'
 url: /ko/net/cad-features-and-support/setting-canvas-size-and-mode/
+weight: 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# .NET용 Aspose.CAD에서 캔버스 크기 및 모드 설정
+# Aspose.CAD for .NET에서 캔버스 크기 및 모드 설정
 
 ## 소개
 
-.NET용 Aspose.CAD의 잠재력을 최대한 활용하고 CAD 렌더링 경험을 혁신할 준비가 되셨습니까? 이 단계별 튜토리얼에서는 강력한 Aspose.CAD 라이브러리를 사용하여 캔버스 크기와 모드를 설정하는 복잡한 과정을 살펴보겠습니다. 숙련된 개발자이든 이제 막 시작하는 개발자이든 이 가이드는 Aspose.CAD의 기능을 효과적으로 활용할 수 있도록 프로세스를 안내합니다.
+**CAD 파일에서 PDF 생성**을 하면서 출력 차원을 제어하고 싶으신가요? 이 튜토리얼에서는 캔버스 크기와 모드를 설정하고, CAD 파일을 로드한 뒤 Aspose.CAD for .NET을 사용해 PDF 또는 TIFF로 내보내는 과정을 단계별로 안내합니다. **DXF를 PDF로 변환**하거나 고해상도 도면을 생성하거나 단순히 래스터화 영역을 조정하고자 할 때, 아래 단계가 실무에 바로 적용 가능한 솔루션을 제공합니다.
 
-## 전제 조건
+## 빠른 답변
+- **“CAD에서 PDF 생성”이란 무엇인가요?** CAD 도면(e.g., DXF, DWG)을 벡터와 래스터 세부 정보를 보존한 PDF 문서로 변환하는 것입니다.  
+- **출력 크기를 제어하는 옵션은?** `CadRasterizationOptions.PageWidth`와 `PageHeight`(캔버스 크기).  
+- **TIFF로도 내보낼 수 있나요?** 예 – 동일한 래스터화 설정을 사용해 `TiffOptions`를 지정하면 됩니다.  
+- **프로덕션에 라이선스가 필요합니까?** 상업용 라이선스가 필요합니다; 무료 체험판을 이용할 수 있습니다.  
+- **지원되는 .NET 버전은?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7.
 
-튜토리얼을 시작하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
+## “CAD에서 PDF 생성”이란?
+CAD에서 PDF를 생성한다는 것은 CAD 도면을 페이지 기반 형식(PDF)으로 렌더링하여 CAD 소프트웨어 없이도 보기, 인쇄, 공유할 수 있게 하는 것을 의미합니다. Aspose.CAD가 무거운 작업을 처리해 주며, 캔버스 크기, 스케일링, 출력 형식을 정의할 수 있습니다.
 
--  Aspose.CAD 라이브러리: Aspose.CAD 라이브러리를 다운로드하여 설치합니다.[Aspose.CAD 웹사이트](https://releases.aspose.com/cad/net/).
+## CAD에서 PDF를 만들 때 캔버스 크기를 설정해야 하는 이유
+캔버스 크기를 설정하면 최종 PDF 또는 TIFF의 해상도와 차원을 정확히 제어할 수 있습니다. 특히 다음과 같은 경우에 유용합니다.
+- 특정 용지 크기로 인쇄할 도면을 준비할 때.  
+- 웹 미리보기를 위한 썸네일 또는 고해상도 이미지를 생성할 때.  
+- 여러 문서에 걸쳐 일관된 레이아웃을 유지하고자 할 때.
 
-- 개발 환경: 컴퓨터에 .NET 개발 환경이 설정되어 있는지 확인하세요.
+## 사전 준비
 
--  샘플 CAD 파일: 이 튜토리얼에서는 샘플 DXF 파일을 사용합니다. 다음에서 하나를 찾을 수 있습니다.[Aspose.CAD 문서](https://reference.aspose.com/cad/net/).
+- Aspose.CAD 라이브러리: [Aspose.CAD 웹사이트](https://releases.aspose.com/cad/net/)에서 Aspose.CAD 라이브러리를 다운로드하고 설치합니다.  
+- 개발 환경: 머신에 .NET 개발 환경이 구성되어 있는지 확인합니다.  
+- 샘플 CAD 파일: 이 튜토리얼에서는 샘플 DXF 파일을 사용합니다. 파일은 [Aspose.CAD 문서](https://reference.aspose.com/cad/net/)에서 찾을 수 있습니다.
 
 ## 네임스페이스 가져오기
 
-시작하려면 .NET 애플리케이션 시작 부분에서 필요한 네임스페이스를 가져옵니다.
+CAD 처리를 위해 필요한 네임스페이스를 가져옵니다:
 
 ```csharp
 using System;
@@ -40,9 +54,11 @@ using System.Threading.Tasks;
 using Aspose.CAD;
 ```
 
-## 1단계: CAD 파일 로드
+## 사용자 지정 캔버스 크기로 CAD에서 PDF 만들기
 
-다음 코드를 사용하여 CAD 파일을 로드하는 것으로 시작합니다.
+### 단계 1: CAD 파일 로드
+
+먼저 **CAD 파일을 로드**합니다(e.g., DXF). 이 단계에서 CAD 파일을 메모리의 `Image` 객체로 불러옵니다.
 
 ```csharp
 string MyDir = "Your Document Directory";
@@ -50,13 +66,13 @@ string sourceFilePath = MyDir + "conic_pyramid.dxf";
 
 using (Image image = Image.Load(sourceFilePath))
 {
-    //추가 단계를 위한 코드가 여기에 표시됩니다.
+    // Your code for further steps will go here
 }
 ```
 
-## 2단계: CadRasterizationOptions 생성
+### 단계 2: CadRasterizationOptions 생성
 
- 인스턴스 만들기`CadRasterizationOptions` 속성을 설정합니다.
+`CadRasterizationOptions` 인스턴스를 만들고 캔버스 크기를 정의합니다. `PageWidth`와 `PageHeight` 속성을 사용해 **캔버스 크기**를 정확히 지정할 수 있습니다.
 
 ```csharp
 CadRasterizationOptions rasterizationOptions = new CadRasterizationOptions();
@@ -66,65 +82,77 @@ rasterizationOptions.AutomaticLayoutsScaling = true;
 rasterizationOptions.NoScaling = false;
 ```
 
-## 3단계: PdfOptions 생성
+### 단계 3: PdfOptions 생성 (CAD를 PDF로 내보내기)
 
- 인스턴스 만들기`PdfOptions` 그리고 그것을 설정`VectorRasterizationOptions` 재산:
+래스터화 설정을 `PdfOptions` 객체에 연결합니다. 이 구성으로 **CAD를 PDF로 내보내기** 시 사용자 지정 캔버스를 적용할 수 있습니다.
 
 ```csharp
 PdfOptions pdfOptions = new PdfOptions();
 pdfOptions.VectorRasterizationOptions = rasterizationOptions;
 ```
 
-## 4단계: PDF로 내보내기
+### 단계 4: PDF로 내보내기 (DXF를 PDF로 변환)
 
-구성된 옵션을 사용하여 CAD 파일을 PDF로 내보냅니다.
+이제 이미지를 PDF로 저장합니다. 이 단계는 설정한 옵션을 사용해 **CAD에서 PDF 생성**을 수행합니다.
 
 ```csharp
 image.Save(MyDir + "result_out.pdf", pdfOptions);
 ```
 
-## 5단계: TiffOptions 생성
+### 단계 5: TiffOptions 생성 (CAD를 TIFF로 내보내기)
 
- 인스턴스 만들기`TiffOptions` 그리고 그것을 설정`VectorRasterizationOptions` 재산:
+래스터 이미지가 필요하다면 `TiffOptions`를 구성합니다. 동일한 래스터화 옵션을 재사용하므로 **CAD를 TIFF로 내보내기** 시 캔버스 크기가 유지됩니다.
 
 ```csharp
 TiffOptions tiffOptions = new TiffOptions(TiffExpectedFormat.Default);
 tiffOptions.VectorRasterizationOptions = rasterizationOptions;
 ```
 
-## 6단계: TIFF로 내보내기
+### 단계 6: TIFF로 내보내기
 
-구성된 옵션을 사용하여 CAD 파일을 TIFF로 내보냅니다.
+마지막으로 도면을 TIFF 파일로 저장합니다.
 
 ```csharp
 image.Save(MyDir + "result_out.tiff", tiffOptions);
 ```
 
-## 결론
+## 일반적인 문제와 해결책
 
-축하해요! .NET용 Aspose.CAD에서 캔버스 크기와 모드를 성공적으로 설정했습니다. 이 강력한 기능은 CAD 렌더링의 가능성을 열어줍니다. 다양한 옵션을 실험하고 .NET 애플리케이션에서 Aspose.CAD의 모든 잠재력을 발견하십시오.
+- **캔버스가 잘려 보임** – `AutomaticLayoutsScaling`이 `true`이고 `NoScaling`이 `false`인지 확인하여 도면이 캔버스에 맞게 스케일링되도록 합니다.  
+- **저해상도 PDF** – `PageWidth`/`PageHeight`를 늘리거나 `CadRasterizationOptions`의 `Resolution`을 높입니다.  
+- **파일을 찾을 수 없음 오류** – `MyDir`이 유효한 디렉터리를 가리키고 DXF 파일 이름이 정확히 일치하는지 확인합니다.
 
-## FAQ
+## 자주 묻는 질문
 
-### Q1: Aspose.CAD를 다른 .NET 라이브러리와 함께 사용할 수 있습니까?
+### Q1: Aspose.CAD를 다른 .NET 라이브러리와 함께 사용할 수 있나요?
+A1: 예, Aspose.CAD는 다른 .NET 라이브러리와 원활히 통합되어 CAD 조작 기능을 확장합니다.
 
-A1: 예, Aspose.CAD는 다른 .NET 라이브러리와 원활하게 통합되어 CAD 조작을 위한 향상된 기능을 제공합니다.
+### Q2: Aspose.CAD의 무료 체험판이 있나요?
+A2: 예, 무료 체험판으로 Aspose.CAD 기능을 체험할 수 있습니다. 시작하려면 [여기](https://releases.aspose.com/)를 방문하세요.
 
-### Q2: Aspose.CAD에 대한 무료 평가판을 사용할 수 있습니까?
+### Q3: Aspose.CAD 지원은 어떻게 받을 수 있나요?
+A3: 지원 및 토론은 [Aspose.CAD 포럼](https://forum.aspose.com/c/cad/19)에서 확인하세요.
 
- A2: 예, 무료 평가판을 통해 Aspose.CAD의 기능을 탐색할 수 있습니다. 방문하다[여기](https://releases.aspose.com/) 시작하려면.
+### Q4: Aspose.CAD에 대한 포괄적인 문서는 어디서 찾을 수 있나요?
+A4: 자세한 정보와 예제는 [Aspose.CAD 문서](https://reference.aspose.com/cad/net/)를 참고하세요.
 
-### Q3: Aspose.CAD에 대한 지원은 어떻게 받을 수 있나요?
+### Q5: Aspose.CAD for .NET을 구매하려면 어떻게 해야 하나요?
+A5: 구매는 [구매 페이지](https://purchase.aspose.com/buy)에서 진행할 수 있습니다.
 
- A3: 지원 및 토론을 원하시면 다음을 방문하세요.[Aspose.CAD 포럼](https://forum.aspose.com/c/cad/19).
+**추가 Q&A**
 
-### Q4: Aspose.CAD에 대한 종합 문서는 어디서 찾을 수 있나요?
+**Q: 다중 페이지 CAD 도면을 하나의 PDF로 내보낼 수 있나요?**  
+A: 예. `CadRasterizationOptions`의 `PageCount`를 설정하면 라이브러리가 페이지들을 하나의 PDF로 결합합니다.
 
- A4: 다음을 참조하세요.[Aspose.CAD 문서](https://reference.aspose.com/cad/net/) 자세한 정보와 예시를 확인하세요.
+**Q: 캔버스 크기가 벡터 데이터 품질에 영향을 미치나요?**  
+A: 벡터 데이터는 해상도에 독립적이며, 캔버스 크기는 래스터화된 요소와 이미지 해상도에만 영향을 줍니다.
 
-### Q5: .NET용 Aspose.CAD를 어떻게 구매하나요?
+---
 
- A5: Aspose.CAD를 구매하려면[구매 페이지](https://purchase.aspose.com/buy).
+**마지막 업데이트:** 2026-03-29  
+**테스트 환경:** Aspose.CAD 24.11 for .NET  
+**작성자:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

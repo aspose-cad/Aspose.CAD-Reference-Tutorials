@@ -1,33 +1,52 @@
 ---
-title: Sostituzione dei caratteri in Aspose.CAD per .NET
-linktitle: Sostituzione dei caratteri
-second_title: Aspose.CAD .NET - Formato file CAD e BIM
-description: Impara a sostituire i caratteri in Aspose.CAD per .NET senza sforzo. Segui la nostra guida passo passo per una personalizzazione efficiente dei caratteri nei tuoi disegni CAD.
-weight: 17
+date: 2026-03-29
+description: Scopri come sostituire rapidamente i font in Aspose.CAD per .NET. Questa
+  guida passo passo ti mostra come impostare il nome del font principale e personalizzare
+  i disegni CAD in modo efficiente.
+linktitle: Substituting Fonts
+second_title: Aspose.CAD .NET - CAD and BIM File Format
+title: Come sostituire i font in Aspose.CAD per .NET
 url: /it/net/cad-features-and-support/substituting-fonts/
+weight: 17
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Sostituzione dei caratteri in Aspose.CAD per .NET
+# Come sostituire i caratteri in Aspose.CAD per .NET
 
-## introduzione
+## Introduzione
 
-Nell'ambito dello sviluppo CAD utilizzando .NET, la capacità di manipolare i caratteri è un'abilità cruciale. Aspose.CAD per .NET fornisce un robusto set di strumenti per questo scopo, consentendo agli sviluppatori di sostituire facilmente i caratteri all'interno dei loro disegni CAD. In questo tutorial esploreremo il processo passo dopo passo, dimostrando come ottenere la sostituzione dei caratteri in modo efficiente.
+Nel campo dello sviluppo CAD con .NET, apprendere **come sostituire i caratteri** è una competenza fondamentale che può migliorare notevolmente la qualità visiva dei tuoi disegni. Aspose.CAD per .NET offre un'API semplice che consente di **impostare il nome del carattere primario** per qualsiasi stile, rendendo la sostituzione globale o selettiva dei caratteri un gioco da ragazzi. In questo tutorial percorreremo l'intero processo—dalla caricamento di un disegno alla sostituzione dei caratteri, sia a livello globale sia per nome di stile specifico.
+
+## Risposte rapide
+- **Qual è la classe principale per la manipolazione CAD?** `Aspose.CAD.Image` (o il suo derivato `CadImage`).
+- **Quale proprietà cambia il carattere?** `PrimaryFontName` su `CadStyleTableObject`.
+- **Posso sostituire i caratteri per tutti gli stili in una volta?** Sì, itera attraverso `cadImage.Styles` e imposta la proprietà.
+- **È necessaria una licenza per la produzione?** È richiesta una licenza valida di Aspose.CAD per l'uso non‑trial.
+- **Versioni .NET supportate?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7.
+
+## Cos'è la sostituzione dei caratteri in CAD?
+
+La sostituzione dei caratteri significa sostituire il tipo di carattere originale usato in un disegno CAD con un altro disponibile sul sistema di destinazione. Questo è particolarmente utile quando il carattere originale è mancante, quando è necessario uno stile aziendale coerente, o quando si preparano disegni per la stampa su dispositivi che supportano solo un set limitato di caratteri.
+
+## Perché sostituire i caratteri con Aspose.CAD?
+
+- **Nessuna dipendenza esterna** – la libreria gestisce la mappatura dei caratteri internamente.
+- **Funziona con molti formati** – DXF, DWG, DGN e altri.
+- **Controllo programmatico** – automatizza il processo per conversioni batch o pipeline CI.
+- **Preserva la geometria del disegno** – solo la rappresentazione visiva del testo cambia.
 
 ## Prerequisiti
 
-Prima di immergerti nel tutorial, assicurati di avere quanto segue:
+- Conoscenza di base della programmazione .NET.
+- Aspose.CAD per .NET installato. Se non lo hai ancora installato, scaricalo [qui](https://releases.aspose.com/cad/net/).
+- Un file di disegno CAD (DXF, DWG, ecc.) per sperimentare.
 
-- Conoscenza base della programmazione .NET.
--  Aspose.CAD per .NET installato. In caso contrario, puoi scaricarlo[Qui](https://releases.aspose.com/cad/net/).
-- Un file di disegno CAD per esercitazioni pratiche.
+## Importa gli spazi dei nomi
 
-## Importa spazi dei nomi
-
-Prima di iniziare, importa gli spazi dei nomi necessari per accedere alle funzionalità Aspose.CAD nella tua applicazione .NET.
+Prima di iniziare, importa gli spazi dei nomi necessari per accedere alle funzionalità di Aspose.CAD nella tua applicazione .NET.
 
 ```csharp
 using System;
@@ -39,9 +58,9 @@ using Aspose.CAD;
 using Aspose.CAD.FileFormats.Cad.CadTables;
 ```
 
-## Passaggio 1: caricare il disegno CAD
+## Passo 1: Carica il disegno CAD
 
- Inizia caricando il disegno CAD in un'istanza di`CadImage`. Assicurati di fornire il percorso corretto alla directory dei documenti.
+Inizia caricando il disegno CAD in un'istanza di `CadImage`. Assicurati di fornire il percorso corretto alla directory dei tuoi documenti.
 
 ```csharp
 string MyDir = "Your Document Directory";
@@ -49,24 +68,28 @@ string sourceFilePath = MyDir + "conic_pyramid.dxf";
 
 using (CadImage cadImage = (CadImage)Aspose.CAD.Image.Load(sourceFilePath))
 {
-    //Il tuo codice per ulteriori azioni va qui
+    // Your code for further actions goes here
 }
 ```
 
-## Passaggio 2: ripetizione degli stili
+## Passo 2: Itera sugli stili
 
- Successivamente, esegui l'iterazione sugli stili nel disegno CAD utilizzando a`foreach` ciclo continuo. Ciò consente di accedere e manipolare i singoli stili di carattere.
+Successivamente, itera sugli stili nel disegno CAD usando un ciclo `foreach`. Questo ti permette di accedere e manipolare singoli stili di carattere.
 
 ```csharp
 foreach (CadStyleTableObject style in cadImage.Styles)
 {
-    // Il tuo codice per la manipolazione dello stile va qui
+    // Your code for style manipulation goes here
 }
 ```
 
-## Passaggio 3: sostituisci i caratteri a livello globale
+## Come impostare il nome del carattere primario per la sostituzione dei caratteri
 
- Per sostituire i caratteri globalmente per tutti gli stili, imposta il file`PrimaryFontName` proprietà per ogni stile al nome del carattere desiderato, ad esempio "Arial".
+La proprietà `PrimaryFontName` su ogni `CadStyleTableObject` controlla quale carattere viene usato quando il disegno viene renderizzato. Impostando questa proprietà sostituisci effettivamente il carattere originale.
+
+### Passo 3: Sostituisci i caratteri a livello globale
+
+Per sostituire i caratteri per **tutti** gli stili, imposta la proprietà `PrimaryFontName` per ogni stile al nome del carattere desiderato, ad esempio, `"Arial"`.
 
 ```csharp
 foreach (CadStyleTableObject style in cadImage.Styles)
@@ -75,9 +98,9 @@ foreach (CadStyleTableObject style in cadImage.Styles)
 }
 ```
 
-## Passaggio 4: sostituisci il carattere con il nome dello stile
+### Passo 4: Sostituisci il carattere per nome di stile
 
-Se vuoi sostituire il carattere con uno stile specifico, puoi farlo controllando il nome dello stile all'interno del ciclo.
+Se devi sostituire il carattere solo per uno stile specifico (ad esempio, lo stile chiamato `"Roman"`), aggiungi un controllo condizionale all'interno del ciclo.
 
 ```csharp
 foreach (CadStyleTableObject style in cadImage.Styles)
@@ -89,32 +112,36 @@ foreach (CadStyleTableObject style in cadImage.Styles)
 }
 ```
 
-## Conclusione
+## Problemi comuni e risoluzione
 
-Congratulazioni! Hai imparato con successo come sostituire i caratteri in Aspose.CAD per .NET. Questa abilità è preziosa per personalizzare l'aspetto dei disegni CAD in base alle proprie preferenze.
+| Problema | Causa | Soluzione |
+|----------|-------|-----------|
+| Il carattere non cambia dopo l'esecuzione del codice | Il disegno è memorizzato nella cache o aperto in modalità sola lettura | Assicurati di salvare l'immagine dopo la modifica (`cadImage.Save(...)`) o ricarica il file per verificare. |
+| Il carattere desiderato non è trovato sul sistema | Carattere non installato sulla macchina che esegue il codice | Installa il carattere TrueType/OpenType richiesto o incorporalo nelle risorse dell'applicazione. |
+| Il testo appare illeggibile | Codifica errata o mancanza di supporto Unicode | Usa un carattere che supporta il set di caratteri richiesto (ad esempio, Arial Unicode MS). |
 
 ## Domande frequenti
 
-### Q1: posso annullare le modifiche ai caratteri in Aspose.CAD per .NET?
+**Q: Posso ripristinare le modifiche ai caratteri in Aspose.CAD per .NET?**  
+A: Sì, puoi ripristinare ricaricando il disegno CAD originale o mantenendo una copia di backup prima di apportare modifiche.
 
-R1: Sì, puoi annullare le modifiche apportate ai caratteri ricaricando il disegno CAD originale o conservando un backup.
+**Q: Ci sono altre proprietà dei caratteri che posso modificare?**  
+A: Assolutamente. Oltre a `PrimaryFontName`, puoi lavorare con `SecondaryFontName`, `FontFamily` e altri attributi correlati allo stile per personalizzazioni avanzate.
 
-### Q2: Ci sono altre proprietà dei caratteri che posso modificare?
+**Q: Aspose.CAD è compatibile con diversi formati CAD?**  
+A: Sì, Aspose.CAD supporta un'ampia gamma di formati come DXF, DWG, DGN, DWF e altri, offrendoti flessibilità nei progetti.
 
-A2: Assolutamente, inoltre`PrimaryFontName`, Aspose.CAD per .NET fornisce l'accesso a varie proprietà relative ai caratteri per la personalizzazione avanzata.
+**Q: Posso automatizzare la sostituzione dei caratteri in elaborazione batch?**  
+A: Certamente. Avvolgi la logica di caricamento e sostituzione in un ciclo che itera su una cartella di file CAD, o integrala in una pipeline CI/CD.
 
-### Q3: Aspose.CAD è compatibile con diversi formati CAD?
+**Q: Dove posso trovare supporto aggiuntivo per Aspose.CAD per .NET?**  
+A: Per supporto aggiuntivo e discussioni della community, visita il [forum Aspose.CAD](https://forum.aspose.com/c/cad/19).
 
-A3: Sì, Aspose.CAD supporta un'ampia gamma di formati CAD, garantendo flessibilità nei tuoi progetti di sviluppo.
+---
 
-### Q4: Posso automatizzare la sostituzione dei caratteri nell'elaborazione batch?
-
-R4: Certamente è possibile implementare l'elaborazione batch per automatizzare la sostituzione dei caratteri su più disegni CAD.
-
-### Q5: Dove posso trovare ulteriore supporto per Aspose.CAD per .NET?
-
- R5: Per ulteriore supporto e discussioni nella community, visitare il sito[Forum Aspose.CAD](https://forum.aspose.com/c/cad/19).
-
+**Ultimo aggiornamento:** 2026-03-29  
+**Testato con:** Aspose.CAD per .NET (ultima release)  
+**Autore:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
