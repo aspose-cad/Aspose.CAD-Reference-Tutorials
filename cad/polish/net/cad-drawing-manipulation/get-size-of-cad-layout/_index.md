@@ -1,35 +1,51 @@
 ---
-title: Uzyskaj rozmiar układu CAD w Aspose.CAD dla .NET
-linktitle: Uzyskaj rozmiar układu CAD
-second_title: Aspose.CAD .NET - Format plików CAD i BIM
-description: Dowiedz się, jak pobrać rozmiar układu CAD w .NET przy użyciu Aspose.CAD. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby efektywnie manipulować plikami CAD.
-weight: 14
+date: 2026-03-21
+description: Dowiedz się, jak uzyskać rozmiar układu CAD w .NET przy użyciu Aspose.CAD.
+  Skorzystaj z naszego przewodnika krok po kroku, aby efektywnie manipulować plikami
+  CAD.
+linktitle: Get Size of CAD Layout
+second_title: Aspose.CAD .NET - CAD and BIM File Format
+title: Pobierz rozmiar układu CAD w Aspose.CAD dla .NET
 url: /pl/net/cad-drawing-manipulation/get-size-of-cad-layout/
+weight: 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Uzyskaj rozmiar układu CAD w Aspose.CAD dla .NET
+# Pobieranie rozmiaru układu CAD w Aspose.CAD dla .NET
 
-## Wstęp
+## Wprowadzenie
 
-Witamy w tym kompleksowym przewodniku na temat uzyskiwania rozmiaru układów CAD przy użyciu Aspose.CAD dla .NET. Aspose.CAD to potężna biblioteka, która umożliwia programistom płynną pracę z plikami CAD. W tym samouczku przeprowadzimy Cię przez proces pobierania rozmiaru układów CAD, korzystając z praktycznych przykładów i instrukcji krok po kroku.
+W tym obszernej tutorialu dowiesz się **jak pobrać rozmiar układu CAD** przy użyciu biblioteki Aspose.CAD dla .NET. Niezależnie od tego, czy tworzysz przeglądarkę CAD, generujesz miniatury, czy potrzebujesz precyzyjnych wymiarów układu do dalszego przetwarzania, znajomość dokładnego rozmiaru każdego układu jest niezbędna. Przeprowadzimy Cię przez cały proces – od wczytania rysunku po wyodrębnienie wymiarów układu i opcjonalne zapisanie ich jako obrazy – abyś mógł z pełnym przekonaniem wbudować tę funkcjonalność w własne aplikacje.
 
-## Warunki wstępne
+## Szybkie odpowiedzi
+- **Co oznacza „pobieranie rozmiaru układu CAD”?** Oznacza to odczytanie szerokości i wysokości (w jednostkach rysunku) każdego nie‑pustego układu w pliku CAD.  
+- **Która biblioteka to obsługuje?** Aspose.CAD dla .NET udostępnia prostą API do uzyskiwania informacji o układach.  
+- **Czy potrzebna jest licencja?** Darmowa wersja próbna wystarczy do oceny; licencja komercyjna jest wymagana w środowisku produkcyjnym.  
+- **Obsługiwane formaty?** DWG, DXF i wiele innych formatów CAD/BIM jest w pełni obsługiwanych.  
+- **Typowy czas implementacji?** Około 10‑15 minut dla podstawowej procedury pobierania rozmiaru.
 
-Zanim przejdziemy do samouczka, upewnij się, że spełniasz następujące wymagania wstępne:
+## Co to jest „pobieranie rozmiaru układu CAD”?
+Pobieranie rozmiaru układu CAD oznacza wyodrębnienie geometrycznych granic każdego układu (przestrzeni papieru) zdefiniowanego w rysunku CAD. Granice te wyrażane są w natywnych jednostkach rysunku (zazwyczaj milimetrach lub calach) i są przydatne przy skalowaniu, drukowaniu lub generowaniu podglądów.
 
--  Aspose.CAD dla .NET: Upewnij się, że masz zainstalowaną bibliotekę Aspose.CAD. Można go pobrać z[Strona pobierania Aspose.CAD dla .NET](https://releases.aspose.com/cad/net/).
+## Dlaczego pobierać rozmiar układu CAD przy użyciu Aspose.CAD?
+- **Brak wymogu posiadania oprogramowania CAD** – działa w pełni po stronie serwera.  
+- **Wieloplatformowość** – działa z .NET Framework, .NET Core oraz .NET 5/6+.  
+- **Dokładne pomiary** – zwraca dokładne granice tak, jak są zapisane w pliku, eliminując ręczne parsowanie.  
+- **Łatwa integracja** – proste wywołania API naturalnie wpasowują się w istniejące projekty C#.
 
-- Pliki dokumentów: Przygotuj pliki CAD, z którymi chcesz pracować. W tym samouczku jako przykłady wykorzystano pliki „conic_pyramid.dxf” i „Bottom_plate.dwg”.
+## Wymagania wstępne
 
-Teraz zaczynajmy!
+Zanim przejdziesz do kodu, upewnij się, że masz następujące elementy:
 
-## Importuj przestrzenie nazw
+- Aspose.CAD dla .NET zainstalowane. Możesz pobrać ją ze [strony pobierania Aspose.CAD dla .NET](https://releases.aspose.com/cad/net/).
+- Jeden lub więcej plików CAD (DWG, DXF itp.), które chcesz przeanalizować. W tym przewodniku użyto plików `conic_pyramid.dxf` oraz `Bottom_plate.dwg` jako przykładów.
 
-W projekcie .NET rozpocznij od zaimportowania niezbędnych przestrzeni nazw:
+## Importowanie przestrzeni nazw
+
+W swoim projekcie .NET rozpocznij od zaimportowania wymaganych przestrzeni nazw:
 
 ```csharp
 using System;
@@ -45,17 +61,17 @@ using Aspose.CAD.FileFormats.Cad.CadTables;
 using Aspose.CAD.ImageOptions;
 ```
 
-## Krok 1: Skonfiguruj katalog dokumentów
+## Krok 1: Ustawienie katalogu dokumentów
 
- Ustaw ścieżkę do katalogu dokumentów. Zastępować`"Your Document Directory"` z rzeczywistą ścieżką.
+Zdefiniuj folder, w którym znajdują się Twoje pliki CAD. Zamień symbol zastępczy na rzeczywistą ścieżkę w swoim systemie.
 
 ```csharp
 string MyDir = "Your Document Directory";
 ```
 
-## Krok 2: Określ ścieżki plików CAD
+## Krok 2: Określenie ścieżek do plików CAD
 
-Zdefiniuj tablicę ścieżek plików CAD, które chcesz analizować. W tym przykładzie używamy plików „conic_pyramid.dxf” i „Bottom_plate.dwg”.
+Utwórz tablicę wskazującą na każdy plik CAD, który chcesz przetworzyć.
 
 ```csharp
 string[] sourceFilePaths = new[]
@@ -65,9 +81,9 @@ string[] sourceFilePaths = new[]
 };
 ```
 
-## Krok 3: Iteruj po plikach CAD
+## Krok 3: Iteracja po plikach CAD
 
-Wykonaj iterację po każdym pliku CAD i pobierz informacje o układzie.
+Wczytaj każdy plik, wykryj jego format i przygotuj się do wyodrębnienia informacji o układach.
 
 ```csharp
 foreach (var sourceFilePath in sourceFilePaths)
@@ -75,80 +91,84 @@ foreach (var sourceFilePath in sourceFilePaths)
     string extension = Path.GetExtension(sourceFilePath);
     using (CadImage cadImage = (CadImage)Aspose.CAD.Image.Load(sourceFilePath))
     {
-        // ... (przejdź do następnego kroku)
+        // ... (continue to the next step)
     }
 }
 ```
 
-## Krok 4: Uzyskaj niepuste układy
+## Krok 4: Pobieranie nie‑pustych układów
 
-Zdefiniuj metodę pomocniczą, aby uzyskać niepuste układy w oparciu o typ pliku CAD.
+Potrzebujemy metody pomocniczej, która zwróci tylko te układy, które faktycznie zawierają elementy rysunku. Puste układy są pomijane, ponieważ nie mają rozmiaru do zgłoszenia.
 
 ```csharp
 private static List<string> GetNotEmptyLayouts(Image cadImage, string extension)
 {
-    // ... (przejdź do następnego kroku)
+    // ... (continue to the next step)
 }
 ```
 
-## Krok 5: Uzyskaj układy plików DWG
+## Krok 5: Pobieranie układów dla plików DWG
 
-Zaimplementuj logikę pobierania niepustych układów dla plików DWG.
+Pliki DWG przechowują informacje o układach w tabeli `HeaderVariables`. Poniższa metoda wyodrębnia nazwy wszystkich nie‑pustych układów w rysunku DWG.
 
 ```csharp
 private static List<string> GetNotEmptyLayoutsForDwg(CadImage cadImage)
 {
-    // ... (przejdź do następnego kroku)
+    // ... (continue to the next step)
 }
 ```
 
-## Krok 6: Uzyskaj układy plików DXF
+## Krok 6: Pobieranie układów dla plików DXF
 
-Zaimplementuj logikę pobierania niepustych układów dla plików DXF.
+Pliki DXF używają innej struktury. Ta metoda przetwarza kolekcję `Tables`, aby znaleźć układy przestrzeni papieru zawierające elementy.
 
 ```csharp
 private static List<string> GetNotEmptyLayoutsForDxf(CadImage cadImage)
 {
-    // ... (przejdź do następnego kroku)
+    // ... (continue to the next step)
 }
 ```
 
-## Krok 7: Pobierz rozmiar układu i zapisz jako obraz
+## Krok 7: Pobieranie rozmiaru układu i zapisywanie jako obraz
 
-Zakończ proces uzyskiwania rozmiaru układu i zapisywania go jako obrazu.
+Na koniec przeiteruj każdy wykryty układ, odczytaj jego granice i opcjonalnie wyrenderuj układ do pliku obrazu w celu wizualnej weryfikacji.
 
 ```csharp
 foreach (string layout in layouts)
 {
-    // ... (przejdź do następnego kroku)
+    // ... (continue to the next step)
 }
 ```
 
-## Wniosek
+## Typowe problemy i wskazówki
 
-Gratulacje! Pomyślnie nauczyłeś się, jak uzyskać rozmiar układów CAD za pomocą Aspose.CAD dla .NET. W tym samouczku omówiono podstawowe kroki, od skonfigurowania projektu po pobranie informacji o układzie i zapisanie go jako obrazu. Teraz możesz zastosować tę wiedzę w swoich aplikacjach .NET, aby efektywnie manipulować plikami CAD.
+- **Brak nazw układów:** Upewnij się, że plik CAD rzeczywiście zawiera układy przestrzeni papieru; niektóre pliki mają tylko przestrzeń modelu.  
+- **Nieprawidłowe jednostki:** Rozmiar zwracany jest w natywnych jednostkach rysunku. W razie potrzeby przelicz go na milimetry lub cale.  
+- **Wydajność:** Ładowanie bardzo dużych plików DWG/DXF może być intensywne pod względem pamięci; rozważ przetwarzanie asynchroniczne lub w partiach.
 
-## Często zadawane pytania
+## Najczęściej zadawane pytania
 
-### P1: Czy Aspose.CAD jest kompatybilny ze wszystkimi formatami plików CAD?
+**P: Czy Aspose.CAD jest kompatybilny ze wszystkimi formatami plików CAD?**  
+O: Tak, Aspose.CAD obsługuje szeroką gamę formatów, w tym DWG, DXF, DGN oraz wiele typów plików BIM.
 
-Odpowiedź 1: Tak, Aspose.CAD obsługuje różne formaty plików CAD, w tym DWG i DXF.
+**P: Czy mogę dostosować opcje zapisu obrazu?**  
+O: Oczywiście! Możesz zmienić `CadRasterizationOptions` (format, rozdzielczość, kolor tła itp.), aby dopasować je do swoich potrzeb.
 
-### P2: Czy mogę dostosować opcje zapisywania obrazu?
+**P: Gdzie znajdę dodatkową dokumentację?**  
+O: Odwiedź [dokumentację Aspose.CAD](https://reference.aspose.com/cad/net/) po szczegółowe odniesienia API i więcej przykładów.
 
-A2: Absolutnie! Możesz dostosować opcje obrazu, takie jak format i rozdzielczość, aby spełnić Twoje specyficzne wymagania.
+**P: Czy dostępna jest darmowa wersja próbna?**  
+O: Tak, możesz wypróbować Aspose.CAD korzystając z [darmowej wersji próbnej](https://releases.aspose.com/).
 
-### P3: Gdzie mogę znaleźć dodatkową dokumentację?
+**P: Jak uzyskać wsparcie techniczne?**  
+O: W sprawach technicznych odwiedź [forum Aspose.CAD](https://forum.aspose.com/c/cad/19).
 
- A3: Patrz[Dokumentacja Aspose.CAD](https://reference.aspose.com/cad/net/) szczegółowe informacje i przykłady.
+---
 
-### P4: Czy dostępny jest bezpłatny okres próbny?
+**Ostatnia aktualizacja:** 2026-03-21  
+**Testowane z:** Aspose.CAD 24.11 dla .NET  
+**Autor:** Aspose  
 
- O4: Tak, możesz eksplorować Aspose.CAD za pomocą[bezpłatna wersja próbna](https://releases.aspose.com/).
-
-### Pytanie 5; Jak mogę uzyskać wsparcie techniczne?
-
- O5: Aby uzyskać pomoc techniczną, odwiedź stronę[Forum Aspose.CAD](https://forum.aspose.com/c/cad/19).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

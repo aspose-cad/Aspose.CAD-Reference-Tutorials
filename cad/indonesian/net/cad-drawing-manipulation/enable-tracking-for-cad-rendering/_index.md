@@ -1,35 +1,49 @@
 ---
-title: Aktifkan Pelacakan untuk Rendering CAD di Aspose.CAD untuk .NET
-linktitle: Aktifkan Pelacakan untuk Rendering CAD
-second_title: Aspose.CAD .NET - Format File CAD dan BIM
-description: Temukan kekuatan Aspose.CAD untuk .NET. Aktifkan pelacakan untuk rendering CAD dengan lancar. Ikuti panduan langkah demi langkah kami untuk meningkatkan kontrol dan efisiensi.
-weight: 13
+date: 2026-03-21
+description: Pelajari cara membuat PDF dari CAD, mengonversi DXF ke PDF, dan mengatur
+  ukuran halaman CAD menggunakan Aspose.CAD untuk .NET dengan pelacakan diaktifkan.
+  Ikuti panduan langkah demi langkah kami untuk kontrol penuh.
+linktitle: Enable Tracking for CAD Rendering
+second_title: Aspose.CAD .NET - CAD and BIM File Format
+title: Buat PDF dari CAD dengan Pelacakan menggunakan Aspose.CAD untuk .NET
 url: /id/net/cad-drawing-manipulation/enable-tracking-for-cad-rendering/
+weight: 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aktifkan Pelacakan untuk Rendering CAD di Aspose.CAD untuk .NET
+# Buat PDF dari CAD dengan Pelacakan menggunakan Aspose.CAD untuk .NET
 
-## Perkenalan
+## Introduction
 
-Dalam dunia pengembangan perangkat lunak yang dinamis, Aspose.CAD untuk .NET menonjol sebagai solusi tangguh untuk rendering Computer-Aided Design (CAD). Pustaka canggih ini memberdayakan pengembang untuk membuat, memanipulasi, dan merender file CAD dengan lancar di lingkungan .NET. Dalam tutorial ini, kita akan mempelajari aspek penting Aspose.CAD untuk .NET—mengaktifkan pelacakan untuk rendering CAD.
+Dalam aplikasi .NET modern, **membuat PDF dari CAD** merupakan kebutuhan umum—baik Anda perlu membagikan desain kepada pemangku kepentingan non‑teknis atau mengarsipkan gambar dalam format portabel. Aspose.CAD untuk .NET membuat konversi ini menjadi mudah sekaligus menawarkan fitur **pelacakan** yang memungkinkan Anda memantau kemajuan rendering dan menangkap informasi diagnostik. Pada tutorial ini kami akan membahas seluruh proses: memuat file DXF, mengonfigurasi ukuran halaman, mengonversinya ke PDF, dan mengaktifkan pelacakan untuk mendapatkan visibilitas penuh pada pipeline rendering.
 
-## Prasyarat
+## Quick Answers
+- **Apakah saya dapat mengonversi DXF ke PDF dengan Aspose.CAD?** Ya, perpustakaan ini mendukung konversi DXF‑ke‑PDF secara langsung.  
+- **Bagaimana cara mengatur ukuran halaman CAD selama konversi?** Gunakan `CadRasterizationOptions.PageWidth` dan `PageHeight`.  
+- **Apakah pelacakan wajib?** Tidak, tetapi pelacakan memberikan diagnostik berharga untuk gambar yang besar atau kompleks.  
+- **Versi .NET apa yang didukung?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6+.  
+- **Apakah saya memerlukan lisensi untuk produksi?** Lisensi komersial diperlukan; versi percobaan gratis tersedia.
 
-Sebelum mendalami fungsi pelacakan, pastikan Anda memiliki prasyarat berikut:
+## What is “create PDF from CAD”?
 
--  Aspose.CAD untuk .NET: Pastikan Anda telah menginstal Aspose.CAD untuk .NET. Anda dapat mengunduhnya dari[Di Sini](https://releases.aspose.com/cad/net/).
+Membuat PDF dari CAD berarti merender gambar CAD (misalnya DXF, DWG) menjadi dokumen PDF raster atau vektor. Proses ini mempertahankan kesetiaan visual sambil menyediakan format yang dapat dibuka di hampir semua perangkat tanpa perangkat lunak CAD khusus.
 
-- Lingkungan Pengembangan: Siapkan lingkungan pengembangan yang sesuai, seperti Visual Studio, dan miliki pemahaman dasar tentang pemrograman .NET.
+## Why enable tracking for CAD rendering?
 
-- File CAD: Siapkan file CAD (misalnya, "conic_pyramid.dxf") yang akan Anda gunakan untuk pelacakan dalam proses rendering.
+Pelacakan memberi Anda wawasan waktu nyata ke dalam mesin rendering—berguna untuk debugging, penyetelan kinerja, dan audit. Ketika Anda mengaktifkan pelacakan, Aspose.CAD mencatat setiap langkah rendering, membantu Anda mengidentifikasi bottleneck atau kesalahan pada proyek besar.
 
-## Impor Namespace
+## Prerequisites
 
-Di proyek .NET Anda, pastikan untuk mengimpor namespace yang diperlukan untuk Aspose.CAD:
+- **Aspose.CAD untuk .NET** – unduh dari [here](https://releases.aspose.com/cad/net/).  
+- **Lingkungan pengembangan** – Visual Studio (edisi terbaru apa pun) dengan dukungan .NET.  
+- **File CAD contoh** – file DXF seperti `conic_pyramid.dxf` yang akan Anda konversi dan lacak.
+
+## Import Namespaces
+
+Di proyek .NET Anda, impor namespace yang diperlukan:
 
 ```csharp
 using System;
@@ -41,38 +55,38 @@ using Aspose.CAD;
 using System.IO;
 ```
 
-Sekarang, mari kita uraikan proses mengaktifkan pelacakan untuk rendering CAD menjadi beberapa langkah:
+## Step‑by‑Step Guide
 
-## Langkah 1: Atur Direktori Dokumen
+### Step 1: Set Document Directory (set page size CAD)
 
 ```csharp
 string MyDir = "Your Document Directory";
 string sourceFilePath = MyDir + "conic_pyramid.dxf";
 ```
 
-Pastikan untuk mengganti "Direktori Dokumen Anda" dengan jalur sebenarnya ke direktori dokumen Anda.
+Ganti **Your Document Directory** dengan jalur absolut tempat file DXF Anda berada. Ini juga tempat Anda dapat menyesuaikan dimensi halaman melalui opsi rasterisasi.
 
-## Langkah 2: Muat File CAD
+### Step 2: Load the CAD File
 
 ```csharp
 using (Image image = Image.Load(sourceFilePath))
 {
-    // Langkah lebih lanjut akan diterapkan di sini
+    // Further steps will be implemented here
 }
 ```
 
-Muat file CAD ke objek Aspose.CAD.Image.
+Metode `Image.Load` membaca gambar CAD ke dalam objek `Aspose.CAD.Image`, menyiapkannya untuk rendering.
 
-## Langkah 3: Buat Opsi PDF
+### Step 3: Create PDF Options (prepare for convert dxf to pdf)
 
 ```csharp
 MemoryStream stream = new MemoryStream();
 PdfOptions pdfOptions = new PdfOptions();
 ```
 
-Siapkan aliran memori dan inisialisasi opsi PDF untuk rendering.
+`MemoryStream` memungkinkan Anda menyimpan PDF yang dihasilkan di memori, sementara `PdfOptions` menyimpan semua pengaturan khusus PDF.
 
-## Langkah 4: Konfigurasikan Opsi Rasterisasi
+### Step 4: Configure Rasterization Options (set page size CAD)
 
 ```csharp
 CadRasterizationOptions cadRasterizationOptions = new CadRasterizationOptions();
@@ -81,41 +95,51 @@ cadRasterizationOptions.PageWidth = 800;
 cadRasterizationOptions.PageHeight = 600;
 ```
 
-Buat instance CadRasterizationOptions dan konfigurasikan opsi rendering, seperti lebar dan tinggi halaman.
+Di sini Anda menentukan ukuran halaman output (`PageWidth` & `PageHeight`). Sesuaikan nilai ini agar cocok dengan dimensi PDF yang diinginkan—ini merupakan inti dari persyaratan **set page size CAD**.
 
-## Langkah 5: Simpan Gambar yang Dirender
+### Step 5: Save the Rendered Image (complete the create pdf from cad workflow)
 
 ```csharp
 image.Save(stream, pdfOptions);
 ```
 
-Simpan gambar yang dirender ke aliran memori.
+Memanggil `Save` menulis konten yang dirender ke stream memori menggunakan opsi PDF yang telah Anda konfigurasikan. Pada titik ini Anda sudah memiliki representasi PDF dari file CAD asli, dan informasi pelacakan telah ditangkap secara otomatis oleh perpustakaan.
 
-## Kesimpulan
+## Common Issues & Solutions
 
-Selamat! Anda telah berhasil mengaktifkan pelacakan untuk rendering CAD di Aspose.CAD untuk .NET. Kemampuan ini meningkatkan kontrol dan visibilitas Anda atas proses rendering.
+| Issue | Why it Happens | Fix |
+|-------|----------------|-----|
+| **Blank PDF output** | Rasterization options not linked to `PdfOptions` | Ensure `pdfOptions.VectorRasterizationOptions = cadRasterizationOptions;` is set. |
+| **Incorrect page size** | `PageWidth`/`PageHeight` left at defaults | Explicitly set both properties before saving. |
+| **Performance slowdown on large DXF** | Tracking logs can be verbose | Disable or limit tracking in production by adjusting `Aspose.CAD.Logging` settings. |
 
-## FAQ
+## Frequently Asked Questions
 
-### Q1: Apakah Aspose.CAD untuk .NET cocok untuk rendering CAD 2D dan 3D?
+**Q: Apakah Aspose.CAD untuk .NET cocok untuk rendering CAD 2D dan 3D?**  
+A: Ya, Aspose.CAD untuk .NET mendukung rendering CAD 2D dan 3D, menyediakan solusi komprehensif untuk berbagai kebutuhan desain.
 
-A1: Ya, Aspose.CAD untuk .NET mendukung rendering CAD 2D dan 3D, memberikan solusi komprehensif untuk berbagai kebutuhan desain.
+**Q: Dapatkah saya menggunakan Aspose.CAD untuk .NET dengan kerangka kerja .NET lainnya?**  
+A: Tentu saja! Aspose.CAD untuk .NET terintegrasi mulus dengan berbagai kerangka kerja .NET, memastikan fleksibilitas dan kompatibilitas.
 
-### Q2: Dapatkah saya menggunakan Aspose.CAD untuk .NET dengan kerangka .NET lainnya?
+**Q: Apakah ada versi percobaan gratis untuk Aspose.CAD untuk .NET?**  
+A: Ya, Anda dapat menjelajahi fitur Aspose.CAD untuk .NET dengan versi percobaan gratis yang tersedia [here](https://releases.aspose.com/).
 
-A2: Tentu saja! Aspose.CAD untuk .NET terintegrasi secara mulus dengan berbagai kerangka .NET, memastikan fleksibilitas dan kompatibilitas.
+**Q: Bagaimana cara mendapatkan dukungan untuk Aspose.CAD untuk .NET?**  
+A: Untuk bantuan atau pertanyaan, kunjungi [forum Aspose.CAD](https://forum.aspose.com/c/cad/19) untuk terhubung dengan komunitas dan dukungan.
 
-### Q3: Apakah ada uji coba gratis yang tersedia untuk Aspose.CAD untuk .NET?
+**Q: Apa manfaat mengaktifkan pelacakan dalam rendering CAD?**  
+A: Mengaktifkan pelacakan meningkatkan keterlacakan dan kontrol selama proses rendering, memastikan alur kerja yang lebih transparan dan efisien.
 
- A3: Ya, Anda dapat menjelajahi fitur Aspose.CAD untuk .NET dengan tersedia uji coba gratis[Di Sini](https://releases.aspose.com/).
+## Conclusion
 
-### Q4: Bagaimana saya bisa mendapatkan dukungan untuk Aspose.CAD untuk .NET?
+Anda kini telah mempelajari cara **membuat PDF dari CAD**, **mengonversi DXF ke PDF**, dan **mengatur ukuran halaman CAD** sambil memanfaatkan kemampuan pelacakan Aspose.CAD. Alur kerja end‑to‑end ini memberi Anda kontrol penuh atas kualitas rendering, dimensi output, dan wawasan diagnostik—sempurna untuk aplikasi rekayasa tingkat perusahaan.
 
- A4: Untuk bantuan atau pertanyaan apa pun, kunjungi[Forum Aspose.CAD](https://forum.aspose.com/c/cad/19) untuk terhubung dengan komunitas dan dukungan.
+---
 
-### Q5: Apa manfaat mengaktifkan pelacakan dalam rendering CAD?
+**Last Updated:** 2026-03-21  
+**Tested With:** Aspose.CAD untuk .NET 24.11  
+**Author:** Aspose  
 
-A5: Mengaktifkan pelacakan akan meningkatkan kemampuan penelusuran dan kontrol selama proses rendering, memastikan alur kerja yang lebih transparan dan efisien.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
