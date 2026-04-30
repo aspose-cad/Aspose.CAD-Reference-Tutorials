@@ -1,35 +1,46 @@
 ---
-title: Überschreiben Sie die automatische Codepage-Erkennung in DWG-Dateien mit Java
-linktitle: Überschreiben Sie die automatische Codepage-Erkennung in DWG-Dateien
+date: 2026-01-12
+description: Erfahren Sie, wie Sie CAD in PDF exportieren und dabei die automatische
+  Codepage-Erkennung in DWG-Dateien mit Aspose.CAD für Java überschreiben. Unterstützt
+  die Kodierung und fehlerhafte CIF/MIF.
+linktitle: Override Automatic Code Page Detection in DWG Files
 second_title: Aspose.CAD Java API
-description: Entdecken Sie, wie Sie die Codepage-Erkennung in DWG-Dateien mit Aspose.CAD für Java überschreiben. Behandeln Sie die Codierung effizient und stellen Sie fehlerhafte CIF/MIF wieder her.
-weight: 13
+title: CAD nach PDF exportieren – Automatische Codepage-Erkennung in DWG‑Dateien mit
+  Java überschreiben
 url: /de/java/dwg-file-operations/override-code-page-detection/
+weight: 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Überschreiben Sie die automatische Codepage-Erkennung in DWG-Dateien mit Java
+# CAD nach PDF exportieren – Automatische Codepage-Erkennung in DWG-Dateien mit Java überschreiben
 
-## Einführung
+## Einleitung
 
-Willkommen zu dieser umfassenden Anleitung zum Überschreiben der automatischen Codepage-Erkennung in DWG-Dateien mit Aspose.CAD für Java. Aspose.CAD ist eine leistungsstarke Bibliothek, die Java-Entwicklern die Arbeit mit CAD-Dateiformaten ermöglicht und eine breite Palette von Funktionen zum Bearbeiten, Konvertieren und Exportieren von CAD-Dateien bietet.
+In diesem umfassenden Leitfaden erfahren Sie **wie Sie CAD nach PDF exportieren** und dabei die automatische Codepage-Erkennung überschreiben, die Text in DWG-Dateien beschädigen kann. Aspose.CAD für Java bietet Ihnen eine feinkörnige Kontrolle über die Kodierung, sodass Sie fehlerhafte CIF/MIF-Daten wiederherstellen und zuverlässige PDF-Ausgaben erzeugen können. Egal, ob Sie einen Batch-Konverter erstellen oder die CAD-Verarbeitung in eine größere Java-Anwendung integrieren, die nachfolgenden Schritte führen Sie durch den gesamten Arbeitsablauf.
 
-In diesem Tutorial konzentrieren wir uns auf eine bestimmte Aufgabe: das Überschreiben der automatischen Codepage-Erkennung in DWG-Dateien. Sie erfahren Schritt für Schritt, wie Sie mit der Codierung umgehen und fehlerhaftes CIF/MIF wiederherstellen.
+## Schnelle Antworten
+- **Was bedeutet „override code page“?** Es zwingt Aspose.CAD, eine bestimmte Zeichenkodierung zu verwenden, anstatt zu raten.
+- **Kann ich DWG direkt nach PDF exportieren?** Ja – nach dem Festlegen der korrekten Codepage können Sie das CAD‑Bild als PDF speichern.
+- **Welche Kodierung funktioniert für japanischen Text?** `CodePages.Japanese` und `MifCodePages.Japanese` sind die richtigen Optionen.
+- **Benötige ich eine Lizenz für den Produktionseinsatz?** Eine kommerzielle Lizenz ist erforderlich; eine temporäre Lizenz ist für Tests verfügbar.
+- **Welche Version von Aspose.CAD wird benötigt?** Jede aktuelle Version, die `LoadOptions` und `PdfOptions` unterstützt.
+
+## Was bedeutet „CAD nach PDF exportieren“?
+Das Exportieren von CAD nach PDF konvertiert vektorbasierte CAD‑Zeichnungen in ein weit verbreitetes, festes Layout‑Dokumentformat. Das resultierende PDF bewahrt Linien, Ebenen und Text, während die Zeichnung leicht zu teilen, zu drucken oder in andere Anwendungen einzubetten ist.
+
+## Warum die automatische Codepage-Erkennung überschreiben?
+DWG‑Dateien speichern Text häufig mit veralteten Codepages. Die Auto‑Erkennung von Aspose.CAD kann diese Bytes missinterpretieren, was zu fehlerhaften Zeichen führt. Durch die manuelle Angabe der Codepage stellen Sie sicher, dass der Text im exportierten PDF exakt wie beabsichtigt erscheint, insbesondere bei nicht‑lateinischen Schriften wie Japanisch, Kyrillisch oder Arabisch.
 
 ## Voraussetzungen
-
-Bevor wir uns mit dem Tutorial befassen, stellen Sie sicher, dass die folgenden Voraussetzungen erfüllt sind:
-
-- Java-Entwicklungsumgebung: Stellen Sie sicher, dass auf Ihrem System eine funktionierende Java-Entwicklungsumgebung eingerichtet ist.
-- Aspose.CAD-Bibliothek: Laden Sie die Aspose.CAD für Java-Bibliothek herunter und installieren Sie sie. Sie finden die Bibliothek[Hier](https://releases.aspose.com/cad/java/).
-- DWG-Datei: Halten Sie eine DWG-Datei zum Testen bereit. Sie können die bereitgestellte Beispieldatei mit dem Namen „SimpleEntities.dwg“ verwenden.
+- **Java-Entwicklungsumgebung** – JDK 8+ und Ihre bevorzugte IDE.
+- **Aspose.CAD für Java** – Laden Sie die Bibliothek von der offiziellen Seite [hier](https://releases.aspose.com/cad/java/).
+- **DWG-Beispieldatei** – Verwenden Sie die bereitgestellte `SimpleEntities.dwg` oder jede DWG, die Sie konvertieren möchten.
 
 ## Pakete importieren
-
-Importieren Sie in Ihrem Java-Projekt die erforderlichen Pakete, um die Aspose.CAD-Funktionen zu nutzen:
+In Ihrem Java‑Projekt importieren Sie die erforderlichen Aspose.CAD‑Klassen:
 
 ```java
 import com.aspose.cad.CodePages;
@@ -39,15 +50,13 @@ import com.aspose.cad.MifCodePages;
 import com.aspose.cad.fileformats.cad.CadImage;
 ```
 
-Lassen Sie uns den Prozess nun in mehrere Schritte unterteilen:
+## Schritt‑für‑Schritt‑Anleitung
 
-## Schritt 1: Richten Sie das Projekt ein
+### Schritt 1: Java‑Projekt einrichten
+Erstellen Sie ein neues Maven‑ oder Gradle‑Projekt und fügen Sie das Aspose.CAD‑JAR dem Klassenpfad hinzu. Dieser Schritt stellt sicher, dass die IDE die importierten Klassen auflösen kann.
 
-Erstellen Sie ein neues Java-Projekt und fügen Sie die Aspose.CAD-Bibliothek zu den Abhängigkeiten Ihres Projekts hinzu.
-
-## Schritt 2: DWG-Datei laden
-
-Geben Sie den Pfad zu Ihrer DWG-Datei an und laden Sie sie mit Aspose.CAD:
+### Schritt 2: DWG‑Datei mit einer angegebenen Codepage laden
+Teilen Sie Aspose.CAD mit, welche Kodierung verwendet werden soll und ob versucht werden soll, fehlerhafte CIF/MIF‑Daten wiederherzustellen.
 
 ```java
 String SourceDir = "Your Document Directory";
@@ -59,54 +68,51 @@ opts.setRecoverMalformedCifMif(false);
 CadImage cadImage = (CadImage) Image.load(dwgPathToFile, opts);
 ```
 
-## Schritt 3: Bearbeiten Sie das CAD-Bild
-
-Führen Sie alle erforderlichen Vorgänge am geladenen CAD-Bild durch. Dies kann das Exportieren oder Vornehmen von Änderungen beinhalten.
+### Schritt 3: CAD‑Bild nach PDF exportieren
+Mit der korrekt angewendeten Codepage können Sie die Zeichnung sicher exportieren. Das `PdfOptions`‑Objekt ermöglicht Ihnen, die PDF‑Ausgabe (Kompression, Rasterung usw.) fein abzustimmen.
 
 ```java
-// Führen Sie Exporte oder andere Vorgänge mit cadImage durch
-// Zum Beispiel Exportieren in PDF
+// Perform export or other operations with cadImage
+// For example, exporting to PDF
 PdfOptions pdfOptions = new PdfOptions();
 cadImage.save("output.pdf", pdfOptions);
 ```
 
-## Schritt 4: Erfolg überprüfen
-
-Geben Sie eine Erfolgsmeldung an die Konsole aus, um zu bestätigen, dass der Code erfolgreich ausgeführt wurde:
+### Schritt 4: Erfolg überprüfen
+Eine einfache Konsolennachricht bestätigt, dass der Vorgang ohne Ausnahmen abgeschlossen wurde.
 
 ```java
 System.out.println("OverrideAutomaticCodePageDetectionDwg executed successfully");
 ```
 
-Wiederholen Sie diese Schritte nach Bedarf für Ihren spezifischen Anwendungsfall.
+Sie können diese Schritte für mehrere DWG‑Dateien wiederholen und dabei den Quellpfad sowie den Ausgabename nach Bedarf anpassen.
 
-## Abschluss
+## Häufige Probleme & Lösungen
+- **Garbage‑Zeichen erscheinen weiterhin:** Überprüfen Sie, ob `specifiedEncoding` mit der ursprünglichen Codepage der DWG übereinstimmt. Verwenden Sie bei Bedarf ein anderes `CodePages`‑Enum.
+- **`NullPointerException` bei `cadImage.save`:** Stellen Sie sicher, dass die DWG‑Datei korrekt geladen wird; prüfen Sie Pfad und Dateiberechtigungen.
+- **PDF‑Größe ist groß:** Aktivieren Sie die Kompression in `PdfOptions` (z. B. `pdfOptions.setCompress(true)`).
 
-Glückwunsch! Sie haben erfolgreich gelernt, wie Sie mit Aspose.CAD für Java die automatische Codepage-Erkennung in DWG-Dateien überschreiben. Diese leistungsstarke Bibliothek bietet umfassende Funktionen für die Arbeit mit CAD-Dateien und ist damit ein wertvolles Werkzeug für Java-Entwickler.
+## Häufig gestellte Fragen
 
-Entdecken Sie gerne die zusätzlichen Features und Funktionalitäten von Aspose.CAD, um Ihre CAD-Dateiverarbeitungsmöglichkeiten zu verbessern.
+**Q1: Ist Aspose.CAD mit allen Versionen von DWG‑Dateien kompatibel?**  
+A1: Aspose.CAD unterstützt eine breite Palette von DWG‑Versionen, einschließlich AutoCAD 2018 und früheren Releases.
 
-## FAQs
+**Q2: Kann ich Aspose.CAD für kommerzielle Projekte verwenden?**  
+A2: Ja, für den Produktionseinsatz ist eine kommerzielle Lizenz erforderlich. Sie können eine Lizenz [hier](https://purchase.aspose.com/buy) erhalten.
 
-### F1: Ist Aspose.CAD mit allen Versionen von DWG-Dateien kompatibel?
+**Q3: Gibt es Einschränkungen in der kostenlosen Testversion?**  
+A3: Die Testversion hat Größen‑ und Funktionsbeschränkungen; konsultieren Sie die offizielle Dokumentation für Details.
 
-A1: Aspose.CAD unterstützt verschiedene DWG-Dateiversionen, einschließlich AutoCAD 2018 und früher.
+**Q4: Wie kann ich Support für Aspose.CAD erhalten?**  
+A4: Besuchen Sie die Community‑[Aspose.CAD‑Forum](https://forum.aspose.com/c/cad/19) für Unterstützung und Diskussionen.
 
-### F2: Kann ich Aspose.CAD für kommerzielle Projekte verwenden?
+**Q5: Gibt es eine temporäre Lizenz für Testzwecke?**  
+A5: Ja, eine temporäre Lizenz kann [hier](https://purchase.aspose.com/temporary-license/) angefordert werden.
 
- A2: Ja, Sie können Aspose.CAD für kommerzielle Projekte verwenden. Einzelheiten zur Lizenzierung finden Sie unter[Hier](https://purchase.aspose.com/buy).
+**Zuletzt aktualisiert:** 2026-01-12  
+**Getestet mit:** Aspose.CAD für Java 24.11 (latest at time of writing)  
+**Autor:** Aspose  
 
-### F3: Gibt es Einschränkungen in der kostenlosen Testversion?
-
-A3: Die kostenlose Testversion weist einige Einschränkungen auf. Es wird empfohlen, die Dokumentation auf Einzelheiten zu prüfen.
-
-### F4: Wie kann ich Unterstützung für Aspose.CAD erhalten?
-
- A4: Besuchen Sie die[Aspose.CAD-Forum](https://forum.aspose.com/c/cad/19) für Community-Unterstützung und Diskussionen.
-
-### F5: Gibt es eine temporäre Lizenz für Testzwecke?
-
- A5: Ja, Sie können eine temporäre Lizenz erhalten[Hier](https://purchase.aspose.com/temporary-license/) zum Prüfen.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
