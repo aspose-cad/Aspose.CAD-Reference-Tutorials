@@ -14,39 +14,40 @@ weight: 14
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# dwg to pdf java – Belirli DWG'yi Java Kullanarak PDF'e Dönüştürme
+# dwg'den pdf'e java – esnek DWG'yi Java Kullanarak PDF'e Dönüştürme
 
-## Introduction
+## Giriiş
 
-Modern mimari ve mühendislik iş akışlarında, bir DWG çizimini PDF belgesine dönüştürmek sıkça ihtiyaç duyulan bir gereksinimdir—müşteri incelemesi, dokümantasyon veya arşivleme amaçlarıyla olsun. **Aspose.CAD for Java** kullanarak DWG'yi programlı bir şekilde PDF olarak dışa aktarabilir, çıktı çözünürlüğünü özelleştirebilir ve render etmeden önce belirli varlıkları filtreleyebilirsiniz. Bu öğreticide **dwg to pdf java** dönüşüm sürecini adım adım ele alacağız, böylece bunu kendi Java uygulamalarınıza bugün entegre edebilirsiniz.
+Modern mimari ve mühendislik iş akışlarında, bir DWG çizimini PDF belgesine dönüştürmek, sık kullanılan ihtiyaç seçeneklerinin bir olup olmamasıdır—müşteri incelemesi, dokümantasyon veya arşivleme özellikleriyla olsun. **Aspose.CAD for Java** DWG'yi kullanarak programlı bir şekilde PDF olarak düzenlenebilir, dışarı çıkmayı özelleştirebilir ve render etmeden önce belirlenen varlıkları filtreleyebilirsiniz. Bu öğreticide **dwg'den pdf'ye java** dönüştürme sürecini adım adım ele alırsınızz, böylece bunu bugün kendi Java uygulamalarınıza entegre edebilirsiniz.
 
-## Quick Answers
-- **What library handles the conversion?** Aspose.CAD for Java.
-- **Can I set the image resolution?** Yes – use `CadRasterizationOptions` to define width and height.
-- **Is it possible to filter entities (e.g., keep only text)?** Absolutely; you can remove unwanted entities before saving.
-- **What output format does the example produce?** A PDF file, but the same rasterization options work for PNG, JPEG, etc.
-- **Do I need a license for production use?** A commercial license is required for non‑evaluation deployments.
+## Hızlı Yanıtlar
+- **Dönüştürmeyi hangi kütüphane gerçekleştiriyor?** Aspose.CAD for Java.
+- **Görüntü çözünürlüğünü ayarlayabilir miyim?** Evet – genişliği ve yüksekliği tanımlamak için `CadRasterizationOptions`ı kullanın.
+- **Öğeleri filtrelemek mümkün mü (ör. yalnızca metni saklamak)?** Kesinlikle; kaydetmeden önce istenmeyen varlıkları kaldırabilirsiniz.
+- **Örnek hangi çıktı formatını üretiyor?** Bir PDF dosyası, ancak aynı rasterleştirme seçenekleri PNG, JPEG vb. için de geçerlidir.
+- **Üretim kullanımı için lisansa ihtiyacım var mı?** Değerlendirme amaçlı olmayan dağıtımlar için ticari lisans gereklidir.
 
-## What is dwg to pdf java?
-`dwg to pdf java` refers to the programmatic conversion of AutoCAD DWG files into PDF documents using Java code. This approach eliminates manual export steps, enables batch processing, and gives you full control over rendering options such as page size, scaling, and entity visibility.
+## DWG'den PDF'ye Java nedir?
 
-## Why use Aspose.CAD for Java?
-- **No AutoCAD installation required** – the library handles DWG parsing internally.
-- **High fidelity rendering** – vector data is preserved, and text remains selectable.
-- **Fine‑grained control** – you can filter entities, set custom DPI, and choose raster formats.
-- **Cross‑platform** – works on any OS that supports Java.
+`DWG'den PDF'ye Java`, AutoCAD DWG dosyalarının Java kodu kullanılarak PDF belgelerine programatik olarak dönüştürülmesini ifade eder. Bu yaklaşım, manuel dışa aktarma adımlarını ortadan kaldırır, toplu işlemeyi sağlar ve sayfa boyutu, ölçeklendirme ve varlık görünürlüğü gibi işleme seçenekleri üzerinde tam kontrol sağlar.
 
-## Prerequisites
+## Neden Aspose.CAD for Java kullanmalısınız?
+- **AutoCAD kurulumu gerekmez** – kütüphane DWG ayrıştırmasını dahili olarak halleder.
+- **Yüksek doğrulukta işleme** – vektör verileri korunur ve metin seçilebilir kalır.
+- **İnce taneli kontrol** – varlıkları filtreleyebilir, özel DPI ayarlayabilir ve raster formatlarını seçebilirsiniz.
+- **Çapraz Platform** – Java'yı destekleyen herhangi bir işletim sisteminde çalışır.
 
-Before you begin, make sure you have the following:
+## Önkoşullar
 
-1. **Java Development Kit (JDK)** – a compatible JDK installed on your machine. You can download the latest JDK from [Oracle's website](https://www.oracle.com/java/technologies/javase-downloads.html).  
-2. **Aspose.CAD for Java Library** – obtain the library from the [Aspose.CAD download page](https://releases.aspose.com/cad/java/).  
-3. **IDE of your choice** – IntelliJ IDEA, Eclipse, or any other Java IDE you prefer.
+Başlamadan önce şunlara sahip olduğunuzdan emin olun:
 
-## Import Packages
+1. **Java Geliştirme Kiti (JDK)** – makinenize kurulu uyumlu bir JDK. En son JDK'yı [Oracle'ın web sitesinden](https://www.oracle.com/java/technologies/javase-downloads.html) indirebilirsiniz.
+2. **Aspose.CAD Java Kütüphanesi** – kütüphaneyi [Aspose.CAD indirme sayfasından](https://releases.aspose.com/cad/java/) edinin.
+3. **Tercih ettiğiniz IDE** – IntelliJ IDEA, Eclipse veya tercih ettiğiniz herhangi bir Java IDE.
 
-In your Java project, import the necessary Aspose.CAD packages for smooth integration. Include the following in your code:
+## Paketleri İçe Aktarma
+
+Java projenizde, sorunsuz entegrasyon için gerekli Aspose.CAD paketlerini içe aktarın. Kodunuza aşağıdakileri ekleyin:
 
 ```java
 import com.aspose.cad.Image;
@@ -62,21 +63,21 @@ import java.util.List;
 import java.util.ListIterator;
 ```
 
-## Step‑by‑Step Guide
+## Adım Adım Kılavuz
 
-### Step 1: Set Up Your Project
-Add the Aspose.CAD JAR to your project’s classpath and verify that the JDK is correctly configured in your IDE. This ensures the `Image` and `CadImage` classes are available at compile time.
+### Adım 1: Projenizi Kurun
+Aspose.CAD JAR dosyasını projenizin sınıf yoluna ekleyin ve IDE'nizde JDK'nın doğru şekilde yapılandırıldığını doğrulayın. Bu, `Image` ve `CadImage` sınıflarının derleme zamanında kullanılabilir olmasını sağlar.
 
-### Step 2: Specify DWG File Path
-Define the location of the DWG file you want to convert. Update the `dataDir` and `sourceFilePath` variables to point to your own directory.
+### Adım 2: DWG Dosya Yolunu Belirtin
+Dönüştürmek istediğiniz DWG dosyasının konumunu tanımlayın. `dataDir` ve `sourceFilePath` değişkenlerini kendi dizininize işaret edecek şekilde güncelleyin.
 
 ```java
 String dataDir = "Your Document Directory" + "DWGDrawings/";
 String sourceFilePath = dataDir + "visualization_-_conference_room.dwg";
 ```
 
-### Step 3: Filter Text Entities (Optional)
-If you only need certain entities—such as text annotations—you can filter them out before rendering. The code below iterates through all DWG entities, keeps only those of type `TEXT`, and discards the rest.
+### Adım 3: Metin Öğelerini Filtrele (İsteğe Bağlı)
+Yalnızca belirli öğelere (örneğin metin açıklamalarına) ihtiyacınız varsa, bunları oluşturmadan önce filtreleyebilirsiniz. Aşağıdaki kod, tüm DWG öğelerini yineleyerek yalnızca `TEXT` türündeki öğeleri tutar ve geri kalanını atar.
 
 ```java
 CadImage cadImage = (CadImage) (Image.load(sourceFilePath));
@@ -91,8 +92,8 @@ CadBaseEntity[] arr = new CadBaseEntity[filteredEntities.size()];
 cadImage.setEntities(filteredEntities.toArray(arr));
 ```
 
-### Step 4: Set Rasterization Options – Customize Output Resolution
-Create an instance of `CadRasterizationOptions` and configure its properties. Adjust `pageWidth` and `pageHeight` to control the resolution of the generated PDF (or any other raster format).
+### Adım 4: Rasterleştirme Seçeneklerini Ayarla – Çıktı Çözünürlüğünü Özelleştir
+`CadRasterizationOptions` nesnesinin bir örneğini oluşturun ve özelliklerini yapılandırın. Oluşturulan PDF'nin (veya diğer raster formatının) çözünürlüğünü kontrol etmek için `pageWidth` ve `pageHeight` değerlerini ayarlayın.
 
 ```java
 CadRasterizationOptions rasterizationOptions = new CadRasterizationOptions();
@@ -101,8 +102,8 @@ rasterizationOptions.setPageHeight(1600);
 rasterizationOptions.setAutomaticLayoutsScaling(true);
 ```
 
-### Step 5: Export to PDF – The Final Save
-Wrap the rasterization options in a `PdfOptions` object and save the result. The output file will be a PDF that reflects the filtered entities and the custom resolution you set.
+### Adım 5: PDF'ye Aktar – Son Kaydetme
+Rasterleştirme seçeneklerini bir `PdfOptions` nesnesine sarın ve sonucu kaydedin. Çıktı dosyası, filtrelenmiş öğeleri ve ayarladığınız özel çözünürlüğü yansıtan bir PDF olacaktır.
 
 ```java
 PdfOptions pdfOptions = new PdfOptions();
@@ -111,39 +112,47 @@ String outFile = dataDir + "result_out_generated.pdf";
 cadImage.save(outFile, pdfOptions);
 ```
 
-> **Pro tip:** If you need a different image format (PNG, JPEG, TIFF), replace `PdfOptions` with the corresponding image options class while keeping the same rasterization settings.
+> **İpucu:** Farklı bir resim formatına (PNG, JPEG, TIFF) ihtiyacınız varsa, aynı rasterleştirme ayarlarını koruyarak `PdfOptions` yerine ilgili resim seçenekleri sınıfını kullanın.
 
-Congratulations! You have successfully performed a **dwg to pdf java** conversion using Aspose.CAD for Java.
+Tebrikler! Aspose.CAD for Java kullanarak **dwg'den pdf'ye Java** dönüştürme işlemini başarıyla gerçekleştirdiniz.
 
-## Common Issues and Solutions
+## Sık Karşılaşılan Sorunlar ve Çözümler
 
-| Issue | Likely Cause | Fix |
+| Sorun | Muhtemel Neden | Çözüm |
 |-------|--------------|-----|
-| **Empty PDF** | Source DWG not loaded correctly (wrong path) | Verify `sourceFilePath` points to an existing DWG file. |
-| **Missing text** | Filtering logic removed needed entities | Adjust the `if` condition or skip filtering if you want all entities. |
-| **Low resolution** | `pageWidth`/`pageHeight` too small | Increase the values; 1600 × 1600 is a good starting point for high‑quality PDFs. |
-| **OutOfMemoryError** on large DWG files | Insufficient heap memory | Run the JVM with larger heap (`-Xmx2g` or more). |
+| **Boş PDF** | Kaynak DWG doğru yüklenmedi (yanlış yol) | `sourceFilePath`'in mevcut bir DWG dosyasına işaret ettiğini doğrulayın. |
+| **Eksik metin** | Filtreleme mantığı gerekli varlıkları kaldırdı | Tüm varlıkları istiyorsanız `if` koşulunu ayarlayın veya filtrelemeyi atlayın. |
+| **Düşük çözünürlük** | `pageWidth`/`pageHeight` çok küçük | Değerleri artırın; 1600×1600, yüksek kaliteli PDF'ler için iyi bir başlangıç ​​noktasıdır. |
+| Büyük DWG dosyalarında **OutOfMemoryError** hatası | Yetersiz yığın belleği | JVM'yi daha büyük yığınla çalıştırın (`-Xmx2g` veya daha fazla). |
 
-## Frequently Asked Questions
+## Sıkça Sorulan Sorular
 
-**Q: Is Aspose.CAD compatible with all versions of DWG files?**  
-A: Yes, Aspose.CAD supports a wide range of DWG versions, from early releases up to the latest AutoCAD formats.
+**S: Aspose.CAD tüm DWG dosyası sürümleriyle uyumlu mu?**
+C: Evet, Aspose.CAD, eski sürümlerden en yeni AutoCAD formatlarına kadar geniş bir DWG sürümü yelpazesini destekler.
 
-**Q: Can I customize the resolution of the output image?**  
-A: Absolutely. Use `CadRasterizationOptions.setPageWidth()` and `setPageHeight()` to define the desired DPI or pixel dimensions.
+**S: Çıktı görüntüsünün çözünürlüğünü özelleştirebilir miyim?**
+C: Kesinlikle. İstediğiniz DPI veya piksel boyutlarını tanımlamak için `CadRasterizationOptions.setPageWidth()` ve `setPageHeight()` kullanın.
 
-**Q: Is batch conversion possible?**  
-A: Yes. Wrap the conversion logic inside a loop that iterates over a collection of DWG file paths.
+**S: Toplu dönüştürme mümkün mü?**
+C: Evet. Dönüştürme mantığını, DWG dosya yollarının bir koleksiyonu üzerinde yineleyen bir döngünün içine yerleştirin.
 
-**Q: Where can I find additional support or community discussions?**  
-A: Visit the [Aspose.CAD forum](https://forum.aspose.com/c/cad/19) for help from the community and Aspose engineers.
+**S: Ek destek veya topluluk tartışmalarını nerede bulabilirim?**
+C: Topluluktan ve Aspose mühendislerinden yardım almak için [Aspose.CAD forumunu](https://forum.aspose.com/c/cad/19) ziyaret edin.
 
-**Q: Can I try Aspose.CAD before purchasing?**  
-A: Yes, explore the tool with a free trial available at [this link](https://releases.aspose.com/).
+**S: Satın almadan önce Aspose.CAD'i deneyebilir miyim?**
+C: Evet, [bu bağlantıda](https://releases.aspose.com/) bulunan ücretsiz deneme sürümüyle aracı keşfedin.
 
-## Conclusion
+## Sonuç
 
-Exporting DWG as PDF in Java is straightforward with Aspose.CAD. By following the steps above, you can **export dwg as pdf**, **save dwg as image**, and **customize output resolution** to meet the exact needs of your project. Integrate this workflow into your automation pipelines to boost productivity and ensure consistent, high‑quality documentation.
+Aspose.CAD ile Java'da DWG'yi PDF olarak dışa aktarmak oldukça kolaydır. Yukarıdaki adımları izleyerek, **dwg'yi pdf olarak dışa aktarabilir**, **dwg'yi resim olarak kaydedebilir** ve projenizin tam ihtiyaçlarını karşılamak için **çıktı çözünürlüğünü özelleştirebilirsiniz**. Verimliliği artırmak ve tutarlı, yüksek kaliteli dokümantasyon sağlamak için bu iş akışını otomasyon işlem hatlarınıza entegre edin.
+
+---
+
+**Son Güncelleme:** 12.01.2026
+**Test Edilen Sürüm:** Aspose.CAD for Java 24.12
+**Yazar:** Aspose  
+
+---
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -151,11 +160,3 @@ Exporting DWG as PDF in Java is straightforward with Aspose.CAD. By following th
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2026-01-12  
-**Tested With:** Aspose.CAD for Java 24.12  
-**Author:** Aspose  
-
----

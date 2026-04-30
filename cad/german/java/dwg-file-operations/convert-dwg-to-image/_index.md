@@ -145,15 +145,15 @@ A: Ja, testen Sie das Tool mit einer kostenlosen Testversion, die unter [diesem 
 
 Das Exportieren von DWG als PDF in Java ist mit Aspose.CAD unkompliziert. Wenn Sie die obigen Schritte befolgen, können Sie **dwg as pdf exportieren**, **dwg als Bild speichern** und **die Ausgabeauflösung anpassen**, um die genauen Anforderungen Ihres Projekts zu erfüllen. Integrieren Sie diesen Workflow in Ihre Automatisierungspipelines, um die Produktivität zu steigern und konsistente, hochwertige Dokumentation sicherzustellen.
 
+---
+
+**Zuletzt aktualisiert:** 2026-01-12  
+**Getestet mit:** Aspose.CAD for Java 24.12  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Zuletzt aktualisiert:** 2026-01-12  
-**Getestet mit:** Aspose.CAD for Java 24.12  
-**Autor:** Aspose

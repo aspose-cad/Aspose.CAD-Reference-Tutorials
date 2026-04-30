@@ -144,13 +144,6 @@ A: ได้, ลองใช้เครื่องมือด้วยกา
 
 การส่งออก DWG เป็น PDF ด้วย Java ทำได้อย่างง่ายดายด้วย Aspose.CAD โดยทำตามขั้นตอนข้างต้น คุณสามารถ **export dwg as pdf**, **save dwg as image**, และ **customize output resolution** ให้ตรงกับความต้องการของโครงการของคุณ ผสานเวิร์กโฟลว์นี้เข้าสู่สายงานอัตโนมัติเพื่อเพิ่มประสิทธิภาพและรับประกันเอกสารคุณภาพสูงอย่างสม่ำเสมอ
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **อัปเดตล่าสุด:** 2026-01-12  
@@ -158,3 +151,10 @@ A: ได้, ลองใช้เครื่องมือด้วยกา
 **ผู้เขียน:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

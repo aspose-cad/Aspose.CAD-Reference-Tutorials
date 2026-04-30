@@ -145,15 +145,15 @@ A: Igen, a [linken](https://releases.aspose.com/) elérhető ingyenes próbaverz
 
 A DWG PDF‑be exportálása Java‑ban egyszerű az Aspose.CAD segítségével. A fenti lépések követésével **exportálhatja a DWG‑t PDF‑be**, **mentheti a DWG‑t képként**, és **testreszabhatja a kimeneti felbontást**, hogy pontosan megfeleljen projektje igényeinek. Integrálja ezt a munkafolyamatot automatizálási csővezetékébe a termelékenység növelése és a konzisztens, magas minőségű dokumentáció biztosítása érdekében.
 
+---
+
+**Last Updated:** 2026-01-12  
+**Tested With:** Aspose.CAD for Java 24.12  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2026-01-12  
-**Tested With:** Aspose.CAD for Java 24.12  
-**Author:** Aspose

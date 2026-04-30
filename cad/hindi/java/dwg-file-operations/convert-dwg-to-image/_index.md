@@ -64,10 +64,10 @@ import java.util.ListIterator;
 
 ## चरण‑दर‑चरण गाइड
 
-### Step 1: Set Up Your Project
+### स्टेप 1: अपना प्रोजेक्ट सेट अप करें
 Aspose.CAD JAR को अपने प्रोजेक्ट की क्लासपाथ में जोड़ें और सुनिश्चित करें कि JDK आपके IDE में सही ढंग से कॉन्फ़िगर है। इससे `Image` और `CadImage` क्लासेज़ कंपाइल टाइम पर उपलब्ध हो जाएँगी।
 
-### Step 2: Specify DWG File Path
+### स्टेप 2: DWG फ़ाइल पाथ बताएं
 उस DWG फ़ाइल का स्थान निर्धारित करें जिसे आप बदलना चाहते हैं। `dataDir` और `sourceFilePath` वेरिएबल्स को अपनी डायरेक्टरी की ओर इंगित करने के लिए अपडेट करें।
 
 ```java
@@ -75,7 +75,7 @@ String dataDir = "Your Document Directory" + "DWGDrawings/";
 String sourceFilePath = dataDir + "visualization_-_conference_room.dwg";
 ```
 
-### Step 3: Filter Text Entities (Optional)
+### स्टेप 3: टेक्स्ट एंटिटीज़ फ़िल्टर करें (ऑप्शनल)
 यदि आपको केवल कुछ एंटिटीज़ चाहिए—जैसे टेक्स्ट एनोटेशन—तो रेंडरिंग से पहले उन्हें फ़िल्टर कर सकते हैं। नीचे दिया गया कोड सभी DWG एंटिटीज़ पर इटररेट करता है, केवल `TEXT` प्रकार की एंटिटीज़ रखता है, और बाकी को हटा देता है।
 
 ```java
@@ -91,7 +91,7 @@ CadBaseEntity[] arr = new CadBaseEntity[filteredEntities.size()];
 cadImage.setEntities(filteredEntities.toArray(arr));
 ```
 
-### Step 4: Set Rasterization Options – Customize Output Resolution
+### स्टेप 4: रैस्टराइज़ेशन ऑप्शन सेट करें – आउटपुट रिज़ॉल्यूशन कस्टमाइज़ करें
 `CadRasterizationOptions` का एक इंस्टेंस बनाएं और उसकी प्रॉपर्टीज़ को कॉन्फ़िगर करें। उत्पन्न PDF (या किसी अन्य रास्टर फ़ॉर्मेट) के रिज़ॉल्यूशन को नियंत्रित करने के लिए `pageWidth` और `pageHeight` को समायोजित करें।
 
 ```java
@@ -101,7 +101,7 @@ rasterizationOptions.setPageHeight(1600);
 rasterizationOptions.setAutomaticLayoutsScaling(true);
 ```
 
-### Step 5: Export to PDF – The Final Save
+### स्टेप 5: PDF में एक्सपोर्ट करें – फ़ाइनल सेव
 रास्टराइज़ेशन विकल्पों को `PdfOptions` ऑब्जेक्ट में रैप करें और परिणाम को सहेजें। आउटपुट फ़ाइल एक PDF होगी जो फ़िल्टर की गई एंटिटीज़ और आपके द्वारा सेट किए गए कस्टम रिज़ॉल्यूशन को दर्शाएगी।
 
 ```java
@@ -145,13 +145,6 @@ cadImage.save(outFile, pdfOptions);
 
 Aspose.CAD के साथ Java में DWG को PDF में निर्यात करना सरल है। ऊपर बताए गए चरणों का पालन करके आप **dwg को pdf में निर्यात** कर सकते हैं, **dwg को इमेज के रूप में सहेज** सकते हैं, और अपने प्रोजेक्ट की सटीक आवश्यकताओं को पूरा करने के लिए **आउटपुट रिज़ॉल्यूशन को कस्टमाइज़** कर सकते हैं। इस वर्कफ़्लो को अपने ऑटोमेशन पाइपलाइन में एकीकृत करें ताकि उत्पादकता बढ़े और लगातार उच्च‑गुणवत्ता वाला दस्तावेज़ीकरण सुनिश्चित हो।
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **अंतिम अपडेट:** 2026-01-12  
@@ -159,3 +152,10 @@ Aspose.CAD के साथ Java में DWG को PDF में निर्
 **लेखक:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
