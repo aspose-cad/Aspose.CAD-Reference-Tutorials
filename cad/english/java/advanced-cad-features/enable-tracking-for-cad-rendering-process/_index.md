@@ -5,7 +5,7 @@ second_title: "Aspose.CAD Java API"
 description: "Learn how to set PDF page size while converting CAD to PDF using Aspose.CAD for Java. Follow this step‑by‑step guide to enable tracking, convert CAD to PDF, and save CAD as PDF efficiently."
 weight: 10
 url: /java/advanced-cad-features/enable-tracking-for-cad-rendering-process/
-date: 2025-12-07
+date: 2026-02-12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -95,7 +95,7 @@ cadRasterizationOptions.setPageWidth(800);
 cadRasterizationOptions.setPageHeight(600);
 ```
 
-Here we **set PDF page size** by defining `PageWidth` and `PageHeight`. Adjust these values to match the dimensions required for your engineering drawing. This step directly influences how the CAD content is scaled and rendered in the final PDF.
+Here we **set PDF page size** by defining `PageWidth` and `PageHeight`. Adjust these values to match the dimensions required for your engineering drawing. This is the core step that answers **how to set PDF size** when you **java cad to pdf**.
 
 ## Save the PDF File
 
@@ -149,7 +149,7 @@ Congratulations! You have now learned how to **set PDF page size** and enable tr
 
 ---
 
-**Last Updated:** 2025-12-07  
+**Last Updated:** 2026-02-12  
 **Tested With:** Aspose.CAD for Java 24.12 (latest at time of writing)  
 **Author:** Aspose  
 

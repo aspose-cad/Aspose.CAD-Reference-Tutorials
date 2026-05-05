@@ -1,5 +1,5 @@
 ---
-date: 2025-12-07
+date: 2026-02-12
 description: Aprenda cómo establecer el tamaño de página PDF al convertir CAD a PDF
   usando Aspose.CAD para Java. Siga esta guía paso a paso para habilitar el seguimiento,
   convertir CAD a PDF y guardar CAD como PDF de manera eficiente.
@@ -11,7 +11,17 @@ url: /es/java/advanced-cad-features/enable-tracking-for-cad-rendering-process/
 weight: 10
 ---
 
-{{< blocks/products/pf/main-wrap-class >}}
+ for Java 24.12 (latest at time of writing)" translate "Probado con:".
+
+"**Author:** Aspose" translate "Autor:" maybe keep.
+
+Then closing shortcodes.
+
+Also include backtop button shortcode.
+
+Make sure to preserve all markdown formatting.
+
+Let's produce final content.{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
@@ -19,14 +29,14 @@ weight: 10
 
 ## Introducción
 
-En este tutorial aprenderás cómo **establecer el tamaño de página PDF** mientras **conviertes CAD a PDF** usando **Aspose.CAD for Java**. Al habilitar el seguimiento obtienes visibilidad completa del pipeline de renderizado, lo que facilita la depuración y optimización de la conversión de archivos CAD (como DXF) a PDF. Ya sea que necesites **guardar CAD como PDF**, generar PDF a partir de DXF, o simplemente controlar las dimensiones de salida, los pasos a continuación te guiarán a través de todo el proceso.
+En este tutorial aprenderá a **establecer el tamaño de página PDF** mientras **convierte CAD a PDF** usando **Aspose.CAD for Java**. Al habilitar el seguimiento obtiene visibilidad total sobre la canalización de renderizado, lo que facilita depurar y optimizar la conversión de archivos CAD (como DXF) a PDF. Ya sea que necesite **guardar CAD como PDF**, generar PDF a partir de DXF, o simplemente controlar las dimensiones de salida, los pasos a continuación le guiarán a través de todo el proceso.
 
 ## Respuestas rápidas
 - **¿Qué hace “set PDF page size”?** Define el ancho y la altura de la página PDF resultante durante el renderizado CAD.  
-- **¿Por qué habilitar el seguimiento?** El seguimiento registra cada etapa de la conversión, ayudándote a detectar cuellos de botella de rendimiento o errores.  
-- **¿Necesito una licencia?** Una prueba gratuita sirve para evaluación; se requiere una licencia comercial para producción.  
-- **¿Qué formatos CAD son compatibles?** DWG, DXF, DGN y muchos otros – consulta la documentación de Aspose.CAD para la lista completa.  
-- **¿Puedo cambiar las dimensiones de la página sobre la marcha?** Sí – simplemente ajusta los valores `PageWidth` y `PageHeight` en `CadRasterizationOptions`.
+- **¿Por qué habilitar el seguimiento?** El seguimiento registra cada etapa de la conversión, ayudándole a detectar cuellos de botella de rendimiento o errores.  
+- **¿Necesito una licencia?** Una prueba gratuita funciona para evaluación; se requiere una licencia comercial para producción.  
+- **¿Qué formatos CAD son compatibles?** DWG, DXF, DGN y muchos otros – consulte la documentación de Aspose.CAD para la lista completa.  
+- **¿Puedo cambiar las dimensiones de la página sobre la marcha?** Sí – simplemente ajuste los valores `PageWidth` y `PageHeight` en `CadRasterizationOptions`.
 
 ## ¿Qué es “set PDF page size” en el renderizado CAD?
 
@@ -34,23 +44,23 @@ Establecer el tamaño de página PDF indica al rasterizador cuán grande debe se
 
 ## ¿Por qué habilitar el seguimiento para el renderizado CAD?
 
-Habilitar el seguimiento proporciona un registro detallado de cada paso—desde la carga del archivo fuente hasta la escritura del PDF de salida. Ayuda a:
+Habilitar el seguimiento proporciona un registro detallado de cada paso—desde la carga del archivo fuente hasta la escritura del PDF de salida. Le ayuda a:
 
 - Diagnosticar por qué un dibujo específico podría renderizarse incorrectamente.  
-- Medir el tiempo tomado en cada etapa, útil para la optimización del rendimiento.  
-- Verificar que el tamaño de página configurado se aplique realmente.
+- Medir el tiempo tomado en cada etapa, útil para la afinación del rendimiento.  
+- Verificar que el tamaño de página que configuró se aplique realmente.
 
 ## Requisitos previos
 
-Antes de sumergirte en la configuración del seguimiento, asegúrate de contar con los siguientes requisitos:
+Antes de sumergirse en la configuración del seguimiento, asegúrese de contar con los siguientes requisitos:
 
-1. **Entorno de desarrollo Java** – Java 8 o posterior instalado en tu máquina.  
-2. **Biblioteca Aspose.CAD** – Descarga e integra la biblioteca Aspose.CAD en tu proyecto Java. Puedes encontrar el enlace de descarga [aquí](https://releases.aspose.com/cad/java/).  
-3. **Directorio de documentos** – Prepara un directorio para almacenar tus archivos CAD y los PDFs generados.
+1. **Entorno de desarrollo Java** – Java 8 o posterior instalado en su máquina.  
+2. **Biblioteca Aspose.CAD** – Descargue e integre la biblioteca Aspose.CAD en su proyecto Java. Puede encontrar el enlace de descarga [aquí](https://releases.aspose.com/cad/java/).  
+3. **Directorio de documentos** – Prepare un directorio para almacenar sus archivos CAD y los PDFs generados.
 
 ## Importar espacios de nombres
 
-En tu proyecto Java, importa los espacios de nombres necesarios para aprovechar las funcionalidades de Aspose.CAD. Añade las siguientes líneas al comienzo de tu código:
+En su proyecto Java, importe los espacios de nombres necesarios para aprovechar las funcionalidades de Aspose.CAD. Añada las siguientes líneas al comienzo de su código:
 
 ```java
 import java.io.FileNotFoundException;
@@ -69,7 +79,7 @@ import com.aspose.cad.imageoptions.PdfOptions;
 String dataDir = "Your Document Directory" + "CADConversion/";
 ```
 
-Reemplaza `"Your Document Directory"` con la ruta real a tu directorio de documentos.
+Reemplace `"Your Document Directory"` con la ruta real a su directorio de documentos.
 
 ## Cargar el archivo CAD
 
@@ -78,18 +88,18 @@ String srcFile = dataDir + "conic_pyramid.dxf";
 Image image = Image.load(srcFile);
 ```
 
-Especifica la ruta a tu archivo CAD, asegurándote de que esté dentro del directorio de documentos designado.
+Especifique la ruta a su archivo CAD, asegurándose de que esté dentro del directorio de documentos designado.
 
-## Establecer opciones de salida PDF
+## Configurar opciones de salida PDF
 
 ```java
 OutputStream stream = new FileOutputStream(dataDir + "conic_pyramid.pdf");
 PdfOptions pdfOptions = new PdfOptions();
 ```
 
-Crea un flujo de salida y configura las opciones PDF para la conversión.
+Cree un flujo de salida y configure las opciones PDF para la conversión.
 
-## Configurar CadRasterizationOptions (establecer tamaño de página PDF)
+## Configurar CadRasterizationOptions (Establecer tamaño de página PDF)
 
 ```java
 CadRasterizationOptions cadRasterizationOptions = new CadRasterizationOptions();
@@ -98,7 +108,7 @@ cadRasterizationOptions.setPageWidth(800);
 cadRasterizationOptions.setPageHeight(600);
 ```
 
-Aquí **establecemos el tamaño de página PDF** definiendo `PageWidth` y `PageHeight`. Ajusta estos valores para que coincidan con las dimensiones requeridas para tu dibujo de ingeniería. Este paso influye directamente en cómo el contenido CAD se escala y renderiza en el PDF final.
+Aquí **establecemos el tamaño de página PDF** definiendo `PageWidth` y `PageHeight`. Ajuste estos valores para que coincidan con las dimensiones requeridas para su dibujo de ingeniería. Este es el paso central que responde **cómo establecer el tamaño PDF** cuando **java cad to pdf**.
 
 ## Guardar el archivo PDF
 
@@ -106,7 +116,7 @@ Aquí **establecemos el tamaño de página PDF** definiendo `PageWidth` y `PageH
 image.save(stream, pdfOptions);
 ```
 
-Guarda el archivo PDF renderizado con las opciones especificadas.
+Guarde el archivo PDF renderizado con las opciones especificadas.
 
 ## Verificar la habilitación del seguimiento
 
@@ -114,47 +124,49 @@ Guarda el archivo PDF renderizado con las opciones especificadas.
 System.out.println("Tracking enabled successfully for CAD rendering process.");
 ```
 
-Confirma que el seguimiento está habilitado correctamente para el proceso de renderizado CAD.
+Confirme que el seguimiento está habilitado correctamente para el proceso de renderizado CAD.
 
 ## Problemas comunes y solución de problemas
 
 | Síntoma | Causa probable | Solución |
 |---------|----------------|----------|
-| La página PDF aparece en blanco | `PageWidth`/`PageHeight` establecidos en 0 | Asegúrate de proporcionar dimensiones distintas de cero. |
-| El archivo de salida está corrupto | El flujo de salida no se cerró | Llama a `stream.close()` después de `image.save(...)`. |
-| Faltan capas en el PDF | El archivo CAD usa entidades no compatibles | Verifica que el formato de archivo sea totalmente compatible con Aspose.CAD. |
+| La página PDF aparece en blanco | `PageWidth`/`PageHeight` establecido a 0 | Asegúrese de proporcionar dimensiones distintas de cero. |
+| El archivo de salida está corrupto | El flujo de salida no está cerrado | Llame a `stream.close()` después de `image.save(...)`. |
+| Faltan capas en el PDF | El archivo CAD usa entidades no compatibles | Verifique que el formato de archivo sea totalmente compatible con Aspose.CAD. |
 
 ## Preguntas frecuentes
 
-### P1: ¿Es Aspose.CAD compatible con todos los formatos de archivo CAD?
+### Q1: ¿Es Aspose.CAD compatible con todos los formatos de archivo CAD?
 
-R1: Aspose.CAD soporta una amplia gama de formatos CAD, incluyendo DWG, DXF, DGN y más. Consulta la [documentación](https://reference.aspose.com/cad/java/) para una lista completa.
+A1: Aspose.CAD soporta una amplia gama de formatos CAD, incluidos DWG, DXF, DGN y más. Consulte la [documentación](https://reference.aspose.com/cad/java/) para obtener una lista completa.
 
-### P2: ¿Puedo personalizar las dimensiones de salida del archivo PDF?
+### Q2: ¿Puedo personalizar las dimensiones de salida del archivo PDF?
 
-R2: ¡Por supuesto! Ajusta los parámetros `PageWidth` y `PageHeight` en `CadRasterizationOptions` para adaptar las dimensiones de salida.
+A2: ¡Absolutamente! Ajuste los parámetros `PageWidth` y `PageHeight` en `CadRasterizationOptions` para adaptar las dimensiones de salida.
 
-### P3: ¿Hay una prueba gratuita disponible para Aspose.CAD para Java?
+### Q3: ¿Hay una prueba gratuita disponible para Aspose.CAD for Java?
 
-R3: Sí, puedes explorar las capacidades de Aspose.CAD obteniendo una prueba gratuita [aquí](https://releases.aspose.com/).
+A3: Sí, puede explorar las capacidades de Aspose.CAD obteniendo una prueba gratuita [aquí](https://releases.aspose.com/).
 
-### P4: ¿Cómo puedo obtener soporte de la comunidad para consultas relacionadas con Aspose.CAD?
+### Q4: ¿Cómo puedo obtener soporte de la comunidad para consultas relacionadas con Aspose.CAD?
 
-R4: Visita el [foro de Aspose.CAD](https://forum.aspose.com/c/cad/19) para interactuar con la comunidad y solicitar ayuda.
+A4: Visite el [foro de Aspose.CAD](https://forum.aspose.com/c/cad/19) para interactuar con la comunidad y solicitar asistencia.
 
-### P5: ¿Hay licencias temporales disponibles para Aspose.CAD?
+### Q5: ¿Existen licencias temporales disponibles para Aspose.CAD?
 
-R5: Sí, si necesitas una licencia temporal, puedes obtener una [aquí](https://purchase.aspose.com/temporary-license/).
+A5: Sí, si necesita una licencia temporal, puede adquirir una [aquí](https://purchase.aspose.com/temporary-license/).
 
 ## Conclusión
 
-¡Felicidades! Ahora sabes cómo **establecer el tamaño de página PDF** y habilitar el seguimiento para el renderizado CAD usando **Aspose.CAD for Java**. Esta guía te permite **convertir CAD a PDF**, **guardar CAD como PDF**, y generar PDF a partir de DXF con control total sobre las dimensiones de página y registros de ejecución detallados. Siéntete libre de experimentar con diferentes tamaños de página y explorar opciones adicionales de rasterización para adaptarlas a tus flujos de trabajo de ingeniería específicos.
+¡Felicidades! Ahora ha aprendido a **establecer el tamaño de página PDF** y habilitar el seguimiento para el renderizado CAD usando **Aspose.CAD for Java**. Esta guía le permite **convertir CAD a PDF**, **guardar CAD como PDF** y generar PDF a partir de DXF con control total sobre las dimensiones de página y registros de ejecución detallados. Siéntase libre de experimentar con diferentes tamaños de página y explorar opciones adicionales de rasterización para adaptarlas a sus flujos de trabajo de ingeniería específicos.
 
 ---
 
-**Last Updated:** 2025-12-07  
-**Tested With:** Aspose.CAD for Java 24.12 (latest at time of writing)  
-**Author:** Aspose
+**Última actualización:** 2026-02-12  
+**Probado con:** Aspose.CAD for Java 24.12 (última versión al momento de escribir)  
+**Autor:** Aspose  
+
+---
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

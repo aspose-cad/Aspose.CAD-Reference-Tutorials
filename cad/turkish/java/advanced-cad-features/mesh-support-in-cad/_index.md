@@ -1,10 +1,10 @@
 ---
-date: 2025-12-09
+date: 2026-02-12
 description: Aspose.CAD for Java kullanarak DWG dosyalarından PDF oluşturmayı öğrenin.
   Mesh desteğiyle DWG'yi PDF'ye zahmetsizce dönüştürün.
 linktitle: Mesh Support in CAD
 second_title: Aspose.CAD Java API
-title: Aspose.CAD for Java ile DWG'den PDF Oluştur
+title: Aspose.CAD for Java kullanarak DWG'den PDF oluştur
 url: /tr/java/advanced-cad-features/mesh-support-in-cad/
 weight: 12
 ---
@@ -13,32 +13,38 @@ weight: 12
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# DWG'den PDF Oluşturma Aspose.CAD for Java
+# Aspose.CAD for Java ile DWG'den PDF Oluşturma
 
-## Introduction
+## Giriş
 
-Bu öğreticide **DWG dosyalarından PDF oluşturmayı** Aspose.CAD for Java kullanarak öğreneceksiniz. Kütüphanenin ağ desteği, karmaşık CAD çizimlerini—3‑B ağlar içerenleri—doğrudan PDF'ye kayıpsız dönüştürmenizi sağlar. Raporlama, arşivleme veya sonraki işleme için **DWG'yi PDF'ye dönüştürmeniz** gerektiğinde, aşağıdaki adımlar güvenilir, üretim‑hazır bir çözüm sunar.
+Bu öğreticide Aspose.CAD for Java kullanarak **DWG'den PDF oluşturmayı** öğreneceksiniz. Kütüphanenin mesh desteği, 3‑D mesh içeren karmaşık CAD çizimlerini doğrudan PDF'ye dönüştürmenizi sağlar ve detay kaybı olmaz. **DWG'yi PDF'ye dönüştürmeniz** raporlama, arşivleme veya sonraki işlem için gerekli olsun, aşağıdaki adımlar güvenilir, üretim‑hazır bir çözüm sunar. Bu kılavuz ayrıca **DWG'yi PDF olarak dışa aktarmayı** ve yüksek‑kaliteli dokümantasyon gerektiğinde **CAD'den PDF oluşturmayı** gösterir.
 
-## Quick Answers
-- **Bu öğretici neyi kapsıyor?** Ağ içeren bir DWG dosyasını Aspose.CAD for Java kullanarak PDF'ye dönüştürmek.  
-- **Lisans gerekli mi?** Test için geçici bir lisans yeterlidir; ticari kullanım için tam lisans gerekir.  
+## Hızlı Yanıtlar
+- **Bu öğreticide ne anlatılıyor?** Aspose.CAD for Java kullanarak mesh içeren bir DWG dosyasını PDF'ye dönüştürme.  
+- **Bir lisansa ihtiyacım var mı?** Test için geçici bir lisans yeterlidir; ticari kullanım için tam lisans gereklidir.  
 - **Hangi Java sürümü destekleniyor?** Java 8 ve üzeri.  
-- **Başka formatları dışa aktarabilir miyim?** Evet – Aspose.CAD PNG, JPEG, BMP ve daha fazlasını destekler.  
-- **Dönüşüm ne kadar sürer?** Standart‑boyutlu çizimler için genellikle bir saniyeden az.
+- **Başka formatlar dışa aktarabilir miyim?** Evet – Aspose.CAD ayrıca PNG, JPEG, BMP ve daha fazlasını destekler.  
+- **Dönüştürme ne kadar sürer?** Standart‑boyutlu çizimler için genellikle bir saniyenin altında.
 
-## DWG'den PDF Nasıl Oluşturulur?
+## DWG'den PDF neden oluşturulur?
 
-Aşağıda, projeyi kurmaktan son PDF'yi kaydetmeye kadar tüm süreci adım adım anlatan kısa bir rehber bulacaksınız.
+DWG dosyasından PDF oluşturmak, orijinal CAD çiziminin görsel bütünlüğünü koruyan evrensel olarak görüntülenebilir bir belge sağlar. PDF'ler şunlar için idealdir:
 
-## Prerequisites
+* **Otomatik raporlama** – izleyici tarafında CAD yazılımı gerektirmeden mühendislik çizimlerini PDF raporlarına gömün.  
+* **Belge arşivleme** – çizimleri uzun vadeli saklama için istikrarlı, aranabilir bir formatta depolayın.  
+* **Web hizmetleri** – DWG yüklemelerini kabul edip PDF dönen bir API sunun; bu, **CAD'yi PDF'ye dönüştür** gereken SaaS platformları için yaygın bir desendir.  
 
-- **Java Geliştirme Ortamı:** Makinenizde JDK 8 veya daha yeni bir sürüm yüklü olmalıdır.  
-- **Aspose.CAD for Java Kütüphanesi:** En son JAR dosyasını [download link](https://releases.aspose.com/cad/java/) adresinden indirin.  
-- **Ağ İçeren Belge:** Ağ verisi içeren bir DWG dosyası (ör. `meshes.dwg`).  
+Aspose.CAD'in mesh desteğini kullanmak, karmaşık 3‑D geometrinin bile final PDF'de eksiksiz olarak yeniden üretilmesini sağlar.
 
-## Import Namespaces
+## Önkoşullar
 
-Java kaynak dosyanızda, gerekli Aspose.CAD sınıflarını dahil edin:
+- **Java Geliştirme Ortamı:** Makinenizde yüklü JDK 8 veya daha yeni bir sürüm.  
+- **Aspose.CAD for Java Kütüphanesi:** En son JAR'ı [download link](https://releases.aspose.com/cad/java/) adresinden indirin.  
+- **Mesh'li Belge:** Mesh verisi içeren bir DWG dosyası (ör. `meshes.dwg`).  
+
+## Ad Alanlarını İçe Aktarma
+
+Java kaynak dosyanızda, gerekli Aspose.CAD sınıflarını ekleyin:
 
 ```java
 import com.aspose.cad.Image;
@@ -48,13 +54,15 @@ import com.aspose.cad.imageoptions.CadRasterizationOptions;
 import com.aspose.cad.imageoptions.PdfOptions;
 ```
 
-## Step 1: Set Up the Project
+## Adım‑Adım Kılavuz
 
-Yeni bir Java projesi oluşturun (veya mevcut bir projeye ekleyin) ve Aspose.CAD JAR dosyasını projenin sınıf yoluna ekleyin. Kaynak DWG dosyanızı ve oluşturulan PDF'yi tutacak bir temel dizin tanımlayın.
+### Adım 1: Projeyi Kurun
 
-## Step 2: Define File Paths
+Yeni bir Java projesi oluşturun (veya mevcut bir projeye ekleyin) ve Aspose.CAD JAR'ını projenin sınıf yoluna ekleyin. Kaynak DWG ve oluşturulan PDF'yi tutacak bir temel dizin tanımlayın.
 
-Giriş DWG dosyasının nerede bulunduğunu ve çıkış PDF'nin nereye yazılacağını belirtin.
+### Adım 2: Dosya Yollarını Tanımlayın
+
+Girdi DWG'nin nerede bulunduğunu ve çıktı PDF'nin nereye yazılacağını belirtin.
 
 ```java
 String dataDir = "Your Document Directory" + "CADConversion/";
@@ -62,7 +70,7 @@ String sourceFilePath = dataDir + "meshes.dwg";
 String outPath = dataDir + "meshes.pdf";
 ```
 
-## Step 3: Load the CAD Image
+### Adım 3: CAD Görüntüsünü Yükleyin
 
 DWG dosyasını bir `CadImage` nesnesine yükleyin, böylece Aspose.CAD iç yapısıyla çalışabilir.
 
@@ -70,9 +78,9 @@ DWG dosyasını bir `CadImage` nesnesine yükleyin, böylece Aspose.CAD iç yap�
 CadImage cadImage = (CadImage)Image.load(sourceFilePath);
 ```
 
-## Step 4: Configure Rasterization Options
+### Adım 4: Rasterleştirme Seçeneklerini Yapılandırın
 
-Oluşturulan PDF sayfalarının boyut ve düzenini kontrol eden rasterleştirme seçeneklerini ayarlayın. `Layouts` dizisi, Aspose.CAD'in ağ varlıklarını içeren **Model** alanını render etmesini sağlar.
+Oluşturulan PDF sayfalarının boyut ve düzenini kontrol eden rasterleştirme seçeneklerini ayarlayın. `Layouts` dizisi, Aspose.CAD'in mesh varlıklarını içeren **Model** alanını render etmesini söyler.
 
 ```java
 CadRasterizationOptions rasterizationOptions = new CadRasterizationOptions();
@@ -81,7 +89,7 @@ rasterizationOptions.setPageHeight(1600);
 rasterizationOptions.setLayouts(new String[] { "Model" });
 ```
 
-## Step 5: Set PDF Options
+### Adım 5: PDF Seçeneklerini Ayarlayın
 
 Rasterleştirme ayarlarını bir `PdfOptions` örneğine ekleyin. Bu, kütüphaneye PDF üretirken önceden tanımlanan seçenekleri kullanmasını söyler.
 
@@ -90,61 +98,62 @@ PdfOptions pdfOptions = new PdfOptions();
 pdfOptions.setVectorRasterizationOptions(rasterizationOptions);
 ```
 
-## Step 6: Save the PDF
+### Adım 6: PDF'yi Kaydedin
 
-Son olarak, yüklenen CAD görüntüsünü PDF dosyası olarak kaydedin. Oluşan belge, orijinal DWG'nin, ağ geometrisi dahil, eksiksiz bir temsilini içerecektir.
+Son olarak, yüklenen CAD görüntüsünü PDF dosyası olarak kaydedin. Ortaya çıkan belge, orijinal DWG'nin, mesh geometrisi dahil, eksiksiz bir temsilini içerecektir.
 
 ```java
 cadImage.save(outPath, pdfOptions);
 ```
 
-### Why this works for **convert CAD to PDF**
+#### Neden bu **CAD'yi PDF'ye dönüştür** için çalışır
 
-Aspose.CAD, vektör tabanlı rasterleştirme yapar ve çizgi kalınlıklarını, renkleri ve 3‑B ağ detaylarını korur. Rasterleştirme seçeneklerini yapılandırarak çözünürlük ve düzeni kontrol edersiniz, böylece **CAD çiziminin dışa aktarımı** PDF'de tam olarak istediğiniz gibi görünür.
+Aspose.CAD vektör‑tabanlı rasterleştirme yapar, çizgi kalınlıklarını, renkleri ve 3‑D mesh detaylarını korur. Rasterleştirme seçeneklerini yapılandırarak çözünürlük ve düzeni kontrol eder, **DWG'yi PDF olarak dışa aktarmanın** PDF'de tam olarak istenildiği gibi görünmesini sağlarsınız.
 
-## Common Use Cases
+## Yaygın Kullanım Senaryoları
 
-- **Otomatik raporlama:** Mühendislik çizimlerinden anlık PDF raporları oluşturun.  
-- **Belge arşivleme:** CAD çizimlerini uzun vadeli saklama için PDF olarak depolayın.  
-- **Web hizmetleri:** DWG yüklemelerini kabul edip PDF dönen bir API sunun, SaaS platformları için faydalıdır.  
+* **Otomatik raporlama:** Mühendislik çizimlerinden anında PDF raporları oluşturun.  
+* **Belge arşivleme:** CAD çizimlerini uzun vadeli saklama için PDF olarak depolayın.  
+* **Web hizmetleri:** DWG yüklemelerini kabul edip PDF dönen bir API sunun, SaaS platformları için faydalıdır.  
 
-## Troubleshooting Tips
+## Sorun Giderme İpuçları
 
-- **Çıktıda ağ eksik:** `Layouts` özelliğinin `"Model"` içerdiğini doğrulayın; ağlar genellikle model alanında depolanır.  
-- **Yanlış ölçekleme:** Çizimin yerel birimlerine uyması için `PageWidth` ve `PageHeight` değerlerini ayarlayın.  
-- **Lisans hataları:** Görüntüyü yüklemeden önce geçerli bir lisans dosyasıyla `License.setLicense()` çağrısı yaptığınızdan emin olun.
+* **Çıktıda mesh eksikliği:** `Layouts` özelliğinin `"Model"` içerdiğini doğrulayın; mesh'ler genellikle model alanında depolanır.  
+* **Yanlış ölçekleme:** `PageWidth` ve `PageHeight` değerlerini çizimin yerel birimlerine göre ayarlayın.  
+* **Lisans hataları:** Görüntüyü yüklemeden önce geçerli bir lisans dosyasıyla `License.setLicense()` çağrısı yaptığınızdan emin olun.  
+* **dwg to pdf aspose özel sorunu:** Belirli bir DWG sürümünün desteklenmediğine dair bir hata alırsanız, en son Aspose.CAD sürümünü kullandığınızdan emin olun (yukarıdaki indirme bağlantısı her zaman en yeni yapıyı gösterir).  
 
-## Conclusion
+## Sonuç
 
-Bu adımları izleyerek **DWG'yi PDF'ye dönüştürmeyi** güvenilir bir şekilde yapabilir ve Aspose.CAD'in ağ desteğinden tam olarak yararlanabilirsiniz. Bu özellik, karmaşık CAD çizimlerinin yüksek kaliteli PDF dışa aktarımını gerektiren iş akışlarını, dahili kullanım veya müşteri odaklı belgeler olsun, basitleştirir.
+Bu adımları izleyerek güvenilir bir şekilde **DWG'yi PDF'ye dönüştürebilir** ve Aspose.CAD'in mesh desteğinden tam olarak yararlanabilirsiniz. Bu yetenek, karmaşık CAD çizimlerinin yüksek‑kaliteli PDF dışa aktarımını gerektiren iş akışlarını, iç kullanım ya da müşteri odaklı dokümantasyon olsun, basitleştirir. Artık **dwg'yi pdf'ye dönüştür** ve **cad'den pdf oluştur** senaryoları için sağlam bir temele sahipsiniz.
 
-## FAQ's
+## SSS
 
 ### Q1: Aspose.CAD for Java ticari kullanım için uygun mu?
 
 A1: Evet, Aspose.CAD for Java hem kişisel hem de ticari kullanım için tasarlanmıştır. Lisans detaylarını [purchase page](https://purchase.aspose.com/buy) adresinde bulabilirsiniz.
 
-### Q2: Test amaçlı geçici bir lisans nasıl alabilirim?
+### Q2: Test amaçları için geçici bir lisans nasıl alabilirim?
 
-A2: Test ve değerlendirme için geçici bir lisansı [buradan](https://purchase.aspose.com/temporary-license/) alabilirsiniz.
+A2: Test ve değerlendirme için geçici bir lisansı [buradan](https://purchase.aspose.com/temporary-license/) edinebilirsiniz.
 
 ### Q3: Aspose.CAD for Java için topluluk desteğini nereden bulabilirim?
 
-A3: Topluluk desteği için Aspose.CAD'e özel forumu [https://forum.aspose.com/c/cad/19](https://forum.aspose.com/c/cad/19) adresinde ziyaret edin.
+A3: Topluluk desteği için Aspose.CAD özel forumunu [https://forum.aspose.com/c/cad/19](https://forum.aspose.com/c/cad/19) adresinde ziyaret edin.
 
-### Q4: PDF dışında desteklenen başka çıktı formatları var mı?
+### Q4: PDF dışındaki başka çıktı formatları destekleniyor mu?
 
 A4: Evet, Aspose.CAD for Java PNG, JPEG, BMP ve daha fazlası dahil çeşitli çıktı formatlarını destekler. Detaylar için belgelere bakın.
 
 ### Q5: Aspose.CAD for Java'ı ücretsiz deneyebilir miyim?
 
-5: Evet, Aspose.CAD for Java'ın ücretsiz deneme sürümünü [buradan](https://releases.aspose.com/) inceleyebilirsiniz.
+A5: Evet, Aspose.CAD for Java'ın ücretsiz deneme sürümünü [buradan](https://releases.aspose.com/) keşfedebilirsiniz.
 
 ---
 
-**Last Updated:** 2025-12-09  
-**Tested With:** Aspose.CAD for Java 24.11  
-**Author:** Aspose  
+**Son Güncelleme:** 2026-02-12  
+**Test Edilen Sürüm:** Aspose.CAD for Java 24.11  
+**Yazar:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
