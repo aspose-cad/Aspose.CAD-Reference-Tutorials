@@ -1,11 +1,15 @@
 ---
-date: 2025-12-30
-description: Aspose.CAD for Java kullanarak attribute list java ve java add attributes
-  dwg nasıl oluşturulacağını öğrenin. DWG çizimlerini zenginleştirmek için bu adım
-  adım rehberi izleyin.
-linktitle: Add Attributes to MText in DWG Files with Java
+date: 2026-04-23
+description: Java ve Aspose.CAD kullanarak DWG dosyalarındaki MText'e öznitelik eklemeyi
+  öğrenin. Ayrıca daha zengin CAD meta verileri için öznitelik değerlerini nasıl değiştireceğinizi
+  görün.
+keywords:
+- how to add attributes
+- modify attribute values java
+- create attribute list java
+linktitle: Java ile DWG Dosyalarındaki MText'e Öznitelikler Ekle
 second_title: Aspose.CAD Java API
-title: Java ile Öznitelik Listesi Oluştur – DWG'de MText'e Öznitelikler Ekle
+title: Java kullanarak DWG'de MText'e Özellikler Ekleme
 url: /tr/java/cad-text-and-formatting/add-attributes-to-mtext/
 weight: 13
 ---
@@ -14,29 +18,29 @@ weight: 13
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Java’da Öznitelik Listesi Oluşturma – DWG’de MText’e Öznitelikler Ekleme
+# DWG'de MText'e Öznitelik Ekleme - Java Kullanarak
 
 ## Giriş
 
-Eğer CAD çizimleri için **create attribute list java** ihtiyacınız varsa doğru yerdesiniz. Bu öğreticide, Aspose.CAD for Java’yı kullanarak DWG dosyaları içindeki MText nesnelerine nasıl öznitelik ekleyeceğinizi göstereceğiz – bu, çizimlerinize doğrudan meta veri veya özel bilgi yerleştirmek istediğinizde yaygın bir gereksinimdir. Bu rehberin sonunda bu tekniğin neden önemli olduğunu, nasıl kurulduğunu ve kodu güvenli bir şekilde nasıl çalıştıracağınızı anlayacaksınız.
+DWG dosyaları içinde MText nesnelerine **öz nitelik ekleme** yöntemini arıyorsanız, doğru yerdesiniz. Bu öğreticide Aspose.CAD for Java kullanarak bir öznitelik listesi oluşturmayı, bu öznitelikleri MText'e eklemeyi ve gerektiğinde **öz nitelik değerlerini Java'da değiştirmeyi** göstereceğiz. Sonunda bu tekniğin neden önemli olduğunu, başlamanız için neler gerektiğini ve kodu güvenli ve verimli bir şekilde nasıl çalıştıracağınızı anlayacaksınız.
 
 ## Hızlı Yanıtlar
-- **“create attribute list java” ne anlama geliyor?** Java’da MText gibi CAD varlıklarına eklenebilen öznitelik nesnelerinin bir koleksiyonunu oluşturmayı ifade eder.  
-- **Hangi kütüphane bunu destekliyor?** Aspose.CAD for Java, DWG/DXF manipülasyonu için sağlam bir API sağlar.  
-- **Lisans gerekir mi?** Ücretsiz bir deneme mevcuttur, ancak üretim kullanımı için ticari lisans gereklidir.  
-- **Hangi dosyalarla çalışabilirim?** Kod, DWG, DXF, DWF ve diğer desteklenen CAD formatlarıyla çalışır.  
+- **“how to add attributes” ne anlama geliyor?** Bu, öznitelik varlıklarını programlı olarak oluşturup CAD nesneleri (ör. MText) ile ilişkilendirme sürecidir.  
+- **Hangi kütüphane bunu destekliyor?** Aspose.CAD for Java, DWG/DXF manipülasyonu için tam özellikli bir API sunar.  
+- **Lisans gerekir mi?** Değerlendirme için ücretsiz deneme sürümü yeterlidir, ancak üretim ortamı için ticari lisans gereklidir.  
+- **DWG dosyalarıyla doğrudan çalışabilir miyim?** Evet – aynı kod DWG, DXF, DWF ve diğer desteklenen formatlarda çalışır.  
 - **Uygulama ne kadar sürer?** Temel bir öznitelik‑listesi işlemi genellikle 15 dakikadan az sürer.
 
 ## Önkoşullar
 
-Başlamadan önce aşağıdakilere sahip olduğunuzdan emin olun:
+İlerlemeye başlamadan önce şunların yüklü olduğundan emin olun:
 
-- **Java Geliştirme Ortamı** – JDK 8 veya daha üstü yüklü ve yapılandırılmış.  
-- **Aspose.CAD for Java Kütüphanesi** – Kütüphaneyi [buradan](https://releases.aspose.com/cad/java/) indirin ve kurun.  
+- **Java Development Environment** – JDK 8 veya üzeri kurulu ve yapılandırılmış.  
+- **Aspose.CAD for Java Library** – Kütüphaneyi [buradan](https://releases.aspose.com/cad/java/) indirin ve kurun.  
 
-## İsim Uzaylarını İçe Aktarma
+## İsim Uzaylarını İçe Aktar
 
-Java projenizde, Aspose.CAD for Java’nın işlevlerine erişmek için gerekli isim uzaylarını içe aktarın. Bu şunları içerir:
+Java projenizde Aspose.CAD for Java işlevlerine erişmek için gerekli isim uzaylarını içe aktarın. Şunları içerir:
 
 ```java
 import com.aspose.cad.Color;
@@ -51,11 +55,11 @@ import java.util.ArrayList;
 import java.util.List;
 ```
 
-## “java add attributes dwg” nedir?
+## Java Kullanarak MText'e Öznitelik Ekleme Nasıl Yapılır?
 
-**java add attributes dwg** ifadesi, Java kullanarak bir DWG dosyasına programlı olarak öznitelik varlıkları (metin etiketleri, veri alanları veya özel etiketler gibi) ekleme sürecini tanımlar. Bu, dokümantasyonu otomatikleştirmek, dinamik bloklar oluşturmak veya çizimleri aranabilir meta veriyle zenginleştirmek için faydalıdır.
+**java add attributes dwg** ifadesi, Java kullanarak bir DWG dosyasına programlı olarak öznitelik varlıkları (metin etiketleri, veri alanları veya özel etiketler gibi) ekleme sürecini tanımlar. Bu, belge otomasyonu, dinamik blok oluşturma veya çizimleri aranabilir meta verilerle zenginleştirme için faydalıdır.
 
-## Adım 1: Yolu Ayarlama
+### Adım 1: Yolu Ayarla
 
 ```java
 // The path to the resource directory.
@@ -63,26 +67,26 @@ String dataDir = "Your Document Directory" + "DXFDrawings/";
 String srcFile = dataDir + "conic_pyramid.dxf";
 ```
 
-> **Pro tip:** Dağıtım sırasında yol‑ile ilgili sorunları önlemek için CAD kaynaklarınızı ayrı bir klasörde tutun.
+> **Pro ipucu:** Dağıtım sırasında yol‑ile ilgili sorunları önlemek için CAD kaynaklarınızı ayrı bir klasörde tutun.
 
-## Adım 2: CAD Görüntüsünü Yükle
+### Adım 2: CAD Görüntüsünü Yükle
 
 ```java
 CadImage cadImage =(CadImage) Image.load(srcFile);
 ```
 
-Dosyayı bir `CadImage` olarak yüklemek, bir sonraki adımda döneceğiniz tam varlık koleksiyonuna erişim sağlar.
+Dosyayı bir `CadImage` olarak yüklemek, tam varlık koleksiyonuna erişmenizi sağlar; bir sonraki adımda bu koleksiyon üzerinde döngü kuracaksınız.
 
-## Adım 3: MText ve Öznitelikler İçin Listeleri Başlat
+### Adım 3: MText ve Öznitelikler İçin Listeleri Başlat
 
 ```java
 List<CadBaseEntity>  mtextList = new ArrayList<CadBaseEntity>();
 List<CadBaseEntity> attribList = new ArrayList<CadBaseEntity>();
 ```
 
-Bu iki liste, MText nesnelerini ve bunlara karşılık gelen öznitelik varlıklarını tutacak ve oluşturmak istediğimiz **öznitelik listesini** oluşturacaktır.
+Bu iki liste, MText nesnelerini ve bunlara karşılık gelen öznitelik varlıklarını tutacak ve **attribute list** oluşturma amacımızı gerçekleştirecektir.
 
-## Adım 4: Varlıklar Üzerinde Döngü
+### Adım 4: Varlıklar Üzerinde Döngü
 
 ```java
 try
@@ -115,48 +119,54 @@ finally
 }
 ```
 
-Döngü, her MText varlığını ve iç içe `ATTRIB` nesnelerini toplar. Çalıştırdıktan sonra sayımların yazdırıldığını göreceksiniz; bu, **öznitelik listenizin** başarıyla oluşturulduğunu doğrular.
+Döngü, her MText varlığını ve iç içe `ATTRIB` nesnelerini toplar. Çalıştırdıktan sonra sayımların yazdırıldığını göreceksiniz; bu, **attribute list**'inizin başarıyla oluşturulduğunu doğrular.
 
-## Neden Önemli
+## Java'da Öznitelik Değerlerini Değiştirme
 
-Java’da bir öznitelik listesi oluşturmak şunları sağlar:
+`attribList` elde ettikten sonra, her `CadBaseEntity` öğesini somut tipine (ör. `CadAttributeEntity`) dönüştürüp metin, yükseklik veya renk gibi özellikleri değiştirebilirsiniz. Çizimi kaydetmeden önce değerleri güncellemek, meta verileri anlık olarak özelleştirmenizi sağlar; bu, büyük projelerde toplu işleme özellikle kullanışlıdır.
 
-- **Veri girişini otomatikleştirme** – Çizimlere tutarlı meta veriyi manuel düzenleme olmadan doldurun.  
-- **Aranabilir CAD dosyaları** – Öznitelikler indekslenebilir, böylece parçaları veya özellikleri bulmak daha kolay olur.  
-- **Sonraki süreçleri destekleme** – Dışa aktarılan öznitelikler BIM, GIS veya raporlama boru hatlarına beslenebilir.
+## Bunun Önemi
+
+Java’da bir öznitelik listesi oluşturmak şunları mümkün kılar:
+
+- **Veri girişini otomatikleştir** – Çizimlere tutarlı meta verileri manuel düzenleme olmadan doldurun.  
+- **Aranabilir CAD dosyaları sağlay** – Öznitelikler indekslenebilir, böylece parçaları veya spesifikasyonları bulmak kolaylaşır.  
+- **Sonraki süreçleri destekle** – Dışa aktarılan öznitelikler BIM, GIS veya raporlama hatlarına beslenebilir.  
 
 ## Yaygın Tuzaklar ve Çözümler
 
-| Sorun | Neden | Çözüm |
+| Sorun | Sebep | Çözüm |
 |-------|--------|-----|
 | MText bulunamadı | Yanlış dosya türü (ör. MText içermeyen bir DWG) | Kaynak dosyanın MText nesneleri içerdiğini doğrulayın veya farklı bir örnek kullanın. |
-| `attribList` boş | Öznitelikler `INSERT` varlıkları olmayan bloklarda depolanır | Gerekirse koşulu `BLOCK` varlıklarını da kontrol edecek şekilde ayarlayın. |
-| `cadImage` üzerinde `NullPointerException` | Dosya yolu yanlış | `dataDir` ve `srcFile` değerlerini tekrar kontrol edin. |
+| `attribList` boş | Öznitelikler `INSERT` varlıkları olmayan bloklarda saklanıyor | Gerekirse koşulu `BLOCK` varlıklarını da kontrol edecek şekilde ayarlayın. |
+| `cadImage` üzerinde `NullPointerException` | Dosya yolu hatalı | `dataDir` ve `srcFile` değerlerini iki kez kontrol edin. |
 
 ## Sonuç
 
-Bu öğreticide, Aspose.CAD for Java’yı kullanarak DWG dosyalarındaki MText’e öznitelik ekleyerek **create attribute list java** işlemini nasıl gerçekleştireceğinizi adım adım gösterdik. Artık CAD çizimlerinizi zenginleştirmek, meta veri eklemeyi otomatikleştirmek ve CAD verilerini daha büyük iş akışlarına entegre etmek için sağlam bir temele sahipsiniz.
+Bu öğreticide Aspose.CAD for Java kullanarak DWG dosyalarında MText'e **öz nitelik ekleme** yöntemini, sağlam bir **attribute list** oluşturmayı ve **öz nitelik değerlerini Java'da değiştirme** yollarını inceledik. Artık çizimlerinizi zenginleştirebilir, meta veri eklemeyi otomatikleştirebilir ve CAD verilerini daha büyük iş akışlarına entegre edebilirsiniz.
 
-## Sık Sorulan Sorular
+## Sıkça Sorulan Sorular
 
 **S: Bu yaklaşım DWG dosyalarıyla doğrudan mı çalışır, yoksa sadece DXF mi?**  
 C: Aynı mantık DWG dosyalarına da uygulanır; sadece `srcFile` içindeki dosya uzantısını değiştirmeniz yeterlidir.
 
-**S: Öznitelik değerlerini toplama sonrası değiştirebilir miyim?**  
+**S: Öznitelik değerlerini toplama sonrasında değiştirebilir miyim?**  
 C: Evet, `attribList` içindeki her `CadBaseEntity` somut tipine dönüştürülüp, kaydetmeden önce özellikleri güncellenebilir.
 
 **S: Değiştirilmiş çizimi nasıl kaydederim?**  
-C: Değişiklikleri yaptıktan sonra `cadImage.save("output.dwg");` çağrısını yapın (kaydetme için lisanslı bir sürümünüz olduğundan emin olun).
+C: Değişiklikleri yaptıktan sonra `cadImage.save("output.dwg");` çağrısı yapılır (kaydetmek için lisanslı bir sürüm gerekir).
 
-**S: Büyük çizimlerde performans etkisi var mı?**  
-C: Çok sayıda varlık üzerinde döngü oluşturmak bellek yoğun olabilir; mümkünse toplu işleme veya akış API’lerini kullanmayı düşünün.
+**S: Büyük çizimlerde performans etkisi olur mu?**  
+C: Çok sayıda varlık üzerinde döngü oluşturmak bellek yoğun olabilir; mümkünse toplu işleme veya mevcutsa akış API'lerini kullanmayı düşünün.
 
 **S: Ticari kullanım için lisans kısıtlamaları var mı?**  
-C: Üretim dağıtımları için ticari lisans gereklidir; deneme sürümü yalnızca değerlendirme amaçlıdır.
+C: Üretim ortamları için ticari lisans gereklidir; deneme sürümü yalnızca değerlendirme amaçlıdır.
 
-**Last Updated:** 2025-12-30  
-**Tested With:** Aspose.CAD for Java 24.11  
-**Author:** Aspose  
+---
+
+**Son Güncelleme:** 2026-04-23  
+**Test Edilen Versiyon:** Aspose.CAD for Java 24.11  
+**Yazar:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
