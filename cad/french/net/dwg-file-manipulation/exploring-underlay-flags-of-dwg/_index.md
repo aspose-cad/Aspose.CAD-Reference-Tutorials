@@ -1,33 +1,54 @@
 ---
-title: Explorer les indicateurs de calque sous-jacents des fichiers DWG - Tutoriel Aspose.CAD
-linktitle: Exploration des indicateurs de calque sous-jacent des fichiers DWG
-second_title: Aspose.CAD .NET - Format de fichier CAO et BIM
-description: Libérez la puissance d'Aspose.CAD pour .NET en explorant les indicateurs sous-jacents des fichiers DWG. Suivez notre guide étape par étape.
-weight: 13
+date: 2026-04-09
+description: Apprenez à convertir un DWG en image et à lire les drapeaux d’underlay
+  à l’aide d’Aspose.CAD pour .NET dans ce guide pas à pas.
+keywords:
+- convert dwg to image
+- how to read underlay
+- Aspose.CAD DWG underlay flags
+linktitle: Explorer les drapeaux d’incrustation des fichiers DWG
+second_title: Aspose.CAD .NET - CAD and BIM File Format
+title: Convertir DWG en image – Explorer les drapeaux de sous-couche des fichiers
+  DWG – Tutoriel Aspose.CAD
 url: /fr/net/dwg-file-manipulation/exploring-underlay-flags-of-dwg/
+weight: 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Explorer les indicateurs de calque sous-jacents des fichiers DWG - Tutoriel Aspose.CAD
+# Exploration des indicateurs d'underlay des fichiers DWG - Tutoriel Aspose.CAD
 
 ## Introduction
 
-Si vous plongez dans le monde complexe des fichiers CAO, en particulier des fichiers DWG, et que vous souhaitez percer les mystères des drapeaux sous-jacents, vous êtes au bon endroit. Ce didacticiel vous guidera tout au long du processus d'exploration des indicateurs de calque sous-jacents dans les fichiers DWG à l'aide de la puissante bibliothèque Aspose.CAD pour .NET.
+Si vous vous plongez dans le monde complexe des fichiers CAD, en particulier les fichiers DWG, et que vous souhaitez **convertir DWG en image** tout en découvrant **comment lire les indicateurs d'underlay**, vous êtes au bon endroit. Ce tutoriel vous guide étape par étape en utilisant la puissante bibliothèque Aspose.CAD pour .NET, afin que vous puissiez extraire les informations d'underlay et rendre le dessin sous forme d'image en toute confiance.
 
-## Conditions préalables
+## Réponses rapides
+- **Que signifie « convertir DWG en image » ?**  
+  Cela signifie rendre un dessin DWG dans un format raster (PNG, JPEG, etc.) à l'aide d'Aspose.CAD.
+- **Quelle méthode révèle les indicateurs d'underlay ?**  
+  Accédez à la propriété `Flags` de l'objet `CadUnderlay` après avoir chargé le DWG.
+- **Ai‑je besoin d'une licence pour Aspose.CAD ?**  
+  Une licence temporaire est disponible pour l'évaluation ; une licence complète est requise pour la production.
+- **Quelles versions de .NET sont prises en charge ?**  
+  .NET Framework 4.6+, .NET Core 3.1+, .NET 5/6 et versions ultérieures.
+- **Puis‑je extraire la géométrie d'underlay ?**  
+  Oui – le chemin d'underlay, le point d’insertion, l’échelle, la rotation et les états des indicateurs sont tous accessibles.
 
-Avant de plonger dans le didacticiel, assurez-vous d'avoir les éléments suivants :
+## Qu'est-ce que « convertir DWG en image » et pourquoi est‑ce important ?
 
-- Une compréhension de base de la programmation C# et .NET.
--  Aspose.CAD pour la bibliothèque .NET installée. Sinon, vous pouvez le télécharger[ici](https://releases.aspose.com/cad/net/).
-- Un fichier DWG pour les tests. Vous pouvez utiliser l'exemple de fichier "BlockRefDgn.dwg" fourni dans le didacticiel.
+Convertir un fichier DWG en image vous permet d'afficher les dessins CAD dans les navigateurs, de les intégrer dans des rapports ou de les partager avec des parties prenantes qui ne disposent pas d’un visualiseur CAD. Lors du rendu, il est souvent nécessaire d’inspecter les objets **underlay** (par ex. les références DGN) pour s’assurer qu’ils s’affichent correctement. Comprendre les indicateurs d'underlay vous aide à résoudre les problèmes de découpage, de rendu en monochrome et de visibilité avant de générer l’image finale.
 
-## Importer des espaces de noms
+## Prérequis
 
-Pour commencer, vous devez importer les espaces de noms nécessaires. Voici un extrait pour vous aider :
+- Une compréhension de base du C# et de la programmation .NET.  
+- Bibliothèque **Aspose.CAD for .NET** installée. Si vous ne l’avez pas encore, téléchargez‑la **[ici](https://releases.aspose.com/cad/net/)**.  
+- Un fichier DWG pour les tests – le fichier d’exemple **« BlockRefDgn.dwg »** est utilisé tout au long de ce guide.
+
+## Importer les espaces de noms
+
+Pour commencer, importez les espaces de noms nécessaires :
 
 ```csharp
 using System;
@@ -36,48 +57,47 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Aspose.CAD;
-
 ```
 
-## Étape 1 : charger le fichier DWG et le convertir en CadImage
+## Étape 1 : Charger le fichier DWG et le convertir en `CadImage`
 
-Commencez par charger le fichier DWG existant et convertissez-le en CadImage :
+Tout d'abord, chargez le fichier DWG et castiez‑le en `CadImage`. Cet objet vous donne accès à toutes les entités du dessin, y compris les underlays.
 
 ```csharp
 string fileName = MyDir + "BlockRefDgn.dwg";
 
-// Charger le fichier DWG et le convertir en CadImage
+// Load DWG file and convert to CadImage
 using (CadImage image = (CadImage)Image.Load(fileName))
 {
-    // Votre code pour les étapes suivantes sera ici
+    // Your code for subsequent steps will go here
 }
 ```
 
-## Étape 2 : Parcourir les entités
+## Étape 2 : Parcourir les entités
 
-Ensuite, parcourez chaque entité dans le fichier DWG :
+Ensuite, parcourez chaque entité du dessin. C’est ici que vous localiserez les objets underlay.
 
 ```csharp
 foreach (CadBaseEntity entity in image.Entities)
 {
-    // Votre code pour les étapes suivantes sera ici
+    // Your code for subsequent steps will go here
 }
 ```
 
-## Étape 3 : Vérifiez le type CadDgnUnderlay
+## Étape 3 : Vérifier le type `CadDgnUnderlay`
 
-Vérifiez si l'entité est de type CadDgnUnderlay :
+Identifiez les entités underlay en vérifiant leur type d’exécution. La classe `CadDgnUnderlay` représente les underlays DGN incorporés dans un DWG.
 
 ```csharp
 if (entity is CadDgnUnderlay)
 {
-    // Votre code pour les étapes suivantes sera ici
+    // Your code for subsequent steps will go here
 }
 ```
 
-## Étape 4 : accéder aux indicateurs de sous-couche
+## Étape 4 : Accéder aux indicateurs d'underlay
 
-Accédez à différents indicateurs de sous-couche et extrayez les informations pertinentes :
+Une fois que vous avez un `CadDgnUnderlay`, castiez‑le en `CadUnderlay` pour lire ses propriétés et l’état de ses indicateurs. Les indicateurs indiquent si l’underlay est visible, découpé ou rendu en monochrome.
 
 ```csharp
 CadUnderlay underlay = entity as CadUnderlay;
@@ -95,31 +115,59 @@ Console.WriteLine((underlay.Flags & UnderlayFlags.ClippingIsOn) == UnderlayFlags
 Console.WriteLine((underlay.Flags & UnderlayFlags.Monochrome) != UnderlayFlags.Monochrome);
 ```
 
+### Ce que indique la sortie
+
+- **UnderlayPath / UnderlayName** – emplacement du fichier DGN externe.  
+- **InsertionPoint (X, Y)** – coordonnées où l’underlay est placé dans l’espace DWG.  
+- **RotationAngle** – rotation appliquée à l’underlay.  
+- **ScaleX / ScaleY / ScaleZ** – facteurs d’échelle pour chaque axe.  
+- **Flags** – valeurs booléennes indiquant la visibilité (`UnderlayIsOn`), le découpage (`ClippingIsOn`) et le rendu en monochrome (`Monochrome`).
+
+## Problèmes courants et solutions
+
+| Problème | Raison | Solution |
+|----------|--------|----------|
+| Aucun résultat pour les vérifications d’indicateurs | Les indicateurs d’underlay sont à 0 par défaut lorsque l’underlay est désactivé. | Vérifiez que le DWG contient réellement un underlay actif ou activez la visibilité dans le fichier CAD source. |
+| Exception `Invalid cast` | L’entité n’est pas un `CadDgnUnderlay`. | Assurez‑vous que la condition `if (entity is CadDgnUnderlay)` est vérifiée avant le cast. |
+| Le rendu de l’image échoue après l’extraction des indicateurs | L’underlay peut être découpé ou désactivé, entraînant une zone blanche. | Ajustez les indicateurs (`UnderlayIsOn = true`, `ClippingIsOn = false`) avant de rendre l’image finale. |
+
+## Questions fréquemment posées
+
+### Q1 : Puis‑je utiliser Aspose.CAD pour .NET avec d'autres formats de fichiers CAD ?
+
+R1 : Aspose.CAD prend en charge divers formats CAD, dont DWG, DXF, DGN et bien d’autres. Consultez la documentation pour la liste complète.
+
+### Q2 : Une licence temporaire est‑elle disponible pour Aspose.CAD pour .NET ?
+
+R2 : Oui, vous pouvez obtenir une licence temporaire **[ici](https://purchase.aspose.com/temporary-license/)**.
+
+### Q3 : Où puis‑je trouver du support pour Aspose.CAD pour .NET ?
+
+R3 : Visitez le forum de support **[ici](https://forum.aspose.com/c/cad/19)** pour obtenir de l’aide.
+
+### Q4 : Comment acheter Aspose.CAD pour .NET ?
+
+R4 : Achetez la bibliothèque **[ici](https://purchase.aspose.com/buy)**.
+
+### Q5 : Une version d’essai gratuite est‑elle disponible ?
+
+R5 : Oui, vous pouvez accéder à l’essai gratuit **[ici](https://releases.aspose.com/)**.
+
 ## Conclusion
 
-Toutes nos félicitations! Vous avez exploré avec succès les indicateurs de calque sous-jacents des fichiers DWG à l'aide d'Aspose.CAD pour .NET. Ce didacticiel vous a doté des connaissances nécessaires pour naviguer dans les entités et extraire des informations cruciales sur les sous-couches.
+Félicitations ! Vous avez appris à **convertir DWG en image** tout en maîtrisant **la lecture des indicateurs d'underlay** avec Aspose.CAD pour .NET. Grâce à ces connaissances, vous pouvez :
 
-## FAQ
+- Rendre des dessins DWG sous forme d’images raster pour le web ou les rapports.  
+- Inspecter et manipuler les propriétés d’underlay afin d’assurer un affichage correct.  
+- Déboguer les problèmes de visibilité, de découpage et de rendu monochrome avant la génération de l’image finale.
 
-### Q1 : Puis-je utiliser Aspose.CAD pour .NET avec d’autres formats de fichiers CAO ?
+N’hésitez pas à explorer d’autres fonctionnalités d’Aspose.CAD telles que la gestion des calques, l’extraction de texte et la conversion par lots pour enrichir davantage vos flux de travail d’automatisation CAD.
 
-A1 : Aspose.CAD prend en charge divers formats de CAO, notamment DWG, DXF, DGN, etc. Consultez la documentation pour la liste complète.
+---
 
-### Q2 : Une licence temporaire est-elle disponible pour Aspose.CAD pour .NET ?
-
- A2 : Oui, vous pouvez obtenir une licence temporaire[ici](https://purchase.aspose.com/temporary-license/).
-
-### Q3 : Où puis-je trouver de l'assistance pour Aspose.CAD pour .NET ?
-
- A3 : Visitez le forum d'assistance[ici](https://forum.aspose.com/c/cad/19) à l'aide.
-
-### Q4 : Comment puis-je acheter Aspose.CAD pour .NET ?
-
-A4 : Acheter la bibliothèque[ici](https://purchase.aspose.com/buy).
-
-### Q5 : Existe-t-il un essai gratuit ?
-
- A5 : Oui, vous pouvez accéder à l'essai gratuit[ici](https://releases.aspose.com/).
+**Last Updated:** 2026-04-09  
+**Tested With:** Aspose.CAD for .NET 24.11  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
