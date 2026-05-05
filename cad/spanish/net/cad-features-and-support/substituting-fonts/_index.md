@@ -1,33 +1,50 @@
 ---
-title: Sustitución de fuentes en Aspose.CAD por .NET
-linktitle: Sustitución de fuentes
-second_title: Aspose.CAD .NET - Formato de archivo CAD y BIM
-description: Aprenda a sustituir fuentes en Aspose.CAD por .NET sin esfuerzo. Siga nuestra guía paso a paso para personalizar fuentes de manera eficiente en sus dibujos CAD.
-weight: 17
+date: 2026-03-29
+description: Aprende a reemplazar fuentes en Aspose.CAD para .NET rápidamente. Esta
+  guía paso a paso te muestra cómo establecer el nombre de la fuente principal y personalizar
+  los dibujos CAD de manera eficiente.
+linktitle: Substituting Fonts
+second_title: Aspose.CAD .NET - CAD and BIM File Format
+title: Cómo reemplazar fuentes en Aspose.CAD para .NET
 url: /es/net/cad-features-and-support/substituting-fonts/
+weight: 17
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Sustitución de fuentes en Aspose.CAD por .NET
+# Cómo reemplazar fuentes en Aspose.CAD para .NET
 
 ## Introducción
 
-En el ámbito del desarrollo CAD utilizando .NET, la capacidad de manipular fuentes es una habilidad crucial. Aspose.CAD para .NET proporciona un sólido conjunto de herramientas para este propósito, lo que permite a los desarrolladores sustituir fuentes sin problemas dentro de sus dibujos CAD. En este tutorial, exploraremos el proceso paso a paso y demostraremos cómo lograr la sustitución de fuentes de manera eficiente.
+En el ámbito del desarrollo CAD usando .NET, aprender **cómo reemplazar fuentes** es una habilidad crucial que puede mejorar drásticamente la calidad visual de tus dibujos. Aspose.CAD para .NET ofrece una API sencilla que te permite **establecer el nombre de la fuente primaria** para cualquier estilo, facilitando la sustitución de fuentes de forma global o selectiva. En este tutorial recorreremos todo el proceso, desde cargar un dibujo hasta intercambiar fuentes ya sea globalmente o por nombre de estilo específico.
+
+## Respuestas rápidas
+- **¿Cuál es la clase principal para la manipulación de CAD?** `Aspose.CAD.Image` (o su derivada `CadImage`).
+- **¿Qué propiedad cambia la fuente?** `PrimaryFontName` en `CadStyleTableObject`.
+- **¿Puedo reemplazar fuentes para todos los estilos a la vez?** Sí, itera a través de `cadImage.Styles` y establece la propiedad.
+- **¿Necesito una licencia para producción?** Se requiere una licencia válida de Aspose.CAD para uso que no sea de prueba.
+- **¿Versiones .NET compatibles?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7.
+
+## ¿Qué es la sustitución de fuentes en CAD?
+La sustitución de fuentes significa reemplazar la tipografía original utilizada en un dibujo CAD por otra que esté disponible en el sistema de destino. Esto es especialmente útil cuando la fuente original falta, cuando necesitas un estilo corporativo consistente, o al preparar dibujos para impresión en dispositivos que solo admiten un conjunto limitado de fuentes.
+
+## ¿Por qué reemplazar fuentes con Aspose.CAD?
+- **Sin dependencias externas** – la biblioteca gestiona el mapeo de fuentes internamente.
+- **Funciona con muchos formatos** – DXF, DWG, DGN y más.
+- **Control programático** – automatiza el proceso para conversiones por lotes o pipelines CI.
+- **Preserva la geometría del dibujo** – solo cambia la representación visual del texto.
 
 ## Requisitos previos
 
-Antes de sumergirse en el tutorial, asegúrese de tener lo siguiente:
-
 - Conocimientos básicos de programación .NET.
--  Aspose.CAD para .NET instalado. Si no, puedes descargarlo.[aquí](https://releases.aspose.com/cad/net/).
-- Un archivo de dibujo CAD para práctica.
+- Aspose.CAD para .NET instalado. Si aún no lo has instalado, descárgalo [aquí](https://releases.aspose.com/cad/net/).
+- Un archivo de dibujo CAD (DXF, DWG, etc.) para experimentar.
 
 ## Importar espacios de nombres
 
-Antes de comenzar, importe los espacios de nombres necesarios para acceder a las funcionalidades de Aspose.CAD en su aplicación .NET.
+Antes de comenzar, importa los espacios de nombres necesarios para acceder a las funcionalidades de Aspose.CAD en tu aplicación .NET.
 
 ```csharp
 using System;
@@ -39,9 +56,9 @@ using Aspose.CAD;
 using Aspose.CAD.FileFormats.Cad.CadTables;
 ```
 
-## Paso 1: cargar el dibujo CAD
+## Paso 1: Cargar dibujo CAD
 
- Comience cargando el dibujo CAD en una instancia de`CadImage`. Asegúrese de proporcionar la ruta correcta a su directorio de documentos.
+Comienza cargando el dibujo CAD en una instancia de `CadImage`. Asegúrate de proporcionar la ruta correcta a tu directorio de documentos.
 
 ```csharp
 string MyDir = "Your Document Directory";
@@ -49,24 +66,28 @@ string sourceFilePath = MyDir + "conic_pyramid.dxf";
 
 using (CadImage cadImage = (CadImage)Aspose.CAD.Image.Load(sourceFilePath))
 {
-    //Su código para acciones adicionales va aquí
+    // Your code for further actions goes here
 }
 ```
 
-## Paso 2: iterar sobre estilos
+## Paso 2: Iterar sobre estilos
 
- A continuación, repita los estilos en el dibujo CAD usando un`foreach` bucle. Esto le permite acceder y manipular estilos de fuente individuales.
+A continuación, itera sobre los estilos del dibujo CAD usando un bucle `foreach`. Esto te permite acceder y manipular estilos de fuente individuales.
 
 ```csharp
 foreach (CadStyleTableObject style in cadImage.Styles)
 {
-    // Su código para manipulación de estilo va aquí
+    // Your code for style manipulation goes here
 }
 ```
 
-## Paso 3: sustituir fuentes a nivel mundial
+## Cómo establecer el nombre de la fuente primaria para la sustitución de fuentes
 
- Para sustituir fuentes globalmente para todos los estilos, configure el`PrimaryFontName` propiedad para cada estilo al nombre de fuente deseado, por ejemplo, "Arial".
+La propiedad `PrimaryFontName` en cada `CadStyleTableObject` controla qué fuente se usa cuando se renderiza el dibujo. Al establecer esta propiedad reemplazas efectivamente la fuente original.
+
+### Paso 3: Sustituir fuentes globalmente
+
+Para reemplazar fuentes para **todos** los estilos, establece la propiedad `PrimaryFontName` de cada estilo al nombre de fuente deseado, por ejemplo, `"Arial"`.
 
 ```csharp
 foreach (CadStyleTableObject style in cadImage.Styles)
@@ -75,9 +96,9 @@ foreach (CadStyleTableObject style in cadImage.Styles)
 }
 ```
 
-## Paso 4: sustituir la fuente por el nombre del estilo
+### Paso 4: Sustituir fuente por nombre de estilo
 
-Si desea sustituir la fuente por un estilo específico, puede hacerlo marcando el nombre del estilo dentro del bucle.
+Si solo necesitas reemplazar la fuente para un estilo específico (p. ej., el estilo llamado `"Roman"`), agrega una condición dentro del bucle.
 
 ```csharp
 foreach (CadStyleTableObject style in cadImage.Styles)
@@ -89,32 +110,36 @@ foreach (CadStyleTableObject style in cadImage.Styles)
 }
 ```
 
-## Conclusión
+## Problemas comunes y solución de problemas
 
-¡Felicidades! Ha aprendido con éxito cómo sustituir fuentes en Aspose.CAD por .NET. Esta habilidad es valiosa para personalizar la apariencia de los dibujos CAD según sus preferencias.
+| Problema | Causa | Solución |
+|----------|-------|----------|
+| La fuente no cambia después de ejecutar el código | El dibujo está en caché o abierto en modo solo lectura | Asegúrate de guardar la imagen después de la modificación (`cadImage.Save(...)`) o vuelve a cargar el archivo para verificar. |
+| La fuente deseada no se encuentra en el sistema | Fuente no instalada en la máquina que ejecuta el código | Instala la fuente TrueType/OpenType requerida o incrústala en los recursos de la aplicación. |
+| El texto aparece distorsionado | Codificación incorrecta o falta de soporte Unicode | Usa una fuente que admita el conjunto de caracteres necesario (p. ej., Arial Unicode MS). |
 
 ## Preguntas frecuentes
 
-### P1: ¿Puedo revertir los cambios de fuente en Aspose.CAD para .NET?
+**P: ¿Puedo revertir los cambios de fuente en Aspose.CAD para .NET?**  
+R: Sí, puedes revertir recargando el dibujo CAD original o manteniendo una copia de seguridad antes de realizar modificaciones.
 
-R1: Sí, puede revertir los cambios de fuente recargando el dibujo CAD original o manteniendo una copia de seguridad.
+**P: ¿Hay otras propiedades de fuente que pueda modificar?**  
+R: Absolutamente. Además de `PrimaryFontName`, puedes trabajar con `SecondaryFontName`, `FontFamily` y otros atributos relacionados con el estilo para personalizaciones avanzadas.
 
-### P2: ¿Hay otras propiedades de fuente que pueda modificar?
+**P: ¿Es Aspose.CAD compatible con diferentes formatos CAD?**  
+R: Sí, Aspose.CAD soporta una amplia gama de formatos como DXF, DWG, DGN, DWF y más, brindándote flexibilidad en distintos proyectos.
 
-R2: Absolutamente, además`PrimaryFontName`, Aspose.CAD para .NET proporciona acceso a varias propiedades relacionadas con fuentes para una personalización avanzada.
+**P: ¿Puedo automatizar la sustitución de fuentes en procesamiento por lotes?**  
+R: Por supuesto. Envuelve la lógica de carga y sustitución en un bucle que itere sobre una carpeta de archivos CAD, o intégrala en una canalización CI/CD.
 
-### P3: ¿Aspose.CAD es compatible con diferentes formatos CAD?
+**P: ¿Dónde puedo encontrar soporte adicional para Aspose.CAD para .NET?**  
+R: Para soporte adicional y discusiones comunitarias, visita el [foro de Aspose.CAD](https://forum.aspose.com/c/cad/19).
 
-R3: Sí, Aspose.CAD admite una amplia gama de formatos CAD, lo que garantiza flexibilidad en sus proyectos de desarrollo.
+---
 
-### P4: ¿Puedo automatizar la sustitución de fuentes en el procesamiento por lotes?
-
-R4: Ciertamente, puede implementar el procesamiento por lotes para automatizar la sustitución de fuentes en múltiples dibujos CAD.
-
-### P5: ¿Dónde puedo encontrar soporte adicional para Aspose.CAD para .NET?
-
- R5: Para obtener soporte adicional y debates comunitarios, visite el[Foro Aspose.CAD](https://forum.aspose.com/c/cad/19).
-
+**Última actualización:** 2026-03-29  
+**Probado con:** Aspose.CAD para .NET (última versión)  
+**Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

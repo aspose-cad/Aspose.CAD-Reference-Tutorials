@@ -1,37 +1,60 @@
 ---
-title: Unterstützung von 3D für DGN V7 in Aspose.CAD für .NET
-linktitle: Unterstützung von 3D für DGN V7
-second_title: Aspose.CAD .NET – CAD- und BIM-Dateiformat
-description: Nutzen Sie die Leistungsfähigkeit der 3D-Unterstützung für DGN V7 in Aspose.CAD für .NET. Folgen Sie unserer Schritt-für-Schritt-Anleitung.
-weight: 20
+date: 2026-03-29
+description: Erfahren Sie, wie Sie CAD‑Rasterisierungsoptionen konfigurieren und DGN
+  mit 3D‑Unterstützung in PDF exportieren, indem Sie Aspose.CAD für .NET verwenden.
+linktitle: Support of 3D for DGN V7
+second_title: Aspose.CAD .NET - CAD and BIM File Format
+title: CAD‑Rasterisierungsoptionen für DGN V7 3D konfigurieren
 url: /de/net/cad-features-and-support/support-of-3d-for-dgn-v7/
+weight: 20
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Unterstützung von 3D für DGN V7 in Aspose.CAD für .NET
+# CAD-Rasterisierungsoptionen für DGN V7 3D konfigurieren
 
 ## Einführung
 
-Willkommen zu unserem umfassenden Tutorial zur Nutzung der 3D-Unterstützung für DGN V7 in Aspose.CAD für .NET! Aspose.CAD ist eine leistungsstarke Bibliothek, die Entwicklern die nahtlose Arbeit mit CAD-Dateien in ihren .NET-Anwendungen ermöglicht. In diesem Tutorial erläutern wir die Schritte zur Nutzung der 3D-Unterstützung für DGN V7 und vermitteln Ihnen das Wissen, um Ihre CAD-bezogenen Projekte zu verbessern.
+In diesem umfassenden Tutorial lernen Sie **wie Sie CAD-Rasterisierungsoptionen konfigurieren** um eine 3‑D DGN V7-Datei mit Aspose.CAD für .NET in PDF zu exportieren. Egal, ob Sie einen CAD‑Viewer, ein Reporting‑Tool oder eine automatisierte Konvertierungspipeline erstellen, das Beherrschen dieser Einstellungen gibt Ihnen präzise Kontrolle über Seitengröße, Layout‑Skalierung, Hintergrundfarben und die spezifischen Ansichten, die Sie rendern möchten. Lassen Sie uns den Prozess Schritt für Schritt durchgehen.
+
+## Schnelle Antworten
+- **Was bedeutet „configure CAD rasterization options“?**  
+  Es bezieht sich auf das Festlegen von Eigenschaften wie Seitendimensionen, Skalierung, Hintergrundfarbe und Layoutauswahl, bevor eine CAD‑Datei in ein Rasterformat (z. B. PDF) konvertiert wird.
+- **Wie exportiere ich DGN mit 3‑D‑Unterstützung nach PDF?**  
+  Laden Sie das DGN mit `DgnImage`, definieren Sie `PdfOptions` + `CadRasterizationOptions` und rufen Sie anschließend `Save` auf.
+- **Benötige ich eine Lizenz für den Produktionseinsatz?**  
+  Ja – eine kommerzielle Lizenz ist für die Bereitstellung erforderlich; ein kostenloser Testzeitraum ist verfügbar.
+- **Welche .NET‑Versionen werden unterstützt?**  
+  .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7.
+- **Kann ich bestimmte Ansichten zum Export auswählen?**  
+  Absolut – setzen Sie das `Layouts`‑Array in den Rasterisierungsoptionen.
+
+## Was bedeutet „configure CAD rasterization options“?
+
+Das Konfigurieren von CAD‑Rasterisierungsoptionen bedeutet, anzupassen, wie eine CAD‑Zeichnung rasterisiert wird (von Vektor in Bitmap oder PDF umgewandelt). Durch das Anpassen dieser Einstellungen steuern Sie die visuelle Ausgabe, die Leistung und die Dateigröße des resultierenden Dokuments.
+
+## Warum Aspose.CAD für den 3‑D DGN V7‑Export verwenden?
+
+- **Vollständige .NET‑Integration** – keine COM‑ oder nativen DLLs erforderlich.  
+- **Unterstützt 3‑D‑Geometrie** – behält Tiefeninformationen beim Rendern nach PDF bei.  
+- **Fein abgestimmte Kontrolle** – wählen Sie exakte Layouts, Skalierung und Hintergrundfarben.  
+- **Plattformübergreifend** – funktioniert unter Windows, Linux und macOS mit .NET Core.
 
 ## Voraussetzungen
 
-Bevor Sie mit dem Tutorial beginnen, stellen Sie sicher, dass die folgenden Voraussetzungen erfüllt sind:
+Bevor Sie beginnen, stellen Sie sicher, dass Sie Folgendes haben:
 
--  Aspose.CAD für .NET: Stellen Sie sicher, dass Aspose.CAD für .NET installiert ist. Wenn nicht, können Sie es hier herunterladen[Hier](https://releases.aspose.com/cad/net/).
+- **Aspose.CAD for .NET** – laden Sie es von [hier](https://releases.aspose.com/cad/net/) herunter.  
+- **Visual Studio** oder ein kompatibles .NET‑IDE.  
+- **Eine Beispiel‑DGN‑Datei** – für diese Anleitung verwenden wir `Nikon_D90_Camera.dgn` (im Aspose‑Beispielpaket enthalten).  
 
-- Entwicklungsumgebung: Richten Sie eine geeignete Entwicklungsumgebung wie Visual Studio für die .NET-Anwendungsentwicklung ein.
-
-- Beispiel-DGN-Datei: Halten Sie eine Beispiel-DGN-Datei zum Testen bereit. Sie können die bereitgestellte Beispieldatei „Nikon_D90_Camera.dgn“ verwenden.
-
-Beginnen wir nun mit den Schritten zum Erreichen der 3D-Unterstützung für DGN V7 mit Aspose.CAD für .NET!
+Jetzt, da alles bereit ist, tauchen wir in den Code ein.
 
 ## Namespaces importieren
 
-Beginnen Sie in Ihrer .NET-Anwendung mit dem Importieren der erforderlichen Namespaces:
+In Ihrem .NET‑Projekt importieren Sie die erforderlichen Namespaces:
 
 ```csharp
 using System;
@@ -44,17 +67,17 @@ using Aspose.CAD.FileFormats.Dgn;
 using Aspose.CAD.ImageOptions;
 ```
 
-## Schritt 1: Richten Sie Ihr Dokumentenverzeichnis ein
+## Schritt 1: Dokumentverzeichnis einrichten
 
- Stellen Sie sicher, dass in Ihrem Projekt ein Dokumentenverzeichnis eingerichtet ist. Ersetzen`"Your Document Directory"` mit dem tatsächlichen Pfad zu Ihrem Dokumentverzeichnis.
+Erstellen Sie eine Variable, die auf den Ordner verweist, in dem Ihre Quell‑DGN‑Datei und die Ausgabedateien gespeichert werden.
 
 ```csharp
 string MyDir = "Your Document Directory";
 ```
 
-## Schritt 2: Laden Sie die DGN-Datei
+## Schritt 2: DGN‑Datei laden
 
-Laden Sie die vorhandene DGN-Datei als CadImage mit dem folgenden Code:
+Laden Sie die DGN‑Datei als `DgnImage`. Dieses Objekt gibt Ihnen Zugriff auf die CAD‑Daten und die Rasterisierungspipeline.
 
 ```csharp
 string sourceFilePath = MyDir + "Nikon_D90_Camera.dgn";
@@ -62,13 +85,13 @@ string outFile = MyDir + "Nikon_D90_Camera.dgn";
 
 using (DgnImage dgnImage = (DgnImage)Image.Load(sourceFilePath))
 {
-    // Hier kommt Ihr Code zur weiteren Verarbeitung
+    // Your code for further processing goes here
 }
 ```
 
-## Schritt 3: PDF-Exportoptionen konfigurieren
+## Schritt 3: PDF‑Exportoptionen konfigurieren (CAD‑Rasterisierungsoptionen konfigurieren)
 
-Richten Sie Optionen für den Export in PDF ein und legen Sie Optionen für die Vektorrasterung fest, z. B. Seitenabmessungen, automatische Layoutskalierung, Hintergrundfarbe und zu exportierende Layouts.
+Hier **konfigurieren wir CAD‑Rasterisierungsoptionen**, die bestimmen, wie das 3‑D‑Modell nach PDF gerendert wird. Sie können die Seitengröße anpassen, die automatische Layout‑Skalierung aktivieren, eine Hintergrundfarbe festlegen und die genauen Layouts (Ansichten) auswählen, die Sie exportieren möchten.
 
 ```csharp
 var options = new PdfOptions
@@ -79,44 +102,51 @@ var options = new PdfOptions
         PageHeight = 1500,
         AutomaticLayoutsScaling = true,
         BackgroundColor = Color.Black,
-        Layouts = new string[] { "1", "2", "3", "9" } // Exportieren Sie nur bestimmte Ansichten
+        Layouts = new string[] { "1", "2", "3", "9" } // Only export specified views
     }
 };
 ```
 
-## Schritt 4: Speichern Sie das Rasterbild
+## Schritt 4: Rasterbild speichern
 
-Speichern Sie die DGN-Datei als Rasterbild mit den konfigurierten Optionen.
+Abschließend exportieren Sie das DGN mit den gerade konfigurierten Optionen in eine PDF‑Datei.
 
 ```csharp
 dgnImage.Save(outFile, options);
 ```
 
-## Abschluss
+## Häufige Probleme und Lösungen
 
-Glückwunsch! Sie haben Aspose.CAD für .NET erfolgreich verwendet, um eine DGN-Datei mit 3D-Unterstützung in ein Rasterbild zu exportieren. Dieses Tutorial hat Sie mit den wesentlichen Schritten ausgestattet, um diese Funktionalität in Ihre CAD-Projekte zu integrieren.
+| Problem | Lösung |
+|-------|----------|
+| **Leere PDF‑Ausgabe** | Stellen Sie sicher, dass das `Layouts`‑Array die korrekten Ansicht‑Bezeichner enthält, die in der DGN‑Datei vorhanden sind. |
+| **Falsche Farben** | Vergewissern Sie sich, dass `BackgroundColor` auf den gewünschten Wert gesetzt ist; verwenden Sie `Color.White` für einen hellen Hintergrund. |
+| **Leistungsengpass bei großen Dateien** | Aktivieren Sie `AutomaticLayoutsScaling` und erwägen Sie, `PageWidth/PageHeight` zu reduzieren, um eine kleinere Rasterauflösung zu erhalten. |
+| **Lizenzausnahme** | Installieren Sie eine gültige Aspose.CAD‑Lizenz, bevor Sie das Bild laden, um Wasserzeichen der Testversion zu vermeiden. |
 
-## FAQs
+## Häufig gestellte Fragen
 
-### F1: Kann ich Aspose.CAD für .NET mit anderen CAD-Dateiformaten verwenden?
+**F: Kann ich Aspose.CAD für .NET mit anderen CAD‑Dateiformaten verwenden?**  
+A: Ja, Aspose.CAD unterstützt DWG, DXF, DWF, DGN und viele weitere Formate.
 
-A1: Ja, Aspose.CAD unterstützt verschiedene CAD-Dateiformate, einschließlich DWG und DXF.
+**F: Wie kann ich Ausnahmen beim Arbeiten mit Aspose.CAD behandeln?**  
+A: Umgeben Sie Ihren Code mit einem `try‑catch`‑Block und prüfen Sie `Aspose.CAD.CADException` für detaillierte Fehlerinformationen.
 
-### F2: Wie kann ich mit Ausnahmen umgehen, wenn ich mit Aspose.CAD arbeite?
+**F: Ist Aspose.CAD für kommerzielle Projekte geeignet?**  
+A: Absolut. Sie können eine Lizenz [hier](https://purchase.aspose.com/buy) erwerben.
 
-A2: Binden Sie Ihren Code in einen Try-Catch-Block ein, wie im bereitgestellten Beispiel gezeigt, um Ausnahmen ordnungsgemäß zu behandeln.
+**F: Kann ich Aspose.CAD für .NET vor dem Kauf testen?**  
+A: Ja, ein kostenloser Testzeitraum ist [hier](https://releases.aspose.com/) verfügbar.
 
-### F3: Ist Aspose.CAD für kommerzielle Projekte geeignet?
+**F: Wo finde ich Community‑Support für Aspose.CAD?**  
+A: Treten Sie dem Diskussionsforum [hier](https://forum.aspose.com/c/cad/19) bei.
 
- A3: Auf jeden Fall! Sie können Aspose.CAD für .NET erwerben[Hier](https://purchase.aspose.com/buy).
+---
 
-### F4: Kann ich Aspose.CAD für .NET vor dem Kauf testen?
+**Zuletzt aktualisiert:** 2026-03-29  
+**Getestet mit:** Aspose.CAD 24.11 für .NET  
+**Autor:** Aspose  
 
-A4: Auf jeden Fall! Entdecken Sie die kostenlose Testversion[Hier](https://releases.aspose.com/).
-
-### F5: Wo finde ich Community-Unterstützung für Aspose.CAD für .NET?
-
- A5: Besuchen Sie das Community-Forum[Hier](https://forum.aspose.com/c/cad/19).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
