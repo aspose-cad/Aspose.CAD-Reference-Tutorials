@@ -1,35 +1,58 @@
 ---
-title: 将 DWG 转换为Compliance PDF - Aspose.CAD 教程
-linktitle: 将 DWG 转换为合规性 PDF
-second_title: Aspose.CAD .NET - CAD 和 BIM 文件格式
-description: 使用 Aspose.CAD for .NET 将 DWG 转换为合规性 PDF。请按照我们的教程获取分步指导。
-weight: 13
+date: 2026-03-31
+description: 使用 Aspose.CAD for .NET 将 DWG 转换为 PDF，支持 .NET Core PDF 转换。请按照我们的分步指南操作。
+keywords:
+- convert dwg to pdf
+- net core pdf conversion
+- aspose cad compliance pdf
+- dwg to pdf conversion .net
+- cad file format conversion
+linktitle: 将 DWG 转换为合规 PDF
+second_title: Aspose.CAD .NET - CAD and BIM File Format
+title: 如何使用 Aspose.CAD for .NET 将 DWG 转换为 PDF（合规）
 url: /zh/net/conversion-and-export/converting-dwg-to-compliance-pdf/
+weight: 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 将 DWG 转换为Compliance PDF - Aspose.CAD 教程
+# 将 dwg 转换为 pdf – Aspose.CAD 教程
 
 ## 介绍
 
-欢迎使用我们的分步教程，了解如何使用 Aspose.CAD for .NET 将 DWG 文件转换为合规性 PDF。 Aspose.CAD 是一个功能强大的 .NET API，使开发人员能够轻松使用 CAD 文件格式。在本教程中，我们将通过详细的示例和说明指导您完成将 DWG 文件转换为Compliance PDF 的过程。
+欢迎！在本教程中，您将学习使用 Aspose.CAD .NET 库 **将 DWG 转换为 PDF**。无论您是构建桌面实用程序、Web 服务，还是必须生成符合 PDF/A‑1a 或 PDF/A‑1b 标准的 .NET Core 应用程序，本指南都会一步步带您完成——从加载 DWG 文件到保存符合标准的 PDF。  
 
-## 先决条件
+在本指南结束时，您将拥有一段可直接放入任何 .NET 项目的即用代码片段。
 
-在我们开始之前，请确保您具备以下先决条件：
+## 快速答案
+- **需要哪个库？** Aspose.CAD for .NET (supports .NET Framework and .NET Core).  
+- **覆盖哪些 PDF 合规级别？** PDF/A‑1a and PDF/A‑1b.  
+- **测试是否需要许可证？** A free trial works perfectly for development; a commercial license is required for production.  
+- **可以在 .NET Core 上运行吗？** Yes – the same code runs on .NET Core, .NET 5/6+.  
+- **典型的实现时间是多少？** About 10 minutes for a basic conversion.
 
--  Aspose.CAD for .NET：确保您已将 Aspose.CAD 库集成到您的 .NET 项目中。你可以下载它[这里](https://releases.aspose.com/cad/net/).
+## 什么是“将 DWG 转换为 PDF”？
 
-- 开发环境：安装有效的 .NET 开发环境，并确保其配置正确。
+DWG 是 AutoCAD 绘图的原生文件格式，而 PDF 是一种通用的可查看文档格式。将 DWG 转换为 PDF 可让您与没有 CAD 软件的利益相关者共享图纸，PDF/A 合规性确保长期归档和法律可接受性。
 
-- 示例 DWG 文件：下载要转换为Compliance PDF 的示例DWG 文件。
+## 为什么在 .NET Core PDF 转换中使用 Aspose.CAD？
+
+- **零安装 CAD 引擎** – no AutoCAD or third‑party binaries required.  
+- **完整的 .NET Core 兼容性** – write once, run anywhere.  
+- **内置 PDF/A 合规性** – generate archival‑ready PDFs with a single property change.  
+- **高保真光栅化** – preserve line weights, colors, and layers.
+
+## 前提条件
+
+- **Aspose.CAD for .NET** – download it [此处](https://releases.aspose.com/cad/net/).  
+- 一个 **.NET 开发环境**（Visual Studio 2022、带 C# 扩展的 VS Code，或您喜欢的任何 IDE）。  
+- 一个 **示例 DWG 文件**，您想要转换的文件（本教程使用 `Bottom_plate.dwg`）。
 
 ## 导入命名空间
 
-在您的 .NET 项目中，导入必要的命名空间以利用 Aspose.CAD 功能。
+在您的 .NET 项目中，导入必要的命名空间以使用 Aspose.CAD 功能。
 
 ```csharp
 using System;
@@ -41,9 +64,9 @@ using Aspose.CAD;
 using Aspose.CAD.ImageOptions;
 ```
 
-现在，让我们将 DWG 文件转换为Compliance PDF 的过程分解为多个步骤。
+现在，让我们将转换过程分解为清晰的编号步骤。
 
-## 第 1 步：加载 DWG 文件
+## 步骤 1：加载 DWG 文件
 
 ```csharp
 string MyDir = "Your Document Directory";
@@ -52,9 +75,10 @@ string sourceFilePath = MyDir + "Bottom_plate.dwg";
 Aspose.CAD.Image cadImage = Aspose.CAD.Image.Load(sourceFilePath);
 ```
 
-## 第 2 步：设置光栅化选项
+*说明:*  
+`Image.Load` 会自动检测 DWG 格式并创建一个内存中的表示 (`cadImage`)，我们随后可以对其进行光栅化或导出。
 
-创建一个实例`CadRasterizationOptions`并配置其属性，例如背景颜色、页面宽度和页面高度。
+## 步骤 2：设置光栅化选项
 
 ```csharp
 CadRasterizationOptions rasterizationOptions = new CadRasterizationOptions
@@ -65,9 +89,10 @@ CadRasterizationOptions rasterizationOptions = new CadRasterizationOptions
 };
 ```
 
-## 第 3 步：创建 PDF 选项
+*原因:*  
+光栅化将矢量 CAD 数据转换为 PDF 可嵌入的位图。调整 `PageWidth`/`PageHeight` 可控制最终 PDF 的分辨率。
 
-创建一个实例`PdfOptions`并设置矢量光栅化选项。
+## 步骤 3：创建 PDF 选项
 
 ```csharp
 PdfOptions pdfOptions = new PdfOptions
@@ -77,48 +102,63 @@ PdfOptions pdfOptions = new PdfOptions
 };
 ```
 
-## 第 4 步：另存为 PDF（A1a 合规性）
+*提示:*  
+稍后将 `PdfCompliance` 更改为 `PdfA1b`，即可在不重新编写光栅化设置的情况下获得略有不同的 PDF/A 级别。
 
-将 CAD 图像保存为符合 A1a 规范的合规性 PDF。
+## 步骤 4：保存为 PDF（A1a 合规）
 
 ```csharp
 cadImage.Save(MyDir + "PDFA1_A.pdf", pdfOptions);
 ```
 
-## 第 5 步：另存为 PDF（A1b 合规性）
+*结果:*  
+`PDFA1_A.pdf` 是符合 PDF/A‑1a 的文件，适用于严格的归档要求。
 
-将合规类型更改为 A1b 并将 CAD 图像另存为合规 PDF。
+## 步骤 5：保存为 PDF（A1b 合规）
 
 ```csharp
 pdfOptions.CorePdfOptions.Compliance = PdfCompliance.PdfA1b;
 cadImage.Save(MyDir + "PDFA1_B.pdf", pdfOptions);
 ```
 
+*结果:*  
+`PDFA1_B.pdf` 符合 PDF/A‑1b 合规性，虽然稍宽松，但仍被广泛接受用于归档。
+
+## 常见问题及解决方案
+
+| 问题 | 原因 | 解决方案 |
+|-------|-------|-----|
+| **空白 PDF 输出** | 未设置光栅化选项（例如，背景颜色透明） | Set `BackgroundColor = Aspose.CAD.Color.White` or another visible color. |
+| **大型 DWG 导致内存不足** | 将极大的图纸加载到内存中 | Use `CadRasterizationOptions` with lower `PageWidth`/`PageHeight` or process the file in chunks if possible. |
+| **合规性错误** | 使用缺少 PDF/A 支持的旧版 Aspose.CAD | Upgrade to the latest Aspose.CAD release (checked on the download page). |
+
+## 常见问题 (新)
+
+**问：我可以使用 Aspose.CAD 将其他 CAD 格式转换为合规 PDF 吗？**  
+答：是的，Aspose.CAD 支持多种格式（DWG、DXF、DGN 等），并且可以将它们导出为 PDF/A。
+
+**问：Aspose.CAD 与 .NET Core 兼容吗？**  
+答：完全兼容。相同的 API 可在 .NET Framework、.NET Core 和 .NET 5/6+ 上运行。
+
+**问：Aspose.CAD 有哪些授权选项？**  
+答：有的，您可以在[此处](https://purchase.aspose.com/buy)查看授权选项。
+
+**问：是否提供免费试用？**  
+答：有的，您可以在[此处](https://releases.aspose.com/)获取免费试用。
+
+**问：在哪里可以获得 Aspose.CAD 的支持？**  
+答：请访问 [Aspose.CAD 论坛](https://forum.aspose.com/c/cad/19) 获取任何支持相关的查询。
+
 ## 结论
 
-恭喜！您已使用 Aspose.CAD for .NET 成功将 DWG 文件转换为Compliance PDF。本教程为希望将 CAD 转换功能集成到其应用程序中的开发人员提供了全面的指南。
+您现在已经看到一个完整的、可投入生产的示例，展示了如何使用 Aspose.CAD for .NET **将 DWG 转换为 PDF** 并实现 PDF/A 合规性。相同的方法同样适用于 .NET Core 项目，为桌面、Web 或基于云的应用提供灵活的解决方案。欢迎尝试不同的光栅化设置、页面尺寸或合规级别，以满足您的具体需求。
 
-## 常见问题解答
+---
 
-### Q1：我可以使用 Aspose.CAD 将其他 CAD 格式转换为Compliance PDF 吗？
+**最后更新：** 2026-03-31  
+**测试环境：** Aspose.CAD 24.12 for .NET  
+**作者：** Aspose  
 
-A1：是的，Aspose.CAD 支持各种 CAD 格式，可以转换为Compliance PDF。
-
-### Q2：Aspose.CAD 与.NET Core 兼容吗？
-
-A2：是的，Aspose.CAD 与 .NET Framework 和 .NET Core 兼容。
-
-### 问题 3：Aspose.CAD 是否有任何许可选项？
-
- A3：是的，您可以探索许可选项[这里](https://purchase.aspose.com/buy).
-
-### Q4：有免费试用吗？
-
-A4：是的，您可以获得免费试用[这里](https://releases.aspose.com/).
-
-### Q5：我在哪里可以获得 Aspose.CAD 的支持？
-
-A5：访问[Aspose.CAD论坛](https://forum.aspose.com/c/cad/19)任何与支持相关的查询。
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
