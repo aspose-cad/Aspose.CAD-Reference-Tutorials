@@ -1,7 +1,7 @@
 ---
-date: 2025-12-18
-description: Aspose.CAD for Java를 사용하여 DWG를 PNG 및 기타 래스터 이미지 형식으로 변환하는 방법을 배워보세요.
-  고품질 결과로 CAD를 PNG로 내보냅니다.
+date: 2026-02-17
+description: Aspose.CAD for Java를 사용하여 dwg를 png로 변환하고 CAD를 png 또는 다른 래스터 형식으로 내보내는
+  방법을 배워보세요. 고품질 결과를 빠르게 얻으세요.
 linktitle: Convert CAD Layout to Raster Image Format
 second_title: Aspose.CAD Java API
 title: Aspose.CAD for Java를 사용하여 DWG를 PNG 및 기타 래스터 형식으로 변환
@@ -13,37 +13,47 @@ weight: 12
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# DWG를 PNG 및 기타 래스터 형식으로 변환하기 - Aspose.CAD for Java 사용
+# Aspose.CAD for Java를 사용하여 DWG를 PNG 및 기타 래스터 형식으로 변환하기
 
 ## 소개
 
-DWG를 PNG(또는 기타 래스터 이미지 형식)로 변환하는 것은 CAD 뷰어가 없는 팀원과 CAD 도면을 공유하거나, 문서에 디자인을 삽입하거나, 웹 갤러리를 위한 썸네일을 생성해야 할 때 흔히 요구되는 작업입니다. Aspose.CAD for Java는 전체 도면 파일이든 특정 레이아웃이든 관계없이 이 변환을 간단하게 수행할 수 있게 해줍니다. 이 튜토리얼에서는 **CAD 레이아웃을 래스터 이미지로 변환**하는 정확한 단계를 살펴보며, 동일한 방법으로 PNG, JPEG, TIFF, PDF 출력도 만들 수 있습니다.
+DWG를 PNG(또는 기타 래스터 이미지 형식)로 변환하는 것은 CAD 뷰어가 없는 팀원과 CAD 도면을 공유하거나, 문서에 디자인을 삽입하거나, 웹 갤러리를 위한 썸네일을 생성해야 할 때 흔히 필요한 작업입니다. **이 가이드에서는 dwg를 png로 빠르고 안정적으로 변환하는 방법을 배웁니다**, 전체 도면 파일이든 특정 레이아웃이든 관계없이. 웹 미리보기, 보고 도구 또는 모바일 앱을 위해 **CAD를 래스터로 변환**해야 할 수도 있습니다. Aspose.CAD for Java는 이 변환을 간단하게 해 주며 해상도, 레이아웃 선택 및 출력 형식에 대한 완전한 제어를 제공합니다.
 
 ## 빠른 답변
 - **DWG를 PNG로 변환하는 라이브러리는?** Aspose.CAD for Java  
-- **어떤 형식으로 내보낼 수 있나요?** PNG, JPEG, TIFF, PDF, BMP 등  
-- **테스트에 라이선스가 필요합니까?** 개발에는 무료 체험판으로 충분하며, 프로덕션에서는 라이선스가 필요합니다  
-- **특정 레이아웃을 선택할 수 있나요?** 예, `setLayouts`를 사용하여 “Model”, “Layout1” 등을 지정합니다  
+- **내보낼 수 있는 형식은?** PNG, JPEG, TIFF, PDF, BMP 등  
+- **테스트에 라이선스가 필요합니까?** 개발에는 무료 체험판을 사용할 수 있으며, 운영 환경에서는 라이선스가 필요합니다  
+- **특정 레이아웃을 선택할 수 있나요?** 예, `setLayouts`를 사용하여 “Model”, “Layout1” 등을 지정합니다.  
 - **고해상도 출력이 가능한가요?** 물론입니다—`setPageWidth`와 `setPageHeight`를 조정하여 DPI를 제어합니다  
 
 ## “convert dwg to png”란 무엇인가요?
 
-“convert dwg to png”라는 표현은 벡터 기반 DWG 파일(많은 CAD 애플리케이션의 기본 형식)을 픽셀 기반 PNG 이미지로 래스터화하는 과정을 의미합니다. 래스터 이미지는 웹 표시, 이메일 공유 및 비‑CAD 소프트웨어와의 통합에 이상적입니다.
+“convert dwg to png”라는 문구는 벡터 기반 DWG 파일(많은 CAD 애플리케이션의 기본 형식)을 픽셀 기반 PNG 이미지로 래스터화하는 과정을 의미합니다. 래스터 이미지는 웹 표시, 이메일 공유 및 비‑CAD 소프트웨어와의 통합에 이상적입니다.
 
-## CAD를 PNG(또는 기타 래스터 형식)으로 내보내는 이유는?
+## CAD를 PNG(또는 기타 래스터 형식)로 내보내는 이유는?
+
 - **범용 호환성:** PNG와 JPEG는 사실상 모든 이미지 뷰어와 브라우저에서 지원됩니다.  
-- **빠른 로딩:** 무거운 DWG 파일을 여는 것보다 래스터 이미지가 즉시 로드됩니다.  
+- **빠른 로딩:** 무거운 DWG 파일을 여는 것에 비해 래스터 이미지는 즉시 로드됩니다.  
 - **간편 삽입:** 추가 플러그인 없이 PNG를 Word, PowerPoint, HTML 등에 직접 삽입할 수 있습니다.  
-- **일관된 외관:** 해상도, 배경, 레이아웃을 제어하여 모든 이해관계자가 동일한 시각을 보게 합니다.
+- **일관된 표시:** 해상도, 배경, 레이아웃을 제어하여 모든 이해관계자가 동일한 시각을 보게 합니다.  
+
+## 일반적인 사용 사례
+
+| 시나리오 | 래스터 출력이 도움이 되는 이유 |
+|----------|------------------------|
+| **프로젝트 문서화** | PNG를 PDF나 Word 문서에 삽입하면 검토자에게 CAD 소프트웨어가 필요하지 않습니다. |
+| **웹 포털** | DWG 파일에서 생성된 썸네일이 즉시 로드되어 사용자 경험을 향상시킵니다. |
+| **모바일 앱** | CAD 뷰어가 없는 디바이스에서도 래스터 이미지가 올바르게 표시됩니다. |
+| **자동 보고** | 여러 레이아웃을 일괄 변환하여 PNG/JPEG로 차트나 대시보드에 포함합니다. |
 
 ## 사전 요구 사항
 
-1. **Java 개발 환경** – JDK 8 이상이 설치되고 구성되어 있어야 합니다.  
-2. **Aspose.CAD for Java** – 최신 JAR를 [Aspose.CAD for Java documentation](https://reference.aspose.com/cad/java/)에서 다운로드합니다.  
+1. **Java 개발 환경** – JDK 8 이상이 설치되고 구성되어 있어야 합니다.  
+2. **Aspose.CAD for Java** – 최신 JAR를 [Aspose.CAD for Java documentation](https://reference.aspose.com/cad/java/)에서 다운로드하십시오.
 
 ## 네임스페이스 가져오기
 
-먼저 필요한 클래스를 가져옵니다. 이러한 import 구문을 통해 이미지 로드, 래스터화 옵션 및 TIFF/PNG 출력 설정에 접근할 수 있습니다.
+먼저, 필요한 클래스를 가져옵니다. 이러한 import는 이미지 로드, 래스터화 옵션 및 TIFF/PNG 출력 설정에 접근할 수 있게 해 줍니다.
 
 ```java
 import com.aspose.cad.Image;
@@ -54,7 +64,7 @@ import com.aspose.cad.imageoptions.CadRasterizationOptions;
 import com.aspose.cad.imageoptions.TiffOptions;
 ```
 
-> **Pro tip:** PNG 대신 TIFF를 내보내려면 `TiffOptions`를 `com.aspose.cad.imageoptions.PngOptions`에 있는 `PngOptions`로 교체하십시오.
+> **팁:** TIFF 대신 **CAD를 PNG로 내보내**려면 `TiffOptions`를 `PngOptions`(`com.aspose.cad.imageoptions.PngOptions`에 있음)로 교체하십시오.
 
 ## 단계별 가이드
 
@@ -65,7 +75,7 @@ import com.aspose.cad.imageoptions.TiffOptions;
 String dataDir = "Your Document Directory" + "CADConversion/";
 ```
 
-`"Your Document Directory"`를 CAD 파일이 위치한 절대 경로로 교체하십시오.
+`Your Document Directory`를 CAD 파일이 위치한 절대 경로로 교체하십시오.
 
 ### 단계 2: CAD 파일 로드
 
@@ -74,7 +84,7 @@ String srcFile = dataDir + "conic_pyramid.dxf";
 Image image = Image.load(srcFile);
 ```
 
-지원되는 모든 형식(DWG, DXF, DGN 등)을 로드할 수 있습니다. 이것이 **how to convert cad** 부분이며, 파일을 지정하고 Aspose가 파싱하도록 하면 됩니다.
+지원되는 모든 형식(DWG, DXF, DGN 등)을 로드할 수 있습니다. 이것이 **CAD 변환 방법** 부분이며—파일을 지정하면 Aspose가 파싱을 처리합니다.
 
 ### 단계 3: 래스터화 옵션 구성
 
@@ -86,7 +96,7 @@ rasterizationOptions.setLayouts(new String[] {"Model", "Layout1"});
 ```
 
 - `setPageWidth` / `setPageHeight`는 출력 해상도를 제어합니다(값이 클수록 DPI가 높아짐).  
-- `setLayouts`를 사용하면 특정 레이아웃에 대해 **convert cad to raster**를 수행할 수 있습니다; 전체 도면을 래스터화하려면 생략합니다.
+- `setLayouts`를 사용하면 특정 레이아웃에 대해 **CAD를 래스터로 변환**할 수 있습니다; 생략하면 전체 도면을 래스터화합니다.
 
 ### 단계 4: 이미지 옵션 설정
 
@@ -95,7 +105,7 @@ ImageOptionsBase options = new TiffOptions(TiffExpectedFormat.Default);
 options.setVectorRasterizationOptions(rasterizationOptions);
 ```
 
-PNG를 원한다면 `TiffOptions` 대신 `PngOptions`를 인스턴스화하십시오. 여기서 **export cad as png**를 수행합니다.
+PNG를 선호한다면 `TiffOptions` 대신 `PngOptions`를 인스턴스화하십시오. 여기에서 **CAD를 PNG로 내보냅니다**.
 
 ### 단계 5: 결과 이미지 저장
 
@@ -103,43 +113,43 @@ PNG를 원한다면 `TiffOptions` 대신 `PngOptions`를 인스턴스화하십�
 image.save(dataDir + "conic_pyramid_layoutstorasterimage_out_.tiff", options);
 ```
 
-파일 확장자를 `.png`(옵션 객체도 `PngOptions`로)로 변경하면 **save CAD as JPEG/PNG**이 가능합니다.
+파일 확장자를 `.png`(옵션 객체도 `PngOptions`로)로 변경하여 **CAD를 JPEG/PNG로 저장**합니다.
 
-> **Common Pitfall:** 파일 확장자와 옵션 클래스가 일치하지 않으면 `UnsupportedFormatException`이 발생합니다. 항상 두 요소를 동일하게 유지하십시오.
+> **흔한 실수:** 파일 확장자와 옵션 클래스가 일치하지 않으면 `UnsupportedFormatException`이 발생합니다. 항상 일치시키세요.
 
 ## 일반적인 문제 및 해결책
 
-| Issue | Solution |
+| 문제 | 해결책 |
 |-------|----------|
-| **빈 출력 이미지** | `setLayouts`에 지정한 레이아웃 이름이 원본 CAD 파일의 레이아웃과 정확히 일치하는지 확인하십시오. |
-| **저해상도 PNG** | `setPageWidth` / `setPageHeight` 값을 늘리거나 래스터화 옵션에서 `setResolution`을 설정하십시오. |
-| **지원되지 않는 DWG 버전** | 최신 Aspose.CAD 버전을 사용하십시오; 오래된 버전은 최신 DWG 릴리스를 지원하지 않을 수 있습니다. |
-| **대용량 파일에서 메모리 오류** | 페이지를 하나씩 처리하거나 JVM 힙(`-Xmx2g`)을 늘리십시오. |
+| **빈 출력 이미지** | `setLayouts`에 지정한 레이아웃 이름이 원본 CAD 파일의 이름과 정확히 일치하는지 확인하십시오. |
+| **저해상도 PNG** | `setPageWidth` / `setPageHeight`를 늘리거나 래스터화 옵션에서 `setResolution`을 설정하십시오. |
+| **지원되지 않는 DWG 버전** | 최신 Aspose.CAD 버전을 사용하고 있는지 확인하십시오; 오래된 버전은 최신 DWG를 지원하지 않을 수 있습니다. |
+| **대용량 파일 메모리 오류** | 페이지를 하나씩 처리하거나 JVM 힙을 늘리세요(`-Xmx2g`). |
 
 ## 자주 묻는 질문
 
 **Q: Aspose.CAD가 다양한 CAD 파일 형식을 지원하나요?**  
 A: 예, DWG, DXF, DGN 등 많은 형식을 지원합니다.
 
-**Q: 출력 래스터 이미지의 해상도를 사용자 정의할 수 있나요?**  
+**Q: 출력 래스터 이미지의 해상도를 맞춤 설정할 수 있나요?**  
 A: 물론입니다. `CadRasterizationOptions`에서 `setPageWidth`, `setPageHeight` 또는 `setResolution`을 조정하십시오.
 
 **Q: 한 번에 여러 CAD 레이아웃을 변환하려면 어떻게 해야 하나요?**  
-A: `setLayouts`에 모든 레이아웃 이름을 배열로 제공하면 됩니다. 예: `new String[]{"Model","Layout1","Layout2"}`.
+A: `setLayouts`에 모든 레이아웃 이름을 배열로 제공하십시오. 예: `new String[]{"Model","Layout1","Layout2"}`.
 
 **Q: TIFF 외에 지원되는 출력 형식이 있나요?**  
-A: 예—PNG, JPEG, BMP, PDF 등 각 `*Options` 클래스를 통해 사용할 수 있습니다.
+A: 예—PNG, JPEG, BMP, PDF 등 다양한 `*Options` 클래스를 통해 사용할 수 있습니다.
 
 **Q: Aspose.CAD에 대한 도움을 받거나 경험을 공유하려면 어디로 가면 되나요?**  
-A: 커뮤니티 지원 및 공식 지원을 위해 [Aspose.CAD forum](https://forum.aspose.com/c/cad/19)을 방문하십시오.
+A: 커뮤니티 지원 및 공식 지원을 위해 [Aspose.CAD 포럼](https://forum.aspose.com/c/cad/19)을 방문하십시오.
 
 ## 결론
 
-이 단계들을 따르면 **DWG를 PNG로 변환**, **CAD를 PNG로 내보내기**, **CAD를 JPEG로 저장** 또는 필요한 다른 래스터 형식을 생성할 수 있습니다. Aspose.CAD for Java가 복잡한 작업을 처리해 주므로 고품질 이미지를 애플리케이션, 문서 또는 웹 포털에 쉽게 통합할 수 있습니다.
+이 단계들을 따라 하면 **DWG를 PNG로 변환**, **CAD를 PNG로 내보내기**, **CAD를 JPEG로 저장** 또는 필요한 다른 모든 래스터 형식을 생성할 수 있습니다. Aspose.CAD for Java가 복잡한 작업을 처리하므로 고품질 이미지를 애플리케이션, 문서 또는 웹 포털에 통합하는 데 집중할 수 있습니다.
 
 ---
 
-**마지막 업데이트:** 2025-12-18  
+**마지막 업데이트:** 2026-02-17  
 **테스트 환경:** Aspose.CAD for Java 24.12  
 **작성자:** Aspose  
 
