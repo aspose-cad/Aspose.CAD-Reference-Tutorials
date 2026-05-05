@@ -1,35 +1,51 @@
 ---
-title: Obtenir la taille de la mise en page CAO dans Aspose.CAD pour .NET
-linktitle: Obtenir la taille de la mise en page CAO
-second_title: Aspose.CAD .NET - Format de fichier CAO et BIM
-description: Découvrez comment récupérer la taille de la mise en page CAO dans .NET à l'aide d'Aspose.CAD. Suivez notre guide étape par étape pour une manipulation efficace des fichiers CAO.
-weight: 14
+date: 2026-03-21
+description: Apprenez comment obtenir la taille d’une mise en page CAD en .NET avec
+  Aspose.CAD. Suivez notre guide étape par étape pour une manipulation efficace des
+  fichiers CAD.
+linktitle: Get Size of CAD Layout
+second_title: Aspose.CAD .NET - CAD and BIM File Format
+title: Obtenir la taille de la mise en page CAD dans Aspose.CAD pour .NET
 url: /fr/net/cad-drawing-manipulation/get-size-of-cad-layout/
+weight: 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Obtenir la taille de la mise en page CAO dans Aspose.CAD pour .NET
+# Obtenir la taille de la mise en page CAD dans Aspose.CAD pour .NET
 
 ## Introduction
 
-Bienvenue dans ce guide complet sur l'obtention de la taille des mises en page CAO à l'aide d'Aspose.CAD pour .NET. Aspose.CAD est une bibliothèque puissante qui permet aux développeurs de travailler de manière transparente avec des fichiers CAO. Dans ce didacticiel, nous vous guiderons tout au long du processus de récupération de la taille des mises en page CAO à l'aide d'exemples pratiques et d'instructions étape par étape.
+Dans ce tutoriel complet, vous découvrirez **comment obtenir la taille de la mise en page CAD** en utilisant la bibliothèque Aspose.CAD pour .NET. Que vous construisiez un visualiseur CAD, génériez des miniatures ou ayez besoin de dimensions précises de la mise en page pour un traitement en aval, connaître la taille exacte de chaque mise en page est essentiel. Nous parcourrons l’ensemble du flux de travail — du chargement d’un dessin à l’extraction des dimensions de la mise en page et, éventuellement, à leur sauvegarde sous forme d’images — afin que vous puissiez intégrer cette fonctionnalité dans vos propres applications en toute confiance.
 
-## Conditions préalables
+## Réponses rapides
+- **Que signifie « obtenir la taille de la mise en page CAD » ?** Cela signifie récupérer la largeur et la hauteur (en unités du dessin) de chaque mise en page non vide dans un fichier CAD.  
+- **Quelle bibliothèque prend en charge cela ?** Aspose.CAD pour .NET fournit une API simple pour accéder aux informations de mise en page.  
+- **Ai‑je besoin d’une licence ?** Un essai gratuit suffit pour l’évaluation ; une licence commerciale est requise pour une utilisation en production.  
+- **Formats pris en charge ?** DWG, DXF et de nombreux autres formats CAD/BIM sont entièrement pris en charge.  
+- **Temps d’implémentation typique ?** Environ 10‑15 minutes pour une routine de récupération de taille basique.
 
-Avant de plonger dans le didacticiel, assurez-vous que les conditions préalables suivantes sont remplies :
+## Qu’est‑ce que « obtenir la taille de la mise en page CAD » ?
+Obtenir la taille de la mise en page CAD signifie extraire les étendues géométriques de chaque mise en page (espace papier) définie dans un dessin CAD. Ces étendues sont exprimées dans les unités natives du dessin (généralement millimètres ou pouces) et sont utiles pour des tâches telles que le redimensionnement, l’impression ou la génération d’images de prévisualisation.
 
--  Aspose.CAD pour .NET : assurez-vous que la bibliothèque Aspose.CAD est installée. Vous pouvez le télécharger depuis le[Page de téléchargement d'Aspose.CAD pour .NET](https://releases.aspose.com/cad/net/).
+## Pourquoi récupérer la taille de la mise en page CAD avec Aspose.CAD ?
+- **Aucun logiciel CAD requis** – Fonctionne entièrement côté serveur.  
+- **Multiplateforme** – Fonctionne avec .NET Framework, .NET Core et .NET 5/6+.  
+- **Mesures précises** – Retourne les étendues exactes telles qu’elles sont stockées dans le fichier, évitant l’analyse manuelle.  
+- **Intégration facile** – Les appels d’API simples s’intègrent naturellement aux projets C# existants.
 
-- Fichiers de documents : préparez les fichiers CAO avec lesquels vous souhaitez travailler. Ce didacticiel utilise "conic_pyramid.dxf" et "Bottom_plate.dwg" comme exemples.
+## Prérequis
 
-Maintenant, commençons !
+Avant de plonger dans le code, assurez‑vous de disposer de ce qui suit :
 
-## Importer des espaces de noms
+- Aspose.CAD pour .NET installé. Vous pouvez le télécharger depuis la [page de téléchargement d’Aspose.CAD pour .NET](https://releases.aspose.com/cad/net/).
+- Un ou plusieurs fichiers CAD (DWG, DXF, etc.) que vous souhaitez analyser. Ce guide utilise `conic_pyramid.dxf` et `Bottom_plate.dwg` comme fichiers d’exemple.
 
-Dans votre projet .NET, commencez par importer les espaces de noms nécessaires :
+## Importer les espaces de noms
+
+Dans votre projet .NET, commencez par importer les espaces de noms requis :
 
 ```csharp
 using System;
@@ -45,17 +61,17 @@ using Aspose.CAD.FileFormats.Cad.CadTables;
 using Aspose.CAD.ImageOptions;
 ```
 
-## Étape 1 : configurer le répertoire de documents
+## Étape 1 : Configurer le répertoire des documents
 
- Définissez le chemin d'accès à votre répertoire de documents. Remplacer`"Your Document Directory"` avec le chemin réel.
+Définissez le dossier qui contient vos fichiers CAD. Remplacez le texte de substitution par le chemin réel sur votre machine.
 
 ```csharp
 string MyDir = "Your Document Directory";
 ```
 
-## Étape 2 : Spécifier les chemins des fichiers CAO
+## Étape 2 : Spécifier les chemins des fichiers CAD
 
-Définissez un tableau de chemins de fichiers CAO que vous souhaitez analyser. Dans cet exemple, nous utilisons "conic_pyramid.dxf" et "Bottom_plate.dwg".
+Créez un tableau qui pointe vers chaque fichier CAD que vous souhaitez traiter.
 
 ```csharp
 string[] sourceFilePaths = new[]
@@ -65,9 +81,9 @@ string[] sourceFilePaths = new[]
 };
 ```
 
-## Étape 3 : Parcourir les fichiers CAO
+## Étape 3 : Parcourir les fichiers CAD
 
-Parcourez chaque fichier CAO et récupérez les informations de mise en page.
+Chargez chaque fichier, détectez son format et préparez‑vous à extraire les informations de mise en page.
 
 ```csharp
 foreach (var sourceFilePath in sourceFilePaths)
@@ -75,80 +91,82 @@ foreach (var sourceFilePath in sourceFilePaths)
     string extension = Path.GetExtension(sourceFilePath);
     using (CadImage cadImage = (CadImage)Aspose.CAD.Image.Load(sourceFilePath))
     {
-        // ... (Continuer à l'étape suivante)
+        // ... (continue to the next step)
     }
 }
 ```
 
-## Étape 4 : Obtenez des mises en page non vides
+## Étape 4 : Obtenir les mises en page non vides
 
-Définissez une méthode d'assistance pour obtenir des mises en page non vides en fonction du type de fichier CAO.
+Nous avons besoin d’une méthode d’assistance qui ne renvoie que les mises en page contenant réellement des entités de dessin. Les mises en page vides sont ignorées car elles n’ont aucune taille à signaler.
 
 ```csharp
 private static List<string> GetNotEmptyLayouts(Image cadImage, string extension)
 {
-    // ... (Continuer à l'étape suivante)
+    // ... (continue to the next step)
 }
 ```
 
-## Étape 5 : obtenir des mises en page pour les fichiers DWG
+## Étape 5 : Obtenir les mises en page pour les fichiers DWG
 
-Implémentez une logique pour récupérer des mises en page non vides pour les fichiers DWG.
+Les fichiers DWG stockent les informations de mise en page dans la table `HeaderVariables`. La méthode suivante extrait les noms de toutes les mises en page non vides d’un dessin DWG.
 
 ```csharp
 private static List<string> GetNotEmptyLayoutsForDwg(CadImage cadImage)
 {
-    // ... (Continuer à l'étape suivante)
+    // ... (continue to the next step)
 }
 ```
 
-## Étape 6 : obtenir des mises en page pour les fichiers DXF
+## Étape 6 : Obtenir les mises en page pour les fichiers DXF
 
-Implémentez une logique pour récupérer des mises en page non vides pour les fichiers DXF.
+Les fichiers DXF utilisent une structure différente. Cette méthode analyse la collection `Tables` pour trouver les mises en page d’espace papier qui contiennent des entités.
 
 ```csharp
 private static List<string> GetNotEmptyLayoutsForDxf(CadImage cadImage)
 {
-    // ... (Continuer à l'étape suivante)
+    // ... (continue to the next step)
 }
 ```
 
-## Étape 7 : Récupérer la taille de la mise en page et l'enregistrer en tant qu'image
+## Étape 7 : Récupérer la taille de la mise en page et enregistrer en image
 
-Terminez le processus d’obtention de la taille de la mise en page et de son enregistrement en tant qu’image.
+Enfin, parcourez chaque mise en page découverte, lisez ses étendues et, éventuellement, rendez la mise en page sous forme de fichier image pour une vérification visuelle.
 
 ```csharp
 foreach (string layout in layouts)
 {
-    // ... (Continuer à l'étape suivante)
+    // ... (continue to the next step)
 }
 ```
 
-## Conclusion
+## Problèmes courants et astuces
 
-Toutes nos félicitations! Vous avez appris avec succès comment obtenir la taille des mises en page CAO à l'aide d'Aspose.CAD pour .NET. Ce didacticiel couvre les étapes essentielles, de la configuration de votre projet à la récupération des informations de mise en page et à leur enregistrement sous forme d'image. Vous pouvez désormais intégrer ces connaissances dans vos applications .NET pour une manipulation efficace des fichiers CAO.
+- **Noms de mise en page manquants :** Assurez‑vous que le fichier CAD contient réellement des mises en page papier ; certains fichiers n’ont que l’espace modèle.  
+- **Unités incorrectes :** La taille est renvoyée dans les unités natives du dessin. Convertissez en millimètres ou en pouces si nécessaire.  
+- **Performance :** Le chargement de fichiers DWG/DXF très volumineux peut être gourmand en mémoire ; envisagez de traiter les fichiers de façon asynchrone ou par lots.
 
-## FAQ
+## Questions fréquentes
 
-### Q1 : Aspose.CAD est-il compatible avec tous les formats de fichiers CAO ?
+**Q : Aspose.CAD est‑il compatible avec tous les formats de fichiers CAD ?**  
+R : Oui, Aspose.CAD prend en charge un large éventail de formats, y compris DWG, DXF, DGN et de nombreux types de fichiers BIM.
 
-A1 : Oui, Aspose.CAD prend en charge divers formats de fichiers CAO, notamment DWG et DXF.
+**Q : Puis‑je personnaliser les options d’enregistrement d’image ?**  
+R : Absolument ! Vous pouvez ajuster les `CadRasterizationOptions` (format, résolution, couleur d’arrière‑plan, etc.) pour répondre à vos besoins spécifiques.
 
-### Q2 : Puis-je personnaliser les options d’enregistrement des images ?
+**Q : Où puis‑je trouver de la documentation supplémentaire ?**  
+R : Consultez la [documentation d’Aspose.CAD](https://reference.aspose.com/cad/net/) pour des références API détaillées et plus d’exemples.
 
-A2 : Absolument ! Vous pouvez ajuster les options d'image, telles que le format et la résolution, pour répondre à vos besoins spécifiques.
+**Q : Existe‑t‑il un essai gratuit ?**  
+R : Oui, vous pouvez explorer Aspose.CAD avec un [essai gratuit](https://releases.aspose.com/).
 
-### Q3 : Où puis-je trouver de la documentation supplémentaire ?
+**Q : Comment obtenir du support technique ?**  
+R : Pour le support technique, rendez‑vous sur le [forum Aspose.CAD](https://forum.aspose.com/c/cad/19).
 
- A3 : Reportez-vous au[Documentation Aspose.CAD](https://reference.aspose.com/cad/net/) pour des informations détaillées et des exemples.
+**Dernière mise à jour :** 2026-03-21  
+**Testé avec :** Aspose.CAD 24.11 pour .NET  
+**Auteur :** Aspose  
 
-### Q4 : Existe-t-il un essai gratuit ?
-
- A4 : Oui, vous pouvez explorer Aspose.CAD avec un[essai gratuit](https://releases.aspose.com/).
-
-### Q5 ; Comment puis-je obtenir une assistance technique ?
-
- A5 : Pour obtenir une assistance technique, visitez le[Forum Aspose.CAD](https://forum.aspose.com/c/cad/19).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

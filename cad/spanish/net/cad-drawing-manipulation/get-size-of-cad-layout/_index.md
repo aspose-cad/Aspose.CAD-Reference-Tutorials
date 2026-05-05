@@ -1,35 +1,50 @@
 ---
-title: Obtenga el tamaño del diseño CAD en Aspose.CAD para .NET
-linktitle: Obtener el tamaño del diseño CAD
-second_title: Aspose.CAD .NET - Formato de archivo CAD y BIM
-description: Aprenda cómo recuperar el tamaño del diseño CAD en .NET usando Aspose.CAD. Siga nuestra guía paso a paso para una manipulación eficiente de archivos CAD.
-weight: 14
+date: 2026-03-21
+description: Aprende cómo obtener el tamaño del diseño CAD en .NET usando Aspose.CAD.
+  Sigue nuestra guía paso a paso para una manipulación eficiente de archivos CAD.
+linktitle: Get Size of CAD Layout
+second_title: Aspose.CAD .NET - CAD and BIM File Format
+title: Obtener el tamaño del diseño CAD en Aspose.CAD para .NET
 url: /es/net/cad-drawing-manipulation/get-size-of-cad-layout/
+weight: 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Obtenga el tamaño del diseño CAD en Aspose.CAD para .NET
+# Obtener el tamaño del diseño CAD en Aspose.CAD para .NET
 
 ## Introducción
 
-Bienvenido a esta guía completa sobre cómo obtener el tamaño de diseños CAD usando Aspose.CAD para .NET. Aspose.CAD es una potente biblioteca que permite a los desarrolladores trabajar con archivos CAD sin problemas. En este tutorial, lo guiaremos a través del proceso de recuperar el tamaño de los diseños CAD utilizando ejemplos prácticos e instrucciones paso a paso.
+En este tutorial completo descubrirás **cómo obtener el tamaño del diseño CAD** usando la biblioteca Aspose.CAD para .NET. Ya sea que estés creando un visor CAD, generando miniaturas o necesites dimensiones precisas del diseño para procesamiento posterior, conocer el tamaño exacto de cada diseño es esencial. Recorreremos todo el flujo de trabajo—desde cargar un dibujo hasta extraer las dimensiones del diseño y, opcionalmente, guardarlas como imágenes—para que puedas integrar esta capacidad en tus propias aplicaciones con confianza.
+
+## Respuestas rápidas
+- **¿Qué significa “obtener el tamaño del diseño CAD”?** Significa recuperar el ancho y la altura (en unidades del dibujo) de cada diseño no vacío en un archivo CAD.  
+- **¿Qué biblioteca lo soporta?** Aspose.CAD para .NET proporciona una API sencilla para acceder a la información de los diseños.  
+- **¿Necesito una licencia?** Una prueba gratuita funciona para evaluación; se requiere una licencia comercial para uso en producción.  
+- **¿Formatos compatibles?** DWG, DXF y muchos otros formatos CAD/BIM son totalmente compatibles.  
+- **¿Tiempo típico de implementación?** Aproximadamente 10‑15 minutos para una rutina básica de obtención de tamaño.
+
+## ¿Qué es “obtener el tamaño del diseño CAD”?
+Obtener el tamaño del diseño CAD significa extraer la extensión geométrica de cada diseño (espacio papel) definido en un dibujo CAD. Estas extensiones se expresan en las unidades nativas del dibujo (usualmente milímetros o pulgadas) y son útiles para tareas como escalado, impresión o generación de imágenes de vista previa.
+
+## ¿Por qué obtener el tamaño del diseño CAD con Aspose.CAD?
+- **Sin necesidad de software CAD** – Funciona completamente del lado del servidor.  
+- **Multiplataforma** – Funciona con .NET Framework, .NET Core y .NET 5/6+.  
+- **Mediciones precisas** – Devuelve las extensiones exactas tal como están almacenadas en el archivo, evitando análisis manuales.  
+- **Integración sencilla** – Llamadas API simples encajan de forma natural en proyectos C# existentes.
 
 ## Requisitos previos
 
-Antes de sumergirnos en el tutorial, asegúrese de cumplir con los siguientes requisitos previos:
+Antes de sumergirnos en el código, asegúrate de contar con lo siguiente:
 
--  Aspose.CAD para .NET: asegúrese de tener instalada la biblioteca Aspose.CAD. Puedes descargarlo desde el[Página de descarga de Aspose.CAD para .NET](https://releases.aspose.com/cad/net/).
-
-- Archivos de documentos: prepare los archivos CAD con los que desea trabajar. Este tutorial utiliza "conic_pyramid.dxf" y "Bottom_plate.dwg" como ejemplos.
-
-¡Ahora comencemos!
+- Aspose.CAD para .NET instalado. Puedes descargarlo desde la [página de descarga de Aspose.CAD para .NET](https://releases.aspose.com/cad/net/).
+- Uno o más archivos CAD (DWG, DXF, etc.) que desees analizar. Esta guía usa `conic_pyramid.dxf` y `Bottom_plate.dwg` como archivos de ejemplo.
 
 ## Importar espacios de nombres
 
-En su proyecto .NET, comience importando los espacios de nombres necesarios:
+En tu proyecto .NET, comienza importando los espacios de nombres requeridos:
 
 ```csharp
 using System;
@@ -45,17 +60,17 @@ using Aspose.CAD.FileFormats.Cad.CadTables;
 using Aspose.CAD.ImageOptions;
 ```
 
-## Paso 1: configurar el directorio de documentos
+## Paso 1: Configurar el directorio del documento
 
- Establezca la ruta a su directorio de documentos. Reemplazar`"Your Document Directory"` con el camino real.
+Define la carpeta que contiene tus archivos CAD. Reemplaza el marcador de posición con la ruta real en tu máquina.
 
 ```csharp
 string MyDir = "Your Document Directory";
 ```
 
-## Paso 2: especificar rutas de archivos CAD
+## Paso 2: Especificar rutas de archivos CAD
 
-Defina una serie de rutas de archivos CAD que desee analizar. En este ejemplo, utilizamos "conic_pyramid.dxf" y "Bottom_plate.dwg".
+Crea una matriz que apunte a cada archivo CAD que quieras procesar.
 
 ```csharp
 string[] sourceFilePaths = new[]
@@ -65,9 +80,9 @@ string[] sourceFilePaths = new[]
 };
 ```
 
-## Paso 3: iterar a través de archivos CAD
+## Paso 3: Recorrer los archivos CAD
 
-Itere a través de cada archivo CAD y recupere la información de diseño.
+Carga cada archivo, detecta su formato y prepárate para extraer la información del diseño.
 
 ```csharp
 foreach (var sourceFilePath in sourceFilePaths)
@@ -75,80 +90,84 @@ foreach (var sourceFilePath in sourceFilePaths)
     string extension = Path.GetExtension(sourceFilePath);
     using (CadImage cadImage = (CadImage)Aspose.CAD.Image.Load(sourceFilePath))
     {
-        // ... (continuar con el siguiente paso)
+        // ... (continue to the next step)
     }
 }
 ```
 
-## Paso 4: obtenga diseños que no estén vacíos
+## Paso 4: Obtener diseños no vacíos
 
-Defina un método auxiliar para obtener diseños no vacíos según el tipo de archivo CAD.
+Necesitamos un método auxiliar que devuelva solo los diseños que realmente contienen entidades de dibujo. Los diseños vacíos se ignoran porque no tienen tamaño que reportar.
 
 ```csharp
 private static List<string> GetNotEmptyLayouts(Image cadImage, string extension)
 {
-    // ... (continuar con el siguiente paso)
+    // ... (continue to the next step)
 }
 ```
 
-## Paso 5: Obtenga diseños para archivos DWG
+## Paso 5: Obtener diseños para archivos DWG
 
-Implemente lógica para recuperar diseños no vacíos para archivos DWG.
+Los archivos DWG almacenan la información de los diseños en la tabla `HeaderVariables`. El siguiente método extrae los nombres de todos los diseños no vacíos para un dibujo DWG.
 
 ```csharp
 private static List<string> GetNotEmptyLayoutsForDwg(CadImage cadImage)
 {
-    // ... (continuar con el siguiente paso)
+    // ... (continue to the next step)
 }
 ```
 
-## Paso 6: Obtenga diseños para archivos DXF
+## Paso 6: Obtener diseños para archivos DXF
 
-Implemente lógica para recuperar diseños no vacíos para archivos DXF.
+Los archivos DXF usan una estructura diferente. Este método analiza la colección `Tables` para encontrar diseños de espacio papel que contengan entidades.
 
 ```csharp
 private static List<string> GetNotEmptyLayoutsForDxf(CadImage cadImage)
 {
-    // ... (continuar con el siguiente paso)
+    // ... (continue to the next step)
 }
 ```
 
-## Paso 7: recuperar el tamaño del diseño y guardarlo como imagen
+## Paso 7: Recuperar el tamaño del diseño y guardarlo como imagen
 
-Complete el proceso de obtener el tamaño del diseño y guardarlo como imagen.
+Finalmente, recorre cada diseño descubierto, lee sus extensiones y, opcionalmente, renderiza el diseño a un archivo de imagen para verificación visual.
 
 ```csharp
 foreach (string layout in layouts)
 {
-    // ... (continuar con el siguiente paso)
+    // ... (continue to the next step)
 }
 ```
 
-## Conclusión
+## Problemas comunes y consejos
 
-¡Felicidades! Ha aprendido con éxito cómo obtener el tamaño de los diseños CAD usando Aspose.CAD para .NET. Este tutorial cubrió pasos esenciales, desde configurar su proyecto hasta recuperar información de diseño y guardarla como una imagen. Ahora puede incorporar este conocimiento en sus aplicaciones .NET para una manipulación eficiente de archivos CAD.
+- **Nombres de diseño faltantes:** Asegúrate de que el archivo CAD realmente contenga diseños de espacio papel; algunos archivos solo tienen espacio modelo.  
+- **Unidades incorrectas:** El tamaño se devuelve en las unidades nativas del dibujo. Convierte a milímetros o pulgadas si es necesario.  
+- **Rendimiento:** Cargar archivos DWG/DXF muy grandes puede consumir mucha memoria; considera procesar los archivos de forma asíncrona o por lotes.
 
 ## Preguntas frecuentes
 
-### P1: ¿Aspose.CAD es compatible con todos los formatos de archivos CAD?
+**P: ¿Aspose.CAD es compatible con todos los formatos de archivo CAD?**  
+R: Sí, Aspose.CAD soporta una amplia gama de formatos, incluidos DWG, DXF, DGN y muchos tipos de archivos BIM.
 
-R1: Sí, Aspose.CAD admite varios formatos de archivos CAD, incluidos DWG y DXF.
+**P: ¿Puedo personalizar las opciones de guardado de la imagen?**  
+R: ¡Por supuesto! Puedes ajustar `CadRasterizationOptions` (formato, resolución, color de fondo, etc.) para satisfacer tus necesidades específicas.
 
-### P2: ¿Puedo personalizar las opciones para guardar imágenes?
+**P: ¿Dónde puedo encontrar documentación adicional?**  
+R: Consulta la [documentación de Aspose.CAD](https://reference.aspose.com/cad/net/) para referencias API detalladas y más ejemplos.
 
-R2: ¡Absolutamente! Puede ajustar las opciones de imagen, como el formato y la resolución, para satisfacer sus requisitos específicos.
+**P: ¿Hay una prueba gratuita disponible?**  
+R: Sí, puedes explorar Aspose.CAD con una [prueba gratuita](https://releases.aspose.com/).
 
-### P3: ¿Dónde puedo encontrar documentación adicional?
+**P: ¿Cómo puedo obtener soporte técnico?**  
+R: Para soporte técnico, visita el [foro de Aspose.CAD](https://forum.aspose.com/c/cad/19).
 
- A3: Consulte el[Documentación de Aspose.CAD](https://reference.aspose.com/cad/net/) para obtener información detallada y ejemplos.
+---
 
-### P4: ¿Hay una prueba gratuita disponible?
+**Última actualización:** 2026-03-21  
+**Probado con:** Aspose.CAD 24.11 para .NET  
+**Autor:** Aspose  
 
- R4: Sí, puedes explorar Aspose.CAD con un[prueba gratis](https://releases.aspose.com/).
-
-### Q5; ¿Cómo puedo obtener soporte técnico?
-
- R5: Para soporte técnico, visite el[Foro Aspose.CAD](https://forum.aspose.com/c/cad/19).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

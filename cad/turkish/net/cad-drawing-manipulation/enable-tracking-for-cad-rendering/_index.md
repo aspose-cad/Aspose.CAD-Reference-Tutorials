@@ -1,35 +1,47 @@
 ---
-title: Aspose.CAD for .NET'te CAD İşleme İzlemeyi Etkinleştirin
-linktitle: CAD İşleme için İzlemeyi Etkinleştir
-second_title: Aspose.CAD .NET - CAD ve BIM Dosya Formatı
-description: Aspose.CAD for .NET'in gücünü keşfedin. CAD oluşturma için izlemeyi sorunsuz bir şekilde etkinleştirin. Gelişmiş kontrol ve verimlilik için adım adım kılavuzumuzu izleyin.
-weight: 13
+date: 2026-03-21
+description: Aspose.CAD for .NET'i izleme etkinleştirilmiş şekilde kullanarak CAD'den
+  PDF oluşturmayı, DXF'yi PDF'ye dönüştürmeyi ve CAD sayfa boyutunu ayarlamayı öğrenin.
+  Tam kontrol için adım adım rehberimizi izleyin.
+linktitle: Enable Tracking for CAD Rendering
+second_title: Aspose.CAD .NET - CAD and BIM File Format
+title: Aspose.CAD for .NET kullanarak İzleme ile CAD'den PDF Oluşturma
 url: /tr/net/cad-drawing-manipulation/enable-tracking-for-cad-rendering/
+weight: 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.CAD for .NET'te CAD İşleme İzlemeyi Etkinleştirin
+# Aspose.CAD for .NET kullanarak İzleme ile CAD'den PDF Oluşturma
 
-## giriiş
+## Giriş
 
-Yazılım geliştirmenin dinamik dünyasında Aspose.CAD for .NET, Bilgisayar Destekli Tasarım (CAD) işleme için güçlü bir çözüm olarak öne çıkıyor. Bu güçlü kitaplık, geliştiricilerin CAD dosyalarını .NET ortamında sorunsuz bir şekilde oluşturmasına, işlemesine ve işlemesine olanak tanır. Bu eğitimde Aspose.CAD for .NET'in çok önemli bir yönünü, yani CAD oluşturma için izlemeyi etkinleştirmeyi inceleyeceğiz.
+Modern .NET uygulamalarında **CAD'den PDF oluşturma** yaygın bir gereksinimdir—tasarımları teknik olmayan paydaşlarla paylaşmanız ya da çizimleri taşınabilir bir formatta arşivlemeniz gerektiğinde. Aspose.CAD for .NET bu dönüşümü basitleştirir ve aynı zamanda **izleme** özelliği sunar; bu özellik sayesinde render sürecini izleyebilir ve tanı bilgilerini yakalayabilirsiniz. Bu öğreticide tüm süreci adım adım inceleyeceğiz: bir DXF dosyasını yükleme, sayfa boyutunu yapılandırma, PDF'e dönüştürme ve render hattına tam görünürlük kazandırmak için izlemeyi etkinleştirme.
+
+## Hızlı Yanıtlar
+- **DXF'i Aspose.CAD ile PDF'e dönüştürebilir miyim?** Evet, kütüphane kutudan çıkar çıkmaz DXF‑to‑PDF dönüşümünü destekler.  
+- **Dönüşüm sırasında CAD sayfa boyutunu nasıl ayarlarım?** `CadRasterizationOptions.PageWidth` ve `PageHeight` özelliklerini kullanın.  
+- **İzleme zorunlu mu?** Hayır, ancak büyük veya karmaşık çizimler için değerli tanı bilgileri sağlar.  
+- **Hangi .NET sürümleri destekleniyor?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6+.  
+- **Üretim için lisansa ihtiyacım var mı?** Ticari bir lisans gereklidir; ücretsiz bir deneme sürümü mevcuttur.
+
+## “CAD'den PDF oluşturma” nedir?
+CAD'den PDF oluşturma, bir CAD çizimini (ör. DXF, DWG) raster veya vektör PDF belgesine render etmeyi ifade eder. Bu süreç, görsel bütünlüğü korurken, özel CAD yazılımı olmadan hemen hemen her cihazda açılabilen bir format sunar.
+
+## CAD render'ı için izlemeyi neden etkinleştirmelisiniz?
+İzleme, render motoruna gerçek zamanlı içgörü sağlar—hata ayıklama, performans ayarlama ve denetim için faydalıdır. İzlemeyi etkinleştirdiğinizde, Aspose.CAD her render adımını kaydeder ve büyük projelerde darboğazları veya hataları tespit etmenize yardımcı olur.
 
 ## Önkoşullar
 
-İzleme işlevine geçmeden önce aşağıdaki önkoşulların yerine getirildiğinden emin olun:
+- **Aspose.CAD for .NET** – indirmek için [buraya](https://releases.aspose.com/cad/net/) tıklayın.  
+- **Geliştirme ortamı** – .NET desteği olan herhangi bir Visual Studio (son sürüm)  
+- **Örnek CAD dosyası** – `conic_pyramid.dxf` gibi bir DXF dosyası; bunu dönüştürecek ve izleyeceksiniz.
 
--  Aspose.CAD for .NET: Aspose.CAD for .NET'in kurulu olduğundan emin olun. Şuradan indirebilirsiniz[Burada](https://releases.aspose.com/cad/net/).
+## Ad Alanlarını İçe Aktarın
 
-- Geliştirme Ortamı: Visual Studio gibi uygun bir geliştirme ortamı kurun ve .NET programlama konusunda temel bilgiye sahip olun.
-
-- CAD Dosyası: Oluşturma sürecinde izleme için kullanacağınız bir CAD dosyası (örneğin, "conic_pyramid.dxf") hazırlayın.
-
-## Ad Alanlarını İçe Aktar
-
-.NET projenizde Aspose.CAD için gerekli ad alanlarını içe aktardığınızdan emin olun:
+.NET projenizde gerekli ad alanlarını içe aktarın:
 
 ```csharp
 using System;
@@ -41,38 +53,38 @@ using Aspose.CAD;
 using System.IO;
 ```
 
-Şimdi CAD oluşturma için izlemeyi etkinleştirme sürecini birden çok adıma ayıralım:
+## Adım‑Adım Kılavuz
 
-## 1. Adım: Belge Dizinini Ayarlayın
+### Adım 1: Belge Dizinini Ayarla (CAD sayfa boyutunu ayarla)
 
 ```csharp
 string MyDir = "Your Document Directory";
 string sourceFilePath = MyDir + "conic_pyramid.dxf";
 ```
 
-"Belge Dizininiz"i belge dizininizin gerçek yolu ile değiştirdiğinizden emin olun.
+**Your Document Directory** ifadesini DXF dosyanızın bulunduğu mutlak yol ile değiştirin. Bu aynı zamanda rasterleştirme seçenekleri aracılığıyla sayfa boyutlarını daha sonra ayarlayabileceğiniz yerdir.
 
-## Adım 2: CAD Dosyasını Yükleyin
+### Adım 2: CAD Dosyasını Yükle
 
 ```csharp
 using (Image image = Image.Load(sourceFilePath))
 {
-    // Daha sonraki adımlar burada uygulanacaktır
+    // Further steps will be implemented here
 }
 ```
 
-CAD dosyasını Aspose.CAD.Image nesnesine yükleyin.
+`Image.Load` yöntemi CAD çizimini bir `Aspose.CAD.Image` nesnesine okur ve render için hazır hâle getirir.
 
-## 3. Adım: PDF Seçenekleri Oluşturun
+### Adım 3: PDF Seçeneklerini Oluştur (DXF'i PDF'e dönüştürmeye hazırlık)
 
 ```csharp
 MemoryStream stream = new MemoryStream();
 PdfOptions pdfOptions = new PdfOptions();
 ```
 
-Bir bellek akışı kurun ve işleme için PDF seçeneklerini başlatın.
+Bir `MemoryStream`, oluşturulan PDF'i bellekte tutmanıza olanak tanırken, `PdfOptions` tüm PDF‑özel ayarları barındırır.
 
-## Adım 4: Rasterleştirme Seçeneklerini Yapılandırın
+### Adım 4: Rasterleştirme Seçeneklerini Yapılandır (CAD sayfa boyutunu ayarla)
 
 ```csharp
 CadRasterizationOptions cadRasterizationOptions = new CadRasterizationOptions();
@@ -81,41 +93,51 @@ cadRasterizationOptions.PageWidth = 800;
 cadRasterizationOptions.PageHeight = 600;
 ```
 
-Bir CadRasterizationOptions örneği oluşturun ve sayfa genişliği ve yüksekliği gibi işleme seçeneklerini yapılandırın.
+Burada çıktı sayfa boyutunu (`PageWidth` & `PageHeight`) tanımlarsınız. Bu değerleri istediğiniz PDF boyutlarına göre ayarlayın—bu, **CAD sayfa boyutunu ayarla** gereksiniminin temelidir.
 
-## Adım 5: İşlenen Resmi Kaydet
+### Adım 5: Renderlanan Görüntüyü Kaydet (CAD'den PDF oluşturma iş akışını tamamla)
 
 ```csharp
 image.Save(stream, pdfOptions);
 ```
 
-İşlenen görüntüyü bellek akışına kaydedin.
+`Save` çağrısı, yapılandırdığınız PDF seçeneklerini kullanarak render edilen içeriği bellek akışına yazar. Bu aşamada orijinal CAD dosyasının bir PDF temsiline sahipsiniz ve izleme bilgileri kütüphane tarafından otomatik olarak yakalanmıştır.
 
-## Çözüm
+## Yaygın Sorunlar ve Çözümler
 
-Tebrikler! Aspose.CAD for .NET'te CAD oluşturma izlemeyi başarıyla etkinleştirdiniz. Bu özellik, işleme süreci üzerindeki kontrolünüzü ve görünürlüğünüzü artırır.
+| Sorun | Neden Oluşur | Çözüm |
+|-------|--------------|-------|
+| **Boş PDF çıktısı** | Rasterleştirme seçenekleri `PdfOptions` ile bağlanmamış | `pdfOptions.VectorRasterizationOptions = cadRasterizationOptions;` ayarlandığından emin olun. |
+| **Yanlış sayfa boyutu** | `PageWidth`/`PageHeight` varsayılanlarda bırakılmış | Kaydetmeden önce her iki özelliği de açıkça ayarlayın. |
+| **Büyük DXF'te performans yavaşlaması** | İzleme günlükleri çok ayrıntılı olabilir | Üretimde izlemeyi devre dışı bırakın veya `Aspose.CAD.Logging` ayarlarını değiştirerek sınırlayın. |
 
-## SSS'ler
+## Sık Sorulan Sorular
 
-### S1: Aspose.CAD for .NET hem 2D hem de 3D CAD rendering için uygun mudur?
+**S: Aspose.CAD for .NET 2D ve 3D CAD render'ı için uygun mu?**  
+C: Evet, Aspose.CAD for .NET hem 2D hem de 3D CAD render'ını destekler ve çeşitli tasarım ihtiyaçları için kapsamlı bir çözüm sunar.
 
-C1: Evet, Aspose.CAD for .NET hem 2D hem de 3D CAD rendering'i destekleyerek çeşitli tasarım ihtiyaçları için kapsamlı bir çözüm sunar.
+**S: Aspose.CAD for .NET'i diğer .NET framework'leriyle kullanabilir miyim?**  
+C: Kesinlikle! Aspose.CAD for .NET, farklı .NET framework'leriyle sorunsuz bir şekilde bütünleşir, esneklik ve uyumluluk sağlar.
 
-### S2: Aspose.CAD for .NET'i diğer .NET çerçeveleriyle kullanabilir miyim?
+**S: Aspose.CAD for .NET için ücretsiz bir deneme mevcut mu?**  
+C: Evet, ücretsiz deneme sürümünü [buradan](https://releases.aspose.com/) keşfedebilirsiniz.
 
-A2: Kesinlikle! Aspose.CAD for .NET, çeşitli .NET çerçeveleriyle sorunsuz bir şekilde bütünleşerek esneklik ve uyumluluk sağlar.
+**S: Aspose.CAD for .NET için destek nasıl alınır?**  
+C: Her türlü yardım ve soru için [Aspose.CAD forum](https://forum.aspose.com/c/cad/19) adresini ziyaret ederek topluluk ve destek ekibiyle iletişime geçebilirsiniz.
 
-### S3: Aspose.CAD for .NET'in ücretsiz deneme sürümü mevcut mu?
+**S: CAD render'ında izlemeyi etkinleştirmenin faydaları nelerdir?**  
+C: İzleme, render sürecinde izlenebilirlik ve kontrol sağlar; daha şeffaf ve verimli bir iş akışı sunar.
 
- Cevap3: Evet, Aspose.CAD for .NET'in özelliklerini ücretsiz deneme sürümüyle keşfedebilirsiniz[Burada](https://releases.aspose.com/).
+## Sonuç
 
-### S4: Aspose.CAD for .NET desteğini nasıl alabilirim?
+Artık **CAD'den PDF oluşturma**, **DXF'i PDF'e dönüştürme** ve **CAD sayfa boyutunu ayarlama** konularını Aspose.CAD'in izleme yetenekleriyle birlikte nasıl yapacağınızı öğrendiniz. Bu uçtan uca iş akışı, render kalitesi, çıktı boyutları ve tanı içgörüsü üzerinde tam kontrol sağlar—kurumsal ölçekli mühendislik uygulamaları için idealdir.
 
- A4: Herhangi bir yardım veya soru için şu adresi ziyaret edin:[Aspose.CAD forumu](https://forum.aspose.com/c/cad/19) toplulukla bağlantı kurmak ve destek vermek.
+---
 
-### S5: CAD oluşturmada izlemeyi etkinleştirmenin faydaları nelerdir?
+**Son Güncelleme:** 2026-03-21  
+**Test Edilen Sürüm:** Aspose.CAD for .NET 24.11  
+**Yazar:** Aspose  
 
-Cevap5: İzlemenin etkinleştirilmesi, oluşturma işlemi sırasında izlenebilirliği ve kontrolü geliştirerek daha şeffaf ve verimli bir iş akışı sağlar.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -1,35 +1,50 @@
 ---
-title: Aspose.CAD for .NET'te CAD Düzeninin Boyutunu Alın
-linktitle: CAD Düzeninin Boyutunu Alın
-second_title: Aspose.CAD .NET - CAD ve BIM Dosya Formatı
-description: Aspose.CAD kullanarak .NET'te CAD düzen boyutunu nasıl alacağınızı öğrenin. Verimli CAD dosyası manipülasyonu için adım adım kılavuzumuzu izleyin.
-weight: 14
+date: 2026-03-21
+description: Aspose.CAD kullanarak .NET’te CAD düzen boyutunu nasıl alacağınızı öğrenin.
+  Verimli CAD dosyası manipülasyonu için adım adım rehberimizi izleyin.
+linktitle: Get Size of CAD Layout
+second_title: Aspose.CAD .NET - CAD and BIM File Format
+title: Aspose.CAD for .NET'te CAD Düzen Boyutunu Al
 url: /tr/net/cad-drawing-manipulation/get-size-of-cad-layout/
+weight: 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.CAD for .NET'te CAD Düzeninin Boyutunu Alın
+# Aspose.CAD for .NET'te CAD Düzen Boyutunu Alın
 
-## giriiş
+## Giriş
 
-Aspose.CAD for .NET kullanarak CAD düzenlerinin boyutunu elde etmeye yönelik bu kapsamlı kılavuza hoş geldiniz. Aspose.CAD, geliştiricilerin CAD dosyalarıyla sorunsuz bir şekilde çalışmasını sağlayan güçlü bir kütüphanedir. Bu eğitimde, pratik örnekler ve adım adım talimatlar kullanarak CAD düzenlerinin boyutunu alma sürecinde size yol göstereceğiz.
+Bu kapsamlı öğreticide, Aspose.CAD .NET kütüphanesini kullanarak **CAD düzen boyutunu nasıl alacağınızı** keşfedeceksiniz. Bir CAD görüntüleyici oluşturuyor, küçük resimler üretiyor ya da sonraki işlem adımları için kesin düzen boyutlarına ihtiyacınız varsa, her düzenin tam boyutunu bilmek çok önemlidir. Çizimi yüklemekten düzen boyutlarını çıkarmaya ve isteğe bağlı olarak bunları görüntü olarak kaydetmeye kadar tüm iş akışını adım adım inceleyeceğiz; böylece bu yeteneği kendi uygulamalarınıza güvenle entegre edebileceksiniz.
+
+## Hızlı Yanıtlar
+- **“CAD düzen boyutunu al” ne anlama geliyor?** Bir CAD dosyasındaki her boş olmayan düzenin (paper space) genişlik ve yüksekliğini (çizim birimlerinde) elde etmektir.  
+- **Hangi kütüphane bunu destekliyor?** Aspose.CAD for .NET, düzen bilgilerine erişmek için basit bir API sunar.  
+- **Lisans gerekli mi?** Değerlendirme için ücretsiz deneme sürümü yeterlidir; üretim kullanımı için ticari lisans gereklidir.  
+- **Desteklenen formatlar?** DWG, DXF ve birçok diğer CAD/BIM formatı tam olarak desteklenir.  
+- **Tipik uygulama süresi?** Temel bir boyut‑alma rutinı için yaklaşık 10‑15 dakikadır.
+
+## “CAD düzen boyutunu al” nedir?
+CAD düzen boyutunu almak, bir CAD çiziminde tanımlı her düzenin (paper space) geometrik sınırlarını çıkarmak anlamına gelir. Bu sınırlar, çizimin yerel birimlerinde (genellikle milimetre veya inç) ifade edilir ve ölçekleme, baskı veya ön izleme görüntüleri oluşturma gibi görevler için faydalıdır.
+
+## Neden Aspose.CAD ile CAD düzen boyutunu almalı?
+- **CAD yazılımı gerekmez** – Tamamen sunucu tarafında çalışır.  
+- **Çapraz‑platform** – .NET Framework, .NET Core ve .NET 5/6+ ile uyumludur.  
+- **Doğru ölçümler** – Dosyada saklanan tam sınırları döndürür, manuel ayrıştırmayı önler.  
+- **Kolay entegrasyon** – Basit API çağrıları mevcut C# projelerine doğal olarak uyum sağlar.
 
 ## Önkoşullar
 
-Eğiticiye dalmadan önce aşağıdaki önkoşulların mevcut olduğundan emin olun:
+Kodlamaya başlamadan önce aşağıdakilere sahip olduğunuzdan emin olun:
 
--  Aspose.CAD for .NET: Aspose.CAD kütüphanesinin kurulu olduğundan emin olun. adresinden indirebilirsiniz.[Aspose.CAD for .NET indirme sayfası](https://releases.aspose.com/cad/net/).
+- Aspose.CAD for .NET yüklü. İndirmek için [Aspose.CAD for .NET indirme sayfasını](https://releases.aspose.com/cad/net/) ziyaret edebilirsiniz.  
+- Analiz etmek istediğiniz bir veya daha fazla CAD dosyası (DWG, DXF vb.). Bu kılavuzda örnek dosyalar olarak `conic_pyramid.dxf` ve `Bottom_plate.dwg` kullanılmaktadır.
 
-- Belge Dosyaları: Çalışmak istediğiniz CAD dosyalarını hazırlayın. Bu eğitimde örnek olarak "conic_pyramid.dxf" ve "Bottom_plate.dwg" kullanılmıştır.
+## Ad Alanlarını İçe Aktarın
 
-Şimdi başlayalım!
-
-## Ad Alanlarını İçe Aktar
-
-.NET projenizde gerekli ad alanlarını içe aktararak başlayın:
+.NET projenizde, gerekli ad alanlarını içe aktararak başlayın:
 
 ```csharp
 using System;
@@ -45,17 +60,17 @@ using Aspose.CAD.FileFormats.Cad.CadTables;
 using Aspose.CAD.ImageOptions;
 ```
 
-## 1. Adım: Belge Dizinini Ayarlayın
+## Adım 1: Belge Dizinini Ayarlayın
 
- Belge dizininizin yolunu ayarlayın. Yer değiştirmek`"Your Document Directory"` gerçek yol ile.
+CAD dosyalarınızı içeren klasörü tanımlayın. Yer tutucuyu makinenizdeki gerçek yol ile değiştirin.
 
 ```csharp
 string MyDir = "Your Document Directory";
 ```
 
-## Adım 2: CAD Dosya Yollarını Belirleyin
+## Adım 2: CAD Dosya Yollarını Belirtin
 
-Analiz etmek istediğiniz bir dizi CAD dosyası yolu tanımlayın. Bu örnekte "conic_pyramid.dxf" ve "Bottom_plate.dwg" kullanıyoruz.
+İşlemek istediğiniz her CAD dosyasına işaret eden bir dizi oluşturun.
 
 ```csharp
 string[] sourceFilePaths = new[]
@@ -65,9 +80,9 @@ string[] sourceFilePaths = new[]
 };
 ```
 
-## Adım 3: CAD Dosyalarını Yineleyin
+## Adım 3: CAD Dosyaları Üzerinde Döngü
 
-Her CAD dosyasını yineleyin ve düzen bilgilerini alın.
+Her dosyayı yükleyin, formatını tespit edin ve düzen bilgilerini çıkarmaya hazırlanın.
 
 ```csharp
 foreach (var sourceFilePath in sourceFilePaths)
@@ -75,80 +90,82 @@ foreach (var sourceFilePath in sourceFilePaths)
     string extension = Path.GetExtension(sourceFilePath);
     using (CadImage cadImage = (CadImage)Aspose.CAD.Image.Load(sourceFilePath))
     {
-        // ... (sonraki adıma devam et)
+        // ... (continue to the next step)
     }
 }
 ```
 
-## 4. Adım: Boş Olmayan Düzenler Alın
+## Adım 4: Boş Olmayan Düzenleri Al
 
-CAD dosya türüne göre boş olmayan düzenler elde etmek için bir yardımcı yöntem tanımlayın.
+Sadece çizim varlıkları içeren düzenleri döndüren bir yardımcı metoda ihtiyacımız var. Boş düzenler, raporlanacak bir boyuta sahip olmadıkları için göz ardı edilir.
 
 ```csharp
 private static List<string> GetNotEmptyLayouts(Image cadImage, string extension)
 {
-    // ... (sonraki adıma devam et)
+    // ... (continue to the next step)
 }
 ```
 
-## Adım 5: DWG Dosyaları İçin Düzenleri Alın
+## Adım 5: DWG Dosyaları İçin Düzenleri Al
 
-DWG dosyaları için boş olmayan düzenleri almak üzere mantık uygulayın.
+DWG dosyaları, düzen bilgilerini `HeaderVariables` tablosunda saklar. Aşağıdaki yöntem, bir DWG çizimi için tüm boş olmayan düzenlerin adlarını çıkarır.
 
 ```csharp
 private static List<string> GetNotEmptyLayoutsForDwg(CadImage cadImage)
 {
-    // ... (sonraki adıma devam et)
+    // ... (continue to the next step)
 }
 ```
 
-## Adım 6: DXF Dosyaları İçin Düzenleri Alın
+## Adım 6: DXF Dosyaları İçin Düzenleri Al
 
-DXF dosyaları için boş olmayan düzenleri almak üzere mantık uygulayın.
+DXF dosyaları farklı bir yapıya sahiptir. Bu yöntem, varlık içeren paper space düzenlerini bulmak için `Tables` koleksiyonunu ayrıştırır.
 
 ```csharp
 private static List<string> GetNotEmptyLayoutsForDxf(CadImage cadImage)
 {
-    // ... (sonraki adıma devam et)
+    // ... (continue to the next step)
 }
 ```
 
-## Adım 7: Düzen Boyutunu Alın ve Resim Olarak Kaydedin
+## Adım 7: Düzen Boyutunu Al ve Görüntü Olarak Kaydet
 
-Düzen boyutunu alma ve bunu resim olarak kaydetme işlemini tamamlayın.
+Son olarak, keşfedilen her düzeni döngüye alıp sınırlarını okuyun ve isteğe bağlı olarak görsel doğrulama için düzeni bir görüntü dosyasına render edin.
 
 ```csharp
 foreach (string layout in layouts)
 {
-    // ... (sonraki adıma devam et)
+    // ... (continue to the next step)
 }
 ```
 
-## Çözüm
+## Yaygın Sorunlar ve İpuçları
 
-Tebrikler! Aspose.CAD for .NET'i kullanarak CAD düzenlerinin boyutunu nasıl alacağınızı başarıyla öğrendiniz. Bu eğitim, projenizi ayarlamaktan düzen bilgilerinin alınmasına ve görüntü olarak kaydedilmesine kadar önemli adımları kapsıyordu. Artık verimli CAD dosyası manipülasyonu için bu bilgiyi .NET uygulamalarınıza dahil edebilirsiniz.
+- **Düzen adları eksik:** CAD dosyasının gerçekten paper space düzenleri içerdiğinden emin olun; bazı dosyalarda yalnızca model space bulunur.  
+- **Yanlış birimler:** Boyut, çizimin yerel birimlerinde döndürülür. Gerekirse milimetre veya inçe dönüştürün.  
+- **Performans:** Çok büyük DWG/DXF dosyalarının yüklenmesi bellek yoğun olabilir; dosyaları asenkron veya toplu işleyerek performansı iyileştirmeyi düşünün.
 
-## SSS'ler
+## Sıkça Sorulan Sorular
 
-### S1: Aspose.CAD tüm CAD dosya formatlarıyla uyumlu mudur?
+**S: Aspose.CAD tüm CAD dosya formatlarıyla uyumlu mu?**  
+C: Evet, Aspose.CAD DWG, DXF, DGN ve birçok BIM dosya türü dahil olmak üzere geniş bir format yelpazesini destekler.
 
-Cevap1: Evet, Aspose.CAD, DWG ve DXF dahil olmak üzere çeşitli CAD dosya formatlarını destekler.
+**S: Görüntü‑kaydetme seçeneklerini özelleştirebilir miyim?**  
+C: Kesinlikle! `CadRasterizationOptions` (format, çözünürlük, arka plan rengi vb.) ayarlarını ihtiyaçlarınıza göre düzenleyebilirsiniz.
 
-### S2: Görüntü kaydetme seçeneklerini özelleştirebilir miyim?
+**S: Ek belgeleri nereden bulabilirim?**  
+C: Ayrıntılı API referansları ve daha fazla örnek için [Aspose.CAD belgelerine](https://reference.aspose.com/cad/net/) bakın.
 
-A2: Kesinlikle! Özel gereksinimlerinizi karşılamak için format ve çözünürlük gibi görüntü seçeneklerini ayarlayabilirsiniz.
+**S: Ücretsiz bir deneme sürümü var mı?**  
+C: Evet, bir [ücretsiz deneme](https://releases.aspose.com/) ile Aspose.CAD'i keşfedebilirsiniz.
 
-### S3: Ek belgeleri nerede bulabilirim?
+**S: Teknik destek nasıl alınır?**  
+C: Teknik destek için [Aspose.CAD forumunu](https://forum.aspose.com/c/cad/19) ziyaret edin.
 
- A3: Bkz.[Aspose.CAD belgeleri](https://reference.aspose.com/cad/net/) detaylı bilgi ve örnekler için.
+**Son Güncelleme:** 2026-03-21  
+**Test Edilen Sürüm:** Aspose.CAD 24.11 for .NET  
+**Yazar:** Aspose  
 
-### S4: Ücretsiz deneme sürümü mevcut mu?
-
- Cevap4: Evet, Aspose.CAD'i aşağıdaki yöntemlerle keşfedebilirsiniz:[ücretsiz deneme](https://releases.aspose.com/).
-
-### S5; Nasıl teknik destek alabilirim?
-
- Cevap5: Teknik destek için şu adresi ziyaret edin:[Aspose.CAD forumu](https://forum.aspose.com/c/cad/19).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

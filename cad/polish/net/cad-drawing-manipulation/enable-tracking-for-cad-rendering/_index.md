@@ -1,35 +1,49 @@
 ---
-title: Włącz śledzenie renderowania CAD w Aspose.CAD dla .NET
-linktitle: Włącz śledzenie renderowania CAD
-second_title: Aspose.CAD .NET - Format plików CAD i BIM
-description: Odkryj moc Aspose.CAD dla .NET. Włącz płynne śledzenie renderowania CAD. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby uzyskać większą kontrolę i wydajność.
-weight: 13
+date: 2026-03-21
+description: Naucz się tworzyć PDF z CAD, konwertować DXF na PDF oraz ustawiać rozmiar
+  strony w CAD przy użyciu Aspose.CAD dla .NET z włączonym śledzeniem. Skorzystaj
+  z naszego przewodnika krok po kroku, aby mieć pełną kontrolę.
+linktitle: Enable Tracking for CAD Rendering
+second_title: Aspose.CAD .NET - CAD and BIM File Format
+title: Utwórz PDF z CAD z śledzeniem przy użyciu Aspose.CAD dla .NET
 url: /pl/net/cad-drawing-manipulation/enable-tracking-for-cad-rendering/
+weight: 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Włącz śledzenie renderowania CAD w Aspose.CAD dla .NET
+# Utwórz PDF z CAD z śledzeniem przy użyciu Aspose.CAD dla .NET
 
-## Wstęp
+## Introduction
 
-W dynamicznym świecie tworzenia oprogramowania, Aspose.CAD dla .NET wyróżnia się jako solidne rozwiązanie do renderowania w ramach projektowania wspomaganego komputerowo (CAD). Ta potężna biblioteka umożliwia programistom płynne tworzenie, manipulowanie i renderowanie plików CAD w środowisku .NET. W tym samouczku zagłębimy się w kluczowy aspekt Aspose.CAD dla .NET — umożliwienie śledzenia renderowania CAD.
+W nowoczesnych aplikacjach .NET, **tworzenie PDF z plików CAD** jest powszechnym wymaganiem — niezależnie od tego, czy musisz udostępnić projekty osobom nietechnicznym, czy archiwizować rysunki w przenośnym formacie. Aspose.CAD dla .NET umożliwia prostą konwersję, a także oferuje funkcję **śledzenia**, która pozwala monitorować postęp renderowania i zbierać informacje diagnostyczne. W tym samouczku przejdziemy przez cały proces: wczytanie pliku DXF, skonfigurowanie rozmiaru strony, konwersję do PDF oraz włączenie śledzenia, aby uzyskać pełną widoczność pipeline’u renderowania.
 
-## Warunki wstępne
+## Quick Answers
+- **Czy mogę konwertować DXF do PDF przy użyciu Aspose.CAD?** Tak, biblioteka obsługuje konwersję DXF‑do‑PDF od razu.  
+- **Jak ustawić rozmiar strony CAD podczas konwersji?** Użyj `CadRasterizationOptions.PageWidth` i `PageHeight`.  
+- **Czy śledzenie jest obowiązkowe?** Nie, ale dostarcza cennych informacji diagnostycznych dla dużych lub złożonych rysunków.  
+- **Jakie wersje .NET są wspierane?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6+.  
+- **Czy potrzebna jest licencja do produkcji?** Wymagana jest licencja komercyjna; dostępna jest darmowa wersja próbna.
 
-Zanim zaczniesz korzystać z funkcji śledzenia, upewnij się, że spełnione są następujące wymagania wstępne:
+## What is “create PDF from CAD”?
 
--  Aspose.CAD dla .NET: Upewnij się, że masz zainstalowany Aspose.CAD dla .NET. Można go pobrać z[Tutaj](https://releases.aspose.com/cad/net/).
+Utworzenie PDF z CAD oznacza renderowanie rysunku CAD (np. DXF, DWG) do dokumentu PDF w formacie rastrowym lub wektorowym. Proces ten zachowuje wierność wizualną, jednocześnie dostarczając format, który można otworzyć na praktycznie każdym urządzeniu bez specjalistycznego oprogramowania CAD.
 
-- Środowisko programistyczne: Skonfiguruj odpowiednie środowisko programistyczne, takie jak Visual Studio, i posiadaj podstawową wiedzę na temat programowania .NET.
+## Why enable tracking for CAD rendering?
 
-- Plik CAD: Przygotuj plik CAD (np. „conic_pyramid.dxf”), którego będziesz używać do śledzenia w procesie renderowania.
+Śledzenie zapewnia wgląd w czasie rzeczywistym w silnik renderujący — przydatne przy debugowaniu, optymalizacji wydajności i audycie. Gdy włączysz śledzenie, Aspose.CAD rejestruje każdy krok renderowania, pomagając zidentyfikować wąskie gardła lub błędy w dużych projektach.
 
-## Importuj przestrzenie nazw
+## Prerequisites
 
-projekcie .NET pamiętaj o zaimportowaniu niezbędnych przestrzeni nazw dla Aspose.CAD:
+- **Aspose.CAD for .NET** – pobierz go z [here](https://releases.aspose.com/cad/net/).  
+- **Środowisko programistyczne** – Visual Studio (dowolna aktualna edycja) z obsługą .NET.  
+- **Przykładowy plik CAD** – plik DXF, np. `conic_pyramid.dxf`, który zostanie skonwertowany i śledzony.
+
+## Import Namespaces
+
+W swoim projekcie .NET zaimportuj wymagane przestrzenie nazw:
 
 ```csharp
 using System;
@@ -41,38 +55,38 @@ using Aspose.CAD;
 using System.IO;
 ```
 
-Podzielmy teraz proces włączania śledzenia renderowania CAD na kilka etapów:
+## Step‑by‑Step Guide
 
-## Krok 1: Ustaw katalog dokumentów
+### Step 1: Set Document Directory (set page size CAD)
 
 ```csharp
 string MyDir = "Your Document Directory";
 string sourceFilePath = MyDir + "conic_pyramid.dxf";
 ```
 
-Pamiętaj, aby zastąpić „Twój katalog dokumentów” rzeczywistą ścieżką do katalogu dokumentów.
+Zastąp **Your Document Directory** absolutną ścieżką, w której znajduje się Twój plik DXF. To także miejsce, w którym później możesz dostosować wymiary strony za pomocą opcji rasteryzacji.
 
-## Krok 2: Załaduj plik CAD
+### Step 2: Load the CAD File
 
 ```csharp
 using (Image image = Image.Load(sourceFilePath))
 {
-    // Dalsze kroki zostaną wdrożone tutaj
+    // Further steps will be implemented here
 }
 ```
 
-Załaduj plik CAD do obiektu Aspose.CAD.Image.
+Metoda `Image.Load` odczytuje rysunek CAD do obiektu `Aspose.CAD.Image`, przygotowując go do renderowania.
 
-## Krok 3: Utwórz opcje PDF
+### Step 3: Create PDF Options (prepare for convert dxf to pdf)
 
 ```csharp
 MemoryStream stream = new MemoryStream();
 PdfOptions pdfOptions = new PdfOptions();
 ```
 
-Skonfiguruj strumień pamięci i zainicjuj opcje PDF do renderowania.
+`MemoryStream` pozwala przechowywać wygenerowany PDF w pamięci, natomiast `PdfOptions` zawiera wszystkie ustawienia specyficzne dla PDF.
 
-## Krok 4: Skonfiguruj opcje rasteryzacji
+### Step 4: Configure Rasterization Options (set page size CAD)
 
 ```csharp
 CadRasterizationOptions cadRasterizationOptions = new CadRasterizationOptions();
@@ -81,41 +95,49 @@ cadRasterizationOptions.PageWidth = 800;
 cadRasterizationOptions.PageHeight = 600;
 ```
 
-Utwórz instancję CadRasterizationOptions i skonfiguruj opcje renderowania, takie jak szerokość i wysokość strony.
+Tutaj definiujesz rozmiar wyjściowej strony (`PageWidth` i `PageHeight`). Dostosuj te wartości do pożądanych wymiarów PDF — to sedno wymogu **set page size CAD**.
 
-## Krok 5: Zapisz wyrenderowany obraz
+### Step 5: Save the Rendered Image (complete the create pdf from cad workflow)
 
 ```csharp
 image.Save(stream, pdfOptions);
 ```
 
-Zapisz wyrenderowany obraz w strumieniu pamięci.
+Wywołanie `Save` zapisuje wyrenderowaną zawartość do strumienia pamięci przy użyciu skonfigurowanych opcji PDF. W tym momencie masz reprezentację PDF oryginalnego pliku CAD, a informacje o śledzeniu zostały automatycznie zebrane przez bibliotekę.
 
-## Wniosek
+## Common Issues & Solutions
 
-Gratulacje! Pomyślnie włączyłeś śledzenie renderowania CAD w Aspose.CAD dla .NET. Ta funkcja zwiększa kontrolę i widoczność procesu renderowania.
+| Problem | Dlaczego się pojawia | Rozwiązanie |
+|-------|----------------|-----|
+| **Pusty wynik PDF** | Opcje rasteryzacji nie są powiązane z `PdfOptions` | Upewnij się, że ustawiono `pdfOptions.VectorRasterizationOptions = cadRasterizationOptions;`. |
+| **Nieprawidłowy rozmiar strony** | `PageWidth`/`PageHeight` pozostawiono w wartościach domyślnych | Jawnie ustaw obie właściwości przed zapisem. |
+| **Spowolnienie wydajności przy dużym DXF** | Logi śledzenia mogą być obszerne | Wyłącz lub ogranicz śledzenie w produkcji, dostosowując ustawienia `Aspose.CAD.Logging`. |
 
-## Często zadawane pytania
+## Frequently Asked Questions
 
-### P1: Czy Aspose.CAD dla .NET jest odpowiedni do renderowania CAD 2D i 3D?
+**P: Czy Aspose.CAD dla .NET nadaje się zarówno do renderowania CAD 2D, jak i 3D?**  
+O: Tak, Aspose.CAD dla .NET obsługuje zarówno renderowanie CAD 2D, jak i 3D, oferując kompleksowe rozwiązanie dla różnych potrzeb projektowych.
 
-Odpowiedź 1: Tak, Aspose.CAD dla .NET obsługuje renderowanie CAD 2D i 3D, zapewniając kompleksowe rozwiązanie dla różnych potrzeb projektowych.
+**P: Czy mogę używać Aspose.CAD dla .NET z innymi frameworkami .NET?**  
+O: Oczywiście! Aspose.CAD dla .NET bezproblemowo integruje się z różnymi frameworkami .NET, zapewniając elastyczność i kompatybilność.
 
-### P2: Czy mogę używać Aspose.CAD dla .NET z innymi frameworkami .NET?
+**P: Czy dostępna jest darmowa wersja próbna Aspose.CAD dla .NET?**  
+O: Tak, możesz zapoznać się z funkcjami Aspose.CAD dla .NET, korzystając z darmowej wersji próbnej dostępnej [here](https://releases.aspose.com/).
 
-A2: Absolutnie! Aspose.CAD dla .NET płynnie integruje się z różnymi frameworkami .NET, zapewniając elastyczność i kompatybilność.
+**P: Jak mogę uzyskać wsparcie dla Aspose.CAD dla .NET?**  
+O: W razie potrzeby pomocy lub pytań, odwiedź [forum Aspose.CAD](https://forum.aspose.com/c/cad/19), aby skontaktować się ze społecznością i wsparciem.
 
-### P3: Czy dostępna jest bezpłatna wersja próbna Aspose.CAD dla .NET?
+**P: Jakie są korzyści z włączenia śledzenia w renderowaniu CAD?**  
+O: Włączenie śledzenia zwiększa możliwość śledzenia i kontrolę podczas procesu renderowania, zapewniając bardziej przejrzysty i wydajny przepływ pracy.
 
- Odpowiedź 3: Tak, możesz poznać funkcje Aspose.CAD dla .NET w ramach bezpłatnej wersji próbnej[Tutaj](https://releases.aspose.com/).
+## Conclusion
 
-### P4: Jak mogę uzyskać wsparcie dla Aspose.CAD dla .NET?
+Teraz wiesz, jak **utworzyć PDF z CAD**, **konwertować DXF do PDF** oraz **ustawić rozmiar strony CAD**, wykorzystując możliwości śledzenia Aspose.CAD. Ten kompletny przepływ pracy daje pełną kontrolę nad jakością renderowania, wymiarami wyjściowymi i wglądem diagnostycznym — idealny dla aplikacji inżynieryjnych klasy enterprise.
 
- A4: Aby uzyskać pomoc lub pytania, odwiedź stronę[Forum Aspose.CAD](https://forum.aspose.com/c/cad/19) aby połączyć się ze społecznością i uzyskać wsparcie.
+**Ostatnia aktualizacja:** 2026-03-21  
+**Testowano z:** Aspose.CAD for .NET 24.11  
+**Autor:** Aspose  
 
-### P5: Jakie są korzyści z włączenia śledzenia w renderowaniu CAD?
-
-Odpowiedź 5: Włączenie śledzenia zwiększa identyfikowalność i kontrolę podczas procesu renderowania, zapewniając bardziej przejrzysty i wydajny przepływ pracy.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

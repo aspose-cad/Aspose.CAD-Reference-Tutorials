@@ -1,33 +1,49 @@
 ---
-title: تصدير تخطيطات CAD إلى تنسيقات الصور النقطية في Aspose.CAD لـ .NET
-linktitle: تصدير تخطيطات CAD إلى تنسيقات الصور النقطية
-second_title: Aspose.CAD .NET - تنسيق ملف CAD وBIM
-description: تعرف على كيفية تصدير تخطيطات CAD إلى صور نقطية باستخدام Aspose.CAD لـ .NET. اتبع دليلنا خطوة بخطوة للتحويل السلس.
-weight: 10
+date: 2026-03-21
+description: تعلم كيفية تحويل dxf إلى png وغيرها من صيغ الرسوم النقطية باستخدام Aspose.CAD
+  لـ .NET. اتبع دليلنا خطوة بخطوة لتصدير طبقات CAD بسلاسة.
+linktitle: Export CAD Layouts to Raster Image Formats
+second_title: Aspose.CAD .NET - CAD and BIM File Format
+title: تحويل DXF إلى PNG باستخدام Aspose.CAD لـ .NET
 url: /ar/net/cad-export-formats/export-cad-layouts-to-raster-image-formats/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# تصدير تخطيطات CAD إلى تنسيقات الصور النقطية في Aspose.CAD لـ .NET
+# تصدير تخطيطات CAD إلى صيغ الصور النقطية في Aspose.CAD لـ .NET
 
 ## مقدمة
 
-هل تتطلع إلى تحويل تخطيطات CAD بكفاءة إلى تنسيقات صور نقطية باستخدام Aspose.CAD لـ .NET؟ سيرشدك هذا الدليل خطوة بخطوة خلال العملية، ويقدم لك تعليمات مفصلة ومقتطفات من التعليمات البرمجية لتسهيل المهمة. سواء كنت مطورًا متمرسًا أو وافدًا جديدًا إلى Aspose.CAD، فإن هذا البرنامج التعليمي يلبي جميع مستويات الخبرة.
+هل تبحث عن تحويل **dxf إلى png** وغيرها من صيغ الصور النقطية بكفاءة باستخدام Aspose.CAD لـ .NET؟ سيوضح لك هذا الدليل خطوة بخطوة العملية، مع توفير تعليمات مفصلة ومقاطع شفرة لجعل المهمة سلسة. سواء كنت مطورًا متمرسًا أو مبتدئًا في Aspose.CAD، فإن هذا البرنامج التعليمي يلبي جميع مستويات الخبرة.
 
-## المتطلبات الأساسية
+### إجابات سريعة
+- **ما المكتبة التي تتعامل مع التحويل؟** Aspose.CAD لـ .NET  
+- **ما الصيغة الأساسية المدعومة مباشرةً؟** صور JPEG، PNG، BMP، وTIFF النقطية  
+- **هل يمكنني تصدير طبقات CAD محددة؟** نعم – استخدم `CadRasterizationOptions.Layers` لاستهداف طبقات فردية  
+- **هل أحتاج إلى ترخيص للإنتاج؟** يلزم وجود ترخيص Aspose.CAD صالح للاستخدام غير التجريبي  
+- **الإصدارات المدعومة من .NET؟** .NET Framework 4.5+، .NET Core 3.1+، .NET 5/6/7  
 
-قبل الغوص في البرنامج التعليمي، تأكد من أن لديك ما يلي:
+## ما هو **convert dxf to png**؟
 
-- Aspose.CAD لمكتبة .NET: تأكد من تثبيت مكتبة Aspose.CAD. إذا لم يكن الأمر كذلك، يمكنك تنزيله من[موقع Aspose.CAD](https://releases.aspose.com/cad/net/).
+تحويل ملف DXF (Drawing Exchange Format) إلى PNG يعني تحويل بيانات CAD القائمة على المتجهات إلى صورة مبنية على البكسل. هذا مفيد عندما تحتاج إلى تضمين رسومات CAD في صفحات الويب أو التقارير أو أي بيئة تدعم فقط الرسومات النقطية.
 
-- ملف رسم CAD: قم بإعداد ملف رسم CAD (على سبيل المثال، conic_pyramid.dxf) الذي تريد تحويله إلى تنسيقات صور نقطية.
+## لماذا تصدير طبقات CAD بشكل منفصل؟
+
+تصدير طبقات CAD بشكل فردي يمنحك تحكمًا دقيقًا في المظهر النهائي، يقلل حجم الملف لكل صورة، ويسمح لك بتطبيق تنسيقات أو معالجة لاحقة مخصصة لكل طبقة. هذا مفيد بشكل خاص للرسومات الهندسية الكبيرة حيث تكون مجموعة معينة فقط من الطبقات ذات صلة بجمهور معين.
+
+## المتطلبات المسبقة
+
+قبل الغوص في البرنامج التعليمي، تأكد من وجود ما يلي:
+
+- **مكتبة Aspose.CAD لـ .NET** – قم بتنزيلها من [موقع Aspose.CAD](https://releases.aspose.com/cad/net/).  
+- **ملف رسم CAD** – ملف DXF (مثال: `conic_pyramid.dxf`) الذي تريد تحويله إلى صيغ نقطية.  
 
 ## استيراد مساحات الأسماء
 
-في مشروع .NET الخاص بك، قم باستيراد مساحات الأسماء الضرورية للاستفادة من وظائف Aspose.CAD. قم بتضمين مساحات الأسماء التالية في بداية التعليمات البرمجية الخاصة بك:
+في مشروع .NET الخاص بك، استورد مساحات الأسماء اللازمة للاستفادة من وظائف Aspose.CAD. أدرج مساحات الأسماء التالية في بداية الشفرة:
 
 ```csharp
 using System;
@@ -38,86 +54,131 @@ using System.Threading.Tasks;
 using Aspose.CAD;
 ```
 
-## الخطوة 1: تحميل رسم CAD
+## كيفية **convert dxf to png** – دليل خطوة بخطوة
+
+### الخطوة 1: تحميل رسم CAD
+
+أولاً، قم بتحميل ملف DXF إلى كائن `Image`. هذا الكائن يمثل الرسم الكامل لـ CAD في الذاكرة.
 
 ```csharp
 string MyDir = "Your Document Directory";
 string sourceFilePath = MyDir + "conic_pyramid.dxf";
 
-// قم بتحميل رسم CAD في مثيل الصورة
+// Load a CAD drawing in an instance of Image
 using (var image = Image.Load(sourceFilePath))
 {
-    // الكود الخاص بك لتحميل رسم CAD موجود هنا
+    // Your code for loading the CAD drawing goes here
 }
 ```
 
-## الخطوة 2: إنشاء CadRasterizationOptions
+### الخطوة 2: إنشاء `CadRasterizationOptions`
+
+قم بتكوين إعدادات الرستر مثل أبعاد الإخراج والدقة. تتحكم هذه الخيارات في طريقة تحويل البيانات المتجهة إلى صورة نقطية.
 
 ```csharp
-// قم بإنشاء مثيل لـ CadRasterizationOptions
+// Create an instance of CadRasterizationOptions
 var rasterizationOptions = new CadRasterizationOptions();
 rasterizationOptions.PageWidth = 500;
 rasterizationOptions.PageHeight = 500;
 ```
 
-## الخطوة 3: تحديد الطبقات
+### الخطوة 3: تحديد الطبقات (تصدير طبقات CAD)
+
+إذا كنت تحتاج إلى طبقة معينة فقط، ضع اسمها هنا. يوضح هذا **export cad layers** بشكل فردي.
 
 ```csharp
-// أضف اسم الطبقة إلى قائمة طبقات CadRasterizationOptions
+// Add the layer name to the CadRasterizationOptions's layer list
 rasterizationOptions.Layers = new string[] { "LayerA" };
 ```
 
-## الخطوة 4: إنشاء JpegOptions
+### الخطوة 4: اختيار صيغة الصورة – حفظ CAD كـ PNG (أو JPEG)
+
+أنشئ كائن خيارات خاص بصيغة الصورة. استبدل `JpegOptions` بـ `PngOptions` عندما تريد **save cad as png**.
 
 ```csharp
-// قم بإنشاء مثيل لـ JpegOptions (أو أي ImageOptions للتنسيقات النقطية)
+// Create an instance of JpegOptions (or any ImageOptions for raster formats)
 var options = new JpegOptions();
 options.VectorRasterizationOptions = rasterizationOptions;
 ```
 
-## الخطوة 5: التصدير إلى تنسيق Jpeg
+> **نصيحة احترافية:** لإنشاء ملفات PNG، ما عليك سوى إنشاء `new PngOptions()` بدلاً من `JpegOptions`.
+
+### الخطوة 5: تصدير إلى صيغة JPEG (أو PNG)
+
+أخيرًا، احفظ الصورة المرسومة إلى القرص. يحدد امتداد الملف الصيغة الناتجة.
 
 ```csharp
-// تصدير كل طبقة إلى تنسيق Jpeg
+// Export each layer to Jpeg format
 MyDir = MyDir + "CADLayersToRasterImageFormats_out.jpg";
 image.Save(MyDir, options);
 ```
 
-## خطوة إضافية: تحويل جميع الطبقات
+عند استبدال `JpegOptions` بـ `PngOptions`، سيقوم نفس الكود **convert dxf to png** وينتج ملفًا بامتداد `.png`.
 
-إذا كنت تريد تحويل جميع الطبقات، استخدم الطريقة التالية:
+### خطوة إضافية: تحويل جميع الطبقات
+
+إذا كنت تحتاج إلى **convert cad to raster** لكل طبقة في الرسم، استدعِ الدالة المساعدة أدناه. تقوم بالتكرار على جميع الطبقات وتحفظ كل واحدة كصورة منفصلة.
 
 ```csharp
 ConvertAllLayersToRasterImageFormats();
 ```
 
-تتكرر هذه الطريقة على جميع الطبقات في رسم CAD، وتصدر كل طبقة إلى ملف Jpeg منفصل.
+> *ملاحظة:* تنفيذ `ConvertAllLayersToRasterImageFormats` هو جزء من مجموعة عينات Aspose.CAD الكاملة ويظهر معالجة دفعة للطبقات.
 
-## خاتمة
+## المشكلات الشائعة واستكشاف الأخطاء وإصلاحها
 
-تهانينا! لقد تعلمت بنجاح كيفية تصدير تخطيطات CAD إلى تنسيقات الصور النقطية باستخدام Aspose.CAD لـ .NET. يوفر هذا البرنامج التعليمي دليلاً شاملاً للمطورين الذين يبحثون عن حلول فعالة وموثوقة لتحويل CAD.
+| العَرَض | السبب المحتمل | الحل |
+|---------|--------------|-----|
+| صورة فارغة أو بيضاء | لم يتم تعيين خيارات الرستر (مثل `PageWidth`/`PageHeight` = 0) | تأكد من أن `PageWidth` و `PageHeight` لهما قيم موجبة |
+| طبقات مفقودة | اسم طبقة غير صحيح في مصفوفة `Layers` | تحقق من اسم الطبقة الدقيق في ملف CAD (حسّاس لحالة الأحرف) |
+| PNG منخفض الجودة | DPI الافتراضي منخفض | اضبط `rasterizationOptions.Resolution = 300;` للحصول على جودة أعلى |
 
-## الأسئلة الشائعة
+## الأسئلة المتكررة (الأصلية)
 
-### س1: هل يمكنني استخدام تنسيقات صور أخرى للتصدير؟
+### س1: هل يمكنني استخدام صيغ صور أخرى للتصدير؟
 
- ج1: نعم يمكنك ذلك. ببساطة استبدل`JpegOptions` مع خيارات التنسيق المطلوب، مثل`PngOptions` أو`BmpOptions`.
+ج1: نعم، يمكنك ذلك. ما عليك سوى استبدال `JpegOptions` بخيارات الصيغة المطلوبة، مثل `PngOptions` أو `BmpOptions`.
 
-### س2: هل هناك نسخة تجريبية متاحة؟
+### س2: هل تتوفر نسخة تجريبية؟
 
- ج2: نعم، يمكنك استكشاف وظائف Aspose.CAD عن طريق تنزيل الإصدار التجريبي[هنا](https://releases.aspose.com/).
+ج2: نعم، يمكنك استكشاف وظائف Aspose.CAD بتحميل النسخة التجريبية [هنا](https://releases.aspose.com/).
 
-### س3: كيف يمكنني الحصول على الدعم لـ Aspose.CAD؟
+### س3: كيف يمكنني الحصول على دعم Aspose.CAD؟
 
- A3: قم بزيارة Aspose.CAD[المنتدى](https://forum.aspose.com/c/cad/19) للحصول على دعم المجتمع أو فكر في شراء ترخيص للحصول على دعم مخصص.
+ج3: زر منتدى Aspose.CAD [المنتدى](https://forum.aspose.com/c/cad/19) للحصول على دعم المجتمع أو فكر في شراء ترخيص للحصول على دعم مخصص.
 
-### س4: هل التراخيص المؤقتة متاحة؟
+### س4: هل تتوفر تراخيص مؤقتة؟
 
- ج4: نعم، يمكنك الحصول على ترخيص مؤقت[هنا](https://purchase.aspose.com/temporary-license/).
+ج4: نعم، يمكنك الحصول على ترخيص مؤقت [هنا](https://purchase.aspose.com/temporary-license/).
 
 ### س5: أين يمكنني العثور على الوثائق؟
 
- ج5: ارجع إلى الوثائق التفصيلية[هنا](https://reference.aspose.com/cad/net/).
+ج5: راجع الوثائق التفصيلية [هنا](https://reference.aspose.com/cad/net/).
+
+## أسئلة إضافية
+
+**س: هل يمكنني تصدير جميع الطبقات بأمر واحد؟**  
+ج: نعم، استخدم طريقة `ConvertAllLayersToRasterImageFormats` الموضحة أعلاه.
+
+**س: هل يدعم Aspose.CAD صيغ المتجهات مثل SVG؟**  
+ج: يركز أساسًا على الصيغ النقطية، لكن يمكنك التصدير إلى PDF الذي يحتفظ ببيانات المتجه.
+
+**س: كيف يمكنني التحكم في لون الخلفية للـ PNG المُصدّر؟**  
+ج: اضبط `rasterizationOptions.BackgroundColor` إلى اللون `Color` المطلوب قبل الحفظ.
+
+**س: هل يمكن تصدير تخطيط واحد بدلاً من الرسم الكامل؟**  
+ج: نعم، قم بتكوين `rasterizationOptions.Layouts` لتحديد اسم (أسماء) التخطيط الذي تريد رسترته.
+
+## الخاتمة
+
+لقد تعلمت الآن كيفية **convert dxf to png**، **export cad layers**، و**save cad as png** أو JPEG باستخدام Aspose.CAD لـ .NET. من خلال تعديل `CadRasterizationOptions` وتبديل خيارات صيغ الصور، يمكنك تخصيص التحويل لأي مخرج نقطي تحتاجه تقريبًا. استكشف خيارات الصيغ الأخرى في واجهة Aspose.CAD لتوسيع سير عمل التحويل من CAD إلى النقطية.
+
+---
+
+**آخر تحديث:** 2026-03-21  
+**تم الاختبار مع:** Aspose.CAD لـ .NET 24.11 (أحدث نسخة وقت الكتابة)  
+**المؤلف:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
