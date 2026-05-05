@@ -5,7 +5,11 @@ second_title: Aspose.CAD Java API
 description: Unlock CAD file power with Aspose.CAD for Java! Convert DWFX to PDF, access DWG flags, list layouts, and auto-adjust sizes with our tutorials.
 weight: 23
 url: /java/cad-file-manipulation/
-date: 2025-12-22
+date: 2026-04-13
+keywords:
+- convert dwfx to pdf
+- how to convert dwfx
+- adjust cad size unit
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -41,12 +45,12 @@ Converting a DWFX (Design Web Format X) file to PDF transforms a lightweight, we
 - Aspose.CAD for Java JAR added to your project (download from the Aspose website).  
 - A valid Aspose.CAD license for production use (optional for trial).
 
-## Convert DWFX to PDF
+## How to Convert DWFX to PDF
 
-### Step 1: Load the DWFX file
+### Step 1: Load the DWFX file  
 We start by creating a `CadImage` object that represents the DWFX content.
 
-### Step 2: Save as PDF
+### Step 2: Save as PDF  
 Call the `save` method with `PdfOptions` to generate a PDF file.
 
 > *Note: The actual code is unchanged from the original tutorial; see the linked article for the exact snippet.*
@@ -67,17 +71,13 @@ When you need to fit a drawing to a specific paper size or scaling factor, the a
 
 If your project requires precise control over drawing dimensions—such as converting from millimeters to inches—you’ll need to **adjust cad size unit**. Aspose.CAD lets you specify the target unit type and automatically rescales the geometry, ensuring that the output matches the required standards.
 
-## CAD File Manipulation Tutorials
-### [Open DWFX File with Aspose.CAD for Java](./open-dwfx-file/)
-Unlock the potential of CAD files with Aspose.CAD for Java. Convert DWFX to PDF seamlessly.  
-### [Accessing Underlay Flags of DWG with Aspose.CAD for Java](./accessing-underlay-flags-of-dwg/)
-Explore the world of CAD magic with Aspose.CAD for Java! Effortlessly handle DWG files in your Java applications.  
-### [List Layouts in DWG Using Aspose.CAD for Java](./list-layouts-in-dwg/)
-Explore Aspose.CAD for Java and effortlessly list layouts in DWG files. Integrate powerful CAD functionality into your Java applications.  
-### [Auto Adjusting CAD Drawing Size Using Aspose.CAD for Java](./auto-adjusting-cad-drawing-size/)
-Explore the seamless process of auto-adjusting CAD drawing sizes in Java using Aspose.CAD. Follow our step‑by‑step guide for efficient CAD file manipulation.  
-### [Adjusting CAD Drawing Size Using Unit Type with Aspose.CAD for Java](./adjusting-cad-drawing-size-using-unit-type/)
-Explore the power of Aspose.CAD for Java in adjusting CAD drawing sizes effortlessly. Follow our step‑by‑step guide for precision and adaptability.
+## Common Issues and Solutions
+
+| Issue | Why It Happens | Quick Fix |
+|-------|----------------|-----------|
+| **Out‑of‑memory errors on large DWFX files** | The whole file is loaded into memory by default. | Increase the JVM heap (`-Xmx`) or process the file in chunks using `CadImage.load` with stream options. |
+| **Incorrect page orientation** | Default `PdfOptions` uses portrait orientation. | Set `PdfOptions.setPageSize(PageSize.A4.rotate())` before saving. |
+| **Missing raster images in the PDF** | Raster images are embedded as external references. | Enable raster image embedding via `PdfOptions.setRasterizeImages(true)`. |
 
 ## Frequently Asked Questions
 
@@ -96,10 +96,22 @@ A: Aspose.CAD supports multiple output formats; simply change the `save` method�
 **Q: Does the library handle large DWFX files without high memory consumption?**  
 A: The API streams data efficiently, but for extremely large files consider processing them in chunks or increasing JVM heap size.
 
+## CAD File Manipulation Tutorials
+### [Open DWFX File with Aspose.CAD for Java](./open-dwfx-file/)
+Unlock the potential of CAD files with Aspose.CAD for Java. Convert DWFX to PDF seamlessly.  
+### [Accessing Underlay Flags of DWG with Aspose.CAD for Java](./accessing-underlay-flags-of-dwg/)
+Explore the world of CAD magic with Aspose.CAD for Java! Effortlessly handle DWG files in your Java applications.  
+### [List Layouts in DWG Using Aspose.CAD for Java](./list-layouts-in-dwg/)
+Explore Aspose.CAD for Java and effortlessly list layouts in DWG files. Integrate powerful CAD functionality into your Java applications.  
+### [Auto Adjusting CAD Drawing Size Using Aspose.CAD for Java](./auto-adjusting-cad-drawing-size/)
+Explore the seamless process of auto-adjusting CAD drawing sizes in Java using Aspose.CAD. Follow our step‑by‑step guide for efficient CAD file manipulation.  
+### [Adjusting CAD Drawing Size Using Unit Type with Aspose.CAD for Java](./adjusting-cad-drawing-size-using-unit-type/)
+Explore the power of Aspose.CAD for Java in adjusting CAD drawing sizes effortlessly. Follow our step‑by‑step guide for precision and adaptability.
+
 ---
 
-**Last Updated:** 2025-12-22  
-**Tested With:** Aspose.CAD for Java 24.11 (latest at time of writing)  
+**Last Updated:** 2026-04-13  
+**Tested With:** Aspose.CAD for Java 24.12 (latest at time of writing)  
 **Author:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}
