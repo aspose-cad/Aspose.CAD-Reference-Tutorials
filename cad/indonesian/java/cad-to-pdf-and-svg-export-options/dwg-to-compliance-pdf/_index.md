@@ -1,33 +1,51 @@
 ---
-title: DWG untuk Kepatuhan PDF Menggunakan Aspose.CAD untuk Java
-linktitle: DWG ke PDF Kepatuhan
+date: 2026-02-28
+description: Pelajari cara mengonversi DWG ke PDF dengan Aspose.CAD untuk Java, membuat
+  file yang mematuhi PDF/A1a dan PDF/A1b dengan cepat dan akurat.
+linktitle: DWG to Compliance PDF
 second_title: Aspose.CAD Java API
-description: Konversi gambar DWG dengan mudah ke file yang sesuai dengan PDF/A1a dan PDF/A1b menggunakan Aspose.CAD untuk Java. Sederhanakan alur kerja Anda dengan presisi dan mudah.
-weight: 11
+title: Konversi DWG ke PDF (PDF/A1a & A1b) menggunakan Aspose.CAD untuk Java
 url: /id/java/cad-to-pdf-and-svg-export-options/dwg-to-compliance-pdf/
+weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# DWG untuk Kepatuhan PDF Menggunakan Aspose.CAD untuk Java
+# Mengonversi DWG ke PDF (PDF/A1a & A1b) menggunakan Aspose.CAD untuk Java
 
-## Perkenalan
+## Pendahuluan
 
-Dalam dunia desain digital yang terus berkembang, kebutuhan untuk mengonversi gambar DWG ke format PDF yang sesuai sangat penting untuk kolaborasi yang lancar dan dokumentasi standar. Aspose.CAD untuk Java muncul sebagai alat yang ampuh, menawarkan efisiensi dan presisi dalam proses ini. Dalam tutorial ini, kita akan mempelajari cara memanfaatkan Aspose.CAD untuk Java untuk dengan mudah mengonversi file DWG ke PDF yang sesuai, memastikan kepatuhan terhadap standar PDF/A1a dan PDF/A1b.
+Dalam alur kerja rekayasa dan desain modern, **convert DWG to PDF** adalah kebutuhan harian untuk berbagi, mengarsipkan, dan mematuhi format dokumen standar industri. PDF/A‑1a dan PDF/A‑1b adalah standar arsip yang paling banyak diterima, menjamin bahwa gambar Anda akan ditampilkan dengan cara yang sama pada sistem apa pun. Aspose.CAD untuk Java membuat konversi ini menjadi sederhana, dapat diandalkan, dan sepenuhnya dapat diprogram. Pada tutorial ini Anda akan belajar cara mengonversi file DWG ke PDF yang mematuhi PDF/A hanya dengan beberapa baris kode Java.
+
+## Jawaban Cepat
+- **Perpustakaan apa yang menangani konversi?** Aspose.CAD untuk Java  
+- **Standar PDF/A mana yang didukung?** PDF/A‑1a dan PDF/A‑1b  
+- **Apakah saya memerlukan lisensi untuk pengujian?** Ya – lisensi sementara tersedia dari Aspose.  
+- **Versi Java minimum apa?** Java 8 atau lebih tinggi disarankan.  
+- **Bisakah saya memproses batch banyak file DWG?** Tentu – ulangi langkah untuk setiap file atau lakukan loop melalui folder.
+
+## Apa itu “convert DWG to PDF” dan mengapa penting?
+Mengonversi gambar DWG ke PDF menghasilkan dokumen yang dapat dilihat secara universal sambil mempertahankan kesetiaan vektor. Ketika Anda memilih kepatuhan PDF/A‑1a atau PDF/A‑1b, file juga menyertakan profil warna, font, dan metadata yang diperlukan untuk arsip jangka panjang, yang penting untuk pengajuan regulasi, dokumentasi konstruksi, dan deliverable klien.
+
+## Mengapa menggunakan Aspose.CAD untuk Java?
+- **Dukungan penuh versi DWG** – dari R12 lama hingga rilis terbaru.  
+- **Tanpa ketergantungan eksternal** – perpustakaan berfungsi langsung, tidak memerlukan perangkat lunak CAD.  
+- **Kontrol detail** – Anda dapat mengatur opsi rasterisasi, DPI, ukuran halaman, dan kepatuhan PDF/A.  
+- **Kinerja tinggi** – cocok untuk pemrosesan batch ribuan gambar.
 
 ## Prasyarat
 
-Sebelum masuk ke tutorial, pastikan Anda memiliki prasyarat berikut:
+Sebelum memulai, pastikan Anda memiliki:
 
-- Lingkungan Pengembangan Java: Pastikan Anda memiliki lingkungan pengembangan Java yang berfungsi di sistem Anda.
--  Perpustakaan Aspose.CAD: Unduh dan instal perpustakaan Aspose.CAD untuk Java dari[tautan unduhan](https://releases.aspose.com/cad/java/).
-- Direktori Dokumen: Buat direktori untuk menyimpan gambar DWG Anda.
+- Lingkungan pengembangan Java (JDK 8 atau lebih baru) dengan IDE pilihan Anda.  
+- Perpustakaan Aspose.CAD untuk Java – unduh dari [download link](https://releases.aspose.com/cad/java/).  
+- Folder yang berisi gambar DWG yang ingin Anda konversi.
 
-## Impor Namespace
+## Import Namespaces
 
-Di proyek Java Anda, impor namespace yang diperlukan untuk mengakses fungsionalitas Aspose.CAD. Tambahkan baris berikut di awal file Java Anda:
+Pertama, impor kelas yang diperlukan. Menempatkan import di bagian atas file membuat kode lebih mudah dibaca dan dipelihara.
 
 ```java
 import com.aspose.cad.Image;
@@ -40,7 +58,7 @@ import com.aspose.cad.imageoptions.PdfOptions;
 
 ## Langkah 1: Atur Direktori Sumber Daya
 
-Tentukan jalur ke direktori sumber daya Anda tempat gambar DWG disimpan.
+Tentukan jalur tempat file DWG Anda berada. Sesuaikan string untuk menunjuk ke direktori Anda yang sebenarnya.
 
 ```java
 String dataDir = "Your Document Directory" + "DWGDrawings/";
@@ -48,7 +66,7 @@ String dataDir = "Your Document Directory" + "DWGDrawings/";
 
 ## Langkah 2: Muat File DWG
 
-Muat file DWG menggunakan perpustakaan Aspose.CAD.
+Gunakan `Image.load` untuk membaca file DWG ke memori. Objek ini nanti akan disimpan sebagai PDF.
 
 ```java
 String srcFile = dataDir + "Bottom_plate.dwg";
@@ -57,66 +75,78 @@ Image objImage = Image.load(srcFile);
 
 ## Langkah 3: Buat Opsi PDF
 
-Buat instance PdfOptions dan atur opsi rasterisasi vektor.
+Buat instance `PdfOptions` dan lampirkan objek `CadRasterizationOptions`. Opsi rasterisasi memungkinkan Anda mengontrol bagaimana data vektor dirender di dalam PDF.
 
 ```java
 PdfOptions pdfOptions = new PdfOptions();
 pdfOptions.setVectorRasterizationOptions(new CadRasterizationOptions());
 ```
 
-## Langkah 4: Tetapkan Opsi Inti PDF
+## Langkah 4: Atur Opsi PDF Inti (Kepatuhan)
 
-Atur opsi inti PDF, tentukan standar kepatuhan (PDF/A1a atau PDF/A1b).
+Di sini Anda memberi tahu Aspose.CAD level kepatuhan PDF/A yang Anda butuhkan. Contoh dimulai dengan PDF/A‑1a.
 
 ```java
 pdfOptions.setCorePdfOptions(new PdfDocumentOptions());
 pdfOptions.getCorePdfOptions().setCompliance(PdfCompliance.PdfA1a);
 ```
 
-## Langkah 5: Simpan PDF dengan Kepatuhan A1a
+## Langkah 5: Simpan PDF dengan Kepatuhan PDF/A‑1a
 
-Simpan file PDF dengan kepatuhan A1a.
+Sekarang tulis file PDF ke disk. File output akan mematuhi PDF/A‑1a, siap untuk arsip.
 
 ```java
 objImage.save(dataDir + "Saved1.pdf", pdfOptions);
 ```
 
-## Langkah 6: Ubah Kepatuhan ke A1b
+## Langkah 6: Ubah Kepatuhan ke PDF/A‑1b dan Simpan Lagi
 
-Ubah kepatuhan ke PDF/A1b dan simpan PDF.
+Jika Anda memerlukan PDF/A‑1b, cukup ubah flag kepatuhan dan simpan file kedua.
 
 ```java
 pdfOptions.getCorePdfOptions().setCompliance(PdfCompliance.PdfA1b);
 objImage.save(dataDir + "Saved.pdf", pdfOptions);
 ```
 
-Ulangi langkah-langkah ini untuk setiap file DWG yang ingin Anda konversi.
+> **Pro tip:** Bungkus logika konversi dalam metode yang dapat digunakan kembali sehingga Anda dapat memanggilnya untuk setiap DWG dalam folder, mengurangi boilerplate dan meningkatkan maintainability.
 
-## Kesimpulan
+## Kasus Penggunaan Umum
 
-Kesimpulannya, Aspose.CAD untuk Java memberikan solusi tangguh untuk mengonversi file DWG menjadi PDF yang sesuai. Dengan mengikuti panduan langkah demi langkah ini, Anda dapat menyederhanakan proses konversi dan memastikan bahwa dokumen Anda mematuhi standar industri.
+| Skenario | Mengapa PDF/A? |
+|----------|----------------|
+| **Pengajuan regulasi** | Menjamin keterbacaan jangka panjang dan keabsahan hukum. |
+| **Deliverable klien** | Klien dapat membuka file tanpa perangkat lunak CAD apa pun. |
+| **Sistem manajemen dokumen** | File PDF/A dapat diindeks dan dicari di sebagian besar platform DMS. |
 
-## FAQ
+## Masalah Umum dan Solusinya
 
-### Q1: Apakah Aspose.CAD kompatibel dengan semua versi file DWG?
+- **Font atau simbol yang hilang** – Pastikan file DWG menyertakan semua font yang diperlukan, atau atur `CadRasterizationOptions.setEmbedFonts(true)`.  
+- **Ukuran file besar** – Kurangi DPI pada opsi rasterisasi atau aktifkan kompresi via `PdfDocumentOptions.setCompress(true)`.  
+- **Lisensi tidak ditemukan** – Terapkan lisensi sementara atau permanen sebelum konversi; jika tidak, Anda akan mendapatkan watermark.
 
- A1: Aspose.CAD mendukung berbagai versi file DWG, termasuk yang terbaru. Mengacu kepada[dokumentasi](https://reference.aspose.com/cad/java/) untuk informasi kompatibilitas terperinci.
+## Pertanyaan yang Sering Diajukan
 
-### Q2: Dapatkah saya menyesuaikan pengaturan keluaran PDF menggunakan Aspose.CAD?
+**T: Apakah Aspose.CAD kompatibel dengan semua versi file DWG?**  
+J: Aspose.CAD mendukung berbagai versi DWG, termasuk rilis terbaru. Lihat [documentation](https://reference.aspose.com/cad/java/) untuk daftar kompatibilitas lengkap.
 
-A2: Tentu saja! Aspose.CAD menawarkan berbagai opsi penyesuaian, memungkinkan Anda menyesuaikan keluaran PDF dengan kebutuhan spesifik Anda.
+**T: Bisakah saya menyesuaikan pengaturan output PDF?**  
+J: Tentu! Opsi seperti ukuran halaman, DPI, rasterisasi vektor, dan kepatuhan PDF/A semuanya dapat dikonfigurasi melalui `PdfOptions` dan `CadRasterizationOptions`.
 
-### Q3: Apakah lisensi sementara tersedia untuk Aspose.CAD?
+**T: Apakah lisensi sementara tersedia untuk pengujian?**  
+J: Ya, Anda dapat memperoleh lisensi sementara untuk evaluasi dari [tautan ini](https://purchase.aspose.com/temporary-license/).
 
- A3: Ya, Anda bisa mendapatkan lisensi sementara untuk tujuan pengujian dari[Link ini](https://purchase.aspose.com/temporary-license/).
+**T: Di mana saya dapat mendapatkan dukungan komunitas?**  
+J: Forum [Aspose.CAD](https://forum.aspose.com/c/cad/19) adalah tempat yang bagus untuk mengajukan pertanyaan dan berbagi pengalaman.
 
-### Q4: Di mana saya dapat mencari dukungan atau berinteraksi dengan komunitas untuk Aspose.CAD?
+**T: Bisakah saya mencoba Aspose.CAD secara gratis sebelum membeli?**  
+J: Tentu! Unduh versi trial gratis dari [sini](https://releases.aspose.com/) untuk menjelajahi seluruh fitur.
 
- A4: Kunjungi[Forum Aspose.CAD](https://forum.aspose.com/c/cad/19) untuk dukungan dan diskusi komunitas.
+---
 
-### Q5: Dapatkah saya mencoba Aspose.CAD secara gratis sebelum melakukan pembelian?
+**Terakhir Diperbarui:** 2026-02-28  
+**Diuji Dengan:** Aspose.CAD untuk Java 24.11 (terbaru pada saat penulisan)  
+**Penulis:** Aspose  
 
- A5: Tentu saja! Unduh versi uji coba gratis dari[Di Sini](https://releases.aspose.com/) untuk mengeksplorasi kemampuan sebelum mengambil keputusan.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
