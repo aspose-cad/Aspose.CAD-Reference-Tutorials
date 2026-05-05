@@ -1,11 +1,12 @@
 ---
-date: 2025-12-10
-description: „Dowiedz się, jak tworzyć pliki PDF z CAD przy użyciu Aspose.CAD dla
-  Javy z automatycznym skalowaniem układu. Ten przewodnik krok po kroku pokazuje,
-  jak efektywnie i niezawodnie eksportować CAD do PDF.”
+date: 2026-02-15
+description: Dowiedz się, jak ustawić niestandardowy rozmiar strony i utworzyć PDF
+  z CAD przy użyciu Aspose.CAD for Java. Ten przewodnik krok po kroku opisuje eksport
+  CAD do PDF z automatycznym skalowaniem układu.
 linktitle: Setting Auto Layout Scaling
 second_title: Aspose.CAD Java API
-title: Utwórz PDF z CAD – automatyczne skalowanie układu z Aspose.CAD Java
+title: Ustaw niestandardowy rozmiar strony – PDF z CAD z automatycznym skalowaniem
+  układu
 url: /pl/java/advanced-cad-features/setting-auto-layout-scaling/
 weight: 17
 ---
@@ -14,37 +15,39 @@ weight: 17
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Utwórz PDF z CAD – Automatyczne skalowanie układu z Aspose.CAD Java
+# Ustaw niestandardowy rozmiar strony – Tworzenie PDF z CAD z automatycznym skalowaniem układu
 
-## Introduction
+## Wprowadzenie
 
-Jeśli potrzebujesz **utworzyć PDF z CAD** szybko i z idealnym skalowaniem, Aspose.CAD for Java zapewnia wszystkie niezbędne funkcje. Auto Layout Scaling automatycznie dostosowuje wymiary układu, tak aby powstały PDF wyglądał dokładnie tak, jak zamierzono, niezależnie od pierwotnego rozmiaru strony CAD. W tym samouczku przeprowadzimy Cię przez cały proces — od wczytania pliku DXF po eksport do PDF — podkreślając możliwości **export CAD to PDF** biblioteki.
+Jeśli potrzebujesz **ustawić niestandardowy rozmiar strony** podczas **tworzenia PDF z CAD** szybko i z idealnym skalowaniem, Aspose.CAD for Java ma dla Ciebie rozwiązanie. Auto Layout Scaling automatycznie dostosowuje wymiary układu, tak aby powstały PDF wyglądał dokładnie tak, jak zamierzono, niezależnie od pierwotnego rozmiaru strony CAD. W tym samouczku przeprowadzimy Cię przez cały proces — od wczytania pliku DXF po eksport do PDF — podkreślając możliwości **export CAD to PDF** biblioteki oraz pokazując, jak możesz także **convert DWG to PDF** lub **increase PDF resolution**, gdy zajdzie taka potrzeba.
 
-## Quick Answers
-- **What does Auto Layout Scaling do?** Automatycznie zmienia rozmiar układów CAD, aby dopasować je do wymiarów docelowej strony podczas rasteryzacji.  
-- **Which formats can I convert?** Każdy format obsługiwany przez Aspose.CAD (np. DXF, DWG, DWF) może być konwertowany do PDF.  
-- **Do I need a license for production?** Tak, wymagana jest licencja komercyjna do użytku nie‑ewaluacyjnego.  
-- **How long does the conversion take?** Zazwyczaj poniżej sekundy dla standardowych plików na nowoczesnym sprzęcie.  
-- **Can I change the page size?** Tak, możesz ustawić własne wymiary strony za pomocą `CadRasterizationOptions`.
+## Szybkie odpowiedzi
+- **Co robi Auto Layout Scaling?** Automatycznie zmienia rozmiar układów CAD, aby pasowały do wymiarów docelowej strony podczas rasteryzacji.  
+- **Jakie formaty mogę konwertować?** Każdy format obsługiwany przez Aspose.CAD (np. DXF, DWG, DWF) może być skonwertowany do PDF.  
+- **Czy potrzebna jest licencja do produkcji?** Tak, do użytku nie‑ewaluacyjnego wymagana jest licencja komercyjna.  
+- **Jak długo trwa konwersja?** Zazwyczaj poniżej sekundy dla standardowych plików na nowoczesnym sprzęcie.  
+- **Czy mogę zmienić rozmiar strony?** Tak, możesz ustawić własne wymiary strony za pomocą `CadRasterizationOptions`.
 
-## What is “create PDF from CAD”?
+## Co to jest „tworzenie PDF z CAD”?
 
-Utworzenie PDF z CAD oznacza pobranie wektorowego rysunku inżynierskiego (DXF, DWG itp.) i rasteryzację go do dokumentu PDF. PDF zachowuje wizualną wierność oryginalnego rysunku, jednocześnie będąc szeroko dostępny na każdej platformie.
+Tworzenie PDF z CAD oznacza pobranie wektorowego rysunku inżynieryjnego (DXF, DWG itp.) i rasteryzację go do dokumentu PDF. PDF zachowuje wizualną wierność oryginalnego rysunku, jednocześnie będąc szeroko dostępny na każdej platformie.
 
-## Why use Auto Layout Scaling?
-- **Consistent output:** Gwarantuje, że wszystkie układy wypełnią stronę PDF bez ręcznych obliczeń rozmiaru.  
-- **Time‑saving:** Eliminuję potrzebę ręcznego dostosowywania współczynników skalowania dla każdego rysunku.  
-- **High quality:** Zachowuje grubość linii i dokładność geometrii podczas konwersji.
+## Dlaczego używać automatycznego skalowania układu?
 
-## Prerequisites
+- **Spójny wynik:** Gwarantuje, że wszystkie układy wypełnią stronę PDF bez ręcznych obliczeń rozmiaru.  
+- **Oszczędność czasu:** Eliminuję potrzebę ręcznego dostosowywania współczynników skalowania dla każdego rysunku.  
+- **Wysoka jakość:** Zachowuje grubość linii i dokładność geometrii podczas konwersji.  
+- **Elastyczność:** Działa dla **convert dxf to pdf**, **convert dwg to pdf**, a także gdy potrzebujesz **increase PDF resolution** dla plików gotowych do druku.
 
-1. **Aspose.CAD for Java Library** – pobierz najnowszą wersję ze [download page](https://releases.aspose.com/cad/java/).  
-2. **Resource Directory** – utwórz folder na swoim komputerze do przechowywania plików CAD; zamień `"Your Document Directory"` w kodzie na tę ścieżkę.  
-3. **Sample CAD File** – w tym przewodniku użyjemy `conic_pyramid.dxf`, który jest częścią zestawu danych przykładowych Aspose.
+## Wymagania wstępne
 
-## Import Namespaces
+1. **Aspose.CAD for Java Library** – pobierz najnowszą wersję ze [strony pobierania](https://releases.aspose.com/cad/java/).  
+2. **Katalog zasobów** – utwórz folder na swoim komputerze do przechowywania plików CAD; zamień `"Your Document Directory"` w kodzie na tę ścieżkę.  
+3. **Przykładowy plik CAD** – w tym przewodniku użyjemy `conic_pyramid.dxf`, który jest częścią zestawu danych przykładowych Aspose.
 
-First, import the required classes. This gives us access to image loading, rasterization, and PDF export features.
+## Importowanie przestrzeni nazw
+
+Najpierw zaimportuj wymagane klasy. Dzięki temu uzyskasz dostęp do funkcji wczytywania obrazu, rasteryzacji i eksportu PDF.
 
 ```java
 import com.aspose.cad.Image;
@@ -53,18 +56,22 @@ import com.aspose.cad.imageoptions.CadRasterizationOptions;
 import com.aspose.cad.imageoptions.PdfOptions;
 ```
 
-## Step 1: Load the CAD File
+## Jak ustawić niestandardowy rozmiar strony dla PDF z CAD
 
-Loading the source file is the first step in **how to export CAD** to a PDF document.
+Zanim przejdziemy do kodu krok po kroku, wyjaśnijmy, dlaczego ustawienie niestandardowego rozmiaru strony ma znaczenie. Kiedy **ustawiasz niestandardowy rozmiar strony**, kontrolujesz fizyczne wymiary powstałego PDF (np. A4, Letter lub rozmiar specjalny). Jest to niezbędne w przepływach pracy inżynieryjnej, gdzie rysunki muszą odpowiadać standardom arkuszy lub gdy trzeba osadzić PDF w większych dokumentach.
+
+### Krok 1: Załaduj plik CAD
+
+Wczytanie pliku źródłowego to pierwszy krok w **how to export CAD** do dokumentu PDF.
 
 ```java
 String srcFile = dataDir + "conic_pyramid.dxf";
 Image image = Image.load(srcFile);
 ```
 
-## Step 2: Create Rasterization Options
+### Krok 2: Utwórz opcje rasteryzacji
 
-Define the target page dimensions. You can also use this block to **set CAD page size** manually if you prefer a custom layout.
+Zdefiniuj docelowe wymiary strony. Ten blok możesz także użyć do **set CAD page size** ręcznie, jeśli wolisz własny układ.
 
 ```java
 CadRasterizationOptions rasterizationOptions = new CadRasterizationOptions();
@@ -72,83 +79,86 @@ rasterizationOptions.setPageWidth(1600);
 rasterizationOptions.setPageHeight(1600);
 ```
 
-## Step 3: Set Auto Layout Scaling
+### Krok 3: Ustaw automatyczne skalowanie układu
 
-Enable the automatic scaling feature. This is the core of **how to set scaling** for a CAD‑to‑PDF conversion.
+Włącz funkcję automatycznego skalowania. To jest sedno **how to set scaling** dla konwersji CAD‑to‑PDF.
 
 ```java
 rasterizationOptions.setAutomaticLayoutsScaling(true);
 ```
 
-## Step 4: Create PDF Options
+### Krok 4: Utwórz opcje PDF
 
-Link the rasterization settings to the PDF export options.
+Połącz ustawienia rasteryzacji z opcjami eksportu PDF.
 
 ```java
 PdfOptions pdfOptions = new PdfOptions();
 pdfOptions.setVectorRasterizationOptions(rasterizationOptions);
 ```
 
-## Step 5: Export to PDF
+### Krok 5: Eksportuj do PDF
 
-Finally, save the rendered image as a PDF file. This step completes the **convert DXF to PDF** workflow.
+Na koniec zapisz wyrenderowany obraz jako plik PDF. Ten krok kończy przepływ **convert dxf to pdf**.
 
 ```java
 image.save(dataDir + "result_out_.pdf", pdfOptions);
 ```
 
-Repeat the steps above for any additional CAD files you need to process.
+Powtórz powyższe kroki dla dowolnych dodatkowych plików CAD, które musisz przetworzyć, niezależnie od tego, czy są to **DWG**, **DWF**, czy inne obsługiwane formaty.
 
-## Common Issues & Troubleshooting
+## Typowe przypadki użycia
+
+| Scenariusz | Dlaczego ustawić niestandardowy rozmiar strony? |
+|------------|---------------------------------------------------|
+| **Złożenie rysunku budowlanego** | Dopasowuje PDF do standardowych rozmiarów arkuszy A1/A2 wymaganych przez organy regulacyjne. |
+| **Osadzanie w podręcznikach technicznych** | Gwarantuje, że rysunek pasuje do wcześniej określonego układu podręcznika bez dodatkowego skalowania. |
+| **Druk wysokiej rozdzielczości** | Pozwala zwiększyć DPI (np. `rasterizationOptions.setResolution(300)`) przy zachowaniu stałych wymiarów strony. |
+
+## Typowe problemy i rozwiązywanie
 
 | Objaw | Prawdopodobna przyczyna | Rozwiązanie |
 |-------|--------------------------|-------------|
-| Pusty plik PDF | Opcje rasteryzacji nie ustawione lub nieprawidłowa ścieżka pliku | Sprawdź ścieżkę `srcFile` i upewnij się, że `setPageWidth/Height` nie są zerowe |
-| Zniekształcone skalowanie | `setAutomaticLayoutsScaling` ustawione na `false` | Włącz automatyczne skalowanie lub ręcznie oblicz współczynnik skalowania |
-| Brakujące warstwy | Źródłowy DXF zawiera nieobsługiwane elementy | Sprawdź notatki wydania Aspose.CAD pod kątem obsługiwanych typów elementów |
+| Pusty plik PDF | Opcje rasteryzacji nie ustawione lub niepoprawna ścieżka pliku | Sprawdź ścieżkę `srcFile` i upewnij się, że `setPageWidth/Height` nie są zerowe |
+| Zniekształcone skalowanie | `setAutomaticLayoutsScaling` pozostawiono jako `false` | Włącz automatyczne skalowanie lub ręcznie oblicz współczynnik skalowania |
+| Brak warstw | Źródłowy DXF zawiera nieobsługiwane encje | Sprawdź notatki wydania Aspose.CAD pod kątem obsługiwanych typów encji |
 
-## FAQ's
+## Najczęściej zadawane pytania
 
-### Q1: Czy Aspose.CAD for Java jest kompatybilny ze wszystkimi formatami plików CAD?
+**P: Czy Aspose.CAD for Java jest kompatybilny ze wszystkimi formatami plików CAD?**  
+O: Aspose.CAD for Java obsługuje różne formaty CAD, w tym DWG, DXF i DWF.
 
-A1: Aspose.CAD for Java obsługuje różne formaty CAD, w tym DWG, DXF i DWF.
+**P: Czy mogę dalej dostosowywać opcje skalowania?**  
+O: Tak, klasa `CadRasterizationOptions` udostępnia właściwości do precyzyjnego dostrajania skalowania, DPI i innych ustawień rasteryzacji.
 
-### Q2: Czy mogę dalej dostosowywać opcje skalowania?
+**P: Gdzie mogę znaleźć dodatkową dokumentację dla Aspose.CAD for Java?**  
+O: Odwołaj się do [dokumentacji](https://reference.aspose.com/cad/java/) po szczegółowe informacje i przykłady.
 
-A2: Tak, klasa `CadRasterizationOptions` udostępnia różne właściwości do precyzyjnego dostrajania skalowania i innych ustawień.
+**P: Czy dostępna jest darmowa wersja próbna Aspose.CAD for Java?**  
+O: Tak, możesz wypróbować [bezpłatną wersję próbną](https://releases.aspose.com/), aby zapoznać się z możliwościami Aspose.CAD for Java.
 
-### Q3: Gdzie mogę znaleźć dodatkową dokumentację dla Aspose.CAD for Java?
+**P: Jak mogę uzyskać pomoc lub wziąć udział w dyskusjach o Aspose.CAD for Java?**  
+O: Odwiedź [forum Aspose.CAD](https://forum.aspose.com/c/cad/19), aby połączyć się ze społecznością i uzyskać wsparcie.
 
-A3: Odwołaj się do [documentation](https://reference.aspose.com/cad/java/) po szczegółowe informacje i przykłady.
+**Dodatkowe typowe pytania**
 
-### Q4: Czy dostępna jest darmowa wersja próbna Aspose.CAD for Java?
+**P: Jak przekonwertować plik DWG na PDF zamiast DXF?**  
+O: Ten sam kod działa; wystarczy zmienić rozszerzenie pliku w `srcFile` na `.dwg`.
 
-A4: Tak, możesz wypróbować [free trial](https://releases.aspose.com/), aby zapoznać się z możliwościami Aspose.CAD for Java.
+**P: Czy mogę ustawić własne DPI dla PDF‑ów o wyższej rozdzielczości?**  
+O: Tak, użyj `rasterizationOptions.setResolution(300);` (lub dowolnego wymaganego DPI).
 
-### Q5: Jak mogę uzyskać pomoc lub wziąć udział w dyskusjach o Aspose.CAD for Java?
+**P: Czy istnieje możliwość osadzenia czcionek w generowanym PDF?**  
+O: Aspose.CAD rasteryzuje rysunek, więc czcionki są renderowane jako wektory; osobne osadzanie czcionek nie jest wymagane.
 
-A5: Odwiedź [Aspose.CAD forum](https://forum.aspose.com/c/cad/19), aby połączyć się ze społecznością i uzyskać wsparcie.
+## Podsumowanie
 
-**Additional Common Questions**
-
-**Q: How do I convert a DWG file to PDF instead of DXF?**  
-A: The same code works; just change the file extension in `srcFile` to `.dwg`.
-
-**Q: Can I set a custom DPI for higher‑resolution PDFs?**  
-A: Yes, use `rasterizationOptions.setResolution(300);` (or any DPI you need).
-
-**Q: Is it possible to embed fonts in the generated PDF?**  
-A: Aspose.CAD rasterizes the drawing, so fonts are rendered as vectors; no separate font embedding is required.
-
-## Conclusion
-
-By following this guide you now know how to **create PDF from CAD** files using Aspose.CAD for Java with Auto Layout Scaling. The process streamlines the **export CAD to PDF** workflow, ensures consistent scaling, and saves you valuable development time. Feel free to experiment with different page sizes, resolutions, and CAD formats to suit your project needs.
+Korzystając z tego przewodnika, teraz wiesz, jak **ustawić niestandardowy rozmiar strony** i **tworzyć PDF z CAD** przy użyciu Aspose.CAD for Java z Auto Layout Scaling. Proces usprawnia **export CAD to PDF**, zapewnia spójne skalowanie i oszczędza cenny czas programistyczny. Śmiało eksperymentuj z różnymi rozmiarami stron, rozdzielczościami i formatami CAD, aby dopasować je do potrzeb projektu, niezależnie od tego, czy **konwertujesz DWG to PDF**, **zwiększasz rozdzielczość PDF**, czy tworzysz **java CAD to PDF** batch processor.
 
 ---
 
-**Last Updated:** 2025-12-10  
-**Tested With:** Aspose.CAD for Java 24.12 (latest)  
-**Author:** Aspose  
+**Ostatnia aktualizacja:** 2026-02-15  
+**Testowano z:** Aspose.CAD for Java 24.12 (najnowsza)  
+**Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

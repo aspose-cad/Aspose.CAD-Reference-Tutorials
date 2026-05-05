@@ -1,11 +1,11 @@
 ---
-date: 2025-12-10
-description: Erfahren Sie, wie Sie CAD mit Aspose.CAD für Java in PDF konvertieren,
-  dabei die Canvas‑Größe festlegen, die automatische Layout‑Skalierung verwenden und
-  in TIFF exportieren.
-linktitle: Convert CAD to PDF – Set Canvas Size & Mode
+date: 2026-02-15
+description: Erfahren Sie, wie Sie die PDF‑Seitengröße festlegen und CAD mit Aspose.CAD
+  für Java in PDF konvertieren, einschließlich automatischer Layout‑Skalierung und
+  TIFF‑Export.
+linktitle: Set PDF Page Size – Convert CAD to PDF
 second_title: Aspose.CAD Java API
-title: CAD in PDF konvertieren – Canvas‑Größe und Modus festlegen (Java)
+title: PDF‑Seitengröße festlegen – CAD zu PDF konvertieren (Java)
 url: /de/java/advanced-cad-features/set-canvas-size-and-mode/
 weight: 16
 ---
@@ -14,39 +14,43 @@ weight: 16
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Canvasgröße und Modus festlegen
+# Canvas-Größe und Modus festlegen
 
 ## Einleitung
 
-Suchen Sie nach einer Möglichkeit, **CAD in PDF zu konvertieren**, während Sie die volle Kontrolle über die Canvasgröße und den Rendering‑Modus behalten? Dieser umfassende Leitfaden führt Sie Schritt für Schritt durch das Festlegen der Canvasgröße in Java, das Aktivieren der automatischen Layout‑Skalierung und das anschließende Exportieren des Ergebnisses sowohl in PDF‑ als auch in TIFF‑Formate mit Aspose.CAD. Egal, ob Sie eine Produktionspipeline verfeinern oder mit einem Prototyp experimentieren, hier finden Sie klare, umsetzbare Anweisungen.
+Wenn Sie die **PDF-Seitengröße** beim Konvertieren von CAD-Zeichnungen in PDF festlegen müssen, sind Sie hier genau richtig. In diesem Tutorial zeigen wir Ihnen, wie Sie Aspose.CAD für Java verwenden, um genaue Canvas‑Dimensionen zu definieren, die automatische Layout‑Skalierung zu aktivieren und das Ergebnis sowohl als PDF als auch als TIFF zu exportieren. Egal, ob Sie technische Schemata für den Druck vorbereiten oder Thumbnails für eine Webgalerie erzeugen, die Kontrolle über die Seitengröße und die Ausgaberesolution ist entscheidend.
 
 ## Schnelle Antworten
-- **Was bedeutet “convert CAD to PDF”?** Umwandlung einer CAD‑Zeichnung (z. B. DXF, DWG) in ein PDF‑Dokument, das auf jeder Plattform angezeigt werden kann.  
+- **Was bedeutet „convert CAD to PDF“?** Umwandlung einer CAD‑Zeichnung (z. B. DXF, DWG) in ein PDF‑Dokument, das auf jeder Plattform angezeigt werden kann.  
 - **Kann ich auch nach TIFF exportieren?** Ja – verwenden Sie `TiffOptions`, um hochauflösende Rasterbilder zu erstellen.  
-- **Welche Option steuert die Canvasgröße in Java?** `CadRasterizationOptions.setPageWidth/Height`.  
-- **Was ist automatische Layout‑Skalierung?** Ein Flag (`setAutomaticLayoutsScaling(true)`), das die ursprünglichen Layout‑Proportionen beibehält, wenn die Canvasgröße geändert wird.  
+- **Welche Option steuert die Canvas‑Größe in Java?** `CadRasterizationOptions.setPageWidth/Height`.  
+- **Was ist automatische Layout‑Skalierung?** Ein Flag (`setAutomaticLayoutsScaling(true)`), das die ursprünglichen Layout‑Proportionen beibehält, wenn die Canvas‑Größe geändert wird.  
 - **Benötige ich eine Lizenz für Aspose.CAD?** Für den Produktionseinsatz ist eine temporäre oder permanente Lizenz erforderlich.
+
+## So legen Sie die PDF‑Seitengröße beim Konvertieren von CAD nach PDF (Java) fest
+
+Das Festlegen der PDF‑Seitengröße (oder Canvas‑Größe) ermöglicht es Ihnen, die endgültigen Abmessungen des Dokuments zu bestimmen, was besonders nützlich ist, wenn Sie **PDF‑Dimensionen** an Druckstandards oder UI‑Anforderungen anpassen müssen. Im Folgenden gehen wir jeden Schritt durch und erklären das *Warum* hinter jeder Codezeile.
 
 ## Was ist **convert CAD to PDF**?
 
-Das Konvertieren von CAD zu PDF bedeutet, vektorbasierten Konstruktionszeichnungen zu nehmen und sie als PDF‑Seiten zu rendern, wobei Linienarbeit, Ebenen und Geometrie erhalten bleiben und die Datei universell zugänglich wird.
+Das Konvertieren von CAD zu PDF bedeutet, vektorbasierten technischen Zeichnungen zu nehmen und sie als PDF‑Seiten zu rendern, wobei Linien, Ebenen und Geometrie erhalten bleiben und die Datei universell zugänglich wird.
 
-## Warum die Canvasgröße in **java** festlegen?
+## Warum die Canvas‑Größe in **Java** festlegen?
 
-Das Festlegen der Canvasgröße in Java ermöglicht es Ihnen, die Ausgabeauflösung und die Seitengröße zu definieren, sodass das resultierende PDF oder TIFF Ihren Druck‑ oder Anzeigeanforderungen entspricht. Es gibt Ihnen zudem die Kontrolle über das Skalierungsverhalten, was für großformatige Zeichnungen unerlässlich ist.
+Das Festlegen der Canvas‑Größe in Java ermöglicht es Ihnen, die Ausgaberesolution und Seitenabmessungen zu definieren, sodass das resultierende PDF oder TIFF Ihren Druck‑ oder Anzeigeanforderungen entspricht. Außerdem erhalten Sie Kontrolle über das Skalierungsverhalten, was für großformatige Zeichnungen unerlässlich ist.
 
 ## Voraussetzungen
 
-Bevor Sie in das Tutorial eintauchen, stellen Sie sicher, dass die folgenden Voraussetzungen erfüllt sind:
+Bevor Sie in das Tutorial einsteigen, stellen Sie sicher, dass Sie die folgenden Voraussetzungen erfüllt haben:
 
 - Aspose.CAD für Java: Stellen Sie sicher, dass die Aspose.CAD‑Bibliothek in Ihrer Java‑Umgebung installiert ist. Sie können sie [hier](https://releases.aspose.com/cad/java/) herunterladen.
-- Dokumentverzeichnis: Richten Sie ein Verzeichnis ein, um Ihre CAD‑Dateien zu speichern. Dieses Verzeichnis wird in den Schritten des Tutorials referenziert.
+- Dokumentverzeichnis: Richten Sie ein Verzeichnis ein, um Ihre CAD‑Dateien zu speichern. Dieses Verzeichnis wird in den Tutorial‑Schritten referenziert.
 
 Jetzt beginnen wir mit der Schritt‑für‑Schritt‑Anleitung.
 
 ## Namespaces importieren
 
-In diesem Schritt importieren wir die erforderlichen Namespaces, um Ihr Aspose.CAD‑Projekt zu starten.
+In diesem Schritt importieren wir die notwendigen Namespaces, um Ihr Aspose.CAD‑Projekt zu starten.
 
 ```java
 import java.awt.Image;
@@ -71,8 +75,6 @@ In diesem Snippet richten wir den Pfad zum Ressourcenverzeichnis ein und laden e
 
 ## Schritt 2: **CadRasterizationOptions**‑Eigenschaften festlegen (set canvas size java)
 
-Hier erstellen wir eine Instanz von `CadRasterizationOptions` und konfigurieren Eigenschaften wie Seitenbreite, Seitenhöhe und **automatic layout scaling**. Dies ist der Kern von **configure canvas mode** für Ihre Konvertierung.
-
 ```java
 // Create an instance of CadRasterizationOptions and set its various properties
 CadRasterizationOptions rasterizationOptions = new CadRasterizationOptions();
@@ -83,9 +85,9 @@ rasterizationOptions.setAutomaticLayoutsScaling(true);
 rasterizationOptions.setNoScaling(true);
 ```
 
-## Schritt 3: PdfOptions erstellen und VectorRasterizationOptions festlegen
+Hier erstellen wir eine Instanz von `CadRasterizationOptions` und konfigurieren Eigenschaften wie Seitenbreite, Seitenhöhe und **automatische Layout‑Skalierung**. Dies ist der Kern von **configure canvas mode** für Ihre Konvertierung.
 
-Jetzt erstellen wir eine `PdfOptions`‑Instanz und setzen deren `VectorRasterizationOptions`‑Eigenschaft auf die zuvor konfigurierte `CadRasterizationOptions`.
+## Schritt 3: PdfOptions erstellen und VectorRasterizationOptions festlegen
 
 ```java
 // Create an instance of PdfOptions
@@ -95,18 +97,18 @@ PdfOptions pdfOptions = new PdfOptions();
 pdfOptions.setVectorRasterizationOptions(rasterizationOptions);
 ```
 
-## Schritt 4: Export nach PDF (convert cad to pdf)
+Jetzt erstellen wir eine Instanz von `PdfOptions` und setzen deren Eigenschaft `VectorRasterizationOptions` auf die zuvor konfigurierte `CadRasterizationOptions`.
 
-Abschließend speichern wir das CAD‑Bild mit den angegebenen Optionen in einer PDF‑Datei und schließen damit den **convert CAD to PDF**‑Prozess ab.
+## Schritt 4: Export nach PDF (convert cad to pdf)
 
 ```java
 // Export CAD to PDF
 objImage.save(dataDir + "result_out_.pdf", pdfOptions);
 ```
 
-## Schritt 5: TiffOptions erstellen und VectorRasterizationOptions festlegen (export cad to tiff)
+Abschließend speichern wir das CAD‑Bild mit den angegebenen Optionen in einer PDF‑Datei und schließen damit den **convert CAD to PDF**‑Prozess ab.
 
-In diesem Schritt richten wir eine `TiffOptions`‑Instanz ein und konfigurieren deren `VectorRasterizationOptions`‑Eigenschaft.
+## Schritt 5: TiffOptions erstellen und VectorRasterizationOptions festlegen (export cad to tiff)
 
 ```java
 // Create an instance of TiffOptions
@@ -116,32 +118,34 @@ TiffOptions tiffOptions = new TiffOptions(TiffExpectedFormat.Default);
 tiffOptions.setVectorRasterizationOptions(rasterizationOptions);
 ```
 
-## Schritt 6: Export nach TIFF
+In diesem Schritt richten wir eine Instanz von `TiffOptions` ein und konfigurieren deren Eigenschaft `VectorRasterizationOptions`.
 
-Abschließend speichern wir das CAD‑Bild mit den angegebenen Optionen in einer TIFF‑Datei und zeigen, wie man **export CAD to TIFF** nach dem Konfigurieren der Canvasgröße durchführt.
+## Schritt 6: Export nach TIFF
 
 ```java
 // Export CAD to TIFF
 objImage.save(dataDir + "result_out_.tiff", tiffOptions);
 ```
 
+Abschließend speichern wir das CAD‑Bild mit den angegebenen Optionen in einer TIFF‑Datei und demonstrieren, wie man **CAD nach TIFF exportiert** nach der Konfiguration der Canvas‑Größe.
+
 ## Häufige Probleme und Lösungen
 
 | Problem | Ursache | Lösung |
-|-------|-------|-----|
-| Ausgabe-PDF ist leer | `setNoScaling(true)` deaktiviert das Rendering für einige Zeichnungen | Entfernen Sie `setNoScaling(true)` oder setzen Sie es auf `false`. |
-| TIFF-Auflösung wirkt niedrig | Seitenbreite/-höhe zu klein | Erhöhen Sie die Werte von `setPageWidth` / `setPageHeight`. |
+|---------|---------|--------|
+| Ausgabe-PDF ist leer | `setNoScaling(true)` deaktiviert das Rendern bei einigen Zeichnungen | Entfernen Sie `setNoScaling(true)` oder setzen Sie es auf `false`. |
+| TIFF-Auflösung ist niedrig | Seitenbreite/-höhe zu klein | Erhöhen Sie die Werte von `setPageWidth` / `setPageHeight`. |
 | Layout sieht verzerrt aus | Automatische Layout‑Skalierung deaktiviert | Stellen Sie sicher, dass `setAutomaticLayoutsScaling(true)` aktiviert ist. |
 
-## Fazit
+## Warum Canvas‑Größe und DPI anpassen?
 
-Herzlichen Glückwunsch! Sie haben erfolgreich **convert CAD to PDF** und **export CAD to TIFF** durchgeführt, während Sie **set canvas size java** verwendet haben, **automatic layout scaling** aktiviert haben und gelernt haben, wie man **configure canvas mode** für hochwertige Ausgaben einstellt. Dieses Tutorial bietet eine solide Grundlage für Ihre CAD‑Konvertierungsprojekte. Erkunden Sie weitere Funktionen und Möglichkeiten in der [Aspose.CAD‑Dokumentation](https://reference.aspose.com/cad/java/).
+Das Ändern der Canvas‑Größe beeinflusst direkt die Rasterisierungsauflösung der Ausgabe. Wenn Sie die **TIFF‑Auflösung erhöhen** müssen, erhöhen Sie einfach die Werte von `setPageWidth` / `setPageHeight` oder rufen Sie `rasterizationOptions.setResolution(300)` auf, bevor Sie die `TiffOptions` erstellen. Dadurch erhalten Sie hochqualitative Rasterbilder, die für den Druck oder die detaillierte Inspektion geeignet sind.
 
-## FAQ
+## Häufig gestellte Fragen
 
 ### Q1: Kann ich Aspose.CAD für Java mit anderen Java‑Frameworks verwenden?
 
-A1: Ja, Aspose.CAD ist so konzipiert, dass es sich nahtlos in verschiedene Java‑Frameworks integrieren lässt.
+A1: Ja, Aspose.CAD ist so konzipiert, dass es nahtlos mit verschiedenen Java‑Frameworks integriert werden kann.
 
 ### Q2: Ist eine temporäre Lizenz für Aspose.CAD verfügbar?
 
@@ -153,24 +157,34 @@ A3: Besuchen Sie das [Aspose.CAD‑Forum](https://forum.aspose.com/c/cad/19) fü
 
 ### Q4: Kann ich Aspose.CAD kostenlos testen?
 
-A4: Auf jeden Fall! Holen Sie sich eine kostenlose Testversion [hier](https://releases.aspose.com/).
+A4: Natürlich! Holen Sie sich eine kostenlose Testversion [hier](https://releases.aspose.com/).
 
 ### Q5: Wie kaufe ich Aspose.CAD für Java?
 
 A5: Kaufen Sie das Produkt [hier](https://purchase.aspose.com/buy).
 
-**Zusätzliche Q&A**
+**Zusätzliche Fragen & Antworten**
 
-**Q: Beeinflusst die Canvasgröße die Vektorqualität im PDF?**  
-A: Nein. Die Canvasgröße steuert die Seitengröße; Vektordaten bleiben auflösungsunabhängig, wodurch eine klare Darstellung bei jedem Zoom‑Level gewährleistet ist.
+**Q: Beeinflusst die Canvas‑Größe die Vektorqualität im PDF?**  
+A: Nein. Die Canvas‑Größe steuert die Seitenabmessungen; Vektordaten bleiben auflösungsunabhängig, wodurch eine scharfe Darstellung bei jeder Zoomstufe gewährleistet ist.
 
 **Q: Kann ich für die TIFF‑Ausgabe eine andere DPI einstellen?**  
 A: Ja. Passen Sie `rasterizationOptions.setResolution(dpiValue)` an, bevor Sie `TiffOptions` erstellen.
 
+**Q: Wie kann ich **PDF-Dimensionen** für ein bestehendes PDF ändern, ohne das CAD neu zu rendern?**  
+A: Verwenden Sie Aspose.PDF, um das erzeugte PDF zu laden, und rufen Sie `pdf.getPages().setPageSize(PageSize.A4)` oder eine benutzerdefinierte Größe auf.
+
+**Q: Was ist der beste Weg, **dxf nach pdf** zu konvertieren und dabei Ebenen zu erhalten?**  
+A: Behalten Sie `setAutomaticLayoutsScaling(true)` bei und vermeiden Sie `setNoScaling(true)`; dadurch bleiben die Ebenen sichtbar und das Layout erhalten.
+
+## Fazit
+
+Herzlichen Glückwunsch! Sie haben erfolgreich **CAD zu PDF konvertiert** und **CAD nach TIFF exportiert**, während Sie **set canvas size java** verwendet haben, die **automatische Layout‑Skalierung** aktiviert haben und gelernt haben, wie man **canvas mode konfiguriert** für hochwertige Ausgaben. Dieses Tutorial bietet eine solide Grundlage für Ihre CAD‑Konvertierungsprojekte. Erkunden Sie weitere Funktionen und Möglichkeiten in der [Aspose.CAD‑Dokumentation](https://reference.aspose.com/cad/java/).
+
 ---
 
-**Zuletzt aktualisiert:** 2025-12-10  
-**Getestet mit:** Aspose.CAD for Java 24.12  
+**Zuletzt aktualisiert:** 2026-02-15  
+**Getestet mit:** Aspose.CAD für Java 24.12  
 **Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

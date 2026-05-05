@@ -1,6 +1,6 @@
 ---
-date: 2025-12-10
-description: Lär dig hur du skapar PDF från CAD med Aspose.CAD för Java och pennanpassning.
+date: 2026-02-15
+description: Lär dig hur du skapar PDF från CAD med Aspose.CAD för Java med pennanpassning.
   Denna steg‑för‑steg‑guide visar hur du exporterar CAD till PDF på ett effektivt
   sätt.
 linktitle: Pen Support in Export
@@ -14,32 +14,35 @@ weight: 13
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Pen‑stöd vid export
+# Stödpennor vid export
 
 ## Introduktion
 
-I den snabbt föränderliga världen av CAD‑konverteringar behöver utvecklare ofta **skapa PDF från CAD**‑filer samtidigt som de bevarar den visuella kvaliteten. Aspose.CAD för Java gör detta enkelt och erbjuder rika alternativ såsom penna‑anpassning som låter dig finjustera linjestilar under exportprocessen. I den här guiden går vi igenom ett komplett, praktiskt exempel som visar hur du **exporterar CAD till PDF** med anpassade penna‑inställningar, så att du kan generera polerade PDF‑filer direkt från DXF‑ritningar.
+I den snabbt föränderliga världen av CAD‑konverteringar behöver utvecklare ofta **create PDF from CAD**‑filer samtidigt som de bevarar visuell trohet. Aspose.CAD för Java gör detta enkelt och erbjuder rika alternativ såsom pennanpassning som låter dig finjustera linjestilar under exportprocessen. I den här guiden går vi igenom ett komplett, praktiskt exempel som visar hur man **export CAD to PDF** med anpassade penninställningar, så att du kan generera polerade PDF‑filer direkt från DXF‑ritningar.
 
 ## Snabba svar
-- **Vad betyder “create PDF from CAD”?** Att konvertera en CAD‑ritning (t.ex. DXF) till ett PDF‑dokument samtidigt som vektor‑kvaliteten bevaras.  
-- **Vilket bibliotek hanterar penna‑anpassning?** Aspose.CAD för Javas `PenOptions`‑klass.  
-- **Kan jag använda detta för andra format?** Ja – samma penna‑inställningar gäller för PNG, BMP, TIFF osv.  
-- **Behöver jag en licens?** En giltig Aspose.CAD‑licens krävs för produktionsanvändning.  
-- **Vad är minsta Java‑version?** Java 8 eller högre.
+- **What does “create PDF from CAD” mean?** Att konvertera en CAD‑ritning (t.ex. DXF) till ett PDF‑dokument samtidigt som vektor‑kvaliteten bevaras.  
+- **Which library handles pen customization?** Aspose.CAD för Java’s `PenOptions` class.  
+- **Can I use this for other formats?** Ja – samma penninställningar gäller för PNG, BMP, TIFF, etc.  
+- **Do I need a license?** En giltig Aspose.CAD‑licens krävs för produktionsanvändning.  
+- **What’s the minimum Java version?** Java 8 eller högre.
 
-## Vad betyder “create PDF from CAD”?
+## Vad är “create PDF from CAD”?
 Att skapa en PDF från CAD innebär att rasterisera eller vektor‑rendera en CAD‑ritning till en PDF‑fil. Detta möjliggör enkel delning, utskrift och arkivering av ingenjörsdesign utan att mottagaren behöver CAD‑programvara.
 
-## Varför använda penna‑stöd vid export av CAD till PDF?
-Penna‑stöd låter dig kontrollera linjeändar, fogar och tjocklek, vilket ger dig möjlighet att matcha företagets varumärke eller tekniska ritstandarder. Det är särskilt användbart när standardlinjerenderingen inte uppfyller dina visuella krav.
+## Varför använda pennstöd vid export av CAD till PDF?
+Pennstöd låter dig kontrollera linjeändar, fogar och tjocklek, vilket ger dig möjlighet att matcha företagets varumärke eller tekniska ritstandarder. Det är särskilt användbart när standardlinjerenderingen inte uppfyller dina visuella krav.
+
+## Hur man skapar pdf från cad – Steg‑för‑steg‑guide
+Nedan följer en praktisk genomgång som täcker allt från att konfigurera din miljö till att generera den slutliga PDF‑filen. Följ varje steg så får du en färdig lösning för **export CAD to PDF** med full pennkontroll.
 
 ## Förutsättningar
 
-- **Java‑utvecklingsmiljö** – en fungerande JDK (8 eller nyare) samt en IDE eller byggverktyg du föredrar.  
-- **Aspose.CAD‑bibliotek** – ladda ner den senaste JAR‑filen från den officiella webbplatsen [here](https://releases.aspose.com/cad/java/).  
-- **En exempel‑DXF‑fil** – för den här handledningen använder vi `conic_pyramid.dxf`.
+- **Java Development Environment** – en fungerande JDK (8 eller nyare) och en IDE eller byggverktyg efter eget val.  
+- **Aspose.CAD Library** – ladda ner den senaste JAR‑filen från den officiella sidan [here](https://releases.aspose.com/cad/java/).  
+- **A sample DXF file** – för den här handledningen använder vi `conic_pyramid.dxf`.
 
-Nu när vi har lagt grunden, låt oss dyka ner i koden.
+Nu när vi har lagt grunden, låt oss dyka in i koden.
 
 ## Importera namnrymder
 
@@ -59,9 +62,9 @@ import com.aspose.cad.internal.imaging.LineCap;
 String dataDir = "Your Document Directory" + "CADConversion/";
 ```
 
-> **Proffstips:** Ersätt `"Your Document Directory"` med den absoluta sökvägen där dina DXF‑filer finns.
+> **Pro tip:** Ersätt `"Your Document Directory"` med den absoluta sökvägen där dina DXF‑filer finns.
 
-## Steg 2: Läs in CAD‑filen
+## Steg 2: Ladda CAD‑filen
 
 ```java
 String srcFile = dataDir + "conic_pyramid.dxf";
@@ -78,9 +81,9 @@ rasterizationOptions.setPageWidth(cadImage.getWidth() * 100);
 rasterizationOptions.setPageHeight(cadImage.getHeight() * 100);
 ```
 
-Justera sidans dimensioner för att kontrollera upplösningen på den resulterande PDF‑filen. Att multiplicera med 100 ger en högupplöst utskrift som är lämplig för tryck.
+Justera sidans dimensioner för att kontrollera upplösningen på den resulterande PDF‑filen. Multiplikation med 100 ger en högupplöst utskrift som är lämplig för tryck.
 
-## Steg 4: Anpassa penna‑alternativ
+## Steg 4: Anpassa pennalternativ
 
 ```java
 PenOptions penOts = new PenOptions();
@@ -97,43 +100,41 @@ PdfOptions pdfOptions = new PdfOptions();
 pdfOptions.setVectorRasterizationOptions(rasterizationOptions);
 ```
 
-`PdfOptions`‑objektet knyter rasteriseringsinställningarna till PDF‑exportprocessen.
-
 ## Steg 6: Spara den exporterade PDF‑filen
 
 ```java
 cadImage.save((dataDir + "9LHATT-A56_generated.pdf"), pdfOptions);
 ```
 
-När du kör den här raden skrivs en PDF‑fil med namnet `9LHATT-A56_generated.pdf` till din `dataDir`‑mapp, komplett med den anpassade penna‑stilen du definierat.
+När du kör den här raden skrivs en PDF‑fil med namnet `9LHATT-A56_generated.pdf` till din `dataDir`‑mapp, komplett med den anpassade pennstilen du definierade.
 
-## Vanliga användningsområden
+## Vanliga användningsfall
 
-- **Teknisk dokumentation** – bädda in exakta ingenjörsritningar i PDF‑manualer.  
-- **Automatiserad rapportering** – generera PDF‑filer från CAD‑data i realtid i webbtjänster.  
-- **Kvalitetskontroll** – använd anpassade linjeändar för att markera mätningslinjer eller toleranser.
+- **Technical documentation** – bädda in exakta ingenjörsritningar i PDF‑manualer.  
+- **Automated reporting** – generera PDF‑filer från CAD‑data i realtid i webbtjänster.  
+- **Quality control** – applicera anpassade linjeändar för att markera mätningslinjer eller toleranser.
 
-## Felsökning och tips
+## Felsökning & tips
 
-- **Felaktig filsökväg** – se till att `dataDir` slutar med en filseparator (`/` eller `\\`).  
-- **Saknad licens** – utan en giltig licens körs biblioteket i utvärderingsläge, vilket kan lägga till vattenstämplar.  
-- **Oväntade linjestilar** – dubbelkolla att `PenOptions` är inställda innan du anropar `save`; annars används standardvärden.
+- **Incorrect file path** – se till att `dataDir` slutar med en filsökvägsavgränsare (`/` eller `\\`).  
+- **Missing license** – utan en giltig licens körs biblioteket i evalueringsläge, vilket kan lägga till vattenstämplar.  
+- **Unexpected line styles** – dubbelkolla att `PenOptions` är inställda innan du anropar `save`; annars används standardvärden.
 
 ## Vanliga frågor
 
-### Q1: Kan jag anpassa penna‑alternativ för andra format än PDF?
+### Q1: Kan jag anpassa pennalternativ för andra format än PDF?
 
-A1: Ja, penna‑anpassningen som demonstreras i den här handledningen gäller för olika bildformat, inklusive PDF, PNG, BMP, GIF, JPEG2000, JPEG, PSD, TIFF och WMF.
+A1: Ja, den pennanpassning som demonstreras i den här handledningen är tillämplig på olika bildformat, inklusive PDF, PNG, BMP, GIF, JPEG2000, JPEG, PSD, TIFF och WMF.
 
 ### Q2: Hur kan jag hantera olika start‑ och slut‑caps för pennor?
 
 A2: Använd `PenOptions`‑klassen för att sätta önskade start‑ och slut‑caps, vilket ger flexibilitet i att definiera linjernas utseende.
 
-### Q3: Vad händer om jag inte specificerar penna‑alternativ?
+### Q3: Vad händer om jag inte specificerar pennalternativ?
 
-A3: Om penna‑alternativ inte anges explicit, använder systemet sina standardpennor, vilka kan variera i olika sammanhang.
+A3: Om pennalternativ inte anges explicit kommer systemet att använda sina standardpennor, vilka kan variera i olika sammanhang.
 
-### Q4: Finns det särskilda överväganden för rasteriseringsalternativ?
+### Q4: Finns det specifika överväganden för rasteriseringsalternativ?
 
 A4: Justera sidbredd och -höjd i rasteriseringsalternativen för att kontrollera dimensionerna på den exporterade bilden.
 
@@ -143,7 +144,7 @@ A5: Utforska Aspose.CAD‑community‑forumet på [here](https://forum.aspose.co
 
 ---
 
-**Senast uppdaterad:** 2025-12-10  
+**Senast uppdaterad:** 2026-02-15  
 **Testat med:** Aspose.CAD 24.11 for Java  
 **Författare:** Aspose  
 

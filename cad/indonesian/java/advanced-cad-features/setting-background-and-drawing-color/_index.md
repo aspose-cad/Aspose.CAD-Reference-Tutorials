@@ -1,49 +1,64 @@
 ---
-date: 2025-12-12
+date: 2026-02-15
 description: Pelajari cara mengatur warna latar belakang Java menggunakan Aspose.CAD
-  untuk Java saat mengonversi CAD ke PDF dan TIFF. Sesuaikan warna gambar untuk hasil
-  profesional.
+  untuk Java saat mengonversi CAD ke PDF dan TIFF. Temukan cara mengubah warna latar
+  belakang CAD, mengonversi CAD ke PDF, dan mengonversi CAD ke TIFF dengan kontrol
+  penuh atas warna gambar.
 linktitle: Setting Background and Drawing Color
 second_title: Aspose.CAD Java API
-title: Mengatur warna latar belakang Java dengan Aspose.CAD untuk Java
+title: Atur warna latar belakang java dengan Aspose.CAD untuk Java
 url: /id/java/advanced-cad-features/setting-background-and-drawing-color/
 weight: 15
 ---
 
-{{< blocks/products/pf/main-wrap-class >}}
+ yang Sering Diajukan"
+
+- Q&A translate.
+
+- "## Conclusion and next steps" -> "## Kesimpulan dan Langkah Selanjutnya"
+
+- Paragraph translate.
+
+- Footer lines: "Last Updated", "Tested With", "Author". Translate.
+
+- Keep shortcodes at bottom.
+
+Make sure to preserve markdown formatting, tables, etc.
+
+Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Mengatur warna latar belakang java dengan Aspose.CAD for Java
+# Atur warna latar belakang java dengan Aspose.CAD untuk Java
 
-## Introduction
+## Pendahuluan
 
-Dalam alur kerja CAD modern, kemampuan untuk **mengatur warna latar belakang java** selama konversi sangat penting untuk menghasilkan dokumen yang jelas dan siap dipresentasikan. Aspose.CAD for Java memudahkan konversi file CAD ke PDF atau TIFF sambil memberi Anda kontrol penuh atas warna latar belakang dan warna gambar. Pada tutorial ini kami akan membahas seluruh proses—dari memuat file DXF hingga mengekspor file PDF dan TIFF dengan warna pilihan Anda.
+Dalam alur kerja CAD modern, kemampuan untuk **set background color java** selama konversi sangat penting untuk menghasilkan dokumen yang jelas dan siap dipresentasikan. Aspose.CAD untuk Java memudahkan konversi file CAD ke PDF atau TIFF sambil memberi Anda kontrol penuh atas warna latar belakang dan warna gambar. Dalam tutorial ini kami akan membahas seluruh proses—dari memuat file DXF hingga mengekspor file PDF dan TIFF dengan warna pilihan Anda. Anda juga akan melihat mengapa mengubah warna latar belakang CAD dapat meningkatkan keterbacaan dan bagaimana mengintegrasikan langkah ini ke dalam pipeline pemrosesan batch yang lebih besar.
 
-## Quick Answers
-- **Perpustakaan mana yang menangani konversi CAD di Java?** Aspose.CAD for Java.
-- **Apakah saya dapat mengubah warna latar belakang selama konversi?** Ya, menggunakan `CadRasterizationOptions.setBackgroundColor`.
-- **Format output apa yang didukung?** PDF dan TIFF (keduanya rasterized).
-- **Apakah saya memerlukan lisensi untuk penggunaan produksi?** Lisensi komersial diperlukan; versi percobaan gratis tersedia.
+## Jawaban Cepat
+- **Perpustakaan mana yang menangani konversi CAD di Java?** Aspose.CAD untuk Java.  
+- **Apakah saya dapat mengubah warna latar belakang selama konversi?** Ya, gunakan `CadRasterizationOptions.setBackgroundColor`.  
+- **Format output apa yang didukung?** PDF dan TIFF (keduanya rasterized).  
+- **Apakah saya memerlukan lisensi untuk penggunaan produksi?** Lisensi komersial diperlukan; trial gratis tersedia.  
 - **Apakah konversi massal didukung?** Tentu—proses banyak file dalam loop dengan pengaturan yang sama.
 
-## What is “set background color java” in the context of CAD conversion?
-Mengatur warna latar belakang di Java berarti mengonfigurasi opsi rasterisasi sehingga gambar yang dihasilkan (PDF atau TIFF) menggunakan warna yang Anda tentukan alih-alih kanvas putih default. Ini meningkatkan kontras visual, terutama ketika gambar CAD berisi garis-garis terang.
+## Apa itu “set background color java” dalam konteks konversi CAD?
+Mengatur warna latar belakang di Java berarti mengonfigurasi opsi rasterisasi sehingga gambar yang dihasilkan (PDF atau TIFF) menggunakan warna yang Anda tentukan alih-alih kanvas putih default. Ini meningkatkan kontras visual, terutama ketika gambar CAD berisi garis-garis ringan.
 
-## Why use Aspose.CAD for Java to convert CAD to PDF or TIFF?
-- **High fidelity** – mempertahankan ketebalan garis, lapisan, dan warna.
-- **No external dependencies** – pure Java, tanpa perpustakaan native.
-- **Flexible rendering** – kontrol atas ukuran halaman, DPI, latar belakang, dan warna gambar.
-- **Batch processing** – ideal untuk pipeline otomatisasi.
+## Mengapa mengatur warna latar belakang java penting untuk konversi CAD?
+- **Kejelasan visual yang lebih baik** – latar belakang gelap atau berwarna dapat membuat geometri tipis lebih menonjol.  
+- **Konsistensi merek** – sesuaikan latar belakang dengan warna korporat untuk laporan.  
+- **Output siap cetak** – beberapa printer menangani latar non‑putih dengan lebih baik, mengurangi penggunaan tinta pada area putih.  
+- **Kemudahan otomatisasi** – pengaturan yang sama dapat diterapkan pada ratusan file dalam pekerjaan batch.
 
-## Prerequisites
+## Prasyarat
 
 Sebelum memulai, pastikan Anda memiliki:
 
-- **Aspose.CAD for Java Library** – unduh [di sini](https://releases.aspose.com/cad/java/).
+- **Aspose.CAD untuk Java Library** – unduh [di sini](https://releases.aspose.com/cad/java/).  
 - **Folder untuk file CAD Anda** – ganti `"Your Document Directory" + "CADConversion/"` dengan jalur sebenarnya di mesin Anda.
 
-## Import Namespaces
+## Impor Namespace
 
 Pertama, impor kelas‑kelas yang diperlukan. Impor ini memberi Anda akses ke penanganan warna, opsi rasterisasi, dan format output.
 
@@ -58,9 +73,9 @@ import com.aspose.cad.imageoptions.PdfOptions;
 import com.aspose.cad.imageoptions.TiffOptions;
 ```
 
-## Step‑by‑Step Guide
+## Panduan Langkah‑demi‑Langkah
 
-### Step 1: Load the CAD file
+### Langkah 1: Muat file CAD
 
 Kami memuat file DXF sumber (atau format CAD lain yang didukung) ke dalam objek `Image`.
 
@@ -70,7 +85,7 @@ String srcFile = dataDir + "conic_pyramid.dxf";
 Image objImage = Image.load(srcFile);
 ```
 
-### Step 2: Configure background and drawing color
+### Langkah 2: Konfigurasikan warna latar belakang dan warna gambar
 
 Di sini kami mengatur dimensi halaman, memilih warna latar belakang, dan memberi tahu renderer untuk menggunakan warna gambar tertentu alih‑alih warna CAD asli.
 
@@ -83,9 +98,9 @@ rasterizationOptions.setDrawType(CadDrawTypeMode.UseDrawColor);
 rasterizationOptions.setBackgroundColor(com.aspose.cad.Color.getBlue());   // overwrite with blue if needed
 ```
 
-> **Pro tip:** Eksperimen dengan `CadDrawTypeMode.UseOriginalColors` jika Anda ingin mempertahankan warna asli CAD sambil tetap menerapkan latar belakang khusus.
+> **Pro tip:** Bereksperimenlah dengan `CadDrawTypeMode.UseOriginalColors` jika Anda ingin mempertahankan warna asli CAD sambil tetap menerapkan latar belakang khusus.
 
-### Step 3: Create PDF and save
+### Langkah 3: Buat PDF dan simpan
 
 Kami mengikat opsi rasterisasi ke `PdfOptions` dan menyimpan hasilnya sebagai file PDF.
 
@@ -95,7 +110,7 @@ pdfOptions.setVectorRasterizationOptions(rasterizationOptions);
 objImage.save(dataDir + "result_out_.pdf", pdfOptions);
 ```
 
-### Step 4: Create TIFF and save
+### Langkah 4: Buat TIFF dan simpan
 
 Pengaturan rasterisasi yang sama dapat digunakan kembali untuk output TIFF.
 
@@ -105,36 +120,52 @@ tiffOptions.setVectorRasterizationOptions(rasterizationOptions);
 objImage.save(dataDir + "result_out_.tiff", tiffOptions);
 ```
 
-## Common Issues & Solutions
+## Contoh penggunaan umum untuk mengubah warna latar belakang CAD
+- **Presentasi** – latar belakang gelap membuat garis tampak menonjol pada slide.  
+- **Dokumentasi teknis** – menyesuaikan latar belakang dengan tema dokumen meningkatkan konsistensi.  
+- **Pelaporan otomatis** – menghasilkan PDF dengan skema warna perusahaan tanpa pemrosesan manual.  
+- **Penyimpanan arsip** – file TIFF dengan latar netral mengurangi artefak kompresi.
 
-| Issue | Solution |
+## Masalah Umum & Solusi
+
+| Masalah | Solusi |
 |-------|----------|
-| **Background color does not change** | Pastikan Anda memanggil `setBackgroundColor` *setelah* mengatur tipe gambar. Panggilan kedua akan menimpa yang pertama, jadi pertahankan warna yang diinginkan sebagai pemanggilan terakhir. |
-| **Output is blurry** | Tingkatkan `PageWidth`/`PageHeight` atau tetapkan DPI yang lebih tinggi melalui `rasterizationOptions.setResolution(...)`. |
+| **Warna latar belakang tidak berubah** | Pastikan Anda memanggil `setBackgroundColor` *setelah* mengatur tipe gambar. Panggilan kedua akan menimpa yang pertama, jadi jadikan warna yang diinginkan sebagai pemanggilan terakhir. |
+| **Output buram** | Tingkatkan `PageWidth`/`PageHeight` atau atur DPI yang lebih tinggi melalui `rasterizationOptions.setResolution(...)`. |
 | **File not found exception** | Verifikasi bahwa jalur `dataDir` diakhiri dengan pemisah (`/` atau `\\`) dan bahwa file tersebut memang ada. |
 
-## Frequently Asked Questions
+## Pemecahan Masalah dan Praktik Terbaik
+- **Selalu bebaskan sumber daya** – panggil `objImage.dispose()` setelah selesai menyimpan untuk membebaskan memori native.  
+- **Tip pemrosesan batch** – buat instance `CadRasterizationOptions` sekali dan gunakan kembali di dalam loop untuk meningkatkan kinerja.  
+- **Pemilihan warna** – gunakan konstanta `com.aspose.cad.Color` untuk warna umum atau buat warna khusus dengan `new Color(r, g, b)`.  
+- **Pertimbangan DPI** – untuk PDF berkualitas cetak, DPI 300–600 disarankan; untuk tampilan di layar, 96–150 sudah cukup.
 
-**Q: Apakah Aspose.CAD for Java cocok untuk konversi massal?**  
-A: Tentu. Anda dapat menempatkan kode di dalam loop dan memproses puluhan file dengan pengaturan rasterisasi yang sama.
+## Pertanyaan yang Sering Diajukan
 
-**Q: Bisakah saya menyesuaikan warna latar belakang pada file yang dihasilkan?**  
-A: Ya. Tutorial ini menunjukkan cara mengatur `com.aspose.cad.Color` apa pun yang Anda perlukan untuk output PDF dan TIFF.
+**T: Apakah Aspose.CAD untuk Java cocok untuk konversi massal?**  
+J: Tentu. Anda dapat menempatkan kode di dalam loop dan memproses puluhan file dengan pengaturan rasterisasi yang sama.
 
-**Q: Di mana saya dapat menemukan dokumentasi lengkap untuk Aspose.CAD for Java?**  
-A: Lihat [dokumentasi](https://reference.aspose.com/cad/java/) untuk detail mendalam dan contoh tambahan.
+**T: Bisakah saya menyesuaikan warna latar belakang dalam file yang dihasilkan?**  
+J: Ya. Tutorial ini menunjukkan cara mengatur `com.aspose.cad.Color` apa pun yang Anda perlukan untuk output PDF dan TIFF.
 
-**Q: Apakah ada versi percobaan gratis?**  
-A: Ya, jelajahi fitur‑fiturnya dengan [versi percobaan gratis](https://releases.aspose.com/).
+**T: Di mana saya dapat menemukan dokumentasi lengkap untuk Aspose.CAD untuk Java?**  
+J: Lihat [dokumentasi](https://reference.aspose.com/cad/java/) untuk detail mendalam dan contoh tambahan.
 
-**Q: Bagaimana cara mendapatkan dukungan untuk Aspose.CAD for Java?**  
-A: Kunjungi [forum Aspose.CAD](https://forum.aspose.com/c/cad/19) untuk mengajukan pertanyaan dan berbagi pengalaman dengan komunitas.
+**T: Apakah ada trial gratis yang tersedia?**  
+J: Ya, jelajahi fitur-fitur dengan [trial gratis](https://releases.aspose.com/).
+
+**T: Bagaimana cara mendapatkan dukungan untuk Aspose.CAD untuk Java?**  
+J: Kunjungi [forum Aspose.CAD](https://forum.aspose.com/c/cad/19) untuk mengajukan pertanyaan dan berbagi pengalaman dengan komunitas.
+
+## Kesimpulan dan Langkah Selanjutnya
+
+Anda kini memiliki metode lengkap yang siap produksi untuk **set background color java** saat mengonversi gambar CAD ke PDF atau TIFF. Cobalah mengganti warna latar belakang, menyesuaikan DPI, atau menggabungkan pendekatan ini dengan fitur Aspose.CAD lain seperti penyaringan layer atau konversi vektor‑ke‑raster. Saat Anda siap, jelajahi topik terkait seperti **cara mengonversi CAD ke PDF dengan ukuran halaman khusus** atau **mengoptimalkan kompresi TIFF untuk arsip rekayasa besar**.
 
 ---
 
-**Last Updated:** 2025-12-12  
-**Tested With:** Aspose.CAD for Java 24.11  
-**Author:** Aspose  
+**Terakhir Diperbarui:** 2026-02-15  
+**Diuji Dengan:** Aspose.CAD untuk Java 24.11  
+**Penulis:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
