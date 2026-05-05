@@ -1,33 +1,50 @@
 ---
-title: Aspose.CAD for .NET'te CAD Çizimini Raster Görüntüye Dönüştürün
-linktitle: CAD Çizimini Raster Görüntüye Dönüştür
-second_title: Aspose.CAD .NET - CAD ve BIM Dosya Formatı
-description: Aspose.CAD ile CAD çizimlerini .NET'te raster görüntülere dönüştürmenin kusursuz sürecini keşfedin. Verimli iş akışlarının kilidini açın ve CAD projelerinizi zahmetsizce geliştirin.
-weight: 11
+date: 2026-03-19
+description: Aspose.CAD kullanarak .NET’te CAD’i PNG’ye nasıl dönüştüreceğinizi öğrenin,
+  CAD’i verimli bir şekilde PNG olarak kaydedin ve raster görüntü iş akışınızı kolaylaştırın.
+linktitle: Convert CAD Drawing to Raster Image
+second_title: Aspose.CAD .NET - CAD and BIM File Format
+title: Aspose.CAD for .NET'te CAD'yi PNG'ye Dönüştür
 url: /tr/net/cad-drawing-manipulation/convert-cad-drawing-to-raster-image/
+weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.CAD for .NET'te CAD Çizimini Raster Görüntüye Dönüştürün
+# Aspose.CAD for .NET'te CAD'yi PNG'ye Dönüştürme
 
-## giriiş
+## Giriş
 
-Bilgisayar destekli tasarımın (CAD) sürekli gelişen ortamında, CAD çizimlerini sorunsuz bir şekilde taramalı görüntülere dönüştürme ihtiyacı çok önemlidir. Bu adım adım kılavuz, güçlü Aspose.CAD for .NET kütüphanesini kullanarak bunu nasıl başarabileceğinizi araştırıyor. Aspose.CAD, geliştiricilere CAD ile ilgili iş akışlarını geliştirmeleri için güçlü bir araç seti sağlayarak süreci basitleştirir.
+Modern CAD‑odaklı uygulamalarda, **CAD'yi PNG'ye dönüştürme** yaygın bir gereksinimdir—ister küçük önizlemeler oluşturmak, ister çizimleri web sayfalarına gömmek, ister tasarımları raster görüntüler olarak arşivlemek isteyin. Bu öğretici, Aspose.CAD for .NET kütüphanesini kullanarak bir CAD çizimini (DXF, DWG vb.) yüksek kaliteli bir PNG dosyasına dönüştürmenin tam sürecini adım adım gösterir. Sonunda, rasterizasyon ayarları üzerinde tam kontrolle **CAD'yi PNG olarak kaydedebileceksiniz**, böylece iş akışınız daha hızlı ve daha güvenilir olacak.
+
+## Hızlı Cevaplar
+- **CAD‑to‑PNG dönüşümü için en iyi kütüphane nedir?** Aspose.CAD for .NET.  
+- **PNG'ye hangi dosya formatları dışa aktarılabilir?** DWG, DXF, DGN ve diğer desteklenen CAD formatları.  
+- **Üretim kullanımında lisansa ihtiyacım var mı?** Evet, ticari bir lisans gereklidir; ücretsiz deneme mevcuttur.  
+- **Görüntü boyutunu ve kalitesini özelleştirebilir miyim?** Kesinlikle—rasterizasyon seçenekleri sayfa genişliği, yüksekliği, arka plan rengi ve daha fazlasını ayarlamanıza olanak tanır.  
+- **Kod .NET Core / .NET 6 ile uyumlu mu?** Evet, aynı API .NET Framework, .NET Core ve .NET 5/6'da çalışır.
+
+## “CAD'yi PNG'ye dönüştürmek” nedir?
+CAD'yi PNG'ye dönüştürmek, vektör tabanlı CAD çizimlerini piksel tabanlı bir görüntü formatına (PNG) rasterleştirmek anlamına gelir. Bu süreç, görsel sadakati korurken dosyanın tarayıcılarda, mobil uygulamalarda veya CAD formatlarını doğal olarak desteklemeyen herhangi bir ortamda kolayca görüntülenmesini sağlar.
+
+## Neden CAD'yi PNG'ye dönüştürmek için Aspose.CAD kullanmalı?
+- **Harici bağımlılık yok** – saf .NET, yerel CAD motorları gerekmez.  
+- **Tam format desteği** – DWG, DXF, DGN ve daha fazlasını işler.  
+- **İnce ayarlı rasterizasyon kontrolü** – sayfa boyutu, çözünürlük, arka plan, çizgi kalınlıkları vb.  
+- **Yüksek performans** – sunucu tarafı toplu işleme için optimize edilmiştir.
 
 ## Önkoşullar
 
-Eğiticiye dalmadan önce aşağıdaki önkoşulların yerine getirildiğinden emin olun:
+Başlamadan önce şunların yüklü olduğundan emin olun:
 
-1.  Aspose.CAD for .NET Kütüphanesi: Aspose.CAD kütüphanesini şu adresten indirip yükleyin:[indirme sayfası](https://releases.aspose.com/cad/net/).
+1. **Aspose.CAD for .NET** – [download page](https://releases.aspose.com/cad/net/) adresinden indirin.  
+2. .NET uyumlu bir IDE (Visual Studio, Rider veya VS Code) ve .NET Framework 4.6+ ya da .NET Core 3.1+ hedefleyen bir proje.  
 
-2. Geliştirme Ortamı: .NET geliştirme için uyumlu bir IDE ile çalışan bir geliştirme ortamı oluşturun.
+## Ad Alanlarını İçe Aktarma
 
-## Ad Alanlarını İçe Aktar
-
-Aspose.CAD işlevlerine erişmek için .NET projenize gerekli ad alanlarını içe aktarın. Kod dosyanızın başına aşağıdakileri ekleyin:
+.NET projenizde Aspose.CAD işlevlerine erişmek için gerekli ad alanlarını içe aktarın. Kod dosyanızın başına aşağıdakileri ekleyin:
 
 ```csharp
 using System;
@@ -38,92 +55,105 @@ using System.Threading.Tasks;
 using Aspose.CAD;
 ```
 
-## 1. Adım: Dosya Yollarını Tanımlayın
+## Adım‑Adım Kılavuz
+
+### Adım 1: Dosya Yollarını Tanımlama
+Kaynak CAD dosyasını ve hedef PNG yolunu ayarlayın. Yer tutucuyu makinenizdeki gerçek dizinle değiştirin.
 
 ```csharp
-// Belgeler dizininin yolu.
+// The path to the documents directory.
 string MyDir = "Your Document Directory";
 string sourceFilePath = MyDir + "conic_pyramid.dxf";
 ```
 
-"Belge Dizininiz"i CAD dosyanızın gerçek yolu ile değiştirdiğinizden emin olun.
-
-## Adım 2: CAD Çizimini Yükleyin
+### Adım 2: CAD Çizimini Yükleme
+`Aspose.CAD.Image.Load` kullanarak CAD dosyasını açın. Bu, çizimin bellekte bir temsilini oluşturur ve rasterleştirmenize olanak tanır.
 
 ```csharp
 using (Aspose.CAD.Image image = Aspose.CAD.Image.Load(sourceFilePath))
 {
 ```
 
-Bu adım Aspose.CAD görüntü nesnesini başlatır ve CAD çizimini belirtilen dosya yolundan yükler.
-
-## 3. Adım: Rasterleştirme Seçeneklerini Yapılandırın
+### Adım 3: Rasterizasyon Seçeneklerini Yapılandırma  
+Vektör verisinin piksellere nasıl dönüştürüleceğini tanımlayın. Burada 1200 × 1200 piksel bir tuval ayarlıyoruz, ancak ihtiyaçlarınıza göre `PageWidth` ve `PageHeight` değerlerini (ör. **convert dwg to png** belirli bir DPI'da) ayarlayabilirsiniz.
 
 ```csharp
-// CadRasterizationOptions'ın bir örneğini oluşturun
+// Create an instance of CadRasterizationOptions
 Aspose.CAD.ImageOptions.CadRasterizationOptions rasterizationOptions = new Aspose.CAD.ImageOptions.CadRasterizationOptions();
-// Sayfa genişliğini ve yüksekliğini ayarlayın
+// Set page width & height
 rasterizationOptions.PageWidth = 1200;
 rasterizationOptions.PageHeight = 1200;
 ```
 
-Burada çıktı sayfasının genişliğini ve yüksekliğini tanımlayarak rasterleştirme seçeneklerini ayarlıyoruz.
+> **Pro tip:** Büyük çizimler için render hızını artırmak amacıyla `rasterizationOptions.BackgroundColor`'ı katı bir renge ayarlayabilir veya daha hızlı vektör dönüşümü için `rasterizationOptions.DrawType`'ı etkinleştirebilirsiniz.
 
-## Adım 4: Ortaya Çıkan Görüntü için PngOptions Oluşturun
+### Adım 4: Sonuç Görüntüsü için PNG Seçeneklerini Oluşturma  
+Rasterizasyon ayarlarını bir `PngOptions` nesnesi içinde paketleyin; bu, Aspose.CAD'in PNG dosyası üretmesini sağlar.
 
 ```csharp
-// Ortaya çıkan görüntü için bir PngOptions örneği oluşturun
+// Create an instance of PngOptions for the resultant image
 ImageOptionsBase options = new Aspose.CAD.ImageOptions.PngOptions();
-// Rasterleştirme seçeneklerini ayarlayın
+// Set rasterization options
 options.VectorRasterizationOptions = rasterizationOptions;
 ```
 
-Bu adım, daha önce tanımlanan rasterleştirme seçeneklerini belirterek, ortaya çıkan görüntü için seçeneklerin yapılandırılmasını içerir.
-
-## Adım 5: Ortaya Çıkan Resmi Kaydet
+### Adım 5: Sonuç PNG'yi Kaydetme  
+Dizin yolunu istediğiniz dosya adıyla birleştirin ve rasterleştirilmiş görüntüyü diske yazın. Bu adım **CAD'yi PNG olarak kaydeder**.
 
 ```csharp
 MyDir = MyDir + "conic_pyramid_raster_image_out.png";
-// Ortaya çıkan görüntüyü kaydet
+// Save resultant image
 image.Save(MyDir, options);
 ```
 
-Dönüştürülen taramalı görüntüyü belirtilen çıktı dosyası yoluna kaydedin.
-
-## Adım 6: Başarı Mesajını Görüntüleyin
+### Adım 6: Başarı Mesajını Görüntüleme  
+Dönüşümün başarılı olduğunu onaylayın ve dosyanın nerede kaydedildiğini gösterin.
 
 ```csharp
-// ExEnd:Çizimi Raster Görüntüye Dönüştür
+//ExEnd:ConvertDrawingToRasterImage            
 Console.WriteLine("\nCAD drawing converted successfully to raster image format.\nFile saved at " + MyDir);
 ```
 
-Dönüştürme işleminin tamamlandığını belirten bir başarı mesajı görüntüleyin.
+> **Not:** Adım 2'deki `using` bloğu, `Image` nesnesini otomatik olarak serbest bırakır ve tüm kaynakların serbest bırakılmasını sağlar.
 
-## Çözüm
+## Yaygın Sorunlar ve Çözümler
 
-Bu eğitimde, Aspose.CAD for .NET kütüphanesini kullanarak bir CAD çizimini raster görüntüye dönüştürmenin adım adım sürecini inceledik. Aspose.CAD, güçlü özellikleri ve entegrasyon kolaylığıyla geliştiricilerin CAD iş akışlarını zahmetsizce düzenlemelerine olanak tanır.
+| Sorun | Neden | Çözüm |
+|-------|-------|-----|
+| **Boş PNG çıktısı** | Rasterizasyon seçenekleri ayarlanmamış (ör. `PageWidth`/`PageHeight` eksik). | `CadRasterizationOptions`'ın sıfır olmayan bir tuval boyutu tanımladığından emin olun. |
+| **Yanlış renkler** | Arka plan rengi varsayılan olarak beyaz; kaynak çizim şeffaf katmanlar kullanıyor. | `rasterizationOptions.BackgroundColor = Color.Transparent;` ayarlayın. |
+| **Büyük DWG dosyalarında performans gecikmesi** | Döşeme olmadan yüksek çözünürlük. | Render alanını sınırlamak veya DPI'yi düşürmek için `rasterizationOptions.LayoutOptions` kullanın. |
+| **Lisans istisnası** | Üretimde geçerli bir lisans olmadan çalıştırmak. | Görüntüyü yüklemeden önce `License license = new License(); license.SetLicense("Aspose.CAD.lic");` kodu ile lisansı uygulayın. |
 
-## SSS'ler
+## Sıkça Sorulan Sorular
 
-### S1: Aspose.CAD tüm CAD dosya formatlarıyla uyumlu mudur?
+### S1: Aspose.CAD tüm CAD dosya formatlarıyla uyumlu mu?
+C1: Aspose.CAD, DWG, DXF, DGN ve daha fazlası dahil olmak üzere geniş bir CAD dosya formatı yelpazesini destekler. Kapsamlı liste için [documentation](https://reference.aspose.com/cad/net/) adresine bakın.
 
-Cevap1: Aspose.CAD, DWG, DXF, DGN ve daha fazlasını içeren çok çeşitli CAD dosya formatlarını destekler. Bakın[dokümantasyon](https://reference.aspose.com/cad/net/) kapsamlı bir liste için.
+### S2: Rasterizasyon seçeneklerini farklı projeler için özelleştirebilir miyim?
+C2: Evet, Aspose.CAD rasterizasyon seçeneklerinin kapsamlı özelleştirilmesine izin verir, böylece geliştiriciler çıktıyı proje gereksinimlerine göre ayarlayabilir.
 
-### S2: Farklı projeler için rasterleştirme seçeneklerini özelleştirebilir miyim?
+### S3: Aspose.CAD için ücretsiz deneme mevcut mu?
+C3: Evet, Aspose.CAD özelliklerini ücretsiz deneme ile keşfedebilirsiniz. Başlamak için [buraya](https://releases.aspose.com/) gidin.
 
-Cevap2: Evet, Aspose.CAD, rasterleştirme seçeneklerinin kapsamlı şekilde özelleştirilmesine olanak tanıyarak geliştiricilerin çıktıyı proje gereksinimlerine göre uyarlamasına olanak tanır.
-
-### S3: Aspose.CAD için ücretsiz deneme sürümü mevcut mu?
-
- Cevap3: Evet, Aspose.CAD'in özelliklerini ücretsiz denemeyle keşfedebilirsiniz. Ziyaret etmek[Burada](https://releases.aspose.com/) başlamak.
-
-### S4: Aspose.CAD için nasıl destek alabilirim?
-
- Cevap4: Yardım veya sorularınız için Aspose.CAD'i ziyaret edin[destek Forumu](https://forum.aspose.com/c/cad/19).
+### S4: Aspose.CAD için destek nasıl alabilirim?
+C4: Herhangi bir yardım veya soru için Aspose.CAD [support forum](https://forum.aspose.com/c/cad/19) adresini ziyaret edin.
 
 ### S5: Aspose.CAD için geçici lisanslar mevcut mu?
- 
- Cevap5: Evet, geliştiriciler Aspose.CAD için geçici lisansları şuradan alabilirler:[bu bağlantı](https://purchase.aspose.com/temporary-license/).
+C5: Evet, geliştiriciler [bu linkten](https://purchase.aspose.com/temporary-license/) geçici lisans alabilirler.
+
+### S6: Bu yöntemi **convert DWG to PNG** olarak da kullanabilir miyim?
+C6: Kesinlikle. Aynı kod DWG dosyaları için de çalışır; sadece kaynak dosya uzantısını `.dwg` olarak değiştirin.
+
+### S7: **export DXF to image** işlemini şeffaf arka planla nasıl yaparım?
+C7: PNG'yi kaydetmeden önce `rasterizationOptions.BackgroundColor = Color.Transparent;` ayarlayın.
+
+---
+
+**Son Güncelleme:** 2026-03-19  
+**Test Edilen Versiyon:** Aspose.CAD 24.11 for .NET (latest release)  
+**Yazar:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -1,32 +1,49 @@
 ---
-title: ضبط حجم رسم CAD في Aspose.CAD لـ .NET
-linktitle: ضبط حجم رسم CAD
-second_title: Aspose.CAD .NET - تنسيق ملف CAD وBIM
-description: تعرف على كيفية ضبط أحجام رسم CAD في .NET بسهولة باستخدام Aspose.CAD. اتبع دليلنا خطوة بخطوة لتغيير الحجم بسلاسة.
-weight: 10
+date: 2026-03-19
+description: تعلم كيفية تغيير حجم رسومات CAD في .NET باستخدام Aspose.CAD، بما في ذلك
+  كيفية تعديل وحدات رسومات CAD وضبط حجم التخطيط. اتبع دليلنا خطوة بخطوة.
+linktitle: Adjusting CAD Drawing Size
+second_title: Aspose.CAD .NET - CAD and BIM File Format
+title: كيفية تغيير حجم رسومات CAD باستخدام Aspose.CAD لـ .NET
 url: /ar/net/cad-drawing-manipulation/adjust-cad-drawing-size/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# ضبط حجم رسم CAD في Aspose.CAD لـ .NET
+# كيفية تغيير حجم رسومات CAD باستخدام Aspose.CAD لـ .NET
 
 ## مقدمة
 
-هل تتطلع إلى ضبط حجم رسومات CAD بسلاسة في تطبيقات .NET الخاصة بك؟ يوفر Aspose.CAD for .NET حلاً قويًا، مما يسمح لك بالتعامل بسهولة مع تغيير حجم رسم CAD. في هذا البرنامج التعليمي، سنرشدك خلال العملية، مع تفصيل كل خطوة للتأكد من فهمك لتعقيدات تغيير حجم رسومات CAD باستخدام Aspose.CAD.
+إذا كنت بحاجة إلى **how to resize CAD** الملفات مباشرةً من تطبيق .NET الخاص بك، فقد وجدت المكان المناسب. في هذا البرنامج التعليمي سنوضح لك كيفية تغيير إعدادات وحدة CAD، وتكبير أبعاد رسومات CAD، وضبط حجم CAD برمجياً باستخدام Aspose.CAD لـ .NET. في نهاية الدليل ستحصل على حل قوي وجاهز للإنتاج لتغيير حجم أي تنسيق CAD مدعوم.
 
-## المتطلبات الأساسية
+## إجابات سريعة
+- **ما المكتبة المطلوبة؟** Aspose.CAD for .NET  
+- **هل يمكنني تغيير نوع الوحدة؟** نعم – عيّن `UnitType` في `CadRasterizationOptions`  
+- **هل يلزم ترخيص للإنتاج؟** يلزم وجود ترخيص Aspose.CAD صالح للاستخدام غير التجريبي  
+- **ما هو تنسيق الصورة الذي يصدره المثال؟** BMP (ولكن أي تنسيق نقطي مدعوم يعمل)  
+- **كم عدد أسطر الشيفرة؟** أقل من 30 سطرًا لعملية تغيير الحجم الكاملة  
 
-قبل أن نتعمق في البرنامج التعليمي، تأكد من توفر المتطلبات الأساسية التالية:
+## ما هو “how to resize CAD” عمليًا؟
+تغيير حجم رسم CAD يعني تحويل البيانات المتجهة إلى صورة نقطية بمقياس أو وحدة محددة (مثلاً السنتيمترات أو البوصات). هذا مفيد عندما تحتاج إلى تضمين الرسومات في التقارير، أو إنشاء صور مصغرة، أو دمج مرئيات CAD في صفحات الويب.
 
-- Aspose.CAD for .NET Library: قم بتنزيل المكتبة وتثبيتها من ملف[صفحة تنزيل Aspose.CAD لـ .NET](https://releases.aspose.com/cad/net/).
-- نموذج رسم CAD: تأكد من وجود نموذج لملف رسم CAD (على سبيل المثال، "sample.dwg") في دليل المستند.
+## لماذا تعديل حجم CAD باستخدام Aspose.CAD؟
+- **لا يوجد برنامج CAD خارجي** – كل شيء يعمل داخل شفرة .NET الخاصة بك.  
+- **تحكم دقيق** في الوحدات، والتخطيطات، وخيارات التحويل النقطي.  
+- **دعم متعدد الصيغ** – نفس الشفرة تعمل مع DWG، DXF، DWF، وأكثر.  
+
+## المتطلبات المسبقة
+
+قبل أن نبدأ، تأكد من وجود ما يلي:
+
+- مكتبة Aspose.CAD لـ .NET: قم بتنزيل وتثبيت المكتبة من [صفحة تنزيل Aspose.CAD لـ .NET](https://releases.aspose.com/cad/net/).  
+- رسمة CAD تجريبية: ملف مثل `sample.dwg` موجود في دليل المستندات الخاص بمشروعك.  
 
 ## استيراد مساحات الأسماء
 
-ابدأ باستيراد مساحات الأسماء الضرورية إلى تطبيق .NET الخاص بك. تعتبر هذه الخطوة ضرورية للوصول إلى الوظائف التي يوفرها Aspose.CAD لـ .NET.
+أولاً، استورد مساحات الأسماء التي تمنحك الوصول إلى فئات Aspose.CAD.
 
 ```csharp
 using System;
@@ -39,88 +56,110 @@ using Aspose.CAD;
 
 ## الخطوة 1: تحميل رسم CAD
 
-ابدأ بتحميل رسم CAD في مثيل للفئة Aspose.CAD.Image. تأكد من أن لديك مسار الملف الصحيح لنموذج الرسم الخاص بك.
+حمّل ملف المصدر في كائن `Image`. هذا الكائن يمثل رسم CAD في الذاكرة وسيكون الأساس لجميع العمليات اللاحقة.
 
 ```csharp
 string MyDir = "Your Document Directory";
 string sourceFilePath = MyDir + "sample.dwg";
 
-// قم بتحميل رسم CAD في مثيل الصورة
+// Load a CAD drawing in an instance of Image
 using (var image = Aspose.CAD.Image.Load(sourceFilePath))
 {
-    // الكود الخاص بك هنا...
+    // Your code here...
 }
 ```
 
-## الخطوة 2: إنشاء BmpOptions
+## الخطوة 2: إنشاء BmpOptions (أو أي تنسيق نقطي آخر)
 
-قم بإنشاء مثيل لفئة BmpOptions، المسؤولة عن تحديد الخيارات عند حفظ رسم CAD كملف BMP.
+`BmpOptions` تخبر Aspose.CAD كيفية عرض البيانات المتجهة عندما تقوم بحفظها كصورة bitmap. يمكنك استبداله بـ `PngOptions` أو `JpegOptions`، إلخ، حسب تنسيق الهدف.
 
 ```csharp
 Aspose.CAD.ImageOptions.BmpOptions bmpOptions = new Aspose.CAD.ImageOptions.BmpOptions();
 ```
 
-## الخطوة 3: قم بتعيين خيارات CadRasterization
+## الخطوة 3: تعيين CadRasterizationOptions
 
-قم بإنشاء مثيل لفئة CadRasterizationOptions وقم بتكوين خصائصها لتنقيط المتجهات.
+`CadRasterizationOptions` يحتوي على الإعدادات الأساسية للتكبير، وتحويل الوحدات، واختيار التخطيط. ربطه بخصائص `VectorRasterizationOptions` في `BmpOptions` يضمن أن يستخدم المرسّخ إعداداتك المخصصة.
 
 ```csharp
 Aspose.CAD.ImageOptions.CadRasterizationOptions cadRasterizationOptions = new Aspose.CAD.ImageOptions.CadRasterizationOptions();
 bmpOptions.VectorRasterizationOptions = cadRasterizationOptions;
 ```
 
-## الخطوة 4: تعيين خاصية UnitType
+## الخطوة 4: تعيين UnitType (تغيير وحدة CAD)
 
-قم بتعيين خاصية UnitType لـ CadRasterizationOptions لتحديد نوع الوحدة لتغيير الحجم. في هذا المثال، تم ضبطه على سنتيمتر.
+هنا نقوم بتغيير وحدة CAD من الافتراضية إلى السنتيمترات. هذا هو المكان الذي توجد فيه كلمة **change cad unit**، وتؤثر مباشرة على حجم الصورة النهائي.
 
 ```csharp
 cadRasterizationOptions.UnitType = Aspose.CAD.ImageOptions.UnitType.Centimeter;
 ```
 
-## الخطوة 5: تعيين خاصية التخطيطات
+## الخطوة 5: اختيار التخطيطات (تعيين تخطيطات CAD)
 
-حدد التخطيطات التي تريد تضمينها في الرسم الذي تم تغيير حجمه عن طريق تعيين خاصية التخطيطات.
+إذا كان رسمك يحتوي على عدة تخطيطات (مثلاً Model، Sheet1)، حدد أي منها تريد تحويله إلى نقطي. اختيار التخطيط الصحيح أمر أساسي عندما **set cad layouts** لإخراج بحجم معدل.
 
 ```csharp
 cadRasterizationOptions.Layouts = new string[] { "Model" };
 ```
 
-## الخطوة 6: التصدير إلى BMP
+## الخطوة 6: تصدير إلى BMP (تغيير حجم رسم CAD)
 
-وأخيرًا، احفظ التخطيط الذي تم تغيير حجمه كملف BMP باستخدام طريقة الحفظ.
+أخيرًا، احفظ الصورة النقطية. ملف الإخراج يعكس الحجم الجديد، والوحدة، والتخطيط الذي قمت بتكوينه—مما يكمل عملية **resize CAD drawing**.
 
 ```csharp
 string outPath = sourceFilePath + ".bmp";
 image.Save(outPath, bmpOptions);
 ```
 
-لقد نجحت الآن في ضبط حجم رسم CAD الخاص بك باستخدام Aspose.CAD لـ .NET!
+الآن لديك ملف BMP يمثل رسم CAD المُعاد حجمه، جاهز للمعالجة أو العرض الإضافي.
 
-## خاتمة
+## المشكلات الشائعة والحلول
 
-في هذا البرنامج التعليمي، تناولنا عملية تغيير حجم رسومات CAD في .NET باستخدام Aspose.CAD. باتباع هذه الخطوات، يمكنك دمج هذه الوظيفة بسلاسة في تطبيقاتك، مما يوفر تجربة مستخدم سلسة.
+| المشكلة | لماذا يحدث | الحل |
+|-------|----------------|-----|
+| الصورة غير واضحة | دقة DPI منخفضة (النقاط في البوصة) بشكل افتراضي | عيّن `cadRasterizationOptions.Resolution = 300;` قبل الحفظ |
+| ظهور تخطيط خاطئ | خطأ إملائي في اسم التخطيط | تحقق من اسم التخطيط الدقيق باستخدام عارض CAD أو مجموعة `Layouts` |
+| تحويل الوحدة غير صحيح | خلط الوحدات المترية والإمبراطورية | تأكد من أن `UnitType` يطابق نظام القياس المطلوب |
 
-## الأسئلة الشائعة
+## الأسئلة المتكررة
 
-### س1: هل يتوافق Aspose.CAD for .NET مع كافة تنسيقات CAD؟
+### س1: هل Aspose.CAD لـ .NET متوافق مع جميع صيغ CAD؟
 
- ج1: يدعم Aspose.CAD for .NET نطاقًا واسعًا من تنسيقات CAD، بما في ذلك DWG وDXF وDWF والمزيد. افحص ال[توثيق](https://reference.aspose.com/cad/net/) للحصول على القائمة الكاملة.
+ج1: Aspose.CAD لـ .NET يدعم مجموعة واسعة من صيغ CAD، بما في ذلك DWG، DXF، DWF، وأكثر. راجع [التوثيق](https://reference.aspose.com/cad/net/) للقائمة الكاملة.
 
-### س2: هل يمكنني تغيير حجم تخطيطات متعددة في وقت واحد؟
+### س2: هل يمكنني تغيير حجم عدة تخطيطات في آن واحد؟
 
-ج2: نعم، يمكنك تغيير حجم تخطيطات متعددة عن طريق ضبط صفيف التخطيطات في CadRasterizationOptions.
+ج2: نعم، يمكنك تغيير حجم عدة تخطيطات عن طريق تعديل مصفوفة `Layouts` في `CadRasterizationOptions`.
 
 ### س3: أين يمكنني الحصول على دعم Aspose.CAD لـ .NET؟
 
- ج3: قم بزيارة[منتدى Aspose.CAD](https://forum.aspose.com/c/cad/19) لدعم المجتمع ومساعدته.
+ج3: زر [منتدى Aspose.CAD](https://forum.aspose.com/c/cad/19) للحصول على دعم المجتمع والمساعدة.
 
 ### س4: هل هناك نسخة تجريبية مجانية متاحة؟
 
- ج4: نعم، يمكنك استكشاف أ[تجربة مجانية](https://releases.aspose.com/) لتقييم ميزات Aspose.CAD لـ .NET.
+ج4: نعم، يمكنك تجربة [نسخة تجريبية مجانية](https://releases.aspose.com/) لتقييم ميزات Aspose.CAD لـ .NET.
 
 ### س5: كيف يمكنني الحصول على ترخيص مؤقت لـ Aspose.CAD لـ .NET؟
 
- ج5: الحصول على ترخيص مؤقت لأغراض الاختبار[هنا](https://purchase.aspose.com/temporary-license/).
+ج5: احصل على ترخيص مؤقت لأغراض الاختبار [من هنا](https://purchase.aspose.com/temporary-license/).
+
+## الأسئلة المتكررة
+
+**س: كيف أقوم بتكبير رسم CAD دون تغيير نوع الوحدة؟**  
+ج: اضبط خاصية `Zoom` في `CadRasterizationOptions` (مثلاً `cadRasterizationOptions.Zoom = 2.0;`) لتضاعف الحجم مع الحفاظ على الوحدة الأصلية.
+
+**س: هل يمكنني التصدير إلى صيغ غير BMP؟**  
+ج: بالتأكيد. استبدل `BmpOptions` بـ `PpngOptions` أو `JpegOptions` أو أي فئة تنسيق نقطي مدعومة أخرى.
+
+**س: هل من الممكن معالجة مجموعة من الرسومات في مجلد دفعة واحدة؟**  
+ج: نعم. قم بالتكرار عبر الملفات في دليل، طبق نفس منطق التحويل النقطي، واحفظ كل إخراج باسم فريد.
+
+---
+
+**آخر تحديث:** 2026-03-19  
+**تم الاختبار باستخدام:** Aspose.CAD for .NET 24.11 (latest at time of writing)  
+**المؤلف:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

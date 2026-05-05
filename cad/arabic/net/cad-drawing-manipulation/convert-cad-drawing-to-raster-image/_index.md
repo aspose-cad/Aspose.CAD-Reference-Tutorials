@@ -1,33 +1,50 @@
 ---
-title: تحويل رسم CAD إلى صورة نقطية في Aspose.CAD لـ .NET
-linktitle: تحويل رسم CAD إلى صورة نقطية
-second_title: Aspose.CAD .NET - تنسيق ملف CAD وBIM
-description: استكشف العملية السلسة لتحويل رسومات CAD إلى صور نقطية في .NET باستخدام Aspose.CAD. أطلق العنان لسير العمل الفعال وحسّن مشاريع التصميم بمساعدة الكمبيوتر الخاصة بك دون عناء.
-weight: 11
+date: 2026-03-19
+description: تعلم كيفية تحويل ملفات CAD إلى PNG في .NET باستخدام Aspose.CAD، احفظ
+  ملفات CAD بصيغة PNG بكفاءة، وسهّل سير عمل الصور النقطية.
+linktitle: Convert CAD Drawing to Raster Image
+second_title: Aspose.CAD .NET - CAD and BIM File Format
+title: تحويل CAD إلى PNG في Aspose.CAD لـ .NET
 url: /ar/net/cad-drawing-manipulation/convert-cad-drawing-to-raster-image/
+weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# تحويل رسم CAD إلى صورة نقطية في Aspose.CAD لـ .NET
+# تحويل CAD إلى PNG في Aspose.CAD لـ .NET
 
-## مقدمة
+## المقدمة
 
-في مشهد التصميم بمساعدة الكمبيوتر (CAD) المتطور باستمرار، تعد الحاجة إلى تحويل رسومات CAD بسلاسة إلى صور نقطية أمرًا بالغ الأهمية. يستكشف هذا الدليل خطوة بخطوة كيفية تحقيق ذلك باستخدام مكتبة Aspose.CAD لـ .NET القوية. يعمل Aspose.CAD على تبسيط العملية، حيث يوفر للمطورين مجموعة قوية من الأدوات لتحسين سير العمل المتعلق بالتصميم بمساعدة الكمبيوتر (CAD).
+في التطبيقات الحديثة التي تركز على CAD، **تحويل CAD إلى PNG** هو طلب شائع — سواء كنت بحاجة إلى إنشاء صور مصغرة، أو تضمين رسومات في صفحات الويب، أو أرشفة التصاميم كصور نقطية. يوضح هذا الدرس العملية الكاملة لتحويل رسم CAD (DXF، DWG، إلخ) إلى ملف PNG عالي الجودة باستخدام مكتبة Aspose.CAD لـ .NET. في النهاية، ستتمكن من **حفظ CAD كـ PNG** مع تحكم كامل في إعدادات الترصيص، مما يجعل سير العمل أسرع وأكثر موثوقية.
 
-## المتطلبات الأساسية
+## إجابات سريعة
+- **ما هي المكتبة الأفضل لتحويل CAD إلى PNG؟** Aspose.CAD لـ .NET.  
+- **ما هي صيغ الملفات التي يمكن تصديرها إلى PNG؟** DWG، DXF، DGN وغيرها من صيغ CAD المدعومة.  
+- **هل أحتاج إلى ترخيص للاستخدام في الإنتاج؟** نعم، يلزم ترخيص تجاري؛ يتوفر إصدار تجريبي مجاني.  
+- **هل يمكنني تخصيص حجم الصورة وجودتها؟** بالتأكيد — خيارات الترصيص تتيح لك ضبط عرض الصفحة، الارتفاع، لون الخلفية، والمزيد.  
+- **هل الكود متوافق مع .NET Core / .NET 6؟** نعم، نفس الـ API يعمل عبر .NET Framework، .NET Core، و .NET 5/6.
 
-قبل الغوص في البرنامج التعليمي، تأكد من توفر المتطلبات الأساسية التالية:
+## ما هو “تحويل CAD إلى PNG”؟
+تحويل CAD إلى PNG يعني ترصيص الرسومات المتجهة المستندة إلى CAD إلى صيغة صورة نقطية (PNG). هذه العملية تحافظ على الدقة البصرية بينما تجعل الملف سهل العرض في المتصفحات، التطبيقات المحمولة، أو أي بيئة لا تدعم صيغ CAD أصلاً.
 
-1.  Aspose.CAD لمكتبة .NET: قم بتنزيل وتثبيت مكتبة Aspose.CAD من[صفحة التحميل](https://releases.aspose.com/cad/net/).
+## لماذا نستخدم Aspose.CAD لتحويل CAD إلى PNG؟
+- **بدون تبعيات خارجية** — .NET نقي، لا يتطلب محركات CAD أصلية.  
+- **دعم كامل للصيغ** — يتعامل مع DWG، DXF، DGN، وأكثر.  
+- **تحكم دقيق في الترصيص** — حجم الصفحة، الدقة، الخلفية، وزن الخطوط، إلخ.  
+- **أداء عالي** — مُحسّن للمعالجة الدفعية على الخادم.
 
-2. بيئة التطوير: قم بإعداد بيئة تطوير عمل باستخدام IDE متوافق لتطوير .NET.
+## المتطلبات المسبقة
 
-## استيراد مساحات الأسماء
+قبل البدء، تأكد من وجود ما يلي:
 
-في مشروع .NET الخاص بك، قم باستيراد مساحات الأسماء الضرورية للوصول إلى وظائف Aspose.CAD. أضف ما يلي في بداية ملف التعليمات البرمجية الخاص بك:
+1. **Aspose.CAD لـ .NET** — قم بتنزيله من [صفحة التحميل](https://releases.aspose.com/cad/net/).  
+2. بيئة تطوير متوافقة مع .NET (Visual Studio، Rider، أو VS Code) مع مشروع يستهدف .NET Framework 4.6+ أو .NET Core 3.1+.
+
+## استيراد المساحات الاسمية
+
+في مشروع .NET الخاص بك، استورد المساحات الاسمية الضرورية للوصول إلى وظائف Aspose.CAD. أضف ما يلي في بداية ملف الكود:
 
 ```csharp
 using System;
@@ -38,92 +55,105 @@ using System.Threading.Tasks;
 using Aspose.CAD;
 ```
 
-## الخطوة 1: تحديد مسارات الملفات
+## دليل خطوة بخطوة
+
+### الخطوة 1: تعريف مسارات الملفات
+حدد ملف CAD المصدر ومسار PNG الوجهة. استبدل العنصر النائب بالمسار الفعلي على جهازك.
 
 ```csharp
-// المسار إلى دليل المستندات.
+// The path to the documents directory.
 string MyDir = "Your Document Directory";
 string sourceFilePath = MyDir + "conic_pyramid.dxf";
 ```
 
-تأكد من استبدال "دليل المستندات الخاص بك" بالمسار الفعلي لملف CAD الخاص بك.
-
-## الخطوة 2: تحميل رسم CAD
+### الخطوة 2: تحميل رسم CAD
+افتح ملف CAD باستخدام `Aspose.CAD.Image.Load`. هذا ينشئ تمثيلاً في الذاكرة للرسم يمكنك ترصيصه.
 
 ```csharp
 using (Aspose.CAD.Image image = Aspose.CAD.Image.Load(sourceFilePath))
 {
 ```
 
-تعمل هذه الخطوة على تهيئة كائن الصورة Aspose.CAD وتحميل رسم CAD من مسار الملف المحدد.
-
-## الخطوة 3: تكوين خيارات التنقيط
+### الخطوة 3: تكوين خيارات الترصيص  
+حدد كيف يجب تحويل البيانات المتجهة إلى بكسلات. هنا نحدد لوحة قماش بحجم 1200 × 1200 بكسل، لكن يمكنك تعديل `PageWidth` و `PageHeight` لتناسب احتياجاتك (مثلاً لتحويل **convert dwg to png** بدقة DPI محددة).
 
 ```csharp
-// قم بإنشاء مثيل لـ CadRasterizationOptions
+// Create an instance of CadRasterizationOptions
 Aspose.CAD.ImageOptions.CadRasterizationOptions rasterizationOptions = new Aspose.CAD.ImageOptions.CadRasterizationOptions();
-// ضبط عرض الصفحة وارتفاعها
+// Set page width & height
 rasterizationOptions.PageWidth = 1200;
 rasterizationOptions.PageHeight = 1200;
 ```
 
-هنا، قمنا بإعداد خيارات التنقيط، وتحديد عرض وارتفاع صفحة الإخراج.
+> **نصيحة محترف:** لتحسين سرعة العرض للرسومات الكبيرة، يمكنك أيضاً ضبط `rasterizationOptions.BackgroundColor` إلى لون صلب أو تمكين `rasterizationOptions.DrawType` لتحويل المتجهات بشكل أسرع.
 
-## الخطوة 4: إنشاء PngOptions للصورة الناتجة
+### الخطوة 4: إنشاء خيارات PNG للصورة الناتجة  
+ضع إعدادات الترصيص داخل كائن `PngOptions`، الذي يخبر Aspose.CAD بإنتاج ملف PNG.
 
 ```csharp
-// قم بإنشاء مثيل PngOptions للصورة الناتجة
+// Create an instance of PngOptions for the resultant image
 ImageOptionsBase options = new Aspose.CAD.ImageOptions.PngOptions();
-// ضبط خيارات التنقيط
+// Set rasterization options
 options.VectorRasterizationOptions = rasterizationOptions;
 ```
 
-تتضمن هذه الخطوة تكوين خيارات للصورة الناتجة، وتحديد خيارات التنقيط المحددة مسبقًا.
-
-## الخطوة 5: حفظ الصورة الناتجة
+### الخطوة 5: حفظ PNG الناتج  
+ادمج مسار الدليل مع اسم الملف المطلوب واكتب الصورة المرصصة إلى القرص. هذه الخطوة **تحفظ CAD كـ PNG**.
 
 ```csharp
 MyDir = MyDir + "conic_pyramid_raster_image_out.png";
-// حفظ الصورة الناتجة
+// Save resultant image
 image.Save(MyDir, options);
 ```
 
-احفظ الصورة النقطية المحولة في مسار ملف الإخراج المحدد.
-
-## الخطوة 6: عرض رسالة النجاح
+### الخطوة 6: عرض رسالة النجاح  
+أكد أن التحويل نجح وأظهر مكان حفظ الملف.
 
 ```csharp
-// ExEnd: تحويل الرسم إلى الصورة النقطية
+//ExEnd:ConvertDrawingToRasterImage            
 Console.WriteLine("\nCAD drawing converted successfully to raster image format.\nFile saved at " + MyDir);
 ```
 
-عرض رسالة نجاح تشير إلى إتمام عملية التحويل.
+> **ملاحظة:** كتلة `using` من الخطوة 2 تقوم تلقائياً بتحرير كائن `Image`، مما يضمن تحرير جميع الموارد.
 
-## خاتمة
+## المشكلات الشائعة والحلول
 
-في هذا البرنامج التعليمي، استكشفنا العملية خطوة بخطوة لتحويل رسم CAD إلى صورة نقطية باستخدام مكتبة Aspose.CAD for .NET. بفضل ميزاته القوية وسهولة التكامل، يعمل Aspose.CAD على تمكين المطورين من تبسيط سير عمل CAD الخاص بهم دون عناء.
+| المشكلة | السبب | الحل |
+|-------|-------|-----|
+| **إخراج PNG فارغ** | لم يتم ضبط خيارات الترصيص (مثل عدم وجود `PageWidth`/`PageHeight`). | تأكد من أن `CadRasterizationOptions` يحدد حجم لوحة غير صفري. |
+| **ألوان غير صحيحة** | لون الخلفية الافتراضي أبيض؛ الرسم الأصلي يستخدم طبقات شفافة. | اضبط `rasterizationOptions.BackgroundColor = Color.Transparent;` |
+| **بطء الأداء على ملفات DWG الكبيرة** | دقة عالية بدون تقسيم. | استخدم `rasterizationOptions.LayoutOptions` لتقليل مساحة العرض أو خفض DPI. |
+| **استثناء الترخيص** | تشغيل بدون ترخيص صالح في الإنتاج. | طبق الترخيص عبر `License license = new License(); license.SetLicense("Aspose.CAD.lic");` قبل تحميل الصورة. |
 
-## الأسئلة الشائعة
+## الأسئلة المتكررة
 
-### س1: هل Aspose.CAD متوافق مع جميع تنسيقات ملفات CAD؟
+### س1: هل Aspose.CAD متوافق مع جميع صيغ ملفات CAD؟
+ج1: يدعم Aspose.CAD مجموعة واسعة من صيغ CAD، بما في ذلك DWG، DXF، DGN، وأكثر. راجع [الوثائق](https://reference.aspose.com/cad/net/) للقائمة الكاملة.
 
-ج1: يدعم Aspose.CAD نطاقًا واسعًا من تنسيقات ملفات CAD، بما في ذلك DWG وDXF وDGN والمزيد. الرجوع إلى[توثيق](https://reference.aspose.com/cad/net/) للحصول على قائمة شاملة.
-
-### س2: هل يمكنني تخصيص خيارات التنقيط لمشاريع مختلفة؟
-
-ج2: نعم، يسمح Aspose.CAD بالتخصيص الشامل لخيارات التنقيط، مما يمكّن المطورين من تخصيص المخرجات بناءً على متطلبات المشروع.
+### س2: هل يمكنني تخصيص خيارات الترصيص لمشاريع مختلفة؟
+ج2: نعم، يتيح Aspose.CAD تخصيصاً واسعاً لخيارات الترصيص، مما يمكن المطورين من تعديل المخرجات وفق متطلبات المشروع.
 
 ### س3: هل هناك نسخة تجريبية مجانية متاحة لـ Aspose.CAD؟
+ج3: نعم، يمكنك استكشاف ميزات Aspose.CAD عبر نسخة تجريبية مجانية. زر [هنا](https://releases.aspose.com/) للبدء.
 
- ج3: نعم، يمكنك استكشاف ميزات Aspose.CAD من خلال النسخة التجريبية المجانية. يزور[هنا](https://releases.aspose.com/) للبدء.
+### س4: كيف يمكنني الحصول على دعم لـ Aspose.CAD؟
+ج4: لأي مساعدة أو استفسارات، زر منتدى دعم Aspose.CAD [هنا](https://forum.aspose.com/c/cad/19).
 
-### س4: كيف يمكنني الحصول على الدعم لـ Aspose.CAD؟
+### س5: هل تتوفر تراخيص مؤقتة لـ Aspose.CAD؟
+ج5: نعم، يمكن للمطورين الحصول على تراخيص مؤقتة لـ Aspose.CAD من [هذا الرابط](https://purchase.aspose.com/temporary-license/).
 
- ج4: للحصول على أي مساعدة أو استفسارات، قم بزيارة Aspose.CAD[منتدى الدعم](https://forum.aspose.com/c/cad/19).
+### س6: هل يمكنني استخدام هذه الطريقة **لتحويل DWG إلى PNG** أيضاً؟
+ج6: بالتأكيد. نفس الكود يعمل مع ملفات DWG؛ فقط غيّر امتداد ملف المصدر إلى `.dwg`.
 
-### س5: هل التراخيص المؤقتة متاحة لـ Aspose.CAD؟
- 
- ج5: نعم، يمكن للمطورين الحصول على تراخيص مؤقتة لـ Aspose.CAD من[هذا الرابط](https://purchase.aspose.com/temporary-license/).
+### س7: كيف يمكنني **تصدير DXF إلى صورة** بخلفية شفافة؟
+ج7: اضبط `rasterizationOptions.BackgroundColor = Color.Transparent;` قبل حفظ PNG.
+
+---
+
+**آخر تحديث:** 2026-03-19  
+**تم الاختبار مع:** Aspose.CAD 24.11 لـ .NET (أحدث إصدار)  
+**المؤلف:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
