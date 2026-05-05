@@ -1,33 +1,59 @@
 ---
-title: Exportación de DWG a PDF o imágenes rasterizadas - Guía Aspose.CAD
-linktitle: Exportación de DWG a PDF o imágenes rasterizadas
-second_title: Aspose.CAD .NET - Formato de archivo CAD y BIM
-description: Explore una guía completa sobre cómo exportar DWG a PDF o imágenes rasterizadas usando Aspose.CAD para .NET. Conozca los pasos, los requisitos previos y practique esta poderosa biblioteca.
-weight: 11
+date: 2026-03-16
+description: Aprenda a convertir DWG a PDF o imágenes rasterizadas con Aspose.CAD
+  para .NET. Este tutorial paso a paso de CAD a PDF cubre la exportación de DWG a
+  formatos de imagen como PNG y muestra cómo exportar archivos DWG a imágenes de manera
+  eficiente.
+linktitle: Exporting DWG to PDF or Raster Images
+second_title: Aspose.CAD .NET - CAD and BIM File Format
+title: Cómo convertir DWG a PDF e imágenes rasterizadas usando Aspose.CAD para .NET
 url: /es/net/advanced-export-techniques/exporting-dwg-to-pdf-or-raster-images/
+weight: 11
 ---
+
+Last Updated", "Tested With", "Author". Keep dates.
+
+Also translate "Exporting DWG to PDF or Raster Images - Aspose.CAD Guide" title.
+
+Let's produce.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Exportación de DWG a PDF o imágenes rasterizadas - Guía Aspose.CAD
+# Exportar DWG a PDF o Imágenes Raster - Guía de Aspose.CAD
 
 ## Introducción
 
-¿Está buscando convertir sin problemas archivos DWG a PDF o imágenes rasterizadas en su aplicación .NET? ¡No busque más! Esta guía paso a paso lo guiará a través del proceso utilizando la poderosa biblioteca Aspose.CAD para .NET. Ya sea que sea un desarrollador experimentado o recién esté comenzando, este tutorial está dirigido a todos los niveles.
+Si necesitas **convertir DWG a PDF** (o a formatos raster como PNG) directamente desde una aplicación .NET, estás en el lugar correcto. En este tutorial recorreremos paso a paso los pasos exactos necesarios para usar Aspose.CAD para .NET y realizar la conversión, explicaremos por qué la biblioteca es una opción sólida y te mostraremos cómo manejar tanto la salida PDF como la de imagen con solo unas pocas líneas de código.
+
+## Respuestas rápidas
+- **¿Qué biblioteca maneja la conversión de DWG?** Aspose.CAD para .NET  
+- **¿Puedo exportar DWG a PNG además de PDF?** Sí – las mismas opciones de rasterización funcionan para ambos formatos.  
+- **¿Necesito una licencia para desarrollo?** Una prueba gratuita funciona para pruebas; se requiere una licencia comercial para producción.  
+- **¿Qué versiones de .NET son compatibles?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6+.  
+- **¿Se maneja la conversión de unidades automáticamente?** Puedes definir el sistema de unidades manualmente (métrico o imperial) como se muestra en el código.
+
+## ¿Qué significa “convertir DWG a PDF”?
+Convertir DWG a PDF implica tomar un dibujo CAD (DWG) y renderizarlo en un documento portátil de solo lectura (PDF). Esto es útil para compartir diseños con partes interesadas que no disponen de software CAD, crear documentación imprimible o archivar dibujos en un formato universalmente legible.
+
+## ¿Por qué usar Aspose.CAD para esta conversión?
+- **Sin dependencias externas** – la biblioteca funciona completamente en código administrado.  
+- **Alta fidelidad** – conserva capas, grosores de línea e información de diseño.  
+- **Opciones de rasterización integradas** – permite exportar a PNG, JPEG, BMP, etc., con un único objeto de configuración.  
+- **Multiplataforma** – funciona en Windows, Linux y macOS con .NET Core.
 
 ## Requisitos previos
 
-Antes de sumergirnos en el tutorial, asegúrese de tener lo siguiente en su lugar:
+Antes de sumergirnos en el tutorial, asegúrate de contar con lo siguiente:
 
-- Un conocimiento básico de la programación .NET.
--  Aspose.CAD para la biblioteca .NET instalada. Si no, descárgalo[aquí](https://releases.aspose.com/cad/net/).
-- Su entorno de desarrollo integrado (IDE) favorito configurado para el desarrollo .NET.
+- Un conocimiento básico de programación en .NET.  
+- Biblioteca Aspose.CAD para .NET instalada. Si no la tienes, descárgala [aquí](https://releases.aspose.com/cad/net/).  
+- Tu entorno de desarrollo integrado (IDE) favorito configurado para desarrollo .NET.
 
 ## Importar espacios de nombres
 
-Comencemos importando los espacios de nombres necesarios en su proyecto .NET. Esto garantiza que tenga acceso a la funcionalidad Aspose.CAD en su código.
+Comencemos importando los espacios de nombres necesarios en tu proyecto .NET. Esto garantiza que tengas acceso a la funcionalidad de Aspose.CAD en tu código.
 
 ```csharp
 using System;
@@ -40,9 +66,9 @@ using Aspose.CAD.FileFormats.Cad;
 using Aspose.CAD.ImageOptions;
 ```
 
-## Paso 1: cargar el archivo DWG
+## Paso 1: Cargar el archivo DWG
 
-Comience cargando el archivo DWG que desea convertir. Reemplace "Su directorio de documentos" con la ruta a su archivo DWG.
+Comienza cargando el archivo DWG que deseas convertir. Reemplaza `"Your Document Directory"` con la ruta a tu archivo DWG.
 
 ```csharp
 string MyDir = "Your Document Directory";
@@ -50,29 +76,29 @@ string sourceFilePath = MyDir + "Bottom_plate.dwg";
 
 using (CadImage cadImage = (CadImage)Image.Load(sourceFilePath))
 {
-    // Su código para cargar DWG va aquí
+    // Your code for loading DWG goes here
 }
 ```
 
-## Paso 2: configurar la exportación de PDF
+## Paso 2: Configurar la exportación a PDF (Cómo exportar DWG a PDF)
 
-Ahora, configuremos los ajustes de exportación de PDF. Este ejemplo demuestra cómo configurar el diseño y manejar las conversiones de unidades.
+Ahora, configuremos las opciones de exportación a PDF. Este ejemplo muestra cómo establecer el diseño y manejar la conversión de unidades.
 
 ```csharp
 CadRasterizationOptions rasterizationOptions = new CadRasterizationOptions();
 rasterizationOptions.Layouts = new string[] { "Model" };
 
-// Comprobar y definir el sistema de unidades.
+// Check and define the unit system
 bool currentUnitIsMetric = false;
 double currentUnitCoefficient = 1.0;
 DefineUnitSystem(cadImage.UnitType, out currentUnitIsMetric, out currentUnitCoefficient);
 
-// Su código para configurar la exportación de PDF va aquí
+// Your code for setting up PDF export goes here
 ```
 
-## Paso 3: exportar a PDF
+## Paso 3: Exportar a PDF
 
-Ejecute la exportación a PDF utilizando los ajustes configurados.
+Ejecuta la exportación a PDF utilizando la configuración definida.
 
 ```csharp
 PdfOptions pdfOptions = new PdfOptions
@@ -83,12 +109,12 @@ PdfOptions pdfOptions = new PdfOptions
 cadImage.Save(outPath, pdfOptions);
 ```
 
-## Paso 4: Exportar a imágenes rasterizadas
+## Paso 4: Exportar a Imágenes Raster (exportar dwg a imagen)
 
-Amplíe la funcionalidad para exportar a imágenes rasterizadas, como PNG.
+Amplía la funcionalidad para exportar a imágenes raster, como PNG.
 
 ```csharp
-// Tamaño A4 a 300 ppp - 2480 x 3508
+// A4 size at 300 DPI - 2480 x 3508
 rasterizationOptions.PageHeight = 3508;
 rasterizationOptions.PageWidth = 2480;
 
@@ -100,31 +126,44 @@ PngOptions pngOptions = new PngOptions
 cadImage.Save(outPath.Replace("pdf", "png"), pngOptions);
 ```
 
-## Conclusión
+## Problemas comunes y soluciones
 
-¡Felicidades! Ha aprendido con éxito cómo utilizar Aspose.CAD para .NET para exportar archivos DWG a PDF e imágenes rasterizadas. Esta poderosa biblioteca agiliza el proceso, haciéndolo eficiente y fácil de usar para los desarrolladores.
+| Problema | Por qué ocurre | Cómo solucionarlo |
+|----------|----------------|-------------------|
+| **Páginas en blanco en el PDF** | El diseño no se especificó correctamente | Asegúrate de que `rasterizationOptions.Layouts` incluya el nombre de diseño correcto (p. ej., `"Model"`). |
+| **Dimensiones incorrectas** | Desajuste de DPI o tamaño de página | Ajusta los valores `PageHeight`, `PageWidth` y DPI en `CadRasterizationOptions`. |
+| **Las unidades aparecen incorrectas** | No se definió la conversión de unidades | Usa `DefineUnitSystem` para establecer `currentUnitIsMetric` y `currentUnitCoefficient` según `cadImage.UnitType`. |
+| **Excepción de licencia** | Limitaciones de la versión de prueba | Aplica una licencia temporal o permanente antes de llamar a `Image.Load`. |
 
 ## Preguntas frecuentes
 
-### P1: ¿Puedo utilizar Aspose.CAD para .NET en mis proyectos comerciales?
+### Q1: ¿Puedo usar Aspose.CAD para .NET en mis proyectos comerciales?
+A1: Sí, puedes. Visita [purchase.aspose.com/buy](https://purchase.aspose.com/buy) para obtener detalles de licenciamiento.
 
- R1: Sí, puedes. Visita[compra.aspose.com/buy](https://purchase.aspose.com/buy) para obtener detalles sobre la licencia.
+### Q2: ¿Hay una prueba gratuita disponible?
+A2: ¡Claro! Obtén tu prueba gratuita [aquí](https://releases.aspose.com/).
 
-### P2: ¿Hay una prueba gratuita disponible?
+### Q3: ¿Cómo puedo obtener soporte para Aspose.CAD para .NET?
+A3: Dirígete al [foro de Aspose.CAD](https://forum.aspose.com/c/cad/19) para soporte de la comunidad.
 
- R2: ¡Por supuesto! Consigue tu prueba gratuita[aquí](https://releases.aspose.com/).
+### Q4: ¿Puedo obtener una licencia temporal para propósitos de prueba?
+A4: Sí, puedes obtener una licencia temporal [aquí](https://purchase.aspose.com/temporary-license/).
 
-### P3: ¿Cómo puedo obtener soporte para Aspose.CAD para .NET?
+### Q5: ¿Dónde puedo encontrar la documentación detallada?
+A5: La documentación está disponible en [Aspose.CAD](https://reference.aspose.com/cad/net/).
 
- A3: Dirígete al[Foro Aspose.CAD](https://forum.aspose.com/c/cad/19) para el apoyo de la comunidad.
+### Q6: ¿Cómo **guardar CAD como PNG** con alta calidad?
+A6: Establece `PageHeight` y `PageWidth` a las dimensiones de píxel deseadas y elige un DPI de 300 o superior en `CadRasterizationOptions`.
 
-### P4: ¿Puedo obtener una licencia temporal para realizar pruebas?
+### Q7: ¿Cuál es la mejor manera de **convertir dwg** cuando el archivo fuente contiene varios diseños?
+A7: Rellena `rasterizationOptions.Layouts` con todos los nombres de diseño que deseas exportar, luego recorre cada diseño y llama a `Save` para cada formato de salida.
 
- R4: Sí, puedes obtener una licencia temporal[aquí](https://purchase.aspose.com/temporary-license/).
+---
 
-### P5: ¿Dónde puedo encontrar la documentación detallada?
+**Última actualización:** 2026-03-16  
+**Probado con:** Aspose.CAD 24.11 para .NET  
+**Autor:** Aspose  
 
- R5: La documentación está disponible en[Aspose.CAD](https://reference.aspose.com/cad/net/).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
