@@ -1,10 +1,10 @@
 ---
-date: 2025-12-22
-description: Naučte se, jak převést DWG do PDF v Javě pomocí Aspose.CAD, rychlý průvodce,
-  jak exportovat CAD PDF s přizpůsobitelnými možnostmi.
+date: 2026-02-23
+description: Naučte se nastavit velikost stránky PDF při převodu DWG na PDF pomocí
+  Aspose.CAD pro Javu a objevte možnosti exportu PDF pro zvýšení rozlišení PDF.
 linktitle: Export to PDF
 second_title: Aspose.CAD Java API
-title: dwg do pdf java – Export CAD do PDF s Aspose.CAD
+title: Nastavit velikost stránky PDF – převod DWG na PDF v Javě pomocí Aspose.CAD
 url: /cs/java/cad-export-options/export-to-pdf/
 weight: 13
 ---
@@ -17,37 +17,41 @@ weight: 13
 
 ## Úvod
 
-Pokud potřebujete **dwg to pdf java** rychle a spolehlivě, jste na správném místě. Tento tutoriál vás provede kvalitní DWG (nebo jiného podporovaného CAD formátu) do vysoce kvalitního PDF pomocí Aspose.CAD pro Java Pokryjeme vše od nastavení prostředí po přizpůsobení výstupu PDF, takže můžete konverzi integrovat do svých aplikací Java s jistotou.
+Pokud potřebujete **nastavit velikost stránky PDF** při provádění **dwg to pdf java** konverze rychle a spolehlivě, jste na správném místě. Tento tutoriál vás provede konverzí DWG (nebo jakéhokoli podporovaného CAD formátu) do vysoce kvalitního PDF pomocí Aspose.CAD pro Java. Pokryjeme vše od nastavení prostředí až po přizpůsobení možností exportu PDF, takže můžete integraci konverze do svých Java aplikací s jistotou.
 
 ## Rychlé odpovědi
-- **Která knihovna zpracovává dwg do pdf java?** Aspose.CAD for Java
-- **Jak dlouho trvá základní konverze?** Obvykle méně než sekunda pro typické výkresy
-- **Potřebuji licenci pro vývoj?** Bezplatná zkušební verze funguje pro testování; licence je vyžadována pro produkci
-- **Mohu přizpůsobit velikost stránek a rozvržení?** Ano – použijte `CadRasterizationOptions` k nastavení šířky, výšky a rozvržení
-- **Je rasterizace vyžadována?** Aspose.CAD rasterizuje vektorová data při exportu do PDF, což vám dává kontrolu nad kvalitou
+- **Jaká knihovna zpracovává dwg to pdf java?** Aspose.CAD for Java  
+- **Jak dlouho trvá základní konverze?** Obvykle méně než sekunda pro typické výkresy  
+- **Potřebuji licenci pro vývoj?** Bezplatná zkušební verze funguje pro testování; licence je vyžadována pro produkci  
+- **Mohu přizpůsobit velikost stránky a rozvržení?** Ano – použijte `CadRasterizationOptions` k nastavení šířky, výšky a rozvržení  
+- **Je rasterizace vyžadována?** Aspose.CAD rasterizuje vektorová data při exportu do PDF, což vám dává kontrolu nad kvalitou  
 
-## Co je to dwg do pdf java?
+## Co je dwg to pdf java?
 
-Konverze souboru DWG do PDF v prostředí Java znamená převod vektorového CAD výkresu do přenosného formátu dokumentu, který lze zobrazit v jakémkoli zařízení. Aspose.CAD provádí těžkou práci tím, že interpretuje CAD data, rasterizuje je podle potřeb a vytváří PDF, které zachovává původní věrnost návrhu.
+Převod souboru DWG na PDF v prostředí Java znamená převzít vektorový CAD výkres a vykreslit jej do přenosného formátu dokumentu, který lze zobrazit na jakémkoli zařízení. Aspose.CAD provádí těžkou práci tím, že interpretuje CAD data, rasterizuje je podle potřeby a vytváří PDF, které zachovává původní věrnost návrhu.
 
-## Proč používat Aspose.CAD pro dwg do pdf java?
+## Proč použít Aspose.CAD pro dwg to pdf java?
 
-- **Široká podpora formátů** – Funguje s DWG, DWF, DXF a mnoha dalších CAD typů.
-- **Žádné externí závislosti** – Čistá Java knihovna, bez nativních DLL nebo COM komponent.
-- **Detailní kontrola** – rozměry stránky, kvalita rasterizace a možnosti rozvržení.
+- **Široká podpora formátů** – Pracuje s DWG, DWF, DXF a mnoha dalšími CAD typy.  
+- **Žádné externí závislosti** – Čistá Java knihovna, bez nativních DLL nebo COM komponent.  
+- **Detailní kontrola** – Nastavte rozměry stránky, kvalitu rasterizace a možnosti rozvržení.  
 - **Škálovatelný výkon** – Vhodné pro dávkové zpracování nebo konverze za běhu ve webových službách.
 
-## Předpoklady
+## Jak nastavit velikost stránky PDF
 
-Než se do tutoriálu spustíte, spustíte předpoklady, že máte následující:
+Nastavení velikosti stránky PDF je součástí **možností exportu pdf**, které konfiguruje pomocí `CadRasterizationOptions`. Definováním `setPageWidth` a `setPageHeight` řídíte přesné rozměry výsledného PDF, což je nezbytné, když potřebujete odpovídat konkrétní velikosti papíru nebo vložit PDF do většího pracovního postupu.
 
-- Aspose.CAD pro Java: naleznete, že máte knihovnu Aspose.CAD nainstalovanou ve vašem prostředí Java. Můžete si ji stáhnout [zde](https://releases.aspose.com/cad/java/).
+## Požadavky
 
-- Adresář zdrojů: adresář, kde jsou uloženy vaše CAD soubory. Nahrajte „Your Document Directory“ s poskytnutou úryvku správnou cestou.
+Než se ponoříte do tutoriálu, ujistěte se, že máte následující požadavky připravené:
 
-Nyní přejdeme k hlavním krokům.
+- Aspose.CAD for Java: Ujistěte se, že máte knihovnu Aspose.CAD nainstalovanou ve vašem Java prostředí. Můžete si ji stáhnout [zde](https://releases.aspose.com/cad/java/).
 
-## Import jmenných prostorů
+- Resource Directory: Nastavte adresář, kde jsou uloženy vaše CAD soubory. Nahraďte „Your Document Directory“ v poskytnutém úryvku kódu skutečnou cestou.
+
+Nyní přejděme k hlavním krokům.
+
+## Importujte jmenné prostory
 
 Ve vašem Java projektu začněte importováním potřebných jmenných prostorů, aby bylo možné využívat funkce Aspose.CAD.
 
@@ -62,18 +66,18 @@ import com.aspose.cad.imageoptions.PdfOptions;
 //import com.aspose.cad.imageoptions.TypeOfEntities;
 ```
 
-## Krok 1: Načtení souboru CAD
+## Krok 1: Načíst CAD soubor
 
-Načtěte svůj CAD soubor do objektu Aspose.CAD `Image`. Nahraďte `"site.dwf"` názvem vašeho skutečného CAD souboru.
+Načtěte svůj CAD soubor do objektu Aspose.CAD `Image`. Nahraďte `"site.dwf"` skutečným názvem vašeho CAD souboru.
 
 ```java
 String fileName = (dataDir + "site.dwf");
 Image image = Image.load(fileName);
 ```
 
-## Krok 2: Konfigurace možností PDF
+## Krok 2: Nakonfigurujte PDF možnosti
 
-Nastavte možnosti exportu PDF, včetně možností rasterizace vektorů, jako je výška stránky, šířka a rozvržení. Zde **přizpůsobujete výstup PDF** podle vašich požadavků.
+Nastavte možnosti exportu PDF, včetně možností vektorové rasterizace, jako jsou výška stránky, šířka a rozvržení. Zde **přizpůsobujete výstup pdf** tak, aby vyhovoval vašim požadavkům, a můžete také **zvýšit rozlišení PDF**, pokud je to potřeba.
 
 ```java
 PdfOptions pdfOptions = new PdfOptions();
@@ -87,7 +91,7 @@ rasterizationOptions.setLayouts(new String[] { "Model" });
 
 ## Krok 3: Export do PDF
 
-Určete výstupní cestu pro vygenerovaný PDF soubor a uložte obrázek s nakonfigurovanými PDF možnostmi. Tento krok **vytváří pdf cad** soubory připravené k distribuci.
+Zadejte výstupní cestu pro vygenerovaný PDF soubor a uložte obrázek s nakonfigurovanými PDF možnostmi. Tento krok **vytvoří pdf cad** soubory připravené k distribuci.
 
 ```java
 String outPath = dataDir + "site.pdf";
@@ -96,29 +100,29 @@ image.save(outPath, pdfOptions);
 
 Gratulujeme! Úspěšně jste exportovali svůj CAD soubor do PDF pomocí Aspose.CAD pro Java.
 
-## Běžné problémy a jejich řešení
+## Časté problémy a řešení
 
-| Problém | Proč k tomu dochází | Jak opravit |
-|---------|----------------------|-------------|
-| **Prázdné stránky v PDF** | Možnosti rasterizace nejsou nastaveny nebo výchozí velikost je příliš malá | Upravte `setPageWidth` / `setPageHeight` tak, aby odpovídaly rozměrům zdrojového výkresu |
-| **Nízká kvalita výstupu** | Výchozí DPI rasterizace je nízké | Použijte `rasterizationOptions.setResolution(300);` pro zvýšení DPI |
-| **Nes podporovaný CAD formát** | Typ souboru není v seznamu podporovaném Aspose.CAD | Převěďte soubor do podporovaného formátu (např. DWG, DWF, DXF) před načtením |
+| Problém | Proč se to děje | Jak opravit |
+|-------|----------------|------------|
+| **Prázdné stránky v PDF** | Možnosti rasterizace nejsou nastaveny nebo výchozí velikost je příliš malá | Upravit `setPageWidth` / `setPageHeight` tak, aby odpovídaly rozměrům zdrojového výkresu |
+| **Nízká kvalita výstupu** | Výchozí DPI rasterizace je nízké | Použijte `rasterizationOptions.setResolution(300);` pro zvýšení DPI a **zvýšení rozlišení PDF** |
+| **Nesprávný CAD formát** | Typ souboru není v seznamu podporovaném Aspose.CAD | Před načtením převeďte soubor do podporovaného formátu (např. DWG, DWF, DXF) |
 
 ## Často kladené otázky
 
-### Q1: Je Aspose.CAD kompatibilní se všemi formáty CAD?
+### Q1: Je Aspose.CAD kompatibilní se všemi CAD formáty souborů?
 
-A1: Ano Aspose.CAD podporuje širokou škálu CAD formátů, což zajišťuje kompatibilitu s různým designovým softwarem.
+A1: Ano, Aspose.CAD podporuje širokou škálu CAD formátů, což zajišťuje kompatibilitu s různým designovým softwarem.
 
-### Q2: Mohu upravit nastavení výstupu PDF?
+### Q2: Mohu přizpůsobit nastavení výstupu PDF?
 
-A2: Rozhodně. Tutoriál poskytuje náhled na možnosti přizpůsobení, ale můžete dále zkoumat, jak **rasterize cad pdf** a upravit výstup podle svých potřeb.
+A2: Rozhodně. Tutoriál poskytuje náhled na možnosti přizpůsobení, ale můžete dále zkoumat **rasterizaci cad pdf** a přizpůsobit výstup podle svých potřeb.
 
 ### Q3: Kde mohu najít další podporu pro Aspose.CAD?
 
-A3: Pro všechny dotazy nebo problémy navštivte [forum Aspose.CAD](https://forum.aspose.com/c/cad/19), kde můžete získat pomoc od komunity.
+A3: Pro jakékoli dotazy nebo problémy navštivte [forum Aspose.CAD](https://forum.aspose.com/c/cad/19), kde můžete získat pomoc od komunity.
 
-### Q4: Je k dispozici zkušební verze?
+### Q4: Je k dispozici bezplatná zkušební verze?
 
 A4: Ano, můžete získat bezplatnou zkušební verzi Aspose.CAD [zde](https://releases.aspose.com/).
 
@@ -126,26 +130,43 @@ A4: Ano, můžete získat bezplatnou zkušební verzi Aspose.CAD [zde](https://r
 
 A5: Pro dočasnou licenci navštivte [tento odkaz](https://purchase.aspose.com/temporary-license/).
 
-## Další časté dotazy
+## Další časté otázky
 
-**Q: Jak změním režim rasterizace pro hladší čáry?**
-A: neplatí `rasterizationOptions.setSmoothingMode(SmoothingMode.AntiAlias);` před uložením.
+**Q: Jak změním režim rasterizace pro hladší čáry?**  
+A: Nastavte `rasterizationOptions.setSmoothingMode(SmoothingMode.AntiAlias);` před uložením.
 
-**O: Mohu exportovat více CAD souborů najednou?**
-A: Ano—zabalte logiku načítání a ukládání do smyčky, přičemž znovu použijete stejnou instanci `PdfOptions`.
+**Q: Mohu exportovat více CAD souborů najednou?**  
+A: Ano—zabalte logiku načítání a ukládání do smyčky, přičemž znovu použijete stejnou instanci `PdfOptions`. To umožňuje scénáře **batch convert cad pdf**.
 
-**O: Podporuje knihovnu PDF chráněné heslem?**
+**Q: Podporuje knihovna PDF chráněná heslem?**  
 A: Šifrování PDF není součástí Aspose.CAD; můžete PDF po‑zpracovat pomocí Aspose.PDF a přidat zabezpečení.
+
+## FAQ – Rychlý přehled
+
+**Q: Jak nastavit velikost stránky PDF pro konverzi DWG?**  
+A: Použijte `rasterizationOptions.setPageWidth(width)` a `rasterizationOptions.setPageHeight(height)` před voláním `image.save()`.
+
+**Q: Jaké nastavení použít pro **zvýšení rozlišení PDF**?**  
+A: Zavolejte `rasterizationOptions.setResolution(300);` (nebo vyšší) pro zvýšení DPI výstupu.
+
+**Q: Mohu tento kód použít v mikro‑službě?**  
+A: Ano, knihovna je čistá Java a dobře funguje v kontejnerizovaných nebo serverless prostředích.
+
+**Q: Existuje nějaký limit počtu souborů, které mohu převést v jedné dávce?**  
+A: Limit je dán pamětí a CPU vašeho systému; opakované používání stejné instance `PdfOptions` pomáhá udržet nízkou spotřebu zdrojů.
+
+**Q: Jak přepnout z DWG na jiný CAD formát, například DXF?**  
+A: Stačí změnit příponu souboru v `fileName`; Aspose.CAD automaticky detekuje formát.
 
 ## Závěr
 
-V tomto tutoriálu jsme prozkoumali krok za krokem konverze CAD výkresů do PDF pomocí **dwg to pdf java** s Aspose.CAD. Dodržením těchto instrukcí můžete snadno integrovat export PDF do desktopových, webových nebo mikro‑servisních architektur, přičemž si zachováte plnou kontrolu nad rasterizací a rozvržením.
+V tomto tutoriálu jsme prozkoumali krok za krokem proces převodu CAD výkresů do PDF pomocí **dwg to pdf java** s Aspose.CAD, se zaměřením na **nastavení velikosti stránky PDF** a související **možnosti exportu pdf**. Dodržením těchto instrukcí můžete snadno integrovat export PDF do desktopových, webových nebo mikro‑služebních architektur, přičemž si zachováte plnou kontrolu nad rasterizací, rozvržením a rozlišením.
 
 ---
 
-**Poslední aktualizace:** 22. 12. 2025
-**Testováno s:** Aspose.CAD pro Javu 24.12
-**Autor:** Aspose  
+**Last Updated:** 2026-02-23  
+**Tested With:** Aspose.CAD for Java 24.12  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
