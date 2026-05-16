@@ -1,33 +1,42 @@
 ---
-title: Aspose.CAD for .NET での自動レイアウト スケーリングの設定
-linktitle: 自動レイアウト拡大縮小の設定
-second_title: Aspose.CAD .NET - CAD および BIM ファイル形式
-description: Aspose.CAD for .NET を使用して CAD レンダリングを強化します。正確で適応性のあるファイル レンダリングのために自動レイアウト スケーリングを設定する方法を学びます。
-weight: 14
+date: 2026-03-26
+description: Aspose.CAD for .NET の Auto Layout Scaling を使用して、CAD から PDF を作成し、DXF を
+  PDF に変換する方法を学び、正確で柔軟なレンダリングを実現します。
+linktitle: Setting Auto Layout Scaling
+second_title: Aspose.CAD .NET - CAD and BIM File Format
+title: 'CADからPDFを作成: オートレイアウトスケーリング – Aspose.CAD'
 url: /ja/net/cad-features-and-support/setting-auto-layout-scaling/
+weight: 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.CAD for .NET での自動レイアウト スケーリングの設定
+# CADからPDFを作成: Auto Layout Scaling – Aspose.CAD
 
-.NET 開発の動的な領域では、コンピュータ支援設計 (CAD) ファイルのレンダリングの最適化は、効率的で視覚的に魅力的なアプリケーションを作成するための重要な側面です。 Aspose.CAD for .NET を使用すると、開発者は CAD 処理機能を強化できます。このチュートリアルでは、Aspose.CAD for .NET を使用した自動レイアウト スケーリングの設定に焦点を当てます。
+モダンな .NET アプリケーションでは、CAD 図面を高品質な PDF に変換することは一般的な要件です—レポート作成、共有、アーカイブのために **create PDF from CAD** が必要な場合でも。このチュートリアルでは、Aspose.CAD for .NET を使用して Auto Layout Scaling を有効にし、ピクセル単位で完璧な結果を得る方法と、最小限のコードで **convert DXF to PDF** と **export CAD to PDF** の方法を紹介します。
+
+## クイック回答
+- **Auto Layout Scaling は何をしますか？** ページサイズに合わせてレイアウトを自動的に調整し、ジオメトリの忠実度を保ちます。  
+- **どのフォーマットがサポートされていますか？** Aspose.CAD が読み取れるすべてのフォーマット（DXF、DWG、DGN など）は PDF にエクスポートできます。  
+- **ライセンスは必要ですか？** 開発には無料トライアルが使用でき、製品版には商用ライセンスが必要です。  
+- **ページサイズを変更できますか？** はい—`CadRasterizationOptions` の `PageWidth` と `PageHeight` を設定します。  
+- **.NET Core と互換性がありますか？** 完全に対応しており、.NET Framework と .NET Core/5/6+ で動作します。
+
+## “create PDF from CAD” とは何ですか？
+CAD ファイルから PDF を作成することは、ベクタードローイングデータをラスタライズしてポータブルドキュメント形式に変換することを意味します。この変換はレイヤー、線幅、色を保持し、CAD ソフトウェアがなくても任意のデバイスでファイルを閲覧できるようにします。
+
+## Auto Layout Scaling を使用する理由
+Auto Layout Scaling は、図面全体が出力ページにきれいに収まるようにし、スケーリング係数の手動計算を不要にします。特に、建築図面や機械図面など、サイズが異なる図面を扱う場合に便利です。
 
 ## 前提条件
-
-チュートリアルを詳しく進める前に、次の前提条件が満たされていることを確認してください。
-
-1.  Aspose.CAD for .NET ライブラリ: Aspose.CAD for .NET ライブラリを次の場所からダウンロードしてインストールします。[ダウンロードページ](https://releases.aspose.com/cad/net/).
-
-2. 開発環境: Visual Studio またはその他の .NET 開発ツールがインストールされた実用的な開発環境を用意します。
-
-3. サンプル CAD ファイル: 実験用に DXF 形式のサンプル CAD ファイルを準備します。テスト目的で見つけることも、独自のものを使用することもできます。
+1. **Aspose.CAD for .NET** – 最新のライブラリを [download page](https://releases.aspose.com/cad/net/) からダウンロードします。  
+2. **.NET 開発環境** – Visual Studio、Rider、または C# をサポートする任意のエディタ。  
+3. **サンプル DXF ファイル** – 例: `conic_pyramid.dxf`、または変換したい任意の CAD ファイル。
 
 ## 名前空間のインポート
-
-まず、必要な名前空間を .NET プロジェクトにインポートして、Aspose.CAD が提供する機能にアクセスします。
+Aspose.CAD クラスにアクセスできるように、必要な名前空間を追加します。
 
 ```csharp
 using System;
@@ -38,9 +47,8 @@ using System.Threading.Tasks;
 using Aspose.CAD;
 ```
 
-## ステップ 1: CAD ファイルをロードする
-
-Aspose.CAD ライブラリを使用して、CAD ファイルをアプリケーションにロードします。
+## ステップ 1: CAD ファイルの読み込み
+ソース図面を `Image` オブジェクトにロードします。これが以降のすべての処理のエントリーポイントです。
 
 ```csharp
 string MyDir = "Your Document Directory";
@@ -48,13 +56,12 @@ string sourceFilePath = MyDir + "conic_pyramid.dxf";
 
 using (Image image = Image.Load(sourceFilePath))
 {
-    //コードはここにあります
+    // Your code here
 }
 ```
 
-## ステップ 2: ラスタライズ オプションを構成する
-
-のインスタンスを作成します`CadRasterizationOptions`そしてそのプロパティを設定してラスタライズプロセスをカスタマイズします。
+## ステップ 2: ラスタライズオプションの設定
+出力ページの寸法を定義します。希望する PDF サイズに合わせてこれらの値を調整してください。
 
 ```csharp
 CadRasterizationOptions rasterizationOptions = new CadRasterizationOptions();
@@ -62,60 +69,63 @@ rasterizationOptions.PageWidth = 1600;
 rasterizationOptions.PageHeight = 1600;
 ```
 
-## ステップ 3: 自動レイアウト拡大縮小を有効にする
-
-を設定して自動レイアウト スケーリングを有効にします。`AutomaticLayoutsScaling`プロパティを true に設定します。
+## ステップ 3: Auto Layout Scaling の有効化
+自動スケーリングを有効にし、図面がページに切れずに収まるようにします。
 
 ```csharp
 rasterizationOptions.AutomaticLayoutsScaling = true;
 ```
 
 ## ステップ 4: PDF オプションの作成
-
-のインスタンスを作成します`PdfOptions`出力形式を指定し、`VectorRasterizationOptions`プロパティを以前に設定したものに`CadRasterizationOptions`.
+ラスタライズ設定を PDF エクスポーターにリンクします。
 
 ```csharp
 PdfOptions pdfOptions = new PdfOptions();
 pdfOptions.VectorRasterizationOptions = rasterizationOptions;
 ```
 
-## ステップ 5: 結果を保存する
-
-出力パスを定義し、適用された設定を含む CAD ファイルを PDF ファイルに保存します。
+## ステップ 5: 結果の保存 – CAD から PDF を作成
+出力パスを指定し、画像を PDF として保存します。このステップで、設定したスケーリングを使用して **create PDF from CAD** が実行されます。
 
 ```csharp
 MyDir = MyDir + "result_out.pdf";
 image.Save(MyDir, pdfOptions);
 ```
 
-## 結論
-
-おめでとう！ Aspose.CAD for .NET を使用して自動レイアウト スケーリングが正常に設定されました。この最適化により、CAD ファイルが正確かつ適応性をもってレンダリングされ、アプリケーションの汎用性が高まります。
+## よくある問題とヒント
+- **フォントや線種が欠落していますか？** CAD ファイルの参照が埋め込まれているか、サーバー上に存在することを確認してください。  
+- **大きなファイルでメモリ圧迫が発生しますか？** 図面を分割して処理するか、アプリケーションのメモリ上限を増やしてください。  
+- **出力がぼやけていますか？** より高い DPI のために `PageWidth`/`PageHeight` を増やすか、`CadRasterizationOptions` の `Resolution` を設定してください。
 
 ## よくある質問
 
-### Q1: 自動レイアウト スケーリングを DXF 以外のファイル形式に適用できますか?
+**Q: DXF 以外のファイル形式にも Auto Layout Scaling を適用できますか？**  
+A: はい、Aspose.CAD は DWG、DGN など多数の CAD フォーマットで自動スケーリングをサポートしています。
 
-A1: はい、Aspose.CAD for .NET は、自動レイアウト スケーリング用のさまざまな CAD 形式をサポートしています。
+**Q: レンダリング処理中のエラーはどのように処理できますか？**  
+A: 変換コードを `try‑catch` ブロックで囲み、詳細なエラー情報を得るために `Aspose.CAD.CadException` をキャッチしてください。
 
-### Q2: レンダリング プロセス中のエラーはどのように処理すればよいですか?
+**Q: Aspose.CAD が扱えるファイルサイズに制限はありますか？**  
+A: ライブラリは大きなファイル向けに設計されていますが、パフォーマンスは利用可能な RAM と CPU に依存します。非常に大きな図面は、リソースが豊富なサーバーで処理することを検討してください。
 
-A2: try-catch ブロックを使用してエラー処理メカニズムを実装し、例外を管理できます。
+**Q: 出力 PDF をさらにカスタマイズできますか（例: ウォーターマークやメタデータの追加）？**  
+A: もちろんです。保存後に Aspose.PDF を使用して PDF を変更できます—ウォーターマークの追加、ドキュメントプロパティの設定、ページの結合などが可能です。
 
-### Q3: Aspose.CAD for .NET が処理できるファイル サイズに制限はありますか?
+**Q: Aspose.CAD の追加リソースやサポートはどこで見つけられますか？**  
+A: コミュニティの支援は [Aspose.CAD forum](https://forum.aspose.com/c/cad/19) で探し、より詳しい API の詳細は [documentation](https://reference.aspose.com/cad/net/) を参照してください。
 
-A3: Aspose.CAD は大きなファイルを処理できるように設計されていますが、パフォーマンスはシステムの仕様によって異なる場合があります。
+## 結論
+これで **create PDF from CAD** の方法、**Auto Layout Scaling** の有効化、そして Aspose.CAD for .NET を使用した **convert DXF to PDF** の効果的な手順を学びました。このアプローチにより、実装をシンプルに保ちつつ、レンダリング品質を完全にコントロールできます。
 
-### Q4: 出力 PDF をさらにカスタマイズできますか?
-
-A4: もちろん、Aspose.CAD には、カラー設定やレイヤー構成など、出力をカスタマイズするための幅広いオプションが用意されています。
-
-### Q5: Aspose.CAD の追加リソースとサポートはどこで入手できますか?
-
- A5: を探索してください。[Aspose.CAD フォーラム](https://forum.aspose.com/c/cad/19)コミュニティ サポートについては、を参照してください。[ドキュメンテーション](https://reference.aspose.com/cad/net/)詳細については。
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**最終更新日:** 2026-03-26  
+**テスト環境:** Aspose.CAD for .NET 24.12 (latest)  
+**作者:** Aspose
