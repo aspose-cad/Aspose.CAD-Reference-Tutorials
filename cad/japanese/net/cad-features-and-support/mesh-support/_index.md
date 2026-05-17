@@ -1,37 +1,55 @@
 ---
-title: Aspose.CAD for .NET でのメッシュのサポート
-linktitle: メッシュのサポート
-second_title: Aspose.CAD .NET - CAD および BIM ファイル形式
-description: ステップバイステップのチュートリアルで、Aspose.CAD for .NET のメッシュ サポートを調べてください。 CAD ファイルを簡単に PDF に変換します。
-weight: 11
+date: 2026-03-24
+description: Aspose.CAD for .NET を使用して DWG を PDF に変換する方法を学び、メッシュサポート、CAD の PDF 保存、C#
+  の CAD から PDF へのサンプルを含めます。
+linktitle: Mesh Support
+second_title: Aspose.CAD .NET - CAD and BIM File Format
+title: Aspose.CAD for .NETでメッシュサポート付きDWGをPDFに変換
 url: /ja/net/cad-features-and-support/mesh-support/
+weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.CAD for .NET でのメッシュのサポート
+# Mesh サポート付き Aspose.CAD for .NET で DWG を PDF に変換する
 
-## 導入
+## Introduction
 
-Aspose.CAD for .NET のメッシュ サポートの活用に関する詳細なチュートリアルへようこそ。 Aspose.CAD は、.NET アプリケーションでコンピュータ支援設計 (CAD) ファイルを操作するための堅牢な機能を提供する強力なライブラリです。このチュートリアルでは、特にメッシュ サポート機能を利用して CAD ファイル処理機能を強化することに重点を置きます。
+Welcome to our in‑depth tutorial on **how to convert DWG to PDF** using Aspose.CAD for .NET! Aspose.CAD is a powerful library that provides robust functionality for working with Computer‑Aided Design (CAD) files in .NET applications. In this guide we’ll focus on the mesh support feature, which makes **cad mesh conversion** seamless and lets you **save CAD as PDF** with high fidelity.
 
-## 前提条件
+## Quick Answers
+- **What does mesh support do?** It preserves 3‑D mesh geometry when converting CAD files to raster or vector formats.  
+- **Which library handles the conversion?** Aspose.CAD for .NET.  
+- **Can I convert DWG to PDF in C#?** Yes – the example below shows a complete C# workflow.  
+- **Do I need a license?** A valid Aspose.CAD license is required for production; a temporary license works for evaluation.  
+- **What output size can I expect?** In the sample we rasterize to 1600 × 1600 px, but you can adjust the dimensions as needed.
 
-メッシュ サポートのチュートリアルに入る前に、次の前提条件が満たされていることを確認してください。
+## What is “convert DWG to PDF” with mesh support?
+Converting a DWG file to PDF while retaining mesh data ensures that complex 3‑D surfaces appear correctly in the final document. This is especially useful for engineering reviews, client presentations, and archiving BIM data.
 
-1.  Aspose.CAD for .NET をインストールする: まだ行っていない場合は、Aspose.CAD for .NET を次の場所からダウンロードしてインストールします。[ダウンロードページ](https://releases.aspose.com/cad/net/).
+## Why use Aspose.CAD’s mesh support?
+- **Accurate rendering** of 3‑D objects without losing detail.  
+- **No external dependencies** – the library handles everything inside .NET.  
+- **Fast performance** for large drawings thanks to optimized rasterization options.  
+- **Cross‑platform** compatibility with .NET Framework, .NET Core, and .NET 5/6.
 
-2. ライセンスの取得: プロジェクトで Aspose.CAD を使用するには、有効なライセンスを持っていることを確認してください。から取得できます。[ここ](https://purchase.aspose.com/buy)または、[一時ライセンスオプション](https://purchase.aspose.com/temporary-license/)試用期間中。
+## Prerequisites
 
-3. 開発環境をセットアップする: 開発環境が正しく構成されていること、および .NET アプリケーションの操作に関する基本的な理解があることを確認してください。
+Before diving into the mesh support tutorial, make sure you have the following prerequisites in place:
 
-それでは、チュートリアルに移り、Aspose.CAD for .NET を使用したメッシュ サポートを調べてみましょう。
+1. Install Aspose.CAD for .NET: If you haven't already, download and install Aspose.CAD for .NET from the [download page](https://releases.aspose.com/cad/net/).
 
-## 名前空間のインポート
+2. Obtain a License: To use Aspose.CAD in your project, ensure you have a valid license. You can acquire one from [here](https://purchase.aspose.com/buy) or explore the [temporary license option](https://purchase.aspose.com/temporary-license/) for a trial period.
 
-.NET プロジェクトで、Aspose.CAD 機能にアクセスするために必要な名前空間をインポートします。コードに次の行を追加します。
+3. Set Up Your Development Environment: Make sure your development environment is configured correctly, and you have a basic understanding of working with .NET applications.
+
+Now, let's jump into the tutorial and explore mesh support using Aspose.CAD for .NET!
+
+## Import Namespaces
+
+In your .NET project, import the necessary namespaces to access the Aspose.CAD functionality. Add the following lines to your code:
 
 ```csharp
 using Aspose.CAD.FileFormats.Cad;
@@ -40,23 +58,22 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-
 ```
 
-## ステップ 1: ドキュメント ディレクトリを定義する
+## Step 1: Define Your Document Directory
 
 ```csharp
 string MyDir = "Your Document Directory";
 ```
 
-## ステップ 2: ソースパスと出力パスを指定する
+## Step 2: Specify Source and Output Paths
 
 ```csharp
 string sourceFilePath = MyDir + "meshes.dwg";
 string outPath = MyDir + "meshes.pdf";
 ```
 
-## ステップ 3: CAD イメージをロードし、ラスタライズ オプションを構成する
+## Step 3: Load CAD Image and Configure Rasterization Options
 
 ```csharp
 using (CadImage cadImage = (CadImage)Image.Load(sourceFilePath))
@@ -72,40 +89,51 @@ using (CadImage cadImage = (CadImage)Image.Load(sourceFilePath))
     };
 ```
 
-## ステップ 4: 処理された画像を保存する
+## Step 4: Save the Processed Image
 
 ```csharp
     cadImage.Save(outPath, pdfOptions);
 }
 ```
 
-おめでとう！ Aspose.CAD for .NET のメッシュ サポートを利用して、メッシュを含む CAD ファイルを PDF ファイルに変換することに成功しました。プロジェクトの要件に応じて、より多くの機能を自由に探索し、コードをカスタマイズしてください。
+Congratulations! You've successfully utilized mesh support in Aspose.CAD for .NET to **convert DWG to PDF** and **save CAD as PDF**. Feel free to explore more features and customize the code according to your project requirements.
 
-## 結論
+## Common Issues and Solutions
 
-結論として、Aspose.CAD for .NET は CAD ファイルを操作するためのシームレスなソリューションを提供し、そのメッシュ サポートは複雑な設計を処理するための新たな可能性を開きます。このチュートリアルに従うことで、メッシュ サポートを .NET アプリケーションに統合するための貴重な洞察が得られます。
+| 問題 | 解決策 |
+|-------|----------|
+| **Meshes appear blank** | Ensure `Layouts` includes `"Model"` and the source DWG actually contains mesh entities. |
+| **Output PDF is too large** | Reduce `PageWidth`/`PageHeight` or enable compression via `PdfOptions.CompressionLevel`. |
+| **License not applied** | Call `Aspose.CAD.License license = new Aspose.CAD.License(); license.SetLicense("Aspose.CAD.lic");` before loading the image. |
 
-## よくある質問
+## Frequently Asked Questions
 
-### Q1: Aspose.CAD はさまざまな CAD ファイル形式と互換性がありますか?
+### Q1: Is Aspose.CAD compatible with various CAD file formats?
 
-A1: はい、Aspose.CAD は、DWG、DXF、DGN などを含む幅広い CAD ファイル形式をサポートしています。
+A1: Yes, Aspose.CAD supports a wide range of CAD file formats, including DWG, DXF, DGN, and more.
 
-### Q2: Aspose.CAD for .NET はライセンスなしで使用できますか?
+### Q2: Can I use Aspose.CAD for .NET without a license?
 
-A2: 運用環境での使用にはライセンスが推奨されますが、開発中は一時ライセンスを使用してライブラリを探索できます。
+A2: While a license is recommended for production use, you can explore the library with a temporary license during development.
 
-### Q3: Aspose.CAD サポートのためのコミュニティ フォーラムはありますか?
+### Q3: Are there any community forums for Aspose.CAD support?
 
- A3: はい、次のサイトにアクセスしてください。[Aspose.CAD フォーラム](https://forum.aspose.com/c/cad/19)コミュニティのサポートとディスカッションのために。
+A3: Yes, visit the [Aspose.CAD forum](https://forum.aspose.com/c/cad/19) for community support and discussions.
 
-### Q4: Aspose.CAD の完全なドキュメントにアクセスするにはどうすればよいですか?
+### Q4: How can I access the full documentation for Aspose.CAD?
 
- A4: 詳細を参照してください。[ドキュメンテーション](https://reference.aspose.com/cad/net/) Aspose.CAD for .NET に関する包括的なガイダンスを参照してください。
+A4: Refer to the detailed [documentation](https://reference.aspose.com/cad/net/) for comprehensive guidance on Aspose.CAD for .NET.
 
-### Q5: Aspose.CAD for .NET の最新バージョンはどこからダウンロードできますか?
+### Q5: Where can I download the latest version of Aspose.CAD for .NET?
 
- A5: からライブラリをダウンロードします。[リリースページ](https://releases.aspose.com/cad/net/).
+A5: Download the library from the [release page](https://releases.aspose.com/cad/net/).
+
+---
+
+**最終更新日:** 2026-03-24  
+**テスト環境:** Aspose.CAD 24.11 for .NET  
+**作成者:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

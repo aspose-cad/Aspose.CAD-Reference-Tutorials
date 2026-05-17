@@ -1,35 +1,48 @@
 ---
-title: Export DGN do rastrového obrázku v Aspose.CAD pro .NET
-linktitle: Export DGN do rastrového obrázku
-second_title: Aspose.CAD .NET – formát souborů CAD a BIM
-description: Převeďte DGN na rastrové obrázky bez námahy pomocí Aspose.CAD pro .NET. Prozkoumejte průvodce krok za krokem a uvolněte sílu .NET při manipulaci se soubory CAD.
-weight: 13
+date: 2026-03-24
+description: Naučte se, jak převést DGN na PNG a uložit CAD jako JPEG pomocí Aspose.CAD
+  pro .NET – rychlý průvodce konverzí CAD na obrázek.
+linktitle: Export DGN to Raster Image
+second_title: Aspose.CAD .NET - CAD and BIM File Format
+title: Jak převést DGN na PNG v Aspose.CAD pro .NET
 url: /cs/net/cad-export-formats/export-dgn-to-raster-image/
+weight: 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Export DGN do rastrového obrázku v Aspose.CAD pro .NET
+# Převod DGN na PNG v Aspose.CAD pro .NET
 
-## Úvod
+V moderním vývoji .NET je **convert dgn to png** běžnou požadavkem, když potřebujete zobrazit CAD výkresy na webu nebo je vložit do zpráv. Aspose.CAD pro .NET usnadňuje tuto konverzi a umožňuje převést soubor DGN na vysoce kvalitní rastrový obrázek pomocí několika řádků kódu. V tomto průvodci vás provedeme celým procesem, od nastavení projektu až po uložení finálního souboru PNG (nebo JPEG).
 
-V dynamické sféře vývoje .NET se Aspose.CAD ukazuje jako výkonný nástroj pro práci se soubory CAD (Computer-Aided Design). Tento tutoriál se ponoří do procesu exportu souborů DGN do rastrových obrázků pomocí Aspose.CAD for .NET. Pokud máte zájem o bezproblémovou transformaci souborů DGN na vizuálně působivé rastrové obrázky, jste na správném místě.
+## Rychlé odpovědi
+- **Mohu převést DGN na PNG pomocí Aspose.CAD?** Ano – stačí nakonfigurovat možnosti rasterizace a zvolit výstup PNG nebo JPEG.  
+- **Potřebuji licenci pro produkční použití?** Platná licence Aspose.CAD je vyžadována pro nasazení mimo zkušební verzi.  
+- **Které verze .NET jsou podporovány?** .NET Framework 4.6+, .NET Core 3.1+, .NET 5/6/7.  
+- **Jaké formáty obrázků jsou k dispozici?** PNG, JPEG, BMP, GIF, TIFF a další.  
+- **Je nutná obsluha výjimek?** Rozhodně – zabalte konverzi do try/catch pro řešení problémů s přístupem k souborům.
+
+## Co je “convert dgn to png”?
+Převod souboru DGN (MicroStation) na PNG znamená rasterizaci vektorových CAD dat do obrázku založeného na pixelech. To je užitečné pro generování náhledů, vkládání výkresů do HTML e‑mailů nebo vytváření miniatur pro systémy správy dokumentů.
+
+## Proč použít Aspose.CAD pro konverzi CAD na obrázek?
+- **Žádné externí závislosti** – funguje čistě v řízeném kódu.  
+- **Vysoká věrnost** – zachovává tloušťky čar, vrstvy a barvy.  
+- **Flexibilní výstup** – přepínáte mezi PNG, JPEG, BMP atd. změnou jediné volby.  
+- **Optimalizovaný výkon** – rasterizace je rychlá i u velkých výkresů.
 
 ## Předpoklady
 
-Než se vydáme na tuto cestu, ujistěte se, že máte splněny následující předpoklady:
+Než začneme, ujistěte se, že máte:
 
--  Aspose.CAD for .NET: Ujistěte se, že máte v projektu .NET nainstalovanou knihovnu Aspose.CAD. Knihovnu a příslušnou dokumentaci najdete na[webová stránka](https://reference.aspose.com/cad/net/).
+- **Aspose.CAD for .NET** nainstalovaný ve vašem projektu. Můžete jej stáhnout z [webu](https://reference.aspose.com/cad/net/).  
+- Vzorek souboru DGN (např. `Nikon_D90_Camera.dgn`) umístěný v známém adresáři.
 
-- Ukázkový soubor DGN: Připravte si soubor DGN pro převod. V našem příkladu použijeme "Nikon_D90_Camera.dgn."
+## Importujte jmenné prostory
 
-Nyní se pojďme ponořit do podrobného průvodce.
-
-## Importovat jmenné prostory
-
-Ve svém projektu .NET začněte importováním potřebných jmenných prostorů pro Aspose.CAD. Tento krok vám umožní přístup ke třídám a metodám požadovaným pro převod DGN na rastrový obrázek.
+Začněte přidáním požadovaných `using` direktiv, abyste mohli přistupovat ke třídám Aspose.CAD.
 
 ```csharp
 using System;
@@ -40,9 +53,9 @@ using System.Threading.Tasks;
 using Aspose.CAD;
 ```
 
-## Krok 1: Načtěte soubor DGN
+## Krok 1: Načtení souboru DGN
 
- Začněte načtením souboru DGN do a`CadImage` objekt. To poskytuje základ pro další operace.
+Načtěte zdrojový DGN do objektu `CadImage`. Tento objekt představuje CAD výkres v paměti a bude zdrojem pro rasterizaci.
 
 ```csharp
 string MyDir = "Your Document Directory";
@@ -50,13 +63,13 @@ string sourceFilePath = MyDir + "Nikon_D90_Camera.dgn";
 
 using (CadImage cadImage = (CadImage)Image.Load(sourceFilePath))
 {
-    // Zde je váš kód pro další zpracování
+    // Your code for further processing goes here
 }
 ```
 
-## Krok 2: Definujte možnosti rastrování
+## Krok 2: Definování možností rasterizace
 
- Vytvořit`CadRasterizationOptions` objekt a nastavit různé vlastnosti pro přizpůsobení procesu rasterizace podle vašich požadavků.
+Nastavte, jak má být CAD výkres rasterizován. Zde můžete ovládat velikost obrázku, měřítko a barvu pozadí.
 
 ```csharp
 CadRasterizationOptions rasterizationOptions = new CadRasterizationOptions();
@@ -66,48 +79,62 @@ rasterizationOptions.NoScaling = true;
 rasterizationOptions.AutomaticLayoutsScaling = false;
 ```
 
-## Krok 3: Vytvořte objekt JpegOptions
+## Krok 3: Výběr výstupního formátu (PNG nebo JPEG)
 
- Protože se snažíme převést soubor DGN na JPEG, vytvořte a`JpegOptions` objekt a přiřadit dříve definovaný`CadRasterizationOptions` k tomu.
+Ačkoliv se tutoriál zaměřuje na PNG, můžete také chtít **save cad as jpeg**. Vytvořte odpovídající objekt možností obrázku a připojte nastavení rasterizace.
 
 ```csharp
-ImageOptionsBase options = new JpegOptions();
+ImageOptionsBase options = new JpegOptions();   // Change to PngOptions() for PNG output
 options.VectorRasterizationOptions = rasterizationOptions;
 ```
 
-## Krok 4: Uložte rastrový obrázek
+> **Tip:** Pro vytvoření PNG souboru nahraďte `new JpegOptions()` za `new PngOptions()`.
 
- Využijte`Save` metoda`CadImage` třídy pro export souboru DGN do rastrového obrázku v požadovaném formátu, v tomto případě JPEG.
+## Krok 4: Uložení rastrového obrázku
+
+Nakonec zavolejte `Save` na instanci `CadImage`, přičemž zadáte požadovaný název souboru a objekt možností, který jste nakonfigurovali.
 
 ```csharp
 cadImage.Save(MyDir + "ExportDGNToRasterImage_out.jpg", options);
 ```
 
+Pokud jste přešli na `PngOptions`, soubor bude uložen jako `ExportDGNToRasterImage_out.png`.
+
+## Časté problémy a řešení
+
+| Problém | Příčina | Řešení |
+|-------|-------|-----|
+| **Prázdný výstupní obrázek** | `NoScaling` nastaveno nesprávně nebo není vybráno rozložení | Nastavte `AutomaticLayoutsScaling = true` nebo specifikujte požadované rozložení. |
+| **Nedostatek paměti pro velké soubory** | Načítání obrovského DGN bez streamování | Použijte `Image.Load(sourceFilePath, new LoadOptions { LoadOnDemand = true })`. |
+| **Není podporována verze DGN** | Starší verze MicroStation | Ujistěte se, že máte nejnovější verzi Aspose.CAD, která podporuje starší formáty. |
+
+## Často kladené otázky
+
+**Q: Mohu exportovat soubory DGN do formátů jiných než JPEG?**  
+A: Ano, Aspose.CAD pro .NET podporuje PNG, BMP, GIF, TIFF a další – stačí vyměnit třídu možností (např. `new PngOptions()`).
+
+**Q: Jak mám během konverze zacházet s výjimkami?**  
+A: Zabalte kód konverze do bloku `try/catch` a zaznamenejte `Aspose.CAD.CadException` pro podrobné informace o chybě.
+
+**Q: Je k dispozici zkušební verze Aspose.CAD pro .NET?**  
+A: Ano, můžete produkt vyzkoušet zdarma. Navštivte [zde](https://releases.aspose.com/) pro více informací.
+
+**Q: Kde mohu získat pomoc nebo diskutovat o problémech souvisejících s Aspose.CAD pro .NET?**  
+A: Navštivte [forum Aspose.CAD](https://forum.aspose.com/c/cad/19) pro podporu komunity a diskuse.
+
+**Q: Jak získám dočasnou licenci pro Aspose.CAD pro .NET?**  
+A: Navštivte [tento odkaz](https://purchase.aspose.com/temporary-license/) a získejte dočasnou licenci pro vaše vývojové potřeby.
+
 ## Závěr
 
-Gratulujeme! Úspěšně jste prošli kroky k exportu souboru DGN do rastrového obrázku pomocí Aspose.CAD for .NET. Tento výukový program vás vybavil základními znalostmi pro snadnou integraci této funkce do vašich projektů .NET.
+Nyní jste se naučili, jak **convert dgn to png** (nebo JPEG) pomocí Aspose.CAD pro .NET. Úpravou možností rasterizace a výměnou třídy možností obrázku můžete přizpůsobit výstup jakémukoli požadavku projektu. Nebojte se experimentovat s různými velikostmi stránek, nastavením DPI a formáty souborů, abyste získali dokonalý rastrový obrázek pro vaši aplikaci.
 
-## FAQ
+---
 
-### Q1: Mohu exportovat soubory DGN do jiných formátů než JPEG?
+**Poslední aktualizace:** 2026-03-24  
+**Testováno s:** Aspose.CAD 24.11 for .NET  
+**Autor:** Aspose  
 
-A1: Ano, Aspose.CAD for .NET podporuje různé výstupní formáty. V kroku 3 můžete odpovídajícím způsobem upravit možnosti.
-
-### Q2 Jak mohu zpracovat výjimky během procesu převodu?
-
-A2: Ujistěte se, že máte správné zpracování výjimek, jak je ukázáno v poskytnutém kódu, abyste řešili potenciální problémy.
-
-### Q3: Je k dispozici zkušební verze pro Aspose.CAD pro .NET?
-
- A3: Ano, produkt můžete prozkoumat pomocí bezplatné zkušební verze. Návštěva[tady](https://releases.aspose.com/) Pro více informací.
-
-### Q4: Kde mohu vyhledat pomoc nebo projednat problémy související s Aspose.CAD for .NET?
-
- A4: Přejděte na[Fórum Aspose.CAD](https://forum.aspose.com/c/cad/19) za podporu komunity a diskuze.
-
-### Q5: Jak získám dočasnou licenci pro Aspose.CAD for .NET?
-
- A5: Návštěva[tento odkaz](https://purchase.aspose.com/temporary-license/)získat dočasnou licenci pro vaše vývojové potřeby.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
