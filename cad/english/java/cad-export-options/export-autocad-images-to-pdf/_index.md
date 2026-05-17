@@ -1,11 +1,11 @@
 ---
-title: Export AutoCAD PDF - Export AutoCAD Images to PDF with Aspose.CAD for Java Tutorial
+title: Convert DWG to PDF - Export AutoCAD Images to PDF with Aspose.CAD for Java
 linktitle: Export AutoCAD Images to PDF
 second_title: Aspose.CAD Java API
-description: Learn how to export AutoCAD PDF using Aspose.CAD for Java. This step‑by‑step guide shows you how to convert DWG to PDF, save CAD as PDF, and handle licensing.
+description: Learn how to export AutoCAD PDF using Aspose.CAD for Java. This step‑by‑step guide shows you how to **convert DWG to PDF**, **save CAD as PDF**, and handle licensing.
 weight: 10
 url: /java/cad-export-options/export-autocad-images-to-pdf/
-date: 2025-12-19
+date: 2026-02-20
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -16,7 +16,7 @@ date: 2025-12-19
 
 ## Introduction
 
-Are you looking to seamlessly **export AutoCAD PDF** using Java? Look no further! In this tutorial we’ll walk you through converting AutoCAD images to PDF with Aspose.CAD for Java, a powerful library that makes the **convert DWG to PDF** process effortless. By the end you’ll understand how to **save CAD as PDF**, apply custom rasterization settings, and work with an Aspose.CAD license for production use.
+Are you looking to **convert DWG to PDF** using Java? Look no further! In this tutorial we’ll walk you through converting AutoCAD images to PDF with Aspose.CAD for Java, a powerful library that makes the **convert DWG to PDF** process effortless. By the end you’ll understand how to **save CAD as PDF**, apply custom rasterization settings, and work with an Aspose.CAD license for production use.
 
 ## Quick Answers
 - **Can I convert DWG to PDF with Java?** Yes, Aspose.CAD for Java handles DWG, DXF and many other formats.  
@@ -28,10 +28,10 @@ Are you looking to seamlessly **export AutoCAD PDF** using Java? Look no further
 ## What is **export autocad pdf**?
 Exporting AutoCAD PDF means converting vector‑based CAD drawings (DWG, DXF, DWF, etc.) into a portable PDF document while preserving layers, line weights, and optionally 3‑D geometry. This is useful for sharing designs with clients, archiving, or printing without requiring CAD software.
 
-## Why use Aspose.CAD for Java to **export autocad pdf**?
+## Why Convert DWG to PDF with Aspose.CAD for Java?
 - **Full format support** – works with DWG, DXF, DWF, and many more.  
 - **No external dependencies** – pure Java library, no native DLLs.  
-- **High‑quality rasterization** – control over DPI, page size, and layout.  
+- **High‑quality rasterization** – control over DPI, page size, and layout, so you can **customize PDF page size** to match your project requirements.  
 - **License flexibility** – start with a free trial, then upgrade to a permanent **Aspose CAD license**.  
 
 ## Prerequisites
@@ -56,7 +56,7 @@ import com.aspose.cad.imageoptions.PdfOptions;
 
 Now let’s walk through the code step‑by‑step.
 
-## Step‑by‑Step Guide
+## How to convert DWG to PDF with Aspose.CAD for Java
 
 ### Step 1: Set the Resource Directory Path
 
@@ -86,7 +86,7 @@ rasterizationOptions.setPageHeight(500);
 rasterizationOptions.setLayouts(new String[] {"Model"});
 ```
 
-- Adjust `pageWidth` and `pageHeight` to change the size of the output PDF.  
+- Adjust `pageWidth` and `pageHeight` to **customize PDF page size**.  
 - Uncomment the `setTypeOfEntities` line if you need **java convert cad pdf** for 3‑D entities.  
 - The `setLayouts` call selects which layout (Model, Layout1, etc.) to render.
 
@@ -134,7 +134,7 @@ A5: Head over to the [Aspose.CAD forum](https://forum.aspose.com/c/cad/19) for d
 
 ---
 
-**Last Updated:** 2025-12-19  
+**Last Updated:** 2026-02-20  
 **Tested With:** Aspose.CAD for Java 24.10  
 **Author:** Aspose  
 

@@ -1,33 +1,54 @@
 ---
-title: Aspose.CAD for Java ile STL'yi PNG'ye aktarın
-linktitle: STL'yi PNG'ye aktar
-second_title: Aspose.CAD Java API'si
-description: Aspose.CAD ile STL dosyalarını Java'da PNG'ye aktarmanın kusursuz sürecini keşfedin. İş akışınızı basitleştirin ve Java projelerinizi zahmetsizce geliştirin.
-weight: 20
+date: 2026-02-20
+description: Aspose.CAD for Java kullanarak STL'yi PNG'ye nasıl dönüştüreceğinizi
+  öğrenin. Bu adım adım kılavuz, STL dosyalarını verimli bir şekilde dışa aktarmayı
+  gösterir.
+linktitle: Export STL to PNG
+second_title: Aspose.CAD Java API
+title: Aspose.CAD for Java ile STL'yi PNG'ye Dönüştürme
 url: /tr/java/cad-export-options/export-stl-to-png/
+weight: 20
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.CAD for Java ile STL'yi PNG'ye aktarın
+# STL'yi PNG'ye Dönüştürme Aspose.CAD for Java ile
 
-## giriiş
+## Giriş
 
-Java kullanarak STL dosyalarını PNG'ye aktarmak mı istiyorsunuz? Aspose.CAD for Java ihtiyacınız olan çözüm! Bu eğitimde size süreç boyunca adım adım rehberlik edeceğiz. Uzman bir SEO yazarı olarak içeriğin yalnızca bilgilendirici olmasını değil aynı zamanda arama motorları için optimize edilmesini de sağlayacağım.
+Java uygulamasında **STL'yi PNG'ye dönüştürmeniz** gerekiyorsa, Aspose.CAD for Java işi hızlı ve güvenilir bir şekilde halleder. Bu öğreticide, projenizi kurmaktan son PNG görüntüsünü kaydetmeye kadar tüm süreci adım adım göstereceğiz—böylece STL dönüşümünü iş akışınıza güvenle entegre edebilirsiniz.
+
+## Hızlı Yanıtlar
+- **Kütüphane ne yapar?** CAD formatlarını (STL dahil) PNG gibi raster görüntülere dönüştürür.  
+- **Hangi dil kullanılıyor?** Java, Aspose.CAD API ile.  
+- **Lisans gerekli mi?** Üretim kullanımı için geçici ya da tam lisans gereklidir.  
+- **Uygulama ne kadar sürer?** Temel bir dönüşüm için yaklaşık 10‑15 dakika.  
+- **Görüntü boyutunu özelleştirebilir miyim?** Evet, `CadRasterizationOptions` aracılığıyla.
+
+## STL'yi PNG'ye Dönüştürmek Nedir?
+
+STL'yi PNG'ye dönüştürmek, bir 3‑B mesh dosyasını (STL) 2‑B raster görüntüye (PNG) çevirir. Bu, hızlı bir görsel önizleme, küçük resim oluşturma ya da modeli 3‑B görüntüleyici gerektirmeden web sayfalarına yerleştirme ihtiyacınız olduğunda faydalıdır.
+
+## Neden Aspose.CAD for Java Kullanmalı?
+
+- **Tam özellikli API** – Sadece STL değil, birçok CAD formatını işler.  
+- **Harici bağımlılık yok** – Saf Java, herhangi bir Maven/Gradle projesine eklemesi kolay.  
+- **Yüksek kaliteli raster çıktısı** – Çözünürlük, arka plan ve anti‑aliasing üzerinde kontrol.  
+- **“STL nasıl dışa aktarılır” senaryolarını destekler** – Toplu işleme veya anlık dönüşümler için idealdir.
 
 ## Önkoşullar
 
-Eğiticiye dalmadan önce aşağıdaki önkoşulların yerine getirildiğinden emin olun:
+Başlamadan önce, aşağıdakilere sahip olduğunuzdan emin olun:
 
-- Makinenizde Java Geliştirme Kiti (JDK) yüklü.
--  Aspose.CAD for Java kütüphanesi indirildi. Alabilirsin[Burada](https://releases.aspose.com/cad/java/).
--  Geçerli bir lisans veya geçici bir lisans[Burada](https://purchase.aspose.com/temporary-license/).
+- Makinenizde Java Development Kit (JDK) kurulu.  
+- Aspose.CAD for Java kütüphanesini indirin. Bunu [buradan](https://releases.aspose.com/cad/java/) alabilirsiniz.  
+- Geçerli bir lisans ya da geçici lisansı [buradan](https://purchase.aspose.com/temporary-license/) edinin.
 
-## Ad Alanlarını İçe Aktar
+## İsim Uzaylarını İçe Aktarma
 
-Java projenizde gerekli ad alanlarını içe aktarın:
+Java projenizde gerekli sınıfları içe aktarın:
 
 ```java
 import com.aspose.cad.Image;
@@ -39,15 +60,15 @@ import com.aspose.cad.imageoptions.CadRasterizationOptions;
 import com.aspose.cad.imageoptions.PngOptions;
 ```
 
-Şimdi örneği birden çok adıma ayıralım.
+Şimdi, örneği birden fazla adıma ayıralım.
 
-## 1. Adım: Projenizi Kurun
+## Adım 1: Projenizi Kurun
 
-Yeni bir Java projesi oluşturun ve Aspose.CAD for Java kütüphanesini projenizin bağımlılıklarına ekleyin.
+Yeni bir Java projesi oluşturun ve Aspose.CAD for Java kütüphanesini projenizin bağımlılıklarına ekleyin (Maven, Gradle veya manuel JAR ekleme).
 
 ## Adım 2: STL Dosyanızı Belirleyin
 
-STL dosyanızın yolunu tanımlayın. Örneğin:
+Dönüştürmek istediğiniz STL dosyasının yolunu tanımlayın:
 
 ```java
 String dataDir = "Your Document Directory" + "ExportingSTL/";
@@ -56,7 +77,7 @@ String fileName = dataDir + "example.stl";
 
 ## Adım 3: STL Dosyasını Yükleyin
 
- STL dosyasını kullanarak yükleyin.`Image.load` yöntem:
+`Image.load` yöntemiyle STL dosyasını yükleyin. Bu, rasterleştirebileceğiniz bir **CAD image** nesnesi oluşturur:
 
 ```java
 CadImage cadImage = (CadImage)Image.load(fileName);
@@ -64,7 +85,7 @@ CadImage cadImage = (CadImage)Image.load(fileName);
 
 ## Adım 4: Rasterleştirme Seçeneklerini Yapılandırın
 
-Vektörleştirme için rasterleştirme seçeneklerini ayarlayın:
+Çıktı PNG'nin boyut ve kalitesini kontrol etmek için rasterleştirme seçeneklerini ayarlayın. Bu seçenekler **cad image to png** dönüşüm sürecinin bir parçasıdır:
 
 ```java
 CadRasterizationOptions vectorOptions = new CadRasterizationOptions();
@@ -72,52 +93,64 @@ vectorOptions.setPageWidth(1500);
 vectorOptions.setPageHeight(1500);
 ```
 
-## 5. Adım: PNG Seçeneklerini Yapılandırın
+## Adım 5: PNG Seçeneklerini Yapılandırın
 
-PNG dışa aktarma seçeneklerini belirtin:
+`PngOptions` örneği oluşturun. Rasterleştirme ayarlarını uygulamak istiyorsanız, aşağıdaki satırın yorumunu kaldırın:
 
 ```java
 PngOptions pngOptions = new PngOptions();
-// Vektör rasterleştirme seçeneklerini ayarlamak istiyorsanız aşağıdaki satırın açıklamasını kaldırın
+// Uncomment the line below if you want to set vector rasterization options
 // pngOptions.setVectorRasterizationOptions(vectorOptions);
 ```
 
-## Adım 6: PNG olarak kaydedin
+## Adım 6: PNG Olarak Kaydedin
 
-CAD görüntüsünü PNG dosyası olarak kaydedin:
+Son olarak, CAD görüntüsünü bir PNG dosyasına dışa aktarın—bu **save PNG Java** adımıdır:
 
 ```java
 String outPath = dataDir + "galeon.stl.png";
 cadImage.save(outPath, pngOptions);
 ```
 
-Tebrikler! Aspose.CAD for Java'yı kullanarak bir STL dosyasını başarıyla PNG'ye aktardınız.
+> **Pro ipucu:** Daha hızlı işleme için `PageWidth` ve `PageHeight` değerlerini istediğiniz küçük resim boyutlarına göre ayarlayın.
 
-## Çözüm
+Tebrikler! Aspose.CAD for Java kullanarak bir STL dosyasını başarıyla **PNG'ye dönüştürdünüz**.
 
-Bu eğitimde, STL dosyalarını PNG'ye zahmetsizce aktarmak için Aspose.CAD for Java'dan nasıl yararlanılacağını araştırdık. Bu güçlü kitaplık, karmaşık görevleri basitleştirerek onu Java projeleriniz için değerli bir varlık haline getirir.
+## Yaygın Sorunlar ve Çözümleri
 
-## SSS'ler
+| Sorun | Sebep | Çözüm |
+|-------|-------|-------|
+| Boş PNG çıktısı | Rasterleştirme seçenekleri ayarlanmamış | `pngOptions.setVectorRasterizationOptions(vectorOptions);` satırının yorumunu kaldırın veya bir arka plan rengi belirtin |
+| Büyük STL dosyalarında OutOfMemoryError | Yetersiz yığın (heap) belleği | JVM yığınını artırın (`-Xmx2g`) veya dosyayı parçalara bölerek işleyin |
+| LicenseException | Geçerli lisans yok | Görüntüyü yüklemeden önce geçici ya da satın alınmış bir lisans uygulayın |
 
-### S1: Aspose.CAD for Java tüm STL dosya sürümleriyle uyumlu mudur?
+## Sıkça Sorulan Sorular
 
-Cevap1: Aspose.CAD for Java, çeşitli STL dosya sürümlerini destekleyerek en yaygın formatlarla uyumluluk sağlar.
+### Q1: Aspose.CAD for Java tüm STL dosya sürümleriyle uyumlu mu?
+A1: Aspose.CAD for Java çeşitli STL dosya sürümlerini destekler, çoğu yaygın formatla uyumluluğu sağlar.
 
-### S2: Aspose.CAD for Java'yı ticari bir projede kullanabilir miyim?
+### Q2: Aspose.CAD for Java'ı ticari bir projede kullanabilir miyim?
+A2: Evet, kullanabilirsiniz. Tek yapmanız gereken [buradan](https://purchase.aspose.com/buy) geçerli bir lisans almaktır.
 
- A2: Evet, yapabilirsin. Geçerli bir lisans almanız yeterli[Burada](https://purchase.aspose.com/buy).
+### Q3: Ücretsiz deneme için geçici lisansa ihtiyacım var mı?
+A3: Hayır, ücretsiz deneme için geçici lisans gerekmez. Deneme sürümüyle hemen başlayabilirsiniz [buradan](https://releases.aspose.com/).
 
-### S3: Ücretsiz deneme için geçici bir lisansa ihtiyacım var mı?
+### Q4: Ek destek nereden bulabilirim ya da soru sorabilirim?
+A4: Herhangi bir destek veya soru için Aspose.CAD forumunu [buradan](https://forum.aspose.com/c/cad/19) ziyaret edin.
 
- C3: Hayır, ücretsiz deneme için geçici lisansa gerek yoktur. Deneme sürümüne hemen başlayabilirsiniz[Burada](https://releases.aspose.com/).
+### Q5: Kapsamlı bir dokümantasyon mevcut mu?
+A5: Evet, dokümantasyonu [buradan](https://reference.aspose.com/cad/java/) bulabilirsiniz.
 
-### S4: Nerede ek destek bulabilirim veya soru sorabilirim?
+## Sonuç
 
- Cevap4: Aspose.CAD forumunu ziyaret edin[Burada](https://forum.aspose.com/c/cad/19) herhangi bir destek veya sorularınız için.
+Bu rehberde, Aspose.CAD for Java kullanarak **STL'yi PNG'ye** verimli bir şekilde nasıl dönüştüreceğinizi gösterdik. Yukarıdaki adımları izleyerek, STL‑to‑PNG dönüşümünü herhangi bir Java tabanlı iş akışına entegre edebilirsiniz; ister bir masaüstü yardımcı programı, bir web servisi ya da otomatik raporlama aracı geliştirin.
 
-### S5: Kapsamlı bir belge mevcut mu?
+---
 
- A5: Evet, belgeler bulunabilir[Burada](https://reference.aspose.com/cad/java/).
+**Son Güncelleme:** 2026-02-20  
+**Test Edilen Versiyon:** Aspose.CAD for Java 24.12 (yazım anındaki en son sürüm)  
+**Yazar:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

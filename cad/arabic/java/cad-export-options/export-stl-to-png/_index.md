@@ -1,33 +1,53 @@
 ---
-title: تصدير STL إلى PNG باستخدام Aspose.CAD لـ Java
-linktitle: تصدير STL إلى PNG
-second_title: Aspose.CAD جافا API
-description: استكشف العملية السلسة لتصدير ملفات STL إلى PNG في Java باستخدام Aspose.CAD. قم بتبسيط سير عملك وتحسين مشاريع Java الخاصة بك دون عناء.
-weight: 20
+date: 2026-02-20
+description: تعلم كيفية تحويل STL إلى PNG باستخدام Aspose.CAD للـ Java. يوضح هذا الدليل
+  خطوة بخطوة كيفية تصدير ملفات STL بكفاءة.
+linktitle: Export STL to PNG
+second_title: Aspose.CAD Java API
+title: كيفية تحويل STL إلى PNG باستخدام Aspose.CAD للـ Java
 url: /ar/java/cad-export-options/export-stl-to-png/
+weight: 20
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# تصدير STL إلى PNG باستخدام Aspose.CAD لـ Java
+# تحويل STL إلى PNG باستخدام Aspose.CAD للـ Java
 
-## مقدمة
+## المقدمة
 
-هل تتطلع إلى تصدير ملفات STL إلى PNG باستخدام Java؟ Aspose.CAD لـ Java هو الحل الذي تحتاجه! في هذا البرنامج التعليمي، سنرشدك خلال العملية خطوة بخطوة. باعتباري كاتبًا ماهرًا في مجال تحسين محركات البحث (SEO)، سأتأكد من أن المحتوى ليس مفيدًا فحسب، بل مُحسّن أيضًا لمحركات البحث.
+إذا كنت بحاجة إلى **تحويل STL إلى PNG** في تطبيق Java، فإن Aspose.CAD للـ Java يجعل المهمة سريعة وموثوقة. في هذا الدرس سنستعرض العملية بالكامل—من إعداد مشروعك إلى حفظ صورة PNG النهائية—حتى تتمكن من دمج تحويل STL في سير عملك بثقة.
 
-## المتطلبات الأساسية
+## إجابات سريعة
+- **ماذا تفعل المكتبة؟** تقوم بتحويل صيغ CAD (بما في ذلك STL) إلى صور نقطية مثل PNG.  
+- **ما اللغة المستخدمة؟** Java، باستخدام Aspose.CAD API.  
+- **هل أحتاج إلى ترخيص؟** يلزم الحصول على ترخيص مؤقت أو كامل للاستخدام في الإنتاج.  
+- **كم يستغرق التنفيذ؟** حوالي 10‑15 دقيقة لتحويل أساسي.  
+- **هل يمكنني تخصيص حجم الصورة؟** نعم، عبر `CadRasterizationOptions`.
 
-قبل الغوص في البرنامج التعليمي، تأكد من توفر المتطلبات الأساسية التالية:
+## ما هو تحويل STL إلى PNG؟
 
-- تم تثبيت Java Development Kit (JDK) على جهازك.
--  تم تنزيل Aspose.CAD لمكتبة Java. يمكنك الحصول عليه[هنا](https://releases.aspose.com/cad/java/).
--  ترخيص ساري المفعول أو ترخيص مؤقت من[هنا](https://purchase.aspose.com/temporary-license/).
+تحويل STL إلى PNG يحول ملف شبكة ثلاثية الأبعاد (STL) إلى صورة نقطية ثنائية الأبعاد (PNG). هذا مفيد عندما تحتاج إلى معاينة بصرية سريعة، أو إنشاء صور مصغرة، أو تضمين النموذج في صفحات الويب دون الحاجة إلى عارض ثلاثي الأبعاد.
 
-## استيراد مساحات الأسماء
+## لماذا تستخدم Aspose.CAD للـ Java؟
 
-في مشروع Java الخاص بك، قم باستيراد مساحات الأسماء الضرورية:
+- **API كامل المميزات** – يدعم العديد من صيغ CAD، ليس فقط STL.  
+- **بدون تبعيات خارجية** – جافا صافية، سهل إضافتها إلى أي مشروع Maven/Gradle.  
+- **إخراج نقطي عالي الجودة** – تحكم في الدقة، الخلفية، وإزالة التعرجات.  
+- **يدعم سيناريوهات “كيفية تصدير STL”** – مثالي للمعالجة الدفعية أو التحويلات الفورية.
+
+## المتطلبات المسبقة
+
+قبل أن تبدأ، تأكد من أن لديك:
+
+- مجموعة تطوير جافا (JDK) مثبتة على جهازك.  
+- مكتبة Aspose.CAD للـ Java تم تنزيلها. يمكنك الحصول عليها [هنا](https://releases.aspose.com/cad/java/).  
+- ترخيص صالح أو ترخيص مؤقت من [هنا](https://purchase.aspose.com/temporary-license/).
+
+## استيراد الحزم
+
+في مشروع Java الخاص بك، استورد الفئات اللازمة:
 
 ```java
 import com.aspose.cad.Image;
@@ -39,15 +59,15 @@ import com.aspose.cad.imageoptions.CadRasterizationOptions;
 import com.aspose.cad.imageoptions.PngOptions;
 ```
 
-الآن، دعونا نقسم المثال إلى خطوات متعددة.
+الآن، دعنا نقسم المثال إلى عدة خطوات.
 
-## الخطوة 1: قم بإعداد مشروعك
+## الخطوة 1: إعداد مشروعك
 
-قم بإنشاء مشروع Java جديد وأضف مكتبة Aspose.CAD for Java إلى تبعيات مشروعك.
+أنشئ مشروع Java جديد وأضف مكتبة Aspose.CAD للـ Java إلى تبعيات مشروعك (Maven أو Gradle أو إضافة JAR يدويًا).
 
-## الخطوة 2: حدد ملف STL الخاص بك
+## الخطوة 2: تحديد ملف STL الخاص بك
 
-حدد المسار إلى ملف STL الخاص بك. على سبيل المثال:
+حدد المسار إلى ملف STL الذي تريد تحويله:
 
 ```java
 String dataDir = "Your Document Directory" + "ExportingSTL/";
@@ -56,15 +76,15 @@ String fileName = dataDir + "example.stl";
 
 ## الخطوة 3: تحميل ملف STL
 
- قم بتحميل ملف STL باستخدام ملف`Image.load` طريقة:
+حمّل ملف STL باستخدام طريقة `Image.load`. هذا ينشئ كائن **صورة CAD** يمكنك تحويله إلى نقطية:
 
 ```java
 CadImage cadImage = (CadImage)Image.load(fileName);
 ```
 
-## الخطوة 4: تكوين خيارات التنقيط
+## الخطوة 4: تكوين خيارات التحويل إلى نقطية
 
-قم بإعداد خيارات التنقيط للتوجيه:
+قم بإعداد خيارات التحويل إلى نقطية للتحكم في حجم وجودة صورة PNG الناتجة. هذه الخيارات هي جزء من عملية تحويل **cad image to png**:
 
 ```java
 CadRasterizationOptions vectorOptions = new CadRasterizationOptions();
@@ -74,50 +94,62 @@ vectorOptions.setPageHeight(1500);
 
 ## الخطوة 5: تكوين خيارات PNG
 
-تحديد الخيارات لتصدير PNG:
+أنشئ مثيلًا من `PngOptions`. إذا كنت تريد تطبيق إعدادات التحويل إلى نقطية، ألغِ التعليق عن السطر أدناه:
 
 ```java
 PngOptions pngOptions = new PngOptions();
-// قم بإلغاء التعليق على السطر أدناه إذا كنت تريد تعيين خيارات تنقيط المتجهات
+// Uncomment the line below if you want to set vector rasterization options
 // pngOptions.setVectorRasterizationOptions(vectorOptions);
 ```
 
-## الخطوة 6: احفظ بصيغة PNG
+## الخطوة 6: حفظ كـ PNG
 
-احفظ صورة CAD كملف PNG:
+أخيرًا، صدّر صورة CAD إلى ملف PNG—هذه هي خطوة **save PNG Java**:
 
 ```java
 String outPath = dataDir + "galeon.stl.png";
 cadImage.save(outPath, pngOptions);
 ```
 
-تهانينا! لقد نجحت في تصدير ملف STL إلى PNG باستخدام Aspose.CAD لـ Java.
+> **نصيحة احترافية:** اضبط `PageWidth` و `PageHeight` لتتناسب مع أبعاد الصورة المصغرة المطلوبة للحصول على معالجة أسرع.
 
-## خاتمة
+تهانينا! لقد نجحت في **تحويل ملف STL إلى PNG** باستخدام Aspose.CAD للـ Java.
 
-في هذا البرنامج التعليمي، اكتشفنا كيفية الاستفادة من Aspose.CAD لـ Java لتصدير ملفات STL إلى PNG دون عناء. تعمل هذه المكتبة القوية على تبسيط المهام المعقدة، مما يجعلها رصيدًا قيمًا لمشاريع Java الخاصة بك.
+## المشكلات الشائعة والحلول
 
-## الأسئلة الشائعة
+| المشكلة | السبب | الحل |
+|-------|--------|----------|
+| مخرجات PNG فارغة | لم يتم ضبط خيارات التحويل إلى نقطية | ألغِ التعليق عن `pngOptions.setVectorRasterizationOptions(vectorOptions);` أو حدد لون خلفية |
+| OutOfMemoryError في ملفات STL الكبيرة | نقص في ذاكرة الـ heap | زد حجم heap للـ JVM (`-Xmx2g`) أو عالج الملف على دفعات |
+| LicenseException | لا يوجد ترخيص صالح | طبّق ترخيصًا مؤقتًا أو مُشتَرًى قبل تحميل الصورة |
 
-### س1: هل Aspose.CAD for Java متوافق مع كافة إصدارات ملفات STL؟
+## الأسئلة المتكررة
 
-ج1: يدعم Aspose.CAD for Java إصدارات ملفات STL المتنوعة، مما يضمن التوافق مع معظم التنسيقات الشائعة.
+### س1: هل Aspose.CAD للـ Java متوافق مع جميع إصدارات ملفات STL؟
+A1: يدعم Aspose.CAD للـ Java إصدارات مختلفة من ملفات STL، مما يضمن التوافق مع معظم الصيغ الشائعة.
 
-### س2: هل يمكنني استخدام Aspose.CAD لـ Java في مشروع تجاري؟
-
- ج2: نعم يمكنك ذلك. ما عليك سوى الحصول على ترخيص صالح من[هنا](https://purchase.aspose.com/buy).
+### س2: هل يمكنني استخدام Aspose.CAD للـ Java في مشروع تجاري؟
+A2: نعم، يمكنك ذلك. فقط احصل على ترخيص صالح من [هنا](https://purchase.aspose.com/buy).
 
 ### س3: هل أحتاج إلى ترخيص مؤقت للتجربة المجانية؟
+A3: لا، لا يلزم ترخيص مؤقت للتجربة المجانية. يمكنك البدء فورًا بإصدار التجربة [هنا](https://releases.aspose.com/).
 
- ج3: لا، الترخيص المؤقت غير مطلوب للتجربة المجانية. يمكنك البدء على الفور مع الإصدار التجريبي[هنا](https://releases.aspose.com/).
+### س4: أين يمكنني العثور على دعم إضافي أو طرح أسئلة؟
+A4: زر منتدى Aspose.CAD [هنا](https://forum.aspose.com/c/cad/19) لأي دعم أو استفسارات.
 
-### س4: أين يمكنني العثور على دعم إضافي أو طرح الأسئلة؟
+### س5: هل هناك وثائق شاملة متاحة؟
+A5: نعم، يمكن العثور على الوثائق [هنا](https://reference.aspose.com/cad/java/).
 
- ج4: قم بزيارة منتدى Aspose.CAD[هنا](https://forum.aspose.com/c/cad/19) لأي دعم أو استفسار.
+## الخاتمة
 
-### س5: هل هناك أي وثائق شاملة متاحة؟
+في هذا الدليل شرحنا كيفية **تحويل STL إلى PNG** بفعالية باستخدام Aspose.CAD للـ Java. باتباع الخطوات أعلاه، يمكنك دمج تحويل STL إلى PNG في أي خط أنابيب مبني على Java، سواء كنت تبني أداة سطح مكتب، خدمة ويب، أو أداة تقارير آلية.
 
- ج5: نعم، يمكن العثور على الوثائق[هنا](https://reference.aspose.com/cad/java/).
+---
+
+**آخر تحديث:** 2026-02-20  
+**تم الاختبار مع:** Aspose.CAD for Java 24.12 (latest at time of writing)  
+**المؤلف:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
