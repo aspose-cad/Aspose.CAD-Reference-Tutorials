@@ -5,14 +5,14 @@ second_title: Aspose.CAD Java API
 description: "Learn how to create PDF from DXF files and export a specific layer using Aspose.CAD for Java. This step‑by‑step guide shows you how to convert DXF to PDF quickly and reliably."
 weight: 18
 url: /java/additional-features/export-specific-layer-to-pdf/
-date: 2025-11-30
+date: 2026-01-30
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Create PDF from DXF: Export Layer with Aspose.CAD for Java
+# Create PDF from DXF: Export Layer with Aspise.CAD for Java
 
 ## Introduction
 
@@ -25,14 +25,18 @@ If you need to **create PDF from DXF** drawings while keeping only the layers yo
 - **How long does implementation take?** Roughly 10‑15 minutes for a basic setup.  
 - **Can I export multiple layers?** Yes – just adjust the layer list (see Step 3).
 
-## What is “create PDF from DXF”?
+## How to create PDF from DXF – Export a specific layer
+
 Converting a DXF (Drawing Exchange Format) file to a PDF document is a common requirement when CAD data must be shared with stakeholders who don’t have CAD software. The PDF format preserves visual fidelity while being universally viewable.
 
-## Why use Aspose.CAD for Java to convert DXF to PDF?
+### Why use Aspose.CAD for Java to **convert DXF to PDF**?
+
 - **No external dependencies** – pure Java, no native DLLs.  
 - **Fine‑grained layer control** – choose exactly which layers appear in the output.  
 - **High‑quality rasterization** – configurable DPI, page size, and rendering options.  
-- **Cross‑platform** – works on Windows, Linux, and macOS.
+- **Cross‑platform** – works on Windows, Linux, and macOS.  
+
+These features let you **generate PDF from CAD** drawings programmatically, giving you full control over the final document.
 
 ## Prerequisites
 
@@ -133,7 +137,7 @@ You’ve now learned **how to create PDF from DXF** by exporting a specific laye
 
 ---
 
-**Last Updated:** 2025-11-30  
+**Last Updated:** 2026-01-30  
 **Tested With:** Aspose.CAD for Java 24.11  
 **Author:** Aspose  
 
