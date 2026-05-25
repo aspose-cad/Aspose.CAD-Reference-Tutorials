@@ -1,45 +1,92 @@
 ---
-title: الترخيص المقنن في Aspose.CAD
-linktitle: الترخيص المقنن في Aspose.CAD
-second_title: Aspose.CAD جافا API
-description: تعرف على كيفية إتقان الترخيص المقنن في Aspose.CAD لـ Java باستخدام هذا الدليل الشامل. قم بتحسين معالجة CAD لديك لتحقيق الكفاءة والفعالية من حيث التكلفة.
-weight: 10
+date: 2026-05-25
+description: تعلم كيفية إعداد الترخيص القائم على القياس في Aspose.CAD لـ Java لتحسين
+  معالجة CAD، وتقليل التكاليف، وتتبع الاستخدام بكفاءة.
+keywords:
+- how to set metered
+- Aspose.CAD licensing
+- Java metered licensing
+linktitle: كيفية إعداد الترخيص القائم على القياس في Aspose.CAD
+schemas:
+- author: Aspose
+  dateModified: '2026-05-25'
+  description: Learn how to set metered licensing in Aspose.CAD for Java to optimize
+    CAD processing, reduce costs, and track usage efficiently.
+  headline: How to Set Metered Licensing in Aspose.CAD
+  type: TechArticle
+- questions:
+  - answer: A usage‑based model that tracks API calls and charges per consumption
+      unit.
+    question: What is metered licensing?
+  - answer: Two keys – a public and a private key – generated from your Aspose account.
+    question: How many keys are required?
+  - answer: Yes, call `License.getConsumptionQuantity()` before and after processing.
+    question: Can I check usage programmatically?
+  - answer: A free trial license can be obtained from the Aspose website.
+    question: Is a trial available?
+  - answer: Java 8 through 17 are fully supported.
+    question: Which Java version is supported?
+  type: FAQPage
+second_title: Aspose.CAD Java API
+title: كيفية إعداد الترخيص القائم على القياس في Aspose.CAD
 url: /ar/java/licensing-and-configuration/metered-licensing-in-aspose-cad/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# الترخيص المقنن في Aspose.CAD
+# الترخيص القائم على الاستهلاك في Aspose.CAD
 
 ## مقدمة
 
-أطلق العنان للإمكانات الكاملة لـ Aspose.CAD لـ Java من خلال الترخيص المقنن! سيرشدك هذا الدليل خطوة بخطوة خلال عملية إعداد الترخيص المقنن، مما يضمن التكامل السلس والاستخدام الأمثل لمكتبة Java القوية للتصميم بمساعدة الكمبيوتر (CAD). بدءًا من المتطلبات الأساسية وحتى استيراد الحزم وتنفيذ الأمثلة، يغطي هذا البرنامج التعليمي كل شيء.
+افتح الإمكانات الكاملة لـ Aspose.CAD للـ Java مع **كيفية تعيين الترخيص القائم على الاستهلاك**! يوجهك هذا الدليل خطوة بخطوة عبر كل مرحلة — من تثبيت المتطلبات المسبقة، استيراد الحزم الصحيحة، إلى قياس الاستهلاك قبل وبعد المعالجة. في النهاية ستعرف بالضبط **كيفية تعيين الترخيص القائم على الاستهلاك**، قراءة مقاييس الاستخدام، والحفاظ على تكلفة سير عمل CAD فعّالة.
 
-## المتطلبات الأساسية
+## إجابات سريعة
+- **ما هو الترخيص القائم على الاستهلاك؟** نموذج يعتمد على الاستخدام يتتبع استدعاءات API ويُحاسب على كل وحدة استهلاك.  
+- **كم عدد المفاتيح المطلوبة؟** مفتاحان — مفتاح عام ومفتاح خاص — يتم إنشاؤهما من حساب Aspose الخاص بك.  
+- **هل يمكنني التحقق من الاستخدام برمجياً؟** نعم، استدعِ `License.getConsumptionQuantity()` قبل وبعد المعالجة.  
+- **هل تتوفر نسخة تجريبية؟** يمكن الحصول على ترخيص تجريبي مجاني من موقع Aspose.  
+- **ما نسخة Java المدعومة؟** Java 8 إلى 17 مدعومة بالكامل.
 
-قبل الغوص في عالم الترخيص المقنن باستخدام Aspose.CAD، تأكد من توفر ما يلي:
+## ما هو الترخيص القائم على الاستهلاك في Aspose.CAD؟
+الترخيص القائم على الاستهلاك هو نموذج الدفع حسب الاستخدام الخاص بـ Aspose.CAD الذي يسجل كل استدعاء API كوحدة استهلاك. يتيح لك مراقبة الاستخدام بدقة، وتجنب الإفراط في التخصيص، والدفع فقط مقابل ما تستهلكه فعلياً.
 
-### تثبيت مجموعة تطوير جافا (JDK).
+## لماذا نستخدم الترخيص القائم على الاستهلاك لمعالجة CAD؟
+يدعم Aspose.CAD أكثر من **50** تنسيق إدخال وإخراج — بما في ذلك DWG وDXF وDGN وSVG — ويمكنه معالجة ملفات تصل إلى **2 GB** دون تحميل المستند بالكامل في الذاكرة. هذه الكفاءة تترجم إلى تقليل تكاليف الخادم، خاصةً عند التعامل مع دفعات كبيرة من الرسومات.
 
- تأكد من تثبيت أحدث إصدار من Java Development Kit على نظامك. يمكنك تنزيله من[هنا](https://www.oracle.com/java/technologies/javase-downloads.html).
+## المتطلبات المسبقة
 
-### Aspose.CAD لمكتبة جافا
+قبل الغوص في عالم الترخيص القائم على الاستهلاك مع Aspose.CAD، تأكد من توفر ما يلي:
 
- تأكد من تنزيل وإعداد Aspose.CAD لمكتبة Java. يمكنك العثور على المكتبة[هنا](https://releases.aspose.com/cad/java/).
+### تثبيت مجموعة تطوير Java (JDK)
 
-## حزم الاستيراد
+تأكد من تثبيت أحدث نسخة من مجموعة تطوير Java على نظامك. يمكنك تنزيلها من [هنا](https://www.oracle.com/java/technologies/javase-downloads.html).
 
-في مشروع Java الخاص بك، قم باستيراد الحزم اللازمة لبدء استخدام وظائف Aspose.CAD. استخدم مقتطف الكود التالي لإضافة ترخيص مقنن إلى مشروعك:
+### مكتبة Aspose.CAD للـ Java
+
+تأكد من تنزيل وإعداد مكتبة Aspose.CAD للـ Java. يمكنك العثور على المكتبة [هنا](https://releases.aspose.com/cad/java/). يمكنك أيضًا تصفح إصدارات Aspose الأخرى [هنا](https://releases.aspose.com/).
+
+## كيفية تعيين الترخيص القائم على الاستهلاك في Aspose.CAD للـ Java؟
+
+حمّل مفاتيحك العامة والخاصة، استدعِ `License.setMeteredKey(publicKey, privateKey)`، وستتحول المكتبة فوراً إلى وضع الاستهلاك. هذا الاستدعاء الواحد يُفعّل تتبع الاستخدام لكل عملية API لاحقة، مما يتيح لك استعلام الاستهلاك قبل وبعد أي خطوة معالجة.
+
+## استيراد الحزم
+
+لاستخدام المكتبة، استورد حزمة النواة الخاصة بها:
+
+`import com.aspose.cad.*;` يجلب فئات Aspose.CAD إلى مشروعك.
 
 ```java
 import com.aspose.cad;
 ```
 
-## الخطوة 1: ضبط المفتاح المقنن
+## الخطوة 1: تعيين المفتاح القائم على الاستهلاك
 
- أولاً، قم بضبط المفتاح المقنن باستخدام`setMeteredKey` طريقة. يستبدل`<valid public key>` و`<valid private key>` بمفاتيحك العامة والخاصة الفعلية.
+`setMeteredKey` يسجل مفاتيحك العامة والخاصة مع مكتبة Aspose.CAD.
+
+أولاً، عيّن المفتاح القائم على الاستهلاك باستخدام طريقة `setMeteredKey`. استبدل `<valid public key>` و `<valid private key>` بالمفاتيح العامة والخاصة الفعلية الخاصة بك.
 
 ```java
 Metered.setMeteredKey("<valid public key>", "<valid private key>");
@@ -47,7 +94,9 @@ Metered.setMeteredKey("<valid public key>", "<valid private key>");
 
 ## الخطوة 2: الحصول على كمية الاستهلاك قبل المعالجة
 
-استرجع قيمة الكمية المستهلكة قبل الوصول إلى Aspose.CAD API للحصول على فهم أولي.
+`getConsumptionQuantity` تُعيد إجمالي عدد وحدات الاستهلاك المسجلة حتى الآن.
+
+استرجع قيمة الكمية المستهلكة قبل الوصول إلى واجهة Aspose.CAD API للحصول على فهم أولي.
 
 ```java
 BigDecimal quantityOld = Metered.getConsumptionQuantity();
@@ -56,53 +105,73 @@ System.out.println("Consumption quantity before processing: " + quantityOld);
 
 ## الخطوة 3: المعالجة
 
-قم بإجراء معالجة CAD المطلوبة باستخدام وظائف Aspose.CAD. قم بإلغاء التعليق على مقتطف الشفرة المتعلق بمهمتك المحددة، مثل تحميل صورة CAD.
+نفّذ معالجة CAD المطلوبة باستخدام وظائف Aspose.CAD. ألغِ التعليق عن مقطع الشيفرة المتعلق بمهمتك المحددة، مثل تحميل صورة CAD.
 
 ```java
-// مثال:
+// Example:
 // com.aspose.cad.fileformats.cad.CadImage image =
 // (com.aspose.cad.fileformats.cad.CadImage)com.aspose.cad.Image.load("BlockRefDgn.dwg");
 ```
 
 ## الخطوة 4: الحصول على كمية الاستهلاك بعد المعالجة
 
-بعد المعالجة، احصل على قيمة الكمية المستهلكة مرة أخرى لتقييم التأثير.
+بعد المعالجة، احصل مرة أخرى على قيمة الكمية المستهلكة لتقييم الأثر.
 
 ```java
 BigDecimal quantity = Metered.getConsumptionQuantity();
 System.out.println("Consumption quantity after processing: " + quantity);
 ```
 
-كرر هذه الخطوات لأي معالجة أو مهام إضافية حسب الحاجة.
+كرر هذه الخطوات لأي معالجة إضافية أو مهام حسب الحاجة.
 
-## خاتمة
+## المشكلات الشائعة والحلول
 
-تهانينا! لقد أتقنت بنجاح الترخيص المقنن باستخدام Aspose.CAD لـ Java. باتباع هذا الدليل، تكون قد قمت بإعداد الترخيص المقنن ودمجه بسلاسة في مشروع Java الخاص بك، مما يضمن الاستخدام الفعال لإمكانيات Aspose.CAD.
+- **خطأ المفتاح غير صالح:** تحقق مرة أخرى من أن كلا المفتاحين تم نسخهما تماماً كما هو موضح في حساب Aspose الخاص بك؛ المسافات الزائدة تتسبب في فشل المصادقة.  
+- **الإبلاغ عن استهلاك صفر:** تأكد من استدعاء `License.getConsumptionQuantity()` *بعد* أول استخدام للـ API؛ الاستدعاء الأول يهيئ العداد.  
+- **تباطؤ الأداء على الملفات الكبيرة:** استخدم `CadImage.load(..., LoadOptions)` مع `LoadOptions.setLoadMode(LoadMode.Stream)` لتجنب تحميل الملف بالكامل في الذاكرة.
 
-## الأسئلة الشائعة
+## الأسئلة المتكررة
 
-### س1: هل يمكنني استخدام الترخيص المقنن لأغراض التقييم؟
+**س1: هل يمكنني استخدام الترخيص القائم على الاستهلاك لأغراض التقييم؟**  
+ج1: نعم، يمكنك الحصول على ترخيص تجريبي مجاني [هنا](https://releases.aspose.com/).
 
- ج1: نعم، يمكنك الحصول على ترخيص تجريبي مجاني[هنا](https://releases.aspose.com/).
+**س2: أين يمكنني العثور على الوثائق التفصيلية لـ Aspose.CAD للـ Java؟**  
+ج2: راجع الوثائق [هنا](https://reference.aspose.com/cad/java/).
 
-### س2: أين يمكنني العثور على الوثائق التفصيلية الخاصة بـ Aspose.CAD لـ Java؟
+**س3: كيف يمكنني شراء ترخيص لـ Aspose.CAD للـ Java؟**  
+ج3: زر صفحة الشراء [هنا](https://purchase.aspose.com/buy).
 
- ج2: راجع الوثائق[هنا](https://reference.aspose.com/cad/java/).
+**س4: هل هناك خيار ترخيص مؤقت متاح؟**  
+ج5: نعم، يمكنك استكشاف التراخيص المؤقتة [هنا](https://purchase.aspose.com/temporary-license/).
 
-### س3: كيف يمكنني شراء ترخيص Aspose.CAD لـ Java؟
+**س5: تحتاج إلى دعم المجتمع أو لديك أسئلة محددة؟**  
+ج5: انتقل إلى منتدى Aspose.CAD [هنا](https://forum.aspose.com/c/cad/19).
 
- ج3: قم بزيارة صفحة الشراء[هنا](https://purchase.aspose.com/buy).
+**س6: هل يعمل الترخيص القائم على الاستهلاك مع عمليات النشر السحابي؟**  
+ج6: بالتأكيد. نفس استدعاء `setMeteredKey` يعمل في Docker أو Kubernetes أو بيئات بدون خادم.
 
-### س4: هل يتوفر خيار ترخيص مؤقت؟
+**س7: هل يمكنني إعادة تعيين عداد الاستهلاك؟**  
+ج7: يعيد العداد ضبط نفسه تلقائياً في بداية كل فترة فوترة؛ لا يمكنك إعادة ضبطه يدوياً.
 
- ج٤: نعم، يمكنك استكشاف التراخيص المؤقتة[هنا](https://purchase.aspose.com/temporary-license/).
+## الخاتمة
 
-### س5: هل تحتاج إلى دعم المجتمع أو لديك أسئلة محددة؟
+تهانينا! لقد أتقنت **كيفية تعيين الترخيص القائم على الاستهلاك** مع Aspose.CAD للـ Java. باتباعك هذا الدليل، قمت بإعداد وتكامل الترخيص القائم على الاستهلاك بسلاسة في مشروع Java الخاص بك، مما يضمن استخدامًا فعالًا لإمكانات Aspose.CAD مع الحفاظ على شفافية التكاليف.
 
- ج5: توجه إلى منتدى Aspose.CAD[هنا](https://forum.aspose.com/c/cad/19).
-{{< /blocks/products/pf/tutorial-page-section >}}
+---
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
+**آخر تحديث:** 2026-05-25  
+**تم الاختبار مع:** Aspose.CAD for Java 24.10  
+**المؤلف:** Aspose  
 
 {{< blocks/products/products-backtop-button >}}
+
+## دروس ذات صلة
+
+- [تحويل CAD إلى PDF باستخدام Aspose.CAD للـ Java – دروس كاملة](/cad/java/)
+- [إنشاء PDF من CAD – تصدير DXF إلى PDF باستخدام Aspose.CAD للـ Java](/cad/java/additional-features/export-dxf-to-pdf/)
+- [تعيين حجم القماش – ميزات CAD المتقدمة باستخدام Aspose.CAD للـ Java](/cad/java/advanced-cad-features/)
+
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}

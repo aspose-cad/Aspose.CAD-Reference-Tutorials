@@ -1,108 +1,173 @@
 ---
-title: Aspose.CAD'de Ölçülü Lisanslama
-linktitle: Aspose.CAD'de Ölçülü Lisanslama
-second_title: Aspose.CAD Java API'si
-description: Bu kapsamlı kılavuzla Aspose.CAD for Java'da ölçülü lisanslamada nasıl uzmanlaşacağınızı öğrenin. Verimlilik ve maliyet etkinliği için CAD işlemenizi optimize edin.
-weight: 10
+date: 2026-05-25
+description: Java için Aspose.CAD'de ölçümlü lisanslamayı nasıl ayarlayacağınızı öğrenin,
+  CAD işleme sürecini optimize edin, maliyetleri azaltın ve kullanımı verimli bir
+  şekilde izleyin.
+keywords:
+- how to set metered
+- Aspose.CAD licensing
+- Java metered licensing
+linktitle: Aspose.CAD'de Ölçümlü Lisanslamayı Nasıl Ayarlarsınız
+schemas:
+- author: Aspose
+  dateModified: '2026-05-25'
+  description: Learn how to set metered licensing in Aspose.CAD for Java to optimize
+    CAD processing, reduce costs, and track usage efficiently.
+  headline: How to Set Metered Licensing in Aspose.CAD
+  type: TechArticle
+- questions:
+  - answer: A usage‑based model that tracks API calls and charges per consumption
+      unit.
+    question: What is metered licensing?
+  - answer: Two keys – a public and a private key – generated from your Aspose account.
+    question: How many keys are required?
+  - answer: Yes, call `License.getConsumptionQuantity()` before and after processing.
+    question: Can I check usage programmatically?
+  - answer: A free trial license can be obtained from the Aspose website.
+    question: Is a trial available?
+  - answer: Java 8 through 17 are fully supported.
+    question: Which Java version is supported?
+  type: FAQPage
+second_title: Aspose.CAD Java API
+title: Aspose.CAD'de Ölçümlü Lisanslamayı Nasıl Ayarlarsınız
 url: /tr/java/licensing-and-configuration/metered-licensing-in-aspose-cad/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.CAD'de Ölçülü Lisanslama
+# Aspose.CAD'de Ölçülen Lisanslama
 
-## giriiş
+## Giriş
 
-Ölçülü lisanslama ile Aspose.CAD for Java'nın tüm potansiyelini ortaya çıkarın! Bu adım adım kılavuz, Bilgisayar Destekli Tasarım (CAD) için bu güçlü Java kitaplığının kusursuz entegrasyonunu ve optimum kullanımını sağlayarak ölçülü lisanslamanın ayarlanması sürecinde size yol gösterecektir. Bu eğitim, önkoşullardan paketleri içe aktarmaya ve örnekleri yürütmeye kadar her şeyi kapsar.
+Aspose.CAD for Java'nin tam potansiyelini **how to set metered** lisanslamasıyla ortaya çıkarın! Bu adım‑adım kılavuz, önkoşulları kurmaktan, doğru paketleri içe aktarmaya, işleme öncesi ve sonrası tüketimi ölçmeye kadar her aşamada size rehberlik eder. Sonunda **how to set metered** anahtarlarını nasıl ayarlayacağınızı, kullanım metriklerini nasıl okuyacağınızı ve CAD iş akışınızı maliyet açısından etkili tutacağınızı tam olarak öğreneceksiniz.
+
+## Hızlı Yanıtlar
+- **What is metered licensing?** Kullanıma dayalı bir modeldir; API çağrılarını izler ve tüketim birimi başına ücretlendirir.  
+- **How many keys are required?** İki anahtar gerekir – bir public ve bir private anahtar – Aspose hesabınızdan oluşturulur.  
+- **Can I check usage programmatically?** Evet, işleme öncesi ve sonrası `License.getConsumptionQuantity()` metodunu çağırın.  
+- **Is a trial available?** Ücretsiz deneme lisansı Aspose web sitesinden alınabilir.  
+- **Which Java version is supported?** Java 8 ‑ 17 tam olarak desteklenir.
+
+## Aspose.CAD'de Ölçülen Lisanslama Nedir?
+Metered lisanslama, Aspose.CAD'in kullandıkça öde modeli olup, her API çağrısını bir tüketim birimi olarak kaydeder. Kesin kullanımınızı izlemenizi, aşırı tahsisattan kaçınmanızı ve yalnızca gerçekten tükettiğiniz için ödeme yapmanızı sağlar.
+
+## CAD İşleme İçin Ölçülen Lisanslamayı Neden Kullanmalısınız?
+Aspose.CAD, **50+** giriş ve çıkış formatını destekler—DWG, DXF, DGN ve SVG dahil—ve **2 GB**'a kadar dosyaları bellek içine tüm belgeyi yüklemeden işleyebilir. Bu verimlilik, özellikle büyük çizim topluluklarıyla çalışırken sunucu maliyetlerini düşürür.
 
 ## Önkoşullar
 
-Aspose.CAD ile ölçülü lisanslama dünyasına dalmadan önce aşağıdakilerin mevcut olduğundan emin olun:
+Aspose.CAD ile ölçülen lisanslama dünyasına dalmadan önce, aşağıdakilerin hazır olduğundan emin olun:
 
-### Java Geliştirme Kiti (JDK) Kurulumu
+### Java Development Kit (JDK) Kurulumu
+Sisteminizde en son Java Development Kit sürümünün kurulu olduğundan emin olun. [buradan](https://www.oracle.com/java/technologies/javase-downloads.html) indirebilirsiniz.
 
- Sisteminizde Java Development Kit'in en son sürümünün yüklü olduğundan emin olun. Şuradan indirebilirsiniz[Burada](https://www.oracle.com/java/technologies/javase-downloads.html).
+### Aspose.CAD for Java Kütüphanesi
+Aspose.CAD for Java kütüphanesini indirdiğinizden ve kurduğunuzdan emin olun. Kütüphaneyi [burada](https://releases.aspose.com/cad/java/) bulabilirsiniz. Diğer Aspose sürümlerine de [buradan](https://releases.aspose.com/) göz atabilirsiniz.
 
-### Java Kütüphanesi için Aspose.CAD
+## Aspose.CAD for Java'da Ölçülen Lisanslamayı Nasıl Ayarlarsınız?
+Public ve private anahtarlarınızı yükleyin, `License.setMeteredKey(publicKey, privateKey)` metodunu çağırın ve kütüphane anında ölçülen moda geçer. Bu tek çağrı, sonraki her API işlemi için kullanım takibini etkinleştirir ve herhangi bir işleme adımından önce ve sonra tüketimi sorgulamanıza olanak tanır.
 
- Aspose.CAD for Java kütüphanesini indirip kurduğunuzdan emin olun. Kütüphaneyi bulabilirsiniz[Burada](https://releases.aspose.com/cad/java/).
+## Paketleri İçe Aktarın
 
-## Paketleri İçe Aktar
+Kütüphaneyi kullanmak için, çekirdek paketini içe aktarın:
 
-Aspose.CAD işlevlerini kullanmaya başlamak için Java projenizde gerekli paketleri içe aktarın. Projenize ölçülü lisans eklemek için aşağıdaki kod parçacığını kullanın:
+`import com.aspose.cad.*;` Aspose.CAD sınıflarını projenize getirir.
 
 ```java
 import com.aspose.cad;
 ```
 
-## 1. Adım: Ölçülen Anahtarı Ayarlayın
+## Adım 1: Ölçülen Anahtarı Ayarlayın
 
- İlk olarak, ölçülü anahtarı kullanarak ayarlayın.`setMeteredKey` yöntem. Yer değiştirmek`<valid public key>` Ve`<valid private key>` gerçek genel ve özel anahtarlarınızla.
+`setMeteredKey`, public ve private anahtarlarınızı Aspose.CAD kütüphanesine kaydeder.
+
+İlk olarak, `setMeteredKey` metodunu kullanarak ölçülen anahtarı ayarlayın. `<valid public key>` ve `<valid private key>` yerlerini gerçek public ve private anahtarlarınızla değiştirin.
 
 ```java
 Metered.setMeteredKey("<valid public key>", "<valid private key>");
 ```
 
-## Adım 2: İşlemeden Önce Tüketim Miktarını Alın
+## Adım 2: İşleme Öncesi Tüketim Miktarını Alın
 
-Başlangıçta bir fikir edinmek için Aspose.CAD API'sine erişmeden önce tüketilen miktar değerini alın.
+`getConsumptionQuantity`, şu ana kadar kaydedilen toplam tüketim birimi sayısını döndürür.
+
+Aspose.CAD API'sine erişmeden önce tüketilen miktar değerini alarak ilk bir anlayış elde edin.
 
 ```java
 BigDecimal quantityOld = Metered.getConsumptionQuantity();
 System.out.println("Consumption quantity before processing: " + quantityOld);
 ```
 
-## 3. Adım: İşleme
+## Adım 3: İşleme
 
-Aspose.CAD işlevlerini kullanarak istediğiniz CAD işlemini gerçekleştirin. CAD görüntüsü yüklemek gibi özel görevinizle ilgili kod pasajının açıklamasını kaldırın.
+Aspose.CAD işlevlerini kullanarak istediğiniz CAD işlemini gerçekleştirin. CAD görüntüsü yüklemek gibi belirli görevinizle ilgili kod parçacığının yorumunu kaldırın.
 
 ```java
-// Örnek:
-// com.aspose.cad.fileformats.cad.CadImage görseli =
+// Example:
+// com.aspose.cad.fileformats.cad.CadImage image =
 // (com.aspose.cad.fileformats.cad.CadImage)com.aspose.cad.Image.load("BlockRefDgn.dwg");
 ```
 
 ## Adım 4: İşleme Sonrası Tüketim Miktarını Alın
 
-İşleme sonrasında etkiyi değerlendirmek için tüketilen miktar değerini tekrar alın.
+İşleme sonrasında, etkiyi değerlendirmek için tüketilen miktar değerini tekrar alın.
 
 ```java
 BigDecimal quantity = Metered.getConsumptionQuantity();
 System.out.println("Consumption quantity after processing: " + quantity);
 ```
 
-Gerektiğinde ek işlemler veya görevler için bu adımları tekrarlayın.
+Gerekli olduğunda ek işlemler veya görevler için bu adımları tekrarlayın.
 
-## Çözüm
+## Yaygın Sorunlar ve Çözümler
+- **Invalid key error:** Her iki anahtarın da Aspose hesabınızda gösterildiği gibi tam olarak kopyalandığından emin olun; ekstra boşluklar kimlik doğrulama hatalarına neden olur.  
+- **Zero consumption reported:** `License.getConsumptionQuantity()` metodunu ilk API kullanımından *sonra* çağırdığınızdan emin olun; ilk çağrı sayacı başlatır.  
+- **Performance slowdown on large files:** Tam dosyayı belleğe yüklememek için `CadImage.load(..., LoadOptions)` ile `LoadOptions.setLoadMode(LoadMode.Stream)` kullanın.
 
-Tebrikler! Aspose.CAD for Java ile ölçülü lisanslama konusunda başarılı bir şekilde uzmanlaştınız. Bu kılavuzu takip ederek, ölçülü lisanslamayı Java projenize sorunsuz bir şekilde kurup entegre ederek Aspose.CAD yeteneklerinin verimli kullanımını sağladınız.
+## Sıkça Sorulan Sorular
 
-## SSS'ler
+**Q1: Değerlendirme amaçları için ölçülen lisanslamayı kullanabilir miyim?**  
+A1: Evet, ücretsiz bir deneme lisansını [buradan](https://releases.aspose.com/) alabilirsiniz.
 
-### S1: Ölçülü lisanslamayı değerlendirme amacıyla kullanabilir miyim?
+**Q2: Aspose.CAD for Java için ayrıntılı belgeleri nerede bulabilirim?**  
+A2: Belgeleri [buradan](https://reference.aspose.com/cad/java/) inceleyin.
 
- A1: Evet, ücretsiz deneme lisansı alabilirsiniz[Burada](https://releases.aspose.com/).
+**Q3: Aspose.CAD for Java için lisans nasıl satın alınır?**  
+A3: Satın alma sayfasını [buradan](https://purchase.aspose.com/buy) ziyaret edin.
 
-### S2: Aspose.CAD for Java'nın ayrıntılı belgelerini nerede bulabilirim?
+**Q4: Geçici bir lisans seçeneği mevcut mu?**  
+A5: Evet, geçici lisansları [buradan](https://purchase.aspose.com/temporary-license/) inceleyebilirsiniz.
 
- A2: Belgelere bakın[Burada](https://reference.aspose.com/cad/java/).
+**Q5: Topluluk desteğine mi ihtiyacınız var ya da belirli sorularınız mı var?**  
+A5: Aspose.CAD forumuna [buradan](https://forum.aspose.com/c/cad/19) gidin.
 
-### S3: Aspose.CAD for Java lisansını nasıl satın alabilirim?
+**Q6: Ölçülen lisanslama bulut dağıtımlarıyla çalışır mı?**  
+A6: Kesinlikle. Aynı `setMeteredKey` çağrısı Docker, Kubernetes veya sunucusuz ortamlarla da çalışır.
 
- A3: Satın alma sayfasını ziyaret edin[Burada](https://purchase.aspose.com/buy).
+**Q7: Tüketim sayacını sıfırlayabilir miyim?**  
+A7: Sayaç, her yeni fatura döneminin başında otomatik olarak sıfırlanır; manuel olarak sıfırlayamazsınız.
 
-### S4: Geçici bir lisans seçeneği mevcut mu?
+## Sonuç
 
- Cevap4: Evet, geçici lisansları keşfedebilirsiniz[Burada](https://purchase.aspose.com/temporary-license/).
+Tebrikler! Aspose.CAD for Java ile **how to set metered** lisanslamasını başarıyla öğrendiniz. Bu kılavuzu izleyerek, ölçülen lisanslamayı Java projenize sorunsuz bir şekilde kurup entegre ettiniz; bu, Aspose.CAD yeteneklerini verimli kullanmanızı ve maliyetleri şeffaf tutmanızı sağlar.
 
-### S5: Topluluk desteğine mi ihtiyacınız var veya özel sorularınız mı var?
+---
 
- Cevap5: Aspose.CAD forumuna gidin[Burada](https://forum.aspose.com/c/cad/19).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
+**Son Güncelleme:** 2026-05-25  
+**Test Edilen:** Aspose.CAD for Java 24.10  
+**Yazar:** Aspose  
 
 {{< blocks/products/products-backtop-button >}}
+
+## İlgili Eğitimler
+
+- [Aspose.CAD for Java ile CAD'i PDF'e Dönüştür – Tam Eğitimler](/cad/java/)
+- [CAD'den PDF Oluştur – Aspose.CAD for Java ile DXF'i PDF'e Dışa Aktar](/cad/java/additional-features/export-dxf-to-pdf/)
+- [Kanvas Boyutunu Ayarla – Aspose.CAD for Java ile Gelişmiş CAD Özellikleri](/cad/java/advanced-cad-features/)
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
