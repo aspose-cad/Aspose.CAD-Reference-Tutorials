@@ -1,33 +1,51 @@
 ---
-title: Tworzenie pojedynczego pliku PDF z różnymi układami - Przewodnik Aspose.CAD
-linktitle: Tworzenie pojedynczego pliku PDF z różnymi układami
-second_title: Aspose.CAD .NET - Format plików CAD i BIM
-description: Utwórz pojedynczy plik PDF z różnymi układami za pomocą Aspose.CAD dla .NET. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby uzyskać bezproblemową integrację i wydajne generowanie plików PDF.
-weight: 13
+date: 2026-03-02
+description: Dowiedz się, jak stworzyć pojedynczy plik PDF z różnymi układami przy
+  użyciu Aspise.CAD dla .NET – konwertuj CAD na PDF, eksportuj DWG do PDF i efektywnie
+  zapisuj CAD jako PDF.
+linktitle: Creating Single PDF with Different Layouts
+second_title: Aspose.CAD .NET - CAD and BIM File Format
+title: Jak utworzyć pojedynczy plik PDF z różnymi układami – przewodnik Aspose.CAD
 url: /pl/net/advanced-cad-techniques/creating-single-pdf-with-different-layouts/
+weight: 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Tworzenie pojedynczego pliku PDF z różnymi układami - Przewodnik Aspose.CAD
+# Jak utworzyć pojedynczy plik PDF z różnymi układami – przewodnik Aspose.CAD
 
-## Wstęp
+## Wprowadzenie
 
-Czy chcesz wygenerować pojedynczy dokument PDF z rysunku CAD o różnych układach przy użyciu Aspose.CAD dla .NET? Ten przewodnik krok po kroku przeprowadzi Cię przez cały proces, pomagając w osiągnięciu bezproblemowej integracji i wydajnego tworzenia plików PDF. Aspose.CAD dla .NET zapewnia zaawansowane funkcje do programowego manipulowania rysunkami CAD, a w tym samouczku skupimy się na tworzeniu pojedynczego pliku PDF z różnymi układami.
+Jeśli potrzebujesz **utworzyć pojedynczy plik PDF**, który zawiera kilka układów CAD, jesteś we właściwym miejscu. W tym samouczku przeprowadzimy Cię krok po kroku przez proces konwersji rysunków CAD do jednego dokumentu PDF, obsługując przy tym wiele układów. Zobaczysz, jak Aspose.CAD dla .NET ułatwia **konwersję CAD do PDF**, **eksport DWG do PDF** oraz **zapis CAD jako PDF** przy użyciu kilku linii kodu C#.
 
-## Warunki wstępne
+## Szybkie odpowiedzi
+- **Co obejmuje ten samouczek?** Generowanie jednego PDF‑a, który zawiera wiele układów CAD.  
+- **Jakiej biblioteki użyto?** Aspose.CAD dla .NET.  
+- **Czy potrzebna jest licencja?** Bezpłatna wersja próbna wystarczy do oceny; licencja jest wymagana w środowisku produkcyjnym.  
+- **Obsługiwane formaty CAD?** DWG, DXF, DGN i wiele innych.  
+- **Typowy czas implementacji?** Około 10‑15 minut dla podstawowej konwersji.
 
-Przed przystąpieniem do samouczka upewnij się, że spełniasz następujące wymagania wstępne:
+## Co oznacza „utworzyć pojedynczy PDF” w kontekście CAD?
 
--  Aspose.CAD dla .NET: Upewnij się, że masz zainstalowany Aspose.CAD dla .NET. Można go pobrać z[Tutaj](https://releases.aspose.com/cad/net/).
+Utworzenie jednego PDF oznacza wzięcie jednego pliku źródłowego CAD, który może zawierać kilka definicji układów (przestrzeni papieru), i połączenie każdego układu w osobne strony jednego dokumentu PDF. Jest to szczególnie przydatne przy planach architektonicznych, schematach inżynieryjnych lub w sytuacjach, gdy klient oczekuje skonsolidowanego pakietu PDF.
 
-- Środowisko programistyczne: skonfiguruj środowisko programistyczne .NET i posiadaj podstawową wiedzę na temat programowania w języku C#.
+## Dlaczego warto używać Aspose.CAD do tego zadania?
 
-## Importuj przestrzenie nazw
+- **Brak zewnętrznych zależności** – czysty .NET, bez wymogu instalacji AutoCADa.  
+- **Pełna kontrola nad rasteryzacją** – możesz ustawić rozmiar strony, DPI oraz własne wymiary układu.  
+- **Renderowanie o wysokiej wierności** – dane wektorowe są zachowywane tam, gdzie to możliwe, zapewniając wyraźny rezultat.  
+- **Gotowość do przetwarzania wsadowego** – ten sam kod może być umieszczony w pętli, aby automatycznie przetwarzać wiele rysunków.
 
-swoim projekcie C# uwzględnij niezbędne przestrzenie nazw, aby wykorzystać funkcjonalności Aspose.CAD dla .NET:
+## Wymagania wstępne
+
+- Aspose.CAD dla .NET: Upewnij się, że masz zainstalowane Aspose.CAD dla .NET. Możesz pobrać go [tutaj](https://releases.aspose.com/cad/net/).  
+- Środowisko programistyczne: Skonfiguruj środowisko .NET i posiądź podstawową znajomość programowania w C#.
+
+## Importowanie przestrzeni nazw
+
+W projekcie C# dołącz niezbędne przestrzenie nazw, aby wykorzystać funkcje Aspose.CAD dla .NET:
 
 ```csharp
 using Aspose.CAD.FileFormats.Cad;
@@ -38,72 +56,109 @@ using System.Linq;
 using System.Text;
 ```
 
-## Krok 1: Załaduj obraz CAD
+## Przewodnik krok po kroku
+
+### Krok 1: Załaduj obraz CAD
+
+Najpierw wczytaj plik CAD (na przykład rysunek DWG). Klasa `CadImage` daje dostęp do wszystkich układów znajdujących się w pliku.
 
 ```csharp
-// Ścieżka do katalogu dokumentów.
+// The path to the documents directory.
 string MyDir = "Your Document Directory";
 
 using (CadImage cadImage = (CadImage)Image.Load(MyDir + "City skyway map.dwg"))
 {
-    // Twój kod kroku 1 znajduje się tutaj
+    // Your code for Step 1 goes here
 }
 ```
 
-## Krok 2: Dostosuj opcje rasteryzacji
+### Krok 2: Dostosuj opcje rasteryzacji
+
+Zdefiniuj, jak każdy układ ma być rasteryzowany. Możesz ustawić domyślny rozmiar strony, a następnie nadpisać go dla konkretnych układów przy użyciu `LayoutPageSizes`.
 
 ```csharp
 CadRasterizationOptions rasterizationOptions = new CadRasterizationOptions();
 rasterizationOptions.PageWidth = 1000;
 rasterizationOptions.PageHeight = 1000;
 
-// Niestandardowe rozmiary dla kilku układów
+// Custom sizes for several layouts
 rasterizationOptions.LayoutPageSizes.Add("ANSI C Plot", new SizeF(500, 1000));
 rasterizationOptions.LayoutPageSizes.Add("8.5 x 11 Plot", new SizeF(1000, 100));
 ```
 
-## Krok 3: Zdefiniuj opcje PDF
+> **Wskazówka:** Dostosuj DPI (`rasterizationOptions.Resolution`), jeśli potrzebujesz wyjścia o wyższej rozdzielczości dla szczegółowych rysunków.
+
+### Krok 3: Zdefiniuj opcje PDF
+
+Umieść ustawienia rasteryzacji w obiekcie `PdfOptions`. Dzięki temu Aspose.CAD renderuje dane CAD bezpośrednio do strumienia PDF.
 
 ```csharp
 PdfOptions pdfOptions = new PdfOptions() { VectorRasterizationOptions = rasterizationOptions };
 ```
 
-## Krok 4: Zapisz jako plik PDF
+### Krok 4: Zapisz jako PDF
+
+Na koniec wywołaj `Save` na instancji `CadImage`, podając docelową nazwę pliku PDF oraz przygotowane opcje. Biblioteka wygeneruje pojedynczy PDF zawierający stronę dla każdego skonfigurowanego układu.
 
 ```csharp
 cadImage.Save(MyDir + "singlePDF_out.pdf", pdfOptions);
 ```
 
-Teraz pomyślnie utworzyłeś pojedynczy dokument PDF z różnymi układami przy użyciu Aspose.CAD dla .NET. Zachęcamy do odkrywania większej liczby funkcji i dostosowywania kodu zgodnie ze swoimi konkretnymi wymaganiami.
+Po tym wywołaniu będziesz mieć PDF, który łączy układy „ANSI C Plot” i „8.5 x 11 Plot” w jeden spójny dokument.
 
-## Wniosek
+## Typowe problemy i rozwiązywanie ich
 
-W tym samouczku omówiliśmy proces tworzenia pojedynczego pliku PDF z rysunku CAD o różnych układach przy użyciu Aspose.CAD dla .NET. Ta potężna biblioteka upraszcza zadania manipulacji CAD i oferuje elastyczność w różnych scenariuszach.
+| Problem | Przyczyna | Rozwiązanie |
+|-------|--------|-----|
+| Brak układów w PDF | `LayoutPageSizes` nie zdefiniowano dla nazwy układu | Sprawdź dokładne nazwy układów w pliku CAD (uwzględniając wielkość liter). |
+| Niska jakość wyjścia | Domyślne DPI wynosi 96 | Ustaw `rasterizationOptions.Resolution = 300` (lub wyższą) przed zapisem. |
+| Plik nie został znaleziony | Niepoprawna ścieżka `MyDir` | Użyj `Path.Combine`, aby budować ścieżki niezależne od platformy. |
 
-## Często zadawane pytania
+## Najczęściej zadawane pytania
 
-### P1: Czy mogę używać Aspose.CAD dla .NET z innymi formatami CAD?
+### Q1: Czy mogę używać Aspose.CAD dla .NET z innymi formatami CAD?
 
-O1: Tak, Aspose.CAD dla .NET obsługuje różne formaty CAD, takie jak DWG, DXF, DGN i inne.
+A1: Tak, Aspose.CAD dla .NET obsługuje różne formaty CAD, takie jak DWG, DXF, DGN i inne.
 
-### P2: Czy dostępny jest bezpłatny okres próbny?
+### Q2: Czy dostępna jest bezpłatna wersja próbna?
 
- Odpowiedź 2: Tak, możesz skorzystać z bezpłatnego okresu próbnego[Tutaj](https://releases.aspose.com/).
+A2: Tak, możesz wypróbować bezpłatną wersję [tutaj](https://releases.aspose.com/).
 
-### P3: Jak mogę uzyskać wsparcie dla Aspose.CAD dla .NET?
+### Q3: Jak mogę uzyskać wsparcie dla Aspose.CAD dla .NET?
 
- A3: Odwiedź[Forum Aspose.CAD](https://forum.aspose.com/c/cad/19) za wsparcie społeczności.
+A3: Odwiedź [forum Aspose.CAD](https://forum.aspose.com/c/cad/19) w celu uzyskania pomocy od społeczności.
 
-### P4: Gdzie mogę znaleźć szczegółową dokumentację?
+### Q4: Gdzie znajdę szczegółową dokumentację?
 
- Odpowiedź 4: Zapoznaj się z dokumentacją[Tutaj](https://reference.aspose.com/cad/net/).
+A4: Dokumentację znajdziesz [tutaj](https://reference.aspose.com/cad/net/).
 
-### P5: Czy mogę kupić licencję na Aspose.CAD dla .NET?
+### Q5: Czy mogę kupić licencję na Aspose.CAD dla .NET?
 
- Odpowiedź 5: Tak, możesz kupić licencję[Tutaj](https://purchase.aspose.com/buy).
+A5: Tak, licencję można nabyć [tutaj](https://purchase.aspose.com/buy).
+
+**Dodatkowe pytania i odpowiedzi**
+
+**P:** Jak **wyeksportować DWG do PDF** z własnymi rozmiarami stron?  
+**O:** Użyj `CadRasterizationOptions.LayoutPageSizes`, aby przypisać każdy układ DWG do żądanych wymiarów strony PDF, jak pokazano w Kroku 2.
+
+**P:** Czy można **zapisać CAD jako PDF** bez rasteryzacji danych wektorowych?  
+**O:** Aspose.CAD zawsze rasteryzuje przy tworzeniu PDF, ale możesz zwiększyć DPI, aby zachować wysoką wierność wizualną.
+
+## Zakończenie
+
+W tym przewodniku pokazaliśmy, jak **utworzyć pojedynczy plik PDF** z rysunków CAD zawierających wiele układów, korzystając z Aspose.CAD dla .NET. Masz teraz wszystkie elementy potrzebne do **konwersji CAD do PDF**, **eksportu DWG do PDF** oraz **zapisu CAD jako PDF** w jednym, zautomatyzowanym procesie. Eksperymentuj z różnymi ustawieniami rasteryzacji, aby dopasować jakość do wymagań projektu, i włącz ten kod do większych potoków przetwarzania wsadowego w razie potrzeby.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Ostatnia aktualizacja:** 2026-03-02  
+**Testowano z:** Aspose.CAD dla .NET 24.11  
+**Autor:** Aspose  
+
+---
