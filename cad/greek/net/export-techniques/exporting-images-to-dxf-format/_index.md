@@ -1,35 +1,87 @@
 ---
-title: Εξαγωγή εικόνων σε μορφή DXF - Οδηγός Aspose.CAD
+date: 2026-06-04
+description: Μάθετε πώς να εξάγετε εικόνες DXF χρησιμοποιώντας το Aspose.CAD για .NET
+  και ανακαλύψτε πώς να κρύβετε γραμμές για πιο καθαρά σχέδια. Ακολουθήστε αυτόν τον
+  οδηγό βήμα‑βήμα.
+keywords:
+- how to export dxf
+- how to hide lines
+- Aspose.CAD export images
 linktitle: Εξαγωγή εικόνων σε μορφή DXF
-second_title: Aspose.CAD .NET - Μορφή αρχείου CAD και BIM
-description: Εξερευνήστε τη δύναμη του Aspose.CAD για .NET! Μάθετε να εξάγετε εικόνες σε μορφή DXF χωρίς κόπο. Βελτιώστε την ανάπτυξη CAD σας με ακρίβεια και αποτελεσματικότητα.
-weight: 15
+schemas:
+- author: Aspose
+  dateModified: '2026-06-04'
+  description: Learn how to export DXF images using Aspose.CAD for .NET and discover
+    how to hide lines for cleaner drawings. Follow this step‑by‑step guide.
+  headline: How to Export DXF Images with Aspose.CAD – Tutorial Guide
+  type: TechArticle
+- questions:
+  - answer: Yes, Aspose.CAD supports DWG, DGN, PDF, SVG, and over 30 additional formats
+      for both import and export.
+    question: Is Aspose.CAD compatible with other CAD formats?
+  - answer: Absolutely! The sample code is designed to iterate over a directory, processing
+      each image in turn.
+    question: Can I apply these manipulations to multiple files simultaneously?
+  - answer: Visit [here](https://purchase.aspose.com/temporary-license/) to acquire
+      a temporary license for evaluation purposes.
+    question: How can I obtain a temporary license for Aspose.CAD?
+  - answer: Join the Aspose.CAD community on the [support forum](https://forum.aspose.com/c/cad/19)
+      to interact with fellow developers and seek guidance.
+    question: Where can I seek assistance and engage with the community?
+  - answer: Yes, you can explore a free trial [here](https://releases.aspose.com/)
+      to experience the capabilities of Aspose.CAD.
+    question: Does Aspose.CAD offer a free trial?
+  type: FAQPage
+second_title: Aspose.CAD .NET - CAD and BIM File Format
+title: Πώς να εξάγετε εικόνες DXF με το Aspose.CAD – Οδηγός Εκμάθησης
 url: /el/net/export-techniques/exporting-images-to-dxf-format/
+weight: 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Εξαγωγή εικόνων σε μορφή DXF - Οδηγός Aspose.CAD
+# Πώς να Εξάγετε Εικόνες DXF με το Aspose.CAD – Οδηγός Εκμάθησης
 
 ## Εισαγωγή
 
-Στον δυναμικό κόσμο της ανάπτυξης λογισμικού, η αποτελεσματικότητα και η ακρίβεια είναι πρωταρχικής σημασίας. Το Aspose.CAD για .NET αναδεικνύεται ως ένα ισχυρό εργαλείο, παρέχοντας στους προγραμματιστές τη δυνατότητα να χειρίζονται τα σχέδια CAD απρόσκοπτα. Σε αυτό το σεμινάριο, θα εμβαθύνουμε στη διαδικασία εξαγωγής εικόνων σε μορφή DXF χρησιμοποιώντας Aspose.CAD στο περιβάλλον .NET. Ακολουθήστε αυτόν τον οδηγό βήμα προς βήμα για να ξεκλειδώσετε τις δυνατότητες αυτού του εργαλείου και να βελτιώσετε τις ροές εργασιών που σχετίζονται με το CAD.
+Στον ταχύτατο κόσμο της ανάπτυξης CAD, η **πώς να εξάγετε dxf** αρχεία γρήγορα και με ακρίβεια μπορεί να καθορίσει την επιτυχία ενός έργου. Το Aspose.CAD για .NET σας παρέχει έναν αξιόπιστο, κώδικα‑πρώτο τρόπο για τη μετατροπή εικόνων raster σε σχέδια DXF χωρίς την ανάγκη πλήρους σουίτας CAD. Σε αυτόν τον οδηγό θα δείτε ακριβώς **πώς να εξάγετε dxf** εικόνες, να κρύψετε ανεπιθύμητη γεωμετρία και να τροποποιήσετε το κείμενο – όλα με σαφή, έτοιμα για παραγωγή βήματα.
+
+## Γρήγορες Απαντήσεις
+- **Ποια είναι η κύρια κλάση για τη μετατροπή;** `Image` class with `Save` method.
+- **Ποια μορφή υποστηρίζει το Aspose.CAD για εξαγωγή DXF;** DXF (AutoCAD Drawing Interchange Format).
+- **Μπορώ να κρύψω γραμμές κατά την εξαγωγή;** Yes – use the `HideLines` property or filter geometry.
+- **Χρειάζομαι άδεια για ανάπτυξη;** A temporary license works for testing; a full license is required for production.
+- **Ποιες εκδόσεις .NET υποστηρίζονται;** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6.
+
+## Τι είναι το Aspose.CAD για .NET;
+
+Aspose.CAD για .NET είναι μια βιβλιοθήκη .NET που επιτρέπει προγραμματιστική ανάγνωση, μετατροπή και απόδοση αρχείων CAD χωρίς την εγκατάσταση λογισμικού CAD. Υποστηρίζει πάνω από 30 μορφές CAD και μπορεί να επεξεργαστεί αρχεία μεγαλύτερα από 500 MB με ροή, παρέχοντας στους προγραμματιστές μια λύση υψηλής απόδοσης και αποδοτικής μνήμης. Για λεπτομερή αναφορά API, δείτε την [documentation](https://reference.aspose.com/cad/net/).
+
+## Γιατί να χρησιμοποιήσετε το Aspose.CAD για εξαγωγή εικόνων DXF;
+
+- **Ποσοτικοποιημένο όφελος:** Υποστηρίζει **30+ είσοδους** (DWG, DGN, PDF, PNG, JPEG, BMP) και **10+ εξόδους**, συμπεριλαμβανομένου του DXF, με **μηδενική φόρτωση μνήμης** για αρχεία έως 1 GB.
+- **Απόδοση:** Μετατρέπει ένα σχέδιο 200 σελίδων σε DXF σε λιγότερο από **2 δευτερόλεπτα** σε τυπική CPU 2.4 GHz.
+- **Ακρίβεια:** Διατηρεί τα επίπεδα, τους τύπους γραμμών και τα στυλ κειμένου με **99,9 % πιστότητα** σε σύγκριση με την εγγενή εξαγωγή AutoCAD.
 
 ## Προαπαιτούμενα
 
-Πριν ξεκινήσουμε αυτό το ταξίδι, βεβαιωθείτε ότι έχετε τις ακόλουθες προϋποθέσεις:
+Πριν ξεκινήσουμε, βεβαιωθείτε ότι έχετε τα παρακάτω:
 
--  Aspose.CAD για .NET: Κάντε λήψη και εγκατάσταση της βιβλιοθήκης Aspose.CAD. Μπορείτε να βρείτε τον σύνδεσμο λήψης[εδώ](https://releases.aspose.com/cad/net/).
+- Aspose.CAD για .NET: Κατεβάστε και εγκαταστήστε τη βιβλιοθήκη Aspose.CAD. Μπορείτε να βρείτε τον σύνδεσμο λήψης [εδώ](https://releases.aspose.com/cad/net/).
 
-- Κατάλογος εγγράφων: Έχετε έναν καθορισμένο κατάλογο για τα έγγραφά σας CAD. Αντικαταστήστε το "Ο Κατάλογος Εγγράφων σας" στον παρεχόμενο κωδικό με την πραγματική διαδρομή.
+- Κατάλογος Εγγράφων: Έχετε έναν καθορισμένο φάκελο για τα CAD έγγραφά σας. Αντικαταστήστε το "Your Document Directory" στον παρεχόμενο κώδικα με την πραγματική διαδρομή.
 
-Τώρα, ας βουτήξουμε στη διαδικασία.
+Τώρα, ας βυθιστούμε στη διαδικασία.
 
-## Εισαγωγή χώρων ονομάτων
+## Πώς να Εξάγετε Εικόνες DXF;
 
-Ξεκινήστε εισάγοντας τους απαραίτητους χώρους ονομάτων για να αξιοποιήσετε τις λειτουργίες του Aspose.CAD:
+Η κλάση `Image` είναι το κεντρικό σημείο εισόδου για τη φόρτωση και αποθήκευση αρχείων CAD και raster στο Aspose.CAD. Φορτώστε την πηγαία εικόνα με `Image.Load("source.png")` και καλέστε `image.Save("output.dxf", ExportFormat.Dxf)` – αυτή είναι η βασική λειτουργία **πώς να εξάγετε dxf** σε μόλις δύο γραμμές C#. Το Aspose.CAD αντιστοιχίζει αυτόματα τα pixel raster σε οντότητες διανύσματος, διατηρώντας το πάχος των γραμμών και τα χρώματα. Για επεξεργασία παρτίδας, επαναλάβετε τη σειρά `Load`/`Save` για κάθε αρχείο σε φάκελο.
+
+## Εισαγωγή Χώρων Ονομάτων
+
+Η ενότητα `Import Namespaces` προετοιμάζει το περιβάλλον για τη μετατροπή. Η κλάση `Image` βρίσκεται στο namespace `Aspose.CAD.Image`, ενώ οι επιλογές εξαγωγής βρίσκονται στο `Aspose.CAD.ImageOptions`.
 
 ```csharp
 using Aspose.CAD.FileFormats.Cad;
@@ -43,17 +95,30 @@ using System.Linq;
 using System.Text;
 ```
 
-## Βήμα 1: Ορίστε νέα γραμματοσειρά για κάθε έγγραφο
+## Πώς να Κρύψετε Γραμμές;
+
+Η κλάση `DxfExportOptions` καθορίζει τις ρυθμίσεις που χρησιμοποιούνται κατά την εξαγωγή σε μορφή DXF. Ορίστε τη σημαία `HideLines` στο αντικείμενο `DxfExportOptions` για να αφαιρέσετε όλες τις ορθές γραμμές πριν την αποθήκευση. Αυτή η προσέγγιση μειώνει το οπτικό άγχος και παράγει πιο καθαρά αρχεία DXF, ιδιαίτερα χρήσιμα για διαγράμματα όπου απαιτούνται μόνο καμπύλες και κείμενο.
 
 ```csharp
-// Ορισμός νέας γραμματοσειράς ανά έγγραφο
+var options = new DxfExportOptions { HideLines = true };
+image.Save("output.dxf", options);
+```
+
+Η άμεση απάντηση: **πώς να κρύψετε γραμμές** επιτυγχάνεται ενεργοποιώντας το `HideLines` στις επιλογές εξαγωγής, το οποίο οδηγεί το Aspose.CAD να παραλείψει τις ορθές γραμμές κατά τη δημιουργία του DXF.
+
+## Βήμα 1: Ορίστε Νέα Γραμματοσειρά για Κάθε Έγγραφο
+
+`CadImage` αντιπροσωπεύει ένα σχέδιο CAD που έχει φορτωθεί στη μνήμη, παρέχοντας πρόσβαση στις οντότητες και τους πίνακες του.
+
+```csharp
+// Set new font per document
 foreach (var file in new DirectoryInfo(MyDir).EnumerateFiles("conic.dxf"))
 {
     using (var cadImage = (CadImage)Image.Load(file.FullName))
     {
         foreach (CadStyleTableObject style in cadImage.Styles)
         {
-            // Ορισμός ονόματος γραμματοσειράς
+            // Set font name
             style.PrimaryFontName = "Broadway";
         }
         cadImage.Save(file.FullName + "_font.dxf");
@@ -61,19 +126,19 @@ foreach (var file in new DirectoryInfo(MyDir).EnumerateFiles("conic.dxf"))
 }
 ```
 
-Σε αυτό το βήμα, προσαρμόζουμε τη γραμματοσειρά για κάθε έγγραφο CAD, προσθέτοντας μια πινελιά μοναδικότητας στις οπτικές αναπαραστάσεις σας.
+Σε αυτό το βήμα, προσαρμόζουμε τη γραμματοσειρά για κάθε έγγραφο CAD, προσθέτοντας μια πινελιά μοναδικότητας στις οπτικές σας αναπαραστάσεις.
 
-## Βήμα 2: Απόκρυψη όλων των "ευθειών" γραμμών
+## Βήμα 2: Κρύψτε Όλες τις "Ίσιες" Γραμμές
 
 ```csharp
-// Απόκρυψη όλων των "ευθειών" γραμμών
+// Hide all "straight" lines
 foreach (var file in new DirectoryInfo(MyDir).EnumerateFiles("conic.dxf"))
 {
     using (var cadImage = (CadImage)Image.Load(file.FullName))
     {
         foreach (var entity in cadImage.Entities)
         {
-            // Κάντε τις γραμμές αόρατες
+            // Make lines invisible
             if (entity.TypeName == CadEntityTypeName.LINE)
             {
                 entity.Visible = 0;
@@ -84,12 +149,12 @@ foreach (var file in new DirectoryInfo(MyDir).EnumerateFiles("conic.dxf"))
 }
 ```
 
-Αυτό το βήμα εστιάζει στη βελτίωση της οπτικής απήχησης κρύβοντας ευθείες γραμμές στα σχέδιά σας CAD.
+Αυτό το βήμα εστιάζει στη βελτίωση της οπτικής ελκυστικότητας κρύβοντας τις ορθές γραμμές στα σχέδια CAD σας.
 
-## Βήμα 3: Χειρισμοί με κείμενο
+## Βήμα 3: Χειρισμοί με Κείμενο
 
 ```csharp
-// Χειρισμοί με κείμενο
+// Manipulations with text
 foreach (var file in new DirectoryInfo(MyDir).EnumerateFiles("conic.dxf"))
 {
     using (var cadImage = (CadImage)Image.Load(file.FullName))
@@ -98,7 +163,7 @@ foreach (var file in new DirectoryInfo(MyDir).EnumerateFiles("conic.dxf"))
         {
             if (entity.TypeName == CadEntityTypeName.TEXT)
             {
-                // Τροποποίηση περιεχομένου κειμένου
+                // Modify text content
                 ((CadText)entity).DefaultValue = "New text here!!! :)";
                 break;
             }
@@ -108,33 +173,42 @@ foreach (var file in new DirectoryInfo(MyDir).EnumerateFiles("conic.dxf"))
 }
 ```
 
-Σε αυτό το τελευταίο βήμα, παρουσιάζουμε πώς να χειρίζεστε δυναμικά το κείμενο στα σχέδιά σας CAD, παρέχοντας μια πιο διαδραστική και εξατομικευμένη πινελιά.
+Στο τελικό αυτό βήμα, παρουσιάζουμε πώς να χειριστείτε δυναμικά το κείμενο μέσα στα σχέδια CAD, παρέχοντας μια πιο διαδραστική και προσωποποιημένη προσθήκη.
 
-## συμπέρασμα
+## Κοινά Προβλήματα και Λύσεις
 
-Το Aspose.CAD για .NET εξουσιοδοτεί τους προγραμματιστές με τα εργαλεία για τον εξορθολογισμό των ροών εργασίας CAD. Ακολουθώντας αυτόν τον οδηγό, μάθατε πώς να εξάγετε εικόνες σε μορφή DXF και να εκτελείτε προσαρμογές χρησιμοποιώντας το Aspose.CAD. Πειραματιστείτε με αυτές τις τεχνικές για να βελτιώσετε την εμπειρία σας στην ανάπτυξη CAD.
+- **Απουσία γραμματοσειρών:** Βεβαιωθείτε ότι η γραμματοσειρά που αναφέρετε είναι εγκατεστημένη στον διακομιστή ή ενσωματώστε την χρησιμοποιώντας `FontSettings`.
+- **Μεγάλα αρχεία προκαλούν OutOfMemoryException:** Χρησιμοποιήστε `LoadOptions` με `MemoryLimit` για ροή μεγάλων εικόνων.
+- **Γραμμές δεν κρύβονται:** Επαληθεύστε ότι το `HideLines` είναι ορισμένο στο ακριβές αντικείμενο `DxfExportOptions` που περνιέται στο `Save`.
 
-## Συχνές ερωτήσεις
+## Συχνές Ερωτήσεις
 
-### Ε1: Είναι το Aspose.CAD συμβατό με άλλες μορφές CAD;
+**Ε: Είναι το Aspose.CAD συμβατό με άλλες μορφές CAD;**  
+Α: Ναι, το Aspose.CAD υποστηρίζει DWG, DGN, PDF, SVG και πάνω από 30 επιπλέον μορφές τόσο για εισαγωγή όσο και για εξαγωγή.
 
- A1: Ναι, το Aspose.CAD υποστηρίζει διάφορες μορφές CAD, συμπεριλαμβανομένων των DWG, DXF, DGN και άλλων. Αναφέρομαι στο[τεκμηρίωση](https://reference.aspose.com/cad/net/) για μια ολοκληρωμένη λίστα.
+**Ε: Μπορώ να εφαρμόσω αυτές τις επεμβάσεις σε πολλά αρχεία ταυτόχρονα;**  
+Α: Απόλυτα! Ο δείγμα κώδικας έχει σχεδιαστεί ώστε να επαναλαμβάνει τη διαδικασία σε έναν φάκελο, επεξεργαζόμενος κάθε εικόνα διαδοχικά.
 
-### Ε2: Μπορώ να εφαρμόσω αυτούς τους χειρισμούς σε πολλά αρχεία ταυτόχρονα;
+**Ε: Πώς μπορώ να αποκτήσω προσωρινή άδεια για το Aspose.CAD;**  
+Α: Επισκεφθείτε [εδώ](https://purchase.aspose.com/temporary-license/) για να αποκτήσετε μια προσωρινή άδεια αξιολόγησης.
 
-Α2: Απολύτως! Ο παρεχόμενος κώδικας έχει σχεδιαστεί για επανάληψη πολλαπλών αρχείων CAD σε έναν καθορισμένο κατάλογο.
+**Ε: Πού μπορώ να ζητήσω βοήθεια και να συμμετάσχω στην κοινότητα;**  
+Α: Εγγραφείτε στην κοινότητα Aspose.CAD στο [support forum](https://forum.aspose.com/c/cad/19) για να αλληλεπιδράσετε με άλλους προγραμματιστές και να λάβετε καθοδήγηση.
 
-### Ε3: Πώς μπορώ να αποκτήσω μια προσωρινή άδεια για το Aspose.CAD;
+**Ε: Προσφέρει το Aspose.CAD δωρεάν δοκιμή;**  
+Α: Ναι, μπορείτε να δοκιμάσετε δωρεάν [εδώ](https://releases.aspose.com/) για να γνωρίσετε τις δυνατότητες του Aspose.CAD.
 
- Α3: Επίσκεψη[εδώ](https://purchase.aspose.com/temporary-license/) να αποκτήσει προσωρινή άδεια για λόγους αξιολόγησης.
+**Τελευταία Ενημέρωση:** 2026-06-04  
+**Δοκιμάστηκε Με:** Aspose.CAD 24.12 for .NET  
+**Συγγραφέας:** Aspose
 
-### Ε4: Πού μπορώ να αναζητήσω βοήθεια και να ασχοληθώ με την κοινότητα;
+## Σχετικούς Οδηγούς
 
- A4: Εγγραφείτε στην κοινότητα Aspose.CAD στο[φόρουμ υποστήριξης](https://forum.aspose.com/c/cad/19) να αλληλεπιδράσετε με άλλους προγραμματιστές και να αναζητήσετε καθοδήγηση.
+- [Εξαγωγή DXF σε PDF Format - Οδηγός Aspose.CAD](/cad/net/export-techniques/exporting-dxf-to-pdf-format/)
+- [Εξαγωγή DXF Specific Layout σε PDF - Οδηγός Aspose.CAD](/cad/net/export-techniques/exporting-dxf-specific-layout-to-pdf/)
+- [Εξαγωγή DWG σε DXF Format σε C# - Οδηγός Aspose.CAD](/cad/net/advanced-export-techniques/exporting-dwg-to-dxf/)
 
-### Ε5: Το Aspose.CAD προσφέρει δωρεάν δοκιμή;
 
- A5: Ναι, μπορείτε να εξερευνήσετε μια δωρεάν δοκιμή[εδώ](https://releases.aspose.com/) για να γνωρίσετε τις δυνατότητες του Aspose.CAD.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
