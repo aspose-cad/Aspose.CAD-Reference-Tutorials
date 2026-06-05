@@ -1,33 +1,51 @@
 ---
-title: 3D Görüntüleri PDF'ye Aktarma - Aspose.CAD Eğitimi
-linktitle: 3D Görüntüleri PDF'ye Aktarma
-second_title: Aspose.CAD .NET - CAD ve BIM Dosya Formatı
-description: Aspose.CAD for .NET ile 3D CAD görüntülerini zahmetsizce PDF'ye dönüştürün. Kusursuz PDF dışa aktarımı için adım adım eğitimimizi izleyin.
-weight: 10
+date: 2026-01-28
+description: 3D CAD görüntülerinden PDF dışa aktarmayı öğrenin – Aspose.CAD for .NET
+  kullanarak PDF dışa aktarma ve CAD'i PDF olarak kaydetme konusunda adım adım bir
+  rehber.
+linktitle: Exporting 3D Images to PDF
+second_title: Aspose.CAD .NET - CAD and BIM File Format
+title: PDF Nasıl Dışa Aktarılır – Aspose.CAD ile 3D Görüntüleri PDF'ye Dışa Aktarma
 url: /tr/net/3d-image-export/exporting-3d-images-to-pdf/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 3D Görüntüleri PDF'ye Aktarma - Aspose.CAD Eğitimi
+# 3D Görüntüleri PDF Olarak Dışa Aktarma - Aspose.CAD Eğitimi
 
-## giriiş
+## Giriş
 
-Aspose.CAD for .NET'i kullanarak 3D görüntüleri sorunsuz bir şekilde PDF'ye aktarmayı mı istiyorsunuz? Bu adım adım eğitim, süreç boyunca size rehberlik edecek ve 3D görüntülerinizi zahmetsizce PDF formatına dönüştürmek için Aspose.CAD'in gücünden yararlanmanızı sağlayacaktır.
+Aspose.CAD for .NET kullanarak 3D CAD görüntülerinizden **pdf nasıl dışa aktarılır** konusunda net bir rehber mi arıyorsunuz? Bu eğitim, CAD dosyasını yüklemekten rasterleştirme seçeneklerini yapılandırmaya ve nihayetinde 3‑D modelinizin detaylarını koruyan bir PDF oluşturmaya kadar her adımı size gösterir. Sonunda **cad'i pdf olarak kaydet** işlemini hızlı ve güvenilir bir şekilde yapabileceksiniz.
+
+## Hızlı Yanıtlar
+- **“pdf nasıl dışa aktarılır” ne anlama geliyor?** Bir CAD çizimini herhangi bir platformda görüntülenebilen bir PDF belgesine dönüştürmek.  
+- **Dönüşümü hangi kütüphane sağlıyor?** Aspose.CAD for .NET rasterleştirme ve PDF dışa aktarma yeteneklerini sunar.  
+- **Lisans gerekli mi?** Üretim kullanımı için geçici veya tam lisans gerekir; ücretsiz deneme sürümü mevcuttur.  
+- **Sayfa boyutunu özelleştirebilir miyim?** Evet – rasterleştirme seçeneklerinde `PageWidth` ve `PageHeight` değerlerini ayarlayabilirsiniz.  
+- **3‑D geometri korunuyor mu?** 3‑D varlıklar rasterleştirilir; tam 3‑D desteği için `TypeOfEntities.Entities3D` etkinleştirilebilir.
+
+## CAD bağlamında “pdf nasıl dışa aktarılır” ne demektir?
+PDF olarak dışa aktarma, bir CAD çizimini (DWG, DXF, DGN vb.) PDF dosyasına dönüştürmek anlamına gelir. PDF, vektör grafikler, rasterleştirilmiş 3‑D görünümler ve sayfa düzeni bilgileri içerebilir; böylece CAD yazılımı olmayan paydaşlarla kolayca paylaşılabilir.
+
+## Neden PDF dışa aktarmak için Aspose.CAD kullanmalısınız?
+- **Harici bağımlılık yok** – AutoCAD gerektirmeden .NET içinde tamamen çalışır.  
+- **Yüksek doğruluk** – çizgi kalınlıkları, renkler ve isteğe bağlı 3‑D varlık renderlaması korunur.  
+- **Tam kontrol** – sayfa boyutlarını, düzenleri ve rasterleştirme kalitesini siz belirlersiniz.  
+- **Çapraz platform** – oluşturulan PDF’ler herhangi bir cihazda açılabilir.
 
 ## Önkoşullar
 
-Eğiticiye dalmadan önce aşağıdaki önkoşulların yerine getirildiğinden emin olun:
+Başlamadan önce şunların yüklü olduğundan emin olun:
 
--  Aspose.CAD for .NET: Aspose.CAD for .NET kütüphanesinin kurulu olduğundan emin olun. Değilse, adresinden indirebilirsiniz.[Aspose.CAD for .NET indirme sayfası](https://releases.aspose.com/cad/net/).
+- **Aspose.CAD for .NET** yüklü. İndirmek için [Aspose.CAD for .NET indirme sayfası](https://releases.aspose.com/cad/net/).  
+- **CAD dosyalarınızı içeren bir klasör**. Tam yolunu not alın (örnek: `C:\CAD\`).  
 
-- Belge Dizini: CAD dosyalarınızın depolandığı bir dizin ayarlayın ve yolu not edin.
+## Ad Alanlarını İçe Aktarın
 
-## Ad Alanlarını İçe Aktar
-
-.NET projenize Aspose.CAD ile çalışmak için gerekli ad alanlarını içe aktarın. Kod dosyanızın en üstüne aşağıdaki satırları ekleyin:
+.NET projenizde Aspose.CAD ile çalışmak için gerekli ad alanlarını içe aktarın. Kod dosyanızın en üstüne aşağıdaki satırları ekleyin:
 
 ```csharp
 using System;
@@ -39,22 +57,24 @@ using Aspose.CAD;
 using Aspose.CAD.ImageOptions;
 ```
 
-## Adım 1: CAD Görüntüsünü Yükleyin
+## Adım‑Adım Kılavuz
 
- PDF'ye aktarmak istediğiniz CAD görüntüsünü yükleyerek başlayın. Kullan`Load` Aspose.CAD kütüphanesinden yöntem. Yer değiştirmek`"conic_pyramid.dxf"` CAD dosyanızın yolu ile birlikte.
+### Adım 1: CAD Görüntüsünü Yükleyin
+
+Dönüştürmek istediğiniz kaynak CAD dosyasını ilk olarak yükleyin. `"conic_pyramid.dxf"` ifadesini kendi dosyanızın yolu ile değiştirin.
 
 ```csharp
 string MyDir = "Your Document Directory";
 string sourceFilePath = MyDir + "conic_pyramid.dxf";
 using (Image cadImage = Image.Load(sourceFilePath))
 {
-    // CAD görüntüsünü yükleme kodunuz buraya gelir
+    // Your code for loading the CAD image goes here
 }
 ```
 
-## Adım 2: Rasterleştirme Seçeneklerini Yapılandırın
+### Adım 2: Rasterleştirme Seçeneklerini Yapılandırın (CAD'i PDF Olarak Kaydet)
 
- CAD görüntüsü için rasterleştirme seçeneklerini yapılandırın. Sayfa genişliği, sayfa yüksekliği ve düzenler gibi parametreleri ayarlayın. İlgili satırın yorumunu kaldırın`TypeOfEntities` varlıklarınız 3D ise.
+CAD verisinin PDF’e nasıl renderlanacağını kontrol eden rasterleştirme parametrelerini ayarlayın. Sayfa boyutu, düzen ve isteğe bağlı 3‑D varlık işleme ayarlarını burada yapabilirsiniz.
 
 ```csharp
 CadRasterizationOptions rasterizationOptions = new CadRasterizationOptions();
@@ -65,49 +85,60 @@ rasterizationOptions.PageHeight = 500;
 rasterizationOptions.Layouts = new string[] { "Model" };
 ```
 
-## 3. Adım: PDF Seçeneklerini Ayarlayın
+### Adım 3: PDF Seçeneklerini Ayarlayın (CAD'den PDF Oluştur)
 
-PDF seçenekleri oluşturun ve bunları rasterleştirme seçenekleriyle ilişkilendirin.
+Bir `PdfOptions` örneği oluşturun ve rasterleştirme ayarlarını ekleyin. Bu, Aspose.CAD’in yukarıda tanımlanan seçeneklerle bir PDF dosyası üretmesini sağlar.
 
 ```csharp
 PdfOptions pdfOptions = new PdfOptions();
 pdfOptions.VectorRasterizationOptions = rasterizationOptions;
 ```
 
-## 4. Adım: PDF olarak kaydedin
+### Adım 4: PDF Olarak Kaydedin (3D Modelden PDF Oluştur)
 
-Yapılandırılmış seçenekleri kullanarak CAD görüntüsünü PDF dosyası olarak kaydedin. PDF dosyasının çıktı yolunu belirtin.
+Son olarak çıktı yolunu belirtin ve görüntüyü PDF olarak kaydedin. Dosya, 3‑D modelinizin rasterleştirilmiş bir görünümünü içerecektir.
 
 ```csharp
 MyDir = MyDir + "Export3DImagestoPDF_out.pdf";
 cadImage.Save(MyDir, pdfOptions);
 ```
 
-## Çözüm
+## Yaygın Sorunlar ve Çözümler
 
-Tebrikler! Aspose.CAD for .NET'i kullanarak 3D görüntüleri başarıyla PDF'ye aktardınız. Bu basit eğitim, CAD dosyalarınızı zahmetsizce daha erişilebilir bir formata dönüştürmenizi sağlar.
+| Sorun | Sebep | Çözüm |
+|-------|--------|-----|
+| **Çıktı PDF boş** | Yanlış düzen adı veya `Model` düzeninin eksik olması. | `rasterizationOptions.Layouts` değerinin CAD dosyasındaki bir düzenle eşleştiğini doğrulayın. |
+| **Düşük çözünürlük** | Varsayılan rasterleştirme DPI’sı düşük. | Kaydetmeden önce `rasterizationOptions.Resolution = 300;` ayarlayın. |
+| **3‑D varlıklar görünmüyor** | `TypeOfEntities` yorum satırı içinde. | `rasterizationOptions.TypeOfEntities = TypeOfEntities.Entities3D;` satırının yorumunu kaldırın. |
+| **Lisans istisnası** | Lisans olmadan deneme sürümü kullanılıyor. | `License license = new License(); license.SetLicense("Aspose.CAD.lic");` kodu ile geçici veya kalıcı lisans uygulayın. |
 
-## SSS'ler
+## Sık Sorulan Sorular
 
-### S1: Aspose.CAD tüm CAD dosya formatlarıyla uyumlu mudur?
+**S: Aspose.CAD tüm CAD dosya formatlarıyla uyumlu mu?**  
+C: Evet, Aspose.CAD geniş bir CAD formatı yelpazesini destekler, böylece çeşitli dosya tipleriyle esnek bir şekilde çalışabilirsiniz.
 
-Cevap1: Evet, Aspose.CAD çok çeşitli CAD formatlarını destekleyerek çeşitli dosya türlerinin işlenmesinde esneklik sağlar.
+**S: PDF dışa aktarırken sayfa boyutlarını özelleştirebilir miyim?**  
+C: Kesinlikle. Eğitimde, gereksinimlerinize göre sayfa genişliği ve yüksekliğini nasıl yapılandıracağınız gösterilmiştir.
 
-### S2: PDF'ye dışa aktarırken sayfa boyutlarını özelleştirebilir miyim?
+**S: Aspose.CAD için geçici lisanslar mevcut mu?**  
+C: Evet, [Geçici Lisans](https://purchase.aspose.com/temporary-license/) sayfasını ziyaret ederek geçici lisans alabilirsiniz.
 
-A2: Kesinlikle. Eğitimde, gereksinimlerinize göre sayfa genişliğini ve yüksekliğini nasıl yapılandıracağınız gösterilmektedir.
+**S: Ek destek veya topluluk tartışmalarını nereden bulabilirim?**  
+C: Destek ve topluluk etkileşimi için [Aspose.CAD Forum](https://forum.aspose.com/c/cad/19) adresine göz atın.
 
-### S3: Aspose.CAD için geçici lisanslar mevcut mu?
+**S: Aspose.CAD'in ücretsiz deneme sürümü var mı?**  
+C: Evet, [ücretsiz deneme](https://releases.aspose.com/) sayfasından Aspose.CAD özelliklerini keşfedebilirsiniz.
 
- C3: Evet, adresini ziyaret ederek Aspose.CAD için geçici lisanslar alabilirsiniz.[Geçici Lisans](https://purchase.aspose.com/temporary-license/).
+## Sonuç
 
-### S4: Ek desteği veya topluluk tartışmalarını nerede bulabilirim?
+Artık Aspose.CAD for .NET kullanarak 3D CAD görüntülerinden **pdf nasıl dışa aktarılır** konusunu öğrendiniz. Yukarıdaki adımları izleyerek **cad'i pdf olarak kayded**ebilir, sayfa ayarlarını özelleştirebilir ve gerektiğinde 3‑D varlıkları işleyebilirsiniz. Belirli modelleriniz için en iyi görsel kaliteyi elde etmek amacıyla farklı rasterleştirme seçenekleriyle denemeler yapmaktan çekinmeyin.
 
- A4: Şuraya gidin:[Aspose.CAD Forumu](https://forum.aspose.com/c/cad/19) destek ve toplulukla etkileşim için.
+---
 
-### S5: Aspose.CAD'in ücretsiz deneme sürümü mevcut mu?
+**Son Güncelleme:** 2026-01-28  
+**Test Edilen Versiyon:** Aspose.CAD 24.11 for .NET  
+**Yazar:** Aspose  
 
- Cevap5: Evet, Aspose.CAD'in özelliklerini şu adrese erişerek keşfedebilirsiniz:[ücretsiz deneme](https://releases.aspose.com/).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
