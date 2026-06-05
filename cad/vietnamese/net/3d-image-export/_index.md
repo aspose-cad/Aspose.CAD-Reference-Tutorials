@@ -119,15 +119,15 @@ A: Cần giấy phép thương mại Aspose.CAD cho việc triển khai không g
 ### [Xuất ảnh 3D sang PDF - Hướng dẫn Aspose.CAD](./exporting-3d-images-to-pdf/)
 Chuyển đổi ảnh CAD 3D sang PDF một cách dễ dàng với Aspose.CAD cho .NET. Thực hiện theo hướng dẫn từng bước của chúng tôi để xuất PDF mượt mà.
 
+---
+
+**Last Updated:** 2026-01-28  
+**Tested With:** Aspose.CAD for .NET 24.11  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2026-01-28  
-**Tested With:** Aspose.CAD for .NET 24.11  
-**Author:** Aspose

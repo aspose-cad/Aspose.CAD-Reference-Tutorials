@@ -119,15 +119,15 @@ A: Komerní licence Aspose.CAD je potřeba pro neomezené nasazení; pro hodnoce
 ### [Export 3D obrázků do PDF – tutoriál Aspose.CAD](./exporting-3d-images-to-pdf/)
 Jednoduše převádějte 3D CAD obrázky do PDF pomocí Aspose.CAD pro .NET. Postupujte podle našeho krok‑za‑krokem tutoriálu pro bezproblémový export PDF.
 
+---
+
+**Poslední aktualizace:** 2026-01-28  
+**Testováno s:** Aspose.CAD for .NET 24.11  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Poslední aktualizace:** 2026-01-28  
-**Testováno s:** Aspose.CAD for .NET 24.11  
-**Autor:** Aspose

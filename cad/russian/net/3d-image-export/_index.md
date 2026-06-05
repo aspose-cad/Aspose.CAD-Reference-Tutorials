@@ -119,13 +119,6 @@ weight: 35
 ### [Экспорт 3D‑изображений в PDF — учебник Aspose.CAD](./exporting-3d-images-to-pdf/)
 Без усилий преобразуйте 3D CAD‑изображения в PDF с помощью Aspose.CAD for .NET. Следуйте нашему пошаговому руководству для беспроблемного экспорта PDF.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Последнее обновление:** 2026-01-28  
@@ -133,3 +126,10 @@ weight: 35
 **Автор:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

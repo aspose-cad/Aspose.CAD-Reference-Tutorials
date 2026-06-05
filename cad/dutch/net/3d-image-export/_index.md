@@ -119,15 +119,15 @@ Door deze mogelijkheden te beheersen, kunt u 3d cad pdf‑bestanden exporteren d
 ### [3D-afbeeldingen exporteren naar PDF - Aspose.CAD Tutorial](./exporting-3d-images-to-pdf/)
 Converteer moeiteloos 3D CAD‑afbeeldingen naar PDF met Aspose.CAD for .NET. Volg onze stap‑voor‑stap tutorial voor een naadloze PDF‑export.
 
+---
+
+**Laatst bijgewerkt:** 2026-01-28  
+**Getest met:** Aspose.CAD for .NET 24.11  
+**Auteur:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Laatst bijgewerkt:** 2026-01-28  
-**Getest met:** Aspose.CAD for .NET 24.11  
-**Auteur:** Aspose

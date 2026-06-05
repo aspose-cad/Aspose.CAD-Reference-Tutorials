@@ -99,25 +99,36 @@ weight: 35
 
 ## よくある質問
 
-**Q: Can I export multiple 3D files in a single batch?**  
-A: Yes. Loop through your file list, applying the same `PdfOptions` for each iteration.
+**Q: 複数の3Dファイルを一括でエクスポートできますか？** 
 
-**Q: Does Aspose.CAD support STL files?**  
-A: Absolutely. STL is among the many formats recognized for 3D import.
+A: はい。ファイルリストをループ処理し、各イテレーションに同じ`PdfOptions`を適用してください。
 
-**Q: How do I embed a custom font in the PDF?**  
-A: Use `PdfOptions.FontEmbeddingMode = FontEmbeddingMode.Always` before saving.
+**Q: Aspose.CADはSTLファイルをサポートしていますか？** 
 
-**Q: Is it possible to add a watermark to the exported PDF?**  
-A: Yes. Create a `PdfPage` after saving and draw the watermark using Aspose.PDF utilities.
+A: はい、もちろんです。STLは、3Dインポートで認識される多くのフォーマットの一つです。
 
-**Q: What licensing is required for production use?**  
-A: A commercial Aspose.CAD license is needed for unlimited deployment; a free trial is available for evaluation.
+**Q: PDFにカスタムフォントを埋め込むにはどうすればよいですか？** 
+
+A: 保存する前に`PdfOptions.FontEmbeddingMode = FontEmbeddingMode.Always`を設定してください。
+
+**Q: エクスポートしたPDFに透かしを追加できますか？** 
+
+A: はい。保存後に`PdfPage`を作成し、Aspose.PDFユーティリティを使用して透かしを描画してください。
+
+**Q: 本番環境で使用するにはどのようなライセンスが必要ですか？** 
+
+A: 無制限に展開するには、商用版のAspose.CADライセンスが必要です。評価用の無料トライアルをご利用いただけます。
 
 ## 3D 画像エクスポートチュートリアル
 
 ### [3D画像をPDFにエクスポート - Aspose.CAD チュートリアル](./exporting-3d-images-to-pdf/)
 Aspose.CAD for .NET を使用して、3D CAD 画像を PDF に手間なく変換します。シームレスな PDF エクスポートのために、ステップバイステップのチュートリアルに従ってください。
+
+---
+
+**Last Updated:** 2026-01-28  
+**Tested With:** Aspose.CAD for .NET 24.11  
+**Author:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -125,9 +136,3 @@ Aspose.CAD for .NET を使用して、3D CAD 画像を PDF に手間なく変換
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2026-01-28  
-**Tested With:** Aspose.CAD for .NET 24.11  
-**Author:** Aspose

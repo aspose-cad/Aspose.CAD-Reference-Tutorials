@@ -120,15 +120,15 @@ C: Sınırsız dağıtım için ticari bir Aspose.CAD lisansı gerekir; değerle
 ### [Exporting 3D Images to PDF - Aspose.CAD Tutorial](./exporting-3d-images-to-pdf/)
 Aspose.CAD for .NET ile 3D CAD görsellerini PDF'ye zahmetsizce dönüştürün. Sorunsuz PDF dışa aktarımı için adım adım öğreticimizi izleyin.
 
+---
+
+**Son Güncelleme:** 2026-01-28  
+**Test Edilen Versiyon:** Aspose.CAD for .NET 24.11  
+**Yazar:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Son Güncelleme:** 2026-01-28  
-**Test Edilen Versiyon:** Aspose.CAD for .NET 24.11  
-**Yazar:** Aspose

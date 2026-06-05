@@ -119,15 +119,15 @@ A: Απαιτείται εμπορική άδεια Aspose.CAD για απερι
 ### [Εξαγωγή 3D Εικόνων σε PDF - Tutorial Aspose.CAD](./exporting-3d-images-to-pdf/)
 Με ευκολία μετατρέψτε 3D CAD εικόνες σε PDF με το Aspose.CAD for .NET. Ακολουθήστε το βήμα‑βήμα tutorial μας για απρόσκοπτη εξαγωγή PDF.
 
+---
+
+**Τελευταία Ενημέρωση:** 2026-01-28  
+**Δοκιμή με:** Aspose.CAD for .NET 24.11  
+**Συγγραφέας:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Τελευταία Ενημέρωση:** 2026-01-28  
-**Δοκιμή με:** Aspose.CAD for .NET 24.11  
-**Συγγραφέας:** Aspose
