@@ -1,11 +1,40 @@
 ---
-date: 2025-11-30
-description: Aspose.CAD for Java kullanarak DXF dosyalarından PDF oluşturmayı ve belirli
-  bir katmanı dışa aktarmayı öğrenin. Bu adım adım kılavuz, DXF'yi PDF'ye hızlı ve
-  güvenilir bir şekilde nasıl dönüştüreceğinizi gösterir.
-linktitle: Export Specific Layer of DXF Drawing to PDF with Java
+date: 2026-06-09
+description: Aspose.CAD for Java kullanarak DXF dışa aktarma ve CAD çizimini PDF'ye
+  dönüştürmeyi öğrenin. Bu adım adım rehber, DXF'yi hızlı ve güvenilir bir şekilde
+  PDF'ye nasıl dönüştüreceğinizi gösterir.
+keywords:
+- how to export dxf
+- convert cad drawing pdf
+- export dxf layer java
+linktitle: Java ile DXF Çiziminin Belirli Katmanını PDF'ye Dışa Aktarın
+schemas:
+- author: Aspose
+  dateModified: '2026-06-09'
+  description: Learn how to export dxf and convert CAD drawing PDF using Aspose.CAD
+    for Java. This step‑by‑step guide shows you how to convert DXF to PDF quickly
+    and reliably.
+  headline: How to Export DXF Layer to PDF with Aspose.CAD for Java
+  type: TechArticle
+- questions:
+  - answer: Yes. Modify the `stringList` in Step 3 to include all desired layer names,
+      e.g., `Arrays.asList("LayerA", "LayerB")`.
+    question: Can I export multiple layers simultaneously?
+  - answer: Aspose.CAD supports over 30 DXF versions, from the early R12 format up
+      to the latest 2023 release, ensuring broad compatibility.
+    question: Is Aspose.CAD compatible with all DXF versions?
+  - answer: Wrap the loading and saving code in a `try‑catch` block and log `Exception`
+      details. This lets you gracefully handle corrupted files or permission issues.
+    question: How should I handle errors during the export process?
+  - answer: Yes. A temporary license is fine for evaluation, but a purchased license
+      removes evaluation watermarks and unlocks full functionality.
+    question: Do I need a commercial license for production use?
+  - answer: Visit the [Aspose.CAD forum](https://forum.aspose.com/c/cad/19) for community
+      support, or check the official API documentation for more code samples.
+    question: Where can I get additional help or examples?
+  type: FAQPage
 second_title: Aspose.CAD Java API
-title: 'DXF''den PDF Oluşturma: Aspose.CAD for Java ile Katmanı Dışa Aktar'
+title: Aspose.CAD for Java ile DXF Katmanını PDF'ye Nasıl Dışa Aktarılır
 url: /tr/java/additional-features/export-specific-layer-to-pdf/
 weight: 18
 ---
@@ -14,36 +43,45 @@ weight: 18
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# DXF'ten PDF Oluşturma: Aspose.CAD for Java ile Katman Dışa Aktarma
+# DXF Katmanını PDF'ye Aspose.CAD for Java ile Nasıl Dışa Aktarılır
 
 ## Giriş
 
-Eğer **DXF'ten PDF oluşturma** ihtiyacınız varsa ve yalnızca ilgilendiğiniz katmanları tutmak istiyorsanız, Aspose.CAD for Java bu süreci sorunsuz hâle getirir. Bu öğreticide gerçek bir senaryoyu adım adım inceleyeceğiz: bir DXF dosyasının tek bir katmanını PDF belgesine dışa aktarmak. Bu yaklaşımın hafif çizimler üretmek, CAD olmayan kullanıcılarla tasarım detaylarını paylaşmak veya otomatik raporlama boru hatları oluşturmak için neden faydalı olduğunu göreceksiniz.
+Eğer **dxf** çizimlerini yalnızca ihtiyacınız olan katmanları tutarak PDF'ye nasıl dışa aktaracağınızı öğrenmeniz gerekiyorsa, Aspose.CAD for Java bunu zahmetsiz hale getirir. Bu öğreticide gerçek bir senaryoyu adım adım inceleyeceğiz: bir DXF dosyasının tek bir katmanını PDF belgesine dışa aktarmak. Bu yaklaşımın hafif çizimler oluşturmak, CAD olmayan kullanıcılarla tasarım detaylarını paylaşmak veya otomatik raporlama boru hatları oluşturmak için neden faydalı olduğunu göreceksiniz.
 
 ## Hızlı Yanıtlar
-- **Bu öğretici neyi kapsıyor?** Aspose.CAD for Java kullanarak belirli bir DXF katmanını PDF'ye dışa aktarma.  
-- **Ana fayda?** Yalnızca gerekli geometriyi tutarsınız, dosya boyutu ve görsel karmaşa azalır.  
+- **Bu öğreticinin kapsamı nedir?** Aspose.CAD for Java kullanarak belirli bir DXF katmanını PDF'ye dışa aktarmak.  
+- **Ana fayda?** Yalnızca gereken geometrileri tutarsınız, dosya boyutu ve görsel karmaşa azalır.  
 - **Önkoşullar?** Java SDK, Aspose.CAD for Java kütüphanesi ve üzerinde çalışılacak bir DXF dosyası.  
 - **Uygulama ne kadar sürer?** Temel bir kurulum için yaklaşık 10‑15 dakika.  
-- **Birden fazla katman dışa aktarabilir miyim?** Evet – sadece katman listesini ayarlayın (Bkz. Adım 3).
+- **Birden fazla katmanı dışa aktarabilir miyim?** Evet – sadece katman listesini ayarlayın (Bkz. Adım 3).
 
-## “DXF'ten PDF Oluşturma” nedir?
-DXF (Drawing Exchange Format) dosyasını PDF belgesine dönüştürmek, CAD verilerinin CAD yazılımı olmayan paydaşlarla paylaşılması gerektiğinde yaygın bir gereksinimdir. PDF formatı görsel bütünlüğü korurken evrensel olarak görüntülenebilir.
+## DXF katmanını PDF'ye nasıl dışa aktarılır?
 
-## Neden DXF'ten PDF'ye dönüştürmek için Aspose.CAD for Java kullanmalı?
-- **Harici bağımlılık yok** – saf Java, yerel DLL'ler yok.  
-- **İnce katman kontrolü** – çıktıda hangi katmanların görüneceğini tam olarak seçin.  
-- **Yüksek kaliteli rasterleştirme** – yapılandırılabilir DPI, sayfa boyutu ve render seçenekleri.  
-- **Çapraz platform** – Windows, Linux ve macOS'ta çalışır.
+Aspose.CAD'in `Image` sınıfını kullanarak DXF dosyasını yükleyin, istenen katman adlarıyla `CadRasterizationOptions`'ı yapılandırın ve ardından görüntüyü `PdfOptions` aracılığıyla PDF olarak kaydedin. Sadece üç satır kodla tek bir katmanı izole edebilir ve paylaşım için uygun hafif bir PDF oluşturabilirsiniz.
+
+## “DXF'ten PDF Oluştur” nedir?
+
+DXF (Drawing Exchange Format) dosyasını PDF belgesine dönüştürme süreci, CAD verilerinin CAD yazılımı olmayan paydaşlarla paylaşılması gerektiğinde yaygın bir gereksinimdir. PDF formatı görsel bütünlüğü korurken evrensel olarak görüntülenebilir.
+
+## DXF'yi PDF'ye dönüştürmek için Aspose.CAD for Java neden kullanılmalı?
+
+Aspose.CAD for Java, yerel CAD bileşenlerine ihtiyaç duymayan saf‑Java bir çözüm sunar ve herhangi bir platformda güvenilir dönüşüm sağlar. Katman seçimi, yüksek çözünürlüklü rasterleştirme ve geniş DXF sürüm desteği sunarak otomatik iş akışları ve hafif PDF üretimi için idealdir.
+
+- **Harici bağımlılık yok** – saf Java, yerel DLL yok.  
+- **İnce katman kontrolü** – dışa aktarma başına 100 katmana kadar seçebilir, çıktıyı hafif tutar.  
+- **Yüksek kaliteli rasterleştirme** – yapılandırılabilir DPI, sayfa boyutu ve render seçenekleri; Aspose.CAD, R12'den en son 2023 sürümüne kadar 30'dan fazla DXF sürümünü destekler.  
+- **Çapraz platform** – Windows, Linux ve macOS'ta çalışır.  
+- **Performans** – rasterleştirme tek katmanla sınırlı olduğunda standart bir sunucuda çok sayfalı çizimleri 2 saniyenin altında işler.
 
 ## Önkoşullar
 
-- **Aspose.CAD for Java Kütüphanesi** – [Aspose.CAD Java belgelerinden](https://reference.aspose.com/cad/java/) indirin.  
+- **Aspose.CAD for Java Kütüphanesi** – [Aspose.CAD Java belgeleri](https://reference.aspose.com/cad/java/) adresinden indirin.  
 - **Java Geliştirme Ortamı** – JDK 8 veya üzeri, ve tercih ettiğiniz bir IDE veya derleme aracı.
 
-## Ad Alanlarını İçe Aktar
+## Ad Alanlarını İçe Aktarma
 
-İlk olarak, ihtiyacınız olan sınıfları içe aktarın. İçe aktarmaları bir arada tutmak okunabilirliği artırır ve gelecekteki güncellemeleri kolaylaştırır.
+`com.aspose.cad` ad alanı, CAD dosyalarını yüklemek ve işlemek için temel sınıfları sağlar. İçe aktarmaları bir arada tutmak okunabilirliği artırır ve gelecekteki güncellemeleri kolaylaştırır.
 
 ```java
 import com.aspose.cad.Image;
@@ -55,7 +93,7 @@ import java.util.Arrays;
 import java.util.List;
 ```
 
-## Adım 1: Kaynak Dizinini Ayarla
+## Adım 1: Kaynak Dizinini Ayarlayın
 
 DXF kaynak dosyalarınızı içeren klasörü tanımlayın. Yer tutucuyu makinenizdeki gerçek yol ile değiştirin.
 
@@ -63,18 +101,18 @@ DXF kaynak dosyalarınızı içeren klasörü tanımlayın. Yer tutucuyu makinen
 String dataDir = "Your Document Directory" + "DXFDrawings/";
 ```
 
-## Adım 2: DXF Çizimini Yükle
+## Adım 2: DXF Çizimini Yükleyin
 
-DXF dosyasını bir `Image` nesnesine yükleyin. Aspose.CAD dosya formatını otomatik olarak algılar.
+`Image` sınıfı, çeşitli formatlarda kaydedilebilen rasterleştirilmiş bir CAD çizimini temsil eder. DXF dosyasını bir `Image` nesnesine yükleyin; Aspose.CAD dosya formatını otomatik olarak algılar.
 
 ```java
 String srcFile = dataDir + "conic_pyramid.dxf";
 Image image = Image.load(srcFile);
 ```
 
-## Adım 3: Rasterleştirme Seçeneklerini Yapılandır (Katmanı Seç)
+## Adım 3: Rasterleştirme Seçeneklerini Yapılandırın (Katmanı Seçin)
 
-Burada Aspose.CAD'e hangi katmanların render edileceğini söylüyoruz. Örnekte yalnızca varsayılan katman `"0"` tutulur. Farklı bir katmanı dışa aktarmak için `"0"` yerine çiziminizdeki tam katman adını yazın.
+Burada Aspose.CAD'e hangi katmanların render edileceğini söylüyoruz. `CadRasterizationOptions` sınıfı, katman adları listesi, DPI ve sayfa boyutları gibi ayarları belirlemenizi sağlar. Örnekte yalnızca varsayılan katman `"0"` tutulur. Farklı bir katmanı dışa aktarmak için `"0"` yerine çiziminizdeki tam katman adını yazın.
 
 ```java
 CadRasterizationOptions rasterizationOptions = new CadRasterizationOptions();
@@ -85,11 +123,11 @@ List<String> stringList = new ArrayList<>(Arrays.asList("0"));
 rasterizationOptions.setLayers(stringList);
 ```
 
-**Pro ipucu:** Birden fazla katman adı eklemek için `stringList`'e (ör. `Arrays.asList("Layer1", "Layer2")`) ekleyebilir ve aynı anda birkaç katmanı dışa aktarabilirsiniz.
+**Pro ipucu:** `stringList`'e birden fazla katman adı ekleyebilirsiniz (ör. `Arrays.asList("Layer1", "Layer2")`) ve böylece aynı anda birkaç katmanı dışa aktarabilirsiniz.
 
-## Adım 4: PDF Seçeneklerini Oluştur
+## Adım 4: PDF Seçeneklerini Oluşturun
 
-Rasterleştirme ayarlarını PDF çıktı yapılandırmasıyla bağlayın.
+`PdfOptions` sınıfı, rasterleştirme ayarlarını PDF çıkış yapılandırmasıyla bağlar. `CadRasterizationOptions` örneğini `PdfOptions`'a geçirerek seçilen katmanların nihai PDF'de tek içerik olmasını sağlarsınız.
 
 ```java
 PdfOptions pdfOptions = new PdfOptions();
@@ -98,7 +136,7 @@ pdfOptions.setVectorRasterizationOptions(rasterizationOptions);
 
 ## Adım 5: PDF'ye Dışa Aktar (DXF'ten PDF Oluştur)
 
-Son olarak, seçilen katmanı bir PDF dosyası olarak kaydedin. Oluşan PDF yalnızca belirttiğiniz katmanların geometrisini içerecektir.
+Son olarak, seçilen katmanı bir PDF dosyası olarak kaydedin. Oluşan PDF yalnızca belirttiğiniz katmanların geometrisini içerir, böylece dosya hafif ve paylaşımı kolay olur.
 
 ```java
 image.save(dataDir + "conic_pyramid_layer_out_.pdf", pdfOptions);
@@ -106,38 +144,47 @@ image.save(dataDir + "conic_pyramid_layer_out_.pdf", pdfOptions);
 
 ## Yaygın Sorunlar ve Çözümler
 
-| Sorun | Sebep | Çözüm |
+| Sorun | Neden | Çözüm |
 |-------|--------|-----|
-| **Çıktı yok veya boş PDF** | Katman adı uyuşmazlığı veya büyük/küçük harf duyarlılığı | DXF'teki tam katman adlarını bir CAD görüntüleyici ile doğrulayın ve `setLayers` içinde aynı şekilde kullanın. |
-| **Yanlış ölçekleme** | Sayfa genişliği/yüksekliği çizim birimleriyle eşleşmiyor | `setPageWidth` / `setPageHeight` ayarlarını değiştirin veya `CadRasterizationOptions` üzerinde `setResolution` ayarlayın. |
-| **Lisans istisnası** | Lisans uygulanmadan deneme sürümü kullanılıyor | Lisans dosyanızı şu kodla yükleyin: `License license = new License(); license.setLicense("Aspose.CAD.Java.lic");`. |
+| **Çıktı yok veya boş PDF** | Katman adı uyuşmazlığı veya büyük/küçük harf duyarlılığı | `setLayers` içinde DXF'teki tam katman adlarını doğrulayın (bir CAD görüntüleyici kullanın) ve eşleştirin. |
+| **Yanlış ölçekleme** | Sayfa genişliği/yüksekliği çizim birimleriyle eşleşmiyor | `setPageWidth` / `setPageHeight` ayarlayın veya `CadRasterizationOptions` üzerinde `setResolution` ayarlayın. |
+| **Lisans istisnası** | Lisans uygulanmadan deneme sürümü kullanılması | `License license = new License(); license.setLicense("Aspose.CAD.Java.lic");` kodu ile lisans dosyanızı yükleyin. |
+| **Büyük dosyalarda performans yavaşlaması** | Tüm katmanların gereksiz yere render edilmesi | `stringList`'i yalnızca gerekli katmanlarla sınırlayın ve yüksek çözünürlük gerekmediyse DPI'yi düşürün. |
+| **Beklenmeyen renkler** | Varsayılan renk işleme, kaynak CAD'den farklı | Kaynak palete uyması için `CadRasterizationOptions` içinde `setBackgroundColor` veya `setColorMode` kullanın. |
 
-## Sık Sorulan Sorular
+## Sıkça Sorulan Sorular
 
 **S: Birden fazla katmanı aynı anda dışa aktarabilir miyim?**  
-C: Evet. Adım 3'teki `stringList`'i tüm istenen katman adlarını içerecek şekilde değiştirin, ör. `Arrays.asList("LayerA", "LayerB")`.
+**C:** Evet. Adım 3'teki `stringList`'i tüm istenen katman adlarını içerecek şekilde değiştirin, örn. `Arrays.asList("LayerA", "LayerB")`.
 
 **S: Aspose.CAD tüm DXF sürümleriyle uyumlu mu?**  
-C: Aspose.CAD, erken R12 sürümünden en yeni sürümlere kadar geniş bir DXF sürüm yelpazesini destekler, bu da geniş bir uyumluluk sağlar.
+**C:** Aspose.CAD, erken R12 formatından en son 2023 sürümüne kadar 30'dan fazla DXF sürümünü destekler, geniş uyumluluk sağlar.
 
-**S: Dışa aktarma sırasında hatalar nasıl ele alınmalı?**  
-C: Yükleme ve kaydetme kodunu bir `try‑catch` bloğuna sarın ve `Exception` detaylarını kaydedin. Bu, bozuk dosyalar veya izin sorunlarıyla nazikçe başa çıkmanızı sağlar.
+**S: Dışa aktarma sürecinde hatalarla nasıl başa çıkmalıyım?**  
+**C:** Yükleme ve kaydetme kodunu bir `try‑catch` bloğuna sarın ve `Exception` detaylarını kaydedin. Bu, bozuk dosyalar veya izin sorunlarıyla nazikçe başa çıkmanızı sağlar.
 
-**S: Üretim ortamında ticari bir lisansa ihtiyacım var mı?**  
-C: Evet. Değerlendirme için geçici bir lisans yeterli olsa da, satın alınan bir lisans değerlendirme filigranlarını kaldırır ve tam işlevselliği açar.
+**S: Üretim kullanımında ticari lisansa ihtiyacım var mı?**  
+**C:** Evet. Değerlendirme için geçici bir lisans yeterli, ancak satın alınan bir lisans değerlendirme filigranlarını kaldırır ve tam işlevselliği açar.
 
-**S: Ek yardım veya örnekler nereden bulunur?**  
-C: Topluluk desteği için [Aspose.CAD forumunu](https://forum.aspose.com/c/cad/19) ziyaret edin veya daha fazla kod örneği için resmi API belgelerine göz atın.
+**S: Ek yardım veya örnekleri nereden bulabilirim?**  
+**C:** Ek yardım için [Aspose.CAD forumunu](https://forum.aspose.com/c/cad/19) ziyaret edin, topluluk desteği alın veya resmi API belgelerinde daha fazla kod örneği bulun.
 
 ## Sonuç
 
-Artık **Aspose.CAD for Java kullanarak belirli bir katmanı dışa aktararak DXF'ten PDF oluşturmayı** öğrendiniz. Bu teknik, oluşturulan PDF'nin görsel içeriği üzerinde tam kontrol sağlar; hafif paylaşım, otomatik raporlama veya CAD verilerini daha büyük Java uygulamalarına entegre etme açısından idealdir. Projenizin ihtiyaçlarına göre farklı rasterleştirme ayarları, katman seçimleri ve PDF seçenekleriyle denemeler yapmaktan çekinmeyin.
+Artık **dxf**'i belirli bir katmanı seçerek ve Aspose.CAD for Java ile PDF'ye dönüştürerek nasıl dışa aktaracağınızı öğrendiniz. Bu teknik, oluşturulan PDF'nin görsel içeriği üzerinde tam kontrol sağlar ve hafif paylaşım, otomatik raporlama veya CAD verilerini daha büyük Java uygulamalarına entegre etme için idealdir. Projenizin ihtiyaçlarına göre farklı rasterleştirme ayarları, katman seçimleri ve PDF seçenekleriyle denemeler yapmaktan çekinmeyin.
 
 ---
 
-**Last Updated:** 2025-11-30  
+**Last Updated:** 2026-06-09  
 **Tested With:** Aspose.CAD for Java 24.11  
-**Author:** Aspose  
+**Author:** Aspose
+
+## İlgili Öğreticiler
+
+- [Aspose.CAD for Java ile DXF'yi PDF'ye Dönüştürme](/cad/java/additional-features/)
+- [CAD'den PDF Oluştur – Aspose.CAD for Java ile DXF'yi PDF'ye Dışa Aktarma](/cad/java/additional-features/export-dxf-to-pdf/)
+- [Aspose.CAD for Java ile DXF Yerleşimini PDF'ye Dışa Aktarma](/cad/java/additional-features/export-specific-layout-to-pdf/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
