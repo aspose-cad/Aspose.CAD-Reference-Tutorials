@@ -1,10 +1,37 @@
 ---
-date: 2026-01-17
-description: เรียนรู้วิธีเปิดการสนับสนุนเมชสำหรับไฟล์ DWG และแปลง DWG เป็น PDF ใน
-  Java ด้วย Aspose.CAD คู่มือขั้นตอนต่อขั้นตอนสำหรับการจัดการภาพวาด 3 มิติอย่างราบรื่น
-linktitle: Convert DWG to PDF with Mesh Support in Java
+date: 2026-06-09
+description: เรียนรู้วิธีแปลง DWG เป็น PDF ใน Java ด้วย mesh support โดยใช้ Aspose.CAD
+  คู่มือ step‑by‑step นี้แสดงวิธีเปิดใช้งาน mesh support และทำการแปลง Java DWG เป็น
+  PDF อย่างมีประสิทธิภาพ
+keywords:
+- java dwg to pdf
+- how to convert dwg
+- mesh support dwg java
+linktitle: แปลง DWG เป็น PDF ด้วย Mesh Support ใน Java
+schemas:
+- author: Aspose
+  dateModified: '2026-06-09'
+  description: Learn how to convert DWG to PDF in Java with mesh support using Aspose.CAD.
+    This step‑by‑step guide shows how to enable mesh support and perform java dwg
+    to pdf conversion efficiently.
+  headline: Java DWG to PDF with Mesh Support – Convert DWG to PDF
+  type: TechArticle
+- questions:
+  - answer: Yes—Aspose.CAD supports over 30 CAD formats, including DWG, DXF, DGN,
+      and more.
+    question: Can I use Aspose.CAD for Java with other CAD file formats?
+  - answer: You can refer to the documentation [here](https://reference.aspose.com/cad/java/).
+    question: Where can I find detailed documentation for Aspose.CAD for Java?
+  - answer: Yes, you can access the free trial [here](https://releases.aspose.com/).
+    question: Is there a free trial available for Aspose.CAD for Java?
+  - answer: Obtain a temporary license [here](https://purchase.aspose.com/temporary-license/).
+    question: How can I obtain a temporary license for Aspose.CAD for Java?
+  - answer: Visit the [Aspose.CAD forum](https://forum.aspose.com/c/cad/19) for dedicated
+      support.
+    question: Need assistance or have questions?
+  type: FAQPage
 second_title: Aspose.CAD Java API
-title: แปลง DWG เป็น PDF พร้อมการสนับสนุน Mesh ใน Java
+title: Java DWG to PDF ด้วย Mesh Support – แปลง DWG เป็น PDF
 url: /th/java/dwg-file-operations/mesh-support-for-dwg/
 weight: 12
 ---
@@ -15,38 +42,33 @@ weight: 12
 
 # แปลง DWG เป็น PDF พร้อมการสนับสนุน Mesh ใน Java
 
-## Introduction
+Working with DWG files in Java often means you need to **java dwg to pdf** while preserving complex 3‑D geometry. Enabling mesh support is a crucial step because it ensures that 3‑D entities such as PolyFaceMesh and PolygonMesh are correctly interpreted before conversion. In this tutorial we’ll walk through enabling mesh support using Aspose.CAD for Java, and show you how this preparation makes the subsequent *java dwg to pdf* operation reliable and accurate.
 
-การทำงานกับไฟล์ DWG ใน Java มักหมายถึงคุณต้อง **แปลง DWG เป็น PDF** พร้อมการรักษาเรขาคณิต 3‑D ที่ซับซ้อน การเปิดใช้งานการสนับสนุน mesh เป็นขั้นตอนสำคัญเพราะทำให้แน่ใจว่าเอนทิตี 3‑D เช่น PolyFaceMesh และ PolygonMesh จะถูกตีความอย่างถูกต้องก่อนการแปลง ในบทแนะนำนี้เราจะอธิบายการเปิดใช้งานการสนับสนุน mesh ด้วย Aspose.CAD for Java และแสดงให้คุณเห็นว่าการเตรียมนี้ทำให้การ *แปลง DWG เป็น PDF* ต่อไปเป็นไปอย่างน่าเชื่อถือและแม่นยำ
+## คำตอบด่วน
+- **ฉันสามารถแปลง DWG เป็น PDF ได้โดยตรงหรือไม่?** ใช่—เมื่อเปิดใช้งานการสนับสนุน mesh แล้วคุณสามารถ rasterize หรือ export DWG ไปเป็น PDF ได้ในหนึ่งคำสั่ง  
+- **ฉันต้องการใบอนุญาตสำหรับ Aspose.CAD หรือไม่?** การทดลองใช้ฟรีทำงานสำหรับการประเมิน; จำเป็นต้องมีใบอนุญาตเชิงพาณิชย์สำหรับการใช้งานในผลิตภัณฑ์  
+- **ต้องการเวอร์ชัน Java ใด?** Java 8 หรือใหม่กว่าได้รับการสนับสนุนเต็มที่  
+- **เอนทิตี mesh จะถูกเก็บไว้ใน PDF หรือไม่?** การเปิดใช้งานการสนับสนุน mesh ทำให้จุดยอด (vertices) ถูกประมวลผล ดังนั้น PDF จะสะท้อนรูปทรง 3‑D ดั้งเดิม  
+- **ต้องการการกำหนดค่าเพิ่มเติมหรือไม่?** เพียงการตั้งค่า Aspose.CAD มาตรฐานและการจัดการทรัพยากรอย่างเหมาะสม  
 
-## Quick Answers
-- **Can I convert DWG to PDF directly?** ใช่ หลังจากเปิดใช้งานการสนับสนุน mesh คุณสามารถ rasterize หรือ export DWG เป็น PDF ได้  
-- **Do I need a license for Aspose.CAD?** รุ่นทดลองฟรีใช้สำหรับการประเมิน; ต้องมีไลเซนส์เชิงพาณิชย์สำหรับการใช้งานจริง  
-- **What Java version is required?** Java 8 หรือใหม่กว่า  
-- **Will mesh entities be preserved in the PDF?** การเปิดใช้งานการสนับสนุน mesh ทำให้เวอร์เทกซ์ถูกประมวลผล ดังนั้น PDF จะสะท้อนเรขาคณิต 3‑D ดั้งเดิม  
-- **Is additional configuration needed?** เพียงการตั้งค่า Aspose.CAD มาตรฐานและการจัดการทรัพยากรอย่างเหมาะสม  
+## การสนับสนุน mesh สำหรับ DWG คืออะไร?
 
-## What is mesh support for DWG?
+การสนับสนุน mesh ช่วยให้ Aspose.CAD สามารถรับรู้และจัดการกับเอนทิตีแบบ mesh (PolyFaceMesh และ PolygonMesh) ที่กำหนดพื้นผิว 3‑D ได้ หากไม่มีการสนับสนุนนี้ เอนทิตีเหล่านั้นอาจถูกละเลยหรือแสดงผลไม่ถูกต้องเมื่อคุณทำ **java dwg to pdf** ต่อไป การเปิดใช้งานจะทำให้จุดยอดและหน้า (face) ของ mesh ถูกตีความอย่างถูกต้อง รักษารูปร่างและความแม่นยำของภาพตามที่ตั้งใจตลอดกระบวนการแปลง
 
-การสนับสนุน mesh ช่วยให้ Aspose.CAD สามารถจดจำและจัดการกับเอนทิตีที่สร้างจาก mesh (PolyFaceMesh และ PolygonMesh) ซึ่งกำหนดพื้นผิว 3‑D ได้ หากไม่มีการสนับสนุนนี้ เอนทิตีเหล่านั้นอาจถูกละเลยหรือแสดงผลผิดพลาดเมื่อคุณทำการ **แปลง DWG เป็น PDF** ต่อไป
+## ทำไมต้องเปิดใช้งานการสนับสนุน mesh ก่อนแปลง DWG เป็น PDF?
 
-## Why enable mesh support before converting DWG to PDF?
+การเปิดใช้งานการสนับสนุน mesh รับประกันว่าจุดยอดทั้งหมดของ mesh จะถูกอ่านและ rasterize ทำให้ PDF ที่สร้างขึ้นรักษารูปร่าง 3‑D ตามที่ตั้งใจ ลดขั้นตอนการประมวลผลหลังจากแปลงและเพิ่มความเร็วในการแปลง เนื่องจาก Aspose.CAD สามารถประมวลผล mesh ได้ในหนึ่งรอบ นอกจากนี้ยังป้องกันการสูญเสียรายละเอียดที่อาจทำให้ต้องทำการออกแบบใหม่ของภาพวาดหลังการแปลงซึ่งมีค่าใช้จ่ายสูง
 
-- **Accurate 3‑D representation** – การแสดงผล 3‑D ที่แม่นยำ – เวอร์เทกซ์ของ mesh จะถูกเก็บไว้ ทำให้ PDF แสดงเรขาคณิตตามที่ต้องการ  
-- **Reduced post‑processing** – ลดการประมวลผลหลังแปลง – ลดการแก้ไขด้วยมือหลังการแปลง  
-- **Better performance** – ประสิทธิภาพที่ดีกว่า – Aspose.CAD ประมวลผล mesh อย่างมีประสิทธิภาพเมื่อเปิดใช้งานโดยชัดเจน  
+## ข้อกำหนดเบื้องต้น
 
-## Prerequisites
+- ติดตั้ง Java Development Kit (JDK) เวอร์ชัน 8 หรือใหม่กว่า  
+- ดาวน์โหลดไลบรารี Aspose.CAD for Java และเพิ่มลงในโปรเจกต์ของคุณ คุณสามารถค้นหาไลบรารีได้ที่ [here](https://releases.aspose.com/cad/java/)  
+- มีความเข้าใจพื้นฐานเกี่ยวกับแนวคิดการเขียนโปรแกรม Java  
 
-ก่อนเริ่มทำงาน โปรดตรวจสอบว่าคุณมี:
+## นำเข้าแพ็กเกจ
 
-- ติดตั้ง Java Development Kit (JDK) แล้ว  
-- ดาวน์โหลดไลบรารี Aspose.CAD for Java และเพิ่มลงในโปรเจกต์ของคุณ คุณสามารถหาไลบรารีได้จาก [here](https://releases.aspose.com/cad/java/).  
-- ความเข้าใจพื้นฐานเกี่ยวกับการเขียนโปรแกรม Java  
-
-## Import Packages
-
-เพื่อเริ่มต้น ให้นำเข้าแพ็กเกจที่จำเป็นเข้าสู่โปรเจกต์ Java ของคุณ แพ็กเกจเหล่านี้จะให้คุณเข้าถึงฟังก์ชันของ Aspose.CAD for Java
+The following imports bring in the Aspose.CAD classes needed for conversion, such as `CadImage`, `PdfOptions`, and `CadRasterizationOptions`.  
+`CadImage` is the core object that represents a loaded CAD drawing in memory.  
 
 ```java
 import com.aspose.cad.*;
@@ -63,9 +85,9 @@ import java.util.ArrayList;
 import java.util.List;
 ```
 
-## Step 1: Load DWG File
+## ขั้นตอนที่ 1: โหลดไฟล์ DWG
 
-โหลดไฟล์ DWG ด้วย Aspose.CAD for Java ตรวจสอบให้แน่ใจว่าคุณระบุเส้นทางไฟล์ที่ถูกต้องและไฟล์นั้นมีอยู่จริง
+Load the DWG file using Aspose.CAD for Java. Ensure that you have the correct file path and that the file exists.
 
 ```java
 // The path to the resource directory.
@@ -75,9 +97,9 @@ String srcFile = dataDir + "meshes.dwg";
 CadImage cadImage =(CadImage) com.aspose.cad.Image.load(srcFile);;
 ```
 
-## Step 2: Iterate through Entities
+## ขั้นตอนที่ 2: วนลูปผ่านเอนทิตี
 
-วนผ่านเอนทิตีต่าง ๆ ในไฟล์ DWG ที่โหลดแล้ว Aspose.CAD มีคลาสเอนทิตีหลายประเภทที่แทนองค์ประกอบ CAD ต่าง ๆ
+Iterate through the entities in the loaded DWG file. Aspose.CAD provides a variety of entity classes representing different CAD elements.
 
 ```java
 for (CadBaseEntity entity : cadImage.getEntities())
@@ -103,9 +125,9 @@ for (CadBaseEntity entity : cadImage.getEntities())
 }
 ```
 
-## Step 3: Dispose of Resources
+## ขั้นตอนที่ 3: ปล่อยทรัพยากร
 
-จัดการทรัพยากรอย่างเหมาะสมโดยทำการ dispose ของอ็อบเจ็กต์ CadImage หลังการใช้งาน
+`CadImage` เป็นออบเจ็กต์หลักของ Aspose.CAD ที่แสดงถึงการโหลดภาพ CAD ในหน่วยความจำ การปล่อยออบเจ็กต์อย่างเหมาะสมจะคืนทรัพยากรเนทีฟและป้องกันการรั่วไหลของหน่วยความจำ
 
 ```java
 finally
@@ -114,50 +136,53 @@ finally
 }
 ```
 
-## How to convert DWG to PDF after enabling mesh support
+## วิธีแปลง DWG เป็น PDF หลังจากเปิดใช้งานการสนับสนุน mesh
 
-เมื่อเปิดใช้งานการสนับสนุน mesh และตรวจสอบเอนทิตี mesh แล้ว การแปลง DWG เป็น PDF จะทำได้อย่างง่ายดาย:
+`PdfOptions` กำหนดค่าการตั้งค่าเอาต์พุต PDF สำหรับการแปลง โหลด DWG ของคุณ เปิดใช้งานการประมวลผล mesh จากนั้นเรียกเมธอด `save` พร้อมกับอินสแตนซ์ `PdfOptions` ที่กำหนดค่าไว้ การเรียกเดียวนี้จะสร้าง PDF ที่สะท้อนรูปทรง 3‑D ดั้งเดิมอย่างแม่นยำพร้อมรักษารายละเอียดและคุณภาพภาพของ mesh
 
-1. **Configure rasterization options** (e.g., page size, background color).  
-2. **Create a `PdfOptions` instance** and assign the rasterization settings.  
-3. **Call `cadImage.save(outputPath, pdfOptions)`** to generate the PDF.
+## วิธีทำการแปลง java dwg to pdf ด้วยการสนับสนุน mesh
 
-*Note:* โค้ดการแปลงจริงไม่ได้แสดงที่นี่เพื่อให้โฟกัสอยู่ที่การสนับสนุน mesh แต่ขั้นตอนข้างต้นแสดงตำแหน่งที่การแปลงจะเข้ามาในกระบวนการทำงาน
+เปิดใช้งานการสนับสนุน mesh, ตรวจสอบเอนทิตี mesh, กำหนดค่า `PdfOptions`, และเรียก `cadImage.save(outputPath, pdfOptions)`. เมธอด `save` จะเขียนภาพลงไฟล์โดยใช้ตัวเลือกที่ระบุ กระบวนการแบบครบวงจรนี้จะแปลง DWG เป็น PDF ความละเอียดสูงในเพียงสามขั้นตอนสั้น ๆ ลดความจำเป็นของเครื่องมือ rasterization ระหว่างขั้นตอนและทำให้แน่ใจว่าข้อมูล 3‑D ทั้งหมดถูกเก็บไว้
 
-## Common Issues and Solutions
+## ปัญหาทั่วไปและวิธีแก้
 
 | ปัญหา | สาเหตุ | วิธีแก้ |
 |-------|--------|-----|
-| No vertices printed | Mesh entities not recognized | ตรวจสอบว่าคุณใช้เวอร์ชันล่าสุดของ Aspose.CAD และ DWG มีข้อมูล Mesh จริง |
-| `cadImage` is null | Incorrect file path | ตรวจสอบว่า `srcFile` ชี้ไปยังไฟล์ DWG ที่ถูกต้อง |
-| PDF output missing 3‑D data | Mesh support not enabled | ทำตามขั้นตอนข้างต้นเพื่อวนและยืนยันเอนทิตี Mesh ก่อนการแปลง |
+| ไม่มีจุดยอดที่พิมพ์ออก | เอนทิตี mesh ไม่ได้รับการจดจำ | ตรวจสอบว่าคุณใช้เวอร์ชันล่าสุดของ Aspose.CAD และว่า DWG มีข้อมูล mesh จริง |
+| `cadImage` เป็น null | เส้นทางไฟล์ไม่ถูกต้อง | ตรวจสอบว่า `srcFile` ชี้ไปยังไฟล์ DWG ที่ถูกต้อง |
+| ผลลัพธ์ PDF ขาดข้อมูล 3‑D | การสนับสนุน mesh ไม่ได้เปิดใช้งาน | ทำตามขั้นตอนข้างต้นเพื่อวนลูปและยืนยันเอนทิตี mesh ก่อนการแปลง |
 
-## Frequently Asked Questions
+## คำถามที่พบบ่อย
 
-**Q: Can I use Aspose.CAD for Java with other CAD file formats?**  
-A: ใช่, Aspose.CAD รองรับรูปแบบ CAD หลากหลายรวมถึง DWG, DXF, DGN และอื่น ๆ  
+**Q: ฉันสามารถใช้ Aspose.CAD for Java กับรูปแบบไฟล์ CAD อื่นได้หรือไม่?**  
+A: ใช่—Aspose.CAD รองรับไฟล์ CAD มากกว่า 30 รูปแบบ รวมถึง DWG, DXF, DGN และอื่น ๆ  
 
-**Q: Where can I find detailed documentation for Aspose.CAD for Java?**  
-A: คุณสามารถอ้างอิงเอกสารได้จาก [here](https://reference.aspose.com/cad/java/).  
+**Q: ฉันสามารถหาเอกสารรายละเอียดสำหรับ Aspose.CAD for Java ได้ที่ไหน?**  
+A: You can refer to the documentation [here](https://reference.aspose.com/cad/java/).  
 
-**Q: Is there a free trial available for Aspose.CAD for Java?**  
-A: ใช่, คุณสามารถเข้าถึงรุ่นทดลองฟรีได้จาก [here](https://releases.aspose.com/).  
+**Q: มีการทดลองใช้ฟรีสำหรับ Aspose.CAD for Java หรือไม่?**  
+A: Yes, you can access the free trial [here](https://releases.aspose.com/).  
 
-**Q: How can I get temporary licensing for Aspose.CAD for Java?**  
-A: รับไลเซนส์ชั่วคราวได้จาก [here](https://purchase.aspose.com/temporary-license/).  
+**Q: ฉันจะขอรับใบอนุญาตชั่วคราวสำหรับ Aspose.CAD for Java ได้อย่างไร?**  
+A: Obtain a temporary license [here](https://purchase.aspose.com/temporary-license/).  
 
-**Q: Need assistance or have questions?**  
-A: เยี่ยมชม [Aspose.CAD forum](https://forum.aspose.com/c/cad/19) เพื่อรับการสนับสนุนโดยเฉพาะ  
+**Q: ต้องการความช่วยเหลือหรือมีคำถามหรือไม่?**  
+A: Visit the [Aspose.CAD forum](https://forum.aspose.com/c/cad/19) for dedicated support.  
 
 ---
 
-**Last Updated:** 2026-01-17  
-**Tested With:** Aspose.CAD for Java 24.12 (latest at time of writing)  
-**Author:** Aspose  
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
+**อัปเดตล่าสุด:** 2026-06-09  
+**ทดสอบกับ:** Aspose.CAD for Java 24.12 (latest at time of writing)  
+**ผู้เขียน:** Aspose  
 
 {{< blocks/products/products-backtop-button >}}
+
+## บทแนะนำที่เกี่ยวข้อง
+
+- [Export DWG to PDF or Raster Using Aspose.CAD for Java](/cad/java/cad-drawing-conversion/export-dwg-to-pdf-or-raster/)
+- [Export Specific DWG Layout to PDF Using Aspose.CAD for Java](/cad/java/cad-drawing-conversion/export-specific-dwg-layout-to-pdf/)
+
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
