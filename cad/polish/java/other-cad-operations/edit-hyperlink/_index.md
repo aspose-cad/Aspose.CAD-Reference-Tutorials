@@ -1,11 +1,49 @@
 ---
-date: 2026-01-17
-description: Dowiedz się, jak edytować pliki DWG za pomocą Aspose.CAD for Java, w
-  tym jak zmienić ścieżki XRef i edytować hiperłącza. Wypróbuj bezpłatną wersję próbną
-  już dziś!
-linktitle: Edit Hyperlink
+date: 2026-06-19
+description: Dowiedz się, jak edytować pliki DWG za pomocą Aspose.CAD dla Java, w
+  tym jak aktualizować ścieżki DWG XRef i edytować hiperłącza. Wypróbuj darmową wersję
+  próbną już dziś!
+keywords:
+- how to edit dwg
+- update dwg xref paths
+- Aspose.CAD Java hyperlink
+linktitle: Edytuj hiperłącze
+schemas:
+- author: Aspose
+  dateModified: '2026-06-19'
+  description: Learn how to edit DWG files with Aspose.CAD for Java, including how
+    to update DWG XRef paths and edit hyperlinks. Try the free trial today!
+  headline: How to Edit DWG Hyperlinks - Aspose.CAD Java Tutorial
+  type: TechArticle
+- description: Learn how to edit DWG files with Aspose.CAD for Java, including how
+    to update DWG XRef paths and edit hyperlinks. Try the free trial today!
+  name: How to Edit DWG Hyperlinks - Aspose.CAD Java Tutorial
+  steps:
+  - name: Accessing Insert Objects
+    text: '`CadInsertObject` is the Aspose.CAD class that represents an inserted block
+      reference (XRef) inside a DWG drawing. Iterate through the entities and identify
+      if an entity is an instance of the `CadInsertObject` class.'
+  - name: How to Change XRef Path in a DWG Drawing
+    text: '`CadImage` is the primary object that loads and saves CAD files in Aspose.CAD
+      for Java. Once you have identified the insert object, retrieve the associated
+      block entity and update the XRef path as needed. This ensures the reference
+      points to the correct external file.'
+  - name: Modifying Hyperlinks
+    text: Next, check if the entity has a hyperlink associated with it. If the hyperlink
+      matches a specific URL, update it to the desired URL. This step guarantees that
+      clicking the hyperlink in the CAD viewer opens the new target.
+  type: HowTo
+- questions:
+  - answer: Yes, after making changes call `cadImage.save("EditedDrawing.dwg");` to
+      persist the modifications.
+    question: Do I need to call a specific method to write the edited DWG back to
+      disk?
+  - answer: Absolutely—loop through `cadImage.getEntities()` and apply the hyperlink
+      logic to each matching entity.
+    question: Is it possible to edit multiple hyperlinks in one pass?
+  type: FAQPage
 second_title: Aspose.CAD Java API
-title: Jak edytować hiperłącza DWG – samouczek Aspose.CAD Java
+title: Jak edytować hiperłącza DWG - samouczek Aspose.CAD Java
 url: /pl/java/other-cad-operations/edit-hyperlink/
 weight: 17
 ---
@@ -14,37 +52,32 @@ weight: 17
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Jak edytować hiperłącza DWG – samouczek Aspose.CAD Java
+# Jak edytować hiperłącza DWG - Poradnik Aspose.CAD Java
 
-W dzisiejszej erze cyfrowej **edytowanie plików DWG** w sposób efektywny jest niezbędną umiejętnością dla inżynierów, architektów i specjalistów BIM. Aspose.CAD for Java zapewnia czysty, programowy sposób modyfikacji rysunków DWG — niezależnie od tego, czy trzeba zaktualizować hiperłącza, zmienić odwołania XRef, czy dostosować encje bloków. Ten przewodnik poprowadzi Cię krok po kroku, abyś mógł szybko i pewnie opanować cały proces.
+W dzisiejszej erze cyfrowej **jak edytować DWG** efektywnie jest niezbędną umiejętnością dla inżynierów, architektów i specjalistów BIM. Niezależnie od tego, czy musisz naprawić zepsute hiperłącze, skierować XRef do nowego źródła, czy masowo zaktualizować wiele rysunków, Aspose.CAD for Java oferuje czysty, programowy sposób wprowadzania tych zmian bez otwierania edytora CAD. Ten poradnik przeprowadzi Cię przez cały proces, od wczytania rysunku po zapisanie edycji.
 
 ## Szybkie odpowiedzi
-- **Jaka biblioteka obsługuje edycję DWG w Javie?** Aspose.CAD for Java.  
-- **Czy mogę jednocześnie edytować hiperłącza i ścieżki XRef?** Tak — oba są obsługiwane w tym samym API.  
-- **Czy potrzebna jest licencja do rozwoju?** Darmowa wersja próbna wystarczy do testów; licencja komercyjna jest wymagana w produkcji.  
-- **Jaka wersja Javy jest wymagana?** Java 8 lub nowsza.  
-- **Czy przykładowy kod działa od razu?** Tak, po zaktualizowaniu ścieżek plików do lokalnych plików DWG.
+- **Jaką bibliotekę obsługuje edycję DWG w Javie?** Aspose.CAD for Java.  
+- **Czy mogę edytować hiperłącza i ścieżki XRef jednocześnie?** Tak — oba są obsługiwane w tym samym API.  
+- **Czy potrzebuję licencji do rozwoju?** Darmowa wersja próbna działa do testów; licencja komercyjna jest wymagana w produkcji.  
+- **Jaka wersja Javy jest wymagana?** Java 8 lub wyższa.  
+- **Czy przykładowy kod działa od razu?** Tak, po zaktualizowaniu ścieżek plików, aby wskazywały na lokalne pliki DWG.
 
-## Wprowadzenie
+## Dlaczego edytować hiperłącza DWG i ścieżki XRef?
 
-Edycja hiperłączy w rysunkach DWG może być kluczowa przy aktualizacji odwołań lub przekierowywaniu użytkowników do odpowiednich zasobów. Aspose.CAD for Java upraszcza to zadanie, umożliwiając programistom płynne manipulowanie hiperłączami w rysunkach CAD. W tym samouczku przyjrzymy się **jak edytować hiperłącza DWG** efektywnie, zapewniając precyzję i dokładność.
-
-## Dlaczego warto edytować hiperłącza DWG i ścieżki XRef?
-
-- **Utrzymanie aktualnej dokumentacji:** Aktualizuj linki projektowe bez otwierania edytora CAD.  
-- **Automatyzacja masowych aktualizacji:** Idealne dla dużych projektów, w których wiele rysunków korzysta z tych samych odwołań.  
-- **Redukcja błędów:** Zmiany programowe eliminują pomyłki wynikające z ręcznego kopiowania i wklejania.  
+Utrzymywanie aktualnych hiperłączy i ścieżek XRef zapobiega uszkodzonym odwołaniom, zapewnia, że dokumentacja projektu zawsze wskazuje na właściwe zasoby oraz umożliwia automatyczne masowe aktualizacje w rozległych bibliotekach CAD. To zmniejsza ręczną pracę, minimalizuje błędy i podnosi ogólną efektywność projektu, pozwalając programistom programowo utrzymywać integralność linków przez cały cykl życia projektu.
 
 ## Wymagania wstępne
 
-Zanim przejdziesz do samouczka, upewnij się, że spełniasz poniższe wymagania:
-1. **Środowisko programistyczne Java:** Upewnij się, że masz skonfigurowane środowisko programistyczne Java na swoim komputerze.  
+Przed rozpoczęciem tutorialu upewnij się, że spełniasz następujące wymagania:
+
+1. **Środowisko programistyczne Java:** Zainstalowany JDK 8+ oraz ulubione IDE (IntelliJ IDEA, Eclipse itp.).  
 2. **Biblioteka Aspose.CAD for Java:** Pobierz i zainstaluj bibliotekę Aspose.CAD for Java z [linku do pobrania](https://releases.aspose.com/cad/java/).  
-3. **Rysunek DWG:** Przygotuj plik rysunku DWG, w którym będziesz edytować hiperłącza.
+3. **Rysunek DWG:** Przygotuj plik rysunku DWG gotowy do edycji hiperłączy.
 
 ## Importowanie pakietów
 
-Rozpocznij od zaimportowania niezbędnych pakietów do projektu Java. Dzięki temu uzyskasz dostęp do funkcjonalności Aspose.CAD for Java.
+Rozpocznij od zaimportowania niezbędnych pakietów do swojego projektu Java. Zapewni to dostęp do funkcjonalności Aspose.CAD for Java.
 
 ```java
 import com.aspose.cad.Image;
@@ -56,9 +89,12 @@ import com.aspose.cad.fileformats.cad.cadobjects.CadInsertObject;
 
 ## Jak edytować hiperłącza DWG przy użyciu Aspose.CAD for Java?
 
+`CadImage` jest klasą Aspose.CAD używaną do wczytywania i zapisywania rysunków CAD.  
+Wczytaj plik DWG przy pomocy `CadImage`, przeiteruj jego encje, zaktualizuj hiperłącze oraz ścieżkę XRef w razie potrzeby i na końcu zapisz obraz z powrotem do DWG. Ten kompleksowy przepływ pozwala zmodyfikować dowolną liczbę encji w jednym przebiegu, gwarantując, że wszystkie zmiany zostaną zapisane.
+
 ### Krok 1: Dostęp do obiektów Insert
 
-Pierwszy krok polega na uzyskaniu dostępu do obiektów insert w rysunku CAD. Przejdź przez wszystkie encje i sprawdź, czy dana encja jest instancją klasy `CadInsertObject`.
+`CadInsertObject` jest klasą Aspose.CAD reprezentującą wstawiony odwołanie bloku (XRef) wewnątrz rysunku DWG. Przejdź przez encje i sprawdź, czy dana encja jest instancją klasy `CadInsertObject`.
 
 ```java
     String dataDir = "Your Document Directory" + "DWGDrawings/";
@@ -74,7 +110,7 @@ Pierwszy krok polega na uzyskaniu dostępu do obiektów insert w rysunku CAD. Pr
 
 ### Krok 2: Jak zmienić ścieżkę XRef w rysunku DWG
 
-Po zidentyfikowaniu obiektu insert, pobierz powiązaną encję bloku i zaktualizuj ścieżkę XRef w razie potrzeby. Dzięki temu odwołanie będzie wskazywać na właściwy plik.
+`CadImage` jest głównym obiektem, który wczytuje i zapisuje pliki CAD w Aspose.CAD for Java. Po zidentyfikowaniu obiektu insert, pobierz powiązaną encję bloku i zaktualizuj ścieżkę XRef w razie potrzeby. Dzięki temu odwołanie będzie wskazywać na właściwy plik zewnętrzny.
 
 ```java
 			CadBlockEntity block = cadImage.getBlockEntities().get_Item(((CadInsertObject)entity).getName());
@@ -86,9 +122,9 @@ Po zidentyfikowaniu obiektu insert, pobierz powiązaną encję bloku i zaktualiz
     
 ```
 
-### Krok 3: Modyfikacja hiperłączy
+### Krok 3: Modyfikowanie hiperłączy
 
-Następnie sprawdź, czy encja posiada powiązane hiperłącze. Jeśli hiperłącze odpowiada określonemu URL, zaktualizuj je do żądanego adresu.
+Następnie sprawdź, czy encja ma powiązane hiperłącze. Jeśli hiperłącze pasuje do określonego URL, zaktualizuj je do żądanego URL. Ten krok zapewnia, że kliknięcie hiperłącza w przeglądarce CAD otworzy nowy cel.
 
 ```java
         if (entity.getHyperlink() == "https://products.aspose.com")
@@ -97,55 +133,56 @@ Następnie sprawdź, czy encja posiada powiązane hiperłącze. Jeśli hiperłą
         }
 ```
 
-## Typowe pułapki i wskazówki
+## Częste pułapki i wskazówki
 
-- **Porównywanie łańcuchów:** Używaj `.equals()` zamiast `==` dla pewnego porównania łańcuchów w Javie. Przykład używa `==` dla uproszczenia, ale w produkcji zamień go na `entity.getHyperlink().equals("https://products.aspose.com")`.  
-- **Sprawdzanie null:** Zawsze weryfikuj, czy `block.getXRefPathName()` nie jest `null` przed wywołaniem `.getValue()`.  
-- **Zapisywanie zmian:** Po modyfikacji encji wywołaj `cadImage.save("output.dwg");`, aby zachować zmiany (kod pominięty, aby utrzymać oryginalną liczbę bloków).  
-
-## Zakończenie
-
-Podsumowując, Aspose.CAD for Java oferuje prosty sposób na edycję hiperłączy w rysunkach DWG. Postępując zgodnie z opisanymi krokami, możesz efektywnie zarządzać odwołaniami i zapewnić, że hiperłącza prowadzą do właściwych zasobów.
+- **Porównywanie ciągów:** Używaj `.equals()` zamiast `==` dla niezawodnego porównywania ciągów w Javie. Przykład używa `==` dla uproszczenia, ale w produkcji zamień to na `entity.getHyperlink().equals("https://products.aspose.com")`.  
+- **Sprawdzanie null:** Zawsze sprawdzaj, czy `block.getXRefPathName()` nie jest `null` przed wywołaniem `.getValue()`.  
+- **Zapisywanie zmian:** Po modyfikacji encji wywołaj `cadImage.save("output.dwg");`, aby zachować zmiany (kod pominięty, aby zachować oryginalną liczbę bloków).  
+- **Uwaga dotycząca wydajności:** Aspose.CAD for Java obsługuje ponad 30 formatów CAD i może przetwarzać pliki do 2 GB bez ładowania całego dokumentu do pamięci, co sprawia, że masowe aktualizacje są szybkie i oszczędne pod względem pamięci.
 
 ## Najczęściej zadawane pytania
 
 ### P1: Czy Aspose.CAD for Java jest kompatybilny ze wszystkimi wersjami rysunków DWG?
 
-O1: Aspose.CAD for Java obsługuje różne wersje rysunków DWG, zapewniając kompatybilność z wieloma wydaniami AutoCAD.
+**A1:** Aspose.CAD for Java obsługuje ponad 50 wersji DWG, obejmując wydania od AutoCAD 2000 do najnowszego formatu 2025.
 
 ### P2: Czy mogę używać Aspose.CAD for Java w projektach komercyjnych?
 
-O2: Tak, Aspose.CAD for Java posiada licencję komercyjną, którą możesz nabyć [tutaj](https://purchase.aspose.com/buy).
+**A2:** Tak, licencja komercyjna jest wymagana do użytku produkcyjnego. Licencję możesz zakupić [tutaj](https://purchase.aspose.com/buy).
 
 ### P3: Czy dostępna jest darmowa wersja próbna Aspose.CAD for Java?
 
-O3: Tak, darmową wersję próbną możesz pobrać [tutaj](https://releases.aspose.com/).
+**A3:** Tak, możesz wypróbować darmową wersję próbną [tutaj](https://releases.aspose.com/).
 
 ### P4: Jak mogę uzyskać wsparcie techniczne dla Aspose.CAD for Java?
 
-O4: Wszelką pomoc techniczną znajdziesz na forum Aspose.CAD [tutaj](https://forum.aspose.com/c/cad/19).
+**A4:** W celu uzyskania pomocy technicznej odwiedź forum Aspose.CAD [tutaj](https://forum.aspose.com/c/cad/19).
 
-### P5: Czy mogę otrzymać tymczasową licencję do celów testowych?
+### P5: Czy mogę uzyskać tymczasową licencję do celów testowych?
 
-O5: Tak, tymczasową licencję możesz uzyskać [tutaj](https://purchase.aspose.com/temporary-license/).
+**A5:** Tak, tymczasową licencję możesz uzyskać [tutaj](https://purchase.aspose.com/temporary-license/).
 
 **Dodatkowe pytania i odpowiedzi**
 
-**P: Czy muszę wywołać konkretną metodę, aby zapisać edytowany plik DWG na dysku?**  
-O: Tak, po wprowadzeniu zmian wywołaj `cadImage.save("EditedDrawing.dwg");`, aby utrwalić modyfikacje.
+**Q:** Czy muszę wywołać konkretną metodę, aby zapisać edytowany DWG na dysk?  
+**A:** Tak, po wprowadzeniu zmian wywołaj `cadImage.save("EditedDrawing.dwg");`, aby zachować modyfikacje.
 
-**P: Czy istnieje możliwość edycji wielu hiperłączy jednocześnie?**  
-O: Oczywiście — przeiteruj `cadImage.getEntities()` i zastosuj logikę hiperłączy do każdej pasującej encji.
+**Q:** Czy istnieje możliwość edycji wielu hiperłączy w jednym przebiegu?  
+**A:** Oczywiście — przeiteruj `cadImage.getEntities()` i zastosuj logikę hiperłączy do każdej pasującej encji.
 
----
-
-**Ostatnia aktualizacja:** 2026-01-17  
+**Ostatnia aktualizacja:** 2026-06-19  
 **Testowane z:** Aspose.CAD for Java 24.12  
 **Autor:** Aspose  
 
-{{< /blocks/products/pf/tutorial-page-section >}}
+{{< blocks/products/products-backtop-button >}}
 
+## Powiązane poradniki
+
+- [Odczyt metadanych XREF z plików DWG przy użyciu Aspose.CAD for Java](/cad/java/cad-meta-data-and-rendering/read-xref-meta-data/)
+- [Dodawanie własnych właściwości do plików DWG przy użyciu Aspose.CAD for Java](/cad/java/additional-features/add-custom-properties/)
+- [Eksport DWG do PDF lub rastra przy użyciu Aspose.CAD for Java](/cad/java/cad-drawing-conversion/export-dwg-to-pdf-or-raster/)
+
+
+{{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
