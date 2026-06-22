@@ -18,38 +18,38 @@ weight: 17
 
 ## Introduction
 
-Si vous êtes développeur Java travaillant avec des dessins CAD, vous savez que **comment exporter des fichiers dxf** avec précision peut faire ou défaire un projet. Que vous génériez des rapports d'ingénierie, partagiez des conceptions avec des clients ou automatisiez des conversions par lots, une bibliothèque Java fiable de conversion PDF est indispensable. Dans ce tutoriel, nous vous guiderons à travers **la création d'un PDF à partir de fichiers de mise en page dxf**, le contrôle des dimensions de la page et le maintien de la qualité vectorielle avec **Aspose.CAD pour Java**.
+Si vous êtes développeur Java travaillant avec des dessins CAD, vous savez que **comment exporter des fichiers dxf** avec précision peut faire ou défaire un projet. Que vous génériez des rapports d'ingénierie, partagez des conceptions avec des clients ou automatisez des conversions par lots, une bibliothèque Java fiable de conversion PDF est indispensable. Dans ce tutoriel, nous vous guiderons à travers **la création d'un PDF à partir de fichiers de mise en page dxf**, le contrôle des dimensions de la page et le maintien de la qualité vectorielle avec **Aspose.CAD pour Java**.
 
-## Quick Answers
+## Réponses rapides
 - **Quelle est la bibliothèque principale ?** Aspose.CAD pour Java, une bibliothèque Java dédiée à la conversion PDF pour le CAD.
 - **Puis‑je choisir une mise en page spécifique ?** Oui – utilisez `CadRasterizationOptions.setLayouts()` pour cibler un nom de mise en page.
-- **Comment définir la taille de la page ?** Ajustez `setPageWidth()` et `setPageHeight()` dans les options de rasterisation (par ex., 1600 × 1600).
-- **Ai‑je besoin d’une licence pour la production ?** Une licence commerciale est requise pour une utilisation en production ; une version d’essai gratuite est disponible.
-- **Quelle version de Java est prise en charge ?** Java 8 et supérieur (JDK 1.8+).
+- **Comment définir la taille de la page ?** Ajustez `setPageWidth()` et `setPageHeight()` dans les options de rastérisation (par ex., 1600×1600).
+- **Ai‑je besoin d’une licence pour la production ?** Une licence commerciale est requise pour une utilisation en production; une version d’essai gratuite est disponible.
+- **Quelle version de Java est prise en charge ?** Java8 et supérieur (JDK 1.8+).
 
-## Comment créer un PDF à partir d’une mise en page DXF ?
+## Comment créer un PDF à partir d’une mise en page DXF ?
 
-Exporter un fichier DXF signifie convertir ses données vectorielles en un autre format—le plus souvent PDF—tout en préservant les calques, les épaisseurs de ligne et les informations de mise en page. Aspose.CAD se charge du travail lourd, vous permettant de vous concentrer sur la logique métier plutôt que sur l’analyse bas‑niveau du fichier.
+Exporter un fichier DXF signifie convertir ses données vectorielles dans un autre format—le plus souvent PDF—tout en préservant les calques, les épaisseurs de ligne et les informations de mise en page. Aspose.CAD se charge du travail lourd, vous permettant de vous concentrer sur la logique métier plutôt que sur l’analyse bas‑niveau du fichier.
 
-## Pourquoi utiliser Aspose.CAD pour Java ?
+## Pourquoi utiliser Aspose.CAD pour Java ?
 
-- **Support CAD complet** – Gère DWG, DXF, DWF, et plus.
-- **Aucune dépendance externe** – Pure Java, pas de DLL natives.
-- **Rasterisation précise** – Choisissez une sortie vectorielle ou raster, définissez le DPI, la taille de la page et la mise en page.
+- **Support CAO complet** – Gère DWG, DXF, DWF, et plus.
+- **Aucune dépendance externe** – Java pur, pas de DLL natives.
+- **Rasterisation précise** – Choisissez une sortie vectorielle ou raster, définissant le DPI, la taille de la page et la mise en page.
 - **Haute performance** – Optimisé pour le traitement par lots et les scénarios côté serveur.
 - **Export dxf vers pdf** en une seule ligne de code, ce qui le rend idéal pour les flux de travail **java convert cad pdf**.
 
 ## Prérequis
 
-Avant de commencer, assurez‑vous d’avoir :
+Avant de commencer, assurez-vous d’avoir :
 
-1. **Java Development Kit (JDK)** – Java 8 ou ultérieur. Téléchargez‑le depuis [Oracle](https://www.oracle.com/java/technologies/javase-downloads.html).
+1. **Java Development Kit (JDK)** – Java8 ou ultérieurement. Téléchargez‑le depuis [Oracle](https://www.oracle.com/java/technologies/javase-downloads.html).
 2. **Aspose.CAD pour Java** – Récupérez le JAR le plus récent depuis la [page de téléchargement Aspose.CAD](https://releases.aspose.com/cad/java/).
 3. Un IDE ou un outil de construction (Maven/Gradle) pour ajouter le JAR Aspose.CAD à votre classpath de projet.
 
-## Import Namespaces
+## Importer des espaces de noms
 
-Tout d’abord, importez les classes dont vous aurez besoin. Ces imports vous donnent accès au chargement d’image, aux options de rasterisation et aux paramètres de sortie PDF.
+Tout d’abord, importez les cours dont vous aurez besoin. Ces importations vous donnent accès au chargement d’image, aux options de rastérisation et aux paramètres de sortie PDF.
 
 ```java
 import com.aspose.cad.Image;

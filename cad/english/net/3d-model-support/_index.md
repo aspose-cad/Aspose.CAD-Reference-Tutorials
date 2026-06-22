@@ -83,13 +83,6 @@ By following this guide you now know **how to import OBJ into CAD**, how to **co
 ### [Supporting OBJ Format in Aspose.CAD - Tutorial](./supporting-obj-format-in-aspose-cad/)
 Unlock the potential of Aspose.CAD for .NET. Learn how to seamlessly support OBJ format in your CAD applications with this step-by-step tutorial.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Frequently Asked Questions
 
 **Q: Can I import OBJ files that contain multiple objects?**  
@@ -112,3 +105,10 @@ A: A commercial license is required for production deployments; a free trial can
 **Last Updated:** 2026-02-04  
 **Tested With:** Aspose.CAD for .NET 24.11  
 **Author:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

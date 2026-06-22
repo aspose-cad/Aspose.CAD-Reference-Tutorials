@@ -125,39 +125,39 @@ image.save(output, jpegOptions);
 > **What just happened?**  
 > การ rasterize เลย์เอาต์ DXF ด้วยตัวกรองเลเยอร์ที่คุณกำหนด, จากนั้นบันทึกเป็นภาพ JPEG คุณภาพสูง
 
-## How to export dxf using Aspose.CAD Java
-The steps above demonstrate a **java convert dxf image** workflow. If you need to generate other formats, simply replace `JpegOptions` with `PngOptions`, `BmpOptions`, `TiffOptions`, or `PdfOptions` while keeping the same rasterization configuration.
+## วิธีส่งออก dxf โดยใช้ Aspose.CAD Java
+ขั้นตอนข้างต้นสาธิตขั้นตอนการทำงาน **java แปลงอิมเมจ dxf** หากคุณต้องการสร้างรูปแบบอื่นๆ เพียงแทนที่ `JpegOptions` ด้วย `PngOptions`, `BmpOptions`, `TiffOptions` หรือ `PdfOptions` โดยที่ยังคงการกำหนดค่าการแรสเตอร์ไว้เหมือนเดิม
 
-## Common Issues & Troubleshooting
-| อาการ | สาเหตุที่เป็นไปได้ | วิธีแก้ |
+## ปัญหาทั่วไปและการแก้ไขปัญหา
+| นั่น | สาเหตุที่ทำให้ | วิธีแก้ |
 |---------|--------------|-----|
-| ภาพว่าง | ไม่ได้เลือกเลเยอร์ | Verify `rasterizationOptions.setLayers()` contains the correct layer names. |
-| ผลลัพธ์ความละเอียดต่ำ | ค่าของ `PageWidth/PageHeight` เล็กเกินไป | Increase dimensions (e.g., 2400 × 2400). |
-| `Unsupported format` exception | ใช้เวอร์ชัน Aspose.CAD เก่ากว่า | Upgrade to the latest library release. |
+| รูปภาพว่าง | คุณสามารถเลือกได้เลย | ตรวจสอบว่า `rasterizationOptions.setLayers()` มีชื่อเลเยอร์ที่ถูกต้อง |
+| ผลลัพธ์ความละเอียดต่ำ | ค่าของ `PageWidth/PageHeight` เล็กเกินไป | เพิ่มขนาด (เช่น 2400×2400) |
+| ข้อยกเว้น `รูปแบบที่ไม่รองรับ` | ใช้ Aspose.CAD เก่าแก่กว่า | อัปเกรดเป็นไลบรารี่รุ่นล่าสุด |
 
-## Frequently Asked Questions  
+## คำถามที่พบบ่อย
 
-**Q: Can I export multiple DXF layouts in one run?**  
-A: Yes. Loop through the desired layer list, adjust `rasterizationOptions.setLayers()` for each iteration, and call `image.save()` with a unique filename.
+**ถาม: ฉันสามารถส่งออกเลย์เอาต์ DXF หลายรายการในการทำงานครั้งเดียวได้หรือไม่?**
+ตอบ: ได้ วนลูปผ่านรายการเลเยอร์ที่ต้องการ ปรับ `rasterizationOptions.setLayers()` สำหรับแต่ละรอบ และเรียก `image.save()` ด้วยชื่อไฟล์ที่ไม่ซ้ำกัน
 
-**Q: Is Aspose.CAD for Java compatible with all Java versions?**  
-A: The library supports Java 8 and newer. Check the official release notes for any version‑specific notes.
+**ถาม: Aspose.CAD สำหรับ Java เข้ากันได้กับ Java ทุกเวอร์ชันหรือไม่?**
+ตอบ: ไลบรารีรองรับ Java 8 และเวอร์ชันที่ใหม่กว่า ตรวจสอบบันทึกการเผยแพร่อย่างเป็นทางการสำหรับหมายเหตุเฉพาะเวอร์ชันใดๆ
 
-**Q: How do I handle errors during conversion?**  
-A: Wrap the loading and saving code in a `try‑catch` block and log `IOException` or `CadException` details.
+**ถาม: ฉันจะจัดการกับข้อผิดพลาดระหว่างการแปลงได้อย่างไร?**
+ตอบ: ห่อโค้ดการโหลดและการบันทึกไว้ในบล็อก `try-catch` และบันทึกรายละเอียด `IOException` หรือ `CadException`
 
-**Q: Besides JPEG, what other image formats can I generate?**  
-A: PNG, BMP, TIFF, and PDF are all supported. Just replace `JpegOptions` with the corresponding options class (`PngOptions`, `BmpOptions`, etc.).
+**ถาม: นอกเหนือจาก JPEG แล้ว ฉันสามารถสร้างรูปแบบภาพอื่นๆ อะไรได้บ้าง?**
+ตอบ: รองรับ PNG, BMP, TIFF และ PDF เพียงแทนที่ `JpegOptions` ด้วยคลาสตัวเลือกที่เกี่ยวข้อง (`PngOptions`, `BmpOptions` เป็นต้น)
 
-**Q: Can I further customize rasterization (e.g., line weight, background color)?**  
-A: Absolutely. `CadRasterizationOptions` provides properties such as `setBackgroundColor()`, `setLineWeight()`, and `setRenderMode()` for fine‑tuned control.
+**ถาม: ฉันสามารถปรับแต่งการแปลงเป็นภาพ (เช่น ความหนาของเส้น สีพื้นหลัง) เพิ่มเติมได้หรือไม่?**
+ตอบ: ได้อย่างแน่นอน `CadRasterizationOptions` มีคุณสมบัติเช่น `setBackgroundColor()`, `setLineWeight()` และ `setRenderMode()` สำหรับการควบคุมที่ละเอียดขึ้น
 
-## Conclusion
-You now have a complete, production‑ready method to **convert a DXF layout to a JPEG** image using Aspose.CAD for Java. By selecting specific layers, configuring rasterization options, and saving with JPEG settings, you can generate high‑quality previews or documentation assets in just a few lines of code.
+## สรุป
+ตอนนี้คุณมีวิธีการที่สมบูรณ์และพร้อมใช้งานสำหรับการผลิตเพื่อ **แปลงเลย์เอาต์ DXF เป็นภาพ JPEG** โดยใช้ Aspose.CAD สำหรับ Java แล้ว ด้วยการเลือกเลเยอร์เฉพาะ การกำหนดค่าตัวเลือกการแปลงเป็นภาพ และการบันทึกด้วยการตั้งค่า JPEG คุณสามารถสร้างภาพตัวอย่างคุณภาพสูงหรือเอกสารประกอบได้ในโค้ดเพียงไม่กี่บรรทัด
 
 ---
 
-**Last Updated:** 2026-02-04  
+**อัปเดตล่าสุด:** 2026-02-04  
 **ทดสอบกับ:** Aspose.CAD for Java 24.12 (latest at time of writing)  
 **ผู้เขียน:** Aspose  
 

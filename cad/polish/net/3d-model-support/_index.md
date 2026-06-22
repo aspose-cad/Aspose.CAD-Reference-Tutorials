@@ -85,13 +85,6 @@ Postępując zgodnie z tym przewodnikiem, teraz wiesz **jak importować OBJ do C
 ### [Obsługa formatu OBJ w Aspose.CAD – Samouczek](./supporting-obj-format-in-aspose-cad/)
 Odblokuj potencjał Aspose.CAD dla .NET. Dowiedz się, jak płynnie obsługiwać format OBJ w aplikacjach CAD dzięki temu szczegółowemu samouczkowi.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Najczęściej zadawane pytania
 
 **Q: Czy mogę importować pliki OBJ zawierające wiele obiektów?**  
@@ -114,3 +107,10 @@ Odblokuj potencjał Aspose.CAD dla .NET. Dowiedz się, jak płynnie obsługiwać
 **Last Updated:** 2026-02-04  
 **Tested With:** Aspose.CAD for .NET 24.11  
 **Author:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

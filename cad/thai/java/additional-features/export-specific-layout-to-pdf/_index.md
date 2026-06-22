@@ -132,19 +132,19 @@ image.save(dataDir + "conic_pyramid_layout_out_.pdf", pdfOptions);
 
 ## คำถามที่พบบ่อย
 
-**Q: Is Aspose.CAD for Java suitable for both beginners and experienced developers?**  
-A: แน่นอน. API นี้ใช้งานง่ายสำหรับผู้เริ่มต้นในขณะเดียวกันก็ให้การปรับแต่งเชิงลึกสำหรับผู้ใช้ระดับสูง.
+**ถาม: Aspose.CAD สำหรับ Java เหมาะสำหรับทั้งผู้เริ่มต้นและนักพัฒนาที่มีประสบการณ์หรือไม่**
+A: แน่นอน. API สามารถตรวจสอบและเรียนรู้เหมือนกันก็ให้ข้อมูลเชิงลึกในระดับสูง
 
-**Q: Can I customize the rasterization options for different layouts?**  
-A: ใช่. ปรับ `CadRasterizationOptions` (ขนาดหน้า, DPI, สีพื้นหลัง) ตาม layout ที่ต้องการ.
+**ถาม: ฉันสามารถปรับแต่งตัวเลือกการแรสเตอร์สำหรับเลย์เอาต์ต่างๆ ได้หรือไม่**
+ตอบ: ใช่. `CadRasterizationOptions` (ขนาดหน้า, DPI, สีงานวิจัย) ตามรูปแบบที่ต้องการ
 
-**Q: Where can I find comprehensive documentation for Aspose.CAD for Java?**  
-A: เอกสารโดยละเอียดสามารถดูได้ [ที่นี่](https://reference.aspose.com/cad/java/).
+**ถาม: ฉันจะหาเอกสารที่ครอบคลุมสำหรับ Aspose.CAD สำหรับ Java ได้ที่ไหน**
+A: เอกสารห้องโถงได้ [ที่นี่](https://reference.aspose.com/cad/java/)
 
-**Q: Is there a free trial available for Aspose.CAD for Java?**  
-A: มี, คุณสามารถดาวน์โหลดรุ่นทดลองได้ [ที่นี่](https://releases.aspose.com/).
+**ถาม: Aspose.CAD สำหรับ Java มีรุ่นทดลองใช้ฟรีหรือไม่**
+ตอบ: มีนิยายดาวน์โหลดรุ่นทดลองได้ [ที่นี่](https://releases.aspose.com/)
 
-**Q: How can I get support for Aspose.CAD for Java?**  
+**ถาม: ฉันจะรับการสนับสนุน Aspose.CAD สำหรับ Java ได้อย่างไร** 
 A: เยี่ยมชมฟอรั่มสนับสนุน [ที่นี่](https://forum.aspose.com/c/cad/19) เพื่อรับความช่วยเหลือจากชุมชนและทีมงาน.
 
 ## สรุป

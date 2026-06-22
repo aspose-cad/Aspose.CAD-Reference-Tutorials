@@ -85,13 +85,6 @@ Door deze gids te volgen weet je nu **hoe je OBJ importeert in CAD**, hoe je **O
 ### [OBJ-formaat ondersteunen in Aspose.CAD - Tutorial](./supporting-obj-format-in-aspose-cad/)
 Ontgrendel het potentieel van Aspose.CAD voor .NET. Leer hoe je naadloos OBJ‑formaat ondersteunt in je CAD‑applicaties met deze stap‑voor‑stap tutorial.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Veelgestelde vragen
 
 **Q: Kan ik OBJ‑bestanden importeren die meerdere objecten bevatten?**  
@@ -114,3 +107,10 @@ A: Een commerciële licentie is vereist voor productie‑implementaties; een gra
 **Laatst bijgewerkt:** 2026-02-04  
 **Getest met:** Aspose.CAD for .NET 24.11  
 **Auteur:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

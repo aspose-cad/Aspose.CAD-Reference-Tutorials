@@ -84,13 +84,6 @@ weight: 40
 ### [Поддержка формата OBJ в Aspose.CAD — учебник](./supporting-obj-format-in-aspose-cad/)
 Раскройте потенциал Aspose.CAD for .NET. Узнайте, как беспрепятственно поддерживать формат OBJ в ваших CAD‑приложениях с помощью этого пошагового учебника.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Часто задаваемые вопросы
 
 **Q: Могу ли я импортировать файлы OBJ, содержащие несколько объектов?**  
@@ -113,3 +106,10 @@ A: Для развертывания в продакшн требуется ко
 **Last Updated:** 2026-02-04  
 **Tested With:** Aspose.CAD for .NET 24.11  
 **Author:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

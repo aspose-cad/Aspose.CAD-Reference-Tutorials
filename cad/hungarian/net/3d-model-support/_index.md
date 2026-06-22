@@ -16,25 +16,25 @@ weight: 40
 
 # OBJ importálása CAD-be – 3D modell támogatás
 
-## Introduction
+## Bevezetés
 
-Ha **OBJ-t CAD-be szeretnél importálni**, és hibátlan 3‑D élményt szeretnél nyújtani, jó helyen jársz. Ebben az útmutatóban végigvezetünk a teljes folyamaton az Aspose.CAD for .NET segítségével, az alapbeállítástól a haladó tippekig. A végére pontosan tudni fogod, hogyan konvertálj OBJ-t CAD-re, követheted a világos lépésről‑lépésre OBJ munkafolyamatot, és megérted, **hogyan támogatjuk az OBJ** fájlokat az alkalmazásaidban.
+Ha **OBJ-t CAD-be szeretnél importálni**, és hibátlan 3-D élményt szeretnél nyújtani, jó helyen jársz. Ebben az útmutatóban végigvezetünk a teljes folyamaton az Aspose.CAD for .NET segítségével, az alapbeállítástól a haladó tippekig. A végére pontosan tudni fogod, hogyan konvertálj OBJ-t CAD-re, követted a világos lépésről-lépésre OBJ munkafolyamatot, és megérted, **hogyan támogatjuk az OBJ** fájlokat az alkalmazást.
 
-## Quick Answers
-- **Mi a fő célja ennek az útmutatónak?** Az, hogy megmutassuk, hogyan importálj OBJ-t CAD-be az Aspose.CAD for .NET használatával.  
-- **Melyik könyvtár kezeli a konverziót?** Aspose.CAD for .NET – külső eszközök nem szükségesek.  
-- **Szükségem van licencre?** Az ingyenes próba verzió elegendő értékeléshez; a kereskedelmi licenc szükséges a termeléshez.  
-- **Mely .NET verziók támogatottak?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7.  
+## Gyors válaszok
+- **Mi a fő célja ennek az útmutatónak?** Az, hogy megmutassuk, hogyan importálj OBJ-t CAD-be az Aspose.CAD for .NET használatához.
+- **Melyik könyvtár kezeli a konverziót?** Aspose.CAD for .NET – külső eszközök nem szükségesek.
+- **Szükségem van licenc?** Az ingyenes próba verzió elegendő értékeléséhez; a kereskedelmi licenc szükséges a termeléshez.
+- **Mely .NET verziók támogatottak?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7.
 - **Mennyi időt vesz igénybe általában a megvalósítás?** A legtöbb fejlesztő kevesebb, mint egy óra alatt befejezi az alap integrációt.
 
-## Mi az a „OBJ importálása CAD-be”?
-Az OBJ CAD-be való importálása azt jelenti, hogy beolvasunk egy OBJ fájlt – egy széles körben használt formátumot 3‑D geometria számára – és átalakítjuk a csúcspontjait, felületeit és anyagadatait egy natív CAD reprezentációvá, amely szerkeszthető, renderelhető vagy exportálható más CAD formátumokba.
+## Mi az „OBJ importálása CAD-be”?
+Az OBJ CAD-be való importálása azt jelenti, hogy beolvasunk egy OBJ fájlt – egy széles körben használt formátumot 3‑D geometria számára – és átalakítjuk a csúcspontjait, felületeit és anyagadatait egy natív CAD reprezentációval, amely szerkeszthető, renderelhető vagy exportálható más CAD formátumokba.
 
 ## Miért használjuk az Aspose.CAD-et OBJ támogatáshoz?
-- **Full‑stack .NET API** – nincs szükség natív DLL-ekre vagy külső konverterekre.  
-- **Pontos geometria kezelése** – megőrzi a csúcspontok pozícióját, normáljait és textúra koordinátáit.  
-- **Beépített anyagleképezés** – automatikusan lefordítja az OBJ anyagkönyvtárakat (MTL) CAD rétegekké.  
-- **Teljesítmény‑központú** – optimalizált nagy, több millió poligonból álló modellekhez.
+- **Full-stack .NET API** – nincs szükség natív DLL-ekre vagy külső konverterekre.
+- **Pontos geometria kezelése** – megőrzi a csúcspontok pozícióját, normáljait és textúra koordinátáját.
+- **Beépített anyagleképezés** – automatikusan lefordítja az OBJ anyagkönyvtárakat (MTL) CAD rétegekké.
+- **Teljesítmény-központú** – optimalizált nagy, több millió poligonból álló modellekhez.
 
 ## Előfeltételek
 - Visual Studio 2022 vagy újabb (vagy bármely .NET‑kompatibilis IDE).  
@@ -84,13 +84,6 @@ Az útmutató követésével most már tudod, **hogyan importálj OBJ-t CAD-be**
 ### [OBJ formátum támogatása az Aspose.CAD-ben – Útmutató](./supporting-obj-format-in-aspose-cad/)
 Fedezd fel az Aspose.CAD for .NET lehetőségeit. Tanuld meg, hogyan támogasd zökkenőmentesen az OBJ formátumot a CAD alkalmazásaidban ezzel a lépésről‑lépésre útmutatóval.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Gyakran Ismételt Kérdések
 
 **Q: Importálhatok OBJ fájlokat, amelyek több objektumot tartalmaznak?**  
@@ -113,3 +106,10 @@ A: Kereskedelmi licenc szükséges a termelési környezetben való telepítésh
 **Legutóbb frissítve:** 2026-02-04  
 **Tesztelve:** Aspose.CAD for .NET 24.11  
 **Szerző:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

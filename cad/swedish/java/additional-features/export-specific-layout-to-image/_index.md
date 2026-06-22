@@ -9,9 +9,7 @@ url: /sv/java/additional-features/export-specific-layout-to-image/
 weight: 16
 ---
 
- code block placeholders unchanged.
-
-Let's produce final.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

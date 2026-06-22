@@ -137,20 +137,20 @@ The steps above demonstrate a **java convert dxf image** workflow. If you need t
 
 ## Často kladené otázky  
 
-**Q: Can I export multiple DXF layouts in one run?**  
-A: Yes. Loop through the desired layer list, adjust `rasterizationOptions.setLayers()` for each iteration, and call `image.save()` with a unique filename.
+**Otázka: Mohu exportovat více rozvržení DXF najednou?**
+Odpověď: Ano. Projděte požadovaný seznam vrstev, upravte `rasterizationOptions.setLayers()` pro každou iteraci a zavolejte `image.save()` s jedinečným názvem souboru.
 
-**Q: Is Aspose.CAD for Java compatible with all Java versions?**  
-A: The library supports Java 8 and newer. Check the official release notes for any version‑specific notes.
+**Otázka: Je Aspose.CAD pro Javu kompatibilní se všemi verzemi Javy?**
+Odpověď: Knihovna podporuje Javu 8 a novější. Zkontrolujte oficiální poznámky k vydání, kde najdete všechny poznámky specifické pro danou verzi.
 
-**Q: How do I handle errors during conversion?**  
-A: Wrap the loading and saving code in a `try‑catch` block and log `IOException` or `CadException` details.
+**Otázka: Jak mám řešit chyby během převodu?**
+Odpověď: Zabalte kód pro načítání a ukládání do bloku `try-catch` a zaznamenejte podrobnosti o `IOException` nebo `CadException`.
 
-**Q: Besides JPEG, what other image formats can I generate?**  
-A: PNG, BMP, TIFF, and PDF are all supported. Just replace `JpegOptions` with the corresponding options class (`PngOptions`, `BmpOptions`, etc.).
+**Otázka: Jaké další obrazové formáty mohu kromě JPEG generovat?**
+Odpověď: Podporovány jsou PNG, BMP, TIFF a PDF. Stačí nahradit `JpegOptions` odpovídající třídou možností (`PngOptions`, `BmpOptions` atd.).
 
-**Q: Can I further customize rasterization (e.g., line weight, background color)?**  
-A: Absolutely. `CadRasterizationOptions` provides properties such as `setBackgroundColor()`, `setLineWeight()`, and `setRenderMode()` for fine‑tuned control.
+**Otázka: Mohu si dále přizpůsobit rastrování (např. tloušťku čáry, barvu pozadí)?**
+Odpověď: Rozhodně. `CadRasterizationOptions` poskytuje vlastnosti jako `setBackgroundColor()`, `setLineWeight()` a `setRenderMode()` pro jemné doladění ovládání.
 
 ## Závěr
 You now have a complete, production‑ready method to **convert a DXF layout to a JPEG** image using Aspose.CAD for Java. By selecting specific layers, configuring rasterization options, and saving with JPEG settings, you can generate high‑quality previews or documentation assets in just a few lines of code.

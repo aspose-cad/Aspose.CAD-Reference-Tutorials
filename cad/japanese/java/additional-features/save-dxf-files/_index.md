@@ -119,7 +119,7 @@ cadImage.save(dataDir+"conic.dxf");
 
 ## 一般的な問題と解決策
 
-| Issue | Reason | Fix |
+| 問題 | 原因 | 解決策 |
 |-------|--------|-----|
 | **`FileNotFoundException`** | `dataDir` パスが正しくありません | 絶対パスを確認するか、`new File(dataDir).mkdirs();` を使用して不足しているフォルダーを作成してください。 |
 | **Unsupported CAD version** | 古い DXF バージョンが認識されません | Aspose.CAD を最新バージョンに更新してください。新しい DXF 仕様へのサポートが追加されています。 |
@@ -127,19 +127,19 @@ cadImage.save(dataDir+"conic.dxf");
 
 ## よくある質問
 
-**Q: Can I use Aspose.CAD for Java in a web‑based application?**  
+**Q: Aspose.CAD for Java を Web アプリケーションで使用できますか？** 
 A: はい、ライブラリはサーブレットコンテナ、Spring Boot、その他の Java Web フレームワークと完全に互換性があります。
 
-**Q: Where can I find additional support for Aspose.CAD for Java?**  
+**Q: Aspose.CAD for Java に関する追加サポートはどこで受けられますか？** 
 A: コミュニティの支援や公式の回答は、[Aspose.CAD forum](https://forum.aspose.com/c/cad/19) をご覧ください。
 
-**Q: Is there a free trial available for Aspose.CAD for Java?**  
+**Q: Aspose.CAD for Java の無料トライアルはありますか？** 
 A: もちろんです — [Aspose.CAD free trial page](https://releases.aspose.com/) からトライアルをダウンロードできます。
 
-**Q: How do I obtain a temporary license for Aspose.CAD for Java?**  
+**Q: Aspose.CAD for Java の一時ライセンスを取得するにはどうすればよいですか？** 
 A: 一時ライセンスは [here](https://purchase.aspose.com/temporary-license/) からリクエストできます。
 
-**Q: Where can I find comprehensive documentation for Aspose.CAD for Java?**  
+**Q: Aspose.CAD for Java の包括的なドキュメントはどこで入手できますか？**
 A: 完全な API リファレンスは [Aspose.CAD Java documentation site](https://reference.aspose.com/cad/java/) で入手できます。
 
 ## 結論

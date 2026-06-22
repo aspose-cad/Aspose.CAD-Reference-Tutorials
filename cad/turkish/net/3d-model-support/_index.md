@@ -85,13 +85,6 @@ Bu kılavuzu izleyerek **OBJ'yi CAD'e nasıl aktaracağınızı**, **OBJ'yi CAD'
 ### [Aspose.CAD'de OBJ Formatını Destekleme - Eğitim](./supporting-obj-format-in-aspose-cad/)
 Aspose.CAD for .NET'in sunduğu potansiyeli keşfedin. Bu adım‑adım eğitimle CAD uygulamalarınızda OBJ formatını sorunsuz bir şekilde nasıl destekleyeceğinizi öğrenin.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Sıkça Sorulan Sorular
 
 **S: Birden fazla nesne içeren OBJ dosyalarını içe aktarabilir miyim?**  
@@ -114,3 +107,10 @@ C: Üretim ortamları için ticari lisans gereklidir; ücretsiz deneme sürümü
 **Son Güncelleme:** 2026-02-04  
 **Test Edilen Versiyon:** Aspose.CAD for .NET 24.11  
 **Yazar:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

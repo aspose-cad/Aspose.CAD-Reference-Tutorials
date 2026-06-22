@@ -125,19 +125,19 @@ cadImage.save(dataDir+"conic.dxf");
 
 ## คำถามที่พบบ่อย
 
-**Q: Can I use Aspose.CAD for Java in a web‑based application?**  
-A: ใช่, ไลบรารีเข้ากันได้เต็มที่กับ servlet containers, Spring Boot, และเฟรมเวิร์กเว็บของ Java อื่น ๆ  
+**ถาม: ฉันสามารถใช้ Aspose.CAD สำหรับ Java ในแอปพลิเคชันบนเว็บได้หรือไม่**
+ตอบ: เป็นไปได้, ไลบรารี่เต็มรูปแบบกับ servlet containers, Spring Boot, และความเชื่อถือเว็บของ Java ทุกอย่างอื่น ๆ
 
-**Q: Where can I find additional support for Aspose.CAD for Java?**  
-A: เยี่ยมชม [Aspose.CAD forum](https://forum.aspose.com/c/cad/19) เพื่อรับความช่วยเหลือจากชุมชนและการตอบจากทีมอย่างเป็นทางการ  
+**ถาม: ฉันจะรับการสนับสนุนเพิ่มเติมสำหรับ Aspose.CAD สำหรับ Java ได้ที่ไหน**
+ตอบ: [Aspose.CAD forum](https://forum.aspose.com/c/cad/19) ขอรับความช่วยเหลือจากชุมชนและตอบจากทีมอย่างเป็นทางการ
 
-**Q: Is there a free trial available for Aspose.CAD for Java?**  
-A: แน่นอน — ดาวน์โหลดเวอร์ชันทดลองจาก [Aspose.CAD free trial page](https://releases.aspose.com/)  
+**ถาม: Aspose.CAD สำหรับ Java มีรุ่นทดลองใช้ฟรีหรือไม่**
+ตอบ: เราจะทดลองทดลองจาก [Aspose.CAD หน้าทดลองใช้ฟรี](https://releases.aspose.com/)
 
-**Q: How do I obtain a temporary license for Aspose.CAD for Java?**  
-A: คุณสามารถขอไลเซนส์ชั่วคราวได้ [ที่นี่](https://purchase.aspose.com/temporary-license/)  
+**ถาม: ฉันจะขอรับใบอนุญาตชั่วคราวสำหรับ Aspose.CAD สำหรับ Java ได้อย่างไร**
+ตอบ: ขอไลเซนส์ชั่วคราวได้ [ที่นี่](https://purchase.aspose.com/temporary-license/)
 
-**Q: Where can I find comprehensive documentation for Aspose.CAD for Java?**  
+**ถาม: ฉันจะหาเอกสารประกอบที่ครอบคลุมได้ที่ไหน Aspose.CAD สำหรับ Java?** 
 A: เอกสาร API ฉบับเต็มมีให้ที่ [Aspose.CAD Java documentation site](https://reference.aspose.com/cad/java/)  
 
 ## สรุป

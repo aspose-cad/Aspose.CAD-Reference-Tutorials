@@ -16,40 +16,40 @@ weight: 17
 
 # Aspose.CAD for Java ile dxf Düzeninden PDF Oluşturma
 
-## Introduction
+## Giriiş
 
-CAD çizimleriyle çalışan bir Java geliştiricisiyseniz, **dxf dosalarını nasıl dışa aktaracağınızı** doğru bir şekilde bilmenin bir projeyi başarabilir ya da başarısız kılabileceğini biliyorsunuz. İster mühendislik raporları oluşturuyor olun, ister tasarımları müşterilerle paylaşıyor olun, ister toplu dönüşümleri otomatikleştiriyor olun, güvenilir bir Java PDF dönüşüm kütüphanesi şarttır. Bu öğreticide **dxf düzeninden pdf oluşturma** sürecini, sayfa boyutlarını kontrol etmeyi ve **Aspose.CAD for Java** ile vektör kalitesini korumayı adım adım göstereceğiz.
+CAD çizimleriyle çalışan bir Java geliştiricisiyseniz, **dxf dosyalarını nasıl aktaracağınızı** doğru bir şekilde bilmenin bir projeyi başarabilir ya da başarısız olabileceği bilinebilir. İster mühendislik ürünleri oluşturulur olun, ister tasarımlar müşterilerle paylaşılıyor olun, ister toplu dönüşümleri otomatik olarak güçlendirin, güvenilir bir Java PDF dönüştürme kütüphanesi etkinleştirilir. Bu öğreticide **dxf düzeninden pdf oluşturma** süreci, sayfa boyutlarını kontrol etme ve **Aspose.CAD for Java** ile vektör korumayı adım adım göstermez.
 
-## Quick Answers
-- **Birincil kütüphane nedir?** Aspose.CAD for Java, CAD için özel bir Java pdf dönüşüm kütüphanesidir.
-- **Belirli bir düzen seçebilir miyim?** Evet – belirli bir düzen adını hedeflemek için `CadRasterizationOptions.setLayouts()` kullanın.
-- **Sayfa boyutunu nasıl ayarlarım?** Rasterizasyon seçeneklerinde `setPageWidth()` ve `setPageHeight()` metodlarını ayarlayın (ör. 1600 × 1600).
+## Hızlı Yanıtlar
+- **Birincil kütüphanesi nedir?** Aspose.CAD for Java, CAD için özel bir Java pdf depolama kütüphanesidir.
+- **Belirli bir düzen düzeni miyim?** Evet – belirli bir düzen hedeflemek için `CadRasterizationOptions.setLayouts()` kullanın.
+- **Sayfa ilişkileri nasıl ayarlarım?** Rasterizasyon seçeneklerinde `setPageWidth()` ve `setPageHeight()` yöntemlerini ayarlar (ör. 1600×1600).
 - **Üretim için lisansa ihtiyacım var mı?** Üretim kullanımında ticari bir lisans gereklidir; ücretsiz deneme sürümü mevcuttur.
-- **Hangi Java sürümü destekleniyor?** Java 8 ve üzeri (JDK 1.8+).
+- **Hangi Java sürümü destekleniyor mu?** Java8 ve Üzeri (JDK 1.8+).
 
 ## dxf Düzeninden pdf Nasıl Oluşturulur?
 
-Bir DXF dosyasını dışa aktarmak, vektör verilerini başka bir formata—genellikle PDF—dönüştürmek anlamına gelir; bu işlem sırasında katmanlar, çizgi kalınlıkları ve düzen bilgileri korunur. Aspose.CAD bu zorluğu üstlenir, böylece düşük seviyeli dosya ayrıştırmasıyla uğraşmak yerine iş mantığınıza odaklanabilirsiniz.
+Bir DXF'nin aktarımı, vektörlerin başka bir formata—genellikle PDF—dönüştürmek anlamına gelir; bu işlem sırasında katmanlar, çizgi görünümleri ve düzen bilgileri korunur. Aspose.CAD bu zorluk üstlenir, bu nedenle düşük seviyeli dosya ayrıştırmasıyla uğraşmak yerine iş mantığınıza odaklanabilirsiniz.
 
-## Why use Aspose.CAD for Java?
+## Java için neden Aspose.CAD kullanılmalı?
 
-- **Tam özellikli CAD desteği** – DWG, DXF, DWF ve daha fazlasını işler.
-- **Harici bağımlılık yok** – Saf Java, yerel DLL'ler yok.
-- **Kesin rasterizasyon** – Vektör veya raster çıktı seçin, DPI, sayfa boyutu ve düzeni ayarlayın.
+- **Tam renkli CAD desteği** – DWG, DXF, DWF ve daha fazlası ürünler.
+- **Harici ilişkiler yok** – Saf Java, yerel DLL'ler yok.
+- **Kesin rasterizasyon** – Vektör veya raster çıkışı seçilir, DPI, sayfa boyutu ve düzeni ayarlanır.
 - **Yüksek performans** – Toplu işleme ve sunucu tarafı senaryoları için optimize edilmiştir.
-- **dxf'yi pdf'ye dışa aktar** tek bir kod satırıyla, **java convert cad pdf** iş akışları için ideal hâle getirir.
+- **dxf'yi pdf'ye aktarılan** tek bir kod dosyasıyla, **java transform cad pdf** iş akışları için ideal hâle gelir.
 
-## Prerequisites
+## Önkoşullar
 
-Başlamadan önce, aşağıdakilere sahip olduğunuzdan emin olun:
+Başlamadan önce aşağıdakilere sahip olduğunuzdan emin olun:
 
-1. **Java Development Kit (JDK)** – Java 8 veya daha yeni bir sürüm. [Oracle](https://www.oracle.com/java/technologies/javase-downloads.html) adresinden indirin.
-2. **Aspose.CAD for Java** – En son JAR dosyasını [Aspose.CAD indirme sayfasından](https://releases.aspose.com/cad/java/) alın.
-3. Projenizin sınıf yoluna Aspose.CAD JAR'ını eklemek için bir IDE veya yapı aracı (Maven/Gradle).
+1. **Java Development Kit (JDK)** – Java8 veya daha yeni bir sürüm. [Oracle](https://www.oracle.com/java/technologies/javase-downloads.html) adresinden indirilir.
+2. **Aspose.CAD for Java** – En son JAR dosyasını [Aspose.CAD indirme sayfasının](https://releases.aspose.com/cad/java/) alın.
+3. Proje sınıf yolunu Aspose.CAD JAR'ını seçmek için bir IDE veya yapı aracınız (Maven/Gradle).
 
-## Import Namespaces
+## Ad Alanlarını İçe Aktar
 
-İlk olarak, ihtiyacınız olan sınıfları içe aktarın. Bu importlar, görüntü yükleme, rasterizasyon seçenekleri ve PDF çıktı ayarlarına erişmenizi sağlar.
+İlk olarak ihtiyacınız olan sınıfları içeri aktarın. Bu içe aktarma, görüntü yükleme, rasterleştirme seçenekleri ve PDF ayarlarının çıktısına kaydedilmenizi sağlar.
 
 ```java
 import com.aspose.cad.Image;
@@ -57,9 +57,9 @@ import com.aspose.cad.imageoptions.CadRasterizationOptions;
 import com.aspose.cad.imageoptions.PdfOptions;
 ```
 
-## Step‑by‑Step Guide
+## Adım Adım Kılavuz
 
-### Step 1: Set the Resource Directory
+### Adım 1: Kaynak Dizinini Ayarlayın
 
 DXF dosyalarınızı içeren klasörü tanımlayın. Yer tutucuyu, makinenizdeki gerçek yol ile değiştirin.
 
@@ -69,7 +69,7 @@ String dataDir = "Your Document Directory" + "DXFDrawings/";
 
 > **Pro ipucu:** Ortamlar arasında çalışan bir göreli yol oluşturmak için `System.getProperty("user.dir")` kullanın.
 
-### Step 2: Load the DXF File
+### Adım 2: DXF Dosyasını Yükleyin
 
 `Image.load()` kullanarak kaynak DXF dosyasını yükleyin. Bu yöntem, CAD dosyasını bir Aspose.CAD `Image` nesnesine okur.
 
@@ -78,7 +78,7 @@ String srcFile = dataDir + "conic_pyramid.dxf";
 Image image = Image.load(srcFile); 
 ```
 
-### Step 3: Configure Rasterization Options (Set PDF Page Width in Java)
+### Adım 3: Rasterleştirme Seçeneklerini Yapılandırın (Java'da PDF Sayfa Genişliğini Ayarlayın)
 
 Burada `CadRasterizationOptions` oluşturuyor ve çıktı sayfa boyutunu tanımlıyoruz. İstenen PDF boyutlarına uyması için genişlik/yüksekliği ayarlayın.
 
@@ -92,7 +92,7 @@ rasterizationOptions.setLayouts(new String[] {"Model"});
 - `setPageWidth` / `setPageHeight` – PDF için **sayfa genişliğini** (ve yüksekliğini) kontrol eder.
 - `setLayouts` – hangi düzen(ler)in render edileceğini belirtir; çoğu DXF dosyasında `"Model"` varsayılan model alanıdır.
 
-### Step 4: Create PDF Options (Java Convert CAD PDF)
+### Adım 4: PDF Oluşturma Seçenekleri (Java ile CAD'i PDF'ye Dönüştürün)
 
 Rasterizasyon ayarlarını bir `PdfOptions` örneğine bağlayın. Bu, Aspose.CAD'e raster görüntü yerine PDF çıkışı vermesini söyler.
 
@@ -101,7 +101,7 @@ PdfOptions pdfOptions = new PdfOptions();
 pdfOptions.setVectorRasterizationOptions(rasterizationOptions);
 ```
 
-### Step 5: Export DXF to PDF (Create PDF from DXF)
+### Adım 5: DXF'i PDF'ye Aktarın (DXF'den PDF Oluşturun)
 
 Son olarak, görüntüyü PDF olarak kaydedin. Çıktı dosya adı, düzen‑özgü dönüşümü göstermek için `_layout_out_.pdf` ile biter.
 
@@ -111,43 +111,43 @@ image.save(dataDir + "conic_pyramid_layout_out_.pdf", pdfOptions);
 
 Çalıştırdıktan sonra, aynı dizinde `conic_pyramid_layout_out_.pdf` dosyasını bulacaksınız; bu dosya yalnızca belirlediğiniz boyutlarda render edilmiş **Model** düzenini içerir.
 
-## Common Use Cases
+## Yaygın Kullanım Durumları
 
-| Senaryo | Bu yöntemin faydası |
-|----------|-----------------------|
-| **Otomatik rapor oluşturma** | Her çizimin aynı sayfa boyutuyla dışa aktarılmasını garanti eder, toplu PDF'leri tutarlı hâle getirir. |
-| **Müşteri odaklı tasarım ön izlemeleri** | Tek bir düzeni (ör. “Model” veya “Sheet1”) dışa aktarmak dosya boyutunu azaltır ve vektör doğruluğunu korur. |
-| **Eski DWG'den PDF'ye geçiş** | Bu örnek DXF kullansa da aynı API, **convert dwg to pdf** için minimal kod değişikliğiyle çalışır. |
-| **CAD çizimlerini web portalına gömme** | Oluşturulan PDF, ek dönüşüm araçları olmadan doğrudan tarayıcılara akıtılabilir. |
+| Senaryo | Bu yöntemin faydası yok |
+|----------|---------------|
+| **Otomatik rapor oluşturma** | Her çizimin aynı sayfa boyutuyla değiştirilmesini garanti eder, toplu PDF'leri teslim hâle getirir. |
+| **Müşteri odaklı tasarım ön izlemeleri** | Tek bir düzen (ör. “Model” veya “Sheet1”) aktarımı dosya kesintilerini ve vektör verimini korur. |
+| **Eski DWG'den PDF'ye geçiş** | Bu örnek DXF aynı API'yi kullanır, **dwg'yi pdf'ye dönüştür** için minimum kod değişikliğiyle çalışır. |
+| **CAD çizimlerini web portalına gömme** | Oluşturulan PDF, ek dönüşüm araçları olmadan doğrudan tarayıcılara etkinleştirilebilir. |
 
-## Common Issues and Solutions
+## Yaygın Sorunlar ve Çözümler
 
 | Sorun | Sebep | Çözüm |
-|-------|--------|-----|
-| **Boş PDF** | Düzen adı uyuşmazlığı | DXF'teki tam düzen adını doğrulayın (bir CAD görüntüleyici kullanın). |
-| **Yanlış sayfa boyutu** | `setPageWidth/Height` uygulanmadı | `PdfOptions` oluşturulmadan önce rasterizasyon seçeneklerini **ayarlandığınızdan** emin olun. |
-| **Büyük dosyalarda bellek yetersizliği** | Büyük DXF'in belleğe yüklenmesi | Akış (streaming) kullanın veya JVM yığınını artırın (`-Xmx2g`). |
-| **Eksik yazı tipleri** | Metin öğeleri mevcut olmayan yazı tiplerini kullanıyor | Sunucuda gerekli yazı tiplerini kurun veya `CadRasterizationOptions` aracılığıyla gömün. |
-| **Birden fazla düzen dışa aktarmak gerekiyor** | Sadece tek düzen çağrısı | `setLayouts`'i düzen adları dizisiyle çağırın ve her biri için `save` adımını tekrarlayın. |
+|----------|-----------|-----|
+| **Boş PDF** | Düzen adı uymazlığı | DXF'teki tam düzen adını doğrulayın (bir CAD görüntüleyici kullanın). |
+| **Yanlış sayfa boyutu** | `setPageWidth/Height` uygulanmadı | `PdfOptions` oluşturulmadan önce rasterizasyon uygulamaları **ayarlandığınızdan** emin olun. |
+| **Büyük dosyalarda süre uzunluğu** | Büyük DXF'in belleğe yazılması | Akış (streaming) kullanın veya JVM yığınını artırın (`-Xmx2g`). |
+| **Eksik yazı türleri** | Metinde bulunan mevcut olmayan yazı tiplerini kullanan | Sunucuda gerekli yazı tiplerini kurun veya `CadRasterizationOptions` aracılığıyla gömün. |
+| **Birden fazla birim aktarma gerekiyor** | Sadece tek düzen düzeni | `setLayouts`'i düzen adları dizisiyle çağırın ve biri için `save` adımını sayın. |
 
-## Frequently Asked Questions
+## Sıkça Sorulan Sorular
 
-**S: Aspose.CAD for Java hem yeni başlayanlar hem de deneyimli geliştiriciler için uygun mu?**  
-C: Kesinlikle. API, yeni başlayanlar için anlaşılırken, ileri düzey kullanıcılar için derin özelleştirme imkanı sunar.
+**S: Aspose.CAD for Java hem yeni hem de dahili geliştiriciler için uygun mu?**
+C: elbette. API, yeni erişim için anlaşılırken, ileri düzey kullanıcılar için derin kişiselleştirme imkanı sunar.
 
-**S: Farklı düzenler için rasterizasyon seçeneklerini özelleştirebilir miyim?**  
+**S: farklı düzenlemeler için rasterizasyon seçeneklerini özelleştirebilir miyim?**
 C: Evet. Gerektiği gibi her düzen için `CadRasterizationOptions` (sayfa boyutu, DPI, arka plan rengi) ayarlayabilirsiniz.
 
-**S: Aspose.CAD for Java için kapsamlı belgeleri nerede bulabilirim?**  
+**S: Aspose.CAD for Java için özet bilgiler nerede öğrenilirim?**
 C: Ayrıntılı dokümantasyon [burada](https://reference.aspose.com/cad/java/) mevcuttur.
 
-**S: Aspose.CAD for Java için ücretsiz deneme sürümü var mı?**  
-C: Evet, deneme sürümünü [buradan](https://releases.aspose.com/) indirebilirsiniz.
+**S: Aspose.CAD for Java için ücretsiz deneme sürümü var mı?**
+C: Evet, deneme yazılımı [buradan](https://releases.aspose.com/) indirebilirsiniz.
 
-**S: Aspose.CAD for Java için destek nasıl alabilirim?**  
-C: Topluluk ve personel yardımı için destek forumunu [buradan](https://forum.aspose.com/c/cad/19) ziyaret edin.
+**S: Aspose.CAD for Java için destek nasıl alabilirim?**
+C: Topluluk ve kişisel yardım için destek forumunu [buradan](https://forum.aspose.com/c/cad/19) ziyaret edin.
 
-## Conclusion
+## Çözüm
 
 Bu rehberde, Aspose.CAD for Java kullanarak **dxf düzenlerinden pdf oluşturma** sürecini, ortam kurulumundan sayfa boyutlarını ince ayarlamaya kadar tüm adımlarla gösterdik. Bu **java pdf conversion library**'yi kullanarak CAD‑to‑PDF iş akışlarını otomatikleştirebilir, vektör doğruluğunu koruyabilir ve Java uygulamalarınıza sorunsuz PDF üretimini entegre edebilirsiniz. İster **dxf'yi pdf'ye dışa aktarmanız**, ister **dwg'yi pdf'ye dönüştürmeniz** veya **cad'den pdf oluşturmanız** gerekse, yukarıdaki adımlar sağlam bir temel sağlar.
 
