@@ -1,11 +1,17 @@
 ---
-date: 2025-12-28
-description: Aprende a personalizar fuentes en dibujos DWG con Aspose.CAD para Java.
-  Guía paso a paso para agregar texto, reemplazar fuentes y perfeccionar anotaciones
-  CAD.
-linktitle: CAD Text and Annotation
+date: 2026-04-23
+description: Aprenda cómo personalizar fuentes DWG, cambiar el estilo de texto DWG
+  y realizar la sustitución de fuentes DWG usando Aspose.CAD para Java. Guía paso
+  a paso para la anotación de texto DWG.
+keywords:
+- customize fonts dwg
+- change dwg text style
+- dwg font substitution
+- update dwg text style
+- dwg text annotation
+linktitle: Texto y anotación CAD
 second_title: Aspose.CAD Java API
-title: Cómo personalizar fuentes en texto y anotaciones de CAD
+title: Cómo personalizar fuentes DWG en texto y anotaciones de CAD
 url: /es/java/cad-text-and-annotation/
 weight: 21
 ---
@@ -14,98 +20,98 @@ weight: 21
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Cómo personalizar fuentes en texto y anotaciones CAD
+# Cómo personalizar fuentes DWG en texto y anotación CAD
 
-## Introducción
+## Introducción  
 
-Si estás buscando **cómo personalizar fuentes** en tus dibujos DWG, has llegado al lugar correcto. En este tutorial te guiaremos paso a paso para agregar texto, reemplazar fuentes y ajustar estilos de fuente usando Aspose.CAD for Java. Ya sea que estés puliendo un esquema, preparando documentos de construcción o simplemente quieras una **dwg text annotation** más clara, estos pasos te ayudarán a lograr un acabado profesional de forma rápida y fiable.
+Si necesita **customize fonts dwg** archivos rápidamente y de forma programática, está en el lugar correcto. En este tutorial le guiaremos a través de la adición de nuevo texto, el reemplazo de fuentes existentes y el ajuste de estilos de fuente para dibujos DWG usando Aspose.CAD for Java. Ya sea que esté puliendo un esquema, preparando documentos de construcción, o simplemente quiera una **dwg text annotation** más clara, estos pasos le darán un acabado profesional con un mínimo esfuerzo.
 
 ## Respuestas rápidas
-- **¿Cuál es el propósito principal de la personalización de fuentes en DWG?** Mejorar la legibilidad y coincidir con la marca o los estándares del proyecto.  
-- **¿Qué biblioteca gestiona los cambios?** Aspose.CAD for Java.  
-- **¿Necesito una licencia?** Una prueba gratuita sirve para evaluación; se requiere una licencia comercial para producción.  
-- **¿Puedo procesar archivos DWG grandes?** Sí – la API transmite datos de manera eficiente, adecuada para dibujos extensos.  
-- **¿Se necesita software adicional?** Solo un runtime de Java (JDK 8 o superior) y el JAR de Aspose.CAD.
+- **¿Cuál es el principal beneficio de personalizar fuentes DWG?** Mejora la legibilidad y asegura que el dibujo siga la identidad corporativa.  
+- **¿Qué biblioteca maneja los cambios?** Aspose.CAD for Java provides a full‑featured API.  
+- **¿Necesito una licencia para uso en producción?** A free trial is fine for evaluation; a commercial license is required for deployment.  
+- **¿Puede la API procesar archivos DWG grandes?** Yes – it streams data efficiently, making it suitable for big drawings.  
+- **¿Se requiere software adicional?** Only a Java runtime (JDK 8 or newer) and the Aspose.CAD JAR.  
 
-## ¿Qué es “cómo personalizar fuentes” en CAD?
-Personalizar fuentes significa reemplazar el estilo de texto predeterminado en un archivo DWG por una fuente de tu elección, ajustando su tamaño, grosor o aplicando un estilo diferente a capas u objetos específicos. Esto garantiza que el dibujo se vea exactamente como deseas en todos los visores.
+## ¿Qué es “customize fonts dwg”?
+Personalizar fuentes dwg significa intercambiar el estilo de texto predeterminado en un archivo DWG por una fuente de su elección, ajustando su tamaño, peso o aplicando un estilo diferente a capas u objetos específicos. Esto garantiza una apariencia coherente en todos los visores y plataformas.
 
 ## ¿Por qué usar Aspose.CAD for Java para personalizar fuentes?
-- **Control total** sobre los objetos de texto sin abrir el dibujo en un editor GUI.  
-- **Procesamiento por lotes** – maneja decenas de archivos en un solo script.  
-- **Multiplataforma** – funciona en Windows, Linux y macOS.  
-- **Sin dependencias externas** – la API gestiona el análisis de DWG internamente.
+- **Control programático completo** – modify text without opening a GUI editor.  
+- **Procesamiento por lotes** – handle dozens of files in a single script.  
+- **Multiplataforma** – works on Windows, Linux, and macOS.  
+- **Sin dependencias externas** – the API parses DWG internally, so you don’t need AutoCAD installed.  
 
 ## Requisitos previos
-- Java Development Kit 8 o superior instalado.  
-- JAR de Aspose.CAD for Java añadido al classpath de tu proyecto.  
-- Un archivo DWG que desees editar.
+- Java Development Kit 8 or newer instalado.  
+- Aspose.CAD for Java JAR agregado al classpath de su proyecto.  
+- Un archivo DWG que desea editar.  
 
-## Cómo agregar texto en DWG
-Agregar nueva información textual es una necesidad común cuando deseas etiquetar partes, añadir notas o crear **dwg text annotation**. Sigue estos pasos:
+## Cómo agregar texto en DWG  
+Agregar nueva información textual es una necesidad común cuando desea etiquetar partes, añadir notas o crear **dwg text annotation**. Siga estos pasos:
 
-1. **Carga el archivo DWG** usando `CadImage`.  
-2. **Crea una entidad `CadText`** con la cadena deseada, ubicación y fuente.  
-3. **Añade la entidad** a la colección de entidades del dibujo.  
-4. **Guarda** el archivo modificado.
+1. **Cargar el archivo DWG** usando `CadImage`.  
+2. **Crear una entidad `CadText`** con la cadena deseada, ubicación y fuente.  
+3. **Agregar la entidad** a la colección de entidades del dibujo.  
+4. **Guardar** el archivo modificado.  
 
-> *Nota: El fragmento de código real permanece sin cambios respecto al tutorial original y está incluido en el sub‑tutorial enlazado.*  
+> *Nota: El fragmento de código real no se ha modificado respecto al tutorial original y está incluido en el sub‑tutorial enlazado.*  
 
-## Cómo reemplazar fuente en DWG
-Reemplazar una fuente existente en todo el dibujo ayuda a mantener la consistencia, especialmente cuando la fuente original no está disponible en el sistema de destino.
+## Cómo reemplazar fuente en DWG  
+Reemplazar una fuente existente en todo un dibujo ayuda a mantener la consistencia, especialmente cuando la fuente original no está disponible en el sistema de destino.
 
-1. **Abre el DWG** con `CadImage`.  
-2. **Itera** sobre todos los objetos `CadText`.  
-3. **Establece la propiedad `FontName`** a la fuente que prefieras (p. ej., “Arial”).  
-4. **Guarda** el dibujo actualizado.
+1. **Abrir el DWG** con `CadImage`.  
+2. **Iterar** sobre todos los objetos `CadText`.  
+3. **Establecer la propiedad `FontName`** a la fuente que prefiera (p.ej., “Arial”).  
+4. **Guardar** el dibujo actualizado.  
 
-Este método se detalla en el sub‑tutorial “Substitute Font in DWG”.
+Este método se cubre en detalle en el sub‑tutorial “Substitute Font in DWG”.
 
-## Cómo cambiar el estilo de fuente DWG para un estilo particular
-A veces solo un estilo de texto específico (p. ej., “Title”) necesita una nueva fuente mientras que los demás permanecen sin cambios.
+## Cómo cambiar el estilo de fuente DWG para un estilo particular  
+A veces solo un estilo de texto específico (p.ej., “Title”) necesita una nueva fuente mientras que los demás permanecen sin cambios.
 
-1. **Identifica el nombre del estilo** que deseas modificar.  
-2. **Localiza el objeto `CadTextStyle`** correspondiente.  
-3. **Actualiza su `FontName`** y cualquier atributo de estilo adicional.  
-4. **Persiste los cambios** guardando el archivo.
+1. **Identificar el nombre del estilo** que desea modificar.  
+2. **Localizar el objeto `CadTextStyle` correspondiente**.  
+3. **Actualizar su `FontName`** y cualquier atributo de estilo adicional.  
+4. **Persistir los cambios** guardando el archivo.  
 
 La guía paso a paso está disponible en el sub‑tutorial “Substitute Font of a Particular Style in DWG”.
 
 ## Casos de uso comunes
-- **Dibujos de construcción** donde las fuentes estándar de la empresa son obligatorias.  
-- **Planos arquitectónicos** que requieren anotaciones legibles para los clientes.  
-- **Conversión por lotes** de archivos DWG heredados a un nuevo conjunto de fuentes corporativas.
+- **Construction drawings** donde las fuentes estándar de la empresa son obligatorias.  
+- **Architectural plans** que necesitan anotaciones legibles para los clientes.  
+- **Batch conversion** de archivos DWG heredados a un nuevo conjunto de fuentes corporativas.  
 
-## Tutoriales de texto y anotaciones CAD
-### [Add Text in DWG Using Aspose.CAD for Java](./add-text-in-dwg/)
-Mejora tus dibujos DWG sin esfuerzo con Aspose.CAD for Java. Añade texto de forma fluida con nuestra guía paso a paso.
+## Tutoriales de texto y anotación CAD
+### [Agregar texto en DWG usando Aspose.CAD for Java](./add-text-in-dwg/)
+Mejore sus dibujos DWG sin esfuerzo con Aspose.CAD for Java. Agregue texto sin problemas con nuestra guía paso a paso.
 
-### [Substitute Font in DWG with Aspose.CAD for Java](./substitute-font-in-dwg/)
-Mejora tus diseños CAD sin complicaciones. Aprende a sustituir fuentes en archivos DWG usando Aspose.CAD for Java. Guía paso a paso para una perfección visual.
+### [Sustituir fuente en DWG con Aspose.CAD for Java](./substitute-font-in-dwg/)
+Mejore sus diseños CAD sin esfuerzo. Aprenda a sustituir fuentes en archivos DWG usando Aspose.CAD for Java. Guía paso a paso para una perfección visual.
 
-### [Substitute Font of a Particular Style in DWG Using Aspose.CAD for Java](./substitute-font-of-particular-style-in-dwg/)
-Aprende a sustituir fuentes en archivos DWG usando Aspose.CAD for Java. Guía paso a paso para personalizar estilos con precisión.
+### [Sustituir fuente de un estilo particular en DWG usando Aspose.CAD for Java](./substitute-font-of-particular-style-in-dwg/)
+Aprenda cómo sustituir fuentes en archivos DWG usando Aspose.CAD for Java. Guía paso a paso para personalizar estilos con precisión.
 
 ## Preguntas frecuentes
 
-**P: ¿Puedo usar estos métodos con archivos DWG creados en versiones antiguas de AutoCAD?**  
-R: Sí. Aspose.CAD admite versiones DWG desde R12 hasta las últimas publicaciones.
+**Q: ¿Puedo usar estos métodos con archivos DWG creados en versiones más antiguas de AutoCAD?**  
+A: Yes. Aspose.CAD supports DWG versions from R12 up to the latest releases.
 
-**P: ¿Qué ocurre si la fuente objetivo no está instalada en la máquina del visor?**  
-R: El dibujo recurrirá a una fuente predeterminada, lo que puede afectar el diseño. Se recomienda incrustar la fuente o asegurarse de que esté instalada en todas las máquinas.
+**Q: ¿Qué ocurre si la fuente objetivo no está instalada en la máquina del visor?**  
+A: The drawing will fall back to a default font, which may affect layout. Embedding the font or ensuring it’s installed on all machines is recommended.
 
-**P: ¿Es posible reemplazar fuentes solo en una capa específica?**  
-R: Absolutamente. Filtra los objetos `CadText` por su `LayerName` antes de cambiar el `FontName`.
+**Q: ¿Es posible reemplazar fuentes solo en una capa específica?**  
+A: Absolutely. Filter `CadText` objects by their `LayerName` before changing the `FontName`.
 
-**P: ¿Necesito reconstruir el dibujo después de cambiar las fuentes?**  
-R: No se requiere una reconstrucción manual; al guardar el `CadImage` se escriben todas las actualizaciones en el archivo.
+**Q: ¿Necesito reconstruir el dibujo después de los cambios de fuente?**  
+A: No manual rebuild is required; saving the `CadImage` writes all updates to the file.
 
-**P: ¿Cómo puedo verificar que el cambio de fuente se aplicó correctamente?**  
-R: Abre el DWG en cualquier visor que admita la fuente elegida, o enumera programáticamente los objetos `CadText` para leer de vuelta el `FontName`.
+**Q: ¿Cómo puedo verificar que el cambio de fuente se aplicó correctamente?**  
+A: Open the DWG in any viewer that supports the chosen font, or programmatically enumerate `CadText` objects to read back the `FontName`.
 
 ---
 
-**Última actualización:** 2025-12-28  
+**Última actualización:** 2026-04-23  
 **Probado con:** Aspose.CAD for Java 24.12  
 **Autor:** Aspose
 

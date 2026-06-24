@@ -1,12 +1,15 @@
 ---
-date: 2025-12-19
-description: Pelajari cara menyimpan CAD sebagai PNG menggunakan Aspose.CAD untuk
-  Java, mengonversi file DWG, DXF, dan file CAD lainnya menjadi gambar raster secara
-  efisien.
-linktitle: Convert CAD Drawing to Raster Image Format
+date: 2026-04-23
+description: Pelajari cara mengonversi DWG ke PNG dan menyimpan CAD sebagai PNG menggunakan
+  Aspose.CAD untuk Java, mengonversi file DWG, DXF, dan file CAD lainnya menjadi gambar
+  raster secara efisien.
+keywords:
+- convert dwg to png
+- save cad as png
+- cad to png conversion
+linktitle: Ubah Gambar CAD ke Format Gambar Raster
 second_title: Aspose.CAD Java API
-title: Simpan CAD sebagai PNG – Konversi Gambar CAD ke Format Gambar Raster Menggunakan
-  Aspose.CAD untuk Java
+title: Ubah DWG ke PNG – Simpan CAD sebagai PNG Menggunakan Aspose.CAD untuk Java
 url: /id/java/cad-drawing-conversion/convert-cad-drawing-to-raster-image/
 weight: 10
 ---
@@ -15,34 +18,37 @@ weight: 10
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Simpan CAD menjadi PNG – Konversi Gambar CAD ke Format Gambar Raster Menggunakan Aspose.CAD untuk Java
+# Mengonversi DWG ke PNG – Simpan CAD sebagai PNG Menggunakan Aspose.CAD untuk Java
 
-## Perkenalan
+## Pendahuluan
 
-Dalam tutorial ini, Anda akan belajar cara **menyimpan CAD sebagai PNG** menggunakan Aspose.CAD untuk Java. Mengonversi gambar CAD ke format gambar raster seperti PNG merupakan kebutuhan yang sering muncul untuk pemasaran web, dokumentasi, dan pelaporan. Aspose.CAD menyediakan cara yang andal dan berperforma tinggi untuk melakukan **konversi cad ke png** untuk DWG, DXF, DWF, dan banyak tipe file CAD lainnya.
+Dalam tutorial ini, Anda akan belajar cara **mengonversi DWG ke PNG** menggunakan Aspose.CAD untuk Java. Mengonversi gambar CAD ke format gambar raster seperti PNG adalah kebutuhan yang sering muncul untuk pratinjau web, dokumentasi, dan pelaporan. Aspose.CAD menyediakan cara yang andal dan berkinerja tinggi untuk melakukan **konversi cad ke png** untuk DWG, DXF, DWF, dan banyak tipe file CAD lainnya.
 
 ## Jawaban Cepat
-- **Perpustakaan apa yang menangani konversi?** Aspose.CAD untuk Java.
-- **Apakah saya dapat mengonversi DWG ke PNG?** Ya – API yang sama berfungsi untuk DWG, DXF, dan format lainnya.
-- **Apakah saya memerlukan lisensi untuk produksi?** Lisensi komersial diperlukan untuk penggunaan non‑evaluasi.
-- **Apakah ukuran raster dapat dikonfigurasi?** Tentu – Anda dapat mengatur lebar halaman, tinggi, dan DPI melalui opsi rasterisasi.
+- **Perpustakaan apa yang menangani konversi?** Aspose.CAD untuk Java.  
+- **Apakah saya dapat mengonversi DWG ke PNG?** Ya – API yang sama bekerja untuk DWG, DXF, dan format lainnya.  
+- **Apakah saya memerlukan lisensi untuk produksi?** Lisensi komersial diperlukan untuk penggunaan non‑evaluasi.  
+- **Apakah ukuran raster dapat dikonfigurasi?** Tentu – Anda dapat mengatur lebar halaman, tinggi, dan DPI melalui opsi rasterisasi.  
 - **Berapa lama proses konversi?** Biasanya kurang dari satu detik untuk gambar standar; file yang lebih besar mungkin memerlukan waktu lebih lama.
 
-## Apa itu “simpan CAD sebagai PNG”?
-Menyimpan CAD sebagai PNG berarti merasterkan data CAD berbasis vektor menjadi gambar berbasis piksel (PNG). Proses ini, yang sering disebut **konversi cad ke raster**, mempertahankan kesetiaan visual sambil menghasilkan format yang mudah disisipkan ke halaman web, email, atau laporan.
+## Cara Mengonversi DWG ke PNG Menggunakan Aspose.CAD
 
-## Mengapa menggunakan Aspose.CAD untuk Java?
-- **Format Dukungan luas** – bekerja dengan DWG, DXF, DWF, dan lainnya.
-- **Tanpa ketergantungan eksternal** – murni Java, tanpa DLL native.
-- **Kontrol detail** – sesuaikan resolusi, warna latar belakang, dan kualitas rendering.
-- **Kinerja skalabel** – cocok untuk transmisi batch atau konversi on‑the‑fly.
+Menyimpan CAD sebagai PNG berarti merasterkan data CAD berbasis vektor menjadi gambar berbasis piksel (PNG). Proses ini, yang sering disebut **convert dwg to raster**, mempertahankan kesetiaan visual sambil menghasilkan format yang mudah disisipkan ke halaman web, email, atau laporan.
+
+## Mengapa Menggunakan Aspose.CAD untuk Java?
+
+- **Dukungan format yang luas** – bekerja dengan DWG, DXF, DWF, dan lainnya.  
+- **Tanpa dependensi eksternal** – Java murni, tanpa DLL native.  
+- **Kontrol halus** – sesuaikan resolusi, warna latar belakang, dan kualitas rendering.  
+- **Kinerja skalabel** – cocok untuk pemrosesan batch atau konversi on‑the‑fly.  
+- **Cara menyimpan CAD** – API memungkinkan Anda **menyimpan CAD sebagai PNG** hanya dengan beberapa baris kode.
 
 ## Prasyarat
 
 Sebelum memulai tutorial, pastikan Anda telah menyiapkan prasyarat berikut:
 
-1. **Lingkungan Pengembangan Java:** Pastikan Anda memiliki lingkungan pengembangan Java yang berfungsi di mesin Anda.
-2. **Perpustakaan Aspose.CAD:** Unduh dan integrasikan perpustakaan Aspose.CAD untuk Java ke dalam proyek Anda. Anda dapat menemukan perpustakaan tersebut [di sini](https://releases.aspose.com/cad/java/).
+1. **Lingkungan Pengembangan Java** – JDK yang berfungsi (8 atau lebih baru) serta IDE atau alat build pilihan Anda.  
+2. **Perpustakaan Aspose.CAD** – unduh dan integrasikan perpustakaan Aspose.CAD untuk Java ke dalam proyek Anda. Anda dapat menemukan perpustakaan tersebut [di sini](https://releases.aspose.com/cad/java/).
 
 ## Impor Namespace
 
@@ -56,7 +62,7 @@ import com.aspose.cad.imageoptions.CadRasterizationOptions;
 import com.aspose.cad.imageoptions.PngOptions;
 ```
 
-Sekarang, mari kita uraikan proses mengonversi gambar CAD menjadi gambar raster dalam langkah‑langkah terperinci:
+Sekarang, mari kita uraikan proses mengonversi gambar CAD menjadi gambar raster ke dalam langkah‑langkah terperinci:
 
 ## Langkah 1: Muat Gambar CAD
 
@@ -66,7 +72,7 @@ String srcFile = dataDir + "conic_pyramid.dxf";
 Image image = Image.load(srcFile);
 ```
 
-Pada langkah ini, kita memuat gambar CAD dari jalur file yang ditentukan menggunakan metode `Image.load()`.
+Pada langkah ini, kami memuat gambar CAD dari jalur file yang ditentukan menggunakan metode `Image.load()`.
 
 ## Langkah 2: Atur Opsi Rasterisasi
 
@@ -97,39 +103,40 @@ Simpan gambar raster yang dihasilkan ke direktori yang ditentukan menggunakan me
 
 Ulangi langkah‑langkah ini untuk file CAD spesifik Anda, dan Anda akan berhasil **mengonversi gambar gambar CAD** ke PNG.
 
-## Kasus & Tip Penggunaan Umum
+## Kasus Penggunaan Umum & Tips
 
-- **Pembuatan tayangan web** – Konversi file DWG besar menjadi thumbnail PNG ringan untuk tampilan cepat di browser.
-- **Penyisipan dalam laporan** – Gunakan output PNG dalam laporan PDF atau Word di mana file vektor CAD tidak didukung.
-- **Konversi batch** – Loop melalui folder berisi file CAD dan menerapkan pengaturan rasterisasi yang sama untuk output yang konsisten.
-- **Tips pro:** Sesuaikan `rasterizationOptions.setResolution()` untuk meningkatkan DPI demi cetakan beresolusi tinggi.
+- **Pembuatan pratinjau web** – Konversi file DWG besar menjadi thumbnail PNG ringan untuk tampilan cepat di browser.  
+- **Penyisipan dalam laporan** – Gunakan output PNG dalam laporan PDF atau Word di mana file CAD vektor tidak didukung.  
+- **Konversi batch** – Loop melalui folder berisi file CAD dan terapkan pengaturan rasterisasi yang sama untuk output yang konsisten.  
+- **Tip pro:** Sesuaikan `rasterizationOptions.setResolution()` untuk meningkatkan DPI bagi cetakan resolusi tinggi.  
+- **Cara mengonversi DWG** – Anda juga dapat mengubah format output dengan mengganti `PngOptions` dengan opsi gambar lain (misalnya, `JpegOptions`) sambil mempertahankan pengaturan rasterisasi yang sama.
 
 ## Kesimpulan
 
-Kesimpulannya, mengubah gambar CAD menjadi gambar raster menggunakan Aspose.CAD untuk Java adalah proses yang sederhana. Dengan mengikuti langkah‑langkah yang dijabarkan dalam tutorial ini, Anda dapat dengan efisien mengintegrasikan fungsionalitas ini ke dalam aplikasi Java Anda dan melakukan **konversi dwg ke png**, **ekspor cad sebagai png**, atau **konversi cad ke png** lainnya yang Anda perlukan.
+Dengan mengikuti langkah‑langkah di atas, Anda dapat dengan mudah **mengonversi DWG ke PNG**, **menyimpan CAD sebagai PNG**, atau melakukan **konversi cad ke png** apa pun yang Anda perlukan. API Aspose.CAD untuk Java membuat proses ini sederhana, memberi Anda kontrol penuh atas resolusi, warna latar belakang, dan format output—sempurna untuk pratinjau web, dokumentasi, atau pipeline pemrosesan batch.
 
 ## Pertanyaan yang Sering Diajukan
 
-**Q: Bagaimana cara mengubah file DWG ke PNG dengan warna latar belakang khusus?**
-A: Atur properti `backgroundColor` pada `CadRasterizationOptions` sebelum membuat instance `PngOptions`.
+**T: Bagaimana cara mengonversi file DWG ke PNG dengan warna latar belakang khusus?**  
+J: Atur properti `backgroundColor` pada `CadRasterizationOptions` sebelum membuat instance `PngOptions`.
 
-**Q: Apakah memungkinkan mengonversi beberapa file CAD dalam satu batch operasi?**
-A: Ya—bungkus langkah pemuatan, rasterisasi, dan penyimpanan di dalam loop yang mengiterasi koleksi file Anda.
+**T: Apakah memungkinkan mengonversi beberapa file CAD dalam satu operasi batch?**  
+J: Ya—bungkus langkah pemuatan, rasterisasi, dan penyimpanan di dalam loop yang mengiterasi koleksi file Anda.
 
-**Q: Kualitas gambar apa yang dapat saya harapkan dari pengaturan default?**
-A: DPI default (96) menghasilkan kualitas layar PNG; tingkatkan DPI untuk hasil kualitas cetak.
+**T: Kualitas gambar apa yang dapat saya harapkan dari pengaturan default?**  
+J: DPI default (96) menghasilkan PNG kualitas layar; tingkatkan DPI untuk hasil kualitas cetak.
 
-**Q: Apakah Aspose.CAD mendukung latar belakang transparan pada keluaran PNG?**
+**T: Apakah Aspose.CAD mendukung latar belakang transparan pada output PNG?**  
 J: Tentu. Secara default, PNG disimpan dengan saluran alfa; Anda juga dapat menentukan latar belakang transparan dalam opsi rasterisasi.
 
-**Q: Bisakah saya mengonversi file CAD ke format raster lain seperti JPEG atau BMP?**
-A: Ya—ganti `PngOptions` dengan `JpegOptions` atau `BmpOptions` sambil mempertahankan pengaturan rasterisasi yang sama.
+**T: Dapatkah saya mengonversi file CAD ke format raster lain seperti JPEG atau BMP?**  
+J: Ya—ganti `PngOptions` dengan `JpegOptions` atau `BmpOptions` sambil mempertahankan pengaturan rasterisasi yang sama.
 
 ---
 
-**Terakhir Diperbarui:** 19-12-2025
-**Diuji Dengan:** Aspose.CAD untuk Java 24.12 (terbaru)
-**Penulis:** Beranggapan  
+**Terakhir Diperbarui:** 2026-04-23  
+**Diuji Dengan:** Aspose.CAD untuk Java 24.12 (terbaru)  
+**Penulis:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

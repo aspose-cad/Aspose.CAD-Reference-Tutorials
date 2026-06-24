@@ -1,11 +1,15 @@
 ---
-date: 2025-12-30
-description: Naučte se, jak vytvořit seznam atributů v Javě a přidávat atributy do
-  DWG pomocí Aspose.CAD pro Javu. Postupujte podle tohoto krok‑za‑krokem průvodce
-  a obohaťte DWG výkresy.
-linktitle: Add Attributes to MText in DWG Files with Java
+date: 2026-04-23
+description: Naučte se, jak přidávat atributy do MText v DWG souborech pomocí Javy
+  a Aspose.CAD. Také se podívejte, jak upravit hodnoty atributů v Javě pro bohatší
+  CAD metadata.
+keywords:
+- how to add attributes
+- modify attribute values java
+- create attribute list java
+linktitle: Přidat atributy do MText v DWG souborech pomocí Javy
 second_title: Aspose.CAD Java API
-title: Vytvořit seznam atributů v Javě – Přidat atributy do MText v DWG
+title: Jak přidat atributy do MText v DWG pomocí Javy
 url: /cs/java/cad-text-and-formatting/add-attributes-to-mtext/
 weight: 13
 ---
@@ -14,29 +18,29 @@ weight: 13
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Vytvoření seznamu atributů v Java – Přidání atributů do MText v DWG
+# Jak přidat atributy do MText v DWG pomocí Javy
 
 ## Úvod
 
-Pokud potřebujete **create attribute list java** pro CAD výkresy, jste na správném místě. V tomto tutoriálu vám ukážeme, jak použít Aspose.CAD for Java k přidání atributů do objektů MText uvnitř souborů DWG – běžná potřeba, když chcete vložit metadata nebo vlastní informace přímo do vašich výkresů. Na konci tohoto průvodce pochopíte, proč je tato technika důležitá, jak ji nastavit a jak bezpečně spustit kód.
+Pokud hledáte **jak přidat atributy** k objektům MText uvnitř souborů DWG, jste na správném místě. V tomto tutoriálu vás provedeme používáním Aspose.CAD pro Javu k vytvoření seznamu atributů, připojení těchto atributů k MText a dokonce vám ukážeme, jak **upravit hodnoty atributů v Javě** podle potřeby. Na konci pochopíte, proč je tato technika důležitá, co potřebujete k zahájení a jak spustit kód bezpečně a efektivně.
 
 ## Rychlé odpovědi
-- **Co znamená “create attribute list java”?** Jedná se o vytvoření kolekce objektů atributů v Javě, které lze připojit k CAD entitám, jako je MText.  
-- **Která knihovna to podporuje?** Aspose.CAD for Java poskytuje robustní API pro manipulaci s DWG/DXF.  
-- **Potřebuji licenci?** K dispozici je bezplatná zkušební verze, ale pro produkční použití je vyžadována komerční licence.  
-- **S jakými soubory mohu pracovat?** Kód funguje s DWG, DXF, DWF a dalšími podporovanými CAD formáty.  
-- **Jak dlouho trvá implementace?** Obvykle méně než 15 minut pro základní operaci seznamu atributů.
+- **Co znamená “how to add attributes”?** Jedná se o proces programového vytváření entit atributů a jejich propojení s CAD objekty, jako je MText.  
+- **Která knihovna to podporuje?** Aspose.CAD pro Javu nabízí plnohodnotné API pro manipulaci s DWG/DXF.  
+- **Potřebuji licenci?** Bezplatná zkušební verze funguje pro hodnocení, ale pro produkci je vyžadována komerční licence.  
+- **Mohu pracovat přímo se soubory DWG?** Ano – stejný kód funguje pro DWG, DXF, DWF a další podporované formáty.  
+- **Jak dlouho trvá implementace?** Obvykle méně než 15 minut pro základní operaci se seznamem atributů.
 
-## Požadavky
+## Předpoklady
 
-Než se pustíme do tohoto úkolu, ujistěte se, že máte následující:
+Než se pustíme dál, ujistěte se, že máte:
 
-- **Java Development Environment** – nainstalovaný a nakonfigurovaný JDK 8 nebo vyšší.  
-- **Aspose.CAD for Java Library** – Stáhněte a nainstalujte knihovnu z [here](https://releases.aspose.com/cad/java/).  
+- **Java vývojové prostředí** – nainstalovaný a nakonfigurovaný JDK 8 nebo vyšší.  
+- **Knihovna Aspose.CAD pro Javu** – Stáhněte a nainstalujte knihovnu z [here](https://releases.aspose.com/cad/java/).  
 
-## Import jmenných prostorů
+## Importovat jmenné prostory
 
-Ve vašem Java projektu importujte potřebné jmenné prostory pro přístup k funkcím Aspose.CAD for Java. To zahrnuje:
+Ve vašem Java projektu importujte potřebné jmenné prostory pro přístup k funkcím Aspose.CAD pro Javu. To zahrnuje:
 
 ```java
 import com.aspose.cad.Color;
@@ -51,11 +55,11 @@ import java.util.ArrayList;
 import java.util.List;
 ```
 
-## Co je “java add attributes dwg”?
+## Jak přidat atributy do MText pomocí Javy?
 
-Fráze **java add attributes dwg** popisuje proces programového vkládání entit atributů (jako jsou textové štítky, datová pole nebo vlastní značky) do souboru DWG pomocí Javy. To je užitečné pro automatizaci dokumentace, vytváření dynamických bloků nebo obohacení výkresů o prohledávatelná metadata.
+Fráze **java add attributes dwg** popisuje proces programového vkládání entit atributů (jako jsou textové popisky, datová pole nebo vlastní značky) do souboru DWG pomocí Javy. To je užitečné pro automatizaci dokumentace, vytváření dynamických bloků nebo obohacení výkresů o prohledávatelná metadata.
 
-## Krok 1: Nastavte cestu
+### Krok 1: Nastavit cestu
 
 ```java
 // The path to the resource directory.
@@ -65,7 +69,7 @@ String srcFile = dataDir + "conic_pyramid.dxf";
 
 > **Tip:** Uchovávejte své CAD zdroje v dedikované složce, aby se předešlo problémům souvisejícím s cestou během nasazení.
 
-## Krok 2: Načtěte CAD obrázek
+### Krok 2: Načíst CAD obrázek
 
 ```java
 CadImage cadImage =(CadImage) Image.load(srcFile);
@@ -73,16 +77,16 @@ CadImage cadImage =(CadImage) Image.load(srcFile);
 
 Načtení souboru jako `CadImage` vám poskytne přístup k celé kolekci entit, kterou budete iterovat v dalším kroku.
 
-## Krok 3: Inicializujte seznamy pro MText a atributy
+### Krok 3: Inicializovat seznamy pro MText a atributy
 
 ```java
 List<CadBaseEntity>  mtextList = new ArrayList<CadBaseEntity>();
 List<CadBaseEntity> attribList = new ArrayList<CadBaseEntity>();
 ```
 
-Tyto dva seznamy budou obsahovat objekty MText a jejich odpovídající entity atributů, čímž efektivně vytvoří **attribute list**, který chceme vytvořit.
+Tyto dva seznamy budou obsahovat objekty MText a jejich odpovídající entity atributů, čímž efektivně vytvoří **seznam atributů**, který chceme vytvořit.
 
-## Krok 4: Procházejte entity
+### Krok 4: Procházet entity
 
 ```java
 try
@@ -115,7 +119,11 @@ finally
 }
 ```
 
-Smyčka sbírá každou entitu MText a všechny vnořené objekty `ATTRIB`. Po provedení uvidíte vytištěné počty, což potvrzuje, že váš **attribute list** byl úspěšně vytvořen.
+Smyčka sbírá každou entitu MText a všechny vnořené objekty `ATTRIB`. Po provedení uvidíte vytištěné počty, což potvrzuje, že váš **seznam atributů** byl úspěšně vytvořen.
+
+## Jak upravit hodnoty atributů v Javě
+
+Jakmile máte `attribList`, můžete přetypovat každou `CadBaseEntity` na její konkrétní typ (např. `CadAttributeEntity`) a změnit vlastnosti jako text, výšku nebo barvu. Aktualizace hodnot před uložením výkresu vám umožní přizpůsobit metadata za běhu, což je zvláště užitečné pro dávkové zpracování velkých projektů.
 
 ## Proč je to důležité
 
@@ -123,19 +131,19 @@ Vytvoření seznamu atributů v Javě vám umožní:
 
 - **Automatizovat zadávání dat** – Vyplnit více výkresů konzistentními metadaty bez ruční úpravy.  
 - **Umožnit prohledávatelné CAD soubory** – Atributy lze indexovat, což usnadňuje vyhledávání součástí nebo specifikací.  
-- **Podporovat následné procesy** – Exportované atributy mohou být použity v BIM, GIS nebo reportovacích řetězcích.
+- **Podporovat následné procesy** – Exportované atributy mohou být použity v BIM, GIS nebo reportovacích řetězcích.  
 
 ## Časté úskalí a řešení
 
 | Problém | Důvod | Řešení |
 |-------|--------|-----|
-| Nenalezen žádný MText | Špatný typ souboru (např. DWG bez MText) | Ověřte, že zdrojový soubor obsahuje objekty MText, nebo použijte jiný vzor. |
+| Nenalezen MText | Špatný typ souboru (např. DWG bez MText) | Ověřte, že zdrojový soubor obsahuje objekty MText, nebo použijte jiný vzor. |
 | `attribList` je prázdný | Atributy jsou uloženy v blocích, které nejsou entity `INSERT` | Upravte podmínku tak, aby také kontrolovala entity `BLOCK`, pokud je to potřeba. |
 | `NullPointerException` na `cadImage` | Nesprávná cesta k souboru | Zkontrolujte hodnoty `dataDir` a `srcFile`. |
 
 ## Závěr
 
-V tomto tutoriálu jsme prošli procesem **create attribute list java** pomocí Aspose.CAD for Java k přidání atributů do MText v DWG souborech. Nyní máte solidní základ pro obohacení vašich CAD výkresů, automatizaci vkládání metadat a integraci CAD dat do širších pracovních toků.
+V tomto tutoriálu jsme prošli **jak přidat atributy** k MText v DWG souborech pomocí Aspose.CAD pro Javu, vytvořili robustní seznam atributů a prozkoumali způsoby, jak **upravit hodnoty atributů v Javě** pro bohatší CAD metadata. Nyní máte pevný základ pro obohacení vašich výkresů, automatizaci vkládání metadat a integraci CAD dat do větších pracovních postupů.
 
 ## Často kladené otázky
 
@@ -143,18 +151,20 @@ V tomto tutoriálu jsme prošli procesem **create attribute list java** pomocí 
 A: Stejná logika platí pro soubory DWG; stačí změnit příponu souboru v `srcFile`.
 
 **Q: Mohu po sběru upravit hodnoty atributů?**  
-A: Ano, každý `CadBaseEntity` v `attribList` lze přetypovat na konkrétní typ a jeho vlastnosti aktualizovat před uložením.
+A: Ano, každá `CadBaseEntity` v `attribList` může být přetypována na její konkrétní typ a její vlastnosti mohou být aktualizovány před uložením.
 
-**Q: Jak uložit upravený výkres?**  
-A: Po provedení změn zavolejte `cadImage.save("output.dwg");` (ujistěte se, že máte licencovanou verzi pro ukládání).
+**Q: Jak uložím upravený výkres?**  
+A: Po provedení změn zavolejte `cadImage.save("output.dwg");` (pro ukládání je vyžadována licencovaná verze).
 
-**Q: Má to vliv na výkon u velkých výkresů?**  
+**Q: Má to dopad na výkon u velkých výkresů?**  
 A: Procházení mnoha entit může být náročné na paměť; zvažte zpracování po dávkách nebo použití streamovacích API, pokud jsou k dispozici.
 
-**Q: Existují licenční omezení pro komerční použití?**  
-A: Pro produkční nasazení je vyžadována komerční licence; zkušební verze slouží pouze pro hodnocení.
+**Q: Existují nějaká licenční omezení pro komerční použití?**  
+A: Pro produkční nasazení je vyžadována komerční licence; zkušební verze je pouze pro hodnocení.
 
-**Poslední aktualizace:** 2025-12-30  
+---
+
+**Poslední aktualizace:** 2026-04-23  
 **Testováno s:** Aspose.CAD for Java 24.11  
 **Autor:** Aspose  
 
