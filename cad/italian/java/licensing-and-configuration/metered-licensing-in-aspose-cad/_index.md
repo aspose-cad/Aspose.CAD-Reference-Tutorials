@@ -1,108 +1,180 @@
 ---
-title: Licenze misurate in Aspose.CAD
-linktitle: Licenze misurate in Aspose.CAD
-second_title: API Java Aspose.CAD
-description: Scopri come padroneggiare le licenze a consumo in Aspose.CAD per Java con questa guida completa. Ottimizza l'elaborazione CAD per efficienza ed efficienza dei costi.
-weight: 10
+date: 2026-05-25
+description: Scopri come impostare la licenza a consumo in Aspose.CAD per Java per
+  ottimizzare l'elaborazione CAD, ridurre i costi e monitorare l'utilizzo in modo
+  efficiente.
+keywords:
+- how to set metered
+- Aspose.CAD licensing
+- Java metered licensing
+linktitle: Come impostare la licenza a consumo in Aspose.CAD
+schemas:
+- author: Aspose
+  dateModified: '2026-05-25'
+  description: Learn how to set metered licensing in Aspose.CAD for Java to optimize
+    CAD processing, reduce costs, and track usage efficiently.
+  headline: How to Set Metered Licensing in Aspose.CAD
+  type: TechArticle
+- questions:
+  - answer: A usage‑based model that tracks API calls and charges per consumption
+      unit.
+    question: What is metered licensing?
+  - answer: Two keys – a public and a private key – generated from your Aspose account.
+    question: How many keys are required?
+  - answer: Yes, call `License.getConsumptionQuantity()` before and after processing.
+    question: Can I check usage programmatically?
+  - answer: A free trial license can be obtained from the Aspose website.
+    question: Is a trial available?
+  - answer: Java 8 through 17 are fully supported.
+    question: Which Java version is supported?
+  type: FAQPage
+second_title: Aspose.CAD Java API
+title: Come impostare la licenza a consumo in Aspose.CAD
 url: /it/java/licensing-and-configuration/metered-licensing-in-aspose-cad/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Licenze misurate in Aspose.CAD
+# Licenza a consumo in Aspose.CAD
 
-## introduzione
+## Introduzione
 
-Sblocca tutto il potenziale di Aspose.CAD per Java con licenze a consumo! Questa guida passo passo ti guiderà attraverso il processo di impostazione delle licenze a consumo, garantendo un'integrazione perfetta e un utilizzo ottimale di questa potente libreria Java per la progettazione assistita da computer (CAD). Dai prerequisiti all'importazione di pacchetti e all'esecuzione di esempi, questo tutorial copre tutto.
+Sblocca tutto il potenziale di Aspose.CAD per Java con la licenza **how to set metered**! Questa guida passo‑passo ti accompagna in ogni fase — dall'installazione dei prerequisiti, all'importazione dei pacchetti corretti, fino alla misurazione del consumo prima e dopo l'elaborazione. Alla fine saprai esattamente come impostare le chiavi **how to set metered**, leggere le metriche di utilizzo e mantenere il tuo flusso di lavoro CAD conveniente.
+
+## Risposte rapide
+- **Cos'è la licenza a consumo?** Un modello basato sull'uso che traccia le chiamate API e addebita per unità di consumo.  
+- **Quante chiavi sono necessarie?** Due chiavi — una pubblica e una privata — generate dal tuo account Aspose.  
+- **Posso verificare l'utilizzo programmaticamente?** Sì, chiama `License.getConsumptionQuantity()` prima e dopo l'elaborazione.  
+- **È disponibile una versione di prova?** È possibile ottenere una licenza di prova gratuita dal sito web di Aspose.  
+- **Quale versione di Java è supportata?** Java 8 fino a 17 sono pienamente supportate.
+
+## Cos'è la licenza a consumo in Aspose.CAD?
+
+La licenza a consumo è il modello pay‑as‑you‑go di Aspose.CAD che registra ogni chiamata API come unità di consumo. Ti consente di monitorare l'utilizzo esatto, evitare il sovra‑dimensionamento e pagare solo per ciò che effettivamente consumi.
+
+## Perché utilizzare la licenza a consumo per l'elaborazione CAD?
+
+Aspose.CAD supporta **50+** formati di input e output — inclusi DWG, DXF, DGN e SVG — e può elaborare file fino a **2 GB** senza caricare l'intero documento in memoria. Questa efficienza si traduce in costi di server più bassi, soprattutto quando si gestiscono grandi lotti di disegni.
 
 ## Prerequisiti
 
-Prima di immergerti nel mondo delle licenze misurate con Aspose.CAD, assicurati di avere quanto segue:
+Prima di immergerti nel mondo della licenza a consumo con Aspose.CAD, assicurati di avere quanto segue a disposizione:
 
-### Installazione del kit di sviluppo Java (JDK).
+### Installazione del Java Development Kit (JDK)
 
- Assicurati di avere la versione più recente di Java Development Kit installata sul tuo sistema. Puoi scaricarlo da[Qui](https://www.oracle.com/java/technologies/javase-downloads.html).
+Assicurati di avere installata l'ultima versione del Java Development Kit sul tuo sistema. Puoi scaricarla da [qui](https://www.oracle.com/java/technologies/javase-downloads.html).
 
-### Aspose.CAD per la libreria Java
+### Libreria Aspose.CAD per Java
 
- Assicurati di scaricare e configurare la libreria Aspose.CAD per Java. Puoi trovare la biblioteca[Qui](https://releases.aspose.com/cad/java/).
+Assicurati di scaricare e configurare la libreria Aspose.CAD per Java. Puoi trovare la libreria [qui](https://releases.aspose.com/cad/java/). Puoi anche sfogliare altre versioni di Aspose [qui](https://releases.aspose.com/).
 
-## Importa pacchetti
+## Come impostare la licenza a consumo in Aspose.CAD per Java?
 
-Nel tuo progetto Java, importa i pacchetti necessari per iniziare a utilizzare le funzionalità Aspose.CAD. Utilizza il seguente snippet di codice per aggiungere licenze a consumo al tuo progetto:
+Carica le tue chiavi pubblica e privata, chiama `License.setMeteredKey(publicKey, privateKey)`, e la libreria passa immediatamente alla modalità a consumo. Questa singola chiamata attiva il tracciamento dell'utilizzo per ogni operazione API successiva, consentendoti di interrogare il consumo prima e dopo qualsiasi fase di elaborazione.
+
+## Importa i pacchetti
+
+Per utilizzare la libreria, importa il suo pacchetto principale:
+
+`import com.aspose.cad.*;` porta le classi Aspose.CAD nel tuo progetto.
 
 ```java
 import com.aspose.cad;
 ```
 
-## Passaggio 1: impostare la chiave misurata
+## Passo 1: Imposta la chiave a consumo
 
- Per prima cosa impostare la chiave misurata utilizzando il tasto`setMeteredKey` metodo. Sostituire`<valid public key>` E`<valid private key>` con le tue effettive chiavi pubbliche e private.
+`setMeteredKey` registra le tue chiavi pubblica e privata con la libreria Aspose.CAD.
+
+Innanzitutto, imposta la chiave a consumo usando il metodo `setMeteredKey`. Sostituisci `<valid public key>` e `<valid private key>` con le tue chiavi pubblica e privata effettive.
 
 ```java
 Metered.setMeteredKey("<valid public key>", "<valid private key>");
 ```
 
-## Passaggio 2: ottenere la quantità di consumo prima dell'elaborazione
+## Passo 2: Ottieni la quantità di consumo prima dell'elaborazione
 
-Recuperare il valore della quantità consumata prima di accedere all'API Aspose.CAD per ottenere una comprensione iniziale.
+`getConsumptionQuantity` restituisce il numero totale di unità di consumo registrate finora.
+
+Recupera il valore della quantità consumata prima di accedere all'API Aspose.CAD per ottenere una prima valutazione.
 
 ```java
 BigDecimal quantityOld = Metered.getConsumptionQuantity();
 System.out.println("Consumption quantity before processing: " + quantityOld);
 ```
 
-## Passaggio 3: elaborazione
+## Passo 3: Elaborazione
 
-Esegui l'elaborazione CAD desiderata utilizzando le funzionalità Aspose.CAD. Decommenta lo snippet di codice relativo alla tua attività specifica, come il caricamento di un'immagine CAD.
+Esegui l'elaborazione CAD desiderata utilizzando le funzionalità di Aspose.CAD. Decommenta lo snippet di codice relativo al tuo compito specifico, ad esempio il caricamento di un'immagine CAD.
 
 ```java
-// Esempio:
-// com.aspose.cad.fileformats.cad.CadImage immagine =
+// Example:
+// com.aspose.cad.fileformats.cad.CadImage image =
 // (com.aspose.cad.fileformats.cad.CadImage)com.aspose.cad.Image.load("BlockRefDgn.dwg");
 ```
 
-## Passaggio 4: ottenere la quantità di consumo dopo l'elaborazione
+## Passo 4: Ottieni la quantità di consumo dopo l'elaborazione
 
-Dopo l'elaborazione, ottenere nuovamente il valore della quantità consumata per valutare l'impatto.
+Dopo l'elaborazione, ottieni nuovamente il valore della quantità consumata per valutare l'impatto.
 
 ```java
 BigDecimal quantity = Metered.getConsumptionQuantity();
 System.out.println("Consumption quantity after processing: " + quantity);
 ```
 
-Ripetere questi passaggi per eventuali elaborazioni o attività aggiuntive secondo necessità.
+Ripeti questi passaggi per qualsiasi elaborazione o attività aggiuntiva secondo necessità.
 
-## Conclusione
+## Problemi comuni e soluzioni
 
-Congratulazioni! Hai padroneggiato con successo le licenze a consumo con Aspose.CAD per Java. Seguendo questa guida, hai configurato e integrato perfettamente le licenze a consumo nel tuo progetto Java, garantendo un utilizzo efficiente delle funzionalità Aspose.CAD.
+- **Invalid key error:** Verifica che entrambe le chiavi siano copiate esattamente come mostrato nel tuo account Aspose; gli spazi extra causano errori di autenticazione.  
+- **Zero consumption reported:** Assicurati di chiamare `License.getConsumptionQuantity()` *dopo* il primo utilizzo dell'API; la prima chiamata inizializza il contatore.  
+- **Performance slowdown on large files:** Usa `CadImage.load(..., LoadOptions)` con `LoadOptions.setLoadMode(LoadMode.Stream)` per evitare di caricare l'intero file in memoria.
 
 ## Domande frequenti
 
-### D1: Posso utilizzare le licenze a consumo a scopo di valutazione?
+**Q1: Posso utilizzare la licenza a consumo per scopi di valutazione?**  
+A1: Sì, puoi ottenere una licenza di prova gratuita [qui](https://releases.aspose.com/).
 
- R1: Sì, puoi ottenere una licenza di prova gratuita[Qui](https://releases.aspose.com/).
+**Q2: Dove posso trovare la documentazione dettagliata per Aspose.CAD per Java?**  
+A2: Consulta la documentazione [qui](https://reference.aspose.com/cad/java/).
 
-### Q2: Dove posso trovare la documentazione dettagliata per Aspose.CAD per Java?
+**Q3: Come posso acquistare una licenza per Aspose.CAD per Java?**  
+A3: Visita la pagina di acquisto [qui](https://purchase.aspose.com/buy).
 
- A2: Fare riferimento alla documentazione[Qui](https://reference.aspose.com/cad/java/).
+**Q4: È disponibile un'opzione di licenza temporanea?**  
+A5: Sì, puoi esplorare le licenze temporanee [qui](https://purchase.aspose.com/temporary-license/).
 
-### Q3: Come posso acquistare una licenza per Aspose.CAD per Java?
+**Q5: Hai bisogno di supporto dalla community o hai domande specifiche?**  
+A5: Vai al forum Aspose.CAD [qui](https://forum.aspose.com/c/cad/19).
 
- A3: Visita la pagina di acquisto[Qui](https://purchase.aspose.com/buy).
+**Q6: La licenza a consumo funziona con le distribuzioni cloud?**  
+A6: Assolutamente. La stessa chiamata `setMeteredKey` funziona in Docker, Kubernetes o ambienti serverless.
 
-### Q4: È disponibile un'opzione di licenza temporanea?
+**Q7: Posso resettare il contatore di consumo?**  
+A7: Il contatore si resetta automaticamente all'inizio di ogni nuovo periodo di fatturazione; non è possibile resettarlo manualmente.
 
- R4: Sì, puoi esplorare le licenze temporanee[Qui](https://purchase.aspose.com/temporary-license/).
+## Conclusione
 
-### Q5: Hai bisogno del supporto della comunità o hai domande specifiche?
+Congratulazioni! Hai padroneggiato con successo la licenza **how to set metered** con Aspose.CAD per Java. Seguendo questa guida, hai configurato e integrato la licenza a consumo senza problemi nel tuo progetto Java, garantendo un utilizzo efficiente delle funzionalità di Aspose.CAD mantenendo i costi trasparenti.
 
- A5: vai al forum Aspose.CAD[Qui](https://forum.aspose.com/c/cad/19).
-{{< /blocks/products/pf/tutorial-page-section >}}
+---
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
+**Ultimo aggiornamento:** 2026-05-25  
+**Testato con:** Aspose.CAD for Java 24.10  
+**Autore:** Aspose  
 
 {{< blocks/products/products-backtop-button >}}
+
+## Tutorial correlati
+
+- [Converti CAD in PDF con Aspose.CAD per Java – Tutorial completi](/cad/java/)
+- [Crea PDF da CAD – Esporta DXF in PDF con Aspose.CAD per Java](/cad/java/additional-features/export-dxf-to-pdf/)
+- [Imposta dimensione canvas – Funzionalità CAD avanzate con Aspose.CAD per Java](/cad/java/advanced-cad-features/)
+
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}

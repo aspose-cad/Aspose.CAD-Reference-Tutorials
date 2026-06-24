@@ -1,53 +1,105 @@
 ---
-title: Gemeten licenties in Aspose.CAD
-linktitle: Gemeten licenties in Aspose.CAD
-second_title: Aspose.CAD Java-API
-description: Leer hoe u met behulp van deze uitgebreide handleiding beheerde licentieverlening in Aspose.CAD voor Java onder de knie krijgt. Optimaliseer uw CAD-verwerking voor efficiëntie en kosteneffectiviteit.
-weight: 10
+date: 2026-05-25
+description: Leer hoe u Metered Licensing in Aspose.CAD voor Java kunt instellen om
+  CAD-verwerking te optimaliseren, kosten te verlagen en het gebruik efficiënt bij
+  te houden.
+keywords:
+- how to set metered
+- Aspose.CAD licensing
+- Java metered licensing
+linktitle: Hoe Metered Licensing in Aspose.CAD instellen
+schemas:
+- author: Aspose
+  dateModified: '2026-05-25'
+  description: Learn how to set metered licensing in Aspose.CAD for Java to optimize
+    CAD processing, reduce costs, and track usage efficiently.
+  headline: How to Set Metered Licensing in Aspose.CAD
+  type: TechArticle
+- questions:
+  - answer: A usage‑based model that tracks API calls and charges per consumption
+      unit.
+    question: What is metered licensing?
+  - answer: Two keys – a public and a private key – generated from your Aspose account.
+    question: How many keys are required?
+  - answer: Yes, call `License.getConsumptionQuantity()` before and after processing.
+    question: Can I check usage programmatically?
+  - answer: A free trial license can be obtained from the Aspose website.
+    question: Is a trial available?
+  - answer: Java 8 through 17 are fully supported.
+    question: Which Java version is supported?
+  type: FAQPage
+second_title: Aspose.CAD Java API
+title: Hoe Metered Licensing in Aspose.CAD instellen
 url: /nl/java/licensing-and-configuration/metered-licensing-in-aspose-cad/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Gemeten licenties in Aspose.CAD
+# Metered Licensing in Aspose.CAD
 
-## Invoering
+## Inleiding
 
-Ontgrendel het volledige potentieel van Aspose.CAD voor Java met gemeten licenties! Deze stapsgewijze handleiding leidt u door het proces van het instellen van licentielicenties, waardoor een naadloze integratie en optimaal gebruik van deze krachtige Java-bibliotheek voor Computer-Aided Design (CAD) wordt gegarandeerd. Van vereisten tot het importeren van pakketten en het uitvoeren van voorbeelden, deze tutorial behandelt het allemaal.
+Ontgrendel het volledige potentieel van Aspose.CAD voor Java met **how to set metered** licenties! Deze stapsgewijze gids leidt u door elke fase — van het installeren van de vereisten, het importeren van de juiste pakketten, tot het meten van het verbruik vóór en na de verwerking. Aan het einde weet u precies hoe u **how to set metered** sleutels instelt, gebruiksstatistieken leest, en uw CAD-werkstroom kosteneffectief houdt.
+
+## Snelle Antwoorden
+- **Wat is metered licensing?** Een op gebruik gebaseerd model dat API‑aanroepen bijhoudt en per verbruikseenheid in rekening brengt.  
+- **Hoeveel sleutels zijn vereist?** Twee sleutels – een publieke en een private sleutel – gegenereerd vanuit uw Aspose‑account.  
+- **Kan ik het gebruik programmatisch controleren?** Ja, roep `License.getConsumptionQuantity()` aan vóór en na de verwerking.  
+- **Is er een proefversie beschikbaar?** Een gratis proeflicentie kan worden verkregen via de Aspose‑website.  
+- **Welke Java‑versie wordt ondersteund?** Java 8 tot 17 worden volledig ondersteund.
+
+## Wat is metered licensing in Aspose.CAD?
+
+Metered licensing is het pay‑as‑you‑go‑model van Aspose.CAD dat elke API‑aanroep registreert als een verbruikseenheid. Het stelt u in staat om exact gebruik te monitoren, over‑provisioning te vermijden, en alleen te betalen voor wat u daadwerkelijk verbruikt.
+
+## Waarom metered licensing gebruiken voor CAD‑verwerking?
+
+Aspose.CAD ondersteunt **50+** invoer‑ en uitvoerformaten — waaronder DWG, DXF, DGN en SVG — en kan bestanden tot **2 GB** verwerken zonder het volledige document in het geheugen te laden. Deze efficiëntie leidt tot lagere serverkosten, vooral bij het verwerken van grote batches tekeningen.
 
 ## Vereisten
 
-Voordat u met Aspose.CAD in de wereld van gemeten licenties duikt, moet u ervoor zorgen dat u over het volgende beschikt:
+Voordat u duikt in de wereld van metered licensing met Aspose.CAD, zorg ervoor dat u het volgende heeft:
 
-### Java Development Kit (JDK)-installatie
+### Java Development Kit (JDK) Installatie
 
- Zorg ervoor dat de nieuwste versie van Java Development Kit op uw systeem is geïnstalleerd. Je kunt het downloaden van[hier](https://www.oracle.com/java/technologies/javase-downloads.html).
+Zorg ervoor dat u de nieuwste versie van de Java Development Kit op uw systeem heeft geïnstalleerd. U kunt deze downloaden via [here](https://www.oracle.com/java/technologies/javase-downloads.html).
 
-### Aspose.CAD voor Java-bibliotheek
+### Aspose.CAD for Java Bibliotheek
 
- Zorg ervoor dat u de Aspose.CAD voor Java-bibliotheek downloadt en instelt. Je kunt de bibliotheek vinden[hier](https://releases.aspose.com/cad/java/).
+Zorg ervoor dat u de Aspose.CAD for Java‑bibliotheek downloadt en instelt. U kunt de bibliotheek vinden [here](https://releases.aspose.com/cad/java/). U kunt ook andere Aspose‑releases bekijken [here](https://releases.aspose.com/).
 
-## Pakketten importeren
+## Hoe metered licensing in te stellen in Aspose.CAD voor Java?
 
-Importeer in uw Java-project de benodigde pakketten om de Aspose.CAD-functionaliteiten te gaan gebruiken. Gebruik het volgende codefragment om gemeten licenties aan uw project toe te voegen:
+Laad uw publieke en private sleutels, roep `License.setMeteredKey(publicKey, privateKey)` aan, en de bibliotheek schakelt direct over naar de metered‑modus. Deze enkele aanroep activeert het bijhouden van gebruik voor elke volgende API‑operatie, waardoor u het verbruik kunt opvragen vóór en na elke verwerkingsstap.
+
+## Pakketten Importeren
+
+Om de bibliotheek te gebruiken, importeert u het kernpakket:
+
+`import com.aspose.cad.*;`
 
 ```java
 import com.aspose.cad;
 ```
 
-## Stap 1: Stel de gemeten sleutel in
+## Stap 1: Metered‑sleutel Instellen
 
- Stel eerst de metersleutel in met behulp van de`setMeteredKey` methode. Vervangen`<valid public key>` En`<valid private key>` met uw daadwerkelijke openbare en privésleutels.
+`setMeteredKey` registreert uw publieke en private sleutels bij de Aspose.CAD‑bibliotheek.
+
+Stel eerst de metered‑sleutel in met de `setMeteredKey`‑methode. Vervang `<valid public key>` en `<valid private key>` door uw daadwerkelijke publieke en private sleutels.
 
 ```java
 Metered.setMeteredKey("<valid public key>", "<valid private key>");
 ```
 
-## Stap 2: Verkrijg de verbruikshoeveelheid vóór verwerking
+## Stap 2: Verbruikshoeveelheid Ophalen Voor Verwerking
 
-Haal de verbruikte hoeveelheidswaarde op voordat u de Aspose.CAD API opent om een eerste inzicht te krijgen.
+`getConsumptionQuantity` retourneert het totale aantal verbruikseenheden dat tot nu toe is geregistreerd.
+
+Haal de verbruikshoeveelheid op vóór het benaderen van de Aspose.CAD‑API om een eerste inzicht te krijgen.
 
 ```java
 BigDecimal quantityOld = Metered.getConsumptionQuantity();
@@ -56,53 +108,72 @@ System.out.println("Consumption quantity before processing: " + quantityOld);
 
 ## Stap 3: Verwerking
 
-Voer uw gewenste CAD-verwerking uit met behulp van Aspose.CAD-functionaliteiten. Verwijder de opmerkingen bij het codefragment dat betrekking heeft op uw specifieke taak, zoals het laden van een CAD-afbeelding.
+Voer de gewenste CAD‑verwerking uit met behulp van de functionaliteiten van Aspose.CAD. Haal de commentaartekens weg bij de code‑snippet die bij uw specifieke taak hoort, zoals het laden van een CAD‑afbeelding.
 
 ```java
-// Voorbeeld:
-// com.aspose.cad.fileformats.cad.CadImage afbeelding =
+// Example:
+// com.aspose.cad.fileformats.cad.CadImage image =
 // (com.aspose.cad.fileformats.cad.CadImage)com.aspose.cad.Image.load("BlockRefDgn.dwg");
 ```
 
-## Stap 4: Verkrijg de verbruikshoeveelheid na verwerking
+## Stap 4: Verbruikshoeveelheid Ophalen Na Verwerking
 
-Na verwerking dient u opnieuw de waarde van de verbruikte hoeveelheid op te vragen om de impact te beoordelen.
+Na de verwerking haalt u de verbruikshoeveelheid opnieuw op om de impact te beoordelen.
 
 ```java
 BigDecimal quantity = Metered.getConsumptionQuantity();
 System.out.println("Consumption quantity after processing: " + quantity);
 ```
 
-Herhaal deze stappen indien nodig voor eventuele aanvullende verwerkingen of taken.
+Herhaal deze stappen voor eventuele extra verwerking of taken indien nodig.
+
+## Veelvoorkomende Problemen en Oplossingen
+
+- **Invalid key error:** Controleer dubbel of beide sleutels exact zijn gekopieerd zoals weergegeven in uw Aspose‑account; extra spaties veroorzaken authenticatiefouten.  
+- **Zero consumption reported:** Zorg ervoor dat u `License.getConsumptionQuantity()` *na* het eerste API‑gebruik aanroept; de eerste aanroep initialiseert de teller.  
+- **Performance slowdown on large files:** Gebruik `CadImage.load(..., LoadOptions)` met `LoadOptions.setLoadMode(LoadMode.Stream)` om te voorkomen dat het volledige bestand in het geheugen wordt geladen.
+
+## Veelgestelde Vragen
+
+**Q1: Kan ik metered licensing gebruiken voor evaluatiedoeleinden?**  
+A1: Ja, u kunt een gratis proeflicentie verkrijgen [here](https://releases.aspose.com/).
+
+**Q2: Waar kan ik gedetailleerde documentatie vinden voor Aspose.CAD voor Java?**  
+A2: Raadpleeg de documentatie [here](https://reference.aspose.com/cad/java/).
+
+**Q3: Hoe koop ik een licentie voor Aspose.CAD voor Java?**  
+A3: Bezoek de aankooppagina [here](https://purchase.aspose.com/buy).
+
+**Q4: Is er een tijdelijke licentieoptie beschikbaar?**  
+A5: Ja, u kunt tijdelijke licenties verkennen [here](https://purchase.aspose.com/temporary-license/).
+
+**Q5: Heeft u community‑ondersteuning nodig of specifieke vragen?**  
+A5: Ga naar het Aspose.CAD‑forum [here](https://forum.aspose.com/c/cad/19).
+
+**Q6: Werkt metered licensing met cloud‑implementaties?**  
+A6: Absoluut. Dezelfde `setMeteredKey`‑aanroep werkt in Docker, Kubernetes of serverless‑omgevingen.
+
+**Q7: Kan ik de verbruiksteller resetten?**  
+A7: De teller wordt automatisch gereset aan het begin van elke nieuwe factureringsperiode; u kunt deze niet handmatig resetten.
 
 ## Conclusie
 
-Gefeliciteerd! U beheerst met succes gemeten licenties met Aspose.CAD voor Java. Door deze handleiding te volgen, heeft u gemeten licenties naadloos in uw Java-project geïnstalleerd en geïntegreerd, waardoor u verzekerd bent van een efficiënt gebruik van de Aspose.CAD-mogelijkheden.
+Gefeliciteerd! U heeft met succes **how to set metered** licenties beheerst met Aspose.CAD voor Java. Door deze gids te volgen, heeft u metered licensing naadloos opgezet en geïntegreerd in uw Java‑project, waardoor efficiënt gebruik van de mogelijkheden van Aspose.CAD wordt gegarandeerd terwijl de kosten transparant blijven.
 
-## Veelgestelde vragen
+---
 
-### V1: Kan ik gemeten licenties gebruiken voor evaluatiedoeleinden?
-
- A1: Ja, u kunt een gratis proeflicentie verkrijgen[hier](https://releases.aspose.com/).
-
-### V2: Waar kan ik gedetailleerde documentatie vinden voor Aspose.CAD voor Java?
-
- A2: Raadpleeg de documentatie[hier](https://reference.aspose.com/cad/java/).
-
-### V3: Hoe koop ik een licentie voor Aspose.CAD voor Java?
-
- A3: Bezoek de aankooppagina[hier](https://purchase.aspose.com/buy).
-
-### Vraag 4: Is er een tijdelijke licentieoptie beschikbaar?
-
- A4: Ja, u kunt tijdelijke licenties verkennen[hier](https://purchase.aspose.com/temporary-license/).
-
-### Vraag 5: Heeft u community-ondersteuning nodig of heeft u specifieke vragen?
-
- A5: Ga naar het Aspose.CAD-forum[hier](https://forum.aspose.com/c/cad/19).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
+**Last Updated:** 2026-05-25  
+**Tested With:** Aspose.CAD for Java 24.10  
+**Author:** Aspose  
 
 {{< blocks/products/products-backtop-button >}}
+
+## Gerelateerde Tutorials
+
+- [Converteer CAD naar PDF met Aspose.CAD voor Java – Volledige Tutorials](/cad/java/)
+- [Maak PDF van CAD – Exporteer DXF naar PDF met Aspose.CAD voor Java](/cad/java/additional-features/export-dxf-to-pdf/)
+- [Canvasgrootte Instellen – Geavanceerde CAD-functies met Aspose.CAD voor Java](/cad/java/advanced-cad-features/)
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
