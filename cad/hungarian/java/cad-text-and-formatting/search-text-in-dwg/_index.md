@@ -1,11 +1,10 @@
 ---
-date: 2025-12-30
-description: Tanulja meg, hogyan olvassa be a DWG fájlokat Java-val és keressen szöveget
-  DWG-ben az AutoCAD fájlokban az Aspose.CAD for Java segítségével. Gyors, megbízható
-  szövegkinyerés Java‑alkalmazásaihoz.
+date: 2026-03-02
+description: Tanulja meg, hogyan olvassa be a DWG fájlokat Java‑ban, és keressen szöveget
+  a DWG-ben az Aspose CAD Java segítségével. Gyors, megbízható szövegkinyerés Java‑alkalmazásaihoz.
 linktitle: Search Text in AutoCAD DWG File with Java
 second_title: Aspose.CAD Java API
-title: Java DWG olvasása – Szöveg keresése DWG-ben az Aspose.CAD for Java használatával
+title: aspose cad java – Szöveg keresése DWG fájlokban (Java DWG olvasás)
 url: /hu/java/cad-text-and-formatting/search-text-in-dwg/
 weight: 10
 ---
@@ -16,31 +15,31 @@ weight: 10
 
 # Java DWG olvasása – Szöveg keresése DWG-ben az Aspose.CAD for Java használatával
 
-Ha Java fejlesztő vagy, akinek **java read dwg** fájlokat kell olvasnia és gyorsan meg kell találnia bennük konkrét karakterláncokat, jó helyen jár. Ebben az útmutatóban egy teljes, lépésről‑lépésre példát mutatunk be, amely bemutatja, hogyan **search text dwg** fájlokban kereshet az Aspose.CAD for Java könyvtárral. A végére egy újrahasználható kódrészletet kapsz, amelyet bármely Java‑alapú CAD alkalmazásba beilleszthetsz.
+Ha Java fejlesztő vagy, akinek **java read dwg** fájlokra van szüksége, és gyorsan meg kell találnia bennük bizonyos karakterláncokat, jó helyen jár. Ebben az útmutatóban lépésről‑lépésre bemutatunk egy teljes példát, amely megmutatja, hogyan **search text dwg** fájlokat használva a **aspose cad java** könyvtárat. A végére egy újrahasználható kódrészletet kapsz, amelyet bármely Java‑alapú CAD alkalmazásba beilleszthetsz.
 
-## Gyors válaszok
-- **What does “java read dwg” mean?** Ez azt jelenti, hogy egy AutoCAD DWG fájlt töltünk be egy Java programba ellenőrzés vagy módosítás céljából.  
-- **Which library handles DWG text extraction?** Az Aspose.CAD for Java teljes körű DWG támogatást biztosít, beleértve a szövegkeresést.  
+## Quick Answers
+- **What does “java read dwg” mean?** Ez az AutoCAD DWG fájl Java programba betöltését jelenti ellenőrzés vagy módosítás céljából.  
+- **Which library handles DWG text extraction?** Az Aspose.CAD for Java teljes körű DWG támogatást nyújt, beleértve a szövegkeresést is.  
 - **Do I need a license for production use?** Igen – egy kereskedelmi licenc eltávolítja a kiértékelési korlátozásokat.  
-- **Is the code compatible with Java 8 and later?** Teljesen; az API a Java 8+ verziókra van célzott.  
-- **Can I search inside block references and attributes?** A példa végigiterálja a blokk entitásokat és attribútumdefiníciókat, hogy átfogó keresést biztosítson.
+- **Is the code compatible with Java 8 and later?** Teljesen; az API a Java 8+ verziókra céloz.  
+- **Can I search inside block references and attributes?** A minta végigiterál a blokk entitásokon és attribútumdefiníciókon, hogy átfogó keresést biztosítson.
 
-## Mi az a java read dwg?
-A DWG fájl Java-ban történő olvasása azt jelenti, hogy megnyitjuk a bináris AutoCAD rajzformátumot, feldolgozzuk belső entitásait (vonalak, körök, szöveg, blokkok stb.), és egy programozható objektummodellen keresztül teszük elérhetővé őket. Az Aspose.CAD elvonja a alacsony szintű feldolgozást, így a szövegkereséshez hasonló üzleti logikára koncentrálhatsz.
+## What is java read dwg?
+A DWG fájl Java‑ban való olvasása azt jelenti, hogy megnyitjuk a bináris AutoCAD rajzformátumot, feldolgozzuk a belső entitásait (vonalak, körök, szöveg, blokkok stb.), és egy programozható objektummodellen keresztül tesszük elérhetővé őket. Az Aspose.CAD elvonja a low‑level feldolgozást, így a szövegkereséshez szükséges üzleti logikára koncentrálhatsz.
 
-## Miért használjuk az Aspose.CAD-et a text dwg kereséshez?
-- **Broad version support** – működik AutoCAD 2000-tól a legújabb kiadásokig terjedő DWG fájlokkal.  
-- **No native AutoCAD installation required** – tiszta Java, tökéletes szerver‑oldali feldolgozáshoz.  
-- **Rich entity model** – hozzáférés egy soros szöveghez, többsoros szöveghez (MText), attribútumdefiníciókhoz és egyebekhez.  
-- **High performance** – optimalizált nagy rajzokhoz és kötegelt feldolgozáshoz.
+## Why use Aspose.CAD to search text dwg?
+- **Broad version support** – működik a DWG fájlokkal az AutoCAD 2000‑tól a legújabb kiadásokig.  
+- **No native AutoCAD installation required** – tiszta Java, tökéletes szerveroldali feldolgozáshoz.  
+- **Rich entity model** – hozzáférés egy soros szöveghez, több soros szöveghez (MText), attribútumdefiníciókhoz és egyebekhez.  
+- **High performance** – nagy rajzokhoz és kötegelt feldolgozáshoz optimalizálva.
 
-## Előkövetelmények
-1. **Java Development Environment** – JDK 8+ és a kedvenc IDE-d (IntelliJ, Eclipse, VS Code, stb.).  
-2. **Aspose.CAD for Java Library** – töltsd le a [download page](https://releases.aspose.com/cad/java/) oldalról, és add hozzá a JAR-t a projekt osztályútvonalához.  
-3. **Reference Documentation** – hasznos API részletek érhetők el a [Aspose.CAD Java Documentation](https://reference.aspose.com/cad/java/) oldalon.
+## Prerequisites
+1. **Java Development Environment** – JDK 8+ és kedvenc IDE‑d (IntelliJ, Eclipse, VS Code, stb.).  
+2. **Aspose.CAD for Java Library** – töltsd le a [download page](https://releases.aspose.com/cad/java/) oldalról, és add hozzá a JAR‑t a projekt classpath‑jához.  
+3. **Reference Documentation** – hasznos API részletek a [Aspose.CAD Java Documentation](https://reference.aspose.com/cad/java/) oldalon érhetők el.
 
-## Namespace-ek importálása
-Először hozd be a szükséges Aspose.CAD osztályokat a hatókörbe. Ezek az importok hozzáférést biztosítanak a képobjektumhoz, elrendezési szótárhoz, entitástípusokhoz és blokkkezelő segédeszközökhöz.
+## Import Namespaces
+Először is importáljuk a szükséges Aspose.CAD osztályokat. Ezek az importok hozzáférést biztosítanak a képobjektumhoz, a layout szótárhoz, az entitástípusokhoz és a blokkkezelő segédeszközökhöz.
 
 ```java
 import com.aspose.cad.fileformats.cad.CadImage;
@@ -56,20 +55,20 @@ import com.aspose.cad.fileformats.cad.cadobjects.attentities.CadAttrib;
 import com.aspose.cad.fileformats.cad.cadtables.CadBlockTableObject;
 ```
 
-## Hogyan java read dwg és search text dwg
-Az alábbiakban a fő munkafolyamat négy egyértelmű lépésre bontva látható. Minden lépést a megfelelő kódrészlet előtt magyarázunk, hogy megértsd, *miért* csináljuk, amit csinálunk.
+## How to java read dwg and search text dwg using aspose cad java
+Az alábbiakban a fő munkafolyamat négy egyértelmű lépésre van bontva. Minden lépést a megfelelő kódrészlet előtt magyarázunk, hogy megértsd, *miért* csináljuk, amit csinálunk.
 
-### 1. lépés: DWG fájl betöltése
-A rajz betöltésével kezdünk egy `CadImage` objektumba. Ez az objektum a teljes DWG-t képviseli, és hozzáférést biztosít az entitásaihoz és blokkdefinícióihoz.
+### Step 1: Load the DWG file
+A rajzot egy `CadImage` objektumba töltjük be. Ez az objektum képviseli a teljes DWG‑t, és hozzáférést ad az entitásaihoz és blokkdefinícióihoz.
 
 ```java
 CadImage cadImage = (CadImage) CadImage.load(dataDir + "sample_file.dwg");
 ```
 
-> **Pro tip:** `dataDir`-nek egy olyan mappára kell mutatnia, amelyet az alkalmazásod olvasni tud. Használj abszolút útvonalakat a produkcióban, hogy elkerüld az osztály‑útvonal zavarokat.
+> **Pro tip:** `dataDir`‑nek egy olyan mappára kell mutatnia, amelyet az alkalmazásod olvasni tud. Használj abszolút útvonalakat a termelésben, hogy elkerüld a class‑path zavarokat.
 
-### 2. lépés: Felső‑szintű entitások keresése
-A legtöbb látható szöveg közvetlenül a rajz fő entitáslistájában található. Végigiterálunk minden entitáson, és az ellenőrzést egy segédmetódusra bízzuk.
+### Step 2: Search top‑level entities
+A legtöbb látható szöveg közvetlenül a rajz fő entitáslistájában található. Végigiterálunk minden entitáson, és a vizsgálatot egy segédmetódusra bízzuk.
 
 ```java
 for (CadBaseEntity entity : cadImage.getEntities()) {
@@ -77,8 +76,8 @@ for (CadBaseEntity entity : cadImage.getEntities()) {
 }
 ```
 
-### 3. lépés: Blokk entitásokon belüli keresés
-A blokkok újrahasználható entitáscsoportok (gondolj szimbólumokra vagy újrahasználható komponensekre). A szöveg is elrejthető ezekben a blokkokban, ezért végig kell járnunk minden blokk entitásgyűjteményét.
+### Step 3: Search inside block entities
+A blokkok újrahasználható entitáscsoportok (gondolj szimbólumokra vagy újrahasználható komponensekre). A szöveg ezekben a blokkokban is rejtve lehet, ezért végig kell járnunk minden blokk entitásgyűjteményét.
 
 ```java
 for (CadBlockEntity blockEntity : cadImage.getBlockEntities().getValues()) {
@@ -88,8 +87,8 @@ for (CadBlockEntity blockEntity : cadImage.getBlockEntities().getValues()) {
 }
 ```
 
-### 4. lépés: Rekurzív csomópont iteráció
-Az `IterateCADNodeEntities` metódus megvizsgálja minden entitás típusát, és kinyeri a megtalált szöveges tartalmat. Emellett rekurzívan bejárja a beágyazott objektumokat, mint például az insert-ek vagy attribútumdefiníciók, biztosítva, hogy egyetlen szöveg se maradjon ki.
+### Step 4: Recursive node iteration
+Az `IterateCADNodeEntities` metódus megvizsgálja minden entitás típusát, és kinyeri a talált szöveges tartalmat. Emellett rekurzívan bejárja a beágyazott objektumokat, például az insert vagy attribútumdefiníciókat, biztosítva, hogy semmilyen szöveg ne maradjon ki.
 
 ```java
 private static void IterateCADNodeEntities(CadBaseEntity obj) {
@@ -97,37 +96,36 @@ private static void IterateCADNodeEntities(CadBaseEntity obj) {
 }
 ```
 
-> **Why recursion?** CAD rajzok tartalmazhatnak olyan entitásokat, amelyek maguk is más entitásokat tartalmaznak (pl. egy `INSERT`, amely egy blokkra hivatkozik). A rekurzió garantálja a mély keresést az egész hierarchiában.
+> **Why recursion?** A CAD‑rajzok tartalmazhatnak olyan entitásokat, amelyek maguk is más entitásokat hordoznak (például egy `INSERT`, amely egy blokkra hivatkozik). A rekurzió garantálja a mély keresést az egész hierarchiában.
 
-## Gyakori problémák és megoldások
-
+## Common Issues and Solutions
 | Probléma | Ok | Megoldás |
 |----------|----|----------|
-| Nincs eredmény | Csak a felső‑szintű entitásokat keresve | Győződj meg róla, hogy a blokk entitásokat is iterálod (3. lépés). |
-| A szöveg szemétként jelenik meg | Helytelen karakterkódolás | Az Aspose.CAD automatikusan kezeli a Unicode-ot; ellenőrizd, hogy a DWG nem sérült-e. |
-| Teljesítménycsökkenés nagy fájloknál | Rekurzív bejárás milliók entitásán | Cache-eld a blokk kereséseket vagy korlátozd a keresést konkrét rétegekre, ha lehetséges. |
+| Nincs eredmény | Csak a felső szintű entitásokat keresve | Győződj meg róla, hogy a blokk entitásokat is iterálod (3. lépés). |
+| A szöveg szemétként jelenik meg | Helytelen karakterkódolás | Az Aspose.CAD automatikusan kezeli a Unicode‑ot; ellenőrizd, hogy a DWG nem sérült-e. |
+| Teljesítménycsökkenés nagy fájloknál | Rekurzív bejárás milliók entitásán | Cache‑eld a blokk kereséseket vagy korlátozd a keresést konkrét rétegekre, ha lehetséges. |
 
-## Gyakran feltett kérdések
+## Frequently Asked Questions
 
-**Q: Az Aspose.CAD kompatibilis az összes AutoCAD DWG fájl verzióval?**  
-A: Igen, az Aspose.CAD széles körű DWG verziókat támogat, a korai R14-től a legújabb kiadásokig.
+**Q: Is Aspose.CAD compatible with all versions of AutoCAD DWG files?**  
+A: Igen, az Aspose.CAD széles körű DWG‑verziókat támogat, az early R14‑től a legújabb kiadásokig.
 
-**Q: Használhatom az Aspose.CAD for Java-t kereskedelmi projektben?**  
-A: Teljesen. Vásárolj licencet a [Aspose's purchase page](https://purchase.aspose.com/buy) oldalról a produkciós használathoz.
+**Q: Can I use Aspose.CAD for Java in a commercial project?**  
+A: Természetesen. Vásárolj licencet a [Aspose's purchase page](https://purchase.aspose.com/buy) oldalról a termelési használathoz.
 
-**Q: Elérhető ingyenes próba az Aspose.CAD for Java-hoz?**  
-A: Igen, letölthetsz egy ingyenes próbaverziót [innen](https://releases.aspose.com/).
+**Q: Is there a free trial available for Aspose.CAD for Java?**  
+A: Igen, ingyenes próbaverziót tölthetsz le [innen](https://releases.aspose.com/).
 
-**Q: Hogyan kaphatok támogatást, ha problémáim vannak?**  
+**Q: How can I get support if I run into problems?**  
 A: A hivatalos [Aspose.CAD forum](https://forum.aspose.com/c/cad/19) a legjobb hely a technikai kérdések feltevésére.
 
-**Q: Működnek az ideiglenes licencek értékeléshez?**  
-A: Igen, egy ideiglenes licencet [innen](https://purchase.aspose.com/temporary-license/) szerezhetsz tesztelési célokra.
+**Q: Do temporary licenses work for evaluation?**  
+A: Igen, ideiglenes licencet kaphatsz [innen](https://purchase.aspose.com/temporary-license/) tesztelési célokra.
 
 ---
 
-**Utoljára frissítve:** 2025-12-30  
-**Tesztelve:** Aspose.CAD for Java 24.12 (a legújabb a írás időpontjában)  
+**Utoljára frissítve:** 2026-03-02  
+**Tesztelve:** Aspose.CAD for Java 24.12 (legújabb a kiadás időpontjában)  
 **Szerző:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
