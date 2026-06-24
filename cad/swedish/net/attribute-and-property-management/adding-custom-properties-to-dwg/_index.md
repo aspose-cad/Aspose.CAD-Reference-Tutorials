@@ -1,35 +1,52 @@
 ---
-title: Lägga till anpassade egenskaper till DWG-filer - Aspose.CAD Guide
-linktitle: Lägga till anpassade egenskaper till DWG-filer
-second_title: Aspose.CAD .NET - CAD- och BIM-filformat
-description: Förbättra dina DWG-filer med anpassade egenskaper med Aspose.CAD för .NET. Följ vår steg-för-steg-guide för att lägga till meningsfull metadata utan ansträngning.
-weight: 11
+date: 2026-03-19
+description: Lär dig hantera DWG‑egenskaper genom att lägga till anpassade egenskaper
+  i DWG‑filer med Aspose.CAD för .NET. Läs snabbt DWG‑metadata och berika dina CAD‑filer.
+linktitle: Adding Custom Properties to DWG Files
+second_title: Aspose.CAD .NET - CAD and BIM File Format
+title: dwg‑egenskapsförvaltning – Lägg till anpassade egenskaper i DWG‑filer
 url: /sv/net/attribute-and-property-management/adding-custom-properties-to-dwg/
+weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Lägga till anpassade egenskaper till DWG-filer - Aspose.CAD Guide
+# Lägga till anpassade egenskaper i DWG-filer - Aspose.CAD Guide
 
-## Introduktion
+## Introduction
 
-Välkommen till den här omfattande guiden om att lägga till anpassade egenskaper till DWG-filer med Aspose.CAD för .NET. Aspose.CAD är ett kraftfullt bibliotek som gör det möjligt för utvecklare att arbeta med CAD-filer sömlöst. I den här handledningen kommer vi att fokusera på att förbättra din förståelse för anpassade egenskaper och hur du lägger till dem i DWG-filer med Aspose.CAD.
+I den här omfattande handledningen kommer du att upptäcka **dwg property management** – processen att lägga till och hantera anpassad metadata i DWG-filer. Vid slutet av guiden kan du läsa dwg-metadata, injicera dina egna egenskapsvärden och hålla dina CAD-tillgångar organiserade för efterföljande arbetsflöden. Låt oss gå igenom stegen tillsammans, med hjälp av Aspose.CAD för .NET.
 
-## Förutsättningar
+## Quick Answers
+- **What does dwg property management do?** Det låter dig lagra anpassade nyckel‑värdepar direkt i en DWG-fils huvud.  
+- **Which library handles this?** Aspose.CAD för .NET tillhandahåller ett enkelt API för att läsa och skriva DWG-metadata.  
+- **Do I need a license?** En gratis provversion fungerar för utveckling; en kommersiell licens krävs för produktion.  
+- **Can I use this with .NET Core?** Ja, Aspose.CAD stödjer .NET Framework, .NET Core och .NET 5/6+.  
+- **How long does it take?** Att lägga till några anpassade egenskaper tar vanligtvis mindre än fem minuter.
+
+## What is dwg property management?
+dwg property management avser förmågan att bädda in, läsa och ändra anpassade egenskaper (metadata) i en DWG-ritningsfil. Dessa egenskaper kan beskriva projektdetaljer, versionsinformation eller någon domänspecifik data som du behöver ha tillsammans med geometrin.
+
+## Why use custom properties in DWG files?
+- **Improved searchability:** Metadata gör det enklare för BIM-chefer att hitta ritningar.  
+- **Automation friendly:** Skript kan läsa dessa värden för att driva efterföljande processer.  
+- **Consistency:** Centraliserade egenskapsdefinitioner minskar manuella fel över team.  
+
+## Prerequisites
 
 Innan vi dyker in i handledningen, se till att du har följande förutsättningar på plats:
 
-1.  Aspose.CAD Library: Se till att du har Aspose.CAD-biblioteket installerat. Du kan ladda ner den[här](https://releases.aspose.com/cad/net/).
+1. Aspose.CAD Library: Se till att du har Aspose.CAD-biblioteket installerat. Du kan ladda ner det [här](https://releases.aspose.com/cad/net/).
 
-2. Utvecklingsmiljö: Ha en fungerande .NET-utvecklingsmiljö inrättad.
+2. Utvecklingsmiljö: Ha en fungerande .NET-utvecklingsmiljö uppsatt.
 
-3. DWG-fil: Förbered en DWG-fil som du vill lägga till anpassade egenskaper till.
+3. DWG File: Förbered en DWG-fil som du vill lägga till anpassade egenskaper i.
 
-## Importera namnområden
+## Import Namespaces
 
-För att komma igång måste du importera de nödvändiga namnrymden. Dessa namnområden tillhandahåller de klasser och metoder som krävs för att arbeta med DWG-filer med Aspose.CAD.
+För att komma igång behöver du importera de nödvändiga namnrymderna. Dessa namnrymder tillhandahåller klasserna och metoderna som krävs för att arbeta med DWG-filer med Aspose.CAD.
 
 ```csharp
 using Aspose.CAD.FileFormats.Cad;
@@ -41,22 +58,22 @@ using System.Linq;
 using System.Text;
 ```
 
-## Steg 1: Ladda DWG-fil
+## Step 1: Load DWG File
 
- Det första steget innebär att ladda DWG-filen med Aspose.CAD. Detta görs med hjälp av`Image.Load` metod.
+Det första steget innebär att ladda DWG-filen med Aspose.CAD. Detta görs med `Image.Load`-metoden.
 
 ```csharp
 string fileName = "conic_pyramid.dxf";
 string inputFile = WorkingDir + fileName;
 using (var cadImage = (CadImage)Image.Load(inputFile))
 {
-    // Din kod för att hantera den laddade CAD-bilden kommer här
+    // Your code for handling the loaded CAD image comes here
 }
 ```
 
-## Steg 2: Lägg till anpassade egenskaper
+## Step 2: Add Custom Properties
 
-Låt oss nu lägga till anpassade egenskaper till DWG-filen. I det här exemplet lägger vi till tre anpassade egenskaper.
+Nu lägger vi till anpassade egenskaper i DWG-filen. I det här exemplet lägger vi till tre anpassade egenskaper.
 
 ```csharp
 cadImage.Header.CustomProperties.Add("CUSTOM_PROPERTY_1", "Custom property test 1");
@@ -64,40 +81,48 @@ cadImage.Header.CustomProperties.Add("CUSTOM_PROPERTY_2", "Custom property test 
 cadImage.Header.CustomProperties.Add("CUSTOM_PROPERTY_3", "Custom property test 3");
 ```
 
-## Steg 3: Spara den modifierade DWG-filen
+## Step 3: Save the Modified DWG File
 
- När du har lagt till de anpassade egenskaperna, spara den ändrade DWG-filen med hjälp av`Save` metod.
+Efter att ha lagt till de anpassade egenskaperna, spara den modifierade DWG-filen med `Save`-metoden.
 
 ```csharp
 string outFile = WorkingDir + "AddMetadata_out.dxf";
 cadImage.Save(outFile);
 ```
 
-## Slutsats
+## Common Issues and Solutions
 
-Grattis! Du har framgångsrikt lagt till anpassade egenskaper till en DWG-fil med Aspose.CAD för .NET. Denna enkla men kraftfulla funktion låter dig förbättra metadata som är associerade med dina CAD-filer.
+- **File not found error:** Verifiera att `WorkingDir` pekar på rätt mapp och att indatafilens namn matchar den faktiska filen på disk.  
+- **Properties not persisting:** Säkerställ att du anropar `cadImage.Save` efter att ha lagt till egenskaperna; annars förblir ändringarna bara i minnet.  
+- **Unsupported DWG version:** Aspose.CAD stödjer de flesta senaste DWG-versionerna; kontrollera versionsnoterna om du stöter på kompatibilitetsvarningar.
 
-## FAQ's
+## Conclusion
 
-### F1: Kan jag lägga till anpassade egenskaper till andra CAD-filformat med Aspose.CAD?
+Grattis! Du har framgångsrikt utfört **dwg property management** genom att lägga till anpassade egenskaper i en DWG-fil med Aspose.CAD för .NET. Denna enkla men kraftfulla funktion låter dig berika metadata som är kopplad till dina CAD-filer, vilket gör dem enklare att organisera, söka och integrera i automatiserade pipelines.
 
-S1: Ja, Aspose.CAD stöder olika CAD-filformat, och du kan lägga till anpassade egenskaper till dem på liknande sätt.
+## Frequently Asked Questions
 
-### F2: Finns det en gräns för antalet anpassade egenskaper jag kan lägga till?
+**Q1: Kan jag lägga till anpassade egenskaper i andra CAD-filformat med Aspose.CAD?**  
+A1: Ja, Aspose.CAD stödjer olika CAD-filformat, och du kan lägga till anpassade egenskaper i dem på liknande sätt.
 
-S2: Det finns ingen strikt gräns, men överväg filstorleken och användbarheten när du lägger till ett stort antal anpassade egenskaper.
+**Q2: Finns det en gräns för hur många anpassade egenskaper jag kan lägga till?**  
+A2: Det finns ingen strikt gräns, men överväg filstorlek och praktikalitet när du lägger till ett stort antal anpassade egenskaper.
 
-### F3: Hur kan jag hämta anpassade egenskaper från en DWG-fil?
+**Q3: Hur kan jag hämta anpassade egenskaper från en DWG-fil?**  
+A3: För att hämta anpassade egenskaper kan du använda samlingen `cadImage.Header.CustomProperties`.
 
- S3: För att hämta anpassade egenskaper kan du använda`cadImage.Header.CustomProperties` samling.
+**Q4: Finns det några begränsningar för namnen på anpassade egenskaper?**  
+A5: Även om det inte finns några strikta begränsningar är det god praxis att använda meningsfulla och unika namn för anpassade egenskaper.
 
-### F4: Finns det några begränsningar för namnen på anpassade egenskaper?
+**Q5: Ger Aspose.CAD support om jag stöter på problem?**  
+A5: Ja, du kan söka hjälp på [Aspose.CAD forum](https://forum.aspose.com/c/cad/19) för eventuella tekniska frågor eller problem.
 
-S4: Även om det inte finns några strikta begränsningar, är det bra att använda meningsfulla och unika namn för anpassade egenskaper.
+---
 
-### F5: Ger Aspose.CAD support om jag stöter på några problem?
+**Senast uppdaterad:** 2026-03-19  
+**Testad med:** Aspose.CAD 24.11 för .NET  
+**Författare:** Aspose  
 
- A5: Ja, du kan söka hjälp med[Aspose.CAD-forum](https://forum.aspose.com/c/cad/19) för eventuella tekniska frågor eller problem.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
