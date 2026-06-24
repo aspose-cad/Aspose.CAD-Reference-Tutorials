@@ -1,33 +1,58 @@
 ---
-title: Praca z plikami DWG w języku C# — pobieranie rozmiaru układu DWF
-linktitle: Praca z plikami DWG w języku C# — pobieranie rozmiaru układu DWF
-second_title: Aspose.CAD .NET - Format plików CAD i BIM
-description: Poznaj moc Aspose.CAD dla .NET w obsłudze plików DWG. Dowiedz się, jak łatwo wyodrębniać rozmiary układów DWF przy użyciu języka C#.
-weight: 10
+date: 2026-04-06
+description: Dowiedz się, jak konwertować DWF na JPG w C# przy użyciu Aspose.CAD i
+  odkryj, jak wyodrębnić rozmiar układu DWF z plików DWG.
+keywords:
+- convert dwf to jpg
+- how to extract dwf
+- convert dwg to jpg
+linktitle: Praca z plikami DWG w C# – Pobierz rozmiar układu DWF
+second_title: Aspose.CAD .NET - CAD and BIM File Format
+title: Konwertuj DWF na JPG w C# – Pobierz rozmiar układu DWF z DWG
 url: /pl/net/dwg-file-manipulation/get-size-of-dwf-layout/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Praca z plikami DWG w języku C# — pobieranie rozmiaru układu DWF
+# Konwertuj DWF do JPG w C# – Pobierz rozmiar układu DWF z DWG
 
-## Wstęp
+## Wprowadzenie
 
-W dziedzinie projektowania wspomaganego komputerowo (CAD) i programowania .NET Aspose.CAD jest potężnym narzędziem do obsługi plików DWG. Ten samouczek poprowadzi Cię przez proces pracy z plikami DWG w języku C# i wyodrębniania rozmiaru układu DWF. Zanim zagłębimy się w kod, upewnijmy się, że masz wszystko skonfigurowane, aby wyruszyć w tę podróż.
+Jeśli potrzebujesz **konwertować DWF do JPG**, jednocześnie ustalając dokładne wymiary układu, jesteś we właściwym miejscu. W tym samouczku przeprowadzimy Cię przez kompletny przykład od początku do końca, wykorzystujący Aspose.CAD for .NET do otwarcia pliku DWF pochodzącego z DWG, odczytania rozmiaru każdego układu oraz zapisania układu jako wysokiej jakości obraz JPG. Po zakończeniu nie tylko będziesz wiedział, jak wyodrębnić informacje o układzie DWF, ale także będziesz miał gotowy fragment kodu, który możesz wstawić do dowolnego projektu C#.
 
-## Warunki wstępne
+## Szybkie odpowiedzi
+- **Co oznacza „convert DWF to JPG”?** Oznacza rasteryzację wektorowego układu DWF do bitmapowego obrazu JPEG.  
+- **Dlaczego najpierw odczytać rozmiar układu?** Znając dokładne wymiary, możesz ustawić prawidłowe wymiary strony, unikając rozciągniętego lub przyciętego wyniku.  
+- **Która biblioteka to obsługuje?** Aspose.CAD for .NET zapewnia pełne wsparcie dla DWG, DWF i konwersji obrazów rastrowych.  
+- **Czy potrzebna jest licencja?** Licencja tymczasowa działa w trybie ewaluacji; pełna licencja jest wymagana w produkcji.  
+- **Jakie wersje .NET są obsługiwane?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7.
 
-Aby bezproblemowo wykonać ten samouczek, upewnij się, że spełnione są następujące wymagania wstępne:
+## Czym jest „convert DWF to JPG” i dlaczego ma to znaczenie?
 
--  Aspose.CAD dla .NET: Upewnij się, że masz zainstalowany Aspose.CAD dla .NET. Można go pobrać z[Strona pobierania Aspose.CAD dla .NET](https://releases.aspose.com/cad/net/).
+Konwersja pliku DWF (Design Web Format) do JPG tworzy przenośny obraz, który może być wyświetlany w przeglądarkach, osadzany w raportach lub udostępniany interesariuszom, którzy nie posiadają oprogramowania CAD. Konwersja daje również możliwość manipulacji obrazem (zmiana rozmiaru, kompresja, znak wodny) przy użyciu standardowych narzędzi do przetwarzania obrazów.
 
-Teraz, gdy masz już niezbędne narzędzia, wskoczmy na arenę kodowania.
+## Dlaczego wyodrębniać rozmiar układu DWF?
 
-## Importuj przestrzenie nazw
+Plik DWF może zawierać wiele układów, z których każdy ma własny system współrzędnych i jednostki (cale, milimetry itp.). Wyodrębnienie rozmiaru układu pozwala:
 
-Zanim zaczniemy pracować z kodem, zaimportujmy wymagane przestrzenie nazw:
+1. Zachować oryginalny współczynnik proporcji podczas rasteryzacji.  
+2. Wybrać właściwe DPI dla wyjścia w wysokiej rozdzielczości.  
+3. Zautomatyzować przetwarzanie wsadowe wielu układów bez ręcznej ingerencji.
+
+## Wymagania wstępne
+
+Aby płynnie podążać za tym samouczkiem, upewnij się, że spełniasz następujące wymagania wstępne:
+
+- Aspose.CAD for .NET: Upewnij się, że masz zainstalowany Aspose.CAD for .NET. Możesz go pobrać ze [strony pobierania Aspose.CAD for .NET](https://releases.aspose.com/cad/net/).
+
+Posiadanie gotowej biblioteki oznacza, że możesz skupić się na kodzie, a nie na szukaniu zależności.
+
+## Importowanie przestrzeni nazw
+
+Zanim zaczniemy kodować, zaimportuj wymagane przestrzenie nazw. Dostarczają one klasy potrzebne do pracy z plikami CAD, opcjami rasteryzacji oraz operacjami we/wy.
 
 ```csharp
 using Aspose.CAD.FileFormats.Cad;
@@ -40,46 +65,46 @@ using System.Linq;
 using System.Text;
 ```
 
-Te przestrzenie nazw zapewnią podstawowe klasy i metody obsługi plików CAD za pomocą Aspose.CAD w aplikacji C#.
+## Krok 1: Przygotuj środowisko
 
-## Krok 1: Skonfiguruj swoje środowisko
+Utwórz nowy projekt konsolowy C# lub bibliotekę klas, dodaj odwołanie do **Aspose.CAD.dll** i upewnij się, że projekt celuje w kompatybilną wersję .NET.
 
-Zacznij od upewnienia się, że masz skonfigurowane odpowiednie środowisko dla swojego projektu. Odwołaj się do biblioteki Aspose.CAD w swoim projekcie C#.
+## Krok 2: Zdefiniuj ścieżki plików (jak wyodrębnić DWF)
 
-## Krok 2: Zdefiniuj ścieżki plików
-
-Zdefiniuj ścieżki do pliku DWG i katalog wyjściowy dla wygenerowanych plików JPG:
+Określ, gdzie znajduje się źródłowy plik DWF oraz gdzie mają być zapisywane wygenerowane pliki JPG.
 
 ```csharp
 string MyDir = "Your Document Directory";
 string sourceFilePath = MyDir + "blocks_and_tables.dwf";
 ```
 
+> **Wskazówka:** Użyj `Path.Combine(MyDir, "blocks_and_tables.dwf")` dla bezpieczniejszego obsługi ścieżek na różnych systemach operacyjnych.
+
 ## Krok 3: Załaduj obraz DWF
 
-Załaduj obraz DWF za pomocą Aspose.CAD:
+Załaduj plik DWF do obiektu `Aspose.CAD.Image`. Rzutujemy go na `DwfImage`, ponieważ potrzebujemy dostępu do właściwości specyficznych dla stron.
 
 ```csharp
 using (DwfImage image = (DwfImage)Aspose.CAD.Image.Load(sourceFilePath))
 {
-    // Tutaj znajdziesz kod opisujący dalsze kroki
+    // Code for further steps will go here
 }
 ```
 
-## Krok 4: Iteruj po stronach
+## Krok 4: Iteruj przez strony
 
-Iteruj po stronach obrazu DWF:
+Plik DWF może zawierać kilka stron (układów). Przejdź pętlą po każdej, aby móc przetwarzać je indywidualnie.
 
 ```csharp
 foreach (var page in image.Pages)
 {
-    // Tutaj znajdziesz kod opisujący dalsze kroki
+    // Code for further steps will go here
 }
 ```
 
-## Krok 5: Uzyskaj informacje o układzie
+## Krok 5: Pobierz informacje o układzie
 
-Uzyskaj informacje o układzie z każdej strony:
+Wewnątrz pętli pobierz nazwę układu. Nazwa ta będzie używana zarówno do logowania, jak i do nazewnictwa pliku wyjściowego JPG.
 
 ```csharp
 var layout = page.Name;
@@ -88,7 +113,7 @@ System.Console.WriteLine("Layout= " + layout);
 
 ## Krok 6: Skonfiguruj opcje JPG
 
-Skonfiguruj opcje zapisywania układu jako pliku JPG:
+Utwórz instancję `JpegOptions` i skonfiguruj opcje rasteryzacji. Właściwość `Layouts` informuje Aspose.CAD, który układ ma zostać wyrenderowany.
 
 ```csharp
 using (FileStream fs = new FileStream(MyDir + "layout_" + layout + ".jpg", FileMode.Create))
@@ -96,23 +121,23 @@ using (FileStream fs = new FileStream(MyDir + "layout_" + layout + ".jpg", FileM
     JpegOptions jpegOptions = new JpegOptions();
     CadRasterizationOptions options = new CadRasterizationOptions();
     options.Layouts = new string[] { layout };
-    // Tutaj znajdziesz kod opisujący dalsze kroki
+    // Code for further steps will go here
 }
 ```
 
-## Krok 7: Określ rozmiar strony
+## Krok 7: Określ rozmiar strony (konwersja dwg do jpg)
 
-Określ rozmiar układu DWF:
+Oblicz szerokość i wysokość układu w jego natywnych jednostkach. Informacje te są niezbędne do prawidłowego ustawienia rozmiaru strony rastera.
 
 ```csharp
 double sizeExtX = page.MaxPoint.X - page.MinPoint.X;
 double sizeExtY = page.MaxPoint.Y - page.MinPoint.Y;
-// Tutaj znajdziesz kod opisujący dalsze kroki
+// Code for further steps will go here
 ```
 
-## Krok 8: Skonfiguruj wymiary strony
+## Krok 8: Ustaw wymiary strony
 
-Skonfiguruj wymiary strony w oparciu o typ jednostki:
+Przelicz natywne jednostki (cale lub milimetry) na piksele przy użyciu metod pomocniczych dostarczonych przez Aspose.CAD. Jeśli typ jednostki jest inny, używamy surowych wartości.
 
 ```csharp
 if (page.UnitType == UnitType.Inch)
@@ -134,7 +159,7 @@ else
 
 ## Krok 9: Zapisz plik JPG
 
-Zapisz plik JPG z określonymi opcjami:
+Na koniec powiąż opcje rasteryzacji z opcjami JPEG i zapisz obraz na dysku.
 
 ```csharp
 jpegOptions.VectorRasterizationOptions = options;
@@ -142,33 +167,53 @@ image.Save(fs, jpegOptions);
 }
 ```
 
-Teraz pomyślnie wyodrębniłeś rozmiar układu DWF z pliku DWG przy użyciu Aspose.CAD w C#. Zachęcamy do zapoznania się z większą liczbą funkcji i funkcjonalności, które Aspose.CAD oferuje dla rozwoju .NET.
+Po zakończeniu pętli będziesz mieć plik JPG dla każdego układu, każdy o dokładnym rozmiarze odpowiadającym oryginalnym wymiarom DWF.
 
-## Wniosek
+## Typowe problemy i rozwiązania
 
-W tym samouczku omówiliśmy proces pracy z plikami DWG w języku C# przy użyciu Aspose.CAD. Wykonując te kroki, możesz nie tylko uzyskać rozmiar układu DWF, ale także wykorzystać możliwości Aspose.CAD do różnych zadań związanych z CAD w swoich projektach .NET.
+| Objaw | Prawdopodobna przyczyna | Rozwiązanie |
+|---------|--------------|-----|
+| Pusty plik JPG | `options.Layouts` nie jest poprawnie ustawione | Sprawdź, czy nazwa układu pasuje do `page.Name`. |
+| Zniekształcony obraz | Błędna konwersja DPI | Użyj `CommonHelper.DPI = 300` (lub docelowego DPI) przed konwersją. |
+| Plik nie znaleziony | Nieprawidłowa ścieżka `MyDir` | Użyj ścieżek bezwzględnych lub `Path.Combine`. |
+| Wyjątek licencyjny | Nie zastosowano licencji | Załaduj tymczasową lub stałą licencję przed wywołaniem `Image.Load`. |
 
-## Często zadawane pytania
+## Najczęściej zadawane pytania
 
-### P1: Czy Aspose.CAD jest kompatybilny z najnowszymi formatami plików DWG?
+### Pytanie 1: Czy Aspose.CAD jest kompatybilny z najnowszymi formatami plików DWG?
 
- O1: Aspose.CAD obsługuje różne formaty plików DWG, w tym najnowsze wersje. Patrz[dokumentacja](https://reference.aspose.com/cad/net/) aby uzyskać szczegółowe informacje na temat zgodności.
+Aspose.CAD obsługuje różne formaty plików DWG, w tym najnowsze wersje. Zapoznaj się z [dokumentacją](https://reference.aspose.com/cad/net/) po szczegółowe informacje o kompatybilności.
 
-### P2: Czy mogę używać Aspose.CAD zarówno do projektów komercyjnych, jak i osobistych?
+### Pytanie 2: Czy mogę używać Aspose.CAD zarówno w projektach komercyjnych, jak i prywatnych?
 
- Odpowiedź 2: Tak, Aspose.CAD oferuje elastyczne opcje licencjonowania zarówno do użytku komercyjnego, jak i osobistego. Odwiedzić[strona zakupu](https://purchase.aspose.com/buy) po więcej szczegółów.
+Tak, Aspose.CAD oferuje elastyczne opcje licencjonowania zarówno dla użytku komercyjnego, jak i prywatnego. Odwiedź [stronę zakupu](https://purchase.aspose.com/buy) po więcej szczegółów.
 
-### P3: Jak mogę uzyskać tymczasową licencję na Aspose.CAD?
+### Pytanie 3: Jak mogę uzyskać tymczasową licencję dla Aspose.CAD?
 
- A3: Możesz uzyskać tymczasową licencję od[Tutaj](https://purchase.aspose.com/temporary-license/) w celach ewaluacyjnych.
+Możesz uzyskać tymczasową licencję [tutaj](https://purchase.aspose.com/temporary-license/) do celów ewaluacyjnych.
 
-### P4: Gdzie mogę znaleźć wsparcie dla Aspose.CAD?
+### Pytanie 4: Gdzie mogę znaleźć wsparcie dla Aspose.CAD?
 
-A4: W przypadku jakichkolwiek pytań lub pomocy odwiedź stronę[Forum Aspose.CAD](https://forum.aspose.com/c/cad/19).
+W razie pytań lub potrzeb pomocy, odwiedź [forum Aspose.CAD](https://forum.aspose.com/c/cad/19).
 
-### P5: Czy dostępna jest bezpłatna wersja próbna Aspose.CAD?
+### Pytanie 5: Czy dostępna jest darmowa wersja próbna Aspose.CAD?
 
- Odpowiedź 5: Tak, możesz uzyskać dostęp do bezpłatnej wersji próbnej Aspose.CAD[Tutaj](https://releases.aspose.com/).
+Tak, możesz uzyskać dostęp do darmowej wersji próbnej Aspose.CAD [tutaj](https://releases.aspose.com/).
+
+### Pytanie 6: Jak przekonwertować plik DWG bezpośrednio do JPG bez wcześniejszego wyodrębniania DWF?
+
+Możesz załadować plik DWG przy użyciu `Aspose.CAD.Image.Load` i zastosować ten sam przepływ rasteryzacji; wystarczy ustawić `options.Layouts` na żądaną nazwę (nazwy) układu z DWG.
+
+### Pytanie 7: Czy konwersja zachowuje jakość wektorową?
+
+Po rasteryzacji do JPG obraz jest oparty na bitmapie, więc skalowalność wektorowa zostaje utracona. W celu skalowania bez utraty jakości rozważ eksport do PNG lub SVG.
+
+---
+
+**Ostatnia aktualizacja:** 2026-04-06  
+**Testowano z:** Aspose.CAD 24.11 for .NET  
+**Autor:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

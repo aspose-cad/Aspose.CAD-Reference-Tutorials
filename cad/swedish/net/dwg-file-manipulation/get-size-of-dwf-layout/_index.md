@@ -1,33 +1,58 @@
 ---
-title: Arbeta med DWG-filer i C# - Få storlek på DWF-layout
-linktitle: Arbeta med DWG-filer i C# - Få storlek på DWF-layout
-second_title: Aspose.CAD .NET - CAD- och BIM-filformat
-description: Utforska kraften i Aspose.CAD för .NET för att hantera DWG-filer. Lär dig att extrahera DWF-layoutstorlekar utan ansträngning med C#.
-weight: 10
+date: 2026-04-06
+description: Lär dig hur du konverterar DWF till JPG i C# med Aspose.CAD och upptäck
+  hur du extraherar DWF‑layoutens storlek från DWG‑filer.
+keywords:
+- convert dwf to jpg
+- how to extract dwf
+- convert dwg to jpg
+linktitle: Arbeta med DWG-filer i C# – Hämta storlek på DWF‑layout
+second_title: Aspose.CAD .NET - CAD and BIM File Format
+title: Konvertera DWF till JPG i C# – Hämta DWF‑layoutstorlek från DWG
 url: /sv/net/dwg-file-manipulation/get-size-of-dwf-layout/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Arbeta med DWG-filer i C# - Få storlek på DWF-layout
+# Konvertera DWF till JPG i C# – Hämta DWF‑layoutstorlek från DWG
 
 ## Introduktion
 
-Inom området datorstödd design (CAD) och .NET-utveckling står Aspose.CAD som ett kraftfullt verktyg för att hantera DWG-filer. Denna handledning guidar dig genom processen att arbeta med DWG-filer i C# och extrahera storleken på en DWF-layout. Innan vi dyker in i koden, låt oss se till att du har allt förberett för att ge dig ut på denna resa.
+Om du behöver **konvertera DWF till JPG** samtidigt som du ska ta reda på de exakta layoutmåtten, är du på rätt plats. I den här handledningen går vi igenom ett komplett, end‑to‑end‑exempel som använder Aspose.CAD för .NET för att öppna en DWG‑baserad DWF‑fil, läsa varje layouts storlek och spara layouten som en högkvalitativ JPG‑bild. I slutet vet du inte bara hur du extraherar DWF‑layoutinformation utan har också ett återanvändbart kodsnutt som du kan lägga in i vilket C#‑projekt som helst.
+
+## Snabba svar
+- **Vad betyder “convert DWF to JPG”?** Det betyder att rasterisera en vektor‑DWF‑layout till en bitmap‑JPEG‑bild.  
+- **Varför läsa layoutstorlek först?** Att känna till de exakta måtten låter dig ange rätt sidodimensioner och undvika utdragen eller avklippt output.  
+- **Vilket bibliotek hanterar detta?** Aspose.CAD för .NET erbjuder fullt stöd för DWG, DWF och rasterbildskonvertering.  
+- **Behöver jag en licens?** En temporär licens fungerar för utvärdering; en fullständig licens krävs för produktion.  
+- **Vilka .NET‑versioner stöds?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7.
+
+## Vad är “convert DWF to JPG” och varför är det viktigt?
+
+Att konvertera en DWF (Design Web Format)-fil till JPG skapar en portabel bild som kan visas i webbläsare, bäddas in i rapporter eller delas med intressenter som inte har CAD‑programvara. Konverteringen ger dig också flexibiliteten att manipulera bilden (ändra storlek, komprimera, vattenstämpel) med vanliga bildbehandlingsverktyg.
+
+## Varför extrahera DWF‑layoutstorlek?
+
+En DWF‑fil kan innehålla flera layouter, var och en med sitt eget koordinatsystem och enheter (tum, millimeter osv.). Att extrahera layoutstorleken låter dig:
+
+1. Bevara det ursprungliga bildförhållandet vid rasterisering.  
+2. Välja rätt DPI för högupplöst output.  
+3. Automatisera batch‑behandling av många layouter utan manuell justering.
 
 ## Förutsättningar
 
-För att följa denna handledning sömlöst, se till att du har följande förutsättningar på plats:
+För att följa den här handledningen utan avbrott, se till att du har följande förutsättningar på plats:
 
--  Aspose.CAD för .NET: Se till att du har Aspose.CAD för .NET installerat. Du kan ladda ner den från[Aspose.CAD för .NET nedladdningssida](https://releases.aspose.com/cad/net/).
+- Aspose.CAD för .NET: Se till att du har Aspose.CAD för .NET installerat. Du kan ladda ner det från [Aspose.CAD för .NET nedladdningssida](https://releases.aspose.com/cad/net/).
 
-Nu när du har de nödvändiga verktygen, låt oss hoppa in på kodningsarenan.
+Att ha biblioteket redo betyder att du kan fokusera på koden istället för att leta efter beroenden.
 
-## Importera namnområden
+## Importera namnrymder
 
-Innan vi börjar arbeta med koden, låt oss importera de nödvändiga namnrymden:
+Innan vi börjar koda, importera de nödvändiga namnrymderna. Dessa tillhandahåller de klasser vi behöver för att arbeta med CAD‑filer, rasteriseringsalternativ och fil‑I/O.
 
 ```csharp
 using Aspose.CAD.FileFormats.Cad;
@@ -40,55 +65,55 @@ using System.Linq;
 using System.Text;
 ```
 
-Dessa namnområden kommer att tillhandahålla de väsentliga klasserna och metoderna för att hantera CAD-filer med Aspose.CAD i din C#-applikation.
-
 ## Steg 1: Ställ in din miljö
 
-Börja med att se till att du har rätt miljö inställd för ditt projekt. Referera till Aspose.CAD-biblioteket i ditt C#-projekt.
+Skapa ett nytt C#‑konsol‑ eller klassbiblioteksprojekt, lägg till en referens till **Aspose.CAD.dll**, och se till att projektet riktar mot en kompatibel .NET‑version.
 
-## Steg 2: Definiera filsökvägar
+## Steg 2: Definiera filsökvägar (hur man extraherar DWF)
 
-Definiera sökvägarna för din DWG-fil och utdatakatalogen för de genererade JPG-filerna:
+Ange var din käll‑DWF‑fil finns och var de genererade JPG‑filerna ska skrivas.
 
 ```csharp
 string MyDir = "Your Document Directory";
 string sourceFilePath = MyDir + "blocks_and_tables.dwf";
 ```
 
-## Steg 3: Ladda DWF-bilden
+> **Pro tip:** Använd `Path.Combine(MyDir, "blocks_and_tables.dwf")` för säkrare sökvägshantering på olika OS.
 
-Ladda DWF-bilden med Aspose.CAD:
+## Steg 3: Ladda DWF‑bilden
+
+Ladda DWF‑filen i ett `Aspose.CAD.Image`‑objekt. Vi kastar det till `DwfImage` eftersom vi behöver åtkomst till sid‑specifika egenskaper.
 
 ```csharp
 using (DwfImage image = (DwfImage)Aspose.CAD.Image.Load(sourceFilePath))
 {
-    // Koden för ytterligare steg kommer här
+    // Code for further steps will go here
 }
 ```
 
 ## Steg 4: Iterera genom sidor
 
-Iterera genom sidorna i DWF-bilden:
+En DWF kan innehålla flera sidor (layouter). Loop igenom varje sida så att vi kan bearbeta dem individuellt.
 
 ```csharp
 foreach (var page in image.Pages)
 {
-    // Koden för ytterligare steg kommer här
+    // Code for further steps will go here
 }
 ```
 
-## Steg 5: Få layoutinformation
+## Steg 5: Hämta layoutinformation
 
-Få layoutinformation från varje sida:
+Inuti loopen, hämta layoutnamnet. Detta namn används både för loggning och för att namnge den resulterande JPG‑filen.
 
 ```csharp
 var layout = page.Name;
 System.Console.WriteLine("Layout= " + layout);
 ```
 
-## Steg 6: Ställ in JPG-alternativ
+## Steg 6: Ställ in JPG‑alternativ
 
-Ställ in alternativ för att spara layouten som en JPG-fil:
+Skapa en `JpegOptions`‑instans och konfigurera rasteriseringsalternativen. `Layouts`‑egenskapen talar om för Aspose.CAD vilken layout som ska renderas.
 
 ```csharp
 using (FileStream fs = new FileStream(MyDir + "layout_" + layout + ".jpg", FileMode.Create))
@@ -96,23 +121,23 @@ using (FileStream fs = new FileStream(MyDir + "layout_" + layout + ".jpg", FileM
     JpegOptions jpegOptions = new JpegOptions();
     CadRasterizationOptions options = new CadRasterizationOptions();
     options.Layouts = new string[] { layout };
-    // Koden för ytterligare steg kommer här
+    // Code for further steps will go here
 }
 ```
 
-## Steg 7: Bestäm sidstorlek
+## Steg 7: Bestäm sidstorlek (konvertera dwg till jpg)
 
-Bestäm storleken på DWF-layouten:
+Beräkna bredd och höjd på layouten i dess ursprungliga enheter. Denna information är avgörande för att korrekt ställa in raster‑sidstorlek.
 
 ```csharp
 double sizeExtX = page.MaxPoint.X - page.MinPoint.X;
 double sizeExtY = page.MaxPoint.Y - page.MinPoint.Y;
-// Koden för ytterligare steg kommer här
+// Code for further steps will go here
 ```
 
-## Steg 8: Ställ in sidmått
+## Steg 8: Ställ in sidimensioner
 
-Ställ in sidmåtten baserat på enhetstypen:
+Konvertera de ursprungliga enheterna (tum eller millimeter) till pixlar med hjälp av hjälpfunktionerna som tillhandahålls av Aspose.CAD. Om enhetstypen är annan, faller vi tillbaka på att använda de råa värdena.
 
 ```csharp
 if (page.UnitType == UnitType.Inch)
@@ -132,9 +157,9 @@ else
 }
 ```
 
-## Steg 9: Spara JPG-filen
+## Steg 9: Spara JPG‑filen
 
-Spara JPG-filen med de angivna alternativen:
+Till sist bindes rasteriseringsalternativen till JPEG‑alternativen och bilden sparas till **disk**.
 
 ```csharp
 jpegOptions.VectorRasterizationOptions = options;
@@ -142,33 +167,51 @@ image.Save(fs, jpegOptions);
 }
 ```
 
-Nu har du framgångsrikt extraherat storleken på DWF-layouten från DWG-filen med Aspose.CAD i C#. Utforska gärna fler funktioner och funktioner som Aspose.CAD erbjuder för .NET-utveckling.
+När loopen är klar har du en JPG‑fil för varje layout, varje fil har exakt samma storlek som den ursprungliga DWF‑dimensionen.
 
-## Slutsats
+## Vanliga problem och lösningar
 
-I den här handledningen har vi gått igenom processen att arbeta med DWG-filer i C# med Aspose.CAD. Genom att följa dessa steg kan du inte bara få storleken på en DWF-layout utan också utnyttja funktionerna i Aspose.CAD för olika CAD-relaterade uppgifter i dina .NET-projekt.
+| Symtom | Trolig orsak | Åtgärd |
+|---------|--------------|-----|
+| Tom JPG‑output | `options.Layouts` är inte korrekt inställd | Verifiera att layoutnamnet matchar `page.Name`. |
+| Förvrängd bild | Fel DPI‑konvertering | Använd `CommonHelper.DPI = 300` (eller ditt mål‑DPI) före konvertering. |
+| Filen hittades inte | Felaktig `MyDir`‑sökväg | Använd absoluta sökvägar eller `Path.Combine`. |
+| Licensundantag | Ingen licens tillämpad | Läs in en temporär eller permanent licens innan du anropar `Image.Load`. |
 
-## FAQ's
+## Vanliga frågor
 
-### F1: Är Aspose.CAD kompatibel med de senaste DWG-filformaten?
+### Q1: Är Aspose.CAD kompatibel med de senaste DWG‑filformaten?
 
- S1: Aspose.CAD stöder olika DWG-filformat, inklusive de senaste versionerna. Referera till[dokumentation](https://reference.aspose.com/cad/net/) för specifika kompatibilitetsdetaljer.
+A1: Aspose.CAD stöder olika DWG‑filformat, inklusive de senaste versionerna. Se [dokumentationen](https://reference.aspose.com/cad/net/) för specifika kompatibilitetsdetaljer.
 
-### F2: Kan jag använda Aspose.CAD för både kommersiella och personliga projekt?
+### Q2: Kan jag använda Aspose.CAD för både kommersiella och personliga projekt?
 
- S2: Ja, Aspose.CAD erbjuder flexibla licensalternativ för både kommersiellt och personligt bruk. Besök[köpsidan](https://purchase.aspose.com/buy) för mer detaljer.
+A2: Ja, Aspose.CAD erbjuder flexibla licensalternativ för både kommersiell och personlig användning. Besök [köpsidan](https://purchase.aspose.com/buy) för mer information.
 
-### F3: Hur kan jag få en tillfällig licens för Aspose.CAD?
+### Q3: Hur kan jag skaffa en temporär licens för Aspose.CAD?
 
- A3: Du kan få en tillfällig licens från[här](https://purchase.aspose.com/temporary-license/) i utvärderingssyfte.
+A3: Du kan få en temporär licens från [här](https://purchase.aspose.com/temporary-license/) för utvärderingsändamål.
 
-### F4: Var kan jag hitta support för Aspose.CAD?
+### Q4: Var kan jag hitta support för Aspose.CAD?
 
-S4: För eventuella frågor eller hjälp, besök[Aspose.CAD-forum](https://forum.aspose.com/c/cad/19).
+A4: För frågor eller hjälp, besök [Aspose.CAD‑forumet](https://forum.aspose.com/c/cad/19).
 
-### F5: Finns det en gratis testversion tillgänglig för Aspose.CAD?
+### Q5: Finns det en gratis provversion av Aspose.CAD?
 
- S5: Ja, du kan få tillgång till en gratis testversion av Aspose.CAD[här](https://releases.aspose.com/).
+A5: Ja, du kan få åtkomst till en gratis provversion av Aspose.CAD [här](https://releases.aspose.com/).
+
+### Q6: Hur konverterar jag en DWG‑fil direkt till JPG utan att först extrahera DWF?
+
+A6: Du kan ladda DWG‑filen med `Aspose.CAD.Image.Load` och använda samma rasteriseringsarbetsflöde; ange bara `options.Layouts` till önskat layoutnamn/namn från DWG.
+
+### Q7: Bevarar konverteringen vektor‑kvaliteten?
+
+A7: När den rasteriseras till JPG blir bilden bitmap‑baserad, så vektorskala förloras. För förlustfri skalning, överväg att exportera till PNG eller SVG istället.
+
+**Senast uppdaterad:** 2026-04-06  
+**Testad med:** Aspose.CAD 24.11 för .NET  
+**Författare:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
