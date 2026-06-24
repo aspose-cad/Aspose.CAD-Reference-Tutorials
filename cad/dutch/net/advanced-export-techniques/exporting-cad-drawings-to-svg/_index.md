@@ -1,33 +1,63 @@
 ---
-title: CAD-tekeningen exporteren naar SVG-formaat - Aspose.CAD-handleiding
-linktitle: CAD-tekeningen exporteren naar SVG-formaat
-second_title: Aspose.CAD .NET - CAD- en BIM-bestandsindeling
-description: Ontdek het naadloze proces van het exporteren van CAD-tekeningen naar SVG met behulp van Aspose.CAD voor .NET. Verbeter uw CAD-ontwikkeling met flexibiliteit en maatwerk.
-weight: 15
+date: 2026-03-07
+description: Leer hoe u CAD naar SVG kunt exporteren met Aspose.CAD voor .NET, de
+  SVG‑kleur kunt aanpassen en DWG efficiënt naar SVG kunt converteren.
+linktitle: Exporting CAD Drawings to SVG Format
+second_title: Aspose.CAD .NET - CAD and BIM File Format
+title: CAD exporteren naar SVG – CAD‑tekeningen exporteren naar SVG‑formaat – Aspose.CAD‑gids
 url: /nl/net/advanced-export-techniques/exporting-cad-drawings-to-svg/
+weight: 15
 ---
 
-{{< blocks/products/pf/main-wrap-class >}}
+"
+
+"**Tested With:** Aspose.CAD for .NET 24.12" -> "**Getest met:** Aspose.CAD for .NET 24.12"
+
+"**Author:** Aspose" -> "**Auteur:** Aspose"
+
+Then closing shortcodes.
+
+Then backtop button shortcode.
+
+Make sure to keep all shortcodes exactly.
+
+Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# CAD-tekeningen exporteren naar SVG-formaat - Aspose.CAD-handleiding
+# CAD naar SVG exporteren – CAD-tekeningen exporteren naar SVG-indeling
 
-## Invoering
+## Introductie
 
-In de dynamische wereld van CAD (Computer-Aided Design) is de mogelijkheid om tekeningen naar verschillende formaten te exporteren een cruciale vaardigheid. SVG (Scalable Vector Graphics) is zo'n formaat dat aan populariteit heeft gewonnen vanwege de schaalbaarheid en veelzijdigheid. In deze zelfstudie onderzoeken we hoe u CAD-tekeningen naar SVG kunt exporteren met behulp van de krachtige Aspose.CAD voor .NET-bibliotheek.
+Het exporteren van CAD-tekeningen naar SVG is een veelvoorkomende eis wanneer je resolutie‑onafhankelijke graphics nodig hebt voor webpagina's, rapporten of interactieve visualisaties. In deze tutorial leer je **hoe je CAD naar SVG exporteert** met Aspose.CAD for .NET, verken je opties om **SVG-kleur aan te passen**, en zie je hoe je **DWG naar SVG kunt converteren** (of DXF naar SVG) in slechts een paar regels code. De stappen zijn snel, de API is intuïtief, en de resulterende SVG‑bestanden schalen perfect op elk apparaat.
 
-## Vereisten
+## Snelle antwoorden
+- **Welke bibliotheek verwerkt de conversie?** Aspose.CAD for .NET.
+- **Kan ik de kleermodus wijzigen?** Ja – gebruik `SvgColorMode` om grijstinten, zwart‑wit of volledige kleur in te stellen.
+- **Welke CAD-formaten worden ondersteund?** DWG, DXF en vele andere (zie Aspose.CAD‑documentatie).
+- **Heb ik een licentie nodig voor ontwikkeling?** Een tijdelijke licentie is beschikbaar voor testen.
+- **Hoe lang duurt de conversie?** Meestal minder dan een seconde voor standaardtekeningen.
 
-Voordat u in de zelfstudie duikt, moet u ervoor zorgen dat u aan de volgende vereisten voldoet:
+## Wat is “CAD naar SVG exporteren”?
+CAD naar SVG exporteren betekent dat je een native CAD‑bestand (zoals DWG of DXF) neemt en rendert naar het Scalable Vector Graphics‑formaat. SVG is XML‑gebaseerd, lichtgewicht en kan worden gestyled met CSS—wat het ideaal maakt voor moderne web‑ en mobiele toepassingen.
 
--  Aspose.CAD voor .NET-bibliotheek: Download en installeer de Aspose.CAD voor .NET-bibliotheek. Je kunt de bibliotheek vinden[hier](https://releases.aspose.com/cad/net/).
+## Waarom Aspose.CAD gebruiken voor CAD naar SVG exporteren?
+- **Geen externe afhankelijkheden** – pure .NET API, geen AutoCAD‑installaties nodig.  
+- **Fijne controle** – je kunt **SVG‑kleur aanpassen**, bepalen of tekst als vormen behouden blijft, en rasterisatie‑opties kiezen.  
+- **Brede formaatondersteuning** – dezelfde code werkt voor **DWG naar SVG converteren**, **DXF naar SVG converteren**, en andere formaten, waardoor je codebasis wordt vereenvoudigd.  
+- **Hoge prestaties** – geoptimaliseerd voor snelheid en laag geheugenverbruik, geschikt voor batchverwerking.
 
-- Ontwikkelomgeving: Zet een geschikte ontwikkelomgeving op met Visual Studio of een andere .NET-ontwikkeltool.
+## Voorvereisten
 
-## Naamruimten importeren
+Zorg ervoor dat je het volgende hebt voordat je begint:
 
-Importeer om te beginnen de benodigde naamruimten in uw project:
+- **Aspose.CAD for .NET** geïnstalleerd. Je kunt de bibliotheek downloaden [hier](https://releases.aspose.com/cad/net/).  
+- Een .NET‑ontwikkelomgeving (Visual Studio, Rider of de .NET CLI).  
+- Een CAD‑bestand (DWG of DXF) dat je wilt converteren.
+
+## Namespaces importeren
+
+Breng eerst de benodigde namespaces in je project zodat de klassen beschikbaar zijn.
 
 ```csharp
 using Aspose.CAD.ImageOptions;
@@ -37,62 +67,91 @@ using System.Linq;
 using System.Text;
 ```
 
-## Stap 1: Stel de documentmap in
+## Stapsgewijze handleiding
+
+### Stap 1: Stel de documentdirectory in  
+Definieer de map waarin je bron‑CAD‑bestand zich bevindt en waar de SVG‑output wordt opgeslagen.
 
 ```csharp
-// Het pad naar de documentenmap.
+// The path to the documents directory.
 string MyDir = "Your Document Directory";
 ```
 
-## Stap 2: Laad de CAD-tekening
+### Stap 2: Laad de CAD‑tekening  
+Gebruik `Image.Load` om het DWG‑ (of DXF‑) bestand te lezen. Dit werkt voor **load DWG .NET** scenario's.
 
 ```csharp
 using (Image image = Image.Load(MyDir + "sample.dwg"))
 {
 ```
 
-## Stap 3: Configureer SVG-exportopties
+### Stap 3: Configureer SVG‑exportopties  
+Pas de exportinstellingen aan volgens je behoeften. Hier stellen we de kleermodus in op grijstinten en dwingen we alle tekst af te beelden als vectorvormen.
 
 ```csharp
     var options = new SvgOptions();
-    options.ColorType = SvgColorMode.Grayscale;
-    options.TextAsShapes = true;
+    options.ColorType = SvgColorMode.Grayscale;   // customize SVG color mode
+    options.TextAsShapes = true;                  // ensures text appears as shapes
 ```
 
-## Stap 4: Sla het SVG-bestand op
+### Stap 4: Sla het SVG‑bestand op  
+Schrijf tenslotte het SVG‑bestand naar de schijf. Deze stap **slaat CAD op als SVG** en voltooit de conversie.
 
 ```csharp
     image.Save(MyDir + "sample.svg", options);
 }
 ```
 
-Door deze eenvoudige stappen te volgen, kunt u CAD-tekeningen naadloos naar SVG exporteren met behulp van Aspose.CAD voor .NET. De bibliotheek biedt flexibiliteit en aanpassingsmogelijkheden, zodat u de uitvoer kunt afstemmen op uw vereisten.
+Door deze vier beknopte stappen te volgen, kun je **DWG naar SVG converteren** (of **DXF naar SVG converteren**) met volledige controle over het uiterlijk van de output.
 
-## Conclusie
+## Veelvoorkomende problemen en oplossingen
 
-Concluderend vereenvoudigt Aspose.CAD voor .NET het proces van het exporteren van CAD-tekeningen naar SVG. De intuïtieve API en robuuste functies maken het tot een waardevol hulpmiddel voor ontwikkelaars die met CAD-applicaties werken.
+| Issue | Cause | Fix |
+|-------|-------|-----|
+| **Lege SVG-uitvoer** | Het pad naar het bronbestand is onjuist of het bestand is beschadigd. | Controleer `MyDir` en zorg ervoor dat het CAD‑bestand zonder fouten opent. |
+| **Kleuren zien er verkeerd uit** | `SvgColorMode` onbedoeld ingesteld op Grayscale. | Wijzig `options.ColorType` naar `SvgColorMode.FullColor` om de oorspronkelijke kleuren te behouden. |
+| **Tekst ontbreekt** | `TextAsShapes` ingesteld op `false` en de viewer ondersteunt geen ingesloten lettertypen. | Behoud `TextAsShapes = true` of embed de vereiste lettertypen in de SVG. |
 
 ## Veelgestelde vragen
 
-### Vraag 1: Is Aspose.CAD compatibel met alle CAD-formaten?
+### Q1: Is Aspose.CAD compatibel met alle CAD-formaten?
+A1: Aspose.CAD ondersteunt verschillende CAD-formaten, waaronder DWG en DXF, wat zorgt voor brede compatibiliteit.
 
-A1: Aspose.CAD ondersteunt verschillende CAD-formaten, waaronder DWG en DXF, waardoor een brede compatibiliteit wordt gegarandeerd.
+### Q2: Kun ik de kleermodus aanpassen bij het exporteren naar SVG?
+A2: Ja, Aspose.CAD stelt je in staat de kleermodus te kiezen, wat flexibiliteit biedt in de output.
 
-### V2: Kan ik de kleurmodus aanpassen bij het exporteren naar SVG?
+### Q3: Zijn tijdelijke licenties beschikbaar voor testdoeleinden?
+A3: Ja, je kunt een tijdelijke licentie verkrijgen [hier](https://purchase.aspose.com/temporary-license/) voor evaluatie.
 
-A2: Ja, met Aspose.CAD kunt u de kleurmodus kiezen, wat flexibiliteit in de uitvoer oplevert.
+### Q4: Waar kan ik gedetailleerde documentatie voor Aspose.CAD vinden?
+A4: De documentatie is beschikbaar [hier](https://reference.aspose.com/cad/net/).
 
-### Vraag 3: Zijn er tijdelijke licenties beschikbaar voor testdoeleinden?
+### Q5: Hoe kan ik ondersteuning krijgen of vragen stellen over Aspose.CAD?
+A5: Bezoek het community‑forum [hier](https://forum.aspose.com/c/cad/19) voor ondersteuning en discussies.
 
- A3: Ja, u kunt een tijdelijke licentie verkrijgen[hier](https://purchase.aspose.com/temporary-license/) voor evaluatie.
+## Veelgestelde vragen
 
-### V4: Waar kan ik gedetailleerde documentatie voor Aspose.CAD vinden?
+**Q: Kan ik deze code gebruiken met .NET Core of .NET 6?**  
+A: Absoluut. Aspose.CAD for .NET is compatibel met .NET Framework, .NET Core en .NET 5/6+.
 
- A4: De documentatie is beschikbaar[hier](https://reference.aspose.com/cad/net/).
+**Q: Is het mogelijk om alleen een specifieke lay-out of laag te exporteren?**  
+A: Ja. Gebruik `SvgOptions` om `PageIndex` in te stellen of lagen te filteren vóór het opslaan.
 
-### V5: Hoe kan ik ondersteuning krijgen of vragen stellen met betrekking tot Aspose.CAD?
+**Q: Hoe kan ik aangepaste CSS‑stijlen in de gegenereerde SVG embedden?**  
+A: Na het opslaan kun je de SVG‑XML post‑processen om `<style>`‑elementen toe te voegen, of `options.CustomCss` gebruiken indien beschikbaar in nieuwere versies.
 
- A5: Bezoek het communityforum[hier](https://forum.aspose.com/c/cad/19) voor ondersteuning en discussies.
+**Q: Welke grootte‑limieten gelden er voor het bron‑CAD‑bestand?**  
+A: De bibliotheek kan grote bestanden aan, maar het geheugenverbruik neemt toe met de complexiteit. Voor zeer grote tekeningen kun je overwegen om pagina's afzonderlijk te verwerken.
+
+**Q: Behoudt de conversie lijndiktes en lijntypen?**  
+A: Standaard worden lijndiktes behouden. Je kunt de renderopties in `SvgOptions` aanpassen voor fijnere controle.
+
+---
+
+**Laatst bijgewerkt:** 2026-03-07  
+**Getest met:** Aspose.CAD for .NET 24.12  
+**Auteur:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

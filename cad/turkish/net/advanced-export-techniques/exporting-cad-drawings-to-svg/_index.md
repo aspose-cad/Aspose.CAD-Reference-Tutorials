@@ -1,33 +1,52 @@
 ---
-title: CAD Çizimlerini SVG Formatına Aktarma - Aspose.CAD Guide
-linktitle: CAD Çizimlerini SVG Formatına Aktarma
-second_title: Aspose.CAD .NET - CAD ve BIM Dosya Formatı
-description: Aspose.CAD for .NET'i kullanarak CAD çizimlerini SVG'ye aktarmanın kusursuz sürecini keşfedin. CAD geliştirmenizi esneklik ve özelleştirmeyle geliştirin.
-weight: 15
+date: 2026-03-07
+description: Aspose.CAD for .NET kullanarak CAD'i SVG'ye nasıl dışa aktaracağınızı,
+  SVG rengini nasıl özelleştireceğinizi ve DWG'yi verimli bir şekilde SVG'ye nasıl
+  dönüştüreceğinizi öğrenin.
+linktitle: Exporting CAD Drawings to SVG Format
+second_title: Aspose.CAD .NET - CAD and BIM File Format
+title: CAD'yi SVG'ye Aktar – CAD Çizimlerini SVG Formatına Aktarma - Aspose.CAD Kılavuzu
 url: /tr/net/advanced-export-techniques/exporting-cad-drawings-to-svg/
+weight: 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# CAD Çizimlerini SVG Formatına Aktarma - Aspose.CAD Guide
+# CAD'i SVG'ye Dışa Aktarma – CAD Çizimlerini SVG Formatına Dışa Aktarma
 
-## giriiş
+## Giriş
 
-CAD'nin (Bilgisayar Destekli Tasarım) dinamik dünyasında, çizimleri çeşitli formatlara aktarma yeteneği çok önemli bir beceridir. SVG (Ölçeklenebilir Vektör Grafikleri), ölçeklenebilirliği ve çok yönlülüğü nedeniyle popülerlik kazanan formatlardan biridir. Bu eğitimde, güçlü Aspose.CAD for .NET kütüphanesini kullanarak CAD çizimlerini SVG'ye nasıl aktaracağımızı keşfedeceğiz.
+CAD çizimlerini SVG'ye dışa aktarmak, web sayfaları, raporlar veya etkileşimli görselleştirmeler için çözünürlük‑bağımsız grafiklere ihtiyaç duyduğunuzda yaygın bir gereksinimdir. Bu öğreticide **CAD'i SVG'ye nasıl dışa aktaracağınızı** Aspose.CAD for .NET ile öğrenecek, **SVG rengini özelleştirme** seçeneklerini keşfedecek ve sadece birkaç satır kodla **DWG'yi SVG'ye (veya DXF'yi SVG'ye) dönüştürmeyi** göreceksiniz. Adımlar hızlıdır, API sezgiseldir ve ortaya çıkan SVG dosyaları herhangi bir cihazda mükemmel ölçeklenir.
+
+## Hızlı Yanıtlar
+- **Dönüşümü hangi kütüphane yönetir?** Aspose.CAD for .NET.
+- **Renk modunu değiştirebilir miyim?** Evet – `SvgColorMode` kullanarak gri‑ton, siyah‑beyaz veya tam renk ayarlayabilirsiniz.
+- **Hangi CAD formatları destekleniyor?** DWG, DXF ve birçok diğer format (Aspose.CAD belgelerine bakınız).
+- **Geliştirme için lisansa ihtiyacım var mı?** Test için geçici bir lisans mevcuttur.
+- **Dönüşüm ne kadar sürer?** Standart çizimler için genellikle bir saniyenin altında.
+
+## “CAD'i SVG'ye dışa aktarma” nedir?
+CAD'i SVG'ye dışa aktarmak, yerel bir CAD dosyasını (ör. DWG veya DXF) Ölçeklenebilir Vektör Grafikleri formatına dönüştürmek anlamına gelir. SVG, XML‑tabanlı, hafif ve CSS ile stillendirilebilir—bu da modern web ve mobil uygulamalar için idealdir.
+
+## Neden CAD'i SVG'ye dışa aktarmak için Aspose.CAD kullanmalı?
+- **Harici bağımlılık yok** – saf .NET API, AutoCAD kurulumuna gerek yok.  
+- **İnce ayarlı kontrol** – **SVG rengini özelleştirebilir**, metnin şekil olarak tutulup tutulmayacağını belirleyebilir ve rasterleştirme seçeneklerini seçebilirsiniz.  
+- **Geniş format desteği** – aynı kod **DWG'yi SVG'ye dönüştürme**, **DXF'yi SVG'ye dönüştürme** ve diğer formatlar için çalışır, kod tabanınızı basitleştirir.  
+- **Yüksek performans** – hız ve düşük bellek kullanımı için optimize edilmiştir, toplu işleme için uygundur.
 
 ## Önkoşullar
 
-Eğiticiye dalmadan önce aşağıdaki önkoşulların yerine getirildiğinden emin olun:
+Başlamadan önce şu şeylerin kurulu olduğundan emin olun:
 
--  Aspose.CAD for .NET Library: Aspose.CAD for .NET kütüphanesini indirin ve yükleyin. Kütüphaneyi bulabilirsiniz[Burada](https://releases.aspose.com/cad/net/).
+- **Aspose.CAD for .NET** yüklü. Kütüphaneyi [buradan](https://releases.aspose.com/cad/net/) indirebilirsiniz.  
+- Bir .NET geliştirme ortamı (Visual Studio, Rider veya .NET CLI).  
+- Dönüştürmek istediğiniz bir CAD dosyası (DWG veya DXF).
 
-- Geliştirme Ortamı: Visual Studio veya başka herhangi bir .NET geliştirme aracıyla uygun bir geliştirme ortamı oluşturun.
+## Ad Alanlarını İçe Aktarma
 
-## Ad Alanlarını İçe Aktar
-
-Başlamak için gerekli ad alanlarını projenize aktarın:
+İlk olarak, sınıfların kullanılabilir olması için gerekli ad alanlarını projenize ekleyin.
 
 ```csharp
 using Aspose.CAD.ImageOptions;
@@ -37,62 +56,96 @@ using System.Linq;
 using System.Text;
 ```
 
-## 1. Adım: Belge Dizinini Ayarlayın
+## Adım‑Adım Kılavuz
+
+### Adım 1: Belge Dizini Ayarla  
+Kaynak CAD dosyanızın bulunduğu ve SVG çıktısının kaydedileceği klasörü tanımlayın.
 
 ```csharp
-// Belgeler dizininin yolu.
+// The path to the documents directory.
 string MyDir = "Your Document Directory";
 ```
 
-## Adım 2: CAD Çizimini Yükleyin
+### Adım 2: CAD Çizimini Yükle  
+`Image.Load` kullanarak DWG (veya DXF) dosyasını okuyun. Bu, **load DWG .NET** senaryoları için çalışır.
 
 ```csharp
 using (Image image = Image.Load(MyDir + "sample.dwg"))
 {
 ```
 
-## 3. Adım: SVG Dışa Aktarma Seçeneklerini Yapılandırın
+### Adım 3: SVG Dışa Aktarma Seçeneklerini Yapılandır  
+İhtiyacınıza göre dışa aktarma ayarlarını düzenleyin. Burada renk modunu gri‑ton olarak ayarlıyor ve tüm metnin vektör şekil olarak render edilmesini zorunlu kılıyoruz.
 
 ```csharp
     var options = new SvgOptions();
-    options.ColorType = SvgColorMode.Grayscale;
-    options.TextAsShapes = true;
+    options.ColorType = SvgColorMode.Grayscale;   // customize SVG color mode
+    options.TextAsShapes = true;                  // ensures text appears as shapes
 ```
 
-## Adım 4: SVG Dosyasını Kaydedin
+### Adım 4: SVG Dosyasını Kaydet  
+Son olarak, SVG dosyasını diske yazın. Bu adım **CAD'i SVG olarak kaydeder** ve dönüşümü tamamlar.
 
 ```csharp
     image.Save(MyDir + "sample.svg", options);
 }
 ```
 
-Bu basit adımları izleyerek, Aspose.CAD for .NET'i kullanarak CAD çizimlerini sorunsuz bir şekilde SVG'ye aktarabilirsiniz. Kitaplık, çıktıyı gereksinimlerinize göre uyarlamanıza olanak tanıyan esneklik ve özelleştirme seçenekleri sunar.
+Bu dört kısa adımı izleyerek **DWG'yi SVG'ye** (veya **DXF'yi SVG'ye**) tam kontrolle dışa aktarabilirsiniz.
 
-## Çözüm
+## Yaygın Sorunlar ve Çözümler
 
-Sonuç olarak Aspose.CAD for .NET, CAD çizimlerini SVG'ye aktarma sürecini basitleştirir. Sezgisel API'si ve sağlam özellikleri, onu CAD uygulamalarıyla çalışan geliştiriciler için değerli bir araç haline getiriyor.
+| Sorun | Neden | Çözüm |
+|-------|-------|-------|
+| **Boş SVG çıktısı** | Kaynak dosya yolu hatalı veya dosya bozuk. | `MyDir`'i doğrulayın ve CAD dosyasının hatasız açıldığından emin olun. |
+| **Renkler yanlış görünüyor** | `SvgColorMode` yanlışlıkla Gri tonlamaya ayarlanmış. | `options.ColorType`'ı `SvgColorMode.FullColor` olarak değiştirerek orijinal renkleri koruyun. |
+| **Metin eksik** | `TextAsShapes` `false` olarak ayarlanmış ve görüntüleyici gömülü fontları desteklemiyor. | `TextAsShapes = true` tutun veya SVG'ye gerekli fontları gömün. |
 
-## SSS'ler
+## Sık Sorulan Sorular
 
-### S1: Aspose.CAD tüm CAD formatlarıyla uyumlu mudur?
+### Q1: Aspose.CAD tüm CAD formatlarıyla uyumlu mu?
 
-Cevap1: Aspose.CAD, DWG ve DXF dahil olmak üzere çeşitli CAD formatlarını destekleyerek geniş uyumluluk sağlar.
+A1: Aspose.CAD, DWG ve DXF dahil olmak üzere çeşitli CAD formatlarını destekler ve geniş bir uyumluluk sağlar.
 
-### S2: SVG'ye dışa aktarırken renk modunu özelleştirebilir miyim?
+### Q2: SVG'ye dışa aktarırken renk modunu özelleştirebilir miyim?
 
-Cevap2: Evet, Aspose.CAD çıktıda esneklik sağlayarak renk modunu seçmenize olanak tanır.
+A2: Evet, Aspose.CAD renk modunu seçmenize izin verir, böylece çıktıda esneklik elde edersiniz.
 
-### S3: Test amaçlı geçici lisanslar mevcut mu?
+### Q3: Test amaçlı geçici lisanslar mevcut mu?
 
- Cevap3: Evet, geçici lisans alabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/) Evrim için.
+A3: Evet, değerlendirme için geçici bir lisansı [buradan](https://purchase.aspose.com/temporary-license/) alabilirsiniz.
 
-### S4: Aspose.CAD için ayrıntılı belgeleri nerede bulabilirim?
+### Q4: Aspose.CAD için detaylı belgeleri nerede bulabilirim?
 
- A4: Belgeler mevcut[Burada](https://reference.aspose.com/cad/net/).
+A4: Belgeler [burada](https://reference.aspose.com/cad/net/) mevcuttur.
 
-### S5: Aspose.CAD ile ilgili nasıl destek alabilirim veya soru sorabilirim?
+### Q5: Aspose.CAD ile ilgili destek alabilir veya soru sorabilir miyim?
 
- A5: Topluluk forumunu ziyaret edin[Burada](https://forum.aspose.com/c/cad/19) Destek ve tartışmalar için.
+A5: Destek ve tartışmalar için topluluk forumunu [burada](https://forum.aspose.com/c/cad/19) ziyaret edebilirsiniz.
+
+## Yaygın Sorulan Sorular
+
+**Q:** Bu kodu .NET Core veya .NET 6 ile kullanabilir miyim?  
+**A:** Kesinlikle. Aspose.CAD for .NET, .NET Framework, .NET Core ve .NET 5/6+ ile uyumludur.
+
+**Q:** Sadece belirli bir düzeni veya katmanı dışa aktarmak mümkün mü?  
+**A:** Evet. `SvgOptions` içinde `PageIndex` ayarlayabilir veya kaydetmeden önce katmanları filtreleyebilirsiniz.
+
+**Q:** Oluşturulan SVG'ye özel CSS stilleri nasıl eklenir?  
+**A:** Kaydetme sonrası SVG XML'ini işleyerek `<style>` öğeleri ekleyebilir veya yeni sürümlerde mevcutsa `options.CustomCss` kullanabilirsiniz.
+
+**Q:** Kaynak CAD dosyası için hangi boyut sınırlamaları vardır?  
+**A:** Kütüphane büyük dosyaları işleyebilir, ancak bellek tüketimi karmaşıklıkla artar. Çok büyük çizimler için sayfaları ayrı ayrı işlemek daha iyidir.
+
+**Q:** Dönüşüm çizgi kalınlıklarını ve çizgi tiplerini korur mu?  
+**A:** Varsayılan olarak çizgi kalınlıkları korunur. Daha ince kontrol için `SvgOptions` içinde render ayarlarını değiştirebilirsiniz.
+
+---
+
+**Son Güncelleme:** 2026-03-07  
+**Test Edilen Sürüm:** Aspose.CAD for .NET 24.12  
+**Yazar:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

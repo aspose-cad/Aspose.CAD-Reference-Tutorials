@@ -1,7 +1,8 @@
 ---
-date: 2026-01-02
+date: 2026-03-07
 description: Dowiedz się, jak zamienić czcionkę w plikach DWG przy użyciu Aspose.CAD
-  for Java. Przewodnik krok po kroku, jak precyzyjnie dostosować style.
+  dla Javy. Ten przewodnik krok po kroku pokazuje **jak zamienić czcionkę** w określonym
+  stylu z precyzją.
 linktitle: Substitute Font of a Particular Style in DWG
 second_title: Aspose.CAD Java API
 title: Jak zamienić czcionkę określonego stylu w pliku DWG przy użyciu Aspose.CAD
@@ -14,40 +15,41 @@ weight: 12
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Jak zastąpić czcionkę określonego stylu w DWG przy użyciu Aspose.CAD dla Javy
+# Jak zamienić czcionkę określonego stylu w DWG przy użyciu Aspose.CAD dla Javy
 
 ## Wprowadzenie
 
-W świecie CAD (Computer-Aided Design) precyzja i szczegóły są kluczowe, a **znajomość sposobu zastąpienia czcionki** w rysunku może zaoszczędzić niezliczone godziny pracy. Aspose.CAD dla Javy daje programistom czysty, programowy sposób modyfikacji plików DWG, w tym możliwość zmiany czcionki konkretnego stylu tekstowego. W tym samouczku przeprowadzimy Cię krok po kroku przez proces zastąpienia czcionki określonego stylu w pliku DWG, wyjaśnimy, dlaczego może to być potrzebne, i pokażemy, jak zweryfikować wynik.
+W świecie CAD (Computer‑Aided Design) precyzja i szczegóły są kluczowe, a **znajomość sposobu zamiany czcionki** w rysunku może zaoszczędzić niezliczone godziny przeróbek. Aspose.CAD for Java zapewnia programistom czysty, programowy sposób modyfikacji plików DWG, w tym możliwość zmiany czcionki określonego stylu tekstowego. W tym samouczku przeprowadzimy Cię krok po kroku przez proces zamiany czcionki konkretnego stylu w pliku DWG, wyjaśnimy, dlaczego może to być przydatne, oraz pokażemy, jak zweryfikować wynik.
 
 ## Szybkie odpowiedzi
-- **Co oznacza „zastąpienie czcionki” w DWG?** Zmiana podstawowej czcionki powiązanej z definicją stylu tekstowego.  
-- **Która biblioteka to obsługuje?** Aspose.CAD dla Javy.  
-- **Czy potrzebna jest licencja?** Darmowa wersja próbna wystarczy do testów; licencja komercyjna jest wymagana w środowisku produkcyjnym.  
-- **Czy mogę zmienić wiele stylów jednocześnie?** Tak – iteruj po kolekcji stylów i ustaw czcionkę dla każdego z nich.  
-- **Czy kod jest kompatybilny z Java 8+?** Oczywiście, API jest przeznaczone dla Java 8 i nowszych wersji.
+- **Co oznacza „zamiana czcionki” w DWG?** Zmiana podstawowej czcionki powiązanej z definicją stylu tekstowego.  
+- **Która biblioteka obsługuje to?** Aspose.CAD for Java.  
+- **Czy potrzebna jest licencja?** Darmowa wersja próbna działa do testów; licencja komercyjna jest wymagana w produkcji.  
+- **Czy mogę zmienić wiele stylów jednocześnie?** Tak – iteruj po kolekcji stylów i ustaw czcionkę dla każdego.  
+- **Czy kod jest kompatybilny z Java 8+?** Absolutnie, API jest przeznaczone dla Java 8 i nowszych.
 
-## Co to jest zastąpienie czcionki w DWG?
-Zastąpienie czcionki oznacza aktualizację właściwości *podstawowej czcionki* stylu tekstowego (nazywanego także „style” w terminologii DWG). Gdy rysunek odwołuje się do tego stylu, każdy fragment tekstu automatycznie przyjmuje nową czcionkę, zapewniając spójny wygląd w całym pliku.
+## Co to jest zamiana czcionki w DWG?
 
-## Dlaczego modyfikować styl tekstowy DWG?
+Zamiana czcionki oznacza aktualizację właściwości *primary font* (podstawowa czcionka) stylu tekstowego (nazywanego także „stylem” w terminologii DWG). Gdy rysunek odwołuje się do tego stylu, każdy fragment tekstu automatycznie przyjmuje nową czcionkę, zapewniając spójny wygląd w całym pliku.
+
+## Dlaczego modyfikować styl tekstu w DWG?
+
 - **Utrzymanie spójności marki:** Używaj firmowych czcionek we wszystkich rysunkach.  
-- **Naprawa brakujących czcionek:** Zastąp niedostępne czcionki tymi zainstalowanymi w docelowym systemie.  
-- **Przygotowanie do drukowania/plotowania:** Niektóre ploterki wymagają określonych czcionek dla dokładnego odwzorowania.
+- **Napraw brakujące czcionki:** Zamień niedostępne czcionki na te zainstalowane w docelowym systemie.  
+- **Przygotowanie do druku/plotowania:** Niektóre ploterki wymagają określonych czcionek dla dokładnego wyniku.  
 
-## Wymagania wstępne
+## Prerequisites
 
 Zanim rozpoczniesz ten samouczek, upewnij się, że masz przygotowane następujące elementy:
 
-1. **Biblioteka Aspose.CAD dla Javy:** Pobierz i zainstaluj bibliotekę Aspose.CAD. Bibliotekę i jej dokumentację znajdziesz [tutaj](https://releases.aspose.com/cad/java/).
-
+1. **Biblioteka Aspose.CAD for Java:** Pobierz i zainstaluj bibliotekę Aspose.CAD. Bibliotekę i jej dokumentację znajdziesz [tutaj](https://releases.aspose.com/cad/java/).
 2. **Java Development Kit (JDK):** Upewnij się, że Java jest zainstalowana na Twoim komputerze.
 
-Teraz, gdy masz niezbędne narzędzia, przejdź do kolejnej sekcji.
+Teraz, gdy masz niezbędne narzędzia, przejdźmy do kolejnej sekcji.
 
-## Importowanie przestrzeni nazw (wymagane do modyfikacji stylu tekstowego DWG)
+## Importowanie przestrzeni nazw (wymagane do modyfikacji stylu tekstu DWG)
 
-W Javie importowanie odpowiednich przestrzeni nazw jest kluczowe dla korzystania z zewnętrznych bibliotek. W tym przypadku upewnij się, że importujesz niezbędne przestrzenie nazw Aspose.CAD. Oto jak to zrobić:
+W Javie importowanie odpowiednich przestrzeni nazw jest kluczowe do korzystania z zewnętrznych bibliotek. W tym przypadku upewnij się, że importujesz niezbędne przestrzenie nazw Aspose.CAD. Oto jak to zrobić:
 
 ```java
 import com.aspose.cad.Image;
@@ -66,7 +68,7 @@ String dataDir = "Your Document Directory" + "CADConversion/";
 
 Zastąp `"Your Document Directory"` ścieżką do rzeczywistego katalogu dokumentów.
 
-## Krok 2: Załaduj rysunek CAD
+## Krok 2: Wczytaj rysunek CAD
 
 ```java
 String srcFile = dataDir + "conic_pyramid.dxf";
@@ -77,21 +79,21 @@ CadImage cadImage = (CadImage)Image.load(srcFile);
 
 Upewnij się, że zamieniłeś `"conic_pyramid.dxf"` na rzeczywistą nazwę swojego rysunku CAD.
 
-## Krok 3: Określ czcionkę dla stylu (zmień czcionkę stylu DWG)
+## Krok 3: Określ czcionkę dla stylu (zmiana czcionki stylu DWG)
 
 ```java
 // Specify the font for one particular style
 ((CadStyleTableObject)cadImage.getStyles().get_Item(0)).setPrimaryFontName("Arial");
 ```
 
-Dostosuj nazwę czcionki („Arial” w tym przykładzie) do własnych potrzeb. Ta linia **ustawia podstawową czcionkę stylu DWG**, skutecznie zastępując starą czcionkę.
+Dostosuj nazwę czcionki (w tym przykładzie „Arial”) do swoich wymagań. Ta linia **ustawia podstawową czcionkę stylu DWG**, skutecznie zamieniając starą czcionkę.
 
 ## Typowe problemy i rozwiązania
 
-| Problem | Przyczyna | Rozwiązanie |
-|---------|-----------|-------------|
+| Issue | Cause | Solution |
+|-------|-------|----------|
 | Czcionka nie zmienia się po zapisaniu | Rysunek nie został zapisany po modyfikacji | Wywołaj `cadImage.save(outputPath);` po ustawieniu czcionki. |
-| Nazwa czcionki nie rozpoznana | Czcionka nie jest zainstalowana w systemie, w którym uruchamiany jest kod | Zainstaluj czcionkę lub użyj ogólnej nazwy czcionki (np. „Tahoma”). |
+| Nazwa czcionki nie rozpoznana | Czcionka nie jest zainstalowana w systemie, w którym uruchamiany jest kod | Zainstaluj czcionkę lub użyj ogólnej nazwy czcionki (np. "Tahoma"). |
 | `ClassCastException` | Nieprawidłowy typ obiektu zwrócony przez `get_Item` | Upewnij się, że indeks wskazuje na `CadStyleTableObject`. |
 
 ## FAQ
@@ -108,37 +110,54 @@ A2: Nie, możesz używać dowolnej prawidłowej nazwy czcionki dostępnej w syst
 
 A3: Aspose.CAD zapewnia elastyczność; możesz przywrócić zmiany lub zapisać różne wersje pliku DWG.
 
-### Q4: Czy ten samouczek ma zastosowanie do innych formatów CAD?
+### Q4: Czy ten samouczek dotyczy innych formatów CAD?
 
 A4: Choć przykład koncentruje się na DWG, podobne zasady można zastosować do innych obsługiwanych formatów CAD.
 
-### Q5: Jak uzyskać wsparcie dla Aspose.CAD dla Javy?
+### Q5: Jak mogę uzyskać wsparcie dla Aspose.CAD for Java?
 
 A5: Odwiedź [forum Aspose.CAD](https://forum.aspose.com/c/cad/19) w celu uzyskania pomocy społeczności i dyskusji.
 
 ## Dodatkowe często zadawane pytania
 
-**P: Jak zapisać zmodyfikowany rysunek?**  
-O: Po ustawieniu nowej czcionki wywołaj `cadImage.save(dataDir + "output.dwg");`, aby zapisać zmiany do nowego pliku.
+**Q: Jak zapisać zmodyfikowany rysunek?**  
+A: Po ustawieniu nowej czcionki wywołaj `cadImage.save(dataDir + "output.dwg");`, aby zapisać zmiany do nowego pliku.
 
-**P: Czy mogę podmienić czcionkę tylko obiektów adnotacji?**  
-O: Tak, przefiltruj kolekcję stylów pod kątem stylów związanych z adnotacjami przed wywołaniem `setPrimaryFontName`.
+**Q: Czy mogę zamienić czcionkę tylko obiektów adnotacji?**  
+A: Tak, przefiltruj kolekcję stylów pod kątem stylów związanych z adnotacjami przed zastosowaniem `setPrimaryFontName`.
 
-**P: Czy można podglądnąć zmianę czcionki bez zapisywania?**  
-O: Możesz wyrenderować obraz do bitmapy używając `cadImage.save(outputStream, new ImageOptions());`, aby podglądnąć w pamięci.
+**Q: Czy można podglądnąć zmianę czcionki bez zapisywania?**  
+A: Możesz wyrenderować obraz do bitmapy używając `cadImage.save(outputStream, new ImageOptions());`, aby podglądnąć w pamięci.
 
-**P: Czy Aspose.CAD obsługuje czcionki TrueType i OpenType?**  
-O: Zarówno czcionki TrueType (.ttf), jak i OpenType (.otf) są w pełni obsługiwane, pod warunkiem że są zainstalowane w systemie operacyjnym.
+**Q: Czy Aspose.CAD obsługuje czcionki TrueType i OpenType?**  
+A: Zarówno czcionki TrueType (.ttf), jak i OpenType (.otf) są w pełni obsługiwane, pod warunkiem że są zainstalowane w systemie operacyjnym hosta.
+
+## Najczęściej zadawane pytania
+
+**Q: Jakiej wersji Aspose.CAD wymaga ten kod?**  
+A: API użyte w tym samouczku jest dostępne w Aspose.CAD for Java 24.11 i nowszych.
+
+**Q: Czy mogę uruchomić ten kod na serwerze Linux?**  
+A: Tak, pod warunkiem że wymagane czcionki są zainstalowane na serwerze i dostępna jest Java 8+.
+
+**Q: Jak wyświetlić wszystkie dostępne style tekstu przed zmianą czcionki?**  
+A: Iteruj po `cadImage.getStyles()` i wypisz nazwę każdego stylu oraz aktualną podstawową czcionkę.
+
+**Q: Czy istnieje sposób na przetwarzanie wsadowe wielu plików DWG?**  
+A: Umieść logikę w pętli, która wczytuje każdy plik, aktualizuje żądany styl i zapisuje wynik.
+
+**Q: Czy zmiana podstawowej czcionki wpłynie na wymiary lub odstępy?**  
+A: Metryki czcionki mogą się różnić, więc po zmianie może być konieczne dostosowanie wysokości tekstu lub położenia.
 
 ## Zakończenie
 
-Aspose.CAD dla Javy otwiera potężne możliwości manipulacji CAD, a **jak zastąpić czcionkę** to tylko jedna z wielu funkcji. Eksperymentuj z różnymi stylami, używaj dodatkowych słów kluczowych takich jak *modify DWG text style* czy *set primary font dwg*, aby dopracować swoje rysunki, i integruj kod w większych pipeline’ach automatyzacji do przetwarzania wsadowego.
+Aspose.CAD for Java otwiera potężne możliwości manipulacji CAD, a **jak zamienić czcionkę** to tylko jedna z wielu funkcji. Eksperymentuj z różnymi stylami, używaj dodatkowych słów kluczowych takich jak *modify DWG text style* lub *set primary font dwg*, aby precyzyjnie dopasować rysunki, i integruj kod w większych pipeline'ach automatyzacji do przetwarzania wsadowego.
 
 ---
 
-**Ostatnia aktualizacja:** 2026-01-02  
-**Testowano z:** Aspose.CAD dla Javy 24.11  
-**Autor:** Aspose  
+**Last Updated:** 2026-03-07  
+**Tested With:** Aspose.CAD for Java 24.11  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
