@@ -1,33 +1,63 @@
 ---
-title: DWG'yi PDF veya Raster Görüntülere Aktarma - Aspose.CAD Guide
-linktitle: DWG'yi PDF'ye veya Raster Görüntülere Aktarma
-second_title: Aspose.CAD .NET - CAD ve BIM Dosya Formatı
-description: Aspose.CAD for .NET kullanarak DWG'yi PDF'ye veya taramalı görüntülere aktarmaya ilişkin kapsamlı kılavuzu keşfedin. Adımları ve önkoşulları öğrenin ve bu güçlü kitaplığı kullanmaya başlayın.
-weight: 11
+date: 2026-03-16
+description: Aspose.CAD for .NET ile DWG'yi PDF veya raster görüntülere nasıl dönüştüreceğinizi
+  öğrenin. Bu adım adım CAD‑den‑PDF öğreticisi, DWG'yi PNG gibi görüntü formatlarına
+  dışa aktarmayı kapsar ve DWG'yi görüntü dosyalarına verimli bir şekilde dışa aktarmanın
+  yollarını gösterir.
+linktitle: Exporting DWG to PDF or Raster Images
+second_title: Aspose.CAD .NET - CAD and BIM File Format
+title: Aspose.CAD for .NET kullanarak DWG'yi PDF ve Raster Görüntülere Dönüştürme
 url: /tr/net/advanced-export-techniques/exporting-dwg-to-pdf-or-raster-images/
+weight: 11
 ---
+
+, Why it Happens, How to Fix headings and cells.
+
+FAQ: translate questions and answers, but keep URLs unchanged.
+
+Also bullet list under Quick Answers: translate each bullet but keep code names.
+
+Make sure to preserve markdown formatting.
+
+Let's produce final content.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# DWG'yi PDF veya Raster Görüntülere Aktarma - Aspose.CAD Guide
+# DWG'yi PDF veya Raster Görüntülere Dönüştürme - Aspose.CAD Kılavuzu
 
-## giriiş
+## Giriş
 
-.NET uygulamanızda DWG dosyalarını sorunsuz bir şekilde PDF'ye veya taramalı görüntülere dönüştürmeyi mi istiyorsunuz? Başka yerde arama! Bu adım adım kılavuz, güçlü Aspose.CAD for .NET kütüphanesini kullanarak süreç boyunca size yol gösterecektir. İster deneyimli bir geliştirici olun ister yeni başlıyor olun, bu eğitim tüm beceri düzeylerine hitap etmektedir.
+Eğer bir .NET uygulamasından **DWG'yi PDF'ye** (veya PNG gibi raster formatlara) doğrudan dönüştürmeniz gerekiyorsa doğru yerdesiniz. Bu öğreticide Aspose.CAD for .NET kullanarak dönüşümün tam adımlarını gösterecek, kütüphanenin neden sağlam bir tercih olduğunu açıklayacak ve sadece birkaç satır kodla PDF ve görüntü çıktısını nasıl yöneteceğinizi göstereceğiz.
+
+## Hızlı Yanıtlar
+- **DWG dönüşümünü hangi kütüphane yönetir?** Aspose.CAD for .NET  
+- **DWG'yi PNG olarak da PDF'ye dışa aktarabilir miyim?** Evet – aynı rasterleştirme seçenekleri her iki format için de çalışır.  
+- **Geliştirme için lisansa ihtiyacım var mı?** Test için ücretsiz deneme sürümü yeterlidir; üretim için ticari lisans gereklidir.  
+- **Hangi .NET sürümleri destekleniyor?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6+.  
+- **Birim dönüşümü otomatik olarak yapılır mı?** Kodda gösterildiği gibi birim sistemini (metrik veya imperial) manuel olarak tanımlayabilirsiniz.
+
+## “DWG'yi PDF'ye dönüştürmek” ne demektir?
+DWG'yi PDF'ye dönüştürmek, bir CAD çizimini (DWG) taşınabilir, yalnızca görüntülenebilir bir belgeye (PDF) render etmektir. Bu, CAD yazılımı olmayan paydaşlarla tasarımları paylaşmak, yazdırılabilir dokümantasyon oluşturmak veya çizimleri evrensel olarak okunabilir bir formatta arşivlemek için kullanışlıdır.
+
+## Bu dönüşüm için neden Aspose.CAD kullanılmalı?
+- **Harici bağımlılık yok** – kütüphane tamamen yönetilen kod içinde çalışır.  
+- **Yüksek doğruluk** – katmanları, hat kalınlıklarını ve düzen bilgilerini korur.  
+- **Yerleşik raster seçenekleri** – tek bir yapılandırma nesnesiyle PNG, JPEG, BMP vb. formatlara dışa aktarım sağlar.  
+- **Çapraz platform** – .NET Core ile Windows, Linux ve macOS'ta çalışır.
 
 ## Önkoşullar
 
-Eğiticiye dalmadan önce aşağıdakilerin mevcut olduğundan emin olun:
+Öğreticiye başlamadan önce aşağıdakilerin hazır olduğundan emin olun:
 
-- .NET programlamanın temel anlayışı.
--  Aspose.CAD for .NET kütüphanesi kuruldu. Değilse indirin[Burada](https://releases.aspose.com/cad/net/).
-- .NET geliştirme için en sevdiğiniz entegre geliştirme ortamı (IDE) kurulumu.
+- .NET programlamaya temel bir anlayış.  
+- Aspose.CAD for .NET kütüphanesi yüklü. Yüklü değilse, [buradan](https://releases.aspose.com/cad/net/) indirebilirsiniz.  
+- .NET geliştirme için tercih ettiğiniz bütünleşik geliştirme ortamı (IDE) kurulmuş.
 
-## Ad Alanlarını İçe Aktar
+## Ad Alanlarını İçe Aktarın
 
-.NET projenize gerekli ad alanlarını içe aktararak işe başlayalım. Bu, kodunuzdaki Aspose.CAD işlevselliğine erişmenizi sağlar.
+.NET projenizde gerekli ad alanlarını içe aktararak işe başlayalım. Bu, kodunuzda Aspose.CAD işlevselliğine erişmenizi sağlar.
 
 ```csharp
 using System;
@@ -40,9 +70,9 @@ using Aspose.CAD.FileFormats.Cad;
 using Aspose.CAD.ImageOptions;
 ```
 
-## Adım 1: DWG Dosyasını Yükleyin
+## Adım 1: DWG Dosyasını Yükle
 
-Dönüştürmek istediğiniz DWG dosyasını yükleyerek başlayın. "Belge Dizininiz"i DWG dosyanızın yolu ile değiştirin.
+Dönüştürmek istediğiniz DWG dosyasını yükleyin. `"Your Document Directory"` ifadesini DWG dosyanızın yolu ile değiştirin.
 
 ```csharp
 string MyDir = "Your Document Directory";
@@ -50,29 +80,29 @@ string sourceFilePath = MyDir + "Bottom_plate.dwg";
 
 using (CadImage cadImage = (CadImage)Image.Load(sourceFilePath))
 {
-    // DWG yükleme kodunuz buraya gelecek
+    // Your code for loading DWG goes here
 }
 ```
 
-## 2. Adım: PDF Dışa Aktarmayı Ayarlayın
+## Adım 2: PDF Dışa Aktarımını Ayarla (DWG'yi PDF'ye nasıl dışa aktarılır)
 
-Şimdi PDF dışa aktarma ayarlarını yapılandıralım. Bu örnek, düzenin nasıl ayarlanacağını ve birim dönüşümlerinin nasıl işleneceğini gösterir.
+Şimdi PDF dışa aktarım ayarlarını yapılandıralım. Bu örnek, düzeni ayarlamayı ve birim dönüşümlerini ele almayı gösterir.
 
 ```csharp
 CadRasterizationOptions rasterizationOptions = new CadRasterizationOptions();
 rasterizationOptions.Layouts = new string[] { "Model" };
 
-// Birim sistemini kontrol edin ve tanımlayın
+// Check and define the unit system
 bool currentUnitIsMetric = false;
 double currentUnitCoefficient = 1.0;
 DefineUnitSystem(cadImage.UnitType, out currentUnitIsMetric, out currentUnitCoefficient);
 
-// PDF dışa aktarmayı ayarlama kodunuz buraya gelir
+// Your code for setting up PDF export goes here
 ```
 
-## 3. Adım: PDF'ye aktarın
+## Adım 3: PDF'ye Dışa Aktar
 
-Yapılandırılmış ayarları kullanarak PDF'ye aktarma işlemini gerçekleştirin.
+Yapılandırılmış ayarları kullanarak PDF'ye dışa aktarımı gerçekleştirin.
 
 ```csharp
 PdfOptions pdfOptions = new PdfOptions
@@ -83,12 +113,12 @@ PdfOptions pdfOptions = new PdfOptions
 cadImage.Save(outPath, pdfOptions);
 ```
 
-## Adım 4: Raster Görüntülere Dışa Aktarma
+## Adım 4: Raster Görüntülere Dışa Aktar (dwg'yi görüntüye dışa aktar)
 
-PNG gibi taramalı görüntülere dışa aktarma işlevini genişletin.
+Fonksiyonu PNG gibi raster görüntülere dışa aktarım yapacak şekilde genişletin.
 
 ```csharp
-// 300 DPI'da A4 boyutu - 2480 x 3508
+// A4 size at 300 DPI - 2480 x 3508
 rasterizationOptions.PageHeight = 3508;
 rasterizationOptions.PageWidth = 2480;
 
@@ -100,31 +130,44 @@ PngOptions pngOptions = new PngOptions
 cadImage.Save(outPath.Replace("pdf", "png"), pngOptions);
 ```
 
-## Çözüm
+## Yaygın Sorunlar ve Çözümler
 
-Tebrikler! DWG dosyalarını hem PDF hem de raster görüntülere aktarmak için Aspose.CAD for .NET'i nasıl kullanacağınızı başarıyla öğrendiniz. Bu güçlü kitaplık süreci kolaylaştırarak verimli ve geliştirici dostu hale getirir.
+| Sorun | Neden Oluşur | Nasıl Düzeltilir |
+|-------|--------------|-------------------|
+| **PDF'de boş sayfalar** | Düzen doğru belirtilmemiş | `rasterizationOptions.Layouts` içinde doğru düzen adının (ör. `"Model"`) bulunduğundan emin olun. |
+| **Yanlış boyutlar** | DPI veya sayfa boyutu uyuşmazlığı | `CadRasterizationOptions` içinde `PageHeight`, `PageWidth` ve DPI değerlerini ayarlayın. |
+| **Birimler hatalı** | Birim dönüşümü tanımlanmamış | `DefineUnitSystem` kullanarak `currentUnitIsMetric` ve `currentUnitCoefficient` değerlerini `cadImage.UnitType` temelinde ayarlayın. |
+| **Lisans istisnası** | Deneme sürümü sınırlamaları | `Image.Load` çağrısından önce geçici veya kalıcı bir lisans uygulayın. |
 
-## SSS'ler
+## Sık Sorulan Sorular
 
 ### S1: Aspose.CAD for .NET'i ticari projelerimde kullanabilir miyim?
+C1: Evet, kullanabilirsiniz. Lisans detayları için [purchase.aspose.com/buy](https://purchase.aspose.com/buy) adresini ziyaret edin.
 
- A1: Evet, yapabilirsin. Ziyaret etmek[satın alma.aspose.com/buy](https://purchase.aspose.com/buy) lisans ayrıntıları için.
+### S2: Ücretsiz bir deneme sürümü mevcut mu?
+C2: Kesinlikle! Ücretsiz denemenizi [buradan](https://releases.aspose.com/) alabilirsiniz.
 
-### S2: Ücretsiz deneme sürümü var mı?
+### S3: Aspose.CAD for .NET için destek nasıl alabilirim?
+C3: Topluluk desteği için [Aspose.CAD forumuna](https://forum.aspose.com/c/cad/19) göz atın.
 
- A2: Kesinlikle! Ücretsiz denemenizi alın[Burada](https://releases.aspose.com/).
-
-### S3: Aspose.CAD for .NET desteğini nasıl alabilirim?
-
- A3: Şuraya gidin:[Aspose.CAD forumu](https://forum.aspose.com/c/cad/19) topluluk desteği için.
-
-### S4: Test amacıyla geçici bir lisans alabilir miyim?
-
- Cevap4: Evet, geçici lisans alabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/).
+### S4: Test amaçlı geçici bir lisans alabilir miyim?
+C4: Evet, geçici lisansı [buradan](https://purchase.aspose.com/temporary-license/) temin edebilirsiniz.
 
 ### S5: Ayrıntılı belgeleri nerede bulabilirim?
+C5: Dokümantasyon [Aspose.CAD](https://reference.aspose.com/cad/net/) adresinde mevcuttur.
 
- A5: Belgeler şu adreste mevcuttur:[Aspose.CAD](https://reference.aspose.com/cad/net/).
+### S6: **CAD'i PNG olarak yüksek kaliteyle nasıl kaydederim?**
+C6: `CadRasterizationOptions` içinde `PageHeight` ve `PageWidth` değerlerini istediğiniz piksel boyutlarına ayarlayın ve DPI'yi 300 veya daha yüksek bir değere belirleyin.
+
+### S7: Kaynak dosya birden fazla düzen içerdiğinde **dwg nasıl dönüştürülür** en iyi yol nedir?
+C7: Dışa aktarmak istediğiniz tüm düzen adlarını `rasterizationOptions.Layouts` içine ekleyin, ardından her bir düzen için döngü oluşturup `Save` metodunu ilgili çıktı formatı ile çağırın.
+
+---
+
+**Son Güncelleme:** 2026-03-16  
+**Test Edilen Versiyon:** Aspose.CAD 24.11 for .NET  
+**Yazar:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

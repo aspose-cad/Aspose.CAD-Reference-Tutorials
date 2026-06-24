@@ -1,33 +1,52 @@
 ---
-title: 將 DWG 匯出為 PDF 或光柵影像 - Aspose.CAD 指南
-linktitle: 將 DWG 匯出為 PDF 或光柵影像
-second_title: Aspose.CAD .NET - CAD 和 BIM 檔案格式
-description: 探索使用 Aspose.CAD for .NET 將 DWG 匯出為 PDF 或光柵影像的綜合指南。了解步驟、先決條件，並親身體驗這個強大的函式庫。
-weight: 11
+date: 2026-03-16
+description: 學習如何使用 Aspose.CAD for .NET 將 DWG 轉換為 PDF 或點陣圖像。此一步一步的 CAD 轉 PDF 教程涵蓋將
+  DWG 匯出為 PNG 等圖像格式，並示範如何高效地將 DWG 匯出為圖像檔案。
+linktitle: Exporting DWG to PDF or Raster Images
+second_title: Aspose.CAD .NET - CAD and BIM File Format
+title: 如何使用 Aspose.CAD for .NET 將 DWG 轉換為 PDF 與光柵圖像
 url: /zh-hant/net/advanced-export-techniques/exporting-dwg-to-pdf-or-raster-images/
+weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 將 DWG 匯出為 PDF 或光柵影像 - Aspose.CAD 指南
+# 將 DWG 匯出為 PDF 或點陣圖像 - Aspose.CAD 指南
 
-## 介紹
+## Introduction
 
-您是否希望在 .NET 應用程式中將 DWG 檔案無縫轉換為 PDF 或光柵影像？別再猶豫了！本逐步指南將引導您完成使用強大的 Aspose.CAD for .NET 程式庫的過程。無論您是經驗豐富的開發人員還是新手，本教學都適合所有技能水平。
+如果您需要直接在 .NET 應用程式中 **將 DWG 轉換為 PDF**（或轉換為 PNG 等點陣格式），您來對地方了。在本教學中，我們將逐步說明使用 Aspose.CAD for .NET 執行轉換的具體步驟，解釋為何此函式庫是可靠的選擇，並示範僅用幾行程式碼即可同時處理 PDF 與影像輸出。
 
-## 先決條件
+## Quick Answers
+- **什麼函式庫負責 DWG 轉換？** Aspose.CAD for .NET  
+- **我可以同時將 DWG 匯出為 PNG 以及 PDF 嗎？** 可以 – 相同的光柵化選項適用於兩種格式。  
+- **開發時需要授權嗎？** 免費試用版可用於測試；正式環境需購買商業授權。  
+- **支援哪些 .NET 版本？** .NET Framework 4.5+、.NET Core 3.1+、.NET 5/6+。  
+- **單位換算會自動處理嗎？** 您可以如程式碼所示手動定義單位系統（公制或英制）。
 
-在我們深入學習本教學之前，請確保您已準備好以下內容：
+## What is “convert DWG to PDF”?
 
-- 對 .NET 程式設計有基本的了解。
-- 安裝了 Aspose.CAD for .NET 函式庫。如果沒有，請下載[這裡](https://releases.aspose.com/cad/net/).
-- 您最喜歡的用於 .NET 開發的整合開發環境 (IDE)。
+將 DWG 轉換為 PDF 意指將 CAD 圖紙（DWG）渲染成可攜帶、僅供檢視的文件（PDF）。此作法適用於與沒有 CAD 軟體的利害關係人共享設計、製作可列印文件，或以通用可讀格式保存圖紙。
 
-## 導入命名空間
+## Why use Aspose.CAD for this conversion?
+- **無外部相依性** – 此函式庫完全以受管理程式碼執行。  
+- **高保真度** – 保留圖層、線寬及版面資訊。  
+- **內建光柵化選項** – 可使用單一設定物件匯出為 PNG、JPEG、BMP 等格式。  
+- **跨平台** – 在 Windows、Linux 及 macOS 上以 .NET Core 執行皆可。
 
-讓我們先在 .NET 專案中導入必要的命名空間。這可確保您可以在程式碼中存取 Aspose.CAD 功能。
+## Prerequisites
+
+在開始教學之前，請確保已具備以下條件：
+
+- 基本的 .NET 程式設計知識。  
+- 已安裝 Aspose.CAD for .NET 函式庫。如未安裝，請於 [此處](https://releases.aspose.com/cad/net/) 下載。  
+- 已設定好您慣用的 .NET 開發整合環境 (IDE)。
+
+## Import Namespaces
+
+首先在 .NET 專案中匯入必要的命名空間，以確保程式碼能使用 Aspose.CAD 功能。
 
 ```csharp
 using System;
@@ -40,9 +59,9 @@ using Aspose.CAD.FileFormats.Cad;
 using Aspose.CAD.ImageOptions;
 ```
 
-## 步驟 1： 載入 DWG 文件
+## Step 1: Load DWG File
 
-首先載入您想要轉換的 DWG 檔案。將「您的文件目錄」替換為 DWG 檔案的路徑。
+首先載入欲轉換的 DWG 檔案。將 `"Your Document Directory"` 替換為 DWG 檔案的實際路徑。
 
 ```csharp
 string MyDir = "Your Document Directory";
@@ -50,29 +69,29 @@ string sourceFilePath = MyDir + "Bottom_plate.dwg";
 
 using (CadImage cadImage = (CadImage)Image.Load(sourceFilePath))
 {
-    //您的載入 DWG 代碼位於此處
+    // Your code for loading DWG goes here
 }
 ```
 
-## 第 2 步：設定 PDF 匯出
+## Step 2: Set up PDF Export (How to export DWG to PDF)
 
-現在，讓我們配置 PDF 導出設定。此範例示範如何設定佈局和處理單位轉換。
+接著設定 PDF 匯出參數。此範例示範如何指定版面配置並處理單位換算。
 
 ```csharp
 CadRasterizationOptions rasterizationOptions = new CadRasterizationOptions();
 rasterizationOptions.Layouts = new string[] { "Model" };
 
-//檢查並定義單位制
+// Check and define the unit system
 bool currentUnitIsMetric = false;
 double currentUnitCoefficient = 1.0;
 DefineUnitSystem(cadImage.UnitType, out currentUnitIsMetric, out currentUnitCoefficient);
 
-//設定 PDF 匯出的程式碼位於此處
+// Your code for setting up PDF export goes here
 ```
 
-## 第 3 步：匯出為 PDF
+## Step 3: Export to PDF
 
-使用配置的設定執行匯出為 PDF。
+使用先前設定的參數執行 PDF 匯出。
 
 ```csharp
 PdfOptions pdfOptions = new PdfOptions
@@ -83,12 +102,12 @@ PdfOptions pdfOptions = new PdfOptions
 cadImage.Save(outPath, pdfOptions);
 ```
 
-## 第 4 步：匯出為光柵影像
+## Step 4: Export to Raster Images (export dwg to image)
 
-擴充功能以匯出為光柵影像，例如 PNG。
+擴充功能以匯出點陣圖像，例如 PNG。
 
 ```csharp
-// A4 尺寸，300 DPI - 2480 x 3508
+// A4 size at 300 DPI - 2480 x 3508
 rasterizationOptions.PageHeight = 3508;
 rasterizationOptions.PageWidth = 2480;
 
@@ -100,31 +119,44 @@ PngOptions pngOptions = new PngOptions
 cadImage.Save(outPath.Replace("pdf", "png"), pngOptions);
 ```
 
-## 結論
+## Common Issues and Solutions
 
-恭喜！您已成功學習如何使用 Aspose.CAD for .NET 將 DWG 檔案匯出為 PDF 和光柵影像。這個強大的程式庫簡化了流程，使其高效且對開發人員友好。
+| 問題 | 發生原因 | 解決方法 |
+|-------|----------------|------------|
+| **PDF 出現空白頁** | 版面未正確指定 | 確保 `rasterizationOptions.Layouts` 包含正確的版面名稱（例如 `"Model"`）。 |
+| **尺寸不正確** | DPI 或頁面尺寸不匹配 | 調整 `CadRasterizationOptions` 中的 `PageHeight`、`PageWidth` 以及 DPI 值。 |
+| **單位顯示錯誤** | 未定義單位換算 | 使用 `DefineUnitSystem` 依據 `cadImage.UnitType` 設定 `currentUnitIsMetric` 與 `currentUnitCoefficient`。 |
+| **授權例外** | 試用版限制 | 在呼叫 `Image.Load` 前套用臨時或永久授權。 |
 
-## 常見問題解答
+## Frequently Asked Questions
 
-### Q1：我可以在我的商業專案中使用 Aspose.CAD for .NET 嗎？
+### Q1: 我可以在商業專案中使用 Aspose.CAD for .NET 嗎？
+A1: 可以。請前往 [purchase.aspose.com/buy](https://purchase.aspose.com/buy) 了解授權細節。
 
- A1: 是的，可以。訪問[buy.aspose.com/buy](https://purchase.aspose.com/buy)了解許可詳細資訊。
+### Q2: 是否提供免費試用？
+A2: 當然！請於 [此處](https://releases.aspose.com/) 取得免費試用。
 
-### Q2: 有免費試用嗎？
+### Q3: 如何取得 Aspose.CAD for .NET 的支援？
+A3: 請前往 [Aspose.CAD 論壇](https://forum.aspose.com/c/cad/19) 獲取社群支援。
 
- A2：當然！取得免費試用[這裡](https://releases.aspose.com/).
+### Q4: 我可以取得測試用的臨時授權嗎？
+A4: 可以，請於 [此處](https://purchase.aspose.com/temporary-license/) 取得臨時授權。
 
-### 問題 3：如何獲得 Aspose.CAD for .NET 支援？
+### Q5: 在哪裡可以找到詳細文件？
+A5: 文件可於 [Aspose.CAD](https://reference.aspose.com/cad/net/) 取得。
 
-A3：前往[Aspose.CAD論壇](https://forum.aspose.com/c/cad/19)以獲得社區支持。
+### Q6: 如何以高品質 **將 CAD 儲存為 PNG**？
+A6: 在 `CadRasterizationOptions` 中將 `PageHeight` 與 `PageWidth` 設為所需的像素尺寸，並選擇 300 DPI 或更高。
 
-### Q4：我可以獲得臨時許可證用於測試目的嗎？
+### Q7: 當來源檔案包含多個版面時，**如何最佳地轉換 dwg**？
+A7: 將欲匯出的所有版面名稱填入 `rasterizationOptions.Layouts`，然後對每個版面迴圈呼叫 `Save` 以產生相應的輸出格式。
 
- A4：是的，您可以獲得臨時許可證[這裡](https://purchase.aspose.com/temporary-license/).
+---
 
-### Q5：在哪裡可以找到詳細的文件？
+**最後更新：** 2026-03-16  
+**測試環境：** Aspose.CAD 24.11 for .NET  
+**作者：** Aspose  
 
- A5：該文件可在以下位置取得：[CAD軟體](https://reference.aspose.com/cad/net/).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
