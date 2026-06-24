@@ -1,8 +1,8 @@
 ---
-date: 2026-01-02
+date: 2026-03-05
 description: Scopri come esportare DWG in PDF, abilitare le linee nascoste e convertire
   DWG in PDF con Aspose.CAD per Java in questo tutorial passo‑passo.
-linktitle: Export DWG as PDF with Hidden Lines Using Java
+linktitle: Export DWG as PDF Using Java
 second_title: Aspose.CAD Java API
 title: Esporta DWG in PDF con linee nascoste – Aspose.CAD per Java
 url: /it/java/cad-text-and-formatting/support-hidden-lines-in-dwg/
@@ -13,38 +13,42 @@ weight: 11
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Esporta DWG come PDF con linee nascoste – Aspose.CAD per Java
+# Esporta DWG in PDF con linee nascoste – Aspose.CAD per Java
 
 ## Introduzione
 
-In questo tutorial imparerai come **esportare DWG come PDF** preservando le linee nascoste usando Aspose.CAD per Java. Che tu abbia bisogno di **convertire DWG in PDF**, generare una guida in stile **dwg to pdf tutorial**, o semplicemente **salvare DWG come PDF** con supporto per le linee nascoste, ti guideremo passo passo. Alla fine, avrai una soluzione pronta all'uso che potrai inserire in qualsiasi progetto Java.
+In questo tutorial imparerai a **export dwg to pdf** preservando le linee nascoste usando Aspose.CAD per Java. Che tu abbia bisogno di **convert DWG to PDF**, generare una guida in stile **dwg to pdf tutorial**, o semplicemente **save DWG as PDF** con supporto per le linee nascoste, ti guideremo passo passo. Alla fine, avrai una soluzione pronta all'uso che potrai inserire in qualsiasi progetto Java.
 
 ## Risposte rapide
 - **Di cosa tratta questo tutorial?** Abilitare il rendering delle linee nascoste durante l'esportazione di DWG in PDF con Aspose.CAD per Java.  
-- **Qual è l'operazione principale eseguita?** `export dwg as pdf`.  
+- **Quale operazione principale viene eseguita?** `export dwg to pdf`.  
 - **Ho bisogno di una licenza?** Una versione di prova gratuita è sufficiente per i test; è necessaria una licenza commerciale per la produzione.  
 - **Quali sono i prerequisiti?** Ambiente di sviluppo Java, libreria Aspose.CAD per Java e file DWG.  
 - **Quanto tempo richiede l'implementazione?** Circa 10‑15 minuti per una configurazione di base.
 
-## Cos'è “export dwg as pdf”?
+## Cos'è “export dwg to pdf”?
 
-Esportare un file DWG in PDF converte il disegno CAD basato su vettori in un formato di documento portatile, preservando i layer, i tipi di linea e, facoltativamente, il rendering delle linee nascoste. Questo facilita la condivisione dei progetti CAD con stakeholder che potrebbero non avere software CAD.
+Esportare un file DWG in PDF converte il disegno CAD basato su vettori in un formato di documento portatile, preservando i layer, i tipi di linea e il rendering opzionale delle linee nascoste. Questo rende più semplice condividere i progetti CAD con le parti interessate che potrebbero non avere un software CAD.
+
+## Come abilitare le linee nascoste durante l'esportazione di DWG in PDF
+
+Le linee nascoste sono controllate tramite l'impostazione del layout nelle opzioni di rasterizzazione. Selezionando il layout **Model**, Aspose.CAD indica al renderer di trattare i bordi nascosti come invisibili, fornendo una rappresentazione 2‑D pulita di un modello 3‑D.
 
 ## Perché abilitare le linee nascoste durante l'esportazione?
 
-Le linee nascoste offrono una rappresentazione visiva più chiara dei modelli 3D complessi su una pagina 2‑D, garantendo che vengano enfatizzati solo i bordi visibili. Questo migliora la leggibilità ed è spesso richiesto per la documentazione ingegneristica.
+Le linee nascoste offrono una rappresentazione visiva più chiara di modelli 3‑D complessi su una pagina 2‑D, garantendo che vengano enfatizzati solo i bordi visibili. Questo migliora la leggibilità ed è spesso richiesto nella documentazione ingegneristica.
 
 ## Prerequisiti
 
 1. **Aspose.CAD for Java** – scarica la libreria dal sito ufficiale [qui](https://releases.aspose.com/cad/java/).  
-2. **File DWG** – assicurati che i disegni DWG sorgente siano archiviati in una directory nota.  
-3. **Ambiente di sviluppo Java** – JDK 8+ e il tuo IDE preferito (Eclipse, IntelliJ, ecc.).  
+2. **DWG files** – assicurati che i disegni DWG sorgente siano memorizzati in una directory nota.  
+3. **Java development environment** – JDK 8+ e il tuo IDE preferito (Eclipse, IntelliJ, ecc.).  
 
 Ora che sei pronto, immergiamoci nel codice.
 
-## Importa i namespace
+## Importa spazi dei nomi
 
-Inizia importando le classi necessarie per lavorare con le immagini CAD e le opzioni PDF.
+Inizia importando le classi necessarie per poter lavorare con le immagini CAD e le opzioni PDF.
 
 ```java
 import com.aspose.cad.Image;
@@ -58,13 +62,13 @@ import java.util.List;
 
 ## Passo 1: Configura il tuo progetto
 
-Crea un progetto Java e aggiungi il JAR di Aspose.CAD al percorso di compilazione. Quindi definisci la directory che contiene i tuoi file DWG.
+Crea un progetto Java e aggiungi il JAR di Aspose.CAD al tuo percorso di compilazione. Quindi definisci la directory che contiene i tuoi file DWG.
 
 ```java
 String dataDir = "Your Document Directory" + "DWGDrawings/";
 ```
 
-> **Suggerimento professionale:** Usa un percorso assoluto o configura un percorso relativo basato sulla cartella delle risorse del tuo progetto.
+> **Consiglio:** Usa un percorso assoluto o configura un percorso relativo basato sulla cartella delle risorse del tuo progetto.
 
 ## Passo 2: Carica il file DWG
 
@@ -78,7 +82,7 @@ CadImage cadImage = (CadImage)Image.load(sourceFilePath);
 
 ## Passo 3: Configura le opzioni di rasterizzazione
 
-Seleziona i layer che desideri includere e imposta la dimensione della pagina per corrispondere al disegno originale. Qui abilitiamo il rendering delle linee nascoste specificando il layout.
+Seleziona i layer che desideri includere e imposta le dimensioni della pagina per corrispondere al disegno originale. Qui è dove abilitiamo il rendering delle linee nascoste specificando il layout.
 
 ```java
 List<String> list = Arrays.asList("Print","L1_RegMark","L2_RegMark");
@@ -107,11 +111,15 @@ cadImage.save(outPath, pdfOptions);
 System.out.println("\nThe DWG file exported successfully to PDF.\nFile saved at " + dataDir);
 ```
 
-> **Errore comune:** Dimenticare di impostare il layout su `"Model"` farà sì che tutte le linee (comprese quelle nascoste) appaiano solide nel PDF.
+> **Errore comune:** Dimenticare di impostare il layout su `"Model"` farà sì che tutte le linee (incluse quelle nascoste) appaiano solide nel PDF.
 
-## Conclusione
+## Problemi comuni e soluzioni
 
-Ora disponi di un metodo completo, pronto per la produzione, per **esportare DWG come PDF** con supporto per le linee nascoste usando Aspose.CAD per Java. Questo approccio può essere integrato in strumenti di elaborazione batch, servizi web o applicazioni desktop per automatizzare la conversione CAD‑to‑PDF.
+| Problema | Perché succede | Come risolvere |
+|----------|----------------|----------------|
+| Il PDF mostra tutte le linee solide | Layout non impostato su **Model** | Assicurati che `rasterizationOptions.setLayouts(new String[] { "Model" });` sia chiamato prima del salvataggio. |
+| Layer mancanti nell'output | Nomi dei layer errati | Verifica i nomi dei layer nel file DWG e corrispondi esattamente nella `list`. |
+| Errore di out‑of‑memory su file di grandi dimensioni | Dimensione di rasterizzazione elevata | Riduci le dimensioni della pagina o elabora il disegno a blocchi, se possibile. |
 
 ## Domande frequenti
 
@@ -122,7 +130,7 @@ A1: Sì, Aspose.CAD supporta vari formati CAD come DWG, DXF, DWF e altri.
 A2: Sì, puoi trovare la versione di prova gratuita [qui](https://releases.aspose.com/).
 
 ### Q3: Come posso ottenere supporto per Aspose.CAD per Java?
-A3: Visita il forum Aspose.CAD [qui](https://forum.aspose.com/c/cad/19) per il supporto della community.
+A3: Visita il forum di Aspose.CAD [qui](https://forum.aspose.com/c/cad/19) per il supporto della community.
 
 ### Q4: Dove posso trovare la documentazione dettagliata per Aspose.CAD per Java?
 A4: Consulta la documentazione [qui](https://reference.aspose.com/cad/java/).
@@ -130,14 +138,18 @@ A4: Consulta la documentazione [qui](https://reference.aspose.com/cad/java/).
 ### Q5: Posso acquistare una licenza temporanea per Aspose.CAD per Java?
 A5: Sì, puoi ottenere una licenza temporanea [qui](https://purchase.aspose.com/temporary-license/).
 
-### Q6: Questo metodo funziona anche per convertire DWG in PDF in un ambiente server senza interfaccia grafica?
-A6: Assolutamente. Poiché il codice utilizza solo l'API Aspose.CAD, funziona senza dipendenze UI, rendendolo ideale per l'automazione lato server.
+### Q6: Questo metodo funziona anche per convertire DWG in PDF in un ambiente server headless?
+A6: Assolutamente. Poiché il codice utilizza solo l'API di Aspose.CAD, funziona senza dipendenze UI, rendendolo ideale per l'automazione lato server.
+
+## Conclusione
+
+Ora disponi di un metodo completo e pronto per la produzione per **export dwg to pdf** con supporto per le linee nascoste usando Aspose.CAD per Java. Questo approccio può essere integrato in strumenti di elaborazione batch, servizi web o applicazioni desktop per automatizzare la conversione CAD‑to‑PDF.
 
 ---
 
-**Ultimo aggiornamento:** 2026-01-02  
-**Testato con:** Aspose.CAD for Java 24.12  
-**Autore:** Aspose  
+**Last Updated:** 2026-03-05  
+**Tested With:** Aspose.CAD for Java 24.12  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
