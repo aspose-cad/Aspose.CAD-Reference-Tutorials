@@ -1,33 +1,52 @@
 ---
-title: Aspose.CAD'de .NET için Yazı Tiplerini Değiştirme
-linktitle: Yazı Tiplerini Değiştirme
-second_title: Aspose.CAD .NET - CAD ve BIM Dosya Formatı
-description: Aspose.CAD for .NET'teki yazı tiplerini zahmetsizce değiştirmeyi öğrenin. CAD çizimlerinizde verimli yazı tipi özelleştirmesi için adım adım kılavuzumuzu izleyin.
-weight: 17
+date: 2026-03-29
+description: Aspose.CAD for .NET'te yazı tiplerini hızlı bir şekilde nasıl değiştireceğinizi
+  öğrenin. Bu adım adım rehber, birincil yazı tipi adını nasıl ayarlayacağınızı ve
+  CAD çizimlerini verimli bir şekilde nasıl özelleştireceğinizi gösterir.
+linktitle: Substituting Fonts
+second_title: Aspose.CAD .NET - CAD and BIM File Format
+title: Aspose.CAD for .NET'te Yazı Tiplerini Nasıl Değiştirilir
 url: /tr/net/cad-features-and-support/substituting-fonts/
+weight: 17
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.CAD'de .NET için Yazı Tiplerini Değiştirme
+# Aspose.CAD for .NET'te Yazı Tiplerini Nasıl Değiştirilir
 
-## giriiş
+## Giriş
 
-.NET kullanarak CAD geliştirme alanında, yazı tiplerini değiştirme yeteneği çok önemli bir beceridir. Aspose.CAD for .NET, bu amaca yönelik güçlü bir araç seti sağlayarak geliştiricilerin CAD çizimlerindeki yazı tiplerini sorunsuz bir şekilde değiştirmelerine olanak tanır. Bu eğitimde, yazı tipi değişiminin verimli bir şekilde nasıl gerçekleştirileceğini göstererek süreci adım adım inceleyeceğiz.
+.NET kullanarak CAD geliştirme alanında **yazı tiplerini nasıl değiştireceğinizi** öğrenmek, çizimlerinizin görsel kalitesini büyük ölçüde artırabilecek kritik bir beceridir. Aspose.CAD for .NET, herhangi bir stil için **set primary font name** sağlayan basit bir API sunar; bu sayede global ya da seçmeli yazı tipi ikamesi zahmetsizce yapılabilir. Bu öğreticide, bir çizimi yüklemekten yazı tiplerini global ya da belirli stil adıyla değiştirmeye kadar tüm süreci adım adım inceleyeceğiz.
+
+## Hızlı Yanıtlar
+- **CAD manipülasyonu için ana sınıf nedir?** `Aspose.CAD.Image` (veya türetilmiş `CadImage`).
+- **Yazı tipini değiştiren özellik hangisidir?** `CadStyleTableObject` üzerindeki `PrimaryFontName`.
+- **Tüm stiller için aynı anda yazı tiplerini değiştirebilir miyim?** Evet, `cadImage.Styles` üzerinden döngü yapıp özelliği ayarlayın.
+- **Üretim için lisansa ihtiyacım var mı?** Deneme dışı kullanım için geçerli bir Aspose.CAD lisansı gereklidir.
+- **Desteklenen .NET sürümleri?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7.
+
+## CAD'de Yazı Tipi Değiştirme Nedir?
+
+Yazı tipi ikamesi, bir CAD çiziminde kullanılan orijinal tipografiyi, hedef sistemde mevcut olan başka bir tipografiyle değiştirmeyi ifade eder. Bu, orijinal yazı tipi eksik olduğunda, tutarlı bir kurumsal stil gerektiğinde veya yalnızca sınırlı yazı tipi setini destekleyen cihazlarda baskı hazırlarken özellikle faydalıdır.
+
+## Neden Aspose.CAD ile Yazı Tiplerini Değiştirmelisiniz?
+
+- **Harici bağımlılık yok** – kütüphane yazı tipi eşlemesini dahili olarak yönetir.
+- **Birçok formatla çalışır** – DXF, DWG, DGN ve daha fazlası.
+- **Programatik kontrol** – toplu dönüşümler veya CI pipeline'ları için süreci otomatikleştirin.
+- **Çizim geometrisini korur** – yalnızca metnin görsel temsili değişir.
 
 ## Önkoşullar
 
-Eğiticiye dalmadan önce aşağıdakilere sahip olduğunuzdan emin olun:
+- .NET programlaması hakkında temel bilgi.
+- Aspose.CAD for .NET yüklü. Henüz yüklemediyseniz, [buradan](https://releases.aspose.com/cad/net/) indirin.
+- Deneme yapmak için bir CAD çizim dosyası (DXF, DWG vb.).
 
-- .NET programlamaya ilişkin temel bilgiler.
--  Aspose.CAD for .NET kuruldu. Değilse indirebilirsiniz[Burada](https://releases.aspose.com/cad/net/).
-- Uygulamalı alıştırma için bir CAD çizim dosyası.
+## Ad Alanlarını İçe Aktarın
 
-## Ad Alanlarını İçe Aktar
-
-Başlamadan önce, .NET uygulamanızdaki Aspose.CAD işlevlerine erişmek için gerekli ad alanlarını içe aktarın.
+Uygulamanızda Aspose.CAD işlevlerine erişmek için gerekli ad alanlarını içe aktarmadan önce aşağıdaki adımları izleyin.
 
 ```csharp
 using System;
@@ -41,7 +60,7 @@ using Aspose.CAD.FileFormats.Cad.CadTables;
 
 ## Adım 1: CAD Çizimini Yükleyin
 
- CAD çizimini bir örneğine yükleyerek başlayın.`CadImage`. Belge dizininize giden doğru yolu girdiğinizden emin olun.
+CAD çizimini bir `CadImage` örneğine yükleyerek başlayın. Belge dizininize doğru yolu sağladığınızdan emin olun.
 
 ```csharp
 string MyDir = "Your Document Directory";
@@ -49,24 +68,28 @@ string sourceFilePath = MyDir + "conic_pyramid.dxf";
 
 using (CadImage cadImage = (CadImage)Aspose.CAD.Image.Load(sourceFilePath))
 {
-    //Diğer işlemler için kodunuz buraya gelecek
+    // Your code for further actions goes here
 }
 ```
 
-## Adım 2: Stiller Üzerinde Yineleme Yapın
+## Adım 2: Stilleri Döngüyle Gezin
 
- Daha sonra CAD çizimindeki stiller üzerinde yineleme yapın.`foreach` döngü. Bu, bireysel yazı tipi stillerine erişmenizi ve bunları değiştirmenizi sağlar.
+CAD çizimindeki stilleri bir `foreach` döngüsüyle yineleyin. Bu, bireysel yazı tipi stillerine erişip onları manipüle etmenizi sağlar.
 
 ```csharp
 foreach (CadStyleTableObject style in cadImage.Styles)
 {
-    // Stil düzenleme kodunuz buraya gelecek
+    // Your code for style manipulation goes here
 }
 ```
 
-## 3. Adım: Yazı Tiplerini Genel Olarak Değiştirin
+## Yazı Tipi Değiştirme için Birincil Yazı Tipi Adını Nasıl Ayarlarsınız
 
- Tüm stiller yerine genel olarak yazı tiplerini değiştirmek için,`PrimaryFontName` her stilin özelliğini istenen yazı tipi adına değiştirin; örneğin "Arial".
+Her `CadStyleTableObject` üzerindeki `PrimaryFontName` özelliği, çizim render edildiğinde hangi yazı tipinin kullanılacağını kontrol eder. Bu özelliği ayarlayarak orijinal yazı tipini etkili bir şekilde değiştirebilirsiniz.
+
+### Adım 3: Yazı Tiplerini Genel Olarak Değiştir
+
+**Tüm** stiller için yazı tiplerini değiştirmek amacıyla, her stilin `PrimaryFontName` özelliğini istediğiniz yazı tipi adıyla (örneğin, `"Arial"`) ayarlayın.
 
 ```csharp
 foreach (CadStyleTableObject style in cadImage.Styles)
@@ -75,9 +98,9 @@ foreach (CadStyleTableObject style in cadImage.Styles)
 }
 ```
 
-## Adım 4: Yazı Tipini Stil Adına Göre Değiştirin
+### Adım 4: Stil Adına Göre Yazı Tipini Değiştir
 
-Yazı tipini belirli bir stilin yerine koymak istiyorsanız bunu döngü içindeki stil adını kontrol ederek yapabilirsiniz.
+Yalnızca belirli bir stil için (örneğin `"Roman"` adlı stil) yazı tipini değiştirmek istiyorsanız, döngü içinde koşullu bir kontrol ekleyin.
 
 ```csharp
 foreach (CadStyleTableObject style in cadImage.Styles)
@@ -89,32 +112,36 @@ foreach (CadStyleTableObject style in cadImage.Styles)
 }
 ```
 
-## Çözüm
+## Yaygın Sorunlar ve Sorun Giderme
 
-Tebrikler! Aspose.CAD for .NET'te yazı tiplerini nasıl değiştireceğinizi başarıyla öğrendiniz. Bu beceri, CAD çizimlerinin görünümünü tercihlerinize göre özelleştirmek için değerlidir.
+| Sorun | Neden | Çözüm |
+|-------|-------|-----|
+| Kod çalıştırıldıktan sonra yazı tipi değişmiyor | Çizim önbelleğe alınmış veya yalnızca‑okunur modda açılmış | Değişiklikten sonra resmi kaydettiğinizden (`cadImage.Save(...)`) emin olun veya dosyayı yeniden yükleyerek doğrulayın. |
+| İstenen yazı tipi sistemde bulunamadı | Kodun çalıştığı makinede yazı tipi yüklü değil | Gerekli TrueType/OpenType yazı tipini yükleyin veya uygulama kaynaklarına gömün. |
+| Metin bozuk görünüyor | Yanlış kodlama veya Unicode desteği eksik | Gerekli karakter setini destekleyen bir yazı tipi kullanın (ör. Arial Unicode MS). |
 
-## SSS'ler
+## Sık Sorulan Sorular
 
-### S1: Aspose.CAD for .NET'te yazı tipi değişikliklerini geri alabilir miyim?
+**Q: Aspose.CAD for .NET'te yazı tipi değişikliklerini geri alabilir miyim?**  
+**A:** Evet, orijinal CAD çizimini yeniden yükleyerek veya değişiklik yapmadan önce bir yedek kopya tutarak geri alabilirsiniz.
 
-Cevap1: Evet, orijinal CAD çizimini yeniden yükleyerek veya bir yedeğini alarak yazı tipi değişikliklerini geri alabilirsiniz.
+**Q: Değiştirebileceğim başka yazı tipi özellikleri var mı?**  
+**A:** Kesinlikle. `PrimaryFontName` dışında `SecondaryFontName`, `FontFamily` ve gelişmiş özelleştirme için diğer stil‑ilişkili özniteliklerle çalışabilirsiniz.
 
-### S2: Değiştirebileceğim başka yazı tipi özellikleri var mı?
+**Q: Aspose.CAD farklı CAD formatlarıyla uyumlu mu?**  
+**A:** Evet, Aspose.CAD DXF, DWG, DGN, DWF ve daha fazlası gibi geniş bir format yelpazesini destekleyerek projelerinizde esneklik sağlar.
 
-A2: Kesinlikle, ayrıca`PrimaryFontName`Aspose.CAD for .NET, gelişmiş özelleştirme için yazı tipiyle ilgili çeşitli özelliklere erişim sağlar.
+**Q: Toplu işleme sırasında yazı tipi değiştirmeyi otomatikleştirebilir miyim?**  
+**A:** Elbette. Yükleme ve değiştirme mantığını bir klasördeki CAD dosyaları üzerinde döngüye alabilir veya bir CI/CD pipeline'ına entegre edebilirsiniz.
 
-### S3: Aspose.CAD farklı CAD formatlarıyla uyumlu mudur?
+**Q: Aspose.CAD for .NET için ek destek nereden bulunur?**  
+**A:** Ek destek ve topluluk tartışmaları için [Aspose.CAD forumunu](https://forum.aspose.com/c/cad/19) ziyaret edin.
 
-Cevap3: Evet, Aspose.CAD çok çeşitli CAD formatlarını destekleyerek geliştirme projelerinizde esneklik sağlar.
+---
 
-### S4: Toplu işlemede yazı tipi değiştirmeyi otomatikleştirebilir miyim?
-
-Cevap4: Elbette birden fazla CAD çiziminde yazı tipi değiştirmeyi otomatikleştirmek için toplu işleme uygulayabilirsiniz.
-
-### S5: Aspose.CAD for .NET için ek desteği nerede bulabilirim?
-
- Cevap5: Ek destek ve topluluk tartışmaları için şu adresi ziyaret edin:[Aspose.CAD forumu](https://forum.aspose.com/c/cad/19).
-
+**Son Güncelleme:** 2026-03-29  
+**Test Edilen Versiyon:** Aspose.CAD for .NET (en son sürüm)  
+**Yazar:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

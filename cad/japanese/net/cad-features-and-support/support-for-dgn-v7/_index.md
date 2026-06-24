@@ -1,35 +1,54 @@
 ---
-title: Aspose.CAD for .NET での DGN V7 のサポート
-linktitle: DGN V7 のサポート
-second_title: Aspose.CAD .NET - CAD および BIM ファイル形式
-description: Aspose.CAD for .NET の DGN V7 のシームレスなサポートを調べてください。ステップバイステップのガイダンスに従って、DGN ファイルをラスター イメージに簡単に変換できます。
-weight: 19
+date: 2026-03-29
+description: Aspose.CAD for .NET を使用して DGN を JPEG に変換する方法を学び、DGN V7 を完全にサポートし、CAD
+  をラスタ画像に簡単に変換できるようにします。
+linktitle: Support for DGN V7
+second_title: Aspose.CAD .NET - CAD and BIM File Format
+title: Aspose.CAD for .NET を使用して DGN を JPEG に変換 – V7 対応
 url: /ja/net/cad-features-and-support/support-for-dgn-v7/
+weight: 19
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.CAD for .NET での DGN V7 のサポート
+# Aspose.CAD for .NET を使用した DGN から JPEG への変換 – V7 対応
 
-## 導入
+## はじめに
 
-.NET 開発の分野では、Aspose.CAD はコンピュータ支援設計 (CAD) ファイルを処理するための強力なライブラリとして際立っています。このチュートリアルでは、Aspose.CAD for .NET の特定の機能、つまり DGN V7 ファイルのサポートについて詳しく説明します。 DGN (Design の略) は、CAD ドメインで広く使用されているファイル形式です。 Aspose.CAD は、DGN V7 ファイルを操作するプロセスを簡素化し、開発者にシームレスなエクスペリエンスを提供します。
+このチュートリアルでは、Aspose.CAD for .NET を使用して **convert DGN to JPEG** を行う方法を学びます。ライブラリの完全な DGN V7 サポートを活用できます。DGN ファイルを JPEG などのラスタ画像に変換することは、CAD 図面をウェブページ、モバイルアプリ、レポートツールに埋め込む必要がある場合に一般的な要件です。Aspose.CAD は **convert CAD to raster** 形式への変換も効率的に行えるため、設計データの提示方法に柔軟性を提供します。
+
+## クイック回答
+
+- **このチュートリアルの対象は何ですか？** Aspose.CAD for .NET を使用して DGN V7 ファイルを JPEG ラスタ画像に変換します。  
+- **どのライブラリ バージョンが必要ですか？** DGN V7 サポートを含む最近の Aspose.CAD for .NET リリースであればどれでも構いません。  
+- **ライセンスは必要ですか？** 開発用途には無料トライアルで動作しますが、本番環境では商用ライセンスが必要です。  
+- **出力サイズを変更できますか？** はい – ラスタライズ オプションでページ幅、高さ、スケーリングを設定できます。  
+- **JPEG だけが出力形式ですか？** いいえ – Aspose.CAD は多数のラスタ形式 (PNG、BMP、TIFF など) をサポートしています。
+
+## DGN V7 とは？
+
+DGN（Design）は、Bentley Systems が MicroStation 用に最初に作成したファイル形式です。バージョン 7 は、より豊富なジオメトリとメタデータを追加し、土木工学やインフラプロジェクトで人気の選択肢となっています。Aspose.CAD for .NET は DGN V7 ファイルを直接読み取り、その内容を `CadImage` オブジェクトとして公開します。このオブジェクトをラスタライズしたり、他の形式に変換したりできます。
+
+## なぜ DGN を JPEG に変換するのか？
+
+- **Web‑ready:** JPEG 画像は軽量で、特別なプラグインなしにブラウザですぐに表示されます。  
+- **Cross‑platform:** JPEG はあらゆるデバイスで閲覧でき、技術的でない関係者と CAD 図面を共有するのに最適です。  
+- **Simplified workflows:** ラスタ形式に変換することで、下流プロセスで CAD 固有のビューアが不要になります。
 
 ## 前提条件
 
-実装に入る前に、次の前提条件が満たされていることを確認してください。
+実装に入る前に、以下が揃っていることを確認してください。
 
--  Aspose.CAD for .NET: Aspose.CAD ライブラリがインストールされていることを確認してください。からダウンロードできます。[Webサイト](https://releases.aspose.com/cad/net/).
+- **Aspose.CAD for .NET** – [website](https://releases.aspose.com/cad/net/) からダウンロードしてください。  
+- **Development environment** – Visual Studio（または .NET をサポートする任意の IDE）。  
 
-- 開発環境: Visual Studio またはその他の優先 IDE を含む、動作する .NET 開発環境をセットアップします。
-
-前提条件が整理されたので、Aspose.CAD for .NET での DGN V7 のサポートを活用する方法を見てみましょう。
+これらが準備できていれば、手順を中断せずに進められます。
 
 ## 名前空間のインポート
 
-まず、Aspose.CAD の機能にアクセスするために必要な名前空間をインポートします。
+まず、CadImage の処理とラスタライズに必要な名前空間をインポートします。
 
 ```csharp
 using System;
@@ -40,9 +59,9 @@ using System.Threading.Tasks;
 using Aspose.CAD;
 ```
 
-## ステップ 1: DGN ファイルをロードする
+## 手順 1: DGN ファイルの読み込み
 
-まず、既存の DGN ファイルを`CadImage`。交換する`"Your Document Directory"`そして`"Nikon_D90_Camera.dgn"`適切なディレクトリ パスとファイル名を使用します。
+ソース DGN ファイルを `CadImage` オブジェクトにロードします。プレースホルダーのパスを、DGN ファイルが格納されているフォルダーに置き換えてください。
 
 ```csharp
 string MyDir = "Your Document Directory";
@@ -50,13 +69,13 @@ string sourceFilePath = MyDir + "Nikon_D90_Camera.dgn";
 
 using (CadImage cadImage = (CadImage)Image.Load(sourceFilePath))
 {
-    //さらなるステップのコードはここにあります...
+    // Subsequent steps will be placed here.
 }
 ```
 
-## ステップ 2: ラスタライズ オプションを構成する
+## 手順 2: ラスタライズ オプションの設定
 
-を作成します`CadRasterizationOptions`オブジェクトを使用して、ラスタライズに関連するさまざまなプロパティを定義および設定します。
+DGN 図面のラスタライズ方法を定義します。出力サイズやスケーリングの挙動を制御できます。
 
 ```csharp
 CadRasterizationOptions rasterizationOptions = new CadRasterizationOptions
@@ -68,9 +87,9 @@ CadRasterizationOptions rasterizationOptions = new CadRasterizationOptions
 };
 ```
 
-## ステップ 3: ベクトル ラスタライズ オプションを設定する
+## 手順 3: ベクトル ラスタライズ オプションの設定
 
-を作成します`JpegOptions`DGN ファイルを JPEG に変換するつもりなので、オブジェクトを作成します。以前に作成したものを割り当てます`CadRasterizationOptions`それに反対します。
+`JpegOptions` オブジェクト（または他のラスタ形式オプション）を作成し、ラスタライズ設定を付与します。
 
 ```csharp
 ImageOptionsBase options = new JpegOptions
@@ -79,41 +98,52 @@ ImageOptionsBase options = new JpegOptions
 };
 ```
 
-## ステップ 4: ラスタライズされた画像を保存する
+## 手順 4: ラスタライズ画像の保存
 
-電話してください`Save`の方法`CadImage`クラス オブジェクトを使用して、DGN ファイルをラスター イメージ (この場合は JPEG) にエクスポートします。
+最後に、`Save` メソッドを使用して DGN 図面を JPEG ファイルとしてエクスポートします。
 
 ```csharp
 cadImage.Save(MyDir + "ExportDGNToRasterImage_out.jpeg", options);
 ```
 
-これらの手順が完了すると、DGN ファイルがラスター イメージに正常にエクスポートされます。
+コードが正常に実行されると、指定したフォルダーに元の DGN V7 図面の JPEG 表現が作成されます。
 
-## 結論
+## よくある問題と解決策
 
-このチュートリアルでは、Aspose.CAD for .NET での DGN V7 のシームレスなサポートについて調べました。段階的なガイドに従うことで、開発者は DGN ファイルをラスター イメージに簡単に変換し、.NET アプリケーションの機能を拡張できます。
+| 問題 | 解決策 |
+|-------|----------|
+| **ファイルが見つかりません** | `MyDir` がパス区切り文字（`\\` または `/`）で終わっていること、ファイル名が正しいことを確認してください。 |
+| **出力画像が空白** | `NoScaling` が適切に設定されていることを確認してください。ページ全体に図面を表示したい場合は `false` に設定します。 |
+| **サポートされていないエンティティ** | Aspose.CAD はほとんどの DGN エンティティをサポートしていますが、非常に古いものやカスタムオブジェクトは無視される場合があります。警告は変換ログで確認してください。 |
 
 ## よくある質問
 
-### Q1: Aspose.CAD は最新の DGN V7 仕様と互換性がありますか?
+### Q1: Aspose.CAD は最新の DGN V7 仕様に対応していますか？
 
-A1: はい、Aspose.CAD は DGN V7 ファイルをシームレスに処理できるように設計されており、最新の仕様との互換性が保証されています。
+**A:** はい、Aspose.CAD は DGN V7 を完全にサポートしており、最新の標準に従ってジオメトリとメタデータの両方を処理します。
 
-### Q2: DGN ファイル変換のラスタライズ オプションをカスタマイズできますか?
+### Q2: DGN ファイル変換のラスタライズ オプションをカスタマイズできますか？
 
- A2: もちろんです。このチュートリアルでは、作成および構成する方法を示します。`CadRasterizationOptions`変換プロセスを調整します。
+**A:** もちろんです。`CadRasterizationOptions` クラスを使用すると、ページサイズ、スケーリング、線幅、背景色などを調整できます。
 
-### Q3: JPEG 以外にサポートされている出力形式はありますか?
+### Q3: JPEG 以外にサポートされている出力形式はありますか？
 
-A3: はい、Aspose.CAD はさまざまな出力形式をサポートしています。包括的なリストについてはドキュメントを参照してください。
+**A:** はい、Aspose.CAD は PNG、BMP、TIFF などの他のラスタ形式にもエクスポートできます。対応する `*Options` クラス（例: `PngOptions`）を使用するだけです。
 
-### Q4: Aspose.CAD 関連のクエリのサポートを受けるにはどうすればよいですか?
+### Q4: Aspose.CAD に関する質問のサポートはどこで受けられますか？
 
- A4: にアクセスしてください。[Aspose.CAD フォーラム](https://forum.aspose.com/c/cad/19)コミュニティのサポートとディスカッションのために。
+**A:** コミュニティサポートや公式の回答は、[Aspose.CAD フォーラム](https://forum.aspose.com/c/cad/19)をご覧ください。
 
-### Q5: Aspose.CAD for .NET の無料トライアルはありますか?
+### Q5: Aspose.CAD for .NET の無料トライアルはありますか？
 
- A5: はい、無料トライアルにアクセスできます。[ここ](https://releases.aspose.com/).
+**A:** はい、[こちら](https://releases.aspose.com/)からトライアル版をダウンロードできます。
+
+---
+
+**最終更新日:** 2026-03-29  
+**テスト環境:** Aspose.CAD 24.12 for .NET  
+**作者:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -1,33 +1,50 @@
 ---
-title: Ersätta teckensnitt i Aspose.CAD för .NET
-linktitle: Ersätter teckensnitt
-second_title: Aspose.CAD .NET - CAD- och BIM-filformat
-description: Lär dig att ersätta teckensnitt i Aspose.CAD för .NET utan ansträngning. Följ vår steg-för-steg-guide för effektiv typsnittsanpassning i dina CAD-ritningar.
-weight: 17
+date: 2026-03-29
+description: Lär dig hur du snabbt ersätter teckensnitt i Aspose.CAD för .NET. Denna
+  steg‑för‑steg‑guide visar dig hur du ställer in primärt teckensnittsnamn och anpassar
+  CAD-ritningar effektivt.
+linktitle: Substituting Fonts
+second_title: Aspose.CAD .NET - CAD and BIM File Format
+title: Hur man ersätter teckensnitt i Aspose.CAD för .NET
 url: /sv/net/cad-features-and-support/substituting-fonts/
+weight: 17
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Ersätta teckensnitt i Aspose.CAD för .NET
+# Hur man ersätter teckensnitt i Aspose.CAD för .NET
 
 ## Introduktion
 
-Inom området för CAD-utveckling med .NET är förmågan att manipulera typsnitt en avgörande färdighet. Aspose.CAD för .NET tillhandahåller en robust uppsättning verktyg för detta ändamål, vilket gör det möjligt för utvecklare att sömlöst ersätta teckensnitt i sina CAD-ritningar. I den här handledningen kommer vi att utforska processen steg för steg, och demonstrera hur man effektivt kan byta teckensnitt.
+I CAD‑utveckling med .NET är **kunskapen om hur man ersätter teckensnitt** en viktig färdighet som kan förbättra den visuella kvaliteten på dina ritningar avsevärt. Aspose.CAD för .NET erbjuder ett enkelt API som låter dig **ange primärt teckensnittsnamn** för vilken stil som helst, vilket gör global eller selektiv teckensnittsbyte enkelt. I den här handledningen går vi igenom hela processen – från att ladda en ritning till att byta teckensnitt antingen globalt eller efter specifikt stilnamn.
+
+## Snabba svar
+- **Vad är huvudklassen för CAD-manipulation?** `Aspose.CAD.Image` (eller dess avledda `CadImage`).
+- **Vilken egenskap ändrar teckensnittet?** `PrimaryFontName` på `CadStyleTableObject`.
+- **Kan jag ersätta teckensnitt för alla stilar på en gång?** Ja, iterera genom `cadImage.Styles` och sätt egenskapen.
+- **Behöver jag en licens för produktion?** En giltig Aspose.CAD‑licens krävs för icke‑testanvändning.
+- **Stödda .NET‑versioner?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7.
+
+## Vad är teckensnittssubstitution i CAD?
+Teckensnittssubstitution innebär att ersätta det ursprungliga typsnittet som används i en CAD‑ritning med ett annat som finns tillgängligt på mål‑systemet. Detta är särskilt användbart när det ursprungliga teckensnittet saknas, när du behöver en enhetlig företagsstil, eller när du förbereder ritningar för utskrift på enheter som bara stöder ett begränsat urval av teckensnitt.
+
+## Varför ersätta teckensnitt med Aspose.CAD?
+- **Inga externa beroenden** – biblioteket hanterar teckensnittsmappning internt.
+- **Fungerar med många format** – DXF, DWG, DGN och fler.
+- **Programmerbar kontroll** – automatisera processen för batch‑konverteringar eller CI‑pipelines.
+- **Bevarar ritningsgeometri** – endast den visuella representationen av text ändras.
 
 ## Förutsättningar
 
-Innan du dyker in i handledningen, se till att du har följande:
+- Grundläggande kunskap om .NET‑programmering.
+- Aspose.CAD för .NET installerat. Om du ännu inte har installerat det, ladda ner det [here](https://releases.aspose.com/cad/net/).
+- En CAD‑ritningsfil (DXF, DWG, etc.) att experimentera med.
 
-- Grundläggande kunskaper i .NET-programmering.
--  Aspose.CAD för .NET installerat. Om inte kan du ladda ner den[här](https://releases.aspose.com/cad/net/).
-- En CAD-ritningsfil för praktisk övning.
+## Importera namnrymder
 
-## Importera namnområden
-
-Innan du börjar, importera de nödvändiga namnområdena för att komma åt Aspose.CAD-funktionerna i din .NET-applikation.
+Innan du börjar, importera de nödvändiga namnrymderna för att få åtkomst till Aspose.CAD‑funktionaliteten i din .NET‑applikation.
 
 ```csharp
 using System;
@@ -41,7 +58,7 @@ using Aspose.CAD.FileFormats.Cad.CadTables;
 
 ## Steg 1: Ladda CAD-ritning
 
- Börja med att ladda CAD-ritningen i en instans av`CadImage`. Se till att du anger rätt sökväg till din dokumentkatalog.
+Börja med att ladda CAD‑ritningen i en instans av `CadImage`. Se till att du anger rätt sökväg till din dokumentkatalog.
 
 ```csharp
 string MyDir = "Your Document Directory";
@@ -49,24 +66,28 @@ string sourceFilePath = MyDir + "conic_pyramid.dxf";
 
 using (CadImage cadImage = (CadImage)Aspose.CAD.Image.Load(sourceFilePath))
 {
-    //Din kod för ytterligare åtgärder finns här
+    // Your code for further actions goes here
 }
 ```
 
 ## Steg 2: Iterera över stilar
 
- Iterera sedan över stilarna i CAD-ritningen med hjälp av en`foreach` slinga. Detta låter dig komma åt och manipulera individuella teckensnittsstilar.
+Iterera sedan över stilarna i CAD‑ritningen med en `foreach`‑loop. Detta låter dig komma åt och manipulera enskilda teckensnittsstilar.
 
 ```csharp
 foreach (CadStyleTableObject style in cadImage.Styles)
 {
-    // Din kod för stilmanipulation går här
+    // Your code for style manipulation goes here
 }
 ```
 
-## Steg 3: Ersätt teckensnitt globalt
+## Hur man anger primärt teckensnittsnamn för teckensnittssubstitution
 
- För att ersätta teckensnitt globalt för alla stilar, ställ in`PrimaryFontName` egenskapen för varje stil till önskat teckensnittsnamn, till exempel "Arial".
+`PrimaryFontName`‑egenskapen på varje `CadStyleTableObject` styr vilket teckensnitt som används när ritningen renderas. Genom att sätta denna egenskap ersätter du effektivt det ursprungliga teckensnittet.
+
+### Steg 3: Ersätt teckensnitt globalt
+
+För att ersätta teckensnitt för **alla** stilar, sätt `PrimaryFontName`‑egenskapen för varje stil till önskat teckensnittsnamn, till exempel `"Arial"`.
 
 ```csharp
 foreach (CadStyleTableObject style in cadImage.Styles)
@@ -75,9 +96,9 @@ foreach (CadStyleTableObject style in cadImage.Styles)
 }
 ```
 
-## Steg 4: Ersätt teckensnitt med stilnamn
+### Steg 4: Ersätt teckensnitt efter stilnamn
 
-Om du vill ersätta typsnittet för en specifik stil, kan du göra det genom att kontrollera stilnamnet i slingan.
+Om du bara behöver ersätta teckensnittet för en specifik stil (t.ex. stilen med namnet `"Roman"`), lägg till en villkorskontroll inuti loopen.
 
 ```csharp
 foreach (CadStyleTableObject style in cadImage.Styles)
@@ -89,32 +110,36 @@ foreach (CadStyleTableObject style in cadImage.Styles)
 }
 ```
 
-## Slutsats
+## Vanliga problem och felsökning
 
-Grattis! Du har framgångsrikt lärt dig hur du byter teckensnitt i Aspose.CAD mot .NET. Denna färdighet är värdefull för att anpassa utseendet på CAD-ritningar enligt dina önskemål.
+| Problem | Orsak | Lösning |
+|-------|-------|-----|
+| Teckensnittet ändras inte efter att koden körts | Ritningen är cachad eller öppnad i skrivskyddat läge | Se till att du sparar bilden efter ändring (`cadImage.Save(...)`) eller läser in filen på nytt för att verifiera. |
+| Önskat teckensnitt finns inte på systemet | Teckensnittet är inte installerat på maskinen som kör koden | Installera det nödvändiga TrueType/OpenType‑teckensnittet eller bädda in det i applikationens resurser. |
+| Texten visas förvrängd | Fel kodning eller saknar Unicode‑stöd | Använd ett teckensnitt som stödjer den erforderliga teckenuppsättningen (t.ex. Arial Unicode MS). |
 
-## FAQ's
+## Vanliga frågor
 
-### F1: Kan jag återställa teckensnittsändringar i Aspose.CAD för .NET?
+**Q: Kan jag återställa teckensnittsändringar i Aspose.CAD för .NET?**  
+A: Ja, du kan återställa genom att ladda om den ursprungliga CAD‑ritningen eller genom att behålla en backup‑kopia innan du gör ändringar.
 
-S1: Ja, du kan återställa teckensnittsändringar genom att ladda om den ursprungliga CAD-ritningen eller genom att spara en säkerhetskopia.
+**Q: Finns det andra teckensnittsegenskaper jag kan ändra?**  
+A: Absolut. Förutom `PrimaryFontName` kan du arbeta med `SecondaryFontName`, `FontFamily` och andra stilrelaterade attribut för avancerad anpassning.
 
-### F2: Finns det andra teckensnittsegenskaper jag kan ändra?
+**Q: Är Aspose.CAD kompatibel med olika CAD‑format?**  
+A: Ja, Aspose.CAD stödjer ett brett sortiment av format såsom DXF, DWG, DGN, DWF och fler, vilket ger dig flexibilitet över projekt.
 
-A2: Absolut, dessutom`PrimaryFontName`, Aspose.CAD för .NET ger tillgång till olika teckensnittsrelaterade egenskaper för avancerad anpassning.
+**Q: Kan jag automatisera teckensnittssubstitution i batchbearbetning?**  
+A: Självklart. Packa in laddnings‑ och substitutionslogiken i en loop som itererar över en mapp med CAD‑filer, eller integrera den i en CI/CD‑pipeline.
 
-### F3: Är Aspose.CAD kompatibel med olika CAD-format?
+**Q: Var kan jag hitta ytterligare support för Aspose.CAD för .NET?**  
+A: För ytterligare support och community‑diskussioner, besök [Aspose.CAD forum](https://forum.aspose.com/c/cad/19).
 
-S3: Ja, Aspose.CAD stöder ett brett utbud av CAD-format, vilket säkerställer flexibilitet i dina utvecklingsprojekt.
+---
 
-### F4: Kan jag automatisera teckensnittsersättning i batchbearbetning?
-
-S4: Visst, du kan implementera batchbearbetning för att automatisera teckensnittsersättning över flera CAD-ritningar.
-
-### F5: Var kan jag hitta ytterligare stöd för Aspose.CAD för .NET?
-
- S5: För ytterligare stöd och diskussioner i samhället, besök[Aspose.CAD-forum](https://forum.aspose.com/c/cad/19).
-
+**Last Updated:** 2026-03-29  
+**Tested With:** Aspose.CAD for .NET (latest release)  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

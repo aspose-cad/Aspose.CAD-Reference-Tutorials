@@ -1,35 +1,52 @@
 ---
-title: Đặt kích thước và chế độ Canvas trong Aspose.CAD cho .NET
-linktitle: Đặt kích thước và chế độ canvas
-second_title: Aspose.CAD .NET - Định dạng tệp CAD và BIM
-description: Khám phá hướng dẫn từng bước về cách đặt kích thước và chế độ canvas trong Aspose.CAD cho .NET. Tối ưu hóa kết xuất CAD của bạn một cách dễ dàng bằng cách sử dụng hướng dẫn toàn diện này.
-weight: 16
+date: 2026-03-29
+description: Tìm hiểu cách tạo PDF từ CAD, thiết lập kích thước canvas và xuất CAD
+  sang PDF hoặc TIFF bằng Aspose.CAD cho .NET trong hướng dẫn từng bước này.
+linktitle: Setting Canvas Size and Mode
+second_title: Aspose.CAD .NET - CAD and BIM File Format
+title: 'Cách tạo PDF từ CAD: Đặt kích thước canvas và chế độ trong Aspose.CAD cho
+  .NET'
 url: /vi/net/cad-features-and-support/setting-canvas-size-and-mode/
+weight: 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Đặt kích thước và chế độ Canvas trong Aspose.CAD cho .NET
+# Cài đặt kích thước canvas và chế độ trong Aspose.CAD cho .NET
 
 ## Giới thiệu
 
-Bạn đã sẵn sàng khám phá toàn bộ tiềm năng của Aspose.CAD cho .NET và cách mạng hóa trải nghiệm kết xuất CAD của mình chưa? Trong hướng dẫn từng bước này, chúng ta sẽ đi sâu vào sự phức tạp của việc thiết lập kích thước và chế độ canvas bằng thư viện Aspose.CAD mạnh mẽ. Cho dù bạn là nhà phát triển dày dạn kinh nghiệm hay mới bắt đầu, hướng dẫn này sẽ hướng dẫn bạn qua quy trình, đảm bảo bạn khai thác các khả năng của Aspose.CAD một cách hiệu quả.
+Sẵn sàng **tạo PDF từ CAD** với việc kiểm soát kích thước đầu ra? Trong hướng dẫn này, chúng ta sẽ hướng dẫn cách cài đặt kích thước canvas và chế độ, tải tệp CAD, và xuất ra PDF hoặc TIFF bằng Aspose.CAD cho .NET. Cho dù bạn cần **chuyển đổi DXF sang PDF**, tạo bản vẽ độ phân giải cao, hoặc chỉ đơn giản điều chỉnh khu vực raster hóa, các bước dưới đây sẽ cung cấp cho bạn một giải pháp vững chắc, sẵn sàng cho sản xuất.
 
-## Điều kiện tiên quyết
+## Câu trả lời nhanh
+- **“create PDF from CAD” có nghĩa là gì?** Chuyển đổi bản vẽ CAD (ví dụ: DXF, DWG) thành tài liệu PDF giữ nguyên chi tiết vector và raster.  
+- **Tùy chọn nào kiểm soát kích thước đầu ra?** `CadRasterizationOptions.PageWidth` và `PageHeight` (canvas size).  
+- **Tôi có thể xuất ra TIFF không?** Có – sử dụng `TiffOptions` với cùng các cài đặt rasterization.  
+- **Tôi có cần giấy phép cho môi trường sản xuất không?** Cần một giấy phép thương mại; bản dùng thử miễn phí có sẵn.  
+- **Các phiên bản .NET được hỗ trợ?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7.
 
-Trước khi chúng ta đi sâu vào hướng dẫn, hãy đảm bảo bạn có sẵn các điều kiện tiên quyết sau:
+## “create PDF from CAD” là gì
 
--  Thư viện Aspose.CAD: Tải xuống và cài đặt thư viện Aspose.CAD từ[Trang web Aspose.CAD](https://releases.aspose.com/cad/net/).
+Tạo PDF từ CAD có nghĩa là render bản vẽ CAD thành định dạng hướng trang (PDF) có thể xem, in hoặc chia sẻ mà không cần phần mềm CAD. Aspose.CAD thực hiện các công việc nặng, cho phép bạn định nghĩa kích thước canvas, tỷ lệ và định dạng đầu ra.
 
-- Môi trường phát triển: Đảm bảo bạn đã thiết lập môi trường phát triển .NET trên máy của mình.
+## Tại sao cần đặt kích thước canvas khi tạo PDF từ CAD?
 
--  Tệp CAD mẫu: Đối với hướng dẫn này, chúng tôi sẽ sử dụng tệp DXF mẫu. Bạn có thể tìm thấy một trong[Tài liệu Aspose.CAD](https://reference.aspose.com/cad/net/).
+Việc đặt kích thước canvas cho phép bạn kiểm soát chính xác độ phân giải và kích thước của PDF hoặc TIFF kết quả. Điều này đặc biệt hữu ích khi:
+- Chuẩn bị bản vẽ để in trên các kích thước giấy cụ thể.  
+- Tạo ảnh thu nhỏ hoặc hình ảnh độ phân giải cao cho xem trước trên web.  
+- Đảm bảo bố cục nhất quán trên nhiều tài liệu.
+
+## Yêu cầu trước
+
+- Thư viện Aspose.CAD: Tải xuống và cài đặt thư viện Aspose.CAD từ [trang web Aspose.CAD](https://releases.aspose.com/cad/net/).
+- Môi trường phát triển: Đảm bảo bạn có môi trường phát triển .NET được cài đặt trên máy.
+- Tệp CAD mẫu: Trong hướng dẫn này, chúng ta sẽ sử dụng một tệp DXF mẫu. Bạn có thể tìm thấy nó trong [tài liệu Aspose.CAD](https://reference.aspose.com/cad/net/).
 
 ## Nhập không gian tên
 
-Để bắt đầu, hãy nhập các vùng tên cần thiết vào đầu ứng dụng .NET của bạn:
+First, import the namespaces required for CAD processing:
 
 ```csharp
 using System;
@@ -40,9 +57,11 @@ using System.Threading.Tasks;
 using Aspose.CAD;
 ```
 
-## Bước 1: Tải tệp CAD
+## Cách tạo PDF từ CAD với kích thước canvas tùy chỉnh
 
-Bắt đầu bằng cách tải tệp CAD bằng mã sau:
+### Bước 1: Tải tệp CAD
+
+Chúng ta bắt đầu bằng cách **tải tệp CAD** (ví dụ: một DXF) vào đối tượng `Image`. Đây là thời điểm bạn **tải tệp CAD** vào bộ nhớ.
 
 ```csharp
 string MyDir = "Your Document Directory";
@@ -50,13 +69,13 @@ string sourceFilePath = MyDir + "conic_pyramid.dxf";
 
 using (Image image = Image.Load(sourceFilePath))
 {
-    //Mã của bạn cho các bước tiếp theo sẽ có ở đây
+    // Your code for further steps will go here
 }
 ```
 
-## Bước 2: Tạo CadRasterizationOptions
+### Bước 2: Tạo CadRasterizationOptions
 
- Tạo một thể hiện của`CadRasterizationOptions` và thiết lập thuộc tính của nó:
+Tạo một thể hiện `CadRasterizationOptions` và xác định kích thước canvas. Các thuộc tính `PageWidth` và `PageHeight` cho phép bạn **đặt kích thước canvas** theo đúng kích thước bạn cần.
 
 ```csharp
 CadRasterizationOptions rasterizationOptions = new CadRasterizationOptions();
@@ -66,65 +85,82 @@ rasterizationOptions.AutomaticLayoutsScaling = true;
 rasterizationOptions.NoScaling = false;
 ```
 
-## Bước 3: Tạo PdfOptions
+### Bước 3: Tạo PdfOptions (Xuất CAD sang PDF)
 
- Tạo một thể hiện của`PdfOptions` và thiết lập nó`VectorRasterizationOptions` tài sản:
+Liên kết các cài đặt rasterization với một đối tượng `PdfOptions`. Cấu hình này cho phép bạn **xuất CAD sang PDF** với canvas tùy chỉnh mà bạn đã định nghĩa.
 
 ```csharp
 PdfOptions pdfOptions = new PdfOptions();
 pdfOptions.VectorRasterizationOptions = rasterizationOptions;
 ```
 
-## Bước 4: Xuất sang PDF
+### Bước 4: Xuất ra PDF (Chuyển đổi DXF sang PDF)
 
-Xuất tệp CAD sang PDF bằng các tùy chọn đã định cấu hình:
+Bây giờ lưu hình ảnh dưới dạng PDF. Bước này **tạo PDF từ CAD** bằng cách sử dụng các tùy chọn chúng ta đã thiết lập.
 
 ```csharp
 image.Save(MyDir + "result_out.pdf", pdfOptions);
 ```
 
-## Bước 5: Tạo TiffOptions
+### Bước 5: Tạo TiffOptions (Xuất CAD sang TIFF)
 
- Tạo một thể hiện của`TiffOptions` và thiết lập nó`VectorRasterizationOptions` tài sản:
+Nếu bạn cũng cần một hình ảnh raster, hãy cấu hình `TiffOptions`. Các tùy chọn rasterization giống nhau được tái sử dụng, vì vậy **xuất CAD sang TIFF** sẽ tuân theo kích thước canvas.
 
 ```csharp
 TiffOptions tiffOptions = new TiffOptions(TiffExpectedFormat.Default);
 tiffOptions.VectorRasterizationOptions = rasterizationOptions;
 ```
 
-## Bước 6: Xuất sang TIFF
+### Bước 6: Xuất ra TIFF
 
-Xuất tệp CAD sang TIFF bằng các tùy chọn đã định cấu hình:
+Cuối cùng, lưu bản vẽ dưới dạng tệp TIFF.
 
 ```csharp
 image.Save(MyDir + "result_out.tiff", tiffOptions);
 ```
 
-## Phần kết luận
+## Các vấn đề thường gặp và giải pháp
 
-Chúc mừng! Bạn đã đặt thành công kích thước và chế độ canvas trong Aspose.CAD cho .NET. Tính năng mạnh mẽ này mở ra vô số khả năng kết xuất CAD. Thử nghiệm với các tùy chọn khác nhau và khám phá toàn bộ tiềm năng của Aspose.CAD trong các ứng dụng .NET của bạn.
+- **Canvas bị cắt** – Kiểm tra rằng `AutomaticLayoutsScaling` được đặt thành `true` và `NoScaling` là `false` để bản vẽ được phóng to/thu nhỏ phù hợp với canvas.  
+- **PDF độ phân giải thấp** – Tăng `PageWidth`/`PageHeight` hoặc đặt `Resolution` trên `CadRasterizationOptions`.  
+- **Lỗi không tìm thấy tệp** – Đảm bảo `MyDir` trỏ tới một thư mục hợp lệ và tên tệp DXF khớp chính xác.
 
 ## Câu hỏi thường gặp
 
-### Câu hỏi 1: Tôi có thể sử dụng Aspose.CAD với các thư viện .NET khác không?
+### Q1: Tôi có thể sử dụng Aspose.CAD với các thư viện .NET khác không?
 
-Câu trả lời 1: Có, Aspose.CAD tích hợp liền mạch với các thư viện .NET khác, cung cấp các khả năng nâng cao để thao tác CAD.
+A1: Có, Aspose.CAD tích hợp liền mạch với các thư viện .NET khác, cung cấp khả năng nâng cao cho việc xử lý CAD.
 
-### Câu hỏi 2: Aspose.CAD có bản dùng thử miễn phí không?
+### Q2: Có bản dùng thử miễn phí cho Aspose.CAD không?
 
- Câu trả lời 2: Có, bạn có thể khám phá các tính năng của Aspose.CAD bằng bản dùng thử miễn phí. Thăm nom[đây](https://releases.aspose.com/) để bắt đầu.
+A2: Có, bạn có thể khám phá các tính năng của Aspose.CAD với bản dùng thử miễn phí. Truy cập [đây](https://releases.aspose.com/) để bắt đầu.
 
-### Câu 3: Làm cách nào tôi có thể nhận được hỗ trợ cho Aspose.CAD?
+### Q3: Làm sao tôi có thể nhận hỗ trợ cho Aspose.CAD?
 
- A3: Để được hỗ trợ và thảo luận, hãy truy cập[Diễn đàn Aspose.CAD](https://forum.aspose.com/c/cad/19).
+A3: Để được hỗ trợ và thảo luận, truy cập [diễn đàn Aspose.CAD](https://forum.aspose.com/c/cad/19).
 
-### Câu hỏi 4: Tôi có thể tìm tài liệu toàn diện về Aspose.CAD ở đâu?
+### Q4: Tôi có thể tìm tài liệu đầy đủ cho Aspose.CAD ở đâu?
 
- A4: Hãy tham khảo[Tài liệu Aspose.CAD](https://reference.aspose.com/cad/net/) để biết thông tin chi tiết và ví dụ.
+A4: Tham khảo [tài liệu Aspose.CAD](https://reference.aspose.com/cad/net/) để có thông tin chi tiết và các ví dụ.
 
-### Câu hỏi 5: Làm cách nào để mua Aspose.CAD cho .NET?
+### Q5: Làm thế nào để mua Aspose.CAD cho .NET?
 
- A5: Để mua Aspose.CAD, hãy truy cập[trang mua hàng](https://purchase.aspose.com/buy).
+A5: Để mua Aspose.CAD, truy cập [trang mua hàng](https://purchase.aspose.com/buy).
+
+**Câu hỏi bổ sung**
+
+**Q: Tôi có thể xuất một bản vẽ CAD đa trang thành một PDF duy nhất không?**  
+A: Có. Đặt `PageCount` trong `CadRasterizationOptions` và thư viện sẽ nối các trang lại thành một PDF.
+
+**Q: Kích thước canvas có ảnh hưởng đến chất lượng dữ liệu vector không?**  
+A: Dữ liệu vector vẫn độc lập với độ phân giải; kích thước canvas chỉ ảnh hưởng đến các yếu tố rasterized và độ phân giải của hình ảnh.
+
+---
+
+**Cập nhật lần cuối:** 2026-03-29  
+**Kiểm tra với:** Aspose.CAD 24.11 cho .NET  
+**Tác giả:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

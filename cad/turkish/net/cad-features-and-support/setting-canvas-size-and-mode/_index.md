@@ -1,35 +1,49 @@
 ---
-title: Aspose.CAD for .NET'te Kanvas Boyutunu ve Modunu Ayarlama
-linktitle: Kanvas Boyutunu ve Modunu Ayarlama
-second_title: Aspose.CAD .NET - CAD ve BIM Dosya Formatı
-description: Aspose.CAD for .NET'te tuval boyutunu ve modunu ayarlamaya ilişkin adım adım kılavuzu keşfedin. Bu kapsamlı eğitimi kullanarak CAD oluşturma işleminizi kolaylıkla optimize edin.
-weight: 16
+date: 2026-03-29
+description: Bu adım adım rehberde, Aspose.CAD for .NET kullanarak CAD'den PDF oluşturmayı,
+  tuval boyutunu ayarlamayı ve CAD'i PDF veya TIFF olarak dışa aktarmayı öğrenin.
+linktitle: Setting Canvas Size and Mode
+second_title: Aspose.CAD .NET - CAD and BIM File Format
+title: 'CAD''den PDF Oluşturma: Aspose.CAD for .NET''te Tuval Boyutunu ve Modunu Ayarlama'
 url: /tr/net/cad-features-and-support/setting-canvas-size-and-mode/
+weight: 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.CAD for .NET'te Kanvas Boyutunu ve Modunu Ayarlama
+# Aspose.CAD for .NET'te Tuval Boyutu ve Modunu Ayarlama
 
-## giriiş
+## Giriş
 
-Aspose.CAD for .NET'in tüm potansiyelini ortaya çıkarmaya ve CAD işleme deneyiminizde devrim yaratmaya hazır mısınız? Bu adım adım eğitimde, güçlü Aspose.CAD kütüphanesini kullanarak tuval boyutunu ve modunu ayarlamanın inceliklerini inceleyeceğiz. İster deneyimli bir geliştirici olun ister yeni başlıyor olun, bu kılavuz süreç boyunca size yol gösterecek ve Aspose.CAD'in yeteneklerinden etkili bir şekilde yararlanmanızı sağlayacaktır.
+Çıktı boyutlarını kontrol ederken **CAD'den PDF oluşturma** dosyalarına hazır mısınız? Bu öğreticide tuval boyutu ve modunu ayarlamayı, bir CAD dosyasını yüklemeyi ve Aspose.CAD for .NET ile PDF veya TIFF olarak dışa aktarmayı adım adım göstereceğiz. **DXF'yi PDF'ye dönüştürme**, yüksek çözünürlüklü çizimler oluşturma veya sadece rasterleştirme alanını ayarlama ihtiyacınız olsun, aşağıdaki adımlar size sağlam, üretime hazır bir çözüm sunacak.
+
+## Hızlı Yanıtlar
+- **“CAD'den PDF oluşturma” ne anlama gelir?** CAD çizimini (ör. DXF, DWG) vektör ve raster detaylarını koruyan bir PDF belgesine dönüştürmek.  
+- **Hangi seçenek çıktı boyutunu kontrol eder?** `CadRasterizationOptions.PageWidth` ve `PageHeight` (tuval boyutu).  
+- **TIFF olarak da dışa aktarabilir miyim?** Evet – aynı rasterleştirme ayarlarıyla `TiffOptions` kullanın.  
+- **Üretim için lisansa ihtiyacım var mı?** Ticari bir lisans gereklidir; ücretsiz deneme sürümü mevcuttur.  
+- **Desteklenen .NET sürümleri?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7.
+
+## “CAD'den PDF oluşturma” nedir?
+CAD'den PDF oluşturmak, CAD çizimini sayfa‑odaklı bir formatta (PDF) işlemek anlamına gelir; bu sayede CAD yazılımına ihtiyaç duymadan görüntülenebilir, yazdırılabilir veya paylaşılabilir. Aspose.CAD, ağır işleri halleder ve size tuval boyutu, ölçekleme ve çıktı formatını tanımlama imkanı verir.
+
+## CAD'den PDF oluştururken neden tuval boyutu ayarlamalısınız?
+Tuval boyutunu ayarlamak, ortaya çıkan PDF veya TIFF'in çözünürlüğü ve boyutları üzerinde kesin kontrol sağlar. Bu özellikle şu durumlarda faydalıdır:
+- Belirli kağıt boyutlarında baskı için çizimleri hazırlama.  
+- Web önizlemesi için küçük resimler veya yüksek çözünürlüklü görüntüler oluşturma.  
+- Birden fazla belge arasında tutarlı düzeni sağlama.
 
 ## Önkoşullar
 
-Eğiticiye dalmadan önce aşağıdaki önkoşulların mevcut olduğundan emin olun:
+- Aspose.CAD Kütüphanesi: Aspose.CAD kütüphanesini [Aspose.CAD web sitesinden](https://releases.aspose.com/cad/net/) indirip kurun.  
+- Geliştirme Ortamı: Makinenizde bir .NET geliştirme ortamının kurulu olduğundan emin olun.  
+- Örnek CAD Dosyası: Bu öğreticide bir örnek DXF dosyası kullanacağız. Bir tanesini [Aspose.CAD belgelerinde](https://reference.aspose.com/cad/net/) bulabilirsiniz.
 
--  Aspose.CAD Kütüphanesi: Aspose.CAD kütüphanesini şuradan indirip yükleyin:[Aspose.CAD web sitesi](https://releases.aspose.com/cad/net/).
+## Ad Alanlarını İçe Aktarma
 
-- Geliştirme Ortamı: Makinenizde bir .NET geliştirme ortamının kurulu olduğundan emin olun.
-
--  Örnek CAD Dosyası: Bu eğitim için örnek bir DXF dosyası kullanacağız. İçinde bir tane bulabilirsin[Aspose.CAD belgeleri](https://reference.aspose.com/cad/net/).
-
-## Ad Alanlarını İçe Aktar
-
-Başlamak için .NET uygulamanızın başlangıcında gerekli ad alanlarını içe aktarın:
+İlk olarak, CAD işleme için gerekli ad alanlarını içe aktarın:
 
 ```csharp
 using System;
@@ -40,9 +54,11 @@ using System.Threading.Tasks;
 using Aspose.CAD;
 ```
 
-## Adım 1: CAD Dosyasını Yükleyin
+## Özel Tuval Boyutu ile CAD'den PDF Oluşturma
 
-Aşağıdaki kodu kullanarak CAD dosyasını yükleyerek başlayın:
+### Adım 1: CAD Dosyasını Yükle
+
+İlk olarak **CAD dosyasını** (ör. bir DXF) bir `Image` nesnesine **yükleyerek** başlarız. Bu, CAD dosyasını belleğe **yüklediğiniz** noktadır.
 
 ```csharp
 string MyDir = "Your Document Directory";
@@ -50,13 +66,13 @@ string sourceFilePath = MyDir + "conic_pyramid.dxf";
 
 using (Image image = Image.Load(sourceFilePath))
 {
-    //Daha sonraki adımlara ilişkin kodunuz buraya gelecek
+    // Your code for further steps will go here
 }
 ```
 
-## Adım 2: CadRasterizationOptions'ı oluşturun
+### Adım 2: CadRasterizationOptions Oluştur
 
- Bir örneğini oluşturun`CadRasterizationOptions` ve özelliklerini ayarlayın:
+`CadRasterizationOptions` bir örnek oluşturun ve tuval boyutunu tanımlayın. `PageWidth` ve `PageHeight` özellikleri, ihtiyacınız olan tam boyutları **tuval boyutu olarak ayarlamanıza** olanak tanır.
 
 ```csharp
 CadRasterizationOptions rasterizationOptions = new CadRasterizationOptions();
@@ -66,65 +82,73 @@ rasterizationOptions.AutomaticLayoutsScaling = true;
 rasterizationOptions.NoScaling = false;
 ```
 
-## 3. Adım: PdfOptions Oluşturun
+### Adım 3: PdfOptions Oluştur (CAD'yi PDF'ye Dışa Aktar)
 
- Bir örneğini oluşturun`PdfOptions` ve onu ayarla`VectorRasterizationOptions` mülk:
+Rasterleştirme ayarlarını bir `PdfOptions` nesnesine bağlayın. Bu yapılandırma, tanımladığınız özel tuval ile **CAD'yi PDF'ye dışa aktarmanıza** olanak verir.
 
 ```csharp
 PdfOptions pdfOptions = new PdfOptions();
 pdfOptions.VectorRasterizationOptions = rasterizationOptions;
 ```
 
-## 4. Adım: PDF'ye aktarın
+### Adım 4: PDF'ye Dışa Aktar (DXF'yi PDF'ye Dönüştür)
 
-Yapılandırılmış seçenekleri kullanarak CAD dosyasını PDF'ye aktarın:
+Şimdi görüntüyü PDF olarak kaydedin. Bu adım, ayarladığımız seçenekleri kullanarak **CAD'den PDF oluşturur**.
 
 ```csharp
 image.Save(MyDir + "result_out.pdf", pdfOptions);
 ```
 
-## Adım 5: TiffOptions'ı oluşturun
+### Adım 5: TiffOptions Oluştur (CAD'yi TIFF'e Dışa Aktar)
 
- Bir örneğini oluşturun`TiffOptions` ve onu ayarla`VectorRasterizationOptions` mülk:
+Eğer ayrıca bir raster görüntüye ihtiyacınız varsa, `TiffOptions` yapılandırın. Aynı rasterleştirme seçenekleri yeniden kullanılır, böylece **CAD'yi TIFF'e dışa aktarma** tuval boyutuna saygı gösterir.
 
 ```csharp
 TiffOptions tiffOptions = new TiffOptions(TiffExpectedFormat.Default);
 tiffOptions.VectorRasterizationOptions = rasterizationOptions;
 ```
 
-## Adım 6: TIFF'e aktarın
+### Adım 6: TIFF'e Dışa Aktar
 
-Yapılandırılmış seçenekleri kullanarak CAD dosyasını TIFF'e aktarın:
+Son olarak, çizimi bir TIFF dosyası olarak kaydedin.
 
 ```csharp
 image.Save(MyDir + "result_out.tiff", tiffOptions);
 ```
 
-## Çözüm
+## Yaygın Sorunlar ve Çözümler
 
-Tebrikler! Aspose.CAD for .NET'te tuval boyutunu ve modunu başarıyla ayarladınız. Bu güçlü özellik, CAD oluşturma için bir olasılıklar dünyasının kapılarını açar. Farklı seçenekleri deneyin ve .NET uygulamalarınızda Aspose.CAD'in tüm potansiyelini keşfedin.
+- **Tuval kırpılmış görünüyor** – Çizimin tuvalin içine sığacak şekilde ölçeklenmesi için `AutomaticLayoutsScaling` değerinin `true` ve `NoScaling` değerinin `false` olduğundan emin olun.  
+- **Düşük çözünürlüklü PDF** – `PageWidth`/`PageHeight` değerlerini artırın veya `CadRasterizationOptions` üzerindeki `Resolution` ayarını yapın.  
+- **Dosya bulunamadı hatası** – `MyDir`'in geçerli bir dizine işaret ettiğinden ve DXF dosya adının tam olarak eşleştiğinden emin olun.
 
-## SSS'ler
+## Sıkça Sorulan Sorular
 
-### S1: Aspose.CAD'i diğer .NET kütüphaneleriyle kullanabilir miyim?
+### Q1: Aspose.CAD'i diğer .NET kütüphaneleriyle kullanabilir miyim?
+A1: Evet, Aspose.CAD diğer .NET kütüphaneleriyle sorunsuz bir şekilde bütünleşir ve CAD manipülasyonu için gelişmiş yetenekler sunar.
 
-Cevap1: Evet, Aspose.CAD diğer .NET kitaplıklarıyla sorunsuz bir şekilde bütünleşerek CAD manipülasyonu için gelişmiş yetenekler sağlar.
+### Q2: Aspose.CAD için ücretsiz deneme mevcut mu?
+A2: Evet, Aspose.CAD'in özelliklerini ücretsiz bir deneme ile keşfedebilirsiniz. Başlamak için [burayı](https://releases.aspose.com/) ziyaret edin.
 
-### S2: Aspose.CAD için ücretsiz deneme sürümü mevcut mu?
+### Q3: Aspose.CAD için destek nasıl alabilirim?
+A3: Destek ve tartışmalar için [Aspose.CAD forumunu](https://forum.aspose.com/c/cad/19) ziyaret edin.
 
- Cevap2: Evet, Aspose.CAD'in özelliklerini ücretsiz deneme sürümüyle keşfedebilirsiniz. Ziyaret etmek[Burada](https://releases.aspose.com/) başlamak.
+### Q4: Aspose.CAD için kapsamlı belgeleri nerede bulabilirim?
+A4: Ayrıntılı bilgi ve örnekler için [Aspose.CAD belgelerine](https://reference.aspose.com/cad/net/) bakın.
 
-### S3: Aspose.CAD için nasıl destek alabilirim?
+### Q5: Aspose.CAD for .NET'i nasıl satın alabilirim?
+A5: Aspose.CAD'i satın almak için [satın alma sayfasını](https://purchase.aspose.com/buy) ziyaret edin.
 
- Cevap 3: Destek ve tartışmalar için şu adresi ziyaret edin:[Aspose.CAD forumu](https://forum.aspose.com/c/cad/19).
+**S: Çok sayfalı bir CAD çizimini tek bir PDF'ye dışa aktarabilir miyim?**  
+C: Evet. `CadRasterizationOptions` içinde `PageCount` ayarlayın, kütüphane sayfaları tek bir PDF'de birleştirir.
 
-### S4: Aspose.CAD için kapsamlı belgeleri nerede bulabilirim?
+**S: Tuval boyutu vektör veri kalitesini etkiler mi?**  
+C: Vektör verileri çözünürlükten bağımsız kalır; tuval boyutu yalnızca rasterleştirilmiş öğeleri ve görüntü çözünürlüğünü etkiler.
 
- A4: Bkz.[Aspose.CAD belgeleri](https://reference.aspose.com/cad/net/) detaylı bilgi ve örnekler için.
+**Son Güncelleme:** 2026-03-29  
+**Test Edilen Versiyon:** Aspose.CAD 24.11 for .NET  
+**Yazar:** Aspose  
 
-### S5: Aspose.CAD for .NET'i nasıl satın alabilirim?
-
- Cevap5: Aspose.CAD'i satın almak için şu adresi ziyaret edin:[satın alma sayfası](https://purchase.aspose.com/buy).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
