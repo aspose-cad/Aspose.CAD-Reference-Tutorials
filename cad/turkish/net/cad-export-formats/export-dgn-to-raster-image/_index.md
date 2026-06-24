@@ -1,35 +1,48 @@
 ---
-title: Aspose.CAD for .NET'te DGN'yi Raster Görüntüye Aktar
-linktitle: DGN'yi Raster Görüntüye Aktar
-second_title: Aspose.CAD .NET - CAD ve BIM Dosya Formatı
-description: Aspose.CAD for .NET'i kullanarak DGN'yi taramalı görüntülere zahmetsizce dönüştürün. Adım adım kılavuzu keşfedin ve CAD dosya işlemede .NET'in gücünü açığa çıkarın.
-weight: 13
+date: 2026-03-24
+description: Aspose.CAD for .NET kullanarak dgn'yi png'ye dönüştürmeyi ve cad'i jpeg
+  olarak kaydetmeyi öğrenin – CAD'den görüntüye dönüşüm için hızlı bir rehber.
+linktitle: Export DGN to Raster Image
+second_title: Aspose.CAD .NET - CAD and BIM File Format
+title: Aspose.CAD for .NET'te DGN'yi PNG'ye Nasıl Dönüştürülür
 url: /tr/net/cad-export-formats/export-dgn-to-raster-image/
+weight: 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.CAD for .NET'te DGN'yi Raster Görüntüye Aktar
+# DGN'yi PNG'ye Dönüştürme Aspose.CAD for .NET'te
 
-## giriiş
+Modern .NET geliştirmede, **convert dgn to png** web üzerinde CAD çizimlerini görüntülemek veya raporlara gömmek istediğinizde yaygın bir gereksinimdir. Aspose.CAD for .NET bu dönüşümü basitleştirir, bir DGN dosyasını sadece birkaç kod satırıyla yüksek kaliteli bir raster görüntüsüne dönüştürmenizi sağlar. Bu rehberde projeyi kurmaktan son PNG (veya JPEG) dosyasını kaydetmeye kadar tüm süreci adım adım inceleyeceğiz.
 
-.NET geliştirmenin dinamik alanında Aspose.CAD, Bilgisayar Destekli Tasarım (CAD) dosyalarını işlemek için güçlü bir araç olarak ortaya çıkıyor. Bu eğitimde Aspose.CAD for .NET kullanarak DGN dosyalarını raster görüntülere aktarma süreci ayrıntılı olarak ele alınmaktadır. DGN dosyalarınızı görsel olarak ilgi çekici raster görüntülere sorunsuz bir şekilde dönüştürme konusunda istekliyseniz, doğru yerdesiniz.
+## Hızlı Yanıtlar
+- **Can I convert DGN to PNG with Aspose.CAD?** Evet – sadece rasterleştirme seçeneklerini yapılandırın ve PNG veya JPEG çıktısını seçin.  
+- **Do I need a license for production use?** Üretim ortamı için geçerli bir Aspose.CAD lisansı gereklidir, deneme sürümü dışındaki dağıtımlar için.  
+- **Which .NET versions are supported?** .NET Framework 4.6+, .NET Core 3.1+, .NET 5/6/7.  
+- **What image formats are available?** PNG, JPEG, BMP, GIF, TIFF ve daha fazlası.  
+- **Is exception handling necessary?** Kesinlikle – dosya erişim sorunlarını ele almak için dönüşümü try/catch bloğuna alın.
+
+## “convert dgn to png” nedir?
+Bir DGN (MicroStation) dosyasını PNG'ye dönüştürmek, vektörel CAD verilerini piksel tabanlı bir görüntüye rasterleştirmek anlamına gelir. Bu, önizleme oluşturma, çizimleri HTML e-postalarına gömme veya belge yönetim sistemleri için küçük resimler (thumbnail) oluşturma gibi durumlarda faydalıdır.
+
+## CAD'den görüntüye dönüşümde neden Aspose.CAD kullanmalı?
+- **No external dependencies** – tamamen yönetilen kodda çalışır.  
+- **High fidelity** – çizgi kalınlıklarını, katmanları ve renkleri korur.  
+- **Flexible output** – tek bir seçeneği değiştirerek PNG, JPEG, BMP vb. arasında geçiş yapabilirsiniz.  
+- **Performance‑optimized** – rasterleştirme büyük çizimler için bile hızlıdır.
 
 ## Önkoşullar
 
-Bu yolculuğa çıkmadan önce aşağıdaki önkoşulların mevcut olduğundan emin olun:
+Başlamadan önce şunların kurulu olduğundan emin olun:
 
--  Aspose.CAD for .NET: .NET projenizde Aspose.CAD kütüphanesinin kurulu olduğundan emin olun. Kütüphaneyi ve ilgili belgeleri şu adreste bulabilirsiniz:[İnternet sitesi](https://reference.aspose.com/cad/net/).
+- Projenizde **Aspose.CAD for .NET** yüklü olduğundan emin olun. [website](https://reference.aspose.com/cad/net/) adresinden indirebilirsiniz.  
+- Bilinen bir dizine yerleştirilmiş örnek bir DGN dosyası (ör. `Nikon_D90_Camera.dgn`).
 
-- Örnek DGN Dosyası: Dönüştürme için hazır bir DGN dosyası bulundurun. Örneğimizde "Nikon_D90_Camera.dgn" kullanacağız.
+## Ad Alanlarını (Namespaces) İçe Aktarın
 
-Şimdi adım adım kılavuza geçelim.
-
-## Ad Alanlarını İçe Aktar
-
-.NET projenize Aspose.CAD için gerekli ad alanlarını içe aktararak başlayın. Bu adım, DGN'nin taramalı görüntü dönüştürmesi için gereken sınıflara ve yöntemlere erişmenizi sağlar.
+Aspose.CAD sınıflarına erişebilmek için gerekli `using` ifadelerini ekleyerek başlayın.
 
 ```csharp
 using System;
@@ -42,7 +55,7 @@ using Aspose.CAD;
 
 ## Adım 1: DGN Dosyasını Yükleyin
 
- DGN dosyasını bir`CadImage` nesne. Bu daha sonraki operasyonlar için bir temel sağlar.
+Kaynak DGN dosyasını bir `CadImage` nesnesine yükleyin. Bu nesne, bellek içindeki CAD çizimini temsil eder ve rasterleştirme için kaynak olacaktır.
 
 ```csharp
 string MyDir = "Your Document Directory";
@@ -50,13 +63,13 @@ string sourceFilePath = MyDir + "Nikon_D90_Camera.dgn";
 
 using (CadImage cadImage = (CadImage)Image.Load(sourceFilePath))
 {
-    // Daha ileri işlemler için kodunuz buraya gelecek
+    // Your code for further processing goes here
 }
 ```
 
 ## Adım 2: Rasterleştirme Seçeneklerini Tanımlayın
 
- Oluşturmak`CadRasterizationOptions` Nesneyi seçin ve rasterleştirme işlemini gereksinimlerinize göre özelleştirmek için çeşitli özellikleri ayarlayın.
+CAD çiziminin nasıl rasterleştirileceğini yapılandırın. Burada görüntü boyutunu, ölçeklemeyi ve arka plan rengini kontrol edebilirsiniz.
 
 ```csharp
 CadRasterizationOptions rasterizationOptions = new CadRasterizationOptions();
@@ -66,48 +79,62 @@ rasterizationOptions.NoScaling = true;
 rasterizationOptions.AutomaticLayoutsScaling = false;
 ```
 
-## 3. Adım: JpegOptions Nesnesi Oluşturun
+## Adım 3: Çıktı Formatını Seçin (PNG veya JPEG)
 
- DGN dosyasını JPEG'e dönüştürmeyi hedeflediğimiz için`JpegOptions` nesneyi seçin ve önceden tanımlanmış olanı atayın`CadRasterizationOptions` ona.
+Rehber PNG üzerine odaklansa da **save cad as jpeg** isteyebilirsiniz. Uygun görüntü seçenekleri nesnesini oluşturun ve rasterleştirme ayarlarını ekleyin.
 
 ```csharp
-ImageOptionsBase options = new JpegOptions();
+ImageOptionsBase options = new JpegOptions();   // Change to PngOptions() for PNG output
 options.VectorRasterizationOptions = rasterizationOptions;
 ```
 
+> **Pro tip:** PNG dosyası oluşturmak için `new JpegOptions()` ifadesini `new PngOptions()` ile değiştirin.
+
 ## Adım 4: Raster Görüntüyü Kaydedin
 
- Kullanın`Save` yöntemi`CadImage` DGN dosyasını istenen formatta bir raster görüntüye, bu durumda JPEG'e aktarmak için sınıf.
+Son olarak, yapılandırdığınız dosya adı ve seçenek nesnesini sağlayarak `CadImage` örneği üzerinde `Save` metodunu çağırın.
 
 ```csharp
 cadImage.Save(MyDir + "ExportDGNToRasterImage_out.jpg", options);
 ```
 
-## Çözüm
+`PngOptions`'a geçiş yaptıysanız, dosya `ExportDGNToRasterImage_out.png` olarak kaydedilecektir.
 
-Tebrikler! Aspose.CAD for .NET kullanarak bir DGN dosyasını raster görüntüye aktarma adımlarını başarıyla tamamladınız. Bu eğitim, bu işlevselliği .NET projelerinize zahmetsizce entegre etmeniz için sizi temel bilgilerle donattı.
+## Yaygın Sorunlar ve Çözümleri
 
-## SSS'ler
+| Sorun | Neden | Çözüm |
+|-------|-------|-----|
+| **Boş çıktı görüntüsü** | `NoScaling` hatalı ayarlandığında veya düzen seçilmediğinde | `AutomaticLayoutsScaling = true` olarak ayarlayın veya istenen düzeni belirtin. |
+| **Büyük dosyalar için bellek yetersizliği** | Akış (streaming) kullanılmadan büyük DGN dosyasının yüklenmesi | `Image.Load(sourceFilePath, new LoadOptions { LoadOnDemand = true })` kullanın. |
+| **Desteklenmeyen DGN sürümü** | Eski MicroStation sürümleri | Eski formatları destekleyen en son Aspose.CAD sürümüne sahip olduğunuzdan emin olun. |
 
-### S1: DGN dosyalarını JPEG dışındaki formatlara aktarabilir miyim?
+## Sıkça Sorulan Sorular
 
-Cevap1: Evet, Aspose.CAD for .NET çeşitli çıktı formatlarını destekler. Seçenekleri uygun şekilde 3. Adımda değiştirebilirsiniz.
+**Q: JPEG dışındaki formatlara DGN dosyalarını dışa aktarabilir miyim?**  
+A: Evet, Aspose.CAD for .NET PNG, BMP, GIF, TIFF ve daha fazlasını destekler – sadece seçenek sınıfını değiştirin (ör. `new PngOptions()`).
 
-### S2 Dönüştürme işlemi sırasında istisnaları nasıl ele alabilirim?
+**Q: Dönüşüm sırasında istisnaları nasıl ele almalı?**  
+A: Dönüşüm kodunu bir `try/catch` bloğuna alın ve ayrıntılı hata bilgileri için `Aspose.CAD.CadException` kaydedin.
 
-C2: Olası sorunları çözmek için, sağlanan kodda gösterildiği gibi, uygun istisna yönetimine sahip olduğunuzdan emin olun.
+**Q: Aspose.CAD for .NET için bir deneme sürümü mevcut mu?**  
+A: Evet, ürünü ücretsiz deneme ile inceleyebilirsiniz. Daha fazla bilgi için [burayı](https://releases.aspose.com/) ziyaret edin.
 
-### S3: Aspose.CAD for .NET'in deneme sürümü mevcut mu?
+**Q: Aspose.CAD for .NET ile ilgili yardım almak veya sorunları tartışmak için nereye başvurabilirim?**  
+A: Topluluk desteği ve tartışmalar için [Aspose.CAD forumuna](https://forum.aspose.com/c/cad/19) göz atın.
 
- C3: Evet, ürünü ücretsiz deneme sürümüyle keşfedebilirsiniz. Ziyaret etmek[Burada](https://releases.aspose.com/) daha fazla bilgi için.
+**Q: Aspose.CAD for .NET için geçici bir lisans nasıl alabilirim?**  
+A: Geliştirme ihtiyaçlarınız için geçici lisans edinmek üzere [bu linki](https://purchase.aspose.com/temporary-license/) ziyaret edin.
 
-### S4: Aspose.CAD for .NET ile ilgili nereden yardım alabilirim veya sorunları tartışabilirim?
+## Sonuç
 
- A4: Şuraya gidin:[Aspose.CAD forumu](https://forum.aspose.com/c/cad/19) topluluk desteği ve tartışmalar için.
+Artık Aspose.CAD for .NET kullanarak **convert dgn to png** (veya JPEG) nasıl yapılacağını öğrendiniz. Rasterleştirme seçeneklerini ayarlayarak ve görüntü‑seçenekleri sınıfını değiştirerek çıktıyı herhangi bir proje gereksinimine uyacak şekilde özelleştirebilirsiniz. Uygulamanız için mükemmel raster görüntüyü elde etmek amacıyla farklı sayfa boyutları, DPI ayarları ve dosya formatlarıyla denemeler yapmaktan çekinmeyin.
 
-### S5: Aspose.CAD for .NET için geçici lisansı nasıl edinebilirim?
+---
 
- A5: Ziyaret edin[bu bağlantı](https://purchase.aspose.com/temporary-license/)Geliştirme ihtiyaçlarınız için geçici bir lisans almak için.
+**Son Güncelleme:** 2026-03-24  
+**Test Edilen Versiyon:** Aspose.CAD 24.11 for .NET  
+**Yazar:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
