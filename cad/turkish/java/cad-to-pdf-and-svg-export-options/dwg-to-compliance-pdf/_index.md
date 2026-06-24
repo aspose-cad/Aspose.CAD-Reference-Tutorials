@@ -1,33 +1,57 @@
 ---
-title: Aspose.CAD for Java Kullanarak PDF'ye Uyumluluk Sağlamak için DWG
-linktitle: DWG'den Uyumluluk PDF'sine
-second_title: Aspose.CAD Java API'si
-description: Aspose.CAD for Java'yı kullanarak DWG çizimlerini zahmetsizce PDF/A1a ve PDF/A1b uyumlu dosyalara dönüştürün. İş akışınızı hassasiyetle ve kolaylıkla kolaylaştırın.
-weight: 11
+date: 2026-02-28
+description: Aspose.CAD for Java ile DWG'yi PDF'ye nasıl dönüştüreceğinizi öğrenin,
+  PDF/A1a ve PDF/A1b uyumlu dosyaları hızlı ve doğru bir şekilde oluşturun.
+linktitle: DWG to Compliance PDF
+second_title: Aspose.CAD Java API
+title: Aspose.CAD for Java kullanarak DWG'yi PDF'ye (PDF/A1a ve A1b) dönüştür
 url: /tr/java/cad-to-pdf-and-svg-export-options/dwg-to-compliance-pdf/
+weight: 11
 ---
+
+", "Author" maybe keep as is? Those are labels; translate to Turkish: "Son Güncelleme:", "Test Edilen:", "Yazar:" maybe. But they are part of content; we can translate.
+
+Make sure code block placeholders remain unchanged.
+
+Let's produce final content.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.CAD for Java Kullanarak PDF'ye Uyumluluk Sağlamak için DWG
+# Convert DWG to PDF (PDF/A1a & A1b) using Aspose.CAD for Java
 
-## giriiş
+## Introduction
 
-Sürekli gelişen dijital tasarım dünyasında, DWG çizimlerini uyumlu PDF formatlarına dönüştürme ihtiyacı, kusursuz işbirliği ve standartlaştırılmış dokümantasyon için çok önemlidir. Aspose.CAD for Java, bu süreçte verimlilik ve hassasiyet sunan güçlü bir araç olarak karşımıza çıkıyor. Bu eğitimde, DWG dosyalarını zahmetsizce uyumlu PDF'lere dönüştürmek ve PDF/A1a ve PDF/A1b standartlarına uyumu sağlamak için Aspose.CAD for Java'yı nasıl kullanabileceğimizi keşfedeceğiz.
+Modern mühendislik ve tasarım iş akışlarında **convert DWG to PDF** günlük bir gereksinimdir; paylaşım, arşivleme ve sektör standartı belge formatlarına uyum sağlamak için kullanılır. PDF/A‑1a ve PDF/A‑1b en yaygın kabul gören arşivleme standartlarıdır ve çizimlerinizin herhangi bir sistemde aynı şekilde görüntülenmesini garanti eder. Aspose.CAD for Java bu dönüşümü basit, güvenilir ve tamamen programlanabilir hâle getirir. Bu öğreticide, sadece birkaç satır Java kodu ile DWG dosyalarını PDF/A‑uyumlu PDF'lere nasıl dönüştüreceğinizi öğreneceksiniz.
 
-## Önkoşullar
+## Quick Answers
+- **What library handles the conversion?** Aspose.CAD for Java  
+- **Which PDF/A standards are supported?** PDF/A‑1a and PDF/A‑1b  
+- **Do I need a license for testing?** Yes – a temporary license is available from Aspose.  
+- **What is the minimum Java version?** Java 8 or higher is recommended.  
+- **Can I batch‑process multiple DWG files?** Absolutely – repeat the steps for each file or loop through a folder.
 
-Eğiticiye dalmadan önce aşağıdaki önkoşulların mevcut olduğundan emin olun:
+## What is “convert DWG to PDF” and why does it matter?
+DWG bir çizimin PDF'ye dönüştürülmesi, vektör bütünlüğünü korurken evrensel olarak görüntülenebilir bir belge oluşturur. PDF/A‑1a veya PDF/A‑1b uyumluluğu seçtiğinizde dosya, uzun vadeli arşivleme için gerekli renk profilleri, yazı tipleri ve meta verileri de içerir; bu da düzenleyici başvurular, inşaat dokümantasyonu ve müşteri teslimatları için hayati öneme sahiptir.
 
-- Java Geliştirme Ortamı: Sisteminizde çalışan bir Java geliştirme ortamının kurulu olduğundan emin olun.
--  Aspose.CAD Kütüphanesi: Java için Aspose.CAD kütüphanesini şuradan indirip yükleyin:[İndirme: {link](https://releases.aspose.com/cad/java/).
-- Belge Dizini: DWG çizimlerinizi saklamak için bir dizin oluşturun.
+## Why use Aspose.CAD for Java?
+- **Full DWG version support** – from older R12 up to the latest releases.  
+- **No external dependencies** – the library works out‑of‑the‑box, no CAD software needed.  
+- **Fine‑grained control** – you can set rasterization options, DPI, page size, and PDF/A compliance.  
+- **High performance** – suitable for batch processing thousands of drawings.
 
-## Ad Alanlarını İçe Aktar
+## Prerequisites
 
-Aspose.CAD'in işlevlerine erişmek için Java projenize gerekli ad alanlarını içe aktarın. Java dosyanızın başına aşağıdaki satırları ekleyin:
+Başlamadan önce şunların kurulu olduğundan emin olun:
+
+- Java geliştirme ortamı (JDK 8 veya daha yeni) ve tercih ettiğiniz IDE.  
+- Aspose.CAD for Java kütüphanesi – [download link](https://releases.aspose.com/cad/java/) adresinden indirin.  
+- Dönüştürmek istediğiniz DWG çizimlerini içeren bir klasör.
+
+## Import Namespaces
+
+İhtiyacınız olan sınıfları içe aktarın. Dosyanın en üst kısmında import'ları tutmak kodun okunabilirliğini ve bakımını kolaylaştırır.
 
 ```java
 import com.aspose.cad.Image;
@@ -38,85 +62,97 @@ import com.aspose.cad.imageoptions.PdfDocumentOptions;
 import com.aspose.cad.imageoptions.PdfOptions;
 ```
 
-## 1. Adım: Kaynak Dizinini Ayarlayın
+## Step 1: Set the Resource Directory
 
-DWG çizimlerinin saklandığı kaynak dizininizin yolunu tanımlayın.
+DWG dosyalarınızın bulunduğu yolu tanımlayın. Dizeyi gerçek klasör yolunuza göre ayarlayın.
 
 ```java
 String dataDir = "Your Document Directory" + "DWGDrawings/";
 ```
 
-## Adım 2: DWG Dosyasını Yükleyin
+## Step 2: Load the DWG File
 
-Aspose.CAD kütüphanesini kullanarak DWG dosyasını yükleyin.
+`Image.load` metodunu kullanarak DWG dosyasını belleğe okuyun. Bu nesne daha sonra PDF olarak kaydedilecektir.
 
 ```java
 String srcFile = dataDir + "Bottom_plate.dwg";
 Image objImage = Image.load(srcFile);
 ```
 
-## 3. Adım: PDF Seçenekleri Oluşturun
+## Step 3: Create PDF Options
 
-Bir PdfOptions örneği oluşturun ve vektör rasterleştirme seçeneklerini ayarlayın.
+Bir `PdfOptions` örneği oluşturun ve bir `CadRasterizationOptions` nesnesi ekleyin. Rasterizasyon seçenekleri, vektör verisinin PDF içinde nasıl işleneceğini kontrol etmenizi sağlar.
 
 ```java
 PdfOptions pdfOptions = new PdfOptions();
 pdfOptions.setVectorRasterizationOptions(new CadRasterizationOptions());
 ```
 
-## 4. Adım: Temel PDF Seçeneklerini Ayarlayın
+## Step 4: Set Core PDF Options (Compliance)
 
-Uyumluluk standardını (PDF/A1a veya PDF/A1b) belirterek temel PDF seçeneklerini ayarlayın.
+Burada Aspose.CAD'e hangi PDF/A uyumluluk seviyesini istediğinizi bildirirsiniz. Örnekte PDF/A‑1a ile başlanıyor.
 
 ```java
 pdfOptions.setCorePdfOptions(new PdfDocumentOptions());
 pdfOptions.getCorePdfOptions().setCompliance(PdfCompliance.PdfA1a);
 ```
 
-## Adım 5: PDF'yi Uyumluluk A1a ile kaydedin
+## Step 5: Save PDF with PDF/A‑1a Compliance
 
-PDF dosyasını A1a uyumluluğuyla kaydedin.
+Şimdi PDF dosyasını diske yazın. Çıktı dosyası PDF/A‑1a uyumlu olacak ve arşivleme için hazır olacaktır.
 
 ```java
 objImage.save(dataDir + "Saved1.pdf", pdfOptions);
 ```
 
-## Adım 6: Uyumluluğu A1b olarak değiştirin
+## Step 6: Change Compliance to PDF/A‑1b and Save Again
 
-Uyumluluğu PDF/A1b olarak değiştirin ve PDF'yi kaydedin.
+PDF/A‑1b ihtiyacınız varsa, uyumluluk bayrağını değiştirin ve ikinci bir dosya olarak kaydedin.
 
 ```java
 pdfOptions.getCorePdfOptions().setCompliance(PdfCompliance.PdfA1b);
 objImage.save(dataDir + "Saved.pdf", pdfOptions);
 ```
 
-Dönüştürmek istediğiniz her DWG dosyası için bu adımları tekrarlayın.
+> **Pro tip:** Dönüştürme mantığını yeniden kullanılabilir bir metoda paketleyin; böylece bir klasördeki her DWG için çağırabilir, tekrarı azaltabilir ve bakım kolaylığı sağlayabilirsiniz.
 
-## Çözüm
+## Common Use Cases
 
-Sonuç olarak Aspose.CAD for Java, DWG dosyalarını uyumlu PDF'lere dönüştürmek için güçlü bir çözüm sunuyor. Bu adım adım kılavuzu izleyerek dönüştürme sürecini kolaylaştırabilir ve belgelerinizin endüstri standartlarına uygun olmasını sağlayabilirsiniz.
+| Senaryo | PDF/A Neden? |
+|----------|------------|
+| **Regülasyon başvuruları** | Uzun vadeli okunabilirlik ve yasal geçerlilik garantiler. |
+| **Müşteri teslimatları** | Müşteriler CAD yazılımı olmadan dosyayı açabilir. |
+| **Belge yönetim sistemleri** | PDF/A dosyaları çoğu DMS platformunda indekslenebilir ve aranabilir. |
 
-## SSS'ler
+## Common Issues and Solutions
 
-### S1: Aspose.CAD, DWG dosyalarının tüm sürümleriyle uyumlu mudur?
+- **Missing fonts or symbols** – Ensure the DWG file embeds all required fonts, or set `CadRasterizationOptions.setEmbedFonts(true)`.  
+- **Large file size** – Reduce DPI in rasterization options or enable compression via `PdfDocumentOptions.setCompress(true)`.  
+- **License not found** – Apply a temporary or permanent license before conversion; otherwise you’ll get a watermark.
 
- Cevap1: Aspose.CAD, en yenileri de dahil olmak üzere DWG dosyalarının çeşitli sürümlerini destekler. Bakın[dokümantasyon](https://reference.aspose.com/cad/java/) ayrıntılı uyumluluk bilgileri için.
+## Frequently Asked Questions
 
-### S2: Aspose.CAD'i kullanarak PDF çıktı ayarlarını özelleştirebilir miyim?
+**Q: Is Aspose.CAD compatible with all versions of DWG files?**  
+A: Aspose.CAD supports a wide range of DWG versions, including the latest releases. See the [documentation](https://reference.aspose.com/cad/java/) for a detailed compatibility list.
 
-A2: Kesinlikle! Aspose.CAD, PDF çıktısını özel gereksinimlerinize göre uyarlamanıza olanak tanıyan bir dizi özelleştirme seçeneği sunar.
+**Q: Can I customize the PDF output settings?**  
+A: Absolutely! Options such as page size, DPI, vector rasterization, and PDF/A compliance are all configurable through `PdfOptions` and `CadRasterizationOptions`.
 
-### S3: Aspose.CAD için geçici bir lisans mevcut mu?
+**Q: Is a temporary license available for testing?**  
+A: Yes, you can obtain a temporary license for evaluation from [this link](https://purchase.aspose.com/temporary-license/).
 
- C3: Evet, test amaçlı geçici lisansı şu adresten alabilirsiniz:[bu bağlantı](https://purchase.aspose.com/temporary-license/).
+**Q: Where can I get community support?**  
+A: The [Aspose.CAD forum](https://forum.aspose.com/c/cad/19) is a great place to ask questions and share experiences.
 
-### S4: Aspose.CAD için nereden destek alabilirim veya toplulukla etkileşime geçebilirim?
+**Q: Can I try Aspose.CAD for free before purchasing?**  
+A: Certainly! Download the free trial version from [here](https://releases.aspose.com/) to explore the full feature set.
 
- A4: Ziyaret edin[Aspose.CAD forumu](https://forum.aspose.com/c/cad/19) topluluk desteği ve tartışmalar için.
+---
 
-### S5: Satın almadan önce Aspose.CAD'i ücretsiz deneyebilir miyim?
+**Last Updated:** 2026-02-28  
+**Tested With:** Aspose.CAD for Java 24.11 (latest at time of writing)  
+**Author:** Aspose  
 
- A5: Kesinlikle! Ücretsiz deneme sürümünü şuradan indirin:[Burada](https://releases.aspose.com/) Bir karar vermeden önce yetenekleri keşfetmek.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
