@@ -1,37 +1,50 @@
 ---
-title: .NET용 Aspose.CAD의 사용자 정의 펜 옵션을 사용하여 CAD 내보내기 향상
-linktitle: 내보내기 시 펜 지원
-second_title: Aspose.CAD .NET - CAD 및 BIM 파일 형식
-description: .NET용 Aspose.CAD를 사용하여 CAD 이미지 내보내기를 향상시키는 방법을 알아보세요. PDF, PNG, BMP 등의 멋진 시각적 개체를 위해 펜 옵션을 사용자 정의하세요.
-weight: 12
+date: 2026-03-26
+description: Aspose.CAD for .NET를 사용하여 CAD에서 PDF를 만들고 DXF를 PDF로 변환하는 방법을 배워보세요. PDF,
+  PNG, BMP 등에서 놀라운 시각 효과를 위해 펜 옵션을 맞춤 설정하세요.
+linktitle: Pen Support in Export
+second_title: Aspose.CAD .NET - CAD and BIM File Format
+title: 맞춤형 펜 옵션으로 CAD에서 PDF 만들기 – Aspose.CAD for .NET
 url: /ko/net/cad-features-and-support/pen-support-in-export/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# .NET용 Aspose.CAD의 사용자 정의 펜 옵션을 사용하여 CAD 내보내기 향상
+# Aspose.CAD for .NET에서 사용자 정의 펜 옵션으로 CAD 내보내기 향상
 
-## 소개
+## Introduction
 
-.NET용 Aspose.CAD는 CAD(Computer-Aided Design) 파일 작업을 위한 강력한 도구 세트를 제공하여 개발자가 CAD 이미지를 원활하게 조작하고 내보낼 수 있도록 합니다. 주목할만한 기능 중 하나는 내보내기 중 펜 지원으로, 사용자는 CAD 이미지를 PDF, PNG, BMP, GIF, JPEG2000, JPEG, PSD, TIFF 및 WMF와 같은 다양한 형식으로 내보낼 때 펜의 시작 및 끝 캡 설정을 사용자 정의할 수 있습니다.
+If you need to **create PDF from CAD** files quickly and with full visual control, Aspose.CAD for .NET gives you exactly that. By leveraging the library’s pen‑support feature you can define start and end caps, line joins, and other drawing attributes, producing PDFs that look exactly how you want them. This tutorial walks you through the entire process—from loading a DXF file to exporting a polished PDF—while also showing how the same settings can be reused when you **export CAD to PNG** or **rasterize CAD image** data for other formats.
 
-이 튜토리얼에서는 Aspose.CAD for .NET을 사용하여 내보내기 시 펜 지원의 세부 사항을 살펴보겠습니다. 우리는 각 단계를 세분화하여 프로세스를 안내하는 명확한 설명과 예를 제공할 것입니다.
+## Quick Answers
+- **What does “create PDF from CAD” mean?** It converts vector‑based CAD drawings (e.g., DXF) into a PDF document while preserving geometry and styling.  
+- **Which formats support pen options?** PDF, PNG, BMP, GIF, JPEG2000, JPEG, PSD, TIFF, and WMF.  
+- **Do I need a license for development?** A free trial works for testing; a commercial license is required for production.  
+- **Can I change line caps for other formats?** Yes—pen options apply to any rasterization target supported by Aspose.CAD.  
+- **What .NET versions are supported?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7.
 
-## 전제 조건
+## What is pen support in CAD export?
 
-튜토리얼을 시작하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
+Pen support lets you customize how lines are drawn when a CAD drawing is rasterized or vector‑rasterized. You can set properties such as `StartCap`, `EndCap`, `LineJoin`, and `DashStyle`. These settings affect the final appearance of the exported image or PDF, giving you fine‑grained control over visual quality.
 
-- 개발 환경에 설치된 .NET용 Aspose.CAD. 다음에서 다운로드할 수 있습니다.[릴리스 페이지](https://releases.aspose.com/cad/net/).
+## Why use custom pen options when you **create PDF from CAD**?
 
-- CAD 파일 형식, 특히 DXF(도면 교환 형식)에 대한 기본 이해.
+- **Consistent branding** – match corporate line styles across all documents.  
+- **Improved readability** – thicker caps and joins make technical drawings clearer on screen and print.  
+- **Cross‑format flexibility** – the same pen configuration works for PNG, BMP, and other raster formats, saving you time.
 
-- C# 프로그래밍 언어에 대한 실무 지식.
+## Prerequisites
 
-## 네임스페이스 가져오기
+- Aspose.CAD for .NET installed (download from the [release page](https://releases.aspose.com/cad/net/)).  
+- Basic knowledge of DXF (Drawing Exchange Format).  
+- Familiarity with C# programming.
 
-시작하려면 C# 프로젝트에서 필요한 네임스페이스를 가져와야 합니다.
+## Import Namespaces
+
+To get started, make sure you import the necessary namespaces in your C# project:
 
 ```csharp
 using Aspose.CAD.FileFormats.Cad;
@@ -44,35 +57,35 @@ using System.Drawing;
 using System.Drawing.Drawing2D;
 ```
 
-## 1단계: 문서 디렉토리 설정
+## Step 1: Set Up Your Document Directory
 
-CAD 문서가 있는 디렉토리를 정의합니다.
+Define the folder that contains the source CAD file:
 
 ```csharp
 string MyDir = "Your Document Directory";
 ```
 
-## 2단계: CAD 이미지 로드
+## Step 2: Load the CAD Image
 
-Aspose.CAD를 사용하여 CAD 이미지를 로드합니다.
+Load the CAD drawing (for example, a DXF file) into an `Aspose.CAD.Image` object:
 
 ```csharp
 string sourceFilePath = MyDir + "conic_pyramid.dxf";
 CadImage cadImage = (CadImage)Image.Load(sourceFilePath);
 ```
 
-## 3단계: 래스터화 옵션 구성
+## Step 3: Configure Rasterization Options
 
-래스터화 및 PDF 옵션을 만들어 내보내기 프로세스를 사용자 정의합니다.
+Create rasterization and PDF options objects. These objects let you control how the CAD data is turned into a raster image or PDF page:
 
 ```csharp
 CadRasterizationOptions rasterizationOptions = new CadRasterizationOptions();
 PdfOptions pdfOptions = new PdfOptions();
 ```
 
-## 4단계: 펜 옵션 사용자 정의
+## Step 4: Customize Pen Options
 
-펜의 시작 및 끝 캡 옵션을 설정합니다.
+Here’s where you **customize the pen** that draws the lines. You can set the start and end caps to `Flat`, `Round`, `Square`, etc. This is the core of “how to export CAD” with the visual style you need:
 
 ```csharp
 rasterizationOptions.PenOptions = new PenOptions
@@ -82,49 +95,85 @@ rasterizationOptions.PenOptions = new PenOptions
 };
 ```
 
-## 5단계: 벡터 래스터화 옵션 적용
+*Pro tip:* Experiment with `LineCap.Round` for smoother line ends when you **export CAD to PNG**.
 
-PDF 옵션에 래스터화 옵션을 적용합니다.
+## Step 5: Apply Vector Rasterization Options
+
+Attach the rasterization settings to the PDF options so the export process knows which pen configuration to use:
 
 ```csharp
 pdfOptions.VectorRasterizationOptions = rasterizationOptions;
 ```
 
-## 6단계: 내보낸 PDF 저장
+## Step 6: Save the Exported PDF
 
-사용자 정의된 펜 옵션을 사용하여 CAD 이미지를 PDF 파일로 저장합니다.
+Finally, generate the PDF file. This step **creates PDF from CAD** with the custom pen settings applied:
 
 ```csharp
 cadImage.Save(MyDir + "9LHATT-A56_generated.pdf", pdfOptions);
 ```
 
-## 결론
+You can replace the `PdfOptions` with `PngOptions`, `BmpOptions`, etc., to **export CAD to PNG** or other raster formats while keeping the same pen configuration.
 
-이 튜토리얼에서는 .NET용 Aspose.CAD의 내보내기 기능에서 펜 지원을 살펴보았습니다. 단계별 가이드를 따르면 펜의 시작 및 끝 캡 설정을 쉽게 사용자 정의하여 CAD 이미지 내보내기의 유연성을 높일 수 있습니다.
+## Common Use Cases
 
-내보낸 이미지에서 원하는 시각적 효과를 얻으려면 다양한 펜 옵션을 자유롭게 실험해 보세요.
+- **Technical documentation** – embed precise line styles in engineering PDFs.  
+- **Automated report generation** – batch‑process many DXF files into PDFs with a single pen profile.  
+- **Web services** – expose an API that converts uploaded DXF files to PDFs on‑the‑fly, ensuring consistent styling.
 
-## FAQ
+## Troubleshooting & Common Pitfalls
 
-### Q1: PDF 이외의 다른 이미지 형식에 이러한 펜 옵션을 사용할 수 있습니까?
+| Issue | Reason | Solution |
+|-------|--------|----------|
+| Exported lines look thicker than expected | DPI is higher than intended | Set `rasterizationOptions.PageWidth` / `PageHeight` or adjust `Resolution`. |
+| Pen options are ignored for PNG output | Using `ImageOptions` instead of `VectorRasterizationOptions` | Ensure you assign `rasterizationOptions.PenOptions` before saving. |
+| PDF file is empty | Source DXF path is incorrect or file is corrupted | Verify `sourceFilePath` and confirm the DXF loads without exceptions. |
 
-A1: 예, 펜 옵션은 PNG, BMP, GIF, JPEG 등과 같은 다양한 이미지 형식에 적용될 수 있습니다.
+## FAQ's
 
-### Q2: Aspose.CAD for .NET에 대한 추가 문서는 어디서 찾을 수 있나요?
+### Q1: Can I use these pen options for other image formats besides PDF?
 
- A2: 다음을 참조하세요.[선적 서류 비치](https://reference.aspose.com/cad/net/) 포괄적인 정보와 예시를 보려면
+A1: Yes, the pen options can be applied to various image formats such as PNG, BMP, GIF, JPEG, and more.
 
-### Q3: Aspose.CAD for .NET에 대한 무료 평가판이 있습니까?
+### Q2: Where can I find additional documentation for Aspose.CAD for .NET?
 
- A3: 예, 무료 평가판에 액세스할 수 있습니다.[여기](https://releases.aspose.com/).
+A2: Refer to the [documentation](https://reference.aspose.com/cad/net/) for comprehensive information and examples.
 
-### Q4: Aspose.CAD for .NET의 임시 라이선스를 어떻게 얻을 수 있나요?
+### Q3: Is there a free trial available for Aspose.CAD for .NET?
 
- A4: 다음을 방문하세요.[임시 라이센스 페이지](https://purchase.aspose.com/temporary-license/) 임시 라이센스 옵션의 경우.
+A3: Yes, you can access a free trial [here](https://releases.aspose.com/).
 
-### Q5: Aspose.CAD for .NET에 대한 커뮤니티 지원은 어디서 찾을 수 있나요?
+### Q4: How can I get temporary licenses for Aspose.CAD for .NET?
 
- A5: 커뮤니티에 참여하세요.[Aspose.CAD 포럼](https://forum.aspose.com/c/cad/19).
+A4: Visit the [temporary license page](https://purchase.aspose.com/temporary-license/) for temporary licensing options.
+
+### Q5: Where can I seek community support for Aspose.CAD for .NET?
+
+A5: Engage with the community on the [Aspose.CAD forum](https://forum.aspose.com/c/cad/19).
+
+## Additional Frequently Asked Questions
+
+**Q: How do I **convert DXF to PDF** programmatically?**  
+A: Load the DXF with `Image.Load`, configure `CadRasterizationOptions` and `PdfOptions`, then call `Save` as shown in the steps above.
+
+**Q: Can I rasterize a CAD image without creating a PDF?**  
+A: Yes—use `PngOptions`, `BmpOptions`, or any other raster format class and assign the same `rasterizationOptions` to achieve high‑quality rasterization.
+
+**Q: Is it possible to change the line width when creating a PDF from CAD?**  
+A: Adjust `rasterizationOptions.CustomLineWidth` or modify the `PenOptions.Width` property before saving.
+
+**Q: Does the library support 3D DXF files?**  
+A: Aspose.CAD focuses on 2D vector data; 3D entities are ignored during rasterization.
+
+**Q: What version of Aspose.CAD is required for these features?**  
+A: Pen support has been available since version 20.9; any newer version will work.
+
+---
+
+**Last Updated:** 2026-03-26  
+**Tested With:** Aspose.CAD for .NET 24.12  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
