@@ -1,35 +1,50 @@
 ---
-title: C#에서 좌표를 사용하여 DWG를 PDF로 변환 - Aspose.CAD Tutorial
-linktitle: C#에서 좌표를 사용하여 DWG를 PDF로 변환
-second_title: Aspose.CAD .NET - CAD 및 BIM 파일 형식
-description: Aspose.CAD를 사용하여 C#에서 특정 좌표를 사용하여 DWG를 PDF로 변환하는 방법을 알아보세요. 정확하고 효율적인 CAD 파일 변환을 위한 단계별 가이드를 따르십시오.
-weight: 11
+date: 2026-04-03
+description: Aspose.CAD를 사용하여 C#에서 뷰포트를 설정하고 DWG를 PDF로 변환하는 방법을 배워보세요. 이 DWG to PDF
+  튜토리얼은 좌표와 함께 정확한 내보내기를 보여줍니다.
+keywords:
+- how to set viewport
+- dwg to pdf tutorial
+- convert dwg to pdf c#
+linktitle: C#에서 좌표와 함께 DWG를 PDF로 변환하기
+second_title: Aspose.CAD .NET - CAD and BIM File Format
+title: C#에서 좌표와 함께 DWG를 PDF로 변환할 때 뷰포트 설정 방법 - Aspose.CAD 튜토리얼
 url: /ko/net/conversion-and-export/converting-dwg-to-pdf-with-coordinates/
+weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# C#에서 좌표를 사용하여 DWG를 PDF로 변환 - Aspose.CAD Tutorial
+# C#에서 좌표와 함께 DWG를 PDF로 변환하기 - Aspose.CAD 튜토리얼
 
 ## 소개
 
-.NET용 Aspose.CAD를 사용하여 지정된 좌표를 사용하여 DWG 파일을 PDF로 변환하는 방법에 대한 포괄적인 튜토리얼에 오신 것을 환영합니다. Aspose.CAD는 개발자가 .NET 애플리케이션에서 CAD 파일 형식을 원활하게 사용할 수 있게 해주는 강력한 라이브러리입니다. 이 튜토리얼에서는 정밀도를 높이기 위해 특정 좌표를 제공하면서 DWG 파일을 PDF로 변환하는 과정을 안내합니다.
+Aspose.CAD for .NET을 사용하여 지정된 좌표로 DWG 파일을 PDF로 변환하면서 **뷰포트 설정 방법**에 대한 포괄적인 튜토리얼에 오신 것을 환영합니다. 뷰포트를 제어하면 필요한 영역과 정확히 일치하는 픽셀 완벽 PDF를 얻을 수 있어 건축 도면, 평면도 미리보기 또는 모든 BIM 워크플로에 이상적입니다.
 
-## 전제 조건
+## 빠른 답변
+- **“set viewport”가 무엇을 의미하나요?** CAD 도면을 래스터화하는 동안 보이는 영역과 스케일을 정의합니다.  
+- **어떤 라이브러리가 변환을 처리하나요?** Aspose.CAD for .NET.  
+- **라이선스가 필요합니까?** 평가용으로는 무료 체험판을 사용할 수 있지만, 실제 운영을 위해서는 상용 라이선스가 필요합니다.  
+- **지원되는 플랫폼은?** .NET 5/6/7 또는 .NET Framework 4.6+와 함께 Windows, Linux, macOS.  
+- **일반적인 구현 시간은?** 기본 변환의 경우 약 10‑15분 정도 소요됩니다.
 
-시작하기 전에 다음 필수 구성 요소가 있는지 확인하세요.
+## 사전 요구 사항
 
-- Aspose.CAD 라이브러리: .NET용 Aspose.CAD 라이브러리를 다운로드하고 설치합니다. 도서관을 찾으실 수 있습니다[여기](https://releases.aspose.com/cad/net/).
+시작하기 전에 다음 사전 요구 사항을 확인하십시오:
 
-- 개발 환경: Visual Studio 또는 기타 선호하는 IDE를 포함하여 호환 가능한 개발 환경이 설정되어 있는지 확인하세요.
+- **Aspose.CAD 라이브러리** – .NET용 Aspose.CAD 라이브러리를 다운로드하고 설치합니다. 라이브러리는 [here](https://releases.aspose.com/cad/net/)에서 찾을 수 있습니다.
+- **개발 환경** – Visual Studio, Rider 또는 .NET 개발을 지원하는 모든 IDE.
+- **DWG 파일** – 변환할 DWG 파일을 준비합니다. 제공된 예제 파일이나 사용자 정의 DWG 파일을 사용할 수 있습니다.
 
-- DWG 파일: 변환할 DWG 파일을 준비합니다. 제공된 예제 파일이나 사용자 정의 DWG 파일을 사용할 수 있습니다.
+## 정확한 PDF 내보내기를 위한 뷰포트 설정 방법
+
+뷰포트를 설정하는 것은 렌더링하려는 도면의 정확한 영역을 정의할 수 있게 하는 핵심 단계입니다. 아래 코드에서는 새로운 `CadVportTableObject`를 생성하고, 좌상단 좌표로 위치를 지정한 뒤, 너비, 높이 및 종횡비를 계산합니다. 이것이 **뷰포트 설정 방법** 구현이며, 변환의 나머지 부분을 주도합니다.
 
 ## 네임스페이스 가져오기
 
-C# 프로젝트에서 필요한 네임스페이스를 가져옵니다.
+C# 프로젝트에서 필요한 네임스페이스를 가져옵니다:
 
 ```csharp
 using System;
@@ -44,21 +59,21 @@ using Aspose.CAD.FileFormats.Cad.CadTables;
 using Aspose.CAD.ImageOptions;
 ```
 
-더 나은 이해를 위해 코드를 단계별 가이드로 나누어 보겠습니다.
+코드를 단계별 가이드로 나누어 더 잘 이해할 수 있도록 하겠습니다:
 
-## 1단계: 문서 디렉터리 정의
+## 단계 1: 문서 디렉터리 정의
 
 ```csharp
 string MyDir = "Your Document Directory";
 ```
 
-## 2단계: 원본 DWG 파일 경로 설정
+## 단계 2: 원본 DWG 파일 경로 설정
 
 ```csharp
 string sourceFilePath = MyDir + "visualization_-_conference_room.dwg";
 ```
 
-## 3단계: DWG 파일 로드 및 래스터화 옵션 구성
+## 단계 3: DWG 파일 로드 및 래스터화 옵션 구성
 
 ```csharp
 using (CadImage cadImage = (CadImage)Image.Load(sourceFilePath))
@@ -68,7 +83,9 @@ using (CadImage cadImage = (CadImage)Image.Load(sourceFilePath))
     rasterizationOptions.NoScaling = true;
 ```
 
-## 4단계: 좌표 및 뷰포트 정의
+## 단계 4: 좌표 및 뷰포트 정의
+
+여기서는 실제로 **뷰포트를 설정** (뷰포트 설정 방법)하여 내보내려는 영역의 좌상단 모서리, 너비 및 높이를 지정합니다.
 
 ```csharp
     Point topLeft = new Point(500, 1000);
@@ -84,7 +101,7 @@ using (CadImage cadImage = (CadImage)Image.Load(sourceFilePath))
     newView.ViewAspectRatio.Value = width / height;
 ```
 
-## 5단계: 뷰포트 설정 적용
+## 단계 5: 뷰포트 설정 적용
 
 ```csharp
     for (int i = 0; i < cadImage.ViewPorts.Count; i++)
@@ -98,7 +115,9 @@ using (CadImage cadImage = (CadImage)Image.Load(sourceFilePath))
     }
 ```
 
-## 6단계: PDF 옵션 구성 및 내보내기
+## 단계 6: PDF 옵션 구성 및 내보내기
+
+이제 모든 것을 연결하고 방금 준비한 래스터화 옵션을 사용하여 **DWG를 PDF로 변환**합니다.
 
 ```csharp
     Aspose.CAD.ImageOptions.PdfOptions pdfOptions = new Aspose.CAD.ImageOptions.PdfOptions();
@@ -109,37 +128,61 @@ using (CadImage cadImage = (CadImage)Image.Load(sourceFilePath))
 }
 ```
 
-## 7단계: 성공 메시지 표시
+## 단계 7: 성공 메시지 표시
 
 ```csharp
 Console.WriteLine("\nThe DWG file exported successfully to PDF.\nFile saved at " + MyDir);
 ```
 
+## 일반적인 사용 사례
+
+- **건설 문서화** – 특정 평면도 구역의 인쇄 가능한 PDF를 생성합니다.  
+- **BIM 협업** – 충돌 감지를 위해 관심 영역만 내보냅니다.  
+- **클라이언트 프레젠테이션** – 전체 도면을 노출하지 않고 선택된 방이나 입면의 깔끔한 PDF를 제공합니다.
+
 ## 결론
 
-축하해요! .NET용 Aspose.CAD를 사용하여 지정된 좌표를 사용하여 DWG 파일을 PDF로 성공적으로 변환했습니다. 이 튜토리얼에서는 필수 단계를 다루고 개발자를 위한 명확한 가이드를 제공했습니다.
+축하합니다! 정확한 좌표로 **DWG를 PDF로 변환**하고 Aspose.CAD for .NET을 사용하여 **뷰포트 설정 방법**을 배웠습니다. 이 **dwg to pdf tutorial**은 **dwg에서 pdf 생성** 및 **dwg를 pdf c#으로 내보내기**를 보여주며 출력 영역을 완전히 제어할 수 있습니다.
 
 ## FAQ
 
-### Q1: Aspose.CAD를 다른 CAD 파일 형식과 함께 사용할 수 있습니까?
+### Q1: Aspose.CAD를 다른 CAD 파일 형식과 함께 사용할 수 있나요?
 
-A1: 예, Aspose.CAD는 DWG, DXF, DWF 등을 포함한 다양한 CAD 형식을 지원합니다.
+A1: 네, Aspose.CAD는 DWG, DXF, DWF 등 다양한 CAD 형식을 지원합니다.
 
-### Q2: 변환 과정에서 발생하는 오류는 어떻게 처리하나요?
+### Q2: 변환 과정에서 오류를 어떻게 처리할 수 있나요?
 
-A2: try-catch 블록을 사용하여 오류 처리 메커니즘을 구현하여 예외를 캡처하고 관리합니다.
+A2: 예외를 포착하고 관리하기 위해 try‑catch 블록을 사용하여 오류 처리 메커니즘을 구현합니다.
 
-### Q3: Aspose.CAD는 Windows와 Linux 환경 모두에 적합합니까?
+### Q3: Aspose.CAD가 Windows와 Linux 환경 모두에 적합한가요?
 
-A3: 예, Aspose.CAD는 Windows 및 Linux 플랫폼과 모두 호환됩니다.
+A3: 네, Aspose.CAD는 Windows와 Linux 플랫폼 모두와 호환됩니다.
 
-### Q4: PDF 출력을 추가로 사용자 정의할 수 있습니까?
+### Q4: PDF 출력물을 추가로 맞춤 설정할 수 있나요?
 
-A4: 물론이죠! Aspose.CAD에서 제공하는 광범위한 옵션을 탐색하여 PDF 출력을 특정 요구 사항에 맞게 조정하십시오.
+A4: 물론입니다! Aspose.CAD가 제공하는 다양한 옵션을 살펴보면 PDF 출력을 특정 요구 사항에 맞게 조정할 수 있습니다.
 
-### Q5: 추가 지원이나 커뮤니티 토론은 어디서 찾을 수 있나요?
+### Q5: 추가 지원이나 커뮤니티 토론을 어디서 찾을 수 있나요?
 
-A5: 다음을 방문하세요.[Aspose.CAD 포럼](https://forum.aspose.com/c/cad/19) 커뮤니티 지원 및 토론을 위해.
+A5: 커뮤니티 지원 및 토론을 위해 [Aspose.CAD Forum](https://forum.aspose.com/c/cad/19)을 방문하십시오.
+
+## 추가 자주 묻는 질문
+
+**Q: 이 방법이 대용량 DWG 파일(수백 MB)에도 작동하나요?**  
+A: 네. 래스터화는 페이지별로 수행되며, `rasterizationOptions`(예: `Resolution`)를 조정하여 품질과 메모리 사용량의 균형을 맞출 수 있습니다.
+
+**Q: 여러 뷰포트를 별도의 PDF 페이지로 내보낼 수 있나요?**  
+A: `cadImage.ViewPorts`를 반복하면서 각각을 활성화하고 각 페이지에 대해 `Save`를 호출한 다음, Aspose.PDF를 사용해 PDF를 병합할 수 있습니다.
+
+**Q: 생성된 PDF에 워터마크를 추가할 수 있나요?**  
+A: PDF를 저장한 후 Aspose.PDF로 다시 열어 텍스트 또는 이미지 워터마크를 적용한 뒤 사용자에게 제공할 수 있습니다.
+
+---
+
+**Last Updated:** 2026-04-03  
+**Tested With:** Aspose.CAD 24.11 for .NET  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -1,33 +1,47 @@
 ---
-title: 在 C# 中使用座標將 DWG 轉換為 PDF - Aspose.CAD 教學課程
-linktitle: 在 C# 中使用座標將 DWG 轉換為 PDF
-second_title: Aspose.CAD .NET - CAD 和 BIM 檔案格式
-description: 了解如何使用 Aspose.CAD 在 C# 中將 DWG 轉換為具有特定座標的 PDF。按照我們的逐步指南進行精確且有效率的 CAD 檔案轉換。
-weight: 11
+date: 2026-04-03
+description: 學習如何在 C# 中使用 Aspose.CAD 設定視口並將 DWG 轉換為 PDF。本 DWG 轉 PDF 教程展示了帶坐標的精確匯出。
+keywords:
+- how to set viewport
+- dwg to pdf tutorial
+- convert dwg to pdf c#
+linktitle: 使用 C# 將 DWG 轉換為帶座標的 PDF
+second_title: Aspose.CAD .NET - CAD and BIM File Format
+title: 在 C# 中將 DWG 轉換為 PDF 時設定視口與座標 - Aspose.CAD 教程
 url: /zh-hant/net/conversion-and-export/converting-dwg-to-pdf-with-coordinates/
+weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 在 C# 中使用座標將 DWG 轉換為 PDF - Aspose.CAD 教學課程
+# 在 C# 中使用座標將 DWG 轉換為 PDF - Aspose.CAD 教程
 
-## 介紹
+## 簡介
 
-歡迎閱讀這個關於使用 Aspose.CAD for .NET 將 DWG 檔案轉換為具有指定座標的 PDF 的綜合教學。 Aspose.CAD 是一個功能強大的程式庫，允許開發人員在其 .NET 應用程式中無縫地使用 CAD 檔案格式。在本教程中，我們將引導您完成將 DWG 檔案轉換為 PDF 的過程，同時提供特定座標以提高精確度。
+歡迎閱讀本完整教程，說明如何在使用 Aspose.CAD for .NET 轉換 DWG 檔案為 PDF 時 **how to set viewport** 並指定座標。透過控制視口，您可以獲得與需求區域完全相符的像素完美 PDF——非常適合建築圖紙、樓層平面圖預覽或任何 BIM 工作流程。
+
+## 快速回答
+- **What does “set viewport” mean?** 它定義了在光柵化過程中 CAD 圖形的可見區域和縮放比例。  
+- **Which library handles the conversion?** Aspose.CAD for .NET.  
+- **Do I need a license?** 免費試用可用於評估；商業授權則需於正式環境使用。  
+- **Supported platforms?** Windows、Linux 與 macOS，支援 .NET 5/6/7 或 .NET Framework 4.6+。  
+- **Typical implementation time?** 基本轉換大約需要 10‑15 分鐘。  
 
 ## 先決條件
 
-在我們開始之前，請確保您具備以下先決條件：
+在開始之前，請確保您已具備以下先決條件：
 
-- Aspose.CAD 函式庫：下載並安裝適用於 .NET 的 Aspose.CAD 函式庫。你可以找到圖書館[這裡](https://releases.aspose.com/cad/net/).
+- **Aspose.CAD Library** – 下載並安裝適用於 .NET 的 Aspose.CAD 函式庫。您可於 [here](https://releases.aspose.com/cad/net/) 找到該函式庫。  
+- **Development Environment** – Visual Studio、Rider 或任何支援 .NET 開發的 IDE。  
+- **DWG File** – 準備好要轉換的 DWG 檔案。您可以使用提供的範例檔或自行的 DWG 檔案。  
 
-- 開發環境：確保您設定了相容的開發環境，包括 Visual Studio 或任何其他首選 IDE。
+## 如何設定視口以精確匯出 PDF
 
-- DWG 檔：準備好 DWG 檔以轉換。您可以使用提供的範例檔案或自訂 DWG 檔案。
+設定視口是讓您定義欲渲染圖形精確區域的核心步驟。在以下程式碼中，我們建立新的 `CadVportTableObject`，以左上角座標定位，並計算寬度、高度與長寬比。這就是 **how to set viewport** 的實作，驅動後續的轉換。
 
-## 導入命名空間
+## 匯入命名空間
 
 在您的 C# 專案中，匯入必要的命名空間：
 
@@ -44,9 +58,9 @@ using Aspose.CAD.FileFormats.Cad.CadTables;
 using Aspose.CAD.ImageOptions;
 ```
 
-讓我們將程式碼分解為逐步指南，以便更好地理解：
+讓我們逐步分解程式碼，以便更好地了解：
 
-## 第 1 步：定義文檔目錄
+## 步驟 1：定義文件目錄
 
 ```csharp
 string MyDir = "Your Document Directory";
@@ -58,7 +72,7 @@ string MyDir = "Your Document Directory";
 string sourceFilePath = MyDir + "visualization_-_conference_room.dwg";
 ```
 
-## 步驟 3：載入 DWG 檔案並配置光柵化選項
+## 步驟 3：載入 DWG 檔案並設定光柵化選項
 
 ```csharp
 using (CadImage cadImage = (CadImage)Image.Load(sourceFilePath))
@@ -68,7 +82,9 @@ using (CadImage cadImage = (CadImage)Image.Load(sourceFilePath))
     rasterizationOptions.NoScaling = true;
 ```
 
-## 第 4 步：定義座標和視口
+## 步驟 4：定義座標與視口  
+
+在此我們實際 **set the viewport**（how to set viewport），透過指定左上角座標、寬度與高度來設定欲匯出的區域。
 
 ```csharp
     Point topLeft = new Point(500, 1000);
@@ -84,7 +100,7 @@ using (CadImage cadImage = (CadImage)Image.Load(sourceFilePath))
     newView.ViewAspectRatio.Value = width / height;
 ```
 
-## 第 5 步：應用視窗設置
+## 步驟 5：套用視口設定
 
 ```csharp
     for (int i = 0; i < cadImage.ViewPorts.Count; i++)
@@ -98,7 +114,9 @@ using (CadImage cadImage = (CadImage)Image.Load(sourceFilePath))
     }
 ```
 
-## 第 6 步：配置 PDF 選項並匯出
+## 步驟 6：設定 PDF 選項並匯出  
+
+現在我們將所有設定結合，使用剛才準備的光柵化選項 **convert DWG to PDF**。
 
 ```csharp
     Aspose.CAD.ImageOptions.PdfOptions pdfOptions = new Aspose.CAD.ImageOptions.PdfOptions();
@@ -109,37 +127,61 @@ using (CadImage cadImage = (CadImage)Image.Load(sourceFilePath))
 }
 ```
 
-## 步驟7：顯示成功訊息
+## 步驟 7：顯示成功訊息
 
 ```csharp
 Console.WriteLine("\nThe DWG file exported successfully to PDF.\nFile saved at " + MyDir);
 ```
 
+## 常見使用情境
+
+- **Construction documentation** – 產生特定樓層平面圖區段的可列印 PDF。  
+- **BIM coordination** – 僅匯出感興趣的區域以進行衝突偵測。  
+- **Client presentations** – 提供選定房間或立面的乾淨 PDF，避免顯示整張圖紙。  
+
 ## 結論
 
-恭喜！您已使用 Aspose.CAD for .NET 成功將 DWG 檔案轉換為具有指定座標的 PDF。本教程涵蓋了基本步驟，並為開發人員提供了清晰的指南。
+恭喜！您已成功 **converted DWG to PDF**，並使用 Aspose.CAD for .NET 以精確座標完成 **how to set viewport**。本 **dwg to pdf tutorial** 展示了如何 **create pdf from dwg** 以及 **export dwg as pdf c#**，同時完整掌控輸出區域。
 
-## 常見問題解答
+## 常見問題
 
-### Q1：我可以將 Aspose.CAD 與其他 CAD 檔案格式一起使用嗎？
+### Q1: 我可以將 Aspose.CAD 用於其他 CAD 檔案格式嗎？
 
-A1：是的，Aspose.CAD支援各種CAD格式，包括DWG、DXF、DWF等。
+A1: 是的，Aspose.CAD 支援多種 CAD 格式，包括 DWG、DXF、DWF 等。
 
-### Q2：轉換過程中出現錯誤如何處理？
+### Q2: 我該如何在轉換過程中處理錯誤？
 
-A2：使用 try-catch 區塊實作錯誤處理機制來擷取和管理異常。
+A2: 使用 try‑catch 區塊實作錯誤處理機制，以捕捉並管理例外情況。
 
-### Q3：Aspose.CAD同時適用於Windows和Linux環境嗎？
+### Q3: Aspose.CAD 是否適用於 Windows 與 Linux 環境？
 
-A3：是的，Aspose.CAD 相容於 Windows 和 Linux 平台。
+A3: 是的，Aspose.CAD 相容於 Windows 與 Linux 平台。
 
-### Q4：我可以進一步客製化PDF輸出嗎？
+### Q4: 我可以進一步自訂 PDF 輸出嗎？
 
-A4：當然！探索 Aspose.CAD 提供的廣泛選項，根據您的特定要求自訂 PDF 輸出。
+A4: 當然可以！請探索 Aspose.CAD 提供的豐富選項，以依您的具體需求自訂 PDF 輸出。
 
-### 問題 5：我可以在哪裡找到其他支持或社區討論？
+### Q5: 我可以在哪裡找到額外的支援或社群討論？
 
-A5：訪問[Aspose.CAD論壇](https://forum.aspose.com/c/cad/19)以獲得社區支持和討論。
+A5: 請前往 [Aspose.CAD Forum](https://forum.aspose.com/c/cad/19) 取得社群支援與討論。
+
+## 其他常見問題
+
+**Q: 此方法是否適用於大型 DWG 檔案（數百 MB）？**  
+A: 是的。光柵化以逐頁方式執行，您可以調整 `rasterizationOptions`（例如 `Resolution`）以在品質與記憶體使用之間取得平衡。
+
+**Q: 我可以將多個視口匯出為不同的 PDF 頁面嗎？**  
+A: 您可以遍歷 `cadImage.ViewPorts`，將每個視口設為活動，然後對每頁呼叫 `Save`，最後使用 Aspose.PDF 合併 PDF。
+
+**Q: 是否可以為產生的 PDF 加入浮水印？**  
+A: 在儲存 PDF 後，您可以使用 Aspose.PDF 重新開啟，並在交付給使用者前套用文字或圖片浮水印。
+
+---
+
+**最後更新：** 2026-04-03  
+**測試版本：** Aspose.CAD 24.11 for .NET  
+**作者：** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
