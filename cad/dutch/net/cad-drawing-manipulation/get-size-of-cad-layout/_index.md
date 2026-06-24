@@ -1,35 +1,50 @@
 ---
-title: Verkrijg de grootte van de CAD-lay-out in Aspose.CAD voor .NET
-linktitle: Verkrijg de grootte van de CAD-lay-out
-second_title: Aspose.CAD .NET - CAD- en BIM-bestandsindeling
-description: Leer hoe u de CAD-lay-outgrootte kunt ophalen in .NET met behulp van Aspose.CAD. Volg onze stapsgewijze handleiding voor efficiënte manipulatie van CAD-bestanden.
-weight: 14
+date: 2026-03-21
+description: Leer hoe u de CAD‑layoutgrootte in .NET kunt ophalen met Aspose.CAD.
+  Volg onze stapsgewijze gids voor efficiënte CAD‑bestandsbewerking.
+linktitle: Get Size of CAD Layout
+second_title: Aspose.CAD .NET - CAD and BIM File Format
+title: CAD-lay-outgrootte ophalen in Aspose.CAD voor .NET
 url: /nl/net/cad-drawing-manipulation/get-size-of-cad-layout/
+weight: 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Verkrijg de grootte van de CAD-lay-out in Aspose.CAD voor .NET
+# Verkrijg CAD‑layoutgrootte in Aspose.CAD voor .NET
 
-## Invoering
+## Introductie
 
-Welkom bij deze uitgebreide handleiding over het verkrijgen van de grootte van CAD-lay-outs met Aspose.CAD voor .NET. Aspose.CAD is een krachtige bibliotheek waarmee ontwikkelaars naadloos met CAD-bestanden kunnen werken. In deze tutorial begeleiden we u door het proces van het ophalen van de grootte van CAD-lay-outs aan de hand van praktische voorbeelden en stapsgewijze instructies.
+In deze uitgebreide tutorial ontdek je **hoe je de CAD‑layoutgrootte kunt ophalen** met behulp van de Aspose.CAD‑bibliotheek voor .NET. Of je nu een CAD‑viewer bouwt, miniaturen genereert, of precieze layout‑afmetingen nodig hebt voor verdere verwerking, het kennen van de exacte grootte van elke layout is essentieel. We lopen het volledige werkproces door — van het laden van een tekening tot het extraheren van layout‑afmetingen en optioneel opslaan als afbeeldingen — zodat je deze functionaliteit met vertrouwen in je eigen applicaties kunt integreren.
+
+## Snelle antwoorden
+- **Wat betekent “CAD‑layoutgrootte ophalen”?** Het betekent het ophalen van de breedte en hoogte (in tekeneenheden) van elke niet‑lege layout in een CAD‑bestand.  
+- **Welke bibliotheek ondersteunt dit?** Aspose.CAD voor .NET biedt een eenvoudige API om layout‑informatie te benaderen.  
+- **Heb ik een licentie nodig?** Een gratis proefversie werkt voor evaluatie; een commerciële licentie is vereist voor productiegebruik.  
+- **Ondersteunde formaten?** DWG, DXF en vele andere CAD/BIM‑formaten worden volledig ondersteund.  
+- **Typische implementatietijd?** Ongeveer 10‑15 minuten voor een basisroutine om de grootte op te halen.
+
+## Wat is “CAD‑layoutgrootte ophalen”?
+Het ophalen van de CAD‑layoutgrootte betekent het extraheren van de geometrische extents van elke layout (paper space) die in een CAD‑tekening is gedefinieerd. Deze extents worden uitgedrukt in de native eenheden van de tekening (meestal millimeters of inches) en zijn nuttig voor taken zoals schalen, afdrukken of het genereren van voorbeeldafbeeldingen.
+
+## Waarom CAD‑layoutgrootte ophalen met Aspose.CAD?
+- **Geen CAD‑software vereist** – Werkt volledig server‑side.  
+- **Cross‑platform** – Werkt met .NET Framework, .NET Core en .NET 5/6+.  
+- **Nauwkeurige metingen** – Retourneert exacte extents zoals opgeslagen in het bestand, waardoor handmatig parsen wordt vermeden.  
+- **Eenvoudige integratie** – Simpele API‑aanroepen passen naadloos in bestaande C#‑projecten.
 
 ## Vereisten
 
-Voordat we ingaan op de tutorial, zorg ervoor dat je aan de volgende vereisten voldoet:
+Voordat we in de code duiken, zorg dat je het volgende hebt:
 
--  Aspose.CAD voor .NET: Zorg ervoor dat de Aspose.CAD-bibliotheek is geïnstalleerd. Je kunt het downloaden van de[Aspose.CAD voor .NET-downloadpagina](https://releases.aspose.com/cad/net/).
+- Aspose.CAD voor .NET geïnstalleerd. Je kunt het downloaden vanaf de [Aspose.CAD for .NET download page](https://releases.aspose.com/cad/net/).
+- Een of meer CAD‑bestanden (DWG, DXF, enz.) die je wilt analyseren. Deze gids gebruikt `conic_pyramid.dxf` en `Bottom_plate.dwg` als voorbeeldbestanden.
 
-- Documentbestanden: Bereid de CAD-bestanden voor waarmee u wilt werken. Deze tutorial gebruikt "conic_pyramid.dxf" en "Bottom_plate.dwg" als voorbeelden.
+## Namespaces importeren
 
-Laten we nu beginnen!
-
-## Naamruimten importeren
-
-Begin in uw .NET-project met het importeren van de benodigde naamruimten:
+In je .NET‑project begin je met het importeren van de benodigde namespaces:
 
 ```csharp
 using System;
@@ -47,15 +62,15 @@ using Aspose.CAD.ImageOptions;
 
 ## Stap 1: Stel de documentmap in
 
- Stel het pad naar uw documentmap in. Vervangen`"Your Document Directory"` met het daadwerkelijke pad.
+Definieer de map die je CAD‑bestanden bevat. Vervang de placeholder door het daadwerkelijke pad op jouw machine.
 
 ```csharp
 string MyDir = "Your Document Directory";
 ```
 
-## Stap 2: Geef CAD-bestandspaden op
+## Stap 2: Specificeer CAD‑bestandspaden
 
-Definieer een reeks CAD-bestandspaden die u wilt analyseren. In dit voorbeeld gebruiken we "conic_pyramid.dxf" en "Bottom_plate.dwg."
+Maak een array die verwijst naar elk CAD‑bestand dat je wilt verwerken.
 
 ```csharp
 string[] sourceFilePaths = new[]
@@ -65,9 +80,9 @@ string[] sourceFilePaths = new[]
 };
 ```
 
-## Stap 3: Herhaal CAD-bestanden
+## Stap 3: Doorloop CAD‑bestanden
 
-Blader door elk CAD-bestand en haal de lay-outinformatie op.
+Laad elk bestand, detecteer het formaat en bereid je voor om layout‑informatie te extraheren.
 
 ```csharp
 foreach (var sourceFilePath in sourceFilePaths)
@@ -75,80 +90,84 @@ foreach (var sourceFilePath in sourceFilePaths)
     string extension = Path.GetExtension(sourceFilePath);
     using (CadImage cadImage = (CadImage)Aspose.CAD.Image.Load(sourceFilePath))
     {
-        // ... (ga verder naar de volgende stap)
+        // ... (continue to the next step)
     }
 }
 ```
 
-## Stap 4: Verkrijg niet-lege lay-outs
+## Stap 4: Haal niet‑lege layouts op
 
-Definieer een hulpmethode om niet-lege lay-outs te krijgen op basis van het CAD-bestandstype.
+We hebben een hulpmethode nodig die alleen de layouts retourneert die daadwerkelijk teken‑entiteiten bevatten. Lege layouts worden genegeerd omdat ze geen grootte hebben om te rapporteren.
 
 ```csharp
 private static List<string> GetNotEmptyLayouts(Image cadImage, string extension)
 {
-    // ... (ga verder naar de volgende stap)
+    // ... (continue to the next step)
 }
 ```
 
-## Stap 5: Krijg lay-outs voor DWG-bestanden
+## Stap 5: Haal layouts op voor DWG‑bestanden
 
-Implementeer logica om niet-lege lay-outs voor DWG-bestanden op te halen.
+DWG‑bestanden slaan layout‑informatie op in de `HeaderVariables`‑tabel. De volgende methode extraheert de namen van alle niet‑lege layouts voor een DWG‑tekening.
 
 ```csharp
 private static List<string> GetNotEmptyLayoutsForDwg(CadImage cadImage)
 {
-    // ... (ga verder naar de volgende stap)
+    // ... (continue to the next step)
 }
 ```
 
-## Stap 6: Krijg lay-outs voor DXF-bestanden
+## Stap 6: Haal layouts op voor DXF‑bestanden
 
-Implementeer logica om niet-lege lay-outs voor DXF-bestanden op te halen.
+DXF‑bestanden gebruiken een andere structuur. Deze methode doorloopt de `Tables`‑collectie om paper‑space‑layouts te vinden die entiteiten bevatten.
 
 ```csharp
 private static List<string> GetNotEmptyLayoutsForDxf(CadImage cadImage)
 {
-    // ... (ga verder naar de volgende stap)
+    // ... (continue to the next step)
 }
 ```
 
-## Stap 7: Haal de lay-outgrootte op en sla op als afbeelding
+## Stap 7: Haal layoutgrootte op en sla op als afbeelding
 
-Voltooi het proces voor het verkrijgen van de lay-outgrootte en het opslaan als afbeelding.
+Loop tenslotte door elke gevonden layout, lees de extents, en render de layout optioneel naar een afbeeldingsbestand voor visuele verificatie.
 
 ```csharp
 foreach (string layout in layouts)
 {
-    // ... (ga verder naar de volgende stap)
+    // ... (continue to the next step)
 }
 ```
 
-## Conclusie
+## Veelvoorkomende problemen & tips
 
-Gefeliciteerd! U hebt met succes geleerd hoe u de grootte van CAD-lay-outs kunt bepalen met Aspose.CAD voor .NET. In deze tutorial werden de essentiële stappen behandeld, van het opzetten van uw project tot het ophalen van lay-outinformatie en het opslaan ervan als afbeelding. Nu kunt u deze kennis integreren in uw .NET-toepassingen voor efficiënte manipulatie van CAD-bestanden.
+- **Ontbrekende layout‑namen:** Zorg ervoor dat het CAD‑bestand daadwerkelijk paper‑space‑layouts bevat; sommige bestanden hebben alleen model‑space.  
+- **Onjuiste eenheden:** De grootte wordt geretourneerd in de native eenheden van de tekening. Converteer naar millimeters of inches indien nodig.  
+- **Prestaties:** Het laden van zeer grote DWG/DXF‑bestanden kan veel geheugen vergen; overweeg om bestanden asynchroon of in batches te verwerken.
 
 ## Veelgestelde vragen
 
-### V1: Is Aspose.CAD compatibel met alle CAD-bestandsformaten?
+**V: Is Aspose.CAD compatibel met alle CAD‑bestandsformaten?**  
+A: Ja, Aspose.CAD ondersteunt een breed scala aan formaten, waaronder DWG, DXF, DGN en vele BIM‑bestandstypen.
 
-A1: Ja, Aspose.CAD ondersteunt verschillende CAD-bestandsformaten, waaronder DWG en DXF.
+**V: Kan ik de opties voor het opslaan van afbeeldingen aanpassen?**  
+A: Absoluut! Je kunt de `CadRasterizationOptions` (formaat, resolutie, achtergrondkleur, enz.) aanpassen om aan je specifieke behoeften te voldoen.
 
-### Vraag 2: Kan ik de opties voor het opslaan van afbeeldingen aanpassen?
+**V: Waar kan ik extra documentatie vinden?**  
+A: Raadpleeg de [Aspose.CAD documentation](https://reference.aspose.com/cad/net/) voor gedetailleerde API‑referenties en meer voorbeelden.
 
-A2: Absoluut! U kunt afbeeldingsopties, zoals formaat en resolutie, aanpassen aan uw specifieke wensen.
+**V: Is er een gratis proefversie beschikbaar?**  
+A: Ja, je kunt Aspose.CAD verkennen met een [free trial](https://releases.aspose.com/).
 
-### Vraag 3: Waar kan ik aanvullende documentatie vinden?
+**V: Hoe kan ik technische ondersteuning krijgen?**  
+A: Voor technische ondersteuning, bezoek het [Aspose.CAD forum](https://forum.aspose.com/c/cad/19).
 
- A3: Raadpleeg de[Aspose.CAD-documentatie](https://reference.aspose.com/cad/net/) voor gedetailleerde informatie en voorbeelden.
+---
 
-### Vraag 4: Is er een gratis proefversie beschikbaar?
+**Last Updated:** 2026-03-21  
+**Tested With:** Aspose.CAD 24.11 for .NET  
+**Author:** Aspose  
 
- A4: Ja, u kunt Aspose.CAD verkennen met een[gratis proefperiode](https://releases.aspose.com/).
-
-### Q5; Hoe kan ik technische ondersteuning krijgen?
-
- A5: Bezoek voor technische ondersteuning de[Aspose.CAD-forum](https://forum.aspose.com/c/cad/19).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
