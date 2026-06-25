@@ -1,8 +1,8 @@
 ---
-date: 2025-12-10
-description: Erfahren Sie, wie Sie mit Aspose.CAD für Java PDFs aus CAD erstellen
-  und dabei die Stiftanpassung nutzen. Diese Schritt‑für‑Schritt‑Anleitung zeigt,
-  wie CAD effizient in PDF exportiert wird.
+date: 2026-02-15
+description: Erfahren Sie, wie Sie mit Aspose.CAD für Java und Stiftanpassung PDFs
+  aus CAD erstellen. Diese Schritt‑für‑Schritt‑Anleitung zeigt, wie Sie CAD effizient
+  in PDF exportieren.
 linktitle: Pen Support in Export
 second_title: Aspose.CAD Java API
 title: Wie man aus CAD ein PDF mit Stiftunterstützung beim Export erstellt
@@ -14,34 +14,37 @@ weight: 13
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Stiftunterstützung beim Export
+# Pen Support in Export
 
-## Einleitung
+## Introduction
 
-In der schnelllebigen Welt der CAD‑Konvertierungen müssen Entwickler häufig **PDF aus CAD**‑Dateien erstellen und dabei die visuelle Treue bewahren. Aspose.CAD für Java macht das unkompliziert und bietet umfangreiche Optionen wie die Stiftanpassung, mit der Sie Linienstile beim Exportvorgang feinjustieren können. In diesem Leitfaden führen wir Sie durch ein vollständiges, praxisnahes Beispiel, das zeigt, wie Sie **CAD nach PDF** mit benutzerdefinierten Stifteinstellungen exportieren, sodass Sie polierte PDFs direkt aus DXF‑Zeichnungen erzeugen können.
+In der schnelllebigen Welt der CAD-Konvertierungen müssen Entwickler häufig **PDF aus CAD**-Dateien erstellen, wobei die visuelle Treue erhalten bleibt. Aspose.CAD für Java macht das unkompliziert und bietet umfangreiche Optionen wie die Stiftanpassung, mit der Sie Linienstile während des Exportvorgangs feinabstimmen können. In diesem Leitfaden führen wir Sie durch ein vollständiges, praxisnahes Beispiel, das zeigt, wie man **CAD nach PDF** mit benutzerdefinierten Stifteinstellungen exportiert, sodass Sie polierte PDFs direkt aus DXF-Zeichnungen erzeugen können.
 
-## Schnelle Antworten
-- **Was bedeutet „PDF aus CAD erstellen“?** Konvertieren einer CAD‑Zeichnung (z. B. DXF) in ein PDF‑Dokument bei gleichbleibender Vektorqualität.  
+## Quick Answers
+- **Was bedeutet „PDF aus CAD erstellen“?** Umwandlung einer CAD-Zeichnung (z. B. DXF) in ein PDF-Dokument bei Beibehaltung der Vektorqualität.  
 - **Welche Bibliothek übernimmt die Stiftanpassung?** Die `PenOptions`‑Klasse von Aspose.CAD für Java.  
 - **Kann ich das für andere Formate verwenden?** Ja – dieselben Stifteinstellungen gelten für PNG, BMP, TIFF usw.  
 - **Benötige ich eine Lizenz?** Für den Produktionseinsatz ist eine gültige Aspose.CAD‑Lizenz erforderlich.  
-- **Welche minimale Java‑Version wird benötigt?** Java 8 oder höher.
+- **Wie lautet die minimale Java-Version?** Java 8 oder höher.
 
-## Was bedeutet „PDF aus CAD erstellen“?
-Ein PDF aus CAD zu erstellen bedeutet, eine CAD‑Zeichnung entweder zu rasterisieren oder vektorrezu­rieren und in einer PDF‑Datei zu speichern. Das ermöglicht einfaches Teilen, Drucken und Archivieren von Konstruktionsdaten, ohne dass beim Empfänger CAD‑Software installiert sein muss.
+## What is “create PDF from CAD”?
+Creating a PDF from CAD means rasterizing or vector‑rendering a CAD drawing into a PDF file. This enables easy sharing, printing, and archival of engineering designs without requiring CAD software on the recipient’s side.
 
-## Warum Stiftunterstützung beim Export von CAD nach PDF nutzen?
-Mit der Stiftunterstützung können Sie Enden, Verbindungen und die Dicke von Linien steuern und so das Corporate‑Branding oder technische Zeichenstandards einhalten. Das ist besonders nützlich, wenn die Standard‑Liniendarstellung Ihre visuellen Anforderungen nicht erfüllt.
+## Why use pen support when exporting CAD to PDF?
+Pen support lets you control line caps, joins, and thickness, giving you the ability to match corporate branding or technical drawing standards. It’s especially useful when the default line rendering doesn’t meet your visual requirements.
 
-## Voraussetzungen
+## How to create pdf from cad – Step‑by‑step guide
+Below is a practical walkthrough that covers everything from setting up your environment to generating the final PDF. Follow each step, and you’ll have a ready‑to‑use solution for **export CAD to PDF** with full pen control.
 
-- **Java‑Entwicklungsumgebung** – ein funktionierendes JDK (8 oder neuer) sowie eine IDE oder ein Build‑Tool Ihrer Wahl.  
-- **Aspose.CAD‑Bibliothek** – laden Sie das aktuelle JAR von der offiziellen Seite [hier](https://releases.aspose.com/cad/java/) herunter.  
-- **Eine Beispiel‑DXF‑Datei** – für dieses Tutorial verwenden wir `conic_pyramid.dxf`.
+## Prerequisites
 
-Jetzt, wo wir die Grundlagen geschaffen haben, tauchen wir in den Code ein.
+- **Java-Entwicklungsumgebung** – ein funktionierendes JDK (8 oder neuer) und eine IDE oder ein Build‑Tool Ihrer Wahl.  
+- **Aspose.CAD-Bibliothek** – laden Sie das neueste JAR von der offiziellen Seite [here](https://releases.aspose.com/cad/java/) herunter.  
+- **Eine Beispiel-DXF-Datei** – für dieses Tutorial verwenden wir `conic_pyramid.dxf`.
 
-## Namespaces importieren
+Jetzt, da wir die Grundlagen geschaffen haben, tauchen wir in den Code ein.
+
+## Import Namespaces
 
 ```java
 import com.aspose.cad.Image;
@@ -53,24 +56,24 @@ import com.aspose.cad.imageoptions.PenOptions;
 import com.aspose.cad.internal.imaging.LineCap;
 ```
 
-## Schritt 1: Definieren Sie Ihr Dokumentenverzeichnis
+## Step 1: Define Your Document Directory
 
 ```java
 String dataDir = "Your Document Directory" + "CADConversion/";
 ```
 
-> **Pro Tipp:** Ersetzen Sie `"Your Document Directory"` durch den absoluten Pfad, in dem Ihre DXF‑Dateien liegen.
+> **Profi‑Tipp:** Ersetzen Sie `"Your Document Directory"` durch den absoluten Pfad, in dem Ihre DXF-Dateien liegen.
 
-## Schritt 2: Laden Sie die CAD‑Datei
+## Step 2: Load the CAD File
 
 ```java
 String srcFile = dataDir + "conic_pyramid.dxf";
 CadImage cadImage = (CadImage) Image.load(srcFile);
 ```
 
-Die Methode `Image.load` liest die DXF‑Datei ein und erzeugt ein `CadImage`‑Objekt, das wir weiterverarbeiten können.
+Die Methode `Image.load` liest die DXF-Datei ein und erzeugt ein `CadImage`-Objekt, das wir manipulieren können.
 
-## Schritt 3: Rasterisierungsoptionen konfigurieren
+## Step 3: Configure Rasterization Options
 
 ```java
 CadRasterizationOptions rasterizationOptions = new CadRasterizationOptions();
@@ -78,9 +81,9 @@ rasterizationOptions.setPageWidth(cadImage.getWidth() * 100);
 rasterizationOptions.setPageHeight(cadImage.getHeight() * 100);
 ```
 
-Passen Sie die Seitenabmessungen an, um die Auflösung des resultierenden PDFs zu steuern. Das Multiplizieren mit 100 liefert eine hochauflösende Ausgabe, die sich zum Druck eignet.
+Passen Sie die Seitengrößen an, um die Auflösung des resultierenden PDFs zu steuern. Die Multiplikation mit 100 liefert eine hochauflösende Ausgabe, die für den Druck geeignet ist.
 
-## Schritt 4: Stiftoptionen anpassen
+## Step 4: Customize Pen Options
 
 ```java
 PenOptions penOts = new PenOptions();
@@ -88,64 +91,64 @@ penOts.setStartCap(LineCap.Flat);
 penOts.setEndCap(LineCap.Flat);
 ```
 
-Hier setzen wir sowohl den Start‑ als auch den End‑Cap des Stifts auf `Flat`. Sie können mit anderen `LineCap`‑Werten (z. B. `Round`, `Square`) experimentieren, um unterschiedliche visuelle Effekte zu erzielen.
+Hier setzen wir sowohl den Start‑ als auch den End‑Cap des Stifts auf `Flat`. Sie können mit anderen `LineCap`-Werten (z. B. `Round`, `Square`) experimentieren, um unterschiedliche visuelle Effekte zu erzielen.
 
-## Schritt 5: PDF‑Exportoptionen konfigurieren
+## Step 5: Configure PDF Export Options
 
 ```java
 PdfOptions pdfOptions = new PdfOptions();
 pdfOptions.setVectorRasterizationOptions(rasterizationOptions);
 ```
 
-Das `PdfOptions`‑Objekt verknüpft die Rasterisierungseinstellungen mit dem PDF‑Exportprozess.
+Das Objekt `PdfOptions` verknüpft die Rasterisierungseinstellungen mit dem PDF-Exportvorgang.
 
-## Schritt 6: Exportiertes PDF speichern
+## Step 6: Save the Exported PDF
 
 ```java
 cadImage.save((dataDir + "9LHATT-A56_generated.pdf"), pdfOptions);
 ```
 
-Durch Ausführen dieser Zeile wird eine PDF‑Datei mit dem Namen `9LHATT-A56_generated.pdf` in Ihrem `dataDir`‑Ordner geschrieben, komplett mit der von Ihnen definierten benutzerdefinierten Stiftformatierung.
+Durch Ausführen dieser Zeile wird eine PDF-Datei namens `9LHATT-A56_generated.pdf` in Ihren `dataDir`-Ordner geschrieben, komplett mit der von Ihnen definierten benutzerdefinierten Stiftformatierung.
 
-## Häufige Anwendungsfälle
+## Common Use Cases
 
-- **Technische Dokumentation** – präzise Konstruktionszeichnungen in PDF‑Handbüchern einbetten.  
-- **Automatisierte Berichterstellung** – PDFs aus CAD‑Daten on‑the‑fly in Web‑Services generieren.  
-- **Qualitätskontrolle** – benutzerdefinierte Linienenden verwenden, um Messlinien oder Toleranzen hervorzuheben.
+- **Technische Dokumentation** – präzise Konstruktionszeichnungen in PDF-Handbüchern einbetten.  
+- **Automatisierte Berichterstellung** – PDFs aus CAD-Daten in Echtzeit in Web-Services erzeugen.  
+- **Qualitätskontrolle** – benutzerdefinierte Linienenden anwenden, um Messlinien oder Toleranzen hervorzuheben.
 
-## Fehlerbehebung & Tipps
+## Troubleshooting & Tips
 
-- **Falscher Dateipfad** – stellen Sie sicher, dass `dataDir` mit einem Dateiseparator endet (`/` oder `\\`).  
+- **Falscher Dateipfad** – stellen Sie sicher, dass `dataDir` mit einem Dateiseparator (`/` oder `\\`) endet.  
 - **Fehlende Lizenz** – ohne gültige Lizenz läuft die Bibliothek im Evaluierungsmodus, der Wasserzeichen hinzufügen kann.  
-- **Unerwartete Linienstile** – prüfen Sie, ob `PenOptions` vor dem Aufruf von `save` gesetzt wurden; sonst werden Standard‑Stifte verwendet.
+- **Unerwartete Linienstile** – prüfen Sie, dass `PenOptions` vor dem Aufruf von `save` gesetzt sind; andernfalls werden Standardwerte verwendet.
 
-## Häufig gestellte Fragen
+## Frequently Asked Questions
 
-### Q1: Kann ich Stiftoptionen für andere Formate als PDF anpassen?
+### Q1: Can I customize pen options for formats other than PDF?
 
-A1: Ja, die im Tutorial gezeigte Stiftanpassung ist auf verschiedene Bildformate anwendbar, darunter PDF, PNG, BMP, GIF, JPEG2000, JPEG, PSD, TIFF und WMF.
+A1: Yes, the pen customization demonstrated in this tutorial is applicable to various image formats, including PDF, PNG, BMP, GIF, JPEG2000, JPEG, PSD, TIFF, and WMF.
 
-### Q2: Wie kann ich unterschiedliche Start‑ und End‑Caps für Stifte festlegen?
+### Q2: How can I handle different start and end caps for pens?
 
-A2: Nutzen Sie die `PenOptions`‑Klasse, um die gewünschten Start‑ und End‑Caps zu setzen, was Ihnen Flexibilität bei der Darstellung von Linien gibt.
+A2: Utilize the `PenOptions` class to set the desired start and end caps, offering flexibility in defining the appearance of lines.
 
-### Q3: Was passiert, wenn ich keine Stiftoptionen angebe?
+### Q3: What if I don't specify pen options?
 
-A3: Ohne explizite Angabe verwendet das System seine Standard‑Stifte, die je nach Kontext variieren können.
+A3: If pen options are not explicitly set, the system will use its default pens, which may vary in different contexts.
 
-### Q4: Gibt es besondere Überlegungen zu den Rasterisierungsoptionen?
+### Q4: Are there specific considerations for rasterization options?
 
-A4: Passen Sie die Seitenbreite und -höhe in den Rasterisierungsoptionen an, um die Abmessungen des exportierten Bildes zu steuern.
+A4: Adjust the page width and height in the rasterization options to control the dimensions of the exported image.
 
-### Q5: Wo finde ich zusätzliche Unterstützung oder Community‑Diskussionen?
+### Q5: Where can I find additional support or community discussions?
 
-A5: Erkunden Sie das Aspose.CAD‑Community‑Forum unter [hier](https://forum.aspose.com/c/cad/19) für Support und Diskussionen.
+A5: Explore the Aspose.CAD community forum at [here](https://forum.aspose.com/c/cad/19) for support and discussions.
 
 ---
 
-**Zuletzt aktualisiert:** 2025-12-10  
-**Getestet mit:** Aspose.CAD 24.11 für Java  
-**Autor:** Aspose  
+**Last Updated:** 2026-02-15  
+**Tested With:** Aspose.CAD 24.11 for Java  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -1,11 +1,11 @@
 ---
-date: 2025-12-10
-description: Tanulja meg, hogyan konvertálhat CAD-et PDF-be az Aspose.CAD for Java
-  használatával, miközben beállítja a vászon méretét, az automatikus elrendezés méretezését,
-  és TIFF-be exportál.
-linktitle: Convert CAD to PDF – Set Canvas Size & Mode
+date: 2026-02-15
+description: Tanulja meg, hogyan állíthatja be a PDF oldalméretét, és konvertálhatja
+  a CAD-et PDF-be az Aspose.CAD for Java használatával, automatikus elrendezésméretezéssel
+  és TIFF exporttal.
+linktitle: Set PDF Page Size – Convert CAD to PDF
 second_title: Aspose.CAD Java API
-title: CAD konvertálása PDF-be – Vászonméret és mód beállítása (Java)
+title: PDF oldalméret beállítása – CAD konvertálása PDF‑be (Java)
 url: /hu/java/advanced-cad-features/set-canvas-size-and-mode/
 weight: 16
 ---
@@ -14,37 +14,41 @@ weight: 16
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Állítsa be a vászon méretét és módját
+# Vászonméret és mód beállítása
 
 ## Bevezetés
 
-Szeretne **CAD-et PDF-re konvertálni**, miközben teljes ellenőrzést gyakorol a vászon mérete és a renderelési mód felett? Ez az átfogó útmutató lépésről lépésre végigvezet a vászon méretének Java-ban történő beállításán, az automatikus elrendezés méretezés engedélyezésén, majd az eredmény PDF és TIFF formátumokba történő exportálásán az Aspose.CAD használatával. Akár egy gyártási folyamatot finomít, akár egy prototípussal kísérletezik, itt világos, gyakorlati útmutatót talál.
+Ha **PDF oldalméretet** kell beállítania CAD rajzok PDF‑re konvertálása közben, jó helyen jár. Ebben az útmutatóban megmutatjuk, hogyan használja az Aspose.CAD for Java‑t a pontos vászonméretek meghatározásához, az automatikus elrendezésméretezés engedélyezéséhez, majd az eredmény exportálásához PDF‑be és TIFF‑be. Akár nyomtatásra készülő mérnöki vázlatokat, akár webgaléria előnézeti képeket generál, az oldalméret és a kimeneti felbontás szabályozása elengedhetetlen.
 
 ## Gyors válaszok
-- **Mit jelent a “convert CAD to PDF”?** Egy CAD rajz (pl. DXF, DWG) PDF dokumentummá alakítása, amely bármely platformon megtekinthető.  
-- **Exportálhatok TIFF-be is?** Igen – használja a `TiffOptions`-t magas felbontású raszteres képek létrehozásához.  
-- **Melyik opció szabályozza a vászon méretét Java-ban?** `CadRasterizationOptions.setPageWidth/Height`.  
-- **Mi az automatikus elrendezés méretezés?** Egy jelző (`setAutomaticLayoutsScaling(true)`), amely a vászon méretének változása esetén megőrzi az eredeti elrendezés arányait.  
-- **Szükségem van licencre az Aspose.CAD-hez?** Ideiglenes vagy állandó licenc szükséges a termelési használathoz.
+- **Mit jelent a “convert CAD to PDF”?** Egy CAD rajz (pl. DXF, DWG) PDF‑dokumentummá alakítása, amely bármely platformon megtekinthető.  
+- **Exportálhatok TIFF‑be is?** Igen — használja a `TiffOptions`‑t magas felbontású raszteres képek létrehozásához.  
+- **Melyik opció vezérli a vászonméretet Java‑ban?** `CadRasterizationOptions.setPageWidth/Height`.  
+- **Mi az automatikus elrendezésméretezés?** Egy jelző (`setAutomaticLayoutsScaling(true)`), amely megőrzi az eredeti elrendezés arányait, amikor a vászonméret változik.  
+- **Szükségem van licencre az Aspose.CAD‑hez?** Ideiglenes vagy állandó licenc szükséges a termelési használathoz.
+
+## Hogyan állítsuk be a PDF oldalméretet CAD‑ról PDF‑re konvertáláskor (Java)
+
+A PDF oldalméret (vagy vászonméret) beállítása lehetővé teszi a dokumentum végső méreteinek meghatározását, ami különösen hasznos, ha a **PDF méreteket** nyomtatási szabványokhoz vagy UI‑követelményekhez kell igazítani. Az alábbiakban lépésről‑lépésre bemutatjuk, miért fontos minden kódsor.
 
 ## Mi a **convert CAD to PDF**?
 
-A CAD PDF-re konvertálása azt jelenti, hogy vektor‑alapú mérnöki rajzokat PDF oldalakká renderelünk, megőrizve a vonalakat, rétegeket és geometriát, miközben a fájlt univerzálisan hozzáférhetővé tesszük.
+A CAD‑ról PDF‑re konvertálás azt jelenti, hogy vektoralapú mérnöki rajzokat PDF‑oldalakká renderelünk, megőrizve a vonalakat, rétegeket és geometriát, miközben a fájlt univerzálisan elérhetővé tesszük.
 
-## Miért állítsuk be a vászon méretét **java**-ban?
+## Miért állítsuk be a vászonméretet **java**‑ban?
 
-A vászon méretének Java-ban történő beállítása lehetővé teszi a kimeneti felbontás és az oldal méretek meghatározását, biztosítva, hogy a létrejövő PDF vagy TIFF megfeleljen a nyomtatási vagy megjelenítési követelményeknek. Emellett szabályozhatja a méretezési viselkedést, ami nagyformátumú rajzok esetén elengedhetetlen.
+A vászonméret beállítása Java‑ban lehetővé teszi a kimeneti felbontás és az oldaldimenziók meghatározását, biztosítva, hogy a létrehozott PDF vagy TIFF megfeleljen a nyomtatási vagy megjelenítési követelményeknek. Emellett szabályozhatja a méretezési viselkedést, ami nagyformátumú rajzok esetén elengedhetetlen.
 
-## Előfeltételek
+## Előkövetelmények
 
-Mielőtt belemerülne a bemutatóba, győződjön meg arról, hogy a következő előfeltételek rendelkezésre állnak:
+Mielőtt elkezdené a gyakorlati példát, ellenőrizze, hogy a következő előfeltételek teljesülnek:
 
 - Aspose.CAD for Java: Győződjön meg róla, hogy az Aspose.CAD könyvtár telepítve van a Java környezetében. Letöltheti [itt](https://releases.aspose.com/cad/java/).
-- Dokumentum könyvtár: Hozzon létre egy könyvtárat a CAD fájlok tárolásához. Ez a könyvtár lesz hivatkozva a bemutató lépéseiben.
+- Dokumentumkönyvtár: Hozzon létre egy könyvtárat a CAD fájlok tárolására. Ez a könyvtár lesz hivatkozva a tutorial lépéseiben.
 
-Most kezdjük el a lépésről‑lépésre útmutatót.
+Most kezdjünk is hozzá a lépés‑ről‑lépésre útmutatóhoz.
 
-## Névterek importálása
+## Import Namespaces
 
 Ebben a lépésben importáljuk a szükséges névtereket, hogy elindítsuk az Aspose.CAD projektet.
 
@@ -67,9 +71,9 @@ String srcFile = dataDir + "conic_pyramid.dxf";
 com.aspose.cad.Image objImage = com.aspose.cad.Image.load(srcFile);
 ```
 
-Ebben a kódrészletben beállítjuk az erőforrás könyvtár elérési útját, és betöltünk egy DXF fájlt az Aspose.CAD `Image` osztályával.
+Ebben a kódrészletben beállítjuk az erőforráskönyvtár elérési útját, és betöltünk egy DXF fájlt az Aspose.CAD `Image` osztályával.
 
-## 2. lépés: **CadRasterizationOptions** tulajdonságok beállítása (set canvas size java)
+## 2. lépés: **CadRasterizationOptions** tulajdonságainak beállítása (set canvas size java)
 
 ```java
 // Create an instance of CadRasterizationOptions and set its various properties
@@ -81,7 +85,7 @@ rasterizationOptions.setAutomaticLayoutsScaling(true);
 rasterizationOptions.setNoScaling(true);
 ```
 
-Itt létrehozunk egy `CadRasterizationOptions` példányt, és beállítjuk a tulajdonságokat, mint például az oldal szélesség, magasság és a **automatikus elrendezés méretezés**. Ez a **canvas mód konfigurálása** központi része a konverzióhoz.
+Itt példányosítunk egy `CadRasterizationOptions` objektumot, és konfiguráljuk a tulajdonságokat, mint például az oldal szélessége, magassága és a **automatic layout scaling**. Ez a **configure canvas mode** központi eleme a konverziónak.
 
 ## 3. lépés: PdfOptions létrehozása és VectorRasterizationOptions beállítása
 
@@ -93,16 +97,16 @@ PdfOptions pdfOptions = new PdfOptions();
 pdfOptions.setVectorRasterizationOptions(rasterizationOptions);
 ```
 
-Most létrehozunk egy `PdfOptions` példányt, és beállítjuk a `VectorRasterizationOptions` tulajdonságát a korábban konfigurált `CadRasterizationOptions`-ra.
+Most létrehozzuk a `PdfOptions` példányt, és beállítjuk a `VectorRasterizationOptions` tulajdonságát a korábban konfigurált `CadRasterizationOptions`‑ra.
 
-## 4. lépés: Exportálás PDF-be (convert cad to pdf)
+## 4. lépés: Exportálás PDF‑be (convert cad to pdf)
 
 ```java
 // Export CAD to PDF
 objImage.save(dataDir + "result_out_.pdf", pdfOptions);
 ```
 
-Végül a megadott beállításokkal elmentjük a CAD képet PDF fájlba, befejezve a **convert CAD to PDF** folyamatot.
+Végül a CAD képet PDF fájlba mentjük a megadott beállításokkal, befejezve a **convert CAD to PDF** folyamatot.
 
 ## 5. lépés: TiffOptions létrehozása és VectorRasterizationOptions beállítása (export cad to tiff)
 
@@ -114,63 +118,73 @@ TiffOptions tiffOptions = new TiffOptions(TiffExpectedFormat.Default);
 tiffOptions.setVectorRasterizationOptions(rasterizationOptions);
 ```
 
-Ebben a lépésben létrehozunk egy `TiffOptions` példányt, és beállítjuk a `VectorRasterizationOptions` tulajdonságát.
+Ebben a lépésben egy `TiffOptions` példányt állítunk be, és konfiguráljuk a `VectorRasterizationOptions` tulajdonságát.
 
-## 6. lépés: Exportálás TIFF-be
+## 6. lépés: Exportálás TIFF‑be
 
 ```java
 // Export CAD to TIFF
 objImage.save(dataDir + "result_out_.tiff", tiffOptions);
 ```
 
-Végül a megadott beállításokkal elmentjük a CAD képet TIFF fájlba, bemutatva, hogyan **exportálhat CAD-et TIFF-be** a vászon méretének konfigurálása után.
+Végül a CAD képet TIFF fájlba mentjük a megadott beállításokkal, bemutatva, hogyan **export CAD to TIFF** a vászonméret konfigurálása után.
 
 ## Gyakori problémák és megoldások
 
 | Probléma | Ok | Megoldás |
 |----------|----|----------|
-| A kimeneti PDF üres | `setNoScaling(true)` letiltja a renderelést bizonyos rajzoknál | `setNoScaling(true)` eltávolítása vagy `false`-ra állítása. |
-| A TIFF felbontása alacsony | Az oldal szélesség/magasság túl kicsi | Növelje a `setPageWidth` / `setPageHeight` értékeket. |
-| Az elrendezés torz | Az automatikus elrendezés méretezés letiltva | Győződjön meg róla, hogy a `setAutomaticLayoutsScaling(true)` engedélyezve van. |
+| A kimeneti PDF üres | `setNoScaling(true)` letiltja a renderelést bizonyos rajzoknál | Távolítsa el a `setNoScaling(true)`‑t, vagy állítsa `false`‑ra. |
+| A TIFF felbontása alacsony | Az oldal szélessége/magassága túl kicsi | Növelje a `setPageWidth` / `setPageHeight` értékeket. |
+| Az elrendezés torz | Az automatikus elrendezésméretezés le van tiltva | Győződjön meg róla, hogy a `setAutomaticLayoutsScaling(true)` engedélyezve van. |
 
-## Következtetés
+## Miért módosítsuk a vászonméretet és a DPI‑t?
 
-Gratulálunk! Sikeresen **convert CAD to PDF** és **export CAD to TIFF** műveleteket hajtott végre, miközben **set canvas size java**-t alkalmazott, engedélyezve a **automatikus elrendezés méretezést**, és megtanulta, hogyan **configure canvas mode** a magas minőségű kimenetekhez. Ez a bemutató szilárd alapot nyújt a CAD konverziós projektjeihez. Fedezze fel a további funkciókat és lehetőségeket az [Aspose.CAD dokumentációban](https://reference.aspose.com/cad/java/).
+A vászonméret közvetlenül befolyásolja a kimenet rasterizációs felbontását. Ha **növelni kell a TIFF felbontását**, egyszerűen emelje a `setPageWidth` / `setPageHeight` értékeket, vagy hívja a `rasterizationOptions.setResolution(300)`‑t a `TiffOptions` létrehozása előtt. Így magas minőségű raszteres képeket kap, amelyek nyomtatásra vagy részletes vizsgálatra alkalmasak.
 
-## GyIK
+## Gyakran ismételt kérdések
 
-### Q1: Használhatom az Aspose.CAD for Java-t más Java keretrendszerekkel?
+### Q1: Használhatom az Aspose.CAD for Java‑t más Java keretrendszerekkel?
 
-A1: Igen, az Aspose.CAD úgy van tervezve, hogy zökkenőmentesen integrálódjon különböző Java keretrendszerekbe.
+A1: Igen, az Aspose.CAD úgy lett tervezve, hogy zökkenőmentesen integrálódjon különböző Java keretrendszerekbe.
 
-### Q2: Elérhető ideiglenes licenc az Aspose.CAD-hez?
+### Q2: Elérhető ideiglenes licenc az Aspose.CAD‑hez?
 
 A2: Igen, ideiglenes licencet szerezhet [itt](https://purchase.aspose.com/temporary-license/).
 
-### Q3: Hol kaphatok közösségi támogatást az Aspose.CAD-hez?
+### Q3: Hol kaphatok közösségi támogatást az Aspose.CAD‑hez?
 
-A3: Látogassa meg az [Aspose.CAD fórumot](https://forum.aspose.com/c/cad/19) a közösségi támogatás és megbeszélésekért.
+A3: Látogassa meg az [Aspose.CAD fórumot](https://forum.aspose.com/c/cad/19) a közösségi támogatás és a megbeszélések miatt.
 
-### Q4: Próbálhatom ingyen az Aspose.CAD-t?
+### Q4: Próbálhatom ingyenesen az Aspose.CAD‑t?
 
 A4: Természetesen! Szerezzen ingyenes próbaverziót [itt](https://releases.aspose.com/).
 
-### Q5: Hogyan vásárolhatom meg az Aspose.CAD for Java-t?
+### Q5: Hogyan vásárolhatok Aspose.CAD for Java licencet?
 
-A5: Vásárolja meg a terméket [itt](https://purchase.aspose.com/buy).
+A5: A terméket megvásárolhatja [itt](https://purchase.aspose.com/buy).
 
-**További kérdések és válaszok**
+**További Q&A**
 
-**Q: Befolyásolja a vászon mérete a vektor minőségét a PDF-ben?**  
-A: Nem. A vászon mérete az oldal méreteit szabályozza; a vektor adatok felbontás‑függetlenek, így bármilyen nagyításnál éles megjelenítést biztosítanak.
+**K: Befolyásolja a vászonméret a vektor minőségét a PDF‑ben?**  
+V: Nem. A vászonméret az oldaldimenziókat szabályozza; a vektoradat felbontás‑független marad, így bármely nagyításnál éles marad.
 
-**Q: Beállíthatok más DPI-t a TIFF kimenethez?**  
-A: Igen. Állítsa be a `rasterizationOptions.setResolution(dpiValue)`-t a `TiffOptions` létrehozása előtt.
+**K: Beállíthatok más DPI‑t a TIFF kimenethez?**  
+V: Igen. Módosítsa a `rasterizationOptions.setResolution(dpiValue)`‑t a `TiffOptions` létrehozása előtt.
+
+**K: Hogyan **change PDF dimensions** egy meglévő PDF‑n anélkül, hogy újra renderelném a CAD‑et?**  
+V: Használja az Aspose.PDF‑t a generált PDF betöltéséhez, és hívja a `pdf.getPages().setPageSize(PageSize.A4)`‑t vagy egy egyedi méretet.
+
+**K: Mi a legjobb módja a **convert dxf to pdf** elvégzésének a rétegek megőrzésével?**  
+V: Tartsa be a `setAutomaticLayoutsScaling(true)` beállítást, és kerülje a `setNoScaling(true)` használatát; ez megőrzi a rétegek láthatóságát és az elrendezés hűségét.
+
+## Összegzés
+
+Gratulálunk! Sikeresen **convert CAD to PDF** és **export CAD to TIFF** műveleteket hajtott végre **set canvas size java** használatával, engedélyezve az **automatic layout scaling**‑et, és megtanulta, hogyan **configure canvas mode** a magas minőségű kimenetekhez. Ez az útmutató szilárd alapot nyújt CAD konverziós projektjeihez. Fedezze fel a további funkciókat és lehetőségeket az [Aspose.CAD dokumentációban](https://reference.aspose.com/cad/java/).
 
 ---
 
-**Utoljára frissítve:** 2025-12-10  
-**Tesztelve:** Aspose.CAD for Java 24.12  
+**Utoljára frissítve:** 2026-02-15  
+**Tesztelt verzió:** Aspose.CAD for Java 24.12  
 **Szerző:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

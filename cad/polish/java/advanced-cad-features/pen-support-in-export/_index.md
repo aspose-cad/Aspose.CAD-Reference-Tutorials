@@ -1,7 +1,7 @@
 ---
-date: 2025-12-10
-description: Naucz się, jak tworzyć pliki PDF z CAD przy użyciu Aspose.CAD dla Javy,
-  dostosowując pióro. Ten krok‑po‑kroku przewodnik pokazuje, jak efektywnie eksportować
+date: 2026-02-15
+description: Dowiedz się, jak tworzyć PDF z CAD przy użyciu Aspose.CAD dla Javy z
+  dostosowaniem pióra. Ten przewodnik krok po kroku pokazuje, jak efektywnie eksportować
   CAD do PDF.
 linktitle: Pen Support in Export
 second_title: Aspose.CAD Java API
@@ -18,7 +18,7 @@ weight: 13
 
 ## Wprowadzenie
 
-W szybko zmieniającym się świecie konwersji CAD programiści często muszą **tworzyć PDF z plików CAD**, zachowując wysoką jakość wizualną. Aspose.CAD for Java upraszcza to zadanie, oferując bogate opcje, takie jak dostosowywanie pióra, które pozwalają precyzyjnie regulować style linii podczas procesu eksportu. W tym przewodniku przeprowadzimy kompletny, praktyczny przykład pokazujący, jak **wyeksportować CAD do PDF** z własnymi ustawieniami pióra, abyś mógł generować eleganckie pliki PDF bezpośrednio z rysunków DXF.
+W szybko zmieniającym się świecie konwersji CAD, programiści często muszą **tworzyć PDF z plików CAD**, zachowując wysoką jakość wizualną. Aspose.CAD for Java upraszcza to zadanie, oferując bogate opcje, takie jak dostosowywanie pióra, które pozwalają precyzyjnie regulować style linii podczas procesu eksportu. W tym przewodniku przeprowadzimy Cię przez kompletny, praktyczny przykład pokazujący, jak **eksportować CAD do PDF** z własnymi ustawieniami pióra, abyś mógł generować eleganckie pliki PDF bezpośrednio z rysunków DXF.
 
 ## Szybkie odpowiedzi
 - **Co oznacza „tworzyć PDF z CAD”?** Konwersja rysunku CAD (np. DXF) do dokumentu PDF przy zachowaniu jakości wektorowej.  
@@ -31,13 +31,16 @@ W szybko zmieniającym się świecie konwersji CAD programiści często muszą *
 Tworzenie PDF z CAD oznacza rasteryzację lub renderowanie wektorowe rysunku CAD do pliku PDF. Umożliwia to łatwe udostępnianie, drukowanie i archiwizację projektów inżynieryjnych bez konieczności posiadania oprogramowania CAD po stronie odbiorcy.
 
 ## Dlaczego warto używać obsługi pióra przy eksporcie CAD do PDF?
-Obsługa pióra pozwala kontrolować zakończenia linii, połączenia i grubość, dając możliwość dopasowania do identyfikacji wizualnej firmy lub standardów rysunków technicznych. Jest to szczególnie przydatne, gdy domyślne renderowanie linii nie spełnia Twoich wymagań wizualnych.
+Obsługa pióra pozwala kontrolować zakończenia linii, łączenia i grubość, dając możliwość dopasowania do identyfikacji wizualnej firmy lub norm rysunków technicznych. Jest to szczególnie przydatne, gdy domyślne renderowanie linii nie spełnia Twoich wymagań wizualnych.
+
+## Jak stworzyć PDF z CAD – przewodnik krok po kroku
+Poniżej praktyczny przewodnik obejmujący wszystko, od konfiguracji środowiska po wygenerowanie ostatecznego PDF. Postępuj zgodnie z każdym krokiem, a uzyskasz gotowe rozwiązanie do **eksportu CAD do PDF** z pełną kontrolą nad piórem.
 
 ## Wymagania wstępne
 
-- **Środowisko programistyczne Java** – działające JDK (8 lub nowsze) oraz wybrane IDE lub narzędzie do budowania.  
+- **Środowisko programistyczne Java** – działające JDK (8 lub nowsze) oraz wybrane IDE lub narzędzie budujące.  
 - **Biblioteka Aspose.CAD** – pobierz najnowszy plik JAR z oficjalnej strony [tutaj](https://releases.aspose.com/cad/java/).  
-- **Przykładowy plik DXF** – w tym samouczku użyjemy `conic_pyramid.dxf`.
+- **Przykładowy plik DXF** – w tym tutorialu użyjemy `conic_pyramid.dxf`.
 
 Teraz, gdy wszystko jest gotowe, przejdźmy do kodu.
 
@@ -53,22 +56,22 @@ import com.aspose.cad.imageoptions.PenOptions;
 import com.aspose.cad.internal.imaging.LineCap;
 ```
 
-## Krok 1: Zdefiniuj katalog dokumentów
+## Krok 1: Zdefiniuj katalog dokumentu
 
 ```java
 String dataDir = "Your Document Directory" + "CADConversion/";
 ```
 
-> **Wskazówka:** Zamień `"Your Document Directory"` na pełną ścieżkę, w której znajdują się Twoje pliki DXF.
+> **Wskazówka:** Zamień `"Your Document Directory"` na absolutną ścieżkę, w której znajdują się Twoje pliki DXF.
 
-## Krok 2: Załaduj plik CAD
+## Krok 2: Wczytaj plik CAD
 
 ```java
 String srcFile = dataDir + "conic_pyramid.dxf";
 CadImage cadImage = (CadImage) Image.load(srcFile);
 ```
 
-Metoda `Image.load` odczytuje plik DXF i tworzy obiekt `CadImage`, którym możemy dalej manipulować.
+Metoda `Image.load` odczytuje plik DXF i tworzy obiekt `CadImage`, którym możemy dalej operować.
 
 ## Krok 3: Skonfiguruj opcje rasteryzacji
 
@@ -78,7 +81,7 @@ rasterizationOptions.setPageWidth(cadImage.getWidth() * 100);
 rasterizationOptions.setPageHeight(cadImage.getHeight() * 100);
 ```
 
-Dostosuj wymiary strony, aby kontrolować rozdzielczość wynikowego PDF. Mnożenie przez 100 daje wysokiej rozdzielczości wyjście odpowiednie do druku.
+Dostosuj wymiary strony, aby kontrolować rozdzielczość wynikowego PDF. Mnożenie przez 100 daje wysoką rozdzielczość odpowiednią do druku.
 
 ## Krok 4: Dostosuj opcje pióra
 
@@ -110,41 +113,41 @@ Uruchomienie tej linii zapisuje plik PDF o nazwie `9LHATT-A56_generated.pdf` w f
 ## Typowe przypadki użycia
 
 - **Dokumentacja techniczna** – wstaw precyzyjne rysunki inżynieryjne do podręczników PDF.  
-- **Automatyczne raportowanie** – generuj PDF-y z danych CAD w locie w usługach internetowych.  
+- **Automatyczne raportowanie** – generuj PDF‑y z danych CAD w czasie rzeczywistym w usługach webowych.  
 - **Kontrola jakości** – zastosuj niestandardowe zakończenia linii, aby podkreślić linie pomiarowe lub tolerancje.
 
 ## Rozwiązywanie problemów i wskazówki
 
 - **Nieprawidłowa ścieżka pliku** – upewnij się, że `dataDir` kończy się separatorem plików (`/` lub `\\`).  
-- **Brak licencji** – bez ważnej licencji biblioteka działa w trybie ewaluacyjnym, co może dodawać znaki wodne.  
-- **Nieoczekiwane style linii** – sprawdź, czy `PenOptions` zostały ustawione przed wywołaniem `save`; w przeciwnym razie użyte zostaną ustawienia domyślne.
+- **Brak licencji** – bez ważnej licencji biblioteka działa w trybie ewaluacyjnym, co może skutkować dodaniem znaków wodnych.  
+- **Nieoczekiwane style linii** – sprawdź, czy `PenOptions` są ustawione przed wywołaniem `save`; w przeciwnym razie użyte zostaną ustawienia domyślne.
 
 ## Najczęściej zadawane pytania
 
-### Q1: Czy mogę dostosować opcje pióra dla formatów innych niż PDF?
+### P1: Czy mogę dostosować opcje pióra dla formatów innych niż PDF?
 
-A1: Tak, prezentowane w tym samouczku dostosowanie pióra ma zastosowanie do różnych formatów obrazów, w tym PDF, PNG, BMP, GIF, JPEG2000, JPEG, PSD, TIFF i WMF.
+Odp: Tak, prezentowane w tym tutorialu dostosowanie pióra działa dla różnych formatów graficznych, w tym PDF, PNG, BMP, GIF, JPEG2000, JPEG, PSD, TIFF oraz WMF.
 
-### Q2: Jak obsłużyć różne zakończenia początkowe i końcowe dla piór?
+### P2: Jak obsłużyć różne zakończenia początkowe i końcowe pióra?
 
-A2: Skorzystaj z klasy `PenOptions`, aby ustawić pożądane zakończenia początkowe i końcowe, co daje elastyczność w definiowaniu wyglądu linii.
+Odp: Skorzystaj z klasy `PenOptions`, aby ustawić pożądane zakończenia początkowe i końcowe, co daje elastyczność w definiowaniu wyglądu linii.
 
-### Q3: Co się stanie, jeśli nie określę opcji pióra?
+### P3: Co się stanie, jeśli nie określę opcji pióra?
 
-A3: Jeśli opcje pióra nie zostaną wyraźnie ustawione, system użyje domyślnych piór, które mogą się różnić w zależności od kontekstu.
+Odp: Jeśli opcje pióra nie zostaną jawnie ustawione, system użyje domyślnych piór, które mogą się różnić w zależności od kontekstu.
 
-### Q4: Czy są szczególne uwagi dotyczące opcji rasteryzacji?
+### P4: Czy są szczególne uwagi dotyczące opcji rasteryzacji?
 
-A4: Dostosuj szerokość i wysokość strony w opcjach rasteryzacji, aby kontrolować wymiary eksportowanego obrazu.
+Odp: Dostosuj szerokość i wysokość strony w opcjach rasteryzacji, aby kontrolować wymiary eksportowanego obrazu.
 
-### Q5: Gdzie mogę znaleźć dodatkowe wsparcie lub dyskusje społeczności?
+### P5: Gdzie mogę znaleźć dodatkowe wsparcie lub dyskusje społeczności?
 
-A5: Odwiedź forum społeczności Aspose.CAD pod adresem [here](https://forum.aspose.com/c/cad/19), aby uzyskać pomoc i uczestniczyć w dyskusjach.
+Odp: Odwiedź forum społeczności Aspose.CAD pod adresem [here](https://forum.aspose.com/c/cad/19), aby uzyskać pomoc i uczestniczyć w dyskusjach.
 
 ---
 
-**Ostatnia aktualizacja:** 2025-12-10  
-**Testowane z:** Aspose.CAD 24.11 for Java  
+**Ostatnia aktualizacja:** 2026-02-15  
+**Testowano z:** Aspose.CAD 24.11 for Java  
 **Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
