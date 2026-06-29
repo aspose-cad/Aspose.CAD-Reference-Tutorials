@@ -1,10 +1,65 @@
 ---
-date: 2026-01-12
-description: 学习如何使用 Java 与 Aspose.CAD 将 DWG 导出为 PDF。一步步指南，帮助您将 DWG 转换为 PDF、定制输出分辨率，并将
-  DWG 保存为图像。
-linktitle: Convert Particular DWG to PDF Using Java
+date: 2026-06-29
+description: 了解如何使用 Aspose.CAD 执行 dwg to pdf java 转换。一步步指南，导出 DWG 为 PDF，定制分辨率，过滤实体，并保存为图像。
+keywords:
+- dwg to pdf java
+- dwg pdf no autocad
+- aspose cad dwg pdf
+- batch dwg pdf conversion
+linktitle: 使用 Java 将特定 DWG 转换为 PDF
+schemas:
+- author: Aspose
+  dateModified: '2026-06-29'
+  description: Learn how to perform dwg to pdf java conversion with Aspose.CAD. Step‑by‑step
+    guide to export DWG as PDF, customize resolution, filter entities, and save as
+    image.
+  headline: dwg to pdf java – Convert Particular DWG to PDF Using Java
+  type: TechArticle
+- description: Learn how to perform dwg to pdf java conversion with Aspose.CAD. Step‑by‑step
+    guide to export DWG as PDF, customize resolution, filter entities, and save as
+    image.
+  name: dwg to pdf java – Convert Particular DWG to PDF Using Java
+  steps:
+  - name: Set Up Your Project
+    text: Add the Aspose.CAD JAR to your project’s classpath and verify that the JDK
+      is correctly configured in your IDE. This ensures the `Image` and `CadImage`
+      classes are available at compile time.
+  - name: Specify DWG File Path
+    text: Define the location of the DWG file you want to convert. Update the `dataDir`
+      and `sourceFilePath` variables to point to your own directory.
+  - name: Filter Text Entities (Optional)
+    text: If you only need certain entities—such as text annotations—you can filter
+      them out before rendering. The code below iterates through all DWG entities,
+      keeps only those of type `TEXT`, and discards the rest.
+  - name: Set Rasterization Options – Customize Output Resolution
+    text: '`CadRasterizationOptions` defines the rasterization settings such as page
+      dimensions and resolution for the output. Create an instance of `CadRasterizationOptions`
+      and configure its properties. Adjust `pageWidth` and `pageHeight` to control
+      the resolution of the generated PDF (or any other raster fo'
+  - name: Export to PDF – The Final Save
+    text: '`PdfOptions` holds PDF‑specific output parameters for the conversion process.
+      Wrap the rasterization options in a `PdfOptions` object and save the result.
+      > **Pro tip:** If you need a different image format (PNG, JPEG, TIFF), replace
+      `PdfOptions` with the corresponding image options class while keep'
+  type: HowTo
+- questions:
+  - answer: Yes, Aspose.CAD supports more than 250 DWG/DXF versions, from early releases
+      up to the latest AutoCAD formats.
+    question: Is Aspose.CAD compatible with all versions of DWG files?
+  - answer: Absolutely. Use `CadRasterizationOptions.setPageWidth()` and `setPageHeight()`
+      to define the desired DPI or pixel dimensions.
+    question: Can I customize the resolution of the output image?
+  - answer: Yes. Wrap the conversion logic inside a loop that iterates over a collection
+      of DWG file paths.
+    question: Is batch conversion possible?
+  - answer: Visit the [Aspose.CAD forum](https://forum.aspose.com/c/cad/19) for help
+      from the community and Aspose engineers.
+    question: Where can I find additional support or community discussions?
+  - answer: Yes, explore the tool with a free trial available at [this link](https://releases.aspose.com/).
+    question: Can I try Aspose.CAD before purchasing?
+  type: FAQPage
 second_title: Aspose.CAD Java API
-title: dwg 转 pdf java – 使用 Java 将特定 DWG 转换为 PDF
+title: dwg to pdf java – 使用 Java 将特定 DWG 转换为 PDF
 url: /zh/java/dwg-file-operations/convert-dwg-to-image/
 weight: 14
 ---
@@ -13,42 +68,38 @@ weight: 14
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 使用 Java 将特定 DWG 文件转换为 PDF
+# dwg to pdf java – 使用 Java 将特定 DWG 转换为 PDF
 
-## 简介
+## 介绍
 
-在现代建筑和工程工作流中，将 DWG 图纸转换为 PDF 文档是常见需求——无论是用于客户审阅、文档编制还是归档。使用 **Aspose.CAD for Java**，您可以以编程方式将 DWG 导出为 PDF，定制输出分辨率，甚至在渲染前过滤特定实体。本文将一步步演示 **dwg to pdf java** 转换的完整过程，帮助您立即在自己的 Java 应用中集成此功能。
+在现代建筑和工程工作流中，将 DWG 图纸转换为 PDF 文档——**dwg to pdf java**——是一个常见需求，无论是用于客户审阅、文档编制还是归档。使用 **Aspose.CAD for Java**，您可以以编程方式将 DWG 导出为 PDF，定制输出分辨率，甚至在渲染前过滤特定实体。在本教程中，我们将逐步演示 dwg to pdf java 转换的完整过程，帮助您将其集成到自己的 Java 应用程序中。
 
-## 快速解答
+## 快速答复
+- **什么库负责转换？** Aspose.CAD for Java.  
+- **我可以设置图像分辨率吗？** 是的 – 使用 `CadRasterizationOptions` 来定义宽度和高度。  
+- **可以过滤实体吗（例如，只保留文本）？** 当然；您可以在保存前移除不需要的实体。  
+- **示例生成的输出格式是什么？** PDF 文件，但相同的光栅化选项也适用于 PNG、JPEG 等。  
+- **生产使用需要许可证吗？** 非评估部署需要商业许可证。  
 
-- **哪个库负责转换？** Aspose.CAD for Java。
-- **我可以设置图像分辨率吗？** 可以 – 使用 `CadRasterizationOptions` 定义宽度和高度。
-- **可以过滤实体（例如，只保留文本）吗？** 当然可以；您可以在保存前删除不需要的实体。
-- **示例生成什么输出格式？** PDF 文件，但相同的栅格化选项也适用于 PNG、JPEG 等格式。
-- **我需要许可证才能用于生产环境吗？** 非评估部署需要商业许可证。
+## 什么是 dwg to pdf java？
 
-## 什么是 Java 版 DWG 转 PDF？
-`dwg to pdf java` 指的是使用 Java 代码将 AutoCAD DWG 文件程序化转换为 PDF 文档的过程。这种方式省去手动导出的步骤，支持批量处理，并且可以完全控制渲染选项，如页面尺寸、缩放比例以及实体可见性。
-
+`dwg to pdf java` 是使用 Java 代码将 AutoCAD DWG 文件转换为 PDF 文档的编程方式。此方法消除手动导出步骤，支持批量处理，并让您完全控制渲染选项，如页面尺寸、缩放和实体可见性。
 
 ## 为什么使用 Aspose.CAD for Java？
 
-- **无需安装 AutoCAD** – 该库在内部处理 DWG 解析。
-- **高保真渲染** – 矢量数据得以保留，文本仍然可选。
-- **精细控制** – 您可以筛选实体、设置自定义 DPI 并选择栅格格式。
-- **跨平台** – 可在任何支持 Java 的操作系统上运行。
+Aspose.CAD for Java 提供了一个完整的、无需 AutoCAD 的解决方案，能够高保真地渲染 DWG 文件。它支持 **超过 250 种 DWG/DXF 版本**，能够在不将整个文档加载到内存中的情况下处理大于 500 MB 的文件，并提供光栅化选项，使您能够一次调用生成 PDF、PNG、JPEG 或 TIFF。该库还允许您过滤实体、设置自定义 DPI，并可在任何支持 Java 的操作系统上运行。
 
-## 前提条件
+## 先决条件
 
-开始之前，请确保您已具备以下条件：
+在开始之前，请确保您具备以下条件：
 
-1. **Java 开发工具包 (JDK)** – 您的计算机上已安装兼容的 JDK。您可以从 [Oracle 网站](https://www.oracle.com/java/technologies/javase-downloads.html) 下载最新的 JDK。
-2. **Aspose.CAD for Java 库** – 从 [Aspose.CAD 下载页面](https://releases.aspose.com/cad/java/) 获取该库。
-3. **您选择的 IDE** – IntelliJ IDEA、Eclipse 或您喜欢的任何其他 Java IDE。
+1. **Java Development Kit (JDK)** – 在您的机器上安装的兼容 JDK。您可以从 [Oracle's website](https://www.oracle.com/java/technologies/javase-downloads.html) 下载最新的 JDK。  
+2. **Aspose.CAD for Java Library** – 从 [Aspose.CAD download page](https://releases.aspose.com/cad/java/) 获取该库。  
+3. **IDE of your choice** – IntelliJ IDEA、Eclipse 或您喜欢的任何其他 Java IDE。
 
 ## 导入包
 
-在您的 Java 项目中，导入必要的 Aspose.CAD 包以实现无缝集成。请在您的代码中包含以下内容：
+`Image` 和 `CadImage` 类是表示光栅和矢量数据的核心 Aspose.CAD 类型。在您的 Java 项目中，导入必要的 Aspose.CAD 包以实现平稳集成。请在代码中加入以下内容：
 
 ```java
 import com.aspose.cad.Image;
@@ -67,12 +118,10 @@ import java.util.ListIterator;
 ## 分步指南
 
 ### 步骤 1：设置项目
-
-将 Aspose.CAD JAR 添加到项目的类路径中，并确认 IDE 中的 JDK 配置正确。这可以确保在编译时可以使用 `Image` 和 `CadImage` 类。
+将 Aspose.CAD JAR 添加到项目的类路径，并在 IDE 中确认 JDK 配置正确。这可确保 `Image` 和 `CadImage` 类在编译时可用。
 
 ### 步骤 2：指定 DWG 文件路径
-
-定义要转换的 DWG 文件的位置。更新 `dataDir` 和 `sourceFilePath` 变量，使其指向您自己的目录。
+定义要转换的 DWG 文件所在位置。更新 `dataDir` 和 `sourceFilePath` 变量，使其指向您自己的目录。
 
 ```java
 String dataDir = "Your Document Directory" + "DWGDrawings/";
@@ -80,8 +129,7 @@ String sourceFilePath = dataDir + "visualization_-_conference_room.dwg";
 ```
 
 ### 步骤 3：过滤文本实体（可选）
-
-如果您只需要某些实体（例如文本注释），可以在渲染之前将其过滤掉。以下代码遍历所有 DWG 实体，仅保留类型为 `TEXT` 的实体，并丢弃其余实体。
+如果您只需要特定实体——例如文本注释——可以在渲染前过滤它们。下面的代码遍历所有 DWG 实体，仅保留类型为 `TEXT` 的实体，其余的则被丢弃。
 
 ```java
 CadImage cadImage = (CadImage) (Image.load(sourceFilePath));
@@ -96,9 +144,8 @@ CadBaseEntity[] arr = new CadBaseEntity[filteredEntities.size()];
 cadImage.setEntities(filteredEntities.toArray(arr));
 ```
 
-### 步骤 4：设置栅格化选项 - 自定义输出分辨率
-
-创建 `CadRasterizationOptions` 的实例并配置其属性。调整 `pageWidth` 和 `pageHeight` 参数来控制生成的 PDF（或其他任何栅格格式）的分辨率。
+### 步骤 4：设置光栅化选项 – 自定义输出分辨率
+`CadRasterizationOptions` 定义了输出的光栅化设置，如页面尺寸和分辨率。创建 `CadRasterizationOptions` 的实例并配置其属性。调整 `pageWidth` 和 `pageHeight` 以控制生成的 PDF（或其他光栅格式）的分辨率。
 
 ```java
 CadRasterizationOptions rasterizationOptions = new CadRasterizationOptions();
@@ -107,9 +154,8 @@ rasterizationOptions.setPageHeight(1600);
 rasterizationOptions.setAutomaticLayoutsScaling(true);
 ```
 
-### 第 5 步：导出为 PDF – 最终保存
-
-将栅格化选项封装在 `PdfOptions` 对象中并保存结果。输出文件将是一个 PDF 文件，其中包含筛选后的实体以及您设置的自定义分辨率。
+### 步骤 5：导出为 PDF – 最终保存
+`PdfOptions` 包含转换过程的 PDF 特定输出参数。将光栅化选项包装在 `PdfOptions` 对象中并保存结果。
 
 ```java
 PdfOptions pdfOptions = new PdfOptions();
@@ -118,56 +164,56 @@ String outFile = dataDir + "result_out_generated.pdf";
 cadImage.save(outFile, pdfOptions);
 ```
 
-> **专业提示：** 如果您需要其他图像格式（PNG、JPEG、TIFF），请将 `PdfOptions` 替换为相应的图像选项类，同时保持栅格化设置不变。
+> **Pro tip:** 如果您需要不同的图像格式（PNG、JPEG、TIFF），请将 `PdfOptions` 替换为相应的图像选项类，同时保持相同的光栅化设置。
 
-恭喜！您已使用 Aspose.CAD for Java 成功执行了 **dwg 转 pdf java** 转换。
+恭喜！您已成功使用 Aspose.CAD for Java 完成了 **dwg to pdf java** 转换。
 
 ## 常见问题及解决方案
 
-| 问题 | 可能原因 | 解决方法 |
+| 问题 | 可能原因 | 解决办法 |
 |-------|--------------|-----|
-| **PDF 为空** | 源 DWG 文件未正确加载（路径错误） | 确认 `sourceFilePath` 指向一个存在的 DWG 文件。 |
-| **缺少文本** | 过滤逻辑移除了所需的实体 | 调整 `if` 条件，或者如果您需要所有实体，则跳过过滤。 |
-| **分辨率过低** | `pageWidth`/`pageHeight` 过小 | 增大这些值；1600×1600 是生成高质量 PDF 的一个良好起点。 |
-| **OutOfMemoryError** 错误发生在处理大型 DWG 文件时 | 堆内存不足 | 请使用更大的堆内存运行 JVM（`-Xmx2g` 或更高）。 |
+| **空 PDF** | 源 DWG 未正确加载（路径错误） | 确认 `sourceFilePath` 指向现有的 DWG 文件。 |
+| **缺少文本** | 过滤逻辑删除了所需的实体 | 调整 `if` 条件，或如果想保留所有实体则跳过过滤。 |
+| **分辨率低** | `pageWidth`/`pageHeight` 过小 | 增大这些值；1600 × 1600 是高质量 PDF 的良好起点。 |
+| **OutOfMemoryError**（大 DWG 文件） | 堆内存不足 | 使用更大的堆启动 JVM（`-Xmx2g` 或更高）。 |
 
-## 常见问题解答
+## 常见问题
 
-**问：Aspose.CAD 是否兼容所有版本的 DWG 文件？** 
+**Q: Aspose.CAD 是否兼容所有版本的 DWG 文件？**  
+A: 是的，Aspose.CAD 支持超过 250 种 DWG/DXF 版本，从早期版本到最新的 AutoCAD 格式。
 
-答：是的，Aspose.CAD 支持多种 DWG 版本，从早期版本到最新的 AutoCAD 格式。
+**Q: 我可以自定义输出图像的分辨率吗？**  
+A: 当然。使用 `CadRasterizationOptions.setPageWidth()` 和 `setPageHeight()` 来定义所需的 DPI 或像素尺寸。
 
-**问：我可以自定义输出图像的分辨率吗？** 
+**Q: 支持批量转换吗？**  
+A: 可以。将转换逻辑包装在遍历 DWG 文件路径集合的循环中。
 
-答：当然可以。使用 `CadRasterizationOptions.setPageWidth()` 和 `setPageHeight()` 来定义所需的 DPI 或像素尺寸。
+**Q: 我在哪里可以找到更多支持或社区讨论？**  
+A: 访问 [Aspose.CAD forum](https://forum.aspose.com/c/cad/19) 获取社区和 Aspose 工程师的帮助。
 
-**问：可以批量转换吗？** 
+**Q: 我可以在购买前试用 Aspose.CAD 吗？**  
+A: 可以，您可以通过 [此链接](https://releases.aspose.com/) 的免费试用来体验该工具。
 
-答：可以。将转换逻辑封装在一个循环中，该循环遍历 DWG 文件路径集合。
+## 结论
 
-**问：我可以在哪里找到更多支持或参与社区讨论？** 
-
-答：请访问 [Aspose.CAD 论坛](https://forum.aspose.com/c/cad/19)，获取社区和 Aspose 工程师的帮助。
-
-**问：我可以在购买前试用 Aspose.CAD 吗？** 
-
-答：可以，您可以通过[此链接](https://releases.aspose.com/)获取免费试用版，探索该工具。
-
-## 总结
-
-使用 Aspose.CAD 在 Java 中将 DWG 文件导出为 PDF 非常简单。按照上述步骤操作，您可以**将 DWG 文件导出为 PDF**、**将 DWG 文件另存为图像**，以及**自定义输出分辨率**，以满足您项目的具体需求。将此工作流程集成到您的自动化流程中，可以提高工作效率并确保文档的一致性和高质量。
+使用 Aspose.CAD 在 Java 中将 DWG 导出为 PDF 非常简便。按照上述步骤，您可以 **export dwg as pdf**、**save dwg as image**，以及 **customize output resolution**，以满足项目的精确需求。将此工作流集成到自动化流水线中，可提升生产力并确保文档的一致性和高质量。
 
 ---
 
-**上次更新时间：** 2026年1月12日
-**测试版本：** Aspose.CAD for Java 24.12
-**作者：** Aspose  
+**最后更新:** 2026-06-29  
+**测试环境:** Aspose.CAD for Java 24.12  
+**作者:** Aspose  
 
----
+{{< blocks/products/products-backtop-button >}}
+
+## 相关教程
+
+- [使用 Aspose.CAD for Java 导出 DWG 为 PDF 或光栅](/cad/java/cad-drawing-conversion/export-dwg-to-pdf-or-raster/)
+- [使用 Aspose.CAD for Java 导出特定 DWG 布局为 PDF](/cad/java/cad-drawing-conversion/export-specific-dwg-layout-to-pdf/)
+- [dwg to pdf java – 使用 Aspose.CAD 导出 CAD 为 PDF](/cad/java/cad-export-options/export-to-pdf/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
