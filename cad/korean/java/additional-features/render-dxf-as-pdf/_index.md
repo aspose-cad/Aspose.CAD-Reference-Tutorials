@@ -9,12 +9,6 @@ url: /ko/java/additional-features/render-dxf-as-pdf/
 weight: 19
 ---
 
-.
-
-I'll write Korean natural.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

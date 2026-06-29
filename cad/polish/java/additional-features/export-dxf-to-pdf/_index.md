@@ -9,12 +9,6 @@ url: /pl/java/additional-features/export-dxf-to-pdf/
 weight: 13
 ---
 
- -> Problem, Reason -> Przyczyna, Solution -> Rozwiązanie.
-
-Now go through each section.
-
-Let's produce final translation.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

@@ -10,29 +10,7 @@ url: /pt/java/additional-features/enable-tracking/
 weight: 12
 ---
 
- keep code block placeholders unchanged.
-
-Also need to translate bullet points, etc.
-
-Make sure to keep markdown formatting.
-
-Let's produce translation.
-
-Be careful: "step-by-step in order - do not skip sections". So keep everything.
-
-Translate "How to Enable Tracking in DWG Files Using Aspose.CAD in Java" => "Como Habilitar o Rastreamento em Arquivos DWG Usando Aspose.CAD em Java"
-
-Proceed.
-
-Also "Quick Answers" => "Respostas Rápidas"
-
-Translate bullet points.
-
-Make sure to keep URLs unchanged.
-
-Translate "Last Updated" etc.
-
-Ok produce final.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

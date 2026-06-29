@@ -9,14 +9,6 @@ url: /it/java/additional-features/enable-tracking/
 weight: 12
 ---
 
-zione"
-
-Paragraph: translate.
-
-Let's craft.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

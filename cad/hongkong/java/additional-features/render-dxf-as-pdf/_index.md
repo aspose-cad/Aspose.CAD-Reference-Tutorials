@@ -9,8 +9,6 @@ url: /zh-hant/java/additional-features/render-dxf-as-pdf/
 weight: 19
 ---
 
- produce.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

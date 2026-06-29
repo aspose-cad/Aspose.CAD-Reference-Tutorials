@@ -9,10 +9,6 @@ url: /ja/java/additional-features/enable-tracking/
 weight: 12
 ---
 
-.
-
-Let's craft translation.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
@@ -65,7 +61,7 @@ import java.io.FileOutputStream;
 import java.io.OutputStream;
 ```
 
-## Step 1: Load the DWG File
+## ステップ 1: DWG ファイルの読み込み
 
 DWG（または DXF）ファイルを Java アプリケーションに読み込みます。ファイルパスは適宜調整してください。
 
@@ -74,7 +70,7 @@ String dataDir = "Your Document Directory" + "DXFDrawings/";
 Image image = Image.load(dataDir + "conic_pyramid.dxf");
 ```
 
-## Step 2: Configure PDF Export Options (DXF を PDF に変換する方法)
+## ステップ 2: PDF エクスポート オプションの設定 (DXF から PDF への変換方法)
 
 PDF エクスポート オプションを設定し、CAD 用のベクタ ラスタライズ オプションを指定します。これにより *java convert dxf pdf* の機能も実演できます。
 
@@ -87,7 +83,7 @@ cadRasterizationOptions.setPageWidth(800);
 cadRasterizationOptions.setPageHeight(600);
 ```
 
-## Step 3: Implement Tracking (Custom Error Handler Java)
+## ステップ 3: トラッキングの実装 (カスタム エラー ハンドラー Java)
 
 カスタム エラーハンドラ クラスを使用してトラッキングを実装します。このクラスはレンダリングの問題を捕捉し、コンソールに表示します。
 
@@ -95,7 +91,7 @@ cadRasterizationOptions.setPageHeight(600);
 cadRasterizationOptions.RenderResult = new ErrorHandler();
 ```
 
-## Step 4: Export to PDF
+## ステップ 4: PDF へのエクスポート
 
 トラッキングを有効にした状態で、DWG/DXF ファイルを PDF に変換するエクスポート処理を開始します。
 
@@ -104,7 +100,7 @@ System.out.println("Exporting to pdf format");
 image.save(stream, pdfOptions);
 ```
 
-## Step 5: CadRenderHandler Class
+## ステップ 5: CadRenderHandler クラス
 
 `ErrorHandler` クラス（`CadRenderHandler` を継承）を定義し、レンダー結果を処理してトラッキング情報を出力します。
 
@@ -138,7 +134,7 @@ public static class ErrorHandler extends CadRasterizationOptions.CadRenderHandle
 - **File not found** – `dataDir` が正しいフォルダーを指しているか、ファイル名が大文字小文字を含めて完全に一致しているか確認してください。  
 - **Missing tracking output** – カスタム `ErrorHandler` が `cadRasterizationOptions.RenderResult` に正しく割り当てられていることを確認してください。  
 
-## Frequently Asked Questions
+## よくある質問
 
 **Q:** Aspose.CAD for Java で他の CAD ファイル形式にもトラッキングを有効化できますか？  
 **A:** Aspose.CAD は主に DWG のトラッキングをサポートしています。他の形式については公式ドキュメントをご参照ください。

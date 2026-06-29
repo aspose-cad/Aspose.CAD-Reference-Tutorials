@@ -9,11 +9,7 @@ url: /sv/java/additional-features/export-dxf-to-pdf/
 weight: 13
 ---
 
-.
-
-Also preserve table formatting with pipes.
-
-Let's craft final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

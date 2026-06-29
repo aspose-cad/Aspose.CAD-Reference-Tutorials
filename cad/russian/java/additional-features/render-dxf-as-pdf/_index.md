@@ -10,7 +10,7 @@ url: /ru/java/additional-features/render-dxf-as-pdf/
 weight: 19
 ---
 
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

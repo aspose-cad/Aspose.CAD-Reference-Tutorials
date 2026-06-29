@@ -9,9 +9,7 @@ url: /tr/java/additional-features/export-dxf-to-pdf/
 weight: 13
 ---
 
- keep code block placeholders unchanged.
-
-Let's produce final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

@@ -127,20 +127,20 @@ Pada titik ini, Anda telah berhasil merender file DXF sebagai PDF menggunakan As
 
 ## Pertanyaan yang Sering Diajukan
 
-**Q: Is Aspose.CAD for Java compatible with all DXF versions?**  
-A: Aspose.CAD for Java supports a wide range of DXF versions, ensuring compatibility with most files you’ll encounter.
+**T: Apakah Aspose.CAD untuk Java kompatibel dengan semua versi DXF?**
+J: Aspose.CAD untuk Java mendukung berbagai versi DXF, memastikan kompatibilitas dengan sebagian besar file yang akan Anda temui.
 
-**Q: Can I customize the PDF output further?**  
-A: Yes, you can tailor the output by adjusting the rasterization options (color depth, line weight, DPI, etc.) to meet specific visual requirements.
+**T: Dapatkah saya menyesuaikan output PDF lebih lanjut?**
+J: Ya, Anda dapat menyesuaikan output dengan mengatur opsi rasterisasi (kedalaman warna, ketebalan garis, DPI, dll.) untuk memenuhi persyaratan visual tertentu.
 
-**Q: Is there a trial version available?**  
-A: Yes, you can explore the capabilities of Aspose.CAD for Java by downloading the free trial [here](https://releases.aspose.com/).
+**T: Apakah tersedia versi uji coba?**
+J: Ya, Anda dapat menjelajahi kemampuan Aspose.CAD untuk Java dengan mengunduh versi uji coba gratis [di sini](https://releases.aspose.com/).
 
-**Q: How can I get support for Aspose.CAD for Java?**  
-A: Visit the [Aspose.CAD forum](https://forum.aspose.com/c/cad/19) to seek assistance and connect with the community.
+**T: Bagaimana saya bisa mendapatkan dukungan untuk Aspose.CAD untuk Java?**
+J: Kunjungi [forum Aspose.CAD](https://forum.aspose.com/c/cad/19) untuk mencari bantuan dan terhubung dengan komunitas.
 
-**Q: Do I need a temporary license for testing?**  
-A: Yes, you can obtain a temporary license [here](https://purchase.aspose.com/temporary-license/) for testing purposes.
+**T: Apakah saya memerlukan lisensi sementara untuk pengujian?**
+J: Ya, Anda dapat memperoleh lisensi sementara [di sini](https://purchase.aspose.com/temporary-license/) untuk keperluan pengujian.
 
 ## Kesimpulan
 

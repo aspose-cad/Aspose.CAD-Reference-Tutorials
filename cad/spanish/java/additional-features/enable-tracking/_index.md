@@ -10,7 +10,7 @@ url: /es/java/additional-features/enable-tracking/
 weight: 12
 ---
 
- produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

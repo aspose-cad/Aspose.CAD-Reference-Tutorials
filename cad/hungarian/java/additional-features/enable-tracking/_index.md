@@ -10,9 +10,7 @@ url: /hu/java/additional-features/enable-tracking/
 weight: 12
 ---
 
- double braces, not code fences. Keep them.
-
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

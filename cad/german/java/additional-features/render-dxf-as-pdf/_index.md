@@ -137,7 +137,7 @@ A: Ja, Sie können die Ausgabe durch Anpassen der Rasterisierungsoptionen (Farb�
 A: Ja, Sie können die Funktionen von Aspose.CAD für Java mit der kostenlosen Testversion [hier](https://releases.aspose.com/) ausprobieren.
 
 **F: Wie erhalte ich Support für Aspose.CAD für Java?**  
-A: Besuchen Sie das [Aspose.CAD‑Forum](https://forum.aspose.com/c/cad/19), um Hilfe zu erhalten und sich mit der Community auszutauschen.
+A: Besuchen Sie das [Aspose.CAD‑Forum](https://forum.aspose.com/c/cad/19) , um Hilfe zu erhalten und sich mit der Community auszutauschen.
 
 **F: Benötige ich eine temporäre Lizenz für Tests?**  
 A: Ja, Sie können eine temporäre Lizenz [hier](https://purchase.aspose.com/temporary-license/) für Testzwecke erhalten.
