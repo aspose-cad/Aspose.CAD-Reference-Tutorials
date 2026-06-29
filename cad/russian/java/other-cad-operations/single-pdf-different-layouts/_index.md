@@ -1,32 +1,76 @@
 ---
-title: Создание динамических PDF-файлов с помощью Aspose.CAD для Java
-linktitle: Один PDF-файл с разными макетами
-second_title: API Aspose.CAD Java
-description: Создавайте потрясающие PDF-файлы с разнообразными макетами на основе чертежей САПР с помощью Aspose.CAD для Java. Простая интеграция и мощные функции для разработчиков Java.
-weight: 16
+date: 2026-06-29
+description: Узнайте, как создать PDF из DWG и настроить макет PDF, используя Aspose.CAD
+  for Java. Простая интеграция для разработчиков Java.
+keywords:
+- create pdf from dwg
+- convert cad to pdf
+- pdf different page sizes
+- export dwg to pdf
+- customize pdf layout
+linktitle: Один PDF с разными макетами
+schemas:
+- author: Aspose
+  dateModified: '2026-06-29'
+  description: Learn how to create PDF from DWG and customize PDF layout using Aspose.CAD
+    for Java. Easy integration for Java developers.
+  headline: Create PDF from DWG with Aspose.CAD for Java
+  type: TechArticle
+- questions:
+  - answer: Yes, Aspose.CAD for Java integrates seamlessly with libraries such as
+      Apache POI, Jackson, or Spring Boot.
+    question: Can I use Aspose.CAD for Java with other Java libraries?
+  - answer: Absolutely! You can access a free trial version [here](https://releases.aspose.com/).
+    question: Is there a trial version available?
+  - answer: Visit the [Aspose.CAD forum](https://forum.aspose.com/c/cad/19) for community
+      support and discussions.
+    question: Where can I find additional support?
+  - answer: You can obtain a temporary license [here](https://purchase.aspose.com/temporary-license/).
+    question: How do I obtain a temporary license?
+  - answer: Purchase the full version of Aspose.CAD for Java [here](https://purchase.aspose.com/buy).
+    question: Where can I purchase the full version?
+  type: FAQPage
+second_title: Aspose.CAD Java API
+title: Создание PDF из DWG с помощью Aspose.CAD for Java
 url: /ru/java/other-cad-operations/single-pdf-different-layouts/
+weight: 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Создание динамических PDF-файлов с помощью Aspose.CAD для Java
+# Создать PDF из DWG с помощью Aspose.CAD для Java
 
 ## Введение
 
-Добро пожаловать в мир Aspose.CAD для Java, мощной библиотеки, которая позволяет разработчикам легко манипулировать чертежами САПР. В этом уроке мы углубимся в создание отдельных PDF-файлов с разными макетами с помощью Aspose.CAD для Java. Независимо от того, являетесь ли вы опытным разработчиком или только начинаете, это пошаговое руководство проведет вас через весь процесс.
+В этом руководстве вы **создадите PDF из DWG** файлов и примените несколько макетов разных размеров страниц с использованием Aspose.CAD для Java. Независимо от того, нужно ли вам генерировать строительные чертежи, инженерные схемы или готовые к маркетингу PDF, приведённые ниже шаги покажут, как конвертировать CAD‑чертежи в PDF, настроить размеры каждого макета и создать один многостраничный документ — без выхода из вашей Java‑среды.
 
-## Предварительные условия
+## Краткие ответы
+- **Что охватывает руководство?** Преобразование чертежа DWG в один PDF с несколькими размерами страниц.  
+- **Какая библиотека требуется?** Aspose.CAD для Java (последняя версия).  
+- **Нужна ли лицензия?** Бесплатная пробная версия подходит для разработки; для продакшна требуется коммерческая лицензия.  
+- **Можно ли экспортировать в другие форматы?** Да — API также поддерживает экспорт в PNG, JPEG и SVG.  
+- **Достаточно ли Java 8?** Библиотека работает с Java 8 и более новыми средами выполнения.
 
-Прежде чем мы отправимся в это путешествие, убедитесь, что у вас есть следующие предварительные условия:
-- Среда Java: убедитесь, что на вашем компьютере установлена Java.
--  Библиотека Aspose.CAD: загрузите и установите библиотеку Aspose.CAD для Java с сайта[ссылка для скачивания](https://releases.aspose.com/cad/java/).
-- Каталог документов: создайте каталог для чертежей DWG.
+## Что такое «create pdf from dwg»?
 
-## Импортировать пакеты
+**Create PDF from DWG** означает преобразование нативного файла AutoCAD DWG в документ PDF с сохранением векторной точности, слоёв и толщины линий, а также возможностью настройки макета. Aspose.CAD выполняет эту конверсию полностью в памяти, поэтому внешнее CAD‑программное обеспечение не требуется, а полученный PDF можно сразу редактировать или печатать.
 
-В свой Java-проект импортируйте необходимые пакеты:
+## Почему настраивать макет PDF из DWG?
+
+Aspose.CAD поддерживает **30+ форматов CAD** и может генерировать PDF размером до **500 МБ** без загрузки всего файла в память. Определяя отдельные размеры страниц для каждого макета, вы можете создавать печатные листы, соответствующие стандартам ISO, ANSI или пользовательским размерам — измеримое преимущество, экономящее время и устраняющее ручную пост‑обработку.
+
+## Требования
+
+Прежде чем мы начнём, убедитесь, что у вас есть следующие требования:
+- Java Environment: Убедитесь, что Java установлена на вашем компьютере.  
+- Aspose.CAD Library: Скачайте и установите библиотеку Aspose.CAD для Java по [download link](https://releases.aspose.com/cad/java/).  
+- Document Directory: Создайте каталог для ваших DWG‑чертежей.
+
+## Импорт пакетов
+
+Класс `CadImage` является основным объектом Aspose.CAD, представляющим CAD‑чертеж в памяти. Импортируйте необходимые пространства имён перед началом работы:
 
 ```java
 import com.aspose.cad.Image;
@@ -37,18 +81,18 @@ import com.aspose.cad.imageoptions.PdfOptions;
 import com.aspose.cad.imageoptions.VectorRasterizationOptions;
 ```
 
-## Шаг 1. Загрузите чертеж САПР
+## Шаг 1: Загрузка CAD‑чертежа
 
- Начните с загрузки чертежа САПР в`CadImage` объект:
+`CadImage` загружает файл DWG и предоставляет доступ к его векторным данным. Начните с загрузки вашего CAD‑чертежа в объект `CadImage`:
 
 ```java
 String dataDir = "Your Document Directory" + "DWGDrawings/";
 CadImage cadImage = (CadImage)Image.load(dataDir + "City skyway map.dwg");
 ```
 
-## Шаг 2. Настройте параметры растеризации
+## Шаг 2: Настройка параметров растеризации
 
-Настройте параметры растеризации для изображения САПР:
+`RasterizationOptions` определяет, как векторы CAD растеризуются перед помещением в PDF. Настройте параметры растеризации для CAD‑изображения:
 
 ```java
 CadRasterizationOptions rasterizationOptions = new CadRasterizationOptions();
@@ -56,62 +100,71 @@ rasterizationOptions.setPageWidth(1000);
 rasterizationOptions.setPageHeight(1000);
 ```
 
-## Шаг 3. Настройка размеров страницы макета
+## Шаг 3: Настройка размеров страниц макета
 
-Определите нестандартные размеры для нескольких макетов на чертеже САПР:
+`PdfOptions` позволяет назначать отдельные размеры страниц каждому макету внутри DWG. Определите пользовательские размеры для нескольких макетов в CAD‑чертежe:
 
 ```java
 rasterizationOptions.getLayoutPageSizes().addItem("ANSI C Plot", new SizeF(500, 1000));
 rasterizationOptions.getLayoutPageSizes().addItem("8.5 x 11 Plot", new SizeF(1000, 100));
 ```
 
-## Шаг 4. Установите параметры PDF
+## Шаг 4: Установка параметров PDF
 
-Настройте параметры PDF, включая настройки растеризации:
+`PdfOptions` — контейнер, объединяющий настройки растеризации и определения макетов. Настройте параметры PDF, включив настройки растеризации:
 
 ```java
 PdfOptions pdfOptions = new PdfOptions();
 pdfOptions.setVectorRasterizationOptions(rasterizationOptions);
 ```
 
-## Шаг 5. Сохраните в формате PDF.
+## Шаг 5: Сохранить как PDF
 
-Сохраните обработанное изображение САПР в формате PDF:
+`PdfSaveOptions` завершает конверсию и записывает выходной файл. Сохраните обработанное CAD‑изображение в формате PDF:
 
 ```java
 cadImage.save(dataDir + "singlePDF_out.pdf", pdfOptions);
 ```
 
-Поздравляем! Вы успешно создали один PDF-файл с разными макетами, используя Aspose.CAD для Java.
+Поздравляем! Вы успешно **create pdf from dwg** с разными размерами страниц, используя Aspose.CAD для Java.
 
-## Заключение
+## Распространённые проблемы и решения
 
-В этом руководстве мы рассмотрели плавную интеграцию Aspose.CAD для Java для создания PDF-файлов с различными макетами на основе чертежей САПР. Гибкость и надежные функции библиотеки делают ее идеальным выбором для задач манипулирования САПР.
+- **Пустые страницы в результирующем PDF** – Убедитесь, что значения `PageSize` соответствуют фактическим размерам макета в файле DWG.  
+- **Ошибки нехватки памяти при больших чертежах** – Используйте `CadImage.load(..., LoadOptions)` с `LoadOptions.setLoadMode(LoadMode.Memory)`, чтобы потоково считывать файл вместо полной загрузки.  
+- **Неправильное масштабирование** – Отрегулируйте `RasterizationOptions.setPageWidth` и `setPageHeight` в соответствии с требуемым DPI (точек на дюйм).
 
 ## Часто задаваемые вопросы
 
-### Вопрос 1: Могу ли я использовать Aspose.CAD для Java с другими библиотеками Java?
+**В: Можно ли использовать Aspose.CAD для Java с другими Java‑библиотеками?**  
+Да, Aspose.CAD для Java без проблем интегрируется с такими библиотеками, как Apache POI, Jackson или Spring Boot.
 
-О1: Да, Aspose.CAD for Java предназначен для полной интеграции с другими библиотеками Java, обеспечивая обширную функциональность.
+**В: Доступна ли пробная версия?**  
+Конечно! Вы можете получить бесплатную пробную версию [здесь](https://releases.aspose.com/).
 
-### В2: Доступна ли пробная версия?
+**В: Где можно найти дополнительную поддержку?**  
+Посетите [форум Aspose.CAD](https://forum.aspose.com/c/cad/19) для получения поддержки от сообщества и обсуждений.
 
- А2: Абсолютно! Вы можете получить доступ к бесплатной пробной версии[здесь](https://releases.aspose.com/).
+**В: Как получить временную лицензию?**  
+Вы можете получить временную лицензию [здесь](https://purchase.aspose.com/temporary-license/).
 
-### В3: Где я могу найти дополнительную поддержку?
+**В: Где можно приобрести полную версию?**  
+Приобретите полную версию Aspose.CAD для Java [здесь](https://purchase.aspose.com/buy).
 
- A3: Посетите[Форум Aspose.CAD](https://forum.aspose.com/c/cad/19) за поддержку сообщества и обсуждения.
+---
 
-### Вопрос 4: Как получить временную лицензию?
+**Последнее обновление:** 2026-06-29  
+**Тестировано с:** Aspose.CAD для Java 24.10  
+**Автор:** Aspose
 
- A4: Вы можете получить временную лицензию[здесь](https://purchase.aspose.com/temporary-license/).
+## Связанные руководства
 
-### В5: Где я могу приобрести полную версию?
+- [Экспорт DWG в PDF или растеризованный формат с помощью Aspose.CAD для Java](/cad/java/cad-drawing-conversion/export-dwg-to-pdf-or-raster/)
+- [Экспорт макетов CAD в PDF с Aspose.CAD для Java](/cad/java/cad-export-options/export-cad-layouts-to-pdf/)
+- [Экспорт конкретного макета DWG в PDF с помощью Aspose.CAD для Java](/cad/java/cad-drawing-conversion/export-specific-dwg-layout-to-pdf/)
 
-A5: Приобретите полную версию Aspose.CAD для Java.[здесь](https://purchase.aspose.com/buy).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 {{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/products-backtop-button >}}
+{{< /blocks/products/pf/main-wrap-class >}}

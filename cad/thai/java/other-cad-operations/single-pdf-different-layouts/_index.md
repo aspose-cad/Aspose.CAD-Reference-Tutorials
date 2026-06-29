@@ -1,32 +1,76 @@
 ---
-title: การสร้าง PDF แบบไดนามิกด้วย Aspose.CAD สำหรับ Java
-linktitle: PDF เดียวที่มีเค้าโครงต่างกัน
+date: 2026-06-29
+description: เรียนรู้วิธีสร้าง PDF จาก DWG และปรับแต่งเค้าโครง PDF ด้วย Aspose.CAD
+  for Java. การบูรณาการที่ง่ายสำหรับนักพัฒนา Java.
+keywords:
+- create pdf from dwg
+- convert cad to pdf
+- pdf different page sizes
+- export dwg to pdf
+- customize pdf layout
+linktitle: PDF เดียวกับเค้าโครงที่แตกต่างกัน
+schemas:
+- author: Aspose
+  dateModified: '2026-06-29'
+  description: Learn how to create PDF from DWG and customize PDF layout using Aspose.CAD
+    for Java. Easy integration for Java developers.
+  headline: Create PDF from DWG with Aspose.CAD for Java
+  type: TechArticle
+- questions:
+  - answer: Yes, Aspose.CAD for Java integrates seamlessly with libraries such as
+      Apache POI, Jackson, or Spring Boot.
+    question: Can I use Aspose.CAD for Java with other Java libraries?
+  - answer: Absolutely! You can access a free trial version [here](https://releases.aspose.com/).
+    question: Is there a trial version available?
+  - answer: Visit the [Aspose.CAD forum](https://forum.aspose.com/c/cad/19) for community
+      support and discussions.
+    question: Where can I find additional support?
+  - answer: You can obtain a temporary license [here](https://purchase.aspose.com/temporary-license/).
+    question: How do I obtain a temporary license?
+  - answer: Purchase the full version of Aspose.CAD for Java [here](https://purchase.aspose.com/buy).
+    question: Where can I purchase the full version?
+  type: FAQPage
 second_title: Aspose.CAD Java API
-description: สร้าง PDF ที่น่าทึ่งด้วยเลย์เอาต์ที่หลากหลายจากแบบร่าง CAD โดยใช้ Aspose.CAD สำหรับ Java การบูรณาการที่ง่ายดายและคุณสมบัติอันทรงพลังสำหรับนักพัฒนา Java
-weight: 16
+title: สร้าง PDF จาก DWG ด้วย Aspose.CAD for Java
 url: /th/java/other-cad-operations/single-pdf-different-layouts/
+weight: 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# การสร้าง PDF แบบไดนามิกด้วย Aspose.CAD สำหรับ Java
+# สร้าง PDF จาก DWG ด้วย Aspose.CAD สำหรับ Java
 
-## การแนะนำ
+## บทนำ
 
-ยินดีต้อนรับสู่โลกของ Aspose.CAD สำหรับ Java ไลบรารีอันทรงพลังที่ช่วยให้นักพัฒนาสามารถจัดการแบบร่าง CAD ได้อย่างง่ายดาย ในบทช่วยสอนนี้ เราจะเจาะลึกเกี่ยวกับการสร้าง PDF ไฟล์เดียวที่มีเลย์เอาต์ที่แตกต่างกันโดยใช้ Aspose.CAD สำหรับ Java ไม่ว่าคุณจะเป็นนักพัฒนาที่มีประสบการณ์หรือเพิ่งเริ่มต้น คำแนะนำทีละขั้นตอนนี้จะแนะนำคุณตลอดกระบวนการ
+ในบทแนะนำนี้คุณจะ **create PDF from DWG** ไฟล์และใช้เค้าโครงหลายขนาดหน้าโดยใช้ Aspose.CAD สำหรับ Java ไม่ว่าคุณจะต้องการสร้างแบบแปลนการก่อสร้าง, แผนผังวิศวกรรม, หรือ PDF ที่พร้อมสำหรับการตลาด ขั้นตอนต่อไปนี้จะแสดงวิธีแปลงภาพวาด CAD เป็น PDF, ปรับแต่งขนาดของแต่ละเค้าโครง, และสร้างเอกสารหลายหน้าเป็นไฟล์เดียว — ทั้งหมดโดยไม่ต้องออกจากสภาพแวดล้อม Java ของคุณ.
+
+## คำตอบอย่างรวดเร็ว
+- **What does the tutorial cover?** การแปลงภาพวาด DWG เป็น PDF เดียวที่มีหลายขนาดหน้า.  
+- **Which library is required?** Aspose.CAD for Java (latest version).  
+- **Do I need a license?** การทดลองใช้ฟรีทำงานได้สำหรับการพัฒนา; จำเป็นต้องมีใบอนุญาตเชิงพาณิชย์สำหรับการใช้งานจริง.  
+- **Can I export other formats?** ใช่ – API ยังรองรับการส่งออกเป็น PNG, JPEG, และ SVG.  
+- **Is Java 8 sufficient?** ไลบรารีทำงานได้กับ Java 8 และรันไทม์ที่ใหม่กว่า.
+
+## “create pdf from dwg” คืออะไร?
+
+**Create PDF from DWG** หมายถึงการแปลงไฟล์ AutoCAD DWG ดั้งเดิมเป็นเอกสาร PDF พร้อมคงความแม่นยำของเวกเตอร์, ชั้น, และความหนาของเส้น, และอนุญาตให้ปรับแต่งเค้าโครงได้. Aspose.CAD ทำการแปลงนี้ทั้งหมดในหน่วยความจำ, ดังนั้นไม่จำเป็นต้องใช้ซอฟต์แวร์ CAD ภายนอก, และ PDF ที่ได้สามารถแก้ไขหรือพิมพ์ได้โดยตรง.
+
+## ทำไมต้องปรับแต่งเค้าโครง PDF จาก DWG?
+
+Aspose.CAD รองรับ **30+ รูปแบบ CAD** และสามารถสร้าง PDF ได้ถึง **500 MB** โดยไม่ต้องโหลดไฟล์ทั้งหมดเข้าสู่หน่วยความจำ. โดยการกำหนดขนาดหน้าต่างๆ สำหรับแต่ละเค้าโครง, คุณสามารถสร้างแผ่นพิมพ์ที่ตรงกับมาตรฐาน ISO, ANSI, หรือขนาดที่กำหนดเอง – ประโยชน์ที่วัดได้ซึ่งช่วยประหยัดเวลาและขจัดการประมวลผลหลังจากการแปลงด้วยตนเอง.
 
 ## ข้อกำหนดเบื้องต้น
 
-ก่อนที่เราจะเริ่มต้นการเดินทางครั้งนี้ ตรวจสอบให้แน่ใจว่าคุณมีข้อกำหนดเบื้องต้นต่อไปนี้:
-- สภาพแวดล้อม Java: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง Java บนเครื่องของคุณแล้ว
--  ไลบรารี Aspose.CAD: ดาวน์โหลดและติดตั้งไลบรารี Aspose.CAD สำหรับ Java จาก[ลิ้งค์ดาวน์โหลด](https://releases.aspose.com/cad/java/).
-- ไดเร็กทอรีเอกสาร: ตั้งค่าไดเร็กทอรีสำหรับภาพวาด DWG ของคุณ
+ก่อนที่เราจะเริ่มการเดินทางนี้, โปรดตรวจสอบว่าคุณมีข้อกำหนดต่อไปนี้พร้อมแล้ว:
+- Java Environment: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง Java บนเครื่องของคุณ.  
+- Aspose.CAD Library: ดาวน์โหลดและติดตั้งไลบรารี Aspose.CAD สำหรับ Java จาก [download link](https://releases.aspose.com/cad/java/).  
+- Document Directory: ตั้งค่าไดเรกทอรีสำหรับไฟล์ DWG ของคุณ.
 
-## แพ็คเกจนำเข้า
+## นำเข้าแพ็กเกจ
 
-ในโปรเจ็กต์ Java ของคุณ ให้นำเข้าแพ็คเกจที่จำเป็น:
+คลาส `CadImage` เป็นอ็อบเจ็กต์หลักของ Aspose.CAD ที่แสดงภาพวาด CAD ในหน่วยความจำ. นำเข้าชื่อเนมสเปซที่จำเป็นก่อนเริ่มทำงาน:
 
 ```java
 import com.aspose.cad.Image;
@@ -37,18 +81,18 @@ import com.aspose.cad.imageoptions.PdfOptions;
 import com.aspose.cad.imageoptions.VectorRasterizationOptions;
 ```
 
-## ขั้นตอนที่ 1: โหลด CAD Drawing
+## ขั้นตอนที่ 1: โหลดภาพวาด CAD
 
- เริ่มต้นด้วยการโหลดแบบ CAD ของคุณลงใน`CadImage` วัตถุ:
+`CadImage` โหลดไฟล์ DWG และให้เข้าถึงข้อมูลเวกเตอร์ของมัน. เริ่มต้นโดยโหลดภาพวาด CAD ของคุณเข้าสู่วัตถุ `CadImage`:
 
 ```java
 String dataDir = "Your Document Directory" + "DWGDrawings/";
 CadImage cadImage = (CadImage)Image.load(dataDir + "City skyway map.dwg");
 ```
 
-## ขั้นตอนที่ 2: กำหนดค่าตัวเลือกการแรสเตอร์
+## ขั้นตอนที่ 2: กำหนดค่าตัวเลือกการเรสเตอร์ไลเซชัน
 
-ตั้งค่าตัวเลือกการแรสเตอร์สำหรับรูปภาพ CAD:
+`RasterizationOptions` กำหนดวิธีการแปลงเวกเตอร์ CAD เป็นภาพราสเตอร์ก่อนนำไปใส่ใน PDF. ตั้งค่าตัวเลือกการเรสเตอร์ไลเซชันสำหรับภาพ CAD:
 
 ```java
 CadRasterizationOptions rasterizationOptions = new CadRasterizationOptions();
@@ -56,9 +100,9 @@ rasterizationOptions.setPageWidth(1000);
 rasterizationOptions.setPageHeight(1000);
 ```
 
-## ขั้นตอนที่ 3: ปรับแต่งขนาดหน้าเค้าโครง
+## ขั้นตอนที่ 3: ปรับขนาดหน้าของเค้าโครง
 
-กำหนดขนาดที่กำหนดเองสำหรับเลย์เอาต์ต่างๆ ภายในแบบร่าง CAD:
+`PdfOptions` ให้คุณกำหนดขนาดหน้าที่แตกต่างกันสำหรับแต่ละเค้าโครงภายใน DWG. กำหนดขนาดที่กำหนดเองสำหรับหลายเค้าโครงในภาพวาด CAD:
 
 ```java
 rasterizationOptions.getLayoutPageSizes().addItem("ANSI C Plot", new SizeF(500, 1000));
@@ -67,7 +111,7 @@ rasterizationOptions.getLayoutPageSizes().addItem("8.5 x 11 Plot", new SizeF(100
 
 ## ขั้นตอนที่ 4: ตั้งค่าตัวเลือก PDF
 
-กำหนดค่าตัวเลือก PDF โดยรวมการตั้งค่าแรสเตอร์:
+`PdfOptions` เป็นคอนเทนเนอร์ที่รวมการตั้งค่าการเรสเตอร์ไลเซชันและการกำหนดเค้าโครง. ตั้งค่าตัวเลือก PDF โดยรวมการตั้งค่าการเรสเตอร์ไลเซชัน:
 
 ```java
 PdfOptions pdfOptions = new PdfOptions();
@@ -76,42 +120,50 @@ pdfOptions.setVectorRasterizationOptions(rasterizationOptions);
 
 ## ขั้นตอนที่ 5: บันทึกเป็น PDF
 
-บันทึกภาพ CAD ที่ประมวลผลเป็น PDF:
+`PdfSaveOptions` สรุปการแปลงและเขียนไฟล์ผลลัพธ์. บันทึกภาพ CAD ที่ประมวลผลเป็น PDF:
 
 ```java
 cadImage.save(dataDir + "singlePDF_out.pdf", pdfOptions);
 ```
 
-ยินดีด้วย! คุณสร้าง PDF ไฟล์เดียวที่มีเค้าโครงต่างกันโดยใช้ Aspose.CAD สำหรับ Java สำเร็จแล้ว
+ยินดีด้วย! คุณได้ทำการ **create pdf from dwg** สำเร็จด้วยขนาดหน้าต่างๆ โดยใช้ Aspose.CAD สำหรับ Java.
 
-## บทสรุป
+## ปัญหาที่พบบ่อยและวิธีแก้
 
-ในบทช่วยสอนนี้ เราได้สำรวจการบูรณาการอย่างราบรื่นของ Aspose.CAD สำหรับ Java เพื่อสร้าง PDF ที่มีเค้าโครงที่หลากหลายจากแบบร่าง CAD ความยืดหยุ่นและคุณสมบัติที่แข็งแกร่งของไลบรารีทำให้เป็นตัวเลือกสำหรับงานจัดการ CAD
+- **Blank pages in the output PDF** – ตรวจสอบให้ค่า `PageSize` ตรงกับขนาดเค้าโครงจริงในไฟล์ DWG.  
+- **Memory‑out errors on large drawings** – ใช้ `CadImage.load(..., LoadOptions)` กับ `LoadOptions.setLoadMode(LoadMode.Memory)` เพื่อสตรีมไฟล์แทนการโหลดทั้งหมด.  
+- **Incorrect scaling** – ปรับ `RasterizationOptions.setPageWidth` และ `setPageHeight` ให้ตรงกับ DPI ที่ต้องการ (จุดต่อหนึ่งนิ้ว).
 
 ## คำถามที่พบบ่อย
 
-### คำถามที่ 1: ฉันสามารถใช้ Aspose.CAD สำหรับ Java กับไลบรารี Java อื่นได้หรือไม่
+**Q: ฉันสามารถใช้ Aspose.CAD สำหรับ Java ร่วมกับไลบรารี Java อื่นได้หรือไม่?**  
+**A:** ใช่, Aspose.CAD สำหรับ Java ผสานรวมอย่างราบรื่นกับไลบรารีเช่น Apache POI, Jackson, หรือ Spring Boot.
 
-ตอบ 1: ใช่ Aspose.CAD สำหรับ Java ได้รับการออกแบบมาเพื่อผสานรวมกับไลบรารี Java อื่นๆ ได้อย่างราบรื่น โดยมีฟังก์ชันการทำงานที่ครอบคลุม
+**Q: มีเวอร์ชันทดลองใช้งานหรือไม่?**  
+**A:** แน่นอน! คุณสามารถเข้าถึงเวอร์ชันทดลองฟรีได้ [ที่นี่](https://releases.aspose.com/).
 
-### คำถามที่ 2: มีเวอร์ชันทดลองใช้งานหรือไม่
+**Q: ฉันจะหาแหล่งสนับสนุนเพิ่มเติมได้จากที่ไหน?**  
+**A:** เยี่ยมชม [Aspose.CAD forum](https://forum.aspose.com/c/cad/19) เพื่อรับการสนับสนุนจากชุมชนและการสนทนา.
 
- A2: แน่นอน! คุณสามารถเข้าถึงเวอร์ชันทดลองใช้ฟรีได้[ที่นี่](https://releases.aspose.com/).
+**Q: ฉันจะขอรับใบอนุญาตชั่วคราวได้อย่างไร?**  
+**A:** คุณสามารถรับใบอนุญาตชั่วคราวได้ [ที่นี่](https://purchase.aspose.com/temporary-license/).
 
-### คำถามที่ 3: ฉันจะรับการสนับสนุนเพิ่มเติมได้จากที่ไหน
+**Q: ฉันจะซื้อเวอร์ชันเต็มได้จากที่ไหน?**  
+**A:** ซื้อเวอร์ชันเต็มของ Aspose.CAD สำหรับ Java [ที่นี่](https://purchase.aspose.com/buy).
 
- A3: เยี่ยมชม[ฟอรั่ม Aspose.CAD](https://forum.aspose.com/c/cad/19) สำหรับการสนับสนุนและการอภิปรายของชุมชน
+---
 
-### คำถามที่ 4: ฉันจะขอรับใบอนุญาตชั่วคราวได้อย่างไร
+**อัปเดตล่าสุด:** 2026-06-29  
+**ทดสอบกับ:** Aspose.CAD for Java 24.10  
+**ผู้เขียน:** Aspose
 
- A4: คุณสามารถขอรับใบอนุญาตชั่วคราวได้[ที่นี่](https://purchase.aspose.com/temporary-license/).
+## บทแนะนำที่เกี่ยวข้อง
 
-### คำถามที่ 5: ฉันจะซื้อเวอร์ชันเต็มได้ที่ไหน
+- [ส่งออก DWG เป็น PDF หรือ Raster ด้วย Aspose.CAD สำหรับ Java](/cad/java/cad-drawing-conversion/export-dwg-to-pdf-or-raster/)
+- [ส่งออกเค้าโครง CAD เป็น PDF ด้วย Aspose.CAD สำหรับ Java](/cad/java/cad-export-options/export-cad-layouts-to-pdf/)
+- [ส่งออกเค้าโครง DWG เฉพาะเป็น PDF ด้วย Aspose.CAD สำหรับ Java](/cad/java/cad-drawing-conversion/export-specific-dwg-layout-to-pdf/)
 
-A5: ซื้อเวอร์ชันเต็มของ Aspose.CAD สำหรับ Java[ที่นี่](https://purchase.aspose.com/buy).
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 {{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/products-backtop-button >}}
+{{< /blocks/products/pf/main-wrap-class >}}

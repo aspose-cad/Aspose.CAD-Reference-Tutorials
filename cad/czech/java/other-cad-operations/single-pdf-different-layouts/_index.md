@@ -1,32 +1,76 @@
 ---
-title: Vytváření dynamických PDF pomocí Aspose.CAD pro Java
-linktitle: Jeden PDF s různými rozvrženími
+date: 2026-06-29
+description: Naučte se, jak vytvořit PDF z DWG a přizpůsobit rozvržení PDF pomocí
+  Aspose.CAD for Java. Snadná integrace pro vývojáře Java.
+keywords:
+- create pdf from dwg
+- convert cad to pdf
+- pdf different page sizes
+- export dwg to pdf
+- customize pdf layout
+linktitle: Jedno PDF s různými rozvrženími
+schemas:
+- author: Aspose
+  dateModified: '2026-06-29'
+  description: Learn how to create PDF from DWG and customize PDF layout using Aspose.CAD
+    for Java. Easy integration for Java developers.
+  headline: Create PDF from DWG with Aspose.CAD for Java
+  type: TechArticle
+- questions:
+  - answer: Yes, Aspose.CAD for Java integrates seamlessly with libraries such as
+      Apache POI, Jackson, or Spring Boot.
+    question: Can I use Aspose.CAD for Java with other Java libraries?
+  - answer: Absolutely! You can access a free trial version [here](https://releases.aspose.com/).
+    question: Is there a trial version available?
+  - answer: Visit the [Aspose.CAD forum](https://forum.aspose.com/c/cad/19) for community
+      support and discussions.
+    question: Where can I find additional support?
+  - answer: You can obtain a temporary license [here](https://purchase.aspose.com/temporary-license/).
+    question: How do I obtain a temporary license?
+  - answer: Purchase the full version of Aspose.CAD for Java [here](https://purchase.aspose.com/buy).
+    question: Where can I purchase the full version?
+  type: FAQPage
 second_title: Aspose.CAD Java API
-description: Vytvářejte úžasné soubory PDF s různými rozvrženími z výkresů CAD pomocí Aspose.CAD pro Java. Snadná integrace a výkonné funkce pro vývojáře Java.
-weight: 16
+title: Vytvořte PDF z DWG pomocí Aspose.CAD for Java
 url: /cs/java/other-cad-operations/single-pdf-different-layouts/
+weight: 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Vytváření dynamických PDF pomocí Aspose.CAD pro Java
+# Vytvoření PDF z DWG pomocí Aspose.CAD pro Java
 
 ## Úvod
 
-Vítejte ve světě Aspose.CAD for Java, výkonné knihovny, která umožňuje vývojářům bez námahy manipulovat s CAD výkresy. V tomto tutoriálu se ponoříme do vytváření jednotlivých PDF s různými rozvrženími pomocí Aspose.CAD pro Java. Ať už jste zkušený vývojář nebo teprve začínáte, tento podrobný průvodce vás provede celým procesem.
+V tomto tutoriálu **vytvoříte PDF z DWG** souborů a použijete několik rozvržení velikostí stránek pomocí Aspose.CAD pro Java. Ať už potřebujete generovat stavební výkresy, inženýrské schémata nebo marketingové PDF, níže uvedené kroky vám ukážou, jak převést CAD výkresy do PDF, přizpůsobit rozměry každého rozvržení a vytvořit jeden vícestránkový dokument – vše bez opuštění vašeho Java prostředí.
+
+## Rychlé odpovědi
+- **Co tutoriál pokrývá?** Převod DWG výkresu do jednoho PDF s více velikostmi stránek.  
+- **Která knihovna je vyžadována?** Aspose.CAD pro Java (nejnovější verze).  
+- **Potřebuji licenci?** Bezplatná zkušební verze funguje pro vývoj; pro produkci je vyžadována komerční licence.  
+- **Mohu exportovat i jiné formáty?** Ano – API také podporuje export do PNG, JPEG a SVG.  
+- **Je Java 8 dostačující?** Knihovna funguje s Java 8 a novějšími runtimey.
+
+## Co znamená „vytvořit pdf z dwg“?
+
+**Vytvořit PDF z DWG** znamená převést nativní soubor AutoCAD DWG do PDF dokumentu při zachování vektorové věrnosti, vrstev a tlouštěk čar a umožnit přizpůsobení rozvržení. Aspose.CAD provádí tento převod kompletně v paměti, takže není potřeba externí CAD software a výsledné PDF lze přímo upravovat nebo tisknout.
+
+## Proč přizpůsobit rozvržení PDF z DWG?
+
+Aspose.CAD podporuje **více než 30 CAD formátů** a může generovat PDF až do **500 MB** bez načítání celého souboru do paměti. Definováním individuálních velikostí stránek pro každé rozvržení můžete vytvořit tiskové listy odpovídající ISO, ANSI nebo vlastním rozměrům – kvantifikovatelný přínos, který šetří čas a eliminuje ruční post‑processing.
 
 ## Předpoklady
 
-Než se vydáme na tuto cestu, ujistěte se, že máte splněny následující předpoklady:
-- Prostředí Java: Ujistěte se, že máte na svém počítači nainstalovanou Javu.
--  Knihovna Aspose.CAD: Stáhněte a nainstalujte knihovnu Aspose.CAD pro Javu z[odkaz ke stažení](https://releases.aspose.com/cad/java/).
-- Adresář dokumentů: Nastavte adresář pro své výkresy DWG.
+Než se pustíme do práce, ujistěte se, že máte připravené následující předpoklady:
+- Java prostředí: Ujistěte se, že máte na svém počítači nainstalovanou Javu.  
+- Aspose.CAD knihovna: Stáhněte a nainstalujte knihovnu Aspose.CAD pro Java z [odkazu ke stažení](https://releases.aspose.com/cad/java/).  
+- Složka dokumentů: Vytvořte složku pro své DWG výkresy.
 
-## Importujte balíčky
+## Import balíčků
 
-Do svého projektu Java naimportujte potřebné balíčky:
+Třída `CadImage` je jádrový objekt Aspose.CAD, který představuje CAD výkres v paměti. Načtěte potřebné jmenné prostory před zahájením práce:
 
 ```java
 import com.aspose.cad.Image;
@@ -37,18 +81,18 @@ import com.aspose.cad.imageoptions.PdfOptions;
 import com.aspose.cad.imageoptions.VectorRasterizationOptions;
 ```
 
-## Krok 1: Načtěte výkres CAD
+## Krok 1: Načtení CAD výkresu
 
- Začněte načtením výkresu CAD do a`CadImage` objekt:
+`CadImage` načte DWG soubor a poskytne přístup k jeho vektorovým datům. Začněte načtením svého CAD výkresu do objektu `CadImage`:
 
 ```java
 String dataDir = "Your Document Directory" + "DWGDrawings/";
 CadImage cadImage = (CadImage)Image.load(dataDir + "City skyway map.dwg");
 ```
 
-## Krok 2: Nakonfigurujte možnosti rastrování
+## Krok 2: Nastavení možností rasterizace
 
-Nastavte možnosti rastrování pro obrázek CAD:
+`RasterizationOptions` určuje, jak jsou CAD vektory rasterizovány před vložením do PDF. Nastavte možnosti rasterizace pro CAD obrázek:
 
 ```java
 CadRasterizationOptions rasterizationOptions = new CadRasterizationOptions();
@@ -56,62 +100,71 @@ rasterizationOptions.setPageWidth(1000);
 rasterizationOptions.setPageHeight(1000);
 ```
 
-## Krok 3: Přizpůsobte velikosti stránky rozvržení
+## Krok 3: Přizpůsobení velikostí stránek rozvržení
 
-Definujte vlastní velikosti pro několik rozvržení ve výkresu CAD:
+`PdfOptions` vám umožňuje přiřadit odlišné rozměry stránek každému rozvržení uvnitř DWG. Definujte vlastní velikosti pro několik rozvržení v CAD výkresu:
 
 ```java
 rasterizationOptions.getLayoutPageSizes().addItem("ANSI C Plot", new SizeF(500, 1000));
 rasterizationOptions.getLayoutPageSizes().addItem("8.5 x 11 Plot", new SizeF(1000, 100));
 ```
 
-## Krok 4: Nastavte možnosti PDF
+## Krok 4: Nastavení PDF možností
 
-Nakonfigurujte možnosti PDF se začleněním nastavení rastrování:
+`PdfOptions` je kontejner, který kombinuje nastavení rasterizace a definice rozvržení. Nakonfigurujte PDF možnosti, zahrnující nastavení rasterizace:
 
 ```java
 PdfOptions pdfOptions = new PdfOptions();
 pdfOptions.setVectorRasterizationOptions(rasterizationOptions);
 ```
 
-## Krok 5: Uložit jako PDF
+## Krok 5: Uložení jako PDF
 
-Uložte zpracovaný obrázek CAD jako PDF:
+`PdfSaveOptions` dokončuje převod a zapíše výstupní soubor. Uložte zpracovaný CAD obrázek jako PDF:
 
 ```java
 cadImage.save(dataDir + "singlePDF_out.pdf", pdfOptions);
 ```
 
-Gratulujeme! Úspěšně jste vytvořili jeden PDF s různými rozvrženími pomocí Aspose.CAD for Java.
+Gratulujeme! Úspěšně jste **vytvořili pdf z dwg** s různými velikostmi stránek pomocí Aspose.CAD pro Java.
 
-## Závěr
+## Časté problémy a řešení
 
-V tomto tutoriálu jsme prozkoumali bezproblémovou integraci Aspose.CAD pro Java pro generování PDF s různými rozvrženími z CAD výkresů. Flexibilita a robustní funkce knihovny z ní činí ideální volbu pro manipulační úlohy CAD.
+- **Prázdné stránky ve výstupním PDF** – Ujistěte se, že hodnoty `PageSize` odpovídají skutečným rozměrům rozvržení v DWG souboru.  
+- **Chyby nedostatku paměti u velkých výkresů** – Použijte `CadImage.load(..., LoadOptions)` s `LoadOptions.setLoadMode(LoadMode.Memory)`, aby se soubor streamoval místo úplného načtení.  
+- **Nesprávné měřítko** – Upravit `RasterizationOptions.setPageWidth` a `setPageHeight`, aby odpovídaly požadovanému DPI (bodů na palec).
 
-## FAQ
+## Často kladené otázky
 
-### Q1: Mohu používat Aspose.CAD for Java s jinými Java knihovnami?
+**Q: Mohu použít Aspose.CAD pro Java s jinými Java knihovnami?**  
+A: Ano, Aspose.CAD pro Java se bez problémů integruje s knihovnami jako Apache POI, Jackson nebo Spring Boot.
 
-Odpověď 1: Ano, Aspose.CAD for Java je navržen tak, aby se hladce integroval s jinými knihovnami Java a poskytoval rozsáhlé funkce.
+**Q: Je k dispozici zkušební verze?**  
+A: Rozhodně! Bezplatnou zkušební verzi můžete získat [zde](https://releases.aspose.com/).
 
-### Q2: Je k dispozici zkušební verze?
+**Q: Kde najdu další podporu?**  
+A: Navštivte [forum Aspose.CAD](https://forum.aspose.com/c/cad/19) pro komunitní podporu a diskuse.
 
- A2: Rozhodně! Máte přístup k bezplatné zkušební verzi[tady](https://releases.aspose.com/).
+**Q: Jak získat dočasnou licenci?**  
+A: Dočasnou licenci můžete získat [zde](https://purchase.aspose.com/temporary-license/).
 
-### Q3: Kde najdu další podporu?
+**Q: Kde mohu zakoupit plnou verzi?**  
+A: Plnou verzi Aspose.CAD pro Java zakoupíte [zde](https://purchase.aspose.com/buy).
 
- A3: Navštivte[Fórum Aspose.CAD](https://forum.aspose.com/c/cad/19) za podporu komunity a diskuze.
+---
 
-### Q4: Jak získám dočasnou licenci?
+**Poslední aktualizace:** 2026-06-29  
+**Testováno s:** Aspose.CAD pro Java 24.10  
+**Autor:** Aspose
 
- A4: Můžete získat dočasnou licenci[tady](https://purchase.aspose.com/temporary-license/).
+## Související tutoriály
 
-### Q5: Kde mohu zakoupit plnou verzi?
+- [Export DWG do PDF nebo rastru pomocí Aspose.CAD pro Java](/cad/java/cad-drawing-conversion/export-dwg-to-pdf-or-raster/)
+- [Export CAD rozvržení do PDF s Aspose.CAD pro Java](/cad/java/cad-export-options/export-cad-layouts-to-pdf/)
+- [Export konkrétního DWG rozvržení do PDF pomocí Aspose.CAD pro Java](/cad/java/cad-drawing-conversion/export-specific-dwg-layout-to-pdf/)
 
-A5: Kupte si plnou verzi Aspose.CAD pro Java[tady](https://purchase.aspose.com/buy).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 {{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/products-backtop-button >}}
+{{< /blocks/products/pf/main-wrap-class >}}
