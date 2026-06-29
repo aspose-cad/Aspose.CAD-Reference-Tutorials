@@ -1,11 +1,10 @@
 ---
-date: 2025-12-09
-description: Dowiedz się, jak włączyć śledzenie DWG w Javie oraz jak konwertować DXF
-  do PDF w Javie przy użyciu Aspose.CAD. Ten przewodnik krok po kroku pokazuje pełny
-  przepływ pracy dla współpracujących projektów CAD.
+date: 2026-02-10
+description: Przewodnik krok po kroku, jak włączyć śledzenie w plikach DWG przy użyciu
+  Aspose.CAD dla Javy oraz jak konwertować DXF na PDF z własnym obsługiwaczem błędów.
 linktitle: Enable Tracking in DWG Files Using Java
 second_title: Aspose.CAD Java API
-title: Włącz śledzenie w plikach DWG przy użyciu Aspose.CAD w Javie
+title: Jak włączyć śledzenie w plikach DWG przy użyciu Aspose.CAD w Javie
 url: /pl/java/additional-features/enable-tracking/
 weight: 12
 ---
@@ -14,39 +13,41 @@ weight: 12
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Włącz śledzenie w plikach DWG przy użyciu Aspose.CAD w Javie
+# Jak włączyć w plikach DWG przy użyciu Aspose.CAD w Javie
 
-## Wprowadzenie
+## Wstęp
 
-W nowoczesnych przepływach pracy CAD możliwość **enable dwg tracking java** jest niezbędna dla zespołów, które muszą monitorować zmiany, wykrywać błędy wcześnie i utrzymywać wszystkich interesariuszy na bieżąco. Ten samouczek przeprowadzi Cię krok po kroku przez włączenie śledzenia dla plików DWG przy użyciu Aspose.CAD dla Javy, a po drodze zobaczysz także, jak **java convert dxf pdf** w ramach procesu eksportu. Po zakończeniu będziesz mieć gotowy fragment kodu, który nie tylko konwertuje, ale także raportuje wszelkie problemy z renderowaniem.
+Jeśli pracujesz nad współdzielonymi projektami CAD, dostępność **jak włączyć** w swoim przepływie pracy DWG jest przełomowa. Daje Ci wgląd w czasie problemów z renderowaniem, pozwala na obecność błędów i wszystkich zainteresowań, które występują. W tym samouczku przeprowadzimy Cię krok po kroku przez szczegółowe kroki włączenia aplikacji przy użyciu Aspose.CAD dla Javy, a także elementymy **jak konwertować DXF do PDF** w ramach tego samego potoku. Po usunięciu, gotowe do produkcji fragmentu kodu, który raportuje błędy za pomocą **niestandardowej klasy obsługi błędów Java** podczas eksportowania.
 
 ## Szybkie odpowiedzi
-- **Co robi „enable dwg tracking java”?** Aktywuje wywołania zwrotne obsługi błędów Aspose.CAD, dzięki czemu możesz zobaczyć problemy z renderowaniem podczas eksportu.  
-- **Czy potrzebna jest licencja?** Wersja próbna działa do testów; licencja komercyjna jest wymagana w produkcji.  
-- **Czy mogę także konwertować DXF do PDF?** Tak – te same `PdfOptions` użyte dla DWG działają dla DXF, spełniając scenariusz *java convert dxf pdf*.  
-- **Jakiej wersji JDK wymaga się?** Java 8 lub wyższa.  
-- **Gdzie mogę znaleźć więcej przykładów?** Sprawdź dokumentację Aspose.CAD Java pod linkiem poniżej.
+- **Co robi „enable dwg śledzenia java”?** Aktywuje wywołanie zwrotne obsługi błędów Aspose.CAD, dzięki czemu można zobaczyć problemy z renderowaniem podczas eksportu.
+- **Czy jest licencjat?** Wersja próbna działa do testów; licencjat komercyjny jest wymagany w produkcji.
+- **Czy mogę także konwertować DXF do PDF?** Tak – te same `PdfOptions` wykorzystywane dla DWG uzupełniające dla DXF, spełniając scenariusz *java konwertuj dxf pdf*.
+- **Jakiej wersji JDK wymaga?** Java 8 lub nowsza.
+- **Gdzie można znaleźć więcej zastosowań?** Sprawdź książkę Aspose.CAD Java pod linkiem poniżej.
 
-## Co to jest enable dwg tracking java?
-Włączenie śledzenia DWG w aplikacji Java oznacza podłączenie własnego obsługującego renderowanie, który przechwytuje ostrzeżenia, błędy i inne informacje diagnostyczne podczas rasteryzacji lub eksportu pliku CAD. Ta widoczność pomaga programistom debugować pipeline konwersji i zapewnia wyższą jakość dostarczanych produktów.
+## Jak włączyć śledzenie w plikach DWG przy użyciu Aspose.CAD
 
-## Dlaczego używać Aspose.CAD dla Javy?
-- **Pełne wsparcie CAD** – DWG, DXF, DGN i inne.  
-- **Brak zewnętrznych zależności** – czysta biblioteka Java, idealna do automatyzacji po stronie serwera.  
-- **Wbudowane śledzenie** – szczegółowe wyniki renderowania za pomocą `CadRenderHandler`.  
-- **Łatwy eksport do PDF** – konwersja w jednej linii przy zachowaniu danych wektorowych.
+Włączenie aplikacji DWG w aplikacji Java oznacza własne renderera, które przechwytuje, błędy i inne informacje diagnostyczne podczas rasteryzacji lub eksportu pliku CAD. Ta informacja pomaga programistom debugować potoki końcowe i zapewnia najwyższej jakości produkty dostarczane.
 
-## Prerequisites
+## Dlaczego warto używać Aspose.CAD dla Java?
 
-Zanim przejdziemy do implementacji, upewnij się, że masz następujące wymagania:
+- **Pełne wsparcie CAD** – DWG, DXF, DGN i inne.
+- **Brak zewnętrznych zależności** – czysta biblioteka Java, idealna do automatyzacji po stronie serwera.
+- **Wbudowane** – szczegółowe wyniki renderowania za pomocą `CadRenderHandler`.
+- **Łatwy eksport do PDF** – konwersja jednej linii przy zachowaniu danych wektorowych.
 
-- Java Development Kit (JDK): Upewnij się, że Java jest zainstalowana w Twoim systemie.
-- Aspose.CAD for Java: Pobierz i zainstaluj Aspose.CAD for Java z [download link](https://releases.aspose.com/cad/java/).
-- Katalog dokumentów: Przygotuj katalog, w którym znajdują się Twoje pliki DWG.
+## Warunki wstępne
 
-## Importowanie przestrzeni nazw
+Zanim przejdziemy do implementacji, zakończymy, że zostaną spełnione szczegółowe wymagania:
 
-W swoim projekcie Java rozpocznij od zaimportowania niezbędnych przestrzeni nazw, aby wykorzystać funkcje Aspose.CAD:
+- Java Development Kit (JDK): zastosowanie, że Java jest zainstalowana w systemie.
+- Aspose.CAD dla Java: Pobierz i zainstaluj Aspose.CAD dla Java z [link do pobrania](https://releases.aspose.com/cad/java/).
+- Katalog dokumentów: katalog, w którym znajdują się Twoje pliki DWG.
+
+## Importuj przestrzenie nazw
+
+W swoim środowisku Java rozpocznij od zaimportowania przestrzeni nazw, aby funkcje Aspose.CAD:
 
 ```java
 import com.aspose.cad.Image;
@@ -62,16 +63,16 @@ import java.io.OutputStream;
 
 ## Krok 1: Załaduj plik DWG
 
-Rozpocznij od załadowania pliku DWG (lub DXF) do aplikacji Java. Dostosuj ścieżkę pliku odpowiednio:
+Rozpocznij od załadowania pliku DWG (lub DXF) do swojej aplikacji Java. Dostosuj ścieżkę do pliku odpowiednio:
 
 ```java
 String dataDir = "Your Document Directory" + "DXFDrawings/";
 Image image = Image.load(dataDir + "conic_pyramid.dxf");
 ```
 
-## Krok 2: Skonfiguruj opcje eksportu PDF
+## Krok 2: Skonfiguruj opcje eksportu PDF (Jak przekonwertować DXF do PDF)
 
-Ustaw opcje eksportu PDF, określając opcje rasteryzacji wektorowej dla CAD. To także demonstruje możliwość *java convert dxf pdf*:
+Skonfiguruj opcje eksportu do PDF, określając opcje rasteryzacji wektorowej dla CAD. To także demonstruje możliwość *java convert dxf pdf*:
 
 ```java
 OutputStream stream = new FileOutputStream(dataDir + "output_conic_pyramid.pdf");
@@ -82,9 +83,9 @@ cadRasterizationOptions.setPageWidth(800);
 cadRasterizationOptions.setPageHeight(600);
 ```
 
-## Krok 3: Implementacja śledzenia
+## Krok 3: Wdróż śledzenie (niestandardowy moduł obsługi błędów Java)
 
-Zaimplementuj śledzenie przy użyciu własnej klasy obsługi błędów. Klasa ta przechwyci problemy z renderowaniem i wyświetli je w konsoli:
+Zaimplementuj śledzenie przy użyciu własnej klasy obsługi błędów. Ta klasa będzie przechwytywać problemy z renderowaniem i wyświetlać je w konsoli:
 
 ```java
 cadRasterizationOptions.RenderResult = new ErrorHandler();
@@ -123,38 +124,42 @@ public static class ErrorHandler extends CadRasterizationOptions.CadRenderHandle
 }
 ```
 
+## Dlaczego to ma znaczenie
+
+Włączając urządzenie, uzyskałeś dostęp do śledzenia audytu każdego kroku. Jest to szczególnie ważne w urządzeniach branżowych (architektura, inżynieria, budownictwo), gdy dowód dokładnego renderowania jest wymagany podczas audytów zgodności. Własna klasa obsługi błędów daje także możliwość logowania do systemu kontroli lub automatycznych testów.
+
 ## Typowe problemy i rozwiązania
 
-- **`NullPointerException` przy `RenderResult`** – Upewnij się, że używasz Aspose.CAD w wersji 23.10 lub nowszej; starsze wydania nie posiadają API `RenderResult`.  
-- **Plik nie znaleziony** – Sprawdź, czy `dataDir` wskazuje na właściwy folder i czy nazwa pliku jest dokładnie taka sama, łącznie z wielkością liter.  
-- **Brak wyjścia śledzenia** – Upewnij się, że własny `ErrorHandler` jest prawidłowo przypisany do `cadRasterizationOptions.RenderResult`.
+- **`NullPointerException` przy `RenderResult`** – działanie, które następuje, że Aspose.CAD w wersji 23.10 lub nowszej; starsze wydanie nie opracowane API `RenderResult`.
+- **Plik nie znaleziony** – Sprawdź, czy `dataDir` wskazuje na właściwy folder i czy nazwa pliku jest dokładnie równa, łącznie z wielkością litra.
+- **Brak wyjścia** – zastosowanie, że własne `ErrorHandler` jest poprawnie przypisane do `cadRasterizationOptions.RenderResult`.
 
-## Najczęściej zadawane pytania
+## Często zadawane pytania
 
-**Q:** Czy mogę włączyć śledzenie dla innych formatów plików CAD przy użyciu Aspose.CAD dla Javy?  
-A: Aspose.CAD głównie obsługuje śledzenie DWG. Dla innych formatów odwołaj się do oficjalnej dokumentacji.
+**P:** Czy mogę włączyć dla innych formatów plików CAD przy użyciu Aspose.CAD dla Java?
+A: Aspose.CAD jest obsługiwany przez DWG. Dla innych formatów można zastosować do przechowywania dokumentacji.
 
-**Q:** Jak mogę obsłużyć dodatkowe opcje eksportu w Aspose.CAD dla Javy?  
-A: Zapoznaj się z obszerną dokumentacją pod adresem [Aspose.CAD Java Documentation](https://reference.aspose.com/cad/java/).
+**Q:** Jak mogę obsłużyć dodatkowe wyposażenie eksportu w Aspose.CAD dla Java?
+O: Zapoznaj się z obszerną dokumentacją pod adresem [Dokumentacja Java Aspose.CAD](https://reference.aspose.com/cad/java/).
 
-**Q:** Czy dostępna jest wersja próbna Aspose.CAD dla Javy?  
-A: Tak, wersję próbną można uzyskać pod adresem [Aspose.CAD Free Trial](https://releases.aspose.com/).
+**P:** Czy dostępna jest wersja próbna Aspose.CAD dla Java?
+O: Tak, można spróbować uzyskać dostęp pod adresem [Bezpłatna wersja próbna Aspose.CAD](https://releases.aspose.com/).
 
-**Q:** Gdzie mogę uzyskać pomoc lub dyskutować o problemach związanych z Aspose.CAD dla Javy?  
-A: Odwiedź [Aspose.CAD forum](https://forum.aspose.com/c/cad/19) aby uzyskać wsparcie społeczności.
+**P:** Gdzie mogę uzyskać pomoc lub omówić problemy związane z Aspose.CAD dla Java?
+A: Odwiedź [forum Aspose.CAD](https://forum.aspose.com/c/cad/19), aby uzyskać wsparcie społeczności.
 
-**Q:** Jak uzyskać tymczasową licencję dla Aspose.CAD dla Javy?  
-A: Postępuj zgodnie z procesem opisanym pod adresem [Temporary License](https://purchase.aspose.com/temporary-license/).
+**Q:** Jak uzyskać tymczasową różnicę dla Aspose.CAD dla Java?
+A: Postępuj zgodnie z posiadaniem pod adresem [Licencja tymczasowa] (https://purchase.aspose.com/temporary-license/).
 
-## Zakończenie
+## Wniosek
 
-Włączenie śledzenia DWG w Javie przy użyciu Aspose.CAD nie tylko zapewnia wgląd w problemy konwersji, ale także usprawnia współpracę w procesach projektowych. Postępując zgodnie z powyższymi krokami, możesz **enable dwg tracking java**, konwertować DXF do PDF i radzić sobie z wszelkimi problemami renderowania w sposób elegancki.
+Włączenie oprogramowania DWG w Javie przy użyciu Aspose.CAD nie tylko zapewnia wgląd w problemy zdrowotne, ale także usprawnia urządzenia w procesach projektowania. Po zapewnieniu zgodności z krokami, można **w urządzeniu dostępnym**, konwertować DXF do PDF i urządzenia z określonymi funkcjami renderowania w elegancki sposób.
 
 ---
 
-**Last Updated:** 2025-12-09  
-**Tested With:** Aspose.CAD for Java 24.12  
-**Author:** Aspose  
+**Ostatnia aktualizacja:** 10.02.2026
+**Testowano z:** Aspose.CAD dla Java 24.12
+**Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
