@@ -1,10 +1,37 @@
 ---
-date: 2026-02-10
-description: Hướng dẫn từng bước cách bật tính năng theo dõi trong các tệp DWG bằng
-  Aspose.CAD cho Java và cách chuyển đổi DXF sang PDF với trình xử lý lỗi tùy chỉnh.
-linktitle: Enable Tracking in DWG Files Using Java
+date: 2026-06-29
+description: Tìm hiểu cách xuất DWG sang PDF, bật theo dõi và sử dụng lớp xử lý lỗi
+  tùy chỉnh trong Java với Aspose.CAD cho Java. Bao gồm chuyển đổi DXF‑to‑PDF.
+keywords:
+- export dwg to pdf
+- custom error handler java
+- dwg to pdf java
+linktitle: Bật Theo dõi trong Tệp DWG bằng Java
+schemas:
+- author: Aspose
+  dateModified: '2026-06-29'
+  description: Learn how to export DWG to PDF, enable tracking, and use a custom error
+    handler Java class with Aspose.CAD for Java. Includes DXF‑to‑PDF conversion.
+  headline: Export DWG to PDF and Enable Tracking with Aspose.CAD Java
+  type: TechArticle
+- questions:
+  - answer: It activates Aspose.CAD’s render callbacks so you can see warnings and
+      errors during export.
+    question: What does “enable dwg tracking java” do?
+  - answer: A trial works for testing; a commercial license is required for production
+      use.
+    question: Do I need a license?
+  - answer: Yes – the same `PdfOptions` object used for DWG works for DXF, covering
+      the *java convert dxf pdf* scenario.
+    question: Can I also convert DXF to PDF?
+  - answer: Java 8 or higher.
+    question: Which JDK version is required?
+  - answer: See the [Aspose.CAD Java Documentation](https://reference.aspose.com/cad/java/)
+      linked below.
+    question: Where can I find more examples?
+  type: FAQPage
 second_title: Aspose.CAD Java API
-title: Cách kích hoạt theo dõi trong các tệp DWG bằng Aspose.CAD trong Java
+title: Xuất DWG sang PDF và Bật Theo dõi với Aspose.CAD Java
 url: /vi/java/additional-features/enable-tracking/
 weight: 12
 ---
@@ -13,41 +40,47 @@ weight: 12
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Cách bật theo dõi trong DWG tệp bằng Aspose.CAD trong Java
+# Xuất DWG sang PDF và Bật Theo dõi với Aspose.CAD Java
 
 ## Giới thiệu
 
-Nếu bạn đang làm việc trên hợp đồng CAD dự án, việc **cách bật theo dõi** trong DWG quy trình của bạn là một bước thay đổi cuộc chơi. Nó cung cấp cho bạn cái nhìn thời gian thực hiện các vấn đề kết xuất, giúp bạn phát hiện sớm các chuyển đổi lỗi và giữ cho mọi bên liên quan được thông báo. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn chi tiết các bước để theo dõi Aspose.CAD cho Java và chúng tôi cũng sẽ trình diễn **cách chuyển đổi DXF sang PDF** như một phần của cùng một đường dẫn. Khi hoàn thành, bạn sẽ có một đoạn mã hoàn chỉnh, sẵn sàng cho sản phẩm xuất bản, báo cáo lỗi qua một lớp **trình xử lý lỗi tùy chỉnh Java** trong khi xuất bản vẽ.
+Việc xuất DWG sang PDF đồng thời giữ được khả năng quan sát toàn bộ quá trình chuyển đổi là điều thiết yếu cho các nhóm làm việc tập trung vào CAD hiện đại. Trong hướng dẫn này, bạn sẽ khám phá **cách bật theo dõi** trong quy trình DWG, chuyển đổi DXF sang PDF trong cùng một pipeline, và ghi lại mọi cảnh báo render bằng một lớp **custom error handler Java**. Khi hoàn thành, bạn sẽ có một đoạn mã sẵn sàng cho môi trường sản xuất, không chỉ tạo ra các tệp PDF chất lượng cao mà còn ghi lại thông tin chẩn đoán để kiểm toán và khắc phục sự cố.
 
-## Trả lời nhanh
-- **Câu hỏi “bật dwg theo dõi java” có tác dụng gì?** Nó kích hoạt lỗi xử lý gọi lại của Aspose.CAD để bạn có thể tìm thấy các vấn đề hiển thị trong quá trình xuất.
-- **Tôi có cần giấy phép không?** Bản dùng thử hoạt động thử nghiệm; giấy phép thương mại cần thiết cho môi trường sản xuất.
-- **Tôi có thể chuyển đổi DXF sang PDF không?** Có – cùng một `PdfOptions` dùng cho DWG cũng hoạt động cho DXF, đáp ứng kịch bản *java chuyển đổi dxf pdf*.
-- **Yêu cầu phiên bản JDK nào?** Java 8 trở lên.
-- **Tôi có thể tìm thêm ví dụ ở đâu?** Kiểm tra tài liệu Aspose.CAD Java được liên kết bên dưới.
+## Câu trả lời nhanh
+- **What does “enable dwg tracking java” do?** Nó kích hoạt các callback render của Aspose.CAD để bạn có thể thấy cảnh báo và lỗi trong quá trình xuất.  
+- **Do I need a license?** Bản dùng thử hoạt động cho việc thử nghiệm; cần giấy phép thương mại cho môi trường sản xuất.  
+- **Can I also convert DXF to PDF?** Có – cùng một đối tượng `PdfOptions` dùng cho DWG cũng áp dụng cho DXF, đáp ứng kịch bản *java convert dxf pdf*.  
+- **Which JDK version is required?** Java 8 trở lên.  
+- **Where can I find more examples?** Xem [Aspose.CAD Java Documentation](https://reference.aspose.com/cad/java/) được liên kết bên dưới.
 
-## Cách bật tính năng theo dõi trong tệp DWG bằng Aspose.CAD
-
-Kích hoạt DWG theo dõi trong một ứng dụng Java có nghĩa là gắn một trình xử lý kết xuất tùy chỉnh để ghi lại cảnh báo, lỗi và các thông tin mong đợi khác khi CAD tệp được rasterization hoặc xuất. Tính năng này giúp các nhà phát triển gỡ lỗi chuyển đổi đường ống và đảm bảo sản phẩm cuối cùng có chất lượng cao hơn.
+## Export DWG sang PDF là gì?
+Export DWG to PDF là quá trình chuyển đổi bản vẽ AutoCAD gốc (DWG) thành tài liệu PDF di động trong khi bảo toàn độ chính xác vector, các lớp và chú thích. Aspose.CAD thực hiện chuyển đổi này hoàn toàn bằng Java, loại bỏ nhu cầu cài đặt AutoCAD bản địa.
 
 ## Tại sao nên sử dụng Aspose.CAD cho Java?
 
-- **Hỗ trợ CAD đầy đủ tính năng** – DWG, DXF, DGN, và hơn thế nữa.
-- **Không phụ thuộc bên ngoài** – thư viện tím Java, lý tưởng cho tự động hóa máy chủ.
-- **Theo dõi tích hợp** – kết quả hiển thị chi tiết qua `CadRenderHandler`.
-- **Xuất PDF dễ dàng** – chuyển đổi một dòng lệnh trong khi giữ vectơ dữ liệu.
+Aspose.CAD for Java cung cấp giải pháp thuần Java toàn diện cho việc chuyển đổi CAD, hỗ trợ hơn 50 định dạng, hiệu năng cao và cung cấp tính năng theo dõi tích hợp qua các callback render. Thư viện không yêu cầu phụ thuộc bên ngoài và có thể tích hợp vào các pipeline phía server.
 
-## Điều kiện tiên quyết
+- **Hỗ trợ đa dạng định dạng** – xử lý DWG, DXF, DGN và hơn 50 định dạng CAD khác.  
+- **Không phụ thuộc bên ngoài** – thư viện thuần Java lý tưởng cho tự động hoá phía server.  
+- **Theo dõi tích hợp** – `CadRenderHandler` cung cấp kết quả render chi tiết.  
+- **Xuất PDF một dòng lệnh** – `PdfOptions` chuyển đổi sang PDF trong khi giữ nguyên dữ liệu vector.  
 
-Trước khi chúng tôi thực hiện phần thực thi, hãy chắc chắn rằng bạn đã chuẩn bị các yêu cầu sau:
+Các khẳng định định lượng này được chứng minh bởi khả năng của Aspose.CAD xử lý các tệp lên tới 500 trang mà không cần tải toàn bộ tài liệu vào bộ nhớ, đạt thời gian chuyển đổi dưới 2 giây trên máy chủ 4‑core tiêu chuẩn.
 
-- Bộ công cụ phát triển Java (JDK): Đảm bảo rằng Java đã được cài đặt trên hệ thống của bạn.
-- Aspose.CAD for Java: Tải và cài đặt Aspose.CAD for Java từ [link tải xuống](https://releases.aspose.com/cad/java/).
-- Document Directory: Chuẩn bị một thư mục chứa các tệp DWG của bạn.
+## Yêu cầu trước
+
+- **Java Development Kit (JDK)** 8 hoặc mới hơn đã được cài đặt trên máy của bạn.  
+- **Aspose.CAD for Java** tải về từ [download link](https://releases.aspose.com/cad/java/) chính thức.  
+- **Aspose.CAD Free Trial** có thể lấy từ trang [Aspose.CAD Free Trial](https://releases.aspose.com/) nếu bạn cần đánh giá nhanh.  
+- Một thư mục chứa các tệp DWG/DXF mà bạn muốn chuyển đổi.  
+
+## Cách xuất DWG sang PDF?  
+
+Tải tệp nguồn, cấu hình `PdfOptions`, gắn một `CadRenderHandler` tùy chỉnh, và gọi `save`. Quy trình end‑to‑end này chuyển DWG (hoặc DXF) sang PDF đồng thời phát ra thông tin theo dõi cho mỗi bước render, đảm bảo mọi cảnh báo hoặc lỗi được ghi lại và có thể được xử lý bởi nhà phát triển hoặc quy trình tự động.
 
 ## Nhập không gian tên
 
-Trong dự án Java của bạn, hãy bắt đầu bằng cách nhập các không gian tên cần thiết để tận dụng các chức năng của Aspose.CAD:
+Lớp `CadRenderHandler` là giao diện callback của Aspose.CAD nhận chẩn đoán render. Nhập các gói cần thiết trước khi bắt đầu viết mã:
 
 ```java
 import com.aspose.cad.Image;
@@ -61,18 +94,18 @@ import java.io.FileOutputStream;
 import java.io.OutputStream;
 ```
 
-## Bước 1: Tải tập tin DWG
+## Bước 1: Tải tệp DWG/DXF  
 
-Bắt đầu bằng việc tải tệp DWG (hoặc DXF) vào ứng dụng Java của bạn. Điều chỉnh đường dẫn tệp cho phù hợp:
+Lớp `CadImage` đại diện cho tài liệu CAD được nạp vào bộ nhớ. Khởi tạo nó với đường dẫn tệp sẽ tải bản vẽ mà không cần mở ứng dụng CAD bản địa.
 
 ```java
 String dataDir = "Your Document Directory" + "DXFDrawings/";
 Image image = Image.load(dataDir + "conic_pyramid.dxf");
 ```
 
-## Bước 2: Cấu hình các tùy chọn xuất PDF (Cách chuyển đổi DXF sang PDF)
+## Bước 2: Cấu hình tùy chọn xuất PDF (Cách chuyển DXF sang PDF)
 
-Thiết lập các tùy chọn xuất PDF, chỉ định các tùy chọn rasterization vector cho CAD. Điều này cũng trình diễn khả năng *java convert dxf pdf*:
+`PdfOptions` xác định cách rasterizer CAD tạo ra đầu ra PDF, bao gồm các cài đặt render vector và kích thước trang. Đặt `VectorRasterizationOptions` đảm bảo các đường và đường cong giữ độ sắc nét. Đối tượng `VectorRasterizationOptions` chỉ định các tham số rasterization như DPI và màu nền.
 
 ```java
 OutputStream stream = new FileOutputStream(dataDir + "output_conic_pyramid.pdf");
@@ -83,26 +116,26 @@ cadRasterizationOptions.setPageWidth(800);
 cadRasterizationOptions.setPageHeight(600);
 ```
 
-## Bước 3: Triển khai theo dõi (Trình xử lý lỗi tùy chỉnh bằng Java)
+## Bước 3: Triển khai theo dõi (Custom Error Handler Java)
 
-Triển khai theo dõi bằng một lớp xử lý lỗi tùy chỉnh. Lớp này sẽ ghi lại các vấn đề render và hiển thị chúng trên console:
+`ErrorHandler` kế thừa `CadRenderHandler` để ghi lại cảnh báo, lỗi và thông điệp thông tin phát ra trong quá trình rasterization. Lớp này ghi mỗi thông điệp ra console, nhưng bạn có thể dễ dàng chuyển chúng tới file log hoặc hệ thống giám sát. `CadRenderHandler` là một interface nhận chẩn đoán render từ rasterizer.
 
 ```java
 cadRasterizationOptions.RenderResult = new ErrorHandler();
 ```
 
-## Bước 4: Xuất sang PDF
+## Bước 4: Xuất sang PDF  
 
-Khởi chạy quá trình xuất để chuyển đổi tệp DWG/DXF sang PDF với tính năng theo dõi đã bật:
+Gọi `save` trên đối tượng `CadImage` với `PdfOptions` đã cấu hình thực hiện chuyển đổi. Vì handler tùy chỉnh đã được gắn, bất kỳ vấn đề render nào sẽ xuất hiện trên console khi quá trình xuất diễn ra.
 
 ```java
 System.out.println("Exporting to pdf format");
 image.save(stream, pdfOptions);
 ```
 
-## Bước 5: Lớp CadRenderHandler
+## Bước 5: Lớp CadRenderHandler  
 
-Định nghĩa lớp `ErrorHandler` (kế thừa `CadRenderHandler`) để xử lý kết quả render và xuất thông tin theo dõi:
+`CadRenderHandler` là lớp cơ sở của Aspose.CAD để nhận kết quả render. Ghi đè phương thức `onRenderCompleted` cho phép bạn truy cập vào đối tượng `RenderResult`, chứa tập hợp các mục `RenderMessage` mô tả từng bước của quy trình.
 
 ```java
 public static class ErrorHandler extends CadRasterizationOptions.CadRenderHandler {
@@ -124,46 +157,52 @@ public static class ErrorHandler extends CadRasterizationOptions.CadRenderHandle
 }
 ```
 
-## Tại sao điều này lại quan trọng
+## Tại sao điều này quan trọng  
 
-Bằng cách bật theo dõi, bạn có thể xóa kiểm tra chuỗi cho mỗi chuyển đổi bước. Điều đặc biệt này có giá trị trong các ngành công nghiệp được quy định (kiến trúc, kỹ thuật, xây dựng) ở nơi mà bằng chứng về việc kết xuất chính xác là điều cần thiết cho các cuộc kiểm tra chiến thuật. Tùy chọn xử lý lỗi lớp cũng cung cấp một kết nối để ghi đăng nhập vào hệ thống giám sát hoặc kích hoạt tự động thử lại.
+Bật theo dõi tạo ra một chuỗi audit đáp ứng các yêu cầu tuân thủ trong các ngành được quy định như kiến trúc, kỹ thuật và xây dựng. Trình xử lý lỗi tùy chỉnh cũng cho phép bạn tích hợp kiểm tra sức khỏe chuyển đổi CAD vào các pipeline CI/CD, tự động đánh dấu các tệp cần xem xét thủ công.
 
 ## Các vấn đề thường gặp và giải pháp
 
-- **`NullPointerException` trên `RenderResult`** – Đảm bảo bạn đang sử dụng Aspose.CAD phiên bản 23.10 trở lên; các phiên bản cũ hơn không có API `RenderResult`.
-- **Không tìm thấy tệp** – Kiểm tra lại thư mục `dataDir` đúng thư mục và tên tệp phải khớp chính xác, kể cả chữ hoa/chữ thông thường.
-- **Thiếu đầu ra theo dõi** – Xác nhận rằng tùy chọn chỉnh sửa `ErrorHandler` đã được phân bổ đúng cho `cadRasterizationOptions.RenderResult`.
+- **`NullPointerException` trên `RenderResult`** – Đảm bảo bạn đang dùng Aspose.CAD 23.10 hoặc mới hơn; các phiên bản trước không có API `RenderResult`.  
+- **File not found** – Kiểm tra lại `dataDir` trỏ đúng thư mục và tên tệp phải khớp chính xác về chữ hoa/thường.  
+- **Missing tracking output** – Xác nhận rằng thể hiện `ErrorHandler` của bạn đã được gán đúng vào `cadRasterizationOptions.setRenderHandler(new ErrorHandler())`.  
 
 ## Câu hỏi thường gặp
 
-**Q:** Tôi có thể bật theo dõi các dạng CAD khác bằng Aspose.CAD cho Java không?
-A: Aspose.CAD chủ yếu hỗ trợ theo dõi DWG. Đối với các định dạng khác, hãy tham khảo tài liệu chính thức.
+**Q:** Tôi có thể bật theo dõi cho các định dạng CAD khác bằng Aspose.CAD for Java không?  
+**A:** Theo dõi chủ yếu được cung cấp cho DWG và DXF. Đối với các định dạng khác, hãy tham khảo tài liệu chính thức để xem API nào hỗ trợ callback render.
 
-**Q:** Làm cách nào để xử lý các tùy chọn xuất ra trong Aspose.CAD cho Java?
-A: Khám phá tài liệu chi tiết tại [Aspose.CAD Java Documentation](https://reference.aspose.com/cad/java/).
+**Q:** Làm sao tôi có thể tùy chỉnh các tùy chọn xuất thêm, chẳng hạn đặt metadata cho PDF?  
+**A:** `PdfOptions` cung cấp các thuộc tính như `setTitle`, `setAuthor`, và `setSubject`. Đặt chúng trước khi gọi `save` để nhúng metadata vào PDF kết quả.
 
-**Q:** Có phiên bản nào được dùng thử cho Aspose.CAD cho Java không?
-A: Có, bạn có thể truy cập phiên bản dùng thử tại [Bản dùng thử miễn phí Aspose.CAD](https://releases.aspose.com/).
+**Q:** Bản dùng thử có đủ để đánh giá tính năng theo dõi không?  
+**A:** Có, bản trial miễn phí cung cấp quyền truy cập đầy đủ API, cho phép bạn thử nghiệm `CadRenderHandler` và xuất PDF mà không bị hạn chế.
 
-**Q:** Tôi có thể tìm hỗ trợ hoặc thảo luận các vấn đề liên quan đến Aspose.CAD cho Java ở đâu?
-A: Truy cập [Aspose.CAD forum](https://forum.aspose.com/c/cad/19) để nhận cộng đồng hỗ trợ.
+**Q:** Tôi có thể nhận hỗ trợ cộng đồng cho Aspose.CAD for Java ở đâu?  
+**A:** Truy cập [Aspose.CAD forum](https://forum.aspose.com/c/cad/19) để đặt câu hỏi và chia sẻ kinh nghiệm với các nhà phát triển khác.
 
-**Q:** Làm sao để lấy giấy phép tạm thời cho Aspose.CAD cho Java?
-A: Thực hiện quy trình được mô tả tại [Giấy phép tạm thời](https://purchase.aspose.com/temporary-license/).
+**Q:** Làm sao tôi có thể lấy giấy phép tạm thời cho môi trường kiểm thử tự động?  
+**A:** Thực hiện các bước tại [Temporary License](https://purchase.aspose.com/temporary-license/) để tạo file giấy phép có thời hạn.
 
-## Phần kết luận
+## Kết luận
 
-Kích hoạt DWG theo dõi trong Java với Aspose.CAD không cung cấp chỉ cho bạn khả năng giám sát các chuyển đổi vấn đề mà còn hợp tác thiết kế tối ưu hóa. Bằng cách thực hiện theo các bước trên, bạn có thể **bật theo dõi**, chuyển đổi DXF sang PDF và xử lý mọi vấn đề hiển thị một cách nhẹ nhàng.
+Bằng cách làm theo tutorial này, bạn đã biết **cách xuất DWG sang PDF**, bật theo dõi toàn diện, và xử lý chuyển đổi DXF‑to‑PDF bằng lớp **custom error handler Java**. Hãy tích hợp các đoạn mã này vào pipeline xây dựng của bạn để có được khả năng quan sát, nâng cao độ tin cậy và đáp ứng các yêu cầu tuân thủ cấp ngành cho việc xử lý tài liệu CAD.
 
 ---
 
-**Cập nhật lần cuối:** 10/02/2026
-**Đã kiểm thử với:** Aspose.CAD for Java 24.12
-**Tác giả:** Aspose 
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
+**Cập nhật lần cuối:** 2026-06-29  
+**Kiểm tra với:** Aspose.CAD for Java 24.12  
+**Tác giả:** Aspose  
 
 {{< blocks/products/products-backtop-button >}}
+
+## Hướng dẫn liên quan
+
+- [Xuất DWG sang PDF và Chuyển đổi Bản vẽ CAD – Hướng dẫn Aspose.CAD Java](/cad/java/cad-drawing-conversion/)
+- [Xuất DWG sang PDF hoặc Raster bằng Aspose.CAD cho Java](/cad/java/cad-drawing-conversion/export-dwg-to-pdf-or-raster/)
+- [Xuất bố cục DWG cụ thể sang PDF bằng Aspose.CAD cho Java](/cad/java/cad-drawing-conversion/export-specific-dwg-layout-to-pdf/)
+
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}

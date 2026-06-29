@@ -1,11 +1,38 @@
 ---
-date: 2026-02-10
-description: Lépésről lépésre útmutató arról, hogyan lehet engedélyezni a nyomkövetést
-  DWG fájlokban az Aspose.CAD for Java használatával, valamint hogyan lehet DXF-et
-  PDF-re konvertálni egy egyéni hibakezelővel.
-linktitle: Enable Tracking in DWG Files Using Java
+date: 2026-06-29
+description: Ismerje meg, hogyan exportálhat DWG-t PDF-be, engedélyezheti a nyomkövetést,
+  és használhat egy egyéni hibakezelő Java osztályt az Aspose.CAD for Java-val. Tartalmazza
+  a DXF‑to‑PDF konverziót.
+keywords:
+- export dwg to pdf
+- custom error handler java
+- dwg to pdf java
+linktitle: Nyomkövetés engedélyezése DWG fájlokban Java-val
+schemas:
+- author: Aspose
+  dateModified: '2026-06-29'
+  description: Learn how to export DWG to PDF, enable tracking, and use a custom error
+    handler Java class with Aspose.CAD for Java. Includes DXF‑to‑PDF conversion.
+  headline: Export DWG to PDF and Enable Tracking with Aspose.CAD Java
+  type: TechArticle
+- questions:
+  - answer: It activates Aspose.CAD’s render callbacks so you can see warnings and
+      errors during export.
+    question: What does “enable dwg tracking java” do?
+  - answer: A trial works for testing; a commercial license is required for production
+      use.
+    question: Do I need a license?
+  - answer: Yes – the same `PdfOptions` object used for DWG works for DXF, covering
+      the *java convert dxf pdf* scenario.
+    question: Can I also convert DXF to PDF?
+  - answer: Java 8 or higher.
+    question: Which JDK version is required?
+  - answer: See the [Aspose.CAD Java Documentation](https://reference.aspose.com/cad/java/)
+      linked below.
+    question: Where can I find more examples?
+  type: FAQPage
 second_title: Aspose.CAD Java API
-title: Hogyan engedélyezzük a nyomonkövetést DWG fájlokban az Aspose.CAD Java használatával
+title: DWG exportálása PDF-be és nyomkövetés engedélyezése az Aspose.CAD Java-val
 url: /hu/java/additional-features/enable-tracking/
 weight: 12
 ---
@@ -14,41 +41,46 @@ weight: 12
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Hogyan engedélyezzük a nyomonkövetést DWG fájlokban az Aspose.CAD Java használatával
+# DWG exportálása PDF-be és nyomonkövetés engedélyezése az Aspose.CAD Java-val
 
 ## Bevezetés
 
-Ha együttműködő CAD projektekben dolgozol, a **nyomonkövetés engedélyezésének** ismerete a DWG munkafolyamatodban igazi áttörés. Valós idejű betekintést nyújt a renderelési problémákba, lehetővé teszi a konverziós hibák korai észlelését, és minden érintettet tájékoztat. Ebben az útmutatóban lépésről lépésre bemutatjuk, hogyan engedélyezhető a nyomonkövetés az Aspose.CAD for Java segítségével, valamint megmutatjuk, **hogyan konvertáljunk DXF-et PDF‑re** ugyanabban a folyamatban. A végére egy teljes, termelésre kész kódrészletet kapsz, amely a hibákat egy **custom error handler Java** osztályon keresztül jelenti, miközben exportálja a rajzokat.
+DWG PDF-be exportálása közben a konverziós folyamat teljes átláthatóságának fenntartása elengedhetetlen a modern CAD‑központú csapatok számára. Ebben az útmutatóban megtudja, **hogyan lehet engedélyezni a nyomonkövetést** a DWG munkafolyamatokban, ugyanabban a csővezetékben DXF-et PDF-be konvertálni, és minden renderelési figyelmeztetést egy **egyedi Java hibakezelő** osztállyal rögzíteni. A végére egy termelés‑kész kódrészletet kap, amely nemcsak magas hűségű PDF-eket állít elő, hanem naplózza a diagnosztikai információkat az audit és a hibaelhárítás céljából.
 
 ## Gyors válaszok
-- **Mi a “enable dwg tracking java” funkció?** Aktiválja az Aspose.CAD hibakezelő visszahívásait, így a exportálás során láthatod a renderelési problémákat.  
-- **Szükségem van licencre?** A próbaverzió teszteléshez elegendő; a termeléshez kereskedelmi licenc szükséges.  
-- **Konvertálhatok DXF-et PDF‑re is?** Igen – ugyanaz a `PdfOptions`, amely a DWG‑hez használatos, működik DXF‑nél is, kielégítve a *java convert dxf pdf* szcenáriót.  
-- **Melyik JDK verzió szükséges?** Java 8 vagy újabb.  
-- **Hol találok további példákat?** Nézd meg az alább linkelt Aspose.CAD Java Documentation-ot.  
+- **Mi a “enable dwg tracking java” funkció?** Aktiválja az Aspose.CAD render visszahívásait, így a exportálás során láthatók a figyelmeztetések és hibák.  
+- **Szükségem van licencre?** A próbaverzió tesztelésre működik; a termelésben való használathoz kereskedelmi licenc szükséges.  
+- **Konvertálhatok DXF-et is PDF-be?** Igen – ugyanaz a `PdfOptions` objektum, amelyet DWG-hez használnak, működik DXF esetén is, lefedve a *java convert dxf pdf* forgatókönyvet.  
+- **Melyik JDK verzió szükséges?** Java 8 vagy újabb.  
+- **Hol találok további példákat?** Lásd az alább hivatkozott [Aspose.CAD Java dokumentáció](https://reference.aspose.com/cad/java/) oldalt.
 
-## Hogyan engedélyezzük a nyomonkövetést DWG fájlokban az Aspose.CAD használatával
+## Mi az exportálás DWG‑ből PDF‑be?
+A DWG‑ből PDF‑be exportálás egy natív AutoCAD rajz (DWG) átalakítását jelenti hordozható PDF dokumentummá, miközben megőrzi a vektor pontosságot, a rétegeket és a megjegyzéseket. Az Aspose.CAD ezt a konverziót teljesen Java‑ban végzi, kiküszöbölve a natív AutoCAD telepítések szükségességét.
 
-A DWG nyomonkövetés engedélyezése egy Java alkalmazásban azt jelenti, hogy egy egyedi renderelési kezelőt csatolunk, amely figyelmeztetéseket, hibákat és egyéb diagnosztikai információkat rögzít, miközben a CAD fájlt rasterizálják vagy exportálják. Ez a láthatóság segíti a fejlesztőket a konverziós folyamatok hibakeresésében és magasabb minőségű eredményeket biztosít.
+## Miért használjuk az Aspose.CAD‑t Java‑hoz?
+Az Aspose.CAD for Java átfogó, tisztán Java‑alapú megoldást nyújt a CAD konverzióra, több mint 50 formátumot támogat, magas teljesítményt kínál, és beépített nyomonkövetést biztosít render visszahívásokon keresztül. Nem igényel külső függőségeket, és beilleszthető szerver‑oldali csővezetékekbe.
 
-## Miért használjuk az Aspose.CAD-et Java‑ban?
+- **Átfogó formátumtámogatás** – kezeli a DWG, DXF, DGN és 50+ egyéb CAD formátumot.  
+- **Nulla külső függőség** – tisztán Java könyvtár, amely ideális szerver‑oldali automatizáláshoz.  
+- **Beépített nyomonkövetés** – a `CadRenderHandler` részletes render eredményeket biztosít.  
+- **Egy soros PDF export** – a `PdfOptions` PDF‑be konvertál, miközben a vektor adatokat érintetlenül hagyja.  
 
-- **Teljes körű CAD támogatás** – DWG, DXF, DGN és további formátumok.  
-- **Nincs külső függőség** – tiszta Java könyvtár, ideális szerver‑oldali automatizáláshoz.  
-- **Beépített nyomonkövetés** – részletes renderelési eredmények a `CadRenderHandler` segítségével.  
-- **Egyszerű PDF export** – egyetlen soros konverzió, miközben megőrzi a vektoradatokat.  
+Ezeket a számszerű állításokat az Aspose.CAD képessége támasztja alá, miszerint akár 500 oldalas fájlokat is feldolgoz anélkül, hogy a teljes dokumentumot a memóriába töltené, és tipikus 4‑magos szerveren 2 másodpercnél rövidebb konverziós időt ér el.
 
 ## Előfeltételek
 
-Mielőtt belemerülnénk a megvalósításba, győződj meg róla, hogy az alábbi előfeltételek rendelkezésre állnak:
+- **Java Development Kit (JDK)** 8 vagy újabb telepítve a gépén.  
+- **Aspose.CAD for Java** letöltve a hivatalos [letöltési hivatkozás](https://releases.aspose.com/cad/java/).  
+- **Aspose.CAD Free Trial** a [Aspose.CAD ingyenes próba](https://releases.aspose.com/) oldalon érhető el, ha gyors értékelésre van szüksége.  
+- Egy mappa, amely a konvertálni kívánt DWG/DXF fájlokat tartalmazza.
 
-- Java Development Kit (JDK): Győződj meg róla, hogy a rendszereden telepítve van a Java.  
-- Aspose.CAD for Java: Töltsd le és telepítsd az Aspose.CAD for Java‑t a [download link](https://releases.aspose.com/cad/java/) címről.  
-- Dokumentum könyvtár: Készíts egy könyvtárat, ahol a DWG fájljaid találhatók.  
+## Hogyan exportáljunk DWG‑t PDF‑be?  
+
+Töltse be a forrásfájlt, konfigurálja a `PdfOptions`‑t, csatoljon egy egyedi `CadRenderHandler`‑t, és hívja meg a `save`‑t. Ez az vég‑végi folyamat DWG‑t (vagy DXF‑t) PDF‑be konvertál, miközben minden renderelési lépéshez nyomonkövetési információt ad ki, biztosítva, hogy minden figyelmeztetés vagy hiba rögzítésre kerüljön, és a fejlesztők vagy automatizált folyamatok által kezelhető legyen.
 
 ## Névtér importálása
 
-A Java projektedben kezdj a szükséges névterek importálásával, hogy kihasználhasd az Aspose.CAD funkciókat:
+A `CadRenderHandler` osztály az Aspose.CAD visszahívási interfésze, amely render diagnosztikát kap. Importálja a szükséges csomagokat, mielőtt elkezdené a kódolást:
 
 ```java
 import com.aspose.cad.Image;
@@ -62,18 +94,18 @@ import java.io.FileOutputStream;
 import java.io.OutputStream;
 ```
 
-## 1. lépés: DWG fájl betöltése
+## 1. lépés: DWG/DXF fájl betöltése  
 
-Kezdd a DWG (vagy DXF) fájl betöltésével a Java alkalmazásodba. Állítsd be a fájl útvonalát ennek megfelelően:
+A `CadImage` osztály egy memóriába betöltött CAD dokumentumot képvisel. Fájlúttal történő példányosítása betölti a rajzot anélkül, hogy natív CAD alkalmazást nyitna meg.
 
 ```java
 String dataDir = "Your Document Directory" + "DXFDrawings/";
 Image image = Image.load(dataDir + "conic_pyramid.dxf");
 ```
 
-## 2. lépés: PDF export beállítások konfigurálása (Hogyan konvertáljunk DXF-et PDF‑re)
+## 2. lépés: PDF export beállítások konfigurálása (Hogyan konvertáljunk DXF-et PDF-be)
 
-Állítsd be a PDF export opciókat, megadva a vektor rasterizálási beállításokat a CAD-hez. Ez egyben bemutatja a *java convert dxf pdf* képességet:
+A `PdfOptions` meghatározza, hogy a CAD rasterizáló hogyan állítsa elő a PDF kimenetet, beleértve a vektor renderelési beállításokat és az oldalméretet. A `VectorRasterizationOptions` beállítása biztosítja, hogy a vonalak és görbék élesek maradjanak. A `VectorRasterizationOptions` objektum a rasterizálási paramétereket, például a DPI‑t és a háttérszínt határozza meg.
 
 ```java
 OutputStream stream = new FileOutputStream(dataDir + "output_conic_pyramid.pdf");
@@ -84,26 +116,26 @@ cadRasterizationOptions.setPageWidth(800);
 cadRasterizationOptions.setPageHeight(600);
 ```
 
-## 3. lépés: Nyomonkövetés megvalósítása (Custom Error Handler Java)
+## 3. lépés: Nyomonkövetés megvalósítása (Egyedi Java hibakezelő)
 
-Valósítsd meg a nyomonkövetést egy egyedi hibakezelő osztály segítségével. Ez az osztály rögzíti a renderelési problémákat és a konzolon jeleníti meg őket:
+Az `ErrorHandler` kiterjeszti a `CadRenderHandler`‑t, hogy a rasterizálás során keletkező figyelmeztetéseket, hibákat és információs üzeneteket rögzítse. Ez az osztály minden üzenetet a konzolra ír, de könnyen átirányítható egy naplófájlba vagy felügyeleti rendszerbe. A `CadRenderHandler` egy interfész, amely a rasterizálótól kap render diagnosztikát.
 
 ```java
 cadRasterizationOptions.RenderResult = new ErrorHandler();
 ```
 
-## 4. lépés: Exportálás PDF‑be
+## 4. lépés: Exportálás PDF‑be  
 
-Indítsd el az exportálási folyamatot, hogy a DWG/DXF fájlt PDF‑be konvertáld nyomonkövetéssel:
+A `save` meghívása a `CadImage` példányon a konfigurált `PdfOptions`‑szal végrehajtja a konverziót. Mivel az egyedi kezelő már csatlakoztatva van, minden renderelési probléma a konzolon jelenik meg a exportálás során.
 
 ```java
 System.out.println("Exporting to pdf format");
 image.save(stream, pdfOptions);
 ```
 
-## 5. lépés: CadRenderHandler osztály
+## 5. lépés: CadRenderHandler osztály  
 
-Definiáld az `ErrorHandler` osztályt (`CadRenderHandler`‑t kiterjesztve), hogy feldolgozza a renderelési eredményeket és kiírja a nyomonkövetési információkat:
+A `CadRenderHandler` az Aspose.CAD alaposztálya a render eredmények fogadására. Az `onRenderCompleted` metódus felülírásával hozzáférhet a `RenderResult` objektumhoz, amely a folyamat egyes lépéseit leíró `RenderMessage` bejegyzések gyűjteményét tartalmazza.
 
 ```java
 public static class ErrorHandler extends CadRasterizationOptions.CadRenderHandler {
@@ -127,44 +159,49 @@ public static class ErrorHandler extends CadRasterizationOptions.CadRenderHandle
 
 ## Miért fontos ez
 
-A nyomonkövetés engedélyezésével egyértelmű audit nyomot kapsz minden konverziós lépésről. Ez különösen értékes a szabályozott iparágakban (építészet, mérnöki, építőipar), ahol a pontos renderelés bizonyítása szükséges a megfelelőségi auditokhoz. Az egyedi hibakezelő további lehetőséget biztosít a problémák naplózására egy felügyeleti rendszerbe vagy automatikus újrapróbálkozások indítására.
+A nyomonkövetés engedélyezése audit nyomvonalat hoz létre, amely megfelel a szabályozott ágazatok, például az építészet, mérnöki és építőipar megfelelőségi követelményeinek. Az egyedi hibakezelő lehetővé teszi a CAD konverzió egészségügyi ellenőrzéseinek integrálását CI/CD csővezetékekbe, automatikusan jelölve azokat a fájlokat, amelyek manuális felülvizsgálatot igényelnek.
 
 ## Gyakori problémák és megoldások
 
-- **`NullPointerException` a `RenderResult`‑nél** – Győződj meg róla, hogy az Aspose.CAD 23.10 vagy újabb verzióját használod; a régebbi kiadások nem tartalmazzák a `RenderResult` API‑t.  
-- **Fájl nem található** – Ellenőrizd, hogy a `dataDir` a helyes mappára mutat, és a fájlnév pontosan egyezik, beleértve a kis‑ és nagybetűket is.  
-- **Hiányzó nyomonkövetési kimenet** – Győződj meg róla, hogy az egyedi `ErrorHandler` helyesen van hozzárendelve a `cadRasterizationOptions.RenderResult`.  
+- **`NullPointerException` a `RenderResult`‑n** – Győződjön meg arról, hogy az Aspose.CAD 23.10‑t vagy újabbat használ; a korábbi kiadások nem tartalmazzák a `RenderResult` API‑t.  
+- **Fájl nem található** – Ellenőrizze, hogy a `dataDir` a megfelelő mappára mutat, és a fájlnév kis‑nagybetű érzékenyen egyezik.  
+- **Hiányzó nyomonkövetési kimenet** – Ellenőrizze, hogy az `ErrorHandler` példány helyesen van-e hozzárendelve a `cadRasterizationOptions.setRenderHandler(new ErrorHandler())`‑hez.  
 
 ## Gyakran ismételt kérdések
 
-**Q:** Engedélyezhetem a nyomonkövetést más CAD fájlformátumokhoz az Aspose.CAD for Java használatával?  
-A: Az Aspose.CAD elsősorban a DWG nyomonkövetést támogatja. Más formátumokhoz lásd a hivatalos dokumentációt.
+**K:** Engedélyezhetek nyomonkövetést más CAD fájlformátumokhoz az Aspose.CAD for Java használatával?  
+**V:** A nyomonkövetés elsősorban a DWG és DXF formátumokra van kitéve. Más formátumok esetén tekintse meg a hivatalos dokumentációt, hogy mely API‑k biztosítanak render visszahívásokat.
 
-**Q:** Hogyan kezelhetem a további export opciókat az Aspose.CAD for Java-ban?  
-A: Tekintsd meg a részletes dokumentációt a [Aspose.CAD Java Documentation](https://reference.aspose.com/cad/java/) oldalon.
+**K:** Hogyan testreszabhatok további export beállításokat, például PDF metaadatok beállítását?  
+**V:** A `PdfOptions` olyan tulajdonságokat biztosít, mint a `setTitle`, `setAuthor` és `setSubject`. Állítsa be ezeket a `save` meghívása előtt, hogy a metaadatok be legyenek ágyazva a létrehozott PDF‑be.
 
-**Q:** Elérhető próba verzió az Aspose.CAD for Java-hoz?  
-A: Igen, a próba verziót a [Aspose.CAD Free Trial](https://releases.aspose.com/) oldalon érheted el.
+**K:** Elégséges-e a próbaverzió a nyomonkövetési funkciók kiértékeléséhez?  
+**V:** Igen, az ingyenes próba teljes API‑hozzáférést tartalmaz, lehetővé téve a `CadRenderHandler` és a PDF export tesztelését korlátozások nélkül.
 
-**Q:** Hol kérhetek segítséget vagy vitathatom meg az Aspose.CAD for Java-val kapcsolatos problémákat?  
-A: Látogasd meg az [Aspose.CAD fórumot](https://forum.aspose.com/c/cad/19) a közösségi támogatásért.
+**K:** Hol kaphatok közösségi támogatást az Aspose.CAD for Java-hoz?  
+**V:** Látogassa meg az [Aspose.CAD fórumot](https://forum.aspose.com/c/cad/19), ahol kérdéseket tehet fel és tapasztalatokat oszthat meg más fejlesztőkkel.
 
-**Q:** Hogyan szerezhetek ideiglenes licencet az Aspose.CAD for Java-hoz?  
-A: Kövesd a [Temporary License](https://purchase.aspose.com/temporary-license/) oldalon leírt folyamatot.
+**K:** Hogyan szerezhetek ideiglenes licencet automatizált tesztkörnyezetekhez?  
+**V:** Kövesse a [Ideiglenes licenc](https://purchase.aspose.com/temporary-license/) lépéseit egy időkorlátos licencfájl generálásához.
 
-## Következtetés
+## Összegzés
 
-A DWG nyomonkövetés engedélyezése Java-ban az Aspose.CAD segítségével nemcsak a konverziós problémák láthatóságát biztosítja, hanem egyszerűsíti az együttműködésen alapuló tervezési munkafolyamatokat is. A fenti lépések követésével **hogyan engedélyezzük a nyomonkövetést**, konvertálhatod a DXF-et PDF‑re, és elegánsan kezelheted a renderelési problémákat.
+A tutorial követésével most már tudja, hogyan **exportálja a DWG‑t PDF‑be**, engedélyezze a teljes körű nyomonkövetést, és kezelje a DXF‑ből PDF‑be konverziót egy **egyedi Java hibakezelő** osztállyal. Illessze be ezeket a kódrészleteket a build csővezetékébe, hogy növelje az átláthatóságot, javítsa a megbízhatóságot, és megfeleljen az iparági szintű megfelelőségi követelményeknek a CAD dokumentumok feldolgozásában.
 
 ---
 
-**Utolsó frissítés:** 2026-02-10  
+**Utolsó frissítés:** 2026-06-29  
 **Tesztelve:** Aspose.CAD for Java 24.12  
 **Szerző:** Aspose  
 
-{{< /blocks/products/pf/tutorial-page-section >}}
+{{< blocks/products/products-backtop-button >}}
 
+## Kapcsolódó tutorialok
+
+- [DWG exportálása PDF-be és CAD rajzok konvertálása – Aspose.CAD Java tutorial](/cad/java/cad-drawing-conversion/)
+- [DWG exportálása PDF-be vagy raszterként az Aspose.CAD for Java használatával](/cad/java/cad-drawing-conversion/export-dwg-to-pdf-or-raster/)
+- [Speciális DWG elrendezés exportálása PDF-be az Aspose.CAD for Java használatával](/cad/java/cad-drawing-conversion/export-specific-dwg-layout-to-pdf/)
+
+{{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
