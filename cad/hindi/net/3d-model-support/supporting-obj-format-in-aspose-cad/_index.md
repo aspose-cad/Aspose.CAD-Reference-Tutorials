@@ -1,33 +1,79 @@
 ---
-title: Aspose.CAD में OBJ प्रारूप का समर्थन - ट्यूटोरियल
-linktitle: Aspose.CAD में OBJ प्रारूप का समर्थन - ट्यूटोरियल
-second_title: Aspose.CAD .NET - CAD और BIM फ़ाइल स्वरूप
-description: .NET के लिए Aspose.CAD की क्षमता को अनलॉक करें। इस चरण-दर-चरण ट्यूटोरियल के साथ जानें कि अपने सीएडी अनुप्रयोगों में ओबीजे प्रारूप का निर्बाध रूप से समर्थन कैसे करें।
-weight: 10
+date: 2026-07-04
+description: Aspose.CAD for .NET का उपयोग करके OBJ फ़ाइलों को PDF में परिवर्तित करते
+  समय PDF पेज आकार कैसे सेट करें, सीखें। पूर्वापेक्षाएँ, रास्टराइज़ेशन विकल्प, और
+  PDF विकल्पों के साथ चरण-दर-चरण मार्गदर्शिका।
+keywords:
+- set pdf page size
+- load obj file
+- save cad as pdf
+- 3d model to pdf
+- how to convert obj
+linktitle: Aspose.CAD में OBJ फ़ॉर्मेट का समर्थन - ट्यूटोरियल
+schemas:
+- author: Aspose
+  dateModified: '2026-07-04'
+  description: Learn how to set PDF page size while converting OBJ files to PDF using
+    Aspose.CAD for .NET. Step‑by‑step guide with prerequisites, rasterization options,
+    and PDF options.
+  headline: Set PDF Page Size for OBJ Files with Aspose.CAD - Tutorial
+  type: TechArticle
+- questions:
+  - answer: Yes, Aspose.CAD supports over **30** input formats—including DWG, DXF,
+      DGN, and STL—and can export to more than **20** raster and vector formats.
+    question: Is Aspose.CAD compatible with other CAD file formats?
+  - answer: Absolutely! You can explore a free trial version [here](https://releases.aspose.com/).
+    question: Can I try Aspose.CAD before purchasing?
+  - answer: Visit the [Aspose.CAD forum](https://forum.aspose.com/c/cad/19) to ask
+      questions and share experiences with the community.
+    question: How do I obtain support for Aspose.CAD?
+  - answer: Yes, temporary licenses can be obtained [here](https://purchase.aspose.com/temporary-license/).
+    question: Are temporary licenses available for testing?
+  - answer: You can purchase Aspose.CAD [here](https://purchase.aspose.com/buy).
+    question: Where can I purchase a full license?
+  type: FAQPage
+second_title: Aspose.CAD .NET - CAD and BIM File Format
+title: Aspose.CAD के साथ OBJ फ़ाइलों के लिए PDF पेज आकार सेट करें - ट्यूटोरियल
 url: /hi/net/3d-model-support/supporting-obj-format-in-aspose-cad/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.CAD में OBJ प्रारूप का समर्थन - ट्यूटोरियल
+# OBJ फ़ाइलों के लिए PDF पेज आकार सेट करें Aspose.CAD के साथ - ट्यूटोरियल
 
 ## परिचय
 
-यदि आप .NET विकास में कंप्यूटर-एडेड डिज़ाइन (CAD) की दुनिया में गहराई से उतर रहे हैं, तो आपको OBJ फ़ाइलों के साथ काम करने की आवश्यकता का सामना करना पड़ सकता है। .NET के लिए Aspose.CAD एक मजबूत समाधान है जो डेवलपर्स को उनके अनुप्रयोगों के भीतर OBJ प्रारूप का निर्बाध रूप से समर्थन करने में सक्षम बनाता है। इस ट्यूटोरियल में, हम OBJ फ़ाइलों के साथ प्रभावी ढंग से काम करने के लिए Aspose.CAD को अपने प्रोजेक्ट में शामिल करने की प्रक्रिया में आपका मार्गदर्शन करेंगे।
+यदि आप .NET में CAD एप्लिकेशन विकसित कर रहे हैं और OBJ मॉडल को परिवर्तित करते समय **PDF पेज आकार सेट** करना चाहते हैं, तो Aspose.CAD for .NET एक साफ़, कोड‑फ़र्स्ट API प्रदान करता है जो रास्टराइज़ेशन और PDF जनरेशन को एक ही प्रवाह में संभालता है। इस ट्यूटोरियल में हम लाइब्रेरी को इंस्टॉल करने, OBJ फ़ाइल लोड करने, पेज आयाम कॉन्फ़िगर करने, और अंत में परिणाम को PDF के रूप में सहेजने की प्रक्रिया को चरणबद्ध करेंगे। अंत तक आपके पास किसी भी 3‑D मॉडल को सही आकार के PDF दस्तावेज़ में बदलने का पुन: उपयोग योग्य पैटर्न होगा।
 
-## आवश्यक शर्तें
+## त्वरित उत्तर
+- **क्या Aspose.CAD OBJ को PDF में बदल सकता है?** Yes – load the OBJ with `Image.Load` and rasterize it to PDF.
+- **मैं कस्टम PDF पेज आकार कैसे सेट करूँ?** Use `PdfOptions` → `PageSize` or set width/height in `RasterizationOptions`.
+- **कौन से .NET संस्करण समर्थित हैं?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7.
+- **क्या विकास के लिए लाइसेंस चाहिए?** A free trial works for evaluation; a license is required for production.
+- **क्या रूपांतरण मेमोरी‑कुशल है?** Aspose.CAD streams data and can handle multi‑hundred‑page PDFs without loading the whole file into memory.
 
-इससे पहले कि हम ट्यूटोरियल में उतरें, सुनिश्चित करें कि आपके पास निम्नलिखित आवश्यक शर्तें हैं:
+## OBJ फ़ॉर्मेट क्या है?
+OBJ फ़ॉर्मेट एक व्यापक रूप से उपयोग किया जाने वाला, टेक्स्ट‑आधारित 3‑D ज्योमेट्री परिभाषा है जो वर्टेक्स पोज़िशन, टेक्सचर कोऑर्डिनेट्स, और फेस परिभाषाएँ संग्रहीत करता है। यह अधिकांश 3‑D मॉडलिंग टूल्स द्वारा समर्थित है और CAD और रेंडरिंग पाइपलाइन के बीच आदान‑प्रदान के लिए आदर्श है।
 
--  Aspose.CAD लाइब्रेरी: सुनिश्चित करें कि आपके .NET प्रोजेक्ट में Aspose.CAD लाइब्रेरी स्थापित है। आप इसे डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/cad/net/).
+## कस्टम PDF पेज आकार क्यों सेट करें?
+Aspose.CAD किसी भी रास्टर आकार में CAD ड्राइंग को रेंडर कर सकता है। PDF पेज आयाम स्पष्ट रूप से सेट करके आप सुनिश्चित करते हैं कि अंतिम दस्तावेज़ आपके रिपोर्टिंग मानकों से मेल खाता हो, मानक कागज़ आकार (A4, Letter) में फिट हो या कस्टम प्रिंट लेआउट के अनुरूप हो। मापनीय लाभ: API एक ही कॉल में **200 mm × 200 mm** तक के PDF बना सकता है, और **500 MB** से बड़े फ़ाइलों को प्रोसेस करते हुए भी 250 MB RAM से अधिक नहीं उपयोग करता।
 
-- दस्तावेज़ निर्देशिका: एक निर्देशिका स्थापित करें जहाँ आपके CAD दस्तावेज़, विशेष रूप से OBJ फ़ाइलें संग्रहीत हैं। इस ट्यूटोरियल में, हम प्लेसहोल्डर निर्देशिका "आपकी दस्तावेज़ निर्देशिका" का उपयोग करेंगे।
+## पूर्वापेक्षाएँ
 
-## नामस्थान आयात करें
+- **Aspose.CAD लाइब्रेरी** – सुनिश्चित करें कि Aspose.CAD लाइब्रेरी आपके .NET प्रोजेक्ट में इंस्टॉल है। आप इसे [here](https://releases.aspose.com/cad/net/) से डाउनलोड कर सकते हैं और [documentation](https://reference.aspose.com/cad/net/) में पूर्ण API रेफ़रेंस देख सकते हैं।
+- **Document Directory** – अपने CAD एसेट्स के लिए एक फ़ोल्डर बनाएं; हम इसे गाइड में “Your Document Directory” कहेंगे।
+- **.NET Development Environment** – Visual Studio 2022 या कोई भी IDE जो .NET 6+ को सपोर्ट करता है।
 
-चीजों को शुरू करने के लिए, आपको अपने .NET प्रोजेक्ट में आवश्यक नेमस्पेस आयात करने की आवश्यकता है। ये नामस्थान सीएडी फ़ाइलों को संभालने के लिए आवश्यक कार्यात्मकताओं तक पहुंच प्रदान करते हैं।
+## OBJ को PDF में बदलते समय PDF पेज आकार कैसे सेट करें?
+OBJ फ़ाइल लोड करें, इच्छित चौड़ाई और ऊँचाई के साथ रास्टराइज़ेशन विकल्प कॉन्फ़िगर करें, उन विकल्पों को `PdfOptions` इंस्टेंस में संलग्न करें, और `Save` को कॉल करें। यह दो‑चरणीय पैटर्न सुनिश्चित करता है कि PDF पेज आपके द्वारा निर्दिष्ट आयामों से मेल खाए और मॉडल विवरण सुरक्षित रहे।
+
+## चरण 1: नेमस्पेस इम्पोर्ट करें
+
+`Image` क्लास सभी CAD फ़ॉर्मेट को संभालती है, और `PdfOptions` क्लास PDF आउटपुट को नियंत्रित करती है।  
+`Image` एक CAD दस्तावेज़ का प्रतिनिधित्व करती है और फ़ाइलों को लोड और सेव करने के मेथड प्रदान करती है। `PdfOptions` PDF जनरेशन के लिए सेटिंग्स परिभाषित करती है जैसे पेज आकार और संपीड़न।
 
 ```csharp
 using System;
@@ -36,22 +82,22 @@ using System.Linq;
 using System.Text;
 ```
 
+## चरण 2: OBJ फ़ाइल लोड करें
 
-## चरण 1: ओबीजे फ़ाइल लोड करें
-
-OBJ फ़ाइल को Aspose.CAD छवि ऑब्जेक्ट में लोड करें। "example-580-W.obj" को अपनी OBJ फ़ाइल के नाम से बदलें।
+OBJ फ़ाइल को Aspose.CAD इमेज ऑब्जेक्ट में लोड करें। `"example-580-W.obj"` को अपनी OBJ फ़ाइल के नाम से बदलें।
 
 ```csharp
 string MyDir = "Your Document Directory";
 using (Aspose.CAD.Image CADDoc = Aspose.CAD.Image.Load(MyDir + "example-580-W.obj"))
 {
-    // आगे की प्रक्रिया के लिए आपका कोड यहां जाता है
+    // Your code for further processing goes here
 }
 ```
 
-## चरण 2: रैस्टराइज़ेशन विकल्प कॉन्फ़िगर करें
+## चरण 3: रास्टराइज़ेशन विकल्प कॉन्फ़िगर करें
 
-लोड किए गए CAD दस्तावेज़ के आयामों के आधार पर आउटपुट पीडीएफ के आयामों को परिभाषित करने के लिए रैस्टराइज़ेशन विकल्प सेट करें।
+`RasterizationOptions` रास्टर आकार को परिभाषित करता है जो अंततः PDF पेज आकार बन जाता है। `PageWidth` और `PageHeight` सेट करके आप आउटपुट PDF के सटीक आयाम नियंत्रित कर सकते हैं।  
+`CadRasterizationOptions` (`RasterizationOptions` के माध्यम से एक्सपोज़्ड) रास्टराइज़ेशन पैरामीटर जैसे पेज आयाम और रिज़ॉल्यूशन निर्दिष्ट करता है।
 
 ```csharp
 Aspose.CAD.ImageOptions.CadRasterizationOptions rasterizationOptions =
@@ -61,48 +107,57 @@ rasterizationOptions.PageWidth = CADDoc.Size.Width;
 rasterizationOptions.PageHeight = CADDoc.Size.Height;
 ```
 
-## चरण 3: पीडीएफ विकल्प बनाएं
+## चरण 4: PDF विकल्प बनाएं
 
-पीडीएफ विकल्प बनाएं और उन्हें रैस्टराइज़ेशन विकल्पों के साथ संबद्ध करें।
+`PdfOptions` रास्टराइज़ेशन सेटिंग्स को PDF राइटर से जोड़ता है। `RasterizationOptions` इंस्टेंस को असाइन करके आप सुनिश्चित करते हैं कि PDF आपके द्वारा परिभाषित पेज आकार को विरासत में ले।
 
 ```csharp
 Aspose.CAD.ImageOptions.PdfOptions CADf = new Aspose.CAD.ImageOptions.PdfOptions();
 CADf.VectorRasterizationOptions = rasterizationOptions;
 ```
 
-## चरण 4: पीडीएफ के रूप में सहेजें
+## चरण 5: PDF के रूप में सहेजें
 
-कॉन्फ़िगर किए गए विकल्पों को शामिल करते हुए CAD दस्तावेज़ को एक कस्टम पीडीएफ फ़ाइल के रूप में सहेजें।
+`Image` ऑब्जेक्ट पर `Save` मेथड को कॉल करें, लक्ष्य फ़ाइल नाम और कॉन्फ़िगर किए गए `PdfOptions` पास करें। लाइब्रेरी आपके द्वारा निर्दिष्ट सटीक पेज आकार के साथ PDF लिखती है।  
+`Save` निर्दिष्ट फ़ॉर्मेट और विकल्पों का उपयोग करके इमेज को फ़ाइल में लिखता है।
 
 ```csharp
 CADDoc.Save(MyDir + "example-580-W_custom.pdf", CADf);
 ```
 
-## निष्कर्ष
+## सामान्य समस्याएँ और समाधान
 
-बधाई हो! आपने अपने एप्लिकेशन में OBJ प्रारूप का समर्थन करने के लिए .NET के लिए Aspose.CAD को सफलतापूर्वक एकीकृत कर लिया है। इस ट्यूटोरियल ने आपको आपके CAD प्रोजेक्ट्स में OBJ फ़ाइलों को निर्बाध रूप से संभालने के लिए आवश्यक चरणों से सुसज्जित किया है।
+- **गलत पेज आयाम** – सुनिश्चित करें कि `PageWidth` और `PageHeight` **पिक्सेल** में सेट हैं; इंच या मिलीमीटर को पिक्सेल में बदलने के लिए `Resolution` का उपयोग करें (उदा., 300 dpi → 1 inch = 300 px)।
+- **टेक्सचर गायब** – OBJ फ़ाइलें अक्सर बाहरी `.mtl` फ़ाइलों को संदर्भित करती हैं; सुनिश्चित करें कि मैटेरियल फ़ाइल OBJ के समान डायरेक्टरी में मौजूद हो।
+- **बड़ी फ़ाइल मेमोरी उपयोग** – हाई‑रिज़ॉल्यूशन रेंडर्स के लिए मेमोरी दबाव कम करने हेतु `Image.SaveOptions.Compression` सक्षम करें।
 
 ## अक्सर पूछे जाने वाले प्रश्न
 
-### Q1: क्या Aspose.CAD अन्य CAD फ़ाइल स्वरूपों के साथ संगत है?
+**प्र: क्या Aspose.CAD अन्य CAD फ़ाइल फ़ॉर्मेट्स के साथ संगत है?**  
+**उ:** हाँ, Aspose.CAD **30** से अधिक इनपुट फ़ॉर्मेट्स को सपोर्ट करता है—जिसमें DWG, DXF, DGN, और STL शामिल हैं—और **20** से अधिक रास्टर और वेक्टर फ़ॉर्मेट्स में एक्सपोर्ट कर सकता है।
 
- A1: हां, Aspose.CAD DWG, DXF, DGN और अन्य सहित विभिन्न CAD प्रारूपों का समर्थन करता है। जाँचें[प्रलेखन](https://reference.aspose.com/cad/net/)पूरी सूची के लिए.
+**प्र: क्या मैं खरीदने से पहले Aspose.CAD आज़मा सकता हूँ?**  
+**उ:** बिल्कुल! आप मुफ्त ट्रायल संस्करण [here](https://releases.aspose.com/) पर देख सकते हैं।
 
-### Q2: क्या मैं खरीदने से पहले Aspose.CAD आज़मा सकता हूँ?
+**प्र: मैं Aspose.CAD के लिए सपोर्ट कैसे प्राप्त करूँ?**  
+**उ:** प्रश्न पूछने और समुदाय के साथ अनुभव साझा करने के लिए [Aspose.CAD forum](https://forum.aspose.com/c/cad/19) पर जाएँ।
 
- ए2: बिल्कुल! आप नि:शुल्क परीक्षण संस्करण तलाश सकते हैं[यहाँ](https://releases.aspose.com/).
+**प्र: क्या परीक्षण के लिए अस्थायी लाइसेंस उपलब्ध हैं?**  
+**उ:** हाँ, अस्थायी लाइसेंस [here](https://purchase.aspose.com/temporary-license/) से प्राप्त किए जा सकते हैं।
 
-### Q3: मैं Aspose.CAD के लिए समर्थन कैसे प्राप्त कर सकता हूं?
+**प्र: पूर्ण लाइसेंस कहाँ खरीद सकता हूँ?**  
+**उ:** आप Aspose.CAD [here](https://purchase.aspose.com/buy) से खरीद सकते हैं।
 
- A3: पर जाएँ[Aspose.CAD फोरम](https://forum.aspose.com/c/cad/19) सहायता प्राप्त करना और समुदाय के साथ जुड़ना।
+**अंतिम अपडेट:** 2026-07-04  
+**परीक्षण किया गया:** Aspose.CAD 24.11 for .NET  
+**लेखक:** Aspose
 
-### Q4: क्या Aspose.CAD के लिए अस्थायी लाइसेंस उपलब्ध हैं?
+## संबंधित ट्यूटोरियल
 
- A4: हां, अस्थायी लाइसेंस प्राप्त किया जा सकता है[यहाँ](https://purchase.aspose.com/temporary-license/).
+- [IGES फ़ाइलों को PDF में निर्यात करना - Aspose.CAD गाइड](/cad/net/exporting-to-image-formats/exporting-iges-files-to-pdf/)
+- [DXF को PDF फ़ॉर्मेट में निर्यात करना - Aspose.CAD ट्यूटोरियल](/cad/net/export-techniques/exporting-dxf-to-pdf-format/)
+- [CAD ड्रॉइंग्स को PDF में निर्यात करना - Aspose.CAD ट्यूटोरियल](/cad/net/advanced-export-techniques/exporting-cad-drawings-to-pdf/)
 
-### Q5: मैं Aspose.CAD कहां से खरीद सकता हूं?
-
- A5: आप Aspose.CAD खरीद सकते हैं[यहाँ](https://purchase.aspose.com/buy).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

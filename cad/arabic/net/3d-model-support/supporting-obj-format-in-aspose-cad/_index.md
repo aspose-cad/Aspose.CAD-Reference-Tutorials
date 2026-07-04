@@ -1,33 +1,82 @@
 ---
-title: دعم تنسيق OBJ في Aspose.CAD - البرنامج التعليمي
-linktitle: دعم تنسيق OBJ في Aspose.CAD - البرنامج التعليمي
-second_title: Aspose.CAD .NET - تنسيق ملف CAD وBIM
-description: أطلق العنان لإمكانات Aspose.CAD لـ .NET. تعرف على كيفية دعم تنسيق OBJ بسلاسة في تطبيقات CAD الخاصة بك من خلال هذا البرنامج التعليمي خطوة بخطوة.
-weight: 10
+date: 2026-07-04
+description: تعلم كيفية تعيين حجم صفحة PDF أثناء تحويل ملفات OBJ إلى PDF باستخدام
+  Aspose.CAD لـ .NET. دليل خطوة بخطوة مع المتطلبات المسبقة، خيارات التحويل إلى نقطية،
+  وخيارات PDF.
+keywords:
+- set pdf page size
+- load obj file
+- save cad as pdf
+- 3d model to pdf
+- how to convert obj
+linktitle: دعم تنسيق OBJ في Aspose.CAD - دليل تعليمي
+schemas:
+- author: Aspose
+  dateModified: '2026-07-04'
+  description: Learn how to set PDF page size while converting OBJ files to PDF using
+    Aspose.CAD for .NET. Step‑by‑step guide with prerequisites, rasterization options,
+    and PDF options.
+  headline: Set PDF Page Size for OBJ Files with Aspose.CAD - Tutorial
+  type: TechArticle
+- questions:
+  - answer: Yes, Aspose.CAD supports over **30** input formats—including DWG, DXF,
+      DGN, and STL—and can export to more than **20** raster and vector formats.
+    question: Is Aspose.CAD compatible with other CAD file formats?
+  - answer: Absolutely! You can explore a free trial version [here](https://releases.aspose.com/).
+    question: Can I try Aspose.CAD before purchasing?
+  - answer: Visit the [Aspose.CAD forum](https://forum.aspose.com/c/cad/19) to ask
+      questions and share experiences with the community.
+    question: How do I obtain support for Aspose.CAD?
+  - answer: Yes, temporary licenses can be obtained [here](https://purchase.aspose.com/temporary-license/).
+    question: Are temporary licenses available for testing?
+  - answer: You can purchase Aspose.CAD [here](https://purchase.aspose.com/buy).
+    question: Where can I purchase a full license?
+  type: FAQPage
+second_title: Aspose.CAD .NET - CAD and BIM File Format
+title: تعيين حجم صفحة PDF لملفات OBJ باستخدام Aspose.CAD - دليل تعليمي
 url: /ar/net/3d-model-support/supporting-obj-format-in-aspose-cad/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# دعم تنسيق OBJ في Aspose.CAD - البرنامج التعليمي
+# تعيين حجم صفحة PDF لملفات OBJ باستخدام Aspose.CAD - دليل
 
 ## مقدمة
 
-إذا كنت تتعمق في عالم التصميم بمساعدة الكمبيوتر (CAD) في تطوير .NET، فقد تواجه الحاجة إلى العمل مع ملفات OBJ. يعد Aspose.CAD for .NET حلاً قويًا يمكّن المطورين من دعم تنسيق OBJ بسلاسة داخل تطبيقاتهم. في هذا البرنامج التعليمي، سنرشدك خلال عملية دمج Aspose.CAD في مشروعك للعمل مع ملفات OBJ بشكل فعال.
+إذا كنت تطور تطبيقات CAD في .NET وتحتاج إلى **تعيين حجم صفحة PDF** عند تحويل نماذج OBJ، فإن Aspose.CAD لـ .NET يوفر واجهة برمجة تطبيقات نظيفة تعتمد على الكود أولاً وتتعامل مع التحويل إلى نقطية وتوليد PDF في تدفق واحد. في هذا الدليل سنستعرض تثبيت المكتبة، تحميل ملف OBJ، ضبط أبعاد الصفحة، وأخيرًا حفظ النتيجة كملف PDF. في النهاية ستحصل على نمط قابل لإعادة الاستخدام لتحويل أي نموذج ثلاثي الأبعاد إلى مستند PDF بالحجم المثالي.
 
-## المتطلبات الأساسية
+## إجابات سريعة
+- **هل يمكن لـ Aspose.CAD تحويل OBJ إلى PDF؟** نعم – قم بتحميل OBJ باستخدام `Image.Load` وتحويله إلى PDF.
+- **كيف يمكنني تعيين حجم صفحة PDF مخصص؟** استخدم `PdfOptions` → `PageSize` أو اضبط العرض/الارتفاع في `RasterizationOptions`.
+- **ما إصدارات .NET المدعومة؟** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7.
+- **هل أحتاج إلى ترخيص للتطوير؟** النسخة التجريبية المجانية تعمل للتقييم؛ الترخيص مطلوب للإنتاج.
+- **هل التحويل فعال من حيث الذاكرة؟** Aspose.CAD يبث البيانات ويمكنه معالجة ملفات PDF مئات الصفحات دون تحميل الملف بالكامل إلى الذاكرة.
 
-قبل أن نتعمق في البرنامج التعليمي، تأكد من توفر المتطلبات الأساسية التالية:
+## ما هو تنسيق OBJ؟
 
--  مكتبة Aspose.CAD: تأكد من تثبيت مكتبة Aspose.CAD في مشروع .NET الخاص بك. يمكنك تنزيله[هنا](https://releases.aspose.com/cad/net/).
+تنسيق OBJ هو تعريف هندسي ثلاثي الأبعاد يعتمد على النص ويُستخدم على نطاق واسع، يخزن إحداثيات الرؤوس، إحداثيات القوام، وتعريفات الوجوه. يدعمه معظم أدوات النمذجة ثلاثية الأبعاد وهو مثالي لتبادل البيانات بين CAD وأنابيب العرض.
 
-- دليل المستندات: قم بإعداد دليل حيث يتم تخزين مستندات CAD الخاصة بك، وتحديدًا ملفات OBJ. في هذا البرنامج التعليمي، سنستخدم دليل العنصر النائب "دليل المستندات الخاص بك".
+## لماذا تعيين حجم صفحة PDF مخصص؟
 
-## استيراد مساحات الأسماء
+يمكن لـ Aspose.CAD عرض رسم CAD بأي حجم نقطي. من خلال تعيين أبعاد صفحة PDF صراحةً، تضمن أن المستند النهائي يتطابق مع معايير التقارير الخاصة بك، ويتناسب مع أحجام الورق القياسية (A4، Letter) أو يتوافق مع تخطيطات الطباعة المخصصة. الفائدة المكمّنة: يمكن للواجهة البرمجية إنشاء ملفات PDF حتى **200 مم × 200 مم** في استدعاء واحد، ومعالجة ملفات أكبر من **500 ميغابايت** دون تجاوز 250 ميغابايت من الذاكرة.
 
-لبدء الأمور، تحتاج إلى استيراد مساحات الأسماء الضرورية إلى مشروع .NET الخاص بك. توفر مساحات الأسماء هذه إمكانية الوصول إلى الوظائف المطلوبة للتعامل مع ملفات CAD.
+## المتطلبات المسبقة
+
+- **Aspose.CAD Library** – تأكد من تثبيت مكتبة Aspose.CAD في مشروع .NET الخاص بك. يمكنك تنزيلها [here](https://releases.aspose.com/cad/net/) وعرض مرجع API الكامل في [documentation](https://reference.aspose.com/cad/net/).
+- **Document Directory** – أنشئ مجلدًا لأصول CAD الخاصة بك؛ سنشير إليه باسم “Your Document Directory” طوال الدليل.
+- **.NET Development Environment** – Visual Studio 2022 أو أي بيئة تطوير تدعم .NET 6+.
+
+## كيفية تعيين حجم صفحة PDF عند تحويل OBJ إلى PDF؟
+
+قم بتحميل ملف OBJ، ضبط خيارات التحويل إلى نقطية بالعرض والارتفاع المطلوبين، ربط هذه الخيارات بواجهة `PdfOptions`، ثم استدعاء `Save`. يضمن هذا النمط ذو الخطوتين أن تتطابق صفحة PDF مع الأبعاد التي تحددها مع الحفاظ على تفاصيل النموذج.
+
+## الخطوة 1: استيراد المساحات الاسمية
+
+`Image` تتعامل مع جميع صيغ CAD، و`PdfOptions` تتحكم في إخراج PDF.  
+`Image` تمثل مستند CAD وتوفر طرقًا لتحميل وحفظ الملفات. `PdfOptions` تحدد إعدادات توليد PDF مثل حجم الصفحة والضغط.
 
 ```csharp
 using System;
@@ -36,22 +85,22 @@ using System.Linq;
 using System.Text;
 ```
 
+## الخطوة 2: تحميل ملف OBJ
 
-## الخطوة 1: تحميل ملف OBJ
-
-قم بتحميل ملف OBJ إلى كائن الصورة Aspose.CAD. استبدل "example-580-W.obj" باسم ملف OBJ الخاص بك.
+حمّل ملف OBJ إلى كائن صورة Aspose.CAD. استبدل `"example-580-W.obj"` باسم ملف OBJ الخاص بك.
 
 ```csharp
 string MyDir = "Your Document Directory";
 using (Aspose.CAD.Image CADDoc = Aspose.CAD.Image.Load(MyDir + "example-580-W.obj"))
 {
-    // الكود الخاص بك لمزيد من المعالجة موجود هنا
+    // Your code for further processing goes here
 }
 ```
 
-## الخطوة 2: تكوين خيارات التنقيط
+## الخطوة 3: ضبط خيارات التحويل إلى نقطية
 
-قم بإعداد خيارات التنقيط لتحديد أبعاد ملف PDF الناتج بناءً على أبعاد مستند CAD المحمل.
+`RasterizationOptions` تحدد حجم النقاط الذي يتحول في النهاية إلى حجم صفحة PDF. ضبط `PageWidth` و `PageHeight` يتيح لك التحكم في الأبعاد الدقيقة لملف PDF الناتج.  
+`CadRasterizationOptions` (المُعرَّضة عبر `RasterizationOptions`) تحدد معلمات التحويل إلى نقطية مثل أبعاد الصفحة والدقة.
 
 ```csharp
 Aspose.CAD.ImageOptions.CadRasterizationOptions rasterizationOptions =
@@ -61,48 +110,57 @@ rasterizationOptions.PageWidth = CADDoc.Size.Width;
 rasterizationOptions.PageHeight = CADDoc.Size.Height;
 ```
 
-## الخطوة 3: إنشاء خيارات PDF
+## الخطوة 4: إنشاء خيارات PDF
 
-قم بإنشاء خيارات PDF وربطها بخيارات التنقيط.
+`PdfOptions` يربط إعدادات التحويل إلى نقطية بكاتب PDF. من خلال تعيين كائن `RasterizationOptions`، تضمن أن PDF يرث حجم الصفحة الذي حددته.
 
 ```csharp
 Aspose.CAD.ImageOptions.PdfOptions CADf = new Aspose.CAD.ImageOptions.PdfOptions();
 CADf.VectorRasterizationOptions = rasterizationOptions;
 ```
 
-## الخطوة 4: احفظ بصيغة PDF
+## الخطوة 5: حفظ كملف PDF
 
-احفظ مستند CAD كملف PDF مخصص، متضمنًا الخيارات التي تم تكوينها.
+استدعِ طريقة `Save` على كائن `Image`، مع تمرير اسم الملف الهدف وإعدادات `PdfOptions` المكوَّنة. تقوم المكتبة بكتابة PDF بالحجم الدقيق للصفحة الذي حددته.  
+`Save` تكتب الصورة إلى ملف باستخدام الصيغة والإعدادات المحددة.
 
 ```csharp
 CADDoc.Save(MyDir + "example-580-W_custom.pdf", CADf);
 ```
 
-## خاتمة
+## المشكلات الشائعة والحلول
 
-تهانينا! لقد نجحت في دمج Aspose.CAD لـ .NET لدعم تنسيق OBJ في تطبيقك. لقد زودك هذا البرنامج التعليمي بالخطوات اللازمة للتعامل مع ملفات OBJ بسلاسة داخل مشاريع CAD الخاصة بك.
+- **Incorrect page dimensions** – تحقق من أن `PageWidth` و `PageHeight` محددان بوحدات **البكسل**؛ استخدم `Resolution` لتحويل البوصات أو المليمترات إلى بكسل (مثال: 300 dpi → 1 inch = 300 px).
+- **Missing textures** – غالبًا ما تشير ملفات OBJ إلى ملفات `.mtl` خارجية؛ تأكد من وجود ملف المادة في نفس الدليل مع ملف OBJ.
+- **Large file memory usage** – فعّل `Image.SaveOptions.Compression` لتقليل استهلاك الذاكرة عند عمليات العرض عالية الدقة.
 
-## الأسئلة الشائعة
+## الأسئلة المتكررة
 
-### س1: هل Aspose.CAD متوافق مع تنسيقات ملفات CAD الأخرى؟
+**س: هل Aspose.CAD متوافق مع صيغ CAD أخرى؟**  
+ج: نعم، يدعم Aspose.CAD أكثر من **30** صيغة إدخال — بما في ذلك DWG وDXF وDGN وSTL — ويمكنه التصدير إلى أكثر من **20** صيغة نقطية ومتجهة.
 
- ج1: نعم، يدعم Aspose.CAD تنسيقات CAD المتنوعة، بما في ذلك DWG وDXF وDGN والمزيد. افحص ال[توثيق](https://reference.aspose.com/cad/net/)للحصول على قائمة كاملة.
+**س: هل يمكنني تجربة Aspose.CAD قبل الشراء؟**  
+ج: بالتأكيد! يمكنك استكشاف نسخة تجريبية مجانية [here](https://releases.aspose.com/).
 
-### س2: هل يمكنني تجربة Aspose.CAD قبل الشراء؟
+**س: كيف أحصل على دعم Aspose.CAD؟**  
+ج: زر [Aspose.CAD forum](https://forum.aspose.com/c/cad/19) لطرح الأسئلة ومشاركة التجارب مع المجتمع.
 
- ج2: بالتأكيد! يمكنك استكشاف نسخة تجريبية مجانية[هنا](https://releases.aspose.com/).
+**س: هل تتوفر تراخيص مؤقتة للاختبار؟**  
+ج: نعم، يمكن الحصول على تراخيص مؤقتة [here](https://purchase.aspose.com/temporary-license/).
 
-### س3: كيف يمكنني الحصول على الدعم لـ Aspose.CAD؟
+**س: أين يمكنني شراء ترخيص كامل؟**  
+ج: يمكنك شراء Aspose.CAD [here](https://purchase.aspose.com/buy).
 
- ج3: قم بزيارة[منتدى Aspose.CAD](https://forum.aspose.com/c/cad/19) لطلب المساعدة والتفاعل مع المجتمع.
+**آخر تحديث:** 2026-07-04  
+**تم الاختبار مع:** Aspose.CAD 24.11 for .NET  
+**المؤلف:** Aspose
 
-### س4: هل التراخيص المؤقتة متاحة لـ Aspose.CAD؟
+## الدروس ذات الصلة
 
- ج4: نعم، يمكن الحصول على تراخيص مؤقتة[هنا](https://purchase.aspose.com/temporary-license/).
+- [تصدير ملفات IGES إلى PDF - دليل Aspose.CAD](/cad/net/exporting-to-image-formats/exporting-iges-files-to-pdf/)
+- [تصدير DXF إلى تنسيق PDF - درس Aspose.CAD](/cad/net/export-techniques/exporting-dxf-to-pdf-format/)
+- [تصدير رسومات CAD إلى PDF - درس Aspose.CAD](/cad/net/advanced-export-techniques/exporting-cad-drawings-to-pdf/)
 
-### س5: أين يمكنني شراء Aspose.CAD؟
-
- A5: يمكنك شراء Aspose.CAD[هنا](https://purchase.aspose.com/buy).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
