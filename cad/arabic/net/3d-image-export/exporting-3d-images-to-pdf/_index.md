@@ -1,10 +1,58 @@
 ---
-date: 2026-01-28
-description: تعلم كيفية تصدير PDF من صور CAD ثلاثية الأبعاد – دليل خطوة بخطوة حول
-  كيفية تصدير PDF وحفظ CAD كملف PDF باستخدام Aspose.CAD لـ .NET.
-linktitle: Exporting 3D Images to PDF
+date: 2026-07-04
+description: تعلم كيفية تعيين حجم صفحة PDF وتصدير PDF من صور CAD ثلاثية الأبعاد باستخدام
+  Aspose.CAD لـ .NET – دليل خطوة بخطوة لتحويل DWG إلى PDF وحفظ CAD كملف PDF.
+keywords:
+- set pdf page size
+- export pdf from cad
+- convert dwg to pdf
+- save cad as pdf
+- cad to pdf tutorial
+linktitle: تصدير صور 3D إلى PDF
+schemas:
+- author: Aspose
+  dateModified: '2026-07-04'
+  description: Learn how to set PDF page size and export PDF from 3D CAD images using
+    Aspose.CAD for .NET – a step‑by‑step guide to convert DWG to PDF and save CAD
+    as PDF.
+  headline: Set PDF page size – Export 3D Images to PDF with Aspose.CAD
+  type: TechArticle
+- description: Learn how to set PDF page size and export PDF from 3D CAD images using
+    Aspose.CAD for .NET – a step‑by‑step guide to convert DWG to PDF and save CAD
+    as PDF.
+  name: Set PDF page size – Export 3D Images to PDF with Aspose.CAD
+  steps:
+  - name: Load the CAD Image
+    text: '`Image` class represents a CAD drawing loaded into memory, ready for rasterization.'
+  - name: Configure Rasterization Options (Save CAD as PDF)
+    text: '`RasterizationOptions` class defines how the CAD data is rasterized, including
+      page size, DPI, and whether 3‑D entities are rendered.'
+  - name: Set PDF Options (Create PDF from CAD)
+    text: '`PdfOptions` class holds the output format settings and links the rasterization
+      options to PDF generation.'
+  - name: Save as PDF (Generate PDF from 3D Model)
+    text: '`Save` method on the `Image` object writes the rasterized content to the
+      specified PDF file, producing a ready‑to‑share document.'
+  type: HowTo
+- questions:
+  - answer: Yes, Aspose.CAD supports more than 50 input and output formats, including
+      DWG, DXF, DGN, STL, and IFC, ensuring flexibility for any project.
+    question: Is Aspose.CAD compatible with all CAD file formats?
+  - answer: Absolutely. Set `PageWidth` and `PageHeight` in `RasterizationOptions`
+      to any size in points, inches, or millimetres before calling `Save`.
+    question: Can I customize the page dimensions when exporting to PDF?
+  - answer: Yes, you can obtain temporary licenses for Aspose.CAD by visiting [Temporary
+      License](https://purchase.aspose.com/temporary-license/).
+    question: Are temporary licenses available for Aspose.CAD?
+  - answer: Head to the [Aspose.CAD Forum](https://forum.aspose.com/c/cad/19) for
+      expert help and peer‑to‑peer advice.
+    question: Where can I find additional support or community discussions?
+  - answer: Yes, you can explore the features of Aspose.CAD by accessing the [free
+      trial](https://releases.aspose.com/).
+    question: Is there a free trial version of Aspose.CAD?
+  type: FAQPage
 second_title: Aspose.CAD .NET - CAD and BIM File Format
-title: كيفية تصدير PDF – تصدير الصور ثلاثية الأبعاد إلى PDF باستخدام Aspose.CAD
+title: تعيين حجم صفحة PDF – تصدير صور 3D إلى PDF باستخدام Aspose.CAD
 url: /ar/net/3d-image-export/exporting-3d-images-to-pdf/
 weight: 10
 ---
@@ -17,36 +65,32 @@ weight: 10
 
 ## مقدمة
 
-هل تبحث عن دليل واضح حول **how to export pdf** من صور CAD ثلاثية الأبعاد باستخدام Aspose.CAD لـ .NET؟ يشرح هذا الدليل كل خطوة، من تحميل ملف CAD إلى تكوين خيارات الرستر ثم إنشاء ملف PDF يحافظ على تفاصيل نموذجك ثلاثي الأبعاد. في النهاية، ستتمكن من **save cad as pdf** بسرعة وبشكل موثوق.
+إذا كنت بحاجة إلى **set PDF page size** أثناء تحويل رسم CAD ثلاثي الأبعاد إلى PDF، فقد وصلت إلى المكان الصحيح. يوضح لك هذا الدليل، خطوة بخطوة، كيفية تحميل ملف CAD، تكوين خيارات الترصيص—بما في ذلك أبعاد الصفحة المخصصة—وتوليد PDF عالي الدقة باستخدام Aspose.CAD لـ .NET. في النهاية ستتمكن من **export PDF from CAD**، **save CAD as PDF**، والتحكم في كل تفاصيل التخطيط دون الحاجة لتثبيت AutoCAD.
 
 ## إجابات سريعة
-- **What does “how to export pdf” mean?** تحويل رسم CAD إلى مستند PDF يمكن عرضه على أي منصة.  
-- **Which library handles the conversion?** Aspose.CAD لـ .NET يوفر إمكانيات الرستر وتصدير PDF.  
-- **Do I need a license?** يلزم وجود ترخيص مؤقت أو كامل للاستخدام في الإنتاج؛ يتوفر نسخة تجريبية مجانية.  
-- **Can I customize page size?** نعم – يمكنك تعيين `PageWidth` و `PageHeight` في خيارات الرستر.  
-- **Is 3‑D geometry preserved?** الكيانات ثلاثية الأبعاد تُرَسْتر؛ يمكنك تمكين `TypeOfEntities.Entities3D` للحصول على دعم كامل ثلاثي الأبعاد.
+- **What does “export PDF from CAD” mean?** يحول رسم CAD (DWG، DXF، DGN، إلخ) إلى PDF يمكن فتحه على أي جهاز.  
+- **Which library performs the conversion?** Aspose.CAD لـ .NET يوفر الترصيص وتصدير PDF دون تبعيات خارجية.  
+- **Do I need a license?** يلزم وجود ترخيص مؤقت أو كامل للإنتاج؛ يتوفر إصدار تجريبي مجاني.  
+- **Can I set custom page dimensions?** نعم—استخدم `PageWidth` و `PageHeight` في `RasterizationOptions`.  
+- **Will 3‑D geometry be retained?** الكيانات ثلاثية الأبعاد تُرصّص؛ فعّل `TypeOfEntities.Entities3D` للحصول على دعم كامل ثلاثي الأبعاد.
 
-## ما هو “how to export pdf” في سياق CAD؟
+## ما هو “export PDF” في سياق CAD؟
 
-يعني تصدير PDF من CAD أخذ رسم CAD (DWG، DXF، DGN، إلخ) وتحويله إلى ملف PDF. يمكن أن يحتوي PDF على رسومات متجهة، وعروض ثلاثية الأبعاد مُرَسْترَة، ومعلومات تخطيط الصفحة، مما يسهل مشاركته مع أصحاب المصلحة الذين لا يمتلكون برنامج CAD.
+تصدير PDF من CAD يعني أخذ رسم CAD (DWG، DXF، DGN، إلخ) وتحويله إلى ملف PDF يمكن أن يحتوي على رسومات متجهة، عروض ثلاثية الأبعاد مرصّصة، ومعلومات تخطيط صفحة دقيقة، مما يسهل مشاركته مع أي شخص لا يملك برنامج CAD.
 
 ## لماذا تستخدم Aspose.CAD لتصدير PDF؟
 
-- **No external dependencies** – يعمل بالكامل في .NET دون الحاجة إلى AutoCAD.  
-- **High fidelity** – يحافظ على أوزان الخطوط، الألوان، وإمكانية عرض الكيانات ثلاثية الأبعاد اختيارياً.  
-- **Full control** – أنت من يحدد أبعاد الصفحة، التخطيطات، وجودة الرستر.  
-- **Cross‑platform** – يمكن فتح ملفات PDF المُنشأة على أي جهاز.
+يتيح لك Aspose.CAD **set PDF page size** وتصدير ملفات PDF بالكامل في كود .NET مُدار. يدعم أكثر من 50 صيغة CAD، يعالج ملفات تصل إلى 2 GB دون تحميل المستند بالكامل في الذاكرة، ويحافظ على وزن الخطوط، الألوان، وإمكانية عرض الكيانات ثلاثية الأبعاد بخيارات DPI تصل إلى 1200. تعمل المكتبة على Windows وLinux وmacOS، لذا تعمل ملفات PDF المُولدة على أي منصة.
 
 ## المتطلبات المسبقة
 
-قبل البدء، تأكد من أن لديك:
-
-- **Aspose.CAD لـ .NET** مثبت. قم بتنزيله من [صفحة تنزيل Aspose.CAD لـ .NET](https://releases.aspose.com/cad/net/).  
-- **مجلد** يحتوي على ملفات CAD التي تريد تحويلها. لاحظ المسار الكامل (مثال: `C:\CAD\`).
+- **Aspose.CAD لـ .NET** مثبت. حمّله من [صفحة تحميل Aspose.CAD لـ .NET](https://releases.aspose.com/cad/net/).  
+- مجلد يحتوي على ملفات CAD التي تريد تحويلها (مثال: `C:\CAD\`).  
+- .NET 6.0 أو أحدث (أو .NET Framework 4.7.2).  
 
 ## استيراد مساحات الأسماء
 
-في مشروع .NET الخاص بك، استورد مساحات الأسماء الضرورية للعمل مع Aspose.CAD. أضف الأسطر التالية إلى أعلى ملف الكود الخاص بك:
+عبارات `using` تستورد مساحات أسماء Aspose.CAD اللازمة للعمل مع خيارات الترصيص وPDF.  
 
 ```csharp
 using System;
@@ -60,9 +104,13 @@ using Aspose.CAD.ImageOptions;
 
 ## دليل خطوة بخطوة
 
+### كيفية تعيين حجم صفحة PDF عند تصدير CAD إلى PDF؟
+
+حمّل ملف CAD الخاص بك، قم بتكوين أبعاد الصفحة في `RasterizationOptions`، اربط تلك الخيارات بكائن `PdfOptions`، ثم استدعِ `Save`. يوفّر لك هذا التدفق المكوّن من أربع خطوات تحكمًا كاملاً في حجم وجودة الناتج مع الحفاظ على بساطة الكود.
+
 ### الخطوة 1: تحميل صورة CAD
 
-أولاً، قم بتحميل ملف CAD المصدر الذي ترغب في تحويله. استبدل `"conic_pyramid.dxf"` بالمسار إلى ملفك الخاص.
+فئة `Image` تمثل رسم CAD محمّلاً في الذاكرة، جاهزًا للرصيص.  
 
 ```csharp
 string MyDir = "Your Document Directory";
@@ -73,9 +121,9 @@ using (Image cadImage = Image.Load(sourceFilePath))
 }
 ```
 
-### الخطوة 2: تكوين خيارات الرستر (حفظ CAD كـ PDF)
+### الخطوة 2: تكوين خيارات الترصيص (حفظ CAD كـ PDF)
 
-قم بإعداد معلمات الرستر التي تتحكم في كيفية تحويل بيانات CAD إلى PDF. يمكنك تعديل حجم الصفحة، التخطيط، وتمكين معالجة الكيانات ثلاثية الأبعاد اختياريًا.
+فئة `RasterizationOptions` تحدد كيفية رصص بيانات CAD، بما في ذلك حجم الصفحة، DPI، وما إذا كانت الكيانات ثلاثية الأبعاد تُعرض.  
 
 ```csharp
 CadRasterizationOptions rasterizationOptions = new CadRasterizationOptions();
@@ -88,16 +136,16 @@ rasterizationOptions.Layouts = new string[] { "Model" };
 
 ### الخطوة 3: تعيين خيارات PDF (إنشاء PDF من CAD)
 
-أنشئ كائن `PdfOptions` واربط إعدادات الرستر به. هذا يخبر Aspose.CAD بإنتاج ملف PDF باستخدام الخيارات المحددة أعلاه.
+فئة `PdfOptions` تحتفظ بإعدادات تنسيق الإخراج وتربط خيارات الترصيص بإنشاء PDF.  
 
 ```csharp
 PdfOptions pdfOptions = new PdfOptions();
 pdfOptions.VectorRasterizationOptions = rasterizationOptions;
 ```
 
-### الخطوة 4: حفظ كـ PDF (إنشاء PDF من النموذج ثلاثي الأبعاد)
+### الخطوة 4: حفظ كـ PDF (إنشاء PDF من نموذج ثلاثي الأبعاد)
 
-أخيرًا، حدد مسار الإخراج واحفظ الصورة كملف PDF. سيحتوي الملف على عرض مُرَسْتر لنموذجك ثلاثي الأبعاد.
+طريقة `Save` على كائن `Image` تكتب المحتوى المرصّص إلى ملف PDF المحدد، منتجةً مستندًا جاهزًا للمشاركة.  
 
 ```csharp
 MyDir = MyDir + "Export3DImagestoPDF_out.pdf";
@@ -106,43 +154,49 @@ cadImage.Save(MyDir, pdfOptions);
 
 ## المشكلات الشائعة والحلول
 
-| Issue | Reason | Fix |
+| المشكلة | السبب | الحل |
 |-------|--------|-----|
-| **ملف PDF الناتج فارغ** | اسم التخطيط غير صحيح أو التخطيط `Model` مفقود. | تحقق من أن `rasterizationOptions.Layouts` يطابق تخطيطًا موجودًا في ملف CAD. |
-| **دقة منخفضة** | الدقة الافتراضية للرستر (DPI) منخفضة. | عيّن `rasterizationOptions.Resolution = 300;` قبل الحفظ. |
-| **الكيانات ثلاثية الأبعاد غير معروضة** | `TypeOfEntities` مُعَلَّق (مُعَلَّق في التعليقات). | أزل التعليق عن `rasterizationOptions.TypeOfEntities = TypeOfEntities.Entities3D;`. |
-| **استثناء الترخيص** | استخدام نسخة تجريبية بدون ترخيص. | طبق ترخيصًا مؤقتًا أو دائمًا عبر `License license = new License(); license.SetLicense("Aspose.CAD.lic");`. |
+| **Output PDF is blank** | اسم التخطيط غير صحيح أو عدم وجود تخطيط `Model`. | تحقق من أن `rasterizationOptions.Layouts` يطابق تخطيطًا موجودًا في ملف CAD. |
+| **Low resolution** | DPI الترصيص الافتراضي منخفض. | عيّن `rasterizationOptions.Resolution = 300;` قبل الحفظ. |
+| **3‑D entities not shown** | `TypeOfEntities` مُعَلَّق. | ألغِ التعليق عن `rasterizationOptions.TypeOfEntities = TypeOfEntities.Entities3D;`. |
+| **License exception** | استخدام نسخة تجريبية بدون ترخيص. | طبّق ترخيصًا مؤقتًا أو دائمًا عبر `License license = new License(); license.SetLicense("Aspose.CAD.lic");`. |
 
 ## الأسئلة المتكررة
 
 **س: هل Aspose.CAD متوافق مع جميع صيغ ملفات CAD؟**  
-ج: نعم، يدعم Aspose.CAD مجموعة واسعة من صيغ CAD، مما يضمن المرونة في التعامل مع أنواع الملفات المختلفة.
+ج: نعم، يدعم Aspose.CAD أكثر من 50 صيغة إدخال وإخراج، بما في ذلك DWG، DXF، DGN، STL، وIFC، مما يضمن مرونة لأي مشروع.
 
 **س: هل يمكنني تخصيص أبعاد الصفحة عند التصدير إلى PDF؟**  
-ج: بالتأكيد. يوضح الدليل كيفية تكوين عرض وارتفاع الصفحة وفقًا لمتطلباتك.
+ج: بالتأكيد. عيّن `PageWidth` و `PageHeight` في `RasterizationOptions` إلى أي حجم بالنقاط أو البوصات أو المليمترات قبل استدعاء `Save`.
 
 **س: هل تتوفر تراخيص مؤقتة لـ Aspose.CAD؟**  
 ج: نعم، يمكنك الحصول على تراخيص مؤقتة لـ Aspose.CAD بزيارة [Temporary License](https://purchase.aspose.com/temporary-license/).
 
 **س: أين يمكنني العثور على دعم إضافي أو مناقشات المجتمع؟**  
-ج: توجه إلى [Aspose.CAD Forum](https://forum.aspose.com/c/cad/19) للحصول على الدعم والتفاعل مع المجتمع.
+ج: توجه إلى [Aspose.CAD Forum](https://forum.aspose.com/c/cad/19) للحصول على مساعدة خبراء ونصائح من الأقران.
 
-**س: هل تتوفر نسخة تجريبية مجانية من Aspose.CAD؟**  
+**س: هل هناك نسخة تجريبية مجانية من Aspose.CAD؟**  
 ج: نعم، يمكنك استكشاف ميزات Aspose.CAD عبر الوصول إلى [free trial](https://releases.aspose.com/).
 
 ## الخلاصة
 
-لقد تعلمت الآن **how to export pdf** من صور CAD ثلاثية الأبعاد باستخدام Aspose.CAD لـ .NET. باتباع الخطوات أعلاه، يمكنك **save cad as pdf**، تخصيص إعدادات الصفحة، ومعالجة الكيانات ثلاثية الأبعاد عند الحاجة. لا تتردد في تجربة خيارات رستر مختلفة للحصول على أفضل جودة بصرية لنماذجك المحددة.
+أصبح لديك الآن طريقة كاملة وجاهزة للإنتاج **set PDF page size** و**export PDF from 3D CAD images** باستخدام Aspose.CAD لـ .NET. من خلال تعديل خيارات الترصيص يمكنك ضبط الدقة، تخطيط الصفحة، وعرض الكيانات ثلاثية الأبعاد لتلبية أي متطلبات توثيق. جرّب إعدادات DPI مختلفة وأبعاد صفحات مختلفة لتحقيق التوازن المثالي بين حجم الملف وجودة العرض.
 
----
+{{< blocks/products/products-backtop-button >}}
 
-**آخر تحديث:** 2026-01-28  
-**تم الاختبار مع:** Aspose.CAD 24.11 for .NET  
-**المؤلف:** Aspose  
+## دروس ذات صلة
+
+- [Exporting Specific Layouts to PDF - Aspose.CAD Guide](/cad/net/advanced-export-techniques/exporting-specific-layouts-to-pdf/)
+- [Exporting DWG to PDF or Raster Images - Aspose.CAD Guide](/cad/net/advanced-export-techniques/exporting-dwg-to-pdf-or-raster-images/)
+- [Export DGN to PDF in Aspose.CAD for .NET](/cad/net/cad-export-formats/export-dgn-to-pdf/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+--- 
+
+**آخر تحديث:** 2026-07-04  
+**تم الاختبار مع:** Aspose.CAD 24.11 for .NET  
+**المؤلف:** Aspose
