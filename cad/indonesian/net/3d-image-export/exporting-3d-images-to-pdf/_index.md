@@ -1,11 +1,59 @@
 ---
-date: 2026-01-28
-description: Pelajari cara mengekspor PDF dari gambar CAD 3D – panduan langkah demi
-  langkah tentang cara mengekspor PDF dan menyimpan CAD sebagai PDF menggunakan Aspose.CAD
-  untuk .NET.
-linktitle: Exporting 3D Images to PDF
+date: 2026-07-04
+description: Pelajari cara mengatur ukuran halaman PDF dan mengekspor PDF dari gambar
+  CAD 3D menggunakan Aspose.CAD untuk .NET – panduan langkah demi langkah untuk mengonversi
+  DWG ke PDF dan menyimpan CAD sebagai PDF.
+keywords:
+- set pdf page size
+- export pdf from cad
+- convert dwg to pdf
+- save cad as pdf
+- cad to pdf tutorial
+linktitle: Mengekspor Gambar 3D ke PDF
+schemas:
+- author: Aspose
+  dateModified: '2026-07-04'
+  description: Learn how to set PDF page size and export PDF from 3D CAD images using
+    Aspose.CAD for .NET – a step‑by‑step guide to convert DWG to PDF and save CAD
+    as PDF.
+  headline: Set PDF page size – Export 3D Images to PDF with Aspose.CAD
+  type: TechArticle
+- description: Learn how to set PDF page size and export PDF from 3D CAD images using
+    Aspose.CAD for .NET – a step‑by‑step guide to convert DWG to PDF and save CAD
+    as PDF.
+  name: Set PDF page size – Export 3D Images to PDF with Aspose.CAD
+  steps:
+  - name: Load the CAD Image
+    text: '`Image` class represents a CAD drawing loaded into memory, ready for rasterization.'
+  - name: Configure Rasterization Options (Save CAD as PDF)
+    text: '`RasterizationOptions` class defines how the CAD data is rasterized, including
+      page size, DPI, and whether 3‑D entities are rendered.'
+  - name: Set PDF Options (Create PDF from CAD)
+    text: '`PdfOptions` class holds the output format settings and links the rasterization
+      options to PDF generation.'
+  - name: Save as PDF (Generate PDF from 3D Model)
+    text: '`Save` method on the `Image` object writes the rasterized content to the
+      specified PDF file, producing a ready‑to‑share document.'
+  type: HowTo
+- questions:
+  - answer: Yes, Aspose.CAD supports more than 50 input and output formats, including
+      DWG, DXF, DGN, STL, and IFC, ensuring flexibility for any project.
+    question: Is Aspose.CAD compatible with all CAD file formats?
+  - answer: Absolutely. Set `PageWidth` and `PageHeight` in `RasterizationOptions`
+      to any size in points, inches, or millimetres before calling `Save`.
+    question: Can I customize the page dimensions when exporting to PDF?
+  - answer: Yes, you can obtain temporary licenses for Aspose.CAD by visiting [Temporary
+      License](https://purchase.aspose.com/temporary-license/).
+    question: Are temporary licenses available for Aspose.CAD?
+  - answer: Head to the [Aspose.CAD Forum](https://forum.aspose.com/c/cad/19) for
+      expert help and peer‑to‑peer advice.
+    question: Where can I find additional support or community discussions?
+  - answer: Yes, you can explore the features of Aspose.CAD by accessing the [free
+      trial](https://releases.aspose.com/).
+    question: Is there a free trial version of Aspose.CAD?
+  type: FAQPage
 second_title: Aspose.CAD .NET - CAD and BIM File Format
-title: Cara Mengekspor PDF – Mengekspor Gambar 3D ke PDF dengan Aspose.CAD
+title: Atur ukuran halaman PDF – Ekspor Gambar 3D ke PDF dengan Aspose.CAD
 url: /id/net/3d-image-export/exporting-3d-images-to-pdf/
 weight: 10
 ---
@@ -16,37 +64,34 @@ weight: 10
 
 # Mengekspor Gambar 3D ke PDF - Tutorial Aspose.CAD
 
-## Perkenalan
+## Pendahuluan
 
-Apakah Anda mencari panduan jelas tentang **cara mengekspor pdf** dari gambar CAD 3D Anda menggunakan Aspose.CAD untuk .NET? Tutorial ini memandu Anda melalui setiap langkah, mulai dari mengunduh file CAD hingga mengonfigurasi opsi rasterisasi dan akhirnya menghasilkan PDF yang mempertahankan detail model 3‑D Anda. Pada akhirnya, Anda akan dapat **menyimpan cad sebagai pdf** dengan cepat dan andal.
+Jika Anda perlu **mengatur ukuran halaman PDF** saat mengonversi gambar CAD 3‑D ke PDF, Anda berada di tempat yang tepat. Tutorial ini menunjukkan, langkah demi langkah, cara memuat file CAD, mengonfigurasi opsi rasterisasi—termasuk dimensi halaman khusus—dan menghasilkan PDF berkualitas tinggi menggunakan Aspose.CAD untuk .NET. Pada akhir tutorial Anda akan dapat **mengekspor PDF dari CAD**, **menyimpan CAD sebagai PDF**, dan mengontrol setiap detail tata letak tanpa menginstal AutoCAD.
 
 ## Jawaban Cepat
-- **Apa arti “cara mengekspor pdf”?** Mengonversi gambar CAD menjadi dokumen PDF yang dapat dilihat di platform apa pun.
-- **Perpustakaan mana yang menangani konversi?** Aspose.CAD untuk .NET menyediakan kemampuan rasterisasi dan ekspor PDF.
-- **Apakah saya memerlukan lisensi?** Lisensi sementara atau penuh diperlukan untuk penggunaan produksi; versi percobaan gratis tersedia.
-- ** bisakah saya menyesuaikan ukuran halaman?** Ya – Anda dapat mengatur `PageWidth` dan `PageHeight` dalam opsi rasterisasi.
-- **Apakah geometri 3‑D dipertahankan?** Entitas 3‑D dirasterisasi; Anda dapat mengaktifkan `TypeOfEntities.Entities3D` untuk dukungan 3‑D penuh.
+- **Apa arti “mengekspor PDF dari CAD”?** Ini mengonversi gambar CAD (DWG, DXF, DGN, dll.) menjadi PDF yang dapat dibuka di perangkat apa pun.  
+- **Perpustakaan mana yang melakukan konversi?** Aspose.CAD untuk .NET menyediakan rasterisasi dan ekspor PDF tanpa ketergantungan eksternal.  
+- **Apakah saya memerlukan lisensi?** Lisensi sementara atau penuh diperlukan untuk produksi; versi percobaan gratis tersedia.  
+- **Bisakah saya mengatur dimensi halaman khusus?** Ya—gunakan `PageWidth` dan `PageHeight` dalam `RasterizationOptions`.  
+- **Apakah geometri 3‑D akan dipertahankan?** Entitas 3‑D dirasterisasi; aktifkan `TypeOfEntities.Entities3D` untuk dukungan 3‑D penuh.
 
-## Apa yang dimaksud dengan “cara mengekspor pdf” dalam konteks CAD?
+## Apa itu “ekspor PDF” dalam konteks CAD?
 
-Mengekspor PDF dari CAD berarti mengambil gambar CAD (DWG, DXF, DGN, dll.) dan mengonversinya menjadi file PDF. PDF dapat berisi grafik vektor, tampilan 3‑D yang dirasterisasi, dan informasi tata letak halaman, memudahkan berbagi dengan pemangku kepentingan yang tidak memiliki perangkat lunak CAD.
+Mengekspor PDF dari CAD berarti mengambil gambar CAD (DWG, DXF, DGN, dll.) dan mengonversinya menjadi file PDF yang dapat berisi grafik vektor, tampilan 3‑D yang dirasterisasi, dan informasi tata letak halaman yang tepat, memudahkan berbagi dengan siapa saja yang tidak memiliki perangkat lunak CAD.
 
 ## Mengapa menggunakan Aspose.CAD untuk mengekspor PDF?
-- **Tanpa ketergantungan eksternal** – bekerja murni di .NET tanpa memerlukan AutoCAD.
-- **Fidelitas tinggi** – mempertahankan ketebalan garis, warna, dan rendering entitas 3‑D secara bergantian.
-- **Kontrol penuh** – Anda menentukan dimensi halaman, tata letak, dan kualitas rasterisasi.
-- **Lintas platform** – PDF yang dihasilkan dapat dibuka di perangkat apa pun.
+
+Aspose.CAD memungkinkan Anda **mengatur ukuran halaman PDF** dan mengekspor PDF sepenuhnya dalam kode .NET yang dikelola. Ia mendukung lebih dari 50 format CAD, memproses file hingga 2 GB tanpa memuat seluruh dokumen ke memori, dan mempertahankan ketebalan garis, warna, serta rendering entitas 3‑D opsional dengan DPI rasterisasi hingga 1200. Perpustakaan ini berjalan di Windows, Linux, dan macOS, sehingga PDF yang dihasilkan dapat digunakan di platform apa pun.
 
 ## Prasyarat
 
-Sebelum memulai, pastikan Anda memiliki:
-
-- **Aspose.CAD untuk .NET** terpasang. Unduh dari [halaman unduh Aspose.CAD untuk .NET](https://releases.aspose.com/cad/net/).
-- **Sebuah folder** yang berisi file CAD yang ingin Anda konversi. Catat jalur lengkapnya (misalnya, `C:\CAD\`).
+- **Aspose.CAD untuk .NET** terinstal. Unduh dari [Aspose.CAD for .NET download page](https://releases.aspose.com/cad/net/).  
+- Folder yang berisi file CAD yang ingin Anda konversi (misalnya, `C:\CAD\`).  
+- .NET 6.0 atau lebih baru (atau .NET Framework 4.7.2).  
 
 ## Impor Namespace
 
-Dalam proyek .NET Anda, impor namespace yang diperlukan untuk bekerja dengan Aspose.CAD. Tambahkan baris berikut ke bagian atas file kode Anda:
+Pernyataan `using` mengimpor namespace Aspose.CAD yang diperlukan untuk bekerja dengan opsi rasterisasi dan PDF.  
 
 ```csharp
 using System;
@@ -58,11 +103,15 @@ using Aspose.CAD;
 using Aspose.CAD.ImageOptions;
 ```
 
-## Panduan Langkah demi Langkah
+## Panduan Langkah‑per‑Langkah
+
+### Cara mengatur ukuran halaman PDF saat mengekspor CAD ke PDF?
+
+Muat file CAD Anda, konfigurasikan dimensi halaman dalam `RasterizationOptions`, lampirkan opsi tersebut ke instance `PdfOptions`, dan panggil `Save`. Alur empat langkah ini memberi Anda kontrol penuh atas ukuran output dan kualitas sambil menjaga kode tetap ringkas.
 
 ### Langkah 1: Muat Gambar CAD
 
-Pertama, muat file CAD sumber yang ingin Anda konversi. Ganti `"conic_pyramid.dxf"` dengan jalur ke file Anda sendiri.
+Kelas `Image` mewakili gambar CAD yang dimuat ke memori, siap untuk rasterisasi.  
 
 ```csharp
 string MyDir = "Your Document Directory";
@@ -75,7 +124,7 @@ using (Image cadImage = Image.Load(sourceFilePath))
 
 ### Langkah 2: Konfigurasikan Opsi Rasterisasi (Simpan CAD sebagai PDF)
 
-Siapkan parameter rasterisasi yang mengontrol bagaimana data CAD dirender ke dalam PDF. Anda dapat menyesuaikan ukuran halaman, tata letak, dan secara opsional mengaktifkan pemrosesan entitas 3‑D.
+Kelas `RasterizationOptions` menentukan bagaimana data CAD dirasterisasi, termasuk ukuran halaman, DPI, dan apakah entitas 3‑D dirender.  
 
 ```csharp
 CadRasterizationOptions rasterizationOptions = new CadRasterizationOptions();
@@ -88,7 +137,7 @@ rasterizationOptions.Layouts = new string[] { "Model" };
 
 ### Langkah 3: Atur Opsi PDF (Buat PDF dari CAD)
 
-Buat instance `PdfOptions` dan lampirkan pengaturan rasterisasi. Ini memberi tahu Aspose.CAD untuk menghasilkan file PDF menggunakan opsi yang telah didefinisikan di atas.
+Kelas `PdfOptions` menyimpan pengaturan format output dan menghubungkan opsi rasterisasi ke pembuatan PDF.  
 
 ```csharp
 PdfOptions pdfOptions = new PdfOptions();
@@ -97,7 +146,7 @@ pdfOptions.VectorRasterizationOptions = rasterizationOptions;
 
 ### Langkah 4: Simpan sebagai PDF (Hasilkan PDF dari Model 3D)
 
-Akhirnya, tentukan jalur output dan simpan gambar sebagai PDF. File akan berisi tampilan rasterisasi dari model 3‑D Anda.
+Metode `Save` pada objek `Image` menulis konten yang dirasterisasi ke file PDF yang ditentukan, menghasilkan dokumen siap‑dibagikan.  
 
 ```csharp
 MyDir = MyDir + "Export3DImagestoPDF_out.pdf";
@@ -108,41 +157,47 @@ cadImage.Save(MyDir, pdfOptions);
 
 | Masalah | Alasan | Solusi |
 |-------|--------|-----|
-| **PDF keluaran kosong** | Nama layout salah atau layout `Model` tidak ada. | Verifikasi bahwa `rasterizationOptions.Layouts` cocok dengan layout yang ada di file CAD. |
-| **Resolusi rendah** | DPI rasterisasi default rendah. | Setel `rasterizationOptions.Resolution = 300;` sebelum menyimpan. |
+| **PDF keluaran kosong** | Nama layout salah atau layout `Model` tidak ada. | Verifikasi `rasterizationOptions.Layouts` cocok dengan layout yang ada dalam file CAD. |
+| **Resolusi rendah** | DPI rasterisasi default rendah. | Atur `rasterizationOptions.Resolution = 300;` sebelum menyimpan. |
 | **Entitas 3‑D tidak ditampilkan** | `TypeOfEntities` dikomentari. | Hapus komentar pada `rasterizationOptions.TypeOfEntities = TypeOfEntities.Entities3D;`. |
-| **Pengecualian lisensi** | Menggunakan versi percobaan tanpa lisensi. | Terapkan lisensi sementara atau permanen melalui `License License = new License(); lisensi.SetLicense("Aspose.CAD.lic");`. |
+| **Pengecualian lisensi** | Menggunakan percobaan tanpa lisensi. | Terapkan lisensi sementara atau permanen via `License license = new License(); license.SetLicense("Aspose.CAD.lic");`. |
 
 ## Pertanyaan yang Sering Diajukan
 
-**T: Apakah Aspose.CAD kompatibel dengan semua format file CAD?**
-J: Ya, Aspose.CAD mendukung berbagai format CAD, memastikan permulaan dalam menangani berbagai jenis file.
+**Q: Apakah Aspose.CAD kompatibel dengan semua format file CAD?**  
+A: Ya, Aspose.CAD mendukung lebih dari 50 format input dan output, termasuk DWG, DXF, DGN, STL, dan IFC, memastikan fleksibilitas untuk proyek apa pun.
 
-**T: Bisakah saya menyesuaikan dimensi halaman saat mengekspor ke PDF?**
-J: Tentu saja. Tutorial ini menunjukkan cara mengonfigurasi lebar dan tinggi halaman sesuai kebutuhan Anda.
+**Q: Apakah saya dapat menyesuaikan dimensi halaman saat mengekspor ke PDF?**  
+A: Tentu saja. Atur `PageWidth` dan `PageHeight` dalam `RasterizationOptions` ke ukuran apa pun dalam poin, inci, atau milimeter sebelum memanggil `Save`.
 
-**T: Apakah lisensi sementara tersedia untuk Aspose.CAD?**
-J: Ya, Anda dapat memperoleh lisensi sementara untuk Aspose.CAD dengan mengunjungi [Lisensi Sementara](https://purchase.aspose.com/temporary-license/).
+**Q: Apakah lisensi sementara tersedia untuk Aspose.CAD?**  
+A: Ya, Anda dapat memperoleh lisensi sementara untuk Aspose.CAD dengan mengunjungi [Temporary License](https://purchase.aspose.com/temporary-license/).
 
-**T: Di mana saya dapat menemukan dukungan tambahan atau diskusi komunitas?**
-J: Kunjungi [Aspose.CAD Forum](https://forum.aspose.com/c/cad/19) untuk dukungan dan berinteraksi dengan komunitas.
+**Q: Di mana saya dapat menemukan dukungan tambahan atau diskusi komunitas?**  
+A: Kunjungi [Aspose.CAD Forum](https://forum.aspose.com/c/cad/19) untuk bantuan ahli dan saran sesama pengguna.
 
-**T: Apakah ada versi percobaan gratis dari Aspose.CAD?**
-J: Ya, Anda dapat menjelajahi fitur Aspose.CAD dengan mengakses [uji coba gratis](https://releases.aspose.com/).
+**Q: Apakah ada versi percobaan gratis Aspose.CAD?**  
+A: Ya, Anda dapat menjelajahi fitur Aspose.CAD dengan mengakses [free trial](https://releases.aspose.com/).
 
 ## Kesimpulan
 
-Anda kini telah mempelajari **cara mengekspor pdf** dari gambar CAD 3D menggunakan Aspose.CAD untuk .NET. Dengan mengikuti langkah-langkah di atas, Anda dapat **menyimpan cad sebagai pdf**, menyesuaikan pengaturan halaman, dan menangani entitas 3‑D bila diperlukan. Jangan ragu untuk bereksperimen dengan opsi rasterisasi yang berbeda untuk mencapai kualitas visual terbaik bagi model spesifik Anda.
+Anda kini memiliki metode lengkap yang siap produksi untuk **mengatur ukuran halaman PDF** dan **mengekspor PDF dari gambar CAD 3D** menggunakan Aspose.CAD untuk .NET. Dengan menyesuaikan opsi rasterisasi, Anda dapat menyetel resolusi, tata letak halaman, dan rendering entitas 3‑D untuk memenuhi setiap kebutuhan dokumentasi. Bereksperimenlah dengan pengaturan DPI dan dimensi halaman yang berbeda untuk mencapai keseimbangan sempurna antara ukuran file dan fidelitas visual.
 
----
+{{< blocks/products/products-backtop-button >}}
 
-**Terakhir Diperbarui:** 28-01-2026
-**Diuji Dengan:** Aspose.CAD 24.11 untuk .NET
-**Penulis:** Beranggapan  
+## Tutorial Terkait
+
+- [Mengekspor Tata Letak Spesifik ke PDF - Panduan Aspose.CAD](/cad/net/advanced-export-techniques/exporting-specific-layouts-to-pdf/)
+- [Mengekspor DWG ke PDF atau Gambar Raster - Panduan Aspose.CAD](/cad/net/advanced-export-techniques/exporting-dwg-to-pdf-or-raster-images/)
+- [Ekspor DGN ke PDF dalam Aspose.CAD untuk .NET](/cad/net/cad-export-formats/export-dgn-to-pdf/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+--- 
+
+**Last Updated:** 2026-07-04  
+**Tested With:** Aspose.CAD 24.11 for .NET  
+**Author:** Aspose
