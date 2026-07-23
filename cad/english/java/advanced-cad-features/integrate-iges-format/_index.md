@@ -1,8 +1,8 @@
 ---
-title: Custom PDF Page: Convert IGES to PDF with Aspose.CAD Java
+title: "Create Custom PDF Page: Convert IGES to PDF with Aspose.CAD for Java"
 linktitle: Integrate IGES Format
 second_title: Aspose.CAD Java API
-description: Learn how to create a custom PDF page by converting IGES to PDF with Aspose.CAD for Java, including how to set PDF size and generate high‑quality documents.
+description: "Learn how to create a custom PDF page by converting IGES to PDF with Aspose.CAD for Java, including how to set PDF size and generate high‑quality documents."
 weight: 11
 url: /java/advanced-cad-features/integrate-iges-format/
 date: 2026-02-12

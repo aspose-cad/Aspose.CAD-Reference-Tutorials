@@ -1,5 +1,5 @@
 ---
-title: "How to Set PDF Page Size and Enable Tracking for CAD Rendering Process"
+title: "How to Set PDF Page Size and Enable Tracking for CAD Rendering Process using Aspose.CAD for Java"
 linktitle: "Set PDF Page Size – Enable Tracking for CAD Rendering"
 second_title: "Aspose.CAD Java API"
 description: "Learn how to set PDF page size while converting CAD to PDF using Aspose.CAD for Java. Follow this step‑by‑step guide to enable tracking, convert CAD to PDF, and save CAD as PDF efficiently."
