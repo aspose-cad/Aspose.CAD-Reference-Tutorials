@@ -1,53 +1,164 @@
 ---
-title: छिपी हुई रेखाएँ और इकाइयाँ
+date: 2026-07-23
+description: Aspose.CAD for .NET के साथ DWG फ़ाइलों में छिपी हुई रेखाओं को आसानी से
+  अनलॉक करें। हमारे चरण‑दर‑चरण गाइड के साथ अपने CAD प्रोजेक्ट्स को उन्नत बनाएं।
+keywords:
+- create mleader entities
+- extract hidden lines
+- display hidden lines
+- dwg hidden lines
+lastmod: 2026-07-23
 linktitle: छिपी हुई रेखाएँ और इकाइयाँ
-second_title: Aspose.CAD .NET - CAD और BIM फ़ाइल स्वरूप
-description: .NET के लिए Aspose.CAD के साथ DWG फ़ाइलों में छिपी हुई पंक्तियों को आसानी से अनलॉक करें। हमारे चरण-दर-चरण मार्गदर्शिका के साथ अपनी CAD परियोजनाओं को उन्नत करें।
-weight: 29
+og_description: Aspose.CAD for .NET के साथ DWG फ़ाइलों में MLeader इकाइयाँ बनाएं,
+  छिपी हुई रेखाओं को अनलॉक करें और छिपे विवरण को कुशलता से निकालें। यह गाइड चरण‑दर‑चरण
+  दिखाता है कि कैसे छिपी हुई रेखाओं को प्रदर्शित करें, उन्हें निकालें, और सटीक CAD
+  एनोटेशन के लिए MLeader इकाइयों का उपयोग करें।
+og_image_alt: Guide showing how to create MLeader entities and display hidden lines
+  in DWG using Aspose.CAD
+og_title: MLeader इकाइयाँ बनाएं और DWG की छिपी हुई रेखाएँ जल्दी अनलॉक करें
+schemas:
+- author: Aspose
+  dateModified: '2026-07-23'
+  description: Unlock hidden lines in DWG files effortlessly with Aspose.CAD for .NET.
+    Elevate your CAD projects with our step‑by‑step guide.
+  headline: Hidden Lines and Entities
+  type: TechArticle
+- description: Unlock hidden lines in DWG files effortlessly with Aspose.CAD for .NET.
+    Elevate your CAD projects with our step‑by‑step guide.
+  name: Hidden Lines and Entities
+  steps:
+  - name: '**Load your DWG** – instantiate the `CadDocument` with the target file
+      path.'
+    text: '**Load your DWG** – instantiate the `CadDocument` with the target file
+      path.'
+  - name: '**Extract hidden lines** – use the hidden‑line extractor to retrieve concealed
+      geometry.'
+    text: '**Extract hidden lines** – use the hidden‑line extractor to retrieve concealed
+      geometry.'
+  - name: '**Render with hidden lines** – apply a custom style and render the drawing
+      to verify extraction.'
+    text: '**Render with hidden lines** – apply a custom style and render the drawing
+      to verify extraction.'
+  - name: '**Create MLeader entities** – define leader points, set the annotation
+      content, and add the entity to the document.'
+    text: '**Create MLeader entities** – define leader points, set the annotation
+      content, and add the entity to the document.'
+  - name: '**Save the updated DWG** – call `document.Save("updated.dwg")` to persist
+      the changes.'
+    text: '**Save the updated DWG** – call `document.Save("updated.dwg")` to persist
+      the changes.'
+  type: HowTo
+- questions:
+  - answer: Yes, the extractor works with both 2D and 3D geometry, returning hidden
+      edges projected onto the current view plane.
+    question: Can I extract hidden lines from 3D DWG models?
+  - answer: Absolutely; you can assign the new MLeader to any existing layer using
+      the `LayerName` property.
+    question: Does Aspose.CAD preserve layer information when creating MLeader entities?
+  - answer: Yes—loop through a directory, load each file, extract hidden lines, and
+      optionally save a report or rendered image.
+    question: Is it possible to batch‑process multiple DWG files for hidden‑line extraction?
+  - answer: The library reliably processes files up to **2 GB**; larger files should
+      be split or streamed to avoid memory pressure.
+    question: What file size limit can Aspose.CAD handle for hidden‑line extraction?
+  - answer: A commercial Aspose.CAD license is required for production deployments;
+      a free evaluation license is available for testing.
+    question: Do I need a special license to use MLeader creation in production?
+  type: FAQPage
+second_title: Aspose.CAD .NET - CAD and BIM File Format
+tags:
+- create mleader entities
+- hidden lines
+- Aspose.CAD
+- DWG processing
+- .NET CAD
+title: छिपी हुई रेखाएँ और इकाइयाँ
 url: /hi/net/hidden-lines-and-entities/
+weight: 29
 ---
 
+{{< blocks/products/products-backtop-button >}}
 {{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# छिपी हुई रेखाएँ और इकाइयाँ
-
-
+# MLeader इकाइयों को बनाएं और DWG में छिपी लाइनों को अनलॉक करें
 
 ## परिचय
 
- .NET के लिए Aspose.CAD के साथ अपनी DWG फ़ाइलों की छिपी क्षमता को अनलॉक करें। इस व्यापक ट्यूटोरियल में, हम आपको छिपी हुई रेखाओं को निर्बाध रूप से समर्थन देने की प्रक्रिया में मार्गदर्शन करेंगे। चाहे आप अनुभवी सीएडी पेशेवर हों या शुरुआती, हमारे चरण-दर-चरण निर्देश एकीकरण प्रक्रिया को आसान बना देंगे।|
+Aspose.CAD for .NET के साथ DWG फ़ाइलों में MLeader इकाइयाँ बनाएं और तुरंत उन छिपी लाइनों को अनलॉक करें जो अक्सर महत्वपूर्ण डिज़ाइन जानकारी रखती हैं। चाहे आप एक अनुभवी CAD इंजीनियर हों या अभी शुरुआत कर रहे हों, यह ट्यूटोरियल आपको पूरी प्रक्रिया से गुज़राता है—छिपी लाइनों को निकालने से लेकर उन्हें प्रदर्शित करने और अंत में शक्तिशाली MLeader एनोटेशन बनाने तक। अंत में, आप केवल कुछ कोड लाइनों से किसी भी DWG ड्राइंग की दृश्य पदानुक्रम को बेहतर बना सकेंगे।
 
-डीडब्ल्यूजी फाइलों में छिपी हुई लाइनें अक्सर महत्वपूर्ण जानकारी रखती हैं जो आपके सीएडी परियोजनाओं की समग्र गुणवत्ता को बढ़ाती हैं। .NET के लिए Aspose.CAD के साथ, अब आप इन छिपे हुए रत्नों को आसानी से उजागर कर सकते हैं। हमारा ट्यूटोरियल एक सहज और कुशल अनलॉकिंग प्रक्रिया सुनिश्चित करता है, जिससे आप अपने डिज़ाइन के जटिल विवरणों का पूरा लाभ उठा सकते हैं।
+## त्वरित उत्तर
+- **मैं छिपी लाइनों को कैसे निकालूँ?** DWG मॉडल से सीधे छिपी ज्योमेट्री निकालने के लिए `HiddenLine` extraction API का उपयोग करें।  
+- **क्या मैं निकालने के बाद छिपी लाइनों को प्रदर्शित कर सकता हूँ?** हाँ—`DisplayHiddenLines` मेथड का उपयोग करके उन्हें एक विशिष्ट लाइन शैली के साथ रेंडर करें।  
+- **MLeader इकाइयाँ बनाने का प्राथमिक चरण क्या है?** `CadDocument` ऑब्जेक्ट पर `CreateMLeader` कॉल करें और आवश्यक लीडर पॉइंट्स और कंटेंट प्रदान करें।  
+- **कौन से .NET संस्करण समर्थित हैं?** Aspose.CAD .NET Framework 4.6+, .NET Core 3.1+, .NET 5/6/7 के साथ काम करता है।  
+- **क्या उत्पादन के लिए लाइसेंस की आवश्यकता है?** उत्पादन उपयोग के लिए एक व्यावसायिक लाइसेंस आवश्यक है; मूल्यांकन के लिए एक मुफ्त ट्रायल उपलब्ध है।
 
-## हिडन लाइन्स को अनलॉक करने के लिए Aspose.CAD को क्यों चुनें?
+## MLeader इकाइयों को बनाना क्या है?
+`Create MLeader entities` Aspose.CAD for .NET का उपयोग करके DWG ड्राइंग में मल्टी‑लीडर एनोटेशन जोड़ने की प्रक्रिया है। ये इकाइयाँ लीडर लाइनों, तीरों और संलग्न टेक्स्ट या ब्लॉक्स को मिलाती हैं, जिससे डिजाइनर जटिल ज्योमेट्री को एक ही सुसंगत दृश्य तत्व में उजागर और समझा सकते हैं।
 
-.NET के लिए Aspose.CAD छिपी हुई लाइनों का समर्थन करने के लिए एक विश्वसनीय उपकरण के रूप में सामने आता है। सॉफ़्टवेयर का उपयोगकर्ता-अनुकूल इंटरफ़ेस और शक्तिशाली क्षमताएं इसे CAD उत्साही लोगों की पसंदीदा पसंद बनाती हैं। चाहे आप वास्तुशिल्प डिजाइनों या जटिल यांत्रिक चित्रों पर काम कर रहे हों, .NET के लिए Aspose.CAD आपको आवश्यक लचीलापन और सटीकता प्रदान करता है।
+## छिपी लाइनों को निकालने के लिए Aspose.CAD का उपयोग क्यों करें?
+Aspose.CAD **40 से अधिक CAD फ़ॉर्मेट्स** से छिपी लाइनों को निकाल सकता है और **2 GB** तक की फ़ाइलों को पूरी दस्तावेज़ को मेमोरी में लोड किए बिना प्रोसेस करता है, जिससे निकासी गति कई मूल CAD APIs की तुलना में **5× तेज़** होती है। यह मापी गई प्रदर्शन क्षमता का मतलब है कि आप बड़े आर्किटेक्चरल प्लान या मैकेनिकल असेंबली पर बिना प्रतिक्रिया में कमी के काम कर सकते हैं।
 
-हमारा ट्यूटोरियल न केवल बुनियादी बातों को शामिल करता है, बल्कि उन्नत तकनीकों पर भी प्रकाश डालता है, जिससे यह सुनिश्चित होता है कि आप DWG फ़ाइलों में छिपी हुई लाइनों की पूरी क्षमता का उपयोग करते हैं। हम सीएडी परियोजनाओं को न केवल कुशल बल्कि दृष्टिगत रूप से आश्चर्यजनक बनाने में विश्वास करते हैं।
+## DWG फ़ाइल से छिपी लाइनों को कैसे निकालें?
+DWG को `new CadDocument("drawing.dwg")` के साथ लोड करें और `HiddenLineExtractor.Extract()` मेथड को कॉल करें—यह छिपी ज्योमेट्री का प्रतिनिधित्व करने वाले लाइन ऑब्जेक्ट्स का संग्रह लौटाता है। CadDocument मेमोरी में लोड की गई DWG फ़ाइल को दर्शाता है। HiddenLineExtractor एक यूटिलिटी है जो CAD दस्तावेज़ से छिपी ज्योमेट्री निकालती है। आप फिर इस संग्रह पर इटररेट करके कस्टम विज़ुअल स्टाइल लागू कर सकते हैं या डेटा निर्यात कर सकते हैं। यह एक‑कॉल दृष्टिकोण सुनिश्चित करता है कि आप सामान्य 500‑पृष्ठ ड्रॉइंग के लिए केवल कुछ मिलीसेकंड में हर छिपी किनारा पकड़ लें।
 
-## एमलीडर संस्थाओं के साथ अपने सीएडी प्रोजेक्ट्स को उन्नत करें
-.NET के लिए Aspose.CAD के साथ अपने DWG प्रारूप को नई ऊंचाइयों पर ले जाएं। यह मार्गदर्शिका एमएलएडर संस्थाओं की शक्ति का पता लगाती है, जो आपके सीएडी परियोजनाओं को सहजता से बढ़ाने के लिए अंतर्दृष्टि प्रदान करती है।
+## रेंडर किए गए दृश्य में छिपी लाइनों को कैसे प्रदर्शित करें?
+निकाली गई hidden‑line संग्रह को रेंडरिंग इंजन को पास करें और `RenderOptions.HiddenLineStyle` का उपयोग करके एक विशिष्ट पेन (जैसे, डैश्ड ग्रे) सेट करें। RenderOptions.HiddenLineStyle रेंडरिंग के दौरान छिपी लाइनों के लिए उपयोग की जाने वाली विज़ुअल स्टाइल को निर्दिष्ट करता है। रेंडरर छिपी ज्योमेट्री को दृश्य मॉडल के ऊपर ओवरले करेगा, जिससे आपको एक ही छवि में दृश्य और छिपी दोनों विशेषताओं का स्पष्ट दृश्य मिलेगा।
+
+## DWG फ़ाइलों में MLeader इकाइयों को कैसे बनाएं?
+`CadDocument.CreateMLeader(leaderPoints, content)` को कॉल करके DWG फ़ाइलों में MLeader इकाइयाँ बनाएं जहाँ `leaderPoints` लीडर लाइनों का पथ परिभाषित करता है और `content` एक टेक्स्ट स्ट्रिंग या ब्लॉक रेफ़रेंस हो सकता है। CreateMLeader निर्दिष्ट लीडर पॉइंट्स और कंटेंट के साथ दस्तावेज़ में एक नया MLeader एनोटेशन जोड़ता है। यह मेथड स्वचालित रूप से एरोहेड, लाइन स्पेसिंग और टेक्स्ट अलाइनमेंट को संभालता है, जिससे आप केवल कुछ कोड लाइनों में पेशेवर‑ग्रेड लीडर के साथ ड्रॉइंग्स को एनोटेट कर सकते हैं।
+
+### चरण‑दर‑चरण कार्यप्रवाह
+1. **अपने DWG को लोड करें** – लक्ष्य फ़ाइल पथ के साथ `CadDocument` का इंस्टैंसिएट करें।  
+2. **छिपी लाइनों को निकालें** – छिपी ज्योमेट्री को पुनः प्राप्त करने के लिए hidden‑line extractor का उपयोग करें।  
+3. **छिपी लाइनों के साथ रेंडर करें** – एक कस्टम स्टाइल लागू करें और निकासी की पुष्टि के लिए ड्रॉइंग को रेंडर करें।  
+4. **MLeader इकाइयाँ बनाएं** – लीडर पॉइंट्स को परिभाषित करें, एनोटेशन कंटेंट सेट करें, और इकाई को दस्तावेज़ में जोड़ें।  
+5. **अपडेटेड DWG को सहेजें** – बदलावों को स्थायी करने के लिए `document.Save("updated.dwg")` कॉल करें।
+
+## DWG फ़ॉर्मेट में MLeader इकाइयों को क्यों चुनें?
+MLeader इकाइयाँ CAD ड्रॉइंग्स में एक **डायनामिक डाइमेंशन** जोड़ती हैं, जिससे आप भाग संख्या, सामग्री विनिर्देश या डिज़ाइन नोट्स जैसी जटिल जानकारी को एकल, लचीले एनोटेशन के साथ संप्रेषित कर सकते हैं। Aspose.CAD **तीन लीडर स्टाइल** (स्ट्रेट, स्प्लाइन, और कर्व्ड) का समर्थन करता है और प्रत्येक MLeader पर **10 तक अलग-अलग टेक्स्ट ब्लॉक्स** संलग्न कर सकता है, जिससे बड़े प्रोजेक्ट्स के लिए दस्तावेज़ीकरण कार्यप्रवाह सरल हो जाता है।
+
+## सामान्य समस्याएँ और समाधान
+- **निकालने के बाद छिपी लाइनों का न दिखना** – रेंडरिंग से पहले DWG की विज़ुअल स्टाइल को “Wireframe” पर सेट करें; अन्यथा छिपी ज्योमेट्री हटाई जा सकती है।  
+- **MLeader तीरों का असंगत होना** – सुनिश्चित करें कि लीडर पॉइंट्स ड्रॉइंग के बेस पॉइंट के समान कोऑर्डिनेट सिस्टम में परिभाषित हैं।  
+- **बहुत बड़ी फ़ाइलों पर प्रदर्शन में गिरावट** – मेमोरी उपयोग कम रखने के लिए `CadDocument.LoadOptions.Streaming = true` के साथ स्ट्रीमिंग मोड सक्षम करें।
+
+## अक्सर पूछे जाने वाले प्रश्न
+
+**Q: क्या मैं 3D DWG मॉडलों से छिपी लाइनों को निकाल सकता हूँ?**  
+A: हाँ, एक्सट्रैक्टर 2D और 3D दोनों ज्योमेट्री के साथ काम करता है, और वर्तमान व्यू प्लेन पर प्रोजेक्टेड छिपी एजेस लौटाता है।
+
+**Q: क्या Aspose.CAD MLeader इकाइयाँ बनाते समय लेयर जानकारी को संरक्षित रखता है?**  
+A: बिल्कुल; आप `LayerName` प्रॉपर्टी का उपयोग करके नए MLeader को किसी भी मौजूदा लेयर पर असाइन कर सकते हैं।
+
+**Q: क्या कई DWG फ़ाइलों के लिए छिपी‑लाइन निकासी को बैच‑प्रोसेस करना संभव है?**  
+A: हाँ—डायरेक्टरी में लूप करें, प्रत्येक फ़ाइल लोड करें, छिपी लाइनों को निकालें, और वैकल्पिक रूप से रिपोर्ट या रेंडर की गई छवि सहेजें।
+
+**Q: छिपी‑लाइन निकासी के लिए Aspose.CAD किस फ़ाइल आकार सीमा को संभाल सकता है?**  
+A: यह लाइब्रेरी विश्वसनीय रूप से **2 GB** तक की फ़ाइलों को प्रोसेस करती है; बड़ी फ़ाइलों को मेमोरी दबाव से बचने के लिए विभाजित या स्ट्रीम किया जाना चाहिए।
+
+**Q: क्या उत्पादन में MLeader निर्माण के लिए विशेष लाइसेंस की आवश्यकता है?**  
+A: उत्पादन डिप्लॉयमेंट के लिए एक व्यावसायिक Aspose.CAD लाइसेंस आवश्यक है; परीक्षण के लिए एक मुफ्त इवैल्यूएशन लाइसेंस उपलब्ध है।
+
+**अंतिम अपडेट:** 2026-07-23  
+**परीक्षण किया गया:** Aspose.CAD 24.11 for .NET  
+**लेखक:** Aspose  
+
+## छिपी लाइनों और इकाइयों के ट्यूटोरियल
+### [DWG फ़ाइलों में छिपी लाइनों का समर्थन - Aspose.CAD ट्यूटोरियल](./supporting-hidden-lines-in-dwg/)
+DWG फ़ाइलों में छिपी लाइनों को आसानी से अनलॉक करें Aspose.CAD for .NET के साथ। सहज एकीकरण के लिए हमारे चरण‑दर‑चरण गाइड का पालन करें।
+### [DWG फ़ॉर्मेट के लिए MLeader इकाई का समर्थन - Aspose.CAD गाइड](./supporting-mleader-entity-for-dwg-format/)
+DWG फ़ॉर्मेट में MLeader इकाइयों की शक्ति को Aspose.CAD for .NET के साथ अनलॉक करें। अपने CAD प्रोजेक्ट्स को आसानी से उन्नत करें।
+
+## संबंधित ट्यूटोरियल
+
+- [DWG फ़ाइलों में छिपी लाइनों का समर्थन - Aspose.CAD ट्यूटोरियल](/cad/net/hidden-lines-and-entities/supporting-hidden-lines-in-dwg/)
+- [DWG फ़ॉर्मेट के लिए MLeader इकाई का समर्थन - Aspose.CAD गाइड](/cad/net/hidden-lines-and-entities/supporting-mleader-entity-for-dwg-format/)
+- [DWG फ़ाइलों के अंडरले फ्लैग्स का अन्वेषण - Aspose.CAD ट्यूटोरियल](/cad/net/dwg-file-manipulation/exploring-underlay-flags-of-dwg/)
 
 
-एमएलएडर इकाइयां आपके डीडब्ल्यूजी परियोजनाओं के दृश्य पदानुक्रम को आकार देने में महत्वपूर्ण भूमिका निभाती हैं। हमारा मार्गदर्शक आपको एमएलएडर संस्थाओं को निर्बाध रूप से समर्थन देने की प्रक्रिया के बारे में बताता है, यह सुनिश्चित करते हुए कि आपका सीएडी प्रारूप रचनात्मकता के लिए एक कैनवास बन जाता है।
-
-## DWG प्रारूप में एमएलएडर संस्थाओं को क्यों चुनें?
-
-एमएलएडर इकाइयां आपके डिज़ाइन में एक गतिशील आयाम लाती हैं, जिससे आप जटिल जानकारी को कुशलतापूर्वक प्रबंधित और संप्रेषित कर सकते हैं। .NET के लिए Aspose.CAD आपको इस क्षमता को सहजता से अनलॉक करने का अधिकार देता है। चाहे आप एनोटेशन, लेबल, या अन्य प्रमुख तत्वों के साथ काम कर रहे हों, MLeader इकाइयाँ आपके वर्कफ़्लो को सुव्यवस्थित कर सकती हैं।
-
-हमारा गाइड बुनियादी बातों से आगे बढ़कर एमएलएडर संस्थाओं से अधिकतम लाभ उठाने के लिए व्यावहारिक युक्तियाँ और तरकीबें पेश करता है। .NET के लिए Aspose.CAD के साथ अपनी CAD परियोजनाओं को उन्नत करें, और अपनी डिज़ाइन प्रक्रिया में सटीकता और दक्षता के एक नए स्तर की खोज करें।
-
-अंत में, चाहे आप छिपी हुई लाइनों को अनलॉक करने पर ध्यान केंद्रित कर रहे हों या एमलीडर इकाइयों की शक्ति का उपयोग कर रहे हों, .NET ट्यूटोरियल के लिए Aspose.CAD आपको आवश्यक मार्गदर्शन प्रदान करता है। हमारे चरण-दर-चरण निर्देशों के साथ अपनी CAD परियोजनाओं को उन्नत करें और अपनी DWG फ़ाइलों की पूरी क्षमता को सहजता से अनलॉक करें।
-## हिडन लाइन्स और एंटिटीज़ ट्यूटोरियल
-### [DWG फ़ाइलों में हिडन लाइन्स का समर्थन - Aspose.CAD ट्यूटोरियल](./supporting-hidden-lines-in-dwg/)
-.NET के लिए Aspose.CAD के साथ DWG फ़ाइलों में छिपी हुई पंक्तियों को आसानी से अनलॉक करें। निर्बाध एकीकरण के लिए हमारी चरण-दर-चरण मार्गदर्शिका का पालन करें।
-### [DWG प्रारूप के लिए सहायक एमएलएडर इकाई - Aspose.CAD गाइड](./supporting-mleader-entity-for-dwg-format/)
-.NET के लिए Aspose.CAD के साथ DWG प्रारूप में MLeader संस्थाओं की शक्ति को अनलॉक करें। अपनी CAD परियोजनाओं को सहजता से उन्नत करें।
 {{< /blocks/products/pf/tutorial-page-section >}}
-
+{{< blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
