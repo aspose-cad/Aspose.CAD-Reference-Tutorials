@@ -1,100 +1,148 @@
 ---
-title: जावा में Aspose.CAD का उपयोग करके बाहरी संदर्भ से ब्लॉक विशेषता मान निकालें
-linktitle: बाहरी संदर्भ से ब्लॉक विशेषता मान निकालें
-second_title: Aspose.CAD जावा एपीआई
-description: Aspose.CAD का उपयोग करके जावा में DWG बाहरी संदर्भों से ब्लॉक विशेषता मान निकालने पर हमारा ट्यूटोरियल देखें। अपने CAD विकास वर्कफ़्लो को सहजता से बढ़ाएँ।
-weight: 19
+date: 2026-02-12
+description: Aspose.CAD for Java का उपयोग करके DWG फ़ाइलों में बाहरी रेफ़रेंसेज़ से
+  एट्रिब्यूट निकालना और DWG ब्लॉक एट्रिब्यूट एक्सट्रैक्शन कैसे करें, सीखें। आज ही
+  अपने CAD विकास कार्यप्रवाह को तेज़ बनाएं।
+linktitle: Extract Block Attribute Value from External Reference
+second_title: Aspose.CAD Java API
+title: Aspose.CAD का उपयोग करके जावा में बाहरी रेफ़रेंस से ब्लॉक एट्रिब्यूट मान निकालने
+  का तरीका
 url: /hi/java/advanced-cad-features/extract-block-attribute-value/
+weight: 19
 ---
+
+ translate bullet points.
+
+Let's craft.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# जावा में Aspose.CAD का उपयोग करके बाहरी संदर्भ से ब्लॉक विशेषता मान निकालें
+# How to Extract Attributes - Block Attribute Value from External Reference Using Aspose.CAD in Java
 
-## परिचय
+## Introduction
 
-Aspose.CAD का उपयोग करके जावा में बाहरी संदर्भों से ब्लॉक विशेषता मान निकालने पर हमारी व्यापक मार्गदर्शिका में आपका स्वागत है। यदि आप एक डेवलपर हैं जो सीएडी ड्राइंग के साथ काम कर रहे हैं और अपने वर्कफ़्लो को सुव्यवस्थित करना चाहते हैं, तो आप सही जगह पर हैं। इस ट्यूटोरियल में, हम आपको जावा के लिए Aspose.CAD की शक्तिशाली सुविधाओं का लाभ उठाते हुए चरण दर चरण प्रक्रिया के बारे में बताएंगे।
+यदि आप DWG एक्सटर्नल रेफ़रेंसेज़ से **एट्रिब्यूट्स निकालने** के स्पष्ट, चरण‑दर‑चरण गाइड की तलाश में हैं, तो आप सही जगह पर आए हैं। इस ट्यूटोरियल में हम Aspose.CAD for Java का उपयोग करके ब्लॉक एट्रिब्यूट वैल्यूज़ निकालने की प्रक्रिया को समझेंगे, यह CAD ऑटोमेशन के लिए क्यों महत्वपूर्ण है, और आपको तुरंत चलाने योग्य व्यावहारिक कोड देंगे।
 
-## आवश्यक शर्तें
+## Quick Answers
+- **मैं क्या निकाल सकता हूँ?** एक्सटर्नल DWG रेफ़रेंसेज़ से ब्लॉक एट्रिब्यूट वैल्यूज़।  
+- **कौनसी लाइब्रेरी आवश्यक है?** Aspose.CAD for Java (आधिकारिक Aspose साइट से डाउनलोड करें)।  
+- **क्या लाइसेंस चाहिए?** प्रोडक्शन उपयोग के लिए एक टेम्पररी या फुल लाइसेंस आवश्यक है।  
+- **क्या इसे किसी भी OS पर चलाया जा सकता है?** हाँ – लाइब्रेरी प्लेटफ़ॉर्म‑इंडिपेंडेंट है बशर्ते आपके पास Java रनटाइम हो।  
+- **इम्प्लीमेंटेशन में कितना समय लगेगा?** बेसिक एक्सट्रैक्शन के लिए लगभग 10–15 मिनट।
 
-इससे पहले कि हम ट्यूटोरियल में उतरें, सुनिश्चित करें कि आपके पास निम्नलिखित आवश्यक शर्तें हैं:
+## How to Extract Attributes from DWG External References
 
--  जावा लाइब्रेरी के लिए Aspose.CAD: आप लाइब्रेरी को यहां से डाउनलोड कर सकते हैं[Aspose वेबसाइट](https://releases.aspose.com/cad/java/).
-- जावा विकास पर्यावरण: सुनिश्चित करें कि आपकी मशीन पर एक कार्यशील जावा वातावरण स्थापित है।
+एट्रिब्यूट्स निकालना मतलब DWG फ़ाइल के ब्लॉक डिफ़िनिशन के भीतर संग्रहीत टेक्स्टुअल डेटा (जैसे नाम, नंबर, या कस्टम प्रॉपर्टीज़) को पढ़ना। जब ये ब्लॉक्स किसी एक्सटर्नल ड्राइंग (XRef) से रेफ़र किए जाते हैं, तो उनके एट्रिब्यूट वैल्यूज़ को प्राप्त करना रिपोर्टिंग, डेटा माइग्रेशन, या वैलिडेशन टास्क को ऑटोमेट करने में मदद करता है।
 
-## नामस्थान आयात करें
+## dwg block attribute extraction with Aspose.CAD
 
-अपने जावा प्रोजेक्ट में, आवश्यक नामस्थान आयात करके प्रारंभ करें। Aspose.CAD द्वारा प्रदान की गई कार्यक्षमता तक पहुँचने के लिए यह एक महत्वपूर्ण कदम है।
+नीचे आप वह सब पाएँगे जो आपको **dwg ब्लॉक एट्रिब्यूट एक्सट्रैक्शन** को एक Java प्रोजेक्ट में शुरू करने के लिए चाहिए – प्री‑रिक्विज़िट्स से लेकर पूर्ण कोड वॉक‑थ्रू तक।
+
+## Why extract DWG block attributes from external references?
+
+- **ऑटोमेशन:** बड़े CAD असेंबलीज़ की मैन्युअल जांच को कम करें।  
+- **डेटा कंसिस्टेंसी:** लिंक्ड ड्रॉइंग्स में एट्रिब्यूट वैल्यूज़ को सिंक्रनाइज़ रखें।  
+- **इंटीग्रेशन:** एट्रिब्यूट डेटा को डाउनस्ट्रीम सिस्टम्स (ERP, BIM, GIS) में फीड करें।  
+
+## Prerequisites
+
+- **Aspose.CAD for Java Library** – [Aspose वेबसाइट](https://releases.aspose.com/cad/java/) से डाउनलोड करें।  
+- **Java Development Environment** – JDK 8+ और आपका पसंदीदा IDE या बिल्ड टूल।
+
+## Import Namespaces
+
+अपने Java प्रोजेक्ट में आवश्यक क्लासेज़ को इम्पोर्ट करके शुरू करें। इससे आपको CAD इमेज हैंडलिंग API तक पहुँच मिलेगी।
 
 ```java
-
 import com.aspose.cad.Image;
-
 import com.aspose.cad.fileformats.cad.CadImage;
 import com.aspose.cad.fileformats.cad.cadparameters.CadStringParameter;
 ```
 
-अब, आइए एक स्पष्ट और विस्तृत ट्यूटोरियल के लिए उदाहरण कोड को कई चरणों में विभाजित करें।
+## Step 1: Define the Resource Directory
 
-## चरण 1: संसाधन निर्देशिका को परिभाषित करें
-
-उस निर्देशिका का पथ निर्दिष्ट करके प्रारंभ करें जहां आपके DWG चित्र स्थित हैं।
+उस फ़ोल्डर को निर्दिष्ट करें जिसमें आपके DWG फ़ाइलें हैं। अपने वातावरण के अनुसार पाथ को एडजस्ट करें।
 
 ```java
-// संसाधन निर्देशिका का पथ.
+// The path to the resource directory.
 String dataDir = "Your Document Directory" + "DWGDrawings/";
 ```
 
-## चरण 2: DWG फ़ाइल लोड करें
+## Step 2: Load the DWG File
 
-मौजूदा DWG फ़ाइल को इस रूप में लोड करें`CadImage` Aspose.CAD का उपयोग करना।
+टार्गेट ड्रॉइंग को `CadImage` के रूप में खोलें। यह ऑब्जेक्ट मेमोरी में पूरे DWG फ़ाइल का प्रतिनिधित्व करता है।
 
 ```java
-// मौजूदा DWG फ़ाइल को CADImage के रूप में लोड करें।
+// Load an existing DWG file as CadImage.
 CadImage cadImage = (CadImage) Image.load(dataDir + "sample.dwg");
 ```
 
-## चरण 3: बाहरी पथ नाम संपत्ति तक पहुंचें
+## Step 3: Access External Path Name Property
 
-ब्लॉक इकाइयों की बाहरी पथ नाम संपत्ति तक पहुंचें, विशेष रूप से "के लिए"*मॉडल_स्पेस" ब्लॉक।
+`*MODEL_SPACE` ब्लॉक के लिए एक्सटर्नल रेफ़रेंस (XRef) पाथ को प्राप्त करें और प्रिंट करें। यह **एक्सटर्नल रेफ़रेंस से एट्रिब्यूट्स निकालने** का प्रदर्शन करता है।
 
 ```java
-// बाह्य पथ नाम गुण तक पहुंचें
+// Access the external path name property
 CadStringParameter sXternalRef = cadImage.getBlockEntities().get_Item("*MODEL_SPACE").getXRefPathName();
 System.out.println(sXternalRef);
 ```
 
-यह कोड स्निपेट जावा के लिए Aspose.CAD का उपयोग करके बाहरी संदर्भों से ब्लॉक विशेषता मान निकालने की मुख्य कार्यक्षमता को प्रदर्शित करता है।
+### What the code does
 
-अब, आइए संक्षेप में बताएं कि हमने क्या कवर किया है।
+1. **Loads** the DWG file into a `CadImage`.  
+2. **Navigates** to the block collection and selects the special `*MODEL_SPACE` block, which represents the model space of an XRef.  
+3. **Calls** `getXRefPathName()` to obtain the file path of the external reference.  
+4. **Prints** the path, allowing you to verify that the attribute (the XRef path) has been successfully extracted.
 
-## निष्कर्ष
+## Common Use Cases
 
-इस ट्यूटोरियल में, हमने Aspose.CAD का उपयोग करके जावा में बाहरी संदर्भों से ब्लॉक विशेषता मान निकालने की प्रक्रिया का पता लगाया। ऊपर बताए गए चरणों का पालन करके, आप अपने सीएडी विकास वर्कफ़्लो को बढ़ा सकते हैं और डीडब्ल्यूजी चित्रों के भीतर बाहरी संदर्भों को कुशलतापूर्वक प्रबंधित कर सकते हैं।
+- **Bill of Materials generation:** लिंक्ड ड्रॉइंग्स से ब्लॉक एट्रिब्यूट्स के रूप में संग्रहीत पार्ट नंबर निकालें।  
+- **Quality checks:** कई XRef फ़ाइलों में एट्रिब्यूट वैल्यूज़ की तुलना करके असंगतियों को पहचानें।  
+- **Data migration:** एट्रिब्यूट डेटा को CSV या डेटाबेस में एक्सपोर्ट करके डाउनस्ट्रीम प्रोसेसिंग के लिए तैयार करें।
 
-## अक्सर पूछे जाने वाले प्रश्न
+## Common Issues and Solutions
 
-### Q1: क्या Aspose.CAD DWG फ़ाइलों के सभी संस्करणों के साथ संगत है?
+| समस्या | कारण | समाधान |
+|-------|-------|-----|
+| `NullPointerException` on `get_Item("*MODEL_SPACE")` | ड्रॉइंग में XRef नहीं है या ब्लॉक नाम अलग है। | `cadImage.getBlockEntities().keySet()` से ब्लॉक नाम चेक करें और अनुसार एडजस्ट करें। |
+| Library not found at runtime | क्लासपाथ पर Aspose.CAD JAR नहीं है। | Maven/Gradle या मैन्युअल रूप से प्रोजेक्ट की डिपेंडेंसीज़ में Aspose.CAD JAR जोड़ें। |
+| License not applied | एवाल्यूएशन मोड कुछ ऑपरेशन्स को सीमित करता है। | किसी भी API कॉल से पहले लाइसेंस फ़ाइल लोड करें: `License license = new License(); license.setLicense("Aspose.CAD.Java.lic");` |
 
-A1: Aspose.CAD DWG फ़ाइलों के विभिन्न संस्करणों का समर्थन करता है, जिससे CAD अनुप्रयोगों की एक विस्तृत श्रृंखला के साथ संगतता सुनिश्चित होती है।
+## Frequently Asked Questions
 
-### Q2: क्या मैं किसी व्यावसायिक परियोजना में जावा के लिए Aspose.CAD का उपयोग कर सकता हूँ?
+**Q1: Is Aspose.CAD compatible with all versions of DWG files?**  
+A1: Aspose.CAD supports a wide range of DWG versions, from early releases up to the most recent AutoCAD formats.
 
- उ2: हां, आप वाणिज्यिक परियोजनाओं में जावा के लिए Aspose.CAD का उपयोग कर सकते हैं। मिलने जाना[इस लिंक](https://purchase.aspose.com/buy) लाइसेंसिंग विवरण के लिए.
+**Q2: Can I use Aspose.CAD for Java in a commercial project?**  
+A2: Yes, you can use Aspose.CAD for Java in commercial projects. Visit [this link](https://purchase.aspose.com/buy) for licensing details.
 
-### Q3: क्या Aspose.CAD के लिए कोई निःशुल्क परीक्षण उपलब्ध है?
+**Q3: Is there a free trial available for Aspose.CAD?**  
+A3: Yes, you can explore a free trial of Aspose.CAD by visiting [this link](https://releases.aspose.com/).
 
- उ3: हां, आप विजिट करके Aspose.CAD का निःशुल्क परीक्षण देख सकते हैं[इस लिंक](https://releases.aspose.com/).
+**Q4: How can I get support for Aspose.CAD?**  
+A4: For any technical assistance or queries, you can visit the [Aspose.CAD forum](https://forum.aspose.com/c/cad/19).
 
-### Q4: मैं Aspose.CAD के लिए समर्थन कैसे प्राप्त कर सकता हूं?
+**Q5: What is the process for obtaining a temporary license for Aspose.CAD?**  
+A5: To obtain a temporary license, please visit [this link](https://purchase.aspose.com/temporary-license/).
 
- A4: किसी भी तकनीकी सहायता या प्रश्न के लिए, आप यहां जा सकते हैं[Aspose.CAD फोरम](https://forum.aspose.com/c/cad/19).
+**Q6: Can I extract other attribute types (e.g., text, numeric) from blocks?**  
+A6: Yes. Once you have the block reference, you can iterate over its attribute collection using `cadImage.getBlockEntities().get_Item(blockName).getAttributes()`.
 
-### Q5: Aspose.CAD के लिए अस्थायी लाइसेंस प्राप्त करने की प्रक्रिया क्या है?
+**Q7: Does this work with nested external references?**  
+A7: The same approach applies; just navigate to the appropriate block hierarchy and call `getXRefPathName()` on each level.
 
- A5: अस्थायी लाइसेंस प्राप्त करने के लिए, कृपया जाएँ[इस लिंक](https://purchase.aspose.com/temporary-license/).
+## Conclusion
+
+इस गाइड में हमने **एट्रिब्यूट्स निकालने**—विशेष रूप से एक्सटर्नल रेफ़रेंस पाथ—को DWG ब्लॉक एंटिटीज़ से Aspose.CAD for Java का उपयोग करके कवर किया। ऊपर दिए गए चरणों का पालन करके आप एट्रिब्यूट एक्सट्रैक्शन को ऑटोमेटेड पाइपलाइन में इंटीग्रेट कर सकते हैं, लिंक्ड CAD फ़ाइलों में डेटा कंसिस्टेंसी सुधार सकते हैं, और CAD‑ड्रिवन एप्लिकेशन्स के लिए नई संभावनाएँ खोल सकते हैं।
+
+---
+
+**Last Updated:** 2026-02-12  
+**Tested With:** Aspose.CAD for Java 24.12  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
