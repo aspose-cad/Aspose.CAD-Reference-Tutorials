@@ -1,8 +1,8 @@
 ---
-title: "How to Export DWG to PDF – Aspose.CAD Java Tutorial"
+title: "How to Create PDF from DWG – Aspose.CAD Java Tutorial"
 linktitle: "Export DWG to PDF"
 second_title: "Aspose.CAD Java API"
-description: "Learn how to export dwg pdf using Aspose.CAD for Java, convert DWG to raster, and transform DWT to DXF. Step‑by‑step guides for Java CAD to PDF workflows."
+description: "Learn how to create PDF from DWG using Aspose.CAD for Java, convert DWG to raster, and transform DWT to DXF. Step‑by‑step guides for Java CAD to PDF workflows."
 weight: 20
 url: /java/cad-drawing-conversion/
 date: 2026-02-17
@@ -28,6 +28,25 @@ In this tutorial, you'll learn **how to export dwg pdf** files using Aspose.CAD 
 ## How to Export DWG PDF
 
 Exporting a DWG file to PDF creates a device‑independent, share‑ready document that preserves the exact visual fidelity of the original drawing. This is especially useful for client reviews, documentation, or archiving where the recipient may not have CAD software installed.
+
+```java
+import com.aspose.cad.*;
+import com.aspose.cad.imageoptions.*;
+
+public class ExportDWGtoPDF {
+    public static void main(String[] args) {
+        // Load DWG file
+        Image image = Image.load("sample.dwg");
+
+        // Set PDF export options
+        PdfOptions options = new PdfOptions();
+        options.setVectorRasterizationMode(VectorRasterizationMode.Vector);
+
+        // Save as PDF
+        image.save("output.pdf", options);
+    }
+}
+```
 
 ## Why Use Aspose.CAD for Java?
 
@@ -63,17 +82,17 @@ Dive into the world of CAD file manipulation by seamlessly converting **convert 
 Whether you're looking to **convert dwg to raster**, optimize your CAD workflow, or explore new dimensions in CAD file manipulation, our tutorials using Aspose.CAD for Java offer a rich and detailed guide. Transform your CAD experience today and unlock the true potential of your drawings.
 
 ## CAD Drawing Conversion Tutorials
-### [Convert CAD Drawing to Raster Image Format Using Aspose.CAD for Java](./convert-cad-drawing-to-raster-image/)
+### [Convert CAD Drawing to Raster Image Format Using Aspose.CAD for Java]({{< relref "convert-cad-drawing-to-raster-image/_index.md" >}})
 Explore the seamless conversion of CAD drawings to raster images using Aspose.CAD for Java. Follow our step‑by‑step guide for efficient integration.
-### [Convert CAD Layer to Raster Image Format Using Aspose.CAD for Java](./convert-cad-layer-to-raster-image/)
+### [Convert CAD Layer to Raster Image Format Using Aspose.CAD for Java]({{< relref "convert-cad-layer-to-raster-image/_index.md" >}})
 Learn how to convert CAD layers to raster images effortlessly with Aspose.CAD for Java. Follow our step‑by‑step guide for seamless document visualization.
-### [Convert CAD Layout to Raster Image Format Using Aspose.CAD for Java](./convert-cad-layout-to-raster-image/)
+### [Convert CAD Layout to Raster Image Format Using Aspose.CAD for Java]({{< relref "convert-cad-layout-to-raster-image/_index.md" >}})
 Effortlessly convert CAD layouts to raster images using Aspose.CAD for Java. High‑quality visualization for enhanced collaboration.
-### [Export DWG to PDF or Raster Using Aspose.CAD for Java](./export-dwg-to-pdf-or-raster/)
+### [Export DWG to PDF or Raster Using Aspose.CAD for Java]({{< relref "export-dwg-to-pdf-or-raster/_index.md" >}})
 Explore the seamless process of exporting DWG files to PDF or raster images in Java using Aspose.CAD. This step‑by‑step guide ensures precision and efficiency.
-### [Export Specific DWG Layout to PDF Using Aspose.CAD for Java](./export-specific-dwg-layout-to-pdf/)
+### [Export Specific DWG Layout to PDF Using Aspose.CAD for Java]({{< relref "export-specific-dwg-layout-to-pdf/_index.md" >}})
 Explore the step‑by‑step guide to export specific DWG layouts to PDF using Aspose.CAD for Java. Optimize your CAD workflow effortlessly.
-### [Convert DWT to DXF Format Using Aspose.CAD for Java](./convert-dwt-to-dxf/)
+### [Convert DWT to DXF Format Using Aspose.CAD for Java]({{< relref "convert-dwt-to-dxf/_index.md" >}})
 Explore the seamless conversion of DWT to DXF with Aspose.CAD for Java. Follow our step‑by‑step guide for efficient CAD file manipulation.
 
 ## Frequently Asked Questions

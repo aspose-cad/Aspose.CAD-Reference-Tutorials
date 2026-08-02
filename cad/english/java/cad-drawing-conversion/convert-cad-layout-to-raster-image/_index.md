@@ -1,8 +1,8 @@
 ---
-title: Convert DWG to PNG and Other Raster Formats Using Aspose.CAD for Java
+title: Quickly Convert DWG to PNG and Other Raster Formats Using Aspose.CAD for Java
 linktitle: Convert CAD Layout to Raster Image Format
 second_title: Aspose.CAD Java API
-description: Learn how to convert dwg to png and export cad as png or other raster formats using Aspose.CAD for Java. Get high‑quality results fast.
+description: Learn how to quickly convert dwg to png and export cad as png or other raster formats using Aspose.CAD for Java. Get high‑quality results fast.
 weight: 12
 url: /java/cad-drawing-conversion/convert-cad-layout-to-raster-image/
 date: 2026-02-17
@@ -147,6 +147,10 @@ A: Visit the [Aspose.CAD forum](https://forum.aspose.com/c/cad/19) for community
 ## Conclusion
 
 By following these steps you can **convert DWG to PNG**, **export CAD as PNG**, **save CAD as JPEG**, or generate any other raster format you need. Aspose.CAD for Java handles the heavy lifting, letting you focus on integrating high‑quality images into your applications, documentation, or web portals.
+
+```bash
+java -jar aspose-cad.jar -i input.dwg -o output.png -w 1200 -h 1200
+```
 
 ---
 

@@ -1,8 +1,8 @@
 ---
-title: Save DWG as JPEG with Layer Support in Java
+title: Save DWG as JPEG with Layer Support in Java using Aspose.CAD
 linktitle: Support of Layers in CAD
 second_title: Aspose.CAD Java API
-description: Learn how to save DWG as JPEG in Java using Aspose.CAD, add multiple layers, and adjust CAD dimensions for precise image conversion.
+description: Quickly learn how to save DWG as JPEG in Java using Aspose.CAD, add multiple layers, and adjust CAD dimensions for precise image conversion.
 weight: 18
 url: /java/advanced-cad-features/support-of-layers-in-cad/
 date: 2026-02-17
@@ -39,6 +39,8 @@ Before diving in, make sure you have the following:
 
 1. **Aspose.CAD for Java Library** – download it from the [website](https://releases.aspose.com/cad/java/). Follow the installation guide to add the JAR files to your project’s classpath.  
 2. **Java Development Environment** – a recent JDK (8 or newer) installed on your machine.
+
+For detailed API reference, see the {{< relref "api/java" >}} page.
 
 Now that we’re set up, let’s explore the code needed to **save DWG as JPEG** with selective layer rendering.
 
