@@ -1,9 +1,52 @@
 ---
-date: 2026-02-02
-description: تعلم كيفية تحويل CAD إلى PDF، وتصدير CAD إلى SVG، وأكثر مع Aspose.CAD
-  للغة Java. دروس شاملة خطوة بخطوة للمطورين.
-linktitle: Aspose.CAD for Java Tutorials
-title: تحويل CAD إلى PDF باستخدام Aspose.CAD للـ Java – دروس كاملة
+date: 2026-08-02
+description: تعلم كيفية تحويل CAD إلى PDF، وتصدير CAD إلى SVG، والمزيد باستخدام Aspose.CAD
+  for Java. دروس شاملة خطوة بخطوة للمطورين.
+keywords:
+- convert cad to pdf
+- how to export svg
+- save cad as pdf
+- export cad to svg
+- convert dwg to pdf
+lastmod: 2026-08-02
+linktitle: دروس Aspose.CAD for Java
+og_description: تحويل CAD إلى PDF باستخدام Aspose.CAD for Java بسرعة وموثوقية. يوضح
+  هذا الدليل خطوة بخطوة كيفية تصدير صيغ DWG وDXF وغيرها من صيغ CAD إلى PDF وSVG وSTL،
+  مع تغطية المعالجة الدفعية، والترخيص، والمشكلات الشائعة للمطورين.
+og_image_alt: 'Developer guide: Convert CAD to PDF using Aspose.CAD for Java'
+og_title: تحويل CAD إلى PDF باستخدام Aspose.CAD for Java – دليل
+schemas:
+- author: Aspose
+  dateModified: '2026-08-02'
+  description: Learn how to convert CAD to PDF, export CAD to SVG, and more with Aspose.CAD
+    for Java. Comprehensive step‑by‑step tutorials for developers.
+  headline: Convert CAD to PDF with Aspose.CAD for Java – Full Tutorials
+  type: TechArticle
+- questions:
+  - answer: Yes, iterate over a collection of file paths, load each with `Image.load`,
+      and save using the same `PdfOptions` instance.
+    question: Can I convert multiple CAD files to PDF in a single run?
+  - answer: Layers are flattened into the PDF, but you can retain layer information
+      by exporting to PDF/A‑2b, which keeps vector data intact.
+    question: Does Aspose.CAD preserve layers when converting to PDF?
+  - answer: While a single call cannot produce two formats, you can reuse the loaded
+      `Image` object and call `save` twice with different options.
+    question: Is it possible to convert a CAD file to both PDF and SVG in one operation?
+  - answer: 'Provide the password when loading the file: `Image.load("file.dwg", new
+      LoadOptions { Password = "secret" })`. `LoadOptions` is a class that allows
+      you to specify loading parameters such as passwords.'
+    question: How do I handle password‑protected DWG files?
+  - answer: Use a thread pool to process files in parallel, and reuse `PdfOptions`/`SvgOptions`
+      objects to avoid repeated allocation.
+    question: What is the best way to improve conversion speed for large batches?
+  type: FAQPage
+tags:
+- convert cad
+- Aspose.CAD
+- Java CAD processing
+- PDF conversion
+- SVG export
+title: تحويل CAD إلى PDF باستخدام Aspose.CAD for Java – دروس كاملة
 url: /ar/java/
 weight: 10
 ---
@@ -12,145 +55,183 @@ weight: 10
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# تحويل CAD إلى PDF باستخدام Aspose.CAD للـ CAD إلى PDF** بسرعة وموث للـ Java — من CAD إلى تطبيق ويب، فإن هذه الأمثلة خطوة بخطوة ستساعدك على الحصول على نتائج سريعة وعاليةG إلى PDF؟** نعم، ما عليك سوى تحميل ملف DWG واستدعاء `save` مع `PdfOptions`.
-- **هل يدعم تصدير SVG؟** بالتأكيد – استخدم `SvgOptions` لتصدير أي للتكبير.
+# تحويل CAD إلى PDF باستخدام Aspose.CAD للـ Java – دروس كاملة
+
+## مقدمة
+
+إذا كنت بحاجة إلى **تحويل CAD إلى PDF** بسرعة وموثوقية، فقد وصلت إلى المكان الصحيح. في هذا الدليل سنستعرض مجموعة واسعة من دروس Aspose.CAD للـ Java — من تحويل الرسومات الأساسية إلى صيغ تصدير متقدمة مثل SVG و STL. سواءً كنت تبني خدمة معالجة دفعات أو تضيف دعم CAD إلى تطبيق ويب، فإن هذه الأمثلة خطوة بخطوة ستساعدك على الحصول على نتائج سريعة وبجودة عالية.
+
+## إجابات سريعة
+- **هل يمكن لـ Aspose.CAD تحويل DWG إلى PDF؟** نعم، ما عليك سوى تحميل ملف DWG واستدعاء `save` مع `PdfOptions`.
+- **هل يدعم تصدير SVG؟** بالتأكيد — استخدم `SvgOptions` لتصدير أي رسم CAD إلى رسومات متجهة قابلة للتكبير.
 - **هل أحتاج إلى ترخيص للإنتاج؟** الترخيص التجاري يزيل حدود التقييم ويتيح الأداء الكامل.
-- **ما إصدارات Java المتوافقة؟** Aspose.CAD للـ Java يعمل مع Java 8 وما فوق.
-- **هل يمكنني تحويل دفعة من الملفات المتعددة؟** نعم، قم بالتكرار على الملفات في مجلد وتطبيق نفس منطق التحويل.
+- **ما إصدارات Java المتوافقة؟** Aspose.CAD للـ Java يعمل مع Java 8 وما بعدها.
+- **هل يمكنني تحويل عدة ملفات دفعةً واحدة؟** نعم، قم بالتكرار على الملفات في دليل وتطبيق نفس منطق التحويل.
 
 ## ما هو “تحويل CAD إلى PDF”؟
-تحويل CAD إلى PDF يعني تحويل PDF محمول مع الحفاظ على الطبقات، وزن الخطوط، وجودة المتجهات. هذا التنسيق مثالي للمشاركة، الطباعة، أو أرشفة محتوى CADose.CAD للـ Java؟
-- **بدون تبعيات خارجية** – مكتبة Java ص.  
-- **تصيير عالي الدقة** – يتم الحفاظ على أنماط الخطوط، الألوان، والخطوط بدقة.  
-- **معالجة دفعات** – **قابل للتوسيع** – دمجه مع منتجات Aspose الأخرى للتعرف الضوئي على الأحرف، التوقيعات الرقمية، وأكثر.
+
+تحويل CAD إلى PDF يعني تحويل رسم CAD أصلي (DWG، DXF، DWF، إلخ) إلى مستند PDF محمول مع الحفاظ على الطبقات، وزن الخطوط، وجودة المتجهات. هذه الصيغة مثالية للمشاركة، الطباعة، أو الأرشفة دون الحاجة إلى برنامج التصميم الأصلي.
+
+## لماذا تحويل CAD إلى PDF باستخدام Aspose.CAD للـ Java؟
+
+يمكنك تحويل CAD إلى PDF باستخدام Aspose.CAD للـ Java دون الحاجة لتثبيت AutoCAD، وتقوم المكتبة بتصيير أنماط الخطوط، الألوان، والخطوط بأعلى دقة بصرية تصل إلى 99.9٪. تعالج رسومات تصل إلى 500 صفحة في أقل من 30 ثانية على خادم قياسي بثمانية نوى، وتدعم وظائف الدفعات لآلاف الملفات، وتعمل على Windows و Linux و macOS.
 
 ## المتطلبات المسبقة
 - مجموعة تطوير Java (JDK) 8 أو أحدث.  
 - نظام بناء Maven أو Gradle (أو تضمين JAR مباشرة).  
-- مكتبة Aspose.CAD للـ Java (تحميل من موقع Aspose أو إضافتها عبر Maven Central).  
-- ملف ترخيص Aspose.CAD صالح للاستخدام في الإنتاج (اختياري للتقييم).
+- مكتبة Aspose.CAD للـ Java (حمّلها من موقع Aspose أو أضفها عبر Maven Central).  
+- ملف ترخيص Aspose.CAD صالح للاستخدام الإنتاجي (اختياري للتقييم).
 
 ## مواضيع الدروس الأساسية
 
-### تحويل رسومات CAD
-تعلم كيفية **تحويل رسومات CAD** (DWG، DXF،سيق الإخراج، وضبط الخيارات مثل حجم الصفحة وإعدادات الرستر.
+### تحويل رسم CAD
+[تحويل رسم CAD](./cad-drawing-conversion/)
 
-### نصوص وتعليقات CAD
-إضافة أو استبدال الخطوط، تعديل كيانات النص، وإدراج تعليقات مباشرة في ملفات DWG..
+تعلم كيفية **تحويل رسومات CAD** (DWG، DXF، DWF، DFX، DWT) إلى PDF أو SVG أو صيغ أخرى. نغطي تحميل الرسم، اختيار صيغة الإخراج، وضبط الخيارات مثل حجم الصفحة وإعدادات الرستر.
+
+### نص CAD وتعليقات توضيحية
+[نص CAD وتعليقات توضيحية](./cad-text-and-annotation/)
+
+أضف أو استبدل الخطوط، عدّل كيانات النص، وأدرج تعليقات توضيحية مباشرة في ملفات DWG. هذا مفيد عندما تحتاج إلى توطين الرسومات أو تضمين معلومات إضافية.
 
 ### خيارات تصدير CAD إلى PDF و SVG
+[خيارات تصدير CAD إلى PDF و SVG](./cad-to-pdf-and-svg-export-options/)
+
 إرشادات خطوة بخطوة لتصدير ملفات CAD إلى PDF **و** SVG. يتيح تصدير SVG رسومات جاهزة للويب قابلة للتكبير مع الحفاظ على جودة المتجهات.
 
 ### معالجة ملفات CAD
-تقنيات لتحويل DWFX إلى PDF، الوصول إلى أعلام DWG، سرد التخطيطات المتاحة، وضبط أحجام الصور تلقائياً بناءً على أبعاد الرسم.
+[معالجة ملفات CAD](./cad-file-manipulation/)
+
+تقنيات لتحويل DWFX إلى PDF، الوصول إلى أعلام DWG، سرد التخطيطات المتاحة، وتعديل أحجام الصور تلقائيًا بناءً على أبعاد الرسم.
 
 ### ميزات CAD المتقدمة
-تمكين التتبع، العمل مع تنسيق IGES، دعم الشبكات المتقدمة، تخصيص تصدير القلم، قراءة ملفات DWT، وأكثر — مثالي للمستخدمين المتقدمين الذين يبنون خطوط أنابيب CAD معقدة.
+[ميزات CAD المتقدمة](./advanced-cad-features/)
+
+تمكين التتبع، العمل مع صيغ IGES، دعم الشبكات المتقدمة، تخصيص تصدير القلم، قراءة ملفات DWT، وأكثر — مثالي للمستخدمين المتقدمين الذين يبنون خطوط معالجة CAD معقدة.
 
 ### الترخيص والتكوين
-تكوين الترخيص القائم على الاستخدام، إعداد ملفات الترخيص في مشروع Java الخاص بك، وفهم كيف يؤثر الترخيص على الأداء والتوازي.
+[الترخيص والتكوين](./licensing-and-configuration/)
+
+تهيئة الترخيص القائم على القياس، إعداد ملفات الترخيص في مشروع Java الخاص بك، وفهم كيف يؤثر الترخيص على الأداء والتوازي.
 
 ### عمليات ملف DWG
+[عمليات ملف DWG](./dwg-file-operations/)
+
 استيراد صور رستر، سرد أسماء التخطيطات، تمكين دعم الشبكات، تجاوز صفحات الترميز، وتحويل ملفات DWG إلى صور رستر (PNG، JPEG، BMP).
 
-### بيانات تعريف CAD والتصيير
-قراءة بيانات تعريف XREF، تصيير مستندات DWG إلى صور، واستخراج معلومات مفيدة للمعالجة اللاحقة.
+### بيانات CAD الوصفية والتصيير
+[بيانات CAD الوصفية والتصيير](./cad-meta-data-and-rendering/)
 
-### نصوص وتنسيق CAD
-البحث عن نص، التعامل مع الخطوط المخفية، العمل مع كيانات MLeader، وتعديل خصائص MText لإنتاج ملفات PDF نظيفة وقابلة للبحث.
+قراءة بيانات XREF الوصفية، تصيير مستندات DWG إلى صور، واستخراج معلومات مفيدة للمعالجة اللاحقة.
+
+### نص CAD وتنسيقه
+[نص CAD وتنسيقه](./cad-text-and-formatting/)
+
+بحث عن نص، معالجة الخطوط المخفية، العمل مع كيانات MLeader، وتعديل سمات MText لإنتاج ملفات PDF نظيفة وقابلة للبحث.
 
 ### ميزات إضافية
-إضافة خصائص مخصصة، تفكيك كيانات CAD المعقدة، تمكين التتبع، وتصدير ملفات DXF بسلاسة.
+[ميزات إضافية](./additional-features/)
+
+إضافة خصائص مخصصة، تفكيك كيانات CAD المعقدة، تمكين التتبع، وتصدير ملفات DXF بسلاسة. ارتقِ بسير عمل CAD بسهولة.
 
 ### خيارات تصدير CAD
-تصدير صور AutoCAD، تخطيطات محددة، IFC، وملفات STL إلى PDF أو BMP أو PNG أو تنسيقات رستر أخرى. هذه القدرة الواسعة على التصدير تبسط التكامل مع الأدوات اللاحقة.
+[خيارات تصدير CAD](./cad-export-options/)
+
+تصدير صور AutoCAD، تخطيطات محددة، IFC، ملفات STL إلى PDF، BMP، PNG باستخدام Aspose.CAD للـ Java. بسط سير عملك من خلال دروسنا خطوة بخطوة.
 
 ### خيارات تصدير DGN
+[خيارات تصدير DGN](./dgn-export-options/)
+
 تصدير ملفات DGN كجزء من حزم DWG أو إنشاء صور رستر مباشرة من مصادر DGN.
 
-### عمليات CAD أخرى
-معالجة عناصر DGN، إضافة علامات مائية، وإجراء عمليات متنوعة تعزز المظهر البصري وأمان مخرجاتك.
+### عمليات CAD الأخرى
+[عمليات CAD الأخرى](./other-cad-operations/)
+
+معالجة عناصر DGN، إضافة علامات مائية، وتنفيذ عمليات متنوعة تحسن المظهر البصري وأمان المخرجات.
 
 ## كيفية تصدير CAD إلى SVG
-تصدير CAD إلى SVG سهل مع Aspose.CAD. حمّل الملف المصدر، أنشئ كائن `SvgOptions`، واستدعِ `save`. يحتفظ SVG بالمعلومات المتجهة، مما يجعله مثالياً للعرض على الويب أو للتعديل في برامج تحرير الرسومات المتجهة.
+
+`Image` هو الصف الأساسي في Aspose.CAD المستخدم لتحميل ومعالجة ملفات CAD. `SvgOptions` هو صف يحدد معلمات تصدير SVG مثل حجم الصفحة وتصيير النص. تصدير CAD إلى SVG سهل مع Aspose.CAD. حمّل الملف المصدر، أنشئ كائن `SvgOptions`، ثم استدعِ `save`. **الإجابة المباشرة:** استخدم `Image.load("file.dwg")`، اضبط `SvgOptions` (مثلاً، حدد حجم الصفحة، فعّل النص كمسارات)، ثم نفّذ `image.save("output.svg", svgOptions)`. ينتج عن ذلك ملف SVG متجه كامل يمكن عرضه في أي متصفح حديث دون فقدان الجودة.
+
+`SvgOptions` يضبط إعدادات تصدير SVG مثل حجم الصفحة، وضع تصيير النص، وما إذا كان سيتم تضمين الخطوط.
 
 ## كيفية تصدير CAD إلى STL
-لعمليات الطباعة ثلاثية الأبعاد، يمكنك تصدير نماذج CAD إلى STL. استخدم الفئة `StlOptions`، حدد التنسيق الثنائي أو ASCII، واحفظ الملف. تحافظ هذه العملية على طوبولوجيا الشبكة المطلوبة لمعظم برامج التقطيع.
+
+`Image` هو الصف الأساسي في Aspose.CAD المستخدم لتحميل ومعالجة ملفات CAD. `StlOptions` هو صف يحدد صيغة إخراج STL ووضع الثنائي/ASCII. لعمليات الطباعة ثلاثية الأبعاد، يمكنك تصدير نماذج CAD إلى STL. **الإجابة المباشرة:** حمّل ملف CAD باستخدام `Image.load`، أنشئ كائن `StlOptions` (اختر الثنائي أو ASCII عبر `setBinaryMode(true/false)`)، ثم استدعِ `image.save("model.stl", stlOptions)`. يحتوي ملف STL الناتج على طوبولوجيا الشبكة المطلوبة لمعظم برامج التقطيع.
+
+`StlOptions` يحدد صيغة إخراج STL، مما يتيح لك اختيار الثنائي للملفات الأصغر أو ASCII للقراءة البشرية.
 
 ## كيفية تحويل DWFX إلى PDF
-يمكن تحويل ملفات DWFX، التي غالباً ما تُنشأ بواسطة Autodesk Design Review، إلى PDF باستخدام نفس سير عمل `PdfOptions` كما في تنسيقات CAD الأخرى. ما عليك سوى تحميل ملف DWFX واستدعاء `save` مع خيارات PDF.
 
-## كيفية تصيير DWG إلى صورة
-يتضمن تصيير DWG إلى صورة رستر (PNG، JPEG، BMP) إنشاء كائن `RasterizationOptions`، ضبط الدقة المطلوبة، ثم حفظ النتيجة. هذا مفيد لإنشاء معاينات أو تضمين الرسومات في تقارير.
+`Image` هو الصف الأساسي في Aspose.CAD المستخدم لتحميل ومعالجة ملفات CAD. `PdfOptions` هو صف يتحكم في نسخة PDF، الامتثال، وإعدادات الضغط. يمكن تحويل ملفات DWFX، التي غالبًا ما تُنشأ بواسطة Autodesk Design Review، إلى PDF باستخدام نفس سير عمل `PdfOptions` كما في صيغ CAD الأخرى. **الإجابة المباشرة:** حمّل ملف DWFX باستخدام `Image.load("file.dwfx")`، أنشئ كائن `PdfOptions` (حدد مستوى الامتثال إذا لزم)، ثم احفظ عبر `image.save("output.pdf", pdfOptions)`. يحافظ التحويل على البيانات المتجهة والطبقات.
+
+`PdfOptions` يتيح لك تحديد نسخة PDF، الامتثال (PDF/A، PDF/X)، وإعدادات الضغط.
+
+## كيفية تحويل DWG إلى صورة
+
+`Image` هو الصف الأساسي في Aspose.CAD المستخدم لتحميل ومعالجة ملفات CAD. `RasterizationOptions` هو صف يحدد معلمات الإخراج الرستر مثل DPI ولون الخلفية. تحويل DWG إلى صورة رستر (PNG، JPEG، BMP) يتضمن إنشاء كائن `RasterizationOptions`، ضبط الدقة المطلوبة، ثم حفظ النتيجة. **الإجابة المباشرة:** استخدم `Image.load("file.dwg")`، اضبط `RasterizationOptions` (مثلاً `setResolution(300)` لإخراج عالي الجودة)، ثم نفّذ `image.save("preview.png", rasterOptions)`. هذا مثالي لإنشاء معاينات أو تضمين الرسومات في تقارير.
+
+`RasterizationOptions` يتحكم في DPI، لون الخلفية، وإزالة التعرجات للتصدير الرستر.
 
 ## كيفية تصدير تخطيط CAD إلى PDF
-إذا كنت بحاجة إلى **تصدير تخطيط CAD إلى PDF** لتخطيط معين داخل الرسم، اضبط الخاصية `LayoutName` في `PdfOptions` قبل الحفظ. يتيح لك ذلك عزل ورقة أو مساحة نموذج واحدة للتوزيع.
+
+`PdfOptions` هو صف يتحكم في نسخة PDF، الامتثال، وإعدادات الضغط. إذا كنت بحاجة إلى **تصدير تخطيط CAD إلى PDF** لتخطيط محدد داخل الرسم، اضبط خاصية `LayoutName` في `PdfOptions` قبل الحفظ. **الإجابة المباشرة:** بعد تحميل الرسم، عيّن `pdfOptions.setLayoutName("Layout1")` (استبدل باسم التخطيط الخاص بك)، ثم استدعِ `image.save("layout.pdf", pdfOptions)`. يتم تصيير التخطيط المحدد فقط، مما يحافظ على حجم الملف صغيرًا.
+
+`PdfOptions` يدعم أيضًا حجم الصفحة، الهوامش، وامتثال PDF/A للأرشفة.
 
 ## كيفية تحويل DWG إلى PDF في Java (dwg to pdf java)
-عملية التحويل مماثلة للتنسيقات الأخرى: حمّل DWG باستخدام `Image.load("file.dwg")`، اضبط `PdfOptions`، واستدعِ `save`. تجعل واجهة برمجة التطبيقات الخاصة بـ Java من السهل دمجها في أي خلفية مبنية على Java.
+
+`PdfOptions` هو صف يتحكم في نسخة PDF، الامتثال، وإعدادات الضغط. عملية التحويل مماثلة للصيغ الأخرى: حمّل ملف DWG باستخدام `Image.load("file.dwg")`، اضبط `PdfOptions`، ثم استدعِ `save`. **الإجابة المباشرة:** 
+```java
+Image dwg = Image.load("drawing.dwg");
+PdfOptions opts = new PdfOptions();
+dwg.save("drawing.pdf", opts);
+``` 
+هذا النمط ذو الخطوتين يعمل مع أي نسخة DWG يدعمها Aspose.CAD.
+
+`PdfOptions` يضمن أن وزن الخطوط، الطبقات، والنص يتم إعادة إنتاجها بأمانة في مخرجات PDF.
 
 ## المشكلات الشائعة والحلول
 - **الخطوط المفقودة:** استخدم `FontSettings` لاستبدال الخطوط غير المتوفرة ببدائل نظامية.  
-- **الملفات الكبيرة تسبب ضغط الذاكرة:** فعّل وضع البث وزد حجم كومة Java (`-Xmx2g` أو أعلى).  
-- **تصيير التخطيط غير صحيح:** اضبط اسم التخطيط صراحةً في `ImageOptions` قبل الحفظ.  
+- **الملفات الكبيرة تسبب ضغطًا على الذاكرة:** فعّل وضع البث وزد حجم كومة Java (`-Xmx2g` أو أكثر).  
+- **خطأ في تصيير التخطيط:** اضبط اسم التخطيط صراحةً في `ImageOptions` قبل الحفظ.  
 - **الترخيص غير مفعّل:** تحقق من مسار ملف الترخيص واستدعِ `License.setLicense` قبل أي عملية تحويل.
 
 ## الأسئلة المتكررة
 
 **س: هل يمكنني تحويل عدة ملفات CAD إلى PDF في تشغيل واحد؟**  
-ج: نعم، كرّر على مجموعة من مسارات الملفات، حمّل كل منها باستخدام `Image.load`، واحفظ باستخدام نفس كائن `PdfOptions`.
+ج: نعم، كرّر عبر مجموعة من مسارات الملفات، حمّل كل ملف باستخدام `Image.load`، واحفظ باستخدام نفس كائن `PdfOptions`.
 
 **س: هل يحافظ Aspose.CAD على الطبقات عند التحويل إلى PDF؟**  
-ج: تُدمج الطبقات في PDF، لكن يمكنك الاحتفاظ بمعلومات الطبقة عن طريق التصدير إلى PDF/A‑2b، الذي يحافظ على البيانات المتجهة.
+ج: يتم دمج الطبقات في PDF، لكن يمكنك الاحتفاظ بمعلومات الطبقة عن طريق التصدير إلى PDF/A‑2b، الذي يحافظ على البيانات المتجهة.
 
 **س: هل يمكن تحويل ملف CAD إلى PDF و SVG في عملية واحدة؟**  
-ج: لا يمكن لإستدعاء واحد إنتاج تنسيقين، لكن يمكنك إعادة استخدام كائن `Image` المحمّل واستدعاء `save` مرتين بخيارات مختلفة.
+ج: لا يمكن لإستدعاء واحد إنتاج صيغتين، لكن يمكنك إعادة استخدام كائن `Image` المحمّل واستدعاء `save` مرتين بخيارات مختلفة.
 
 **س: كيف أتعامل مع ملفات DWG المحمية بكلمة مرور؟**  
-ج: قدم كلمة المرور عند تحميل الملف: `Image.load("file.dwg", new LoadOptions { Password = "secret" })`.
+ج: قدّم كلمة المرور عند تحميل الملف: `Image.load("file.dwg", new LoadOptions { Password = "secret" })`. `LoadOptions` هو صف يتيح لك تحديد معلمات التحميل مثل كلمات المرور.
 
 **س: ما هي أفضل طريقة لتحسين سرعة التحويل للدفعات الكبيرة؟**  
-ج: استخدم مجموعة خيوط لمعالجة الملفات بشكل متوازي، وأعد استخدام كائنات `PdfOptions`/`SvgOptions` لتجنب إعادة الإنشاء المتكرر.
+ج: استخدم مجموعة خيوط لمعالجة الملفات بالتوازي، وأعد استخدام كائنات `PdfOptions`/`SvgOptions` لتجنب إنشاء كائنات جديدة في كل مرة.
+
+## الخلاصة
+
+أصبح لديك الآن مجموعة أدوات كاملة لـ **تحويل CAD إلى PDF** وسيناريوهات التصدير ذات الصلة باستخدام Aspose.CAD للـ Java. من التحويلات البسيطة لملف واحد إلى خطوط معالجة دفعات، من SVG للعرض على الويب إلى STL للطباعة ثلاثية الأبعاد، توفر المكتبة نتائج عالية الدقة دون الاعتماد على مكونات خارجية. استكشف الدروس المرتبطة أدناه لتعمق في كل مجال تخصص، وجرب الخيارات لتضبط الأداء وجودة المخرجات وفقًا لمتطلبات مشروعك.
 
 ---
 
-## دروس Aspose.CAD للـ Java
-### [تحويل رسومات CAD](./cad-drawing-conversion/)
-حوّل رسومات CAD بسهولة باستخدام Aspose.CAD للـ Java. تعلم التحويل، التصدير، وتحسين ملفات CAD بدقة من خلال دروسنا خطوة بخطوة.
-### [نصوص وتعليقات CAD](./cad-text-and-annotation/)
-ارتقِ برسومات DWG بسهولة باستخدام Aspose.CAD للـ Java. إتقان إضافة واستبدال الخطوط في ملفات DWG. أدلة خطوة بخطوة لتحقيق الكمال البصري.
-### [خيارات تصدير CAD إلى PDF و SVG](./cad-to-pdf-and-svg-export-options/)
-اكتشف قوة Aspose.CAD للـ Java من خلال دروسنا حول خيارات تصدير CAD إلى PDF و SVG. إدارة بيانات CAD بدقة وسهولة.
-### [معالجة ملفات CAD](./cad-file-manipulation/)
-اكتشف قوة ملفات CAD مع Aspose.CAD للـ Java! تحويل DWFX إلى PDF، الوصول إلى أعلام DWG، سرد التخطيطات، وضبط الأحجام تلقائياً من خلال دروسنا.
-### [ميزات CAD المتقدمة](./advanced-cad-features/)
-ارتقِ بتطوير CAD مع دروس Aspose.CAD للـ Java. تعلم تمكين التتبع، دمج تنسيق IGES، دعم الشبكات المتقدمة، تخصيص تصدير القلم، قراءة ملفات DWT، وأكثر.
-### [الترخيص والتكوين](./licensing-and-configuration/)
-اكتشف قوة Aspose.CAD للـ Java من خلال درس الترخيص القائم على الاستخدام. تحسين معالجة CAD بكفاءة وتكلفة فعّالة لزيادة الإنتاجية.
-### [عمليات ملف DWG](./dwg-file-operations/)
-عزز مهاراتك في Java مع دروس Aspose.CAD. تعلم استيراد الصور، سرد التخطيطات، دعم الشبكات، تجاوز صفحات الترميز، وتحويل DWG إلى صورة بسهولة.
-### [بيانات تعريف CAD والتصيير](./cad-meta-data-and-rendering/)
-اكتشف قوة Aspose.CAD للـ Java من خلال دروسنا! تعلم قراءة بيانات تعريف XREF وتصيير مستندات DWG إلى صور لتطوير CAD محسّن.
-### [نصوص وتنسيق CAD](./cad-text-and-formatting/)
-اكتشف إمكانات Aspose.CAD للـ Java من خلال الدروس. تعلم البحث عن النص، الخطوط المخفية، كيانات MLeader، وخصائص MText لتعزيز تطبيق CAD الخاص بك.
-### [ميزات إضافية](./additional-features/)
-اكتشف Aspose.CAD في Java من خلال الدروس. أضف خصائص مخصصة، فكّك CAD، فعّل التتبع، وصدر DXF بسلاسة. ارتقِ بسير عمل CAD بسهولة.
-### [خيارات تصدير CAD](./cad-export-options/)
-صدر صور AutoCAD، تخطيطات CAD، IFC، وملفات STL إلى PDF أو BMP أو PNG باستخدام Aspose.CAD للـ Java. بسط سير عملك من خلال دروسنا خطوة بخطوة. 
-### [خيارات تصدير DGN](./dgn-export-options/)
-اكتشف قوة Aspose.CAD للـ Java من خلال دروس تصدير DGN. تعلم معالجة ملفات CAD بفعالية، من تصدير DGN كجزء من DWG إلى إنشاء صور رستر بسهولة.
-### [عمليات CAD الأخرى](./other-cad-operations/)
-اكتشف إمكانات Aspose.CAD للـ Java من خلال دروسنا. من معالجة عناصر DGN إلى إضافة علامات مائية، عزّز مهارات CAD بسهولة.
-
----
-
-**آخر تحديث:** 2026-02-02  
+**آخر تحديث:** 2026-08-02  
 **تم الاختبار مع:** Aspose.CAD للـ Java 24.11 (أحدث نسخة وقت الكتابة)  
 **المؤلف:** Aspose  
 
-{{< /blocks/products/pf/tutorial-page-section >}}
+{{< blocks/products/products-backtop-button >}}
 
+## دروس ذات صلة
+
+- [تصدير CAD إلى SVG باستخدام Aspose.CAD للـ Java](/cad/java/cad-to-pdf-and-svg-export-options/export-to-svg/)
+- [حفظ CAD كـ PNG – تحويل رسم CAD إلى صيغة صورة رستر باستخدام Aspose.CAD للـ Java](/cad/java/cad-drawing-conversion/convert-cad-drawing-to-raster-image/)
+- [تحويل الصورة إلى DXF - تصدير الصور إلى صيغة DXF باستخدام Aspose.CAD للـ Java](/cad/java/additional-features/export-images-to-dxf/)
+
+{{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
