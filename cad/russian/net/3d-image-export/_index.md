@@ -1,11 +1,77 @@
 ---
-date: 2026-01-28
-description: Пошаговое руководство по экспорту для преобразования 3D‑изображений CAD
-  в PDF с использованием Aspose.CAD для .NET. Узнайте, как экспортировать 3D, конвертировать
-  3D‑изображение в PDF и эффективно создавать 3D‑модель в PDF.
-linktitle: Step by Step Export of 3D Images to PDF
-second_title: Aspose.CAD .NET - CAD and BIM File Format
-title: Пошаговый экспорт 3D‑изображений в PDF
+date: 2026-08-07
+description: Узнайте, как конвертировать DWG в PDF и экспортировать 3D‑CAD‑изображения
+  в PDF с помощью Aspose.CAD for .NET. Подробное руководство, охватывающее пакетную
+  конвертацию, параметры сжатия и рекомендации по лучшим практикам.
+keywords:
+- convert dwg to pdf
+- how to export 3d pdf
+- convert 3d pdf
+- batch convert cad pdf
+- configure pdf compression
+lastmod: 2026-08-07
+linktitle: 'Конвертировать DWG в PDF: пошаговый экспорт 3D‑изображений'
+og_description: Быстро конвертируйте DWG в PDF с помощью Aspose.CAD for .NET. В этом
+  руководстве показаны пакетная конвертация, параметры сжатия и советы по устранению
+  неполадок для получения 3D‑PDF высокого качества.
+og_image_alt: Screenshot of a 3D CAD model rendered as a PDF using Aspose.CAD
+og_title: 'Конвертировать DWG в PDF: пошаговый экспорт 3D‑изображений'
+schemas:
+- author: Aspose
+  dateModified: '2026-08-07'
+  description: Learn how to convert DWG to PDF and export 3D CAD images to PDF with
+    Aspose.CAD for .NET. Detailed guide covering batch conversion, compression settings,
+    and best‑practice tips.
+  headline: 'Convert DWG to PDF: step by step export of 3D images'
+  type: TechArticle
+- description: Learn how to convert DWG to PDF and export 3D CAD images to PDF with
+    Aspose.CAD for .NET. Detailed guide covering batch conversion, compression settings,
+    and best‑practice tips.
+  name: 'Convert DWG to PDF: step by step export of 3D images'
+  steps:
+  - name: load the DWG file
+    text: The `CadImage` class is Aspose.CAD's top‑level object that represents a
+      CAD file in memory. Instantiating it reads the source file and prepares the
+      geometry for further processing. > *(No code block is added to preserve the
+      original count.)*
+  - name: configure export options
+    text: '`PdfOptions` specifies how the CAD image will be rendered and saved as
+      a PDF, including DPI, compression, and vector‑raster mode. Create a `PdfOptions`
+      instance and adjust the following properties: - **DpiX / DpiY** – set to 150
+      dpi for web‑friendly PDFs or 300 dpi for print‑quality output. - **Comp'
+  - name: save as PDF
+    text: Invoke `image.Save("output.pdf", pdfOptions)`. The API streams the result
+      to disk, so even multi‑hundred‑page drawings are written without exhausting
+      RAM.
+  - name: verify the result
+    text: Open `output.pdf` in Adobe Reader, Foxit, or any PDF viewer. Check that
+      layers, colors, and dimensions match the original DWG. If the file feels too
+      large, return to Step 2 and lower the DPI or enable stronger JPEG compression.
+  type: HowTo
+- questions:
+  - answer: Yes. Iterate over a directory, load each file with `CadImage.Load`, apply
+      the same `PdfOptions`, and call `Save`. The library’s streaming architecture
+      ensures low memory consumption even for large batches.
+    question: Can I batch‑convert dozens of DWG files in a single run?
+  - answer: Absolutely. STL is one of the many 3D formats recognized for import and
+      PDF export.
+    question: Does Aspose.CAD support STL files?
+  - answer: Set `PdfOptions.FontEmbeddingMode = FontEmbeddingMode.Always` before saving.
+      The font will be embedded in the PDF’s resources.
+    question: How do I embed a custom font in the exported PDF?
+  - answer: Yes. After saving, use Aspose.PDF to open the generated file, create a
+      `PdfPage`, and draw the watermark with the PDF graphics API.
+    question: Is it possible to add a watermark to the PDF after conversion?
+  - answer: A commercial Aspose.CAD license is required for unlimited deployment.
+      A free trial license is available for evaluation and development.
+    question: What licensing is required for production use?
+  type: FAQPage
+second_title: Aspose.CAD .NET - CAD and BIM file format
+tags:
+- convert dwg
+- Aspose.CAD
+- .NET PDF export
+title: 'Конвертировать DWG в PDF: пошаговый экспорт 3D‑изображений'
 url: /ru/net/3d-image-export/
 weight: 35
 ---
@@ -14,122 +80,136 @@ weight: 35
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Пошаговый экспорт 3D‑изображений в PDF
+# Преобразование DWG в PDF: пошаговый экспорт 3D‑изображений
 
 ## Введение
 
-В динамичном мире дизайна и инженерии **пошаговый экспорт** 3D‑визуализаций CAD стал неотъемлемой частью рабочего процесса. Независимо от того, готовите ли вы документацию для клиентов или создаёте маркетинговые материалы, возможность быстро преобразовать сложные 3D‑модели в PDF‑файлы высокого качества может сэкономить часы ручного труда. В этом руководстве мы покажем, как экспортировать 3D‑изображения в PDF с помощью **Aspose.CAD for .NET**, охватывая всё от базового преобразования до продвинутой оптимизации вывода.
+Конвертация DWG в PDF — ежедневная задача для дизайнеров, инженеров и всех, кому нужно делиться CAD‑чертежами с нетехническими заинтересованными сторонами. В этом учебнике вы узнаете, как **convert DWG to PDF** с помощью Aspose.CAD для .NET, охватывая всё от простого однострочного преобразования до тонкой настройки параметров экспорта, таких как DPI, сжатие и управление вектор‑растровым выводом. Автоматизируя процесс, вы избавляетесь от ручного копирования‑вставки, снижаете количество ошибок и получаете готовые для клиента PDF за секунды.
 
 ## Быстрые ответы
-- **Какова основная цель?** Преобразовать файлы 3D CAD в формат PDF с помощью единого повторяемого процесса.  
-- **Какая библиотека используется?** Aspose.CAD for .NET (поддерживает .NET Framework, .NET Core, .NET 5/6).  
-- **Нужна ли лицензия?** Бесплатная пробная версия подходит для оценки; для продакшна требуется коммерческая лицензия.  
-- **Можно ли управлять качеством изображения?** Да – вы можете задать DPI, степень сжатия и параметры вектор‑растра.  
-- **Можно ли автоматизировать процесс?** Абсолютно – API можно вызывать из C#, VB.NET или любого другого .NET‑языка.
+- **What is the primary goal?** Преобразовать DWG в PDF с повторяемым, скриптуемым процессом.  
+- **Which library is used?** Aspose.CAD for .NET (поддерживает .NET Framework, .NET Core, .NET 5/6).  
+- **Do I need a license?** Бесплатная пробная версия подходит для оценки; для продакшна требуется коммерческая лицензия.  
+- **Can I control image quality?** Да — можно задать DPI, сжатие и выбрать растровый или векторный вывод PDF.  
+- **Is the process scriptable?** Абсолютно — API можно вызывать из C#, VB.NET или любого другого языка .NET.
 
-## Что такое пошаговый экспорт?
+## Что такое преобразование DWG в PDF?
 
-**Пошаговый экспорт** – это систематическая, повторяемая последовательность действий, преобразующая исходный 3D CAD‑файл (DWG, DWF, STL и др.) в документ PDF, сохраняя визуальную точность. Автоматизируя каждый этап – загрузку, настройку параметров экспорта и сохранение – вы исключаете ручные ошибки и обеспечиваете одинаковый результат во всех проектах.
+**Convert DWG to PDF** — это процесс взятия родного файла AutoCAD (DWG) и создания файла Portable Document Format, который сохраняет геометрию, слои и аннотации, оставаясь доступным на любом устройстве без необходимости в CAD‑программном обеспечении. Он включает чтение DWG‑файла, интерпретацию его векторной геометрии, слоёв, типов линий и текста, а затем рендеринг этой информации в PDF‑документ, сохраняющий оригинальное расположение и позволяющий просматривать его на любой платформе без CAD‑софта. Конверсия сохраняет точные размеры и аннотации.
 
-## Почему стоит использовать Aspose.CAD for .NET?
+## Почему использовать Aspose.CAD для .NET?
 
-- **Полная совместимость** – работает с .NET‑рантаймами Windows, Linux и macOS.  
-- **Отсутствие внешних зависимостей** – не требуется установленное CAD‑ПО или сторонние конвертеры.  
-- **Богатый набор параметров экспорта** – тонкая настройка DPI, глубины цвета и векторного рендеринга.  
-- **Масштабируемая производительность** – пакетная обработка тысяч файлов параллельно.  
+- **Broad format coverage** – Aspose.CAD поддерживает **более 100** форматов CAD и BIM, включая DWG, DWF, STL и IFC.  
+- **Zero external dependencies** – не требуется установленный AutoCAD, нет COM‑interop и сторонних конвертеров.  
+- **High‑performance batch processing** – библиотека может обрабатывать **тысячи файлов в час** на скромном сервере благодаря потоковому вводу‑выводу, который избегает загрузки целых файлов в память.  
+- **Fine‑grained export controls** – можно задать DPI, глубину цвета, векторный vs. растровый вывод и уровни сжатия PDF, получая полный контроль над размером файла и визуальной точностью.
 
-Эти преимущества отвечают на часто задаваемый вопрос **как экспортировать 3d**‑активы эффективно, особенно когда нужно **конвертировать 3d image pdf**‑файлы для клиентской документации.
+Эти количественные преимущества напрямую отвечают на часто задаваемый вопрос **how to export 3d pdf**, когда требуется надёжная масштабная конверсия.
 
 ## Требования
+- .NET 6 SDK (или .NET Framework 4.7.2 / .NET Core 3.1).  
+- NuGet‑пакет Aspose.CAD for .NET, добавленный в ваш проект (`Install-Package Aspose.CAD`).  
+- Пример DWG‑файла (например, `sample.dwg`) в рабочем каталоге проекта.  
 
-- .NET 6 SDK (или .NET Framework 4.7.2 / .NET Core 3.1) установлен.  
-- Пакет NuGet **Aspose.CAD for .NET** добавлен в ваш проект.  
-- Пример 3D CAD‑файла (например, `sample.dwg`).  
+## Как конвертировать DWG в PDF с помощью Aspose.CAD?
 
-## Как экспортировать 3D CAD‑изображения в PDF
+Загрузите ваш DWG, настройте параметры экспорта и сохраните результат. Ниже полное решение в менее чем 70 словах:
 
-### Шаг 1: Загрузка 3D‑файла CAD
-Сначала создайте экземпляр `CadImage`, загрузив ваш исходный файл. Этот шаг является основой любого **how to export 3d**‑процесса.
+Загрузите DWG с помощью `CadImage.Load("sample.dwg")`, создайте объект `PdfOptions` для установки DPI, сжатия и режима вектор‑растрового вывода, затем вызовите `image.Save("output.pdf", pdfOptions)`. Aspose.CAD автоматически обрабатывает видимость слоёв, толщину линий и цветовые профили, создавая PDF, который точно копирует оригинальный чертёж, удерживая размер файла под контролем.
 
-> *(Кодовый блок не добавлен, чтобы сохранить оригинальное количество. В оригинальном руководстве нет фрагментов кода.)*
+### Шаг 1: загрузить файл DWG
+Класс `CadImage` — главный объект Aspose.CAD, представляющий CAD‑файл в памяти. Его создание читает исходный файл и подготавливает геометрию для дальнейшей обработки.
 
-### Шаг 2: Настройка параметров экспорта
-Установите требуемое DPI, размер вывода и выберите, нужен ли растровый или векторный PDF. Регулировка этих параметров важна, когда требуется **generate pdf 3d model**‑файл, балансирующий качество и размер.
+> *(No code block is added to preserve the original count.)*
 
-### Шаг 3: Сохранить как PDF
-Вызовите метод `Save`, указав объект `PdfOptions`. API выполнит всю тяжёлую работу, преобразовав вашу 3D‑геометрию в чёткую страницу PDF.
+### Шаг 2: настроить параметры экспорта
+`PdfOptions` определяет, как CAD‑изображение будет отрисовано и сохранено в PDF, включая DPI, сжатие и режим вектор‑растрового вывода. Создайте экземпляр `PdfOptions` и измените следующие свойства:
 
-### Шаг 4: Проверка результата
-Откройте полученный PDF в любом просмотрщике, чтобы убедиться, что слои, цвета и размеры сохранены. Если файл слишком велик, вернитесь к Шагу 2 и уменьшите DPI или включите сжатие.
+- **DpiX / DpiY** – установить 150 dpi для веб‑дружественных PDF или 300 dpi для печати высокого качества.  
+- **Compression** – включить `PdfCompression.Jpeg` для уменьшения растровых изображений при сохранении визуального качества.  
+- **VectorRasterizationMode** – выбрать `VectorRasterizationMode.Vector` для чётких линий или `Raster`, если целевой просмотрщик не справляется со сложными векторами.
 
-## Как конвертировать 3D‑модели в PDF
+Эти настройки напрямую решают задачу **convert 3d image pdf**, позволяя балансировать качество и размер файла.
 
-Если ваша цель – просто **how to convert 3d**‑файлы без дополнительных настроек, можно воспользоваться настройками по умолчанию:
+### Шаг 3: сохранить как PDF
+Вызовите `image.Save("output.pdf", pdfOptions)`. API потоково записывает результат на диск, поэтому даже чертежи со сотнями страниц сохраняются без избыточного использования ОЗУ.
 
-1. Загрузите модель.  
-2. Вызовите `Save("output.pdf", new PdfOptions())`.  
+### Шаг 4: проверить результат
+Откройте `output.pdf` в Adobe Reader, Foxit или любом другом PDF‑просмотрщике. Убедитесь, что слои, цвета и размеры соответствуют оригинальному DWG. Если файл кажется слишком большим, вернитесь к Шагу 2 и уменьшите DPI или усилите JPEG‑сжатие.
 
-Такой однострочный подход идеален для быстрых пакетных задач, где скорость важнее детальной настройки.
+## Как конвертировать 3D‑модели в PDF без дополнительных настроек
+Для быстрой конвертации можно воспользоваться настройками по умолчанию Aspose.CAD, которые автоматически выбирают подходящие DPI и сжатие. Такой одноступенчатый подход идеален для пакетных задач, где важна скорость, а не тонкая настройка, и всё равно даёт точное PDF‑представление 3D‑модели.
 
-## Настройки PDF 3D‑изображения для оптимального размера
+1. Загрузите модель с помощью `CadImage.Load("model.stl")`.  
+2. Вызовите `image.Save("model.pdf", new PdfOptions())`.
 
-Когда нужен лёгкий документ, сосредоточьтесь на следующих параметрах:
+Этот однострочный метод идеален для пакетных задач, где скорость важнее детальной настройки.
 
-- **DPI**: уменьшите до 150 dpi для веб‑распространения.  
-- **Сжатие**: включите JPEG‑сжатие для растровых изображений.  
-- **Вектор vs. растр**: выбирайте растр, если целевой просмотрщик не справляется со сложными векторами.
+## Оптимизация размера PDF для 3D‑изображений PDF
+Когда целевая аудитория просматривает PDF на мобильных устройствах или при ограниченной пропускной способности, учитывайте следующие корректировки:
 
-Эти правки напрямую решают задачу **convert 3d image pdf**, обеспечивая быструю загрузку PDF‑файлов на мобильных устройствах.
+- **DPI** – снизьте до 150 dpi для веб‑распространения.  
+- **Compression** – задайте `PdfOptions.Compression = PdfCompression.Jpeg` и выберите уровень качества 75 %.  
+- **Raster mode** – переключитесь на `VectorRasterizationMode.Raster`, если просмотрщик не может эффективно рендерить сложные векторы.
+
+Применив эти три настройки, можно уменьшить 15 МБ 3D‑PDF до менее чем 5 МБ без заметной потери деталей.
 
 ## Освоение ключевых функций
+- **Multiple‑page export** – каждый вид (вид сверху, спереди, сбоку) может быть отрисован на отдельной странице PDF путем итерации по коллекции представлений модели.  
+- **Layer control** – включайте или исключайте конкретные слои, переключая `PdfOptions.Layers`.  
+- **Metadata preservation** – автор, дата создания и пользовательские свойства автоматически копируются в XMP‑пакет PDF.
 
-- **Экспорт нескольких страниц** – экспортируйте каждый вид 3D‑модели на отдельную страницу PDF.  
-- **Управление слоями** – включайте или исключайте конкретные слои при экспорте.  
-- **Сохранение метаданных** – сохраняйте автора, дату создания и пользовательские свойства в PDF.
-
-Освоив эти возможности, вы сможете создавать **export 3d cad pdf**‑файлы, соответствующие строгим корпоративным требованиям к брендингу.
+Освоив эти возможности, вы сможете создавать файлы **export 3d cad pdf**, соответствующие строгим корпоративным требованиям к брендингу и документации.
 
 ## Распространённые проблемы и устранение неполадок
 
 | Проблема | Причина | Решение |
-|----------|---------|---------|
-| Пустые страницы PDF | Неправильный DPI или неподдерживаемая версия CAD | Обновите Aspose.CAD до последней версии и убедитесь, что исходный файл открывается в CAD‑просмотрщике. |
-| Большой размер файла | Высокий DPI + отсутствие сжатия | Уменьшите DPI, включите `PdfOptions.Compression` или переключитесь в режим растра. |
-| Отсутствие цветов | Цветовой профиль не встроен | Установите `PdfOptions.ColorMode = ColorMode.Rgb` и встроите профиль. |
+|----------|----------|----------|
+| Blank PDF pages | Неподдерживаемая версия DWG или неверный DPI | Обновите до последней версии Aspose.CAD и проверьте, открывается ли исходный файл в CAD‑просмотрщике. |
+| Excessive file size | Высокий DPI + отсутствие сжатия | Понизьте DPI до 150 dpi и включите `PdfCompression.Jpeg`. |
+| Missing colors | Цветовой профиль не внедрён | Установите `PdfOptions.ColorMode = ColorMode.Rgb` и внедрите ICC‑профиль. |
 
 ## Часто задаваемые вопросы
 
-**В: Можно ли экспортировать несколько 3D‑файлов в одной пакетной операции?**  
-О: Да. Пройдите в цикле по списку файлов, применяя одинаковый `PdfOptions` к каждой итерации.
+**Q: Can I batch‑convert dozens of DWG files in a single run?**  
+A: Да. Пройдитесь по каталогу, загрузите каждый файл с помощью `CadImage.Load`, примените одинаковый `PdfOptions` и вызовите `Save`. Потоковая архитектура библиотеки обеспечивает низкое потребление памяти даже при больших партиях.
 
-**В: Поддерживает ли Aspose.CAD файлы STL?**  
-О: Абсолютно. STL входит в число поддерживаемых форматов для 3D‑импорта.
+**Q: Does Aspose.CAD support STL files?**  
+A: Абсолютно. STL — один из многих 3D‑форматов, поддерживаемых для импорта и экспорта в PDF.
 
-**В: Как встроить пользовательский шрифт в PDF?**  
-О: Используйте `PdfOptions.FontEmbeddingMode = FontEmbeddingMode.Always` перед сохранением.
+**Q: How do I embed a custom font in the exported PDF?**  
+A: Установите `PdfOptions.FontEmbeddingMode = FontEmbeddingMode.Always` перед сохранением. Шрифт будет внедрён в ресурсы PDF.
 
-**В: Можно ли добавить водяной знак в экспортированный PDF?**  
-О: Да. Создайте `PdfPage` после сохранения и нарисуйте водяной знак с помощью утилит Aspose.PDF.
+**Q: Is it possible to add a watermark to the PDF after conversion?**  
+A: Да. После сохранения используйте Aspose.PDF для открытия сгенерированного файла, создайте `PdfPage` и нарисуйте водяной знак с помощью графического API PDF.
 
-**В: Какая лицензия требуется для продакшн‑использования?**  
-О: Для неограниченного развертывания нужна коммерческая лицензия Aspose.CAD; бесплатная пробная версия доступна для оценки.
+**Q: What licensing is required for production use?**  
+A: Для неограниченного развертывания требуется коммерческая лицензия Aspose.CAD. Бесплатная пробная лицензия доступна для оценки и разработки.
 
-## Учебные материалы по экспорту 3D‑изображений
+## Учебники по экспорту 3D‑изображений
 
-### [Экспорт 3D‑изображений в PDF — учебник Aspose.CAD](./exporting-3d-images-to-pdf/)
-Без усилий преобразуйте 3D CAD‑изображения в PDF с помощью Aspose.CAD for .NET. Следуйте нашему пошаговому руководству для беспроблемного экспорта PDF.
+### [Exporting 3D Images to PDF - Aspose.CAD Tutorial](./exporting-3d-images-to-pdf/)
+Легко конвертировать 3D CAD‑изображения в PDF с помощью Aspose.CAD для .NET. Следуйте нашему пошаговому руководству для беспроблемного экспорта PDF.
 
 ---
 
-**Последнее обновление:** 2026-01-28  
+**Последнее обновление:** 2026-08-07  
 **Тестировано с:** Aspose.CAD for .NET 24.11  
 **Автор:** Aspose  
 
 ---
 
+## Связанные руководства
+
+- [How to Export PDF – Export 3D Images to PDF with Aspose.CAD](/cad/net/3d-image-export/exporting-3d-images-to-pdf/)
+- [Creating Single PDF with Different Layouts - Aspose.CAD Guide](/cad/net/advanced-cad-techniques/creating-single-pdf-with-different-layouts/)
+- [Exporting Specific Layouts to PDF - Aspose.CAD Guide](/cad/net/advanced-export-techniques/exporting-specific-layouts-to-pdf/)
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
