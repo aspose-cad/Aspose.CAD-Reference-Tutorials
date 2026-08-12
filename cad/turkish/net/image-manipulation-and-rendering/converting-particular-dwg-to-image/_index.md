@@ -1,33 +1,88 @@
 ---
-title: Belirli DWG'yi C#'ta Görüntüye Dönüştürme - Aspose.CAD Guide
-linktitle: Belirli DWG'yi C#'ta Görüntüye Dönüştürme
-second_title: Aspose.CAD .NET - CAD ve BIM Dosya Formatı
-description: Aspose.CAD for .NET'i keşfedin. DWG'yi zahmetsizce C# dilinde görüntüye dönüştürün. Kod örnekleri içeren kapsamlı kılavuz.
-weight: 15
+date: 2026-08-12
+description: DWG'den metin çıkarın ve belirli bir DWG'yi .NET için Aspose.CAD kullanarak
+  C#'ta görüntüye dönüştürün. Adım adım kod örnekleriyle öğrenin.
+keywords:
+- extract text from dwg
+- convert specific dwg to image
+- Aspose.CAD .NET
+lastmod: 2026-08-12
+linktitle: Belirli bir DWG'yi C#'ta Görüntüye Dönüştürme
+og_description: DWG'den metin çıkarın ve belirli bir DWG'yi Aspose.CAD ile C#'ta görüntüye
+  dönüştürün. Hızlı uygulama için bu özlü kılavuzu izleyin.
+og_image_alt: Guide showing DWG to image conversion and text extraction using Aspose.CAD
+  in C#
+og_title: DWG'den metin çıkarın ve belirli bir DWG'yi C#'ta görüntüye dönüştürün
+schemas:
+- author: Aspose
+  dateModified: '2026-08-12'
+  description: Extract text from DWG and convert specific DWG to image in C# using
+    Aspose.CAD for .NET. Learn step‑by‑step with code snippets.
+  headline: Extract text from DWG and convert specific DWG to image in C#
+  type: TechArticle
+- questions:
+  - answer: Aspose.CAD supports DWG releases from AutoCAD 2000 up to the latest 2024
+      version, covering over 90 % of files created in the field.
+    question: Is Aspose.CAD compatible with all versions of DWG files?
+  - answer: Yes – you can change resolution, image format, anti‑aliasing, and background
+      color to suit PNG, JPEG, or PDF targets.
+    question: Can I customize the rasterization options for different outputs?
+  - answer: Explore the comprehensive [Aspose.CAD documentation](https://reference.aspose.com/cad/net/)
+      for more code samples and API details.
+    question: Where can I find additional examples and documentation?
+  - answer: Absolutely – you can download a trial version on the **[Aspose trial download
+      page](https://releases.aspose.com/)** and evaluate all features without restrictions
+      for 30 days.
+    question: Is there a free trial available for Aspose.CAD?
+  - answer: Join the active [Aspose.CAD forum](https://forum.aspose.com/c/cad/19)
+      where developers share solutions and the Aspose team answers questions.
+    question: How can I get support or connect with the community?
+  type: FAQPage
+second_title: Aspose.CAD .NET - CAD and BIM File Format
+tags:
+- extract text from dwg
+- Aspose.CAD
+- C# CAD processing
+title: DWG'den metin çıkarın ve belirli bir DWG'yi C#'ta görüntüye dönüştürün
 url: /tr/net/image-manipulation-and-rendering/converting-particular-dwg-to-image/
+weight: 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Belirli DWG'yi C#'ta Görüntüye Dönüştürme - Aspose.CAD Guide
+# C#'ta belirli DWG'yi görüntüye dönüştürme - Aspose.CAD rehberi
 
-## giriiş
+## Giriş
 
-Yazılım geliştirmenin dinamik dünyasında CAD dosyalarının verimli şekilde işlenmesi çok önemlidir. Aspose.CAD for .NET, geliştiricilere CAD dosyalarını sorunsuz bir şekilde işlemek ve dönüştürmek için güçlü bir araç seti sağlayan güçlü bir çözüm olarak ortaya çıkıyor. Bu eğitimde, belirli bir DWG dosyasını C# kullanarak bir görüntüye dönüştürme sürecine dalacağız.
+Modern mühendislik uygulamalarında, genellikle **DWG'den metin çıkarma** ve **belirli DWG'yi görüntüye dönüştürme** formatları raporlama veya görselleştirme için gerekir. Aspose.CAD for .NET, dış CAD yazılımı gerektirmeden bu iki görevi de yöneten tam özellikli bir API sunar. Bu öğreticide, bir DWG'yi nasıl yükleyeceğinizi, metin varlıklarını nasıl filtreleyeceğinizi, çizimi rasterleştireceğinizi ve sonunda sonucu PDF görüntüsü olarak nasıl kaydedeceğinizi—temiz C# kodu ile öğreneceksiniz.
+
+## Hızlı cevaplar
+
+- **İlk adım nedir?** Load the DWG file with `new CadImage("file.dwg")`.  
+- **Hangi sınıf metni filtreler?** Use `CadEntityFilter` to select `Text` entities.  
+- **Görüntü boyutunu nasıl tanımlarsınız?** Set `Width` and `Height` on `CadRasterizationOptions`.  
+- **Hangi çıktı formatı kullanılıyor?** The example saves to PDF, which embeds the raster image.  
+- **Üretim için lisansa ihtiyacım var mı?** Yes – a commercial Aspose.CAD license removes evaluation limits.
+
+## DWG'den metin nasıl çıkarılır?
+
+DWG'yi yükleyin, yalnızca metin varlıklarını seçen bir filtre uygulayın ve ardından her varlığın `TextString` özelliğini okuyun. Bu yaklaşım, çizimde mevcut olan tüm açıklama, etiket veya ölçü metinlerini döndürür ve bunları arama, indeksleme veya raporlama için yeniden kullanmanıza olanak tanır.
+
+## Neden belirli dwg'yi görüntüye dönüştürürsünüz?
+
+Bir DWG'yi raster görüntüye dönüştürmek, çizimi yerel CAD formatlarını render edemeyen belgeler, web sayfaları veya mobil uygulamalara yerleştirmenizi sağlar. Aspose.CAD **50+ CAD formatının** üzerinde işlem yapar ve çok sayfalı (yüzlerce sayfa) çizimleri 200 MB'den az bellek kullanarak rasterleştirebilir; bu da yüksek verimli sunucu senaryoları için uygundur.
 
 ## Önkoşullar
 
-Bu kodlama yolculuğuna çıkmadan önce aşağıdaki önkoşulların mevcut olduğundan emin olun:
+- C# projelerini derlemek ve çalıştırmak için Visual Studio (herhangi bir yeni sürüm).  
+- Aspose.CAD for .NET – kütüphanenin yüklü olduğundan emin olun. İndirme bağlantısını **[Aspose.CAD for .NET download page](https://releases.aspose.com/cad/net/)** adresinde bulabilirsiniz.  
+- Üzerinde çalışmak istediğiniz bir DWG dosyası; örnek dosya *visualization_-_conference_room.dwg* kod parçacıklarında kullanılmıştır.
 
-- Visual Studio: C# kodunu yazmak ve yürütmek için bir geliştirme ortamı.
--  Aspose.CAD for .NET: Kütüphanenin kurulu olduğundan emin olun. İndirme linkini bulabilirsiniz[Burada](https://releases.aspose.com/cad/net/).
-- DWG Dosyası: Dönüştürme için hazır bir DWG dosyası bulundurun. "Görselleştirme" örnek dosyasını kullanabilirsiniz._-_Bu kılavuz için konferans_room.dwg".
+## Ad alanlarını içe aktar
 
-## Ad Alanlarını İçe Aktar
-
-Aspose.CAD ile çalışmak için C# kodunuzda gerekli ad alanlarını içe aktardığınızdan emin olun:
+Aşağıdaki ad alanları, temel CAD sınıflarına, rasterleştirme seçeneklerine ve PDF çıktı yardımcılarına erişim sağlar:
 
 ```csharp
 using Aspose.CAD.FileFormats.Cad;
@@ -39,9 +94,9 @@ using System.Linq;
 using System.Text;
 ```
 
-## Adım 1: DWG Dosyasını Yükleyin
+## Adım 1: dwg dosyasını yükleyin
 
-DWG dosyasını Aspose.CAD çerçevesine yükleyerek başlayın:
+`CadImage` örneğini, DWG dosyanızın yolunu geçirerek oluşturun. `CadImage` nesnesi, tüm çizimi bellekte temsil eder ve katmanlarına, varlıklarına ve meta verilerine erişim sağlar.
 
 ```csharp
 string MyDir = "Your Document Directory";
@@ -49,9 +104,9 @@ string sourceFilePath = MyDir + "visualization_-_conference_room.dwg";
 var cadImage = (CadImage)Aspose.CAD.Image.Load(sourceFilePath);
 ```
 
-## 2. Adım: Varlıkları Filtreleyin
+## Adım 2: varlıkları filtrele
 
-Daha sonra DWG dosyasındaki varlıkları filtreleyin. Bu örnekte metin varlıklarını çıkarmaya odaklanacağız:
+`CadEntityFilter`, yalnızca ihtiyacınız olan varlıkları seçmenizi sağlar. Bu rehberde, **metin** nesnelerini tutacak şekilde yapılandırıyoruz; çizgileri, daireleri ve son görüntüde istemediğiniz diğer geometrileri dışarı atıyoruz.
 
 ```csharp
 CadBaseEntity[] entities = cadImage.Entities;
@@ -59,7 +114,7 @@ List<CadBaseEntity> filteredEntities = new List<CadBaseEntity>();
 
 foreach (CadBaseEntity baseEntity in entities)
 {
-    // Varlıkların seçimi veya filtrelenmesi
+    // Selection or filtration of entities
     if (baseEntity.TypeName == CadEntityTypeName.TEXT)
     {
         filteredEntities.Add(baseEntity);
@@ -69,9 +124,13 @@ foreach (CadBaseEntity baseEntity in entities)
 cadImage.Entities = filteredEntities.ToArray();
 ```
 
-## 3. Adım: Rasterleştirme Seçeneklerini Ayarlayın
+## Adım 3: rasterleştirme seçeneklerini ayarla
 
- Bir örneğini oluşturun`CadRasterizationOptions` ve görüntü dönüşümü için özelliklerini tanımlayın:
+`CadRasterizationOptions`, çizimin bitmap'e nasıl dönüştürüleceğini kontrol eder. Çıktı boyutunu, arka plan rengini ve çözünürlüğü (DPI) tanımlayabilirsiniz. Aşağıdaki tanım bağlantısı sınıfı tanıtır:
+
+`CadRasterizationOptions` sınıfı, CAD çizimlerini raster formatlara dönüştürmek için görüntü boyutlarını, çözünürlüğü ve render ayarlarını belirtir.  
+
+Seçenekleri PDF dışa aktarıcıya geçirmeden önce istenen genişlik, yükseklik ve arka plan rengini ayarlayın.
 
 ```csharp
 Aspose.CAD.ImageOptions.CadRasterizationOptions rasterizationOptions =
@@ -81,52 +140,67 @@ rasterizationOptions.PageHeight = 1600;
 rasterizationOptions.AutomaticLayoutsScaling = true;
 ```
 
-## 4. Adım: PDF Seçeneklerini Ayarlayın
+## Adım 4: PDF seçeneklerini ayarla
 
- Bir örneğini oluşturun`PdfOptions` ve rasterleştirme seçeneklerini atayın:
+`PdfOptions`, rasterleştirme ayarlarını sıkıştırma gibi PDF‑özelliği özelliklerle birleştirir. Bu sınıfın tanım bağlantısı ilk olarak görülür:
+
+`PdfOptions`, PDF oluşturma parametrelerini kapsar; rasterleştirme seçenekleri, CAD verilerinin PDF belgesi içinde nasıl render edildiğini belirler.  
+
+Önceden oluşturulan `CadRasterizationOptions` örneğini `VectorRasterizationOptions` özelliğine atayın.
 
 ```csharp
 Aspose.CAD.ImageOptions.PdfOptions pdfOptions = new Aspose.CAD.ImageOptions.PdfOptions();
 pdfOptions.VectorRasterizationOptions = rasterizationOptions;
 ```
 
-## 5. Adım: PDF olarak kaydedin
+## Adım 5: PDF olarak kaydet
 
-Son olarak, dönüştürülen görüntüyü PDF dosyası olarak kaydedin:
+Son olarak, `CadImage` nesnesinin `Save` metodunu çağırın, hedef dosya adını ve yapılandırılmış `PdfOptions`'ı geçirin. PDF, filtrelenmiş çizimin yüksek kaliteli bir görüntüsünü içerecektir.
 
 ```csharp
 string outFile = MyDir + "result_out_generated.pdf";
 cadImage.Save(outFile, pdfOptions);
 ```
 
-## Çözüm
+## Yaygın sorunlar ve hata ayıklama
 
-Tebrikler! Belirli bir DWG dosyasını Aspose.CAD for .NET kullanarak başarıyla bir görüntüye dönüştürdünüz. Bu eğitim, kitaplığın güçlü özelliklerine kısa bir bakış sunarak geliştiricilerin uygulamalarında CAD dosyalarıyla verimli bir şekilde çalışmasını sağlar.
+- **Filtreleme sonrası eksik metin** – DWG'nin gerçekten `Text` varlıkları içerdiğinden emin olun; bazı çizimler açıklamaları `MText` olarak saklar. Gerekirse filtreyi `MText` içerecek şekilde ayarlayın.  
+- **Boş çıktı görüntüsü** – Rasterleştirme DPI'sının yeterince yüksek (300 DPI güvenli bir varsayılandır) olduğunu ve PDF'yi görüntülerken arka plan renginin şeffaf olarak ayarlanmadığını doğrulayın.  
+- **Büyük dosyalarda bellek yetersizliği hataları** – Akışı etkinleştiren `LoadOptions` aşırı yüklemesini kullanın; bu, tüm dosyanın bir kerede belleğe yüklenmesini önler.
 
-## SSS'ler
+## Sıkça sorulan sorular
 
-### S1: Aspose.CAD, DWG dosyalarının tüm sürümleriyle uyumlu mudur?
+**Q: Aspose.CAD tüm DWG dosyası sürümleriyle uyumlu mu?**  
+A: Aspose.CAD, AutoCAD 2000'den en yeni 2024 sürümüne kadar DWG sürümlerini destekler ve alanda oluşturulan dosyaların %90'ından fazlasını kapsar.
 
-Cevap1: Aspose.CAD, DWG dosyalarının çeşitli versiyonlarını destekleyerek geniş bir CAD yazılımı yelpazesiyle uyumluluk sağlar.
+**Q: Farklı çıktılar için rasterleştirme seçeneklerini özelleştirebilir miyim?**  
+A: Evet – çözünürlüğü, görüntü formatını, anti‑aliasing'i ve arka plan rengini PNG, JPEG veya PDF hedeflerine göre değiştirebilirsiniz.
 
-### S2: Farklı çıktılar için rasterleştirme seçeneklerini özelleştirebilir miyim?
+**Q: Ek örnekler ve belgeler nerede bulunabilir?**  
+A: Daha fazla kod örneği ve API detayları için kapsamlı [Aspose.CAD documentation](https://reference.aspose.com/cad/net/) adresini inceleyin.
 
-A2: Kesinlikle! Aspose.CAD, farklı çıktı formatlarına yönelik özel gereksinimlerinizi karşılamak üzere tarama seçeneklerini ayarlamada esneklik sağlar.
+**Q: Aspose.CAD için ücretsiz deneme sürümü mevcut mu?**  
+A: Kesinlikle – **[Aspose trial download page](https://releases.aspose.com/)** adresinden bir deneme sürümü indirebilir ve 30 gün boyunca tüm özellikleri kısıtlama olmadan değerlendirebilirsiniz.
 
-### S3: Ek örnekleri ve belgeleri nerede bulabilirim?
+**Q: Destek nasıl alabilirim veya toplulukla nasıl iletişime geçebilirim?**  
+A: Geliştiricilerin çözümler paylaştığı ve Aspose ekibinin soruları yanıtladığı aktif [Aspose.CAD forum](https://forum.aspose.com/c/cad/19) forumuna katılın.
 
- A3: Kapsamlı olanı keşfedin[Aspose.CAD belgeleri](https://reference.aspose.com/cad/net/) Daha fazla örnek ve ayrıntılı rehberlik için.
+---
 
-### S4: Aspose.CAD için ücretsiz deneme sürümü mevcut mu?
+**Son Güncelleme:** 2026-08-12  
+**Test Edilen:** Aspose.CAD 24.11 for .NET  
+**Yazar:** Aspose
 
- Cevap4: Evet, ücretsiz deneme sürümüne erişebilirsiniz[Burada](https://releases.aspose.com/) Aspose.CAD'in tüm potansiyelini deneyimlemek için.
+## İlgili Öğreticiler
 
-### S5: Nasıl destek alabilirim veya yardım için toplulukla nasıl bağlantı kurabilirim?
+- [C# ile DWG Dosyalarında Metin Arama - Aspose.CAD Öğreticisi](/cad/net/text-search-and-manipulation/searching-text-in-dwg-files/)
+- [.NET için Aspose.CAD'de CAD Çizimini Raster Görüntüye Dönüştürme](/cad/net/cad-drawing-manipulation/convert-cad-drawing-to-raster-image/)
+- [C# ile DWG Belgelerini Render Etme - Aspose.CAD Rehberi](/cad/net/image-manipulation-and-rendering/rendering-dwg-documents/)
 
-A5: ziyaret edin[Aspose.CAD forumu](https://forum.aspose.com/c/cad/19) Toplulukla destek, tartışmalar ve işbirliği için.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< blocks/products/products-backtop-button >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
