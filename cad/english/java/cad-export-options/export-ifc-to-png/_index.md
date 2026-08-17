@@ -55,7 +55,7 @@ import com.aspose.cad.imageoptions.PngOptions;
 
 ## Step‑by‑Step Guide
 
-### Step 1: Load the IFC File
+### Step 1: load the IFC file
 First, point to the folder where your IFC file lives and load it.
 
 ```java
@@ -66,7 +66,7 @@ IfcImage cadImage = (IfcImage)Image.load(fileName);
 
 > **Why this matters:** Loading the file as an `IfcImage` gives you access to Cad‑specific rasterization options later on.
 
-### Step 2: Set Vector (Rasterization) Options
+### Step 2: set vector (Rasterization) options
 Define the output dimensions and any other vector‑related settings.
 
 ```java
@@ -77,7 +77,7 @@ vectorOptions.setPageHeight(1500);
 
 > You can adjust `PageWidth` and `PageHeight` to control the final PNG resolution, which is essential when you **save PNG java** files for high‑quality prints.
 
-### Step 3: Configure PNG Options
+### Step 3: configure PNG options
 Link the rasterization options to the PNG exporter.
 
 ```java
@@ -95,12 +95,12 @@ cadImage.save(outPath, pngOptions);
 
 > After this step you have successfully **converted IFC to PNG** and can use the resulting `example.png` anywhere you need a raster image.
 
-## Common Use Cases
+## Common use cases
 - **Generating thumbnails** for BIM models in web portals.  
 - **Embedding floor‑plan snapshots** into PDF reports.  
 - **Automated batch conversion** of large IFC libraries for archival.
 
-## Troubleshooting & Tips
+## Troubleshooting & tips
 - **Memory issues:** When converting very large IFC files, increase the JVM heap (`-Xmx2g` or higher).  
 - **Missing textures:** Ensure the IFC file references external resources that are accessible from `dataDir`.  
 - **Pro tip:** Use `vectorOptions.setBackgroundColor(Color.getWhite())` if you need a white background instead of the default transparent PNG.
@@ -114,15 +114,15 @@ A1: Aspose.CAD supports various versions of IFC files. Refer to the [documentati
 A2: Absolutely! Explore the [documentation](https://reference.aspose.com/cad/java/) for advanced customization options.
 
 ### Q3: Is there a trial version available?
-A3: Yes, you can access the free trial version [here](https://releases.aspose.com/).
+A3: Yes, you can access the free trial version [Aspose.CAD free trial](https://releases.aspose.com/).
 
 ### Q4: How can I get temporary licensing for Aspose.CAD?
-A4: Obtain a temporary license from [this link](https://purchase.aspose.com/temporary-license/).
+A4: Obtain a temporary license from [Aspose.CAD temporary license page](https://purchase.aspose.com/temporary-license/).
 
 ### Q5: Where can I seek help or discuss issues?
 A5: Visit the [Aspose.CAD forum](https://forum.aspose.com/c/cad/19) for community support.
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 **Q: Can I use this approach to convert other CAD formats to PNG?**  
 A: Yes, Aspose.CAD supports many formats (DWG, DXF, DGN, etc.). Just change the file extension and cast to the appropriate image class.

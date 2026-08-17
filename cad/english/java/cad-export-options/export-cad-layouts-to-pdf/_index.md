@@ -1,5 +1,5 @@
 ---
-title: Export CAD to PDF: Export CAD Layouts to PDF with Aspose.CAD for Java
+title: 'Export CAD to PDF: Export CAD Layouts to PDF with Aspose.CAD for Java'
 linktitle: Export CAD Layouts to PDF
 second_title: Aspose.CAD Java API
 description: Learn how to export CAD to PDF using Aspose.CAD for Java – a fast, reliable way to convert CAD layouts into high‑quality PDF files.
@@ -40,7 +40,7 @@ The phrase “export cad to pdf” describes the workflow of taking a CAD drawin
 
 Before we dive in, make sure you have the following ready:
 
-- **Aspose.CAD for Java** – download the latest JAR from the Aspose website **[here](https://releases.aspose.com/cad/java/)**.  
+- **Aspose.CAD for Java** – download the latest JAR from the Aspose website **[Aspose.CAD for Java download page](https://releases.aspose.com/cad/java/)**.  
 - **Java Development Environment** – JDK 8 or higher, and a build tool such as Maven or Gradle.  
 
 Now that everything is set up, let’s start coding.
@@ -60,7 +60,7 @@ import com.aspose.cad.imageoptions.PdfOptions;
 //import com.aspose.cad.imageoptions.TypeOfEntities;
 ```
 
-## Step 1: Load the CAD File
+## Step 1: load the CAD file
 
 Load the source CAD drawing into an `Image` object. Replace the placeholder path with the actual location of your DXF/DWG file.
 
@@ -70,7 +70,7 @@ String srcFile = dataDir + "conic_pyramid.dxf";
 Image cadImage = Image.load(srcFile);
 ```
 
-## Step 2: Set Rasterization Options
+## Step 2: set rasterization options
 
 `CadRasterizationOptions` lets you define how each layout is rasterized before it’s placed into the PDF. Below we configure page size, enable automatic layout scaling, and select the **Model** layout for export.
 
@@ -84,7 +84,7 @@ rasterizationOptions.setContentAsBitmap(true);
 rasterizationOptions.setLayouts(new String[]{"Model"});
 ```
 
-## Step 3: Set PDF Options
+## Step 3: set PDF options
 
 Create a `PdfOptions` instance and attach the rasterization settings. We also adjust graphics options to ensure the PDF looks sharp on screen and print.
 
@@ -106,7 +106,7 @@ cadImage.save(dataDir + "CADLayoutsToPDF_out_.pdf", pdfOptions);
 
 > **Pro tip:** If you need to export multiple layouts, iterate over `rasterizationOptions.getLayouts()` and call `save` for each layout name.
 
-## Common Issues and Solutions
+## Common issues and solutions
 
 | Issue | Cause | Solution |
 |-------|-------|----------|
@@ -115,16 +115,16 @@ cadImage.save(dataDir + "CADLayoutsToPDF_out_.pdf", pdfOptions);
 | **Out‑of‑memory error** | Very large CAD files with high raster resolution. | Enable `setAutomaticLayoutsScaling(true)` or process pages one at a time. |
 | **License exception** | Running without a valid license in production. | Apply your Aspose.CAD license before loading the image (`License license = new License(); license.setLicense("Aspose.CAD.lic");`). |
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 **Q1: Can I use Aspose.CAD for Java with other CAD file formats?**  
-A1: Yes, Aspose.CAD supports various CAD formats, including DWG, DXF, DWF, and more. Check the documentation **[here](https://reference.aspose.com/cad/java/)** for a full list.
+A1: Yes, Aspose.CAD supports various CAD formats, including DWG, DXF, DWF, and more. Check the documentation **[Aspose.CAD Java API reference](https://reference.aspose.com/cad/java/)** for a full list.
 
 **Q2: Is there a free trial available for Aspose.CAD for Java?**  
-A2: Yes, you can explore the features of Aspose.CAD with a free trial **[here](https://releases.aspose.com/)**.
+A2: Yes, you can explore the features of Aspose.CAD with a free trial **[Aspose free trial download page](https://releases.aspose.com/)**.
 
 **Q3: How can I get support for Aspose.CAD for Java?**  
-A3: Visit the Aspose.CAD forum **[here](https://forum.aspose.com/c/cad/19)** for community support. For premium support, consider purchasing a license **[here](https://purchase.aspose.com/buy)**.
+A3: Visit the Aspose.CAD community forum **[Aspose.CAD forum](https://forum.aspose.com/c/cad/19)** for community support. For premium support, consider purchasing a license **[Aspose.CAD purchase page](https://purchase.aspose.com/buy)**.
 
 **Q4: What is the difference between automatic and manual layout scaling?**  
 A4: Automatic layout scaling adjusts the layout size based on the specified page dimensions, while manual scaling allows you to set custom scaling values.
@@ -136,12 +136,12 @@ A5: Yes, you can customize the graphics options in the code to control the quali
 
 You’ve now learned how to **export CAD to PDF** using Aspose.CAD for Java, from loading a drawing to fine‑tuning rasterization and producing a polished PDF document. This approach saves you from third‑party converters and gives you full programmatic control over the output. Feel free to experiment with different layouts, DPI settings, and graphics options to meet the exact needs of your project.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 
 ---
 
@@ -150,3 +150,10 @@ You’ve now learned how to **export CAD to PDF** using Aspose.CAD for Java, fro
 **Author:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

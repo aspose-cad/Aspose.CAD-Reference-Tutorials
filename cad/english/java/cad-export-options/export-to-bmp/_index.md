@@ -38,7 +38,7 @@ Converting DWG to BMP transforms a vector‑based CAD drawing into a raster bitm
 
 Before diving into the tutorial, make sure you have the following prerequisites in place:
 
-- Aspose.CAD for Java Library: Download and install the Aspose.CAD for Java library from [here](https://releases.aspose.com/cad/java/).
+- Aspose.CAD for Java Library: Download and install the Aspose.CAD for Java library from [Aspose.CAD for Java download page](https://releases.aspose.com/cad/java/).
 
 - Java Development Environment: Ensure you have a Java development environment set up on your system.
 
@@ -64,7 +64,7 @@ import com.aspose.cad.imageoptions.PdfOptions;
 
 Below is a step‑by‑step guide that mirrors the original workflow while adding context and best‑practice tips.
 
-### Step 1: Set the Resource Directory Path
+### Step 1: set the resource directory path
 
 Begin by defining the path to your resource directory where the CAD file is located.
 
@@ -74,7 +74,7 @@ String dataDir = "Your Document Directory" + "ExportingCAD/";
 
 > **Pro tip:** Use `System.getProperty("user.dir")` to build an absolute path that works across environments.
 
-### Step 2: Load the CAD File
+### Step 2: load the CAD file
 
 Load the CAD file into an Aspose.CAD `Image` object.
 
@@ -85,7 +85,7 @@ Image image = Image.load(fileName);
 
 > **Why this matters:** Loading the file once lets you reuse the `Image` instance for multiple export formats if needed.
 
-### Step 3: Configure BMP Export Options
+### Step 3: configure BMP export options
 
 Create and configure BMP export options, including rasterization settings.
 
@@ -97,7 +97,7 @@ bmpOptions.setVectorRasterizationOptions(rasterizationOptions);
 
 > **Tip:** You can also set `bmpOptions.setBitsPerPixel(24);` to control color depth.
 
-### Step 4: Set Rasterization Parameters
+### Step 4: set rasterization parameters
 
 Define parameters such as page height, page width, and layouts for rasterization.
 
@@ -122,7 +122,7 @@ image.save(outPath, bmpOptions);
 
 Repeat these steps for each CAD file you wish to export to BMP using Aspose.CAD for Java.
 
-## Common Issues and Solutions
+## Common issues and solutions
 
 | Issue | Cause | Solution |
 |-------|-------|----------|
@@ -150,13 +150,13 @@ A3: Visit the [Aspose.CAD forum](https://forum.aspose.com/c/cad/19) for communit
 
 ### Q4: Is there a free trial available?
 
-A4: Yes, you can explore a free trial of Aspose.CAD for Java [here](https://releases.aspose.com/).
+A4: Yes, you can explore a free trial of Aspose.CAD for Java [Aspose free trial page](https://releases.aspose.com/).
 
 ### Q5: How can I obtain a temporary license?
 
-A5: Obtain a temporary license for Aspose.CAD for Java [here](https://purchase.aspose.com/temporary-license/).
+A5: Obtain a temporary license for Aspose.CAD for Java [temporary license purchase page](https://purchase.aspose.com/temporary-license/).
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 **Q: Can I convert other CAD formats (e.g., DXF) to BMP with the same code?**  
 A: Yes. Simply change the file extension in `fileName` and Aspose.CAD will handle the conversion automatically.

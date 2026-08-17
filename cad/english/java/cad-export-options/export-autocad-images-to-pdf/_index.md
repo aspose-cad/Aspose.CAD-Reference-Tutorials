@@ -16,7 +16,7 @@ date: 2026-02-20
 
 ## Introduction
 
-Are you looking to **convert DWG to PDF** using Java? Look no further! In this tutorial we’ll walk you through converting AutoCAD images to PDF with Aspose.CAD for Java, a powerful library that makes the **convert DWG to PDF** process effortless. By the end you’ll understand how to **save CAD as PDF**, apply custom rasterization settings, and work with an Aspose.CAD license for production use.
+Are you looking to **convert DWG to PDF** using Java? Look no longer! In this tutorial we’ll walk you through converting AutoCAD images to PDF with Aspose.CAD for Java, a powerful library that makes the **convert DWG to PDF** process effortless. By the end you’ll understand how to **save CAD as PDF**, apply custom rasterization settings, and work with an Aspose.CAD license for production use.
 
 ## Quick Answers
 - **Can I convert DWG to PDF with Java?** Yes, Aspose.CAD for Java handles DWG, DXF and many other formats.  
@@ -58,7 +58,7 @@ Now let’s walk through the code step‑by‑step.
 
 ## How to convert DWG to PDF with Aspose.CAD for Java
 
-### Step 1: Set the Resource Directory Path
+### Step 1: set the resource directory path
 
 ```java
 String dataDir = "Your Document Directory" + "ExportingCAD/";
@@ -66,7 +66,7 @@ String dataDir = "Your Document Directory" + "ExportingCAD/";
 
 > **Pro tip:** Replace `"Your Document Directory"` with the absolute path to the folder you created in the prerequisites.
 
-### Step 2: Load the CAD Image
+### Step 2: load the CAD image
 
 ```java
 String srcFile = dataDir + "conic_pyramid.dxf";
@@ -75,7 +75,7 @@ Image cadImage = Image.load(srcFile);
 
 > **Why this matters:** Loading the CAD file into an `Image` object gives you full access to Aspose.CAD’s rasterization engine.
 
-### Step 3: Set Rasterization Options
+### Step 3: set rasterization options
 
 ```java
 CadRasterizationOptions rasterizationOptions = new CadRasterizationOptions();
@@ -90,7 +90,7 @@ rasterizationOptions.setLayouts(new String[] {"Model"});
 - Uncomment the `setTypeOfEntities` line if you need **java convert cad pdf** for 3‑D entities.  
 - The `setLayouts` call selects which layout (Model, Layout1, etc.) to render.
 
-### Step 4: Configure PDF Options
+### Step 4: configure PDF options
 
 ```java
 PdfOptions pdfOptions = new PdfOptions();
@@ -107,7 +107,7 @@ cadImage.save(dataDir + "Export3DImagestoPDF_out_.pdf", pdfOptions);
 
 The resulting file, `Export3DImagestoPDF_out_.pdf`, is a **save cad as pdf** representation of your original AutoCAD drawing.
 
-## Common Issues & Solutions
+## Common issues & solutions
 
 | Symptom | Likely Cause | Fix |
 |---------|--------------|-----|
@@ -115,13 +115,13 @@ The resulting file, `Export3DImagestoPDF_out_.pdf`, is a **save cad as pdf** rep
 | Low‑resolution image | `pageWidth`/`pageHeight` too small | Increase dimensions or set a higher DPI via `rasterizationOptions.setResolution(...)`. |
 | License exception | No valid license applied | Apply an **Aspose CAD license** or use a temporary license for testing. |
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 ### Q1: Can I use Aspose.CAD for Java with other CAD file formats?
 A1: Yes, Aspose.CAD supports a wide range of formats including DWG, DWF, DGN, and more, giving you flexibility in your projects.
 
 ### Q2: How can I obtain a temporary license for Aspose.CAD for Java?
-A2: Visit [here](https://purchase.aspose.com/temporary-license/) to obtain a temporary license for evaluation.
+A2: Visit the [temporary license page](https://purchase.aspose.com/temporary-license/) to obtain a temporary license for evaluation.
 
 ### Q3: Are there any layout options for rasterization?
 A3: Yes, you can customize layouts (e.g., `"Model"`, `"Layout1"`) through the `setLayouts` method to control which view is rendered.
