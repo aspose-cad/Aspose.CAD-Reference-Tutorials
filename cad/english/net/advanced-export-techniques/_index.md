@@ -1,6 +1,6 @@
 ---
-title: Export DWG to DXF – Advanced Techniques with Aspose.CAD
-linktitle: Export DWG to DXF – Advanced Techniques with Aspose.CAD
+title: Advanced Techniques for CAD File Conversion
+linktitle: Advanced Techniques for CAD File Conversion
 second_title: Aspose.CAD .NET - CAD and BIM File Format
 description: Learn how to export DWG to DXF and other formats using Aspose.CAD for .NET. Convert DWG to raster, export layout to PDF, and more.
 weight: 26
@@ -40,11 +40,30 @@ Exporting DWG to DXF means converting a native AutoCAD DWG file into the Drawing
 
 Unlock the secrets of exporting DWG to DXF effortlessly with Aspose.CAD. Our tutorial provides a seamless integration guide, walking you through each step with clarity. No more stumbling blocks; experience the power of CAD file manipulation.
 
+```csharp
+using Aspose.CAD;
+using Aspose.CAD.ImageOptions;
+
+// Load a DWG file
+using (var image = (CadImage)Image.Load(@"input.dwg"))
+{
+    // Set DXF export options
+    var options = new DxfOptions
+    {
+        // Example: preserve layers
+        ExportLayers = true
+    };
+
+    // Save as DXF
+    image.Save(@"output.dxf", options);
+}
+```
+
 ## Exporting DWG to PDF or Raster Images
 
 Navigate the world of exporting DWG to PDF or raster images with our comprehensive guide. We break down the process into easy‑to‑follow steps, ensuring you have the prerequisites and hands‑on experience with Aspose.CAD for .NET. This also covers **convert dwg to raster** scenarios such as PNG or JPEG output.
 
-## Exporting OLE Objects from DWG Files
+## Exporting OLE objects from DWG files
 
 Enhance your CAD file manipulation skills effortlessly by learning to export OLE objects from DWG files. Our step‑by‑step guide using Aspose.CAD for .NET ensures you grasp the intricacies without confusion. This is handy when DWG files embed spreadsheets or other OLE content.
 
@@ -56,17 +75,17 @@ Master the art of **export layout to PDF** with Aspose.CAD for .NET. Our guide s
 
 Efficiently **export CAD to PDF** using Aspose.CAD for .NET. Follow our user‑friendly guide, designed to simplify the conversion process. Elevate your CAD development with a reliable and powerful toolkit that handles vector graphics and text rendering flawlessly.
 
-## Exporting CAD Drawings to SVG Format
+## Exporting CAD drawings to SVG format
 
 Discover the flexibility of **convert cad to svg** with our tutorial. Exporting CAD drawings to SVG enables web‑ready, scalable graphics that can be styled with CSS. This process unlocks creativity for interactive diagrams and modern UI integrations.
 
-## Additional Use Cases
+## Additional use cases
 
 - **Batch conversion** – loop through a folder of DWG files and export each to DXF, PDF, or raster in a single run.  
 - **Legacy file support** – modernize old DWG drawings by converting them to open formats like SVG for web publishing.  
 - **Automated reporting** – generate PDF layouts on the fly for engineering reports or client deliverables.
 
-## Common Pitfalls & Tips
+## Common pitfalls & tips
 
 - **Pitfall:** Forgetting to set the correct raster DPI.  
   **Tip:** Use `ImageSaveOptions.DpiX` and `DpiY` to control output resolution.  
@@ -75,7 +94,7 @@ Discover the flexibility of **convert cad to svg** with our tutorial. Exporting 
 - **Pitfall:** License not applied in production.  
   **Tip:** Register your Aspose.CAD license at application startup to avoid watermarks.
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 **Q: Can I convert DWG to SVG without losing line styles?**  
 A: Yes. Aspose.CAD preserves line types and colors when exporting to SVG, allowing you to retain the original visual fidelity.
@@ -92,25 +111,18 @@ A: Use streaming APIs and dispose of intermediate objects promptly to keep memor
 **Q: Can I run these conversions on a Linux server?**  
 A: Yes. Aspose.CAD for .NET runs on .NET Core, which is fully supported on Linux and macOS.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
-## Advanced Export Techniques Tutorials
-### [Exporting DWG to DXF Format in C# - Aspose.CAD Tutorial](./exporting-dwg-to-dxf/)
+## Advanced export techniques tutorials
+### {{< relref "exporting-dwg-to-dxf/_index.md" >}}Exporting DWG to DXF Format in C# - Aspose.CAD Tutorial{{< /relref >}}
 Unlock CAD file manipulation in C# with Aspose.CAD. Learn to export DWG to DXF effortlessly. Follow our step-by-step guide for seamless integration.
-### [Exporting DWG to PDF or Raster Images - Aspose.CAD Guide](./exporting-dwg-to-pdf-or-raster-images/)
+### {{< relref "exporting-dwg-to-pdf-or-raster-images/_index.md" >}}Exporting DWG to PDF or Raster Images - Aspose.CAD Guide{{< /relref >}}
 Explore a comprehensive guide on exporting DWG to PDF or raster images using Aspose.CAD for .NET. Learn the steps, prerequisites, and get hands-on with this powerful library.
-### [Exporting OLE Objects from DWG Files - Aspose.CAD Tutorial](./exporting-ole-objects-from-dwg/)
+### {{< relref "exporting-ole-objects-from-dwg/_index.md" >}}Exporting OLE objects from DWG files - Aspose.CAD tutorial{{< /relref >}}
 Explore the step-by-step guide on exporting OLE objects from DWG files using Aspose.CAD for .NET. Enhance your CAD file manipulation skills effortlessly.
-### [Exporting Specific Layouts to PDF - Aspose.CAD Guide](./exporting-specific-layouts-to-pdf/)
+### {{< relref "exporting-specific-layouts-to-pdf/_index.md" >}}Exporting specific layouts to PDF - Aspose.CAD guide{{< /relref >}}
 Learn how to export specific layouts to PDF using Aspose.CAD for .NET. Step-by-step guide for seamless integration.
-### [Exporting CAD Drawings to PDF - Aspose.CAD Tutorial](./exporting-cad-drawings-to-pdf/)
+### {{< relref "exporting-cad-drawings-to-pdf/_index.md" >}}Exporting CAD drawings to PDF - Aspose.CAD tutorial{{< /relref >}}
 Export CAD drawings to PDF seamlessly with Aspose.CAD for .NET. Follow our step-by-step guide for efficient conversion.
-### [Exporting CAD Drawings to SVG Format - Aspose.CAD Guide](./exporting-cad-drawings-to-svg/)
+### {{< relref "exporting-cad-drawings-to-svg/_index.md" >}}Exporting CAD drawings to SVG format - Aspose.CAD guide{{< /relref >}}
 Explore the seamless process of exporting CAD drawings to SVG using Aspose.CAD for .NET. Enhance your CAD development with flexibility and customization.
 
 ---
@@ -118,3 +130,10 @@ Explore the seamless process of exporting CAD drawings to SVG using Aspose.CAD f
 **Last Updated:** 2026-03-07  
 **Tested With:** Aspose.CAD for .NET 24.11  
 **Author:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

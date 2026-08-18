@@ -1,5 +1,5 @@
 ---
-title: "Export CAD to SVG – Exporting CAD Drawings to SVG Format - Aspose.CAD Guide"
+title: "Export CAD drawings to SVG with Aspose.CAD for .NET"
 linktitle: Exporting CAD Drawings to SVG Format
 second_title: Aspose.CAD .NET - CAD and BIM File Format
 description: Learn how to export CAD to SVG using Aspose.CAD for .NET, customize SVG color, and convert DWG to SVG efficiently.
@@ -38,7 +38,7 @@ Export CAD to SVG means taking a native CAD file (such as DWG or DXF) and render
 
 Before you start, make sure you have:
 
-- **Aspose.CAD for .NET** installed. You can download the library [here](https://releases.aspose.com/cad/net/).  
+- **Aspose.CAD for .NET** installed. You can download the library [Aspose.CAD for .NET download page](https://releases.aspose.com/cad/net/).  
 - A .NET development environment (Visual Studio, Rider, or the .NET CLI).  
 - A CAD file (DWG or DXF) that you want to convert.
 
@@ -56,7 +56,7 @@ using System.Text;
 
 ## Step‑by‑Step Guide
 
-### Step 1: Set the Document Directory  
+### Step 1: set the document directory
 Define the folder where your source CAD file resides and where the SVG output will be saved.
 
 ```csharp
@@ -64,7 +64,7 @@ Define the folder where your source CAD file resides and where the SVG output wi
 string MyDir = "Your Document Directory";
 ```
 
-### Step 2: Load the CAD Drawing  
+### Step 2: load the CAD drawing
 Use `Image.Load` to read the DWG (or DXF) file. This works for **load DWG .NET** scenarios.
 
 ```csharp
@@ -72,7 +72,7 @@ using (Image image = Image.Load(MyDir + "sample.dwg"))
 {
 ```
 
-### Step 3: Configure SVG Export Options  
+### Step 3: configure SVG export options
 Adjust the export settings to match your needs. Here we set the color mode to grayscale and force all text to be rendered as vector shapes.
 
 ```csharp
@@ -81,7 +81,7 @@ Adjust the export settings to match your needs. Here we set the color mode to gr
     options.TextAsShapes = true;                  // ensures text appears as shapes
 ```
 
-### Step 4: Save the SVG File  
+### Step 4: save the SVG file
 Finally, write the SVG file to disk. This step **saves CAD as SVG** and completes the conversion.
 
 ```csharp
@@ -91,7 +91,7 @@ Finally, write the SVG file to disk. This step **saves CAD as SVG** and complete
 
 By following these four concise steps, you can **convert DWG to SVG** (or **convert DXF to SVG**) with full control over the output appearance.
 
-## Common Issues and Solutions
+## Common issues and solutions
 
 | Issue | Cause | Fix |
 |-------|-------|-----|
@@ -111,17 +111,17 @@ A2: Yes, Aspose.CAD allows you to choose the color mode, providing flexibility i
 
 ### Q3: Are temporary licenses available for testing purposes?
 
-A3: Yes, you can obtain a temporary license [here](https://purchase.aspose.com/temporary-license/) for evaluation.
+A3: Yes, you can obtain a temporary license [temporary license request page](https://purchase.aspose.com/temporary-license/) for evaluation.
 
 ### Q4: Where can I find detailed documentation for Aspose.CAD?
 
-A4: The documentation is available [here](https://reference.aspose.com/cad/net/).
+A4: The documentation is available [Aspose.CAD .NET API reference documentation](https://reference.aspose.com/cad/net/).
 
 ### Q5: How can I get support or ask questions related to Aspose.CAD?
 
-A5: Visit the community forum [here](https://forum.aspose.com/c/cad/19) for support and discussions.
+A5: Visit the community forum [Aspose.CAD community forum](https://forum.aspose.com/c/cad/19) for support and discussions.
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 **Q: Can I use this code with .NET Core or .NET 6?**  
 A: Absolutely. Aspose.CAD for .NET is compatible with .NET Framework, .NET Core, and .NET 5/6+.

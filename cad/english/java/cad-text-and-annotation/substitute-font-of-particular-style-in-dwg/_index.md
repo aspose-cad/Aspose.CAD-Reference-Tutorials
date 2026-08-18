@@ -1,5 +1,5 @@
 ---
-title: How to Replace Font of a Particular Style in DWG Using Aspose.CAD for Java
+title: Programmatically Replace Font of a Specific Style in DWG with Aspose.CAD for Java
 linktitle: Substitute Font of a Particular Style in DWG
 second_title: Aspose.CAD Java API
 description: Learn how to replace font in DWG files using Aspose.CAD for Java. This step‑by‑step guide shows **how to replace font** of a particular style with precision.
@@ -28,7 +28,7 @@ In the world of CAD (Computer‑Aided Design), precision and detail are paramoun
 ## What is Font Replacement in a DWG?
 Font replacement means updating the *primary font* property of a text style (also called a “style” in DWG terminology). When a drawing references that style, every piece of text automatically adopts the new font, ensuring consistent appearance across the entire file.
 
-## Why Modify DWG Text Style?
+## Why modify DWG text style?
 - **Maintain brand consistency:** Use corporate fonts across all drawings.  
 - **Fix missing fonts:** Replace unavailable fonts with ones installed on the target system.  
 - **Prepare for printing/plotting:** Some plotters require specific fonts for accurate output.  
@@ -37,7 +37,7 @@ Font replacement means updating the *primary font* property of a text style (als
 
 Before you embark on this tutorial, make sure you have the following set up:
 
-1. **Aspose.CAD for Java Library:** Download and install the Aspose.CAD library. You can find the library and its documentation [here](https://releases.aspose.com/cad/java/).
+1. **Aspose.CAD for Java Library:** Download and install the Aspose.CAD library. You can find the library and its documentation on the **[Aspose.CAD for Java download page](https://releases.aspose.com/cad/java/)**.
 
 2. **Java Development Kit (JDK):** Ensure that you have Java installed on your machine.
 
@@ -45,7 +45,7 @@ Now that you have the necessary tools, let's proceed to the next section.
 
 ## Import Namespaces (required to modify DWG text style)
 
-In Java, importing the right namespaces is crucial for utilizing external libraries. In this case, ensure you import the necessary Aspose.CAD namespaces. Here's how you can do it:
+In Java, importing the right namespaces is crucial for utilizing external libraries. In this case, ensure you import the necessary Aspose.CAD namespaces. Here’s how you can do it:
 
 ```java
 import com.aspose.cad.Image;
@@ -55,7 +55,7 @@ import com.aspose.cad.fileformats.cad.CadImage;
 
 Now, let's break down the example code into multiple steps.
 
-## Step 1: Set the Resource Directory
+## Step 1: set the resource directory
 
 ```java
 // The path to the resource directory.
@@ -64,7 +64,7 @@ String dataDir = "Your Document Directory" + "CADConversion/";
 
 Replace `"Your Document Directory"` with the path to your actual document directory.
 
-## Step 2: Load the CAD Drawing
+## Step 2: load the CAD drawing
 
 ```java
 String srcFile = dataDir + "conic_pyramid.dxf";
@@ -84,7 +84,7 @@ Make sure to replace `"conic_pyramid.dxf"` with the actual name of your CAD draw
 
 Adjust the font name ("Arial" in this example) as per your requirements. This line **sets the primary font DWG** style, effectively replacing the old font.
 
-## Common Issues and Solutions
+## Common issues and solutions
 
 | Issue | Cause | Solution |
 |-------|-------|----------|
@@ -114,7 +114,7 @@ A4: While the example focuses on DWG, similar principles can be applied to other
 
 A5: Visit the [Aspose.CAD forum](https://forum.aspose.com/c/cad/19) for community support and discussions.
 
-## Additional Frequently Asked Questions
+## Additional frequently asked questions
 
 **Q: How do I save the modified drawing?**  
 A: After setting the new font, call `cadImage.save(dataDir + "output.dwg");` to write the changes to a new file.
@@ -128,7 +128,7 @@ A: You can render the image to a bitmap using `cadImage.save(outputStream, new I
 **Q: Does Aspose.CAD support TrueType and OpenType fonts?**  
 A: Both TrueType (.ttf) and OpenType (.otf) fonts are fully supported as long as they are installed on the host OS.
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 **Q: What version of Aspose.CAD is required for this code?**  
 A: The API used in this tutorial is available in Aspose.CAD for Java 24.11 and later.

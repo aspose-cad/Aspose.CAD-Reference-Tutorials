@@ -1,8 +1,8 @@
 ---
-title: How to Export CAD to PDF – Aspose.CAD Tutorial
+title: Export CAD Drawings to PDF Using Aspose.CAD for .NET – Tutorial
 linktitle: Exporting CAD Drawings to PDF
 second_title: Aspose.CAD .NET - CAD and BIM File Format
-description: Learn how to export CAD to PDF with Aspise.CAD for .NET, covering convert DWG file to PDF, generate PDF from CAD, and export CAD drawing as PDF.
+description: Learn how to export CAD to PDF with Aspose.CAD for .NET, covering converting DWG files to PDF, generating PDF from CAD, and exporting CAD drawings as PDF.
 weight: 14
 url: /net/advanced-export-techniques/exporting-cad-drawings-to-pdf/
 date: 2026-03-07
@@ -12,7 +12,7 @@ date: 2026-03-07
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# How to Export CAD to PDF – Aspose.CAD Tutorial
+# Export CAD Drawings to PDF Using Aspose.CAD for .NET – Tutorial
 
 ## Introduction
 
@@ -38,7 +38,7 @@ Exporting CAD to PDF means rasterizing or vectorizing the CAD geometry and then 
 
 Before we dive into the code, make sure you have the following:
 
-- **Aspose.CAD for .NET Library** – download it from the [website](https://releases.aspose.com/cad/net/).  
+- **Aspose.CAD for .NET Library** – download it from the [Aspose.CAD .NET download page](https://releases.aspose.com/cad/net/).  
 - **A CAD drawing file** – for this tutorial we’ll use `Bottom_plate.dwg`.  
 - **A .NET development environment** – Visual Studio, Rider, or VS Code with the .NET SDK installed.
 
@@ -61,7 +61,7 @@ using Aspose.CAD;
 
 Below is the complete workflow, broken into clear, numbered steps. Follow each step, and you’ll be able to **convert CAD drawing pdf** in just a few lines of code.
 
-### Step 1: Load the CAD Drawing
+### Step 1: load the CAD drawing
 
 Load the source DWG file into an `Image` object. This object represents the drawing in memory and will be the source for the PDF conversion.
 
@@ -75,7 +75,7 @@ using (Image image = Image.Load(sourceFilePath))
 }
 ```
 
-### Step 2: Set Rasterization Options
+### Step 2: set rasterization options
 
 `CadRasterizationOptions` controls how the CAD geometry is rendered before being placed into the PDF. Adjusting these settings lets you **generate PDF from CAD** with the exact appearance you need.
 
@@ -86,7 +86,7 @@ rasterizationOptions.PageWidth = 1600;
 rasterizationOptions.PageHeight = 1600;
 ```
 
-### Step 3: Set PDF Options
+### Step 3: set PDF options
 
 Create a `PdfOptions` instance and attach the rasterization options. This links the rendering configuration to the PDF writer.
 
@@ -104,7 +104,7 @@ MyDir = MyDir + "Bottom_plate_out.pdf";
 image.Save(MyDir, pdfOptions);
 ```
 
-### Step 5: Completion Message
+### Step 5: completion message
 
 Give the user a clear confirmation that the conversion succeeded. This is helpful for console apps or debugging scripts.
 
@@ -112,7 +112,7 @@ Give the user a clear confirmation that the conversion succeeded. This is helpfu
 Console.WriteLine("\nThe DWG file exported successfully to PDF.\nFile saved at " + MyDir);
 ```
 
-## Common Issues and Solutions
+## Common issues and solutions
 
 | Issue | Reason | Fix |
 |-------|--------|-----|
@@ -120,7 +120,7 @@ Console.WriteLine("\nThe DWG file exported successfully to PDF.\nFile saved at "
 | **Incorrect scaling** | Page dimensions don’t match source drawing size | Adjust `PageWidth` / `PageHeight` or set `Resolution` in `CadRasterizationOptions` |
 | **Missing layers** | Layers are filtered out in the source file | Ensure the DWG file isn’t saved with hidden layers, or use `rasterizationOptions.VisibleLayersOnly = false` |
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 **Q: Can I use Aspose.CAD for .NET on both Windows and Linux environments?**  
 A: Yes, the library is fully cross‑platform and works with .NET Core/.NET 5+ on Linux and macOS.
@@ -132,7 +132,7 @@ A: Aspose.CAD handles large and complex drawings efficiently, but extremely high
 A: Use `CadRasterizationOptions` to set background color, page size, DPI, and line weight scaling. You can also add watermarks after conversion with Aspose.PDF if needed.
 
 **Q: Is there a trial version available for Aspose.CAD for .NET?**  
-A: Yes, you can explore the features with the [free trial version](https://releases.aspose.com/).
+A: Yes, you can explore the features with the [Aspose.CAD free trial download](https://releases.aspose.com/).
 
 **Q: Where can I get help if I run into issues?**  
 A: Visit the [Aspose.CAD forum](https://forum.aspose.com/c/cad/19) for community support and official assistance.
