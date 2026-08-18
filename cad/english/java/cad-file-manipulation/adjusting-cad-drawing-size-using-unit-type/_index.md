@@ -1,5 +1,5 @@
 ---
-title: Export DWG to BMP: Adjust CAD Size Using Unit Type (Aspose.CAD Java)
+title: 'Export DWG to BMP and Adjust CAD Size Using Unit Type with Aspose.CAD for Java'
 linktitle: Adjusting CAD Drawing Size Using Unit Type
 second_title: Aspose.CAD Java API
 description: Learn how to export DWG to BMP and adjust CAD drawing size using unit type with Aspose.CAD for Java – a step‑by‑step guide for precise conversion.
@@ -12,7 +12,7 @@ date: 2026-02-23
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Export DWG to BMP: Adjust CAD Drawing Size Using Unit Type with Aspose.CAD for Java
+# Export DWG to BMP and Adjust CAD Size Using Unit Type with Aspose.CAD for Java
 
 ## Introduction
 
@@ -36,7 +36,7 @@ Setting the unit type (e.g., `UnitType.Centimeter`) tells the rasterizer how man
 Before we dive into the code, make sure you have the following:
 
 - **Java Development Environment** – JDK 8 or newer installed and configured.  
-- **Aspose.CAD for Java Library** – Download the latest JAR from the official site [here](https://releases.aspose.com/cad/java/).  
+- **Aspose.CAD for Java Library** – Download the latest JAR from the official site [Aspose.CAD for Java releases page](https://releases.aspose.com/cad/java/).  
 - **A sample DWG file** – Place it in a folder that your Java project can access.
 
 ## Import Namespaces
@@ -53,14 +53,14 @@ import com.aspose.cad.imageoptions.PngOptions;
 
 ## Step‑by‑Step Guide
 
-### Step 1: Define Data Directory
+### Step 1: define data directory
 Set the folder that contains your DWG file.
 
 ```java
 String dataDir = "Your Document Directory" + "CADConversion/";
 ```
 
-### Step 2: Load the CAD Drawing
+### Step 2: load the CAD drawing
 Open the DWG file with Aspose.CAD’s `Image` class.
 
 ```java
@@ -68,14 +68,14 @@ String sourceFilePath = dataDir + "sample.dwg";
 Image image = Image.load(sourceFilePath);
 ```
 
-### Step 3: Create BMP Options
+### Step 3: create BMP options
 Instantiate `BmpOptions` – this tells Aspose.CAD that we want BMP output.
 
 ```java
 BmpOptions bmpOptions = new BmpOptions();
 ```
 
-### Step 4: Configure Rasterization Options
+### Step 4: configure rasterization options
 Link a `CadRasterizationOptions` object to the BMP options so we can control scaling, layout, and unit type.
 
 ```java
@@ -83,14 +83,14 @@ CadRasterizationOptions cadRasterizationOptions = new CadRasterizationOptions();
 bmpOptions.setVectorRasterizationOptions(cadRasterizationOptions);
 ```
 
-### Step 5: Set Unit Type
+### Step 5: set unit type
 Here we **how to set unit** for the export. Changing the unit type directly influences the final image size.
 
 ```java
 cadRasterizationOptions.setUnitType(UnitType.Centimeter);
 ```
 
-### Step 6: Choose Layouts
+### Step 6: choose layouts
 Select which layout(s) from the DWG file should be rendered. The “Model” layout is the most common.
 
 ```java
@@ -105,7 +105,7 @@ String outPath = sourceFilePath + ".bmp";
 image.save(outPath, bmpOptions);
 ```
 
-## Common Issues and Solutions
+## Common issues and solutions
 
 | Issue | Reason | Fix |
 |-------|--------|-----|
@@ -113,22 +113,22 @@ image.save(outPath, bmpOptions);
 | **Blank BMP file** | Wrong layout name or missing layout in the source DWG | Verify the layout name with a CAD viewer and ensure it matches the string passed to `setLayouts`. |
 | **License exception** | Running without a valid license in production | Apply a temporary or permanent license using `License license = new License(); license.setLicense("Aspose.CAD.lic");`. |
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 ### Q1: Can I use Aspose.CAD for Java with other programming languages?
 A1: Aspose.CAD primarily supports Java, but there are versions available for other languages like .NET.
 
 ### Q2: Are there any licensing options for Aspose.CAD?
-A2: Yes, you can explore licensing options and purchase Aspose.CAD [here](https://purchase.aspose.com/buy).
+A2: Yes, you can explore licensing options and purchase Aspose.CAD [Aspose.CAD purchase page](https://purchase.aspose.com/buy).
 
 ### Q3: Is there a free trial available for Aspose.CAD?
-A3: Certainly, you can access a free trial [here](https://releases.aspose.com/).
+A3: Certainly, you can access a free trial [Aspose.CAD free trial page](https://releases.aspose.com/).
 
 ### Q4: How can I get support for Aspose.CAD for Java?
-A4: Visit the Aspose.CAD forum [here](https://forum.aspose.com/c/cad/19) for comprehensive support.
+A4: Visit the Aspose.CAD support forum [Aspose.CAD support forum](https://forum.aspose.com/c/cad/19) for comprehensive support.
 
 ### Q5: Can I obtain a temporary license for Aspose.CAD?
-A5: Yes, you can acquire a temporary license [here](https://purchase.aspose.com/temporary-license/).
+A5: Yes, you can acquire a temporary license [temporary license purchase page](https://purchase.aspose.com/temporary-license/).
 
 ---
 

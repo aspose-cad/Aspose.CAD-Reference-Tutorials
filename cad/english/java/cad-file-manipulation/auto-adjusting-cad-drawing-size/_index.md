@@ -1,5 +1,5 @@
 ---
-title: How to Convert DWG to BMP Using Aspose.CAD for Java
+title: Auto Adjust CAD Drawing Size and Convert DWG to BMP with Aspose.CAD for Java
 linktitle: Auto Adjusting CAD Drawing Size
 second_title: Aspose.CAD Java API
 description: Learn how to convert DWG to BMP in Java using Aspose.CAD, covering how to export CAD files, batch convert CAD, render CAD layout and export multiple CAD layouts efficiently.
@@ -41,8 +41,8 @@ Converting DWG to BMP means taking a native CAD drawing (e.g., a DWG file) and r
 
 Before you start, make sure you have the following:
 
-1. **Java Development Kit** – download it [here](https://www.java.com/en/download/).  
-2. **Aspose.CAD for Java library** – obtain the latest JAR from [here](https://releases.aspose.com/cad/java/).  
+1. **Java Development Kit** – download the JDK [download the JDK](https://www.java.com/en/download/).  
+2. **Aspose.CAD for Java library** – obtain the latest JAR [download Aspose.CAD for Java JAR](https://releases.aspose.com/cad/java/).  
 3. **Sample CAD file** – a DWG file (e.g., `sample.dwg`) placed in your project’s document directory.
 
 ## Import Namespaces
@@ -61,7 +61,7 @@ Now, let’s break down the process of **convert dwg to bmp** into manageable st
 
 ## Step‑by‑Step Guide
 
-### Step 1: Load the CAD Drawing
+### Step 1: load the CAD drawing
 
 ```java
 String dataDir = "Your Document Directory" + "CADConversion/";
@@ -79,7 +79,7 @@ BmpOptions bmpOptions = new BmpOptions();
 
 `BmpOptions` will hold the rasterization settings specific to BMP output.
 
-### Step 3: Configure Rasterization Settings
+### Step 3: configure rasterization settings
 
 ```java
 CadRasterizationOptions cadRasterizationOptions = new CadRasterizationOptions();
@@ -88,7 +88,7 @@ bmpOptions.setVectorRasterizationOptions(cadRasterizationOptions);
 
 Here we link the rasterization options to the BMP options, allowing us to control how the CAD entities are rendered.
 
-### Step 4: Set the Layout(s) to Export
+### Step 4: set the layout(s) to export
 
 ```java
 cadRasterizationOptions.setLayouts(new String[]{"Model"});
@@ -96,7 +96,7 @@ cadRasterizationOptions.setLayouts(new String[]{"Model"});
 
 The `Layouts` property tells Aspose.CAD which drawing layouts to include. In most cases, `"Model"` is the primary layout you want to convert, but you can also **export multiple CAD layouts** by passing an array of layout names.
 
-### Step 5: Export to BMP Format
+### Step 5: export to BMP format
 
 ```java
 String outPath = sourceFilePath + ".bmp";
@@ -105,7 +105,7 @@ objImage.save(outPath, bmpOptions);
 
 Calling `save` with the configured `BmpOptions` writes the BMP file to disk. This completes the **convert dwg to bmp** workflow.
 
-## Common Issues and Solutions
+## Common issues and solutions
 
 | Issue | Reason | Fix |
 |-------|--------|-----|
@@ -113,24 +113,24 @@ Calling `save` with the configured `BmpOptions` writes the BMP file to disk. Thi
 | Low resolution | Default DPI is low | Set `cadRasterizationOptions.setResolution(300);` before saving. |
 | Out‑of‑memory error for large files | Large drawings require more heap | Increase the JVM heap size (`-Xmx2g`) or process pages individually. |
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 **Q: Is Aspose.CAD compatible with different CAD file formats?**  
 A: Yes, Aspose.CAD supports DWG, DXF, DGN, and many other formats.
 
 **Q: Can I use Aspose.CAD for commercial projects?**  
-A: Absolutely. Purchase a license [here](https://purchase.aspose.com/buy) for production use.
+A: Absolutely. Purchase a license [purchase a license](https://purchase.aspose.com/buy) for production use.
 
 **Q: How do I obtain a temporary license for testing?**  
-A: You can get a temporary license [here](https://purchase.aspose.com/temporary-license/).
+A: You can get a temporary license [obtain a temporary license](https://purchase.aspose.com/temporary-license/).
 
 **Q: Where can I find community support?**  
-A: Join the Aspose.CAD community forum at [forum](https://forum.aspose.com/c/cad/19).
+A: Join the Aspose.CAD community forum at [Aspose.CAD community forum](https://forum.aspose.com/c/cad/19).
 
 **Q: Is there a free trial available for Aspose.CAD for Java?**  
-A: Yes, download the free trial [here](https://releases.aspose.com/).
+A: Yes, download the free trial [download the free trial](https://releases.aspose.com/).
 
-## Additional Tips for Batch Converting CAD Files
+## Additional tips for batch converting CAD files
 
 - **Loop through a directory** and apply the same steps to each DWG file; this enables **batch convert CAD** scenarios.  
 - **Reuse `CadRasterizationOptions`** when possible to reduce object creation overhead.  

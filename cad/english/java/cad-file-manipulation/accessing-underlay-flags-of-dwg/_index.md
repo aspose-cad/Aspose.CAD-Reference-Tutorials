@@ -1,5 +1,5 @@
 ---
-title: "aspose cad dwg – Load DWG & Access Underlay Flags (Java)"
+title: "How to Load a DWG and Access Underlay Flags Using Aspose.CAD for Java"
 linktitle: Accessing Underlay Flags of DWG
 second_title: Aspose.CAD Java API
 description: "Learn how to load dwg files using aspose cad dwg for Java and extract underlay flags – a step‑by‑step guide for developers."
@@ -55,14 +55,14 @@ import com.aspose.cad.fileformats.cad.cadobjects.UnderlayFlags;
 
 ## Step‑by‑Step Guide
 
-### Step 1: Set the Resource Directory
+### Step 1: set the resource directory
 ```java
 // The path to the resource directory.
 String dataDir = "Your Document Directory" + "DWGDrawings/";
 ```
 Define where your DWG files live. Using a dedicated folder keeps the sample clean and portable.
 
-### Step 2: Load the DWG File
+### Step 2: load the DWG file
 ```java
 // Input file name and path
 String fileName = dataDir + "BlockRefDgn.dwg";
@@ -72,21 +72,21 @@ CadImage image = (CadImage)Image.load(fileName);
 ```
 Here we **load dwg file** `BlockRefDgn.dwg` into a `CadImage` instance, ready for inspection.
 
-### Step 3: Iterate Through DWG Entities
+### Step 3: iterate through DWG entities
 ```java
 // Go through each entity inside the DWG file
 for(CadBaseEntity entity : image.getEntities())
 ```
 The loop walks every entity—lines, circles, blocks, and underlays—so we can pick out the ones we need.
 
-### Step 4: Identify CadDgnUnderlay Entities
+### Step 4: identify cadDgnUnderlay entities
 ```java
 // Check if entity is of CadDgnUnderlay type
 if (entity instanceof CadDgnUnderlay)
 ```
 Only `CadDgnUnderlay` objects contain the underlay flags we’re after, so we filter for them.
 
-### Step 5: Access Underlay Information
+### Step 5: access underlay information
 ```java
 // Access different underlay flags 
 CadUnderlay underlay = (CadUnderlay) entity;
@@ -101,25 +101,25 @@ Once we have a `CadUnderlay`, we can read its path, name, insertion point, rotat
 
 If you need to **batch process dwg** files, wrap the steps above in a simple `for` loop that iterates over all files in `dataDir`. The same `Image.load()` call works for each file, and you can store the extracted flags in a CSV or a database for downstream reporting.
 
-## Common Issues & Tips
+## Common issues & tips
 - **Null underlay path** – Ensure the DWG actually references an external file; otherwise the path will be empty.
 - **Unsupported underlay type** – Aspose.CAD currently supports DGN underlays; PDF underlays are not yet exposed via the API.
 - **License exceptions** – Running the code without a valid license will add a watermark to any exported images.
 - **Performance tip:** Reuse a single `Image` instance when processing many files in a batch to reduce GC pressure.
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 **Q: Can I use Aspose.CAD for Java with other CAD file formats?**  
 A: Aspose.CAD primarily focuses on the DWG format, but it also supports DXF, DWF, and other CAD formats.
 
 **Q: Is there a trial version available for Aspose.CAD for Java?**  
-A: Yes, you can explore the features with a free trial from [here](https://releases.aspose.com/).
+A: Yes, you can explore the features with a free trial from the free trial download page.
 
 **Q: How can I get support or seek assistance with Aspose.CAD for Java?**  
 A: Visit the [Aspose.CAD forum](https://forum.aspose.com/c/cad/19) for community support and discussions.
 
 **Q: Are temporary licenses available for Aspose.CAD for Java?**  
-A: Yes, you can obtain a temporary license [here](https://purchase.aspose.com/temporary-license/).
+A: Yes, you can obtain a temporary license [temporary license page](https://purchase.aspose.com/temporary-license/).
 
 **Q: Where can I find the comprehensive documentation for Aspose.CAD for Java?**  
 A: Refer to the [documentation](https://reference.aspose.com/cad/java/) for detailed information.

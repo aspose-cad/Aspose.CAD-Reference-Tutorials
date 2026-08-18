@@ -1,5 +1,5 @@
 ---
-title: "Set PDF Page Size – dwg to pdf java using Aspose.CAD"
+title: "Export DWG to PDF in Java – Set PDF Page Size with Aspose.CAD"
 linktitle: Export to PDF
 second_title: Aspose.CAD Java API
 description: "Learn how to set PDF page size while converting DWG to PDF with Aspose.CAD for Java, and discover pdf export options to increase PDF resolution."
@@ -44,7 +44,7 @@ Setting the PDF page size is part of the **pdf export options** you configure th
 
 Before diving into the tutorial, make sure you have the following prerequisites in place:
 
-- Aspose.CAD for Java: Ensure you have the Aspose.CAD library installed in your Java environment. You can download it [here](https://releases.aspose.com/cad/java/).
+- Aspose.CAD for Java: Ensure you have the Aspose.CAD library installed in your Java environment. You can **download the Aspose.CAD for Java library**([https://releases.aspose.com/cad/java/](https://releases.aspose.com/cad/java/)).
 
 - Resource Directory: Set up a directory where your CAD files are stored. Replace "Your Document Directory" in the provided code snippet with the actual path.
 
@@ -65,7 +65,7 @@ import com.aspose.cad.imageoptions.PdfOptions;
 //import com.aspose.cad.imageoptions.TypeOfEntities;
 ```
 
-## Step 1: Load CAD File
+## Step 1: load CAD file
 
 Load your CAD file into the Aspose.CAD `Image` object. Replace `"site.dwf"` with your actual CAD file name.
 
@@ -74,7 +74,7 @@ String fileName = (dataDir + "site.dwf");
 Image image = Image.load(fileName);
 ```
 
-## Step 2: Configure PDF Options
+## Step 2: configure PDF options
 
 Set up the PDF export options, including vector rasterization options such as page height, width, and layouts. This is where you **customize pdf output** to match your requirements and can also **increase PDF resolution** if needed.
 
@@ -99,7 +99,7 @@ image.save(outPath, pdfOptions);
 
 Congratulations! You have successfully exported your CAD file to a PDF using Aspose.CAD for Java.
 
-## Common Issues and Solutions
+## Common issues and solutions
 
 | Issue | Why it Happens | How to Fix |
 |-------|----------------|------------|
@@ -107,7 +107,7 @@ Congratulations! You have successfully exported your CAD file to a PDF using Asp
 | **Low‑quality output** | Default rasterization DPI is low | Use `rasterizationOptions.setResolution(300);` to increase DPI and **increase PDF resolution** |
 | **Unsupported CAD format** | The file type is not among Aspose.CAD’s supported list | Convert the file to a supported format (e.g., DWG, DWF, DXF) before loading |
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 ### Q1: Is Aspose.CAD compatible with all CAD file formats?
 
@@ -123,11 +123,11 @@ A3: For any queries or issues, visit the [Aspose.CAD forum](https://forum.aspose
 
 ### Q4: Is there a free trial available?
 
-A4: Yes, you can access a free trial of Aspose.CAD [here](https://releases.aspose.com/).
+A4: Yes, you can **access the Aspose.CAD free trial**([https://releases.aspose.com/](https://releases.aspose.com/)).
 
 ### Q5: How can I obtain a temporary license for Aspose.CAD?
 
-A5: For temporary licensing, visit [this link](https://purchase.aspose.com/temporary-license/).
+A5: For temporary licensing, **obtain a temporary license**([https://purchase.aspose.com/temporary-license/](https://purchase.aspose.com/temporary-license/)).
 
 ## Additional FAQs
 
@@ -140,7 +140,7 @@ A: Yes—wrap the loading and saving logic in a loop, reusing the same `PdfOptio
 **Q: Does the library support password‑protected PDFs?**  
 A: PDF encryption isn’t part of Aspose.CAD; you can post‑process the PDF with Aspose.PDF to add security.
 
-## FAQ – Quick Reference
+## FAQ – quick reference
 
 **Q: How do I set PDF page size for a DWG conversion?**  
 A: Use `rasterizationOptions.setPageWidth(width)` and `rasterizationOptions.setPageHeight(height)` before calling `image.save()`.

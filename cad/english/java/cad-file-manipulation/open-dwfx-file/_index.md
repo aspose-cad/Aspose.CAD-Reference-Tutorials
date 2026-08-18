@@ -1,5 +1,5 @@
 ---
-title: Convert DWFX to PDF with Aspose.CAD for Java
+title: How to Convert DWFX to PDF Using Aspose.CAD for Java
 linktitle: Open DWFX File
 second_title: Aspose.CAD Java API
 description: Learn how to convert DWFX to PDF and save CAD as PDF using Aspose.CAD for Java. Quick guide to open DWFX files and generate PDFs.
@@ -60,7 +60,7 @@ import com.aspose.cad.imageoptions.PdfOptions;
 
 Below is a step‑by‑step breakdown. Each step includes a short explanation followed by the exact code you’ll run.
 
-### Step 1: Load the DWFX File  
+### Step 1: load the DWFX file
 
 ```java
 String SourceDir = Utils.getDataDir_DWFXDrawings();
@@ -72,7 +72,7 @@ Image cadImageDwf = Image.load(filePath);
 
 The `Image.load` method reads the DWFX file into memory, giving us a `CadImage` object ready for rasterization.
 
-### Step 2: Set Rasterization Options  
+### Step 2: set rasterization options
 
 ```java
 CadRasterizationOptions rasterizationOptions = new CadRasterizationOptions();
@@ -82,7 +82,7 @@ rasterizationOptions.setPageHeight(cadImageDwf.getSize().getHeight());
 
 These options define the output page size, ensuring the PDF matches the original drawing dimensions.
 
-### Step 3: Configure PDF Options  
+### Step 3: configure PDF options
 
 ```java
 PdfOptions CADf = new PdfOptions();
@@ -99,7 +99,7 @@ cadImageDwf.save(OutputDir + "OpenDwfxFile_out.pdf", CADf);
 
 Calling `save` writes the rendered image to a PDF file in the output folder.
 
-### Step 5: Verify Success  
+### Step 5: verify success
 
 ```java
 System.out.println("OpenDwfxFile executed successfully");
@@ -107,7 +107,7 @@ System.out.println("OpenDwfxFile executed successfully");
 
 A simple console message confirms that the conversion completed without errors.
 
-## Common Issues and Solutions
+## Common issues and solutions
 
 | Issue | Likely Cause | Solution |
 |-------|--------------|----------|
@@ -115,22 +115,22 @@ A simple console message confirms that the conversion completed without errors.
 | **Out‑of‑memory error** | Very large DWFX file | Increase JVM heap size (`-Xmx2g`) or process the file in smaller sections. |
 | **Missing fonts** | Font not embedded in source DWFX | Install the required fonts on the server or use `CadRasterizationOptions.setFontName` to specify a fallback. |
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 ### Q1: Can I use Aspose.CAD for Java with other CAD file formats?  
 A1: Yes, Aspose.CAD for Java supports a wide range of CAD formats, providing a versatile solution for developers.
 
 ### Q2: Is a free trial available for Aspose.CAD for Java?  
-A2: Yes, you can explore the capabilities of Aspose.CAD for Java with a free trial. Visit [this link](https://releases.aspose.com/) to get started.
+A2: Yes, you can explore the capabilities of Aspose.CAD for Java with a free trial. Visit the [Aspose.CAD for Java releases page](https://releases.aspose.com/) to get started.
 
 ### Q3: How can I get support for Aspose.CAD for Java?  
 A3: Join the Aspose.CAD community on the [support forum](https://forum.aspose.com/c/cad/19) for assistance and collaboration.
 
 ### Q4: Are temporary licenses available for Aspose.CAD for Java?  
-A4: Yes, you can obtain a temporary license for Aspose.CAD for Java. Visit [this link](https://purchase.aspose.com/temporary-license/) for more details.
+A4: Yes, you can obtain a temporary license for Aspose.CAD for Java. Visit the [temporary license purchase page](https://purchase.aspose.com/temporary-license/) for more details.
 
 ### Q5: Where can I find the documentation for Aspose.CAD for Java?  
-A5: The comprehensive documentation is available [here](https://reference.aspose.com/cad/java/).
+A5: The comprehensive documentation is available at the [Aspose.CAD for Java API reference](https://reference.aspose.com/cad/java/).
 
 ---
 
