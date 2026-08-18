@@ -97,14 +97,14 @@ private static void IterateCADNodeEntities(CadBaseEntity obj) {
 
 > **Why recursion?** CAD drawings can contain entities that themselves contain other entities (e.g., an `INSERT` that references a block). Recursion guarantees a deep‑search across the entire hierarchy.
 
-## Common Issues and Solutions
+## Common issues and solutions
 | Issue | Reason | Fix |
 |-------|--------|-----|
 | No results returned | Searching only top‑level entities | Ensure you also iterate block entities (Step 3). |
 | Text appears as garbage | Wrong character encoding | Aspose.CAD handles Unicode automatically; verify the DWG wasn’t corrupted. |
 | Performance drops on huge files | Recursive traversal on millions of entities | Cache block look‑ups or limit search to specific layers if possible. |
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 **Q: Is Aspose.CAD compatible with all versions of AutoCAD DWG files?**  
 A: Yes, Aspose.CAD supports a wide range of DWG versions, from early R14 up to the latest releases.
@@ -113,13 +113,13 @@ A: Yes, Aspose.CAD supports a wide range of DWG versions, from early R14 up to t
 A: Absolutely. Purchase a license from the [Aspose's purchase page](https://purchase.aspose.com/buy) for production use.
 
 **Q: Is there a free trial available for Aspose.CAD for Java?**  
-A: Yes, you can download a free trial from [here](https://releases.aspose.com/).
+A: Yes, you can download a free trial from the [Aspose.CAD Java free trial page](https://releases.aspose.com/).
 
 **Q: How can I get support if I run into problems?**  
 A: The official [Aspose.CAD forum](https://forum.aspose.com/c/cad/19) is the best place to ask technical questions.
 
 **Q: Do temporary licenses work for evaluation?**  
-A: Yes, a temporary license can be obtained from [here](https://purchase.aspose.com/temporary-license/) for testing purposes.
+A: Yes, a temporary license can be obtained from the [temporary license request page](https://purchase.aspose.com/temporary-license/) for testing purposes.
 
 ---
 

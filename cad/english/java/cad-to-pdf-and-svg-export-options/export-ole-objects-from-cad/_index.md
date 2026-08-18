@@ -39,7 +39,7 @@ Saving CAD as PNG means rasterizing vector‑based CAD drawings into a pixel‑b
 Before diving into the tutorial, make sure you have the following prerequisites in place:
 
 - **Java Environment** – Ensure you have a Java development environment set up on your machine.  
-- **Aspose.CAD for Java** – Download and install the Aspose.CAD for Java library. You can find the library at the [download link](https://releases.aspose.com/cad/java/).  
+- **Aspose.CAD for Java** – Download and install the Aspose.CAD for Java library. You can find the library at the [Aspose.CAD for Java download page](https://releases.aspose.com/cad/java/).  
 - **CAD Files** – Prepare the CAD files containing OLE objects that you want to export.
 
 ## Import Namespaces
@@ -58,7 +58,7 @@ Now, let's break down the process of exporting OLE objects from CAD into multipl
 
 ## How to **save CAD as PNG** and export OLE objects
 
-### Step 1: Set Your Document Directory
+### Step 1: set your document directory
 
 ```java
 String dataDir = "Your Document Directory" + "DWGDrawings/";
@@ -66,7 +66,7 @@ String dataDir = "Your Document Directory" + "DWGDrawings/";
 
 Ensure to replace `"Your Document Directory"` with the path to the directory containing your CAD files.
 
-### Step 2: Define CAD File Names
+### Step 2: define CAD file names
 
 ```java
 String[] files = new String[] { "D ZD junior D10m H2m.dwg", "ZD - Senior D6m H2m45.dwg" };
@@ -74,7 +74,7 @@ String[] files = new String[] { "D ZD junior D10m H2m.dwg", "ZD - Senior D6m H2m
 
 Specify the names of the CAD files that you want to process in the `files` array.
 
-### Step 3: Set PNG Export Options
+### Step 3: set PNG export options
 
 ```java
 PngOptions pngOptions = new PngOptions();
@@ -85,7 +85,7 @@ rasterizationOptions.setLayouts(new String[] { "Layout1" });
 
 Configure the PNG export options, including vector rasterization and layout settings. These options are what enable you to **convert CAD to PNG** with the desired quality.
 
-### Step 4: Iterate Through CAD Files
+### Step 4: iterate through CAD files
 
 ```java
 for(String file : files)
@@ -97,7 +97,7 @@ for(String file : files)
 
 Iterate through each specified CAD file, load it using Aspose.CAD, and save the OLE objects as PNG images. This loop demonstrates a simple way to **convert DWG to PNG** in bulk.
 
-## Common Issues and Solutions
+## Common issues and solutions
 
 | Issue | Cause | Solution |
 |-------|-------|----------|
@@ -105,7 +105,7 @@ Iterate through each specified CAD file, load it using Aspose.CAD, and save the 
 | **Missing OLE graphics** | OLE objects are stored in a different layout | Include all relevant layouts in `rasterizationOptions.setLayouts(...)`. |
 | **Out‑of‑memory error on large files** | High DPI settings | Reduce DPI via `rasterizationOptions.setResolution(...)` or process files one at a time. |
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 **Q: Is Aspose.CAD compatible with all CAD file formats?**  
 A: Aspose.CAD supports various CAD formats, including DWG, DXF, and DGN. Refer to the [documentation](https://reference.aspose.com/cad/java/) for the complete list.
@@ -114,7 +114,7 @@ A: Aspose.CAD supports various CAD formats, including DWG, DXF, and DGN. Refer t
 A: Yes, Aspose.CAD provides extensive options for customizing export settings, allowing you to tailor the output to your specific requirements.
 
 **Q: Is there a free trial available for Aspose.CAD?**  
-A: Yes, you can explore the capabilities of Aspose.CAD by obtaining a free trial from [here](https://releases.aspose.com/).
+A: Yes, you can explore the capabilities of Aspose.CAD by obtaining a free trial from the [Aspose.CAD free trial page](https://releases.aspose.com/).
 
 **Q: Where can I get community support for Aspose.CAD?**  
 A: Join the Aspose.CAD community at the [forum](https://forum.aspose.com/c/cad/19) to seek assistance and share your experiences.

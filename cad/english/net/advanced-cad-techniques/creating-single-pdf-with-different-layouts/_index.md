@@ -2,7 +2,7 @@
 title: How to create single pdf with Different Layouts - Aspose.CAD Guide
 linktitle: Creating Single PDF with Different Layouts
 second_title: Aspose.CAD .NET - CAD and BIM File Format
-description: Learn how to create single pdf with different layouts using Aspise.CAD for .NET – convert CAD to PDF, export DWG to PDF, and save CAD as PDF efficiently.
+description: Learn how to create single pdf with different layouts using Aspose.CAD for .NET – convert CAD to PDF, export DWG to PDF, and save CAD as PDF efficiently.
 weight: 13
 url: /net/advanced-cad-techniques/creating-single-pdf-with-different-layouts/
 date: 2026-03-02
@@ -38,7 +38,7 @@ Creating a single PDF means taking one CAD source file that may contain several 
 
 ## Prerequisites
 
-- Aspose.CAD for .NET: Make sure you have Aspose.CAD for .NET installed. You can download it from [here](https://releases.aspose.com/cad/net/).  
+- Aspose.CAD for .NET: Make sure you have Aspose.CAD for .NET installed. You can download it from [Aspose.CAD for .NET download page](https://releases.aspose.com/cad/net/).  
 - Development Environment: Set up a .NET development environment, and have a basic understanding of C# programming.
 
 ## Import Namespaces
@@ -56,7 +56,7 @@ using System.Text;
 
 ## Step‑by‑step guide
 
-### Step 1: Load the CAD Image
+### Step 1: load the CAD image
 
 First, load the source CAD file (for example, a DWG drawing). The `CadImage` class gives you access to all layouts inside the file.
 
@@ -70,7 +70,7 @@ using (CadImage cadImage = (CadImage)Image.Load(MyDir + "City skyway map.dwg"))
 }
 ```
 
-### Step 2: Customize Rasterization Options
+### Step 2: customize rasterization options
 
 Define how each layout should be rasterized. You can set a default page size and then override it for specific layouts using `LayoutPageSizes`.
 
@@ -86,7 +86,7 @@ rasterizationOptions.LayoutPageSizes.Add("8.5 x 11 Plot", new SizeF(1000, 100));
 
 > **Pro tip:** Adjust the DPI (`rasterizationOptions.Resolution`) if you need higher‑resolution output for detailed drawings.
 
-### Step 3: Define PDF Options
+### Step 3: define PDF options
 
 Wrap the rasterization settings inside a `PdfOptions` object. This tells Aspose.CAD to render the CAD data directly into a PDF stream.
 
@@ -112,7 +112,7 @@ After this call, you’ll have a PDF that combines the “ANSI C Plot” and “
 | Low‑quality output | Default DPI is 96 | Set `rasterizationOptions.Resolution = 300` (or higher) before saving. |
 | File not found | Wrong `MyDir` path | Use `Path.Combine` to build platform‑independent paths. |
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 ### Q1: Can I use Aspose.CAD for .NET with other CAD formats?
 
@@ -120,7 +120,7 @@ A1: Yes, Aspose.CAD for .NET supports various CAD formats such as DWG, DXF, DGN,
 
 ### Q2: Is there a free trial available?
 
-A2: Yes, you can explore a free trial [here](https://releases.aspose.com/).
+A2: Yes, you can explore a free trial [Aspose free trial page](https://releases.aspose.com/).
 
 ### Q3: How can I get support for Aspose.CAD for .NET?
 
@@ -128,11 +128,11 @@ A3: Visit the [Aspose.CAD forum](https://forum.aspose.com/c/cad/19) for communit
 
 ### Q4: Where can I find detailed documentation?
 
-A4: Refer to the documentation [here](https://reference.aspose.com/cad/net/).
+A4: Refer to the documentation [Aspose.CAD .NET API reference](https://reference.aspose.com/cad/net/).
 
 ### Q5: Can I purchase a license for Aspose.CAD for .NET?
 
-A5: Yes, you can buy a license [here](https://purchase.aspose.com/buy).
+A5: Yes, you can buy a license [Aspose purchase page](https://purchase.aspose.com/buy).
 
 **Additional Q&A**
 
@@ -146,12 +146,12 @@ A5: Yes, you can buy a license [here](https://purchase.aspose.com/buy).
 
 In this guide we demonstrated how to **create single pdf** files from CAD drawings that contain multiple layouts, using Aspose.CAD for .NET. You now have the building blocks to **convert CAD to PDF**, **export DWG to PDF**, and **save CAD as PDF** in a single, automated workflow. Experiment with different rasterization settings to match your project’s quality requirements, and integrate this code into larger batch‑processing pipelines as needed.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 
 ---
 
@@ -160,3 +160,10 @@ In this guide we demonstrated how to **create single pdf** files from CAD drawin
 **Author:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -1,5 +1,5 @@
 ---
-title: Aspose CAD Documentation: Convert CFF to PDF Format - .NET Tutorial
+title: 'Aspose CAD Documentation: Convert CFF to PDF Format - .NET Tutorial'
 linktitle: Converting CFF to PDF Format
 second_title: Aspose.CAD .NET - CAD and BIM File Format
 description: Explore Aspose CAD documentation for converting CFF to PDF with .NET – learn how to save image as PDF using C# in minutes.
@@ -55,7 +55,7 @@ using System.Linq;
 using System.Text;
 ```
 
-## Step 1: Load CFF File
+## Step 1: load CFF file
 
 First, load the source CFF file into an `Image` object. This step creates an in‑memory representation of the font data that Aspose.CAD can work with.
 
@@ -67,7 +67,7 @@ using (Image image = Image.Load(MyDir + "WineBottle_Die.cf2"))
 }
 ```
 
-## Step 2: Set PDF Conversion Options
+## Step 2: set PDF conversion options
 
 Next, configure the PDF output options. The `PdfOptions` class lets you control page size, resolution, and other PDF‑specific settings.
 
@@ -83,7 +83,7 @@ Finally, call the `Save` method to write the image to a PDF file. This is where 
 image.Save(MyDir + "WineBottle_Die_out.pdf", options);
 ```
 
-## Common Issues and Solutions
+## Common issues and solutions
 - **File not found:** Verify that `MyDir` points to the correct directory and that the file name matches exactly, including case sensitivity.
 - **Unsupported CFF version:** Ensure you are using the latest Aspose.CAD version; older releases may lack support for newer CFF specifications.
 - **License errors:** If you see a licensing warning, apply your temporary or permanent license before calling `Image.Load`.
@@ -94,22 +94,35 @@ With just a few lines of code, you've successfully **converted a CFF file to PDF
 
 Have questions or need further assistance? Don't hesitate to visit the [Aspose.CAD forum](https://forum.aspose.com/c/cad/19) for expert support.
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 **Q1: Is Aspose.CAD compatible with .NET Core?**  
 A1: Yes, Aspose.CAD supports .NET Core, allowing you to integrate its features into cross‑platform applications.
 
 **Q2: Can I try Aspose.CAD before purchasing?**  
-A2: Absolutely! You can get a [free trial here](https://releases.aspose.com/) to explore Aspose.CAD's capabilities.
+A2: Absolutely! You can get a [free trial download](https://releases.aspose.com/) to explore Aspose.CAD's capabilities.
 
 **Q3: Where can I find detailed documentation for Aspose.CAD?**  
 A3: The [documentation](https://reference.aspose.com/cad/net/) provides in‑depth information and examples to guide you through Aspose.CAD.
 
 **Q4: How do I obtain a temporary license for Aspose.CAD?**  
-A4: For a temporary license, visit [this link](https://purchase.aspose.com/temporary-license/) and follow the instructions.
+A4: For a temporary license, visit the [temporary license page](https://purchase.aspose.com/temporary-license/) and follow the instructions.
 
 **Q5: Is there a support community for Aspose.CAD users?**  
 A5: Yes, the [Aspose.CAD forum](https://forum.aspose.com/c/cad/19) is a vibrant community where you can seek help, share knowledge, and connect with other users.
+
+
+
+
+
+
+
+
+---
+
+**Last Updated:** 2026-03-02  
+**Tested With:** Aspose.CAD 24.11 for .NET  
+**Author:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -117,9 +130,3 @@ A5: Yes, the [Aspose.CAD forum](https://forum.aspose.com/c/cad/19) is a vibrant 
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2026-03-02  
-**Tested With:** Aspose.CAD 24.11 for .NET  
-**Author:** Aspose

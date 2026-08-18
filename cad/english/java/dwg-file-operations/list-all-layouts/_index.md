@@ -1,8 +1,8 @@
 ---
-title: Read DWG file Java: List All Layouts in AutoCAD
+title: 'Read DWG file Java: List All Layouts in AutoCAD'
 linktitle: List All Layouts in AutoCAD Drawing with Java
 second_title: Aspose.CAD Java API
-description: Learn how to read DWG file Java using Aspose.CAD: list all layouts in an AutoCAD drawing, extract details, and integrate seamlessly.
+description: 'Learn how to read DWG file Java using Aspose.CAD: list all layouts in an AutoCAD drawing, extract details, and integrate seamlessly.'
 weight: 11
 url: /java/dwg-file-operations/list-all-layouts/
 date: 2026-03-02
@@ -39,8 +39,8 @@ Reading a DWG file in Java means programmatically opening an AutoCAD drawing, ac
 
 Before we dive into the tutorial, make sure you have the following prerequisites in place:
 
-- **Java Development Kit (JDK):** Ensure that you have Java installed on your machine. You can download it [here](https://www.oracle.com/java/technologies/javase-downloads.html).  
-- **Aspose.CAD for Java Library:** Obtain the Aspose.CAD for Java library from the [download link](https://releases.aspose.com/cad/java/).  
+- **Java Development Kit (JDK):** Ensure that you have Java installed on your machine. You can download it from the [Oracle Java SE download page](https://www.oracle.com/java/technologies/javase-downloads.html).  
+- **Aspose.CAD for Java Library:** Obtain the Aspose.CAD for Java library from the [Aspose.CAD for Java download page](https://releases.aspose.com/cad/java/).  
 - **AutoCAD Drawing:** Have an AutoCAD drawing file (DWG or DXF) ready for testing. You can use the provided sample file, `conic_pyramid.dxf`, for this tutorial.
 
 ## Import Packages
@@ -54,7 +54,7 @@ import com.aspose.cad.fileformats.cad.CadLayoutDictionary;
 import com.aspose.cad.fileformats.cad.cadobjects.CadLayout;
 ```
 
-## Step 1: Load the AutoCAD Drawing
+## Step 1: load the autoCAD drawing
 
 To begin, load the AutoCAD drawing file using Aspose.CAD for Java:
 
@@ -65,7 +65,7 @@ String srcFile = dataDir + "conic_pyramid.dxf";
 Image image = Image.load(srcFile);
 ```
 
-## Step 2: Extract Layout Information
+## Step 2: extract layout information
 
 Access the layout information from the loaded AutoCAD drawing:
 
@@ -74,7 +74,7 @@ CadImage cadImage = (CadImage)image;
 CadLayoutDictionary layouts = cadImage.getLayouts();
 ```
 
-## Step 3: Iterate Through Layouts
+## Step 3: iterate through layouts
 
 Iterate through each layout in the AutoCAD drawing and print the layout names:
 
@@ -86,7 +86,7 @@ for (CadLayout layout : layouts.getValues()) {
 
 Repeat these steps, and you’ll successfully **read DWG file Java** to list all layouts in your AutoCAD drawing using Aspose.CAD for Java.
 
-## Common Issues & Troubleshooting
+## Common issues & troubleshooting
 
 | Symptom | Likely Cause | Fix |
 |---------|--------------|-----|
@@ -94,13 +94,13 @@ Repeat these steps, and you’ll successfully **read DWG file Java** to list all
 | No layout names printed | The drawing contains only model space (no paper layouts). | Use a drawing that includes at least one paper space layout. |
 | `Unsupported format` error | Using an older Aspose.CAD version. | Update to the latest Aspose.CAD for Java release. |
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 **Q1: Is Aspose.CAD for Java compatible with the latest AutoCAD versions?**  
 A1: Yes, Aspose.CAD for Java is regularly updated to ensure compatibility with the latest AutoCAD releases.
 
 **Q2: Can I use Aspose.CAD for Java for commercial projects?**  
-A2: Absolutely! Aspose.CAD for Java offers commercial licenses to support your business needs. Visit [here](https://purchase.aspose.com/buy) to explore licensing options.
+A2: Absolutely! Aspose.CAD for Java offers commercial licenses to support your business needs. Visit the [Aspose purchase page](https://purchase.aspose.com/buy) to explore licensing options.
 
 **Q3: Are there any sample drawings available for testing?**  
 A3: Yes, you can find sample drawings in the “DWGDrawings” directory within the Aspose.CAD for Java package.
@@ -109,11 +109,24 @@ A3: Yes, you can find sample drawings in the “DWGDrawings” directory within 
 A4: Join the Aspose.CAD community [forum](https://forum.aspose.com/c/cad/19) to get assistance and connect with other developers.
 
 **Q5: Can I try Aspose.CAD for Java before purchasing?**  
-A5: Certainly! Grab a free trial from [here](https://releases.aspose.com/) and experience the power of Aspose.CAD for Java.
+A5: Certainly! Grab a free trial from the [Aspose free trial download page](https://releases.aspose.com/) and experience the power of Aspose.CAD for Java.
 
 ## Conclusion
 
 Exploring AutoCAD drawings programmatically is now at your fingertips with Aspose.CAD for Java. This tutorial has equipped you with the knowledge to seamlessly integrate the library into your Java applications and **read DWG file Java** to extract layout information. Enhance your CAD manipulation capabilities and stay ahead in your development journey!
+
+
+
+
+
+
+
+
+---
+
+**Last Updated:** 2026-03-02  
+**Tested With:** Aspose.CAD for Java 24.11  
+**Author:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -121,9 +134,3 @@ Exploring AutoCAD drawings programmatically is now at your fingertips with Aspos
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2026-03-02  
-**Tested With:** Aspose.CAD for Java 24.11  
-**Author:** Aspose
