@@ -1,9 +1,9 @@
 ---
-date: 2026-01-02
-description: Ismerje meg, hogyan exportálhatja a DWG-t PDF-be, engedélyezheti a rejtett
-  vonalakat, és konvertálhatja a DWG-t PDF-be az Aspose.CAD for Java segítségével
+date: 2026-03-05
+description: Tanulja meg, hogyan exportálhatja a DWG-t PDF-be, engedélyezheti a rejtett
+  vonalakat, és konvertálhatja a DWG-t PDF-re az Aspose.CAD for Java segítségével
   ebben a lépésről‑lépésre útmutatóban.
-linktitle: Export DWG as PDF with Hidden Lines Using Java
+linktitle: Export DWG as PDF Using Java
 second_title: Aspose.CAD Java API
 title: DWG exportálása PDF-be rejtett vonalakkal – Aspose.CAD for Java
 url: /hu/java/cad-text-and-formatting/support-hidden-lines-in-dwg/
@@ -16,34 +16,40 @@ weight: 11
 
 # DWG exportálása PDF-be rejtett vonalakkal – Aspose.CAD for Java
 
-## Bevezetés
+## Introduction
 
-Ebben az útmutatóban megtanulja, hogyan **exportálja a DWG-t PDF-be** a rejtett vonalak megőrzésével az Aspose.CAD for Java használatával. Akár **DWG-t PDF-re kell konvertálni**, akár egy **dwg to pdf tutorial**‑stílusú útmutatót szeretne létrehozni, vagy egyszerűen **DWG-t PDF-be menteni** rejtett vonal támogatással, lépésről lépésre végigvezetjük. A végére egy kész, használatra kész megoldást kap, amelyet bármely Java projektbe beilleszthet.
+Ebben az útmutatóban megtanulja, hogyan **exportálja a dwg-t pdf-be** a rejtett vonalak megőrzésével az Aspose.CAD for Java segítségével. Akár **DWG‑t PDF‑re szeretne konvertálni**, akár egy **dwg‑t‑pdf‑tutorial**‑stílusú útmutatót szeretne készíteni, vagy egyszerűen csak **DWG‑t PDF‑ként menteni** rejtett vonal támogatással, lépésről lépésre végigvezetjük. A végére egy kész, használatra kész megoldást kap, amelyet bármely Java projektbe beilleszthet.
 
-## Gyors válaszok
-- **Mi a tutorial tartalma?** A rejtett vonalak megjelenítésének engedélyezése a DWG PDF-be exportálásakor az Aspose.CAD for Java segítségével.  
-- **Melyik elsődleges műveletet hajtja végre?** `export dwg as pdf`.  
-- **Szükségem van licencre?** Egy ingyenes próba a teszteléshez megfelelő; a termeléshez kereskedelmi licenc szükséges.  
-- **Mik a előfeltételek?** Java fejlesztői környezet, Aspose.CAD for Java könyvtár, és DWG fájlok.  
-- **Mennyi időt vesz igénybe a megvalósítás?** Körülbelül 10‑15 perc egy alap beállításhoz.
+## Quick Answers
+- **What does this tutorial cover?** Enabling hidden‑line rendering while exporting DWG to PDF with Aspose.CAD for Java.  
+- **Which primary operation is performed?** `export dwg to pdf`.  
+- **Do I need a license?** A free trial works for testing; a commercial license is required for production.  
+- **What are the prerequisites?** Java development environment, Aspose.CAD for Java library, and DWG files.  
+- **How long does implementation take?** About 10‑15 minutes for a basic setup.
 
-## Mi az a „export dwg as pdf”?
-A DWG fájl PDF-be exportálása a vektor‑alapú CAD rajzot hordozható dokumentumformátummá alakítja, miközben megőrzi a rétegeket, vonaltípusokat és az opcionális rejtett vonal megjelenítést. Ez megkönnyíti a CAD tervek megosztását az érintettekkel, akiknek nincs CAD szoftverük.
+## What is “export dwg to pdf”?
 
-## Miért engedélyezzük a rejtett vonalakat exportáláskor?
-A rejtett vonalak tisztább vizuális ábrázolást biztosítanak a komplex 3D modellek 2‑D oldalon, biztosítva, hogy csak a látható élek legyenek hangsúlyosak. Ez javítja az olvashatóságot és gyakran szükséges a mérnöki dokumentációban.
+A DWG fájl PDF‑be exportálása a vektor‑alapú CAD‑rajzot hordozható dokumentumformátummá alakítja, miközben megőrzi a rétegeket, vonaltípusokat és opcionálisan a rejtett‑vonal renderelést. Ez megkönnyíti a CAD‑tervek megosztását olyan érintettekkel, akiknek nincs CAD‑szoftverük.
 
-## Előfeltételek
+## How to Enable Hidden Lines When Exporting DWG to PDF
 
-1. **Aspose.CAD for Java** – töltse le a könyvtárat a hivatalos oldalról [itt](https://releases.aspose.com/cad/java/).  
-2. **DWG fájlok** – rendelkezzen a forrás DWG rajzokkal egy ismert könyvtárban.  
-3. **Java fejlesztői környezet** – JDK 8+ és a kedvenc IDE-je (Eclipse, IntelliJ, stb.).  
+A rejtett vonalak a rasterizálási beállítások layout opciójában szabályozhatók. A **Model** layout kiválasztásával az Aspose.CAD azt mondja a renderelőnek, hogy a rejtett éleket láthatatlannak tekintse, így tiszta 2‑D ábrát kapunk a 3‑D modellről.
+
+## Why enable hidden lines when exporting?
+
+A rejtett vonalak tisztább vizuális ábrázolást biztosítanak összetett 3‑D modellek esetén egy 2‑D oldalon, így csak a látható élek kerülnek kiemelésre. Ez javítja az olvashatóságot, és gyakran szükséges a mérnöki dokumentációban.
+
+## Prerequisites
+
+1. **Aspose.CAD for Java** – töltsd le a könyvtárat a hivatalos oldalról [here](https://releases.aspose.com/cad/java/).  
+2. **DWG files** – tedd a forrás DWG rajzokat egy ismert könyvtárba.  
+3. **Java development environment** – JDK 8+ és a kedvenc IDE‑d (Eclipse, IntelliJ, stb.).  
 
 Most, hogy minden készen áll, merüljünk el a kódban.
 
-## Namespace-ek importálása
+## Import Namespaces
 
-Kezdje a szükséges osztályok importálásával, hogy a CAD képekkel és PDF beállításokkal dolgozhasson.
+Begin by importing the necessary classes so you can work with CAD images and PDF options.
 
 ```java
 import com.aspose.cad.Image;
@@ -55,19 +61,19 @@ import java.util.Arrays;
 import java.util.List;
 ```
 
-## 1. lépés: Projekt beállítása
+## Step 1: Set Up Your Project
 
-Hozzon létre egy Java projektet, és adja hozzá az Aspose.CAD JAR-t a build útvonalához. Ezután határozza meg a DWG fájlokat tartalmazó könyvtárat.
+Create a Java project and add the Aspose.CAD JAR to your build path. Then define the directory that holds your DWG files.
 
 ```java
 String dataDir = "Your Document Directory" + "DWGDrawings/";
 ```
 
-> **Pro tipp:** Használjon abszolút útvonalat, vagy konfiguráljon relatív útvonalat a projekt erőforrások mappája alapján.
+> **Pro tip:** Use an absolute path or configure a relative path based on your project’s resources folder.
 
-## 2. lépés: DWG fájl betöltése
+## Step 2: Load DWG File
 
-Töltse be a forrás DWG fájlt egy `CadImage` objektumba, hogy manipulálni tudja.
+Load the source DWG file into a `CadImage` object so you can manipulate it.
 
 ```java
 String sourceFilePath = dataDir + "Bottom_plate.dwg";
@@ -75,9 +81,9 @@ String outPath = dataDir + "Bottom_plate.pdf";
 CadImage cadImage = (CadImage)Image.load(sourceFilePath);
 ```
 
-## 3. lépés: Rasterizálási beállítások konfigurálása
+## Step 3: Configure Rasterization Options
 
-Válassza ki a beilleszteni kívánt rétegeket, és állítsa be az oldalméretet az eredeti rajzhoz igazodva. Itt engedélyezzük a rejtett vonalak megjelenítését a layout megadásával.
+Select the layers you want to include and set the page size to match the original drawing. This is where we enable hidden‑line rendering by specifying the layout.
 
 ```java
 List<String> list = Arrays.asList("Print","L1_RegMark","L2_RegMark");
@@ -87,9 +93,9 @@ rasterizationOptions.setPageWidth(cadImage.getWidth()) ;
 rasterizationOptions.setLayers(list);
 ```
 
-## 4. lépés: PDF beállítások megadása
+## Step 4: Set PDF Options
 
-Adja meg az Aspose.CAD-nek, hogy rasterizálja a vektor adatokat PDF-be, a „Model” layout használatával, hogy a rejtett vonalak rejtve maradjanak.
+Tell Aspose.CAD to rasterize the vector data into a PDF, using the “Model” layout to keep hidden lines hidden.
 
 ```java
 PdfOptions pdfOptions = new PdfOptions();
@@ -97,44 +103,54 @@ rasterizationOptions.setLayouts(new String[] { "Model" });
 pdfOptions.setVectorRasterizationOptions(rasterizationOptions);
 ```
 
-## 5. lépés: Az eredmény mentése
+## Step 5: Save the Result
 
-Végül exportálja a DWG-t PDF fájlként. A rejtett vonalak a beállított layout szerint lesznek kezelve.
+Finally, export the DWG as a PDF file. The hidden lines will be respected according to the layout you set.
 
 ```java
 cadImage.save(outPath, pdfOptions);
 System.out.println("\nThe DWG file exported successfully to PDF.\nFile saved at " + dataDir);
 ```
 
-> **Gyakori hiba:** Ha elfelejti a layout beállítását `"Model"`-re, akkor minden vonal (beleértve a rejtetteket is) szilárdként jelenik meg a PDF-ben.
+> **Common Pitfall:** Forgetting to set the layout to `"Model"` will cause all lines (including hidden ones) to appear solid in the PDF.
 
-## Következtetés
+## Common Issues and Solutions
 
-Most már rendelkezik egy teljes, termelésre kész módszerrel a **DWG PDF-be exportálásához** rejtett vonal támogatással az Aspose.CAD for Java használatával. Ez a megközelítés integrálható kötegelt feldolgozó eszközökbe, webszolgáltatásokba vagy asztali alkalmazásokba a CAD‑PDF konverzió automatizálásához.
+| Issue | Why it Happens | How to Fix |
+|-------|----------------|------------|
+| PDF shows all lines solid | Layout not set to **Model** | Ensure `rasterizationOptions.setLayouts(new String[] { "Model" });` is called before saving. |
+| Missing layers in output | Incorrect layer names | Verify the layer names in the DWG file and match them exactly in the `list`. |
+| Out‑of‑memory error on large files | Large rasterization size | Reduce page dimensions or process the drawing in chunks if possible. |
 
-## Gyakran Ismételt Kérdések
+## Frequently Asked Questions
 
-### Q1: Használhatom az Aspose.CAD for Java-t más CAD fájlformátumokkal?
-A1: Igen, az Aspose.CAD számos CAD formátumot támogat, például DWG, DXF, DWF és egyebek.
+### Q1: Can I use Aspose.CAD for Java with other CAD file formats?
+A1: Yes, Aspose.CAD supports various CAD formats such as DWG, DXF, DWF, and more.
 
-### Q2: Elérhető ingyenes próba az Aspose.CAD for Java-hoz?
-A2: Igen, az ingyenes próbát [itt](https://releases.aspose.com/) találja.
+### Q2: Is there a free trial available for Aspose.CAD for Java?
+A2: Yes, you can find the free trial [here](https://releases.aspose.com/).
 
-### Q3: Hogyan kaphatok támogatást az Aspose.CAD for Java-hoz?
-A3: Látogassa meg az Aspose.CAD fórumot [itt](https://forum.aspose.com/c/cad/19) a közösségi támogatásért.
+### Q3: How do I get support for Aspose.CAD for Java?
+A3: Visit the Aspose.CAD forum [here](https://forum.aspose.com/c/cad/19) for community support.
 
-### Q4: Hol találhatók részletes dokumentációk az Aspose.CAD for Java-hoz?
-A4: Tekintse meg a dokumentációt [itt](https://reference.aspose.com/cad/java/).
+### Q4: Where can I find detailed documentation for Aspose.CAD for Java?
+A4: Refer to the documentation [here](https://reference.aspose.com/cad/java/).
 
-### Q5: Vásárolhatok ideiglenes licencet az Aspose.CAD for Java-hoz?
-A5: Igen, ideiglenes licencet szerezhet [itt](https://purchase.aspose.com/temporary-license/).
+### Q5: Can I purchase a temporary license for Aspose.CAD for Java?
+A5: Yes, you can obtain a temporary license [here](https://purchase.aspose.com/temporary-license/).
 
-### Q6: Ez a módszer működik a DWG PDF-re konvertálásához fej nélküli szerverkörnyezetben is?
-A6: Teljesen. Mivel a kód csak az Aspose.CAD API-t használja, UI függőségek nélkül fut, így ideális a szerver‑oldali automatizáláshoz.
+### Q6: Does this method also work for converting DWG to PDF in a headless server environment?
+A6: Absolutely. Since the code uses only the Aspose.CAD API, it runs without any UI dependencies, making it ideal for server‑side automation.
 
-**Utolsó frissítés:** 2026-01-02  
-**Tesztelt verzió:** Aspose.CAD for Java 24.12  
-**Szerző:** Aspose  
+## Conclusion
+
+You now have a complete, production‑ready method to **export dwg to pdf** with hidden‑line support using Aspose.CAD for Java. This approach can be integrated into batch processing tools, web services, or desktop applications to automate CAD‑to‑PDF conversion.
+
+---
+
+**Last Updated:** 2026-03-05  
+**Tested With:** Aspose.CAD for Java 24.12  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

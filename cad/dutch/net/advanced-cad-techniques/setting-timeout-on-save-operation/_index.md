@@ -1,33 +1,50 @@
 ---
-title: Time-out instellen bij opslaan - Aspose.CAD Tutorial
-linktitle: Time-out instellen bij opslaan
-second_title: Aspose.CAD .NET - CAD- en BIM-bestandsindeling
-description: Ontdek hoe u CAD-opslagbewerkingen kunt verbeteren met time-outinstellingen met behulp van Aspose.CAD voor .NET. Verhoog de efficiëntie en controle in uw .NET-applicaties.
-weight: 12
+date: 2026-03-05
+description: Leer hoe u een time‑out kunt instellen voor opslaan‑bewerkingen tijdens
+  het converteren van DWG naar PDF met Aspose.CAD voor .NET. Verhoog de efficiëntie
+  en controle in uw .NET‑toepassingen.
+linktitle: Setting Timeout on Save Operation
+second_title: Aspose.CAD .NET - CAD and BIM File Format
+title: Hoe een time-out instellen voor de opslaanbewerking - Aspose.CAD Tutorial
 url: /nl/net/advanced-cad-techniques/setting-timeout-on-save-operation/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Time-out instellen bij opslaan - Aspose.CAD Tutorial
+# Hoe een time‑out instellen voor de opslaan‑bewerking - Aspose.CAD Handleiding
 
-## Invoering
+## Introductie
 
-In de dynamische wereld van computerondersteund ontwerp (CAD) zijn de efficiëntie en flexibiliteit van uw activiteiten vaak afhankelijk van de mogelijkheid om opslagbewerkingen effectief te beheren. In deze tutorial wordt dieper ingegaan op een cruciaal aspect van dit proces: het instellen van een time-out voor opslagbewerkingen met Aspose.CAD voor .NET. Aspose.CAD is een krachtige bibliotheek waarmee ontwikkelaars naadloos kunnen werken met CAD-bestandsindelingen in hun .NET-toepassingen.
+In deze gids leer je **hoe je een time‑out instelt** op CAD‑opslaan‑bewerkingen, een techniek die helpt om langdurige conversies te voorkomen dat ze onresponsieve processen worden. Het beheren van de time‑out is vooral nuttig wanneer je **DWG naar PDF converteert** of **CAD PDF exporteert** in batch‑taken of webservices. Aspose.CAD voor .NET biedt een nette API waarmee je de opslaan‑bewerking kunt controleren terwijl je nog steeds profiteert van de krachtige rasterisatie‑engine.
 
-## Vereisten
+## Snelle antwoorden
+- **Waar controleert de time‑out op?** Het onderbreekt de opslaan-/exportbewerking als deze langer duurt dan de opgegeven periode.  
+- **Welke formaten profiteren het meest?** Het converteren van grote DWG‑bestanden naar PDF of raster‑afbeeldingen waarbij de verwerkingstijd kan variëren.  
+- **Heb ik een licentie nodig?** Een geldige Aspose.CAD‑licentie is vereist voor productiegebruik; een gratis proefversie werkt voor evaluatie.  
+- **Kan ik de duur aanpassen?** Ja—verander eenvoudig de `Thread.Sleep`‑waarde (in milliseconden) om aan je scenario te voldoen.  
+- **Is deze aanpak async‑vriendelijk?** Het voorbeeld gebruikt `Task.Factory.StartNew`, waardoor het eenvoudig te integreren is in async‑werkstromen.
 
-Voordat we aan deze zelfstudie beginnen, moet u ervoor zorgen dat u aan de volgende vereisten voldoet:
+## Wat betekent “hoe een time‑out instellen” in de context van CAD‑opslaan?
+Een time‑out instellen betekent dat je een `InterruptionToken` aan de opslaan‑opties koppelt en een onderbreking triggert na een vooraf gedefinieerde interval. Dit voorkomt dat de bewerking onbeperkt blijft hangen, waardoor je voorspelbare prestaties en beter resource‑beheer krijgt.
 
--  Aspose.CAD voor .NET: Zorg ervoor dat de Aspose.CAD-bibliotheek in uw .NET-project is geïntegreerd. Je kunt het downloaden[hier](https://releases.aspose.com/cad/net/).
+## Waarom Aspose.CAD gebruiken om DWG naar PDF te converteren met een time‑out?
+- **Betrouwbaarheid:** Garandeert dat een uit de hand gelopen conversie je service niet blokkeert.  
+- **Schaalbaarheid:** Laat je veel bestanden parallel verwerken zonder angst dat één bestand de pijplijn blokkeert.  
+- **Kwaliteit:** Behoudt de hoge‑fidelity rasterisatie van Aspose.CAD terwijl er veiligheidscontroles worden toegevoegd.
 
-- Documentmap: Zorg voor een aangewezen map waar uw CAD-documenten worden opgeslagen.
+## Voorvereisten
 
-## Naamruimten importeren
+Voordat we beginnen, zorg ervoor dat je het volgende hebt:
 
-Laten we om te beginnen de benodigde naamruimten in ons project importeren. Deze naamruimten bieden de essentiële klassen en functionaliteiten die nodig zijn voor de time-outfunctie voor opslagbewerkingen.
+- **Aspose.CAD for .NET** – geïntegreerd in je project. Je kunt het downloaden [hier](https://releases.aspose.com/cad/net/).
+- **Document Directory** – een map waar je bron‑DWG‑bestanden en uitvoer‑PDF's zich bevinden.
+
+## Namespaces importeren
+
+Importeer eerst de namespaces die de klassen leveren die we nodig hebben voor rasterisatie, PDF‑opties en het onderbrekingsmechanisme.
 
 ```csharp
 using Aspose.CAD.ImageOptions;
@@ -36,42 +53,52 @@ using System.Threading;
 using System.Threading.Tasks;
 ```
 
-Laten we nu het proces van het instellen van een time-out voor opslagbewerkingen opsplitsen in beheersbare stappen:
+## Hoe een time‑out instellen voor de opslaan‑bewerking
 
-## Stap 1: CAD-tekening laden
+Hieronder vind je een stapsgewijze walkthrough. Elke stap bevat een korte uitleg gevolgd door het originele code‑blok (ongewijzigd).
+
+### Stap 1: CAD‑tekening laden
+
+We laden het bron‑DWG‑bestand uit de aangewezen map. De `Image.Load`‑methode retourneert een `Image`‑object dat de CAD‑tekening vertegenwoordigt.
 
 ```csharp
-// Voorbeeld: CAD-tekening laden
+// Example: Loading CAD Drawing
 string SourceDir = "Your Document Directory";
 string OutputDir = "Your Document Directory";
 
 using (Image cadDrawing = Image.Load(SourceDir + "Drawing11.dwg"))
 {
-    // Code voor volgende stappen wordt hier geplaatst
+    // Code for subsequent steps will be placed here
 }
 ```
 
-## Stap 2: Configureer rasterisatieopties
+### Stap 2: Rasterisatie‑opties configureren
+
+Stel de rasterisatie‑opties in zodat de geëxporteerde PDF overeenkomt met de afmetingen van de originele tekening. Hier beheer je paginabreedte, -hoogte en andere render‑instellingen.
 
 ```csharp
-// Voorbeeld: Rasterisatieopties configureren
+// Example: Configuring Rasterization Options
 var rasterizationOptions = new CadRasterizationOptions();
 rasterizationOptions.PageWidth = cadDrawing.Size.Width;
 rasterizationOptions.PageHeight = cadDrawing.Size.Height;
 ```
 
-## Stap 3: Maak PDF-opties
+### Stap 3: PDF‑opties maken (CAD PDF exporteren)
+
+Maak een `PdfOptions`‑instantie aan en koppel de rasterisatie‑instellingen. Dit object wordt doorgegeven aan de `Save`‑methode om een PDF‑versie van het DWG‑bestand te genereren.
 
 ```csharp
-// Voorbeeld: PDF-opties maken
+// Example: Creating PDF Options
 PdfOptions CADf = new PdfOptions();
 CADf.VectorRasterizationOptions = rasterizationOptions;
 ```
 
-## Stap 4: Implementeer het time-outmechanisme
+### Stap 4: Time‑out‑mechanisme implementeren
+
+We gebruiken `InterruptionTokenSource` om een token te verkrijgen dat de opslaan‑bewerking kan onderbreken. Een achtergrondtaak voert de export uit, terwijl de hoofdthread slaapt voor de gewenste time‑out‑duur (bijv. 10 seconden). Na de slaap roepen we `Interrupt()` aan om de bewerking te annuleren als deze nog draait.
 
 ```csharp
-// Voorbeeld: Implementatie van een time-outmechanisme
+// Example: Implementing Timeout Mechanism
 using (var its = new InterruptionTokenSource())
 {
     CADf.InterruptionToken = its.Token;
@@ -81,45 +108,57 @@ using (var its = new InterruptionTokenSource())
         cadDrawing.Save(OutputDir + "PutTimeoutOnSave_out.pdf", CADf);
     });
 
-    Thread.Sleep(10000); // Stel de gewenste time-outduur in milliseconden in
+    Thread.Sleep(10000); // Set your desired timeout duration in milliseconds
     its.Interrupt();
 
     exportTask.Wait();
 }
 ```
 
-## Stap 5: Voltooien en bevestigen
+### Stap 5: Afronden en bevestigen
+
+Na de export (of onderbreking) schrijf je een bevestigingsbericht naar de console. In een echte applicatie kun je het resultaat loggen of een gebeurtenis activeren.
 
 ```csharp
-// Voorbeeld: finaliseren en bevestigen
+// Example: Finalizing and Confirming
 Console.WriteLine("PutTimeoutOnSave executed successfully");
 ```
 
-## Conclusie
+## Veelvoorkomende problemen en oplossingen
 
-In deze zelfstudie hebben we het proces onderzocht van het instellen van een time-out voor opslagbewerkingen met Aspose.CAD voor .NET. Door deze stappen te volgen, kunt u de controle en efficiëntie van uw CAD-gerelateerde taken verbeteren, waardoor optimale prestaties worden gegarandeerd.
+| Probleem | Oorzaak | Oplossing |
+|----------|---------|-----------|
+| Export blijft oneindig hangen | Geen onderbrekingstoken gekoppeld | Zorg ervoor dat `CADf.InterruptionToken = its.Token;` is ingesteld vóór het starten van de taak. |
+| PDF is leeg of corrupt | Uitvoermap pad onjuist | Controleer of `OutputDir` eindigt op een pad‑scheidingsteken en de bestandsnaam geldig is. |
+| Time‑out te kort, waardoor voortijdige abort wordt veroorzaakt | `Thread.Sleep`‑waarde te laag voor grote bestanden | Verhoog de slaapduur of bereken een adaptieve time‑out op basis van de bestandsgrootte. |
 
 ## Veelgestelde vragen
 
-### V1: Kan ik de time-outduur aanpassen?
+**Q1: Kan ik de time‑out‑duur aanpassen?**  
+A: Zeker. Verander de waarde die aan `Thread.Sleep` wordt doorgegeven (in milliseconden) zodat deze overeenkomt met je prestatie‑verwachtingen.
 
-A1: Zeker! Pas de duur aan in het`Thread.Sleep` verklaring om aan uw specifieke eisen te voldoen.
+**Q2: Zijn er andere opties voor rasterisatie?**  
+A: Ja. `CadRasterizationOptions` biedt eigenschappen zoals `Resolution`, `BackgroundColor` en `DrawType` om de PDF‑output fijn af te stemmen.
 
-### Vraag 2: Zijn er andere opties voor rastering?
+**Q3: Hoe kan ik onderbrekingen in mijn applicatie afhandelen?**  
+A: Gebruik de `InterruptionToken`‑ en `InterruptionTokenSource`‑klassen zoals getoond. Ze bieden een thread‑veilige manier om langdurige bewerkingen af te breken.
 
-A2: Ja, Aspose.CAD biedt een reeks rasteropties om de uitvoer aan uw behoeften aan te passen.
+**Q4: Is Aspose.CAD geschikt voor zowel 2D‑ als 3D‑CAD‑bestanden?**  
+A: Het ondersteunt een breed scala aan 2D‑ en 3D‑formaten, waaronder DWG, DXF, DGN en meer.
 
-### Vraag 3: Hoe kan ik omgaan met onderbrekingen in mijn applicatie?
+**Q5: Waar kan ik meer hulp of community‑ondersteuning vinden?**  
+A: Bezoek het [Aspose.CAD‑forum](https://forum.aspose.com/c/cad/19) voor community‑discussies, voorbeeldcode en tips voor probleemoplossing.
 
- A3: Gebruik de`InterruptionToken` En`InterruptionTokenSource` lessen voor effectief onderbrekingsbeheer.
+## Conclusie
 
-### V4: Is Aspose.CAD geschikt voor zowel 2D- als 3D CAD-bestanden?
+Door de bovenstaande stappen te volgen, weet je nu **hoe je een time‑out instelt** op CAD‑opslaan‑bewerkingen, waardoor je betrouwbaar **DWG naar PDF kunt converteren** of **CAD PDF‑bestanden kunt exporteren** zonder het risico op onresponsieve processen. Integreer dit patroon in batch‑converters, webservices of elke geautomatiseerde pijplijn waar voorspelbaarheid belangrijk is.
 
-A4: Absoluut! Aspose.CAD ondersteunt zowel 2D- als 3D CAD-bestandsindelingen.
+---
 
-### Vraag 5: Waar kan ik verdere hulp of gemeenschapsondersteuning vinden?
+**Last Updated:** 2026-03-05  
+**Tested With:** Aspose.CAD 24.12 for .NET  
+**Author:** Aspose  
 
-A5: Bezoek de[Aspose.CAD-forum](https://forum.aspose.com/c/cad/19) voor gemeenschapsondersteuning en discussies.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

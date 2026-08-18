@@ -1,33 +1,50 @@
 ---
-title: Mengedit Hyperlink di File CAD - Tutorial Aspose.CAD
-linktitle: Mengedit Hyperlink di File CAD
-second_title: Aspose.CAD .NET - Format File CAD dan BIM
-description: Jelajahi Aspose.CAD untuk .NET dan pelajari cara mengedit hyperlink dalam file CAD dengan mudah. Tingkatkan keterampilan manajemen file CAD Anda dengan tutorial komprehensif ini.
-weight: 14
+date: 2026-03-05
+description: Pelajari cara mengubah jalur xref, memperbarui referensi blok, dan mengelola
+  hyperlink CAD menggunakan Aspose.CAD untuk .NET dalam beberapa langkah mudah.
+linktitle: Editing Hyperlinks in CAD Files
+second_title: Aspose.CAD .NET - CAD and BIM File Format
+title: Cara mengubah jalur xref dan mengedit hyperlink dalam File CAD – Tutorial Aspose.CAD
 url: /id/net/advanced-cad-techniques/editing-hyperlinks-in-cad-files/
+weight: 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Mengedit Hyperlink di File CAD - Tutorial Aspose.CAD
+# Mengedit Hyperlink dalam File CAD - Tutorial Aspise.CAD
 
-## Perkenalan
+## Introduction
 
-Selamat datang di tutorial langkah demi langkah kami tentang mengedit hyperlink di file CAD menggunakan Aspose.CAD untuk .NET. Aspose.CAD adalah perpustakaan canggih yang memungkinkan pengembang bekerja dengan file CAD dengan lancar. Dalam tutorial ini, kita akan fokus pada tugas khusus mengedit hyperlink dalam file CAD, mendemonstrasikan cara memodifikasi dan mengelola link secara efisien.
+Selamat datang di panduan langkah‑demi‑langkah kami tentang cara **change xref path** dan mengedit hyperlink dalam file CAD dengan Aspose.CAD untuk .NET. Apakah Anda perlu **update block reference** atau sekadar **manage CAD hyperlinks**, tutorial ini akan memandu Anda melalui proses lengkap, mulai dari memuat file DWG hingga menyimpan perubahan. Pada akhir tutorial, Anda akan memiliki pola yang jelas dan dapat digunakan kembali untuk memastikan dokumen CAD Anda terhubung dengan benar.
 
-## Prasyarat
+## Quick Answers
+- **What does “change xref path” mean?** It updates the external reference (XRef) file path stored in a CAD block.  
+- **Which library handles this?** Aspose.CAD for .NET provides a simple API for editing XRef paths and hyperlinks.  
+- **Do I need a license?** A free trial works for development; a commercial license is required for production.  
+- **Can I use this with .NET Core?** Yes, the library supports .NET Framework and .NET Core/.NET 5+.  
+- **How long does the implementation take?** Typically under 10 minutes for a basic file.
 
-Sebelum masuk ke tutorial, pastikan Anda memiliki prasyarat berikut:
+## What is changing the XRef path?
 
-- Pemahaman dasar tentang pengembangan C# dan .NET.
--  Aspose.CAD untuk .NET diinstal. Anda dapat mengunduhnya[Di Sini](https://releases.aspose.com/cad/net/).
-- Contoh file CAD untuk latihan. Anda dapat menggunakan file "AutoCad_Sample.dwg" yang disediakan.
+Dalam terminologi CAD, **XRef** (external reference) mengacu pada file gambar lain yang dimasukkan sebagai blok. Mengubah XRef path berarti mengarahkan blok ke lokasi file baru, yang penting saat mengatur ulang folder proyek atau memperbarui sumber daya yang terhubung.
 
-## Impor Namespace
+## Why update block reference and manage CAD hyperlinks?
 
-Dalam proyek C# Anda, pastikan untuk menyertakan namespace yang diperlukan untuk bekerja dengan Aspose.CAD:
+- **Maintain consistency** when files are moved across environments.  
+- **Avoid broken links** that can cause errors during rendering or downstream processing.  
+- **Streamline BIM workflows** by programmatically ensuring all references are current.  
+
+## Prerequisites
+
+- Pengetahuan dasar tentang C# dan pengembangan .NET.  
+- Aspose.CAD untuk .NET terpasang – unduh di [here](https://releases.aspose.com/cad/net/).  
+- File CAD contoh (misalnya *AutoCad_Sample.dwg*) untuk percobaan.
+
+## Import Namespaces
+
+Di proyek C# Anda, sertakan namespace yang diperlukan:
 
 ```csharp
 using Aspose.CAD.FileFormats.Cad;
@@ -38,31 +55,31 @@ using System.Linq;
 using System.Text;
 ```
 
-Sekarang, mari kita bagi contoh ini menjadi beberapa langkah.
+Now let’s walk through the implementation step by step.
 
-## Langkah 1: Muat File CAD
+## Step 1: Load the CAD File
 
 ```csharp
-// Jalur ke direktori dokumen.
+// The path to the documents directory.
 string MyDir = "Your Document Directory";
 string dwgPathToFile = MyDir + "AutoCad_Sample.dwg";
 
 using (CadImage cadImage = (CadImage)Image.Load(dwgPathToFile))
 {
-    // Kode Anda untuk mengedit hyperlink akan ditempatkan di sini.
+    // Your code for editing hyperlinks will go here.
 }
 ```
 
-## Langkah 2: Iterasi Melalui Entitas
+## Step 2: Iterate Through Entities
 
 ```csharp
 foreach (CadBaseEntity entity in cadImage.Entities)
 {
-    // Kode Anda untuk menangani setiap entitas akan ditempatkan di sini.
+    // Your code for handling each entity will go here.
 }
 ```
 
-## Langkah 3: Edit Sisipkan Objek
+## Step 3: Edit Insert Objects – Change XRef Path
 
 ```csharp
 if (entity is CadInsertObject)
@@ -70,45 +87,80 @@ if (entity is CadInsertObject)
     CadBlockEntity block = cadImage.BlockEntities[((CadInsertObject)entity).Name];
     if (!string.IsNullOrEmpty(block.XRefPathName.Value))
     {
+        // **Primary keyword usage:** change xref path
         block.XRefPathName.Value = "new file reference.dwg";
     }
 }
 ```
 
-## Langkah 4: Ubah Hyperlink
+*Here we **update block reference** by assigning a new XRef file name. This is the core of changing the XRef path.*
+
+## Step 4: Modify Hyperlinks – Manage CAD Hyperlinks
 
 ```csharp
-if (entity.Hyperlink == "https://produk.aspose.com")
+if (entity.Hyperlink == "https://products.aspose.com")
 {
+    // **Secondary keyword usage:** manage cad hyperlinks
     entity.Hyperlink = "https://www.aspose.com";
 }
 ```
 
-## Kesimpulan
+*This snippet demonstrates how to **update CAD links** (hyperlinks) to point to the correct web address.*
 
-Selamat! Anda telah berhasil mempelajari cara mengedit hyperlink di file CAD menggunakan Aspose.CAD untuk .NET. Tutorial ini mencakup langkah-langkah penting, mulai dari memuat file CAD hingga memodifikasi objek sisipan dan hyperlink. Aspose.CAD memberikan solusi tangguh untuk mengelola file CAD secara terprogram.
+## Common Issues and Solutions
 
-## FAQ
+| Masalah | Penyebab | Solusi |
+|-------|-------|-----|
+| XRef path tidak terupdate | Blok bukan `CadInsertObject` | Verifikasi tipe entitas sebelum casting. |
+| Hyperlink tidak berubah | Properti Hyperlink bernilai null atau case berbeda | Gunakan `StringComparison.OrdinalIgnoreCase` saat membandingkan. |
+| File gagal dimuat | Lisensi Aspose.CAD tidak ada di produksi | Terapkan lisensi yang valid sebelum memuat gambar. |
 
-### Q1: Apakah Aspose.CAD kompatibel dengan format file CAD lainnya?
+## Conclusion
 
-A1: Ya, Aspose.CAD mendukung berbagai format CAD, termasuk DWG, DXF, DGN, dan banyak lagi.
+Anda kini telah mempelajari cara **change xref path**, **update block reference**, dan **manage CAD hyperlinks** menggunakan Aspose.CAD untuk .NET. Kemampuan ini memungkinkan Anda menjaga proyek CAD besar tetap terorganisir dan bebas dari referensi yang rusak, meningkatkan keandalan dalam pipeline otomatis.
 
-### Q2: Dapatkah saya mencoba Aspose.CAD sebelum membeli?
+## FAQ's
 
- A2: Tentu saja! Anda dapat mengakses uji coba gratis[Di Sini](https://releases.aspose.com/).
+### Q1: Is Aspose.CAD compatible with other CAD file formats?
 
-### Q3: Di mana saya dapat menemukan dokumentasi terperinci untuk Aspose.CAD?
+A1: Yes, Aspose.CAD supports various CAD formats, including DWG, DXF, DGN, and more.
 
- A3: Lihat dokumentasi[Di Sini](https://reference.aspose.com/cad/net/).
+### Q2: Can I try Aspose.CAD before purchasing?
 
-### Q4: Bagaimana cara mendapatkan lisensi sementara untuk Aspose.CAD?
+A2: Absolutely! You can access a free trial [here](https://releases.aspose.com/).
 
- A4: Dapatkan lisensi sementara[Di Sini](https://purchase.aspose.com/temporary-license/).
+### Q3: Where can I find detailed documentation for Aspose.CAD?
 
-### Q5: Butuh bantuan atau punya pertanyaan?
+A3: Refer to the documentation [here](https://reference.aspose.com/cad/net/).
 
- A5: Kunjungi forum dukungan kami[Di Sini](https://forum.aspose.com/c/cad/19).
+### Q4: How do I get a temporary license for Aspose.CAD?
+
+A4: Obtain a temporary license [here](https://purchase.aspose.com/temporary-license/).
+
+### Q5: Need assistance or have questions?
+
+A5: Visit our support forum [here](https://forum.aspose.com/c/cad/19).
+
+## Additional Frequently Asked Questions
+
+**Q: Can I programmatically change multiple XRef paths in one pass?**  
+A: Yes, iterate through all `CadInsertObject` entities and set `XRefPathName.Value` as needed.
+
+**Q: Does changing the XRef path affect the visual appearance of the drawing?**  
+A: The reference updates, but the drawing will display the new external file when opened in a CAD viewer.
+
+**Q: Is there a way to list all current hyperlinks in a CAD file?**  
+A: Loop through `cadImage.Entities` and collect `entity.Hyperlink` values that are not null or empty.
+
+**Q: Will this approach work with large DWG files (hundreds of MB)?**  
+A: Aspose.CAD is optimized for performance, but ensure sufficient memory and consider processing in chunks if needed.
+
+---
+
+**Last Updated:** 2026-03-05  
+**Tested With:** Aspose.CAD 24.12 for .NET  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -1,33 +1,53 @@
 ---
-title: Đặt thời gian chờ khi lưu thao tác - Hướng dẫn Aspose.CAD
-linktitle: Đặt thời gian chờ khi lưu thao tác
-second_title: Aspose.CAD .NET - Định dạng tệp CAD và BIM
-description: Khám phá cách nâng cao hoạt động lưu CAD bằng cài đặt thời gian chờ bằng Aspose.CAD cho .NET. Tăng cường hiệu quả và khả năng kiểm soát trong các ứng dụng .NET của bạn.
-weight: 12
+date: 2026-03-05
+description: Tìm hiểu cách đặt thời gian chờ cho các thao tác lưu khi chuyển đổi DWG
+  sang PDF bằng Aspose.CAD cho .NET. Tăng cường hiệu suất và kiểm soát trong các ứng
+  dụng .NET của bạn.
+linktitle: Setting Timeout on Save Operation
+second_title: Aspose.CAD .NET - CAD and BIM File Format
+title: Cách Đặt Thời Gian Hết Hạn cho Hoạt Động Lưu - Hướng Dẫn Aspose.CAD
 url: /vi/net/advanced-cad-techniques/setting-timeout-on-save-operation/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Đặt thời gian chờ khi lưu thao tác - Hướng dẫn Aspose.CAD
+# Cách Đặt Thời Gian Chờ cho Hoạt Động Lưu - Hướng Dẫn Aspose.CAD
 
-## Giới thiệu
+## Introduction
 
-Trong lĩnh vực năng động của thiết kế có sự hỗ trợ của máy tính (CAD), hiệu quả và tính linh hoạt trong các hoạt động của bạn thường phụ thuộc vào khả năng quản lý các hoạt động lưu một cách hiệu quả. Hướng dẫn này sẽ đi sâu vào một khía cạnh quan trọng của quy trình này: đặt thời gian chờ cho các thao tác lưu bằng Aspose.CAD cho .NET. Aspose.CAD là một thư viện mạnh mẽ cho phép các nhà phát triển làm việc liền mạch với các định dạng tệp CAD trong các ứng dụng .NET của họ.
+Trong hướng dẫn này, bạn sẽ học **cách đặt thời gian chờ** cho các hoạt động lưu CAD, một kỹ thuật giúp bạn ngăn các quá trình chuyển đổi kéo dài trở thành không phản hồi. Quản lý thời gian chờ đặc biệt hữu ích khi bạn **chuyển đổi DWG sang PDF** hoặc **xuất file CAD PDF** trong các công việc batch hoặc dịch vụ web. Aspose.CAD cho .NET cung cấp một API sạch sẽ cho phép bạn kiểm soát hoạt động lưu đồng thời vẫn tận dụng động cơ rasterization mạnh mẽ của nó.
 
-## Điều kiện tiên quyết
+## Quick Answers
+- **Thời gian chờ kiểm soát gì?** Nó sẽ hủy bỏ hoạt động lưu/ xuất nếu chạy lâu hơn khoảng thời gian đã chỉ định.  
+- **Định dạng nào hưởng lợi nhất?** Chuyển đổi các file DWG lớn sang PDF hoặc hình raster, nơi thời gian xử lý có thể thay đổi.  
+- **Tôi có cần giấy phép không?** Cần có giấy phép Aspose.CAD hợp lệ cho môi trường sản xuất; bản dùng thử miễn phí đủ cho việc đánh giá.  
+- **Tôi có thể tùy chỉnh thời lượng không?** Có — chỉ cần thay đổi giá trị `Thread.Sleep` (theo mili giây) cho phù hợp với kịch bản của bạn.  
+- **Cách tiếp cận này có thân thiện với async không?** Ví dụ sử dụng `Task.Factory.StartNew`, giúp dễ dàng tích hợp vào quy trình async.
 
-Trước khi chúng ta bắt tay vào hướng dẫn này, hãy đảm bảo bạn có sẵn các điều kiện tiên quyết sau:
+## What is “how to set timeout” in the context of CAD saving?
 
--  Aspose.CAD cho .NET: Đảm bảo bạn đã tích hợp thư viện Aspose.CAD vào dự án .NET của mình. Bạn có thể tải nó xuống[đây](https://releases.aspose.com/cad/net/).
+Việc “đặt thời gian chờ” trong ngữ cảnh lưu CAD có nghĩa là gì?  
+Đặt thời gian chờ có nghĩa là gắn một `InterruptionToken` vào các tùy chọn lưu và kích hoạt ngắt sau một khoảng thời gian định trước. Điều này ngăn hoạt động bị treo vô hạn, mang lại hiệu năng dự đoán được và quản lý tài nguyên tốt hơn.
 
-- Thư mục tài liệu: Có một thư mục được chỉ định để lưu trữ tài liệu CAD của bạn.
+## Why use Aspose.CAD to convert DWG to PDF with a timeout?
 
-## Nhập không gian tên
+- **Độ tin cậy:** Đảm bảo một quá trình chuyển đổi chạy quá thời gian sẽ không làm nghẽn dịch vụ của bạn.  
+- **Khả năng mở rộng:** Cho phép xử lý nhiều file đồng thời mà không lo một file duy nhất làm chậm pipeline.  
+- **Chất lượng:** Giữ nguyên rasterization độ chính xác cao của Aspose.CAD đồng thời bổ sung các biện pháp an toàn.
 
-Để bắt đầu, hãy nhập các không gian tên cần thiết vào dự án của chúng ta. Các không gian tên này cung cấp các lớp và chức năng thiết yếu cần thiết cho tính năng hết thời gian lưu thao tác.
+## Prerequisites
+
+Trước khi bắt đầu, hãy chắc chắn bạn có:
+
+- **Aspose.CAD cho .NET** – được tích hợp vào dự án của bạn. Bạn có thể tải xuống [tại đây](https://releases.aspose.com/cad/net/).
+- **Thư mục tài liệu** – một thư mục nơi lưu trữ các file DWG nguồn và các file PDF đầu ra.
+
+## Import Namespaces
+
+Đầu tiên, nhập các namespace cung cấp các lớp cần thiết cho rasterization, tùy chọn PDF và cơ chế ngắt.
 
 ```csharp
 using Aspose.CAD.ImageOptions;
@@ -36,42 +56,60 @@ using System.Threading;
 using System.Threading.Tasks;
 ```
 
-Bây giờ, hãy chia nhỏ quy trình đặt thời gian chờ cho các thao tác lưu thành các bước có thể quản lý được:
+## How to Set Timeout on Save Operation
 
-## Bước 1: Tải bản vẽ CAD
+Dưới đây là hướng dẫn từng bước. Mỗi bước bao gồm một giải thích ngắn gọn và sau đó là khối mã gốc (không thay đổi).
+
+### Step 1: Load CAD Drawing
+
+**Bước 1: Tải Bản Vẽ CAD**
+
+Chúng ta tải file DWG nguồn từ thư mục đã chỉ định. Phương thức `Image.Load` trả về một đối tượng `Image` đại diện cho bản vẽ CAD.
 
 ```csharp
-// Ví dụ: Đang tải bản vẽ CAD
+// Example: Loading CAD Drawing
 string SourceDir = "Your Document Directory";
 string OutputDir = "Your Document Directory";
 
 using (Image cadDrawing = Image.Load(SourceDir + "Drawing11.dwg"))
 {
-    // Mã cho các bước tiếp theo sẽ được đặt ở đây
+    // Code for subsequent steps will be placed here
 }
 ```
 
-## Bước 2: Định cấu hình tùy chọn Rasterization
+### Step 2: Configure Rasterization Options
+
+**Bước 2: Cấu Hình Tùy Chọn Rasterization**
+
+Đặt các tùy chọn rasterization sao cho PDF xuất ra khớp với kích thước bản vẽ gốc. Đây là nơi bạn kiểm soát chiều rộng, chiều cao trang và các thiết lập render khác.
 
 ```csharp
-// Ví dụ: Định cấu hình tùy chọn Rasterization
+// Example: Configuring Rasterization Options
 var rasterizationOptions = new CadRasterizationOptions();
 rasterizationOptions.PageWidth = cadDrawing.Size.Width;
 rasterizationOptions.PageHeight = cadDrawing.Size.Height;
 ```
 
-## Bước 3: Tạo tùy chọn PDF
+### Step 3: Create PDF Options (Export CAD PDF)
+
+**Bước 3: Tạo Tùy Chọn PDF (Xuất CAD PDF)**
+
+Tạo một thể hiện `PdfOptions` và gắn các cài đặt rasterization. Đối tượng này sẽ được truyền vào phương thức `Save` để tạo phiên bản PDF của file DWG.
 
 ```csharp
-// Ví dụ: Tạo tùy chọn PDF
+// Example: Creating PDF Options
 PdfOptions CADf = new PdfOptions();
 CADf.VectorRasterizationOptions = rasterizationOptions;
 ```
 
-## Bước 4: Thực hiện cơ chế hết thời gian
+### Step 4: Implement Timeout Mechanism
+
+**Bước 4: Triển Khai Cơ Chế Thời Gian Chờ**
+
+Chúng ta sử dụng `InterruptionTokenSource` để lấy một token có thể ngắt hoạt động lưu. Một task nền thực hiện việc xuất, trong khi luồng chính ngủ trong khoảng thời gian chờ mong muốn (ví dụ, 10 giây). Sau thời gian ngủ, chúng ta gọi `Interrupt()` để hủy thao tác nếu nó vẫn đang chạy.
 
 ```csharp
-// Ví dụ: Triển khai Cơ chế hết thời gian
+// Example: Implementing Timeout Mechanism
 using (var its = new InterruptionTokenSource())
 {
     CADf.InterruptionToken = its.Token;
@@ -81,45 +119,59 @@ using (var its = new InterruptionTokenSource())
         cadDrawing.Save(OutputDir + "PutTimeoutOnSave_out.pdf", CADf);
     });
 
-    Thread.Sleep(10000); // Đặt thời gian chờ mong muốn của bạn tính bằng mili giây
+    Thread.Sleep(10000); // Set your desired timeout duration in milliseconds
     its.Interrupt();
 
     exportTask.Wait();
 }
 ```
 
-## Bước 5: Hoàn thiện và xác nhận
+### Step 5: Finalize and Confirm
+
+**Bước 5: Hoàn Tất và Xác Nhận**
+
+Sau khi xuất (hoặc ngắt), ghi một thông báo xác nhận lên console. Trong một ứng dụng thực tế, bạn có thể ghi log kết quả hoặc phát sinh một sự kiện.
 
 ```csharp
-// Ví dụ: Hoàn thiện và xác nhận
+// Example: Finalizing and Confirming
 Console.WriteLine("PutTimeoutOnSave executed successfully");
 ```
 
-## Phần kết luận
+## Common Issues and Solutions
 
-Trong hướng dẫn này, chúng ta đã khám phá quy trình thiết lập thời gian chờ cho các thao tác lưu bằng Aspose.CAD cho .NET. Bằng cách làm theo các bước này, bạn có thể nâng cao khả năng kiểm soát và hiệu quả của các tác vụ liên quan đến CAD, đảm bảo hiệu suất tối ưu.
+| Vấn đề | Nguyên nhân | Giải pháp |
+|-------|------------|-----------|
+| Xuất bị treo vô thời hạn | Không có token ngắt được gắn | Đảm bảo `CADf.InterruptionToken = its.Token;` được thiết lập trước khi bắt đầu task. |
+| PDF rỗng hoặc bị hỏng | Đường dẫn thư mục đầu ra không đúng | Kiểm tra `OutputDir` kết thúc bằng dấu phân tách đường dẫn và tên file hợp lệ. |
+| Thời gian chờ quá ngắn, gây hủy sớm | Giá trị `Thread.Sleep` quá thấp đối với file lớn | Tăng thời gian ngủ hoặc tính toán thời gian chờ thích ứng dựa trên kích thước file. |
 
-## Câu hỏi thường gặp
+## Frequently Asked Questions
 
-### Câu hỏi 1: Tôi có thể tùy chỉnh thời gian chờ không?
+**Q1: Tôi có thể tùy chỉnh thời lượng thời gian chờ không?**  
+A: Chắc chắn. Thay đổi giá trị truyền vào `Thread.Sleep` (theo mili giây) để phù hợp với mong đợi hiệu năng của bạn.
 
-A1: Chắc chắn rồi! Điều chỉnh thời lượng trong`Thread.Sleep` tuyên bố để đáp ứng yêu cầu cụ thể của bạn.
+**Q2: Có các tùy chọn khác cho rasterization không?**  
+A: Có. `CadRasterizationOptions` cung cấp các thuộc tính như `Resolution`, `BackgroundColor` và `DrawType` để tinh chỉnh đầu ra PDF.
 
-### Câu hỏi 2: Có các lựa chọn khác cho việc rasterization không?
+**Q3: Làm sao tôi có thể xử lý các lần ngắt trong ứng dụng?**  
+A: Sử dụng các lớp `InterruptionToken` và `InterruptionTokenSource` như đã minh họa. Chúng cung cấp cách an toàn đa luồng để hủy các thao tác chạy lâu.
 
-Câu trả lời 2: Có, Aspose.CAD cung cấp một loạt các tùy chọn tạo điểm ảnh để điều chỉnh đầu ra theo nhu cầu của bạn.
+**Q4: Aspose.CAD có phù hợp cho cả file CAD 2D và 3D không?**  
+A: Nó hỗ trợ một loạt các định dạng 2D và 3D, bao gồm DWG, DXF, DGN và nhiều hơn nữa.
 
-### Câu hỏi 3: Làm cách nào tôi có thể xử lý tình trạng gián đoạn trong đơn đăng ký của mình?
+**Q5: Tôi có thể tìm trợ giúp hoặc hỗ trợ cộng đồng ở đâu?**  
+A: Truy cập [diễn đàn Aspose.CAD](https://forum.aspose.com/c/cad/19) để thảo luận cộng đồng, mẫu code và các mẹo khắc phục sự cố.
 
- A3: Sử dụng`InterruptionToken` Và`InterruptionTokenSource` các lớp học để quản lý gián đoạn hiệu quả.
+## Conclusion
 
-### Câu hỏi 4: Aspose.CAD có phù hợp với cả tệp CAD 2D và 3D không?
+Bằng cách thực hiện các bước trên, bạn đã biết **cách đặt thời gian chờ** cho các hoạt động lưu CAD, cho phép bạn một cách đáng tin cậy **chuyển đổi DWG sang PDF** hoặc **xuất CAD PDF** mà không lo các quá trình không phản hồi. Áp dụng mẫu này vào các bộ chuyển đổi batch, dịch vụ web hoặc bất kỳ pipeline tự động nào mà tính dự đoán là quan trọng.
 
-A4: Chắc chắn rồi! Aspose.CAD hỗ trợ cả định dạng tệp CAD 2D và 3D.
+---
 
-### Câu hỏi 5: Tôi có thể tìm thêm sự hỗ trợ hoặc hỗ trợ của cộng đồng ở đâu?
+**Cập nhật lần cuối:** 2026-03-05  
+**Kiểm tra với:** Aspose.CAD 24.12 cho .NET  
+**Tác giả:** Aspose  
 
-A5: Tham quan[Diễn đàn Aspose.CAD](https://forum.aspose.com/c/cad/19) để được cộng đồng hỗ trợ và thảo luận.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
