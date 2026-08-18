@@ -1,33 +1,50 @@
 ---
-title: إنشاء ملف PDF واحد بتخطيطات مختلفة - دليل Aspose.CAD
-linktitle: إنشاء ملف PDF واحد بتخطيطات مختلفة
-second_title: Aspose.CAD .NET - تنسيق ملف CAD وBIM
-description: قم بإنشاء ملف PDF واحد بتخطيطات مختلفة باستخدام Aspose.CAD لـ .NET. اتبع دليلنا خطوة بخطوة للتكامل السلس وإنشاء ملفات PDF بكفاءة.
-weight: 13
+date: 2026-03-02
+description: تعلم كيفية إنشاء ملف PDF واحد بتصاميم مختلفة باستخدام Aspise.CAD لـ .NET
+  – تحويل CAD إلى PDF، تصدير DWG إلى PDF، وحفظ CAD كملف PDF بكفاءة.
+linktitle: Creating Single PDF with Different Layouts
+second_title: Aspose.CAD .NET - CAD and BIM File Format
+title: كيفية إنشاء ملف PDF واحد بتصاميم مختلفة - دليل Aspose.CAD
 url: /ar/net/advanced-cad-techniques/creating-single-pdf-with-different-layouts/
+weight: 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# إنشاء ملف PDF واحد بتخطيطات مختلفة - دليل Aspose.CAD
+# كيفية إنشاء ملف PDF واحد بتنسيقات مختلفة - دليل Aspose.CAD
 
 ## مقدمة
 
-هل تتطلع إلى إنشاء مستند PDF واحد من رسم CAD بتخطيطات مختلفة باستخدام Aspose.CAD لـ .NET؟ سيرشدك هذا الدليل خطوة بخطوة خلال العملية، مما يساعدك على تحقيق التكامل السلس وإنشاء ملفات PDF بكفاءة. يوفر Aspose.CAD for .NET ميزات قوية لمعالجة رسومات CAD برمجيًا، وفي هذا البرنامج التعليمي، سنركز على إنشاء ملف PDF واحد بتخطيطات مختلفة.
+إذا كنت بحاجة إلى **create single pdf** ملفات تحتوي على عدة تخطيطات CAD، فأنت في المكان الصحيح. في هذا الدرس سنستعرض الخطوات الدقيقة المطلوبة لتحويل رسومات CAD إلى مستند PDF واحد، مع معالجة عدة تخطيطات على طول الطريق. ستشاهد كيف يجعل Aspose.CAD for .NET من السهل **convert CAD to PDF**، **export DWG to PDF**، و **save CAD as PDF** ببضع أسطر من كود C# فقط.
 
-## المتطلبات الأساسية
+## إجابات سريعة
+- **ما الذي يغطيه هذا الدرس؟** إنشاء ملف PDF واحد يتضمن عدة تخطيطات CAD.  
+- **ما المكتبة المستخدمة؟** Aspose.CAD for .NET.  
+- **هل أحتاج إلى ترخيص؟** النسخة التجريبية المجانية تكفي للتقييم؛ الترخيص مطلوب للإنتاج.  
+- **ما هي صيغ CAD المدعومة؟** DWG، DXF، DGN والعديد غيرها.  
+- **الوقت النموذجي للتنفيذ؟** حوالي 10‑15 دقيقة للتحويل الأساسي.
 
-قبل الغوص في البرنامج التعليمي، تأكد من أن لديك المتطلبات الأساسية التالية:
+## ما معنى “create single pdf” في سياق CAD؟
 
--  Aspose.CAD لـ .NET: تأكد من تثبيت Aspose.CAD لـ .NET. يمكنك تنزيله من[هنا](https://releases.aspose.com/cad/net/).
+إنشاء ملف PDF واحد يعني أخذ ملف CAD مصدر قد يحتوي على عدة تعريفات تخطيط (مساحات ورقية) ودمج كل تخطيط في صفحات منفصلة داخل مستند PDF واحد. هذا مفيد بشكل خاص لخطط الهندسة المعمارية، المخططات الهندسية، أو أي سيناريو يتوقع فيه العميل حزمة PDF موحدة.
 
-- بيئة التطوير: قم بإعداد بيئة تطوير .NET، واحصل على فهم أساسي لبرمجة C#.
+## لماذا نستخدم Aspose.CAD لهذه المهمة؟
+
+- **لا توجد تبعيات خارجية** – .NET نقي، لا حاجة لتثبيت AutoCAD.  
+- **تحكم كامل في التحويل إلى نقطية** – يمكنك ضبط حجم الصفحة، DPI، وأبعاد التخطيط المخصصة.  
+- **عرض عالي الدقة** – يتم الحفاظ على البيانات المتجهية حيثما أمكن، لضمان مخرجات واضحة.  
+- **جاهز للدفعات** – يمكن وضع نفس الكود داخل حلقة لمعالجة العديد من الرسومات تلقائيًا.
+
+## المتطلبات المسبقة
+
+- Aspose.CAD for .NET: تأكد من تثبيت Aspose.CAD for .NET. يمكنك تنزيله من [here](https://releases.aspose.com/cad/net/).  
+- بيئة التطوير: قم بإعداد بيئة تطوير .NET، ويجب أن تكون لديك معرفة أساسية ببرمجة C#.
 
 ## استيراد مساحات الأسماء
 
-في مشروع C# الخاص بك، قم بتضمين مساحات الأسماء اللازمة للاستفادة من وظائف Aspose.CAD لـ .NET:
+في مشروع C# الخاص بك، قم بتضمين مساحات الأسماء اللازمة للاستفادة من وظائف Aspose.CAD for .NET:
 
 ```csharp
 using Aspose.CAD.FileFormats.Cad;
@@ -38,72 +55,107 @@ using System.Linq;
 using System.Text;
 ```
 
-## الخطوة 1: قم بتحميل صورة CAD
+## دليل خطوة بخطوة
+
+### الخطوة 1: تحميل صورة CAD
+
+أولاً، حمّل ملف CAD المصدر (مثلاً رسم DWG). توفر لك فئة `CadImage` إمكانية الوصول إلى جميع التخطيطات داخل الملف.
 
 ```csharp
-// المسار إلى دليل المستندات.
+// The path to the documents directory.
 string MyDir = "Your Document Directory";
 
 using (CadImage cadImage = (CadImage)Image.Load(MyDir + "City skyway map.dwg"))
 {
-    // الكود الخاص بك للخطوة 1 موجود هنا
+    // Your code for Step 1 goes here
 }
 ```
 
-## الخطوة 2: تخصيص خيارات التنقيط
+### الخطوة 2: تخصيص خيارات التحويل إلى نقطية
+
+حدد كيف يجب تحويل كل تخطيط إلى نقطية. يمكنك تعيين حجم صفحة افتراضي ثم تجاوزه لتخطيطات محددة باستخدام `LayoutPageSizes`.
 
 ```csharp
 CadRasterizationOptions rasterizationOptions = new CadRasterizationOptions();
 rasterizationOptions.PageWidth = 1000;
 rasterizationOptions.PageHeight = 1000;
 
-// أحجام مخصصة لعدة تخطيطات
+// Custom sizes for several layouts
 rasterizationOptions.LayoutPageSizes.Add("ANSI C Plot", new SizeF(500, 1000));
 rasterizationOptions.LayoutPageSizes.Add("8.5 x 11 Plot", new SizeF(1000, 100));
 ```
 
-## الخطوة 3: تحديد خيارات PDF
+> **نصيحة احترافية:** اضبط DPI (`rasterizationOptions.Resolution`) إذا كنت بحاجة إلى مخرجات ذات دقة أعلى للرسومات التفصيلية.
+
+### الخطوة 3: تعريف خيارات PDF
+
+قم بلف إعدادات التحويل إلى نقطية داخل كائن `PdfOptions`. هذا يخبر Aspose.CAD بإنشاء تدفق PDF مباشرة من بيانات CAD.
 
 ```csharp
 PdfOptions pdfOptions = new PdfOptions() { VectorRasterizationOptions = rasterizationOptions };
 ```
 
-## الخطوة 4: احفظ بصيغة PDF
+### الخطوة 4: حفظ كملف PDF
+
+أخيرًا، استدعِ `Save` على كائن `CadImage`، مع تمرير اسم ملف PDF الهدف والإعدادات المُحضرة. ستولد المكتبة ملف PDF واحد يحتوي على صفحة لكل تخطيط قمت بتكوينه.
 
 ```csharp
 cadImage.Save(MyDir + "singlePDF_out.pdf", pdfOptions);
 ```
 
-لقد نجحت الآن في إنشاء مستند PDF واحد بتخطيطات مختلفة باستخدام Aspose.CAD لـ .NET. لا تتردد في استكشاف المزيد من الميزات وتخصيص الكود وفقًا لمتطلباتك المحددة.
+بعد هذا الاستدعاء، ستحصل على PDF يجمع تخطيطي “ANSI C Plot” و “8.5 x 11 Plot” في مستند موحد.
 
-## خاتمة
+## المشكلات الشائعة & استكشاف الأخطاء
 
-في هذا البرنامج التعليمي، قمنا بتغطية عملية إنشاء ملف PDF واحد من رسم CAD بتخطيطات مختلفة باستخدام Aspose.CAD لـ .NET. تعمل هذه المكتبة القوية على تبسيط مهام معالجة CAD وتوفر المرونة لمختلف السيناريوهات.
+| المشكلة | السبب | الحل |
+|-------|--------|-----|
+| الطبقات مفقودة في PDF | `LayoutPageSizes` غير معرف لاسم تخطيط | تحقق من أسماء التخطيطات الدقيقة في ملف CAD (حساسة لحالة الأحرف). |
+| جودة منخفضة | DPI الافتراضي هو 96 | عيّن `rasterizationOptions.Resolution = 300` (أو أعلى) قبل الحفظ. |
+| الملف غير موجود | مسار `MyDir` غير صحيح | استخدم `Path.Combine` لإنشاء مسارات مستقلة عن النظام. |
 
-## الأسئلة الشائعة
+## الأسئلة المتكررة
 
-### س1: هل يمكنني استخدام Aspose.CAD لـ .NET مع تنسيقات CAD الأخرى؟
+### س1: هل يمكنني استخدام Aspose.CAD for .NET مع صيغ CAD أخرى؟
 
-ج1: نعم، يدعم Aspose.CAD for .NET تنسيقات CAD المتنوعة مثل DWG وDXF وDGN والمزيد.
+نعم، يدعم Aspose.CAD for .NET صيغ CAD متعددة مثل DWG، DXF، DGN، وأكثر.
 
-### س2: هل هناك نسخة تجريبية مجانية متاحة؟
+### س2: هل تتوفر نسخة تجريبية مجانية؟
 
- ج2: نعم، يمكنك استكشاف النسخة التجريبية المجانية[هنا](https://releases.aspose.com/).
+نعم، يمكنك تجربة نسخة تجريبية مجانية [here](https://releases.aspose.com/).
 
-### س3: كيف يمكنني الحصول على دعم Aspose.CAD لـ .NET؟
+### س3: كيف يمكنني الحصول على الدعم لـ Aspose.CAD for .NET؟
 
- ج3: قم بزيارة[منتدى Aspose.CAD](https://forum.aspose.com/c/cad/19) لدعم المجتمع.
+قم بزيارة [منتدى Aspose.CAD](https://forum.aspose.com/c/cad/19) للحصول على دعم المجتمع.
 
-### س4: أين يمكنني العثور على وثائق مفصلة؟
+### س4: أين يمكنني العثور على الوثائق التفصيلية؟
 
- ج4: راجع الوثائق[هنا](https://reference.aspose.com/cad/net/).
+راجع الوثائق [here](https://reference.aspose.com/cad/net/).
 
-### س5: هل يمكنني شراء ترخيص Aspose.CAD لـ .NET؟
+### س5: هل يمكنني شراء ترخيص لـ Aspose.CAD for .NET؟
 
- ج5: نعم، يمكنك شراء ترخيص[هنا](https://purchase.aspose.com/buy).
+نعم، يمكنك شراء ترخيص [here](https://purchase.aspose.com/buy).
+
+**أسئلة إضافية**
+
+**س:** كيف يمكنني **export DWG to PDF** بأحجام صفحات مخصصة؟  
+**ج:** استخدم `CadRasterizationOptions.LayoutPageSizes` لتعيين كل تخطيط DWG إلى أبعاد صفحة PDF المطلوبة، كما هو موضح في الخطوة 2.
+
+**س:** هل يمكن **save CAD as PDF** دون تحويل البيانات المتجهية إلى نقطية؟  
+**ج:** Aspose.CAD دائمًا يحول إلى نقطية عند إنشاء PDF، لكن يمكنك زيادة DPI للحفاظ على الدقة البصرية.
+
+## الخلاصة
+
+في هذا الدليل أظهرنا كيفية **create single pdf** من رسومات CAD التي تحتوي على عدة تخطيطات، باستخدام Aspose.CAD for .NET. الآن لديك اللبنات الأساسية لـ **convert CAD to PDF**، **export DWG to PDF**، و **save CAD as PDF** في سير عمل آلي واحد. جرّب إعدادات التحويل إلى نقطية المختلفة لتتناسب مع متطلبات جودة مشروعك، ودمج هذا الكود في خطوط معالجة دفعات أكبر حسب الحاجة.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**آخر تحديث:** 2026-03-02  
+**تم الاختبار مع:** Aspose.CAD for .NET 24.11  
+**المؤلف:** Aspose

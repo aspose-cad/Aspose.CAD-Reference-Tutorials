@@ -1,10 +1,9 @@
 ---
-date: 2025-12-30
-description: Aspose.CAD for Java を使用して、Java で DWG を読み取り、AutoCAD ファイル内のテキスト DWG を検索する方法を学びましょう。高速で信頼性の高いテキスト抽出を
-  Java アプリケーションに提供します。
+date: 2026-03-02
+description: Aspose.CAD for Java を使用して、DWG を Java で読み取り、テキストを検索する方法を学びましょう。Java アプリケーション向けの高速で信頼性の高いテキスト抽出。
 linktitle: Search Text in AutoCAD DWG File with Java
 second_title: Aspose.CAD Java API
-title: JavaでDWGを読み込む – Aspose.CAD for Javaを使用したDWG内のテキスト検索
+title: aspose cad java – DWG ファイル内のテキスト検索 (JavaでDWGを読む)
 url: /ja/java/cad-text-and-formatting/search-text-in-dwg/
 weight: 10
 ---
@@ -13,33 +12,33 @@ weight: 10
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# JavaでDWGを読み込む – Aspose.CAD for Java を使用した DWG 内テキスト検索
+# Java DWG 読み取り – Aspose.CAD for Java を使用した DWG 内テキスト検索
 
-If you’re a Java developer who needs to **java read dwg** files and quickly locate specific strings inside them, you’ve come to the right place. In this tutorial we’ll walk through a complete, step‑by‑step example that shows how to **search text dwg** files with the Aspose.CAD for Java library. By the end you’ll have a reusable snippet you can drop into any Java‑based CAD application.
+Java 開発者で、**java read dwg** ファイルを読み込み、特定の文字列を素早く検索したい方へ。本チュートリアルでは、**aspose cad java** ライブラリを使って **search text dwg** ファイルを検索する完全なステップバイステップ例をご紹介します。最後まで読めば、任意の Java ベース CAD アプリケーションに組み込める再利用可能なコードスニペットが手に入ります。
 
 ## クイック回答
-- **What does “java read dwg” mean?** It refers to loading an AutoCAD DWG file in a Java program for inspection or manipulation.  
-- **Which library handles DWG text extraction?** Aspose.CAD for Java provides full‑featured DWG support, including text search.  
-- **Do I need a license for production use?** Yes – a commercial license removes evaluation limitations.  
-- **Is the code compatible with Java 8 and later?** Absolutely; the API targets Java 8+.  
-- **Can I search inside block references and attributes?** The sample iterates block entities and attribute definitions to ensure a comprehensive search.
+- **「java read dwg」とは何ですか？** AutoCAD の DWG ファイルを Java プログラム内で読み込み、検査または操作することを指します。  
+- **DWG テキスト抽出を担当するライブラリはどれですか？** Aspose.CAD for Java がフル機能の DWG サポートとテキスト検索機能を提供します。  
+- **本番環境でライセンスは必要ですか？** はい – 商用ライセンスを取得すると評価版の制限が解除されます。  
+- **コードは Java 8 以降と互換性がありますか？** もちろんです。API は Java 8+ を対象としています。  
+- **ブロック参照や属性内も検索できますか？** サンプルはブロックエンティティと属性定義を反復処理し、包括的な検索を実現します。
 
 ## java read dwg とは？
-Reading a DWG file in Java means opening the binary AutoCAD drawing format, parsing its internal entities (lines, circles, text, blocks, etc.), and exposing them through a programmable object model. Aspose.CAD abstracts the low‑level parsing, letting you focus on business logic such as searching for text.
+Java で DWG ファイルを読むということは、バイナリ形式の AutoCAD 図面を開き、内部エンティティ（線、円、テキスト、ブロック等）を解析し、プログラムから操作できるオブジェクトモデルとして公開することです。Aspose.CAD は低レベルの解析を抽象化し、テキスト検索といったビジネスロジックに集中できるようにします。
 
 ## なぜ Aspose.CAD を使用して DWG テキスト検索を行うのか？
-- **Broad version support** – works with DWG files from AutoCAD 2000 up to the latest releases.  
-- **No native AutoCAD installation required** – pure Java, perfect for server‑side processing.  
-- **Rich entity model** – access to single‑line text, multiline text (MText), attribute definitions, and more.  
-- **High performance** – optimized for large drawings and batch processing.
+- **幅広いバージョン対応** – AutoCAD 2000 から最新リリースまでの DWG ファイルに対応。  
+- **AutoCAD のインストール不要** – 純粋な Java 実装で、サーバーサイド処理に最適。  
+- **リッチなエンティティモデル** – シングルラインテキスト、マルチラインテキスト (MText)、属性定義などにアクセス可能。  
+- **高性能** – 大規模図面やバッチ処理に最適化。
 
 ## 前提条件
-1. **Java Development Environment** – JDK 8+ and your favorite IDE (IntelliJ, Eclipse, VS Code, etc.).  
-2. **Aspose.CAD for Java Library** – download it from the [download page](https://releases.aspose.com/cad/java/) and add the JAR to your project’s classpath.  
-3. **Reference Documentation** – helpful API details are available at the [Aspose.CAD Java Documentation](https://reference.aspose.com/cad/java/).
+1. **Java 開発環境** – JDK 8+ とお好みの IDE（IntelliJ、Eclipse、VS Code 等）。  
+2. **Aspose.CAD for Java ライブラリ** – [ダウンロードページ](https://releases.aspose.com/cad/java/) から取得し、JAR をプロジェクトのクラスパスに追加。  
+3. **リファレンスドキュメント** – 詳細な API 情報は [Aspose.CAD Java Documentation](https://reference.aspose.com/cad/java/) を参照。
 
 ## 名前空間のインポート
-First, bring the required Aspose.CAD classes into scope. These imports give you access to the image object, layout dictionary, entity types, and block handling utilities.
+まず、必要な Aspose.CAD クラスをインポートします。これらのインポートにより、画像オブジェクト、レイアウト辞書、エンティティタイプ、ブロック操作ユーティリティへアクセスできます。
 
 ```java
 import com.aspose.cad.fileformats.cad.CadImage;
@@ -55,20 +54,20 @@ import com.aspose.cad.fileformats.cad.cadobjects.attentities.CadAttrib;
 import com.aspose.cad.fileformats.cad.cadtables.CadBlockTableObject;
 ```
 
-## java read dwg と search text dwg の方法
-Below is the core workflow broken into four clear steps. Each step is explained before the corresponding code block, so you can understand *why* we’re doing what we’re doing.
+## Aspose.CAD for Java を使用した java read dwg とテキスト検索の方法
+以下に、4 つの明確なステップに分けたコアワークフローを示します。各ステップの前に説明を入れているので、*なぜ* その処理を行うのかが理解できます。
 
-### 手順 1: DWG ファイルの読み込み
-We start by loading the drawing into a `CadImage` object. This object represents the entire DWG and gives us access to its entities and block definitions.
+### ステップ 1: DWG ファイルの読み込み
+図面を `CadImage` オブジェクトにロードします。このオブジェクトは DWG 全体を表し、エンティティやブロック定義へのアクセスを提供します。
 
 ```java
 CadImage cadImage = (CadImage) CadImage.load(dataDir + "sample_file.dwg");
 ```
 
-> **プロのコツ:** `dataDir` はアプリケーションが読み取れるフォルダーを指すようにしてください。実運用ではクラスパスの混乱を避けるため、絶対パスを使用しましょう。
+> **プロのコツ:** `dataDir` はアプリケーションが読み取れるフォルダーを指すようにしてください。本番環境ではクラスパスの混乱を避けるため、絶対パスを使用することを推奨します。
 
-### 手順 2: トップレベルエンティティの検索
-Most visible text lives directly in the drawing’s main entity list. We iterate over each entity and delegate the inspection to a helper method.
+### ステップ 2: トップレベルエンティティの検索
+可視テキストの多くは図面のメインエンティティリストに直接存在します。各エンティティを走査し、ヘルパーメソッドに検査を委譲します。
 
 ```java
 for (CadBaseEntity entity : cadImage.getEntities()) {
@@ -76,8 +75,8 @@ for (CadBaseEntity entity : cadImage.getEntities()) {
 }
 ```
 
-### 手順 3: ブロックエンティティ内の検索
-Blocks are reusable groups of entities (think of symbols or reusable components). Text can also be hidden inside these blocks, so we need to walk through each block’s entity collection.
+### ステップ 3: ブロックエンティティ内の検索
+ブロックは再利用可能なエンティティ群（シンボルやコンポーネント）です。テキストはこれらブロック内部に隠れていることがあるため、各ブロックのエンティティコレクションを走査する必要があります。
 
 ```java
 for (CadBlockEntity blockEntity : cadImage.getBlockEntities().getValues()) {
@@ -87,8 +86,8 @@ for (CadBlockEntity blockEntity : cadImage.getBlockEntities().getValues()) {
 }
 ```
 
-### 手順 4: 再帰的ノード反復
-The `IterateCADNodeEntities` method examines the type of each entity and extracts any textual content it finds. It also recurses into nested objects like inserts or attribute definitions, ensuring no text is missed.
+### ステップ 4: 再帰的ノード反復
+`IterateCADNodeEntities` メソッドは各エンティティの型を調べ、見つかったテキストコンテンツを抽出します。また、INSERT や属性定義といったネストされたオブジェクトにも再帰的に処理を行い、テキストが見逃されないようにします。
 
 ```java
 private static void IterateCADNodeEntities(CadBaseEntity obj) {
@@ -96,35 +95,37 @@ private static void IterateCADNodeEntities(CadBaseEntity obj) {
 }
 ```
 
-> **Why recursion?** CAD drawings can contain entities that themselves contain other entities (e.g., an `INSERT` that references a block). Recursion guarantees a deep‑search across the entire hierarchy.
+> **なぜ再帰か？** CAD 図面は、他のエンティティを内部に持つエンティティ（例: ブロックを参照する `INSERT`）を含むことがあります。再帰処理により階層全体を深く検索できます。
 
 ## よくある問題と解決策
-| 問題 | 原因 | 対策 |
-|-------|--------|-----|
-| 結果が返されない | トップレベルのエンティティだけを検索している | ブロックエンティティも反復処理することを確認してください（手順 3）。 |
-| テキストが文字化けする | 文字エンコーディングが間違っている | Aspose.CAD は Unicode を自動的に処理します。DWG が破損していないか確認してください。 |
-| 大容量ファイルでパフォーマンスが低下する | 数百万のエンティティに対する再帰的走査 | ブロックの検索結果をキャッシュするか、可能であれば特定レイヤーに検索を限定してください。 |
+| 問題 | 原因 | 解決策 |
+|------|------|--------|
+| 結果が返ってこない | トップレベルエンティティのみを検索している | ブロックエンティティも走査する（ステップ 3）ことを確認してください。 |
+| テキストが文字化けする | 文字エンコーディングが不正 | Aspose.CAD は Unicode を自動処理します。DWG が破損していないか確認してください。 |
+| 大容量ファイルでパフォーマンスが低下する | 数百万エンティティの再帰走査 | ブロック検索をキャッシュするか、可能であれば特定レイヤーに限定してください。 |
 
 ## よくある質問
 
 **Q: Aspose.CAD はすべてのバージョンの AutoCAD DWG ファイルに対応していますか？**  
 A: はい、Aspose.CAD は初期の R14 から最新リリースまで、幅広い DWG バージョンをサポートしています。
 
-**Q: Aspose.CAD for Java を商用プロジェクトで使用できますか？**  
-A: もちろんです。商用利用には [Aspose の購入ページ](https://purchase.aspose.com/buy) からライセンスを購入してください。
+**Q: 商用プロジェクトで Aspose.CAD for Java を使用できますか？**  
+A: もちろんです。商用利用には [Aspose の購入ページ](https://purchase.aspose.com/buy) からライセンスを取得してください。
 
 **Q: Aspose.CAD for Java の無料トライアルはありますか？**  
 A: はい、[こちら](https://releases.aspose.com/) から無料トライアルをダウンロードできます。
 
 **Q: 問題が発生した場合、どこでサポートを受けられますか？**  
-A: 公式の [Aspose.CAD フォーラム](https://forum.aspose.com/c/cad/19) が技術的な質問に最適な場所です。
+A: 公式の [Aspose.CAD フォーラム](https://forum.aspose.com/c/cad/19) が技術的な質問に最適です。
 
-**Q: 評価用に一時ライセンスは使用できますか？**  
+**Q: 評価用に一時ライセンスは利用できますか？**  
 A: はい、テスト目的であれば [こちら](https://purchase.aspose.com/temporary-license/) から一時ライセンスを取得できます。
 
-**最終更新日:** 2025-12-30  
+---
+
+**最終更新日:** 2026-03-02  
 **テスト環境:** Aspose.CAD for Java 24.12（執筆時点での最新バージョン）  
-**作成者:** Aspose  
+**作者:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
