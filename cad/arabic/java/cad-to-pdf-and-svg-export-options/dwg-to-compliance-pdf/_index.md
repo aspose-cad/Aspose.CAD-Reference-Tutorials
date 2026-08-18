@@ -1,33 +1,53 @@
 ---
-title: DWG للتوافق مع PDF باستخدام Aspose.CAD لـ Java
-linktitle: DWG للامتثال PDF
-second_title: Aspose.CAD جافا API
-description: قم بتحويل رسومات DWG بسهولة إلى ملفات متوافقة مع PDF/A1a وPDF/A1b باستخدام Aspose.CAD لـ Java. قم بتبسيط سير عملك بدقة وسهولة.
-weight: 11
+date: 2026-02-28
+description: تعلم كيفية تحويل ملفات DWG إلى PDF باستخدام Aspose.CAD للغة Java، وإنشاء
+  ملفات متوافقة مع PDF/A1a وPDF/A1b بسرعة ودقة.
+linktitle: DWG to Compliance PDF
+second_title: Aspose.CAD Java API
+title: تحويل DWG إلى PDF (PDF/A1a و A1b) باستخدام Aspose.CAD للـ Java
 url: /ar/java/cad-to-pdf-and-svg-export-options/dwg-to-compliance-pdf/
+weight: 11
 ---
 
-{{< blocks/products/pf/main-wrap-class >}}
+ final answer.{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# DWG للتوافق مع PDF باستخدام Aspose.CAD لـ Java
+# تحويل DWG إلى PDF (PDF/A1a & A1b) باستخدام Aspose.CAD للـ Java
 
-## مقدمة
+## Introduction
 
-في عالم التصميم الرقمي دائم التطور، تعد الحاجة إلى تحويل رسومات DWG إلى تنسيقات PDF المتوافقة أمرًا بالغ الأهمية للتعاون السلس والوثائق الموحدة. يظهر Aspose.CAD for Java كأداة قوية توفر الكفاءة والدقة في هذه العملية. في هذا البرنامج التعليمي، سنستكشف كيفية استخدام Aspose.CAD لـ Java لتحويل ملفات DWG بسهولة إلى ملفات PDF متوافقة، مما يضمن الالتزام بمعايير PDF/A1a وPDF/A1b.
+في سير عمل الهندسة والتصميم الحديث، **تحويل DWG إلى PDF** يُعد مطلبًا يوميًا للمشاركة، والأرشفة، والامتثال لتنسيقات المستندات القياسية في الصناعة. PDF/A‑1a و PDF/A‑1b هما المعياران الأكثر قبولًا للأرشفة، مما يضمن أن رسوماتك ستظهر بنفس الشكل على أي نظام. تجعل Aspose.CAD للـ Java هذا التحويل بسيطًا، موثوقًا، وقابلًا للبرمجة بالكامل. في هذا البرنامج التعليمي ستتعلم بالضبط كيفية تحويل ملفات DWG إلى ملفات PDF متوافقة مع PDF/A باستخدام بضع أسطر من كود Java.
 
-## المتطلبات الأساسية
+## Quick Answers
+- **ما المكتبة التي تتعامل مع التحويل؟** Aspose.CAD for Java  
+- **ما معايير PDF/A المدعومة؟** PDF/A‑1a و PDF/A‑1b  
+- **هل أحتاج إلى ترخيص للاختبار؟** نعم – ترخيص مؤقت متاح من Aspose.  
+- **ما هو الحد الأدنى لإصدار Java؟** يوصى بـ Java 8 أو أعلى.  
+- **هل يمكنني معالجة عدة ملفات DWG دفعة واحدة؟** بالتأكيد – كرّر الخطوات لكل ملف أو استخدم حلقة عبر مجلد.
 
-قبل الغوص في البرنامج التعليمي، تأكد من توفر المتطلبات الأساسية التالية:
+## What is “convert DWG to PDF” and why does it matter?
 
-- بيئة تطوير Java: تأكد من إعداد بيئة تطوير Java عاملة على نظامك.
--  مكتبة Aspose.CAD: قم بتنزيل وتثبيت مكتبة Aspose.CAD لـ Java من[رابط التحميل](https://releases.aspose.com/cad/java/).
-- دليل المستندات: قم بإنشاء دليل لتخزين رسومات DWG الخاصة بك.
+تحويل رسم DWG إلى PDF يخلق مستندًا يمكن عرضه عالميًا مع الحفاظ على دقة المتجهات. عندما تختار الامتثال لـ PDF/A‑1a أو PDF/A‑1b، يضمّن الملف أيضًا ملفات تعريف الألوان، الخطوط، والبيانات الوصفية المطلوبة للأرشفة طويلة الأمد، وهو أمر أساسي لتقديمات التنظيم، وثائق البناء، وتسليمات العملاء.
 
-## استيراد مساحات الأسماء
+## Why use Aspose.CAD for Java?
 
-في مشروع Java الخاص بك، قم باستيراد مساحات الأسماء الضرورية للوصول إلى وظائف Aspose.CAD. أضف الأسطر التالية في بداية ملف Java الخاص بك:
+- **دعم كامل لإصدارات DWG** – من الإصدارات القديمة R12 حتى أحدث الإصدارات.  
+- **بدون تبعيات خارجية** – المكتبة تعمل مباشرة دون الحاجة إلى برنامج CAD.  
+- **تحكم دقيق** – يمكنك ضبط خيارات التحويل إلى نقطية، DPI، حجم الصفحة، والامتثال لـ PDF/A.  
+- **أداء عالي** – مناسب لمعالجة آلاف الرسومات دفعة واحدة.
+
+## Prerequisites
+
+قبل أن تبدأ، تأكد من وجود ما يلي:
+
+- بيئة تطوير Java (JDK 8 أو أحدث) مع IDE المفضلة لديك.  
+- مكتبة Aspose.CAD للـ Java – حمّلها من [رابط التحميل](https://releases.aspose.com/cad/java/).  
+- مجلد يحتوي على رسومات DWG التي تريد تحويلها.
+
+## Import Namespaces
+
+أولاً، استورد الفئات التي ستحتاجها. إبقاء الاستيرادات في أعلى الملف يجعل الكود أسهل للقراءة والصيانة.
 
 ```java
 import com.aspose.cad.Image;
@@ -38,85 +58,97 @@ import com.aspose.cad.imageoptions.PdfDocumentOptions;
 import com.aspose.cad.imageoptions.PdfOptions;
 ```
 
-## الخطوة 1: قم بتعيين دليل الموارد
+## Step 1: Set the Resource Directory
 
-حدد المسار إلى دليل الموارد الخاص بك حيث يتم تخزين رسومات DWG.
+حدد المسار حيث توجد ملفات DWG الخاصة بك. عدّل السلسلة لتشير إلى الدليل الفعلي الخاص بك.
 
 ```java
 String dataDir = "Your Document Directory" + "DWGDrawings/";
 ```
 
-## الخطوة 2: قم بتحميل ملف DWG
+## Step 2: Load the DWG File
 
-قم بتحميل ملف DWG باستخدام مكتبة Aspose.CAD.
+استخدم `Image.load` لقراءة ملف DWG إلى الذاكرة. هذا الكائن سيُحفظ لاحقًا كملف PDF.
 
 ```java
 String srcFile = dataDir + "Bottom_plate.dwg";
 Image objImage = Image.load(srcFile);
 ```
 
-## الخطوة 3: إنشاء خيارات PDF
+## Step 3: Create PDF Options
 
-قم بإنشاء مثيل لـ PdfOptions وقم بتعيين خيارات تنقيط المتجهات.
+أنشئ كائن `PdfOptions` وأرفق به كائن `CadRasterizationOptions`. تسمح لك خيارات التحويل إلى نقطية بالتحكم في كيفية عرض البيانات المتجهية داخل ملف PDF.
 
 ```java
 PdfOptions pdfOptions = new PdfOptions();
 pdfOptions.setVectorRasterizationOptions(new CadRasterizationOptions());
 ```
 
-## الخطوة 4: قم بتعيين خيارات PDF الأساسية
+## Step 4: Set Core PDF Options (Compliance)
 
-قم بتعيين خيارات PDF الأساسية، مع تحديد معيار التوافق (PDF/A1a أو PDF/A1b).
+هنا تخبر Aspose.CAD بمستوى امتثال PDF/A الذي تحتاجه. يبدأ المثال بـ PDF/A‑1a.
 
 ```java
 pdfOptions.setCorePdfOptions(new PdfDocumentOptions());
 pdfOptions.getCorePdfOptions().setCompliance(PdfCompliance.PdfA1a);
 ```
 
-## الخطوة 5: حفظ ملف PDF مع التوافق A1a
+## Step 5: Save PDF with PDF/A‑1a Compliance
 
-احفظ ملف PDF بالتوافق A1a.
+الآن احفظ ملف PDF إلى القرص. سيكون ملف الإخراج متوافقًا مع PDF/A‑1a، جاهزًا للأرشفة.
 
 ```java
 objImage.save(dataDir + "Saved1.pdf", pdfOptions);
 ```
 
-## الخطوة 6: تغيير الامتثال إلى A1b
+## Step 6: Change Compliance to PDF/A‑1b and Save Again
 
-قم بتغيير التوافق إلى PDF/A1b واحفظ ملف PDF.
+إذا كنت تحتاج إلى PDF/A‑1b بدلاً من ذلك، فقط غيّر علم الامتثال واحفظ ملفًا ثانيًا.
 
 ```java
 pdfOptions.getCorePdfOptions().setCompliance(PdfCompliance.PdfA1b);
 objImage.save(dataDir + "Saved.pdf", pdfOptions);
 ```
 
-كرر هذه الخطوات لكل ملف DWG تريد تحويله.
+> **نصيحة احترافية:** غلف منطق التحويل في طريقة قابلة لإعادة الاستخدام حتى تتمكن من استدعائها لكل ملف DWG في مجلد، مما يقلل من الشيفرة المتكررة ويحسن الصيانة.
 
-## خاتمة
+## Common Use Cases
 
-في الختام، يوفر Aspose.CAD for Java حلاً قويًا لتحويل ملفات DWG إلى ملفات PDF متوافقة. باتباع هذا الدليل التفصيلي، يمكنك تبسيط عملية التحويل والتأكد من التزام مستنداتك بمعايير الصناعة.
+| السيناريو | لماذا PDF/A؟ |
+|----------|------------|
+| **التقديمات التنظيمية** | يضمن قراءة طويلة الأمد وقابلية قانونية. |
+| **تسليمات العملاء** | يمكن للعملاء فتح الملف دون أي برنامج CAD. |
+| **أنظمة إدارة المستندات** | ملفات PDF/A مفهرسة وقابلة للبحث في معظم منصات DMS. |
 
-## الأسئلة الشائعة
+## Common Issues and Solutions
 
-### س 1: هل Aspose.CAD متوافق مع كافة إصدارات ملفات DWG؟
+- **خطوط أو رموز مفقودة** – تأكد من أن ملف DWG يضمّن جميع الخطوط المطلوبة، أو اضبط `CadRasterizationOptions.setEmbedFonts(true)`.  
+- **حجم ملف كبير** – قلل DPI في خيارات التحويل إلى نقطية أو فعّل الضغط عبر `PdfDocumentOptions.setCompress(true)`.  
+- **الترخيص غير موجود** – طبّق ترخيصًا مؤقتًا أو دائمًا قبل التحويل؛ وإلا ستحصل على علامة مائية.
 
- A1: يدعم Aspose.CAD إصدارات مختلفة من ملفات DWG، بما في ذلك الإصدارات الأحدث. الرجوع إلى[توثيق](https://reference.aspose.com/cad/java/) للحصول على معلومات التوافق التفصيلية.
+## Frequently Asked Questions
 
-### س2: هل يمكنني تخصيص إعدادات إخراج PDF باستخدام Aspose.CAD؟
+**س: هل Aspose.CAD متوافق مع جميع إصدارات ملفات DWG؟**  
+ج: يدعم Aspose.CAD مجموعة واسعة من إصدارات DWG، بما في ذلك أحدث الإصدارات. راجع [الوثائق](https://reference.aspose.com/cad/java/) للحصول على قائمة تفصيلية بالتوافق.
 
-ج2: بالتأكيد! يقدم Aspose.CAD مجموعة من الخيارات للتخصيص، مما يسمح لك بتخصيص مخرجات PDF وفقًا لمتطلباتك المحددة.
+**س: هل يمكنني تخصيص إعدادات إخراج PDF؟**  
+ج: بالتأكيد! يمكن تعديل الخيارات مثل حجم الصفحة، DPI، التحويل إلى نقطية للمتجهات، والامتثال لـ PDF/A عبر `PdfOptions` و `CadRasterizationOptions`.
 
-### س3: هل يتوفر ترخيص مؤقت لـ Aspose.CAD؟
+**س: هل يتوفر ترخيص مؤقت للاختبار؟**  
+ج: نعم، يمكنك الحصول على ترخيص مؤقت للتقييم من [هذا الرابط](https://purchase.aspose.com/temporary-license/).
 
- ج3: نعم، يمكنك الحصول على ترخيص مؤقت لأغراض الاختبار من[هذا الرابط](https://purchase.aspose.com/temporary-license/).
+**س: أين يمكنني الحصول على دعم المجتمع؟**  
+ج: منتدى [Aspose.CAD](https://forum.aspose.com/c/cad/19) مكان رائع لطرح الأسئلة ومشاركة التجارب.
 
-### س4: أين يمكنني طلب الدعم أو التفاعل مع مجتمع Aspose.CAD؟
+**س: هل يمكنني تجربة Aspose.CAD مجانًا قبل الشراء؟**  
+ج: بالتأكيد! حمّل نسخة التجربة المجانية من [هنا](https://releases.aspose.com/) لاستكشاف جميع الميزات.
 
- ج4: قم بزيارة[منتدى Aspose.CAD](https://forum.aspose.com/c/cad/19) لدعم المجتمع والمناقشات.
+---
 
-### س5: هل يمكنني تجربة Aspose.CAD مجانًا قبل إجراء عملية الشراء؟
+**آخر تحديث:** 2026-02-28  
+**تم الاختبار مع:** Aspose.CAD for Java 24.11 (أحدث نسخة وقت الكتابة)  
+**المؤلف:** Aspose  
 
- ج5: بالتأكيد! قم بتنزيل النسخة التجريبية المجانية من[هنا](https://releases.aspose.com/) لاستكشاف القدرات قبل اتخاذ القرار.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

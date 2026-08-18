@@ -1,5 +1,5 @@
 ---
-date: 2025-12-28
+date: 2026-02-28
 description: DWG'den PDF oluşturmayı, DWG'yi PDF olarak kaydetmeyi ve Aspose.CAD for
   Java ile DWG çizimlerine metin eklemeyi adım adım öğrenin—rehber.
 linktitle: Add Text in DWG
@@ -17,28 +17,34 @@ weight: 10
 
 ## Giriş
 
-DWG dosyalarından **PDF oluşturmanız** ve aynı zamanda özel metin eklemeniz gerekiyorsa, doğru yerdesiniz. Bu öğreticide tüm süreci adım adım inceleyeceğiz—DWG çizimini yükleme, bir metin açıklaması ekleme ve son olarak sonucu Aspose.CAD for Java kullanarak PDF olarak kaydetme. Sonunda **DWG'yi PDF olarak kaydetmeyi**, metin yüksekliğini özelleştirmeyi ve temel açıklamalar eklemeyi öğreneceksiniz.
+Eğer **DWG dosyalarından PDF oluşturmak** ve aynı zamanda özel metin eklemek istiyorsanız doğru yerdesiniz. Bu öğreticide tüm süreci adım adım inceleyeceğiz—DWG çizimini yükleme, bir metin açıklaması ekleme ve son olarak sonucu Aspose.CAD for Java kullanarak PDF olarak kaydetme. Sonunda **DWG'yi PDF olarak kaydetmeyi**, metin yüksekliğini özelleştirmeyi ve temel açıklamalar eklemeyi öğreneceksiniz.
 
 ## Hızlı Yanıtlar
-- **Java'da DWG'yi PDF'e dönüştürebilir miyim?** Evet, Aspose.CAD for Java basit bir API sağlar.  
+- **Java'da DWG'yi PDF'ye dönüştürebilir miyim?** Evet, Aspose.CAD for Java basit bir API sağlar.  
 - **Üretim kullanımında lisansa ihtiyacım var mı?** Ticari bir lisans gereklidir; ücretsiz deneme sürümü mevcuttur.  
 - **DWG'ye metin ekleyen yöntem hangisidir?** `CadText` nesnesini kullanın ve model alanına ekleyin.  
 - **Metin yüksekliğini ayarlayabilir miyim?** Kesinlikle—`CadText` örneği üzerinde `setTextHeight()` kullanın.  
 - **Çıktı vektör tabanlı mı?** Rasterleştirme seçenekleri `UseObjectColor` olarak ayarlandığında PDF yüksek kaliteli vektör verisini korur.
 
+## DWG'den PDF Oluşturma Nedir?
+DWG çiziminden PDF oluşturmak, yerel CAD formatını geniş çapta desteklenen, yalnızca okunabilir bir belgeye dönüştürmek ve orijinal geometrinin korunmasını sağlamak anlamına gelir. Bu dönüşüm, CAD yazılımı olmayan paydaşlarla tasarımları paylaşmanız gerektiğinde hayati öneme sahiptir.
+
+## DWG'yi PDF'ye Dönüştürmek İçin Neden Aspose.CAD for Java Kullanmalı?
+Aspose.CAD, harici bir CAD kurulumuna ihtiyaç duymayan saf Java çözümü sunar. **DWG'yi PDF'ye dönüştürme** özelliğini destekler, vektör bütünlüğünü korur ve dönüşümden önce metin, ölçü veya özel grafikler gibi açıklamaları programlı olarak eklemenize olanak tanır.
+
 ## Önkoşullar
 
-Öğreticiye başlamadan önce aşağıdaki önkoşulların karşılandığından emin olun:
+Öğreticiye başlamadan önce aşağıdaki önkoşulların sağlandığından emin olun:
 
-- Aspose.CAD for Java Kütüphanesi: Kütüphaneyi [Aspose.CAD for Java sayfasından](https://releases.aspose.com/cad/java/) indirin ve kurun.
+- Aspose.CAD for Java Library: Kütüphaneyi [Aspose.CAD for Java page](https://releases.aspose.com/cad/java/) adresinden indirin ve kurun.
 
-- Java Development Kit (JDK): Sisteminizde en son JDK'nın kurulu olduğundan emin olun.
+- Java Development Kit (JDK): Sisteminizde en son JDK'nın yüklü olduğundan emin olun.
 
-- DWG Çizimi: Metin eklemek istediğiniz bir DWG çizim dosyasını hazırlayın.
+- DWG Çizimi: Metin eklemek istediğiniz bir DWG dosyası hazırlayın.
 
-## İsim Uzaylarını İçe Aktarma
+## Ad Alanlarını İçe Aktarma
 
-Java kodunuzda Aspose.CAD için gerekli isim uzaylarını içe aktarın:
+Java kodunuzda Aspose.CAD için gerekli ad alanlarını içe aktarın:
 
 ```java
 import com.aspose.cad.Image;
@@ -80,7 +86,7 @@ cadText.setTextHeight(0.8);          // set text height in DWG units
 cadText.setScaleX(0);
 ```
 
-## Adım 4: CadImage'a Metin Ekleme (Açıklama Ekleme)
+## Adım 4: CadImage'ye Metin Ekleme (Açıklama Ekleme)
 
 ```java
 CadImage cadImage = ((CadImage)(image));
@@ -110,45 +116,40 @@ cadRasterizationOptions.setLayouts(new String[] {"Model"});
 image.save(dataDir + "SimpleEntites_generated.dwg.pdf", pdfOptions);
 ```
 
-Bu adımları izleyerek **DWG'den PDF oluşturabilir**, özel metin ekleyebilir ve metin yüksekliğini kontrol edebilirsiniz—tüm bunlar sadece birkaç Java kod satırıyla.
+Bu adımları izleyerek **DWG'den PDF oluşturabilir**, özel metin ekleyebilir ve metin yüksekliğini kontrol edebilirsiniz—hepsi sadece birkaç satır Java kodu ile.
 
-## DWG'ye Metin Eklemek ve PDF'ye Dönüştürmek Neden Önemli?
-
-Metni doğrudan bir DWG dosyasına eklemek şu amaçlar için faydalıdır:
-
-- **Tasarımları** notlar veya parça numaralarıyla işaretlemek.
-- **Yazdırılabilir dokümantasyon** oluşturmak; PDF, yalnızca okunabilir ve yaygın desteklenen bir format olarak hizmet eder.
-- **Büyük CAD kütüphanelerinin** toplu işleme otomasyonu, manuel düzenleme olmadan.
+## Java'da DWG'yi PDF'ye Ölçekli Olarak Nasıl Dönüştürürüm?
+**DWG PDF** dosyalarını toplu olarak dönüştürmeniz gerekiyorsa, yukarıdaki kodu bir klasördeki DWG çizimlerini döngüyle işleyen bir yapı içine yerleştirin. `pageHeight`/`pageWidth` değerlerini yalnızca gerektiğinde ayarlayın, böylece bellek kullanımı düşük kalır ve her dosya için aynı `PdfOptions` örneğini yeniden kullanarak performansı artırırsınız.
 
 ## Yaygın Sorunlar ve İpuçları
 
-- **Metin görünmüyor mu?** X/Y koordinatlarının çizim sınırları içinde olduğundan ve katmanın görünür olduğundan emin olun.
-- **Yanlış metin yüksekliği?** `setTextHeight()`'ı ayarlayın; değer çizimin birim sistemindedir.
-- **PDF rasterleştirilmiş gibi görünüyor mu?** Vektör bilgisini korumak için `CadDrawTypeMode.UseObjectColor` ayarlandığından emin olun.
-- **Büyük dosyalarda performans?** `pageHeight`/`pageWidth` değerlerini yalnızca gerektiği kadar artırın; daha büyük değerler daha fazla bellek tüketir.
+- **Metin görünmüyor mu?** X/Y koordinatlarının çizim sınırları içinde olduğundan ve katmanın görünür olduğundan emin olun.  
+- **Yanlış metin yüksekliği?** `setTextHeight()` değerini ayarlayın; değer çizimin birim sisteminde ifade edilir.  
+- **PDF rasterleştirilmiş görünüyor mu?** Vektör bilgisini korumak için `CadDrawTypeMode.UseObjectColor` ayarının yapıldığını kontrol edin.  
+- **Büyük dosyalarda performans?** `pageHeight`/`pageWidth` değerlerini yalnızca ihtiyaç duyulduğunda artırın; daha büyük değerler daha fazla bellek tüketir.
 
-## Sıkça Sorulan Sorular
+## Sık Sorulan Sorular
 
-**S: Aspose.CAD tüm DWG dosyası sürümleriyle uyumlu mu?**  
-C: Aspose.CAD, çeşitli DWG dosyası sürümlerini destekler ve geniş bir CAD yazılım yelpazesiyle uyumluluğu sağlar.
+**S: Aspose.CAD tüm DWG sürümleriyle uyumlu mu?**  
+C: Aspose.CAD, çeşitli DWG sürümlerini destekler ve geniş bir CAD yazılım yelpazesiyle uyumluluk sağlar.
 
-**S: Eklenen metnin fontunu ve biçimlendirmesini özelleştirebilir miyim?**  
+**S: Eklenen metnin fontunu ve biçimini özelleştirebilir miyim?**  
 C: Evet, Aspose.CAD kullanarak DWG dosyalarına eklenen metnin fontunu, stilini ve diğer biçimlendirme seçeneklerini özelleştirebilirsiniz.
 
-**S: Aspose.CAD for Java için ücretsiz bir deneme sürümü mevcut mu?**  
-C: Evet, [buradan](https://releases.aspose.com/) ücretsiz bir deneme sürümü alarak Aspose.CAD özelliklerini keşfedebilirsiniz.
+**S: Aspose.CAD for Java için ücretsiz deneme mevcut mu?**  
+C: Evet, ücretsiz deneme sürümünü [buradan](https://releases.aspose.com/) alarak Aspose.CAD özelliklerini keşfedebilirsiniz.
 
-**S: Aspose.CAD for Java için ayrıntılı belgeleri nerede bulabilirim?**  
-C: Derinlemesine bilgi ve örnekler için belgeleri [buradan](https://reference.aspose.com/cad/java/) inceleyin.
+**S: Aspose.CAD for Java için ayrıntılı belgeleri nereden bulabilirim?**  
+C: Derinlemesine bilgi ve örnekler için belgeleri [burada](https://reference.aspose.com/cad/java/) inceleyin.
 
-**S: Aspose.CAD ile ilgili destek alabilir veya yardım isteyebilir miyim?**  
+**S: Aspose.CAD ile ilgili destek veya yardım nasıl alınır?**  
 C: Yardım almak ve toplulukla iletişime geçmek için [Aspose.CAD forumunu](https://forum.aspose.com/c/cad/19) ziyaret edin.
 
 ---
 
-**Son Güncelleme:** 2025-12-28  
-**Test Edilen Versiyon:** Aspose.CAD for Java 24.12  
-**Yazar:** Aspose  
+**Last Updated:** 2026-02-28  
+**Tested With:** Aspose.CAD for Java 24.12  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
