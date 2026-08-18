@@ -1,9 +1,9 @@
 ---
-date: 2025-12-22
-description: Aspose.CAD を使用して Java で DWG を PDF に変換する方法、カスタマイズ可能なオプションで CAD PDF をエクスポートするクイックガイドを学びましょう。
+date: 2026-02-23
+description: Aspose.CAD for Java を使用して DWG を PDF に変換する際の PDF ページサイズの設定方法を学び、PDF の解像度を向上させるエクスポートオプションを確認しましょう。
 linktitle: Export to PDF
 second_title: Aspose.CAD Java API
-title: dwg to pdf java – Aspose.CAD で CAD を PDF にエクスポート
+title: PDFページサイズの設定 – Aspose.CADを使用したdwgからpdfへのJava変換
 url: /ja/java/cad-export-options/export-to-pdf/
 weight: 13
 ---
@@ -12,43 +12,46 @@ weight: 13
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# dwg to pdf java – Aspose.CAD for Java で PDF にエクスポート
+# dwg to pdf java – Aspose.CAD for Java を使用した PDF へのエクスポート
 
-## Introduction
+## はじめに
 
-**dwg to pdf java** を迅速かつ確実に行う必要があるなら、ここが最適な場所です。このチュートリアルでは、Aspose.CAD for Java を使用して DWG（またはサポートされている任意の CAD フォーマット）を高品質な PDF に変換する手順を詳しく解説します。環境設定から PDF 出力のカスタマイズまで網羅しているので、変換機能を自分の Java アプリケーションに自信を持って組み込むことができます。
+**dwg to pdf java** 変換を迅速かつ確実に行いながら **set PDF page size** を設定する必要がある場合は、ここが最適です。このチュートリアルでは、DWG（またはサポートされている任意の CAD フォーマット）を高品質な PDF に変換する手順を Aspose.CAD for Java を使って解説します。環境設定から PDF エクスポートオプションのカスタマイズまで網羅し、Java アプリケーションに自信を持って統合できるようにします。
 
-## クイックアンサー
-- **JavaでDWGからPDFへの変換を処理するライブラリは何ですか？** Aspose.CAD for Java
-- **基本的な変換にはどのくらいの時間がかかりますか？** 一般的な図面であれば、通常1秒未満です。
-- **開発にはライセンスが必要ですか？** 無料トライアルはテストには使用できますが、本番環境ではライセンスが必要です。
-- **ページサイズとレイアウトをカスタマイズできますか？** はい。幅、高さ、レイアウトを設定するには、`CadRasterizationOptions` を使用してください。
-- **ラスタライズは必要ですか？** Aspose.CADはPDFへのエクスポート時にベクターデータをラスタライズするため、品質を制御できます。
+## クイック回答
+- **dwg to pdf java を処理するライブラリは何ですか？** Aspose.CAD for Java  
+- **基本的な変換にかかる時間はどれくらいですか？** 通常の図面では 1 秒未満です  
+- **開発にライセンスは必要ですか？** テストには無料トライアルで動作しますが、本番環境ではライセンスが必要です  
+- **ページサイズやレイアウトをカスタマイズできますか？** はい – `CadRasterizationOptions` を使用して幅、高さ、レイアウトを設定します  
+- **ラスタライズは必要ですか？** Aspose.CAD は PDF へエクスポートする際にベクターデータをラスタライズし、品質を制御できます  
 
-## JavaでDWGからPDFへの変換とは何ですか？
+## dwg to pdf java とは？
 
-Java 環境で DWG ファイルを PDF に変換することは、ベクターベースの CAD 図面を任意のデバイスで閲覧可能なポータブルドキュメント形式にレンダリングすることを意味します。Aspose.CAD は CAD データの解釈、必要に応じたラスタライズ、そして元の設計精度を保持した PDF の生成を自動で行います。
+Java 環境で DWG ファイルを PDF に変換することは、ベクターベースの CAD 図面を任意のデバイスで閲覧可能なポータブルドキュメント形式にレンダリングすることを意味します。Aspose.CAD は CAD データの解釈、必要に応じたラスタライズ、そして元の設計忠実度を保持した PDF の生成を自動で行います。
 
-## Aspose.CAD を DWG から PDF Java へ変換するメリット
+## dwg to pdf java に Aspose.CAD を使用する理由
 
-- **幅広いフォーマットをサポート** – DWG、DWF、DXF をはじめ、様々な CAD ファイル形式に対応しています。
-- **外部依存なし** – Pure Java ライブラリで、ネイティブ DLL や COM コンポーネントは不要です。
-- **きめ細かな制御** – ページサイズ、ラスタライズ品質、レイアウトオプションを調整できます。
-- **スケーラブルなパフォーマンス** – バッチ処理や Web サービスにおけるオンザフライ変換に最適です。
+- **幅広いフォーマットサポート** – DWG、DWF、DXF など多数の CAD タイプに対応  
+- **外部依存なし** – 純粋な Java ライブラリで、ネイティブ DLL や COM コンポーネントは不要  
+- **細かい制御** – ページサイズ、ラスタライズ品質、レイアウトオプションを調整可能  
+- **スケーラブルなパフォーマンス** – バッチ処理や Web サービスでのオンザフライ変換に適しています  
+
+## PDF ページサイズの設定方法
+
+PDF ページサイズの設定は `CadRasterizationOptions` を介して構成する **pdf export options** の一部です。`setPageWidth` と `setPageHeight` を定義することで、生成される PDF の正確な寸法を制御でき、特定の用紙サイズに合わせる必要がある場合や、PDF を大規模なワークフローに組み込む際に重要です。
 
 ## 前提条件
 
 チュートリアルに入る前に、以下の前提条件が整っていることを確認してください。
 
-- Aspose.CAD for Java: Java 環境に Aspose.CAD ライブラリがインストールされていることを確認してください。[こちら](https://releases.aspose.com/cad/java/) からダウンロードできます。
-
-- リソースディレクトリ: CAD ファイルを保存するディレクトリを設定します。提供されているコードスニペットの「Your Document Directory」を実際のパスに置き換えてください。
+- Aspose.CAD for Java: Java 環境に Aspose.CAD ライブラリがインストールされていることを確認してください。ダウンロードは [here](https://releases.aspose.com/cad/java/) から可能です。  
+- Resource Directory: CAD ファイルを格納するディレクトリを用意します。コードスニペット内の "Your Document Directory" を実際のパスに置き換えてください。
 
 それでは、主要な手順に進みましょう。
 
 ## 名前空間のインポート
 
-Java プロジェクトで Aspose.CAD の機能を使用できるように、必要な名前空間をインポートします。
+Java プロジェクトで Aspose.CAD の機能を利用できるよう、必要な名前空間をインポートします。
 
 ```java
 import com.aspose.cad.Image;
@@ -61,18 +64,18 @@ import com.aspose.cad.imageoptions.PdfOptions;
 //import com.aspose.cad.imageoptions.TypeOfEntities;
 ```
 
-## ステップ 1: CAD ファイルを読み込む
+## 手順 1: CAD ファイルの読み込み
 
-CAD ファイルを Aspose.CAD の `Image` オブジェクトに読み込みます。`"site.dwf"` を実際の CAD ファイル名に置き換えてください。
+CAD ファイルを Aspose.CAD の `Image` オブジェクトにロードします。`"site.dwf"` を実際の CAD ファイル名に置き換えてください。
 
 ```java
 String fileName = (dataDir + "site.dwf");
 Image image = Image.load(fileName);
 ```
 
-## ステップ 2: PDF オプションを設定する
+## 手順 2: PDF オプションの設定
 
-ページの高さ・幅・レイアウトなど、ベクターレンダリングオプションを含む PDF エクスポート設定を行います。ここで **pdf 出力をカスタマイズ** して要件に合わせます。
+ページ高さ、幅、レイアウトなどのベクトルラスタライズオプションを含む PDF エクスポートオプションを設定します。ここで **pdf 出力をカスタマイズ** し、必要に応じて **PDF の解像度を上げる** こともできます。
 
 ```java
 PdfOptions pdfOptions = new PdfOptions();
@@ -84,7 +87,7 @@ rasterizationOptions.setPageWidth(500);
 rasterizationOptions.setLayouts(new String[] { "Model" });
 ```
 
-## ステップ 3: PDF にエクスポートする
+## 手順 3: PDF へエクスポート
 
 生成された PDF ファイルの出力パスを指定し、設定した PDF オプションで画像を保存します。この手順で **pdf cad** ファイルが配布可能な形で作成されます。
 
@@ -97,54 +100,71 @@ image.save(outPath, pdfOptions);
 
 ## よくある問題と解決策
 
-| 問題 | 発生原因 | 解決方法 |
+| 問題 | 発生理由 | 解決方法 |
 |-------|----------------|------------|
-| **PDF に空白ページがある** | ラスタライズ オプションが設定されていないか、デフォルトのサイズが小さすぎる | ソース図面の寸法に合わせて `setPageWidth` / `setPageHeight` を調整してください |
-| **出力品質が低い** | デフォルトのラスタライズ DPI が低い | `rasterizationOptions.setResolution(300);` を使用して DPI を上げてください |
-| **サポートされていない CAD 形式** | ファイル形式が Aspose.CAD のサポート対象リストに含まれていません | 読み込む前に、ファイルをサポートされている形式 (例: DWG、DWF、DXF) に変換してください |
+| **PDF の空白ページ** | ラスタライズオプションが設定されていない、またはデフォルトサイズが小さすぎる | ソース図面の寸法に合わせて `setPageWidth` / `setPageHeight` を調整してください |
+| **低品質の出力** | デフォルトのラスタライズ DPI が低い | `rasterizationOptions.setResolution(300);` を使用して DPI を上げ、**PDF の解像度を上げる** |
+| **サポートされていない CAD フォーマット** | ファイルタイプが Aspose.CAD のサポートリストに含まれていない | ロードする前に、サポートされているフォーマット（例: DWG、DWF、DXF）に変換してください |
 
 ## よくある質問
 
-### Q1: Aspose.CAD はすべての CAD ファイル形式と互換性がありますか？
+### Q1: Aspose.CAD はすべての CAD ファイル形式に対応していますか？
 
-A1: はい。Aspose.CAD は幅広い CAD 形式をサポートしており、様々な設計ソフトウェアとの互換性を確保しています。
+A1: はい、Aspose.CAD は幅広い CAD フォーマットをサポートしており、さまざまな設計ソフトウェアとの互換性を確保しています。
 
 ### Q2: PDF 出力設定をカスタマイズできますか？
 
-A2: もちろんです。チュートリアルではカスタマイズオプションの概要を紹介していますが、さらに詳しく調べて **CAD PDF をラスタライズ** し、ニーズに合わせて出力をカスタマイズすることもできます。
+A2: もちろんです。チュートリアルではカスタマイズオプションの一部を紹介していますが、**rasterize cad pdf** を活用してさらに詳細に出力を調整できます。
 
-### Q3: Aspose.CAD の追加サポートはどこで受けられますか？
+### Q3: Aspose.CAD の追加サポートはどこで得られますか？
 
-A3: ご質問や問題がある場合は、[Aspose.CAD フォーラム](https://forum.aspose.com/c/cad/19) にアクセスしてコミュニティのサポートを受けてください。
+A3: ご質問や問題がある場合は、[Aspose.CAD フォーラム](https://forum.aspose.com/c/cad/19) でコミュニティに相談してください。
 
 ### Q4: 無料トライアルはありますか？
 
-A4: はい。Aspose.CAD の無料トライアルは [こちら](https://releases.aspose.com/) からご利用いただけます。
+A4: はい、Aspose.CAD の無料トライアルは [here](https://releases.aspose.com/) から入手できます。
 
-### Q5: Aspose.CAD の一時ライセンスを取得するにはどうすればよいですか？
+### Q5: Aspose.CAD の一時ライセンスはどこで取得できますか？
 
-A5: 一時ライセンスについては、[こちらのリンク](https://purchase.aspose.com/temporary-license/) をご覧ください。
+A5: 一時ライセンスについては、[this link](https://purchase.aspose.com/temporary-license/) をご覧ください。
 
-## その他のよくある質問
+## 追加の FAQ
 
-**Q: より滑らかな線を描くためにラスタライズモードを変更するにはどうすればよいですか？**
-A: 保存前に `rasterizationOptions.setSmoothingMode(SmoothingMode.AntiAlias);` を設定してください。
+**Q: スムーズな線のためにラスタライズモードを変更するには？**  
+A: 保存前に `rasterizationOptions.setSmoothingMode(SmoothingMode.AntiAlias);` を設定します。
 
-**Q: 複数の CAD ファイルを一括エクスポートできますか？**
-A: はい。読み込みと保存のロジックをループで囲み、同じ `PdfOptions` インスタンスを再利用してください。
+**Q: 複数の CAD ファイルをバッチでエクスポートできますか？**  
+A: はい—ロードと保存のロジックをループで囲み、同じ `PdfOptions` インスタンスを再利用します。これにより **batch convert cad pdf** シナリオが実現できます。
 
-**Q: ライブラリはパスワード保護された PDF をサポートしていますか？**
-A: PDF の暗号化は Aspose.CAD には含まれていません。セキュリティを強化するために、Aspose.PDF を使用して PDF を後処理できます。
+**Q: ライブラリはパスワード保護された PDF をサポートしていますか？**  
+A: PDF 暗号化は Aspose.CAD の機能には含まれていませんが、Aspose.PDF で後処理してセキュリティを追加できます。
 
-## まとめ
+## FAQ – クイックリファレンス
 
-このチュートリアルでは、**dwg to pdf java** を使用して Aspose.CAD で CAD 図面を PDF に変換する手順をステップバイステップで解説しました。これらの手順に従うことで、デスクトップ、Web、マイクロサービスなどのさまざまなアーキテクチャに PDF エクスポート機能を簡単に組み込むことができ、ラスタライズやレイアウトに対する完全なコントロールを維持できます。
+**Q: DWG 変換時に PDF ページサイズを設定するには？**  
+A: `image.save()` を呼び出す前に `rasterizationOptions.setPageWidth(width)` と `rasterizationOptions.setPageHeight(height)` を使用します。
+
+**Q: **PDF の解像度を上げる** 設定は何ですか？**  
+A: `rasterizationOptions.setResolution(300);`（またはそれ以上）を呼び出して出力 DPI を向上させます。
+
+**Q: このコードをマイクロサービスで使用できますか？**  
+A: はい、ライブラリは純粋な Java で、コンテナ化環境やサーバーレス環境でも問題なく動作します。
+
+**Q: バッチで変換できるファイル数に制限はありますか？**  
+A: 制限はシステムのメモリと CPU に依存します。同じ `PdfOptions` を再利用することでリソース使用量を抑えられます。
+
+**Q: DWG から DXF など別の CAD フォーマットに切り替えるには？**  
+A: `fileName` の拡張子を変更するだけで、Aspose.CAD が自動的にフォーマットを検出します。
+
+## 結論
+
+本チュートリアルでは、Aspose.CAD を使用した **dwg to pdf java** のステップバイステップ変換プロセスを解説し、**set PDF page size** と関連する **pdf export options** に焦点を当てました。これらの手順に従うことで、デスクトップ、Web、マイクロサービス環境への PDF エクスポート統合が容易になり、ラスタライズ、レイアウト、解像度を完全にコントロールできます。
 
 ---
 
-**最終更新日:** 2025年12月22日
-**テスト環境:** Aspose.CAD for Java 24.12
-**作成者:** Aspose
+**Last Updated:** 2026-02-23  
+**Tested With:** Aspose.CAD for Java 24.12  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

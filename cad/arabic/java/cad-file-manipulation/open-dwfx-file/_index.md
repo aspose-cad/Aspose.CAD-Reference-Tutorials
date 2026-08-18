@@ -1,35 +1,62 @@
 ---
-title: افتح ملف DWFX باستخدام Aspose.CAD لـ Java
-linktitle: افتح ملف دي دبليو إف إكس
-second_title: Aspose.CAD جافا API
-description: أطلق العنان لإمكانات ملفات CAD باستخدام Aspose.CAD لـ Java. تحويل DWFX إلى PDF بسلاسة.
-weight: 10
+date: 2026-02-23
+description: تعلم كيفية تحويل DWFX إلى PDF وحفظ ملفات CAD كـ PDF باستخدام Aspose.CAD
+  للـ Java. دليل سريع لفتح ملفات DWFX وإنشاء ملفات PDF.
+linktitle: Open DWFX File
+second_title: Aspose.CAD Java API
+title: تحويل DWFX إلى PDF باستخدام Aspose.CAD للغة Java
 url: /ar/java/cad-file-manipulation/open-dwfx-file/
+weight: 10
 ---
 
-{{< blocks/products/pf/main-wrap-class >}}
+0}} etc. Keep them unchanged.
+
+Make sure no extra spaces.
+
+Proceed to final.{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# افتح ملف DWFX باستخدام Aspose.CAD لـ Java
+# تحويل DWFX إلى PDF باستخدام Aspose.CAD للـ Java
 
 ## مقدمة
 
-في عالم التكنولوجيا سريع التطور، تلعب ملفات التصميم بمساعدة الكمبيوتر (CAD) دورًا حاسمًا في مختلف الصناعات. يظهر Aspose.CAD for Java كأداة قوية تمكن المطورين من التعامل مع ملفات CAD بكفاءة. في هذا الدليل الشامل، سنرشدك خلال عملية فتح ملف DWFX وتحويله إلى ملف PDF باستخدام Aspose.CAD لـ Java.
+في عالم التصميم السريع اليوم، يحتاج المطورون غالبًا إلى **convert DWFX to PDF** حتى يمكن مشاركة رسومات CAD مع أصحاب المصلحة غير التقنيين. تجعل Aspose.CAD للـ Java هذه المهمة بسيطة، حيث تسمح لك بفتح ملف DWFX، تحويله إلى صورة نقطية، و**save CAD as PDF** ببضع أسطر من الشيفرة فقط. في هذا الدرس سنستعرض العملية بالكامل — من إعداد بيئتك إلى التحقق من ملف PDF النهائي — لتتمكن من التعامل بثقة مع ملفات DWFX في تطبيقات Java الخاصة بك.
 
-## المتطلبات الأساسية
+## إجابات سريعة
+- **What is the primary purpose of this guide?** ما هو الهدف الأساسي من هذا الدليل؟  
+  لإظهار كيفية تحويل DWFX إلى PDF باستخدام Aspose.CAD للـ Java.  
+- **Which library is required?** ما المكتبة المطلوبة؟  
+  Aspose.CAD للـ Java (قم بتنزيله من الموقع الرسمي لـ Aspose).  
+- **Do I need a license?** هل أحتاج إلى ترخيص؟  
+  الإصدار التجريبي المجاني يعمل للتطوير؛ يتطلب الترخيص التجاري للإنتاج.  
+- **Can I open DWFX files directly?** هل يمكنني فتح ملفات DWFX مباشرةً؟  
+  نعم، استخدم `Image.load` لفتح ملفات DWFX.  
+- **What output format does the example produce?** ما هو تنسيق الإخراج الذي ينتجه المثال؟  
+  ملف PDF يُحفظ في دليل الإخراج المحدد.
 
-قبل أن نتعمق في البرنامج التعليمي، تأكد من توفر المتطلبات الأساسية التالية:
+## ما هو “convert DWFX to PDF”؟
 
--  Aspose.CAD لمكتبة Java: تأكد من دمج مكتبة Aspose.CAD في مشروع Java الخاص بك. إذا لم يكن الأمر كذلك، يمكنك تنزيله من[صفحة تنزيل Aspose.CAD لـ Java](https://releases.aspose.com/cad/java/).
+تحويل DWFX إلى PDF يعني أخذ رسم DWFX قائم على المتجهات — يُستخدم عادةً في منتجات Autodesk — وتحويله إلى مستند PDF محمول ومدعوم على نطاق واسع. يتيح ذلك عرضًا وطباعةً ومشاركةً سهلة دون الحاجة إلى برنامج CAD لدى الطرف المستلم.
 
-- بيئة تطوير Java: تأكد من إعداد بيئة تطوير Java على جهازك.
+## لماذا تستخدم Aspose.CAD للـ Java لـ **save CAD as PDF**؟
 
-- ملف DWFX: ستحتاج إلى ملف DWFX للمتابعة مع البرنامج التعليمي. إذا لم يكن لديك واحد، يمكنك استخدام نموذج ملف DWFX للاختبار.
+- **No external dependencies:** لا توجد تبعيات خارجية: واجهة برمجة تطبيقات Java خالصة، لا حاجة لمحركات CAD الأصلية.  
+- **High‑fidelity rendering:** عرض عالي الدقة: يحافظ على أوزان الخطوط، الألوان، والطبقات.  
+- **Batch processing friendly:** ملائم للمعالجة الدفعية: مثالي لأتمتة الخادم أو الخدمات السحابية.  
+- **Cross‑platform:** متعدد المنصات: يعمل على Windows وLinux وmacOS.
 
-## استيراد مساحات الأسماء
+## المتطلبات المسبقة
 
-في هذه الخطوة، سنقوم باستيراد مساحات الأسماء اللازمة لبدء مشروعنا.
+قبل الغوص في الشيفرة، تأكد من وجود ما يلي:
+
+- **Aspose.CAD for Java Library** – قم بتنزيله من [Aspose.CAD for Java download page](https://releases.aspose.com/cad/java/).  
+- **Java Development Environment** – JDK 8 أو أحدث، مع IDE أو أداة بناء مفضلة.  
+- **DWFX File** – ملف DWFX تجريبي (مثل `Tyrannosaurus.dwfx`) لاختبار التحويل.
+
+## استيراد المساحات الاسمية
+
+أولاً، استورد الفئات التي سنحتاجها:
 
 ```java
 import com.aspose.cad.Image;
@@ -39,11 +66,11 @@ import com.aspose.cad.imageoptions.CadRasterizationOptions;
 import com.aspose.cad.imageoptions.PdfOptions;
 ```
 
-## قم بتحويل DWFX إلى PDF باستخدام Aspose.CAD لـ Java
+## كيفية تحويل DWFX إلى PDF باستخدام Aspose.CAD للـ Java
 
-الآن، دعنا نقسم عملية فتح ملف DWFX وتحويله إلى ملف PDF إلى خطوات متعددة.
+فيما يلي تفصيل خطوة بخطوة. كل خطوة تتضمن شرحًا قصيرًا يليه الشيفرة الدقيقة التي ستنفذها.
 
-### الخطوة 1: تحميل ملف DWFX
+### الخطوة 1: تحميل ملف DWFX  
 
 ```java
 String SourceDir = Utils.getDataDir_DWFXDrawings();
@@ -53,9 +80,9 @@ String filePath = SourceDir + "Tyrannosaurus.dwfx";
 Image cadImageDwf = Image.load(filePath);
 ```
 
-في هذه الخطوة، نقوم بتحميل ملف DWFX باستخدام ملف`Image.load` طريقة.
+طريقة `Image.load` تقرأ ملف DWFX إلى الذاكرة، وتمنحنا كائن `CadImage` جاهزًا للتحويل النقطي.
 
-### الخطوة 2: تعيين خيارات التنقيط
+### الخطوة 2: تعيين خيارات التحويل النقطي  
 
 ```java
 CadRasterizationOptions rasterizationOptions = new CadRasterizationOptions();
@@ -63,58 +90,64 @@ rasterizationOptions.setPageWidth(cadImageDwf.getSize().getWidth());
 rasterizationOptions.setPageHeight(cadImageDwf.getSize().getHeight());
 ```
 
-قم بتكوين خيارات التنقيط لملف CAD، مما يضمن عرض الصفحة وارتفاعها المناسبين.
+تحدد هذه الخيارات حجم الصفحة الناتجة، مما يضمن أن يتطابق PDF مع أبعاد الرسم الأصلي.
 
-### الخطوة 3: تكوين خيارات PDF
+### الخطوة 3: تكوين خيارات PDF  
 
 ```java
 PdfOptions CADf = new PdfOptions();
 CADf.setVectorRasterizationOptions(rasterizationOptions);
 ```
 
-قم بإعداد خيارات PDF وربط خيارات التنقيط بتكوين PDF.
+هنا نربط إعدادات التحويل النقطي بتكوين تصدير PDF.
 
-### الخطوة 4: احفظ بصيغة PDF
+### الخطوة 4: حفظ كملف PDF  
 
 ```java
 cadImageDwf.save(OutputDir + "OpenDwfxFile_out.pdf", CADf);
 ```
 
-احفظ ملف PDF المحول إلى دليل الإخراج المحدد.
+استدعاء `save` يكتب الصورة المُحوَّلة إلى ملف PDF في مجلد الإخراج.
 
-### الخطوة 5: التحقق من النجاح
+### الخطوة 5: التحقق من النجاح  
 
 ```java
 System.out.println("OpenDwfxFile executed successfully");
 ```
 
-اطبع رسالة نجاح للتأكد من أن عملية التحويل من DWFX إلى PDF قد تم تنفيذها دون أخطاء.
+رسالة بسيطة في وحدة التحكم تؤكد أن التحويل اكتمل دون أخطاء.
 
-## خاتمة
+## المشكلات الشائعة والحلول
 
-يوفر Aspose.CAD for Java حلاً سلسًا للعمل مع ملفات CAD، مما يوفر للمطورين المرونة اللازمة لتحويل ملفات DWFX إلى PDF بسهولة. باتباع هذا الدليل المفصّل خطوة بخطوة، تكون قد أطلقت العنان لإمكانات Aspose.CAD لـ Java في التعامل مع ملفات CAD بكفاءة.
+| المشكلة | السبب المحتمل | الحل |
+|-------|--------------|----------|
+| **Blank PDF output** | تم ضبط عرض/ارتفاع التحويل النقطي إلى 0 | تأكد من أن `cadImageDwf.getSize()` يعيد أبعادًا صالحة قبل ضبط الخيارات. |
+| **Out‑of‑memory error** | ملف DWFX كبير جدًا | زيادة حجم الذاكرة المخصصة للـ JVM (`-Xmx2g`) أو معالجة الملف بأقسام أصغر. |
+| **Missing fonts** | الخط غير مضمن في ملف DWFX المصدر | قم بتثبيت الخطوط المطلوبة على الخادم أو استخدم `CadRasterizationOptions.setFontName` لتحديد بديل. |
 
-## الأسئلة الشائعة
+## الأسئلة المتكررة
 
-### س1: هل يمكنني استخدام Aspose.CAD لـ Java مع تنسيقات ملفات CAD الأخرى؟
+### Q1: هل يمكنني استخدام Aspose.CAD للـ Java مع صيغ CAD أخرى؟
+نعم، يدعم Aspose.CAD للـ Java مجموعة واسعة من صيغ CAD، مما يوفر حلاً متعدد الاستخدامات للمطورين.
 
-ج1: نعم، يدعم Aspose.CAD for Java تنسيقات ملفات CAD المتنوعة، مما يوفر حلاً متعدد الاستخدامات للمطورين.
+### Q2: هل تتوفر نسخة تجريبية مجانية لـ Aspose.CAD للـ Java؟
+نعم، يمكنك استكشاف قدرات Aspose.CAD للـ Java من خلال نسخة تجريبية مجانية. زر [this link](https://releases.aspose.com/) للبدء.
 
-### س2: هل تتوفر نسخة تجريبية مجانية من Aspose.CAD لـ Java؟
+### Q3: كيف يمكنني الحصول على دعم لـ Aspose.CAD للـ Java؟
+انضم إلى مجتمع Aspose.CAD على [support forum](https://forum.aspose.com/c/cad/19) للحصول على المساعدة والتعاون.
 
-ج2: نعم، يمكنك استكشاف إمكانيات Aspose.CAD لـ Java من خلال النسخة التجريبية المجانية. يزور[هذا الرابط](https://releases.aspose.com/) للبدء.
+### Q4: هل تتوفر تراخيص مؤقتة لـ Aspose.CAD للـ Java؟
+نعم، يمكنك الحصول على ترخيص مؤقت لـ Aspose.CAD للـ Java. زر [this link](https://purchase.aspose.com/temporary-license/) لمزيد من التفاصيل.
 
-### س3: كيف يمكنني الحصول على دعم Aspose.CAD لـ Java؟
+### Q5: أين يمكنني العثور على الوثائق الخاصة بـ Aspose.CAD للـ Java؟
+الوثائق الشاملة متاحة [here](https://reference.aspose.com/cad/java/).
 
- ج3: انضم إلى مجتمع Aspose.CAD على[منتدى الدعم](https://forum.aspose.com/c/cad/19) للمساعدة والتعاون.
+---
 
-### س4: هل التراخيص المؤقتة متاحة لـ Aspose.CAD لـ Java؟
+**آخر تحديث:** 2026-02-23  
+**تم الاختبار مع:** Aspose.CAD للـ Java 24.11  
+**المؤلف:** Aspose  
 
- ج4: نعم، يمكنك الحصول على ترخيص مؤقت لـ Aspose.CAD لـ Java. يزور[هذا الرابط](https://purchase.aspose.com/temporary-license/) لمزيد من التفاصيل.
-
-### س5: أين يمكنني العثور على الوثائق الخاصة بـ Aspose.CAD لـ Java؟
-
- ج5: الوثائق الشاملة متاحة[هنا](https://reference.aspose.com/cad/java/).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
