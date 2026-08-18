@@ -1,5 +1,5 @@
 ---
-title: How to Read DWG and List Layouts in DWG Using Aspose.CAD for Java
+title: Extract Layout Information from CAD Files Using Java
 linktitle: List Layouts in DWG
 second_title: Aspose.CAD Java API
 description: Learn how to read DWG files using Aspose.CAD for Java and effortlessly list layouts in DWG files. Integrate powerful CAD functionality into your Java applications.
@@ -56,7 +56,7 @@ import com.aspose.cad.fileformats.cad.CadLayoutDictionary;
 import com.aspose.cad.fileformats.cad.cadobjects.CadLayout;
 ```
 
-## Step 1: Set up Your Document Directory
+## Step 1: set up your document directory
 
 ```java
 String dataDir = "Your Document Directory" + "CADConversion/";
@@ -64,7 +64,7 @@ String dataDir = "Your Document Directory" + "CADConversion/";
 
 Replace **“Your Document Directory”** with the absolute path where your CAD files reside. On Linux you might use a path like `/home/user/cad/`.
 
-## Step 2: Load the DWG File
+## Step 2: load the DWG file
 
 ```java
 String sourceFilePath = dataDir + "conic_pyramid.dxf";
@@ -74,7 +74,7 @@ CadImage cadImage = (CadImage)image;
 
 The `Image.load` method detects the file format automatically, so the same code works for both **DWG** and **DXF** files.
 
-## Step 3: Get Layouts and Print Names
+## Step 3: get layouts and print names
 
 ```java
 CadLayoutDictionary layouts = cadImage.getLayouts();
@@ -90,7 +90,7 @@ The loop iterates over every layout object and prints its name to the console �
 
 If you later need to turn a specific layout into a PDF, Aspose.CAD can render the layout to an image and then you can use Aspose.PDF (or any other PDF library) to embed that image into a PDF document. The conversion code is identical on Linux because the API is pure Java.
 
-## Common Pitfalls & Tips
+## Common pitfalls & tips
 
 - **Incorrect file path** – Double‑check that `dataDir` ends with a separator (`/` or `\\`) appropriate for your OS.  
 - **Unsupported DWG version** – Ensure you are using a recent Aspose.CAD version; older DWG versions may need conversion.  
@@ -101,13 +101,13 @@ If you later need to turn a specific layout into a PDF, Aspose.CAD can render th
 
 Congratulations! You now know **how to read dwg** and list its layouts using Aspose.CAD for Java. This technique forms the foundation for more advanced CAD automation, such as exporting specific layouts to images, PDFs, or even converting DWG to PDF on Linux. For deeper exploration, refer to the official [documentation](https://reference.aspose.com/cad/java/).
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 **Q1: Can I use Aspose.CAD for Java with other CAD file formats?**  
 A1: Yes, Aspose.CAD supports various CAD formats, including DWG, DXF, DWF, and more.
 
 **Q2: Is there a free trial available for Aspose.CAD for Java?**  
-A2: Yes, you can obtain a free trial from [here](https://releases.aspose.com/).
+A2: Yes, you can obtain a free trial from the [Aspose.CAD free trial page](https://releases.aspose.com/).
 
 **Q3: Where can I get community support for Aspose.CAD for Java?**  
 A3: Visit the [Aspose.CAD forum](https://forum.aspose.com/c/cad/19) for community support.
@@ -116,7 +116,7 @@ A3: Visit the [Aspose.CAD forum](https://forum.aspose.com/c/cad/19) for communit
 A4: You can buy a license from the [purchase page](https://purchase.aspose.com/buy).
 
 **Q5: Can I use a temporary license for testing purposes?**  
-A5: Yes, you can obtain a temporary license [here](https://purchase.aspose.com/temporary-license/).
+A5: Yes, you can obtain a temporary license from the [temporary license page](https://purchase.aspose.com/temporary-license/).
 
 **Additional Questions**
 

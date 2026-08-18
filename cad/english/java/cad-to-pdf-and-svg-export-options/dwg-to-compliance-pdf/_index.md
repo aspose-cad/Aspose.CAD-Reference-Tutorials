@@ -1,5 +1,5 @@
 ---
-title: Convert DWG to PDF (PDF/A1a & A1b) using Aspose.CAD for Java
+title: Convert DWG to PDF/A1a & PDF/A1b using Aspose.CAD for Java
 linktitle: DWG to Compliance PDF
 second_title: Aspose.CAD Java API
 description: Learn how to convert DWG to PDF with Aspose.CAD for Java, creating PDF/A1a and PDF/A1b compliant files quickly and accurately.
@@ -12,7 +12,7 @@ date: 2026-02-28
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Convert DWG to PDF (PDF/A1a & A1b) using Aspose.CAD for Java
+# Convert DWG to PDF/A1a & PDF/A1b using Aspose.CAD for Java
 
 ## Introduction
 
@@ -39,7 +39,7 @@ Converting a DWG drawing to a PDF creates a universally viewable document while 
 Before you start, make sure you have:
 
 - A Java development environment (JDK 8 or newer) with your favorite IDE.  
-- The Aspose.CAD for Java library – download it from the [download link](https://releases.aspose.com/cad/java/).  
+- The Aspose.CAD for Java library – download it from the **Aspose.CAD for Java download page**.  
 - A folder that contains the DWG drawings you want to convert.
 
 ## Import Namespaces
@@ -55,7 +55,7 @@ import com.aspose.cad.imageoptions.PdfDocumentOptions;
 import com.aspose.cad.imageoptions.PdfOptions;
 ```
 
-## Step 1: Set the Resource Directory
+## Step 1: set the resource directory
 
 Define the path where your DWG files live. Adjust the string to point to your actual directory.
 
@@ -63,7 +63,7 @@ Define the path where your DWG files live. Adjust the string to point to your ac
 String dataDir = "Your Document Directory" + "DWGDrawings/";
 ```
 
-## Step 2: Load the DWG File
+## Step 2: load the DWG file
 
 Use `Image.load` to read the DWG file into memory. This object will later be saved as a PDF.
 
@@ -72,7 +72,7 @@ String srcFile = dataDir + "Bottom_plate.dwg";
 Image objImage = Image.load(srcFile);
 ```
 
-## Step 3: Create PDF Options
+## Step 3: create PDF options
 
 Create a `PdfOptions` instance and attach a `CadRasterizationOptions` object. The rasterization options let you control how vector data is rendered inside the PDF.
 
@@ -90,7 +90,7 @@ pdfOptions.setCorePdfOptions(new PdfDocumentOptions());
 pdfOptions.getCorePdfOptions().setCompliance(PdfCompliance.PdfA1a);
 ```
 
-## Step 5: Save PDF with PDF/A‑1a Compliance
+## Step 5: save PDF with pDF/A‑1a compliance
 
 Now write the PDF file to disk. The output file will be PDF/A‑1a compliant, ready for archival.
 
@@ -98,7 +98,7 @@ Now write the PDF file to disk. The output file will be PDF/A‑1a compliant, re
 objImage.save(dataDir + "Saved1.pdf", pdfOptions);
 ```
 
-## Step 6: Change Compliance to PDF/A‑1b and Save Again
+## Step 6: change compliance to pDF/A‑1b and save again
 
 If you need PDF/A‑1b instead, just switch the compliance flag and save a second file.
 
@@ -109,7 +109,7 @@ objImage.save(dataDir + "Saved.pdf", pdfOptions);
 
 > **Pro tip:** Wrap the conversion logic in a reusable method so you can call it for every DWG in a folder, reducing boilerplate and improving maintainability.
 
-## Common Use Cases
+## Common use cases
 
 | Scenario | Why PDF/A? |
 |----------|------------|
@@ -117,13 +117,13 @@ objImage.save(dataDir + "Saved.pdf", pdfOptions);
 | **Client deliverables** | Clients can open the file without any CAD software. |
 | **Document management systems** | PDF/A files are indexed and searchable in most DMS platforms. |
 
-## Common Issues and Solutions
+## Common issues and solutions
 
 - **Missing fonts or symbols** – Ensure the DWG file embeds all required fonts, or set `CadRasterizationOptions.setEmbedFonts(true)`.  
 - **Large file size** – Reduce DPI in rasterization options or enable compression via `PdfDocumentOptions.setCompress(true)`.  
 - **License not found** – Apply a temporary or permanent license before conversion; otherwise you’ll get a watermark.
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 **Q: Is Aspose.CAD compatible with all versions of DWG files?**  
 A: Aspose.CAD supports a wide range of DWG versions, including the latest releases. See the [documentation](https://reference.aspose.com/cad/java/) for a detailed compatibility list.
@@ -132,13 +132,13 @@ A: Aspose.CAD supports a wide range of DWG versions, including the latest releas
 A: Absolutely! Options such as page size, DPI, vector rasterization, and PDF/A compliance are all configurable through `PdfOptions` and `CadRasterizationOptions`.
 
 **Q: Is a temporary license available for testing?**  
-A: Yes, you can obtain a temporary license for evaluation from [this link](https://purchase.aspose.com/temporary-license/).
+A: Yes, you can obtain a temporary license for evaluation from the **temporary license page**.
 
 **Q: Where can I get community support?**  
 A: The [Aspose.CAD forum](https://forum.aspose.com/c/cad/19) is a great place to ask questions and share experiences.
 
 **Q: Can I try Aspose.CAD for free before purchasing?**  
-A: Certainly! Download the free trial version from [here](https://releases.aspose.com/) to explore the full feature set.
+A: Certainly! Download the free trial version from the **free trial download page** to explore the full feature set.
 
 ---
 
