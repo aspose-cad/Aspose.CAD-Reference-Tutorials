@@ -1,5 +1,5 @@
 ---
-title: Convert DGN to PDF (3D Support) with Aspose.CAD for .NET
+title: Add 3D Support and Export DGN Files Using .NET
 linktitle: 3D Support for DGN V7
 second_title: Aspose.CAD .NET - CAD and BIM File Format
 description: Learn how to convert DGN to PDF (and PNG) with 3D support for DGN V7 using Aspose.CAD for .NET – step‑by‑step guide.
@@ -12,7 +12,7 @@ date: 2026-03-24
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Convert DGN to PDF (3D Support) with Aspose.CAD for .NET
+# Add 3D Support and Export DGN Files Using .NET
 
 ## Introduction
 
@@ -68,7 +68,7 @@ string sourceFilePath = MyDir + "Nikon_D90_Camera.dgn";
 
 > **Pro tip:** Use `Path.Combine` for platform‑independent path construction.
 
-## Step 2: Load the DGN File
+## Step 2: load the DGN file
 
 Create a `DgnImage` instance by loading the file with `Image.Load`. This step prepares the CAD data for rasterization.
 
@@ -79,7 +79,7 @@ using (DgnImage dgnImage = (DgnImage)Image.Load(sourceFilePath))
 }
 ```
 
-## Step 3: Configure Export Options
+## Step 3: configure export options
 
 Set up `PdfOptions` together with `CadRasterizationOptions`. Here you control page size, background, and which layouts (views) to export.
 
@@ -100,7 +100,7 @@ var options = new PdfOptions
 
 If you need to **convert DGN to PNG** instead, simply replace `PdfOptions` with `PngOptions` while keeping the same rasterization settings.
 
-## Step 4: Save the Result
+## Step 4: save the result
 
 Finally, write the rendered output to the desired location.
 
@@ -111,7 +111,7 @@ dgnImage.Save(outFile, options);
 
 After execution, you’ll find a PDF file (or PNG if you changed the options) that faithfully represents the original 3‑D DGN drawing.
 
-## Common Issues & Tips
+## Common issues & tips
 
 - **Missing layouts:** Ensure the layout names in `Layouts` match those in the DGN file; otherwise they will be ignored.  
 - **Large files:** Increase `PageWidth`/`PageHeight` gradually to avoid high memory consumption.  

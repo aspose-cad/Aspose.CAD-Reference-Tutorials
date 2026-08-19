@@ -1,5 +1,5 @@
 ---
-title: Convert DWG to PDF with Mesh Support in Aspose.CAD for .NET
+title: How to Convert DWG to PDF with Mesh Support Using Aspose.CAD for .NET
 linktitle: Mesh Support
 second_title: Aspose.CAD .NET - CAD and BIM File Format
 description: Learn how to convert DWG to PDF using Aspose.CAD for .NET, including mesh support, save CAD as PDF, and c# CAD to PDF examples.
@@ -40,7 +40,7 @@ Before diving into the mesh support tutorial, make sure you have the following p
 
 1. Install Aspose.CAD for .NET: If you haven't already, download and install Aspose.CAD for .NET from the [download page](https://releases.aspose.com/cad/net/).
 
-2. Obtain a License: To use Aspose.CAD in your project, ensure you have a valid license. You can acquire one from [here](https://purchase.aspose.com/buy) or explore the [temporary license option](https://purchase.aspose.com/temporary-license/) for a trial period.
+2. Obtain a License: To use Aspose.CAD in your project, ensure you have a valid license. You can acquire one from the [Aspose.CAD purchase page](https://purchase.aspose.com/buy) or explore the [temporary license option](https://purchase.aspose.com/temporary-license/) for a trial period.
 
 3. Set Up Your Development Environment: Make sure your development environment is configured correctly, and you have a basic understanding of working with .NET applications.
 
@@ -59,20 +59,20 @@ using System.Linq;
 using System.Text;
 ```
 
-## Step 1: Define Your Document Directory
+## Step 1: define your document directory
 
 ```csharp
 string MyDir = "Your Document Directory";
 ```
 
-## Step 2: Specify Source and Output Paths
+## Step 2: specify source and output paths
 
 ```csharp
 string sourceFilePath = MyDir + "meshes.dwg";
 string outPath = MyDir + "meshes.pdf";
 ```
 
-## Step 3: Load CAD Image and Configure Rasterization Options
+## Step 3: load CAD image and configure rasterization options
 
 ```csharp
 using (CadImage cadImage = (CadImage)Image.Load(sourceFilePath))
@@ -88,7 +88,7 @@ using (CadImage cadImage = (CadImage)Image.Load(sourceFilePath))
     };
 ```
 
-## Step 4: Save the Processed Image
+## Step 4: save the processed image
 
 ```csharp
     cadImage.Save(outPath, pdfOptions);
@@ -97,7 +97,7 @@ using (CadImage cadImage = (CadImage)Image.Load(sourceFilePath))
 
 Congratulations! You've successfully utilized mesh support in Aspose.CAD for .NET to **convert DWG to PDF** and **save CAD as PDF**. Feel free to explore more features and customize the code according to your project requirements.
 
-## Common Issues and Solutions
+## Common issues and solutions
 
 | Issue | Solution |
 |-------|----------|
@@ -105,7 +105,7 @@ Congratulations! You've successfully utilized mesh support in Aspose.CAD for .NE
 | **Output PDF is too large** | Reduce `PageWidth`/`PageHeight` or enable compression via `PdfOptions.CompressionLevel`. |
 | **License not applied** | Call `Aspose.CAD.License license = new Aspose.CAD.License(); license.SetLicense("Aspose.CAD.lic");` before loading the image. |
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 ### Q1: Is Aspose.CAD compatible with various CAD file formats?
 

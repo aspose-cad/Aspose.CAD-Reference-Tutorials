@@ -1,5 +1,5 @@
 ---
-title: How to Convert DGN to PNG in Aspose.CAD for .NET
+title: How to Export DGN to PNG Using Aspose.CAD for .NET
 linktitle: Export DGN to Raster Image
 second_title: Aspose.CAD .NET - CAD and BIM File Format
 description: Learn how to convert dgn to png and save cad as jpeg using Aspose.CAD for .NET – a quick guide for CAD to image conversion.
@@ -52,7 +52,7 @@ using System.Threading.Tasks;
 using Aspose.CAD;
 ```
 
-## Step 1: Load the DGN File
+## Step 1: load the DGN file
 
 Load the source DGN into a `CadImage` object. This object represents the CAD drawing in memory and will be the source for rasterization.
 
@@ -66,7 +66,7 @@ using (CadImage cadImage = (CadImage)Image.Load(sourceFilePath))
 }
 ```
 
-## Step 2: Define Rasterization Options
+## Step 2: define rasterization options
 
 Configure how the CAD drawing should be rasterized. You can control image size, scaling, and background color here.
 
@@ -89,7 +89,7 @@ options.VectorRasterizationOptions = rasterizationOptions;
 
 > **Pro tip:** To generate a PNG file, replace `new JpegOptions()` with `new PngOptions()`.
 
-## Step 4: Save the Raster Image
+## Step 4: save the raster image
 
 Finally, call `Save` on the `CadImage` instance, providing the desired file name and the options object you configured.
 
@@ -99,7 +99,7 @@ cadImage.Save(MyDir + "ExportDGNToRasterImage_out.jpg", options);
 
 If you switched to `PngOptions`, the file will be saved as `ExportDGNToRasterImage_out.png`.
 
-## Common Issues and Solutions
+## Common issues and solutions
 
 | Issue | Cause | Fix |
 |-------|-------|-----|
@@ -107,7 +107,7 @@ If you switched to `PngOptions`, the file will be saved as `ExportDGNToRasterIma
 | **Out‑of‑memory for large files** | Loading huge DGN without streaming | Use `Image.Load(sourceFilePath, new LoadOptions { LoadOnDemand = true })`. |
 | **Unsupported DGN version** | Older MicroStation versions | Ensure you have the latest Aspose.CAD version that supports legacy formats. |
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 **Q: Can I export DGN files to formats other than JPEG?**  
 A: Yes, Aspose.CAD for .NET supports PNG, BMP, GIF, TIFF, and more – just swap the options class (e.g., `new PngOptions()`).
@@ -116,13 +116,13 @@ A: Yes, Aspose.CAD for .NET supports PNG, BMP, GIF, TIFF, and more – just swap
 A: Wrap the conversion code in a `try/catch` block and log `Aspose.CAD.CadException` for detailed error information.
 
 **Q: Is there a trial version available for Aspose.CAD for .NET?**  
-A: Yes, you can explore the product with a free trial. Visit [here](https://releases.aspose.com/) for more information.
+A: Yes, you can explore the product with a free trial. Visit the [Aspose releases page](https://releases.aspose.com/) for more information.
 
 **Q: Where can I seek assistance or discuss issues related to Aspose.CAD for .NET?**  
 A: Head over to the [Aspose.CAD forum](https://forum.aspose.com/c/cad/19) for community support and discussions.
 
 **Q: How do I obtain a temporary license for Aspose.CAD for .NET?**  
-A: Visit [this link](https://purchase.aspose.com/temporary-license/) to acquire a temporary license for your development needs.
+A: Visit the [temporary license page](https://purchase.aspose.com/temporary-license/) to acquire a temporary license for your development needs.
 
 ## Conclusion
 

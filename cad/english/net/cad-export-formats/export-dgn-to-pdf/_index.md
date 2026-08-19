@@ -1,5 +1,5 @@
 ---
-title: Create PDF from CAD: Export DGN using Aspose.CAD for .NET
+title: 'Export DGN to PDF using Aspose.CAD for .NET'
 linktitle: Export DGN to PDF
 second_title: Aspose.CAD .NET - CAD and BIM File Format
 description: Learn how to create PDF from CAD by exporting DGN to PDF with Aspose.CAD for .NET – a quick, step‑by‑step guide for seamless CAD file conversion.
@@ -12,7 +12,7 @@ date: 2026-03-24
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Create PDF from CAD: Export DGN to PDF with Aspose.CAD for .NET
+# Export DGN to PDF using Aspose.CAD for .NET
 
 ## Introduction
 
@@ -39,7 +39,7 @@ Creating a PDF from CAD means converting a native CAD drawing (such as DGN, DWG,
 Before you start, make sure you have:
 
 - Basic knowledge of C# and the .NET ecosystem.  
-- Aspose.CAD for .NET installed. You can download it [here](https://releases.aspose.com/cad/net/).  
+- Aspose.CAD for .NET installed. You can [download Aspose.CAD for .NET](https://releases.aspose.com/cad/net/).  
 - A sample DGN file (e.g., **Nikon_D90_Camera.dgn**) placed in a folder you can reference from your code.
 
 ## Import Namespaces
@@ -57,7 +57,7 @@ using Aspose.CAD;
 
 ## Step‑by‑Step Guide
 
-### Step 1: Load the DGN File
+### Step 1: load the DGN file
 
 First, point to the directory that contains your DGN file and load it into a `DgnImage` object.
 
@@ -73,7 +73,7 @@ using (DgnImage cadImage = (DgnImage)Image.Load(sourceFilePath))
 
 > **Pro tip:** Wrap the loading logic in a `using` block to ensure the image resources are released automatically.
 
-### Step 2: Configure Rasterization Options
+### Step 2: configure rasterization options
 
 Rasterization determines how the CAD vectors are rendered onto the PDF page. Adjust the width, height, and scaling to match your layout requirements.
 
@@ -88,7 +88,7 @@ rasterizationOptions.AutomaticLayoutsScaling = false;
 > **Why these settings?**  
 > *`NoScaling = true`* preserves the original drawing size, while *`AutomaticLayoutsScaling = false`* stops Aspose.CAD from automatically resizing layouts, giving you full control.
 
-### Step 3: Create PDF Options
+### Step 3: create PDF options
 
 Link the rasterization settings to a `PdfOptions` instance, which tells Aspose.CAD to output a PDF document.
 
@@ -115,7 +115,7 @@ cadImage.Save(MyDir + "ExportDGNToPdf_out.pdf", pdfOptions);
 
 The code above serves as a **cad file PDF example** that you can adapt for batch processing or integrate into larger applications.
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 **Q: Can I use Aspose.CAD for .NET without prior CAD knowledge?**  
 A: Absolutely. Aspose.CAD abstracts the complexity of CAD file formats, allowing developers of any background to perform conversions.
@@ -124,10 +124,10 @@ A: Absolutely. Aspose.CAD abstracts the complexity of CAD file formats, allowing
 A: Explore the [documentation](https://reference.aspose.com/cad/net/) for comprehensive guides and code samples.
 
 **Q: Is there a free trial available for Aspose.CAD?**  
-A: Yes, you can get a free trial [here](https://releases.aspose.com/).
+A: Yes, you can [download a free trial](https://releases.aspose.com/).
 
 **Q: How can I obtain a temporary license for testing?**  
-A: Obtain temporary licenses [here](https://purchase.aspose.com/temporary-license/).
+A: You can [obtain a temporary license](https://purchase.aspose.com/temporary-license/).
 
 **Q: Need help or have questions?**  
 A: Visit the [Aspose.CAD forum](https://forum.aspose.com/c/cad/19) for community support.
