@@ -1,8 +1,8 @@
 ---
-title: Set CAD Rasterization Options – Export Specific Layouts to PDF - Aspose.CAD Guide
+title: Learn to Set CAD Rasterization Options – Export Specific Layouts to PDF with Aspose.CAD
 linktitle: Exporting Specific Layouts to PDF
 second_title: Aspose.CAD .NET - CAD and BIM File Format
-description: Learn how to set CAD rasterization options and export specific DWG layouts to PDF using Aspose.CAD for .NET – the definitive guide to create PDF from CAD file.
+description: Learn how to set CAD rasterization options and efficiently export specific DWG layouts to PDF using Aspose.CAD for .NET – the definitive guide to create PDF from CAD file.
 weight: 13
 url: /net/advanced-export-techniques/exporting-specific-layouts-to-pdf/
 date: 2026-03-13
@@ -42,7 +42,7 @@ In this tutorial you’ll discover **how to set CAD rasterization options** so y
 
 Before we dive into the code, ensure you have:
 
-- **Aspose.CAD for .NET** installed. You can download it [here](https://releases.aspose.com/cad/net/).  
+- **Aspose.CAD for .NET** installed. You can download it from the **Aspose.CAD for .NET download page**.  
 - A .NET development environment (Visual Studio, VS Code, or any IDE you prefer).  
 - A DWG file that contains at least one layout (the sample file used here is `visualization_-_conference_room.dwg`).
 
@@ -130,7 +130,7 @@ A quick console output confirms the operation succeeded.
 Console.WriteLine("\nThe DWG file with a specific layout exported successfully to PDF.\nFile saved at " + MyDir);
 ```
 
-## Common Issues & Solutions
+## Common issues & solutions
 
 | Issue | Cause | Fix |
 |-------|-------|-----|
@@ -138,7 +138,7 @@ Console.WriteLine("\nThe DWG file with a specific layout exported successfully t
 | **Blank pages** | `PageWidth`/`PageHeight` set to 0 or extremely small values. | Use realistic dimensions (e.g., 1600 × 1600) or let Aspose calculate automatically by omitting those properties. |
 | **Incorrect scaling** | DPI not set when high‑resolution output is required. | Set `rasterizationOptions.Resolution = 300;` (or desired DPI) before exporting. |
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 **Q: Can I export multiple layouts simultaneously?**  
 A: Yes, simply modify the `Layouts` array in Step 3 to include all desired layout names, e.g., `new string[] { "Layout1", "Layout2" }`.
@@ -153,7 +153,7 @@ A: Explore additional properties of `CadRasterizationOptions` such as `Resolutio
 A: Visit the [documentation](https://reference.aspose.com/cad/net/) for in‑depth API references and examples.
 
 **Q: Is there a free trial available?**  
-A: Yes, you can access the free trial [here](https://releases.aspose.com/).
+A: Yes, you can access the free trial **Aspose.CAD free trial page**.
 
 ## Conclusion
 

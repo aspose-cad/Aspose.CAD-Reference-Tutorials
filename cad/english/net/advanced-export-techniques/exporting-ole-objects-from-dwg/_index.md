@@ -50,7 +50,7 @@ using System.Text;
 
 ## Step‑by‑Step Guide
 
-### Step 1: Set the Document Directory
+### Step 1: set the document directory
 
 ```csharp
 string MyDir = "Your Document Directory";
@@ -89,13 +89,13 @@ foreach (string file in files)
 
 During this loop the library automatically **extracts OLE objects** embedded in each drawing and includes them in the generated PNG. If you need the raw OLE streams, you can access `cadImage.OleObjects` collection – a handy way to **how to extract ole** data programmatically.
 
-## Common Issues & Troubleshooting
+## Common issues & troubleshooting
 
 - **Missing layout name** – Ensure the layout you specify (`"Layout1"` in the example) exists in the source DWG; otherwise the rasterizer falls back to the default model space.
 - **Large files cause memory pressure** – Process files one at a time (as shown) and dispose of `CadImage` objects promptly with `using`.
 - **Unexpected colors** – Set `rasterizationOptions.BackgroundColor` to match the drawing’s background if transparency is required.
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 ### Q1: Is Aspose.CAD for .NET suitable for both junior and senior CAD files?
 A1: Yes, Aspose.CAD for .NET is versatile and can handle a wide range of CAD files, including both junior and senior variants.
@@ -107,7 +107,7 @@ A2: Absolutely! As shown in the tutorial, you can tailor export options, includi
 A3: Explore the [Aspose.CAD for .NET documentation](https://reference.aspose.com/cad/net/) for in‑depth information and examples.
 
 ### Q4: Is there a free trial available?
-A4: Yes, you can experience the capabilities of Aspose.CAD for .NET with a free trial. Visit [this link](https://releases.aspose.com/) to get started.
+A4: Yes, you can experience the capabilities of Aspose.CAD for .NET with a free trial. Visit the [Aspose.CAD free trial download page](https://releases.aspose.com/) to get started.
 
 ### Q5: How can I get support or connect with the community?
 A5: For support and community engagement, visit the [Aspose.CAD forum](https://forum.aspose.com/c/cad/19).
