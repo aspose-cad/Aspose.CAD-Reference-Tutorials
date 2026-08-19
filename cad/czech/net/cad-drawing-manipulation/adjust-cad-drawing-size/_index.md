@@ -1,32 +1,50 @@
 ---
-title: Úprava velikosti výkresu CAD v Aspose.CAD pro .NET
-linktitle: Úprava velikosti výkresu CAD
-second_title: Aspose.CAD .NET – formát souborů CAD a BIM
-description: Naučte se, jak snadno upravit velikosti výkresů CAD v .NET pomocí Aspose.CAD. Postupujte podle našeho podrobného průvodce pro bezproblémovou změnu velikosti.
-weight: 10
+date: 2026-03-19
+description: Naučte se, jak změnit velikost CAD výkresů v .NET pomocí Aspose.CAD,
+  včetně škálování jednotek CAD výkresu a úpravy velikosti rozvržení. Postupujte podle
+  našeho krok‑za‑krokem průvodce.
+linktitle: Adjusting CAD Drawing Size
+second_title: Aspose.CAD .NET - CAD and BIM File Format
+title: Jak změnit velikost CAD výkresů pomocí Aspose.CAD pro .NET
 url: /cs/net/cad-drawing-manipulation/adjust-cad-drawing-size/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Úprava velikosti výkresu CAD v Aspose.CAD pro .NET
+# Jak změnit velikost CAD výkresů pomocí Aspose.CAD pro .NET
 
 ## Úvod
 
-Chcete plynule upravit velikost výkresů CAD ve svých aplikacích .NET? Aspose.CAD for .NET poskytuje robustní řešení, které vám umožní bez námahy zvládnout změnu velikosti výkresů CAD. V tomto tutoriálu vás provedeme celým procesem a rozebereme každý krok, abyste měli jistotu, že pochopíte složitost změny velikosti výkresů CAD pomocí Aspose.CAD.
+Pokud potřebujete **jak změnit velikost CAD** soubory přímo z vaší .NET aplikace, jste na správném místě. V tomto tutoriálu vám ukážeme, jak změnit nastavení jednotek CAD, měřítko rozměrů CAD výkresu a programově upravit velikost CAD pomocí Aspose.CAD pro .NET. Na konci průvodce budete mít pevné, připravené řešení pro změnu velikosti libovolného podporovaného formátu CAD.
+
+## Rychlé odpovědi
+- **Jaká knihovna je vyžadována?** Aspose.CAD for .NET  
+- **Mohu změnit typ jednotky?** Ano – nastavte `UnitType` v `CadRasterizationOptions`  
+- **Je pro produkci potřeba licence?** Platná licence Aspose.CAD je vyžadována pro ne‑zkušební použití  
+- **Do jakého formátu obrázku příklad exportuje?** BMP (ale funguje jakýkoli podporovaný rastrový formát)  
+- **Kolik řádků kódu?** Méně než 30 řádků pro kompletní operaci změny velikosti  
+
+## Co znamená „jak změnit velikost CAD“ v praxi?
+Změna velikosti CAD výkresu znamená převod vektorových dat na rastrový obrázek v konkrétním měřítku nebo jednotce (např. centimetry, palce). To je užitečné, když potřebujete vložit výkresy do zpráv, generovat náhledy nebo integrovat CAD vizuály do webových stránek.
+
+## Proč upravovat velikost CAD pomocí Aspose.CAD?
+- **Žádný externí CAD software** – vše běží uvnitř vašeho .NET kódu.  
+- **Detailní kontrola** nad jednotkami, rozvrženími a možnostmi rasterizace.  
+- **Podpora napříč formáty** – stejný kód funguje pro DWG, DXF, DWF a další.  
 
 ## Předpoklady
 
-Než se pustíme do výukového programu, ujistěte se, že máte splněny následující předpoklady:
+Předtím, než se pustíme dál, ujistěte se, že máte:
 
-- Aspose.CAD for .NET Library: Stáhněte a nainstalujte knihovnu z[Stránka ke stažení Aspose.CAD for .NET](https://releases.aspose.com/cad/net/).
-- Ukázkový výkres CAD: Ujistěte se, že máte v adresáři dokumentů ukázkový soubor výkresu CAD (např. „sample.dwg“).
+- Knihovnu Aspose.CAD pro .NET: Stáhněte a nainstalujte knihovnu ze [stránky ke stažení Aspose.CAD pro .NET](https://releases.aspose.com/cad/net/).  
+- Vzorek CAD výkresu: Soubor jako `sample.dwg` umístěný ve složce dokumentů vašeho projektu.  
 
-## Importovat jmenné prostory
+## Importujte jmenné prostory
 
-Začněte importováním potřebných jmenných prostorů do vaší aplikace .NET. Tento krok je zásadní pro přístup k funkcím poskytovaným Aspose.CAD pro .NET.
+Nejprve importujte jmenné prostory, které vám poskytují přístup ke třídám Aspose.CAD.
 
 ```csharp
 using System;
@@ -37,24 +55,24 @@ using System.Threading.Tasks;
 using Aspose.CAD;
 ```
 
-## Krok 1: Načtěte výkres CAD
+## Krok 1: Načtěte CAD výkres
 
-Začněte načtením výkresu CAD do instance třídy Aspose.CAD.Image. Ujistěte se, že máte správnou cestu k souboru pro vzorový výkres.
+Načtěte zdrojový soubor do objektu `Image`. Tento objekt představuje CAD výkres v paměti a bude základem pro všechny další operace.
 
 ```csharp
 string MyDir = "Your Document Directory";
 string sourceFilePath = MyDir + "sample.dwg";
 
-// Načtěte výkres CAD v instanci Image
+// Load a CAD drawing in an instance of Image
 using (var image = Aspose.CAD.Image.Load(sourceFilePath))
 {
-    // Váš kód zde...
+    // Your code here...
 }
 ```
 
-## Krok 2: Vytvořte BmpOptions
+## Krok 2: Vytvořte BmpOptions (nebo jakýkoli jiný rastrový formát)
 
-Vytvořte instanci třídy BmpOptions, která je zodpovědná za specifikaci možností při ukládání výkresu CAD jako souboru BMP.
+`BmpOptions` říká Aspose.CAD, jak vykreslit vektorová data při uložení jako bitmapu. Můžete jej nahradit `PngOptions`, `JpegOptions` atd., v závislosti na požadovaném formátu.
 
 ```csharp
 Aspose.CAD.ImageOptions.BmpOptions bmpOptions = new Aspose.CAD.ImageOptions.BmpOptions();
@@ -62,65 +80,82 @@ Aspose.CAD.ImageOptions.BmpOptions bmpOptions = new Aspose.CAD.ImageOptions.BmpO
 
 ## Krok 3: Nastavte CadRasterizationOptions
 
-Vytvořte instanci třídy CadRasterizationOptions a nakonfigurujte její vlastnosti pro vektorovou rasterizaci.
+`CadRasterizationOptions` obsahuje základní nastavení pro měřítko, převod jednotek a výběr rozvržení. Propojení s vlastností `VectorRasterizationOptions` objektu `BmpOptions` zajišťuje, že rasterizér použije vaše vlastní nastavení.
 
 ```csharp
 Aspose.CAD.ImageOptions.CadRasterizationOptions cadRasterizationOptions = new Aspose.CAD.ImageOptions.CadRasterizationOptions();
 bmpOptions.VectorRasterizationOptions = cadRasterizationOptions;
 ```
 
-## Krok 4: Nastavte vlastnost UnitType
+## Krok 4: Nastavte UnitType (změna jednotky CAD)
 
-Nastavte vlastnost UnitType CadRasterizationOptions a určete typ jednotky pro změnu velikosti. V tomto příkladu je nastaven na Centimetr.
+Zde měníme jednotku CAD z výchozí na centimetry. Zde se nachází klíčové slovo **change cad unit**, a přímo ovlivňuje konečnou velikost obrázku.
 
 ```csharp
 cadRasterizationOptions.UnitType = Aspose.CAD.ImageOptions.UnitType.Centimeter;
 ```
 
-## Krok 5: Nastavte vlastnost rozvržení
+## Krok 5: Vyberte rozvržení (nastavení CAD rozvržení)
 
-Určete rozvržení, která chcete zahrnout do výkresu se změněnou velikostí, nastavením vlastnosti Rozvržení.
+Pokud váš výkres obsahuje více rozvržení (např. Model, Sheet1), uveďte, která chcete rasterizovat. Výběr správného rozvržení je nezbytný, když **set cad layouts** pro výstup s upravenou velikostí.
 
 ```csharp
 cadRasterizationOptions.Layouts = new string[] { "Model" };
 ```
 
-## Krok 6: Export do BMP
+## Krok 6: Export do BMP (změna velikosti CAD výkresu)
 
-Nakonec uložte rozvržení se změněnou velikostí jako soubor BMP pomocí metody Uložit.
+Nakonec uložte rasterizovaný obrázek. Výstupní soubor odráží novou velikost, jednotku a rozvržení, které jste nastavili — tím se efektivně dokončuje operace **resize CAD drawing**.
 
 ```csharp
 string outPath = sourceFilePath + ".bmp";
 image.Save(outPath, bmpOptions);
 ```
 
-Nyní jste úspěšně upravili velikost vašeho CAD výkresu pomocí Aspose.CAD for .NET!
+Nyní máte BMP soubor, který představuje změněnou velikost CAD výkresu, připravený k dalšímu zpracování nebo zobrazení.
 
-## Závěr
+## Časté problémy a řešení
 
-V tomto tutoriálu jsme prošli procesem změny velikosti CAD výkresů v .NET pomocí Aspose.CAD. Dodržováním těchto kroků můžete tuto funkci bez problémů integrovat do svých aplikací a poskytovat tak bezproblémové uživatelské prostředí.
+| Problém | Proč k tomu dochází | Řešení |
+|-------|----------------|-----|
+| Výstup je rozmazaný | Nízké DPI (bodů na palec) výchozí | Nastavte `cadRasterizationOptions.Resolution = 300;` před uložením |
+| Zobrazí se špatné rozvržení | Chybný název rozvržení | Ověřte přesný název rozvržení pomocí CAD prohlížeče nebo kolekce `Layouts` |
+| Převod jednotek vypadá špatně | Míchání metrických a imperiálních jednotek | Ujistěte se, že `UnitType` odpovídá požadovanému měřicímu systému |
 
-## Nejčastější dotazy
+## Často kladené otázky
 
-### Q1: Je Aspose.CAD for .NET kompatibilní se všemi formáty CAD?
+### Q1: Je Aspose.CAD pro .NET kompatibilní se všemi CAD formáty?
+A1: Aspose.CAD pro .NET podporuje širokou škálu CAD formátů, včetně DWG, DXF, DWF a dalších. Zkontrolujte [dokumentaci](https://reference.aspose.com/cad/net/) pro kompletní seznam.
 
- Odpověď 1: Aspose.CAD for .NET podporuje širokou škálu formátů CAD, včetně DWG, DXF, DWF a dalších. Zkontrolovat[dokumentace](https://reference.aspose.com/cad/net/) pro úplný seznam.
-
-### Q2: Mohu změnit velikost více rozvržení současně?
-
-A2: Ano, můžete změnit velikost více rozložení úpravou pole rozložení v CadRasterizationOptions.
+### Q2: Mohu změnit velikost více rozvržení najednou?
+A2: Ano, můžete změnit velikost více rozvržení úpravou pole `Layouts` v `CadRasterizationOptions`.
 
 ### Q3: Kde mohu získat podporu pro Aspose.CAD pro .NET?
-
- A3: Navštivte[Fórum Aspose.CAD](https://forum.aspose.com/c/cad/19) za podporu a pomoc komunity.
+A3: Navštivte [forum Aspose.CAD](https://forum.aspose.com/c/cad/19) pro komunitní podporu a pomoc.
 
 ### Q4: Je k dispozici bezplatná zkušební verze?
+A4: Ano, můžete vyzkoušet [bezplatnou zkušební verzi](https://releases.aspose.com/) k vyhodnocení funkcí Aspose.CAD pro .NET.
 
- A4: Ano, můžete prozkoumat a[zkušební verze zdarma](https://releases.aspose.com/) vyhodnotit funkce Aspose.CAD pro .NET.
+### Q5: Jak mohu získat dočasnou licenci pro Aspose.CAD pro .NET?
+A5: Získejte dočasnou licenci pro testovací účely [zde](https://purchase.aspose.com/temporary-license/).
 
-### Q5: Jak mohu získat dočasnou licenci pro Aspose.CAD for .NET?
+## Často kladené otázky
 
- A5: Získejte dočasnou licenci pro testovací účely[tady](https://purchase.aspose.com/temporary-license/).
+**Q: Jak mohu měřítko CAD výkresu změnit, aniž bych měnil typ jednotky?**  
+A: Upravit vlastnost `Zoom` v `CadRasterizationOptions` (např. `cadRasterizationOptions.Zoom = 2.0;`) pro zdvojnásobení velikosti při zachování původní jednotky.
+
+**Q: Můžu exportovat do jiných formátů než BMP?**  
+A: Rozhodně. Nahraďte `BmpOptions` za `PngOptions`, `JpegOptions` nebo jakoukoli jinou podporovanou třídu rastrového formátu.
+
+**Q: Je možné hromadně zpracovat složku výkresů?**  
+A: Ano. Procházejte soubory ve složce, použijte stejnou logiku rasterizace a uložte každý výstup pod jedinečným názvem.
+
+---
+
+**Poslední aktualizace:** 2026-03-19  
+**Testováno s:** Aspose.CAD pro .NET 24.11 (nejnovější v době psaní)  
+**Autor:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

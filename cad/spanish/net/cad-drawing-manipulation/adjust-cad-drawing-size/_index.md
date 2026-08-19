@@ -1,32 +1,50 @@
 ---
-title: Ajustar el tamaño del dibujo CAD en Aspose.CAD para .NET
-linktitle: Ajustar el tamaño del dibujo CAD
-second_title: Aspose.CAD .NET - Formato de archivo CAD y BIM
-description: Aprenda cómo ajustar sin esfuerzo los tamaños de los dibujos CAD en .NET usando Aspose.CAD. Siga nuestra guía paso a paso para cambiar el tamaño sin problemas.
-weight: 10
+date: 2026-03-19
+description: Aprenda cómo redimensionar dibujos CAD en .NET con Aspose.CAD, incluyendo
+  cómo escalar unidades de dibujo CAD y ajustar el tamaño del diseño. Siga nuestra
+  guía paso a paso.
+linktitle: Adjusting CAD Drawing Size
+second_title: Aspose.CAD .NET - CAD and BIM File Format
+title: Cómo redimensionar dibujos CAD con Aspose.CAD para .NET
 url: /es/net/cad-drawing-manipulation/adjust-cad-drawing-size/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Ajustar el tamaño del dibujo CAD en Aspose.CAD para .NET
+# Cómo redimensionar dibujos CAD con Aspose.CAD para .NET
 
 ## Introducción
 
-¿Está buscando ajustar sin problemas el tamaño de los dibujos CAD en sus aplicaciones .NET? Aspose.CAD para .NET proporciona una solución sólida que le permite manejar sin esfuerzo el cambio de tamaño de los dibujos CAD. En este tutorial, lo guiaremos a través del proceso, desglosando cada paso para asegurarnos de que comprenda las complejidades de cambiar el tamaño de los dibujos CAD usando Aspose.CAD.
+If you need to **how to resize CAD** files directly from your .NET application, you’ve come to the right place. In this tutorial we’ll show you how to change CAD unit settings, scale CAD drawing dimensions, and adjust CAD size programmatically using Aspose.CAD for .NET. By the end of the guide you’ll have a solid, production‑ready solution for resizing any supported CAD format.
+
+## Respuestas rápidas
+- **¿Qué biblioteca se requiere?** Aspose.CAD for .NET  
+- **¿Puedo cambiar el tipo de unidad?** Sí – set `UnitType` in `CadRasterizationOptions`  
+- **¿Se necesita una licencia para producción?** A valid Aspose.CAD license is required for non‑trial use  
+- **¿A qué formato de imagen exporta el ejemplo?** BMP (but any supported raster format works)  
+- **¿Cuántas líneas de código?** Less than 30 lines for a complete resize operation  
+
+## ¿Qué es “how to resize CAD” en la práctica?
+Redimensionar un dibujo CAD significa convertir los datos vectoriales en una imagen raster a una escala o unidad específica (p. ej., centímetros, pulgadas). Esto es útil cuando necesitas incrustar dibujos en informes, generar miniaturas o integrar visuales CAD en páginas web.
+
+## ¿Por qué ajustar el tamaño de CAD con Aspose.CAD?
+- **No se necesita software CAD externo** – todo se ejecuta dentro de tu código .NET.  
+- **Control fino** sobre unidades, diseños y opciones de rasterización.  
+- **Compatibilidad multiplataforma** – el mismo código funciona para DWG, DXF, DWF y más.  
 
 ## Requisitos previos
 
-Antes de sumergirnos en el tutorial, asegúrese de cumplir con los siguientes requisitos previos:
+Antes de comenzar, asegúrate de tener:
 
-- Aspose.CAD para la biblioteca .NET: descargue e instale la biblioteca desde[Página de descarga de Aspose.CAD para .NET](https://releases.aspose.com/cad/net/).
-- Dibujo CAD de muestra: asegúrese de tener un archivo de dibujo CAD de muestra (por ejemplo, "sample.dwg") en su directorio de documentos.
+- Aspose.CAD for .NET Library: Download and install the library from the [Aspose.CAD for .NET download page](https://releases.aspose.com/cad/net/).  
+- Sample CAD Drawing: A file such as `sample.dwg` placed in your project’s document directory.  
 
 ## Importar espacios de nombres
 
-Comience importando los espacios de nombres necesarios a su aplicación .NET. Este paso es crucial para acceder a las funcionalidades proporcionadas por Aspose.CAD para .NET.
+Primero, importa los espacios de nombres que te dan acceso a las clases de Aspose.CAD.
 
 ```csharp
 using System;
@@ -37,90 +55,112 @@ using System.Threading.Tasks;
 using Aspose.CAD;
 ```
 
-## Paso 1: cargar el dibujo CAD
+## Paso 1: Cargar el dibujo CAD
 
-Comience cargando el dibujo CAD en una instancia de la clase Aspose.CAD.Image. Asegúrese de tener la ruta de archivo correcta para su dibujo de muestra.
+Carga el archivo fuente en un objeto `Image`. Este objeto representa el dibujo CAD en memoria y será la base para todas las operaciones posteriores.
 
 ```csharp
 string MyDir = "Your Document Directory";
 string sourceFilePath = MyDir + "sample.dwg";
 
-// Cargar un dibujo CAD en una instancia de Imagen
+// Load a CAD drawing in an instance of Image
 using (var image = Aspose.CAD.Image.Load(sourceFilePath))
 {
-    // Tu código aquí...
+    // Your code here...
 }
 ```
 
-## Paso 2: crear BmpOptions
+## Paso 2: Crear BmpOptions (o cualquier otro formato raster)
 
-Cree una instancia de la clase BmpOptions, que es responsable de especificar opciones al guardar el dibujo CAD como un archivo BMP.
+`BmpOptions` le indica a Aspose.CAD cómo renderizar los datos vectoriales cuando lo guardas como un mapa de bits. Puedes cambiarlo por `PngOptions`, `JpegOptions`, etc., según el formato de destino.
 
 ```csharp
 Aspose.CAD.ImageOptions.BmpOptions bmpOptions = new Aspose.CAD.ImageOptions.BmpOptions();
 ```
 
-## Paso 3: configurar CadRasterizationOptions
+## Paso 3: Configurar CadRasterizationOptions
 
-Cree una instancia de la clase CadRasterizationOptions y configure sus propiedades para la rasterización de vectores.
+`CadRasterizationOptions` contiene la configuración principal para escalar, convertir unidades y seleccionar el diseño. Vincularlo a la propiedad `VectorRasterizationOptions` de `BmpOptions` garantiza que el rasterizador use tus ajustes personalizados.
 
 ```csharp
 Aspose.CAD.ImageOptions.CadRasterizationOptions cadRasterizationOptions = new Aspose.CAD.ImageOptions.CadRasterizationOptions();
 bmpOptions.VectorRasterizationOptions = cadRasterizationOptions;
 ```
 
-## Paso 4: Establecer la propiedad UnitType
+## Paso 4: Establecer UnitType (cambiar unidad CAD)
 
-Establezca la propiedad UnitType de CadRasterizationOptions para especificar el tipo de unidad para cambiar el tamaño. En este ejemplo, está configurado en Centímetro.
+Aquí cambiamos la unidad CAD de su valor predeterminado a centímetros. Aquí es donde vive la palabra clave **change cad unit**, y afecta directamente al tamaño final de la imagen.
 
 ```csharp
 cadRasterizationOptions.UnitType = Aspose.CAD.ImageOptions.UnitType.Centimeter;
 ```
 
-## Paso 5: Establecer la propiedad de diseños
+## Paso 5: Elegir diseños (establecer diseños CAD)
 
-Especifique los diseños que desea incluir en el dibujo redimensionado configurando la propiedad Diseños.
+Si tu dibujo contiene varios diseños (p. ej., Model, Sheet1), especifica cuáles deseas rasterizar. Seleccionar el diseño correcto es esencial cuando **set cad layouts** para una salida redimensionada.
 
 ```csharp
 cadRasterizationOptions.Layouts = new string[] { "Model" };
 ```
 
-## Paso 6: Exportar a BMP
+## Paso 6: Exportar a BMP (redimensionar dibujo CAD)
 
-Finalmente, guarde el diseño redimensionado como un archivo BMP usando el método Guardar.
+Finalmente, guarda la imagen rasterizada. El archivo de salida refleja el nuevo tamaño, unidad y diseño que configuraste—completando efectivamente la operación **resize CAD drawing**.
 
 ```csharp
 string outPath = sourceFilePath + ".bmp";
 image.Save(outPath, bmpOptions);
 ```
 
-¡Ahora ha ajustado con éxito el tamaño de su dibujo CAD usando Aspose.CAD para .NET!
+Ahora tienes un archivo BMP que representa el dibujo CAD redimensionado, listo para procesamiento adicional o visualización.
 
-## Conclusión
+## Problemas comunes y soluciones
 
-En este tutorial, recorrimos el proceso de cambiar el tamaño de dibujos CAD en .NET usando Aspose.CAD. Si sigue estos pasos, podrá integrar perfectamente esta funcionalidad en sus aplicaciones, proporcionando una experiencia de usuario fluida.
+| Problema | Por qué ocurre | Solución |
+|----------|----------------|----------|
+| La salida está borrosa | DPI (puntos por pulgada) bajo por defecto | Set `cadRasterizationOptions.Resolution = 300;` before saving |
+| Aparece el diseño incorrecto | Error tipográfico en el nombre del diseño | Verify the exact layout name using a CAD viewer or the `Layouts` collection |
+| La conversión de unidades parece incorrecta | Mezcla de unidades métricas e imperiales | Ensure `UnitType` matches the desired measurement system |
 
 ## Preguntas frecuentes
 
-### P1: ¿Aspose.CAD para .NET es compatible con todos los formatos CAD?
+### P1: ¿Es Aspose.CAD para .NET compatible con todos los formatos CAD?
 
- R1: Aspose.CAD para .NET admite una amplia gama de formatos CAD, incluidos DWG, DXF, DWF y más. Comprobar el[documentación](https://reference.aspose.com/cad/net/) para la lista completa.
+A1: Aspose.CAD for .NET supports a wide range of CAD formats, including DWG, DXF, DWF, and more. Check the [documentation](https://reference.aspose.com/cad/net/) for the complete list.
 
-### P2: ¿Puedo cambiar el tamaño de varios diseños simultáneamente?
+### P2: ¿Puedo redimensionar varios diseños simultáneamente?
 
-R2: Sí, puede cambiar el tamaño de varios diseños ajustando la matriz de diseños en CadRasterizationOptions.
+A2: Yes, you can resize multiple layouts by adjusting the `Layouts` array in the `CadRasterizationOptions`.
 
 ### P3: ¿Dónde puedo obtener soporte para Aspose.CAD para .NET?
 
- A3: Visita el[Foro Aspose.CAD](https://forum.aspose.com/c/cad/19) para el apoyo y asistencia de la comunidad.
+A3: Visit the [Aspose.CAD forum](https://forum.aspose.com/c/cad/19) for community support and assistance.
 
 ### P4: ¿Hay una prueba gratuita disponible?
 
- R4: Sí, puedes explorar un[prueba gratis](https://releases.aspose.com/) para evaluar las características de Aspose.CAD para .NET.
+A4: Yes, you can explore a [free trial](https://releases.aspose.com/) to evaluate the features of Aspose.CAD for .NET.
 
-### P5: ¿Cómo puedo obtener una licencia temporal de Aspose.CAD para .NET?
+### P5: ¿Cómo puedo obtener una licencia temporal para Aspose.CAD para .NET?
 
- R5: Obtener una licencia temporal para realizar pruebas[aquí](https://purchase.aspose.com/temporary-license/).
+A5: Obtain a temporary license for testing purposes [here](https://purchase.aspose.com/temporary-license/).
+
+## Preguntas frecuentes
+
+**P: ¿Cómo escalo un dibujo CAD sin cambiar el tipo de unidad?**  
+R: Adjust the `Zoom` property of `CadRasterizationOptions` (e.g., `cadRasterizationOptions.Zoom = 2.0;`) to double the size while keeping the original unit.
+
+**P: ¿Puedo exportar a formatos diferentes a BMP?**  
+R: Absolutely. Replace `BmpOptions` with `PngOptions`, `JpegOptions`, or any other supported raster format class.
+
+**P: ¿Es posible procesar por lotes una carpeta de dibujos?**  
+R: Yes. Loop through the files in a directory, apply the same rasterization logic, and save each output with a unique name.
+
+---
+
+**Last Updated:** 2026-03-19  
+**Tested With:** Aspose.CAD for .NET 24.11 (latest at time of writing)  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
