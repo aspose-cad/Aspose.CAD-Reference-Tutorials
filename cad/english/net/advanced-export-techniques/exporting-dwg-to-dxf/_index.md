@@ -1,6 +1,6 @@
 ---
-title: 'Export DWG to DXF Using Aspose.CAD in C#'
-linktitle: Exporting DWG to DXF Format in C#
+title: 'Export CAD Drawing Using C#'
+linktitle: Exporting CAD Drawing in C#
 second_title: Aspose.CAD .NET - CAD and BIM File Format
 description: Learn how to use Aspose for CAD file manipulation in C#. This tutorial shows how to export DWG to DXF effortlessly with Aspose.CAD.
 weight: 10

@@ -1,5 +1,5 @@
 ---
-title: "Export CAD drawings to SVG with Aspose.CAD for .NET"
+title: "Convert CAD drawings to vector graphics with .NET"
 linktitle: Exporting CAD Drawings to SVG Format
 second_title: Aspose.CAD .NET - CAD and BIM File Format
 description: Learn how to export CAD to SVG using Aspose.CAD for .NET, customize SVG color, and convert DWG to SVG efficiently.

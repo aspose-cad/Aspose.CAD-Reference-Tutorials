@@ -1,5 +1,5 @@
 ---
-title: Programmatically Replace Font of a Specific Style in DWG with Aspose.CAD for Java
+title: Programmatically Change Font of a Specific Style in CAD Files
 linktitle: Substitute Font of a Particular Style in DWG
 second_title: Aspose.CAD Java API
 description: Learn how to replace font in DWG files using Aspose.CAD for Java. This step‑by‑step guide shows **how to replace font** of a particular style with precision.
