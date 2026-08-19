@@ -41,6 +41,20 @@ Resizing a CAD drawing means adjusting its internal coordinate system or canvas 
 ## How to Resize CAD Drawings in Aspose.CAD for .NET
 Is your CAD drawing not fitting the canvas? Fear not! Our tutorial on adjusting CAD drawing sizes using Aspose.CAD for .NET is here to rescue. We walk you through the process effortlessly, ensuring your drawings are the perfect size for your project. Say goodbye to resizing challenges with our detailed guide.
 
+```csharp
+// Load a CAD drawing
+using Aspose.CAD;
+using Aspose.CAD.ImageOptions;
+
+var drawing = Image.Load("sample.dwg");
+
+// Resize canvas to 800x600
+drawing.Resize(800, 600);
+
+// Save as PNG
+drawing.Save("resized.png", new PngOptions());
+```
+
 ## Convert CAD Drawing to Raster Image in Aspose.CAD for .NET
 Unlock a world of possibilities by learning how to **convert CAD to raster** images in .NET using Aspose.CAD. This tutorial is your key to efficient workflows and enhanced CAD projects. Follow our step‑by‑step instructions to seamlessly transform your drawings into high‑quality raster images. Elevate your projects with this powerful conversion technique.
 
@@ -53,7 +67,7 @@ Discover the unmatched power of Aspose.CAD for .NET by enabling tracking for CAD
 ## Get Size of CAD Layout in Aspose.CAD for .NET
 Understanding the size of your CAD layout is crucial for precise project planning. Our tutorial on retrieving CAD layout size in .NET using Aspose.CAD is your go‑to resource for efficient CAD file manipulation. Follow the guide to effortlessly obtain the size of your CAD layout, ensuring accurate and detailed project execution.
 
-## Common Pitfalls & Tips
+## Common pitfalls & tips
 - **Pitfall:** Forgetting to reset the drawing’s origin after resizing.  
   **Tip:** Use `Drawing.SetOrigin(0, 0)` after applying the new canvas size.  
 - **Pitfall:** Converting large CAD files without specifying raster resolution leads to blurry output.  
@@ -61,7 +75,7 @@ Understanding the size of your CAD layout is crucial for precise project plannin
 - **Pitfall:** Ignoring licensing checks can cause runtime exceptions.  
   **Tip:** Apply your license early in the application startup.
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 **Q: Can I change the CAD canvas size without altering the drawing geometry?**  
 A: Yes. Aspose.CAD lets you modify the viewport dimensions while preserving original entities.
@@ -78,7 +92,7 @@ A: Resizing the canvas does not automatically scale line weights or text. You mu
 **Q: How do I retrieve the exact dimensions of a layout before resizing?**  
 A: Use the `Layout.Size` property to get width and height in drawing units.
 
-## CAD Drawing Manipulation Tutorials
+## CAD drawing manipulation tutorials
 ### [Adjusting CAD Drawing Size in Aspose.CAD for .NET](./adjust-cad-drawing-size/)
 Learn how to effortlessly adjust CAD drawing sizes in .NET using Aspose.CAD. Follow our step‑by‑step guide for seamless resizing.
 
@@ -94,15 +108,22 @@ Discover the power of Aspose.CAD for .NET. Enable tracking for CAD rendering sea
 ### [Get Size of CAD Layout in Aspose.CAD for .NET](./get-size-of-cad-layout/)
 Learn how to retrieve CAD layout size in .NET using Aspose.CAD. Follow our step‑by‑step guide for efficient CAD file manipulation.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 
 ---
 
 **Last Updated:** 2026-03-16  
 **Tested With:** Aspose.CAD for .NET 24.11  
 **Author:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

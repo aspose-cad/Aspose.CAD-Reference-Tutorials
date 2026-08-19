@@ -39,7 +39,7 @@ Converting DWG to PDF means taking a CAD drawing (DWG) and rendering it into a p
 Before we dive into the tutorial, make sure you have the following in place:
 
 - A basic understanding of .NET programming.  
-- Aspose.CAD for .NET library installed. If not, download it [here](https://releases.aspose.com/cad/net/).  
+- Aspose.CAD for .NET library installed. If not, download **[download Aspose.CAD for .NET](https://releases.aspose.com/cad/net/)**.  
 - Your favorite integrated development environment (IDE) set up for .NET development.
 
 ## Import Namespaces
@@ -57,7 +57,7 @@ using Aspose.CAD.FileFormats.Cad;
 using Aspose.CAD.ImageOptions;
 ```
 
-## Step 1: Load DWG File
+## Step 1: load DWG file
 
 Begin by loading the DWG file you wish to convert. Replace `"Your Document Directory"` with the path to your DWG file.
 
@@ -117,7 +117,7 @@ PngOptions pngOptions = new PngOptions
 cadImage.Save(outPath.Replace("pdf", "png"), pngOptions);
 ```
 
-## Common Issues and Solutions
+## Common issues and solutions
 
 | Issue | Why it Happens | How to Fix |
 |-------|----------------|------------|
@@ -126,22 +126,22 @@ cadImage.Save(outPath.Replace("pdf", "png"), pngOptions);
 | **Units appear wrong** | Unit conversion not defined | Use `DefineUnitSystem` to set `currentUnitIsMetric` and `currentUnitCoefficient` based on `cadImage.UnitType`. |
 | **License exception** | Trial version limits | Apply a temporary or permanent license before calling `Image.Load`. |
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 ### Q1: Can I use Aspose.CAD for .NET in my commercial projects?
-A1: Yes, you can. Visit [purchase.aspose.com/buy](https://purchase.aspose.com/buy) for licensing details.
+A1: Yes, you can. Visit **[purchase Aspose.CAD license](https://purchase.aspose.com/buy)** for licensing details.
 
 ### Q2: Is there a free trial available?
-A2: Certainly! Grab your free trial [here](https://releases.aspose.com/).
+A2: Certainly! Grab your free trial **[download free trial of Aspose.CAD](https://releases.aspose.com/)**.
 
 ### Q3: How can I get support for Aspose.CAD for .NET?
-A3: Head over to the [Aspose.CAD forum](https://forum.aspose.com/c/cad/19) for community support.
+A3: Head over to the **[Aspose.CAD forum](https://forum.aspose.com/c/cad/19)** for community support.
 
 ### Q4: Can I obtain a temporary license for testing purposes?
-A4: Yes, you can get a temporary license [here](https://purchase.aspose.com/temporary-license/).
+A4: Yes, you can get a temporary license **[obtain a temporary license](https://purchase.aspose.com/temporary-license/)**.
 
 ### Q5: Where can I find the detailed documentation?
-A5: The documentation is available at [Aspose.CAD](https://reference.aspose.com/cad/net/).
+A5: The documentation is available at **[Aspose.CAD documentation](https://reference.aspose.com/cad/net/)**.
 
 ### Q6: How do I **save CAD as PNG** with high quality?
 A6: Set `PageHeight` and `PageWidth` to the desired pixel dimensions and choose a DPI of 300 or higher in `CadRasterizationOptions`.
