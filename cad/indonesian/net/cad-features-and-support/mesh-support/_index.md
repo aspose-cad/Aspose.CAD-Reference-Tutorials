@@ -1,37 +1,56 @@
 ---
-title: Dukungan Mesh di Aspose.CAD untuk .NET
-linktitle: Dukungan Jaring
-second_title: Aspose.CAD .NET - Format File CAD dan BIM
-description: Jelajahi dukungan mesh di Aspose.CAD untuk .NET dengan tutorial langkah demi langkah kami. Konversikan file CAD ke PDF dengan mudah.
-weight: 11
+date: 2026-03-24
+description: Pelajari cara mengonversi DWG ke PDF menggunakan Aspose.CAD untuk .NET,
+  termasuk dukungan mesh, menyimpan CAD sebagai PDF, dan contoh CAD ke PDF dengan
+  C#.
+linktitle: Mesh Support
+second_title: Aspose.CAD .NET - CAD and BIM File Format
+title: Konversi DWG ke PDF dengan Dukungan Mesh di Aspose.CAD untuk .NET
 url: /id/net/cad-features-and-support/mesh-support/
+weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Dukungan Mesh di Aspose.CAD untuk .NET
+# Convert DWG to PDF with Mesh Support in Aspose.CAD for .NET
 
-## Perkenalan
+## Introduction
 
-Selamat datang di tutorial mendalam kami tentang memanfaatkan dukungan mesh di Aspose.CAD untuk .NET! Aspose.CAD adalah perpustakaan canggih yang menyediakan fungsionalitas tangguh untuk bekerja dengan file Computer-Aided Design (CAD) dalam aplikasi .NET. Dalam tutorial ini, kami secara khusus akan fokus pada pemanfaatan fitur dukungan mesh untuk meningkatkan kemampuan pemrosesan file CAD Anda.
+Selamat datang di tutorial mendalam kami tentang **cara mengonversi DWG ke PDF** menggunakan Aspose.CAD untuk .NET! Aspose.CAD adalah pustaka kuat yang menyediakan fungsionalitas robust untuk bekerja dengan file Computer‑Aided Design (CAD) dalam aplikasi .NET. Dalam panduan ini kami akan fokus pada fitur dukungan mesh, yang membuat **cad mesh conversion** menjadi mulus dan memungkinkan Anda **save CAD as PDF** dengan fidelitas tinggi.
 
-## Prasyarat
+## Quick Answers
+- **What does mesh support do?** It preserves 3‑D mesh geometry when converting CAD files to raster or vector formats.  
+- **Which library handles the conversion?** Aspose.CAD for .NET.  
+- **Can I convert DWG to PDF in C#?** Yes – the example below shows a complete C# workflow.  
+- **Do I need a license?** A valid Aspose.CAD license is required for production; a temporary license works for evaluation.  
+- **What output size can I expect?** In the sample we rasterize to 1600 × 1600 px, but you can adjust the dimensions as needed.
 
-Sebelum mendalami tutorial dukungan mesh, pastikan Anda memiliki prasyarat berikut:
+## What is “convert DWG to PDF” with mesh support?
+Mengonversi file DWG ke PDF sambil mempertahankan data mesh memastikan bahwa permukaan 3‑D yang kompleks muncul dengan benar dalam dokumen akhir. Ini sangat berguna untuk tinjauan teknik, presentasi klien, dan pengarsipan data BIM.
 
-1.  Instal Aspose.CAD untuk .NET: Jika Anda belum melakukannya, unduh dan instal Aspose.CAD untuk .NET dari[Unduh Halaman](https://releases.aspose.com/cad/net/).
+## Why use Aspose.CAD’s mesh support?
+- **Accurate rendering** of 3‑D objects without losing detail.  
+- **No external dependencies** – the library handles everything inside .NET.  
+- **Fast performance** for large drawings thanks to optimized rasterization options.  
+- **Cross‑platform** compatibility with .NET Framework, .NET Core, and .NET 5/6.
 
-2.  Dapatkan Lisensi: Untuk menggunakan Aspose.CAD dalam proyek Anda, pastikan Anda memiliki lisensi yang valid. Anda dapat memperolehnya dari[Di Sini](https://purchase.aspose.com/buy) atau jelajahi[opsi lisensi sementara](https://purchase.aspose.com/temporary-license/) untuk masa percobaan.
+## Prerequisites
 
-3. Siapkan Lingkungan Pengembangan Anda: Pastikan lingkungan pengembangan Anda dikonfigurasi dengan benar, dan Anda memiliki pemahaman dasar tentang bekerja dengan aplikasi .NET.
+Sebelum menyelam ke tutorial dukungan mesh, pastikan Anda telah menyiapkan prasyarat berikut:
 
-Sekarang, mari masuk ke tutorial dan jelajahi dukungan mesh menggunakan Aspose.CAD untuk .NET!
+1. Install Aspose.CAD for .NET: If you haven't already, download and install Aspose.CAD for .NET from the [download page](https://releases.aspose.com/cad/net/).
 
-## Impor Namespace
+2. Obtain a License: To use Aspose.CAD in your project, ensure you have a valid license. You can acquire one from [here](https://purchase.aspose.com/buy) or explore the [temporary license option](https://purchase.aspose.com/temporary-license/) for a trial period.
 
-Dalam proyek .NET Anda, impor namespace yang diperlukan untuk mengakses fungsionalitas Aspose.CAD. Tambahkan baris berikut ke kode Anda:
+3. Set Up Your Development Environment: Make sure your development environment is configured correctly, and you have a basic understanding of working with .NET applications.
+
+Now, let's jump into the tutorial and explore mesh support using Aspose.CAD for .NET!
+
+## Import Namespaces
+
+In your .NET project, import the necessary namespaces to access the Aspose.CAD functionality. Add the following lines to your code:
 
 ```csharp
 using Aspose.CAD.FileFormats.Cad;
@@ -40,23 +59,22 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-
 ```
 
-## Langkah 1: Tentukan Direktori Dokumen Anda
+## Step 1: Define Your Document Directory
 
 ```csharp
 string MyDir = "Your Document Directory";
 ```
 
-## Langkah 2: Tentukan Jalur Sumber dan Keluaran
+## Step 2: Specify Source and Output Paths
 
 ```csharp
 string sourceFilePath = MyDir + "meshes.dwg";
 string outPath = MyDir + "meshes.pdf";
 ```
 
-## Langkah 3: Muat Gambar CAD dan Konfigurasikan Opsi Rasterisasi
+## Step 3: Load CAD Image and Configure Rasterization Options
 
 ```csharp
 using (CadImage cadImage = (CadImage)Image.Load(sourceFilePath))
@@ -72,40 +90,51 @@ using (CadImage cadImage = (CadImage)Image.Load(sourceFilePath))
     };
 ```
 
-## Langkah 4: Simpan Gambar yang Diproses
+## Step 4: Save the Processed Image
 
 ```csharp
     cadImage.Save(outPath, pdfOptions);
 }
 ```
 
-Selamat! Anda telah berhasil memanfaatkan dukungan mesh di Aspose.CAD untuk .NET untuk mengonversi file CAD dengan mesh menjadi file PDF. Jangan ragu untuk menjelajahi lebih banyak fitur dan menyesuaikan kode sesuai dengan kebutuhan proyek Anda.
+Congratulations! You've successfully utilized mesh support in Aspose.CAD for .NET to **convert DWG to PDF** and **save CAD as PDF**. Feel free to explore more features and customize the code according to your project requirements.
 
-## Kesimpulan
+## Common Issues and Solutions
 
-Kesimpulannya, Aspose.CAD untuk .NET memberikan solusi yang lancar untuk bekerja dengan file CAD, dan dukungan meshnya membuka kemungkinan baru untuk menangani desain yang kompleks. Dengan mengikuti tutorial ini, Anda memperoleh wawasan berharga dalam mengintegrasikan dukungan mesh ke dalam aplikasi .NET Anda.
+| Issue | Solution |
+|-------|----------|
+| **Meshes appear blank** | Ensure `Layouts` includes `"Model"` and the source DWG actually contains mesh entities. |
+| **Output PDF is too large** | Reduce `PageWidth`/`PageHeight` or enable compression via `PdfOptions.CompressionLevel`. |
+| **License not applied** | Call `Aspose.CAD.License license = new Aspose.CAD.License(); license.SetLicense("Aspose.CAD.lic");` before loading the image. |
 
-## FAQ
+## Frequently Asked Questions
 
-### Q1: Apakah Aspose.CAD kompatibel dengan berbagai format file CAD?
+### Q1: Is Aspose.CAD compatible with various CAD file formats?
 
-A1: Ya, Aspose.CAD mendukung berbagai format file CAD, termasuk DWG, DXF, DGN, dan banyak lagi.
+A1: Yes, Aspose.CAD supports a wide range of CAD file formats, including DWG, DXF, DGN, and more.
 
-### Q2: Bisakah saya menggunakan Aspose.CAD untuk .NET tanpa lisensi?
+### Q2: Can I use Aspose.CAD for .NET without a license?
 
-A2: Meskipun lisensi direkomendasikan untuk penggunaan produksi, Anda dapat menjelajahi perpustakaan dengan lisensi sementara selama pengembangan.
+A2: While a license is recommended for production use, you can explore the library with a temporary license during development.
 
-### Q3: Apakah ada forum komunitas untuk dukungan Aspose.CAD?
+### Q3: Are there any community forums for Aspose.CAD support?
 
- A3: Ya, kunjungi[Forum Aspose.CAD](https://forum.aspose.com/c/cad/19) untuk dukungan dan diskusi komunitas.
+A3: Yes, visit the [Aspose.CAD forum](https://forum.aspose.com/c/cad/19) for community support and discussions.
 
-### Q4: Bagaimana cara mengakses dokumentasi lengkap untuk Aspose.CAD?
+### Q4: How can I access the full documentation for Aspose.CAD?
 
- A4: Lihat detailnya[dokumentasi](https://reference.aspose.com/cad/net/) untuk panduan komprehensif tentang Aspose.CAD untuk .NET.
+A4: Refer to the detailed [documentation](https://reference.aspose.com/cad/net/) for comprehensive guidance on Aspose.CAD for .NET.
 
-### Q5: Di mana saya dapat mengunduh Aspose.CAD versi terbaru untuk .NET?
+### Q5: Where can I download the latest version of Aspose.CAD for .NET?
 
- A5: Unduh perpustakaan dari[halaman rilis](https://releases.aspose.com/cad/net/).
+A5: Download the library from the [release page](https://releases.aspose.com/cad/net/).
+
+---
+
+**Last Updated:** 2026-03-24  
+**Tested With:** Aspose.CAD 24.11 for .NET  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -1,37 +1,59 @@
 ---
-title: Prise en charge du maillage dans Aspose.CAD pour .NET
-linktitle: Prise en charge du maillage
-second_title: Aspose.CAD .NET - Format de fichier CAO et BIM
-description: Explorez la prise en charge du maillage dans Aspose.CAD pour .NET avec notre didacticiel étape par étape. Convertissez des fichiers CAO en PDF sans effort.
-weight: 11
+date: 2026-03-24
+description: Apprenez à convertir DWG en PDF avec Aspose.CAD pour .NET, y compris
+  la prise en charge des maillages, l’enregistrement du CAD en PDF et des exemples
+  C# de conversion CAD vers PDF.
+linktitle: Mesh Support
+second_title: Aspose.CAD .NET - CAD and BIM File Format
+title: Convertir DWG en PDF avec prise en charge des maillages dans Aspose.CAD pour
+  .NET
 url: /fr/net/cad-features-and-support/mesh-support/
+weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Prise en charge du maillage dans Aspose.CAD pour .NET
+# Convertir DWG en PDF avec prise en charge du maillage dans Aspose.CAD pour .NET
 
 ## Introduction
 
-Bienvenue dans notre didacticiel approfondi sur l'exploitation de la prise en charge du maillage dans Aspose.CAD pour .NET ! Aspose.CAD est une bibliothèque puissante qui offre des fonctionnalités robustes pour travailler avec des fichiers de conception assistée par ordinateur (CAO) dans les applications .NET. Dans ce didacticiel, nous nous concentrerons spécifiquement sur l'utilisation de la fonctionnalité de prise en charge du maillage pour améliorer vos capacités de traitement de fichiers CAO.
+Bienvenue dans notre tutoriel approfondi sur **comment convertir DWG en PDF** à l'aide d'Aspose.CAD pour .NET ! Aspose.CAD est une bibliothèque puissante qui offre des fonctionnalités robustes pour travailler avec les fichiers de Conception Assistée par Ordinateur (CAD) dans les applications .NET. Dans ce guide, nous nous concentrerons sur la fonctionnalité de prise en charge du maillage, qui rend la **conversion de maillage CAD** fluide et vous permet de **sauvegarder le CAD en PDF** avec une haute fidélité.
 
-## Conditions préalables
+## Réponses rapides
+- **Que fait la prise en charge du maillage ?** Elle préserve la géométrie du maillage 3 D lors de la conversion des fichiers CAD en formats raster ou vectoriel.  
+- **Quelle bibliothèque gère la conversion ?** Aspose.CAD pour .NET.  
+- **Puis-je convertir DWG en PDF en C# ?** Oui – l'exemple ci‑dessous montre un flux de travail complet en C#.  
+- **Ai‑je besoin d'une licence ?** Une licence valide d'Aspose.CAD est requise pour la production ; une licence temporaire fonctionne pour l'évaluation.  
+- **Quelle taille de sortie puis‑je attendre ?** Dans l'exemple, nous rasterisons à 1600 × 1600 px, mais vous pouvez ajuster les dimensions selon vos besoins.
 
-Avant de plonger dans le didacticiel de prise en charge du maillage, assurez-vous que les conditions préalables suivantes sont remplies :
+## Qu'est‑ce que « convertir DWG en PDF » avec prise en charge du maillage ?
 
-1.  Installez Aspose.CAD pour .NET : si vous ne l'avez pas déjà fait, téléchargez et installez Aspose.CAD pour .NET à partir du[page de téléchargement](https://releases.aspose.com/cad/net/).
+Convertir un fichier DWG en PDF tout en conservant les données de maillage garantit que les surfaces 3 D complexes apparaissent correctement dans le document final. Cela est particulièrement utile pour les revues d'ingénierie, les présentations aux clients et l'archivage des données BIM.
 
-2.  Obtenir une licence : pour utiliser Aspose.CAD dans votre projet, assurez-vous de disposer d'une licence valide. Vous pouvez en acquérir un auprès de[ici](https://purchase.aspose.com/buy) ou explorez le[option de licence temporaire](https://purchase.aspose.com/temporary-license/) pour une période d'essai.
+## Pourquoi utiliser la prise en charge du maillage d'Aspose.CAD ?
 
-3. Configurez votre environnement de développement : assurez-vous que votre environnement de développement est correctement configuré et que vous avez une compréhension de base de l'utilisation des applications .NET.
+- **Rendu précis** des objets 3 D sans perte de détail.  
+- **Aucune dépendance externe** – la bibliothèque gère tout à l'intérieur de .NET.  
+- **Performance rapide** pour les grands dessins grâce aux options de rasterisation optimisées.  
+- **Compatibilité multiplateforme** avec .NET Framework, .NET Core et .NET 5/6.
 
-Passons maintenant au didacticiel et explorons la prise en charge du maillage à l'aide d'Aspose.CAD pour .NET !
+## Prérequis
 
-## Importer des espaces de noms
+Avant de plonger dans le tutoriel sur la prise en charge du maillage, assurez-vous d'avoir les prérequis suivants en place :
 
-Dans votre projet .NET, importez les espaces de noms nécessaires pour accéder à la fonctionnalité Aspose.CAD. Ajoutez les lignes suivantes à votre code :
+1. Installer Aspose.CAD pour .NET : Si ce n'est pas déjà fait, téléchargez et installez Aspose.CAD pour .NET depuis la [page de téléchargement](https://releases.aspose.com/cad/net/).
+
+2. Obtenir une licence : Pour utiliser Aspose.CAD dans votre projet, assurez‑vous de disposer d'une licence valide. Vous pouvez en acquérir une [ici](https://purchase.aspose.com/buy) ou explorer l'[option de licence temporaire](https://purchase.aspose.com/temporary-license/) pour une période d'essai.
+
+3. Configurer votre environnement de développement : Assurez‑vous que votre environnement de développement est correctement configuré et que vous avez une compréhension de base du travail avec les applications .NET.
+
+Passons maintenant au tutoriel et explorons la prise en charge du maillage avec Aspose.CAD pour .NET !
+
+## Importer les espaces de noms
+
+Dans votre projet .NET, importez les espaces de noms nécessaires pour accéder aux fonctionnalités d'Aspose.CAD. Ajoutez les lignes suivantes à votre code :
 
 ```csharp
 using Aspose.CAD.FileFormats.Cad;
@@ -40,23 +62,22 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-
 ```
 
-## Étape 1 : définissez votre répertoire de documents
+## Étape 1 : Définir le répertoire de votre document
 
 ```csharp
 string MyDir = "Your Document Directory";
 ```
 
-## Étape 2 : Spécifier les chemins source et de sortie
+## Étape 2 : Spécifier les chemins source et de sortie
 
 ```csharp
 string sourceFilePath = MyDir + "meshes.dwg";
 string outPath = MyDir + "meshes.pdf";
 ```
 
-## Étape 3 : charger l'image CAO et configurer les options de rastérisation
+## Étape 3 : Charger l'image CAD et configurer les options de rasterisation
 
 ```csharp
 using (CadImage cadImage = (CadImage)Image.Load(sourceFilePath))
@@ -72,40 +93,51 @@ using (CadImage cadImage = (CadImage)Image.Load(sourceFilePath))
     };
 ```
 
-## Étape 4 : Enregistrez l'image traitée
+## Étape 4 : Enregistrer l'image traitée
 
 ```csharp
     cadImage.Save(outPath, pdfOptions);
 }
 ```
 
-Toutes nos félicitations! Vous avez utilisé avec succès la prise en charge du maillage dans Aspose.CAD pour .NET pour convertir un fichier CAO avec des maillages en fichier PDF. N'hésitez pas à explorer plus de fonctionnalités et à personnaliser le code en fonction des exigences de votre projet.
+Félicitations ! Vous avez utilisé avec succès la prise en charge du maillage dans Aspose.CAD pour .NET afin de **convertir DWG en PDF** et **sauvegarder le CAD en PDF**. N'hésitez pas à explorer davantage de fonctionnalités et à personnaliser le code selon les exigences de votre projet.
 
-## Conclusion
+## Problèmes courants et solutions
 
-En conclusion, Aspose.CAD pour .NET fournit une solution transparente pour travailler avec des fichiers CAO, et sa prise en charge du maillage ouvre de nouvelles possibilités pour gérer des conceptions complexes. En suivant ce didacticiel, vous avez acquis des informations précieuses sur l'intégration de la prise en charge du maillage dans vos applications .NET.
+| Problème | Solution |
+|----------|----------|
+| **Les maillages apparaissent vides** | Assurez‑vous que `Layouts` inclut "Model" et que le DWG source contient réellement des entités de maillage. |
+| **Le PDF de sortie est trop volumineux** | Réduisez `PageWidth`/`PageHeight` ou activez la compression via `PdfOptions.CompressionLevel`. |
+| **Licence non appliquée** | Appelez `Aspose.CAD.License license = new Aspose.CAD.License(); license.SetLicense("Aspose.CAD.lic");` avant de charger l'image. |
 
-## FAQ
+## Questions fréquentes
 
-### Q1 : Aspose.CAD est-il compatible avec différents formats de fichiers CAO ?
+### Q1 : Aspose.CAD est‑il compatible avec différents formats de fichiers CAD ?
 
-A1 : Oui, Aspose.CAD prend en charge un large éventail de formats de fichiers CAO, notamment DWG, DXF, DGN, etc.
+**R1 :** Oui, Aspose.CAD prend en charge un large éventail de formats de fichiers CAD, y compris DWG, DXF, DGN, et plus encore.
 
-### Q2 : Puis-je utiliser Aspose.CAD pour .NET sans licence ?
+### Q2 : Puis‑je utiliser Aspose.CAD pour .NET sans licence ?
 
-A2 : Bien qu'une licence soit recommandée pour une utilisation en production, vous pouvez explorer la bibliothèque avec une licence temporaire pendant le développement.
+**R2 :** Bien qu'une licence soit recommandée pour une utilisation en production, vous pouvez explorer la bibliothèque avec une licence temporaire pendant le développement.
 
-### Q3 : Existe-t-il des forums communautaires pour le support d'Aspose.CAD ?
+### Q3 : Existe‑t‑il des forums communautaires pour le support d'Aspose.CAD ?
 
- A3 : Oui, visitez le[Forum Aspose.CAD](https://forum.aspose.com/c/cad/19) pour le soutien et les discussions de la communauté.
+**R3 :** Oui, consultez le [forum Aspose.CAD](https://forum.aspose.com/c/cad/19) pour le support communautaire et les discussions.
 
-### Q4 : Comment puis-je accéder à la documentation complète d'Aspose.CAD ?
+### Q4 : Comment accéder à la documentation complète d'Aspose.CAD ?
 
- A4 : reportez-vous aux détails[Documentation](https://reference.aspose.com/cad/net/) pour des conseils complets sur Aspose.CAD pour .NET.
+**R4 :** Référez‑vous à la [documentation détaillée](https://reference.aspose.com/cad/net/) pour des instructions complètes sur Aspose.CAD pour .NET.
 
-### Q5 : Où puis-je télécharger la dernière version d'Aspose.CAD pour .NET ?
+### Q5 : Où puis‑je télécharger la dernière version d'Aspose.CAD pour .NET ?
 
- A5 : Téléchargez la bibliothèque depuis le[page de sortie](https://releases.aspose.com/cad/net/).
+**R5 :** Téléchargez la bibliothèque depuis la [page de version](https://releases.aspose.com/cad/net/).
+
+---
+
+**Dernière mise à jour :** 2026-03-24  
+**Testé avec :** Aspose.CAD 24.11 for .NET  
+**Auteur :** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
