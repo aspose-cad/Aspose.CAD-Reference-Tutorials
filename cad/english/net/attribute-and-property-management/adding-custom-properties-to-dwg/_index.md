@@ -37,7 +37,7 @@ dwg property management refers to the ability to embed, read, and modify custom 
 
 Before we dive into the tutorial, ensure you have the following prerequisites in place:
 
-1. Aspose.CAD Library: Make sure you have the Aspose.CAD library installed. You can download it [here](https://releases.aspose.com/cad/net/).
+1. Aspose.CAD Library: Make sure you have the Aspose.CAD library installed. You can download it [Aspose.CAD .NET download page](https://releases.aspose.com/cad/net/).
 
 2. Development Environment: Have a working .NET development environment set up.
 
@@ -57,7 +57,7 @@ using System.Linq;
 using System.Text;
 ```
 
-## Step 1: Load DWG File
+## Step 1: load DWG file
 
 The first step involves loading the DWG file using Aspose.CAD. This is done using the `Image.Load` method.
 
@@ -70,7 +70,7 @@ using (var cadImage = (CadImage)Image.Load(inputFile))
 }
 ```
 
-## Step 2: Add Custom Properties
+## Step 2: add custom properties
 
 Now, let's add custom properties to the DWG file. In this example, we are adding three custom properties.
 
@@ -80,7 +80,7 @@ cadImage.Header.CustomProperties.Add("CUSTOM_PROPERTY_2", "Custom property test 
 cadImage.Header.CustomProperties.Add("CUSTOM_PROPERTY_3", "Custom property test 3");
 ```
 
-## Step 3: Save the Modified DWG File
+## Step 3: save the modified DWG file
 
 After adding the custom properties, save the modified DWG file using the `Save` method.
 
@@ -89,7 +89,7 @@ string outFile = WorkingDir + "AddMetadata_out.dxf";
 cadImage.Save(outFile);
 ```
 
-## Common Issues and Solutions
+## Common issues and solutions
 
 - **File not found error:** Verify that `WorkingDir` points to the correct folder and that the input file name matches the actual file on disk.  
 - **Properties not persisting:** Ensure you call `cadImage.Save` after adding the properties; otherwise changes remain in memory only.  
@@ -99,7 +99,7 @@ cadImage.Save(outFile);
 
 Congratulations! You have successfully performed **dwg property management** by adding custom properties to a DWG file using Aspose.CAD for .NET. This simple yet powerful feature lets you enrich the metadata associated with your CAD files, making them easier to organize, search, and integrate into automated pipelines.
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 **Q1: Can I add custom properties to other CAD file formats using Aspose.CAD?**  
 A1: Yes, Aspose.CAD supports various CAD file formats, and you can add custom properties to them similarly.

@@ -1,5 +1,5 @@
 ---
-title: Aspose CAD Example: Convert Layouts to Raster Image in .NET
+title: 'Aspose CAD Example: Convert Layouts to Raster Image in .NET'
 linktitle: Convert Layouts to Raster Image
 second_title: Aspose.CAD .NET - CAD and BIM File Format
 description: Aspose CAD example that effortlessly convert CAD layouts to raster images using Aspose.CAD for .NET, letting you convert CAD to raster and export CAD as image.
@@ -28,7 +28,7 @@ If you’re searching for an **aspose cad example** that shows how to turn CAD l
 ## What is an Aspose CAD Example?
 An **aspose cad example** is a concise, runnable code snippet that demonstrates a specific capability of the Aspose.CAD library. In this case, the example illustrates how to **convert CAD layouts to raster** images, a common requirement when integrating CAD data into web portals, reporting tools, or document management systems.
 
-## Why Convert CAD Layouts to Raster Images?
+## Why convert CAD layouts to raster images?
 Raster images are universally viewable—no special CAD viewer is needed. Converting layouts lets you:
 - Embed drawings in PDFs, HTML pages, or mobile apps.  
 - Generate thumbnails for quick previews.  
@@ -56,7 +56,7 @@ using System.Threading.Tasks;
 using Aspose.CAD;
 ```
 
-## Aspose CAD Example – Step 1: Load the CAD Document
+## Aspose CAD example – step 1: load the CAD document
 
 Loading the source file is straightforward. The `Image.Load` method detects the format automatically.
 
@@ -79,7 +79,7 @@ rasterizationOptions.PageHeight = 1200;  // Set page height in pixels
 rasterizationOptions.Layouts = new string[] { "Model", "Layout1" };
 ```
 
-## Aspose CAD Example – Step 3: Set Up TiffOptions for Resultant Image
+## Aspose CAD example – step 3: set up tiffOptions for resultant image
 
 The `TiffOptions` class tells Aspose.CAD to render the raster data as a TIFF file. You can swap `TiffOptions` for `PngOptions`, `JpegOptions`, etc., if you need a different format.
 
@@ -97,7 +97,7 @@ string outputFilePath = MyDir + "conic_pyramid_layoutstorasterimage_out.tiff";
 image.Save(outputFilePath, options);
 ```
 
-## Common Issues and Solutions
+## Common issues and solutions
 
 | Issue | Cause | Fix |
 |-------|-------|-----|
@@ -109,7 +109,7 @@ image.Save(outputFilePath, options);
 
 You’ve now completed a full **aspose cad example** that converts selected CAD layouts into a raster TIFF image. This technique can be extended to batch‑process multiple files, generate PNG thumbnails, or integrate the output into reporting pipelines.
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 **Q1: Is Aspose.CAD compatible with all CAD formats?**  
 A1: Aspose.CAD supports a wide range of CAD formats, including DWG, DXF, DWF, STL, and more. Check the [documentation](https://reference.aspose.com/cad/net/) for a comprehensive list.
@@ -126,15 +126,22 @@ A4: Absolutely! Grab your [free trial](https://releases.aspose.com/) to explore 
 **Q5: Where can I purchase a license for Aspose.CAD?**  
 A5: Navigate to the [purchase page](https://purchase.aspose.com/buy) to buy a license and unlock the full potential of Aspose.CAD.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 
 ---
 
 **Last Updated:** 2026-03-19  
 **Tested With:** Aspose.CAD 24.12 for .NET  
 **Author:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -29,7 +29,7 @@ Enriching CAD drawings with meaningful metadata is essential for clear communica
 
 Before diving into the tutorial, ensure that you have the following prerequisites in place:
 
-- Aspose.CAD for .NET: Make sure you have the Aspose.CAD library installed. You can download it from [here](https://releases.aspose.com/cad/net/).
+- Aspose.CAD for .NET: Make sure you have the Aspose.CAD library installed. You can download it from [Aspose.CAD .NET download page](https://releases.aspose.com/cad/net/).
 
 - Development Environment: Set up a working development environment with Visual Studio or any other preferred .NET IDE.
 
@@ -59,7 +59,7 @@ Adding attributes to a CAD drawing provides a structured way to embed metadata�
 
 ## Step‑by‑Step Guide
 
-### Step 1: Load the CAD Drawing
+### Step 1: load the CAD drawing
 
 Begin by loading the CAD drawing into your application using the following code snippet:
 
@@ -76,7 +76,7 @@ using (CadImage cadImage = (CadImage)Image.Load(sourceFilePath))
 
 > **Pro tip:** Verify that `sourceFilePath` points to the exact location of your DXF file to avoid `FileNotFoundException`.
 
-### Step 2: Identify MTEXT Entities
+### Step 2: identify MTEXT entities
 
 Now we’ll **identify MText entities DXF** and collect them into a list for later processing.
 
@@ -97,7 +97,7 @@ Assert.AreEqual(6, mtextList.Count);
 
 > **Why this matters:** Knowing the exact count of MTEXT objects helps you confirm that the drawing was parsed correctly.
 
-### Step 3: Identify INSERT Entities and ATTRIB Child Objects
+### Step 3: identify INSERT entities and ATTRIB child objects
 
 INSERT entities often act as blocks that contain ATTRIB objects—these are the actual attribute definitions you’ll be working with.
 
@@ -128,7 +128,7 @@ Assert.AreEqual(34, attribList.Count);
 
 While the original tutorial focuses on locating existing attributes, you can extend the workflow by creating new `Attrib` objects and attaching them to the desired INSERT entity. This step is left as an exercise to keep the example concise.
 
-## Common Issues and Solutions
+## Common issues and solutions
 
 | Issue | Cause | Solution |
 |-------|-------|----------|
@@ -144,21 +144,21 @@ A1: Aspose.CAD supports various CAD formats, including DWG and DXF, ensuring com
 
 ### Q2: How do I handle exceptions during CAD file processing?
 
-A2: Aspose.CAD provides robust error handling mechanisms. Refer to the documentation [here](https://reference.aspose.com/cad/net/) for detailed information.
+A2: Aspose.CAD provides robust error handling mechanisms. Refer to the documentation [Aspose.CAD .NET API reference](https://reference.aspose.com/cad/net/) for detailed information.
 
 ### Q3: Is there a free trial available for Aspose.CAD for .NET?
 
-A3: Yes, you can explore the features with a free trial. Get it [here](https://releases.aspose.com/).
+A3: Yes, you can explore the features with a free trial. Get it [Aspose.CAD free trial download page](https://releases.aspose.com/).
 
 ### Q4: Where can I seek help or community support for Aspose.CAD?
 
-A4: Visit the Aspose.CAD forum [here](https://forum.aspose.com/c/cad/19) to connect with the community and get assistance.
+A4: Visit the Aspose.CAD community forum [Aspose.CAD community forum](https://forum.aspose.com/c/cad/19) to connect with the community and get assistance.
 
 ### Q5: How can I obtain a temporary license for Aspose.CAD?
 
-A5: For temporary licensing options, visit [here](https://purchase.aspose.com/temporary-license/).
+A5: For temporary licensing options, visit the [temporary license purchase page](https://purchase.aspose.com/temporary-license/).
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 **Q: How do I actually add a new attribute to an INSERT entity?**  
 A: Create a new `CadAttrib` object, set its `Tag` and `TextString` properties, and add it to the `ChildObjects` collection of the target INSERT entity.

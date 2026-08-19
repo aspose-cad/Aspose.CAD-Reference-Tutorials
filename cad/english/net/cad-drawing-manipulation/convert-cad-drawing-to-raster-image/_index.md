@@ -56,7 +56,7 @@ using Aspose.CAD;
 
 ## Step‑by‑Step Guide
 
-### Step 1: Define File Paths
+### Step 1: define file paths
 Set the source CAD file and the destination PNG path. Replace the placeholder with the actual directory on your machine.
 
 ```csharp
@@ -65,7 +65,7 @@ string MyDir = "Your Document Directory";
 string sourceFilePath = MyDir + "conic_pyramid.dxf";
 ```
 
-### Step 2: Load the CAD Drawing
+### Step 2: load the CAD drawing
 Open the CAD file using `Aspose.CAD.Image.Load`. This creates an in‑memory representation of the drawing that you can rasterize.
 
 ```csharp
@@ -73,7 +73,7 @@ using (Aspose.CAD.Image image = Aspose.CAD.Image.Load(sourceFilePath))
 {
 ```
 
-### Step 3: Configure Rasterization Options  
+### Step 3: configure rasterization options
 Define how the vector data should be turned into pixels. Here we set a 1200 × 1200 pixel canvas, but you can adjust `PageWidth` and `PageHeight` to match your needs (e.g., for **convert dwg to png** at a specific DPI).
 
 ```csharp
@@ -96,7 +96,7 @@ ImageOptionsBase options = new Aspose.CAD.ImageOptions.PngOptions();
 options.VectorRasterizationOptions = rasterizationOptions;
 ```
 
-### Step 5: Save the Resultant PNG  
+### Step 5: save the resultant PNG
 Combine the directory path with the desired file name and write the rasterized image to disk. This step **saves CAD as PNG**.
 
 ```csharp
@@ -105,7 +105,7 @@ MyDir = MyDir + "conic_pyramid_raster_image_out.png";
 image.Save(MyDir, options);
 ```
 
-### Step 6: Display Success Message  
+### Step 6: display success message
 Confirm that the conversion succeeded and show where the file was saved.
 
 ```csharp
@@ -115,7 +115,7 @@ Console.WriteLine("\nCAD drawing converted successfully to raster image format.\
 
 > **Note:** The `using` block from Step 2 automatically disposes of the `Image` object, ensuring all resources are released.
 
-## Common Issues and Solutions
+## Common issues and solutions
 
 | Issue | Cause | Fix |
 |-------|-------|-----|
@@ -124,7 +124,7 @@ Console.WriteLine("\nCAD drawing converted successfully to raster image format.\
 | **Performance lag on large DWG files** | High resolution without tiling. | Use `rasterizationOptions.LayoutOptions` to limit rendering area or lower DPI. |
 | **License exception** | Running without a valid license in production. | Apply the license via `License license = new License(); license.SetLicense("Aspose.CAD.lic");` before loading the image. |
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 ### Q1: Is Aspose.CAD compatible with all CAD file formats?
 A1: Aspose.CAD supports a wide range of CAD file formats, including DWG, DXF, DGN, and more. Refer to the [documentation](https://reference.aspose.com/cad/net/) for a comprehensive list.
@@ -133,13 +133,13 @@ A1: Aspose.CAD supports a wide range of CAD file formats, including DWG, DXF, DG
 A2: Yes, Aspose.CAD allows extensive customization of rasterization options, enabling developers to tailor the output based on project requirements.
 
 ### Q3: Is there a free trial available for Aspose.CAD?
-A3: Yes, you can explore Aspose.CAD's features with a free trial. Visit [here](https://releases.aspose.com/) to get started.
+A3: Yes, you can explore Aspose.CAD's features with a free trial. Visit the [Aspose.CAD free trial page](https://releases.aspose.com/) to get started.
 
 ### Q4: How can I get support for Aspose.CAD?
 A4: For any assistance or queries, visit the Aspose.CAD [support forum](https://forum.aspose.com/c/cad/19).
 
 ### Q5: Are temporary licenses available for Aspose.CAD?
-A5: Yes, developers can obtain temporary licenses for Aspose.CAD from [this link](https://purchase.aspose.com/temporary-license/).
+A5: Yes, developers can obtain temporary licenses for Aspose.CAD from the [temporary license page](https://purchase.aspose.com/temporary-license/).
 
 ### Q6: Can I use this method to **convert DWG to PNG** as well?
 A6: Absolutely. The same code works for DWG files; just change the source file extension to `.dwg`.

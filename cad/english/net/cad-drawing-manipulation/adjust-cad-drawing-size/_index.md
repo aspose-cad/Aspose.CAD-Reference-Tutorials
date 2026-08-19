@@ -53,7 +53,7 @@ using System.Threading.Tasks;
 using Aspose.CAD;
 ```
 
-## Step 1: Load the CAD Drawing
+## Step 1: load the CAD drawing
 
 Load the source file into an `Image` object. This object represents the CAD drawing in memory and will be the basis for all further operations.
 
@@ -76,7 +76,7 @@ using (var image = Aspose.CAD.Image.Load(sourceFilePath))
 Aspose.CAD.ImageOptions.BmpOptions bmpOptions = new Aspose.CAD.ImageOptions.BmpOptions();
 ```
 
-## Step 3: Set CadRasterizationOptions
+## Step 3: set cadRasterizationOptions
 
 `CadRasterizationOptions` holds the core settings for scaling, unit conversion, and layout selection. Linking it to the `VectorRasterizationOptions` property of `BmpOptions` ensures the rasterizer uses your custom settings.
 
@@ -112,7 +112,7 @@ image.Save(outPath, bmpOptions);
 
 You now have a BMP file that represents the resized CAD drawing, ready for further processing or display.
 
-## Common Issues and Solutions
+## Common issues and solutions
 
 | Issue | Why it Happens | Fix |
 |-------|----------------|-----|
@@ -140,9 +140,9 @@ A4: Yes, you can explore a [free trial](https://releases.aspose.com/) to evaluat
 
 ### Q5: How can I obtain a temporary license for Aspose.CAD for .NET?
 
-A5: Obtain a temporary license for testing purposes [here](https://purchase.aspose.com/temporary-license/).
+A5: Obtain a temporary license for testing purposes from the [temporary license request page](https://purchase.aspose.com/temporary-license/).
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 **Q: How do I scale a CAD drawing without changing the unit type?**  
 A: Adjust the `Zoom` property of `CadRasterizationOptions` (e.g., `cadRasterizationOptions.Zoom = 2.0;`) to double the size while keeping the original unit.
