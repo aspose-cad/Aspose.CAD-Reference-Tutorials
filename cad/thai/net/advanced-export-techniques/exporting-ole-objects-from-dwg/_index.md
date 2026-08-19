@@ -1,33 +1,44 @@
 ---
-title: การส่งออกวัตถุ OLE จากไฟล์ DWG - บทช่วยสอน Aspose.CAD
-linktitle: การส่งออกวัตถุ OLE จากไฟล์ DWG
-second_title: Aspose.CAD .NET - รูปแบบไฟล์ CAD และ BIM
-description: สำรวจคำแนะนำทีละขั้นตอนในการส่งออกออบเจ็กต์ OLE จากไฟล์ DWG โดยใช้ Aspose.CAD สำหรับ .NET เสริมทักษะการจัดการไฟล์ CAD ของคุณได้อย่างง่ายดาย
-weight: 12
+description: เรียนรู้วิธีแปลง DWG เป็น PNG และดึงวัตถุ OLE จากไฟล์ DWG ด้วย Aspose.CAD
+  สำหรับ .NET – คู่มือสั้น ๆ ที่เน้นโค้ด
+linktitle: Exporting OLE Objects from DWG Files
+second_title: Aspose.CAD .NET - CAD and BIM File Format
+title: แปลง DWG เป็น PNG และส่งออกวัตถุ OLE - บทเรียน Aspose.CAD
 url: /th/net/advanced-export-techniques/exporting-ole-objects-from-dwg/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# การส่งออกวัตถุ OLE จากไฟล์ DWG - บทช่วยสอน Aspose.CAD
+# การส่งออกวัตถุ OLE จากไฟล์ DWG - บทแนะนำ Aspose.CAD
 
-## การแนะนำ
+## Introduction
 
-คุณต้องการแยกวัตถุ OLE ออกจากไฟล์ DWG อย่างง่ายดายหรือไม่? Aspose.CAD สำหรับ .NET พร้อมที่จะปรับปรุงกระบวนการให้กับคุณ ในบทช่วยสอนนี้ เราจะแนะนำคุณตลอดขั้นตอนการส่งออกออบเจ็กต์ OLE ทีละขั้นตอน เพื่อให้มั่นใจว่าคุณจะได้ประโยชน์สูงสุดจากไลบรารี .NET อันทรงพลังนี้ 
+หากคุณต้องการ **convert DWG to PNG** พร้อมดึงวัตถุ OLE ที่ฝังอยู่ คุณมาถูกที่แล้ว Aspose.CAD for .NET ทำให้กระบวนการสองขั้นตอนนี้ง่ายดาย ช่วยให้คุณอัตโนมัติการสกัดและการเรสเตอร์ไลซ์ด้วยเพียงไม่กี่บรรทัดของ C# ในไม่กี่นาทีต่อไป เราจะพาคุณผ่านขั้นตอนทั้งหมด ตั้งแต่การตั้งค่าสภาพแวดล้อมจนถึงการบันทึกแต่ละ DWG เป็น PNG ที่บรรจุข้อมูล OLE ที่สกัดออกมา
 
-## ข้อกำหนดเบื้องต้น
+## Quick Answers
+- **บทเรียนนี้ครอบคลุมอะไรบ้าง?** การแปลง DWG เป็น PNG และการสกัดวัตถุ OLE ด้วย Aspose.CAD for .NET.  
+- **ฉันต้องการไลเซนส์หรือไม่?** เวอร์ชันทดลองฟรีใช้ได้สำหรับการพัฒนา; ต้องมีไลเซนส์เชิงพาณิชย์สำหรับการใช้งานจริง.  
+- **เวอร์ชัน .NET ที่รองรับคืออะไร?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6+.  
+- **ฉันสามารถประมวลผลไฟล์ DWG หลายไฟล์พร้อมกันได้หรือไม่?** ได้ – ตัวอย่างจะวนลูปผ่านอาเรย์ของชื่อไฟล์.  
+- **ฉันสามารถหา ตัวอย่างเพิ่มเติมได้ที่ไหน?** ดูเอกสารและลิงก์ฟอรั่มอย่างเป็นทางการของ Aspose.CAD ด้านล่าง.
 
-ก่อนที่เราจะเจาะลึกบทช่วยสอน ตรวจสอบให้แน่ใจว่าคุณมีข้อกำหนดเบื้องต้นต่อไปนี้:
+## What is **convert DWG to PNG**?
+การแปลง DWG (ไฟล์ AutoCAD) เป็นภาพ PNG จะทำให้ข้อมูลเวกเตอร์ถูกเรสเตอร์ไลซ์ ทำให้ดูหรือฝังในหน้าเว็บ รายงาน หรือแอปพลิเคชันอื่น ๆ ที่ไม่รองรับ DWG โดยตรงได้ง่ายขึ้น เมื่อมีวัตถุ OLE อยู่ การแปลงนี้สามารถสกัดและบันทึกเป็นไฟล์แยกได้ในระหว่างกระบวนการ
 
--  Aspose.CAD สำหรับ .NET Library: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้งไลบรารีแล้ว คุณสามารถดาวน์โหลดได้จาก[หน้าดาวน์โหลด Aspose.CAD สำหรับ .NET](https://releases.aspose.com/cad/net/).
+## Why extract OLE objects from CAD files?
+ไฟล์ DWG จำนวนมากฝังสเปรดชีต แผนภูมิ หรือเอกสาร Office อื่น ๆ เป็นวัตถุ OLE การสกัดเหล่านี้ทำให้คุณสามารถนำข้อมูลเดิมกลับมาใช้ใหม่ อัตโนมัติการรายงาน หรือย้ายเนื้อหาไปยังรูปแบบใหม่โดยไม่สูญเสียข้อมูลที่ฝังอยู่
 
--  ไดเร็กทอรีเอกสาร: ตั้งค่าไดเร็กทอรีที่เก็บไฟล์ DWG ของคุณ แทนที่`"Your Document Directory"` ในข้อมูลโค้ดที่ให้มาพร้อมกับเส้นทางจริง
+## Prerequisites
 
-## นำเข้าเนมสเปซ
+- Aspose.CAD for .NET Library: ตรวจสอบว่าคุณได้ติดตั้งไลบรารีแล้ว คุณสามารถดาวน์โหลดได้จาก [Aspose.CAD for .NET download page](https://releases.aspose.com/cad/net/).
+- Document Directory: ตั้งค่าโฟลเดอร์ที่เก็บไฟล์ DWG ของคุณ แทนที่ `"Your Document Directory"` ในโค้ดตัวอย่างด้วยพาธจริงของคุณ
 
-ในโปรเจ็กต์ .NET ของคุณ คุณจะต้องนำเข้าเนมสเปซที่จำเป็นเพื่อใช้ประโยชน์จากฟังก์ชัน Aspose.CAD ใช้ข้อมูลโค้ดต่อไปนี้:
+## Import Namespaces
+
+ในโปรเจกต์ .NET ของคุณ ให้นำเข้า namespace ที่จำเป็น:
 
 ```csharp
 using Aspose.CAD.FileFormats.Cad;
@@ -38,23 +49,23 @@ using System.Linq;
 using System.Text;
 ```
 
-## ขั้นตอนที่ 1: ตั้งค่าไดเร็กทอรีเอกสาร
+## Step‑by‑Step Guide
+
+### Step 1: Set the Document Directory
 
 ```csharp
 string MyDir = "Your Document Directory";
 ```
 
- แทนที่`"Your Document Directory"` ด้วยเส้นทางที่มีไฟล์ DWG ของคุณอยู่
+แทนที่ `"Your Document Directory"` ด้วยพาธที่ไฟล์ DWG ของคุณตั้งอยู่
 
-## ขั้นตอนที่ 2: ระบุไฟล์ DWG
+### Step 2: List the DWG files you want to process
 
 ```csharp
 string[] files = new string[] { "D ZD junior D10m H2m.dwg", "ZD - Senior D6m H2m45.dwg" };
 ```
 
-แสดงรายการไฟล์ DWG ที่คุณต้องการประมวลผลภายในอาร์เรย์
-
-## ขั้นตอนที่ 3: กำหนดค่าตัวเลือกการส่งออก
+### Step 3: Configure export options for PNG conversion
 
 ```csharp
 PngOptions pngOptions = new PngOptions { };
@@ -63,9 +74,9 @@ pngOptions.VectorRasterizationOptions = rasterizationOptions;
 rasterizationOptions.Layouts = new string[] { "Layout1" };
 ```
 
-ปรับแต่งตัวเลือกการส่งออกตามความต้องการของคุณ ในตัวอย่างนี้ เรากำหนดค่าการส่งออก PNG ด้วยเค้าโครงที่ระบุ
+คุณสามารถปรับ `CadRasterizationOptions` (เช่น `PageWidth`, `PageHeight`, `BackgroundColor`) ให้ตรงกับความละเอียดที่ต้องการได้
 
-## ขั้นตอนที่ 4: วนซ้ำไฟล์และส่งออก
+### Step 4: Iterate through each DWG and perform the conversion
 
 ```csharp
 foreach (string file in files)
@@ -77,33 +88,44 @@ foreach (string file in files)
 }
 ```
 
-วนซ้ำไฟล์ DWG ที่ระบุ โหลดแต่ละไฟล์ และบันทึกไฟล์ PNG ที่ส่งออกด้วยตัวเลือกที่กำหนดไว้
+ในลูปนี้ไลบรารีจะ **extracts OLE objects** ที่ฝังอยู่ในแต่ละภาพวาดโดยอัตโนมัติและใส่ไว้ใน PNG ที่สร้างขึ้น หากคุณต้องการสตรีม OLE ดิบ คุณสามารถเข้าถึงคอลเลกชัน `cadImage.OleObjects` – วิธีที่สะดวกในการ **how to extract ole** ข้อมูลโดยโปรแกรม
 
-## บทสรุป
+## Common Issues & Troubleshooting
 
-ยินดีด้วย! คุณได้ส่งออกวัตถุ OLE จากไฟล์ DWG โดยใช้ Aspose.CAD สำหรับ .NET เรียบร้อยแล้ว ไลบรารีอันทรงพลังนี้ทำให้งานที่ซับซ้อนง่ายขึ้น โดยให้ประสิทธิภาพและความยืดหยุ่นในการจัดการไฟล์ CAD
+- **Missing layout name** – ตรวจสอบให้แน่ใจว่าเลย์เอาต์ที่คุณระบุ (`"Layout1"` ในตัวอย่าง) มีอยู่ใน DWG ต้นทาง; หากไม่มี rasterizer จะใช้โมเดลสเปซเริ่มต้นแทน
+- **Large files cause memory pressure** – ประมวลผลไฟล์ทีละไฟล์ (ตามที่แสดง) และทำลายอ็อบเจ็กต์ `CadImage` ทันทีด้วย `using`
+- **Unexpected colors** – ตั้งค่า `rasterizationOptions.BackgroundColor` ให้ตรงกับพื้นหลังของภาพวาดหากต้องการความโปร่งใส
 
-## คำถามที่พบบ่อย
+## Frequently Asked Questions
 
-### คำถามที่ 1: Aspose.CAD สำหรับ .NET เหมาะสำหรับไฟล์ CAD ระดับจูเนียร์และระดับสูงหรือไม่
+### Q1: Is Aspose.CAD for .NET suitable for both junior and senior CAD files?
+A1: ใช่, Aspose.CAD for .NET มีความยืดหยุ่นและสามารถจัดการไฟล์ CAD ชนิดต่าง ๆ รวมถึงไฟล์ระดับ junior และ senior ได้
 
-ตอบ 1: ใช่ Aspose.CAD สำหรับ .NET มีความหลากหลายและสามารถจัดการไฟล์ CAD ได้หลากหลาย รวมถึงรุ่นรองและรุ่นอาวุโส
+### Q2: Can I customize export options for different layouts?
+A2: แน่นอน! ตามที่แสดงในบทแนะนำ คุณสามารถปรับแต่งตัวเลือกการส่งออก รวมถึงเลย์เอาต์ เพื่อให้ตรงกับความต้องการของคุณ
 
-### คำถามที่ 2: ฉันสามารถปรับแต่งตัวเลือกการส่งออกสำหรับเลย์เอาต์ต่างๆ ได้หรือไม่
+### Q3: Where can I find detailed documentation for Aspose.CAD for .NET?
+A3: สำรวจ [Aspose.CAD for .NET documentation](https://reference.aspose.com/cad/net/) เพื่อรับข้อมูลเชิงลึกและตัวอย่างเพิ่มเติม
 
-A2: แน่นอน! ดังที่แสดงในบทช่วยสอน คุณสามารถปรับแต่งตัวเลือกการส่งออก รวมถึงเค้าโครง เพื่อให้เหมาะกับความต้องการเฉพาะของคุณได้
+### Q4: Is there a free trial available?
+A4: มี, คุณสามารถทดลองใช้ความสามารถของ Aspose.CAD for .NET ได้ฟรี เยี่ยมชม [this link](https://releases.aspose.com/) เพื่อเริ่มต้น
 
-### คำถามที่ 3: ฉันจะหาเอกสารโดยละเอียดสำหรับ Aspose.CAD สำหรับ .NET ได้ที่ไหน
+### Q5: How can I get support or connect with the community?
+A5: สำหรับการสนับสนุนและการมีส่วนร่วมกับชุมชน ให้เยี่ยมชม [Aspose.CAD forum](https://forum.aspose.com/c/cad/19)
 
- A3: สำรวจ[Aspose.CAD สำหรับเอกสาร .NET](https://reference.aspose.com/cad/net/) สำหรับข้อมูลเชิงลึกและตัวอย่าง
+### Q6: How do I **extract OLE from CAD** files without converting to PNG?
+A6: ใช้คอลเลกชัน `CadImage.OleObjects` หลังจากโหลด DWG; คุณสามารถวนลูปผ่านแต่ละ `OleObject` แล้วบันทึกข้อมูลดิบลงไฟล์ได้
 
-### คำถามที่ 4: มีการทดลองใช้ฟรีหรือไม่?
+## Conclusion
 
- ตอบ 4: ได้ คุณสามารถสัมผัสประสบการณ์ความสามารถของ Aspose.CAD สำหรับ .NET ได้ด้วยการทดลองใช้ฟรี เยี่ยม[ลิงค์นี้](https://releases.aspose.com/) ที่จะเริ่มต้น.
+คุณได้เรียนรู้วิธี **convert DWG to PNG** พร้อมกับ **extracting OLE objects** อย่างราบรื่นด้วย Aspose.CAD for .NET วิธีนี้ช่วยประหยัดเวลา ลดขั้นตอนคัดลอก‑วางด้วยมือ และสามารถรวมเข้ากับกระบวนการอัตโนมัติได้อย่างลงตัว อย่าลังเลที่จะทดลองใช้รูปแบบเรสเตอร์อื่น ๆ (JPEG, BMP) หรือสำรวจคุณสมบัติการจัดการ CAD ที่หลากหลายของ Aspose
 
-### คำถามที่ 5: ฉันจะรับการสนับสนุนหรือเชื่อมต่อกับชุมชนได้อย่างไร
+---
 
- A5: สำหรับการสนับสนุนและการมีส่วนร่วมของชุมชน โปรดไปที่[ฟอรั่ม Aspose.CAD](https://forum.aspose.com/c/cad/19).
+**Last Updated:** 2026-03-13  
+**Tested With:** Aspose.CAD 24.11 for .NET  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

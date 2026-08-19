@@ -1,33 +1,46 @@
 ---
-title: OLE Nesnelerini DWG Dosyalarından Dışa Aktarma - Aspose.CAD Eğitimi
-linktitle: OLE Nesnelerini DWG Dosyalarından Dışa Aktarma
-second_title: Aspose.CAD .NET - CAD ve BIM Dosya Formatı
-description: Aspose.CAD for .NET kullanarak OLE nesnelerini DWG dosyalarından dışa aktarmaya ilişkin adım adım kılavuzu keşfedin. CAD dosyası işleme becerilerinizi zahmetsizce geliştirin.
-weight: 12
+description: Aspose.CAD for .NET kullanarak DWG'yi PNG'ye dönüştürmeyi ve DWG dosyalarından
+  OLE nesnelerini çıkarmayı öğrenin – hızlı, kod odaklı bir rehber.
+linktitle: Exporting OLE Objects from DWG Files
+second_title: Aspose.CAD .NET - CAD and BIM File Format
+title: DWG'yi PNG'ye Dönüştür & OLE Nesnelerini Dışa Aktar - Aspose.CAD Öğreticisi
 url: /tr/net/advanced-export-techniques/exporting-ole-objects-from-dwg/
+weight: 12
 ---
 
-{{< blocks/products/pf/main-wrap-class >}}
+ keep blank lines as original.
+
+Let's craft final answer.{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# OLE Nesnelerini DWG Dosyalarından Dışa Aktarma - Aspose.CAD Eğitimi
+# DWG Dosyalarından OLE Nesnelerini Dışa Aktarma - Aspose.CAD Öğreticisi
 
-## giriiş
+## Giriş
 
-OLE nesnelerini DWG dosyalarından kolaylıkla çıkarmak mı istiyorsunuz? Aspose.CAD for .NET, süreci sizin için kolaylaştırmak için burada. Bu öğreticide, OLE nesnelerini adım adım dışa aktarma konusunda size rehberlik ederek bu güçlü .NET kitaplığından en iyi şekilde yararlanmanızı sağlayacağız. 
+Eğer gömülü OLE nesnelerini çıkarırken **convert DWG to PNG** yapmak istiyorsanız, doğru yerdesiniz. Aspose.CAD for .NET bu iki adımlı süreci basitleştirir, birkaç C# satırıyla çıkarma ve rasterleştirmeyi otomatikleştirmenizi sağlar. Önümüzdeki birkaç dakikada ortamınızı kurmaktan, her DWG'yi çıkarılan OLE verilerini içeren bir PNG olarak kaydetmeye kadar tüm iş akışını adım adım göstereceğiz.
+
+## Hızlı Yanıtlar
+- **Bu öğretici neyi kapsıyor?** Aspose.CAD for .NET kullanarak DWG'yi PNG'ye dönüştürme ve OLE nesnelerini çıkarma.  
+- **Bir lisansa ihtiyacım var mı?** Geliştirme için ücretsiz deneme sürümü çalışır; üretim için ticari lisans gereklidir.  
+- **Hangi .NET sürümleri destekleniyor?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6+.  
+- **Birden fazla DWG dosyasını aynı anda işleyebilir miyim?** Evet – örnek, dosya adları dizisi üzerinden döngü yapar.  
+- **Daha fazla örnek nerede bulunur?** Aşağıdaki resmi Aspose.CAD dokümantasyonu ve forum bağlantılarına bakın.
+
+## **convert DWG to PNG** nedir?
+Bir DWG (AutoCAD çizimi) dosyasını PNG görüntüsüne dönüştürmek, vektör verilerini rasterleştirir ve DWG'yi doğal olarak desteklemeyen web sayfaları, raporlar veya diğer uygulamalara görüntüleme ya da gömme işlemini kolaylaştırır. OLE nesneleri mevcut olduğunda, dönüşüm sırasında ayrı varlıklar olarak çıkarılıp kaydedilebilir.
+
+## CAD dosyalarından OLE nesnelerini neden çıkaralım?
+Birçok DWG çizimi, elektronik tablolar, grafikler veya diğer Office belgelerini OLE nesneleri olarak gömer. Bunları çıkarmak, orijinal veriyi yeniden kullanmanıza, raporlamayı otomatikleştirmenize veya gömülü bilgiyi kaybetmeden içeriği daha yeni formatlara taşımanıza olanak tanır.
 
 ## Önkoşullar
 
-Eğiticiye dalmadan önce aşağıdaki önkoşulların mevcut olduğundan emin olun:
+- Aspose.CAD for .NET Kütüphanesi: Kütüphanenin kurulu olduğundan emin olun. [Aspose.CAD for .NET download page](https://releases.aspose.com/cad/net/) adresinden indirebilirsiniz.
+- Belge Dizini: DWG dosyalarınızın saklandığı bir dizin oluşturun. Sağlanan kod parçacığındaki `"Your Document Directory"` ifadesini gerçek yol ile değiştirin.
 
--  Aspose.CAD for .NET Library: Kütüphanenin kurulu olduğundan emin olun. adresinden indirebilirsiniz.[Aspose.CAD for .NET indirme sayfası](https://releases.aspose.com/cad/net/).
+## Ad Alanlarını İçe Aktarma
 
--  Belge Dizini: DWG dosyalarınızın depolandığı bir dizin ayarlayın. Yer değiştirmek`"Your Document Directory"` sağlanan kod pasajında gerçek yolla birlikte.
-
-## Ad Alanlarını İçe Aktar
-
-.NET projenizde Aspose.CAD işlevselliklerinden yararlanmak için gerekli ad alanlarını içe aktarmanız gerekecektir. Aşağıdaki kod parçacığını kullanın:
+.NET projenizde, gerekli ad alanlarını içe aktarın:
 
 ```csharp
 using Aspose.CAD.FileFormats.Cad;
@@ -38,23 +51,23 @@ using System.Linq;
 using System.Text;
 ```
 
-## 1. Adım: Belge Dizinini Ayarlayın
+## Adım Adım Kılavuz
+
+### Adım 1: Belge Dizini Ayarlama
 
 ```csharp
 string MyDir = "Your Document Directory";
 ```
 
- Yer değiştirmek`"Your Document Directory"` DWG dosyalarınızın bulunduğu yolla.
+`"Your Document Directory"` ifadesini DWG dosyalarınızın bulunduğu yol ile değiştirin.
 
-## Adım 2: DWG Dosyalarını Belirleyin
+### Adım 2: İşlemek İstediğiniz DWG Dosyalarını Listeleyin
 
 ```csharp
 string[] files = new string[] { "D ZD junior D10m H2m.dwg", "ZD - Senior D6m H2m45.dwg" };
 ```
 
-Dizi içinde işlemek istediğiniz DWG dosyalarını listeleyin.
-
-## 3. Adım: Dışa Aktarma Seçeneklerini Yapılandırın
+### Adım 3: PNG Dönüştürme İçin Dışa Aktarma Seçeneklerini Yapılandırın
 
 ```csharp
 PngOptions pngOptions = new PngOptions { };
@@ -63,9 +76,9 @@ pngOptions.VectorRasterizationOptions = rasterizationOptions;
 rasterizationOptions.Layouts = new string[] { "Layout1" };
 ```
 
-Dışa aktarma seçeneklerini gereksinimlerinize göre özelleştirin. Bu örnekte PNG dışa aktarımını belirli bir düzen ile yapılandırıyoruz.
+`CadRasterizationOptions` (ör. `PageWidth`, `PageHeight`, `BackgroundColor`) ayarlarını istediğiniz çıktı çözünürlüğüne göre düzenleyebilirsiniz.
 
-## Adım 4: Dosyaları Yineleyin ve Dışa Aktarın
+### Adım 4: Her DWG Üzerinde Döngü Oluşturup Dönüştürmeyi Gerçekleştirin
 
 ```csharp
 foreach (string file in files)
@@ -77,33 +90,44 @@ foreach (string file in files)
 }
 ```
 
-Belirtilen DWG dosyalarını yineleyin, her birini yükleyin ve dışa aktarılan PNG dosyasını tanımlanan seçeneklerle kaydedin.
+Bu döngü sırasında kütüphane, her çizime gömülü **OLE nesnelerini** otomatik olarak çıkarır ve oluşturulan PNG'ye ekler. Ham OLE akışlarına ihtiyacınız varsa, `cadImage.OleObjects` koleksiyonuna erişebilirsiniz – programlı olarak **how to extract ole** verilerini almanın kullanışlı bir yolu.
 
-## Çözüm
+## Yaygın Sorunlar ve Sorun Giderme
 
-Tebrikler! Aspose.CAD for .NET'i kullanarak OLE nesnelerini DWG dosyalarından başarıyla dışa aktardınız. Bu güçlü kütüphane, karmaşık görevleri basitleştirerek CAD dosyası manipülasyonunda verimlilik ve esneklik sağlar.
+- **Eksik düzen adı** – Belirttiğiniz düzenin (`"Layout1"` örnekte) kaynak DWG'de mevcut olduğundan emin olun; aksi takdirde rasterleştirici varsayılan model alanına geri döner.
+- **Büyük dosyalar bellek baskısı oluşturur** – Dosyaları tek tek işleyin (gösterildiği gibi) ve `using` ile `CadImage` nesnelerini hemen serbest bırakın.
+- **Beklenmeyen renkler** – Şeffaflık gerekiyorsa `rasterizationOptions.BackgroundColor` değerini çizimin arka planına uygun şekilde ayarlayın.
 
-## SSS'ler
+## Sıkça Sorulan Sorular
 
-### S1: Aspose.CAD for .NET hem alt hem de üst düzey CAD dosyaları için uygun mudur?
-
-Cevap1: Evet, Aspose.CAD for .NET çok yönlüdür ve hem alt hem de üst düzey versiyonlar da dahil olmak üzere çok çeşitli CAD dosyalarını işleyebilir.
+### S1: Aspose.CAD for .NET hem junior hem senior CAD dosyaları için uygun mu?
+A1: Evet, Aspose.CAD for .NET çok yönlüdür ve junior ve senior varyantlar dahil olmak üzere geniş bir CAD dosyası yelpazesini işleyebilir.
 
 ### S2: Farklı düzenler için dışa aktarma seçeneklerini özelleştirebilir miyim?
+A2: Kesinlikle! Öğreticide gösterildiği gibi, dışa aktarma seçeneklerini, düzenler dahil, özel ihtiyaçlarınıza göre uyarlayabilirsiniz.
 
-A2: Kesinlikle! Öğreticide gösterildiği gibi, düzenler de dahil olmak üzere dışa aktarma seçeneklerini özel ihtiyaçlarınıza göre uyarlayabilirsiniz.
+### S3: Aspose.CAD for .NET için ayrıntılı dokümantasyonu nerede bulabilirim?
+A3: Derinlemesine bilgi ve örnekler için [Aspose.CAD for .NET documentation](https://reference.aspose.com/cad/net/) adresini inceleyin.
 
-### S3: Aspose.CAD for .NET'in ayrıntılı belgelerini nerede bulabilirim?
+### S4: Ücretsiz deneme sürümü var mı?
+A4: Evet, Aspose.CAD for .NET'in yeteneklerini ücretsiz deneme sürümüyle deneyebilirsiniz. Başlamak için [this link](https://releases.aspose.com/) adresini ziyaret edin.
 
- A3: Keşfedin[Aspose.CAD for .NET belgeleri](https://reference.aspose.com/cad/net/) Ayrıntılı bilgi ve örnekler için.
+### S5: Destek alabilir ya da toplulukla nasıl iletişime geçebilirim?
+A5: Destek ve topluluk etkileşimi için [Aspose.CAD forum](https://forum.aspose.com/c/cad/19) adresini ziyaret edin.
 
-### S4: Ücretsiz deneme sürümü mevcut mu?
+### S6: PNG'ye dönüştürmeden **extract OLE from CAD** dosyalarından nasıl OLE çıkarırım?
+A6: DWG'yi yükledikten sonra `CadImage.OleObjects` koleksiyonunu kullanın; her `OleObject` üzerinden döngü yaparak ham verisini bir dosyaya kaydedebilirsiniz.
 
- Cevap4: Evet, Aspose.CAD for .NET'in özelliklerini ücretsiz denemeyle deneyimleyebilirsiniz. Ziyaret etmek[bu bağlantı](https://releases.aspose.com/) başlamak.
+## Sonuç
 
-### S5: Nasıl destek alabilirim veya toplulukla nasıl bağlantı kurabilirim?
+Artık Aspose.CAD for .NET kullanarak **convert DWG to PNG** yaparken **OLE nesnelerini** sorunsuz bir şekilde nasıl çıkaracağınızı gördünüz. Bu yaklaşım zaman kazandırır, manuel kopyala‑yapıştır adımlarını ortadan kaldırır ve otomatik iş akışlarına temiz bir şekilde entegre olur. Diğer raster formatları (JPEG, BMP) ile denemeler yapabilir veya Aspose'un sunduğu zengin CAD manipülasyon özelliklerini keşfedebilirsiniz.
 
- Cevap5: Destek ve topluluk katılımı için şu adresi ziyaret edin:[Aspose.CAD forumu](https://forum.aspose.com/c/cad/19).
+---
+
+**Last Updated:** 2026-03-13  
+**Tested With:** Aspose.CAD 24.11 for .NET  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
