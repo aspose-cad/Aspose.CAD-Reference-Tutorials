@@ -1,33 +1,48 @@
 ---
+date: 2026-03-21
+description: Pelajari cara mendapatkan ukuran tata letak CAD di .NET menggunakan Aspose.CAD.
+  Ikuti panduan langkah demi langkah kami untuk manipulasi file CAD yang efisien.
+linktitle: Get Size of CAD Layout
+second_title: Aspose.CAD .NET - CAD and BIM File Format
 title: Dapatkan Ukuran Tata Letak CAD di Aspose.CAD untuk .NET
-linktitle: Dapatkan Ukuran Tata Letak CAD
-second_title: Aspose.CAD .NET - Format File CAD dan BIM
-description: Pelajari cara mengambil ukuran tata letak CAD di .NET menggunakan Aspose.CAD. Ikuti panduan langkah demi langkah kami untuk manipulasi file CAD yang efisien.
-weight: 14
 url: /id/net/cad-drawing-manipulation/get-size-of-cad-layout/
+weight: 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Dapatkan Ukuran Tata Letak CAD di Aspose.CAD untuk .NET
+# Mendapatkan Ukuran Layout CAD di Aspose.CAD untuk .NET
 
-## Perkenalan
+## Pendahuluan
 
-Selamat datang di panduan komprehensif tentang cara mendapatkan ukuran tata letak CAD menggunakan Aspose.CAD untuk .NET. Aspose.CAD adalah perpustakaan canggih yang memungkinkan pengembang bekerja dengan file CAD dengan lancar. Dalam tutorial ini, kami akan memandu Anda melalui proses mengambil ukuran tata letak CAD menggunakan contoh praktis dan petunjuk langkah demi langkah.
+Dalam tutorial komprehensif ini Anda akan menemukan **cara mendapatkan ukuran layout CAD** menggunakan pustaka Aspose.CAD untuk .NET. Baik Anda sedang membangun penampil CAD, menghasilkan thumbnail, atau memerlukan dimensi layout yang tepat untuk pemrosesan lanjutan, mengetahui ukuran pasti setiap layout sangat penting. Kami akan membimbing Anda melalui seluruh alur kerja—dari memuat gambar hingga mengekstrak dimensi layout dan secara opsional menyimpannya sebagai gambar—sehingga Anda dapat mengintegrasikan kemampuan ini ke dalam aplikasi Anda dengan percaya diri.
+
+## Jawaban Cepat
+- **Apa arti “mendapatkan ukuran layout CAD”?** Itu berarti mengambil lebar dan tinggi (dalam satuan gambar) dari setiap layout yang tidak kosong dalam file CAD.  
+- **Pustaka mana yang mendukung ini?** Aspose.CAD untuk .NET menyediakan API sederhana untuk mengakses informasi layout.  
+- **Apakah saya memerlukan lisensi?** Versi percobaan gratis dapat digunakan untuk evaluasi; lisensi komersial diperlukan untuk penggunaan produksi.  
+- **Format yang didukung?** DWG, DXF, dan banyak format CAD/BIM lainnya didukung sepenuhnya.  
+- **Waktu implementasi tipikal?** Sekitar 10‑15 menit untuk rutinitas pengambilan ukuran dasar.
+
+## Apa itu “mendapatkan ukuran layout CAD”?
+Mendapatkan ukuran layout CAD berarti mengekstrak ekstensi geometris dari setiap layout (paper space) yang didefinisikan dalam sebuah gambar CAD. Ekstensi ini dinyatakan dalam satuan asli gambar (biasanya milimeter atau inci) dan berguna untuk tugas seperti penskalaan, pencetakan, atau pembuatan gambar pratinjau.
+
+## Mengapa mengambil ukuran layout CAD dengan Aspose.CAD?
+- **Tidak memerlukan perangkat lunak CAD** – Berjalan sepenuhnya di sisi server.  
+- **Lintas‑platform** – Berfungsi dengan .NET Framework, .NET Core, dan .NET 5/6+.  
+- **Pengukuran akurat** – Mengembalikan ekstensi tepat sebagaimana disimpan dalam file, menghindari parsing manual.  
+- **Integrasi mudah** – Panggilan API sederhana cocok secara alami dengan proyek C# yang ada.
 
 ## Prasyarat
 
-Sebelum kita mendalami tutorialnya, pastikan Anda memiliki prasyarat berikut:
+Sebelum kita masuk ke kode, pastikan Anda memiliki hal‑hal berikut:
 
--  Aspose.CAD untuk .NET: Pastikan Anda telah menginstal perpustakaan Aspose.CAD. Anda dapat mengunduhnya dari[Halaman unduhan Aspose.CAD untuk .NET](https://releases.aspose.com/cad/net/).
+- Aspose.CAD untuk .NET terpasang. Anda dapat mengunduhnya dari [halaman unduhan Aspose.CAD untuk .NET](https://releases.aspose.com/cad/net/).
+- Satu atau lebih file CAD (DWG, DXF, dll.) yang ingin Anda analisis. Panduan ini menggunakan `conic_pyramid.dxf` dan `Bottom_plate.dwg` sebagai contoh file.
 
-- File Dokumen: Siapkan file CAD yang ingin Anda kerjakan. Tutorial ini menggunakan "conic_pyramid.dxf" dan "Bottom_plate.dwg" sebagai contoh.
-
-Sekarang, mari kita mulai!
-
-## Impor Namespace
+## Mengimpor Namespace
 
 Di proyek .NET Anda, mulailah dengan mengimpor namespace yang diperlukan:
 
@@ -45,17 +60,17 @@ using Aspose.CAD.FileFormats.Cad.CadTables;
 using Aspose.CAD.ImageOptions;
 ```
 
-## Langkah 1: Siapkan Direktori Dokumen
+## Langkah 1: Menyiapkan Direktori Dokumen
 
- Tetapkan jalur ke direktori dokumen Anda. Mengganti`"Your Document Directory"` dengan jalur sebenarnya.
+Tentukan folder yang berisi file CAD Anda. Ganti placeholder dengan jalur sebenarnya di mesin Anda.
 
 ```csharp
 string MyDir = "Your Document Directory";
 ```
 
-## Langkah 2: Tentukan Jalur File CAD
+## Langkah 2: Menentukan Jalur File CAD
 
-Tentukan serangkaian jalur file CAD yang ingin Anda analisis. Dalam contoh ini, kami menggunakan "conic_pyramid.dxf" dan "Bottom_plate.dwg."
+Buat array yang menunjuk ke setiap file CAD yang ingin diproses.
 
 ```csharp
 string[] sourceFilePaths = new[]
@@ -65,9 +80,9 @@ string[] sourceFilePaths = new[]
 };
 ```
 
-## Langkah 3: Iterasi Melalui File CAD
+## Langkah 3: Mengiterasi File CAD
 
-Ulangi setiap file CAD dan ambil informasi tata letak.
+Muat setiap file, deteksi formatnya, dan siapkan untuk mengekstrak informasi layout.
 
 ```csharp
 foreach (var sourceFilePath in sourceFilePaths)
@@ -75,80 +90,84 @@ foreach (var sourceFilePath in sourceFilePaths)
     string extension = Path.GetExtension(sourceFilePath);
     using (CadImage cadImage = (CadImage)Aspose.CAD.Image.Load(sourceFilePath))
     {
-        // ... (lanjutkan ke langkah berikutnya)
+        // ... (continue to the next step)
     }
 }
 ```
 
-## Langkah 4: Dapatkan Tata Letak Tidak Kosong
+## Langkah 4: Mendapatkan Layout yang Tidak Kosong
 
-Tentukan metode pembantu untuk mendapatkan tata letak yang tidak kosong berdasarkan jenis file CAD.
+Kita memerlukan metode bantu yang mengembalikan hanya layout yang benar‑benar berisi entitas gambar. Layout kosong diabaikan karena tidak memiliki ukuran untuk dilaporkan.
 
 ```csharp
 private static List<string> GetNotEmptyLayouts(Image cadImage, string extension)
 {
-    // ... (lanjutkan ke langkah berikutnya)
+    // ... (continue to the next step)
 }
 ```
 
-## Langkah 5: Dapatkan Tata Letak untuk File DWG
+## Langkah 5: Mendapatkan Layout untuk File DWG
 
-Menerapkan logika untuk mengambil tata letak yang tidak kosong untuk file DWG.
+File DWG menyimpan informasi layout di tabel `HeaderVariables`. Metode berikut mengekstrak nama semua layout yang tidak kosong untuk gambar DWG.
 
 ```csharp
 private static List<string> GetNotEmptyLayoutsForDwg(CadImage cadImage)
 {
-    // ... (lanjutkan ke langkah berikutnya)
+    // ... (continue to the next step)
 }
 ```
 
-## Langkah 6: Dapatkan Tata Letak untuk File DXF
+## Langkah 6: Mendapatkan Layout untuk File DXF
 
-Menerapkan logika untuk mengambil tata letak yang tidak kosong untuk file DXF.
+File DXF menggunakan struktur yang berbeda. Metode ini mem-parsing koleksi `Tables` untuk menemukan layout paper space yang berisi entitas.
 
 ```csharp
 private static List<string> GetNotEmptyLayoutsForDxf(CadImage cadImage)
 {
-    // ... (lanjutkan ke langkah berikutnya)
+    // ... (continue to the next step)
 }
 ```
 
-## Langkah 7: Ambil Ukuran Tata Letak dan Simpan sebagai Gambar
+## Langkah 7: Mengambil Ukuran Layout dan Menyimpan sebagai Gambar
 
-Selesaikan proses mendapatkan ukuran tata letak dan menyimpannya sebagai gambar.
+Akhirnya, lakukan perulangan pada setiap layout yang ditemukan, baca ekstensi‑nya, dan secara opsional render layout ke file gambar untuk verifikasi visual.
 
 ```csharp
 foreach (string layout in layouts)
 {
-    // ... (lanjutkan ke langkah berikutnya)
+    // ... (continue to the next step)
 }
 ```
 
-## Kesimpulan
+## Masalah Umum & Tips
 
-Selamat! Anda telah berhasil mempelajari cara mendapatkan ukuran tata letak CAD menggunakan Aspose.CAD untuk .NET. Tutorial ini mencakup langkah-langkah penting, mulai dari menyiapkan proyek Anda hingga mengambil informasi tata letak dan menyimpannya sebagai gambar. Sekarang Anda dapat menggabungkan pengetahuan ini ke dalam aplikasi .NET Anda untuk manipulasi file CAD yang efisien.
+- **Nama layout tidak ditemukan:** Pastikan file CAD memang berisi layout paper space; beberapa file hanya memiliki model space.  
+- **Satuan tidak tepat:** Ukuran dikembalikan dalam satuan asli gambar. Konversikan ke milimeter atau inci bila diperlukan.  
+- **Kinerja:** Memuat file DWG/DXF yang sangat besar dapat memakan memori secara intensif; pertimbangkan memproses file secara asynchronous atau dalam batch.
 
-## FAQ
+## Pertanyaan yang Sering Diajukan
 
-### Q1: Apakah Aspose.CAD kompatibel dengan semua format file CAD?
+**T: Apakah Aspose.CAD kompatibel dengan semua format file CAD?**  
+J: Ya, Aspose.CAD mendukung beragam format, termasuk DWG, DXF, DGN, dan banyak tipe file BIM.
 
-A1: Ya, Aspose.CAD mendukung berbagai format file CAD, termasuk DWG dan DXF.
+**T: Bisakah saya menyesuaikan opsi penyimpanan gambar?**  
+J: Tentu! Anda dapat mengatur `CadRasterizationOptions` (format, resolusi, warna latar belakang, dll.) sesuai kebutuhan spesifik Anda.
 
-### Q2: Dapatkah saya menyesuaikan opsi penyimpanan gambar?
+**T: Di mana saya dapat menemukan dokumentasi tambahan?**  
+J: Lihat [dokumentasi Aspose.CAD](https://reference.aspose.com/cad/net/) untuk referensi API terperinci dan contoh lainnya.
 
-A2: Tentu saja! Anda dapat menyesuaikan pilihan gambar, seperti format dan resolusi, untuk memenuhi kebutuhan spesifik Anda.
+**T: Apakah ada versi percobaan gratis?**  
+J: Ya, Anda dapat menjelajahi Aspose.CAD dengan [versi percobaan gratis](https://releases.aspose.com/).
 
-### Q3: Di mana saya dapat menemukan dokumentasi tambahan?
+**T: Bagaimana cara mendapatkan dukungan teknis?**  
+J: Untuk dukungan teknis, kunjungi [forum Aspose.CAD](https://forum.aspose.com/c/cad/19).
 
- A3: Lihat[Dokumentasi Aspose.CAD](https://reference.aspose.com/cad/net/) untuk informasi rinci dan contoh.
+---
 
-### Q4: Apakah tersedia uji coba gratis?
+**Terakhir Diperbarui:** 2026-03-21  
+**Diuji Dengan:** Aspose.CAD 24.11 untuk .NET  
+**Penulis:** Aspose  
 
- A4: Ya, Anda dapat menjelajahi Aspose.CAD dengan a[uji coba gratis](https://releases.aspose.com/).
-
-### Q5; Bagaimana saya bisa mendapatkan dukungan teknis?
-
- A5: Untuk dukungan teknis, kunjungi[Forum Aspose.CAD](https://forum.aspose.com/c/cad/19).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

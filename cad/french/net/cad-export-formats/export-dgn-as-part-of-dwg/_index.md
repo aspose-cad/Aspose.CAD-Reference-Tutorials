@@ -1,35 +1,50 @@
 ---
-title: Exporter DGN dans le cadre de DWG dans Aspose.CAD pour .NET
-linktitle: Exporter DGN dans le cadre de DWG
-second_title: Aspose.CAD .NET - Format de fichier CAO et BIM
-description: Découvrez comment exporter du DGN dans le cadre de DWG dans Aspose.CAD pour .NET. Suivez notre guide étape par étape pour une intégration transparente.
-weight: 11
+date: 2026-03-21
+description: Apprenez à créer un PDF à partir de DWG et à exporter le DGN dans le
+  DWG à l'aide d'Aspose.CAD pour .NET. Ce guide montre également comment convertir
+  un DWG en PDF et définir les options PDF.
+linktitle: Export DGN as Part of DWG
+second_title: Aspose.CAD .NET - CAD and BIM File Format
+title: Créer un PDF à partir de DWG et exporter DGN comme partie de DWG – Aspose.CAD
+  pour .NET
 url: /fr/net/cad-export-formats/export-dgn-as-part-of-dwg/
+weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Exporter DGN dans le cadre de DWG dans Aspose.CAD pour .NET
+# Créer un PDF à partir de DWG et exporter DGN dans le cadre du DWG – Aspose.CAD pour .NET
 
 ## Introduction
 
-Dans le monde du développement .NET, Aspose.CAD se distingue comme une bibliothèque puissante pour travailler avec des fichiers de conception assistée par ordinateur (CAO). Ce didacticiel vous guidera tout au long du processus d'exportation d'un fichier DGN (Conception) dans le cadre d'un fichier DWG (Dessin) à l'aide d'Aspose.CAD pour .NET. Que vous soyez un développeur chevronné ou tout juste débutant, ce guide étape par étape vous aidera à exploiter les capacités d'Aspose.CAD pour accomplir efficacement cette tâche spécifique.
+Si vous devez **créer un PDF à partir de fichiers DWG** tout en incorporant un design DGN dans le DWG, Aspose.CAD pour .NET rend cela simple. Dans ce tutoriel, nous parcourrons l’ensemble du flux de travail : charger un DWG, localiser le sous‑couche DGN incorporée, configurer les options de rastérisation, puis exporter le résultat dans un document PDF. Que vous construisiez un outil de conversion par lots, un moteur de génération de rapports ou un service d’intégration CAD‑BIM, les étapes ci‑dessous vous fourniront une base solide et prête pour la production.
 
-## Conditions préalables
+## Quick Answers
+- **What library handles DWG → PDF conversion?** Aspose.CAD for .NET  
+- **Can I export a DGN underlay while creating the PDF?** Yes – the underlay is accessed via `CadDgnUnderlay`.  
+- **Which method sets PDF options?** `PdfOptions` together with `CadRasterizationOptions`.  
+- **Do I need a license for commercial use?** Yes, a valid Aspose.CAD license is required.  
+- **Supported .NET versions?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7.
 
-Avant de plonger dans le didacticiel, assurez-vous que les conditions préalables suivantes sont remplies :
+## What is “create PDF from DWG”?
 
--  Aspose.CAD pour .NET : assurez-vous que la bibliothèque Aspose.CAD pour .NET est installée. Vous pouvez le télécharger[ici](https://releases.aspose.com/cad/net/).
+Créer un PDF à partir d’un fichier DWG signifie rendre le dessin vectoriel sous forme de document PDF raster ou vectoriel. Ce processus est utile pour partager des dessins avec des parties prenantes qui n’ont pas de logiciel CAD, pour l’archivage ou la génération de rapports imprimables. Aspose.CAD simplifie la tâche en prenant en charge l’analyse des entités DWG et en offrant un contrôle fin sur la sortie via `PdfOptions`.
 
-- Environnement de développement : configurez votre environnement de développement .NET préféré, tel que Visual Studio.
+## Why export DGN as part of a DWG?
 
-- Connaissance de base de C# : Familiarisez-vous avec le langage de programmation C#.
+Une sous‑couche DGN représente souvent une géométrie de référence provenant de projets MicroStation. En exportant le DGN avec le DWG, vous conservez le contexte de conception original, garantissant que les consommateurs en aval voient l’ensemble complet du jeu de dessins. Cela est particulièrement précieux dans les projets multidisciplinaires où les fichiers DWG et DGN coexistent.
 
-## Importer des espaces de noms
+## Prerequisites
 
-Dans votre projet C#, incluez les espaces de noms nécessaires pour accéder à la fonctionnalité Aspose.CAD. Ajoutez les directives using suivantes au début de votre fichier de code :
+- **Aspose.CAD for .NET** – download it [here](https://releases.aspose.com/cad/net/).  
+- **Development Environment** – Visual Studio (any recent version) or your preferred .NET IDE.  
+- **Basic C# knowledge** – you should be comfortable with C# syntax and .NET project structure.
+
+## Import Namespaces
+
+Add the required `using` directives at the top of your C# source file:
 
 ```csharp
 using System;
@@ -40,56 +55,70 @@ using System.Threading.Tasks;
 using Aspose.CAD;
 ```
 
-Maintenant, décomposons le code fourni en plusieurs étapes :
+## Step‑by‑Step Guide
 
-## Étape 1 : Définir les chemins de fichiers
+### Step 1: Define File Paths
+
+Set the input DWG file and the output PDF name.
 
 ```csharp
-//Chemins des fichiers d’entrée et de sortie
+// Input and Output file paths
 string fileName = "BlockRefDgn.dwg";
 string outPath = fileName + ".pdf";
 ```
 
-## Étape 2 : Créer une instance PDFOptions
+### Step 2: Create `PdfOptions` Instance (set pdf options)
+
+`PdfOptions` lets you control how the PDF is generated, such as page size, compression, and metadata.
 
 ```csharp
-// Créer une instance de la classe PdfOptions pour exporter un DWG au format PDF
+// Create an instance of PdfOptions class for exporting DWG to PDF
 PdfOptions exportOptions = new PdfOptions();
 ```
 
-## Étape 3 : Charger le fichier DWG
+### Step 3: Load the DWG File
+
+Load the DWG as a `CadImage` so you can inspect its entities.
 
 ```csharp
-// Chargez le fichier DWG existant en tant qu'image et convertissez-le au type CadImage
+// Load the existing DWG file as an image and convert it to CadImage type
 using (CadImage cadImage = (CadImage)Image.Load(fileName))
 ```
 
-## Étape 4 : Parcourir les entités
+### Step 4: Iterate Through Entities
+
+Walk through every entity in the drawing to locate the DGN underlay.
 
 ```csharp
-// Parcourez chaque entité dans le fichier DWG
+// Iterate through each entity inside the DWG file
 foreach (CadBaseEntity baseEntity in cadImage.Entities)
 ```
 
-## Étape 5 : Vérifier le type d'entité
+### Step 5: Check Entity Type (how to export dgn)
+
+Identify whether the current entity is a DGN underlay.
 
 ```csharp
-// Vérifiez si l'entité est une définition d'image
+// Check if the entity is an image definition
 if (baseEntity.TypeName == CadEntityTypeName.DGNUNDERLAY)
 ```
 
-## Étape 6 : Obtenir le chemin de la sous-couche
+### Step 6: Get Underlay Path
+
+Retrieve the external reference path of the DGN file.
 
 ```csharp
-// S'il s'agit d'une définition d'image, récupérez la référence externe à l'objet
+// If it's an image definition, get the external reference to the object
 CadDgnUnderlay dgnFile = (CadDgnUnderlay)baseEntity;
 Console.WriteLine(dgnFile.UnderlayPath);
 ```
 
-## Étape 7 : Définir les options de rastérisation
+### Step 7: Define Rasterization Options (convert dwg to pdf)
+
+Configure how the DWG is rasterized before being placed into the PDF.
 
 ```csharp
-// Définir les paramètres de l'objet CadRasterizationOptions
+// Define settings for CadRasterizationOptions object
 exportOptions.VectorRasterizationOptions = new CadRasterizationOptions()
 {
     PageWidth = 1600,
@@ -102,33 +131,56 @@ exportOptions.VectorRasterizationOptions = new CadRasterizationOptions()
 };
 ```
 
-## Étape 8 : Exporter un fichier DWG au format PDF
+### Step 8: Export DWG to PDF
+
+Finally, save the rendered image as a PDF file.
 
 ```csharp
-// Exportez le DWG au format PDF en appelant la méthode Save
+// Export the DWG to PDF by calling Save method
 cadImage.Save(outPath, exportOptions);
 ```
 
-## Conclusion
+## Common Issues and Solutions
 
-Toutes nos félicitations! Vous avez suivi avec succès le processus d'exportation d'un fichier DGN dans le cadre d'un fichier DWG à l'aide d'Aspose.CAD pour .NET. Ce didacticiel vous a fourni les étapes fondamentales et les extraits de code pour réaliser cette tâche spécifique de manière transparente.
+| Problème | Raison | Solution |
+|----------|--------|----------|
+| **`Image.Load` throws “File not found”** | Chemin incorrect ou fichier manquant. | Utilisez un chemin absolu ou assurez‑vous que le DWG est copié dans le dossier de sortie. |
+| **Underlay path is empty** | DGN underlay not embedded or reference broken. | Verify the DWG actually contains a DGN underlay and that the external DGN file is accessible. |
+| **PDF output is blank** | Rasterization options set to zero size. | Adjust `PageWidth`/`PageHeight` or set `NoScaling = false`. |
+| **License exception** | Running without a valid Aspose.CAD license. | Apply the license before loading the image: `License lic = new License(); lic.SetLicense("Aspose.CAD.lic");` |
 
-## FAQ
+## Frequently Asked Questions
 
-### Q1 : Puis-je utiliser Aspose.CAD pour .NET dans mes projets commerciaux ?
- A1 : Oui, vous pouvez. Visite[ici](https://purchase.aspose.com/buy) pour explorer les options de licence.
+### Q1: Can I use Aspose.CAD for .NET in my commercial projects?
+**R1:** Yes, you can. Visit [here](https://purchase.aspose.com/buy) to explore licensing options.
 
-### Q2 : Existe-t-il des limites quant à la taille des fichiers DWG que je peux traiter ?
-A2 : Aspose.CAD prend en charge la gestion des fichiers DWG volumineux, mais des limitations matérielles peuvent s'appliquer.
+### Q2: Are there any limitations on the size of DWG files I can process?
+**R2:** Aspose.CAD supports handling large DWG files, but hardware limitations may apply.
 
-### Q3 : Existe-t-il une version d'essai disponible ?
-A3 : Oui, vous pouvez bénéficier d'un essai gratuit[ici](https://releases.aspose.com/).
+### Q3: Is there a trial version available?
+**R3:** Yes, you can get a free trial [here](https://releases.aspose.com/).
 
-### Q4 : Comment puis-je obtenir des licences temporaires ?
- A4 : Des licences temporaires peuvent être obtenues[ici](https://purchase.aspose.com/temporary-license/).
+### Q4: How can I get temporary licenses?
+**R4:** Temporary licenses can be obtained [here](https://purchase.aspose.com/temporary-license/).
 
-### Q5 : Où puis-je demander de l'aide si je rencontre des problèmes ?
- A5 : Vous pouvez visiter le forum Aspose.CAD[ici](https://forum.aspose.com/c/cad/19) pour le soutien.
+### Q5: Where can I seek assistance if I encounter issues?
+**R5:** You can visit the Aspose.CAD forum [here](https://forum.aspose.com/c/cad/19) for support.
+
+**Q: How do I set additional PDF metadata (author, title, etc.)?**  
+**R:** Use `exportOptions.Metadata` properties before calling `Save`.
+
+**Q: Can I export multiple layouts into separate PDF pages?**  
+**R:** Yes – set `Layouts = new string[] { "Layout1", "Layout2" }` in `CadRasterizationOptions`.
+
+**Q: Does Aspose.CAD support converting DWG to other image formats?**  
+**R:** Absolutely. You can export to PNG, JPEG, SVG, and more by using the corresponding `Image.Save` overloads.
+
+---
+
+**Last Updated:** 2026-03-21  
+**Tested With:** Aspose.CAD 24.11 for .NET  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

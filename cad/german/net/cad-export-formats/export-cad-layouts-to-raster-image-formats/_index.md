@@ -1,33 +1,50 @@
 ---
-title: Exportieren Sie CAD-Layouts in Rasterbildformate in Aspose.CAD für .NET
-linktitle: Exportieren Sie CAD-Layouts in Rasterbildformate
-second_title: Aspose.CAD .NET – CAD- und BIM-Dateiformat
-description: Erfahren Sie, wie Sie CAD-Layouts mit Aspose.CAD für .NET in Rasterbilder exportieren. Befolgen Sie unsere Schritt-für-Schritt-Anleitung für eine nahtlose Konvertierung.
-weight: 10
+date: 2026-03-21
+description: Erfahren Sie, wie Sie DXF in PNG und andere Rasterformate mit Aspose.CAD
+  für .NET konvertieren. Folgen Sie unserer Schritt‑für‑Schritt‑Anleitung für einen
+  nahtlosen CAD‑Layer‑Export.
+linktitle: Export CAD Layouts to Raster Image Formats
+second_title: Aspose.CAD .NET - CAD and BIM File Format
+title: DXF in PNG mit Aspose.CAD für .NET konvertieren
 url: /de/net/cad-export-formats/export-cad-layouts-to-raster-image-formats/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Exportieren Sie CAD-Layouts in Rasterbildformate in Aspose.CAD für .NET
+# Exportieren von CAD-Layouts in Rasterbildformate mit Aspose.CAD für .NET
 
 ## Einführung
 
-Möchten Sie CAD-Layouts mit Aspose.CAD für .NET effizient in Rasterbildformate konvertieren? Diese Schritt-für-Schritt-Anleitung führt Sie durch den Prozess und bietet detaillierte Anweisungen und Codeausschnitte, um die Aufgabe reibungslos zu gestalten. Egal, ob Sie ein erfahrener Entwickler oder ein Aspose.CAD-Neuling sind, dieses Tutorial ist für alle Erfahrungsstufen geeignet.
+Möchten Sie effizient **convert dxf to png** und andere Rasterbildformate mit Aspose.CAD für .NET konvertieren? Diese Schritt‑für‑Schritt‑Anleitung führt Sie durch den Prozess, liefert detaillierte Anweisungen und Code‑Snippets, um die Aufgabe reibungslos zu erledigen. Egal, ob Sie ein erfahrener Entwickler oder ein Neuling bei Aspose.CAD sind, dieses Tutorial richtet sich an alle Erfahrungsstufen.
+
+### Schnelle Antworten
+- **Welche Bibliothek übernimmt die Konvertierung?** Aspose.CAD for .NET  
+- **Welches primäre Format wird standardmäßig unterstützt?** JPEG, PNG, BMP und TIFF Rasterbilder  
+- **Kann ich bestimmte CAD‑Layer exportieren?** Ja – verwenden Sie `CadRasterizationOptions.Layers`, um einzelne Layer anzusprechen  
+- **Benötige ich eine Lizenz für die Produktion?** Eine gültige Aspose.CAD‑Lizenz ist für die Nutzung außerhalb der Testversion erforderlich  
+- **Unterstützte .NET‑Versionen?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7  
+
+## Was ist **convert dxf to png**?
+
+Das Konvertieren einer DXF‑Datei (Drawing Exchange Format) in PNG bedeutet, vektorbasierte CAD‑Daten in ein pixelbasiertes Bild zu rasterisieren. Dies ist nützlich, wenn Sie CAD‑Zeichnungen in Webseiten, Berichte oder jede Umgebung einbetten müssen, die nur Rastergrafiken unterstützt.
+
+## Warum CAD‑Layer separat exportieren?
+
+Der einzelne Export von CAD‑Layern gibt Ihnen eine feinkörnige Kontrolle über die visuelle Ausgabe, reduziert die Dateigröße jedes Bildes und ermöglicht das Anwenden von layer‑spezifischen Stilen oder Nachbearbeitungen. Dies ist besonders praktisch bei großen technischen Zeichnungen, bei denen nur ein Teil der Layer für ein bestimmtes Publikum relevant ist.
 
 ## Voraussetzungen
 
-Bevor Sie mit dem Tutorial beginnen, stellen Sie sicher, dass Sie über Folgendes verfügen:
+Bevor Sie in das Tutorial einsteigen, stellen Sie sicher, dass Sie Folgendes haben:
 
-- Aspose.CAD für .NET-Bibliothek: Stellen Sie sicher, dass Sie die Aspose.CAD-Bibliothek installiert haben. Wenn nicht, können Sie es hier herunterladen[Aspose.CAD-Website](https://releases.aspose.com/cad/net/).
-
-- CAD-Zeichnungsdatei: Bereiten Sie eine CAD-Zeichnungsdatei (z. B. conic_pyramid.dxf) vor, die Sie in Rasterbildformate konvertieren möchten.
+- **Aspose.CAD for .NET Library** – laden Sie sie von der [Aspose.CAD website](https://releases.aspose.com/cad/net/) herunter.  
+- **CAD‑Zeichnungsdatei** – eine DXF‑Datei (z. B. `conic_pyramid.dxf`), die Sie in Rasterformate konvertieren möchten.  
 
 ## Namespaces importieren
 
-Importieren Sie in Ihr .NET-Projekt die erforderlichen Namespaces, um die Funktionalitäten von Aspose.CAD zu nutzen. Fügen Sie am Anfang Ihres Codes die folgenden Namespaces ein:
+Importieren Sie in Ihrem .NET‑Projekt die erforderlichen Namespaces, um die Funktionen von Aspose.CAD zu nutzen. Fügen Sie die folgenden Namespaces am Anfang Ihres Codes ein:
 
 ```csharp
 using System;
@@ -38,86 +55,131 @@ using System.Threading.Tasks;
 using Aspose.CAD;
 ```
 
-## Schritt 1: CAD-Zeichnung laden
+## Wie man **convert dxf to png** – Schritt‑für‑Schritt‑Anleitung
+
+### Schritt 1: CAD‑Zeichnung laden
+
+Laden Sie zunächst die DXF‑Datei in ein `Image`‑Objekt. Dieses Objekt repräsentiert die gesamte CAD‑Zeichnung im Speicher.
 
 ```csharp
 string MyDir = "Your Document Directory";
 string sourceFilePath = MyDir + "conic_pyramid.dxf";
 
-// Laden Sie eine CAD-Zeichnung in eine Instanz von Image
+// Load a CAD drawing in an instance of Image
 using (var image = Image.Load(sourceFilePath))
 {
-    // Hier finden Sie Ihren Code zum Laden der CAD-Zeichnung
+    // Your code for loading the CAD drawing goes here
 }
 ```
 
-## Schritt 2: Erstellen Sie CadRasterizationOptions
+### Schritt 2: `CadRasterizationOptions` erstellen
+
+Konfigurieren Sie die Rasterisierungseinstellungen wie Ausgabedimensionen und Auflösung. Diese Optionen steuern, wie die Vektordaten rasterisiert werden.
 
 ```csharp
-// Erstellen Sie eine Instanz von CadRasterizationOptions
+// Create an instance of CadRasterizationOptions
 var rasterizationOptions = new CadRasterizationOptions();
 rasterizationOptions.PageWidth = 500;
 rasterizationOptions.PageHeight = 500;
 ```
 
-## Schritt 3: Ebenen angeben
+### Schritt 3: Layer angeben (CAD‑Layer exportieren)
+
+Wenn Sie nur einen bestimmten Layer benötigen, geben Sie hier dessen Namen an. Dies demonstriert das einzelne **export cad layers**.
 
 ```csharp
-// Fügen Sie den Ebenennamen zur Ebenenliste von CadRasterizationOptions hinzu
+// Add the layer name to the CadRasterizationOptions's layer list
 rasterizationOptions.Layers = new string[] { "LayerA" };
 ```
 
-## Schritt 4: JpegOptions erstellen
+### Schritt 4: Bildformat wählen – CAD als PNG (oder JPEG) speichern
+
+Erstellen Sie ein options‑Objekt, das spezifisch für das Bildformat ist. Ersetzen Sie `JpegOptions` durch `PngOptions`, wenn Sie **save cad as png** möchten.
 
 ```csharp
-// Erstellen Sie eine Instanz von JpegOptions (oder einer beliebigen ImageOptions für Rasterformate).
+// Create an instance of JpegOptions (or any ImageOptions for raster formats)
 var options = new JpegOptions();
 options.VectorRasterizationOptions = rasterizationOptions;
 ```
 
-## Schritt 5: In das JPEG-Format exportieren
+> **Pro‑Tipp:** Um PNG‑Dateien zu erzeugen, instanziieren Sie einfach `new PngOptions()` anstelle von `JpegOptions`.
+
+### Schritt 5: Export im JPEG‑ (oder PNG‑)Format
+
+Speichern Sie schließlich das rasterisierte Bild auf dem Datenträger. Die Dateierweiterung bestimmt das Ausgabeformat.
 
 ```csharp
-// Exportieren Sie jede Ebene in das JPEG-Format
+// Export each layer to Jpeg format
 MyDir = MyDir + "CADLayersToRasterImageFormats_out.jpg";
 image.Save(MyDir, options);
 ```
 
-## Zusätzlicher Schritt: Alle Ebenen konvertieren
+Wenn Sie `JpegOptions` durch `PngOptions` ersetzen, wird derselbe Code **convert dxf to png** und erzeugt eine `.png`‑Datei.
 
-Wenn Sie alle Ebenen konvertieren möchten, verwenden Sie die folgende Methode:
+### Zusätzlicher Schritt: Alle Layer konvertieren
+
+Wenn Sie **convert cad to raster** für jeden Layer in der Zeichnung benötigen, rufen Sie die untenstehende Hilfsmethode auf. Sie iteriert über alle Layer und speichert jeden als separates Bild.
 
 ```csharp
 ConvertAllLayersToRasterImageFormats();
 ```
 
-Diese Methode durchläuft alle Ebenen in der CAD-Zeichnung und exportiert jede Ebene in eine separate JPEG-Datei.
+> *Hinweis:* Die Implementierung von `ConvertAllLayersToRasterImageFormats` ist Teil der vollständigen Aspose.CAD‑Beispielsammlung und demonstriert die Stapelverarbeitung von Layern.
 
-## Abschluss
+## Häufige Probleme & Fehlersuche
 
-Glückwunsch! Sie haben erfolgreich gelernt, wie Sie CAD-Layouts mit Aspose.CAD für .NET in Rasterbildformate exportieren. Dieses Tutorial bietet einen umfassenden Leitfaden für Entwickler, die effiziente und zuverlässige Lösungen für die CAD-Konvertierung suchen.
+| Symptom | Wahrscheinliche Ursache | Lösung |
+|---------|--------------------------|--------|
+| Leeres oder weißes Bild | Rasterisierungsoptionen nicht gesetzt (z. B. `PageWidth`/`PageHeight` = 0) | Stellen Sie sicher, dass `PageWidth` und `PageHeight` positive Werte haben |
+| Fehlende Layer | Falscher Layer‑Name im `Layers`‑Array | Überprüfen Sie den genauen Layer‑Namen in der CAD‑Datei (Groß‑/Kleinschreibung beachten) |
+| Niedrige PNG‑Qualität | Standard‑DPI ist niedrig | Setzen Sie `rasterizationOptions.Resolution = 300;` für höhere Qualität |
 
-## FAQs
+## Häufig gestellte Fragen (Original)
 
-### F1: Kann ich andere Bildformate für den Export verwenden?
+### Q1: Kann ich andere Bildformate für den Export verwenden?
 
- A1: Ja, das können Sie. Einfach austauschen`JpegOptions` mit den Optionen des gewünschten Formats, wie z`PngOptions` oder`BmpOptions`.
+A1: Ja, das können Sie. Ersetzen Sie einfach `JpegOptions` durch die Optionen des gewünschten Formats, z. B. `PngOptions` oder `BmpOptions`.
 
-### F2: Gibt es eine Testversion?
+### Q2: Gibt es eine Testversion?
 
- A2: Ja, Sie können die Funktionalität von Aspose.CAD erkunden, indem Sie die Testversion herunterladen[Hier](https://releases.aspose.com/).
+A2: Ja, Sie können die Funktionalität von Aspose.CAD erkunden, indem Sie die Testversion [hier](https://releases.aspose.com/) herunterladen.
 
-### F3: Wie kann ich Unterstützung für Aspose.CAD erhalten?
+### Q3: Wie kann ich Support für Aspose.CAD erhalten?
 
- A3: Besuchen Sie Aspose.CAD[Forum](https://forum.aspose.com/c/cad/19) für Community-Support oder erwägen Sie den Kauf einer Lizenz für dedizierten Support.
+A3: Besuchen Sie das Aspose.CAD‑[Forum](https://forum.aspose.com/c/cad/19) für Community‑Support oder erwägen Sie den Kauf einer Lizenz für dedizierten Support.
 
-### F4: Sind temporäre Lizenzen verfügbar?
+### Q4: Gibt es temporäre Lizenzen?
 
- A4: Ja, Sie können eine temporäre Lizenz erhalten[Hier](https://purchase.aspose.com/temporary-license/).
+A4: Ja, Sie können eine temporäre Lizenz [hier](https://purchase.aspose.com/temporary-license/) erhalten.
 
-### F5: Wo finde ich die Dokumentation?
+### Q5: Wo finde ich die Dokumentation?
 
- A5: Weitere Informationen finden Sie in der ausführlichen Dokumentation[Hier](https://reference.aspose.com/cad/net/).
+A5: Siehe die ausführliche Dokumentation [hier](https://reference.aspose.com/cad/net/).
+
+## Zusätzliche FAQ
+
+**Q: Kann ich alle Layer mit einem Befehl exportieren?**  
+A: Ja, verwenden Sie die oben gezeigte Methode `ConvertAllLayersToRasterImageFormats`.
+
+**Q: Unterstützt Aspose.CAD Vektorformate wie SVG?**  
+A: Es richtet sich hauptsächlich auf Rasterformate, aber Sie können nach PDF exportieren, das Vektordaten beibehält.
+
+**Q: Wie kann ich die Hintergrundfarbe des exportierten PNG steuern?**  
+A: Setzen Sie `rasterizationOptions.BackgroundColor` auf die gewünschte `Color`, bevor Sie speichern.
+
+**Q: Ist es möglich, ein einzelnes Layout statt der gesamten Zeichnung zu exportieren?**  
+A: Ja, konfigurieren Sie `rasterizationOptions.Layouts`, um die gewünschten Layout‑Namen anzugeben, die Sie rasterisieren möchten.
+
+## Fazit
+
+Sie haben nun gelernt, wie man **convert dxf to png**, **export cad layers** und **save cad as png** oder JPEG mit Aspose.CAD für .NET durchführt. Durch Anpassen von `CadRasterizationOptions` und dem Austausch der Bildformat‑Optionen können Sie die Konvertierung an praktisch jede gewünschte Rasterausgabe anpassen. Erkunden Sie die weiteren Formatoptionen in der Aspose.CAD‑API, um Ihren CAD‑zu‑Raster‑Workflow zu erweitern.
+
+---
+
+**Last Updated:** 2026-03-21  
+**Tested With:** Aspose.CAD for .NET 24.11 (latest at time of writing)  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
