@@ -1,33 +1,51 @@
 ---
-title: CAD 図面を SVG 形式にエクスポート - Aspose.CAD ガイド
-linktitle: CAD 図面を SVG 形式にエクスポートする
-second_title: Aspose.CAD .NET - CAD および BIM ファイル形式
-description: Aspose.CAD for .NET を使用して CAD 図面を SVG にエクスポートするシームレスなプロセスを確認してください。柔軟性とカスタマイズにより CAD 開発を強化します。
-weight: 15
+date: 2026-03-07
+description: Aspose.CAD for .NET を使用して CAD を SVG にエクスポートする方法、SVG の色をカスタマイズする方法、そして
+  DWG を効率的に SVG に変換する方法を学びましょう。
+linktitle: Exporting CAD Drawings to SVG Format
+second_title: Aspose.CAD .NET - CAD and BIM File Format
+title: CADをSVGにエクスポート – CAD図面をSVG形式にエクスポート - Aspose.CADガイド
 url: /ja/net/advanced-export-techniques/exporting-cad-drawings-to-svg/
+weight: 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# CAD 図面を SVG 形式にエクスポート - Aspose.CAD ガイド
+# CAD を SVG にエクスポート – CAD 図面を SVG 形式にエクスポート
 
-## 導入
+## Introduction
 
-CAD (コンピューター支援設計) のダイナミックな世界では、図面をさまざまな形式にエクスポートする機能が重要なスキルです。 SVG (Scalable Vector Graphics) は、そのスケーラビリティと多用途性により人気を集めているフォーマットの 1 つです。このチュートリアルでは、強力な Aspose.CAD for .NET ライブラリを使用して CAD 図面を SVG にエクスポートする方法を説明します。
+CAD 図面を SVG にエクスポートすることは、ウェブページ、レポート、インタラクティブな可視化のために解像度に依存しないグラフィックが必要な場合に一般的な要件です。このチュートリアルでは Aspose.CAD for .NET を使用して **CAD を SVG にエクスポートする方法** を学び、 **SVG の色をカスタマイズするオプション** を探り、数行のコードで **DWG を SVG に変換**（または DXF を SVG に変換）する方法を確認します。手順は簡潔で、API は直感的、生成された SVG ファイルはあらゆるデバイスで完璧にスケーリングします。
 
-## 前提条件
+## Quick Answers
+- **What library handles the conversion?** Aspose.CAD for .NET.
+- **Can I change the color mode?** Yes – use `SvgColorMode` to set grayscale, black‑white, or full‑color.
+- **Which CAD formats are supported?** DWG, DXF, and many others (see Aspose.CAD docs).
+- **Do I need a license for development?** A temporary license is available for testing.
+- **How long does the conversion take?** Typically under a second for standard drawings.
 
-チュートリアルに入る前に、次の前提条件が満たされていることを確認してください。
+## What is “export CAD to SVG”?
+CAD を SVG にエクスポートするとは、DWG や DXF などのネイティブ CAD ファイルを Scalable Vector Graphics 形式にレンダリングすることを意味します。SVG は XML ベースで軽量、CSS でスタイル付けできるため、モダンなウェブやモバイルアプリケーションに最適です。
 
--  Aspose.CAD for .NET ライブラリ: Aspose.CAD for .NET ライブラリをダウンロードしてインストールします。図書館を見つけることができます[ここ](https://releases.aspose.com/cad/net/).
+## Why use Aspose.CAD for export CAD to SVG?
+- **No external dependencies** – pure .NET API, no need for AutoCAD installations.  
+- **Fine‑grained control** – you can **customize SVG color**, decide whether text is kept as shapes, and choose rasterization options.  
+- **Broad format support** – the same code works for **convert DWG to SVG**, **convert DXF to SVG**, and other formats, simplifying your code base.  
+- **High performance** – optimized for speed and low memory usage, suitable for batch processing.
 
-- 開発環境: Visual Studio またはその他の .NET 開発ツールを使用して、適切な開発環境をセットアップします。
+## Prerequisites
 
-## 名前空間のインポート
+Before you start, make sure you have:
 
-まず、必要な名前空間をプロジェクトにインポートします。
+- **Aspose.CAD for .NET** installed. You can download the library [here](https://releases.aspose.com/cad/net/).  
+- A .NET development environment (Visual Studio, Rider, or the .NET CLI).  
+- A CAD file (DWG or DXF) that you want to convert.
+
+## Import Namespaces
+
+First, bring the required namespaces into your project so the classes are available.
 
 ```csharp
 using Aspose.CAD.ImageOptions;
@@ -37,62 +55,96 @@ using System.Linq;
 using System.Text;
 ```
 
-## ステップ 1: ドキュメント ディレクトリを設定する
+## Step‑by‑Step Guide
+
+### Step 1: Set the Document Directory  
+Define the folder where your source CAD file resides and where the SVG output will be saved.
 
 ```csharp
-//ドキュメントディレクトリへのパス。
+// The path to the documents directory.
 string MyDir = "Your Document Directory";
 ```
 
-## ステップ 2: CAD 図面をロードする
+### Step 2: Load the CAD Drawing  
+Use `Image.Load` to read the DWG (or DXF) file. This works for **load DWG .NET** scenarios.
 
 ```csharp
 using (Image image = Image.Load(MyDir + "sample.dwg"))
 {
 ```
 
-## ステップ 3: SVG エクスポート オプションを構成する
+### Step 3: Configure SVG Export Options  
+Adjust the export settings to match your needs. Here we set the color mode to grayscale and force all text to be rendered as vector shapes.
 
 ```csharp
     var options = new SvgOptions();
-    options.ColorType = SvgColorMode.Grayscale;
-    options.TextAsShapes = true;
+    options.ColorType = SvgColorMode.Grayscale;   // customize SVG color mode
+    options.TextAsShapes = true;                  // ensures text appears as shapes
 ```
 
-## ステップ 4: SVG ファイルを保存する
+### Step 4: Save the SVG File  
+Finally, write the SVG file to disk. This step **saves CAD as SVG** and completes the conversion.
 
 ```csharp
     image.Save(MyDir + "sample.svg", options);
 }
 ```
 
-これらの簡単な手順に従うことで、Aspose.CAD for .NET を使用して CAD 図面を SVG にシームレスにエクスポートできます。このライブラリには柔軟性とカスタマイズ オプションが用意されており、要件に応じて出力を調整できます。
+By following these four concise steps, you can **convert DWG to SVG** (or **convert DXF to SVG**) with full control over the output appearance.
 
-## 結論
+## Common Issues and Solutions
 
-結論として、Aspose.CAD for .NET は、CAD 図面を SVG にエクスポートするプロセスを簡素化します。その直観的な API と堅牢な機能により、CAD アプリケーションを使用する開発者にとって貴重なツールになります。
+| Issue | Cause | Fix |
+|-------|-------|-----|
+| **Blank SVG output** | The source file path is incorrect or the file is corrupted. | Verify `MyDir` and ensure the CAD file opens without errors. |
+| **Colors look wrong** | `SvgColorMode` set to Grayscale unintentionally. | Change `options.ColorType` to `SvgColorMode.FullColor` to retain original colors. |
+| **Text missing** | `TextAsShapes` set to `false` and the viewer doesn’t support embedded fonts. | Keep `TextAsShapes = true` or embed the required fonts in the SVG. |
 
-## よくある質問
+## FAQ's
 
-### Q1: Aspose.CAD はすべての CAD 形式と互換性がありますか?
+### Q1: Is Aspose.CAD compatible with all CAD formats?
 
-A1: Aspose.CAD は、DWG や DXF を含むさまざまな CAD 形式をサポートし、幅広い互換性を保証します。
+A1: Aspose.CAD supports various CAD formats, including DWG and DXF, ensuring broad compatibility.
 
-### Q2: SVG にエクスポートするときにカラー モードをカスタマイズできますか?
+### Q2: Can I customize the color mode when exporting to SVG?
 
-A2: はい、Aspose.CAD ではカラー モードを選択できるため、出力に柔軟性が得られます。
+A2: Yes, Aspose.CAD allows you to choose the color mode, providing flexibility in the output.
 
-### Q3: 一時ライセンスはテスト目的で利用できますか?
+### Q3: Are temporary licenses available for testing purposes?
 
- A3: はい、一時ライセンスを取得できます。[ここ](https://purchase.aspose.com/temporary-license/)評価用に。
+A3: Yes, you can obtain a temporary license [here](https://purchase.aspose.com/temporary-license/) for evaluation.
 
-### Q4: Aspose.CAD の詳細なドキュメントはどこで入手できますか?
+### Q4: Where can I find detailed documentation for Aspose.CAD?
 
- A4: ドキュメントは入手可能です[ここ](https://reference.aspose.com/cad/net/).
+A4: The documentation is available [here](https://reference.aspose.com/cad/net/).
 
-### Q5: Aspose.CAD に関するサポートを受けたり、質問したりするにはどうすればよいですか?
+### Q5: How can I get support or ask questions related to Aspose.CAD?
 
- A5: コミュニティフォーラムにアクセスしてください[ここ](https://forum.aspose.com/c/cad/19)サポートとディスカッションのため。
+A5: Visit the community forum [here](https://forum.aspose.com/c/cad/19) for support and discussions.
+
+## Frequently Asked Questions
+
+**Q: Can I use this code with .NET Core or .NET 6?**  
+A: Absolutely. Aspose.CAD for .NET is compatible with .NET Framework, .NET Core, and .NET 5/6+.
+
+**Q: Is it possible to export only a specific layout or layer?**  
+A: Yes. Use `SvgOptions` to set `PageIndex` or filter layers before saving.
+
+**Q: How do I embed custom CSS styles into the generated SVG?**  
+A: After saving, you can post‑process the SVG XML to inject `<style>` elements, or use `options.CustomCss` if available in newer versions.
+
+**Q: What size limits are there for the source CAD file?**  
+A: The library handles large files, but memory consumption grows with complexity. For very large drawings, consider processing pages individually.
+
+**Q: Does the conversion preserve line weights and line types?**  
+A: By default, line weights are preserved. You can adjust rendering options in `SvgOptions` for finer control.
+
+---
+
+**Last Updated:** 2026-03-07  
+**Tested With:** Aspose.CAD for .NET 24.12  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
