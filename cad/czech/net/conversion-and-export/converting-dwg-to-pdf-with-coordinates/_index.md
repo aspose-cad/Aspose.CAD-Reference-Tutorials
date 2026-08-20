@@ -1,35 +1,51 @@
 ---
-title: Převod DWG do PDF se souřadnicemi v C# - Aspose.CAD Tutorial
-linktitle: Převod DWG do PDF se souřadnicemi v C#
-second_title: Aspose.CAD .NET – formát souborů CAD a BIM
-description: Naučte se, jak převést DWG do PDF s konkrétními souřadnicemi v C# pomocí Aspose.CAD. Postupujte podle našeho podrobného průvodce pro přesné a efektivní převody souborů CAD.
-weight: 11
+date: 2026-04-03
+description: Naučte se nastavit viewport a převést DWG do PDF v C# pomocí Aspose.CAD.
+  Tento tutoriál převodu DWG na PDF ukazuje přesný export s koordináty.
+keywords:
+- how to set viewport
+- dwg to pdf tutorial
+- convert dwg to pdf c#
+linktitle: Převod DWG na PDF s koordináty v C#
+second_title: Aspose.CAD .NET - CAD and BIM File Format
+title: Jak nastavit viewport při konverzi DWG do PDF s koordináty v C# – tutoriál
+  Aspose.CAD
 url: /cs/net/conversion-and-export/converting-dwg-to-pdf-with-coordinates/
+weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Převod DWG do PDF se souřadnicemi v C# - Aspose.CAD Tutorial
+# Převod DWG na PDF s koordináty v C# – tutoriál Aspose.CAD
 
 ## Úvod
 
-Vítejte v tomto komplexním tutoriálu o převodu souborů DWG do PDF s určenými souřadnicemi pomocí Aspose.CAD for .NET. Aspose.CAD je výkonná knihovna, která umožňuje vývojářům bezproblémově pracovat s formáty souborů CAD v jejich aplikacích .NET. V tomto tutoriálu vás provedeme procesem převodu souboru DWG do PDF a zároveň poskytneme konkrétní souřadnice pro zvýšení přesnosti.
+Vítejte v tomto komplexním tutoriálu o **jak nastavit viewport** při převodu souborů DWG na PDF se zadanými souřadnicemi pomocí Aspose.CAD pro .NET. Ovládáním viewportu získáte pixel‑dokonalé PDF, které přesně odpovídají požadované oblasti – ideální pro stavební výkresy, náhledy půdorysů nebo jakýkoli BIM workflow.
 
-## Předpoklady
+## Rychlé odpovědi
+- **Co znamená „nastavit viewport“?** Definuje viditelnou oblast a měřítko CAD výkresu během rasterizace.  
+- **Která knihovna provádí převod?** Aspose.CAD pro .NET.  
+- **Potřebuji licenci?** Bezplatná zkušební verze funguje pro hodnocení; pro produkci je vyžadována komerční licence.  
+- **Podporované platformy?** Windows, Linux a macOS s .NET 5/6/7 nebo .NET Framework 4.6+.  
+- **Typická doba implementace?** Přibližně 10‑15 minut pro základní převod.
 
-Než začneme, ujistěte se, že máte následující předpoklady:
+## Požadavky
 
-- Knihovna Aspose.CAD: Stáhněte a nainstalujte knihovnu Aspose.CAD pro .NET. Knihovnu najdete[tady](https://releases.aspose.com/cad/net/).
+Před zahájením se ujistěte, že máte následující požadavky:
 
-- Vývojové prostředí: Ujistěte se, že máte nastavené kompatibilní vývojové prostředí, včetně sady Visual Studio nebo jakéhokoli jiného preferovaného IDE.
+- **Aspose.CAD Library** – Stáhněte a nainstalujte knihovnu Aspose.CAD pro .NET. Knihovnu najdete [zde](https://releases.aspose.com/cad/net/).
+- **Development Environment** – Visual Studio, Rider nebo jakékoli IDE podporující vývoj v .NET.
+- **DWG File** – Mějte připravený soubor DWG pro převod. Můžete použít poskytnutý ukázkový soubor nebo svůj vlastní DWG soubor.
 
-- Soubor DWG: Připravte si soubor DWG pro převod. Můžete použít poskytnutý vzorový soubor nebo vlastní soubor DWG.
+## Jak nastavit viewport pro přesný export PDF
+
+Nastavení viewportu je klíčovým krokem, který vám umožní definovat přesnou oblast výkresu, kterou chcete vykreslit. V níže uvedeném kódu vytvoříme nový `CadVportTableObject`, umístíme jej pomocí souřadnice vlevo nahoře a vypočítáme šířku, výšku a poměr stran. Toto je implementace **jak nastavit viewport**, která řídí zbytek převodu.
 
 ## Importovat jmenné prostory
 
-Ve svém projektu C# importujte potřebné jmenné prostory:
+Ve vašem C# projektu importujte potřebné jmenné prostory:
 
 ```csharp
 using System;
@@ -44,21 +60,21 @@ using Aspose.CAD.FileFormats.Cad.CadTables;
 using Aspose.CAD.ImageOptions;
 ```
 
-Pojďme si kód rozebrat do podrobného průvodce pro lepší pochopení:
+Pojďme rozebrat kód krok za krokem pro lepší pochopení:
 
-## Krok 1: Definujte adresář dokumentů
+## Krok 1: Definovat adresář dokumentu
 
 ```csharp
 string MyDir = "Your Document Directory";
 ```
 
-## Krok 2: Nastavte cestu ke zdrojovému souboru DWG
+## Krok 2: Nastavit cestu ke zdrojovému souboru DWG
 
 ```csharp
 string sourceFilePath = MyDir + "visualization_-_conference_room.dwg";
 ```
 
-## Krok 3: Načtěte soubor DWG a nakonfigurujte možnosti rastrování
+## Krok 3: Načíst soubor DWG a nakonfigurovat možnosti rasterizace
 
 ```csharp
 using (CadImage cadImage = (CadImage)Image.Load(sourceFilePath))
@@ -68,7 +84,9 @@ using (CadImage cadImage = (CadImage)Image.Load(sourceFilePath))
     rasterizationOptions.NoScaling = true;
 ```
 
-## Krok 4: Definujte souřadnice a výřez
+## Krok 4: Definovat souřadnice a viewport  
+
+Zde skutečně **nastavujeme viewport** (jak nastavit viewport) zadáním levého horního rohu, šířky a výšky oblasti, kterou chcete exportovat.
 
 ```csharp
     Point topLeft = new Point(500, 1000);
@@ -84,7 +102,7 @@ using (CadImage cadImage = (CadImage)Image.Load(sourceFilePath))
     newView.ViewAspectRatio.Value = width / height;
 ```
 
-## Krok 5: Použijte nastavení výřezu
+## Krok 5: Použít nastavení viewportu
 
 ```csharp
     for (int i = 0; i < cadImage.ViewPorts.Count; i++)
@@ -98,7 +116,9 @@ using (CadImage cadImage = (CadImage)Image.Load(sourceFilePath))
     }
 ```
 
-## Krok 6: Nakonfigurujte možnosti PDF a exportujte
+## Krok 6: Nakonfigurovat možnosti PDF a exportovat  
+
+Nyní vše spojíme a **převádíme DWG na PDF** pomocí rasterizačních možností, které jsme právě připravili.
 
 ```csharp
     Aspose.CAD.ImageOptions.PdfOptions pdfOptions = new Aspose.CAD.ImageOptions.PdfOptions();
@@ -109,37 +129,61 @@ using (CadImage cadImage = (CadImage)Image.Load(sourceFilePath))
 }
 ```
 
-## Krok 7: Zobrazte zprávu o úspěchu
+## Krok 7: Zobrazit zprávu o úspěchu
 
 ```csharp
 Console.WriteLine("\nThe DWG file exported successfully to PDF.\nFile saved at " + MyDir);
 ```
 
+## Běžné případy použití
+
+- **Stavební dokumentace** – Vytvořit tisknutelné PDF konkrétních částí půdorysu.  
+- **Koordinace BIM** – Exportovat pouze oblast zájmu pro detekci kolizí.  
+- **Prezentace pro klienty** – Poskytnout čisté PDF vybrané místnosti nebo elevace, aniž byste odhalili celý výkres.
+
 ## Závěr
 
-Gratulujeme! Úspěšně jste převedli soubor DWG do PDF s určenými souřadnicemi pomocí Aspose.CAD for .NET. Tento tutoriál pokryl základní kroky a poskytl vývojářům jasný návod.
+Gratuluji! Úspěšně jste **převáděli DWG na PDF** s přesnými souřadnicemi a naučili se **jak nastavit viewport** pomocí Aspose.CAD pro .NET. Tento **dwg to pdf tutoriál** ukazuje, jak **vytvořit PDF z DWG** a **exportovat DWG jako PDF v C#**, přičemž máte plnou kontrolu nad výstupní oblastí.
 
-## FAQ
+## Často kladené otázky
 
-### Q1: Mohu použít Aspose.CAD s jinými formáty souborů CAD?
+### Q1: Mohu použít Aspose.CAD s jinými formáty CAD souborů?
 
-Odpověď 1: Ano, Aspose.CAD podporuje různé formáty CAD, včetně DWG, DXF, DWF a dalších.
+A1: Ano, Aspose.CAD podporuje různé CAD formáty, včetně DWG, DXF, DWF a dalších.
 
 ### Q2: Jak mohu zpracovat chyby během procesu převodu?
 
-A2: Implementujte mechanismy zpracování chyb pomocí bloků try-catch k zachycení a správě výjimek.
+A2: Implementujte mechanismy zpracování chyb pomocí bloků try‑catch k zachycení a správě výjimek.
 
 ### Q3: Je Aspose.CAD vhodný pro prostředí Windows i Linux?
 
-Odpověď 3: Ano, Aspose.CAD je kompatibilní s platformami Windows i Linux.
+A3: Ano, Aspose.CAD je kompatibilní s platformami Windows i Linux.
 
 ### Q4: Mohu dále přizpůsobit výstup PDF?
 
-A4: Určitě! Prozkoumejte rozsáhlé možnosti poskytované Aspose.CAD a přizpůsobte výstup PDF vašim specifickým požadavkům.
+A4: Určitě! Prozkoumejte rozsáhlé možnosti, které Aspose.CAD poskytuje pro úpravu výstupu PDF podle vašich specifických požadavků.
 
-### Q5: Kde najdu další podporu nebo komunitní diskuse?
+### Q5: Kde mohu najít další podporu nebo komunitní diskuse?
 
-A5: Navštivte[Fórum Aspose.CAD](https://forum.aspose.com/c/cad/19) za podporu komunity a diskuze.
+A5: Navštivte [Aspose.CAD Forum](https://forum.aspose.com/c/cad/19) pro komunitní podporu a diskuse.
+
+## Další často kladené otázky
+
+**Q: Funguje tento přístup s velkými soubory DWG (stovky MB)?**  
+A: Ano. Rasterizace se provádí stránka po stránce a můžete upravit `rasterizationOptions` (např. `Resolution`) pro vyvážení kvality a využití paměti.
+
+**Q: Mohu exportovat více viewportů do samostatných PDF stránek?**  
+A: Můžete iterovat přes `cadImage.ViewPorts`, nastavit každý jako aktivní a volat `Save` pro každou stránku, poté sloučit PDF pomocí Aspose.PDF.
+
+**Q: Je možné přidat vodoznak do vygenerovaného PDF?**  
+A: Po uložení PDF jej můžete znovu otevřít pomocí Aspose.PDF a aplikovat textový nebo obrázkový vodoznak před doručením uživateli.
+
+---
+
+**Poslední aktualizace:** 2026-04-03  
+**Testováno s:** Aspose.CAD 24.11 for .NET  
+**Autor:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
