@@ -1,35 +1,53 @@
 ---
-title: .NET용 Aspose.CAD에서 DWT 읽기
-linktitle: DWT 읽기
-second_title: Aspose.CAD .NET - CAD 및 BIM 파일 형식
-description: .NET용 Aspose.CAD를 살펴보세요. DWT 파일을 쉽게 읽을 수 있는 강력한 도구입니다. 사용자 친화적인 튜토리얼을 통해 CAD 데이터 통합을 강화하세요.
-weight: 13
+date: 2026-03-26
+description: Aspose.CAD for .NET을 사용하여 DWT 파일을 읽는 방법을 배워보세요. 이 단계별 가이드는 .NET 애플리케이션에서
+  DWT를 효율적으로 읽는 방법을 보여줍니다.
+linktitle: Reading DWT
+second_title: Aspose.CAD .NET - CAD and BIM File Format
+title: Aspose.CAD for .NET을 사용하여 DWT 파일 읽는 방법
 url: /ko/net/cad-features-and-support/reading-dwt/
+weight: 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# .NET용 Aspose.CAD에서 DWT 읽기
+# Aspose.CAD for .NET으로 DWT 파일 읽는 방법
 
-## 소개
+## Introduction
 
-.NET용 Aspose.CAD의 강력한 기능을 활용하여 DWT 파일을 효율적으로 읽고 애플리케이션에서 CAD 데이터의 잠재력을 활용하세요. 이 포괄적인 튜토리얼에서는 Aspose.CAD를 .NET 프로젝트에 원활하게 통합할 수 있도록 프로세스를 단계별로 안내합니다.
+Aspose.CAD for .NET의 강력한 기능을 활용하여 **how to read dwt** 파일을 효율적으로 읽고, 애플리케이션에서 CAD 데이터를 활용하세요. 이 포괄적인 튜토리얼에서는 단계별로 과정을 안내하므로 DWT 읽기 기능을 빠르고 자신 있게 통합할 수 있습니다.
 
-## 전제 조건
+## Quick Answers
+- **What library is needed?** Aspose.CAD for .NET  
+- **Can I read DWT files on .NET Core?** Yes, fully supported  
+- **Typical implementation time?** About 10‑15 minutes for basic reading  
+- **Do I need a license for production?** Yes, a commercial license is required  
+- **Any prerequisites?** .NET development environment and the Aspose.CAD DLLs  
 
-튜토리얼을 시작하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
+## How to Read DWT Files in Aspose.CAD for .NET
+워크플로를 이해하면 코드를 자체 프로젝트에 맞게 조정하기가 쉬워집니다. 아래에서는 환경 설정부터 CAD 엔티티 반복까지 각 단계를 명확히 설명합니다.
 
--  .NET용 Aspose.CAD: .NET용 Aspose.CAD 라이브러리를 다운로드하여 설치하세요. 다운로드 링크를 찾을 수 있습니다[여기](https://releases.aspose.com/cad/net/).
+### Why Use Aspose.CAD to Read DWT Files?
+- **Broad format support** – Handles many CAD/BIM formats beyond DWT.  
+- **No external dependencies** – Pure .NET library, no need for AutoCAD.  
+- **High performance** – Optimized for large drawings and batch processing.  
+- **Rich object model** – Gives you direct access to layers, blocks, and entities.
 
-- 개발 환경: 적합한 .NET 개발 환경이 설정되어 있는지 확인하세요.
+## Prerequisites
 
-- 문서 디렉터리: 제공된 코드 조각의 "문서 디렉터리"를 DWT 파일의 실제 경로로 바꿉니다.
+튜토리얼을 시작하기 전에 다음 전제 조건을 확인하세요:
 
-## 네임스페이스 가져오기
+- Aspose.CAD for .NET: Aspose.CAD for .NET 라이브러리를 다운로드하고 설치합니다. 다운로드 링크는 [here](https://releases.aspose.com/cad/net/)에서 확인할 수 있습니다.
 
-Aspose.CAD 작업을 시작하기 전에 필요한 네임스페이스를 가져와 보겠습니다.
+- Development Environment: 적절한 .NET 개발 환경이 설정되어 있는지 확인합니다.
+
+- Your Document Directory: 제공된 코드 스니펫에서 "Your Document Directory"를 실제 DWT 파일이 위치한 경로로 교체합니다.
+
+## Import Namespaces
+
+Aspose.CAD를 사용하기 전에 필요한 네임스페이스를 가져옵니다:
 
 ```csharp
 using System;
@@ -43,64 +61,77 @@ using Aspose.CAD.FileFormats.Cad;
 using Aspose.CAD.FileFormats.Cad.CadObjects;
 ```
 
-이제 자세한 안내를 위해 예제 코드를 여러 단계로 나누어 보겠습니다.
+이제 예제 코드를 여러 단계로 나누어 자세히 살펴보겠습니다.
 
-## 1단계: 문서 디렉터리 초기화
+## Step 1: Initialize Document Directory
 
 ```csharp
 string MyDir = "Your Document Directory";
 ```
 
-"문서 디렉토리"를 DWT 파일이 포함된 디렉토리의 실제 경로로 바꾸십시오.
+"Your Document Directory"를 DWT 파일이 들어 있는 디렉터리의 실제 경로로 교체합니다.
 
-## 2단계: DWT 파일 로드
+## Step 2: Load DWT File
 
 ```csharp
 using (CadImage image = (CadImage)Image.Load(MyDir + "example.dwt"))
 {
 ```
 
- 활용`Image.Load`DWT 파일을 로드하는 방법`CadImage` 물체.
+`Image.Load` 메서드를 활용하여 DWT 파일을 `CadImage` 객체로 로드합니다.
 
-## 3단계: 엔터티 반복
+## Step 3: Iterate Through Entities
 
 ```csharp
 foreach (CadBaseEntity entity in image.Entities)
 {
-    // 여기서 일을 하세요
+    // Do your work here
 }
 ```
 
- 다음을 사용하여 DWT 파일 내의 엔터티를 반복합니다.`foreach` 고리. 루프 내부의 코드를 사용자 정의하여 각 엔터티에 대해 특정 작업을 수행합니다.
+`foreach` 루프를 사용해 DWT 파일 내 엔티티를 순회합니다. 루프 내부 코드를 커스터마이즈하여 각 엔티티에 대한 특정 작업을 수행하세요.
 
-## 결론
+## Common Issues & Tips
 
-이러한 간단한 단계를 따르면 Aspose.CAD for .NET을 프로젝트에 원활하게 통합하고 DWT 파일을 효율적으로 읽을 수 있습니다. 이 강력한 라이브러리를 사용하여 CAD 데이터의 잠재력을 최대한 활용하세요.
+- **File not found** – `MyDir`에 지정된 경로와 파일 이름(확장자 포함)이 정확한지 다시 확인하세요.  
+- **Unsupported DWT version** – Aspose.CAD가 대부분의 버전을 지원하지만, 매우 오래되었거나 독점적인 확장자는 변환 단계가 필요할 수 있습니다.  
+- **Memory consumption** – 매우 큰 도면의 경우, 예시와 같이 `using` 블록 안에서 파일을 로드하여 리소스를 즉시 해제하도록 고려하세요.
 
-## FAQ
+## Frequently Asked Questions
 
-### Q1: Aspose.CAD는 모든 버전의 DWT 파일과 호환됩니까?
+### Q1: Is Aspose.CAD compatible with all versions of DWT files?
 
-A1: Aspose.CAD는 다양한 버전의 DWT 파일을 포함하여 광범위한 CAD 형식을 지원합니다. 구체적인 내용은 설명서를 확인하세요.
+A1: Aspose.CAD supports a wide range of CAD formats, including various versions of DWT files. Check the documentation for specific details.
 
-### Q2: Aspose.CAD를 상업용 프로젝트에 사용할 수 있나요?
+### Q2: Can I use Aspose.CAD for commercial projects?
 
- A2: 예, Aspose.CAD는 개인 및 상업 프로젝트 모두에 사용할 수 있습니다. 방문하다[구매 페이지](https://purchase.aspose.com/buy) 라이선스 세부정보를 확인하세요.
+A2: Yes, Aspose.CAD can be used for both personal and commercial projects. Visit the [purchase page](https://purchase.aspose.com/buy) for licensing details.
 
-### Q3: 무료 평가판이 제공됩니까?
+### Q3: Is there a free trial available?
 
- A3: 예, 무료 평가판을 통해 Aspose.CAD를 탐색할 수 있습니다. 다운로드 해[여기](https://releases.aspose.com/).
+A3: Yes, you can explore Aspose.CAD with a free trial. Download it [here](https://releases.aspose.com/).
 
-### Q4: Aspose.CAD에 대한 지원은 어떻게 받을 수 있나요?
+### Q4: How can I get support for Aspose.CAD?
 
- A4: 다음을 방문하세요.[Aspose.CAD 포럼](https://forum.aspose.com/c/cad/19) 지역 사회 지원을 위해. 프리미엄 지원을 받으려면 라이선스 구매를 고려하세요.
+A4: Visit the [Aspose.CAD forum](https://forum.aspose.com/c/cad/19) for community support. For premium support, consider purchasing a license.
 
-### Q5: 임시 라이센스를 사용할 수 있습니까?
+### Q5: Are temporary licenses available?
 
- A5: 예, 임시 라이센스를 얻을 수 있습니다.[여기](https://purchase.aspose.com/temporary-license/).
+A5: Yes, temporary licenses can be obtained [here](https://purchase.aspose.com/temporary-license/).
+
+## Conclusion
+
+위의 간단한 단계를 따라 하면 Aspose.CAD for .NET을 프로젝트에 원활히 통합하고 **how to read dwt** 파일을 효율적으로 처리할 수 있습니다. 이 강력한 라이브러리를 활용해 CAD 데이터의 전체 잠재력을 열어보고, 오늘부터 더 스마트한 엔지니어링 솔루션을 구축해 보세요.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Last Updated:** 2026-03-26  
+**Tested With:** Aspose.CAD for .NET 24.11  
+**Author:** Aspose

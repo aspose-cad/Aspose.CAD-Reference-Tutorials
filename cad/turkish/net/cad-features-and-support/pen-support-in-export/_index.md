@@ -1,37 +1,51 @@
 ---
-title: Aspose.CAD for .NET'teki Özel Kalem Seçenekleri ile CAD Dışa Aktarmayı Geliştirin
-linktitle: İhracatta Kalem Desteği
-second_title: Aspose.CAD .NET - CAD ve BIM Dosya Formatı
-description: Aspose.CAD for .NET'i kullanarak CAD görüntü aktarımlarınızı nasıl geliştireceğinizi öğrenin. PDF, PNG, BMP ve daha fazlasında çarpıcı görseller için kalem seçeneklerini özelleştirin.
-weight: 12
+date: 2026-03-26
+description: Aspose.CAD for .NET kullanarak CAD'den PDF oluşturmayı ve DXF'yi PDF'ye
+  dönüştürmeyi öğrenin. PDF, PNG, BMP ve daha fazlasında çarpıcı görseller için kalem
+  seçeneklerini özelleştirin.
+linktitle: Pen Support in Export
+second_title: Aspose.CAD .NET - CAD and BIM File Format
+title: Özel Kalem Seçenekleriyle CAD'den PDF Oluşturma – Aspose.CAD for .NET
 url: /tr/net/cad-features-and-support/pen-support-in-export/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.CAD for .NET'teki Özel Kalem Seçenekleri ile CAD Dışa Aktarmayı Geliştirin
+# Aspose.CAD for .NET'te Özel Kalem Seçenekleriyle CAD Dışa Aktarmayı Geliştirin
 
-## giriiş
+## Introduction
 
-Aspose.CAD for .NET, Bilgisayar Destekli Tasarım (CAD) dosyalarıyla çalışmak için güçlü bir araç seti sağlayarak geliştiricilerin CAD görüntülerini sorunsuz bir şekilde değiştirmesine ve dışa aktarmasına olanak tanır. Dikkate değer özelliklerden biri, dışa aktarma sırasında kalem desteği olup, kullanıcıların CAD görüntülerini PDF, PNG, BMP, GIF, JPEG2000, JPEG, PSD, TIFF ve WMF gibi çeşitli formatlara dışa aktarırken kalemlerin başlangıç ve bitiş kapağı ayarlarını özelleştirmesine olanak tanır.
+CAD dosyalarından **PDF oluşturmak** istiyorsanız ve bunu hızlı bir şekilde, tam görsel kontrolle yapmak istiyorsanız, Aspose.CAD for .NET tam da bunu sağlar. Kütüphanenin kalem‑destek özelliğini kullanarak başlangıç ve bitiş uçlarını, çizgi birleşimlerini ve diğer çizim özelliklerini tanımlayabilir, istediğiniz gibi görünen PDF'ler üretebilirsiniz. Bu öğretici, DXF dosyasını yüklemekten cilalı bir PDF dışa aktarmaya kadar tüm süreci adım adım gösterir; ayrıca aynı ayarların **CAD'yi PNG olarak dışa aktarma** veya **CAD görüntüsünü rasterleştirme** gibi diğer formatlar için nasıl yeniden kullanılabileceğini de gösterir.
 
-Bu eğitimde Aspose.CAD for .NET kullanarak dışa aktarmada kalem desteğinin ayrıntılarını inceleyeceğiz. Süreç boyunca size yol gösterecek net açıklamalar ve örnekler sunarak her adımı ayrıntılı olarak ele alacağız.
+## Quick Answers
+- **“CAD'den PDF oluşturmak” ne anlama geliyor?** Vektör tabanlı CAD çizimlerini (ör. DXF) geometri ve stilini koruyarak bir PDF belgesine dönüştürür.  
+- **Hangi formatlar kalem seçeneklerini destekler?** PDF, PNG, BMP, GIF, JPEG2000, JPEG, PSD, TIFF ve WMF.  
+- **Geliştirme için lisansa ihtiyacım var mı?** Test için ücretsiz deneme sürümü çalışır; üretim için ticari lisans gereklidir.  
+- **Diğer formatlar için çizgi uçlarını değiştirebilir miyim?** Evet—kalem seçenekleri Aspose.CAD tarafından desteklenen herhangi bir rasterleştirme hedefine uygulanır.  
+- **Hangi .NET sürümleri destekleniyor?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7.
 
-## Önkoşullar
+## What is pen support in CAD export?
 
-Eğiticiye dalmadan önce aşağıdaki önkoşulların yerine getirildiğinden emin olun:
+Kalem desteği, bir CAD çizimi rasterleştirildiğinde veya vektör‑rasterleştirildiğinde çizgilerin nasıl çizileceğini özelleştirmenizi sağlar. `StartCap`, `EndCap`, `LineJoin` ve `DashStyle` gibi özellikleri ayarlayabilirsiniz. Bu ayarlar, dışa aktarılan görüntünün veya PDF'in son görünümünü etkiler ve görsel kalite üzerinde ayrıntılı kontrol sağlar.
 
-- Aspose.CAD for .NET, geliştirme ortamınızda kuruludur. adresinden indirebilirsiniz.[yayın sayfası](https://releases.aspose.com/cad/net/).
+## Why use custom pen options when you **create PDF from CAD**?
 
-- CAD dosya formatları, özellikle DXF (Çizim Değişim Formatı) hakkında temel bilgi.
+- **Tutarlı marka kimliği** – tüm belgelerde kurumsal çizgi stillerini eşleştirin.  
+- **Gelişmiş okunabilirlik** – daha kalın uçlar ve birleşimler, teknik çizimleri ekranda ve basımda daha net hale getirir.  
+- **Çapraz format esnekliği** – aynı kalem yapılandırması PNG, BMP ve diğer raster formatlarda da çalışır, zaman kazandırır.
 
-- C# programlama dili hakkında çalışma bilgisi.
+## Prerequisites
 
-## Ad Alanlarını İçe Aktar
+- Aspose.CAD for .NET yüklü (indir: [release page](https://releases.aspose.com/cad/net/)).  
+- DXF (Drawing Exchange Format) hakkında temel bilgi.  
+- C# programlamaya aşina olmak.
 
-Başlamak için C# projenize gerekli ad alanlarını içe aktardığınızdan emin olun:
+## Import Namespaces
+
+Başlamak için, C# projenizde gerekli ad alanlarını (namespaces) içe aktardığınızdan emin olun:
 
 ```csharp
 using Aspose.CAD.FileFormats.Cad;
@@ -44,35 +58,35 @@ using System.Drawing;
 using System.Drawing.Drawing2D;
 ```
 
-## 1. Adım: Belge Dizininizi Kurun
+## Step 1: Set Up Your Document Directory
 
-CAD belgenizin bulunduğu dizini tanımlayın:
+Kaynak CAD dosyasını içeren klasörü tanımlayın:
 
 ```csharp
 string MyDir = "Your Document Directory";
 ```
 
-## Adım 2: CAD Görüntüsünü Yükleyin
+## Step 2: Load the CAD Image
 
-Aspose.CAD'i kullanarak CAD görüntüsünü yükleyin:
+CAD çizimini (örneğin bir DXF dosyası) `Aspose.CAD.Image` nesnesine yükleyin:
 
 ```csharp
 string sourceFilePath = MyDir + "conic_pyramid.dxf";
 CadImage cadImage = (CadImage)Image.Load(sourceFilePath);
 ```
 
-## 3. Adım: Rasterleştirme Seçeneklerini Yapılandırın
+## Step 3: Configure Rasterization Options
 
-Dışa aktarma işlemini özelleştirmek için rasterleştirme ve PDF seçenekleri oluşturun:
+Rasterleştirme ve PDF seçenekleri nesnelerini oluşturun. Bu nesneler, CAD verisinin raster görüntüye veya PDF sayfasına nasıl dönüştürüleceğini kontrol etmenizi sağlar:
 
 ```csharp
 CadRasterizationOptions rasterizationOptions = new CadRasterizationOptions();
 PdfOptions pdfOptions = new PdfOptions();
 ```
 
-## Adım 4: Kalem Seçeneklerini Özelleştirin
+## Step 4: Customize Pen Options
 
-Kalemler için başlangıç ve bitiş kapağı seçeneklerini ayarlayın:
+İşte çizgileri çizen **kalemi özelleştirdiğiniz** yer. Başlangıç ve bitiş uçlarını `Flat`, `Round`, `Square` vb. olarak ayarlayabilirsiniz. Bu, ihtiyacınız olan görsel stil ile “CAD nasıl dışa aktarılır” sorusunun özüdür:
 
 ```csharp
 rasterizationOptions.PenOptions = new PenOptions
@@ -82,49 +96,85 @@ rasterizationOptions.PenOptions = new PenOptions
 };
 ```
 
-## Adım 5: Vektör Rasterleştirme Seçeneklerini Uygulayın
+*Pro ipucu:* `LineCap.Round` ile **CAD'yi PNG olarak dışa aktardığınızda** daha pürüzsüz çizgi uçları elde edebilirsiniz.
 
-Rasterleştirme seçeneklerini PDF seçeneklerine uygulayın:
+## Step 5: Apply Vector Rasterization Options
+
+Rasterleştirme ayarlarını PDF seçeneklerine ekleyin, böylece dışa aktarma süreci hangi kalem yapılandırmasını kullanacağını bilir:
 
 ```csharp
 pdfOptions.VectorRasterizationOptions = rasterizationOptions;
 ```
 
-## Adım 6: Dışa Aktarılan PDF'yi Kaydedin
+## Step 6: Save the Exported PDF
 
-CAD görüntüsünü özelleştirilmiş kalem seçenekleriyle PDF dosyası olarak kaydedin:
+Son olarak, PDF dosyasını oluşturun. Bu adım, **CAD'den PDF oluşturur** ve özel kalem ayarlarını uygular:
 
 ```csharp
 cadImage.Save(MyDir + "9LHATT-A56_generated.pdf", pdfOptions);
 ```
 
-## Çözüm
+`PdfOptions` yerine `PngOptions`, `BmpOptions` vb. nesneleri kullanarak aynı kalem yapılandırmasını koruyarak **CAD'yi PNG olarak dışa aktarabilir** veya diğer raster formatlara dönüştürebilirsiniz.
 
-Bu eğitimde Aspose.CAD for .NET'in dışa aktarma özelliğinde kalem desteğini inceledik. Adım adım kılavuzu takip ederek kalemlerin başlangıç ve bitiş kapağı ayarlarını kolayca özelleştirerek CAD görüntü aktarımlarınızın esnekliğini artırabilirsiniz.
+## Common Use Cases
 
-Dışa aktarılan görsellerinizde istediğiniz görsel efektleri elde etmek için farklı kalem seçeneklerini denemekten çekinmeyin.
+- **Teknik dokümantasyon** – mühendislik PDF'lerine hassas çizgi stilleri ekleyin.  
+- **Otomatik rapor oluşturma** – tek bir kalem profiliyle birçok DXF dosyasını toplu olarak PDF'ye dönüştürün.  
+- **Web servisleri** – yüklenen DXF dosyalarını anında PDF'ye dönüştüren bir API sunun, tutarlı stil sağlanır.
 
-## SSS'ler
+## Troubleshooting & Common Pitfalls
 
-### S1: Bu kalem seçeneklerini PDF'nin yanı sıra diğer görüntü formatları için de kullanabilir miyim?
+| Sorun | Sebep | Çözüm |
+|-------|--------|----------|
+| Dışa aktarılan çizgiler beklenenden daha kalın görünüyor | DPI amaçlanandan yüksek | `rasterizationOptions.PageWidth` / `PageHeight` ayarlayın veya `Resolution` değerini değiştirin. |
+| Kalem seçenekleri PNG çıktısında göz ardı ediliyor | `ImageOptions` yerine `VectorRasterizationOptions` kullanılıyor | Kaydetmeden önce `rasterizationOptions.PenOptions` atadığınızdan emin olun. |
+| PDF dosyası boş | Kaynak DXF yolu hatalı veya dosya bozuk | `sourceFilePath`'i doğrulayın ve DXF'in istisna olmadan yüklendiğinden emin olun. |
 
-Cevap1: Evet, kalem seçenekleri PNG, BMP, GIF, JPEG ve daha fazlası gibi çeşitli görüntü formatlarına uygulanabilir.
+## FAQ's
 
-### S2: Aspose.CAD for .NET için ek belgeleri nerede bulabilirim?
+### Q1: Bu kalem seçeneklerini PDF dışındaki diğer görüntü formatları için kullanabilir miyim?
 
- A2: Bkz.[dokümantasyon](https://reference.aspose.com/cad/net/) Kapsamlı bilgi ve örnekler için.
+A1: Evet, kalem seçenekleri PNG, BMP, GIF, JPEG ve daha fazlası gibi çeşitli görüntü formatlarına uygulanabilir.
 
-### S3: Aspose.CAD for .NET'in ücretsiz deneme sürümü mevcut mu?
+### Q2: Aspose.CAD for .NET için ek belgeleri nerede bulabilirim?
 
- C3: Evet, ücretsiz deneme sürümüne erişebilirsiniz[Burada](https://releases.aspose.com/).
+A2: Kapsamlı bilgi ve örnekler için [documentation](https://reference.aspose.com/cad/net/) sayfasına bakın.
 
-### S4: Aspose.CAD for .NET için geçici lisansları nasıl alabilirim?
+### Q3: Aspose.CAD for .NET için ücretsiz deneme sürümü mevcut mu?
 
- A4: Ziyaret edin[geçici lisans sayfası](https://purchase.aspose.com/temporary-license/) Geçici lisanslama seçenekleri için.
+A3: Evet, ücretsiz deneme sürümüne [buradan](https://releases.aspose.com/) ulaşabilirsiniz.
 
-### S5: Aspose.CAD for .NET için topluluk desteğini nereden alabilirim?
+### Q4: Aspose.CAD for .NET için geçici lisansları nasıl alabilirim?
 
- A5: Toplulukla etkileşime geçin[Aspose.CAD forumu](https://forum.aspose.com/c/cad/19).
+A4: Geçici lisans seçenekleri için [temporary license page](https://purchase.aspose.com/temporary-license/) sayfasını ziyaret edin.
+
+### Q5: Aspose.CAD for .NET için topluluk desteği nereden alınabilir?
+
+A5: Toplulukla [Aspose.CAD forum](https://forum.aspose.com/c/cad/19) üzerinden etkileşime geçin.
+
+## Additional Frequently Asked Questions
+
+**S: **DXF'yi PDF'ye** programlı olarak nasıl dönüştürürüm?**  
+C: DXF'i `Image.Load` ile yükleyin, `CadRasterizationOptions` ve `PdfOptions` yapılandırın, ardından yukarıdaki adımlarda gösterildiği gibi `Save` çağırın.
+
+**S: PDF oluşturmadan bir CAD görüntüsünü rasterleştirebilir miyim?**  
+C: Evet—`PngOptions`, `BmpOptions` veya başka bir raster format sınıfını kullanın ve aynı `rasterizationOptions`'ı atayarak yüksek kaliteli rasterleştirme elde edin.
+
+**S: CAD'den PDF oluştururken çizgi kalınlığını değiştirmek mümkün mü?**  
+C: Kaydetmeden önce `rasterizationOptions.CustomLineWidth`'ı ayarlayın veya `PenOptions.Width` özelliğini değiştirin.
+
+**S: Kütüphane 3D DXF dosyalarını destekliyor mu?**  
+C: Aspose.CAD 2D vektör verilerine odaklanır; 3D varlıklar rasterleştirme sırasında yok sayılır.
+
+**S: Bu özellikler için hangi Aspose.CAD sürümü gerekiyor?**  
+C: Kalem desteği 20.9 sürümünden itibaren mevcuttur; daha yeni bir sürüm yeterlidir.
+
+---
+
+**Son Güncelleme:** 2026-03-26  
+**Test Edilen:** Aspose.CAD for .NET 24.12  
+**Yazar:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

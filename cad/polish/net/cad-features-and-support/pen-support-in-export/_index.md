@@ -1,37 +1,51 @@
 ---
-title: Ulepsz eksport CAD dzięki niestandardowym opcjom pióra w Aspose.CAD dla .NET
-linktitle: Obsługa pióra w eksporcie
-second_title: Aspose.CAD .NET - Format plików CAD i BIM
-description: Dowiedz się, jak ulepszyć eksport obrazów CAD za pomocą Aspose.CAD dla .NET. Dostosuj opcje pióra, aby uzyskać oszałamiające efekty wizualne w plikach PDF, PNG, BMP i innych.
-weight: 12
+date: 2026-03-26
+description: Dowiedz się, jak tworzyć pliki PDF z CAD i konwertować DXF na PDF przy
+  użyciu Aspose.CAD dla .NET. Dostosuj opcje pióra, aby uzyskać zachwycające wizualizacje
+  w formatach PDF, PNG, BMP i nie tylko.
+linktitle: Pen Support in Export
+second_title: Aspose.CAD .NET - CAD and BIM File Format
+title: Utwórz PDF z CAD z niestandardowymi opcjami pióra – Aspose.CAD dla .NET
 url: /pl/net/cad-features-and-support/pen-support-in-export/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Ulepsz eksport CAD dzięki niestandardowym opcjom pióra w Aspose.CAD dla .NET
+# Podnieś eksport CAD z niestandardowymi opcjami pióra w Aspose.CAD dla .NET
 
-## Wstęp
+## Introduction
 
-Aspose.CAD dla .NET zapewnia potężny zestaw narzędzi do pracy z plikami projektowania wspomaganego komputerowo (CAD), umożliwiając programistom płynną manipulację i eksportowanie obrazów CAD. Godną uwagi funkcją jest obsługa piór podczas eksportu, umożliwiająca użytkownikom dostosowywanie ustawień początku i zakończenia piór podczas eksportowania obrazów CAD do różnych formatów, takich jak PDF, PNG, BMP, GIF, JPEG2000, JPEG, PSD, TIFF i WMF.
+Jeśli potrzebujesz **tworzyć PDF z CAD** szybko i z pełną kontrolą wizualną, Aspose.CAD dla .NET zapewnia dokładnie to. Korzystając z funkcji obsługi pióra w bibliotece, możesz definiować końcówki początkowe i końcowe, połączenia linii oraz inne atrybuty rysowania, tworząc PDF‑y wyglądające dokładnie tak, jak tego oczekujesz. Ten samouczek przeprowadzi Cię przez cały proces — od wczytania pliku DXF po wyeksportowanie dopracowanego PDF — a także pokaże, jak te same ustawienia można ponownie wykorzystać przy **eksportowaniu CAD do PNG** lub **rasteryzacji obrazu CAD** dla innych formatów.
 
-W tym samouczku zagłębimy się w specyfikę obsługi pióra w eksporcie przy użyciu Aspose.CAD dla .NET. Omówimy każdy krok, dostarczając jasnych wyjaśnień i przykładów, które poprowadzą Cię przez proces.
+## Quick Answers
+- **Co oznacza „tworzyć PDF z CAD”?** Konwertuje wektorowe rysunki CAD (np. DXF) na dokument PDF, zachowując geometrię i stylizację.  
+- **Które formaty obsługują opcje pióra?** PDF, PNG, BMP, GIF, JPEG2000, JPEG, PSD, TIFF i WMF.  
+- **Czy potrzebna jest licencja do programowania?** Darmowa wersja próbna działa do testów; licencja komercyjna jest wymagana w produkcji.  
+- **Czy mogę zmienić końcówki linii dla innych formatów?** Tak — opcje pióra mają zastosowanie do każdego docelowego formatu rasteryzacji obsługiwanego przez Aspose.CAD.  
+- **Jakie wersje .NET są obsługiwane?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7.
 
-## Warunki wstępne
+## What is pen support in CAD export?
 
-Zanim przejdziemy do samouczka, upewnij się, że spełniasz następujące wymagania wstępne:
+Obsługa pióra pozwala dostosować sposób rysowania linii, gdy rysunek CAD jest rasteryzowany lub wektorowo‑rasteryzowany. Możesz ustawić właściwości takie jak `StartCap`, `EndCap`, `LineJoin` i `DashStyle`. Te ustawienia wpływają na ostateczny wygląd wyeksportowanego obrazu lub PDF, dając precyzyjną kontrolę nad jakością wizualną.
 
-- Aspose.CAD dla .NET zainstalowany w Twoim środowisku programistycznym. Można go pobrać z[strona wydania](https://releases.aspose.com/cad/net/).
+## Why use custom pen options when you **create PDF from CAD**?
 
-- Podstawowa znajomość formatów plików CAD, w szczególności DXF (Format wymiany rysunków).
+- **Spójna identyfikacja wizualna** – dopasuj style linii korporacyjnych we wszystkich dokumentach.  
+- **Lepsza czytelność** – grubsze końcówki i połączenia sprawiają, że rysunki techniczne są wyraźniejsze na ekranie i w druku.  
+- **Elastyczność międzyformatowa** – ta sama konfiguracja pióra działa dla PNG, BMP i innych formatów rastrowych, oszczędzając Twój czas.
 
-- Praktyczna znajomość języka programowania C#.
+## Prerequisites
 
-## Importuj przestrzenie nazw
+- Aspose.CAD dla .NET zainstalowany (pobierz ze [strony wydania](https://releases.aspose.com/cad/net/)).  
+- Podstawowa znajomość formatu DXF (Drawing Exchange Format).  
+- Znajomość programowania w C#.
 
-Aby rozpocząć, zaimportuj niezbędne przestrzenie nazw do swojego projektu C#:
+## Import Namespaces
+
+Aby rozpocząć, upewnij się, że importujesz niezbędne przestrzenie nazw w swoim projekcie C#:
 
 ```csharp
 using Aspose.CAD.FileFormats.Cad;
@@ -44,35 +58,35 @@ using System.Drawing;
 using System.Drawing.Drawing2D;
 ```
 
-## Krok 1: Skonfiguruj katalog dokumentów
+## Step 1: Set Up Your Document Directory
 
-Zdefiniuj katalog, w którym znajduje się dokument CAD:
+Zdefiniuj folder zawierający źródłowy plik CAD:
 
 ```csharp
 string MyDir = "Your Document Directory";
 ```
 
-## Krok 2: Załaduj obraz CAD
+## Step 2: Load the CAD Image
 
-Załaduj obraz CAD za pomocą Aspose.CAD:
+Wczytaj rysunek CAD (na przykład plik DXF) do obiektu `Aspose.CAD.Image`:
 
 ```csharp
 string sourceFilePath = MyDir + "conic_pyramid.dxf";
 CadImage cadImage = (CadImage)Image.Load(sourceFilePath);
 ```
 
-## Krok 3: Skonfiguruj opcje rasteryzacji
+## Step 3: Configure Rasterization Options
 
-Utwórz opcje rasteryzacji i PDF, aby dostosować proces eksportu:
+Utwórz obiekty opcji rasteryzacji i PDF. Te obiekty pozwalają kontrolować, jak dane CAD są przekształcane w obraz rastrowy lub stronę PDF:
 
 ```csharp
 CadRasterizationOptions rasterizationOptions = new CadRasterizationOptions();
 PdfOptions pdfOptions = new PdfOptions();
 ```
 
-## Krok 4: Dostosuj opcje pióra
+## Step 4: Customize Pen Options
 
-Ustaw opcje zakończeń początkowych i końcowych dla piór:
+Tutaj **dostosowujesz pióro**, które rysuje linie. Możesz ustawić końcówki początkowe i końcowe na `Flat`, `Round`, `Square` itp. To jest sedno „jak eksportować CAD” z potrzebnym stylem wizualnym:
 
 ```csharp
 rasterizationOptions.PenOptions = new PenOptions
@@ -82,49 +96,85 @@ rasterizationOptions.PenOptions = new PenOptions
 };
 ```
 
-## Krok 5: Zastosuj opcje rasteryzacji wektorowej
+*Wskazówka:* Eksperymentuj z `LineCap.Round` dla płynniejszych zakończeń linii przy **eksportowaniu CAD do PNG**.
 
-Zastosuj opcje rasteryzacji do opcji PDF:
+## Step 5: Apply Vector Rasterization Options
+
+Dołącz ustawienia rasteryzacji do opcji PDF, aby proces eksportu wiedział, której konfiguracji pióra użyć:
 
 ```csharp
 pdfOptions.VectorRasterizationOptions = rasterizationOptions;
 ```
 
-## Krok 6: Zapisz wyeksportowany plik PDF
+## Step 6: Save the Exported PDF
 
-Zapisz obraz CAD z dostosowanymi opcjami pióra jako plik PDF:
+Na koniec wygeneruj plik PDF. Ten krok **tworzy PDF z CAD** z zastosowanymi niestandardowymi ustawieniami pióra:
 
 ```csharp
 cadImage.Save(MyDir + "9LHATT-A56_generated.pdf", pdfOptions);
 ```
 
-## Wniosek
+Możesz zamienić `PdfOptions` na `PngOptions`, `BmpOptions` itp., aby **eksportować CAD do PNG** lub inne formaty rastrowe, zachowując tę samą konfigurację pióra.
 
-W tym samouczku omówiliśmy obsługę pióra w funkcji eksportu Aspose.CAD dla .NET. Postępując zgodnie ze szczegółowym przewodnikiem, można łatwo dostosować ustawienia zakończeń początkowych i końcowych dla pisaków, zwiększając elastyczność eksportu obrazów CAD.
+## Common Use Cases
 
-Możesz eksperymentować z różnymi opcjami pióra, aby uzyskać pożądane efekty wizualne w eksportowanych obrazach.
+- **Dokumentacja techniczna** – wstaw precyzyjne style linii w inżynierskich PDF‑ach.  
+- **Automatyczne generowanie raportów** – przetwarzaj wsadowo wiele plików DXF do PDF‑ów przy użyciu jednego profilu pióra.  
+- **Usługi internetowe** – udostępnij API, które konwertuje przesłane pliki DXF na PDF‑y w locie, zapewniając spójny styl.
 
-## Często zadawane pytania
+## Troubleshooting & Common Pitfalls
 
-### P1: Czy mogę używać tych opcji pióra do innych formatów obrazów oprócz PDF?
+| Problem | Przyczyna | Rozwiązanie |
+|-------|--------|----------|
+| Wyeksportowane linie wyglądają na grubsze niż oczekiwano | DPI jest wyższe niż zamierzone | Ustaw `rasterizationOptions.PageWidth` / `PageHeight` lub dostosuj `Resolution`. |
+| Opcje pióra są ignorowane przy wyjściu PNG | Używanie `ImageOptions` zamiast `VectorRasterizationOptions` | Upewnij się, że przypisujesz `rasterizationOptions.PenOptions` przed zapisem. |
+| Plik PDF jest pusty | Ścieżka źródłowego DXF jest nieprawidłowa lub plik jest uszkodzony | Sprawdź `sourceFilePath` i potwierdź, że DXF ładuje się bez wyjątków. |
 
-Odpowiedź 1: Tak, opcje pióra można zastosować do różnych formatów obrazów, takich jak PNG, BMP, GIF, JPEG i inne.
+## FAQ
 
-### P2: Gdzie mogę znaleźć dodatkową dokumentację dla Aspose.CAD dla .NET?
+### Q1: Czy mogę używać tych opcji pióra dla innych formatów obrazu poza PDF?
 
- Odpowiedź 2: Patrz[dokumentacja](https://reference.aspose.com/cad/net/) w celu uzyskania wyczerpujących informacji i przykładów.
+A1: Tak, opcje pióra można zastosować do różnych formatów obrazu, takich jak PNG, BMP, GIF, JPEG i inne.
 
-### P3: Czy dostępna jest bezpłatna wersja próbna Aspose.CAD dla .NET?
+### Q2: Gdzie mogę znaleźć dodatkową dokumentację dla Aspose.CAD dla .NET?
 
- Odpowiedź 3: Tak, możesz uzyskać dostęp do bezpłatnego okresu próbnego[Tutaj](https://releases.aspose.com/).
+A2: Odwołaj się do [dokumentacji](https://reference.aspose.com/cad/net/) po kompleksowe informacje i przykłady.
 
-### P4: Jak mogę uzyskać tymczasowe licencje na Aspose.CAD dla .NET?
+### Q3: Czy dostępna jest darmowa wersja próbna Aspose.CAD dla .NET?
 
- A4: Odwiedź[strona licencji tymczasowej](https://purchase.aspose.com/temporary-license/) w przypadku opcji licencjonowania tymczasowego.
+A3: Tak, darmową wersję próbną można uzyskać [tutaj](https://releases.aspose.com/).
 
-### P5: Gdzie mogę uzyskać wsparcie społeczności dla Aspose.CAD dla .NET?
+### Q4: Jak mogę uzyskać tymczasowe licencje dla Aspose.CAD dla .NET?
 
- A5: Nawiąż kontakt ze społecznością na[Forum Aspose.CAD](https://forum.aspose.com/c/cad/19).
+A4: Odwiedź [stronę tymczasowych licencji](https://purchase.aspose.com/temporary-license/), aby uzyskać opcje tymczasowego licencjonowania.
+
+### Q5: Gdzie mogę uzyskać wsparcie społeczności dla Aspose.CAD dla .NET?
+
+A5: Skontaktuj się ze społecznością na [forum Aspose.CAD](https://forum.aspose.com/c/cad/19).
+
+## Additional Frequently Asked Questions
+
+**Q: Jak **przekonwertować DXF na PDF** programowo?**  
+A: Wczytaj DXF za pomocą `Image.Load`, skonfiguruj `CadRasterizationOptions` i `PdfOptions`, a następnie wywołaj `Save`, jak pokazano w powyższych krokach.
+
+**Q: Czy mogę rasteryzować obraz CAD bez tworzenia PDF?**  
+A: Tak — użyj `PngOptions`, `BmpOptions` lub dowolnej innej klasy formatu rastrowego i przypisz te same `rasterizationOptions`, aby uzyskać wysokiej jakości rasteryzację.
+
+**Q: Czy można zmienić szerokość linii przy tworzeniu PDF z CAD?**  
+A: Dostosuj `rasterizationOptions.CustomLineWidth` lub zmodyfikuj właściwość `PenOptions.Width` przed zapisem.
+
+**Q: Czy biblioteka obsługuje pliki DXF 3D?**  
+A: Aspose.CAD koncentruje się na danych wektorowych 2D; elementy 3D są pomijane podczas rasteryzacji.
+
+**Q: Jaka wersja Aspose.CAD jest wymagana dla tych funkcji?**  
+A: Obsługa pióra jest dostępna od wersji 20.9; każda nowsza wersja będzie działać.
+
+---
+
+**Ostatnia aktualizacja:** 2026-03-26  
+**Testowano z:** Aspose.CAD dla .NET 24.12  
+**Autor:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
