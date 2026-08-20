@@ -1,10 +1,15 @@
 ---
-title: DWG 檔案操作
+date: 2026-04-06
+description: 學習如何在 .NET 中使用 Aspose.CAD 開啟 DWFX 檔案、使用 C# 讀取 DWG 檔案，以及向 DWG 添加文字——為開發人員提供的完整教學。
+keywords:
+- open dwfx file
+- read dwg file c#
+- add text to dwg
 linktitle: DWG 檔案操作
-second_title: Aspose.CAD .NET - CAD 和 BIM 檔案格式
-description: 透過我們的 DWG 教學釋放 Aspose.CAD 在 .NET 中的強大功能。掌握 C# 以實現高效的 CAD 處理，無縫提取 DWF 佈局尺寸。
-weight: 24
+second_title: Aspose.CAD .NET - CAD and BIM File Format
+title: 開啟 DWFX 檔案 – 使用 Aspose.CAD for .NET 進行 DWG 操作
 url: /zh-hant/net/dwg-file-manipulation/
+weight: 24
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,38 +18,74 @@ url: /zh-hant/net/dwg-file-manipulation/
 
 # DWG 檔案操作
 
+## 簡介
 
-## 介紹
+歡迎閱讀我們關於使用 C# 及 Aspose.CAD for .NET 進行 DWG 檔案操作的完整指南。無論您是資深開發者還是剛起步，這些教學將協助您發揮 Aspose.CAD 的全部潛能。在本系列中，您還將學習 **如何開啟 DWFX 檔案** 格式、**讀取 DWG 檔案 C#** 程式碼範例，以及 **在 DWG 中新增文字**，輕鬆上手。讓我們自信地深入探討 DWG 檔案的處理細節。
 
-歡迎閱讀我們有關使用 C# 和 Aspose.CAD for .NET 操作 DWG 檔案的綜合指南。無論您是經驗豐富的開發人員還是新手，這些教學都將使您能夠充分利用 Aspose.CAD 的潛力。讓我們深入了解輕鬆處理 DWG 檔案的複雜性。
+## 快速解答
+- **Aspose.CAD for .NET 的主要目的為何？** 以程式方式讀取、編輯與轉換 CAD 與 BIM 檔案（包括 DWG、DWFX、DWF）。
+- **我可以直接在 C# 中開啟 DWFX 檔案嗎？** 可以 – Aspose.CAD 提供簡易的 API 來載入與存取 DWFX 內容。
+- **開發時需要授權嗎？** 免費評估授權可用於測試；正式上線則需商業授權。
+- **支援哪些 .NET 版本？** .NET Framework 4.5 以上、.NET Core 3.1 以上、.NET 5/6/7。
+- **支援在 DWG 檔案中新增文字嗎？** 當然可以 – 您可以使用 CAD API 插入文字實體。
 
-## 在 C# 中處理 DWG 文件
-在本教學中，我們將深入研究 Aspose.CAD for .NET 的功能。了解如何使用 C# 輕鬆擷取 DWF 佈局尺寸。我們的逐步指南可確保您徹底掌握這些概念，使 CAD 檔案操作成為一個無縫的過程。[閱讀更多](./get-size-of-dwf-layout/)
+## 使用 C# 操作 DWG 檔案
 
-## 使用 C# 處理 DWG 檔案中的圖層
-了解圖層對於有效操作 DWG 檔案至關重要。探索使用 C# 和 Aspose.CAD for .NET 處理 DWG 檔案中的圖層的教學。本逐步指南可確保您獲得高效能 CAD 檔案操作所需的技能。[閱讀更多](./support-of-layers/)
+在本教學中，我們將深入探討 Aspose.CAD for .NET 的功能。學習如何使用 C# 輕鬆擷取 DWF 版面大小。我們的逐步指南確保您徹底掌握概念，讓 CAD 檔案操作變得順暢。[Read more](./get-size-of-dwf-layout/)
 
-## 在 C# 中開啟和存取 DWFX 文件
-我們將指導您在 C# 中開啟和存取 DWFX 文件，釋放 Aspose.CAD for .NET 的潛力。我們的教學提供了無縫整合指南，確保您可以輕鬆地在應用程式中利用 DWFX 檔案。[閱讀更多](./opening-and-accessing-dwfx-files/)
+## 使用 C# 處理 DWG 檔案的圖層
 
-## 探索 DWG 檔案的參考底圖標記
-使用 Aspose.CAD for .NET 發現 DWG 檔案的隱藏功能。我們關於探索底層標誌的教學將引導您充分利用這個強大的工具。按照我們的逐步指南來解鎖新的可能性。[閱讀更多](./exploring-underlay-flags-of-dwg/)
+了解圖層對於有效的 DWG 檔案操作至關重要。探索我們使用 C# 及 Aspose.CAD for .NET 處理 DWG 檔案圖層的教學。此逐步指南確保您獲得高效 CAD 檔案操作所需的技能。[Read more](./support-of-layers/)
 
-## 在 C# 中向 DWG 文件添加文本 
-透過學習如何使用 C# 和 Aspose.CAD 新增文字來增強您的 DWG 檔案。我們的綜合教程提供了逐步指南，確保您可以將文字無縫整合到 CAD 專案中。瀏覽 Aspose.CAD 文件以獲得全面的指導。[閱讀更多](./adding-text-to-dwg/)
+## 使用 C# 開啟與存取 DWFX 檔案
 
-學完這些教學課程後，您將具備自信地瀏覽 Aspose.CAD for .NET 的知識。深入了解 DWG 檔案操作的世界，並提升您的 C# 技能以實現高效的 CAD 開發。快樂編碼！
-## DWG 檔案操作教程
-### [在 C# 中處理 DWG 檔案 - 取得 DWF 佈局的大小](./get-size-of-dwf-layout/)
-探索 Aspose.CAD for .NET 在處理 DWG 檔案方面的強大功能。了解使用 C# 輕鬆擷取 DWF 佈局尺寸。
-### [使用 C# 處理 DWG 檔案中的圖層 - Aspose.CAD 教學課程](./support-of-layers/)
-了解如何使用 C# 和 Aspose.CAD for .NET 處理 DWG 檔案中的圖層。高效 CAD 檔案操作的逐步指南。
-### [在 C# 中開啟和存取 DWFX 檔案 - Aspose.CAD 指南](./opening-and-accessing-dwfx-files/)
-了解如何使用 Aspose.CAD for .NET 在 C# 中開啟和存取 DWFX 檔案。無縫整合到您的應用程式中的逐步指南。
-### [探索 DWG 檔案的底層標誌 - Aspose.CAD 教學課程](./exploring-underlay-flags-of-dwg/)
-釋放 Aspose.CAD for .NET 在探索 DWG 檔案底層標記方面的強大功能。請遵循我們的逐步指南。
-### [在 C# 中將文字新增至 DWG 檔案 - Aspose.CAD 教學課程](./adding-text-to-dwg/)
-了解如何使用 C# 和 Aspose.CAD 將文字新增至 DWG 檔案。請按照此逐步教學進行無縫整合。瀏覽 Aspose.CAD 文件以獲得全面的指導。
+發掘 Aspose.CAD for .NET 的潛能，我們將指導您在 C# 中開啟與存取 DWFX 檔案。此教學提供無縫的整合指南，確保您能輕鬆在應用程式中運用 DWFX 檔案。[Read more](./opening-and-accessing-dwfx-files/)
+
+## 探索 DWG 檔案的 Underlay 標記
+
+發現 DWG 檔案的隱藏功能，使用 Aspose.CAD for .NET。我們關於探索 underlay 標記的教學將指引您充分利用此強大工具。遵循我們的逐步指南，開啟全新可能性。[Read more](./exploring-underlay-flags-of-dwg/)
+
+## 使用 C# 為 DWG 檔案新增文字 
+
+提升您的 DWG 檔案，學習如何使用 C# 及 Aspose.CAD 新增文字。我們的完整教學提供逐步指引，確保您能順利將文字整合至 CAD 專案中。探索 Aspose.CAD 文件以獲得完整說明。[Read more](./adding-text-to-dwg/)
+
+完成這些教學後，您將具備自信使用 Aspose.CAD for .NET 的能力。深入 DWG 檔案操作的世界，提升您的 C# 技能，以實現高效的 CAD 開發。祝編程愉快！
+
+## DWG 檔案操作教學
+### [使用 C# 操作 DWG 檔案 - 取得 DWF 版面大小](./get-size-of-dwf-layout/)
+探索 Aspose.CAD for .NET 在處理 DWG 檔案的強大功能。學習使用 C# 輕鬆擷取 DWF 版面大小。
+### [使用 C# 處理 DWG 檔案圖層 - Aspose.CAD 教學](./support-of-layers/)
+了解如何使用 C# 及 Aspose.CAD for .NET 處理 DWG 檔案的圖層。逐步指南，提升 CAD 檔案操作效率。
+### [使用 C# 開啟與存取 DWFX 檔案 - Aspose.CAD 指南](./opening-and-accessing-dwfx-files/)
+學習如何使用 C# 及 Aspose.CAD for .NET 開啟與存取 DWFX 檔案。逐步指南，確保在應用程式中無縫整合。
+### [探索 DWG 檔案的 Underlay 標記 - Aspose.CAD 教學](./exploring-underlay-flags-of-dwg/)
+發掘 Aspose.CAD for .NET 在探索 DWG 檔案 Underlay 標記的強大功能。遵循我們的逐步指南。
+### [使用 C# 為 DWG 檔案新增文字 - Aspose.CAD 教學](./adding-text-to-dwg/)
+學習如何使用 C# 及 Aspose.CAD 為 DWG 檔案新增文字。遵循此逐步教學，實現無縫整合。探索 Aspose.CAD 文件以獲得完整說明。
+
+## 常見問題
+
+**Q: 如何在 C# 中開啟 DWFX 檔案？**  
+A: 使用 `Aspose.CAD.Image.Load("file.dwfx")` 載入檔案，然後依需求存取其頁面或實體。
+
+**Q: 我可以在 C# 中直接讀取 DWG 檔案而不先轉換嗎？**  
+A: 可以 – Aspose.CAD 能直接載入 DWG 檔案，讓您查詢圖層、實體與中繼資料。
+
+**Q: 在 DWG 圖面中加入文字的最簡單方法是什麼？**  
+A: 建立 `CadText` 實體，設定其 `Value` 與位置，然後將其加入圖面的 model space 集合中。
+
+**Q: 處理大型 DWFX 或 DWG 檔案時有尺寸限制嗎？**  
+A: 此函式庫能有效處理大型檔案，但您仍需確保有足夠記憶體，並考慮對大型點陣圖進行串流處理。
+
+**Q: 每種 CAD 格式都需要單獨的授權嗎？**  
+A: 不需要 – 單一 Aspose.CAD 授權即可涵蓋所有支援的格式，包括 DWG、DWFX、DWF、DXF 等。
+
+---
+
+**最後更新:** 2026-04-06  
+**測試環境:** Aspose.CAD 24.11 for .NET  
+**作者:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
