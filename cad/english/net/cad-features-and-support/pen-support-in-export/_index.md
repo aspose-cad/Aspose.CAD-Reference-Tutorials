@@ -56,7 +56,7 @@ using System.Drawing;
 using System.Drawing.Drawing2D;
 ```
 
-## Step 1: Set Up Your Document Directory
+## Step 1: set up your document directory
 
 Define the folder that contains the source CAD file:
 
@@ -64,7 +64,7 @@ Define the folder that contains the source CAD file:
 string MyDir = "Your Document Directory";
 ```
 
-## Step 2: Load the CAD Image
+## Step 2: load the CAD image
 
 Load the CAD drawing (for example, a DXF file) into an `Aspose.CAD.Image` object:
 
@@ -73,7 +73,7 @@ string sourceFilePath = MyDir + "conic_pyramid.dxf";
 CadImage cadImage = (CadImage)Image.Load(sourceFilePath);
 ```
 
-## Step 3: Configure Rasterization Options
+## Step 3: configure rasterization options
 
 Create rasterization and PDF options objects. These objects let you control how the CAD data is turned into a raster image or PDF page:
 
@@ -82,7 +82,7 @@ CadRasterizationOptions rasterizationOptions = new CadRasterizationOptions();
 PdfOptions pdfOptions = new PdfOptions();
 ```
 
-## Step 4: Customize Pen Options
+## Step 4: customize pen options
 
 Here’s where you **customize the pen** that draws the lines. You can set the start and end caps to `Flat`, `Round`, `Square`, etc. This is the core of “how to export CAD” with the visual style you need:
 
@@ -96,7 +96,7 @@ rasterizationOptions.PenOptions = new PenOptions
 
 *Pro tip:* Experiment with `LineCap.Round` for smoother line ends when you **export CAD to PNG**.
 
-## Step 5: Apply Vector Rasterization Options
+## Step 5: apply vector rasterization options
 
 Attach the rasterization settings to the PDF options so the export process knows which pen configuration to use:
 
@@ -104,7 +104,7 @@ Attach the rasterization settings to the PDF options so the export process knows
 pdfOptions.VectorRasterizationOptions = rasterizationOptions;
 ```
 
-## Step 6: Save the Exported PDF
+## Step 6: save the exported PDF
 
 Finally, generate the PDF file. This step **creates PDF from CAD** with the custom pen settings applied:
 
@@ -114,13 +114,13 @@ cadImage.Save(MyDir + "9LHATT-A56_generated.pdf", pdfOptions);
 
 You can replace the `PdfOptions` with `PngOptions`, `BmpOptions`, etc., to **export CAD to PNG** or other raster formats while keeping the same pen configuration.
 
-## Common Use Cases
+## Common use cases
 
 - **Technical documentation** – embed precise line styles in engineering PDFs.  
 - **Automated report generation** – batch‑process many DXF files into PDFs with a single pen profile.  
 - **Web services** – expose an API that converts uploaded DXF files to PDFs on‑the‑fly, ensuring consistent styling.
 
-## Troubleshooting & Common Pitfalls
+## Troubleshooting & common pitfalls
 
 | Issue | Reason | Solution |
 |-------|--------|----------|
@@ -140,7 +140,7 @@ A2: Refer to the [documentation](https://reference.aspose.com/cad/net/) for comp
 
 ### Q3: Is there a free trial available for Aspose.CAD for .NET?
 
-A3: Yes, you can access a free trial [here](https://releases.aspose.com/).
+A3: Yes, you can access a free trial [free trial download page](https://releases.aspose.com/).
 
 ### Q4: How can I get temporary licenses for Aspose.CAD for .NET?
 
@@ -150,7 +150,7 @@ A4: Visit the [temporary license page](https://purchase.aspose.com/temporary-lic
 
 A5: Engage with the community on the [Aspose.CAD forum](https://forum.aspose.com/c/cad/19).
 
-## Additional Frequently Asked Questions
+## Additional frequently asked questions
 
 **Q: How do I **convert DXF to PDF** programmatically?**  
 A: Load the DXF with `Image.Load`, configure `CadRasterizationOptions` and `PdfOptions`, then call `Save` as shown in the steps above.

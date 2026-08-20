@@ -48,7 +48,7 @@ using System.Threading.Tasks;
 using Aspose.CAD;
 ```
 
-## Step 1: Load the CAD File
+## Step 1: load the CAD file
 Load the source drawing into an `Image` object. This is the entry point for all further processing.
 
 ```csharp
@@ -61,7 +61,7 @@ using (Image image = Image.Load(sourceFilePath))
 }
 ```
 
-## Step 2: Configure Rasterization Options
+## Step 2: configure rasterization options
 Define the output page dimensions. Adjust these values to match the desired PDF size.
 
 ```csharp
@@ -70,14 +70,14 @@ rasterizationOptions.PageWidth = 1600;
 rasterizationOptions.PageHeight = 1600;
 ```
 
-## Step 3: Enable Auto Layout Scaling
+## Step 3: enable auto layout scaling
 Turn on automatic scaling so the drawing fits the page without clipping.
 
 ```csharp
 rasterizationOptions.AutomaticLayoutsScaling = true;
 ```
 
-## Step 4: Create PDF Options
+## Step 4: create PDF options
 Link the rasterization settings to the PDF exporter.
 
 ```csharp
@@ -93,12 +93,12 @@ MyDir = MyDir + "result_out.pdf";
 image.Save(MyDir, pdfOptions);
 ```
 
-## Common Issues & Tips
+## Common issues & tips
 - **Missing fonts or line styles?** Ensure the CAD file references are embedded or available on the server.  
 - **Large files cause memory pressure?** Process the drawing in chunks or increase the application’s memory limit.  
 - **Output looks blurry?** Increase `PageWidth`/`PageHeight` for higher DPI, or set `Resolution` in `CadRasterizationOptions`.
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 **Q: Can I apply Auto Layout Scaling to other file formats besides DXF?**  
 A: Yes, Aspose.CAD supports DWG, DGN, and many other CAD formats for automatic scaling.
@@ -118,12 +118,12 @@ A: Explore the [Aspose.CAD forum](https://forum.aspose.com/c/cad/19) for communi
 ## Conclusion
 You’ve now learned how to **create PDF from CAD**, enable **Auto Layout Scaling**, and effectively **convert DXF to PDF** using Aspose.CAD for .NET. This approach gives you full control over rendering quality while keeping the implementation straightforward.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 
 ---
 
@@ -132,3 +132,10 @@ You’ve now learned how to **create PDF from CAD**, enable **Auto Layout Scalin
 **Author:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -1,5 +1,5 @@
 ---
-title: Export CAD to PDF: Setting Background and Drawing Colors in Aspose.CAD for .NET
+title: 'Export CAD to PDF: Setting Background and Drawing Colors in Aspose.CAD for .NET'
 linktitle: Setting Background and Drawing Colors
 second_title: Aspose.CAD .NET - CAD and BIM File Format
 description: Learn how to export CAD to PDF with Aspose.CAD for .NET, change CAD background and drawing colors, and adjust page size in a few simple steps.
@@ -36,7 +36,7 @@ Exporting CAD to PDF means rasterizing a CAD drawing into a PDF document. By con
 ## Prerequisites
 
 - Basic understanding of .NET development.  
-- Installation of Aspose.CAD for .NET. If you haven't done this yet, you can download it [here](https://releases.aspose.com/cad/net/).  
+- Installation of Aspose.CAD for .NET. If you haven't done this yet, you can download it [download Aspose.CAD for .NET](https://releases.aspose.com/cad/net/).  
 - A sample CAD file for experimentation. You can find one in your document directory.
 
 ## Import Namespaces
@@ -52,7 +52,7 @@ using System.Threading.Tasks;
 using Aspose.CAD;
 ```
 
-## Step 1: Load the CAD File
+## Step 1: load the CAD file
 
 Start by loading the CAD file you want to work with using the following code snippet:
 
@@ -103,7 +103,7 @@ tiffOptions.VectorRasterizationOptions = rasterizationOptions;
 image.Save(MyDir + "result_out.tiff", tiffOptions);
 ```
 
-## Common Issues & Troubleshooting
+## Common issues & troubleshooting
 
 | Symptom | Likely Cause | Fix |
 |---------|--------------|-----|
@@ -111,22 +111,22 @@ image.Save(MyDir + "result_out.tiff", tiffOptions);
 | Lines appear faint | `DrawColor` not set or `DrawType` left at default | Ensure `DrawType = CadDrawTypeMode.UseDrawColor` and specify a visible `DrawColor`. |
 | Unexpected page size | `PageWidth`/`PageHeight` not matching desired DPI | Adjust values proportionally to your target DPI (e.g., 300 DPI ⇒ 2480×3508 for A4). |
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 **Q: Can I use Aspose.CAD for .NET with any type of CAD file?**  
 A: Yes, Aspose.CAD supports various CAD formats, including DWG, DXF, and DGN.
 
 **Q: Is a free trial available for Aspose.CAD for .NET?**  
-A: Yes, you can explore a free trial [here](https://releases.aspose.com/).
+A: Yes, you can explore a free trial [Aspose.CAD free trial download page](https://releases.aspose.com/).
 
 **Q: Where can I find detailed documentation for Aspose.CAD for .NET?**  
-A: Refer to the documentation [here](https://reference.aspose.com/cad/net/).
+A: Refer to the documentation [Aspose.CAD .NET API reference](https://reference.aspose.com/cad/net/).
 
 **Q: How can I get temporary licensing for Aspose.CAD?**  
-A: Temporary licenses can be obtained [here](https://purchase.aspose.com/temporary-license/).
+A: Temporary licenses can be obtained [temporary license request page](https://purchase.aspose.com/temporary-license/).
 
 **Q: Need assistance or want to connect with the community?**  
-A: Visit the support forum [here](https://forum.aspose.com/c/cad/19).
+A: Visit the support forum [Aspose.CAD community forum](https://forum.aspose.com/c/cad/19).
 
 ## Conclusion
 
