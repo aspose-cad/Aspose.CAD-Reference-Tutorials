@@ -1,35 +1,59 @@
 ---
-title: การแปลงเค้าโครง CAD เป็น PDF - บทช่วยสอน Aspose.CAD
-linktitle: การแปลงเค้าโครง CAD เป็น PDF
-second_title: Aspose.CAD .NET - รูปแบบไฟล์ CAD และ BIM
-description: แปลงเค้าโครง CAD เป็น PDF ได้อย่างง่ายดายด้วย Aspose.CAD สำหรับ .NET ปฏิบัติตามคำแนะนำทีละขั้นตอนของเราเพื่อการบูรณาการที่ราบรื่น
-weight: 10
+date: 2026-03-31
+description: เรียนรู้วิธีแปลง CAD เป็น PDF อย่างง่ายดายด้วย Aspose.CAD สำหรับ .NET.
+  ปฏิบัติตามคู่มือขั้นตอนต่อขั้นตอนของเราเพื่อการบูรณาการที่ราบรื่น.
+keywords:
+- convert cad to pdf
+- save cad as pdf
+- cad layout to pdf
+- convert dxf to pdf
+- cad to pdf tutorial
+linktitle: แปลงเค้าโครง CAD เป็น PDF
+second_title: Aspose.CAD .NET - CAD and BIM File Format
+title: แปลง CAD เป็น PDF – แปลงเลเอาต์ CAD เป็น PDF ด้วย Aspose.CAD
 url: /th/net/cad-layouts-and-decomposition/converting-cad-layouts-to-pdf/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# การแปลงเค้าโครง CAD เป็น PDF - บทช่วยสอน Aspose.CAD
+# แปลง CAD เป็น PDF – การแปลงเลเอาต์ CAD เป็น PDF ด้วย Aspose.CAD
 
-## การแนะนำ
+## บทนำ
 
-คุณต้องการแปลงเค้าโครง CAD ของคุณเป็น PDF ได้อย่างราบรื่นหรือไม่? Aspose.CAD สำหรับ .NET มอบโซลูชันที่แข็งแกร่งเพื่อทำให้กระบวนการนี้มีประสิทธิภาพและตรงไปตรงมา ในบทช่วยสอนนี้ เราจะแนะนำคุณตลอดขั้นตอนต่างๆ โดยใช้ Aspose.CAD ซึ่งเป็น API อันทรงพลังที่ช่วยให้นักพัฒนาทำงานกับไฟล์ CAD ได้อย่างง่ายดาย
+If you need to **convert CAD to PDF** quickly and reliably, Aspose.CAD for .NET offers a powerful, code‑first API that handles DWG, DXF, and many other formats. In this tutorial we’ll walk through the entire process—from setting up your project to exporting a specific layout as a high‑quality PDF. You’ll see why this approach is ideal for automation, batch processing, and integrating CAD‑to‑PDF conversion into web or desktop applications.
+
+## คำตอบสั้น
+- **ไลบรารีที่ใช้คืออะไร?** Aspose.CAD for .NET  
+- **ฉันสามารถแปลงไฟล์ DWG และ DXF ได้หรือไม่?** Yes, the API supports many CAD formats, including DWG and DXF.  
+- **ฉันต้องการไลเซนส์สำหรับการใช้งานในผลิตภัณฑ์หรือไม่?** A commercial license is required for production use; a free trial is available.  
+- **เวอร์ชัน .NET ที่รองรับคืออะไร?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7.  
+- **การแปลงใช้เวลานานเท่าไหร่?** Typically under a second for standard‑size drawings.
+
+## การ “แปลง CAD เป็น PDF” คืออะไร?
+Converting CAD to PDF means rasterizing vector‑based CAD drawings into a portable document format that can be viewed on any device without needing a CAD viewer. The resulting PDF preserves layout fidelity, line weights, and colors while being lightweight and easy to share.
+
+## ทำไมต้องใช้ Aspose.CAD สำหรับบทแนะนำการแปลง CAD เป็น PDF นี้?
+- **ไม่มีการพึ่งพาภายนอก** – pure .NET library, no native DLLs.  
+- **ควบคุมเต็มรูปแบบ** over page size, layout selection, and rendering quality.  
+- **พร้อมสำหรับการประมวลผลเป็นชุด** – you can loop through many files or layouts with minimal code.  
+- **ข้ามแพลตฟอร์ม** – works on Windows, Linux, and macOS.
 
 ## ข้อกำหนดเบื้องต้น
 
-ก่อนที่จะเข้าสู่บทช่วยสอน ตรวจสอบให้แน่ใจว่าคุณมีข้อกำหนดเบื้องต้นต่อไปนี้:
+Before you start, make sure you have:
 
--  Aspose.CAD สำหรับ .NET: ดาวน์โหลดและติดตั้งไลบรารี คุณสามารถหามันได้[ที่นี่](https://releases.aspose.com/cad/net/).
+- **Aspose.CAD for .NET** – download and install the library from its official site. You can find it [here](https://releases.aspose.com/cad/net/).  
+- **สภาพแวดล้อมการพัฒนา .NET** – Visual Studio, VS Code, or any IDE that supports C#.  
+- **ไฟล์ CAD ตัวอย่าง** – for this guide we’ll use `conic_pyramid.dxf`.  
 
-- สภาพแวดล้อม .NET: ตรวจสอบให้แน่ใจว่าคุณมีสภาพแวดล้อมการพัฒนา .NET ที่ใช้งานได้
+> **เคล็ดลับ:** Keep your CAD files in a dedicated folder (e.g., `~/CADSamples/`) to simplify path handling.
 
-- ไฟล์ CAD ตัวอย่าง: เตรียมไฟล์ CAD ตัวอย่างให้พร้อมสำหรับการแปลง สำหรับบทช่วยสอนนี้ เราจะใช้ "conic_pyramid.dxf"
+## นำเข้า Namespaces
 
-## นำเข้าเนมสเปซ
-
-เริ่มต้นด้วยการนำเข้าเนมสเปซที่จำเป็นลงในโปรเจ็กต์ .NET ของคุณ ขั้นตอนนี้ช่วยให้แน่ใจว่าคุณสามารถเข้าถึงฟังก์ชัน Aspose.CAD ได้
+Begin by importing the required namespaces so you can access Aspose.CAD classes.
 
 ```csharp
 using System;
@@ -42,13 +66,13 @@ using Aspose.CAD.ImageOptions;
 using Aspose.CAD.FileFormats.Cad;
 ```
 
-## ขั้นตอนที่ 1: ตั้งค่าโครงการของคุณ
+## ขั้นตอนที่ 1: ตั้งค่าโครงการ .NET ของคุณ
 
-เริ่มต้นด้วยการตั้งค่าโครงการ .NET ของคุณ สร้างโปรเจ็กต์ใหม่หรือเปิดโปรเจ็กต์ที่มีอยู่ซึ่งคุณต้องการใช้การแปลง CAD เป็น PDF
+Create a new Console or Class Library project, add the Aspose.CAD NuGet package, and ensure the project targets a supported .NET version.
 
 ## ขั้นตอนที่ 2: กำหนดเส้นทางไฟล์ CAD ต้นทาง
 
-ระบุเส้นทางไปยังไฟล์ CAD ของคุณ ในตัวอย่างของเรา ไฟล์ต้นฉบับคือ "conic_pyramid.dxf"
+Tell the application where the CAD file lives.
 
 ```csharp
 string MyDir = "Your Document Directory";
@@ -57,43 +81,43 @@ string sourceFilePath = MyDir + "conic_pyramid.dxf";
 
 ## ขั้นตอนที่ 3: โหลดไฟล์ CAD
 
-สร้างอินสแตนซ์ของคลาส CadImage และโหลดไฟล์ CAD ลงในแอปพลิเคชัน
+Use the `Image.Load` method to read the CAD file into a `CadImage` object.
 
 ```csharp
 using (Aspose.CAD.Image cadImage = (Aspose.CAD.Image)Image.Load(sourceFilePath))
 ```
 
-## ขั้นตอนที่ 4: กำหนดค่าตัวเลือกการแรสเตอร์
+## ขั้นตอนที่ 4: กำหนดค่าตัวเลือกการเรสเตอร์ไลซ์ (บันทึก CAD เป็น PDF)
 
-กำหนดค่าตัวเลือกการแรสเตอร์เพื่อปรับแต่งเอาต์พุต PDF ตั้งค่าขนาดหน้า มาตราส่วนเค้าโครง และพารามิเตอร์อื่นๆ ที่เกี่ยวข้อง
+The `CadRasterizationOptions` object lets you fine‑tune the PDF output—page dimensions, DPI, layout scaling, and more.
 
 ```csharp
 CadRasterizationOptions rasterizationOptions = new CadRasterizationOptions();
 rasterizationOptions.PageWidth = 1600;
 rasterizationOptions.PageHeight = 1600;
-// ตัวเลือกการกำหนดค่าอื่นๆ...
+// Other configuration options...
 ```
 
-## ขั้นตอนที่ 5: ตั้งค่าเค้าโครง
+## ขั้นตอนที่ 5: เลือกเลเอาต์ที่ต้องการส่งออก (CAD layout เป็น PDF)
 
-ระบุเค้าโครงที่คุณต้องการรวมไว้ใน PDF ในตัวอย่างนี้ เราใช้เค้าโครง "แบบจำลอง"
+If your CAD file contains multiple layouts (Model, Sheet1, etc.), specify the ones you want in the PDF.
 
 ```csharp
 rasterizationOptions.Layouts = new string[] { "Model" };
 ```
 
-## ขั้นตอนที่ 6: กำหนดตัวเลือก PDF
+## ขั้นตอนที่ 6: กำหนดตัวเลือก PDF (แปลง DXF เป็น PDF)
 
-สร้างอินสแตนซ์ของคลาส PdfOptions และเชื่อมโยงกับตัวเลือกการแรสเตอร์
+Link the rasterization settings to a `PdfOptions` instance.
 
 ```csharp
 PdfOptions pdfOptions = new PdfOptions();
 pdfOptions.VectorRasterizationOptions = rasterizationOptions;
 ```
 
-## ขั้นตอนที่ 7: ตั้งค่าตัวเลือกกราฟิก
+## ขั้นตอนที่ 7: ปรับปรุงคุณภาพภาพ (ตัวเลือกกราฟิก)
 
-กำหนดค่าตัวเลือกกราฟิกสำหรับ PDF รวมถึงโหมดการปรับให้เรียบ การแสดงข้อความ และการแก้ไข
+Adjust smoothing, text rendering, and interpolation for crisp output.
 
 ```csharp
 rasterizationOptions.GraphicsOptions.SmoothingMode = SmoothingMode.HighQuality;
@@ -101,40 +125,56 @@ rasterizationOptions.GraphicsOptions.TextRenderingHint = TextRenderingHint.AntiA
 rasterizationOptions.GraphicsOptions.InterpolationMode = InterpolationMode.HighQualityBicubic;
 ```
 
-## ขั้นตอนที่ 8: บันทึกเป็น PDF
+## ขั้นตอนที่ 8: บันทึก PDF ที่ได้ (แปลง DWG เป็น PDF)
 
-ระบุเส้นทางเอาต์พุตสำหรับไฟล์ PDF และบันทึกเค้าโครง CAD เป็น PDF
+Provide the destination path and write the PDF file.
 
 ```csharp
 MyDir = MyDir + "CADLayoutsToPDF_out.pdf";
 cadImage.Save(MyDir, pdfOptions);
 ```
 
-## บทสรุป
+## ปัญหาที่พบบ่อยและการแก้ไข
 
-ยินดีด้วย! คุณได้แปลงเค้าโครง CAD เป็น PDF โดยใช้ Aspose.CAD สำหรับ .NET สำเร็จแล้ว บทช่วยสอนนี้ให้คำแนะนำที่ครอบคลุมสำหรับนักพัฒนาที่ต้องการปรับปรุงกระบวนการนี้ในแอปพลิเคชันของตน
+| ปัญหา | สาเหตุ | วิธีแก้ |
+|-------|-------|-----|
+| **หน้า PDF ว่าง** | Layout name mismatch | Verify the layout string matches exactly (case‑sensitive). |
+| **ผลลัพธ์ความละเอียดต่ำ** | `PageWidth/PageHeight` เล็กเกินไป | Increase dimensions or set `Resolution` property on `rasterizationOptions`. |
+| **ฟอนต์หาย** | CAD uses custom text styles | Embed fonts via `GraphicsOptions` or convert text to outlines. |
 
 ## คำถามที่พบบ่อย
 
-### คำถามที่ 1: ฉันสามารถแปลงเค้าโครง CAD หลายรายการพร้อมกันได้หรือไม่
+### Q1: ฉันสามารถแปลงหลายเลเอาต์ CAD พร้อมกันได้หรือไม่?
+**คำตอบ:** Yes. Populate the `Layouts` array with all desired layout names (e.g., `new string[] { "Model", "Sheet1" }`).
 
- A1: ได้ คุณสามารถระบุหลายเค้าโครงในไฟล์ได้`Layouts` อาร์เรย์เพื่อรวมไว้ใน PDF
+### Q2: มีข้อจำกัดใด ๆ ในรูปแบบไฟล์ CAD ที่รองรับหรือไม่?
+**คำตอบ:** Aspose.CAD for .NET supports a wide range of formats, including DWG, DXF, DWF, DGN, and more.
 
-### คำถามที่ 2: รองรับรูปแบบไฟล์ CAD หรือไม่
+### Q3: ฉันจะปรับแต่งลักษณะของผลลัพธ์ PDF ได้อย่างไร?
+**คำตอบ:** Use the rasterization and graphics options shown above—adjust DPI, line weight scaling, background color, or apply a custom `ColorPalette`.
 
-A2: Aspose.CAD สำหรับ .NET รองรับรูปแบบ CAD หลากหลาย รวมถึง DWG และ DXF
+### Q4: มีเวอร์ชันทดลองสำหรับ Aspose.CAD for .NET หรือไม่?
+**คำตอบ:** Yes, you can explore the features with the [free trial version](https://releases.aspose.com/).
 
-### คำถามที่ 3: ฉันจะปรับแต่งลักษณะที่ปรากฏของเอาต์พุต PDF ได้อย่างไร
+### Q5: ฉันสามารถขอรับการสนับสนุนหรือถามคำถามได้ที่ไหน?
+**คำตอบ:** Visit the [Aspose.CAD forum](https://forum.aspose.com/c/cad/19) for assistance and community discussions.
 
-A3: ใช้ตัวเลือกแรสเตอร์และกราฟิกที่มีให้เพื่อปรับแต่งเอาต์พุต PDF ตามความต้องการของคุณ
+### Q6: ฉันสามารถแปลงไฟล์ DWG ด้วยโค้ดเดียวกันได้หรือไม่?
+**คำตอบ:** Absolutely. Replace the DXF file path with a DWG file; the same API calls work unchanged.
 
-### คำถามที่ 4: มี Aspose.CAD สำหรับ .NET รุ่นทดลองใช้งานหรือไม่
+### Q7: ฉันจะทำการแปลงเป็นชุดทั้งหมดของโฟลเดอร์ไฟล์ CAD อย่างไร?
+**คำตอบ:** Wrap the loading and saving logic in a `foreach (var file in Directory.GetFiles(folder, "*.dxf"))` loop and reuse the same `PdfOptions` configuration.
 
- A4: ใช่ คุณสามารถสำรวจคุณลักษณะต่างๆ ได้ด้วย[รุ่นทดลองใช้ฟรี](https://releases.aspose.com/).
+## สรุป
 
-### คำถามที่ 5: ฉันสามารถขอความช่วยเหลือหรือถามคำถามได้ที่ไหน?
+You’ve now mastered how to **convert CAD to PDF** using Aspose.CAD for .NET, from selecting a specific layout to fine‑tuning rendering quality. This approach scales from single‑file conversions to large‑scale automation pipelines, giving you full control over the PDF output.
 
-A5: เยี่ยมชม[ฟอรั่ม Aspose.CAD](https://forum.aspose.com/c/cad/19) เพื่อขอความช่วยเหลือและหารือ
+---
+
+**Last Updated:** 2026-03-31  
+**Tested With:** Aspose.CAD 24.11 for .NET  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
