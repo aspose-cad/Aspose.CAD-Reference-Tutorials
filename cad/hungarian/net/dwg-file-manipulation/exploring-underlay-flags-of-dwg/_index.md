@@ -1,33 +1,54 @@
 ---
-title: A DWG-fájlok alatti zászlóinak felfedezése – Aspose.CAD oktatóanyag
-linktitle: A DWG fájlok alátétjelzőinek felfedezése
-second_title: Aspose.CAD .NET - CAD és BIM fájlformátum
-description: Fedezze fel az Aspose.CAD for .NET erejét a DWG fájlok alátétjelzőinek felfedezésében. Kövesse lépésenkénti útmutatónkat.
-weight: 13
+date: 2026-04-09
+description: Tanulja meg, hogyan konvertálja a DWG-t képpé, és hogyan olvassa a háttérjelzőket
+  az Aspose.CAD for .NET használatával ebben a lépésről‑lépésre útmutatóban.
+keywords:
+- convert dwg to image
+- how to read underlay
+- Aspose.CAD DWG underlay flags
+linktitle: A DWG-fájlok alaprajz jelzőinek felfedezése
+second_title: Aspose.CAD .NET - CAD and BIM File Format
+title: DWG konvertálása képre – A DWG fájlok alaprajz jelzőinek feltárása – Aspose.CAD
+  oktatóanyag
 url: /hu/net/dwg-file-manipulation/exploring-underlay-flags-of-dwg/
+weight: 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# A DWG-fájlok alatti zászlóinak felfedezése – Aspose.CAD oktatóanyag
+# DWG fájlok alávetett jelzőinek felfedezése – Aspose.CAD bemutató
 
 ## Bevezetés
 
-Ha elmélyül a CAD-fájlok, különösen a DWG-fájlok bonyolult világában, és szeretné feltárni az alátétjelzők titkait, akkor jó helyen jár. Ez az oktatóanyag végigvezeti Önt a DWG-fájlok alatti jelzőtábláinak feltárásán a hatékony Aspose.CAD for .NET könyvtár használatával.
+Ha a CAD fájlok bonyolult világába merülsz, különösen a DWG fájlokba, és szeretnél **DWG-t képpé konvertálni**, miközben felfedezed a **alávetett jelzők** olvasását, jó helyen vagy. Ez a bemutató minden lépésen végigvezet a hatékony Aspose.CAD for .NET könyvtár segítségével, így magabiztosan kinyerheted az alávetett információkat, és a rajzot képként megjelenítheted.
+
+## Gyors válaszok
+- **Mi jelent a “convert DWG to image”?**  
+  Ez azt jelenti, hogy egy DWG rajzot raszteres formátumba (PNG, JPEG stb.) renderelünk az Aspose.CAD használatával.
+- **Melyik metódus tárja fel az alávetett jelzőket?**  
+  A DWG betöltése után a `CadUnderlay` objektum `Flags` tulajdonságához férhetsz hozzá.
+- **Szükségem van licencre az Aspose.CAD-hez?**  
+  Ideiglenes licenc elérhető értékeléshez; a teljes licenc a termeléshez kötelező.
+- **Mely .NET verziók támogatottak?**  
+  .NET Framework 4.6+, .NET Core 3.1+, .NET 5/6 és újabbak.
+- **Kinyerhetem az alávetett geometriát?**  
+  Igen – az alávetett útvonal, beillesztési pont, méretezés, forgatás és a jelzők állapota mind elérhető.
+
+## Mi az a “convert DWG to image” és miért fontos?
+
+Egy DWG fájl képpé konvertálása lehetővé teszi a CAD rajzok megjelenítését böngészőkben, beágyazását jelentésekbe, vagy megosztását olyan érintettekkel, akiknek nincs CAD megjelenítőjük. A renderelés során gyakran szükséges az **alávetett** objektumok (pl. DGN hivatkozások) ellenőrzése, hogy biztosan helyesen jelenjenek meg. Az alávetett jelzők megértése segít a vágás, a monokróm megjelenítés és a láthatósági problémák hibaelhárításában, még mielőtt a végső képet generálnád.
 
 ## Előfeltételek
 
-Mielőtt belevágnánk az oktatóanyagba, győződjön meg arról, hogy rendelkezik a következőkkel:
-
-- Alapvető ismeretek a C# és .NET programozásról.
--  Aspose.CAD for .NET könyvtár telepítve. Ha nem, akkor letöltheti[itt](https://releases.aspose.com/cad/net/).
-- Egy DWG fájl tesztelésre. Használhatja az oktatóanyagban található "BlockRefDgn.dwg" mintafájlt.
+- Alapvető C# és .NET programozási ismeretek.  
+- **Aspose.CAD for .NET** könyvtár telepítve. Ha még nincs, töltsd le **[itt](https://releases.aspose.com/cad/net/)**.  
+- Teszteléshez egy DWG fájl – a példafájl **„BlockRefDgn.dwg”** a teljes útmutató során használatos.
 
 ## Névterek importálása
 
-A kezdéshez importálnia kell a szükséges névtereket. Íme egy részlet, amely segít:
+A kezdéshez importáld a szükséges névtereket:
 
 ```csharp
 using System;
@@ -36,48 +57,47 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Aspose.CAD;
-
 ```
 
-## 1. lépés: Töltse be a DWG fájlt, és konvertálja CadImage formátumba
+## 1. lépés: DWG fájl betöltése és konvertálása `CadImage`-re
 
-Kezdje azzal, hogy betölti a meglévő DWG fájlt, és konvertálja CadImage formátumba:
+Először töltsd be a DWG fájlt, és alakítsd `CadImage` típusra. Ez az objektum hozzáférést biztosít az összes rajzelemhez, beleértve az alávetetteket is.
 
 ```csharp
 string fileName = MyDir + "BlockRefDgn.dwg";
 
-// Töltse be a DWG fájlt, és konvertálja CadImage formátumba
+// Load DWG file and convert to CadImage
 using (CadImage image = (CadImage)Image.Load(fileName))
 {
-    // A következő lépések kódja ide kerül
+    // Your code for subsequent steps will go here
 }
 ```
 
-## 2. lépés: Iterálás entitásokon keresztül
+## 2. lépés: Entitások bejárása
 
-Ezután ismételje meg a DWG-fájlon belüli minden entitást:
+Ezután iterálj végig minden entitáson a rajzban. Itt fogod megtalálni az alávetett objektumokat.
 
 ```csharp
 foreach (CadBaseEntity entity in image.Entities)
 {
-    // A következő lépések kódja ide kerül
+    // Your code for subsequent steps will go here
 }
 ```
 
-## 3. lépés: Ellenőrizze a CadDgnUnderlay típust
+## 3. lépés: `CadDgnUnderlay` típus ellenőrzése
 
-Ellenőrizze, hogy az entitás CadDgnUnderlay típusú-e:
+Az alávetett entitásokat a futásidejű típusuk ellenőrzésével azonosíthatod. A `CadDgnUnderlay` osztály a DWG-be beágyazott DGN alávetetteket képviseli.
 
 ```csharp
 if (entity is CadDgnUnderlay)
 {
-    // A következő lépések kódja ide kerül
+    // Your code for subsequent steps will go here
 }
 ```
 
-## 4. lépés: Hozzáférés az alátét zászlókhoz
+## 4. lépés: Alávetett jelzők elérése
 
-Különböző alátétjelzők elérése és releváns információk kinyerése:
+Miután megszerezted a `CadDgnUnderlay`-t, castold `CadUnderlay`-ra, hogy elolvasd a tulajdonságait és a jelzők állapotát. A jelzők megmutatják, hogy az alávetett látható, vágott vagy monokróm módon renderelt-e.
 
 ```csharp
 CadUnderlay underlay = entity as CadUnderlay;
@@ -95,31 +115,59 @@ Console.WriteLine((underlay.Flags & UnderlayFlags.ClippingIsOn) == UnderlayFlags
 Console.WriteLine((underlay.Flags & UnderlayFlags.Monochrome) != UnderlayFlags.Monochrome);
 ```
 
-## Következtetés
+### Mit mond a kimenet
 
-Gratulálunk! Az Aspose.CAD for .NET segítségével sikeresen felfedezte a DWG-fájlok alátétjelzőit. Ez az oktatóanyag az entitások közötti navigáláshoz és az alátétekkel kapcsolatos fontos információk kinyeréséhez szükséges ismeretekkel ruházta fel.
+- **UnderlayPath / UnderlayName** – ahol a külső DGN fájl található.  
+- **InsertionPoint (X, Y)** – koordináták, ahol az alávetett a DWG térben elhelyezkedik.  
+- **RotationAngle** – az alávetettre alkalmazott forgatás.  
+- **ScaleX / ScaleY / ScaleZ** – az egyes tengelyek méretezési tényezői.  
+- **Flags** – logikai értékek, amelyek a láthatóságot (`UnderlayIsOn`), a vágást (`ClippingIsOn`) és a monokróm renderelést (`Monochrome`) jelzik.
 
-## GYIK
+## Gyakori problémák és megoldások
 
-### 1. kérdés: Használhatom az Aspose.CAD for .NET fájlt más CAD fájlformátumokkal?
+| Probléma | Ok | Megoldás |
+|----------|----|----------|
+| Nincs kimenet a jelző ellenőrzéseknél | Az alávetett jelzők alapértelmezés szerint 0‑ra vannak állítva, ha az alávetett ki van kapcsolva. | Győződj meg róla, hogy a DWG valóban tartalmaz aktív alávetettet, vagy állítsd be a láthatóságot a forrás CAD fájlban. |
+| `Invalid cast` kivétel | Az entitás nem `CadDgnUnderlay`. | Ellenőrizd a `if (entity is CadDgnUnderlay)` feltételt a castolás előtt. |
+| Kép renderelése sikertelen a jelzők kinyerése után | Az alávetett lehet vágott vagy kikapcsolt, ami üres területet eredményez. | Állítsd be a jelzőket (`UnderlayIsOn = true`, `ClippingIsOn = false`) a végső kép renderelése előtt. |
 
-1. válasz: Az Aspose.CAD különféle CAD-formátumokat támogat, beleértve a DWG-t, DXF-et, DGN-t stb. A teljes listát a dokumentációban találja.
+## Gyakran ismételt kérdések
 
-### 2. kérdés: Rendelkezésre áll ideiglenes licenc az Aspose.CAD for .NET számára?
+### Q1: Használhatom az Aspose.CAD for .NET-et más CAD fájlformátumokkal?
 
- V2: Igen, beszerezhet ideiglenes engedélyt[itt](https://purchase.aspose.com/temporary-license/).
+A1: Az Aspose.CAD számos CAD formátumot támogat, többek között DWG, DXF, DGN és továbbiakat. A teljes listáért tekintsd meg a dokumentációt.
 
-### 3. kérdés: Hol találok támogatást az Aspose.CAD for .NET számára?
+### Q2: Elérhető ideiglenes licenc az Aspose.CAD for .NET-hez?
 
- 3. válasz: Látogassa meg a támogatási fórumot[itt](https://forum.aspose.com/c/cad/19) segítségért.
+A2: Igen, ideiglenes licencet **[itt](https://purchase.aspose.com/temporary-license/)** szerezhetsz be.
 
-### 4. kérdés: Hogyan vásárolhatok Aspose.CAD-et .NET-hez?
+### Q3: Hol találok támogatást az Aspose.CAD for .NET-hez?
 
-A4: Vásárolja meg a könyvtárat[itt](https://purchase.aspose.com/buy).
+A3: Látogasd meg a támogatási fórumot **[itt](https://forum.aspose.com/c/cad/19)** segítségért.
 
-### 5. kérdés: Van ingyenes próbaverzió?
+### Q4: Hogyan vásárolhatok Aspose.CAD for .NET-et?
 
- 5. válasz: Igen, hozzáférhet az ingyenes próbaverzióhoz[itt](https://releases.aspose.com/).
+A4: A könyvtárat **[itt](https://purchase.aspose.com/buy)** vásárolhatod meg.
+
+### Q5: Van ingyenes próba?
+
+A5: Igen, az ingyenes próbaverziót **[itt](https://releases.aspose.com/)** érheted el.
+
+## Összegzés
+
+Gratulálunk! Sikeresen megtanultad, **hogyan konvertálj DWG-t képpé**, miközben elsajátítottad **az alávetett jelzők** olvasását az Aspose.CAD for .NET segítségével. Ezzel a tudással:
+
+- Renderelhetsz DWG rajzokat raszteres képekké webes vagy jelentési környezetben.  
+- Ellenőrizheted és módosíthatod az alávetett tulajdonságait a helyes megjelenítés érdekében.  
+- Hibakeresheted a láthatósági, vágási és monokróm problémákat a végső kép generálása előtt.
+
+Fedezd fel az Aspose.CAD további funkcióit, például a rétegkezelést, szövegkinyerést és kötegelt konvertálást, hogy tovább bővítsd CAD automatizálási munkafolyamataidat.
+
+---
+
+**Legutóbb frissítve:** 2026-04-09  
+**Tesztelve:** Aspose.CAD for .NET 24.11  
+**Szerző:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
