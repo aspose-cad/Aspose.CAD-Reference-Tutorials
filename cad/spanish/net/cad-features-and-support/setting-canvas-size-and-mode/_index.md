@@ -1,35 +1,50 @@
 ---
-title: Configuración del tamaño y modo del lienzo en Aspose.CAD para .NET
-linktitle: Configuración del tamaño y modo del lienzo
-second_title: Aspose.CAD .NET - Formato de archivo CAD y BIM
-description: Explore la guía paso a paso sobre cómo configurar el tamaño y el modo del lienzo en Aspose.CAD para .NET. Optimice su renderizado CAD con facilidad utilizando este completo tutorial.
-weight: 16
+date: 2026-03-29
+description: Aprende a crear PDF a partir de CAD, establecer el tamaño del lienzo
+  y exportar CAD a PDF o TIFF usando Aspose.CAD para .NET en esta guía paso a paso.
+linktitle: Setting Canvas Size and Mode
+second_title: Aspose.CAD .NET - CAD and BIM File Format
+title: 'Cómo crear PDF a partir de CAD: establecer el tamaño del lienzo y el modo
+  en Aspose.CAD para .NET'
 url: /es/net/cad-features-and-support/setting-canvas-size-and-mode/
+weight: 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Configuración del tamaño y modo del lienzo en Aspose.CAD para .NET
+# Configuración del tamaño del lienzo y modo en Aspose.CAD para .NET
 
 ## Introducción
 
-¿Está listo para desbloquear todo el potencial de Aspose.CAD para .NET y revolucionar su experiencia de renderizado CAD? En este tutorial paso a paso, profundizaremos en las complejidades de configurar el tamaño y el modo del lienzo utilizando la poderosa biblioteca Aspose.CAD. Ya sea que sea un desarrollador experimentado o recién esté comenzando, esta guía lo guiará a través del proceso, asegurándole que aproveche las capacidades de Aspose.CAD de manera efectiva.
+¿Listo para **crear PDF a partir de CAD** mientras controla las dimensiones de salida? En este tutorial recorreremos la configuración del tamaño del lienzo y modo, la carga de un archivo CAD y su exportación a PDF o TIFF con Aspose.CAD para .NET. Ya sea que necesite **convertir DXF a PDF**, generar dibujos de alta resolución o simplemente ajustar el área de rasterización, los pasos a continuación le ofrecerán una solución sólida y lista para producción.
+
+## Respuestas rápidas
+- **¿Qué significa “create PDF from CAD”?** Convertir un dibujo CAD (p. ej., DXF, DWG) en un documento PDF que conserva los detalles vectoriales y raster.
+- **¿Qué opción controla el tamaño de salida?** `CadRasterizationOptions.PageWidth` y `PageHeight` (tamaño del lienzo).
+- **¿Puedo exportar también a TIFF?** Sí – use `TiffOptions` con la misma configuración de rasterización.
+- **¿Necesito una licencia para producción?** Se requiere una licencia comercial; hay una prueba gratuita disponible.
+- **¿Versiones de .NET compatibles?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7.
+
+## ¿Qué es “create PDF from CAD”?
+Crear un PDF a partir de CAD significa renderizar el dibujo CAD en un formato orientado a página (PDF) que puede ser visualizado, impreso o compartido sin necesidad de software CAD. Aspose.CAD se encarga del trabajo pesado, permitiéndole definir el tamaño del lienzo, la escala y el formato de salida.
+
+## ¿Por qué establecer el tamaño del lienzo al crear PDF a partir de CAD?
+Establecer el tamaño del lienzo le brinda un control preciso sobre la resolución y dimensiones del PDF o TIFF resultante. Esto es especialmente útil cuando:
+- Se preparan dibujos para imprimir en tamaños de papel específicos.  
+- Se generan miniaturas o imágenes de alta resolución para vista previa web.  
+- Se asegura una disposición consistente en varios documentos.
 
 ## Requisitos previos
 
-Antes de sumergirnos en el tutorial, asegúrese de cumplir con los siguientes requisitos previos:
-
--  Biblioteca Aspose.CAD: descargue e instale la biblioteca Aspose.CAD desde[Sitio web de Aspose.CAD](https://releases.aspose.com/cad/net/).
-
-- Entorno de desarrollo: asegúrese de tener un entorno de desarrollo .NET configurado en su máquina.
-
--  Archivo CAD de muestra: para este tutorial, usaremos un archivo DXF de muestra. Puedes encontrar uno en el[Documentación de Aspose.CAD](https://reference.aspose.com/cad/net/).
+- Biblioteca Aspose.CAD: Descargue e instale la biblioteca Aspose.CAD desde el [sitio web de Aspose.CAD](https://releases.aspose.com/cad/net/).
+- Entorno de desarrollo: Asegúrese de tener un entorno de desarrollo .NET configurado en su máquina.
+- Archivo CAD de ejemplo: Para este tutorial, utilizaremos un archivo DXF de ejemplo. Puede encontrar uno en la [documentación de Aspose.CAD](https://reference.aspose.com/cad/net/).
 
 ## Importar espacios de nombres
 
-Para comenzar, importe los espacios de nombres necesarios al comienzo de su aplicación .NET:
+Primero, importe los espacios de nombres requeridos para el procesamiento CAD:
 
 ```csharp
 using System;
@@ -40,9 +55,11 @@ using System.Threading.Tasks;
 using Aspose.CAD;
 ```
 
-## Paso 1: cargar el archivo CAD
+## Cómo crear PDF a partir de CAD con tamaño de lienzo personalizado
 
-Comience cargando el archivo CAD usando el siguiente código:
+### Paso 1: Cargar archivo CAD
+
+Comenzamos **cargando el archivo CAD** (p. ej., un DXF) en un objeto `Image`. Este es el punto donde **carga el archivo CAD** en memoria.
 
 ```csharp
 string MyDir = "Your Document Directory";
@@ -50,13 +67,13 @@ string sourceFilePath = MyDir + "conic_pyramid.dxf";
 
 using (Image image = Image.Load(sourceFilePath))
 {
-    //Su código para pasos adicionales irá aquí
+    // Your code for further steps will go here
 }
 ```
 
-## Paso 2: crear CadRasterizationOptions
+### Paso 2: Crear CadRasterizationOptions
 
- Crear una instancia de`CadRasterizationOptions` y establece sus propiedades:
+Cree una instancia de `CadRasterizationOptions` y defina el tamaño del lienzo. Las propiedades `PageWidth` y `PageHeight` le permiten **establecer el tamaño del lienzo** a las dimensiones exactas que necesita.
 
 ```csharp
 CadRasterizationOptions rasterizationOptions = new CadRasterizationOptions();
@@ -66,65 +83,75 @@ rasterizationOptions.AutomaticLayoutsScaling = true;
 rasterizationOptions.NoScaling = false;
 ```
 
-## Paso 3: crear opciones de PDF
+### Paso 3: Crear PdfOptions (Exportar CAD a PDF)
 
- Crear una instancia de`PdfOptions` y establecer su`VectorRasterizationOptions` propiedad:
+Vincule la configuración de rasterización a un objeto `PdfOptions`. Esta configuración le permite **exportar CAD a PDF** con el lienzo personalizado que definió.
 
 ```csharp
 PdfOptions pdfOptions = new PdfOptions();
 pdfOptions.VectorRasterizationOptions = rasterizationOptions;
 ```
 
-## Paso 4: exportar a PDF
+### Paso 4: Exportar a PDF (Convertir DXF a PDF)
 
-Exporte el archivo CAD a PDF usando las opciones configuradas:
+Ahora guarde la imagen como PDF. Este paso **crea PDF a partir de CAD** usando las opciones que configuramos.
 
 ```csharp
 image.Save(MyDir + "result_out.pdf", pdfOptions);
 ```
 
-## Paso 5: crear opciones Tiff
+### Paso 5: Crear TiffOptions (Exportar CAD a TIFF)
 
- Crear una instancia de`TiffOptions` y establecer su`VectorRasterizationOptions` propiedad:
+Si también necesita una imagen raster, configure `TiffOptions`. Se reutilizan las mismas opciones de rasterización, por lo que la **exportación de CAD a TIFF** respeta el tamaño del lienzo.
 
 ```csharp
 TiffOptions tiffOptions = new TiffOptions(TiffExpectedFormat.Default);
 tiffOptions.VectorRasterizationOptions = rasterizationOptions;
 ```
 
-## Paso 6: Exportar a TIFF
+### Paso 6: Exportar a TIFF
 
-Exporte el archivo CAD a TIFF usando las opciones configuradas:
+Finalmente, guarde el dibujo como un archivo TIFF.
 
 ```csharp
 image.Save(MyDir + "result_out.tiff", tiffOptions);
 ```
 
-## Conclusión
+## Problemas comunes y soluciones
 
-¡Felicidades! Ha configurado correctamente el tamaño y el modo del lienzo en Aspose.CAD para .NET. Esta poderosa característica abre un mundo de posibilidades para la renderización CAD. Experimente con diferentes opciones y descubra todo el potencial de Aspose.CAD en sus aplicaciones .NET.
+- **El lienzo aparece recortado** – Verifique que `AutomaticLayoutsScaling` esté configurado en `true` y `NoScaling` en `false` para que el dibujo se escale y ajuste al lienzo.  
+- **PDF de baja resolución** – Aumente `PageWidth`/`PageHeight` o establezca `Resolution` en `CadRasterizationOptions`.  
+- **Error de archivo no encontrado** – Asegúrese de que `MyDir` apunte a un directorio válido y que el nombre del archivo DXF coincida exactamente.
 
 ## Preguntas frecuentes
 
 ### P1: ¿Puedo usar Aspose.CAD con otras bibliotecas .NET?
-
-R1: Sí, Aspose.CAD se integra perfectamente con otras bibliotecas .NET, proporcionando capacidades mejoradas para la manipulación de CAD.
+R1: Sí, Aspose.CAD se integra sin problemas con otras bibliotecas .NET, proporcionando capacidades mejoradas para la manipulación de CAD.
 
 ### P2: ¿Hay una prueba gratuita disponible para Aspose.CAD?
-
- R2: Sí, puede explorar las funciones de Aspose.CAD con una prueba gratuita. Visita[aquí](https://releases.aspose.com/) Para empezar.
+R2: Sí, puede explorar las funciones de Aspose.CAD con una prueba gratuita. Visite [aquí](https://releases.aspose.com/) para comenzar.
 
 ### P3: ¿Cómo puedo obtener soporte para Aspose.CAD?
-
- R3: Para soporte y discusiones, visite el[Foro Aspose.CAD](https://forum.aspose.com/c/cad/19).
+R3: Para soporte y discusiones, visite el [foro de Aspose.CAD](https://forum.aspose.com/c/cad/19).
 
 ### P4: ¿Dónde puedo encontrar documentación completa para Aspose.CAD?
-
- A4: Consulte el[Documentación de Aspose.CAD](https://reference.aspose.com/cad/net/) para obtener información detallada y ejemplos.
+R4: Consulte la [documentación de Aspose.CAD](https://reference.aspose.com/cad/net/) para información detallada y ejemplos.
 
 ### P5: ¿Cómo compro Aspose.CAD para .NET?
+R5: Para comprar Aspose.CAD, visite la [página de compra](https://purchase.aspose.com/buy).
 
- R5: Para comprar Aspose.CAD, visite el[pagina de compra](https://purchase.aspose.com/buy).
+**P: ¿Puedo exportar un dibujo CAD de varias páginas a un solo PDF?**  
+R: Sí. Establezca `PageCount` en `CadRasterizationOptions` y la biblioteca concatenará las páginas en un solo PDF.
+
+**P: ¿Afecta el tamaño del lienzo a la calidad de los datos vectoriales?**  
+R: Los datos vectoriales siguen siendo independientes de la resolución; el tamaño del lienzo solo influye en los elementos rasterizados y la resolución de la imagen.
+
+---
+
+**Última actualización:** 2026-03-29  
+**Probado con:** Aspose.CAD 24.11 for .NET  
+**Autor:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

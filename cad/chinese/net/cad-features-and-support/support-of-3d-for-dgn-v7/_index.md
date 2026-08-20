@@ -1,37 +1,59 @@
 ---
-title: Aspose.CAD for .NET 中对 DGN V7 的 3D 支持
-linktitle: DGN V7 支持 3D
-second_title: Aspose.CAD .NET - CAD 和 BIM 文件格式
-description: 释放 Aspose.CAD for .NET 中对 DGN V7 的 3D 支持的强大功能。请按照我们的分步教程进行操作。
-weight: 20
+date: 2026-03-29
+description: 了解如何使用 Aspose.CAD for .NET 配置 CAD 光栅化选项并将 DGN 导出为支持 3D 的 PDF。
+linktitle: Support of 3D for DGN V7
+second_title: Aspose.CAD .NET - CAD and BIM File Format
+title: 为 DGN V7 3D 配置 CAD 栅格化选项
 url: /zh/net/cad-features-and-support/support-of-3d-for-dgn-v7/
+weight: 20
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.CAD for .NET 中对 DGN V7 的 3D 支持
+# 配置 DGN V7 3D 的 CAD 光栅化选项
 
 ## 介绍
 
-欢迎来到我们关于在 Aspose.CAD for .NET 中利用 3D for DGN V7 支持的综合教程！ Aspose.CAD 是一个功能强大的库，使开发人员能够在其 .NET 应用程序中无缝地使用 CAD 文件。在本教程中，我们将探讨利用 DGN V7 的 3D 支持的步骤，为您提供增强 CAD 相关项目的知识。
+在本综合教程中，您将学习**如何配置 CAD 光栅化选项**，以使用 Aspose.CAD for .NET 将 3‑D DGN V7 文件导出为 PDF。无论您是构建 CAD 查看器、报告工具，还是自动化转换流水线，掌握这些设置都能让您精确控制页面尺寸、布局缩放、背景颜色以及要渲染的特定视图。让我们一步一步地完成此过程。
 
-## 先决条件
+## 快速答案
+- **“configure CAD rasterization options” 是什么意思？**  
+  它指在将 CAD 文件转换为光栅格式（例如 PDF）之前，设置页面尺寸、缩放、背景颜色和布局选择等属性。
+- **如何导出支持 3‑D 的 DGN 为 PDF？**  
+  使用 `DgnImage` 加载 DGN，定义 `PdfOptions` + `CadRasterizationOptions`，然后调用 `Save`。
+- **生产环境是否需要许可证？**  
+  是的——部署需要商业许可证；提供免费试用版。
+- **支持哪些 .NET 版本？**  
+  .NET Framework 4.5+、.NET Core 3.1+、.NET 5/6/7。
+- **可以选择特定视图导出吗？**  
+  完全可以——在光栅化选项中设置 `Layouts` 数组。
 
-在深入学习本教程之前，请确保您具备以下先决条件：
+## 什么是“configure CAD rasterization options”？
 
--  Aspose.CAD for .NET：确保您已安装 Aspose.CAD for .NET。如果没有，您可以从以下位置下载[这里](https://releases.aspose.com/cad/net/).
+配置 CAD 光栅化选项意味着自定义 CAD 图纸的光栅化方式（从矢量转换为位图或 PDF）。通过调整这些设置，您可以控制输出的视觉效果、性能以及生成文档的文件大小。
 
-- 开发环境：为.NET应用程序开发设置合适的开发环境，例如Visual Studio。
+## 为什么使用 Aspose.CAD 进行 3‑D DGN V7 导出？
 
-- 示例 DGN 文件：准备好示例 DGN 文件以供测试。您可以使用提供的示例文件“Nikon_D90_Camera.dgn”。
+- **完整的 .NET 集成** – 无需 COM 或本机 DLL。  
+- **支持 3‑D 几何** – 在渲染为 PDF 时保留深度信息。  
+- **细粒度控制** – 选择精确的布局、缩放和背景颜色。  
+- **跨平台** – 在 Windows、Linux 和 macOS 上使用 .NET Core 工作。
 
-现在，让我们开始使用 Aspose.CAD for .NET 实现对 DGN V7 的 3D 支持的步骤！
+## 前提条件
+
+在开始之前，请确保您已拥有：
+
+- **Aspose.CAD for .NET** – 从 [here](https://releases.aspose.com/cad/net/) 下载。  
+- **Visual Studio** 或任何兼容的 .NET IDE。  
+- **示例 DGN 文件** – 本指南使用 `Nikon_D90_Camera.dgn`（包含在 Aspose 示例包中）。  
+
+现在一切准备就绪，让我们深入代码。
 
 ## 导入命名空间
 
-在您的 .NET 应用程序中，首先导入必要的命名空间：
+在您的 .NET 项目中，导入所需的命名空间：
 
 ```csharp
 using System;
@@ -44,9 +66,9 @@ using Aspose.CAD.FileFormats.Dgn;
 using Aspose.CAD.ImageOptions;
 ```
 
-## 第 1 步：设置您的文档目录
+## 步骤 1：设置文档目录
 
-确保您的项目中设置了文档目录。代替`"Your Document Directory"`与文档目录的实际路径。
+创建一个变量，指向存放源 DGN 和输出文件的文件夹。
 
 ```csharp
 string MyDir = "Your Document Directory";
@@ -54,7 +76,7 @@ string MyDir = "Your Document Directory";
 
 ## 步骤 2：加载 DGN 文件
 
-使用以下代码将现有 DGN 文件加载为 CadImage：
+将 DGN 文件加载为 `DgnImage`。该对象让您能够访问 CAD 数据和光栅化管道。
 
 ```csharp
 string sourceFilePath = MyDir + "Nikon_D90_Camera.dgn";
@@ -62,13 +84,13 @@ string outFile = MyDir + "Nikon_D90_Camera.dgn";
 
 using (DgnImage dgnImage = (DgnImage)Image.Load(sourceFilePath))
 {
-    //您用于进一步处理的代码位于此处
+    // Your code for further processing goes here
 }
 ```
 
-## 步骤 3：配置 PDF 导出选项
+## 步骤 3：配置 PDF 导出选项（Configure CAD Rasterization Options）
 
-设置导出为 PDF 的选项，指定矢量光栅化选项，例如页面尺寸、自动布局缩放、背景颜色和要导出的布局。
+在此我们**配置 CAD 光栅化选项**，决定 3‑D 模型如何渲染为 PDF。您可以调整页面尺寸、启用自动布局缩放、设置背景颜色，并选择要导出的精确布局（视图）。
 
 ```csharp
 var options = new PdfOptions
@@ -79,44 +101,51 @@ var options = new PdfOptions
         PageHeight = 1500,
         AutomaticLayoutsScaling = true,
         BackgroundColor = Color.Black,
-        Layouts = new string[] { "1", "2", "3", "9" } //仅导出指定视图
+        Layouts = new string[] { "1", "2", "3", "9" } // Only export specified views
     }
 };
 ```
 
-## 第四步：保存光栅图像
+## 步骤 4：保存光栅图像
 
-使用配置的选项将 DGN 文件另存为光栅图像。
+最后，使用刚才配置的选项将 DGN 导出为 PDF 文件。
 
 ```csharp
 dgnImage.Save(outFile, options);
 ```
 
-## 结论
+## 常见问题及解决方案
 
-恭喜！您已成功利用 Aspose.CAD for .NET 将支持 3D 的 DGN 文件导出为光栅图像。本教程为您提供了将此功能集成到 CAD 项目中的基本步骤。
+| 问题 | 解决方案 |
+|-------|----------|
+| **Blank PDF output** | 验证 `Layouts` 数组包含 DGN 文件中存在的正确视图标识符。 |
+| **Incorrect colors** | 确保 `BackgroundColor` 设置为所需的值；使用 `Color.White` 可获得浅色背景。 |
+| **Performance bottleneck on large files** | 启用 `AutomaticLayoutsScaling`，并考虑降低 `PageWidth/PageHeight` 以获得更小的光栅分辨率。 |
+| **License exception** | 在加载图像之前安装有效的 Aspose.CAD 许可证，以避免试用水印。 |
 
-## 常见问题解答
+## 常见问题
 
-### Q1：我可以将 Aspose.CAD for .NET 与其他 CAD 文件格式一起使用吗？
+**Q: 我可以在 .NET 中使用 Aspose.CAD 处理其他 CAD 文件格式吗？**  
+A: 可以，Aspose.CAD 支持 DWG、DXF、DWF、DGN 等多种格式。
 
-A1：是的，Aspose.CAD支持各种CAD文件格式，包括DWG和DXF。
+**Q: 使用 Aspose.CAD 时如何处理异常？**  
+A: 将代码包装在 `try‑catch` 块中，并检查 `Aspose.CAD.CADException` 以获取详细错误信息。
 
-### Q2：使用Aspose.CAD时如何处理异常？
+**Q: Aspose.CAD 适用于商业项目吗？**  
+A: 绝对适用。您可以在 [here](https://purchase.aspose.com/buy) 购买许可证。
 
-A2：将代码包装在 try-catch 块中，如提供的示例所示，以优雅地处理异常。
+**Q: 在购买前我可以试用 Aspose.CAD for .NET 吗？**  
+A: 可以，免费试用版可在 [here](https://releases.aspose.com/) 获取。
 
-### Q3：Aspose.CAD适合商业项目吗？
+**Q: 哪里可以找到 Aspose.CAD 的社区支持？**  
+A: 请前往讨论论坛 [here](https://forum.aspose.com/c/cad/19)。
 
- A3：当然！您可以购买 Aspose.CAD for .NET[这里](https://purchase.aspose.com/buy).
+---
 
-### Q4：我可以在购买前试用 Aspose.CAD for .NET 吗？
+**最后更新：** 2026-03-29  
+**测试环境：** Aspose.CAD 24.11 for .NET  
+**作者：** Aspose  
 
-A4：当然！探索免费试用[这里](https://releases.aspose.com/).
-
-### 问题 5：在哪里可以找到 Aspose.CAD for .NET 的社区支持？
-
- A5：访问社区论坛[这里](https://forum.aspose.com/c/cad/19).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

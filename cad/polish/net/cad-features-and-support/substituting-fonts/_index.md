@@ -1,33 +1,50 @@
 ---
-title: Zastępowanie czcionek w Aspose.CAD dla .NET
-linktitle: Zastępowanie czcionek
-second_title: Aspose.CAD .NET - Format plików CAD i BIM
-description: Naucz się bez wysiłku zastępować czcionki w Aspose.CAD dla .NET. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby efektywnie dostosowywać czcionki w rysunkach CAD.
-weight: 17
+date: 2026-03-29
+description: Dowiedz się, jak szybko wymienić czcionki w Aspose.CAD dla .NET. Ten
+  przewodnik krok po kroku pokazuje, jak ustawić nazwę głównej czcionki i efektywnie
+  dostosować rysunki CAD.
+linktitle: Substituting Fonts
+second_title: Aspose.CAD .NET - CAD and BIM File Format
+title: Jak zastąpić czcionki w Aspose.CAD dla .NET
 url: /pl/net/cad-features-and-support/substituting-fonts/
+weight: 17
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Zastępowanie czcionek w Aspose.CAD dla .NET
+# Jak zamienić czcionki w Aspose.CAD dla .NET
 
-## Wstęp
+## Wprowadzenie
 
-W dziedzinie projektowania CAD przy użyciu platformy .NET umiejętność manipulowania czcionkami jest kluczową umiejętnością. Aspose.CAD dla .NET zapewnia solidny zestaw narzędzi do tego celu, umożliwiając programistom płynne zastępowanie czcionek w swoich rysunkach CAD. W tym samouczku omówimy ten proces krok po kroku, pokazując, jak efektywnie wykonać zastępowanie czcionek.
+W dziedzinie tworzenia aplikacji CAD przy użyciu .NET, nauka **jak zamienić czcionki** jest kluczową umiejętnością, która może znacząco poprawić jakość wizualną Twoich rysunków. Aspose.CAD dla .NET oferuje prostą API, która pozwala **ustawić nazwę podstawowej czcionki** dla dowolnego stylu, co umożliwia łatwą globalną lub selektywną zamianę czcionek. W tym samouczku przeprowadzimy Cię przez cały proces — od wczytania rysunku po wymianę czcionek globalnie lub według konkretnej nazwy stylu.
 
-## Warunki wstępne
+## Szybkie odpowiedzi
+- **Jaka jest główna klasa do manipulacji CAD?** `Aspose.CAD.Image` (lub jej pochodna `CadImage`).
+- **Która właściwość zmienia czcionkę?** `PrimaryFontName` w `CadStyleTableObject`.
+- **Czy mogę zamienić czcionki we wszystkich stylach jednocześnie?** Tak, iteruj przez `cadImage.Styles` i ustaw właściwość.
+- **Czy potrzebna jest licencja do produkcji?** Wymagana jest ważna licencja Aspose.CAD do użytku nie‑trial.
+- **Obsługiwane wersje .NET?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7.
 
-Zanim zagłębisz się w samouczek, upewnij się, że posiadasz następujące elementy:
+## Czym jest zamiana czcionek w CAD?
+Zamiana czcionek oznacza zastąpienie pierwotnego kroju pisma używanego w rysunku CAD innym, dostępnym w systemie docelowym. Jest to szczególnie przydatne, gdy oryginalna czcionka jest nieobecna, gdy potrzebny jest spójny styl firmowy lub przy przygotowywaniu rysunków do druku na urządzeniach obsługujących jedynie ograniczony zestaw czcionek.
 
-- Podstawowa znajomość programowania .NET.
--  Zainstalowany Aspose.CAD dla .NET. Jeśli nie, możesz go pobrać[Tutaj](https://releases.aspose.com/cad/net/).
-- Plik rysunku CAD do ćwiczeń praktycznych.
+## Dlaczego zamieniać czcionki przy użyciu Aspose.CAD?
+- **Brak zewnętrznych zależności** – biblioteka obsługuje mapowanie czcionek wewnętrznie.
+- **Działa z wieloma formatami** – DXF, DWG, DGN i inne.
+- **Programowa kontrola** – automatyzuj proces konwersji wsadowych lub w pipeline CI.
+- **Zachowuje geometrię rysunku** – zmienia się jedynie wizualna reprezentacja tekstu.
 
-## Importuj przestrzenie nazw
+## Wymagania wstępne
 
-Zanim zaczniesz, zaimportuj niezbędne przestrzenie nazw, aby uzyskać dostęp do funkcjonalności Aspose.CAD w aplikacji .NET.
+- Podstawowa znajomość programowania w .NET.
+- Zainstalowany Aspose.CAD dla .NET. Jeśli jeszcze go nie zainstalowałeś, pobierz go [tutaj](https://releases.aspose.com/cad/net/).
+- Plik rysunku CAD (DXF, DWG, itp.) do eksperymentów.
+
+## Importowanie przestrzeni nazw
+
+Zanim rozpoczniesz, zaimportuj niezbędne przestrzenie nazw, aby uzyskać dostęp do funkcjonalności Aspose.CAD w swojej aplikacji .NET.
 
 ```csharp
 using System;
@@ -39,9 +56,9 @@ using Aspose.CAD;
 using Aspose.CAD.FileFormats.Cad.CadTables;
 ```
 
-## Krok 1: Załaduj rysunek CAD
+## Krok 1: Wczytaj rysunek CAD
 
- Rozpocznij od załadowania rysunku CAD do instancji`CadImage`. Upewnij się, że podałeś poprawną ścieżkę do katalogu dokumentów.
+Rozpocznij od wczytania rysunku CAD do instancji `CadImage`. Upewnij się, że podajesz prawidłową ścieżkę do katalogu dokumentu.
 
 ```csharp
 string MyDir = "Your Document Directory";
@@ -49,24 +66,28 @@ string sourceFilePath = MyDir + "conic_pyramid.dxf";
 
 using (CadImage cadImage = (CadImage)Aspose.CAD.Image.Load(sourceFilePath))
 {
-    //Twój kod dalszych działań znajduje się tutaj
+    // Your code for further actions goes here
 }
 ```
 
-## Krok 2: Iteruj po stylach
+## Krok 2: Iteracja po stylach
 
- Następnie iteruj po stylach na rysunku CAD, używając a`foreach` pętla. Umożliwia to dostęp do poszczególnych stylów czcionek i manipulowanie nimi.
+Następnie iteruj po stylach w rysunku CAD używając pętli `foreach`. Pozwala to na dostęp i manipulację poszczególnymi stylami czcionek.
 
 ```csharp
 foreach (CadStyleTableObject style in cadImage.Styles)
 {
-    // Twój kod do manipulacji stylem znajduje się tutaj
+    // Your code for style manipulation goes here
 }
 ```
 
-## Krok 3: Zastąp czcionki globalnie
+## Jak ustawić nazwę podstawowej czcionki dla zamiany czcionek
 
- Aby globalnie zastąpić czcionki we wszystkich stylach, ustaw opcję`PrimaryFontName` dla każdego stylu żądaną nazwę czcionki, na przykład „Arial”.
+Właściwość `PrimaryFontName` w każdym `CadStyleTableObject` kontroluje, która czcionka jest używana podczas renderowania rysunku. Ustawiając tę właściwość, skutecznie zastępujesz oryginalną czcionkę.
+
+### Krok 3: Globalna zamiana czcionek
+
+Aby zamienić czcionki we **wszystkich** stylach, ustaw właściwość `PrimaryFontName` dla każdego stylu na żądaną nazwę czcionki, na przykład `"Arial"`.
 
 ```csharp
 foreach (CadStyleTableObject style in cadImage.Styles)
@@ -75,9 +96,9 @@ foreach (CadStyleTableObject style in cadImage.Styles)
 }
 ```
 
-## Krok 4: Zastąp czcionkę nazwą stylu
+### Krok 4: Zamiana czcionki według nazwy stylu
 
-Jeśli chcesz zastąpić czcionkę określonym stylem, możesz to zrobić, sprawdzając nazwę stylu w pętli.
+Jeśli potrzebujesz zamienić czcionkę tylko dla konkretnego stylu (np. styl o nazwie `"Roman"`), dodaj warunkowe sprawdzenie wewnątrz pętli.
 
 ```csharp
 foreach (CadStyleTableObject style in cadImage.Styles)
@@ -89,32 +110,36 @@ foreach (CadStyleTableObject style in cadImage.Styles)
 }
 ```
 
-## Wniosek
+## Typowe problemy i rozwiązywanie
 
-Gratulacje! Pomyślnie nauczyłeś się, jak zastępować czcionki w Aspose.CAD dla .NET. Umiejętność ta jest cenna przy dostosowywaniu wyglądu rysunków CAD do własnych preferencji.
+| Problem | Przyczyna | Rozwiązanie |
+|---------|-----------|-------------|
+| Czcionka nie zmienia się po uruchomieniu kodu | Rysunek jest buforowany lub otwarty w trybie tylko do odczytu | Upewnij się, że zapisujesz obraz po modyfikacji (`cadImage.Save(...)`) lub ponownie wczytaj plik w celu weryfikacji. |
+| Żądana czcionka nie została znaleziona w systemie | Czcionka nie jest zainstalowana na maszynie uruchamiającej kod | Zainstaluj wymaganą czcionkę TrueType/OpenType lub osadź ją w zasobach aplikacji. |
+| Tekst jest zniekształcony | Nieprawidłowe kodowanie lub brak wsparcia Unicode | Użyj czcionki obsługującej wymagany zestaw znaków (np. Arial Unicode MS). |
 
-## Często zadawane pytania
+## Najczęściej zadawane pytania
 
-### P1: Czy mogę cofnąć zmiany czcionek w Aspose.CAD dla .NET?
+**Q: Czy mogę cofnąć zmiany czcionek w Aspose.CAD dla .NET?**  
+A: Tak, możesz cofnąć zmiany, ponownie wczytując oryginalny rysunek CAD lub zachowując kopię zapasową przed wprowadzeniem modyfikacji.
 
-O1: Tak, możesz cofnąć zmiany czcionek, ponownie ładując oryginalny rysunek CAD lub zachowując kopię zapasową.
+**Q: Czy istnieją inne właściwości czcionek, które mogę modyfikować?**  
+A: Oczywiście. Oprócz `PrimaryFontName` możesz pracować z `SecondaryFontName`, `FontFamily` oraz innymi atrybutami związanymi ze stylem w celu zaawansowanej personalizacji.
 
-### P2: Czy mogę modyfikować inne właściwości czcionek?
+**Q: Czy Aspose.CAD jest kompatybilny z różnymi formatami CAD?**  
+A: Tak, Aspose.CAD obsługuje szeroką gamę formatów, takich jak DXF, DWG, DGN, DWF i inne, zapewniając elastyczność w różnych projektach.
 
-A2: Oczywiście, poza tym`PrimaryFontName`, Aspose.CAD dla .NET zapewnia dostęp do różnych właściwości związanych z czcionkami w celu zaawansowanej personalizacji.
+**Q: Czy mogę automatyzować zamianę czcionek w przetwarzaniu wsadowym?**  
+A: Oczywiście. Umieść logikę wczytywania i zamiany w pętli iterującej po folderze plików CAD lub zintegrować ją z pipeline CI/CD.
 
-### P3: Czy Aspose.CAD jest kompatybilny z różnymi formatami CAD?
+**Q: Gdzie mogę znaleźć dodatkowe wsparcie dla Aspose.CAD dla .NET?**  
+A: Aby uzyskać dodatkowe wsparcie i dyskusje społeczności, odwiedź [forum Aspose.CAD](https://forum.aspose.com/c/cad/19).
 
-O3: Tak, Aspose.CAD obsługuje szeroką gamę formatów CAD, zapewniając elastyczność w Twoich projektach rozwojowych.
+---
 
-### P4: Czy mogę zautomatyzować podstawianie czcionek w przetwarzaniu wsadowym?
-
-O4: Oczywiście można wdrożyć przetwarzanie wsadowe, aby zautomatyzować podstawianie czcionek w wielu rysunkach CAD.
-
-### P5: Gdzie mogę znaleźć dodatkowe wsparcie dla Aspose.CAD dla .NET?
-
- Odpowiedź 5: Aby uzyskać dodatkowe wsparcie i dyskusje w społeczności, odwiedź stronę[Forum Aspose.CAD](https://forum.aspose.com/c/cad/19).
-
+**Ostatnia aktualizacja:** 2026-03-29  
+**Testowano z:** Aspose.CAD for .NET (latest release)  
+**Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

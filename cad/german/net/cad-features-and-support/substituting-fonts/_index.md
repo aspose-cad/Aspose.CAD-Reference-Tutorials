@@ -1,33 +1,52 @@
 ---
-title: Ersetzen von Schriftarten in Aspose.CAD durch .NET
-linktitle: Ersetzen von Schriftarten
-second_title: Aspose.CAD .NET – CAD- und BIM-Dateiformat
-description: Erfahren Sie, wie Sie Schriftarten in Aspose.CAD mühelos durch .NET ersetzen. Befolgen Sie unsere Schritt-für-Schritt-Anleitung für eine effiziente Schriftartanpassung in Ihren CAD-Zeichnungen.
-weight: 17
+date: 2026-03-29
+description: Erfahren Sie, wie Sie Schriftarten in Aspose.CAD für .NET schnell ersetzen.
+  Diese Schritt‑für‑Schritt‑Anleitung zeigt Ihnen, wie Sie den primären Schriftartnamen
+  festlegen und CAD‑Zeichnungen effizient anpassen.
+linktitle: Substituting Fonts
+second_title: Aspose.CAD .NET - CAD and BIM File Format
+title: Wie man Schriftarten in Aspose.CAD für .NET ersetzt
 url: /de/net/cad-features-and-support/substituting-fonts/
+weight: 17
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Ersetzen von Schriftarten in Aspose.CAD durch .NET
+# Wie man Schriftarten in Aspose.CAD für .NET ersetzt
 
 ## Einführung
 
-Im Bereich der CAD-Entwicklung mit .NET ist die Fähigkeit, Schriftarten zu manipulieren, eine entscheidende Fähigkeit. Aspose.CAD für .NET bietet hierfür einen robusten Satz an Tools, mit denen Entwickler Schriftarten in ihren CAD-Zeichnungen nahtlos ersetzen können. In diesem Tutorial erkunden wir den Prozess Schritt für Schritt und zeigen, wie man die Schriftartersetzung effizient umsetzen kann.
+Im Bereich der CAD-Entwicklung mit .NET ist das Erlernen **wie man Schriftarten ersetzt** eine entscheidende Fähigkeit, die die visuelle Qualität Ihrer Zeichnungen dramatisch verbessern kann. Aspose.CAD für .NET bietet eine unkomplizierte API, mit der Sie **den primären Schriftnamen** für jeden Stil festlegen können, wodurch globale oder selektive Schriftartensubstitution zum Kinderspiel wird. In diesem Tutorial führen wir Sie durch den gesamten Prozess – vom Laden einer Zeichnung bis zum Austauschen von Schriftarten, entweder global oder nach einem bestimmten Stilnamen.
+
+## Schnelle Antworten
+- **Was ist die Hauptklasse für die CAD-Manipulation?** `Aspose.CAD.Image` (oder die abgeleitete `CadImage`).
+- **Welche Eigenschaft ändert die Schriftart?** `PrimaryFontName` auf `CadStyleTableObject`.
+- **Kann ich Schriftarten für alle Stile auf einmal ersetzen?** Ja, iterieren Sie über `cadImage.Styles` und setzen Sie die Eigenschaft.
+- **Benötige ich eine Lizenz für die Produktion?** Eine gültige Aspose.CAD-Lizenz ist für die Nutzung außerhalb der Testphase erforderlich.
+- **Unterstützte .NET-Versionen?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7.
+
+## Was ist Schriftartensubstitution in CAD?
+
+Schriftartensubstitution bedeutet, den ursprünglichen Schriftschnitt, der in einer CAD-Zeichnung verwendet wird, durch einen anderen zu ersetzen, der auf dem Zielsystem verfügbar ist. Dies ist besonders nützlich, wenn die Originalschrift fehlt, wenn Sie einen einheitlichen Unternehmensstil benötigen oder wenn Sie Zeichnungen für den Druck auf Geräten vorbereiten, die nur einen begrenzten Satz von Schriftarten unterstützen.
+
+## Warum Schriftarten mit Aspose.CAD ersetzen?
+
+- **Keine externen Abhängigkeiten** – die Bibliothek übernimmt das Schriftarten‑Mapping intern.
+- **Funktioniert mit vielen Formaten** – DXF, DWG, DGN und mehr.
+- **Programmgesteuerte Steuerung** – automatisieren Sie den Vorgang für Batch‑Konvertierungen oder CI‑Pipelines.
+- **Erhält die Geometrie der Zeichnung** – nur die visuelle Darstellung des Textes ändert sich.
 
 ## Voraussetzungen
 
-Bevor Sie mit dem Tutorial beginnen, stellen Sie sicher, dass Sie über Folgendes verfügen:
-
-- Grundkenntnisse der .NET-Programmierung.
--  Aspose.CAD für .NET installiert. Wenn nicht, können Sie es herunterladen[Hier](https://releases.aspose.com/cad/net/).
-- Eine CAD-Zeichnungsdatei zum praktischen Üben.
+- Grundkenntnisse in .NET-Programmierung.
+- Aspose.CAD für .NET installiert. Wenn Sie es noch nicht installiert haben, laden Sie es [hier](https://releases.aspose.com/cad/net/) herunter.
+- Eine CAD-Zeichnungsdatei (DXF, DWG usw.) zum Experimentieren.
 
 ## Namespaces importieren
 
-Bevor Sie beginnen, importieren Sie die erforderlichen Namespaces, um auf die Aspose.CAD-Funktionen in Ihrer .NET-Anwendung zuzugreifen.
+Bevor Sie beginnen, importieren Sie die erforderlichen Namespaces, um auf die Aspose.CAD‑Funktionalitäten in Ihrer .NET‑Anwendung zuzugreifen.
 
 ```csharp
 using System;
@@ -39,9 +58,9 @@ using Aspose.CAD;
 using Aspose.CAD.FileFormats.Cad.CadTables;
 ```
 
-## Schritt 1: CAD-Zeichnung laden
+## Schritt 1: CAD‑Zeichnung laden
 
- Beginnen Sie mit dem Laden der CAD-Zeichnung in eine Instanz von`CadImage`. Stellen Sie sicher, dass Sie den richtigen Pfad zu Ihrem Dokumentverzeichnis angeben.
+Beginnen Sie damit, die CAD‑Zeichnung in eine Instanz von `CadImage` zu laden. Stellen Sie sicher, dass Sie den korrekten Pfad zu Ihrem Dokumentenverzeichnis angeben.
 
 ```csharp
 string MyDir = "Your Document Directory";
@@ -49,24 +68,28 @@ string sourceFilePath = MyDir + "conic_pyramid.dxf";
 
 using (CadImage cadImage = (CadImage)Aspose.CAD.Image.Load(sourceFilePath))
 {
-    //Hier finden Sie Ihren Code für weitere Aktionen
+    // Your code for further actions goes here
 }
 ```
 
-## Schritt 2: Iterieren Sie über Stile
+## Schritt 2: Durch Stile iterieren
 
- Als nächstes iterieren Sie mit a über die Stile in der CAD-Zeichnung`foreach` Schleife. Dadurch können Sie auf einzelne Schriftstile zugreifen und diese bearbeiten.
+Als Nächstes iterieren Sie über die Stile in der CAD‑Zeichnung mit einer `foreach`‑Schleife. Dadurch können Sie einzelne Schriftstil‑Objekte zugreifen und manipulieren.
 
 ```csharp
 foreach (CadStyleTableObject style in cadImage.Styles)
 {
-    // Ihr Code zur Stilmanipulation befindet sich hier
+    // Your code for style manipulation goes here
 }
 ```
 
-## Schritt 3: Schriftarten global ersetzen
+## Wie man den primären Schriftnamen für die Schriftartensubstitution festlegt
 
- Um Schriftarten global für alle Stile zu ersetzen, legen Sie fest`PrimaryFontName` -Eigenschaft für jeden Stil auf den gewünschten Schriftartnamen, zum Beispiel „Arial“.
+Die Eigenschaft `PrimaryFontName` jedes `CadStyleTableObject` bestimmt, welche Schriftart beim Rendern der Zeichnung verwendet wird. Durch das Setzen dieser Eigenschaft ersetzen Sie effektiv die Originalschrift.
+
+### Schritt 3: Schriftarten global ersetzen
+
+Um Schriftarten für **alle** Stile zu ersetzen, setzen Sie die Eigenschaft `PrimaryFontName` für jeden Stil auf den gewünschten Schriftnamen, zum Beispiel `"Arial"`.
 
 ```csharp
 foreach (CadStyleTableObject style in cadImage.Styles)
@@ -75,9 +98,9 @@ foreach (CadStyleTableObject style in cadImage.Styles)
 }
 ```
 
-## Schritt 4: Ersetzen Sie die Schriftart durch den Stilnamen
+### Schritt 4: Schriftart nach Stilnamen ersetzen
 
-Wenn Sie die Schriftart für einen bestimmten Stil ersetzen möchten, können Sie dies tun, indem Sie den Stilnamen in der Schleife überprüfen.
+Wenn Sie die Schriftart nur für einen bestimmten Stil ersetzen müssen (z. B. den Stil mit dem Namen `"Roman"`), fügen Sie innerhalb der Schleife eine Bedingungsprüfung hinzu.
 
 ```csharp
 foreach (CadStyleTableObject style in cadImage.Styles)
@@ -89,32 +112,36 @@ foreach (CadStyleTableObject style in cadImage.Styles)
 }
 ```
 
-## Abschluss
+## Häufige Probleme & Fehlerbehebung
 
-Glückwunsch! Sie haben erfolgreich gelernt, wie Sie Schriftarten in Aspose.CAD für .NET ersetzen. Diese Fähigkeit ist nützlich, um das Erscheinungsbild von CAD-Zeichnungen nach Ihren Wünschen anzupassen.
+| Problem | Ursache | Lösung |
+|---------|---------|--------|
+| Schrift ändert sich nach Ausführen des Codes nicht | Die Zeichnung ist zwischengespeichert oder im Nur‑Lese‑Modus geöffnet | Stellen Sie sicher, dass Sie das Bild nach der Änderung speichern (`cadImage.Save(...)`) oder die Datei erneut laden, um dies zu überprüfen. |
+| Gewünschte Schriftart ist auf dem System nicht gefunden | Schriftart nicht auf dem Rechner installiert, auf dem der Code ausgeführt wird | Installieren Sie die erforderliche TrueType/OpenType‑Schriftart oder betten Sie sie in die Anwendungsressourcen ein. |
+| Text erscheint verzerrt | Falsche Kodierung oder fehlende Unicode‑Unterstützung | Verwenden Sie eine Schriftart, die den erforderlichen Zeichensatz unterstützt (z. B. Arial Unicode MS). |
 
-## FAQs
+## Häufig gestellte Fragen
 
-### F1: Kann ich Schriftartänderungen in Aspose.CAD für .NET rückgängig machen?
+**Q: Kann ich Schriftartänderungen in Aspose.CAD für .NET rückgängig machen?**  
+A: Ja, Sie können rückgängig machen, indem Sie die ursprüngliche CAD‑Zeichnung erneut laden oder vor den Änderungen eine Sicherungskopie behalten.
 
-A1: Ja, Sie können Schriftartänderungen rückgängig machen, indem Sie die ursprüngliche CAD-Zeichnung neu laden oder eine Sicherungskopie erstellen.
+**Q: Gibt es weitere Schriftarteigenschaften, die ich ändern kann?**  
+A: Absolut. Neben `PrimaryFontName` können Sie mit `SecondaryFontName`, `FontFamily` und anderen stilbezogenen Attributen für erweiterte Anpassungen arbeiten.
 
-### F2: Gibt es andere Schriftarteigenschaften, die ich ändern kann?
+**Q: Ist Aspose.CAD mit verschiedenen CAD‑Formaten kompatibel?**  
+A: Ja, Aspose.CAD unterstützt eine breite Palette von Formaten wie DXF, DWG, DGN, DWF und mehr, was Ihnen Flexibilität über Projekte hinweg bietet.
 
-A2: Auf jeden Fall`PrimaryFontName`Aspose.CAD für .NET bietet Zugriff auf verschiedene schriftartbezogene Eigenschaften für erweiterte Anpassungen.
+**Q: Kann ich die Schriftartensubstitution in der Stapelverarbeitung automatisieren?**  
+A: Sicherlich. Verpacken Sie die Lade‑ und Substitutionslogik in einer Schleife, die über einen Ordner mit CAD‑Dateien iteriert, oder integrieren Sie sie in eine CI/CD‑Pipeline.
 
-### F3: Ist Aspose.CAD mit verschiedenen CAD-Formaten kompatibel?
+**Q: Wo finde ich zusätzlichen Support für Aspose.CAD für .NET?**  
+A: Für zusätzlichen Support und Community‑Diskussionen besuchen Sie das [Aspose.CAD‑Forum](https://forum.aspose.com/c/cad/19).
 
-A3: Ja, Aspose.CAD unterstützt eine Vielzahl von CAD-Formaten und sorgt so für Flexibilität bei Ihren Entwicklungsprojekten.
+---
 
-### F4: Kann ich die Schriftartersetzung in der Stapelverarbeitung automatisieren?
-
-A4: Natürlich können Sie eine Stapelverarbeitung implementieren, um die Schriftartersetzung über mehrere CAD-Zeichnungen hinweg zu automatisieren.
-
-### F5: Wo finde ich zusätzliche Unterstützung für Aspose.CAD für .NET?
-
- A5: Weitere Unterstützung und Community-Diskussionen finden Sie unter[Aspose.CAD-Forum](https://forum.aspose.com/c/cad/19).
-
+**Zuletzt aktualisiert:** 2026-03-29  
+**Getestet mit:** Aspose.CAD für .NET (latest release)  
+**Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -1,35 +1,51 @@
 ---
-title: Mengatur Ukuran dan Mode Kanvas di Aspose.CAD untuk .NET
-linktitle: Mengatur Ukuran dan Mode Kanvas
-second_title: Aspose.CAD .NET - Format File CAD dan BIM
-description: Jelajahi panduan langkah demi langkah tentang pengaturan ukuran dan mode kanvas di Aspose.CAD untuk .NET. Optimalkan rendering CAD Anda dengan mudah menggunakan tutorial komprehensif ini.
-weight: 16
+date: 2026-03-29
+description: Pelajari cara membuat PDF dari CAD, mengatur ukuran kanvas, dan mengekspor
+  CAD ke PDF atau TIFF menggunakan Aspose.CAD untuk .NET dalam panduan langkah demi
+  langkah ini.
+linktitle: Setting Canvas Size and Mode
+second_title: Aspose.CAD .NET - CAD and BIM File Format
+title: 'Cara Membuat PDF dari CAD: Mengatur Ukuran Kanvas dan Mode di Aspose.CAD untuk
+  .NET'
 url: /id/net/cad-features-and-support/setting-canvas-size-and-mode/
+weight: 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Mengatur Ukuran dan Mode Kanvas di Aspose.CAD untuk .NET
+# Mengatur Ukuran Kanvas dan Mode di Aspose.CAD untuk .NET
 
-## Perkenalan
+## Pendahuluan
 
-Apakah Anda siap untuk membuka potensi penuh Aspose.CAD untuk .NET dan merevolusi pengalaman rendering CAD Anda? Dalam tutorial langkah demi langkah ini, kita akan mempelajari seluk-beluk pengaturan ukuran dan mode kanvas menggunakan pustaka Aspose.CAD yang canggih. Baik Anda seorang pengembang berpengalaman atau baru memulai, panduan ini akan memandu Anda melalui prosesnya, memastikan Anda memanfaatkan kemampuan Aspose.CAD secara efektif.
+Siap untuk **create PDF from CAD** file sambil mengontrol dimensi output? Dalam tutorial ini kami akan menjelaskan cara mengatur ukuran kanvas dan mode, memuat file CAD, serta mengekspornya ke PDF atau TIFF dengan Aspose.CAD untuk .NET. Baik Anda perlu **convert DXF to PDF**, menghasilkan gambar beresolusi tinggi, atau sekadar menyesuaikan area rasterisasi, langkah-langkah di bawah ini akan memberikan solusi yang solid dan siap produksi.
+
+## Jawaban Cepat
+- **Apa arti “create PDF from CAD”?** Mengonversi gambar CAD (mis., DXF, DWG) menjadi dokumen PDF yang mempertahankan detail vektor dan raster.  
+- **Opsi mana yang mengontrol ukuran output?** `CadRasterizationOptions.PageWidth` dan `PageHeight` (ukuran kanvas).  
+- **Bisakah saya mengekspor ke TIFF juga?** Ya – gunakan `TiffOptions` dengan pengaturan rasterisasi yang sama.  
+- **Apakah saya memerlukan lisensi untuk produksi?** Lisensi komersial diperlukan; versi percobaan gratis tersedia.  
+- **Versi .NET yang didukung?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7.
+
+## Apa itu “create PDF from CAD”?
+Membuat PDF dari CAD berarti merender gambar CAD ke dalam format berorientasi halaman (PDF) yang dapat dilihat, dicetak, atau dibagikan tanpa memerlukan perangkat lunak CAD. Aspose.CAD menangani proses berat, memungkinkan Anda menentukan ukuran kanvas, skala, dan format output.
+
+## Mengapa mengatur ukuran kanvas saat membuat PDF dari CAD?
+Mengatur ukuran kanvas memberi Anda kontrol yang tepat atas resolusi dan dimensi PDF atau TIFF yang dihasilkan. Ini sangat berguna ketika:
+- Menyiapkan gambar untuk pencetakan pada ukuran kertas tertentu.  
+- Membuat thumbnail atau gambar beresolusi tinggi untuk pratinjau web.  
+- Menjamin tata letak yang konsisten di seluruh dokumen.
 
 ## Prasyarat
 
-Sebelum kita mendalami tutorialnya, pastikan Anda memiliki prasyarat berikut:
-
--  Perpustakaan Aspose.CAD: Unduh dan instal perpustakaan Aspose.CAD dari[Situs web Aspose.CAD](https://releases.aspose.com/cad/net/).
-
-- Lingkungan Pengembangan: Pastikan Anda telah menyiapkan lingkungan pengembangan .NET di mesin Anda.
-
--  Contoh File CAD: Untuk tutorial ini, kami akan menggunakan contoh file DXF. Anda dapat menemukannya di[Dokumentasi Aspose.CAD](https://reference.aspose.com/cad/net/).
+- Aspose.CAD Library: Unduh dan instal pustaka Aspose.CAD dari [situs Aspose.CAD](https://releases.aspose.com/cad/net/).
+- Development Environment: Pastikan Anda memiliki lingkungan pengembangan .NET yang terpasang di mesin Anda.
+- Sample CAD File: Untuk tutorial ini, kami akan menggunakan file DXF contoh. Anda dapat menemukan satu di [dokumentasi Aspose.CAD](https://reference.aspose.com/cad/net/).
 
 ## Impor Namespace
 
-Untuk memulai, impor namespace yang diperlukan di awal aplikasi .NET Anda:
+Pertama, impor namespace yang diperlukan untuk pemrosesan CAD:
 
 ```csharp
 using System;
@@ -40,9 +56,11 @@ using System.Threading.Tasks;
 using Aspose.CAD;
 ```
 
-## Langkah 1: Muat File CAD
+## Cara Membuat PDF dari CAD dengan Ukuran Kanvas Kustom
 
-Mulailah dengan memuat file CAD menggunakan kode berikut:
+### Langkah 1: Muat File CAD
+
+Kita mulai dengan **memuat file CAD** (mis., DXF) ke dalam objek `Image`. Ini adalah titik di mana Anda **memuat file CAD** ke memori.
 
 ```csharp
 string MyDir = "Your Document Directory";
@@ -50,13 +68,13 @@ string sourceFilePath = MyDir + "conic_pyramid.dxf";
 
 using (Image image = Image.Load(sourceFilePath))
 {
-    //Kode Anda untuk langkah selanjutnya akan ditempatkan di sini
+    // Your code for further steps will go here
 }
 ```
 
-## Langkah 2: Buat Opsi CadRasterization
+### Langkah 2: Buat CadRasterizationOptions
 
- Buat sebuah contoh dari`CadRasterizationOptions` dan atur propertinya:
+Buat instance `CadRasterizationOptions` dan tentukan ukuran kanvas. Properti `PageWidth` dan `PageHeight` memungkinkan Anda **mengatur ukuran kanvas** ke dimensi tepat yang Anda butuhkan.
 
 ```csharp
 CadRasterizationOptions rasterizationOptions = new CadRasterizationOptions();
@@ -66,65 +84,73 @@ rasterizationOptions.AutomaticLayoutsScaling = true;
 rasterizationOptions.NoScaling = false;
 ```
 
-## Langkah 3: Buat Opsi Pdf
+### Langkah 3: Buat PdfOptions (Ekspor CAD ke PDF)
 
- Buat sebuah contoh dari`PdfOptions` dan atur`VectorRasterizationOptions` Properti:
+Hubungkan pengaturan rasterisasi ke objek `PdfOptions`. Konfigurasi ini memungkinkan Anda **mengekspor CAD ke PDF** dengan kanvas kustom yang telah Anda tentukan.
 
 ```csharp
 PdfOptions pdfOptions = new PdfOptions();
 pdfOptions.VectorRasterizationOptions = rasterizationOptions;
 ```
 
-## Langkah 4: Ekspor ke PDF
+### Langkah 4: Ekspor ke PDF (Konversi DXF ke PDF)
 
-Ekspor file CAD ke PDF menggunakan opsi yang dikonfigurasi:
+Sekarang simpan gambar sebagai PDF. Langkah ini **membuat PDF dari CAD** menggunakan opsi yang telah kami atur.
 
 ```csharp
 image.Save(MyDir + "result_out.pdf", pdfOptions);
 ```
 
-## Langkah 5: Buat TiffOptions
+### Langkah 5: Buat TiffOptions (Ekspor CAD ke TIFF)
 
- Buat sebuah contoh dari`TiffOptions` dan atur`VectorRasterizationOptions` Properti:
+Jika Anda juga memerlukan gambar raster, konfigurasikan `TiffOptions`. Opsi rasterisasi yang sama digunakan kembali, sehingga **ekspor CAD ke TIFF** menghormati ukuran kanvas.
 
 ```csharp
 TiffOptions tiffOptions = new TiffOptions(TiffExpectedFormat.Default);
 tiffOptions.VectorRasterizationOptions = rasterizationOptions;
 ```
 
-## Langkah 6: Ekspor ke TIFF
+### Langkah 6: Ekspor ke TIFF
 
-Ekspor file CAD ke TIFF menggunakan opsi yang dikonfigurasi:
+Terakhir, simpan gambar sebagai file TIFF.
 
 ```csharp
 image.Save(MyDir + "result_out.tiff", tiffOptions);
 ```
 
-## Kesimpulan
+## Masalah Umum dan Solusinya
 
-Selamat! Anda telah berhasil mengatur ukuran dan mode kanvas di Aspose.CAD untuk .NET. Fitur canggih ini membuka banyak kemungkinan untuk rendering CAD. Bereksperimenlah dengan berbagai opsi dan temukan potensi penuh Aspose.CAD dalam aplikasi .NET Anda.
+- **Canvas appears cropped** – Verifikasi bahwa `AutomaticLayoutsScaling` diatur ke `true` dan `NoScaling` ke `false` sehingga gambar berskala menyesuaikan kanvas.  
+- **Low‑resolution PDF** – Tingkatkan `PageWidth`/`PageHeight` atau atur `Resolution` pada `CadRasterizationOptions`.  
+- **File not found error** – Pastikan `MyDir` mengarah ke direktori yang valid dan nama file DXF cocok persis.
 
-## FAQ
+## Pertanyaan yang Sering Diajukan
 
 ### Q1: Bisakah saya menggunakan Aspose.CAD dengan perpustakaan .NET lainnya?
+A1: Ya, Aspose.CAD terintegrasi secara mulus dengan perpustakaan .NET lainnya, memberikan kemampuan yang ditingkatkan untuk manipulasi CAD.
 
-A1: Ya, Aspose.CAD terintegrasi secara mulus dengan perpustakaan .NET lainnya, memberikan peningkatan kemampuan untuk manipulasi CAD.
+### Q2: Apakah tersedia percobaan gratis untuk Aspose.CAD?
+A2: Ya, Anda dapat menjelajahi fitur Aspose.CAD dengan percobaan gratis. Kunjungi [di sini](https://releases.aspose.com/) untuk memulai.
 
-### Q2: Apakah uji coba gratis tersedia untuk Aspose.CAD?
+### Q3: Bagaimana saya dapat mendapatkan dukungan untuk Aspose.CAD?
+A3: Untuk dukungan dan diskusi, kunjungi [forum Aspose.CAD](https://forum.aspose.com/c/cad/19).
 
- A2: Ya, Anda dapat menjelajahi fitur Aspose.CAD dengan uji coba gratis. Mengunjungi[Di Sini](https://releases.aspose.com/) untuk memulai.
-
-### Q3: Bagaimana saya bisa mendapatkan dukungan untuk Aspose.CAD?
-
- A3: Untuk dukungan dan diskusi, kunjungi[Forum Aspose.CAD](https://forum.aspose.com/c/cad/19).
-
-### Q4: Di mana saya dapat menemukan dokumentasi komprehensif untuk Aspose.CAD?
-
- A4: Lihat[Dokumentasi Aspose.CAD](https://reference.aspose.com/cad/net/) untuk informasi rinci dan contoh.
+### Q4: Di mana saya dapat menemukan dokumentasi lengkap untuk Aspose.CAD?
+A4: Lihat [dokumentasi Aspose.CAD](https://reference.aspose.com/cad/net/) untuk informasi detail dan contoh.
 
 ### Q5: Bagaimana cara membeli Aspose.CAD untuk .NET?
+A5: Untuk membeli Aspose.CAD, kunjungi [halaman pembelian](https://purchase.aspose.com/buy).
 
- A5: Untuk membeli Aspose.CAD, kunjungi[halaman pembelian](https://purchase.aspose.com/buy).
+**Q: Bisakah saya mengekspor gambar CAD multi‑halaman ke satu PDF?**  
+A: Ya. Atur `PageCount` dalam `CadRasterizationOptions` dan pustaka akan menggabungkan halaman menjadi satu PDF.
+
+**Q: Apakah ukuran kanvas memengaruhi kualitas data vektor?**  
+A: Data vektor tetap independen dari resolusi; ukuran kanvas hanya memengaruhi elemen rasterisasi dan resolusi gambar.
+
+**Last Updated:** 2026-03-29  
+**Tested With:** Aspose.CAD 24.11 for .NET  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

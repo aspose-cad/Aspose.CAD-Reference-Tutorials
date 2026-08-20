@@ -1,37 +1,60 @@
 ---
-title: Podpora 3D pro DGN V7 v Aspose.CAD pro .NET
-linktitle: Podpora 3D pro DGN V7
-second_title: Aspose.CAD .NET – formát souborů CAD a BIM
-description: Odemkněte sílu 3D podpory pro DGN V7 v Aspose.CAD pro .NET. Postupujte podle našeho podrobného návodu.
-weight: 20
+date: 2026-03-29
+description: Naučte se, jak nastavit možnosti rasterizace CAD a exportovat DGN do
+  PDF s podporou 3D pomocí Aspose.CAD pro .NET.
+linktitle: Support of 3D for DGN V7
+second_title: Aspose.CAD .NET - CAD and BIM File Format
+title: Konfigurace možností rasterizace CAD pro DGN V7 3D
 url: /cs/net/cad-features-and-support/support-of-3d-for-dgn-v7/
+weight: 20
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Podpora 3D pro DGN V7 v Aspose.CAD pro .NET
+# Nastavení možností rasterizace CAD pro DGN V7 3D
 
 ## Úvod
 
-Vítejte v našem komplexním tutoriálu o využití podpory 3D pro DGN V7 v Aspose.CAD pro .NET! Aspose.CAD je výkonná knihovna, která umožňuje vývojářům bezproblémově pracovat se soubory CAD v jejich aplikacích .NET. V tomto tutoriálu prozkoumáme kroky k využití 3D podpory pro DGN V7 a poskytneme vám znalosti pro vylepšení vašich projektů souvisejících s CAD.
+V tomto komplexním tutoriálu se naučíte **jak nastavit možnosti rasterizace CAD**, abyste exportovali 3‑D soubor DGN V7 do PDF pomocí Aspose.CAD pro .NET. Ať už vytváříte CAD prohlížeč, nástroj pro reportování nebo automatizovanou konverzní pipeline, zvládnutí těchto nastavení vám poskytne přesnou kontrolu nad velikostí stránky, měřítkem rozvržení, barvami pozadí a konkrétními pohledy, které chcete vykreslit. Projdeme proces krok za krokem.
 
-## Předpoklady
+## Rychlé odpovědi
+- **Co znamená „nastavit možnosti rasterizace CAD“?**  
+  Odkazuje na nastavení vlastností, jako jsou rozměry stránky, měřítko, barva pozadí a výběr rozvržení před konverzí CAD souboru do rastrového formátu (např. PDF).
+- **Jak exportovat DGN do PDF s podporou 3‑D?**  
+  Načtěte DGN pomocí `DgnImage`, definujte `PdfOptions` + `CadRasterizationOptions` a poté zavolejte `Save`.
+- **Potřebuji licenci pro produkční použití?**  
+  Ano – pro nasazení je vyžadována komerční licence; je k dispozici bezplatná zkušební verze.
+- **Které verze .NET jsou podporovány?**  
+  .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7.
+- **Mohu vybrat konkrétní pohledy k exportu?**  
+  Samozřejmě – nastavte pole `Layouts` v možnostech rasterizace.
 
-Než se pustíte do výukového programu, ujistěte se, že máte splněny následující předpoklady:
+## Co znamená „nastavit možnosti rasterizace CAD“?
 
--  Aspose.CAD for .NET: Ujistěte se, že máte nainstalovaný Aspose.CAD for .NET. Pokud ne, můžete si jej stáhnout z[tady](https://releases.aspose.com/cad/net/).
+Nastavení možností rasterizace CAD znamená přizpůsobení toho, jak je CAD výkres rasterizován (převáděn z vektoru na bitmapu nebo PDF). Úpravou těchto nastavení řídíte vizuální výstup, výkon a velikost souboru výsledného dokumentu.
 
-- Vývojové prostředí: Nastavte vhodné vývojové prostředí, jako je Visual Studio, pro vývoj aplikací .NET.
+## Proč použít Aspose.CAD pro export 3‑D DGN V7?
 
-- Vzorový soubor DGN: Připravte si vzorový soubor DGN k testování. Můžete použít poskytnutý vzorový soubor "Nikon_D90_Camera.dgn."
+- **Plná integrace s .NET** – není vyžadován COM ani nativní DLL.  
+- **Podporuje 3‑D geometrii** – zachovává informace o hloubce při vykreslování do PDF.  
+- **Detailní kontrola** – vyberte přesná rozvržení, měřítko a barvy pozadí.  
+- **Cross‑platform** – funguje na Windows, Linuxu a macOS s .NET Core.
 
-Nyní se vrhněme na kroky k dosažení 3D podpory pro DGN V7 pomocí Aspose.CAD pro .NET!
+## Požadavky
+
+Před začátkem se ujistěte, že máte:
+
+- **Aspose.CAD pro .NET** – stáhněte jej z [zde](https://releases.aspose.com/cad/net/).  
+- **Visual Studio** nebo jakékoli kompatibilní .NET IDE.  
+- **Ukázkový soubor DGN** – pro tento návod použijeme `Nikon_D90_Camera.dgn` (součástí Aspose vzorového balíčku).  
+
+Nyní, když je vše připraveno, ponořme se do kódu.
 
 ## Importovat jmenné prostory
 
-Ve své aplikaci .NET začněte importováním potřebných jmenných prostorů:
+Ve vašem .NET projektu importujte požadované jmenné prostory:
 
 ```csharp
 using System;
@@ -44,9 +67,9 @@ using Aspose.CAD.FileFormats.Dgn;
 using Aspose.CAD.ImageOptions;
 ```
 
-## Krok 1: Nastavte adresář dokumentů
+## Krok 1: Nastavte adresář dokumentu
 
- Ujistěte se, že máte v projektu nastaven adresář dokumentů. Nahradit`"Your Document Directory"` se skutečnou cestou k vašemu adresáři dokumentů.
+Vytvořte proměnnou, která ukazuje na složku, kde budou umístěny váš zdrojový DGN a výstupní soubory.
 
 ```csharp
 string MyDir = "Your Document Directory";
@@ -54,7 +77,7 @@ string MyDir = "Your Document Directory";
 
 ## Krok 2: Načtěte soubor DGN
 
-Načtěte existující soubor DGN jako CadImage pomocí následujícího kódu:
+Načtěte soubor DGN jako `DgnImage`. Tento objekt vám poskytuje přístup k CAD datům a pipeline rasterizace.
 
 ```csharp
 string sourceFilePath = MyDir + "Nikon_D90_Camera.dgn";
@@ -62,13 +85,13 @@ string outFile = MyDir + "Nikon_D90_Camera.dgn";
 
 using (DgnImage dgnImage = (DgnImage)Image.Load(sourceFilePath))
 {
-    // Zde je váš kód pro další zpracování
+    // Your code for further processing goes here
 }
 ```
 
-## Krok 3: Nakonfigurujte možnosti exportu PDF
+## Krok 3: Nastavte možnosti exportu PDF (Nastavení možností rasterizace CAD)
 
-Nastavte volby pro export do PDF, určete volby vektorového rastrování, jako jsou rozměry stránky, automatická změna měřítka rozvržení, barva pozadí a rozvržení k exportu.
+Zde **nastavujeme možnosti rasterizace CAD**, které určují, jak bude 3‑D model vykreslen do PDF. Můžete upravit velikost stránky, povolit automatické měřítko rozvržení, nastavit barvu pozadí a vybrat přesná rozvržení (pohledy), které chcete exportovat.
 
 ```csharp
 var options = new PdfOptions
@@ -79,44 +102,51 @@ var options = new PdfOptions
         PageHeight = 1500,
         AutomaticLayoutsScaling = true,
         BackgroundColor = Color.Black,
-        Layouts = new string[] { "1", "2", "3", "9" } // Exportujte pouze zadaná zobrazení
+        Layouts = new string[] { "1", "2", "3", "9" } // Only export specified views
     }
 };
 ```
 
 ## Krok 4: Uložte rastrový obrázek
 
-Uložte soubor DGN jako rastrový obrázek s nakonfigurovanými možnostmi.
+Nakonec exportujte DGN do PDF souboru pomocí právě nastavených možností.
 
 ```csharp
 dgnImage.Save(outFile, options);
 ```
 
-## Závěr
+## Časté problémy a řešení
 
-Gratulujeme! Úspěšně jste použili Aspose.CAD pro .NET k exportu souboru DGN s podporou 3D do rastrového obrázku. Tento výukový program vás vybavil základními kroky k integraci této funkce do vašich CAD projektů.
+| Problém | Řešení |
+|-------|----------|
+| **Prázdný PDF výstup** | Ověřte, že pole `Layouts` obsahuje správné identifikátory pohledů přítomné v souboru DGN. |
+| **Nesprávné barvy** | Ujistěte se, že `BackgroundColor` je nastaven na požadovanou hodnotu; použijte `Color.White` pro světlé pozadí. |
+| **Úzké hrdlo výkonu u velkých souborů** | Povolte `AutomaticLayoutsScaling` a zvažte snížení `PageWidth/PageHeight` pro menší rozlišení rastru. |
+| **Licenční výjimka** | Nainstalujte platnou licenci Aspose.CAD před načtením obrázku, aby se zabránilo vodoznakům z trial verze. |
 
-## FAQ
+## Často kladené otázky
 
-### Q1: Mohu použít Aspose.CAD pro .NET s jinými formáty souborů CAD?
+**Q: Mohu použít Aspose.CAD pro .NET s jinými formáty CAD souborů?**  
+A: Ano, Aspose.CAD podporuje DWG, DXF, DWF, DGN a mnoho dalších formátů.
 
-Odpověď 1: Ano, Aspose.CAD podporuje různé formáty souborů CAD, včetně DWG a DXF.
+**Q: Jak mohu ošetřit výjimky při práci s Aspose.CAD?**  
+A: Zabalte svůj kód do bloku `try‑catch` a prozkoumejte `Aspose.CAD.CADException` pro podrobné informace o chybě.
 
-### Q2: Jak mohu zpracovat výjimky při práci s Aspose.CAD?
+**Q: Je Aspose.CAD vhodný pro komerční projekty?**  
+A: Rozhodně. Můžete zakoupit licenci [zde](https://purchase.aspose.com/buy).
 
-Odpověď 2: Zabalte svůj kód do bloku try-catch, jak je ukázáno v poskytnutém příkladu, abyste mohli elegantně zpracovat výjimky.
+**Q: Můžu vyzkoušet Aspose.CAD pro .NET před zakoupením?**  
+A: Ano, je k dispozici bezplatná zkušební verze [zde](https://releases.aspose.com/).
 
-### Q3: Je Aspose.CAD vhodný pro komerční projekty?
+**Q: Kde mohu najít komunitní podporu pro Aspose.CAD?**  
+A: Připojte se k diskusnímu fóru [zde](https://forum.aspose.com/c/cad/19).
 
- A3: Rozhodně! Můžete si zakoupit Aspose.CAD pro .NET[tady](https://purchase.aspose.com/buy).
+---
 
-### Q4: Mohu vyzkoušet Aspose.CAD pro .NET před nákupem?
+**Last Updated:** 2026-03-29  
+**Tested With:** Aspose.CAD 24.11 for .NET  
+**Author:** Aspose  
 
-A4: Určitě! Prozkoumejte bezplatnou zkušební verzi[tady](https://releases.aspose.com/).
-
-### Q5: Kde najdu podporu komunity pro Aspose.CAD pro .NET?
-
- A5: Navštivte fórum komunity[tady](https://forum.aspose.com/c/cad/19).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
