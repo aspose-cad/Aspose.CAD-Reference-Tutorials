@@ -1,11 +1,17 @@
 ---
-date: 2025-12-28
-description: Dowiedz się, jak ładować pliki DWG w projektach Java i ustawiać nazwę
-  podstawowej czcionki przy użyciu Aspose.CAD dla Javy. Przewodnik krok po kroku do
-  perfekcyjnych wizualizacji CAD.
-linktitle: Substitute Font in DWG
+date: 2026-05-04
+description: Dowiedz się, jak konwertować pliki dxf na dwg i ustawiać podstawową czcionkę
+  w Javie przy użyciu Aspose.CAD. Przewodnik krok po kroku do perfekcyjnych wizualizacji
+  CAD.
+keywords:
+- convert dxf to dwg
+- set primary font
+- change dwg text style
+- how to substitute font
+- aspose cad licensing
+linktitle: Zastąp czcionkę w DWG
 second_title: Aspose.CAD Java API
-title: Jak wczytać plik DWG w Javie i zamienić czcionkę przy użyciu Aspose.CAD
+title: Konwertuj dxf na dwg i zmień czcionkę w DWG przy użyciu Aspose.CAD Java
 url: /pl/java/cad-text-and-annotation/substitute-font-in-dwg/
 weight: 11
 ---
@@ -14,34 +20,42 @@ weight: 11
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Jak wczytać plik DWG w Javie i zamienić czcionkę przy użyciu Aspose.CAD
+# Jak załadować plik DWG w Javie i zamienić czcionkę przy użyciu Aspose.CAD
 
 ## Wprowadzenie
 
-Jeśli potrzebujesz **wczytać plik DWG w aplikacjach Java** i nadać swoim rysunkom profesjonalny wygląd, zamiana czcionki jest szybkim rozwiązaniem. Dzięki Aspose.CAD dla Javy możesz zastąpić domyślny styl tekstu dowolną czcionką zainstalowaną w systemie, zapewniając, że każda adnotacja będzie wyświetlana dokładnie tak, jak tego oczekujesz. W tym samouczku przeprowadzimy Cię przez cały proces – od wczytania pliku DWG w Javie po użycie metody `setPrimaryFontName` w celu zmiany czcionki.
+Jeśli potrzebujesz **convert dxf to dwg** w aplikacjach Java i chcesz nadać swoim rysunkom profesjonalny wygląd, zamiana czcionki to szybkie rozwiązanie. Dzięki Aspose.CAD dla Javy możesz zastąpić domyślny styl tekstu dowolną czcionką zainstalowaną w systemie, zapewniając, że każda adnotacja będzie wyświetlana dokładnie tak, jak tego oczekujesz. W tym samouczku przeprowadzimy Cię przez cały proces — od załadowania pliku DWG w Javie po użycie metody `setPrimaryFontName` do zmiany czcionki.
 
 ## Szybkie odpowiedzi
-- **Jakiej biblioteki potrzebuję?** Aspose.CAD dla Javy.
-- **Czy mogę wczytać plik DWG w Javie?** Tak, wystarczy wywołać `Image.load()` z ścieżką do pliku DWG.
-- **Która metoda zmienia czcionkę?** `setPrimaryFontName`.
-- **Czy potrzebna jest licencja do produkcji?** Tak, wymagana jest licencja komercyjna.
-- **Czy możliwe jest przetwarzanie wsadowe?** Oczywiście – można pętlić po wielu plikach przy użyciu tego samego kodu.
+- **Jakiej biblioteki potrzebuję?** Aspose.CAD for Java.  
+- **Czy mogę załadować plik DWG w Javie?** Tak, po prostu wywołaj `Image.load()` na ścieżce do pliku DWG.  
+- **Która metoda zmienia czcionkę?** `setPrimaryFontName`.  
+- **Czy potrzebuję licencji do produkcji?** Tak, wymagana jest licencja komercyjna.  
+- **Czy przetwarzanie wsadowe jest możliwe?** Absolutnie – możesz pętlić przez wiele plików przy użyciu tego samego kodu.
 
-## Co to jest „load dwg file java”?
+## Co to jest **convert dxf to dwg**?
 
-Wczytanie pliku DWG w środowisku Java oznacza odczytanie binarnych danych CAD do obiektu `Image`, którym Aspose.CAD może zarządzać. Po załadowaniu pliku masz pełny programowy dostęp do warstw, stylów i obiektów tekstowych.
+„Convert dxf to dwg” odnosi się do przekształcania pliku DXF (Drawing Exchange Format) do natywnego formatu DWG używanego przez wiele aplikacji CAD. Konwersja pozwala wziąć powszechnie obsługiwany rysunek DXF, wprowadzić go do przepływu pracy DWG, a następnie zastosować zaawansowane formatowanie — takie jak zamiana czcionki — przy użyciu Aspose.CAD.
 
 ## Dlaczego zamieniać czcionki w pliku DWG?
 
-- **Spójność:** Gwarantuje, że wszyscy współpracownicy zobaczą tę samą czcionkę, niezależnie od ich lokalnych ustawień czcionek.  
-- **Czytelność:** Niektóre domyślne czcionki CAD są trudne do odczytania na ekranie; zamiana na czystą czcionkę, taką jak Arial, poprawia przejrzystość.  
-- **Branding:** Dostosowuje rysunki techniczne do wytycznych korporacyjnych.
+- **Consistency:** Gwarantuje, że wszyscy współpracownicy widzą tę samą czcionkę, niezależnie od ich lokalnych ustawień czcionek.  
+- **Readability:** Niektóre domyślne czcionki CAD są trudne do odczytania na ekranach; zamiana na czystą czcionkę, taką jak Arial, poprawia przejrzystość.  
+- **Branding:** Dopasowuje rysunki techniczne do korporacyjnych wytycznych stylu.  
+
+## Typowe przypadki użycia
+
+| Scenariusz | Dlaczego to ważne |
+|------------|-------------------|
+| **Masowa konwersja starszych rysunków DXF** | Możesz je przekonwertować do DWG i wymusić korporacyjną czcionkę w jednym przebiegu. |
+| **Przygotowywanie rysunków do prezentacji klienta** | Spójne, czytelne czcionki sprawiają, że dokumenty wyglądają profesjonalnie. |
+| **Zautomatyzowane potoki CAD** | Wbudowanie zamiany czcionki eliminuje ręczne kroki post‑procesingu. |
 
 ## Wymagania wstępne
 
-- **Java Development Kit (JDK)** – dowolna aktualna wersja (zalecane 8+).  
-- **Aspose.CAD dla Javy** – pobierz ze [strony internetowej](https://releases.aspose.com/cad/java/).  
-- **Przykładowy plik DWG** – rysunek, który chcesz zmodyfikować (do testów możesz użyć dowolnego pliku DWG lub DXF).
+- **Java Development Kit (JDK)** – dowolna aktualna wersja (zalecana 8+).  
+- **Aspose.CAD for Java** – pobierz ze [strony internetowej](https://releases.aspose.com/cad/java/).  
+- **Sample DWG/DXF file** – rysunek, który chcesz zmodyfikować (możesz użyć dowolnego pliku DWG lub DXF do testów).
 
 ## Importowanie przestrzeni nazw
 
@@ -54,11 +68,11 @@ import com.aspose.cad.fileformats.cad.CadImage;
 import com.aspose.cad.fileformats.cad.cadtables.CadStyleTableObject;
 ```
 
-## Przewodnik krok po kroku – zamiana czcionki
+## Przewodnik krok po kroku, jak zamienić czcionkę
 
-### Krok 1: Wczytaj swój plik DWG (load dwg file java)
+### Krok 1: Załaduj swój plik DWG (load dwg file java)
 
-Najpierw wskaż API lokalizację pliku DWG (lub DXF) i wczytaj go do obiektu `CadImage`.
+Najpierw wskaż API na lokalizację swojego pliku DWG (lub DXF) i załaduj go do obiektu `CadImage`.
 
 ```java
 // The path to the resource directory.
@@ -68,11 +82,11 @@ String srcFile = dataDir + "conic_pyramid.dxf";
 CadImage cadImage = (CadImage) Image.load(srcFile);
 ```
 
-> **Wskazówka:** Jeśli pracujesz bezpośrednio z plikami DWG, zamień rozszerzenie `.dxf` na `.dwg` w zmiennej `srcFile`.
+> **Pro tip:** Jeśli pracujesz bezpośrednio z plikami DWG, zamień rozszerzenie `.dxf` na `.dwg` w zmiennej `srcFile`.
 
-### Krok 2: Przejdź po tabeli stylów i ustaw nazwę podstawowej czcionki
+### Krok 2: Przejdź przez tabelę stylów i ustaw nazwę głównej czcionki
 
-Każdy rysunek CAD zawiera kolekcję obiektów stylu. Przejdź przez nie i użyj metody `setPrimaryFontName` (wywołania API, które **ustawia nazwę podstawowej czcionki**) aby zamienić czcionkę.
+Każdy rysunek CAD zawiera kolekcję obiektów stylu. Przejdź przez nie w pętli i użyj metody `setPrimaryFontName` (wywołanie API, które **ustawia nazwę głównej czcionki**) aby zamienić czcionkę.
 
 ```java
 for(Object style : cadImage.getStyles())
@@ -82,7 +96,7 @@ for(Object style : cadImage.getStyles())
 }
 ```
 
-Możesz zmienić `"Arial"` na dowolną czcionkę zainstalowaną na maszynie uruchamiającej kod.
+Możesz zmienić `"Arial"` na dowolną czcionkę zainstalowaną na maszynie, na której uruchamiany jest kod.
 
 ### Krok 3: Zapisz zmodyfikowany rysunek
 
@@ -92,37 +106,37 @@ Po zaktualizowaniu czcionki zapisz zmiany do nowego pliku DWG (lub nadpisz orygi
 cadImage.save(dataDir + "output.dwg", new DwgOptions());
 ```
 
-Zapisany plik używa teraz wskazanej czcionki, a wszystkie adnotacje tekstowe będą renderowane z tym krojem.
+Zapisany plik teraz używa określonej czcionki, a wszystkie adnotacje tekstowe będą renderowane tą czcionką.
 
-## Typowe problemy i rozwiązania
+## Częste problemy i rozwiązania
 
 | Problem | Rozwiązanie |
-|-------|----------|
-| **Czcionka nie została zastosowana** | Sprawdź, czy czcionka jest zainstalowana w systemie operacyjnym i czy jej nazwa jest wpisana dokładnie. |
-| **`Image.load` zgłasza wyjątek** | Upewnij się, że ścieżka do pliku jest prawidłowa i że plik jest w obsługiwanym formacie DWG/DXF. |
-| **Spowolnienie przy dużych plikach** | Przetwarzaj pliki w osobnym wątku lub partiami, aby uniknąć blokowania interfejsu użytkownika. |
+|---------|-------------|
+| **Czcionka nie zastosowana** | Sprawdź, czy czcionka jest zainstalowana w systemie operacyjnym i czy jej nazwa jest dokładnie taka sama. |
+| **`Image.load` zgłasza wyjątek** | Upewnij się, że ścieżka do pliku jest poprawna i że plik jest w obsługiwanym formacie DWG/DXF. |
+| **Spowolnienie wydajności przy dużych plikach** | Przetwarzaj pliki w osobnym wątku lub grupuj je, aby uniknąć blokowania interfejsu użytkownika. |
 
 ## Najczęściej zadawane pytania
 
 **P: Czy metoda `setPrimaryFontName` wpływa tylko na obiekty tekstowe?**  
-O: Aktualizuje ona podstawową czcionkę w tabeli stylów, co z kolei wpływa na wszystkie obiekty tekstowe odwołujące się do tego stylu.
+A: Aktualizuje główną czcionkę w tabeli stylów, co z kolei wpływa na wszystkie obiekty tekstowe odwołujące się do tego stylu.
 
 **P: Czy mogę użyć własnej czcionki, która nie jest zainstalowana w systemie?**  
-O: Aspose.CAD korzysta z rejestru czcionek systemu operacyjnego. Aby użyć własnej czcionki, zainstaluj ją na maszynie uruchamiającej kod.
+A: Aspose.CAD korzysta z rejestru czcionek systemu operacyjnego. Aby użyć własnej czcionki, zainstaluj ją na maszynie, na której uruchamiany jest kod.
 
 **P: Czy można zmienić czcionkę tylko dla jednej warstwy?**  
-O: Tak, możesz filtrować style według nazwy warstwy przed wywołaniem `setPrimaryFontName`.
+A: Tak, możesz przefiltrować style według nazwy warstwy przed wywołaniem `setPrimaryFontName`.
 
-**P: Jakiej wersji Aspose.CAD potrzebuję do plików DWG 2022?**  
-O: Najnowsze wydanie (stan na 2025) w pełni obsługuje DWG 2022. Zawsze sprawdzaj notatki wydania pod kątem wsparcia konkretnych formatów.
+**P: Jaka wersja Aspose.CAD jest wymagana dla plików DWG 2022?**  
+A: Najnowsza wersja (stan na 2025) w pełni obsługuje DWG 2022. Zawsze sprawdzaj notatki wydania pod kątem wsparcia konkretnych formatów.
 
-**P: Jak obsłużyć licencjonowanie w środowisku deweloperskim?**  
-O: Użyj tymczasowej licencji ewaluacyjnej do testów. W produkcji osadź zakupiony plik licencji przy pomocy `License.setLicense("Aspose.Total.Java.lic");`.
+**P: Jak obsługiwać licencjonowanie w środowisku deweloperskim?**  
+A: Użyj tymczasowej licencji ewaluacyjnej do testów. W produkcji osadź zakupiony plik licencji używając `License.setLicense("Aspose.Total.Java.lic");`.
 
 ---
 
-**Ostatnia aktualizacja:** 2025-12-28  
-**Testowano z:** Aspose.CAD dla Javy 24.11  
+**Ostatnia aktualizacja:** 2026-05-04  
+**Testowano z:** Aspose.CAD for Java 24.11  
 **Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
