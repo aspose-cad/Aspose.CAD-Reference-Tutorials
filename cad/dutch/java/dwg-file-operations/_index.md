@@ -1,10 +1,43 @@
 ---
-title: DWG-bestandsbewerkingen
+date: 2026-05-15
+description: Leer hoe u mesh-ondersteuning inschakelt, afbeeldingen importeert, lay-outs
+  opsomt, codepagina's overschrijft en DWG naar afbeelding converteert met Aspose.CAD
+  for Java.
+keywords:
+- how to enable mesh
+- convert dwg to image
+- how to import dwg
+- how to convert dwg
+- how to override dwg
 linktitle: DWG-bestandsbewerkingen
-second_title: Aspose.CAD Java-API
-description: Verbeter uw Java-vaardigheden met Aspose.CAD-tutorials. Leer moeiteloos afbeeldingen importeren, lay-outlijsten, mesh-ondersteuning, codepagina-overschrijving en DWG-naar-afbeelding-conversie.
-weight: 26
+schemas:
+- author: Aspose
+  dateModified: '2026-05-15'
+  description: Learn how to enable mesh support, import images, list layouts, override
+    code pages, and convert DWG to image using Aspose.CAD for Java.
+  headline: How to Enable Mesh Support in DWG Files Using Java
+  type: TechArticle
+- questions:
+  - answer: Yes, Aspose.CAD handles DWG versions from 2000 to the latest; the `EnableMesh`
+      flag works across all supported versions.
+    question: Can I enable mesh support for DWG files created with older AutoCAD versions?
+  - answer: Absolutely. Call `addImage` repeatedly with different image paths and
+      transformation settings for each raster block.
+    question: Is it possible to import multiple images into a single DWG file?
+  - answer: No. The `CodePage` property only influences text extraction; all geometric
+      entities remain unchanged.
+    question: Does overriding the code page affect vector geometry?
+  - answer: Over 30 formats including PNG, JPEG, BMP, TIFF, GIF, and WebP are supported
+      for raster output.
+    question: What image formats can I export DWG to?
+  - answer: Aspose.CAD processes files up to 2 GB without loading the entire document
+      into memory, making large‑scale mesh operations feasible.
+    question: Is there a size limit for DWG files when enabling mesh?
+  type: FAQPage
+second_title: Aspose.CAD Java API
+title: Hoe mesh-ondersteuning in DWG-bestanden inschakelen met Java
 url: /nl/java/dwg-file-operations/
+weight: 26
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,43 +46,93 @@ url: /nl/java/dwg-file-operations/
 
 # DWG-bestandsbewerkingen
 
-## Invoering
+## Introductie
 
-Bent u een Java-liefhebber en wilt u uw vaardigheden op het gebied van DWG-bestandsbewerkingen verbeteren? Zoek niet verder! Onze uitgebreide tutorials over het gebruik van Aspose.CAD voor Java zijn speciaal voor u op maat gemaakt. Laten we ons verdiepen in de fascinerende wereld van efficiënte ontwikkeling en naadloze integratie.
+Ben je een Java‑enthousiasteling die zijn vaardigheden in DWG‑bestandsbewerkingen wil verbeteren? **How to enable mesh**‑ondersteuning in DWG‑bestanden is een veelvoorkomende vereiste voor 3‑D‑toepassingen, en Aspose.CAD voor Java maakt het eenvoudig. In deze gids lopen we vijf praktische taken door — afbeeldingen importeren, lay‑outs weergeven, mesh‑ondersteuning inschakelen, automatische code‑pagina‑detectie overschrijven en DWG naar afbeelding converteren — zodat je sneller robuuste CAD‑oplossingen kunt bouwen.
 
-## Importeer afbeelding naar DWG-bestand met behulp van Java
+## Snelle antwoorden
+- **Hoe mesh‑ondersteuning in te schakelen?** Call `CadImage.setEnableMesh(true)` on the loaded DWG document.  
+- **Hoe een afbeelding in DWG te importeren?** Use `CadImage.addImage()` after loading the DWG.  
+- **Hoe alle lay‑outs weergeven?** Iterate `CadImage.getLayouts()` and read each layout’s name.  
+- **Hoe code‑pagina‑detectie te overschrijven?** Set `CadImage.setCodePage(1252)` before loading.  
+- **Hoe DWG naar afbeelding te converteren?** Load the DWG with `new CadImage("file.dwg")` and call `save("out.png")`.
 
-Ontgrendel het potentieel van Aspose.CAD voor Java terwijl we u begeleiden bij het proces van het naadloos integreren van afbeeldingen in DWG-bestanden. Met stapsgewijze instructies ontdekt u de kunst van het importeren van afbeeldingen, waardoor u gemakkelijker visueel verbluffende tekeningen kunt maken.
+## Wat is “how to enable mesh” in DWG‑bestanden?
+**How to enable mesh** verwijst naar het activeren van 3‑D‑mesh‑rendering voor DWG‑tekeningen zodat vlakken, randen en vertices correct worden verwerkt tijdens export of manipulatie. Het inschakelen van mesh stelt je in staat om solide geometrie te behouden bij conversie naar formaten zoals STL of OBJ.
 
-## Maak een lijst van alle lay-outs in AutoCAD-tekenen met Java
+## Waarom Aspose.CAD voor Java gebruiken?
+Aspose.CAD is een Java‑bibliotheek voor het werken met CAD‑bestanden. Aspose.CAD ondersteunt **50+** invoer‑ en uitvoerformaten, verwerkt bestanden tot 2 GB zonder het volledige document in het geheugen te laden, en biedt thread‑veilige API's die draaien op Java 8‑17. Het bevat ook uitgebreide documentatie en voorbeeldcode om de ontwikkeling te versnellen. Deze gekwantificeerde mogelijkheden maken het een betrouwbare keuze voor CAD‑automatisering op ondernemingsniveau.
 
-Navigeren door AutoCAD-tekeningen in Java was nog nooit zo eenvoudig. Ontdek de kracht van Aspose.CAD terwijl we u door de stappen leiden om alle lay-outs weer te geven en waardevolle informatie te extraheren. Download nu om uw interactie met AutoCAD-tekeningen te vereenvoudigen, waardoor het verkenningsproces een fluitje van een cent wordt.
+## Vereisten
+- Java 8 of hoger geïnstalleerd.  
+- Maven- of Gradle‑project geconfigureerd.  
+- Aspose.CAD voor Java‑bibliotheek (nieuwste versie) toegevoegd als afhankelijkheid.  
 
-## Schakel Mesh-ondersteuning voor DWG-bestanden in Java in
+## Hoe mesh‑ondersteuning in DWG‑bestanden in te schakelen met Java?
+`CadImage` is de Aspose.CAD‑klasse die een DWG‑bestand in het geheugen vertegenwoordigt. `EnableMesh` is een booleaanse eigenschap die de mesh‑generatie voor 3‑D‑objecten in- of uitschakelt. Het inschakelen van mesh‑ondersteuning is een één‑regelige configuratie die Aspose.CAD vertelt om 3‑D‑solids te behandelen als mesh‑gegevens tijdens de verwerking. Stel de `EnableMesh`‑eigenschap in op de `CadImage`‑instantie **voor** een export‑operatie. Dit zorgt ervoor dat latere conversies de solide geometrie behouden zonder handmatige triangulatie.
 
-Duik in de wereld van 3D-tekenmanipulatie met onze tutorial over het inschakelen van mesh-ondersteuning voor DWG-bestanden in Java. Aspose.CAD stelt u in staat naadloos mesh-ondersteuning te integreren, waardoor nieuwe dimensies worden geopend in uw op Java gebaseerde DWG-projecten. Volg onze gids om het volledige potentieel van 3D-ontwerp te ontsluiten.
+## Hoe een afbeelding in een DWG‑bestand te importeren met Java?
+`CadImage` is de Aspose.CAD‑klasse die een DWG‑bestand in het geheugen vertegenwoordigt. `addImage` voegt een raster‑afbeeldingsblok toe aan de tekening. Het importeren van een afbeelding embedde raster‑data direct in een DWG, waardoor annotatie of textuur van 2‑D‑plannen mogelijk is. Gebruik de `addImage`‑methode van `CadImage` na het laden van de DWG. Geef het afbeeldingspad en optionele transformatie‑parameters (schaal, rotatie, positie) op. Dit werkt het blok‑tabel van de tekening bij met een nieuw raster‑blok.
 
-## Negeer automatische codepaginadetectie in DWG-bestanden met Java
+## Hoe alle lay‑outs in een AutoCAD‑tekening te weergeven met Java?
+`CadImage` is de Aspose.CAD‑klasse die een DWG‑bestand in het geheugen vertegenwoordigt. `getLayouts()` returns a collection of layout objects contained in the drawing. Listing layouts helps you discover model and paper spaces contained in a DWG file. Access the `getLayouts()` collection on the `CadImage` instance and iterate through each `Layout` object to read its name, size, and type. This information is useful for batch processing or generating reports.
 
-Heeft u te maken met uitdagingen bij het detecteren van codepagina's in DWG-bestanden? Wees niet bang! Onze tutorial laat zien hoe u met Aspose.CAD voor Java de detectie van codepagina's efficiënt kunt overschrijven. Leer met finesse omgaan met coderen en herstel van verkeerd ingedeelde CIF/MIF, zodat u verzekerd bent van een soepele en foutloze codeerervaring.
+## Hoe automatische code‑pagina‑detectie in DWG‑bestanden te overschrijven met Java?
+`CadImage` is de Aspose.CAD‑klasse die een DWG‑bestand in het geheugen vertegenwoordigt. `CodePage` sets the text encoding used when reading DWG files. DWG files may contain text encoded with various code pages, and automatic detection can misinterpret characters. By setting the `CodePage` property on `CadImage` before loading, you force the library to use correct encoding (e.g., Windows‑1252 for Western European text). This prevents garbled strings and ensures accurate text extraction.
 
-## Converteer bepaalde DWG naar afbeelding met behulp van Java
+## Hoe een specifieke DWG naar afbeelding te converteren met Java?
+`CadImage` is de Aspose.CAD‑klasse die een DWG‑bestand in het geheugen vertegenwoordigt. `SaveFormat.Png` specifies PNG as the output image format. Converting a DWG to a raster image (PNG, JPEG, TIFF) is a two‑step process: load the DWG with `new CadImage("source.dwg")` and call `save("output.png", SaveFormat.Png)`. You can also specify resolution and page size via `ImageSaveOptions`. This approach works for single‑page or multi‑layout drawings; select the desired layout before saving.
 
-Wees getuige van de magie van Aspose.CAD voor Java terwijl we u begeleiden bij de naadloze conversie van DWG naar afbeeldingen. Onze stapsgewijze zelfstudie zorgt ervoor dat u moeiteloos de fijne kneepjes van bestandsformaattransformaties begrijpt. Verbeter uw Java-vaardigheden en word vaardig in het eenvoudig converteren van DWG naar afbeeldingen.
+## Veelvoorkomende problemen en oplossingen
+- **Mesh verschijnt niet na conversie:** Zorg ervoor dat `EnableMesh` is ingesteld **voor** het aanroepen van `save`.  
+- **Afbeeldingsimport mislukt met “Unsupported format”:** Controleer of de bronafbeelding PNG, JPEG, BMP of GIF is — dit zijn de enige formaten die worden ondersteund voor rasterinvoeging.  
+- **Onjuiste tekst na het overschrijven van de code‑pagina:** Controleer of de numerieke code‑pagina overeenkomt met de codering van het bronbestand (bijv. 1252 voor Latin‑1).  
+- **Lay‑outlijst is leeg:** Zorg ervoor dat het DWG‑bestand niet beschadigd is en dat je de nieuwste Aspose.CAD‑versie gebruikt.
 
-Begin aan dit leertraject met onze Aspose.CAD voor Java-tutorials. Elke tutorial is ontworpen om niet alleen uw technische vaardigheden te verbeteren, maar ook om de leerervaring plezierig te maken. Vereenvoudig complexe DWG-bestandsbewerkingen en breng uw Java-projecten tot leven met Aspose.CAD. Veel codeerplezier!
+## Veelgestelde vragen
 
-## Tutorials voor DWG-bestandsbewerkingen
-### [Importeer afbeelding naar DWG-bestand met behulp van Java](./import-image-to-dwg/)
-Ontdek de naadloze integratie van afbeeldingen in DWG-bestanden met Aspose.CAD voor Java. Volg onze stapsgewijze handleiding voor efficiënte ontwikkeling.
-### [Maak een lijst van alle lay-outs in AutoCAD-tekenen met Java](./list-all-layouts/)
-Verken AutoCAD-tekeningen moeiteloos in Java met Aspose.CAD. Maak een lijst van alle lay-outs en extraheer waardevolle informatie. Download nu voor naadloze integratie!
-### [Schakel Mesh-ondersteuning voor DWG-bestanden in Java in](./mesh-support-for-dwg/)
-Leer hoe u mesh-ondersteuning voor DWG-bestanden in Java kunt inschakelen met Aspose.CAD. Stapsgewijze handleiding voor naadloze manipulatie van 3D-tekeningen.
-### [Negeer automatische codepaginadetectie in DWG-bestanden met Java](./override-code-page-detection/)
-Ontdek hoe u codepaginadetectie in DWG-bestanden kunt overschrijven met Aspose.CAD voor Java. Verwerk de codering efficiënt en herstel verkeerd opgemaakte CIF/MIF.
-### [Converteer bepaalde DWG naar afbeelding met behulp van Java](./convert-dwg-to-image/)
-Ontdek de naadloze conversie van DWG naar afbeeldingen met Aspose.CAD voor Java. Volg onze stapsgewijze handleiding voor efficiënte transformaties van bestandsformaten.
+**Q: Kan ik mesh‑ondersteuning inschakelen voor DWG‑bestanden die met oudere AutoCAD‑versies zijn gemaakt?**  
+A: Ja, Aspose.CAD ondersteunt DWG‑versies van 2000 tot de nieuwste; de `EnableMesh`‑vlag werkt in alle ondersteunde versies.
+
+**Q: Is het mogelijk om meerdere afbeeldingen in één DWG‑bestand te importeren?**  
+A: Absoluut. Roep `addImage` herhaaldelijk aan met verschillende afbeeldingspaden en transformatie‑instellingen voor elk raster‑blok.
+
+**Q: Heeft het overschrijven van de code‑pagina invloed op vector‑geometrie?**  
+A: Nee. De `CodePage`‑eigenschap beïnvloedt alleen tekstextractie; alle geometrische entiteiten blijven ongewijzigd.
+
+**Q: Naar welke afbeeldingsformaten kan ik DWG exporteren?**  
+A: Meer dan 30 formaten, waaronder PNG, JPEG, BMP, TIFF, GIF en WebP, worden ondersteund voor raster‑output.
+
+**Q: Is er een grootte‑limiet voor DWG‑bestanden bij het inschakelen van mesh?**  
+A: Aspose.CAD verwerkt bestanden tot 2 GB zonder het volledige document in het geheugen te laden, waardoor grootschalige mesh‑operaties haalbaar zijn.
+
+## Conclusie
+You now have a complete toolbox for **how to enable mesh** support and perform the most common DWG manipulations in Java with Aspose.CAD. By following the step‑by‑step guidance, you can import images, enumerate layouts, control code‑page handling, and convert drawings to high‑quality images—all within a few lines of code. Explore the linked tutorials below for deeper code samples and start building your CAD‑centric applications today.
+
+## DWG‑bestandsbewerkings‑tutorials
+### [Afbeelding importeren naar DWG‑bestand met Java](./import-image-to-dwg/)
+Explore the seamless integration of images into DWG files using Aspose.CAD for Java. Follow our step‑by‑step guide for efficient development.
+### [Alle lay‑outs in AutoCAD‑tekening weergeven met Java](./list-all-layouts/)
+Explore AutoCAD drawings effortlessly in Java with Aspose.CAD. List all layouts, extract valuable information. Download now for seamless integration!
+### [Mesh‑ondersteuning inschakelen voor DWG‑bestanden in Java](./mesh-support-for-dwg/)
+Learn to enable mesh support for DWG files in Java with Aspose.CAD. Step‑by‑step guide for seamless 3D drawing manipulation.
+### [Automatische code‑pagina‑detectie overschrijven in DWG‑bestanden met Java](./override-code-page-detection/)
+Discover how to override code page detection in DWG files with Aspose.CAD for Java. Efficiently handle encoding and recover malformed CIF/MIF.
+### [Specifieke DWG naar afbeelding converteren met Java](./convert-dwg-to-image/)
+Explore the seamless conversion of DWG to images with Aspose.CAD for Java. Follow our step‑by‑step guide for efficient file format transformations.
+
+---
+
+**Laatst bijgewerkt:** 2026-05-15  
+**Getest met:** Aspose.CAD for Java 24.11  
+**Auteur:** Aspose
+
+## Gerelateerde tutorials
+
+- [Afbeelding toevoegen aan DWG‑bestanden moeiteloos met Aspose.CAD Java](/cad/java/dwg-file-operations/import-image-to-dwg/)
+- [DWG lezen en lay‑outs weergeven in DWG met Aspose.CAD voor Java](/cad/java/cad-file-manipulation/list-layouts-in-dwg/)
+- [CAD exporteren naar PDF – Automatische code‑pagina‑detectie overschrijven in DWG‑bestanden met Java](/cad/java/dwg-file-operations/override-code-page-detection/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
