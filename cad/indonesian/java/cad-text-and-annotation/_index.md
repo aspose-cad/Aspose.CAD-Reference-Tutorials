@@ -1,11 +1,17 @@
 ---
-date: 2025-12-28
-description: Pelajari cara menyesuaikan font dalam gambar DWG dengan Aspose.CAD untuk
-  Java. Panduan langkah demi langkah untuk menambahkan teks, mengganti font, dan menyempurnakan
-  anotasi CAD.
-linktitle: CAD Text and Annotation
+date: 2026-04-23
+description: Pelajari cara menyesuaikan font DWG, mengubah gaya teks DWG, dan melakukan
+  substitusi font DWG menggunakan Aspose.CAD untuk Java. Panduan langkah demi langkah
+  untuk anotasi teks DWG.
+keywords:
+- customize fonts dwg
+- change dwg text style
+- dwg font substitution
+- update dwg text style
+- dwg text annotation
+linktitle: Teks dan Anotasi CAD
 second_title: Aspose.CAD Java API
-title: Cara Menyesuaikan Font di Teks dan Anotasi CAD
+title: Cara Menyesuaikan Font DWG dalam Teks dan Anotasi CAD
 url: /id/java/cad-text-and-annotation/
 weight: 21
 ---
@@ -14,90 +20,90 @@ weight: 21
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Cara Menyesuaikan Font dalam Teks CAD dan Anotasi
+# Cara Menyesuaikan Font DWG dalam Teks dan Anotasi CAD
 
-## Pendahuluan 
+## Pendahuluan  
 
-Jika Anda mencari **cara menyesuaikan font** dalam gambar DWG Anda, Anda berada di tempat yang tepat. Dalam tutorial ini kami akan memandu Anda menambahkan teks, mengganti font, dan menyesuaikan gaya font menggunakan Aspose.CAD for Java. Baik Anda sedang memoles skema, menyiapkan dokumen konstruksi, atau sekadar menginginkan **anotasi teks dwg** yang lebih jelas, langkah‑langkah ini akan membantu Anda mencapai hasil profesional dengan cepat dan dapat diandalkan.
+Jika Anda perlu **customize fonts dwg** file dengan cepat dan secara programatik, Anda berada di tempat yang tepat. Dalam tutorial ini kami akan memandu Anda menambahkan teks baru, mengganti font yang ada, dan menyesuaikan gaya font untuk gambar DWG menggunakan Aspose.CAD untuk Java. Baik Anda sedang memoles skematik, menyiapkan dokumen konstruksi, atau sekadar menginginkan **dwg text annotation** yang lebih jelas, langkah‑langkah ini akan memberikan hasil profesional dengan sedikit usaha.
 
-## Quick Answers
-- **Apa tujuan utama penyesuaian font dalam DWG?** Untuk meningkatkan keterbacaan dan menyesuaikan dengan merek atau standar proyek.  
-- **Perpustakaan mana yang menangani perubahan?** Aspose.CAD for Java.  
-- **Apakah saya memerlukan lisensi?** Versi percobaan gratis dapat digunakan untuk evaluasi; lisensi komersial diperlukan untuk produksi.  
-- **Bisakah saya memproses file DWG besar?** Ya – API melakukan streaming data secara efisien, cocok untuk gambar berukuran besar.  
-- **Apakah ada perangkat lunak tambahan yang diperlukan?** Hanya runtime Java (JDK 8 atau lebih baru) dan JAR Aspose.CAD.
+## Jawaban Cepat
+- **Apa manfaat utama dari menyesuaikan font DWG?** Meningkatkan keterbacaan dan memastikan gambar mengikuti merek perusahaan.  
+- **Perpustakaan mana yang menangani perubahan?** Aspose.CAD untuk Java menyediakan API lengkap.  
+- **Apakah saya memerlukan lisensi untuk penggunaan produksi?** Versi percobaan gratis cukup untuk evaluasi; lisensi komersial diperlukan untuk penerapan.  
+- **Apakah API dapat memproses file DWG besar?** Ya – API memproses data secara streaming dengan efisien, sehingga cocok untuk gambar berukuran besar.  
+- **Apakah diperlukan perangkat lunak tambahan?** Hanya runtime Java (JDK 8 atau yang lebih baru) dan JAR Aspose.CAD.  
 
-## Apa itu “cara menyesuaikan font” dalam CAD?
-Menyesuaikan font berarti mengganti gaya teks default dalam file DWG dengan font pilihan Anda, menyesuaikan ukuran, ketebalan, atau menerapkan gaya berbeda pada lapisan atau objek tertentu. Hal ini memastikan gambar terlihat persis seperti yang Anda inginkan di semua penampil.
+## Apa itu “customize fonts dwg”?
+Menyesuaikan fonts dwg berarti mengganti gaya teks default dalam file DWG dengan font pilihan Anda, menyesuaikan ukuran, ketebalan, atau menerapkan gaya berbeda pada lapisan atau objek tertentu. Hal ini memastikan tampilan yang konsisten di semua penampil dan platform.
 
-## Mengapa menggunakan Aspose.CAD for Java untuk menyesuaikan font?
-- **Kontrol penuh** atas objek teks tanpa membuka gambar di editor GUI.  
+## Mengapa menggunakan Aspose.CAD untuk Java untuk menyesuaikan font?
+- **Kontrol programatik penuh** – memodifikasi teks tanpa membuka editor GUI.  
 - **Pemrosesan batch** – menangani puluhan file dalam satu skrip.  
-- **Lintas‑platform** – berfungsi di Windows, Linux, dan macOS.  
-- **Tanpa ketergantungan eksternal** – API mengelola parsing DWG secara internal.
+- **Lintas platform** – berfungsi di Windows, Linux, dan macOS.  
+- **Tanpa ketergantungan eksternal** – API mem‑parsing DWG secara internal, sehingga Anda tidak memerlukan AutoCAD terpasang.  
 
 ## Prasyarat
 - Java Development Kit 8 atau yang lebih baru terpasang.  
-- JAR Aspose.CAD for Java ditambahkan ke classpath proyek Anda.  
-- File DWG yang ingin Anda edit.
+- JAR Aspose.CAD untuk Java ditambahkan ke classpath proyek Anda.  
+- File DWG yang ingin Anda edit.  
 
-## Cara Menambahkan Teks dalam DWG
-Menambahkan informasi teks baru adalah kebutuhan umum ketika Anda ingin memberi label pada bagian, menambahkan catatan, atau membuat **anotasi teks dwg**. Ikuti langkah‑langkah berikut:
+## Cara Menambahkan Teks di DWG  
+Menambahkan informasi teks baru adalah kebutuhan umum ketika Anda ingin memberi label pada bagian, menambahkan catatan, atau membuat **dwg text annotation**. Ikuti langkah‑langkah berikut:
 
 1. **Muat file DWG** menggunakan `CadImage`.  
 2. **Buat entitas `CadText`** dengan string, lokasi, dan font yang diinginkan.  
 3. **Tambahkan entitas** ke koleksi entitas gambar.  
-4. **Simpan** file yang telah dimodifikasi.
+4. **Simpan** file yang telah dimodifikasi.  
 
-> *Catatan: Potongan kode sebenarnya tidak diubah dari tutorial asli dan disertakan dalam sub‑tutorial yang ditautkan.*
+> *Catatan: Potongan kode sebenarnya tidak diubah dari tutorial asli dan disertakan dalam sub‑tutorial yang ditautkan.*  
 
-## Cara Mengganti Font dalam DWG
+## Cara Mengganti Font di DWG  
 Mengganti font yang ada di seluruh gambar membantu menjaga konsistensi, terutama ketika font asli tidak tersedia di sistem target.
 
 1. **Buka DWG** dengan `CadImage`.  
 2. **Iterasi** semua objek `CadText`.  
 3. **Setel properti `FontName`** ke font pilihan Anda (mis., “Arial”).  
-4. **Simpan** gambar yang telah diperbarui.
+4. **Simpan** gambar yang telah diperbarui.  
 
 Metode ini dibahas secara detail dalam sub‑tutorial “Substitute Font in DWG”.
 
-## Cara Mengubah Gaya Font DWG untuk Gaya Tertentu
+## Cara Mengubah Gaya Font DWG untuk Gaya Tertentu  
 Kadang‑kadang hanya gaya teks tertentu (mis., “Title”) yang memerlukan font baru sementara yang lain tetap tidak berubah.
 
 1. **Identifikasi nama gaya** yang ingin Anda ubah.  
 2. **Temukan objek `CadTextStyle` yang bersesuaian**.  
-3. **Perbarui `FontName`**‑nya dan atribut gaya tambahan lainnya.  
-4. **Simpan perubahan** dengan menyimpan file.
+3. **Perbarui `FontName`-nya** serta atribut gaya tambahan lainnya.  
+4. **Simpan perubahan** dengan menyimpan file.  
 
 Panduan langkah‑demi‑langkah tersedia dalam sub‑tutorial “Substitute Font of a Particular Style in DWG”.
 
 ## Kasus Penggunaan Umum
-- **Gambar konstruksi** di mana font standar perusahaan wajib.  
+- **Gambar konstruksi** dimana font standar perusahaan wajib.  
 - **Rencana arsitektur** yang memerlukan anotasi yang dapat dibaca untuk klien.  
-- **Konversi batch** file DWG lama ke set font korporat baru.
+- **Konversi batch** file DWG lama ke set font perusahaan baru.  
 
-## Tutorial Teks CAD dan Anotasi
-### [Add Text in DWG Using Aspose.CAD for Java](./add-text-in-dwg/)
-Tingkatkan gambar DWG Anda dengan mudah menggunakan Aspose.CAD for Java. Tambahkan teks secara mulus dengan panduan langkah‑demi‑langkah kami.
+## Tutorial Teks dan Anotasi CAD
+### [Menambahkan Teks di DWG Menggunakan Aspose.CAD untuk Java](./add-text-in-dwg/)
+Tingkatkan gambar DWG Anda dengan mudah menggunakan Aspose.CAD untuk Java. Tambahkan teks secara mulus dengan panduan langkah‑demi‑langkah kami.
 
-### [Substitute Font in DWG with Aspose.CAD for Java](./substitute-font-in-dwg/)
-Tingkatkan desain CAD Anda dengan mudah. Pelajari cara mengganti font dalam file DWG menggunakan Aspose.CAD for Java. Panduan langkah‑demi‑langkah untuk kesempurnaan visual.
+### [Mengganti Font di DWG dengan Aspose.CAD untuk Java](./substitute-font-in-dwg/)
+Tingkatkan desain CAD Anda dengan mudah. Pelajari cara mengganti font dalam file DWG menggunakan Aspose.CAD untuk Java. Panduan langkah‑demi‑langkah untuk kesempurnaan visual.
 
-### [Substitute Font of a Particular Style in DWG Using Aspose.CAD for Java](./substitute-font-of-particular-style-in-dwg/)
-Pelajari cara mengganti font dalam file DWG menggunakan Aspose.CAD for Java. Panduan langkah‑demi‑langkah untuk menyesuaikan gaya dengan presisi.
+### [Mengganti Font untuk Gaya Tertentu di DWG Menggunakan Aspose.CAD untuk Java](./substitute-font-of-particular-style-in-dwg/)
+Pelajari cara mengganti font dalam file DWG menggunakan Aspose.CAD untuk Java. Panduan langkah‑demi‑langkah untuk menyesuaikan gaya dengan presisi.
 
 ## Pertanyaan yang Sering Diajukan
 
-**Q: Bisakah saya menggunakan metode ini dengan file DWG yang dibuat di versi AutoCAD lama?**  
-A: Ya. Aspose.CAD mendukung versi DWG dari R12 hingga rilis terbaru.
+**Q: Bisakah saya menggunakan metode ini dengan file DWG yang dibuat pada versi AutoCAD lama?**  
+A: Ya. Aspose.CAD mendukung versi DWG mulai dari R12 hingga rilis terbaru.
 
-**Q: Apa yang terjadi jika font target tidak terpasang di mesin penampil?**  
+**Q: Apa yang terjadi jika font target tidak terpasang pada mesin penampil?**  
 A: Gambar akan kembali ke font default, yang dapat memengaruhi tata letak. Disarankan untuk menyematkan font atau memastikan font tersebut terpasang di semua mesin.
 
 **Q: Apakah memungkinkan mengganti font hanya pada lapisan tertentu?**  
-A: Tentu saja. Filter objek `CadText` berdasarkan `LayerName` mereka sebelum mengubah `FontName`.
+A: Tentu saja. Saring objek `CadText` berdasarkan `LayerName` mereka sebelum mengubah `FontName`.
 
-**Q: Apakah saya perlu membangun ulang gambar setelah perubahan font?**  
+**Q: Apakah saya perlu membangun ulang gambar setelah mengubah font?**  
 A: Tidak diperlukan pembangunan ulang manual; menyimpan `CadImage` menuliskan semua pembaruan ke file.
 
 **Q: Bagaimana saya dapat memverifikasi bahwa perubahan font telah diterapkan dengan benar?**  
@@ -105,8 +111,8 @@ A: Buka DWG di penampil apa pun yang mendukung font yang dipilih, atau secara pr
 
 ---
 
-**Terakhir Diperbarui:** 2025-12-28  
-**Diuji Dengan:** Aspose.CAD for Java 24.12  
+**Terakhir Diperbarui:** 2026-04-23  
+**Diuji Dengan:** Aspose.CAD untuk Java 24.12  
 **Penulis:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}
