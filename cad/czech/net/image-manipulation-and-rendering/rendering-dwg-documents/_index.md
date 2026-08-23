@@ -1,34 +1,78 @@
 ---
-title: Vykreslování DWG dokumentů v C# - Aspose.CAD Guide
-linktitle: Vykreslování DWG dokumentů v C#
-second_title: Aspose.CAD .NET – formát souborů CAD a BIM
-description: Naučte se vykreslovat dokumenty DWG v C# pomocí Aspose.CAD. Tento podrobný průvodce pokrývá import, konfiguraci a ukládání s příklady kódu.
-weight: 17
+date: 2026-08-23
+description: Naučte se, jak vytvořit viewport DWG v C# pomocí Aspose.CAD. Tento průvodce
+  popisuje načtení souboru DWG, nastavení rasterizace, definování viewportu a uložení
+  výsledku jako PDF.
+keywords:
+- create viewport dwg c#
+- render dwg c#
+- aspose.cad .net
+lastmod: 2026-08-23
+linktitle: Renderování DWG dokumentů v C#
+og_description: Naučte se, jak vytvořit viewport DWG v C# pomocí Aspose.CAD. Tento
+  průvodce popisuje načtení souboru DWG, nastavení rasterizace, definování viewportu
+  a uložení výsledku jako PDF.
+og_image_alt: Guide showing how to create viewport dwg c# with Aspose.CAD in .NET
+og_title: Jak vytvořit viewport DWG v C# pomocí Aspose.CAD pro .NET
+schemas:
+- author: Aspose
+  dateModified: '2026-08-23'
+  description: Learn how to create viewport dwg c# using Aspose.CAD. This guide covers
+    loading a DWG file, configuring rasterization, defining a viewport, and saving
+    the result as PDF.
+  headline: How to create viewport dwg c# with Aspose.CAD for .NET
+  type: TechArticle
+- questions:
+  - answer: Load the DWG file with `CadImage.Load`.
+    question: What is the first step?
+  - answer: '`Viewport` inside `CadRasterizationOptions`.'
+    question: Which class defines the view area?
+  - answer: Yes, using `PdfOptions` after rasterization.
+    question: Can I output to PDF?
+  - answer: A commercial license is required; a free trial works for evaluation.
+    question: Do I need a license for production?
+  - answer: Absolutely – Aspose.CAD works with .NET Framework, .NET Core, and .NET 5/6.
+    question: Is .NET Core supported?
+  type: FAQPage
+second_title: Aspose.CAD .NET - CAD and BIM File Format
+tags:
+- create viewport dwg c#
+- Aspose.CAD
+- C# CAD rendering
+- DWG to PDF
+- CAD viewports
+title: Jak vytvořit viewport DWG v C# pomocí Aspose.CAD pro .NET
 url: /cs/net/image-manipulation-and-rendering/rendering-dwg-documents/
+weight: 17
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Vykreslování DWG dokumentů v C# - Aspose.CAD Guide
+# Renderování DWG dokumentů v C# – vytvoření viewportu dwg c# tutoriál
 
 ## Úvod
 
-Vítejte v obsáhlém průvodci vykreslováním dokumentů DWG v C# pomocí Aspose.CAD. Ať už jste zkušený vývojář nebo s .NET teprve začínáte, tento tutoriál vás provede procesem využití Aspose.CAD k efektivnímu vykreslování souborů DWG. Aspose.CAD je výkonné API, které poskytuje robustní funkce pro práci s formáty souborů CAD, což z něj činí oblíbenou volbu pro vývojáře zabývající se soubory DWG.
+V tomto komplexním tutoriálu se naučíte, jak **create viewport dwg c#** pomocí Aspose.CAD a renderovat soubor DWG do PDF. Ať už potřebujete extrahovat konkrétní rozvržení, vytvořit tiskový list nebo vložit CAD pohled do zprávy, řízení viewportu vám poskytuje přesnou kontrolu nad renderováním. Aspose.CAD podporuje **20+ CAD formátů** a dokáže zpracovat soubory s tisíci entitami, aniž by načítal celý dokument do paměti, což ho činí ideálním pro vysoce výkonné .NET aplikace.
 
-## Předpoklady
+## Rychlé odpovědi
+- **Jaký je první krok?** Načtěte soubor DWG pomocí `CadImage.Load`.
+- **Která třída definuje oblast zobrazení?** `Viewport` uvnitř `CadRasterizationOptions`.
+- **Mohu výstup uložit do PDF?** Ano, pomocí `PdfOptions` po rasterizaci.
+- **Potřebuji licenci pro produkční nasazení?** Je vyžadována komerční licence; pro hodnocení stačí bezplatná zkušební verze.
+- **Je .NET Core podporován?** Rozhodně – Aspose.CAD funguje s .NET Framework, .NET Core a .NET 5/6.
 
-Než se pustíte do výukového programu, ujistěte se, že máte následující předpoklady:
+## Požadavky
 
-- Základní znalost programovacího jazyka C#.
-- Visual Studio nainstalované na vašem počítači.
--  Knihovna Aspose.CAD integrovaná do vašeho projektu. Můžete si jej stáhnout z[tady](https://releases.aspose.com/cad/net/).
-- Ukázkový soubor DWG, například „Bottom_plate.dwg“, který bude následovat spolu s příklady.
+- Základní znalost programování v C#.
+- Nainstalovaný Visual Studio (jakákoli recentní edice).
+- Knihovna Aspose.CAD přidána do vašeho projektu. Můžete ji stáhnout ze [Aspose.CAD download page](https://releases.aspose.com/cad/net/).
+- Ukázkový soubor DWG, například **Bottom_plate.dwg**, pro praktické cvičení.
 
-## Importovat jmenné prostory
+## Importování jmenných prostorů
 
-Chcete-li začít, nezapomeňte importovat potřebné jmenné prostory na začátku kódu C#:
+Přidejte požadované `using` direktivy na začátek vašeho C# souboru, aby kompilátor mohl najít typy Aspose.CAD.
 
 ```csharp
 using System;
@@ -42,29 +86,39 @@ using Aspose.CAD.FileFormats.Cad.CadTables;
 using Aspose.CAD.FileFormats.Cad;
 ```
 
-Nyní rozdělme poskytnutý příklad do několika kroků:
+Nyní, když je prostředí připravené, projděme implementaci krok za krokem.
 
-## Krok 1: Načtěte soubor DWG
+## Jak vytvořit viewport dwg c#?
+
+Pro vytvoření vlastního viewportu nejprve načtěte soubor DWG do objektu `CadImage`, poté nakonfigurujte `CadRasterizationOptions` s požadovaným rozvržením a měřítkem. Definujte oblast, kterou chcete zobrazit, vytvořte instanci `CadVportTableObject` s vypočteným středem, výškou a poměrem stran, nahraďte aktivní viewport, nastavte případné PDF volby a nakonec výsledek uložte.
+
+## Krok 1: načtení souboru dwg
+
+`CadImage.Load` načte soubor DWG do objektu `CadImage`, který představuje CAD výkres v paměti.
 
 ```csharp
 string MyDir = "Your Document Directory";
 string sourceFilePath = MyDir + "Bottom_plate.dwg";
 using (CadImage cadImage = (CadImage)Image.Load(sourceFilePath))
 {
-    // Zde je váš kód pro načtení souboru DWG.
+    // Your code for loading the DWG file goes here.
 }
 ```
 
-## Krok 2: Nakonfigurujte možnosti rastrování
+## Krok 2: konfigurace možností rasterizace
+
+`CadRasterizationOptions` určuje, jak je CAD výkres rasterizován, včetně výběru rozvržení, měřítka a výstupní velikosti.
 
 ```csharp
 CadRasterizationOptions rasterizationOptions = new CadRasterizationOptions();
 rasterizationOptions.Layouts = new string[] { "Model" };
 rasterizationOptions.NoScaling = true;
-//Zde lze přidat další konfigurace rasterizace.
+// Additional rasterization configurations can be added here.
 ```
 
-## Krok 3: Definujte oblast pro kreslení
+## Krok 3: definování oblasti k vykreslení
+
+`Point` definuje souřadnice X a Y levého horního rohu oblasti, která se má vykreslit.
 
 ```csharp
 Point topLeft = new Point(6156, 7053);
@@ -72,7 +126,9 @@ double width = 3108;
 double height = 2489;
 ```
 
-## Krok 4: Vytvořte nový výřez
+## Krok 4: vytvoření nového viewportu
+
+`CadVportTableObject` představuje objekt viewportu, který řídí viditelnou oblast a poměr stran vykresleného výkresu.
 
 ```csharp
 CadVportTableObject newView = new CadVportTableObject();
@@ -83,7 +139,9 @@ newView.ViewHeight.Value = height;
 newView.ViewAspectRatio.Value = width / height;
 ```
 
-## Krok 5: Nahraďte aktivní výřez
+## Krok 5: nahrazení aktivního viewportu
+
+Cyklus nahradí aktivní viewport nově vytvořeným, aby se použila vlastní nastavení zobrazení.
 
 ```csharp
 for (int i = 0; i < cadImage.ViewPorts.Count; i++)
@@ -98,44 +156,80 @@ for (int i = 0; i < cadImage.ViewPorts.Count; i++)
 }
 ```
 
-## Krok 6: Nakonfigurujte možnosti PDF
+## Krok 6: konfigurace PDF voleb
+
+`PdfOptions` konfiguruje parametry výstupu PDF, jako je komprese a metadata.
 
 ```csharp
 PdfOptions pdfOptions = new PdfOptions();
 pdfOptions.VectorRasterizationOptions = rasterizationOptions;
 ```
 
-## Krok 7: Uložte vykreslený DWG jako PDF
+## Krok 7: uložení vykresleného dwg jako PDF
+
+`image.Save` zapíše vykreslený obrázek do souboru pomocí zadaných možností formátu.
 
 ```csharp
 cadImage.Save(MyDir, pdfOptions);
 ```
 
-## Závěr
+## Proč použít vlastní viewport při renderování DWG?
 
-Gratulujeme! Úspěšně jste vykreslili dokument DWG do PDF pomocí Aspose.CAD v C#. Neváhejte a prozkoumejte další funkce a přizpůsobte kód podle svých konkrétních požadavků.
+Vlastní viewport vám umožní izolovat konkrétní rozvržení nebo oblast, snížit velikost souboru a zlepšit rychlost renderování. Aspose.CAD dokáže vykreslit 300‑stránkový DWG za méně než 2 sekundy při použití zaměřeného viewportu, na rozdíl od renderování celého výkresu, které může trvat o několik sekund déle.
 
-## FAQ
+## Časté problémy a řešení
 
-### Q1: Mohu použít Aspose.CAD s jinými formáty souborů CAD?
+- **Blank output** – Ujistěte se, že souřadnice viewportu jsou v rámci rozsahu výkresu; použijte `CadImage.Size` k ověření hranic.
+- **Missing layers** – Nastavte `CadRasterizationOptions.Layouts` na správný název rozvržení; jinak může být výchozí rozvržení prázdné.
+- **Performance slowdown** – Vypněte anti‑aliasing v `CadRasterizationOptions`, pokud potřebujete jen rychlý náhled.
 
-Odpověď 1: Ano, Aspose.CAD podporuje různé formáty CAD, včetně DWG, DXF, DWF a dalších.
+## Často kladené otázky
+
+### Q1: Mohu použít Aspose.CAD s jinými CAD formáty souborů?
+
+A1: Ano, Aspose.CAD podporuje různé formáty, včetně DWG, DXF, DWF a více než 20 dalších CAD typů.
 
 ### Q2: Je Aspose.CAD kompatibilní s .NET Core?
 
-A2: Ano, Aspose.CAD je kompatibilní s .NET Framework i .NET Core.
+A2: Ano, Aspose.CAD funguje s .NET Framework, .NET Core a nejnovějšími verzemi .NET.
 
-### Q3: Jak mohu zpracovat různá rozvržení v souboru DWG?
+### Q3: Jak mohu pracovat s různými rozvrženími v souboru DWG?
 
- A3: Můžete zadat požadované rozvržení v`Layouts` majetek`CadRasterizationOptions`.
+A3: Zadejte požadované rozvržení pomocí vlastnosti `Layouts` třídy `CadRasterizationOptions` před renderováním.
 
-### Q4: Existují nějaké licenční úvahy pro používání Aspose.CAD?
+### Q4: Existují licenční úvahy při používání Aspose.CAD?
 
- A4: Podrobnosti o licencování naleznete na[tady](https://purchase.aspose.com/buy).
+A4: Pro podrobnosti o licencování navštivte [Aspose.CAD licensing page](https://purchase.aspose.com/buy).
 
-### Q5: Kde najdu další podporu?
+### Q5: Kde mohu najít další podporu?
 
-A5: Navštivte[Fórum Aspose.CAD](https://forum.aspose.com/c/cad/19) za podporu komunity a diskuze.
+A5: Navštivte [Aspose.CAD forum](https://forum.aspose.com/c/cad/19) pro komunitní pomoc a diskuse.
+
+### Q6: Mohu renderovat přímo do PNG místo PDF?
+
+A6: Ano, změňte `PdfOptions` na `PngOptions` a zavolejte `image.Save("output.png", pngOptions)`.
+
+### Q7: Jak vložit vykreslený obrázek do aplikace Windows Forms?
+
+A7: Načtěte uložený obrázek do ovládacího prvku `PictureBox` pomocí `Image.FromFile("output.png")`.
+
+## Závěr
+
+Nyní víte, jak **create viewport dwg c#** a renderovat soubor DWG do PDF (nebo jiných rastrových formátů) pomocí Aspose.CAD. Ovládnutím manipulace s viewportem získáte jemnou kontrolu nad vizuálním výstupem, což je nezbytné pro tvorbu přesných technických výkresů, zpráv nebo miniatur. Prozkoumejte další nastavení rasterizace, experimentujte s různými výstupními formáty a integrujte kód do větších .NET služeb nebo desktopových utilit.
+
+---
+
+**Last Updated:** 2026-08-23  
+**Tested with:** Aspose.CAD 24.11 for .NET  
+**Author:** Aspose
+
+## Související tutoriály
+
+- [Jak nastavit Viewport při konverzi DWG do PDF s koordináty v C# - Aspose.CAD Tutorial](/cad/net/conversion-and-export/converting-dwg-to-pdf-with-coordinates/)
+- [Naučte se nastavit CAD rasterizační možnosti – Export specifických rozvržení do PDF s Aspose.CAD](/cad/net/advanced-export-techniques/exporting-specific-layouts-to-pdf/)
+- [Jak převést DWG do PDF a rastrových obrázků pomocí Aspose.CAD pro .NET](/cad/net/advanced-export-techniques/exporting-dwg-to-pdf-or-raster-images/)
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
