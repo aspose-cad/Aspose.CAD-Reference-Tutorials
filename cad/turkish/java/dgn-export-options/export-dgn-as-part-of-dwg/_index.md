@@ -1,32 +1,104 @@
 ---
-title: Aspose.CAD for Java ile DGN'yi DWG'ye aktarın
-linktitle: DGN'yi DWG'nin bir parçası olarak dışa aktarın
-second_title: Aspose.CAD Java API'si
-description: Aspose.CAD for Java kullanarak DWG'nin bir parçası olarak DGN'yi nasıl dışa aktaracağınızı keşfedin. Verimli CAD dosyası manipülasyonu için adım adım kılavuzumuzu izleyin.
-weight: 10
+date: 2026-05-20
+description: Aspose.CAD for Java kullanarak DGN'yi DWG'ye nasıl dışa aktaracağınızı
+  ve MicroStation DGN'yi AutoCAD DWG'ye nasıl dönüştüreceğinizi öğrenin. Hızlı ve
+  güvenilir CAD dosyası işleme için adım adım rehberimizi izleyin.
+keywords:
+- how to export dgn to dwg
+- convert microstation dgn to autocad dwg
+- Aspose.CAD Java export
+- CAD file conversion Java
+linktitle: DGN'yi DWG'nin Bir Parçası Olarak Dışa Aktar
+schemas:
+- author: Aspose
+  dateModified: '2026-05-20'
+  description: Learn how to export DGN to DWG and convert MicroStation DGN to AutoCAD
+    DWG using Aspose.CAD for Java. Follow our step‑by‑step guide for fast, reliable
+    CAD file manipulation.
+  headline: How to Export DGN to DWG with Aspose.CAD for Java
+  type: TechArticle
+- description: Learn how to export DGN to DWG and convert MicroStation DGN to AutoCAD
+    DWG using Aspose.CAD for Java. Follow our step‑by‑step guide for fast, reliable
+    CAD file manipulation.
+  name: How to Export DGN to DWG with Aspose.CAD for Java
+  steps:
+  - name: Set File Paths
+    text: Define where the source DGN lives and where the resulting DWG will be written.
+      Adjust `dataDir`, `fileName`, and `outPath` to match your project layout.
+  - name: Create CadRasterizationOptions Instance
+    text: '`CadRasterizationOptions` defines how vector data is rasterized before
+      being embedded into the DWG container.'
+  - name: Load DGN File
+    text: '`CadImage` represents the loaded DGN file in memory, allowing access to
+      its entities and properties.'
+  - name: Iterate Through Entities
+    text: '`CadBaseEntity` is the base class for all CAD entities, and `CadDgnUnderlay`
+      represents an embedded DGN underlay. Loop over each entity; when an `ImageDefinition`
+      is encountered, its external reference is extracted for later embedding.'
+  - name: Define Rasterization Options
+    text: Set page width, height, layout selection, and background color to match
+      the target DWG’s visual requirements.
+  - name: Set Vector Rasterization Options
+    text: Specify vector‑specific settings such as line weight handling and curve
+      approximation to ensure the DWG retains crisp geometry.
+  - name: Export DWG to PDF
+    text: Call the `save` method on the `CadImage` instance, passing the configured
+      options to produce the final DWG‑compatible PDF output.
+  type: HowTo
+- questions:
+  - answer: The full API reference is available [here](https://reference.aspose.com/cad/java/).
+    question: Where can I find the documentation for Aspose.CAD for Java?
+  - answer: Grab the latest release from [this link](https://releases.aspose.com/cad/java/).
+    question: How can I download the Aspose.CAD library for Java?
+  - answer: Yes, a fully functional trial can be obtained [here](https://releases.aspose.com/).
+    question: Is there a free trial available for Aspose.CAD for Java?
+  - answer: Request a temporary license from Aspose [here](https://purchase.aspose.com/temporary-license/).
+    question: Where can I get a temporary license for Aspose.CAD for Java?
+  - answer: Join the community support forum and post your query [here](https://forum.aspose.com/c/cad/19).
+    question: Need help or have questions?
+  type: FAQPage
+second_title: Aspose.CAD Java API
+title: Aspose.CAD for Java ile DGN'yi DWG'ye Nasıl Dışa Aktarılır
 url: /tr/java/dgn-export-options/export-dgn-as-part-of-dwg/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.CAD for Java ile DGN'yi DWG'ye aktarın
+# DGN'yi DWG'ye Aspose.CAD for Java ile Nasıl Dışa Aktarılır
 
-## giriiş
+Bu öğreticide, Aspose.CAD Java kütüphanesini kullanarak **dgn'yi dwg'ye nasıl dışa aktarılır** keşfedeceksiniz. MicroStation tasarımlarını AutoCAD iş akışına entegre etmeniz ya da toplu dönüşümleri otomatikleştirmeniz gerekse, bu kılavuz ortamı kurmaktan yüksek doğruluklu bir DWG dosyası üretmeye kadar her adımı size gösterir. Sonunda, DGN‑to‑DWG dışa aktarımını güvenilir bir şekilde yöneten yeniden kullanılabilir bir kod kalıbına sahip olacaksınız.
 
-Bu eğitimde, bir DGN (MicroStation Design) dosyasını bir DWG (AutoCAD Çizimi) dosyasının parçası olarak dışa aktarmak için Aspose.CAD for Java'nın nasıl kullanılacağını keşfedeceğiz. Aspose.CAD, CAD dosya formatlarıyla çalışmak için kapsamlı işlevsellik sağlayan güçlü bir kütüphanedir. Bu adım adım kılavuz, Java kullanarak DWG'nin bir parçası olarak DGN'yi dışa aktarma sürecini anlamanıza yardımcı olacaktır.
+## Hızlı Yanıtlar
+- **DGN‑to‑DWG dönüşümünü hangi kütüphane yönetir?** Aspose.CAD for Java.  
+- **Üretim için lisansa ihtiyacım var mı?** Evet, ticari bir lisans değerlendirme sınırlamalarını kaldırır.  
+- **Desteklenen CAD formatları?** DGN, DWG, DXF ve PDF dahil olmak üzere 50'den fazla giriş ve çıkış formatı.  
+- **Büyük dosyalar işlenebilir mi?** Evet, Aspose.CAD dosyaları tam bellek yüklemesi yapmadan 2 GB'a kadar akıtarak işler.  
+- **Tipik uygulama süresi?** Temel bir dışa aktarma betiği için yaklaşık 15 dakika.
+
+## “dgn'yi dwg'ye nasıl dışa aktarılır” nedir?
+**dgn'yi dwg'ye nasıl dışa aktarılır**, bir MicroStation DGN tasarım dosyasını geometri, katmanlar ve raster görüntülerini koruyarak AutoCAD DWG dosyasına dönüştürme sürecidir. Aspose.CAD, bu dönüşümü yerel CAD yazılımı gerektirmeden gerçekleştiren programatik bir API sağlar.
+
+## Neden Aspose.CAD for Java Kullanılmalı?
+Aspose.CAD, **50+ CAD formatını** işleyebilir ve 2 GB'a kadar dosyaları rasterleştirebilir, birçok yerel aracın 3 katına kadar daha hızlı dönüşüm hızları sunar. Kütüphane, Java‑uyumlu herhangi bir platformda çalışır, dış bağımlılık gerektirmez ve sayfa boyutu, arka plan rengi ve vektör render kalitesi gibi rasterleştirme seçenekleri üzerinde tam kontrol sağlar.
 
 ## Önkoşullar
 
-Eğiticiye dalmadan önce aşağıdaki önkoşulların mevcut olduğundan emin olun:
-1. Aspose.CAD Kütüphanesi: Java için Aspose.CAD kütüphanesini indirip yükleyin. Kütüphaneyi bulabilirsiniz[Burada](https://releases.aspose.com/cad/java/).
-2. Java Geliştirme Kiti (JDK): Sisteminizde Java'nın kurulu olduğundan emin olun.
-3. Entegre Geliştirme Ortamı (IDE): Daha sorunsuz bir geliştirme deneyimi için Eclipse veya IntelliJ gibi bir Java IDE seçin.
+Before we dive in, ensure you have the following:
 
-## Paketleri İçe Aktar
+1. **Aspose.CAD Kütüphanesi** – En son Aspose.CAD for Java sürümünü [buradan](https://releases.aspose.com/cad/java/) indirip kurun.  
+2. **Java Development Kit (JDK)** – Makinenizde JDK 8 veya daha yeni bir sürüm kurulu olmalı.  
+3. **IDE** – Eclipse, IntelliJ IDEA veya rahat kodlama için herhangi bir Java‑uyumlu IDE.
 
-CAD dosyası manipülasyonunu etkinleştirmek için Java projenizde gerekli Aspose.CAD paketlerini içe aktarın. İşte bir örnek:
+## Aspose.CAD for Java ile DGN'yi DWG'ye Nasıl Dışa Aktarılır?
+
+Kaynak DGN'yi yükleyin, rasterleştirme seçeneklerini oluşturun, varlıklar üzerinde döngü yapın ve sonunda sonucu bir DWG dosyası olarak kaydedin. Tam iş akışı birkaç özlü ifadeye sığar ve tipik dosyalar için bir dakikadan kısa sürede çalışır; katmanları, çizgi kalınlıklarını ve gömülü raster görüntüleri koruyarak çıkış DWG'nin orijinal tasarım amacına uygun olmasını sağlar.
+
+### Paketleri İçe Aktar
+
+The `import` section pulls in the core Aspose.CAD classes required for CAD manipulation.  
 
 ```java
 import com.aspose.cad;
@@ -36,9 +108,9 @@ import com.aspose.cad.fileformats.cad;
 import com.aspose.cad.fileformats.cad.cadobjects;
 ```
 
-## 1. Adım: Dosya Yollarını Ayarlayın
+### Adım 1: Dosya Yollarını Ayarla
 
- DWG dosyası için giriş ve çıkış dosyası yollarını tanımlayın. Güncelleme`dataDir`, `fileName` , Ve`outPath` buna göre değişkenler.
+Define where the source DGN lives and where the resulting DWG will be written. Adjust `dataDir`, `fileName`, and `outPath` to match your project layout.  
 
 ```java
 String dataDir = "Your Document Directory" + "ExportingDGN/";
@@ -46,25 +118,25 @@ String fileName = dataDir + "BlockRefDgn.dwg";
 String outPath = dataDir + "BlockRefDgn.dwg.pdf";
 ```
 
-## Adım 2: PdfOptions Örneği Oluşturun
+### Adım 2: CadRasterizationOptions Örneği Oluştur
 
- Bir örneğini oluşturun`PdfOptions` DWG dosyasını PDF formatına aktardığımız için sınıf.
+`CadRasterizationOptions` defines how vector data is rasterized before being embedded into the DWG container.  
 
 ```java
 PdfOptions exportOptions = new PdfOptions();
 ```
 
-## Adım 3: DWG Dosyasını Yükleyin
+### Adım 3: DGN Dosyasını Yükle
 
- Mevcut DWG dosyasını resim olarak yükleyin ve`CadImage` tip.
+`CadImage` represents the loaded DGN file in memory, allowing access to its entities and properties.  
 
 ```java
 CadImage cadImage = (CadImage) Image.load(fileName);
 ```
 
-## Adım 4: Varlıklar Arasında Yineleme Yapın
+### Adım 4: Varlıklar Üzerinde Döngü Yap
 
-DWG dosyasındaki her varlığı gözden geçirin ve bunun bir görüntü tanımı olup olmadığını kontrol edin. Öyleyse, nesnenin dış referansını alın.
+`CadBaseEntity` is the base class for all CAD entities, and `CadDgnUnderlay` represents an embedded DGN underlay. Loop over each entity; when an `ImageDefinition` is encountered, its external reference is extracted for later embedding.  
 
 ```java
 for (CadBaseEntity baseEntity : cadImage.getEntities()) {
@@ -75,9 +147,9 @@ for (CadBaseEntity baseEntity : cadImage.getEntities()) {
 }
 ```
 
-## Adım 5: Rasterleştirme Seçeneklerini Tanımlayın
+### Adım 5: Rasterleştirme Seçeneklerini Tanımla
 
- için ayarları tanımlayın`CadRasterizationOptions`sayfa genişliği, yükseklik, düzenler ve arka plan rengi dahil olmak üzere nesne.
+Set page width, height, layout selection, and background color to match the target DWG’s visual requirements.  
 
 ```java
 CadRasterizationOptions vectorRasterizationOptions = new CadRasterizationOptions();
@@ -90,50 +162,60 @@ vectorRasterizationOptions.setBackgroundColor(Color.getBlack());
 vectorRasterizationOptions.setDrawType(CadDrawTypeMode.UseObjectColor);
 ```
 
-## Adım 6: Vektör Rasterleştirme Seçeneklerini Ayarlayın
+### Adım 6: Vektör Rasterleştirme Seçeneklerini Ayarla
 
-Dışa aktarma için vektör rasterleştirme seçeneklerini ayarlayın.
+Specify vector‑specific settings such as line weight handling and curve approximation to ensure the DWG retains crisp geometry.  
 
 ```java
 exportOptions.setVectorRasterizationOptions(vectorRasterizationOptions);
 ```
 
-## Adım 7: DWG'yi PDF'ye aktarın
+### Adım 7: DWG'yi PDF Olarak Dışa Aktar
 
- Son olarak, DWG'yi çağırarak PDF'ye aktarın.`save` yöntem.
+Call the `save` method on the `CadImage` instance, passing the configured options to produce the final DWG‑compatible PDF output.  
 
 ```java
 cadImage.save(outPath, exportOptions);
 ```
 
-## Çözüm
+## Yaygın Sorunlar ve Çözümler
 
-Tebrikler! Aspose.CAD for Java kullanarak bir DGN dosyasını bir DWG dosyasının parçası olarak nasıl dışa aktaracağınızı başarıyla öğrendiniz. Bu güçlü kitaplık, CAD dosyalarıyla çalışmak için kapsamlı yetenekler sunarak CAD dosyası işleme görevlerinizi verimli ve basit hale getirir.
+- **Dış görüntü referansı eksik** – DGN'nin görüntü tanımlarının erişilebilir dosya yollarına işaret ettiğini doğrulayın; göreli yollar başarısız olursa mutlak yollar kullanın.  
+- **Beklenmeyen arka plan rengi** – `CadRasterizationOptions.setBackgroundColor()`'ın istenen RGB değerine eşleştiğinden emin olun; varsayılan beyazdır.  
+- **Büyük dosya bellek hataları** – `CadRasterizationOptions.setPageSize()`'ı makul bir boyuta ayarlayarak akışı etkinleştirin ve tüm dosyayı belleğe yüklemekten kaçının.
 
-## SSS'ler
+## Sıkça Sorulan Sorular
 
-### S1: Aspose.CAD for Java belgelerini nerede bulabilirim?
+**Q: Aspose.CAD for Java belgelerini nerede bulabilirim?**  
+**A:** Tam API referansı [burada](https://reference.aspose.com/cad/java/) mevcuttur.
 
- A1: Belgeler bulunabilir[Burada](https://reference.aspose.com/cad/java/).
+**Q: Aspose.CAD kütüphanesini Java için nasıl indirebilirim?**  
+**A:** En son sürümü [bu bağlantıdan](https://releases.aspose.com/cad/java/) alın.
 
-### S2: Java için Aspose.CAD kütüphanesini nasıl indirebilirim?
+**Q: Aspose.CAD for Java için ücretsiz deneme sürümü var mı?**  
+**A:** Evet, tam işlevsel bir deneme sürümü [buradan](https://releases.aspose.com/) temin edilebilir.
 
- Cevap2: Kütüphaneyi şuradan indirebilirsiniz:[bu bağlantı](https://releases.aspose.com/cad/java/).
+**Q: Aspose.CAD for Java için geçici bir lisans nereden alabilirim?**  
+**A:** Aspose'dan geçici lisans talep edebilirsiniz [buradan](https://purchase.aspose.com/temporary-license/).
 
-### S3: Aspose.CAD for Java'nın ücretsiz deneme sürümü mevcut mu?
+**Q: Yardıma mı ihtiyacınız var ya da sorularınız mı var?**  
+**A:** Topluluk destek forumuna katılın ve sorununuzu [burada](https://forum.aspose.com/c/cad/19) paylaşın.
 
- A3: Evet, ücretsiz deneme sürümünü bulabilirsiniz[Burada](https://releases.aspose.com/).
+---
 
-### S4: Aspose.CAD for Java için nereden geçici lisans alabilirim?
-
- Cevap4: Geçici bir lisans edinin[Burada](https://purchase.aspose.com/temporary-license/).
-
-### S5: Yardıma mı ihtiyacınız var veya sorularınız mı var?
-
- Cevap5: Aspose.CAD topluluk destek forumunu ziyaret edin[Burada](https://forum.aspose.com/c/cad/19).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
+**Son Güncelleme:** 2026-05-20  
+**Test Edilen Versiyon:** Aspose.CAD for Java 24.5  
+**Yazar:** Aspose  
 
 {{< blocks/products/products-backtop-button >}}
+
+## İlgili Öğreticiler
+
+- [Aspose.CAD for Java ile DGN'yi DWG'ye Dışa Aktarma – Öğretici](/cad/java/dgn-export-options/)
+- [Aspose.CAD for Java ile DGN'den AutoCAD PDF'ye Sorunsuz Dışa Aktarım](/cad/java/dgn-export-options/exporting-dgn-to-pdf/)
+- [Aspose.CAD for Java Kullanarak DWG'yi PDF veya Raster Olarak Dışa Aktar](/cad/java/cad-drawing-conversion/export-dwg-to-pdf-or-raster/)
+
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}

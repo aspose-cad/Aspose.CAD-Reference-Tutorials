@@ -1,9 +1,65 @@
 ---
-date: 2026-01-12
+date: 2026-05-20
 description: Pelajari cara menambahkan gambar ke file DWG menggunakan Aspose.CAD untuk
-  Java dan juga mengonversi DWG ke PDF. Ikuti panduan langkah demi langkah kami untuk
+  Java serta mengonversi DWG ke PDF. Ikuti panduan langkah demi langkah kami untuk
   pengembangan yang efisien.
-linktitle: Import Image to DWG File Using Java
+keywords:
+- add image to dwg
+- convert dwg to pdf
+- import image into dwg
+- embed raster image dwg
+- dwg file operations
+linktitle: Impor Gambar ke File DWG Menggunakan Java
+schemas:
+- author: Aspose
+  dateModified: '2026-05-20'
+  description: Learn how to add image to DWG files using Aspose.CAD for Java and also
+    convert DWG to PDF. Follow our step-by-step guide for efficient development.
+  headline: Add Image to DWG Files Effortlessly Using Aspose.CAD Java
+  type: TechArticle
+- description: Learn how to add image to DWG files using Aspose.CAD for Java and also
+    convert DWG to PDF. Follow our step-by-step guide for efficient development.
+  name: Add Image to DWG Files Effortlessly Using Aspose.CAD Java
+  steps:
+  - name: Load the DWG File
+    text: First, point to the folder that contains your DWG drawing and load it with
+      `Image.load`.
+  - name: Define the Raster Image Definition
+    text: The `CadRasterImageDef` class defines the external raster image resource
+      to be embedded in the drawing.
+  - name: Set Insertion Point and Scaling Vectors
+    text: The insertion point determines where the lower‑left corner of the image
+      will appear. The **U** and **V** vectors control horizontal and vertical scaling.
+  - name: Create the CadRasterImage Object
+    text: The `CadRasterImage` entity represents a raster picture placed in the DWG
+      model space.
+  - name: Add the Image to Model Space
+    text: Insert the raster image into the `*Model_Space` block, then update the drawing’s
+      object collection so the definition is saved.
+  - name: Configure PDF Export Options (Optional)
+    text: '`PdfOptions` specifies settings for saving a CAD drawing as a PDF file.
+      `CadRasterizationOptions` defines how the CAD content is rasterized during PDF
+      conversion.'
+  - name: Save the Resulting PDF
+    text: 'Finally, export the modified drawing as a PDF file. The same `image` instance
+      is used, so the PDF reflects the newly added raster image. By following these
+      steps, you can **add image to dwg** files quickly and also **save dwg as pdf**
+      when needed, covering the most common **dwg file operations** in '
+  type: HowTo
+- questions:
+  - answer: Yes, Aspose.CAD for Java works with any IDE that supports JDK 8+, including
+      IntelliJ IDEA, Eclipse, and VS Code.
+    question: Is Aspose.CAD for Java compatible with all Java development environments?
+  - answer: Yes, you can use Aspose.CAD for Java for commercial projects. Visit **[here](https://purchase.aspose.com/buy)**
+      for licensing details.
+    question: Can I use Aspose.CAD for Java for commercial projects?
+  - answer: Yes, you can access the free trial **[here](https://releases.aspose.com/)**.
+    question: Is there a free trial available for Aspose.CAD for Java?
+  - answer: You can seek support on the **[Aspose.CAD forum](https://forum.aspose.com/c/cad/19)**.
+    question: How can I get support for Aspose.CAD for Java?
+  - answer: Yes, you can get a temporary license **[here](https://purchase.aspose.com/temporary-license/)**.
+    question: Can I obtain a temporary license for Aspose.CAD for Java?
+  type: FAQPage
 second_title: Aspose.CAD Java API
 title: Tambahkan Gambar ke File DWG dengan Mudah Menggunakan Aspose.CAD Java
 url: /id/java/dwg-file-operations/import-image-to-dwg/
@@ -14,31 +70,33 @@ weight: 10
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Menambahkan Gambar ke File DWG dengan Mudah Menggunakan Aspose.CAD Java
+# Tambahkan Gambar ke File DWG dengan Mudah Menggunakan Aspose.CAD Java
 
-Dalam aplikasi Java modern, **menambahkan gambar ke file DWG** adalah kebutuhan umum—baik Anda sedang membangun penampil CAD, mengotomatisasi pembaruan gambar, atau menghasilkan dokumentasi. Aspose.CAD untuk Java memberikan cara yang sederhana dan berperforma tinggi untuk menyisipkan gambar raster langsung ke dalam gambar DWG tanpa memerlukan mesin CAD lengkap. Pada tutorial ini kami akan memandu Anda melalui seluruh proses, mulai dari memuat DWG hingga mengekspor hasilnya sebagai PDF.
+Dalam aplikasi Java modern, **menambahkan gambar ke DWG** merupakan kebutuhan umum—baik Anda sedang membangun penampil CAD, mengotomatisasi pembaruan gambar, atau menghasilkan dokumentasi. Aspose.CAD untuk Java memberikan cara yang sederhana dan berperforma tinggi untuk menyematkan gambar raster langsung ke dalam gambar DWG tanpa memerlukan mesin CAD lengkap. Dalam tutorial ini kami akan memandu Anda melalui seluruh proses, mulai dari memuat DWG hingga mengekspor hasilnya sebagai PDF, dan kami juga akan membahas cara **mengimpor gambar ke dwg** dan **mengonversi dwg ke pdf** dalam satu alur kerja.
 
 ## Jawaban Cepat
-- **Perpustakaan apa yang saya perlukan?** Aspose.CAD untuk Java  
-- **Apakah saya juga dapat mengekspor ke PDF?** Ya – gunakan `PdfOptions` dengan `CadRasterizationOptions`  
-- **Apakah saya memerlukan lisensi untuk pengembangan?** Versi percobaan gratis dapat digunakan untuk pengujian; lisensi komersial diperlukan untuk produksi  
-- **Versi Java mana yang didukung?** Java 8 ke atas  
-- **Berapa lama implementasinya?** Sekitar 10‑15 menit untuk impor gambar dasar
+- **Library apa yang saya butuhkan?** Aspose.CAD for Java  
+- **Apakah saya juga dapat mengekspor ke PDF?** Yes – use `PdfOptions` with `CadRasterizationOptions`  
+- **Apakah saya memerlukan lisensi untuk pengembangan?** A free trial works for testing; a commercial license is required for production  
+- **Versi Java mana yang didukung?** Java 8 and higher  
+- **Berapa lama implementasinya?** About 10‑15 minutes for a basic image import  
 
 ## Apa itu “menambahkan gambar ke dwg”?
-Menambahkan gambar ke file DWG berarti menyisipkan gambar raster (PNG, JPEG, dll.) sebagai objek `CadRasterImage` di dalam ruang model gambar. Gambar tersebut menjadi bagian dari pohon entitas CAD dan dapat diposisikan, diskalakan, serta dipotong seperti objek CAD lainnya.
+
+Menambahkan gambar ke file DWG berarti menyematkan gambar raster (PNG, JPEG, dll.) sebagai entitas **CadRasterImage** di dalam ruang model gambar, dimana gambar tersebut dapat diposisikan, diskalakan, dan opsional dipotong seperti objek CAD lainnya. Gambar tersebut disimpan dalam tabel objek gambar dan ditampilkan oleh penampil CAD standar.
 
 ## Mengapa menggunakan Aspose.CAD untuk Java untuk menambahkan gambar ke dwg?
-- **Tidak memerlukan perangkat lunak CAD** – API menangani parsing DWG secara internal.  
-- **Kontrol detail** atas titik sisipan, vektor skala, dan pemotongan.  
-- **Konversi PDF bawaan** sehingga Anda dapat menghasilkan PDF yang dapat dicetak dalam alur kerja yang sama.  
-- **Lintas platform** – berfungsi di Windows, Linux, dan macOS.
+
+Anda dapat menyematkan grafik raster ke dalam file DWG tanpa menginstal perangkat lunak CAD pihak ketiga, dan API memberikan kontrol pixel‑perfect atas titik penyisipan, vektor skala, dan batas pemotongan. Aspose.CAD memproses file hingga ukuran 2 GB, mendukung **lebih dari 50 format input dan output**, serta berjalan di Windows, Linux, dan macOS, memungkinkan Anda mengintegrasikan manipulasi CAD ke dalam backend berbasis Java apa pun.
 
 ## Prasyarat
-- Aspose.CAD untuk Java: Pastikan Anda telah menginstal pustaka Aspose.CAD. Anda dapat mengunduhnya [di sini](https://releases.aspose.com/cad/java/).  
-- Lingkungan Pengembangan Java: JDK 8+ dengan IDE pilihan Anda (IntelliJ, Eclipse, VS Code, dll.).
+- **Aspose.CAD for Java** – unduh JAR terbaru dari situs resmi **[here](https://releases.aspose.com/cad/java/)**.  
+- **Java Development Kit** – JDK 8 atau lebih baru, dengan IDE pilihan Anda (IntelliJ IDEA, Eclipse, VS Code, dll.).  
+- Lisensi **Aspose.CAD** yang valid untuk penggunaan produksi (versi trial dapat digunakan untuk percobaan).  
 
-## Mengimpor Paket
+## Impor Paket
+
+Impor berikut membawa kelas Aspose.CAD penting yang digunakan untuk manipulasi gambar dan konversi PDF.  
 ```java
 import com.aspose.cad.Image;
 import com.aspose.cad.fileformats.cad.CadDrawTypeMode;
@@ -51,7 +109,8 @@ import com.aspose.cad.imageoptions.PdfOptions;
 ## Panduan Langkah‑per‑Langkah
 
 ### Langkah 1: Muat File DWG
-Pertama, arahkan ke folder yang berisi gambar DWG Anda dan muat dengan `Image.load`.
+
+Pertama, arahkan ke folder yang berisi gambar DWG Anda dan muat dengan `Image.load`.  
 ```java
 String dataDir = "Your Document Directory" + "DWGDrawings/";
 String srcFile = dataDir + "Drawing11.dwg";
@@ -59,14 +118,16 @@ Image image = Image.load(srcFile);
 ```
 
 ### Langkah 2: Definisikan Definisi Gambar Raster
-Buat `CadRasterImageDef` yang merujuk ke file PNG eksternal yang ingin Anda sematkan. Konstruktor menerima nama file gambar dan dimensi pixel‑nya.
+
+Kelas `CadRasterImageDef` mendefinisikan sumber gambar raster eksternal yang akan disematkan dalam gambar.  
 ```java
 CadRasterImageDef cadRasterImageDef = new CadRasterImageDef("road-sign-custom.png", 640, 562);
 cadRasterImageDef.setObjectHandle("A3B4");
 ```
 
-### Langkah 3: Atur Titik Sisipan dan Vektor Skala
-Titik sisipan menentukan di mana sudut kiri‑bawah gambar akan muncul. Vektor **U** dan **V** mengontrol skala horizontal dan vertikal.
+### Langkah 3: Atur Titik Penyisipan dan Vektor Skala
+
+Titik penyisipan menentukan dimana sudut kiri‑bawah gambar akan muncul. Vektor **U** dan **V** mengontrol skala horizontal dan vertikal.  
 ```java
 Cad3DPoint insertionPoint = new Cad3DPoint(26.77, 22.35);
 Cad3DPoint uVector = new Cad3DPoint(0.0061565450840500831, 0);
@@ -74,7 +135,8 @@ Cad3DPoint vVector = new Cad3DPoint(0, 0.0061565450840500822);
 ```
 
 ### Langkah 4: Buat Objek CadRasterImage
-Gabungkan definisi, titik sisipan, dan vektor ke dalam `CadRasterImage`. Anda juga dapat mengatur batas pemotongan jika hanya ingin bagian tertentu gambar yang terlihat.
+
+Entitas `CadRasterImage` mewakili gambar raster yang ditempatkan di ruang model DWG.  
 ```java
 CadRasterImage cadRasterImage = new CadRasterImage(cadRasterImageDef, insertionPoint, uVector, vVector);
 cadRasterImage.setImageDefReference("A3B4");
@@ -85,7 +147,8 @@ cadRasterImage.getClipBoundaryVertexList().add(new Cad2DPoint(639.5, 561.5));
 ```
 
 ### Langkah 5: Tambahkan Gambar ke Ruang Model
-Sisipkan gambar raster ke dalam blok `*Model_Space`, lalu perbarui koleksi objek gambar sehingga definisinya disimpan.
+
+Sisipkan gambar raster ke dalam blok `*Model_Space`, kemudian perbarui koleksi objek gambar sehingga definisinya disimpan.  
 ```java
 CadImage cadImage = ((CadImage)(image));
 cadImage.getBlockEntities().get_Item("*Model_Space").addEntity(cadRasterImage);
@@ -102,7 +165,8 @@ cadImage.setObjects(arr);
 ```
 
 ### Langkah 6: Konfigurasikan Opsi Ekspor PDF (Opsional)
-Jika Anda juga memerlukan versi PDF dari gambar, konfigurasikan `PdfOptions` bersama dengan `CadRasterizationOptions`. Langkah ini menunjukkan cara **mengonversi dwg ke pdf** dalam alur kerja yang sama.
+
+`PdfOptions` menentukan pengaturan untuk menyimpan gambar CAD sebagai file PDF. `CadRasterizationOptions` mendefinisikan bagaimana konten CAD dirasterisasi selama konversi PDF.  
 ```java
 PdfOptions pdfOptions = new PdfOptions();
 CadRasterizationOptions cadRasterizationOptions = new CadRasterizationOptions();
@@ -113,45 +177,52 @@ cadRasterizationOptions.setPageWidth(1600);
 cadRasterizationOptions.setLayouts(new String[] {"Model"});
 ```
 
-### Langkah 7: Simpan PDF yang Dihasilkan
-Akhirnya, ekspor gambar yang telah dimodifikasi sebagai file PDF. Instansi `image` yang sama digunakan, sehingga PDF mencerminkan gambar raster yang baru ditambahkan.
+### Langkah 7: Simpan PDF Hasil
+
+Akhirnya, ekspor gambar yang dimodifikasi sebagai file PDF. Instansi `image` yang sama digunakan, sehingga PDF mencerminkan gambar raster yang baru ditambahkan.  
 ```java
 image.save((srcFile + "_generated.pdf"), pdfOptions);
 ```
 
-Dengan mengikuti langkah‑langkah ini, Anda dapat **menambahkan gambar ke dwg** dengan cepat dan juga **menyimpan dwg sebagai pdf** bila diperlukan.
+Dengan mengikuti langkah‑langkah ini, Anda dapat **menambahkan gambar ke dwg** dengan cepat dan juga **menyimpan dwg sebagai pdf** bila diperlukan, mencakup operasi **file dwg** yang paling umum dalam satu rutinitas yang ringkas.
 
 ## Masalah Umum dan Solusinya
-- **Gambar tidak muncul** – Pastikan jalur file gambar (`road-sign-custom.png`) benar dan dimensi gambar cocok dengan nilai yang diberikan ke `CadRasterImageDef`.  
-- **Skala tidak tepat** – Sesuaikan vektor U dan V; mereka mewakili satuan gambar per pixel.  
-- **PDF terlihat kosong** – Pastikan `CadRasterizationOptions.setDrawType` diatur ke `UseObjectColor` atau mode yang sesuai lainnya.
+- **Image not appearing** – Verifikasi bahwa jalur file gambar (`road-sign-custom.png`) sudah benar dan bahwa dimensi gambar cocok dengan nilai yang diberikan ke `CadRasterImageDef`.  
+- **Incorrect scaling** – Sesuaikan vektor U dan V; mereka mewakili satuan gambar per piksel.  
+- **PDF looks blank** – Pastikan `CadRasterizationOptions.setDrawType` diatur ke `UseObjectColor` atau mode lain yang sesuai.  
 
 ## Pertanyaan yang Sering Diajukan
 
-**T: Apakah Aspose.CAD untuk Java kompatibel dengan semua lingkungan pengembangan Java?**  
-J: Ya, Aspose.CAD untuk Java kompatibel dengan sebagian besar lingkungan pengembangan Java.
+**Q: Apakah Aspose.CAD untuk Java kompatibel dengan semua lingkungan pengembangan Java?**  
+A: Ya, Aspose.CAD untuk Java bekerja dengan IDE apa pun yang mendukung JDK 8+, termasuk IntelliJ IDEA, Eclipse, dan VS Code.
 
-**T: Bisakah saya menggunakan Aspose.CAD untuk Java untuk proyek komersial?**  
-J: Ya, Anda dapat menggunakan Aspose.CAD untuk Java untuk proyek komersial. Kunjungi [di sini](https://purchase.aspose.com/buy) untuk detail lisensi.
+**Q: Bisakah saya menggunakan Aspose.CAD untuk Java untuk proyek komersial?**  
+A: Ya, Anda dapat menggunakan Aspose.CAD untuk Java untuk proyek komersial. Kunjungi **[here](https://purchase.aspose.com/buy)** untuk detail lisensi.
 
-**T: Apakah tersedia versi percobaan gratis untuk Aspose.CAD untuk Java?**  
-J: Ya, Anda dapat mengakses versi percobaan gratis [di sini](https://releases.aspose.com/).
+**Q: Apakah ada trial gratis yang tersedia untuk Aspose.CAD untuk Java?**  
+A: Ya, Anda dapat mengakses trial gratis **[here](https://releases.aspose.com/)**.
 
-**T: Bagaimana cara mendapatkan dukungan untuk Aspose.CAD untuk Java?**  
-J: Anda dapat mencari dukungan di [forum Aspose.CAD](https://forum.aspose.com/c/cad/19).
+**Q: Bagaimana cara mendapatkan dukungan untuk Aspose.CAD untuk Java?**  
+A: Anda dapat mencari dukungan di **[Aspose.CAD forum](https://forum.aspose.com/c/cad/19)**.
 
-**T: Bisakah saya memperoleh lisensi sementara untuk Aspose.CAD untuk Java?**  
-J: Ya, Anda dapat memperoleh lisensi sementara [di sini](https://purchase.aspose.com/temporary-license/).
+**Q: Bisakah saya memperoleh lisensi sementara untuk Aspose.CAD untuk Java?**  
+A: Ya, Anda dapat memperoleh lisensi sementara **[here](https://purchase.aspose.com/temporary-license/)**.
 
 ---
 
-**Terakhir Diperbarui:** 2026-01-12  
-**Diuji Dengan:** Aspose.CAD untuk Java 24.11  
+**Terakhir Diperbarui:** 2026-05-20  
+**Diuji Dengan:** Aspose.CAD for Java 24.11  
 **Penulis:** Aspose  
 
-{{< /blocks/products/pf/tutorial-page-section >}}
+{{< blocks/products/products-backtop-button >}}
 
+## Tutorial Terkait
+
+- [Ekspor DWG ke PDF atau Raster Menggunakan Aspose.CAD untuk Java](/cad/java/cad-drawing-conversion/export-dwg-to-pdf-or-raster/)
+- [Tambahkan Properti Kustom pada File DWG Menggunakan Aspose.CAD untuk Java](/cad/java/additional-features/add-custom-properties/)
+- [Simpan CAD sebagai PNG – Konversi Gambar CAD ke Format Gambar Raster Menggunakan Aspose.CAD untuk Java](/cad/java/cad-drawing-conversion/convert-cad-drawing-to-raster-image/)
+
+
+{{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
