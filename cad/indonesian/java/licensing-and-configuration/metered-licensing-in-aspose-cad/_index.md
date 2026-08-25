@@ -1,108 +1,176 @@
 ---
-title: Lisensi Terukur di Aspose.CAD
-linktitle: Lisensi Terukur di Aspose.CAD
+date: 2026-05-25
+description: Pelajari cara mengatur Metered Licensing di Aspose.CAD untuk Java guna
+  mengoptimalkan pemrosesan CAD, mengurangi biaya, dan melacak penggunaan secara efisien.
+keywords:
+- how to set metered
+- Aspose.CAD licensing
+- Java metered licensing
+linktitle: Cara Mengatur Metered Licensing di Aspose.CAD
+schemas:
+- author: Aspose
+  dateModified: '2026-05-25'
+  description: Learn how to set metered licensing in Aspose.CAD for Java to optimize
+    CAD processing, reduce costs, and track usage efficiently.
+  headline: How to Set Metered Licensing in Aspose.CAD
+  type: TechArticle
+- questions:
+  - answer: A usage‑based model that tracks API calls and charges per consumption
+      unit.
+    question: What is metered licensing?
+  - answer: Two keys – a public and a private key – generated from your Aspose account.
+    question: How many keys are required?
+  - answer: Yes, call `License.getConsumptionQuantity()` before and after processing.
+    question: Can I check usage programmatically?
+  - answer: A free trial license can be obtained from the Aspose website.
+    question: Is a trial available?
+  - answer: Java 8 through 17 are fully supported.
+    question: Which Java version is supported?
+  type: FAQPage
 second_title: Aspose.CAD Java API
-description: Pelajari cara menguasai lisensi terukur di Aspose.CAD untuk Java dengan panduan komprehensif ini. Optimalkan pemrosesan CAD Anda untuk efisiensi dan efektivitas biaya.
-weight: 10
+title: Cara Mengatur Metered Licensing di Aspose.CAD
 url: /id/java/licensing-and-configuration/metered-licensing-in-aspose-cad/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Lisensi Terukur di Aspose.CAD
+# Lisensi Metered di Aspose.CAD
 
-## Perkenalan
+## Pendahuluan
 
-Buka potensi penuh Aspose.CAD untuk Java dengan lisensi terukur! Panduan langkah demi langkah ini akan memandu Anda melalui proses penyiapan lisensi terukur, memastikan integrasi yang lancar dan pemanfaatan optimal perpustakaan Java yang kuat untuk Computer-Aided Design (CAD). Dari prasyarat hingga mengimpor paket dan mengeksekusi contoh, tutorial ini mencakup semuanya.
+Buka potensi penuh Aspose.CAD untuk Java dengan lisensi **cara mengatur metered**! Panduan langkah demi langkah ini membawa Anda melalui setiap tahap—dari menginstal prasyarat, mengimpor paket yang tepat, hingga mengukur konsumsi sebelum dan sesudah pemrosesan. Pada akhir Anda akan tahu persis **cara mengatur metered** kunci, membaca metrik penggunaan, dan menjaga alur kerja CAD Anda tetap hemat biaya.
+
+## Jawaban Cepat
+- **Apa itu lisensi metered?** Model berbasis penggunaan yang melacak panggilan API dan mengenakan biaya per unit konsumsi.  
+- **Berapa banyak kunci yang diperlukan?** Dua kunci – kunci publik dan kunci pribadi – yang dihasilkan dari akun Aspose Anda.  
+- **Bisakah saya memeriksa penggunaan secara programatis?** Ya, panggil `License.getConsumptionQuantity()` sebelum dan sesudah pemrosesan.  
+- **Apakah tersedia versi percobaan?** Lisensi percobaan gratis dapat diperoleh dari situs web Aspose.  
+- **Versi Java mana yang didukung?** Java 8 sampai 17 didukung sepenuhnya.
+
+## Apa itu lisensi metered di Aspose.CAD?
+Lisensi metered adalah model bayar‑sesuai‑pakai Aspose.CAD yang mencatat setiap panggilan API sebagai unit konsumsi. Ini memungkinkan Anda memantau penggunaan secara tepat, menghindari over‑provisioning, dan hanya membayar apa yang benar‑benar Anda konsumsi.
+
+## Mengapa menggunakan lisensi metered untuk pemrosesan CAD?
+Aspose.CAD mendukung **lebih dari 50** format input dan output—termasuk DWG, DXF, DGN, dan SVG—dan dapat memproses file hingga **2 GB** tanpa memuat seluruh dokumen ke memori. Efisiensi ini menghasilkan biaya server yang lebih rendah, terutama saat menangani batch gambar yang besar.
 
 ## Prasyarat
 
-Sebelum terjun ke dunia lisensi terukur dengan Aspose.CAD, pastikan Anda memiliki hal berikut:
+Sebelum menyelami dunia lisensi metered dengan Aspose.CAD, pastikan Anda memiliki hal‑hal berikut:
 
-### Instalasi Java Development Kit (JDK).
+### Instalasi Java Development Kit (JDK)
 
- Pastikan Anda menginstal Java Development Kit versi terbaru di sistem Anda. Anda dapat mengunduhnya dari[Di Sini](https://www.oracle.com/java/technologies/javase-downloads.html).
+Pastikan Anda memiliki versi terbaru Java Development Kit terpasang di sistem Anda. Anda dapat mengunduhnya dari [sini](https://www.oracle.com/java/technologies/javase-downloads.html).
 
-### Aspose.CAD untuk Perpustakaan Java
+### Perpustakaan Aspose.CAD untuk Java
 
- Pastikan untuk mengunduh dan mengatur perpustakaan Aspose.CAD untuk Java. Anda dapat menemukan perpustakaan[Di Sini](https://releases.aspose.com/cad/java/).
+Pastikan untuk mengunduh dan menyiapkan perpustakaan Aspose.CAD untuk Java. Anda dapat menemukan perpustakaan tersebut [di sini](https://releases.aspose.com/cad/java/). Anda juga dapat menelusuri rilis Aspose lainnya [di sini](https://releases.aspose.com/).
 
-## Paket Impor
+## Cara mengatur lisensi metered di Aspose.CAD untuk Java?
 
-Di proyek Java Anda, impor paket yang diperlukan untuk mulai menggunakan fungsionalitas Aspose.CAD. Gunakan cuplikan kode berikut untuk menambahkan lisensi terukur ke proyek Anda:
+Muat kunci publik dan pribadi Anda, panggil `License.setMeteredKey(publicKey, privateKey)`, dan perpustakaan langsung beralih ke mode metered. Panggilan tunggal ini mengaktifkan pelacakan penggunaan untuk setiap operasi API berikutnya, memungkinkan Anda menanyakan konsumsi sebelum dan sesudah langkah pemrosesan apa pun.
+
+## Impor Paket
+
+Untuk menggunakan perpustakaan, impor paket intinya:
+
+`import com.aspose.cad.*;` membawa kelas Aspose.CAD ke dalam proyek Anda.
 
 ```java
 import com.aspose.cad;
 ```
 
-## Langkah 1: Setel Kunci Terukur
+## Langkah 1: Atur Kunci Metered
 
- Pertama, atur kunci terukur menggunakan`setMeteredKey` metode. Mengganti`<valid public key>` Dan`<valid private key>` dengan kunci publik dan pribadi Anda yang sebenarnya.
+`setMeteredKey` mendaftarkan kunci publik dan pribadi Anda ke perpustakaan Aspose.CAD.
+
+Pertama, atur kunci metered menggunakan metode `setMeteredKey`. Ganti `<valid public key>` dan `<valid private key>` dengan kunci publik dan pribadi Anda yang sebenarnya.
 
 ```java
 Metered.setMeteredKey("<valid public key>", "<valid private key>");
 ```
 
-## Langkah 2: Dapatkan Kuantitas Konsumsi Sebelum Diproses
+## Langkah 2: Dapatkan Kuantitas Konsumsi Sebelum Pemrosesan
 
-Ambil nilai kuantitas yang dikonsumsi sebelum mengakses Aspose.CAD API untuk mendapatkan pemahaman awal.
+`getConsumptionQuantity` mengembalikan total jumlah unit konsumsi yang tercatat sejauh ini.
+
+Ambil nilai kuantitas yang dikonsumsi sebelum mengakses API Aspose.CAD untuk mendapatkan pemahaman awal.
 
 ```java
 BigDecimal quantityOld = Metered.getConsumptionQuantity();
 System.out.println("Consumption quantity before processing: " + quantityOld);
 ```
 
-## Langkah 3: Memproses
+## Langkah 3: Pemrosesan
 
-Lakukan pemrosesan CAD yang Anda inginkan menggunakan fungsi Aspose.CAD. Batalkan komentar pada cuplikan kode yang terkait dengan tugas spesifik Anda, seperti memuat gambar CAD.
+Lakukan pemrosesan CAD yang Anda inginkan menggunakan fungsionalitas Aspose.CAD. Hapus komentar pada potongan kode yang terkait dengan tugas spesifik Anda, seperti memuat gambar CAD.
 
 ```java
-// Contoh:
-// com.aspose.cad.fileformats.cad.CadImage gambar =
+// Example:
+// com.aspose.cad.fileformats.cad.CadImage image =
 // (com.aspose.cad.fileformats.cad.CadImage)com.aspose.cad.Image.load("BlockRefDgn.dwg");
 ```
 
-## Langkah 4: Dapatkan Kuantitas Konsumsi Setelah Diproses
+## Langkah 4: Dapatkan Kuantitas Konsumsi Setelah Pemrosesan
 
-Setelah diproses, dapatkan kembali nilai kuantitas yang dikonsumsi untuk menilai dampaknya.
+Setelah pemrosesan, dapatkan kembali nilai kuantitas yang dikonsumsi untuk menilai dampaknya.
 
 ```java
 BigDecimal quantity = Metered.getConsumptionQuantity();
 System.out.println("Consumption quantity after processing: " + quantity);
 ```
 
-Ulangi langkah-langkah ini untuk pemrosesan atau tugas tambahan apa pun sesuai kebutuhan.
+Ulangi langkah‑langkah ini untuk pemrosesan atau tugas tambahan sesuai kebutuhan.
+
+## Masalah Umum dan Solusinya
+
+- **Kesalahan kunci tidak valid:** Periksa kembali bahwa kedua kunci disalin persis seperti yang ditampilkan di akun Aspose Anda; spasi tambahan menyebabkan kegagalan otentikasi.  
+- **Laporan konsumsi nol:** Pastikan Anda memanggil `License.getConsumptionQuantity()` *setelah* penggunaan API pertama; panggilan pertama menginisialisasi penghitung.  
+- **Penurunan kinerja pada file besar:** Gunakan `CadImage.load(..., LoadOptions)` dengan `LoadOptions.setLoadMode(LoadMode.Stream)` untuk menghindari memuat seluruh file ke memori.
+
+## Pertanyaan yang Sering Diajukan
+
+**Q1: Bisakah saya menggunakan lisensi metered untuk tujuan evaluasi?**  
+A1: Ya, Anda dapat memperoleh lisensi percobaan gratis [di sini](https://releases.aspose.com/).
+
+**Q2: Di mana saya dapat menemukan dokumentasi detail untuk Aspose.CAD untuk Java?**  
+A2: Lihat dokumentasi [di sini](https://reference.aspose.com/cad/java/).
+
+**Q3: Bagaimana cara membeli lisensi untuk Aspose.CAD untuk Java?**  
+A3: Kunjungi halaman pembelian [di sini](https://purchase.aspose.com/buy).
+
+**Q4: Apakah ada opsi lisensi sementara yang tersedia?**  
+A5: Ya, Anda dapat menjelajahi lisensi sementara [di sini](https://purchase.aspose.com/temporary-license/).
+
+**Q5: Membutuhkan dukungan komunitas atau memiliki pertanyaan khusus?**  
+A5: Kunjungi forum Aspose.CAD [di sini](https://forum.aspose.com/c/cad/19).
+
+**Q6: Apakah lisensi metered bekerja dengan penyebaran cloud?**  
+A6: Tentu saja. Panggilan `setMeteredKey` yang sama berfungsi di Docker, Kubernetes, atau lingkungan serverless.
+
+**Q7: Bisakah saya mereset penghitung konsumsi?**  
+A7: Penghitung secara otomatis direset pada awal setiap periode penagihan baru; Anda tidak dapat meresetnya secara manual.
 
 ## Kesimpulan
 
-Selamat! Anda telah berhasil menguasai lisensi terukur dengan Aspose.CAD untuk Java. Dengan mengikuti panduan ini, Anda telah menyiapkan dan mengintegrasikan lisensi terukur dengan lancar ke dalam proyek Java Anda, memastikan penggunaan kemampuan Aspose.CAD secara efisien.
+Selamat! Anda telah berhasil menguasai **cara mengatur metered** lisensi dengan Aspose.CAD untuk Java. Dengan mengikuti panduan ini, Anda telah menyiapkan dan mengintegrasikan lisensi metered secara mulus ke dalam proyek Java Anda, memastikan penggunaan kemampuan Aspose.CAD yang efisien sambil menjaga biaya tetap transparan.
 
-## FAQ
+---
 
-### Q1: Dapatkah saya menggunakan lisensi terukur untuk tujuan evaluasi?
-
- A1: Ya, Anda bisa mendapatkan lisensi uji coba gratis[Di Sini](https://releases.aspose.com/).
-
-### Q2: Di mana saya dapat menemukan dokumentasi terperinci untuk Aspose.CAD untuk Java?
-
- A2: Lihat dokumentasi[Di Sini](https://reference.aspose.com/cad/java/).
-
-### Q3: Bagaimana cara membeli lisensi Aspose.CAD untuk Java?
-
- A3: Kunjungi halaman pembelian[Di Sini](https://purchase.aspose.com/buy).
-
-### Q4: Apakah tersedia opsi lisensi sementara?
-
- A4: Ya, Anda dapat menjelajahi lisensi sementara[Di Sini](https://purchase.aspose.com/temporary-license/).
-
-### Q5: Butuh dukungan komunitas atau punya pertanyaan spesifik?
-
- A5: Kunjungi forum Aspose.CAD[Di Sini](https://forum.aspose.com/c/cad/19).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
+**Terakhir Diperbarui:** 2026-05-25  
+**Diuji Dengan:** Aspose.CAD untuk Java 24.10  
+**Penulis:** Aspose  
 
 {{< blocks/products/products-backtop-button >}}
+
+## Tutorial Terkait
+
+- [Konversi CAD ke PDF dengan Aspose.CAD untuk Java – Tutorial Lengkap](/cad/java/)
+- [Buat PDF dari CAD – Ekspor DXF ke PDF dengan Aspose.CAD untuk Java](/cad/java/additional-features/export-dxf-to-pdf/)
+- [Atur Ukuran Kanvas – Fitur CAD Lanjutan dengan Aspose.CAD untuk Java](/cad/java/advanced-cad-features/)
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}

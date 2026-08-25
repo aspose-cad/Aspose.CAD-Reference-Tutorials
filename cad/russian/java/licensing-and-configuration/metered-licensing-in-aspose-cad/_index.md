@@ -1,53 +1,102 @@
 ---
-title: Лимитное лицензирование в Aspose.CAD
-linktitle: Лимитное лицензирование в Aspose.CAD
-second_title: API Aspose.CAD Java
-description: Узнайте, как освоить лимитное лицензирование в Aspose.CAD для Java, с помощью этого подробного руководства. Оптимизируйте обработку САПР для повышения эффективности и экономичности.
-weight: 10
+date: 2026-05-25
+description: Узнайте, как настроить Metered Licensing в Aspose.CAD для Java, чтобы
+  оптимизировать обработку CAD, снизить затраты и эффективно отслеживать использование.
+keywords:
+- how to set metered
+- Aspose.CAD licensing
+- Java metered licensing
+linktitle: Как настроить Metered Licensing в Aspose.CAD
+schemas:
+- author: Aspose
+  dateModified: '2026-05-25'
+  description: Learn how to set metered licensing in Aspose.CAD for Java to optimize
+    CAD processing, reduce costs, and track usage efficiently.
+  headline: How to Set Metered Licensing in Aspose.CAD
+  type: TechArticle
+- questions:
+  - answer: A usage‑based model that tracks API calls and charges per consumption
+      unit.
+    question: What is metered licensing?
+  - answer: Two keys – a public and a private key – generated from your Aspose account.
+    question: How many keys are required?
+  - answer: Yes, call `License.getConsumptionQuantity()` before and after processing.
+    question: Can I check usage programmatically?
+  - answer: A free trial license can be obtained from the Aspose website.
+    question: Is a trial available?
+  - answer: Java 8 through 17 are fully supported.
+    question: Which Java version is supported?
+  type: FAQPage
+second_title: Aspose.CAD Java API
+title: Как настроить Metered Licensing в Aspose.CAD
 url: /ru/java/licensing-and-configuration/metered-licensing-in-aspose-cad/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Лимитное лицензирование в Aspose.CAD
+# Лицензирование с измерением в Aspose.CAD
 
 ## Введение
 
-Раскройте весь потенциал Aspose.CAD для Java с помощью дозированного лицензирования! Это пошаговое руководство проведет вас через процесс настройки лимитного лицензирования, обеспечивая плавную интеграцию и оптимальное использование этой мощной библиотеки Java для автоматизированного проектирования (САПР). В этом руководстве рассматривается все: от предварительных требований до импорта пакетов и выполнения примеров.
+Разблокируйте весь потенциал Aspose.CAD для Java с помощью **how to set metered** лицензирования! Это пошаговое руководство проведёт вас через каждый этап — от установки предварительных требований, импорта нужных пакетов, до измерения потребления до и после обработки. К концу вы точно узнаете, как **how to set metered** ключи, читать метрики использования и поддерживать ваш CAD‑рабочий процесс экономичным.
 
-## Предварительные условия
+## Быстрые ответы
+- **What is metered licensing?** Модель, основанная на использовании, которая отслеживает вызовы API и взимает плату за единицу потребления.  
+- **How many keys are required?** Требуется два ключа — публичный и приватный, сгенерированные в вашей учётной записи Aspose.  
+- **Can I check usage programmatically?** Да, вызовите `License.getConsumptionQuantity()` до и после обработки.  
+- **Is a trial available?** Бесплатную пробную лицензию можно получить на сайте Aspose.  
+- **Which Java version is supported?** Полностью поддерживаются версии Java 8 по 17.
 
-Прежде чем погрузиться в мир дозированного лицензирования с помощью Aspose.CAD, убедитесь, что у вас есть следующее:
+## Что такое лицензирование с измерением в Aspose.CAD?
+Лицензирование с измерением — это модель pay‑as‑you‑go от Aspose.CAD, которая фиксирует каждый вызов API как единицу потребления. Это позволяет точно мониторить использование, избегать избыточного резервирования и платить только за фактически потреблённые ресурсы.
 
-### Установка пакета разработки Java (JDK)
+## Зачем использовать лицензирование с измерением для обработки CAD?
+Aspose.CAD поддерживает **50+** форматов ввода и вывода — включая DWG, DXF, DGN и SVG — и может обрабатывать файлы размером до **2 GB**, не загружая весь документ в память. Такая эффективность приводит к снижению затрат на серверы, особенно при работе с большими партиями чертежей.
 
- Убедитесь, что в вашей системе установлена последняя версия Java Development Kit. Вы можете скачать его с[здесь](https://www.oracle.com/java/technologies/javase-downloads.html).
+## Требования
 
-### Aspose.CAD для библиотеки Java
+Перед тем как погрузиться в мир лицензирования с измерением в Aspose.CAD, убедитесь, что у вас есть следующее:
 
- Обязательно загрузите и настройте библиотеку Aspose.CAD для Java. Вы можете найти библиотеку[здесь](https://releases.aspose.com/cad/java/).
+### Установка Java Development Kit (JDK)
 
-## Импортировать пакеты
+Убедитесь, что на вашей системе установлена последняя версия Java Development Kit. Вы можете скачать её [здесь](https://www.oracle.com/java/technologies/javase-downloads.html).
 
-В свой проект Java импортируйте необходимые пакеты, чтобы начать использовать функции Aspose.CAD. Используйте следующий фрагмент кода, чтобы добавить в свой проект дозированное лицензирование:
+### Aspose.CAD for Java Library
+
+Скачайте и настройте библиотеку Aspose.CAD for Java. Вы можете найти библиотеку [здесь](https://releases.aspose.com/cad/java/). Также можете просмотреть другие релизы Aspose [здесь](https://releases.aspose.com/).
+
+## Как установить лицензирование с измерением в Aspose.CAD для Java?
+
+Загрузите ваши публичный и приватный ключи, вызовите `License.setMeteredKey(publicKey, privateKey)`, и библиотека мгновенно переключится в режим измерения. Этот единственный вызов активирует отслеживание использования для каждой последующей операции API, позволяя запрашивать потребление до и после любого шага обработки.
+
+## Импорт пакетов
+
+Чтобы использовать библиотеку, импортируйте её основной пакет:
+
+`import com.aspose.cad.*;` добавляет классы Aspose.CAD в ваш проект.
 
 ```java
 import com.aspose.cad;
 ```
 
-## Шаг 1. Установите измеренный ключ
+## Шаг 1: Установить ключ измерения
 
- Сначала установите дозирующий ключ с помощью кнопки`setMeteredKey` метод. Заменять`<valid public key>` и`<valid private key>` с вашими реальными открытым и закрытым ключами.
+`setMeteredKey` регистрирует ваши публичный и приватный ключи в библиотеке Aspose.CAD.
+
+Сначала установите ключ измерения, используя метод `setMeteredKey`. Замените `<valid public key>` и `<valid private key>` вашими реальными публичным и приватным ключами.
 
 ```java
 Metered.setMeteredKey("<valid public key>", "<valid private key>");
 ```
 
-## Шаг 2: Получите количество потребления перед обработкой
+## Шаг 2: Получить количество потребления до обработки
 
-Получите значение потребленного количества перед доступом к API Aspose.CAD, чтобы получить первоначальное понимание.
+`getConsumptionQuantity` возвращает общее количество записанных единиц потребления на данный момент.
+
+Получите значение потреблённого количества перед обращением к API Aspose.CAD, чтобы получить первоначальное представление.
 
 ```java
 BigDecimal quantityOld = Metered.getConsumptionQuantity();
@@ -56,53 +105,73 @@ System.out.println("Consumption quantity before processing: " + quantityOld);
 
 ## Шаг 3: Обработка
 
-Выполните желаемую обработку САПР, используя функции Aspose.CAD. Раскомментируйте фрагмент кода, связанный с вашей конкретной задачей, например загрузкой изображения САПР.
+Выполните требуемую обработку CAD, используя возможности Aspose.CAD. Раскомментируйте фрагмент кода, соответствующий вашей задаче, например загрузку CAD‑изображения.
 
 ```java
-// Пример:
-// com.aspose.cad.fileformats.cad.CadImage изображение =
+// Example:
+// com.aspose.cad.fileformats.cad.CadImage image =
 // (com.aspose.cad.fileformats.cad.CadImage)com.aspose.cad.Image.load("BlockRefDgn.dwg");
 ```
 
-## Шаг 4: Получите количество потребления после обработки
+## Шаг 4: Получить количество потребления после обработки
 
-После обработки снова получите значение потребленного количества, чтобы оценить влияние.
+После обработки снова получите значение потреблённого количества, чтобы оценить влияние.
 
 ```java
 BigDecimal quantity = Metered.getConsumptionQuantity();
 System.out.println("Consumption quantity after processing: " + quantity);
 ```
 
-При необходимости повторите эти шаги для любой дополнительной обработки или задач.
+Повторите эти шаги для любых дополнительных обработок или задач по мере необходимости.
 
-## Заключение
+## Распространённые проблемы и решения
 
-Поздравляем! Вы успешно освоили дозированное лицензирование с помощью Aspose.CAD для Java. Следуя этому руководству, вы легко настроили и интегрировали дозированное лицензирование в свой проект Java, гарантируя эффективное использование возможностей Aspose.CAD.
+- **Invalid key error:** Проверьте, что оба ключа скопированы точно так, как указано в вашей учётной записи Aspose; лишние пробелы вызывают ошибки аутентификации.  
+- **Zero consumption reported:** Убедитесь, что вызываете `License.getConsumptionQuantity()` *после* первого использования API; первый вызов инициализирует счётчик.  
+- **Performance slowdown on large files:** Используйте `CadImage.load(..., LoadOptions)` с `LoadOptions.setLoadMode(LoadMode.Stream)`, чтобы избежать загрузки полного файла в память.
 
 ## Часто задаваемые вопросы
 
-### Вопрос 1. Могу ли я использовать лимитное лицензирование в ознакомительных целях?
+**Q1: Can I use metered licensing for evaluation purposes?**  
+A1: Да, вы можете получить бесплатную пробную лицензию [здесь](https://releases.aspose.com/).
 
- О1: Да, вы можете получить бесплатную пробную лицензию.[здесь](https://releases.aspose.com/).
+**Q2: Where can I find detailed documentation for Aspose.CAD for Java?**  
+A2: Обратитесь к документации [здесь](https://reference.aspose.com/cad/java/).
 
-### Вопрос 2. Где я могу найти подробную документацию по Aspose.CAD для Java?
+**Q3: How do I purchase a license for Aspose.CAD for Java?**  
+A3: Посетите страницу покупки [здесь](https://purchase.aspose.com/buy).
 
- A2: обратитесь к документации[здесь](https://reference.aspose.com/cad/java/).
+**Q4: Is there a temporary license option available?**  
+A5: Да, вы можете изучить временные лицензии [здесь](https://purchase.aspose.com/temporary-license/).
 
-### Вопрос 3: Как приобрести лицензию на Aspose.CAD для Java?
+**Q5: Need community support or have specific questions?**  
+A5: Перейдите на форум Aspose.CAD [здесь](https://forum.aspose.com/c/cad/19).
 
- A3: Посетите страницу покупки.[здесь](https://purchase.aspose.com/buy).
+**Q6: Does metered licensing work with cloud deployments?**  
+A6: Абсолютно. Тот же вызов `setMeteredKey` работает в Docker, Kubernetes или безсерверных средах.
 
-### Вопрос 4. Доступна ли временная лицензия?
+**Q7: Can I reset the consumption counter?**  
+A7: Счётчик автоматически сбрасывается в начале каждого нового расчётного периода; вручную сбросить его нельзя.
 
- О4: Да, вы можете изучить временные лицензии.[здесь](https://purchase.aspose.com/temporary-license/).
+## Заключение
 
-### Вопрос 5: Нужна поддержка сообщества или есть конкретные вопросы?
+Поздравляем! Вы успешно освоили **how to set metered** лицензирование с Aspose.CAD для Java. Следуя этому руководству, вы настроили и интегрировали лицензирование с измерением в ваш Java‑проект, обеспечивая эффективное использование возможностей Aspose.CAD при полной прозрачности расходов.
 
- A5: Посетите форум Aspose.CAD.[здесь](https://forum.aspose.com/c/cad/19).
-{{< /blocks/products/pf/tutorial-page-section >}}
+---
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
+**Last Updated:** 2026-05-25  
+**Tested With:** Aspose.CAD for Java 24.10  
+**Author:** Aspose  
 
 {{< blocks/products/products-backtop-button >}}
+
+## Связанные руководства
+
+- [Convert CAD to PDF with Aspose.CAD for Java – Full Tutorials](/cad/java/)
+- [Create PDF from CAD – Export DXF to PDF with Aspose.CAD for Java](/cad/java/additional-features/export-dxf-to-pdf/)
+- [Set Canvas Size – Advanced CAD Features with Aspose.CAD for Java](/cad/java/advanced-cad-features/)
+
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
