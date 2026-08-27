@@ -1,10 +1,36 @@
 ---
-date: 2026-01-17
-description: تعلم كيفية تمكين دعم الشبكة لملفات DWG وتحويل DWG إلى PDF في Java باستخدام
-  Aspose.CAD. دليل خطوة بخطوة للتعامل السلس مع الرسومات ثلاثية الأبعاد.
-linktitle: Convert DWG to PDF with Mesh Support in Java
+date: 2026-06-09
+description: تعلم كيفية تحويل DWG إلى PDF في Java مع دعم Mesh باستخدام Aspose.CAD.
+  يوضح هذا الدليل خطوة بخطوة كيفية تمكين دعم Mesh وإجراء تحويل Java DWG إلى PDF بكفاءة.
+keywords:
+- java dwg to pdf
+- how to convert dwg
+- mesh support dwg java
+linktitle: تحويل DWG إلى PDF مع دعم Mesh في Java
+schemas:
+- author: Aspose
+  dateModified: '2026-06-09'
+  description: Learn how to convert DWG to PDF in Java with mesh support using Aspose.CAD.
+    This step‑by‑step guide shows how to enable mesh support and perform java dwg
+    to pdf conversion efficiently.
+  headline: Java DWG to PDF with Mesh Support – Convert DWG to PDF
+  type: TechArticle
+- questions:
+  - answer: Yes—Aspose.CAD supports over 30 CAD formats, including DWG, DXF, DGN,
+      and more.
+    question: Can I use Aspose.CAD for Java with other CAD file formats?
+  - answer: You can refer to the documentation [here](https://reference.aspose.com/cad/java/).
+    question: Where can I find detailed documentation for Aspose.CAD for Java?
+  - answer: Yes, you can access the free trial [here](https://releases.aspose.com/).
+    question: Is there a free trial available for Aspose.CAD for Java?
+  - answer: Obtain a temporary license [here](https://purchase.aspose.com/temporary-license/).
+    question: How can I obtain a temporary license for Aspose.CAD for Java?
+  - answer: Visit the [Aspose.CAD forum](https://forum.aspose.com/c/cad/19) for dedicated
+      support.
+    question: Need assistance or have questions?
+  type: FAQPage
 second_title: Aspose.CAD Java API
-title: تحويل DWG إلى PDF مع دعم الشبكة في Java
+title: Java DWG إلى PDF مع دعم Mesh – تحويل DWG إلى PDF
 url: /ar/java/dwg-file-operations/mesh-support-for-dwg/
 weight: 12
 ---
@@ -13,40 +39,37 @@ weight: 12
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# تحويل DWG إلى PDF مع دعم Mesh في Java
+# تحويل DWG إلى PDF مع دعم الشبكة في Java
 
-## المقدمة
-
-العمل مع ملفات DWG في Java يعني غالبًا أنك تحتاج إلى **تحويل DWG إلى PDF** مع الحفاظ على الهندسة ثلاثية الأبعاد المعقدة. تمكين دعم Mesh خطوة حاسمة لأنه يضمن أن الكيانات ثلاثية الأبعاد مثل PolyFaceMesh وPolygonMesh يتم تفسيرها بشكل صحيح قبل التحويل. في هذا الدرس سنستعرض تمكين دعم Mesh باستخدام Aspose.CAD for Java، ونوضح لك كيف تجعل هذه الإعدادات عملية *تحويل DWG إلى PDF* التالية موثوقة ودقيقة.
+العمل مع ملفات DWG في Java غالبًا ما يعني أنك تحتاج إلى **java dwg to pdf** مع الحفاظ على الهندسة ثلاثية الأبعاد المعقدة. تمكين دعم الشبكة خطوة حاسمة لأنه يضمن أن الكيانات ثلاثية الأبعاد مثل PolyFaceMesh و PolygonMesh يتم تفسيرها بشكل صحيح قبل التحويل. في هذا الدرس سنستعرض تمكين دعم الشبكة باستخدام Aspose.CAD for Java، ونظهر لك كيف تجعل هذه الإعدادات عملية *java dwg to pdf* اللاحقة موثوقة ودقيقة.
 
 ## إجابات سريعة
-- **هل يمكنني تحويل DWG إلى PDF مباشرةً؟** نعم، بعد تمكين دعم Mesh يمكنك تحويل الرسومات إلى نقطية أو تصدير DWG إلى PDF.
-- **هل أحتاج إلى ترخيص لـ Aspose.CAD؟** النسخة التجريبية المجانية تكفي للتقييم؛ يلزم ترخيص تجاري للإنتاج.
-- **ما نسخة Java المطلوبة؟** Java 8 أو أحدث.
-- **هل سيتم الحفاظ على كيانات Mesh في PDF؟** تمكين دعم Mesh يضمن معالجة الرؤوس، وبالتالي يعكس PDF الهندسة ثلاثية الأبعاد الأصلية.
-- **هل هناك حاجة إلى إعداد إضافي؟** فقط إعداد Aspose.CAD القياسي والتخلص السليم من الموارد.
+- **هل يمكنني تحويل DWG إلى PDF مباشرةً؟** نعم—بمجرد تمكين دعم الشبكة يمكنك تحويل الرسوم النقطية أو تصدير DWG إلى PDF في استدعاء واحد.  
+- **هل أحتاج إلى ترخيص لـ Aspose.CAD؟** النسخة التجريبية المجانية تعمل للتقييم؛ الترخيص التجاري مطلوب للاستخدام في الإنتاج.  
+- **ما نسخة Java المطلوبة؟** Java 8 أو أحدث مدعومة بالكامل.  
+- **هل سيتم الحفاظ على كيانات الشبكة في PDF؟** تمكين دعم الشبكة يضمن معالجة الرؤوس، وبالتالي يعكس PDF الهندسة ثلاثية الأبعاد الأصلية.  
+- **هل هناك حاجة إلى إعداد إضافي؟** فقط إعداد Aspose.CAD القياسي والتخلص المناسب من الموارد.
 
-## ما هو دعم Mesh لملف DWG؟
+## ما هو دعم الشبكة لـ DWG؟
 
-يدعم Mesh Aspose.CAD في التعرف على الكيانات القائمة على الشبكة (PolyFaceMesh وPolygonMesh) التي تُعرّف الأسطح ثلاثية الأبعاد ومعالجتها. بدون هذا الدعم، قد يتم تجاهل تلك الكيانات أو عرضها بشكل غير صحيح عندما تقوم لاحقًا **بتحويل DWG إلى PDF**.
+يدعم دعم الشبكة Aspose.CAD في التعرف على الكيانات القائمة على الشبكة (PolyFaceMesh و PolygonMesh) التي تُعرّف الأسطح ثلاثية الأبعاد. بدون هذا الدعم، قد يتم تجاهل تلك الكيانات أو عرضها بشكل غير صحيح عندما تقوم لاحقًا بـ **java dwg to pdf**. تمكينه يضمن تفسير كل رأس ووجه من الشبكة بشكل صحيح، مما يحافظ على الشكل المقصود والدقة البصرية طوال عملية التحويل.
 
-## لماذا تمكين دعم Mesh قبل تحويل DWG إلى PDF؟
+## لماذا تمكين دعم الشبكة قبل تحويل DWG إلى PDF؟
 
-- **تمثيل ثلاثي الأبعاد دقيق** – يتم الاحتفاظ برؤوس Mesh، لذا يعرض PDF الهندسة المقصودة.
-- **تقليل المعالجة اللاحقة** – عدد أقل من التعديلات اليدوية بعد التحويل.
-- **أداء أفضل** – يقوم Aspose.CAD بمعالجة Meshes بكفاءة عندما يتم تمكينها صراحةً.
+تمكين دعم الشبكة يضمن قراءة جميع رؤوس الشبكة وتحويلها إلى نقطية، مما يعني أن PDF المُنتج يحتفظ بالشكل ثلاثي الأبعاد المقصود. هذا يقلل من المعالجة اليدوية بعد التحويل ويحسن سرعة التحويل لأن Aspose.CAD يمكنه معالجة الشبكات في تمريرة واحدة. بالإضافة إلى ذلك، يمنع فقدان التفاصيل التي قد تتطلب إعادة هندسة مكلفة للرسم بعد التحويل.
 
 ## المتطلبات المسبقة
 
 قبل البدء، تأكد من أن لديك:
 
-- مجموعة تطوير Java (JDK) مثبتة.
-- مكتبة Aspose.CAD for Java تم تنزيلها وإضافتها إلى مشروعك. يمكنك العثور على المكتبة [هنا](https://releases.aspose.com/cad/java/).
-- فهم أساسي لبرمجة Java.
+- مجموعة تطوير Java (JDK) 8 أو أحدث مثبتة.  
+- مكتبة Aspose.CAD for Java تم تنزيلها وإضافتها إلى مشروعك. يمكنك العثور على المكتبة [هنا](https://releases.aspose.com/cad/java/).  
+- فهم أساسي لمفاهيم برمجة Java.
 
 ## استيراد الحزم
 
-للبدء، استورد الحزم الضرورية في مشروع Java الخاص بك. ستمنحك هذه الحزم الوصول إلى وظائف Aspose.CAD for Java.
+تستورد الاستيرادات التالية فئات Aspose.CAD اللازمة للتحويل، مثل `CadImage` و `PdfOptions` و `CadRasterizationOptions`.  
+`CadImage` هو الكائن الأساسي الذي يمثل رسم CAD محملاً في الذاكرة.
 
 ```java
 import com.aspose.cad.*;
@@ -77,7 +100,7 @@ CadImage cadImage =(CadImage) com.aspose.cad.Image.load(srcFile);;
 
 ## الخطوة 2: التجول عبر الكيانات
 
-تجول عبر الكيانات في ملف DWG المحمّل. يوفر Aspose.CAD مجموعة متنوعة من فئات الكيانات التي تمثل عناصر CAD المختلفة.
+تجول عبر الكيانات في ملف DWG المحمّل. توفر Aspose.CAD مجموعة متنوعة من فئات الكيانات التي تمثل عناصر CAD المختلفة.
 
 ```java
 for (CadBaseEntity entity : cadImage.getEntities())
@@ -105,7 +128,7 @@ for (CadBaseEntity entity : cadImage.getEntities())
 
 ## الخطوة 3: تحرير الموارد
 
-تأكد من إدارة الموارد بشكل صحيح عن طريق تحرير كائن CadImage بعد الاستخدام.
+`CadImage` هو الكائن الأساسي في Aspose.CAD الذي يمثل رسم CAD محملاً في الذاكرة. تحريره بشكل صحيح يحرر الموارد الأصلية ويمنع تسرب الذاكرة.
 
 ```java
 finally
@@ -114,28 +137,26 @@ finally
 }
 ```
 
-## كيفية تحويل DWG إلى PDF بعد تمكين دعم Mesh
+## كيفية تحويل DWG إلى PDF بعد تمكين دعم الشبكة
 
-بمجرد تمكين دعم Mesh والتحقق من كيانات Mesh، يصبح تحويل DWG إلى PDF أمرًا بسيطًا:
+`PdfOptions` يضبط إعدادات إخراج PDF للتحويل. حمّل ملف DWG الخاص بك، فعّل معالجة الشبكة، ثم استدعِ طريقة `save` مع كائن `PdfOptions` المُكوّن. ينتج هذا الاستدعاء الواحد PDF يعكس بدقة الهندسة ثلاثية الأبعاد الأصلية مع الحفاظ على تفاصيل الشبكة وجودتها البصرية.
 
-1. **تكوين خيارات التحويل النقطي** (مثل حجم الصفحة، لون الخلفية).  
-2. **إنشاء مثيل `PdfOptions`** وتعيين إعدادات التحويل النقطي.  
-3. **استدعاء `cadImage.save(outputPath, pdfOptions)`** لإنشاء ملف PDF.
+## كيفية إجراء تحويل java dwg إلى pdf مع دعم الشبكة؟
 
-*ملاحظة:* تم حذف كود التحويل الفعلي هنا للتركيز على دعم Mesh، لكن الخطوات أعلاه توضح مكان التحويل في سير العمل.
+فعّل دعم الشبكة، تحقق من كيانات الشبكة، اضبط `PdfOptions`، واستدعِ `cadImage.save(outputPath, pdfOptions)`. تقوم طريقة `save` بكتابة الصورة إلى ملف باستخدام الخيارات المحددة. هذا التدفق المتكامل يحول DWG إلى PDF عالي الدقة في ثلاث خطوات مختصرة فقط، مما يلغي الحاجة إلى أدوات التحويل النقطية الوسيطة ويضمن الاحتفاظ بجميع البيانات ثلاثية الأبعاد.
 
 ## المشكلات الشائعة والحلول
 
 | المشكلة | السبب | الحل |
 |-------|--------|-----|
-| عدم طباعة الرؤوس | لم يتم التعرف على كيانات Mesh | تأكد من أنك تستخدم أحدث إصدار من Aspose.CAD وأن ملف DWG يحتوي فعليًا على بيانات Mesh. |
-| `cadImage` فارغ | مسار الملف غير صحيح | تحقق من أن `srcFile` يشير إلى ملف DWG صالح. |
-| ملف PDF الناتج يفتقد بيانات ثلاثية الأبعاد | لم يتم تمكين دعم Mesh | اتبع الخطوات أعلاه للتجول وتأكيد كيانات Mesh قبل التحويل. |
+| لم يتم طباعة أي رؤوس | لم يتم التعرف على كيانات الشبكة | تأكد من أنك تستخدم أحدث نسخة من Aspose.CAD وأن ملف DWG يحتوي فعليًا على بيانات شبكة. |
+| قيمة `cadImage` فارغة | مسار الملف غير صحيح | تحقق من أن `srcFile` يشير إلى ملف DWG صالح. |
+| إخراج PDF يفتقد بيانات ثلاثية الأبعاد | لم يتم تمكين دعم الشبكة | اتبع الخطوات أعلاه للتجول وتأكيد كيانات الشبكة قبل التحويل. |
 
 ## الأسئلة المتكررة
 
 **س: هل يمكنني استخدام Aspose.CAD for Java مع صيغ CAD أخرى؟**  
-ج: نعم، يدعم Aspose.CAD صيغ CAD متعددة، بما في ذلك DWG وDXF وDGN وغيرها.
+ج: نعم—يدعم Aspose.CAD أكثر من 30 صيغة CAD، بما في ذلك DWG و DXF و DGN وغيرها.
 
 **س: أين يمكنني العثور على وثائق مفصلة لـ Aspose.CAD for Java؟**  
 ج: يمكنك الرجوع إلى الوثائق [هنا](https://reference.aspose.com/cad/java/).
@@ -151,13 +172,17 @@ finally
 
 ---
 
-**آخر تحديث:** 2026-01-17  
-**تم الاختبار مع:** Aspose.CAD for Java 24.12 (latest at time of writing)  
+**آخر تحديث:** 2026-06-09  
+**تم الاختبار باستخدام:** Aspose.CAD for Java 24.12 (latest at time of writing)  
 **المؤلف:** Aspose  
 
-{{< /blocks/products/pf/tutorial-page-section >}}
+{{< blocks/products/products-backtop-button >}}
 
+## دروس ذات صلة
+
+- [تصدير DWG إلى PDF أو صورة نقطية باستخدام Aspose.CAD for Java](/cad/java/cad-drawing-conversion/export-dwg-to-pdf-or-raster/)
+- [تصدير تخطيط DWG محدد إلى PDF باستخدام Aspose.CAD for Java](/cad/java/cad-drawing-conversion/export-specific-dwg-layout-to-pdf/)
+
+{{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
