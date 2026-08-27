@@ -1,5 +1,5 @@
 ---
-title: Create PDF from CAD: Export DXF to WMF with Aspose.CAD
+title: 'Create PDF from CAD: Export DXF to WMF with Aspose.CAD'
 linktitle: Exporting DXF to WMF Format
 second_title: Aspose.CAD .NET - CAD and BIM File Format
 description: Learn how to create PDF from CAD by exporting DXF to WMF using Aspose.CAD for .NET – step‑by‑step guide with code‑free instructions.
@@ -58,7 +58,7 @@ using Aspose.CAD;
 using Aspose.CAD.ImageOptions;
 ```
 
-## Step 1: Load the DXF File
+## Step 1: load the DXF file
 
 The `Image` class represents a CAD drawing loaded into memory, providing methods to manipulate and export the file.
 
@@ -72,7 +72,7 @@ using (Image image = Image.Load(sourceFilePath))
 }
 ```
 
-## Step 2: Set Rasterization Options
+## Step 2: set rasterization options
 
 `CadRasterizationOptions` specifies how the CAD drawing is rasterized, controlling parameters such as background color, page size, and resolution.
 
@@ -83,7 +83,7 @@ rasterizationOptions.PageWidth = 1600;
 rasterizationOptions.PageHeight = 1600;
 ```
 
-## Step 3: Create PDF Options
+## Step 3: create PDF options
 
 `PdfOptions` defines settings for PDF output, including vector rasterization options and font embedding preferences.
 
@@ -92,7 +92,7 @@ PdfOptions pdfOptions = new PdfOptions();
 pdfOptions.VectorRasterizationOptions = rasterizationOptions;
 ```
 
-## Step 4: Specify Output Path
+## Step 4: specify output path
 
 Provide the full file system path where the resulting PDF should be saved.
 
@@ -116,13 +116,13 @@ Aspose.CAD delivers fast conversion by processing CAD data directly in memory, h
 - **Accuracy:** Retains over 99 % of original vector data, including line styles and hatches.  
 - **No external dependencies:** No need for AutoCAD or other third‑party CAD software on the deployment machine.  
 
-## Common Pitfalls & Tips
+## Common pitfalls & tips
 
 - **Incorrect page size:** Ensure `PageWidth` and `PageHeight` match your desired PDF dimensions; otherwise the output may appear stretched.  
 - **Missing fonts:** If the DXF references custom fonts, embed them via `PdfOptions.FontEmbeddingMode` to avoid substitution.  
 - **Large files:** For very large drawings, set `CadRasterizationOptions.VectorRasterizationResolution` to a lower DPI to reduce memory usage without noticeable quality loss.
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 **Q: Can I use Aspose.CAD for .NET with any DXF file?**  
 A: Yes, Aspose.CAD supports a wide range of DXF versions, ensuring compatibility with most CAD applications.
@@ -131,13 +131,13 @@ A: Yes, Aspose.CAD supports a wide range of DXF versions, ensuring compatibility
 A: Explore detailed documentation at [Aspose.CAD for .NET Documentation](https://reference.aspose.com/cad/net/).
 
 **Q: Is there a free trial available?**  
-A: Yes, you can experience Aspose.CAD for .NET with a free trial. Visit [here](https://releases.aspose.com/) for more information.
+A: Yes, you can experience Aspose.CAD for .NET with a free trial. Visit the [Aspose releases page](https://releases.aspose.com/) for more information.
 
 **Q: How can I get support for Aspose.CAD for .NET?**  
 A: For any queries or assistance, visit the [Aspose.CAD Forum](https://forum.aspose.com/c/cad/19).
 
 **Q: Can I purchase a temporary license?**  
-A: Yes, you can obtain a temporary license from [here](https://purchase.aspose.com/temporary-license/).
+A: Yes, you can obtain a temporary license from the [Aspose temporary license page](https://purchase.aspose.com/temporary-license/).
 
 ---
 

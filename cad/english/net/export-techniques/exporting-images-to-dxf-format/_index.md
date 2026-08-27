@@ -1,5 +1,5 @@
 ---
-title: How to Export DXF Images with Aspose.CAD – Tutorial Guide
+title: How to Export DXF Images with Aspose.CAD for .NET – Tutorial Guide
 linktitle: Exporting Images to DXF Format
 second_title: Aspose.CAD .NET - CAD and BIM File Format
 description: Learn how to export DXF images using Aspose.CAD for .NET and discover how to hide lines for cleaner drawings. Follow this step‑by‑step guide.
@@ -26,13 +26,13 @@ schemas:
     answer: Absolutely! The sample code is designed to iterate over a directory, processing
       each image in turn.
   - question: How can I obtain a temporary license for Aspose.CAD?
-    answer: Visit [here](https://purchase.aspose.com/temporary-license/) to acquire
+    answer: Visit [temporary license request page](https://purchase.aspose.com/temporary-license/) to acquire
       a temporary license for evaluation purposes.
   - question: Where can I seek assistance and engage with the community?
     answer: Join the Aspose.CAD community on the [support forum](https://forum.aspose.com/c/cad/19)
       to interact with fellow developers and seek guidance.
   - question: Does Aspose.CAD offer a free trial?
-    answer: Yes, you can explore a free trial [here](https://releases.aspose.com/)
+    answer: Yes, you can explore a free trial [Aspose.CAD free trial page](https://releases.aspose.com/)
       to experience the capabilities of Aspose.CAD.
 ---
 
@@ -66,7 +66,7 @@ Aspose.CAD for .NET is a .NET library that enables programmatic reading, convers
 
 Before we embark on this journey, ensure you have the following prerequisites in place:
 
-- Aspose.CAD for .NET: Download and install the Aspose.CAD library. You can find the download link [here](https://releases.aspose.com/cad/net/).
+- Aspose.CAD for .NET: Download and install the Aspose.CAD library. You can find the download on the [Aspose.CAD .NET download page](https://releases.aspose.com/cad/net/).
 
 - Document Directory: Have a designated directory for your CAD documents. Replace "Your Document Directory" in the provided code with the actual path.
 
@@ -103,7 +103,7 @@ image.Save("output.dxf", options);
 
 The direct answer: **how to hide lines** is achieved by enabling `HideLines` on the export options, which instructs Aspose.CAD to omit straight line entities during the DXF generation process.
 
-## Step 1: Set New Font for Each Document
+## Step 1: set new font for each document
 
 `CadImage` represents a CAD drawing loaded into memory, providing access to its entities and tables.
 
@@ -125,7 +125,7 @@ foreach (var file in new DirectoryInfo(MyDir).EnumerateFiles("conic.dxf"))
 
 In this step, we customize the font for each CAD document, adding a touch of uniqueness to your visual representations.
 
-## Step 2: Hide All "Straight" Lines
+## Step 2: hide all "Straight" lines
 
 ```csharp
 // Hide all "straight" lines
@@ -148,7 +148,7 @@ foreach (var file in new DirectoryInfo(MyDir).EnumerateFiles("conic.dxf"))
 
 This step focuses on enhancing the visual appeal by hiding straight lines in your CAD drawings.
 
-## Step 3: Manipulations with Text
+## Step 3: manipulations with text
 
 ```csharp
 // Manipulations with text
@@ -172,13 +172,13 @@ foreach (var file in new DirectoryInfo(MyDir).EnumerateFiles("conic.dxf"))
 
 In this final step, we showcase how to dynamically manipulate text within your CAD drawings, providing a more interactive and personalized touch.
 
-## Common Issues and Solutions
+## Common issues and solutions
 
 - **Missing fonts:** Ensure the font you reference is installed on the server or embed it using `FontSettings`.
 - **Large files cause OutOfMemoryException:** Use `LoadOptions` with `MemoryLimit` to stream large images.
 - **Lines not hidden:** Verify that `HideLines` is set on the exact `DxfExportOptions` instance passed to `Save`.
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 **Q: Is Aspose.CAD compatible with other CAD formats?**  
 A: Yes, Aspose.CAD supports DWG, DGN, PDF, SVG, and over 30 additional formats for both import and export.
@@ -187,13 +187,13 @@ A: Yes, Aspose.CAD supports DWG, DGN, PDF, SVG, and over 30 additional formats f
 A: Absolutely! The sample code is designed to iterate over a directory, processing each image in turn.
 
 **Q: How can I obtain a temporary license for Aspose.CAD?**  
-A: Visit [here](https://purchase.aspose.com/temporary-license/) to acquire a temporary license for evaluation purposes.
+A: Visit [temporary license request page](https://purchase.aspose.com/temporary-license/) to acquire a temporary license for evaluation purposes.
 
 **Q: Where can I seek assistance and engage with the community?**  
 A: Join the Aspose.CAD community on the [support forum](https://forum.aspose.com/c/cad/19) to interact with fellow developers and seek guidance.
 
 **Q: Does Aspose.CAD offer a free trial?**  
-A: Yes, you can explore a free trial [here](https://releases.aspose.com/) to experience the capabilities of Aspose.CAD.
+A: Yes, you can explore a free trial [Aspose.CAD free trial page](https://releases.aspose.com/) to experience the capabilities of Aspose.CAD.
 
 ---
 
@@ -203,9 +203,9 @@ A: Yes, you can explore a free trial [here](https://releases.aspose.com/) to exp
 
 ## Related Tutorials
 
-- [Exporting DXF to PDF Format - Aspose.CAD Tutorial](/cad/net/export-techniques/exporting-dxf-to-pdf-format/)
-- [Exporting DXF Specific Layout to PDF - Aspose.CAD Tutorial](/cad/net/export-techniques/exporting-dxf-specific-layout-to-pdf/)
-- [Exporting DWG to DXF Format in C# - Aspose.CAD Tutorial](/cad/net/advanced-export-techniques/exporting-dwg-to-dxf/)
+- [Exporting DXF to PDF Format - Aspose.CAD Tutorial]({{< relref "../exporting-dxf-to-pdf-format/_index.md" >}})
+- [Exporting DXF Specific Layout to PDF - Aspose.CAD Tutorial]({{< relref "../exporting-dxf-specific-layout-to-pdf/_index.md" >}})
+- [Exporting DWG to DXF Format in C# - Aspose.CAD Tutorial]({{< relref "../exporting-dwg-to-dxf/_index.md" >}})
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}

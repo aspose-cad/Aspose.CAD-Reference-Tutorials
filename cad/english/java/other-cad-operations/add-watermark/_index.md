@@ -45,7 +45,7 @@ schemas:
     answer: Yes – you can control font family, size, color, rotation, and transparency
       through the `MText` or `TextEntity` properties.
   - question: Is there a trial version available for Aspose.CAD for Java?
-    answer: Yes, you can download the trial version [here](https://releases.aspose.com/).
+    answer: Yes, you can download the trial version [Aspose.CAD for Java trial download](https://releases.aspose.com/).
   - question: How can I get support for Aspose.CAD?
     answer: Visit the [Aspose.CAD forum](https://forum.aspose.com/c/cad/19) for community
       assistance and official support channels.
@@ -79,7 +79,7 @@ Aspose.CAD for Java supports **30+ input formats** (DWG, DXF, DWF, DWT, etc.) an
 
 ## Prerequisites
 
-- **Aspose.CAD for Java** – download the latest JAR from the official site [here](https://releases.aspose.com/cad/java/).  
+- **Aspose.CAD for Java** – download the latest JAR from the official site [Aspose.CAD for Java download page](https://releases.aspose.com/cad/java/).  
 - **Java Development Kit (JDK)** – version 11 or later is recommended.  
 - A valid **Aspose.CAD license** for production use (optional for trial).  
 
@@ -88,7 +88,7 @@ Aspose.CAD for Java supports **30+ input formats** (DWG, DXF, DWF, DWT, etc.) an
 CadImage is the primary class that represents a CAD drawing within Aspose.CAD.  
 To create a PDF from a CAD file with an embedded watermark, first load the drawing into a `CadImage` instance, which represents the CAD document in memory. Next, construct an `MText` or `TextEntity` object containing the watermark text, set its font size, color, and opacity, and add it to the model space. Finally, call `save` with `SaveFormat.Pdf` to export the modified drawing to a PDF, preserving vector quality.
 
-### Step 1: Import Packages
+### Step 1: import packages
 
 The `com.aspose.cad` namespace provides all classes you need for CAD manipulation.
 
@@ -105,7 +105,7 @@ import com.aspose.cad.imageoptions.CadRasterizationOptions;
 import com.aspose.cad.imageoptions.PdfOptions;
 ```
 
-### Step 2: Add New MTEXT
+### Step 2: add new MTEXT
 
 MText represents multi‑line text entities that can be used for watermarks.  
 
@@ -119,7 +119,7 @@ watermark.setLayerName("0");
 cadImage.getBlockEntities().get_Item("*Model_Space").addEntity(watermark);
 ```
 
-### Step 3: Add Simple Entity like Text
+### Step 3: add simple entity like text
 
 TextEntity is a single‑line text object used for simple annotations.  
 
@@ -149,13 +149,13 @@ cadImage.save(dataDir + "AddWatermark_out.pdf", pdfOptions);
 
 ```
 
-## Common Issues and Solutions
+## Common issues and solutions
 
 - **Watermark not visible** – Ensure the text color contrasts with the background and set the `Transparency` property (e.g., 0.5 for 50 % opacity).  
 - **Large files cause OutOfMemoryError** – Enable `CadImage` streaming mode by setting `CadImageOptions.setLoadMode(LoadMode.Paged)`.  
 - **Incorrect font rendering** – Install the required TrueType fonts on the server or embed them using `FontRepository`.
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 **Q: Is Aspose.CAD compatible with all CAD file formats?**  
 A: Aspose.CAD supports **DWG, DXF, DWT, DWF, and over 30 additional formats**, allowing you to **export cad to pdf** from virtually any source file.
@@ -164,7 +164,7 @@ A: Aspose.CAD supports **DWG, DXF, DWT, DWF, and over 30 additional formats**, a
 A: Yes – you can control font family, size, color, rotation, and transparency through the `MText` or `TextEntity` properties.
 
 **Q: Is there a trial version available for Aspose.CAD for Java?**  
-A: Yes, you can download the trial version [here](https://releases.aspose.com/).
+A: Yes, you can download the trial version [Aspose.CAD for Java trial download](https://releases.aspose.com/).
 
 **Q: How can I get support for Aspose.CAD?**  
 A: Visit the [Aspose.CAD forum](https://forum.aspose.com/c/cad/19) for community assistance and official support channels.
@@ -182,9 +182,9 @@ A: Refer to the [documentation](https://reference.aspose.com/cad/java/) for deta
 
 ## Related Tutorials
 
-- [Export DWG to PDF or Raster Using Aspose.CAD for Java](/cad/java/cad-drawing-conversion/export-dwg-to-pdf-or-raster/)
-- [Create PDF from DWG and Add Text Using Aspose.CAD for Java](/cad/java/cad-text-and-annotation/add-text-in-dwg/)
-- [Export Specific DWG Layout to PDF Using Aspose.CAD for Java](/cad/java/cad-drawing-conversion/export-specific-dwg-layout-to-pdf/)
+- [Export DWG to PDF or Raster Using Aspose.CAD for Java]({{< relref "/cad/java/cad-drawing-conversion/export-dwg-to-pdf-or-raster/_index.md" >}})
+- [Create PDF from DWG and Add Text Using Aspose.CAD for Java]({{< relref "/cad/java/cad-text-and-annotation/add-text-in-dwg/_index.md" >}})
+- [Export Specific DWG Layout to PDF Using Aspose.CAD for Java]({{< relref "/cad/java/cad-drawing-conversion/export-specific-dwg-layout-to-pdf/_index.md" >}})
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}

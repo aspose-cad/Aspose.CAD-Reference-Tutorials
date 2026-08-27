@@ -1,5 +1,5 @@
 ---
-title: How to Use Aspose.CAD: Export Embedded DGN Files to PDF
+title: 'How to Use Aspose.CAD: Export Embedded DGN Files to PDF'
 linktitle: Exporting Embedded DGN Files
 second_title: Aspose.CAD .NET - CAD and BIM File Format
 description: Learn how to use Aspose.CAD for .NET to export embedded DGN files to PDF quickly. This step‑by‑step guide covers prerequisites, code flow, and best practices.
@@ -49,7 +49,7 @@ Aspose.CAD can convert DGN files—commonly used in MicroStation—directly to P
 
 Load the source file, configure rasterization and PDF options, then save. This straightforward workflow consists of five concise steps and can be implemented with just a few lines of C# code, making it easy to integrate into any .NET application.
 
-### Step 1: Load the DXF File
+### Step 1: load the DXF file
 
 The `Image.Load` method reads a CAD file and returns an `Image` object representing the drawing.  
 Import the necessary namespaces before you start coding.
@@ -65,7 +65,7 @@ using Aspose.CAD.FileFormats.Cad;
 using Aspose.CAD.ImageOptions;
 ```
 
-### Step 2: Set Rasterization Options
+### Step 2: set rasterization options
 
 The `CadRasterizationOptions` class specifies how vector data is rasterized into bitmap pages, including DPI and background color.  
 
@@ -78,7 +78,7 @@ using (CadImage cadImage = (CadImage)Image.Load(sourceFilePath))
 }
 ```
 
-### Step 3: Set PDF Options
+### Step 3: set PDF options
 
 The `PdfOptions` class holds PDF‑specific settings such as compression level and font embedding.  
 
@@ -96,7 +96,7 @@ PdfOptions pdfOptions = new PdfOptions();
 pdfOptions.VectorRasterizationOptions = rasterizationOptions;
 ```
 
-### Step 5: Display Success Message
+### Step 5: display success message
 
 `Console.WriteLine` outputs a simple confirmation message to the console or log.  
 
@@ -104,29 +104,29 @@ pdfOptions.VectorRasterizationOptions = rasterizationOptions;
 cadImage.Save(MyDir + "conic_pyramid.pdf", pdfOptions);
 ```
 
-## Common Issues and Solutions
+## Common issues and solutions
 - **Missing fonts** – Ensure the required font files are accessible to the runtime; Aspose.CAD can embed them automatically when `PdfOptions` `EmbedFonts` is set to `true`.  
 - **Large files cause memory spikes** – Use `Image.Load` overloads that enable streaming to keep memory consumption low.  
 - **Incorrect layer visibility** – Verify that the `RasterizationOptions` `Layers` collection includes the layers you need to render.
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 **Q: Can I use Aspose.CAD for .NET with other programming languages?**  
 A: The core library is .NET‑only, but Aspose provides comparable APIs for Java, Python, and C++ under the same product family.
 
 **Q: Is there a free trial available for Aspose.CAD for .NET?**  
-A: Yes, you can obtain a fully functional trial from the Aspose website [here](https://releases.aspose.com/).
+A: Yes, you can obtain a fully functional trial from the Aspose website [Aspose.CAD .NET trial download](https://releases.aspose.com/).
 
 **Q: Where can I find comprehensive documentation for Aspose.CAD for .NET?**  
-A: Detailed API reference and usage guides are available at the official documentation site [here](https://reference.aspose.com/cad/net/).
+A: Detailed API reference and usage guides are available at the official documentation site [Aspose.CAD .NET API reference](https://reference.aspose.com/cad/net/).
 
 **Q: How do I get a temporary license for Aspose.CAD for .NET?**  
-A: Temporary licenses can be requested through the Aspose licensing portal [here](https://purchase.aspose.com/temporary-license/).
+A: Temporary licenses can be requested through the Aspose licensing portal [Aspose temporary license portal](https://purchase.aspose.com/temporary-license/).
 
 **Q: Need assistance or want to engage with the community?**  
 A: Join the [Aspose.CAD Forum](https://forum.aspose.com/c/cad/19) to ask questions, share snippets, and learn from other developers.
 
-## Additional Frequently Asked Questions
+## Additional frequently asked questions
 
 **Q: Does Aspose.CAD support batch conversion of multiple DGN files?**  
 A: Yes, you can loop through a directory, load each file, and call `Save` with PDF options inside the same process.

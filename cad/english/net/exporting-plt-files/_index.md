@@ -132,12 +132,12 @@ Instantiate `Image` with your PLT source, set `PdfSaveOptions` if you need custo
 2. **Optionally configure `PdfSaveOptions`** – e.g., `options.Compression = PdfCompression.Flate`.  
 3. **Save as PDF** – `image.Save("output.pdf", SaveFormat.Pdf)`.
 
-## Common Issues and Solutions
+## Common issues and solutions
 - **Blank output:** Ensure the PLT file contains valid HPGL commands; older files may need preprocessing.  
 - **Incorrect colors:** Verify the PLT’s color index; use `ImageOptions` to map palette entries.  
 - **Large PDFs:** Reduce DPI via `ImageSaveOptions` or enable compression in `PdfSaveOptions`.  
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 **Q: Can I convert PLT to PDF without losing line thickness?**  
 A: Yes – Aspose.CAD retains original line weights when exporting to PDF, producing a true‑to‑scale vector document.
@@ -154,10 +154,10 @@ A: The library processes files up to 500 MB comfortably; larger files may requ
 **Q: Do I need a separate license for PDF export?**  
 A: No – the standard Aspose.CAD license covers all output formats, including PDF, PNG, JPEG, and others.
 
-## Exporting PLT Files Tutorials
-### [Exporting PLT Files to Image - Aspose.CAD Tutorial](./exporting-plt-files-to-image/)
+## Exporting PLT files tutorials
+### [Exporting PLT files to image - Aspose.CAD tutorial](./exporting-plt-files-to-image/)
 Effortlessly convert PLT files to images using Aspose.CAD for .NET. Explore flexible options and seamless integration for your CAD file manipulation needs.
-### [Exporting PLT Files to PDF - Aspose.CAD Guide](./exporting-plt-files-to-pdf/)
+### [Exporting PLT files to PDF - Aspose.CAD guide](./exporting-plt-files-to-pdf/)
 Effortlessly convert PLT files to PDF using Aspose.CAD for .NET. Follow our step‑by‑step guide for seamless integration and reliable results.
 
 ---
@@ -170,7 +170,7 @@ Effortlessly convert PLT files to PDF using Aspose.CAD for .NET. Follow our step
 
 ## Related Tutorials
 
-- [Exporting PLT Files to Image - Aspose.CAD Tutorial](/cad/net/exporting-plt-files/exporting-plt-files-to-image/)
+- [Exporting PLT Files to Image - Aspose.CAD Tutorial](../../net/exporting-plt-files/exporting-plt-files-to-image/)
 - [Convert CAD Drawing to Raster Image in Aspose.CAD for .NET](/cad/net/cad-drawing-manipulation/convert-cad-drawing-to-raster-image/)
 - [Exporting DXF to PDF Format - Aspose.CAD Tutorial](/cad/net/export-techniques/exporting-dxf-to-pdf-format/)
 
