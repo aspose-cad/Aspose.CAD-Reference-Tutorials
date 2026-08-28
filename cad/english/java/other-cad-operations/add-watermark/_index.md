@@ -178,15 +178,8 @@ A: Refer to the [documentation](https://reference.aspose.com/cad/java/) for deta
 **Tested With:** Aspose.CAD for Java 24.12  
 **Author:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
-## Related Tutorials
-
-- [Export DWG to PDF or Raster Using Aspose.CAD for Java]({{< relref "/cad/java/cad-drawing-conversion/export-dwg-to-pdf-or-raster/_index.md" >}})
-- [Create PDF from DWG and Add Text Using Aspose.CAD for Java]({{< relref "/cad/java/cad-text-and-annotation/add-text-in-dwg/_index.md" >}})
-- [Export Specific DWG Layout to PDF Using Aspose.CAD for Java]({{< relref "/cad/java/cad-drawing-conversion/export-specific-dwg-layout-to-pdf/_index.md" >}})
-
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
