@@ -40,8 +40,6 @@ Before diving in, make sure you have the following:
 1. **Aspose.CAD for Java Library** – download it from the [website](https://releases.aspose.com/cad/java/). Follow the installation guide to add the JAR files to your project’s classpath.  
 2. **Java Development Environment** – a recent JDK (8 or newer) installed on your machine.
 
-For detailed API reference, see the {{< relref "api/java" >}} page.
-
 Now that we’re set up, let’s explore the code needed to **save DWG as JPEG** with selective layer rendering.
 
 ## Import Namespaces
