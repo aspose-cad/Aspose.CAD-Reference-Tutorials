@@ -201,13 +201,6 @@ A: Yes, you can explore a free trial [Aspose.CAD free trial page](https://releas
 **Tested With:** Aspose.CAD 24.12 for .NET  
 **Author:** Aspose
 
-## Related Tutorials
-
-- [Exporting DXF to PDF Format - Aspose.CAD Tutorial]({{< relref "../exporting-dxf-to-pdf-format/_index.md" >}})
-- [Exporting DXF Specific Layout to PDF - Aspose.CAD Tutorial]({{< relref "../exporting-dxf-specific-layout-to-pdf/_index.md" >}})
-- [Exporting DWG to DXF Format in C# - Aspose.CAD Tutorial]({{< relref "../exporting-dwg-to-dxf/_index.md" >}})
-
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
