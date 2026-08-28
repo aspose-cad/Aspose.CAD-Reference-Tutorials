@@ -25,8 +25,6 @@ In the dynamic world of Computer-Aided Design (CAD), **export dwg to pdf** is a 
 - **Can I choose a specific layout?** Absolutely – you can set the layout name with `CadRasterizationOptions`.
 - **What are the minimum prerequisites?** Java development environment and the Aspose.CAD library.
 
-For a broader overview of DWG to PDF conversion, refer to the {{< relref "../export-dwg-to-pdf/_index.md" >}} tutorial.
-
 ## What is export dwg to pdf?
 Exporting a DWG file to PDF transforms vector‑based CAD data into a portable, device‑independent format. The resulting PDF retains line work, dimensions, and layers, making it ideal for client reviews, documentation, or archiving.
 
