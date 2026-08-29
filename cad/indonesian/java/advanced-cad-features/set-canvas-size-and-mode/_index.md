@@ -1,11 +1,52 @@
 ---
-date: 2026-02-15
-description: Pelajari cara mengatur ukuran halaman PDF dan mengonversi CAD ke PDF
+date: 2026-08-29
+description: Pelajari cara mengatur ukuran halaman pdf dan mengonversi CAD ke PDF
   menggunakan Aspose.CAD untuk Java, dengan penskalaan tata letak otomatis dan ekspor
   TIFF.
-linktitle: Set PDF Page Size – Convert CAD to PDF
+keywords:
+- set pdf page size
+- convert cad to pdf
+- canvas size java
+- high resolution tiff
+- change pdf dimensions
+lastmod: 2026-08-29
+linktitle: Atur ukuran halaman pdf – konversi cad ke pdf
+og_description: Pelajari cara mengatur ukuran halaman pdf saat mengonversi gambar
+  CAD ke PDF di Java menggunakan Aspose.CAD. Panduan ini mencakup dimensi kanvas,
+  penskalaan tata letak otomatis, dan mengekspor ke TIFF resolusi tinggi.
+og_image_alt: Tutorial showing how to set pdf page size and convert CAD to PDF in
+  Java
+og_title: Atur ukuran halaman pdf – konversi CAD ke PDF dengan Aspose di Java
+schemas:
+- author: Aspose
+  dateModified: '2026-08-29'
+  description: Learn how to set pdf page size and convert CAD to PDF using Aspose.CAD
+    for Java, with automatic layout scaling and TIFF export.
+  headline: Set pdf page size – convert cad to pdf (Java)
+  type: TechArticle
+- questions:
+  - answer: No. Canvas size controls page dimensions; vector data remains resolution‑independent,
+      ensuring crisp rendering at any zoom level.
+    question: does the canvas size affect vector quality in the PDF?
+  - answer: Yes. Adjust `rasterizationOptions.setResolution(dpiValue)` before creating
+      `TiffOptions`.
+    question: can I set a different DPI for the TIFF output?
+  - answer: Use Aspose.PDF to load the generated PDF and call `pdf.getPages().setPageSize(PageSize.A4)`
+      or a custom size.
+    question: how can I change PDF dimensions for an existing PDF without re‑rendering
+      the CAD?
+  - answer: Keep `setAutomaticLayoutsScaling(true)` and avoid `setNoScaling(true)`;
+      this retains layer visibility and layout fidelity.
+    question: what is the best way to convert dxf to pdf while preserving layers?
+  type: FAQPage
 second_title: Aspose.CAD Java API
-title: Atur Ukuran Halaman PDF – Konversi CAD ke PDF (Java)
+tags:
+- set pdf page size
+- convert cad
+- Aspose.CAD
+- Java
+- high resolution tiff
+title: Atur ukuran halaman pdf – konversi cad ke pdf (Java)
 url: /id/java/advanced-cad-features/set-canvas-size-and-mode/
 weight: 16
 ---
@@ -14,43 +55,46 @@ weight: 16
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Set Canvas Size and Mode
+# Set ukuran halaman PDF – konversi CAD ke PDF (Java)
 
-## Introduction
+## Pendahuluan
 
-Jika Anda perlu **set PDF page size** saat mengonversi gambar CAD ke PDF, Anda berada di tempat yang tepat. Dalam tutorial ini kami akan menunjukkan cara menggunakan Aspose.CAD for Java untuk menentukan dimensi kanvas yang tepat, mengaktifkan automatic layout scaling, dan kemudian mengekspor hasilnya ke PDF dan TIFF. Baik Anda menyiapkan skematik teknik untuk cetak atau menghasilkan thumbnail untuk galeri web, mengendalikan ukuran halaman dan resolusi output sangat penting.
+Jika Anda perlu **set pdf page size** saat mengonversi gambar CAD ke PDF, Anda berada di tempat yang tepat. Dalam tutorial ini kami akan menunjukkan cara menggunakan Aspose.CAD untuk Java untuk menentukan dimensi kanvas yang tepat, mengaktifkan automatic layout scaling, dan kemudian mengekspor hasilnya ke PDF dan TIFF. Baik Anda menyiapkan skema teknik untuk dicetak atau menghasilkan thumbnail untuk galeri web, mengontrol ukuran halaman dan resolusi output sangat penting.
 
-## Quick Answers
-- **What does “convert CAD to PDF” mean?** Transformasi gambar CAD (misalnya DXF, DWG) menjadi dokumen PDF yang dapat dilihat di platform apa pun.  
-- **Can I also export to TIFF?** Ya—gunakan `TiffOptions` untuk membuat gambar raster beresolusi tinggi.  
-- **Which option controls canvas size in Java?** `CadRasterizationOptions.setPageWidth/Height`.  
-- **What is automatic layout scaling?** Sebuah flag (`setAutomaticLayoutsScaling(true)`) yang mempertahankan proporsi tata letak asli ketika ukuran kanvas berubah.  
-- **Do I need a license for Aspose.CAD?** Lisensi sementara atau permanen diperlukan untuk penggunaan produksi.
+## Jawaban Cepat
 
-## How to Set PDF Page Size When Converting CAD to PDF (Java)
+- **Apa arti “convert CAD to PDF”?** Mengubah gambar CAD (mis., DXF, DWG) menjadi dokumen PDF yang dapat dilihat di platform apa pun.  
+- **Apakah saya juga dapat mengekspor ke TIFF?** Ya—gunakan `TiffOptions` untuk membuat gambar raster beresolusi tinggi.  
+- **Opsi mana yang mengontrol ukuran kanvas di Java?** `CadRasterizationOptions.setPageWidth/Height`.  
+- **Apa itu automatic layout scaling?** Sebuah flag (`setAutomaticLayoutsScaling(true)`) yang mempertahankan proporsi tata letak asli ketika ukuran kanvas berubah.  
+- **Apakah saya memerlukan lisensi untuk Aspose.CAD?** Lisensi sementara atau permanen diperlukan untuk penggunaan produksi.
 
-Menentukan ukuran halaman PDF (atau ukuran kanvas) memungkinkan Anda mengatur dimensi akhir dokumen, yang sangat berguna ketika Anda harus **change PDF dimensions** agar sesuai dengan standar pencetakan atau kebutuhan UI. Di bawah ini kami akan membahas setiap langkah, menjelaskan *mengapa* di balik setiap baris kode.
+## Cara mengatur pdf page size saat mengonversi CAD ke PDF di Java
 
-## What is **convert CAD to PDF**?
+Muat file CAD Anda, konfigurasikan `CadRasterizationOptions` dengan lebar dan tinggi yang diinginkan, aktifkan automatic layout scaling, dan kemudian simpan hasilnya sebagai PDF. Pendekatan dua langkah ini memungkinkan Anda mengontrol dimensi tepat halaman output tanpa mengorbankan kualitas vektor.
 
-Mengonversi CAD ke PDF berarti mengambil gambar teknik berbasis vektor dan merendernya sebagai halaman PDF, mempertahankan garis, lapisan, dan geometri sekaligus membuat file dapat diakses secara universal.
+## Apa itu convert CAD ke PDF?
 
-## Why set canvas size **java**?
+Converting CAD to PDF berarti mengambil gambar teknik berbasis vektor dan merendernya sebagai halaman PDF, mempertahankan garis, lapisan, dan geometri sambil membuat file dapat diakses secara universal. Proses ini meraster gambar sesuai opsi yang ditentukan, menghasilkan PDF yang dapat dibuka di perangkat apa pun tanpa memerlukan perangkat lunak CAD, dan mempertahankan kesetiaan visual desain asli.
 
-Menentukan ukuran kanvas di Java memungkinkan Anda mendefinisikan resolusi output dan dimensi halaman, memastikan PDF atau TIFF yang dihasilkan sesuai dengan kebutuhan pencetakan atau tampilan Anda. Ini juga memberi Anda kontrol atas perilaku skala, yang penting untuk gambar berformat besar.
+## Mengapa mengatur ukuran kanvas java?
 
-## Prerequisites
+Mengatur ukuran kanvas di Java memungkinkan Anda menentukan resolusi output dan dimensi halaman, memastikan bahwa PDF atau TIFF yang dihasilkan sesuai dengan kebutuhan pencetakan atau tampilan Anda. Ini juga memberi Anda kontrol atas perilaku skala, yang penting untuk gambar berformat besar.
+
+## Prasyarat
 
 Sebelum menyelam ke tutorial, pastikan Anda memiliki prasyarat berikut:
 
-- Aspose.CAD for Java: Pastikan Anda telah menginstal pustaka Aspose.CAD di lingkungan Java Anda. Anda dapat mengunduhnya [here](https://releases.aspose.com/cad/java/).
-- Document Directory: Siapkan direktori dokumen untuk menyimpan file CAD Anda. Direktori ini akan direferensikan dalam langkah‑langkah tutorial.
+- Aspose.CAD for Java: Pastikan Anda memiliki perpustakaan Aspose.CAD yang terpasang di lingkungan Java Anda. Anda dapat mengunduh perpustakaan Aspose.CAD untuk Java [here](https://releases.aspose.com/cad/java/).
+- Direktori dokumen: Siapkan direktori dokumen untuk menyimpan file CAD Anda. Direktori ini akan dirujuk dalam langkah‑langkah tutorial.
 
-Sekarang, mari kita mulai dengan panduan langkah‑demi‑langkah.
+Sekarang, mari kita mulai dengan panduan langkah demi langkah.
 
-## Import Namespaces
+## Impor namespace
 
 Dalam langkah ini, kami akan mengimpor namespace yang diperlukan untuk memulai proyek Aspose.CAD Anda.
+
+`Image` adalah kelas utama yang digunakan untuk memuat file CAD.
 
 ```java
 import java.awt.Image;
@@ -61,7 +105,9 @@ import com.aspose.cad.imageoptions.PdfOptions;
 import com.aspose.cad.imageoptions.TiffOptions;
 ```
 
-## Step 1: Import Aspose.CAD Classes
+## Langkah 1: impor kelas Aspose.CAD
+
+Kelas `Image` menyediakan metode untuk memuat dan menyimpan gambar CAD.
 
 ```java
 // The path to the resource directory.
@@ -73,7 +119,9 @@ com.aspose.cad.Image objImage = com.aspose.cad.Image.load(srcFile);
 
 Dalam potongan kode ini, kami menyiapkan jalur ke direktori sumber daya dan memuat file DXF menggunakan kelas `Image` milik Aspose.CAD.
 
-## Step 2: Set **CadRasterizationOptions** Properties (set canvas size java)
+## Langkah 2: atur properti CadRasterizationOptions (set canvas size java)
+
+`CadRasterizationOptions` menentukan pengaturan rasterisasi seperti ukuran halaman dan skala untuk konversi CAD‑to‑raster.
 
 ```java
 // Create an instance of CadRasterizationOptions and set its various properties
@@ -85,9 +133,11 @@ rasterizationOptions.setAutomaticLayoutsScaling(true);
 rasterizationOptions.setNoScaling(true);
 ```
 
-Di sini, kami membuat instance `CadRasterizationOptions` dan mengonfigurasi properti seperti page width, page height, dan **automatic layout scaling**. Ini adalah inti dari **configure canvas mode** untuk konversi Anda.
+Di sini, kami membuat instance `CadRasterizationOptions` dan mengonfigurasi properti seperti lebar halaman, tinggi halaman, dan **automatic layout scaling**. Ini adalah inti dari **configure canvas mode** untuk konversi Anda.
 
-## Step 3: Create PdfOptions and Set VectorRasterizationOptions
+## Langkah 3: buat PdfOptions dan atur vectorRasterizationOptions
+
+`PdfOptions` mendefinisikan pengaturan output PDF untuk konversi.
 
 ```java
 // Create an instance of PdfOptions
@@ -97,9 +147,9 @@ PdfOptions pdfOptions = new PdfOptions();
 pdfOptions.setVectorRasterizationOptions(rasterizationOptions);
 ```
 
-Sekarang, kami membuat instance `PdfOptions` dan menetapkan properti `VectorRasterizationOptions`‑nya ke `CadRasterizationOptions` yang telah dikonfigurasi sebelumnya.
+Sekarang, kami membuat instance `PdfOptions` dan mengatur properti `VectorRasterizationOptions`‑nya ke `CadRasterizationOptions` yang telah dikonfigurasi sebelumnya.
 
-## Step 4: Export to PDF (convert cad to pdf)
+## Langkah 4: ekspor ke PDF (convert CAD to PDF)
 
 ```java
 // Export CAD to PDF
@@ -108,7 +158,9 @@ objImage.save(dataDir + "result_out_.pdf", pdfOptions);
 
 Akhirnya, kami menyimpan gambar CAD ke file PDF menggunakan opsi yang ditentukan, menyelesaikan proses **convert CAD to PDF**.
 
-## Step 5: Create TiffOptions and Set VectorRasterizationOptions (export cad to tiff)
+## Langkah 5: buat TiffOptions dan atur vectorRasterizationOptions (export CAD to TIFF)
+
+`TiffOptions` mengonfigurasi parameter output TIFF seperti kompresi dan resolusi.
 
 ```java
 // Create an instance of TiffOptions
@@ -118,74 +170,71 @@ TiffOptions tiffOptions = new TiffOptions(TiffExpectedFormat.Default);
 tiffOptions.setVectorRasterizationOptions(rasterizationOptions);
 ```
 
-Dalam langkah ini, kami menyiapkan instance `TiffOptions` dan mengonfigurasi properti `VectorRasterizationOptions`‑nya.
-
-## Step 6: Export to TIFF
+## Langkah 6: ekspor ke TIFF
 
 ```java
 // Export CAD to TIFF
 objImage.save(dataDir + "result_out_.tiff", tiffOptions);
 ```
 
-Akhirnya, kami menyimpan gambar CAD ke file TIFF menggunakan opsi yang ditentukan, memperlihatkan cara **export CAD to TIFF** setelah mengonfigurasi ukuran kanvas.
+Akhirnya, kami menyimpan gambar CAD ke file TIFF menggunakan opsi yang ditentukan, menunjukkan cara **export CAD to TIFF** setelah mengonfigurasi ukuran kanvas.
 
-## Common Issues and Solutions
+## Masalah umum dan solusi
 
-| Issue | Cause | Fix |
+| Masalah | Penyebab | Solusi |
 |-------|-------|-----|
-| Output PDF is blank | `setNoScaling(true)` disables rendering for some drawings | Remove `setNoScaling(true)` or set it to `false`. |
-| TIFF resolution looks low | Page width/height too small | Increase `setPageWidth` / `setPageHeight` values. |
-| Layout looks distorted | Automatic layout scaling disabled | Ensure `setAutomaticLayoutsScaling(true)` is enabled. |
+| Output PDF kosong | `setNoScaling(true)` menonaktifkan rendering untuk beberapa gambar | Hapus `setNoScaling(true)` atau setel ke `false`. |
+| Resolusi TIFF terlihat rendah | Lebar/tinggi halaman terlalu kecil | Tingkatkan nilai `setPageWidth` / `setPageHeight`. |
+| Tata letak terlihat terdistorsi | Automatic layout scaling dinonaktifkan | Pastikan `setAutomaticLayoutsScaling(true)` diaktifkan. |
 
-## Why Adjust Canvas Size and DPI?
+## Mengapa menyesuaikan ukuran kanvas dan DPI?
 
-Mengubah ukuran kanvas secara langsung memengaruhi resolusi rasterisasi output. Jika Anda perlu **increase TIFF resolution**, cukup tingkatkan nilai `setPageWidth` / `setPageHeight` atau panggil `rasterizationOptions.setResolution(300)` sebelum membuat `TiffOptions`. Ini memberi Anda gambar raster berkualitas tinggi yang cocok untuk cetak atau inspeksi detail.
+Mengubah ukuran kanvas secara langsung memengaruhi resolusi rasterisasi output. Jika Anda perlu **increase TIFF resolution**, cukup naikkan nilai `setPageWidth` / `setPageHeight` atau panggil `rasterizationOptions.setResolution(300)` sebelum membuat `TiffOptions`. Ini memberi Anda gambar raster berkualitas tinggi yang cocok untuk pencetakan atau inspeksi detail.
 
-## Frequently Asked Questions
+## Pertanyaan yang sering diajukan
 
-### Q1: Can I use Aspose.CAD for Java with other Java frameworks?
+**Q1: dapatkah saya menggunakan Aspose.CAD untuk Java dengan kerangka kerja Java lainnya?**  
+A: Ya, Aspose.CAD dirancang untuk terintegrasi secara mulus dengan berbagai kerangka kerja Java.
 
-A1: Yes, Aspose.CAD is designed to seamlessly integrate with various Java frameworks.
+**Q2: apakah lisensi sementara tersedia untuk Aspose.CAD?**  
+A: Ya, Anda dapat memperoleh halaman lisensi sementara [here](https://purchase.aspose.com/temporary-license/).
 
-### Q2: Is a temporary license available for Aspose.CAD?
+**Q3: di mana saya dapat mendapatkan dukungan komunitas untuk Aspose.CAD?**  
+A: Kunjungi forum Aspose.CAD [Aspose.CAD forum](https://forum.aspose.com/c/cad/19) untuk dukungan komunitas dan diskusi.
 
-A2: Yes, you can obtain a temporary license [here](https://purchase.aspose.com/temporary-license/).
+**Q4: dapatkah saya mencoba Aspose.CAD secara gratis?**  
+A: Tentu! Dapatkan halaman unduhan percobaan gratis [here](https://releases.aspose.com/).
 
-### Q3: Where can I get community support for Aspose.CAD?
+**Q5: bagaimana cara membeli Aspose.CAD untuk Java?**  
+A: Beli Aspose.CAD untuk Java [here](https://purchase.aspose.com/buy).
 
-A3: Visit the [Aspose.CAD forum](https://forum.aspose.com/c/cad/19) for community support and discussions.
+**Q: apakah ukuran kanvas memengaruhi kualitas vektor dalam PDF?**  
+A: Tidak. Ukuran kanvas mengontrol dimensi halaman; data vektor tetap independen resolusi, memastikan render yang tajam pada tingkat zoom apa pun.
 
-### Q4: Can I try Aspose.CAD for free?
+**Q: dapatkah saya mengatur DPI yang berbeda untuk output TIFF?**  
+A: Ya. Sesuaikan `rasterizationOptions.setResolution(dpiValue)` sebelum membuat `TiffOptions`.
 
-A4: Absolutely! Get a free trial [here](https://releases.aspose.com/).
+**Q: bagaimana saya dapat mengubah dimensi PDF untuk PDF yang ada tanpa merender ulang CAD?**  
+A: Gunakan Aspose.PDF untuk memuat PDF yang dihasilkan dan panggil `pdf.getPages().setPageSize(PageSize.A4)` atau ukuran khusus.
 
-### Q5: How do you purchase Aspose.CAD for Java?
+**Q: apa cara terbaik untuk mengonversi dxf ke pdf sambil mempertahankan lapisan?**  
+A: Pertahankan `setAutomaticLayoutsScaling(true)` dan hindari `setNoScaling(true)`; ini menjaga visibilitas lapisan dan kesetiaan tata letak.
 
-A5: Purchase the product [here](https://purchase.aspose.com/buy).
+## Kesimpulan
 
-**Additional Q&A**
-
-**Q: Does the canvas size affect vector quality in the PDF?**  
-A: No. Canvas size controls page dimensions; vector data remains resolution‑independent, ensuring crisp rendering at any zoom level.
-
-**Q: Can I set a different DPI for the TIFF output?**  
-A: Yes. Adjust `rasterizationOptions.setResolution(dpiValue)` before creating `TiffOptions`.
-
-**Q: How can I **change PDF dimensions** for an existing PDF without re‑rendering the CAD?**  
-A: Use Aspose.PDF to load the generated PDF and call `pdf.getPages().setPageSize(PageSize.A4)` or a custom size.
-
-**Q: What is the best way to **convert dxf to pdf** while preserving layers?**  
-A: Keep `setAutomaticLayoutsScaling(true)` and avoid `setNoScaling(true)`; this retains layer visibility and layout fidelity.
-
-## Conclusion
-
-Congratulations! You've successfully **convert CAD to PDF** and **export CAD to TIFF** while **set canvas size java**, enabling **automatic layout scaling**, and learning how to **configure canvas mode** for high‑quality outputs. This tutorial provides a solid foundation for your CAD conversion projects. Explore more features and possibilities in the [Aspose.CAD documentation](https://reference.aspose.com/cad/java/).
+Selamat! Anda telah berhasil **convert CAD to PDF** dan **export CAD to TIFF** sambil **set canvas size java**, mengaktifkan **automatic layout scaling**, serta mempelajari cara **configure canvas mode** untuk output berkualitas tinggi. Tutorial ini memberikan fondasi yang kuat untuk proyek konversi CAD Anda. Jelajahi lebih banyak fitur dan kemungkinan di [Aspose.CAD documentation](https://reference.aspose.com/cad/java/).
 
 ---
 
-**Last Updated:** 2026-02-15  
-**Tested With:** Aspose.CAD for Java 24.12  
-**Author:** Aspose  
+**Last Updated:** 2026-08-29  
+**Tested with:** Aspose.CAD for Java 24.12  
+**Author:** Aspose
+
+## Tutorial Terkait
+
+- [Set Canvas Size – Fitur CAD Lanjutan dengan Aspose.CAD untuk Java](/cad/java/advanced-cad-features/)
+- [Ekspor DWG ke PDF di Java – Set PDF Page Size dengan Aspose.CAD](/cad/java/cad-export-options/export-to-pdf/)
+- [Set Custom Page Size – PDF dari CAD dengan Auto Layout Scaling](/cad/java/advanced-cad-features/setting-auto-layout-scaling/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

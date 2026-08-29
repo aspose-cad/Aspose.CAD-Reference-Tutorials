@@ -1,10 +1,50 @@
 ---
-date: 2026-02-15
-description: Aspose.CAD for Java を使用して、PDF のページサイズ設定や CAD の PDF 変換、レイアウトの自動スケーリング、TIFF
-  エクスポートの方法を学びましょう。
-linktitle: Set PDF Page Size – Convert CAD to PDF
+date: 2026-08-29
+description: Aspose.CAD for Java を使用して、PDFページサイズの設定方法と CAD を PDF に変換する方法を学びます。自動レイアウトスケーリングと
+  TIFF エクスポートにも対応しています。
+keywords:
+- set pdf page size
+- convert cad to pdf
+- canvas size java
+- high resolution tiff
+- change pdf dimensions
+lastmod: 2026-08-29
+linktitle: PDFページサイズの設定 – CADをPDFに変換
+og_description: Aspose.CAD を使用して Java で CAD 図面を PDF に変換しながら PDF ページサイズを設定する方法を学びます。このガイドでは、キャンバス寸法、自動レイアウトスケーリング、および高解像度
+  TIFF へのエクスポートについて説明します。
+og_image_alt: Tutorial showing how to set pdf page size and convert CAD to PDF in
+  Java
+og_title: PDFページサイズの設定 – Aspose を使用した Java での CAD から PDF への変換
+schemas:
+- author: Aspose
+  dateModified: '2026-08-29'
+  description: Learn how to set pdf page size and convert CAD to PDF using Aspose.CAD
+    for Java, with automatic layout scaling and TIFF export.
+  headline: Set pdf page size – convert cad to pdf (Java)
+  type: TechArticle
+- questions:
+  - answer: No. Canvas size controls page dimensions; vector data remains resolution‑independent,
+      ensuring crisp rendering at any zoom level.
+    question: does the canvas size affect vector quality in the PDF?
+  - answer: Yes. Adjust `rasterizationOptions.setResolution(dpiValue)` before creating
+      `TiffOptions`.
+    question: can I set a different DPI for the TIFF output?
+  - answer: Use Aspose.PDF to load the generated PDF and call `pdf.getPages().setPageSize(PageSize.A4)`
+      or a custom size.
+    question: how can I change PDF dimensions for an existing PDF without re‑rendering
+      the CAD?
+  - answer: Keep `setAutomaticLayoutsScaling(true)` and avoid `setNoScaling(true)`;
+      this retains layer visibility and layout fidelity.
+    question: what is the best way to convert dxf to pdf while preserving layers?
+  type: FAQPage
 second_title: Aspose.CAD Java API
-title: PDFページサイズを設定 – CADをPDFに変換（Java）
+tags:
+- set pdf page size
+- convert cad
+- Aspose.CAD
+- Java
+- high resolution tiff
+title: PDFページサイズの設定 – CADをPDFに変換 (Java)
 url: /ja/java/advanced-cad-features/set-canvas-size-and-mode/
 weight: 16
 ---
@@ -13,43 +53,45 @@ weight: 16
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# キャンバスサイズとモードの設定
+# PDFページサイズの設定 – CADをPDFに変換 (Java)
 
 ## はじめに
 
-CAD 図面を PDF に変換する際に **PDF ページサイズを設定** したい場合は、ここが最適です。このチュートリアルでは、Aspose.CAD for Java を使用して正確なキャンバス寸法を定義し、 自動レイアウトスケーリングを有効にしたうえで、結果を PDF と TIFF の両方にエクスポートする方法を示します。印刷用のエンジニアリング図面を作成する場合でも、ウェブギャラリー用のサムネイルを生成する場合でも、ページサイズと出力解像度を制御することは重要です。
+CAD図面をPDFに変換する際に **pdfページサイズを設定** したい場合は、ここが適切な場所です。このチュートリアルでは、Aspose.CAD for Java を使用して正確なキャンバス寸法を定義し、自動レイアウトスケーリングを有効にし、結果をPDFとTIFFの両方にエクスポートする方法を示します。印刷用のエンジニアリング図面を準備する場合でも、ウェブギャラリー用のサムネイルを生成する場合でも、ページサイズと出力解像度を制御することは重要です。
 
 ## クイック回答
-- **「CAD を PDF に変換する」とは何ですか？** CAD 図面（例：DXF、DWG）を任意のプラットフォームで閲覧可能な PDF ドキュメントに変換することです。  
-- **TIFF へもエクスポートできますか？** はい — `TiffOptions` を使用して高解像度ラスタ画像を作成できます。  
-- **Java でキャンバスサイズを制御するオプションはどれですか？** `CadRasterizationOptions.setPageWidth/Height`。  
+- **「CADをPDFに変換」とは何ですか？** 任意のプラットフォームで閲覧できるPDFドキュメントに、CAD図面（例：DXF、DWG）を変換することです。  
+- **TIFFにもエクスポートできますか？** はい — `TiffOptions` を使用して高解像度ラスタ画像を作成します。  
+- **Javaでキャンバスサイズを制御するオプションはどれですか？** `CadRasterizationOptions.setPageWidth/Height`。  
 - **自動レイアウトスケーリングとは何ですか？** キャンバスサイズが変わったときに元のレイアウト比率を保持するフラグ（`setAutomaticLayoutsScaling(true)`）。  
-- **Aspose.CAD のライセンスは必要ですか？** 本番環境で使用する場合は、一時ライセンスまたは永続ライセンスが必要です。
+- **Aspose.CADのライセンスは必要ですか？** 本番環境で使用するには、一時的または永続的なライセンスが必要です。
 
-## CAD を PDF に変換する際の PDF ページサイズ設定方法（Java）
+## JavaでCADをPDFに変換する際のpdfページサイズの設定方法
 
-PDF ページサイズ（またはキャンバスサイズ）を設定すると、文書の最終寸法を指定でき、印刷規格や UI 要件に合わせて **PDF の寸法を変更** する必要がある場合に特に有用です。以下では、各コード行の *理由* を説明しながら手順を追って解説します。
+CADファイルを読み込み、`CadRasterizationOptions` に希望の幅と高さを設定し、自動レイアウトスケーリングを有効にした後、結果をPDFとして保存します。この二段階のアプローチにより、ベクター品質を損なうことなく出力ページの正確な寸法を制御できます。
 
-## **CAD を PDF に変換** とは？
+## 「CADをPDFに変換」とは何ですか？
 
-CAD を PDF に変換するとは、ベクターベースのエンジニアリング図面を PDF ページとしてレンダリングし、線画・レイヤー・ジオメトリを保持しつつ、ファイルを汎用的にアクセス可能にすることを指します。
+CADをPDFに変換するとは、ベクトルベースのエンジニアリング図面をPDFページとしてレンダリングし、線画、レイヤー、ジオメトリを保持しつつ、ファイルを普遍的にアクセス可能にすることです。指定されたオプションに従って図面をラスタライズし、任意のデバイスでCADソフトウェアなしに開けるPDFを生成し、元の設計の視覚的忠実度を保ちます。
 
-## **java** でキャンバスサイズを設定する理由
+## なぜJavaでキャンバスサイズを設定するのか？
 
-Java でキャンバスサイズを設定すると、出力解像度とページ寸法を定義でき、生成される PDF または TIFF が印刷や表示の要件に合致します。また、スケーリング動作を制御できるため、大判図面において重要です。
+Javaでキャンバスサイズを設定すると、出力解像度とページ寸法を定義でき、生成されたPDFまたはTIFFが印刷や表示の要件に合致します。また、スケーリング動作を制御できるため、大判図面にとって重要です。
 
 ## 前提条件
 
 チュートリアルに入る前に、以下の前提条件が整っていることを確認してください。
 
-- Aspose.CAD for Java: Java 環境に Aspose.CAD ライブラリがインストールされていること。ダウンロードは [here](https://releases.aspose.com/cad/java/) から可能です。  
-- ドキュメントディレクトリ: CAD ファイルを格納するディレクトリを用意し、チュートリアルの手順で参照できるようにします。
+- Aspose.CAD for Java: Java環境に Aspose.CAD ライブラリがインストールされていることを確認してください。ライブラリは[ここ](https://releases.aspose.com/cad/java/)からダウンロードできます。  
+- Document directory: CADファイルを保存するドキュメントディレクトリを設定します。このディレクトリはチュートリアルの手順で参照されます。
 
-それでは、ステップバイステップのガイドを始めましょう。
+さあ、ステップバイステップのガイドを始めましょう。
 
 ## 名前空間のインポート
 
 このステップでは、Aspose.CAD プロジェクトを開始するために必要な名前空間をインポートします。
+
+`Image` は CAD ファイルの読み込みに使用される主要クラスです。
 
 ```java
 import java.awt.Image;
@@ -62,6 +104,8 @@ import com.aspose.cad.imageoptions.TiffOptions;
 
 ## 手順 1: Aspose.CAD クラスのインポート
 
+`Image` クラスは CAD 図面の読み込みと保存のメソッドを提供します。
+
 ```java
 // The path to the resource directory.
 String dataDir = "Your Document Directory" + "CADConversion/";
@@ -72,7 +116,9 @@ com.aspose.cad.Image objImage = com.aspose.cad.Image.load(srcFile);
 
 このスニペットでは、リソースディレクトリへのパスを設定し、Aspose.CAD の `Image` クラスを使用して DXF ファイルを読み込みます。
 
-## 手順 2: **CadRasterizationOptions** プロパティの設定（java でキャンバスサイズを設定）
+## 手順 2: CadRasterizationOptions プロパティの設定（Javaでキャンバスサイズを設定）
+
+`CadRasterizationOptions` は CAD からラスタへの変換におけるページサイズやスケーリングなどのラスタライズ設定を指定します。
 
 ```java
 // Create an instance of CadRasterizationOptions and set its various properties
@@ -84,9 +130,11 @@ rasterizationOptions.setAutomaticLayoutsScaling(true);
 rasterizationOptions.setNoScaling(true);
 ```
 
-ここでは `CadRasterizationOptions` のインスタンスを作成し、ページ幅、ページ高さ、そして **自動レイアウトスケーリング** などのプロパティを構成します。これが変換時の **キャンバスモードの設定** の核心です。
+ここでは、`CadRasterizationOptions` のインスタンスを作成し、ページ幅、ページ高さ、そして **自動レイアウトスケーリング** などのプロパティを設定します。これが変換時の **キャンバスモードの構成** の中心です。
 
-## 手順 3: PdfOptions の作成と VectorRasterizationOptions の設定
+## 手順 3: PdfOptions の作成と vectorRasterizationOptions の設定
+
+`PdfOptions` は変換の PDF 出力設定を定義します。
 
 ```java
 // Create an instance of PdfOptions
@@ -96,18 +144,20 @@ PdfOptions pdfOptions = new PdfOptions();
 pdfOptions.setVectorRasterizationOptions(rasterizationOptions);
 ```
 
-次に `PdfOptions` インスタンスを作成し、その `VectorRasterizationOptions` プロパティに先ほど構成した `CadRasterizationOptions` を設定します。
+次に、`PdfOptions` インスタンスを作成し、その `VectorRasterizationOptions` プロパティに先ほど構成した `CadRasterizationOptions` を設定します。
 
-## 手順 4: PDF へのエクスポート（CAD を PDF に変換）
+## 手順 4: PDF にエクスポート（CADをPDFに変換）
 
 ```java
 // Export CAD to PDF
 objImage.save(dataDir + "result_out_.pdf", pdfOptions);
 ```
 
-最後に、指定したオプションを使用して CAD 画像を PDF ファイルとして保存し、**CAD を PDF に変換** プロセスを完了します。
+最後に、指定したオプションを使用して CAD 画像を PDF ファイルとして保存し、**CADをPDFに変換** プロセスを完了します。
 
-## 手順 5: TiffOptions の作成と VectorRasterizationOptions の設定（CAD を TIFF にエクスポート）
+## 手順 5: TiffOptions の作成と vectorRasterizationOptions の設定（CADをTIFFにエクスポート）
+
+`TiffOptions` は圧縮や解像度などの TIFF 出力パラメータを構成します。
 
 ```java
 // Create an instance of TiffOptions
@@ -117,74 +167,71 @@ TiffOptions tiffOptions = new TiffOptions(TiffExpectedFormat.Default);
 tiffOptions.setVectorRasterizationOptions(rasterizationOptions);
 ```
 
-このステップでは `TiffOptions` インスタンスを作成し、その `VectorRasterizationOptions` プロパティを構成します。
-
-## 手順 6: TIFF へのエクスポート
+## 手順 6: TIFF にエクスポート
 
 ```java
 // Export CAD to TIFF
 objImage.save(dataDir + "result_out_.tiff", tiffOptions);
 ```
 
-最後に、指定したオプションを使用して CAD 画像を TIFF ファイルとして保存し、キャンバスサイズを設定した後の **CAD を TIFF にエクスポート** を実演します。
+最後に、指定したオプションを使用して CAD 画像を TIFF ファイルとして保存し、キャンバスサイズを構成した後の **CADをTIFFにエクスポート** 方法を示します。
 
 ## よくある問題と解決策
 
 | 問題 | 原因 | 対策 |
 |------|------|------|
-| 出力 PDF が空白になる | `setNoScaling(true)` が一部の図面で描画を無効化 | `setNoScaling(true)` を削除するか `false` に設定 |
-| TIFF の解像度が低い | ページ幅/高さが小さすぎる | `setPageWidth` / `setPageHeight` の値を増やす |
-| レイアウトが歪む | 自動レイアウトスケーリングが無効 | `setAutomaticLayoutsScaling(true)` が有効になっていることを確認 |
+| 出力PDFが空白 | `setNoScaling(true)` が一部の図面のレンダリングを無効にする | `setNoScaling(true)` を削除するか、`false` に設定してください。 |
+| TIFFの解像度が低い | ページ幅/高さが小さすぎる | `setPageWidth` / `setPageHeight` の値を増やす。 |
+| レイアウトが歪んでいる | 自動レイアウトスケーリングが無効になっている | `setAutomaticLayoutsScaling(true)` が有効であることを確認する。 |
 
-## キャンバスサイズと DPI を調整する理由
+## なぜキャンバスサイズと DPI を調整するのか？
 
-キャンバスサイズを変更すると、出力のラスタライズ解像度に直接影響します。**TIFF の解像度を上げたい** 場合は、`setPageWidth` / `setPageHeight` の値を上げるか、`TiffOptions` を作成する前に `rasterizationOptions.setResolution(300)` を呼び出してください。これにより、印刷や詳細検査に適した高品質ラスタ画像が得られます。
+キャンバスサイズを変更すると、出力のラスタライズ解像度に直接影響します。**TIFF の解像度を上げたい** 場合は、`setPageWidth` / `setPageHeight` の値を上げるか、`TiffOptions` を作成する前に `rasterizationOptions.setResolution(300)` を呼び出してください。これにより、印刷や詳細検査に適した高品質のラスタ画像が得られます。
 
-## FAQ（よくある質問）
+## よくある質問
 
-### Q1: Aspose.CAD for Java を他の Java フレームワークと併用できますか？
+**Q1: Aspose.CAD for Java を他の Java フレームワークと併用できますか？**  
+A: はい、Aspose.CAD はさまざまな Java フレームワークとシームレスに統合できるように設計されています。
 
-A1: はい、Aspose.CAD はさまざまな Java フレームワークとシームレスに統合できるよう設計されています。
+**Q2: Aspose.CAD の一時ライセンスは利用可能ですか？**  
+A: はい、一時ライセンスは[ここ](https://purchase.aspose.com/temporary-license/)で取得できます。
 
-### Q2: Aspose.CAD の一時ライセンスは入手可能ですか？
+**Q3: Aspose.CAD のコミュニティサポートはどこで得られますか？**  
+A: Aspose.CAD フォーラム [Aspose.CAD forum](https://forum.aspose.com/c/cad/19) でコミュニティサポートとディスカッションが利用できます。
 
-A2: はい、[here](https://purchase.aspose.com/temporary-license/) から取得できます。
+**Q4: Aspose.CAD を無料で試せますか？**  
+A: もちろんです！無料トライアルは[ここ](https://releases.aspose.com/)からダウンロードできます。
 
-### Q3: Aspose.CAD のコミュニティサポートはどこで得られますか？
-
-A3: コミュニティサポートやディスカッションは [Aspose.CAD forum](https://forum.aspose.com/c/cad/19) で行われています。
-
-### Q4: Aspose.CAD を無料で試せますか？
-
-A4: もちろんです！[here](https://releases.aspose.com/) から無料トライアルを入手してください。
-
-### Q5: Aspose.CAD for Java の購入方法を教えてください。
-
-A5: 製品は [here](https://purchase.aspose.com/buy) から購入できます。
+**Q5: Aspose.CAD for Java の購入方法は？**  
+A: Aspose.CAD for Java は[ここ](https://purchase.aspose.com/buy)から購入できます。
 
 **追加 Q&A**
 
-**Q: キャンバスサイズは PDF のベクタ品質に影響しますか？**  
-A: いいえ。キャンバスサイズはページ寸法を制御しますが、ベクタデータは解像度に依存せず、任意のズームレベルで鮮明に表示されます。
+**Q: キャンバスサイズは PDF のベクター品質に影響しますか？**  
+A: いいえ。キャンバスサイズはページ寸法を制御しますが、ベクターデータは解像度に依存せず、任意のズームレベルで鮮明にレンダリングされます。
 
-**Q: TIFF 出力の DPI を別途設定できますか？**  
+**Q: TIFF 出力の DPI を別に設定できますか？**  
 A: はい。`TiffOptions` を作成する前に `rasterizationOptions.setResolution(dpiValue)` を調整してください。
 
-**Q: 既存の PDF の **PDF の寸法を変更** したいが、CAD を再レンダリングしたくない場合は？**  
-A: Aspose.PDF を使用して生成済み PDF を読み込み、`pdf.getPages().setPageSize(PageSize.A4)` またはカスタムサイズを指定します。
+**Q: CAD を再ラスタライズせずに既存の PDF の寸法を変更するには？**  
+A: Aspose.PDF を使用して生成された PDF を読み込み、`pdf.getPages().setPageSize(PageSize.A4)` またはカスタムサイズを呼び出すことで変更できます。
 
-**Q: **DXF を PDF に変換** する際にレイヤーを保持する最適な方法は？**  
-A: `setAutomaticLayoutsScaling(true)` を保持し、`setNoScaling(true)` を避けることでレイヤーの可視性とレイアウトの忠実度が保たれます。
+**Q: レイヤーを保持しながら DXF を PDF に変換する最適な方法は？**  
+A: `setAutomaticLayoutsScaling(true)` を保持し、`setNoScaling(true)` を使用しないことで、レイヤーの可視性とレイアウトの忠実度が保たれます。
 
 ## 結論
 
-おめでとうございます！**CAD を PDF に変換**し、**CAD を TIFF にエクスポート**しながら、**java でキャンバスサイズを設定**し、**自動レイアウトスケーリング**を有効にし、**キャンバスモードの設定**方法を習得しました。このチュートリアルは CAD 変換プロジェクトの堅実な基盤を提供します。さらに詳しい機能や活用例は [Aspose.CAD documentation](https://reference.aspose.com/cad/java/) をご覧ください。
+おめでとうございます！**CADをPDFに変換**し、**CADをTIFFにエクスポート**しながら、**Javaでキャンバスサイズを設定**し、**自動レイアウトスケーリング** を有効にし、**キャンバスモードの構成** 方法を習得しました。このチュートリアルは CAD 変換プロジェクトの堅実な基盤を提供します。さらに多くの機能や可能性は [Aspose.CAD documentation](https://reference.aspose.com/cad/java/) でご確認ください。
 
----
+**Last Updated:** 2026-08-29  
+**Tested with:** Aspose.CAD for Java 24.12  
+**Author:** Aspose
 
-**最終更新日:** 2026-02-15  
-**テスト環境:** Aspose.CAD for Java 24.12  
-**作者:** Aspose  
+## 関連チュートリアル
+
+- [キャンバスサイズの設定 – Aspose.CAD for Java の高度な CAD 機能](/cad/java/advanced-cad-features/)
+- [Java で DWG を PDF にエクスポート – Aspose.CAD で PDF ページサイズを設定](/cad/java/cad-export-options/export-to-pdf/)
+- [カスタムページサイズの設定 – 自動レイアウトスケーリング付き CAD から PDF](/cad/java/advanced-cad-features/setting-auto-layout-scaling/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
