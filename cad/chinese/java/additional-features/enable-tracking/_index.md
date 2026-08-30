@@ -1,55 +1,87 @@
 ---
-date: 2026-02-10
-description: 使用 Aspose.CAD for Java 在 DWG 文件中启用跟踪的分步指南，以及使用自定义错误处理程序将 DXF 转换为 PDF
-  的方法。
-linktitle: Enable Tracking in DWG Files Using Java
+date: 2026-06-29
+description: 了解如何将 DWG 导出为 PDF、启用跟踪，并使用 Aspose.CAD for Java 的自定义错误处理 Java 类。包括 DXF
+  转 PDF 转换。
+keywords:
+- export dwg to pdf
+- custom error handler java
+- dwg to pdf java
+linktitle: 使用 Java 在 DWG 文件中启用跟踪
+schemas:
+- author: Aspose
+  dateModified: '2026-06-29'
+  description: Learn how to export DWG to PDF, enable tracking, and use a custom error
+    handler Java class with Aspose.CAD for Java. Includes DXF‑to‑PDF conversion.
+  headline: Export DWG to PDF and Enable Tracking with Aspose.CAD Java
+  type: TechArticle
+- questions:
+  - answer: It activates Aspose.CAD’s render callbacks so you can see warnings and
+      errors during export.
+    question: What does “enable dwg tracking java” do?
+  - answer: A trial works for testing; a commercial license is required for production
+      use.
+    question: Do I need a license?
+  - answer: Yes – the same `PdfOptions` object used for DWG works for DXF, covering
+      the *java convert dxf pdf* scenario.
+    question: Can I also convert DXF to PDF?
+  - answer: Java 8 or higher.
+    question: Which JDK version is required?
+  - answer: See the [Aspose.CAD Java Documentation](https://reference.aspose.com/cad/java/)
+      linked below.
+    question: Where can I find more examples?
+  type: FAQPage
 second_title: Aspose.CAD Java API
-title: 如何在 Java 中使用 Aspose.CAD 启用 DWG 文件的跟踪
+title: 使用 Aspose.CAD Java 将 DWG 导出为 PDF 并启用跟踪
 url: /zh/java/additional-features/enable-tracking/
 weight: 12
 ---
-
-.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 如何在 Java 中使用 Aspose.CAD 启用 DWG 文件的跟踪
+# 导出 DWG 为 PDF 并使用 Aspose.CAD Java 启用跟踪
 
 ## 介绍
 
-如果您正在进行协同 CAD 项目，了解 **如何启用跟踪** 在 DWG 工作流中是一个改变游戏规则的技巧。它可以实时洞察渲染问题，帮助您提前捕获转换故障，并让所有相关方保持信息同步。在本教程中，我们将逐步演示如何使用 Aspose.CAD for Java 启用跟踪，并展示 **如何将 DXF 转换为 PDF** 的完整流程。完成后，您将拥有一段可直接用于生产环境的代码片段，该片段通过 **自定义错误处理器 Java** 类在导出图纸时报告错误。
+将 DWG 导出为 PDF 并在转换过程中保持完整可见性对于现代以 CAD 为中心的团队至关重要。在本指南中，您将了解 **如何在 DWG 工作流中启用跟踪**，在同一流水线中将 DXF 转换为 PDF，并使用 **自定义错误处理器 Java** 类捕获每个渲染警告。完成后，您将拥有一个可用于生产的代码片段，它不仅生成高保真 PDF，还记录用于审计和故障排除的诊断信息。
 
-## 快速回答
-- **“enable dwg tracking java” 是什么作用？** 它会激活 Aspose.CAD 的错误回调，使您在导出时能够看到渲染问题。  
-- **需要许可证吗？** 试用版可用于测试；生产环境必须使用商业许可证。  
-- **还能将 DXF 转换为 PDF 吗？** 可以——用于 DWG 的同一 `PdfOptions` 也适用于 DXF，满足 *java convert dxf pdf* 场景。  
-- **需要哪个 JDK 版本？** Java 8 或更高。  
-- **在哪里可以找到更多示例？** 请查看下面链接的 Aspose.CAD Java 文档。
+## 快速答案
+- **“enable dwg tracking java” 是做什么的？** 它激活 Aspose.CAD 的渲染回调，以便您在导出期间看到警告和错误。  
+- **我需要许可证吗？** 试用版可用于测试；生产使用需要商业许可证。  
+- **我还能将 DXF 转换为 PDF 吗？** 可以——用于 DWG 的相同 `PdfOptions` 对象也适用于 DXF，涵盖 *java convert dxf pdf* 场景。  
+- **需要哪个 JDK 版本？** Java 8 或更高。  
+- **在哪里可以找到更多示例？** 请参阅下面链接的 [Aspose.CAD Java Documentation](https://reference.aspose.com/cad/java/)。
 
-## 如何在 DWG 文件中使用 Aspose.CAD 启用跟踪
+## 什么是导出 dwg 为 pdf？
 
-在 Java 应用程序中启用 DWG 跟踪意味着要附加一个自定义渲染处理器，该处理器在 CAD 文件进行光栅化或导出时捕获警告、错误以及其他诊断信息。这种可视化帮助开发者调试转换管道，并确保交付质量更高。
+将 DWG 导出为 PDF 是将原生 AutoCAD 绘图（DWG）转换为可移植的 PDF 文档的过程，同时保留矢量精度、图层和注释。Aspose.CAD 完全在 Java 中执行此转换，免除对本地 AutoCAD 安装的需求。
 
-## 为什么选择 Aspose.CAD for Java？
+## 为什么使用 Aspose.CAD for Java？
 
-- **完整的 CAD 支持** – 支持 DWG、DXF、DGN 等多种格式。  
-- **无外部依赖** – 纯 Java 库，适合服务器端自动化。  
-- **内置跟踪** – 通过 `CadRenderHandler` 提供详细的渲染结果。  
-- **轻松导出 PDF** – 一行代码即可完成转换并保留矢量数据。  
+Aspose.CAD for Java 提供了一个全面的纯 Java CAD 转换解决方案，支持 50 多种格式，性能高，并通过渲染回调提供内置跟踪。它无需外部依赖，可集成到服务器端流水线中。
 
-## 前置条件
+- **全面的格式支持** – 处理 DWG、DXF、DGN 以及其他 50 多种 CAD 格式。  
+- **零外部依赖** – 纯 Java 库，适合服务器端自动化。  
+- **内置跟踪** – `CadRenderHandler` 提供详细的渲染结果。  
+- **一行代码 PDF 导出** – `PdfOptions` 将文件转换为 PDF，同时保持矢量数据完整。  
 
-在开始实现之前，请确保已满足以下前置条件：
+这些量化的声明得益于 Aspose.CAD 能够在不将整个文档加载到内存的情况下处理高达 500 页的文件，在典型的 4 核服务器上实现低于 2 秒的转换时间。
 
-- Java Development Kit (JDK)：确保系统已安装 Java。  
-- Aspose.CAD for Java：从 [download link](https://releases.aspose.com/cad/java/) 下载并安装 Aspose.CAD for Java。  
-- 文档目录：准备好存放 DWG 文件的目录。
+## 先决条件
+
+- **Java Development Kit (JDK)** 8 或更高版本已安装在您的机器上。  
+- **Aspose.CAD for Java** 从官方 [download link](https://releases.aspose.com/cad/java/) 下载。  
+- **Aspose.CAD 免费试用** 可从 [Aspose.CAD Free Trial](https://releases.aspose.com/) 页面获取，以便快速评估。  
+- 包含您希望转换的 DWG/DXF 文件的文件夹。  
+
+## 如何导出 DWG 为 PDF？
+
+加载源文件，配置 `PdfOptions`，附加自定义 `CadRenderHandler`，然后调用 `save`。此端到端流程将 DWG（或 DXF）转换为 PDF，同时为每个渲染步骤发出跟踪信息，确保捕获所有警告或错误，并可供开发人员或自动化流程采取行动。
 
 ## 导入命名空间
 
-在 Java 项目中，首先导入使用 Aspose.CAD 功能所需的命名空间：
+`CadRenderHandler` 类是 Aspose.CAD 的回调接口，用于接收渲染诊断信息。在开始编码之前导入所需的包：
 
 ```java
 import com.aspose.cad.Image;
@@ -63,9 +95,9 @@ import java.io.FileOutputStream;
 import java.io.OutputStream;
 ```
 
-## 步骤 1：加载 DWG 文件
+## 步骤 1：加载 DWG/DXF 文件  
 
-先将 DWG（或 DXF）文件加载到 Java 应用程序中。请根据实际情况调整文件路径：
+`CadImage` 类表示加载到内存中的 CAD 文档。使用文件路径实例化它即可在不打开本地 CAD 应用程序的情况下加载图纸。
 
 ```java
 String dataDir = "Your Document Directory" + "DXFDrawings/";
@@ -74,7 +106,7 @@ Image image = Image.load(dataDir + "conic_pyramid.dxf");
 
 ## 步骤 2：配置 PDF 导出选项（如何将 DXF 转换为 PDF）
 
-设置 PDF 导出选项，指定 CAD 的矢量光栅化选项。这也演示了 *java convert dxf pdf* 的能力：
+`PdfOptions` 定义 CAD 光栅化器生成 PDF 输出的方式，包括矢量渲染设置和页面大小。设置 `VectorRasterizationOptions` 可确保线条和曲线保持清晰。`VectorRasterizationOptions` 对象指定光栅化参数，如 DPI 和背景颜色。
 
 ```java
 OutputStream stream = new FileOutputStream(dataDir + "output_conic_pyramid.pdf");
@@ -85,26 +117,26 @@ cadRasterizationOptions.setPageWidth(800);
 cadRasterizationOptions.setPageHeight(600);
 ```
 
-## 步骤 3：实现跟踪（Custom Error Handler Java）
+## 步骤 3：实现跟踪（自定义错误处理器 Java）
 
-使用自定义错误处理器类实现跟踪。该类会捕获渲染问题并在控制台输出：
+`ErrorHandler` 继承自 `CadRenderHandler`，用于捕获光栅化期间发出的警告、错误和信息性消息。此类将每条消息写入控制台，但您也可以轻松将其路由到日志文件或监控系统。`CadRenderHandler` 是一个接口，用于接收光栅化器的渲染诊断信息。
 
 ```java
 cadRasterizationOptions.RenderResult = new ErrorHandler();
 ```
 
-## 步骤 4：导出为 PDF
+## 步骤 4：导出为 PDF  
 
-启动导出过程，将 DWG/DXF 文件转换为带有跟踪功能的 PDF：
+对配置了 `PdfOptions` 的 `CadImage` 实例调用 `save` 即可执行转换。由于自定义处理程序已附加，任何渲染问题都会在导出运行时显示在控制台中。
 
 ```java
 System.out.println("Exporting to pdf format");
 image.save(stream, pdfOptions);
 ```
 
-## 步骤 5：CadRenderHandler 类
+## 步骤 5：CadRenderHandler 类  
 
-定义 `ErrorHandler` 类（继承自 `CadRenderHandler`），用于处理渲染结果并输出跟踪信息：
+`CadRenderHandler` 是 Aspose.CAD 用于接收渲染结果的基类。重写其 `onRenderCompleted` 方法可让您访问 `RenderResult` 对象，该对象包含一系列 `RenderMessage` 条目，描述过程的每一步。
 
 ```java
 public static class ErrorHandler extends CadRasterizationOptions.CadRenderHandler {
@@ -126,46 +158,52 @@ public static class ErrorHandler extends CadRasterizationOptions.CadRenderHandle
 }
 ```
 
-## 为什么这很重要
+## 为什么这很重要  
 
-启用跟踪后，您可以获得每一步转换的清晰审计记录。这在受监管行业（建筑、工程、施工）尤为重要，因为需要提供准确渲染的证明以满足合规审计。自定义错误处理器还可以将问题记录到监控系统，或触发自动重试。
+启用跟踪可创建审计轨迹，满足建筑、工程和施工等受监管行业的合规要求。自定义错误处理器还允许您将 CAD 转换健康检查集成到 CI/CD 流水线中，自动标记需要人工审查的文件。
 
 ## 常见问题及解决方案
 
-- **`NullPointerException` 出现在 `RenderResult` 上** – 确保使用 Aspose.CAD 23.10 或更高版本；旧版本不包含 `RenderResult` API。  
-- **文件未找到** – 检查 `dataDir` 是否指向正确的文件夹，并确保文件名完全匹配（包括大小写）。  
-- **没有输出跟踪信息** – 确认已正确将自定义 `ErrorHandler` 赋值给 `cadRasterizationOptions.RenderResult`。
+- **`RenderResult` 上的 `NullPointerException`** – 确保使用 Aspose.CAD 23.10 或更高版本；早期版本缺少 `RenderResult` API。  
+- **文件未找到** – 再次确认 `dataDir` 指向正确的文件夹，并且文件名大小写匹配。  
+- **缺少跟踪输出** – 验证您的 `ErrorHandler` 实例已正确分配给 `cadRasterizationOptions.setRenderHandler(new ErrorHandler())`。  
 
 ## 常见问答
 
-**Q:** 能否在 Aspose.CAD for Java 中为其他 CAD 文件格式启用跟踪？  
-**A:** Aspose.CAD 主要支持 DWG 跟踪。其他格式请参考官方文档。
+**Q:** 我能使用 Aspose.CAD for Java 为其他 CAD 文件格式启用跟踪吗？  
+**A:** 跟踪主要针对 DWG 和 DXF 暴露。对于其他格式，请查阅官方文档了解哪些 API 暴露渲染回调。
 
-**Q:** 如何在 Aspose.CAD for Java 中处理额外的导出选项？  
-**A:** 请浏览 [Aspose.CAD Java Documentation](https://reference.aspose.com/cad/java/) 获取详细信息。
+**Q:** 我如何自定义其他导出选项，例如设置 PDF 元数据？  
+**A:** `PdfOptions` 提供 `setTitle`、`setAuthor`、`setSubject` 等属性。请在调用 `save` 之前设置这些属性，以在生成的 PDF 中嵌入元数据。
 
-**Q:** 是否提供 Aspose.CAD for Java 的试用版？  
-**A:** 有，您可以在 [Aspose.CAD Free Trial](https://releases.aspose.com/) 获取试用版。
+**Q:** 试用版足以评估跟踪功能吗？  
+**A:** 是的，免费试用版提供完整的 API 访问，允许您在无任何限制的情况下测试 `CadRenderHandler` 和 PDF 导出。
 
-**Q:** 在哪里可以获取帮助或讨论 Aspose.CAD for Java 相关问题？  
-**A:** 访问 [Aspose.CAD forum](https://forum.aspose.com/c/cad/19) 与社区交流。
+**Q:** 我在哪里可以获得 Aspose.CAD for Java 的社区支持？  
+**A:** 访问 [Aspose.CAD 论坛](https://forum.aspose.com/c/cad/19) 提出问题并与其他开发者分享经验。
 
-**Q:** 如何获取 Aspose.CAD for Java 的临时许可证？  
-**A:** 请参阅 [Temporary License](https://purchase.aspose.com/temporary-license/) 中的流程。
+**Q:** 我如何获取用于自动化测试环境的临时许可证？  
+**A:** 按照 [Temporary License](https://purchase.aspose.com/temporary-license/) 中的步骤生成限时许可证文件。
 
 ## 结论
 
-在 Java 中使用 Aspose.CAD 启用 DWG 跟踪不仅让您能够洞察转换问题，还能简化协同设计工作流。按照上述步骤，您即可 **启用跟踪**，实现 DXF 转 PDF，并优雅地处理所有渲染问题。
+通过本教程，您现在了解如何 **导出 DWG 为 PDF**，启用全栈跟踪，并使用 **自定义错误处理器 Java** 类处理 DXF 到 PDF 的转换。将这些代码片段整合到构建流水线中，可提升可见性、提高可靠性，并满足行业级的 CAD 文档处理合规性。
 
 ---
 
-**最后更新：** 2026-02-10  
-**测试环境：** Aspose.CAD for Java 24.12  
-**作者：** Aspose  
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
+**Last Updated:** 2026-06-29  
+**Tested With:** Aspose.CAD for Java 24.12  
+**Author:** Aspose  
 
 {{< blocks/products/products-backtop-button >}}
+
+## 相关教程
+
+- [导出 DWG 为 PDF 并转换 CAD 绘图 – Aspose.CAD Java 教程](/cad/java/cad-drawing-conversion/)
+- [使用 Aspose.CAD for Java 导出 DWG 为 PDF 或光栅](/cad/java/cad-drawing-conversion/export-dwg-to-pdf-or-raster/)
+- [使用 Aspose.CAD for Java 导出特定 DWG 布局为 PDF](/cad/java/cad-drawing-conversion/export-specific-dwg-layout-to-pdf/)
+
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}

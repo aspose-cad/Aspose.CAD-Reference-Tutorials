@@ -1,9 +1,64 @@
 ---
-date: 2026-02-10
-description: जाने कैसे **Java में Aspose.CAD का उपयोग करके dxf से PDF बनाएं**। यह
-  चरण‑दर‑चरण गाइड आपको दिखाता है कि **dxf को PDF में कैसे बदलें**, PDF पेज आकार को
-  समायोजित करें, और बड़े ड्रॉइंग्स को संभालें।
-linktitle: Render DXF as PDF Using Java
+date: 2026-06-29
+description: Aspose.CAD का उपयोग करके Java में **create pdf from dxf** सीखें। यह चरण‑द्वारा‑चरण
+  गाइड आपको दिखाता है कि **convert dxf to pdf**, **adjust PDF page size**, और बड़े
+  ड्रॉइंग्स के लिए **increase JVM heap**।
+keywords:
+- create pdf from dxf
+- adjust pdf page size
+- increase jvm heap
+- customize pdf page size
+- export cad drawing pdf
+linktitle: Java का उपयोग करके DXF को PDF के रूप में रेंडर करें
+schemas:
+- author: Aspose
+  dateModified: '2026-06-29'
+  description: Learn how to **create pdf from dxf** in Java using Aspose.CAD. This
+    step‑by‑step guide shows you how to **convert dxf to pdf**, **adjust PDF page
+    size**, and **increase JVM heap** for large drawings.
+  headline: Create PDF from DXF Using Aspose.CAD for Java
+  type: TechArticle
+- description: Learn how to **create pdf from dxf** in Java using Aspose.CAD. This
+    step‑by‑step guide shows you how to **convert dxf to pdf**, **adjust PDF page
+    size**, and **increase JVM heap** for large drawings.
+  name: Create PDF from DXF Using Aspose.CAD for Java
+  steps:
+  - name: Set Up the Resource Directory
+    text: Define the path to the folder that holds your DXF files. This ensures the
+      `File` objects can locate the source drawing correctly.
+  - name: Load the DXF File
+    text: '`CadImage` is the Aspose.CAD class that represents a CAD drawing and provides
+      methods to access its entities.'
+  - name: Configure Rasterization Options
+    text: '`CadRasterizationOptions` configures how vector data is rasterized into
+      bitmap pages before PDF creation.'
+  - name: Create PDF Options
+    text: '`PdfOptions` holds PDF‑specific settings and links the rasterization options
+      to the final PDF output.'
+  - name: Export DXF to PDF
+    text: Call the `save` method on the `CadImage` instance, passing the target file
+      name and the `PdfOptions`. This single call writes a fully‑compliant PDF that
+      respects all rasterization settings you defined earlier. At this point, you’ve
+      successfully rendered a DXF file as a PDF using Aspose.CAD for Java!
+  type: HowTo
+- questions:
+  - answer: Aspose.CAD for Java supports a wide range of DXF versions, ensuring compatibility
+      with most files you’ll encounter.
+    question: Is Aspose.CAD for Java compatible with all DXF versions?
+  - answer: Yes, you can tailor the output by adjusting rasterization options (color
+      depth, line weight, DPI, background color, **customize pdf page size**, etc.)
+      to meet specific visual requirements.
+    question: Can I customize the PDF output further?
+  - answer: Yes, you can explore the capabilities of Aspose.CAD for Java by downloading
+      the free trial [here](https://releases.aspose.com/).
+    question: Is there a trial version available?
+  - answer: Visit the [Aspose.CAD forum](https://forum.aspose.com/c/cad/19) to seek
+      assistance and connect with the community.
+    question: How can I get support for Aspose.CAD for Java?
+  - answer: Yes, you can obtain a temporary license [here](https://purchase.aspose.com/temporary-license/)
+      for testing purposes.
+    question: Do I need a temporary license for testing?
+  type: FAQPage
 second_title: Aspose.CAD Java API
 title: Aspose.CAD for Java का उपयोग करके DXF से PDF बनाएं
 url: /hi/java/additional-features/render-dxf-as-pdf/
@@ -14,41 +69,34 @@ weight: 19
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.CAD for Java का उपयोग करके DXF से PDF बनाएं
+# DXF से PDF बनाना Aspose.CAD for Java का उपयोग करके
 
-## इंट्रोडक्शन
+## परिचय
 
-यदि आपको Java एप्लिकेशन में **create PDF from DXF** फ़ाइलों की आवश्यकता है, तो Aspose.CAD for Java एक सहज, उच्च‑गुणवत्ता समाधान प्रदान करता है। चाहे आप एक CAD व्यूअर बना रहे हों, रिपोर्ट जेनरेट कर रहे हों, या दस्तावेज़ वर्कफ़्लो को स्वचालित कर रहे हों, **CAD drawing to PDF** में परिवर्तित करना एक सामान्य आवश्यकता है। इस ट्यूटोरियल में हम पूरी प्रक्रिया को कवर करेंगे, DXF फ़ाइल को लोड करने से लेकर उसे PDF के रूप में एक्सपोर्ट करने तक, साथ ही सर्वोत्तम प्रैक्टिस सेटिंग्स को उजागर करेंगे—जैसे **adjust PDF page size** या बड़े ड्रॉइंग्स के लिए **increase JVM heap**।
+यदि आपको Java एप्लिकेशन में **create PDF from DXF** फ़ाइलों को बनाना है, तो Aspose.CAD for Java एक सुव्यवस्थित, उच्च‑गुणवत्ता समाधान प्रदान करता है। चाहे आप एक CAD व्यूअर बना रहे हों, रिपोर्ट जेनरेट कर रहे हों, या दस्तावेज़ वर्कफ़्लो को स्वचालित कर रहे हों, **CAD drawing to PDF** को परिवर्तित करना एक सामान्य आवश्यकता है। इस ट्यूटोरियल में हम पूरी प्रक्रिया को चरण‑दर‑चरण देखेंगे—DXF फ़ाइल को लोड करने से लेकर उसे PDF के रूप में निर्यात करने तक—और साथ ही आपको दिखाएंगे कि कैसे **adjust PDF page size**, **customize PDF page size**, और बड़े ड्रॉइंग्स के लिए **increase JVM heap** किया जाए। अंत तक, आपके पास एक पुन: उपयोग योग्य कोड पैटर्न होगा जिसे आप डेस्कटॉप टूल्स, वेब सर्विसेज, या बैच‑प्रोसेसिंग पाइपलाइनों में एम्बेड कर सकते हैं।
 
-## क्विक जवाब
-- **यह कौन सी लाइब्रेरी इस्तेमाल करता है?** Java के लिए Aspose.CAD
-- **मुख्य लक्ष्य?** DXF ड्रॉइंग से PDF बनाना
-- **मुख्य शर्त?** Java डेवलपमेंट एनवायरनमेंट + Aspose.CAD JAR
-- **आम कन्वर्ज़न टाइम?** मॉडर्न हार्डवेयर पर हर पेज के लिए कुछ मिलीसेकंड
-- **क्या मैं पेज साइज़ कस्टमाइज़ कर सकता हूँ?** हाँ – एक्सपोर्ट करने से पहले रैस्टराइज़ेशन ऑप्शन एडजस्ट करें
+## त्वरित उत्तर
+- **What library does this use?** Aspose.CAD for Java, एक pure‑Java API है जिसमें कोई native dependencies नहीं हैं।  
+- **Primary goal?** DXF ड्रॉइंग्स से PDF बनाना जबकि line weight, colors, और layers को संरक्षित रखा जाए।  
+- **Key prerequisite?** Java 8+ विकास पर्यावरण और Aspose.CAD JAR फ़ाइल।  
+- **Typical conversion time?** आधुनिक CPU पर प्रति पृष्ठ आमतौर पर 200 ms से कम (ड्रॉइंग की जटिलता पर निर्भर)।  
+- **Can I customize page size?** हाँ – निर्यात से पहले `CadRasterizationOptions` में `pageWidth` और `pageHeight` सेट करें।  
 
 ## “create pdf from dxf” क्या है?
+**Create pdf from dxf** वह प्रक्रिया है जिसमें DXF (Drawing Exchange Format) फ़ाइल—जो CAD डेटा के लिए व्यापक रूप से उपयोग किया जाने वाला वेक्टर फ़ॉर्मेट है—को PDF दस्तावेज़ में रेंडर किया जाता है। PDF सार्वभौमिक दृश्य, प्रिंटिंग, और अभिलेखीय क्षमताएँ प्रदान करता है, जिससे यह उन हितधारकों के साथ CAD ड्रॉइंग्स साझा करने के लिए आदर्श बन जाता है जिनके पास native CAD व्यूअर नहीं है।
 
-वाक्यांश **create pdf from dxf** बस यह वर्णन करता है कि DXF (Drawing Exchange Format) फ़ाइल—जो कई CAD एप्लिकेशन द्वारा उपयोग किया जाने वाला एक मानक वेक्टर‑ग्राफ़िक्स फ़ॉर्मेट है—को PDF दस्तावेज़ में रेंडर किया जाए। PDF सार्वभौमिक व्यूइंग, प्रिंटिंग और आर्काइविंग क्षमताएँ प्रदान करता है, जिससे यह उन स्टेकहोल्डर्स के साथ CAD ड्रॉइंग्स साझा करने के लिए आदर्श बन जाता है जिनके पास CAD व्यूअर नहीं है।
+## dxf को pdf में परिवर्तित करने के लिए Aspose.CAD for Java का उपयोग क्यों करें?
+अपनी DXF लोड करें और `save` कॉल करें – यही दो लाइनों में पूरी रूपांतरण है। Aspose.CAD for Java **no‑external‑dependency** pure‑Java रूपांतरण, line weights, colors, और layers की **high‑fidelity rendering**, और DPI, background color, तथा पेज डाइमेंशन जैसे **fine‑grained rasterization controls** प्रदान करता है। यह लाइब्रेरी **over 150 CAD formats** का समर्थन करती है और पूरी फ़ाइल को मेमोरी में लोड किए बिना बड़े ड्रॉइंग्स को प्रोसेस कर सकती है, जिससे छोटे स्केच और बड़े इंजीनियरिंग स्कीमैटिक्स दोनों के लिए पूर्वानुमेय प्रदर्शन मिलता है।
 
-## dxf को pdf में बदलने के लिए Java के लिए Aspose.CAD का इस्तेमाल क्यों करें?
-
-- **No external dependencies** – शुद्ध Java, कोई नेटिव DLL नहीं।  
-- **High fidelity** – लाइन वेट, रंग और लेयर्स को बनाए रखता है।  
-- **Fine‑grained control** – रास्टराइज़ेशन विकल्पों से आप **adjust PDF page size**, DPI, बैकग्राउंड कलर आदि को नियंत्रित कर सकते हैं।  
-- **Scalable** – सिंगल‑पेज स्केच से लेकर मल्टी‑पेज इंजीनियरिंग ड्रॉइंग्स तक सभी के लिए काम करता है।
-
-## ज़रूरी शर्तें
-
-शुरू करने से पहले सुनिश्चित करें कि आपके पास निम्नलिखित हों:
-
+## पूर्वापेक्षाएँ
 - Java प्रोग्रामिंग का बुनियादी ज्ञान।  
-- Aspose.CAD for Java लाइब्रेरी स्थापित हो। यदि नहीं, तो आप इसे [यहाँ](https://releases.aspose.com/cad/java/) से डाउनलोड कर सकते हैं।  
-- परीक्षण के लिए एक DXF ड्रॉइंग फ़ाइल।
+- Aspose.CAD for Java लाइब्रेरी स्थापित है। यदि नहीं, तो आप इसे [यहाँ](https://releases.aspose.com/cad/java/) से डाउनलोड कर सकते हैं।  
+- आप अन्य Aspose उत्पादों को भी [यहाँ](https://releases.aspose.com/) देख सकते हैं।  
+- परीक्षण के लिए एक DXF ड्रॉइंग फ़ाइल।  
 
-## नेमस्पेस इंपोर्ट करें
-
-अपने Java कोड में, Aspose.CAD की कार्यक्षमता का उपयोग करने के लिए आवश्यक नेमस्पेसेस इम्पोर्ट करें। नीचे दिया गया कोड स्निपेट उपयोग करें:
+## नेमस्पेस आयात करें
+`com.aspose.cad` पैकेज में सभी आवश्यक क्लासेस हैं।  
+`java.awt.Color` क्लास background‑color कॉन्फ़िगरेशन के लिए उपयोग की जाती है।
 
 ```java
 import com.aspose.cad.Color;
@@ -58,30 +106,26 @@ import com.aspose.cad.imageoptions.CadRasterizationOptions;
 import com.aspose.cad.imageoptions.PdfOptions;
 ```
 
-## Aspose.CAD का इस्तेमाल करके DXF से PDF कैसे बनाएं
+## Aspose.CAD का उपयोग करके DXF से PDF कैसे बनाएं?
+DXF लोड करें, rasterization कॉन्फ़िगर करें, और इसे PDF के रूप में सहेजें – पूरी वर्कफ़्लो पाँच संक्षिप्त चरणों में कवर की गई है। प्रत्येक चरण के नीचे आपको एक छोटा स्पष्टीकरण मिलेगा, और फिर वह प्लेसहोल्डर जहाँ मूल कोड स्निपेट आता है। इससे प्लेसहोल्डर्स को अपने कार्यान्वयन से बदलना आसान हो जाता है।
 
-नीचे एक चरण‑दर‑चरण गाइड दिया गया है जो आपको रूपांतरण प्रक्रिया के माध्यम से ले जाता है। प्रत्येक चरण में एक छोटा व्याख्यान और आपके प्रोजेक्ट में पेस्ट करने के लिए सटीक कोड शामिल है।
-
-### स्टेप 1: रिसोर्स डायरेक्टरी सेट अप करें
-
-DXF ड्रॉइंग्स स्थित आपके रिसोर्स डायरेक्टरी का पाथ परिभाषित करें। यह कोड के सही कार्य के लिए आवश्यक है।  
+### चरण 1: रिसोर्स डायरेक्टरी सेट अप करें
+अपने DXF फ़ाइलों वाले फ़ोल्डर का पथ निर्धारित करें। यह सुनिश्चित करता है कि `File` ऑब्जेक्ट्स स्रोत ड्रॉइंग को सही ढंग से ढूँढ़ सकें।
 
 ```java
 String dataDir = "Your Document Directory" + "DXFDrawings/";
 ```
 
-### स्टेप 2: DXF फ़ाइल लोड करें
-
-निम्नलिखित स्निपेट का उपयोग करके DXF फ़ाइल को लोड करें। यह **how to export dxf** को किसी अन्य फ़ॉर्मेट में बदलने का मूल भाग है।
+### चरण 2: DXF फ़ाइल लोड करें
+`CadImage` Aspose.CAD क्लास है जो एक CAD ड्रॉइंग को दर्शाता है और उसकी एंटिटीज़ तक पहुँचने के लिए मेथड्स प्रदान करता है।
 
 ```java
 String srcFile = dataDir + "conic_pyramid.dxf";
 Image image = Image.load(srcFile);
 ```
 
-### स्टेप 3: रैस्टराइज़ेशन ऑप्शन कॉन्फ़िगर करें
-
-`CadRasterizationOptions` का एक इंस्टेंस बनाएं और बैकग्राउंड कलर, पेज चौड़ाई, और पेज ऊँचाई जैसी विभिन्न प्रॉपर्टीज़ सेट करें। ये विकल्प वेक्टर ड्रॉइंग को रास्टराइज़ करने के बाद PDF में रखने को नियंत्रित करते हैं। अपने लेआउट आवश्यकताओं के अनुसार **adjust PDF page size** करने के लिए मानों को समायोजित करें।
+### चरण 3: Rasterization विकल्प कॉन्फ़िगर करें
+`CadRasterizationOptions` यह निर्धारित करता है कि वेक्टर डेटा को PDF निर्माण से पहले bitmap पेजेज में कैसे rasterize किया जाए।
 
 ```java
 CadRasterizationOptions rasterizationOptions = new CadRasterizationOptions();
@@ -90,71 +134,64 @@ rasterizationOptions.setPageWidth(1600);
 rasterizationOptions.setPageHeight(1600);
 ```
 
-### स्टेप 4: PDF ऑप्शन बनाएं
-
-`PdfOptions` का एक इंस्टेंस बनाएं और पहले कॉन्फ़िगर किए गए `rasterizationOptions` को `VectorRasterizationOptions` प्रॉपर्टी में सेट करें। यह रास्टराइज़ेशन सेटिंग्स को अंतिम PDF आउटपुट से जोड़ता है।
+### चरण 4: PDF विकल्प बनाएं
+`PdfOptions` PDF‑विशिष्ट सेटिंग्स रखता है और rasterization विकल्पों को अंतिम PDF आउटपुट से जोड़ता है।
 
 ```java
 PdfOptions pdfOptions = new PdfOptions();
 pdfOptions.setVectorRasterizationOptions(rasterizationOptions);
 ```
 
-### स्टेप 5: DXF को PDF में एक्सपोर्ट करें
-
-अंत में, `save` मेथड का उपयोग करके DXF फ़ाइल को PDF में एक्सपोर्ट करें। यही वह चरण है जहाँ आप सभी कस्टम सेटिंग्स के साथ **export dxf to pdf** करते हैं।
+### चरण 5: DXF को PDF में निर्यात करें
+`CadImage` इंस्टेंस पर `save` मेथड को कॉल करें, लक्ष्य फ़ाइल नाम और `PdfOptions` पास करते हुए। यह एकल कॉल एक पूर्ण‑अनुपालन PDF लिखता है जो पहले परिभाषित सभी rasterization सेटिंग्स का सम्मान करता है।
 
 ```java
 image.save(dataDir + "conic_pyramid_out_.pdf", pdfOptions);
 ```
 
-इस बिंदु पर, आपने Aspose.CAD for Java का उपयोग करके सफलतापूर्वक एक DXF फ़ाइल को PDF के रूप में रेंडर कर लिया है!
+अब आप ने Aspose.CAD for Java का उपयोग करके सफलतापूर्वक DXF फ़ाइल को PDF के रूप में रेंडर कर लिया है!
 
-## सामान्य उपयोग के मामले
+## सामान्य उपयोग केस
+- **Automated reporting** – ऑन‑द‑फ्लाई इंजीनियरिंग स्कीमैटिक्स के PDF कैटलॉग जनरेट करें।  
+- **Web services** – एक REST एंडपॉइंट एक्सपोज़ करें जो DXF अपलोड स्वीकार करता है और PDF स्ट्रीम्स लौटाता है।  
+- **Batch processing** – लेगेसी DXF फ़ाइलों के बड़े अभिलेखों को PDF में परिवर्तित करें ताकि अभिलेखीय अनुपालन हो, अक्सर एक मानक सर्वर पर प्रति मिनट दर्जनों फ़ाइलों को प्रोसेस किया जाता है।  
 
-- **Automated reporting** – ऑन‑द‑फ़्लाई इंजीनियरिंग स्कीमैटिक के PDF कैटलॉग जेनरेट करें।  
-- **Web services** – एक REST एन्डपॉइंट प्रदान करें जो DXF अपलोड स्वीकार करे और PDF स्ट्रीम रिटर्न करे।  
-- **Batch processing** – आर्काइव अनुपालन के लिए बड़े पैमाने पर लेगेसी DXF फ़ाइलों को PDF में बदलें।
+## सामान्य समस्याएँ और समाधान
+| समस्या | कारण | समाधान |
+|-------|--------|-----|
+| **Blank PDF output** | Rasterization विकल्प सेट नहीं हैं या background color पारदर्शी है | `setBackgroundColor(Color.getWhite())` लागू किया गया है, यह सुनिश्चित करें |
+| **Incorrect page dimensions** | पेज की चौड़ाई/ऊँचाई मान बहुत छोटे या बहुत बड़े हैं | इच्छित PDF आकार से मेल खाने के लिए `setPageWidth` और `setPageHeight` को समायोजित करें |
+| **OutOfMemoryError on large DXF** | बड़े ड्रॉइंग्स rasterization के दौरान अत्यधिक heap उपयोग करते हैं | **Increase JVM heap** (`-Xmx2g` या अधिक) करें या ड्रॉइंग को सेक्शनों में विभाजित करें |
+| **Text appears fuzzy** | डिफ़ॉल्ट DPI कम है | स्पष्टता बढ़ाने के लिए `rasterizationOptions.setResolution(300)` सेट करें |
+| **Missing layers** | स्रोत DXF में लेयर विज़िबिलिटी सेटिंग्स | सुनिश्चित करें कि लेयर मूल फ़ाइल में छिपे नहीं हैं |
 
-## आम दिक्कतें और समाधान
+## अक्सर पूछे जाने वाले प्रश्न
+**Q: क्या Aspose.CAD for Java सभी DXF संस्करणों के साथ संगत है?**  
+A: Aspose.CAD for Java विभिन्न DXF संस्करणों की विस्तृत श्रृंखला का समर्थन करता है, जिससे अधिकांश फ़ाइलों के साथ संगतता सुनिश्चित होती है।
 
-| दिक्कत | कारण | ठीक करें |
-|-------|---------|-----|
-| **खाली PDF आउटपुट** | रैस्टराइज़ेशन ऑप्शन सेट नहीं हैं या बैकग्राउंड कलर ट्रांसपेरेंट है | पक्का करें कि `setBackgroundColor(Color.getWhite())` अप्लाई किया गया है |
-| **पेज के गलत डाइमेंशन** | पेज की चौड़ाई/ऊंचाई की वैल्यू बहुत छोटी या बहुत बड़ी हैं | अपने मनचाहे PDF साइज़ से मैच करने के लिए `setPageWidth` और `setPageHeight` को एडजस्ट करें |
-| **बड़े DXF पर OutOfMemoryError** | रैस्टराइज़ेशन के दौरान बड़ी ड्रॉइंग बहुत ज़्यादा मेमोरी लेती हैं | **JVM हीप बढ़ाएं** (`-Xmx2g` या उससे ज़्यादा) या फ़ाइल को छोटे सेक्शन में प्रोसेस करें |
-| **टेक्स्ट धुंधला दिखता है** | डिफ़ॉल्ट DPI कम है | क्वालिटी सुधारने के लिए `rasterizationOptions.setResolution(300)` सेट करें |
-| **लेयर्स मिसिंग हैं** | सोर्स DXF में लेयर विज़िबिलिटी सेटिंग्स | वेरिफ़ाई करें कि ओरिजिनल फ़ाइल में लेयर्स छिपी हुई नहीं हैं |
+**Q: क्या मैं PDF आउटपुट को और अनुकूलित कर सकता हूँ?**  
+A: हाँ, आप rasterization विकल्पों (color depth, line weight, DPI, background color, **customize pdf page size**, आदि) को समायोजित करके आउटपुट को अपनी विशिष्ट दृश्य आवश्यकताओं के अनुसार अनुकूलित कर सकते हैं।
 
-## अक्सर पूछे जाने वाले सवाल
+**Q: क्या कोई ट्रायल संस्करण उपलब्ध है?**  
+A: हाँ, आप Aspose.CAD for Java की क्षमताओं को मुफ्त ट्रायल डाउनलोड करके देख सकते हैं [यहाँ](https://releases.aspose.com/)।
 
-**सवाल: क्या Aspose.CAD for Java सभी DXF वर्शन के साथ कम्पैटिबल है?**
-जवाब: Aspose.CAD for Java कई तरह के DXF वर्शन को सपोर्ट करता है, जिससे यह आपके सामने आने वाली ज़्यादातर फ़ाइलों के साथ कम्पैटिबिलिटी पक्का करता है।
+**Q: मैं Aspose.CAD for Java के लिए समर्थन कैसे प्राप्त कर सकता हूँ?**  
+A: सहायता के लिए [Aspose.CAD फ़ोरम](https://forum.aspose.com/c/cad/19) पर जाएँ और समुदाय से जुड़ें।
 
-**सवाल: क्या मैं PDF आउटपुट को और कस्टमाइज़ कर सकता हूँ?**
-जवाब: हाँ, आप खास विज़ुअल ज़रूरतों को पूरा करने के लिए रैस्टराइज़ेशन ऑप्शन (कलर डेप्थ, लाइन वेट, DPI, वगैरह) को एडजस्ट करके आउटपुट को टेलर कर सकते हैं।
+**Q: क्या परीक्षण के लिए मुझे एक अस्थायी लाइसेंस चाहिए?**  
+A: हाँ, आप परीक्षण उद्देश्यों के लिए एक अस्थायी लाइसेंस [यहाँ](https://purchase.aspose.com/temporary-license/) प्राप्त कर सकते हैं।
 
-**सवाल: क्या कोई ट्रायल वर्शन अवेलेबल है?**
-जवाब: हाँ, आप [यहाँ](https://releases.aspose.com/) फ़्री ट्रायल डाउनलोड करके Aspose.CAD for Java की कैपेबिलिटीज़ एक्सप्लोर कर सकते हैं।
-
-**सवाल: मुझे Java के लिए Aspose.CAD के लिए सपोर्ट कैसे मिल सकता है?**
-जवाब: मदद लेने और कम्युनिटी से जुड़ने के लिए [Aspose.CAD फ़ोरम](https://forum.aspose.com/c/cad/19) पर जाएँ।
-
-**सवाल: क्या मुझे टेस्टिंग के लिए टेम्पररी लाइसेंस की ज़रूरत है?**
-जवाब: हाँ, आप टेस्टिंग के लिए [यहाँ](https://purchase.aspose.com/temporary-license/) टेम्पररी लाइसेंस ले सकते हैं।
-
-## नतीजा
-
-इस ट्यूटोरियल में हमने Aspose.CAD for Java का उपयोग करके **create PDF from DXF** ड्रॉइंग्स को कैसे बनाना है, दिखाया। ऊपर दिए गए चरणों का पालन करके आप किसी भी Java‑आधारित समाधान—डेस्कटॉप यूटिलिटी, वेब सर्विस, या ऑटोमेटेड बैच प्रोसेसर—में DXF‑to‑PDF रूपांतरण को एकीकृत कर सकते हैं। रास्टराइज़ेशन सेटिंग्स के साथ प्रयोग करने में संकोच न करें ताकि आप अपने विशिष्ट उपयोग‑केस के लिए गुणवत्ता और फ़ाइल आकार के बीच परिपूर्ण संतुलन प्राप्त कर सकें।
-
----
-
-**Last Updated:** 2026-02-10  
-**Tested With:** Aspose.CAD for Java 24.11  
-**Author:** Aspose  
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
+**अंतिम अपडेट:** 2026-06-29  
+**परीक्षण किया गया:** Aspose.CAD for Java 24.11  
+**लेखक:** Aspose  
 
 {{< blocks/products/products-backtop-button >}}
+
+## संबंधित ट्यूटोरियल
+- [PDF पेज आकार सेट करें – CAD को PDF (Java) में परिवर्तित करें](/cad/java/advanced-cad-features/set-canvas-size-and-mode/)
+- [DXF से PDF बनाएं: Aspose.CAD for Java के साथ लेयर निर्यात करें](/cad/java/additional-features/export-specific-layer-to-pdf/)
+- [DXF लेआउट से PDF बनाएं Aspose.CAD for Java का उपयोग करके](/cad/java/additional-features/export-specific-layout-to-pdf/)
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}

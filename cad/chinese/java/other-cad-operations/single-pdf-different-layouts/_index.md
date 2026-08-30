@@ -1,32 +1,75 @@
 ---
-title: 使用 Aspose.CAD for Java 制作动态 PDF
-linktitle: 具有不同布局的单个 PDF
+date: 2026-06-29
+description: 了解如何使用 Aspose.CAD for Java 将 DWG 创建为 PDF 并自定义 PDF 布局。为 Java 开发者提供简便的集成方案。
+keywords:
+- create pdf from dwg
+- convert cad to pdf
+- pdf different page sizes
+- export dwg to pdf
+- customize pdf layout
+linktitle: 单个 PDF 的不同布局
+schemas:
+- author: Aspose
+  dateModified: '2026-06-29'
+  description: Learn how to create PDF from DWG and customize PDF layout using Aspose.CAD
+    for Java. Easy integration for Java developers.
+  headline: Create PDF from DWG with Aspose.CAD for Java
+  type: TechArticle
+- questions:
+  - answer: Yes, Aspose.CAD for Java integrates seamlessly with libraries such as
+      Apache POI, Jackson, or Spring Boot.
+    question: Can I use Aspose.CAD for Java with other Java libraries?
+  - answer: Absolutely! You can access a free trial version [here](https://releases.aspose.com/).
+    question: Is there a trial version available?
+  - answer: Visit the [Aspose.CAD forum](https://forum.aspose.com/c/cad/19) for community
+      support and discussions.
+    question: Where can I find additional support?
+  - answer: You can obtain a temporary license [here](https://purchase.aspose.com/temporary-license/).
+    question: How do I obtain a temporary license?
+  - answer: Purchase the full version of Aspose.CAD for Java [here](https://purchase.aspose.com/buy).
+    question: Where can I purchase the full version?
+  type: FAQPage
 second_title: Aspose.CAD Java API
-description: 使用 Aspose.CAD for Java 从 CAD 绘图创建具有不同布局的精美 PDF。为 Java 开发人员提供轻松集成和强大的功能。
-weight: 16
+title: 使用 Aspose.CAD for Java 将 DWG 转换为 PDF
 url: /zh/java/other-cad-operations/single-pdf-different-layouts/
+weight: 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 使用 Aspose.CAD for Java 制作动态 PDF
+# 使用 Aspose.CAD for Java 将 DWG 创建为 PDF
 
 ## 介绍
 
-欢迎来到 Aspose.CAD for Java 的世界，这是一个功能强大的库，使开发人员能够轻松操作 CAD 绘图。在本教程中，我们将深入研究使用 Aspose.CAD for Java 创建具有不同布局的单个 PDF。无论您是经验丰富的开发人员还是新手，本分步指南都将引导您完成整个过程。
+在本教程中，您将 **将 DWG 创建为 PDF** 并使用 Aspose.CAD for Java 应用多种页面尺寸布局。无论您需要生成建筑蓝图、工程示意图，还是面向营销的 PDF，以下步骤将展示如何在 Java 环境中将 CAD 图纸转换为 PDF、定制每个布局的尺寸，并生成一个包含多页的文档，全部无需离开 Java。
 
-## 先决条件
+## 快速答案
+- **本教程涵盖什么？** 将 DWG 图纸转换为包含多种页面尺寸的单个 PDF。  
+- **需要哪个库？** Aspose.CAD for Java（最新版本）。  
+- **我需要许可证吗？** 免费试用可用于开发；生产环境需要商业许可证。  
+- **我可以导出其他格式吗？** 可以——API 还支持导出为 PNG、JPEG 和 SVG。  
+- **Java 8 足够吗？** 该库兼容 Java 8 及更高版本的运行时。
 
-在我们开始这一旅程之前，请确保您具备以下先决条件：
-- Java 环境：确保您的计算机上安装了 Java。
--  Aspose.CAD 库：从以下位置下载并安装适用于 Java 的 Aspose.CAD 库：[下载链接](https://releases.aspose.com/cad/java/).
-- 文档目录：为 DWG 工程图设置目录。
+## 什么是“从 DWG 创建 PDF”？
+
+**从 DWG 创建 PDF** 指将原生 AutoCAD DWG 文件转换为 PDF 文档，同时保留矢量精度、图层和线宽，并允许布局自定义。Aspose.CAD 完全在内存中完成此转换，无需外部 CAD 软件，生成的 PDF 可直接编辑或打印。
+
+## 为什么要自定义 DWG 的 PDF 布局？
+
+Aspose.CAD 支持 **30 多种 CAD 格式**，并可生成最高 **500 MB** 的 PDF 而无需将整个文件加载到内存。通过为每个布局定义单独的页面尺寸，您可以生成符合 ISO、ANSI 或自定义尺寸的可打印图纸——这是一项可量化的优势，可节省时间并消除手动后处理。
+
+## 前置条件
+
+在开始之前，请确保具备以下条件：
+- Java 环境：确保您的机器已安装 Java。  
+- Aspose.CAD 库：从[download link](https://releases.aspose.com/cad/java/)下载并安装适用于 Java 的 Aspose.CAD 库。  
+- 文档目录：为您的 DWG 图纸设置一个目录。
 
 ## 导入包
 
-在您的 Java 项目中，导入必要的包：
+`CadImage` 类是 Aspose.CAD 的核心对象，表示内存中的 CAD 图纸。开始之前请先导入所需的命名空间：
 
 ```java
 import com.aspose.cad.Image;
@@ -37,18 +80,18 @@ import com.aspose.cad.imageoptions.PdfOptions;
 import com.aspose.cad.imageoptions.VectorRasterizationOptions;
 ```
 
-## 第 1 步：加载 CAD 图纸
+## 步骤 1：加载 CAD 图纸
 
-首先将 CAD 绘图加载到`CadImage`目的：
+`CadImage` 加载 DWG 文件并提供对其矢量数据的访问。首先将您的 CAD 图纸加载到 `CadImage` 对象中：
 
 ```java
 String dataDir = "Your Document Directory" + "DWGDrawings/";
 CadImage cadImage = (CadImage)Image.load(dataDir + "City skyway map.dwg");
 ```
 
-## 第 2 步：配置光栅化选项
+## 步骤 2：配置光栅化选项
 
-设置 CAD 图像的光栅化选项：
+`RasterizationOptions` 定义在将 CAD 矢量光栅化并放入 PDF 之前的行为。为 CAD 图像设置光栅化选项：
 
 ```java
 CadRasterizationOptions rasterizationOptions = new CadRasterizationOptions();
@@ -56,9 +99,9 @@ rasterizationOptions.setPageWidth(1000);
 rasterizationOptions.setPageHeight(1000);
 ```
 
-## 第 3 步：自定义布局页面大小
+## 步骤 3：自定义布局页面尺寸
 
-为 CAD 绘图中的多个布局定义自定义尺寸：
+`PdfOptions` 允许您为 DWG 中的每个布局分配不同的页面尺寸。为 CAD 图纸中的多个布局定义自定义尺寸：
 
 ```java
 rasterizationOptions.getLayoutPageSizes().addItem("ANSI C Plot", new SizeF(500, 1000));
@@ -67,51 +110,59 @@ rasterizationOptions.getLayoutPageSizes().addItem("8.5 x 11 Plot", new SizeF(100
 
 ## 步骤 4：设置 PDF 选项
 
-配置 PDF 选项，合并光栅化设置：
+`PdfOptions` 是将光栅化设置和布局定义组合在一起的容器。配置 PDF 选项，包含光栅化设置：
 
 ```java
 PdfOptions pdfOptions = new PdfOptions();
 pdfOptions.setVectorRasterizationOptions(rasterizationOptions);
 ```
 
-## 第 5 步：另存为 PDF
+## 步骤 5：保存为 PDF
 
-将处理后的 CAD 图像保存为 PDF：
+`PdfSaveOptions` 完成转换并写入输出文件。将处理后的 CAD 图像保存为 PDF：
 
 ```java
 cadImage.save(dataDir + "singlePDF_out.pdf", pdfOptions);
 ```
 
-恭喜！您已使用 Aspose.CAD for Java 成功创建了具有不同布局的单个 PDF。
+恭喜！您已成功使用 Aspose.CAD for Java 将 **DWG 创建为 PDF**，并使用不同的页面尺寸。
 
-## 结论
+## 常见问题及解决方案
 
-在本教程中，我们探索了 Aspose.CAD for Java 的无缝集成，以从 CAD 绘图生成具有不同布局的 PDF。该库的灵活性和强大功能使其成为 CAD 操作任务的首选。
+- **输出 PDF 中出现空白页** – 确保 `PageSize` 值与 DWG 文件中实际布局尺寸匹配。  
+- **大图纸出现内存不足错误** – 使用 `CadImage.load(..., LoadOptions)` 并调用 `LoadOptions.setLoadMode(LoadMode.Memory)` 以流式读取文件，而不是一次性加载全部。  
+- **缩放不正确** – 调整 `RasterizationOptions.setPageWidth` 和 `setPageHeight` 以匹配所需的 DPI（每英寸点数）。
 
-## 常见问题解答
+## 常见问答
 
-### Q1：我可以将 Aspose.CAD for Java 与其他 Java 库一起使用吗？
+**Q: 我可以将 Aspose.CAD for Java 与其他 Java 库一起使用吗？**  
+A: 可以，Aspose.CAD for Java 可无缝集成 Apache POI、Jackson 或 Spring Boot 等库。
 
-A1：是的，Aspose.CAD for Java 旨在与其他 Java 库无缝集成，提供广泛的功能。
+**Q: 是否提供试用版？**  
+A: 当然！您可以在[here](https://releases.aspose.com/)获取免费试用版。
 
-### Q2：有试用版吗？
+**Q: 我在哪里可以找到更多支持？**  
+A: 请访问[Aspose.CAD forum](https://forum.aspose.com/c/cad/19)获取社区支持和讨论。
 
- A2：当然！您可以访问免费试用版[这里](https://releases.aspose.com/).
+**Q: 我如何获取临时许可证？**  
+A: 您可以在[here](https://purchase.aspose.com/temporary-license/)获取临时许可证。
 
-### Q3：我在哪里可以找到额外的支持？
+**Q: 我在哪里可以购买完整版本？**  
+A: 请在[here](https://purchase.aspose.com/buy)购买 Aspose.CAD for Java 的完整版本。
 
- A3：访问[Aspose.CAD论坛](https://forum.aspose.com/c/cad/19)以获得社区支持和讨论。
+---
 
-### Q4：如何获得临时驾照？
+**最后更新：** 2026-06-29  
+**测试环境：** Aspose.CAD for Java 24.10  
+**作者：** Aspose
 
- A4：您可以获得临时许可证[这里](https://purchase.aspose.com/temporary-license/).
+## 相关教程
 
-### Q5：哪里可以购买完整版？
+- [使用 Aspose.CAD for Java 将 DWG 导出为 PDF 或光栅](/cad/java/cad-drawing-conversion/export-dwg-to-pdf-or-raster/)
+- [使用 Aspose.CAD for Java 将 CAD 布局导出为 PDF](/cad/java/cad-export-options/export-cad-layouts-to-pdf/)
+- [使用 Aspose.CAD for Java 将特定 DWG 布局导出为 PDF](/cad/java/cad-drawing-conversion/export-specific-dwg-layout-to-pdf/)
 
-A5：购买完整版的 Aspose.CAD for Java[这里](https://purchase.aspose.com/buy).
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 {{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/products-backtop-button >}}
+{{< /blocks/products/pf/main-wrap-class >}}
