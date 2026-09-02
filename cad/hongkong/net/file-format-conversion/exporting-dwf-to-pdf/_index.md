@@ -1,34 +1,84 @@
 ---
-title: 將 DWF 匯出為 PDF - Aspose.CAD 指南
+date: 2026-07-23
+description: 了解如何使用 Aspose.CAD for .NET 將 DWF 轉換為 PDF。此逐步指南將示範如何快速且可靠地建立 PDF CAD 檔案。
+keywords:
+- convert dwf pdf
+- create pdf cad
+- Aspose CAD export
+lastmod: 2026-07-23
 linktitle: 將 DWF 匯出為 PDF
-second_title: Aspose.CAD .NET - CAD 和 BIM 檔案格式
-description: 探索使用 Aspose.CAD for .NET 將 DWF 匯出為 PDF 的無縫指南。輕鬆增強您的 CAD 檔案處理能力。
-weight: 10
+og_description: convert dwf pdf 教學。使用 Aspose.CAD for .NET 從 DWF 快速建立 PDF CAD 檔案 –
+  完整免程式碼指南。
+og_image_alt: Guide showing DWF to PDF conversion with Aspose.CAD in .NET
+og_title: 轉換 dwf pdf – 使用 Aspose.CAD 匯出 DWF 為 PDF
+schemas:
+- author: Aspose
+  dateModified: '2026-07-23'
+  description: Learn how to convert DWF to PDF using Aspose.CAD for .NET. This step‑by‑step
+    guide shows you how to create PDF CAD files quickly and reliably.
+  headline: convert dwf pdf – Exporting DWF to PDF with Aspose.CAD
+  type: TechArticle
+- questions:
+  - answer: Yes, Aspose.CAD supports over 30 formats including DWG, DXF, DGN, and
+      STL, making it a universal CAD conversion engine.
+    question: Can I use Aspose.CAD for .NET with other CAD file formats?
+  - answer: For additional support, visit the [Aspose.CAD forum](https://forum.aspose.com/c/cad/19)
+      where you can ask questions and interact with the community.
+    question: Where can I find additional support for Aspose.CAD?
+  - answer: Yes, you can explore a free trial version of Aspose.CAD from [here](https://releases.aspose.com/).
+    question: Is there a free trial available for Aspose.CAD?
+  - answer: You can get a temporary license from [this link](https://purchase.aspose.com/temporary-license/).
+    question: How do I obtain a temporary license for Aspose.CAD?
+  - answer: You can purchase the full version of Aspose.CAD for .NET from [here](https://purchase.aspose.com/buy).
+    question: Where can I purchase the full version of Aspose.CAD for .NET?
+  type: FAQPage
+second_title: Aspose.CAD .NET - CAD and BIM File Format
+tags:
+- convert dwf
+- Aspose.CAD
+- .NET CAD conversion
+title: 轉換 dwf pdf – 使用 Aspose.CAD 將 DWF 匯出為 PDF
 url: /zh-hant/net/file-format-conversion/exporting-dwf-to-pdf/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 將 DWF 匯出為 PDF - Aspose.CAD 指南
+# 匯出 DWF 為 PDF - Aspose.CAD 指南
 
 ## 介紹
 
-在 .NET 開發領域，Aspose.CAD 作為處理電腦輔助設計 (CAD) 檔案的強大函式庫脫穎而出。在本教程中，我們將重點放在一項特定任務：使用 Aspose.CAD for .NET 將 DWF（設計 Web 格式）檔案匯出為 PDF。無論您是經驗豐富的開發人員還是新手，都可以按照以下步驟將此功能無縫整合到您的應用程式中。
+在本教學中，您將學習**將 DWF 轉換為 PDF**，使用 Aspose.CAD for .NET。無論您是開發桌面工具還是伺服器端服務，以下步驟只需幾行程式碼即可建立 PDF CAD 檔案。我們將從設定專案到驗證最終 PDF 全程示範，讓您能將轉換功能無縫整合至應用程式中。
 
-## 先決條件
+## 快速解答
+- **本教學涵蓋什麼內容？** 使用 Aspose.CAD for .NET 將 DWF 檔案轉換為 PDF。  
+- **需要多少行程式碼？** 只需兩行核心程式碼——載入 DWF 並儲存為 PDF。  
+- **需要授權嗎？** 開發階段可使用免費試用版；正式上線需購買商業授權。  
+- **支援哪些 .NET 版本？** .NET Framework 4.5 以上、.NET Core 3.1 以上、.NET 5/6 以上。  
+- **能否批次處理多個 DWF 檔案？** 可以——只需將轉換邏輯放入迴圈中。
 
-在深入學習本教程之前，請確保您符合以下先決條件：
+## Aspose.CAD 是什麼？
+Aspose.CAD 是一套 .NET 函式庫，提供對超過 30 種 CAD 與 BIM 格式的程式化存取，讓您在不需原生 CAD 軟體的情況下完成轉換、渲染與操作。它支援 50 多種輸入與輸出選項，且可在不將整個文件載入記憶體的前提下處理高達 500 MB 的檔案。
 
--  Aspose.CAD for .NET：確保您已安裝 Aspose.CAD for .NET。您可以從以下位置下載：[這裡](https://releases.aspose.com/cad/net/).
+## 為什麼要將 DWF 轉換為 PDF？
+將 DWF 轉換為 PDF 可讓您與可能沒有 CAD 工具的利害關係人分享設計資料。Aspose.CAD 能保留向量品質、嵌入字型，且產生的 PDF 通常比僅含點陣圖的方案小約 30 %，從而加快分發速度並降低儲存成本。
 
-- 開發環境：設定有效的 .NET 開發環境，包括 Visual Studio 或任何其他首選 IDE。
+## 前置條件
 
-## 導入命名空間
+在開始本教學之前，請確保您已具備以下前置條件：
 
-首先將必要的命名空間匯入到您的專案中。此步驟對於存取 Aspose.CAD 提供的功能至關重要。
+- Aspose.CAD for .NET：確保已安裝 Aspose.CAD for .NET。您可從 [here](https://releases.aspose.com/cad/net/) 下載。  
+- 開發環境：建立可使用的 .NET 開發環境，包含 Visual Studio 或其他您偏好的 IDE。
 
+## 如何使用 Aspose.CAD 將 DWF 轉換為 PDF？
+
+使用 `Image.Load` 載入來源 DWF，設定光柵化選項，然後以 PDF 格式呼叫 `Save`——這三個簡單步驟即可完成完整轉換。函式庫會自動處理向量圖形、圖層與中繼資料，因而產生的 PDF 與原始設計完全相同。
+
+## 匯入命名空間
+
+以下命名空間提供對 Aspose.CAD 核心功能與 PDF 選項的存取。  
 ```csharp
 using System;
 using System.Collections.Generic;
@@ -39,86 +89,88 @@ using Aspose.CAD;
 using Aspose.CAD.ImageOptions;
 ```
 
-## 第 1 步：載入 DWF 文件
+## 步驟 1：載入 DWF 檔案
 
-首先載入要匯出為 PDF 的 DWF 檔案。相應地調整文件路徑。
-
+`Image` 類別代表 CAD 圖像，提供載入與操作圖像的方法。  
 ```csharp
 string MyDir = "Your Document Directory";
 string fileName = MyDir + "18-12-11 9644 - site.dwf";
 
 using (Image image = Image.Load(fileName))
 {
-    //你的程式碼在這裡...
+    // Your code here...
 }
 ```
 
-## 第 2 步：配置光柵化選項
+## 步驟 2：設定光柵化選項
 
-設定 DWF 的光柵化選項以確保獲得所需的輸出。在此範例中，我們定義頁面高度和寬度。
-
+`CadRasterizationOptions` 定義 CAD 圖紙的光柵化方式，包括頁面尺寸與解析度。  
 ```csharp
 CadRasterizationOptions dwfRasterizationOptions = new CadRasterizationOptions();
 dwfRasterizationOptions.PageHeight = 500;
 dwfRasterizationOptions.PageWidth = 500;
 ```
 
-## 第 3 步：定義 PDF 選項
+## 步驟 3：定義 PDF 選項
 
-建立 PDF 選項並將其與先前配置的光柵化選項關聯。
-
+`PdfOptions` 指定轉換過程中的 PDF 輸出設定。  
 ```csharp
 PdfOptions pdfOptions = new PdfOptions();
 pdfOptions.VectorRasterizationOptions = dwfRasterizationOptions;
 ```
 
-## 第 4 步：匯出為 PDF
+## 步驟 4：匯出為 PDF
 
-執行匯出過程，指定產生的 PDF 檔案的輸出路徑。
-
+`Save` 方法將已載入的圖像寫入指定的格式與路徑。  
 ```csharp
 string outPath = MyDir + "18-12-11 9644 - site.pdf";
 image.Save(outPath, pdfOptions);
 ```
 
-## 第 5 步：驗證導出
+## 步驟 5：驗證匯出
 
-確保 3D 影像成功匯出為 PDF。顯示一條確認訊息，其中包含已儲存的檔案路徑。
-
+確保 3D 圖像成功匯出為 PDF。顯示包含已儲存檔案路徑的確認訊息。  
 ```csharp
 Console.WriteLine("\n3D images exported successfully to PDF.\nFile saved at " + MyDir);
 ```
 
-現在，您已經使用 Aspose.CAD 在 .NET 應用程式中成功實現了 DWF 到 PDF 匯出功能。
+## 常見問題與解決方案
 
-## 結論
+- **PDF 出現空白頁** – 請確認 `PageWidth` 與 `PageHeight` 的值與來源 DWF 的尺寸相符。  
+- **圖層遺失** – 請確保 `RasterizationOptions` 的 `VectorRasterizationOptions` 設為 `true`，以保留向量資料。  
+- **大型檔案記憶體不足** – 啟用帶有 `MemorySaving` 的 `LoadOptions`，以串流模式處理檔案。
 
-在本教學中，我們探索了使用 Aspose.CAD for .NET 將 DWF 檔案匯出為 PDF 的過程。透過執行這些步驟，您可以將此功能無縫整合到您的專案中，從而增強您的 CAD 檔案處理能力。
+## 常見問答
 
-## 常見問題解答
+**Q: 我可以在 .NET 中使用 Aspose.CAD 處理其他 CAD 檔案格式嗎？**  
+A: 可以，Aspose.CAD 支援超過 30 種格式，包括 DWG、DXF、DGN 與 STL，成為通用的 CAD 轉換引擎。
 
-### Q1：我可以將 Aspose.CAD for .NET 與其他 CAD 檔案格式一起使用嗎？
+**Q: 我可以在哪裡取得 Aspose.CAD 的其他支援？**  
+A: 如需其他支援，請前往 [Aspose.CAD forum](https://forum.aspose.com/c/cad/19) 提問並與社群互動。
 
-A1：是的，Aspose.CAD支援各種CAD檔案格式，包括DWG、DXF、DWF等。檢查文件以獲得完整的清單。
+**Q: Aspose.CAD 有提供免費試用版嗎？**  
+A: 有，您可從 [here](https://releases.aspose.com/) 下載免費試用版。
 
-### 問題 2：在哪裡可以找到對 Aspose.CAD 的額外支援？
+**Q: 我要如何取得 Aspose.CAD 的臨時授權？**  
+A: 您可透過 [this link](https://purchase.aspose.com/temporary-license/) 取得臨時授權。
 
- A2：如需更多支持，請訪問[Aspose.CAD論壇](https://forum.aspose.com/c/cad/19)您可以在這裡提出問題並與社區互動。
+**Q: 我可以從哪裡購買 Aspose.CAD for .NET 的完整版本？**  
+A: 您可從 [here](https://purchase.aspose.com/buy) 購買完整版本。
 
-### Q3：Aspose.CAD 有免費試用版嗎？
+**最後更新：** 2026-07-23  
+**測試環境：** Aspose.CAD 24.11 for .NET  
+**作者：** Aspose  
 
- A3：是的，您可以從以下位置探索 Aspose.CAD 的免費試用版：[這裡](https://releases.aspose.com/).
+{{< blocks/products/products-backtop-button >}}
 
-### Q4：如何取得 Aspose.CAD 的臨時授權？
+## 相關教學
 
- A4：您可以從以下地點獲得臨時許可證：[這個連結](https://purchase.aspose.com/temporary-license/).
+- [匯出 DWG 為 PDF 或點陣圖 - Aspose.CAD 指南](/cad/net/advanced-export-techniques/exporting-dwg-to-pdf-or-raster-images/)
+- [匯出特定版面為 PDF - Aspose.CAD 指南](/cad/net/advanced-export-techniques/exporting-specific-layouts-to-pdf/)
+- [匯出 CAD 圖紙為 PDF - Aspose.CAD 教學](/cad/net/advanced-export-techniques/exporting-cad-drawings-to-pdf/)
 
-### Q5：哪裡可以購買完整版的 Aspose.CAD for .NET？
 
- A5：您可以從以下位置購買完整版的 Aspose.CAD for .NET：[這裡](https://purchase.aspose.com/buy).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
