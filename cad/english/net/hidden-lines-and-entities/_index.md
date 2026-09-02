@@ -74,14 +74,18 @@ tags:
 - Aspose.CAD
 - DWG processing
 - .NET CAD
-title: Hidden Lines and Entities
+title: Create MLeader Entities and Unlock Hidden Lines in DWG with Aspose.CAD for .NET
 url: /net/hidden-lines-and-entities/
 weight: 29
 ---
 
-{{< blocks/products/products-backtop-button >}}
 {{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
+
+
+
+
 
 # Create MLeader Entities and Unlock Hidden Lines in DWG
 
@@ -105,6 +109,26 @@ Aspose.CAD can **extract hidden lines from over 40 CAD formats** and processes f
 ## How to extract hidden lines from a DWG file?
 Load the DWG with `new CadDocument("drawing.dwg")` and invoke the `HiddenLineExtractor.Extract()` method—this returns a collection of line objects representing the hidden geometry. CadDocument represents a DWG file loaded into memory. HiddenLineExtractor is a utility that extracts hidden geometry from a CAD document. You can then iterate over the collection to apply a custom visual style or export the data. This one‑call approach ensures you capture every concealed edge in just a few milliseconds for typical 500‑page drawings.
 
+```csharp
+using Aspose.CAD;
+using Aspose.CAD.ImageOptions;
+using System.Drawing;
+
+// Load DWG
+var document = new CadDocument("drawing.dwg");
+
+// Extract hidden lines
+var hiddenLines = HiddenLineExtractor.Extract(document);
+
+// Render with hidden lines style
+var renderOptions = new CadRasterizationOptions
+{
+    HiddenLineStyle = new Pen(Color.Gray, 1) { DashStyle = System.Drawing.Drawing2D.DashStyle.Dash }
+};
+var pngOptions = new PngOptions { VectorRasterizationOptions = renderOptions };
+document.Save("drawing_with_hidden.png", pngOptions);
+```
+
 ## How to display hidden lines in the rendered view?
 Pass the extracted hidden‑line collection to the rendering engine and set a distinct pen (e.g., dashed gray) using `RenderOptions.HiddenLineStyle`. RenderOptions.HiddenLineStyle specifies the visual style used for hidden lines during rendering. The renderer will overlay the hidden geometry on top of the visible model, giving you a clear view of both visible and concealed features in a single image.
 
@@ -118,15 +142,15 @@ Create MLeader entities by calling `CadDocument.CreateMLeader(leaderPoints, cont
 4. **Create MLeader entities** – define leader points, set the annotation content, and add the entity to the document.  
 5. **Save the updated DWG** – call `document.Save("updated.dwg")` to persist the changes.
 
-## Why Opt for MLeader Entities in DWG Format?
+## Why opt for mLeader entities in DWG format?
 MLeader entities add a **dynamic dimension** to CAD drawings, enabling you to convey complex information such as part numbers, material specs, or design notes with a single, flexible annotation. Aspose.CAD supports **three leader styles** (straight, spline, and curved) and can attach **up to 10 separate text blocks** per MLeader, streamlining documentation workflows for large projects.
 
-## Common Issues and Solutions
+## Common issues and solutions
 - **Hidden lines not appearing after extraction** – ensure the DWG’s visual style is set to “Wireframe” before rendering; otherwise hidden geometry may be culled.  
 - **MLeader arrows misaligned** – verify that the leader points are defined in the same coordinate system as the drawing’s base point.  
 - **Performance slowdown on very large files** – enable streaming mode with `CadDocument.LoadOptions.Streaming = true` to keep memory usage low.
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 **Q: Can I extract hidden lines from 3D DWG models?**  
 A: Yes, the extractor works with both 2D and 3D geometry, returning hidden edges projected onto the current view plane.
@@ -149,20 +173,21 @@ A: A commercial Aspose.CAD license is required for production deployments; a fre
 **Tested With:** Aspose.CAD 24.11 for .NET  
 **Author:** Aspose  
 
-## Hidden Lines and Entities Tutorials
-### [Supporting Hidden Lines in DWG Files - Aspose.CAD Tutorial](./supporting-hidden-lines-in-dwg/)
+## Hidden lines and entities tutorials
+### [Supporting hidden lines in DWG files - Aspose.CAD tutorial](./supporting-hidden-lines-in-dwg/)
 Unlock hidden lines in DWG files effortlessly with Aspose.CAD for .NET. Follow our step‑by‑step guide for seamless integration.
-### [Supporting MLeader Entity for DWG Format - Aspose.CAD Guide](./supporting-mleader-entity-for-dwg-format/)
+### [Supporting mLeader entity for DWG format - Aspose.CAD guide](./supporting-mleader-entity-for-dwg-format/)
 Unlock the power of MLeader entities in DWG format with Aspose.CAD for .NET. Elevate your CAD projects effortlessly.
 
 ## Related Tutorials
 
-- [Supporting Hidden Lines in DWG Files - Aspose.CAD Tutorial](/cad/net/hidden-lines-and-entities/supporting-hidden-lines-in-dwg/)
-- [Supporting MLeader Entity for DWG Format - Aspose.CAD Guide](/cad/net/hidden-lines-and-entities/supporting-mleader-entity-for-dwg-format/)
-- [Exploring Underlay Flags of DWG Files - Aspose.CAD Tutorial](/cad/net/dwg-file-manipulation/exploring-underlay-flags-of-dwg/)
-
+- [Supporting Hidden Lines in DWG Files - Aspose.CAD Tutorial]({{< relref "supporting-hidden-lines-in-dwg/_index.md" >}})
+- [Supporting MLeader Entity for DWG Format - Aspose.CAD Guide]({{< relref "supporting-mleader-entity-for-dwg-format/_index.md" >}})
+- [Exploring Underlay Flags of DWG Files - Aspose.CAD Tutorial]({{< relref "../dwg-file-manipulation/exploring-underlay-flags-of-dwg/_index.md" >}})
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-{{< blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
