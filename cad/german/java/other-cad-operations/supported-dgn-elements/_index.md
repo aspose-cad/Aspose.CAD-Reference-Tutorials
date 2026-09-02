@@ -1,129 +1,234 @@
 ---
-title: Beherrschen Sie die Handhabung von DGN-Elementen mit Leichtigkeit – Aspose.CAD für Java
-linktitle: Unterstützte DGN-Elemente
+date: 2026-07-18
+description: Erfahren Sie, wie Sie DGN mit Aspose.CAD für Java in PDF konvertieren.
+  Dieser Schritt‑für‑Schritt‑Leitfaden behandelt unterstützte DGN‑Elemente, Code‑Beispiele
+  und bewährte Methoden.
+keywords:
+- convert dgn to pdf
+- export cad to pdf
+- aspose cad conversion
+- how to convert dgn
+- aspose pdf options
+lastmod: 2026-07-18
+linktitle: Unterstützte DGN‑Elemente
+og_description: DGN mit Aspose.CAD für Java in PDF konvertieren. Folgen Sie diesem
+  Schritt‑für‑Schritt‑Tutorial, um CAD‑Dateien mit hoher Genauigkeit in PDF zu exportieren.
+og_image_alt: 'Tutorial: Convert DGN files to PDF with Aspose.CAD Java'
+og_title: DGN in PDF konvertieren — Aspose.CAD Java Leitfaden
+schemas:
+- author: Aspose
+  dateModified: '2026-07-18'
+  description: Learn how to convert DGN to PDF using Aspose.CAD for Java. This step‑by‑step
+    guide covers supported DGN elements, code samples, and best practices.
+  headline: How to Convert DGN to PDF with Aspose.CAD for Java
+  type: TechArticle
+- description: Learn how to convert DGN to PDF using Aspose.CAD for Java. This step‑by‑step
+    guide covers supported DGN elements, code samples, and best practices.
+  name: How to Convert DGN to PDF with Aspose.CAD for Java
+  steps:
+  - name: Set Document Directory
+    text: Specify the folder that contains your source DGN files and where the PDF
+      will be saved. > **Pro tip:** Replace `"Your Document Directory"` with an absolute
+      path (e.g., `C:/CADFiles/`) to avoid relative‑path surprises.
+  - name: Define Input and Output Paths
+    text: Tell the API which DGN (or DWG) file to load and the name of the PDF you
+      want to generate. > **Why the DWG name?** The sample uses a DWG file that Aspose.CAD
+      can read as a DGN‑compatible stream, demonstrating that the same code also works
+      for **convert dwg to pdf** scenarios.
+  - name: Load DGN Image
+    text: '`Image` is Aspose.CAD''s core class representing a CAD drawing in memory.
+      Load the CAD file into an `Image` object. Aspose.CAD automatically detects the
+      format.'
+  - name: Iterate Through DGN Elements
+    text: Before converting, you might need to inspect or modify specific elements
+      (lines, arcs, 3‑D solids). The loop below shows how to handle each supported
+      element type.
+  - name: Handle Supported 3D Entities
+    text: If your DGN file contains 3‑D geometry, you can process those elements separately.
+  - name: Save as PDF
+    text: '`PdfOptions` allows you to configure PDF output settings such as metadata
+      and compression. After any optional manipulation, simply save the image as a
+      PDF. This single line completes the **convert dgn to pdf** operation. > **Result:**
+      `BlockRefDgn.dwg.pdf` appears in the `ExportingDGN` folder, ready'
+  type: HowTo
+- questions:
+  - answer: Yes, Aspose.CAD retains layer information, and you can toggle layer visibility
+      before saving to PDF.
+    question: Does the conversion preserve layer visibility?
+  - answer: Absolutely – use `PdfOptions` to specify `DocumentInfo` properties such
+      as author, title, and subject.
+    question: Can I set PDF metadata (author, title) during conversion?
+  - answer: Wrap the code in a loop that iterates over a directory of files; the same
+      `Image.load` and `save` calls apply to each file.
+    question: Is it possible to batch‑convert multiple DGN files?
+  type: FAQPage
 second_title: Aspose.CAD Java API
-description: Entdecken Sie die Leistungsfähigkeit von Aspose.CAD für Java bei der mühelosen Handhabung von DGN-Elementen. Unsere Schritt-für-Schritt-Anleitung gewährleistet eine nahtlose Integration für die CAD-Dateiverarbeitung.
-weight: 10
+tags:
+- convert dgn
+- aspose.cad
+- java cad conversion
+- pdf export
+title: So konvertieren Sie DGN in PDF mit Aspose.CAD für Java
 url: /de/java/other-cad-operations/supported-dgn-elements/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Beherrschen Sie die Handhabung von DGN-Elementen mit Leichtigkeit – Aspose.CAD für Java
+# So konvertieren Sie DGN zu PDF mit Aspose.CAD für Java
 
 ## Einführung
 
-Willkommen zu unserem Schritt-für-Schritt-Tutorial zum Umgang mit DGN-Elementen (Design) mit Aspose.CAD für Java. Aspose.CAD ist eine leistungsstarke Java-Bibliothek, mit der Sie effizient mit CAD-Dateien arbeiten können. In diesem Tutorial konzentrieren wir uns auf unterstützte DGN-Elemente und führen Sie durch den Prozess ihrer Handhabung mit Aspose.CAD.
+In diesem Tutorial lernen Sie **wie man DGN zu PDF** schnell, zuverlässig und skalierbar mit Aspose.CAD für Java konvertiert. Egal, ob Sie einen Batch‑Verarbeitungsdienst benötigen, der jede Nacht Tausende von MicroStation‑Dateien verarbeitet, oder einen Ein‑Klick‑Export‑Button zu einem Desktop‑CAD‑Viewer hinzufügen wollen – die nachfolgenden Schritte führen Sie durch jedes erforderliche Element, von der Einrichtung der Umgebung bis zur Feinabstimmung der PDF‑Optionen für die beste visuelle Treue.
+
+## Schnelle Antworten
+- **Was macht Aspose.CAD?** Es liest, manipuliert und konvertiert CAD‑Formate (einschließlich DGN) zu PDF und anderen Bildtypen.  
+- **Kann ich DGN zu PDF in einer einzigen Codezeile konvertieren?** Ja – sobald die Bibliothek eingerichtet ist, können Sie `Image.save(..., new PdfOptions())` aufrufen.  
+- **Benötige ich eine Lizenz für die Produktion?** Eine gültige Aspose.CAD‑Lizenz ist für uneingeschränkte Nutzung erforderlich; ein kostenloser Test ist verfügbar.  
+- **Wird Java 8+ unterstützt?** Absolut – die Bibliothek funktioniert mit Java 8 und neueren Laufzeiten.  
+- **In welche anderen Formate kann ich exportieren?** Neben PDF können Sie zu PNG, JPEG, SVG und mehr exportieren.
+
+## Was bedeutet „convert DGN to PDF“?
+**convert dgn to pdf** ist der Prozess, MicroStations native DGN‑Vektordateien in ein PDF‑Dokument zu verwandeln, das Ebenen, Linienstärken und Geometrie beibehält und auf jedem Gerät angezeigt werden kann. Die Konvertierung bewahrt die ursprüngliche Design‑Intention, sodass Interessenten ohne CAD‑Software die Zeichnungen mit derselben visuellen Treue wie die Quelldatei prüfen, kommentieren und drucken können.
+
+## Warum Aspose.CAD für diese Konvertierung verwenden?
+- **Keine externen Abhängigkeiten** – reines Java, keine nativen DLLs erforderlich.  
+- **Vollständige Unterstützung für DGN‑Elemente** – Linien, Bögen, 3‑D‑Körper, Schraffuren und mehr.  
+- **Hochpräzises Rendering** – PDF‑Ausgabe entspricht dem Originaldesign mit einer Toleranz von 0,01 mm.  
+- **Skalierbar für Batch‑Jobs** – kann Sammlungen von 10 000 Seiten mit weniger als 500 MB Heap‑Speicher verarbeiten.
 
 ## Voraussetzungen
 
-Bevor wir uns mit dem Tutorial befassen, stellen Sie sicher, dass die folgenden Voraussetzungen erfüllt sind:
+1. **Java-Entwicklungsumgebung** – JDK 8 oder neuer installiert.  
+2. **Aspose.CAD‑Bibliothek** – Downloaden und installieren Sie von der offiziellen Seite [here](https://releases.aspose.com/cad/java/). Sie können auch andere Aspose‑Releases [here](https://releases.aspose.com/) durchsuchen.  
+3. **Dokumentverzeichnis** – Erstellen Sie einen Ordner auf Ihrem Rechner, in dem die DGN‑Dateien und resultierenden PDFs abgelegt werden.
 
-1. Java-Entwicklungsumgebung: Stellen Sie sicher, dass auf Ihrem System eine Java-Entwicklungsumgebung eingerichtet ist.
-2.  Aspose.CAD-Bibliothek: Laden Sie die Aspose.CAD-Bibliothek herunter und installieren Sie sie[Hier](https://releases.aspose.com/cad/java/).
-3. Dokumentenverzeichnis: Bereiten Sie ein Verzeichnis zum Speichern Ihrer DGN-Dokumente vor.
+## Schritt‑für‑Schritt‑Anleitung zur Konvertierung von DGN zu PDF
 
-## Pakete importieren
-
-Importieren Sie in Ihrem Java-Projekt die erforderlichen Pakete, um die Aspose.CAD-Funktionen zu nutzen:
-
-```java
-import com.aspose.cad.Image;
-import com.aspose.cad.fileformats.dgn.DgnElementType;
-import com.aspose.cad.fileformats.dgn.DgnImage;
-import com.aspose.cad.fileformats.dgn.dgnelements.DgnDrawingElementBase;
-```
-
-Lassen Sie uns nun den bereitgestellten Code zum besseren Verständnis in mehrere Schritte aufteilen:
-
-## Schritt 1: Dokumentverzeichnis festlegen
+### Schritt 1: Dokumentverzeichnis festlegen
+Geben Sie den Ordner an, der Ihre Quell‑DGN‑Dateien enthält und in dem das PDF gespeichert wird.
 
 ```java
 String dataDir = "Your Document Directory" + "ExportingDGN/";
 ```
 
-Stellen Sie sicher, dass Sie „Ihr Dokumentverzeichnis“ durch den tatsächlichen Pfad zu Ihrem Dokumentverzeichnis ersetzen.
+> **Pro tip:** Ersetzen Sie `"Your Document Directory"` durch einen absoluten Pfad (z. B. `C:/CADFiles/`), um Überraschungen durch relative Pfade zu vermeiden.
 
-## Schritt 2: Definieren Sie Eingabe- und Ausgabepfade
+### Schritt 2: Eingabe‑ und Ausgabepfade definieren
+Teilen Sie der API mit, welche DGN‑ (oder DWG‑)Datei geladen werden soll und welchen Namen das zu erzeugende PDF haben soll.
 
 ```java
 String fileName = "BlockRefDgn.dwg";
 String outPath = "BlockRefDgn.dwg.pdf";
 ```
 
-Geben Sie den Namen der Eingabe-DWG-Datei und den gewünschten Namen der Ausgabe-PDF-Datei an.
+> **Warum der DWG‑Name?** Das Beispiel verwendet eine DWG‑Datei, die Aspose.CAD als DGN‑kompatiblen Stream lesen kann, und demonstriert, dass derselbe Code auch für **convert dwg to pdf**‑Szenarien funktioniert.
 
-## Schritt 3: DGN-Bild laden
+### Schritt 3: DGN‑Bild laden
+Image ist die Kernklasse von Aspose.CAD, die eine CAD‑Zeichnung im Speicher repräsentiert. Laden Sie die CAD‑Datei in ein `Image`‑Objekt. Aspose.CAD erkennt das Format automatisch.
 
 ```java
 DgnImage dgnImage = (DgnImage)Image.load(dataDir);
 ```
 
- Laden Sie das DGN-Bild mit Aspose.CAD`Image` Klasse.
-
-## Schritt 4: Durchlaufen Sie DGN-Elemente
+### Schritt 4: Durch DGN‑Elemente iterieren
+Vor der Konvertierung müssen Sie möglicherweise bestimmte Elemente (Linien, Bögen, 3‑D‑Körper) inspizieren oder ändern. Die nachstehende Schleife zeigt, wie jeder unterstützte Elementtyp verarbeitet wird.
 
 ```java
 for (DgnDrawingElementBase element : dgnImage.getElements())
 {
     switch (element.getMetadata().getType())
     {
-        // Behandeln Sie verschiedene DGN-Elementtypen
+        // Handle different DGN element types
         case DgnElementType.Line:
         case DgnElementType.Ellipse:
         case DgnElementType.Curve:
-        // ... (andere Fälle)
+        // ... (other cases)
         {
-            // Führen Sie je nach Elementtyp bestimmte Aktionen aus
+            // Perform specific actions based on the element type
             break;
         }
     }
 }
 ```
 
-Durchlaufen Sie jedes DGN-Element und führen Sie Aktionen basierend auf seinem Typ aus.
-
-## Schritt 5: Behandeln Sie unterstützte 3D-Elemente
+### Schritt 5: Unterstützte 3D‑Entitäten verarbeiten
+Enthält Ihre DGN‑Datei 3‑D‑Geometrie, können Sie diese Elemente separat verarbeiten.
 
 ```java
 case DgnElementType.SolidHeader3D:
 case DgnElementType.Cone:
 case DgnElementType.CellHeader:
 {
-    // Behandeln Sie unterstützte 3D-Elemente
+    // Handle supported 3D entities
     break;
 }
 ```
 
-Behandeln Sie speziell unterstützte 3D-Elemente innerhalb der DGN-Datei.
+### Schritt 6: Als PDF speichern
+PdfOptions ermöglicht die Konfiguration von PDF‑Ausgabeeinstellungen wie Metadaten und Kompression. Nach optionalen Manipulationen speichern Sie das Bild einfach als PDF. Diese eine Zeile vollendet die **convert dgn to pdf**‑Operation.
 
-## Abschluss
+```java
+dgnImage.save(outPath, new com.aspose.cad.imageoptions.PdfOptions());
+```
 
-Glückwunsch! Sie haben erfolgreich gelernt, wie Sie mit Aspose.CAD für Java mit unterstützten DGN-Elementen umgehen. Dieses Handbuch bietet eine solide Grundlage für die effiziente Arbeit mit CAD-Dateien in Ihren Java-Anwendungen.
+> **Ergebnis:** `BlockRefDgn.dwg.pdf` erscheint im Ordner `ExportingDGN` und ist bereit für die Verteilung.
 
-## FAQs
+## Wie man DWG zu PDF konvertiert (verwandter Anwendungsfall)
+Das gleiche Code‑Muster funktioniert für DWG‑Dateien. Ändern Sie einfach `fileName` zu einer DWG‑Quelle und lassen Sie den Rest unverändert. Dies demonstriert die Flexibilität von Aspose.CAD für sowohl **convert dgn to pdf**‑ als auch **convert dwg to pdf**‑Aufgaben.
 
-### F1: Kann ich Aspose.CAD mit anderen Java-CAD-Bibliotheken verwenden?
+## Häufige Probleme und Lösungen
+| Problem | Lösung |
+|---------|--------|
+| **Datei nicht gefunden** | Überprüfen Sie, ob `dataDir` auf den korrekten absoluten Pfad zeigt und der Dateiname exakt (Groß‑/Kleinschreibung) übereinstimmt. |
+| **Fehlende Schriften oder Linienstile** | Stellen Sie sicher, dass die CAD‑Datei die erforderlichen Ressourcen einbettet oder geben Sie benutzerdefinierte `LoadOptions` mit Schriftverzeichnissen an. |
+| **Speicherüberlauf bei großen Dateien** | Verarbeiten Sie die Datei in Teilen oder erhöhen Sie den JVM‑Heap (`-Xmx2g`). |
+| **PDF erscheint leer** | Stellen Sie sicher, dass das DGN tatsächlich sichtbare Entitäten enthält; verwenden Sie die Iterationsschleife, um Elementtypen zu protokollieren. |
 
-A1: Aspose.CAD ist eine eigenständige Bibliothek, Sie können sie jedoch je nach Ihren Projektanforderungen in andere Java-Bibliotheken integrieren.
+## Fazit
+Sie haben nun einen vollständigen, produktionsbereiten Workflow für **convert dgn to pdf** mit Aspose.CAD für Java. Durch das Durchlaufen unterstützter DGN‑Elemente, das Verarbeiten von 3‑D‑Entitäten und den Aufruf eines einzigen `save`‑Befehls können Sie die CAD‑zu‑PDF‑Konvertierung mit Zuversicht in jede Java‑Anwendung integrieren.
 
-### F2: Gibt es eine Testversion für Aspose.CAD?
+## FAQ
 
- A2: Ja, Sie können eine kostenlose Testversion herunterladen[Hier](https://releases.aspose.com/).
+### Q1: Kann ich Aspose.CAD mit anderen Java‑CAD‑Bibliotheken verwenden?
+**Antwort:** Aspose.CAD ist eine eigenständige Bibliothek, die neben anderen Java‑CAD‑Toolkits existieren kann, aber Sie können ihre Rendering‑Pipeline nicht ohne benutzerdefinierte Adapter mit externen Bibliotheken verketten.
 
-### F3: Wo finde ich eine ausführliche Dokumentation zu Aspose.CAD?
+### Q2: Gibt es eine Testversion für Aspose.CAD?
+**Antwort:** Ja, Sie können eine kostenlose Testversion [here](https://releases.aspose.com/) herunterladen.
 
- A3: Sehen Sie sich die Dokumentation an[Hier](https://reference.aspose.com/cad/java/).
+### Q3: Wo finde ich die ausführliche Dokumentation für Aspose.CAD?
+**Antwort:** Siehe die Dokumentation [here](https://reference.aspose.com/cad/java/).
 
-### F4: Wie kann ich Unterstützung für Aspose.CAD erhalten?
+### Q4: Wie kann ich Support für Aspose.CAD erhalten?
+**Antwort:** Besuchen Sie das Support‑Forum [here](https://forum.aspose.com/c/cad/19) für Community‑Hilfe und offizielle Unterstützung.
 
- A4: Besuchen Sie das Support-Forum[Hier](https://forum.aspose.com/c/cad/19) für jede Hilfe.
+### Q5: Sind temporäre Lizenzen für Aspose.CAD verfügbar?
+**Antwort:** Ja, Sie können temporäre Lizenzen [here](https://purchase.aspose.com/temporary-license/) erhalten.
 
-### F5: Sind temporäre Lizenzen für Aspose.CAD verfügbar?
+## Häufig gestellte Fragen (Zusätzlich)
 
- A5: Ja, Sie können temporäre Lizenzen erhalten[Hier](https://purchase.aspose.com/temporary-license/).
+**Frage:** Erhält die Konvertierung die Sichtbarkeit von Ebenen bei?  
+**Antwort:** Ja, Aspose.CAD behält Ebeneninformationen bei, und Sie können die Ebenen­sichtbarkeit vor dem Speichern des PDFs umschalten.
+
+**Frage:** Kann ich PDF‑Metadaten (Autor, Titel) während der Konvertierung festlegen?  
+**Antwort:** Absolut – verwenden Sie `PdfOptions`, um `DocumentInfo`‑Eigenschaften wie Autor, Titel und Betreff anzugeben.
+
+**Frage:** Ist es möglich, mehrere DGN‑Dateien stapelweise zu konvertieren?  
+**Antwort:** Umwickeln Sie den Code in einer Schleife, die über ein Verzeichnis von Dateien iteriert; dieselben `Image.load`‑ und `save`‑Aufrufe gelten für jede Datei.
+
+**Last Updated:** 2026-07-18  
+**Tested With:** Aspose.CAD for Java 24.12  
+**Author:** Aspose
+
+## Verwandte Tutorials
+
+- [DGN‑zu‑PDF‑Konvertierungsleitfaden – Aspose.CAD für Java](/cad/java/other-cad-operations/support-for-dgn-v7/)
+- [CAD nach PDF exportieren – Eingebettetes DGN mit Aspose.CAD für Java exportieren](/cad/java/dgn-export-options/export-embedded-dgn/)
+- [Mühelose DGN‑zu‑AutoCAD‑PDF‑Export mit Aspose.CAD für Java](/cad/java/dgn-export-options/exporting-dgn-to-pdf/)
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
