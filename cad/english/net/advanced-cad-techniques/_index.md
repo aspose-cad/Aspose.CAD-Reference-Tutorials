@@ -1,5 +1,5 @@
 ---
-title: How to Create PDF – Advanced CAD Techniques
+title: How to Create PDF with Aspose.CAD – Advanced CAD Techniques
 linktitle: Advanced CAD Techniques
 second_title: Aspose.CAD .NET - CAD and BIM File Format
 description: Learn how to create PDF from CAD files, convert CFF to PDF, set timeouts on save operations, edit hyperlinks, and use free viewpoint in Aspose.CAD for .NET.
@@ -147,14 +147,14 @@ Loop through `image.Layouts`, render each to a separate PDF page using `PdfSaveO
 ### Step 7: Apply a free point of view
 Adjust the `Camera` rotation angles on the `CadImage` before rendering. This gives you a custom perspective that can be saved as an image or embedded directly into a PDF.
 
-## Common Issues and Solutions
+## Common issues and solutions
 
 - **Timeouts still occur** – Increase the timeout value or simplify the drawing by removing unnecessary layers before saving.  
 - **Hyperlinks not appearing in the PDF** – Ensure you call `Save` on the CAD file after editing, then render the updated file to PDF.  
 - **Loss of line thickness** – Use `PdfSaveOptions.VectorRasterizationOptions` to fine‑tune rendering quality.  
 - **Memory spikes with large files** – Enable streaming mode (`LoadOptions.MemoryLimit`) to keep memory usage under control.
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 **Q: Can I convert DWG files to PDF using the same method?**  
 A: Yes, Aspose.CAD handles DWG, DXF, DGN, and many other formats with identical `Save` calls.
@@ -177,27 +177,29 @@ A: Yes, a commercial license removes evaluation watermarks and unlocks full func
 **Tested With:** Aspose.CAD 24.11 for .NET  
 **Author:** Aspose  
 
-## Advanced CAD Techniques Tutorials
-### [Converting CFF to PDF Format - Aspose.CAD Tutorial](./converting-cff-to-pdf-format/)
+## Advanced CAD techniques tutorials
+### [Converting CFF to PDF Format - Aspose.CAD Tutorial]([{{< relref "converting-cff-to-pdf-format/_index.md" >}}])
 Unlock effortless CFF to PDF conversion with Aspose.CAD for .NET. Follow our step-by-step guide.
-### [Free Point of View in CAD Drawings - Aspose.CAD Guide](./free-point-of-view-in-cad-drawings/)
+### [Free point of view in CAD drawings - Aspose.CAD guide]([{{< relref "free-point-of-view-in-cad-drawings/_index.md" >}}])
 Explore the freedom of CAD visualization with Aspose.CAD for .NET. Follow our step-by-step guide for a unique point of view.
-### [Setting Timeout on Save Operation - Aspose.CAD Tutorial](./setting-timeout-on-save-operation/)
+### [Setting timeout on save operation - Aspose.CAD tutorial]([{{< relref "setting-timeout-on-save-operation/_index.md" >}}])
 Explore how to enhance CAD save operations with timeout settings using Aspose.CAD for .NET. Boost efficiency and control in your .NET applications.
-### [Creating Single PDF with Different Layouts - Aspose.CAD Guide](./creating-single-pdf-with-different-layouts/)
+### [Creating single PDF with different layouts - Aspose.CAD guide]([{{< relref "creating-single-pdf-with-different-layouts/_index.md" >}}])
 Create a single PDF with different layouts using Aspose.CAD for .NET. Follow our step-by-step guide for seamless integration and efficient PDF generation.
-### [Editing Hyperlinks in CAD Files - Aspose.CAD Tutorial](./editing-hyperlinks-in-cad-files/)
+### [Editing hyperlinks in CAD files - Aspose.CAD tutorial]([{{< relref "editing-hyperlinks-in-cad-files/_index.md" >}}])
 Explore Aspose.CAD for .NET and learn to edit hyperlinks in CAD files effortlessly. Enhance your CAD file management skills with this comprehensive tutorial.
 
-{{< blocks/products/products-backtop-button >}}
+
 
 ## Related Tutorials
 
-- [Exporting CAD Drawings to PDF - Aspose.CAD Tutorial](/cad/net/advanced-export-techniques/exporting-cad-drawings-to-pdf/)
-- [Creating Single PDF with Different Layouts - Aspose.CAD Guide](/cad/net/advanced-cad-techniques/creating-single-pdf-with-different-layouts/)
-- [Converting Large DWG Files to PDF - Aspose.CAD Tutorial](/cad/net/image-manipulation-and-rendering/converting-large-dwg-files-to-pdf/)
-
+- [Exporting CAD Drawings to PDF - Aspose.CAD Tutorial]([{{< relref "cad/net/advanced-export-techniques/exporting-cad-drawings-to-pdf/_index.md" >}}])
+- [Creating Single PDF with Different Layouts - Aspose.CAD Guide]([{{< relref "cad/net/advanced-cad-techniques/creating-single-pdf-with-different-layouts/_index.md" >}}])
+- [Converting Large DWG Files to PDF - Aspose.CAD Tutorial]([{{< relref "cad/net/image-manipulation-and-rendering/converting-large-dwg-files-to-pdf/_index.md" >}}])
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -1,5 +1,5 @@
 ---
-title: Set PDF Page Size for OBJ Files with Aspose.CAD - Tutorial
+title: Set PDF Page Size for 3D Models in .NET - Tutorial
 linktitle: Supporting OBJ Format in Aspose.CAD - Tutorial
 second_title: Aspose.CAD .NET - CAD and BIM File Format
 description: Learn how to set PDF page size while converting OBJ files to PDF using Aspose.CAD for .NET. Step‑by‑step guide with prerequisites, rasterization options, and PDF options.
@@ -26,14 +26,14 @@ schemas:
     answer: Yes, Aspose.CAD supports over **30** input formats—including DWG, DXF,
       DGN, and STL—and can export to more than **20** raster and vector formats.
   - question: Can I try Aspose.CAD before purchasing?
-    answer: Absolutely! You can explore a free trial version [here](https://releases.aspose.com/).
+    answer: Absolutely! You can explore a free trial version [download the free trial version](https://releases.aspose.com/).
   - question: How do I obtain support for Aspose.CAD?
     answer: Visit the [Aspose.CAD forum](https://forum.aspose.com/c/cad/19) to ask
       questions and share experiences with the community.
   - question: Are temporary licenses available for testing?
-    answer: Yes, temporary licenses can be obtained [here](https://purchase.aspose.com/temporary-license/).
+    answer: Yes, temporary licenses can be obtained [obtain a temporary license](https://purchase.aspose.com/temporary-license/).
   - question: Where can I purchase a full license?
-    answer: You can purchase Aspose.CAD [here](https://purchase.aspose.com/buy).
+    answer: You can purchase Aspose.CAD [purchase a full Aspose.CAD license](https://purchase.aspose.com/buy).
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -61,7 +61,7 @@ Aspose.CAD can render a CAD drawing to any raster size. By explicitly setting th
 
 ## Prerequisites
 
-- **Aspose.CAD Library** – Ensure that the Aspose.CAD library is installed in your .NET project. You can download it [here](https://releases.aspose.com/cad/net/) and view the full API reference in the [documentation](https://reference.aspose.com/cad/net/).
+- **Aspose.CAD Library** – Ensure that the Aspose.CAD library is installed in your .NET project. You can download it [download the Aspose.CAD .NET library](https://releases.aspose.com/cad/net/) and view the full API reference in the [documentation](https://reference.aspose.com/cad/net/).
 - **Document Directory** – Create a folder for your CAD assets; we’ll refer to it as “Your Document Directory” throughout the guide.
 - **.NET Development Environment** – Visual Studio 2022 or any IDE that supports .NET 6+.
 
@@ -69,7 +69,7 @@ Aspose.CAD can render a CAD drawing to any raster size. By explicitly setting th
 
 Load the OBJ file, configure rasterization options with the desired width and height, attach those options to a `PdfOptions` instance, and call `Save`. This two‑step pattern guarantees the PDF page matches the dimensions you specify while preserving model details.
 
-## Step 1: Import Namespaces
+## Step 1: import namespaces
 
 The `Image` class handles all CAD formats, and the `PdfOptions` class controls PDF output.  
 `Image` represents a CAD document and provides methods to load and save files. `PdfOptions` defines settings for PDF generation such as page size and compression.
@@ -81,7 +81,7 @@ using System.Linq;
 using System.Text;
 ```
 
-## Step 2: Load OBJ File
+## Step 2: load OBJ file
 
 Load the OBJ file into the Aspose.CAD image object. Replace `"example-580-W.obj"` with the name of your OBJ file.
 
@@ -93,7 +93,7 @@ using (Aspose.CAD.Image CADDoc = Aspose.CAD.Image.Load(MyDir + "example-580-W.ob
 }
 ```
 
-## Step 3: Configure Rasterization Options
+## Step 3: configure rasterization options
 
 `RasterizationOptions` defines the raster size that ultimately becomes the PDF page size. Setting `PageWidth` and `PageHeight` lets you control the exact dimensions of the output PDF.  
 `CadRasterizationOptions` (exposed via `RasterizationOptions`) specifies rasterization parameters such as page dimensions and resolution.
@@ -106,7 +106,7 @@ rasterizationOptions.PageWidth = CADDoc.Size.Width;
 rasterizationOptions.PageHeight = CADDoc.Size.Height;
 ```
 
-## Step 4: Create PDF Options
+## Step 4: create PDF options
 
 `PdfOptions` ties the rasterization settings to the PDF writer. By assigning the `RasterizationOptions` instance, you ensure the PDF inherits the page size you defined.
 
@@ -124,28 +124,28 @@ Invoke the `Save` method on the `Image` object, passing the target file name and
 CADDoc.Save(MyDir + "example-580-W_custom.pdf", CADf);
 ```
 
-## Common Issues and Solutions
+## Common issues and solutions
 
 - **Incorrect page dimensions** – Verify that `PageWidth` and `PageHeight` are set in **pixels**; use `Resolution` to translate inches or millimetres to pixels (e.g., 300 dpi → 1 inch = 300 px).
 - **Missing textures** – OBJ files often reference external `.mtl` files; ensure the material file resides in the same directory as the OBJ.
 - **Large file memory usage** – Enable `Image.SaveOptions.Compression` to reduce memory pressure for high‑resolution renders.
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 **Q: Is Aspose.CAD compatible with other CAD file formats?**  
 A: Yes, Aspose.CAD supports over **30** input formats—including DWG, DXF, DGN, and STL—and can export to more than **20** raster and vector formats.
 
 **Q: Can I try Aspose.CAD before purchasing?**  
-A: Absolutely! You can explore a free trial version [here](https://releases.aspose.com/).
+A: Absolutely! You can explore a free trial version [download the free trial version](https://releases.aspose.com/).
 
 **Q: How do I obtain support for Aspose.CAD?**  
 A: Visit the [Aspose.CAD forum](https://forum.aspose.com/c/cad/19) to ask questions and share experiences with the community.
 
 **Q: Are temporary licenses available for testing?**  
-A: Yes, temporary licenses can be obtained [here](https://purchase.aspose.com/temporary-license/).
+A: Yes, temporary licenses can be obtained [obtain a temporary license](https://purchase.aspose.com/temporary-license/).
 
 **Q: Where can I purchase a full license?**  
-A: You can purchase Aspose.CAD [here](https://purchase.aspose.com/buy).
+A: You can purchase Aspose.CAD [purchase a full Aspose.CAD license](https://purchase.aspose.com/buy).
 
 ---
 

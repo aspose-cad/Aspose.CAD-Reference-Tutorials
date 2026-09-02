@@ -1,5 +1,5 @@
 ---
-title: Set PDF page size – Export 3D Images to PDF with Aspose.CAD
+title: Configuring Page Dimensions for 3D Image Export
 linktitle: Exporting 3D Images to PDF
 second_title: Aspose.CAD .NET - CAD and BIM File Format
 description: Learn how to set PDF page size and export PDF from 3D CAD images using Aspose.CAD for .NET – a step‑by‑step guide to convert DWG to PDF and save CAD as PDF.
@@ -14,14 +14,14 @@ keywords:
 - cad to pdf tutorial
 schemas:
 - type: TechArticle
-  headline: Set PDF page size – Export 3D Images to PDF with Aspose.CAD
+  headline: Configuring Page Dimensions for 3D Image Export
   description: Learn how to set PDF page size and export PDF from 3D CAD images using
     Aspose.CAD for .NET – a step‑by‑step guide to convert DWG to PDF and save CAD
     as PDF.
   dateModified: '2026-07-04'
   author: Aspose
 - type: HowTo
-  name: Set PDF page size – Export 3D Images to PDF with Aspose.CAD
+  name: Configuring Page Dimensions for 3D Image Export
   description: Learn how to set PDF page size and export PDF from 3D CAD images using
     Aspose.CAD for .NET – a step‑by‑step guide to convert DWG to PDF and save CAD
     as PDF.
@@ -107,7 +107,7 @@ using Aspose.CAD.ImageOptions;
 
 Load your CAD file, configure the page dimensions in `RasterizationOptions`, attach those options to a `PdfOptions` instance, and call `Save`. This four‑step flow gives you full control over the output size and quality while keeping the code concise.
 
-### Step 1: Load the CAD Image
+### Step 1: load the CAD image
 
 `Image` class represents a CAD drawing loaded into memory, ready for rasterization.  
 
@@ -151,7 +151,7 @@ MyDir = MyDir + "Export3DImagestoPDF_out.pdf";
 cadImage.Save(MyDir, pdfOptions);
 ```
 
-## Common Issues and Solutions
+## Common issues and solutions
 
 | Issue | Reason | Fix |
 |-------|--------|-----|
@@ -160,7 +160,7 @@ cadImage.Save(MyDir, pdfOptions);
 | **3‑D entities not shown** | `TypeOfEntities` is commented out. | Uncomment `rasterizationOptions.TypeOfEntities = TypeOfEntities.Entities3D;`. |
 | **License exception** | Using a trial without a license. | Apply a temporary or permanent license via `License license = new License(); license.SetLicense("Aspose.CAD.lic");`. |
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 **Q: Is Aspose.CAD compatible with all CAD file formats?**  
 A: Yes, Aspose.CAD supports more than 50 input and output formats, including DWG, DXF, DGN, STL, and IFC, ensuring flexibility for any project.
@@ -181,21 +181,26 @@ A: Yes, you can explore the features of Aspose.CAD by accessing the [free trial]
 
 You now have a complete, production‑ready method to **set PDF page size** and **export PDF from 3D CAD images** using Aspose.CAD for .NET. By adjusting rasterization options you can fine‑tune resolution, page layout, and 3‑D entity rendering to meet any documentation requirement. Experiment with different DPI settings and page dimensions to achieve the perfect balance between file size and visual fidelity.
 
-{{< blocks/products/products-backtop-button >}}
+
 
 ## Related Tutorials
 
-- [Exporting Specific Layouts to PDF - Aspose.CAD Guide](/cad/net/advanced-export-techniques/exporting-specific-layouts-to-pdf/)
-- [Exporting DWG to PDF or Raster Images - Aspose.CAD Guide](/cad/net/advanced-export-techniques/exporting-dwg-to-pdf-or-raster-images/)
-- [Export DGN to PDF in Aspose.CAD for .NET](/cad/net/cad-export-formats/export-dgn-to-pdf/)
+{{< relref "cad/net/advanced-export-techniques/exporting-specific-layouts-to-pdf/_index.md" >}}Exporting Specific Layouts to PDF{{< /relref >}}
+{{< relref "cad/net/advanced-export-techniques/exporting-dwg-to-pdf-or-raster-images/_index.md" >}}Exporting DWG to PDF or Raster Images{{< /relref >}}
+{{< relref "cad/net/cad-export-formats/export-dgn-to-pdf/_index.md" >}}Export DGN to PDF{{< /relref >}}
 
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
+
 
 --- 
 
 **Last Updated:** 2026-07-04  
 **Tested With:** Aspose.CAD 24.11 for .NET  
 **Author:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
