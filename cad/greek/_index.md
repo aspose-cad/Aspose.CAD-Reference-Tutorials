@@ -1,10 +1,51 @@
 ---
 additionalTitle: Aspose API References
-date: 2026-02-02
+date: 2026-08-02
 description: Εξερευνήστε πώς να εξάγετε DWG σε PDF χρησιμοποιώντας το Aspose.CAD και
   μάθετε σχετικές εργασίες όπως η μετατροπή DWG σε STL, η εξαγωγή κειμένου από CAD
-  και η μετατροπή μορφής αρχείων CAD.
-linktitle: Aspose.CAD Tutorials
+  και η μετατροπή μορφών αρχείων CAD.
+keywords:
+- export DWG to PDF
+- DWG to STL conversion
+- CAD text extraction
+- Aspose.CAD .NET
+- CAD file format conversion
+lastmod: 2026-08-02
+linktitle: Οδηγοί Aspose.CAD
+og_description: Εξάγετε DWG σε PDF χρησιμοποιώντας το Aspose.CAD για .NET. Μάθετε
+  τη βήμα‑βήμα μετατροπή, την επεξεργασία σε παρτίδες και σχετικές εργασίες όπως DWG
+  σε STL και εξαγωγή κειμένου.
+og_image_alt: Developer guide showing Aspose.CAD export DWG to PDF in .NET
+og_title: Εξαγωγή DWG σε PDF με Aspose.CAD – Γρήγορη, Ακριβής Μετατροπή
+schemas:
+- author: Aspose
+  dateModified: '2026-08-02'
+  description: Explore how to export DWG to PDF using Aspose.CAD and learn related
+    tasks like convert DWG to STL, extract text from CAD, and CAD file format conversion.
+  headline: Export DWG to PDF with Aspose.CAD – Mastering Graphic Design
+  type: TechArticle
+- questions:
+  - answer: Yes. Use the `LoadOptions` to enable streaming and process the file page‑by‑page.
+    question: Can I export a large DWG file to PDF without running out of memory?
+  - answer: Absolutely. Loop through a directory and call `Image.Save` for each file
+      – the library is thread‑safe.
+    question: Does Aspose.CAD support batch conversion of multiple DWG files to PDF?
+  - answer: Text entities are read directly from the drawing database, preserving
+      exact strings, fonts, and positions.
+    question: How accurate is the text extraction from CAD drawings?
+  - answer: Layers are maintained as optional PDF layers; you can toggle visibility
+      via the `PdfSaveOptions`.
+    question: Is there a way to preserve layers when exporting to PDF?
+  - answer: Yes – call `image.Save("output.stl", new StlOptions())` to get a printable
+      mesh.
+    question: Can I convert DWG to STL for 3‑D printing directly from .NET?
+  type: FAQPage
+tags:
+- export DWG
+- Aspose.CAD
+- .NET CAD processing
+- PDF conversion
+- CAD automation
 title: Εξαγωγή DWG σε PDF με Aspose.CAD – Κατακτώντας το Γραφικό Σχεδιασμό
 url: /el/
 weight: 11
@@ -14,134 +55,199 @@ weight: 11
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Εξαγωγή DWG σε PDF με Aspose.CAD – Κατακτώντας τούλη σας για να αξιοποιήσετε πλήρως το δυναμικό του graphic CAD. Σε αυτόν τον οδηγό θα ανακαλύψετε πώς να **εξώς το ίδιο API σας βοηθά να **μετατρέψετε DWG σε STL**, **εξάγετε κείμενο από CAD**, και να διαχειριστείτε ευρύτερα σενάρια είστε έμπειρος επαγγελματίας είτε μόλις ξεκινάτε, τα βήμα‑βήμα tutorials μας θα σας δώσουν την αυτοπεποίθηση να μετατρέψετε πολύπλοκα CAD αρχεία σε επζόμενα αποτελέσματα.
+# Εξαγωγή DWG σε PDF με Aspose.CAD – Κατάκτηση του Γραφικού Σχεδιασμού
+
+Καλώς ήρθατε στη Σελίδα Λίστας Εκπαιδευτικών Σεναρίων Aspose.CAD, την πύλη σας για την αξιοποίηση του πλήρους δυναμικού του γραφικού σχεδιασμού και της ενσωμάτωσης CAD. Σε αυτόν τον οδηγό θα ανακαλύψετε πώς να **εξάγετε DWG σε PDF** γρήγορα και αξιόπιστα, καθώς και πώς το ίδιο API σας βοηθά να **μετατρέψετε DWG σε STL**, **εξάγετε κείμενο από CAD**, και να διαχειριστείτε ευρύτερα σενάρια **μετατροπής μορφών αρχείων CAD**. Είτε είστε έμπειρος επαγγελματίας είτε μόλις ξεκινάτε, τα βήμα‑βήμα εκπαιδευτικά μας σεμινάρια θα σας δώσουν την αυτοπεποίθηση να μετατρέψετε πολύπλοκα αρχεία CAD σε επαγγελματικά, διαμοιραζόμενα αποτελέσματα.
 
 ## Γρήγορες Απαντήσεις
-- **Ποιος είναι ο πιο εύκολος τρόπος για να εξάγετε DWG σε PDF;** Χρησιμοποιήστε τη μέθοδο Aspose.CAD- **Μπορώ επίσης να μετατρέψλήση `ExportToStl`.  
-- **Χρειάζομαι άδεια για παραγωγική χρήση;** Απαιτείται εμπορική άδεια για απεριόριστη λειτουργικότητα· μια δωρεάν δοκιμή λειτουργ** .NET Framework 4.6+, .NET Core 3.1+, .NET 5/6/7.  
-- **Υπάρχει ενσωματωμένη υποστήριξη για εξαγωγή κειμένου από CAD σχέδια; να το επιστρέψει ως strings.
+- **Ποιος είναι ο πιο εύκολος τρόπος για να εξάγετε DWG σε PDF;** Χρησιμοποιήστε τη μέθοδο Aspose.CAD `Image.Save` με την επιλογή μορφής PDF.  
+- **Μπορώ επίσης να μετατρέψω DWG σε STL στο ίδιο έργο;** Ναι – η ίδια βιβλιοθήκη παρέχει μια άμεση κλήση `ExportToStl`.  
+- **Χρειάζομαι άδεια για παραγωγική χρήση;** Απαιτείται εμπορική άδεια για απεριόριστη λειτουργικότητα· μια δωρεάν δοκιμή λειτουργεί για αξιολόγηση.  
+- **Ποιες εκδόσεις .NET υποστηρίζονται;** .NET Framework 4.6+, .NET Core 3.1+, .NET 5/6/7.  
+- **Υπάρχει ενσωματωμένη υποστήριξη για εξαγωγή κειμένου από σχέδια CAD;** Απολύτως – το Aspose.CAD μπορεί να διαβάσει το κείμενο των οντοτήτων και να το επιστρέψει ως συμβολοσειρές.
 
 ## Τι είναι η «εξαγωγή DWG σε PDF»;
-Η εξαγ σημαίνει τη μετατρο έγγραφο προσανατολισμένο σε σελίδες που διατηρεί τη γεωμετρία, τα layers και τις σημτο για την κοινή χρήση σχεδίων με ενδιαφερόμενους που μπορεί να μην διαθέτουν λογισμικό CAD.
+Η εξαγωγή ενός DWG (σχεδίου AutoCAD) σε PDF σημαίνει τη μετατροπή του σχεδίου βασισμένου σε διανυσματικά δεδομένα σε ένα ευρέως συμβατό, έγγραφο προσανατολισμένο σε σελίδες, που διατηρεί τη γεωμετρία, τα επίπεδα και τις σημειώσεις. Αυτή η μετατροπή είναι απαραίτητη όταν πρέπει να μοιραστείτε σχέδια με ενδιαφερόμενους που δεν διαθέτουν λογισμικό CAD, επειδή τα PDF αποδίδονται σταθερά σε προγράμματα περιήγησης, κινητές συσκευές και λειτουργικά συστήματα.
 
 ## Γιατί να χρησιμοποιήσετε το Aspose.CAD για εξαγωγή DWG σε PDF;
-- **Χωρίς εξωτερικές εξαρτήσεις**τότητα** – διατηρεί το βάρος γραμμών, τα hatch και την αφαίρεση κρυφών γραμμών.  
-- **Επεξεργασία σε παρτίδες** – μετατρέπει δεκάδες αρχεία σε έναν βρόχο.  
-- **Διαπλατφόρμα** – λειτουργεί σε Windows, Linux και macOS μέσω .NET Core.
+Το Aspose.CAD προσφέρει μια καθαρή λύση .NET που δεν απαιτεί **εξωτερική εγκατάσταση AutoCAD** και παρέχει **υψηλής πιστότητας** έξοδο. Υποστηρίζει **πάνω από 30 μορφές CAD** και μπορεί να επεξεργαστεί δεκάδες αρχεία σε μια ενιαία βρόχο, καθιστώντας το ιδανικό για αυτοματοποιημένες γραμμές παραγωγής. Η βιβλιοθήκη λειτουργεί σε Windows, Linux και macOS μέσω .NET Core, προσφέροντάς σας πραγματική διασυστημική ευελιξία.
 
 ## Πώς να Εξάγετε DWG σε PDF Χρησιμοποιώντας το Aspose.CAD
-Ας δούμε τα πρακτικά βήματα που θα ακολουθήσετε σε ένα τυπικό .NET έργο:
+Φορτώστε το αρχείο DWG με `Image.Load`, διαμορφώστε προαιρετικές ρυθμίσεις αποθήκευσης PDF και καλέστε `Save` με επέκταση `.pdf` – αυτή είναι η πλήρης μετατροπή σε μόλις τρεις γραμμές κώδικα. Αυτή η προσέγγιση διατηρεί αυτόματα τα βάρη γραμμών, τις διαγράμμιση και την αφαίρεση κρυφών γραμμών, ώστε να μην χρειάζεται να ρυθμίσετε χειροκίνητα την έξοδο.
 
-1. **Προσθέστε το NuGet πακέτο Aspose.CAD** στη λύση σας.  
+1. **Προσθέστε το πακέτο NuGet Aspose.CAD** στη λύση σας.  
 2. **Φορτώστε το αρχείο DWG** με `Image.Load`.  
-3. **Διαμορφώστε τις επιλογές αποθήκευσης PDF** (π.χ. μέγεθος σελίδας, DPI rasterization) εάν χρειάζεστε προσαρμοσμένη έξοδο.  
-4. **Καλέστε `Save`** και καθορίστε την επέκταση `.pdf`.  
+3. **Διαμορφώστε τις επιλογές αποθήκευσης PDF** (π.χ., μέγεθος σελίδας, DPI ραστεροποίησης) εάν χρειάζεστε προσαρμοσμένη έξοδο.  
+4. **Κλήστε το `Save`** και καθορίστε την επέκταση `.pdf`.  
 
-Αυτές οι τέσσερις ενέργειες είναι ό,τι χρειάζεστε για να δημιουργήσετε ένα PDF που αντικατοπτρίζει την αρχική οπτική πιστότητα του σχεδίου.
+Αυτές οι τέσσερις ενέργειες είναι όλα όσα χρειάζεστε για να δημιουργήσετε ένα PDF που αντικατοπτρίζει την οπτική πιστότητα του αρχικού σχεδίου.
 
-## Συνηθισμένες Περιπτώσεις Χρήσης για Εξαγωγή DWG σε PDF
-- **Παρουσιάσεις σε πελάτες** – τα PDFs είναι καθολικά προβλέψιμα, καθιστώντας εύκολο το επίδειξη σχεδίων χωρίς λογισμικό CAD.  
-- **Κανονιστικές υποβολές** – πολλοί κλάδοι αποδέχονται PDF ως τελικό φορμά για τεχνικά σχέδια.  
-- **Συλλογές τεκμηρίωσης** – συνδυάστε πολλαπλά PDFs σε μια ενιαία αναφορά για παράδοση έργου.  
-- **Αρχειοθέτηση** – τα PDFs είναι συμπαγή και αναζητήσιμα, ιδανικά για μακροπρόθεσμη αποθήκευση.
+### Βήμα 1 – Εγκατάσταση του Πακέτου NuGet
+Το πακέτο `Aspose.CAD` είναι διαθέσιμο στο NuGet και μπορεί να προστεθεί μέσω του Package Manager Console:
+
+```powershell
+Install-Package Aspose.CAD
+```
+
+### Βήμα 2 – Φόρτωση του Αρχείου DWG
+Η κλάση `Image` αντιπροσωπεύει ένα σχέδιο CAD που έχει φορτωθεί στη μνήμη.  
+`Image` είναι η βασική κλάση που αντιπροσωπεύει ένα σχέδιο CAD στη μνήμη. Χρησιμοποιήστε `Image.Load` για να διαβάσετε το αρχείο χωρίς να εκκινήσετε το AutoCAD.
+
+```csharp
+// Load the DWG drawing
+var image = Aspose.CAD.Image.Load("sample.dwg");
+```
+
+### Βήμα 3 – Ορισμός Επιλογών PDF (Προαιρετικό)
+`PdfSaveOptions` σας επιτρέπει να καθορίσετε ρυθμίσεις ειδικές για PDF, όπως μέγεθος σελίδας, DPI και διαχείριση επιπέδων.  
+`PdfSaveOptions` σας δίνει έλεγχο στις διαστάσεις της σελίδας, το DPI και τη διαχείριση των επιπέδων.
+
+```csharp
+var pdfOptions = new Aspose.CAD.ImageSaveOptions(Aspose.CAD.SaveFormat.Pdf)
+{
+    Resolution = 300,
+    // Enable optional content groups to keep layers toggle‑able in the PDF
+    EnableLayers = true
+};
+```
+
+### Βήμα 4 – Αποθήκευση ως PDF
+Η μέθοδος `Save` γράφει την εικόνα στη μνήμη στον επιλεγμένο μορφότυπο στο δίσκο.  
+Τέλος, γράψτε το PDF στο δίσκο. Η βιβλιοθήκη αυτόματα αντιστοιχίζει τις οντότητες CAD σε διανυσματικά στοιχεία PDF.
+
+```csharp
+image.Save("output.pdf", pdfOptions);
+```
+
+## Συνηθισμένες Χρήσεις για Εξαγωγή DWG σε PDF
+- **Παρουσιάσεις σε πελάτες** – Τα PDF είναι παγκοσμίως προβλέψιμα, καθιστώντας εύκολο το προώθηση σχεδίων χωρίς ανάγκη λογισμικού CAD.  
+- **Κανονιστικές υποβολές** – Πολλά βιομηχανικά πρότυπα δέχονται PDF ως τελική μορφή για τεχνικά σχέδια.  
+- **Συλλογές τεκμηρίωσης** – Συνδυάστε πολλά PDF σε μία ενιαία αναφορά για παράδοση έργου.  
+- **Αρχειοθέτηση** – Τα PDF είναι συμπαγή και αναζητήσιμα, ιδανικά για μακροπρόθεσμη αποθήκευση.
 
 ## Συμβουλές για Βέλτιστη Εξαγωγή PDF
-- **Ορίστε κατάλληλο DPI** (dots per inch) όταν rasterize πολύπλοκα σχέδια· 300 DPI είναι καλή ισορροπία μεταξύ ποιότητας και μεγέθους αρχείου.  
-- **Διατηρήστε τα layers** χρησιμοποιώντας `PdfSaveOptions` που ενεργοποιούν optional content groups, επιτρέποντας στους θεατές να εναλλάσσουν την ορατότητα.  
-- **Χρησιμοποιήστε streaming** (`LoadOptions`) για πολύ μεγάλα DWG αρχεία ώστε να κρατήσετε τη χρήση μνήμης χαμηλή.  
-- **Επεξεργασία σε παρτίδες** σε παράλληλο τρόπο μόνο εάν το περιβάλλον σας διαθέτει επαρκείς πυρήνες CPU· το Aspose.CAD είναι thread‑safe.
+- **Ορίστε κατάλληλο DPI** (σημεία ανά ίντσα) κατά τη ραστεροποίηση σύνθετων σχεδίων· 300 DPI είναι καλή ισορροπία μεταξύ ποιότητας και μεγέθους αρχείου.  
+- **Διατηρήστε τα επίπεδα** χρησιμοποιώντας `PdfSaveOptions` που ενεργοποιούν προαιρετικές ομάδες περιεχομένου, επιτρέποντας στους θεατές να εναλλάσσουν την ορατότητα.  
+- **Χρησιμοποιήστε streaming** (`LoadOptions`) για πολύ μεγάλα αρχεία DWG ώστε να διατηρείται η χρήση μνήμης χαμηλή.  
+- **Επεξεργασία παρτίδας** αρχείων παράλληλα μόνο εάν το περιβάλλον σας διαθέτει επαρκείς πυρήνες CPU· το Aspose.CAD είναι thread‑safe.
 
 ## Πώς να Μετατρέψετε DWG σε STL;
-Εάν χρειάζεστε 3‑D εκτύπωση, η μετατροπή DWG σε STL είναι κοινή ροή εργασίας. Το Aspose.CAD σας επιτρέπει να καλέσετε `Save` με τη μορφή STL, διατηρώντας τη 3‑D γεωμετρία ενώ απλοποιεί το πλέγμα για εκτύπωση.
+Μετατρέψτε ένα σχέδιο DWG σε STL καλώντας τη μέθοδο `Save` με την καθορισμένη μορφή STL. Η βιβλιοθήκη αυτόματα τριγωνοποιεί τη 3‑Δ γεωμετρία, δημιουργώντας ένα καθαρό πλέγμα που είναι άμεσα κατάλληλο για διαδικασίες προσθετικής κατασκευής όπως η 3‑D εκτύπωση. Μπορείτε επίσης να επιλέξετε μεταξύ δυαδικής και ASCII εξόδου STL χρησιμοποιώντας τις παρεχόμενες επιλογές.
+
+```csharp
+var image = Aspose.CAD.Image.Load("model.dwg");
+image.Save("model.stl", Aspose.CAD.SaveFormat.Stl);
+```
+
+Η μετατροπή διατηρεί τις λεπτομέρειες της επιφάνειας ενώ απλοποιεί το πλέγμα, ώστε το παραγόμενο STL να είναι κατάλληλο για τις περισσότερες 3‑D εκτυπωτές χωρίς πρόσθετη επεξεργασία.
 
 ## Πώς να Εξάγετε Κείμενο από CAD;
-Πολλά τεχνικά σχέδια ενσωματώνουν αριθμούς εξαρτημάτων, διαστάσεις ή σημειώσεις ως κείμενο. Χρησιμοποιώντας το Aspose.CAD μπορείτε να επαναλάβετε τα αντικείμενα `CadEntity`, να φιλτράρετε για τύπους `TextString` και να εξάγετε τις ακατέργαστες συμβολοσειρές για ευρετηρίαση ή αναζήτηση.
+Διατρέξτε τις οντότητες του σχεδίου, φιλτράρετε τα αντικείμενα `TextString` και συλλέξτε τις ακατέργαστες συμβολοσειρές σε μια λίστα. Αυτή η προσέγγιση σας επιτρέπει να ευρετηριάσετε αριθμούς εξαρτημάτων, διαστάσεις, σημειώσεις και οποιαδήποτε άλλη κειμενική πληροφορία ενσωματωμένη σε τεχνικά σχέδια, διευκολύνοντας την αναζήτηση, τη δημιουργία μεταδεδομένων και τις αυτοματοποιημένες ροές εργασίας τεκμηρίωσης.
+
+```csharp
+var image = Aspose.CAD.Image.Load("drawing.dwg");
+foreach (var entity in image.Entities)
+{
+    if (entity is Aspose.CAD.CadTextString textEntity)
+    {
+        Console.WriteLine(textEntity.Value);
+    }
+}
+```
+
+Το εξαγόμενο κείμενο διατηρεί την αρχική γραμματοσειρά και πληροφορίες τοποθέτησης, επιτρέποντας ακριβή αναζήτηση και δημιουργία μεταδεδομένων.
 
 ## Πώς να Μετατρέψετε CAD σε Εικόνα;
-Για γρήγορες προεπισκοπήσεις ή μικρογραφίες, μπορείτε να αποδώσετε οποιοδήποτε CAD σχέδιο σε PNG, JPEG ή BMP. Η ίδια μέθοδος `Image.Save` που χρησιμοποιείται για PDF υποστηρίζει επίσης raster μορφές, επιτρέποντάς σας να δημιουργήσετε εικόνες έτοιμες για web σε δευτερόλεπτα.
+Αποδώστε οποιοδήποτε σχέδιο CAD σε κοινές μορφές raster όπως PNG, JPEG ή BMP για γρήγορες προεπισκοπήσεις, μικρογραφίες ή εικόνες τεκμηρίωσης. Η μέθοδος `Image.Save`, που ήδη χρησιμοποιείτε για την εξαγωγή PDF, υποστηρίζει επίσης αυτές τις μορφές raster, επιτρέποντάς σας να καθορίσετε ανάλυση και βάθος χρώματος μέσω των επιλογών αποθήκευσης.
 
-## Επισκόπηση Μετατροπής CAD File Format
-Το Aspose.CAD υποστηρίζει πάνω από 30 μορφές CAD, συμπεριλαμβανομένων DWG, DXF, DGN και PLT. Αυτό το εύρος σημαίνει ότι μπορείτε να **εξάγετε 3D μοντέλο σε STL**, **μετατρέψετε DWG σε PDF**, ή **αποθηκεύσετε σε SVG** χωρίς να χρειάζεται να διαχειρίζεστε πολλαπλά SDKs.
+```csharp
+var image = Aspose.CAD.Image.Load("drawing.dwg");
+image.Save("preview.png", Aspose.CAD.SaveFormat.Png);
+```
+
+Μπορείτε να ελέγξετε την ανάλυση εξόδου μέσω της ιδιότητας `Resolution` των `ImageSaveOptions`, εξασφαλίζοντας καθαρές μικρογραφίες ακόμη και για πολύ λεπτομερή σχέδια.
+
+## Επισκόπηση Μετατροπής Μορφής Αρχείου CAD
+Το Aspose.CAD υποστηρίζει **πάνω από 30 μορφές CAD**, συμπεριλαμβανομένων DWG, DXF, DGN και PLT. Αυτό το εύρος σημαίνει ότι μπορείτε να **εξάγετε 3D μοντέλο σε STL**, **μετατρέψετε DWG σε PDF**, ή **αποθηκεύσετε σε SVG** χωρίς να χρειάζεται να διαχειρίζεστε πολλαπλά SDK.
 
 ## Εξαγωγή 3D Μοντέλου σε STL
-Όταν εργάζεστε με 3‑D μοντέλα, το STL είναι η de‑facto μορφή για προσθετική κατασκευή. Η ρουτίνα `ExportToStl` του Aspose.CAD τριγωνοποιεί αυτόματα τις επιφάνειες, παρέχοντάς σας ένα αρχείο έτοιμο για εκτύπωση.
+Όταν εργάζεστε με 3‑D μοντέλα, το STL είναι η de‑facto μορφή για προσθετική κατασκευή. Η ρουτίνα `ExportToStl` του Aspose.CAD τριγωνοποιεί αυτόματα τις επιφάνειες, παρέχοντάς σας ένα έτοιμο για εκτύπωση αρχείο.
 
 {{% alert color="primary" %}}
-Ξεκινήστε ένα ταξίδι αριστείας στο graphic design με το Aspose.CAD για .NET Tutorials. Αυτή η επιμελημένη συλλογή προορίζεται για προγραμματιστές που επιδιώκουν να αξιοποιήσουν πλήρως το Aspose.CAD στο .NET framework. Τα tutorials μας παρέχουν διορατικές οδηγίες, βήμα‑βήμα οδηγίες και πρακτικά παραδείγματα για να σας ενδυναμώσουν στην απρόσκοπτη ενσωμάτωση του Aspose.CAD στις .NET εφαρμογές σας. Είτε βελτιώνετε τη λειτουργικότητα CAD είτε εμβαθύνετε στις λεπτομέρειες του graphic design, αυτά τα tutorials είναι ο οδηγός σας για την κατάκτηση των δυνατοτήτων του Aspose.CAD στον δυναμικό κόσμο της .NET ανάπτυξης.
+Ξεκινήστε ένα ταξίδι αριστείας στο γραφικό σχεδιασμό με το Aspose.CAD για .NET Εκπαιδευτικά Σεμινάρια. Αυτή η επιμελημένη συλλογή προορίζεται για προγραμματιστές που επιθυμούν να αξιοποιήσουν το πλήρες δυναμικό του Aspose.CAD στο .NET πλαίσιο. Τα σεμινάρια μας παρέχουν διορατικές οδηγίες, βήμα‑βήμα οδηγίες και πρακτικά παραδείγματα για να σας ενδυναμώσουν στην απρόσκοπτη ενσωμάτωση του Aspose.CAD στις .NET εφαρμογές σας. Είτε ενισχύετε τη λειτουργικότητα CAD είτε εμβαθύνετε στις λεπτομέρειες του γραφικού σχεδιασμού, αυτά τα σεμινάρια είναι ο οδηγός σας για την κατάκτηση των δυνατοτήτων του Aspose.CAD στον δυναμικό κόσμο της .NET ανάπτυξης.
 {{% /alert %}}
 
-Αυτοί είναι σύνδεσμοι σε χρήσιμες πηγές:
+Αυτοί είναι σύνδεσμοι σε χρήσιμους πόρους:
  
-- [Licensing and Configuration](./net/licensing-and-configuration/)
-- [CAD Drawing Manipulation](./net/cad-drawing-manipulation/)
-- [CAD Export Formats](./net/cad-export-formats/)
-- [CAD Features and Support](./net/cad-features-and-support/)
-- [DWG File Manipulation](./net/dwg-file-manipulation/)
-- [Conversion and Export](./net/conversion-and-export/)
-- [Advanced Export Techniques](./net/advanced-export-techniques/)
-- [Image Manipulation and Rendering](./net/image-manipulation-and-rendering/)
-- [Text Search and Manipulation](./net/text-search-and-manipulation/)
-- [Hidden Lines and Entities](./net/hidden-lines-and-entities/)
-- [Attribute and Property Management](./net/attribute-and-property-management/)
-- [Tracking and Rendering](./net/tracking-and-rendering/)
-- [Export Techniques](./net/export-techniques/)
-- [Layout and Object Handling](./net/layout-and-object-handling/)
-- [CAD Layouts and Decomposition](./net/cad-layouts-and-decomposition/)
-- [3D Image Export](./net/3d-image-export/)
-- [File Format Conversion](./net/file-format-conversion/)
-- [PLT and Watermarking](./net/plt-and-watermarking/)
-- [Advanced CAD Techniques](./net/advanced-cad-techniques/)
-- [Exporting to Image Formats](./net/exporting-to-image-formats/)
-- [3D Model Support](./net/3d-model-support/)
-- [Exporting PLT Files](./net/exporting-plt-files/)
-- [STL File Export](./net/stl-file-export/)
+- [Άδεια και Διαμόρφωση](./net/licensing-and-configuration/)
+- [Διαχείριση Σχεδίου CAD](./net/cad-drawing-manipulation/)
+- [Μορφές Εξαγωγής CAD](./net/cad-export-formats/)
+- [Χαρακτηριστικά και Υποστήριξη CAD](./net/cad-features-and-support/)
+- [Διαχείριση Αρχείου DWG](./net/dwg-file-manipulation/)
+- [Μετατροπή και Εξαγωγή](./net/conversion-and-export/)
+- [Προηγμένες Τεχνικές Εξαγωγής](./net/advanced-export-techniques/)
+- [Διαχείριση Εικόνας και Απόδοση](./net/image-manipulation-and-rendering/)
+- [Αναζήτηση Κειμένου και Διαχείριση](./net/text-search-and-manipulation/)
+- [Κρυφές Γραμμές και Οντότητες](./net/hidden-lines-and-entities/)
+- [Διαχείριση Χαρακτηριστικών και Ιδιοτήτων](./net/attribute-and-property-management/)
+- [Παρακολούθηση και Απόδοση](./net/tracking-and-rendering/)
+- [Τεχνικές Εξαγωγής](./net/export-techniques/)
+- [Διάταξη και Διαχείριση Αντικειμένων](./net/layout-and-object-handling/)
+- [Διατάξεις CAD και Αποσύνθεση](./net/cad-layouts-and-decomposition/)
+- [Εξαγωγή 3D Εικόνας](./net/3d-image-export/)
+- [Μετατροπή Μορφής Αρχείου](./net/file-format-conversion/)
+- [PLT και Υδατογράφημα](./net/plt-and-watermarking/)
+- [Προηγμένες Τεχνικές CAD](./net/advanced-cad-techniques/)
+- [Εξαγωγή σε Μορφές Εικόνας](./net/exporting-to-image-formats/)
+- [Υποστήριξη 3D Μοντέλου](./net/3d-model-support/)
+- [Εξαγωγή Αρχείων PLT](./net/exporting-plt-files/)
+- [Εξαγωγή Αρχείου STL](./net/stl-file-export/)
 
 {{% alert color="primary" %}}
-Ξεκινήστε ένα ταξίδι για να ενισχύσετε την επάρκεια ανάπτυξης CAD με το Aspose.CAD για Java. Βυθιστείτε σε μια σειρά ολοκληρωμένων tutorials που εμβαθύνουν στους τομείς μετατροπής σχεδίων, σχολιασμού κειμένου, διαχείρισης αρχείων, προχωρημένων λειτουργιών, αδειοδότησης και πέραν αυτού. Είτε ξεκινάτε είτε είστε έμπειρος προγραμματιστής, οι προσεκτικά σχεδιασμένοι, βήμα‑βήμα οδηγοί μας έχουν σκοπό να σας ενδυναμώσουν. Ανακαλύψτε τις αποχρώσεις των CAD λεπτομερειών με ευκολία, επιτρέποντάς σας να αξιοποιήσετε πλήρως τις ικανότητές σας και να φέρετε ένα νέο επίπεδο ακρίβειας και αποδοτικότητας στα έργα σας.
+Ξεκινήστε ένα ταξίδι για να ενισχύσετε την επάρκεια ανάπτυξης CAD με το Aspose.CAD για Java. Βυθιστείτε σε μια σειρά ολοκληρωμένων εκπαιδευτικών σεμιναρίων που εμβαθύνουν στους τομείς μετατροπής σχεδίων, σχολιασμού κειμένου, διαχείρισης αρχείων, προχωρημένων χαρακτηριστικών, αδειοδότησης και πέραν αυτού. Είτε μόλις ξεκινάτε είτε είστε έμπειρος προγραμματιστής, οι προσεκτικά δημιουργημένοι, βήμα‑βήμα οδηγοί μας έχουν σχεδιαστεί για να σας ενδυναμώσουν. Ανακαλύψτε τις αποχρώσεις των λεπτομερειών CAD αβίαστα, επιτρέποντάς σας να αξιοποιήσετε πλήρως τις δεξιότητές σας και να φέρετε ένα νέο επίπεδο ακρίβειας και αποδοτικότητας στα έργα σας.
 {{% /alert %}}
 
-Αυτοί είναι σύνδεσμοι σε χρήσιμες πηγές:
+Αυτοί είναι σύνδεσμοι σε χρήσιμους πόρους:
  
-- [CAD Drawing Conversion](./java/cad-drawing-conversion/)
-- [CAD Text and Annotation](./java/cad-text-and-annotation/)
-- [CAD to PDF and SVG Export Options](./java/cad-to-pdf-and-svg-export-options/)
-- [CAD File Manipulation](./java/cad-file-manipulation/)
-- [Advanced CAD Features](./java/advanced-cad-features/)
-- [Licensing and Configuration](./java/licensing-and-configuration/)
-- [DWG File Operations](./java/dwg-file-operations/)
-- [CAD Meta Data and Rendering](./java/cad-meta-data-and-rendering/)
-- [CAD Text and Formatting](./java/cad-text-and-formatting/)
-- [Additional Features](./java/additional-features/)
-- [CAD Export Options](./java/cad-export-options/)
-- [DGN Export Options](./java/dgn-export-options/)
-- [Other CAD Operations](./java/other-cad-operations/)
+- [Μετατροπή Σχεδίου CAD](./java/cad-drawing-conversion/)
+- [Κείμενο και Σχόλιο CAD](./java/cad-text-and-annotation/)
+- [Επιλογές Εξαγωγής CAD σε PDF και SVG](./java/cad-to-pdf-and-svg-export-options/)
+- [Διαχείριση Αρχείου CAD](./java/cad-file-manipulation/)
+- [Προηγμένα Χαρακτηριστικά CAD](./java/advanced-cad-features/)
+- [Άδεια και Διαμόρφωση](./java/licensing-and-configuration/)
+- [Λειτουργίες Αρχείου DWG](./java/dwg-file-operations/)
+- [Μεταδεδομένα CAD και Απόδοση](./java/cad-meta-data-and-rendering/)
+- [Κείμενο και Μορφοποίηση CAD](./java/cad-text-and-formatting/)
+- [Πρόσθετα Χαρακτηριστικά](./java/additional-features/)
+- [Επιλογές Εξαγωγής CAD](./java/cad-export-options/)
+- [Επιλογές Εξαγωγής DGN](./java/dgn-export-options/)
+- [Άλλες Λειτουργίες CAD](./java/other-cad-operations/)
 
 ## Συχνές Ερωτήσεις
 
 **Q: Μπορώ να εξάγω ένα μεγάλο αρχείο DWG σε PDF χωρίς να εξαντλήσω τη μνήμη;**  
-A: Ναι. Χρησιμοποιήστε το `LoadOptions` για να ενεργοποιήσετε streaming και να επεξεργαστείτε το αρχείο σελίδα‑με‑σελίδα.
+A: Ναι. Χρησιμοποιήστε το `LoadOptions` για να ενεργοποιήσετε το streaming και να επεξεργαστείτε το αρχείο σελίδα‑με‑σελίδα.
 
-**Q: Υποστηρίζει το Aspose.CAD μαζική μετατροπή πολλαπλών αρχείων DWG σε PDF;**  
-A: Απόλυτα. Διασχίστε έναν φάκελο και καλέστε `Image.Save` για κάθε αρχείο – η βιβλιοθήκη είναι thread‑safe.
+**Q: Υποστηρίζει το Aspose.CAD τη μαζική μετατροπή πολλαπλών αρχείων DWG σε PDF;**  
+A: Απολύτως. Περιηγηθείτε σε έναν φάκελο και καλέστε `Image.Save` για κάθε αρχείο – η βιβλιοθήκη είναι thread‑safe.
 
-**Q: Πόσο ακριβής είναι η εξαγωγή κειμένου από CAD σχέδια;**  
+**Q: Πόσο ακριβής είναι η εξαγωγή κειμένου από σχέδια CAD;**  
 A: Οι οντότητες κειμένου διαβάζονται απευθείας από τη βάση δεδομένων του σχεδίου, διατηρώντας ακριβείς συμβολοσειρές, γραμματοσειρές και θέσεις.
 
-**Q: Υπάρχει τρόπος να διατηρηθούν τα layers κατά την εξαγωγή σε PDF;**  
-A: Τα layers διατηρούνται ως προαιρετικά PDF layers· μπορείτε να εναλλάξετε την ορατότητα μέσω του `PdfSaveOptions`.
+**Q: Υπάρχει τρόπος να διατηρηθούν τα επίπεδα κατά την εξαγωγή σε PDF;**  
+A: Τα επίπεδα διατηρούνται ως προαιρετικά επίπεδα PDF· μπορείτε να εναλλάξετε την ορατότητα μέσω του `PdfSaveOptions`.
 
 **Q: Μπορώ να μετατρέψω DWG σε STL για 3‑D εκτύπωση απευθείας από .NET;**  
 A: Ναι – καλέστε `image.Save("output.stl", new StlOptions())` για να λάβετε ένα εκτυπώσιμο πλέγμα.
 
 ---
 
-**Τελευταία Ενημέρωση:** 2026-02-02  
-**Δοκιμή Με:** Aspose.CAD 24.11 για .NET & Java  
+**Τελευταία Ενημέρωση:** 2026-08-02  
+**Δοκιμή Με:** Aspose.CAD 24.11 for .NET & Java  
 **Συγγραφέας:** Aspose
 
-{{< /blocks/products/pf/tutorial-page-section >}}
+{{< blocks/products/products-backtop-button >}}
 
+{{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

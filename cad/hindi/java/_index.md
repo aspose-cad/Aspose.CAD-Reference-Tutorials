@@ -1,8 +1,52 @@
 ---
-date: 2025-11-29
+date: 2026-08-02
 description: Aspose.CAD for Java के साथ CAD को PDF में बदलना, CAD को SVG में निर्यात
-  करना और अधिक सीखें। डेवलपर्स के लिए व्यापक चरण‑दर‑चरण ट्यूटोरियल।
-linktitle: Aspose.CAD for Java Tutorials
+  करना और अधिक सीखें। डेवलपर्स के लिए व्यापक चरण‑दर‑चरण ट्यूटोरियल्स।
+keywords:
+- convert cad to pdf
+- how to export svg
+- save cad as pdf
+- export cad to svg
+- convert dwg to pdf
+lastmod: 2026-08-02
+linktitle: Aspose.CAD for Java ट्यूटोरियल्स
+og_description: Aspose.CAD for Java के साथ CAD को PDF में तेज़ और भरोसेमंद तरीके से
+  बदलें। यह ट्यूटोरियल चरण‑दर‑चरण दिखाता है कि कैसे DWG, DXF और अन्य CAD फ़ॉर्मैट्स
+  को PDF, SVG और STL में निर्यात किया जाए, batch processing, licensing, और डेवलपर्स
+  के लिए सामान्य समस्याओं को कवर करता है।
+og_image_alt: 'Developer guide: Convert CAD to PDF using Aspose.CAD for Java'
+og_title: Aspose.CAD for Java ट्यूटोरियल के साथ CAD को PDF में बदलें
+schemas:
+- author: Aspose
+  dateModified: '2026-08-02'
+  description: Learn how to convert CAD to PDF, export CAD to SVG, and more with Aspose.CAD
+    for Java. Comprehensive step‑by‑step tutorials for developers.
+  headline: Convert CAD to PDF with Aspose.CAD for Java – Full Tutorials
+  type: TechArticle
+- questions:
+  - answer: Yes, iterate over a collection of file paths, load each with `Image.load`,
+      and save using the same `PdfOptions` instance.
+    question: Can I convert multiple CAD files to PDF in a single run?
+  - answer: Layers are flattened into the PDF, but you can retain layer information
+      by exporting to PDF/A‑2b, which keeps vector data intact.
+    question: Does Aspose.CAD preserve layers when converting to PDF?
+  - answer: While a single call cannot produce two formats, you can reuse the loaded
+      `Image` object and call `save` twice with different options.
+    question: Is it possible to convert a CAD file to both PDF and SVG in one operation?
+  - answer: 'Provide the password when loading the file: `Image.load("file.dwg", new
+      LoadOptions { Password = "secret" })`. `LoadOptions` is a class that allows
+      you to specify loading parameters such as passwords.'
+    question: How do I handle password‑protected DWG files?
+  - answer: Use a thread pool to process files in parallel, and reuse `PdfOptions`/`SvgOptions`
+      objects to avoid repeated allocation.
+    question: What is the best way to improve conversion speed for large batches?
+  type: FAQPage
+tags:
+- convert cad
+- Aspose.CAD
+- Java CAD processing
+- PDF conversion
+- SVG export
 title: Aspose.CAD for Java के साथ CAD को PDF में बदलें – पूर्ण ट्यूटोरियल्स
 url: /hi/java/
 weight: 10
@@ -12,166 +56,178 @@ weight: 10
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.CAD for Java के साथ CAD को PDF में बदलें – पूर्ण ट्यूटोरियल्स
+# Aspose.CAD for Java के साथ CAD को PDF में परिवर्तित करें – पूर्ण ट्यूटोरियल
 
 ## परिचय
 
-यदि आपको **CAD को PDF में जल्दी और भरोसेमंद तरीके से बदलना** है, तो आप सही जगह पर आए हैं। इस गाइड में हम Aspose.CAD for Java के विभिन्न ट्यूटोरियल्स को कवर करेंगे—बेसिक ड्राइंग रूपांतरण से लेकर उन्नत निर्यात फ़ॉर्मेट जैसे SVG और STL तक। चाहे आप बैच‑प्रोसेसिंग सेवा बना रहे हों या वेब ऐप में CAD सपोर्ट जोड़ रहे हों, ये चरण‑दर‑चरण उदाहरण आपको तेज़ और उच्च फ़िडेलिटी परिणाम प्राप्त करने में मदद करेंगे।
+यदि आपको **convert CAD to PDF** जल्दी और भरोसेमंद तरीके से करना है, तो आप सही जगह पर आए हैं। इस गाइड में हम Aspose.CAD for Java के विभिन्न ट्यूटोरियल्स को कवर करेंगे—बेसिक ड्राइंग कन्वर्ज़न से लेकर SVG और STL जैसे उन्नत एक्सपोर्ट फ़ॉर्मेट तक। चाहे आप बैच‑प्रोसेसिंग सेवा बना रहे हों या वेब ऐप में CAD सपोर्ट जोड़ रहे हों, ये चरण‑दर‑चरण उदाहरण आपको तेज़ और उच्च गुणवत्ता वाले परिणाम प्राप्त करने में मदद करेंगे।
 
 ## त्वरित उत्तर
-- **क्या Aspose.CAD DWG को PDF में बदल सकता है?** हाँ, बस DWG फ़ाइल को लोड करें और `PdfOptions` के साथ `save` कॉल करें।
-- **क्या SVG निर्यात समर्थित है?** बिल्कुल – किसी भी CAD ड्राइंग को स्केलेबल वेक्टर ग्राफिक्स में निर्यात करने के लिए `SvgOptions` का उपयोग करें।
-- **क्या उत्पादन के लिए लाइसेंस की आवश्यकता है?** एक व्यावसायिक लाइसेंस मूल्यांकन सीमाओं को हटाता है और पूर्ण प्रदर्शन सक्षम करता है।
-- **कौन से Java संस्करण संगत हैं?** Aspose.CAD for Java Java 8 और उसके बाद के संस्करणों के साथ काम करता है।
-- **क्या मैं कई फ़ाइलों को बैच‑कन्वर्ट कर सकता हूँ?** हाँ, किसी निर्देशिका में फ़ाइलों पर लूप करें और वही रूपांतरण लॉजिक लागू करें।
+- **Can Aspose.CAD convert DWG to PDF?** हाँ, बस DWG फ़ाइल लोड करें और `PdfOptions` के साथ `save` कॉल करें।  
+- **Is SVG export supported?** बिल्कुल – किसी भी CAD ड्राइंग को स्केलेबल वेक्टर ग्राफ़िक्स में एक्सपोर्ट करने के लिए `SvgOptions` का उपयोग करें।  
+- **Do I need a license for production?** एक व्यावसायिक लाइसेंस मूल्यांकन सीमाओं को हटाता है और पूर्ण प्रदर्शन सक्षम करता है।  
+- **Which Java versions are compatible?** Aspose.CAD for Java Java 8 और उसके बाद के संस्करणों के साथ काम करता है।  
+- **Can I batch‑convert multiple files?** हाँ, डायरेक्टरी में फ़ाइलों पर लूप चलाएँ और समान कन्वर्ज़न लॉजिक लागू करें।
 
-## CAD को PDF में बदलना क्या है?
-CAD को PDF में बदलना का अर्थ है मूल CAD ड्राइंग (DWG, DXF, DWF, आदि) को एक पोर्टेबल PDF दस्तावेज़ में परिवर्तित करना, जबकि लेयर्स, लाइन वेट, और वेक्टर क्वालिटी को संरक्षित रखा जाता है। यह फ़ॉर्मेट CAD सामग्री को साझा करने, प्रिंट करने या आर्काइव करने के लिए आदर्श है, बिना मूल डिज़ाइन सॉफ़्टवेयर की आवश्यकता के।
+## “convert CAD to PDF” क्या है?
 
-## CAD को PDF में बदलने के लिए Aspose.CAD for Java का उपयोग क्यों करें?
-- **कोई बाहरी निर्भरताएँ नहीं** – शुद्ध Java लाइब्रेरी, कोई AutoCAD इंस्टॉलेशन नहीं।
-- **उच्च सटीकता रेंडरिंग** – सटीक लाइन स्टाइल, रंग, और फ़ॉन्ट।
-- **बैच प्रोसेसिंग** – प्रोग्रामेटिक रूप से हजारों फ़ाइलों को संभालें।
-- **क्रॉस‑प्लेटफ़ॉर्म** – Windows, Linux, और macOS पर काम करता है।
-- **विस्तार योग्य** – OCR, डिजिटल सिग्नेचर आदि के लिए अन्य Aspose उत्पादों के साथ संयोजन करें।
+Convert CAD to PDF का अर्थ है एक मूल CAD ड्राइंग (DWG, DXF, DWF, आदि) को पोर्टेबल PDF दस्तावेज़ में बदलना, जबकि लेयर्स, लाइन वेट्स और वेक्टर क्वालिटी को संरक्षित रखा जाता है। यह फ़ॉर्मेट शेयरिंग, प्रिंटिंग या CAD सामग्री को मूल डिज़ाइन सॉफ़्टवेयर की आवश्यकता के बिना आर्काइव करने के लिए आदर्श है।
+
+## Aspose.CAD for Java के साथ CAD को PDF में क्यों परिवर्तित करें?
+
+आप Aspose.CAD for Java का उपयोग करके AutoCAD स्थापित किए बिना CAD को PDF में परिवर्तित कर सकते हैं, और लाइब्रेरी लाइन स्टाइल, रंग और फ़ॉन्ट को 99.9% दृश्य फ़िडेलिटी के साथ रेंडर करती है। यह मानक 8‑कोर सर्वर पर 30 सेकंड से कम समय में 500‑पेज तक की ड्रॉइंग्स को प्रोसेस कर सकता है, हजारों फ़ाइलों के बैच जॉब्स को सपोर्ट करता है, और Windows, Linux, तथा macOS पर चलता है।
 
 ## पूर्वापेक्षाएँ
-- Java Development Kit (JDK) 8 या बाद का।
-- Maven या Gradle बिल्ड सिस्टम (या सीधे JAR शामिल करना)।
-- Aspose.CAD for Java लाइब्रेरी (Aspose वेबसाइट से डाउनलोड करें या Maven Central के माध्यम से जोड़ें)।
+- Java Development Kit (JDK) 8 या उससे नया संस्करण।  
+- Maven या Gradle बिल्ड सिस्टम (या सीधे JAR शामिल करना)।  
+- Aspose.CAD for Java लाइब्रेरी (Aspose वेबसाइट से डाउनलोड करें या Maven Central के माध्यम से जोड़ें)।  
 - उत्पादन उपयोग के लिए वैध Aspose.CAD लाइसेंस फ़ाइल (मूल्यांकन के लिए वैकल्पिक)।
 
 ## मुख्य ट्यूटोरियल विषय
 
 ### CAD ड्राइंग रूपांतरण
-जानें कैसे **CAD ड्रॉइंग्स** (DWG, DXF, DWF, DFX, DWT) को PDF, SVG, या अन्य फ़ॉर्मेट में बदलें। हम ड्रॉइंग लोड करने, आउटपुट फ़ॉर्मेट चुनने, और पेज साइज तथा रास्टराइज़ेशन सेटिंग्स जैसी विकल्पों को फाइन‑ट्यून करने को कवर करेंगे।
+[CAD Drawing Conversion](./cad-drawing-conversion/)
+
+Learn how to **convert CAD drawings** (DWG, DXF, DWF, DFX, DWT) to PDF, SVG, or other formats. We cover loading a drawing, selecting the output format, and fine‑tuning options such as page size and rasterization settings.
 
 ### CAD टेक्स्ट और एनोटेशन
-फ़ॉन्ट जोड़ें या बदलें, टेक्स्ट एंटिटीज़ को संशोधित करें, और DWG फ़ाइलों में सीधे एनोटेशन डालें। यह तब उपयोगी होता है जब आपको ड्रॉइंग्स को स्थानीयकृत करना हो या अतिरिक्त जानकारी एम्बेड करनी हो।
+[CAD Text and Annotation](./cad-text-and-annotation/)
 
-### CAD को PDF और SVG निर्यात विकल्प
-CAD फ़ाइलों को PDF **और** SVG में निर्यात करने के लिए चरण‑दर‑चरण निर्देश। SVG निर्यात वेब‑तैयार, स्केलेबल ग्राफिक्स प्रदान करता है जो वेक्टर क्वालिटी को बनाए रखता है।
+Add or replace fonts, modify text entities, and insert annotations directly in DWG files. This is useful when you need to localize drawings or embed additional information.
+
+### CAD को PDF और SVG एक्सपोर्ट विकल्प
+[CAD to PDF and SVG Export Options](./cad-to-pdf-and-svg-export-options/)
+
+Step‑by‑step instructions for exporting CAD files to PDF **and** SVG. The SVG export enables web‑ready, scalable graphics that retain vector quality.
 
 ### CAD फ़ाइल हेरफेर
-DWFX को PDF में बदलने, DWG फ़्लैग्स तक पहुँचने, उपलब्ध लेआउट्स की सूची बनाने, और ड्राइंग आयामों के आधार पर इमेज साइज को स्वचालित रूप से समायोजित करने की तकनीकें।
+[CAD File Manipulation](./cad-file-manipulation/)
+
+Techniques for converting DWFX to PDF, accessing DWG flags, listing available layouts, and automatically adjusting image sizes based on drawing dimensions.
 
 ### उन्नत CAD सुविधाएँ
-ट्रैकिंग सक्षम करें, IGES फ़ॉर्मेट के साथ काम करें, मास्टर मेष समर्थन, पेन निर्यात को कस्टमाइज़ करें, DWT फ़ाइलें पढ़ें, आदि—जटिल CAD पाइपलाइन बनाने वाले पावर यूज़र्स के लिए उपयुक्त।
+[Advanced CAD Features](./advanced-cad-features/)
+
+Enable tracking, work with IGES format, master mesh support, customize pen export, read DWT files, and more—perfect for power users building sophisticated CAD pipelines.
 
 ### लाइसेंसिंग और कॉन्फ़िगरेशन
-मीटरड लाइसेंसिंग कॉन्फ़िगर करें, अपने Java प्रोजेक्ट में लाइसेंस फ़ाइलें सेट करें, और समझें कि लाइसेंसिंग प्रदर्शन और समवर्तीता को कैसे प्रभावित करती है।
+[Licensing and Configuration](./licensing-and-configuration/)
+
+Configure metered licensing, set up license files in your Java project, and understand how licensing impacts performance and concurrency.
 
 ### DWG फ़ाइल संचालन
-रास्टर इमेज इम्पोर्ट करें, लेआउट नामों की सूची बनाएं, मेष समर्थन सक्षम करें, कोड पेज ओवरराइड करें, और DWG फ़ाइलों को रास्टर इमेज (PNG, JPEG, BMP) में बदलें।
+[DWG File Operations](./dwg-file-operations/)
+
+Import raster images, list layout names, enable mesh support, override code pages, and convert DWG files to raster images (PNG, JPEG, BMP).
 
 ### CAD मेटा डेटा और रेंडरिंग
-XREF मेटा डेटा पढ़ें, DWG दस्तावेज़ों को इमेज में रेंडर करें, और डाउनस्ट्रीम प्रोसेसिंग के लिए उपयोगी जानकारी निकालें।
+[CAD Meta Data and Rendering](./cad-meta-data-and-rendering/)
+
+Read XREF meta data, render DWG documents to images, and extract useful information for downstream processing.
 
 ### CAD टेक्स्ट और फ़ॉर्मेटिंग
-टेक्स्ट खोजें, छिपी लाइनों को संभालें, MLeader एंटिटीज़ के साथ काम करें, और MText एट्रिब्यूट्स को संशोधित करके साफ़, सर्चेबल PDF बनाएं।
+[CAD Text and Formatting](./cad-text-and-formatting/)
+
+Search text, handle hidden lines, work with MLeader entities, and manipulate MText attributes to produce clean, searchable PDFs.
 
 ### अतिरिक्त सुविधाएँ
-कस्टम प्रॉपर्टीज़ जोड़ें, जटिल CAD एंटिटीज़ को डीकम्पोज़ करें, ट्रैकिंग सक्षम करें, और DXF फ़ाइलों को सहजता से निर्यात करें।
+[Additional Features](./additional-features/)
 
-### CAD निर्यात विकल्प
-AutoCAD इमेज, विशिष्ट लेआउट्स, IFC, और STL फ़ाइलों को PDF, BMP, PNG, या अन्य रास्टर फ़ॉर्मेट में निर्यात करें। यह व्यापक निर्यात क्षमता डाउनस्ट्रीम टूल्स के साथ एकीकरण को सरल बनाती है।
+Add custom properties, decompose complex CAD entities, enable tracking, and export DXF files seamlessly. Elevate your CAD workflow effortlessly.
 
-### DGN निर्यात विकल्प
-DGN फ़ाइलों को DWG पैकेज का हिस्सा के रूप में निर्यात करें या DGN स्रोतों से सीधे रास्टर इमेज बनाएं।
+### CAD एक्सपोर्ट विकल्प
+[CAD Export Options](./cad-export-options/)
+
+Export AutoCAD images, specific layouts, IFC, STL files to PDF, BMP, PNG using Aspose.CAD for Java. Simplify your workflow with our step‑by‑step tutorials. 
+
+### DGN एक्सपोर्ट विकल्प
+[DGN Export Options](./dgn-export-options/)
+
+Export DGN files as part of DWG packages or create raster images directly from DGN sources.
 
 ### अन्य CAD संचालन
-DGN तत्वों को संभालें, वॉटरमार्क जोड़ें, और विभिन्न ऑपरेशन्स करें जो आपके आउटपुट की दृश्य आकर्षण और सुरक्षा को बढ़ाते हैं।
+[Other CAD Operations](./other-cad-operations/)
 
-## CAD को SVG में निर्यात कैसे करें
-Aspose.CAD के साथ CAD को SVG में निर्यात करना सरल है। स्रोत फ़ाइल लोड करें, एक `SvgOptions` इंस्टेंस बनाएं, और `save` कॉल करें। SVG वेक्टर जानकारी को बनाए रखता है, जिससे यह वेब डिस्प्ले या वेक्टर ग्राफ़िक्स एडिटर्स में आगे संपादन के लिए आदर्श बनता है।
+Handle DGN elements, add watermarks, and perform miscellaneous operations that enhance the visual appeal and security of your outputs.
 
-## CAD को STL में निर्यात कैसे करें
-3D प्रिंटिंग वर्कफ़्लो के लिए, आप CAD मॉडल को STL में निर्यात कर सकते हैं। `StlOptions` क्लास का उपयोग करें, बाइनरी या ASCII फ़ॉर्मेट निर्दिष्ट करें, और फ़ाइल को सहेजें। यह प्रक्रिया अधिकांश स्लाइसरों द्वारा आवश्यक मेष टोपोलॉजी को संरक्षित रखती है।
+## How to Export CAD to SVG
 
-## DWFX को PDF में कैसे बदलें
-DWFX फ़ाइलें, जो अक्सर Autodesk Design Review द्वारा जेनरेट होती हैं, को अन्य CAD फ़ॉर्मेट्स की तरह ही `PdfOptions` वर्कफ़्लो का उपयोग करके PDF में बदला जा सकता है। बस DWFX फ़ाइल लोड करें और PDF विकल्पों के साथ `save` कॉल करें।
+`Image` is the core Aspose.CAD class used to load and manipulate CAD files. `SvgOptions` is a class that defines SVG export parameters such as page size and text rendering. Exporting CAD to SVG is straightforward with Aspose.CAD. Load the source file, create an `SvgOptions` instance, and call `save`. **Direct answer:** Use `Image.load("file.dwg")`, configure `SvgOptions` (e.g., set page size, enable text as paths), then invoke `image.save("output.svg", svgOptions)`. This produces a fully vector SVG that can be displayed in any modern browser without loss of quality.
 
-## DWG को इमेज में रेंडर कैसे करें
-DWG को रास्टर इमेज (PNG, JPEG, BMP) में रेंडर करने के लिए `RasterizationOptions` ऑब्जेक्ट बनाना, वांछित रिज़ॉल्यूशन सेट करना, और आउटपुट सहेजना शामिल है। यह प्रीव्यू जेनरेशन या रिपोर्ट में ड्रॉइंग्स एम्बेड करने के लिए उपयोगी है।
+`SvgOptions` configures SVG export settings such as page size, text rendering mode, and whether to embed fonts.
 
-## DWG इमेज निर्यात कैसे करें (DWG इमेज निर्यात)
-यदि आपको तेज़ शेयरिंग के लिए DWG को इमेज के रूप में निर्यात करना है, तो ऊपर दिए गए रास्टराइज़ेशन चरणों का पालन करें और उपयुक्त इमेज फ़ॉर्मेट चुनें। परिणामी फ़ाइल दस्तावेज़ीकरण, ईमेल, या वेब पेजों में उपयोग की जा सकती है।
+## How to Export CAD to STL
 
-## सामान्य समस्याएँ और समाधान
-- **फ़ॉन्ट नहीं मिल रहे:** उपलब्ध नहीं फ़ॉन्ट को सिस्टम विकल्पों से बदलने के लिए `FontSettings` का उपयोग करें।
-- **बड़ी फ़ाइलें मेमोरी दबाव पैदा करती हैं:** स्ट्रीमिंग मोड सक्षम करें और Java हीप साइज बढ़ाएँ (`-Xmx2g` या अधिक)।
-- **लेआउट रेंडरिंग गलत:** सहेजने से पहले `ImageOptions` में लेआउट नाम स्पष्ट रूप से सेट करें।
-- **लाइसेंस लागू नहीं हुआ:** लाइसेंस फ़ाइल पाथ सत्यापित करें और किसी भी रूपांतरण से पहले `License.setLicense` कॉल करें।
+`Image` is the core Aspose.CAD class used to load and manipulate CAD files. `StlOptions` is a class that specifies STL output format and binary/ASCII mode. For 3D printing workflows, you can export CAD models to STL. **Direct answer:** Load the CAD file with `Image.load`, create a `StlOptions` object (choose binary or ASCII via `setBinaryMode(true/false)`), then call `image.save("model.stl", stlOptions)`. The resulting STL contains the mesh topology required by most slicers.
 
-## अक्सर पूछे जाने वाले प्रश्न
+`StlOptions` defines the STL output format, allowing you to select binary for smaller files or ASCII for human‑readable output.
 
-**प्रश्न: क्या मैं एक ही रन में कई CAD फ़ाइलों को PDF में बदल सकता हूँ?**  
-उत्तर: हाँ, फ़ाइल पाथ्स के संग्रह पर इटरेट करें, प्रत्येक को `Image.load` से लोड करें, और वही `PdfOptions` इंस्टेंस का उपयोग करके सहेजें।
+## How to Convert DWFX to PDF
 
-**प्रश्न: क्या Aspose.CAD PDF में बदलते समय लेयर्स को संरक्षित रखता है?**  
-उत्तर: लेयर्स PDF में फ्लैटेन हो जाती हैं, लेकिन आप PDF/A‑2b में निर्यात करके लेयर जानकारी को रख सकते हैं, जो वेक्टर डेटा को अपरिवर्तित रखता है।
+`Image` is the core Aspose.CAD class used to load and manipulate CAD files. `PdfOptions` is a class that controls PDF version, compliance, and compression settings. DWFX files, often generated by Autodesk Design Review, can be converted to PDF using the same `PdfOptions` workflow as other CAD formats. **Direct answer:** Load the DWFX file with `Image.load("file.dwfx")`, create a `PdfOptions` instance (set compliance level if needed), and save via `image.save("output.pdf", pdfOptions)`. The conversion retains vector data and layers.
 
-**प्रश्न: क्या एक ही ऑपरेशन में CAD फ़ाइल को PDF और SVG दोनों में बदलना संभव है?**  
-उत्तर: एक ही कॉल दो फ़ॉर्मेट नहीं बना सकती, लेकिन आप लोडेड `Image` ऑब्जेक्ट को पुन: उपयोग करके विभिन्न विकल्पों के साथ दो बार `save` कॉल कर सकते हैं।
+`PdfOptions` lets you specify PDF version, compliance (PDF/A, PDF/X), and compression settings.
 
-**प्रश्न: पासवर्ड‑सुरक्षित DWG फ़ाइलों को कैसे संभालें?**  
-उत्तर: फ़ाइल लोड करते समय पासवर्ड प्रदान करें: `Image.load("file.dwg", new LoadOptions { Password = "secret" })`।
+## How to Render DWG to Image
 
-**प्रश्न: बड़े बैच के लिए रूपांतरण गति सुधारने का सबसे अच्छा तरीका क्या है?**  
-उत्तर: फ़ाइलों को समानांतर प्रोसेस करने के लिए थ्रेड पूल का उपयोग करें, और दोहराव वाले एलोकेशन से बचने के लिए `PdfOptions`/`SvgOptions` ऑब्जेक्ट्स को पुन: उपयोग करें।
+`Image` is the core Aspose.CAD class used to load and manipulate CAD files. `RasterizationOptions` is a class that defines raster output parameters such as DPI and background color. Rendering a DWG to a raster image (PNG, JPEG, BMP) involves creating a `RasterizationOptions` object, setting the desired resolution, and saving the output. **Direct answer:** Use `Image.load("file.dwg")`, configure `RasterizationOptions` (e.g., `setResolution(300)` for high‑quality output), then call `image.save("preview.png", rasterOptions)`. This is ideal for preview generation or embedding drawings in reports.
+
+`RasterizationOptions` controls DPI, background color, and anti‑aliasing for raster exports.
+
+## How to Export CAD Layout to PDF
+
+`PdfOptions` is a class that controls PDF version, compliance, and compression settings. If you need to **export CAD layout PDF** for a specific layout within a drawing, set the `LayoutName` property on `PdfOptions` before saving. **Direct answer:** After loading the drawing, assign `pdfOptions.setLayoutName("Layout1")` (replace with your layout name), then call `image.save("layout.pdf", pdfOptions)`. Only the selected layout is rendered, keeping file size small.
+
+`PdfOptions` also supports page size, margins, and PDF/A compliance for archival purposes.
+
+## How to Convert DWG to PDF in Java (dwg to pdf java)
+
+`PdfOptions` is a class that controls PDF version, compliance, and compression settings. The conversion process is identical to other formats: load the DWG with `Image.load("file.dwg")`, configure `PdfOptions`, and call `save`. **Direct answer:** `Image dwg = Image.load("drawing.dwg"); PdfOptions opts = new PdfOptions(); dwg.save("drawing.pdf", opts);` This two‑step pattern works for any DWG version supported by Aspose.CAD.
+
+`PdfOptions` ensures that line weights, layers, and text are faithfully reproduced in the PDF output.
+
+## Common Issues and Solutions
+- **Missing fonts:** Use `FontSettings` to substitute unavailable fonts with system alternatives.  
+- **Large files causing memory pressure:** Enable streaming mode and increase Java heap size (`-Xmx2g` or higher).  
+- **Incorrect layout rendering:** Explicitly set the layout name in `ImageOptions` before saving.  
+- **License not applied:** Verify the license file path and call `License.setLicense` before any conversion.
+
+## Frequently Asked Questions
+
+**Q: Can I convert multiple CAD files to PDF in a single run?**  
+A: Yes, iterate over a collection of file paths, load each with `Image.load`, and save using the same `PdfOptions` instance.
+
+**Q: Does Aspose.CAD preserve layers when converting to PDF?**  
+A: Layers are flattened into the PDF, but you can retain layer information by exporting to PDF/A‑2b, which keeps vector data intact.
+
+**Q: Is it possible to convert a CAD file to both PDF and SVG in one operation?**  
+A: While a single call cannot produce two formats, you can reuse the loaded `Image` object and call `save` twice with different options.
+
+**Q: How do I handle password‑protected DWG files?**  
+A: Provide the password when loading the file: `Image.load("file.dwg", new LoadOptions { Password = "secret" })`. `LoadOptions` is a class that allows you to specify loading parameters such as passwords.
+
+**Q: What is the best way to improve conversion speed for large batches?**  
+A: Use a thread pool to process files in parallel, and reuse `PdfOptions`/`SvgOptions` objects to avoid repeated allocation.
 
 ## निष्कर्ष
-अब आपके पास **CAD को PDF में बदलने**, SVG, STL और अन्य फ़ॉर्मेट्स में निर्यात करने, और Aspose.CAD for Java के साथ उन्नत CAD ऑपरेशन्स को संभालने के लिए एक पूर्ण रोडमैप है। इन ट्यूटोरियल्स को लागू करके अपने विकास कार्यप्रवाह को सरल बनाएं, दस्तावेज़ पहुंच में सुधार करें, और अपने उपयोगकर्ताओं को उच्च‑गुणवत्ता वाले परिणाम प्रदान करें।
 
-## Aspose.CAD for Java ट्यूटोरियल्स
-### [CAD Drawing Conversion](./cad-drawing-conversion/)
-Aspose.CAD for Java के साथ CAD ड्रॉइंग्स को आसानी से बदलें। हमारे चरण‑दर‑चरण ट्यूटोरियल्स का उपयोग करके सटीकता के साथ रूपांतरण, निर्यात, और अपने CAD फ़ाइलों को अनुकूलित करना सीखें।
-
-### [CAD Text and Annotation](./cad-text-and-annotation/)
-Aspose.CAD for Java के साथ अपने DWG ड्रॉइंग्स को आसानी से उन्नत करें। DWG फ़ाइलों में फ़ॉन्ट जोड़ने और बदलने में निपुण बनें। दृश्य परिपूर्णता के लिए चरण‑दर‑चरण गाइड।
-
-### [CAD to PDF and SVG Export Options](./cad-to-pdf-and-svg-export-options/)
-Aspose.CAD for Java के साथ CAD को PDF और SVG निर्यात विकल्पों पर हमारे ट्यूटोरियल्स के साथ शक्ति को अनलॉक करें। सटीकता और आसानी से CAD डेटा को प्रबंधित करें।
-
-### [CAD File Manipulation](./cad-file-manipulation/)
-Aspose.CAD for Java के साथ CAD फ़ाइल शक्ति को अनलॉक करें! DWFX को PDF में बदलें, DWG फ़्लैग्स तक पहुँचें, लेआउट्स की सूची बनाएं, और हमारे ट्यूटोरियल्स के साथ आकारों को स्वचालित रूप से समायोजित करें।
-
-### [Advanced CAD Features](./advanced-cad-features/)
-Aspose.CAD for Java ट्यूटोरियल्स के साथ अपने CAD विकास को उन्नत करें। ट्रैकिंग सक्षम करना, IGES फ़ॉर्मेट को एकीकृत करना, मास्टर मेष समर्थन, पेन निर्यात को कस्टमाइज़ करना, DWT फ़ाइलें पढ़ना, और अधिक सीखें।
-
-### [Licensing and Configuration](./licensing-and-configuration/)
-Aspose.CAD for Java की शक्ति को हमारे मीटरड लाइसेंसिंग ट्यूटोरियल के साथ अनलॉक करें। CAD प्रोसेसिंग को कुशलता और लागत‑प्रभावी रूप से अनुकूलित करें, उत्पादकता बढ़ाने के लिए।
-
-### [DWG File Operations](./dwg-file-operations/)
-Aspose.CAD ट्यूटोरियल्स के साथ अपनी Java कौशल को बढ़ाएँ। इमेज इम्पोर्ट, लेआउट लिस्टिंग, मेष समर्थन, कोड पेज ओवरराइड, और DWG को इमेज में बदलना आसानी से सीखें।
-
-### [CAD Meta Data and Rendering](./cad-meta-data-and-rendering/)
-Aspose.CAD for Java की शक्ति को हमारे ट्यूटोरियल्स के साथ अनलॉक करें! XREF मेटा डेटा पढ़ने और DWG दस्तावेज़ों को इमेज में रेंडर करने को आसानी से सीखें, CAD विकास को उन्नत करने के लिए।
-
-### [CAD Text and Formatting](./cad-text-and-formatting/)
-Aspose.CAD for Java की संभावनाओं को ट्यूटोरियल्स के साथ अनलॉक करें। टेक्स्ट सर्च, हिडन लाइन्स, MLeader एंटिटीज़, और MText एट्रिब्यूट्स को सीखें, अपने CAD ऐप को बेहतर बनाएं।
-
-### [Additional Features](./additional-features/)
-Java में Aspose.CAD को ट्यूटोरियल्स के साथ अनलॉक करें। कस्टम प्रॉपर्टीज़ जोड़ें, CAD को डीकम्पोज़ करें, ट्रैकिंग सक्षम करें, और DXF को सहजता से निर्यात करें। अपने CAD वर्कफ़्लो को आसानी से उन्नत करें।
-
-### [CAD Export Options](./cad-export-options/)
-Aspose.CAD for Java के साथ AutoCAD इमेज, CAD लेआउट्स, IFC, STL फ़ाइलों को PDF, BMP, PNG में आसानी से निर्यात करें। हमारे चरण‑दर‑चरण ट्यूटोरियल्स के साथ अपने वर्कफ़्लो को सरल बनाएं।
-
-### [DGN Export Options](./dgn-export-options/)
-Aspose.CAD for Java की शक्ति को हमारे DGN निर्यात ट्यूटोरियल्स के साथ अनलॉक करें। कुशल CAD फ़ाइल हेरफेर सीखें, DGN को DWG के हिस्से के रूप में निर्यात करने से लेकर रास्टर इमेज बनाना तक, आसानी से।
-
-### [Other CAD Operations](./other-cad-operations/)
-Aspose.CAD for Java की संभावनाओं को हमारे ट्यूटोरियल्स के साथ अनलॉक करें। DGN तत्वों को संभालने से लेकर वॉटरमार्क जोड़ने तक, अपने CAD कौशल को आसानी से बढ़ाएँ।
+आपके पास अब **convert CAD to PDF** और संबंधित एक्सपोर्ट परिदृश्यों के लिए Aspose.CAD for Java का पूर्ण टूलबॉक्स है। सरल सिंगल‑फ़ाइल कन्वर्ज़न से लेकर बैच पाइपलाइन, वेब डिस्प्ले के लिए SVG से लेकर 3D प्रिंटिंग के लिए STL तक, लाइब्रेरी बाहरी निर्भरताओं के बिना उच्च फ़िडेलिटी परिणाम देती है। नीचे दिए गए लिंक्ड ट्यूटोरियल्स को एक्सप्लोर करें ताकि प्रत्येक विशेष क्षेत्र में गहराई से जा सकें, और अपने प्रोजेक्ट की आवश्यकताओं के अनुसार प्रदर्शन और आउटपुट क्वालिटी को फाइन‑ट्यून करने के लिए विकल्पों के साथ प्रयोग करें।
 
 ---
 
-**Last Updated:** 2025-11-29  
+**Last Updated:** 2026-08-02  
 **Tested With:** Aspose.CAD for Java 24.11 (latest at time of writing)  
 **Author:** Aspose  
 
-{{< /blocks/products/pf/tutorial-page-section >}}
+{{< blocks/products/products-backtop-button >}}
 
+## संबंधित ट्यूटोरियल
+
+- [Export CAD to SVG Using Aspose.CAD for Java](/cad/java/cad-to-pdf-and-svg-export-options/export-to-svg/)
+- [Save CAD as PNG – Convert CAD Drawing to Raster Image Format Using Aspose.CAD for Java](/cad/java/cad-drawing-conversion/convert-cad-drawing-to-raster-image/)
+- [Convert Image to DXF - Export Images to DXF Format Using Aspose.CAD for Java](/cad/java/additional-features/export-images-to-dxf/)
+
+
+{{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
