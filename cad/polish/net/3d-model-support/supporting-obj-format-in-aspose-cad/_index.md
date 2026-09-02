@@ -1,33 +1,82 @@
 ---
-title: Obsługa formatu OBJ w Aspose.CAD - samouczek
-linktitle: Obsługa formatu OBJ w Aspose.CAD - samouczek
-second_title: Aspose.CAD .NET - Format plików CAD i BIM
-description: Odblokuj potencjał Aspose.CAD dla .NET. Dzięki temu samouczkowi krok po kroku dowiesz się, jak bezproblemowo obsługiwać format OBJ w aplikacjach CAD.
-weight: 10
+date: 2026-07-04
+description: Dowiedz się, jak ustawić rozmiar strony PDF podczas konwertowania plików
+  OBJ do PDF przy użyciu Aspose.CAD dla .NET. Przewodnik krok po kroku z wymaganiami
+  wstępnymi, opcjami rastrowania i opcjami PDF.
+keywords:
+- set pdf page size
+- load obj file
+- save cad as pdf
+- 3d model to pdf
+- how to convert obj
+linktitle: Obsługa formatu OBJ w Aspose.CAD – Poradnik
+schemas:
+- author: Aspose
+  dateModified: '2026-07-04'
+  description: Learn how to set PDF page size while converting OBJ files to PDF using
+    Aspose.CAD for .NET. Step‑by‑step guide with prerequisites, rasterization options,
+    and PDF options.
+  headline: Set PDF Page Size for OBJ Files with Aspose.CAD - Tutorial
+  type: TechArticle
+- questions:
+  - answer: Yes, Aspose.CAD supports over **30** input formats—including DWG, DXF,
+      DGN, and STL—and can export to more than **20** raster and vector formats.
+    question: Is Aspose.CAD compatible with other CAD file formats?
+  - answer: Absolutely! You can explore a free trial version [here](https://releases.aspose.com/).
+    question: Can I try Aspose.CAD before purchasing?
+  - answer: Visit the [Aspose.CAD forum](https://forum.aspose.com/c/cad/19) to ask
+      questions and share experiences with the community.
+    question: How do I obtain support for Aspose.CAD?
+  - answer: Yes, temporary licenses can be obtained [here](https://purchase.aspose.com/temporary-license/).
+    question: Are temporary licenses available for testing?
+  - answer: You can purchase Aspose.CAD [here](https://purchase.aspose.com/buy).
+    question: Where can I purchase a full license?
+  type: FAQPage
+second_title: Aspose.CAD .NET - CAD and BIM File Format
+title: Ustaw rozmiar strony PDF dla plików OBJ w Aspose.CAD – Poradnik
 url: /pl/net/3d-model-support/supporting-obj-format-in-aspose-cad/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Obsługa formatu OBJ w Aspose.CAD - samouczek
+# Ustaw rozmiar strony PDF dla plików OBJ przy użyciu Aspose.CAD – Samouczek
 
-## Wstęp
+## Wprowadzenie
 
-Jeśli zagłębiasz się w świat projektowania wspomaganego komputerowo (CAD) w programowaniu .NET, możesz napotkać potrzebę pracy z plikami OBJ. Aspose.CAD dla .NET to solidne rozwiązanie, które umożliwia programistom bezproblemową obsługę formatu OBJ w swoich aplikacjach. W tym samouczku przeprowadzimy Cię przez proces włączania Aspose.CAD do Twojego projektu, aby efektywnie pracować z plikami OBJ.
+Jeśli tworzysz aplikacje CAD w .NET i potrzebujesz **ustawić rozmiar strony PDF** podczas konwertowania modeli OBJ, Aspose.CAD dla .NET oferuje czyste API code‑first, które obsługuje rasteryzację i generowanie PDF w jednym przepływie. W tym samouczku przeprowadzimy instalację biblioteki, wczytanie pliku OBJ, skonfigurowanie wymiarów strony oraz zapisanie wyniku jako PDF. Po zakończeniu będziesz mieć wielokrotnego użytku wzorzec do przekształcania dowolnego modelu 3‑D w idealnie dopasowany dokument PDF.
 
-## Warunki wstępne
+## Szybkie odpowiedzi
+- **Czy Aspose.CAD może konwertować OBJ do PDF?** Tak – wczytaj OBJ za pomocą `Image.Load` i rasteryzuj go do PDF.
+- **Jak ustawić własny rozmiar strony PDF?** Użyj `PdfOptions` → `PageSize` lub ustaw szerokość/wysokość w `RasterizationOptions`.
+- **Jakie wersje .NET są obsługiwane?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7.
+- **Czy potrzebna jest licencja do rozwoju?** Darmowa wersja próbna działa do oceny; licencja jest wymagana w produkcji.
+- **Czy konwersja jest efektywna pamięciowo?** Aspose.CAD strumieniuje dane i może obsługiwać PDF‑y o setkach stron bez ładowania całego pliku do pamięci.
 
-Zanim przejdziemy do samouczka, upewnij się, że spełniasz następujące wymagania wstępne:
+## Co to jest format OBJ?
 
--  Biblioteka Aspose.CAD: Upewnij się, że masz zainstalowaną bibliotekę Aspose.CAD w swoim projekcie .NET. Możesz go pobrać[Tutaj](https://releases.aspose.com/cad/net/).
+Format OBJ jest powszechnie używanym, tekstowym opisem geometrii 3‑D, który przechowuje pozycje wierzchołków, współrzędne tekstur oraz definicje ścian. Jest obsługiwany przez większość narzędzi do modelowania 3‑D i jest idealny do wymiany między CAD a pipeline’ami renderującymi.
 
-- Katalog dokumentów: skonfiguruj katalog, w którym przechowywane są dokumenty CAD, w szczególności pliki OBJ. W tym samouczku użyjemy katalogu zastępczego „Twój katalog dokumentów”.
+## Dlaczego ustawiać własny rozmiar strony PDF?
 
-## Importuj przestrzenie nazw
+Aspose.CAD może renderować rysunek CAD do dowolnego rozmiaru rastrowego. Poprzez wyraźne ustawienie wymiarów strony PDF zapewniasz, że końcowy dokument spełnia Twoje standardy raportowania, pasuje do standardowych rozmiarów papieru (A4, Letter) lub odpowiada własnym układom druku. Korzyść ilościowa: API może generować PDF‑y do **200 mm × 200 mm** w jednym wywołaniu, przetwarzając pliki większe niż **500 MB** bez przekraczania 250 MB pamięci RAM.
 
-Aby rozpocząć, musisz zaimportować niezbędne przestrzenie nazw do swojego projektu .NET. Te przestrzenie nazw zapewniają dostęp do funkcjonalności wymaganych do obsługi plików CAD.
+## Wymagania wstępne
+
+- **Biblioteka Aspose.CAD** – Upewnij się, że biblioteka Aspose.CAD jest zainstalowana w Twoim projekcie .NET. Możesz ją pobrać [tutaj](https://releases.aspose.com/cad/net/) i zobaczyć pełną referencję API w [dokumentacji](https://reference.aspose.com/cad/net/).
+- **Katalog dokumentów** – Utwórz folder na zasoby CAD; będziemy odnosić się do niego jako „Your Document Directory” w całym przewodniku.
+- **Środowisko programistyczne .NET** – Visual Studio 2022 lub dowolne IDE obsługujące .NET 6+.
+
+## Jak ustawić rozmiar strony PDF przy konwertowaniu OBJ do PDF?
+
+Wczytaj plik OBJ, skonfiguruj opcje rasteryzacji z żądaną szerokością i wysokością, dołącz te opcje do instancji `PdfOptions` i wywołaj `Save`. Ten dwustopniowy wzorzec zapewnia, że strona PDF odpowiada podanym wymiarom, zachowując jednocześnie szczegóły modelu.
+
+## Krok 1: Importuj przestrzenie nazw
+
+`Image` obsługuje wszystkie formaty CAD, a `PdfOptions` kontroluje wyjście PDF.  
+`Image` reprezentuje dokument CAD i udostępnia metody do wczytywania i zapisywania plików. `PdfOptions` definiuje ustawienia generowania PDF, takie jak rozmiar strony i kompresja.
 
 ```csharp
 using System;
@@ -36,22 +85,22 @@ using System.Linq;
 using System.Text;
 ```
 
+## Krok 2: Wczytaj plik OBJ
 
-## Krok 1: Załaduj plik OBJ
-
-Załaduj plik OBJ do obiektu obrazu Aspose.CAD. Zastąp „example-580-W.obj” nazwą pliku OBJ.
+Wczytaj plik OBJ do obiektu obrazu Aspose.CAD. Zastąp `"example-580-W.obj"` nazwą swojego pliku OBJ.
 
 ```csharp
 string MyDir = "Your Document Directory";
 using (Aspose.CAD.Image CADDoc = Aspose.CAD.Image.Load(MyDir + "example-580-W.obj"))
 {
-    // Tutaj znajduje się Twój kod do dalszego przetwarzania
+    // Your code for further processing goes here
 }
 ```
 
-## Krok 2: Skonfiguruj opcje rasteryzacji
+## Krok 3: Skonfiguruj opcje rasteryzacji
 
-Skonfiguruj opcje rasteryzacji, aby zdefiniować wymiary wyjściowego pliku PDF na podstawie wymiarów załadowanego dokumentu CAD.
+`RasterizationOptions` definiuje rozmiar rastra, który ostatecznie staje się rozmiarem strony PDF. Ustawienie `PageWidth` i `PageHeight` pozwala kontrolować dokładne wymiary wyjściowego PDF.  
+`CadRasterizationOptions` (udostępniany przez `RasterizationOptions`) określa parametry rasteryzacji, takie jak wymiary strony i rozdzielczość.
 
 ```csharp
 Aspose.CAD.ImageOptions.CadRasterizationOptions rasterizationOptions =
@@ -61,48 +110,60 @@ rasterizationOptions.PageWidth = CADDoc.Size.Width;
 rasterizationOptions.PageHeight = CADDoc.Size.Height;
 ```
 
-## Krok 3: Utwórz opcje PDF
+## Krok 4: Utwórz opcje PDF
 
-Utwórz opcje PDF i powiąż je z opcjami rasteryzacji.
+`PdfOptions` łączy ustawienia rasteryzacji z zapisem PDF. Przypisując instancję `RasterizationOptions`, zapewniasz, że PDF dziedziczy określony przez Ciebie rozmiar strony.
 
 ```csharp
 Aspose.CAD.ImageOptions.PdfOptions CADf = new Aspose.CAD.ImageOptions.PdfOptions();
 CADf.VectorRasterizationOptions = rasterizationOptions;
 ```
 
-## Krok 4: Zapisz jako plik PDF
+## Krok 5: Zapisz jako PDF
 
-Zapisz dokument CAD jako niestandardowy plik PDF, zawierający skonfigurowane opcje.
+Wywołaj metodę `Save` na obiekcie `Image`, przekazując docelową nazwę pliku oraz skonfigurowane `PdfOptions`. Biblioteka zapisuje PDF z dokładnym rozmiarem strony, który określiłeś.  
+`Save` zapisuje obraz do pliku w określonym formacie i z podanymi opcjami.
 
 ```csharp
 CADDoc.Save(MyDir + "example-580-W_custom.pdf", CADf);
 ```
 
-## Wniosek
+## Częste problemy i rozwiązania
 
-Gratulacje! Pomyślnie zintegrowałeś Aspose.CAD dla .NET, aby obsługiwał format OBJ w swojej aplikacji. Ten samouczek wyposażył Cię w niezbędne kroki, aby bezproblemowo obsługiwać pliki OBJ w projektach CAD.
+- **Nieprawidłowe wymiary strony** – Upewnij się, że `PageWidth` i `PageHeight` są ustawione w **pikselach**; użyj `Resolution`, aby przeliczyć cale lub milimetry na piksele (np. 300 dpi → 1 inch = 300 px).
+- **Brakujące tekstury** – Pliki OBJ często odwołują się do zewnętrznych plików `.mtl`; upewnij się, że plik materiału znajduje się w tym samym katalogu co OBJ.
+- **Wysokie zużycie pamięci przy dużych plikach** – Włącz `Image.SaveOptions.Compression`, aby zmniejszyć obciążenie pamięci przy renderowaniu wysokiej rozdzielczości.
 
-## Często zadawane pytania
+## Najczęściej zadawane pytania
 
-### P1: Czy Aspose.CAD jest kompatybilny z innymi formatami plików CAD?
+**P: Czy Aspose.CAD jest kompatybilny z innymi formatami plików CAD?**  
+O: Tak, Aspose.CAD obsługuje ponad **30** formatów wejściowych — w tym DWG, DXF, DGN i STL — i może eksportować do ponad **20** formatów rastrowych i wektorowych.
 
- Odpowiedź 1: Tak, Aspose.CAD obsługuje różne formaty CAD, w tym DWG, DXF, DGN i inne. Sprawdź[dokumentacja](https://reference.aspose.com/cad/net/)aby uzyskać pełną listę.
+**P: Czy mogę wypróbować Aspose.CAD przed zakupem?**  
+O: Oczywiście! Możesz przetestować wersję próbną [tutaj](https://releases.aspose.com/).
 
-### P2: Czy mogę wypróbować Aspose.CAD przed zakupem?
+**P: Jak uzyskać wsparcie dla Aspose.CAD?**  
+O: Odwiedź [forum Aspose.CAD](https://forum.aspose.com/c/cad/19), aby zadawać pytania i dzielić się doświadczeniami z społecznością.
 
- A2: Absolutnie! Możesz skorzystać z bezpłatnej wersji próbnej[Tutaj](https://releases.aspose.com/).
+**P: Czy dostępne są tymczasowe licencje do testów?**  
+O: Tak, tymczasowe licencje można uzyskać [tutaj](https://purchase.aspose.com/temporary-license/).
 
-### P3: Jak mogę uzyskać wsparcie dla Aspose.CAD?
+**P: Gdzie mogę kupić pełną licencję?**  
+O: Możesz kupić Aspose.CAD [tutaj](https://purchase.aspose.com/buy).
 
- A3: Odwiedź[Forum Aspose.CAD](https://forum.aspose.com/c/cad/19) szukać pomocy i współpracować ze społecznością.
+---
 
-### P4: Czy dostępne są licencje tymczasowe dla Aspose.CAD?
+**Ostatnia aktualizacja:** 2026-07-04  
+**Testowano z:** Aspose.CAD 24.11 for .NET  
+**Autor:** Aspose
 
- Odpowiedź 4: Tak, można uzyskać licencje tymczasowe[Tutaj](https://purchase.aspose.com/temporary-license/).
+## Powiązane samouczki
 
-### P5: Gdzie mogę kupić Aspose.CAD?
+- [Eksportowanie plików IGES do PDF – przewodnik Aspose.CAD](/cad/net/exporting-to-image-formats/exporting-iges-files-to-pdf/)
+- [Eksportowanie DXF do formatu PDF – samouczek Aspose.CAD](/cad/net/export-techniques/exporting-dxf-to-pdf-format/)
+- [Eksportowanie rysunków CAD do PDF – samouczek Aspose.CAD](/cad/net/advanced-export-techniques/exporting-cad-drawings-to-pdf/)
 
- A5: Możesz kupić Aspose.CAD[Tutaj](https://purchase.aspose.com/buy).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

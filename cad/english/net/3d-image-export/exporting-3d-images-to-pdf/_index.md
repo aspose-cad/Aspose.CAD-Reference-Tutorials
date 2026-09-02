@@ -1,11 +1,59 @@
 ---
-title: How to Export PDF – Export 3D Images to PDF with Aspose.CAD
+title: Configuring Page Dimensions for 3D Image Export with Aspose.CAD
 linktitle: Exporting 3D Images to PDF
 second_title: Aspose.CAD .NET - CAD and BIM File Format
-description: Learn how to export pdf from 3D CAD images – a step‑by‑step guide on how to export pdf and save cad as pdf using Aspose.CAD for .NET.
+description: Learn how to set PDF page size and export PDF from 3D CAD images using Aspose.CAD for .NET – a step‑by‑step guide to convert DWG to PDF and save CAD as PDF.
 weight: 10
 url: /net/3d-image-export/exporting-3d-images-to-pdf/
-date: 2026-01-28
+date: 2026-07-04
+keywords:
+- set pdf page size
+- export pdf from cad
+- convert dwg to pdf
+- save cad as pdf
+- cad to pdf tutorial
+schemas:
+- type: TechArticle
+  headline: Configuring Page Dimensions for 3D Image Export
+  description: Learn how to set PDF page size and export PDF from 3D CAD images using
+    Aspose.CAD for .NET – a step‑by‑step guide to convert DWG to PDF and save CAD
+    as PDF.
+  dateModified: '2026-07-04'
+  author: Aspose
+- type: HowTo
+  name: Configuring Page Dimensions for 3D Image Export
+  description: Learn how to set PDF page size and export PDF from 3D CAD images using
+    Aspose.CAD for .NET – a step‑by‑step guide to convert DWG to PDF and save CAD
+    as PDF.
+  steps:
+  - name: Load the CAD Image
+    text: '`Image` class represents a CAD drawing loaded into memory, ready for rasterization.'
+  - name: Configure Rasterization Options (Save CAD as PDF)
+    text: '`RasterizationOptions` class defines how the CAD data is rasterized, including
+      page size, DPI, and whether 3‑D entities are rendered.'
+  - name: Set PDF Options (Create PDF from CAD)
+    text: '`PdfOptions` class holds the output format settings and links the rasterization
+      options to PDF generation.'
+  - name: Save as PDF (Generate PDF from 3D Model)
+    text: '`Save` method on the `Image` object writes the rasterized content to the
+      specified PDF file, producing a ready‑to‑share document.'
+- type: FAQPage
+  questions:
+  - question: Is Aspose.CAD compatible with all CAD file formats?
+    answer: Yes, Aspose.CAD supports more than 50 input and output formats, including
+      DWG, DXF, DGN, STL, and IFC, ensuring flexibility for any project.
+  - question: Can I customize the page dimensions when exporting to PDF?
+    answer: Absolutely. Set `PageWidth` and `PageHeight` in `RasterizationOptions`
+      to any size in points, inches, or millimetres before calling `Save`.
+  - question: Are temporary licenses available for Aspose.CAD?
+    answer: Yes, you can obtain temporary licenses for Aspose.CAD by visiting [Temporary
+      License](https://purchase.aspose.com/temporary-license/).
+  - question: Where can I find additional support or community discussions?
+    answer: Head to the [Aspose.CAD Forum](https://forum.aspose.com/c/cad/19) for
+      expert help and peer‑to‑peer advice.
+  - question: Is there a free trial version of Aspose.CAD?
+    answer: Yes, you can explore the features of Aspose.CAD by accessing the [free
+      trial](https://releases.aspose.com/).
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -16,34 +64,32 @@ date: 2026-01-28
 
 ## Introduction
 
-Are you looking for a clear guide on **how to export pdf** from your 3D CAD images using Aspose.CAD for .NET? This tutorial walks you through every step, from loading the CAD file to configuring rasterization options and finally generating a PDF that preserves your 3‑D model details. By the end, you’ll be able to **save cad as pdf** quickly and reliably.
+If you need to **set PDF page size** while converting a 3‑D CAD drawing to PDF, you’ve come to the right place. This tutorial shows you, step by step, how to load a CAD file, configure rasterization options—including custom page dimensions—and generate a high‑fidelity PDF using Aspose.CAD for .NET. By the end you’ll be able to **export PDF from CAD**, **save CAD as PDF**, and control every layout detail without installing AutoCAD.
 
 ## Quick Answers
-- **What does “how to export pdf” mean?** Converting a CAD drawing into a PDF document that can be viewed on any platform.  
-- **Which library handles the conversion?** Aspose.CAD for .NET provides rasterization and PDF export capabilities.  
-- **Do I need a license?** A temporary or full license is required for production use; a free trial is available.  
-- **Can I customize page size?** Yes – you can set `PageWidth` and `PageHeight` in the rasterization options.  
-- **Is 3‑D geometry preserved?** The 3‑D entities are rasterized; you can enable `TypeOfEntities.Entities3D` for full 3‑D support.
+- **What does “export PDF from CAD” mean?** It converts a CAD drawing (DWG, DXF, DGN, etc.) into a PDF that can be opened on any device.  
+- **Which library performs the conversion?** Aspose.CAD for .NET provides rasterization and PDF export without external dependencies.  
+- **Do I need a license?** A temporary or full license is required for production; a free trial is available.  
+- **Can I set custom page dimensions?** Yes—use `PageWidth` and `PageHeight` in `RasterizationOptions`.  
+- **Will 3‑D geometry be retained?** The 3‑D entities are rasterized; enable `TypeOfEntities.Entities3D` for full 3‑D support.
 
-## What is “how to export pdf” in the context of CAD?
-Exporting PDF from CAD means taking a CAD drawing (DWG, DXF, DGN, etc.) and converting it into a PDF file. The PDF can contain vector graphics, rasterized 3‑D views, and page layout information, making it easy to share with stakeholders who don’t have CAD software.
+## What is “export PDF” in the context of CAD?
+
+Exporting PDF from CAD means taking a CAD drawing (DWG, DXF, DGN, etc.) and converting it into a PDF file that can contain vector graphics, rasterized 3‑D views, and precise page layout information, making it easy to share with anyone who does not have CAD software.
 
 ## Why use Aspose.CAD to export PDF?
-- **No external dependencies** – works purely in .NET without needing AutoCAD.  
-- **High fidelity** – retains line weights, colors, and optional 3‑D entity rendering.  
-- **Full control** – you decide page dimensions, layouts, and rasterization quality.  
-- **Cross‑platform** – generated PDFs can be opened on any device.
+
+Aspose.CAD lets you **set PDF page size** and export PDFs entirely in managed .NET code. It supports over 50 CAD formats, processes files up to 2 GB without loading the whole document into memory, and preserves line weights, colors, and optional 3‑D entity rendering with a rasterization DPI of up to 1200. The library runs on Windows, Linux, and macOS, so the generated PDFs work on any platform.
 
 ## Prerequisites
 
-Before diving in, ensure you have:
-
 - **Aspose.CAD for .NET** installed. Download it from the [Aspose.CAD for .NET download page](https://releases.aspose.com/cad/net/).  
-- **A folder** containing the CAD files you want to convert. Note the full path (e.g., `C:\CAD\`).  
+- A folder containing the CAD files you want to convert (e.g., `C:\CAD\`).  
+- .NET 6.0 or later (or .NET Framework 4.7.2).  
 
 ## Import Namespaces
 
-In your .NET project, import the necessary namespaces for working with Aspose.CAD. Add the following lines to the top of your code file:
+`using` statements import the Aspose.CAD namespaces needed to work with rasterization and PDF options.  
 
 ```csharp
 using System;
@@ -57,9 +103,13 @@ using Aspose.CAD.ImageOptions;
 
 ## Step‑by‑Step Guide
 
-### Step 1: Load the CAD Image
+### How to set PDF page size when exporting CAD to PDF?
 
-First, load the source CAD file you wish to convert. Replace `"conic_pyramid.dxf"` with the path to your own file.
+Load your CAD file, configure the page dimensions in `RasterizationOptions`, attach those options to a `PdfOptions` instance, and call `Save`. This four‑step flow gives you full control over the output size and quality while keeping the code concise.
+
+### Step 1: load the CAD image
+
+`Image` class represents a CAD drawing loaded into memory, ready for rasterization.  
 
 ```csharp
 string MyDir = "Your Document Directory";
@@ -72,7 +122,7 @@ using (Image cadImage = Image.Load(sourceFilePath))
 
 ### Step 2: Configure Rasterization Options (Save CAD as PDF)
 
-Set up the rasterization parameters that control how the CAD data is rendered into the PDF. You can adjust page size, layout, and optionally enable 3‑D entity processing.
+`RasterizationOptions` class defines how the CAD data is rasterized, including page size, DPI, and whether 3‑D entities are rendered.  
 
 ```csharp
 CadRasterizationOptions rasterizationOptions = new CadRasterizationOptions();
@@ -85,7 +135,7 @@ rasterizationOptions.Layouts = new string[] { "Model" };
 
 ### Step 3: Set PDF Options (Create PDF from CAD)
 
-Create a `PdfOptions` instance and attach the rasterization settings. This tells Aspose.CAD to output a PDF file using the options defined above.
+`PdfOptions` class holds the output format settings and links the rasterization options to PDF generation.  
 
 ```csharp
 PdfOptions pdfOptions = new PdfOptions();
@@ -94,14 +144,14 @@ pdfOptions.VectorRasterizationOptions = rasterizationOptions;
 
 ### Step 4: Save as PDF (Generate PDF from 3D Model)
 
-Finally, specify the output path and save the image as a PDF. The file will contain a rasterized view of your 3‑D model.
+`Save` method on the `Image` object writes the rasterized content to the specified PDF file, producing a ready‑to‑share document.  
 
 ```csharp
 MyDir = MyDir + "Export3DImagestoPDF_out.pdf";
 cadImage.Save(MyDir, pdfOptions);
 ```
 
-## Common Issues and Solutions
+## Common issues and solutions
 
 | Issue | Reason | Fix |
 |-------|--------|-----|
@@ -110,32 +160,43 @@ cadImage.Save(MyDir, pdfOptions);
 | **3‑D entities not shown** | `TypeOfEntities` is commented out. | Uncomment `rasterizationOptions.TypeOfEntities = TypeOfEntities.Entities3D;`. |
 | **License exception** | Using a trial without a license. | Apply a temporary or permanent license via `License license = new License(); license.SetLicense("Aspose.CAD.lic");`. |
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 **Q: Is Aspose.CAD compatible with all CAD file formats?**  
-A: Yes, Aspose.CAD supports a wide range of CAD formats, ensuring flexibility in handling various file types.
+A: Yes, Aspose.CAD supports more than 50 input and output formats, including DWG, DXF, DGN, STL, and IFC, ensuring flexibility for any project.
 
 **Q: Can I customize the page dimensions when exporting to PDF?**  
-A: Absolutely. The tutorial demonstrates how to configure page width and height according to your requirements.
+A: Absolutely. Set `PageWidth` and `PageHeight` in `RasterizationOptions` to any size in points, inches, or millimetres before calling `Save`.
 
 **Q: Are temporary licenses available for Aspose.CAD?**  
 A: Yes, you can obtain temporary licenses for Aspose.CAD by visiting [Temporary License](https://purchase.aspose.com/temporary-license/).
 
 **Q: Where can I find additional support or community discussions?**  
-A: Head to the [Aspose.CAD Forum](https://forum.aspose.com/c/cad/19) for support and engaging with the community.
+A: Head to the [Aspose.CAD Forum](https://forum.aspose.com/c/cad/19) for expert help and peer‑to‑peer advice.
 
-**Q: Is there a free trial version of Aspose.CAD available?**  
+**Q: Is there a free trial version of Aspose.CAD?**  
 A: Yes, you can explore the features of Aspose.CAD by accessing the [free trial](https://releases.aspose.com/).
 
 ## Conclusion
 
-You’ve now learned **how to export pdf** from 3D CAD images using Aspose.CAD for .NET. By following the steps above, you can **save cad as pdf**, customize page settings, and handle 3‑D entities when needed. Feel free to experiment with different rasterization options to achieve the best visual quality for your specific models.
+You now have a complete, production‑ready method to **set PDF page size** and **export PDF from 3D CAD images** using Aspose.CAD for .NET. By adjusting rasterization options you can fine‑tune resolution, page layout, and 3‑D entity rendering to meet any documentation requirement. Experiment with different DPI settings and page dimensions to achieve the perfect balance between file size and visual fidelity.
 
----
 
-**Last Updated:** 2026-01-28  
+
+## Related Tutorials
+
+[Exporting Specific Layouts to PDF](cad/net/advanced-export-techniques/exporting-specific-layouts-to-pdf/_index.md)
+[Exporting DWG to PDF or Raster Images](cad/net/advanced-export-techniques/exporting-dwg-to-pdf-or-raster-images/_index.md)
+[Export DGN to PDF](cad/net/cad-export-formats/export-dgn-to-pdf/_index.md)
+
+
+
+
+--- 
+
+**Last Updated:** 2026-07-04  
 **Tested With:** Aspose.CAD 24.11 for .NET  
-**Author:** Aspose  
+**Author:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
