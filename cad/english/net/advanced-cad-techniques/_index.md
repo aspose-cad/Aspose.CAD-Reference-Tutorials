@@ -1,5 +1,5 @@
 ---
-title: How to Create PDF with Aspose.CAD – Advanced CAD Techniques
+title: Generate PDF from CAD Files – Advanced CAD Techniques
 linktitle: Advanced CAD Techniques
 second_title: Aspose.CAD .NET - CAD and BIM File Format
 description: Learn how to create PDF from CAD files, convert CFF to PDF, set timeouts on save operations, edit hyperlinks, and use free viewpoint in Aspose.CAD for .NET.
@@ -80,7 +80,7 @@ In today’s fast‑moving design world, knowing **how to create PDF** files dir
 
 ## Quick Answers
 - **How do I convert CFF to PDF?** Use `Image.Save("output.pdf", SaveFormat.Pdf)` on the loaded CFF image.  
-- **What is the free point of view feature?** It lets you rotate the 3‑D view matrix to any angle before rendering.  
+- **What is the free point of view feature?** It lets you rotate the ‑3D view matrix to any angle before rendering.  
 - **How can I set a timeout on a save operation?** Configure `SaveOptions.Timeout` (in seconds) on the `CadImage` object.  
 - **Can I edit hyperlinks in a CAD file?** Yes—use the `Hyperlink` collection on the `CadImage` to add, modify, or remove links.  
 - **How to merge different layouts into one PDF?** Render each layout to a separate page and combine them with `PdfSaveOptions` page settings.

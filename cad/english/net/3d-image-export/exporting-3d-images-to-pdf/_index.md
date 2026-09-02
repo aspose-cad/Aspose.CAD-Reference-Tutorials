@@ -1,5 +1,5 @@
 ---
-title: Configuring Page Dimensions for 3D Image Export
+title: Configuring Page Dimensions for 3D Image Export with Aspose.CAD
 linktitle: Exporting 3D Images to PDF
 second_title: Aspose.CAD .NET - CAD and BIM File Format
 description: Learn how to set PDF page size and export PDF from 3D CAD images using Aspose.CAD for .NET – a step‑by‑step guide to convert DWG to PDF and save CAD as PDF.
@@ -185,9 +185,9 @@ You now have a complete, production‑ready method to **set PDF page size** and 
 
 ## Related Tutorials
 
-{{< relref "cad/net/advanced-export-techniques/exporting-specific-layouts-to-pdf/_index.md" >}}Exporting Specific Layouts to PDF{{< /relref >}}
-{{< relref "cad/net/advanced-export-techniques/exporting-dwg-to-pdf-or-raster-images/_index.md" >}}Exporting DWG to PDF or Raster Images{{< /relref >}}
-{{< relref "cad/net/cad-export-formats/export-dgn-to-pdf/_index.md" >}}Export DGN to PDF{{< /relref >}}
+[Exporting Specific Layouts to PDF](cad/net/advanced-export-techniques/exporting-specific-layouts-to-pdf/_index.md)
+[Exporting DWG to PDF or Raster Images](cad/net/advanced-export-techniques/exporting-dwg-to-pdf-or-raster-images/_index.md)
+[Export DGN to PDF](cad/net/cad-export-formats/export-dgn-to-pdf/_index.md)
 
 
 

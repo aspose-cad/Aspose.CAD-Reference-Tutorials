@@ -1,5 +1,5 @@
 ---
-title: Set PDF Page Size for 3D Models in .NET - Tutorial
+title: How to Set PDF Page Size for OBJ Files with Aspose.CAD in .NET - Tutorial
 linktitle: Supporting OBJ Format in Aspose.CAD - Tutorial
 second_title: Aspose.CAD .NET - CAD and BIM File Format
 description: Learn how to set PDF page size while converting OBJ files to PDF using Aspose.CAD for .NET. Step‑by‑step guide with prerequisites, rasterization options, and PDF options.

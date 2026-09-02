@@ -1,5 +1,5 @@
 ---
-title: Learn How to Apply a License – Step‑by‑Step Tutorials for Aspose.CAD for .NET
+title: Apply a License in Aspose.CAD for .NET – Step‑by‑Step Tutorial
 linktitle: Aspose.CAD for .NET Tutorials
 weight: 10
 url: /net/

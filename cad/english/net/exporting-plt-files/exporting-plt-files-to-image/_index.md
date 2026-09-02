@@ -1,5 +1,5 @@
 ---
-title: Export PLT to Image – Aspose.CAD .NET Tutorial
+title: How to Export PLT Files to Images with Aspose.CAD for .NET
 linktitle: Exporting PLT Files to Image
 second_title: Aspose.CAD .NET - CAD and BIM File Format
 description: Learn how to convert PLT to image files (including PNG) quickly with Aspose.CAD for .NET. Step‑by‑step guide with options, code snippets, and best practices.
@@ -171,7 +171,7 @@ A4: The comprehensive documentation is available on the **[Aspose.CAD .NET API d
 
 ### Q5: Need assistance or have questions?
 
-A5: Visit our community **[forum](https://forum.aspose.com/c/cad/19)** for support and discussions.
+A5: Visit our community **[Aspose.CAD community forum](https://forum.aspose.com/c/cad/19)** for support and discussions.
 
 ### Q6: Can I convert PLT to PNG in a single line of code?
 
