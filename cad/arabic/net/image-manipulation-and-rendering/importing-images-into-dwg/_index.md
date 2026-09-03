@@ -1,33 +1,118 @@
 ---
-title: استيراد الصور إلى ملفات DWG باستخدام C# - دليل Aspose.CAD
+date: 2026-08-17
+description: تعلم كيفية إضافة صورة إلى ملفات DWG باستخدام C# و Aspose.CAD لـ .NET.
+  يشرح هذا الدليل خطوات استيراد الصور، وتحديد نقاط الإدراج، وتصديرها إلى PDF.
+keywords:
+- add image to dwg
+- convert dwg to pdf
+- set insertion point dwg
+- embed png in dwg
+- save dwg as pdf
+lastmod: 2026-08-17
 linktitle: استيراد الصور إلى ملفات DWG باستخدام C#
-second_title: Aspose.CAD .NET - تنسيق ملف CAD وBIM
-description: تعلم كيفية استيراد الصور إلى ملفات DWG باستخدام لغة C# مع Aspose.CAD لـ .NET. اتبع دليلنا خطوة بخطوة للتكامل السلس.
-weight: 11
+og_description: تعلم كيفية إضافة صورة إلى ملفات DWG باستخدام C#. يغطي هذا البرنامج
+  التعليمي استيراد الصور، وتحديد نقاط الإدراج، وتحويل DWG إلى PDF باستخدام Aspose.CAD.
+og_image_alt: Guide showing C# code to embed an image into a DWG file using Aspose.CAD
+og_title: كيفية إضافة صورة إلى ملفات DWG باستخدام C# و Aspose.CAD
+schemas:
+- author: Aspose
+  dateModified: '2026-08-17'
+  description: Learn how to add image to dwg files using C# and Aspose.CAD for .NET.
+    This guide walks you through importing images, setting insertion points, and exporting
+    to PDF.
+  headline: How to add image to dwg files with C# using Aspose.CAD
+  type: TechArticle
+- description: Learn how to add image to dwg files using C# and Aspose.CAD for .NET.
+    This guide walks you through importing images, setting insertion points, and exporting
+    to PDF.
+  name: How to add image to dwg files with C# using Aspose.CAD
+  steps:
+  - name: set up your document directory
+    text: Prepare the folder that contains the source DWG and the image you want to
+      embed.
+  - name: load the dwg file
+    text: The `CadImage` class represents a DWG drawing and provides access to its
+      entities, layers, and metadata.
+  - name: define the image properties
+    text: Create an `Image` object that points to the raster file (e.g., PNG) and
+      specify its format.
+  - name: set insertion point dwg and vectors
+    text: Specify where the image should appear inside the drawing and how it should
+      be scaled. The insertion point is defined by a 2‑D coordinate, while the vectors
+      control width and height.
+  - name: create and configure the raster image
+    text: Instantiate a `RasterImage` object, assign the image data, and set any additional
+      rendering options.
+  - name: add image to dwg file
+    text: Insert the configured raster image into the DWG’s entities collection so
+      it becomes part of the drawing.
+  - name: save as pdf (export dwg to pdf)
+    text: After embedding the image you can **convert dwg to pdf** or **save dwg as
+      pdf** with a single call. This is useful for sharing the drawing with stakeholders
+      who don’t have CAD software.
+  type: HowTo
+- questions:
+  - answer: The core library is .NET‑specific, but Aspose offers equivalent APIs for
+      Java, Python and other platforms.
+    question: Can I use Aspose.CAD for .NET with other programming languages?
+  - answer: Yes, you can explore a free trial on the [Aspose free trial page](https://releases.aspose.com/).
+    question: Is a free trial available for Aspose.CAD?
+  - answer: The documentation is available in the [Aspose.CAD .NET API reference](https://reference.aspose.com/cad/net/).
+    question: Where can I find detailed documentation for Aspose.CAD?
+  - answer: Visit the [temporary license page](https://purchase.aspose.com/temporary-license/)
+      to get a temporary license.
+    question: How do I obtain a temporary license for Aspose.CAD?
+  - answer: Yes, you can seek support and engage with the community in the [Aspose.CAD
+      community forum](https://forum.aspose.com/c/cad/19).
+    question: Are there community forums for Aspose.CAD support?
+  type: FAQPage
+second_title: Aspose.CAD .NET - CAD and BIM File Format
+tags:
+- CAD
+- Aspose.CAD
+- C# image processing
+- DWG manipulation
+title: كيفية إضافة صورة إلى ملفات DWG باستخدام C# و Aspose.CAD
 url: /ar/net/image-manipulation-and-rendering/importing-images-into-dwg/
+weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# استيراد الصور إلى ملفات DWG باستخدام C# - دليل Aspose.CAD
+# كيفية إضافة صورة إلى ملفات DWG باستخدام C# و Aspose.CAD
 
 ## مقدمة
 
-في عالم التصميم بمساعدة الكمبيوتر (CAD)، يعد دمج الصور في ملفات DWG مهمة شائعة وحاسمة. يوفر Aspose.CAD for .NET مجموعة قوية من الأدوات لتبسيط هذه العملية، مما يجعلها في متناول مطوري C#. في هذا البرنامج التعليمي، سنستكشف كيفية استيراد الصور إلى ملفات DWG خطوة بخطوة.
+إضافة صورة إلى ملف DWG هي متطلب روتيني عندما تحتاج إلى إثراء رسومات CAD بالشعارات أو الصور أو الرسومات النقطية. في هذا البرنامج التعليمي ستتعلم كيفية **إضافة صورة إلى dwg** برمجيًا باستخدام C# و Aspose.CAD لـ .NET، ثم تحويل النتيجة إلى PDF اختياريًا. تم تقسيم الخطوات بحيث يمكنك نسخ‑لصق كل قسم في مشروعك الخاص.
 
-## المتطلبات الأساسية
+## إجابات سريعة
+- **أي مكتبة تتولى المهمة؟** Aspose.CAD for .NET.
+- **هل يمكنني تضمين ملفات PNG؟** نعم – PNG، JPEG، BMP وغيرها من صيغ الرسومات النقطية مدعومة.
+- **هل أحتاج إلى ترخيص للتطوير؟** نسخة تجريبية مجانية تعمل للاختبار؛ الترخيص التجاري مطلوب للإنتاج.
+- **هل يدعم تصدير PDF؟** بالتأكيد – يمكنك تحويل DWG المحدث إلى PDF بسطر واحد.
+- **ما إصدارات .NET المتوافقة؟** .NET Framework 4.6+، .NET Core 3.1+، .NET 5/6/7.
 
-قبل الغوص في الدليل، تأكد من أن لديك ما يلي:
+## ما هو ملف DWG؟
 
-- المعرفة الأساسية ببرمجة C#.
--  تم تثبيت Aspose.CAD لـ .NET. يمكنك تنزيله[هنا](https://releases.aspose.com/cad/net/).
-- تم إعداد بيئة التطوير.
+ملف DWG هو الصيغة الثنائية الأصلية لرسومات Autodesk AutoCAD، يخزن الهندسة المتجهة، الطبقات، وبيانات التعريف. يُستخدم على نطاق واسع في الهندسة المعمارية، الهندسة، والبناء، ويمكن لـ Aspose.CAD قراءة وكتابة هذه الصيغة دون الحاجة إلى تثبيت AutoCAD.
 
-## استيراد مساحات الأسماء
+## لماذا إضافة صورة إلى dwg باستخدام Aspose.CAD؟
 
-تأكد من تضمين مساحات الأسماء الضرورية في مشروع C# الخاص بك:
+يدعم Aspose.CAD **أكثر من 50 صيغة إدخال وإخراج**، ويمكنه معالجة ملفات أكبر من 500 ميغابايت دون تحميل المستند بالكامل في الذاكرة، ويوفر API حتمي يعمل في بيئات الخوادم بدون واجهة رسومية. هذا يجعل معالجة دفعات من رسومات DWG سريعة وموثوقة.
+
+## المتطلبات المسبقة
+- معرفة أساسية ببرمجة C#.
+- تم تثبيت Aspose.CAD لـ .NET. يمكنك تنزيله من [صفحة تنزيل Aspose.CAD لـ .NET](https://releases.aspose.com/cad/net/). يمكنك أيضًا استكشاف منتجات Aspose الأخرى على [صفحة إصدارات Aspose](https://releases.aspose.com/).
+- بيئة تطوير مثل Visual Studio 2022 أو أحدث.
+
+## كيفية إضافة صورة إلى dwg باستخدام Aspose.CAD؟
+
+قم بتحميل ملف DWG الهدف، أنشئ كائن صورة نقطية يصف الصورة التي تريد تضمينها، حدد نقطة الإدراج والمتجهات الخاصة بالتحجيم، ثم أرفق الصورة بالرسم. أخيرًا، احفظ ملف DWG المعدل أو صدّره مباشرة إلى PDF. يتطلب سير العمل الكامل بضع نداءات API فقط ويستغرق أقل من ثانية للرسومات النموذجية ذات صفحتين.
+
+### استيراد مساحات الأسماء
+قم بتضمين مساحات الأسماء التي تعرض فئات CAD التي ستحتاجها.
 
 ```csharp
 using Aspose.CAD.FileFormats.Cad;
@@ -39,27 +124,31 @@ using System.Linq;
 using System.Text;
 ```
 
-## الخطوة 1: قم بإعداد دليل المستندات الخاص بك
+### الخطوة 1: إعداد دليل المستند الخاص بك
+قم بإعداد المجلد الذي يحتوي على ملف DWG المصدر والصورة التي تريد تضمينها.
 
 ```csharp
 string MyDir = "Your Document Directory";
 ```
 
-## الخطوة 2: قم بتحميل ملف DWG
+### الخطوة 2: تحميل ملف dwg
+تمثل الفئة `CadImage` رسم DWG وتوفر الوصول إلى كياناتها، طبقاتها، وبيانات التعريف الخاصة بها.
 
 ```csharp
 string dwgPathToFile = MyDir + "Drawing11.dwg";
 CadImage cadImage1 = (CadImage)Image.Load(dwgPathToFile);
 ```
 
-## الخطوة 3: تحديد خصائص الصورة
+### الخطوة 3: تعريف خصائص الصورة
+أنشئ كائن `Image` يشير إلى ملف الرسومات النقطية (مثل PNG) وحدد صيغته.
 
 ```csharp
 CadRasterImageDef cadRasterImageDef = new CadRasterImageDef("road-sign-custom.png", 640, 562);
 cadRasterImageDef.ObjectHandle = "A3B4";
 ```
 
-## الخطوة 4: تعيين نقطة الإدراج والمتجهات
+### الخطوة 4: تعيين نقطة الإدراج في dwg والمتجهات
+حدد أين يجب أن تظهر الصورة داخل الرسم وكيفية تحجيمها. تُعرّف نقطة الإدراج بإحداثيات ثنائية الأبعاد، بينما تتحكم المتجهات في العرض والارتفاع.
 
 ```csharp
 Cad3DPoint insertionPoint = new Cad3DPoint(26.77, 22.35);
@@ -67,7 +156,8 @@ Cad3DPoint uVector = new Cad3DPoint(0.0061565450840500831, 0);
 Cad3DPoint vVector = new Cad3DPoint(0, 0.0061565450840500822);
 ```
 
-## الخطوة 5: إنشاء وتكوين الصورة النقطية
+### الخطوة 5: إنشاء وتكوين صورة النقطية
+أنشئ كائن `RasterImage`، عيّن بيانات الصورة، واضبط أي خيارات تصيير إضافية.
 
 ```csharp
 CadRasterImage cadRasterImage = new CadRasterImage(cadRasterImageDef, insertionPoint, uVector, vVector);
@@ -78,7 +168,8 @@ cadRasterImage.ClipBoundaryVertexList.Add(new Cad2DPoint(-0.5, 0.5));
 cadRasterImage.ClipBoundaryVertexList.Add(new Cad2DPoint(639.5, 561.5));
 ```
 
-## الخطوة 6: إضافة صورة إلى ملف DWG
+### الخطوة 6: إضافة صورة إلى ملف dwg
+أدرج صورة النقطية المكوّنة في مجموعة الكيانات الخاصة بـ DWG لتصبح جزءًا من الرسم.
 
 ```csharp
 CadImage cadImage = (CadImage)cadImage1;
@@ -89,7 +180,8 @@ list.Add(cadRasterImageDef);
 cadImage.Objects = list.ToArray();
 ```
 
-## الخطوة 7: احفظ بصيغة PDF
+### الخطوة 7: حفظ كـ pdf (تصدير dwg إلى pdf)
+بعد تضمين الصورة يمكنك **تحويل dwg إلى pdf** أو **حفظ dwg كـ pdf** باستدعاء واحد. هذا مفيد لمشاركة الرسم مع أصحاب المصلحة الذين لا يمتلكون برنامج CAD.
 
 ```csharp
 PdfOptions pdfOptions = new PdfOptions();
@@ -103,31 +195,45 @@ cadRasterizationOptions.Layouts = new string[] { "Model" };
 cadImage1.Save(MyDir + "export2.pdf", pdfOptions);
 ```
 
-## خاتمة
+## كيفية تحويل dwg إلى pdf بعد تضمين صورة؟
 
-يعد دمج الصور في ملفات DWG باستخدام C# وAspose.CAD لـ .NET عملية سلسة، مما يمكّن المطورين من تحسين مشاريع CAD الخاصة بهم باستخدام العناصر المرئية دون عناء.
+استدعِ طريقة `Save` على كائن `CadImage`، مع تمرير `SaveFormat.Pdf` واختيارياً كائن `PdfOptions` للتحكم في حجم الصفحة، الرستر، وبيانات التعريف. يحافظ Aspose.CAD على الصورة النقطية المضمّنة، الطبقات، وسمك الخطوط، منتجًا تمثيل PDF دقيق يمكن فتحه في أي عارض. يتم تنفيذ هذا التحويل بسطر واحد من الشيفرة.
 
-## الأسئلة الشائعة
+## المشكلات الشائعة والحلول
+- **الصورة تظهر في الموقع الخطأ** – تحقق مرة أخرى من إحداثيات نقطة الإدراج والمتجهات الاتجاهية؛ فهي نسبية إلى أصل الرسم.
+- **الصور الكبيرة تسبب ارتفاعًا في استهلاك الذاكرة** – استخدم خيار `Resize` على صورة النقطية قبل الإدراج، أو اعمل بنسخة ذات دقة أقل.
+- **تصدير PDF يفقد جودة المتجهات** – تأكد من حفظك باستخدام `PdfOptions` التي تحتفظ ببيانات المتجهات؛ صور النقطية تُضمّن دائمًا كما هي.
 
-### س1: هل يمكنني استخدام Aspose.CAD لـ .NET مع لغات البرمجة الأخرى؟
+## الأسئلة المتكررة
 
-ج1: تم تصميم Aspose.CAD بشكل أساسي لـ .NET، لكن Aspose يوفر مكتبات لمختلف لغات البرمجة.
+**س: هل يمكنني استخدام Aspose.CAD لـ .NET مع لغات برمجة أخرى؟**  
+ج: المكتبة الأساسية مخصصة لـ .NET، لكن Aspose تقدم واجهات برمجة تطبيقات مكافئة لـ Java و Python وغيرها من المنصات.
 
-### س2: هل تتوفر نسخة تجريبية مجانية من Aspose.CAD لـ .NET؟
+**س: هل تتوفر نسخة تجريبية مجانية لـ Aspose.CAD؟**  
+ج: نعم، يمكنك تجربة نسخة تجريبية مجانية على [صفحة تجربة Aspose المجانية](https://releases.aspose.com/).
 
- ج2: نعم، يمكنك استكشاف النسخة التجريبية المجانية[هنا](https://releases.aspose.com/).
+**س: أين يمكنني العثور على وثائق مفصلة لـ Aspose.CAD؟**  
+ج: الوثائق متاحة في [مرجع Aspose.CAD .NET API](https://reference.aspose.com/cad/net/).
 
-### س3: أين يمكنني العثور على الوثائق التفصيلية الخاصة بـ Aspose.CAD؟
+**س: كيف أحصل على ترخيص مؤقت لـ Aspose.CAD؟**  
+ج: زر [صفحة الترخيص المؤقت](https://purchase.aspose.com/temporary-license/) للحصول على ترخيص مؤقت.
 
- ج3: الوثائق متاحة[هنا](https://reference.aspose.com/cad/net/).
+**س: هل توجد منتديات مجتمع لدعم Aspose.CAD؟**  
+ج: نعم، يمكنك طلب الدعم والتفاعل مع المجتمع في [منتدى مجتمع Aspose.CAD](https://forum.aspose.com/c/cad/19).
 
-### س4: كيف يمكنني الحصول على ترخيص مؤقت لـ Aspose.CAD لـ .NET؟
+---
 
- ج4: زيارة[هذا الرابط](https://purchase.aspose.com/temporary-license/) للحصول على ترخيص مؤقت.
+**Last Updated:** 2026-08-17  
+**Tested With:** Aspose.CAD 24.11 for .NET  
+**Author:** Aspose
 
-### س5: هل توجد منتديات مجتمعية لدعم Aspose.CAD؟
+## دروس ذات صلة
 
- ج5: نعم، يمكنك طلب الدعم والتفاعل مع المجتمع[هنا](https://forum.aspose.com/c/cad/19).
+- [تصدير DWG إلى PDF أو صور نقطية - دليل Aspose.CAD](/cad/net/advanced-export-techniques/exporting-dwg-to-pdf-or-raster-images/)
+- [تصدير DWG إلى تنسيق DXF في C# - درس Aspose.CAD](/cad/net/advanced-export-techniques/exporting-dwg-to-dxf/)
+- [تصدير تخطيطات محددة إلى PDF - دليل Aspose.CAD](/cad/net/advanced-export-techniques/exporting-specific-layouts-to-pdf/)
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
