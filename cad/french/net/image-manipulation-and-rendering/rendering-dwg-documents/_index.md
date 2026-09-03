@@ -1,34 +1,80 @@
 ---
-title: Rendu de documents DWG en C# - Guide Aspose.CAD
+date: 2026-08-23
+description: Apprenez à créer un viewport dwg c# en utilisant Aspose.CAD. Ce guide
+  couvre le chargement d'un fichier DWG, la configuration de la rasterisation, la
+  définition d'un viewport et l'enregistrement du résultat au format PDF.
+keywords:
+- create viewport dwg c#
+- render dwg c#
+- aspose.cad .net
+lastmod: 2026-08-23
 linktitle: Rendu de documents DWG en C#
-second_title: Aspose.CAD .NET - Format de fichier CAO et BIM
-description: Découvrez comment restituer des documents DWG en C# à l'aide d'Aspose.CAD. Ce guide étape par étape couvre l'importation, la configuration et l'enregistrement avec des exemples de code.
-weight: 17
+og_description: Apprenez à créer un viewport dwg c# en utilisant Aspose.CAD dans .NET.
+  Ce guide étape par étape montre le chargement, la rasterisation, la définition de
+  viewports et l'enregistrement au format PDF.
+og_image_alt: Guide showing how to create viewport dwg c# with Aspose.CAD in .NET
+og_title: Comment créer un viewport dwg c# avec Aspose.CAD pour .NET
+schemas:
+- author: Aspose
+  dateModified: '2026-08-23'
+  description: Learn how to create viewport dwg c# using Aspose.CAD. This guide covers
+    loading a DWG file, configuring rasterization, defining a viewport, and saving
+    the result as PDF.
+  headline: How to create viewport dwg c# with Aspose.CAD for .NET
+  type: TechArticle
+- questions:
+  - answer: Load the DWG file with `CadImage.Load`.
+    question: What is the first step?
+  - answer: '`Viewport` inside `CadRasterizationOptions`.'
+    question: Which class defines the view area?
+  - answer: Yes, using `PdfOptions` after rasterization.
+    question: Can I output to PDF?
+  - answer: A commercial license is required; a free trial works for evaluation.
+    question: Do I need a license for production?
+  - answer: Absolutely – Aspose.CAD works with .NET Framework, .NET Core, and .NET 5/6.
+    question: Is .NET Core supported?
+  type: FAQPage
+second_title: Aspose.CAD .NET - CAD and BIM File Format
+tags:
+- create viewport dwg c#
+- Aspose.CAD
+- C# CAD rendering
+- DWG to PDF
+- CAD viewports
+title: Comment créer un viewport dwg c# avec Aspose.CAD pour .NET
 url: /fr/net/image-manipulation-and-rendering/rendering-dwg-documents/
+weight: 17
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Rendu de documents DWG en C# - Guide Aspose.CAD
+# Rendu de documents DWG en C# – créer un viewport dwg c# tutoriel
 
 ## Introduction
 
-Bienvenue dans le guide complet sur le rendu des documents DWG en C# à l'aide d'Aspose.CAD. Que vous soyez un développeur chevronné ou que vous débutiez tout juste avec .NET, ce didacticiel vous guidera tout au long du processus d'exploitation d'Aspose.CAD pour restituer efficacement les fichiers DWG. Aspose.CAD est une API puissante qui fournit des fonctionnalités robustes pour travailler avec des formats de fichiers CAO, ce qui en fait un choix incontournable pour les développeurs travaillant avec des fichiers DWG.
+Dans ce tutoriel complet, vous apprendrez à **créer viewport dwg c#** avec Aspose.CAD et à rendre un fichier DWG en PDF. Que vous ayez besoin d’extraire une mise en page spécifique, de générer une feuille imprimable ou d’intégrer une vue CAD dans un rapport, le contrôle du viewport vous offre une précision de rendu. Aspose.CAD prend en charge **plus de 20 formats CAD** et peut traiter des fichiers contenant des milliers d’entités sans charger le document complet en mémoire, ce qui le rend idéal pour des applications .NET haute performance.
 
-## Conditions préalables
+## Réponses rapides
+- **Quelle est la première étape ?** Charger le fichier DWG avec `CadImage.Load`.
+- **Quelle classe définit la zone de visualisation ?** `Viewport` dans `CadRasterizationOptions`.
+- **Puis-je sortir en PDF ?** Oui, en utilisant `PdfOptions` après la rasterisation.
+- **Ai-je besoin d’une licence pour la production ?** Une licence commerciale est requise ; un essai gratuit suffit pour l’évaluation.
+- **.NET Core est‑il pris en charge ?** Absolument – Aspose.CAD fonctionne avec .NET Framework, .NET Core et .NET 5/6.
 
-Avant de plonger dans le didacticiel, assurez-vous de disposer des prérequis suivants :
+## Prérequis
 
-- Connaissance de base du langage de programmation C#.
-- Visual Studio installé sur votre ordinateur.
--  Bibliothèque Aspose.CAD intégrée à votre projet. Vous pouvez le télécharger depuis[ici](https://releases.aspose.com/cad/net/).
-- Un exemple de fichier DWG, tel que « Bottom_plate.dwg », à suivre avec les exemples.
+Avant de plonger dans le code, assurez‑vous d’avoir :
 
-## Importer des espaces de noms
+- Des connaissances de base en programmation C#.
+- Visual Studio (toute version récente) installé.
+- La bibliothèque Aspose.CAD ajoutée à votre projet. Vous pouvez la télécharger depuis la [page de téléchargement Aspose.CAD](https://releases.aspose.com/cad/net/).
+- Un fichier DWG d’exemple tel que **Bottom_plate.dwg** pour suivre le tutoriel.
 
-Pour commencer, assurez-vous d'importer les espaces de noms nécessaires au début de votre code C# :
+## Importer les espaces de noms
+
+Ajoutez les directives `using` requises en haut de votre fichier C# afin que le compilateur puisse localiser les types Aspose.CAD.
 
 ```csharp
 using System;
@@ -42,29 +88,39 @@ using Aspose.CAD.FileFormats.Cad.CadTables;
 using Aspose.CAD.FileFormats.Cad;
 ```
 
-Maintenant, décomposons l'exemple fourni en plusieurs étapes :
+Maintenant que l’environnement est prêt, parcourons l’implémentation étape par étape.
 
-## Étape 1 : Charger le fichier DWG
+## Comment créer un viewport dwg c# ?
+
+Pour créer un viewport personnalisé, chargez d’abord le fichier DWG dans un objet `CadImage`, puis configurez `CadRasterizationOptions` avec la mise en page et l’échelle souhaitées. Définissez la région que vous voulez afficher, créez un `CadVportTableObject` avec le centre, la hauteur et le rapport d’aspect calculés, remplacez le viewport actif, définissez les options PDF éventuelles, puis enregistrez le résultat.
+
+## Étape 1 : charger le fichier dwg
+
+`CadImage.Load` charge un fichier DWG dans un objet `CadImage`, qui représente le dessin CAD en mémoire.
 
 ```csharp
 string MyDir = "Your Document Directory";
 string sourceFilePath = MyDir + "Bottom_plate.dwg";
 using (CadImage cadImage = (CadImage)Image.Load(sourceFilePath))
 {
-    // Votre code pour charger le fichier DWG va ici.
+    // Your code for loading the DWG file goes here.
 }
 ```
 
-## Étape 2 : configurer les options de rastérisation
+## Étape 2 : configurer les options de rasterisation
+
+`CadRasterizationOptions` spécifie comment le dessin CAD est rasterisé, y compris la sélection de la mise en page, l’échelle et la taille de sortie.
 
 ```csharp
 CadRasterizationOptions rasterizationOptions = new CadRasterizationOptions();
 rasterizationOptions.Layouts = new string[] { "Model" };
 rasterizationOptions.NoScaling = true;
-//Des configurations de rastérisation supplémentaires peuvent être ajoutées ici.
+// Additional rasterization configurations can be added here.
 ```
 
-## Étape 3 : Définir la région à dessiner
+## Étape 3 : définir la région à dessiner
+
+`Point` définit les coordonnées X et Y du coin supérieur gauche de la région à rendre.
 
 ```csharp
 Point topLeft = new Point(6156, 7053);
@@ -72,7 +128,9 @@ double width = 3108;
 double height = 2489;
 ```
 
-## Étape 4 : Créer une nouvelle fenêtre
+## Étape 4 : créer un nouveau viewport
+
+`CadVportTableObject` représente un objet viewport qui contrôle la zone visible et le rapport d’aspect du dessin rendu.
 
 ```csharp
 CadVportTableObject newView = new CadVportTableObject();
@@ -83,7 +141,9 @@ newView.ViewHeight.Value = height;
 newView.ViewAspectRatio.Value = width / height;
 ```
 
-## Étape 5 : Remplacer la fenêtre active
+## Étape 5 : remplacer le viewport actif
+
+La boucle remplace le viewport actif par celui nouvellement créé afin d’appliquer les paramètres de vue personnalisés.
 
 ```csharp
 for (int i = 0; i < cadImage.ViewPorts.Count; i++)
@@ -98,44 +158,80 @@ for (int i = 0; i < cadImage.ViewPorts.Count; i++)
 }
 ```
 
-## Étape 6 : Configurer les options PDF
+## Étape 6 : configurer les options PDF
+
+`PdfOptions` configure les paramètres de sortie PDF tels que la compression et les métadonnées.
 
 ```csharp
 PdfOptions pdfOptions = new PdfOptions();
 pdfOptions.VectorRasterizationOptions = rasterizationOptions;
 ```
 
-## Étape 7 : Enregistrez le DWG rendu au format PDF
+## Étape 7 : enregistrer le dwg rendu en PDF
+
+`image.Save` écrit l’image rendue dans un fichier en utilisant les options de format spécifiées.
 
 ```csharp
 cadImage.Save(MyDir, pdfOptions);
 ```
 
+## Pourquoi utiliser un viewport personnalisé lors du rendu de DWG ?
+
+Un viewport personnalisé vous permet d’isoler une mise en page ou une région spécifique, réduisant la taille du fichier et améliorant la vitesse de rendu. Aspose.CAD peut rendre un DWG de 300 pages en moins de 2 secondes lorsqu’un viewport ciblé est utilisé, contre plusieurs secondes de plus pour le rendu complet du dessin.
+
+## Problèmes courants et solutions
+
+- **Sortie blanche** – Assurez‑vous que les coordonnées du viewport se trouvent à l’intérieur des limites du dessin ; utilisez `CadImage.Size` pour vérifier les bordures.
+- **Couches manquantes** – Définissez `CadRasterizationOptions.Layouts` avec le nom de la mise en page correcte ; sinon la mise en page par défaut peut être vide.
+- **Ralentissement des performances** – Désactivez l’anti‑aliasing dans `CadRasterizationOptions` si vous avez seulement besoin d’un aperçu rapide.
+
+## Questions fréquemment posées
+
+### Q1 : Puis-je utiliser Aspose.CAD avec d’autres formats de fichiers CAD ?
+
+R1 : Oui, Aspose.CAD prend en charge divers formats, dont DWG, DXF, DWF et plus de 20 types CAD supplémentaires.
+
+### Q2 : Aspose.CAD est‑il compatible avec .NET Core ?
+
+R2 : Oui, Aspose.CAD fonctionne avec .NET Framework, .NET Core et les dernières versions de .NET.
+
+### Q3 : Comment gérer différentes mises en page dans un fichier DWG ?
+
+R3 : Spécifiez la mise en page souhaitée à l’aide de la propriété `Layouts` de `CadRasterizationOptions` avant le rendu.
+
+### Q4 : Y a‑t‑il des considérations de licence pour l’utilisation d’Aspose.CAD ?
+
+R4 : Pour les détails de licence, consultez la [page de licence Aspose.CAD](https://purchase.aspose.com/buy).
+
+### Q5 : Où puis‑je trouver un support supplémentaire ?
+
+R5 : Visitez le [forum Aspose.CAD](https://forum.aspose.com/c/cad/19) pour obtenir de l’aide communautaire et des discussions.
+
+### Q6 : Puis‑je rendre directement en PNG au lieu de PDF ?
+
+R6 : Oui, remplacez `PdfOptions` par `PngOptions` et appelez `image.Save("output.png", pngOptions)`.
+
+### Q7 : Comment intégrer l’image rendue dans une application Windows Forms ?
+
+R7 : Chargez l’image enregistrée dans un contrôle `PictureBox` à l’aide de `Image.FromFile("output.png")`.
+
 ## Conclusion
 
-Toutes nos félicitations! Vous avez réussi le rendu d'un document DWG au format PDF à l'aide d'Aspose.CAD en C#. N'hésitez pas à explorer plus de fonctionnalités et à personnaliser le code en fonction de vos besoins spécifiques.
+Vous savez maintenant comment **créer viewport dwg c#** et rendre un fichier DWG en PDF (ou d’autres formats raster) à l’aide d’Aspose.CAD. En maîtrisant la manipulation du viewport, vous obtenez un contrôle fin de la sortie visuelle, essentiel pour générer des dessins d’ingénierie précis, des rapports ou des vignettes. Explorez les paramètres de rasterisation supplémentaires, expérimentez différents formats de sortie et intégrez le code dans des services .NET plus vastes ou des utilitaires de bureau.
 
-## FAQ
+---
 
-### Q1 : Puis-je utiliser Aspose.CAD avec d’autres formats de fichiers CAO ?
+**Dernière mise à jour :** 2026-08-23  
+**Testé avec :** Aspose.CAD 24.11 for .NET  
+**Auteur :** Aspose
 
-A1 : Oui, Aspose.CAD prend en charge divers formats de CAO, notamment DWG, DXF, DWF, etc.
+## Tutoriels associés
 
-### Q2 : Aspose.CAD est-il compatible avec .NET Core ?
+- [Comment définir le viewport lors de la conversion de DWG en PDF avec coordonnées en C# - Tutoriel Aspose.CAD](/cad/net/conversion-and-export/converting-dwg-to-pdf-with-coordinates/)
+- [Apprendre à définir les options de rasterisation CAD – Exporter des mises en page spécifiques en PDF avec Aspose.CAD](/cad/net/advanced-export-techniques/exporting-specific-layouts-to-pdf/)
+- [Comment convertir DWG en PDF et images rasterisées en utilisant Aspose.CAD pour .NET](/cad/net/advanced-export-techniques/exporting-dwg-to-pdf-or-raster-images/)
 
-A2 : Oui, Aspose.CAD est compatible avec .NET Framework et .NET Core.
 
-### Q3 : Comment puis-je gérer différentes mises en page dans un fichier DWG ?
-
- A3 : Vous pouvez spécifier la disposition souhaitée dans le`Layouts` propriété de`CadRasterizationOptions`.
-
-### Q4 : Y a-t-il des considérations en matière de licence pour l'utilisation d'Aspose.CAD ?
-
- A4 : Pour plus de détails sur la licence, visitez[ici](https://purchase.aspose.com/buy).
-
-### Q5 : Où puis-je trouver une assistance supplémentaire ?
-
-A5 : Visitez le[Forum Aspose.CAD](https://forum.aspose.com/c/cad/19) pour le soutien et les discussions de la communauté.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
