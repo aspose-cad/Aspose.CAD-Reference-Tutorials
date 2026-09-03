@@ -1,11 +1,51 @@
 ---
-date: 2026-02-15
-description: Erfahren Sie, wie Sie mit Aspose.CAD für Java und Stiftanpassung PDFs
-  aus CAD erstellen. Diese Schritt‑für‑Schritt‑Anleitung zeigt, wie Sie CAD effizient
-  in PDF exportieren.
-linktitle: Pen Support in Export
+date: 2026-08-29
+description: Erfahren Sie, wie Sie PDF aus CAD mit Aspose.CAD for Java und pen customization
+  erstellen. Diese Schritt‑für‑Schritt‑Anleitung zeigt, wie CAD effizient in PDF exportiert
+  wird.
+keywords:
+- create pdf from cad
+- export cad to pdf
+- convert ddx to pdf
+- aspose cad java
+- java convert cad pdf
+lastmod: 2026-08-29
+linktitle: Pen Support beim Export
+og_description: Erstellen Sie PDF aus CAD mit Pen Support unter Verwendung von Aspose.CAD
+  for Java. Dieser Leitfaden führt Sie durch den Export von CAD zu PDF, pen customization
+  und bewährte Verfahren in weniger als 10 Minuten.
+og_image_alt: Screenshot of Java code exporting a CAD drawing to PDF with custom pen
+  settings
+og_title: Wie man PDF aus CAD mit Pen Support beim Export erstellt
+schemas:
+- author: Aspose
+  dateModified: '2026-08-29'
+  description: Learn how to create PDF from CAD using Aspose.CAD for Java with pen
+    customization. This step‑by‑step guide shows export CAD to PDF efficiently.
+  headline: How to create pdf from cad with pen support in export
+  type: TechArticle
+- questions:
+  - answer: Converting a CAD drawing (e.g., DXF) into a PDF document while retaining
+      vector quality for easy sharing and printing.
+    question: What does “create PDF from CAD” mean?
+  - answer: Aspose.CAD for Java’s `PenOptions` class.
+    question: Which library handles pen customization?
+  - answer: Yes – the same pen settings apply to PNG, BMP, TIFF, and more.
+    question: Can I use this for other formats?
+  - answer: A valid Aspose.CAD license is required for production use; otherwise evaluation
+      mode adds a watermark.
+    question: Do I need a license?
+  - answer: Java 8 or higher.
+    question: What’s the minimum Java version?
+  type: FAQPage
 second_title: Aspose.CAD Java API
-title: Wie man aus CAD ein PDF mit Stiftunterstützung beim Export erstellt
+tags:
+- create pdf from cad
+- aspose cad
+- java cad conversion
+- pdf export
+- pen support
+title: Wie man PDF aus CAD mit Pen Support beim Export erstellt
 url: /de/java/advanced-cad-features/pen-support-in-export/
 weight: 13
 ---
@@ -14,37 +54,41 @@ weight: 13
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Pen Support in Export
+# Stiftunterstützung beim Export
 
-## Introduction
+## Einführung
 
-In der schnelllebigen Welt der CAD-Konvertierungen müssen Entwickler häufig **PDF aus CAD**-Dateien erstellen, wobei die visuelle Treue erhalten bleibt. Aspose.CAD für Java macht das unkompliziert und bietet umfangreiche Optionen wie die Stiftanpassung, mit der Sie Linienstile während des Exportvorgangs feinabstimmen können. In diesem Leitfaden führen wir Sie durch ein vollständiges, praxisnahes Beispiel, das zeigt, wie man **CAD nach PDF** mit benutzerdefinierten Stifteinstellungen exportiert, sodass Sie polierte PDFs direkt aus DXF-Zeichnungen erzeugen können.
+In der schnelllebigen Welt der CAD-Konvertierungen müssen Sie häufig **PDF aus CAD**-Dateien erstellen und dabei die visuelle Treue bewahren. Aspose.CAD für Java macht das unkompliziert und bietet umfangreiche Optionen wie die Stiftanpassung, mit der Sie Linienstile während des Exportvorgangs feinabstimmen können. In diesem Leitfaden führen wir Sie durch ein vollständiges, praxisnahes Beispiel, das zeigt, wie Sie **CAD nach PDF exportieren** mit benutzerdefinierten Stifteinstellungen, sodass Sie hochwertige PDFs direkt aus DXF-Zeichnungen erzeugen können.
 
-## Quick Answers
-- **Was bedeutet „PDF aus CAD erstellen“?** Umwandlung einer CAD-Zeichnung (z. B. DXF) in ein PDF-Dokument bei Beibehaltung der Vektorqualität.  
-- **Welche Bibliothek übernimmt die Stiftanpassung?** Die `PenOptions`‑Klasse von Aspose.CAD für Java.  
-- **Kann ich das für andere Formate verwenden?** Ja – dieselben Stifteinstellungen gelten für PNG, BMP, TIFF usw.  
-- **Benötige ich eine Lizenz?** Für den Produktionseinsatz ist eine gültige Aspose.CAD‑Lizenz erforderlich.  
-- **Wie lautet die minimale Java-Version?** Java 8 oder höher.
+## Schnelle Antworten
+- **Was bedeutet „PDF aus CAD erstellen“?** Konvertierung einer CAD-Zeichnung (z. B. DXF) in ein PDF-Dokument bei Beibehaltung der Vektorqualität für einfaches Teilen und Drucken.  
+- **Welche Bibliothek übernimmt die Stiftanpassung?** Aspose.CAD für Java’s `PenOptions`‑Klasse.  
+- **Kann ich das für andere Formate verwenden?** Ja – die gleichen Stifteinstellungen gelten für PNG, BMP, TIFF und weitere.  
+- **Benötige ich eine Lizenz?** Eine gültige Aspose.CAD‑Lizenz ist für den Produktionseinsatz erforderlich; andernfalls fügt der Evaluierungsmodus ein Wasserzeichen hinzu.  
+- **Was ist die minimale Java-Version?** Java 8 oder höher.
 
-## What is “create PDF from CAD”?
-Creating a PDF from CAD means rasterizing or vector‑rendering a CAD drawing into a PDF file. This enables easy sharing, printing, and archival of engineering designs without requiring CAD software on the recipient’s side.
+## Was bedeutet „PDF aus CAD erstellen“?
 
-## Why use pen support when exporting CAD to PDF?
-Pen support lets you control line caps, joins, and thickness, giving you the ability to match corporate branding or technical drawing standards. It’s especially useful when the default line rendering doesn’t meet your visual requirements.
+Das Erstellen eines PDFs aus CAD bedeutet die Konvertierung einer CAD‑Zeichnung (zum Beispiel einer DXF‑Datei) in ein PDF‑Dokument, wobei die Vektorqualität erhalten bleibt, sodass das Dokument einfach geteilt, gedruckt und archiviert werden kann, ohne dass der Empfänger CAD‑Software installiert haben muss. Diese Konvertierung bewahrt die exakte Geometrie, Linienstärken und Farben, wodurch das PDF eine getreue Darstellung des Originaldesigns ist.
 
-## How to create pdf from cad – Step‑by‑step guide
-Below is a practical walkthrough that covers everything from setting up your environment to generating the final PDF. Follow each step, and you’ll have a ready‑to‑use solution for **export CAD to PDF** with full pen control.
+## Warum Stiftunterstützung beim Export von CAD nach PDF verwenden?
 
-## Prerequisites
+Stiftunterstützung ermöglicht die Kontrolle von Linien‑Caps, -Joins und -Dicken, sodass Sie das Erscheinungsbild an Unternehmensbranding oder technische Zeichenstandards anpassen können. Durch die Anpassung von Stiften können Sie sicherstellen, dass Messlinien, Schnittdarstellungen oder hervorgehobene Merkmale exakt wie gewünscht erscheinen, was besonders wertvoll ist, wenn die Standarddarstellung nicht den strengen Ingenieur‑ oder Publikationsrichtlinien entspricht.
 
-- **Java-Entwicklungsumgebung** – ein funktionierendes JDK (8 oder neuer) und eine IDE oder ein Build‑Tool Ihrer Wahl.  
-- **Aspose.CAD-Bibliothek** – laden Sie das neueste JAR von der offiziellen Seite [here](https://releases.aspose.com/cad/java/) herunter.  
-- **Eine Beispiel-DXF-Datei** – für dieses Tutorial verwenden wir `conic_pyramid.dxf`.
+## Wie man PDF aus CAD erstellt – Schritt‑für‑Schritt‑Anleitung
+Im Folgenden finden Sie einen praktischen Leitfaden, der alles abdeckt – von der Einrichtung Ihrer Entwicklungsumgebung, dem Laden der DXF‑Datei, der Konfiguration von Rasterisierungs‑ und Stifteinstellungen bis hin zur Erzeugung des finalen PDFs. Durch das Befolgen jedes Schrittes erhalten Sie eine einsatzbereite Lösung für **CAD nach PDF exportieren**, die volle Kontrolle über Linienstile, Caps und Dicken bietet.
+
+## Voraussetzungen
+
+- **Java‑Entwicklungsumgebung** – ein funktionierendes JDK (8 oder neuer) und eine IDE oder ein Build‑Tool Ihrer Wahl.  
+- **Aspose.CAD‑Bibliothek** – laden Sie das neueste JAR von der offiziellen Seite herunter [download Aspose.CAD for Java](https://releases.aspose.com/cad/java/).  
+- **Eine Beispiel‑DXF‑Datei** – für dieses Tutorial verwenden wir `conic_pyramid.dxf`.
 
 Jetzt, da wir die Grundlagen geschaffen haben, tauchen wir in den Code ein.
 
-## Import Namespaces
+## Namespaces importieren
+
+Die Import‑Anweisungen bringen die erforderlichen Aspose.CAD‑Klassen in die Java‑Quelldatei, sodass sie im Code referenziert werden können.
 
 ```java
 import com.aspose.cad.Image;
@@ -56,24 +100,30 @@ import com.aspose.cad.imageoptions.PenOptions;
 import com.aspose.cad.internal.imaging.LineCap;
 ```
 
-## Step 1: Define Your Document Directory
+## Schritt 1: Definieren Sie Ihr Dokumentverzeichnis
+
+`dataDir` ist der Ordner, der Ihre Quell‑DXF‑Dateien enthält und in dem das erzeugte PDF gespeichert wird. Die Verwendung eines absoluten Pfads vermeidet Mehrdeutigkeiten, wenn die Anwendung aus verschiedenen Arbeitsverzeichnissen ausgeführt wird.
 
 ```java
 String dataDir = "Your Document Directory" + "CADConversion/";
 ```
 
-> **Profi‑Tipp:** Ersetzen Sie `"Your Document Directory"` durch den absoluten Pfad, in dem Ihre DXF-Dateien liegen.
+> **Pro‑Tipp:** Ersetzen Sie `"Your Document Directory"` durch den absoluten Pfad, in dem Ihre DXF‑Dateien liegen.
 
-## Step 2: Load the CAD File
+## Schritt 2: Laden Sie die CAD‑Datei
+
+`Image.load` liest eine CAD‑Datei und gibt ein `CadImage`‑Objekt zurück, das die Zeichnung im Speicher repräsentiert und für die weitere Verarbeitung bereit ist.
 
 ```java
 String srcFile = dataDir + "conic_pyramid.dxf";
 CadImage cadImage = (CadImage) Image.load(srcFile);
 ```
 
-Die Methode `Image.load` liest die DXF-Datei ein und erzeugt ein `CadImage`-Objekt, das wir manipulieren können.
+Die `CadImage`‑Instanz gibt Ihnen Zugriff auf Rasterisierungsoptionen, Ebenen und andere Zeichnungs‑Metadaten.
 
-## Step 3: Configure Rasterization Options
+## Schritt 3: Rasterisierungsoptionen konfigurieren
+
+`RasterizationOptions` definiert, wie die CAD‑Zeichnung in ein Zwischen‑Rasterbild gerendert wird, bevor sie in das PDF eingefügt wird. Die Anpassung von Seitenbreite und -höhe (oft multipliziert mit 100) liefert hochauflösende Ausgaben, die für den Druck geeignet sind.
 
 ```java
 CadRasterizationOptions rasterizationOptions = new CadRasterizationOptions();
@@ -81,9 +131,9 @@ rasterizationOptions.setPageWidth(cadImage.getWidth() * 100);
 rasterizationOptions.setPageHeight(cadImage.getHeight() * 100);
 ```
 
-Passen Sie die Seitengrößen an, um die Auflösung des resultierenden PDFs zu steuern. Die Multiplikation mit 100 liefert eine hochauflösende Ausgabe, die für den Druck geeignet ist.
+## Schritt 4: Stifteinstellungen anpassen
 
-## Step 4: Customize Pen Options
+`PenOptions` ermöglicht das Festlegen von Anfangs‑ und End‑Caps des Stifts, Linienstärke und Verbindungsstilen. Hier setzen wir beide Caps auf `Flat`; Sie können mit `Round` oder `Square` experimentieren, um unterschiedliche visuelle Effekte zu erzielen.
 
 ```java
 PenOptions penOts = new PenOptions();
@@ -91,64 +141,71 @@ penOts.setStartCap(LineCap.Flat);
 penOts.setEndCap(LineCap.Flat);
 ```
 
-Hier setzen wir sowohl den Start‑ als auch den End‑Cap des Stifts auf `Flat`. Sie können mit anderen `LineCap`-Werten (z. B. `Round`, `Square`) experimentieren, um unterschiedliche visuelle Effekte zu erzielen.
+## Schritt 5: PDF‑Exportoptionen konfigurieren
 
-## Step 5: Configure PDF Export Options
+`PdfOptions` verknüpft die Rasterisierungseinstellungen mit dem PDF‑Exportprozess, stellt sicher, dass das gerenderte Bild korrekt eingebettet wird und dass benutzerdefinierte Stifteinstellungen berücksichtigt werden.
 
 ```java
 PdfOptions pdfOptions = new PdfOptions();
 pdfOptions.setVectorRasterizationOptions(rasterizationOptions);
 ```
 
-Das Objekt `PdfOptions` verknüpft die Rasterisierungseinstellungen mit dem PDF-Exportvorgang.
+## Schritt 6: Exportiertes PDF speichern
 
-## Step 6: Save the Exported PDF
+Ein Aufruf von `save` schreibt eine PDF‑Datei namens `9LHATT-A56_generated.pdf` in Ihren `dataDir`‑Ordner, komplett mit den von Ihnen definierten benutzerdefinierten Stileinstellungen.
 
 ```java
 cadImage.save((dataDir + "9LHATT-A56_generated.pdf"), pdfOptions);
 ```
 
-Durch Ausführen dieser Zeile wird eine PDF-Datei namens `9LHATT-A56_generated.pdf` in Ihren `dataDir`-Ordner geschrieben, komplett mit der von Ihnen definierten benutzerdefinierten Stiftformatierung.
+Das Ausführen dieser Zeile erzeugt ein vektor‑erhaltendes PDF, das die ursprüngliche CAD‑Zeichnung widerspiegelt und dabei Ihre Stiftanpassungen anwendet.
 
-## Common Use Cases
+## Häufige Anwendungsfälle
 
-- **Technische Dokumentation** – präzise Konstruktionszeichnungen in PDF-Handbüchern einbetten.  
-- **Automatisierte Berichterstellung** – PDFs aus CAD-Daten in Echtzeit in Web-Services erzeugen.  
-- **Qualitätskontrolle** – benutzerdefinierte Linienenden anwenden, um Messlinien oder Toleranzen hervorzuheben.
+- **Technische Dokumentation** – präzise Konstruktionszeichnungen in PDF‑Handbücher für Feldtechniker einbetten.  
+- **Automatisierte Berichterstellung** – PDFs aus CAD‑Daten in Echtzeit in Web‑Services oder Batch‑Jobs erzeugen.  
+- **Qualitätskontrolle** – benutzerdefinierte Linien‑Caps anwenden, um Messlinien oder Toleranzen hervorzuheben, wodurch Prüfberichte klarer werden.
 
-## Troubleshooting & Tips
+## Fehlersuche & Tipps
 
-- **Falscher Dateipfad** – stellen Sie sicher, dass `dataDir` mit einem Dateiseparator (`/` oder `\\`) endet.  
-- **Fehlende Lizenz** – ohne gültige Lizenz läuft die Bibliothek im Evaluierungsmodus, der Wasserzeichen hinzufügen kann.  
-- **Unerwartete Linienstile** – prüfen Sie, dass `PenOptions` vor dem Aufruf von `save` gesetzt sind; andernfalls werden Standardwerte verwendet.
+- **Falscher Dateipfad** – stellen Sie sicher, dass `dataDir` mit einem Dateiseparator endet (`/` oder `\\`).  
+- **Fehlende Lizenz** – ohne gültige Lizenz läuft die Bibliothek im Evaluierungsmodus, der Wasserzeichen zum Ausgabe‑PDF hinzufügt.  
+- **Unerwartete Linienstile** – prüfen Sie, dass `PenOptions` **vor** dem Aufruf von `save` gesetzt sind; andernfalls wird die Standard‑Stiftkonfiguration verwendet.
 
-## Frequently Asked Questions
+## Häufig gestellte Fragen
 
-### Q1: Can I customize pen options for formats other than PDF?
+### Q1: Kann ich Stifteinstellungen für andere Formate als PDF anpassen?
 
-A1: Yes, the pen customization demonstrated in this tutorial is applicable to various image formats, including PDF, PNG, BMP, GIF, JPEG2000, JPEG, PSD, TIFF, and WMF.
+A1: Ja, die im Tutorial gezeigte Stiftanpassung ist auf verschiedene Bildformate anwendbar, einschließlich PDF, PNG, BMP, GIF, JPEG2000, JPEG, PSD, TIFF und WMF.
 
-### Q2: How can I handle different start and end caps for pens?
+### Q2: Wie kann ich unterschiedliche Anfangs‑ und End‑Caps für Stifte handhaben?
 
-A2: Utilize the `PenOptions` class to set the desired start and end caps, offering flexibility in defining the appearance of lines.
+A2: Verwenden Sie die Klasse `PenOptions`, um die gewünschten Anfangs‑ und End‑Caps festzulegen, was Flexibilität bei der Definition des Aussehens von Linien bietet.
 
-### Q3: What if I don't specify pen options?
+### Q3: Was passiert, wenn ich keine Stifteinstellungen angebe?
 
-A3: If pen options are not explicitly set, the system will use its default pens, which may vary in different contexts.
+A3: Wenn Stifteinstellungen nicht explizit gesetzt werden, verwendet das System seine Standard‑Stifte, die in verschiedenen Kontexten variieren können.
 
-### Q4: Are there specific considerations for rasterization options?
+### Q4: Gibt es besondere Überlegungen zu Rasterisierungsoptionen?
 
-A4: Adjust the page width and height in the rasterization options to control the dimensions of the exported image.
+A4: Passen Sie die Seitenbreite und -höhe in den Rasterisierungsoptionen an, um die Abmessungen des exportierten Bildes zu steuern.
 
-### Q5: Where can I find additional support or community discussions?
+### Q5: Wo finde ich zusätzliche Unterstützung oder Community‑Diskussionen?
 
-A5: Explore the Aspose.CAD community forum at [here](https://forum.aspose.com/c/cad/19) for support and discussions.
+A5: Erkunden Sie das Aspose.CAD‑Community‑Forum unter [Aspose.CAD community forum](https://forum.aspose.com/c/cad/19) für Unterstützung und Diskussionen.
 
 ---
 
-**Last Updated:** 2026-02-15  
-**Tested With:** Aspose.CAD 24.11 for Java  
-**Author:** Aspose  
+**Zuletzt aktualisiert:** 2026-08-29  
+**Getestet mit:** Aspose.CAD 24.11 für Java  
+**Autor:** Aspose
+
+## Verwandte Tutorials
+
+- [DWG nach PDF in Java exportieren – PDF‑Seitengröße mit Aspose.CAD festlegen](/cad/java/cad-export-options/export-to-pdf/)
+- [PDF aus DXF mit Aspose.CAD für Java erstellen](/cad/java/additional-features/render-dxf-as-pdf/)
+- [CAD nach PDF exportieren: CAD‑Layouts mit Aspose.CAD für Java nach PDF exportieren](/cad/java/cad-export-options/export-cad-layouts-to-pdf/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
