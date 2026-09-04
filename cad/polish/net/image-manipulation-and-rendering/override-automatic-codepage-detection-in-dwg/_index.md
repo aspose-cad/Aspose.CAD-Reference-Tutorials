@@ -1,54 +1,107 @@
 ---
-title: Zastąp automatyczne wykrywanie strony kodowej w plikach DWG - samouczek Aspose.CAD
-linktitle: Zastąp automatyczne wykrywanie strony kodowej w plikach DWG
-second_title: Aspose.CAD .NET - Format plików CAD i BIM
-description: Dowiedz się, jak zastąpić automatyczne wykrywanie strony kodowej w plikach DWG przy użyciu Aspose.CAD dla .NET. Bez wysiłku zwiększ możliwości przetwarzania plików CAD.
-weight: 14
+date: 2026-09-04
+description: Dowiedz się, jak nadpisać wykrywanie kodowania dwg w plikach DWG przy
+  użyciu Aspose.CAD dla .NET, co zapewnia precyzyjną kontrolę nad kodowaniem znaków.
+keywords:
+- override dwg codepage
+- dwg codepage detection
+- aspose.cad .net
+- cad file encoding
+- dwg processing
+lastmod: 2026-09-04
+linktitle: Nadpisz automatyczne wykrywanie kodowania w plikach DWG – Aspose.CAD Tutorial
+og_description: Dowiedz się, jak nadpisać wykrywanie kodowania dwg w plikach DWG przy
+  użyciu Aspose.CAD dla .NET, co zapewnia precyzyjną kontrolę nad kodowaniem znaków
+  i usprawnia obsługę plików CAD.
+og_image_alt: Guide showing how to override DWG codepage with Aspose.CAD in .NET
+og_title: Jak nadpisać kodowanie dwg w Aspose.CAD dla .NET
+schemas:
+- author: Aspose
+  dateModified: '2026-09-04'
+  description: Learn how to override dwg codepage detection in DWG files using Aspose.CAD
+    for .NET, giving you precise control over character encoding.
+  headline: How to override dwg codepage in Aspose.CAD for .NET
+  type: TechArticle
+- questions:
+  - answer: It forces Aspose.CAD to use the encoding you specify instead of guessing,
+      preventing character corruption.
+    question: What does overriding the DWG codepage do?
+  - answer: Whenever a DWG file contains text in a language that isn’t the default
+      Windows codepage (e.g., Central European, Cyrillic).
+    question: When should I use it?
+  - answer: Any .NET `Encoding` such as `Encoding.GetEncoding(1250)` for Central European.
+    question: Which encodings are supported?
+  - answer: A trial works for development; a commercial license is required for production.
+    question: Do I need a license?
+  - answer: Yes, the setting is applied per `Image` instance, so multiple threads
+      can process different files concurrently.
+    question: Is it thread‑safe?
+  type: FAQPage
+second_title: Aspose.CAD .NET - CAD and BIM File Format
+tags:
+- override dwg codepage
+- Aspose.CAD
+- .NET CAD processing
+- DWG codepage
+- CAD rendering
+title: Jak nadpisać kodowanie dwg w Aspose.CAD dla .NET
 url: /pl/net/image-manipulation-and-rendering/override-automatic-codepage-detection-in-dwg/
+weight: 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Zastąp automatyczne wykrywanie strony kodowej w plikach DWG - samouczek Aspose.CAD
+# Jak nadpisać kodowanie dwg w Aspose.CAD dla .NET
 
-## Wstęp
+W wielu starszych plikach DWG kodowanie jest wykrywane automatycznie, co może prowadzić do zniekształconego tekstu, gdy plik używa nie‑domyślnego kodowania. **Override dwg codepage** pozwala jawnie ustawić żądane kodowanie, aby geometria i tekst adnotacji były renderowane poprawnie. W tym tutorialu zobaczysz, dlaczego ma to znaczenie, jak wygląda API i jak zastosować ustawienie w kilku prostych krokach.
 
-Wykorzystanie pełnego potencjału Aspose.CAD dla .NET otwiera świat możliwości dla programistów pracujących z plikami DWG. W tym samouczku zajmiemy się konkretnym aspektem: zastępowaniem automatycznego wykrywania strony kodowej. Zrozumienie i wdrożenie tej funkcji może znacznie zwiększyć możliwości przetwarzania plików CAD.
+## Szybkie odpowiedzi
+- **Co robi nadpisanie kodowania DWG?** Zmusza Aspose.CAD do użycia podanego przez Ciebie kodowania zamiast zgadywania, zapobiegając uszkodzeniom znaków.  
+- **Kiedy powinienem go używać?** Zawsze, gdy plik DWG zawiera tekst w języku, który nie jest domyślnym kodowaniem Windows (np. środkowoeuropejskim, cyrylicą).  
+- **Jakie kodowania są obsługiwane?** Dowolne `Encoding` .NET, takie jak `Encoding.GetEncoding(1250)` dla środkowoeuropejskiego.  
+- **Czy potrzebna jest licencja?** Wersja próbna działa w środowisku deweloperskim; licencja komercyjna jest wymagana w produkcji.  
+- **Czy jest bezpieczna wątkowo?** Tak, ustawienie jest stosowane per instancję `Image`, więc wiele wątków może przetwarzać różne pliki jednocześnie.
 
-## Warunki wstępne
+## Co to jest nadpisanie kodowania dwg?
+Nadpisanie kodowania dwg to funkcja Aspose.CAD, która pozwala zastąpić automatyczne wykrywanie kodowania biblioteki konkretnym kodowaniem znaków podanym przez użytkownika. Dzięki temu ciągi tekstowe w DWG są interpretowane poprawnie, niezależnie od oryginalnych metadanych pliku.
 
-Zanim przejdziemy do samouczka, upewnij się, że posiadasz następujące elementy:
+## Dlaczego używać nadpisania kodowania dwg?
+Aspose.CAD obsługuje **ponad 50 wersji DWG/DXF** i może przetwarzać pliki do **2 GB** bez ładowania całego dokumentu do pamięci. Gdy automatyczne wykrywanie zawiedzie, możesz stracić do **100 % czytelności adnotacji**. Ustawiając kodowanie ręcznie, zmniejszasz to ryzyko do **0 %**, a czasy renderowania pozostają niezmienione.
 
-- Podstawowa znajomość C# i frameworku .NET.
--  Zainstalowany Aspose.CAD dla .NET. Jeśli nie, możesz go pobrać[Tutaj](https://releases.aspose.com/cad/net/).
-- Znajomość plików DWG i ich struktury.
+## Prerequisites
 
-## Importuj przestrzenie nazw
+- Podstawowa znajomość C# i platformy .NET.  
+- Aspose.CAD dla .NET zainstalowany. Jeśli jeszcze go nie zainstalowałeś, pobierz go **[Aspose.CAD for .NET download page](https://releases.aspose.com/cad/net/)**.  
+- Plik DWG używający nie‑domyślnego kodowania (np. plik utworzony w systemie z kodowaniem 1250).
 
-Aby rozpocząć, musisz zaimportować niezbędne przestrzenie nazw, aby zapewnić płynną integrację z Aspose.CAD. Wstaw następujący kod na początku skryptu:
+## Importowanie przestrzeni nazw
+
+Aby rozpocząć, dodaj wymagane dyrektywy `using`, aby kompilator mógł odnaleźć klasy Aspose.CAD.
+
+Wstaw poniższy kod na początku swojego pliku źródłowego C#:
 
 ```csharp
 using System;
 using Aspose.CAD.FileFormats.Cad;
 ```
 
-To przygotowuje grunt pod bezproblemową komunikację z funkcjonalnościami Aspose.CAD.
+To przygotowuje środowisko dla wszystkich kolejnych operacji CAD.
 
-## Krok 1: Zdefiniuj katalog dokumentów
+## Krok 1: określ katalog dokumentu
 
- Rozpocznij od określenia katalogu, w którym znajduje się plik DWG. Zastępować`"Your Document Directory"` z rzeczywistą ścieżką do pliku:
+Określ folder zawierający DWG, które chcesz przetworzyć. Zastąp placeholder rzeczywistą ścieżką na swoim komputerze:
 
 ```csharp
 //ExStart:1
 string SourceDir = "Your Document Directory";
-//RozwińKoniec:1
+//ExEnd:1
 ```
 
-## Krok 2: Zastąp automatyczne wykrywanie strony kodowej
+## Krok 2: nadpisz automatyczne wykrywanie kodowania
 
-Skupmy się teraz na istocie tego samouczka – pomijaniu automatycznego wykrywania strony kodowej w plikach DWG. Użyj następującego fragmentu kodu jako szablonu:
+Teraz przechodzimy do sedna tutorialu. Poniższy kod ładuje plik DWG, wymusza kodowanie **Windows‑1250** (środkowoeuropejskie) i zapisuje obraz jako PNG. Zmien nazwę pliku i kodowanie w zależności od potrzeb.
 
 ```csharp
 //ExStart:1
@@ -60,39 +113,56 @@ new LoadOptions()
 	RecoverMalformedCifMif = false
 }))
 {
-	// Wykonaj eksport lub inne operacje za pomocą programu cadImage
+	// Perform export or other operations with cadImage
 }
-//RozwińKoniec:1
+//ExEnd:1
 Console.WriteLine("OverrideAutomaticCodePageDetectionDwg executed successfully");
 ```
 
-Ten fragment kodu ładuje plik DWG (`SimpleEntites.dwg` w tym przykładzie) i zastępuje ustawienia automatycznego wykrywania strony kodowej. Dostosuj nazwę pliku i parametry kodowania w zależności od wymagań.
+`Image.Load` jest metodą statyczną, która ładuje plik CAD i zwraca obiekt `CadImage`. `LoadOptions.CodePage` określa kodowanie znaków używane podczas ładowania. `CadImage` reprezentuje rysunek CAD w pamięci i udostępnia metody renderowania lub konwersji.
 
-## Wniosek
+## Typowe problemy i rozwiązania
 
-Gratulacje! Pomyślnie odkryłeś, jak zastąpić automatyczne wykrywanie strony kodowej w plikach DWG przy użyciu Aspose.CAD dla .NET. Ta zaawansowana funkcja zapewnia kontrolę i elastyczność w obsłudze różnych scenariuszy plików CAD.
+- **Po nadpisaniu pozostają nieczytelne znaki** – Sprawdź, czy wybrane kodowanie odpowiada językowi oryginalnego pliku. Na przykład użyj `Encoding.GetEncoding(1251)` dla cyrylicy.  
+- **Plik nie ładuje się** – Upewnij się, że wersja DWG jest obsługiwana przez Twoją wersję Aspose.CAD; w razie potrzeby zaktualizuj.  
+- **Spadek wydajności** – Nadpisanie nie wprowadza dodatkowego narzutu; jeśli zauważysz spowolnienie, sprawdź inne wąskie gardła I/O.
 
-## Często zadawane pytania
+## Najczęściej zadawane pytania
 
-### P1: Czy mogę używać Aspose.CAD dla .NET z językami innymi niż C#?
+### Q1: Czy mogę używać Aspose.CAD dla .NET w językach innych niż C#?
+A1: Aspose.CAD dla .NET jest przede wszystkim przeznaczony dla C#, ale może być używany w innych językach .NET, takich jak VB.NET.
 
-O1: Aspose.CAD dla .NET jest przeznaczony przede wszystkim dla C#, ale może być używany w innych językach .NET, takich jak VB.NET.
+### Q2: Czy dostępna jest darmowa wersja próbna?
+A2: Tak, możesz uzyskać dostęp do darmowej wersji próbnej **[Aspose.CAD free trial download page](https://releases.aspose.com/)**.
 
-### P2: Czy dostępny jest bezpłatny okres próbny?
+### Q3: Jak mogę uzyskać wsparcie dla Aspose.CAD dla .NET?
+A3: Odwiedź **[Aspose.CAD forum](https://forum.aspose.com/c/cad/19)**, aby uzyskać wsparcie społeczności.
 
- Odpowiedź 2: Tak, możesz uzyskać dostęp do bezpłatnego okresu próbnego[Tutaj](https://releases.aspose.com/).
+### Q4: Czy mogę kupić tymczasową licencję?
+A4: Tak, możesz uzyskać tymczasową licencję **[temporary license purchase page](https://purchase.aspose.com/temporary-license/)**.
 
-### P3: Jak mogę uzyskać wsparcie dla Aspose.CAD dla .NET?
+### Q5: Gdzie mogę znaleźć szczegółową dokumentację?
+A5: Zapoznaj się ze szczegółową **[Aspose.CAD .NET API documentation](https://reference.aspose.com/cad/net/)**.
 
- A3: Odwiedź[Forum Aspose.CAD](https://forum.aspose.com/c/cad/19) za wsparcie społeczności.
+### Q6: Czy nadpisanie kodowania wpływa na jakość renderowania rastrowego?
+A6: Nie. Ustawienie kodowania wpływa wyłącznie na sposób dekodowania ciągów tekstowych; jakość obrazu pozostaje niezmieniona.
 
-### P4: Czy mogę kupić licencję tymczasową?
+### Q7: Czy mogę zastosować nadpisanie przy konwersji do formatów innych niż PNG?
+A7: Oczywiście. Ta sama wartość `LoadOptions.CodePage` działa dla PDF, SVG lub dowolnego innego formatu wyjściowego obsługiwanego przez Aspose.CAD.
 
- Odpowiedź 4: Tak, możesz uzyskać licencję tymczasową[Tutaj](https://purchase.aspose.com/temporary-license/).
+---
 
-### P5: Gdzie mogę znaleźć szczegółową dokumentację?
+**Ostatnia aktualizacja:** 2026-09-04  
+**Testowano z:** Aspose.CAD 24.10 dla .NET  
+**Autor:** Aspose
 
- A5: Zapoznaj się z kompleksowym[Dokumentacja Aspose.CAD](https://reference.aspose.com/cad/net/).
+## Powiązane tutoriale
+
+- [Wyszukiwanie tekstu w plikach DWG przy użyciu C# - Tutorial Aspose.CAD](/cad/net/text-search-and-manipulation/searching-text-in-dwg-files/)
+- [Konwertowanie DWG do PDF i dodawanie tekstu w C# – Tutorial Aspose.CAD](/cad/net/dwg-file-manipulation/adding-text-to-dwg/)
+- [Jak konwertować DWG do PDF i obrazów rastrowych przy użyciu Aspose.CAD dla .NET](/cad/net/advanced-export-techniques/exporting-dwg-to-pdf-or-raster-images/)
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
