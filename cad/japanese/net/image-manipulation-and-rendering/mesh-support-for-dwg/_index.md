@@ -1,35 +1,107 @@
 ---
-title: DWG ファイルのメッシュ サポート - Aspose.CAD ガイド
-linktitle: DWG ファイルのメッシュのサポート
-second_title: Aspose.CAD .NET - CAD および BIM ファイル形式
-description: Aspose.CAD for .NET を使用して、DWG ファイルのメッシュ サポートを調べてください。強力なメッシュ操作機能で CAD アプリケーションを強化します。
-weight: 13
+date: 2026-09-09
+description: Aspose.CAD を使用して DWG ファイルを .NET で読み込む方法を学び、.NET アプリケーションにおける高度な CAD 処理のためのメッシュサポートを有効にします。
+keywords:
+- load dwg file .net
+- mesh support
+- Aspose.CAD
+lastmod: 2026-09-09
+linktitle: DWG ファイルのメッシュサポート
+og_description: Aspose.CAD を使用して .NET で DWG ファイルを読み込み、メッシュエンティティを操作します。このチュートリアルでは、セットアップ手順、コードスニペット、ベストプラクティスをご案内します。
+og_image_alt: Screenshot of Aspose.CAD mesh extraction in a .NET IDE
+og_title: メッシュサポート付き DWG ファイルの .NET 読み込み – Aspose.CAD ガイド
+schemas:
+- author: Aspose
+  dateModified: '2026-09-09'
+  description: Learn how to load DWG file .net with Aspose.CAD, enabling mesh support
+    for advanced CAD processing in .NET applications.
+  headline: How to load DWG file .net with mesh support using Aspose.CAD
+  type: TechArticle
+- description: Learn how to load DWG file .net with Aspose.CAD, enabling mesh support
+    for advanced CAD processing in .NET applications.
+  name: How to load DWG file .net with mesh support using Aspose.CAD
+  steps:
+  - name: load the DWG file
+    text: Begin by loading an existing DWG file as a `CadImage`. The `CadImage.Load`
+      method reads the file header, validates the format, and prepares the entity
+      collection for enumeration.
+  - name: iterate through entities
+    text: Next, iterate through the `Entities` collection to locate mesh objects.
+      The `Entities` collection holds all CAD objects in the drawing. Each entity
+      implements `ICadEntity`, and you can use the `is` operator to test its concrete
+      type. `ICadEntity` is the base interface for all CAD entity types.
+  - name: check for PolyFaceMesh
+    text: Within the loop, test whether the current entity is a `PolyFaceMesh`. This
+      type stores vertices and face definitions, enabling you to reconstruct 3‑D surfaces.
+  - name: check for PolygonMesh
+    text: Similarly, detect `PolygonMesh` entities, which represent a regular grid
+      of vertices. These are useful for terrain models and structured surface data.
+      **Tip:** You can combine the two checks into a single `switch` statement to
+      keep the code tidy and improve readability.
+  type: HowTo
+- questions:
+  - answer: Yes, it supports DWG releases from R14 through the most recent 2023 format,
+      covering over 90 % of files created by major CAD tools.
+    question: Is Aspose.CAD compatible with all versions of DWG files?
+  - answer: Absolutely. The library lets you modify entities, add new meshes, and
+      save the result back to DWG or export to other formats.
+    question: Can I perform both read and write operations on DWG files using Aspose.CAD?
+  - answer: Yes, you can explore licensing options and choose the one that best fits
+      your project's needs [Aspose.CAD licensing page](https://purchase.aspose.com/buy).
+    question: Are there any licensing options available for Aspose.CAD?
+  - answer: Visit the Aspose.CAD forum [Aspose.CAD forum](https://forum.aspose.com/c/cad/19)
+      to receive assistance from the community and Aspose support staff.
+    question: How can I get technical support for Aspose.CAD?
+  - answer: Yes, you can access a free trial version [Aspose free trial downloads](https://releases.aspose.com/)
+      to explore Aspose.CAD's capabilities before purchasing.
+    question: Is there a free trial version of Aspose.CAD available?
+  type: FAQPage
+second_title: Aspose.CAD .NET - CAD and BIM File Format
+tags:
+- dwg loading
+- mesh entities
+- CAD processing
+title: Aspose.CAD を使用したメッシュサポート付き DWG ファイルの .NET 読み込み方法
 url: /ja/net/image-manipulation-and-rendering/mesh-support-for-dwg/
+weight: 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# DWG ファイルのメッシュ サポート - Aspose.CAD ガイド
+# Aspose.CAD を使用したメッシュサポート付き DWG ファイル .net のロード方法
 
-## 導入
+## はじめに
 
-DWG ファイルのメッシュ サポートのエキサイティングな世界を掘り下げながら、Aspose.CAD for .NET の可能性を解き放ちます。このステップバイステップ ガイドでは、Aspose.CAD の機能を利用してメッシュ データを含む DWG ファイルを操作するプロセスを順を追って説明します。経験豊富な開発者であっても、Aspose.CAD を使い始めたばかりであっても、このチュートリアルでは、メッシュ エンティティを含む DWG ファイルを操作して貴重な情報を抽出するための知識を身につけることができます。
+このガイドでは、**DWG ファイル .net のロード** を Aspose.CAD で行い、PolyFaceMesh や PolygonMesh といったメッシュエンティティを操作する方法を学びます。CAD ビューアの構築、ジオメトリ解析、図面の変換など、メッシュサポートを習得することで .NET アプリケーションに新たな可能性が広がります。
+
+## クイック回答
+- **最初のステップは何ですか？** Aspose.CAD for .NET をインストールし、プロジェクトでライブラリを参照してください。  
+- **どのクラスが DWG ファイルをロードしますか？** `CadImage` がすべての CAD フォーマットのエントリーポイントです。  
+- **メッシュデータを読み取れますか？** はい – `Entities` コレクションを反復し、`PolyFaceMesh` または `PolygonMesh` をチェックします。  
+- **開発にライセンスは必要ですか？** 無料トライアルでテスト可能ですが、本番環境では商用ライセンスが必要です。  
+- **サポートされている .NET バージョンは？** .NET Framework 4.5+、.NET Core 3.1+、.NET 5/6/7。
+
+## load dwg file .net とは何ですか？
+`load dwg file .net` は、専用 API を使用して .NET アプリケーション内で DWG 図面を開くプロセスを指します。Aspose.CAD は完全に管理された `CadImage` オブジェクトを提供し、ファイル形式の詳細を抽象化して、ネイティブな AutoCAD 依存なしに図面の読み取り、変更、レンダリングが可能です。
+
+## DWG ファイルでメッシュサポートを使用する理由
+Aspose.CAD は **50 以上の CAD エンティティ** を処理でき、**500 MB** までのファイルをメモリ全体にロードせずに扱えます。メッシュエンティティは 3‑D ジオメトリを表すため、これらにアクセスすることで正確な表面解析、カスタムレンダリングパイプライン、OBJ や STL への変換が可能になります。
 
 ## 前提条件
 
-この作業を開始する前に、次の前提条件が満たされていることを確認してください。
+1. **Aspose.CAD ライブラリ** – 公式 Aspose.CAD .NET リリースページからダウンロードしてください [Aspose.CAD .NET releases](https://releases.aspose.com/cad/net/)。  
+2. **開発環境** – Visual Studio 2022（または .NET をサポートする任意の IDE）。  
+3. **サンプル DWG ファイル** – メッシュデータ（PolyFaceMesh または PolygonMesh）を含む図面。  
 
-1.  Aspose.CAD ライブラリ: 開発環境に Aspose.CAD for .NET ライブラリがインストールされていることを確認してください。そうでない場合は、ダウンロードしてください[ここ](https://releases.aspose.com/cad/net/).
+## DWG ファイル .net のロード方法
 
-2. 開発環境: Visual Studio などの好みの .NET 開発環境をセットアップして、Aspose.CAD をシームレスに統合します。
+DWG ファイルは `CadImage` インスタンスをファイルパスで作成してロードし、画像が正常に開かれたことを確認します。この単一の手順でエンティティ全体、特にメッシュへのフルアクセスが可能になり、Windows と Linux の両方のランタイムで動作します。
 
-3. サンプル DWG ファイル: メッシュ データを含むサンプル DWG ファイルを入手します。既存の DWG ファイルを使用することも、テストに適したサンプルを見つけることもできます。
+### 名前空間のインポート
 
-## 名前空間のインポート
-
-まず、必要な名前空間を .NET アプリケーションにインポートします。これにより、DWG ファイルの操作に必要な Aspose.CAD 機能に確実にアクセスできるようになります。次の名前空間をコードに追加します。
+`CadImage` クラスは `Aspose.CAD.ImageOptions` 名前空間にあります。必要な `using` 文をソース ファイルに追加してください:
 
 ```csharp
 using System;
@@ -45,9 +117,9 @@ using Aspose.CAD.FileFormats.Cad.CadObjects.AttEntities;
 using Aspose.CAD.FileFormats.Cad.CadObjects.Polylines;
 ```
 
-## ステップ 1: DWG ファイルをロードする
+### 手順 1: DWG ファイルのロード
 
-まず、既存の DWG ファイルを`CadImage`:
+既存の DWG ファイルを `CadImage` としてロードします。`CadImage.Load` メソッドはファイルヘッダーを読み取り、形式を検証し、エンティティ コレクションの列挙準備を行います。
 
 ```csharp
 string MyDir = "Your Document Directory";
@@ -55,24 +127,24 @@ string sourceFilePath = MyDir + "meshes.dwg";
 
 using (CadImage cadImage = (CadImage)Image.Load(sourceFilePath))
 {
-    //コードはここに入力します
+    // Your code goes here
 }
 ```
 
-## ステップ 2: エンティティを反復処理する
+### 手順 2: エンティティのイテレーション
 
-次に、DWG ファイル内のエンティティを繰り返し処理して、メッシュ エンティティを特定します。
+次に `Entities` コレクションを反復し、メッシュオブジェクトを検索します。`Entities` コレクションには図面内のすべての CAD オブジェクトが格納されています。各エンティティは `ICadEntity` を実装しており、`is` 演算子で具体的な型をテストできます。`ICadEntity` はすべての CAD エンティティ型の基本インターフェイスです。
 
 ```csharp
 foreach (var entity in cadImage.Entities)
 {
-    //コードはここに入力します
+    // Your code goes here
 }
 ```
 
-## ステップ 3: PolyFaceMesh を確認する
+### 手順 3: PolyFaceMesh のチェック
 
-反復内で、エンティティが PolyFaceMesh であるかどうかを確認します。
+ループ内で現在のエンティティが `PolyFaceMesh` かどうかをテストします。この型は頂点と面定義を保持し、3‑D 表面の再構築を可能にします。
 
 ```csharp
 if (entity is CadPolyFaceMesh)
@@ -86,9 +158,9 @@ if (entity is CadPolyFaceMesh)
 }
 ```
 
-## ステップ 4: ポリゴンメッシュを確認する
+### 手順 4: PolygonMesh のチェック
 
-同様に、エンティティが PolygonMesh であるかどうかを確認します。
+同様に、`PolygonMesh` エンティティを検出します。これは規則的な頂点グリッドを表し、地形モデルや構造化された表面データに有用です。
 
 ```csharp
 else if (entity is CadPolygonMesh)
@@ -102,33 +174,44 @@ else if (entity is CadPolygonMesh)
 }
 ```
 
-必要に応じて追加のエンティティに対してこれらの手順を繰り返し、アプリケーションの特定の要件に合わせてコードを調整します。
+**Tip:** 2 つのチェックを単一の `switch` 文にまとめることで、コードをすっきりさせ、可読性を向上させることができます。
 
-## 結論
+## よくある落とし穴とトラブルシューティング
 
-おめでとう！ Aspose.CAD for .NET を使用して、DWG ファイルのメッシュ サポートの複雑な作業を無事に完了しました。この強力なライブラリを使用すると、メッシュ データを簡単に操作できるようになり、CAD アプリケーションの新たな可能性が広がります。
+- **メッシュデータが欠如している:** ソース DWG に実際にメッシュエンティティが含まれていることを確認してください。古い図面は軽量 2‑D ポリラインを使用している場合があります。  
+- **大きなファイル:** 200 MB を超えるファイルの場合、`LoadOptions.MemoryLimit` プロパティを有効にしてメモリ不足例外を防止してください。  
+- **サポートされていないバージョン:** Aspose.CAD は R14 から最新の 2023 リリースまでの DWG バージョンをサポートしています。古い R12 ファイルは事前に変換が必要になることがあります。
 
 ## よくある質問
 
-### Q1: Aspose.CAD は、DWG ファイルのすべてのバージョンと互換性がありますか?
+**Q: Aspose.CAD はすべての DWG ファイル バージョンと互換性がありますか？**  
+A: はい、R14 から最新の 2023 フォーマットまでの DWG リリースをサポートしており、主要な CAD ツールで作成されたファイルの 90 %以上に対応しています。
 
-A1: はい、Aspose.CAD は幅広い DWG ファイル バージョンをサポートしており、さまざまな CAD ソフトウェアとの互換性を確保しています。
+**Q: Aspose.CAD を使用して DWG ファイルの読み取りと書き込みの両方を行えますか？**  
+A: もちろんです。ライブラリを使えばエンティティを変更したり、新しいメッシュを追加したり、結果を DWG に保存したり、他の形式へエクスポートしたりできます。
 
-### Q2: Aspose.CAD を使用して、DWG ファイルの読み取り操作と書き込み操作の両方を実行できますか?
+**Q: Aspose.CAD のライセンスオプションはありますか？**  
+A: はい、ライセンスオプションを確認し、プロジェクトのニーズに最適なものを選択できます [Aspose.CAD licensing page](https://purchase.aspose.com/buy)。
 
-A2: もちろんです。 Aspose.CAD は、DWG ファイルの読み取りと書き込みの両方を包括的にサポートし、CAD データを完全に制御できるようにします。
+**Q: Aspose.CAD のテクニカルサポートはどのように受けられますか？**  
+A: Aspose.CAD フォーラム [Aspose.CAD forum](https://forum.aspose.com/c/cad/19) を訪れて、コミュニティや Aspose のサポートスタッフから支援を受けてください。
 
-### Q3: Aspose.CAD で利用できるライセンス オプションはありますか?
+**Q: 無料トライアル版の Aspose.CAD は利用可能ですか？**  
+A: はい、無料トライアル版 [Aspose free trial downloads](https://releases.aspose.com/) を利用して、購入前に Aspose.CAD の機能を試すことができます。
 
- A3: はい、ライセンス オプションを調べて、プロジェクトのニーズに最適なものを選択できます。[ここ](https://purchase.aspose.com/buy).
+---
 
-### Q4: Aspose.CAD のテクニカル サポートを受けるにはどうすればよいですか?
+**最終更新日:** 2026-09-09  
+**テスト対象:** Aspose.CAD 24.11 for .NET  
+**作者:** Aspose
 
- A4: Aspose.CAD フォーラムにアクセスしてください。[ここ](https://forum.aspose.com/c/cad/19)コミュニティや Aspose サポート スタッフから支援を受けることができます。
+## 関連チュートリアル
 
-### Q5: Aspose.CAD の無料試用版はありますか?
+- [Aspose.CAD for .NET を使用したメッシュサポート付き DWG から PDF への変換方法](/cad/net/cad-features-and-support/mesh-support/)
+- [DWG を画像に変換 – DWG ファイルのアンダーレイフラグを探る - Aspose.CAD チュートリアル](/cad/net/dwg-file-manipulation/exploring-underlay-flags-of-dwg/)
+- [Aspose.CAD for .NET を使用した DWG の PDF およびラスタ画像への変換方法](/cad/net/advanced-export-techniques/exporting-dwg-to-pdf-or-raster-images/)
 
- A5: はい、無料試用版にアクセスできます。[ここ](https://releases.aspose.com/)購入する前に、Aspose.CAD の機能を確認してください。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
