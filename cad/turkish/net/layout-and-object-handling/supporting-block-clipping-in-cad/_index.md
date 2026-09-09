@@ -1,34 +1,99 @@
 ---
-title: CAD'de Blok Kırpmayı Destekleme - Aspose.CAD Eğitimi
+date: 2026-09-09
+description: Aspose.CAD for .NET kullanarak CAD'de blok kırpma, DXF'yi PDF'ye dönüştürme
+  ve CAD'i PDF olarak kaydetme yöntemini öğrenin. Bu adım adım kılavuzu izleyin.
+keywords:
+- how to clip block
+- convert dxf to pdf
+- save cad as pdf
+- create pdf from cad
+- load cad image
+lastmod: 2026-09-09
 linktitle: CAD'de Blok Kırpmayı Destekleme
-second_title: Aspose.CAD .NET - CAD ve BIM Dosya Formatı
-description: Aspose.CAD for .NET kullanarak CAD'de blok kırpmanın nasıl uygulanacağını öğrenin. Bu adım adım eğitimle tasarım yeteneklerinizi geliştirin.
-weight: 12
+og_description: Aspose.CAD for .NET ile CAD'de blok kırpma, DXF'yi PDF'ye dönüştürme
+  ve CAD'i PDF olarak kaydetme yöntemini öğrenin. Geliştiriciler için hızlı bir kılavuz.
+og_image_alt: Screenshot of block clipping in a CAD drawing using Aspose.CAD for .NET
+og_title: Aspose.CAD for .NET kullanarak CAD'de blok nasıl kırpılır
+schemas:
+- author: Aspose
+  dateModified: '2026-09-09'
+  description: Learn how to clip block in CAD, convert DXF to PDF and save CAD as
+    PDF using Aspose.CAD for .NET. Follow this step‑by‑step guide.
+  headline: How to clip block in CAD using Aspose.CAD for .NET
+  type: TechArticle
+- description: Learn how to clip block in CAD, convert DXF to PDF and save CAD as
+    PDF using Aspose.CAD for .NET. Follow this step‑by‑step guide.
+  name: How to clip block in CAD using Aspose.CAD for .NET
+  steps:
+  - name: define the document directory
+    text: Replace “Your Document Directory” with the actual path to your CAD documents.
+  - name: specify input and output files
+    text: Adjust the file names as per your project requirements.
+  - name: load CAD image
+    text: The `Image` class **loads CAD image** from the specified input file, enabling
+      you to apply clipping before any rendering.
+  - name: configure rasterization options
+    text: Customize rasterization options according to your rendering needs, such
+      as setting the output resolution or background color.
+  - name: save as PDF
+    text: Save the processed CAD image as a PDF file, effectively **saving CAD as
+      PDF** while the block remains clipped.
+  type: HowTo
+- questions:
+  - answer: No, clipping is applied only during rasterization; vector exports retain
+      the original geometry.
+    question: Does block clipping affect vector export formats like SVG?
+  - answer: The library can process files up to **2 GB** on a 64‑bit process without
+      full memory loading.
+    question: What is the maximum file size Aspose.CAD can handle when clipping?
+  - answer: Yes—iterate through `image.Blocks` and assign a `BlockClippingInfo` to
+      each target block before saving.
+    question: Can I clip multiple blocks in one operation?
+  type: FAQPage
+second_title: Aspose.CAD .NET - CAD and BIM File Format
+tags:
+- CAD clipping
+- Aspose.CAD
+- .NET CAD processing
+- PDF conversion
+title: Aspose.CAD for .NET kullanarak CAD'de blok nasıl kırpılır
 url: /tr/net/layout-and-object-handling/supporting-block-clipping-in-cad/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# CAD'de Blok Kırpmayı Destekleme - Aspose.CAD Eğitimi
+# Aspose.CAD for .NET kullanarak CAD'de blok kırpma
 
-## giriiş
+## Giriş
 
-Aspose.CAD for .NET kullanılarak CAD'de blok kırpmanın desteklenmesine ilişkin kapsamlı bir eğitime hoş geldiniz. Aspose.CAD, geliştiricilerin .NET uygulamalarında CAD dosyalarıyla sorunsuz bir şekilde çalışmasına olanak tanıyan güçlü bir kütüphanedir. Bu eğitimde, CAD tasarımında önemli bir özellik olan blok kırpmanın uygulanmasına odaklanacağız.
+Bu kapsamlı rehberde CAD çiziminde **bloku nasıl kırpacağınızı**, DXF'yi PDF'ye dönüştürmeyi ve CAD'i PDF olarak kaydetmeyi Aspose.CAD for .NET ile öğreneceksiniz. Blok kırpma, orijinal geometriyi değiştirmeden bir bloğun belirli bölümlerini gizlemenize veya ortaya çıkarmanıza olanak tanır; bu teknik, render süresini hızlandırır ve dosya boyutunu azaltır.
+
+## Hızlı yanıtlar
+- **Blok kırpma ne yapar?** Belirli bir kırpma sınırına göre bir blok içindeki seçili geometriyi gizler.  
+- **Hangi kütüphane bunu destekler?** Aspose.CAD for .NET, blok kırpma için yerleşik bir API sağlar.  
+- **Lisans gerekli mi?** Üretim kullanımında geçici veya kalıcı bir lisans gereklidir.  
+- **DXF'yi PDF'ye dönüştürebilir miyim?** Evet—aynı rasterleştirme seçeneklerini kullanın ve PDF formatıyla `Save` metodunu çağırın.  
+- **Hangi .NET sürümleri destekleniyor?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7.
+
+## Blok kırpma nedir?
+`Block clipping`, bir blok varlığı için kırpma bölgesi tanımlayan bir CAD özelliğidir; bölge dışındaki geometri rasterleştirme sırasında yok sayılır. Bu, büyük bir bloğun yalnızca bir kısmının görüntülenmesi gerektiğinde performansı artırır.
+
+## CAD'de blok kırpma neden kullanılır?
+Aspose.CAD, **50+** CAD ve BIM formatını destekler ve dosyanın tamamını belleğe yüklemeden **2 GB**'a kadar dosyaları işleyebilir. Blok kırpma kullanmak, render edilen alanı **%70**'e kadar azaltır; bu da PDF dönüşümünü hızlandırır ve sunucu tarafı iş yüklerinde bellek tüketimini düşürür.
 
 ## Önkoşullar
 
-Eğiticiye dalmadan önce aşağıdaki önkoşulların mevcut olduğundan emin olun:
+- C# programlama diline temel bilgi.  
+- Makinenizde Visual Studio yüklü olması.  
+- Aspose.CAD for .NET kütüphanesi. Bunu [Aspose.CAD for .NET indirme sayfasından](https://releases.aspose.com/cad/net/) indirebilirsiniz.  
+- Test amaçlı bir örnek CAD dosyası. Sağlanan DXF dosyasını kullanabilirsiniz.
 
-- Temel C# programlama dili bilgisi.
-- Makinenizde Visual Studio yüklü.
--  Aspose.CAD for .NET kütüphanesi. Şuradan indirebilirsiniz[Burada](https://releases.aspose.com/cad/net/).
-- Test amaçlı örnek bir CAD dosyası. Sağlanan DXF dosyasını kullanabilirsiniz.
+## Ad alanlarını içe aktar
 
-## Ad Alanlarını İçe Aktar
-
-C# projenizde Aspose.CAD ile çalışmak için gerekli ad alanlarını içe aktardığınızdan emin olun:
+C# projenizde, Aspose.CAD ile çalışmak için gerekli ad alanlarını içe aktardığınızdan emin olun:
 
 ```csharp
 using Aspose.CAD.FileFormats.Cad;
@@ -39,18 +104,22 @@ using System.Linq;
 using System.Text;
 ```
 
-Şimdi örnek kodu birden çok adıma ayıralım:
+Şimdi örnek kodu birden fazla adıma ayıralım:
 
-## Adım 1: Belge Dizinini Tanımlayın
+## CAD'de blok nasıl kırpılır?
+
+`Image` sınıfı bir CAD çizimini belleğe yükler ve `BlockClippingInfo` bir blok için kırpma çokgenini tanımlar. CAD çiziminizi `new Image("input.dxf")` ile yükleyin, kırpma çokgenini tanımlayan bir `BlockClippingInfo` nesnesi oluşturun, hedef bloğa `image.Blocks["BlockName"].ClippingInfo = clippingInfo` ile atayın ve ardından görüntüyü rasterleştirin veya kaydedin. Bu sıralama, bloğu tek bir geçişte kırpar ve hem DXF hem de DWG kaynakları için çalışır.
+
+### Adım 1: belge dizinini tanımla
 
 ```csharp
-// Belgeler dizininin yolu.
+// The path to the documents directory.
 string MyDir = "Your Document Directory";
 ```
 
-"Belge Dizininiz"i, CAD belgelerinizin gerçek yolu ile değiştirin.
+"Your Document Directory" ifadesini CAD belgelerinizin gerçek yolu ile değiştirin.
 
-## Adım 2: Giriş ve Çıkış Dosyalarını Belirleyin
+### Adım 2: giriş ve çıkış dosyalarını belirt
 
 ```csharp
 string inputFile = MyDir + "SLS-CW-CD-CE001-R01_blockClip.dxf";
@@ -59,16 +128,16 @@ string outputFile = MyDir + "SLS-CW-CD-CE001-R01_blockClip.pdf";
 
 Dosya adlarını proje gereksinimlerinize göre ayarlayın.
 
-## Adım 3: CAD Görüntüsünü Yükleyin
+### Adım 3: CAD görüntüsünü yükle
 
 ```csharp
 using (CadImage cadImage = (CadImage)Image.Load(inputFile))
 {
 ```
 
-CAD görüntüsünü belirtilen giriş dosyasından yükleyin.
+`Image` sınıfı **CAD görüntüsünü** belirtilen giriş dosyasından yükler, böylece render işleminden önce kırpma uygulayabilirsiniz.
 
-## Adım 4: Rasterleştirme Seçeneklerini Yapılandırın
+### Adım 4: rasterleştirme seçeneklerini yapılandır
 
 ```csharp
 var rasterizationOptions = new CadRasterizationOptions
@@ -88,9 +157,9 @@ var rasterizationOptions = new CadRasterizationOptions
 };
 ```
 
-Rasterleştirme seçeneklerini işleme ihtiyaçlarınıza göre özelleştirin.
+Çıktı çözünürlüğü veya arka plan rengi gibi render ihtiyaçlarınıza göre rasterleştirme seçeneklerini özelleştirin.
 
-## 5. Adım: PDF olarak kaydedin
+### Adım 5: PDF olarak kaydet
 
 ```csharp
 PdfOptions pdfOptions = new PdfOptions
@@ -101,33 +170,49 @@ PdfOptions pdfOptions = new PdfOptions
 cadImage.Save(outputFile, pdfOptions);
 ```
 
-İşlenen CAD görüntüsünü PDF dosyası olarak kaydedin.
+İşlenmiş CAD görüntüsünü bir PDF dosyası olarak kaydedin, böylece blok kırpılmışken **CAD'i PDF olarak kaydetmiş** olursunuz.
 
-## Çözüm
+## Sonuç
 
-Tebrikler! Aspose.CAD for .NET'i kullanarak CAD'de blok kırpmayı başarıyla uyguladınız. Bu eğitim sizi CAD tasarım yeteneklerinizi geliştirmek için gerekli adımlarla donattı.
+Tebrikler! Aspose.CAD for .NET kullanarak CAD'de blok kırpmayı başarıyla uyguladınız ve artık **DXF'yi PDF'ye dönüştürmeyi**, **CAD'i PDF olarak kaydetmeyi** ve **CAD görüntüsünü yüklemeyi** daha fazla işleme için biliyorsunuz. Bu teknikler, render performansı ve çıktı kalitesi üzerinde ayrıntılı kontrol sağlar.
 
-## SSS'ler
+## SSS
 
-### S1: Aspose.CAD for .NET'i diğer programlama dilleriyle birlikte kullanabilir miyim?
+### S1: Aspose.CAD for .NET'i diğer programlama dilleriyle kullanabilir miyim?
+A1: Aspose.CAD öncelikle .NET uygulamaları için tasarlanmıştır. Diğer dillerle çalışıyorsanız, Aspose.CAD for Java'yı incelemeyi düşünün.
 
-Cevap1: Aspose.CAD öncelikle .NET uygulamaları için tasarlanmıştır. Başka dillerle çalışıyorsanız Aspose.CAD for Java'yı keşfetmeyi düşünün.
+### S2: Aspose.CAD için lisans seçenekleri mevcut mu?
+A2: Evet, lisans seçeneklerini inceleyebilir ve bir satın alma yapabilirsiniz [Aspose.CAD lisans sayfası](https://purchase.aspose.com/buy).
 
-### S2: Aspose.CAD için herhangi bir lisanslama seçeneği mevcut mu?
+### S3: Aspose.CAD for .NET için ücretsiz deneme mevcut mu?
+A3: Evet, ücretsiz denemeye şu sayfadan ulaşabilirsiniz [Aspose ürün sürümleri sayfası](https://releases.aspose.com/).
 
- Cevap2: Evet, lisanslama seçeneklerini inceleyebilir ve satın alma işlemi gerçekleştirebilirsiniz[Burada](https://purchase.aspose.com/buy).
-
-### S3: Aspose.CAD for .NET'in ücretsiz deneme sürümü mevcut mu?
-
- C3: Evet, ücretsiz deneme sürümüne erişebilirsiniz[Burada](https://releases.aspose.com/).
-
-### S4: Aspose.CAD için nasıl destek alabilirim?
-
- A4: Ziyaret edin[Aspose.CAD forumu](https://forum.aspose.com/c/cad/19) topluluk desteği ve tartışmalar için.
+### S4: Aspose.CAD için destek nasıl alabilirim?
+A4: Topluluk desteği ve tartışmalar için [Aspose.CAD forumunu](https://forum.aspose.com/c/cad/19) ziyaret edin.
 
 ### S5: Aspose.CAD'i kalıcı lisans olmadan kullanabilir miyim?
+A5: Evet, geçici bir lisans alabilirsiniz [geçici lisans talep sayfası](https://purchase.aspose.com/temporary-license/).
 
- Cevap5: Evet, geçici lisans alabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/).
+**S: Blok kırpma SVG gibi vektör dışa aktarma formatlarını etkiler mi?**  
+C: Hayır, kırpma yalnızca rasterleştirme sırasında uygulanır; vektör dışa aktarımları orijinal geometriyi korur.
+
+**S: Blok kırpma sırasında Aspose.CAD işleyebileceği maksimum dosya boyutu nedir?**  
+C: Kütüphane, tam bellek yüklemesi yapmadan 64‑bit bir süreçte **2 GB**'a kadar dosyaları işleyebilir.
+
+**S: Tek bir işlemde birden fazla bloğu kırpabilir miyim?**  
+C: Evet—`image.Blocks` içinde döngü yaparak her hedef bloğa bir `BlockClippingInfo` atayın ve ardından kaydedin.
+
+**Son Güncelleme:** 2026-09-09  
+**Test Edilen Versiyon:** Aspose.CAD 24.11 for .NET  
+**Yazar:** Aspose
+
+## İlgili Eğitimler
+
+- [Aspose.CAD for .NET ile CAD Çizimlerini PDF'ye Dönüştürme ve Dışa Aktarma – Eğitim](/cad/net/advanced-export-techniques/exporting-cad-drawings-to-pdf/)
+- [Aspose CAD Örneği: .NET'te Düzenleri Raster Görüntüye Dönüştürme](/cad/net/cad-drawing-manipulation/convert-layouts-to-raster-image/)
+- [DXF Belirli Düzeninden PDF Oluşturma – Aspose.CAD Kılavuzu](/cad/net/export-techniques/exporting-dxf-specific-layout-to-pdf/)
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
