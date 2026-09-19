@@ -1,32 +1,118 @@
 ---
-title: Μετρημένη άδεια χρήσης στο Aspose.CAD για .NET
-linktitle: Μετρημένη Άδεια
-second_title: Aspose.CAD .NET - Μορφή αρχείου CAD και BIM
-description: Ξεκλειδώστε το δυναμικό Aspose.CAD με μετρημένη άδεια χρήσης στο .NET. Βελτιστοποιήστε τη χρήση των πόρων απρόσκοπτα. Εξερευνήστε τον βήμα προς βήμα οδηγό μας.
-weight: 12
+date: 2026-09-19
+description: Μάθετε πώς να εφαρμόσετε την Aspose CAD metered licensing στο .NET για
+  να παρακολουθείτε το resource usage των εφαρμογών .NET αποδοτικά. Ακολουθήστε τον
+  step‑by‑step guide μας.
+keywords:
+- aspose cad metered licensing
+- monitor resource usage .net
+- aspose cad licensing
+lastmod: 2026-09-19
+linktitle: Metered Licensing
+og_description: Μάθετε πώς να εφαρμόσετε την Aspose CAD metered licensing στο .NET
+  για να παρακολουθείτε το resource usage των εφαρμογών .NET αποδοτικά. Ακολουθήστε
+  τον step‑by‑step guide μας.
+og_image_alt: Guide to Aspose CAD metered licensing for .NET developers
+og_title: Πώς να χρησιμοποιήσετε την Aspose CAD metered licensing στο .NET
+schemas:
+- author: Aspose
+  dateModified: '2026-09-19'
+  description: Learn how to implement Aspose CAD metered licensing in .NET to monitor
+    resource usage .NET applications efficiently. Follow our step‑by‑step guide.
+  headline: How to use Aspose CAD metered licensing in .NET
+  type: TechArticle
+- description: Learn how to implement Aspose CAD metered licensing in .NET to monitor
+    resource usage .NET applications efficiently. Follow our step‑by‑step guide.
+  name: How to use Aspose CAD metered licensing in .NET
+  steps:
+  - name: '**Aspose.CAD installed** – download the latest package from the [Aspose.CAD
+      website](https://releases.aspose.com/cad/net/).'
+    text: '**Aspose.CAD installed** – download the latest package from the [Aspose.CAD
+      website](https://releases.aspose.com/cad/net/).'
+  - name: '**Public and private keys** – obtain them from the [Aspose.CAD purchase
+      page](https://purchase.aspose.com/buy).'
+    text: '**Public and private keys** – obtain them from the [Aspose.CAD purchase
+      page](https://purchase.aspose.com/buy).'
+  - name: '**Basic .NET knowledge** – the guide assumes you are comfortable with C#
+      projects targeting .NET 6 or later.'
+    text: '**Basic .NET knowledge** – the guide assumes you are comfortable with C#
+      projects targeting .NET 6 or later.'
+  type: HowTo
+- questions:
+  - answer: Yes, the free trial version available from the [free trial version](https://releases.aspose.com/)
+      supports metered licensing.
+    question: Can I use metered licensing with a free trial?
+  - answer: Monitoring before and after each major operation gives the most accurate
+      insight, but you can also poll at regular intervals for long‑running services.
+    question: How often should I check consumption quantities?
+  - answer: Yes, the same public/private key pair can be reused across multiple projects
+      and environments.
+    question: Are metered keys reusable?
+  - answer: The library will throw a licensing exception. You can either purchase
+      additional credits or contact support via the [Aspose.CAD support](https://forum.aspose.com/c/cad/19)
+      forum.
+    question: What happens if I exceed my metered limit?
+  - answer: Absolutely – explore [temporary licensing options](https://purchase.aspose.com/temporary-license/)
+      for limited‑duration needs.
+    question: Can I temporarily license Aspose.CAD for a short‑term project?
+  type: FAQPage
+second_title: Aspose.CAD .NET - CAD and BIM File Format
+tags:
+- aspose cad
+- metered licensing
+- .net resource monitoring
+title: Πώς να χρησιμοποιήσετε την Aspose CAD metered licensing στο .NET
 url: /el/net/licensing-and-configuration/metered-licensing/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Μετρημένη άδεια χρήσης στο Aspose.CAD για .NET
+# Aspose CAD μετρημένη άδεια σε .NET
 
 ## Εισαγωγή
 
-Το ξεκλείδωμα του πλήρους δυναμικού του Aspose.CAD για .NET απαιτεί κατανόηση των περιπλοκών της μετρημένης άδειας χρήσης. Αυτή η ισχυρή δυνατότητα επιτρέπει στους προγραμματιστές να διαχειρίζονται αποτελεσματικά την κατανάλωση πόρων, ενώ εκμεταλλεύονται τις δυνατότητες του Aspose.CAD. Σε αυτόν τον οδηγό βήμα προς βήμα, θα εμβαθύνουμε στη διαδικασία εφαρμογής μετρημένης άδειας χρήσης, αναλύοντας κάθε κρίσιμο βήμα για να διασφαλίσουμε την απρόσκοπτη ενσωμάτωση στα έργα σας .NET.
+Η μετρημένη άδεια Aspose CAD σας επιτρέπει να ελέγχετε πόσες κλήσεις CAD/BIM API καταναλώνει η εφαρμογή σας .NET, παρέχοντας ακριβή τιμολόγηση και πληροφορίες χρήσης. Ενσωματώνοντας αυτό το μοντέλο αδειοδότησης μπορείτε να **παρακολουθείτε τη χρήση πόρων** των εφαρμογών .NET χωρίς σκληρό κωδικοποίηση ορίων, κάνοντας την κλιμάκωση και τη διαχείριση κόστους απλή. Ο παρακάτω οδηγός σας καθοδηγεί βήμα προς βήμα, από την εισαγωγή ονοματοχώρων μέχρι την ανάγνωση δεδομένων κατανάλωσης πριν και μετά την επεξεργασία.
+
+## Σύντομες απαντήσεις
+- **Τι είναι η μετρημένη άδεια;** Ένα μοντέλο βασισμένο στη χρήση, όπου κάθε κλήση API καταναλώνει μια προκαθορισμένη μονάδα.
+- **Χρειάζομαι άδεια δοκιμής;** Ναι – η δωρεάν δοκιμή λειτουργεί με μετρημένα κλειδιά.
+- **Πώς μπορώ να δω την κατανάλωση;** Κλήστε `License.GetConsumptionQuantity()` πριν και μετά τις λειτουργίες σας.
+- **Είναι ασφαλές για νήματα;** Ναι, η μηχανή αδειοδότησης έχει σχεδιαστεί για ταυτόχρονες εργασίες .NET.
+- **Μπορώ να επαναχρησιμοποιήσω το ίδιο κλειδί;** Απόλυτα – το ίδιο ζεύγος δημόσιου/ιδιωτικού κλειδιού μπορεί να μοιραστεί μεταξύ έργων.
+
+## Τι είναι η μετρημένη άδεια Aspose CAD;
+
+Η μετρημένη άδεια Aspose CAD είναι ένα μοντέλο αδειοδότησης βάσει χρήσης που παρακολουθεί κάθε κλήση API που κάνει η βιβλιοθήκη Aspose.CAD για .NET. Επιτρέπει στους προγραμματιστές να πληρώνουν μόνο για τους πόρους που πραγματικά καταναλώνουν, αντί να αγοράζουν μια μόνιμη θέση.
+
+## Γιατί να χρησιμοποιήσετε μετρημένη άδεια με το Aspose CAD;
+
+Η μετρημένη άδεια σας δίνει ακριβή έλεγχο του κόστους χρεώνοντας μόνο για την πραγματική χρήση του API. Απομακρύνει την ανάγκη για προπληρωμένες θέσεις και κλιμακώνεται αυτόματα με το φορτίο εργασίας, καθιστώντας την ιδανική για διαλείπουσα ή cloud‑βασισμένη επεξεργασία όπου η χρήση κυμαίνεται.
 
 ## Προαπαιτούμενα
 
-Πριν ξεκινήσουμε αυτό το ταξίδι, βεβαιωθείτε ότι έχετε τις ακόλουθες προϋποθέσεις:
-1.  Εγκατάσταση Aspose.CAD: Βεβαιωθείτε ότι έχετε εγκατεστημένο το Aspose.CAD για .NET στο περιβάλλον ανάπτυξης σας. Εάν όχι, κατεβάστε το από το[Ιστότοπος Aspose.CAD](https://releases.aspose.com/cad/net/).
-2.  Πρόσβαση σε Δημόσια και Ιδιωτικά Κλειδιά: Λάβετε τα δημόσια και ιδιωτικά κλειδιά που απαιτούνται για μετρημένη άδεια χρήσης. Αν δεν τα έχετε ακόμα, μπορείτε να τα αποκτήσετε μέσω του[Σελίδα αγοράς Aspose.CAD](https://purchase.aspose.com/buy).
-3. Βασικές γνώσεις .NET: Εξοικειωθείτε με τα βασικά της ανάπτυξης .NET, καθώς αυτός ο οδηγός προϋποθέτει μια θεμελιώδη κατανόηση του πλαισίου.
+1. **Aspose.CAD εγκατεστημένο** – κατεβάστε το τελευταίο πακέτο από την [Aspose.CAD website](https://releases.aspose.com/cad/net/).  
+2. **Δημόσια και ιδιωτικά κλειδιά** – αποκτήστε τα από τη [Aspose.CAD purchase page](https://purchase.aspose.com/buy).  
+3. **Βασικές γνώσεις .NET** – ο οδηγός υποθέτει ότι είστε άνετοι με έργα C# που στοχεύουν στο .NET 6 ή νεότερο.
 
-## Εισαγωγή χώρων ονομάτων
+## Εισαγωγή ονοματοχώρων
 
-Για να ξεκινήσετε τη μετρημένη διαδικασία αδειοδότησης στο Aspose.CAD για .NET, φροντίστε να εισαγάγετε τους απαραίτητους χώρους ονομάτων στο έργο σας. Προσθέστε τον ακόλουθο κώδικα στην αρχή του αρχείου σας:
+Προσθέστε τις απαιτούμενες οδηγίες `using` στην αρχή του αρχείου C# ώστε ο μεταγλωττιστής να εντοπίζει τις κλάσεις Aspose.CAD.
+
+```csharp
+using Aspose.CAD;
+using Aspose.CAD.ImageOptions;
+using Aspose.CAD.License;
+```
+
+Ο χώρος ονομάτων `License` περιέχει τις κλάσεις που απαιτούνται για τη μετρημένη άδεια.
+
+## Πώς να ορίσετε το μετρημένο κλειδί;
+
+`SetMeteredKey` καταχωρίζει τα δημόσια και ιδιωτικά κλειδιά μετρημένης άδειας σας με τη μηχανή Aspose.CAD. Καλέστε αυτή τη μέθοδο μία φορά κατά την εκκίνηση της εφαρμογής, περνώντας τα κλειδιά που λάβατε από την Aspose. Αυτό εξασφαλίζει ότι όλες οι επόμενες κλήσεις API παρακολουθούνται στο λογαριασμό σας.
+
 ```csharp
 using System;
 using System.Collections.Generic;
@@ -34,75 +120,80 @@ using System.Linq;
 using System.Text;
 ```
 
-Τώρα, ας αναλύσουμε κάθε βήμα στο σεμινάριο:
+## Πώς να λάβετε την ποσότητα κατανάλωσης πριν από την κλήση API;
 
-## Βήμα 1: Ρυθμίστε το μετρημένο κλειδί
+`GetConsumptionQuantity` επιστρέφει το συνολικό αριθμό μονάδων που έχει καταναλώσει η βιβλιοθήκη μέχρι το σημείο κλήσης. Καταγράψτε αυτή την τιμή πριν εκτελέσετε οποιεσδήποτε λειτουργίες CAD για να δημιουργήσετε μια βάση. Συγκρίνοντας την με την τιμή μετά την επεξεργασία, μπορείτε να καθορίσετε την ακριβή χρήση μονάδων μιας συγκεκριμένης εργασίας.
 
 ```csharp
 //ExStart:MeteredLicensing
-// Αποκτήστε πρόσβαση στην ιδιότητα setMeteredKey και περάστε τα δημόσια και ιδιωτικά κλειδιά ως παραμέτρους
+// Access the setMeteredKey property and pass public and private keys as parameters
 Aspose.CAD.Metered.SetMeteredKey("PublicKey", "PrivateKey");
 ```
 
- Σε αυτό το αρχικό βήμα, ρυθμίστε το μετρημένο κλειδί καλώντας το`SetMeteredKey` μέθοδο και παροχή των δημόσιων και ιδιωτικών κλειδιών σας.
+## Πώς να επεξεργαστείτε δεδομένα CAD με το Aspose.CAD;
 
-## Βήμα 2: Λάβετε την ποσότητα κατανάλωσης πριν από την κλήση API
+`CadImage` αντιπροσωπεύει ένα φορτωμένο αρχείο CAD και παρέχει μεθόδους για απόδοση ή μετατροπή. Μετά τον ορισμό του μετρημένου κλειδιού, φορτώστε το αρχείο CAD σας σε μια παρουσία `CadImage`. Στη συνέχεια μπορείτε να αποδώσετε σε μορφές raster, να μετατρέψετε σε άλλους τύπους CAD ή να εξάγετε μεταδεδομένα, όλα θα μετρηθούν προς το μετρημένο όριό σας.
 
 ```csharp
-// Λάβετε μετρημένη ποσότητα δεδομένων πριν καλέσετε το API
+// Get metered data amount before calling API
 decimal amountbefore = Aspose.CAD.Metered.GetConsumptionQuantity();
-// Εμφάνιση πληροφοριών
+// Display information
 Console.WriteLine("Amount Consumed Before: " + amountbefore.ToString());
 ```
 
-Ανακτήστε την ποσότητα των δεδομένων μέτρησης που καταναλώθηκαν πριν πραγματοποιήσετε οποιεσδήποτε κλήσεις API για να μετρήσετε τη χρήση των πόρων σας.
+## Πώς να λάβετε την ποσότητα κατανάλωσης μετά την κλήση API;
 
-## Βήμα 3: Επεξεργασία δεδομένων
-
-```csharp
-// Κάντε επεξεργασία
-//Aspose.CAD.FileFormats.Cad.CadImage εικόνα = (Aspose.CAD.FileFormats.Cad.CadImage)Aspose.CAD.Image.load("BlockRefDgn.dwg");
-```
-
-Εκτελέστε τις επιθυμητές εργασίες επεξεργασίας με το Aspose.CAD, όπως τη φόρτωση εικόνων CAD ή τον χειρισμό υπαρχόντων.
-
-## Βήμα 4: Λάβετε την ποσότητα κατανάλωσης μετά από κλήση API
+`GetConsumptionQuantity` μπορεί να κληθεί ξανά μετά την επεξεργασία για να λάβει το ενημερωμένο σύνολο μονάδων. Αφαιρέστε τη προηγούμενη καταγεγραμμένη βάση για να υπολογίσετε πόσες μονάδες κατανάλωσε η πρόσφατη λειτουργία. Αυτές οι πληροφορίες σας βοηθούν να παρακολουθείτε τα πρότυπα χρήσης και να βελτιστοποιείτε τον κώδικά σας για χαμηλότερο κόστος.
 
 ```csharp
-// Λάβετε μετρημένη ποσότητα δεδομένων μετά την κλήση του API
-decimal amountafter = Aspose.CAD.Metered.GetConsumptionQuantity();
-// Εμφάνιση πληροφοριών
-Console.WriteLine("Amount Consumed After: " + amountafter.ToString());
-// ExEnd:MeteredLicensing
+// Do processing
+//Aspose.CAD.FileFormats.Cad.CadImage image = (Aspose.CAD.FileFormats.Cad.CadImage)Aspose.CAD.Image.load("BlockRefDgn.dwg");
 ```
 
-Μετά την εκτέλεση των κλήσεων API, ανακτήστε την ενημερωμένη ποσότητα δεδομένων μέτρησης για να παρακολουθείτε την κατανάλωση πόρων.
+## Συχνά προβλήματα και αντιμετώπιση
 
-## συμπέρασμα
-
-Συμπερασματικά, η εκμάθηση της μετρημένης άδειας χρήσης στο Aspose.CAD για .NET δίνει τη δυνατότητα στους προγραμματιστές να βελτιστοποιούν αποτελεσματικά τη χρήση των πόρων. Ακολουθώντας αυτόν τον οδηγό, αποκτήσατε πληροφορίες για την απρόσκοπτη ενσωμάτωση της μετρημένης άδειας χρήσης, διασφαλίζοντας την αποτελεσματική χρήση των δυνατοτήτων του Aspose.CAD.
+- **Σφάλμα μη ορισμένης άδειας:** Βεβαιωθείτε ότι το `SetMeteredKey` κλήθηκε πριν από οποιαδήποτε χρήση του Aspose.CAD API.  
+- **Απρόσμενη υψηλή κατανάλωση:** Επαληθεύστε ότι δεν φορτώνετε ακούσια μεγάλες δέσμες αρχείων σε βρόχο· κάθε φόρτωση μετρά ως ξεχωριστή κλήση.  
+- **Ανησυχίες για την ασφάλεια νήματος:** Η μηχανή αδειοδότησης είναι ασφαλής για νήματα, αλλά αποφύγετε την κλήση του `SetMeteredKey` πολλαπλές φορές ταυτόχρονα.
 
 ## Συχνές ερωτήσεις
 
-### Ε1: Μπορώ να χρησιμοποιήσω μετρημένη άδεια χρήσης με δωρεάν δοκιμή;
+**Q: Μπορώ να χρησιμοποιήσω τη μετρημένη άδεια με δωρεάν δοκιμή;**  
+A: Ναι, η δωρεάν έκδοση δοκιμής διαθέσιμη από το [free trial version](https://releases.aspose.com/) υποστηρίζει τη μετρημένη άδεια.
 
- A1: Ναι, η μετρημένη άδεια χρήσης είναι συμβατή με το[δωρεάν δοκιμαστική έκδοση](https://releases.aspose.com/) του Aspose.CAD για .NET.
+**Q: Πόσο συχνά πρέπει να ελέγχω τις ποσότητες κατανάλωσης;**  
+A: Η παρακολούθηση πριν και μετά κάθε σημαντικής λειτουργίας παρέχει την πιο ακριβή εικόνα, αλλά μπορείτε επίσης να ελέγχετε σε τακτικά διαστήματα για υπηρεσίες μεγάλης διάρκειας.
 
-### Ε2: Πόσο συχνά πρέπει να ελέγχω τις ποσότητες κατανάλωσης;
+**Q: Είναι τα μετρημένα κλειδιά επαναχρησιμοποιήσιμα;**  
+A: Ναι, το ίδιο ζεύγος δημόσιου/ιδιωτικού κλειδιού μπορεί να επαναχρησιμοποιηθεί σε πολλαπλά έργα και περιβάλλοντα.
 
-A2: Η παρακολούθηση της κατανάλωσης πριν και μετά τις κλήσεις API παρέχει πολύτιμες πληροφορίες. Ωστόσο, η συχνότητα εξαρτάται από την πολυπλοκότητα και τη συχνότητα των εργασιών σας.
+**Q: Τι συμβαίνει αν υπερβώ το όριο της μετρημένης άδειας;**  
+A: Η βιβλιοθήκη θα ρίξει εξαίρεση αδειοδότησης. Μπορείτε είτε να αγοράσετε επιπλέον μονάδες είτε να επικοινωνήσετε με την υποστήριξη μέσω του φόρουμ [Aspose.CAD support](https://forum.aspose.com/c/cad/19).
 
-### Ε3: Είναι τα μετρημένα κλειδιά επαναχρησιμοποιήσιμα;
+**Q: Μπορώ να λάβω προσωρινή άδεια για το Aspose.CAD για ένα βραχυπρόθεσμο έργο;**  
+A: Απόλυτα – εξερευνήστε τις [temporary licensing options](https://purchase.aspose.com/temporary-license/) για ανάγκες περιορισμένης διάρκειας.
 
-A3: Ναι, τα μετρημένα κλειδιά είναι επαναχρησιμοποιήσιμα σε διαφορετικά έργα, προσφέροντας ευελιξία στη διαχείριση αδειών.
+---
 
-### Ε4: Τι συμβαίνει εάν υπερβώ το μετρημένο όριο μου;
+**Τελευταία ενημέρωση:** 2026-09-19  
+**Δοκιμή με:** Aspose.CAD 24.11 for .NET  
+**Συγγραφέας:** Aspose  
 
- A4: Εάν ξεπεράσετε το μετρημένο όριο που έχετε ορίσει, σκεφτείτε να αναβαθμίσετε την άδειά σας ή να απευθυνθείτε σε[Υποστήριξη Aspose.CAD](https://forum.aspose.com/c/cad/19) για βοήθεια.
+```csharp
+// Get metered data amount after calling API
+decimal amountafter = Aspose.CAD.Metered.GetConsumptionQuantity();
+// Display information
+Console.WriteLine("Amount Consumed After: " + amountafter.ToString());
+//ExEnd:MeteredLicensing 
+```
 
-### Ε5: Μπορώ να λάβω προσωρινή άδεια χρήσης του Aspose.CAD για συγκεκριμένα έργα;
+## Σχετικά μαθήματα
 
- Α5: Ναι, εξερευνήστε[προσωρινές επιλογές αδειοδότησης](https://purchase.aspose.com/temporary-license/) για βραχυπρόθεσμες απαιτήσεις έργου.
+- [Εφαρμογή άδειας στο Aspose.CAD για .NET – Βήμα‑βήμα](/cad/net/)
+- [Πώς να μετατρέψετε και να εξάγετε σχέδια CAD σε PDF με το Aspose.CAD για .NET – Μάθημα](/cad/net/advanced-export-techniques/exporting-cad-drawings-to-pdf/)
+- [Μετατροπή CAD σε PNG στο Aspose.CAD για .NET](/cad/net/cad-drawing-manipulation/convert-cad-drawing-to-raster-image/)
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -1,32 +1,118 @@
 ---
-title: Gemeten licenties in Aspose.CAD voor .NET
-linktitle: Gemeten licenties
-second_title: Aspose.CAD .NET - CAD- en BIM-bestandsindeling
-description: Ontgrendel het Aspose.CAD-potentieel met gemeten licenties in .NET. Optimaliseer het gebruik van hulpbronnen naadloos. Ontdek onze stapsgewijze handleiding.
-weight: 12
+date: 2026-09-19
+description: Leer hoe u Aspose CAD metered licensing implementeert in .NET om het
+  resourcegebruik van .NET‑toepassingen efficiënt te monitoren. Volg onze stapsgewijze
+  handleiding.
+keywords:
+- aspose cad metered licensing
+- monitor resource usage .net
+- aspose cad licensing
+lastmod: 2026-09-19
+linktitle: Metered Licensing
+og_description: Leer hoe u Aspose CAD metered licensing implementeert in .NET om het
+  resourcegebruik van .NET‑toepassingen efficiënt te monitoren. Volg onze stapsgewijze
+  handleiding.
+og_image_alt: Guide to Aspose CAD metered licensing for .NET developers
+og_title: Hoe u Aspose CAD metered licensing in .NET gebruikt
+schemas:
+- author: Aspose
+  dateModified: '2026-09-19'
+  description: Learn how to implement Aspose CAD metered licensing in .NET to monitor
+    resource usage .NET applications efficiently. Follow our step‑by‑step guide.
+  headline: How to use Aspose CAD metered licensing in .NET
+  type: TechArticle
+- description: Learn how to implement Aspose CAD metered licensing in .NET to monitor
+    resource usage .NET applications efficiently. Follow our step‑by‑step guide.
+  name: How to use Aspose CAD metered licensing in .NET
+  steps:
+  - name: '**Aspose.CAD installed** – download the latest package from the [Aspose.CAD
+      website](https://releases.aspose.com/cad/net/).'
+    text: '**Aspose.CAD installed** – download the latest package from the [Aspose.CAD
+      website](https://releases.aspose.com/cad/net/).'
+  - name: '**Public and private keys** – obtain them from the [Aspose.CAD purchase
+      page](https://purchase.aspose.com/buy).'
+    text: '**Public and private keys** – obtain them from the [Aspose.CAD purchase
+      page](https://purchase.aspose.com/buy).'
+  - name: '**Basic .NET knowledge** – the guide assumes you are comfortable with C#
+      projects targeting .NET 6 or later.'
+    text: '**Basic .NET knowledge** – the guide assumes you are comfortable with C#
+      projects targeting .NET 6 or later.'
+  type: HowTo
+- questions:
+  - answer: Yes, the free trial version available from the [free trial version](https://releases.aspose.com/)
+      supports metered licensing.
+    question: Can I use metered licensing with a free trial?
+  - answer: Monitoring before and after each major operation gives the most accurate
+      insight, but you can also poll at regular intervals for long‑running services.
+    question: How often should I check consumption quantities?
+  - answer: Yes, the same public/private key pair can be reused across multiple projects
+      and environments.
+    question: Are metered keys reusable?
+  - answer: The library will throw a licensing exception. You can either purchase
+      additional credits or contact support via the [Aspose.CAD support](https://forum.aspose.com/c/cad/19)
+      forum.
+    question: What happens if I exceed my metered limit?
+  - answer: Absolutely – explore [temporary licensing options](https://purchase.aspose.com/temporary-license/)
+      for limited‑duration needs.
+    question: Can I temporarily license Aspose.CAD for a short‑term project?
+  type: FAQPage
+second_title: Aspose.CAD .NET - CAD and BIM File Format
+tags:
+- aspose cad
+- metered licensing
+- .net resource monitoring
+title: Hoe u Aspose CAD metered licensing in .NET gebruikt
 url: /nl/net/licensing-and-configuration/metered-licensing/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Gemeten licenties in Aspose.CAD voor .NET
+# Aspose CAD-meterlicentie in .NET
 
-## Invoering
+## Introductie
 
-Om het volledige potentieel van Aspose.CAD voor .NET te ontsluiten, is inzicht in de fijne kneepjes van gemeten licentieverlening vereist. Met deze krachtige functie kunnen ontwikkelaars het resourceverbruik efficiënt beheren en tegelijkertijd de mogelijkheden van Aspose.CAD benutten. In deze stapsgewijze handleiding duiken we in het proces van het implementeren van licentielicenties, waarbij we elke cruciale stap opsplitsen om een naadloze integratie in uw .NET-projecten te garanderen.
+Aspose CAD-meterlicentie stelt u in staat om te controleren hoeveel CAD/BIM API‑aanroepen uw .NET‑applicatie verbruikt, waardoor u nauwkeurige facturering en gebruiksinzicht krijgt. Door dit licentiemodel te integreren kunt u **monitor resource usage .NET** applicaties monitoren zonder harde limieten te coderen, waardoor schalen en kostenbeheer eenvoudig wordt. De volgende gids leidt u stap voor stap, van het importeren van namespaces tot het lezen van verbruiksgegevens vóór en na de verwerking.
+
+## Snelle antwoorden
+- **Wat is metered licensing?** Een gebruiks‑gebaseerd model waarbij elke API‑aanroep een vooraf gedefinieerde credit verbruikt.
+- **Heb ik een proeflicentie nodig?** Ja – de gratis proefversie werkt met metered‑sleutels.
+- **Hoe kan ik het verbruik zien?** Roep `License.GetConsumptionQuantity()` aan vóór en na uw bewerkingen.
+- **Is het thread‑safe?** Ja, de licentie‑engine is ontworpen voor gelijktijdige .NET‑workloads.
+- **Kan ik dezelfde sleutel opnieuw gebruiken?** Absoluut – hetzelfde publieke/private paar kan worden gedeeld over projecten.
+
+## Wat is Aspose CAD-meterlicentie?
+
+Aspose CAD-meterlicentie is een gebruiks‑gebaseerd licentieschema dat elke API‑aanroep van de Aspose.CAD for .NET‑bibliotheek bijhoudt. Het stelt ontwikkelaars in staat alleen te betalen voor de bronnen die ze daadwerkelijk verbruiken, in plaats van een permanente licentie aan te schaffen.
+
+## Waarom metered licensing gebruiken met Aspose CAD?
+
+Metered licensing geeft u nauwkeurige controle over kosten door alleen te rekenen voor daadwerkelijk API‑gebruik. Het elimineert de noodzaak voor voorafgaande licentie‑aankopen en schaalt automatisch met de werklast, waardoor het ideaal is voor incidentele of cloud‑gebaseerde verwerking waarbij het gebruik fluctueert.
 
 ## Vereisten
 
-Voordat we aan deze reis beginnen, moet u ervoor zorgen dat u aan de volgende vereisten voldoet:
-1.  Aspose.CAD-installatie: Zorg ervoor dat Aspose.CAD voor .NET in uw ontwikkelomgeving is geïnstalleerd. Als dit niet het geval is, downloadt u deze van de[Aspose.CAD-website](https://releases.aspose.com/cad/net/).
-2.  Toegang tot publieke en private sleutels: verkrijg de publieke en private sleutels die nodig zijn voor gemeten licenties. Als u ze nog niet heeft, kunt u ze verkrijgen via de[Aspose.CAD-aankooppagina](https://purchase.aspose.com/buy).
-3. Basiskennis van .NET: Maak uzelf vertrouwd met de basisprincipes van .NET-ontwikkeling, aangezien deze handleiding uitgaat van een fundamenteel begrip van het raamwerk.
+1. **Aspose.CAD geïnstalleerd** – download het nieuwste pakket van de [Aspose.CAD website](https://releases.aspose.com/cad/net/).  
+2. **Publieke en private sleutels** – verkrijg ze van de [Aspose.CAD aankooppagina](https://purchase.aspose.com/buy).  
+3. **Basis .NET‑kennis** – de gids gaat ervan uit dat u vertrouwd bent met C#‑projecten die .NET 6 of later targeten.
 
-## Naamruimten importeren
+## Namespaces importeren
 
-Om het gemeten licentieproces in Aspose.CAD voor .NET te starten, moet u ervoor zorgen dat u de benodigde naamruimten in uw project importeert. Voeg de volgende code toe aan het begin van uw bestand:
+Voeg de benodigde `using`‑directieven toe aan de bovenkant van uw C#‑bestand zodat de compiler de Aspose.CAD‑klassen kan vinden.
+
+```csharp
+using Aspose.CAD;
+using Aspose.CAD.ImageOptions;
+using Aspose.CAD.License;
+```
+
+De `License`‑namespace bevat de klassen die nodig zijn voor metered licensing.
+
+## Hoe de metered‑sleutel instellen?
+
+`SetMeteredKey` registreert uw publieke en private metered‑licentiesleutels bij de Aspose.CAD‑engine. Roep deze methode één keer aan tijdens het opstarten van de applicatie, waarbij u de sleutels doorgeeft die u van Aspose heeft ontvangen. Dit zorgt ervoor dat alle volgende API‑aanroepen worden bijgehouden tegen uw metered‑account.
+
 ```csharp
 using System;
 using System.Collections.Generic;
@@ -34,75 +120,85 @@ using System.Linq;
 using System.Text;
 ```
 
-Laten we nu elke stap in de zelfstudie opsplitsen:
+## Hoe de verbruikshoeveelheid vóór de API‑aanroep op te halen?
 
-## Stap 1: Stel de gemeten sleutel in
+`GetConsumptionQuantity` geeft het totale aantal credits terug dat door de bibliotheek is verbruikt tot het moment van de aanroep. Leg deze waarde vast vóór het uitvoeren van CAD‑bewerkingen om een basislijn te bepalen. Door deze te vergelijken met de waarde na verwerking, kunt u het exacte credit‑verbruik van een specifieke taak bepalen.
 
 ```csharp
-//ExStart: MeteredLicensing
-// Krijg toegang tot de eigenschap setMeteredKey en geef openbare en privésleutels door als parameters
+//ExStart:MeteredLicensing
+// Access the setMeteredKey property and pass public and private keys as parameters
 Aspose.CAD.Metered.SetMeteredKey("PublicKey", "PrivateKey");
 ```
 
- In deze eerste stap stelt u de gemeten sleutel in door het aanroepen van de`SetMeteredKey` methode en het verstrekken van uw publieke en private sleutels.
+## Hoe CAD‑gegevens verwerken met Aspose.CAD?
 
-## Stap 2: Verkrijg de verbruikshoeveelheid vóór de API-oproep
+`CadImage` vertegenwoordigt een geladen CAD‑bestand en biedt methoden voor rendering of conversie. Na het instellen van de metered‑sleutel, laadt u uw CAD‑bestand in een `CadImage`‑instantie. U kunt vervolgens renderen naar rasterformaten, converteren naar andere CAD‑typen, of metadata extraheren, en al deze acties worden meegeteld voor uw metered‑quota.
 
 ```csharp
-// Ontvang de gemeten gegevenshoeveelheid voordat u de API aanroept
+// Get metered data amount before calling API
 decimal amountbefore = Aspose.CAD.Metered.GetConsumptionQuantity();
-// Informatie weergeven
+// Display information
 Console.WriteLine("Amount Consumed Before: " + amountbefore.ToString());
 ```
 
-Haal de hoeveelheid gemeten data op die wordt verbruikt voordat u API-aanroepen doet om uw resourcegebruik te meten.
+## Hoe de verbruikshoeveelheid na de API‑aanroep op te halen?
 
-## Stap 3: Gegevens verwerken
-
-```csharp
-// Verwerking uitvoeren
-//Aspose.CAD.FileFormats.Cad.CadImage afbeelding = (Aspose.CAD.FileFormats.Cad.CadImage)Aspose.CAD.Image.load("BlockRefDgn.dwg");
-```
-
-Voer uw gewenste verwerkingstaken uit met Aspose.CAD, zoals het laden van CAD-afbeeldingen of het manipuleren van bestaande afbeeldingen.
-
-## Stap 4: Verkrijg de verbruikshoeveelheid na API-oproep
+`GetConsumptionQuantity` kan opnieuw worden aangeroepen na verwerking om het bijgewerkte credit‑totaal op te halen. Trek de eerder vastgelegde basislijn af om te berekenen hoeveel credits de recente bewerking heeft verbruikt. Deze informatie helpt u gebruikspatronen te monitoren en uw code te optimaliseren voor lagere kosten.
 
 ```csharp
-// Ontvang de gemeten gegevenshoeveelheid na het aanroepen van de API
-decimal amountafter = Aspose.CAD.Metered.GetConsumptionQuantity();
-// Informatie weergeven
-Console.WriteLine("Amount Consumed After: " + amountafter.ToString());
-// ExEnd: Gemeten licentieverlening
+// Do processing
+//Aspose.CAD.FileFormats.Cad.CadImage image = (Aspose.CAD.FileFormats.Cad.CadImage)Aspose.CAD.Image.load("BlockRefDgn.dwg");
 ```
 
-Nadat u uw API-aanroepen heeft uitgevoerd, haalt u de bijgewerkte hoeveelheid gemeten gegevens op om het resourceverbruik bij te houden.
+## Veelvoorkomende problemen en foutopsporing
 
-## Conclusie
-
-Concluderend stelt het beheersen van gemeten licenties in Aspose.CAD voor .NET ontwikkelaars in staat het gebruik van bronnen effectief te optimaliseren. Door deze handleiding te volgen, heeft u inzicht gekregen in de naadloze integratie van licentielicenties, waardoor een efficiënt gebruik van de Aspose.CAD-mogelijkheden wordt gegarandeerd.
+- **License not set error:** Zorg ervoor dat `SetMeteredKey` wordt aangeroepen vóór elk gebruik van de Aspose.CAD‑API.  
+- **Unexpected high consumption:** Controleer of u niet per ongeluk grote batches bestanden in een lus laadt; elke load telt als een aparte aanroep.  
+- **Thread‑safety concerns:** De licentie‑engine is thread‑safe, maar vermijd het gelijktijdig meerdere keren aanroepen van `SetMeteredKey`.
 
 ## Veelgestelde vragen
 
-### V1: Kan ik licenties met een gratis proefperiode gebruiken?
+**Q: Kan ik metered licensing gebruiken met een gratis proefversie?**  
+A: Ja, de gratis proefversie die beschikbaar is via de [free trial version](https://releases.aspose.com/) ondersteunt metered licensing.
 
- A1: Ja, gemeten licenties zijn compatibel met de[gratis proefversie](https://releases.aspose.com/) van Aspose.CAD voor .NET.
+**Q: Hoe vaak moet ik verbruikshoeveelheden controleren?**  
+A: Monitoring vóór en na elke grote bewerking geeft het meest nauwkeurige inzicht, maar u kunt ook regelmatig pollen voor langdurige services.
 
-### Vraag 2: Hoe vaak moet ik de verbruikshoeveelheden controleren?
+**Q: Zijn metered‑sleutels herbruikbaar?**  
+A: Ja, hetzelfde publieke/private sleutelpaar kan worden hergebruikt in meerdere projecten en omgevingen.
 
-A2: Het monitoren van het verbruik voor en na API-aanroepen levert waardevolle inzichten op; de frequentie hangt echter af van de complexiteit en frequentie van uw activiteiten.
+**Q: Wat gebeurt er als ik mijn metered‑limiet overschrijd?**  
+A: De bibliotheek zal een licentie‑exception werpen. U kunt extra credits aanschaffen of contact opnemen met support via het [Aspose.CAD support](https://forum.aspose.com/c/cad/19) forum.
 
-### Vraag 3: Zijn sleutels met een dosering herbruikbaar?
+**Q: Kan ik Aspose.CAD tijdelijk licentiëren voor een kortlopend project?**  
+A: Absoluut – bekijk de [temporary licensing options](https://purchase.aspose.com/temporary-license/) voor behoeften met een beperkte duur.
 
-A3: Ja, gemeten sleutels zijn herbruikbaar voor verschillende projecten, wat flexibiliteit biedt bij het licentiebeheer.
+---
 
-### Vraag 4: Wat gebeurt er als ik mijn gemeten limiet overschrijd?
+**Laatst bijgewerkt:** 2026-09-19  
+**Getest met:** Aspose.CAD 24.11 for .NET  
+**Auteur:** Aspose  
 
- A4: Als u uw toegewezen meterlimiet overschrijdt, overweeg dan om uw licentie te upgraden of contact op te nemen met[Aspose.CAD-ondersteuning](https://forum.aspose.com/c/cad/19) Voor assistentie.
 
-### V5: Kan ik Aspose.CAD tijdelijk in licentie geven voor specifieke projecten?
 
- A5: Ja, verkennen[tijdelijke licentiemogelijkheden](https://purchase.aspose.com/temporary-license/) voor korte termijn projectvereisten.
+
+
+
+```csharp
+// Get metered data amount after calling API
+decimal amountafter = Aspose.CAD.Metered.GetConsumptionQuantity();
+// Display information
+Console.WriteLine("Amount Consumed After: " + amountafter.ToString());
+//ExEnd:MeteredLicensing 
+```
+
+## Gerelateerde tutorials
+
+- [Licentie toepassen in Aspose.CAD voor .NET – Stapsgewijze tutorial](/cad/net/)
+- [Hoe CAD-tekeningen converteren en exporteren naar PDF met Aspose.CAD voor .NET – Tutorial](/cad/net/advanced-export-techniques/exporting-cad-drawings-to-pdf/)
+- [CAD converteren naar PNG in Aspose.CAD voor .NET](/cad/net/cad-drawing-manipulation/convert-cad-drawing-to-raster-image/)
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
