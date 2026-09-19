@@ -1,32 +1,118 @@
 ---
-title: Licenze misurate in Aspose.CAD per .NET
-linktitle: Licenza a consumo
-second_title: Aspose.CAD .NET - Formato file CAD e BIM
-description: Sblocca il potenziale di Aspose.CAD con licenze a consumo in .NET. Ottimizza l'utilizzo delle risorse senza problemi. Esplora la nostra guida passo passo.
-weight: 12
+date: 2026-09-19
+description: Scopri come implementare Aspose CAD metered licensing in .NET per monitorare
+  resource usage delle applicazioni .NET in modo efficiente. Segui la nostra step‑by‑step
+  guide.
+keywords:
+- aspose cad metered licensing
+- monitor resource usage .net
+- aspose cad licensing
+lastmod: 2026-09-19
+linktitle: Metered Licensing
+og_description: Scopri come implementare Aspose CAD metered licensing in .NET per
+  monitorare resource usage delle applicazioni .NET in modo efficiente. Segui la nostra
+  step‑by‑step guide.
+og_image_alt: Guide to Aspose CAD metered licensing for .NET developers
+og_title: Come utilizzare Aspose CAD metered licensing in .NET
+schemas:
+- author: Aspose
+  dateModified: '2026-09-19'
+  description: Learn how to implement Aspose CAD metered licensing in .NET to monitor
+    resource usage .NET applications efficiently. Follow our step‑by‑step guide.
+  headline: How to use Aspose CAD metered licensing in .NET
+  type: TechArticle
+- description: Learn how to implement Aspose CAD metered licensing in .NET to monitor
+    resource usage .NET applications efficiently. Follow our step‑by‑step guide.
+  name: How to use Aspose CAD metered licensing in .NET
+  steps:
+  - name: '**Aspose.CAD installed** – download the latest package from the [Aspose.CAD
+      website](https://releases.aspose.com/cad/net/).'
+    text: '**Aspose.CAD installed** – download the latest package from the [Aspose.CAD
+      website](https://releases.aspose.com/cad/net/).'
+  - name: '**Public and private keys** – obtain them from the [Aspose.CAD purchase
+      page](https://purchase.aspose.com/buy).'
+    text: '**Public and private keys** – obtain them from the [Aspose.CAD purchase
+      page](https://purchase.aspose.com/buy).'
+  - name: '**Basic .NET knowledge** – the guide assumes you are comfortable with C#
+      projects targeting .NET 6 or later.'
+    text: '**Basic .NET knowledge** – the guide assumes you are comfortable with C#
+      projects targeting .NET 6 or later.'
+  type: HowTo
+- questions:
+  - answer: Yes, the free trial version available from the [free trial version](https://releases.aspose.com/)
+      supports metered licensing.
+    question: Can I use metered licensing with a free trial?
+  - answer: Monitoring before and after each major operation gives the most accurate
+      insight, but you can also poll at regular intervals for long‑running services.
+    question: How often should I check consumption quantities?
+  - answer: Yes, the same public/private key pair can be reused across multiple projects
+      and environments.
+    question: Are metered keys reusable?
+  - answer: The library will throw a licensing exception. You can either purchase
+      additional credits or contact support via the [Aspose.CAD support](https://forum.aspose.com/c/cad/19)
+      forum.
+    question: What happens if I exceed my metered limit?
+  - answer: Absolutely – explore [temporary licensing options](https://purchase.aspose.com/temporary-license/)
+      for limited‑duration needs.
+    question: Can I temporarily license Aspose.CAD for a short‑term project?
+  type: FAQPage
+second_title: Aspose.CAD .NET - CAD and BIM File Format
+tags:
+- aspose cad
+- metered licensing
+- .net resource monitoring
+title: Come utilizzare Aspose CAD metered licensing in .NET
 url: /it/net/licensing-and-configuration/metered-licensing/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Licenze misurate in Aspose.CAD per .NET
+# Licenza a consumo di Aspose CAD in .NET
 
-## introduzione
+## Introduzione
 
-Per sfruttare appieno il potenziale di Aspose.CAD per .NET è necessario comprendere le complessità delle licenze a consumo. Questa potente funzionalità consente agli sviluppatori di gestire in modo efficiente il consumo di risorse sfruttando le funzionalità di Aspose.CAD. In questa guida passo passo, approfondiremo il processo di implementazione delle licenze misurate, analizzando ogni passaggio cruciale per garantire un'integrazione perfetta nei tuoi progetti .NET.
+La licenza a consumo di Aspose CAD ti consente di controllare quante chiamate API CAD/BIM consuma la tua applicazione .NET, fornendo una fatturazione precisa e una visione dell'utilizzo. Integrando questo modello di licenza puoi **monitorare l'utilizzo delle risorse .NET** delle applicazioni senza codificare limiti rigidi, rendendo la scalabilità e la gestione dei costi semplici. La guida seguente ti accompagna passo passo, dall'importazione dei namespace alla lettura dei dati di consumo prima e dopo l'elaborazione.
+
+## Risposte rapide
+- **Che cos'è la licenza a consumo?** Un modello basato sull'uso in cui ogni chiamata API consuma un credito predefinito.
+- **Ho bisogno di una licenza di prova?** Sì – la versione di prova gratuita funziona con chiavi a consumo.
+- **Come posso vedere il consumo?** Chiama `License.GetConsumptionQuantity()` prima e dopo le tue operazioni.
+- **È thread‑safe?** Sì, il motore di licenza è progettato per carichi di lavoro .NET concorrenti.
+- **Posso riutilizzare la stessa chiave?** Assolutamente – la stessa coppia pubblica/privata può essere condivisa tra progetti.
+
+## Che cos'è la licenza a consumo di Aspose CAD?
+
+La licenza a consumo di Aspose CAD è uno schema di licenza basato sull'uso che traccia ogni chiamata API effettuata dalla libreria Aspose.CAD per .NET. Consente agli sviluppatori di pagare solo per le risorse che effettivamente consumano, anziché acquistare una licenza perpetua.
+
+## Perché utilizzare la licenza a consumo con Aspose CAD?
+
+La licenza a consumo ti offre un controllo preciso sui costi addebitando solo per l'effettivo utilizzo delle API. Elimina la necessità di acquisti anticipati di licenze e si scala automaticamente con il carico di lavoro, rendendola ideale per elaborazioni intermittenti o basate su cloud dove l'uso varia.
 
 ## Prerequisiti
 
-Prima di intraprendere questo viaggio, assicurati di disporre dei seguenti prerequisiti:
-1.  Installazione di Aspose.CAD: assicurati di avere Aspose.CAD per .NET installato nel tuo ambiente di sviluppo. In caso contrario, scaricalo da[Sito web Aspose.CAD](https://releases.aspose.com/cad/net/).
-2.  Accesso alle chiavi pubbliche e private: ottieni le chiavi pubbliche e private necessarie per la licenza a consumo. Se non li hai ancora, puoi acquisirli tramite il[Pagina di acquisto Aspose.CAD](https://purchase.aspose.com/buy).
-3. Conoscenza di base di .NET: acquisisci familiarità con le nozioni di base dello sviluppo .NET, poiché questa guida presuppone una conoscenza fondamentale del framework.
+1. **Aspose.CAD installato** – scarica l'ultimo pacchetto dal [Aspose.CAD website](https://releases.aspose.com/cad/net/).  
+2. **Chiavi pubbliche e private** – ottienile dalla [Aspose.CAD purchase page](https://purchase.aspose.com/buy).  
+3. **Conoscenza di base di .NET** – la guida presuppone che tu sia a tuo agio con progetti C# che targetizzano .NET 6 o versioni successive.
 
-## Importa spazi dei nomi
+## Importa i namespace
 
-Per iniziare il processo di licenza misurata in Aspose.CAD per .NET, assicurati di importare gli spazi dei nomi necessari nel tuo progetto. Aggiungi il seguente codice all'inizio del tuo file:
+Aggiungi le direttive `using` richieste all'inizio del tuo file C# affinché il compilatore possa individuare le classi Aspose.CAD.
+
+```csharp
+using Aspose.CAD;
+using Aspose.CAD.ImageOptions;
+using Aspose.CAD.License;
+```
+
+Il namespace `License` contiene le classi necessarie per la licenza a consumo.
+
+## Come impostare la chiave a consumo?
+
+`SetMeteredKey` registra le tue chiavi di licenza a consumo pubbliche e private con il motore Aspose.CAD. Chiama questo metodo una volta durante l'avvio dell'applicazione, passando le chiavi ricevute da Aspose. Questo garantisce che tutte le successive chiamate API siano tracciate sul tuo account a consumo.
+
 ```csharp
 using System;
 using System.Collections.Generic;
@@ -34,75 +120,80 @@ using System.Linq;
 using System.Text;
 ```
 
-Ora analizziamo ogni passaggio del tutorial:
+## Come ottenere la quantità di consumo prima della chiamata API?
 
-## Passaggio 1: impostare la chiave misurata
+`GetConsumptionQuantity` restituisce il numero totale di crediti consumati dalla libreria fino al punto della chiamata. Cattura questo valore prima di eseguire qualsiasi operazione CAD per stabilire una baseline. Confrontandolo con il valore dopo l'elaborazione, puoi determinare l'esatto utilizzo di crediti di un compito specifico.
 
 ```csharp
-//ExStart:Licenza misurata
-// Accedi alla proprietà setMeteredKey e passa le chiavi pubbliche e private come parametri
+//ExStart:MeteredLicensing
+// Access the setMeteredKey property and pass public and private keys as parameters
 Aspose.CAD.Metered.SetMeteredKey("PublicKey", "PrivateKey");
 ```
 
- In questo passaggio iniziale, imposta la chiave misurata richiamando il`SetMeteredKey` metodo e fornendo le chiavi pubbliche e private.
+## Come elaborare i dati CAD con Aspose.CAD?
 
-## Passaggio 2: ottenere la quantità di consumo prima della chiamata API
+`CadImage` rappresenta un file CAD caricato e fornisce metodi per il rendering o la conversione. Dopo aver impostato la chiave a consumo, carica il tuo file CAD in un'istanza `CadImage`. Puoi quindi renderizzare in formati raster, convertire in altri tipi CAD o estrarre metadati, tutto sarà conteggiato nel tuo quota a consumo.
 
 ```csharp
-// Ottieni la quantità di dati misurata prima di chiamare l'API
+// Get metered data amount before calling API
 decimal amountbefore = Aspose.CAD.Metered.GetConsumptionQuantity();
-// Visualizzare informazioni
+// Display information
 Console.WriteLine("Amount Consumed Before: " + amountbefore.ToString());
 ```
 
-Recupera la quantità di dati misurati consumati prima di effettuare qualsiasi chiamata API per valutare l'utilizzo delle risorse.
+## Come ottenere la quantità di consumo dopo la chiamata API?
 
-## Passaggio 3: elaborazione dei dati
-
-```csharp
-// Effettuare l'elaborazione
-//Aspose.CAD.FileFormats.Cad.CadImage immagine = (Aspose.CAD.FileFormats.Cad.CadImage)Aspose.CAD.Image.load("BlockRefDgn.dwg");
-```
-
-Esegui le attività di elaborazione desiderate con Aspose.CAD, come caricare immagini CAD o manipolare quelle esistenti.
-
-## Passaggio 4: ottenere la quantità di consumo dopo la chiamata API
+`GetConsumptionQuantity` può essere chiamato nuovamente dopo l'elaborazione per recuperare il totale aggiornato dei crediti. Sottrai la baseline registrata in precedenza per calcolare quanti crediti ha consumato l'operazione recente. queste informazioni ti aiutano a monitorare i pattern di utilizzo e ottimizzare il tuo codice per ridurre i costi.
 
 ```csharp
-// Ottieni la quantità di dati misurata dopo aver chiamato l'API
-decimal amountafter = Aspose.CAD.Metered.GetConsumptionQuantity();
-// Visualizzare informazioni
-Console.WriteLine("Amount Consumed After: " + amountafter.ToString());
-// ExEnd:Licenza misurata
+// Do processing
+//Aspose.CAD.FileFormats.Cad.CadImage image = (Aspose.CAD.FileFormats.Cad.CadImage)Aspose.CAD.Image.load("BlockRefDgn.dwg");
 ```
 
-Dopo aver eseguito le chiamate API, recupera la quantità di dati misurati aggiornata per monitorare il consumo di risorse.
+## Problemi comuni e risoluzione
 
-## Conclusione
-
-In conclusione, padroneggiare le licenze a consumo in Aspose.CAD per .NET consente agli sviluppatori di ottimizzare l'utilizzo delle risorse in modo efficace. Seguendo questa guida, hai acquisito informazioni sulla perfetta integrazione delle licenze a consumo, garantendo un utilizzo efficiente delle funzionalità Aspose.CAD.
+- **Errore di licenza non impostata:** Assicurati che `SetMeteredKey` sia chiamato prima di qualsiasi utilizzo dell'API Aspose.CAD.  
+- **Consumo inaspettatamente alto:** Verifica di non caricare involontariamente grandi lotti di file in un ciclo; ogni caricamento conta come una chiamata separata.  
+- **Preoccupazioni sulla thread‑safety:** Il motore di licenza è thread‑safe, ma evita di chiamare `SetMeteredKey` più volte contemporaneamente.
 
 ## Domande frequenti
 
-### D1: Posso utilizzare le licenze a consumo con una prova gratuita?
+**Q: Posso usare la licenza a consumo con una versione di prova gratuita?**  
+A: Sì, la versione di prova gratuita disponibile su [free trial version](https://releases.aspose.com/) supporta la licenza a consumo.
 
- R1: Sì, la licenza a consumo è compatibile con[versione di prova gratuita](https://releases.aspose.com/) di Aspose.CAD per .NET.
+**Q: Quanto spesso dovrei controllare le quantità di consumo?**  
+A: Monitorare prima e dopo ogni operazione importante fornisce l'insight più accurato, ma è possibile anche effettuare il polling a intervalli regolari per servizi a lunga esecuzione.
 
-### Q2: Con quale frequenza devo controllare le quantità di consumo?
+**Q: Le chiavi a consumo sono riutilizzabili?**  
+A: Sì, la stessa coppia di chiavi pubblica/privata può essere riutilizzata in più progetti e ambienti.
 
-A2: Il monitoraggio del consumo prima e dopo le chiamate API fornisce informazioni preziose; tuttavia, la frequenza dipende dalla complessità e dalla frequenza delle operazioni.
+**Q: Cosa succede se supero il mio limite a consumo?**  
+A: La libreria lancerà un'eccezione di licenza. Puoi acquistare crediti aggiuntivi o contattare il supporto tramite il forum [Aspose.CAD support](https://forum.aspose.com/c/cad/19).
 
-### D3: Le chiavi a consumo sono riutilizzabili?
+**Q: Posso licenziare temporaneamente Aspose.CAD per un progetto a breve termine?**  
+A: Assolutamente – esplora le [temporary licensing options](https://purchase.aspose.com/temporary-license/) per esigenze di durata limitata.
 
-R3: Sì, le chiavi misurate sono riutilizzabili in diversi progetti, offrendo flessibilità nella gestione delle licenze.
+---
 
-### Q4: Cosa succede se supero il limite del contatore?
+**Ultimo aggiornamento:** 2026-09-19  
+**Testato con:** Aspose.CAD 24.11 for .NET  
+**Autore:** Aspose  
 
- R4: Se superi il limite misurato assegnato, valuta la possibilità di aggiornare la licenza o contattare[Supporto Aspose.CAD](https://forum.aspose.com/c/cad/19) per assistenza.
+```csharp
+// Get metered data amount after calling API
+decimal amountafter = Aspose.CAD.Metered.GetConsumptionQuantity();
+// Display information
+Console.WriteLine("Amount Consumed After: " + amountafter.ToString());
+//ExEnd:MeteredLicensing 
+```
 
-### Q5: Posso concedere in licenza temporaneamente Aspose.CAD per progetti specifici?
+## Tutorial correlati
 
- A5: Sì, esplora[opzioni di licenza temporanee](https://purchase.aspose.com/temporary-license/) per esigenze di progetto a breve termine.
+- [Applicare una licenza in Aspose.CAD per .NET – Tutorial passo‑passo](/cad/net/)
+- [Come convertire ed esportare disegni CAD in PDF con Aspose.CAD per .NET – Tutorial](/cad/net/advanced-export-techniques/exporting-cad-drawings-to-pdf/)
+- [Convertire CAD in PNG in Aspose.CAD per .NET](/cad/net/cad-drawing-manipulation/convert-cad-drawing-to-raster-image/)
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

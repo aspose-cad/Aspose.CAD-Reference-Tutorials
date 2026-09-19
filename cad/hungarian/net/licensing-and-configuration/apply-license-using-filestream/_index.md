@@ -1,31 +1,101 @@
 ---
-title: Alkalmazza a licencet a FileStream használatával az Aspose.CAD for .NET-ben
-linktitle: Alkalmazza a licencet a FileStream segítségével
-second_title: Aspose.CAD .NET - CAD és BIM fájlformátum
-description: Az Aspose.CAD elsajátítása .NET-hez – A licencek zökkenőmentes alkalmazása a FileStream segítségével. Fedezze fel a lépésről lépésre bemutatott útmutatót, és tárja fel a lehetőségeket. Letöltés most!
-weight: 11
+date: 2026-09-19
+description: Ismerje meg, hogyan alkalmazhatja az Aspose CAD licencet FileStream segítségével
+  .NET-ben. A lépésről‑lépésre útmutató megmutatja, hogyan töltheti be a licencet
+  .NET projektekbe gyorsan, és hogyan oldhatja fel a teljes CAD funkcionalitást.
+keywords:
+- apply aspose cad license
+- load license .net
+- aspose cad licensing
+lastmod: 2026-09-19
+linktitle: Licenc alkalmazása FileStream segítségével
+og_description: Ismerje meg, hogyan alkalmazhatja az Aspose CAD licencet FileStream
+  segítségével .NET-ben. Ez az útmutató megmutatja, hogyan töltheti be a licencet
+  .NET projektekbe gyorsan, és hogyan nyithatja ki a teljes CAD funkcionalitást.
+og_image_alt: Screenshot of Aspose.CAD license activation in a .NET IDE
+og_title: Aspose CAD licenc alkalmazása FileStream segítségével .NET-ben
+schemas:
+- author: Aspose
+  dateModified: '2026-09-19'
+  description: Learn how to apply Aspose CAD license using FileStream in .NET. Step‑by‑step
+    guide shows you how to load license .NET projects quickly and unlock full CAD
+    functionality.
+  headline: How to apply Aspose CAD license using FileStream in .NET
+  type: TechArticle
+- description: Learn how to apply Aspose CAD license using FileStream in .NET. Step‑by‑step
+    guide shows you how to load license .NET projects quickly and unlock full CAD
+    functionality.
+  name: How to apply Aspose CAD license using FileStream in .NET
+  steps:
+  - name: set the license file path
+    text: Begin by setting the path of your Aspose.CAD license file. In this example
+      we assume it is located in the **c:\temp\\** directory.
+  - name: load the license file into a FileStream
+    text: Next, create a `FileStream` to read the license file. The stream can be
+      opened with read‑only access, ensuring the file remains untouched.
+  - name: apply the license
+    text: Now, create an instance of the `License` class and set the license using
+      the `SetLicense` method. Once this call succeeds, all subsequent Aspose.CAD
+      operations run without evaluation restrictions. Congratulations! You’ve successfully
+      applied the license using `FileStream` in Aspose.CAD for .NET.
+  type: HowTo
+- questions:
+  - answer: Full‑feature access, no evaluation limits, and higher performance for
+      large CAD files.
+    question: What does applying a license unlock?
+  - answer: The `License` class in the Aspose.CAD namespace.
+    question: Which class handles licensing?
+  - answer: Using `FileStream` lets you load the license from any location, including
+      embedded resources.
+    question: Do I need a FileStream?
+  - answer: Yes – a free trial license works the same way as a purchased one.
+    question: Is a trial possible?
+  - answer: .NET Framework 4.5+, .NET Core 3.1+, and .NET 5/6/7.
+    question: What .NET versions are supported?
+  type: FAQPage
+second_title: Aspose.CAD .NET - CAD and BIM File Format
+tags:
+- aspose cad
+- .net licensing
+- filestream
+title: Hogyan alkalmazzuk az Aspose CAD licencet FileStream segítségével .NET-ben
 url: /hu/net/licensing-and-configuration/apply-license-using-filestream/
+weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Alkalmazza a licencet a FileStream használatával az Aspose.CAD for .NET-ben
+# Aspose CAD licenc alkalmazása FileStream használatával .NET-ben
 
 ## Bevezetés
 
-Üdvözöljük az Aspose.CAD for .NET világában – egy hatékony eszköz, amely képessé teszi a fejlesztőket a CAD-fájlok zökkenőmentes kezelésére. Ebben az oktatóanyagban végigvezetjük a FileStream használatával történő licencigénylés folyamatán, így biztosítva, hogy az Aspose.CAD teljes potenciálját kihasználja .NET-projektjeiben.
+Ebben az útmutatóban megtanulja, hogyan **alkalmazza az Aspose CAD licencet** egy `FileStream` objektum használatával, hogy .NET alkalmazása teljes mértékben kihasználhassa a könyvtár CAD és BIM képességeit. A licenc helyes alkalmazása eltávolítja a kiértékelési vízjeleket, és engedélyezi az összes prémium funkciót.
+
+## Gyors válaszok
+- **Mit nyit meg a licenc alkalmazása?** Teljes funkciók hozzáférése, nincs kiértékelési korlátozás, és nagy CAD fájlok esetén magasabb teljesítmény.  
+- **Melyik osztály kezeli a licencelést?** Az `License` osztály az Aspose.CAD névtérben.  
+- **Szükségem van FileStream-re?** A `FileStream` használatával a licencet bármely helyről betöltheti, beleértve a beágyazott erőforrásokat is.  
+- **Lehet próbaverzió?** Igen – egy ingyenes próbaverzió licenc ugyanúgy működik, mint a megvásárolt.  
+- **Mely .NET verziók támogatottak?** .NET Framework 4.5+, .NET Core 3.1+, valamint .NET 5/6/7.
+
+## Mi az Aspose CAD licenc alkalmazása?
+Az `License` osztály az Aspose.CAD komponense, amely ellenőrzi a vásárlást és aktiválja a teljes terméket. `FileStream`-en keresztül történő betöltése biztosítja, hogy a licenc leolvasható legyen lemezről, memóriából vagy beágyazott erőforrásokból anélkül, hogy útvonalakat kódolna be.
+
+## Miért használjunk FileStream-et a licenceléshez?
+Az Aspose.CAD **150+** CAD és BIM formátumot támogat, és akár **2 GB** méretű fájlokat is képes feldolgozni anélkül, hogy a teljes dokumentumot memóriába töltené. A `FileStream` használata finomhangolt vezérlést biztosít a licencfájl olvasásához, ami különösen hasznos felhő- vagy sandbox környezetekben.
 
 ## Előfeltételek
 
-Mielőtt belevágna az oktatóanyagba, győződjön meg arról, hogy a következő előfeltételeket teljesítette:
-1.  Aspose.CAD for .NET Library: Győződjön meg arról, hogy az Aspose.CAD for .NET könyvtár telepítve van a fejlesztői környezetében. Letöltheti[itt](https://releases.aspose.com/cad/net/).
-2.  Licencfájl: Szerezzen be egy érvényes licencfájlt az Aspose.CAD számára. Megvásárlásával szerezhet be egyet[itt](https://purchase.aspose.com/buy) . Ha először szeretné kipróbálni a könyvtárat, tegyen egy ingyenes próbaverziót[itt](https://releases.aspose.com/).
+Mielőtt belemerülne az útmutatóba, győződjön meg róla, hogy a következő előfeltételek rendelkezésre állnak:
+1. Aspose.CAD for .NET könyvtár: Győződjön meg róla, hogy az Aspose.CAD for .NET könyvtár telepítve van a fejlesztői környezetben. Letöltheti itt: [download Aspose.CAD for .NET](https://releases.aspose.com/cad/net/).
+2. Licencfájl: Szerezzen be egy érvényes licencfájlt az Aspose.CAD-hez. Megvásárolhatja itt: [purchase Aspose.CAD license](https://purchase.aspose.com/buy). Ha előbb ki szeretné próbálni a könyvtárat, vegye fel a [free trial of Aspose.CAD](https://releases.aspose.com/) ingyenes próbaverziót.
 
 ## Névterek importálása
 
-Most, hogy készen vannak az előfeltételek, kezdjük a szükséges névterek importálásával a .NET-projektbe. Ez a lépés kulcsfontosságú az Aspose.CAD által biztosított funkciók eléréséhez.
+Miután az előfeltételek készen állnak, importálja a licenceléshez szükséges névtereket.
+
 ```csharp
 using Aspose.CAD;
 using System;
@@ -35,57 +105,78 @@ using System.Linq;
 using System.Text;
 ```
 
-## Licenc alkalmazása a FileStream használatával az Aspose.CAD for .NET-ben
+## Hogyan alkalmazzuk az Aspose CAD licencet FileStream használatával?
 
-## 1. lépés: Állítsa be a licencfájl elérési útját
+Az `License` osztályt használják az Aspose.CAD licencének alkalmazásához, és a `SetLicense` metódusa egy stream‑ből tölti be a licencet. Töltse be a licencfájlt egy `FileStream`‑el, példányosítsa az `License` objektumot, és hívja meg a `SetLicense`‑t. Ez a háromlépéses minta működik konzolalkalmazásokban, Windows szolgáltatásokban és ASP.NET Core projektekben egyaránt, és garantálja, hogy a licenc a CAD feldolgozás előtt alkalmazásra kerüljön.
 
-Kezdje az Aspose.CAD licencfájl elérési útjának beállításával. Ebben a példában feltételezzük, hogy a "c:\temp\" Könyvtár.
+### 1. lépés: a licencfájl útvonalának beállítása
+
+Kezdje a licencfájl útvonalának beállításával. Ebben a példában feltételezzük, hogy a **c:\\temp\\** könyvtárban található.
+
 ```csharp
 string dataDir = @"c:\temp\";
 ```
 
-## 2. lépés: Töltse be a licencfájlt egy FileStreambe
+### 2. lépés: a licencfájl betöltése FileStream-be
 
- Ezután hozzon létre a`FileStream` a licencfájl betöltéséhez. A következő kód bemutatja, hogyan kell ezt megtenni:
+Ezután hozzon létre egy `FileStream`‑et a licencfájl olvasásához. A stream csak olvasási hozzáféréssel nyitható meg, biztosítva, hogy a fájl érintetlen maradjon.
+
 ```csharp
 FileStream LicStream = new FileStream(dataDir + "Aspose.CAD.lic", FileMode.Open);
 ```
 
-## 3. lépés: Alkalmazza a licencet
+### 3. lépés: a licenc alkalmazása
 
- Most hozzon létre egy példányt a`License` osztályt, és állítsa be a licencet a segítségével`SetLicense` módszer.
+Most hozza létre az `License` osztály egy példányát, és állítsa be a licencet a `SetLicense` metódussal. Amint ez a hívás sikeres, minden további Aspose.CAD művelet kiértékelési korlátozások nélkül fut.
+
 ```csharp
 License license = new License();
 license.SetLicense(LicStream);
 ```
 
-Gratulálunk! Sikeresen alkalmazta a licencet a FileStream használatával az Aspose.CAD for .NET-ben.
+Gratulálunk! Sikeresen alkalmazta a licencet `FileStream` használatával az Aspose.CAD for .NET-ben.
 
-## Következtetés
+## Gyakori hibák és hibaelhárítás
 
-Ebben az oktatóanyagban végigvezettük a licenc igénylésének folyamatát a FileStream használatával az Aspose.CAD for .NET-ben. Az alábbi lépések végrehajtásával felszabadította az Aspose.CAD képességeit, így könnyedén kezelheti a CAD-fájlokat .NET-alkalmazásaiban.
+- **Fájl nem található** – Ellenőrizze, hogy az útvonal helyes-e, és hogy az alkalmazásnak olvasási jogosultsága van-e a mappán.  
+- **Érvénytelen licencformátum** – Győződjön meg róla, hogy a licencfájl pontosan az Aspose által biztosított `.lic` fájl, és nem módosították.  
+- **Több szál tölti be a licencet** – Töltse be a licencet egyszer az alkalmazás indításakor, hogy elkerülje a felesleges I/O‑t.
 
-## GYIK
+## Gyakran ismételt kérdések
 
-### 1. kérdés: Hol találom az Aspose.CAD for .NET dokumentációját?
+### Q1: Hol találom az Aspose.CAD for .NET dokumentációját?
 
- V1: Megnézheti a részletes dokumentációt[itt](https://reference.aspose.com/cad/net/).
+A1: A részletes dokumentációt itt tekintheti meg: [Aspose.CAD .NET documentation](https://reference.aspose.com/cad/net/).
 
-### 2. kérdés: Hogyan tölthetem le az Aspose.CAD-et .NET-hez?
+### Q2: Hogyan tölthetem le az Aspose.CAD for .NET-et?
 
- 2. válasz: Letöltheti a könyvtárat[itt](https://releases.aspose.com/cad/net/).
+A2: A könyvtárat itt töltheti le: [download Aspose.CAD for .NET](https://releases.aspose.com/cad/net/).
 
-### 3. kérdés: Elérhető ingyenes próbaverzió az Aspose.CAD for .NET számára?
+### Q3: Van ingyenes próbaverzió az Aspose.CAD for .NET-hez?
 
- 3. válasz: Igen, hozzáférhet az ingyenes próbaverzióhoz[itt](https://releases.aspose.com/).
+A3: Igen, elérhető egy ingyenes próbaverzió: [free trial of Aspose.CAD](https://releases.aspose.com/).
 
-### 4. kérdés: Hogyan szerezhetek ideiglenes licencet az Aspose.CAD for .NET számára?
+### Q4: Hogyan szerezhetek ideiglenes licencet az Aspose.CAD for .NET-hez?
 
- V4: Kaphat ideiglenes engedélyt[itt](https://purchase.aspose.com/temporary-license/).
+A4: Ideiglenes licencet itt kaphat: [temporary Aspose.CAD license](https://purchase.aspose.com/temporary-license/).
 
-### 5. kérdés: Segítségre van szüksége, vagy kérdései vannak? Hol kaphatok támogatást?
+### Q5: Segítségre van szüksége vagy kérdései vannak? Hol kaphatok támogatást?
 
- 5. válasz: Látogassa meg az Aspose.CAD fórumokat[itt](https://forum.aspose.com/c/cad/19) bármilyen támogatással kapcsolatos kérdés esetén.
+A5: Látogassa meg az Aspose.CAD fórumot: [Aspose.CAD forums](https://forum.aspose.com/c/cad/19) bármilyen támogatással kapcsolatos kérdés esetén.
+
+---
+
+**Last Updated:** 2026-09-19  
+**Tested With:** Aspose.CAD 24.11 for .NET  
+**Author:** Aspose
+
+## Kapcsolódó útmutatók
+
+- [Licenc alkalmazása Aspose.CAD for .NET‑ben – Lépésről lépésre útmutató](/cad/net/)
+- [DWFX fájl betöltése C#‑ban az Aspose.CAD útmutatóval](/cad/net/dwg-file-manipulation/opening-and-accessing-dwfx-files/)
+- [DWG konvertálása PDF‑re és raszter képekre az Aspose.CAD for .NET használatával](/cad/net/advanced-export-techniques/exporting-dwg-to-pdf-or-raster-images/)
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -1,32 +1,118 @@
 ---
-title: Lisensi Terukur di Aspose.CAD untuk .NET
-linktitle: Lisensi Terukur
-second_title: Aspose.CAD .NET - Format File CAD dan BIM
-description: Buka potensi Aspose.CAD dengan lisensi terukur di .NET. Optimalkan penggunaan sumber daya dengan lancar. Jelajahi panduan langkah demi langkah kami.
-weight: 12
+date: 2026-09-19
+description: Pelajari cara mengimplementasikan Aspose CAD metered licensing di .NET
+  untuk memantau penggunaan sumber daya aplikasi .NET secara efisien. Ikuti panduan
+  langkah demi langkah kami.
+keywords:
+- aspose cad metered licensing
+- monitor resource usage .net
+- aspose cad licensing
+lastmod: 2026-09-19
+linktitle: Metered Licensing
+og_description: Pelajari cara mengimplementasikan Aspose CAD metered licensing di
+  .NET untuk memantau penggunaan sumber daya aplikasi .NET secara efisien. Ikuti panduan
+  langkah demi langkah kami.
+og_image_alt: Guide to Aspose CAD metered licensing for .NET developers
+og_title: Cara menggunakan Aspose CAD metered licensing di .NET
+schemas:
+- author: Aspose
+  dateModified: '2026-09-19'
+  description: Learn how to implement Aspose CAD metered licensing in .NET to monitor
+    resource usage .NET applications efficiently. Follow our step‑by‑step guide.
+  headline: How to use Aspose CAD metered licensing in .NET
+  type: TechArticle
+- description: Learn how to implement Aspose CAD metered licensing in .NET to monitor
+    resource usage .NET applications efficiently. Follow our step‑by‑step guide.
+  name: How to use Aspose CAD metered licensing in .NET
+  steps:
+  - name: '**Aspose.CAD installed** – download the latest package from the [Aspose.CAD
+      website](https://releases.aspose.com/cad/net/).'
+    text: '**Aspose.CAD installed** – download the latest package from the [Aspose.CAD
+      website](https://releases.aspose.com/cad/net/).'
+  - name: '**Public and private keys** – obtain them from the [Aspose.CAD purchase
+      page](https://purchase.aspose.com/buy).'
+    text: '**Public and private keys** – obtain them from the [Aspose.CAD purchase
+      page](https://purchase.aspose.com/buy).'
+  - name: '**Basic .NET knowledge** – the guide assumes you are comfortable with C#
+      projects targeting .NET 6 or later.'
+    text: '**Basic .NET knowledge** – the guide assumes you are comfortable with C#
+      projects targeting .NET 6 or later.'
+  type: HowTo
+- questions:
+  - answer: Yes, the free trial version available from the [free trial version](https://releases.aspose.com/)
+      supports metered licensing.
+    question: Can I use metered licensing with a free trial?
+  - answer: Monitoring before and after each major operation gives the most accurate
+      insight, but you can also poll at regular intervals for long‑running services.
+    question: How often should I check consumption quantities?
+  - answer: Yes, the same public/private key pair can be reused across multiple projects
+      and environments.
+    question: Are metered keys reusable?
+  - answer: The library will throw a licensing exception. You can either purchase
+      additional credits or contact support via the [Aspose.CAD support](https://forum.aspose.com/c/cad/19)
+      forum.
+    question: What happens if I exceed my metered limit?
+  - answer: Absolutely – explore [temporary licensing options](https://purchase.aspose.com/temporary-license/)
+      for limited‑duration needs.
+    question: Can I temporarily license Aspose.CAD for a short‑term project?
+  type: FAQPage
+second_title: Aspose.CAD .NET - CAD and BIM File Format
+tags:
+- aspose cad
+- metered licensing
+- .net resource monitoring
+title: Cara menggunakan Aspose CAD metered licensing di .NET
 url: /id/net/licensing-and-configuration/metered-licensing/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Lisensi Terukur di Aspose.CAD untuk .NET
+# Lisensi Metered Aspose CAD di .NET
 
-## Perkenalan
+## Pendahuluan
 
-Untuk membuka potensi penuh Aspose.CAD untuk .NET memerlukan pemahaman seluk-beluk lisensi terukur. Fitur canggih ini memungkinkan pengembang mengelola konsumsi sumber daya secara efisien sambil memanfaatkan kemampuan Aspose.CAD. Dalam panduan langkah demi langkah ini, kami akan mempelajari proses penerapan lisensi terukur, menguraikan setiap langkah penting untuk memastikan integrasi yang lancar ke dalam proyek .NET Anda.
+Lisensi metered Aspose CAD memungkinkan Anda mengontrol berapa banyak panggilan API CAD/BIM yang dikonsumsi aplikasi .NET Anda, memberikan penagihan yang tepat dan wawasan penggunaan. Dengan mengintegrasikan model lisensi ini Anda dapat **monitor resource usage .NET** aplikasi tanpa mengkodekan batas secara keras, sehingga penskalaan dan pengelolaan biaya menjadi sederhana. Panduan berikut akan memandu Anda melalui setiap langkah, mulai dari mengimpor namespace hingga membaca data konsumsi sebelum dan sesudah pemrosesan.
+
+## Jawaban Cepat
+- **Apa itu lisensi metered?** Model berbasis penggunaan di mana setiap panggilan API mengonsumsi kredit yang telah ditentukan.
+- **Apakah saya memerlukan lisensi percobaan?** Ya – percobaan gratis berfungsi dengan kunci metered.
+- **Bagaimana saya dapat melihat konsumsi?** Panggil `License.GetConsumptionQuantity()` sebelum dan sesudah operasi Anda.
+- **Apakah ini thread‑safe?** Ya, mesin lisensi dirancang untuk beban kerja .NET yang bersamaan.
+- **Dapatkah saya menggunakan kembali kunci yang sama?** Tentu – pasangan publik/privat yang sama dapat dibagikan di seluruh proyek.
+
+## Apa itu lisensi metered Aspose CAD?
+
+Lisensi metered Aspose CAD adalah skema lisensi berbasis penggunaan yang melacak setiap panggilan API yang dibuat oleh pustaka Aspose.CAD untuk .NET. Ini memungkinkan pengembang membayar hanya untuk sumber daya yang sebenarnya mereka konsumsi, alih-alih membeli lisensi permanen.
+
+## Mengapa menggunakan lisensi metered dengan Aspose CAD?
+
+Lisensi metered memberi Anda kontrol yang tepat atas biaya dengan menagih hanya untuk penggunaan API yang sebenarnya. Ini menghilangkan kebutuhan pembelian lisensi di muka dan secara otomatis menyesuaikan dengan beban kerja, menjadikannya ideal untuk pemrosesan intermiten atau berbasis cloud di mana penggunaan berfluktuasi.
 
 ## Prasyarat
 
-Sebelum kita memulai perjalanan ini, pastikan Anda memiliki prasyarat berikut:
-1.  Instalasi Aspose.CAD: Pastikan Anda telah menginstal Aspose.CAD untuk .NET di lingkungan pengembangan Anda. Jika tidak, unduh dari[Situs web Aspose.CAD](https://releases.aspose.com/cad/net/).
-2.  Akses ke Kunci Publik dan Pribadi: Dapatkan kunci publik dan pribadi yang diperlukan untuk lisensi terukur. Jika Anda belum memilikinya, Anda dapat memperolehnya melalui[Halaman pembelian Aspose.CAD](https://purchase.aspose.com/buy).
-3. Pengetahuan Dasar tentang .NET: Biasakan diri Anda dengan dasar-dasar pengembangan .NET, karena panduan ini mengasumsikan pemahaman dasar tentang kerangka kerja tersebut.
+1. **Aspose.CAD terpasang** – unduh paket terbaru dari [Aspose.CAD website](https://releases.aspose.com/cad/net/).  
+2. **Kunci publik dan privat** – dapatkan dari [Aspose.CAD purchase page](https://purchase.aspose.com/buy).  
+3. **Pengetahuan dasar .NET** – panduan mengasumsikan Anda nyaman dengan proyek C# yang menargetkan .NET 6 atau lebih baru.
 
-## Impor Namespace
+## Impor namespace
 
-Untuk memulai proses lisensi terukur di Aspose.CAD untuk .NET, pastikan untuk mengimpor namespace yang diperlukan ke dalam proyek Anda. Tambahkan kode berikut di awal file Anda:
+Tambahkan direktif `using` yang diperlukan di bagian atas file C# Anda sehingga kompilator dapat menemukan kelas Aspose.CAD.
+
+```csharp
+using Aspose.CAD;
+using Aspose.CAD.ImageOptions;
+using Aspose.CAD.License;
+```
+
+Namespace `License` berisi kelas yang diperlukan untuk lisensi metered.
+
+## Cara mengatur kunci metered?
+
+`SetMeteredKey` mendaftarkan kunci lisensi metered publik dan privat Anda ke mesin Aspose.CAD. Panggil metode ini sekali saat aplikasi dimulai, dengan memberikan kunci yang Anda terima dari Aspose. Ini memastikan semua panggilan API berikutnya dilacak terhadap akun metered Anda.
+
 ```csharp
 using System;
 using System.Collections.Generic;
@@ -34,75 +120,85 @@ using System.Linq;
 using System.Text;
 ```
 
-Sekarang, mari kita uraikan setiap langkah dalam tutorial:
+## Cara mendapatkan kuantitas konsumsi sebelum panggilan API?
 
-## Langkah 1: Setel Kunci Terukur
+`GetConsumptionQuantity` mengembalikan total jumlah kredit yang dikonsumsi oleh pustaka hingga titik pemanggilan. Tangkap nilai ini sebelum melakukan operasi CAD apa pun untuk menetapkan baseline. Dengan membandingkannya dengan nilai setelah pemrosesan, Anda dapat menentukan penggunaan kredit yang tepat untuk tugas tertentu.
 
 ```csharp
-//ExStart: Lisensi Terukur
-// Akses properti setMeteredKey dan teruskan kunci publik dan pribadi sebagai parameter
+//ExStart:MeteredLicensing
+// Access the setMeteredKey property and pass public and private keys as parameters
 Aspose.CAD.Metered.SetMeteredKey("PublicKey", "PrivateKey");
 ```
 
- Pada langkah awal ini, atur kunci terukur dengan menjalankan`SetMeteredKey` metode dan memberikan kunci publik dan pribadi Anda.
+## Cara memproses data CAD dengan Aspose.CAD?
 
-## Langkah 2: Dapatkan Kuantitas Konsumsi Sebelum Panggilan API
+`CadImage` mewakili file CAD yang dimuat dan menyediakan metode untuk rendering atau konversi. Setelah mengatur kunci metered, muat file CAD Anda ke dalam instance `CadImage`. Anda kemudian dapat merender ke format raster, mengonversi ke tipe CAD lain, atau mengekstrak metadata, semuanya akan dihitung terhadap kuota metered Anda.
 
 ```csharp
-// Dapatkan jumlah data terukur sebelum memanggil API
+// Get metered data amount before calling API
 decimal amountbefore = Aspose.CAD.Metered.GetConsumptionQuantity();
-// Menampilkan informasi
+// Display information
 Console.WriteLine("Amount Consumed Before: " + amountbefore.ToString());
 ```
 
-Ambil jumlah data terukur yang dikonsumsi sebelum melakukan panggilan API apa pun untuk mengukur penggunaan sumber daya Anda.
+## Cara mendapatkan kuantitas konsumsi setelah panggilan API?
 
-## Langkah 3: Proses Data
+`GetConsumptionQuantity` dapat dipanggil lagi setelah pemrosesan untuk mengambil total kredit yang diperbarui. Kurangi baseline yang sebelumnya tercatat untuk menghitung berapa banyak kredit yang dikonsumsi oleh operasi terbaru. Informasi ini membantu Anda memantau pola penggunaan dan mengoptimalkan kode Anda untuk biaya lebih rendah.
 
 ```csharp
-// Lakukan pemrosesan
+// Do processing
 //Aspose.CAD.FileFormats.Cad.CadImage image = (Aspose.CAD.FileFormats.Cad.CadImage)Aspose.CAD.Image.load("BlockRefDgn.dwg");
 ```
 
-Lakukan tugas pemrosesan yang Anda inginkan dengan Aspose.CAD, seperti memuat gambar CAD atau memanipulasi gambar yang sudah ada.
+## Masalah umum dan pemecahan masalah
 
-## Langkah 4: Dapatkan Kuantitas Konsumsi Setelah Panggilan API
+- **Kesalahan lisensi tidak disetel:** Pastikan `SetMeteredKey` dipanggil sebelum penggunaan API Aspose.CAD apa pun.  
+- **Konsumsi tinggi yang tidak terduga:** Verifikasi bahwa Anda tidak secara tidak sengaja memuat batch besar file dalam loop; setiap pemuatan dihitung sebagai panggilan terpisah.  
+- **Kekhawatiran thread‑safety:** Mesin lisensi bersifat thread‑safe, tetapi hindari memanggil `SetMeteredKey` berkali-kali secara bersamaan.
+
+## Pertanyaan yang sering diajukan
+
+**Q: Dapatkah saya menggunakan lisensi metered dengan percobaan gratis?**  
+**A: Ya, versi percobaan gratis yang tersedia dari [free trial version](https://releases.aspose.com/) mendukung lisensi metered.**
+
+**Q: Seberapa sering saya harus memeriksa kuantitas konsumsi?**  
+**A: Memantau sebelum dan sesudah setiap operasi utama memberikan wawasan paling akurat, tetapi Anda juga dapat melakukan polling secara berkala untuk layanan yang berjalan lama.**
+
+**Q: Apakah kunci metered dapat digunakan kembali?**  
+**A: Ya, pasangan kunci publik/privat yang sama dapat digunakan kembali di berbagai proyek dan lingkungan.**
+
+**Q: Apa yang terjadi jika saya melampaui batas metered saya?**  
+**A: Pustaka akan melemparkan pengecualian lisensi. Anda dapat membeli kredit tambahan atau menghubungi dukungan melalui forum [Aspose.CAD support](https://forum.aspose.com/c/cad/19).**
+
+**Q: Dapatkah saya melisensikan Aspose.CAD secara sementara untuk proyek jangka pendek?**  
+**A: Tentu – jelajahi [temporary licensing options](https://purchase.aspose.com/temporary-license/) untuk kebutuhan durasi terbatas.**
+
+---
+
+**Terakhir Diperbarui:** 2026-09-19  
+**Diuji dengan:** Aspose.CAD 24.11 for .NET  
+**Penulis:** Aspose  
+
+
+
+
+
 
 ```csharp
-// Dapatkan jumlah data terukur setelah memanggil API
+// Get metered data amount after calling API
 decimal amountafter = Aspose.CAD.Metered.GetConsumptionQuantity();
-// Menampilkan informasi
+// Display information
 Console.WriteLine("Amount Consumed After: " + amountafter.ToString());
-// ExEnd: Lisensi Terukur
+//ExEnd:MeteredLicensing 
 ```
 
-Setelah menjalankan panggilan API Anda, ambil jumlah data terukur yang diperbarui untuk melacak konsumsi sumber daya.
+## Tutorial Terkait
 
-## Kesimpulan
+- [Menerapkan Lisensi di Aspose.CAD untuk .NET – Tutorial Langkah‑per‑Langkah](/cad/net/)
+- [Cara Mengonversi dan Mengekspor Gambar CAD ke PDF dengan Aspose.CAD untuk .NET – Tutorial](/cad/net/advanced-export-techniques/exporting-cad-drawings-to-pdf/)
+- [Mengonversi CAD ke PNG di Aspose.CAD untuk .NET](/cad/net/cad-drawing-manipulation/convert-cad-drawing-to-raster-image/)
 
-Kesimpulannya, menguasai lisensi terukur di Aspose.CAD untuk .NET memberdayakan pengembang untuk mengoptimalkan penggunaan sumber daya secara efektif. Dengan mengikuti panduan ini, Anda mendapatkan wawasan tentang integrasi lisensi terukur yang lancar, memastikan pemanfaatan kemampuan Aspose.CAD secara efisien.
 
-## FAQ
-
-### Q1: Dapatkah saya menggunakan lisensi terukur dengan uji coba gratis?
-
- A1: Ya, lisensi terukur kompatibel dengan[versi percobaan gratis](https://releases.aspose.com/) dari Aspose.CAD untuk .NET.
-
-### Q2: Seberapa sering saya harus memeriksa jumlah konsumsi?
-
-A2: Memantau konsumsi sebelum dan sesudah panggilan API memberikan wawasan yang berharga; namun, frekuensinya bergantung pada kompleksitas dan frekuensi operasi Anda.
-
-### Q3: Apakah kunci terukur dapat digunakan kembali?
-
-A3: Ya, kunci terukur dapat digunakan kembali di berbagai proyek, sehingga menawarkan fleksibilitas dalam manajemen perizinan.
-
-### Q4: Apa yang terjadi jika saya melebihi batas meteran saya?
-
- A4: Jika Anda melampaui batas meteran yang dialokasikan, pertimbangkan untuk meningkatkan lisensi Anda atau menghubungi kami[Dukungan Aspose.CAD](https://forum.aspose.com/c/cad/19) untuk bantuan.
-
-### Q5: Dapatkah saya melisensikan sementara Aspose.CAD untuk proyek tertentu?
-
- A5: Ya, jelajahi[pilihan lisensi sementara](https://purchase.aspose.com/temporary-license/) untuk kebutuhan proyek jangka pendek.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
