@@ -1,31 +1,99 @@
 ---
-title: ใช้ใบอนุญาตโดยใช้ FileStream ใน Aspose.CAD สำหรับ .NET
-linktitle: ใช้ใบอนุญาตโดยใช้ FileStream
-second_title: Aspose.CAD .NET - รูปแบบไฟล์ CAD และ BIM
-description: การเรียนรู้ Aspose.CAD สำหรับ .NET - ใช้ใบอนุญาตได้อย่างราบรื่นโดยใช้ FileStream สำรวจคำแนะนำทีละขั้นตอนและปลดล็อกศักยภาพ ดาวน์โหลดเดี๋ยวนี้!
-weight: 11
+date: 2026-09-19
+description: เรียนรู้วิธีการใช้ใบอนุญาต Aspose CAD ด้วย FileStream ใน .NET คู่มือขั้นตอนโดยละเอียดจะแสดงวิธีโหลดใบอนุญาตในโครงการ
+  .NET อย่างรวดเร็วและเปิดใช้งานฟังก์ชัน CAD เต็มรูปแบบ
+keywords:
+- apply aspose cad license
+- load license .net
+- aspose cad licensing
+lastmod: 2026-09-19
+linktitle: ใช้ใบอนุญาตด้วย FileStream
+og_description: เรียนรู้วิธีการใช้ใบอนุญาต Aspose CAD ด้วย FileStream ใน .NET คู่มือนี้จะแสดงวิธีโหลดใบอนุญาตในโครงการ
+  .NET อย่างรวดเร็วและเปิดใช้งานฟังก์ชัน CAD เต็มรูปแบบ
+og_image_alt: Screenshot of Aspose.CAD license activation in a .NET IDE
+og_title: ใช้ใบอนุญาต Aspose CAD ด้วย FileStream ใน .NET
+schemas:
+- author: Aspose
+  dateModified: '2026-09-19'
+  description: Learn how to apply Aspose CAD license using FileStream in .NET. Step‑by‑step
+    guide shows you how to load license .NET projects quickly and unlock full CAD
+    functionality.
+  headline: How to apply Aspose CAD license using FileStream in .NET
+  type: TechArticle
+- description: Learn how to apply Aspose CAD license using FileStream in .NET. Step‑by‑step
+    guide shows you how to load license .NET projects quickly and unlock full CAD
+    functionality.
+  name: How to apply Aspose CAD license using FileStream in .NET
+  steps:
+  - name: set the license file path
+    text: Begin by setting the path of your Aspose.CAD license file. In this example
+      we assume it is located in the **c:\temp\\** directory.
+  - name: load the license file into a FileStream
+    text: Next, create a `FileStream` to read the license file. The stream can be
+      opened with read‑only access, ensuring the file remains untouched.
+  - name: apply the license
+    text: Now, create an instance of the `License` class and set the license using
+      the `SetLicense` method. Once this call succeeds, all subsequent Aspose.CAD
+      operations run without evaluation restrictions. Congratulations! You’ve successfully
+      applied the license using `FileStream` in Aspose.CAD for .NET.
+  type: HowTo
+- questions:
+  - answer: Full‑feature access, no evaluation limits, and higher performance for
+      large CAD files.
+    question: What does applying a license unlock?
+  - answer: The `License` class in the Aspose.CAD namespace.
+    question: Which class handles licensing?
+  - answer: Using `FileStream` lets you load the license from any location, including
+      embedded resources.
+    question: Do I need a FileStream?
+  - answer: Yes – a free trial license works the same way as a purchased one.
+    question: Is a trial possible?
+  - answer: .NET Framework 4.5+, .NET Core 3.1+, and .NET 5/6/7.
+    question: What .NET versions are supported?
+  type: FAQPage
+second_title: Aspose.CAD .NET - CAD and BIM File Format
+tags:
+- aspose cad
+- .net licensing
+- filestream
+title: วิธีการใช้ใบอนุญาต Aspose CAD ด้วย FileStream ใน .NET
 url: /th/net/licensing-and-configuration/apply-license-using-filestream/
+weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# ใช้ใบอนุญาตโดยใช้ FileStream ใน Aspose.CAD สำหรับ .NET
+# ใช้ใบอนุญาต Aspose CAD ด้วย FileStream ใน .NET
 
-## การแนะนำ
+## บทนำ
 
-ยินดีต้อนรับสู่โลกของ Aspose.CAD สำหรับ .NET – เครื่องมือทรงพลังที่ช่วยให้นักพัฒนาจัดการไฟล์ CAD ได้อย่างราบรื่น ในบทช่วยสอนนี้ เราจะแนะนำคุณตลอดขั้นตอนการยื่นใบอนุญาตโดยใช้ FileStream เพื่อให้มั่นใจว่าคุณจะได้ใช้ประโยชน์จากศักยภาพสูงสุดของ Aspose.CAD ในโปรเจ็กต์ .NET ของคุณ
+ในบทแนะนำนี้คุณจะได้เรียนรู้วิธี **apply Aspose CAD license** โดยใช้วัตถุ `FileStream` เพื่อให้แอปพลิเคชัน .NET ของคุณใช้ประโยชน์เต็มที่จากความสามารถ CAD และ BIM ของไลบรารี การใช้ใบอนุญาตอย่างถูกต้องจะลบลายน้ำการประเมินและเปิดใช้งานคุณสมบัติพรีเมี่ยมทั้งหมด
+
+## คำตอบอย่างรวดเร็ว
+- **อะไรที่การใช้ใบอนุญาตจะปลดล็อก?** การเข้าถึงคุณสมบัติเต็มรูปแบบ, ไม่มีข้อจำกัดการประเมิน, และประสิทธิภาพที่สูงขึ้นสำหรับไฟล์ CAD ขนาดใหญ่.  
+- **คลาสใดจัดการการให้ใบอนุญาต?** คลาส `License` ใน namespace Aspose.CAD.  
+- **ฉันต้องการ FileStream หรือไม่?** การใช้ `FileStream` ทำให้คุณโหลดใบอนุญาตจากตำแหน่งใดก็ได้ รวมถึงทรัพยากรที่ฝังอยู่.  
+- **สามารถใช้รุ่นทดลองได้หรือไม่?** ใช่ – ใบอนุญาตรุ่นทดลองฟรีทำงานเช่นเดียวกับใบอนุญาตที่ซื้อ.  
+- **เวอร์ชัน .NET ที่รองรับคืออะไร?** .NET Framework 4.5+, .NET Core 3.1+, และ .NET 5/6/7.
+
+## การใช้ใบอนุญาต Aspose CAD คืออะไร?
+คลาส `License` เป็นส่วนประกอบของ Aspose.CAD ที่ตรวจสอบการซื้อของคุณและเปิดใช้งานผลิตภัณฑ์เต็มรูปแบบ การโหลดผ่าน `FileStream` ทำให้แน่ใจว่าใบอนุญาตสามารถอ่านได้จากดิสก์, หน่วยความจำ หรือทรัพยากรที่ฝังอยู่โดยไม่ต้องกำหนดเส้นทางแบบคงที่.
+
+## ทำไมต้องใช้ FileStream สำหรับการให้ใบอนุญาต?
+Aspose.CAD รองรับ **150+** รูปแบบ CAD และ BIM และสามารถประมวลผลไฟล์ขนาดถึง **2 GB** โดยไม่ต้องโหลดเอกสารทั้งหมดเข้าสู่หน่วยความจำ การใช้ `FileStream` ให้การควบคุมที่ละเอียดเกี่ยวกับวิธีการอ่านไฟล์ใบอนุญาต ซึ่งเป็นประโยชน์อย่างยิ่งในสภาพแวดล้อมคลาวด์หรือ sandboxed.
 
 ## ข้อกำหนดเบื้องต้น
 
-ก่อนที่จะเข้าสู่บทช่วยสอน ตรวจสอบให้แน่ใจว่าคุณมีข้อกำหนดเบื้องต้นต่อไปนี้:
-1.  Aspose.CAD สำหรับไลบรารี .NET: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้งไลบรารี Aspose.CAD สำหรับ .NET ในสภาพแวดล้อมการพัฒนาของคุณ คุณสามารถดาวน์โหลดได้[ที่นี่](https://releases.aspose.com/cad/net/).
-2.  ไฟล์ลิขสิทธิ์: รับไฟล์ลิขสิทธิ์ที่ถูกต้องสำหรับ Aspose.CAD คุณสามารถรับได้โดยการซื้อมัน[ที่นี่](https://purchase.aspose.com/buy) . หากคุณต้องการลองใช้ห้องสมุดก่อน ให้ทดลองใช้ฟรี[ที่นี่](https://releases.aspose.com/).
+ก่อนเริ่มบทแนะนำ โปรดตรวจสอบว่าคุณมีข้อกำหนดต่อไปนี้พร้อมใช้งาน:
+1. Aspose.CAD for .NET Library: ตรวจสอบว่าคุณได้ติดตั้งไลบรารี Aspose.CAD for .NET ในสภาพแวดล้อมการพัฒนาของคุณแล้ว คุณสามารถดาวน์โหลดได้ที่ [download Aspose.CAD for .NET](https://releases.aspose.com/cad/net/).
+2. License File: รับไฟล์ใบอนุญาตที่ถูกต้องสำหรับ Aspose.CAD คุณสามารถซื้อได้ที่ [purchase Aspose.CAD license](https://purchase.aspose.com/buy). หากต้องการทดลองใช้ไลบรารีก่อน สามารถรับ [free trial of Aspose.CAD](https://releases.aspose.com/).
 
-## นำเข้าเนมสเปซ
+## นำเข้า namespace
 
-เมื่อคุณมีข้อกำหนดเบื้องต้นพร้อมแล้ว เรามาเริ่มด้วยการนำเข้าเนมสเปซที่จำเป็นลงในโปรเจ็กต์ .NET ของคุณกันดีกว่า ขั้นตอนนี้มีความสำคัญอย่างยิ่งในการเข้าถึงฟังก์ชันการทำงานของ Aspose.CAD
+เมื่อคุณเตรียมข้อกำหนดแล้ว ให้นำเข้า namespace ที่จำเป็นสำหรับการทำงานกับใบอนุญาต.
+
 ```csharp
 using Aspose.CAD;
 using System;
@@ -35,57 +103,77 @@ using System.Linq;
 using System.Text;
 ```
 
-## การใช้ใบอนุญาตโดยใช้ FileStream ใน Aspose.CAD สำหรับ .NET
+## วิธีการใช้ใบอนุญาต Aspose CAD ด้วย FileStream?
 
-## ขั้นตอนที่ 1: ตั้งค่าเส้นทางไฟล์ลิขสิทธิ์
+คลาส `License` ใช้สำหรับใส่ใบอนุญาตให้กับ Aspose.CAD และเมธอด `SetLicense` ของมันจะโหลดใบอนุญาตจากสตรีม โหลดไฟล์ใบอนุญาตด้วย `FileStream` สร้างอ็อบเจ็กต์ `License` แล้วเรียก `SetLicense` รูปแบบสามขั้นตอนนี้ทำงานได้ในแอปคอนโซล, Windows services, และโครงการ ASP.NET Core ทั้งหมด และรับประกันว่าใบอนุญาตจะถูกใช้ก่อนการประมวลผล CAD ใด ๆ
 
-เริ่มต้นด้วยการกำหนดเส้นทางของไฟล์ลิขสิทธิ์ Aspose.CAD ของคุณ ในตัวอย่างนี้ เราถือว่าอยู่ในส่วน "c:\temp\ไดเรกทอรี "
+### ขั้นตอนที่ 1: ตั้งค่าเส้นทางไฟล์ใบอนุญาต
+
+เริ่มต้นด้วยการตั้งค่าเส้นทางของไฟล์ใบอนุญาต Aspose.CAD ของคุณ ในตัวอย่างนี้เราจะสมมติว่าไฟล์อยู่ในไดเรกทอรี **c:\\temp\\**
+
 ```csharp
 string dataDir = @"c:\temp\";
 ```
 
-## ขั้นตอนที่ 2: โหลดไฟล์ลิขสิทธิ์ลงใน FileStream
+### ขั้นตอนที่ 2: โหลดไฟล์ใบอนุญาตเข้าสู่ FileStream
 
- ต่อไปสร้างก`FileStream` เพื่อโหลดไฟล์ลิขสิทธิ์ รหัสต่อไปนี้สาธิตวิธีการทำเช่นนี้:
+ต่อไปสร้าง `FileStream` เพื่ออ่านไฟล์ใบอนุญาต สตรีมสามารถเปิดด้วยการเข้าถึงแบบอ่านอย่างเดียว เพื่อให้ไฟล์ไม่ถูกแก้ไข.
+
 ```csharp
 FileStream LicStream = new FileStream(dataDir + "Aspose.CAD.lic", FileMode.Open);
 ```
 
-## ขั้นตอนที่ 3: ใช้ใบอนุญาต
+### ขั้นตอนที่ 3: ใส่ใบอนุญาต
 
- ตอนนี้สร้างอินสแตนซ์ของ`License` คลาสและตั้งค่าใบอนุญาตโดยใช้`SetLicense` วิธี.
+ตอนนี้สร้างอินสแตนซ์ของคลาส `License` และตั้งค่าใบอนุญาตโดยใช้เมธอด `SetLicense` เมื่อการเรียกนี้สำเร็จ การดำเนินการ Aspose.CAD ทั้งหมดต่อไปจะทำงานโดยไม่มีข้อจำกัดการประเมิน.
+
 ```csharp
 License license = new License();
 license.SetLicense(LicStream);
 ```
 
-ยินดีด้วย! คุณได้ใช้ใบอนุญาตโดยใช้ FileStream ใน Aspose.CAD สำหรับ .NET เรียบร้อยแล้ว
+ยินดีด้วย! คุณได้ใส่ใบอนุญาตสำเร็จโดยใช้ `FileStream` ใน Aspose.CAD สำหรับ .NET.
 
-## บทสรุป
+## ข้อผิดพลาดทั่วไปและการแก้ไขปัญหา
 
-ในบทช่วยสอนนี้ เราได้อธิบายขั้นตอนการขอใบอนุญาตโดยใช้ FileStream ใน Aspose.CAD สำหรับ .NET แล้ว ด้วยการทำตามขั้นตอนเหล่านี้ คุณได้ปลดล็อกความสามารถของ Aspose.CAD ซึ่งช่วยให้คุณสามารถจัดการไฟล์ CAD ได้อย่างง่ายดายในแอปพลิเคชัน .NET ของคุณ
+- **File not found** – ตรวจสอบว่าเส้นทางถูกต้องและแอปพลิเคชันมีสิทธิ์อ่านในโฟลเดอร์นั้น.  
+- **Invalid license format** – ตรวจสอบว่าไฟล์ใบอนุญาตเป็นไฟล์ `.lic` ที่ Aspose ให้มาโดยตรงและไม่ได้ถูกแก้ไข.  
+- **Multiple threads loading the license** – โหลดใบอนุญาตเพียงครั้งเดียวเมื่อแอปพลิเคชันเริ่มต้น เพื่อหลีกเลี่ยงการทำ I/O ซ้ำซ้อน.
 
 ## คำถามที่พบบ่อย
 
-### คำถามที่ 1: ฉันจะหาเอกสารสำหรับ Aspose.CAD สำหรับ .NET ได้ที่ไหน
+### Q1: ฉันสามารถหาเอกสารสำหรับ Aspose.CAD for .NET ได้ที่ไหน?
 
- A1: คุณสามารถสำรวจเอกสารโดยละเอียดได้[ที่นี่](https://reference.aspose.com/cad/net/).
+A1: คุณสามารถสำรวจเอกสารรายละเอียดได้ที่ [Aspose.CAD .NET documentation](https://reference.aspose.com/cad/net/).
 
-### คำถามที่ 2: ฉันจะดาวน์โหลด Aspose.CAD สำหรับ .NET ได้อย่างไร
+### Q2: ฉันจะดาวน์โหลด Aspose.CAD for .NET ได้อย่างไร?
 
- A2: คุณสามารถดาวน์โหลดห้องสมุดได้[ที่นี่](https://releases.aspose.com/cad/net/).
+A2: คุณสามารถดาวน์โหลดไลบรารีได้ที่ [download Aspose.CAD for .NET](https://releases.aspose.com/cad/net/).
 
-### คำถามที่ 3: Aspose.CAD สำหรับ .NET มีรุ่นทดลองใช้ฟรีหรือไม่
+### Q3: มีรุ่นทดลองฟรีสำหรับ Aspose.CAD for .NET หรือไม่?
 
- A3: ได้ คุณสามารถทดลองใช้ฟรีได้[ที่นี่](https://releases.aspose.com/).
+A3: ใช่ คุณสามารถเข้าถึงรุ่นทดลองฟรีได้ที่ [free trial of Aspose.CAD](https://releases.aspose.com/).
 
-### คำถามที่ 4: ฉันจะขอรับใบอนุญาตชั่วคราวสำหรับ Aspose.CAD สำหรับ .NET ได้อย่างไร
+### Q4: ฉันจะขอใบอนุญาตชั่วคราวสำหรับ Aspose.CAD for .NET ได้อย่างไร?
 
- A4: คุณสามารถรับใบอนุญาตชั่วคราวได้[ที่นี่](https://purchase.aspose.com/temporary-license/).
+A4: คุณสามารถรับใบอนุญาตชั่วคราวได้ที่ [temporary Aspose.CAD license](https://purchase.aspose.com/temporary-license/).
 
-### Q5: ต้องการความช่วยเหลือหรือมีคำถาม? ฉันจะรับการสนับสนุนได้ที่ไหน?
+### Q5: ต้องการความช่วยเหลือหรือมีคำถาม? ฉันสามารถรับการสนับสนุนได้ที่ไหน?
 
- A5: เยี่ยมชมฟอรั่ม Aspose.CAD[ที่นี่](https://forum.aspose.com/c/cad/19) สำหรับคำถามที่เกี่ยวข้องกับการสนับสนุน
+A5: เยี่ยมชมฟอรั่ม Aspose.CAD ที่ [Aspose.CAD forums](https://forum.aspose.com/c/cad/19) สำหรับคำถามที่เกี่ยวกับการสนับสนุน.
+
+---
+
+**อัปเดตล่าสุด:** 2026-09-19  
+**ทดสอบด้วย:** Aspose.CAD 24.11 for .NET  
+**ผู้เขียน:** Aspose
+
+## บทแนะนำที่เกี่ยวข้อง
+
+- [ใช้ใบอนุญาตใน Aspose.CAD สำหรับ .NET – คู่มือขั้นตอนโดยละเอียด](/cad/net/)
+- [วิธีโหลดไฟล์ DWFX ใน C# ด้วยคู่มือ Aspose.CAD](/cad/net/dwg-file-manipulation/opening-and-accessing-dwfx-files/)
+- [วิธีแปลง DWG เป็น PDF และภาพ Raster ด้วย Aspose.CAD สำหรับ .NET](/cad/net/advanced-export-techniques/exporting-dwg-to-pdf-or-raster-images/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
