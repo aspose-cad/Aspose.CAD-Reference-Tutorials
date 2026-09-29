@@ -1,62 +1,112 @@
 ---
-date: 2026-02-12
-description: Aspose.CAD for Java kullanarak CAD'i PDF'ye dönüştürürken PDF sayfa boyutunu
-  nasıl ayarlayacağınızı öğrenin. İzlemeyi etkinleştirmek, CAD'i PDF'ye dönüştürmek
-  ve CAD'i PDF olarak verimli bir şekilde kaydetmek için bu adım adım kılavuzu izleyin.
-linktitle: Set PDF Page Size – Enable Tracking for CAD Rendering
+date: 2026-09-29
+description: Aspose.CAD for Java kullanarak CAD'den PDF'ye dönüştürürken PDF page
+  size nasıl ayarlanacağını öğrenin. Bu step‑by‑step guide'i izleyerek tracking'i
+  etkinleştirin, CAD'yi PDF'ye dönüştürün ve CAD'yi PDF olarak verimli bir şekilde
+  kaydedin.
+keywords:
+- set pdf page size
+- convert cad to pdf
+- save cad as pdf
+- generate pdf from dxf
+- java cad to pdf
+lastmod: 2026-09-29
+linktitle: PDF page size ayarlama – CAD rendering için tracking'i etkinleştirme
+og_description: Aspose.CAD for Java ile CAD'den PDF'ye dönüştürürken PDF page size
+  ayarlayın. Rendering pipeline'ı debug ve optimise etmek için tracking'i etkinleştirin.
+og_image_alt: Developer guide showing how to set PDF page size and enable tracking
+  for CAD rendering using Aspose.CAD Java
+og_title: Java'da CAD rendering için PDF page size ayarlama ve tracking'i etkinleştirme
+schemas:
+- author: Aspose
+  dateModified: '2026-09-29'
+  description: Learn how to set PDF page size while converting CAD to PDF using Aspose.CAD
+    for Java. Follow this step‑by‑step guide to enable tracking, convert CAD to PDF,
+    and save CAD as PDF efficiently.
+  headline: How to set PDF page size and enable tracking for CAD rendering process
+    using Aspose.CAD for Java
+  type: TechArticle
+- description: Learn how to set PDF page size while converting CAD to PDF using Aspose.CAD
+    for Java. Follow this step‑by‑step guide to enable tracking, convert CAD to PDF,
+    and save CAD as PDF efficiently.
+  name: How to set PDF page size and enable tracking for CAD rendering process using
+    Aspose.CAD for Java
+  steps:
+  - name: '**Java development environment** – Java 8 or later installed on your machine.'
+    text: '**Java development environment** – Java 8 or later installed on your machine.'
+  - name: '**Aspose.CAD library** – Download and integrate the Aspose.CAD library
+      into your Java project. You can find the download link [Aspose.CAD Java download
+      page](https://releases.aspose.com/cad/java/).'
+    text: '**Aspose.CAD library** – Download and integrate the Aspose.CAD library
+      into your Java project. You can find the download link [Aspose.CAD Java download
+      page](https://releases.aspose.com/cad/java/).'
+  - name: '**Document directory** – Prepare a directory to store your CAD files and
+      the generated PDFs.'
+    text: '**Document directory** – Prepare a directory to store your CAD files and
+      the generated PDFs.'
+  type: HowTo
+- questions:
+  - answer: It defines the width and height of the resulting PDF page during CAD rendering.
+    question: What does “set PDF page size” do?
+  - answer: Tracking logs each stage of the conversion, helping you spot performance
+      bottlenecks or errors.
+    question: Why enable tracking?
+  - answer: A free trial works for evaluation; a commercial license is required for
+      production.
+    question: Do I need a license?
+  - answer: DWG, DXF, DGN, and many others – see the Aspose.CAD documentation for
+      the full list.
+    question: Which CAD formats are supported?
+  - answer: Yes – simply adjust the `PageWidth` and `PageHeight` values in `CadRasterizationOptions`.
+    question: Can I change page dimensions on the fly?
+  type: FAQPage
 second_title: Aspose.CAD Java API
-title: PDF Sayfa Boyutunu Nasıl Ayarlarsınız ve CAD Render İşlemi İçin İzlemeyi Nasıl
-  Etkinleştirirsiniz
+tags:
+- set pdf page size
+- Aspose.CAD
+- Java CAD processing
+title: Aspose.CAD for Java kullanarak CAD renderleme süreci için PDF page size ayarlama
+  ve tracking'i etkinleştirme
 url: /tr/java/advanced-cad-features/enable-tracking-for-cad-rendering-process/
 weight: 10
 ---
-
- we should translate link text. Similarly other links.
-
-Also table headers: "Symptom", "Likely Cause", "Fix" translate to Turkish: "Semptom", "Muhtemel Neden", "Çözüm". But we must keep the pipe separators.
-
-Now produce final content.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# CAD Render İşlemi İçin İzleme Etkinleştirme
+# CAD renderleme süreci için izlemeyi etkinleştirin
 
 ## Giriş
 
-Bu öğreticide **Aspose.CAD for Java** kullanarak **CAD'den PDF'ye dönüştürürken PDF sayfa boyutunu ayarlamayı** öğreneceksiniz. İzlemeyi etkinleştirerek renderleme hattı üzerinde tam görünürlük elde eder, CAD dosyalarından (ör. DXF) PDF'ye dönüşümü daha kolay hata ayıklayıp optimize edebilirsiniz. **CAD'i PDF olarak kaydetmek**, DXF'den PDF üretmek ya da yalnızca çıktı boyutlarını kontrol etmek ister misiniz, aşağıdaki adımlar tüm süreci size anlatacak.
+Bu öğreticide, **Aspose.CAD for Java** kullanarak **CAD'ı PDF'ye dönüştürürken** **PDF sayfa boyutunu ayarlamayı** öğreneceksiniz. İzlemeyi etkinleştirerek renderleme hattı üzerinde tam görünürlük elde eder, CAD dosyalarından (ör. DXF) PDF'ye dönüşümü hata ayıklamayı ve optimize etmeyi kolaylaştırırsınız. **CAD'ı PDF olarak kaydetmeniz**, DXF'den PDF oluşturmanız ya da sadece çıktı boyutlarını kontrol etmeniz gerektiğinde, aşağıdaki adımlar sizi tüm süreç boyunca yönlendirecek.
 
-## Hızlı Yanıtlar
-- **“PDF sayfa boyutunu ayarla” ne işe yarar?** CAD renderleme sırasında oluşacak PDF sayfasının genişlik ve yüksekliğini tanımlar.  
-- **Neden izleme etkinleştirilmeli?** İzleme, dönüşümün her aşamasını kaydederek performans darboğazlarını ya da hataları tespit etmenizi sağlar.  
-- **Lisans gerekli mi?** Değerlendirme için ücretsiz deneme yeterlidir; üretim ortamı için ticari lisans gerekir.  
-- **Hangi CAD formatları destekleniyor?** DWG, DXF, DGN ve daha fazlası – tam liste için Aspose.CAD belgelerine bakın.  
-- **Sayfa boyutlarını anlık değiştirebilir miyim?** Evet – `CadRasterizationOptions` içinde `PageWidth` ve `PageHeight` değerlerini istediğiniz gibi ayarlayın.
+## Hızlı cevaplar
+- **“set PDF page size” ne yapar?** CAD renderleme sırasında ortaya çıkan PDF sayfasının genişliğini ve yüksekliğini tanımlar.  
+- **Neden izleme etkinleştirilmeli?** İzleme, dönüşümün her aşamasını kaydeder ve performans darboğazlarını veya hataları tespit etmenize yardımcı olur.  
+- **Bir lisansa ihtiyacım var mı?** Değerlendirme için ücretsiz deneme çalışır; üretim için ticari lisans gereklidir.  
+- **Hangi CAD formatları destekleniyor?** DWG, DXF, DGN ve daha birçokları – tam liste için Aspose.CAD belgelerine bakın.  
+- **Sayfa boyutlarını anında değiştirebilir miyim?** Evet – sadece `PageWidth` ve `PageHeight` değerlerini `CadRasterizationOptions` içinde ayarlayın.
 
-## CAD renderlemesinde “PDF sayfa boyutunu ayarla” nedir?
+## CAD renderlemede “set PDF page size” nedir?
 
-PDF sayfa boyutunu ayarlamak, rasterizatöre vektörel CAD verisinin PDF sayfasına rasterleştirildiğinde tuvalin ne kadar büyük olması gerektiğini söyler. Bu, özellikle detaylı mühendislik çizimlerinde görsel doğruluğu korumak için kritiktir.
+PDF sayfa boyutunu ayarlamak, rasterlaştırıcıya vektörel CAD verileri bir PDF sayfasına rasterleştirildiğinde tuvalin ne kadar büyük olması gerektiğini söyler. Bu, özellikle ayrıntılı mühendislik çizimlerinde görsel doğruluğu korumak için kritik öneme sahiptir. Uygun boyutların seçilmesi, çizimin doğru ölçeklenmesini ve açıklamaların okunabilir kalmasını sağlar.
 
-## CAD renderlemesi için izleme neden etkinleştirilmeli?
+## CAD renderlemede izleme neden etkinleştirilmeli?
 
-İzleme, kaynak dosyanın yüklenmesinden PDF çıktısının yazılmasına kadar her adımın ayrıntılı bir kaydını sağlar. Şunlara yardımcı olur:
+İzlemeyi etkinleştirmek, kaynak dosyanın yüklenmesinden PDF çıktısının yazılmasına kadar her adımın ayrıntılı bir kaydını sağlar. Günlük, zaman damgalarını, bellek kullanımını ve rasterleştirme ayrıntılarını içerir; bu sayede geliştiriciler performans darboğazlarını ve renderleme anormalliklerini tespit edebilir. Bu bilgileri inceleyerek sayfa boyutu veya çözünürlük gibi ayarları değiştirip çıktı kalitesini artırabilirsiniz.
 
-- Belirli bir çizimin neden hatalı renderlendiğini teşhis etmek.  
-- Her aşamanın süresini ölçerek performans ayarı yapmak.  
-- Ayarladığınız sayfa boyutunun gerçekten uygulandığını doğrulamak.
+## Önkoşullar
 
-## Ön Koşullar
+İzleme kurulumuna geçmeden önce aşağıdaki önkoşullara sahip olduğunuzdan emin olun:
 
-İzleme kurulumuna geçmeden önce aşağıdaki ön koşulları karşıladığınızdan emin olun:
+1. **Java geliştirme ortamı** – Makinenizde Java 8 veya daha yeni bir sürüm yüklü.  
+2. **Aspose.CAD kütüphanesi** – Aspose.CAD kütüphanesini Java projenize indirin ve entegre edin. İndirme bağlantısını [Aspose.CAD Java download page](https://releases.aspose.com/cad/java/) adresinde bulabilirsiniz.  
+3. **Belge dizini** – CAD dosyalarınızı ve oluşturulan PDF'leri saklamak için bir dizin hazırlayın.
 
-1. **Java Geliştirme Ortamı** – Makinenizde Java 8 veya daha yeni bir sürüm yüklü olmalı.  
-2. **Aspose.CAD Kütüphanesi** – Aspose.CAD kütüphanesini indirip Java projenize entegre edin. İndirme bağlantısını [burada](https://releases.aspose.com/cad/java/) bulabilirsiniz.  
-3. **Belge Dizini** – CAD dosyalarınızı ve oluşturulan PDF'leri saklayacağınız bir dizin hazırlayın.
+## Ad alanlarını içe aktar
 
-## İsim Uzaylarını İçe Aktarma
-
-Java projenizde Aspose.CAD işlevlerini kullanmak için gerekli isim uzaylarını içe aktarın. Kodunuzun başına aşağıdaki satırları ekleyin:
+`Aspose.CAD`, CAD çizimlerini yüklemek, rasterleştirmek ve kaydetmek için kullanılan temel sınıfları sağlar. Gerekli paketleri Java kaynak dosyanızın en üstüne içe aktarın.
 
 ```java
 import java.io.FileNotFoundException;
@@ -69,33 +119,35 @@ import com.aspose.cad.imageoptions.CadRasterizationOptions;
 import com.aspose.cad.imageoptions.PdfOptions;
 ```
 
-## Kaynak Dizin Yolunu Ayarlama
+## Kaynak dizin yolunu ayarla
+
+`File` sınıfı (java.io.File), dosya sistemindeki bir dosya veya dizin yolunu temsil eder. `java.io`'dan `File` sınıfı, kaynak CAD dosyalarınızı içeren klasörü temsil eder. Herhangi bir çizim yüklemeden önce doğru konuma işaret edin.
 
 ```java
 String dataDir = "Your Document Directory" + "CADConversion/";
 ```
 
-`"Your Document Directory"` ifadesini gerçek belge dizininizin yolu ile değiştirin.
+## CAD dosyasını yükle
 
-## CAD Dosyasını Yükleme
+`CadImage`, CAD çizimini daha sonraki işlemler için yükleyen ve temsil eden Aspose.CAD sınıfıdır. `CadImage`, bir CAD belgesini okumanın giriş noktasıdır. Dosya formatını ayrıştırır ve rasterlaştırıcıyı hazırlar.
 
 ```java
 String srcFile = dataDir + "conic_pyramid.dxf";
 Image image = Image.load(srcFile);
 ```
 
-CAD dosyanızın yolunu belirtin; dosyanın belirlenen belge dizini içinde olduğundan emin olun.
+## PDF çıktı seçeneklerini ayarla
 
-## PDF Çıktı Seçeneklerini Ayarlama
+`PdfOptions`, sıkıştırma, meta veriler ve çıktı akışı yönetimi gibi PDF’ye özgü ayarları yapılandırır. `PdfOptions`, sıkıştırma, meta veriler ve çıktı akışı yönetimi gibi tüm PDF‑özel ayarları kapsar.
 
 ```java
 OutputStream stream = new FileOutputStream(dataDir + "conic_pyramid.pdf");
 PdfOptions pdfOptions = new PdfOptions();
 ```
 
-Bir çıktı akışı oluşturun ve dönüşüm için PDF seçeneklerini ayarlayın.
+## CadRasterizationOptions'ı yapılandır (PDF sayfa boyutunu ayarla)
 
-## CadRasterizationOptions'ı Yapılandırma (PDF Sayfa Boyutunu Ayarla)
+`CadRasterizationOptions`, CAD'dan PDF'ye dönüşüm için sayfa boyutu, çözünürlük ve çıktı formatı gibi rasterleştirme parametrelerini kontrol eder. `CadRasterizationOptions`, sayfa boyutu, çözünürlük ve çıktı formatı gibi rasterleştirme parametrelerini yöneten sınıftır. `PageWidth` ve `PageHeight` ayarlarıyla oluşturulan PDF sayfasının tam boyutlarını belirlemiş olursunuz.
 
 ```java
 CadRasterizationOptions cadRasterizationOptions = new CadRasterizationOptions();
@@ -104,65 +156,63 @@ cadRasterizationOptions.setPageWidth(800);
 cadRasterizationOptions.setPageHeight(600);
 ```
 
-Burada **PDF sayfa boyutunu ayarlıyoruz**; `PageWidth` ve `PageHeight` tanımlanıyor. Bu değerleri mühendislik çiziminizin gerektirdiği boyutlara göre ayarlayın. Bu, **java cad to pdf** yaparken **PDF boyutunu nasıl ayarlayacağınız** sorusunun temel adımıdır.
+## PDF dosyasını kaydet
 
-## PDF Dosyasını Kaydetme
+`save`, rasterleştirilmiş içeriği sağlanan PDF seçenekleriyle belirtilen çıktı akışına yazar. `image.save(outputStream, pdfOptions)` çağrısı, yapılandırdığınız seçenekleri kullanarak rasterleştirilmiş içeriği bir PDF akışına yazar.
 
 ```java
 image.save(stream, pdfOptions);
 ```
 
-Renderlenmiş PDF dosyasını belirtilen seçeneklerle kaydedin.
+## İzleme etkinliğini doğrula
 
-## İzleme Etkinleştirmesini Doğrulama
+`setTrackingEnabled(true)`, rasterlaştırıcı içinde her renderleme aşamasının ayrıntılı kaydını etkinleştirir. `CadRasterizationOptions.setTrackingEnabled(true)`, her renderleme aşaması için ayrıntılı kaydı açar ve iç iş akışını incelemenizi sağlar.
 
 ```java
 System.out.println("Tracking enabled successfully for CAD rendering process.");
 ```
 
-CAD renderleme sürecinde izlemenin başarıyla etkinleştirildiğini onaylayın.
+## Yaygın sorunlar ve çözüm yolları
 
-## Yaygın Sorunlar ve Çözüm Önerileri
-
-| Semptom | Muhtemel Neden | Çözüm |
+| Semptom | Muhtemel neden | Çözüm |
 |---------|----------------|-------|
-| PDF sayfası boş görünüyor | `PageWidth`/`PageHeight` 0 olarak ayarlanmış | Sıfır olmayan boyutlar sağlandığından emin olun. |
-| Çıktı dosyası bozuk | Çıktı akışı kapatılmamış | `image.save(...)` sonrası `stream.close()` çağırın. |
-| PDF'de katmanlar eksik | CAD dosyası desteklenmeyen varlıklar içeriyor | Dosyanın Aspose.CAD tarafından tam desteklendiğini doğrulayın. |
+| PDF sayfası boş görünüyor | `PageWidth`/`PageHeight` 0 olarak ayarlanmış | Sıfır olmayan boyutların sağlandığından emin olun. |
+| Çıktı dosyası bozuk | Çıktı akışı kapatılmamış | `image.save(...)` sonrasında `stream.close()` çağırın. |
+| PDF'de katmanlar eksik | CAD dosyası desteklenmeyen varlıklar kullanıyor | Dosya formatının Aspose.CAD tarafından tam olarak desteklendiğini doğrulayın. |
 
-## Sıkça Sorulan Sorular
+## Sıkça sorulan sorular
 
-### S1: Aspose.CAD tüm CAD dosya formatlarıyla uyumlu mu?
+**Q1: Aspose.CAD tüm CAD dosya formatlarıyla uyumlu mu?**  
+A1: Aspose.CAD, DWG, DXF, DGN ve daha fazlası dahil olmak üzere 30'dan fazla CAD formatını destekler. Tam liste için [documentation](https://reference.aspose.com/cad/java/) adresine bakın.
 
-C1: Aspose.CAD, DWG, DXF, DGN ve daha fazlası dahil olmak üzere geniş bir CAD formatı yelpazesini destekler. Kapsamlı liste için [belgelere](https://reference.aspose.com/cad/java/) bakın.
+**Q2: PDF dosyasının çıktı boyutlarını özelleştirebilir miyim?**  
+A2: Kesinlikle. İstenen herhangi bir boyuta uyması için `CadRasterizationOptions` içindeki `PageWidth` ve `PageHeight` parametrelerini ayarlayın.
 
-### S2: PDF dosyasının çıktı boyutlarını özelleştirebilir miyim?
+**Q3: Aspose.CAD for Java için ücretsiz deneme mevcut mu?**  
+A3: Evet, ücretsiz bir deneme alarak Aspose.CAD'in yeteneklerini keşfedebilirsiniz [Aspose free trial page](https://releases.aspose.com/).
 
-C2: Kesinlikle! `CadRasterizationOptions` içindeki `PageWidth` ve `PageHeight` parametrelerini değiştirerek çıktı boyutlarını istediğiniz gibi ayarlayabilirsiniz.
+**Q4: Aspose.CAD‑ile ilgili sorular için topluluk desteği nasıl alabilirim?**  
+A4: Toplulukla etkileşime geçmek ve yardım almak için [Aspose.CAD forum](https://forum.aspose.com/c/cad/19) adresini ziyaret edin.
 
-### S3: Aspose.CAD for Java için ücretsiz bir deneme mevcut mu?
-
-C3: Evet, ücretsiz deneme sürümünü [buradan](https://releases.aspose.com/) edinebilir ve Aspose.CAD'in yeteneklerini keşfedebilirsiniz.
-
-### S4: Aspose.CAD‑ile ilgili sorular için topluluk desteği nasıl alınır?
-
-C4: Toplulukla etkileşime geçmek ve yardım almak için [Aspose.CAD forumunu](https://forum.aspose.com/c/cad/19) ziyaret edin.
-
-### S5: Aspose.CAD için geçici lisanslar sağlanıyor mu?
-
-C5: Evet, geçici bir lisansa ihtiyacınız varsa, lisansı [buradan](https://purchase.aspose.com/temporary-license/) temin edebilirsiniz.
+**Q5: Aspose.CAD için geçici lisanslar mevcut mu?**  
+A5: Evet, geçici bir lisansa ihtiyacınız varsa, birini [temporary license purchase page](https://purchase.aspose.com/temporary-license/) adresinden edinebilirsiniz.
 
 ## Sonuç
 
-Tebrikler! **Aspose.CAD for Java** kullanarak **PDF sayfa boyutunu ayarlamayı** ve CAD renderleme sürecinde izlemeyi nasıl etkinleştireceğinizi öğrendiniz. Bu kılavuz, **CAD'i PDF'ye dönüştürmenizi**, **CAD'i PDF olarak kaydetmenizi** ve DXF'den PDF üretmenizi, sayfa boyutları ve ayrıntılı yürütme günlükleri üzerinde tam kontrol sağlayarak mümkün kılar. Farklı sayfa boyutlarıyla denemeler yapın ve mühendislik iş akışlarınıza uygun ek rasterleştirme seçeneklerini keşfedin.
+Tebrikler! Artık **Aspose.CAD for Java** kullanarak CAD renderlemesi için **PDF sayfa boyutunu ayarlamayı** ve izlemeyi etkinleştirmeyi öğrendiniz. Bu kılavuz, **CAD'ı PDF'ye dönüştürmenizi**, **CAD'ı PDF olarak kaydetmenizi** ve DXF'den PDF oluşturmanızı, sayfa boyutları üzerinde tam kontrol ve ayrıntılı yürütme günlükleriyle sağlar. Farklı sayfa boyutlarıyla denemeler yapmaktan ve belirli mühendislik iş akışlarınıza uygun ek rasterleştirme seçeneklerini keşfetmekten çekinmeyin.
 
 ---
 
-**Son Güncelleme:** 2026-02-12  
-**Test Edilen Versiyon:** Aspose.CAD for Java 24.12 (yazım anındaki en yeni sürüm)  
-**Yazar:** Aspose  
+**Son Güncelleme:** 2026-09-29  
+**Test Edilen Versiyon:** Aspose.CAD for Java 24.12 (latest at time of writing)  
+**Yazar:** Aspose
 
----
+## İlgili Öğreticiler
+
+- [CAD'ı PDF'ye Dönüştür – Tuval Boyutunu Ayarla ve Aspose.CAD for Java ile Gelişmiş Özellikler](/cad/java/advanced-cad-features/)
+- [DWG'yi PDF/A1a & PDF/A1b'ye Aspose.CAD for Java ile Dönüştür](/cad/java/cad-to-pdf-and-svg-export-options/dwg-to-compliance-pdf/)
+- [DWG'yi PDF'ye Dönüştür - AutoCAD Görüntülerini PDF'ye Aktar Aspose.CAD for Java ile](/cad/java/cad-export-options/export-autocad-images-to-pdf/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
