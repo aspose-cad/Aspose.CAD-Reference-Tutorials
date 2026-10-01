@@ -9,27 +9,17 @@ url: /zh/java/cad-export-options/export-autocad-images-to-pdf/
 weight: 10
 ---
 
-.
 
-- Then ## Frequently Asked Questions => "## 常见问答"
 
-- Then each Q.
 
-- Then the footer lines: "Last Updated:", "Tested With:", "Author:" translate.
 
-- Then closing shortcodes.
 
-- Then backtop button shortcode.
 
-Make sure to keep markdown formatting.
 
-Let's craft translation.
 
-Be careful with bold formatting: keep **text**.
 
-Also keep code block placeholders as is.
 
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

@@ -12,11 +12,9 @@ url: /fr/net/advanced-export-techniques/exporting-dwg-to-pdf-or-raster-images/
 weight: 11
 ---
 
-top-button >}}
 
-All good.
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

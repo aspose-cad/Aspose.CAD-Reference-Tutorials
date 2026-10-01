@@ -11,9 +11,8 @@ url: /pl/java/advanced-cad-features/extract-block-attribute-value/
 weight: 19
 ---
 
-Make sure to keep all shortcodes exactly.
 
-Now produce final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

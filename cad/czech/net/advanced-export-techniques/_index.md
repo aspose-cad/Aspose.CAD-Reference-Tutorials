@@ -9,9 +9,8 @@ url: /cs/net/advanced-export-techniques/
 weight: 26
 ---
 
- keep markdown formatting, headings levels same.
 
-Let's construct final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

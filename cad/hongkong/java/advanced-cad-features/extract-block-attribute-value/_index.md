@@ -9,11 +9,9 @@ url: /zh-hant/java/advanced-cad-features/extract-block-attribute-value/
 weight: 19
 ---
 
- "## 常見問題".
 
-"## Conclusion" -> "## 結論".
 
-Now produce final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

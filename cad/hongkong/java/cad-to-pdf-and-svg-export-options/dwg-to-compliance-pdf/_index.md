@@ -9,9 +9,8 @@ url: /zh-hant/java/cad-to-pdf-and-svg-export-options/dwg-to-compliance-pdf/
 weight: 11
 ---
 
- to keep all shortcodes exactly.
 
-Let's craft final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

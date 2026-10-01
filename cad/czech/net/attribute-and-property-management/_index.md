@@ -9,13 +9,10 @@ url: /cs/net/attribute-and-property-management/
 weight: 30
 ---
 
- "Autor:".
 
-Now produce final content with all translations.
 
-Be careful to preserve markdown formatting, shortcodes, links, code blocks (none besides inline code). Ensure no extra spaces.
 
-Let's craft final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

@@ -10,11 +10,9 @@ url: /hu/java/cad-file-manipulation/accessing-underlay-flags-of-dwg/
 weight: 11
 ---
 
-## Why extract underlay flags from a DWG?" -> "## Miért kell kinyerni az alávetett jelzőket egy DWG‑ből?" maybe.
 
-Proceed.
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

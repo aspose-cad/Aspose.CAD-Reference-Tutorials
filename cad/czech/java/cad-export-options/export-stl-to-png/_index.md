@@ -9,9 +9,8 @@ url: /cs/java/cad-export-options/export-stl-to-png/
 weight: 20
 ---
 
-.
 
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

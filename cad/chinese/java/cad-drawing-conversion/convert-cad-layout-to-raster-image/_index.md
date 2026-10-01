@@ -8,27 +8,17 @@ url: /zh/java/cad-drawing-conversion/convert-cad-layout-to-raster-image/
 weight: 12
 ---
 
-" translate to Chinese: "# 使用 Aspose.CAD for Java 将 DWG 转换为 PNG 及其他光栅格式"
 
-Similarly subheadings.
 
-Translate paragraphs.
 
-Need to keep code block placeholders unchanged.
 
-Tables: translate column headers and content.
 
-Make sure not to translate URLs.
 
-Proceed.
 
-Let's craft translation.
 
-Be careful with bullet lists.
 
-Also keep emphasis **.
 
-Ok produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

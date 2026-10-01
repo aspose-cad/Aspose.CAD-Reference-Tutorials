@@ -11,11 +11,9 @@ url: /sv/java/cad-text-and-annotation/substitute-font-of-particular-style-in-dwg
 weight: 12
 ---
 
-< blocks/products/products-backtop-button >}}
 
-Make sure to keep them unchanged.
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

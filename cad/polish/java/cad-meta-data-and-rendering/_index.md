@@ -10,11 +10,9 @@ url: /pl/java/cad-meta-data-and-rendering/
 weight: 27
 ---
 
- to PNG?** Yes – the library renders DWG directly to PNG without intermediate steps." We'll keep same dash and bold.
 
-Make sure we keep spacing.
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

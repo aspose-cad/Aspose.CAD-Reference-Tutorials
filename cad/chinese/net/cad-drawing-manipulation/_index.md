@@ -8,15 +8,11 @@ url: /zh/net/cad-drawing-manipulation/
 weight: 21
 ---
 
-NET 24.11 => "**测试使用：** Aspose.CAD for .NET 24.11"
 
-**Author:** Aspose => "**作者：** Aspose"
 
-Make sure to keep bold formatting.
 
-Now produce final content with all shortcodes unchanged.
 
-Let's assemble.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

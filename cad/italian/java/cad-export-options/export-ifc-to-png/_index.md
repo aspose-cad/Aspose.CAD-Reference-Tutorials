@@ -9,9 +9,8 @@ url: /it/java/cad-export-options/export-ifc-to-png/
 weight: 18
 ---
 
- as given.
 
-Let's produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

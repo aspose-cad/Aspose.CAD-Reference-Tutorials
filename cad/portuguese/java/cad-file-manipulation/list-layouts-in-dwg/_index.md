@@ -10,9 +10,8 @@ url: /pt/java/cad-file-manipulation/list-layouts-in-dwg/
 weight: 12
 ---
 
- all shortcodes exactly.
 
-Now produce final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

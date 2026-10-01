@@ -9,9 +9,8 @@ url: /ar/java/cad-export-options/export-to-pdf/
 weight: 13
 ---
 
- shortcodes unchanged.
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

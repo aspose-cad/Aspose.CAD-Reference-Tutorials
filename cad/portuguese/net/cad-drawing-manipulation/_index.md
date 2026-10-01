@@ -10,21 +10,14 @@ url: /pt/net/cad-drawing-manipulation/
 weight: 21
 ---
 
- keep as is? Should translate "Last Updated" to Portuguese? The content says "Last Updated: 2026-03-16". Probably translate "Last Updated" to "Última atualização". "Tested With" to "Testado com". "Author" to "Autor". Keep dates unchanged.
 
-Also the backtop button shortcode remains.
 
-Make sure to preserve all shortcodes exactly.
 
-Let's produce the final content.
 
-Check for any code blocks: none. So fine.
 
-Now produce translation.
 
-Be careful with markdown formatting: keep headings same number of #.
 
-Now produce final.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

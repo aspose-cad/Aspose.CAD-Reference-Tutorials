@@ -9,17 +9,12 @@ url: /ar/java/cad-export-options/export-ifc-to-png/
 weight: 18
 ---
 
- for Java 24.11" keep.
 
-"**Author:** Aspose" keep.
 
-Then closing shortcodes.
 
-Finally backtop button shortcode.
 
-Make sure to keep all shortcodes exactly.
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

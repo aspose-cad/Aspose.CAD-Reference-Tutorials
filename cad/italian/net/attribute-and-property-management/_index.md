@@ -9,9 +9,8 @@ url: /it/net/attribute-and-property-management/
 weight: 30
 ---
 
- links, code blocks (none). Ensure no extra spaces.
 
-Let's construct final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

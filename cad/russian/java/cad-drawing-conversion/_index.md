@@ -10,23 +10,15 @@ url: /ru/java/cad-drawing-conversion/
 weight: 20
 ---
 
-"
 
-Paragraph: translate.
 
-Continue.
 
-Make sure to keep **bold** formatting.
 
-Let's translate each section.
 
-I'll write the translation.
 
-Be careful with bullet points: keep dash and spaces.
 
-Also ensure code snippets remain.
 
-Let's produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

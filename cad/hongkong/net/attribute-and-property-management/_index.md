@@ -8,18 +8,12 @@ url: /zh-hant/net/attribute-and-property-management/
 weight: 30
 ---
 
-.CAD for .NET (latest stable release)  
-**Author:** Aspose
 
-Translate labels but keep dates.
 
-Now produce final content.
 
-Let's craft translation.
 
-Be careful to preserve markdown formatting exactly.
 
-Proceed to write final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

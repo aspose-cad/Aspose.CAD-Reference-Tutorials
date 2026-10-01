@@ -8,21 +8,14 @@ url: /zh/java/advanced-cad-features/extract-block-attribute-value/
 weight: 19
 ---
 
- line "---".
 
-**Last Updated:** 2026-02-12 -> keep date.
 
-**Tested With:** Aspose.CAD for Java 24.12
 
-**Author:** Aspose
 
-Then closing shortcodes.
 
-Finally backtop button shortcode.
 
-Make sure to keep all markdown formatting.
 
-Let's produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

@@ -10,28 +10,16 @@ url: /el/java/cad-text-and-formatting/
 weight: 28
 ---
 
- its content and save the drawing back to DWG.
 
-Translate.
 
-**Q: Where can I find more examples on DWG text and formatting?**  
-A: The tutorial list above covers the core scenarios, and the official Aspose.CAD documentation provides additional code snippets.
 
-Translate.
 
----
 
-**Last Updated:** 2026-02-28  
-**Tested With:** Aspose.CAD for Java 24.12  
-**Author:** Aspose
 
-Translate labels but keep dates.
 
-"Τελευταία Ενημέρωση:" etc.
 
-Now produce final content. Ensure no extra spaces messing up markdown.
 
-Let's craft.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

@@ -9,7 +9,7 @@ url: /th/net/advanced-export-techniques/
 weight: 26
 ---
 
-Now craft final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

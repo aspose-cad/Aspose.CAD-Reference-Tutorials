@@ -9,15 +9,11 @@ url: /ru/java/cad-text-and-annotation/add-text-in-dwg/
 weight: 10
 ---
 
- Q&A.
 
-Let's craft.
 
-Be careful with bullet list formatting.
 
-Also note "step-by-step in order". We'll translate each section.
 
-Let's produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

@@ -11,31 +11,19 @@ url: /it/net/advanced-export-techniques/exporting-specific-layouts-to-pdf/
 weight: 13
 ---
 
-.
 
-## Frequently Asked Questions -> "Domande Frequenti"
 
-Each Q/A translate.
 
-**Q: Can I export multiple layouts simultaneously?** -> "Posso esportare più layout simultaneamente?" etc.
 
-Make sure to keep code snippets unchanged.
 
-## Conclusion -> "Conclusione"
 
-Paragraph translate.
 
----
 
-**Last Updated:** 2026-03-13 (keep date)
 
-**Tested With:** Aspose.CAD 24.11 for .NET (keep)
 
-**Author:** Aspose (keep)
 
-Then closing shortcodes.
 
-Proceed to produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

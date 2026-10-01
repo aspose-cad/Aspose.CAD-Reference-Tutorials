@@ -10,9 +10,8 @@ url: /es/java/cad-meta-data-and-rendering/
 weight: 27
 ---
 
- the shortcodes exactly as they are.
 
-Let's assemble.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

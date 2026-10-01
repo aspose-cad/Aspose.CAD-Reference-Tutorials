@@ -9,19 +9,13 @@ url: /ko/java/cad-text-and-annotation/add-text-in-dwg/
 weight: 10
 ---
 
- "**마지막 업데이트:** 2026-02-28". Keep bold.
 
-"**Tested With:** Aspose.CAD for Java 24.12" -> "**테스트 환경:** Aspose.CAD for Java 24.12"
 
-"**Author:** Aspose" -> "**작성자:** Aspose"
 
-Then closing shortcodes.
 
-Finally backtop button shortcode.
 
-We must ensure no extra spaces or missing elements.
 
-Let's craft final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

@@ -10,11 +10,9 @@ url: /el/net/advanced-export-techniques/exporting-cad-drawings-to-pdf/
 weight: 14
 ---
 
- all translated content.
 
-Check that we preserved all markdown formatting, shortcodes, code block placeholders.
 
-Now craft final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

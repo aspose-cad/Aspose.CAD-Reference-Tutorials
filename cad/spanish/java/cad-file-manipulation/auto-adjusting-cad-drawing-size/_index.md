@@ -10,15 +10,11 @@ url: /es/java/cad-file-manipulation/auto-adjusting-cad-drawing-size/
 weight: 13
 ---
 
-AD for Java 24.12 => "**Probado con:** Aspose.CAD para Java 24.12"
 
-**Author:** Aspose => "**Autor:** Aspose"
 
-Then closing shortcodes.
 
-Make sure to keep shortcodes exactly.
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

@@ -9,7 +9,7 @@ url: /sv/java/cad-text-and-annotation/add-text-in-dwg/
 weight: 10
 ---
 
-.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

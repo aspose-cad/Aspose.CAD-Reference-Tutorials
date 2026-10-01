@@ -9,15 +9,11 @@ url: /th/net/cad-drawing-manipulation/
 weight: 21
 ---
 
-”?" -> "## “วิธีการปรับขนาด CAD” คืออะไร?" maybe.
 
-Proceed.
 
-Make sure not to translate URLs in links.
 
-The tutorial links: keep same.
 
-Now produce final.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

@@ -9,13 +9,10 @@ url: /ja/java/cad-file-manipulation/accessing-underlay-flags-of-dwg/
 weight: 11
 ---
 
- "Last Updated", "Tested With", "Author".
 
-Make sure to keep URLs unchanged.
 
-Also keep the shortcodes at bottom.
 
-Now produce final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

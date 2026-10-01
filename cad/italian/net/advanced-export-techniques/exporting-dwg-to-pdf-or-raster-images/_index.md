@@ -10,19 +10,13 @@ url: /it/net/advanced-export-techniques/exporting-dwg-to-pdf-or-raster-images/
 weight: 11
 ---
 
-:** 2026-03-16 => "**Ultimo aggiornamento:** 2026-03-16"
 
-**Tested With:** Aspose.CAD 24.11 for .NET => "**Testato con:** Aspose.CAD 24.11 per .NET"
 
-**Author:** Aspose => "**Autore:** Aspose"
 
-Then closing shortcodes unchanged.
 
-Also there is a backtop button shortcode unchanged.
 
-Make sure to keep blank lines.
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

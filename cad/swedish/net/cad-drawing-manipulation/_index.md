@@ -10,11 +10,9 @@ url: /sv/net/cad-drawing-manipulation/
 weight: 21
 ---
 
-Now produce final content with all translations.
 
-Make sure to keep code formatting, inline code unchanged.
 
-Let's craft final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

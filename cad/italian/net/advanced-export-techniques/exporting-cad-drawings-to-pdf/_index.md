@@ -10,20 +10,13 @@ url: /it/net/advanced-export-techniques/exporting-cad-drawings-to-pdf/
 weight: 14
 ---
 
- of writing)  
-**Author:** Aspose  
 
-Translate labels: "Ultimo aggiornamento", "Testato con", "Autore". Keep dates.
 
-Then closing shortcodes.
 
-Now produce final content with all translations.
 
-Be careful to keep code block placeholders unchanged.
 
-Also keep markdown formatting.
 
-Proceed.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

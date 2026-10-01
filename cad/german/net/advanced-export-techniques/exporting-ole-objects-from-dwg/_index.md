@@ -8,11 +8,9 @@ url: /de/net/advanced-export-techniques/exporting-ole-objects-from-dwg/
 weight: 12
 ---
 
- elements.
 
-Check code block placeholders: they are not fenced code blocks, but placeholders. The requirement says preserve code blocks. There are no actual fenced code blocks except placeholders. So fine.
 
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

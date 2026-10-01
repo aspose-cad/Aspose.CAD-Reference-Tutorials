@@ -9,11 +9,9 @@ url: /id/net/advanced-export-techniques/exporting-cad-drawings-to-svg/
 weight: 15
 ---
 
- etc.
 
-Also keep markdown tables with pipes.
 
-Let's craft final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

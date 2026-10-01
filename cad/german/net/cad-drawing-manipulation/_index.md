@@ -10,19 +10,13 @@ url: /de/net/cad-drawing-manipulation/
 weight: 21
 ---
 
-rawing-size/)" Keep link.
 
-Similarly others.
 
-At end shortcodes and backtop button and footer.
 
-Also "Last Updated" and "Tested With" and "Author". Translate? Probably keep as is? Should translate text but not dates. So "Last Updated:" -> "Zuletzt aktualisiert:"; "Tested With:" -> "Getestet mit:"; "Author:" -> "Autor:".
 
-Now produce final content.
 
-Be careful to preserve code fences: there are none except inline code. No triple fences.
 
-Let's craft final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

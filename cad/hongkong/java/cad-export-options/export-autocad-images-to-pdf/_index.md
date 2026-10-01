@@ -9,11 +9,9 @@ url: /zh-hant/java/cad-export-options/export-autocad-images-to-pdf/
 weight: 10
 ---
 
- code blocks, shortcodes, links, etc. Keep them.
 
-Make sure to preserve markdown formatting.
 
-Proceed to output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

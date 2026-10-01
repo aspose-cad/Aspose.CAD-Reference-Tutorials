@@ -10,17 +10,12 @@ url: /fr/net/attribute-and-property-management/
 weight: 30
 ---
 
- keep.
 
-Now ensure all markdown formatting preserved.
 
-Check for any code blocks: none.
 
-Check for images: none.
 
-Check for shortcodes: we kept them.
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

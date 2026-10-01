@@ -8,11 +8,9 @@ url: /ru/net/advanced-export-techniques/exporting-ole-objects-from-dwg/
 weight: 12
 ---
 
-? Keep as is but translate.
 
-Proceed.
 
-Let's craft final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

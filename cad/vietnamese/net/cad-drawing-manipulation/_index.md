@@ -10,19 +10,13 @@ url: /vi/net/cad-drawing-manipulation/
 weight: 21
 ---
 
- keep date same. "**Tested With:** Aspose.CAD for .NET 24.11" unchanged. "**Author:** Aspose" unchanged.
 
-We must ensure no extra spaces or missing formatting.
 
-Now produce final content with translations.
 
-Check for any code blocks: none present.
 
-Check for any images: none.
 
-All good.
 
-Now output only translated content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

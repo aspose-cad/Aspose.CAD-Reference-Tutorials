@@ -9,7 +9,7 @@ url: /cs/java/cad-file-manipulation/list-layouts-in-dwg/
 weight: 12
 ---
 
- content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

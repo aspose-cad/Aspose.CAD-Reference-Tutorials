@@ -9,17 +9,12 @@ url: /vi/net/advanced-export-techniques/exporting-cad-drawings-to-pdf/
 weight: 14
 ---
 
-codes exactly.
 
-Now produce final output with translated content.
 
-Check for any missed items: The heading "How to Export CAD to PDF – Aspose.CAD Tutorial" translated.
 
-All bullet lists, tables, code block placeholders remain.
 
-Make sure not to translate URLs.
 
-Now produce final.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

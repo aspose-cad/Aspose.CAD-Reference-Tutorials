@@ -10,7 +10,7 @@ url: /fr/java/cad-text-and-formatting/
 weight: 28
 ---
 
- final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

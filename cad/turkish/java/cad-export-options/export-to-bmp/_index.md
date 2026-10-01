@@ -10,15 +10,11 @@ url: /tr/java/cad-export-options/export-to-bmp/
 weight: 12
 ---
 
-24.11 (latest at time of writing) => translate "Test Edilen Versiyon:".
 
-**Author:** Aspose => "Yazar:".
 
-Then closing shortcodes.
 
-Also there is a backtop button shortcode unchanged.
 
-Now produce final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

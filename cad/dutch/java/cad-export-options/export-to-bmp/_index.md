@@ -10,7 +10,7 @@ url: /nl/java/cad-export-options/export-to-bmp/
 weight: 12
 ---
 
- answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

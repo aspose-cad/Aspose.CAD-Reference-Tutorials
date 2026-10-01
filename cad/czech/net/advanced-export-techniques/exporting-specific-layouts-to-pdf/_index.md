@@ -11,9 +11,8 @@ url: /cs/net/advanced-export-techniques/exporting-specific-layouts-to-pdf/
 weight: 13
 ---
 
-.
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

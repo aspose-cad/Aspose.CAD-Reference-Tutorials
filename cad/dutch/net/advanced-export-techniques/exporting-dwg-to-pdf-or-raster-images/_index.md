@@ -11,21 +11,13 @@ url: /nl/net/advanced-export-techniques/exporting-dwg-to-pdf-or-raster-images/
 weight: 11
 ---
 
-### Q7: What is the best way to **how to convert dwg** when the source file contains multiple layouts?
-"Wat is de beste manier om **dwg te converteren** wanneer het bronbestand meerdere lay‑outs bevat?"
-Answer: "Vul `rasterizationOptions.Layouts` met alle lay‑outnamen die je wilt exporteren, loop vervolgens door elke lay‑out en roep `Save` aan voor elk uitvoerformaat."
 
-Then the footer:
 
-**Last Updated:** 2026-03-16 => "**Laatst bijgewerkt:** 2026-03-16"
 
-**Tested With:** Aspose.CAD 24.11 for .NET => "**Getest met:** Aspose.CAD 24.11 voor .NET"
 
-**Author:** Aspose => "**Auteur:** Aspose"
 
-Now ensure shortcodes at end.
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

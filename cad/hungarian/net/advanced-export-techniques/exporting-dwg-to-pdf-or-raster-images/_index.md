@@ -12,13 +12,10 @@ url: /hu/net/advanced-export-techniques/exporting-dwg-to-pdf-or-raster-images/
 weight: 11
 ---
 
- markdown elements.
 
-Also there is a note: "For Hungarian, ensure proper RTL formatting if needed" Not needed.
 
-Now produce final content with same structure.
 
-Let's assemble.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

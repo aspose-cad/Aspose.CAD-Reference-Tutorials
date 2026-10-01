@@ -10,15 +10,11 @@ url: /nl/java/cad-file-manipulation/list-layouts-in-dwg/
 weight: 12
 ---
 
-.11
 
-**Author:** Aspose
 
-Then closing shortcodes.
 
-Make sure to preserve all shortcodes and code block placeholders.
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

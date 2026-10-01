@@ -9,17 +9,12 @@ url: /de/java/cad-meta-data-and-rendering/
 weight: 27
 ---
 
-estet mit:** Aspose.CAD for Java 24.12"
 
-"**Author:** Aspose" => "**Autor:** Aspose"
 
-Then closing shortcodes.
 
-Finally backtop button shortcode unchanged.
 
-Make sure to keep all markdown formatting.
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

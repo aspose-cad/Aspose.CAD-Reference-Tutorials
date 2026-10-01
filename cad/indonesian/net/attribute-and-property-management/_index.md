@@ -9,19 +9,13 @@ url: /id/net/attribute-and-property-management/
 weight: 30
 ---
 
-03-13 becomes **Last Updated:**? Actually the bold includes the label. So we replace label inside bold.
 
-**Last Updated:** => **Terakhir Diperbarui:**.
 
-**Tested With:** => **Diuji Dengan:**.
 
-**Author:** => **Penulis:**.
 
-Now produce final content.
 
-Make sure no extra spaces.
 
-Let's construct final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

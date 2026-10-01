@@ -10,9 +10,8 @@ url: /el/java/cad-file-manipulation/auto-adjusting-cad-drawing-size/
 weight: 13
 ---
 
- code block placeholders remain as they are (they are not inside fences). They appear as plain lines, okay.
 
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

@@ -10,7 +10,7 @@ url: /fr/java/advanced-cad-features/support-of-layers-in-cad/
 weight: 18
 ---
 
- produce final.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

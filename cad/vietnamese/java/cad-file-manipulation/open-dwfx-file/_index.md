@@ -9,9 +9,8 @@ url: /vi/java/cad-file-manipulation/open-dwfx-file/
 weight: 10
 ---
 
- we keep markdown formatting.
 
-Let's craft final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

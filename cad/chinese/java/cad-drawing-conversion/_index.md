@@ -9,15 +9,11 @@ url: /zh/java/cad-drawing-conversion/
 weight: 20
 ---
 
-.
 
-Now produce final output with translated content.
 
-Be careful with code fences: there are none in this content.
 
-Make sure to keep markdown formatting.
 
-Let's construct final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

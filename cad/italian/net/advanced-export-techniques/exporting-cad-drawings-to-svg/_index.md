@@ -9,19 +9,13 @@ url: /it/net/advanced-export-techniques/exporting-cad-drawings-to-svg/
 weight: 15
 ---
 
- block placeholders as they are.
 
-Also table content: translate Issue, Cause, Fix? Should translate the table headers and content. Keep pipes.
 
-Also bullet lists.
 
-Also FAQ sections.
 
-Make sure not to translate URLs.
 
-Also keep the "Last Updated" date unchanged.
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

@@ -9,13 +9,10 @@ url: /ko/net/attribute-and-property-management/
 weight: 30
 ---
 
-: none.
 
-Check shortcodes: we kept.
 
-Check links: we kept same.
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

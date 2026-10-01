@@ -9,20 +9,11 @@ url: /ko/java/cad-text-and-formatting/
 weight: 28
 ---
 
- I handle large DWG files when searching text?**  
-A: Load the drawing in a streaming mode and use the provided search APIs to iterate over entities without loading the entire file into memory.
 
-**Q: Is it possible to modify the found text after searching?**  
-A: Absolutely. Once you locate a Text or MText entity, you can update its content and save the drawing back to DWG.
 
-**Q: Where can I find more examples on DWG text and formatting?**  
-A: The tutorial list above covers the core scenarios, and the official Aspose.CAD documentation provides additional code snippets.
 
----
 
-**Last Updated:** 2026-02-28  
-**Tested With:** Aspose.CAD for Java 24.12  
-**Author:** Aspose{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

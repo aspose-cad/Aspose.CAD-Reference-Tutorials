@@ -9,9 +9,8 @@ url: /ar/java/cad-file-manipulation/accessing-underlay-flags-of-dwg/
 weight: 11
 ---
 
- to keep shortcodes unchanged.
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

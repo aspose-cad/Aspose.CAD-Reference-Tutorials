@@ -9,21 +9,14 @@ url: /pt/java/cad-file-manipulation/open-dwfx-file/
 weight: 10
 ---
 
-.
 
-Make sure to translate "Convert DWFX to PDF with Aspose.CAD for Java" etc.
 
-Also translate "Last Updated", "Tested With", "Author". Keep dates.
 
-Also translate table content.
 
-Make sure to keep markdown formatting.
 
-Let's produce the translated content.
 
-Check for any other elements: there are shortcodes at top and bottom. Keep them.
 
-Now produce final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

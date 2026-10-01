@@ -9,9 +9,8 @@ url: /id/java/cad-export-options/export-ifc-to-png/
 weight: 18
 ---
 
- -> "Pertanyaan yang Sering Diajukan". "Conclusion" -> "Kesimpulan". Ensure headings remain same level.
 
-Now produce final.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

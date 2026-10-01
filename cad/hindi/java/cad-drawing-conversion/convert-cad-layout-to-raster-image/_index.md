@@ -11,11 +11,9 @@ url: /hi/java/cad-drawing-conversion/convert-cad-layout-to-raster-image/
 weight: 12
 ---
 
-All unchanged.
 
-Now ensure we didn't miss any text. Also need to translate the "Pro tip" blockquote label? Keep as is but translate content.
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

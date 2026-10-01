@@ -10,15 +10,11 @@ url: /hu/java/cad-file-manipulation/auto-adjusting-cad-drawing-size/
 weight: 13
 ---
 
-Be careful with bullet points, keep formatting.
 
-Also note "RTL formatting if needed" not needed.
 
-Let's translate.
 
-We'll keep code block placeholders unchanged.
 
-Let's produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

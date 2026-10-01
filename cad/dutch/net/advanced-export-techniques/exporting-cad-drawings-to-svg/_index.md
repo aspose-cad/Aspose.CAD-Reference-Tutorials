@@ -9,19 +9,13 @@ url: /nl/net/advanced-export-techniques/exporting-cad-drawings-to-svg/
 weight: 15
 ---
 
-"
 
-"**Tested With:** Aspose.CAD for .NET 24.12" -> "**Getest met:** Aspose.CAD for .NET 24.12"
 
-"**Author:** Aspose" -> "**Auteur:** Aspose"
 
-Then closing shortcodes.
 
-Then backtop button shortcode.
 
-Make sure to keep all shortcodes exactly.
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

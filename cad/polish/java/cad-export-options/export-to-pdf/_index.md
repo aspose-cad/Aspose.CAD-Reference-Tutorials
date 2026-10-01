@@ -10,15 +10,11 @@ url: /pl/java/cad-export-options/export-to-pdf/
 weight: 13
 ---
 
-- Paragraph translate.
 
-- "Last Updated:" -> "Ostatnia aktualizacja:" etc.
 
-Now produce final content.
 
-Be careful to keep code block placeholders unchanged.
 
-Let's write final.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

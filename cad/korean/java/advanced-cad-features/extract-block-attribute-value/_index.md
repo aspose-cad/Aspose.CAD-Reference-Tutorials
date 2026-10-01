@@ -9,23 +9,15 @@ url: /ko/java/advanced-cad-features/extract-block-attribute-value/
 weight: 19
 ---
 
-론"
 
-Paragraph translate.
 
-Then horizontal rule and metadata.
 
-**Last Updated:** 2026-02-12 -> "**마지막 업데이트:** 2026-02-12"
 
-**Tested With:** Aspose.CAD for Java 24.12 -> "**테스트 환경:** Aspose.CAD for Java 24.12"
 
-**Author:** Aspose -> "**작성자:** Aspose"
 
-Then closing shortcodes.
 
-Also include backtop button shortcode unchanged.
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

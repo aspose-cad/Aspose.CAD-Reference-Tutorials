@@ -9,17 +9,12 @@ url: /ar/java/cad-file-manipulation/auto-adjusting-cad-drawing-size/
 weight: 13
 ---
 
-02-23
 
-**Tested With:** Aspose.CAD for Java 24.12 => **تم الاختبار مع:** Aspose.CAD للـ Java 24.12
 
-**Author:** Aspose => **المؤلف:** Aspose
 
-Then closing shortcodes.
 
-Make sure to keep all shortcodes exactly.
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

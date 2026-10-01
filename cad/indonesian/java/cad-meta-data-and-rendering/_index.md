@@ -10,9 +10,8 @@ url: /id/java/cad-meta-data-and-rendering/
 weight: 27
 ---
 
- breaks.
 
-Let's construct final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

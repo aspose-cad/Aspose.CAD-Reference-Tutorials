@@ -9,17 +9,12 @@ url: /fr/java/cad-to-pdf-and-svg-export-options/cff-to-pdf-conversion/
 weight: 13
 ---
 
- dates unchanged.
 
-Then closing shortcodes.
 
-Finally backtop button shortcode unchanged.
 
-Now produce final content with all markdown.
 
-Be careful to keep code block placeholders unchanged.
 
-Let's craft final.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

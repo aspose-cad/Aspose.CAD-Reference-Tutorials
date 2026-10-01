@@ -9,17 +9,12 @@ url: /pt/java/cad-export-options/export-stl-to-png/
 weight: 20
 ---
 
- shortcodes.
 
-Also need to keep the backtop button shortcode.
 
-Now produce final content with all translations.
 
-Check that we didn't translate URLs. Keep them.
 
-Also code block placeholders remain unchanged.
 
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

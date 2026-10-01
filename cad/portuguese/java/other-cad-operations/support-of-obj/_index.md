@@ -69,9 +69,12 @@ url: /pt/java/other-cad-operations/support-of-obj/
 weight: 19
 ---
 
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
+
+
+
 
 # Como converter obj para pdf com Aspose.CAD para Java
 
@@ -215,8 +218,8 @@ Agora você tem um fluxo de trabalho completo e pronto para produção para conv
 - [Como Converter IGES para PDF usando Aspose.CAD para Java](/cad/java/advanced-cad-features/integrate-iges-format/)
 - [Criar PDF a partir de CAD – Exportar DXF para PDF com Aspose.CAD para Java](/cad/java/additional-features/export-dxf-to-pdf/)
 
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}
+
+
 
 ```java
 import com.aspose.cad.Image;
@@ -247,5 +250,9 @@ CADf.setVectorRasterizationOptions(rasterizationOptions);
 cadDoc.save(dataDir + "example-580-W_custom.pdf", CADf);
 ```
 
+{{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
-{{< blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

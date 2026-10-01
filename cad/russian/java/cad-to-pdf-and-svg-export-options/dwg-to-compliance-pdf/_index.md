@@ -9,9 +9,8 @@ url: /ru/java/cad-to-pdf-and-svg-export-options/dwg-to-compliance-pdf/
 weight: 11
 ---
 
- keep markdown formatting exactly.
 
-Let's craft final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

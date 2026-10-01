@@ -8,9 +8,8 @@ url: /ja/java/cad-text-and-formatting/
 weight: 28
 ---
 
- shortcodes unchanged.
 
-Now produce final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

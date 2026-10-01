@@ -9,11 +9,9 @@ url: /nl/java/advanced-cad-features/support-of-layers-in-cad/
 weight: 18
 ---
 
-}}
 
-Make sure to keep all shortcodes unchanged.
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

@@ -10,9 +10,8 @@ url: /pl/java/cad-file-manipulation/open-dwfx-file/
 weight: 10
 ---
 
- We kept them.
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

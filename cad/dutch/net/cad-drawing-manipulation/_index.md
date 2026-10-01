@@ -10,11 +10,9 @@ url: /nl/net/cad-drawing-manipulation/
 weight: 21
 ---
 
- translation.
 
-Be careful to keep code fences unchanged (none present). Keep shortcodes.
 
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

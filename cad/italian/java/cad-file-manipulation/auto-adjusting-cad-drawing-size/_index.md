@@ -10,9 +10,8 @@ url: /it/java/cad-file-manipulation/auto-adjusting-cad-drawing-size/
 weight: 13
 ---
 
-Be careful with markdown formatting.
 
-Proceed.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

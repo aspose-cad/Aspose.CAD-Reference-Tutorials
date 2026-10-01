@@ -9,17 +9,12 @@ url: /ja/net/advanced-export-techniques/
 weight: 26
 ---
 
- "**作成者:**"
 
-Now ensure we keep markdown formatting.
 
-Now produce final content with all translations.
 
-Check shortcodes remain unchanged.
 
-Make sure no extra spaces or missing.
 
-Let's craft final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

@@ -8,9 +8,8 @@ url: /ja/java/cad-export-options/export-to-bmp/
 weight: 12
 ---
 
-Now produce final content with shortcodes at start and end.
 
-Let's assemble.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

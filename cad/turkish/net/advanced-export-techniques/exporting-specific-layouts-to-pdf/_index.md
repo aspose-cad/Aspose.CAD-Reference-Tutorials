@@ -11,11 +11,9 @@ url: /tr/net/advanced-export-techniques/exporting-specific-layouts-to-pdf/
 weight: 13
 ---
 
-Be careful to preserve code block placeholders as they are.
 
-Also preserve blockquote > formatting.
 
-Now craft final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

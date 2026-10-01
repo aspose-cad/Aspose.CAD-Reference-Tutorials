@@ -9,17 +9,12 @@ url: /id/java/cad-text-and-formatting/
 weight: 28
 ---
 
-At end:
 
-**Last Updated:** 2026-02-28 (keep)
 
-**Tested With:** Aspose.CAD for Java 24.12
 
-**Author:** Aspose
 
-All good.
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

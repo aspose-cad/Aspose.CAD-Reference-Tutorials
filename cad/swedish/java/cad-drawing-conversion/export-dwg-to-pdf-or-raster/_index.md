@@ -10,7 +10,7 @@ url: /sv/java/cad-drawing-conversion/export-dwg-to-pdf-or-raster/
 weight: 13
 ---
 
-.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

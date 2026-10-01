@@ -9,11 +9,9 @@ url: /ar/java/cad-file-manipulation/open-dwfx-file/
 weight: 10
 ---
 
-0}} etc. Keep them unchanged.
 
-Make sure no extra spaces.
 
-Proceed to final.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

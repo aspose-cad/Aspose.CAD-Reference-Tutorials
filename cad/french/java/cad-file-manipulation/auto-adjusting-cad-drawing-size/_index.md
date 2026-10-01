@@ -10,9 +10,8 @@ url: /fr/java/cad-file-manipulation/auto-adjusting-cad-drawing-size/
 weight: 13
 ---
 
-.
 
-Let's craft final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

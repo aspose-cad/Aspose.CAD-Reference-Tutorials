@@ -10,25 +10,15 @@ url: /pt/java/cad-drawing-conversion/
 weight: 20
 ---
 
-.
 
-Translate: "Posso definir um tamanho de página personalizado para o PDF exportado?" Answer unchanged.
 
-Then the footer:
 
-**Last Updated:** 2026-02-17  
-**Tested With:** Aspose.CAD for Java 24.12  
-**Author:** Aspose
 
-Translate labels: "Última Atualização:", "Testado com:", "Autor:". Keep dates unchanged.
 
-Then closing shortcodes.
 
-Now produce final content with all translations.
 
-Check for any missed items: The initial shortcodes remain unchanged. Ensure we keep code fences (none). No code blocks besides inline code.
 
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

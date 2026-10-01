@@ -10,19 +10,13 @@ url: /el/net/advanced-export-techniques/
 weight: 26
 ---
 
- labels but keep dates and version numbers.
 
-**Last Updated:** -> "**Τελευταία Ενημέρωση:**"
 
-**Tested With:** -> "**Δοκιμάστηκε Με:**"
 
-**Author:** -> "**Συγγραφέας:**"
 
-Now produce final content with same markdown.
 
-Check we didn't miss any bold formatting. Keep bold markers.
 
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

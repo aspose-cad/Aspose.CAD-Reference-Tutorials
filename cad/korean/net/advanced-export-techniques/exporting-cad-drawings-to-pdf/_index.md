@@ -9,13 +9,10 @@ url: /ko/net/advanced-export-techniques/exporting-cad-drawings-to-pdf/
 weight: 14
 ---
 
-Now produce final Korean markdown.
 
-Let's craft translation.
 
-Be careful with bold formatting.
 
-Proceed to write final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

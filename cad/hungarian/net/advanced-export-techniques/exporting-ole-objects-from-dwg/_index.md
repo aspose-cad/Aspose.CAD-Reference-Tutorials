@@ -9,11 +9,9 @@ url: /hu/net/advanced-export-techniques/exporting-ole-objects-from-dwg/
 weight: 12
 ---
 
-Now produce final content with all markdown.
 
-Make sure to keep shortcodes exactly.
 
-Let's assemble.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
