@@ -47,72 +47,72 @@ using (var cadImage = (CadImage)Image.Load("sample.dwg"))
 
 ## Explore the Power of 3D Support for DGN V7 Files
 
-In the tutorial [3D Support for DGN V7 in Aspose.CAD for .NET]({{< relref "3d-support-for-dgn-v7/_index.md" >}}), we unravel the intricacies of 3D support for DGN V7 files. Witness the magic of effortlessly integrating and manipulating CAD files in a three‑dimensional space. Follow the guide to navigate through the process with ease.
+In the tutorial [3D Support for DGN V7 in Aspose.CAD for .NET]({{< relref "/net/cad-features-and-support/3d-support-for-dgn-v7/" >}}), we unravel the intricacies of 3D support for DGN V7 files. Witness the magic of effortlessly integrating and manipulating CAD files in a three‑dimensional space. Follow the guide to navigate through the process with ease.
 
 ## Mesh support made easy
 
-Discover the simplicity of mesh support in Aspose.CAD for .NET with our tutorial [Mesh Support in Aspose.CAD for .NET]({{< relref "mesh-support/_index.md" >}}). Convert your CAD files to PDF seamlessly as we guide you through each step. Master the art of mesh handling and enhance the visual appeal of your CAD projects.
+Discover the simplicity of mesh support in Aspose.CAD for .NET with our tutorial [Mesh Support in Aspose.CAD for .NET]({{< relref "/net/cad-features-and-support/mesh-support/" >}}). Convert your CAD files to PDF seamlessly as we guide you through each step. Master the art of mesh handling and enhance the visual appeal of your CAD projects.
 
 ## Elevate CAD export with custom pen options
 
-In [Elevate CAD Export with Custom Pen Options in Aspose.CAD for .NET]({{< relref "pen-support-in-export/_index.md" >}}), we teach you how to enhance your CAD image exports. Customize pen options to achieve stunning visuals in PDF, PNG, BMP, and more. Elevate the aesthetic quality of your CAD exports effortlessly.
+In [Elevate CAD Export with Custom Pen Options in Aspose.CAD for .NET]({{< relref "/net/cad-features-and-support/pen-support-in-export/" >}}), we teach you how to enhance your CAD image exports. Customize pen options to achieve stunning visuals in PDF, PNG, BMP, and more. Elevate the aesthetic quality of your CAD exports effortlessly.
 
 ## Reading DWT files made simple
 
-Explore Aspose.CAD for .NET's powerful capability to read DWT files in [Reading DWT in Aspose.CAD for .NET]({{< relref "reading-dwt/_index.md" >}}). Boost your CAD data integration with our user‑friendly tutorial. Navigate through the process seamlessly and efficiently.
+Explore Aspose.CAD for .NET's powerful capability to read DWT files in [Reading DWT in Aspose.CAD for .NET]({{< relref "/net/cad-features-and-support/reading-dwt/" >}}). Boost your CAD data integration with our user‑friendly tutorial. Navigate through the process seamlessly and efficiently.
 
 ## Setting auto layout scaling for precision
 
-Enhance your CAD rendering by learning to set up Auto Layout Scaling in [Setting Auto Layout Scaling in Aspose.CAD for .NET]({{< relref "setting-auto-layout-scaling/_index.md" >}}). Achieve precise and adaptable file rendering effortlessly with our comprehensive tutorial. Optimize your workflow with this essential skill.
+Enhance your CAD rendering by learning to set up Auto Layout Scaling in [Setting Auto Layout Scaling in Aspose.CAD for .NET]({{< relref "/net/cad-features-and-support/setting-auto-layout-scaling/" >}}). Achieve precise and adaptable file rendering effortlessly with our comprehensive tutorial. Optimize your workflow with this essential skill.
 
 ## Mastering background and drawing colors
 
-Master Aspose.CAD for .NET by setting background and drawing colors effortlessly. Follow our step‑by‑step guide in [Setting Background and Drawing Colors in Aspose.CAD for .NET]({{< relref "setting-background-and-drawing-colors/_index.md" >}}) to add vibrancy to your CAD projects. Engage your audience with visually appealing designs.
+Master Aspose.CAD for .NET by setting background and drawing colors effortlessly. Follow our step‑by‑step guide in [Setting Background and Drawing Colors in Aspose.CAD for .NET]({{< relref "/net/cad-features-and-support/setting-background-and-drawing-colors/" >}}) to add vibrancy to your CAD projects. Engage your audience with visually appealing designs.
 
 ## Optimizing CAD rendering with canvas size and mode
 
-Explore the step‑by‑step guide on setting canvas size and mode in [Setting Canvas Size and Mode in Aspose.CAD for .NET]({{< relref "setting-canvas-size-and-mode/_index.md" >}}). Optimize your CAD rendering with ease, ensuring your projects meet the highest standards of quality and precision.
+Explore the step‑by‑step guide on setting canvas size and mode in [Setting Canvas Size and Mode in Aspose.CAD for .NET]({{< relref "/net/cad-features-and-support/setting-canvas-size-and-mode/" >}}). Optimize your CAD rendering with ease, ensuring your projects meet the highest standards of quality and precision.
 
 ## Effortless font substitution in CAD drawings
 
-Learn to substitute fonts effortlessly in [Substituting Fonts in Aspose.CAD for .NET]({{< relref "substituting-fonts/_index.md" >}}). Follow our guide for efficient font customization in your CAD drawings. Elevate the typography of your designs without any hassle.
+Learn to substitute fonts effortlessly in [Substituting Fonts in Aspose.CAD for .NET]({{< relref "/net/cad-features-and-support/substituting-fonts/" >}}). Follow our guide for efficient font customization in your CAD drawings. Elevate the typography of your designs without any hassle.
 
 ## Handling DGN files like a pro
 
-Explore Aspose.CAD for .NET's powerful features for handling DGN files in [Supported DGN Elements in Aspose.CAD for .NET]({{< relref "supported-dgn-elements/_index.md" >}}). Follow our step‑by‑step guide to work seamlessly with 2D and 3D elements. Master the art of efficient DGN file handling.
+Explore Aspose.CAD for .NET's powerful features for handling DGN files in [Supported DGN Elements in Aspose.CAD for .NET]({{< relref "/net/cad-features-and-support/supported-dgn-elements/" >}}). Follow our step‑by‑step guide to work seamlessly with 2D and 3D elements. Master the art of efficient DGN file handling.
 
 ## Seamless support for DGN V7 files
 
-Unlock the seamless support for DGN V7 files in [Support for DGN V7 in Aspose.CAD for .NET]({{< relref "support-for-dgn-v7/_index.md" >}}). Convert DGN files to raster images effortlessly with our step‑by‑step guidance. Experience a smooth workflow with Aspose.CAD for .NET.
+Unlock the seamless support for DGN V7 files in [Support for DGN V7 in Aspose.CAD for .NET]({{< relref "/net/cad-features-and-support/support-for-dgn-v7/" >}}). Convert DGN files to raster images effortlessly with our step‑by‑step guidance. Experience a smooth workflow with Aspose.CAD for .NET.
 
 ## Power of 3D Support for DGN V7 Unleashed
 
-Embark on a journey to unlock the power of 3D support for DGN V7 in [Support of 3D for DGN V7 in Aspose.CAD for .NET]({{< relref "support-of-3d-for-dgn-v7/_index.md" >}}). Follow our step‑by‑step tutorial to harness the capabilities of Aspose.CAD for .NET fully.
+Embark on a journey to unlock the power of 3D support for DGN V7 in [Support of 3D for DGN V7 in Aspose.CAD for .NET]({{< relref "/net/cad-features-and-support/support-of-3d-for-dgn-v7/" >}}). Follow our step‑by‑step tutorial to harness the capabilities of Aspose.CAD for .NET fully.
 
 Aspose.CAD for .NET brings you tutorials that simplify the complexities of CAD features, ensuring you stay ahead in the ever‑evolving world of design and engineering. Explore the tutorials today and enhance your CAD skills effortlessly!
 
 ## CAD features and support tutorials
-### [3D Support for DGN V7 in Aspose.CAD for .NET]({{< relref "3d-support-for-dgn-v7/_index.md" >}})
+### [3D Support for DGN V7 in Aspose.CAD for .NET]({{< relref "/net/cad-features-and-support/3d-support-for-dgn-v7/" >}})
 Explore the power of 3D support for DGN V7 files in Aspose.CAD for .NET. Follow our step‑by‑step guide to effortlessly integrate and manipulate CAD files.
-### [Mesh Support in Aspose.CAD for .NET]({{< relref "mesh-support/_index.md" >}})
+### [Mesh Support in Aspose.CAD for .NET]({{< relref "/net/cad-features-and-support/mesh-support/" >}})
 Explore mesh support in Aspose.CAD for .NET with our step‑by‑step tutorial. Convert CAD files to PDF effortlessly.
-### [Elevate CAD Export with Custom Pen Options in Aspose.CAD for .NET]({{< relref "pen-support-in-export/_index.md" >}})
+### [Elevate CAD Export with Custom Pen Options in Aspose.CAD for .NET]({{< relref "/net/cad-features-and-support/pen-support-in-export/" >}})
 Learn how to enhance your CAD image exports using Aspose.CAD for .NET. Customize pen options for stunning visuals in PDF, PNG, BMP, and more.
-### [Reading DWT in Aspose.CAD for .NET]({{< relref "reading-dwt/_index.md" >}})
+### [Reading DWT in Aspose.CAD for .NET]({{< relref "/net/cad-features-and-support/reading-dwt/" >}})
 Explore Aspose.CAD for .NET. A powerful tool to read DWT files effortlessly. Boost your CAD data integration with our user‑friendly tutorial.
-### [Setting Auto Layout Scaling in Aspose.CAD for .NET]({{< relref "setting-auto-layout-scaling/_index.md" >}})
+### [Setting Auto Layout Scaling in Aspose.CAD for .NET]({{< relref "/net/cad-features-and-support/setting-auto-layout-scaling/" >}})
 Enhance CAD rendering with Aspose.CAD for .NET. Learn to set up Auto Layout Scaling for precise and adaptable file rendering.
-### [Setting Background and Drawing Colors in Aspose.CAD for .NET]({{< relref "setting-background-and-drawing-colors/_index.md" >}})
+### [Setting Background and Drawing Colors in Aspose.CAD for .NET]({{< relref "/net/cad-features-and-support/setting-background-and-drawing-colors/" >}})
 Master Aspose.CAD for .NET. Set background and drawing colors effortlessly. Follow our step‑by‑step guide.
-### [Setting Canvas Size and Mode in Aspose.CAD for .NET]({{< relref "setting-canvas-size-and-mode/_index.md" >}})
+### [Setting Canvas Size and Mode in Aspose.CAD for .NET]({{< relref "/net/cad-features-and-support/setting-canvas-size-and-mode/" >}})
 Explore the step‑by‑step guide on setting canvas size and mode in Aspose.CAD for .NET. Optimize your CAD rendering with ease using this comprehensive tutorial.
-### [Substituting Fonts in Aspose.CAD for .NET]({{< relref "substituting-fonts/_index.md" >}})
+### [Substituting Fonts in Aspose.CAD for .NET]({{< relref "/net/cad-features-and-support/substituting-fonts/" >}})
 Learn to substitute fonts in Aspose.CAD for .NET effortlessly. Follow our step‑by‑step guide for efficient font customization in your CAD drawings.
-### [Supported DGN Elements in Aspose.CAD for .NET]({{< relref "supported-dgn-elements/_index.md" >}})
+### [Supported DGN Elements in Aspose.CAD for .NET]({{< relref "/net/cad-features-and-support/supported-dgn-elements/" >}})
 Explore Aspose.CAD for .NET's powerful features for handling DGN files. Follow our step‑by‑step guide to work seamlessly with 2D and 3D elements.
-### [Support for DGN V7 in Aspose.CAD for .NET]({{< relref "support-for-dgn-v7/_index.md" >}})
+### [Support for DGN V7 in Aspose.CAD for .NET]({{< relref "/net/cad-features-and-support/support-for-dgn-v7/" >}})
 Explore Aspose.CAD for .NET's seamless support for DGN V7 files. Convert DGN files to raster images effortlessly with step‑by‑step guidance.
-### [Support of 3D for DGN V7 in Aspose.CAD for .NET]({{< relref "support-of-3d-for-dgn-v7/_index.md" >}})
+### [Support of 3D for DGN V7 in Aspose.CAD for .NET]({{< relref "/net/cad-features-and-support/support-of-3d-for-dgn-v7/" >}})
 Unlock the power of 3D support for DGN V7 in Aspose.CAD for .NET. Follow our step‑by‑step tutorial.
 
 ## Frequently asked questions

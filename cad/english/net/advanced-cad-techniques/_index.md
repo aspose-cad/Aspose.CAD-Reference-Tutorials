@@ -178,24 +178,24 @@ A: Yes, a commercial license removes evaluation watermarks and unlocks full func
 **Author:** Aspose  
 
 ## Advanced CAD techniques tutorials
-### [Converting CFF to PDF Format - Aspose.CAD Tutorial]([{{< relref "converting-cff-to-pdf-format/_index.md" >}}])
+### [Converting CFF to PDF Format - Aspose.CAD Tutorial]({{< relref "/net/advanced-cad-techniques/converting-cff-to-pdf-format/" >}})
 Unlock effortless CFF to PDF conversion with Aspose.CAD for .NET. Follow our step-by-step guide.
-### [Free point of view in CAD drawings - Aspose.CAD guide]([{{< relref "free-point-of-view-in-cad-drawings/_index.md" >}}])
+### [Free point of view in CAD drawings - Aspose.CAD guide]({{< relref "/net/advanced-cad-techniques/free-point-of-view-in-cad-drawings/" >}})
 Explore the freedom of CAD visualization with Aspose.CAD for .NET. Follow our step-by-step guide for a unique point of view.
-### [Setting timeout on save operation - Aspose.CAD tutorial]([{{< relref "setting-timeout-on-save-operation/_index.md" >}}])
+### [Setting timeout on save operation - Aspose.CAD tutorial]({{< relref "/net/advanced-cad-techniques/setting-timeout-on-save-operation/" >}})
 Explore how to enhance CAD save operations with timeout settings using Aspose.CAD for .NET. Boost efficiency and control in your .NET applications.
-### [Creating single PDF with different layouts - Aspose.CAD guide]([{{< relref "creating-single-pdf-with-different-layouts/_index.md" >}}])
+### [Creating single PDF with different layouts - Aspose.CAD guide]({{< relref "/net/advanced-cad-techniques/creating-single-pdf-with-different-layouts/" >}})
 Create a single PDF with different layouts using Aspose.CAD for .NET. Follow our step-by-step guide for seamless integration and efficient PDF generation.
-### [Editing hyperlinks in CAD files - Aspose.CAD tutorial]([{{< relref "editing-hyperlinks-in-cad-files/_index.md" >}}])
+### [Editing hyperlinks in CAD files - Aspose.CAD tutorial]({{< relref "/net/advanced-cad-techniques/editing-hyperlinks-in-cad-files/" >}})
 Explore Aspose.CAD for .NET and learn to edit hyperlinks in CAD files effortlessly. Enhance your CAD file management skills with this comprehensive tutorial.
 
 
 
 ## Related Tutorials
 
-- [Exporting CAD Drawings to PDF - Aspose.CAD Tutorial]([{{< relref "cad/net/advanced-export-techniques/exporting-cad-drawings-to-pdf/_index.md" >}}])
-- [Creating Single PDF with Different Layouts - Aspose.CAD Guide]([{{< relref "cad/net/advanced-cad-techniques/creating-single-pdf-with-different-layouts/_index.md" >}}])
-- [Converting Large DWG Files to PDF - Aspose.CAD Tutorial]([{{< relref "cad/net/image-manipulation-and-rendering/converting-large-dwg-files-to-pdf/_index.md" >}}])
+- [Exporting CAD Drawings to PDF - Aspose.CAD Tutorial]({{< relref "/net/advanced-export-techniques/exporting-cad-drawings-to-pdf/" >}})
+- [Creating Single PDF with Different Layouts - Aspose.CAD Guide]({{< relref "/net/advanced-cad-techniques/creating-single-pdf-with-different-layouts/" >}})
+- [Converting Large DWG Files to PDF - Aspose.CAD Tutorial]({{< relref "/net/image-manipulation-and-rendering/converting-large-dwg-files-to-pdf/" >}})
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

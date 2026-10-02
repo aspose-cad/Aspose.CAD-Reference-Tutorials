@@ -171,9 +171,9 @@ A: You can purchase the full version of Aspose.CAD for .NET from [Aspose.CAD ful
 
 ## Related Tutorials
 
-- [Exporting DWG to PDF or Raster Images - Aspose.CAD Guide]({{< relref "cad/net/advanced-export-techniques/exporting-dwg-to-pdf-or-raster-images/_index.md" >}})
-- [Exporting Specific Layouts to PDF - Aspose.CAD Guide]({{< relref "cad/net/advanced-export-techniques/exporting-specific-layouts-to-pdf/_index.md" >}})
-- [Exporting CAD Drawings to PDF - Aspose.CAD Tutorial]({{< relref "cad/net/advanced-export-techniques/exporting-cad-drawings-to-pdf/_index.md" >}})
+- [Exporting DWG to PDF or Raster Images - Aspose.CAD Guide]({{< relref "/net/advanced-export-techniques/exporting-dwg-to-pdf-or-raster-images/" >}})
+- [Exporting Specific Layouts to PDF - Aspose.CAD Guide]({{< relref "/net/advanced-export-techniques/exporting-specific-layouts-to-pdf/" >}})
+- [Exporting CAD Drawings to PDF - Aspose.CAD Tutorial]({{< relref "/net/advanced-export-techniques/exporting-cad-drawings-to-pdf/" >}})
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

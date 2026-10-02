@@ -181,9 +181,9 @@ Unlock the power of MLeader entities in DWG format with Aspose.CAD for .NET. Ele
 
 ## Related Tutorials
 
-- [Supporting Hidden Lines in DWG Files - Aspose.CAD Tutorial]({{< relref "supporting-hidden-lines-in-dwg/_index.md" >}})
-- [Supporting MLeader Entity for DWG Format - Aspose.CAD Guide]({{< relref "supporting-mleader-entity-for-dwg-format/_index.md" >}})
-- [Exploring Underlay Flags of DWG Files - Aspose.CAD Tutorial]({{< relref "../dwg-file-manipulation/exploring-underlay-flags-of-dwg/_index.md" >}})
+- [Supporting Hidden Lines in DWG Files - Aspose.CAD Tutorial]({{< relref "/net/hidden-lines-and-entities/supporting-hidden-lines-in-dwg/" >}})
+- [Supporting MLeader Entity for DWG Format - Aspose.CAD Guide]({{< relref "/net/hidden-lines-and-entities/supporting-mleader-entity-for-dwg-format/" >}})
+- [Exploring Underlay Flags of DWG Files - Aspose.CAD Tutorial]({{< relref "/net/dwg-file-manipulation/exploring-underlay-flags-of-dwg/" >}})
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

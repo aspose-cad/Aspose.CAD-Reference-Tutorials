@@ -83,51 +83,51 @@ The `CadImage` class gives access to individual layouts within a CAD file for se
 Aspose.CAD supports **30+ input and output formats** and can process files up to **2 GB** without loading the entire document into memory, delivering conversion speeds up to **5× faster** than competing libraries on typical server hardware.
 
 ## Aspose.CAD for .NET Tutorials
-### [Licensing and Configuration]({{< relref "licensing-and-configuration/" >}})
+### [Licensing and Configuration]({{< relref "/net/licensing-and-configuration/" >}})
 Elevate your CAD file manipulation game with Aspose.CAD for .NET! Apply licenses seamlessly using FileStream or by path with our step-by-step tutorials. 
-### [CAD drawing manipulation]({{< relref "cad-drawing-manipulation/" >}})
+### [CAD drawing manipulation]({{< relref "/net/cad-drawing-manipulation/" >}})
 Effortlessly enhance your CAD projects with Aspose.CAD for .NET tutorials. Resize, convert, and optimize CAD drawings seamlessly with the step‑by‑step guides.
-### [CAD export formats]({{< relref "cad-export-formats/" >}})
+### [CAD export formats]({{< relref "/net/cad-export-formats/" >}})
 Effortlessly master CAD export formats with Aspose.CAD for .NET. Learn to convert CAD layouts, export DGN files to PDF and raster images through tutorials.
-### [CAD features and support]({{< relref "cad-features-and-support/" >}})
+### [CAD features and support]({{< relref "/net/cad-features-and-support/" >}})
 Unlock the full potential of CAD features with Aspose.CAD for .NET tutorials. Learn 3D support for DGN V7, mesh handling, pen customization, and more effortlessly.
-### [DWG file manipulation]({{< relref "dwg-file-manipulation/" >}})
+### [DWG file manipulation]({{< relref "/net/dwg-file-manipulation/" >}})
 Unlock Aspose.CAD's power in .NET with our DWG Tutorials. Master C# for efficient CAD handling, extracting DWF layout sizes seamlessly.
-### [Conversion and Export]({{< relref "conversion-and-export/" >}})
+### [Conversion and Export]({{< relref "/net/conversion-and-export/" >}})
 Unlock the world of CAD file manipulation with Aspose.CAD!
-### [Advanced export techniques]({{< relref "advanced-export-techniques/" >}})
+### [Advanced export techniques]({{< relref "/net/advanced-export-techniques/" >}})
 Unlock the power of Aspose.CAD in C# with our advanced export techniques tutorials. Effortlessly export DWG to DXF, PDF, raster images, OLE objects, and more.
-### [Image manipulation and rendering]({{< relref "image-manipulation-and-rendering/" >}})
+### [Image manipulation and rendering]({{< relref "/net/image-manipulation-and-rendering/" >}})
 Unlock CAD file potential with Aspose.CAD for .NET. Learn block attribute extraction, image import, DWG to PDF conversion, mesh support, and more effortlessly.
-### [Text search and manipulation]({{< relref "text-search-and-manipulation/" >}})
+### [Text search and manipulation]({{< relref "/net/text-search-and-manipulation/" >}})
 Unlock the power of Aspose.CAD for .NET with our tutorials on searching text in DWG files using C#. Elevate your CAD skills and enhance your applications.
-### [Hidden lines and entities]({{< relref "hidden-lines-and-entities/" >}})
+### [Hidden lines and entities]({{< relref "/net/hidden-lines-and-entities/" >}})
 Unlock hidden lines in DWG files effortlessly with Aspose.CAD for .NET. Elevate your CAD projects with our step‑by‑step guide.
-### [Attribute and Property Management]({{< relref "attribute-and-property-management/" >}})
+### [Attribute and Property Management]({{< relref "/net/attribute-and-property-management/" >}})
 Elevate your CAD drawings with Aspose.CAD for .NET! Learn to add attributes and custom properties seamlessly through tutorials. Enhance your designs effortlessly.
-### [Tracking and Rendering]({{< relref "tracking-and-rendering/" >}})
+### [Tracking and Rendering]({{< relref "/net/tracking-and-rendering/" >}})
 Unlock the power of Aspose.CAD for .NET with our tutorials. Learn to enable tracking in CAD files and seamlessly render DXF files as PDF.
-### [Export Techniques]({{< relref "export-techniques/" >}})
+### [Export Techniques]({{< relref "/net/export-techniques/" >}})
 Explore Aspose.CAD tutorials for seamless CAD development. Learn efficient techniques to export DXF files to various formats effortlessly.
-### [Layout and Object Handling]({{< relref "layout-and-object-handling/" >}})
+### [Layout and Object Handling]({{< relref "/net/layout-and-object-handling/" >}})
 Master DXF layout export, file saving, block clipping, and ACAD Proxy Entities effortlessly for enhanced CAD design using Aspose.CAD for .NET.
-### [CAD layouts and decomposition]({{< relref "cad-layouts-and-decomposition/" >}})
+### [CAD layouts and decomposition]({{< relref "/net/cad-layouts-and-decomposition/" >}})
 Unlock the potential of CAD layouts with Aspose.CAD for .NET! Easily convert designs to PDF using our guide. Master decomposition of insert objects effortlessly.
-### [3D image export]({{< relref "3d-image-export/" >}})
+### [3D image export]({{< relref "/net/3d-image-export/" >}})
 Effortlessly export 3D CAD images to PDF using Aspose.CAD for .NET. Follow our tutorials for seamless PDF conversion. Learn efficient 3D image export techniques.
-### [File format conversion]({{< relref "file-format-conversion/" >}})
+### [File format conversion]({{< relref "/net/file-format-conversion/" >}})
 Effortlessly enhance your CAD file handling capabilities with Aspose.CAD for .NET. Explore tutorials on exporting DWF to PDF and 3D image export to BMP format.
-### [PLT and Watermarking]({{< relref "plt-and-watermarking/" >}})
+### [PLT and Watermarking]({{< relref "/net/plt-and-watermarking/" >}})
 Unlock the potential of PLT format with Aspose.CAD for .NET. Effortlessly integrate PLT files into your applications with our step‑by‑step tutorials.
-### [Advanced CAD techniques]({{< relref "advanced-cad-techniques/" >}})
+### [Advanced CAD techniques]({{< relref "/net/advanced-cad-techniques/" >}})
 Effortlessly convert CFF to PDF, explore free point of view in CAD drawings, set timeouts on save operations, create PDFs with Aspose.CAD for .NET tutorials.
-### [Exporting to Image Formats]({{< relref "exporting-to-image-formats/" >}})
+### [Exporting to Image Formats]({{< relref "/net/exporting-to-image-formats/" >}})
 Effortlessly convert IFC files to PNG with Aspose.CAD for .NET. Discover seamless CAD file processing and download for efficient file manipulation.
-### [3D model support]({{< relref "3d-model-support/" >}})
+### [3D model support]({{< relref "/net/3d-model-support/" >}})
 Optimize your CAD applications with Aspose.CAD for .NET! Master the art of seamlessly supporting OBJ format, unlocking the full potential of your 3D models.
-### [Exporting PLT files]({{< relref "exporting-plt-files/" >}})
+### [Exporting PLT files]({{< relref "/net/exporting-plt-files/" >}})
 Effortlessly convert PLT files to images and PDFs with Aspose.CAD for .NET. Explore seamless integration and flexible options for CAD file manipulation.
-### [STL file export]({{< relref "stl-file-export/" >}})
+### [STL file export]({{< relref "/net/stl-file-export/" >}})
 Effortlessly export STL files to PNG with Aspose.CAD for .NET. Our step‑by‑step guide ensures seamless integration. Learn through Aspose.CAD For .NET tutorials.
 
 ## Frequently asked questions
@@ -155,9 +155,9 @@ A: .NET Framework 4.6+, .NET Core 3.1+, and .NET 5/6/7 are fully supported.
 
 ## Related Tutorials
 
-- [Apply License by Path in Aspose.CAD for .NET]({{< relref "/cad/net/licensing-and-configuration/apply-license-by-path/" >}})
-- [Apply License using FileStream in Aspose.CAD for .NET]({{< relref "/cad/net/licensing-and-configuration/apply-license-using-filestream/" >}})
-- [Convert CAD Drawing to Raster Image in Aspose.CAD for .NET]({{< relref "/cad/net/cad-drawing-manipulation/convert-cad-drawing-to-raster-image/" >}})
+- [Apply License by Path in Aspose.CAD for .NET]({{< relref "/net/licensing-and-configuration/apply-license-by-path/" >}})
+- [Apply License using FileStream in Aspose.CAD for .NET]({{< relref "/net/licensing-and-configuration/apply-license-using-filestream/" >}})
+- [Convert CAD Drawing to Raster Image in Aspose.CAD for .NET]({{< relref "/net/cad-drawing-manipulation/convert-cad-drawing-to-raster-image/" >}})
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

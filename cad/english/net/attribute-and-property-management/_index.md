@@ -50,7 +50,7 @@ Are your CAD drawings missing that extra layer of detail? Dive into the world of
 3. **Benefits of adding attributes:** Discover how attributes can enhance the functionality of your CAD drawings. Whether it's for classification, documentation, or collaboration, you'll unlock a new dimension of design.  
 4. **Troubleshooting tips:** We understand that challenges may arise. Our tutorial addresses common issues and provides troubleshooting tips to ensure a smooth experience.  
 
-Ready to transform your CAD drawings? Head to [Adding Attributes to CAD Drawings - Aspose.CAD Tutorial]({{< relref "adding-attributes-to-cad-drawings" >}}) and embark on your journey to design excellence!
+Ready to transform your CAD drawings? Head to [Adding Attributes to CAD Drawings - Aspose.CAD Tutorial]({{< relref "/net/attribute-and-property-management/adding-attributes-to-cad-drawings/" >}}) and embark on your journey to design excellence!
 
 ## Adding custom properties to DWG files
 
@@ -61,7 +61,7 @@ Is your DWG file lacking meaningful metadata? Fear not! Our Aspose.CAD guide wil
 3. **Step‑by‑step integration:** Navigate through our user‑friendly guide, breaking down the process into manageable steps. Adding custom properties has never been this straightforward, allowing you to infuse your DWG files with meaningful information.  
 4. **Optimizing metadata:** Explore how custom properties contribute to efficient file management. Organize your DWG files with relevant data, enabling smoother collaboration and project tracking.  
 
-Ready to empower your DWG files with customized metadata? Dive into [Adding Custom Properties to DWG Files - Aspose.CAD Guide]({{< relref "adding-custom-properties-to-dwg" >}}) and witness the transformation of your designs!
+Ready to empower your DWG files with customized metadata? Dive into [Adding Custom Properties to DWG Files - Aspose.CAD Guide]({{< relref "/net/attribute-and-property-management/adding-custom-properties-to-dwg/" >}}) and witness the transformation of your designs!
 
 ## Sample code: Adding a custom property with Aspose.CAD
 
@@ -102,9 +102,9 @@ Effective **cad property management** combines both attributes and custom proper
 By consistently applying the techniques above, you’ll **enhance CAD drawings** and make them future‑proof. Metadata travels with the file, so anyone opening the drawing sees the full context—no need to hunt for separate documents.
 
 ## Attribute and Property Management Tutorials
-### [Adding attributes to CAD drawings - Aspose.CAD tutorial]({{< relref "adding-attributes-to-cad-drawings" >}})
+### [Adding attributes to CAD drawings - Aspose.CAD tutorial]({{< relref "/net/attribute-and-property-management/adding-attributes-to-cad-drawings/" >}})
 Enhance your CAD drawings with attributes using Aspose.CAD for .NET. Follow our step‑by‑step guide for seamless integration.  
-### [Adding custom properties to DWG files - Aspose.CAD guide]({{< relref "adding-custom-properties-to-dwg" >}})
+### [Adding custom properties to DWG files - Aspose.CAD guide]({{< relref "/net/attribute-and-property-management/adding-custom-properties-to-dwg/" >}})
 Enhance your DWG files with custom properties using Aspose.CAD for .NET. Follow our step‑by‑step guide to add meaningful metadata effortlessly.
 
 ## Frequently asked questions
