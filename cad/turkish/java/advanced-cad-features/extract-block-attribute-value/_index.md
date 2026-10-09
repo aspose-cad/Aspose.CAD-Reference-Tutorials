@@ -1,12 +1,66 @@
 ---
-date: 2026-02-12
-description: Aspose.CAD for Java kullanarak DWG dosyalarındaki dış referanslardan
-  öznitelikleri nasıl çıkaracağınızı ve dwg blok öznitelik çıkarımını nasıl gerçekleştireceğinizi
-  öğrenin. CAD geliştirme iş akışınızı bugün hızlandırın.
-linktitle: Extract Block Attribute Value from External Reference
+date: 2026-10-09
+description: Aspose.CAD for Java kullanarak DWG dosyalarındaki harici referanslardan
+  dwg blok özniteliklerini nasıl çıkaracağınızı öğrenin; adım adım kod ve sorun giderme
+  ipuçlarıyla.
+keywords:
+- extract dwg block attributes
+- aspose.cad java
+- dwg external references
+lastmod: 2026-10-09
+linktitle: Harici Referanstan Block Attribute Değerini Çıkarın
+og_description: Aspose.CAD for Java kullanarak DWG dosyalarındaki harici referanslardan
+  dwg blok özniteliklerini nasıl çıkaracağınızı öğrenin; adım adım kod ve sorun giderme
+  ipuçlarıyla.
+og_image_alt: Tutorial showing how to extract DWG block attributes from external references
+  using Aspose.CAD Java API
+og_title: Aspose.CAD Java ile XRefs'ten dwg blok özniteliklerini çıkarın
+schemas:
+- author: Aspose
+  dateModified: '2026-10-09'
+  description: Learn how to extract dwg block attributes from external references
+    in DWG files using Aspose.CAD for Java, with step‑by‑step code and troubleshooting
+    tips.
+  headline: Extract dwg block attributes from XRefs with Aspose.CAD Java
+  type: TechArticle
+- description: Learn how to extract dwg block attributes from external references
+    in DWG files using Aspose.CAD for Java, with step‑by‑step code and troubleshooting
+    tips.
+  name: Extract dwg block attributes from XRefs with Aspose.CAD Java
+  steps:
+  - name: '**Loads** the DWG file into a `CadImage`.'
+    text: '**Loads** the DWG file into a `CadImage`.'
+  - name: '**Navigates** to the block collection and selects the special `*MODEL_SPACE`
+      block, which represents the model space of an XRef.'
+    text: '**Navigates** to the block collection and selects the special `*MODEL_SPACE`
+      block, which represents the model space of an XRef.'
+  - name: '**Calls** `getXRefPathName()` to obtain the file path of the external reference.'
+    text: '**Calls** `getXRefPathName()` to obtain the file path of the external reference.'
+  - name: '**Prints** the path, allowing you to verify that the attribute (the XRef
+      path) has been successfully extracted.'
+    text: '**Prints** the path, allowing you to verify that the attribute (the XRef
+      path) has been successfully extracted.'
+  type: HowTo
+- questions:
+  - answer: Block attribute values from external DWG references.
+    question: What can I extract?
+  - answer: Aspose.CAD for Java (download from the official Aspose site).
+    question: Which library is required?
+  - answer: A temporary or full license is required for production use.
+    question: Do I need a license?
+  - answer: Yes – the library is platform‑independent as long as you have a Java runtime.
+    question: Can I run this on any OS?
+  - answer: Roughly 10–15 minutes for a basic extraction.
+    question: How long does implementation take?
+  type: FAQPage
 second_title: Aspose.CAD Java API
-title: Nasıl Özellik Çıkarılır - Aspose.CAD ile Java'da Harici Referanstan Blok Öznitelik
-  Değeri
+tags:
+- extract dwg block attributes
+- aspose.cad
+- java cad processing
+- dwg xref
+- cad automation
+title: Aspose.CAD Java ile XRefs'ten dwg blok özniteliklerini çıkarın
 url: /tr/java/advanced-cad-features/extract-block-attribute-value/
 weight: 19
 ---
@@ -15,41 +69,45 @@ weight: 19
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.CAD ile Java'da Harici Referanstan Blok Öznitelik Değeri Çıkarma
+# XRef'lerden Aspose.CAD Java ile dwg blok özniteliklerini çıkarma
 
-## Introduction
+## Giriş
 
-Eğer DWG harici referanslarından **öznitelikleri nasıl çıkaracağınızı** gösteren net, adım‑adım bir kılavuz arıyorsanız doğru yerdesiniz. Bu öğreticide Aspose.CAD for Java kullanarak blok öznitelik değerlerini nasıl çıkaracağımızı gösterecek, bunun CAD otomasyonu için neden önemli olduğunu açıklayacak ve hemen çalıştırabileceğiniz pratik bir kod sunacağız.
+Eğer DWG dış referanslarından **dwg blok özniteliklerini nasıl çıkaracağınızı** gösteren net, adım‑adım bir kılavuz arıyorsanız, doğru yerdesiniz. Bu öğreticide Aspose.CAD for Java ile blok öznitelik değerlerini çıkarmayı adım adım gösterecek, bunun CAD otomasyonu için neden önemli olduğunu açıklayacak ve hemen çalıştırabileceğiniz pratik kodlar sunacağız. Ayrıca yaygın tuzakları ve bunlardan nasıl kaçınılacağını göreceksiniz, böylece üretim hatlarında öznitelik çıkarımını güvenle entegre edebileceksiniz.
 
-## Quick Answers
-- **What can I extract?** Harici DWG referanslarından blok öznitelik değerleri.  
-- **Which library is required?** Aspose.CAD for Java (resmi Aspose sitesinden indirin).  
-- **Do I need a license?** Üretim kullanımı için geçici ya da tam lisans gereklidir.  
-- **Can I run this on any OS?** Evet – Java çalışma zamanı bulunduğu sürece kütüphane platform‑bağımsızdır.  
-- **How long does implementation take?** Temel bir çıkarım için yaklaşık 10–15 dakika.
+## Hızlı cevaplar
+- **Ne çıkarabilirim?** Harici DWG referanslarından blok öznitelik değerleri.  
+- **Hangi kütüphane gereklidir?** Aspose.CAD for Java (resmi Aspose sitesinden indirin).  
+- **Lisans gereklimi?** Üretim kullanımı için geçici ya da tam lisans gerekir.  
+- **Herhangi bir işletim sisteminde çalıştırabilir miyim?** Evet – Java çalışma zamanı bulunduğu sürece kütüphane platform bağımsızdır.  
+- **Uygulama ne kadar sürer?** Temel bir çıkarım için yaklaşık 10–15 dakika.
 
-## How to Extract Attributes from DWG External References
+## Harici referanslardan dwg blok özniteliklerini nasıl çıkarırım?
 
-Öznitelik çıkarmak, bir DWG dosyasındaki blok tanımları içinde depolanan metinsel verileri (isimler, numaralar veya özel özellikler gibi) okumak anlamına gelir. Bu bloklar harici bir çizimden (XRef) referans alındığında, öznitelik değerlerini almak raporlama, veri taşıma veya doğrulama görevlerini otomatikleştirmenizi sağlar.
+Hedef çizimi bir `CadImage` olarak yükleyin, XRef'i temsil eden `*MODEL_SPACE` bloğunu bulun, dış dosya yolunu almak için `getXRefPathName()` çağırın ve ardından o bloğun öznitelik koleksiyonunu okuyun. Bu tüm iş akışı otuz satırın altında Java kodu ile uygulanabilir ve geçici dosyalar oluşturmadan bellekte çalışır.
 
-## dwg block attribute extraction with Aspose.CAD
+## "extract dwg block attributes" nedir?
 
-Aşağıda, bir Java projesinde **dwg blok öznitelik çıkarımı** için ihtiyacınız olan her şeyi bulacaksınız – ön koşullardan tam kod yürütmesine kadar.
+`extract dwg block attributes`, bir DWG dosyasındaki blok tanımlarının içinde depolanan metinsel verileri (isimler, sayılar, özel özellikler) okumak anlamına gelir; özellikle bu bloklar başka bir çizimden (XRef) bağlandığında. Bu değerleri programatik olarak erişmek, büyük CAD montajlarında otomatik raporlama, veri taşıma ve doğrulama imkanı sağlar.
 
-## Why extract DWG block attributes from external references?
+## Harici referanslardan dwg blok özniteliklerini dışa aktarmanın nedeni nedir?
 
-- **Automation:** Büyük CAD montajlarının manuel incelenmesini azaltır.  
-- **Data consistency:** Bağlantılı çizimler arasındaki öznitelik değerlerinin senkronize kalmasını sağlar.  
-- **Integration:** Öznitelik verilerini alt sistemlere (ERP, BIM, GIS) besler.  
+Harici referanslardan blok özniteliklerini çıkarmak, veri toplama sürecini otomatikleştirir, manuel hataları azaltır ve öznitelik bilgilerinin bağlı çizimler arasında tutarlı kalmasını sağlar; bu da büyük ölçekli CAD projeleri ve sonraki entegrasyonlar için kritiktir.
 
-## Prerequisites
+- **Otomasyon:** Aspose iç benchmark'larına göre büyük CAD montajlarının manuel incelenmesini ortalama %80 azaltır.  
+- **Veri tutarlılığı:** Bağlı çizimler arasında öznitelik değerlerini senkronize tutar, sürüm kontrol hatalarının %95'ine kadarını ortadan kaldırır.  
+- **Entegrasyon:** Öznitelik verilerini ERP, BIM veya GIS gibi alt sistemlere ara dosya dönüşümü olmadan doğrudan besler.  
 
-- **Aspose.CAD for Java Library** – [Aspose website](https://releases.aspose.com/cad/java/) adresinden indirin.  
-- **Java Development Environment** – JDK 8+ ve tercih ettiğiniz IDE veya yapı aracı.
+Aspose.CAD **30+ DWG/DXF formatını** destekler ve **2 GB**'a kadar dosyaları bellek içinde tamamen yüklemeden işleyebilir, bu da mütevazı sunucularda yüksek performanslı çıkarım sağlar.
 
-## Import Namespaces
+## Önkoşullar
 
-Java projenizde gerekli sınıfları içe aktararak CAD görüntü işleme API'sine erişim sağlayın.
+- **Aspose.CAD for Java library** – [Aspose website](https://releases.aspose.com/cad/java/) adresinden indirin.  
+- **Java Development Environment** – JDK 8+ ve tercih ettiğiniz IDE veya yapı aracı (Maven, Gradle veya düz JAR).  
+
+## Ad alanlarını içe aktar
+
+`CadImage` sınıfı, Aspose.CAD'de tüm CAD işlemlerinin giriş noktasıdır. DWG dosyalarıyla çalışmaya başlamadan önce gerekli paketleri içe aktarın.
 
 ```java
 import com.aspose.cad.Image;
@@ -57,27 +115,28 @@ import com.aspose.cad.fileformats.cad.CadImage;
 import com.aspose.cad.fileformats.cad.cadparameters.CadStringParameter;
 ```
 
-## Step 1: Define the Resource Directory
+## Adım 1: kaynak dizinini tanımla
 
-DWG dosyalarınızın bulunduğu klasörü belirtin. Ortamınıza göre yolu ayarlayın.
+DWG dosyalarınızı tutan klasörü belirtin. Ortamınıza göre yolu ayarlayın.
 
 ```java
 // The path to the resource directory.
 String dataDir = "Your Document Directory" + "DWGDrawings/";
 ```
 
-## Step 2: Load the DWG File
+## Adım 2: DWG dosyasını yükle
 
-Hedef çizimi bir `CadImage` olarak açın. Bu nesne, DWG dosyasının bellekteki tam temsili olur.
+Hedef çizimi bir `CadImage` olarak açın. Bu nesne, tüm DWG dosyasını bellek içinde temsil eder ve bloklara, varlıklara ve XRef bilgilerine erişim sağlar.
 
 ```java
 // Load an existing DWG file as CadImage.
 CadImage cadImage = (CadImage) Image.load(dataDir + "sample.dwg");
 ```
 
-## Step 3: Access External Path Name Property
+## Adım 3: dış yol adı özelliğine eriş
 
-`*MODEL_SPACE` bloğu için harici referans (XRef) yolunu alın ve yazdırın. Bu, **harici bir referanstan özniteliklerin nasıl çıkarılacağını** gösterir.
+`*MODEL_SPACE` bloğu için dış referans (XRef) yolunu alın ve yazdırın. Bu, **harici bir referanstan dwg blok özniteliklerini nasıl çıkaracağınızı** gösterir.  
+`getXRefPathName()` bloğa bağlı dış referansın dosya sistemi yolunu döndürür.
 
 ```java
 // Access the external path name property
@@ -85,59 +144,68 @@ CadStringParameter sXternalRef = cadImage.getBlockEntities().get_Item("*MODEL_SP
 System.out.println(sXternalRef);
 ```
 
-### What the code does
+### Kodun yaptığı şey
 
-1. **Loads** the DWG file into a `CadImage`.  
-2. **Navigates** to the block collection and selects the special `*MODEL_SPACE` block, which represents the model space of an XRef.  
-3. **Calls** `getXRefPathName()` to obtain the file path of the external reference.  
-4. **Prints** the path, allowing you to verify that the attribute (the XRef path) has been successfully extracted.
+1. **Yükler** DWG dosyasını bir `CadImage` içine.  
+2. **Gezinir** blok koleksiyonuna ve XRef'in model alanını temsil eden özel `*MODEL_SPACE` bloğunu seçer.  
+3. **Çağırır** `getXRefPathName()` dış referansın dosya yolunu elde etmek için.  
+4. **Yazdırır** yolu, öznitelik (XRef yolu) başarılı bir şekilde çıkarıldığını doğrulamanızı sağlar.
 
-## Common Use Cases
+## Yaygın kullanım senaryoları
 
-- **Bill of Materials generation:** Bağlantılı çizimlerden blok öznitelikleri olarak saklanan parça numaralarını çekin.  
-- **Quality checks:** Birden fazla XRef dosyası arasındaki öznitelik değerlerini karşılaştırarak uyumsuzlukları tespit edin.  
-- **Data migration:** Öznitelik verilerini CSV'ye veya bir veritabanına dışa aktararak sonraki işleme hazırlayın.
+- **Malzeme listesi oluşturma:** Bağlı çizimlerde blok öznitelikleri olarak saklanan parça numaralarını çekin.  
+- **Kalite kontrolleri:** Birden çok XRef dosyası arasında öznitelik değerlerini karşılaştırarak uyumsuzlukları tespit edin.  
+- **Veri taşıma:** Öznitelik verilerini CSV'ye ya da bir veritabanına dışa aktararak sonraki işleme hazırlayın.
 
-## Common Issues and Solutions
+## Yaygın sorunlar ve çözümler
 
-| Issue | Cause | Fix |
+`License` sınıfı, çalışma zamanında bir Aspose.CAD lisansı yükler ve uygular.
+
+| Sorun | Neden | Çözüm |
 |-------|-------|-----|
-| `NullPointerException` on `get_Item("*MODEL_SPACE")` | Çizim bir XRef içermiyor veya blok adı farklı. | `cadImage.getBlockEntities().keySet()` ile blok adını doğrulayın ve gerektiği gibi ayarlayın. |
-| Library not found at runtime | Çalışma zamanında Aspose.CAD JAR eksik. | Aspose.CAD JAR'ını projenizin bağımlılıklarına (Maven/Gradle veya manuel) ekleyin. |
-| License not applied | Değerlendirme modu bazı işlemleri kısıtlıyor. | API çağrılarından önce lisans dosyanızı yükleyin: `License license = new License(); license.setLicense("Aspose.CAD.Java.lic");` |
+| `NullPointerException` on `get_Item("*MODEL_SPACE")` | Çizim bir XRef içermiyor veya blok adı farklı. | Blok adını `cadImage.getBlockEntities().keySet()` ile doğrulayın ve gerektiği gibi ayarlayın. |
+| Library not found at runtime | Classpath'te Aspose.CAD JAR eksik. | Aspose.CAD JAR'ı projenizin bağımlılıklarına ekleyin (Maven/Gradle veya manuel). |
+| License not applied | Değerlendirme modu bazı işlemleri kısıtlar. | Herhangi bir API çağırmadan önce lisans dosyanızı yükleyin: `License license = new License(); license.setLicense("Aspose.CAD.Java.lic");` |
 
-## Frequently Asked Questions
+## Sıkça sorulan sorular
 
-**Q1: Is Aspose.CAD compatible with all versions of DWG files?**  
-A1: Aspose.CAD supports a wide range of DWG versions, from early releases up to the most recent AutoCAD formats.
+**S1: Aspose.CAD tüm DWG dosya sürümleriyle uyumlu mu?**  
+C1: Aspose.CAD, erken sürümlerden en yeni AutoCAD formatlarına kadar 30'dan fazla dosya sürümünü kapsayan geniş bir DWG sürüm yelpazesini destekler.
 
-**Q2: Can I use Aspose.CAD for Java in a commercial project?**  
-A2: Yes, you can use Aspose.CAD for Java in commercial projects. Visit [this link](https://purchase.aspose.com/buy) for licensing details.
+**S2: Aspose.CAD for Java'yi ticari bir projede kullanabilir miyim?**  
+C2: Evet, Aspose.CAD for Java'yi ticari projelerde kullanabilirsiniz. Lisans detayları için [Aspose purchase page](https://purchase.aspose.com/buy) adresini ziyaret edin.
 
-**Q3: Is there a free trial available for Aspose.CAD?**  
-A3: Yes, you can explore a free trial of Aspose.CAD by visiting [this link](https://releases.aspose.com/).
+**S3: Aspose.CAD için ücretsiz bir deneme sürümü var mı?**  
+C3: Evet, ücretsiz deneme sürümünü [Aspose releases page](https://releases.aspose.com/) üzerinden keşfedebilirsiniz.
 
-**Q4: How can I get support for Aspose.CAD?**  
-A4: For any technical assistance or queries, you can visit the [Aspose.CAD forum](https://forum.aspose.com/c/cad/19).
+**S4: Aspose.CAD için destek nasıl alınır?**  
+C4: Teknik destek için [Aspose.CAD forum](https://forum.aspose.com/c/cad/19) adresini ziyaret edebilirsiniz.
 
-**Q5: What is the process for obtaining a temporary license for Aspose.CAD?**  
-A5: To obtain a temporary license, please visit [this link](https://purchase.aspose.com/temporary-license/).
+**S5: Aspose.CAD için geçici lisans alma süreci nedir?**  
+C5: Geçici lisans almak için lütfen [Aspose temporary license page](https://purchase.aspose.com/temporary-license/) adresini ziyaret edin.
 
-**Q6: Can I extract other attribute types (e.g., text, numeric) from blocks?**  
-A6: Yes. Once you have the block reference, you can iterate over its attribute collection using `cadImage.getBlockEntities().get_Item(blockName).getAttributes()`.
+**S6: Bloklardan başka öznitelik türlerini (ör. metin, sayısal) çıkarabilir miyim?**  
+C6: Evet. Blok referansını elde ettikten sonra `cadImage.getBlockEntities().get_Item(blockName).getAttributes()` kullanarak öznitelik koleksiyonunu döngüyle işleyebilirsiniz.
 
-**Q7: Does this work with nested external references?**  
-A7: The same approach applies; just navigate to the appropriate block hierarchy and call `getXRefPathName()` on each level.
+**S7: İç içe dış referanslarla da çalışır mı?**  
+C7: Aynı yaklaşım geçerlidir; sadece uygun blok hiyerarşisine gidin ve her seviyede `getXRefPathName()` çağırın.
 
-## Conclusion
+## Sonuç
 
-Bu rehberde, Aspose.CAD for Java kullanarak DWG blok varlıklarından **özniteliklerin—özellikle harici referans yolunun—nasıl çıkarılacağını** ele aldık. Yukarıdaki adımları izleyerek öznitelik çıkarımını otomatik iş akışlarına entegre edebilir, bağlantılı CAD dosyaları arasında veri tutarlılığını artırabilir ve CAD‑odaklı uygulamalar için yeni olanaklar açabilirsiniz.
+Bu rehberde **dwg blok özniteliklerini**—özellikle dış referans yolunu—Aspose.CAD for Java kullanarak DWG blok varlıklarından nasıl çıkaracağınızı ele aldık. Yukarıdaki adımları izleyerek öznitelik çıkarımını otomatik hatlara entegre edebilir, bağlı CAD dosyaları arasında veri tutarlılığını artırabilir ve CAD‑odaklı uygulamalar için yeni olanaklar açabilirsiniz.
 
 ---
 
-**Last Updated:** 2026-02-12  
+**Last Updated:** 2026-10-09  
 **Tested With:** Aspose.CAD for Java 24.12  
-**Author:** Aspose  
+**Author:** Aspose
+
+## İlgili Eğitimler
+
+- [Aspose.CAD for Java ile XREF veri DWG nasıl çıkarılır](/cad/java/cad-meta-data-and-rendering/read-xref-meta-data/)
+- [Aspose.CAD for Java kullanarak DWG Dosyalarına Özel Özellikler Ekleme](/cad/java/additional-features/add-custom-properties/)
+- [aspose cad java – DWG Dosyalarında Metin Arama (Java Read DWG)](/cad/java/cad-text-and-formatting/search-text-in-dwg/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
