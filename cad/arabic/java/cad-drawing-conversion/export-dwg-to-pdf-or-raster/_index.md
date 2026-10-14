@@ -1,10 +1,74 @@
 ---
-date: 2026-02-17
-description: تعلم كيف يمكن لمكتبة Java CAD Aspose.CAD للـ Java تصدير ملفات DWG إلى
-  PDF أو صور نقطية بسرعة ودقة.
-linktitle: Export DWG to PDF or Raster
+date: 2026-10-14
+description: تعرّف على كيفية تمكين مكتبة Java CAD Aspose.CAD للـ Java من تصدير DWG
+  إلى PDF أو raster images بسرعة ودقة.
+keywords:
+- export dwg pdf
+- high quality pdf
+- dwg to pdf tutorial
+- aspose cad java
+- java cad library
+lastmod: 2026-10-14
+linktitle: تصدير DWG و PDF و raster images
+og_description: تصدير DWG إلى PDF بسرعة باستخدام Aspose.CAD للـ Java. تعرّف على تحويل
+  PDF عالي الجودة، خيارات raster، والترخيص في هذا الدليل خطوة بخطوة.
+og_image_alt: Tutorial showing Java code to convert DWG drawings to PDF and raster
+  formats with Aspose.CAD
+og_title: تصدير DWG و PDF و raster images باستخدام مكتبة Java CAD Aspose.CAD
+schemas:
+- author: Aspose
+  dateModified: '2026-10-14'
+  description: Learn how the Java CAD library Aspose.CAD for Java can export DWG to
+    PDF or raster images quickly and accurately.
+  headline: Export DWG PDF and raster images using Java CAD library Aspose.CAD
+  type: TechArticle
+- description: Learn how the Java CAD library Aspose.CAD for Java can export DWG to
+    PDF or raster images quickly and accurately.
+  name: Export DWG PDF and raster images using Java CAD library Aspose.CAD
+  steps:
+  - name: Load the DWG file
+    text: First, load your DWG drawing using the `Image` class. This creates an in‑memory
+      representation that Aspose.CAD can work with.
+  - name: Determine unit type
+    text: Understanding whether the drawing uses metric or imperial units is essential
+      for correct scaling. The helper method `IsMetric` (implementation omitted for
+      brevity) returns a boolean flag.
+  - name: Set rasterization options
+    text: The `CadRasterizationOptions` class defines rasterization parameters such
+      as DPI, page size, and unit conversion. Based on the unit system, configure
+      page size, scaling, and the target unit type. These options drive how the DWG
+      is rasterized before being wrapped into a PDF.
+  - name: Configure PDF options (pdf options cad)
+    text: The `PdfOptions` class specifies PDF‑specific settings, including compression
+      and metadata. Create a `PdfOptions` instance and attach the rasterization settings.
+      This tells Aspose.CAD how to embed the rasterized content into the final PDF.
+  - name: Save as PDF
+    text: The `save` method writes the image to the given file path using the supplied
+      options. Finally, export the drawing to a PDF file. The `save` method takes
+      the output path and the configured `PdfOptions`. When the code finishes, you’ll
+      find **Saved.pdf** in your `DWGDrawings` folder, ready for distribu
+  type: HowTo
+- questions:
+  - answer: Yes, Aspose.CAD for Java seamlessly integrates with popular Java frameworks
+      such as Spring, Jakarta EE, and Android.
+    question: Can I use Aspose.CAD for Java with other Java frameworks?
+  - answer: Yes, you can obtain a temporary license **[obtain a temporary license](https://purchase.aspose.com/temporary-license/)**.
+    question: Is a temporary license available for Aspose.CAD for Java?
+  - answer: Visit the **[Aspose.CAD forum](https://forum.aspose.com/c/cad/19)** for
+      assistance from the community and Aspose engineers.
+    question: Where can I find support for Aspose.CAD for Java?
+  - answer: You can purchase a license **[purchase a license](https://purchase.aspose.com/buy)**.
+    question: How can I purchase a license for Aspose.CAD for Java?
+  - answer: Aspose.CAD for Java supports both metric and imperial units, automatically
+      detecting the drawing’s unit system.
+    question: What units does Aspose.CAD for Java support?
+  type: FAQPage
 second_title: Aspose.CAD Java API
-title: تصدير DWG إلى PDF أو Raster باستخدام مكتبة Java CAD Aspose.CAD للـ Java
+tags:
+- export dwg
+- aspose.cad
+- java cad conversion
+title: تصدير DWG و PDF و raster images باستخدام مكتبة Java CAD Aspose.CAD
 url: /ar/java/cad-drawing-conversion/export-dwg-to-pdf-or-raster/
 weight: 13
 ---
@@ -13,44 +77,42 @@ weight: 13
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# تصدير DWG إلى PDF أو صورة نقطية باستخدام مكتبة Java CAD Aspose.CAD for Java
+# تصدير ملفات DWG PDF والصور النقطية باستخدام مكتبة CAD للغة Java Aspose.CAD
 
 ## المقدمة
 
-في عالم التصميم بمساعدة الحاسوب (CAD) المتطور، يعتبر التعامل الفعال مع الرسومات أمرًا حيويًا. باستخدام **مكتبة Java CAD** **Aspose.CAD for Java** يمكنك **تصدير DWG إلى PDF** — أو صور نقطية — في بضع أسطر من الشيفرة فقط. يوضح هذا الدليل العملية بالكامل، من تحميل ملف DWG إلى إنشاء ملف PDF عالي الجودة، مع إبراز سبب كون Aspose.CAD Java المكتبة المفضلة لمهام تحويل CAD.
+يُعد تصدير DWG إلى PDF مطلبًا شائعًا للمهندسين والمعماريين وأي شخص يحتاج إلى مشاركة رسومات CAD دون الكشف عن تنسيق الملف الأصلي. باستخدام **Aspose.CAD for Java**، يمكنك **export dwg pdf** — أو الصور النقطية — في بضع أسطر من كود Java فقط، مع الحفاظ على دقة المتجهات وتحديد التخطيط. يوضح هذا الدرس كيفية تحميل ملف DWG، وضبط خيارات الرستر، وحفظ النتيجة كملف PDF عالي الجودة أو كصورة. ستتعرف أيضًا على سبب كون Aspose.CAD المكتبة المفضلة لتحويل CAD في Java بموثوقية وعبر منصات متعددة.
+
+للحصول على دليل مركّز حول تحويل PDF فقط، راجع [دليل تحويل DWG إلى PDF](/java/cad-drawing-conversion/export-dwg-to-pdf/).
 
 ## إجابات سريعة
-- **ماذا يغطي هذا الدليل؟** تصدير ملفات DWG إلى PDF أو صور نقطية باستخدام Aspose.CAD for Java.  
-- **هل أحتاج إلى ترخيص؟** يتوفر ترخيص مؤقت مجاني للتقييم؛ يلزم الحصول على ترخيص كامل للإنتاج.  
-- **ما نسخة Java المدعومة؟** أي بيئة تشغيل Java 8+ تعمل مع أحدث Aspose.CAD Java API.  
-- **هل يمكنني تحويل DWG إلى صيغ صور أخرى؟** نعم – خيارات الرستر نفسها تتيح لك إخراج PNG، JPEG، BMP، إلخ.  
-- **كم تستغرق عملية التحويل؟** عادةً أقل من ثانية للرسومات القياسية؛ قد تستغرق الملفات الكبيرة بضع ثوانٍ.
+- **ما الذي يغطيه هذا الدرس؟** تصدير ملفات DWG إلى PDF أو الصور النقطية باستخدام Aspose.CAD للغة Java.  
+- **هل أحتاج إلى ترخيص؟** يتوفر ترخيص مؤقت مجاني للتقييم؛ يلزم ترخيص كامل للإنتاج.  
+- **ما إصدار Java المدعوم؟** أي بيئة تشغيل Java 8+ تعمل مع أحدث Aspose.CAD Java API.  
+- **هل يمكنني تحويل DWG إلى صيغ صور أخرى؟** نعم – تسمح خيارات الرستر نفسها بإخراج PNG، JPEG، BMP، إلخ.  
+- **كم يستغرق التحويل من وقت؟** عادةً أقل من ثانية للرسومات القياسية؛ قد تستغرق الملفات الكبيرة بضع ثوانٍ.
 
-## لماذا تُعد مكتبة Java CAD الخيار الأفضل لتحويل DWG؟
+## لماذا مكتبة CAD للغة Java هي الخيار الأفضل لتحويل DWG؟
 
-- **تنفيذ Pure Java** – لا توجد ملفات DLL أصلية أو أدوات خارجية.  
-- **معالجة دقيقة للوحدات** – يتم اكتشاف الوحدات المترية والإمبراطورية تلقائيًا.  
-- **إخراج نقطي عالي الجودة** – تحكم دقيق في DPI وحجم الصفحة.  
-- **دعم كامل لـ PDF** – إنشاء PDF يحافظ على المتجهات دون تبعيات إضافية.  
-- **ترخيص مرن** – ابدأ بـ **ترخيص مؤقت Aspose** للاختبار، ثم قم بالترقية عند الانتقال إلى الإنتاج.
+Aspose.CAD for Java هو الخيار الأفضل لأنه يوفر تنفيذًا بحتًا للغة Java لا يتطلب ملفات DLL أصلية، يكتشف تلقائيًا الوحدات المترية أو الإمبراطورية، ينتج مخرجات رستر بدقة تصل إلى 1200 DPI، ويولد ملفات PDF تحافظ على المتجهات دون الاعتماد على مكونات خارجية. كما تقدم المكتبة نموذج ترخيص مرن يتيح لك البدء بترخيص مؤقت والتوسع إلى الاستخدام المؤسسي.
 
-## ما هو “تصدير DWG إلى PDF”؟
+## ما هو “export dwg to pdf”؟
 
-تصدير DWG إلى PDF يعني تحويل رسم AutoCAD الأصلي إلى مستند PDF محمول ومستقل عن الجهاز. يحافظ PDF الناتج على البيانات المتجهة، الطبقات، والقياس، مما يجعله مثاليًا للمشاركة أو الطباعة أو الأرشفة.
+`Export dwg pdf` هو عملية تحويل ملف رسم DWG الأصلي إلى مستند PDF مع الحفاظ على بيانات المتجهات، الطبقات، والقياس. ينتج عن هذا التحويل ملفًا مستقلًا عن الجهاز يمكن عرضه على أي منصة دون الحاجة إلى AutoCAD. بما أن PDF يحتفظ بالمعلومات المتجهة، يبقى النص قابلًا للبحث وتظل الرسومات واضحة عند أي مستوى تكبير، مما يجعله مثاليًا للتوثيق، مراجعة العملاء، والتخزين الأرشيفي.
 
 ## لماذا نستخدم Aspose.CAD Java لهذا التحويل؟
 
-لأن **مكتبة Java CAD** تتولى كل شيء من تحويل الوحدات إلى الرستر داخليًا، مما يجنبك تعقيدات الأدوات الخارجية وتضمن نتائج متسقة عبر الأنظمة.
+يجب عليك استخدام Aspose.CAD Java لأن المكتبة تتعامل مع تحويل الوحدات، الرستر، وتضمين PDF داخليًا، مما يلغي الحاجة إلى أدوات طرف ثالث أو خطوط أنابيب معقدة عبر سطر الأوامر. تم تصميم API للمطورين: كائن `Image` واحد يمثل الرسم، وعدد قليل من كائنات التكوين تسمح بضبط DPI، حجم الصفحة، والضغط. النتيجة هي مخرجات متسقة وقابلة للتكرار عبر بيئات Windows وLinux وmacOS.
 
 ## المتطلبات المسبقة
 
-قبل الغوص في الشيفرة، تأكد من وجود ما يلي:
+قبل الغوص في الكود، تأكد من وجود ما يلي:
 
 - معرفة أساسية ببرمجة Java.  
-- مكتبة Aspose.CAD for Java مثبتة. إذا لم تقم بتحميلها بعد، احصل عليها **[من هنا](https://releases.aspose.com/cad/java/)**.  
-- ملف DWG للاختبار – يُستخدم الملف النموذجي **Bottom_plate.dwg** في هذا الدليل.
+- مكتبة Aspose.CAD للغة Java مثبتة. إذا لم تقم بتنزيلها بعد، احصل عليها **[download Aspose.CAD for Java](https://releases.aspose.com/cad/java/)**.  
+- ملف DWG للاختبار – يتم استخدام العينة **Bottom_plate.dwg** في هذا الدليل.  
 
-## استيراد المساحات الاسمية
+## استيراد مساحات الأسماء
 
 في مشروع Java الخاص بك، استورد الفئات الضرورية لبدء عملية التحويل:
 
@@ -66,7 +128,7 @@ import com.aspose.cad.imageoptions.UnitType;
 
 ### الخطوة 1: تحميل ملف DWG
 
-أولاً، حمّل رسم DWG الخاص بك باستخدام الفئة `Image`. هذا ينشئ تمثيلًا في الذاكرة يمكن لـ Aspose.CAD العمل معه.
+أولاً، حمّل رسم DWG الخاص بك باستخدام فئة `Image`. هذا ينشئ تمثيلًا في الذاكرة يمكن لـ Aspose.CAD العمل معه.
 
 ```java
 String dataDir = "Your Document Directory" + "DWGDrawings/";
@@ -76,7 +138,7 @@ Image objImage = Image.load(srcFile);
 
 ### الخطوة 2: تحديد نوع الوحدة
 
-فهم ما إذا كان الرسم يستخدم وحدات مترية أو إمبراطورية أمر أساسي لضبط القياس بشكل صحيح. تُعيد الدالة المساعدة `IsMetric` (التنفيذ مُحذوف للاختصار) قيمة منطقية.
+فهم ما إذا كان الرسم يستخدم وحدات مترية أو إمبراطورية أمر أساسي للتدرج الصحيح. تُعيد الطريقة المساعدة `IsMetric` (التنفيذ محذوف للاختصار) قيمة منطقية.
 
 ```java
 Boolean currentUnitIsMetric = IsMetric(objImage.getUnitType());
@@ -85,7 +147,7 @@ int currentUnitCoefficient = objImage.getUnitType();
 
 ### الخطوة 3: ضبط خيارات الرستر
 
-استنادًا إلى نظام الوحدات، قم بتكوين حجم الصفحة، المقياس، ونوع الوحدة المستهدف. هذه الخيارات تحدد كيفية رستر DWG قبل دمجه في PDF.
+فئة `CadRasterizationOptions` تحدد معلمات الرستر مثل DPI، حجم الصفحة، وتحويل الوحدات. بناءً على نظام الوحدات، قم بتكوين حجم الصفحة، التدرج، ونوع الوحدة المستهدف. هذه الخيارات تتحكم في كيفية رستر DWG قبل دمجه في PDF.
 
 ```java
 CadRasterizationOptions rasterizationOptions = new CadRasterizationOptions();
@@ -107,7 +169,7 @@ if (currentUnitIsMetric) {
 
 ### الخطوة 4: تكوين خيارات PDF (pdf options cad)
 
-أنشئ كائنًا من `PdfOptions` وأرفق إعدادات الرستر. هذا يخبر Aspose.CAD كيف يدمج المحتوى الرستري في ملف PDF النهائي.
+فئة `PdfOptions` تحدد إعدادات PDF الخاصة، بما في ذلك الضغط والبيانات الوصفية. أنشئ كائن `PdfOptions` وأرفق إعدادات الرستر. هذا يخبر Aspose.CAD كيف يدمج المحتوى الرستري في ملف PDF النهائي.
 
 ```java
 PdfOptions pdfOptions = new PdfOptions();
@@ -116,58 +178,65 @@ pdfOptions.setVectorRasterizationOptions(new CadRasterizationOptions());
 
 ### الخطوة 5: حفظ كملف PDF
 
-أخيرًا، صدّر الرسم إلى ملف PDF. تأخذ طريقة `save` مسار الإخراج وكائن `PdfOptions` المُكوَّن.
+طريقة `save` تكتب الصورة إلى المسار المحدد باستخدام الخيارات المقدمة. أخيرًا، صدّر الرسم إلى ملف PDF. تأخذ طريقة `save` مسار الإخراج وكائن `PdfOptions` المكوَّن.
 
 ```java
 objImage.save(dataDir + "Saved.pdf", pdfOptions);
 ```
 
-عند انتهاء الشيفرة، ستجد **Saved.pdf** في مجلد `DWGDrawings` الخاص بك، جاهزًا للتوزيع أو الأرشفة.
+عند انتهاء الكود، ستجد **Saved.pdf** في مجلد `DWGDrawings` الخاص بك، جاهزًا للتوزيع أو الأرشفة.
 
-## كيفية تحويل DWG إلى صور نقطية باستخدام مكتبة Java CAD
+## كيف يمكن تحويل صور رستر DWG باستخدام مكتبة CAD للغة Java؟
 
-إذا كنت تحتاج إلى صور نقطية بدلاً من PDF، استبدل ببساطة `PdfOptions` بخيارات الصورة النقطية المناسبة (مثل `PngOptions`، `JpegOptions`). يمكن إعادة استخدام نفس كائن `CadRasterizationOptions`، مما يتيح لك **تحويل DWG إلى صور نقطية** مع تغييرات قليلة في الشيفرة.
+يمكنك تحويل DWG إلى صيغ رسترية عن طريق استبدال `PdfOptions` بفئة خيارات رسترية مثل `PngOptions` أو `JpegOptions`. أعد استخدام نفس كائن `CadRasterizationOptions`، عدل صيغة الإخراج، واستدعِ طريقة `save` مع كائن الخيارات الجديد. يتيح لك هذا إنشاء ملفات PNG أو JPEG أو BMP أو TIFF بسطر واحد فقط، مع الحفاظ على سير العمل ثابتًا.
 
-## كيفية إنشاء PDF من DWG باستخدام pdf options cad
+## كيف يمكن إنشاء PDF DWG باستخدام خيارات PDF CAD؟
 
-المثال أعلاه بالفعل **ينتج PDF من DWG**. عبر تعديل `pdfOptions`—مثلاً، تعيين `pdfOptions.setCompress(true)`—يمكنك التحكم في حجم وجودة PDF. يوضح هذا مرونة واجهة برمجة تطبيقات **pdf options cad**.
+المثال أعلاه بالفعل **generates pdf dwg**. لضبط حجم PDF بدقة، فعّل الضغط عبر استدعاء `pdfOptions.setCompress(true)`. يمكنك أيضًا تضمين بيانات وصفية مخصصة، ضبط إصدار PDF، أو إضافة حماية بكلمة مرور من خلال خصائص `PdfOptions` الإضافية. تمنحك هذه التعديلات تحكمًا كاملاً في ملف PDF النهائي دون مغادرة قاعدة كود Java.
 
 ## المشكلات الشائعة والنصائح
 
-- **حجم الصفحة غير صحيح** – تحقق من منطق تحويل الوحدات؛ قد تتسبب المعاملات غير المتطابقة في صفحات ذات حجم مفرط.  
-- **خطوط أو أوزان خطوط مفقودة** – تأكد من أن DWG يشير إلى جميع الموارد الخارجية قبل التحويل.  
-- **الأداء مع الرسومات الكبيرة** – زد قيمة `DPI` في `CadRasterizationOptions` فقط عندما تكون الجودة العالية ضرورية؛ القيم الأقل تُسرّع المعالجة.  
-- **قضايا الترخيص** – للتقييم يمكنك استخدام **ترخيص مؤقت Aspose**؛ يلزم الحصول على ترخيص كامل للبيئات الإنتاجية.
+- **حجم الصفحة غير صحيح** – تحقق مرة أخرى من منطق تحويل الوحدات؛ قد تؤدي المعاملات غير المتطابقة إلى صفحات بحجم كبير.  
+- **الخطوط أو أوزان الخطوط مفقودة** – تأكد من أن DWG يشير إلى أي موارد خارجية قبل التحويل.  
+- **الأداء مع الرسومات الكبيرة** – قم بزيادة إعداد `DPI` في `CadRasterizationOptions` فقط عندما تكون الجودة العالية مطلوبة؛ DPI أقل يسرّع المعالجة.  
+- **مشكلات الترخيص** – للتقييم يمكنك استخدام **ترخيص مؤقت Aspose**؛ يلزم ترخيص كامل للنشر في بيئة الإنتاج.
 
 ## الأسئلة المتكررة
 
-**س: هل يمكنني استخدام Aspose.CAD for Java مع أطر عمل Java أخرى؟**  
-ج: نعم، يتكامل Aspose.CAD for Java بسلاسة مع أطر عمل Java الشهيرة مثل Spring، Jakarta EE، وAndroid.
+**س: هل يمكنني استخدام Aspose.CAD للغة Java مع أطر عمل Java أخرى؟**  
+نعم، Aspose.CAD للغة Java يتكامل بسلاسة مع أطر عمل Java الشهيرة مثل Spring و Jakarta EE و Android.
 
-**س: هل يتوفر ترخيص مؤقت لـ Aspose.CAD for Java؟**  
-ج: نعم، يمكنك الحصول على ترخيص مؤقت **[من هنا](https://purchase.aspose.com/temporary-license/)**.
+**س: هل يتوفر ترخيص مؤقت لـ Aspose.CAD للغة Java؟**  
+نعم، يمكنك الحصول على ترخيص مؤقت **[obtain a temporary license](https://purchase.aspose.com/temporary-license/)**.
 
-**س: أين يمكنني العثور على دعم Aspose.CAD for Java؟**  
-ج: زر **[منتدى Aspose.CAD](https://forum.aspose.com/c/cad/19)** للحصول على مساعدة من المجتمع ومهندسي Aspose.
+**س: أين يمكنني العثور على الدعم لـ Aspose.CAD للغة Java؟**  
+زر **[Aspose.CAD forum](https://forum.aspose.com/c/cad/19)** للحصول على المساعدة من المجتمع ومهندسي Aspose.
 
-**س: كيف يمكنني شراء ترخيص لـ Aspose.CAD for Java؟**  
-ج: يمكنك شراء ترخيص **[من هنا](https://purchase.aspose.com/buy)**.
+**س: كيف يمكنني شراء ترخيص لـ Aspose.CAD للغة Java؟**  
+يمكنك شراء ترخيص **[purchase a license](https://purchase.aspose.com/buy)**.
 
-**س: ما الوحدات التي يدعمها Aspose.CAD for Java؟**  
-ج: يدعم Aspose.CAD for Java كلًا من الوحدات المترية والإمبراطورية، مع اكتشاف تلقائي لنظام وحدة الرسم.
+**س: ما الوحدات التي يدعمها Aspose.CAD للغة Java؟**  
+يدعم Aspose.CAD للغة Java كلًا من الوحدات المترية والإمبراطورية، مع اكتشاف تلقائي لنظام وحدة الرسم.
 
-**س: هل يمكنني تحويل DWG إلى صيغ صور أخرى (مثل PNG، JPEG) باستخدام نفس الـ API؟**  
-ج: بالتأكيد. استبدل `PdfOptions` بخيارات الصورة النقطية المناسبة (مثل `PngOptions`) وأعد استخدام نفس `CadRasterizationOptions`.
+**س: هل يمكنني تحويل DWG إلى صيغ صور أخرى (مثل PNG، JPEG) باستخدام نفس API؟**  
+بالطبع. استبدل `PdfOptions` بخيارات صورة رسترية مناسبة (مثل `PngOptions`) وأعد استخدام نفس `CadRasterizationOptions`.
 
 ## الخاتمة
 
-يُظهر هذا الدليل كيفية **تصدير DWG إلى PDF** وصور نقطية باستخدام **مكتبة Java CAD** Aspose.CAD for Java. باتباع الخطوات التفصيلية، يمكنك دمج تحويل CAD موثوق به في أي تطبيق Java، سواء كنت تحتاج إلى ملفات PDF للتوثيق أو صور نقطية للعرض على الويب.
+يوضح هذا الدرس كيفية **export dwg pdf** والصور النقطية باستخدام **java cad library** Aspose.CAD للغة Java. باتباع دليل الخطوة‑بخطوة، يمكنك دمج تحويل CAD الموثوق به في أي تطبيق Java، سواء كنت تحتاج إلى ملفات PDF للتوثيق أو صور رسترية للعرض على الويب. طبيعة المكتبة النقية للغة Java، وجودة المخرجات العالية، ونموذج الترخيص المرن يجعلها خيارًا قويًا لكل من الأدوات الصغيرة وخطوط الأنابيب المؤسسية الكبيرة.
 
 ---
 
-**آخر تحديث:** 2026-02-17  
+**آخر تحديث:** 2026-10-14  
 **تم الاختبار مع:** Aspose.CAD for Java 24.10  
-**المؤلف:** Aspose  
+**المؤلف:** Aspose
+
+## دروس ذات صلة
+
+- [تصدير DWG إلى PDF: تخطيط محدد باستخدام Aspose.CAD للغة Java](/cad/java/cad-drawing-conversion/export-specific-dwg-layout-to-pdf/)
+- [تصدير DWG إلى PDF في Java – ضبط حجم صفحة PDF باستخدام Aspose.CAD](/cad/java/cad-export-options/export-to-pdf/)
+- [تصدير DWG إلى PDF مع الخطوط المخفية – Aspose.CAD للغة Java](/cad/java/cad-text-and-formatting/support-hidden-lines-in-dwg/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
