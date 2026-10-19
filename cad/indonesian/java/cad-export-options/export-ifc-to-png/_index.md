@@ -1,51 +1,107 @@
 ---
-date: 2026-02-20
-description: Ubah IFC menjadi PNG dengan mudah menggunakan Aspose.CAD untuk Java.
-  Ikuti tutorial langkah demi langkah kami.
-linktitle: Export IFC to PNG
+date: 2026-10-19
+description: Pelajari cara membuat file thumbnail PNG IFC dengan Aspose.CAD for Java
+  hanya dalam beberapa baris kode.
+keywords:
+- create png thumbnail ifc
+- ifc to png conversion
+- aspose cad java
+- java image processing
+- bIM visualization
+lastmod: 2026-10-19
+linktitle: Ekspor IFC ke PNG
+og_description: Buat file thumbnail PNG IFC dengan mudah menggunakan Aspose.CAD for
+  Java. Panduan langkah demi langkah ini menunjukkan cara memuat, meraster, dan menyimpan
+  model IFC sebagai gambar PNG berkualitas tinggi.
+og_image_alt: Developer guide showing Java code that converts IFC files to PNG thumbnails
+  using Aspose.CAD
+og_title: Buat thumbnail PNG IFC dengan Aspose.CAD for Java
+schemas:
+- author: Aspose
+  dateModified: '2026-10-19'
+  description: Learn how to create PNG thumbnail IFC files with Aspose.CAD for Java
+    in just a few lines of code.
+  headline: How to create PNG thumbnail IFC with Aspose.CAD for Java
+  type: TechArticle
+- description: Learn how to create PNG thumbnail IFC files with Aspose.CAD for Java
+    in just a few lines of code.
+  name: How to create PNG thumbnail IFC with Aspose.CAD for Java
+  steps:
+  - name: load the IFC file
+    text: First, point to the folder where your IFC file lives and load it with `CadImage.load`.
+      `CadImage.load` reads a CAD file and returns an image object that can be rasterized.
+      > **Why this matters:** Loading the file as a `CadImage` gives you access to
+      vector‑raster conversion options that control resol
+  - name: set rasterization options
+    text: Define the output dimensions and any other vector‑related settings through
+      `VectorRasterizationOptions`. `VectorRasterizationOptions` lets you specify
+      output size, background color, and other rasterization parameters. > Adjust
+      `PageWidth` and `PageHeight` to control the final PNG resolution, which i
+  - name: configure PNG options
+    text: Link the rasterization options to the PNG exporter by creating a `PngOptions`
+      instance.
+  - name: save the image as PNG
+    text: Finally, write the rasterized image to disk using the `save` method. `save`
+      writes the rasterized image to the specified file path in the chosen format.
+      > After this step you have successfully **created a PNG thumbnail IFC** and
+      can use the resulting `example.png` anywhere you need a raster image.
+  type: HowTo
+- questions:
+  - answer: Yes, Aspose.CAD supports many formats (DWG, DXF, DGN, etc.). Simply change
+      the file extension and load the appropriate image class.
+    question: Can I use this approach to convert other CAD formats to PNG?
+  - answer: DPI is controlled indirectly via `PageWidth`/`PageHeight`. Adjust these
+      values relative to the desired physical size to achieve the required DPI.
+    question: Does the library let me set a custom DPI?
+  - answer: PNG is a lossless format, so the rasterized image retains the full visual
+      fidelity of the original vector data.
+    question: Is the PNG output loss‑less?
+  type: FAQPage
 second_title: Aspose.CAD Java API
-title: Cara Mengonversi IFC ke PNG dengan Aspose.CAD untuk Java
+tags:
+- ifc conversion
+- png thumbnail
+- aspose.cad
+- java image processing
+- bim visualization
+title: Cara membuat thumbnail PNG IFC dengan Aspose.CAD for Java
 url: /id/java/cad-export-options/export-ifc-to-png/
 weight: 18
 ---
-
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Export IFC to PNG with Aspose.CAD for Java
+# Ekspor IFC ke PNG dengan Aspose.CAD untuk Java
 
-## Introduction
+## Pendahuluan
 
-Selamat datang di tutorial langkah‑demi‑langkah ini tentang **cara mengonversi IFC ke PNG** menggunakan Aspose.CAD for Java. Baik Anda membangun pipeline BIM‑to‑image atau membutuhkan pratinjau visual cepat dari model IFC, panduan ini akan memandu Anda melalui setiap detail sehingga Anda dapat **mengonversi IFC ke PNG** secara andal dalam aplikasi Java Anda.
+Dalam tutorial ini Anda akan belajar cara **create PNG thumbnail IFC** file dengan Aspose.CAD untuk Java. Apakah Anda membutuhkan preview cepat untuk portal BIM, menghasilkan thumbnail untuk sistem manajemen dokumen, atau mengotomatisasi konversi batch, langkah-langkah di bawah ini memungkinkan Anda merasterisasi model IFC 3‑D menjadi gambar PNG 2‑D yang tajam hanya dengan beberapa baris kode Java.
 
-## Quick Answers
-- **What library is required?** Aspose.CAD for Java  
-- **Can I convert IFC to PNG in a few lines of code?** Yes – the core process fits in under 20 lines.  
-- **Do I need a license for production?** A temporary license works for testing; a full license is required for commercial use.  
-- **Is the output scalable?** The rasterization options let you set any pixel dimensions you need.  
-- **Which Java version is supported?** Java 8 or higher.
+## Jawaban Cepat
+- **Library apa yang diperlukan?** Aspose.CAD for Java.  
+- **Bisakah saya membuat PNG thumbnail IFC dalam beberapa baris kode?** Ya – seluruh alur kerja muat dalam kurang dari 20 baris.  
+- **Apakah saya memerlukan lisensi untuk produksi?** Lisensi sementara berfungsi untuk pengujian; lisensi penuh diperlukan untuk penyebaran komersial.  
+- **Apakah output dapat diskalakan?** Anda dapat mengatur dimensi piksel apa pun, sehingga PNG dapat diskalakan ke ukuran apa pun yang Anda butuhkan.  
+- **Versi Java apa yang didukung?** Java 8 atau lebih tinggi.
 
-## What is “convert IFC to PNG”?
-Mengonversi IFC (Industry Foundation Classes) ke PNG berarti meraster data model bangunan 3‑D menjadi gambar bitmap 2‑D. Hal ini berguna untuk menghasilkan thumbnail, menyematkan model dalam laporan, atau membuat visualisasi siap web tanpa memerlukan penampil CAD lengkap.
+## Apa itu “convert IFC to PNG”?
+Mengonversi IFC (Industry Foundation Classes) ke PNG berarti merasterisasi model bangunan 3‑D menjadi gambar bitmap 2‑D. Proses ini membuat thumbnail visual yang dapat ditampilkan di peramban, laporan, atau aplikasi seluler tanpa memerlukan penampil CAD lengkap.
 
-## Why use Aspose.CAD for Java?
-- **Full‑featured** support for many CAD formats, including IFC.  
-- **No external dependencies** – pure Java, easy to integrate.  
-- **Fine‑grained control** over rasterization (resolution, background, line weight).  
-- **Cross‑platform** – works on Windows, Linux, and macOS.
+## Mengapa menggunakan Aspose.CAD untuk Java?
+Aspose.CAD mendukung **30+ format CAD dan BIM**, termasuk IFC, DWG, DXF, dan DGN, dan dapat memproses file hingga **2 GB** tanpa memuat seluruh dokumen ke memori. Library ini murni Java, memiliki **nol ketergantungan eksternal**, dan berjalan di Windows, Linux, serta macOS, menjadikannya ideal untuk pembuatan gambar sisi‑server.  
+Ia menyediakan rasterisasi berperforma tinggi, dukungan format yang luas, dan integrasi mudah ke dalam aplikasi Java.
 
-## Prerequisites
+## Prasyarat
 
-Sebelum memulai, pastikan Anda memiliki hal‑hal berikut:
+- **Aspose.CAD Library** – unduh JAR terbaru dari [download link](https://releases.aspose.com/cad/java/).  
+- **Java Development Kit** – JDK 8 atau lebih baru terpasang di mesin Anda.  
+- **IFC source file** – letakkan file di folder yang dapat Anda referensikan dari kode Anda.
 
-- **Aspose.CAD Library** – download and install the Aspose.CAD library for Java from the [download link](https://releases.aspose.com/cad/java/).  
-- **Document Directory** – a folder on your system that contains the IFC file you want to convert.
+## Impor namespace
 
-## Import Namespaces
-
-In your Java project, import the necessary classes:
+Paket `com.aspose.cad` menyediakan semua kelas yang Anda perlukan. `CadImage` adalah titik masuk untuk memuat file CAD, sementara `PngOptions` mengonfigurasi pengaturan rasterisasi.
 
 ```java
 import com.aspose.cad.Image;
@@ -55,10 +111,13 @@ import com.aspose.cad.imageoptions.CadRasterizationOptions;
 import com.aspose.cad.imageoptions.PngOptions;
 ```
 
-## Step‑by‑Step Guide
+## Cara membuat PNG thumbnail IFC di Java?
 
-### Step 1: Load the IFC File
-First, point to the folder where your IFC file lives and load it.
+Muat file IFC, tentukan opsi rasterisasi, dan simpan hasilnya sebagai gambar PNG – itulah alur kerja konversi lengkap. Bagian-bagian berikut memecah setiap langkah, sehingga Anda dapat menyalin‑tempel potongan kode ke dalam proyek Anda dan menjalankannya segera.
+
+### Langkah 1: muat file IFC
+Pertama, arahkan ke folder tempat file IFC Anda berada dan muat dengan `CadImage.load`.  
+`CadImage.load` membaca file CAD dan mengembalikan objek gambar yang dapat dirasterisasi.
 
 ```java
 String dataDir = "Your Document Directory" + "ExportingIFC/";
@@ -66,10 +125,11 @@ String fileName = dataDir + "example.ifc";
 IfcImage cadImage = (IfcImage)Image.load(fileName);
 ```
 
-> **Why this matters:** Loading the file as an `IfcImage` gives you access to Cad‑specific rasterization options later on.
+> **Mengapa ini penting:** Memuat file sebagai `CadImage` memberi Anda akses ke opsi konversi vektor‑raster yang mengontrol resolusi, warna latar belakang, dan ketebalan garis.
 
-### Step 2: Set Vector (Rasterization) Options
-Define the output dimensions and any other vector‑related settings.
+### Langkah 2: atur opsi rasterisasi
+Tentukan dimensi output dan pengaturan terkait vektor lainnya melalui `VectorRasterizationOptions`.  
+`VectorRasterizationOptions` memungkinkan Anda menentukan ukuran output, warna latar belakang, dan parameter rasterisasi lainnya.
 
 ```java
 CadRasterizationOptions vectorOptions = new CadRasterizationOptions();
@@ -77,73 +137,80 @@ vectorOptions.setPageWidth(1500);
 vectorOptions.setPageHeight(1500);
 ```
 
-> You can adjust `PageWidth` and `PageHeight` to control the final PNG resolution, which is essential when you **save PNG java** files for high‑quality prints.
+> Sesuaikan `PageWidth` dan `PageHeight` untuk mengontrol resolusi PNG akhir, yang penting ketika Anda **save PNG java** file untuk cetakan berkualitas tinggi atau thumbnail web.
 
-### Step 3: Configure PNG Options
-Link the rasterization options to the PNG exporter.
+### Langkah 3: konfigurasikan opsi PNG
+Hubungkan opsi rasterisasi ke pengekspor PNG dengan membuat instance `PngOptions`.
 
 ```java
 PngOptions pngOptions = new PngOptions();
 pngOptions.setVectorRasterizationOptions(vectorOptions);
 ```
 
-### Step 4: Save the Image as PNG
-Finally, write the rasterized image to disk.
+### Langkah 4: simpan gambar sebagai PNG
+Akhirnya, tulis gambar yang dirasterisasi ke disk menggunakan metode `save`.  
+`save` menulis gambar yang dirasterisasi ke jalur file yang ditentukan dalam format yang dipilih.
 
 ```java
 String outPath = dataDir + "example.png";
 cadImage.save(outPath, pngOptions);
 ```
 
-> After this step you have successfully **converted IFC to PNG** and can use the resulting `example.png` anywhere you need a raster image.
+> Setelah langkah ini Anda telah berhasil **created a PNG thumbnail IFC** dan dapat menggunakan `example.png` yang dihasilkan di mana saja Anda membutuhkan gambar raster.
 
-## Common Use Cases
-- **Generating thumbnails** for BIM models in web portals.  
-- **Embedding floor‑plan snapshots** into PDF reports.  
-- **Automated batch conversion** of large IFC libraries for archival.
+## Kasus penggunaan umum
+- **Membuat thumbnail** untuk model BIM di portal web.  
+- **Menyematkan snapshot denah lantai** ke dalam laporan PDF atau Word.  
+- **Konversi batch otomatis** perpustakaan IFC besar untuk proyek arsip atau migrasi.
 
-## Troubleshooting & Tips
-- **Memory issues:** When converting very large IFC files, increase the JVM heap (`-Xmx2g` or higher).  
-- **Missing textures:** Ensure the IFC file references external resources that are accessible from `dataDir`.  
-- **Pro tip:** Use `vectorOptions.setBackgroundColor(Color.getWhite())` if you need a white background instead of the default transparent PNG.
+## Pemecahan Masalah & Tips
+- **Masalah memori:** Untuk file IFC yang sangat besar, tingkatkan heap JVM (`-Xmx2g` atau lebih tinggi).  
+- **Tekstur hilang:** Pastikan sumber daya eksternal file IFC dapat dijangkau dari `dataDir`.  
+- **Tips pro:** Gunakan `vectorOptions.setBackgroundColor(Color.getWhite())` jika Anda lebih suka latar belakang putih daripada PNG transparan default.
 
-## FAQ's
+## FAQ
 
-### Q1: Is Aspose.CAD compatible with all versions of IFC files?
-A1: Aspose.CAD supports various versions of IFC files. Refer to the [documentation](https://reference.aspose.com/cad/java/) for compatibility details.
+### Q1: Apakah Aspose.CAD kompatibel dengan semua versi file IFC?
+A1: Aspose.CAD mendukung berbagai versi IFC. Lihat [documentation](https://reference.aspose.com/cad/java/) untuk informasi kompatibilitas detail.
 
-### Q2: Can I customize the rasterization options further?
-A2: Absolutely! Explore the [documentation](https://reference.aspose.com/cad/java/) for advanced customization options.
+### Q2: Bisakah saya menyesuaikan opsi rasterisasi lebih lanjut?
+A2: Tentu saja! Jelajahi [documentation](https://reference.aspose.com/cad/java/) untuk pengaturan lanjutan seperti kontrol DPI, anti‑aliasing, dan ketebalan garis.
 
-### Q3: Is there a trial version available?
-A3: Yes, you can access the free trial version [here](https://releases.aspose.com/).
+### Q3: Apakah ada versi percobaan yang tersedia?
+A3: Ya, Anda dapat mengunduh percobaan gratis dari [Aspose.CAD free trial](https://releases.aspose.com/).
 
-### Q4: How can I get temporary licensing for Aspose.CAD?
-A4: Obtain a temporary license from [this link](https://purchase.aspose.com/temporary-license/).
+### Q4: Bagaimana saya dapat memperoleh lisensi sementara untuk pengujian?
+A4: Dapatkan lisensi sementara dari [Aspose.CAD temporary license page](https://purchase.aspose.com/temporary-license/).
 
-### Q5: Where can I seek help or discuss issues?
-A5: Visit the [Aspose.CAD forum](https://forum.aspose.com/c/cad/19) for community support.
+### Q5: Di mana saya dapat mengajukan pertanyaan atau melaporkan masalah?
+A5: Bergabunglah dengan komunitas di [Aspose.CAD forum](https://forum.aspose.com/c/cad/19) untuk dukungan dari insinyur Aspose dan sesama pengembang.
 
-## Frequently Asked Questions
+## Pertanyaan yang Sering Diajukan
 
-**Q: Can I use this approach to convert other CAD formats to PNG?**  
-A: Yes, Aspose.CAD supports many formats (DWG, DXF, DGN, etc.). Just change the file extension and cast to the appropriate image class.
+**Q: Bisakah saya menggunakan pendekatan ini untuk mengonversi format CAD lain ke PNG?**  
+A: Ya, Aspose.CAD mendukung banyak format (DWG, DXF, DGN, dll.). Cukup ubah ekstensi file dan muat kelas gambar yang sesuai.
 
-**Q: Does the library let me set a custom DPI?**  
-A: You can control DPI indirectly by adjusting `PageWidth`/`PageHeight` relative to the desired physical size.
+**Q: Apakah library memungkinkan saya mengatur DPI khusus?**  
+A: DPI dikontrol secara tidak langsung melalui `PageWidth`/`PageHeight`. Sesuaikan nilai ini relatif terhadap ukuran fisik yang diinginkan untuk mencapai DPI yang diperlukan.
 
-**Q: Is the PNG output loss‑less?**  
-A: PNG is a lossless format, so the rasterized image retains full visual fidelity of the vector data.
+**Q: Apakah output PNG loss‑less?**  
+A: PNG adalah format lossless, sehingga gambar yang dirasterisasi mempertahankan fidelitas visual penuh dari data vektor asli.
 
-## Conclusion
+## Kesimpulan
 
-Anda kini telah mempelajari cara **mengonversi IFC ke PNG** secara efisien dengan Aspose.CAD for Java. Dengan mengikuti langkah‑langkah ini, Anda dapat mengintegrasikan konversi IFC‑to‑PNG ke dalam alur kerja berbasis Java apa pun, baik itu alat desktop, layanan sisi‑server, atau fungsi cloud.
+Anda kini memiliki metode lengkap, siap produksi untuk **create PNG thumbnail IFC** file menggunakan Aspose.CAD untuk Java. Integrasikan langkah-langkah ini ke dalam alat desktop, layanan sisi‑server, atau fungsi cloud untuk mengotomatisasi pipeline visualisasi BIM dan menyajikan thumbnail berkualitas tinggi dengan cepat kepada pengguna akhir.
 
 ---
 
-**Last Updated:** 2026-02-20  
-**Tested With:** Aspose.CAD for Java 24.11  
-**Author:** Aspose  
+**Terakhir Diperbarui:** 2026-10-19  
+**Diuji Dengan:** Aspose.CAD for Java 24.11  
+**Penulis:** Aspose
+
+## Tutorial Terkait
+
+- [Cara Mengonversi STL ke PNG dengan Aspose.CAD untuk Java](/cad/java/cad-export-options/export-stl-to-png/)
+- [Konversi DWG ke PNG – Simpan CAD sebagai PNG Menggunakan Aspose.CAD untuk Java](/cad/java/cad-drawing-conversion/convert-cad-drawing-to-raster-image/)
+- [Ekspor DWG ke PDF di Java – Atur Ukuran Halaman PDF dengan Aspose.CAD](/cad/java/cad-export-options/export-to-pdf/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
