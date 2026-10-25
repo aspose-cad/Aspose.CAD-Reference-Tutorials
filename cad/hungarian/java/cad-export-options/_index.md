@@ -1,17 +1,56 @@
 ---
-date: 2026-04-13
-description: Tanulja meg, hogyan exportálhat AutoCAD PDF-et, konvertálhat IFC-t PNG-re,
-  és exportálhat STL-t PNG-be az Aspose.CAD for Java használatával. Tartalmaz CAD
-  elrendezés PDF útmutatót.
+date: 2026-10-25
+description: Ismerje meg, hogyan konvertálhatja a DWG-t PDF-re, exportálhat CAD elrendezéseket,
+  BMP, IFC és STL fájlokat az Aspose.CAD for Java segítségével. Tartalmaz licencelési
+  megjegyzéseket, teljesítmény tippeket és valós példákat.
 keywords:
-- export autocad pdf
-- cad layout pdf
-- how to export autocad
-- dwg to pdf java
-- cad to bmp
-linktitle: CAD exportálási beállítások
+- convert dwg to pdf
+- cad layout pdf export
+- generate pdf from dwg
+- java convert cad pdf
+- export stl to png
+lastmod: 2026-10-25
+linktitle: CAD exportálási lehetőségek
+og_description: Konvertálja a DWG-t PDF-re, BMP-re, IFC-re és STL-re az Aspose.CAD
+  for Java segítségével. Tanuljon lépésről lépésre, tekintse meg a teljesítmény adatokat,
+  és kapjon licencelési útmutatást ebben a 2026-os útmutatóban.
+og_image_alt: Screenshot of Aspose.CAD Java API converting DWG to PDF
+og_title: DWG konvertálása PDF-re és egyéb CAD exportálási lehetőségek Java-ban
+schemas:
+- author: Aspose
+  dateModified: '2026-10-25'
+  description: Learn how to convert DWG to PDF, export CAD layouts, BMP, IFC, and
+    STL files using Aspose.CAD for Java. Includes licensing notes, performance tips,
+    and real‑world use cases.
+  headline: How to convert DWG to PDF and other CAD export options in Java
+  type: TechArticle
+- questions:
+  - answer: Load the IFC file with `Image.load("model.ifc")` and call `save("model.png",
+      new PngOptions())`.
+    question: How do I convert IFC to PNG using Aspose.CAD?
+  - answer: Yes—Aspose.CAD treats layouts as images internally, so `save("layout.pdf",
+      new PdfOptions())` handles it automatically.
+    question: Can I export a CAD layout directly to PDF without converting to an image
+      first?
+  - answer: Exporting an AutoCAD drawing converts the entire drawing, while exporting
+      a layout targets a specific paper‑space view, preserving its page settings.
+    question: What is the difference between exporting AutoCAD to PDF and exporting
+      a CAD layout to PDF?
+  - answer: No inherent limit; each layout becomes a separate page in the resulting
+      PDF.
+    question: Is there a limit on the number of pages when exporting a multi‑sheet
+      DWG to PDF?
+  - answer: A single Aspose.CAD license covers all supported formats (PDF, PNG, BMP,
+      etc.).
+    question: Do I need a separate license for each export format?
+  type: FAQPage
 second_title: Aspose.CAD Java API
-title: AutoCAD PDF exportálása – CAD exportálási beállítások
+tags:
+- convert dwg to pdf
+- Aspose.CAD
+- Java CAD conversion
+- CAD export tutorials
+title: Hogyan konvertáljuk a DWG-t PDF-re és egyéb CAD exportálási lehetőségek Java-ban
 url: /hu/java/cad-export-options/
 weight: 30
 ---
@@ -24,111 +63,147 @@ weight: 30
 
 ## Bevezetés
 
-Ha Java fejlesztő vagy, és gyorsan, megbízhatóan szeretnél **export AutoCAD PDF**-t készíteni, jó helyen jársz. Ebben az útmutatóban áttekintjük az Aspose.CAD for Java leggyakoribb export szcenárióit – beleértve az AutoCAD képeket, CAD elrendezéseket, BMP, PDF, IFC és STL fájlokat. Megtudod, miért fontosak ezek a funkciók, hogyan illeszkednek a valós projektekbe, és lépésről‑lépésre útmutatót kapsz, amelyet beilleszthetsz a saját kódodba.
+Ha Java fejlesztő vagy, aki gyorsan és megbízhatóan **convert DWG to PDF**-t szeretne, jó helyen jár. Ez az útmutató áttekinti az Aspose.CAD for Java leggyakoribb export szcenárióit – beleértve az AutoCAD képeket, CAD elrendezéseket, BMP, PDF, IFC és STL fájlokat. Megtudod, miért fontosak ezek a funkciók a valós projektekben, megtanulod a legjobb gyakorlatokat, és kész kódrészleteket kapsz, amelyeket egyszerűen átmásolhatsz a saját alkalmazásaidba.
 
 ## Gyors válaszok
-- **Mi a legegyszerűbb módja az AutoCAD PDF‑re exportálásnak?** Használd az Aspose.CAD `Image.save("output.pdf", new PdfOptions())` metódusát.  
-- **Milyen formátumokra konvertálhatom az IFC fájlokat?** A PNG teljes mértékben támogatott; egyszerűen töltsd be az IFC fájlt, és mentsd PNG‑ként.  
-- **Exportálhatok STL fájlokat közvetlenül PNG‑be?** Igen – töltsd be az STL modellt, és hívd a `save("image.png")` metódust.  
+- **Mi a legegyszerűbb módja az AutoCAD PDF-be exportálásának?** Használd az `Image.save("output.pdf", new PdfOptions())`-t az Aspose.CAD-ból.  
+- **Milyen formátumokra konvertálhatom az IFC fájlokat?** A PNG teljesen támogatott; egyszerűen töltsd be az IFC fájlt, és mentsd PNG‑ként.  
+- **Exportálhatok STL fájlokat közvetlenül PNG‑be?** Igen – töltsd be az STL modellt, és hívd a `save("image.png")`-t.  
 - **Szükségem van licencre a termelési használathoz?** Kereskedelmi licenc szükséges a nem‑próba telepítésekhez.  
 - **Milyen Java verzió szükséges?** Java 8 vagy újabb ajánlott.
 
-## Mi az **export autocad pdf**?
+## Mi az exportálás AutoCAD PDF-be?
 
 Az AutoCAD rajzok PDF‑be exportálása azt jelenti, hogy a vektor‑alapú DWG/DXF fájlokat egy széles körben elfogadott, oldal‑orientált formátummá alakítjuk. A PDF megőrzi a rétegeket, vonalvastagságokat és színeket, így ideális a tervek ügyfelekkel, ellenőrzőkkel vagy olyan downstream rendszerekkel való megosztásra, amelyek nem értik a natív CAD fájlokat.
 
 ## Miért használjuk az Aspose.CAD for Java‑t?
 
-- **Zero‑install, pure Java** – Nincsenek natív függőségek vagy COM interop.  
-- **High fidelity** – A geometria, szöveg és raszter adatok pontosan reprodukálódnak.  
-- **Batch processing** – Tizedek fájlját exportálhatod egyetlen ciklusban minimális memóriahasználattal.  
-- **Broad format support** – A klasszikus DWG/DXF-től a modern IFC‑ig és STL‑ig, mind egységes API‑val.
+Az Aspose.CAD for Java egy **pure‑Java** könyvtár – nincs szükség natív DLL‑ekre vagy COM interopra. Geometriát, szöveget és raszter adatot **high fidelity**‑vel reprodukál, támogatja a **batch processing**‑et több ezer fájl esetén, és kezeli a **over 60 input and output formats**‑t (beleértve a DWG, DXF, IFC, STL, BMP, PNG és PDF formátumokat). A könyvtár memória‑hatékony csővezetéke lehetővé teszi több száz oldalas rajzok feldolgozását anélkül, hogy az egész fájlt RAM‑ba töltenéd.
 
 ## Miért fontos ez
 
-A **CAD layout PDF** fájlok valós időben történő konvertálása lehetővé teszi a jelentésgenerálás automatizálását, ügyfél‑kész anyagok létrehozását, és a CAD adatok webportálokba való integrálását a nyers DWG fájlok feltárása nélkül. Ugyanaz az API kezeli a képalapú exportokat (BMP, PNG), amelyek hasznosak bélyegképekhez, előnézetekhez és gyors vizuális ellenőrzésekhez.
+Az **convert DWG to PDF** képeség élőben lehetővé teszi a jelentéskészítés automatizálását, ügyfél‑kész szállítmányok létrehozását, és a CAD adatok webes portálokba ágyazását anélkül, hogy a nyers DWG fájlokat felfednéd. Ugyanaz az API képes képalapú exportokat (BMP, PNG) készíteni bélyegképekhez, gyors vizuális ellenőrzésekhez és könnyű előnézetekhez.
 
 ## Előfeltételek
 - Java 8 vagy újabb telepítve.  
-- Aspose.CAD for Java könyvtár hozzáadva a projekthez (Maven/Gradle vagy JAR).  
-- Érvényes Aspose licenc a termelési használathoz (ingyenes próba elérhető).
+- Aspose.CAD for Java könyvtár hozzáadva a projekthez (Maven, Gradle vagy manuális JAR).  
+- Érvényes Aspose licenc a termelési használathoz (ingyenes próba elérhető értékeléshez).
 
-## AutoCAD képek exportálása PDF‑be
+## Hogyan konvertáljunk DWG‑t PDF‑be Java‑ban
 
-Könnyedén konvertálhatod az AutoCAD képeket PDF‑be az Aspose.CAD for Java segítségével. Lépésről‑lépésre útmutatónk biztosítja a zökkenőmentes integrációt, egyszerűsítve a munkafolyamatodat. Érd el a pontosságot és megbízhatóságot a PDF exportjaidban.
+`Image` az Aspose.CAD alapvető osztálya, amely egy CAD dokumentumot reprezentál a memóriában.  
+`PdfOptions` a PDF‑specifikus kimeneti beállításokat konfigurálja, például felbontást és tömörítést.
+
+Töltsd be a DWG‑t (vagy bármely támogatott CAD formátumot) az `Image.load`‑dal, majd hívd a `save`‑t egy `PdfOptions` példány használatával. Ez a kétlépéses minta kezeli a vektor‑PDF konverziót, megőrzi a rétegeket, és lehetővé teszi a DPI vagy a tömörítési beállítások finomhangolását.
+
+Az `Image` osztály bármely támogatott CAD dokumentumot reprezentál a memóriában, míg a `PdfOptions` a kimeneti PDF‑et állítja be. Nem szükséges további konverziós eszköz vagy külső segédprogram.
+
+### 1. lépés: a DWG fájl betöltése
+```java
+// Load a DWG file – the Image class is the entry point for all Aspose.CAD operations
+com.aspose.cad.Image cadImage = com.aspose.cad.Image.load("sample.dwg");
+```
+
+### 2. lépés: PDF beállítások konfigurálása (opcionális)
+```java
+// Create PDF options – you can set vector rasterization DPI, compression, etc.
+com.aspose.cad.imageoptions.PdfOptions pdfOptions = new com.aspose.cad.imageoptions.PdfOptions();
+pdfOptions.setVectorRasterizationOptions(
+    new com.aspose.cad.imageoptions.VectorRasterizationOptions()
+        .setPageWidth(2100)   // width in pixels (A4 at 300 DPI)
+        .setPageHeight(2970)  // height in pixels
+        .setResolution(300)   // 300 DPI for high‑quality output
+);
+```
+
+### 3. lépés: mentés PDF‑ként
+```java
+// Save the loaded DWG as a PDF file
+cadImage.save("output.pdf", pdfOptions);
+
+// Release resources – important when processing many files in a loop
+cadImage.dispose();
+```
+
+A fenti három sor egy teljes **convert DWG to PDF** munkafolyamatot alkot. Elhelyezheted őket egy ciklusban, hogy kötegelt feldolgozást végezz egy rajzok könyvtárán.
 
 ## CAD elrendezések exportálása PDF‑be
 
-Fedezd fel az Aspose.CAD for Java hatékonyságát a CAD elrendezések PDF‑be exportálásában. Ez a fejlesztő‑barát eszköz garantálja a megbízhatóságot, biztosítva, hogy a CAD elrendezéseid pontosan átalakuljanak PDF formátumba. Kövesd útmutatónkat a zökkenőmentes élményért.
+Egy adott elrendezés (paper‑space nézet) exportálása ugyanúgy működik, mivel az Aspose.CAD minden elrendezést belsőleg képként kezel. Egyszerűen töltsd be a DWG‑t, ha szükséges, válaszd ki az elrendezést név szerint, és hívd a `save`‑t `PdfOptions`‑szel. Nem szükséges extra konverziós lépés.
 
 ## Exportálás BMP‑be
 
-Merülj el a CAD‑ból BMP‑be történő zökkenőmentes konverzió világában az Aspose.CAD for Java segítségével. Lépésről‑lépésre útmutatónk biztosítja a hatékonyságot és pontosságot az exportjaidban. Fejleszd projektjeidet könnyedén a tutorialunk követésével.
+`BmpOptions` a BMP‑formátumú kimeneti paramétereket határozza meg, például bitmélységet és felbontást. Amikor raszter bélyegképekre vagy bitmap eszközökre van szükség, használd a `BmpOptions`‑t a `PdfOptions` helyett. Ugyanaz az `Image` objektum egyetlen hívással menthető BMP‑be, lehetővé téve a nagy felbontású előnézetek generálását katalógusokhoz vagy UI bélyegképekhez.
 
-## Exportálás PDF‑be
+## Exportálás PDF‑be (általános CAD fájlok)
 
-Tanuld meg a CAD fájlok PDF‑be történő exportálásának művészetét könnyedén az Aspose.CAD for Java segítségével. Lépésről‑lépésre útmutatónk leegyszerűsíti az integrációs folyamatot, lehetővé téve a CAD fájlok zökkenőmentes átalakítását PDF formátumba. Emeld a munkafolyamatod ezzel a hatékony tutorialral.
+A DWG‑n kívül a könyvtár DXF, DWF és más CAD formátumokat is PDF‑be konvertálhat ugyanazzal a kóddal. Csak módosítsd a fájlkiterjesztést az `Image.load`‑ban. A háttérben lévő konverziós motor automatikusan felismeri a forrásformátumot.
 
 ## IFC exportálása PNG‑be
 
-Könnyedén konvertálhatod az IFC‑t PNG‑be az Aspose.CAD for Java használatával. Részletes tutorialunk végigvezet a folyamaton, biztosítva a sima és megbízható átalakítást. Egyszerűsítsd a munkafolyamatod és fedezd fel az Aspose.CAD for Java képességeit.
+`PngOptions` a PNG‑formátum beállításait definiálja, például a tömörítési szintet. Az IFC (Industry Foundation Classes) fájlok gyakoriak a BIM munkafolyamatokban. Töltsd be az IFC‑t az `Image.load`‑dal, és mentsd PNG‑ként a `PngOptions` használatával. Ez egy raszter képet eredményez, amely beágyazható webes műszerfalakba vagy dokumentációba.
 
 ## STL exportálása PNG‑be
 
-Fedezd fel a STL fájlok PNG‑be exportálásának zökkenőmentes folyamatát Java‑ban az Aspose.CAD segítségével. Egyszerűsítsd a munkafolyamatod és fejleszd Java projektjeidet könnyedén. Lépésről‑lépésre útmutatónk biztosítja a pontosságot és megbízhatóságot az STL‑ből PNG‑be konverziók során.
+`PngOptions` a PNG‑formátum beállításait definiálja, például a tömörítési szintet. Az STL fájlok 3‑D hálókat írnak le. Az Aspose.CAD ezeket 2‑D képpé rendereli, amelyet PNG‑ként exportálhatsz gyors vizuális ellenőrzésekhez vagy terméklistákhoz. Ugyanez a `Image.save("model.png", new PngOptions())` minta alkalmazandó.
 
-## CAD exportálási tutorialok
+## CAD exportálási oktatóanyagok
 
-### [AutoCAD képek exportálása PDF‑be – Aspose.CAD for Java tutorial](./export-autocad-images-to-pdf/)
-Könnyedén exportálj AutoCAD képeket PDF‑be az Aspose.CAD for Java használatával. Kövesd lépésről‑lépésre útmutatónkat a zökkenőmentes integrációhoz.
+### [AutoCAD képek exportálása PDF‑be – Aspose.CAD for Java oktató](./export-autocad-images-to-pdf/)
+Effortlessly export AutoCAD images to PDF using Aspose.CAD for Java. Follow our step‑by‑step guide for seamless integration.
 
 ### [CAD elrendezések exportálása PDF‑be az Aspose.CAD for Java segítségével](./export-cad-layouts-to-pdf/)
-Fedezd fel az Aspose.CAD for Java‑t, hogy könnyedén exportálj CAD elrendezéseket PDF‑be. Hatékony, megbízható és fejlesztő‑barát.
+Explore Aspose.CAD for Java to effortlessly export CAD layouts to PDF. Efficient, reliable, and developer‑friendly.
 
 ### [Exportálás BMP‑be az Aspose.CAD for Java segítségével](./export-to-bmp/)
-Fedezd fel a CAD‑ból BMP‑be történő zökkenőmentes konverziót az Aspose.CAD for Java segítségével. Kövesd lépésről‑lépésre útmutatónkat a hatékony és pontos exportokhoz.
+Explore seamless CAD to BMP conversion with Aspose.CAD for Java. Follow our step‑by‑step guide for efficient and precise exports.
 
 ### [Exportálás PDF‑be az Aspose.CAD for Java segítségével](./export-to-pdf/)
-Tanuld meg, hogyan exportálj CAD fájlokat PDF‑be könnyedén az Aspose.CAD for Java segítségével. Kövesd lépésről‑lépésre útmutatónkat a zökkenőmentes integrációhoz.
+Learn how to export CAD files to PDF effortlessly with Aspose.CAD for Java. Follow our step‑by‑step guide for seamless integration.
 
 ### [IFC exportálása PNG‑be az Aspose.CAD for Java segítségével](./export-ifc-to-png/)
-Könnyedén konvertáld az IFC‑t PNG‑be az Aspose.CAD for Java segítségével. Kövesd lépésről‑lépésre tutorialunkat.
+Convert IFC to PNG effortlessly with Aspose.CAD for Java. Follow our step‑by‑step tutorial.
 
 ### [STL exportálása PNG‑be az Aspose.CAD for Java segítségével](./export-stl-to-png/)
-Fedezd fel a STL fájlok PNG‑be exportálásának zökkenőmentes folyamatát Java‑ban az Aspose.CAD segítségével. Egyszerűsítsd a munkafolyamatod és fejleszd Java projektjeidet könnyedén.
+Explore the seamless process of exporting STL files to PNG in Java with Aspose.CAD. Simplify your workflow and enhance your Java projects effortlessly.
 
-### Gyakori felhasználási esetek
-- **Client deliverables** – Készítsd el a tervezési áttekintéseket PDF‑ben anélkül, hogy a forrás DWG fájlokat felfednéd.  
-- **Automated reporting** – Készíts PNG bélyegképeket IFC vagy STL modellekről a műszerfalakhoz.  
-- **Batch conversion pipelines** – Dolgozz fel nagy CAD archívumokat éjszaka egy egyszerű Java ciklus segítségével.
+## Gyakori felhasználási esetek
+- **Ügyfél‑szállítmányok** – Tervezési áttekintéseket PDF‑ben biztosít, anélkül, hogy a forrás DWG fájlokat felfedné.
+- **Automatizált jelentéskészítés** – PNG bélyegképeket generál IFC vagy STL modellekhez a műszerfalakhoz.
+- **Kötegelt konverziós folyamatok** – Nagy CAD archívumokat dolgoz fel éjszaka egy egyszerű Java ciklus segítségével.
 
-### Tippek és trükkök
-- **Pro tip:** Állítsd be a `PdfOptions.setVectorRasterizationOptions()`-t a DPI vezérléséhez a raszter‑alapú exportoknál.  
-- **Avoid memory spikes:** Használd a `Image.dispose()`-t minden mentés után, ha sok fájlt dolgozol fel.  
-- **Troubleshooting:** Ha a rétegek eltűnnek, győződj meg róla, hogy a forrás DWG látható rétegeket tartalmaz, és hogy a `PdfOptions.setCompress(true)` engedélyezve van.
+## Tippek és trükkök
+- **Pro tipp:** Állítsd be a `PdfOptions.setVectorRasterizationOptions().setResolution(300)`‑t a DPI szabályozásához a raszter‑alapú exportoknál, és tartsd a fájlméreteket ésszerűen.  
+- **Kerüld a memóriahullámokat:** Hívd meg a `Image.dispose()`‑t minden `save` után, amikor sok fájlt dolgozol fel.  
+- **Hibakeresés:** Ha a rétegek eltűnnek, ellenőrizd, hogy a forrás DWG látható rétegekkel rendelkezik, és engedélyezd a tömörítést a `PdfOptions.setCompress(true)`‑val.
 
-## Gyakran Ismételt Kérdések
+## Gyakran ismételt kérdések
 
-**Q: Hogyan konvertálhatom az IFC‑t PNG‑be az Aspose.CAD használatával?**  
-A: Töltsd be az IFC fájlt a `Image.load("model.ifc")`‑val, és hívd a `save("model.png", new PngOptions())` metódust.
+**K: Hogyan konvertálhatom az IFC‑t PNG‑be az Aspose.CAD használatával?**  
+V: Töltsd be az IFC fájlt az `Image.load("model.ifc")`‑val, és hívd a `save("model.png", new PngOptions())`‑t.
 
-**Q: Exportálhatok CAD elrendezést közvetlenül PDF‑be anélkül, hogy először képpé konvertálnám?**  
-A: Igen – az Aspose.CAD belsőleg képként kezeli az elrendezéseket, így a `save("layout.pdf", new PdfOptions())` automatikusan kezeli.
+**K: Exportálhatok CAD elrendezést közvetlenül PDF‑be anélkül, hogy előbb képpé konvertálnám?**  
+V: Igen – az Aspose.CAD belsőleg elrendezéseket képként kezeli, így a `save("layout.pdf", new PdfOptions())` automatikusan elvégzi.
 
-**Q: Mi a különbség az AutoCAD PDF‑be exportálása és a CAD elrendezés PDF‑be exportálása között?**  
-A: Az AutoCAD rajz exportálása az egész rajzot konvertálja, míg az elrendezés exportálása egy konkrét papír‑tér (paper‑space) nézetet céloz, megőrizve annak oldalbeállításait.
+**K: Mi a különbség az AutoCAD PDF‑be exportálása és a CAD elrendezés PDF‑be exportálása között?**  
+V: Az AutoCAD rajz exportálása az egész rajzot konvertálja, míg egy elrendezés exportálása egy adott paper‑space nézetet céloz meg, megőrizve annak oldalbeállításait.
 
-**Q: Van korlát a lapok számában, amikor több‑lapos DWG‑t exportálunk PDF‑be?**  
-A: Nincs beépített korlát; minden elrendezés külön oldalként jelenik meg a létrehozott PDF‑ben.
+**K: Van korlátozás az oldalak számában, amikor több lapos DWG‑t exportálunk PDF‑be?**  
+V: Nincs beépített korlát; minden elrendezés külön oldalként jelenik meg a létrehozott PDF‑ben.
 
-**Q: Szükség van külön licencre minden export formátumhoz?**  
-A: Egyetlen Aspose.CAD licenc lefedi az összes támogatott formátumot (PDF, PNG, BMP, stb.).
+**K: Szükségem van külön licencre minden export formátumhoz?**  
+V: Egyetlen Aspose.CAD licenc lefedi az összes támogatott formátumot (PDF, PNG, BMP, stb.).
 
 ---
-
-**Legutóbb frissítve:** 2026-04-13  
-**Tesztelve a következővel:** Aspose.CAD for Java 24.12  
+**Legutóbb frissítve:** 2026-10-25  
+**Tesztelve ezzel:** Aspose.CAD for Java 24.12  
 **Szerző:** Aspose
+
+## Kapcsolódó oktatóanyagok
+
+- [CAD exportálása PDF‑be: CAD elrendezések exportálása PDF‑be az Aspose.CAD for Java segítségével](/cad/java/cad-export-options/export-cad-layouts-to-pdf/)
+- [DWG exportálása PDF‑be Java‑ban – PDF oldalméret beállítása az Aspose.CAD segítségével](/cad/java/cad-export-options/export-to-pdf/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -1,17 +1,56 @@
 ---
-date: 2026-04-13
-description: Aspose.CAD for Java kullanarak AutoCAD PDF'yi dışa aktarmayı, IFC'yi
-  PNG'ye dönüştürmeyi ve STL'yi PNG'ye dışa aktarmayı öğrenin. CAD düzeni PDF rehberi
-  içerir.
+date: 2026-10-25
+description: Aspose.CAD for Java kullanarak DWG'yi PDF'ye dönüştürmeyi, CAD düzenlerini,
+  BMP, IFC ve STL dosyalarını dışa aktarmayı öğrenin. Lisanslama notları, performans
+  ipuçları ve gerçek dünya kullanım örneklerini içerir.
 keywords:
-- export autocad pdf
-- cad layout pdf
-- how to export autocad
-- dwg to pdf java
-- cad to bmp
+- convert dwg to pdf
+- cad layout pdf export
+- generate pdf from dwg
+- java convert cad pdf
+- export stl to png
+lastmod: 2026-10-25
 linktitle: CAD Dışa Aktarma Seçenekleri
+og_description: Aspose.CAD for Java ile DWG'yi PDF, BMP, IFC ve STL'ye dönüştürün.
+  Adım adım öğrenin, performans rakamlarını görün ve bu 2026 rehberinde lisanslama
+  rehberliğini alın.
+og_image_alt: Screenshot of Aspose.CAD Java API converting DWG to PDF
+og_title: DWG'yi PDF'ye ve Java'da diğer CAD dışa aktarma seçeneklerine dönüştürün
+schemas:
+- author: Aspose
+  dateModified: '2026-10-25'
+  description: Learn how to convert DWG to PDF, export CAD layouts, BMP, IFC, and
+    STL files using Aspose.CAD for Java. Includes licensing notes, performance tips,
+    and real‑world use cases.
+  headline: How to convert DWG to PDF and other CAD export options in Java
+  type: TechArticle
+- questions:
+  - answer: Load the IFC file with `Image.load("model.ifc")` and call `save("model.png",
+      new PngOptions())`.
+    question: How do I convert IFC to PNG using Aspose.CAD?
+  - answer: Yes—Aspose.CAD treats layouts as images internally, so `save("layout.pdf",
+      new PdfOptions())` handles it automatically.
+    question: Can I export a CAD layout directly to PDF without converting to an image
+      first?
+  - answer: Exporting an AutoCAD drawing converts the entire drawing, while exporting
+      a layout targets a specific paper‑space view, preserving its page settings.
+    question: What is the difference between exporting AutoCAD to PDF and exporting
+      a CAD layout to PDF?
+  - answer: No inherent limit; each layout becomes a separate page in the resulting
+      PDF.
+    question: Is there a limit on the number of pages when exporting a multi‑sheet
+      DWG to PDF?
+  - answer: A single Aspose.CAD license covers all supported formats (PDF, PNG, BMP,
+      etc.).
+    question: Do I need a separate license for each export format?
+  type: FAQPage
 second_title: Aspose.CAD Java API
-title: AutoCAD PDF'yi Dışa Aktar – CAD Dışa Aktarma Seçenekleri
+tags:
+- convert dwg to pdf
+- Aspose.CAD
+- Java CAD conversion
+- CAD export tutorials
+title: DWG'yi PDF'ye ve Java'da diğer CAD dışa aktarma seçeneklerine nasıl dönüştürülür
 url: /tr/java/cad-export-options/
 weight: 30
 ---
@@ -20,117 +59,149 @@ weight: 30
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# CAD Dışa Aktarma Seçenekleri
+# CAD dışa aktarma seçenekleri
 
 ## Giriş
 
-Java geliştiricisi olarak **AutoCAD PDF**'yi hızlı ve güvenilir bir şekilde dışa aktarmak istiyorsanız, doğru yerdesiniz. Bu rehberde Aspose.CAD for Java'nın en yaygın dışa aktarma senaryolarını—AutoCAD görüntüleri, CAD düzenleri, BMP, PDF, IFC ve STL dosyaları—adım adım inceleyeceğiz. Bu özelliklerin neden önemli olduğunu, gerçek dünya projelerinde nasıl yer aldığını ve kendi kod tabanınıza kopyalayabileceğiniz adım adım talimatları keşfedeceksiniz.
+Eğer hızlı ve güvenilir bir şekilde **DWG'yi PDF'ye dönüştürmeniz** gereken bir Java geliştiricisiyseniz, doğru yerdesiniz. Bu kılavuz, Aspose.CAD for Java’nın en yaygın dışa aktarma senaryolarını—AutoCAD görüntüleri, CAD düzenleri, BMP, PDF, IFC ve STL dosyalarını—adım adım inceler. Bu özelliklerin gerçek dünyadaki projelerde neden önemli olduğunu görecek, en iyi uygulama ipuçlarını öğrenecek ve kendi uygulamalarınız için kopyalamaya hazır kod parçacıklarını elde edeceksiniz.
 
-## Hızlı Yanıtlar
-- **AutoCAD'yi PDF olarak dışa aktarmanın en basit yolu nedir?** Aspose.CAD'den `Image.save("output.pdf", new PdfOptions())` kullanın.  
-- **IFC dosyalarını hangi formatlara dönüştürebilirim?** PNG tam desteklenir; sadece IFC dosyasını yükleyip PNG olarak kaydedin.  
-- **STL dosyalarını doğrudan PNG olarak dışa aktarabilir miyim?** Evet—STL modelini yükleyin ve `save("image.png")` çağırın.  
-- **Üretim kullanımında lisansa ihtiyacım var mı?** Deneme dışı dağıtımlar için ticari bir lisans gereklidir.  
-- **Hangi Java sürümü gerekiyor?** Java 8 veya üzeri önerilir.
+## Hızlı cevaplar
+- **AutoCAD'i PDF'ye dışa aktarmanın en basit yolu nedir?** Use `Image.save("output.pdf", new PdfOptions())` from Aspose.CAD.  
+- **IFC dosyalarını hangi formatlara dönüştürebilirim?** PNG is fully supported; just load the IFC file and save as PNG.  
+- **STL dosyalarını doğrudan PNG'ye dışa aktarabilir miyim?** Yes—load the STL model and call `save("image.png")`.  
+- **Üretim kullanımında bir lisansa ihtiyacım var mı?** A commercial license is required for non‑trial deployments.  
+- **Hangi Java sürümü gereklidir?** Java 8 or higher is recommended.
 
-## **export autocad pdf** nedir?
+## AutoCAD PDF dışa aktarma nedir?
 
-AutoCAD çizimlerini PDF'ye dışa aktarmak, vektör tabanlı DWG/DXF dosyalarını yaygın kabul gören, sayfa odaklı bir formata dönüştürmek anlamına gelir. PDF, katmanları, çizgi kalınlıklarını ve renkleri korur; bu da tasarımları müşteriler, inceleyiciler veya yerel CAD dosyalarını anlayamayan alt sistemlerle paylaşmak için idealdir.
+AutoCAD çizimlerini PDF'ye dışa aktarmak, vektör tabanlı DWG/DXF dosyalarını yaygın olarak kabul edilen, sayfa odaklı bir formata dönüştürmek anlamına gelir. PDF, katmanları, çizgi kalınlıklarını ve renkleri korur, bu da tasarımları müşteriler, inceleyiciler veya yerel CAD dosyalarını anlamayan alt sistemlerle paylaşmak için idealdir.
 
-## Neden Aspose.CAD for Java kullanmalısınız?
+## Aspose.CAD for Java neden kullanılmalı?
 
-- **Sıfır kurulum, saf Java** – Yerel bağımlılık veya COM etkileşimi yok.  
-- **Yüksek doğruluk** – Geometri, metin ve raster veriler tam olarak yeniden üretilir.  
-- **Toplu işleme** – Tek bir döngüde onlarca dosyayı minimum bellek kullanımıyla dışa aktarın.  
-- **Geniş format desteği** – Klasik DWG/DXF'ten modern IFC ve STL'ye, hepsi birleşik bir API ile.
+Aspose.CAD for Java, **pure‑Java** bir kütüphanedir—yerel DLL'lere veya COM etkileşimine gerek yoktur. Geometriyi, metni ve raster verileri **high fidelity** ile yeniden üretir, binlerce dosyanın **batch processing**'ini destekler ve **over 60 input and output formats** (DWG, DXF, IFC, STL, BMP, PNG ve PDF dahil) işleyebilir. Kütüphanenin bellek‑verimli boru hattı, tüm dosyayı RAM'e yüklemeden çok sayfalı çizimleri işleyebilmenizi sağlar.
 
-## Bunun Önemi Nedir
+## Bunun önemi nedir
 
-**CAD layout PDF** dosyalarını anında dönüştürebilmek, rapor üretimini otomatikleştirmenizi, müşteri hazır teslimatlar oluşturmanızı ve CAD verilerini ham DWG dosyalarını ortaya çıkarmadan web portallarına entegre etmenizi sağlar. Aynı API, küçük resimler, ön izlemeler ve hızlı görsel kontroller için yararlı olan görüntü tabanlı dışa aktarmaları (BMP, PNG) da yönetir.
+Anlık olarak **DWG'yi PDF'ye dönüştürebilmek**, rapor oluşturmayı otomatikleştirmenizi, müşteri hazır teslimatlar oluşturmanızı ve ham DWG dosyalarını ifşa etmeden CAD verilerini web portallarına gömmenizi sağlar. Aynı API, küçük resimler, hızlı görsel kontroller ve hafif ön izlemeler için görüntü‑tabanlı dışa aktarmalar (BMP, PNG) da oluşturur.
 
 ## Önkoşullar
 - Java 8 veya daha yeni bir sürüm yüklü.  
-- Aspose.CAD for Java kütüphanesini projenize ekleyin (Maven/Gradle ya da JAR).  
-- Üretim kullanımı için geçerli bir Aspose lisansı (ücretsiz deneme mevcuttur).
+- Aspose.CAD for Java kütüphanesi projenize eklenmiş (Maven, Gradle veya manuel JAR).  
+- Üretim kullanımı için geçerli bir Aspose lisansı (değerlendirme için ücretsiz deneme mevcuttur).
 
-## AutoCAD Görüntülerini PDF Olarak Dışa Aktar
+## Java'da DWG'yi PDF'ye nasıl dönüştürülür
 
-Aspose.CAD for Java ile AutoCAD görüntülerini PDF'ye zahmetsizce dönüştürün. Adım adım rehberimiz sorunsuz entegrasyonu sağlar, iş akışınızı basitleştirir. PDF dışa aktarmalarınızda hassasiyet ve güvenilirlik elde edin.
+`Image`, bellekte bir CAD belgesini temsil eden temel Aspose.CAD sınıfıdır.  
+`PdfOptions`, çözünürlük ve sıkıştırma gibi PDF‑özel çıktı ayarlarını yapılandırır.
 
-## CAD Düzenlerini PDF Olarak Dışa Aktar
+`Image.load` ile DWG'yi (veya desteklenen herhangi bir CAD formatını) yükleyin, ardından bir `PdfOptions` örneği kullanarak `save` çağrısı yapın. Bu iki adımlı desen, vektör‑PDF dönüşümünü yönetir, katmanları korur ve DPI ya da sıkıştırma ayarlarını ayarlamanıza olanak tanır.
 
-Aspose.CAD for Java'nın CAD düzenlerini PDF'ye dışa aktarmadaki verimliliğini keşfedin. Bu geliştirici dostu araç güvenilirlik garantisi verir, CAD düzenlerinizin PDF formatına doğru bir şekilde dönüştürülmesini sağlar. Sorunsuz bir deneyim için rehberimizi izleyin.
+`Image` sınıfı, bellekteki herhangi bir desteklenen CAD belgesini temsil ederken, `PdfOptions` çıktı PDF'sini yapılandırır. Ek dönüşüm araçları veya dış yardımcı programlara gerek yoktur.
 
-## BMP Olarak Dışa Aktar
+### Adım 1: DWG dosyasını yükle
+```java
+// Load a DWG file – the Image class is the entry point for all Aspose.CAD operations
+com.aspose.cad.Image cadImage = com.aspose.cad.Image.load("sample.dwg");
+```
 
-Aspose.CAD for Java ile sorunsuz CAD'tan BMP'ye dönüşüm dünyasına dalın. Adım adım rehberimiz dışa aktarmalarınızda verimlilik ve doğruluk sağlar. Eğitimimizi izleyerek projelerinizi zahmetsizce geliştirin.
+### Adım 2: PDF seçeneklerini yapılandır (isteğe bağlı)
+```java
+// Create PDF options – you can set vector rasterization DPI, compression, etc.
+com.aspose.cad.imageoptions.PdfOptions pdfOptions = new com.aspose.cad.imageoptions.PdfOptions();
+pdfOptions.setVectorRasterizationOptions(
+    new com.aspose.cad.imageoptions.VectorRasterizationOptions()
+        .setPageWidth(2100)   // width in pixels (A4 at 300 DPI)
+        .setPageHeight(2970)  // height in pixels
+        .setResolution(300)   // 300 DPI for high‑quality output
+);
+```
 
-## PDF Olarak Dışa Aktar
+### Adım 3: PDF olarak kaydet
+```java
+// Save the loaded DWG as a PDF file
+cadImage.save("output.pdf", pdfOptions);
 
-Aspose.CAD for Java ile CAD dosyalarını PDF'ye zahmetsizce dışa aktarmanın inceliklerini öğrenin. Adım adım rehberimiz entegrasyon sürecini basitleştirir, CAD dosyalarını PDF formatına sorunsuz bir şekilde dönüştürmenizi sağlar. Bu güçlü eğitimle iş akışınızı yükseltin.
+// Release resources – important when processing many files in a loop
+cadImage.dispose();
+```
 
-## IFC'yi PNG Olarak Dışa Aktar
+Yukarıdaki üç satır, eksiksiz bir **DWG'yi PDF'ye dönüştürmek** iş akışını oluşturur. Bunları bir döngü içinde kullanarak çizimlerin bulunduğu bir dizini toplu‑işlem yapabilirsiniz.
 
-Aspose.CAD for Java kullanarak IFC'yi PNG'ye zahmetsizce dönüştürün. Ayrıntılı eğitimimiz süreci adım adım yönlendirir, sorunsuz ve güvenilir bir dönüşüm sağlar. İş akışınızı basitleştirin ve Aspose.CAD for Java'nın yeteneklerini keşfedin.
+## CAD düzenlerini PDF'ye dışa aktar
 
-## STL'yi PNG Olarak Dışa Aktar
+Belirli bir düzeni (paper‑space görünümü) dışa aktarmak aynı şekilde çalışır çünkü Aspose.CAD her düzeni dahili olarak bir görüntü olarak ele alır. DWG'yi basitçe yükleyin, gerekirse adıyla düzeni seçin ve `PdfOptions` ile `save` çağrısı yapın. Ek bir dönüşüm adımına gerek yoktur.
 
-Aspose.CAD ile Java'da STL dosyalarını PNG'ye sorunsuz bir şekilde dışa aktarma sürecini keşfedin. İş akışınızı basitleştirin ve Java projelerinizi zahmetsizce geliştirin. Adım adım rehberimiz STL'den PNG'ye dönüşümlerde doğruluk ve güvenilirlik sağlar.
+## BMP'ye dışa aktar
 
-## CAD Dışa Aktarma Eğitimleri
+`BmpOptions`, bit derinliği ve çözünürlük gibi BMP‑formatı çıktı parametrelerini belirler. Raster küçük resimler veya bitmap varlıkları gerektiğinde `PdfOptions` yerine `BmpOptions` kullanın. Aynı `Image` nesnesi tek bir çağrı ile BMP olarak kaydedilebilir, kataloglar veya UI küçük resimleri için yüksek çözünürlüklü ön izlemeler oluşturmanıza olanak tanır.
 
-### [AutoCAD Görüntülerini PDF Olarak Dışa Aktar - Aspose.CAD for Java Eğitimi](./export-autocad-images-to-pdf/)
-Zahmetsizce AutoCAD görüntülerini PDF olarak dışa aktarın. Adım adım rehberimizi izleyerek sorunsuz entegrasyon sağlayın.
+## PDF'ye dışa aktar (genel CAD dosyaları)
 
-### [Aspose.CAD for Java ile CAD Düzenlerini PDF Olarak Dışa Aktar](./export-cad-layouts-to-pdf/)
-Aspose.CAD for Java ile CAD düzenlerini PDF olarak zahmetsizce dışa aktarın. Etkili, güvenilir ve geliştirici dostu.
+DWG'nin ötesinde, kütüphane aynı kodla DXF, DWF ve diğer CAD formatlarını PDF'ye dönüştürebilir. `Image.load` içindeki dosya uzantısını değiştirmeniz yeterlidir. Temel dönüşüm motoru kaynak formatı otomatik olarak algılar.
 
-### [Aspose.CAD for Java ile BMP Olarak Dışa Aktar](./export-to-bmp/)
-Aspose.CAD for Java ile sorunsuz CAD'tan BMP'ye dönüşümü keşfedin. Etkili ve kesin dışa aktarmalar için adım adım rehberimizi izleyin.
+## IFC'yi PNG'ye dışa aktar
 
-### [Aspose.CAD for Java ile PDF Olarak Dışa Aktar](./export-to-pdf/)
-Aspose.CAD for Java ile CAD dosyalarını PDF'ye zahmetsizce dışa aktarmayı öğrenin. Sorunsuz entegrasyon için adım adım rehberimizi izleyin.
+`PngOptions`, sıkıştırma seviyesi gibi PNG‑formatı ayarlarını tanımlar. IFC (Industry Foundation Classes) dosyaları BIM iş akışlarında yaygındır. IFC'yi `Image.load` ile yükleyin ve `PngOptions` kullanarak PNG olarak kaydedin. Bu, web panolarına veya belgelere gömülebilen bir raster görüntü üretir.
 
-### [Aspose.CAD for Java ile IFC'yi PNG Olarak Dışa Aktar](./export-ifc-to-png/)
-Aspose.CAD for Java ile IFC'yi PNG'ye zahmetsizce dönüştürün. Adım adım eğitimimizi izleyin.
+## STL'yi PNG'ye dışa aktar
 
-### [Aspose.CAD for Java ile STL'yi PNG Olarak Dışa Aktar](./export-stl-to-png/)
+`PngOptions`, sıkıştırma seviyesi gibi PNG‑formatı ayarlarını tanımlar. STL dosyaları 3‑D ağları tanımlar. Aspose.CAD, bunları 2‑D bir görüntüye render eder; bu görüntüyü hızlı görsel kontroller veya ürün listeleri için PNG olarak dışa aktarabilirsiniz. Aynı `Image.save("model.png", new PngOptions())` deseni uygulanır.
+
+## CAD dışa aktarma öğreticileri
+
+### [AutoCAD görüntülerini PDF'ye dışa aktar - Aspose.CAD for Java öğreticisi](./export-autocad-images-to-pdf/)
+Aspose.CAD for Java kullanarak AutoCAD görüntülerini PDF'ye zahmetsizce dışa aktarın. Sorunsuz entegrasyon için adım adım rehberimizi izleyin.
+
+### [Aspose.CAD for Java ile CAD düzenlerini PDF'ye dışa aktar](./export-cad-layouts-to-pdf/)
+Aspose.CAD for Java'yı keşfederek CAD düzenlerini PDF'ye zahmetsizce dışa aktarın. Verimli, güvenilir ve geliştirici‑dostu.
+
+### [Aspose.CAD for Java ile BMP'ye dışa aktar](./export-to-bmp/)
+Aspose.CAD for Java ile CAD'den BMP'ye sorunsuz dönüşümü keşfedin. Verimli ve kesin dışa aktarmalar için adım adım rehberimizi izleyin.
+
+### [Aspose.CAD for Java ile PDF'ye dışa aktar](./export-to-pdf/)
+Aspose.CAD for Java kullanarak CAD dosyalarını PDF'ye zahmetsizce dışa aktarmayı öğrenin. Sorunsuz entegrasyon için adım adım rehberimizi izleyin.
+
+### [Aspose.CAD for Java ile IFC'yi PNG'ye dışa aktar](./export-ifc-to-png/)
+Aspose.CAD for Java ile IFC'yi PNG'ye zahmetsizce dönüştürün. Adım adım öğreticimizi izleyin.
+
+### [Aspose.CAD for Java ile STL'yi PNG'ye dışa aktar](./export-stl-to-png/)
 Aspose.CAD ile Java'da STL dosyalarını PNG'ye sorunsuz bir şekilde dışa aktarma sürecini keşfedin. İş akışınızı basitleştirin ve Java projelerinizi zahmetsizce geliştirin.
 
-### Yaygın Kullanım Durumları
-- **Müşteri teslimatları** – Kaynak DWG dosyalarını ortaya çıkarmadan PDF formatında tasarım incelemeleri sağlayın.  
-- **Otomatik raporlama** – Panolar için IFC veya STL modellerinin PNG küçük resimlerini oluşturun.  
-- **Toplu dönüşüm hatları** – Basit bir Java döngüsüyle büyük CAD arşivlerini gece boyunca işleyin.
+## Ortak kullanım senaryoları
+- **Müşteri teslimatları** – Kaynak DWG dosyalarını ifşa etmeden PDF formatında tasarım incelemeleri sağlayın.  
+- **Otomatik raporlama** – Gösterge panelleri için IFC veya STL modellerinin PNG küçük resimlerini oluşturun.  
+- **Toplu dönüşüm hatları** – Basit bir Java döngüsü kullanarak büyük CAD arşivlerini gece boyunca işleyin.
 
-### İpuçları ve Püf Noktaları
-- **Pro ipucu:** Raster tabanlı dışa aktarmalar için DPI kontrolü sağlamak üzere `PdfOptions.setVectorRasterizationOptions()` ayarlayın.  
-- **Bellek dalgalanmalarını önleyin:** Çok sayıda dosya işlenirken her kaydetmeden sonra `Image.dispose()` kullanın.  
-- **Sorun giderme:** Katmanlar kaybolursa, kaynak DWG'nin görünür katmanlar içerdiğinden ve `PdfOptions.setCompress(true)` etkin olduğundan emin olun.
+## İpuçları ve püf noktaları
+- **Pro tip:** Raster‑tabanlı dışa aktarmalar için DPI'yi kontrol etmek ve dosya boyutlarını makul tutmak amacıyla `PdfOptions.setVectorRasterizationOptions().setResolution(300)` ayarlayın.  
+- **Bellek dalgalanmalarını önleyin:** Call `Image.dispose()` after each `save` when processing many files.  
+- **Sorun giderme:** Katmanlar kaybolursa, kaynak DWG'nin görünür katmanlara sahip olduğunu doğrulayın ve `PdfOptions.setCompress(true)` ile sıkıştırmayı etkinleştirin.
 
-## Sıkça Sorulan Sorular
+## Sıkça sorulan sorular
 
-**S: Aspose.CAD kullanarak IFC'yi PNG'ye nasıl dönüştürürüm?**  
-C: `Image.load("model.ifc")` ile IFC dosyasını yükleyin ve `save("model.png", new PngOptions())` çağırın.
+**Q: Aspose.CAD kullanarak IFC'yi PNG'ye nasıl dönüştürürüm?**  
+A: IFC dosyasını `Image.load("model.ifc")` ile yükleyin ve `save("model.png", new PngOptions())` çağırın.
 
-**S: CAD düzenini önce bir görüntüye dönüştürmeden doğrudan PDF olarak dışa aktarabilir miyim?**  
-C: Evet—Aspose.CAD düzenleri dahili olarak görüntü olarak işler, bu yüzden `save("layout.pdf", new PdfOptions())` otomatik olarak halleder.
+**Q: Bir CAD düzenini önce görüntüye dönüştürmeden doğrudan PDF'ye dışa aktarabilir miyim?**  
+A: Evet—Aspose.CAD düzenleri dahili olarak görüntü olarak ele alır, bu yüzden `save("layout.pdf", new PdfOptions())` bunu otomatik olarak işler.
 
-**S: AutoCAD'yi PDF olarak dışa aktarmak ile CAD düzenini PDF olarak dışa aktarmak arasındaki fark nedir?**  
-C: AutoCAD çizimini dışa aktarmak tüm çizimi dönüştürürken, bir düzeni dışa aktarmak belirli bir kağıt‑alanı görünümünü hedefler ve sayfa ayarlarını korur.
+**Q: AutoCAD'i PDF'ye dışa aktarmak ile bir CAD düzenini PDF'ye dışa aktarmak arasındaki fark nedir?**  
+A: AutoCAD çizimini dışa aktarmak tüm çizimi dönüştürürken, bir düzeni dışa aktarmak belirli bir paper‑space görünümünü hedefler ve sayfa ayarlarını korur.
 
-**S: Çok sayfalı bir DWG'yi PDF'ye dışa aktarırken sayfa sayısı için bir sınırlama var mı?**  
-C: Yerleşik bir sınırlama yoktur; her düzen sonuç PDF'de ayrı bir sayfa olur.
+**Q: Çok sayfalı bir DWG'yi PDF'ye dışa aktarırken sayfa sayısı için bir sınırlama var mı?**  
+A: Yerleşik bir sınırlama yoktur; her düzen, ortaya çıkan PDF'de ayrı bir sayfa olur.
 
-**S: Her dışa aktarma formatı için ayrı bir lisansa ihtiyacım var mı?**  
-C: Tek bir Aspose.CAD lisansı tüm desteklenen formatları (PDF, PNG, BMP, vb.) kapsar.
+**Q: Her dışa aktarma formatı için ayrı bir lisansa ihtiyacım var mı?**  
+A: Tek bir Aspose.CAD lisansı, tüm desteklenen formatları (PDF, PNG, BMP, vb.) kapsar.
 
----
-
-**Son Güncelleme:** 2026-04-13  
-**Test Edilen Versiyon:** Aspose.CAD for Java 24.12  
+**Son Güncelleme:** 2026-10-25  
+**Test Edilen:** Aspose.CAD for Java 24.12  
 **Yazar:** Aspose
 
----
+## İlgili Öğreticiler
+
+- [CAD'yi PDF'ye dışa aktar: Aspose.CAD for Java ile CAD düzenlerini PDF'ye dışa aktar](/cad/java/cad-export-options/export-cad-layouts-to-pdf/)
+- [Java'da DWG'yi PDF'ye dışa aktar – PDF sayfa boyutunu Aspose.CAD ile ayarlayın](/cad/java/cad-export-options/export-to-pdf/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
