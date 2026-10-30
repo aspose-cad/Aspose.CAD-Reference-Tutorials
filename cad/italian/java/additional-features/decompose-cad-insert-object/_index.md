@@ -1,13 +1,21 @@
 ---
-date: 2026-06-19
-description: Scopri come scomporre l'oggetto di inserimento CAD in Java utilizzando
-  Aspose.CAD. Segui questa guida passo‑passo per suddividere gli oggetti di inserimento
-  in modo efficiente.
+date: 2026-10-30
+description: Scopri come decomporre l'oggetto di inserimento CAD in Java usando Aspose.CAD.
+  Segui questa guida passo‑passo per scomporre gli oggetti di inserimento in modo
+  efficiente.
 keywords:
 - decompose cad insert
 - Aspose.CAD Java
 - CAD block extraction
-linktitle: Scomponi l'oggetto di inserimento CAD con Java
+- CAD insert object Java
+- CAD entity decomposition
+lastmod: 2026-10-30
+linktitle: Decomporre l'oggetto di inserimento CAD con Java
+og_description: Scopri come decomporre gli oggetti di inserimento CAD usando Aspose.CAD
+  per Java. Questo tutorial passo‑passo ti mostra come estrarre le entità di blocco
+  in modo efficiente.
+og_image_alt: Screenshot of Java code extracting CAD insert objects with Aspose.CAD
+og_title: Decomporre l'oggetto di inserimento CAD con Aspose.CAD in Java – Guida rapida
 schemas:
 - author: Aspose
   dateModified: '2026-06-19'
@@ -49,14 +57,19 @@ schemas:
   - answer: Temporary licenses are provided for 30‑day evaluation periods via the
       [this link](https://purchase.aspose.com/temporary-license/).
     question: How can I obtain a temporary license for Aspose.CAD for Java?
-  - answer: The full API reference is available [here](https://reference.aspose.com/cad/java/).
+  - answer: The full API reference is available [Aspose.CAD Java API reference](https://reference.aspose.com/cad/java/).
     question: Where can I find detailed documentation for Aspose.CAD for Java?
   - answer: Yes, the Aspose.CAD distribution includes a “DXFDrawings” folder with
       a variety of sample files for testing.
     question: Are there sample drawings I can use to practice?
   type: FAQPage
 second_title: Aspose.CAD Java API
-title: Scomporre l'oggetto di inserimento CAD con Aspose.CAD in Java
+tags:
+- decompose CAD
+- Aspose.CAD
+- Java CAD processing
+- CAD block extraction
+title: Decomporre l'oggetto di inserimento CAD con Aspose.CAD in Java
 url: /it/java/additional-features/decompose-cad-insert-object/
 weight: 11
 ---
@@ -69,32 +82,35 @@ weight: 11
 
 ## Introduzione
 
-In questo tutorial completo imparerai **come decomporre oggetti di inserimento CAD** con Aspose.CAD per Java. Che tu stia integrando l'elaborazione CAD in uno strumento desktop o in un servizio lato server, suddividere un oggetto di inserimento nelle sue entità individuali ti consente di manipolare, analizzare o convertire ogni parte in modo indipendente. Ti guideremo attraverso l'intero flusso di lavoro — dall'impostazione dell'ambiente all'iterazione sulle entità dei blocchi — così potrai iniziare a gestire gli oggetti di inserimento CAD subito. Aspose.CAD fa parte della famiglia di librerie Aspose, disponibile [qui](https://releases.aspose.com/).
+In questo tutorial completo imparerai **come decomporre oggetti di inserimento CAD** con Aspose.CAD per Java. Che tu stia creando un'utilità desktop, un servizio di conversione basato su cloud o una pipeline di estrazione dati, suddividere un oggetto di inserimento nelle sue entità individuali ti consente di analizzare, trasformare o esportare ogni parte in modo indipendente. Percorreremo l'intero flusso di lavoro — dalla preparazione dell'ambiente di sviluppo all'iterazione sulle entità dei blocchi — così potrai iniziare a gestire gli oggetti di inserimento CAD subito. Aspose.CAD fa parte della famiglia di librerie Aspose, disponibile nella [pagina dei rilasci Aspose](https://releases.aspose.com/).
 
 ## Risposte rapide
-- **Cosa significa “decompose cad insert object”?** Significa estrarre la definizione del blocco (insert) e le sue entità figlie da un disegno CAD.  
+- **Cosa significa “decomporre oggetto di inserimento CAD”?** Significa estrarre la definizione del blocco (inserimento) e le sue entità figlie da un disegno CAD.  
 - **Quale libreria è necessaria?** Aspose.CAD per Java (ultima versione).  
-- **Ho bisogno di una licenza per lo sviluppo?** Una versione di prova gratuita è sufficiente per i test; è necessaria una licenza commerciale per la produzione.  
-- **Quali formati CAD sono supportati?** DXF, DWG, DWF, DGN e più di 30 formati aggiuntivi.  
+- **È necessaria una licenza per lo sviluppo?** Una versione di prova gratuita è sufficiente per i test; è richiesta una licenza commerciale per la produzione.  
+- **Quali formati CAD sono supportati?** DXF, DWG, DWF, DGN e oltre 30 formati aggiuntivi.  
 - **Quanto tempo richiede l'implementazione?** Circa 10‑15 minuti per un'estrazione di base.
 
 ## Cos'è la decomposizione di un inserimento CAD?
 
-**Decomporre un inserimento CAD** è il processo di suddividere un'entità INSERT nella sua definizione di blocco sottostante e recuperare ogni elemento geometrico che contiene. Questo consente un'analisi dettagliata, una conversione selettiva o un rendering personalizzato di ciascun componente, e tipicamente comporta l'estrazione di decine di entità di linea, arco e testo che insieme formano il blocco originale.
+La decomposizione di un inserimento CAD è il processo di estrazione della definizione di blocco sottostante a un'entità INSERT e di enumerare ogni elemento geometrico che contiene. Questo consente un'analisi dettagliata, una conversione selettiva o un rendering personalizzato di ciascun componente. Estrarre linee, archi, testo e altre primitive ti dà il pieno controllo programmatico sul blocco originale.
 
-## Perché utilizzare Aspose.CAD per Java?
+## Perché usare Aspose.CAD per Java?
 
-Aspose.CAD supporta **30+** formati CAD in ingresso e uscita — inclusi DWG, DXF, DWF, DGN e PDF — elaborando disegni con centinaia di pagine senza caricare l'intero file in memoria. L'API funziona su qualsiasi piattaforma compatibile con Java, non richiede installazioni CAD native e offre prestazioni deterministiche che scalano linearmente con il numero di entità.
+Aspose.CAD per Java supporta **30+** formati CAD in ingresso e in uscita — inclusi DWG, DXF, DWF, DGN e PDF — e può elaborare disegni di centinaia di pagine senza caricare l'intero file in memoria. L'API funziona su qualsiasi piattaforma compatibile con Java, non richiede installazioni CAD native e offre prestazioni deterministiche che scalano linearmente con il numero di entità, rendendola ideale per l'elaborazione batch o per servizi in tempo reale.
 
 ## Prerequisiti
 
-- **Libreria Aspose.CAD per Java** – Scarica e installa l'ultima versione da [qui](https://releases.aspose.com/cad/java/).  
-- **Java Development Kit (JDK)** – Si consiglia JDK 11 o versioni successive.  
-- **Integrated Development Environment (IDE)** – Usa Eclipse, IntelliJ IDEA o qualsiasi IDE preferisci per lo sviluppo Java.
+Prima di iniziare, assicurati di avere:
 
-## Importazione dei namespace
+- **Libreria Aspose.CAD per Java** – scarica l'ultima versione dalla [pagina di download Aspose.CAD Java](https://releases.aspose.com/cad/java/).  
+- **Java Development Kit (JDK) 11 o superiore** – la libreria è compilata per Java 8+, ma JDK 11 offre supporto a lungo termine.  
+- **Un IDE** come IntelliJ IDEA, Eclipse o VS Code con estensioni Java.  
+- **Una cartella chiamata `DXFDrawings`** che contiene file CAD di esempio per i test.
 
-Le istruzioni `import` ti danno accesso alle classi core necessarie per la manipolazione CAD.
+## Importa namespace
+
+Importa le classi Aspose.CAD necessarie per lavorare con i file CAD.
 
 ```java
 import com.aspose.cad.Color;
@@ -111,13 +127,13 @@ import java.util.ArrayList;
 import java.util.List;
 ```
 
-## Come decomporre un oggetto di inserimento CAD usando Aspose.CAD per Java?
+## Come decomporre l'oggetto di inserimento CAD usando Aspose.CAD per Java?
 
-Carica il file CAD, individua ogni entità INSERT, recupera il blocco associato e poi percorri ogni entità figlia. I passaggi seguenti mostrano la sequenza esatta da seguire, includendo la gestione delle risorse e consigli sulle migliori pratiche.
+Carica il file CAD, individua ogni entità INSERT, recupera il blocco associato e poi percorri ciascuna entità figlia. Il processo completo può essere espresso in quattro passaggi concisi, e il codice viene eseguito in meno di un secondo per i tipici file DXF.
 
-### Passo 1: Imposta il percorso della directory delle risorse
+### Passo 1: impostare il percorso della directory delle risorse
 
-Definisci una cartella stabile che contiene tutti i disegni di esempio. Mantenere i file in una directory dedicata **DXFDrawings** evita errori legati ai percorsi tra le macchine di sviluppo.
+Definisci una cartella stabile che contiene tutti i disegni di esempio. Tenere i file in una directory dedicata **DXFDrawings** evita errori legati ai percorsi su macchine di sviluppo diverse.
 
 ```java
 // The path to the resource directory.
@@ -126,18 +142,18 @@ String dataDir = "Your Document Directory" + "DXFDrawings/";
 
 *Consiglio:* Usa `System.getProperty("user.dir")` per costruire un percorso assoluto che funzioni sia su Windows che su Linux.
 
-### Passo 2: Carica l'immagine CAD
+### Passo 2: caricare l'immagine CAD
 
-`CadImage` è la classe principale che rappresenta un disegno CAD in memoria. Quando la istanzi con un percorso file, Aspose.CAD analizza il file e costruisce un albero di entità pronto per l'attraversamento.
+`CadImage` è la classe principale che rappresenta un disegno CAD in memoria. Quando la istanzi con un percorso file, Aspose.CAD analizza il file e costruisce un albero di entità pronto per la traversata.
 
 ```java
 String srcFile = dataDir + "conic_pyramid.dxf";
 CadImage cadImage =(CadImage) Image.load(srcFile);
 ```
 
-A questo punto `cadImage` rappresenta l'intero disegno, inclusi gli eventuali oggetti di inserimento presenti.
+A questo punto `cadImage` rappresenta l'intero disegno, inclusi eventuali oggetti di inserimento presenti.
 
-### Passo 3: Itera attraverso le entità CAD
+### Passo 3: iterare attraverso le entità CAD
 
 `CadEntity` è il tipo base per ogni oggetto disegnabile. Controllando il tipo di entità puoi isolare gli oggetti INSERT, recuperare le loro definizioni di blocco e poi enumerare le geometrie interne.
 
@@ -166,9 +182,9 @@ for (int i=0; i<cadImage.getEntities().length;i++)
 - Quando incontriamo un'entità di tipo **INSERT**, recuperiamo il corrispondente `CadBlockEntity`.  
 - Il ciclo interno ti dà accesso a ciascuna entità figlia (linee, archi, cerchi, ecc.) all'interno di quel blocco, decomponendo effettivamente l'oggetto di inserimento.
 
-### Passo 4: Rilascia le risorse
+### Passo 4: rilasciare le risorse
 
-Aspose.CAD assegna risorse native per i disegni di grandi dimensioni. Chiamare `close()` (o utilizzare un blocco try‑with‑resources) rilascia tali handle e previene perdite di memoria, particolarmente importante quando si elaborano molti file in un lavoro batch.
+Aspose.CAD alloca risorse native per disegni di grandi dimensioni. Chiamare `close()` (o utilizzare un blocco try‑with‑resources) rilascia questi handle e previene perdite di memoria, particolarmente importante quando si elaborano molti file in un job batch.
 
 ```java
 finally
@@ -179,48 +195,49 @@ finally
 
 ## Problemi comuni e consigli
 
-- **Riferimento a blocco nullo:** Se un INSERT fa riferimento a un blocco mancante, `get_Item` restituirà `null`. Aggiungi un controllo null prima dell'elaborazione.  
-- **Prestazioni:** Per disegni molto grandi, considera di filtrare le entità per layer o tipo prima di iterare.  
+- **Riferimento a blocco nullo:** Se un INSERT fa riferimento a un blocco mancante, `get_Item` restituirà `null`. Aggiungi un controllo null prima di elaborare.  
+- **Prestazioni:** Per disegni molto grandi, considera di filtrare le entità per layer o tipo prima dell'iterazione.  
 - **Sistemi di coordinate:** Gli oggetti di inserimento possono avere matrici di trasformazione; usa `CadInsertObject.getTransform()` se ti servono coordinate assolute.  
-- **Uso della memoria:** Aspose.CAD elabora i file in modalità streaming, ma l'allocazione di un `CadImage` per un DWG di 500 pagine consuma comunque circa 150 MB di RAM. Rilascia subito.
+- **Utilizzo della memoria:** Aspose.CAD elabora i file in streaming, ma allocare un `CadImage` per un DWG di 500 pagine consuma comunque ~150 MB di RAM. Rilascia le risorse tempestivamente.
 
 ## Conclusione
 
-In questo tutorial, abbiamo esplorato il processo di **decomporre oggetti di inserimento CAD** usando Aspose.CAD per Java. Con la sua potente API, Aspose.CAD rende semplice estrarre e manipolare le entità interne degli oggetti di inserimento, aprendo la porta ad analisi personalizzate, pipeline di conversione o visualizzazioni. Sperimenta con il codice di esempio, adatta i cicli alla tua logica di business e avrai una solida base per qualsiasi applicazione Java basata su CAD.
+In questo tutorial abbiamo esplorato il processo di **decomposizione di oggetti di inserimento CAD** usando Aspose.CAD per Java. Con la sua potente API, Aspose.CAD rende semplice estrarre e manipolare le entità interne degli oggetti di inserimento, aprendo la porta a analisi personalizzate, pipeline di conversione o visualizzazioni. Sperimenta con il codice di esempio, adatta i cicli alla tua logica di business e avrai una solida base per qualsiasi applicazione Java basata su CAD.
 
-Se incontri difficoltà o hai domande, sentiti libero di visitare il nostro [forum di supporto](https://forum.aspose.com/c/cad/19).
+Se incontri difficoltà o hai domande, visita il nostro [forum di supporto](https://forum.aspose.com/c/cad/19).
 
 ## Domande frequenti
 
 **D: Posso usare Aspose.CAD per Java in un progetto commerciale?**  
-R: Sì, puoi. Acquista una licenza commerciale per rimuovere le restrizioni di valutazione e ricevere supporto prioritario. Puoi acquistare una licenza nella [pagina di acquisto](https://purchase.aspose.com/buy).
+R: Sì. Acquista una licenza commerciale per rimuovere le limitazioni di valutazione e ricevere supporto prioritario. Puoi acquistare una licenza nella [pagina di acquisto](https://purchase.aspose.com/buy).
 
 **D: È disponibile una versione di prova gratuita per Aspose.CAD per Java?**  
-R: Assolutamente. Scarica la versione di prova dalla pagina di rilascio ufficiale e inizia a sperimentare senza costi.
+R: Assolutamente sì. Scarica la versione di prova dalla pagina ufficiale di rilascio e inizia a sperimentare senza costi.
 
 **D: Come posso ottenere una licenza temporanea per Aspose.CAD per Java?**  
 R: Le licenze temporanee sono fornite per periodi di valutazione di 30 giorni tramite [questo link](https://purchase.aspose.com/temporary-license/).
 
 **D: Dove posso trovare la documentazione dettagliata per Aspose.CAD per Java?**  
-R: Il riferimento completo dell'API è disponibile [qui](https://reference.aspose.com/cad/java/).
+R: Il riferimento completo dell'API è disponibile su [Aspose.CAD Java API reference](https://reference.aspose.com/cad/java/).
 
 **D: Ci sono disegni di esempio che posso usare per esercitarmi?**  
 R: Sì, la distribuzione di Aspose.CAD include una cartella “DXFDrawings” con una varietà di file di esempio per i test.
 
 ---
 
-**Ultimo aggiornamento:** 2026-06-19  
-**Testato con:** Aspose.CAD for Java 24.11  
+**Ultimo aggiornamento:** 2026-10-30  
+**Testato con:** Aspose.CAD per Java 24.11  
 **Autore:** Aspose  
-
-{{< blocks/products/products-backtop-button >}}
 
 ## Tutorial correlati
 
-- [Come estrarre attributi - Valore dell'attributo del blocco da riferimento esterno usando Aspose.CAD in Java](/cad/java/advanced-cad-features/extract-block-attribute-value/)
-- [Come leggere file DWT con Aspose.CAD per Java](/cad/java/advanced-cad-features/reading-dwt-files/)
-- [Imposta la dimensione della canvas – Funzionalità CAD avanzate con Aspose.CAD per Java](/cad/java/advanced-cad-features/)
+- [How to Extract Attributes - Block Attribute Value from External Reference Using Aspose.CAD in Java](/cad/java/advanced-cad-features/extract-block-attribute-value/)
+- [How to Read DWT Files with Aspose.CAD for Java](/cad/java/advanced-cad-features/reading-dwt-files/)
+- [Set Canvas Size – Advanced CAD Features with Aspose.CAD for Java](/cad/java/advanced-cad-features/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

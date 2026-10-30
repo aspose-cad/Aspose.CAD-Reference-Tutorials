@@ -1,13 +1,20 @@
 ---
-date: 2026-06-19
-description: Aspose.CAD kullanarak Java'da CAD Insert Object'i nasıl ayrıştıracağınızı
-  öğrenin. Insert nesnelerini verimli bir şekilde çözmek için bu adım adım kılavuzu
-  izleyin.
+date: 2026-10-30
+description: Aspose.CAD kullanarak Java'da CAD ekleme nesnesini nasıl ayrıştıracağınızı
+  öğrenin. Bu adım adım rehberi izleyerek ekleme nesnelerini verimli bir şekilde parçalayın.
 keywords:
 - decompose cad insert
 - Aspose.CAD Java
 - CAD block extraction
-linktitle: Java ile CAD Insert Object'i Ayrıştırma
+- CAD insert object Java
+- CAD entity decomposition
+lastmod: 2026-10-30
+linktitle: Java ile CAD Ekleme Nesnesini Ayrıştır
+og_description: Aspose.CAD for Java kullanarak CAD ekleme nesnelerini nasıl ayrıştıracağınızı
+  öğrenin. Bu adım adım öğretici, blok varlıklarını verimli bir şekilde çıkarmanızı
+  gösterir.
+og_image_alt: Screenshot of Java code extracting CAD insert objects with Aspose.CAD
+og_title: Aspose.CAD ile Java'da CAD ekleme nesnesini ayrıştır – Hızlı rehber
 schemas:
 - author: Aspose
   dateModified: '2026-06-19'
@@ -49,14 +56,19 @@ schemas:
   - answer: Temporary licenses are provided for 30‑day evaluation periods via the
       [this link](https://purchase.aspose.com/temporary-license/).
     question: How can I obtain a temporary license for Aspose.CAD for Java?
-  - answer: The full API reference is available [here](https://reference.aspose.com/cad/java/).
+  - answer: The full API reference is available [Aspose.CAD Java API reference](https://reference.aspose.com/cad/java/).
     question: Where can I find detailed documentation for Aspose.CAD for Java?
   - answer: Yes, the Aspose.CAD distribution includes a “DXFDrawings” folder with
       a variety of sample files for testing.
     question: Are there sample drawings I can use to practice?
   type: FAQPage
 second_title: Aspose.CAD Java API
-title: Aspose.CAD ile Java'da CAD Insert Object'i Ayrıştırma
+tags:
+- decompose CAD
+- Aspose.CAD
+- Java CAD processing
+- CAD block extraction
+title: Aspose.CAD ile Java'da CAD ekleme nesnesini ayrıştırın
 url: /tr/java/additional-features/decompose-cad-insert-object/
 weight: 11
 ---
@@ -65,36 +77,37 @@ weight: 11
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.CAD ile Java'da CAD Insert Nesnesini Ayrıştırma
+# Aspose.CAD ile Java'da CAD insert nesnesini ayrıştırma
 
 ## Giriş
 
-Bu kapsamlı öğreticide, Aspose.CAD for Java ile **how to decompose cad insert object** dosyalarını nasıl öğreneceksiniz. CAD işleme özelliğini bir masaüstü aracı ya da sunucu‑tarafı hizmetine entegre ediyor olun, bir insert nesnesini bireysel varlıklara ayırmak, her parçayı bağımsız olarak manipüle etmenizi, analiz etmenizi veya dönüştürmenizi sağlar. Ortamı kurmaktan blok varlıkları üzerinde döngü yapmaya kadar tüm iş akışını adım adım göstereceğiz, böylece CAD insert nesneleriyle hemen çalışmaya başlayabilirsiniz. Aspose.CAD, [burada](https://releases.aspose.com/) bulunan Aspose kütüphane ailesinin bir parçasıdır.
+Bu kapsamlı öğreticide, Aspose.CAD for Java ile **cad insert nesnesini nasıl ayrıştıracağınızı** öğreneceksiniz. Masaüstü yardımcı programı, bulut tabanlı dönüşüm hizmeti ya da veri çıkarma hattı oluşturuyor olun, bir insert nesnesini bireysel varlıklara ayırmak, her bir parçayı bağımsız olarak analiz etmenizi, dönüştürmenizi veya dışa aktarmanızı sağlar. Geliştirme ortamını hazırlamaktan blok varlıkları üzerinde yinelemeye kadar tüm iş akışını adım adım göstereceğiz, böylece CAD insert nesnelerini hemen işlemeye başlayabilirsiniz. Aspose.CAD, [Aspose releases page](https://releases.aspose.com/) adresinde bulunan Aspose kütüphane ailesinin bir parçasıdır.
 
-## Hızlı Yanıtlar
-- **“decompose cad insert object” ne anlama geliyor?** Bu, bir CAD çiziminden blok (insert) tanımını ve onun alt varlıklarını çıkarmak anlamına gelir.  
-- **Hangi kütüphane gerekiyor?** Aspose.CAD for Java (latest version).  
-- **Geliştirme için lisansa ihtiyacım var mı?** Ücretsiz deneme sürümü test için çalışır; üretim için ticari lisans gereklidir.  
+## Hızlı cevaplar
+- **“decompose cad insert object” ne anlama geliyor?** Bir CAD çiziminden blok (insert) tanımını ve onun alt varlıklarını çıkarmak anlamına gelir.  
+- **Hangi kütüphane gerekiyor?** Aspose.CAD for Java (en son sürüm).  
+- **Geliştirme için lisansa ihtiyacım var mı?** Test için ücretsiz deneme çalışır; üretim için ticari lisans gereklidir.  
 - **Hangi CAD formatları destekleniyor?** DXF, DWG, DWF, DGN ve 30'dan fazla ek format.  
 - **Uygulama ne kadar sürer?** Temel bir çıkarım için yaklaşık 10‑15 dakika.
 
 ## Decompose cad insert nedir?
 
-**Decompose cad insert**, bir INSERT varlığını temel blok tanımına ayırma ve içinde bulunan her geometrik öğeyi geri getirme sürecidir. Bu, ince‑düzeyli analiz, seçici dönüşüm veya her bileşenin özel olarak render edilmesini sağlar ve genellikle orijinal bloğu oluşturan onlarca çizgi, yay ve metin varlığının çıkarılmasını içerir.
+Decompose cad insert, bir INSERT varlığının temel blok tanımını çıkarmak ve içinde bulunan her geometri öğesini listelemek sürecidir. Bu, her bileşenin ayrıntılı analizini, seçici dönüşümünü veya özel render edilmesini sağlar. Çizgileri, yayları, metni ve diğer temel öğeleri çıkararak orijinal blok üzerinde tam programatik kontrol elde edersiniz.
 
 ## Neden Aspose.CAD for Java kullanmalı?
 
-Aspose.CAD, **30+** giriş ve çıkış CAD formatını destekler—DWG, DXF, DWF, DGN ve PDF dahil—ve tüm dosyayı belleğe yüklemeden çok sayfalı çizimleri işleyebilir. API, herhangi bir Java‑uyumlu platformda çalışır, yerel CAD kurulumuna ihtiyaç duymaz ve varlık sayısıyla lineer olarak ölçeklenen deterministik performans sunar.
+Aspose.CAD for Java, **30+** giriş ve çıkış CAD formatını destekler—DWG, DXF, DWF, DGN ve PDF dahil— ve tüm dosyayı belleğe yüklemeden çok sayfalı çizimleri işleyebilir. API, Java uyumlu herhangi bir platformda çalışır, yerel CAD kurulumuna ihtiyaç duymaz ve varlık sayısıyla lineer olarak ölçeklenen deterministik performans sunar; bu da toplu işleme veya gerçek zamanlı hizmetler için idealdir.
 
 ## Önkoşullar
 
-- **Aspose.CAD for Java Kütüphanesi** – En son sürümü [buradan](https://releases.aspose.com/cad/java/) indirip kurun.  
-- **Java Development Kit (JDK)** – JDK 11 veya daha yenisi önerilir.  
-- **Entegre Geliştirme Ortamı (IDE)** – Java geliştirme için Eclipse, IntelliJ IDEA veya tercih ettiğiniz herhangi bir IDE'yi kullanın.
+- **Aspose.CAD for Java kütüphanesi** – en son sürümü [Aspose.CAD Java download page](https://releases.aspose.com/cad/java/) adresinden indirin.  
+- **Java Development Kit (JDK) 11 veya daha yeni** – kütüphane Java 8+ için derlenmiştir ancak JDK 11 uzun vadeli destek sağlar.  
+- **Bir IDE** örneğin IntelliJ IDEA, Eclipse veya Java uzantılarına sahip VS Code.  
+- **`DXFDrawings` adlı bir klasör** içinde test için örnek CAD dosyaları bulunur.
 
-## İsim Uzaylarını İçe Aktarma
+## Ad alanlarını içe aktar
 
-`import` ifadeleri, CAD manipülasyonu için gereken temel sınıflara erişim sağlar.
+CAD dosyalarıyla çalışmak için gerekli Aspose.CAD sınıflarını içe aktarın.
 
 ```java
 import com.aspose.cad.Color;
@@ -111,37 +124,37 @@ import java.util.ArrayList;
 import java.util.List;
 ```
 
-## Aspose.CAD for Java ile CAD insert nesnesini nasıl ayrıştırılır?
+## Aspose.CAD for Java kullanarak CAD insert nesnesini nasıl ayrıştırabilirsiniz?
 
-CAD dosyasını yükleyin, her INSERT varlığını bulun, ilişkili bloğu alın ve ardından her alt varlık üzerinde dolaşın. Aşağıdaki adımlar, kaynak yönetimi ve en iyi uygulama ipuçları dahil olmak üzere izlemeniz gereken kesin sıralamayı gösterir.
+CAD dosyasını yükleyin, her INSERT varlığını bulun, ilişkili bloğunu alın ve ardından her alt varlıkta dolaşın. Tam süreç dört kısa adımda ifade edilebilir ve kod tipik DXF dosyaları için bir saniyeden kısa sürede çalışır.
 
-### Adım 1: Kaynak Dizin Yolunu Ayarla
+### Adım 1: kaynak dizin yolunu ayarla
 
-Tüm örnek çizimleri tutan kararlı bir klasör tanımlayın. Dosyaları özel bir **DXFDrawings** dizininde tutmak, geliştirme makineleri arasında yol‑ile ilgili hataları önler.
+Tüm örnek çizimleri tutan kararlı bir klasör tanımlayın. Dosyaları özel bir **DXFDrawings** dizininde tutmak, geliştirme makineleri arasında yol hatalarını önler.
 
 ```java
 // The path to the resource directory.
 String dataDir = "Your Document Directory" + "DXFDrawings/";
 ```
 
-*Pro tip:* `System.getProperty("user.dir")` kullanarak hem Windows hem de Linux ortamlarında çalışan mutlak bir yol oluşturun.
+*İpucu:* `System.getProperty("user.dir")` kullanarak Windows ve Linux ortamlarında çalışan mutlak bir yol oluşturun.
 
-### Adım 2: CAD Görüntüsünü Yükle
+### Adım 2: CAD görüntüsünü yükle
 
-`CadImage`, bir CAD çizimini bellekte temsil eden ana sınıftır. Bir dosya yolu ile örneklediğinizde, Aspose.CAD dosyayı ayrıştırır ve gezilmeye hazır bir varlık ağacı oluşturur.
+`CadImage`, bellekte bir CAD çizimini temsil eden ana sınıftır. Bir dosya yolu ile örneklediğinizde, Aspose.CAD dosyayı ayrıştırır ve dolaşmaya hazır bir varlık ağacı oluşturur.
 
 ```java
 String srcFile = dataDir + "conic_pyramid.dxf";
 CadImage cadImage =(CadImage) Image.load(srcFile);
 ```
 
-Bu noktada `cadImage` tüm çizimi, içinde bulunan insert nesneleri dahil, temsil eder.
+Bu noktada `cadImage` tüm çizimi, içinde bulunan insert nesneleriyle birlikte temsil eder.
 
-### Adım 3: CAD Varlıklarını Döngüyle Gezin
+### Adım 3: CAD varlıkları arasında yinele
 
-`CadEntity`, çizilebilir her nesnenin temel tipidir. Varlık tipini kontrol ederek INSERT nesnelerini izole edebilir, blok tanımlarını alabilir ve ardından iç geometrileri listeleyebilirsiniz.
+`CadEntity`, her çizilebilir nesnenin temel tipidir. Varlık tipini kontrol ederek INSERT nesnelerini izole edebilir, blok tanımlarını alabilir ve ardından iç geometrileri listeleyebilirsiniz.
 
-`CadBlockEntity`, bir veya daha fazla INSERT nesnesi tarafından referans alınabilen bir blok tanımını temsil eder. Bloğu oluşturan alt varlık koleksiyonunu içerir.
+`CadBlockEntity`, bir veya daha fazla INSERT nesnesi tarafından referans alınabilen bir blok tanımını temsil eder. Bloğu oluşturan alt varlıkların koleksiyonunu içerir.
 
 ```java
 for (int i=0; i<cadImage.getEntities().length;i++)
@@ -163,12 +176,12 @@ for (int i=0; i<cadImage.getEntities().length;i++)
 
 **Burada ne oluyor?**  
 - Çizimdeki her varlığı tararız.  
-- **INSERT** tipinde bir varlıkla karşılaştığımızda ilgili `CadBlockEntity`'yi alırız.  
-- İç döngü, o blok içindeki her alt varlığa (çizgiler, yaylar, daireler vb.) erişim sağlar ve böylece **decomposing the insert object** gerçekleşir.
+- **INSERT** tipinde bir varlıkla karşılaştığımızda, ilgili `CadBlockEntity`'yi alırız.  
+- İç döngü, o blok içindeki her alt varlığa (çizgiler, yaylar, daireler vb.) erişim sağlar ve etkili bir şekilde **insert nesnesini ayrıştırır**.
 
-### Adım 4: Kaynakları Serbest Bırak
+### Adım 4: kaynakları serbest bırak
 
-Aspose.CAD, büyük çizimler için yerel kaynaklar tahsis eder. `close()` (veya try‑with‑resources bloğu) çağrısı bu tutamaçları serbest bırakır ve özellikle toplu işlerde birden çok dosya işlenirken bellek sızıntılarını önler.
+Aspose.CAD, büyük çizimler için yerel kaynaklar tahsis eder. `close()` çağırmak (veya try‑with‑resources bloğu kullanmak) bu tutamaçları serbest bırakır ve özellikle toplu işte birçok dosya işlenirken bellek sızıntılarını önler.
 
 ```java
 finally
@@ -177,50 +190,49 @@ finally
 }
 ```
 
-## Yaygın Tuzaklar ve İpuçları
+## Yaygın tuzaklar ve ipuçları
 
-- **Null blok referansı:** Bir INSERT eksik bir bloğa işaret ediyorsa, `get_Item` `null` döndürür. İşleme başlamadan önce null kontrolü ekleyin.  
-- **Performans:** Çok büyük çizimler için, döngüye girmeden önce varlıkları katman veya tipe göre filtrelemeyi düşünün.  
+- **Null blok referansı:** Bir INSERT eksik bir bloğa referans veriyorsa, `get_Item` `null` dönecektir. İşleme almadan önce null kontrolü ekleyin.  
+- **Performans:** Çok büyük çizimler için, yinelemeden önce varlıkları katman veya tipe göre filtrelemeyi düşünün.  
 - **Koordinat sistemleri:** Insert nesneleri dönüşüm matrislerine sahip olabilir; mutlak koordinatlara ihtiyacınız varsa `CadInsertObject.getTransform()` kullanın.  
-- **Bellek kullanımı:** Aspose.CAD dosyaları akış şeklinde işler, ancak 500‑sayfalık bir DWG için bir `CadImage` tahsis etmek hâlâ ~150 MB RAM tüketir. Kaynakları hemen serbest bırakın.
+- **Bellek kullanımı:** Aspose.CAD dosyaları akış şeklinde işler, ancak 500 sayfalık bir DWG için `CadImage` tahsis etmek hâlâ yaklaşık 150 MB RAM tüketir. Hemen serbest bırakın.
 
 ## Sonuç
 
-Bu öğreticide, Aspose.CAD for Java kullanarak **decompose cad insert object** sürecini inceledik. Güçlü API'si sayesinde, insert nesnelerinin iç varlıklarını çıkarmak ve manipüle etmek oldukça basittir; bu da özel analizler, dönüşüm boru hatları veya görselleştirmeler için kapıyı açar. Örnek kodla deney yapın, döngüleri kendi iş mantığınıza uyarlayın ve CAD‑odaklı Java uygulamaları için sağlam bir temel elde edin.
+Bu öğreticide, Aspose.CAD for Java kullanarak **cad insert nesnesini ayrıştırma** sürecini inceledik. Güçlü API'si sayesinde Aspose.CAD, insert nesnelerinin iç varlıklarını çıkarmayı ve manipüle etmeyi kolaylaştırır; bu da özel analizler, dönüşüm hatları veya görselleştirmeler için kapıyı açar. Örnek kodla deney yapın, döngüleri kendi iş mantığınıza uyarlayın ve CAD‑odaklı herhangi bir Java uygulaması için sağlam bir temel elde edin.
 
 Herhangi bir zorlukla karşılaşırsanız veya sorularınız olursa, [destek forumumuzu](https://forum.aspose.com/c/cad/19) ziyaret etmekten çekinmeyin.
 
-## Sıkça Sorulan Sorular
+## Sıkça sorulan sorular
 
-**S: Aspose.CAD for Java’yı ticari bir projede kullanabilir miyim?**  
-C: Evet, kullanabilirsiniz. Değerlendirme kısıtlamalarını kaldırmak ve öncelikli destek almak için ticari bir lisans satın alın. Lisansı [satın alma sayfasından](https://purchase.aspose.com/buy) temin edebilirsiniz.
+**S: Aspose.CAD for Java'yi ticari bir projede kullanabilir miyim?**  
+C: Evet, kullanabilirsiniz. Değerlendirme kısıtlamalarını kaldırmak ve öncelikli destek almak için ticari bir lisans satın alın. Lisansı [purchase page](https://purchase.aspose.com/buy) adresinden alabilirsiniz.
 
 **S: Aspose.CAD for Java için ücretsiz bir deneme mevcut mu?**  
-C: Kesinlikle. Resmi sürüm sayfasından deneme sürümünü indirip maliyetsiz olarak deneyebilirsiniz.
+C: Kesinlikle. Resmi sürüm sayfasından deneme sürümünü indirin ve ücretsiz olarak denemeye başlayın.
 
-**S: Aspose.CAD for Java için geçici bir lisans nasıl alınır?**  
-C: Geçici lisanslar, 30‑günlük değerlendirme süresi için [bu bağlantı](https://purchase.aspose.com/temporary-license/) üzerinden sağlanır.
+**S: Aspose.CAD for Java için geçici bir lisans nasıl alabilirim?**  
+C: Geçici lisanslar, [this link](https://purchase.aspose.com/temporary-license/) üzerinden 30 günlük değerlendirme süresi için sağlanır.
 
 **S: Aspose.CAD for Java için ayrıntılı belgeleri nerede bulabilirim?**  
-C: Tam API referansı [burada](https://reference.aspose.com/cad/java/) mevcuttur.
+C: Tam API referansı [Aspose.CAD Java API reference](https://reference.aspose.com/cad/java/) adresinde mevcuttur.
 
 **S: Pratik yapmak için örnek çizimler var mı?**  
-C: Evet, Aspose.CAD dağıtımı “DXFDrawings” klasöründe çeşitli örnek dosyalar içerir.
+C: Evet, Aspose.CAD dağıtımı, test için çeşitli örnek dosyalar içeren “DXFDrawings” klasörünü içerir.
 
----
-
-**Son Güncelleme:** 2026-06-19  
+**Son Güncelleme:** 2026-10-30  
 **Test Edilen Versiyon:** Aspose.CAD for Java 24.11  
 **Yazar:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
+## İlgili öğreticiler
 
-## İlgili Öğreticiler
-
-- [Nasıl Özellik Çıkarılır - Dış Referanstan Blok Özellik Değeri Aspose.CAD ile Java'da](/cad/java/advanced-cad-features/extract-block-attribute-value/)
-- [Aspose.CAD for Java ile DWT Dosyalarını Nasıl Okunur](/cad/java/advanced-cad-features/reading-dwt-files/)
-- [Kanvas Boyutunu Ayarla – Aspose.CAD for Java ile Gelişmiş CAD Özellikleri](/cad/java/advanced-cad-features/)
+- [Aspose.CAD ile Java'da Dış Referanstan Özellikleri Çıkarma - Blok Özellik Değeri](/cad/java/advanced-cad-features/extract-block-attribute-value/)
+- [Aspose.CAD for Java ile DWT Dosyalarını Okuma](/cad/java/advanced-cad-features/reading-dwt-files/)
+- [Kanvas Boyutunu Ayarlama – Aspose.CAD for Java ile Gelişmiş CAD Özellikleri](/cad/java/advanced-cad-features/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
