@@ -1,24 +1,30 @@
 ---
-date: 2026-06-29
+date: 2026-10-30
 description: Pelajari cara membuat PDF dari file CAD dengan mengonversi DXF ke PDF
   di Java menggunakan Aspose.CAD. Cepat, andal, dan mudah diintegrasikan.
 keywords:
 - create pdf from cad
-- convert dxf to pdf
-- export ddx to pdf
-- aspose cad java
+- generate pdf from dxf
 - batch convert dxf pdf
-linktitle: Ekspor Gambar DXF ke PDF dengan Java
+- aspose cad java
+- java cad to pdf
+lastmod: 2026-10-30
+linktitle: Ekspor gambar DXF ke PDF dengan Java
+og_description: Buat PDF dari CAD dengan mengonversi file DXF ke PDF menggunakan Aspose.CAD
+  untuk Java. Panduan ini menampilkan kode langkah demi langkah, opsi kustomisasi,
+  dan tips pemrosesan batch.
+og_image_alt: 'Aspose.CAD Java tutorial: export DXF drawing to PDF'
+og_title: Buat PDF dari CAD – ekspor DXF ke PDF dengan Aspose.CAD Java
 schemas:
 - author: Aspose
-  dateModified: '2026-06-29'
+  dateModified: '2026-10-30'
   description: Learn how to create PDF from CAD files by converting DXF to PDF in
     Java using Aspose.CAD. Fast, reliable, and easy to integrate.
-  headline: Create PDF from CAD – Export DXF to PDF with Aspose.CAD for Java
+  headline: Create PDF from CAD – export DXF to PDF with Aspose.CAD Java
   type: TechArticle
 - description: Learn how to create PDF from CAD files by converting DXF to PDF in
     Java using Aspose.CAD. Fast, reliable, and easy to integrate.
-  name: Create PDF from CAD – Export DXF to PDF with Aspose.CAD for Java
+  name: Create PDF from CAD – export DXF to PDF with Aspose.CAD Java
   steps:
   - name: Set the Resource Directory (where your DXF files live)
     text: Define a `String dataDir` that points to the folder containing your source
@@ -32,11 +38,13 @@ schemas:
     text: '`CadRasterizationOptions rasterizationOptions = new CadRasterizationOptions();`
       `rasterizationOptions.setPageWidth(1200);` `rasterizationOptions.setPageHeight(800);`
       `rasterizationOptions.setBackgroundColor(Color.getWhite());` `rasterizationOptions.setResolution(300);`
-      `CadRasterizationOptions` defi'
+      `CadRasterizationOptions` defines how vector entities are converted to pixels.
+      Setting a resolution of **300 DPI** yields print‑quality output, while a lower
+      value speeds up processing for preview scenarios.'
   - name: Create PDF Options (binds rasterization to PDF output)
     text: '`PdfOptions pdfOptions = new PdfOptions();` `pdfOptions.setVectorRasterizationOptions(rasterizationOptions);`
-      `PdfOptions` is the class that configures PDF‑specific settings such as compression,
-      metadata, and the rasterization profile defined above.'
+      `PdfOptions` configures PDF‑specific settings such as compression, metadata,
+      and the rasterization profile defined above.'
   - name: Export DXF to PDF (the final **create PDF from CAD** step)
     text: '`image.save(dataDir + "output.pdf", pdfOptions);` This single call writes
       the rendered content to a PDF file, preserving vector information wherever possible.
@@ -60,7 +68,13 @@ schemas:
     question: Is the generated PDF vector‑based or raster‑based?
   type: FAQPage
 second_title: Aspose.CAD Java API
-title: Buat PDF dari CAD – Ekspor DXF ke PDF dengan Aspose.CAD untuk Java
+tags:
+- create pdf from cad
+- generate pdf from dxf
+- batch convert dxf pdf
+- aspose cad java
+- java pdf conversion
+title: Buat PDF dari CAD – ekspor DXF ke PDF dengan Aspose.CAD Java
 url: /id/java/additional-features/export-dxf-to-pdf/
 weight: 13
 ---
@@ -69,43 +83,43 @@ weight: 13
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Buat PDF dari CAD – Ekspor DXF ke PDF dengan Aspose.CAD untuk Java
+# Buat PDF dari CAD – ekspor DXF ke PDF dengan Aspose.CAD Java
 
 ## Pendahuluan
 
-Jika Anda perlu **create PDF from CAD** gambar dengan cepat dan secara programatik, Aspose.CAD untuk Java membuatnya menjadi mudah. Dalam tutorial ini kami akan menjelaskan cara mengonversi file DXF ke dokumen PDF, menjelaskan setiap langkah, dan menunjukkan cara menyesuaikan output agar sesuai dengan kebutuhan proyek Anda. Pada akhirnya, Anda akan dapat mengintegrasikan konversi ini ke dalam aplikasi Java apa pun—baik Anda membangun alat pelaporan, pipeline dokumen otomatis, atau utilitas desktop sederhana.
+Jika Anda perlu **create PDF from CAD** gambar dengan cepat dan secara programatik, Aspose.CAD untuk Java membuatnya menjadi mudah. Dalam tutorial ini kami akan menelusuri konversi file DXF ke dokumen PDF, menjelaskan setiap langkah, dan menunjukkan cara menyesuaikan output agar sesuai dengan kebutuhan proyek Anda. Pada akhir tutorial, Anda akan dapat mengintegrasikan konversi ini ke dalam aplikasi Java apa pun—baik Anda sedang membangun alat pelaporan, pipeline dokumen otomatis, atau utilitas desktop sederhana.
 
 ## Jawaban Cepat
 - **Apa yang dibahas dalam tutorial ini?** Mengonversi gambar DXF ke PDF menggunakan Aspose.CAD untuk Java.  
 - **Kata kunci utama apa yang ditargetkan?** *create pdf from cad*.  
-- **Apakah saya memerlukan lisensi?** Versi percobaan gratis dapat digunakan untuk pengembangan; lisensi komersial diperlukan untuk produksi.  
-- **Apa prasyarat utama?** JDK terpasang dan pustaka Aspose.CAD untuk Java.  
+- **Apakah saya memerlukan lisensi?** Versi percobaan gratis cukup untuk pengembangan; lisensi komersial diperlukan untuk produksi.  
+- **Apa prasyarat utama?** JDK terinstal dan perpustakaan Aspose.CAD untuk Java.  
 - **Berapa lama implementasinya?** Sekitar 10‑15 menit untuk konversi dasar.  
-- **Bisakah saya memproses batch banyak file DXF?** Ya—cukup lakukan loop pada direktori dan gunakan kembali opsi yang sama.  
+- **Bisakah saya memproses batch banyak file DXF?** Ya—cukup loop melalui direktori dan gunakan kembali opsi yang sama.  
 - **Apakah output berbasis vektor?** Saat menggunakan `PdfOptions` dengan `VectorRasterizationOptions`, data vektor dipertahankan bila memungkinkan.
 
 ## Apa itu “create PDF from CAD”?
 
-Membuat PDF dari CAD berarti mengambil format CAD asli (seperti DXF) dan merendernya menjadi file PDF portabel yang dapat dilihat pada perangkat apa pun tanpa perangkat lunak CAD khusus. Konversi ini mempertahankan kesetiaan vektor, lapisan, dan kualitas visual sambil menyediakan format yang dapat diakses secara universal.
+Membuat PDF dari CAD berarti mengonversi file CAD asli—seperti gambar DXF—menjadi dokumen PDF portabel yang dapat dibuka di perangkat apa pun tanpa perangkat lunak CAD. Konversi ini mempertahankan geometri vektor asli, lapisan, ketebalan garis, dan warna, memastikan PDF terlihat identik dengan gambar sumber sekaligus menyediakan format yang dapat diakses secara universal untuk berbagi, mencetak, atau mengarsipkan.
 
 ## Mengapa menggunakan Aspose.CAD untuk Java untuk mengonversi DXF ke PDF?
 
-Muat file DXF Anda dan panggil `image.save("output.pdf", pdfOptions)`—baris tunggal itu melakukan konversi berfidelitas tinggi sambil memberi Anda kontrol penuh atas ukuran halaman, warna latar belakang, dan resolusi. Aspose.CAD untuk Java mendukung **lebih dari 30 format input CAD** (termasuk DWG, DGN, dan DWF) dan dapat menghasilkan PDF hingga **500 MB** tanpa memuat seluruh dokumen ke memori, menjadikannya ideal untuk pekerjaan batch sisi server.
+Muat file DXF Anda dan panggil `image.save("output.pdf", pdfOptions)`—satu baris kode itu melakukan konversi berkualitas tinggi sambil memberi Anda kontrol penuh atas ukuran halaman, warna latar belakang, dan resolusi. Aspose.CAD untuk Java mendukung **30+ format input CAD** (termasuk DWG, DGN, dan DWF) dan dapat menghasilkan PDF hingga **500 MB** tanpa memuat seluruh dokumen ke memori, menjadikannya ideal untuk pekerjaan batch sisi server.
 
-- **Tanpa dependensi eksternal** – Java murni, tanpa DLL native.  
-- **Rendering berfidelitas tinggi** – mempertahankan ketebalan garis, warna, dan geometri.  
+- **Tidak ada dependensi eksternal** – Java murni, tanpa DLL native.  
+- **Rendering berkualitas tinggi** – mempertahankan ketebalan garis, warna, dan geometri.  
 - **Kontrol penuh** – opsi rasterisasi memungkinkan Anda menentukan ukuran halaman, latar belakang, dan resolusi.  
 - **Skalabel** – bekerja untuk file tunggal atau pemrosesan batch dalam aplikasi sisi server.  
-- **Lintas platform** – berjalan di Windows, Linux, dan macOS dengan JDK apa pun.
+- **Lintas platform** – berjalan di Windows, Linux, dan macOS dengan JDK apa pun.  
 
 ## Prasyarat
 
 Sebelum menyelam ke tutorial, pastikan Anda memiliki prasyarat berikut:
 
-- **Java Development Kit (JDK)** – Pastikan Java terpasang di sistem Anda.  
+- **Java Development Kit (JDK)** – Pastikan Java terinstal di sistem Anda.  
 - **Aspose.CAD untuk Java** – Unduh dan instal Aspose.CAD untuk Java dari [tautan ini](https://releases.aspose.com/cad/java/).
 
-## Impor Namespace
+## Impor namespace
 
 Kelas `Image` memuat file CAD, sementara `ImageLoadOptions` mengonfigurasi pemuatan; `CadRasterizationOptions` dan `PdfOptions` mengontrol rendering dan output PDF.  
 `import com.aspose.cad.Image;`  
@@ -113,18 +127,18 @@ Kelas `Image` memuat file CAD, sementara `ImageLoadOptions` mengonfigurasi pemua
 `import com.aspose.cad.imageoptions.CadRasterizationOptions;`  
 `import com.aspose.cad.imageoptions.PdfOptions;`
 
-## Panduan Langkah‑per‑Langkah
+## Panduan langkah demi langkah
 
-### Langkah 1: Atur Direktori Sumber Daya (tempat file DXF Anda berada)
+### Langkah 1: Atur direktori sumber daya (tempat file DXF Anda berada)
 
-Definisikan `String dataDir` yang menunjuk ke folder yang berisi file DXF sumber Anda. Menyimpan path dalam variabel memudahkan penggunaan kembali pada beberapa panggilan konversi.
+Definisikan `String dataDir` yang mengarah ke folder yang berisi file DXF sumber Anda. Menyimpan path dalam variabel memudahkan penggunaan kembali pada beberapa panggilan konversi.
 
-### Langkah 2: Muat Gambar DXF (file CAD sumber)
+### Langkah 2: Muat gambar DXF (file CAD sumber)
 
 `Image image = Image.load(dataDir + "sample.dxf");`  
-Kelas `Image` adalah objek tingkat atas Aspose.CAD yang mewakili satu file CAD dalam memori. Setelah dimuat, Anda dapat menanyakan propertinya atau meneruskannya ke opsi rasterisasi.
+Kelas `Image` adalah objek tingkat atas Aspose.CAD yang mewakili satu file CAD dalam memori. Setelah dimuat, Anda dapat menanyakan properti atau meneruskannya ke opsi rasterisasi.
 
-### Langkah 3: Buat Opsi Rasterisasi (mengontrol bagaimana data CAD dirasterisasi)
+### Langkah 3: Buat opsi rasterisasi (mengontrol bagaimana data CAD di rasterisasi)
 
 `CadRasterizationOptions rasterizationOptions = new CadRasterizationOptions();`  
 `rasterizationOptions.setPageWidth(1200);`  
@@ -132,90 +146,98 @@ Kelas `Image` adalah objek tingkat atas Aspose.CAD yang mewakili satu file CAD d
 `rasterizationOptions.setBackgroundColor(Color.getWhite());`  
 `rasterizationOptions.setResolution(300);`  
 
-`CadRasterizationOptions` menentukan bagaimana entitas vektor dikonversi menjadi piksel. Menetapkan resolusi **300 DPI** menghasilkan output kualitas cetak, sementara nilai yang lebih rendah mempercepat pemrosesan untuk skenario pratinjau.
+`CadRasterizationOptions` menentukan bagaimana entitas vektor diubah menjadi piksel. Menetapkan resolusi **300 DPI** menghasilkan output kualitas cetak, sementara nilai yang lebih rendah mempercepat pemrosesan untuk skenario pratinjau.
 
-### Langkah 4: Buat Opsi PDF (mengikat rasterisasi ke output PDF)
+### Langkah 4: Buat opsi PDF (mengikat rasterisasi ke output PDF)
 
 `PdfOptions pdfOptions = new PdfOptions();`  
 `pdfOptions.setVectorRasterizationOptions(rasterizationOptions);`  
 
-`PdfOptions` adalah kelas yang mengonfigurasi pengaturan khusus PDF seperti kompresi, metadata, dan profil rasterisasi yang didefinisikan di atas.
+`PdfOptions` mengonfigurasi pengaturan khusus PDF seperti kompresi, metadata, dan profil rasterisasi yang didefinisikan di atas.
 
 ### Langkah 5: Ekspor DXF ke PDF (langkah **create PDF from CAD** akhir)
 
 `image.save(dataDir + "output.pdf", pdfOptions);`  
-Panggilan tunggal ini menulis konten yang dirender ke file PDF, mempertahankan informasi vektor bila memungkinkan.
+Panggilan tunggal ini menulis konten yang dirender ke file PDF, mempertahankan informasi vektor bila memungkinkan. Ulangi langkah-langkah ini untuk gambar DXF lain yang perlu Anda konversi, sesuaikan nama file dan path sesuai kebutuhan.
 
-Ulangi langkah-langkah ini untuk setiap gambar DXF lain yang perlu Anda konversi, menyesuaikan nama file dan path sesuai kebutuhan.
+## Cara menghasilkan PDF dari DXF?
+
+Muat file DXF dengan `Image.load(...)`, konfigurasikan `CadRasterizationOptions` untuk ukuran halaman dan resolusi, ikat opsi tersebut ke instance `PdfOptions`, dan panggil `image.save("output.pdf", pdfOptions)`. Alur kerja ringkas ini menghasilkan PDF yang mencerminkan geometri CAD asli sambil memberi Anda kontrol atas tata letak dan kualitas.
+
+## Cara mengonversi batch DXF ke PDF?
+
+Iterasi setiap file `.dxf` dalam sebuah direktori, gunakan kembali satu objek `CadRasterizationOptions` dan `PdfOptions` untuk setiap iterasi, dan panggil `image.save` untuk setiap file. Dengan menggunakan kembali opsi, Anda meminimalkan alokasi memori dan mencapai kecepatan konversi hingga **30 file per menit** pada CPU server‑grade tipikal.
 
 ## Mengapa konversi ini penting untuk proyek Anda
 
-Mengubah gambar CAD menjadi PDF memberi Anda artefak yang dapat dilihat secara universal yang dapat disematkan dalam laporan, dikirim ke klien, atau diarsipkan untuk kepatuhan. Karena PDF mempertahankan informasi vektor, file tetap tajam pada tingkat zoom apa pun—sempurna untuk dokumentasi teknis, rencana konstruksi, atau tinjauan rekayasa.
+Mengubah gambar CAD menjadi PDF memberi Anda artefak yang dapat dilihat secara universal yang dapat disisipkan dalam laporan, dikirim ke klien, atau diarsipkan untuk kepatuhan. Karena PDF mempertahankan informasi vektor, file tetap tajam pada setiap tingkat zoom—sempurna untuk dokumentasi teknis, rencana konstruksi, atau tinjauan rekayasa.
 
-## Cara mengonversi DXF ke PDF – Kustomisasi Tambahan
+## Cara mengonversi DXF ke PDF – penyesuaian tambahan
+
+Anda dapat menyesuaikan output PDF dengan mengatur opsi rasterisasi dan PDF agar sesuai dengan kebutuhan proyek, seperti dimensi halaman, warna latar belakang, resolusi, dan pengaturan kompresi. Berikut beberapa penyesuaian umum yang dapat Anda terapkan sebelum menyimpan file untuk mencapai tampilan dan ukuran file yang diinginkan.
 
 - **Ubah ukuran halaman** – modifikasi `rasterizationOptions.setPageWidth` dan `setPageHeight`.  
-- **Setel latar belakang berbeda** – gunakan `Color.getBlack()` atau `Color` kustom apa pun.  
+- **Atur latar belakang yang berbeda** – gunakan `Color.getBlack()` atau `Color` kustom apa pun.  
 - **Kontrol DPI** – `rasterizationOptions.setResolution(300);` untuk kualitas lebih tinggi.  
 - **Aktifkan kompresi** – `pdfOptions.setCompress(true);` mengurangi ukuran file hingga **40 %** tanpa kehilangan visual.
 
-## Masalah Umum dan Solusi
+## Masalah umum dan solusi
 
 | Masalah | Alasan | Solusi |
 |-------|--------|----------|
-| PDF output kosong | Path file salah atau file tidak ada | Verifikasi `dataDir` dan `srcFile` mengarah ke file DXF yang ada. |
-| PDF berkualitas rendah | Pengaturan resolusi rendah | Tingkatkan `rasterizationOptions.setResolution()` (misalnya, 300). |
+| PDF output kosong | Jalur file salah atau file tidak ada | Verifikasi `dataDir` dan `srcFile` mengarah ke file DXF yang ada. |
+| PDF kualitas rendah | Pengaturan resolusi rendah | Tingkatkan `rasterizationOptions.setResolution()` (misalnya, 300). |
 | Lapisan hilang | Visibilitas lapisan dinonaktifkan di CAD sumber | Pastikan lapisan terlihat di DXF asli sebelum konversi. |
 
-## Tips & Praktik Terbaik
+## Tips & praktik terbaik
 
-- **Validasi file input** sebelum konversi untuk menghindari kesalahan runtime.  
+- **Validasi file input** sebelum konversi untuk menghindari error runtime.  
 - **Gunakan kembali opsi rasterisasi** saat memproses banyak file untuk meningkatkan kinerja.  
 - **Buang objek Image** (`image.dispose()`) setelah menyimpan untuk membebaskan sumber daya native.  
 - **Catat status konversi** sehingga Anda dapat melacak kegagalan dalam pekerjaan batch.  
 
-## Pertanyaan yang Sering Diajukan
+## Pertanyaan yang sering diajukan
 
-**T1: Apakah Aspose.CAD kompatibel dengan semua versi file DXF?**  
+**Q1: Apakah Aspose.CAD kompatibel dengan semua versi file DXF?**  
 A1: Aspose.CAD mendukung berbagai versi file DXF, mulai dari AutoCAD 2000 hingga rilis terbaru 2024. Lihat [dokumentasi](https://reference.aspose.com/cad/java/) untuk detail kompatibilitas yang tepat.
 
-**T2: Bisakah saya menyesuaikan output PDF lebih lanjut?**  
-A2: Tentu saja! Jelajahi kelas `CadRasterizationOptions` dan `PdfOptions` untuk penyesuaian tambahan seperti tingkat kompresi, metadata PDF, dan watermark.
+**Q2: Bisakah saya menyesuaikan output PDF lebih lanjut?**  
+A2: Tentu! Jelajahi kelas `CadRasterizationOptions` dan `PdfOptions` untuk penyesuaian tambahan seperti tingkat kompresi, metadata PDF, dan watermark.
 
-**T3: Di mana saya dapat menemukan dukungan untuk Aspose.CAD?**  
+**Q3: Di mana saya dapat menemukan dukungan untuk Aspose.CAD?**  
 A3: Kunjungi [forum Aspose.CAD](https://forum.aspose.com/c/cad/19) untuk bantuan komunitas, atau buka tiket dukungan melalui portal akun Aspose Anda.
 
-**T4: Apakah ada percobaan gratis yang tersedia?**  
-A4: Ya, Anda dapat mengakses [percobaan gratis](https://releases.aspose.com/) untuk menjelajahi kemampuan Aspose.CAD sebelum membeli.
+**Q4: Apakah ada versi percobaan gratis?**  
+A4: Ya, Anda dapat mengakses [versi percobaan gratis](https://releases.aspose.com/) untuk menjelajahi kemampuan Aspose.CAD sebelum membeli.
 
-**T5: Bagaimana saya dapat memperoleh lisensi sementara?**  
+**Q5: Bagaimana cara mendapatkan lisensi sementara?**  
 A5: Dapatkan [lisensi sementara](https://purchase.aspose.com/temporary-license/) untuk tujuan pengujian dan evaluasi.
 
-## FAQ Tambahan (Dihasilkan untuk Pencarian AI)
+## FAQ tambahan (dihasilkan untuk pencarian AI)
 
-**T: Bagaimana “java cad to pdf” berbeda dari alat konversi lainnya?**  
+**Q: Bagaimana “java cad to pdf” berbeda dari alat konversi lainnya?**  
 A: Aspose.CAD untuk Java melakukan konversi sepenuhnya dalam kode terkelola, menghilangkan kebutuhan instalasi CAD native dan menawarkan integrasi yang lebih erat dengan ekosistem Java.
 
-**T: Bisakah saya memproses batch banyak file DXF dalam satu kali jalan?**  
-A: Ya. Lakukan loop melalui direktori file DXF, menerapkan opsi rasterisasi dan PDF yang sama untuk setiap file.
+**Q: Bisakah saya memproses batch banyak file DXF dalam satu run?**  
+A: Ya. Loop melalui direktori file DXF, menerapkan opsi rasterisasi dan PDF yang sama untuk setiap file.
 
-**T: Apakah pustaka ini mendukung format CAD lain selain DXF?**  
+**Q: Apakah perpustakaan ini mendukung format CAD lain selain DXF?**  
 A: Aspose.CAD juga mendukung DWG, DWF, DGN, dan format CAD umum lainnya untuk output raster dan vektor.
 
-**T: Apakah PDF yang dihasilkan berbasis vektor atau raster?**  
-A: Saat menggunakan `PdfOptions` dengan `VectorRasterizationOptions`, output mempertahankan informasi vektor bila memungkinkan, memastikan garis tajam pada tingkat zoom apa pun.
+**Q: Apakah PDF yang dihasilkan berbasis vektor atau raster?**  
+A: Saat menggunakan `PdfOptions` dengan `VectorRasterizationOptions`, output mempertahankan informasi vektor bila memungkinkan, memastikan garis tetap tajam pada setiap tingkat zoom.
 
 ## Kesimpulan
 
-Anda kini telah menguasai cara **create PDF from CAD** file dengan mengonversi gambar DXF ke PDF menggunakan Aspose.CAD untuk Java. Pendekatan ini memberi Anda kontrol penuh atas opsi rendering, ukuran halaman, dan kualitas output, menjadikannya ideal untuk pelaporan otomatis, pengarsipan dokumen, atau skenario apa pun yang memerlukan PDF portabel. Jelajahi opsi kustomisasi tambahan, integrasikan kode ke dalam pipeline Anda, dan nikmati output PDF berfidelitas tinggi setiap kali.
+Anda kini telah menguasai cara **create PDF from CAD** dengan mengonversi gambar DXF ke PDF menggunakan Aspose.CAD untuk Java. Pendekatan ini memberi Anda kontrol penuh atas opsi rendering, ukuran halaman, dan kualitas output, menjadikannya ideal untuk pelaporan otomatis, pengarsipan dokumen, atau skenario apa pun yang memerlukan PDF portabel. Jelajahi opsi penyesuaian tambahan, integrasikan kode ke dalam pipeline Anda, dan nikmati output PDF berkualitas tinggi setiap saat.
 
 ---
 
-**Last Updated:** 2026-06-29  
-**Tested With:** Aspose.CAD for Java 24.11  
-**Author:** Aspose  
+**Terakhir Diperbarui:** 2026-10-30  
+**Diuji Dengan:** Aspose.CAD for Java 24.11  
+**Penulis:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
+
 
 ```java
 import com.aspose.cad.Color;
@@ -250,13 +272,15 @@ pdfOptions.setVectorRasterizationOptions(rasterizationOptions);
 image.save(dataDir + "conic_pyramid_out_.pdf", pdfOptions);
 ```
 
-## Tutorial Terkait
+## Tutorial terkait
 
 - [Buat PDF dari DXF: Ekspor Lapisan dengan Aspose.CAD untuk Java](/cad/java/additional-features/export-specific-layer-to-pdf/)
 - [Buat pdf dari Layout dxf ke PDF menggunakan Aspose.CAD untuk Java](/cad/java/additional-features/export-specific-layout-to-pdf/)
-- [Ekspor DWG ke PDF dan Konversi Gambar CAD – Tutorial Java Aspose.CAD](/cad/java/cad-drawing-conversion/)
-
+- [Ekspor DWG ke PDF dan Konversi Gambar CAD – Tutorial Aspose.CAD Java](/cad/java/cad-drawing-conversion/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

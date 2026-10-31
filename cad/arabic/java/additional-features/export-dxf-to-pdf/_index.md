@@ -1,24 +1,29 @@
 ---
-date: 2026-06-29
-description: تعرف على كيفية إنشاء PDF من ملفات CAD عن طريق تحويل DXF إلى PDF في Java
-  باستخدام Aspose.CAD. سريع، موثوق، وسهل التكامل.
+date: 2026-10-30
+description: تعلم كيفية إنشاء PDF من ملفات CAD عن طريق تحويل DXF إلى PDF في Java باستخدام
+  Aspose.CAD. سريع، موثوق، وسهل التكامل.
 keywords:
 - create pdf from cad
-- convert dxf to pdf
-- export ddx to pdf
-- aspose cad java
+- generate pdf from dxf
 - batch convert dxf pdf
+- aspose cad java
+- java cad to pdf
+lastmod: 2026-10-30
 linktitle: تصدير رسم DXF إلى PDF باستخدام Java
+og_description: إنشاء PDF من CAD عن طريق تحويل ملفات DXF إلى PDF باستخدام Aspose.CAD
+  للـ Java. يوضح هذا الدليل الشيفرة خطوة بخطوة، خيارات التخصيص، ونصائح المعالجة الدفعية.
+og_image_alt: 'Aspose.CAD Java tutorial: export DXF drawing to PDF'
+og_title: إنشاء PDF من CAD – تصدير DXF إلى PDF باستخدام Aspose.CAD Java
 schemas:
 - author: Aspose
-  dateModified: '2026-06-29'
+  dateModified: '2026-10-30'
   description: Learn how to create PDF from CAD files by converting DXF to PDF in
     Java using Aspose.CAD. Fast, reliable, and easy to integrate.
-  headline: Create PDF from CAD – Export DXF to PDF with Aspose.CAD for Java
+  headline: Create PDF from CAD – export DXF to PDF with Aspose.CAD Java
   type: TechArticle
 - description: Learn how to create PDF from CAD files by converting DXF to PDF in
     Java using Aspose.CAD. Fast, reliable, and easy to integrate.
-  name: Create PDF from CAD – Export DXF to PDF with Aspose.CAD for Java
+  name: Create PDF from CAD – export DXF to PDF with Aspose.CAD Java
   steps:
   - name: Set the Resource Directory (where your DXF files live)
     text: Define a `String dataDir` that points to the folder containing your source
@@ -32,11 +37,13 @@ schemas:
     text: '`CadRasterizationOptions rasterizationOptions = new CadRasterizationOptions();`
       `rasterizationOptions.setPageWidth(1200);` `rasterizationOptions.setPageHeight(800);`
       `rasterizationOptions.setBackgroundColor(Color.getWhite());` `rasterizationOptions.setResolution(300);`
-      `CadRasterizationOptions` defi'
+      `CadRasterizationOptions` defines how vector entities are converted to pixels.
+      Setting a resolution of **300 DPI** yields print‑quality output, while a lower
+      value speeds up processing for preview scenarios.'
   - name: Create PDF Options (binds rasterization to PDF output)
     text: '`PdfOptions pdfOptions = new PdfOptions();` `pdfOptions.setVectorRasterizationOptions(rasterizationOptions);`
-      `PdfOptions` is the class that configures PDF‑specific settings such as compression,
-      metadata, and the rasterization profile defined above.'
+      `PdfOptions` configures PDF‑specific settings such as compression, metadata,
+      and the rasterization profile defined above.'
   - name: Export DXF to PDF (the final **create PDF from CAD** step)
     text: '`image.save(dataDir + "output.pdf", pdfOptions);` This single call writes
       the rendered content to a PDF file, preserving vector information wherever possible.
@@ -60,7 +67,13 @@ schemas:
     question: Is the generated PDF vector‑based or raster‑based?
   type: FAQPage
 second_title: Aspose.CAD Java API
-title: إنشاء PDF من CAD – تصدير DXF إلى PDF باستخدام Aspose.CAD للـ Java
+tags:
+- create pdf from cad
+- generate pdf from dxf
+- batch convert dxf pdf
+- aspose cad java
+- java pdf conversion
+title: إنشاء PDF من CAD – تصدير DXF إلى PDF باستخدام Aspose.CAD Java
 url: /ar/java/additional-features/export-dxf-to-pdf/
 weight: 13
 ---
@@ -69,46 +82,45 @@ weight: 13
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# إنشاء PDF من CAD – تصدير DXF إلى PDF باستخدام Aspose.CAD للـ Java
+# إنشاء PDF من CAD – تصدير DXF إلى PDF باستخدام Aspose.CAD Java
 
-## مقدمة
+## المقدمة
 
-إذا كنت بحاجة إلى **إنشاء PDF من CAD** للرسومات بسرعة وبرمجياً، فإن Aspose.CAD للـ Java يجعل ذلك سهلًا. في هذا البرنامج التعليمي سنستعرض عملية تحويل ملف DXF إلى مستند PDF، نشرح كل خطوة، ونظهر لك كيفية تعديل النتيجة لتتناسب مع احتياجات مشروعك. في النهاية، ستكون قادرًا على دمج هذا التحويل في أي تطبيق Java — سواء كنت تبني أداة تقارير، أو خط أنابيب مستندات آلي، أو أداة سطح مكتب بسيطة.
+إذا كنت بحاجة إلى **إنشاء PDF من CAD** بسرعة وبرمجيًا، فإن Aspose.CAD for Java يجعل ذلك سهلًا. في هذا البرنامج التعليمي سنستعرض تحويل ملف DXF إلى مستند PDF، نشرح كل خطوة، ونظهر لك كيفية تعديل النتيجة لتناسب احتياجات مشروعك. في النهاية، ستكون قادرًا على دمج هذا التحويل في أي تطبيق Java — سواء كنت تبني أداة تقارير، أو خط أنابيب مستندات آلي، أو أداة سطح مكتب بسيطة.
 
-## إجابات سريعة
-- **ما الذي يغطيه هذا البرنامج التعليمي؟** تحويل رسومات DXF إلى PDF باستخدام Aspose.CAD للـ Java.  
+## الإجابات السريعة
+- **ما الذي يغطيه هذا البرنامج التعليمي؟** تحويل رسومات DXF إلى PDF باستخدام Aspose.CAD for Java.  
 - **ما هي الكلمة المفتاحية الأساسية المستهدفة؟** *create pdf from cad*.  
-- **هل أحتاج إلى ترخيص؟** نسخة تجريبية مجانية تكفي للتطوير؛ يتطلب الإنتاج ترخيصًا تجاريًا.  
-- **ما هي المتطلبات الأساسية؟** تثبيت JDK ومكتبة Aspose.CAD للـ Java.  
-- **كم يستغرق التنفيذ؟** حوالي 10‑15 دقيقة للتحويل الأساسي.  
-- **هل يمكنني معالجة دفعة من ملفات DXF؟** نعم — فقط قم بالتكرار عبر دليل واستخدام نفس الخيارات.  
-- **هل الناتج قائم على المتجهات؟** عند استخدام `PdfOptions` مع `VectorRasterizationOptions`، يتم الحفاظ على بيانات المتجهات حيثما أمكن.
+- **هل أحتاج إلى ترخيص؟** نسخة تجريبية مجانية تعمل للتطوير؛ الترخيص التجاري مطلوب للإنتاج.  
+- **ما هي المتطلبات الأساسية؟** تثبيت JDK ومكتبة Aspose.CAD for Java.  
+- **كم من الوقت تستغرق العملية؟** حوالي 10‑15 دقيقة للتحويل الأساسي.  
+- **هل يمكنني معالجة دفعة من ملفات DXF؟** نعم—فقط قم بالتكرار عبر دليل وأعد استخدام نفس الخيارات.  
+- **هل الناتج قائم على المتجهات؟** عند استخدام `PdfOptions` مع `VectorRasterizationOptions`، يتم الحفاظ على بيانات المتجه حيثما كان ذلك ممكنًا.
 
-## ما هو “إنشاء PDF من CAD”؟
+## ما هو “create PDF from CAD”؟
 
-إنشاء PDF من CAD يعني أخذ تنسيق CAD أصلي (مثل DXF) وتحويله إلى ملف PDF محمول يمكن عرضه على أي جهاز دون الحاجة إلى برنامج CAD متخصص. يحافظ هذا التحويل على دقة المتجهات، والطبقات، وجودة العرض مع توفير تنسيق يمكن الوصول إليه عالميًا.
+إنشاء PDF من CAD يعني تحويل ملف CAD أصلي — مثل رسم DXF — إلى مستند PDF محمول يمكن فتحه على أي جهاز دون الحاجة إلى برنامج CAD. تحتفظ عملية التحويل بالهندسة المتجهة الأصلية، الطبقات، سماكة الخطوط، والألوان، مما يضمن أن يبدو PDF مطابقًا للرسم الأصلي مع توفير تنسيق يمكن الوصول إليه عالميًا للمشاركة أو الطباعة أو الأرشفة.
 
-## لماذا نستخدم Aspose.CAD للـ Java لتحويل DXF إلى PDF؟
+## لماذا تستخدم Aspose.CAD for Java لتحويل DXF إلى PDF؟
 
-حمّل ملف DXF الخاص بك واستدعِ `image.save("output.pdf", pdfOptions)` — هذه السطر الواحد يقوم بتحويل عالي الدقة مع منحك التحكم الكامل في حجم الصفحة، لون الخلفية، والدقة. يدعم Aspose.CAD للـ Java **أكثر من 30 تنسيق CAD** (بما في ذلك DWG و DGN و DWF) ويمكنه إنشاء ملفات PDF تصل إلى **500 ميغابايت** دون تحميل المستند بالكامل في الذاكرة، مما يجعله مثاليًا للمهام الدفعية على الخادم.
+حمّل ملف DXF الخاص بك واستدعِ `image.save("output.pdf", pdfOptions)` — هذه السطر الواحد يقوم بتحويل عالي الدقة مع منحك التحكم الكامل في حجم الصفحة، لون الخلفية، والدقة. يدعم Aspose.CAD for Java **أكثر من 30+ تنسيق إدخال CAD** (بما في ذلك DWG و DGN و DWF) ويمكنه إنشاء ملفات PDF تصل إلى **500 MB** دون تحميل المستند بالكامل في الذاكرة، مما يجعله مثاليًا للمهام الدفعية على الخادم.
 
-- **لا توجد تبعيات خارجية** – Java نقي، بدون ملفات DLL أصلية.  
-- **عرض عالي الدقة** – يحافظ على وزن الخطوط، الألوان، والهندسة.  
-- **تحكم كامل** – خيارات الرستر تسمح لك بتحديد حجم الصفحة، الخلفية، والدقة.  
+- **بدون تبعيات خارجية** – جافا نقي، لا ملفات DLL أصلية.  
+- **عرض عالي الدقة** – يحافظ على سماكة الخطوط، الألوان، والهندسة.  
+- **تحكم كامل** – خيارات الترصيص تتيح لك تحديد حجم الصفحة، الخلفية، والدقة.  
 - **قابل للتوسع** – يعمل مع ملفات فردية أو معالجة دفعات في تطبيقات الخادم.  
 - **متعدد المنصات** – يعمل على Windows و Linux و macOS مع أي JDK.
 
 ## المتطلبات المسبقة
 
-قبل الغوص في البرنامج التعليمي، تأكد من توفر المتطلبات التالية:
+قبل الغوص في البرنامج التعليمي، تأكد من توفر المتطلبات المسبقة التالية:
 
 - **Java Development Kit (JDK)** – تأكد من تثبيت Java على نظامك.  
-- **Aspose.CAD للـ Java** – قم بتنزيل وتثبيت Aspose.CAD للـ Java من [هذا الرابط](https://releases.aspose.com/cad/java/).
+- **Aspose.CAD for Java** – قم بتنزيل وتثبيت Aspose.CAD for Java من [this link](https://releases.aspose.com/cad/java/).
 
 ## استيراد مساحات الأسماء
 
-فئة `Image` تقوم بتحميل ملفات CAD، بينما `ImageLoadOptions` تُكوّن عملية التحميل؛ `CadRasterizationOptions` و `PdfOptions` يتحكمان في العرض وإخراج PDF.
-
+فئة `Image` تقوم بتحميل ملفات CAD، بينما `ImageLoadOptions` تُعدّ التحميل؛ `CadRasterizationOptions` و `PdfOptions` تتحكم في العرض وإخراج PDF.  
 `import com.aspose.cad.Image;`  
 `import com.aspose.cad.ImageLoadOptions;`  
 `import com.aspose.cad.imageoptions.CadRasterizationOptions;`  
@@ -118,14 +130,14 @@ weight: 13
 
 ### الخطوة 1: تعيين دليل الموارد (حيث توجد ملفات DXF الخاصة بك)
 
-عرّف `String dataDir` الذي يشير إلى المجلد الذي يحتوي على ملفات DXF المصدرية. حفظ المسار في متغير يجعل من السهل إعادة استخدامه عبر عدة استدعاءات للتحويل.
+عرّف `String dataDir` الذي يشير إلى المجلد الذي يحتوي على ملفات DXF المصدرية. الحفاظ على المسار في متغير يجعل من السهل إعادة استخدامه عبر عدة استدعاءات تحويل.
 
 ### الخطوة 2: تحميل رسم DXF (ملف CAD المصدر)
 
 `Image image = Image.load(dataDir + "sample.dxf");`  
-فئة `Image` هي الكائن الأعلى مستوى في Aspose.CAD الذي يمثل ملف CAD واحد في الذاكرة. بعد التحميل، يمكنك استعلام خصائصه أو تمريره إلى خيارات الرستر.
+فئة `Image` هي الكائن الأعلى مستوى في Aspose.CAD الذي يمثل ملف CAD واحد في الذاكرة. بعد التحميل، يمكنك استعلام خصائصه أو تمريره إلى خيارات الترصيص.
 
-### الخطوة 3: إنشاء خيارات الرستر (تتحكم في كيفية تحويل بيانات CAD إلى رستر)
+### الخطوة 3: إنشاء خيارات الترصيص (تتحكم في كيفية ترصيص بيانات CAD)
 
 `CadRasterizationOptions rasterizationOptions = new CadRasterizationOptions();`  
 `rasterizationOptions.setPageWidth(1200);`  
@@ -133,88 +145,98 @@ weight: 13
 `rasterizationOptions.setBackgroundColor(Color.getWhite());`  
 `rasterizationOptions.setResolution(300);`  
 
-`CadRasterizationOptions` يحدد كيفية تحويل الكيانات المتجهية إلى بكسلات. ضبط الدقة إلى **300 DPI** ينتج مخرجات بجودة الطباعة، بينما قيمة أقل تسرّع المعالجة لسيناريوهات المعاينة.
+`CadRasterizationOptions` يحدد كيفية تحويل الكيانات المتجهة إلى بكسلات. ضبط الدقة إلى **300 DPI** ينتج مخرجات بجودة الطباعة، بينما القيمة الأقل تسرّع المعالجة لسيناريوهات المعاينة.
 
-### الخطوة 4: إنشاء خيارات PDF (ربط الرستر بإخراج PDF)
+### الخطوة 4: إنشاء خيارات PDF (ربط الترصيص بإخراج PDF)
 
 `PdfOptions pdfOptions = new PdfOptions();`  
 `pdfOptions.setVectorRasterizationOptions(rasterizationOptions);`  
 
-`PdfOptions` هي الفئة التي تُكوّن إعدادات PDF الخاصة مثل الضغط، البيانات الوصفية، وملف تعريف الرستر المحدد أعلاه.
+`PdfOptions` يضبط إعدادات خاصة بـ PDF مثل الضغط، البيانات الوصفية، وملف تعريف الترصيص المحدد أعلاه.
 
-### الخطوة 5: تصدير DXF إلى PDF (الخطوة النهائية **إنشاء PDF من CAD**)
+### الخطوة 5: تصدير DXF إلى PDF (الخطوة النهائية **create PDF from CAD**)
 
 `image.save(dataDir + "output.pdf", pdfOptions);`  
-هذا الاستدعاء الواحد يكتب المحتوى المُرَسَم إلى ملف PDF، مع الحفاظ على معلومات المتجهات حيثما كان ذلك ممكنًا.
+هذه الاستدعاءة الواحدة تكتب المحتوى المرسوم إلى ملف PDF، مع الحفاظ على معلومات المتجه حيثما كان ذلك ممكنًا. كرّر هذه الخطوات لأي رسومات DXF أخرى تحتاج إلى تحويلها، مع تعديل أسماء الملفات والمسارات حسب الحاجة.
 
-كرر هذه الخطوات لأي رسومات DXF أخرى تحتاج إلى تحويلها، مع تعديل أسماء الملفات والمسارات حسب الحاجة.
+## كيف تولد PDF من DXF؟
 
-## لماذا يهم هذا التحويل لمشاريعك
+حمّل ملف DXF باستخدام `Image.load(...)`، اضبط `CadRasterizationOptions` لحجم الصفحة والدقة، اربط هذه الخيارات بـ `PdfOptions`، ثم استدعِ `image.save("output.pdf", pdfOptions)`. هذه العملية المختصرة تنتج PDF يعكس الهندسة الأصلية للـ CAD مع منحك التحكم في التخطيط والجودة.
 
-تحويل رسومات CAD إلى ملفات PDF يمنحك عنصرًا يمكن عرضه عالميًا يمكن تضمينه في التقارير، إرساله إلى العملاء، أو أرشفته للامتثال. لأن PDF يحتفظ بمعلومات المتجهات، يبقى الملف واضحًا عند أي مستوى تكبير — مثالي للوثائق التقنية، مخططات البناء، أو مراجعات الهندسة.
+## كيف تقوم بتحويل دفعة من DXF إلى PDF؟
+
+تكرّر على كل ملف `.dxf` في دليل، أعد استخدام كائن واحد من `CadRasterizationOptions` و `PdfOptions` لكل تكرار، واستدعِ `image.save` لكل ملف. بإعادة استخدام الخيارات تقلل من تخصيص الذاكرة وتحقق سرعات تحويل تصل إلى **30 ملفًا في الدقيقة** على معالج من فئة الخوادم العادية.
+
+## لماذا هذا التحويل مهم لمشاريعك
+
+تحويل رسومات CAD إلى PDFs يمنحك عنصرًا يمكن عرضه عالميًا يمكن تضمينه في التقارير، إرساله إلى العملاء، أو أرشفته للامتثال. لأن PDF يحتفظ بمعلومات المتجه، يبقى الملف واضحًا عند أي مستوى تكبير — مثالي للوثائق التقنية، مخططات البناء، أو مراجعات الهندسة.
 
 ## كيفية تحويل DXF إلى PDF – تخصيصات إضافية
+
+يمكنك تخصيص مخرجات PDF عن طريق تعديل خيارات الترصيص و PDF لتتناسب مع متطلبات مشروعك، مثل أبعاد الصفحة، لون الخلفية، الدقة، وإعدادات الضغط. أدناه تخصيصات شائعة يمكنك تطبيقها قبل حفظ الملف لتحقيق المظهر والحجم المطلوبين.
 
 - **تغيير حجم الصفحة** – عدّل `rasterizationOptions.setPageWidth` و `setPageHeight`.  
 - **تعيين خلفية مختلفة** – استخدم `Color.getBlack()` أو أي `Color` مخصص.  
 - **التحكم في DPI** – `rasterizationOptions.setResolution(300);` للحصول على جودة أعلى.  
-- **تمكين الضغط** – `pdfOptions.setCompress(true);` يقلل حجم الملف بنسبة تصل إلى **40 %** دون فقدان بصري.
+- **تمكين الضغط** – `pdfOptions.setCompress(true);` يقلل حجم الملف حتى **40 %** دون فقدان بصري.
 
 ## المشكلات الشائعة والحلول
 
 | المشكلة | السبب | الحل |
-|---------|-------|------|
-| ملف PDF الناتج فارغ | مسار ملف غير صحيح أو ملف مفقود | تحقق من أن `dataDir` و `srcFile` يشيران إلى ملف DXF موجود. |
-| PDF منخفض الجودة | إعداد دقة منخفض | زيادة `rasterizationOptions.setResolution()` (مثلاً 300). |
+|-------|--------|----------|
+| ملف PDF الناتج فارغ | مسار ملف خاطئ أو ملف مفقود | تحقق من أن `dataDir` و `srcFile` يشيران إلى ملف DXF موجود. |
+| PDF منخفض الجودة | إعداد دقة منخفض | زيادة `rasterizationOptions.setResolution()` (مثلاً، 300). |
 | الطبقات مفقودة | إخفاء رؤية الطبقة في CAD المصدر | تأكد من أن الطبقات مرئية في ملف DXF الأصلي قبل التحويل. |
 
 ## نصائح وأفضل الممارسات
 
 - **تحقق من صحة ملفات الإدخال** قبل التحويل لتجنب أخطاء وقت التشغيل.  
-- **إعادة استخدام خيارات الرستر** عند معالجة ملفات متعددة لتحسين الأداء.  
+- **أعد استخدام خيارات الترصيص** عند معالجة العديد من الملفات لتحسين الأداء.  
 - **تحرير كائنات Image** (`image.dispose()`) بعد الحفظ لتحرير الموارد الأصلية.  
-- **سجل حالة التحويل** حتى تتمكن من تتبع أي فشل في مهام الدفعات.  
+- **سجل حالة التحويل** حتى تتمكن من تتبع أي فشل في وظائف الدفعات.  
 
 ## الأسئلة المتكررة
 
 **س1: هل Aspose.CAD متوافق مع جميع إصدارات ملفات DXF؟**  
-**ج1:** يدعم Aspose.CAD مجموعة واسعة من إصدارات ملفات DXF، من AutoCAD 2000 حتى أحدث إصدار 2024. راجع [الوثائق](https://reference.aspose.com/cad/java/) للحصول على تفاصيل التوافق الدقيقة.
+ج1: يدعم Aspose.CAD مجموعة واسعة من إصدارات ملفات DXF، من AutoCAD 2000 حتى أحدث إصدار 2024. راجع [documentation](https://reference.aspose.com/cad/java/) للحصول على تفاصيل التوافق الدقيقة.
 
 **س2: هل يمكنني تخصيص مخرجات PDF أكثر؟**  
-**ج2:** بالتأكيد! استكشف فئات `CadRasterizationOptions` و `PdfOptions` للحصول على تعديلات إضافية مثل مستوى الضغط، بيانات تعريف PDF، وإضافة العلامات المائية.
+ج2: بالتأكيد! استكشف فئات `CadRasterizationOptions` و `PdfOptions` للحصول على تعديلات إضافية مثل مستوى الضغط، بيانات PDF الوصفية، وإضافة علامة مائية.
 
 **س3: أين يمكنني العثور على دعم Aspose.CAD؟**  
-**ج3:** زر [منتدى Aspose.CAD](https://forum.aspose.com/c/cad/19) للحصول على مساعدة المجتمع، أو افتح تذكرة دعم عبر بوابة حساب Aspose الخاصة بك.
+ج3: زر [Aspose.CAD forum](https://forum.aspose.com/c/cad/19) للحصول على مساعدة المجتمع، أو افتح تذكرة دعم عبر بوابة حساب Aspose الخاصة بك.
 
 **س4: هل هناك نسخة تجريبية مجانية متاحة؟**  
-**ج4:** نعم، يمكنك الوصول إلى [نسخة تجريبية مجانية](https://releases.aspose.com/) لاستكشاف قدرات Aspose.CAD قبل الشراء.
+ج4: نعم، يمكنك الوصول إلى [free trial](https://releases.aspose.com/) لاستكشاف قدرات Aspose.CAD قبل الشراء.
 
 **س5: كيف يمكنني الحصول على ترخيص مؤقت؟**  
-**ج5:** احصل على [ترخيص مؤقت](https://purchase.aspose.com/temporary-license/) لأغراض الاختبار والتقييم.
+ج5: احصل على [temporary license](https://purchase.aspose.com/temporary-license/) للاختبار وأغراض التقييم.
 
-## أسئلة إضافية (تم إنشاؤها للبحث الذكي)
+## الأسئلة المتكررة الإضافية (تم إنشاؤها للبحث الذكي)
 
-**س:** كيف يختلف “java cad to pdf” عن أدوات التحويل الأخرى؟  
-**ج:** يقوم Aspose.CAD للـ Java بإجراء التحويل بالكامل في الكود المُدار، مما يلغي الحاجة إلى تثبيت CAD أصلي ويقدم تكاملًا أقوى مع بيئات Java.
+**س: كيف يختلف “java cad to pdf” عن أدوات التحويل الأخرى؟**  
+ج: يقوم Aspose.CAD for Java بالتحويل بالكامل في كود مُدار، مما يلغي الحاجة إلى تثبيت CAD أصلي ويقدم تكاملًا أقوى مع بيئات Java.
 
-**س:** هل يمكنني معالجة دفعة من ملفات DXF متعددة في تشغيل واحد؟  
-**ج:** نعم. قم بالتكرار عبر دليل يحتوي على ملفات DXF، مع تطبيق نفس خيارات الرستر وPDF لكل ملف.
+**س: هل يمكنني معالجة دفعة من ملفات DXF متعددة في تشغيل واحد؟**  
+ج: نعم. قم بالتكرار عبر دليل يحتوي على ملفات DXF، مع تطبيق نفس خيارات الترصيص وPDF لكل ملف.
 
-**س:** هل تدعم المكتبة تنسيقات CAD أخرى غير DXF؟  
-**ج:** يدعم Aspose.CAD أيضًا DWG و DWF و DGN وغيرها من تنسيقات CAD الشائعة لكل من الإخراج الرستري والمتجه.
+**س: هل تدعم المكتبة صيغ CAD أخرى غير DXF؟**  
+ج: يدعم Aspose.CAD أيضًا DWG و DWF و DGN وغيرها من صيغ CAD الشائعة للإخراج raster والمتجه.
 
-**س:** هل PDF الناتج قائم على المتجهات أم على الرستر؟  
-**ج:** عند استخدام `PdfOptions` مع `VectorRasterizationOptions`، يحتفظ الناتج بمعلومات المتجهات حيثما كان ذلك ممكنًا، مما يضمن خطوطًا واضحة عند أي مستوى تكبير.
+**س: هل PDF الناتج قائم على المتجهات أم على البكسلات؟**  
+ج: عند استخدام `PdfOptions` مع `VectorRasterizationOptions`، يحتفظ الناتج بمعلومات المتجه حيثما كان ذلك ممكنًا، مما يضمن خطوطًا واضحة عند أي مستوى تكبير.
 
 ## الخلاصة
 
-لقد أتقنت الآن كيفية **إنشاء PDF من ملفات CAD** عن طريق تحويل رسومات DXF إلى PDF باستخدام Aspose.CAD للـ Java. يمنحك هذا النهج التحكم الكامل في خيارات العرض، حجم الصفحة، وجودة الإخراج، مما يجعله مثاليًا للتقارير الآلية، أرشفة المستندات، أو أي سيناريو يتطلب PDF محمول. استكشف خيارات التخصيص الإضافية، دمج الكود في خطوط الأنابيب الخاصة بك، واستمتع بإخراج PDF عالي الدقة في كل مرة.
+لقد أصبحت الآن متمكنًا من **إنشاء PDF من CAD** عبر تحويل رسومات DXF إلى PDF باستخدام Aspose.CAD for Java. يمنحك هذا النهج التحكم الكامل في خيارات العرض، حجم الصفحة، وجودة الإخراج، مما يجعله مثاليًا للتقارير الآلية، أرشفة المستندات، أو أي سيناريو يتطلب PDF محمول. استكشف خيارات التخصيص الإضافية، دمج الكود في خطوط الأنابيب الخاصة بك، واستمتع بإخراج PDF عالي الدقة في كل مرة.
 
-**آخر تحديث:** 2026-06-29  
-**تم الاختبار مع:** Aspose.CAD للـ Java 24.11  
+---
+
+**آخر تحديث:** 2026-10-30  
+**تم الاختبار مع:** Aspose.CAD for Java 24.11  
 **المؤلف:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
+
 
 ```java
 import com.aspose.cad.Color;
@@ -249,12 +271,15 @@ pdfOptions.setVectorRasterizationOptions(rasterizationOptions);
 image.save(dataDir + "conic_pyramid_out_.pdf", pdfOptions);
 ```
 
-## دروس ذات صلة
+## الدروس ذات الصلة
 
-- [إنشاء PDF من DXF: تصدير الطبقة باستخدام Aspose.CAD للـ Java](/cad/java/additional-features/export-specific-layer-to-pdf/)
-- [إنشاء PDF من تخطيط DXF إلى PDF باستخدام Aspose.CAD للـ Java](/cad/java/additional-features/export-specific-layout-to-pdf/)
-- [تصدير DWG إلى PDF وتحويل رسومات CAD – درس Aspose.CAD للـ Java](/cad/java/cad-drawing-conversion/)
+- [إنشاء PDF من DXF: تصدير الطبقة باستخدام Aspose.CAD for Java](/cad/java/additional-features/export-specific-layer-to-pdf/)
+- [إنشاء PDF من تخطيط DXF إلى PDF باستخدام Aspose.CAD for Java](/cad/java/additional-features/export-specific-layout-to-pdf/)
+- [تصدير DWG إلى PDF وتحويل رسومات CAD – دليل Aspose.CAD Java](/cad/java/cad-drawing-conversion/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
