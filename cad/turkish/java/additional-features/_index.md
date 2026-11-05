@@ -1,22 +1,25 @@
 ---
-date: 2026-08-02
-description: Aspose.CAD for Java kullanarak dxf'yi pdf'ye dönüştürmeyi ve DXF'yi dışa
-  aktarmayı öğrenin. CAD iş akışınızı geliştirmek için custom properties, tracking
-  ve format conversion gibi ek özellikleri keşfedin.
+date: 2026-11-05
+description: Aspose.CAD for Java kullanarak dxf'yi pdf'ye nasıl dönüştüreceğinizi
+  ve DXF'yi dışa aktaracağınızı öğrenin. CAD iş akışınızı güçlendirmek için özel özellikler,
+  izleme ve format dönüşümü gibi ek özellikleri keşfedin.
+images:
+- /java/additional-features/og-image.png
 keywords:
-- convert dxf to pdf
-- convert dxf to wmf
+- convert dxf pdf
+- export dxf as pdf
 - Aspose.CAD Java features
-lastmod: 2026-08-02
+lastmod: 2026-11-05
 linktitle: Ek Özellikler
-og_description: Aspose.CAD for Java kullanarak DXF'yi PDF'ye hızlı bir şekilde dönüştürün.
-  Güvenilir bir CAD iş akışında DXF'yi dışa aktarmayı, custom properties eklemeyi,
-  tracking'i etkinleştirmeyi ve daha fazlasını keşfedin.
+og_description: Aspose.CAD for Java kullanarak dxf pdf'yi hızlı bir şekilde dönüştürün.
+  Bu kılavuz, DXF çizimlerini PDF veya WMF'ye dışa aktarmayı, özel özellikler eklemeyi,
+  izlemeyi etkinleştirmeyi ve güvenilir bir CAD iş akışında toplu dönüşümleri yönetmeyi
+  gösterir.
 og_image_alt: Developer guide showing Java code converting DXF files to PDF with Aspose.CAD
-og_title: Aspose.CAD for Java ile DXF'yi PDF'ye Dönüştür – Hızlı, Doğru CAD Dönüştürme
+og_title: Aspose.CAD for Java ile dxf pdf'yi Dönüştür – hızlı, doğru
 schemas:
 - author: Aspose
-  dateModified: '2026-08-02'
+  dateModified: '2026-11-05'
   description: Learn how to convert dxf to pdf and export DXF using Aspose.CAD for
     Java. Explore additional features like custom properties, tracking, and format
     conversion to boost your CAD workflow.
@@ -47,7 +50,7 @@ tags:
 - Java CAD conversion
 - DXF to PDF
 - DXF to WMF
-title: Aspose.CAD for Java ile DXF'yi PDF'ye Dönüştürme
+title: Aspose.CAD for Java ile DXF'yi PDF'ye Nasıl Dönüştürülür
 url: /tr/java/additional-features/
 weight: 29
 ---
@@ -56,109 +59,106 @@ weight: 29
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# DXF'yi PDF'ye Aspose.CAD for Java ile Dönüştürme
+# DXF'yi PDF'ye Aspose.CAD for Java ile nasıl dönüştürülür
 
 ## Giriş
 
-Eğer **convert dxf to pdf** için güvenilir bir yol arıyorsanız, doğru yere geldiniz. Bu rehberde Aspose.CAD for Java'nın en faydalı ek özelliklerini, DWG dosyalarına özel özellikler eklemekten DXF çizimlerini PDF veya WMF formatlarına dönüştürmeye kadar ele alacağız. İster bir CAD yöneticisi olarak ekip iş akışını düzenliyor olun, ister otomatik bir pipeline oluşturan bir geliştirici olun, bu adım‑adım öğreticiler işi daha hızlı ve daha az sorunla tamamlamanıza yardımcı olacak.
+Eğer güvenilir bir **convert dxf pdf** yöntemi arıyorsanız, doğru yerdesiniz. Bu rehberde Aspose.CAD for Java'nın en faydalı ek özelliklerini, DWG dosyalarına özel özellikler eklemekten DXF çizimlerini PDF veya WMF formatlarına dönüştürmeye kadar ele alacağız. İster bir CAD yöneticisi olarak ekip iş akışını optimize ediyor olun, ister otomatik bir pipeline oluşturan bir geliştirici olun, bu adım‑adım öğreticiler işi daha hızlı ve daha az sorunla tamamlamanıza yardımcı olacak.
 
-## Hızlı Yanıtlar
-- **Aspose.CAD for Java'nun temel amacı nedir?**  Yerel bir CAD uygulamasına ihtiyaç duymadan CAD dosyalarını programlı olarak okuma, değiştirme ve dönüştürme.  
-- **DXF'yi PDF'ye tek bir kod satırıyla dışa aktarabilir miyim?**  Evet – birkaç API çağrısı, bir DXF çizimini PDF olarak renderlemek için yeterlidir.  
-- **Üretim kullanımı için lisansa ihtiyacım var mı?**  Değerlendirme dışı dağıtımlar için ticari bir lisans gereklidir.  
-- **Hangi Java sürümleri destekleniyor?**  Java 8 ve üzeri tam olarak desteklenir.  
-- **DWG dosyalarında değişiklik takibi için yerleşik destek var mı?**  Kesinlikle – Aspose.CAD, çizimler üzerinde işbirliği yapmak için takibi etkinleştirmenizi sağlar.
+## Hızlı cevaplar
+- **Aspose.CAD for Java'nın temel amacı nedir?** Yerel bir CAD uygulamasına ihtiyaç duymadan CAD dosyalarını programlı olarak okumanıza, değiştirmenize ve dönüştürmenize olanak tanır.  
+- **DXF'yi PDF'ye tek bir kod satırıyla dışa aktarabilir miyim?** Evet – bir kaç API çağrısı, bir DXF çizimini PDF olarak renderlemek için yeterlidir.  
+- **Üretim kullanımında lisansa ihtiyacım var mı?** Değerlendirme dışı dağıtımlar için ticari bir lisans gereklidir.  
+- **Hangi Java sürümleri destekleniyor?** Java 8 ve üzeri tam olarak desteklenir.  
+- **DWG dosyalarındaki değişiklikleri izleme için yerleşik destek var mı?** Kesinlikle – Aspose.CAD, çizimler üzerinde iş birliği yapmak için izlemeyi etkinleştirmenizi sağlar.
 
-## DXF'yi PDF'ye Nasıl Dönüştürülür?
+## DXF'yi PDF'ye nasıl dönüştürülür?
 
-CadImage, DXF gibi CAD dosyalarını manipülasyon ve dışa aktarma için yükleyen Aspose.CAD sınıfıdır.  
-SaveFormat.Pdf, kaydetme işlemi için PDF çıktı formatını belirtir.  
-
-Kaynak DXF'i `new CadImage("input.dxf")` ile yükleyin ve `image.save("output.pdf", SaveFormat.Pdf)` çağrısını yapın – bu iki satırda tam dönüşüm sağlar. Aspose.CAD for Java, katmanları, çizgi kalınlıklarını ve metin fontlarını otomatik olarak korur ve dağıtıma hazır vektör‑kalitede bir PDF sunar. Toplu senaryolar için, bir klasördeki DXF dosyaları üzerinde döngü yapıp aynı iki‑adımlı deseni çağırmanız yeterlidir.
+`CadImage` sınıfı, belleğe yüklenmiş bir CAD çizimini temsil eder ve manipülasyon ve dışa aktarmayı sağlar. DXF dosyanızı `new CadImage("input.dxf")` ile yükleyin ve `image.save("output.pdf", SaveFormat.Pdf)` çağrısını yapın—bu iki satırlık desen, çizimi anında yüksek doğruluklu bir PDF'ye dönüştürür. Aspose.CAD for Java, katmanları, çizgi kalınlıklarını ve metin fontlarını otomatik olarak korur ve dağıtıma hazır vektör‑kaliteli bir PDF sunar. Toplu senaryolar için, bir klasördeki DXF dosyaları üzerinde döngü yapıp aynı iki adımlı deseni çağırmanız yeterlidir.
 
 ## “how to export dxf” nedir?
 
-DXF dosyasını dışa aktarmak, çizim verilerini başka bir formata (örneğin PDF, WMF veya bir görüntü) dönüştürmek anlamına gelir; bu işlem sırasında katmanlar, çizgi kalınlıkları ve diğer CAD özellikleri korunur. Aspose.CAD'in API'si, DXF spesifikasyonunun karmaşıklığını soyutlayarak, dosya‑formatı incelikleri yerine iş mantığına odaklanmanızı sağlar.
+DXF dosyasını dışa aktarmak, çizim verilerini PDF, WMF veya bir raster görüntü gibi başka bir formata dönüştürmek anlamına gelir; bu süreçte katmanlar ve çizgi kalınlıkları korunur. Aspose.CAD, DXF spesifikasyonunu soyutlayarak, düşük seviyeli dosya ayrıştırmasıyla uğraşmak yerine birkaç API çağrısı ile dönüşümü gerçekleştirmenizi sağlar. Bu, geliştirme süresini tasarruf ettirir ve formatla ilgili hataların riskini azaltır.
 
-## Aspose.CAD for Java'yı **convert dxf to pdf** için neden kullanmalısınız?
+## Aspose.CAD for Java'ı **convert dxf pdf** için neden kullanmalısınız?
 
-Aspose.CAD for Java, dış CAD araçları olmadan DXF'yi PDF'ye dönüştürmek için eksiksiz, bağımsız bir çözüm sunar; yüksek doğruluklu vektör çıktısı, tam katman ve özellik korunumu, kolay toplu işleme ve özel özellikler ile izleme sayesinde genişletilebilirlik sağlar; bu da hem bireysel geliştiriciler hem de kurumsal ölçekli otomasyon pipeline'ları için idealdir.
+Aspose.CAD for Java, dış uygulamalara ihtiyaç duymadan CAD dosyalarını okuyan, değiştiren ve dönüştüren bağımsız bir kütüphanedir. Vektör‑kaliteli PDF çıktısı sunması, katmanları ve özellikleri koruması, toplu işleme desteği vermesi ve özel özellikler ile izleme aracılığıyla genişletilebilirlik sağlaması nedeniyle tek dosya dönüşümlerinden büyük ölçekli otomasyon pipeline'larına kadar her türlü senaryo için idealdir.
 
-- **No external CAD software required** – lisans maliyetlerini ve işletim sistemi bağımlılıklarını ortadan kaldırır.  
-- **High‑fidelity rendering** – vektör kalitesini, katmanları ve metni korur.  
-- **Batch processing friendly** – sunucu‑tarafı otomasyon veya CI pipeline'ları için idealdir.  
-- **Extensible** – dönüşümden önce özel özellikler ekleyebilir, izlemeyi etkinleştirebilir veya eklemeleri ayrıştırabilirsiniz.
+- **Harici CAD yazılımı gerekmez** – lisans maliyetlerini ve işletim sistemi bağımlılıklarını ortadan kaldırır.  
+- **Yüksek doğruluklu renderleme** – vektör kalitesini, katmanları ve metni korur.  
+- **Toplu işleme dostu** – sunucu‑tarafı otomasyon veya CI pipeline'ları için idealdir.  
+- **Genişletilebilir** – dönüşümden önce özel özellikler ekleyebilir, izlemeyi etkinleştirebilir veya eklemeleri ayrıştırabilirsiniz.
 
 ## Önkoşullar
-- Java Development Kit (JDK) 8 veya daha yenisi.  
+- Java Development Kit (JDK) 8 veya üzeri.  
 - Aspose.CAD for Java kütüphanesi (Aspose web sitesinden indirin).  
-- Üretim kullanımı için geçerli bir Aspose.CAD lisansı (ücretsiz deneme testi için çalışır).
+- Üretim kullanımı için geçerli bir Aspose.CAD lisansı (deneme sürümü test için çalışır).
 
-## Ek Özellikler Genel Bakışı
+## Ek özellikler genel bakışı
 
-Aşağıda kapsadığımız ekstra yeteneklerin her birine kısa bir giriş bulacaksınız. Tam adım‑adım öğreticiye dalmak için herhangi bir bağlantıya tıklayın.
+Aşağıda kapsadığımız ek yeteneklerin kısa tanıtımlarını bulacaksınız. Tam adım‑adım öğreticiye dalmak için herhangi bir bağlantıya tıklayın.
 
-### DWG Dosyalarına Özel Özellikler Ekleme
+### DWG dosyalarına özel özellikler ekleme
 DWG çizimlerine doğrudan meta veri eklemeyi öğrenin; bu, büyük CAD kütüphanelerini aramayı, filtrelemeyi ve düzenlemeyi kolaylaştırır.
 
-### CAD Insert Nesnesini Ayrıştırma
-Karmaşık insert nesnelerini bileşen varlıklara ayırarak, bireysel parçaları programlı olarak düzenleyebilir veya yeniden kullanabilirsiniz.
+### CAD ek nesnesini ayrıştırma
+Karmaşık ek nesnelerini bileşen varlıklara ayırarak, bireysel parçaları programlı olarak düzenleyebilir veya yeniden kullanabilirsiniz.
 
-### DWG Dosyalarında İzlemeyi Etkinleştirme
-Kimlerin hangi değişiklikleri yaptığını yakalamak için değişiklik izlemeyi açın—işbirlikçi tasarım ortamları için mükemmeldir.
+### DWG dosyalarında izlemeyi etkinleştirme
+Kimlerin hangi değişiklikleri yaptığını yakalamak için değişiklik izlemeyi açın—iş birliği tasarım ortamları için mükemmeldir.
 
-### DXF Çizimini PDF'ye Dışa Aktarma
-**how to export dxf**'i yüksek kalite bir PDF'ye dışa aktarmak için pratik bir rehber; CAD araçları olmayan paydaşlarla paylaşmak için idealdir.
+### DXF çizimini PDF'ye dışa aktarma
+**how to export dxf** konusundaki pratik bir rehber; yüksek kalite PDF'ye dönüştürür, CAD araçları olmayan paydaşlarla paylaşmak için idealdir.
 
-### DXF'yi WMF Formatına Dışa Aktarma
-DXF çizimlerini, eski Windows uygulamaları veya Office belgelerinde kullanmak için Windows Metafile (WMF) formatına dönüştürün.
+### DXF'yi WMF formatına dışa aktarma
+DXF çizimlerini, eski Windows uygulamaları veya Office belgeleri için Windows Metafile (WMF) formatına dönüştürün.
 
-### Görüntüleri DXF Formatına Dışa Aktarma
-Raster görüntüleri vektör DXF dosyalarına dönüştürerek daha fazla CAD manipülasyonu sağlar. **convert image to dxf**'e ihtiyacınız olduğunda mükemmel bir çözümdür.
+### Görüntüleri DXF formatına dışa aktarma
+Raster görüntüleri vektör DXF dosyalarına dönüştürerek daha fazla CAD manipülasyonu sağlar. **convert image to dxf** gerektiğinde mükemmel bir çözümdür.
 
-### Belirli DXF Düzenini Görüntüye Dışa Aktarma
+### Belirli DXF düzenini görüntüye dışa aktarma
 Çoklu‑düzen DXF dosyasından tek bir düzeni PNG veya JPEG olarak renderleyin.
 
-### Belirli DXF Düzenini PDF'ye Dışa Aktarma
-PDF dönüşümü için belirli bir düzeni hedefleyin—çizimin yalnızca bir alt kümesi gerektiğinde faydalıdır.
+### Belirli DXF düzenini PDF'ye dışa aktarma
+PDF dönüşümü için belirli bir düzeni hedefleyin—çizimin sadece bir alt kümesi gerektiğinde faydalıdır.
 
-### DXF Çiziminin Belirli Katmanını PDF'ye Dışa Aktarma
-Tek bir katmanı izole edip PDF'ye dışa aktarın; çıktınızı temiz ve odaklı tutar.
+### DXF çiziminin belirli katmanını PDF'ye dışa aktarma
+Tek bir katmanı izole edip PDF'ye dışa aktarın, çıktınızı temiz ve odaklı tutun.
 
-### DXF'yi PDF Olarak Renderleme
-Bir DXF dosyasının tamamını PDF belgesi olarak renderlemenin hızlı bir özeti.
+### DXF'yi PDF olarak renderleme
+Tüm bir DXF dosyasını PDF belgesi olarak renderlemenin hızlı bir rehberi.
 
-### DXF Dosyalarını Java'da Aspose.CAD ile Kaydetme
+### Aspose.CAD ile Java'da DXF dosyalarını kaydetme
 Manipülasyon veya dönüşüm sonrası bir DXF dosyasında yapılan değişiklikleri kalıcı hale getirin.
 
-## Ayrıntılı Öğreticiler
+## Ayrıntılı öğreticiler
 
-### [Aspose.CAD Kullanarak Java'da DWG Dosyalarına Özel Özellikler Ekleme](./add-custom-properties/)
-Aspose.CAD kullanarak Java'da DWG dosyalarına özel özellikler eklemeyi öğrenin. CAD çizimlerinde organizasyonu ve bilgi alımını zahmetsizce geliştirin.
+### [Aspose.CAD ile Java'da DWG Dosyalarına Özel Özellikler Ekleme](./add-custom-properties/)
+Java'da Aspose.CAD kullanarak DWG dosyalarına özel özellikler eklemeyi öğrenin. CAD çizimlerinde organizasyonu ve bilgi alımını zahmetsizce geliştirin.
 
 ### [Aspose.CAD ile Java'da CAD Insert Nesnesini Ayrıştırma](./decompose-cad-insert-object/)
-Aspose.CAD ile Java'da CAD insert nesnelerini ayrıştırmayı ustalaşın. Verimli işlem için adım‑adım rehberimizi izleyin. CAD manipülasyonu dünyasına dalın.
+Aspose.CAD ile Java'da CAD insert nesnelerini ayrıştırmayı ustalaşın. Verimli bir şekilde ele almak için adım‑adım rehberimizi izleyin. CAD manipülasyonu dünyasına dalın.
 
 ### [Aspose.CAD ile Java'da DWG Dosyalarında İzlemeyi Etkinleştirme](./enable-tracking/)
-Aspose.CAD kullanarak Java'da DWG dosyası izlemeyi etkinleştirme üzerine adım‑adım rehberi keşfedin; CAD projelerinde sorunsuz işbirliğini sağlar.
+Aspose.CAD kullanarak Java'da DWG dosyası izlemeyi etkinleştirme üzerine adım‑adım rehberi keşfedin; CAD projelerinde sorunsuz iş birliğini garanti eder.
 
 ### [Aspose.CAD for Java ile DXF Çizimini PDF'ye Dışa Aktarma](./export-dxf-to-pdf/)
 Aspose.CAD ile Java'da DXF çizimlerini PDF'ye sorunsuz bir şekilde dönüştürmeyi keşfedin. CAD iş akışınızı zahmetsizce geliştirin.
 
-### [Aspose.CAD Kullanarak Java'da DXF'yi WMF Formatına Dışa Aktarma](./export-dxf-to-wmf/)
+### [Aspose.CAD ile Java'da DXF'yi WMF Formatına Dışa Aktarma](./export-dxf-to-wmf/)
 Aspose.CAD for Java'ın gücünü ortaya çıkarın. Detaylı öğreticimizle DXF çizimlerini WMF formatına zahmetsizce dışa aktarmayı öğrenin. Kütüphaneyi indirin, adım‑adım rehberimizi izleyin ve CAD dosya yönetiminizi yükseltin.
 
-### [Aspose.CAD Kullanarak Java'da Görüntüleri DXF Formatına Dışa Aktarma](./export-images-to-dxf/)
+### [Aspose.CAD ile Java'da Görüntüleri DXF Formatına Dışa Aktarma](./export-images-to-dxf/)
 Aspose.CAD for Java kullanarak görüntüleri DXF formatına dışa aktarma sürecini sorunsuz bir şekilde keşfedin. Adım‑adım rehber, SSS ve daha fazlası.
 
-### [Aspose.CAD for Java ile Belirli DXF Düzenini Görüntüye Dışa Aktarma](./export-specific-layout-to-image/)
+### [Aspose.CAD ile Java'da Belirli DXF Düzenini Görüntüye Dışa Aktarma](./export-specific-layout-to-image/)
 Aspose.CAD for Java kullanarak belirli bir DXF düzenini görüntüye dışa aktarmayı öğrenin. Sorunsuz entegrasyon için adım‑adım rehberimizi izleyin.
 
 ### [Aspose.CAD for Java ile Belirli DXF Düzenini PDF'ye Dışa Aktarma](./export-specific-layout-to-pdf/)
-Aspose.CAD for Java ile DXF'den PDF'ye sorunsuz dönüşümü keşfedin. Belirli düzenleri hassasiyetle zahmetsizce dışa aktarın.
+Aspose.CAD for Java ile DXF'den PDF'ye sorunsuz dönüşümü keşfedin. Belirli düzenleri hassas bir şekilde zahmetsizce dışa aktarın.
 
 ### [Aspose.CAD for Java ile DXF Çiziminin Belirli Katmanını PDF'ye Dışa Aktarma](./export-specific-layer-to-pdf/)
-Aspose.CAD for Java kullanarak DXF çizimlerinin belirli katmanlarını PDF'ye zahmetsizce dışa aktarın. Sorunsuz entegrasyon için bu adım‑adım rehberi izleyin.
+Aspose.CAD for Java kullanarak DXF çizimlerinden belirli katmanları PDF'ye zahmetsizce dışa aktarın. Sorunsuz entegrasyon için bu adım‑adım rehberi izleyin.
 
 ### [Aspose.CAD for Java ile DXF'yi PDF Olarak Renderleme](./render-dxf-as-pdf/)
 Aspose.CAD ile Java'da DXF'yi PDF'ye zahmetsizce dönüştürün. Sorunsuz renderleme için adım‑adım rehberimizi izleyin.
@@ -166,41 +166,41 @@ Aspose.CAD ile Java'da DXF'yi PDF'ye zahmetsizce dönüştürün. Sorunsuz rende
 ### [Aspose.CAD ile Java'da DXF Dosyalarını Kaydetme](./save-dxf-files/)
 Aspose.CAD kullanarak Java'da DXF dosyalarını nasıl kaydedeceğinizi öğrenin. Verimli CAD dosya yönetimi için adım‑adım rehberimizi izleyin.
 
-## Yaygın Tuzaklar ve İpuçları
+## Yaygın tuzaklar ve ipuçları
 
-- **Missing Fonts** – Orijinal DWG/DXF'de kullanılan özel fontların sunucuda yüklü olduğundan emin olun; aksi takdirde metin varsayılan bir fonta geri dönebilir.  
-- **Large Files** – Çok büyük DXF dosyalarını PDF'ye dönüştürürken, `OutOfMemoryError` hatasını önlemek için JVM yığın boyutunu (`-Xmx2g`) artırmayı düşünün.  
-- **Layer Visibility** – Eğer bir katman dışa aktarılan PDF'de görünmüyorsa, dönüşümden önce `IsVisible` bayrağının `true` olarak ayarlandığını doğrulayın.  
-- **Tracking Overhead** – İzlemeyi etkinleştirmek dosyaya meta veri ekler; dosya boyutunu minimumda tutmak için son üretim sürümlerinde devre dışı bırakın.
+- **Eksik fontlar** – Orijinal DWG/DXF'te kullanılan özel fontların sunucuda yüklü olduğundan emin olun; aksi takdirde metin varsayılan bir fonta geri dönebilir.  
+- **Büyük dosyalar** – Çok büyük DXF dosyalarını PDF'ye dönüştürürken, `OutOfMemoryError` hatasından kaçınmak için JVM yığın boyutunu (`-Xmx2g`) artırmayı düşünün.  
+- **Katman görünürlüğü** – Eğer bir katman dışa aktarılan PDF'de görünmüyorsa, dönüşümden önce `IsVisible` bayrağının `true` olarak ayarlandığını doğrulayın.  
+- **İzleme ek yükü** – İzlemeyi etkinleştirmek dosyaya meta veri ekler; dosya boyutunu minimumda tutmak için son üretim sürümlerinde devre dışı bırakın.
 
 ## Sıkça Sorulan Sorular
 
-**S:** DXF'yi PDF'ye herhangi bir CAD yazılımı kurmadan dönüştürebilir miyim?  
-**C:** Evet. Aspose.CAD for Java, dönüşümü tamamen kod içinde gerçekleştirir ve dış CAD uygulamalarına olan ihtiyacı ortadan kaldırır.
+**S: CAD yazılımı kurmadan DXF'yi PDF'ye dönüştürebilir miyim?**  
+C: Evet. Aspose.CAD for Java, dönüşümü tamamen kod içinde gerçekleştirir ve harici CAD uygulamalarına ihtiyaç duymaz.
 
-**S:** Çoklu DXF dosyalarının toplu dönüşümünü destekliyor mu?  
-**C:** Kesinlikle. Dosyalar koleksiyonunu döngüye alabilir ve her biri için aynı dışa aktarma API'sını çağırabilirsiniz; gerekirse asenkron olarak işleyebilirsiniz.
+**S: Kütüphane birden fazla DXF dosyasının toplu dönüşümünü destekliyor mu?**  
+C: Kesinlikle. Dosyalar koleksiyonunda döngü yapabilir ve her biri için aynı dışa aktarım API'sini çağırabilirsiniz; gerekirse asenkron olarak işleyebilirsiniz.
 
-**S:** Ticari dağıtım için lisans kısıtlamaları var mı?  
-**C:** Üretim kullanımı için ticari bir lisans gereklidir. Geliştirme ve test için ücretsiz bir değerlendirme lisansı mevcuttur.
+**S: Ticari dağıtım için lisans kısıtlamaları var mı?**  
+C: Üretim kullanımı için ticari bir lisans gereklidir. Geliştirme ve test için ücretsiz bir değerlendirme lisansı mevcuttur.
 
-**S:** PDF'ye dönüştürürken katman bilgilerini nasıl korurum?  
-**C:** Varsayılan olarak Aspose.CAD katmanları korur. Dışa aktarmadan önce `LayerOptions` nesnesiyle katman görünürlüğünü de kontrol edebilirsiniz.
+**S: PDF'ye dönüştürürken katman bilgilerini nasıl korurum?**  
+C: Varsayılan olarak Aspose.CAD katmanları korur. Dışa aktarmadan önce `LayerOptions` nesnesiyle katman görünürlüğünü de kontrol edebilirsiniz.
 
-**S:** DXF çizimini doğrudan PNG gibi bir görüntü formatına dönüştürmek mümkün mü?  
-**C:** Evet – çizimi PNG, JPEG veya BMP gibi raster formatlara renderlemek için `ImageExportOptions` sınıfını kullanın.
+**S: DXF çizimini doğrudan PNG gibi bir görüntü formatına dönüştürmek mümkün mü?**  
+C: Evet – `ImageExportOptions` sınıfını kullanarak çizimi PNG, JPEG veya BMP gibi raster formatlara renderleyebilirsiniz.
 
 ---
 
-**Son Güncelleme:** 2026-08-02  
+**Son Güncelleme:** 2026-11-05  
 **Test Edilen Versiyon:** Aspose.CAD for Java 24.12  
 **Yazar:** Aspose
 
-## İlgili Öğreticiler
+## İlgili öğreticiler
 
-- [Aspose.CAD Kullanarak Java'da DXF'yi WMF'ye Dönüştürme](/cad/java/additional-features/export-dxf-to-wmf/)
-- [DXF'den PDF Oluşturma: Aspose.CAD for Java ile Katman Dışa Aktarma](/cad/java/additional-features/export-specific-layer-to-pdf/)
-- [DXF Düzeninden PDF Oluşturma: Aspose.CAD for Java Kullanarak](/cad/java/additional-features/export-specific-layout-to-pdf/)
+- [Aspose.CAD ile Java'da DXF'yi WMF'ye Dönüştürme](/cad/java/additional-features/export-dxf-to-wmf/)
+- [Aspose.CAD for Java ile DXF'den PDF Oluşturma: Katmanı Dışa Aktarma](/cad/java/additional-features/export-specific-layer-to-pdf/)
+- [Aspose.CAD for Java ile DXF Düzeninden PDF Oluşturma](/cad/java/additional-features/export-specific-layout-to-pdf/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
