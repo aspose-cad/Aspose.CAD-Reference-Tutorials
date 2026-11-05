@@ -1,21 +1,24 @@
 ---
-date: 2026-08-02
-description: تعلم كيفية تحويل DXF إلى PDF وتصدير DXF باستخدام Aspose.CAD for Java.
-  استكشف الميزات الإضافية مثل الخصائص المخصصة، التتبع، وتحويل الصيغ لتعزيز سير عمل
-  CAD الخاص بك.
+date: 2026-11-05
+description: تعرف على كيفية تحويل dxf إلى pdf وتصدير DXF باستخدام Aspose.CAD for Java.
+  استكشف ميزات إضافية مثل الخصائص المخصصة، التتبع، وتحويل الصيغ لتعزيز سير عمل CAD
+  الخاص بك.
+images:
+- /java/additional-features/og-image.png
 keywords:
-- convert dxf to pdf
-- convert dxf to wmf
+- convert dxf pdf
+- export dxf as pdf
 - Aspose.CAD Java features
-lastmod: 2026-08-02
+lastmod: 2026-11-05
 linktitle: ميزات إضافية
-og_description: حوّل DXF إلى PDF بسرعة باستخدام Aspose.CAD for Java. اكتشف كيفية تصدير
-  DXF، إضافة الخصائص المخصصة، تمكين التتبع، والمزيد في سير عمل CAD موثوق.
+og_description: حوّل dxf إلى pdf بسرعة باستخدام Aspose.CAD for Java. يوضح هذا الدليل
+  كيفية تصدير رسومات DXF إلى PDF أو WMF، إضافة خصائص مخصصة، تمكين التتبع، ومعالجة
+  التحويلات الجماعية في سير عمل CAD موثوق.
 og_image_alt: Developer guide showing Java code converting DXF files to PDF with Aspose.CAD
-og_title: تحويل DXF إلى PDF باستخدام Aspose.CAD for Java – تحويل CAD سريع ودقيق
+og_title: تحويل dxf إلى pdf باستخدام Aspose.CAD for Java – سريع ودقيق
 schemas:
 - author: Aspose
-  dateModified: '2026-08-02'
+  dateModified: '2026-11-05'
   description: Learn how to convert dxf to pdf and export DXF using Aspose.CAD for
     Java. Explore additional features like custom properties, tracking, and format
     conversion to boost your CAD workflow.
@@ -59,146 +62,141 @@ weight: 29
 
 ## مقدمة
 
-If you need a reliable way to **convert dxf to pdf**, you’ve landed in the right spot. In this guide we’ll walk through the most useful additional features of Aspose.CAD for Java, from adding custom properties to DWG files to converting DXF drawings into PDF or WMF formats. Whether you’re a CAD manager streamlining a team workflow or a developer building an automated pipeline, these step‑by‑step tutorials will help you get the job done faster and with fewer headaches.
+إذا كنت بحاجة إلى طريقة موثوقة **convert dxf pdf**، فقد وصلت إلى المكان الصحيح. في هذا الدليل سنستعرض أكثر الميزات الإضافية فائدة في Aspose.CAD للـ Java، من إضافة خصائص مخصصة إلى ملفات DWG إلى تحويل رسومات DXF إلى صيغ PDF أو WMF. سواءً كنت مدير CAD ي streamline سير عمل الفريق أو مطورًا يبني خط أنابيب آلي، ستساعدك هذه الدروس خطوة بخطوة على إنجاز المهمة بسرعة أكبر وبدون عناء كبير.
 
 ## إجابات سريعة
-- **ما هو الغرض الأساسي من Aspose.CAD للـ Java؟**  لقراءة وتعديل وتحويل ملفات CAD برمجياً دون الحاجة إلى تطبيق CAD أصلي.  
-- **هل يمكنني تصدير DXF إلى PDF بسطر واحد من الكود؟**  نعم – بضع نداءات API تكفي لتصوير رسم DXF كملف PDF.  
-- **هل أحتاج إلى ترخيص للاستخدام في الإنتاج؟**  الترخيص التجاري مطلوب للنشر غير التجريبي.  
-- **ما إصدارات Java المدعومة؟**  Java 8 وما بعدها مدعومة بالكامل.  
-- **هل هناك دعم مدمج لتتبع التغييرات في ملفات DWG؟**  بالتأكيد – يتيح لك Aspose.CAD تمكين التتبع للتعاون على الرسومات.
+- **ما هو الغرض الأساسي من Aspose.CAD للـ Java؟** يتيح لك قراءة وتعديل وتحويل ملفات CAD برمجياً دون الحاجة إلى تطبيق CAD أصلي.  
+- **هل يمكنني تصدير DXF إلى PDF بسطر واحد من الشيفرة؟** نعم – عدد قليل من استدعاءات API يكفي لعرض رسم DXF كملف PDF.  
+- **هل أحتاج إلى ترخيص للاستخدام في الإنتاج؟** يلزم الحصول على ترخيص تجاري للنشر غير التجريبي.  
+- **ما إصدارات Java المدعومة؟** Java 8 وما فوق مدعومة بالكامل.  
+- **هل هناك دعم مدمج لتتبع التغييرات في ملفات DWG؟** بالتأكيد – يتيح لك Aspose.CAD تمكين التتبع للتعاون على الرسومات.
 
-## كيفية تحويل DXF إلى PDF؟
+## كيفية تحويل dxf pdf؟
 
-CadImage هي الفئة في Aspose.CAD التي تقوم بتحميل ملفات CAD مثل DXF للتلاعب والتصدير.  
-SaveFormat.Pdf يحدد تنسيق الإخراج PDF لعملية الحفظ.  
-
-حمّل ملف DXF المصدر باستخدام `new CadImage("input.dxf")` واستدعِ `image.save("output.pdf", SaveFormat.Pdf)` – هذه هي عملية التحويل الكاملة في سطرين. يقوم Aspose.CAD للـ Java تلقائياً بالحفاظ على الطبقات وسمك الخطوط وخطوط النص، مما ينتج PDF بجودة متجهة جاهز للتوزيع. في سيناريوهات الدفعات، يمكنك ببساطة التكرار على مجلد يحتوي على ملفات DXF واستدعاء نمط الخطوتين نفسه.
+فئة `CadImage` تمثل رسم CAD محملاً في الذاكرة، مما يتيح التلاعب والتصدير. حمّل ملف DXF باستخدام `new CadImage("input.dxf")` واستدعِ `image.save("output.pdf", SaveFormat.Pdf)`—هذا النمط المكوّن من سطرين يحول الرسم إلى PDF عالي الدقة فورًا. يقوم Aspose.CAD للـ Java تلقائيًا بالحفاظ على الطبقات، وزن الخطوط، وخطوط النص، مما ينتج PDF بجودة متجهة جاهزة للتوزيع. للسيناريوهات الدفعية، ما عليك سوى تكرار العملية على مجلد من ملفات DXF واستدعاء نفس النمط ذو الخطوتين.
 
 ## ما هو “how to export dxf”؟
 
-تصدير ملف DXF يعني تحويل بيانات الرسم إلى تنسيق آخر (مثل PDF أو WMF أو صورة) مع الحفاظ على الطبقات وسمك الخطوط وغيرها من خصائص CAD. تقوم API الخاصة بـ Aspose.CAD بتجريد تعقيد مواصفات DXF، مما يسمح لك بالتركيز على منطق الأعمال بدلاً من تفاصيل تنسيق الملفات.
+تصدير ملف DXF يعني تحويل بيانات الرسم إلى صيغة أخرى مثل PDF أو WMF أو صورة نقطية مع الحفاظ على الطبقات ووزن الخطوط. يقوم Aspose.CAD بتجريد مواصفات DXF، مما يسمح لك بأداء التحويل عبر عدد قليل من استدعاءات API بدلاً من التعامل مع تحليل الملف منخفض المستوى بنفسك. هذا يوفر وقت التطوير ويقلل من مخاطر الأخطاء المتعلقة بالتنسيق.
 
-## لماذا تستخدم Aspose.CAD للـ Java **لتحويل dxf إلى pdf**؟
+## لماذا تستخدم Aspose.CAD للـ Java **convert dxf pdf**؟
 
-يوفر Aspose.CAD للـ Java حلاً كاملاً ومستقلاً لتحويل DXF إلى PDF دون أدوات CAD خارجية، مع إنتاج متجه عالي الدقة، وحفظ كامل للطبقات والخصائص، ومعالجة دفعات سهلة، وإمكانية التوسعة عبر الخصائص المخصصة والتتبع، مما يجعله مثالياً لكل من المطورين الفرديين وأنظمة الأتمتة على مستوى المؤسسات.
+Aspose.CAD للـ Java مكتبة مستقلة تقرأ وتعدل وتحوّل ملفات CAD دون الحاجة إلى تطبيقات خارجية. يجب عليك استخدامها لأنها تقدم مخرجات PDF بجودة متجهة، تحتفظ بالطبقات والخصائص، تدعم المعالجة الدفعية، وتوفر قابلية الت extensibility عبر الخصائص المخصصة والتتبع، مما يجعلها مثالية لكل من التحويلات الفردية والأنابيب الآلية على نطاق واسع.
 
-- **لا حاجة لبرمجيات CAD خارجية** – يلغي تكاليف الترخيص واعتماديات نظام التشغيل.  
-- **تصيير عالي الدقة** – يحافظ على جودة المتجهات والطبقات والنص.  
-- **ملائم للمعالجة الدفعية** – مثالي لأتمتة الخادم أو خطوط CI.  
-- **قابل للتوسعة** – يمكنك إضافة خصائص مخصصة، تمكين التتبع، أو تفكيك الإدراجات قبل التحويل.
+- **لا حاجة لبرمجيات CAD خارجية** – يلغي تكاليف الترخيص واعتمادية نظام التشغيل.  
+- **عرض عالي الدقة** – يحافظ على جودة المتجهات، الطبقات، والنص.  
+- **ملائمة للمعالجة الدفعية** – مثالية للأتمتة على الخادم أو خطوط CI.  
+- **قابلة للتوسيع** – يمكنك إضافة خصائص مخصصة، تمكين التتبع، أو تفكيك الإدراجات قبل التحويل.
 
 ## المتطلبات المسبقة
 - مجموعة تطوير Java (JDK) 8 أو أحدث.  
 - مكتبة Aspose.CAD للـ Java (قم بتنزيلها من موقع Aspose).  
-- ترخيص Aspose.CAD صالح للاستخدام في الإنتاج (إصدار تجريبي مجاني يعمل للاختبار).  
+- ترخيص Aspose.CAD صالح للاستخدام في الإنتاج (إصدار تجريبي مجاني للاختبار).  
 
 ## نظرة عامة على الميزات الإضافية
 
-ستجد أدناه مقدماً مختصراً لكل من القدرات الإضافية التي نغطيها. انقر على أي رابط للغوص في الدليل الكامل خطوة بخطوة.
+ستجد أدناه مقدّمات مختصرة لكل من القدرات الإضافية التي نغطيها. انقر على أي رابط للغوص في الدرس الكامل خطوة بخطوة.
 
 ### إضافة خصائص مخصصة إلى ملفات DWG
-تعلم كيفية تضمين بيانات التعريف مباشرةً في رسومات DWG، مما يسهل البحث والتصفية وتنظيم مكتبات CAD الكبيرة.
+تعلم كيفية تضمين بيانات التعريف مباشرةً في رسومات DWG، مما يسهل البحث، الفلترة، وتنظيم مكتبات CAD الكبيرة.
 
 ### تفكيك كائن إدراج CAD
-قسّم كائنات الإدراج المعقدة إلى الكيانات المكوّنة لها حتى تتمكن من تعديل أو إعادة استخدام الأجزاء الفردية برمجياً.
+قم بتفكيك كائنات الإدراج المعقدة إلى الكيانات المكوّنة لها حتى تتمكن من تعديل أو إعادة استخدام الأجزاء الفردية برمجياً.
 
-### تمكين التتبع في ملفات DWG
-فعّل تتبع التغييرات لتسجيل من قام بأي تعديل—مثالي لبيئات التصميم التعاونية.
+### تمكين تتبع التغييرات في ملفات DWG
+فعّل تتبع التغييرات لالتقاط من قام بأي تعديل—مثالي لبيئات التصميم التعاونية.
 
 ### تصدير رسم DXF إلى PDF
-دليل عملي حول **كيفية تصدير dxf** إلى PDF عالي الجودة، مثالي للمشاركة مع أصحاب المصلحة الذين لا يمتلكون أدوات CAD.
+دليل عملي حول **how to export dxf** إلى PDF عالي الجودة، مثالي للمشاركة مع أصحاب المصلحة الذين لا يمتلكون أدوات CAD.
 
 ### تصدير DXF إلى تنسيق WMF
 حوّل رسومات DXF إلى Windows Metafile (WMF) للاستخدام في تطبيقات Windows القديمة أو مستندات Office.
 
 ### تصدير الصور إلى تنسيق DXF
-حوّل الصور النقطية إلى ملفات DXF متجهة، مما يتيح مزيداً من التلاعب بـ CAD. هذا هو الحل المثالي عندما تحتاج إلى **تحويل صورة إلى dxf**.
+حوّل الصور النقطية إلى ملفات DXF متجهة، مما يتيح مزيدًا من التلاعب في CAD. هذا هو الحل المثالي عندما تحتاج إلى **convert image to dxf**.
 
 ### تصدير تخطيط DXF محدد إلى صورة
-صوّر تخطيطًا واحدًا من ملف DXF متعدد التخطيطات كصورة PNG أو JPEG.
+اعرض تخطيطًا واحدًا من ملف DXF متعدد التخطيطات كصورة PNG أو JPEG.
 
 ### تصدير تخطيط DXF محدد إلى PDF
-استهدف تخطيطًا معينًا لتحويله إلى PDF—مفيد عندما يكون فقط جزء من الرسم مطلوبًا.
+استهدف تخطيطًا معينًا للتحويل إلى PDF—مفيد عندما يكون جزء فقط من الرسم مطلوبًا.
 
 ### تصدير طبقة محددة من رسم DXF إلى PDF
-عزل طبقة واحدة وتصديرها إلى PDF، مما يحافظ على نظافة وتركيز الناتج.
+عزل طبقة واحدة وتصديرها إلى PDF، مما يحافظ على نظافة وتركيز المخرجات.
 
-### تصيير DXF كـ PDF
-دليل سريع لتصوير ملف DXF كامل كوثيقة PDF.
+### عرض DXF كـ PDF
+دليل سريع لعرض ملف DXF كامل كوثيقة PDF.
 
 ### حفظ ملفات DXF باستخدام Aspose.CAD في Java
-احفظ التغييرات التي تم إجراؤها على ملف DXF بعد التلاعب أو التحويل.
+احفظ التغييرات التي أجريتها على ملف DXF بعد التلاعب أو التحويل.
 
-## دروس مفصلة
+## دروس تفصيلية
 
 ### [إضافة خصائص مخصصة إلى ملفات DWG باستخدام Aspose.CAD في Java](./add-custom-properties/)
-Learn how to add custom properties to DWG files in Java using Aspose.CAD. Enhance organization and information retrieval in CAD drawings effortlessly.
+تعلم كيفية إضافة خصائص مخصصة إلى ملفات DWG في Java باستخدام Aspose.CAD. حسّن التنظيم واسترجاع المعلومات في رسومات CAD بسهولة.
 
-### [تفكيك كائن إدراج CAD باستخدام Aspose.CAD في Java](./decompose-cad-insert-object/)
-Master decomposing CAD insert objects in Java with Aspose.CAD. Follow our step‑by‑step guide for efficient handling. Dive into the world of CAD manipulation.
+### [تفكيك كائن إدراج CAD مع Aspose.CAD في Java](./decompose-cad-insert-object/)
+إتقان تفكيك كائنات الإدراج في CAD باستخدام Java وAspose.CAD. اتبع دليلنا خطوة بخطوة للتعامل الفعال. استكشف عالم التلاعب بـ CAD.
 
-### [تمكين التتبع في ملفات DWG باستخدام Aspose.CAD في Java](./enable-tracking/)
-Explore the step‑by‑step guide on enabling DWG file tracking in Java using Aspose.CAD, ensuring seamless collaboration in CAD projects.
+### [تمكين تتبع التغييرات في ملفات DWG مع Aspose.CAD في Java](./enable-tracking/)
+استكشف دليل الخطوة بخطوة لتمكين تتبع ملفات DWG في Java باستخدام Aspose.CAD، لضمان تعاون سلس في مشاريع CAD.
 
-### [تصدير رسم DXF إلى PDF باستخدام Aspose.CAD للـ Java](./export-dxf-to-pdf/)
-Explore the seamless conversion of DXF drawings to PDF in Java with Aspose.CAD. Enhance your CAD workflow effortlessly.
+### [تصدير رسم DXF إلى PDF مع Aspose.CAD للـ Java](./export-dxf-to-pdf/)
+استكشف التحويل السلس لرسومات DXF إلى PDF في Java باستخدام Aspose.CAD. حسّن سير عمل CAD الخاص بك بسهولة.
 
 ### [تصدير DXF إلى تنسيق WMF باستخدام Aspose.CAD في Java](./export-dxf-to-wmf/)
-Unlock the power of Aspose.CAD for Java. Learn how to effortlessly export DXF drawings to WMF format with our detailed tutorial. Download the library, follow our step‑by‑step guide, and elevate your CAD file handling.
+اكتشف قوة Aspose.CAD للـ Java. تعلم كيفية تصدير رسومات DXF إلى تنسيق WMF بسهولة عبر دليلنا المفصل. حمّل المكتبة، اتبع دليلنا خطوة بخطوة، وارتقِ بإدارة ملفات CAD.
 
 ### [تصدير الصور إلى تنسيق DXF باستخدام Aspose.CAD في Java](./export-images-to-dxf/)
-Explore the seamless process of exporting images to DXF format using Aspose.CAD for Java. Step‑by‑step guide, FAQs, and more.
+استكشف العملية السلسة لتصدير الصور إلى تنسيق DXF باستخدام Aspose.CAD للـ Java. دليل خطوة بخطوة، أسئلة شائعة، وأكثر.
 
-### [تصدير تخطيط DXF محدد إلى صورة باستخدام Aspose.CAD في Java](./export-specific-layout-to-image/)
-Learn how to export a specific DXF layout to an image using Aspose.CAD for Java. Follow our step‑by‑step guide for seamless integration.
+### [تصدير تخطيط DXF محدد إلى صورة مع Aspose.CAD في Java](./export-specific-layout-to-image/)
+تعلم كيفية تصدير تخطيط DXF محدد إلى صورة باستخدام Aspose.CAD للـ Java. اتبع دليلنا خطوة بخطوة للتكامل السلس.
 
-### [تصدير تخطيط DXF محدد إلى PDF باستخدام Aspose.CAD للـ Java](./export-specific-layout-to-pdf/)
-Explore seamless DXF to PDF conversion with Aspose.CAD for Java. Effortlessly export specific layouts with precision.
+### [تصدير تخطيط DXF محدد إلى PDF مع Aspose.CAD للـ Java](./export-specific-layout-to-pdf/)
+استكشف تحويل DXF إلى PDF بسلاسة مع Aspose.CAD للـ Java. صدّر تخطيطات محددة بدقة وسهولة.
 
-### [تصدير طبقة محددة من رسم DXF إلى PDF باستخدام Aspose.CAD للـ Java](./export-specific-layer-to-pdf/)
-Effortlessly export specific layers from DXF drawings to PDF using Aspose.CAD for Java. Follow this step‑by‑step guide for seamless integration.
+### [تصدير طبقة محددة من رسم DXF إلى PDF مع Aspose.CAD للـ Java](./export-specific-layer-to-pdf/)
+صدّر طبقات محددة من رسومات DXF إلى PDF باستخدام Aspose.CAD للـ Java. اتبع هذا الدليل خطوة بخطوة للتكامل السلس.
 
-### [تصيير DXF كـ PDF باستخدام Aspose.CAD للـ Java](./render-dxf-as-pdf/)
-Convert DXF to PDF in Java effortlessly with Aspose.CAD. Follow our step‑by‑step guide for seamless rendering.
+### [عرض DXF كـ PDF باستخدام Aspose.CAD للـ Java](./render-dxf-as-pdf/)
+حوّل DXF إلى PDF في Java بسهولة مع Aspose.CAD. اتبع دليلنا خطوة بخطوة للعرض السلس.
 
 ### [حفظ ملفات DXF باستخدام Aspose.CAD في Java](./save-dxf-files/)
-Learn how to save DXF files in Java using Aspose.CAD. Follow our step‑by‑step guide for efficient CAD file management.
+تعلم كيفية حفظ ملفات DXF في Java باستخدام Aspose.CAD. اتبع دليلنا خطوة بخطوة لإدارة ملفات CAD بفعالية.
 
-## الأخطاء الشائعة والنصائح
+## المشكلات الشائعة والنصائح
 
-- **الخطوط المفقودة** – تأكد من تثبيت أي خطوط مخصصة مستخدمة في ملفات DWG/DXF الأصلية على الخادم؛ وإلا قد يعود النص إلى الخط الافتراضي.  
-- **الملفات الكبيرة** – عند تحويل ملفات DXF الكبيرة جداً إلى PDF، فكر في زيادة حجم الذاكرة المخصصة للـ JVM (`-Xmx2g`) لتجنب `OutOfMemoryError`.  
-- **رؤية الطبقة** – إذا لم تظهر طبقة في PDF المُصدَّر، تحقق من أن علم `IsVisible` الخاص بها مضبوط على `true` قبل التحويل.  
-- **عبء التتبع** – تمكين التتبع يضيف بيانات تعريفية إلى الملف؛ عطلها في الإصدارات النهائية للإنتاج للحفاظ على صغر حجم الملف.
+- **Missing fonts** – تأكد من تثبيت أي خطوط مخصصة مستخدمة في ملفات DWG/DXF الأصلية على الخادم؛ وإلا قد يعود النص إلى خط افتراضي.  
+- **Large files** – عند تحويل ملفات DXF كبيرة جدًا إلى PDF، فكر في زيادة حجم ذاكرة JVM (`-Xmx2g`) لتجنب `OutOfMemoryError`.  
+- **Layer visibility** – إذا لم تظهر طبقة في PDF المُصدّر، تحقق من أن علم `IsVisible` الخاص بها مضبوط على `true` قبل التحويل.  
+- **Tracking overhead** – إضافة التتبع يضيف بيانات تعريفية إلى الملف؛ عطلها للإصدارات النهائية لتقليل حجم الملف.
 
 ## الأسئلة المتكررة
 
 **س: هل يمكنني تحويل DXF إلى PDF دون تثبيت أي برنامج CAD؟**  
-A: نعم. يقوم Aspose.CAD للـ Java بإجراء التحويل بالكامل في الكود، مما يلغي الحاجة إلى تطبيقات CAD خارجية.
+ج: نعم. يقوم Aspose.CAD للـ Java بإجراء التحويل بالكامل في الشيفرة، مما يلغي الحاجة إلى تطبيقات CAD خارجية.
 
 **س: هل تدعم المكتبة التحويل الدفعي لعدة ملفات DXF؟**  
-A: بالتأكيد. يمكنك التكرار عبر مجموعة من الملفات واستدعاء نفس API التصدير لكل منها، ومعالجتها بشكل غير متزامن إذا لزم الأمر.
+ج: بالتأكيد. يمكنك تكرار مجموعة من الملفات واستدعاء نفس API التصدير لكل منها، مع إمكانية المعالجة غير المتزامنة إذا لزم الأمر.
 
-**س: هل هناك أي قيود ترخيص للنشر التجاري؟**  
-A: يتطلب الترخيص التجاري للاستخدام في الإنتاج. يتوفر ترخيص تجريبي مجاني للتطوير والاختبار.
+**س: هل هناك قيود ترخيصية للنشر التجاري؟**  
+ج: يلزم الحصول على ترخيص تجاري للاستخدام في الإنتاج. يتوفر ترخيص تجريبي مجاني للتطوير والاختبار.
 
 **س: كيف أحافظ على معلومات الطبقة عند التحويل إلى PDF؟**  
-A: بشكل افتراضي، يحتفظ Aspose.CAD بالطبقات. يمكنك أيضًا التحكم في رؤية الطبقة عبر كائن `LayerOptions` قبل التصدير.
+ج: بشكل افتراضي، يحتفظ Aspose.CAD بالطبقات. يمكنك أيضًا التحكم في رؤية الطبقة عبر كائن `LayerOptions` قبل التصدير.
 
-**س: هل يمكن تحويل رسم DXF مباشرةً إلى تنسيق صورة مثل PNG؟**  
-A: نعم – استخدم الفئة `ImageExportOptions` لتصوير الرسم إلى تنسيقات نقطية مثل PNG أو JPEG أو BMP.
+**س: هل يمكن تحويل رسم DXF مباشرة إلى صيغة صورة مثل PNG؟**  
+ج: نعم – استخدم فئة `ImageExportOptions` لعرض الرسم إلى صيغ نقطية مثل PNG أو JPEG أو BMP.
 
----
-
-**آخر تحديث:** 2026-08-02  
-**تم الاختبار مع:** Aspose.CAD for Java 24.12  
-**المؤلف:** Aspose
+**Last Updated:** 2026-11-05  
+**Tested With:** Aspose.CAD للـ Java 24.12  
+**Author:** Aspose
 
 ## دروس ذات صلة
 
 - [تحويل DXF إلى WMF باستخدام Aspose.CAD في Java](/cad/java/additional-features/export-dxf-to-wmf/)
-- [إنشاء PDF من DXF: تصدير الطبقة باستخدام Aspose.CAD للـ Java](/cad/java/additional-features/export-specific-layer-to-pdf/)
+- [إنشاء PDF من DXF: تصدير طبقة مع Aspose.CAD للـ Java](/cad/java/additional-features/export-specific-layer-to-pdf/)
 - [إنشاء PDF من تخطيط DXF إلى PDF باستخدام Aspose.CAD للـ Java](/cad/java/additional-features/export-specific-layout-to-pdf/)
 
 
