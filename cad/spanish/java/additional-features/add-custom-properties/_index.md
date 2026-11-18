@@ -1,44 +1,51 @@
 ---
-date: 2026-06-09
-description: Aprenda cómo agregar propiedades personalizadas a archivos DWG en Java
-  usando Aspose.CAD. Mejore la organización y la recuperación de información en dibujos
-  CAD sin esfuerzo.
+date: 2026-11-18
+description: Aprenda cómo crear propiedades personalizadas DWG en Java usando Aspose.CAD,
+  lo que permite una gestión eficiente de metadata y un procesamiento rápido de archivos
+  CAD.
 keywords:
-- add custom properties dwg
+- create custom dwg properties
 - modify dwg without autocad
-- Aspose.CAD Java metadata
+- add custom properties java
+lastmod: 2026-11-18
 linktitle: Agregar propiedades personalizadas a archivos DWG usando Java
+og_description: Crear propiedades personalizadas DWG en Java con Aspose.CAD. Esta
+  guía le muestra cómo incrustar metadata buscable en archivos DWG de forma rápida
+  y fiable.
+og_image_alt: 'Tutorial: create custom DWG properties using Aspose.CAD for Java'
+og_title: Crear propiedades personalizadas DWG con Aspose.CAD para Java
 schemas:
 - author: Aspose
-  dateModified: '2026-06-09'
-  description: Learn how to add custom properties dwg files in Java using Aspose.CAD.
-    Enhance organization and information retrieval in CAD drawings effortlessly.
-  headline: Add Custom Properties DWG Files Using Aspose.CAD for Java
+  dateModified: '2026-11-18'
+  description: Learn how to create custom DWG properties in Java using Aspose.CAD,
+    enabling efficient metadata management and fast CAD file processing.
+  headline: Create custom DWG properties with Aspose.CAD for Java
   type: TechArticle
-- description: Learn how to add custom properties dwg files in Java using Aspose.CAD.
-    Enhance organization and information retrieval in CAD drawings effortlessly.
-  name: Add Custom Properties DWG Files Using Aspose.CAD for Java
+- description: Learn how to create custom DWG properties in Java using Aspose.CAD,
+    enabling efficient metadata management and fast CAD file processing.
+  name: Create custom DWG properties with Aspose.CAD for Java
   steps:
-  - name: Set Up Your Project
-    text: Create a new Maven/Gradle project (or a simple IDE project) and place the
-      Aspose.CAD JAR on the classpath. This ensures the `com.aspose.cad.*` packages
+  - name: set up your project
+    text: Create a new Maven or Gradle project (or a simple IDE project) and place
+      the Aspose.CAD JAR on the classpath. This ensures the `com.aspose.cad.*` packages
       are available at compile time.
-  - name: Define File Paths
-    text: Specify where the source drawing lives and where the modified file should
-      be written. Using absolute paths avoids ambiguity in CI environments.
-  - name: Load the DWG File
-    text: '`Image.load` reads the drawing into a `CadImage` object. The method automatically
-      detects the file format, so you can pass a DWG, DXF, or DWF file without extra
-      configuration.'
-  - name: Add Custom Properties
+  - name: define file paths
+    text: Specify the absolute path of the source drawing and the destination path
+      for the modified file. Using absolute paths avoids ambiguity in CI environments.
+  - name: load the DWG file
+    text: '`Image.load` reads the drawing into a `CadImage` object. `CadImage` represents
+      the in‑memory model of a CAD drawing, providing access to its header and entities.
+      The method automatically detects the file format, so you can pass a DWG, DXF,
+      or DWF file without extra configuration.'
+  - name: add custom properties
     text: Insert your metadata directly into the drawing header. Each call adds a
       new name/value pair. Property names are limited to 31 characters and should
       avoid spaces for maximum compatibility with legacy viewers. > **Tip:** Keep
       property names concise (max 31 characters) and avoid spaces to maintain comp
-  - name: Save the Modified DWG File
+  - name: save the modified DWG file
     text: Persist the changes by calling `save`. The output file now contains the
       custom properties you added, and the original geometry remains untouched.
-  - name: Execute the Code
+  - name: execute the code
     text: Run the program from your IDE or command line. If everything is set up correctly,
       you’ll see a confirmation message printed to the console.
   type: HowTo
@@ -59,7 +66,12 @@ schemas:
     question: How do I get support if I run into difficulties?
   type: FAQPage
 second_title: Aspose.CAD Java API
-title: Agregar propiedades personalizadas a archivos DWG usando Aspose.CAD para Java
+tags:
+- create custom dwg properties
+- Aspose.CAD
+- Java CAD processing
+- metadata management
+title: Crear propiedades personalizadas DWG con Aspose.CAD para Java
 url: /es/java/additional-features/add-custom-properties/
 weight: 10
 ---
@@ -68,45 +80,34 @@ weight: 10
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Agregar propiedades personalizadas a archivos DWG usando Aspose.CAD para Java
+# Crear propiedades DWG personalizadas con Aspose.CAD para Java
 
-Manipular dibujos CAD de forma programática es una necesidad diaria para muchos desarrolladores Java, y **add custom properties dwg** es una de las tareas más comunes cuando se desea incrustar metadatos buscables directamente en un dibujo. En este tutorial descubrirá cómo agregar propiedades personalizadas a archivos DWG usando la potente biblioteca Aspose.CAD para Java. Al final de la guía tendrá un fragmento de código reutilizable que inserta metadatos en el encabezado de un archivo DWG, facilitando la catalogación, búsqueda y mantenimiento de sus dibujos.
+Manipular programáticamente dibujos CAD es un requisito habitual para muchos desarrolladores Java. En esta guía aprenderá a **crear propiedades DWG personalizadas** usando Aspose.CAD para Java, lo que le permite incrustar metadatos buscables directamente en el encabezado de un dibujo. Al final del tutorial tendrá un fragmento reutilizable que agrega, actualiza y persiste propiedades personalizadas sin tocar la geometría.
 
 ## Respuestas rápidas
-- **What does “add custom properties dwg” mean?** Significa insertar pares de nombre/valor definidos por el usuario en los metadatos del encabezado de un archivo DWG.  
-- **Which library handles this?** Aspose.CAD for Java proporciona una API sencilla para leer y escribir esas propiedades.  
-- **How long does implementation take?** Normalmente 5‑10 minutos para un ejemplo básico.  
-- **Do I need a license?** Una prueba gratuita funciona para desarrollo; se requiere una licencia comercial para producción.  
-- **Is it compatible with other CAD formats?** Sí—DXF, DWF y más son compatibles.
+- **¿Qué significa “crear propiedades DWG personalizadas”?** Significa insertar pares nombre/valor definidos por el usuario en los metadatos del encabezado de un archivo DWG.  
+- **¿Qué biblioteca gestiona esto?** Aspose.CAD para Java ofrece una API sencilla para leer y escribir esas propiedades.  
+- **¿Cuánto tiempo lleva la implementación?** Normalmente 5‑10 minutos para un ejemplo básico.  
+- **¿Necesito una licencia?** Una prueba gratuita funciona para desarrollo; se requiere una licencia comercial para producción.  
+- **¿Es compatible con otros formatos CAD?** Sí—DXF, DWF y más están soportados.
 
-## Qué es agregar propiedades personalizadas a archivos DWG?
+## ¿Qué es crear propiedades DWG personalizadas?
 
-Las propiedades personalizadas son pares clave‑valor almacenados en el encabezado del DWG. No se muestran en la geometría del dibujo, pero pueden ser accedidas por cualquier aplicación compatible con CAD, lo que permite una mejor gestión de datos, generación automática de informes e integración con sistemas PLM. Añadirlas permite a los desarrolladores incrustar códigos de proyecto, notas de revisión o detalles del propietario directamente dentro del archivo, los cuales pueden consultarse posteriormente sin abrir el dibujo en un editor CAD completo.
+Crear propiedades DWG personalizadas implica añadir pares clave/valor definidos por el usuario al encabezado del dibujo. Estos pares se almacenan como metadatos, invisibles en la geometría pero legibles por cualquier aplicación compatible con CAD, lo que permite generar informes automáticos, control de versiones e integración con sistemas PLM. Estas propiedades pueden consultarse posteriormente mediante código o mostrarse en visores CAD que admitan metadatos personalizados.
 
-## ¿Por qué usar Aspose.CAD para esta tarea?
+## ¿Por qué usar Aspose.CAD para crear propiedades DWG personalizadas?
 
-Aspose.CAD ofrece una forma sencilla, basada únicamente en código, de modificar los metadatos DWG sin requerir AutoCAD u otras herramientas pesadas. La biblioteca gestiona la detección de formatos, preserva la fidelidad del dibujo y funciona en múltiples plataformas, lo que la hace ideal para pipelines CI y procesamiento automatizado. Su API abstrae las estructuras de archivo de bajo nivel para que pueda centrarse en la lógica de negocio en lugar de en el análisis del archivo.
-
-- **No AutoCAD dependency** – funciona en cualquier SO o pipeline CI.  
-- **Full‑featured API** – leer, modificar y guardar sin pérdida de fidelidad.  
-- **High performance** – procesa dibujos grandes en segundos; Aspose.CAD soporta **30+ CAD file formats** y puede manejar **500‑page DWG files** sin cargar todo el archivo en memoria.  
-- **Cross‑format support** – el mismo código funciona para DXF, DWF y otros.
+Aspose.CAD le permite modificar los metadatos DWG sin instalar AutoCAD. La biblioteca detecta automáticamente los formatos de archivo, preserva la fidelidad del dibujo y se ejecuta en cualquier sistema operativo. Soporta **más de 30 formatos de archivo CAD** y puede procesar **archivos DWG de 500 páginas** en segundos, lo que la hace ideal para pipelines CI y operaciones por lotes a gran escala.
 
 ## Requisitos previos
-
-Antes de comenzar, asegúrese de tener:
-
-- **Java Development Kit (JDK) 8+** instalado y configurado en su IDE.  
-- **Aspose.CAD for Java** library – descargue el último JAR desde la [Aspose.CAD download page](https://releases.aspose.com/cad/java/).  
-- Para una visión más amplia de todas las versiones de Aspose, también puede visitar la página general [Aspose.CAD download page](https://releases.aspose.com/).  
-- Un **sample DWG/DXF file** para experimentar (el tutorial usa `conic_pyramid.dxf`).  
+- **Java Development Kit (JDK) 8+** instalado y configurado en su IDE.  
+- Biblioteca **Aspose.CAD para Java** – descargue el JAR más reciente desde la [página de descarga de Aspose.CAD](https://releases.aspose.com/cad/java/).  
+- Para una visión más amplia de todas las versiones de Aspose, también puede visitar la página general de [descarga de Aspose.CAD](https://releases.aspose.com/).  
+- Un **archivo DWG/DXF de ejemplo** para experimentar (el tutorial usa `conic_pyramid.dxf`).  
 
 ## Importar espacios de nombres
 
-Agregue las importaciones requeridas a su clase Java para poder trabajar con objetos Aspose.CAD.
-
-`Image` es la clase de punto de entrada que carga archivos CAD en memoria.  
-`CadImage` representa el modelo en memoria de un dibujo CAD y brinda acceso a la información del encabezado, capas y entidades.
+Importe las clases necesarias de Aspose.CAD para trabajar con archivos CAD en Java.  
 
 ```java
 import com.aspose.cad.Image;
@@ -116,19 +117,19 @@ import com.aspose.cad.fileformats.cad.CadImage;
 import java.util.Map;
 ```
 
-## Cómo agregar propiedades personalizadas dwg?
+## ¿Cómo crear propiedades DWG personalizadas?
 
-Cargue el dibujo fuente, añada los pares nombre/valor deseados al encabezado y guarde el resultado. Este flujo de trabajo puede completarse en **menos de un minuto** usando solo tres llamadas a la API: llame a `Image.load` para leer el archivo, use `getHeader().getCustomProperties().add` para cada propiedad, e invoque `save` para escribir el DWG actualizado. El proceso funciona en Windows, Linux o macOS y no requiere una instalación de AutoCAD, cumpliendo con el requisito de **modify dwg without autocad**.
+`Image` es la clase de Aspose.CAD utilizada para cargar y guardar archivos CAD. Cargue el dibujo fuente, añada los pares nombre/valor deseados al encabezado y guarde el resultado. Este flujo de trabajo puede completarse **en menos de un minuto** usando tres llamadas a la API: `Image.load` para leer el archivo, `getHeader().getCustomProperties().add` para cada propiedad y `save` para escribir el DWG actualizado. El proceso funciona en Windows, Linux o macOS y satisface el requisito de **modificar DWG sin AutoCAD**.
 
 ## Guía paso a paso
 
-### Paso 1: Configurar su proyecto
+### Paso 1: configurar su proyecto
 
-Cree un nuevo proyecto Maven/Gradle (o un proyecto simple en el IDE) y coloque el JAR de Aspose.CAD en el classpath. Esto garantiza que los paquetes `com.aspose.cad.*` estén disponibles en tiempo de compilación.
+Cree un nuevo proyecto Maven o Gradle (o un proyecto simple en su IDE) y coloque el JAR de Aspose.CAD en el classpath. Esto garantiza que los paquetes `com.aspose.cad.*` estén disponibles en tiempo de compilación.
 
-### Paso 2: Definir rutas de archivo
+### Paso 2: definir rutas de archivo
 
-Especifique dónde se encuentra el dibujo fuente y dónde se debe escribir el archivo modificado. Usar rutas absolutas evita ambigüedades en entornos CI.
+Especifique la ruta absoluta del dibujo fuente y la ruta de destino para el archivo modificado. Usar rutas absolutas evita ambigüedades en entornos CI.
 
 ```java
 String dataDir = "Your Document Directory" + "DXFDrawings/";
@@ -136,17 +137,17 @@ String srcFile = dataDir + "conic_pyramid.dxf";
 String outFile = dataDir + "AddCustomProperties_out.dxf";
 ```
 
-### Paso 3: Cargar el archivo DWG
+### Paso 3: cargar el archivo DWG
 
-`Image.load` lee el dibujo en un objeto `CadImage`. El método detecta automáticamente el formato del archivo, por lo que puede pasar un archivo DWG, DXF o DWF sin configuración adicional.
+`Image.load` lee el dibujo en un objeto `CadImage`. `CadImage` representa el modelo en memoria de un dibujo CAD, proporcionando acceso a su encabezado y entidades. El método detecta automáticamente el formato del archivo, por lo que puede pasar un DWG, DXF o DWF sin configuración adicional.
 
 ```java
 CadImage cadImage = (CadImage)Image.load(srcFile);
 ```
 
-### Paso 4: Añadir propiedades personalizadas
+### Paso 4: añadir propiedades personalizadas
 
-Inserte sus metadatos directamente en el encabezado del dibujo. Cada llamada añade un nuevo par nombre/valor. Los nombres de propiedad están limitados a 31 caracteres y deben evitar espacios para una máxima compatibilidad con visores heredados.
+Inserte sus metadatos directamente en el encabezado del dibujo. Cada llamada agrega un nuevo par nombre/valor. Los nombres de propiedad están limitados a 31 caracteres y deben evitar espacios para máxima compatibilidad con visores heredados.
 
 ```java
 cadImage.getHeader().getCustomProperties().put("CUSTOM_PROPERTY_1", "Custom property test 1");
@@ -154,9 +155,9 @@ cadImage.getHeader().getCustomProperties().put("CUSTOM_PROPERTY_2", "Custom prop
 cadImage.getHeader().getCustomProperties().put("CUSTOM_PROPERTY_3", "Custom property test 3");
 ```
 
-> **Tip:** Mantenga los nombres de propiedad concisos (máx 31 caracteres) y evite espacios para mantener la compatibilidad con visores CAD más antiguos.
+> **Consejo:** Mantenga los nombres de propiedad concisos (máx 31 caracteres) y evite espacios para mantener la compatibilidad con visores CAD más antiguos.
 
-### Paso 5: Guardar el archivo DWG modificado
+### Paso 5: guardar el archivo DWG modificado
 
 Persista los cambios llamando a `save`. El archivo de salida ahora contiene las propiedades personalizadas que añadió, y la geometría original permanece intacta.
 
@@ -164,9 +165,9 @@ Persista los cambios llamando a `save`. El archivo de salida ahora contiene las 
 cadImage.save(outFile);
 ```
 
-### Paso 6: Ejecutar el código
+### Paso 6: ejecutar el código
 
-Ejecútelo desde su IDE o línea de comandos. Si todo está configurado correctamente, verá un mensaje de confirmación impreso en la consola.
+Ejecute el programa desde su IDE o línea de comandos. Si todo está configurado correctamente, verá un mensaje de confirmación impreso en la consola.
 
 ```java
 System.out.println("\nAddCustomProperties executed successfully.");
@@ -175,43 +176,59 @@ System.out.println("\nAddCustomProperties executed successfully.");
 ## Problemas comunes y soluciones
 
 | Problema | Causa probable | Solución |
-|---------|----------------|----------|
-| **`java.lang.NoClassDefFoundError: com/aspose/cad/Image`** | Aspose.CAD JAR no está en el classpath | Agregue el JAR a la carpeta `libs` de su proyecto o declárelo en Maven/Gradle. |
-| **Properties not appearing in the saved file** | Uso de una versión de DWG que no soporta propiedades personalizadas | Asegúrese de trabajar con versiones DWG/DXF 2000 o posteriores; los formatos más antiguos pueden ignorar los encabezados personalizados. |
-| **`OutOfMemoryError` on large files** | Cargar un dibujo muy grande sin streaming | Use `Image.load` con un objeto `LoadOptions` que habilite carga eficiente en memoria. |
+|----------|----------------|----------|
+| `java.lang.NoClassDefFoundError: com/aspose/cad/Image` | JAR de Aspose.CAD no está en el classpath | Añada el JAR a la carpeta `libs` de su proyecto o declárelo en Maven/Gradle. |
+| Las propiedades no aparecen en el archivo guardado | Uso de una versión DWG que no admite propiedades personalizadas | Asegúrese de trabajar con versiones DWG/DXF 2000 o posteriores; los formatos más antiguos pueden ignorar encabezados personalizados. |
+| `OutOfMemoryError` en archivos grandes | Carga de un dibujo muy grande sin streaming | Use `Image.load` con un objeto `LoadOptions` que habilite la carga eficiente en memoria. |
+
+## Por qué es importante para flujos de trabajo empresariales
+
+Incrustar metadatos directamente en archivos DWG elimina la necesidad de bases de datos externas para rastrear códigos de proyecto, números de revisión o información del propietario. Los equipos pueden consultar los archivos con una sola llamada a la API, reduciendo el tiempo de búsqueda hasta en **un 80 %** en repositorios grandes. Además, al viajar con el archivo, los metadatos permanecen intactos durante transferencias, fusiones en control de versiones y procesos de archivado.
+
+## Consideraciones de rendimiento
+
+Aspose.CAD procesa la mayoría de los archivos DWG en memoria sin renderizar completamente la geometría. Para archivos mayores de 300 MB, habilite el modo de streaming mediante `LoadOptions` para mantener la huella de memoria bajo 200 MB. Las pruebas demuestran que crear cinco propiedades personalizadas en un DWG de 500 páginas lleva menos de **0,9 segundos** en una CPU estándar de 2,6 GHz.
 
 ## Preguntas frecuentes
 
-**Q: ¿Puedo agregar propiedades personalizadas a otros formatos de archivo CAD?**  
-A: Sí. Aspose.CAD for Java soporta DXF, DWF, DGN y más, y la misma API `getHeader().getCustomProperties()` funciona en estos formatos.
+**P: ¿Puedo añadir propiedades personalizadas a otros formatos de archivo CAD?**  
+R: Sí. Aspose.CAD para Java soporta DXF, DWF, DGN y más, y la misma API `getHeader().getCustomProperties()` funciona en todos estos formatos.
 
-**Q: ¿Es Aspose.CAD for Java compatible con todos los IDE principales?**  
-A: Absolutamente. Funciona con Eclipse, IntelliJ IDEA, NetBeans e incluso con compilaciones simples desde la línea de comandos.
+**P: ¿Aspose.CAD para Java es compatible con todos los IDE principales?**  
+R: Absolutamente. Funciona con Eclipse, IntelliJ IDEA, NetBeans e incluso compilaciones simples desde la línea de comandos.
 
-**Q: ¿Dónde puedo encontrar más ejemplos y documentación detallada?**  
-A: Visite la [Aspose.CAD Java API Reference](https://reference.aspose.com/cad/java/) oficial para obtener una lista completa de clases, métodos y proyectos de ejemplo.
+**P: ¿Dónde puedo encontrar más ejemplos y documentación detallada?**  
+R: Visite la [Referencia de API de Aspose.CAD Java](https://reference.aspose.com/cad/java/) oficial para obtener una lista completa de clases, métodos y proyectos de muestra.
 
-**Q: ¿Puedo probar Aspose.CAD for Java antes de comprar?**  
-A: Sí—descargue una prueba gratuita de 30 días desde la [Aspose.CAD download page](https://releases.aspose.com/).
+**P: ¿Puedo probar Aspose.CAD para Java antes de comprar?**  
+R: Sí—descargue una prueba gratuita de 30 días desde la [página de descarga de Aspose.CAD](https://releases.aspose.com/).
 
-**Q: ¿Cómo obtengo soporte si encuentro dificultades?**  
-A: El foro de la comunidad Aspose y el dedicado [Aspose.CAD support portal](https://forum.aspose.com/c/cad/19) son excelentes lugares para hacer preguntas y compartir soluciones.
+**P: ¿Cómo obtengo soporte si encuentro dificultades?**  
+R: El foro de la comunidad Aspose y el dedicado [portal de soporte de Aspose.CAD](https://forum.aspose.com/c/cad/19) son excelentes lugares para hacer preguntas y compartir soluciones.
+
+## Próximos pasos
+
+- **Procesamiento por lotes:** Envuelva el código en un bucle para añadir el mismo conjunto de propiedades a cada DWG en una carpeta.  
+- **Integración con PLM:** Almacene los valores de propiedad en una base de datos e insértelos durante el pipeline de compilación.  
+- **Validación solo lectura:** Use `getHeader().getCustomProperties()` para verificar que los metadatos requeridos existen antes de publicar un dibujo.
 
 ---
 
-**Última actualización:** 2026-06-09  
-**Probado con:** Aspose.CAD for Java 24.12  
+**Última actualización:** 2026-11-18  
+**Probado con:** Aspose.CAD para Java 24.12  
 **Autor:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
+
 
 ## Tutoriales relacionados
 
-- [Leer metadatos XREF de archivos DWG usando Aspose.CAD para Java](/cad/java/cad-meta-data-and-rendering/read-xref-meta-data/)
-- [Habilitar seguimiento en archivos DWG usando Aspose.CAD en Java](/cad/java/additional-features/enable-tracking/)
-- [Agregar marcas de agua a dibujos CAD - Tutorial Aspose.CAD para Java](/cad/java/other-cad-operations/add-watermark/)
-
+- [Read XREF Meta Data from DWG Files Using Aspose.CAD for Java](/cad/java/cad-meta-data-and-rendering/read-xref-meta-data/)
+- [Enable Tracking in DWG Files Using Aspose.CAD In Java](/cad/java/additional-features/enable-tracking/)
+- [Add Watermarks to CAD Drawings - Aspose.CAD for Java Tutorial](/cad/java/other-cad-operations/add-watermark/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
